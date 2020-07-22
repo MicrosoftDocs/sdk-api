@@ -4,7 +4,7 @@ title: IUpdateService::get_IssueDate (wuapi.h)
 description: Gets the date on which the authorization cabinet file was issued.
 helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","IssueDate property","IUpdateService.IssueDate","IUpdateService.get_IssueDate","IUpdateService::IssueDate","IUpdateService::get_IssueDate","IssueDate property [Windows Update Agent]","IssueDate property [Windows Update Agent]","IUpdateService interface","get_IssueDate","wua.iupdateservice_issuedate","wuapi/IUpdateService::IssueDate","wuapi/IUpdateService::get_IssueDate"]
 old-location: wua\iupdateservice_issuedate.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b60627ec-2f7c-4845-97ab-74514cb82de5
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IssueDate property, IUpdateService.IssueDate, IUpdateService.get_IssueDate, IUpdateService::IssueDate, IUpdateService::get_IssueDate, IssueDate property [Windows Update Agent], IssueDate property [Windows Update Agent],IUpdateService interface, get_IssueDate, wua.iupdateservice_issuedate, wuapi/IUpdateService::IssueDate, wuapi/IUpdateService::get_IssueDate

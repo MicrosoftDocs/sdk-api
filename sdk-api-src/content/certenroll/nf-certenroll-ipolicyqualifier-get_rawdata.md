@@ -4,7 +4,7 @@ title: IPolicyQualifier::get_RawData (certenroll.h)
 description: Retrieves the Distinguished Encoding Rules (DER) encoded qualifier object.
 helpviewer_keywords: ["IPolicyQualifier interface [Security]","RawData property","IPolicyQualifier.RawData","IPolicyQualifier.get_RawData","IPolicyQualifier::RawData","IPolicyQualifier::get_RawData","RawData property [Security]","RawData property [Security]","IPolicyQualifier interface","certenroll/IPolicyQualifier::RawData","certenroll/IPolicyQualifier::get_RawData","get_RawData","security.ipolicyqualifier_rawdata_property"]
 old-location: security\ipolicyqualifier_rawdata_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a654f60c-7f67-4fe2-847b-e8c5f91fde80
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],RawData property, IPolicyQualifier.RawData, IPolicyQualifier.get_RawData, IPolicyQualifier::RawData, IPolicyQualifier::get_RawData, RawData property [Security], RawData property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::RawData, certenroll/IPolicyQualifier::get_RawData, get_RawData, security.ipolicyqualifier_rawdata_property

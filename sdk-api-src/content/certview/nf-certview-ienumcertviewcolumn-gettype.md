@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::GetType (certview.h)
 description: Retrieves the data type of the current column in the column-enumeration sequence.
 helpviewer_keywords: ["GetType","GetType method [Security]","GetType method [Security]","IEnumCERTVIEWCOLUMN interface","IEnumCERTVIEWCOLUMN interface [Security]","GetType method","IEnumCERTVIEWCOLUMN.GetType","IEnumCERTVIEWCOLUMN::GetType","_certsrv_ienumcertviewcolumn_gettype","certview/IEnumCERTVIEWCOLUMN::GetType","security.ienumcertviewcolumn_gettype"]
 old-location: security\ienumcertviewcolumn_gettype.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetType method, IEnumCERTVIEWCOLUMN.GetType, IEnumCERTVIEWCOLUMN::GetType, _certsrv_ienumcertviewcolumn_gettype, certview/IEnumCERTVIEWCOLUMN::GetType, security.ienumcertviewcolumn_gettype

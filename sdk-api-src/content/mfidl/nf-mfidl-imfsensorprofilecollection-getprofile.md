@@ -4,7 +4,7 @@ title: IMFSensorProfileCollection::GetProfile (mfidl.h)
 description: Retrieves the specified profile.
 helpviewer_keywords: ["GetProfile","GetProfile method [Media Foundation]","GetProfile method [Media Foundation]","IMFSensorProfileCollection interface","IMFSensorProfileCollection interface [Media Foundation]","GetProfile method","IMFSensorProfileCollection.GetProfile","IMFSensorProfileCollection::GetProfile","mf.imfsensorprofilecollection_getprofile","mfidl/IMFSensorProfileCollection::GetProfile"]
 old-location: mf\imfsensorprofilecollection_getprofile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3E229A12-D53A-493F-9EFB-EA28131ABB10
 ms.date: 12/05/2018
 ms.keywords: GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],GetProfile method, IMFSensorProfileCollection.GetProfile, IMFSensorProfileCollection::GetProfile, mf.imfsensorprofilecollection_getprofile, mfidl/IMFSensorProfileCollection::GetProfile

@@ -4,7 +4,7 @@ title: CryptGetKeyParam function (wincrypt.h)
 description: Retrieves data that governs the operations of a key.
 helpviewer_keywords: ["CryptGetKeyParam","CryptGetKeyParam function [Security]","KP_ALGID","KP_BLOCKLEN","KP_CERTIFICATE","KP_EFFECTIVE_KEYLEN","KP_G","KP_GET_USE_COUNT","KP_IV","KP_KEYLEN","KP_KEYVAL","KP_MODE","KP_MODE_BITS","KP_P","KP_PADDING","KP_PERMISSIONS","KP_Q","KP_SALT","KP_VERIFY_PARAMS","_crypto2_cryptgetkeyparam","security.cryptgetkeyparam","wincrypt/CryptGetKeyParam"]
 old-location: security\cryptgetkeyparam.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 07956d74-0e22-484b-9bf1-e0184a2ff32f
 ms.date: 12/05/2018
 ms.keywords: CryptGetKeyParam, CryptGetKeyParam function [Security], KP_ALGID, KP_BLOCKLEN, KP_CERTIFICATE, KP_EFFECTIVE_KEYLEN, KP_G, KP_GET_USE_COUNT, KP_IV, KP_KEYLEN, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_Q, KP_SALT, KP_VERIFY_PARAMS, _crypto2_cryptgetkeyparam, security.cryptgetkeyparam, wincrypt/CryptGetKeyParam

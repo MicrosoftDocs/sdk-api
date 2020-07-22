@@ -4,7 +4,7 @@ title: IX509AttributeArchiveKey::InitializeDecode (certenroll.h)
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the encrypted private key.
 helpviewer_keywords: ["IX509AttributeArchiveKey interface [Security]","InitializeDecode method","IX509AttributeArchiveKey.InitializeDecode","IX509AttributeArchiveKey::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509AttributeArchiveKey interface","certenroll/IX509AttributeArchiveKey::InitializeDecode","security.ix509attributearchivekey_initializedecode_method"]
 old-location: security\ix509attributearchivekey_initializedecode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeDecode method, IX509AttributeArchiveKey.InitializeDecode, IX509AttributeArchiveKey::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeDecode, security.ix509attributearchivekey_initializedecode_method

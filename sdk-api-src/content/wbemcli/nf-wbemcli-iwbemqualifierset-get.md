@@ -4,7 +4,7 @@ title: IWbemQualifierSet::Get (wbemcli.h)
 description: The IWbemQualifierSet::Get method gets the specified named qualifier, if found.
 helpviewer_keywords: ["Get","Get method [Windows Management Instrumentation]","Get method [Windows Management Instrumentation]","IWbemQualifierSet interface","IWbemQualifierSet interface [Windows Management Instrumentation]","Get method","IWbemQualifierSet.Get","IWbemQualifierSet::Get","_hmm_iwbemqualifierset_get","wbemcli/IWbemQualifierSet::Get","wmi.iwbemqualifierset_get"]
 old-location: wmi\iwbemqualifierset_get.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: f4663cd1-0dc9-4021-918e-d5eda1648429
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Get method, IWbemQualifierSet.Get, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get

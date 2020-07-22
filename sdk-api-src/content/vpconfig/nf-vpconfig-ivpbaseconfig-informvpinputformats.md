@@ -4,7 +4,7 @@ title: IVPBaseConfig::InformVPInputFormats (vpconfig.h)
 description: The InformVPInputFormats method informs the device what video formats the video port supports.
 helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","InformVPInputFormats method","IVPBaseConfig.InformVPInputFormats","IVPBaseConfig::InformVPInputFormats","IVPBaseConfigInformVPInputFormats","InformVPInputFormats","InformVPInputFormats method [DirectShow]","InformVPInputFormats method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_informvpinputformats","vpconfig/IVPBaseConfig::InformVPInputFormats"]
 old-location: dshow\ivpbaseconfig_informvpinputformats.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d9b4ea2b-ad71-4226-9aad-e68a9cb26274
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],InformVPInputFormats method, IVPBaseConfig.InformVPInputFormats, IVPBaseConfig::InformVPInputFormats, IVPBaseConfigInformVPInputFormats, InformVPInputFormats, InformVPInputFormats method [DirectShow], InformVPInputFormats method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_informvpinputformats, vpconfig/IVPBaseConfig::InformVPInputFormats

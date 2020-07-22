@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_DESCRIPTOR
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage device descriptor data for a device.
 helpviewer_keywords: ["*PSTORAGE_DEVICE_DESCRIPTOR","PSTORAGE_DEVICE_DESCRIPTOR","PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Files]","STORAGE_DEVICE_DESCRIPTOR","STORAGE_DEVICE_DESCRIPTOR structure [Files]","fs.storage_device_descriptor","winioctl/PSTORAGE_DEVICE_DESCRIPTOR","winioctl/STORAGE_DEVICE_DESCRIPTOR"]
 old-location: fs\storage_device_descriptor.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f84f8a88-b6fc-4b22-b858-52955c8d537d
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Files], fs.storage_device_descriptor, winioctl/PSTORAGE_DEVICE_DESCRIPTOR, winioctl/STORAGE_DEVICE_DESCRIPTOR'

@@ -4,7 +4,7 @@ title: IFilterChain::StartChain (strmif.h)
 description: The StartChain method switches all the filters in a filter chain into a running state.
 helpviewer_keywords: ["IFilterChain interface [DirectShow]","StartChain method","IFilterChain.StartChain","IFilterChain::StartChain","IFilterChainStartChain","StartChain","StartChain method [DirectShow]","StartChain method [DirectShow]","IFilterChain interface","dshow.ifilterchain_startchain","strmif/IFilterChain::StartChain"]
 old-location: dshow\ifilterchain_startchain.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 095a8c28-d0f2-4c0d-9e96-eefd5786b88d
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],StartChain method, IFilterChain.StartChain, IFilterChain::StartChain, IFilterChainStartChain, StartChain, StartChain method [DirectShow], StartChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain

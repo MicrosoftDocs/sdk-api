@@ -4,7 +4,7 @@ title: IVdsDisk::QueryExtents (vds.h)
 description: Returns the details of all the extents on a disk.
 helpviewer_keywords: ["IVdsDisk interface [VDS]","QueryExtents method","IVdsDisk.QueryExtents","IVdsDisk::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsDisk interface","base.ivdsdisk_queryextents","vds/IVdsDisk::QueryExtents"]
 old-location: base\ivdsdisk_queryextents.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2e7de42f-da7a-41a7-b38e-849ab8d72ab2
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk interface [VDS],QueryExtents method, IVdsDisk.QueryExtents, IVdsDisk::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDisk interface, base.ivdsdisk_queryextents, vds/IVdsDisk::QueryExtents

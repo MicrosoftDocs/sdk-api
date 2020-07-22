@@ -4,7 +4,7 @@ title: CertAddEnhancedKeyUsageIdentifier function (wincrypt.h)
 description: The CertAddEnhancedKeyUsageIdentifier function adds a usage identifier object identifier (OID) to the enhanced key usage (EKU) extended property of the certificate.
 helpviewer_keywords: ["CertAddEnhancedKeyUsageIdentifier","CertAddEnhancedKeyUsageIdentifier function [Security]","_crypto2_certaddenhancedkeyusageidentifier","security.certaddenhancedkeyusageidentifier","wincrypt/CertAddEnhancedKeyUsageIdentifier"]
 old-location: security\certaddenhancedkeyusageidentifier.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1bec8d2f-aa43-4a8b-9414-c3a4e5fcb470
 ms.date: 12/05/2018
 ms.keywords: CertAddEnhancedKeyUsageIdentifier, CertAddEnhancedKeyUsageIdentifier function [Security], _crypto2_certaddenhancedkeyusageidentifier, security.certaddenhancedkeyusageidentifier, wincrypt/CertAddEnhancedKeyUsageIdentifier

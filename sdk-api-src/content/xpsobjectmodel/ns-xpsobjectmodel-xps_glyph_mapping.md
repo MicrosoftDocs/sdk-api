@@ -4,7 +4,7 @@ title: XPS_GLYPH_MAPPING (xpsobjectmodel.h)
 description: Describes a glyph-to-index mapping.
 helpviewer_keywords: ["XPS_GLYPH_MAPPING","XPS_GLYPH_MAPPING structure [XPS Documents and Packaging]","xps.xps_glyph_mapping","xpsobjectmodel/XPS_GLYPH_MAPPING"]
 old-location: xps\xps_glyph_mapping.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5cc76cba-66e4-4853-969b-a99ec7bb22f3
 ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and Packaging], xps.xps_glyph_mapping, xpsobjectmodel/XPS_GLYPH_MAPPING

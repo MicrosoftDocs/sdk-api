@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation (casetup.h)
 description: Defines a set of private key properties that are used for setup of certification authority (CA) or Microsoft Simple Certificate Enrollment Protocol (SCEP) roles.
 helpviewer_keywords: ["ICertSrvSetupKeyInformation","ICertSrvSetupKeyInformation interface [Security]","ICertSrvSetupKeyInformation interface [Security]","described","casetup/ICertSrvSetupKeyInformation","security.icertsrvsetupkeyinformation"]
 old-location: security\icertsrvsetupkeyinformation.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d27c9ba5-ddee-4c9c-b812-e61b974b515a
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation, ICertSrvSetupKeyInformation interface [Security], ICertSrvSetupKeyInformation interface [Security],described, casetup/ICertSrvSetupKeyInformation, security.icertsrvsetupkeyinformation

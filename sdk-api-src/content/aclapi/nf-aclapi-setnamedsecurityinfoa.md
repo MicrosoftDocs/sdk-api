@@ -4,7 +4,7 @@ title: SetNamedSecurityInfoA function (aclapi.h)
 description: Sets specified security information in the security descriptor of a specified object.
 helpviewer_keywords: ["SetNamedSecurityInfo","SetNamedSecurityInfo function [Security]","SetNamedSecurityInfoA","SetNamedSecurityInfoW","_win32_setnamedsecurityinfo","aclapi/SetNamedSecurityInfo","aclapi/SetNamedSecurityInfoA","aclapi/SetNamedSecurityInfoW","security.setnamedsecurityinfo"]
 old-location: security\setnamedsecurityinfo.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
 ms.date: 12/05/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo

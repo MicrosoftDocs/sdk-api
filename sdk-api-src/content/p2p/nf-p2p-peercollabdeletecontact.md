@@ -4,7 +4,7 @@ title: PeerCollabDeleteContact function (p2p.h)
 description: Deletes a contact from the local contact store associated with the caller.
 helpviewer_keywords: ["PeerCollabDeleteContact","PeerCollabDeleteContact function [Peer Networking]","p2p.peercollabdeletecontact","p2p/PeerCollabDeleteContact"]
 old-location: p2p\peercollabdeletecontact.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b901ec82-69d2-4a1c-b316-37f209af2b19
 ms.date: 12/05/2018
 ms.keywords: PeerCollabDeleteContact, PeerCollabDeleteContact function [Peer Networking], p2p.peercollabdeletecontact, p2p/PeerCollabDeleteContact

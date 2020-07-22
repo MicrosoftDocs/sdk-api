@@ -4,7 +4,7 @@ title: IAMMultiMediaStream::OpenFile (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The OpenFile method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
 helpviewer_keywords: ["IAMMultiMediaStream interface [DirectShow]","OpenFile method","IAMMultiMediaStream.OpenFile","IAMMultiMediaStream::OpenFile","IAMMultiMediaStreamOpenFile","OpenFile","OpenFile method [DirectShow]","OpenFile method [DirectShow]","IAMMultiMediaStream interface","amstream/IAMMultiMediaStream::OpenFile","dshow.iammultimediastream_openfile"]
 old-location: dshow\iammultimediastream_openfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile

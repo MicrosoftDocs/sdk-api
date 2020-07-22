@@ -4,7 +4,7 @@ title: CCAB (fci.h)
 description: The CCAB structure contains cabinet information.
 helpviewer_keywords: ["*PCCAB","CCAB","CCAB structure [Windows API]","PCCAB","PCCAB structure pointer [Windows API]","fci/CCAB","fci/PCCAB","winprog.ccab"]
 old-location: winprog\ccab.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: e25cb72b-4c96-40e9-9fd5-2920e4a01d3a
 ms.date: 12/05/2018
 ms.keywords: '*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure pointer [Windows API], fci/CCAB, fci/PCCAB, winprog.ccab'

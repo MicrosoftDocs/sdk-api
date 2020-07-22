@@ -4,7 +4,7 @@ title: STRING (winternl.h)
 description: Used with the RtlUnicodeStringToOemString function.
 helpviewer_keywords: ["*PSTRING","ANSI_STRING","OEM_STRING","OEM_STRING structure [Windows API]","PSTRING","PSTRING structure pointer [Windows API]","STRING","STRING structure [Windows API]","_STRING","_win32_STRING","winprog._win32_string","winternl/OEM_STRING","winternl/PSTRING","winternl/STRING","winui._win32_string"]
 old-location: winprog\_win32_string.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\string.htm
 ms.date: 12/05/2018
 ms.keywords: '*PSTRING, ANSI_STRING, OEM_STRING, OEM_STRING structure [Windows API], PSTRING, PSTRING structure pointer [Windows API], STRING, STRING structure [Windows API], _STRING, _win32_STRING, winprog._win32_string, winternl/OEM_STRING, winternl/PSTRING, winternl/STRING, winui._win32_string'

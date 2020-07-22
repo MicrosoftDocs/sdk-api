@@ -4,7 +4,7 @@ title: IXpsOMPartResources::GetColorProfileResources (xpsobjectmodel.h)
 description: Gets the IXpsOMColorProfileResourceCollection interface that contains the color profiles that are used in the XPS document.
 helpviewer_keywords: ["GetColorProfileResources","GetColorProfileResources method [XPS Documents and Packaging]","GetColorProfileResources method [XPS Documents and Packaging]","IXpsOMPartResources interface","IXpsOMPartResources interface [XPS Documents and Packaging]","GetColorProfileResources method","IXpsOMPartResources.GetColorProfileResources","IXpsOMPartResources::GetColorProfileResources","xps.ixpsompartresources_getcolorprofileresources","xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources"]
 old-location: xps\ixpsompartresources_getcolorprofileresources.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: ad986a95-a77d-4e04-b857-09ee137070e2
 ms.date: 12/05/2018
 ms.keywords: GetColorProfileResources, GetColorProfileResources method [XPS Documents and Packaging], GetColorProfileResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetColorProfileResources method, IXpsOMPartResources.GetColorProfileResources, IXpsOMPartResources::GetColorProfileResources, xps.ixpsompartresources_getcolorprofileresources, xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources

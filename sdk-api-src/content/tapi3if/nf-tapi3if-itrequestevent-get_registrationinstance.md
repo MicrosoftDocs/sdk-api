@@ -4,7 +4,7 @@ title: ITRequestEvent::get_RegistrationInstance (tapi3if.h)
 description: The get_RegistrationInstance method gets the registration instance.
 helpviewer_keywords: ["ITRequestEvent interface [TAPI 2.2]","get_RegistrationInstance method","ITRequestEvent.get_RegistrationInstance","ITRequestEvent::get_RegistrationInstance","_tapi3_itrequestevent_get_registrationinstance","get_RegistrationInstance","get_RegistrationInstance method [TAPI 2.2]","get_RegistrationInstance method [TAPI 2.2]","ITRequestEvent interface","tapi3.itrequestevent_get_registrationinstance","tapi3if/ITRequestEvent::get_RegistrationInstance"]
 old-location: tapi3\itrequestevent_get_registrationinstance.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2fa157f8-fb4d-4163-b496-15bc28cca46b
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_RegistrationInstance method, ITRequestEvent.get_RegistrationInstance, ITRequestEvent::get_RegistrationInstance, _tapi3_itrequestevent_get_registrationinstance, get_RegistrationInstance, get_RegistrationInstance method [TAPI 2.2], get_RegistrationInstance method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_registrationinstance, tapi3if/ITRequestEvent::get_RegistrationInstance

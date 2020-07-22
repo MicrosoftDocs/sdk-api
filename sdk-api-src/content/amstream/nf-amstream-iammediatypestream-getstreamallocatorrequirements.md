@@ -4,7 +4,7 @@ title: IAMMediaTypeStream::GetStreamAllocatorRequirements (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetStreamAllocatorRequirements retrieves the allocator requirements for the stream. This method is not currently implemented.
 helpviewer_keywords: ["GetStreamAllocatorRequirements","GetStreamAllocatorRequirements method [DirectShow]","GetStreamAllocatorRequirements method [DirectShow]","IAMMediaTypeStream interface","IAMMediaTypeStream interface [DirectShow]","GetStreamAllocatorRequirements method","IAMMediaTypeStream.GetStreamAllocatorRequirements","IAMMediaTypeStream::GetStreamAllocatorRequirements","IAMMediaTypeStreamGetStreamAllocatorRequirements","amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements","dshow.iammediatypestream_getstreamallocatorrequirements"]
 old-location: dshow\iammediatypestream_getstreamallocatorrequirements.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0a1ad5c5-0cbf-44a5-833f-951c9934bd19
 ms.date: 12/05/2018
 ms.keywords: GetStreamAllocatorRequirements, GetStreamAllocatorRequirements method [DirectShow], GetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetStreamAllocatorRequirements method, IAMMediaTypeStream.GetStreamAllocatorRequirements, IAMMediaTypeStream::GetStreamAllocatorRequirements, IAMMediaTypeStreamGetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements, dshow.iammediatypestream_getstreamallocatorrequirements

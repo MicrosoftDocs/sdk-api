@@ -4,7 +4,7 @@ title: IVMRSurface9::LockSurface (vmr9.h)
 description: The LockSurface method locks the attached Direct3D surface.
 helpviewer_keywords: ["IVMRSurface9 interface [DirectShow]","LockSurface method","IVMRSurface9.LockSurface","IVMRSurface9::LockSurface","IVMRSurface9LockSurface","LockSurface","LockSurface method [DirectShow]","LockSurface method [DirectShow]","IVMRSurface9 interface","dshow.ivmrsurface9_locksurface","vmr9/IVMRSurface9::LockSurface"]
 old-location: dshow\ivmrsurface9_locksurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fb185898-5d65-48ee-a7be-f4207199f5e9
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],LockSurface method, IVMRSurface9.LockSurface, IVMRSurface9::LockSurface, IVMRSurface9LockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_locksurface, vmr9/IVMRSurface9::LockSurface

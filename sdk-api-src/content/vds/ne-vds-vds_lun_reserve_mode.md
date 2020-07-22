@@ -4,7 +4,7 @@ title: VDS_LUN_RESERVE_MODE (vds.h)
 description: Not supported.This enumeration is reserved for future use.
 helpviewer_keywords: ["VDS_LRM_EXCLUSIVE_RO","VDS_LRM_EXCLUSIVE_RW","VDS_LRM_NONE","VDS_LRM_SHARED_RO","VDS_LRM_SHARED_RW","VDS_LUN_RESERVE_MODE","VDS_LUN_RESERVE_MODE enumeration [VDS]","base.vds_lun_reserve_mode","vds/VDS_LRM_EXCLUSIVE_RO","vds/VDS_LRM_EXCLUSIVE_RW","vds/VDS_LRM_NONE","vds/VDS_LRM_SHARED_RO","vds/VDS_LRM_SHARED_RW","vds/VDS_LUN_RESERVE_MODE"]
 old-location: base\vds_lun_reserve_mode.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 198706a4-3692-4f75-bf68-c56671b752a5
 ms.date: 12/05/2018
 ms.keywords: VDS_LRM_EXCLUSIVE_RO, VDS_LRM_EXCLUSIVE_RW, VDS_LRM_NONE, VDS_LRM_SHARED_RO, VDS_LRM_SHARED_RW, VDS_LUN_RESERVE_MODE, VDS_LUN_RESERVE_MODE enumeration [VDS], base.vds_lun_reserve_mode, vds/VDS_LRM_EXCLUSIVE_RO, vds/VDS_LRM_EXCLUSIVE_RW, vds/VDS_LRM_NONE, vds/VDS_LRM_SHARED_RO, vds/VDS_LRM_SHARED_RW, vds/VDS_LUN_RESERVE_MODE

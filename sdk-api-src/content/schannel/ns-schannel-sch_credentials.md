@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Contains the data for an Schannel credential.
+tech.root: security
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

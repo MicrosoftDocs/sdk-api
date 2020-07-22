@@ -4,7 +4,7 @@ title: uaw_wcslen function (stralign.h)
 description: Retrieves the number of characters in a null-terminated Unicode string.
 helpviewer_keywords: ["stralign/uaw_wcslen","uaw_wcslen","uaw_wcslen function [Windows API]","winprog.uaw_wcslen"]
 old-location: winprog\uaw_wcslen.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 006e09df-9df3-48e8-9eaa-d8e95369424a
 ms.date: 12/05/2018
 ms.keywords: stralign/uaw_wcslen, uaw_wcslen, uaw_wcslen function [Windows API], winprog.uaw_wcslen

@@ -4,7 +4,7 @@ title: IWbemEventSink (wbemprov.h)
 description: Initiates communication with an event provider using a restricted set of queries.
 helpviewer_keywords: ["IWbemEventSink","IWbemEventSink interface [Windows Management Instrumentation]","IWbemEventSink interface [Windows Management Instrumentation]","described","_hmm_iwbemeventsink","wbemprov/IWbemEventSink","wmi.iwbemeventsink"]
 old-location: wmi\iwbemeventsink.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464
 ms.date: 12/05/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], IWbemEventSink interface [Windows Management Instrumentation],described, _hmm_iwbemeventsink, wbemprov/IWbemEventSink, wmi.iwbemeventsink

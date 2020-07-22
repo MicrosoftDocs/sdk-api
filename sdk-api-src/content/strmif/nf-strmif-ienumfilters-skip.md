@@ -4,7 +4,7 @@ title: IEnumFilters::Skip (strmif.h)
 description: The Skip method skips over a specified number of filters.
 helpviewer_keywords: ["IEnumFilters interface [DirectShow]","Skip method","IEnumFilters.Skip","IEnumFilters::Skip","IEnumFiltersSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumFilters interface","dshow.ienumfilters_skip","strmif/IEnumFilters::Skip"]
 old-location: dshow\ienumfilters_skip.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 594e25b1-03a8-4b6c-965c-f34dae9f3d3b
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip, IEnumFilters::Skip, IEnumFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumFilters interface, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip

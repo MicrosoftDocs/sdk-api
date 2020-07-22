@@ -4,7 +4,7 @@ title: FreeEnvironmentStringsA function (processenv.h)
 description: Frees a block of environment strings.
 helpviewer_keywords: ["FreeEnvironmentStrings","FreeEnvironmentStrings function","FreeEnvironmentStringsA","FreeEnvironmentStringsW","_win32_freeenvironmentstrings","base.freeenvironmentstrings","processenv/FreeEnvironmentStrings","processenv/FreeEnvironmentStringsA","processenv/FreeEnvironmentStringsW","winbase/FreeEnvironmentStrings","winbase/FreeEnvironmentStringsA","winbase/FreeEnvironmentStringsW"]
 old-location: base\freeenvironmentstrings.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 8ac73f6e-4b42-4730-bf88-4b671f57b63b
 ms.date: 12/05/2018
 ms.keywords: FreeEnvironmentStrings, FreeEnvironmentStrings function, FreeEnvironmentStringsA, FreeEnvironmentStringsW, _win32_freeenvironmentstrings, base.freeenvironmentstrings, processenv/FreeEnvironmentStrings, processenv/FreeEnvironmentStringsA, processenv/FreeEnvironmentStringsW, winbase/FreeEnvironmentStrings, winbase/FreeEnvironmentStringsA, winbase/FreeEnvironmentStringsW

@@ -4,7 +4,7 @@ title: TRefPointerCollection::EndEnum (refptrco.h)
 description: The EndEnum method ends the enumeration of the collection.
 helpviewer_keywords: ["EndEnum","EndEnum method [Windows Management Instrumentation]","EndEnum method [Windows Management Instrumentation]","TRefPointerCollection interface","TRefPointerCollection interface [Windows Management Instrumentation]","EndEnum method","TRefPointerCollection.EndEnum","TRefPointerCollection::EndEnum","_hmm_trefpointercollection_endenum","refptrco/TRefPointerCollection::EndEnum","wmi.trefpointercollection_endenum"]
 old-location: wmi\trefpointercollection_endenum.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 86dcfc2e-fc73-4030-a63f-5284c2123a21
 ms.date: 12/05/2018
 ms.keywords: EndEnum, EndEnum method [Windows Management Instrumentation], EndEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],EndEnum method, TRefPointerCollection.EndEnum, TRefPointerCollection::EndEnum, _hmm_trefpointercollection_endenum, refptrco/TRefPointerCollection::EndEnum, wmi.trefpointercollection_endenum

@@ -4,7 +4,7 @@ title: IComCRMEvents::OnCRMForce (comsvcs.h)
 description: Generated when a CRM clerk receives a request to force log records to disk, either from the CRM worker or from the CRM compensator.
 helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMForce method","IComCRMEvents.OnCRMForce","IComCRMEvents::OnCRMForce","OnCRMForce","OnCRMForce method [COM+]","OnCRMForce method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMForce","comsvcs/IComCRMEvents::OnCRMForce","cos.icomcrmevents_oncrmforce"]
 old-location: cos\icomcrmevents_oncrmforce.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 92f2088b-4d74-4d33-9953-0f5229f6303c
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMForce method, IComCRMEvents.OnCRMForce, IComCRMEvents::OnCRMForce, OnCRMForce, OnCRMForce method [COM+], OnCRMForce method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMForce, comsvcs/IComCRMEvents::OnCRMForce, cos.icomcrmevents_oncrmforce

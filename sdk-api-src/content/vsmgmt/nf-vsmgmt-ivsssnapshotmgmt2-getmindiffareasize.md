@@ -4,7 +4,7 @@ title: IVssSnapshotMgmt2::GetMinDiffAreaSize (vsmgmt.h)
 description: Returns the current minimum size of the shadow copy storage area.
 helpviewer_keywords: ["GetMinDiffAreaSize","GetMinDiffAreaSize method [VSS]","GetMinDiffAreaSize method [VSS]","IVssSnapshotMgmt2 interface","IVssSnapshotMgmt2 interface [VSS]","GetMinDiffAreaSize method","IVssSnapshotMgmt2.GetMinDiffAreaSize","IVssSnapshotMgmt2::GetMinDiffAreaSize","base.ivsssnapshotmgmt2_getmindiffareasize","vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize"]
 old-location: base\ivsssnapshotmgmt2_getmindiffareasize.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: d1ee4499-07cb-4373-a3c9-892129a257db
 ms.date: 12/05/2018
 ms.keywords: GetMinDiffAreaSize, GetMinDiffAreaSize method [VSS], GetMinDiffAreaSize method [VSS],IVssSnapshotMgmt2 interface, IVssSnapshotMgmt2 interface [VSS],GetMinDiffAreaSize method, IVssSnapshotMgmt2.GetMinDiffAreaSize, IVssSnapshotMgmt2::GetMinDiffAreaSize, base.ivsssnapshotmgmt2_getmindiffareasize, vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize

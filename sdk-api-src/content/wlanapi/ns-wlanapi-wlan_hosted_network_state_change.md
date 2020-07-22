@@ -4,7 +4,7 @@ title: WLAN_HOSTED_NETWORK_STATE_CHANGE (wlanapi.h)
 description: Contains information about a network state change on the wireless Hosted Network.
 helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_STATE_CHANGE","PWLAN_HOSTED_NETWORK_STATE_CHANGE","PWLAN_HOSTED_NETWORK_STATE_CHANGE structure pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_STATE_CHANGE","WLAN_HOSTED_NETWORK_STATE_CHANGE structure [NativeWIFI]","nwifi.wlan_hosted_network_state_change","wlanapi/PWLAN_HOSTED_NETWORK_STATE_CHANGE","wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE"]
 old-location: nwifi\wlan_hosted_network_state_change.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e05607fd-da1e-49ae-b2eb-3ac4758df84c
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATE_CHANGE, WLAN_HOSTED_NETWORK_STATE_CHANGE structure [NativeWIFI], nwifi.wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE'

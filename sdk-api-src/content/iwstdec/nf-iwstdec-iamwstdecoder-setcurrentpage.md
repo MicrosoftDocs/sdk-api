@@ -4,7 +4,7 @@ title: IAMWstDecoder::SetCurrentPage (iwstdec.h)
 description: Downstream filters use the SetCurrentPage method to assign the current page.
 helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetCurrentPage method","IAMWstDecoder.SetCurrentPage","IAMWstDecoder::SetCurrentPage","IAMWstDecoderSetCurrentPage","SetCurrentPage","SetCurrentPage method [DirectShow]","SetCurrentPage method [DirectShow]","IAMWstDecoder interface","dshow.iamwstdecoder_setcurrentpage","iwstdec/IAMWstDecoder::SetCurrentPage"]
 old-location: dshow\iamwstdecoder_setcurrentpage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 84f8854d-77a7-4ae3-9fec-c4d6fce7eead
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetCurrentPage method, IAMWstDecoder.SetCurrentPage, IAMWstDecoder::SetCurrentPage, IAMWstDecoderSetCurrentPage, SetCurrentPage, SetCurrentPage method [DirectShow], SetCurrentPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setcurrentpage, iwstdec/IAMWstDecoder::SetCurrentPage

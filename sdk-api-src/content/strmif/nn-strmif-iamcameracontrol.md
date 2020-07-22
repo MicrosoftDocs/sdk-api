@@ -4,7 +4,7 @@ title: IAMCameraControl (strmif.h)
 description: The IAMCameraControl interface controls camera settings such as zoom, pan, aperture adjustment, or shutter speed. To obtain this interface, query the filter that controls the camera.
 helpviewer_keywords: ["IAMCameraControl","IAMCameraControl interface [DirectShow]","IAMCameraControl interface [DirectShow]","described","IAMCameraControlInterface","dshow.iamcameracontrol","strmif/IAMCameraControl"]
 old-location: dshow\iamcameracontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 22bc35f1-76d4-4881-91d1-72f05c24561d
 ms.date: 12/05/2018
 ms.keywords: IAMCameraControl, IAMCameraControl interface [DirectShow], IAMCameraControl interface [DirectShow],described, IAMCameraControlInterface, dshow.iamcameracontrol, strmif/IAMCameraControl

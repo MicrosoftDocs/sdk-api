@@ -4,7 +4,7 @@ title: CryptVerifyMessageSignatureWithKey function (wincrypt.h)
 description: Verifies a signed message's signature by using specified public key information.
 helpviewer_keywords: ["CryptVerifyMessageSignatureWithKey","CryptVerifyMessageSignatureWithKey function [Security]","security.cryptverifymessagesignaturewithkey","wincrypt/CryptVerifyMessageSignatureWithKey"]
 old-location: security\cryptverifymessagesignaturewithkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6fe0f9ee-1838-4eb7-8254-05b878eb8f56
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageSignatureWithKey, CryptVerifyMessageSignatureWithKey function [Security], security.cryptverifymessagesignaturewithkey, wincrypt/CryptVerifyMessageSignatureWithKey

@@ -4,7 +4,7 @@ title: lineSendUserUserInfo function (tapi.h)
 description: The lineSendUserUserInfo function sends user-user information to the remote party on the specified call.
 helpviewer_keywords: ["_tapi2_linesenduseruserinfo","lineSendUserUserInfo","lineSendUserUserInfo function [TAPI 2.2]","tapi/lineSendUserUserInfo","tapi2.linesenduseruserinfo"]
 old-location: tapi2\linesenduseruserinfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 833827a0-bbb2-4df9-87a0-3b2eb1904611
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesenduseruserinfo, lineSendUserUserInfo, lineSendUserUserInfo function [TAPI 2.2], tapi/lineSendUserUserInfo, tapi2.linesenduseruserinfo

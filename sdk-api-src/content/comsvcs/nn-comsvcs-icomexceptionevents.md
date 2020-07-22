@@ -4,7 +4,7 @@ title: IComExceptionEvents (comsvcs.h)
 description: Notifies the subscriber when an unhandled exception occurs in the user's code.
 helpviewer_keywords: ["IComExceptionEvents","IComExceptionEvents interface [COM+]","IComExceptionEvents interface [COM+]","described","_dtc_IComExceptionEvents","comsvcs/IComExceptionEvents","cos.icomexceptionevents"]
 old-location: cos\icomexceptionevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e484cad0-3b7e-4822-bbde-c953cb0301ca
 ms.date: 12/05/2018
 ms.keywords: IComExceptionEvents, IComExceptionEvents interface [COM+], IComExceptionEvents interface [COM+],described, _dtc_IComExceptionEvents, comsvcs/IComExceptionEvents, cos.icomexceptionevents

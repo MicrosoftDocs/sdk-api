@@ -4,7 +4,7 @@ title: WSDXML_TEXT (wsdxmldom.h)
 description: Describes the text in an XML node.
 helpviewer_keywords: ["WSDXML_TEXT","WSDXML_TEXT structure","_WSDXML_TEXT","ncd.wsdxml_text_struct","wsdxmldom/WSDXML_TEXT"]
 old-location: ncd\wsdxml_text_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 44b24ddb-b669-43d0-b8db-0a24f7d020d6
 ms.date: 12/05/2018
 ms.keywords: WSDXML_TEXT, WSDXML_TEXT structure, _WSDXML_TEXT, ncd.wsdxml_text_struct, wsdxmldom/WSDXML_TEXT

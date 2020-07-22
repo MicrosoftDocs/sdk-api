@@ -4,7 +4,7 @@ title: SslEmptyCacheA function (schannel.h)
 description: Removes the specified string from the Schannel cache.
 helpviewer_keywords: ["SslEmptyCache","SslEmptyCache function [Security]","SslEmptyCacheA","SslEmptyCacheW","schannel/SslEmptyCache","schannel/SslEmptyCacheA","schannel/SslEmptyCacheW","security.sslemptycache"]
 old-location: security\sslemptycache.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c914d4e3-657e-45ef-ace8-2cea900a8a76
 ms.date: 12/05/2018
 ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache

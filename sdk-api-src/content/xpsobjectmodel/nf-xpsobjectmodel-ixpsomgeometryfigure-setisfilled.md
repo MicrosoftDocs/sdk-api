@@ -4,7 +4,7 @@ title: IXpsOMGeometryFigure::SetIsFilled (xpsobjectmodel.h)
 description: Sets a value that indicates whether the figure is filled.
 helpviewer_keywords: ["FALSE","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","SetIsFilled method","IXpsOMGeometryFigure.SetIsFilled","IXpsOMGeometryFigure::SetIsFilled","SetIsFilled","SetIsFilled method [XPS Documents and Packaging]","SetIsFilled method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","TRUE","xps.ixpsomgeometryfigure_setisfilled","xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled"]
 old-location: xps\ixpsomgeometryfigure_setisfilled.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled

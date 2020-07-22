@@ -4,7 +4,7 @@ title: VDS_DISK_EXTENT_TYPE (vds.h)
 description: Defines the set of disk extents types. The type can be a partition, volume, or free space.
 helpviewer_keywords: ["VDS_DET_CLUSTER","VDS_DET_DATA","VDS_DET_ESP","VDS_DET_FREE","VDS_DET_LDM","VDS_DET_MSR","VDS_DET_OEM","VDS_DET_UNKNOWN","VDS_DET_UNUSABLE","VDS_DISK_EXTENT_TYPE","VDS_DISK_EXTENT_TYPE enumeration [VDS]","base.vds_disk_extent_type","vds/VDS_DET_CLUSTER","vds/VDS_DET_DATA","vds/VDS_DET_ESP","vds/VDS_DET_FREE","vds/VDS_DET_LDM","vds/VDS_DET_MSR","vds/VDS_DET_OEM","vds/VDS_DET_UNKNOWN","vds/VDS_DET_UNUSABLE","vds/VDS_DISK_EXTENT_TYPE"]
 old-location: base\vds_disk_extent_type.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 3f7a5dba-315b-4757-bd4c-1335c18739eb
 ms.date: 12/05/2018
 ms.keywords: VDS_DET_CLUSTER, VDS_DET_DATA, VDS_DET_ESP, VDS_DET_FREE, VDS_DET_LDM, VDS_DET_MSR, VDS_DET_OEM, VDS_DET_UNKNOWN, VDS_DET_UNUSABLE, VDS_DISK_EXTENT_TYPE, VDS_DISK_EXTENT_TYPE enumeration [VDS], base.vds_disk_extent_type, vds/VDS_DET_CLUSTER, vds/VDS_DET_DATA, vds/VDS_DET_ESP, vds/VDS_DET_FREE, vds/VDS_DET_LDM, vds/VDS_DET_MSR, vds/VDS_DET_OEM, vds/VDS_DET_UNKNOWN, vds/VDS_DET_UNUSABLE, vds/VDS_DISK_EXTENT_TYPE

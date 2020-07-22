@@ -4,7 +4,7 @@ title: IVMRSurfaceAllocatorNotify::ChangeDDrawDevice (strmif.h)
 description: The ChangeDDrawDevice method notifies the VMR that the DirectDraw playback device has changed. For example, on a multi-monitor system, the user has moved the video rectangle from one monitor to another.
 helpviewer_keywords: ["ChangeDDrawDevice","ChangeDDrawDevice method [DirectShow]","ChangeDDrawDevice method [DirectShow]","IVMRSurfaceAllocatorNotify interface","IVMRSurfaceAllocatorNotify interface [DirectShow]","ChangeDDrawDevice method","IVMRSurfaceAllocatorNotify.ChangeDDrawDevice","IVMRSurfaceAllocatorNotify::ChangeDDrawDevice","IVMRSurfaceAllocatorNotifyChangeDDrawDevice","dshow.ivmrsurfaceallocatornotify_changeddrawdevice","strmif/IVMRSurfaceAllocatorNotify::ChangeDDrawDevice"]
 old-location: dshow\ivmrsurfaceallocatornotify_changeddrawdevice.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4fc4a001-7522-45b0-9b55-510f3ee3eb6d
 ms.date: 12/05/2018
 ms.keywords: ChangeDDrawDevice, ChangeDDrawDevice method [DirectShow], ChangeDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],ChangeDDrawDevice method, IVMRSurfaceAllocatorNotify.ChangeDDrawDevice, IVMRSurfaceAllocatorNotify::ChangeDDrawDevice, IVMRSurfaceAllocatorNotifyChangeDDrawDevice, dshow.ivmrsurfaceallocatornotify_changeddrawdevice, strmif/IVMRSurfaceAllocatorNotify::ChangeDDrawDevice

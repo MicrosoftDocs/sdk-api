@@ -4,7 +4,7 @@ title: ICrmCompensator::BeginCommit (comsvcs.h)
 description: Notifies the CRM Compensator of the commit phase of the transaction completion and that records are about to be delivered.
 helpviewer_keywords: ["BeginCommit","BeginCommit method [COM+]","BeginCommit method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","BeginCommit method","ICrmCompensator.BeginCommit","ICrmCompensator::BeginCommit","_dtc_ICrmCompensator_BeginCommit","comsvcs/ICrmCompensator::BeginCommit","cos.icrmcompensator_begincommit"]
 old-location: cos\icrmcompensator_begincommit.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 350f91f9-b019-4c70-9c3e-0d567479d3d0
 ms.date: 12/05/2018
 ms.keywords: BeginCommit, BeginCommit method [COM+], BeginCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginCommit method, ICrmCompensator.BeginCommit, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit

@@ -4,7 +4,7 @@ title: CertFreeCertificateContext function (wincrypt.h)
 description: Frees a certificate context by decrementing its reference count. When the reference count goes to zero, CertFreeCertificateContext frees the memory used by a certificate context.
 helpviewer_keywords: ["CertFreeCertificateContext","CertFreeCertificateContext function [Security]","_crypto2_certfreecertificatecontext","security.certfreecertificatecontext","wincrypt/CertFreeCertificateContext"]
 old-location: security\certfreecertificatecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7d2f3237-3f8b-4234-b6db-3057384cd89b
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateContext, CertFreeCertificateContext function [Security], _crypto2_certfreecertificatecontext, security.certfreecertificatecontext, wincrypt/CertFreeCertificateContext

@@ -4,7 +4,7 @@ title: TerminateJobObject function (jobapi2.h)
 description: Terminates all processes currently associated with the job.
 helpviewer_keywords: ["TerminateJobObject","TerminateJobObject function","_win32_terminatejobobject","base.terminatejobobject","winbase/TerminateJobObject"]
 old-location: base\terminatejobobject.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: ff8eb4a8-26d0-4f01-ab56-3c51fb16e87c
 ms.date: 12/05/2018
 ms.keywords: TerminateJobObject, TerminateJobObject function, _win32_terminatejobobject, base.terminatejobobject, winbase/TerminateJobObject

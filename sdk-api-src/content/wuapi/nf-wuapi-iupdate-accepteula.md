@@ -4,7 +4,7 @@ title: IUpdate::AcceptEula (wuapi.h)
 description: Accepts the Microsoft Software License Terms that are associated with Windows Update.
 helpviewer_keywords: ["AcceptEula","AcceptEula method [Windows Update Agent]","AcceptEula method [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","AcceptEula method","IUpdate.AcceptEula","IUpdate::AcceptEula","wua.iupdate_accepteula","wuapi/IUpdate::AcceptEula"]
 old-location: wua\iupdate_accepteula.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.date: 12/05/2018
 ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula

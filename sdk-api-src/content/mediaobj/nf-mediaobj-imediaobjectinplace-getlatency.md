@@ -4,7 +4,7 @@ title: IMediaObjectInPlace::GetLatency (mediaobj.h)
 description: The GetLatency method retrieves the latency introduced by this DMO.
 helpviewer_keywords: ["GetLatency","GetLatency method [DirectShow]","GetLatency method [DirectShow]","IMediaObjectInPlace interface","IMediaObjectInPlace interface [DirectShow]","GetLatency method","IMediaObjectInPlace.GetLatency","IMediaObjectInPlace::GetLatency","IMediaObjectInPlaceGetLatency","dshow.imediaobjectinplace_getlatency","mediaobj/IMediaObjectInPlace::GetLatency"]
 old-location: dshow\imediaobjectinplace_getlatency.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f6ed4824-bc18-4a12-82d3-d68e98f6d964
 ms.date: 12/05/2018
 ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IMediaObjectInPlace interface, IMediaObjectInPlace interface [DirectShow],GetLatency method, IMediaObjectInPlace.GetLatency, IMediaObjectInPlace::GetLatency, IMediaObjectInPlaceGetLatency, dshow.imediaobjectinplace_getlatency, mediaobj/IMediaObjectInPlace::GetLatency

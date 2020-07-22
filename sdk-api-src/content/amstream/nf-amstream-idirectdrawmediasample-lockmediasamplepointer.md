@@ -4,7 +4,7 @@ title: IDirectDrawMediaSample::LockMediaSamplePointer (amstream.h)
 description: The LockMediaSamplePointer method locks the surface that the sample represents.
 helpviewer_keywords: ["IDirectDrawMediaSample interface [DirectShow]","LockMediaSamplePointer method","IDirectDrawMediaSample.LockMediaSamplePointer","IDirectDrawMediaSample::LockMediaSamplePointer","IDirectDrawMediaSampleLockMediaSamplePointer","LockMediaSamplePointer","LockMediaSamplePointer method [DirectShow]","LockMediaSamplePointer method [DirectShow]","IDirectDrawMediaSample interface","amstream/IDirectDrawMediaSample::LockMediaSamplePointer","dshow.idirectdrawmediasample_lockmediasamplepointer"]
 old-location: dshow\idirectdrawmediasample_lockmediasamplepointer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f711a82d-7560-43f8-8689-7f2fca77ae64
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer

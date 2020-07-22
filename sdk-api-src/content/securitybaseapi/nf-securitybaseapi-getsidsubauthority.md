@@ -4,7 +4,7 @@ title: GetSidSubAuthority function (securitybaseapi.h)
 description: Returns a pointer to a specified subauthority in a security identifier (SID). The subauthority value is a relative identifier (RID).
 helpviewer_keywords: ["GetSidSubAuthority","GetSidSubAuthority function [Security]","_win32_getsidsubauthority","security.getsidsubauthority","securitybaseapi/GetSidSubAuthority"]
 old-location: security\getsidsubauthority.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3a2d07f3-f1da-477d-b93f-525e3459dc61
 ms.date: 12/05/2018
 ms.keywords: GetSidSubAuthority, GetSidSubAuthority function [Security], _win32_getsidsubauthority, security.getsidsubauthority, securitybaseapi/GetSidSubAuthority

@@ -4,7 +4,7 @@ title: IFunctionDiscovery::RemoveInstance (functiondiscoveryapi.h)
 description: Removes the specified function instance, based on category and subcategory.
 helpviewer_keywords: ["IFunctionDiscovery interface","RemoveInstance method","IFunctionDiscovery.RemoveInstance","IFunctionDiscovery::RemoveInstance","RemoveInstance","RemoveInstance method","RemoveInstance method","IFunctionDiscovery interface","functiondiscoveryapi/IFunctionDiscovery::RemoveInstance","ncd.ifunctiondiscovery_removeinstance_method"]
 old-location: ncd\ifunctiondiscovery_removeinstance_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 743ec310-ea35-4c4b-92f0-bbfe0a2f6f30
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscovery interface,RemoveInstance method, IFunctionDiscovery.RemoveInstance, IFunctionDiscovery::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IFunctionDiscovery interface, functiondiscoveryapi/IFunctionDiscovery::RemoveInstance, ncd.ifunctiondiscovery_removeinstance_method

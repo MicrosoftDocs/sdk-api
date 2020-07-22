@@ -4,7 +4,7 @@ title: WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int) (wbemtime.h)
 description: This WBEMTimeSpan class constructor creates a time span object from an integer number of elapsed days.
 helpviewer_keywords: ["??0WBEMTimeSpan@@QAE@HHHHHHH@Z","WBEMTimeSpan","WBEMTimeSpan constructor [Windows Management Instrumentation]","WBEMTimeSpan constructor [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","WBEMTimeSpan constructor","WBEMTimeSpan.WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan(int","int","int","int","int","int","int)","WBEMTimeSpan::WBEMTimeSpan","WBEMTimeSpan::WBEMTimeSpan(int","int","int","int","int","int","int)","wbemtime/WBEMTimeSpan::WBEMTimeSpan","wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_"]
 old-location: wmi\wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: b1bd1421-81f6-478a-8ec3-dfacdac3c85f
 ms.date: 12/05/2018
 ms.keywords: ??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_

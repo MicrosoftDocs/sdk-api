@@ -4,7 +4,7 @@ title: ICOMAdminCatalog2::get_CurrentPartitionID (comadmin.h)
 description: Retrieves the identifier for the current partition.
 helpviewer_keywords: ["CurrentPartitionID property [COM+]","CurrentPartitionID property [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","CurrentPartitionID property","ICOMAdminCatalog2.CurrentPartitionID","ICOMAdminCatalog2.get_CurrentPartitionID","ICOMAdminCatalog2::CurrentPartitionID","ICOMAdminCatalog2::get_CurrentPartitionID","_cos_IComAdminCatalog2_get_CurrentPartitionID","comadmin/ICOMAdminCatalog2::CurrentPartitionID","comadmin/ICOMAdminCatalog2::get_CurrentPartitionID","cos.icomadmincatalog2_currentpartitionid","get_CurrentPartitionID"]
 old-location: cos\icomadmincatalog2_currentpartitionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: bba572c7-54c5-4c98-9d05-5f72d5648e6a
 ms.date: 12/05/2018
 ms.keywords: CurrentPartitionID property [COM+], CurrentPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionID property, ICOMAdminCatalog2.CurrentPartitionID, ICOMAdminCatalog2.get_CurrentPartitionID, ICOMAdminCatalog2::CurrentPartitionID, ICOMAdminCatalog2::get_CurrentPartitionID, _cos_IComAdminCatalog2_get_CurrentPartitionID, comadmin/ICOMAdminCatalog2::CurrentPartitionID, comadmin/ICOMAdminCatalog2::get_CurrentPartitionID, cos.icomadmincatalog2_currentpartitionid, get_CurrentPartitionID

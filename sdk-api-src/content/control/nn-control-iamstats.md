@@ -4,7 +4,7 @@ title: IAMStats (control.h)
 description: The IAMStats interface retrieves performance data from the Filter Graph Manager.
 helpviewer_keywords: ["IAMStats","IAMStats interface [DirectShow]","IAMStats interface [DirectShow]","described","IAMStatsInterface","control/IAMStats","dshow.iamstats"]
 old-location: dshow\iamstats.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
 ms.date: 12/05/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats

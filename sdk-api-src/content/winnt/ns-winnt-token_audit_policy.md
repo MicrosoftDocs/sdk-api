@@ -4,7 +4,7 @@ title: TOKEN_AUDIT_POLICY (winnt.h)
 description: Specifies the per user audit policy for a token.
 helpviewer_keywords: ["*PTOKEN_AUDIT_POLICY","PTOKEN_AUDIT_POLICY","PTOKEN_AUDIT_POLICY structure pointer [Security]","TOKEN_AUDIT_POLICY","TOKEN_AUDIT_POLICY structure [Security]","_TOKEN_AUDIT_POLICY","security.token_audit_policy","winnt/PTOKEN_AUDIT_POLICY","winnt/TOKEN_AUDIT_POLICY"]
 old-location: security\token_audit_policy.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 02c03560-4886-4a63-ba0d-c77494d6595e
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY structure pointer [Security], TOKEN_AUDIT_POLICY, TOKEN_AUDIT_POLICY structure [Security], _TOKEN_AUDIT_POLICY, security.token_audit_policy, winnt/PTOKEN_AUDIT_POLICY, winnt/TOKEN_AUDIT_POLICY'

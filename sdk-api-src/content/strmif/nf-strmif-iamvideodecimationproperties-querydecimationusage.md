@@ -4,7 +4,7 @@ title: IAMVideoDecimationProperties::QueryDecimationUsage (strmif.h)
 description: The QueryDecimationUsage method retrieves the current decimation strategy.
 helpviewer_keywords: ["IAMVideoDecimationProperties interface [DirectShow]","QueryDecimationUsage method","IAMVideoDecimationProperties.QueryDecimationUsage","IAMVideoDecimationProperties::QueryDecimationUsage","IAMVideoDecimationPropertiesQueryDecimationUsage","QueryDecimationUsage","QueryDecimationUsage method [DirectShow]","QueryDecimationUsage method [DirectShow]","IAMVideoDecimationProperties interface","dshow.iamvideodecimationproperties_querydecimationusage","strmif/IAMVideoDecimationProperties::QueryDecimationUsage"]
 old-location: dshow\iamvideodecimationproperties_querydecimationusage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3addb9be-61df-4310-9066-85f75c64aae4
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],QueryDecimationUsage method, IAMVideoDecimationProperties.QueryDecimationUsage, IAMVideoDecimationProperties::QueryDecimationUsage, IAMVideoDecimationPropertiesQueryDecimationUsage, QueryDecimationUsage, QueryDecimationUsage method [DirectShow], QueryDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_querydecimationusage, strmif/IAMVideoDecimationProperties::QueryDecimationUsage

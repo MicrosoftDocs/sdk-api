@@ -4,7 +4,7 @@ title: SetCredentialsAttributesW function (sspi.h)
 description: Sets the attributes of a credential, such as the name associated with the credential.
 helpviewer_keywords: ["SetCredentialsAttributes","SetCredentialsAttributes function [Security]","SetCredentialsAttributesA","SetCredentialsAttributesW","security.setcredentialsattributes","sspi/SetCredentialsAttributes","sspi/SetCredentialsAttributesA","sspi/SetCredentialsAttributesW"]
 old-location: security\setcredentialsattributes.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.date: 12/05/2018
 ms.keywords: SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/SetCredentialsAttributes, sspi/SetCredentialsAttributesA, sspi/SetCredentialsAttributesW

@@ -4,7 +4,7 @@ title: ICertAdmin::SetRequestAttributes (certadm.h)
 description: Sets attributes in the specified pending certificate request. This method was first defined in the ICertAdmin interface.
 helpviewer_keywords: ["CCertAdmin interface [Security]","SetRequestAttributes method","ICertAdmin interface [Security]","SetRequestAttributes method","ICertAdmin.SetRequestAttributes","ICertAdmin2 interface [Security]","SetRequestAttributes method","ICertAdmin2::SetRequestAttributes","ICertAdmin::SetRequestAttributes","SetRequestAttributes","SetRequestAttributes method [Security]","SetRequestAttributes method [Security]","CCertAdmin interface","SetRequestAttributes method [Security]","ICertAdmin interface","SetRequestAttributes method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::SetRequestAttributes","certadm/ICertAdmin::SetRequestAttributes","security.icertadmin2_setrequestattributes"]
 old-location: security\icertadmin2_setrequestattributes.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 309c53f9-50cf-4c50-bc48-a4f15a8ced18
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],SetRequestAttributes method, ICertAdmin interface [Security],SetRequestAttributes method, ICertAdmin.SetRequestAttributes, ICertAdmin2 interface [Security],SetRequestAttributes method, ICertAdmin2::SetRequestAttributes, ICertAdmin::SetRequestAttributes, SetRequestAttributes, SetRequestAttributes method [Security], SetRequestAttributes method [Security],CCertAdmin interface, SetRequestAttributes method [Security],ICertAdmin interface, SetRequestAttributes method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetRequestAttributes, certadm/ICertAdmin::SetRequestAttributes, security.icertadmin2_setrequestattributes

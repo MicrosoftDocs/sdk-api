@@ -4,7 +4,7 @@ title: IObjPool::PutEndTx (comsvcs.h)
 description: Destroys the pooled object when the transaction ends.
 helpviewer_keywords: ["IObjPool interface [COM+]","PutEndTx method","IObjPool.PutEndTx","IObjPool::PutEndTx","PutEndTx","PutEndTx method [COM+]","PutEndTx method [COM+]","IObjPool interface","_cos_IObjPool_PutEndTx","comsvcs/IObjPool::PutEndTx","cos.iobjpool_putendtx"]
 old-location: cos\iobjpool_putendtx.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 24a80209-6ed8-426e-a645-463393a3a37e
 ms.date: 12/05/2018
 ms.keywords: IObjPool interface [COM+],PutEndTx method, IObjPool.PutEndTx, IObjPool::PutEndTx, PutEndTx, PutEndTx method [COM+], PutEndTx method [COM+],IObjPool interface, _cos_IObjPool_PutEndTx, comsvcs/IObjPool::PutEndTx, cos.iobjpool_putendtx

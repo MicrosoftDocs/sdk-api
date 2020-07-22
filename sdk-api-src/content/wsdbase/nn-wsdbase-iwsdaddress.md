@@ -4,7 +4,7 @@ title: IWSDAddress (wsdbase.h)
 description: Provides access to the individual components of a transport address.
 helpviewer_keywords: ["IWSDAddress","IWSDAddress interface","IWSDAddress interface","described","ncd.iwsdaddress","wsdbase/IWSDAddress"]
 old-location: ncd\iwsdaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b19938b2-2fba-42fe-8c4e-5696c40acd58
 ms.date: 12/05/2018
 ms.keywords: IWSDAddress, IWSDAddress interface, IWSDAddress interface,described, ncd.iwsdaddress, wsdbase/IWSDAddress

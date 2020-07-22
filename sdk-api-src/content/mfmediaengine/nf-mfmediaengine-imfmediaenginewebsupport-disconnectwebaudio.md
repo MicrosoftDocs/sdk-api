@@ -4,7 +4,7 @@ title: IMFMediaEngineWebSupport::DisconnectWebAudio (mfmediaengine.h)
 description: Disconnects web audio from the Media Engine.
 helpviewer_keywords: ["DisconnectWebAudio","DisconnectWebAudio method [Media Foundation]","DisconnectWebAudio method [Media Foundation]","IMFMediaEngineWebSupport interface","IMFMediaEngineWebSupport interface [Media Foundation]","DisconnectWebAudio method","IMFMediaEngineWebSupport.DisconnectWebAudio","IMFMediaEngineWebSupport::DisconnectWebAudio","mf.imfmediaenginewebsupport_disconnectwebaudio","mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio"]
 old-location: mf\imfmediaenginewebsupport_disconnectwebaudio.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 04AE7972-B0F1-4C35-A5F4-88F0B85C99E7
 ms.date: 12/05/2018
 ms.keywords: DisconnectWebAudio, DisconnectWebAudio method [Media Foundation], DisconnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],DisconnectWebAudio method, IMFMediaEngineWebSupport.DisconnectWebAudio, IMFMediaEngineWebSupport::DisconnectWebAudio, mf.imfmediaenginewebsupport_disconnectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio

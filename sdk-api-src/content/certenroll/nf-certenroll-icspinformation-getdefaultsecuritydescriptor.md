@@ -4,7 +4,7 @@ title: ICspInformation::GetDefaultSecurityDescriptor (certenroll.h)
 description: Retrieves the default private key security descriptor.
 helpviewer_keywords: ["GetDefaultSecurityDescriptor","GetDefaultSecurityDescriptor method [Security]","GetDefaultSecurityDescriptor method [Security]","ICspInformation interface","ICspInformation interface [Security]","GetDefaultSecurityDescriptor method","ICspInformation.GetDefaultSecurityDescriptor","ICspInformation::GetDefaultSecurityDescriptor","certenroll/ICspInformation::GetDefaultSecurityDescriptor","security.icspinformation_getdefaultsecuritydescriptor"]
 old-location: security\icspinformation_getdefaultsecuritydescriptor.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b4594400-29f2-47e2-8b4f-87ee82ea5e82
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSecurityDescriptor, GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security],ICspInformation interface, ICspInformation interface [Security],GetDefaultSecurityDescriptor method, ICspInformation.GetDefaultSecurityDescriptor, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor

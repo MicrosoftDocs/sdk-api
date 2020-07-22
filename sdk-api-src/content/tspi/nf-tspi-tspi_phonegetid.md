@@ -4,7 +4,7 @@ title: TSPI_phoneGetID function (tspi.h)
 description: The TSPI_phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
 helpviewer_keywords: ["TSPI_phoneGetID","TSPI_phoneGetID function [TAPI 2.2]","_tspi_tspi_phonegetid","tspi.tspi_phonegetid","tspi/TSPI_phoneGetID"]
 old-location: tspi\tspi_phonegetid.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ed34641d-091a-45a3-becc-b5fca36a9367
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetID, TSPI_phoneGetID function [TAPI 2.2], _tspi_tspi_phonegetid, tspi.tspi_phonegetid, tspi/TSPI_phoneGetID

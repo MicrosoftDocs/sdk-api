@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_IMAGE_LOAD_POLICY (winnt.h)
 description: Contains process mitigation policy settings for the loading of images from a remote device.
 helpviewer_keywords: ["*PPROCESS_MITIGATION_IMAGE_LOAD_POLICY","PPROCESS_MITIGATION_IMAGE_LOAD_POLICY","PPROCESS_MITIGATION_IMAGE_LOAD_POLICY structure pointer","PROCESS_MITIGATION_IMAGE_LOAD_POLICY","PROCESS_MITIGATION_IMAGE_LOAD_POLICY structure","base.process_mitigation_image_load_policy","winnt/PPROCESS_MITIGATION_IMAGE_LOAD_POLICY","winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY"]
 old-location: base\process_mitigation_image_load_policy.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: C5B414D0-C209-4669-9E02-D7E453E242B1
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_LOAD_POLICY structure pointer, PROCESS_MITIGATION_IMAGE_LOAD_POLICY, PROCESS_MITIGATION_IMAGE_LOAD_POLICY structure, base.process_mitigation_image_load_policy, winnt/PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY'

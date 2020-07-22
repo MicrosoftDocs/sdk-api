@@ -4,7 +4,7 @@ title: NetFileClose function (lmshare.h)
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
 helpviewer_keywords: ["NetFileClose","NetFileClose function [Files]","_win32_netfileclose","fs.netfileclose","lmshare/NetFileClose","netmgmt.netfileclose"]
 old-location: fs\netfileclose.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.date: 12/05/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose

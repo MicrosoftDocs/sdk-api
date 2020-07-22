@@ -4,7 +4,7 @@ title: TerminateEnclave function (enclaveapi.h)
 description: Ends the execution of the threads that are running within an enclave.
 helpviewer_keywords: ["TerminateEnclave","TerminateEnclave function","base.terminateenclave","enclaveapi/TerminateEnclave"]
 old-location: base\terminateenclave.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: D2BAF02F-AE05-43F2-BDB1-013EAF3AC653
 ms.date: 12/05/2018
 ms.keywords: TerminateEnclave, TerminateEnclave function, base.terminateenclave, enclaveapi/TerminateEnclave

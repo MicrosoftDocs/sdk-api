@@ -4,7 +4,7 @@ title: ISensorEvents::OnStateChanged (sensorsapi.h)
 description: Provides a notification that a sensor state has changed.
 helpviewer_keywords: ["ISensorEvents interface","OnStateChanged method","ISensorEvents.OnStateChanged","ISensorEvents::OnStateChanged","OnStateChanged","OnStateChanged method","OnStateChanged method","ISensorEvents interface","sensorsapi/ISensorEvents::OnStateChanged","winsensors_com_ref.isensorevents_onstatechanged"]
 old-location: winsensors_com_ref\isensorevents_onstatechanged.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: fb995dba-23aa-4a09-b411-7e95019535ce
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnStateChanged method, ISensorEvents.OnStateChanged, ISensorEvents::OnStateChanged, OnStateChanged, OnStateChanged method, OnStateChanged method,ISensorEvents interface, sensorsapi/ISensorEvents::OnStateChanged, winsensors_com_ref.isensorevents_onstatechanged

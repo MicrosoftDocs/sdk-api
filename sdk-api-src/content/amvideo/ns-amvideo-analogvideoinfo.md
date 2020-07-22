@@ -4,7 +4,7 @@ title: ANALOGVIDEOINFO (amvideo.h)
 description: The ANALOGVIDEOINFO structure maintains information about the format of the analog video signal.
 helpviewer_keywords: ["ANALOGVIDEOINFO","ANALOGVIDEOINFO structure [DirectShow]","ANALOGVIDEOINFOStructure","amvideo/ANALOGVIDEOINFO","dshow.analogvideoinfo"]
 old-location: dshow\analogvideoinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
 ms.date: 12/05/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo

@@ -4,7 +4,7 @@ title: ITAddress2 (tapi3if.h)
 description: The ITAddress2 interface derives from the ITAddress interface. ITAddress2 adds methods to the Address object in order to support phone devices. All Address objects enumerated from TAPI 3.1 automatically implement this interface.
 helpviewer_keywords: ["ITAddress2","ITAddress2 interface [TAPI 2.2]","ITAddress2 interface [TAPI 2.2]","described","_tapi3_itaddress2","tapi3.itaddress2","tapi3if/ITAddress2"]
 old-location: tapi3\itaddress2.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3cc47291-8130-45bd-8db8-c5d1b463507d
 ms.date: 12/05/2018
 ms.keywords: ITAddress2, ITAddress2 interface [TAPI 2.2], ITAddress2 interface [TAPI 2.2],described, _tapi3_itaddress2, tapi3.itaddress2, tapi3if/ITAddress2

@@ -2,6 +2,7 @@
 UID: NF:directxcollision.BoundingOrientedBox.Contains
 title: BoundingOrientedBox::Contains
 description: Tests whether the BoundingOrientedBox contains a specified point.
+tech.root: dxmath
 helpviewer_keywords: ["BoundingOrientedBox::Contains"]
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Contains

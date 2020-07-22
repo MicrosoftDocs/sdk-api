@@ -4,7 +4,7 @@ title: ClfsLsnGreater function (clfs.h)
 description: Determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 helpviewer_keywords: ["ClfsLsnGreater","LsnGreater","LsnGreater function [Files]","clfs/LsnGreater","fs.lsngreater"]
 old-location: fs\lsngreater.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 15657fc4-40f6-4f89-89b4-ff51d72d5e74
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnGreater, LsnGreater, LsnGreater function [Files], clfs/LsnGreater, fs.lsngreater

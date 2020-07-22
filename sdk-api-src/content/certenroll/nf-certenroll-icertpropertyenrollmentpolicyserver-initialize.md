@@ -4,7 +4,7 @@ title: ICertPropertyEnrollmentPolicyServer::Initialize (certenroll.h)
 description: Initializes an ICertPropertyEnrollmentPolicyServer object.
 helpviewer_keywords: ["DefaultNone","DefaultPolicyServer","ICertPropertyEnrollmentPolicyServer interface [Security]","Initialize method","ICertPropertyEnrollmentPolicyServer.Initialize","ICertPropertyEnrollmentPolicyServer::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyEnrollmentPolicyServer interface","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","PsfLocationGroupPolicy","PsfLocationRegistry","PsfNone","PsfUseClientId","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/ICertPropertyEnrollmentPolicyServer::Initialize","security.icertpropertyenrollmentpolicyserver_initialize"]
 old-location: security\icertpropertyenrollmentpolicyserver_initialize.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5d54ffb2-4a81-4d52-80db-b8526a52bb53
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security],Initialize method, ICertPropertyEnrollmentPolicyServer.Initialize, ICertPropertyEnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollmentPolicyServer interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::Initialize, security.icertpropertyenrollmentpolicyserver_initialize

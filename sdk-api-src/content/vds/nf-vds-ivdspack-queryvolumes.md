@@ -4,7 +4,7 @@ title: IVdsPack::QueryVolumes (vds.h)
 description: Returns an object that enumerates the volumes in the pack.
 helpviewer_keywords: ["IVdsPack interface [VDS]","QueryVolumes method","IVdsPack.QueryVolumes","IVdsPack::QueryVolumes","QueryVolumes","QueryVolumes method [VDS]","QueryVolumes method [VDS]","IVdsPack interface","base.ivdspack_queryvolumes","vds/IVdsPack::QueryVolumes"]
 old-location: base\ivdspack_queryvolumes.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 43f9972d-14a6-4674-bf90-741ad3a9eb0d
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],QueryVolumes method, IVdsPack.QueryVolumes, IVdsPack::QueryVolumes, QueryVolumes, QueryVolumes method [VDS], QueryVolumes method [VDS],IVdsPack interface, base.ivdspack_queryvolumes, vds/IVdsPack::QueryVolumes

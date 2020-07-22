@@ -4,7 +4,7 @@ title: IMFTopology::AddNode (mfidl.h)
 description: Adds a node to the topology.
 helpviewer_keywords: ["5e519524-f5c5-4d4d-922f-166f9e616631","AddNode","AddNode method [Media Foundation]","AddNode method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","AddNode method","IMFTopology.AddNode","IMFTopology::AddNode","mf.imftopology_addnode","mfidl/IMFTopology::AddNode"]
 old-location: mf\imftopology_addnode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5e519524-f5c5-4d4d-922f-166f9e616631
 ms.date: 12/05/2018
 ms.keywords: 5e519524-f5c5-4d4d-922f-166f9e616631, AddNode, AddNode method [Media Foundation], AddNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],AddNode method, IMFTopology.AddNode, IMFTopology::AddNode, mf.imftopology_addnode, mfidl/IMFTopology::AddNode

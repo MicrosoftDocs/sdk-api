@@ -4,7 +4,7 @@ title: IUpdateServiceManager::RegisterServiceWithAU (wuapi.h)
 description: Registers a service with Automatic Updates.
 helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","RegisterServiceWithAU method","IUpdateServiceManager.RegisterServiceWithAU","IUpdateServiceManager::RegisterServiceWithAU","RegisterServiceWithAU","RegisterServiceWithAU method [Windows Update Agent]","RegisterServiceWithAU method [Windows Update Agent]","IUpdateServiceManager interface","wua.iupdateservicemanager_registerservicewithau","wuapi/IUpdateServiceManager::RegisterServiceWithAU"]
 old-location: wua\iupdateservicemanager_registerservicewithau.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RegisterServiceWithAU method, IUpdateServiceManager.RegisterServiceWithAU, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU

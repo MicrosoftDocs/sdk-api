@@ -4,7 +4,7 @@ title: PdhGetDefaultPerfObjectW function (pdh.h)
 description: Retrieves the name of the default object. This name can be used to set the initial object selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfObjectH function.
 helpviewer_keywords: ["PdhGetDefaultPerfObject","PdhGetDefaultPerfObject function [Perf]","PdhGetDefaultPerfObjectA","PdhGetDefaultPerfObjectW","_win32_pdhgetdefaultperfobject","base.pdhgetdefaultperfobject","pdh/PdhGetDefaultPerfObject","pdh/PdhGetDefaultPerfObjectA","pdh/PdhGetDefaultPerfObjectW","perf.pdhgetdefaultperfobject"]
 old-location: perf\pdhgetdefaultperfobject.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 7c6d4d82-8b60-4422-8108-8ac10f254278
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfObject, PdhGetDefaultPerfObject function [Perf], PdhGetDefaultPerfObjectA, PdhGetDefaultPerfObjectW, _win32_pdhgetdefaultperfobject, base.pdhgetdefaultperfobject, pdh/PdhGetDefaultPerfObject, pdh/PdhGetDefaultPerfObjectA, pdh/PdhGetDefaultPerfObjectW, perf.pdhgetdefaultperfobject

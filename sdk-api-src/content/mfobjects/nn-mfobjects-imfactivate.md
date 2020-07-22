@@ -4,7 +4,7 @@ title: IMFActivate (mfobjects.h)
 description: Enables the application to defer the creation of an object.
 helpviewer_keywords: ["IMFActivate","IMFActivate interface [Media Foundation]","IMFActivate interface [Media Foundation]","described","c0936e3c-3cd1-4c1e-a336-2dee7d943963","mf.imfactivate","mfobjects/IMFActivate"]
 old-location: mf\imfactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
 ms.date: 12/05/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate

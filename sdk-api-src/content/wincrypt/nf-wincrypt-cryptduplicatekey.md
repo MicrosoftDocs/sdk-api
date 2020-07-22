@@ -4,7 +4,7 @@ title: CryptDuplicateKey function (wincrypt.h)
 description: Makes an exact copy of a key and the state of the key.
 helpviewer_keywords: ["CryptDuplicateKey","CryptDuplicateKey function [Security]","_crypto2_cryptduplicatekey","security.cryptduplicatekey","wincrypt/CryptDuplicateKey"]
 old-location: security\cryptduplicatekey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey

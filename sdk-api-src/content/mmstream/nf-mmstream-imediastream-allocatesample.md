@@ -4,7 +4,7 @@ title: IMediaStream::AllocateSample (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Allocates a new stream sample object for the current media stream.
 helpviewer_keywords: ["AllocateSample","AllocateSample method [DirectShow]","AllocateSample method [DirectShow]","IMediaStream interface","IMediaStream interface [DirectShow]","AllocateSample method","IMediaStream.AllocateSample","IMediaStream::AllocateSample","IMediaStreamAllocateSample","dshow.imediastream_allocatesample","mmstream/IMediaStream::AllocateSample"]
 old-location: dshow\imediastream_allocatesample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a035797d-ebf2-40c2-b1a3-b903a691b7d2
 ms.date: 12/05/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample

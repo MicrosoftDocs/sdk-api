@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPRECVDISCONNECT
 title: LPWSPRECVDISCONNECT
 description: The LPWSPRecvDisconnect function terminates reception on a socket and retrieves the disconnect data, if the socket is connection oriented.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPRECVDISCONNECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECVDISCONNECT

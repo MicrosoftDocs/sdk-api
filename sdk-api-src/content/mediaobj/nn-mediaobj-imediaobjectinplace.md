@@ -5,7 +5,7 @@ description: The IMediaObjectInPlace interface provides methods for processing d
 helpviewer_keywords: ["IMediaObjectInPlace","IMediaObjectInPlace interface [DirectShow]","IMediaObjectInPlace interface [DirectShow]","described","IMediaObjectInPlaceInterface","dshow.imediaobjectinplace","mediaobj/IMediaObjectInPlace"]
 The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:This interface provides an optimized way to process data. The application calls a single IMediaObjectInPlace::Process method instead of the IMediaObject::ProcessInput and IMediaObject::ProcessOutput methods. However, any DMO that implements this interface must also implement the IMediaObject interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
 old-location: dshow\imediaobjectinplace.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace

@@ -4,7 +4,7 @@ title: AtlThunk_DataToCode function (atlthunk.h)
 description: Returns an executable function corresponding to the AtlThunkData_t parameter.
 helpviewer_keywords: ["AtlThunk_DataToCode","AtlThunk_DataToCode function","atlthunk/AtlThunk_DataToCode","base.atlthunk_datatocode"]
 old-location: base\atlthunk_datatocode.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode

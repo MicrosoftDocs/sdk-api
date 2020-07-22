@@ -4,7 +4,7 @@ title: IMFMediaEngine::SetPlaybackRate (mfmediaengine.h)
 description: Sets the current playback rate.
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetPlaybackRate method","IMFMediaEngine.SetPlaybackRate","IMFMediaEngine::SetPlaybackRate","SetPlaybackRate","SetPlaybackRate method [Media Foundation]","SetPlaybackRate method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setplaybackrate","mfmediaengine/IMFMediaEngine::SetPlaybackRate"]
 old-location: mf\imfmediaengine_setplaybackrate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 648BF1CC-BFAC-4874-808B-F8B46E3E9989
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPlaybackRate method, IMFMediaEngine.SetPlaybackRate, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate

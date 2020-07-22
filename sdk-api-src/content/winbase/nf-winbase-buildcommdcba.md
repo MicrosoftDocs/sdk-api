@@ -4,7 +4,7 @@ title: BuildCommDCBA function (winbase.h)
 description: Fills a specified DCB structure with values specified in a device-control string.
 helpviewer_keywords: ["BuildCommDCB","BuildCommDCB function","BuildCommDCBA","BuildCommDCBW","_win32_buildcommdcb","base.buildcommdcb","winbase/BuildCommDCB","winbase/BuildCommDCBA","winbase/BuildCommDCBW"]
 old-location: base\buildcommdcb.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW

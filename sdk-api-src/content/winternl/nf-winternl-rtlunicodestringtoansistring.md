@@ -4,7 +4,7 @@ title: RtlUnicodeStringToAnsiString function (winternl.h)
 description: Converts the specified Unicode source string into an ANSI string.
 helpviewer_keywords: ["FALSE","RtlUnicodeStringToAnsiString","RtlUnicodeStringToAnsiString function [Windows API]","TRUE","winprog.rtlunicodestringtoansistring","winternl/RtlUnicodeStringToAnsiString","winui.rtlunicodestringtoansistring"]
 old-location: winprog\rtlunicodestringtoansistring.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtoansistring.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring

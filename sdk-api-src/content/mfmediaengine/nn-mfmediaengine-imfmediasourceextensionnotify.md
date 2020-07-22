@@ -4,7 +4,7 @@ title: IMFMediaSourceExtensionNotify (mfmediaengine.h)
 description: Provides functionality for raising events associated with IMFMediaSourceExtension.
 helpviewer_keywords: ["IMFMediaSourceExtensionNotify","IMFMediaSourceExtensionNotify interface [Media Foundation]","IMFMediaSourceExtensionNotify interface [Media Foundation]","described","mf.imfmediasourceextensionnotify","mfmediaengine/IMFMediaSourceExtensionNotify"]
 old-location: mf\imfmediasourceextensionnotify.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 44eed02d-cf92-41e5-8748-1ce11ab4aac0
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], IMFMediaSourceExtensionNotify interface [Media Foundation],described, mf.imfmediasourceextensionnotify, mfmediaengine/IMFMediaSourceExtensionNotify

@@ -4,7 +4,7 @@ title: DISK_GEOMETRY_EX
 description: Describes the extended geometry of disk devices and media.
 helpviewer_keywords: ["*PDISK_GEOMETRY_EX","DISK_GEOMETRY_EX","DISK_GEOMETRY_EX structure [Files]","PDISK_GEOMETRY_EX","PDISK_GEOMETRY_EX structure pointer [Files]","_win32_disk_geometry_ex_str","base.disk_geometry_ex_str","fs.disk_geometry_ex_str","winioctl/DISK_GEOMETRY_EX","winioctl/PDISK_GEOMETRY_EX"]
 old-location: fs\disk_geometry_ex_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2b8b2021-8650-452d-a975-54249620d72f
 ms.date: 12/05/2018
 ms.keywords: '*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Files], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Files], _win32_disk_geometry_ex_str, base.disk_geometry_ex_str, fs.disk_geometry_ex_str, winioctl/DISK_GEOMETRY_EX, winioctl/PDISK_GEOMETRY_EX'

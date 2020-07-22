@@ -4,7 +4,7 @@ title: IVdsService::Reboot (vds.h)
 description: Restarts the computer hosting the provider.
 helpviewer_keywords: ["IVdsService interface [VDS]","Reboot method","IVdsService.Reboot","IVdsService::Reboot","Reboot","Reboot method [VDS]","Reboot method [VDS]","IVdsService interface","base.ivdsservice_reboot","vds/IVdsService::Reboot"]
 old-location: base\ivdsservice_reboot.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: c22be0a5-d7ed-4f76-961d-2455ca99f220
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],Reboot method, IVdsService.Reboot, IVdsService::Reboot, Reboot, Reboot method [VDS], Reboot method [VDS],IVdsService interface, base.ivdsservice_reboot, vds/IVdsService::Reboot

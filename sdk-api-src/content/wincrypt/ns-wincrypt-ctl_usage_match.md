@@ -4,7 +4,7 @@ title: CTL_USAGE_MATCH (wincrypt.h)
 description: Provides parameters for finding certificate trust lists (CTL) used to build a certificate chain.
 helpviewer_keywords: ["*PCTL_USAGE_MATCH","CTL_USAGE_MATCH","CTL_USAGE_MATCH structure [Security]","PCTL_USAGE_MATCH","PCTL_USAGE_MATCH structure pointer [Security]","USAGE_MATCH_TYPE_AND","USAGE_MATCH_TYPE_OR","_crypto2_ctl_usage_match","security.ctl_usage_match","wincrypt/CTL_USAGE_MATCH","wincrypt/PCTL_USAGE_MATCH"]
 old-location: security\ctl_usage_match.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0b1146b7-a6fe-4cd0-aff7-b49ec6f561a0
 ms.date: 12/05/2018
 ms.keywords: '*PCTL_USAGE_MATCH, CTL_USAGE_MATCH, CTL_USAGE_MATCH structure [Security], PCTL_USAGE_MATCH, PCTL_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _crypto2_ctl_usage_match, security.ctl_usage_match, wincrypt/CTL_USAGE_MATCH, wincrypt/PCTL_USAGE_MATCH'

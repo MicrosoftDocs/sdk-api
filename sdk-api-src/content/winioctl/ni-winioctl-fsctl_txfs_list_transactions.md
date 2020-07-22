@@ -4,7 +4,7 @@ title: FSCTL_TXFS_LIST_TRANSACTIONS
 description: Returns a list of all the transactions currently involved in the specified resource manager.
 helpviewer_keywords: ["FSCTL_TXFS_LIST_TRANSACTIONS","FSCTL_TXFS_LIST_TRANSACTIONS control","FSCTL_TXFS_LIST_TRANSACTIONS control code [Files]","fs.fsctl_txfs_list_transactions","winioctl/FSCTL_TXFS_LIST_TRANSACTIONS"]
 old-location: fs\fsctl_txfs_list_transactions.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: ff319bf0-2bd4-4824-bf97-b9b6eab90915
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_LIST_TRANSACTIONS, FSCTL_TXFS_LIST_TRANSACTIONS control, FSCTL_TXFS_LIST_TRANSACTIONS control code [Files], fs.fsctl_txfs_list_transactions, winioctl/FSCTL_TXFS_LIST_TRANSACTIONS

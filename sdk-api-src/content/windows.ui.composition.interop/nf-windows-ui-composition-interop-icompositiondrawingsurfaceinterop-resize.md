@@ -4,7 +4,7 @@ title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.in
 description: Changes the size of the surface.
 helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","Resize method","ICompositionDrawingSurfaceInterop.Resize","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::Resize","ICompositionDrawingSurfaceInterop::composition","Resize","Resize method","Resize method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_resize","windows/ICompositionDrawingSurfaceInterop::Resize"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resize.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: DFD0812F-3AD2-4E33-BD23-9D392BFAB467
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,Resize method, ICompositionDrawingSurfaceInterop.Resize, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::Resize, ICompositionDrawingSurfaceInterop::composition, Resize, Resize method, Resize method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_resize, windows/ICompositionDrawingSurfaceInterop::Resize

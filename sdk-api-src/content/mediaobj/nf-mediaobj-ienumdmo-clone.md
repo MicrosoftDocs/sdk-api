@@ -4,7 +4,7 @@ title: IEnumDMO::Clone (mediaobj.h)
 description: This method is not implemented.
 helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumDMO interface","IEnumDMO interface [DirectShow]","Clone method","IEnumDMO.Clone","IEnumDMO::Clone","IEnumDMOClone","dshow.ienumdmo_clone","mediaobj/IEnumDMO::Clone"]
 old-location: dshow\ienumdmo_clone.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9edca502-7dff-493f-8bce-4bffe8233487
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumDMO interface, IEnumDMO interface [DirectShow],Clone method, IEnumDMO.Clone, IEnumDMO::Clone, IEnumDMOClone, dshow.ienumdmo_clone, mediaobj/IEnumDMO::Clone

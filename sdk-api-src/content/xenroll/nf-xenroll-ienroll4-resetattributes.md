@@ -4,7 +4,7 @@ title: IEnroll4::resetAttributes (xenroll.h)
 description: Removes all attributes from the request.
 helpviewer_keywords: ["IEnroll4 interface [Security]","resetAttributes method","IEnroll4.resetAttributes","IEnroll4::resetAttributes","resetAttributes","resetAttributes method [Security]","resetAttributes method [Security]","IEnroll4 interface","security.ienroll4_resetattributes","xenroll/IEnroll4::resetAttributes"]
 old-location: security\ienroll4_resetattributes.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f9da2371-441e-45c7-9723-39d01b6ece27
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],resetAttributes method, IEnroll4.resetAttributes, IEnroll4::resetAttributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],IEnroll4 interface, security.ienroll4_resetattributes, xenroll/IEnroll4::resetAttributes

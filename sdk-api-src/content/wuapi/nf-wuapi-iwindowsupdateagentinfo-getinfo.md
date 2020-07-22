@@ -4,7 +4,7 @@ title: IWindowsUpdateAgentInfo::GetInfo (wuapi.h)
 description: Retrieves version information about Windows Update Agent (WUA).
 helpviewer_keywords: ["GetInfo","GetInfo method [Windows Update Agent]","GetInfo method [Windows Update Agent]","IWindowsUpdateAgentInfo interface","IWindowsUpdateAgentInfo interface [Windows Update Agent]","GetInfo method","IWindowsUpdateAgentInfo.GetInfo","IWindowsUpdateAgentInfo::GetInfo","wua.iwindowsupdateagentinfo_getinfo","wuapi/IWindowsUpdateAgentInfo::GetInfo"]
 old-location: wua\iwindowsupdateagentinfo_getinfo.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7798032c-b0a3-4f2a-958a-f98192204832
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Windows Update Agent], GetInfo method [Windows Update Agent],IWindowsUpdateAgentInfo interface, IWindowsUpdateAgentInfo interface [Windows Update Agent],GetInfo method, IWindowsUpdateAgentInfo.GetInfo, IWindowsUpdateAgentInfo::GetInfo, wua.iwindowsupdateagentinfo_getinfo, wuapi/IWindowsUpdateAgentInfo::GetInfo

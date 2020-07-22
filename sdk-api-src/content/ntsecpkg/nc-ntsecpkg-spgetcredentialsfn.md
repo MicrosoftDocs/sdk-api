@@ -4,7 +4,7 @@ title: SpGetCredentialsFn (ntsecpkg.h)
 description: Retrieves the primary and supplemental credentials from the user object.
 helpviewer_keywords: ["SpGetCredentials","SpGetCredentials callback function [Security]","SpGetCredentialsFn","SpGetCredentialsFn callback","_ssp_spgetcredentials","ntsecpkg/SpGetCredentials","security.spgetcredentials"]
 old-location: security\spgetcredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: bdf96b19-30eb-4cb2-b3ec-bd6f406233c5
 ms.date: 12/05/2018
 ms.keywords: SpGetCredentials, SpGetCredentials callback function [Security], SpGetCredentialsFn, SpGetCredentialsFn callback, _ssp_spgetcredentials, ntsecpkg/SpGetCredentials, security.spgetcredentials

@@ -2,6 +2,7 @@
 UID: NF:directxcollision.BoundingBox.Intersects
 title: BoundingBox::Intersects
 description: 
+tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Intersects"]
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Intersects

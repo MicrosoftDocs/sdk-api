@@ -4,7 +4,7 @@ title: IEnumFilters::Reset (strmif.h)
 description: The Reset method resets the enumeration sequence to the beginning.
 helpviewer_keywords: ["IEnumFilters interface [DirectShow]","Reset method","IEnumFilters.Reset","IEnumFilters::Reset","IEnumFiltersReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumFilters interface","dshow.ienumfilters_reset","strmif/IEnumFilters::Reset"]
 old-location: dshow\ienumfilters_reset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 997a6e56-cd11-42bf-b12c-a4418a4dc644
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Reset method, IEnumFilters.Reset, IEnumFilters::Reset, IEnumFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumFilters interface, dshow.ienumfilters_reset, strmif/IEnumFilters::Reset

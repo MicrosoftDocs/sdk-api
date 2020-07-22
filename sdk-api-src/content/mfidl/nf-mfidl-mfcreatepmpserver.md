@@ -4,7 +4,7 @@ title: MFCreatePMPServer function (mfidl.h)
 description: Creates the protected media path (PMP) server object.
 helpviewer_keywords: ["2bf5541e-9b7e-4e7a-a868-4956c1f70882","MFCreatePMPServer","MFCreatePMPServer function [Media Foundation]","mf.mfcreatepmpserver","mfidl/MFCreatePMPServer"]
 old-location: mf\mfcreatepmpserver.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2bf5541e-9b7e-4e7a-a868-4956c1f70882
 ms.date: 12/05/2018
 ms.keywords: 2bf5541e-9b7e-4e7a-a868-4956c1f70882, MFCreatePMPServer, MFCreatePMPServer function [Media Foundation], mf.mfcreatepmpserver, mfidl/MFCreatePMPServer

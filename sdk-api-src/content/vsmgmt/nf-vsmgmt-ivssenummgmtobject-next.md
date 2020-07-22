@@ -4,7 +4,7 @@ title: IVssEnumMgmtObject::Next (vsmgmt.h)
 description: Returns the specified number of objects from the specified list of enumerated objects.
 helpviewer_keywords: ["IVssEnumMgmtObject interface [VSS]","Next method","IVssEnumMgmtObject.Next","IVssEnumMgmtObject::Next","Next","Next method [VSS]","Next method [VSS]","IVssEnumMgmtObject interface","base.ivssenummgmtobject_next","vsmgmt/IVssEnumMgmtObject::Next"]
 old-location: base\ivssenummgmtobject_next.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 0ddcf25d-dc3e-4522-a98e-98d867230d42
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Next method, IVssEnumMgmtObject.Next, IVssEnumMgmtObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_next, vsmgmt/IVssEnumMgmtObject::Next

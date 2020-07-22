@@ -4,7 +4,7 @@ title: IVMRSurface::GetSurface (strmif.h)
 description: The GetSurface method retrieves the attached DirectDraw surface interface.
 helpviewer_keywords: ["GetSurface","GetSurface method [DirectShow]","GetSurface method [DirectShow]","IVMRSurface interface","IVMRSurface interface [DirectShow]","GetSurface method","IVMRSurface.GetSurface","IVMRSurface::GetSurface","IVMRSurfaceGetSurface","dshow.ivmrsurface_getsurface","strmif/IVMRSurface::GetSurface"]
 old-location: dshow\ivmrsurface_getsurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2fba7818-6395-47d3-98b3-347f1d4a7c6f
 ms.date: 12/05/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurface interface, IVMRSurface interface [DirectShow],GetSurface method, IVMRSurface.GetSurface, IVMRSurface::GetSurface, IVMRSurfaceGetSurface, dshow.ivmrsurface_getsurface, strmif/IVMRSurface::GetSurface

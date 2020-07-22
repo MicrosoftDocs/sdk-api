@@ -4,7 +4,7 @@ title: CHPtrArray::GetSize (chptrarr.h)
 description: The GetSize function obtains the pointer array size. Because indexes are zero-based, the size is one greater than the largest index.
 helpviewer_keywords: ["?GetSize@CHPtrArray@@QBEHXZ","CHPtrArray interface [Windows Management Instrumentation]","GetSize method","CHPtrArray.GetSize","CHPtrArray::GetSize","GetSize","GetSize method [Windows Management Instrumentation]","GetSize method [Windows Management Instrumentation]","CHPtrArray interface","chptrarr/CHPtrArray::GetSize","wmi.chptrarray_getsize"]
 old-location: wmi\chptrarray_getsize.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 9b9bcd3f-06d9-47f1-aecb-1c611c9866bd
 ms.date: 12/05/2018
 ms.keywords: ?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray interface [Windows Management Instrumentation],GetSize method, CHPtrArray.GetSize, CHPtrArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize

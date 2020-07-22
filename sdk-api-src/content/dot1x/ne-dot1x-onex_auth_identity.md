@@ -4,7 +4,7 @@ title: ONEX_AUTH_IDENTITY (dot1x.h)
 description: Specifies the possible values of the identity used for 802.1X authentication status.
 helpviewer_keywords: ["ONEX_AUTH_IDENTITY","ONEX_AUTH_IDENTITY enumeration [NativeWIFI]","OneXAuthIdentityExplicitUser","OneXAuthIdentityGuest","OneXAuthIdentityInvalid","OneXAuthIdentityMachine","OneXAuthIdentityNone","OneXAuthIdentityUser","PONEX_AUTH_IDENTITY","PONEX_AUTH_IDENTITY enumeration pointer [NativeWIFI]","dot1x/ONEX_AUTH_IDENTITY","dot1x/OneXAuthIdentityExplicitUser","dot1x/OneXAuthIdentityGuest","dot1x/OneXAuthIdentityInvalid","dot1x/OneXAuthIdentityMachine","dot1x/OneXAuthIdentityNone","dot1x/OneXAuthIdentityUser","dot1x/PONEX_AUTH_IDENTITY","nwifi.onex_auth_identity"]
 old-location: nwifi\onex_auth_identity.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: c51ab620-7e44-4798-8206-8ae9bbcd6614
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTH_IDENTITY, ONEX_AUTH_IDENTITY enumeration [NativeWIFI], OneXAuthIdentityExplicitUser, OneXAuthIdentityGuest, OneXAuthIdentityInvalid, OneXAuthIdentityMachine, OneXAuthIdentityNone, OneXAuthIdentityUser, PONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY enumeration pointer [NativeWIFI], dot1x/ONEX_AUTH_IDENTITY, dot1x/OneXAuthIdentityExplicitUser, dot1x/OneXAuthIdentityGuest, dot1x/OneXAuthIdentityInvalid, dot1x/OneXAuthIdentityMachine, dot1x/OneXAuthIdentityNone, dot1x/OneXAuthIdentityUser, dot1x/PONEX_AUTH_IDENTITY, nwifi.onex_auth_identity

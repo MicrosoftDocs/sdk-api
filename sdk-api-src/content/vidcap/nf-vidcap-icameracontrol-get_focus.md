@@ -4,7 +4,7 @@ title: ICameraControl::get_Focus (vidcap.h)
 description: The get_Focus method returns the distance that is optimally in focus.
 helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_Focus method","ICameraControl.get_Focus","ICameraControl::get_Focus","ICameraControlget_Focus","dshow.icameracontrol_get_focus","get_Focus","get_Focus method [DirectShow]","get_Focus method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_Focus"]
 old-location: dshow\icameracontrol_get_focus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 59ab6306-539f-4be4-8e69-348eab6220ea
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Focus method, ICameraControl.get_Focus, ICameraControl::get_Focus, ICameraControlget_Focus, dshow.icameracontrol_get_focus, get_Focus, get_Focus method [DirectShow], get_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Focus

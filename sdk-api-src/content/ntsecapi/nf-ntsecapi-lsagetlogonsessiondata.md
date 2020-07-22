@@ -4,7 +4,7 @@ title: LsaGetLogonSessionData function (ntsecapi.h)
 description: Retrieves information about a specified logon session.
 helpviewer_keywords: ["LsaGetLogonSessionData","LsaGetLogonSessionData function [Security]","_lsa_lsagetlogonsessiondata","ntsecapi/LsaGetLogonSessionData","security.lsagetlogonsessiondata"]
 old-location: security\lsagetlogonsessiondata.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b1478a7a-f508-4b98-8c7b-adeb2f07bb86
 ms.date: 12/05/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata

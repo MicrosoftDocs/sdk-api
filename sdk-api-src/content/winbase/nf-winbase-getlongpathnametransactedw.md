@@ -4,7 +4,7 @@ title: GetLongPathNameTransactedW function (winbase.h)
 description: Converts the specified path to its long form as a transacted operation.
 helpviewer_keywords: ["GetLongPathNameTransacted","GetLongPathNameTransacted function [Files]","GetLongPathNameTransactedA","GetLongPathNameTransactedW","fs.getlongpathnametransacted","winbase/GetLongPathNameTransacted","winbase/GetLongPathNameTransactedA","winbase/GetLongPathNameTransactedW"]
 old-location: fs\getlongpathnametransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
 ms.date: 12/05/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW

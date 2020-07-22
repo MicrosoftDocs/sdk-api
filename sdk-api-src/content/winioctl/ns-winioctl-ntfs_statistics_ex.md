@@ -4,7 +4,7 @@ title: NTFS_STATISTICS_EX
 description: Contains statistical information from the NTFS file system.Support for this structure started with Windows 10.
 helpviewer_keywords: ["*PNTFS_STATISTICS_EX","NTFS_STATISTICS_EX","NTFS_STATISTICS_EX structure [Files]","PNTFS_STATISTICS_EX","PNTFS_STATISTICS_EX structure pointer [Files]","fs.ntfs_statistics_ex","winioctl/NTFS_STATISTICS_EX","winioctl/PNTFS_STATISTICS_EX"]
 old-location: fs\ntfs_statistics_ex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: D1A6995C-A4BA-4ECC-892A-196581FA41CE
 ms.date: 12/05/2018
 ms.keywords: '*PNTFS_STATISTICS_EX, NTFS_STATISTICS_EX, NTFS_STATISTICS_EX structure [Files], PNTFS_STATISTICS_EX, PNTFS_STATISTICS_EX structure pointer [Files], fs.ntfs_statistics_ex, winioctl/NTFS_STATISTICS_EX, winioctl/PNTFS_STATISTICS_EX'

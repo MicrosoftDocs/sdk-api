@@ -4,7 +4,7 @@ title: IComInstanceEvents::OnObjectCreate (comsvcs.h)
 description: Generated when an object is created by a client.
 helpviewer_keywords: ["IComInstanceEvents interface [COM+]","OnObjectCreate method","IComInstanceEvents.OnObjectCreate","IComInstanceEvents::OnObjectCreate","OnObjectCreate","OnObjectCreate method [COM+]","OnObjectCreate method [COM+]","IComInstanceEvents interface","_dtc_icominstanceevents_onobjectcreate","comsvcs/IComInstanceEvents::OnObjectCreate","cos.icominstanceevents_onobjectcreate"]
 old-location: cos\icominstanceevents_onobjectcreate.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 4f3457f6-4956-4411-b38b-46c7d84d342d
 ms.date: 12/05/2018
 ms.keywords: IComInstanceEvents interface [COM+],OnObjectCreate method, IComInstanceEvents.OnObjectCreate, IComInstanceEvents::OnObjectCreate, OnObjectCreate, OnObjectCreate method [COM+], OnObjectCreate method [COM+],IComInstanceEvents interface, _dtc_icominstanceevents_onobjectcreate, comsvcs/IComInstanceEvents::OnObjectCreate, cos.icominstanceevents_onobjectcreate

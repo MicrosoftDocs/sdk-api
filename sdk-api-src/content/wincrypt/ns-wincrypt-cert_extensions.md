@@ -4,7 +4,7 @@ title: CERT_EXTENSIONS (wincrypt.h)
 description: The CERT_EXTENSIONS structure contains an array of extensions.
 helpviewer_keywords: ["*PCERT_EXTENSIONS","CERT_EXTENSIONS","CERT_EXTENSIONS structure [Security]","PCERT_EXTENSIONS","PCERT_EXTENSIONS structure pointer [Security]","_crypto2_cert_extensions","security.cert_extensions","wincrypt/CERT_EXTENSIONS","wincrypt/PCERT_EXTENSIONS"]
 old-location: security\cert_extensions.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b393ef08-cedb-4840-a427-10ead315d6ea
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_EXTENSIONS, CERT_EXTENSIONS, CERT_EXTENSIONS structure [Security], PCERT_EXTENSIONS, PCERT_EXTENSIONS structure pointer [Security], _crypto2_cert_extensions, security.cert_extensions, wincrypt/CERT_EXTENSIONS, wincrypt/PCERT_EXTENSIONS'

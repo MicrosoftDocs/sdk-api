@@ -4,7 +4,7 @@ title: PROV_ENUMALGS_EX (wincrypt.h)
 description: Used with the CryptGetProvParam function when the PP_ENUMALGS_EX parameter is retrieved to contain information about an algorithm supported by a cryptographic service provider (CSP).
 helpviewer_keywords: ["PROV_ENUMALGS_EX","PROV_ENUMALGS_EX structure [Security]","_crypto2_prov_enumalgs_ex","security.prov_enumalgs_ex","wincrypt/PROV_ENUMALGS_EX"]
 old-location: security\prov_enumalgs_ex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 239dbc6f-c3fa-4f97-aa9a-4993fe726a98
 ms.date: 12/05/2018
 ms.keywords: PROV_ENUMALGS_EX, PROV_ENUMALGS_EX structure [Security], _crypto2_prov_enumalgs_ex, security.prov_enumalgs_ex, wincrypt/PROV_ENUMALGS_EX

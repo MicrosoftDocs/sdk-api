@@ -4,7 +4,7 @@ title: SHARE_INFO_2 (lmshare.h)
 description: Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections.
 helpviewer_keywords: ["*LPSHARE_INFO_2","*PSHARE_INFO_2","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_2","LPSHARE_INFO_2 structure pointer [Files]","PSHARE_INFO_2","PSHARE_INFO_2 structure pointer [Files]","SHARE_INFO_2","SHARE_INFO_2 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","_win32_share_info_2_str","fs.share_info_2_str","lmshare/LPSHARE_INFO_2","lmshare/PSHARE_INFO_2","lmshare/SHARE_INFO_2","netmgmt.share_info_2_str"]
 old-location: fs\share_info_2_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: cd152ccd-cd60-455f-b25c-c4939c65e0ab
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_2, *PSHARE_INFO_2, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_2, LPSHARE_INFO_2 structure pointer [Files], PSHARE_INFO_2, PSHARE_INFO_2 structure pointer [Files], SHARE_INFO_2, SHARE_INFO_2 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_2_str, fs.share_info_2_str, lmshare/LPSHARE_INFO_2, lmshare/PSHARE_INFO_2, lmshare/SHARE_INFO_2, netmgmt.share_info_2_str'

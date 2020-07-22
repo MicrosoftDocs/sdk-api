@@ -4,7 +4,7 @@ title: IFilterMapper2::UnregisterFilter (strmif.h)
 description: The UnregisterFilter method removes filter information from the registry.
 helpviewer_keywords: ["IFilterMapper2 interface [DirectShow]","UnregisterFilter method","IFilterMapper2.UnregisterFilter","IFilterMapper2::UnregisterFilter","IFilterMapper2UnregisterFilter","UnregisterFilter","UnregisterFilter method [DirectShow]","UnregisterFilter method [DirectShow]","IFilterMapper2 interface","dshow.ifiltermapper2_unregisterfilter","strmif/IFilterMapper2::UnregisterFilter"]
 old-location: dshow\ifiltermapper2_unregisterfilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cfba764d-ec94-49a2-9aaf-2b107b742f83
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper2 interface [DirectShow],UnregisterFilter method, IFilterMapper2.UnregisterFilter, IFilterMapper2::UnregisterFilter, IFilterMapper2UnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_unregisterfilter, strmif/IFilterMapper2::UnregisterFilter

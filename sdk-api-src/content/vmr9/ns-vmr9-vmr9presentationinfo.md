@@ -4,7 +4,7 @@ title: VMR9PresentationInfo (vmr9.h)
 description: The VMR9PresentationInfo structure is used with the VMR-9 in the IVMRImagePresenter9::PresentImage method.
 helpviewer_keywords: ["VMR9PresentationInfo","VMR9PresentationInfo structure [DirectShow]","VMR9PresentationInfoStructure","dshow.vmr9presentationinfo","vmr9/VMR9PresentationInfo"]
 old-location: dshow\vmr9presentationinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7e5cf0e9-1cb9-494a-9370-550328dcd85c
 ms.date: 12/05/2018
 ms.keywords: VMR9PresentationInfo, VMR9PresentationInfo structure [DirectShow], VMR9PresentationInfoStructure, dshow.vmr9presentationinfo, vmr9/VMR9PresentationInfo

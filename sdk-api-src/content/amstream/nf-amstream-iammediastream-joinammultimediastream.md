@@ -4,7 +4,7 @@ title: IAMMediaStream::JoinAMMultiMediaStream (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The IAMMultiMediaStream::AddMediaStream method calls this method, which adds the specified media stream to the current multimedia stream.
 helpviewer_keywords: ["IAMMediaStream interface [DirectShow]","JoinAMMultiMediaStream method","IAMMediaStream.JoinAMMultiMediaStream","IAMMediaStream::JoinAMMultiMediaStream","IAMMediaStreamJoinAMMultiMediaStream","JoinAMMultiMediaStream","JoinAMMultiMediaStream method [DirectShow]","JoinAMMultiMediaStream method [DirectShow]","IAMMediaStream interface","amstream/IAMMediaStream::JoinAMMultiMediaStream","dshow.iammediastream_joinammultimediastream"]
 old-location: dshow\iammediastream_joinammultimediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c842b841-a4dc-47c8-8186-347aff2c4ac3
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinAMMultiMediaStream method, IAMMediaStream.JoinAMMultiMediaStream, IAMMediaStream::JoinAMMultiMediaStream, IAMMediaStreamJoinAMMultiMediaStream, JoinAMMultiMediaStream, JoinAMMultiMediaStream method [DirectShow], JoinAMMultiMediaStream method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinAMMultiMediaStream, dshow.iammediastream_joinammultimediastream

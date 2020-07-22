@@ -4,7 +4,7 @@ title: AccessCheckAndAuditAlarmA function (winbase.h)
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 helpviewer_keywords: ["AccessCheckAndAuditAlarm","AccessCheckAndAuditAlarm function [Security]","AccessCheckAndAuditAlarmA","AccessCheckAndAuditAlarmW","_win32_accesscheckandauditalarm","security.accesscheckandauditalarm","winbase/AccessCheckAndAuditAlarm","winbase/AccessCheckAndAuditAlarmA","winbase/AccessCheckAndAuditAlarmW"]
 old-location: security\accesscheckandauditalarm.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c2d144f4-9eeb-4723-9d28-97cfd1a07274
 ms.date: 12/05/2018
 ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Security], AccessCheckAndAuditAlarmA, AccessCheckAndAuditAlarmW, _win32_accesscheckandauditalarm, security.accesscheckandauditalarm, winbase/AccessCheckAndAuditAlarm, winbase/AccessCheckAndAuditAlarmA, winbase/AccessCheckAndAuditAlarmW

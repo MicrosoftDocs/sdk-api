@@ -4,7 +4,7 @@ title: EvaluateProximityToPolygon function (winuser.h)
 description: Returns the score of a polygon as the probable touch target (compared to all other polygons that intersect the touch contact area) and an adjusted touch point within the polygon.
 helpviewer_keywords: ["EvaluateProximityToPolygon","EvaluateProximityToPolygon function","input_touchhittest.evaluateproximitytopolygon","touch_hittest.evaluateproximitytopolygon","winuser/EvaluateProximityToPolygon"]
 old-location: input_touchhittest\evaluateproximitytopolygon.htm
-tech.root: Input_TouchHitTest
+tech.root: controls
 ms.assetid: 443d12f2-9f26-4e1e-9bf3-cd97b4026399
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToPolygon, EvaluateProximityToPolygon function, input_touchhittest.evaluateproximitytopolygon, touch_hittest.evaluateproximitytopolygon, winuser/EvaluateProximityToPolygon

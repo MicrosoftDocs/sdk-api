@@ -4,7 +4,7 @@ title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.in
 description: Scrolls a rectangular area of the logical surface.
 helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","Scroll method","ICompositionDrawingSurfaceInterop.Scroll","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::Scroll","ICompositionDrawingSurfaceInterop::composition","Scroll","Scroll method","Scroll method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_scroll","windows/ICompositionDrawingSurfaceInterop::Scroll"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_scroll.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: 0FC12E3E-B104-4E61-817A-3F56C8DAC755
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,Scroll method, ICompositionDrawingSurfaceInterop.Scroll, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::Scroll, ICompositionDrawingSurfaceInterop::composition, Scroll, Scroll method, Scroll method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_scroll, windows/ICompositionDrawingSurfaceInterop::Scroll

@@ -4,7 +4,7 @@ title: MsiViewClose function (msiquery.h)
 description: The MsiViewClose function releases the result set for an executed view.
 helpviewer_keywords: ["MsiViewClose","MsiViewClose function","_msi_msiviewclose","msiquery/MsiViewClose","setup.msiviewclose"]
 old-location: setup\msiviewclose.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9
 ms.date: 12/05/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose

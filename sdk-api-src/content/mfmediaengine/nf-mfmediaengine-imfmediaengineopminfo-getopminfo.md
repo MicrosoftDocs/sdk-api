@@ -4,7 +4,7 @@ title: IMFMediaEngineOPMInfo::GetOPMInfo (mfmediaengine.h)
 description: Gets status information about the Output Protection Manager (OPM).
 helpviewer_keywords: ["GetOPMInfo","GetOPMInfo method [Media Foundation]","GetOPMInfo method [Media Foundation]","IMFMediaEngineOPMInfo interface","IMFMediaEngineOPMInfo interface [Media Foundation]","GetOPMInfo method","IMFMediaEngineOPMInfo.GetOPMInfo","IMFMediaEngineOPMInfo::GetOPMInfo","mf.imfmediaengineopminfo_getopminfo","mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo"]
 old-location: mf\imfmediaengineopminfo_getopminfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5e4a6e8f-5042-4de1-8cea-64b8e6cc928a
 ms.date: 12/05/2018
 ms.keywords: GetOPMInfo, GetOPMInfo method [Media Foundation], GetOPMInfo method [Media Foundation],IMFMediaEngineOPMInfo interface, IMFMediaEngineOPMInfo interface [Media Foundation],GetOPMInfo method, IMFMediaEngineOPMInfo.GetOPMInfo, IMFMediaEngineOPMInfo::GetOPMInfo, mf.imfmediaengineopminfo_getopminfo, mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo

@@ -4,7 +4,7 @@ title: ITMediaPlayback (tapi3if.h)
 description: The ITMediaPlayback interface provides playback-specific methods that allow an application to set and get the list of files to play. This interface is created by calling QueryInterface on ITTerminal.
 helpviewer_keywords: ["ITMediaPlayback","ITMediaPlayback interface [TAPI 2.2]","ITMediaPlayback interface [TAPI 2.2]","described","_tapi3_itmediaplayback","tapi3.itmediaplayback","tapi3if/ITMediaPlayback"]
 old-location: tapi3\itmediaplayback.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 66b43721-f902-4a0e-8cbb-418438617f47
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback

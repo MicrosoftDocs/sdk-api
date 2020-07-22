@@ -4,7 +4,7 @@ title: IEnroll::get_RenewalCertificate (xenroll.h)
 description: Specifies the certificate context for the renewal certificate.
 helpviewer_keywords: ["IEnroll interface [Security]","RenewalCertificate property","IEnroll.RenewalCertificate","IEnroll.get_RenewalCertificate","IEnroll::RenewalCertificate","IEnroll::get_RenewalCertificate","IEnroll::put_RenewalCertificate","RenewalCertificate property [Security]","RenewalCertificate property [Security]","IEnroll interface","get_RenewalCertificate","security.ienroll4_renewalcertificate","xenroll/IEnroll::RenewalCertificate","xenroll/IEnroll::get_RenewalCertificate","xenroll/IEnroll::put_RenewalCertificate"]
 old-location: security\ienroll4_renewalcertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.get_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, get_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate

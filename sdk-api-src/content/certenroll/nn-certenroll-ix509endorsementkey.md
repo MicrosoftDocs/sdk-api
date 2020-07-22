@@ -4,7 +4,7 @@ title: IX509EndorsementKey (certenroll.h)
 description: X.509 Endorsement Key Interface
 helpviewer_keywords: ["IX509EndorsementKey","IX509EndorsementKey interface [Security]","IX509EndorsementKey interface [Security]","described","certenroll/IX509EndorsementKey","security.ix509endorsementkey"]
 old-location: security\ix509endorsementkey.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey

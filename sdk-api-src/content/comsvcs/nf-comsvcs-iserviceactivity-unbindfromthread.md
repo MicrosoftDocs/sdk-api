@@ -4,7 +4,7 @@ title: IServiceActivity::UnbindFromThread (comsvcs.h)
 description: Unbinds the user-defined batch work from the thread on which it is running.
 helpviewer_keywords: ["IServiceActivity interface [COM+]","UnbindFromThread method","IServiceActivity.UnbindFromThread","IServiceActivity::UnbindFromThread","UnbindFromThread","UnbindFromThread method [COM+]","UnbindFromThread method [COM+]","IServiceActivity interface","_cos_IServiceActivity_UnbindFromThread","comsvcs/IServiceActivity::UnbindFromThread","cos.iserviceactivity_unbindfromthread"]
 old-location: cos\iserviceactivity_unbindfromthread.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e28b413d-6e3e-4a1f-90ed-8b0ab88904aa
 ms.date: 12/05/2018
 ms.keywords: IServiceActivity interface [COM+],UnbindFromThread method, IServiceActivity.UnbindFromThread, IServiceActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IServiceActivity interface, _cos_IServiceActivity_UnbindFromThread, comsvcs/IServiceActivity::UnbindFromThread, cos.iserviceactivity_unbindfromthread

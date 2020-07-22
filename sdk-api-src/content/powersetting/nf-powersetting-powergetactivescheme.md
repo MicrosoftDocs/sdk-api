@@ -4,7 +4,7 @@ title: PowerGetActiveScheme function (powersetting.h)
 description: Retrieves the active power scheme and returns a GUID that identifies the scheme.
 helpviewer_keywords: ["PowerGetActiveScheme","PowerGetActiveScheme function","base.powergetactivescheme","powersetting/PowerGetActiveScheme","powrprof/PowerGetActiveScheme"]
 old-location: base\powergetactivescheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: cd72562c-8987-40c1-89c7-04a95b5f1fd0
 ms.date: 12/05/2018
 ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme

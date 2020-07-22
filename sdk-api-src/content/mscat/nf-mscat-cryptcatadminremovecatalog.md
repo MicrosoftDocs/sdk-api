@@ -4,7 +4,7 @@ title: CryptCATAdminRemoveCatalog function (mscat.h)
 description: Deletes a catalog file and removes that catalog's entry from the Windows catalog database.
 helpviewer_keywords: ["CryptCATAdminRemoveCatalog","CryptCATAdminRemoveCatalog function [Security]","mscat/CryptCATAdminRemoveCatalog","security.cryptcatadminremovecatalog"]
 old-location: security\cryptcatadminremovecatalog.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e09fe991-0e7a-45da-910a-8cb148bdff9a
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminRemoveCatalog, CryptCATAdminRemoveCatalog function [Security], mscat/CryptCATAdminRemoveCatalog, security.cryptcatadminremovecatalog

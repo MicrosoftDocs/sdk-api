@@ -2,6 +2,7 @@
 UID: NS:windns._DNS_SERVICE_CANCEL
 title: DNS_SERVICE_CANCEL structure
 description: Used to cancel an asynchronous DNS-SD operation.
+tech.root: dns
 helpviewer_keywords: ["_DNS_SERVICE_CANCEL","DNS_SERVICE_CANCEL"]
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_CANCEL, DNS_SERVICE_CANCEL

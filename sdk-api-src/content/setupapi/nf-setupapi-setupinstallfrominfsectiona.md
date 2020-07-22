@@ -4,7 +4,7 @@ title: SetupInstallFromInfSectionA function (setupapi.h)
 description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
 helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
 old-location: setup\setupinstallfrominfsection.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW

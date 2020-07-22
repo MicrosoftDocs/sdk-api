@@ -4,7 +4,7 @@ title: IEventObjectCollection::Remove (eventsys.h)
 description: Removes an event object from the collection.
 helpviewer_keywords: ["IEventObjectCollection interface [COM+]","Remove method","IEventObjectCollection.Remove","IEventObjectCollection::Remove","Remove","Remove method [COM+]","Remove method [COM+]","IEventObjectCollection interface","_cos_IEventObjectCollection_Remove","cos.ieventobjectcollection_remove","eventsys/IEventObjectCollection::Remove"]
 old-location: cos\ieventobjectcollection_remove.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5092b1e1-bbf2-493c-92be-41196b43d4f2
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection interface [COM+],Remove method, IEventObjectCollection.Remove, IEventObjectCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventObjectCollection interface, _cos_IEventObjectCollection_Remove, cos.ieventobjectcollection_remove, eventsys/IEventObjectCollection::Remove

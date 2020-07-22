@@ -4,7 +4,7 @@ title: IFullScreenVideoEx::SetEnabled (amvideo.h)
 description: The SetEnabled method enables or disables a specified display mode.
 helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetEnabled method","IFullScreenVideoEx.SetEnabled","IFullScreenVideoEx::SetEnabled","IFullScreenVideoSetEnabled","OAFALSE","OATRUE","SetEnabled","SetEnabled method [DirectShow]","SetEnabled method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetEnabled","dshow.ifullscreenvideoex_setenabled"]
 old-location: dshow\ifullscreenvideoex_setenabled.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f05c1b3e-3ebc-4753-b3ca-e52907c59121
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetEnabled method, IFullScreenVideoEx.SetEnabled, IFullScreenVideoEx::SetEnabled, IFullScreenVideoSetEnabled, OAFALSE, OATRUE, SetEnabled, SetEnabled method [DirectShow], SetEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetEnabled, dshow.ifullscreenvideoex_setenabled

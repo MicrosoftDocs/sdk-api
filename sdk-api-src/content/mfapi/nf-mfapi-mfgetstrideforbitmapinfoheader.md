@@ -4,7 +4,7 @@ title: MFGetStrideForBitmapInfoHeader function (mfapi.h)
 description: Calculates the minimum surface stride for a video format.
 helpviewer_keywords: ["09612b83-8b14-4286-9562-9e3d00fe2c2b","MFGetStrideForBitmapInfoHeader","MFGetStrideForBitmapInfoHeader function [Media Foundation]","mf.mfgetstrideforbitmapinfoheader","mfapi/MFGetStrideForBitmapInfoHeader"]
 old-location: mf\mfgetstrideforbitmapinfoheader.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 09612b83-8b14-4286-9562-9e3d00fe2c2b
 ms.date: 12/05/2018
 ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeader, MFGetStrideForBitmapInfoHeader function [Media Foundation], mf.mfgetstrideforbitmapinfoheader, mfapi/MFGetStrideForBitmapInfoHeader

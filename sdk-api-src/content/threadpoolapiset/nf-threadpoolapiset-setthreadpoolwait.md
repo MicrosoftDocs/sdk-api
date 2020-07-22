@@ -4,7 +4,7 @@ title: SetThreadpoolWait function (threadpoolapiset.h)
 description: Sets the wait object—replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
 helpviewer_keywords: ["SetThreadpoolWait","SetThreadpoolWait function","base.setthreadpoolwait","threadpoolapiset/SetThreadpoolWait","winbase/SetThreadpoolWait"]
 old-location: base\setthreadpoolwait.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait

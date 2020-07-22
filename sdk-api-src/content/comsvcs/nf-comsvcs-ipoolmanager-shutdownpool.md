@@ -4,7 +4,7 @@ title: IPoolManager::ShutdownPool (comsvcs.h)
 description: Shuts down the object pool.
 helpviewer_keywords: ["IPoolManager interface [COM+]","ShutdownPool method","IPoolManager.ShutdownPool","IPoolManager::ShutdownPool","ShutdownPool","ShutdownPool method [COM+]","ShutdownPool method [COM+]","IPoolManager interface","_cos_IPoolManager_ShutdownPool","comsvcs/IPoolManager::ShutdownPool","cos.ipoolmanager_shutdownpool"]
 old-location: cos\ipoolmanager_shutdownpool.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c374b0a4-d984-4fa6-80a7-8bc4d0aff284
 ms.date: 12/05/2018
 ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.ShutdownPool, IPoolManager::ShutdownPool, ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+],IPoolManager interface, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool

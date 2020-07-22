@@ -4,7 +4,7 @@ title: RtwqPutWorkItem function (rtworkq.h)
 description: Puts an asynchronous operation on a work queue.
 helpviewer_keywords: ["RtwqPutWorkItem","RtwqPutWorkItem function","base.rtwqputworkitem","rtworkq/RtwqPutWorkItem"]
 old-location: base\rtwqputworkitem.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: d2ae1cec-b279-4f5e-a803-fe0b8f453029
 ms.date: 12/05/2018
 ms.keywords: RtwqPutWorkItem, RtwqPutWorkItem function, base.rtwqputworkitem, rtworkq/RtwqPutWorkItem

@@ -4,7 +4,7 @@ title: IAMMediaTypeStream::SetFormat (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the format of the stream.
 helpviewer_keywords: ["IAMMediaTypeStream interface [DirectShow]","SetFormat method","IAMMediaTypeStream.SetFormat","IAMMediaTypeStream::SetFormat","IAMMediaTypeStreamSetFormat","SetFormat","SetFormat method [DirectShow]","SetFormat method [DirectShow]","IAMMediaTypeStream interface","amstream/IAMMediaTypeStream::SetFormat","dshow.iammediatypestream_setformat"]
 old-location: dshow\iammediatypestream_setformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 12ac4490-c12c-428a-939f-adf25a77b9e4
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetFormat method, IAMMediaTypeStream.SetFormat, IAMMediaTypeStream::SetFormat, IAMMediaTypeStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetFormat, dshow.iammediatypestream_setformat

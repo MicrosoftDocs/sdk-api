@@ -4,7 +4,7 @@ title: IDispenserManager::RegisterDispenser (comsvcs.h)
 description: Registers the resource dispenser with the dispenser manager.
 helpviewer_keywords: ["IDispenserManager interface [COM+]","RegisterDispenser method","IDispenserManager.RegisterDispenser","IDispenserManager::RegisterDispenser","RegisterDispenser","RegisterDispenser method [COM+]","RegisterDispenser method [COM+]","IDispenserManager interface","_dtc_IDispenserManager_RegisterDispenser","comsvcs/IDispenserManager::RegisterDispenser","cos.idispensermanager_registerdispenser"]
 old-location: cos\idispensermanager_registerdispenser.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 18633c7f-d589-4e38-82e7-7cdae3fbf1ba
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager interface [COM+],RegisterDispenser method, IDispenserManager.RegisterDispenser, IDispenserManager::RegisterDispenser, RegisterDispenser, RegisterDispenser method [COM+], RegisterDispenser method [COM+],IDispenserManager interface, _dtc_IDispenserManager_RegisterDispenser, comsvcs/IDispenserManager::RegisterDispenser, cos.idispensermanager_registerdispenser

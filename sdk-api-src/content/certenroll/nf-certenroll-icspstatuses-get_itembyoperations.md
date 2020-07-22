@@ -4,7 +4,7 @@ title: ICspStatuses::get_ItemByOperations (certenroll.h)
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input and the same algorithm but identifies a different cryptographic operation.
 helpviewer_keywords: ["ICspStatuses interface [Security]","ItemByOperations property","ICspStatuses.ItemByOperations","ICspStatuses.get_ItemByOperations","ICspStatuses::ItemByOperations","ICspStatuses::get_ItemByOperations","ItemByOperations property [Security]","ItemByOperations property [Security]","ICspStatuses interface","certenroll/ICspStatuses::ItemByOperations","certenroll/ICspStatuses::get_ItemByOperations","get_ItemByOperations","security.icspstatuses_itembyoperations_property"]
 old-location: security\icspstatuses_itembyoperations_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ae314b76-61b7-4e28-87bb-f58ea14d7b71
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOperations property, ICspStatuses.ItemByOperations, ICspStatuses.get_ItemByOperations, ICspStatuses::ItemByOperations, ICspStatuses::get_ItemByOperations, ItemByOperations property [Security], ItemByOperations property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOperations, certenroll/ICspStatuses::get_ItemByOperations, get_ItemByOperations, security.icspstatuses_itembyoperations_property

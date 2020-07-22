@@ -4,7 +4,7 @@ title: SecPkgContext_KeyInfoW (sspi.h)
 description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
 helpviewer_keywords: ["*PSecPkgContext_KeyInfoW","PSecPkgContext_KeyInfo","PSecPkgContext_KeyInfo structure pointer [Security]","SecPkgContext_KeyInfo","SecPkgContext_KeyInfo structure [Security]","SecPkgContext_KeyInfoA","SecPkgContext_KeyInfoW","_ssp_secpkgcontext_keyinfo","security.secpkgcontext_keyinfo","sspi/PSecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfoA","sspi/SecPkgContext_KeyInfoW"]
 old-location: security\secpkgcontext_keyinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_KeyInfoW, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW'

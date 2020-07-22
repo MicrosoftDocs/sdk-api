@@ -4,7 +4,7 @@ title: TOKEN_ELEVATION (winnt.h)
 description: Indicates whether a token has elevated privileges.
 helpviewer_keywords: ["*PTOKEN_ELEVATION","PTOKEN_ELEVATION","PTOKEN_ELEVATION structure pointer [Security]","TOKEN_ELEVATION","TOKEN_ELEVATION structure [Security]","_TOKEN_ELEVATION","security.token_elevation","winnt/PTOKEN_ELEVATION","winnt/TOKEN_ELEVATION"]
 old-location: security\token_elevation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a1c87818-f092-43cf-872d-4bb2590a944b
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure pointer [Security], TOKEN_ELEVATION, TOKEN_ELEVATION structure [Security], _TOKEN_ELEVATION, security.token_elevation, winnt/PTOKEN_ELEVATION, winnt/TOKEN_ELEVATION'

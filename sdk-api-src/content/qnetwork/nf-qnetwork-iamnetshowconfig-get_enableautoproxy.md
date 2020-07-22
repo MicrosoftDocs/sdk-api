@@ -4,7 +4,7 @@ title: IAMNetShowConfig::get_EnableAutoProxy (qnetwork.h)
 description: The get_EnableAutoProxy method queries whether the control or filter should use the browser's proxy settings.
 helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_EnableAutoProxy method","IAMNetShowConfig.get_EnableAutoProxy","IAMNetShowConfig::get_EnableAutoProxy","IAMNetShowConfigget_EnableAutoProxy","dshow.iamnetshowconfig_get_enableautoproxy","get_EnableAutoProxy","get_EnableAutoProxy method [DirectShow]","get_EnableAutoProxy method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_EnableAutoProxy"]
 old-location: dshow\iamnetshowconfig_get_enableautoproxy.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableAutoProxy method, IAMNetShowConfig.get_EnableAutoProxy, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableAutoProxy

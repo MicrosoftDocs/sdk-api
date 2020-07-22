@@ -4,7 +4,7 @@ title: ITCallInfo2::put_EventFilter (tapi3if.h)
 description: The put_EventFilter method sets an event filter for the current call.
 helpviewer_keywords: ["ITCallInfo2 interface [TAPI 2.2]","put_EventFilter method","ITCallInfo2.put_EventFilter","ITCallInfo2::put_EventFilter","_tapi3_itcallinfo2_put_eventfilter","put_EventFilter","put_EventFilter method [TAPI 2.2]","put_EventFilter method [TAPI 2.2]","ITCallInfo2 interface","tapi3.itcallinfo2_put_eventfilter","tapi3if/ITCallInfo2::put_EventFilter"]
 old-location: tapi3\itcallinfo2_put_eventfilter.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8e1b4474-b9ff-489d-8226-58eda659e057
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo2 interface [TAPI 2.2],put_EventFilter method, ITCallInfo2.put_EventFilter, ITCallInfo2::put_EventFilter, _tapi3_itcallinfo2_put_eventfilter, put_EventFilter, put_EventFilter method [TAPI 2.2], put_EventFilter method [TAPI 2.2],ITCallInfo2 interface, tapi3.itcallinfo2_put_eventfilter, tapi3if/ITCallInfo2::put_EventFilter

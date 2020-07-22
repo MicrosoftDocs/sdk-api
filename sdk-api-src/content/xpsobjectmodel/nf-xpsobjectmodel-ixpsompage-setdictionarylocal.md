@@ -4,7 +4,7 @@ title: IXpsOMPage::SetDictionaryLocal (xpsobjectmodel.h)
 description: Sets the IXpsOMDictionary interface pointer of the page's local dictionary resource.
 helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetDictionaryLocal method","IXpsOMPage.SetDictionaryLocal","IXpsOMPage::SetDictionaryLocal","SetDictionaryLocal","SetDictionaryLocal method [XPS Documents and Packaging]","SetDictionaryLocal method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setdictionarylocal","xpsobjectmodel/IXpsOMPage::SetDictionaryLocal"]
 old-location: xps\ixpsompage_setdictionarylocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d950a21a-0afe-410a-9f2c-32847c35471e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMPage.SetDictionaryLocal, IXpsOMPage::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionarylocal, xpsobjectmodel/IXpsOMPage::SetDictionaryLocal

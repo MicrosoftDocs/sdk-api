@@ -4,7 +4,7 @@ title: MFCreateTopologyNode function (mfidl.h)
 description: Creates a topology node.
 helpviewer_keywords: ["67c32232-09cb-4098-b80b-4b93ee121190","MFCreateTopologyNode","MFCreateTopologyNode function [Media Foundation]","mf.mfcreatetopologynode","mfidl/MFCreateTopologyNode"]
 old-location: mf\mfcreatetopologynode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 67c32232-09cb-4098-b80b-4b93ee121190
 ms.date: 12/05/2018
 ms.keywords: 67c32232-09cb-4098-b80b-4b93ee121190, MFCreateTopologyNode, MFCreateTopologyNode function [Media Foundation], mf.mfcreatetopologynode, mfidl/MFCreateTopologyNode

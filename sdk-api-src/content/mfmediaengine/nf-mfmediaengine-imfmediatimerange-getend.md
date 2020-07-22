@@ -4,7 +4,7 @@ title: IMFMediaTimeRange::GetEnd (mfmediaengine.h)
 description: Gets the end time for a specified time range.
 helpviewer_keywords: ["GetEnd","GetEnd method [Media Foundation]","GetEnd method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","GetEnd method","IMFMediaTimeRange.GetEnd","IMFMediaTimeRange::GetEnd","mf.imfmediatimerange_getend","mfmediaengine/IMFMediaTimeRange::GetEnd"]
 old-location: mf\imfmediatimerange_getend.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 864C0DEE-A1F7-488C-9A9D-366602667DE9
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Media Foundation], GetEnd method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetEnd method, IMFMediaTimeRange.GetEnd, IMFMediaTimeRange::GetEnd, mf.imfmediatimerange_getend, mfmediaengine/IMFMediaTimeRange::GetEnd

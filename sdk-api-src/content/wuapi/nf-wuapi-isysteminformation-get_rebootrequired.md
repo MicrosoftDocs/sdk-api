@@ -4,7 +4,7 @@ title: ISystemInformation::get_RebootRequired (wuapi.h)
 description: Gets a Boolean value that indicates whether a system restart is required to complete the installation or uninstallation of one or more updates.
 helpviewer_keywords: ["ISystemInformation interface [Windows Update Agent]","RebootRequired property","ISystemInformation.RebootRequired","ISystemInformation.get_RebootRequired","ISystemInformation::RebootRequired","ISystemInformation::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","ISystemInformation interface","get_RebootRequired","wua.isysteminformation_rebootrequired","wuapi/ISystemInformation::RebootRequired","wuapi/ISystemInformation::get_RebootRequired"]
 old-location: wua\isysteminformation_rebootrequired.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 069a4ace-d69e-4d8d-b880-81c58d9668bd
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],RebootRequired property, ISystemInformation.RebootRequired, ISystemInformation.get_RebootRequired, ISystemInformation::RebootRequired, ISystemInformation::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],ISystemInformation interface, get_RebootRequired, wua.isysteminformation_rebootrequired, wuapi/ISystemInformation::RebootRequired, wuapi/ISystemInformation::get_RebootRequired

@@ -4,7 +4,7 @@ title: IVdsOpenVDisk (vds.h)
 description: Defines methods for managing a virtual disk.
 helpviewer_keywords: ["IVdsOpenVDisk","IVdsOpenVDisk interface","IVdsOpenVDisk interface","described","base.ivdsopenvdisk","vds/IVdsOpenVDisk"]
 old-location: base\ivdsopenvdisk.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 3d5f080f-3e83-437e-8cbc-9730988f5dcc
 ms.date: 12/05/2018
 ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface,described, base.ivdsopenvdisk, vds/IVdsOpenVDisk

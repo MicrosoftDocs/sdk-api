@@ -4,7 +4,7 @@ title: CreateWriter function (vswriter.h)
 description: This function is reserved for system use.
 helpviewer_keywords: ["CreateWriter","CreateWriter function","base.createwriter","vswriter/CreateWriter"]
 old-location: base\createwriter.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
 ms.date: 12/05/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter

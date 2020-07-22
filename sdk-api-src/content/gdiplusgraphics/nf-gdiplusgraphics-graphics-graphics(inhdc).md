@@ -2,6 +2,7 @@
 UID: NF:gdiplusgraphics.Graphics.Graphics(INHDC)
 title: Graphics::Graphics
 description: Creates a Graphics::Graphics object that is associated with a specified device context.
+tech.root: gdiplus
 helpviewer_keywords: ["Graphics::Graphics"]
 ms.assetid: f048c2f7-27b4-48dc-b6d8-871f010603f5
 ms.date: 05/13/2019

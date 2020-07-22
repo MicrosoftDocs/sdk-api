@@ -2,6 +2,7 @@
 UID: NF:directxcollision.BoundingSphere.Transform
 title: BoundingSphere::Transform
 description: Transforms the BoundingSphere.
+tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::Transform"]
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Transform

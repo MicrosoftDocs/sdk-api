@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::FormatPartition (vds.h)
 description: Formats an existing OEM, ESP, or unknown partition.
 helpviewer_keywords: ["FormatPartition","FormatPartition method [VDS]","FormatPartition method [VDS]","IVdsAdvancedDisk interface","IVdsAdvancedDisk interface [VDS]","FormatPartition method","IVdsAdvancedDisk.FormatPartition","IVdsAdvancedDisk::FormatPartition","base.ivdsadvanceddisk_formatpartition","vds/IVdsAdvancedDisk::FormatPartition"]
 old-location: base\ivdsadvanceddisk_formatpartition.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 9b7015c2-a85d-4a56-8aec-208933640185
 ms.date: 12/05/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition

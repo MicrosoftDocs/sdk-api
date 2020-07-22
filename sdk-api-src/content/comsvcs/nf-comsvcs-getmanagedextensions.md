@@ -4,7 +4,7 @@ title: GetManagedExtensions function (comsvcs.h)
 description: Determines whether the installed version of COM+ supports special features provided to manage serviced components (managed objects).
 helpviewer_keywords: ["GetManagedExtensions","GetManagedExtensions function [COM+]","_cos_GetManagedExtensions","comsvcs/GetManagedExtensions","cos.getmanagedextensions"]
 old-location: cos\getmanagedextensions.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cffd18c4-6e37-447b-b749-64793711ea56
 ms.date: 12/05/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions

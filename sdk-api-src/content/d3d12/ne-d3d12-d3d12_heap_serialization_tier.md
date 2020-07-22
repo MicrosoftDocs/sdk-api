@@ -2,6 +2,7 @@
 UID: NE:d3d12.D3D12_HEAP_SERIALIZATION_TIER
 title: D3D12_HEAP_SERIALIZATION_TIER
 description: Defines constants that specify heap serialization support.
+tech.root: direct3d12
 helpviewer_keywords: ["D3D12_HEAP_SERIALIZATION_TIER"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_HEAP_SERIALIZATION_TIER

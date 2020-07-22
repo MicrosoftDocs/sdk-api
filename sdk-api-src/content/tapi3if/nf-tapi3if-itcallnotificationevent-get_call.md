@@ -4,7 +4,7 @@ title: ITCallNotificationEvent::get_Call (tapi3if.h)
 description: The get_Call method returns the ITCallInfo interface on which a call event has occurred.
 helpviewer_keywords: ["ITCallNotificationEvent interface [TAPI 2.2]","get_Call method","ITCallNotificationEvent.get_Call","ITCallNotificationEvent::get_Call","_tapi3_itcallnotificationevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITCallNotificationEvent interface","tapi3.itcallnotificationevent_get_call","tapi3if/ITCallNotificationEvent::get_Call"]
 old-location: tapi3\itcallnotificationevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6ff82bd1-de69-4ab7-9152-a578b8566755
 ms.date: 12/05/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_Call method, ITCallNotificationEvent.get_Call, ITCallNotificationEvent::get_Call, _tapi3_itcallnotificationevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_call, tapi3if/ITCallNotificationEvent::get_Call

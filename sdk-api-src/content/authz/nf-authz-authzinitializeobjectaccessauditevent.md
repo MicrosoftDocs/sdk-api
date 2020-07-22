@@ -4,7 +4,7 @@ title: AuthzInitializeObjectAccessAuditEvent function (authz.h)
 description: Initializes auditing for an object.
 helpviewer_keywords: ["AUTHZ_NO_ALLOC_STRINGS","AUTHZ_NO_FAILURE_AUDIT","AUTHZ_NO_SUCCESS_AUDIT","AuthzInitializeObjectAccessAuditEvent","AuthzInitializeObjectAccessAuditEvent function [Security]","_win32_authzinitializeobjectaccessauditevent","authz/AuthzInitializeObjectAccessAuditEvent","security.authzinitializeobjectaccessauditevent"]
 old-location: security\authzinitializeobjectaccessauditevent.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cf79a92f-31e0-47cf-8990-4dbd46056a90
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent, AuthzInitializeObjectAccessAuditEvent function [Security], _win32_authzinitializeobjectaccessauditevent, authz/AuthzInitializeObjectAccessAuditEvent, security.authzinitializeobjectaccessauditevent

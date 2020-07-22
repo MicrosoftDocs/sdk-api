@@ -4,7 +4,7 @@ title: CertEnumCTLContextProperties function (wincrypt.h)
 description: The CertEnumCTLContextProperties function retrieves the first or next extended property associated with a certificate trust list (CTL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CTL context.
 helpviewer_keywords: ["CertEnumCTLContextProperties","CertEnumCTLContextProperties function [Security]","_crypto2_certenumctlcontextproperties","security.certenumctlcontextproperties","wincrypt/CertEnumCTLContextProperties"]
 old-location: security\certenumctlcontextproperties.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f5c9c4cd-bf99-41bf-b13e-f1921b011039
 ms.date: 12/05/2018
 ms.keywords: CertEnumCTLContextProperties, CertEnumCTLContextProperties function [Security], _crypto2_certenumctlcontextproperties, security.certenumctlcontextproperties, wincrypt/CertEnumCTLContextProperties

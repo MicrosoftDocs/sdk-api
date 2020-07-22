@@ -4,7 +4,7 @@ title: UnregisterPowerSettingNotification function (winuser.h)
 description: Unregisters the power setting notification.
 helpviewer_keywords: ["UnregisterPowerSettingNotification","UnregisterPowerSettingNotification function","base.unregisterpowersettingnotification","winuser/UnregisterPowerSettingNotification"]
 old-location: base\unregisterpowersettingnotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: de1509f5-cf4c-448e-bb3b-08da6be53bfa
 ms.date: 12/05/2018
 ms.keywords: UnregisterPowerSettingNotification, UnregisterPowerSettingNotification function, base.unregisterpowersettingnotification, winuser/UnregisterPowerSettingNotification

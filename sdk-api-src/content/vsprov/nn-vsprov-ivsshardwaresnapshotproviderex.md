@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProviderEx (vsprov.h)
 description: Provides an additional method used by VSS to notify hardware providers of LUN state changes.
 helpviewer_keywords: ["IVssHardwareSnapshotProviderEx","IVssHardwareSnapshotProviderEx interface","IVssHardwareSnapshotProviderEx interface","described","base.ivsshardwaresnapshotproviderex","vsprov/IVssHardwareSnapshotProviderEx"]
 old-location: base\ivsshardwaresnapshotproviderex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: aaf94823-845b-49cb-8599-962229fef4cb
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,described, base.ivsshardwaresnapshotproviderex, vsprov/IVssHardwareSnapshotProviderEx

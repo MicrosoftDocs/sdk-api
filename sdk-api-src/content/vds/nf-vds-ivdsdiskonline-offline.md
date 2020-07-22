@@ -4,7 +4,7 @@ title: IVdsDiskOnline::Offline (vds.h)
 description: Takes the disk offline.Windows Vista:  This method is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2::SetSANMode instead.
 helpviewer_keywords: ["IVdsDiskOnline interface","Offline method","IVdsDiskOnline.Offline","IVdsDiskOnline::Offline","Offline","Offline method","Offline method","IVdsDiskOnline interface","base.ivdsdiskonline_offline","vds/IVdsDiskOnline::Offline"]
 old-location: base\ivdsdiskonline_offline.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 3f27dd46-2fa1-4522-9d35-db78255c6d11
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IVdsDiskOnline::Offline, Offline, Offline method, Offline method,IVdsDiskOnline interface, base.ivdsdiskonline_offline, vds/IVdsDiskOnline::Offline

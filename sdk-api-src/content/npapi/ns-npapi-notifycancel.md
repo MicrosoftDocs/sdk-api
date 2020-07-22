@@ -4,7 +4,7 @@ title: NOTIFYCANCEL (npapi.h)
 description: The NOTIFYCANCEL structure contains the details of a network disconnect operation. It is used by the CancelConnectNotify function.
 helpviewer_keywords: ["*LPNOTIFYCANCEL","LPNOTIFYCANCEL","LPNOTIFYCANCEL structure pointer [Security]","NOTIFYCANCEL","NOTIFYCANCEL structure [Security]","_mnp_notifycancel","npapi/LPNOTIFYCANCEL","npapi/NOTIFYCANCEL","security.notifycancel"]
 old-location: security\notifycancel.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
 ms.date: 12/05/2018
 ms.keywords: '*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel'

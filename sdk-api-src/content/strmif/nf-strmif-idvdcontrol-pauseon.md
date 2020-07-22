@@ -4,7 +4,7 @@ title: IDvdControl::PauseOn (strmif.h)
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Pauses the current media file playback.
 helpviewer_keywords: ["IDvdControl interface [DirectShow]","PauseOn method","IDvdControl.PauseOn","IDvdControl::PauseOn","IDvdControlPauseOn","PauseOn","PauseOn method [DirectShow]","PauseOn method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_pauseon","strmif/IDvdControl::PauseOn"]
 old-location: dshow\idvdcontrol_pauseon.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d67a7a16-41f9-4718-a6ad-d48ba77fb1d4
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],PauseOn method, IDvdControl.PauseOn, IDvdControl::PauseOn, IDvdControlPauseOn, PauseOn, PauseOn method [DirectShow], PauseOn method [DirectShow],IDvdControl interface, dshow.idvdcontrol_pauseon, strmif/IDvdControl::PauseOn

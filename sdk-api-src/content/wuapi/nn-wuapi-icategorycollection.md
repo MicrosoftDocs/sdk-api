@@ -4,7 +4,7 @@ title: ICategoryCollection (wuapi.h)
 description: Represents an ordered read-only list of ICategory interfaces.
 helpviewer_keywords: ["ICategoryCollection","ICategoryCollection interface [Windows Update Agent]","ICategoryCollection interface [Windows Update Agent]","described","wua.icategorycollection","wuapi/ICategoryCollection"]
 old-location: wua\icategorycollection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2d43ee74-f3c7-4c94-8e83-e497d3aa81ee
 ms.date: 12/05/2018
 ms.keywords: ICategoryCollection, ICategoryCollection interface [Windows Update Agent], ICategoryCollection interface [Windows Update Agent],described, wua.icategorycollection, wuapi/ICategoryCollection

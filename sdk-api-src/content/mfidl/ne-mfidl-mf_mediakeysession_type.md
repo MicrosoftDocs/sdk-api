@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Specifies the type of a Content Decryption Module (CDM) session, represented by an IMFContentDecryptionModuleSession object.
+tech.root: mf
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mfidl.h

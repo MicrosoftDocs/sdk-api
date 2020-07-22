@@ -4,7 +4,7 @@ title: SetFilePointerEx function (fileapi.h)
 description: Moves the file pointer of the specified file.
 helpviewer_keywords: ["FILE_BEGIN","FILE_CURRENT","FILE_END","SetFilePointerEx","SetFilePointerEx function [Files]","_win32_setfilepointerex","base.setfilepointerex","fileapi/SetFilePointerEx","fs.setfilepointerex","winbase/SetFilePointerEx"]
 old-location: fs\setfilepointerex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a6fdfa00-626d-425d-b00e-c174b19ea4b9
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx

@@ -4,7 +4,7 @@ title: ITStream::SelectTerminal (tapi3if.h)
 description: The SelectTerminal method selects an ITTerminal object onto the stream.
 helpviewer_keywords: ["ITStream interface [TAPI 2.2]","SelectTerminal method","ITStream.SelectTerminal","ITStream::SelectTerminal","SelectTerminal","SelectTerminal method [TAPI 2.2]","SelectTerminal method [TAPI 2.2]","ITStream interface","_tapi3_itstream_selectterminal","tapi3.itstream_selectterminal","tapi3if/ITStream::SelectTerminal"]
 old-location: tapi3\itstream_selectterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ecc4c7eb-c278-457a-b54e-5f1e582e22bf
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],SelectTerminal method, ITStream.SelectTerminal, ITStream::SelectTerminal, SelectTerminal, SelectTerminal method [TAPI 2.2], SelectTerminal method [TAPI 2.2],ITStream interface, _tapi3_itstream_selectterminal, tapi3.itstream_selectterminal, tapi3if/ITStream::SelectTerminal

@@ -4,7 +4,7 @@ title: SetupCancelTemporarySourceList function (setupapi.h)
 description: The SetupCancelTemporarySourceList function cancels any temporary list and no-browse behavior and reestablishes standard list behavior.
 helpviewer_keywords: ["SetupCancelTemporarySourceList","SetupCancelTemporarySourceList function [Setup API]","_setupapi_setupcanceltemporarysourcelist","setup.setupcanceltemporarysourcelist","setupapi/SetupCancelTemporarySourceList"]
 old-location: setup\setupcanceltemporarysourcelist.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 87ef9425-5dab-442b-a487-3a4789005411
 ms.date: 12/05/2018
 ms.keywords: SetupCancelTemporarySourceList, SetupCancelTemporarySourceList function [Setup API], _setupapi_setupcanceltemporarysourcelist, setup.setupcanceltemporarysourcelist, setupapi/SetupCancelTemporarySourceList

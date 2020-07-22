@@ -4,7 +4,7 @@ title: IDirectXVideoProcessorService::CreateVideoProcessor (dxva2api.h)
 description: Creates a video processor device.
 helpviewer_keywords: ["18178a10-f902-4d25-992e-a27145204321","CreateVideoProcessor","CreateVideoProcessor method [Media Foundation]","CreateVideoProcessor method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","CreateVideoProcessor method","IDirectXVideoProcessorService.CreateVideoProcessor","IDirectXVideoProcessorService::CreateVideoProcessor","dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor","mf.idirectxvideoprocessorservice_createvideoprocessor"]
 old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 18178a10-f902-4d25-992e-a27145204321
 ms.date: 12/05/2018
 ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],CreateVideoProcessor method, IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor

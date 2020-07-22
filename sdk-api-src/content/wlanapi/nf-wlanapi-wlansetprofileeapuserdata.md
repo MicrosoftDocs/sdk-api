@@ -4,7 +4,7 @@ title: WlanSetProfileEapUserData function (wlanapi.h)
 description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by raw EAP data.
 helpviewer_keywords: ["WLAN_SET_EAPHOST_DATA_ALL_USERS","WlanSetProfileEapUserData","WlanSetProfileEapUserData function [NativeWIFI]","nwifi.wlansetprofileeapuserdata","wlanapi/WlanSetProfileEapUserData"]
 old-location: nwifi\wlansetprofileeapuserdata.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2bef0f2f-165d-446a-afa8-735658048152
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapUserData, WlanSetProfileEapUserData function [NativeWIFI], nwifi.wlansetprofileeapuserdata, wlanapi/WlanSetProfileEapUserData

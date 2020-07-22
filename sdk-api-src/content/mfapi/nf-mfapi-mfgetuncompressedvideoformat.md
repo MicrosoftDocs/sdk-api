@@ -4,7 +4,7 @@ title: MFGetUncompressedVideoFormat function (mfapi.h)
 description: Returns the FOURCC or D3DFORMAT value for an uncompressed video format.
 helpviewer_keywords: ["7869025a-dacf-47e6-b129-db5b2daefa3b","MFGetUncompressedVideoFormat","MFGetUncompressedVideoFormat function [Media Foundation]","mf.mfgetuncompressedvideoformat","mfapi/MFGetUncompressedVideoFormat"]
 old-location: mf\mfgetuncompressedvideoformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7869025a-dacf-47e6-b129-db5b2daefa3b
 ms.date: 12/05/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat

@@ -4,7 +4,7 @@ title: IMFTransform::GetInputStreamInfo (mftransform.h)
 description: Gets the buffer requirements and other information for an input stream on this Media Foundation transform (MFT).
 helpviewer_keywords: ["GetInputStreamInfo","GetInputStreamInfo method [Media Foundation]","GetInputStreamInfo method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetInputStreamInfo method","IMFTransform.GetInputStreamInfo","IMFTransform::GetInputStreamInfo","d57ffac7-1a92-4c6b-bd59-0acd7239c0a6","mf.imftransform_getinputstreaminfo","mftransform/IMFTransform::GetInputStreamInfo"]
 old-location: mf\imftransform_getinputstreaminfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d57ffac7-1a92-4c6b-bd59-0acd7239c0a6
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo

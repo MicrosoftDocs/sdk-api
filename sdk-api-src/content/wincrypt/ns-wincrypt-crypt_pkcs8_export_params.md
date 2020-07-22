@@ -4,7 +4,7 @@ title: CRYPT_PKCS8_EXPORT_PARAMS (wincrypt.h)
 description: Identifies the private key and a callback function to encrypt the private key. CRYPT_PKCS8_EXPORT_PARAMS is used as a parameter to the CryptExportPKCS8Ex function, which exports a private key in PKCS
 helpviewer_keywords: ["*PCRYPT_PKCS8_EXPORT_PARAMS","AT_KEYEXCHANGE","AT_SIGNATURE","CRYPT_PKCS8_EXPORT_PARAMS","CRYPT_PKCS8_EXPORT_PARAMS structure [Security]","PCRYPT_PKCS8_EXPORT_PARAMS","PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security]","security.crypt_pkcs8_export_params","wincrypt/CRYPT_PKCS8_EXPORT_PARAMS","wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS"]
 old-location: security\crypt_pkcs8_export_params.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS'

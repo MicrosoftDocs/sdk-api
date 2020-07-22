@@ -4,7 +4,7 @@ title: ID3D11VideoContext::VideoProcessorSetStreamFilter (d3d11.h)
 description: Enables or disables an image filter for an input stream on the video processor.
 helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamFilter method","ID3D11VideoContext.VideoProcessorSetStreamFilter","ID3D11VideoContext::VideoProcessorSetStreamFilter","VideoProcessorSetStreamFilter","VideoProcessorSetStreamFilter method [Media Foundation]","VideoProcessorSetStreamFilter method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamFilter","mf.id3d11videocontext_videoprocessorsetstreamfilter"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamfilter.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 49258E8F-50BC-4F51-A492-78B44A73CC13
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamFilter method, ID3D11VideoContext.VideoProcessorSetStreamFilter, ID3D11VideoContext::VideoProcessorSetStreamFilter, VideoProcessorSetStreamFilter, VideoProcessorSetStreamFilter method [Media Foundation], VideoProcessorSetStreamFilter method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamFilter, mf.id3d11videocontext_videoprocessorsetstreamfilter

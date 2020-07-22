@@ -4,7 +4,7 @@ title: IMFSensorGroup::GetSymbolicLink (mfidl.h)
 description: Gets the symbolic link name of the sensor group.
 helpviewer_keywords: ["GetSymbolicLink","GetSymbolicLink method [Media Foundation]","GetSymbolicLink method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","GetSymbolicLink method","IMFSensorGroup.GetSymbolicLink","IMFSensorGroup::GetSymbolicLink","mf.imfsensorgroup_getsymboliclink","mfidl/IMFSensorGroup::GetSymbolicLink"]
 old-location: mf\imfsensorgroup_getsymboliclink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F71CFD47-6D44-4288-A70E-70040D19DB2D
 ms.date: 12/05/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSymbolicLink method, IMFSensorGroup.GetSymbolicLink, IMFSensorGroup::GetSymbolicLink, mf.imfsensorgroup_getsymboliclink, mfidl/IMFSensorGroup::GetSymbolicLink

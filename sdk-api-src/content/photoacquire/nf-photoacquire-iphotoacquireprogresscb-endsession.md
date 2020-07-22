@@ -4,7 +4,7 @@ title: IPhotoAcquireProgressCB::EndSession (photoacquire.h)
 description: The EndSession method provides extended functionality when an acquisition session is completed. The application provides the implementation of the EndSession method.
 helpviewer_keywords: ["EndSession","EndSession method [Picture Acquisition]","EndSession method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","EndSession method","IPhotoAcquireProgressCB.EndSession","IPhotoAcquireProgressCB::EndSession","IPhotoAcquireProgressCBEndSession","photoacquire/IPhotoAcquireProgressCB::EndSession","picacq.iphotoacquireprogresscb_endsession"]
 old-location: picacq\iphotoacquireprogresscb_endsession.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: fb22709a-c1f8-4608-b984-46181e7c704e
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndSession method, IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession

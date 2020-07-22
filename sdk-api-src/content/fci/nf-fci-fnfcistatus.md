@@ -4,7 +4,7 @@ title: FNFCISTATUS macro (fci.h)
 description: The FNFCISTATUS macro provides the declaration for the application-defined callback function to update the user.
 helpviewer_keywords: ["FNFCISTATUS","FNFCISTATUS macro [Windows API]","fci/FNFCISTATUS","winprog.fnfcistatus"]
 old-location: winprog\fnfcistatus.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.date: 12/05/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus

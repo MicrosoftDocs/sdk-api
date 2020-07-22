@@ -4,7 +4,7 @@ title: IXpsSignature::GetPolicy (xpsdigitalsignature.h)
 description: Gets the XPS_SIGN_POLICY value that represents the signing policy used when the signature is created.
 helpviewer_keywords: ["GetPolicy","GetPolicy method [XPS Documents and Packaging]","GetPolicy method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetPolicy method","IXpsSignature.GetPolicy","IXpsSignature::GetPolicy","xps.ixpssignature_getpolicy","xpsdigitalsignature/IXpsSignature::GetPolicy"]
 old-location: xps\ixpssignature_getpolicy.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 632e5e53-1677-4b55-9085-0def97531a5d
 ms.date: 12/05/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetPolicy method, IXpsSignature.GetPolicy, IXpsSignature::GetPolicy, xps.ixpssignature_getpolicy, xpsdigitalsignature/IXpsSignature::GetPolicy

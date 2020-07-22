@@ -4,7 +4,7 @@ title: SetNtmsDeviceChangeDetection function (ntmsapi.h)
 description: The SetNtmsDeviceChangeDetection function sets one or more target devices for change detection.
 helpviewer_keywords: ["SetNtmsDeviceChangeDetection","SetNtmsDeviceChangeDetection function [Files]","_zaw_setntmsdevicechangedetection","base.setntmsdevicechangedetection","fs.setntmsdevicechangedetection","ntmsapi/SetNtmsDeviceChangeDetection"]
 old-location: fs\setntmsdevicechangedetection.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 803bd7d6-f098-42f1-83da-fe9f71f960b0
 ms.date: 12/05/2018
 ms.keywords: SetNtmsDeviceChangeDetection, SetNtmsDeviceChangeDetection function [Files], _zaw_setntmsdevicechangedetection, base.setntmsdevicechangedetection, fs.setntmsdevicechangedetection, ntmsapi/SetNtmsDeviceChangeDetection

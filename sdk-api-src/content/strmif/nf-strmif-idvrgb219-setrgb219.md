@@ -4,7 +4,7 @@ title: IDVRGB219::SetRGB219 (strmif.h)
 description: The SetRGB219 method controls the dynamic range for DV encoding and decoding.
 helpviewer_keywords: ["IDVRGB219 interface [DirectShow]","SetRGB219 method","IDVRGB219.SetRGB219","IDVRGB219::SetRGB219","IDVRGB219SetRGB219","SetRGB219","SetRGB219 method [DirectShow]","SetRGB219 method [DirectShow]","IDVRGB219 interface","dshow.idvrgb219_setrgb219","strmif/IDVRGB219::SetRGB219"]
 old-location: dshow\idvrgb219_setrgb219.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d203158b-4c15-4fde-9bc2-6d0ba04af504
 ms.date: 12/05/2018
 ms.keywords: IDVRGB219 interface [DirectShow],SetRGB219 method, IDVRGB219.SetRGB219, IDVRGB219::SetRGB219, IDVRGB219SetRGB219, SetRGB219, SetRGB219 method [DirectShow], SetRGB219 method [DirectShow],IDVRGB219 interface, dshow.idvrgb219_setrgb219, strmif/IDVRGB219::SetRGB219

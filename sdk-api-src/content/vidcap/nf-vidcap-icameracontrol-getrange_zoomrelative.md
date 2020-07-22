@@ -4,7 +4,7 @@ title: ICameraControl::getRange_ZoomRelative (vidcap.h)
 description: The getRange_ZoomRelative method returns the range of relative zoom levels supported by the camera. The relative zoom indicates the direction in which the lens is moving.
 helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_ZoomRelative method","ICameraControl.getRange_ZoomRelative","ICameraControl::getRange_ZoomRelative","ICameraControlgetRange_ZoomRelative","dshow.icameracontrol_getrange_zoomrelative","getRange_ZoomRelative","getRange_ZoomRelative method [DirectShow]","getRange_ZoomRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_ZoomRelative"]
 old-location: dshow\icameracontrol_getrange_zoomrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ea3460b8-b956-4dc9-bed7-f28714e1df11
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_ZoomRelative method, ICameraControl.getRange_ZoomRelative, ICameraControl::getRange_ZoomRelative, ICameraControlgetRange_ZoomRelative, dshow.icameracontrol_getrange_zoomrelative, getRange_ZoomRelative, getRange_ZoomRelative method [DirectShow], getRange_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_ZoomRelative

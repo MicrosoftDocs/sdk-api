@@ -4,7 +4,7 @@ title: IDownloadCompletedCallback::Invoke (wuapi.h)
 description: Notifies the caller that the download is complete.
 helpviewer_keywords: ["IDownloadCompletedCallback interface [Windows Update Agent]","Invoke method","IDownloadCompletedCallback.Invoke","IDownloadCompletedCallback::Invoke","Invoke","Invoke method [Windows Update Agent]","Invoke method [Windows Update Agent]","IDownloadCompletedCallback interface","wua.idownloadcompletedcallback_invoke","wuapi/IDownloadCompletedCallback::Invoke"]
 old-location: wua\idownloadcompletedcallback_invoke.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 87334ff3-bfb0-48cb-b2e1-ea6d4617638d
 ms.date: 12/05/2018
 ms.keywords: IDownloadCompletedCallback interface [Windows Update Agent],Invoke method, IDownloadCompletedCallback.Invoke, IDownloadCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadCompletedCallback interface, wua.idownloadcompletedcallback_invoke, wuapi/IDownloadCompletedCallback::Invoke

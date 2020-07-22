@@ -4,7 +4,7 @@ title: CreateAssemblyNameObject function (winsxs.h)
 description: The CreateAssemblyNameObject function obtains an instance of the IAssemblyName interface.
 helpviewer_keywords: ["CreateAssemblyNameObject","CreateAssemblyNameObject function [Side-by-side Assemblies]","setup.createassemblynameobject","winsxs/CreateAssemblyNameObject"]
 old-location: setup\createassemblynameobject.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 1290a0b3-28f9-46fb-a98f-40b43bc0df1a
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyNameObject, CreateAssemblyNameObject function [Side-by-side Assemblies], setup.createassemblynameobject, winsxs/CreateAssemblyNameObject

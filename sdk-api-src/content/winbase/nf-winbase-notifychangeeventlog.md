@@ -4,7 +4,7 @@ title: NotifyChangeEventLog function (winbase.h)
 description: Enables an application to receive notification when an event is written to the specified event log.
 helpviewer_keywords: ["NotifyChangeEventLog","NotifyChangeEventLog function","_win32_notifychangeeventlog","base.notifychangeeventlog","winbase/NotifyChangeEventLog"]
 old-location: base\notifychangeeventlog.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: 12b9a7bf-2aad-48b7-8cfd-a72b353ba2b2
 ms.date: 12/05/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog

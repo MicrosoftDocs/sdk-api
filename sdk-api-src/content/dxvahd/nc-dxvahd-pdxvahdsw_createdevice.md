@@ -4,7 +4,7 @@ title: PDXVAHDSW_CreateDevice (dxvahd.h)
 description: Creates an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 helpviewer_keywords: ["PDXVAHDSW_CreateDevice","PDXVAHDSW_CreateDevice callback","PDXVAHDSW_CreateDevice callback function [Media Foundation]","dxvahd/PDXVAHDSW_CreateDevice","mf.pdxvahdsw_createdevice"]
 old-location: mf\pdxvahdsw_createdevice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f76539c8-13a8-4608-87a6-4947f5debb02
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_CreateDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateDevice, mf.pdxvahdsw_createdevice

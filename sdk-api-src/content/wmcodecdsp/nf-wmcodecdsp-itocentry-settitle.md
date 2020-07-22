@@ -4,7 +4,7 @@ title: ITocEntry::SetTitle (wmcodecdsp.h)
 description: The SetTitle method sets the title of the entry.
 helpviewer_keywords: ["ITocEntry interface [Media Foundation]","SetTitle method","ITocEntry.SetTitle","ITocEntry::SetTitle","SetTitle","SetTitle method [Media Foundation]","SetTitle method [Media Foundation]","ITocEntry interface","codecapi.itocentry_settitle","mf.itocentry_settitle","wmcodecdsp/ITocEntry::SetTitle"]
 old-location: mf\itocentry_settitle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 24ab6c56-59ae-4fdf-b18e-75f616ee5a80
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle

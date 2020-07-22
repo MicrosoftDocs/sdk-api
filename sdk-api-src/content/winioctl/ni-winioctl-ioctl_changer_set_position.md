@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_SET_POSITION
 description: Sets the changer's robotic transport mechanism to the specified element address. This optimizes moving or exchanging media by positioning the transport beforehand.
 helpviewer_keywords: ["IOCTL_CHANGER_SET_POSITION","IOCTL_CHANGER_SET_POSITION control","IOCTL_CHANGER_SET_POSITION control code","_win32_ioctl_changer_set_position","base.ioctl_changer_set_position","winioctl/IOCTL_CHANGER_SET_POSITION"]
 old-location: base\ioctl_changer_set_position.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 1c3348d5-6d22-40cb-bf4f-e843819884b9
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code, _win32_ioctl_changer_set_position, base.ioctl_changer_set_position, winioctl/IOCTL_CHANGER_SET_POSITION

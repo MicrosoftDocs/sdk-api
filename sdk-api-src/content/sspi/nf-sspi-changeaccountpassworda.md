@@ -4,7 +4,7 @@ title: ChangeAccountPasswordA function (sspi.h)
 description: Changes the password for a Windows domain account by using the specified Security Support Provider.
 helpviewer_keywords: ["ChangeAccountPassword","ChangeAccountPassword function [Security]","ChangeAccountPasswordA","ChangeAccountPasswordW","security.changeaccountpassword","sspi/ChangeAccountPassword","sspi/ChangeAccountPasswordA","sspi/ChangeAccountPasswordW"]
 old-location: security\changeaccountpassword.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a1d1e315-d1a2-499a-b552-83180508271f
 ms.date: 12/05/2018
 ms.keywords: ChangeAccountPassword, ChangeAccountPassword function [Security], ChangeAccountPasswordA, ChangeAccountPasswordW, security.changeaccountpassword, sspi/ChangeAccountPassword, sspi/ChangeAccountPasswordA, sspi/ChangeAccountPasswordW

@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration::Add (termmgr.h)
 description: The Add method adds a pluggable terminal superclass to the registry. If the superclass already exists, the method modifies the information for the superclass.
 helpviewer_keywords: ["Add","Add method [TAPI 2.2]","Add method [TAPI 2.2]","ITPluggableTerminalSuperclassRegistration interface","ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2]","Add method","ITPluggableTerminalSuperclassRegistration.Add","ITPluggableTerminalSuperclassRegistration::Add","_tapi3_itpluggableterminalsuperclassregistration_add","tapi3.itpluggableterminalsuperclassregistration_add","termmgr/ITPluggableTerminalSuperclassRegistration::Add"]
 old-location: tapi3\itpluggableterminalsuperclassregistration_add.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ffef0255-c262-43d4-905f-5574c205c37e
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Add method, ITPluggableTerminalSuperclassRegistration.Add, ITPluggableTerminalSuperclassRegistration::Add, _tapi3_itpluggableterminalsuperclassregistration_add, tapi3.itpluggableterminalsuperclassregistration_add, termmgr/ITPluggableTerminalSuperclassRegistration::Add

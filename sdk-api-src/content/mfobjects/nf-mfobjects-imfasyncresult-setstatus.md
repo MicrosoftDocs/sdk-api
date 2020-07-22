@@ -4,7 +4,7 @@ title: IMFAsyncResult::SetStatus (mfobjects.h)
 description: Sets the status of the asynchronous operation.
 helpviewer_keywords: ["79dec067-ba54-435b-8744-9a6f43dd416d","IMFAsyncResult interface [Media Foundation]","SetStatus method","IMFAsyncResult.SetStatus","IMFAsyncResult::SetStatus","SetStatus","SetStatus method [Media Foundation]","SetStatus method [Media Foundation]","IMFAsyncResult interface","mf.imfasyncresult_setstatus","mfobjects/IMFAsyncResult::SetStatus"]
 old-location: mf\imfasyncresult_setstatus.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 79dec067-ba54-435b-8744-9a6f43dd416d
 ms.date: 12/05/2018
 ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Media Foundation],SetStatus method, IMFAsyncResult.SetStatus, IMFAsyncResult::SetStatus, SetStatus, SetStatus method [Media Foundation], SetStatus method [Media Foundation],IMFAsyncResult interface, mf.imfasyncresult_setstatus, mfobjects/IMFAsyncResult::SetStatus

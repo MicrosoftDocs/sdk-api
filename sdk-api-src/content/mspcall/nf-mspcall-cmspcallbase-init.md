@@ -4,7 +4,7 @@ title: CMSPCallBase::Init (mspcall.h)
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
 helpviewer_keywords: ["CMSPCallBase interface [TAPI 2.2]","Init method","CMSPCallBase.Init","CMSPCallBase::Init","Init","Init method [TAPI 2.2]","Init method [TAPI 2.2]","CMSPCallBase interface","_tapi3_cmspcallbase_init","mspcall/CMSPCallBase::Init","tapi3.cmspcallbase_init"]
 old-location: tapi3\cmspcallbase_init.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],Init method, CMSPCallBase.Init, CMSPCallBase::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_init, mspcall/CMSPCallBase::Init, tapi3.cmspcallbase_init

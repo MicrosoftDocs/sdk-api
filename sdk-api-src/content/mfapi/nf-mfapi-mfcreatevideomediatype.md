@@ -4,7 +4,7 @@ title: MFCreateVideoMediaType function (mfapi.h)
 description: Creates a video media type from an MFVIDEOFORMAT structure.
 helpviewer_keywords: ["143aedec-d1ce-434a-8a1c-62a2c9d55e88","MFCreateVideoMediaType","MFCreateVideoMediaType function [Media Foundation]","mf.mfcreatevideomediatype","mfapi/MFCreateVideoMediaType"]
 old-location: mf\mfcreatevideomediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 143aedec-d1ce-434a-8a1c-62a2c9d55e88
 ms.date: 12/05/2018
 ms.keywords: 143aedec-d1ce-434a-8a1c-62a2c9d55e88, MFCreateVideoMediaType, MFCreateVideoMediaType function [Media Foundation], mf.mfcreatevideomediatype, mfapi/MFCreateVideoMediaType

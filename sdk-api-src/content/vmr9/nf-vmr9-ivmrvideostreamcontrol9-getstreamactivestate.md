@@ -4,7 +4,7 @@ title: IVMRVideoStreamControl9::GetStreamActiveState (vmr9.h)
 description: The GetStreamActiveState method retrieves the state of the stream.
 helpviewer_keywords: ["GetStreamActiveState","GetStreamActiveState method [DirectShow]","GetStreamActiveState method [DirectShow]","IVMRVideoStreamControl9 interface","IVMRVideoStreamControl9 interface [DirectShow]","GetStreamActiveState method","IVMRVideoStreamControl9.GetStreamActiveState","IVMRVideoStreamControl9::GetStreamActiveState","IVMRVideoStreamControl9GetStreamActiveState","dshow.ivmrvideostreamcontrol9_getstreamactivestate","vmr9/IVMRVideoStreamControl9::GetStreamActiveState"]
 old-location: dshow\ivmrvideostreamcontrol9_getstreamactivestate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: db6637ec-de60-434f-be97-ce27ad02e627
 ms.date: 12/05/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [DirectShow], GetStreamActiveState method [DirectShow],IVMRVideoStreamControl9 interface, IVMRVideoStreamControl9 interface [DirectShow],GetStreamActiveState method, IVMRVideoStreamControl9.GetStreamActiveState, IVMRVideoStreamControl9::GetStreamActiveState, IVMRVideoStreamControl9GetStreamActiveState, dshow.ivmrvideostreamcontrol9_getstreamactivestate, vmr9/IVMRVideoStreamControl9::GetStreamActiveState

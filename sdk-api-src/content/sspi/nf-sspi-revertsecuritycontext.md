@@ -4,7 +4,7 @@ title: RevertSecurityContext function (sspi.h)
 description: Allows a security package to discontinue the impersonation of the caller and restore its own security context.
 helpviewer_keywords: ["RevertSecurityContext","RevertSecurityContext function [Security]","_ssp_revertsecuritycontext","security.revertsecuritycontext","sspi/RevertSecurityContext"]
 old-location: security\revertsecuritycontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.date: 12/05/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext

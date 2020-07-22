@@ -4,7 +4,7 @@ title: DosDateTimeToFileTime function (winbase.h)
 description: Converts MS-DOS date and time values to a file time.
 helpviewer_keywords: ["DosDateTimeToFileTime","DosDateTimeToFileTime function","_win32_dosdatetimetofiletime","base.dosdatetimetofiletime","winbase/DosDateTimeToFileTime"]
 old-location: base\dosdatetimetofiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 33459ef5-e310-4fe0-bdda-e1db2ffd4888
 ms.date: 12/05/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime

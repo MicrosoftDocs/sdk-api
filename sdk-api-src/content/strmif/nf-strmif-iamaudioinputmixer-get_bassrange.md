@@ -4,7 +4,7 @@ title: IAMAudioInputMixer::get_BassRange (strmif.h)
 description: The get_BassRange method retrieves the bass range.
 helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_BassRange method","IAMAudioInputMixer.get_BassRange","IAMAudioInputMixer::get_BassRange","IAMAudioInputMixerget_BassRange","dshow.iamaudioinputmixer_get_bassrange","get_BassRange","get_BassRange method [DirectShow]","get_BassRange method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_BassRange"]
 old-location: dshow\iamaudioinputmixer_get_bassrange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e0a77f8c-8608-4e16-bc7a-3c90dde2aad8
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_BassRange method, IAMAudioInputMixer.get_BassRange, IAMAudioInputMixer::get_BassRange, IAMAudioInputMixerget_BassRange, dshow.iamaudioinputmixer_get_bassrange, get_BassRange, get_BassRange method [DirectShow], get_BassRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_BassRange

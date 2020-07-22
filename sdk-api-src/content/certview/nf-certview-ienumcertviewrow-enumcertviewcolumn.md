@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::EnumCertViewColumn (certview.h)
 description: Obtains an instance of a column-enumeration sequence for the current row of the row-enumeration sequence.
 helpviewer_keywords: ["EnumCertViewColumn","EnumCertViewColumn method [Security]","EnumCertViewColumn method [Security]","IEnumCERTVIEWROW interface","IEnumCERTVIEWROW interface [Security]","EnumCertViewColumn method","IEnumCERTVIEWROW.EnumCertViewColumn","IEnumCERTVIEWROW::EnumCertViewColumn","_certsrv_ienumcertviewrow_enumcertviewcolumn","certview/IEnumCERTVIEWROW::EnumCertViewColumn","security.ienumcertviewrow_enumcertviewcolumn"]
 old-location: security\ienumcertviewrow_enumcertviewcolumn.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 78fd2431-c4c7-4df9-856a-69665fa8c063
 ms.date: 12/05/2018
 ms.keywords: EnumCertViewColumn, EnumCertViewColumn method [Security], EnumCertViewColumn method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewColumn method, IEnumCERTVIEWROW.EnumCertViewColumn, IEnumCERTVIEWROW::EnumCertViewColumn, _certsrv_ienumcertviewrow_enumcertviewcolumn, certview/IEnumCERTVIEWROW::EnumCertViewColumn, security.ienumcertviewrow_enumcertviewcolumn

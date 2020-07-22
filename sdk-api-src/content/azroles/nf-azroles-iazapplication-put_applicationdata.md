@@ -4,7 +4,7 @@ title: IAzApplication::put_ApplicationData (azroles.h)
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzApplication object","ApplicationData property [Security]","IAzApplication interface","AzApplication object [Security]","ApplicationData property","IAzApplication interface [Security]","ApplicationData property","IAzApplication.ApplicationData","IAzApplication.put_ApplicationData","IAzApplication::ApplicationData","IAzApplication::get_ApplicationData","IAzApplication::put_ApplicationData","azroles/IAzApplication::ApplicationData","azroles/IAzApplication::get_ApplicationData","azroles/IAzApplication::put_ApplicationData","put_ApplicationData","security.iazapplication_applicationdata"]
 old-location: security\iazapplication_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 7d7ec5c8-8032-437a-92b5-5c578deda6f9
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzApplication object, ApplicationData property [Security],IAzApplication interface, AzApplication object [Security],ApplicationData property, IAzApplication interface [Security],ApplicationData property, IAzApplication.ApplicationData, IAzApplication.put_ApplicationData, IAzApplication::ApplicationData, IAzApplication::get_ApplicationData, IAzApplication::put_ApplicationData, azroles/IAzApplication::ApplicationData, azroles/IAzApplication::get_ApplicationData, azroles/IAzApplication::put_ApplicationData, put_ApplicationData, security.iazapplication_applicationdata

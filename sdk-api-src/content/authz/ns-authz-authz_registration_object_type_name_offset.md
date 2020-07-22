@@ -4,7 +4,7 @@ title: AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET (authz.h)
 description: Specifies the offset of a registration object type name.
 helpviewer_keywords: ["*PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET","AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET","AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure [Security]","PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET","PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure pointer [Security]","authz/AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET","authz/PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET","security.authz_registration_object_type_name_offset"]
 old-location: security\authz_registration_object_type_name_offset.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2ec39edc-7819-41a5-8798-dc51c00ba85e
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure [Security], PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure pointer [Security], authz/AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, authz/PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, security.authz_registration_object_type_name_offset'

@@ -4,7 +4,7 @@ title: NCryptFinalizeKey function (ncrypt.h)
 description: Completes a CNG key storage key.
 helpviewer_keywords: ["NCRYPT_NO_KEY_VALIDATION","NCRYPT_SILENT_FLAG","NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG","NCryptFinalizeKey","NCryptFinalizeKey function [Security]","ncrypt/NCryptFinalizeKey","security.ncryptfinalizekey_func"]
 old-location: security\ncryptfinalizekey_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 4386030d-4ce6-4b2e-adc5-a15ddc869349
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_NO_KEY_VALIDATION, NCRYPT_SILENT_FLAG, NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG, NCryptFinalizeKey, NCryptFinalizeKey function [Security], ncrypt/NCryptFinalizeKey, security.ncryptfinalizekey_func

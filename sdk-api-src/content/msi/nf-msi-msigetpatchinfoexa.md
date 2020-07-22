@@ -4,7 +4,7 @@ title: MsiGetPatchInfoExA function (msi.h)
 description: Queries for information about the application of a patch to a specified instance of a product.
 helpviewer_keywords: ["INSTALLPROPERTY_DISPLAYNAME","INSTALLPROPERTY_INSTALLDATE","INSTALLPROPERTY_LOCALPACKAGE","INSTALLPROPERTY_MOREINFOURL","INSTALLPROPERTY_PATCHSTATE","INSTALLPROPERTY_TRANSFORMS","INSTALLPROPERTY_UNINSTALLABLE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetPatchInfoEx","MsiGetPatchInfoEx function","MsiGetPatchInfoExA","MsiGetPatchInfoExW","NULL","User SID","msi/MsiGetPatchInfoEx","msi/MsiGetPatchInfoExA","msi/MsiGetPatchInfoExW","setup.msigetpatchinfoex"]
 old-location: setup\msigetpatchinfoex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 18acad03-7794-4c29-8cac-1dd3ea64369a
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISPLAYNAME, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_MOREINFOURL, INSTALLPROPERTY_PATCHSTATE, INSTALLPROPERTY_TRANSFORMS, INSTALLPROPERTY_UNINSTALLABLE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetPatchInfoEx, MsiGetPatchInfoEx function, MsiGetPatchInfoExA, MsiGetPatchInfoExW, NULL, User SID, msi/MsiGetPatchInfoEx, msi/MsiGetPatchInfoExA, msi/MsiGetPatchInfoExW, setup.msigetpatchinfoex

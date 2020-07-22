@@ -4,7 +4,7 @@ title: IVdsServiceInitialization (vds.h)
 description: This interface is reserved for system use.
 helpviewer_keywords: ["IVdsServiceInitialization","IVdsServiceInitialization interface","IVdsServiceInitialization interface","described","base.ivdsserviceinitialization","vds/IVdsServiceInitialization"]
 old-location: base\ivdsserviceinitialization.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f5a24acb-2b5e-44ec-a3fa-252a84777ecd
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceInitialization, IVdsServiceInitialization interface, IVdsServiceInitialization interface,described, base.ivdsserviceinitialization, vds/IVdsServiceInitialization

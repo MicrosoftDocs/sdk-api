@@ -4,7 +4,7 @@ title: CWbemProviderGlue::SetStatusObject (wbemglue.h)
 description: The SetStatusObject method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the Win32_PrivilegesStatus class.
 helpviewer_keywords: ["?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z","?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z","CWbemProviderGlue interface [Windows Management Instrumentation]","SetStatusObject method","CWbemProviderGlue.SetStatusObject","CWbemProviderGlue::SetStatusObject","SetStatusObject","SetStatusObject method [Windows Management Instrumentation]","SetStatusObject method [Windows Management Instrumentation]","CWbemProviderGlue interface","_hmm_cwbemproviderglue_setstatusobject","wbemglue/CWbemProviderGlue::SetStatusObject","wmi.cwbemproviderglue_setstatusobject"]
 old-location: wmi\cwbemproviderglue_setstatusobject.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 2f094359-66ea-4604-85f8-1f6bc9a81cd1
 ms.date: 12/05/2018
 ms.keywords: ?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z, ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z, CWbemProviderGlue interface [Windows Management Instrumentation],SetStatusObject method, CWbemProviderGlue.SetStatusObject, CWbemProviderGlue::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_setstatusobject, wbemglue/CWbemProviderGlue::SetStatusObject, wmi.cwbemproviderglue_setstatusobject

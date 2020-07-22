@@ -4,7 +4,7 @@ title: IConfigAsfWriter (dshowasf.h)
 description: The IConfigAsfWriter interface configures the WM ASF Writer filter.
 helpviewer_keywords: ["IConfigAsfWriter","IConfigAsfWriter interface [DirectShow]","IConfigAsfWriter interface [DirectShow]","described","IConfigAsfWriterInterface","dshow.iconfigasfwriter","dshowasf/IConfigAsfWriter"]
 old-location: dshow\iconfigasfwriter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter

@@ -4,7 +4,7 @@ title: MFP_PLAY_EVENT (mfplay.h)
 description: Event structure for the MFP_EVENT_TYPE_PLAY event.
 helpviewer_keywords: ["MFP_PLAY_EVENT","MFP_PLAY_EVENT structure [Media Foundation]","mf.mfp_play_event","mfplay/MFP_PLAY_EVENT"]
 old-location: mf\mfp_play_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2cf8805f-8a3c-45a6-87ad-fa4da9115833
 ms.date: 12/05/2018
 ms.keywords: MFP_PLAY_EVENT, MFP_PLAY_EVENT structure [Media Foundation], mf.mfp_play_event, mfplay/MFP_PLAY_EVENT

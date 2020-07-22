@@ -4,7 +4,7 @@ title: IXpsOMPackageWriter::AddResource (xpsobjectmodel.h)
 description: Creates a new part resource in the package.
 helpviewer_keywords: ["AddResource","AddResource method [XPS Documents and Packaging]","AddResource method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","AddResource method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","IXpsOMPackageWriter interface [XPS Documents and Packaging]","AddResource method","IXpsOMPackageWriter.AddResource","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","AddResource method","IXpsOMPackageWriter3D::AddResource","IXpsOMPackageWriter::AddResource","xps.ixpsompackagewriter_addresource","xpsobjectmodel/IXpsOMPackageWriter3D::AddResource","xpsobjectmodel/IXpsOMPackageWriter::AddResource"]
 old-location: xps\ixpsompackagewriter_addresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: eb81efb8-f3cd-448d-ab60-34acf13db4cd
 ms.date: 12/05/2018
 ms.keywords: AddResource, AddResource method [XPS Documents and Packaging], AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter.AddResource, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter3D::AddResource, IXpsOMPackageWriter::AddResource, xps.ixpsompackagewriter_addresource, xpsobjectmodel/IXpsOMPackageWriter3D::AddResource, xpsobjectmodel/IXpsOMPackageWriter::AddResource

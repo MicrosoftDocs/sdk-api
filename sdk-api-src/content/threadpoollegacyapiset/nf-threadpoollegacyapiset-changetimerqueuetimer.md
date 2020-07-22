@@ -4,7 +4,7 @@ title: ChangeTimerQueueTimer function (threadpoollegacyapiset.h)
 description: Updates a timer-queue timer that was created by the CreateTimerQueueTimer function.
 helpviewer_keywords: ["ChangeTimerQueueTimer","ChangeTimerQueueTimer function","_win32_changetimerqueuetimer","base.changetimerqueuetimer","threadpoollegacyapiset/ChangeTimerQueueTimer","winbase/ChangeTimerQueueTimer"]
 old-location: base\changetimerqueuetimer.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 251a9a18-f98c-4334-a333-3c73638d7d93
 ms.date: 12/05/2018
 ms.keywords: ChangeTimerQueueTimer, ChangeTimerQueueTimer function, _win32_changetimerqueuetimer, base.changetimerqueuetimer, threadpoollegacyapiset/ChangeTimerQueueTimer, winbase/ChangeTimerQueueTimer

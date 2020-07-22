@@ -4,7 +4,7 @@ title: SetProcessWorkingSetSize function (winbase.h)
 description: Sets the minimum and maximum working set sizes for the specified process.
 helpviewer_keywords: ["SetProcessWorkingSetSize","SetProcessWorkingSetSize function","_win32_setprocessworkingsetsize","base.setprocessworkingsetsize","winbase/SetProcessWorkingSetSize"]
 old-location: base\setprocessworkingsetsize.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 8bc0053c-f687-43b5-a435-df1e813a5204
 ms.date: 12/05/2018
 ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize

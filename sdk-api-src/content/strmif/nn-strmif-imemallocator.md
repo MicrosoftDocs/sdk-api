@@ -4,7 +4,7 @@ title: IMemAllocator (strmif.h)
 description: The IMemAllocator interface allocates media samples, for moving data between pins.This interface is used by pins that share allocators, when the input pin exposes the IMemInputPin interface.
 helpviewer_keywords: ["IMemAllocator","IMemAllocator interface [DirectShow]","IMemAllocator interface [DirectShow]","described","IMemAllocatorInterface","dshow.imemallocator","strmif/IMemAllocator"]
 old-location: dshow\imemallocator.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator

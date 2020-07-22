@@ -4,7 +4,7 @@ title: IDvdInfo::GetVMGAttributes (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for video manager (VMG) menus.
 helpviewer_keywords: ["GetVMGAttributes","GetVMGAttributes method [DirectShow]","GetVMGAttributes method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetVMGAttributes method","IDvdInfo.GetVMGAttributes","IDvdInfo::GetVMGAttributes","IDvdInfoGetVMGAttributes","dshow.idvdinfo_getvmgattributes","strmif/IDvdInfo::GetVMGAttributes"]
 old-location: dshow\idvdinfo_getvmgattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 449e7139-ed9f-46de-ac92-d1d67757799b
 ms.date: 12/05/2018
 ms.keywords: GetVMGAttributes, GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetVMGAttributes method, IDvdInfo.GetVMGAttributes, IDvdInfo::GetVMGAttributes, IDvdInfoGetVMGAttributes, dshow.idvdinfo_getvmgattributes, strmif/IDvdInfo::GetVMGAttributes

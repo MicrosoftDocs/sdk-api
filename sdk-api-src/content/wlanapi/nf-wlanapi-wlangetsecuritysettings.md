@@ -4,7 +4,7 @@ title: WlanGetSecuritySettings function (wlanapi.h)
 description: Gets the security settings associated with a configurable object.
 helpviewer_keywords: ["WlanGetSecuritySettings","WlanGetSecuritySettings function [NativeWIFI]","nwifi.wlangetsecuritysettings","wlan_opcode_value_type_set_by_group_policy","wlan_opcode_value_type_set_by_user","wlanapi/WlanGetSecuritySettings"]
 old-location: nwifi\wlangetsecuritysettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 5e14a70c-c049-4cd1-8675-2b01ed11463f
 ms.date: 12/05/2018
 ms.keywords: WlanGetSecuritySettings, WlanGetSecuritySettings function [NativeWIFI], nwifi.wlangetsecuritysettings, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/WlanGetSecuritySettings

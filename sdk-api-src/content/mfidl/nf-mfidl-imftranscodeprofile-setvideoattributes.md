@@ -4,7 +4,7 @@ title: IMFTranscodeProfile::SetVideoAttributes (mfidl.h)
 description: Sets video stream configuration settings in the transcode profile.
 helpviewer_keywords: ["IMFTranscodeProfile interface [Media Foundation]","SetVideoAttributes method","IMFTranscodeProfile.SetVideoAttributes","IMFTranscodeProfile::SetVideoAttributes","SetVideoAttributes","SetVideoAttributes method [Media Foundation]","SetVideoAttributes method [Media Foundation]","IMFTranscodeProfile interface","mf.imftranscodeprofile_setvideoattributes","mfidl/IMFTranscodeProfile::SetVideoAttributes"]
 old-location: mf\imftranscodeprofile_setvideoattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e68653c5-5663-4839-a482-2244e147f4b9
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetVideoAttributes method, IMFTranscodeProfile.SetVideoAttributes, IMFTranscodeProfile::SetVideoAttributes, SetVideoAttributes, SetVideoAttributes method [Media Foundation], SetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setvideoattributes, mfidl/IMFTranscodeProfile::SetVideoAttributes

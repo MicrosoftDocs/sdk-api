@@ -4,7 +4,7 @@ title: SspiEncodeAuthIdentityAsStrings function (sspi.h)
 description: Encodes the specified authentication identity as three strings.
 helpviewer_keywords: ["SspiEncodeAuthIdentityAsStrings","SspiEncodeAuthIdentityAsStrings function [Security]","SspiEncodeAuthIdentityAsStringsA","SspiEncodeAuthIdentityAsStringsW","security.sspiencodeauthidentityasstrings","sspi/SspiEncodeAuthIdentityAsStrings","sspi/SspiEncodeAuthIdentityAsStringsA","sspi/SspiEncodeAuthIdentityAsStringsW"]
 old-location: security\sspiencodeauthidentityasstrings.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 0610a7b8-67e9-4c01-893f-da579eeea2f8
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW

@@ -4,7 +4,7 @@ title: IWaaSAssessor::GetOSUpdateAssessment (waasapi.h)
 description: Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
 helpviewer_keywords: ["GetOSUpdateAssessment","GetOSUpdateAssessment method","GetOSUpdateAssessment method","IWaaSAssessor interface","IWaaSAssessor interface","GetOSUpdateAssessment method","IWaaSAssessor.GetOSUpdateAssessment","IWaaSAssessor::GetOSUpdateAssessment","base.iwaasassessor_getosupdateassessment","waasapi/IWaaSAssessor::GetOSUpdateAssessment"]
 old-location: base\iwaasassessor_getosupdateassessment.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.date: 12/05/2018
 ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment

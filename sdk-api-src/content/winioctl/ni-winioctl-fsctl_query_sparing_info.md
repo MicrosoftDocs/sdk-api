@@ -4,7 +4,7 @@ title: FSCTL_QUERY_SPARING_INFO
 description: Retrieves the defect management properties of the volume. Used for UDF file systems.
 helpviewer_keywords: ["FSCTL_QUERY_SPARING_INFO","FSCTL_QUERY_SPARING_INFO control","FSCTL_QUERY_SPARING_INFO control code [Files]","fs.fsctl_query_sparing_info","winioctl/FSCTL_QUERY_SPARING_INFO"]
 old-location: fs\fsctl_query_sparing_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 72122388-a42f-4c67-9539-20eb4c59dcf0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_SPARING_INFO, FSCTL_QUERY_SPARING_INFO control, FSCTL_QUERY_SPARING_INFO control code [Files], fs.fsctl_query_sparing_info, winioctl/FSCTL_QUERY_SPARING_INFO

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints (functiondiscover
 description: Retrieves the current property constraints.
 helpviewer_keywords: ["GetPropertyConstraints","GetPropertyConstraints method","GetPropertyConstraints method","IFunctionDiscoveryProviderQuery interface","IFunctionDiscoveryProviderQuery interface","GetPropertyConstraints method","IFunctionDiscoveryProviderQuery.GetPropertyConstraints","IFunctionDiscoveryProviderQuery::GetPropertyConstraints","functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints","ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints"]
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
 ms.date: 12/05/2018
 ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetPropertyConstraints method, IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints

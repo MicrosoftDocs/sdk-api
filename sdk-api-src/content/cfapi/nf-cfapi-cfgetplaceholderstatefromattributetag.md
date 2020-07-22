@@ -4,7 +4,7 @@ title: CfGetPlaceholderStateFromAttributeTag function (cfapi.h)
 description: Gets a set of placeholder states based on the FileAttributes and ReparseTag values of the file.
 helpviewer_keywords: ["CfGetPlaceholderStateFromAttributeTag","CfGetPlaceholderStateFromAttributeTag function","cfapi/CfGetPlaceholderStateFromAttributeTag","cloudApi.cfgetplaceholderstatefromattributetag"]
 old-location: cloudapi\cfgetplaceholderstatefromattributetag.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: D7B4FB60-3388-489F-9F55-153B53BBDA9F
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderStateFromAttributeTag, CfGetPlaceholderStateFromAttributeTag function, cfapi/CfGetPlaceholderStateFromAttributeTag, cloudApi.cfgetplaceholderstatefromattributetag

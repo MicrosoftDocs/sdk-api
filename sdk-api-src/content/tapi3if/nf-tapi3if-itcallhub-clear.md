@@ -4,7 +4,7 @@ title: ITCallHub::Clear (tapi3if.h)
 description: The Clear method attempts to remove all calls and participants from CallHub. The application may not have the privileges required to disconnect every call.
 helpviewer_keywords: ["Clear","Clear method [TAPI 2.2]","Clear method [TAPI 2.2]","ITCallHub interface","ITCallHub interface [TAPI 2.2]","Clear method","ITCallHub.Clear","ITCallHub::Clear","_tapi3_itcallhub_clear","tapi3.itcallhub_clear","tapi3if/ITCallHub::Clear"]
 old-location: tapi3\itcallhub_clear.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 87799da3-73c3-469a-badf-884dcfe774e0
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],Clear method, ITCallHub.Clear, ITCallHub::Clear, _tapi3_itcallhub_clear, tapi3.itcallhub_clear, tapi3if/ITCallHub::Clear

@@ -4,7 +4,7 @@ title: FindNextFileA function (fileapi.h)
 description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions.
 helpviewer_keywords: ["FindNextFile","FindNextFile function [Files]","FindNextFileA","FindNextFileW","_win32_findnextfile","base.findnextfile","fileapi/FindNextFile","fileapi/FindNextFileA","fileapi/FindNextFileW","fs.findnextfile","winbase/FindNextFile","winbase/FindNextFileA","winbase/FindNextFileW"]
 old-location: fs\findnextfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
 ms.date: 12/05/2018
 ms.keywords: FindNextFile, FindNextFile function [Files], FindNextFileA, FindNextFileW, _win32_findnextfile, base.findnextfile, fileapi/FindNextFile, fileapi/FindNextFileA, fileapi/FindNextFileW, fs.findnextfile, winbase/FindNextFile, winbase/FindNextFileA, winbase/FindNextFileW

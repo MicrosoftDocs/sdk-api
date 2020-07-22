@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup::InitializeInstallDefaults (casetup.h)
 description: Initializes the ICertificateEnrollmentServerSetup object with a default configuration.
 helpviewer_keywords: ["ICertificateEnrollmentServerSetup interface [Security]","InitializeInstallDefaults method","ICertificateEnrollmentServerSetup.InitializeInstallDefaults","ICertificateEnrollmentServerSetup::InitializeInstallDefaults","InitializeInstallDefaults","InitializeInstallDefaults method [Security]","InitializeInstallDefaults method [Security]","ICertificateEnrollmentServerSetup interface","casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults","security.icertificateenrollmentserversetup_initializeinstalldefaults"]
 old-location: security\icertificateenrollmentserversetup_initializeinstalldefaults.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2C6E8F84-56AC-4541-A778-839D5F2C764F
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentServerSetup.InitializeInstallDefaults, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults

@@ -4,7 +4,7 @@ title: IXpsOMGlyphs::GetProhibitedCaretStops (xpsobjectmodel.h)
 description: Gets an array of prohibited caret stop locations.
 helpviewer_keywords: ["GetProhibitedCaretStops","GetProhibitedCaretStops method [XPS Documents and Packaging]","GetProhibitedCaretStops method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetProhibitedCaretStops method","IXpsOMGlyphs.GetProhibitedCaretStops","IXpsOMGlyphs::GetProhibitedCaretStops","xps.ixpsomglyphs_getprohibitedcaretstops","xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStops"]
 old-location: xps\ixpsomglyphs_getprohibitedcaretstops.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 9e5372af-5233-4278-8b84-c3a308cc3041
 ms.date: 12/05/2018
 ms.keywords: GetProhibitedCaretStops, GetProhibitedCaretStops method [XPS Documents and Packaging], GetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetProhibitedCaretStops method, IXpsOMGlyphs.GetProhibitedCaretStops, IXpsOMGlyphs::GetProhibitedCaretStops, xps.ixpsomglyphs_getprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStops

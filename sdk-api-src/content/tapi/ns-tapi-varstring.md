@@ -4,7 +4,7 @@ title: VARSTRING (tapi.h)
 description: The VARSTRING structure is used for returning variably sized strings. It is used both by the line device class and the phone device class.
 helpviewer_keywords: ["*LPVARSTRING","LPVARSTRING","LPVARSTRING structure pointer [TAPI 2.2]","VARSTRING","VARSTRING structure [TAPI 2.2]","_tapi2_varstring_str","tapi/LPVARSTRING","tapi/VARSTRING","tapi2.varstring_str"]
 old-location: tapi2\varstring_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ec73ed48-db5a-4478-8748-b8e58247c2f4
 ms.date: 12/05/2018
 ms.keywords: '*LPVARSTRING, LPVARSTRING, LPVARSTRING structure pointer [TAPI 2.2], VARSTRING, VARSTRING structure [TAPI 2.2], _tapi2_varstring_str, tapi/LPVARSTRING, tapi/VARSTRING, tapi2.varstring_str'

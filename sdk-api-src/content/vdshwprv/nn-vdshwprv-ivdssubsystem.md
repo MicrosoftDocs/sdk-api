@@ -4,7 +4,7 @@ title: IVdsSubSystem (vdshwprv.h)
 description: Provides methods for performing query and configuration operations on a subsystem.
 helpviewer_keywords: ["IVdsSubSystem","IVdsSubSystem interface [VDS]","IVdsSubSystem interface [VDS]","described","base.ivdssubsystem","vds/IVdsSubSystem","vdshwprv/IVdsSubSystem"]
 old-location: base\ivdssubsystem.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], IVdsSubSystem interface [VDS],described, base.ivdssubsystem, vds/IVdsSubSystem, vdshwprv/IVdsSubSystem

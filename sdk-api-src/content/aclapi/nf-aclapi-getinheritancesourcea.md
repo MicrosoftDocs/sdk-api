@@ -4,7 +4,7 @@ title: GetInheritanceSourceA function (aclapi.h)
 description: Returns information about the source of inherited access control entries (ACEs) in an access control list (ACL).
 helpviewer_keywords: ["GetInheritanceSource","GetInheritanceSource function [Security]","GetInheritanceSourceA","GetInheritanceSourceW","_win32_getinheritancesource","aclapi/GetInheritanceSource","aclapi/GetInheritanceSourceA","aclapi/GetInheritanceSourceW","security.getinheritancesource"]
 old-location: security\getinheritancesource.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ccc1702b-e414-4831-ae8b-fd92499bec94
 ms.date: 12/05/2018
 ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], GetInheritanceSourceA, GetInheritanceSourceW, _win32_getinheritancesource, aclapi/GetInheritanceSource, aclapi/GetInheritanceSourceA, aclapi/GetInheritanceSourceW, security.getinheritancesource

@@ -4,7 +4,7 @@ title: PeerCollabAddContact function (p2p.h)
 description: Adds a contact to the contact list of a peer.
 helpviewer_keywords: ["PeerCollabAddContact","PeerCollabAddContact function [Peer Networking]","p2p.peercollabaddcontact","p2p/PeerCollabAddContact"]
 old-location: p2p\peercollabaddcontact.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 0e4ba039-2016-487d-b4df-e96648db1a05
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAddContact, PeerCollabAddContact function [Peer Networking], p2p.peercollabaddcontact, p2p/PeerCollabAddContact

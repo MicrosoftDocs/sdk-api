@@ -4,7 +4,7 @@ title: PdhComputeCounterStatistics function (pdh.h)
 description: Computes statistics for a counter from an array of raw values.
 helpviewer_keywords: ["PDH_FMT_1000","PDH_FMT_DOUBLE","PDH_FMT_LARGE","PDH_FMT_LONG","PDH_FMT_NOCAP100","PDH_FMT_NOSCALE","PdhComputeCounterStatistics","PdhComputeCounterStatistics function [Perf]","_win32_pdhcomputecounterstatistics","base.pdhcomputecounterstatistics","pdh/PdhComputeCounterStatistics","perf.pdhcomputecounterstatistics"]
 old-location: perf\pdhcomputecounterstatistics.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: a986ae6c-88ee-4a03-9077-3d286157b9d1
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhComputeCounterStatistics, PdhComputeCounterStatistics function [Perf], _win32_pdhcomputecounterstatistics, base.pdhcomputecounterstatistics, pdh/PdhComputeCounterStatistics, perf.pdhcomputecounterstatistics

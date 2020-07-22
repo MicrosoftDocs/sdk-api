@@ -4,7 +4,7 @@ title: PREVENT_MEDIA_REMOVAL
 description: Provides removable media locking data. It is used by the IOCTL_STORAGE_MEDIA_REMOVAL control code.
 helpviewer_keywords: ["*PPREVENT_MEDIA_REMOVAL","PREVENT_MEDIA_REMOVAL","PREVENT_MEDIA_REMOVAL structure","_win32_prevent_media_removal_str","base.prevent_media_removal_str","winioctl/PREVENT_MEDIA_REMOVAL"]
 old-location: base\prevent_media_removal_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: a5f55555-5226-46a7-8869-df4d1c4e7352
 ms.date: 12/05/2018
 ms.keywords: '*PPREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL structure, _win32_prevent_media_removal_str, base.prevent_media_removal_str, winioctl/PREVENT_MEDIA_REMOVAL'

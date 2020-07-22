@@ -4,7 +4,7 @@ title: ISearchResult::get_ResultCode (wuapi.h)
 description: Gets an OperationResultCode enumeration that specifies the result of a search.
 helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","ResultCode property","ISearchResult.ResultCode","ISearchResult.get_ResultCode","ISearchResult::ResultCode","ISearchResult::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","ISearchResult interface","get_ResultCode","wua.isearchresult_resultcode","wuapi/ISearchResult::ResultCode","wuapi/ISearchResult::get_ResultCode"]
 old-location: wua\isearchresult_resultcode.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 83c59fd1-0d2f-4028-9345-c9dec1f94b09
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],ResultCode property, ISearchResult.ResultCode, ISearchResult.get_ResultCode, ISearchResult::ResultCode, ISearchResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],ISearchResult interface, get_ResultCode, wua.isearchresult_resultcode, wuapi/ISearchResult::ResultCode, wuapi/ISearchResult::get_ResultCode

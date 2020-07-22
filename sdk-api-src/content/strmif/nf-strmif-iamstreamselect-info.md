@@ -4,7 +4,7 @@ title: IAMStreamSelect::Info (strmif.h)
 description: The Info method retrieves information about a given stream.
 helpviewer_keywords: ["IAMStreamSelect interface [DirectShow]","Info method","IAMStreamSelect.Info","IAMStreamSelect::Info","IAMStreamSelectInfo","Info","Info method [DirectShow]","Info method [DirectShow]","IAMStreamSelect interface","dshow.iamstreamselect_info","strmif/IAMStreamSelect::Info"]
 old-location: dshow\iamstreamselect_info.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9396d4fb-e06e-4b54-9601-fd443c81ff35
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect interface [DirectShow],Info method, IAMStreamSelect.Info, IAMStreamSelect::Info, IAMStreamSelectInfo, Info, Info method [DirectShow], Info method [DirectShow],IAMStreamSelect interface, dshow.iamstreamselect_info, strmif/IAMStreamSelect::Info

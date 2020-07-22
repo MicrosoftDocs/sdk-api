@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_IsEncrypted (rend.h)
 description: The put_IsEncrypted method sets whether the conference is encrypted.
 helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","put_IsEncrypted method","ITDirectoryObjectConference.put_IsEncrypted","ITDirectoryObjectConference::put_IsEncrypted","_tapi3_itdirectoryobjectconference_put_isencrypted","put_IsEncrypted","put_IsEncrypted method [TAPI 2.2]","put_IsEncrypted method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::put_IsEncrypted","tapi3.itdirectoryobjectconference_put_isencrypted"]
 old-location: tapi3\itdirectoryobjectconference_put_isencrypted.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: af2d55be-cd4f-498b-9c23-abb2dda39f6e
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_IsEncrypted method, ITDirectoryObjectConference.put_IsEncrypted, ITDirectoryObjectConference::put_IsEncrypted, _tapi3_itdirectoryobjectconference_put_isencrypted, put_IsEncrypted, put_IsEncrypted method [TAPI 2.2], put_IsEncrypted method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_IsEncrypted, tapi3.itdirectoryobjectconference_put_isencrypted

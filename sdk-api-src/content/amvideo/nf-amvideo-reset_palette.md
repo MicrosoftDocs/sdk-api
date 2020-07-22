@@ -4,7 +4,7 @@ title: RESET_PALETTE macro (amvideo.h)
 description: The RESET_PALETTE macro fills the palette entries in a VIDEOINFO structure with zeroes.
 helpviewer_keywords: ["RESET_PALETTE","RESET_PALETTE macro [DirectShow]","amvideo/RESET_PALETTE","dshow.reset_palette"]
 old-location: dshow\reset_palette.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e981f5d4-9ad2-4e9b-8bc8-6a5e9a2fd632
 ms.date: 12/05/2018
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette

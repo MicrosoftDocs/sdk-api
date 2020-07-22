@@ -2,6 +2,7 @@
 UID: NF:chstring.operator-greater-than~r1
 title: operator>
 description: 
+tech.root: wmi
 helpviewer_keywords: ["operator>"]
 ms.assetid: 7d364aef-c962-4dc1-b5bc-f6e7a4e2f0c8
 ms.date: 05/20/2019

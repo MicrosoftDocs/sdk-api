@@ -4,7 +4,7 @@ title: MFCreateStandardQualityManager function (mfidl.h)
 description: Creates the default implementation of the quality manager.
 helpviewer_keywords: ["9abaa474-8a00-4e36-897d-9de9578333b7","MFCreateStandardQualityManager","MFCreateStandardQualityManager function [Media Foundation]","mf.mfcreatestandardqualitymanager","mfidl/MFCreateStandardQualityManager"]
 old-location: mf\mfcreatestandardqualitymanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9abaa474-8a00-4e36-897d-9de9578333b7
 ms.date: 12/05/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager

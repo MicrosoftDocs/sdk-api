@@ -4,7 +4,7 @@ title: IPortableDeviceService::GetPnPServiceID (portabledeviceapi.h)
 description: Retrieves a Plug and Play (PnP) identifier for the service.
 helpviewer_keywords: ["GetPnPServiceID","GetPnPServiceID method [Windows Portable Devices SDK]","GetPnPServiceID method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","GetPnPServiceID method","IPortableDeviceService.GetPnPServiceID","IPortableDeviceService::GetPnPServiceID","portabledeviceapi/IPortableDeviceService::GetPnPServiceID","wpdsdk.iportabledeviceservice_getpnpserviceid"]
 old-location: wpdsdk\iportabledeviceservice_getpnpserviceid.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: c73261a5-1436-4706-8d8b-ff8183429ac4
 ms.date: 12/05/2018
 ms.keywords: GetPnPServiceID, GetPnPServiceID method [Windows Portable Devices SDK], GetPnPServiceID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetPnPServiceID method, IPortableDeviceService.GetPnPServiceID, IPortableDeviceService::GetPnPServiceID, portabledeviceapi/IPortableDeviceService::GetPnPServiceID, wpdsdk.iportabledeviceservice_getpnpserviceid

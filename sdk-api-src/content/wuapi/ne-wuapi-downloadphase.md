@@ -4,7 +4,7 @@ title: DownloadPhase (wuapi.h)
 description: Defines the progress of the download of the current update that is returned by the CurrentUpdateDownloadPhase property of the IDownloadProgress interface.
 helpviewer_keywords: ["DownloadPhase","DownloadPhase enumeration [Windows Update Agent]","dphDownloading","dphInitializing","dphVerifying","wua.downloadphase","wuapi/DownloadPhase","wuapi/dphDownloading","wuapi/dphInitializing","wuapi/dphVerifying"]
 old-location: wua\downloadphase.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
 ms.date: 12/05/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying

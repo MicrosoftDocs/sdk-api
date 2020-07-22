@@ -4,7 +4,7 @@ title: CryptCATPutMemberInfo function (mscat.h)
 description: Allocates memory for a catalog member and adds it to the catalog.
 helpviewer_keywords: ["CryptCATPutMemberInfo","CryptCATPutMemberInfo function [Security]","mscat/CryptCATPutMemberInfo","security.cryptcatputmemberinfo"]
 old-location: security\cryptcatputmemberinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
 ms.date: 12/05/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo

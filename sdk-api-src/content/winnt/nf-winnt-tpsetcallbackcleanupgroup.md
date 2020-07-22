@@ -4,7 +4,7 @@ title: TpSetCallbackCleanupGroup function (winnt.h)
 description: Associates the specified cleanup group with the specified callback environment.
 helpviewer_keywords: ["TpSetCallbackCleanupGroup","TpSetCallbackCleanupGroup function","base.tpsetcallbackcleanupgroup","winnt/TpSetCallbackCleanupGroup"]
 old-location: base\tpsetcallbackcleanupgroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: B14084F5-2686-4522-8024-71A07541CFE2
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackCleanupGroup, TpSetCallbackCleanupGroup function, base.tpsetcallbackcleanupgroup, winnt/TpSetCallbackCleanupGroup

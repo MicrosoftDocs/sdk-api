@@ -4,7 +4,7 @@ title: IComQCEvents (comsvcs.h)
 description: Notifies the subscriber if a queued message is created, de-queued, or moved to a retry or dead letter queue.
 helpviewer_keywords: ["IComQCEvents","IComQCEvents interface [COM+]","IComQCEvents interface [COM+]","described","_dtc_IComQCEvents","comsvcs/IComQCEvents","cos.icomqcevents"]
 old-location: cos\icomqcevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d7c8220d-a302-4f95-b0b6-8d47f9f27da7
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+],described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents

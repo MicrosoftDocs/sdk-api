@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::get_TerminalClass (termmgr.h)
 description: The get_TerminalClass method gets the terminal's terminal class.
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_TerminalClass method","ITPluggableTerminalClassRegistration.get_TerminalClass","ITPluggableTerminalClassRegistration::get_TerminalClass","_tapi3_itpluggableterminalclassregistration_get_terminalclass","get_TerminalClass","get_TerminalClass method [TAPI 2.2]","get_TerminalClass method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_terminalclass","termmgr/ITPluggableTerminalClassRegistration::get_TerminalClass"]
 old-location: tapi3\itpluggableterminalclassregistration_get_terminalclass.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8da33c46-a369-4501-8249-48ad5d454c58
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_TerminalClass method, ITPluggableTerminalClassRegistration.get_TerminalClass, ITPluggableTerminalClassRegistration::get_TerminalClass, _tapi3_itpluggableterminalclassregistration_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_terminalclass, termmgr/ITPluggableTerminalClassRegistration::get_TerminalClass

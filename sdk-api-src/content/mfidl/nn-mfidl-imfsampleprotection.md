@@ -4,7 +4,7 @@ title: IMFSampleProtection (mfidl.h)
 description: Provides encryption for media data inside the protected media path (PMP).
 helpviewer_keywords: ["IMFSampleProtection","IMFSampleProtection interface [Media Foundation]","IMFSampleProtection interface [Media Foundation]","described","bebe24cd-657b-4c6c-9fe9-5d6dd58827a3","mf.imfsampleprotection","mfidl/IMFSampleProtection"]
 old-location: mf\imfsampleprotection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bebe24cd-657b-4c6c-9fe9-5d6dd58827a3
 ms.date: 12/05/2018
 ms.keywords: IMFSampleProtection, IMFSampleProtection interface [Media Foundation], IMFSampleProtection interface [Media Foundation],described, bebe24cd-657b-4c6c-9fe9-5d6dd58827a3, mf.imfsampleprotection, mfidl/IMFSampleProtection

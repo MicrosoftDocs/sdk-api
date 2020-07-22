@@ -4,7 +4,7 @@ title: IRtwqPlatformEvents::ShutdownStart (rtworkq.h)
 description: Called before the platform is about to shutdown.
 helpviewer_keywords: ["IRtwqPlatformEvents interface","ShutdownStart method","IRtwqPlatformEvents.ShutdownStart","IRtwqPlatformEvents::ShutdownStart","ShutdownStart","ShutdownStart method","ShutdownStart method","IRtwqPlatformEvents interface","base.irtwqplatformevents_shutdownstart","rtworkq/IRtwqPlatformEvents::ShutdownStart"]
 old-location: base\irtwqplatformevents_shutdownstart.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: B2D3F35E-B859-4735-A11C-B3CB6ACD81EC
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEvents.ShutdownStart, IRtwqPlatformEvents::ShutdownStart, ShutdownStart, ShutdownStart method, ShutdownStart method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdownstart, rtworkq/IRtwqPlatformEvents::ShutdownStart

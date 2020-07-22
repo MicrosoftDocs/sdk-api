@@ -4,7 +4,7 @@ title: IVMRImagePresenter::PresentImage (strmif.h)
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 helpviewer_keywords: ["IVMRImagePresenter interface [DirectShow]","PresentImage method","IVMRImagePresenter.PresentImage","IVMRImagePresenter::PresentImage","IVMRImagePresenterPresentImage","PresentImage","PresentImage method [DirectShow]","PresentImage method [DirectShow]","IVMRImagePresenter interface","dshow.ivmrimagepresenter_presentimage","strmif/IVMRImagePresenter::PresentImage"]
 old-location: dshow\ivmrimagepresenter_presentimage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: df6bf45d-df92-4655-862c-704a12a62ff9
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],PresentImage method, IVMRImagePresenter.PresentImage, IVMRImagePresenter::PresentImage, IVMRImagePresenterPresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_presentimage, strmif/IVMRImagePresenter::PresentImage

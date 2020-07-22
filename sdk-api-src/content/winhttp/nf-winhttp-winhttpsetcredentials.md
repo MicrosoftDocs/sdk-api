@@ -4,7 +4,7 @@ title: WinHttpSetCredentials function (winhttp.h)
 description: The WinHttpSetCredentials function passes the required authorization credentials to the server.
 helpviewer_keywords: ["WINHTTP_AUTH_SCHEME_BASIC","WINHTTP_AUTH_SCHEME_DIGEST","WINHTTP_AUTH_SCHEME_NEGOTIATE","WINHTTP_AUTH_SCHEME_NTLM","WINHTTP_AUTH_SCHEME_PASSPORT","WINHTTP_AUTH_TARGET_PROXY","WINHTTP_AUTH_TARGET_SERVER","WinHttpSetCredentials","WinHttpSetCredentials function [WinHTTP]","http.winhttpsetcredentials","winhttp.winhttpsetcredentials_function","winhttp/WinHttpSetCredentials"]
 old-location: http\winhttpsetcredentials.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: a864c708-9481-460a-87aa-1d31c344c0a1
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpSetCredentials, WinHttpSetCredentials function [WinHTTP], http.winhttpsetcredentials, winhttp.winhttpsetcredentials_function, winhttp/WinHttpSetCredentials

@@ -4,7 +4,7 @@ title: WlanScan function (wlanapi.h)
 description: Requests a scan for available networks on the indicated interface.
 helpviewer_keywords: ["WlanScan","WlanScan function [NativeWIFI]","nwifi.wlanscan","wlanapi/WlanScan"]
 old-location: nwifi\wlanscan.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: cf30b285-9694-4ab0-ad13-c1ec4d8cb6e1
 ms.date: 12/05/2018
 ms.keywords: WlanScan, WlanScan function [NativeWIFI], nwifi.wlanscan, wlanapi/WlanScan

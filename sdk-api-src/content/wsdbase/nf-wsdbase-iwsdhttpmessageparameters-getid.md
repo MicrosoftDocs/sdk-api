@@ -4,7 +4,7 @@ title: IWSDHttpMessageParameters::GetID (wsdbase.h)
 description: Retrieves the transport ID for the current transaction.
 helpviewer_keywords: ["GetID","GetID method","GetID method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetID method","IWSDHttpMessageParameters.GetID","IWSDHttpMessageParameters::GetID","ncd.iwsdhttpmessageparameters_getid","wsdbase/IWSDHttpMessageParameters::GetID"]
 old-location: ncd\iwsdhttpmessageparameters_getid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID

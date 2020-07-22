@@ -4,7 +4,7 @@ title: IVdsVolume::Delete (vds.h)
 description: Deletes the volume and all plexes, releasing the extents.
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","Delete method","IVdsVolume.Delete","IVdsVolume::Delete","base.ivdsvolume_delete","vds/IVdsVolume::Delete"]
 old-location: base\ivdsvolume_delete.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Delete method, IVdsVolume.Delete, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete

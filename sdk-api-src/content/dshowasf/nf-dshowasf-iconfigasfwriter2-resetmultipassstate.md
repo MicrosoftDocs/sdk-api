@@ -4,7 +4,7 @@ title: IConfigAsfWriter2::ResetMultiPassState (dshowasf.h)
 description: The ResetMultiPassState method resets the filter when a preprocessing encoding pass is canceled before it is completed.
 helpviewer_keywords: ["IConfigAsfWriter2 interface [DirectShow]","ResetMultiPassState method","IConfigAsfWriter2.ResetMultiPassState","IConfigAsfWriter2::ResetMultiPassState","IConfigAsfWriter2ResetMultiPassState","ResetMultiPassState","ResetMultiPassState method [DirectShow]","ResetMultiPassState method [DirectShow]","IConfigAsfWriter2 interface","dshow.iconfigasfwriter2_resetmultipassstate","dshowasf/IConfigAsfWriter2::ResetMultiPassState"]
 old-location: dshow\iconfigasfwriter2_resetmultipassstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ca2ec239-ffb9-4030-9160-77a0c9be0a07
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],ResetMultiPassState method, IConfigAsfWriter2.ResetMultiPassState, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState

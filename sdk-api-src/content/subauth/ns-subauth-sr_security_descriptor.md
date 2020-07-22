@@ -4,7 +4,7 @@ title: SR_SECURITY_DESCRIPTOR (subauth.h)
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 helpviewer_keywords: ["*PSR_SECURITY_DESCRIPTOR","PSR_SECURITY_DESCRIPTOR","PSR_SECURITY_DESCRIPTOR structure pointer [Security]","SR_SECURITY_DESCRIPTOR","SR_SECURITY_DESCRIPTOR structure [Security]","_lsa_sr_security_descriptor","security.sr_security_descriptor","subauth/PSR_SECURITY_DESCRIPTOR","subauth/SR_SECURITY_DESCRIPTOR"]
 old-location: security\sr_security_descriptor.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
 ms.date: 12/05/2018
 ms.keywords: '*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR'

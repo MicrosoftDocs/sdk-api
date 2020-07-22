@@ -4,7 +4,7 @@ title: CryptSetProviderA function (wincrypt.h)
 description: Specifies the current user's default cryptographic service provider (CSP).
 helpviewer_keywords: ["CryptSetProvider","CryptSetProvider function [Security]","CryptSetProviderA","CryptSetProviderW","_crypto2_cryptsetprovider","security.cryptsetprovider","wincrypt/CryptSetProvider","wincrypt/CryptSetProviderA","wincrypt/CryptSetProviderW"]
 old-location: security\cryptsetprovider.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.date: 12/05/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW

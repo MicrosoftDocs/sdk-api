@@ -4,7 +4,7 @@ title: IMediaSample::SetSyncPoint (strmif.h)
 description: The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.
 helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetSyncPoint method","IMediaSample.SetSyncPoint","IMediaSample::SetSyncPoint","IMediaSampleSetSyncPoint","SetSyncPoint","SetSyncPoint method [DirectShow]","SetSyncPoint method [DirectShow]","IMediaSample interface","dshow.imediasample_setsyncpoint","strmif/IMediaSample::SetSyncPoint"]
 old-location: dshow\imediasample_setsyncpoint.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b2770045-c18b-4dbc-b104-873e07c0b5aa
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetSyncPoint method, IMediaSample.SetSyncPoint, IMediaSample::SetSyncPoint, IMediaSampleSetSyncPoint, SetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_setsyncpoint, strmif/IMediaSample::SetSyncPoint

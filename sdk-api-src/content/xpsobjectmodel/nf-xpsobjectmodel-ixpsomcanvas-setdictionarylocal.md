@@ -4,7 +4,7 @@ title: IXpsOMCanvas::SetDictionaryLocal (xpsobjectmodel.h)
 description: Sets the IXpsOMDictionary interface pointer of the local, unshared dictionary.
 helpviewer_keywords: ["IXpsOMCanvas interface [XPS Documents and Packaging]","SetDictionaryLocal method","IXpsOMCanvas.SetDictionaryLocal","IXpsOMCanvas::SetDictionaryLocal","SetDictionaryLocal","SetDictionaryLocal method [XPS Documents and Packaging]","SetDictionaryLocal method [XPS Documents and Packaging]","IXpsOMCanvas interface","xps.ixpsomcanvas_setdictionarylocal","xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal"]
 old-location: xps\ixpsomcanvas_setdictionarylocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f6cd655f-8850-4fce-95af-50edbdd38cb1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMCanvas.SetDictionaryLocal, IXpsOMCanvas::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionarylocal, xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal

@@ -4,7 +4,7 @@ title: ICertificationAuthorities::Add (certenroll.h)
 description: Adds an ICertificationAuthority object to the collection.
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertificationAuthorities interface","ICertificationAuthorities interface [Security]","Add method","ICertificationAuthorities.Add","ICertificationAuthorities::Add","certenroll/ICertificationAuthorities::Add","security.icertificationauthorities_add"]
 old-location: security\icertificationauthorities_add.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add

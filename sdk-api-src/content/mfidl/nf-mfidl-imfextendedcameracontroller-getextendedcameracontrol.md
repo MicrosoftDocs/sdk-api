@@ -5,7 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Gets an instance of IMFExtendedCameraControl, which allows an app to get the current capture device's extended property controls.
-tech.root: medfound
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

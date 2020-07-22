@@ -4,7 +4,7 @@ title: DXVAHD_CUSTOM_RATE_DATA (dxvahd.h)
 description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 helpviewer_keywords: ["DXVAHD_CUSTOM_RATE_DATA","DXVAHD_CUSTOM_RATE_DATA structure [Media Foundation]","dxvahd/DXVAHD_CUSTOM_RATE_DATA","mf.dxvahd_custom_rate_data"]
 old-location: mf\dxvahd_custom_rate_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 12cac4a8-cfdf-484c-8443-ef47dd3a152b
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_CUSTOM_RATE_DATA, DXVAHD_CUSTOM_RATE_DATA structure [Media Foundation], dxvahd/DXVAHD_CUSTOM_RATE_DATA, mf.dxvahd_custom_rate_data

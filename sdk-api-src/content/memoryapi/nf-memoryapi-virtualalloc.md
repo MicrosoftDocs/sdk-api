@@ -4,7 +4,7 @@ title: VirtualAlloc function (memoryapi.h)
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_RESERVE","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","MEM_WRITE_WATCH","VirtualAlloc","VirtualAlloc function","_win32_virtualalloc","base.virtualalloc","winbase/VirtualAlloc"]
 old-location: base\virtualalloc.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc, VirtualAlloc function, _win32_virtualalloc, base.virtualalloc, winbase/VirtualAlloc

@@ -4,7 +4,7 @@ title: IMFSourceBuffer (mfmediaengine.h)
 description: Represents a buffer which contains media data for a IMFMediaSourceExtension.
 helpviewer_keywords: ["IMFSourceBuffer","IMFSourceBuffer interface [Media Foundation]","IMFSourceBuffer interface [Media Foundation]","described","mf.imfsourcebuffer","mfmediaengine/IMFSourceBuffer"]
 old-location: mf\imfsourcebuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation],described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer

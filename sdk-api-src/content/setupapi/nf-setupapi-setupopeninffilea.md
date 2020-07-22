@@ -4,7 +4,7 @@ title: SetupOpenInfFileA function (setupapi.h)
 description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
 helpviewer_keywords: ["SetupOpenInfFile","SetupOpenInfFile function [Setup API]","SetupOpenInfFileA","SetupOpenInfFileW","_setupapi_setupopeninffile","setup.setupopeninffile","setupapi/SetupOpenInfFile","setupapi/SetupOpenInfFileA","setupapi/SetupOpenInfFileW"]
 old-location: setup\setupopeninffile.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7
 ms.date: 12/05/2018
 ms.keywords: SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW

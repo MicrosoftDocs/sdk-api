@@ -5,6 +5,7 @@ ms.date: 11/26/2019
 ms.topic: language-reference
 targetos: Windows
 description: Retrieves an object for IMFContentDecryptionModuleSession suspend events.
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

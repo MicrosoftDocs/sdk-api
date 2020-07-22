@@ -4,7 +4,7 @@ title: EV_EXTRA_CERT_CHAIN_POLICY_STATUS (wincrypt.h)
 description: Contains policy flags returned from a call to the CertVerifyCertificateChainPolicy function.
 helpviewer_keywords: ["*PEV_EXTRA_CERT_CHAIN_POLICY_STATUS","CERT_ROOT_PROGRAM_FLAG_LSC","CERT_ROOT_PROGRAM_FLAG_ORG","CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO","EV_EXTRA_CERT_CHAIN_POLICY_STATUS","EV_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security]","PEV_EXTRA_CERT_CHAIN_POLICY_STATUS","PEV_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security]","security.ev_extra_cert_chain_policy_status","wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_STATUS","wincrypt/_EV_EXTRA_CERT_CHAIN_POLICY_STATUS"]
 old-location: security\ev_extra_cert_chain_policy_status.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 65810a26-2675-4a98-b2ee-59d4e3bc1994
 ms.date: 12/05/2018
 ms.keywords: '*PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_STATUS, EV_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, PEV_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], security.ev_extra_cert_chain_policy_status, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/_EV_EXTRA_CERT_CHAIN_POLICY_STATUS'

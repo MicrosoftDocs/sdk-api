@@ -4,7 +4,7 @@ title: IDXVAHD_VideoProcessor::GetVideoProcessBltState (dxvahd.h)
 description: Gets the value of a state parameter for blit operations performed by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 helpviewer_keywords: ["GetVideoProcessBltState","GetVideoProcessBltState method [Media Foundation]","GetVideoProcessBltState method [Media Foundation]","IDXVAHD_VideoProcessor interface","IDXVAHD_VideoProcessor interface [Media Foundation]","GetVideoProcessBltState method","IDXVAHD_VideoProcessor.GetVideoProcessBltState","IDXVAHD_VideoProcessor::GetVideoProcessBltState","dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessBltState","mf.idxvahd_videoprocessor_getvideoprocessbltstate"]
 old-location: mf\idxvahd_videoprocessor_getvideoprocessbltstate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5fdb0d39-7a64-41fd-8f70-4085ddbc7ebc
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessBltState, GetVideoProcessBltState method [Media Foundation], GetVideoProcessBltState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessBltState method, IDXVAHD_VideoProcessor.GetVideoProcessBltState, IDXVAHD_VideoProcessor::GetVideoProcessBltState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessBltState, mf.idxvahd_videoprocessor_getvideoprocessbltstate

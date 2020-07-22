@@ -4,7 +4,7 @@ title: WbemImpersonationLevelEnum (wbemdisp.h)
 description: Define the security impersonation levels. These constants are used with SWbemSecurity.
 helpviewer_keywords: ["WbemImpersonationLevelEnum","WbemImpersonationLevelEnum enumeration [Windows Management Instrumentation]","_hmm_wbemimpersonationlevelenum","wbemImpersonationLevelAnonymous","wbemImpersonationLevelDelegate","wbemImpersonationLevelIdentify","wbemImpersonationLevelImpersonate","wbemdisp/WbemImpersonationLevelEnum","wbemdisp/wbemImpersonationLevelAnonymous","wbemdisp/wbemImpersonationLevelDelegate","wbemdisp/wbemImpersonationLevelIdentify","wbemdisp/wbemImpersonationLevelImpersonate","wmi.wbemimpersonationlevelenum"]
 old-location: wmi\wbemimpersonationlevelenum.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 4a6d92a6-82d1-4426-8175-89cf9495c448
 ms.date: 12/05/2018
 ms.keywords: WbemImpersonationLevelEnum, WbemImpersonationLevelEnum enumeration [Windows Management Instrumentation], _hmm_wbemimpersonationlevelenum, wbemImpersonationLevelAnonymous, wbemImpersonationLevelDelegate, wbemImpersonationLevelIdentify, wbemImpersonationLevelImpersonate, wbemdisp/WbemImpersonationLevelEnum, wbemdisp/wbemImpersonationLevelAnonymous, wbemdisp/wbemImpersonationLevelDelegate, wbemdisp/wbemImpersonationLevelIdentify, wbemdisp/wbemImpersonationLevelImpersonate, wmi.wbemimpersonationlevelenum

@@ -4,7 +4,7 @@ title: IPin::ConnectionMediaType (strmif.h)
 description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any.
 helpviewer_keywords: ["ConnectionMediaType","ConnectionMediaType method [DirectShow]","ConnectionMediaType method [DirectShow]","IPin interface","IPin interface [DirectShow]","ConnectionMediaType method","IPin.ConnectionMediaType","IPin::ConnectionMediaType","IPinConnectionMediaType","dshow.ipin_connectionmediatype","strmif/IPin::ConnectionMediaType"]
 old-location: dshow\ipin_connectionmediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f372bfa7-b0ba-43f9-ba86-cbca5d1de515
 ms.date: 12/05/2018
 ms.keywords: ConnectionMediaType, ConnectionMediaType method [DirectShow], ConnectionMediaType method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectionMediaType method, IPin.ConnectionMediaType, IPin::ConnectionMediaType, IPinConnectionMediaType, dshow.ipin_connectionmediatype, strmif/IPin::ConnectionMediaType

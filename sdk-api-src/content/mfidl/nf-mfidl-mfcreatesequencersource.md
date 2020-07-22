@@ -4,7 +4,7 @@ title: MFCreateSequencerSource function (mfidl.h)
 description: Creates the sequencer source.
 helpviewer_keywords: ["MFCreateSequencerSource","MFCreateSequencerSource function [Media Foundation]","e4640731-f262-4ceb-8d17-908c2c6b192e","mf.mfcreatesequencersource","mfidl/MFCreateSequencerSource"]
 old-location: mf\mfcreatesequencersource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e4640731-f262-4ceb-8d17-908c2c6b192e
 ms.date: 12/05/2018
 ms.keywords: MFCreateSequencerSource, MFCreateSequencerSource function [Media Foundation], e4640731-f262-4ceb-8d17-908c2c6b192e, mf.mfcreatesequencersource, mfidl/MFCreateSequencerSource

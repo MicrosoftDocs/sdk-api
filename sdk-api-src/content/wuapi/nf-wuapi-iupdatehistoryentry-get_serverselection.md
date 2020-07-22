@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_ServerSelection (wuapi.h)
 description: Gets the ServerSelection value that indicates which server provided an update.
 helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","ServerSelection property","IUpdateHistoryEntry.ServerSelection","IUpdateHistoryEntry.get_ServerSelection","IUpdateHistoryEntry::ServerSelection","IUpdateHistoryEntry::get_ServerSelection","ServerSelection property [Windows Update Agent]","ServerSelection property [Windows Update Agent]","IUpdateHistoryEntry interface","get_ServerSelection","ssDefault","ssManagedServer","ssOthers","ssWindowsUpdate","wua.iupdatehistoryentry_serverselection","wuapi/IUpdateHistoryEntry::ServerSelection","wuapi/IUpdateHistoryEntry::get_ServerSelection"]
 old-location: wua\iupdatehistoryentry_serverselection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 26b1c4ce-edc0-46cb-80f7-6a140df9c88b
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServerSelection property, IUpdateHistoryEntry.ServerSelection, IUpdateHistoryEntry.get_ServerSelection, IUpdateHistoryEntry::ServerSelection, IUpdateHistoryEntry::get_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServerSelection, ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, wua.iupdatehistoryentry_serverselection, wuapi/IUpdateHistoryEntry::ServerSelection, wuapi/IUpdateHistoryEntry::get_ServerSelection

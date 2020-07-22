@@ -4,7 +4,7 @@ title: IWbemClassObject::GetMethodOrigin (wbemcli.h)
 description: The IWbemClassObject::GetMethodOrigin method is used to determine the class for which a method was declared.
 helpviewer_keywords: ["GetMethodOrigin","GetMethodOrigin method [Windows Management Instrumentation]","GetMethodOrigin method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetMethodOrigin method","IWbemClassObject.GetMethodOrigin","IWbemClassObject::GetMethodOrigin","_hmm_iwbemclassobject_getmethodorigin","wbemcli/IWbemClassObject::GetMethodOrigin","wmi.iwbemclassobject_getmethodorigin"]
 old-location: wmi\iwbemclassobject_getmethodorigin.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: e3d55b1f-f9bd-40d1-9ad5-990c264524d5
 ms.date: 12/05/2018
 ms.keywords: GetMethodOrigin, GetMethodOrigin method [Windows Management Instrumentation], GetMethodOrigin method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodOrigin method, IWbemClassObject.GetMethodOrigin, IWbemClassObject::GetMethodOrigin, _hmm_iwbemclassobject_getmethodorigin, wbemcli/IWbemClassObject::GetMethodOrigin, wmi.iwbemclassobject_getmethodorigin

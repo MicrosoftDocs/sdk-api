@@ -4,7 +4,7 @@ title: IEnroll2::SetHStoreRequest (xenroll.h)
 description: The SetHStoreRequest method specifies the handle to use for the request store. This method was first defined in the IEnroll2 interface.
 helpviewer_keywords: ["IEnroll2 interface [Security]","SetHStoreRequest method","IEnroll2.SetHStoreRequest","IEnroll2::SetHStoreRequest","SetHStoreRequest","SetHStoreRequest method [Security]","SetHStoreRequest method [Security]","IEnroll2 interface","security.ienroll4_sethstorerequest","xenroll/IEnroll2::SetHStoreRequest"]
 old-location: security\ienroll4_sethstorerequest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7424d94f-8f81-432a-b003-a1c30fcc70ae
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreRequest method, IEnroll2.SetHStoreRequest, IEnroll2::SetHStoreRequest, SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security],IEnroll2 interface, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest

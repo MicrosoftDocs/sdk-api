@@ -4,7 +4,7 @@ title: IObjectId::InitializeFromValue (certenroll.h)
 description: Initializes the object from a string that contains a dotted decimal object identifier (OID).
 helpviewer_keywords: ["IObjectId interface [Security]","InitializeFromValue method","IObjectId.InitializeFromValue","IObjectId::InitializeFromValue","InitializeFromValue","InitializeFromValue method [Security]","InitializeFromValue method [Security]","IObjectId interface","certenroll/IObjectId::InitializeFromValue","security.iobjectid_initializefromvalue_method"]
 old-location: security\iobjectid_initializefromvalue_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 2bb2ee69-02c3-41b9-a67b-036c7154a44e
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],InitializeFromValue method, IObjectId.InitializeFromValue, IObjectId::InitializeFromValue, InitializeFromValue, InitializeFromValue method [Security], InitializeFromValue method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromValue, security.iobjectid_initializefromvalue_method

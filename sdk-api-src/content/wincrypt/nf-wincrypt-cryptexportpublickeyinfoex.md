@@ -4,7 +4,7 @@ title: CryptExportPublicKeyInfoEx function (wincrypt.h)
 description: Exports the public key information associated with the provider's corresponding private key.
 helpviewer_keywords: ["CryptExportPublicKeyInfoEx","CryptExportPublicKeyInfoEx function [Security]","_crypto2_cryptexportpublickeyinfoex","security.cryptexportpublickeyinfoex","wincrypt/CryptExportPublicKeyInfoEx"]
 old-location: security\cryptexportpublickeyinfoex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
 ms.date: 12/05/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx

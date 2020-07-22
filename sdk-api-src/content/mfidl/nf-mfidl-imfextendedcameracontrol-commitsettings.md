@@ -5,7 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Commits the configured control settings to the camera driver. 
-tech.root: medfound
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

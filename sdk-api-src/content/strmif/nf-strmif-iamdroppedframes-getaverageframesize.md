@@ -4,7 +4,7 @@ title: IAMDroppedFrames::GetAverageFrameSize (strmif.h)
 description: The GetAverageFrameSize method retrieves the average size of the frames that the filter has captured.
 helpviewer_keywords: ["GetAverageFrameSize","GetAverageFrameSize method [DirectShow]","GetAverageFrameSize method [DirectShow]","IAMDroppedFrames interface","IAMDroppedFrames interface [DirectShow]","GetAverageFrameSize method","IAMDroppedFrames.GetAverageFrameSize","IAMDroppedFrames::GetAverageFrameSize","IAMDroppedFramesGetAverageFrameSize","dshow.iamdroppedframes_getaverageframesize","strmif/IAMDroppedFrames::GetAverageFrameSize"]
 old-location: dshow\iamdroppedframes_getaverageframesize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 49b63a9f-8192-4fce-8cfe-c92bd39ca2b0
 ms.date: 12/05/2018
 ms.keywords: GetAverageFrameSize, GetAverageFrameSize method [DirectShow], GetAverageFrameSize method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetAverageFrameSize method, IAMDroppedFrames.GetAverageFrameSize, IAMDroppedFrames::GetAverageFrameSize, IAMDroppedFramesGetAverageFrameSize, dshow.iamdroppedframes_getaverageframesize, strmif/IAMDroppedFrames::GetAverageFrameSize

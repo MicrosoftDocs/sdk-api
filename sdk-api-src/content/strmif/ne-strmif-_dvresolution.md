@@ -4,7 +4,7 @@ title: "_DVRESOLUTION (strmif.h)"
 description: Indicates the digital video (DV) decoding resolution.
 helpviewer_keywords: ["DVDECODERRESOLUTIONEnumeration","DVRESOLUTION_DC","DVRESOLUTION_FULL","DVRESOLUTION_HALF","DVRESOLUTION_QUARTER","_DVRESOLUTION","_DVRESOLUTION enumeration [DirectShow]","dshow._dvresolution","strmif/DVRESOLUTION_DC","strmif/DVRESOLUTION_FULL","strmif/DVRESOLUTION_HALF","strmif/DVRESOLUTION_QUARTER","strmif/_DVRESOLUTION"]
 old-location: dshow\_dvresolution.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8ae9b402-e7cc-4e11-b956-974b53fd8934
 ms.date: 12/05/2018
 ms.keywords: DVDECODERRESOLUTIONEnumeration, DVRESOLUTION_DC, DVRESOLUTION_FULL, DVRESOLUTION_HALF, DVRESOLUTION_QUARTER, _DVRESOLUTION, _DVRESOLUTION enumeration [DirectShow], dshow._dvresolution, strmif/DVRESOLUTION_DC, strmif/DVRESOLUTION_FULL, strmif/DVRESOLUTION_HALF, strmif/DVRESOLUTION_QUARTER, strmif/_DVRESOLUTION

@@ -4,7 +4,7 @@ title: CHPtrArray::RemoveAll (chptrarr.h)
 description: The RemoveAll method removes all the CHPtrArray members from this array.
 helpviewer_keywords: ["?RemoveAll@CHPtrArray@@QAEXXZ","CHPtrArray interface [Windows Management Instrumentation]","RemoveAll method","CHPtrArray.RemoveAll","CHPtrArray::RemoveAll","RemoveAll","RemoveAll method [Windows Management Instrumentation]","RemoveAll method [Windows Management Instrumentation]","CHPtrArray interface","chptrarr/CHPtrArray::RemoveAll","wmi.chptrarray_removeall"]
 old-location: wmi\chptrarray_removeall.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
 ms.date: 12/05/2018
 ms.keywords: ?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall

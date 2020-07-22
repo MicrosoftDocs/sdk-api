@@ -4,7 +4,7 @@ title: IVPNotify2::SetVPSyncMaster (vpnotify.h)
 description: The SetVPSyncMaster method sets whether the video port controls vertical synchronization of the VGA.
 helpviewer_keywords: ["IVPNotify2 interface [DirectShow]","SetVPSyncMaster method","IVPNotify2.SetVPSyncMaster","IVPNotify2::SetVPSyncMaster","IVPNotify2SetVPSyncMaster","SetVPSyncMaster","SetVPSyncMaster method [DirectShow]","SetVPSyncMaster method [DirectShow]","IVPNotify2 interface","dshow.ivpnotify2_setvpsyncmaster","vpnotify/IVPNotify2::SetVPSyncMaster"]
 old-location: dshow\ivpnotify2_setvpsyncmaster.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ef1075a6-f31b-4ad8-b31a-66ca68d2c068
 ms.date: 12/05/2018
 ms.keywords: IVPNotify2 interface [DirectShow],SetVPSyncMaster method, IVPNotify2.SetVPSyncMaster, IVPNotify2::SetVPSyncMaster, IVPNotify2SetVPSyncMaster, SetVPSyncMaster, SetVPSyncMaster method [DirectShow], SetVPSyncMaster method [DirectShow],IVPNotify2 interface, dshow.ivpnotify2_setvpsyncmaster, vpnotify/IVPNotify2::SetVPSyncMaster

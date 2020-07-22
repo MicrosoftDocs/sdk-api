@@ -4,7 +4,7 @@ title: IWbemObjectAccess::ReadDWORD (wbemcli.h)
 description: The ReadDWORD method reads 32 bits of property data using a property handle.
 helpviewer_keywords: ["IWbemObjectAccess interface [Windows Management Instrumentation]","ReadDWORD method","IWbemObjectAccess.ReadDWORD","IWbemObjectAccess::ReadDWORD","ReadDWORD","ReadDWORD method [Windows Management Instrumentation]","ReadDWORD method [Windows Management Instrumentation]","IWbemObjectAccess interface","_hmm_iwbemobjectaccess_readdword","wbemcli/IWbemObjectAccess::ReadDWORD","wmi.iwbemobjectaccess_readdword"]
 old-location: wmi\iwbemobjectaccess_readdword.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 5352dea3-6d10-42be-aa1e-786ace193827
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadDWORD method, IWbemObjectAccess.ReadDWORD, IWbemObjectAccess::ReadDWORD, ReadDWORD, ReadDWORD method [Windows Management Instrumentation], ReadDWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readdword, wbemcli/IWbemObjectAccess::ReadDWORD, wmi.iwbemobjectaccess_readdword

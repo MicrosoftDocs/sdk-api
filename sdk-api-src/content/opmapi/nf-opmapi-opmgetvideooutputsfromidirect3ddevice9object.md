@@ -4,7 +4,7 @@ title: OPMGetVideoOutputsFromIDirect3DDevice9Object function (opmapi.h)
 description: Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular Direct3D device.
 helpviewer_keywords: ["OPMGetVideoOutputsFromIDirect3DDevice9Object","OPMGetVideoOutputsFromIDirect3DDevice9Object function [Media Foundation]","OPM_VOS_COPP_SEMANTICS","OPM_VOS_OPM_SEMANTICS","mf.opmgetvideooutputsfromidirect3ddevice9object","opmapi/OPMGetVideoOutputsFromIDirect3DDevice9Object"]
 old-location: mf\opmgetvideooutputsfromidirect3ddevice9object.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9b287058-9e06-4c40-84f4-506aefce5b8a
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputsFromIDirect3DDevice9Object, OPMGetVideoOutputsFromIDirect3DDevice9Object function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromidirect3ddevice9object, opmapi/OPMGetVideoOutputsFromIDirect3DDevice9Object

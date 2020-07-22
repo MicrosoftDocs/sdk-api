@@ -4,7 +4,7 @@ title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator (cer
 description: Initializes the object from the DNS name of the local computer.
 helpviewer_keywords: ["ICertPropertyRequestOriginator interface [Security]","InitializeFromLocalRequestOriginator method","ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator","ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator","InitializeFromLocalRequestOriginator","InitializeFromLocalRequestOriginator method [Security]","InitializeFromLocalRequestOriginator method [Security]","ICertPropertyRequestOriginator interface","certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator","security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method"]
 old-location: security\icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 466e0767-d13a-4f5d-9715-47bb7b9d4142
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method

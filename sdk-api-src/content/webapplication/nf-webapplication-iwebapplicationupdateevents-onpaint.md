@@ -4,7 +4,7 @@ title: IWebApplicationUpdateEvents::OnPaint (webapplication.h)
 description: Notifies the authoring app that a portion of the app was painted.
 helpviewer_keywords: ["IWebApplicationUpdateEvents interface [Debugging Windows Store apps]","OnPaint method","IWebApplicationUpdateEvents.OnPaint","IWebApplicationUpdateEvents::OnPaint","OnPaint","OnPaint method [Debugging Windows Store apps]","OnPaint method [Debugging Windows Store apps]","IWebApplicationUpdateEvents interface","debug.iwebapplicationupdateevents_onpaint","webapplication/IWebApplicationUpdateEvents::OnPaint"]
 old-location: debug\iwebapplicationupdateevents_onpaint.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: DFFED801-CCE7-4408-BD0B-E2B1AF5CD172
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnPaint method, IWebApplicationUpdateEvents.OnPaint, IWebApplicationUpdateEvents::OnPaint, OnPaint, OnPaint method [Debugging Windows Store apps], OnPaint method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_onpaint, webapplication/IWebApplicationUpdateEvents::OnPaint

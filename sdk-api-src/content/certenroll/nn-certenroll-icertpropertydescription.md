@@ -4,7 +4,7 @@ title: ICertPropertyDescription (certenroll.h)
 description: Enables you to specify and retrieve a string that contains descriptive information for a certificate.
 helpviewer_keywords: ["ICertPropertyDescription","ICertPropertyDescription interface [Security]","ICertPropertyDescription interface [Security]","described","certenroll/ICertPropertyDescription","security.icertpropertydescription"]
 old-location: security\icertpropertydescription.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 229e8ce9-fe18-45f4-8f91-cd741052a134
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security],described, certenroll/ICertPropertyDescription, security.icertpropertydescription

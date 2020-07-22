@@ -4,7 +4,7 @@ title: SetServiceStatus function (winsvc.h)
 description: Updates the service control manager's status information for the calling service.
 helpviewer_keywords: ["SetServiceStatus","SetServiceStatus function","_win32_setservicestatus","base.setservicestatus","winsvc/SetServiceStatus"]
 old-location: base\setservicestatus.htm
-tech.root: Services
+tech.root: security
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
 ms.date: 12/05/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus

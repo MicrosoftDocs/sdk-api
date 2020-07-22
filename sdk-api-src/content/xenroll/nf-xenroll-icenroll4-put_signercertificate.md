@@ -4,7 +4,7 @@ title: ICEnroll4::put_SignerCertificate (xenroll.h)
 description: Sets the signer's certificate.
 helpviewer_keywords: ["CEnroll object [Security]","SignerCertificate property","ICEnroll4 interface [Security]","SignerCertificate property","ICEnroll4.SignerCertificate","ICEnroll4.put_SignerCertificate","ICEnroll4::SignerCertificate","ICEnroll4::put_SignerCertificate","SignerCertificate property [Security]","SignerCertificate property [Security]","CEnroll object","SignerCertificate property [Security]","ICEnroll4 interface","put_SignerCertificate","security.icenroll4_signercertificate","xenroll/ICEnroll4::SignerCertificate","xenroll/ICEnroll4::put_SignerCertificate"]
 old-location: security\icenroll4_signercertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3e5b8964-f737-407e-b265-fe095bd6f8ad
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],SignerCertificate property, ICEnroll4 interface [Security],SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4.put_SignerCertificate, ICEnroll4::SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],CEnroll object, SignerCertificate property [Security],ICEnroll4 interface, put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate

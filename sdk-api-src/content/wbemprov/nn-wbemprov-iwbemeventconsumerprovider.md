@@ -4,7 +4,7 @@ title: IWbemEventConsumerProvider (wbemprov.h)
 description: Provides the primary interface for an event consumer provider. Through this interface and the FindConsumer method, an event consumer provider can indicate which event consumers should receive a given event.
 helpviewer_keywords: ["IWbemEventConsumerProvider","IWbemEventConsumerProvider interface [Windows Management Instrumentation]","IWbemEventConsumerProvider interface [Windows Management Instrumentation]","described","_hmm_iwbemeventconsumerprovider","wbemprov/IWbemEventConsumerProvider","wmi.iwbemeventconsumerprovider"]
 old-location: wmi\iwbemeventconsumerprovider.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 793bbc22-4a8b-4ab3-8cfe-7d81f42a6b7f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventConsumerProvider, IWbemEventConsumerProvider interface [Windows Management Instrumentation], IWbemEventConsumerProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventconsumerprovider, wbemprov/IWbemEventConsumerProvider, wmi.iwbemeventconsumerprovider

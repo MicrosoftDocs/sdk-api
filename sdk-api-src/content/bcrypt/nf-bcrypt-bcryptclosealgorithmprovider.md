@@ -4,7 +4,7 @@ title: BCryptCloseAlgorithmProvider function (bcrypt.h)
 description: Closes an algorithm provider.
 helpviewer_keywords: ["BCryptCloseAlgorithmProvider","BCryptCloseAlgorithmProvider function [Security]","bcrypt/BCryptCloseAlgorithmProvider","security.bcryptclosealgorithmprovider_func"]
 old-location: security\bcryptclosealgorithmprovider_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
 ms.date: 12/05/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func

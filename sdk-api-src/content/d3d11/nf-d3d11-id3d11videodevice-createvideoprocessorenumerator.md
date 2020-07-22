@@ -4,7 +4,7 @@ title: ID3D11VideoDevice::CreateVideoProcessorEnumerator (d3d11.h)
 description: Enumerates the video processor capabilities of the driver.
 helpviewer_keywords: ["CreateVideoProcessorEnumerator","CreateVideoProcessorEnumerator method [Media Foundation]","CreateVideoProcessorEnumerator method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","CreateVideoProcessorEnumerator method","ID3D11VideoDevice.CreateVideoProcessorEnumerator","ID3D11VideoDevice::CreateVideoProcessorEnumerator","d3d11/ID3D11VideoDevice::CreateVideoProcessorEnumerator","mf.id3d11videodevice_createvideoprocessorenumerator"]
 old-location: mf\id3d11videodevice_createvideoprocessorenumerator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 992C699D-A499-494E-AEDF-A6688CB14D70
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessorEnumerator, CreateVideoProcessorEnumerator method [Media Foundation], CreateVideoProcessorEnumerator method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorEnumerator method, ID3D11VideoDevice.CreateVideoProcessorEnumerator, ID3D11VideoDevice::CreateVideoProcessorEnumerator, d3d11/ID3D11VideoDevice::CreateVideoProcessorEnumerator, mf.id3d11videodevice_createvideoprocessorenumerator

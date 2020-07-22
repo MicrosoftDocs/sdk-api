@@ -4,7 +4,7 @@ title: IDot11AdHocNetwork::GetSecuritySetting (adhoc.h)
 description: Gets the security settings for the network.
 helpviewer_keywords: ["GetSecuritySetting","GetSecuritySetting method [NativeWIFI]","GetSecuritySetting method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","GetSecuritySetting method","IDot11AdHocNetwork.GetSecuritySetting","IDot11AdHocNetwork::GetSecuritySetting","adhoc/IDot11AdHocNetwork::GetSecuritySetting","nwifi.idot11adhocnetwork_getsecuritysetting"]
 old-location: nwifi\idot11adhocnetwork_getsecuritysetting.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 3e5fa757-41fd-4541-a16e-15c2fb66e15a
 ms.date: 12/05/2018
 ms.keywords: GetSecuritySetting, GetSecuritySetting method [NativeWIFI], GetSecuritySetting method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSecuritySetting method, IDot11AdHocNetwork.GetSecuritySetting, IDot11AdHocNetwork::GetSecuritySetting, adhoc/IDot11AdHocNetwork::GetSecuritySetting, nwifi.idot11adhocnetwork_getsecuritysetting

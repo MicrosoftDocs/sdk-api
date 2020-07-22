@@ -4,7 +4,7 @@ title: IDvdGraphBuilder (strmif.h)
 description: The IDvdGraphBuilder interface builds a filter graph for DVD-Video playback.
 helpviewer_keywords: ["IDvdGraphBuilder","IDvdGraphBuilder interface [DirectShow]","IDvdGraphBuilder interface [DirectShow]","described","IDvdGraphBuilderInterface","dshow.idvdgraphbuilder","strmif/IDvdGraphBuilder"]
 old-location: dshow\idvdgraphbuilder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2179e54a-c6e2-4837-9f89-be210bde9180
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder

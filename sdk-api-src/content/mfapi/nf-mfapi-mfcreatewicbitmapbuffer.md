@@ -4,7 +4,7 @@ title: MFCreateWICBitmapBuffer function (mfapi.h)
 description: Creates a media buffer object that manages a Windows Imaging Component (WIC).
 helpviewer_keywords: ["MFCreateWICBitmapBuffer","MFCreateWICBitmapBuffer function [Media Foundation]","mf.mfcreatewicbitmapbuffer","mfapi/MFCreateWICBitmapBuffer"]
 old-location: mf\mfcreatewicbitmapbuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 029B7CC6-5B12-4A19-B6CD-B0D7E3F314B6
 ms.date: 12/05/2018
 ms.keywords: MFCreateWICBitmapBuffer, MFCreateWICBitmapBuffer function [Media Foundation], mf.mfcreatewicbitmapbuffer, mfapi/MFCreateWICBitmapBuffer

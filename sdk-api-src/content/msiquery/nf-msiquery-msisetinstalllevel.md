@@ -4,7 +4,7 @@ title: MsiSetInstallLevel function (msiquery.h)
 description: The MsiSetInstallLevel function sets the installation level for a full product installation.
 helpviewer_keywords: ["MsiSetInstallLevel","MsiSetInstallLevel function","_msi_msisetinstalllevel","msiquery/MsiSetInstallLevel","setup.msisetinstalllevel"]
 old-location: setup\msisetinstalllevel.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
 ms.date: 12/05/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel

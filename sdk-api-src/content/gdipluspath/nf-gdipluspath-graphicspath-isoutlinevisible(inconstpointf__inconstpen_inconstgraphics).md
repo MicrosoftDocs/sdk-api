@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(INconstPointF&,INconstPen,INconstGraphics)
 title: GraphicsPath::IsOutlineVisible
 description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of a path.
+tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::IsOutlineVisible"]
 ms.assetid: f80b0cd2-0c6c-4fa9-9567-5383750689e8
 ms.date: 05/13/2019

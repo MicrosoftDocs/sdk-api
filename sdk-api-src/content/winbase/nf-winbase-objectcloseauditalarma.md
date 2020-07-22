@@ -4,7 +4,7 @@ title: ObjectCloseAuditAlarmA function (winbase.h)
 description: Generates an audit message in the security event log when a handle to a private object is deleted.
 helpviewer_keywords: ["ObjectCloseAuditAlarm","ObjectCloseAuditAlarm function [Security]","ObjectCloseAuditAlarmA","ObjectCloseAuditAlarmW","_win32_objectcloseauditalarm","security.objectcloseauditalarm","winbase/ObjectCloseAuditAlarm","winbase/ObjectCloseAuditAlarmA","winbase/ObjectCloseAuditAlarmW"]
 old-location: security\objectcloseauditalarm.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 274f3a62-1833-402b-b362-f526b2bee14b
 ms.date: 12/05/2018
 ms.keywords: ObjectCloseAuditAlarm, ObjectCloseAuditAlarm function [Security], ObjectCloseAuditAlarmA, ObjectCloseAuditAlarmW, _win32_objectcloseauditalarm, security.objectcloseauditalarm, winbase/ObjectCloseAuditAlarm, winbase/ObjectCloseAuditAlarmA, winbase/ObjectCloseAuditAlarmW

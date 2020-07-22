@@ -4,7 +4,7 @@ title: NetAddServiceAccount function (lmaccess.h)
 description: Creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
 helpviewer_keywords: ["NetAddServiceAccount","NetAddServiceAccount function [Security]","SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY","lmaccess/NetAddServiceAccount","security.netaddserviceaccount"]
 old-location: security\netaddserviceaccount.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
 ms.date: 12/05/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount

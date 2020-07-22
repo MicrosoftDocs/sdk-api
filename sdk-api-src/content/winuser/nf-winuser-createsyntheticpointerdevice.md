@@ -4,7 +4,7 @@ title: CreateSyntheticPointerDevice function (winuser.h)
 description: Configures the pointer injection device for the calling application, and initializes the maximum number of simultaneous pointers that the app can inject.
 helpviewer_keywords: ["CreateSyntheticPointerDevice","CreateSyntheticPointerDevice function","input_pointerdevice.createsyntheticpointerdevice","winuser/CreateSyntheticPointerDevice"]
 old-location: input_pointerdevice\createsyntheticpointerdevice.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: 251F837F-DF9A-4A94-B790-73AA7196E4A9
 ms.date: 12/05/2018
 ms.keywords: CreateSyntheticPointerDevice, CreateSyntheticPointerDevice function, input_pointerdevice.createsyntheticpointerdevice, winuser/CreateSyntheticPointerDevice

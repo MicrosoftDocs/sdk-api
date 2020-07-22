@@ -4,7 +4,7 @@ title: MFCreateVideoMediaTypeFromVideoInfoHeader2 function (mfapi.h)
 description: Creates a media type from a KS_VIDEOINFOHEADER2 structure.
 helpviewer_keywords: ["2c0f4c47-7018-42f3-ae63-5209daa44158","MFCreateVideoMediaTypeFromVideoInfoHeader2","MFCreateVideoMediaTypeFromVideoInfoHeader2 function [Media Foundation]","mf.mfcreatevideomediatypefromvideoinfoheader2","mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader2"]
 old-location: mf\mfcreatevideomediatypefromvideoinfoheader2.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2c0f4c47-7018-42f3-ae63-5209daa44158
 ms.date: 12/05/2018
 ms.keywords: 2c0f4c47-7018-42f3-ae63-5209daa44158, MFCreateVideoMediaTypeFromVideoInfoHeader2, MFCreateVideoMediaTypeFromVideoInfoHeader2 function [Media Foundation], mf.mfcreatevideomediatypefromvideoinfoheader2, mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader2

@@ -4,7 +4,7 @@ title: PeerGroupImportConfig function (p2p.h)
 description: The PeerGroupImportConfig function imports a peer group configuration for an identity based on the specific settings in a supplied XML configuration string.
 helpviewer_keywords: ["PeerGroupImportConfig","PeerGroupImportConfig function [Peer Networking]","p2p.peergroupimportconfig","p2p/PeerGroupImportConfig"]
 old-location: p2p\peergroupimportconfig.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e459f2f9-b118-4e22-8b32-65d389795664
 ms.date: 12/05/2018
 ms.keywords: PeerGroupImportConfig, PeerGroupImportConfig function [Peer Networking], p2p.peergroupimportconfig, p2p/PeerGroupImportConfig

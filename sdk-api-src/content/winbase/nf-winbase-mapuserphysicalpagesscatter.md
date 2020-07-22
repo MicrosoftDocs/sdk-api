@@ -4,7 +4,7 @@ title: MapUserPhysicalPagesScatter function (winbase.h)
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 helpviewer_keywords: ["MapUserPhysicalPagesScatter","MapUserPhysicalPagesScatter function","_win32_mapuserphysicalpagesscatter","base.mapuserphysicalpagesscatter","winbase/MapUserPhysicalPagesScatter"]
 old-location: base\mapuserphysicalpagesscatter.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter

@@ -4,7 +4,7 @@ title: DXVAHD_RATIONAL (dxvahd.h)
 description: Contains a rational number (ratio).
 helpviewer_keywords: ["DXVAHD_RATIONAL","DXVAHD_RATIONAL structure [Media Foundation]","dxvahd/DXVAHD_RATIONAL","mf.dxvahd_rational"]
 old-location: mf\dxvahd_rational.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational

@@ -4,7 +4,7 @@ title: IAMGraphStreams (strmif.h)
 description: The IAMGraphStreams interface controls a filter graph that renders a live source.
 helpviewer_keywords: ["IAMGraphStreams","IAMGraphStreams interface [DirectShow]","IAMGraphStreams interface [DirectShow]","described","IAMGraphStreamsInterface","dshow.iamgraphstreams","strmif/IAMGraphStreams"]
 old-location: dshow\iamgraphstreams.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams

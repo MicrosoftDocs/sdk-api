@@ -4,7 +4,7 @@ title: XPS_FONT_EMBEDDING (xpsobjectmodel.h)
 description: Describes the option for embedding a font.
 helpviewer_keywords: ["XPS_FONT_EMBEDDING","XPS_FONT_EMBEDDING enumeration [XPS Documents and Packaging]","XPS_FONT_EMBEDDING_NORMAL","XPS_FONT_EMBEDDING_OBFUSCATED","XPS_FONT_EMBEDDING_RESTRICTED","XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED","xps.xps_font_embedding","xpsobjectmodel/XPS_FONT_EMBEDDING","xpsobjectmodel/XPS_FONT_EMBEDDING_NORMAL","xpsobjectmodel/XPS_FONT_EMBEDDING_OBFUSCATED","xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED","xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED"]
 old-location: xps\xps_font_embedding.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 9701b1c2-a909-410e-b05b-76bbd5bc8b44
 ms.date: 12/05/2018
 ms.keywords: XPS_FONT_EMBEDDING, XPS_FONT_EMBEDDING enumeration [XPS Documents and Packaging], XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED, xps.xps_font_embedding, xpsobjectmodel/XPS_FONT_EMBEDDING, xpsobjectmodel/XPS_FONT_EMBEDDING_NORMAL, xpsobjectmodel/XPS_FONT_EMBEDDING_OBFUSCATED, xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED, xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED

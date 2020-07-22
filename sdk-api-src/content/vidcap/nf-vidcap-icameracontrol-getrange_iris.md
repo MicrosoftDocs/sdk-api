@@ -4,7 +4,7 @@ title: ICameraControl::getRange_Iris (vidcap.h)
 description: The getRange_Iris method returns the range of aperture settings supported by the camera.
 helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_Iris method","ICameraControl.getRange_Iris","ICameraControl::getRange_Iris","ICameraControlgetRange_Iris","dshow.icameracontrol_getrange_iris","getRange_Iris","getRange_Iris method [DirectShow]","getRange_Iris method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_Iris"]
 old-location: dshow\icameracontrol_getrange_iris.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3f3bc5b0-18eb-470c-9922-1d401f43e269
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Iris method, ICameraControl.getRange_Iris, ICameraControl::getRange_Iris, ICameraControlgetRange_Iris, dshow.icameracontrol_getrange_iris, getRange_Iris, getRange_Iris method [DirectShow], getRange_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Iris

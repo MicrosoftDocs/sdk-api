@@ -4,7 +4,7 @@ title: IRtwqAsyncResult (rtworkq.h)
 description: Provides information about the result of an asynchronous operation.
 helpviewer_keywords: ["IRtwqAsyncResult","IRtwqAsyncResult interface","IRtwqAsyncResult interface","described","base.irtwqasyncresult","rtworkq/IRtwqAsyncResult"]
 old-location: base\irtwqasyncresult.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: AB23282D-D731-48EE-AF55-CC5A513EBA33
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult interface,described, base.irtwqasyncresult, rtworkq/IRtwqAsyncResult

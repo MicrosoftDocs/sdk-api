@@ -4,7 +4,7 @@ title: CInstance::SetCharSplat(LPCWSTR,DWORD) (instance.h)
 description: The SetCharSplat(LPCWSTR, DWORD) method sets a string.
 helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetCharSplat method","CInstance.SetCharSplat","CInstance.SetCharSplat(LPCWSTR","DWORD)","CInstance::SetCharSplat","CInstance::SetCharSplat(LPCWSTR","DWORD)","SetCharSplat","SetCharSplat method [Windows Management Instrumentation]","SetCharSplat method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::SetCharSplat","wmi.cinstance_setcharsplat_lpcwstr__dword_"]
 old-location: wmi\cinstance_setcharsplat_lpcwstr__dword_.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 92dd4dc6-9a2c-44f4-b4b1-b8663dc021b0
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetCharSplat method, CInstance.SetCharSplat, CInstance.SetCharSplat(LPCWSTR,DWORD), CInstance::SetCharSplat, CInstance::SetCharSplat(LPCWSTR,DWORD), SetCharSplat, SetCharSplat method [Windows Management Instrumentation], SetCharSplat method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCharSplat, wmi.cinstance_setcharsplat_lpcwstr__dword_

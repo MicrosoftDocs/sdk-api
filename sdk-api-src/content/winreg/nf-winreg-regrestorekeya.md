@@ -4,7 +4,7 @@ title: RegRestoreKeyA function (winreg.h)
 description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys.
 helpviewer_keywords: ["REG_FORCE_RESTORE","REG_WHOLE_HIVE_VOLATILE","RegRestoreKey","RegRestoreKey function","RegRestoreKeyA","RegRestoreKeyW","_win32_regrestorekey","base.regrestorekey","winreg/RegRestoreKey","winreg/RegRestoreKeyA","winreg/RegRestoreKeyW"]
 old-location: base\regrestorekey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 6267383d-427a-4ae8-b9cc-9c1861d3b7bb
 ms.date: 12/05/2018
 ms.keywords: REG_FORCE_RESTORE, REG_WHOLE_HIVE_VOLATILE, RegRestoreKey, RegRestoreKey function, RegRestoreKeyA, RegRestoreKeyW, _win32_regrestorekey, base.regrestorekey, winreg/RegRestoreKey, winreg/RegRestoreKeyA, winreg/RegRestoreKeyW

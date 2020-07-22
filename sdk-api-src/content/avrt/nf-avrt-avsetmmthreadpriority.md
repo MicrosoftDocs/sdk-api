@@ -4,7 +4,7 @@ title: AvSetMmThreadPriority function (avrt.h)
 description: Adjusts the thread priority of the calling thread relative to other threads performing the same task.
 helpviewer_keywords: ["AVRT_PRIORITY_CRITICAL","AVRT_PRIORITY_HIGH","AVRT_PRIORITY_LOW","AVRT_PRIORITY_NORMAL","AvSetMmThreadPriority","AvSetMmThreadPriority function","avrt/AvSetMmThreadPriority","base.avsetmmthreadpriority"]
 old-location: base\avsetmmthreadpriority.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 74259dbc-a9e9-409e-96e6-66a9dc590099
 ms.date: 12/05/2018
 ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT_PRIORITY_NORMAL, AvSetMmThreadPriority, AvSetMmThreadPriority function, avrt/AvSetMmThreadPriority, base.avsetmmthreadpriority

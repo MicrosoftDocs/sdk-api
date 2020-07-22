@@ -4,7 +4,7 @@ title: SetCommConfig function (winbase.h)
 description: Sets the current configuration of a communications device.
 helpviewer_keywords: ["SetCommConfig","SetCommConfig function","_win32_setcommconfig","base.setcommconfig","winbase/SetCommConfig"]
 old-location: base\setcommconfig.htm
-tech.root: devio
+tech.root: base
 ms.assetid: e38be757-81c6-49ae-8d90-4387893e8ec5
 ms.date: 12/05/2018
 ms.keywords: SetCommConfig, SetCommConfig function, _win32_setcommconfig, base.setcommconfig, winbase/SetCommConfig

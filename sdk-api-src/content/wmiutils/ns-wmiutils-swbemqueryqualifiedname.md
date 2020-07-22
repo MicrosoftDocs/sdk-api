@@ -4,7 +4,7 @@ title: SWbemQueryQualifiedName (wmiutils.h)
 description: The SWbemQueryQualifiedName structure stores property names for the IWbemQuery::GetAnalysis method.
 helpviewer_keywords: ["SWbemQueryQualifiedName","SWbemQueryQualifiedName structure [Windows Management Instrumentation]","wmi.swbemqueryqualifiedname","wmiutils/SWbemQueryQualifiedName"]
 old-location: wmi\swbemqueryqualifiedname.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
 ms.date: 12/05/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName

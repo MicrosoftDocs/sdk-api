@@ -4,7 +4,7 @@ title: ITAgentSession (tapi3cc.h)
 description: An agent session represents an association between an agent, group, and address.
 helpviewer_keywords: ["ITAgentSession","ITAgentSession interface [TAPI 2.2]","ITAgentSession interface [TAPI 2.2]","described","_tapi3_itagentsession","tapi3.itagentsession","tapi3cc/ITAgentSession"]
 old-location: tapi3\itagentsession.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession

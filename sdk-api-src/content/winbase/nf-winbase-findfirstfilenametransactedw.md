@@ -4,7 +4,7 @@ title: FindFirstFileNameTransactedW function (winbase.h)
 description: Creates an enumeration of all the hard links to the specified file as a transacted operation. The function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 helpviewer_keywords: ["FindFirstFileNameTransactedW","FindFirstFileNameTransactedW function [Files]","fs.findfirstfilenametransactedw","winbase/FindFirstFileNameTransactedW"]
 old-location: fs\findfirstfilenametransactedw.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 79c7d32d-3cb7-4e27-9db1-f24282bf606a
 ms.date: 12/05/2018
 ms.keywords: FindFirstFileNameTransactedW, FindFirstFileNameTransactedW function [Files], fs.findfirstfilenametransactedw, winbase/FindFirstFileNameTransactedW

@@ -4,7 +4,7 @@ title: IDiskQuotaEvents (dskquota.h)
 description: Receives quota-related event notifications.
 helpviewer_keywords: ["IDiskQuotaEvents","IDiskQuotaEvents interface [Files]","IDiskQuotaEvents interface [Files]","described","_win32_idiskquotaevents","base.idiskquotaevents","dskquota/IDiskQuotaEvents","fs.idiskquotaevents"]
 old-location: fs\idiskquotaevents.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4b5dcb1f-8edb-4fcb-94ea-2a627667071e
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaEvents, IDiskQuotaEvents interface [Files], IDiskQuotaEvents interface [Files],described, _win32_idiskquotaevents, base.idiskquotaevents, dskquota/IDiskQuotaEvents, fs.idiskquotaevents

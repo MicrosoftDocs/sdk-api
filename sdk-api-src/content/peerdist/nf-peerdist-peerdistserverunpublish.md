@@ -4,7 +4,7 @@ title: PeerDistServerUnpublish function (peerdist.h)
 description: PeerDistServerUnpublish function removes a publication created via PeerDistServerPublishStream.
 helpviewer_keywords: ["PeerDistServerUnpublish","PeerDistServerUnpublish function [Peer Networking]","p2p.peerdistserverunpublish","peerdist/PeerDistServerUnpublish"]
 old-location: p2p\peerdistserverunpublish.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 880927c4-f7d7-4c75-b371-2fe401a50b20
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerUnpublish, PeerDistServerUnpublish function [Peer Networking], p2p.peerdistserverunpublish, peerdist/PeerDistServerUnpublish

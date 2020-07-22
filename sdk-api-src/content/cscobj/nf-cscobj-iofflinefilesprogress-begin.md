@@ -4,7 +4,7 @@ title: IOfflineFilesProgress::Begin (cscobj.h)
 description: Reports that an operation has begun.
 helpviewer_keywords: ["Begin","Begin method [Offline Files]","Begin method [Offline Files]","IOfflineFilesProgress interface","IOfflineFilesProgress interface [Offline Files]","Begin method","IOfflineFilesProgress.Begin","IOfflineFilesProgress::Begin","cscobj/IOfflineFilesProgress::Begin","of.iofflinefilesprogress_begin"]
 old-location: of\iofflinefilesprogress_begin.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin

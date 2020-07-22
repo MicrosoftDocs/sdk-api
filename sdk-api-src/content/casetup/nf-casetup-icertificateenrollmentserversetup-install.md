@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup::Install (casetup.h)
 description: Installs the Certificate Enrollment Web Service (CES) configured by the ICertificateEnrollmentServerSetup object.
 helpviewer_keywords: ["ICertificateEnrollmentServerSetup interface [Security]","Install method","ICertificateEnrollmentServerSetup.Install","ICertificateEnrollmentServerSetup::Install","Install","Install method [Security]","Install method [Security]","ICertificateEnrollmentServerSetup interface","casetup/ICertificateEnrollmentServerSetup::Install","security.icertificateenrollmentserversetup_install"]
 old-location: security\icertificateenrollmentserversetup_install.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install

@@ -4,7 +4,7 @@ title: KspMakeSignatureFn (ntsecpkg.h)
 description: Generates a signature based on the specified message and security context.
 helpviewer_keywords: ["KspMakeSignatureFn","KspMakeSignatureFn callback","SpMakeSignature","SpMakeSignature callback function [Security]","_ssp_spmakesignature","ntsecpkg/SpMakeSignature","security.spmakesignature"]
 old-location: security\spmakesignature.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 9db828f3-b15c-4e22-bbd8-5daa223b2be0
 ms.date: 12/05/2018
 ms.keywords: KspMakeSignatureFn, KspMakeSignatureFn callback, SpMakeSignature, SpMakeSignature callback function [Security], _ssp_spmakesignature, ntsecpkg/SpMakeSignature, security.spmakesignature

@@ -4,7 +4,7 @@ title: SetTokenInformation function (securitybaseapi.h)
 description: Sets various types of information for a specified access token.
 helpviewer_keywords: ["SetTokenInformation","SetTokenInformation function [Security]","_win32_settokeninformation","security.settokeninformation","securitybaseapi/SetTokenInformation"]
 old-location: security\settokeninformation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cdb8af74-540d-4059-ac64-6243f6aabaa6
 ms.date: 12/05/2018
 ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win32_settokeninformation, security.settokeninformation, securitybaseapi/SetTokenInformation

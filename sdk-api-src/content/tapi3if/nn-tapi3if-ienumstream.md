@@ -4,7 +4,7 @@ title: IEnumStream (tapi3if.h)
 description: The IEnumStream interface provides COM-standard enumeration methods for the ITStream interface. The ITStreamControl::EnumerateStreams and ITParticipant::EnumerateStreams methods return a pointer to IEnumStream.
 helpviewer_keywords: ["IEnumStream","IEnumStream interface [TAPI 2.2]","IEnumStream interface [TAPI 2.2]","described","_tapi3_ienumstream","tapi3.ienumstream","tapi3if/IEnumStream"]
 old-location: tapi3\ienumstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 52e8c040-8bc5-4c9c-a697-ec05164adea2
 ms.date: 12/05/2018
 ms.keywords: IEnumStream, IEnumStream interface [TAPI 2.2], IEnumStream interface [TAPI 2.2],described, _tapi3_ienumstream, tapi3.ienumstream, tapi3if/IEnumStream

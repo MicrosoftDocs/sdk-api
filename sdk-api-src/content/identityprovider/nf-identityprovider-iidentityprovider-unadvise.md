@@ -4,7 +4,7 @@ title: IIdentityProvider::UnAdvise (identityprovider.h)
 description: Deletes a connection created by calling the Advise method.
 helpviewer_keywords: ["IIdentityProvider interface [Security]","UnAdvise method","IIdentityProvider.UnAdvise","IIdentityProvider::UnAdvise","UnAdvise","UnAdvise method [Security]","UnAdvise method [Security]","IIdentityProvider interface","identityprovider/IIdentityProvider::UnAdvise","security.iidentityprovider_unadvise"]
 old-location: security\iidentityprovider_unadvise.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ba8a12fc-ea4c-45b5-8339-9cbc88c160db
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider interface [Security],UnAdvise method, IIdentityProvider.UnAdvise, IIdentityProvider::UnAdvise, UnAdvise, UnAdvise method [Security], UnAdvise method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::UnAdvise, security.iidentityprovider_unadvise

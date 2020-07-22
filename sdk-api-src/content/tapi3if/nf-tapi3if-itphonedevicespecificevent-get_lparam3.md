@@ -4,7 +4,7 @@ title: ITPhoneDeviceSpecificEvent::get_lParam3 (tapi3if.h)
 description: The get_lParam3 method retrieves the third of three buffers specific to a given phone device. The precise content and meaning of these buffers is defined by the provider.
 helpviewer_keywords: ["ITPhoneDeviceSpecificEvent interface [TAPI 2.2]","get_lParam3 method","ITPhoneDeviceSpecificEvent.get_lParam3","ITPhoneDeviceSpecificEvent::get_lParam3","_tapi3_itphonedevicespecificevent_get_lparam3","get_lParam3","get_lParam3 method [TAPI 2.2]","get_lParam3 method [TAPI 2.2]","ITPhoneDeviceSpecificEvent interface","tapi3.itphonedevicespecificevent_get_lparam3","tapi3if/ITPhoneDeviceSpecificEvent::get_lParam3"]
 old-location: tapi3\itphonedevicespecificevent_get_lparam3.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0dd4c5d7-033a-4e25-a7f0-6731b5b08d18
 ms.date: 12/05/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam3 method, ITPhoneDeviceSpecificEvent.get_lParam3, ITPhoneDeviceSpecificEvent::get_lParam3, _tapi3_itphonedevicespecificevent_get_lparam3, get_lParam3, get_lParam3 method [TAPI 2.2], get_lParam3 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam3, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam3

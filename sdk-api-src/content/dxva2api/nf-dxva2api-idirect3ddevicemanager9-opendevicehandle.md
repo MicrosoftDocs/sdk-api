@@ -4,7 +4,7 @@ title: IDirect3DDeviceManager9::OpenDeviceHandle (dxva2api.h)
 description: Gets a handle to the Direct3D device.
 helpviewer_keywords: ["74cd2260-279a-4956-8fce-40f8008b6797","IDirect3DDeviceManager9 interface [Media Foundation]","OpenDeviceHandle method","IDirect3DDeviceManager9.OpenDeviceHandle","IDirect3DDeviceManager9::OpenDeviceHandle","OpenDeviceHandle","OpenDeviceHandle method [Media Foundation]","OpenDeviceHandle method [Media Foundation]","IDirect3DDeviceManager9 interface","dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle","mf.idirect3ddevicemanager9_opendevicehandle"]
 old-location: mf\idirect3ddevicemanager9_opendevicehandle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 74cd2260-279a-4956-8fce-40f8008b6797
 ms.date: 12/05/2018
 ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9 interface [Media Foundation],OpenDeviceHandle method, IDirect3DDeviceManager9.OpenDeviceHandle, IDirect3DDeviceManager9::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle, mf.idirect3ddevicemanager9_opendevicehandle

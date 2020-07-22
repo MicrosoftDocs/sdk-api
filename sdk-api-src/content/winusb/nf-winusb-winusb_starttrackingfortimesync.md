@@ -4,7 +4,7 @@ title: WinUsb_StartTrackingForTimeSync function (winusb.h)
 description: The WinUsb_StartTrackingForTimeSync function starts the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes.
 helpviewer_keywords: ["WinUsb_StartTrackingForTimeSync","WinUsb_StartTrackingForTimeSync function [Buses]","buses.winusb_starttrackingfortimesync","winusb/WinUsb_StartTrackingForTimeSync"]
 old-location: buses\winusb_starttrackingfortimesync.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: FC19CDFD-76F1-49E3-A212-E4F490D679E6
 ms.date: 12/05/2018
 ms.keywords: WinUsb_StartTrackingForTimeSync, WinUsb_StartTrackingForTimeSync function [Buses], buses.winusb_starttrackingfortimesync, winusb/WinUsb_StartTrackingForTimeSync

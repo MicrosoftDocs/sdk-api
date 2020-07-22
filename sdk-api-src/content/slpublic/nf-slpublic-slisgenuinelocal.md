@@ -4,7 +4,7 @@ title: SLIsGenuineLocal function (slpublic.h)
 description: Checks whether the specified application is a genuine Windows installation.
 helpviewer_keywords: ["SLIsGenuineLocal","SLIsGenuineLocal function [Security]","security.slisgenuinelocal","slpublic/SLIsGenuineLocal"]
 old-location: security\slisgenuinelocal.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: e1983777-13c1-4bf5-834d-471db3bfa0f6
 ms.date: 12/05/2018
 ms.keywords: SLIsGenuineLocal, SLIsGenuineLocal function [Security], security.slisgenuinelocal, slpublic/SLIsGenuineLocal

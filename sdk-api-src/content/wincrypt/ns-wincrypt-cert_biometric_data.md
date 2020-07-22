@@ -4,7 +4,7 @@ title: CERT_BIOMETRIC_DATA (wincrypt.h)
 description: Contains information about biometric data.
 helpviewer_keywords: ["*PCERT_BIOMETRIC_DATA","CERT_BIOMETRIC_DATA","CERT_BIOMETRIC_DATA structure [Security]","CERT_BIOMETRIC_OID_DATA_CHOICE","CERT_BIOMETRIC_PICTURE_TYPE","CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE","CERT_BIOMETRIC_SIGNATURE_TYPE","PCERT_BIOMETRIC_DATA","PCERT_BIOMETRIC_DATA structure pointer [Security]","security.cert_biometric_data","wincrypt/CERT_BIOMETRIC_DATA","wincrypt/PCERT_BIOMETRIC_DATA"]
 old-location: security\cert_biometric_data.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA'

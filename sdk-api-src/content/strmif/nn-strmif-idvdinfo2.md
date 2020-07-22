@@ -4,7 +4,7 @@ title: IDvdInfo2 (strmif.h)
 description: The IDvdInfo2 interface reports attributes of a DVD disc or the current state of DVD playback and navigation.
 helpviewer_keywords: ["IDvdInfo2","IDvdInfo2 interface [DirectShow]","IDvdInfo2 interface [DirectShow]","described","IDvdInfo2Interface","dshow.idvdinfo2","strmif/IDvdInfo2"]
 old-location: dshow\idvdinfo2.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: da30d3dc-feec-4f54-b2db-a771ce404286
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IDvdInfo2 interface [DirectShow],described, IDvdInfo2Interface, dshow.idvdinfo2, strmif/IDvdInfo2

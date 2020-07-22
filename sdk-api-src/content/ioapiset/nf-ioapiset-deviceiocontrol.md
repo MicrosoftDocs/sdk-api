@@ -4,7 +4,7 @@ title: DeviceIoControl function (ioapiset.h)
 description: Sends a control code directly to a specified device driver, causing the corresponding device to perform the corresponding operation.
 helpviewer_keywords: ["DeviceIoControl","DeviceIoControl function","_win32_deviceiocontrol","base.deviceiocontrol","ioapiset/DeviceIoControl"]
 old-location: base\deviceiocontrol.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 1d35c087-6672-4fc6-baa1-a886dd9d3878
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, base.deviceiocontrol, ioapiset/DeviceIoControl

@@ -4,7 +4,7 @@ title: MFUnregisterPlatformFromMMCSS function (mfapi.h)
 description: Unregisters the Microsoft Media Foundation platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
 helpviewer_keywords: ["MFUnregisterPlatformFromMMCSS","MFUnregisterPlatformFromMMCSS function [Media Foundation]","mf.mfunregisterplatformfrommmcss","mfapi/MFUnregisterPlatformFromMMCSS","mfplat/MFUnregisterPlatformFromMMCSS"]
 old-location: mf\mfunregisterplatformfrommmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B080E515-AD0E-492D-A9EF-8391DCEC3891
 ms.date: 12/05/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS

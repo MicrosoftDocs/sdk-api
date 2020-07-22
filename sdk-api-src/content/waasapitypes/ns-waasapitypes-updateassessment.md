@@ -4,7 +4,7 @@ title: UpdateAssessment (waasapitypes.h)
 description: UpdateAssessment contains information that assesses how up-to-date an installed OS is.
 helpviewer_keywords: ["UpdateAssessment","UpdateAssessment structure","base.updateassessment","waasapitypes/UpdateAssessment"]
 old-location: base\updateassessment.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.date: 12/05/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, waasapitypes/UpdateAssessment

@@ -4,7 +4,7 @@ title: IAMMultiMediaStream::Initialize (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The Initialize method initializes the multimedia stream object.
 helpviewer_keywords: ["IAMMultiMediaStream interface [DirectShow]","Initialize method","IAMMultiMediaStream.Initialize","IAMMultiMediaStream::Initialize","IAMMultiMediaStreamInitialize","Initialize","Initialize method [DirectShow]","Initialize method [DirectShow]","IAMMultiMediaStream interface","amstream/IAMMultiMediaStream::Initialize","dshow.iammultimediastream_initialize"]
 old-location: dshow\iammultimediastream_initialize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c9c3295e-716f-4093-b437-f6c405f5bc7b
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize

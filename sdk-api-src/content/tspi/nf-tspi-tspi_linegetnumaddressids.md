@@ -4,7 +4,7 @@ title: TSPI_lineGetNumAddressIDs function (tspi.h)
 description: The TSPI_lineGetNumAddressIDs function retrieves the number of address identifiers supported on the indicated line.
 helpviewer_keywords: ["TSPI_lineGetNumAddressIDs","TSPI_lineGetNumAddressIDs function [TAPI 2.2]","_tspi_tspi_linegetnumaddressids","tspi.tspi_linegetnumaddressids","tspi/TSPI_lineGetNumAddressIDs"]
 old-location: tspi\tspi_linegetnumaddressids.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 53fd70eb-2694-4c8c-97cd-6ee9f2606ced
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetNumAddressIDs, TSPI_lineGetNumAddressIDs function [TAPI 2.2], _tspi_tspi_linegetnumaddressids, tspi.tspi_linegetnumaddressids, tspi/TSPI_lineGetNumAddressIDs

@@ -4,7 +4,7 @@ title: IMFRemoteDesktopPlugin (mfidl.h)
 description: Modifies a topology for use in a Terminal Services environment.
 helpviewer_keywords: ["75bb9bf8-12a7-430f-9943-18623aff9903","IMFRemoteDesktopPlugin","IMFRemoteDesktopPlugin interface [Media Foundation]","IMFRemoteDesktopPlugin interface [Media Foundation]","described","mf.imfremotedesktopplugin","mfidl/IMFRemoteDesktopPlugin"]
 old-location: mf\imfremotedesktopplugin.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
 ms.date: 12/05/2018
 ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], IMFRemoteDesktopPlugin interface [Media Foundation],described, mf.imfremotedesktopplugin, mfidl/IMFRemoteDesktopPlugin

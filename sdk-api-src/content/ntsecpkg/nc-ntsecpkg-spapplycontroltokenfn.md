@@ -4,7 +4,7 @@ title: SpApplyControlTokenFn (ntsecpkg.h)
 description: Applies a control token to a security context. This function is not currently called by the Local Security Authority (LSA).
 helpviewer_keywords: ["SpApplyControlToken","SpApplyControlToken callback function [Security]","SpApplyControlTokenFn","SpApplyControlTokenFn callback","_ssp_spapplycontroltoken","ntsecpkg/SpApplyControlToken","security.spapplycontroltoken"]
 old-location: security\spapplycontroltoken.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 60c5e310-dd80-4bf7-9480-ac614c98d75f
 ms.date: 12/05/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken callback function [Security], SpApplyControlTokenFn, SpApplyControlTokenFn callback, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken

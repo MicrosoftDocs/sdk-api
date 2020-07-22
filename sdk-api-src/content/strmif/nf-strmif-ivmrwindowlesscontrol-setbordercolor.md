@@ -4,7 +4,7 @@ title: IVMRWindowlessControl::SetBorderColor (strmif.h)
 description: The SetBorderColor method sets the border color to be used by the VMR.
 helpviewer_keywords: ["IVMRWindowlessControl interface [DirectShow]","SetBorderColor method","IVMRWindowlessControl.SetBorderColor","IVMRWindowlessControl::SetBorderColor","IVMRWindowlessControlSetBorderColor","SetBorderColor","SetBorderColor method [DirectShow]","SetBorderColor method [DirectShow]","IVMRWindowlessControl interface","dshow.ivmrwindowlesscontrol_setbordercolor","strmif/IVMRWindowlessControl::SetBorderColor"]
 old-location: dshow\ivmrwindowlesscontrol_setbordercolor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d58ce18f-ddc4-4d91-b086-8829056f4508
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetBorderColor method, IVMRWindowlessControl.SetBorderColor, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor

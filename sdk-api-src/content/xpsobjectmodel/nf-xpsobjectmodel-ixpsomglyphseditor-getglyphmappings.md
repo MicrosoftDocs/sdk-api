@@ -4,7 +4,7 @@ title: IXpsOMGlyphsEditor::GetGlyphMappings (xpsobjectmodel.h)
 description: Gets an array of XPS_GLYPH_MAPPING structures that describe how to map UTF-16 scalar values to entries in the array of XPS_GLYPH_INDEX structures, which is returned by GetGlyphIndices.
 helpviewer_keywords: ["GetGlyphMappings","GetGlyphMappings method [XPS Documents and Packaging]","GetGlyphMappings method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetGlyphMappings method","IXpsOMGlyphsEditor.GetGlyphMappings","IXpsOMGlyphsEditor::GetGlyphMappings","xps.ixpsomglyphseditor_getglyphmappings","xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappings"]
 old-location: xps\ixpsomglyphseditor_getglyphmappings.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 59a09a1f-547c-48e1-8aad-f408dd416656
 ms.date: 12/05/2018
 ms.keywords: GetGlyphMappings, GetGlyphMappings method [XPS Documents and Packaging], GetGlyphMappings method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappings method, IXpsOMGlyphsEditor.GetGlyphMappings, IXpsOMGlyphsEditor::GetGlyphMappings, xps.ixpsomglyphseditor_getglyphmappings, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappings

@@ -4,7 +4,7 @@ title: MsiInstallProductA function (msi.h)
 description: Installs or uninstalls a product.
 helpviewer_keywords: ["MsiInstallProduct","MsiInstallProduct function","MsiInstallProductA","MsiInstallProductW","_msi_msiinstallproduct","msi/MsiInstallProduct","msi/MsiInstallProductA","msi/MsiInstallProductW","setup.msiinstallproduct"]
 old-location: setup\msiinstallproduct.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: ec8d6710-ecfe-432c-ba1d-2e3532a25988
 ms.date: 12/05/2018
 ms.keywords: MsiInstallProduct, MsiInstallProduct function, MsiInstallProductA, MsiInstallProductW, _msi_msiinstallproduct, msi/MsiInstallProduct, msi/MsiInstallProductA, msi/MsiInstallProductW, setup.msiinstallproduct

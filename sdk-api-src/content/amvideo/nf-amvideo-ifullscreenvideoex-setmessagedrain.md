@@ -4,7 +4,7 @@ title: IFullScreenVideoEx::SetMessageDrain (amvideo.h)
 description: The SetMessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetMessageDrain method","IFullScreenVideoEx.SetMessageDrain","IFullScreenVideoEx::SetMessageDrain","IFullScreenVideoSetMessageDrain","SetMessageDrain","SetMessageDrain method [DirectShow]","SetMessageDrain method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetMessageDrain","dshow.ifullscreenvideoex_setmessagedrain"]
 old-location: dshow\ifullscreenvideoex_setmessagedrain.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d0c24da9-c33f-48a7-b644-a7671acca20f
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMessageDrain method, IFullScreenVideoEx.SetMessageDrain, IFullScreenVideoEx::SetMessageDrain, IFullScreenVideoSetMessageDrain, SetMessageDrain, SetMessageDrain method [DirectShow], SetMessageDrain method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMessageDrain, dshow.ifullscreenvideoex_setmessagedrain

@@ -4,7 +4,7 @@ title: IEventObjectChange::ChangedEventClass (eventsys.h)
 description: Indicates that an event class object has been added, modified, or deleted.
 helpviewer_keywords: ["ChangedEventClass","ChangedEventClass method [COM+]","ChangedEventClass method [COM+]","IEventObjectChange interface","IEventObjectChange interface [COM+]","ChangedEventClass method","IEventObjectChange.ChangedEventClass","IEventObjectChange::ChangedEventClass","_cos_IEventObjectChange_ChangedEventClass","cos.ieventobjectchange_changedeventclass","eventsys/IEventObjectChange::ChangedEventClass"]
 old-location: cos\ieventobjectchange_changedeventclass.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 8db711c8-7c01-4fb0-975c-a66c83063124
 ms.date: 12/05/2018
 ms.keywords: ChangedEventClass, ChangedEventClass method [COM+], ChangedEventClass method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedEventClass method, IEventObjectChange.ChangedEventClass, IEventObjectChange::ChangedEventClass, _cos_IEventObjectChange_ChangedEventClass, cos.ieventobjectchange_changedeventclass, eventsys/IEventObjectChange::ChangedEventClass

@@ -4,7 +4,7 @@ title: IMFCaptureEngineOnEventCallback (mfcaptureengine.h)
 description: Callback interface for receiving events from the capture engine.
 helpviewer_keywords: ["IMFCaptureEngineOnEventCallback","IMFCaptureEngineOnEventCallback interface [Media Foundation]","IMFCaptureEngineOnEventCallback interface [Media Foundation]","described","mf.imfcaptureengineoneventcallback","mfcaptureengine/IMFCaptureEngineOnEventCallback"]
 old-location: mf\imfcaptureengineoneventcallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6F04F843-160C-4F49-9841-ECC1450F4A58
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnEventCallback, IMFCaptureEngineOnEventCallback interface [Media Foundation], IMFCaptureEngineOnEventCallback interface [Media Foundation],described, mf.imfcaptureengineoneventcallback, mfcaptureengine/IMFCaptureEngineOnEventCallback

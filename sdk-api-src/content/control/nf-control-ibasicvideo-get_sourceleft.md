@@ -4,7 +4,7 @@ title: IBasicVideo::get_SourceLeft (control.h)
 description: The get_SourceLeft method retrieves the x-coordinate of the source rectangle.
 helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_SourceLeft method","IBasicVideo.get_SourceLeft","IBasicVideo::get_SourceLeft","IBasicVideoget_SourceLeft","control/IBasicVideo::get_SourceLeft","dshow.ibasicvideo_get_sourceleft","get_SourceLeft","get_SourceLeft method [DirectShow]","get_SourceLeft method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_sourceleft.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1ea64dae-d643-44c1-9026-f9b0dcd25ef1
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceLeft method, IBasicVideo.get_SourceLeft, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow],IBasicVideo interface

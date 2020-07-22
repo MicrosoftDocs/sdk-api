@@ -4,7 +4,7 @@ title: IMFNetSchemeHandlerConfig (mfidl.h)
 description: Configures a network scheme plug-in.
 helpviewer_keywords: ["91bdcdbd-d621-42e3-8e0f-f8eeab489d35","IMFNetSchemeHandlerConfig","IMFNetSchemeHandlerConfig interface [Media Foundation]","IMFNetSchemeHandlerConfig interface [Media Foundation]","described","mf.imfnetschemehandlerconfig","mfidl/IMFNetSchemeHandlerConfig"]
 old-location: mf\imfnetschemehandlerconfig.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35
 ms.date: 12/05/2018
 ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], IMFNetSchemeHandlerConfig interface [Media Foundation],described, mf.imfnetschemehandlerconfig, mfidl/IMFNetSchemeHandlerConfig

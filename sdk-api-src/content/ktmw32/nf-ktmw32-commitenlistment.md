@@ -4,7 +4,7 @@ title: CommitEnlistment function (ktmw32.h)
 description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 helpviewer_keywords: ["CommitEnlistment","CommitEnlistment function [Files]","fs.commitenlistment","ktmw32/CommitEnlistment"]
 old-location: fs\commitenlistment.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
 ms.date: 12/05/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment

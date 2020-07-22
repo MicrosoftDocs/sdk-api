@@ -4,7 +4,7 @@ title: WSDXML_NAME (wsdxmldom.h)
 description: Specifies an XML qualified name.
 helpviewer_keywords: ["WSDXML_NAME","WSDXML_NAME structure","_WSDXML_NAME","ncd.wsdxml_name_struct","wsdxmldom/WSDXML_NAME"]
 old-location: ncd\wsdxml_name_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9dce71d2-700c-4f86-9308-dee6a69010bb
 ms.date: 12/05/2018
 ms.keywords: WSDXML_NAME, WSDXML_NAME structure, _WSDXML_NAME, ncd.wsdxml_name_struct, wsdxmldom/WSDXML_NAME

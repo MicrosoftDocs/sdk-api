@@ -4,7 +4,7 @@ title: MsiApplyMultiplePatchesW function (msi.h)
 description: Applies one or more patches to products eligible to receive the patches.
 helpviewer_keywords: ["MsiApplyMultiplePatches","MsiApplyMultiplePatches function","MsiApplyMultiplePatchesA","MsiApplyMultiplePatchesW","msi/MsiApplyMultiplePatches","msi/MsiApplyMultiplePatchesA","msi/MsiApplyMultiplePatchesW","setup.msiapplymultiplepatches"]
 old-location: setup\msiapplymultiplepatches.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
 ms.date: 12/05/2018
 ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApplyMultiplePatchesA, MsiApplyMultiplePatchesW, msi/MsiApplyMultiplePatches, msi/MsiApplyMultiplePatchesA, msi/MsiApplyMultiplePatchesW, setup.msiapplymultiplepatches

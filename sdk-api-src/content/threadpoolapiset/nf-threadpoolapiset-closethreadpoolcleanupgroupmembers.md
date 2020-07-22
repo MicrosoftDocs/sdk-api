@@ -4,7 +4,7 @@ title: CloseThreadpoolCleanupGroupMembers function (threadpoolapiset.h)
 description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
 helpviewer_keywords: ["CloseThreadpoolCleanupGroupMembers","CloseThreadpoolCleanupGroupMembers function","base.closethreadpoolcleanupgroupmembers","threadpoolapiset/CloseThreadpoolCleanupGroupMembers","winbase/CloseThreadpoolCleanupGroupMembers"]
 old-location: base\closethreadpoolcleanupgroupmembers.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers

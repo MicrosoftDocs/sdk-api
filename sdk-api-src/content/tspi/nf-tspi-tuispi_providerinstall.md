@@ -4,7 +4,7 @@ title: TUISPI_providerInstall function (tspi.h)
 description: Implementation of the TUISPI_providerInstall function is the service provider's opportunity to install any additional &quot;pieces&quot; of the provider into the right directories and set up registry entries the provider needs.
 helpviewer_keywords: ["TUISPI_providerInstall","TUISPI_providerInstall function [TAPI 2.2]","_tspi_tuispi_providerinstall","tspi.tuispi_providerinstall","tspi/TUISPI_providerInstall"]
 old-location: tspi\tuispi_providerinstall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 4b133336-7cd1-4af4-bc8d-4defce97559d
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2], _tspi_tuispi_providerinstall, tspi.tuispi_providerinstall, tspi/TUISPI_providerInstall

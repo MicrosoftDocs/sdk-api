@@ -4,7 +4,7 @@ title: WlxDisplaySASNotice function (winwlx.h)
 description: Winlogon calls this function when no user is logged on.
 helpviewer_keywords: ["WlxDisplaySASNotice","WlxDisplaySASNotice function [Security]","_gina_wlxdisplaysasnotice","security.wlxdisplaysasnotice","winwlx/WlxDisplaySASNotice"]
 old-location: security\wlxdisplaysasnotice.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2b56c037-aae6-4cb7-932f-15cf18c4444a
 ms.date: 12/05/2018
 ms.keywords: WlxDisplaySASNotice, WlxDisplaySASNotice function [Security], _gina_wlxdisplaysasnotice, security.wlxdisplaysasnotice, winwlx/WlxDisplaySASNotice

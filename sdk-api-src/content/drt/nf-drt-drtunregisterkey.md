@@ -4,7 +4,7 @@ title: DrtUnregisterKey function (drt.h)
 description: The DrtUnregisterKey function deregisters a key from the DRT.
 helpviewer_keywords: ["DrtUnregisterKey","DrtUnregisterKey function [Peer Networking]","drt/DrtUnregisterKey","p2p.drtunregisterkey"]
 old-location: p2p\drtunregisterkey.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2
 ms.date: 12/05/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey

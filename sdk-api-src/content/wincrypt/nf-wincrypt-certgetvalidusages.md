@@ -4,7 +4,7 @@ title: CertGetValidUsages function (wincrypt.h)
 description: Returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 helpviewer_keywords: ["CertGetValidUsages","CertGetValidUsages function [Security]","_crypto2_certgetvalidusages","security.certgetvalidusages","wincrypt/CertGetValidUsages"]
 old-location: security\certgetvalidusages.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
 ms.date: 12/05/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages

@@ -4,7 +4,7 @@ title: IMTSCall (comsvcs.h)
 description: Implements the batch work that is submitted through the activity created by the MTSCreateActivity function.
 helpviewer_keywords: ["IMTSCall","IMTSCall interface [COM+]","IMTSCall interface [COM+]","described","_cos_IMTSCall","comsvcs/IMTSCall","cos.imtscall"]
 old-location: cos\imtscall.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: dccf53c3-19d9-435b-91b7-98e41bd48e29
 ms.date: 12/05/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall

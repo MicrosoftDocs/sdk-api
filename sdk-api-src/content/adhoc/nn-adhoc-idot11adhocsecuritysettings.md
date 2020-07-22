@@ -4,7 +4,7 @@ title: IDot11AdHocSecuritySettings (adhoc.h)
 description: Specifies the security settings for a wireless ad hoc network.
 helpviewer_keywords: ["IDot11AdHocSecuritySettings","IDot11AdHocSecuritySettings interface [NativeWIFI]","IDot11AdHocSecuritySettings interface [NativeWIFI]","described","adhoc/IDot11AdHocSecuritySettings","nwifi.idot11adhocsecuritysettings"]
 old-location: nwifi\idot11adhocsecuritysettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 55b78a98-ad25-4646-b325-73d770d602b3
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], IDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IDot11AdHocSecuritySettings, nwifi.idot11adhocsecuritysettings

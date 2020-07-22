@@ -4,7 +4,7 @@ title: IAzScope::DeletePropertyItem (azroles.h)
 description: Removes the specified principal from the specified list of principals.
 helpviewer_keywords: ["AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AzScope object [Security]","DeletePropertyItem method","DeletePropertyItem","DeletePropertyItem method [Security]","DeletePropertyItem method [Security]","AzScope object","DeletePropertyItem method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePropertyItem method","IAzScope.DeletePropertyItem","IAzScope::DeletePropertyItem","azroles/IAzScope::DeletePropertyItem","security.iazscope_deletepropertyitem"]
 old-location: security\iazscope_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 16500d05-c5bf-4d09-8649-ebf58407120d
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzScope object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzScope object, DeletePropertyItem method [Security],IAzScope interface, IAzScope interface [Security],DeletePropertyItem method, IAzScope.DeletePropertyItem, IAzScope::DeletePropertyItem, azroles/IAzScope::DeletePropertyItem, security.iazscope_deletepropertyitem

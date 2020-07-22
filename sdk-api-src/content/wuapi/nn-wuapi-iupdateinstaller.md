@@ -4,7 +4,7 @@ title: IUpdateInstaller (wuapi.h)
 description: Installs or uninstalls updates from or onto a computer.
 helpviewer_keywords: ["IUpdateInstaller","IUpdateInstaller interface [Windows Update Agent]","IUpdateInstaller interface [Windows Update Agent]","described","IUpdateInstaller interface [Windows Update Services]","IUpdateInstaller interface [Windows Update Services]","described","wua.iupdateinstaller","wuapi/IUpdateInstaller"]
 old-location: wua\iupdateinstaller.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7f1c272f-73ef-43ee-b1ac-ef97a4791313
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], IUpdateInstaller interface [Windows Update Agent],described, IUpdateInstaller interface [Windows Update Services], IUpdateInstaller interface [Windows Update Services],described, wua.iupdateinstaller, wuapi/IUpdateInstaller

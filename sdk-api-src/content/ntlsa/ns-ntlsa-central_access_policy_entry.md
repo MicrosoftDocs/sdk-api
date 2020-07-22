@@ -4,7 +4,7 @@ title: CENTRAL_ACCESS_POLICY_ENTRY (ntlsa.h)
 description: Represents a central access policy entry containing a list of security descriptors and staged security descriptors.
 helpviewer_keywords: ["*PCENTRAL_ACCESS_POLICY_ENTRY","CENTRAL_ACCESS_POLICY_ENTRY","CENTRAL_ACCESS_POLICY_ENTRY structure [Security]","PCENTRAL_ACCESS_POLICY_ENTRY","PCENTRAL_ACCESS_POLICY_ENTRY structure pointer [Security]","_CENTRAL_ACCESS_POLICY_ENTRY","ntlsa/CENTRAL_ACCESS_POLICY_ENTRY","ntlsa/PCENTRAL_ACCESS_POLICY_ENTRY","security.central_access_policy_entry"]
 old-location: security\central_access_policy_entry.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 8667848D-096C-422E-B4A6-38CC406F0F4A
 ms.date: 12/05/2018
 ms.keywords: '*PCENTRAL_ACCESS_POLICY_ENTRY, CENTRAL_ACCESS_POLICY_ENTRY, CENTRAL_ACCESS_POLICY_ENTRY structure [Security], PCENTRAL_ACCESS_POLICY_ENTRY, PCENTRAL_ACCESS_POLICY_ENTRY structure pointer [Security], _CENTRAL_ACCESS_POLICY_ENTRY, ntlsa/CENTRAL_ACCESS_POLICY_ENTRY, ntlsa/PCENTRAL_ACCESS_POLICY_ENTRY, security.central_access_policy_entry'

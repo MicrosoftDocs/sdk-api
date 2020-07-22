@@ -4,7 +4,7 @@ title: SetupCloseInfFile function (setupapi.h)
 description: The SetupCloseInfFile function closes the INF file opened by a call to SetupOpenInfFile. This function closes any INF files appended to it by calling SetupOpenAppendInfFile.
 helpviewer_keywords: ["SetupCloseInfFile","SetupCloseInfFile function [Setup API]","_setupapi_setupcloseinffile","setup.setupcloseinffile","setupapi/SetupCloseInfFile"]
 old-location: setup\setupcloseinffile.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 78b6a69d-e588-45f1-bf5c-a6feaf8b3364
 ms.date: 12/05/2018
 ms.keywords: SetupCloseInfFile, SetupCloseInfFile function [Setup API], _setupapi_setupcloseinffile, setup.setupcloseinffile, setupapi/SetupCloseInfFile

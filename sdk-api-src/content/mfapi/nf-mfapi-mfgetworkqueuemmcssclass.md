@@ -4,7 +4,7 @@ title: MFGetWorkQueueMMCSSClass function (mfapi.h)
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 helpviewer_keywords: ["97b48d18-3844-4b97-9bab-c5fc38eb927e","MFGetWorkQueueMMCSSClass","MFGetWorkQueueMMCSSClass function [Media Foundation]","mf.mfgetworkqueuemmcssclass","mfapi/MFGetWorkQueueMMCSSClass"]
 old-location: mf\mfgetworkqueuemmcssclass.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 97b48d18-3844-4b97-9bab-c5fc38eb927e
 ms.date: 12/05/2018
 ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFGetWorkQueueMMCSSClass function [Media Foundation], mf.mfgetworkqueuemmcssclass, mfapi/MFGetWorkQueueMMCSSClass

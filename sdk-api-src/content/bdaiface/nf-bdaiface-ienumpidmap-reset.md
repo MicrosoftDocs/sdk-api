@@ -4,7 +4,7 @@ title: IEnumPIDMap::Reset (bdaiface.h)
 description: The Reset method moves the iterator to the beginning of the collection.
 helpviewer_keywords: ["IEnumPIDMap interface [DirectShow]","Reset method","IEnumPIDMap.Reset","IEnumPIDMap::Reset","IEnumPIDMapReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumPIDMap interface","bdaiface/IEnumPIDMap::Reset","dshow.ienumpidmap_reset"]
 old-location: dshow\ienumpidmap_reset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4f5cc44e-10c0-441f-b34c-80f94c5f6bca
 ms.date: 12/05/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Reset method, IEnumPIDMap.Reset, IEnumPIDMap::Reset, IEnumPIDMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Reset, dshow.ienumpidmap_reset

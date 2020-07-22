@@ -4,7 +4,7 @@ title: IDvdInfo (strmif.h)
 description: Note  This interface has been deprecated.
 helpviewer_keywords: ["IDvdInfo","IDvdInfo interface [DirectShow]","IDvdInfo interface [DirectShow]","described","IDvdInfoInterface","dshow.idvdinfo","strmif/IDvdInfo"]
 old-location: dshow\idvdinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6b0c5dfe-aa1b-4ad0-9272-f1351e494b11
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo, IDvdInfo interface [DirectShow], IDvdInfo interface [DirectShow],described, IDvdInfoInterface, dshow.idvdinfo, strmif/IDvdInfo

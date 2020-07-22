@@ -4,7 +4,7 @@ title: ICameraControl::getRange_RollRelative (vidcap.h)
 description: The getRange_RollRelative method returns the range of relative roll angles supported by the camera. The relative roll is expressed as a number of steps, where the size of each step depends on the camera model.
 helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_RollRelative method","ICameraControl.getRange_RollRelative","ICameraControl::getRange_RollRelative","ICameraControlgetRange_RollRelative","dshow.icameracontrol_getrange_rollrelative","getRange_RollRelative","getRange_RollRelative method [DirectShow]","getRange_RollRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_RollRelative"]
 old-location: dshow\icameracontrol_getrange_rollrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c0208111-8648-4511-99f6-20489a026c91
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_RollRelative method, ICameraControl.getRange_RollRelative, ICameraControl::getRange_RollRelative, ICameraControlgetRange_RollRelative, dshow.icameracontrol_getrange_rollrelative, getRange_RollRelative, getRange_RollRelative method [DirectShow], getRange_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_RollRelative

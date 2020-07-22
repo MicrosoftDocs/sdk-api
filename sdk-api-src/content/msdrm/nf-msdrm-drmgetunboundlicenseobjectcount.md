@@ -4,7 +4,7 @@ title: DRMGetUnboundLicenseObjectCount function (msdrm.h)
 description: Counts the instances of an object within a specified branch of the license.
 helpviewer_keywords: ["DRMGetUnboundLicenseObjectCount","DRMGetUnboundLicenseObjectCount function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUnboundLicenseObjectCount","rm.drmgetunboundlicenseobjectcount"]
 old-location: rm\drmgetunboundlicenseobjectcount.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: a1c2ae7e-a0be-482d-a366-70988cbc4616
 ms.date: 12/05/2018
 ms.keywords: DRMGetUnboundLicenseObjectCount, DRMGetUnboundLicenseObjectCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseObjectCount, rm.drmgetunboundlicenseobjectcount

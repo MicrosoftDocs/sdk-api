@@ -4,7 +4,7 @@ title: IMSCEPSetup::SetAccountInformation (casetup.h)
 description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
 helpviewer_keywords: ["IMSCEPSetup interface [Security]","SetAccountInformation method","IMSCEPSetup.SetAccountInformation","IMSCEPSetup::SetAccountInformation","SetAccountInformation","SetAccountInformation method [Security]","SetAccountInformation method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::SetAccountInformation","security.imscepsetup_setaccountinformation"]
 old-location: security\imscepsetup_setaccountinformation.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],SetAccountInformation method, IMSCEPSetup.SetAccountInformation, IMSCEPSetup::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation

@@ -4,7 +4,7 @@ title: IMFMediaEngineExtension::CanPlayType (mfmediaengine.h)
 description: Queries whether the object can load a specified type of media resource.
 helpviewer_keywords: ["CanPlayType","CanPlayType method [Media Foundation]","CanPlayType method [Media Foundation]","IMFMediaEngineExtension interface","IMFMediaEngineExtension interface [Media Foundation]","CanPlayType method","IMFMediaEngineExtension.CanPlayType","IMFMediaEngineExtension::CanPlayType","mf.imfmediaengineextension_canplaytype","mfmediaengine/IMFMediaEngineExtension::CanPlayType"]
 old-location: mf\imfmediaengineextension_canplaytype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F715B4CB-363E-4EF2-962C-C0AFB26B088E
 ms.date: 12/05/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],CanPlayType method, IMFMediaEngineExtension.CanPlayType, IMFMediaEngineExtension::CanPlayType, mf.imfmediaengineextension_canplaytype, mfmediaengine/IMFMediaEngineExtension::CanPlayType

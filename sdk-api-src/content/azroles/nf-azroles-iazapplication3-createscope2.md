@@ -4,7 +4,7 @@ title: IAzApplication3::CreateScope2 (azroles.h)
 description: Creates a new IAzScope2 object with the specified name.
 helpviewer_keywords: ["CreateScope2","CreateScope2 method [Security]","CreateScope2 method [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","CreateScope2 method","IAzApplication3.CreateScope2","IAzApplication3::CreateScope2","azroles/IAzApplication3::CreateScope2","security.iazapplication3_createscope2"]
 old-location: security\iazapplication3_createscope2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f1e8bfe6-e074-4e9e-80f8-bcb8bd90f824
 ms.date: 12/05/2018
 ms.keywords: CreateScope2, CreateScope2 method [Security], CreateScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateScope2 method, IAzApplication3.CreateScope2, IAzApplication3::CreateScope2, azroles/IAzApplication3::CreateScope2, security.iazapplication3_createscope2

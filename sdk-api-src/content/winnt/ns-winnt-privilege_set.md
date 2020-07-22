@@ -4,7 +4,7 @@ title: PRIVILEGE_SET (winnt.h)
 description: Specifies a set of privileges.
 helpviewer_keywords: ["*PPRIVILEGE_SET","PPRIVILEGE_SET","PPRIVILEGE_SET structure pointer [Security]","PRIVILEGE_SET","PRIVILEGE_SET structure [Security]","SE_PRIVILEGE_ENABLED","SE_PRIVILEGE_ENABLED_BY_DEFAULT","SE_PRIVILEGE_USED_FOR_ACCESS","_PRIVILEGE_SET","_win32_privilege_set_str","security.privilege_set","winnt/PPRIVILEGE_SET","winnt/PRIVILEGE_SET"]
 old-location: security\privilege_set.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2ee5615c-f684-4062-a6cb-e43e9de3a2fb
 ms.date: 12/05/2018
 ms.keywords: '*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Security], PRIVILEGE_SET, PRIVILEGE_SET structure [Security], SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_USED_FOR_ACCESS, _PRIVILEGE_SET, _win32_privilege_set_str, security.privilege_set, winnt/PPRIVILEGE_SET, winnt/PRIVILEGE_SET'

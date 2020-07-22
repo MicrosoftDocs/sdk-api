@@ -4,7 +4,7 @@ title: SetDotStuffingOnWrites function (filehc.h)
 description: Enables dot-stuffing properties on the write path of the file handle cache of the message.
 helpviewer_keywords: ["SetDotStuffingOnWrites","SetDotStuffingOnWrites function [Windows API]","filehc/SetDotStuffingOnWrites","winprog._setdotstuffingonwrites"]
 old-location: winprog\_setdotstuffingonwrites.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 6191e097-3e8a-4149-85bb-88d804caa3ae
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffingOnWrites, SetDotStuffingOnWrites function [Windows API], filehc/SetDotStuffingOnWrites, winprog._setdotstuffingonwrites

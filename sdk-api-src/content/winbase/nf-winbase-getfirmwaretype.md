@@ -4,7 +4,7 @@ title: GetFirmwareType function (winbase.h)
 description: Retrieves the firmware type of the local computer.
 helpviewer_keywords: ["GetFirmwareType","GetFirmwareType function","base.getfirmwaretype","winbase/GetFirmwareType"]
 old-location: base\getfirmwaretype.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: db1f6889-067a-4a5d-bbfa-5836287d08ca
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, winbase/GetFirmwareType

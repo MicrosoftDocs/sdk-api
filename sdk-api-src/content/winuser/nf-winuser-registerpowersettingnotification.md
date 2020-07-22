@@ -4,7 +4,7 @@ title: RegisterPowerSettingNotification function (winuser.h)
 description: Registers the application to receive power setting notifications for the specific power setting event.
 helpviewer_keywords: ["DEVICE_NOTIFY_SERVICE_HANDLE","DEVICE_NOTIFY_WINDOW_HANDLE","RegisterPowerSettingNotification","RegisterPowerSettingNotification function","base.registerpowersettingnotification","winuser/RegisterPowerSettingNotification"]
 old-location: base\registerpowersettingnotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: e072222e-da66-4b36-a38f-f4b618eaa391
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification

@@ -4,7 +4,7 @@ title: tapiRequestMakeCall function (tapi.h)
 description: The tapiRequestMakeCall function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application.
 helpviewer_keywords: ["_tapi2_tapirequestmakecall","tapi/tapiRequestMakeCall","tapi/tapiRequestMakeCallA","tapi/tapiRequestMakeCallW","tapi2.tapirequestmakecall","tapiRequestMakeCall","tapiRequestMakeCall function [TAPI 2.2]","tapiRequestMakeCallA","tapiRequestMakeCallW"]
 old-location: tapi2\tapirequestmakecall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: bdbc1565-6570-4fad-890c-fb3965cce452
 ms.date: 12/05/2018
 ms.keywords: _tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiRequestMakeCallA, tapi/tapiRequestMakeCallW, tapi2.tapirequestmakecall, tapiRequestMakeCall, tapiRequestMakeCall function [TAPI 2.2], tapiRequestMakeCallA, tapiRequestMakeCallW

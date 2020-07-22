@@ -4,7 +4,7 @@ title: MFLockDXGIDeviceManager function (mfapi.h)
 description: Locks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 helpviewer_keywords: ["MFLockDXGIDeviceManager","MFLockDXGIDeviceManager function [Media Foundation]","mf.mflockdxgidevicemanager","mfapi/MFLockDXGIDeviceManager"]
 old-location: mf\mflockdxgidevicemanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 01A789BA-C1DE-4EF8-81C4-261F59D5843B
 ms.date: 12/05/2018
 ms.keywords: MFLockDXGIDeviceManager, MFLockDXGIDeviceManager function [Media Foundation], mf.mflockdxgidevicemanager, mfapi/MFLockDXGIDeviceManager

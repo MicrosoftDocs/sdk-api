@@ -4,7 +4,7 @@ title: GetProfileIntW function (winbase.h)
 description: Retrieves an integer from a key in the specified section of the Win.ini file.
 helpviewer_keywords: ["GetProfileInt","GetProfileInt function","GetProfileIntA","GetProfileIntW","_win32_getprofileint","base.getprofileint","winbase/GetProfileInt","winbase/GetProfileIntA","winbase/GetProfileIntW"]
 old-location: base\getprofileint.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
 ms.date: 12/05/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW

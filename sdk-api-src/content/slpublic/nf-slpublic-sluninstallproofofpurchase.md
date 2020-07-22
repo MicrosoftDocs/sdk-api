@@ -4,7 +4,7 @@ title: SLUninstallProofOfPurchase function (slpublic.h)
 description: Unregisters the product key information.
 helpviewer_keywords: ["SLUninstallProofOfPurchase","SLUninstallProofOfPurchase function [Security]","security.sluninstallproofofpurchase","slpublic/SLUninstallProofOfPurchase"]
 old-location: security\sluninstallproofofpurchase.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
 ms.date: 12/05/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase

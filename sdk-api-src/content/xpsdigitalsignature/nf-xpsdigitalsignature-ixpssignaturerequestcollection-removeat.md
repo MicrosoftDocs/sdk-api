@@ -4,7 +4,7 @@ title: IXpsSignatureRequestCollection::RemoveAt (xpsdigitalsignature.h)
 description: Removes and releases an IXpsSignatureRequest interface pointer from a specified location in the collection.
 helpviewer_keywords: ["IXpsSignatureRequestCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsSignatureRequestCollection.RemoveAt","IXpsSignatureRequestCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsSignatureRequestCollection interface","xps.ixpssignaturerequestcollection_removeat","xpsdigitalsignature/IXpsSignatureRequestCollection::RemoveAt"]
 old-location: xps\ixpssignaturerequestcollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6149de80-d0ca-4b6b-a092-b1c30f313df5
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequestCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureRequestCollection.RemoveAt, IXpsSignatureRequestCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, xps.ixpssignaturerequestcollection_removeat, xpsdigitalsignature/IXpsSignatureRequestCollection::RemoveAt

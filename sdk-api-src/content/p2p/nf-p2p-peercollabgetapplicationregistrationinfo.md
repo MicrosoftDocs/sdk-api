@@ -4,7 +4,7 @@ title: PeerCollabGetApplicationRegistrationInfo function (p2p.h)
 description: Obtains application-specific registration information.
 helpviewer_keywords: ["PeerCollabGetApplicationRegistrationInfo","PeerCollabGetApplicationRegistrationInfo function [Peer Networking]","p2p.peercollabgetapplicationregistrationinfo","p2p/PeerCollabGetApplicationRegistrationInfo"]
 old-location: p2p\peercollabgetapplicationregistrationinfo.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d1a8888e-4153-4486-9384-615ae7ed7031
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetApplicationRegistrationInfo, PeerCollabGetApplicationRegistrationInfo function [Peer Networking], p2p.peercollabgetapplicationregistrationinfo, p2p/PeerCollabGetApplicationRegistrationInfo

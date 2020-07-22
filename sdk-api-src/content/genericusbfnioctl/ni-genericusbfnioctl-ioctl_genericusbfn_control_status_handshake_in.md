@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN (genericusbfnioctl.h)
 description: This I/O control code (IOCTL) is sent by a user mode service or application to request a zero-length control status handshake on endpoint 0 in the IN direction.
 helpviewer_keywords: ["IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN","IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control","IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses]","buses.ioctl_genericusbfn_control_status_handshake_in","genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN"]
 old-location: buses\ioctl_genericusbfn_control_status_handshake_in.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: A01233F3-3C5F-4184-9AAA-7391BFD2EB02
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_in, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN

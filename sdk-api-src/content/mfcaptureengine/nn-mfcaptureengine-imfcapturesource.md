@@ -4,7 +4,7 @@ title: IMFCaptureSource (mfcaptureengine.h)
 description: Controls the capture source object. The capture source manages the audio and video capture devices.
 helpviewer_keywords: ["IMFCaptureSource","IMFCaptureSource interface [Media Foundation]","IMFCaptureSource interface [Media Foundation]","described","mf.imfcapturesource","mfcaptureengine/IMFCaptureSource"]
 old-location: mf\imfcapturesource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 864B6B5D-EB7E-4C49-A326-9B6704A27635
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], IMFCaptureSource interface [Media Foundation],described, mf.imfcapturesource, mfcaptureengine/IMFCaptureSource

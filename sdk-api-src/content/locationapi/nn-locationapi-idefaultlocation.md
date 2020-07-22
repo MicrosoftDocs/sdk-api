@@ -4,7 +4,7 @@ title: IDefaultLocation (locationapi.h)
 description: IDefaultLocation provides methods used to specify or retrieve the default location.
 helpviewer_keywords: ["IDefaultLocation","IDefaultLocation interface [WinLocation]","IDefaultLocation interface [WinLocation]","described","locationapi/IDefaultLocation","winlocation.idefaultlocation"]
 old-location: winlocation\idefaultlocation.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 408062c8-2fea-4734-a243-e4ed21b7b3c3
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaultLocation interface [WinLocation],described, locationapi/IDefaultLocation, winlocation.idefaultlocation

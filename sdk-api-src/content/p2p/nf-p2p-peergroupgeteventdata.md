@@ -4,7 +4,7 @@ title: PeerGroupGetEventData function (p2p.h)
 description: The PeerGroupGetEventData function allows an application to retrieve the data returned by a grouping event.
 helpviewer_keywords: ["PeerGroupGetEventData","PeerGroupGetEventData function [Peer Networking]","p2p.peergroupgeteventdata","p2p/PeerGroupGetEventData"]
 old-location: p2p\peergroupgeteventdata.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: bc742c09-190d-412e-ae1a-f1350b3748f5
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetEventData, PeerGroupGetEventData function [Peer Networking], p2p.peergroupgeteventdata, p2p/PeerGroupGetEventData

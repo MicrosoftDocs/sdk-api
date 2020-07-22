@@ -4,7 +4,7 @@ title: BCryptOpenAlgorithmProvider function (bcrypt.h)
 description: Loads and initializes a CNG provider.
 helpviewer_keywords: ["BCRYPT_ALG_HANDLE_HMAC_FLAG","BCRYPT_HASH_REUSABLE_FLAG","BCRYPT_PROV_DISPATCH","BCryptOpenAlgorithmProvider","BCryptOpenAlgorithmProvider function [Security]","MS_PRIMITIVE_PROVIDER","MS_PLATFORM_CRYPTO_PROVIDER","bcrypt/BCryptOpenAlgorithmProvider","security.bcryptopenalgorithmprovider_func"]
 old-location: security\bcryptopenalgorithmprovider_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: aceba9c0-19e6-4f3c-972a-752feed4a9f8
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALG_HANDLE_HMAC_FLAG, BCRYPT_HASH_REUSABLE_FLAG, BCRYPT_PROV_DISPATCH, BCryptOpenAlgorithmProvider, BCryptOpenAlgorithmProvider function [Security], MS_PRIMITIVE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, bcrypt/BCryptOpenAlgorithmProvider, security.bcryptopenalgorithmprovider_func

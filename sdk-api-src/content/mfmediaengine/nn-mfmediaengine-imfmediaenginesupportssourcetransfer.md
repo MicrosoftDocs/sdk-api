@@ -4,7 +4,7 @@ title: IMFMediaEngineSupportsSourceTransfer (mfmediaengine.h)
 description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.
 helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","described","mf.imfmediaenginesupportssourcetransfer","mfmediaengine/IMFMediaEngineSupportsSourceTransfer"]
 old-location: mf\imfmediaenginesupportssourcetransfer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer

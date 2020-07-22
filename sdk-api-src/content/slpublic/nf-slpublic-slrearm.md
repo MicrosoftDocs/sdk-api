@@ -4,7 +4,7 @@ title: SLReArm function (slpublic.h)
 description: This function is rearm application activation.
 helpviewer_keywords: ["SLReArm","SLReArm function [Security]","security.slrearm","slpublic/SLReArm"]
 old-location: security\slrearm.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30
 ms.date: 12/05/2018
 ms.keywords: SLReArm, SLReArm function [Security], security.slrearm, slpublic/SLReArm

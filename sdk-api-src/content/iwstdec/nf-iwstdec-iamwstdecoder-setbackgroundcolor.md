@@ -4,7 +4,7 @@ title: IAMWstDecoder::SetBackgroundColor (iwstdec.h)
 description: Downstream filters use the SetBackgroundColor method to assign the physical color to be used in color keying the background for overlay mixing.
 helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetBackgroundColor method","IAMWstDecoder.SetBackgroundColor","IAMWstDecoder::SetBackgroundColor","IAMWstDecoderSetBackgroundColor","SetBackgroundColor","SetBackgroundColor method [DirectShow]","SetBackgroundColor method [DirectShow]","IAMWstDecoder interface","dshow.iamwstdecoder_setbackgroundcolor","iwstdec/IAMWstDecoder::SetBackgroundColor"]
 old-location: dshow\iamwstdecoder_setbackgroundcolor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d65726aa-a826-41d4-95f3-40c86d7b9347
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetBackgroundColor method, IAMWstDecoder.SetBackgroundColor, IAMWstDecoder::SetBackgroundColor, IAMWstDecoderSetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setbackgroundcolor, iwstdec/IAMWstDecoder::SetBackgroundColor

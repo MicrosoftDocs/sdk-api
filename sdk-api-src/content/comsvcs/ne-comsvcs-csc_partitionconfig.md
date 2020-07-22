@@ -4,7 +4,7 @@ title: CSC_PartitionConfig (comsvcs.h)
 description: Indicates the COM+ partition on which the enclosed context runs.
 helpviewer_keywords: ["CSC_InheritPartition","CSC_NewPartition","CSC_NoPartition","CSC_PartitionConfig","CSC_PartitionConfig enumeration [COM+]","_cos_CSC_PartitionConfig","comsvcs/CSC_InheritPartition","comsvcs/CSC_NewPartition","comsvcs/CSC_NoPartition","comsvcs/CSC_PartitionConfig","cos.csc_partitionconfig"]
 old-location: cos\csc_partitionconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 584c4744-193d-43d4-a305-8f4ea9802d58
 ms.date: 12/05/2018
 ms.keywords: CSC_InheritPartition, CSC_NewPartition, CSC_NoPartition, CSC_PartitionConfig, CSC_PartitionConfig enumeration [COM+], _cos_CSC_PartitionConfig, comsvcs/CSC_InheritPartition, comsvcs/CSC_NewPartition, comsvcs/CSC_NoPartition, comsvcs/CSC_PartitionConfig, cos.csc_partitionconfig

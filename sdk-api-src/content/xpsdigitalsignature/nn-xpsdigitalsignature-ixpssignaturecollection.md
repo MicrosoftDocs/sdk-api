@@ -4,7 +4,7 @@ title: IXpsSignatureCollection (xpsdigitalsignature.h)
 description: A collection of IXpsSignature interface pointers.
 helpviewer_keywords: ["IXpsSignatureCollection","IXpsSignatureCollection interface [XPS Documents and Packaging]","IXpsSignatureCollection interface [XPS Documents and Packaging]","described","xps.ixpssignaturecollection","xpsdigitalsignature/IXpsSignatureCollection"]
 old-location: xps\ixpssignaturecollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b8c46cc0-e071-4016-b658-1a5cd554a4c9
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], IXpsSignatureCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturecollection, xpsdigitalsignature/IXpsSignatureCollection

@@ -2,6 +2,7 @@
 UID: NF:wlanapi.WlanGetSupportedDeviceServices
 title: WlanGetSupportedDeviceServices
 description: Retrieves a list of the supported device services on a given wireless LAN interface.
+tech.root: nwifi
 helpviewer_keywords: ["WlanGetSupportedDeviceServices"]
 ms.date: 01/07/2019
 targetos: Windows

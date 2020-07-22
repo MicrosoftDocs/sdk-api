@@ -5,6 +5,7 @@ ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
 description: Defines constants that specify parameters for startup.
+tech.root: gdiplus
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: gdiplusinit.h

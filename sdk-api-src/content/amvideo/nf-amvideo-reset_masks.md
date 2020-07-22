@@ -4,7 +4,7 @@ title: RESET_MASKS macro (amvideo.h)
 description: The RESET_MASKS macro fills the color mask fields in a VIDEOINFO structure with zeroes.
 helpviewer_keywords: ["RESET_MASKS","RESET_MASKS macro [DirectShow]","amvideo/RESET_MASKS","dshow.reset_masks"]
 old-location: dshow\reset_masks.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 039a43c1-c795-4374-ada8-2ea611c6409a
 ms.date: 12/05/2018
 ms.keywords: RESET_MASKS, RESET_MASKS macro [DirectShow], amvideo/RESET_MASKS, dshow.reset_masks

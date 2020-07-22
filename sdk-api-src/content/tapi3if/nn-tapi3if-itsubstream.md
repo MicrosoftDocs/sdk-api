@@ -4,7 +4,7 @@ title: ITSubStream (tapi3if.h)
 description: An ITSubStream is a component of an ITStream, and gives an application finer control over the media streaming.
 helpviewer_keywords: ["ITSubStream","ITSubStream interface [TAPI 2.2]","ITSubStream interface [TAPI 2.2]","described","_tapi3_itsubstream","tapi3.itsubstream","tapi3if/ITSubStream"]
 old-location: tapi3\itsubstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fc495bc3-1172-4e39-b617-055b7ac95898
 ms.date: 12/05/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream

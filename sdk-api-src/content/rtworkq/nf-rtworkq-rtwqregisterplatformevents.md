@@ -4,7 +4,7 @@ title: RtwqRegisterPlatformEvents function (rtworkq.h)
 description: Enables an app to listen to the RtwqStartup and RtwqShutdown functions.
 helpviewer_keywords: ["RtwqRegisterPlatformEvents","RtwqRegisterPlatformEvents function","base.rtwqregisterplatformevents","rtworkq/RtwqRegisterPlatformEvents"]
 old-location: base\rtwqregisterplatformevents.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 7BD7E83B-29E1-4FF5-B527-71C2F80D6521
 ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformEvents, RtwqRegisterPlatformEvents function, base.rtwqregisterplatformevents, rtworkq/RtwqRegisterPlatformEvents

@@ -4,7 +4,7 @@ title: IMFMuxStreamAttributesManager::GetAttributes (mfobjects.h)
 description: Gets the IMFAttributes for the substream with the specified index.
 helpviewer_keywords: ["GetAttributes","GetAttributes method [Media Foundation]","GetAttributes method [Media Foundation]","IMFMuxStreamAttributesManager interface","IMFMuxStreamAttributesManager interface [Media Foundation]","GetAttributes method","IMFMuxStreamAttributesManager.GetAttributes","IMFMuxStreamAttributesManager::GetAttributes","mf.imfmuxstreamattributesmanager_getattributes","mfobjects/IMFMuxStreamAttributesManager::GetAttributes"]
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes

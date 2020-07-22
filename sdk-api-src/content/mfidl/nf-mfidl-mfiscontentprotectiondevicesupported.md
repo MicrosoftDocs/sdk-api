@@ -4,7 +4,7 @@ title: MFIsContentProtectionDeviceSupported function (mfidl.h)
 description: Checks whether a hardware security processor is supported for the specified media protection system.
 helpviewer_keywords: ["MFIsContentProtectionDeviceSupported","MFIsContentProtectionDeviceSupported function [Media Foundation]","mf.mfiscontentprotectiondevicesupported","mfidl/MFIsContentProtectionDeviceSupported"]
 old-location: mf\mfiscontentprotectiondevicesupported.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
 ms.date: 12/05/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported

@@ -4,7 +4,7 @@ title: CryptHashSessionKey function (wincrypt.h)
 description: Computes the cryptographic hash of a session key object.
 helpviewer_keywords: ["CRYPT_LITTLE_ENDIAN","CryptHashSessionKey","CryptHashSessionKey function [Security]","_crypto2_crypthashsessionkey","security.crypthashsessionkey","wincrypt/CryptHashSessionKey"]
 old-location: security\crypthashsessionkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey

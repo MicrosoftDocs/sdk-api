@@ -4,7 +4,7 @@ title: IRtwqAsyncCallback::Invoke (rtworkq.h)
 description: Called when an asynchronous operation is completed.
 helpviewer_keywords: ["IRtwqAsyncCallback interface","Invoke method","IRtwqAsyncCallback.Invoke","IRtwqAsyncCallback::Invoke","Invoke","Invoke method","Invoke method","IRtwqAsyncCallback interface","base.irtwqasynccallback_invoke","rtworkq/IRtwqAsyncCallback::Invoke"]
 old-location: base\irtwqasynccallback_invoke.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1798C338-4C82-42A7-AE15-ADFD356604BD
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback interface,Invoke method, IRtwqAsyncCallback.Invoke, IRtwqAsyncCallback::Invoke, Invoke, Invoke method, Invoke method,IRtwqAsyncCallback interface, base.irtwqasynccallback_invoke, rtworkq/IRtwqAsyncCallback::Invoke

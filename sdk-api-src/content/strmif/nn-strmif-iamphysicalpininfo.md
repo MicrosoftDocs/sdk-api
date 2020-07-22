@@ -4,7 +4,7 @@ title: IAMPhysicalPinInfo (strmif.h)
 description: Note  This interface has been deprecated.
 helpviewer_keywords: ["IAMPhysicalPinInfo","IAMPhysicalPinInfo interface [DirectShow]","IAMPhysicalPinInfo interface [DirectShow]","described","IAMPhysicalPinInfoInterface","dshow.iamphysicalpininfo","strmif/IAMPhysicalPinInfo"]
 old-location: dshow\iamphysicalpininfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d1d05d2c-018e-421f-bfb9-810d708f726c
 ms.date: 12/05/2018
 ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMPhysicalPinInfo interface [DirectShow],described, IAMPhysicalPinInfoInterface, dshow.iamphysicalpininfo, strmif/IAMPhysicalPinInfo

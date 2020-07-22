@@ -4,7 +4,7 @@ title: MsiProcessAdvertiseScriptW function (msi.h)
 description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
 helpviewer_keywords: ["MsiProcessAdvertiseScript","MsiProcessAdvertiseScript function","MsiProcessAdvertiseScriptA","MsiProcessAdvertiseScriptW","_msi_msiprocessadvertisescript","msi/MsiProcessAdvertiseScript","msi/MsiProcessAdvertiseScriptA","msi/MsiProcessAdvertiseScriptW","setup.msiprocessadvertisescript"]
 old-location: setup\msiprocessadvertisescript.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
 ms.date: 12/05/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript

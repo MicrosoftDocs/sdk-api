@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.GraphicsPath.AddPie(INconstRectF&,INREAL,INREAL)
 title: GraphicsPath::AddPie
 description: The GraphicsPath::AddPie method adds a pie to this path.
+tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddPie"]
 ms.assetid: 6c8aeb29-caa6-4bfc-85bd-c873f8b93837
 ms.date: 05/13/2019

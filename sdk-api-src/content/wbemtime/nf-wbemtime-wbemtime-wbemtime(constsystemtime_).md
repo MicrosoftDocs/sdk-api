@@ -4,7 +4,7 @@ title: WBEMTime::WBEMTime(const SYSTEMTIME &) (wbemtime.h)
 description: The WBEMTime overload class constructor takes a SYSTEMTIME parameter.
 helpviewer_keywords: ["??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z","??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z","WBEMTime","WBEMTime constructor [Windows Management Instrumentation]","WBEMTime constructor [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","WBEMTime constructor","WBEMTime.WBEMTime","WBEMTime.WBEMTime(const SYSTEMTIME &)","WBEMTime::WBEMTime","WBEMTime::WBEMTime(const SYSTEMTIME &)","WBEMTime::WBEMTime(const SYSTEMTIME&)","wbemtime/WBEMTime::WBEMTime","wmi.wbemtime_wbemtime_const_systemtime__"]
 old-location: wmi\wbemtime_wbemtime_const_systemtime__.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 02bc92e3-17cd-4102-bbaa-cc3216b426ff
 ms.date: 12/05/2018
 ms.keywords: ??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z, ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime(const SYSTEMTIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_systemtime__

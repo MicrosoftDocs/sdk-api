@@ -2,6 +2,7 @@
 UID: NF:windns.DnsServiceBrowse
 title: DnsServiceBrowse function
 description: Used to initiate a DNS-SD discovery for services running on the local network.
+tech.root: dns
 helpviewer_keywords: ["DnsServiceBrowse"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceBrowse

@@ -4,7 +4,7 @@ title: IVMRFilterConfig::GetNumberOfStreams (strmif.h)
 description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
 helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [DirectShow]","GetNumberOfStreams method [DirectShow]","IVMRFilterConfig interface","IVMRFilterConfig interface [DirectShow]","GetNumberOfStreams method","IVMRFilterConfig.GetNumberOfStreams","IVMRFilterConfig::GetNumberOfStreams","IVMRFilterConfigGetNumberOfStreams","dshow.ivmrfilterconfig_getnumberofstreams","strmif/IVMRFilterConfig::GetNumberOfStreams"]
 old-location: dshow\ivmrfilterconfig_getnumberofstreams.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e031c427-23bb-4243-bb38-0837a6db8c2c
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig.GetNumberOfStreams, IVMRFilterConfig::GetNumberOfStreams, IVMRFilterConfigGetNumberOfStreams, dshow.ivmrfilterconfig_getnumberofstreams, strmif/IVMRFilterConfig::GetNumberOfStreams

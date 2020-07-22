@@ -4,7 +4,7 @@ title: IMsmMerge::OpenLog (mergemod.h)
 description: The OpenLog method opens a log file that receives progress and error messages.
 helpviewer_keywords: ["IMsmMerge interface","OpenLog method","IMsmMerge.OpenLog","IMsmMerge::OpenLog","OpenLog","OpenLog method","OpenLog method","IMsmMerge interface","_msi_openlog_function","mergemod/IMsmMerge::OpenLog","setup.imsmmerge_openlog"]
 old-location: setup\imsmmerge_openlog.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: b34e7f28-2cf3-4cc7-9a39-e1da6fb8c788
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenLog method, IMsmMerge.OpenLog, IMsmMerge::OpenLog, OpenLog, OpenLog method, OpenLog method,IMsmMerge interface, _msi_openlog_function, mergemod/IMsmMerge::OpenLog, setup.imsmmerge_openlog

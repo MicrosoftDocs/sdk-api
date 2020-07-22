@@ -4,7 +4,7 @@ title: CryptCATAdminCalcHashFromFileHandle2 function (mscat.h)
 description: Calculates the hash for a file by using the specified algorithm.
 helpviewer_keywords: ["CryptCATAdminCalcHashFromFileHandle2","CryptCATAdminCalcHashFromFileHandle2 function [Security]","mscat/CryptCATAdminCalcHashFromFileHandle2","security.cryptcatadmincalchashfromfilehandle2"]
 old-location: security\cryptcatadmincalchashfromfilehandle2.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: CBFA60A8-5E5A-4FAD-8AD3-26539802CD53
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle2, CryptCATAdminCalcHashFromFileHandle2 function [Security], mscat/CryptCATAdminCalcHashFromFileHandle2, security.cryptcatadmincalchashfromfilehandle2

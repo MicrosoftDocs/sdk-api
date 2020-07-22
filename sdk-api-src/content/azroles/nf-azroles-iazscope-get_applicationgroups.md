@@ -4,7 +4,7 @@ title: IAzScope::get_ApplicationGroups (azroles.h)
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 helpviewer_keywords: ["ApplicationGroups property [Security]","ApplicationGroups property [Security]","AzScope object","ApplicationGroups property [Security]","IAzScope interface","AzScope object [Security]","ApplicationGroups property","IAzScope interface [Security]","ApplicationGroups property","IAzScope.ApplicationGroups","IAzScope.get_ApplicationGroups","IAzScope::ApplicationGroups","IAzScope::get_ApplicationGroups","azroles/IAzScope::ApplicationGroups","azroles/IAzScope::get_ApplicationGroups","get_ApplicationGroups","security.iazscope_applicationgroups"]
 old-location: security\iazscope_applicationgroups.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a8c9cffa-aebb-4bb1-834b-338082a9c8de
 ms.date: 12/05/2018
 ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzScope object, ApplicationGroups property [Security],IAzScope interface, AzScope object [Security],ApplicationGroups property, IAzScope interface [Security],ApplicationGroups property, IAzScope.ApplicationGroups, IAzScope.get_ApplicationGroups, IAzScope::ApplicationGroups, IAzScope::get_ApplicationGroups, azroles/IAzScope::ApplicationGroups, azroles/IAzScope::get_ApplicationGroups, get_ApplicationGroups, security.iazscope_applicationgroups

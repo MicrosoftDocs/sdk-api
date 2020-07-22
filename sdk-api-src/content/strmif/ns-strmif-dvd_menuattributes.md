@@ -4,7 +4,7 @@ title: DVD_MenuAttributes (strmif.h)
 description: The DVD_MenuAttributes structure contains information about a DVD menu. The IDvdInfo2::GetTitleAttributes method fills in a DVD_MenuAttributes structure for a specified stream.
 helpviewer_keywords: ["DVD_MenuAttributes","DVD_MenuAttributes structure [DirectShow]","DVD_MenuAttributesStructure","dshow.dvd_menuattributes","strmif/DVD_MenuAttributes"]
 old-location: dshow\dvd_menuattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 074593e2-f4f4-44d3-a37c-209b4e798a52
 ms.date: 12/05/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes

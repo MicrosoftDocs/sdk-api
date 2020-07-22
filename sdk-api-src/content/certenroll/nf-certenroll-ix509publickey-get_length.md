@@ -4,7 +4,7 @@ title: IX509PublicKey::get_Length (certenroll.h)
 description: Retrieves the length of the public key.
 helpviewer_keywords: ["IX509PublicKey interface [Security]","Length property","IX509PublicKey.Length","IX509PublicKey.get_Length","IX509PublicKey::Length","IX509PublicKey::get_Length","Length property [Security]","Length property [Security]","IX509PublicKey interface","certenroll/IX509PublicKey::Length","certenroll/IX509PublicKey::get_Length","get_Length","security.ix509publickey_length_property"]
 old-location: security\ix509publickey_length_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c386fb27-84c5-4570-9cdb-202baa726b96
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],Length property, IX509PublicKey.Length, IX509PublicKey.get_Length, IX509PublicKey::Length, IX509PublicKey::get_Length, Length property [Security], Length property [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Length, certenroll/IX509PublicKey::get_Length, get_Length, security.ix509publickey_length_property

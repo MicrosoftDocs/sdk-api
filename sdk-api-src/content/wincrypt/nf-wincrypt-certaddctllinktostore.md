@@ -4,7 +4,7 @@ title: CertAddCTLLinkToStore function (wincrypt.h)
 description: The CertAddCTLLinkToStore function adds a link in a store to a certificate trust list (CTL) context in a different store. Instead of creating and adding a duplicate of a CTL context, this function adds a link to the original CTL context.
 helpviewer_keywords: ["CERT_STORE_ADD_ALWAYS","CERT_STORE_ADD_NEW","CERT_STORE_ADD_NEWER","CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES","CERT_STORE_ADD_REPLACE_EXISTING","CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES","CERT_STORE_ADD_USE_EXISTING","CertAddCTLLinkToStore","CertAddCTLLinkToStore function [Security]","_crypto2_certaddctllinktostore","security.certaddctllinktostore","wincrypt/CertAddCTLLinkToStore"]
 old-location: security\certaddctllinktostore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c129aeae-69d9-440a-979d-e9e481c64538
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCTLLinkToStore, CertAddCTLLinkToStore function [Security], _crypto2_certaddctllinktostore, security.certaddctllinktostore, wincrypt/CertAddCTLLinkToStore

@@ -4,7 +4,7 @@ title: IMultiMediaStream::Seek (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The Seek method seeks all of the media streams to a new position.
 helpviewer_keywords: ["IMultiMediaStream interface [DirectShow]","Seek method","IMultiMediaStream.Seek","IMultiMediaStream::Seek","IMultiMediaStreamSeek","Seek","Seek method [DirectShow]","Seek method [DirectShow]","IMultiMediaStream interface","dshow.imultimediastream_seek","mmstream/IMultiMediaStream::Seek"]
 old-location: dshow\imultimediastream_seek.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ac65613f-3fca-4043-83ad-740ebd7687a4
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],Seek method, IMultiMediaStream.Seek, IMultiMediaStream::Seek, IMultiMediaStreamSeek, Seek, Seek method [DirectShow], Seek method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_seek, mmstream/IMultiMediaStream::Seek

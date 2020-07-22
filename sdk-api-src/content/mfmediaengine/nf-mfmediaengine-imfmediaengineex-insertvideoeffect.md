@@ -4,7 +4,7 @@ title: IMFMediaEngineEx::InsertVideoEffect (mfmediaengine.h)
 description: Inserts a video effect.
 helpviewer_keywords: ["FALSE","IMFMediaEngineEx interface [Media Foundation]","InsertVideoEffect method","IMFMediaEngineEx.InsertVideoEffect","IMFMediaEngineEx::InsertVideoEffect","InsertVideoEffect","InsertVideoEffect method [Media Foundation]","InsertVideoEffect method [Media Foundation]","IMFMediaEngineEx interface","TRUE","mf.imfmediaengineex_insertvideoeffect","mfmediaengine/IMFMediaEngineEx::InsertVideoEffect"]
 old-location: mf\imfmediaengineex_insertvideoeffect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7F59BE62-D3F1-4C5A-94FD-F864342797BF
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertVideoEffect method, IMFMediaEngineEx.InsertVideoEffect, IMFMediaEngineEx::InsertVideoEffect, InsertVideoEffect, InsertVideoEffect method [Media Foundation], InsertVideoEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertvideoeffect, mfmediaengine/IMFMediaEngineEx::InsertVideoEffect

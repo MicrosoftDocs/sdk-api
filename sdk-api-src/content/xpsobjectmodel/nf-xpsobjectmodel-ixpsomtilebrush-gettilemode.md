@@ -4,7 +4,7 @@ title: IXpsOMTileBrush::GetTileMode (xpsobjectmodel.h)
 description: Gets the XPS_TILE_MODE value that describes the tile mode of the brush.
 helpviewer_keywords: ["GetTileMode","GetTileMode method [XPS Documents and Packaging]","GetTileMode method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetTileMode method","IXpsOMTileBrush.GetTileMode","IXpsOMTileBrush::GetTileMode","xps.ixpsomtilebrush_gettilemode","xpsobjectmodel/IXpsOMTileBrush::GetTileMode"]
 old-location: xps\ixpsomtilebrush_gettilemode.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4f39a728-9f27-4137-96eb-8f10e6e002cd
 ms.date: 12/05/2018
 ms.keywords: GetTileMode, GetTileMode method [XPS Documents and Packaging], GetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTileMode method, IXpsOMTileBrush.GetTileMode, IXpsOMTileBrush::GetTileMode, xps.ixpsomtilebrush_gettilemode, xpsobjectmodel/IXpsOMTileBrush::GetTileMode

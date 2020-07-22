@@ -4,7 +4,7 @@ title: IIdentityStore::EnumerateIdentities (identitystore.h)
 description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
 helpviewer_keywords: ["EnumerateIdentities","EnumerateIdentities method [Security]","EnumerateIdentities method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","EnumerateIdentities method","IIdentityStore.EnumerateIdentities","IIdentityStore::EnumerateIdentities","identitystore/IIdentityStore::EnumerateIdentities","security.iidentitystore_enumerateidentities"]
 old-location: security\iidentitystore_enumerateidentities.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
 ms.date: 12/05/2018
 ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities

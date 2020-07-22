@@ -4,7 +4,7 @@ title: StartXpsPrintJob1 function (xpsprint.h)
 description: Creates a print job for sending XPS document content to a printer.
 helpviewer_keywords: ["StartXpsPrintJob1","StartXpsPrintJob1 function [Windows GDI]","gdi.startxpsprintjob1","xpsprint/StartXpsPrintJob1"]
 old-location: gdi\startxpsprintjob1.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1

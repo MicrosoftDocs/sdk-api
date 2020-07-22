@@ -4,7 +4,7 @@ title: NotifyBootConfigStatus function (winsvc.h)
 description: Reports the boot status to the service control manager. It is used by boot verification programs.
 helpviewer_keywords: ["NotifyBootConfigStatus","NotifyBootConfigStatus function","_win32_notifybootconfigstatus","base.notifybootconfigstatus","winsvc/NotifyBootConfigStatus"]
 old-location: base\notifybootconfigstatus.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 0b2b9cd0-f897-4681-9e99-5d0bed986112
 ms.date: 12/05/2018
 ms.keywords: NotifyBootConfigStatus, NotifyBootConfigStatus function, _win32_notifybootconfigstatus, base.notifybootconfigstatus, winsvc/NotifyBootConfigStatus

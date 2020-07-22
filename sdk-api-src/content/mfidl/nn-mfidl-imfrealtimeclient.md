@@ -4,7 +4,7 @@ title: IMFRealTimeClient (mfidl.h)
 description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
 helpviewer_keywords: ["IMFRealTimeClient","IMFRealTimeClient interface [Media Foundation]","IMFRealTimeClient interface [Media Foundation]","described","b1d1901e-dd49-421f-9212-61e32cff411e","mf.imfrealtimeclient","mfidl/IMFRealTimeClient"]
 old-location: mf\imfrealtimeclient.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b1d1901e-dd49-421f-9212-61e32cff411e
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], IMFRealTimeClient interface [Media Foundation],described, b1d1901e-dd49-421f-9212-61e32cff411e, mf.imfrealtimeclient, mfidl/IMFRealTimeClient

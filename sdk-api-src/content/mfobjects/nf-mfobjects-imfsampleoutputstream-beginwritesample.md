@@ -4,7 +4,7 @@ title: IMFSampleOutputStream::BeginWriteSample (mfobjects.h)
 description: Begins an asynchronous request to write a media sample to the stream.
 helpviewer_keywords: ["BeginWriteSample","BeginWriteSample method [Media Foundation]","BeginWriteSample method [Media Foundation]","IMFSampleOutputStream interface","IMFSampleOutputStream interface [Media Foundation]","BeginWriteSample method","IMFSampleOutputStream.BeginWriteSample","IMFSampleOutputStream::BeginWriteSample","mf.imfsampleoutputstream_beginwritesample","mfobjects/IMFSampleOutputStream::BeginWriteSample"]
 old-location: mf\imfsampleoutputstream_beginwritesample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 41056795-3E12-448E-9341-FB4DD4E7D079
 ms.date: 12/05/2018
 ms.keywords: BeginWriteSample, BeginWriteSample method [Media Foundation], BeginWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],BeginWriteSample method, IMFSampleOutputStream.BeginWriteSample, IMFSampleOutputStream::BeginWriteSample, mf.imfsampleoutputstream_beginwritesample, mfobjects/IMFSampleOutputStream::BeginWriteSample

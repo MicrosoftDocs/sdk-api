@@ -4,7 +4,7 @@ title: CryptXmlGetSignature function (cryptxml.h)
 description: Returns an XML Signature element.
 helpviewer_keywords: ["CryptXmlGetSignature","CryptXmlGetSignature function [Security]","cryptxml/CryptXmlGetSignature","security.cryptxmlgetsignature"]
 old-location: security\cryptxmlgetsignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ef6748eb-1d3b-43e0-9525-2b588c2ae13f
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature

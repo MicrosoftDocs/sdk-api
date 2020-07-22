@@ -4,7 +4,7 @@ title: WinHttpDetectAutoProxyConfigUrl function (winhttp.h)
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
 helpviewer_keywords: ["WINHTTP_AUTO_DETECT_TYPE_DHCP","WINHTTP_AUTO_DETECT_TYPE_DNS_A","WinHttpDetectAutoProxyConfigUrl","WinHttpDetectAutoProxyConfigUrl function [WinHTTP]","http.winhttpdetectautoproxyconfigurl","winhttp/WinHttpDetectAutoProxyConfigUrl"]
 old-location: http\winhttpdetectautoproxyconfigurl.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl

@@ -4,7 +4,7 @@ title: IVdsDrive2 (vds.h)
 description: Provides a method for querying the properties of a drive.
 helpviewer_keywords: ["IVdsDrive2","IVdsDrive2 interface","IVdsDrive2 interface","described","base.ivdsdrive2","vds/IVdsDrive2","vdshwprv/IVdsDrive2"]
 old-location: base\ivdsdrive2.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface,described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2

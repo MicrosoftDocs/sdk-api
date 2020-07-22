@@ -4,7 +4,7 @@ title: IAMOpenProgress::AbortOperation (strmif.h)
 description: The AbortOperation method cancels the file-open operation.
 helpviewer_keywords: ["AbortOperation","AbortOperation method [DirectShow]","AbortOperation method [DirectShow]","IAMOpenProgress interface","IAMOpenProgress interface [DirectShow]","AbortOperation method","IAMOpenProgress.AbortOperation","IAMOpenProgress::AbortOperation","IAMOpenProgressAbortOperation","dshow.iamopenprogress_abortoperation","strmif/IAMOpenProgress::AbortOperation"]
 old-location: dshow\iamopenprogress_abortoperation.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5c20b57c-c491-4465-9626-13335191b5bb
 ms.date: 12/05/2018
 ms.keywords: AbortOperation, AbortOperation method [DirectShow], AbortOperation method [DirectShow],IAMOpenProgress interface, IAMOpenProgress interface [DirectShow],AbortOperation method, IAMOpenProgress.AbortOperation, IAMOpenProgress::AbortOperation, IAMOpenProgressAbortOperation, dshow.iamopenprogress_abortoperation, strmif/IAMOpenProgress::AbortOperation

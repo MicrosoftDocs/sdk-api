@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProvider::LocateLuns (vsprov.h)
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
 helpviewer_keywords: ["IVssHardwareSnapshotProvider interface [VSS]","LocateLuns method","IVssHardwareSnapshotProvider.LocateLuns","IVssHardwareSnapshotProvider::LocateLuns","LocateLuns","LocateLuns method [VSS]","LocateLuns method [VSS]","IVssHardwareSnapshotProvider interface","base.ivsshardwaresnapshotprovider_locateluns","vsprov/IVssHardwareSnapshotProvider::LocateLuns"]
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns

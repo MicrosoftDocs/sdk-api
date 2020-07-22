@@ -2,6 +2,7 @@
 UID: NF:wlanapi.WlanDeviceServiceCommand
 title: WlanDeviceServiceCommand
 description: Allows an OEM or IHV component to communicate with a device service on a particular wireless LAN interface.
+tech.root: nwifi
 helpviewer_keywords: ["WlanDeviceServiceCommand"]
 ms.date: 01/07/2019
 targetos: Windows

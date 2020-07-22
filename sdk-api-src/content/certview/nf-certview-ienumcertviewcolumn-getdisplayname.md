@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::GetDisplayName (certview.h)
 description: Retrieves the localized name of the current column in the column-enumeration sequence.
 helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Security]","GetDisplayName method [Security]","IEnumCERTVIEWCOLUMN interface","IEnumCERTVIEWCOLUMN interface [Security]","GetDisplayName method","IEnumCERTVIEWCOLUMN.GetDisplayName","IEnumCERTVIEWCOLUMN::GetDisplayName","_certsrv_ienumcertviewcolumn_getdisplayname","certview/IEnumCERTVIEWCOLUMN::GetDisplayName","security.ienumcertviewcolumn_getdisplayname"]
 old-location: security\ienumcertviewcolumn_getdisplayname.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Security], GetDisplayName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetDisplayName method, IEnumCERTVIEWCOLUMN.GetDisplayName, IEnumCERTVIEWCOLUMN::GetDisplayName, _certsrv_ienumcertviewcolumn_getdisplayname, certview/IEnumCERTVIEWCOLUMN::GetDisplayName, security.ienumcertviewcolumn_getdisplayname

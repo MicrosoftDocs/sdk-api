@@ -4,7 +4,7 @@ title: MFAllocateWorkQueue function (mfapi.h)
 description: Creates a new work queue.
 helpviewer_keywords: ["8def4375-919c-4619-9484-9ce2708a3886","MFAllocateWorkQueue","MFAllocateWorkQueue function [Media Foundation]","mf.mfallocateworkqueue","mfapi/MFAllocateWorkQueue"]
 old-location: mf\mfallocateworkqueue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8def4375-919c-4619-9484-9ce2708a3886
 ms.date: 12/05/2018
 ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAllocateWorkQueue function [Media Foundation], mf.mfallocateworkqueue, mfapi/MFAllocateWorkQueue

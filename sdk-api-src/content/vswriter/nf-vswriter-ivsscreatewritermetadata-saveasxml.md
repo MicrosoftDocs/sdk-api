@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::SaveAsXML (vswriter.h)
 description: The SaveAsXML method saves the Writer Metadata Document that contains a writer's state information to a specified string.
 helpviewer_keywords: ["IVssCreateWriterMetadata interface [VSS]","SaveAsXML method","IVssCreateWriterMetadata.SaveAsXML","IVssCreateWriterMetadata::SaveAsXML","SaveAsXML","SaveAsXML method [VSS]","SaveAsXML method [VSS]","IVssCreateWriterMetadata interface","_win32_ivsscreatewritermetadata_saveasxml","base.ivsscreatewritermetadata_saveasxml","vswriter/IVssCreateWriterMetadata::SaveAsXML"]
 old-location: base\ivsscreatewritermetadata_saveasxml.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 0894912b-85e3-4a5b-bf1b-6bbfe8c9e820
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SaveAsXML method, IVssCreateWriterMetadata.SaveAsXML, IVssCreateWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_saveasxml, base.ivsscreatewritermetadata_saveasxml, vswriter/IVssCreateWriterMetadata::SaveAsXML

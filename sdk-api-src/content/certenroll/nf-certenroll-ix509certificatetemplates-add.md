@@ -4,7 +4,7 @@ title: IX509CertificateTemplates::Add (certenroll.h)
 description: Adds an IX509CertificateTemplate object to the collection.
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","IX509CertificateTemplates interface","IX509CertificateTemplates interface [Security]","Add method","IX509CertificateTemplates.Add","IX509CertificateTemplates::Add","certenroll/IX509CertificateTemplates::Add","security.ix509certificatetemplates_add"]
 old-location: security\ix509certificatetemplates_add.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c52186bc-af51-4369-8ff5-6122d2e80450
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Add method, IX509CertificateTemplates.Add, IX509CertificateTemplates::Add, certenroll/IX509CertificateTemplates::Add, security.ix509certificatetemplates_add

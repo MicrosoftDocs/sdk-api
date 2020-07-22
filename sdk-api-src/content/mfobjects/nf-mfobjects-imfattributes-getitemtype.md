@@ -4,7 +4,7 @@ title: IMFAttributes::GetItemType (mfobjects.h)
 description: Retrieves the data type of the value associated with a key.
 helpviewer_keywords: ["2c3a3c30-da10-4365-9f76-598a4ca7675c","GetItemType","GetItemType method [Media Foundation]","GetItemType method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetItemType method","IMFAttributes.GetItemType","IMFAttributes::GetItemType","mf.imfattributes_getitemtype","mfobjects/IMFAttributes::GetItemType"]
 old-location: mf\imfattributes_getitemtype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2c3a3c30-da10-4365-9f76-598a4ca7675c
 ms.date: 12/05/2018
 ms.keywords: 2c3a3c30-da10-4365-9f76-598a4ca7675c, GetItemType, GetItemType method [Media Foundation], GetItemType method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItemType method, IMFAttributes.GetItemType, IMFAttributes::GetItemType, mf.imfattributes_getitemtype, mfobjects/IMFAttributes::GetItemType

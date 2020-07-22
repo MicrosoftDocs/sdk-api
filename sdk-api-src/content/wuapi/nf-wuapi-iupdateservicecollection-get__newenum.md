@@ -4,7 +4,7 @@ title: IUpdateServiceCollection::get__NewEnum (wuapi.h)
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 helpviewer_keywords: ["IUpdateServiceCollection interface [Windows Update Agent]","_NewEnum property","IUpdateServiceCollection._NewEnum","IUpdateServiceCollection.get__NewEnum","IUpdateServiceCollection::_NewEnum","IUpdateServiceCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IUpdateServiceCollection interface","get__NewEnum","wua.iupdateservicecollection__newenum","wuapi/IUpdateServiceCollection::_NewEnum","wuapi/IUpdateServiceCollection::get__NewEnum"]
 old-location: wua\iupdateservicecollection__newenum.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 13829d36-f0e2-4871-aad5-159b22cb5ccf
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],_NewEnum property, IUpdateServiceCollection._NewEnum, IUpdateServiceCollection.get__NewEnum, IUpdateServiceCollection::_NewEnum, IUpdateServiceCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateServiceCollection interface, get__NewEnum, wua.iupdateservicecollection__newenum, wuapi/IUpdateServiceCollection::_NewEnum, wuapi/IUpdateServiceCollection::get__NewEnum

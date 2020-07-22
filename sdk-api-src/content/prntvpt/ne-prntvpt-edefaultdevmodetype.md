@@ -4,7 +4,7 @@ title: EDefaultDevmodeType (prntvpt.h)
 description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.
 helpviewer_keywords: ["EDefaultDevmodeType","EDefaultDevmodeType enumeration [Windows GDI]","_win32_EDefaultDevmodeType","gdi.edefaultdevmodetype","kPrinterDefaultDevmode","kUserDefaultDevmode","prntvpt/EDefaultDevmodeType","prntvpt/kPrinterDefaultDevmode","prntvpt/kUserDefaultDevmode"]
 old-location: gdi\edefaultdevmodetype.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
 ms.date: 12/05/2018
 ms.keywords: EDefaultDevmodeType, EDefaultDevmodeType enumeration [Windows GDI], _win32_EDefaultDevmodeType, gdi.edefaultdevmodetype, kPrinterDefaultDevmode, kUserDefaultDevmode, prntvpt/EDefaultDevmodeType, prntvpt/kPrinterDefaultDevmode, prntvpt/kUserDefaultDevmode

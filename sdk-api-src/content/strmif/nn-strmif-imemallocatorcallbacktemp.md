@@ -4,7 +4,7 @@ title: IMemAllocatorCallbackTemp (strmif.h)
 description: The IMemAllocatorCallbackTemp interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.The use of this interface is deprecated.
 helpviewer_keywords: ["IMemAllocatorCallbackTemp","IMemAllocatorCallbackTemp interface [DirectShow]","IMemAllocatorCallbackTemp interface [DirectShow]","described","IMemAllocatorCallbackTempInterface","dshow.imemallocatorcallbacktemp","strmif/IMemAllocatorCallbackTemp"]
 old-location: dshow\imemallocatorcallbacktemp.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6213faaa-86ff-46e7-80da-a043cae40805
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], IMemAllocatorCallbackTemp interface [DirectShow],described, IMemAllocatorCallbackTempInterface, dshow.imemallocatorcallbacktemp, strmif/IMemAllocatorCallbackTemp

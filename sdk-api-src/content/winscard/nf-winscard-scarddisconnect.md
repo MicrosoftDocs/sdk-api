@@ -4,7 +4,7 @@ title: SCardDisconnect function (winscard.h)
 description: Terminates a connection previously opened between the calling application and a smart card in the target reader.
 helpviewer_keywords: ["SCARD_EJECT_CARD","SCARD_LEAVE_CARD","SCARD_RESET_CARD","SCARD_UNPOWER_CARD","SCardDisconnect","SCardDisconnect function [Security]","_smart_scarddisconnect","security.scarddisconnect","winscard/SCardDisconnect"]
 old-location: security\scarddisconnect.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
 ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect

@@ -4,7 +4,7 @@ title: VirtualAlloc2 function (memoryapi.h)
 description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
 helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MEM_RESERVE_PLACEHOLDER","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","VirtualAlloc2","VirtualAlloc2 function","base.virtualalloc2","memoryapi/VirtualAlloc2"]
 old-location: base\virtualalloc2.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 5021062F-E414-49A1-8B70-BE2A57A90E54
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAlloc2, VirtualAlloc2 function, base.virtualalloc2, memoryapi/VirtualAlloc2

@@ -4,7 +4,7 @@ title: CfUpdateSyncProviderStatus function (cfapi.h)
 description: Updates the current status of the sync provider.
 helpviewer_keywords: ["CfUpdateSyncProviderStatus","CfUpdateSyncProviderStatus function","cfapi/CfUpdateSyncProviderStatus","cloudApi.cfupdatesyncproviderstatus"]
 old-location: cloudapi\cfupdatesyncproviderstatus.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: E0CB6CA2-439A-4919-95EF-B519ABBBB085
 ms.date: 12/05/2018
 ms.keywords: CfUpdateSyncProviderStatus, CfUpdateSyncProviderStatus function, cfapi/CfUpdateSyncProviderStatus, cloudApi.cfupdatesyncproviderstatus

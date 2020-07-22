@@ -4,7 +4,7 @@ title: CryptXmlGetReference function (cryptxml.h)
 description: Returns the Reference element specified by the supplied handle.
 helpviewer_keywords: ["CryptXmlGetReference","CryptXmlGetReference function [Security]","cryptxml/CryptXmlGetReference","security.cryptxmlgetreference"]
 old-location: security\cryptxmlgetreference.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference

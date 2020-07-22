@@ -4,7 +4,7 @@ title: ICryptAttributes::Add (certenroll.h)
 description: Adds an ICryptAttribute object to the collection.
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICryptAttributes interface","ICryptAttributes interface [Security]","Add method","ICryptAttributes.Add","ICryptAttributes::Add","certenroll/ICryptAttributes::Add","security.icryptattributes_add_method"]
 old-location: security\icryptattributes_add_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a9288c74-3d7f-4293-b666-45c90a859166
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Add method, ICryptAttributes.Add, ICryptAttributes::Add, certenroll/ICryptAttributes::Add, security.icryptattributes_add_method

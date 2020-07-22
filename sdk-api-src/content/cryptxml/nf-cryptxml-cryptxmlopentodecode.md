@@ -4,7 +4,7 @@ title: CryptXmlOpenToDecode function (cryptxml.h)
 description: Opens an XML digital signature to decode and returns the handle of the document context that encapsulates a CRYPT_XML_SIGNATURE structure. The document context can include one or more Signature elements.
 helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CRYPT_XML_FLAG_NO_SERIALIZE","CryptXmlOpenToDecode","CryptXmlOpenToDecode function [Security]","cryptxml/CryptXmlOpenToDecode","security.cryptxmlopentodecode"]
 old-location: security\cryptxmlopentodecode.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b6a77d62-b92d-4b83-949f-14a0ce3ce025
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToDecode, CryptXmlOpenToDecode function [Security], cryptxml/CryptXmlOpenToDecode, security.cryptxmlopentodecode

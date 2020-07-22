@@ -4,7 +4,7 @@ title: TpSetCallbackFinalizationCallback function (winnt.h)
 description: Indicates a function to call when the callback environment is finalized.
 helpviewer_keywords: ["TpSetCallbackFinalizationCallback","TpSetCallbackFinalizationCallback function","base.tpsetcallbackfinalizationcallback","winnt/TpSetCallbackFinalizationCallback"]
 old-location: base\tpsetcallbackfinalizationcallback.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 425898A7-5E98-490A-912A-A409D1E2DFDE
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallback function, base.tpsetcallbackfinalizationcallback, winnt/TpSetCallbackFinalizationCallback

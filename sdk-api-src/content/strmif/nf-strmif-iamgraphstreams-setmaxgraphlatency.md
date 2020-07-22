@@ -4,7 +4,7 @@ title: IAMGraphStreams::SetMaxGraphLatency (strmif.h)
 description: The SetMaxGraphLatency method sets the maximum latency for the graph. You must call the IAMGraphStreams::SyncUsingStreamOffset method before calling this method.
 helpviewer_keywords: ["IAMGraphStreams interface [DirectShow]","SetMaxGraphLatency method","IAMGraphStreams.SetMaxGraphLatency","IAMGraphStreams::SetMaxGraphLatency","IAMGraphStreamsSetMaxGraphLatency","SetMaxGraphLatency","SetMaxGraphLatency method [DirectShow]","SetMaxGraphLatency method [DirectShow]","IAMGraphStreams interface","dshow.iamgraphstreams_setmaxgraphlatency","strmif/IAMGraphStreams::SetMaxGraphLatency"]
 old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency

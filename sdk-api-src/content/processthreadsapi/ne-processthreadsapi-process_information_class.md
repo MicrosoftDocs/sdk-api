@@ -5,7 +5,7 @@ ms.date: 05/05/2020
 ms.topic: language-reference
 targetos: Windows
 description: Indicates a specific class of process information.
-tech.root: SecAuthZ
+tech.root: security
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: processthreadsapi.h

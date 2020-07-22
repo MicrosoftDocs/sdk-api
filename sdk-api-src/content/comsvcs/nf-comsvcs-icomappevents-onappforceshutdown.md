@@ -4,7 +4,7 @@ title: IComAppEvents::OnAppForceShutdown (comsvcs.h)
 description: Generated when an application server is forced to shut down.
 helpviewer_keywords: ["IComAppEvents interface [COM+]","OnAppForceShutdown method","IComAppEvents.OnAppForceShutdown","IComAppEvents::OnAppForceShutdown","OnAppForceShutdown","OnAppForceShutdown method [COM+]","OnAppForceShutdown method [COM+]","IComAppEvents interface","_dtc_icomappevents_onappforceshutdown","comsvcs/IComAppEvents::OnAppForceShutdown","cos.icomappevents_onappforceshutdown"]
 old-location: cos\icomappevents_onappforceshutdown.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: a7e845fc-be7f-484f-88b9-78206598b57d
 ms.date: 12/05/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppForceShutdown method, IComAppEvents.OnAppForceShutdown, IComAppEvents::OnAppForceShutdown, OnAppForceShutdown, OnAppForceShutdown method [COM+], OnAppForceShutdown method [COM+],IComAppEvents interface, _dtc_icomappevents_onappforceshutdown, comsvcs/IComAppEvents::OnAppForceShutdown, cos.icomappevents_onappforceshutdown

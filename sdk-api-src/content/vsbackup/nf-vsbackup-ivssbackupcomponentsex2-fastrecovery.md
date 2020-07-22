@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2::FastRecovery (vsbackup.h)
 description: This method is reserved for future use.
 helpviewer_keywords: ["FastRecovery","FastRecovery method","FastRecovery method","IVssBackupComponentsEx2 interface","IVssBackupComponentsEx2 interface","FastRecovery method","IVssBackupComponentsEx2.FastRecovery","IVssBackupComponentsEx2::FastRecovery","base.ivssbackupcomponentsex2_fastrecovery","vsbackup/IVssBackupComponentsEx2::FastRecovery"]
 old-location: base\ivssbackupcomponentsex2_fastrecovery.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: e64cb785-9688-4aba-8017-65a8494ddb33
 ms.date: 12/05/2018
 ms.keywords: FastRecovery, FastRecovery method, FastRecovery method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,FastRecovery method, IVssBackupComponentsEx2.FastRecovery, IVssBackupComponentsEx2::FastRecovery, base.ivssbackupcomponentsex2_fastrecovery, vsbackup/IVssBackupComponentsEx2::FastRecovery

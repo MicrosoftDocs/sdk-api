@@ -4,7 +4,7 @@ title: RtlCharToInteger function (winternl.h)
 description: Converts a character string to an integer.
 helpviewer_keywords: ["RtlCharToInteger","RtlCharToInteger function [Windows API]","winprog.rtlchartointeger","winternl/RtlCharToInteger","winui.rtlchartointeger"]
 old-location: winprog\rtlchartointeger.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlchartointeger.htm
 ms.date: 12/05/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger

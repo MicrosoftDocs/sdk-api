@@ -4,7 +4,7 @@ title: IMFASFSplitter::Flush (wmcontainer.h)
 description: Resets the Advanced Systems Format (ASF) splitter and releases all pending samples.
 helpviewer_keywords: ["Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","Flush method","IMFASFSplitter.Flush","IMFASFSplitter::Flush","be92c734-2bcb-4a7c-bd62-fb545c3c7762","mf.imfasfsplitter_flush","wmcontainer/IMFASFSplitter::Flush"]
 old-location: mf\imfasfsplitter_flush.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: be92c734-2bcb-4a7c-bd62-fb545c3c7762
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],Flush method, IMFASFSplitter.Flush, IMFASFSplitter::Flush, be92c734-2bcb-4a7c-bd62-fb545c3c7762, mf.imfasfsplitter_flush, wmcontainer/IMFASFSplitter::Flush

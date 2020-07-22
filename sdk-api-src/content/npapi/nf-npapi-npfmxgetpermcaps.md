@@ -4,7 +4,7 @@ title: NPFMXGetPermCaps function (npapi.h)
 description: Retrieves the capabilities of the permission editor. The return value is a bitmask that indicates which of the Security menu items in File Manager are to be enabled.
 helpviewer_keywords: ["NPFMXGetPermCaps","NPFMXGetPermCaps function [Security]","_mnp_npfmxgetpermcaps","npapi/NPFMXGetPermCaps","security.npfmxgetpermcaps"]
 old-location: security\npfmxgetpermcaps.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps

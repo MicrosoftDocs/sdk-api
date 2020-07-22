@@ -4,7 +4,7 @@ title: PHONESTATUS (tapi.h)
 description: The PHONESTATUS structure describes the current status of a phone device. The phoneGetStatus and TSPI_phoneGetStatus functions return this structure.
 helpviewer_keywords: ["*LPPHONESTATUS","LPPHONESTATUS","LPPHONESTATUS structure pointer [TAPI 2.2]","PHONESTATUS","PHONESTATUS structure [TAPI 2.2]","_tapi2_phonestatus_str","tapi/LPPHONESTATUS","tapi/PHONESTATUS","tapi2.phonestatus_str"]
 old-location: tapi2\phonestatus_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 798a6c57-d3d3-4924-a925-059de350d18e
 ms.date: 12/05/2018
 ms.keywords: '*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TAPI 2.2], PHONESTATUS, PHONESTATUS structure [TAPI 2.2], _tapi2_phonestatus_str, tapi/LPPHONESTATUS, tapi/PHONESTATUS, tapi2.phonestatus_str'

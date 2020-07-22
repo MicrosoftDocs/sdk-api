@@ -4,7 +4,7 @@ title: PeerCollabGetInvitationResponse function (p2p.h)
 description: Obtains the response from a peer previously invited to join a peer collaboration activity.
 helpviewer_keywords: ["PeerCollabGetInvitationResponse","PeerCollabGetInvitationResponse function [Peer Networking]","p2p.peercollabgetinvitationresponse","p2p/PeerCollabGetInvitationResponse"]
 old-location: p2p\peercollabgetinvitationresponse.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse

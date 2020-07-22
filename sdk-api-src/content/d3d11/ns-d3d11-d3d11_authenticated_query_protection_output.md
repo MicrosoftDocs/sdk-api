@@ -4,7 +4,7 @@ title: D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT (d3d11.h)
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_PROTECTION query.
 helpviewer_keywords: ["D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT","D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT","mf.d3d11_authenticated_query_protection_output"]
 old-location: mf\d3d11_authenticated_query_protection_output.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F70D5AFC-06A6-408D-A951-1280FBBF8E89
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, mf.d3d11_authenticated_query_protection_output

@@ -4,7 +4,7 @@ title: eAvrfResourceTypes (avrfsdk.h)
 description: Specifies the types of resources that can be enumerated using the VerifierEnumerateResource function.
 helpviewer_keywords: ["AvrfResourceHandleTrace","AvrfResourceHeapAllocation","AvrfResourceMax","avrfsdk/AvrfResourceHandleTrace","avrfsdk/AvrfResourceHeapAllocation","avrfsdk/AvrfResourceMax","avrfsdk/eAvrfResourceTypes","base.eavrfresourcetypes","eAvrfResourceTypes","eAvrfResourceTypes enumeration [Windows API]","winprog.eavrfresourcetypes"]
 old-location: winprog\eavrfresourcetypes.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 6887e584-0d0f-45ca-b926-47a55f19c9a2
 ms.date: 12/05/2018
 ms.keywords: AvrfResourceHandleTrace, AvrfResourceHeapAllocation, AvrfResourceMax, avrfsdk/AvrfResourceHandleTrace, avrfsdk/AvrfResourceHeapAllocation, avrfsdk/AvrfResourceMax, avrfsdk/eAvrfResourceTypes, base.eavrfresourcetypes, eAvrfResourceTypes, eAvrfResourceTypes enumeration [Windows API], winprog.eavrfresourcetypes

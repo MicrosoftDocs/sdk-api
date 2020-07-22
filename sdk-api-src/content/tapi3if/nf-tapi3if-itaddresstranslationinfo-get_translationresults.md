@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo::get_TranslationResults (tapi3if.h)
 description: The get_TranslationResults method gets the results of a translation operation.
 helpviewer_keywords: ["ITAddressTranslationInfo interface [TAPI 2.2]","get_TranslationResults method","ITAddressTranslationInfo.get_TranslationResults","ITAddressTranslationInfo::get_TranslationResults","_tapi3_itaddresstranslationinfo_get_translationresults","get_TranslationResults","get_TranslationResults method [TAPI 2.2]","get_TranslationResults method [TAPI 2.2]","ITAddressTranslationInfo interface","tapi3.itaddresstranslationinfo_get_translationresults","tapi3if/ITAddressTranslationInfo::get_TranslationResults"]
 old-location: tapi3\itaddresstranslationinfo_get_translationresults.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ca6ac2c9-612d-4294-ab49-7c0278519a24
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_TranslationResults method, ITAddressTranslationInfo.get_TranslationResults, ITAddressTranslationInfo::get_TranslationResults, _tapi3_itaddresstranslationinfo_get_translationresults, get_TranslationResults, get_TranslationResults method [TAPI 2.2], get_TranslationResults method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_translationresults, tapi3if/ITAddressTranslationInfo::get_TranslationResults

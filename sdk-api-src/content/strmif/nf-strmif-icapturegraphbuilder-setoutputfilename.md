@@ -4,7 +4,7 @@ title: ICaptureGraphBuilder::SetOutputFileName (strmif.h)
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.
 helpviewer_keywords: ["ICaptureGraphBuilder interface [DirectShow]","SetOutputFileName method","ICaptureGraphBuilder.SetOutputFileName","ICaptureGraphBuilder::SetOutputFileName","ICaptureGraphBuilderSetOutputFileName","SetOutputFileName","SetOutputFileName method [DirectShow]","SetOutputFileName method [DirectShow]","ICaptureGraphBuilder interface","dshow.icapturegraphbuilder_setoutputfilename","strmif/ICaptureGraphBuilder::SetOutputFileName"]
 old-location: dshow\icapturegraphbuilder_setoutputfilename.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f410465f-c560-49ab-9194-66d708274f77
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName

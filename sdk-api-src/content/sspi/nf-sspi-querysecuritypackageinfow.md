@@ -4,7 +4,7 @@ title: QuerySecurityPackageInfoW function (sspi.h)
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 helpviewer_keywords: ["QuerySecurityPackageInfo","QuerySecurityPackageInfo function [Security]","QuerySecurityPackageInfoA","QuerySecurityPackageInfoW","_ssp_querysecuritypackageinfo","security.querysecuritypackageinfo","sspi/QuerySecurityPackageInfo","sspi/QuerySecurityPackageInfoA","sspi/QuerySecurityPackageInfoW"]
 old-location: security\querysecuritypackageinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW

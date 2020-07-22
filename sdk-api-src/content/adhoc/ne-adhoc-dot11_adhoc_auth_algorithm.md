@@ -4,7 +4,7 @@ title: DOT11_ADHOC_AUTH_ALGORITHM (adhoc.h)
 description: Specifies the authentication algorithm for user or machine authentication on an ad hoc network.
 helpviewer_keywords: ["DOT11_ADHOC_AUTH_ALGORITHM","DOT11_ADHOC_AUTH_ALGORITHM enumeration [NativeWIFI]","DOT11_ADHOC_AUTH_ALGO_80211_OPEN","DOT11_ADHOC_AUTH_ALGO_INVALID","DOT11_ADHOC_AUTH_ALGO_RSNA_PSK","adhoc/DOT11_ADHOC_AUTH_ALGORITHM","adhoc/DOT11_ADHOC_AUTH_ALGO_80211_OPEN","adhoc/DOT11_ADHOC_AUTH_ALGO_INVALID","adhoc/DOT11_ADHOC_AUTH_ALGO_RSNA_PSK","nwifi.dot11_adhoc_auth_algorithm"]
 old-location: nwifi\dot11_adhoc_auth_algorithm.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 6e28fb8f-a429-4b6c-a057-737bbadb0a95
 ms.date: 12/05/2018
 ms.keywords: DOT11_ADHOC_AUTH_ALGORITHM, DOT11_ADHOC_AUTH_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_AUTH_ALGO_80211_OPEN, DOT11_ADHOC_AUTH_ALGO_INVALID, DOT11_ADHOC_AUTH_ALGO_RSNA_PSK, adhoc/DOT11_ADHOC_AUTH_ALGORITHM, adhoc/DOT11_ADHOC_AUTH_ALGO_80211_OPEN, adhoc/DOT11_ADHOC_AUTH_ALGO_INVALID, adhoc/DOT11_ADHOC_AUTH_ALGO_RSNA_PSK, nwifi.dot11_adhoc_auth_algorithm

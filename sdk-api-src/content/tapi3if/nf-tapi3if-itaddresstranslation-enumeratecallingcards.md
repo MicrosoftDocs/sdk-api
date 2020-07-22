@@ -4,7 +4,7 @@ title: ITAddressTranslation::EnumerateCallingCards (tapi3if.h)
 description: The EnumerateCallingCards method enumerates calling cards associated with the address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_CallingCards method.
 helpviewer_keywords: ["EnumerateCallingCards","EnumerateCallingCards method [TAPI 2.2]","EnumerateCallingCards method [TAPI 2.2]","ITAddressTranslation interface","ITAddressTranslation interface [TAPI 2.2]","EnumerateCallingCards method","ITAddressTranslation.EnumerateCallingCards","ITAddressTranslation::EnumerateCallingCards","_tapi3_itaddresstranslation_enumeratecallingcards","tapi3.itaddresstranslation_enumeratecallingcards","tapi3if/ITAddressTranslation::EnumerateCallingCards"]
 old-location: tapi3\itaddresstranslation_enumeratecallingcards.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 93f3cea1-70da-41f0-a8d5-692468a21695
 ms.date: 12/05/2018
 ms.keywords: EnumerateCallingCards, EnumerateCallingCards method [TAPI 2.2], EnumerateCallingCards method [TAPI 2.2],ITAddressTranslation interface, ITAddressTranslation interface [TAPI 2.2],EnumerateCallingCards method, ITAddressTranslation.EnumerateCallingCards, ITAddressTranslation::EnumerateCallingCards, _tapi3_itaddresstranslation_enumeratecallingcards, tapi3.itaddresstranslation_enumeratecallingcards, tapi3if/ITAddressTranslation::EnumerateCallingCards

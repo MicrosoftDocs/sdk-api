@@ -4,7 +4,7 @@ title: IMFASFStreamConfig::GetMediaType (wmcontainer.h)
 description: Retrieves the media type of the stream.
 helpviewer_keywords: ["6311115a-26e6-47b7-b724-0209a5bf45d7","GetMediaType","GetMediaType method [Media Foundation]","GetMediaType method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetMediaType method","IMFASFStreamConfig.GetMediaType","IMFASFStreamConfig::GetMediaType","mf.imfasfstreamconfig_getmediatype","wmcontainer/IMFASFStreamConfig::GetMediaType"]
 old-location: mf\imfasfstreamconfig_getmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6311115a-26e6-47b7-b724-0209a5bf45d7
 ms.date: 12/05/2018
 ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetMediaType method, IMFASFStreamConfig.GetMediaType, IMFASFStreamConfig::GetMediaType, mf.imfasfstreamconfig_getmediatype, wmcontainer/IMFASFStreamConfig::GetMediaType

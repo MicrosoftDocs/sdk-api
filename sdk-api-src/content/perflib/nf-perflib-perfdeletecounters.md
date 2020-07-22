@@ -4,7 +4,7 @@ title: PerfDeleteCounters function (perflib.h)
 description: Removes the specified performance counter specifications from the specified query.
 helpviewer_keywords: ["PerfDeleteCounters","PerfDeleteCounters function [Perf]","perf.perfdeletecounters","perflib/PerfDeleteCounters"]
 old-location: perf\perfdeletecounters.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters

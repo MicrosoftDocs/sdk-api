@@ -4,7 +4,7 @@ title: IDvdInfo::GetSubpictureLanguage (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the language of the specified subpicture stream within the current title.
 helpviewer_keywords: ["GetSubpictureLanguage","GetSubpictureLanguage method [DirectShow]","GetSubpictureLanguage method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetSubpictureLanguage method","IDvdInfo.GetSubpictureLanguage","IDvdInfo::GetSubpictureLanguage","IDvdInfoGetSubpictureLanguage","dshow.idvdinfo_getsubpicturelanguage","strmif/IDvdInfo::GetSubpictureLanguage"]
 old-location: dshow\idvdinfo_getsubpicturelanguage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f75ef36d-8556-4ca0-9f7f-6c09b86da24e
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetSubpictureLanguage method, IDvdInfo.GetSubpictureLanguage, IDvdInfo::GetSubpictureLanguage, IDvdInfoGetSubpictureLanguage, dshow.idvdinfo_getsubpicturelanguage, strmif/IDvdInfo::GetSubpictureLanguage

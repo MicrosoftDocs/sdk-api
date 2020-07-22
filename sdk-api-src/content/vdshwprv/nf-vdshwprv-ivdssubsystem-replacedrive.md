@@ -4,7 +4,7 @@ title: IVdsSubSystem::ReplaceDrive (vdshwprv.h)
 description: Replaces or migrates one drive with another in the subsystem.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","ReplaceDrive method","IVdsSubSystem.ReplaceDrive","IVdsSubSystem::ReplaceDrive","ReplaceDrive","ReplaceDrive method [VDS]","ReplaceDrive method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_replacedrive","vds/IVdsSubSystem::ReplaceDrive","vdshwprv/IVdsSubSystem::ReplaceDrive"]
 old-location: base\ivdssubsystem_replacedrive.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 349fa2aa-94cd-4db0-9682-c39bcd9f9109
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],ReplaceDrive method, IVdsSubSystem.ReplaceDrive, IVdsSubSystem::ReplaceDrive, ReplaceDrive, ReplaceDrive method [VDS], ReplaceDrive method [VDS],IVdsSubSystem interface, base.ivdssubsystem_replacedrive, vds/IVdsSubSystem::ReplaceDrive, vdshwprv/IVdsSubSystem::ReplaceDrive

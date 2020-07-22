@@ -4,7 +4,7 @@ title: IAMExtendedErrorInfo (qnetwork.h)
 description: The IAMExtendedErrorInfo interface is used to obtain error information. Note  This interface is not implemented by any default components in DirectShow. .
 helpviewer_keywords: ["IAMExtendedErrorInfo","IAMExtendedErrorInfo interface [DirectShow]","IAMExtendedErrorInfo interface [DirectShow]","described","IAMExtendedErrorInfoInterface","dshow.iamextendederrorinfo","qnetwork/IAMExtendedErrorInfo"]
 old-location: dshow\iamextendederrorinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e3274e6-7c22-4175-8b2e-cdf4afc1225e
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], IAMExtendedErrorInfo interface [DirectShow],described, IAMExtendedErrorInfoInterface, dshow.iamextendederrorinfo, qnetwork/IAMExtendedErrorInfo

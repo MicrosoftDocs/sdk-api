@@ -4,7 +4,7 @@ title: PowerWriteValueMax function (powrprof.h)
 description: Sets the maximum value for the specified power setting.
 helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteValueMax","PowerWriteValueMax function","base.powerwritevaluemax","powrprof/PowerWriteValueMax"]
 old-location: base\powerwritevaluemax.htm
-tech.root: power
+tech.root: base
 ms.assetid: 5a633d49-0d25-4073-b7a7-d1bdef1b8697
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueMax, PowerWriteValueMax function, base.powerwritevaluemax, powrprof/PowerWriteValueMax

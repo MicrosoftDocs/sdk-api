@@ -4,7 +4,7 @@ title: IPhotoAcquireOptionsDialog (photoacquire.h)
 description: The IPhotoAcquireOptionsDialog interface is used to display an options dialog box in which the user can select photo acquisition settings such as file name formats, as well as whether or not to rotate images, to prompt for a tag name, or to erase photos from the camera after importing.
 helpviewer_keywords: ["IPhotoAcquireOptionsDialog","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","described","IPhotoAcquireOptionsDialogInterface","photoacquire/IPhotoAcquireOptionsDialog","picacq.iphotoacquireoptionsdialog"]
 old-location: picacq\iphotoacquireoptionsdialog.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 075e188f-e533-403d-be06-6a3260479f1a
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], IPhotoAcquireOptionsDialog interface [Picture Acquisition],described, IPhotoAcquireOptionsDialogInterface, photoacquire/IPhotoAcquireOptionsDialog, picacq.iphotoacquireoptionsdialog

@@ -4,7 +4,7 @@ title: CryptUninstallDefaultContext function (wincrypt.h)
 description: Important  This API is deprecated.
 helpviewer_keywords: ["CryptUninstallDefaultContext","CryptUninstallDefaultContext function [Security]","_crypto2_cryptuninstalldefaultcontext","security.cryptuninstalldefaultcontext","wincrypt/CryptUninstallDefaultContext"]
 old-location: security\cryptuninstalldefaultcontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8
 ms.date: 12/05/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext

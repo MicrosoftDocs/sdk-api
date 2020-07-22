@@ -4,7 +4,7 @@ title: IWbemContext::Clone (wbemcli.h)
 description: The IWbemContext::Clone method makes a logical copy of the current IWbemContext object. This method can be useful when many calls must be made which have largely identical IWbemContext objects.
 helpviewer_keywords: ["Clone","Clone method [Windows Management Instrumentation]","Clone method [Windows Management Instrumentation]","IWbemContext interface","IWbemContext interface [Windows Management Instrumentation]","Clone method","IWbemContext.Clone","IWbemContext::Clone","_hmm_iwbemcontext_clone","wbemcli/IWbemContext::Clone","wmi.iwbemcontext_clone"]
 old-location: wmi\iwbemcontext_clone.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: a832f4b0-a450-4f74-a6ec-d205f57c1656
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],Clone method, IWbemContext.Clone, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone

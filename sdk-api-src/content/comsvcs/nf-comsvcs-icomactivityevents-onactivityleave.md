@@ -4,7 +4,7 @@ title: IComActivityEvents::OnActivityLeave (comsvcs.h)
 description: Generated when an activity thread is left.
 helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityLeave method","IComActivityEvents.OnActivityLeave","IComActivityEvents::OnActivityLeave","OnActivityLeave","OnActivityLeave method [COM+]","OnActivityLeave method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityLeave","comsvcs/IComActivityEvents::OnActivityLeave","cos.icomactivityevents_onactivityleave"]
 old-location: cos\icomactivityevents_onactivityleave.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f39a8ce1-9c17-47eb-9405-c6a69dee88cc
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeave method, IComActivityEvents.OnActivityLeave, IComActivityEvents::OnActivityLeave, OnActivityLeave, OnActivityLeave method [COM+], OnActivityLeave method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeave, comsvcs/IComActivityEvents::OnActivityLeave, cos.icomactivityevents_onactivityleave

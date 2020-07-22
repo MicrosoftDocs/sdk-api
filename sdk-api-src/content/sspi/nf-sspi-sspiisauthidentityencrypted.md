@@ -4,7 +4,7 @@ title: SspiIsAuthIdentityEncrypted function (sspi.h)
 description: Indicates whether the specified identity structure is encrypted.
 helpviewer_keywords: ["SspiIsAuthIdentityEncrypted","SspiIsAuthIdentityEncrypted function [Security]","security.sspiisauthidentityencrypted","sspi/SspiIsAuthIdentityEncrypted"]
 old-location: security\sspiisauthidentityencrypted.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b85095f5-0ca5-4d75-866d-9b756404c1d9
 ms.date: 12/05/2018
 ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [Security], security.sspiisauthidentityencrypted, sspi/SspiIsAuthIdentityEncrypted

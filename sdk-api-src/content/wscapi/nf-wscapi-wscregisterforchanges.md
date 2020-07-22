@@ -4,7 +4,7 @@ title: WscRegisterForChanges function (wscapi.h)
 description: Registers a callback function to be run when Windows Security Center (WSC) detects a change that could affect the health of one of the security providers.
 helpviewer_keywords: ["WscRegisterForChanges","WscRegisterForChanges function [Windows API]","winprog.wscregisterforchanges","wscapi/WscRegisterForChanges"]
 old-location: winprog\wscregisterforchanges.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 55f2d281-6308-4344-98dc-3b1c7cbee9df
 ms.date: 12/05/2018
 ms.keywords: WscRegisterForChanges, WscRegisterForChanges function [Windows API], winprog.wscregisterforchanges, wscapi/WscRegisterForChanges

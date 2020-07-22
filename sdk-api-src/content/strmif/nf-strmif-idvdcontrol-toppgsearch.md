@@ -4,7 +4,7 @@ title: IDvdControl::TopPGSearch (strmif.h)
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and restarts playback of the current program within the program chain (PGC).
 helpviewer_keywords: ["IDvdControl interface [DirectShow]","TopPGSearch method","IDvdControl.TopPGSearch","IDvdControl::TopPGSearch","IDvdControlTopPGSearch","TopPGSearch","TopPGSearch method [DirectShow]","TopPGSearch method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_toppgsearch","strmif/IDvdControl::TopPGSearch"]
 old-location: dshow\idvdcontrol_toppgsearch.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 35a621de-5110-4999-8475-ae84a4dc9ee1
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TopPGSearch method, IDvdControl.TopPGSearch, IDvdControl::TopPGSearch, IDvdControlTopPGSearch, TopPGSearch, TopPGSearch method [DirectShow], TopPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_toppgsearch, strmif/IDvdControl::TopPGSearch

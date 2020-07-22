@@ -4,7 +4,7 @@ title: IAzScope::CreateApplicationGroup (azroles.h)
 description: Creates an IAzApplicationGroup object with the specified name.
 helpviewer_keywords: ["AzScope object [Security]","CreateApplicationGroup method","CreateApplicationGroup","CreateApplicationGroup method [Security]","CreateApplicationGroup method [Security]","AzScope object","CreateApplicationGroup method [Security]","IAzScope interface","IAzScope interface [Security]","CreateApplicationGroup method","IAzScope.CreateApplicationGroup","IAzScope::CreateApplicationGroup","azroles/IAzScope::CreateApplicationGroup","security.iazscope_createapplicationgroup"]
 old-location: security\iazscope_createapplicationgroup.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9bceb3a9-1144-48a1-a4d4-e612a3e77942
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],CreateApplicationGroup method, CreateApplicationGroup, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security],AzScope object, CreateApplicationGroup method [Security],IAzScope interface, IAzScope interface [Security],CreateApplicationGroup method, IAzScope.CreateApplicationGroup, IAzScope::CreateApplicationGroup, azroles/IAzScope::CreateApplicationGroup, security.iazscope_createapplicationgroup

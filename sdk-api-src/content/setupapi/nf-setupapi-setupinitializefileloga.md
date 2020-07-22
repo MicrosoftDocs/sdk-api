@@ -4,7 +4,7 @@ title: SetupInitializeFileLogA function (setupapi.h)
 description: The SetupInitializeFileLog function initializes a file to record installation operations and outcomes. This can be the system log, where the system tracks the files installed as part of Windows, or any other file.
 helpviewer_keywords: ["SetupInitializeFileLog","SetupInitializeFileLog function [Setup API]","SetupInitializeFileLogA","SetupInitializeFileLogW","_setupapi_setupinitializefilelog","setup.setupinitializefilelog","setupapi/SetupInitializeFileLog","setupapi/SetupInitializeFileLogA","setupapi/SetupInitializeFileLogW"]
 old-location: setup\setupinitializefilelog.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
 ms.date: 12/05/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW

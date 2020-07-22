@@ -4,7 +4,7 @@ title: ICOMAdminCatalog (comadmin.h)
 description: Initiates a session to do programmatic COM+ administration, access collections in the catalog, install COM+ applications and components, start and stop services, and connect to remote servers.
 helpviewer_keywords: ["ICOMAdminCatalog","ICOMAdminCatalog interface [COM+]","ICOMAdminCatalog interface [COM+]","described","comadmin/ICOMAdminCatalog","cos.icomadmincatalog"]
 old-location: cos\icomadmincatalog.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2c3c49df-9ca5-40ea-b45c-f4eca1004602
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog

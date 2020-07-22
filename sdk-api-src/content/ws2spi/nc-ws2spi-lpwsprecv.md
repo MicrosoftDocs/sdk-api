@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPRECV
 title: LPWSPRECV
 description: The LPWSPRecv function receives data on a socket.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPRECV"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECV

@@ -4,7 +4,7 @@ title: IX509PublicKey::ComputeKeyIdentifier (certenroll.h)
 description: Creates an identifier from a 160-bit SHA-1 hash of the public key.
 helpviewer_keywords: ["ComputeKeyIdentifier","ComputeKeyIdentifier method [Security]","ComputeKeyIdentifier method [Security]","IX509PublicKey interface","IX509PublicKey interface [Security]","ComputeKeyIdentifier method","IX509PublicKey.ComputeKeyIdentifier","IX509PublicKey::ComputeKeyIdentifier","certenroll/IX509PublicKey::ComputeKeyIdentifier","security.ix509publickey_computekeyidentifier_method"]
 old-location: security\ix509publickey_computekeyidentifier_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b2e471c7-1087-46a2-8938-5d3cea44f7f7
 ms.date: 12/05/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method

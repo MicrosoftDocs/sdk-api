@@ -4,7 +4,7 @@ title: IXpsOMDocument::Clone (xpsobjectmodel.h)
 description: Makes a deep copy of the interface.
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMDocument interface","IXpsOMDocument interface [XPS Documents and Packaging]","Clone method","IXpsOMDocument.Clone","IXpsOMDocument::Clone","xps.ixpsomdocument_clone","xpsobjectmodel/IXpsOMDocument::Clone"]
 old-location: xps\ixpsomdocument_clone.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b7d8f5a8-553e-443c-8a56-fd0688df90ce
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],Clone method, IXpsOMDocument.Clone, IXpsOMDocument::Clone, xps.ixpsomdocument_clone, xpsobjectmodel/IXpsOMDocument::Clone

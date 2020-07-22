@@ -4,7 +4,7 @@ title: DVD_KARAOKE_CONTENTS (strmif.h)
 description: Specifies flags that, when used in a bitwise OR operation, describe the contents of each channel of an audio stream in a karaoke title.
 helpviewer_keywords: ["DVD_KARAOKE_CONTENTS","DVD_KARAOKE_CONTENTS","DVD_KARAOKE_CONTENTS enumeration [DirectShow]","DVD_KARAOKE_CONTENTSEnumeration","DVD_Karaoke_GuideMelody1","DVD_Karaoke_GuideMelody2","DVD_Karaoke_GuideMelodyA","DVD_Karaoke_GuideMelodyB","DVD_Karaoke_GuideVocal1","DVD_Karaoke_GuideVocal2","DVD_Karaoke_SoundEffectA","DVD_Karaoke_SoundEffectB","dshow.dvd_karaoke_contents","strmif/DVD_KARAOKE_CONTENTS","strmif/DVD_Karaoke_GuideMelody1","strmif/DVD_Karaoke_GuideMelody2","strmif/DVD_Karaoke_GuideMelodyA","strmif/DVD_Karaoke_GuideMelodyB","strmif/DVD_Karaoke_GuideVocal1","strmif/DVD_Karaoke_GuideVocal2","strmif/DVD_Karaoke_SoundEffectA","strmif/DVD_Karaoke_SoundEffectB"]
 old-location: dshow\dvd_karaoke_contents.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
 ms.date: 12/05/2018
 ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS enumeration [DirectShow], DVD_KARAOKE_CONTENTSEnumeration, DVD_Karaoke_GuideMelody1, DVD_Karaoke_GuideMelody2, DVD_Karaoke_GuideMelodyA, DVD_Karaoke_GuideMelodyB, DVD_Karaoke_GuideVocal1, DVD_Karaoke_GuideVocal2, DVD_Karaoke_SoundEffectA, DVD_Karaoke_SoundEffectB, dshow.dvd_karaoke_contents, strmif/DVD_KARAOKE_CONTENTS, strmif/DVD_Karaoke_GuideMelody1, strmif/DVD_Karaoke_GuideMelody2, strmif/DVD_Karaoke_GuideMelodyA, strmif/DVD_Karaoke_GuideMelodyB, strmif/DVD_Karaoke_GuideVocal1, strmif/DVD_Karaoke_GuideVocal2, strmif/DVD_Karaoke_SoundEffectA, strmif/DVD_Karaoke_SoundEffectB

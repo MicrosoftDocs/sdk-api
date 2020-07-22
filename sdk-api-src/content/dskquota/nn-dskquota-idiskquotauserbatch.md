@@ -4,7 +4,7 @@ title: IDiskQuotaUserBatch (dskquota.h)
 description: Adds multiple quota user objects to a container that is then submitted for update in a single call.
 helpviewer_keywords: ["IDiskQuotaUserBatch","IDiskQuotaUserBatch interface [Files]","IDiskQuotaUserBatch interface [Files]","described","_win32_idiskquotauserbatch","base.idiskquotauserbatch","dskquota/IDiskQuotaUserBatch","fs.idiskquotauserbatch"]
 old-location: fs\idiskquotauserbatch.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch

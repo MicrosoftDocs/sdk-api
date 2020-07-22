@@ -4,7 +4,7 @@ title: IWbemBackupRestoreEx (wbemcli.h)
 description: The IWbemBackupRestoreEx interface backs up and restores the contents of the repository.
 helpviewer_keywords: ["IWbemBackupRestoreEx","IWbemBackupRestoreEx interface [Windows Management Instrumentation]","IWbemBackupRestoreEx interface [Windows Management Instrumentation]","described","wbemcli/IWbemBackupRestoreEx","wmi.iwbembackuprestoreex"]
 old-location: wmi\iwbembackuprestoreex.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 5349359a-e15f-4799-abad-f4a5fc3e89ea
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestoreEx, IWbemBackupRestoreEx interface [Windows Management Instrumentation], IWbemBackupRestoreEx interface [Windows Management Instrumentation],described, wbemcli/IWbemBackupRestoreEx, wmi.iwbembackuprestoreex

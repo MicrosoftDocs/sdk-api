@@ -4,7 +4,7 @@ title: IMcastScope::get_ScopeID (mdhcp.h)
 description: The get_ScopeID method obtains an identifier for the scope of multicast addresses.
 helpviewer_keywords: ["IMcastScope interface [TAPI 2.2]","get_ScopeID method","IMcastScope.get_ScopeID","IMcastScope::get_ScopeID","_tapi3_imcastscope_get_scopeid","get_ScopeID","get_ScopeID method [TAPI 2.2]","get_ScopeID method [TAPI 2.2]","IMcastScope interface","mdhcp/IMcastScope::get_ScopeID","tapi3.imcastscope_get_scopeid"]
 old-location: tapi3\imcastscope_get_scopeid.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9c0ba8ab-1022-40c6-9d89-74250c149681
 ms.date: 12/05/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeID method, IMcastScope.get_ScopeID, IMcastScope::get_ScopeID, _tapi3_imcastscope_get_scopeid, get_ScopeID, get_ScopeID method [TAPI 2.2], get_ScopeID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeID, tapi3.imcastscope_get_scopeid

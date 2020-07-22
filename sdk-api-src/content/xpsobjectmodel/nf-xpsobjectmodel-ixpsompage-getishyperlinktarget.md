@@ -4,7 +4,7 @@ title: IXpsOMPage::GetIsHyperlinkTarget (xpsobjectmodel.h)
 description: Gets a Boolean value that indicates whether the page is the target of a hyperlink.
 helpviewer_keywords: ["GetIsHyperlinkTarget","GetIsHyperlinkTarget method [XPS Documents and Packaging]","GetIsHyperlinkTarget method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetIsHyperlinkTarget method","IXpsOMPage.GetIsHyperlinkTarget","IXpsOMPage::GetIsHyperlinkTarget","xps.ixpsompage_getishyperlinktarget","xpsobjectmodel/IXpsOMPage::GetIsHyperlinkTarget"]
 old-location: xps\ixpsompage_getishyperlinktarget.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 172636d5-c375-4552-97a8-d874b6aa4843
 ms.date: 12/05/2018
 ms.keywords: GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Documents and Packaging], GetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetIsHyperlinkTarget method, IXpsOMPage.GetIsHyperlinkTarget, IXpsOMPage::GetIsHyperlinkTarget, xps.ixpsompage_getishyperlinktarget, xpsobjectmodel/IXpsOMPage::GetIsHyperlinkTarget

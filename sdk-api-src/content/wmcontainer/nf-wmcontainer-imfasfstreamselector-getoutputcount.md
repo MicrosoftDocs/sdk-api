@@ -4,7 +4,7 @@ title: IMFASFStreamSelector::GetOutputCount (wmcontainer.h)
 description: Retrieves the number of outputs for the Advanced Systems Format (ASF) content.
 helpviewer_keywords: ["09f00f52-f897-46f0-afb9-ae59913e04a1","GetOutputCount","GetOutputCount method [Media Foundation]","GetOutputCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputCount method","IMFASFStreamSelector.GetOutputCount","IMFASFStreamSelector::GetOutputCount","mf.imfasfstreamselector_getoutputcount","wmcontainer/IMFASFStreamSelector::GetOutputCount"]
 old-location: mf\imfasfstreamselector_getoutputcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 09f00f52-f897-46f0-afb9-ae59913e04a1
 ms.date: 12/05/2018
 ms.keywords: 09f00f52-f897-46f0-afb9-ae59913e04a1, GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputCount method, IMFASFStreamSelector.GetOutputCount, IMFASFStreamSelector::GetOutputCount, mf.imfasfstreamselector_getoutputcount, wmcontainer/IMFASFStreamSelector::GetOutputCount

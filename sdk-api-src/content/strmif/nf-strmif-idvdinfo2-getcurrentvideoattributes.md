@@ -4,7 +4,7 @@ title: IDvdInfo2::GetCurrentVideoAttributes (strmif.h)
 description: The GetCurrentVideoAttributes method retrieves the video attributes of the current title or menu.
 helpviewer_keywords: ["GetCurrentVideoAttributes","GetCurrentVideoAttributes method [DirectShow]","GetCurrentVideoAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetCurrentVideoAttributes method","IDvdInfo2.GetCurrentVideoAttributes","IDvdInfo2::GetCurrentVideoAttributes","IDvdInfo2GetCurrentVideoAttributes","dshow.idvdinfo2_getcurrentvideoattributes","strmif/IDvdInfo2::GetCurrentVideoAttributes"]
 old-location: dshow\idvdinfo2_getcurrentvideoattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 92bd3af9-7057-4bf7-9026-d4862c271a03
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVideoAttributes, GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentVideoAttributes method, IDvdInfo2.GetCurrentVideoAttributes, IDvdInfo2::GetCurrentVideoAttributes, IDvdInfo2GetCurrentVideoAttributes, dshow.idvdinfo2_getcurrentvideoattributes, strmif/IDvdInfo2::GetCurrentVideoAttributes

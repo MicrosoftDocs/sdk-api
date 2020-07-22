@@ -4,7 +4,7 @@ title: KERB_S4U_LOGON (ntsecapi.h)
 description: Contains information about a service for user (S4U) logon.
 helpviewer_keywords: ["*PKERB_S4U_LOGON","KERB_S4U_LOGON","KERB_S4U_LOGON structure [Security]","KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS","KERB_S4U_LOGON_FLAG_IDENTITY","PKERB_S4U_LOGON","PKERB_S4U_LOGON structure pointer [Security]","ntsecapi/KERB_S4U_LOGON","ntsecapi/PKERB_S4U_LOGON","security.kerb_s4u_logon"]
 old-location: security\kerb_s4u_logon.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_S4U_LOGON, KERB_S4U_LOGON, KERB_S4U_LOGON structure [Security], KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_S4U_LOGON_FLAG_IDENTITY, PKERB_S4U_LOGON, PKERB_S4U_LOGON structure pointer [Security], ntsecapi/KERB_S4U_LOGON, ntsecapi/PKERB_S4U_LOGON, security.kerb_s4u_logon'

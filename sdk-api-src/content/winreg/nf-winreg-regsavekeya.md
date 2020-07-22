@@ -4,7 +4,7 @@ title: RegSaveKeyA function (winreg.h)
 description: Saves the specified key and all of its subkeys and values to a new file, in the standard format.
 helpviewer_keywords: ["RegSaveKey","RegSaveKey function","RegSaveKeyA","RegSaveKeyW","_win32_regsavekey","base.regsavekey","winreg/RegSaveKey","winreg/RegSaveKeyA","winreg/RegSaveKeyW"]
 old-location: base\regsavekey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
 ms.date: 12/05/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW

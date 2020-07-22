@@ -4,7 +4,7 @@ title: ICspStatus::get_CspAlgorithm (certenroll.h)
 description: Retrieves an ICspAlgorithm object that contains information about an algorithm supported by the provider.
 helpviewer_keywords: ["CspAlgorithm property [Security]","CspAlgorithm property [Security]","ICspStatus interface","ICspStatus interface [Security]","CspAlgorithm property","ICspStatus.CspAlgorithm","ICspStatus.get_CspAlgorithm","ICspStatus::CspAlgorithm","ICspStatus::get_CspAlgorithm","certenroll/ICspStatus::CspAlgorithm","certenroll/ICspStatus::get_CspAlgorithm","get_CspAlgorithm","security.icspstatus_cspalgorithm"]
 old-location: security\icspstatus_cspalgorithm.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: fc86ff4a-98f4-4e14-8d24-132926c9b41d
 ms.date: 12/05/2018
 ms.keywords: CspAlgorithm property [Security], CspAlgorithm property [Security],ICspStatus interface, ICspStatus interface [Security],CspAlgorithm property, ICspStatus.CspAlgorithm, ICspStatus.get_CspAlgorithm, ICspStatus::CspAlgorithm, ICspStatus::get_CspAlgorithm, certenroll/ICspStatus::CspAlgorithm, certenroll/ICspStatus::get_CspAlgorithm, get_CspAlgorithm, security.icspstatus_cspalgorithm

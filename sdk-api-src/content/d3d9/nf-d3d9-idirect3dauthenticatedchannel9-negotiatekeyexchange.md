@@ -4,7 +4,7 @@ title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange (d3d9.h)
 description: Establishes a session key for the authenticated channel.
 helpviewer_keywords: ["IDirect3DAuthenticatedChannel9 interface [Media Foundation]","NegotiateKeyExchange method","IDirect3DAuthenticatedChannel9.NegotiateKeyExchange","IDirect3DAuthenticatedChannel9::NegotiateKeyExchange","NegotiateKeyExchange","NegotiateKeyExchange method [Media Foundation]","NegotiateKeyExchange method [Media Foundation]","IDirect3DAuthenticatedChannel9 interface","d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange","mf.idirect3dauthenticatedchannel9_negotiatekeyexchange"]
 old-location: mf\idirect3dauthenticatedchannel9_negotiatekeyexchange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 35605d35-76c9-43d7-a022-6db6af179c41
 ms.date: 12/05/2018
 ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DAuthenticatedChannel9.NegotiateKeyExchange, IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, mf.idirect3dauthenticatedchannel9_negotiatekeyexchange

@@ -5,6 +5,7 @@ ms.date: 11/26/2019
 ms.topic: language-reference
 targetos: Windows
 description: Generates a license request based on the provided data.
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

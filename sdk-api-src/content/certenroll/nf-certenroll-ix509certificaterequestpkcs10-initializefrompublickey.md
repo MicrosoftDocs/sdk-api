@@ -4,7 +4,7 @@ title: IX509CertificateRequestPkcs10::InitializeFromPublicKey (certenroll.h)
 description: Initializes a null-signed certificate request by using an IX509PublicKey object and, optionally, a template.
 helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","InitializeFromPublicKey method","IX509CertificateRequestPkcs10.InitializeFromPublicKey","IX509CertificateRequestPkcs10::InitializeFromPublicKey","InitializeFromPublicKey","InitializeFromPublicKey method [Security]","InitializeFromPublicKey method [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey","security.ix509certificaterequestpkcs10_initializefrompublickey_method"]
 old-location: security\ix509certificaterequestpkcs10_initializefrompublickey_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7b7e00dc-649b-4bcb-a9b6-5745b33ea48b
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromPublicKey method, IX509CertificateRequestPkcs10.InitializeFromPublicKey, IX509CertificateRequestPkcs10::InitializeFromPublicKey, InitializeFromPublicKey, InitializeFromPublicKey method [Security], InitializeFromPublicKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey, security.ix509certificaterequestpkcs10_initializefrompublickey_method

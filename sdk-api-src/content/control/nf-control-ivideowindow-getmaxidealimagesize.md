@@ -4,7 +4,7 @@ title: IVideoWindow::GetMaxIdealImageSize (control.h)
 description: The GetMaxIdealImageSize method retrieves the maximum ideal image size for the video image.
 helpviewer_keywords: ["GetMaxIdealImageSize","GetMaxIdealImageSize method [DirectShow]","GetMaxIdealImageSize method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","GetMaxIdealImageSize method","IVideoWindow.GetMaxIdealImageSize","IVideoWindow::GetMaxIdealImageSize","IVideoWindowGetMaxIdealImageSize","control/IVideoWindow::GetMaxIdealImageSize","dshow.ivideowindow_getmaxidealimagesize"]
 old-location: dshow\ivideowindow_getmaxidealimagesize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
 ms.date: 12/05/2018
 ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize

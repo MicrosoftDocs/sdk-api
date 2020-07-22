@@ -4,7 +4,7 @@ title: IUpdateSearcher::EscapeString (wuapi.h)
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
 helpviewer_keywords: ["EscapeString","EscapeString method [Windows Update Agent]","EscapeString method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","EscapeString method","IUpdateSearcher.EscapeString","IUpdateSearcher::EscapeString","wua.iupdatesearcherescapestring","wuapi/IUpdateSearcher::EscapeString"]
 old-location: wua\iupdatesearcherescapestring.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
 ms.date: 12/05/2018
 ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString

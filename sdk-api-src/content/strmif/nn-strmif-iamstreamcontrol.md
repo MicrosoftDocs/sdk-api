@@ -4,7 +4,7 @@ title: IAMStreamControl (strmif.h)
 description: The IAMStreamControl interface controls individual streams on a filter.
 helpviewer_keywords: ["IAMStreamControl","IAMStreamControl interface [DirectShow]","IAMStreamControl interface [DirectShow]","described","IAMStreamControlInterface","dshow.iamstreamcontrol","strmif/IAMStreamControl"]
 old-location: dshow\iamstreamcontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl

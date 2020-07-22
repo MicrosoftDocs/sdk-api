@@ -4,7 +4,7 @@ title: ITBasicAudioTerminal (tapi3if.h)
 description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.
 helpviewer_keywords: ["ITBasicAudioTerminal","ITBasicAudioTerminal interface [TAPI 2.2]","ITBasicAudioTerminal interface [TAPI 2.2]","described","_tapi3_itbasicaudioterminal","tapi3.itbasicaudioterminal","tapi3if/ITBasicAudioTerminal"]
 old-location: tapi3\itbasicaudioterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal

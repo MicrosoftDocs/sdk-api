@@ -4,7 +4,7 @@ title: LsaSetInformationPolicy function (ntsecapi.h)
 description: Modifies information in a Policy object.
 helpviewer_keywords: ["LsaSetInformationPolicy","LsaSetInformationPolicy function [Security]","PolicyAccountDomainInformation","PolicyAuditEventsInformation","PolicyDnsDomainInformation","PolicyLsaServerRoleInformation","PolicyPrimaryDomainInformation","_lsa_lsasetinformationpolicy","ntsecapi/LsaSetInformationPolicy","security.lsasetinformationpolicy"]
 old-location: security\lsasetinformationpolicy.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb
 ms.date: 12/05/2018
 ms.keywords: LsaSetInformationPolicy, LsaSetInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyPrimaryDomainInformation, _lsa_lsasetinformationpolicy, ntsecapi/LsaSetInformationPolicy, security.lsasetinformationpolicy

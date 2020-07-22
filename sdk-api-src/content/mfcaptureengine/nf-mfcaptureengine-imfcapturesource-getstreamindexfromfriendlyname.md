@@ -4,7 +4,7 @@ title: IMFCaptureSource::GetStreamIndexFromFriendlyName (mfcaptureengine.h)
 description: Gets the actual device stream index translated from a friendly stream name.
 helpviewer_keywords: ["GetStreamIndexFromFriendlyName","GetStreamIndexFromFriendlyName method [Media Foundation]","GetStreamIndexFromFriendlyName method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetStreamIndexFromFriendlyName method","IMFCaptureSource.GetStreamIndexFromFriendlyName","IMFCaptureSource::GetStreamIndexFromFriendlyName","mf.imfcapturesource_getstreamindexfromfriendlyname","mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName"]
 old-location: mf\imfcapturesource_getstreamindexfromfriendlyname.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 38bc2ca8-29ff-4a23-9b78-693aaab6767f
 ms.date: 12/05/2018
 ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetStreamIndexFromFriendlyName method, IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName

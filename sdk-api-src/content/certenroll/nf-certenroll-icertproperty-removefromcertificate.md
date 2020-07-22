@@ -4,7 +4,7 @@ title: ICertProperty::RemoveFromCertificate (certenroll.h)
 description: Disassociates a property from a certificate.
 helpviewer_keywords: ["ICertProperty interface [Security]","RemoveFromCertificate method","ICertProperty.RemoveFromCertificate","ICertProperty::RemoveFromCertificate","RemoveFromCertificate","RemoveFromCertificate method [Security]","RemoveFromCertificate method [Security]","ICertProperty interface","certenroll/ICertProperty::RemoveFromCertificate","security.icertproperty_removefromcertificate_method"]
 old-location: security\icertproperty_removefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method

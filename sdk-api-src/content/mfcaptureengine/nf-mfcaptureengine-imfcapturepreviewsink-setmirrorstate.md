@@ -4,7 +4,7 @@ title: IMFCapturePreviewSink::SetMirrorState (mfcaptureengine.h)
 description: Enables or disables mirroring of the video preview stream.
 helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetMirrorState method","IMFCapturePreviewSink.SetMirrorState","IMFCapturePreviewSink::SetMirrorState","SetMirrorState","SetMirrorState method [Media Foundation]","SetMirrorState method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setmirrorstate","mfcaptureengine/IMFCapturePreviewSink::SetMirrorState"]
 old-location: mf\imfcapturepreviewsink_setmirrorstate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F7F04E29-E7AD-46BD-AAF9-5B7BA68822EE
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetMirrorState method, IMFCapturePreviewSink.SetMirrorState, IMFCapturePreviewSink::SetMirrorState, SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setmirrorstate, mfcaptureengine/IMFCapturePreviewSink::SetMirrorState

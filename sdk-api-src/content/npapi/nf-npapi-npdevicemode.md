@@ -4,7 +4,7 @@ title: NPDeviceMode function (npapi.h)
 description: Specifies the parent window of a device. This window owns any dialog boxes that originate from the device.
 helpviewer_keywords: ["NPDeviceMode","NPDeviceMode function [Security]","_mnp_npdevicemode","npapi/NPDeviceMode","security.npdevicemode"]
 old-location: security\npdevicemode.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 502e3d34-f582-4f0f-b3b2-263bd293cf11
 ms.date: 12/05/2018
 ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, npapi/NPDeviceMode, security.npdevicemode

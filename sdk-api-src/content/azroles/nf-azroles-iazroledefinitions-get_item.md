@@ -4,7 +4,7 @@ title: IAzRoleDefinitions::get_Item (azroles.h)
 description: Retrieves the IAzRoleDefinition object at the specified index in the IAzRoleDefinitions collection.
 helpviewer_keywords: ["IAzRoleDefinitions interface [Security]","Item property","IAzRoleDefinitions.Item","IAzRoleDefinitions.get_Item","IAzRoleDefinitions::Item","IAzRoleDefinitions::get_Item","Item property [Security]","Item property [Security]","IAzRoleDefinitions interface","azroles/IAzRoleDefinitions::Item","azroles/IAzRoleDefinitions::get_Item","get_Item","security.iazroledefinitions_item"]
 old-location: security\iazroledefinitions_item.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f132b254-4c8e-4313-b596-8d5c8cb047d8
 ms.date: 12/05/2018
 ms.keywords: IAzRoleDefinitions interface [Security],Item property, IAzRoleDefinitions.Item, IAzRoleDefinitions.get_Item, IAzRoleDefinitions::Item, IAzRoleDefinitions::get_Item, Item property [Security], Item property [Security],IAzRoleDefinitions interface, azroles/IAzRoleDefinitions::Item, azroles/IAzRoleDefinitions::get_Item, get_Item, security.iazroledefinitions_item

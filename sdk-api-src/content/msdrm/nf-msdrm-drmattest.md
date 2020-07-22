@@ -4,7 +4,7 @@ title: DRMAttest function (msdrm.h)
 description: The DRMAttest function is no longer supported and returns E_NOTIMPL.
 helpviewer_keywords: ["DRMAttest","DRMAttest function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMAttest","rm.drmattest"]
 old-location: rm\drmattest.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: f0975845-d609-4f7a-a663-6481334c983d
 ms.date: 12/05/2018
 ms.keywords: DRMAttest, DRMAttest function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAttest, rm.drmattest

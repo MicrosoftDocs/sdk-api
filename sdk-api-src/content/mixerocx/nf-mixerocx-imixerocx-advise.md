@@ -4,7 +4,7 @@ title: IMixerOCX::Advise (mixerocx.h)
 description: The Advise method provides the Overlay Mixer with a pointer to the client's IMixerOCXNotify interface for callback notifications.
 helpviewer_keywords: ["Advise","Advise method [DirectShow]","Advise method [DirectShow]","IMixerOCX interface","IMixerOCX interface [DirectShow]","Advise method","IMixerOCX.Advise","IMixerOCX::Advise","IMixerOCXAdvise","dshow.imixerocx_advise","mixerocx/IMixerOCX::Advise"]
 old-location: dshow\imixerocx_advise.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6708fc46-19cb-4843-9c9d-99ff67ee6d08
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],Advise method, IMixerOCX.Advise, IMixerOCX::Advise, IMixerOCXAdvise, dshow.imixerocx_advise, mixerocx/IMixerOCX::Advise

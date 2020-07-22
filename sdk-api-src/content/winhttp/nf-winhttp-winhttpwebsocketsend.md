@@ -4,7 +4,7 @@ title: WinHttpWebSocketSend function (winhttp.h)
 description: Sends data over a WebSocket connection.
 helpviewer_keywords: ["WinHttpWebSocketSend","WinHttpWebSocketSend function [WinHTTP]","http.winhttpwebsocketsend","winhttp/WinHttpWebSocketSend"]
 old-location: http\winhttpwebsocketsend.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 24b45561-2a6e-4513-b597-15dbc10f0664
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketSend, WinHttpWebSocketSend function [WinHTTP], http.winhttpwebsocketsend, winhttp/WinHttpWebSocketSend

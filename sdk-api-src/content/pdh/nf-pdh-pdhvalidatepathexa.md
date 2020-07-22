@@ -4,7 +4,7 @@ title: PdhValidatePathExA function (pdh.h)
 description: Validates that the specified counter is present on the computer or in the log file.
 helpviewer_keywords: ["PdhValidatePathEx","PdhValidatePathEx function [Perf]","PdhValidatePathExA","PdhValidatePathExW","pdh/PdhValidatePathEx","pdh/PdhValidatePathExA","pdh/PdhValidatePathExW","perf.pdhvalidatepathex"]
 old-location: perf\pdhvalidatepathex.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex

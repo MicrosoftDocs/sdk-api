@@ -4,7 +4,7 @@ title: lineGenerateTone function (tapi.h)
 description: The lineGenerateTone function generates the specified inband tone over the specified call.
 helpviewer_keywords: ["_tapi2_linegeneratetone","lineGenerateTone","lineGenerateTone function [TAPI 2.2]","tapi/lineGenerateTone","tapi2.linegeneratetone"]
 old-location: tapi2\linegeneratetone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d5975bd0-2406-45a8-9631-80f40a860204
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegeneratetone, lineGenerateTone, lineGenerateTone function [TAPI 2.2], tapi/lineGenerateTone, tapi2.linegeneratetone

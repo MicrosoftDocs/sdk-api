@@ -4,7 +4,7 @@ title: IOfflineFilesDirtyInfo (cscobj.h)
 description: Represents information about an unsynchronized (&quot;dirty&quot;) file in the Offline Files cache.
 helpviewer_keywords: ["IOfflineFilesDirtyInfo","IOfflineFilesDirtyInfo interface [Offline Files]","IOfflineFilesDirtyInfo interface [Offline Files]","described","cscobj/IOfflineFilesDirtyInfo","of.iofflinefilesdirtyinfo"]
 old-location: of\iofflinefilesdirtyinfo.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo

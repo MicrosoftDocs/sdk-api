@@ -4,7 +4,7 @@ title: HASHALGORITHM_ENUM (bcrypt.h)
 description: Specifies signing and hashing algorithms.
 helpviewer_keywords: ["DSA_HASH_ALGORITHM_SHA1","DSA_HASH_ALGORITHM_SHA256","DSA_HASH_ALGORITHM_SHA512","HASHALGORITHM_ENUM","HASHALGORITHM_ENUM enumeration [Security]","bcrypt/DSA_HASH_ALGORITHM_SHA1","bcrypt/DSA_HASH_ALGORITHM_SHA256","bcrypt/DSA_HASH_ALGORITHM_SHA512","bcrypt/HASHALGORITHM_ENUM","security.hashalgorithm_enum"]
 old-location: security\hashalgorithm_enum.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 482DA4B6-EC1C-4E88-95C0-62ED1356DC3B
 ms.date: 12/05/2018
 ms.keywords: DSA_HASH_ALGORITHM_SHA1, DSA_HASH_ALGORITHM_SHA256, DSA_HASH_ALGORITHM_SHA512, HASHALGORITHM_ENUM, HASHALGORITHM_ENUM enumeration [Security], bcrypt/DSA_HASH_ALGORITHM_SHA1, bcrypt/DSA_HASH_ALGORITHM_SHA256, bcrypt/DSA_HASH_ALGORITHM_SHA512, bcrypt/HASHALGORITHM_ENUM, security.hashalgorithm_enum

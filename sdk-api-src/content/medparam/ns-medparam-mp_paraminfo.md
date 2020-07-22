@@ -4,7 +4,7 @@ title: MP_PARAMINFO (medparam.h)
 description: The MP_PARAMINFO structure contains information about a parameter.
 helpviewer_keywords: ["MP_PARAMINFO","MP_PARAMINFO structure [DirectShow]","MP_PARAMINFOStructure","dshow.mp_paraminfo","medparam/MP_PARAMINFO"]
 old-location: dshow\mp_paraminfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
 ms.date: 12/05/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, dshow.mp_paraminfo, medparam/MP_PARAMINFO

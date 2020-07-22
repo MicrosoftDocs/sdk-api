@@ -4,7 +4,7 @@ title: X509PrivateKeyUsageFlags (certenroll.h)
 description: Specifies the permitted uses of a private key.
 helpviewer_keywords: ["X509PrivateKeyUsageFlags","X509PrivateKeyUsageFlags enumeration [Security]","XCN_NCRYPT_ALLOW_ALL_USAGES","XCN_NCRYPT_ALLOW_DECRYPT_FLAG","XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG","XCN_NCRYPT_ALLOW_SIGNING_FLAG","XCN_NCRYPT_ALLOW_USAGES_NONE","certenroll/X509PrivateKeyUsageFlags","certenroll/XCN_NCRYPT_ALLOW_ALL_USAGES","certenroll/XCN_NCRYPT_ALLOW_DECRYPT_FLAG","certenroll/XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG","certenroll/XCN_NCRYPT_ALLOW_SIGNING_FLAG","certenroll/XCN_NCRYPT_ALLOW_USAGES_NONE","security.x509privatekeyusageflags"]
 old-location: security\x509privatekeyusageflags.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 831c4c07-dc26-420a-ac04-d96248f3fad2
 ms.date: 12/05/2018
 ms.keywords: X509PrivateKeyUsageFlags, X509PrivateKeyUsageFlags enumeration [Security], XCN_NCRYPT_ALLOW_ALL_USAGES, XCN_NCRYPT_ALLOW_DECRYPT_FLAG, XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG, XCN_NCRYPT_ALLOW_SIGNING_FLAG, XCN_NCRYPT_ALLOW_USAGES_NONE, certenroll/X509PrivateKeyUsageFlags, certenroll/XCN_NCRYPT_ALLOW_ALL_USAGES, certenroll/XCN_NCRYPT_ALLOW_DECRYPT_FLAG, certenroll/XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG, certenroll/XCN_NCRYPT_ALLOW_SIGNING_FLAG, certenroll/XCN_NCRYPT_ALLOW_USAGES_NONE, security.x509privatekeyusageflags

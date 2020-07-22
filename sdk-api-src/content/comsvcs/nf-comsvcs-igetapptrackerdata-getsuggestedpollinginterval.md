@@ -4,7 +4,7 @@ title: IGetAppTrackerData::GetSuggestedPollingInterval (comsvcs.h)
 description: Retrieves the minimum interval for polling suggested by the Tracker Server.
 helpviewer_keywords: ["GetSuggestedPollingInterval","GetSuggestedPollingInterval method [COM+]","GetSuggestedPollingInterval method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetSuggestedPollingInterval method","IGetAppTrackerData.GetSuggestedPollingInterval","IGetAppTrackerData::GetSuggestedPollingInterval","comsvcs/IGetAppTrackerData::GetSuggestedPollingInterval","cos.igetapptrackerdata_getsuggestedpollinginterval"]
 old-location: cos\igetapptrackerdata_getsuggestedpollinginterval.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: fcc65fd3-debf-4b5c-aaf2-3e7234510d35
 ms.date: 12/05/2018
 ms.keywords: GetSuggestedPollingInterval, GetSuggestedPollingInterval method [COM+], GetSuggestedPollingInterval method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetSuggestedPollingInterval method, IGetAppTrackerData.GetSuggestedPollingInterval, IGetAppTrackerData::GetSuggestedPollingInterval, comsvcs/IGetAppTrackerData::GetSuggestedPollingInterval, cos.igetapptrackerdata_getsuggestedpollinginterval

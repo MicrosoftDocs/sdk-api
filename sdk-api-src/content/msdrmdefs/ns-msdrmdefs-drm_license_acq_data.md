@@ -4,7 +4,7 @@ title: DRM_LICENSE_ACQ_DATA (msdrmdefs.h)
 description: Holds license acquisition data during nonsilent license acquisition.
 helpviewer_keywords: ["DRM_LICENSE_ACQ_DATA","DRM_LICENSE_ACQ_DATA structure [Active Directory Rights Management Services SDK 1.0]","msdrmdefs/DRM_LICENSE_ACQ_DATA","rm.drm_license_acq_data"]
 old-location: rm\drm_license_acq_data.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: c8f4ba99-5711-495f-9820-f604cc9e20f7
 ms.date: 12/05/2018
 ms.keywords: DRM_LICENSE_ACQ_DATA, DRM_LICENSE_ACQ_DATA structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_LICENSE_ACQ_DATA, rm.drm_license_acq_data

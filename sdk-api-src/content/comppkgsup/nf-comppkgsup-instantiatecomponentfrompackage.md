@@ -4,7 +4,7 @@ title: InstantiateComponentFromPackage function (comppkgsup.h)
 description: Creates an instance of a class in an application package.
 helpviewer_keywords: ["InstantiateComponentFromPackage","InstantiateComponentFromPackage function [Windows API]","comppkgsup/InstantiateComponentFromPackage","winprog.instantiatecomponentfrompackage"]
 old-location: winprog\instantiatecomponentfrompackage.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
 ms.date: 12/05/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage

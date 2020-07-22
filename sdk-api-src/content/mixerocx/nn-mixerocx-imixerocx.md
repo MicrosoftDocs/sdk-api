@@ -4,7 +4,7 @@ title: IMixerOCX (mixerocx.h)
 description: The IMixerOCX interface is implemented on the Overlay Mixer.
 helpviewer_keywords: ["IMixerOCX","IMixerOCX interface [DirectShow]","IMixerOCX interface [DirectShow]","described","IMixerOCXInterface","dshow.imixerocx","mixerocx/IMixerOCX"]
 old-location: dshow\imixerocx.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX

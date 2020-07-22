@@ -4,7 +4,7 @@ title: InterlockedXor64 function (winnt.h)
 description: Performs an atomic XOR operation on the specified LONGLONG values.
 helpviewer_keywords: ["InterlockedXor64","InterlockedXor64 function","base.interlockedxor64","winnt/InterlockedXor64"]
 old-location: base\interlockedxor64.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: b0eef2c9-5b28-462b-91cb-20a337efca7e
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor64, InterlockedXor64 function, base.interlockedxor64, winnt/InterlockedXor64

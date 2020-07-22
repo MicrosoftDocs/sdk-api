@@ -4,7 +4,7 @@ title: WintrustGetDefaultForUsage function (wintrust.h)
 description: Retrieves the default usage identifier and callback information.
 helpviewer_keywords: ["DWACTION_ALLOCANDFILL","DWACTION_FREE","WintrustGetDefaultForUsage","WintrustGetDefaultForUsage function [Security]","security.wintrustgetdefaultforusage","wintrust/WintrustGetDefaultForUsage"]
 old-location: security\wintrustgetdefaultforusage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: B2ED5489-792F-4B00-A21E-EE1B1462D1C8
 ms.date: 12/05/2018
 ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, WintrustGetDefaultForUsage function [Security], security.wintrustgetdefaultforusage, wintrust/WintrustGetDefaultForUsage

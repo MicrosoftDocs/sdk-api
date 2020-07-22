@@ -4,7 +4,7 @@ title: IDirect3DCryptoSession9::NegotiateKeyExchange (d3d9.h)
 description: Establishes the session key for the cryptographic session.
 helpviewer_keywords: ["IDirect3DCryptoSession9 interface [Media Foundation]","NegotiateKeyExchange method","IDirect3DCryptoSession9.NegotiateKeyExchange","IDirect3DCryptoSession9::NegotiateKeyExchange","NegotiateKeyExchange","NegotiateKeyExchange method [Media Foundation]","NegotiateKeyExchange method [Media Foundation]","IDirect3DCryptoSession9 interface","d3d9/IDirect3DCryptoSession9::NegotiateKeyExchange","mf.idirect3dcryptosession9_negotiatekeyexchange"]
 old-location: mf\idirect3dcryptosession9_negotiatekeyexchange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9e12f169-b121-400d-9244-8d7d0097c030
 ms.date: 12/05/2018
 ms.keywords: IDirect3DCryptoSession9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DCryptoSession9.NegotiateKeyExchange, IDirect3DCryptoSession9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DCryptoSession9 interface, d3d9/IDirect3DCryptoSession9::NegotiateKeyExchange, mf.idirect3dcryptosession9_negotiatekeyexchange

@@ -4,7 +4,7 @@ title: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS (opmapi.h)
 description: Contains parameters for the IOPMVideoOutput::COPPCompatibleGetInformation method.
 helpviewer_keywords: ["OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS","OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Media Foundation]","mf.opm_copp_compatible_get_info_parameters","opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS"]
 old-location: mf\opm_copp_compatible_get_info_parameters.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 20094e3d-3140-451a-a572-c268ad4c50c1
 ms.date: 12/05/2018
 ms.keywords: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Media Foundation], mf.opm_copp_compatible_get_info_parameters, opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS

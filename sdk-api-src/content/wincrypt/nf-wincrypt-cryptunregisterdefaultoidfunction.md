@@ -4,7 +4,7 @@ title: CryptUnregisterDefaultOIDFunction function (wincrypt.h)
 description: The CryptUnregisterDefaultOIDFunction removes the registration of a DLL containing the default function to be called for the specified encoding type and function name.
 helpviewer_keywords: ["CryptUnregisterDefaultOIDFunction","CryptUnregisterDefaultOIDFunction function [Security]","_crypto2_cryptunregisterdefaultoidfunction","security.cryptunregisterdefaultoidfunction","wincrypt/CryptUnregisterDefaultOIDFunction"]
 old-location: security\cryptunregisterdefaultoidfunction.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 63f5b0c7-f574-4dc6-92c7-091f25febd48
 ms.date: 12/05/2018
 ms.keywords: CryptUnregisterDefaultOIDFunction, CryptUnregisterDefaultOIDFunction function [Security], _crypto2_cryptunregisterdefaultoidfunction, security.cryptunregisterdefaultoidfunction, wincrypt/CryptUnregisterDefaultOIDFunction

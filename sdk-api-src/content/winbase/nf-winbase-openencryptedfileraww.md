@@ -4,7 +4,7 @@ title: OpenEncryptedFileRawW function (winbase.h)
 description: Opens an encrypted file in order to backup (export) or restore (import) the file.
 helpviewer_keywords: ["CREATE_FOR_DIR","CREATE_FOR_IMPORT","OVERWRITE_HIDDEN","OpenEncryptedFileRaw","OpenEncryptedFileRaw function [Files]","OpenEncryptedFileRawA","OpenEncryptedFileRawW","base.openencryptedfileraw","fs.openencryptedfileraw","winbase/OpenEncryptedFileRaw","winbase/OpenEncryptedFileRawA","winbase/OpenEncryptedFileRawW"]
 old-location: fs\openencryptedfileraw.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
 ms.date: 12/05/2018
 ms.keywords: CREATE_FOR_DIR, CREATE_FOR_IMPORT, OVERWRITE_HIDDEN, OpenEncryptedFileRaw, OpenEncryptedFileRaw function [Files], OpenEncryptedFileRawA, OpenEncryptedFileRawW, base.openencryptedfileraw, fs.openencryptedfileraw, winbase/OpenEncryptedFileRaw, winbase/OpenEncryptedFileRawA, winbase/OpenEncryptedFileRawW

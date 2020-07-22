@@ -4,7 +4,7 @@ title: IMFSinkWriter (mfreadwrite.h)
 description: Implemented by the Microsoft Media Foundation sink writer object.
 helpviewer_keywords: ["IMFSinkWriter","IMFSinkWriter interface [Media Foundation]","IMFSinkWriter interface [Media Foundation]","described","mf.imfsinkwriter","mfreadwrite/IMFSinkWriter"]
 old-location: mf\imfsinkwriter.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 76fb915e-1586-429a-88a5-bd1290799352
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkWriter interface [Media Foundation],described, mf.imfsinkwriter, mfreadwrite/IMFSinkWriter

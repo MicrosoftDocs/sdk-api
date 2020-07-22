@@ -4,7 +4,7 @@ title: IXpsOMPath::SetAccessibilityLongDescription (xpsobjectmodel.h)
 description: Sets the long (detailed) textual description of the object's contents.
 helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetAccessibilityLongDescription method","IXpsOMPath.SetAccessibilityLongDescription","IXpsOMPath::SetAccessibilityLongDescription","SetAccessibilityLongDescription","SetAccessibilityLongDescription method [XPS Documents and Packaging]","SetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setaccessibilitylongdescription","xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription"]
 old-location: xps\ixpsompath_setaccessibilitylongdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 9727cbea-55f7-48ad-8205-d68d0c906250
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMPath.SetAccessibilityLongDescription, IXpsOMPath::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription

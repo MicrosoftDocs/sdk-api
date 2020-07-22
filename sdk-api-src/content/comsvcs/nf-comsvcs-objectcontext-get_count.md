@@ -4,7 +4,7 @@ title: ObjectContext::get_Count (comsvcs.h)
 description: Retrieves the number of named context object properties.
 helpviewer_keywords: ["ObjectContext interface [COM+]","get_Count method","ObjectContext.get_Count","ObjectContext::get_Count","_cos_ObjectContext_get_Count","comsvcs/ObjectContext::get_Count","cos.objectcontext_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","ObjectContext interface"]
 old-location: cos\objectcontext_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 0844876e-6e21-4fac-9d74-01c221e1d78a
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get_Count method, ObjectContext.get_Count, ObjectContext::get_Count, _cos_ObjectContext_get_Count, comsvcs/ObjectContext::get_Count, cos.objectcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ObjectContext interface

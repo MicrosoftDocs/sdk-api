@@ -4,7 +4,7 @@ title: IGraphConfig::PushThroughData (strmif.h)
 description: The PushThroughData method pushes data through the filter graph to the specified pin.
 helpviewer_keywords: ["IGraphConfig interface [DirectShow]","PushThroughData method","IGraphConfig.PushThroughData","IGraphConfig::PushThroughData","IGraphConfigPushThroughData","PushThroughData","PushThroughData method [DirectShow]","PushThroughData method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_pushthroughdata","strmif/IGraphConfig::PushThroughData"]
 old-location: dshow\igraphconfig_pushthroughdata.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f3d72a32-f43a-4a61-b25e-6d472aa629de
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],PushThroughData method, IGraphConfig.PushThroughData, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow],IGraphConfig interface, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData

@@ -4,7 +4,7 @@ title: ITDigitsGatheredEvent (tapi3if.h)
 description: The ITDigitsGatheredEvent interface exposes methods that allow an application to retrieve data when the TAPI Server sends an event indicating that the Server has gathered digits required by the application.
 helpviewer_keywords: ["ITDigitsGatheredEvent","ITDigitsGatheredEvent interface [TAPI 2.2]","ITDigitsGatheredEvent interface [TAPI 2.2]","described","_tapi3_itdigitsgatheredevent","tapi3.itdigitsgatheredevent","tapi3if/ITDigitsGatheredEvent"]
 old-location: tapi3\itdigitsgatheredevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2d710bea-a0fd-492b-81a3-03b741685c91
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], ITDigitsGatheredEvent interface [TAPI 2.2],described, _tapi3_itdigitsgatheredevent, tapi3.itdigitsgatheredevent, tapi3if/ITDigitsGatheredEvent

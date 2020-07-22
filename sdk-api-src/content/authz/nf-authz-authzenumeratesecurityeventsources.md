@@ -4,7 +4,7 @@ title: AuthzEnumerateSecurityEventSources function (authz.h)
 description: Retrieves the registered security event sources that are not installed by default.
 helpviewer_keywords: ["AuthzEnumerateSecurityEventSources","AuthzEnumerateSecurityEventSources function [Security]","authz/AuthzEnumerateSecurityEventSources","security.authzenumeratesecurityeventsources"]
 old-location: security\authzenumeratesecurityeventsources.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.date: 12/05/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources

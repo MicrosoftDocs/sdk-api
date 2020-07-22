@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::SearchById (wsddisco.h)
 description: Initializes a search for WS-Discovery hosts by device identifier.
 helpviewer_keywords: ["IWSDiscoveryProvider interface","SearchById method","IWSDiscoveryProvider.SearchById","IWSDiscoveryProvider::SearchById","SearchById","SearchById method","SearchById method","IWSDiscoveryProvider interface","ncd.iwsdiscoveryprovider_searchbyid","wsddisco/IWSDiscoveryProvider::SearchById"]
 old-location: ncd\iwsdiscoveryprovider_searchbyid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById

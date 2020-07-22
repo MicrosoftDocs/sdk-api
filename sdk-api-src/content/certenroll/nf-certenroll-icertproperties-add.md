@@ -4,7 +4,7 @@ title: ICertProperties::Add (certenroll.h)
 description: Adds a property to the collection.
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertProperties interface","ICertProperties interface [Security]","Add method","ICertProperties.Add","ICertProperties::Add","certenroll/ICertProperties::Add","security.icertproperties_add_method"]
 old-location: security\icertproperties_add_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method

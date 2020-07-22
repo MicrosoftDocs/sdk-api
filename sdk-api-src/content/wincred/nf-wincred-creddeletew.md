@@ -4,7 +4,7 @@ title: CredDeleteW function (wincred.h)
 description: Deletes a credential from the user's credential set.
 helpviewer_keywords: ["CredDelete","CredDelete function [Security]","CredDeleteA","CredDeleteW","_cred_creddelete","security.creddelete","wincred/CredDelete","wincred/CredDeleteA","wincred/CredDeleteW"]
 old-location: security\creddelete.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 154af9c8-18fd-412d-899d-7c6d2138380d
 ms.date: 12/05/2018
 ms.keywords: CredDelete, CredDelete function [Security], CredDeleteA, CredDeleteW, _cred_creddelete, security.creddelete, wincred/CredDelete, wincred/CredDeleteA, wincred/CredDeleteW

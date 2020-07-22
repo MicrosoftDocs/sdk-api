@@ -4,7 +4,7 @@ title: PeerCollabUpdateContact function (p2p.h)
 description: Updates the information associated with a peer contact specified in the local contact store of the caller.
 helpviewer_keywords: ["PeerCollabUpdateContact","PeerCollabUpdateContact function [Peer Networking]","p2p.peercollabupdatecontact","p2p/PeerCollabUpdateContact"]
 old-location: p2p\peercollabupdatecontact.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 66a72629-6be1-4f1e-aeb1-e9b484c74732
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUpdateContact, PeerCollabUpdateContact function [Peer Networking], p2p.peercollabupdatecontact, p2p/PeerCollabUpdateContact

@@ -4,7 +4,7 @@ title: GetSystemRegistryQuota function (winbase.h)
 description: Retrieves the current size of the registry and the maximum size that the registry is allowed to attain on the system.
 helpviewer_keywords: ["GetSystemRegistryQuota","GetSystemRegistryQuota function","base.getsystemregistryquota","winbase/GetSystemRegistryQuota"]
 old-location: base\getsystemregistryquota.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 06687b2a-2dab-4102-8022-4b70677064b2
 ms.date: 12/05/2018
 ms.keywords: GetSystemRegistryQuota, GetSystemRegistryQuota function, base.getsystemregistryquota, winbase/GetSystemRegistryQuota

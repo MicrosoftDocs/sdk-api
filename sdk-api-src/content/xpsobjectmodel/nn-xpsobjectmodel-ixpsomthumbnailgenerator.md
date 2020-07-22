@@ -4,7 +4,7 @@ title: IXpsOMThumbnailGenerator (xpsobjectmodel.h)
 description: Generates a thumbnail image resource.
 helpviewer_keywords: ["IXpsOMThumbnailGenerator","IXpsOMThumbnailGenerator interface [XPS Documents and Packaging]","IXpsOMThumbnailGenerator interface [XPS Documents and Packaging]","described","xps.ixpsomthumbnailgenerator","xpsobjectmodel/IXpsOMThumbnailGenerator"]
 old-location: xps\ixpsomthumbnailgenerator.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: cac794c0-bea2-417e-880f-15838f718ba7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator

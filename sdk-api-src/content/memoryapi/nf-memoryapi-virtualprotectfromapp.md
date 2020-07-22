@@ -4,7 +4,7 @@ title: VirtualProtectFromApp function (memoryapi.h)
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 helpviewer_keywords: ["VirtualProtectFromApp","VirtualProtectFromApp function","base.virtualprotectfromapp","memoryapi/VirtualProtectFromApp"]
 old-location: base\virtualprotectfromapp.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp

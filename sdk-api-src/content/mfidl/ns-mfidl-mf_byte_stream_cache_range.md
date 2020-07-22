@@ -4,7 +4,7 @@ title: MF_BYTE_STREAM_CACHE_RANGE (mfidl.h)
 description: Specifies a range of bytes.
 helpviewer_keywords: ["MF_BYTE_STREAM_CACHE_RANGE","MF_BYTE_STREAM_CACHE_RANGE structure [Media Foundation]","mf.mf_byte_stream_cache_range","mfidl/MF_BYTE_STREAM_CACHE_RANGE"]
 old-location: mf\mf_byte_stream_cache_range.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BE684626-32AC-4BF1-8CF1-D68F8A0ABB9E
 ms.date: 12/05/2018
 ms.keywords: MF_BYTE_STREAM_CACHE_RANGE, MF_BYTE_STREAM_CACHE_RANGE structure [Media Foundation], mf.mf_byte_stream_cache_range, mfidl/MF_BYTE_STREAM_CACHE_RANGE

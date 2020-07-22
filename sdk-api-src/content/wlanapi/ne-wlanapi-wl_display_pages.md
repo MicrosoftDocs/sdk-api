@@ -4,7 +4,7 @@ title: WL_DISPLAY_PAGES (wlanapi.h)
 description: Specifies the active tab when the wireless profile user interface dialog box appears.
 helpviewer_keywords: ["*PWL_DISPLAY_PAGES","PWL_DISPLAY_PAGES","PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI]","WLConnectionPage","WLSecurityPage","WL_DISPLAY_PAGES","WL_DISPLAY_PAGES enumeration [NativeWIFI]","nwifi.wl_display_pages","wlanapi/PWL_DISPLAY_PAGES","wlanapi/WLConnectionPage","wlanapi/WLSecurityPage","wlanapi/WL_DISPLAY_PAGES"]
 old-location: nwifi\wl_display_pages.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
 ms.date: 12/05/2018
 ms.keywords: '*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES'

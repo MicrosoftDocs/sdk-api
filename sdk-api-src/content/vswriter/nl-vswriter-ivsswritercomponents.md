@@ -4,7 +4,7 @@ title: IVssWriterComponents (vswriter.h)
 description: Contains methods used to obtain and modify component information.
 helpviewer_keywords: ["IVssWriterComponents","IVssWriterComponents interface [VSS]","IVssWriterComponents interface [VSS]","described","_win32_ivsswritercomponents","base.ivsswritercomponents","vswriter/IVssWriterComponents"]
 old-location: base\ivsswritercomponents.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605
 ms.date: 12/05/2018
 ms.keywords: IVssWriterComponents, IVssWriterComponents interface [VSS], IVssWriterComponents interface [VSS],described, _win32_ivsswritercomponents, base.ivsswritercomponents, vswriter/IVssWriterComponents

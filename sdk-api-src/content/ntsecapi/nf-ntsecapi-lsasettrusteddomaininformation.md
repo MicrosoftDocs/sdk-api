@@ -4,7 +4,7 @@ title: LsaSetTrustedDomainInformation function (ntsecapi.h)
 description: The LsaSetTrustedDomainInformation function modifies a Policy object's information about a trusted domain.
 helpviewer_keywords: ["LsaSetTrustedDomainInformation","LsaSetTrustedDomainInformation function [Security]","TrustedDomainNameInformation","TrustedPasswordInformation","TrustedPosixOffsetInformation","_lsa_lsasettrusteddomaininformation","ntsecapi/LsaSetTrustedDomainInformation","security.lsasettrusteddomaininformation"]
 old-location: security\lsasettrusteddomaininformation.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
 ms.date: 12/05/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation

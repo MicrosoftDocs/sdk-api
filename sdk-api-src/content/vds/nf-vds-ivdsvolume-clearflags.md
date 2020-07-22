@@ -4,7 +4,7 @@ title: IVdsVolume::ClearFlags (vds.h)
 description: Clears the volume flags.
 helpviewer_keywords: ["ClearFlags","ClearFlags method [VDS]","ClearFlags method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","ClearFlags method","IVdsVolume.ClearFlags","IVdsVolume::ClearFlags","base.ivdsvolume_clearflags","vds/IVdsVolume::ClearFlags"]
 old-location: base\ivdsvolume_clearflags.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 970dcd4a-ac06-4e2d-969c-82c5dabd0019
 ms.date: 12/05/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],ClearFlags method, IVdsVolume.ClearFlags, IVdsVolume::ClearFlags, base.ivdsvolume_clearflags, vds/IVdsVolume::ClearFlags

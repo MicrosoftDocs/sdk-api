@@ -4,7 +4,7 @@ title: IAMovieSetup::Register (strmif.h)
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Adds the filter to the registry.
 helpviewer_keywords: ["IAMovieSetup interface [DirectShow]","Register method","IAMovieSetup.Register","IAMovieSetup::Register","IAMovieSetupRegister","Register","Register method [DirectShow]","Register method [DirectShow]","IAMovieSetup interface","dshow.iamoviesetup_register","strmif/IAMovieSetup::Register"]
 old-location: dshow\iamoviesetup_register.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c39edba2-df48-43e4-9a0d-d5c409a8a9d0
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Register method, IAMovieSetup.Register, IAMovieSetup::Register, IAMovieSetupRegister, Register, Register method [DirectShow], Register method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_register, strmif/IAMovieSetup::Register

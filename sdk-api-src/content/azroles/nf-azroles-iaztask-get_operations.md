@@ -4,7 +4,7 @@ title: IAzTask::get_Operations (azroles.h)
 description: Retrieves the operations associated with the task.
 helpviewer_keywords: ["AzTask object [Security]","Operations property","IAzTask interface [Security]","Operations property","IAzTask.Operations","IAzTask.get_Operations","IAzTask::Operations","IAzTask::get_Operations","Operations property [Security]","Operations property [Security]","AzTask object","Operations property [Security]","IAzTask interface","azroles/IAzTask::Operations","azroles/IAzTask::get_Operations","get_Operations","security.iaztask_operations"]
 old-location: security\iaztask_operations.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Operations property, IAzTask interface [Security],Operations property, IAzTask.Operations, IAzTask.get_Operations, IAzTask::Operations, IAzTask::get_Operations, Operations property [Security], Operations property [Security],AzTask object, Operations property [Security],IAzTask interface, azroles/IAzTask::Operations, azroles/IAzTask::get_Operations, get_Operations, security.iaztask_operations

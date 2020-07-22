@@ -4,7 +4,7 @@ title: LZRead function (lzexpand.h)
 description: Reads (at most) the specified number of bytes from a file and copies them into a buffer.
 helpviewer_keywords: ["LZRead","LZRead function [Files]","_win32_lzread","base.lzread","fs.lzread","lzexpand/LZRead"]
 old-location: fs\lzread.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 15c6829f-2e24-4299-a2fa-a5737ec73ba9
 ms.date: 12/05/2018
 ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzread, lzexpand/LZRead

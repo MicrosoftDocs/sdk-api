@@ -4,7 +4,7 @@ title: IMFNetCredentialManager (mfidl.h)
 description: Implemented by applications to provide user credentials for a network source.
 helpviewer_keywords: ["002d8608-4ef9-40fd-8dcc-fe6ade34478e","IMFNetCredentialManager","IMFNetCredentialManager interface [Media Foundation]","IMFNetCredentialManager interface [Media Foundation]","described","mf.imfnetcredentialmanager","mfidl/IMFNetCredentialManager"]
 old-location: mf\imfnetcredentialmanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 002d8608-4ef9-40fd-8dcc-fe6ade34478e
 ms.date: 12/05/2018
 ms.keywords: 002d8608-4ef9-40fd-8dcc-fe6ade34478e, IMFNetCredentialManager, IMFNetCredentialManager interface [Media Foundation], IMFNetCredentialManager interface [Media Foundation],described, mf.imfnetcredentialmanager, mfidl/IMFNetCredentialManager

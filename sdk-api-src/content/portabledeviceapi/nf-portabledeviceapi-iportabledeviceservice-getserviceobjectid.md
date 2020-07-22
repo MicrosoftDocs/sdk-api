@@ -4,7 +4,7 @@ title: IPortableDeviceService::GetServiceObjectID (portabledeviceapi.h)
 description: Retrieves an object identifier for the service. This object identifier can be used to access the properties of the service, for example.
 helpviewer_keywords: ["GetServiceObjectID","GetServiceObjectID method [Windows Portable Devices SDK]","GetServiceObjectID method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","GetServiceObjectID method","IPortableDeviceService.GetServiceObjectID","IPortableDeviceService::GetServiceObjectID","portabledeviceapi/IPortableDeviceService::GetServiceObjectID","wpdsdk.iportabledeviceservice_getserviceobjectid"]
 old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: f86907c4-5d8a-4659-ab57-3c235face8cf
 ms.date: 12/05/2018
 ms.keywords: GetServiceObjectID, GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetServiceObjectID method, IPortableDeviceService.GetServiceObjectID, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid

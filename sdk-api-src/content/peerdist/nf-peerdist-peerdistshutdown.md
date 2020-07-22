@@ -4,7 +4,7 @@ title: PeerDistShutdown function (peerdist.h)
 description: PeerDistShutdown function releases resources allocated by a call to PeerDistStartup. Each handle returned by a PeerDistStartup call must be closed by a matching call to PeerDistShutdown.
 helpviewer_keywords: ["PeerDistShutdown","PeerDistShutdown function [Peer Networking]","p2p.peerdistshutdown","peerdist/PeerDistShutdown"]
 old-location: p2p\peerdistshutdown.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 47fe4a77-2895-4d5b-beff-995e12fb0644
 ms.date: 12/05/2018
 ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.peerdistshutdown, peerdist/PeerDistShutdown

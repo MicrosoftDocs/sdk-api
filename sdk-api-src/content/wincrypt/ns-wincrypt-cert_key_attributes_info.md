@@ -4,7 +4,7 @@ title: CERT_KEY_ATTRIBUTES_INFO (wincrypt.h)
 description: The CERT_KEY_ATTRIBUTES_INFO structure contains optional additional information about the public key being certified.
 helpviewer_keywords: ["*PCERT_KEY_ATTRIBUTES_INFO","CERT_KEY_ATTRIBUTES_INFO","CERT_KEY_ATTRIBUTES_INFO structure [Security]","PCERT_KEY_ATTRIBUTES_INFO","PCERT_KEY_ATTRIBUTES_INFO structure pointer [Security]","_crypto2_cert_key_attributes_info","security.cert_key_attributes_info","wincrypt/CERT_KEY_ATTRIBUTES_INFO","wincrypt/PCERT_KEY_ATTRIBUTES_INFO"]
 old-location: security\cert_key_attributes_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cedf0321-4f5a-48a9-abfd-d8642bb89576
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO structure [Security], PCERT_KEY_ATTRIBUTES_INFO, PCERT_KEY_ATTRIBUTES_INFO structure pointer [Security], _crypto2_cert_key_attributes_info, security.cert_key_attributes_info, wincrypt/CERT_KEY_ATTRIBUTES_INFO, wincrypt/PCERT_KEY_ATTRIBUTES_INFO'

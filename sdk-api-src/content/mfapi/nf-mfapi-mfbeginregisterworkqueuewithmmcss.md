@@ -4,7 +4,7 @@ title: MFBeginRegisterWorkQueueWithMMCSS function (mfapi.h)
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 helpviewer_keywords: ["9bcc6ab3-b7da-4b32-a868-c16f83ce20ca","MFBeginRegisterWorkQueueWithMMCSS","MFBeginRegisterWorkQueueWithMMCSS function [Media Foundation]","mf.mfbeginregisterworkqueuewithmmcss","mfapi/MFBeginRegisterWorkQueueWithMMCSS"]
 old-location: mf\mfbeginregisterworkqueuewithmmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca
 ms.date: 12/05/2018
 ms.keywords: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca, MFBeginRegisterWorkQueueWithMMCSS, MFBeginRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcss, mfapi/MFBeginRegisterWorkQueueWithMMCSS

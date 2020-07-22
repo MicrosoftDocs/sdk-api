@@ -4,7 +4,7 @@ title: WinHttpTimeToSystemTime function (winhttp.h)
 description: The WinHttpTimeToSystemTime function takes an HTTP time/date string and converts it to a SYSTEMTIME structure.
 helpviewer_keywords: ["WinHttpTimeToSystemTime","WinHttpTimeToSystemTime function [WinHTTP]","http.winhttptimetosystemtime","winhttp.winhttptimetosystemtime_function","winhttp/WinHttpTimeToSystemTime"]
 old-location: http\winhttptimetosystemtime.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 4a587832-e1ce-42d4-97bb-a728f895906b
 ms.date: 12/05/2018
 ms.keywords: WinHttpTimeToSystemTime, WinHttpTimeToSystemTime function [WinHTTP], http.winhttptimetosystemtime, winhttp.winhttptimetosystemtime_function, winhttp/WinHttpTimeToSystemTime

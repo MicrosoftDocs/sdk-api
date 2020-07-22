@@ -4,7 +4,7 @@ title: IGraphConfigCallback::Reconfigure (strmif.h)
 description: The Reconfigure method is a callback method passed to IGraphConfig::Reconfigure.
 helpviewer_keywords: ["IGraphConfigCallback interface [DirectShow]","Reconfigure method","IGraphConfigCallback.Reconfigure","IGraphConfigCallback::Reconfigure","IGraphConfigCallbackReconfigure","Reconfigure","Reconfigure method [DirectShow]","Reconfigure method [DirectShow]","IGraphConfigCallback interface","dshow.igraphconfigcallback_reconfigure","strmif/IGraphConfigCallback::Reconfigure"]
 old-location: dshow\igraphconfigcallback_reconfigure.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b4f44639-b3b0-412e-8b71-e1f994dee0e6
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback interface [DirectShow],Reconfigure method, IGraphConfigCallback.Reconfigure, IGraphConfigCallback::Reconfigure, IGraphConfigCallbackReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfigCallback interface, dshow.igraphconfigcallback_reconfigure, strmif/IGraphConfigCallback::Reconfigure

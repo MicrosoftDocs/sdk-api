@@ -4,7 +4,7 @@ title: IAMDecoderCaps (strmif.h)
 description: The IAMDecoderCaps interface returns capabilities information from an MPEG decoder filter.
 helpviewer_keywords: ["IAMDecoderCaps","IAMDecoderCaps interface [DirectShow]","IAMDecoderCaps interface [DirectShow]","described","IAMDecoderCapsInterface","dshow.iamdecodercaps","strmif/IAMDecoderCaps"]
 old-location: dshow\iamdecodercaps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3951200b-5a81-4832-9dae-021a76c1ab20
 ms.date: 12/05/2018
 ms.keywords: IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], IAMDecoderCaps interface [DirectShow],described, IAMDecoderCapsInterface, dshow.iamdecodercaps, strmif/IAMDecoderCaps

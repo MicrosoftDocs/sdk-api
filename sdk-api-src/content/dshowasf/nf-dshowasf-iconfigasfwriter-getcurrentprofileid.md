@@ -4,7 +4,7 @@ title: IConfigAsfWriter::GetCurrentProfileId (dshowasf.h)
 description: The GetCurrentProfileId method retrieves the identifier of the WM ASF Writer filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.).
 helpviewer_keywords: ["GetCurrentProfileId","GetCurrentProfileId method [DirectShow]","GetCurrentProfileId method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","GetCurrentProfileId method","IConfigAsfWriter.GetCurrentProfileId","IConfigAsfWriter::GetCurrentProfileId","IConfigAsfWriterGetCurrentProfileId","dshow.iconfigasfwriter_getcurrentprofileid","dshowasf/IConfigAsfWriter::GetCurrentProfileId"]
 old-location: dshow\iconfigasfwriter_getcurrentprofileid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 37288625-368f-41d4-bfdc-bb2fd144f455
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfileId, GetCurrentProfileId method [DirectShow], GetCurrentProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfileId method, IConfigAsfWriter.GetCurrentProfileId, IConfigAsfWriter::GetCurrentProfileId, IConfigAsfWriterGetCurrentProfileId, dshow.iconfigasfwriter_getcurrentprofileid, dshowasf/IConfigAsfWriter::GetCurrentProfileId

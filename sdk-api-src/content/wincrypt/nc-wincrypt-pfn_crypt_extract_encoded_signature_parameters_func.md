@@ -4,7 +4,7 @@ title: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC (wincrypt.h)
 description: Called to decode and return the hash algorithm identifier and optionally the signature parameters.
 helpviewer_keywords: ["PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC","PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback","PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function [Security]","security.pfn_crypt_extract_encoded_signature_parameters_func","wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC"]
 old-location: security\pfn_crypt_extract_encoded_signature_parameters_func.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function [Security], security.pfn_crypt_extract_encoded_signature_parameters_func, wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC

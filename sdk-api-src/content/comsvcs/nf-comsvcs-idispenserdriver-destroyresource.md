@@ -4,7 +4,7 @@ title: IDispenserDriver::DestroyResource (comsvcs.h)
 description: Destroys a resource.
 helpviewer_keywords: ["DestroyResource","DestroyResource method [COM+]","DestroyResource method [COM+]","IDispenserDriver interface","IDispenserDriver interface [COM+]","DestroyResource method","IDispenserDriver.DestroyResource","IDispenserDriver::DestroyResource","_dtc_IDispenserDriver_DestroyResource","comsvcs/IDispenserDriver::DestroyResource","cos.idispenserdriver_destroyresource"]
 old-location: cos\idispenserdriver_destroyresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 94e3e340-7dde-4b7f-82a9-83cd2400bde5
 ms.date: 12/05/2018
 ms.keywords: DestroyResource, DestroyResource method [COM+], DestroyResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResource method, IDispenserDriver.DestroyResource, IDispenserDriver::DestroyResource, _dtc_IDispenserDriver_DestroyResource, comsvcs/IDispenserDriver::DestroyResource, cos.idispenserdriver_destroyresource

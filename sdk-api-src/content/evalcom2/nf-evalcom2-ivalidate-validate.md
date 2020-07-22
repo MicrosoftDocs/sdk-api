@@ -4,7 +4,7 @@ title: IValidate::Validate (evalcom2.h)
 description: The Validate method performs validation of the installation package or merge module using the specified internal consistency evaluator file.
 helpviewer_keywords: ["IValidate interface","Validate method","IValidate.Validate","IValidate::Validate","Validate","Validate method","Validate method","IValidate interface","evalcom2/IValidate::Validate","setup.ivalidate_validate"]
 old-location: setup\ivalidate_validate.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f7a50031-52ac-4ea2-847c-6212706a9cbd
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,Validate method, IValidate.Validate, IValidate::Validate, Validate, Validate method, Validate method,IValidate interface, evalcom2/IValidate::Validate, setup.ivalidate_validate

@@ -4,7 +4,7 @@ title: IWMCodecLeakyBucket::GetBufferSizeBits (wmcodecdsp.h)
 description: Retrieves the current size of the buffer in bits.
 helpviewer_keywords: ["GetBufferSizeBits","GetBufferSizeBits method [Media Foundation]","GetBufferSizeBits method [Media Foundation]","IWMCodecLeakyBucket interface","IWMCodecLeakyBucket interface [Media Foundation]","GetBufferSizeBits method","IWMCodecLeakyBucket.GetBufferSizeBits","IWMCodecLeakyBucket::GetBufferSizeBits","codecapi.iwmcodecleakybucketgetbuffersizebits","mf.iwmcodecleakybucketgetbuffersizebits","wmcodecdsp/IWMCodecLeakyBucket::GetBufferSizeBits"]
 old-location: mf\iwmcodecleakybucketgetbuffersizebits.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7fa0835e-7386-4032-a94b-ef52259aeea9
 ms.date: 12/05/2018
 ms.keywords: GetBufferSizeBits, GetBufferSizeBits method [Media Foundation], GetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferSizeBits method, IWMCodecLeakyBucket.GetBufferSizeBits, IWMCodecLeakyBucket::GetBufferSizeBits, codecapi.iwmcodecleakybucketgetbuffersizebits, mf.iwmcodecleakybucketgetbuffersizebits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferSizeBits

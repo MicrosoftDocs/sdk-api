@@ -4,7 +4,7 @@ title: WTHelperProvDataFromStateData function (wintrust.h)
 description: Retrieves trust provider information from a specified handle.
 helpviewer_keywords: ["WTHelperProvDataFromStateData","WTHelperProvDataFromStateData function [Security]","security.wthelperprovdatafromstatedata","wintrust/WTHelperProvDataFromStateData"]
 old-location: security\wthelperprovdatafromstatedata.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af
 ms.date: 12/05/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData

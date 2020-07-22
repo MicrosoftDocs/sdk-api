@@ -4,7 +4,7 @@ title: LSA_DELETE_LOGON_SESSION (ntsecpkg.h)
 description: Cleans up any logon sessions created while determining whether a user's authentication information is legitimate.
 helpviewer_keywords: ["DeleteLogonSession","DeleteLogonSession callback function [Security]","LSA_DELETE_LOGON_SESSION","LSA_DELETE_LOGON_SESSION callback","_lsa_deletelogonsession","ntsecpkg/DeleteLogonSession","security.deletelogonsession"]
 old-location: security\deletelogonsession.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 72b9451c-8a94-4e64-bd78-0afef210671c
 ms.date: 12/05/2018
 ms.keywords: DeleteLogonSession, DeleteLogonSession callback function [Security], LSA_DELETE_LOGON_SESSION, LSA_DELETE_LOGON_SESSION callback, _lsa_deletelogonsession, ntsecpkg/DeleteLogonSession, security.deletelogonsession

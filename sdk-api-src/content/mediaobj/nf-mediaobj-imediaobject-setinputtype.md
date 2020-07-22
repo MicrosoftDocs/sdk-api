@@ -4,7 +4,7 @@ title: IMediaObject::SetInputType (mediaobj.h)
 description: The SetInputType method sets the media type on an input stream, or tests whether a media type is acceptable.
 helpviewer_keywords: ["IMediaObject interface [DirectShow]","SetInputType method","IMediaObject.SetInputType","IMediaObject::SetInputType","IMediaObjectSetInputType","SetInputType","SetInputType method [DirectShow]","SetInputType method [DirectShow]","IMediaObject interface","dshow.imediaobject_setinputtype","mediaobj/IMediaObject::SetInputType"]
 old-location: dshow\imediaobject_setinputtype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6b466fe4-97a0-46f9-9e4b-461ee66095f1
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputType method, IMediaObject.SetInputType, IMediaObject::SetInputType, IMediaObjectSetInputType, SetInputType, SetInputType method [DirectShow], SetInputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputtype, mediaobj/IMediaObject::SetInputType

@@ -4,7 +4,7 @@ title: ICertPropertyRenewal::get_Renewal (certenroll.h)
 description: Retrieves the SHA-1 hash of the new certificate.
 helpviewer_keywords: ["ICertPropertyRenewal interface [Security]","Renewal property","ICertPropertyRenewal.Renewal","ICertPropertyRenewal.get_Renewal","ICertPropertyRenewal::Renewal","ICertPropertyRenewal::get_Renewal","Renewal property [Security]","Renewal property [Security]","ICertPropertyRenewal interface","certenroll/ICertPropertyRenewal::Renewal","certenroll/ICertPropertyRenewal::get_Renewal","get_Renewal","security.icertpropertyrenewal_renewal_property"]
 old-location: security\icertpropertyrenewal_renewal_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal.get_Renewal, ICertPropertyRenewal::Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal, security.icertpropertyrenewal_renewal_property

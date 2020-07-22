@@ -4,7 +4,7 @@ title: IDvdInfo2::GetAllSPRMs (strmif.h)
 description: The GetAllSPRMs method retrieves the current contents of all system parameter registers (SPRMs).
 helpviewer_keywords: ["GetAllSPRMs","GetAllSPRMs method [DirectShow]","GetAllSPRMs method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetAllSPRMs method","IDvdInfo2.GetAllSPRMs","IDvdInfo2::GetAllSPRMs","IDvdInfo2GetAllSPRMs","dshow.idvdinfo2_getallsprms","strmif/IDvdInfo2::GetAllSPRMs"]
 old-location: dshow\idvdinfo2_getallsprms.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4a5fb447-670d-4f1f-838e-266843185efe
 ms.date: 12/05/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllSPRMs method, IDvdInfo2.GetAllSPRMs, IDvdInfo2::GetAllSPRMs, IDvdInfo2GetAllSPRMs, dshow.idvdinfo2_getallsprms, strmif/IDvdInfo2::GetAllSPRMs

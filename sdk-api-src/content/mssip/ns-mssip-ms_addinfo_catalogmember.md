@@ -4,7 +4,7 @@ title: MS_ADDINFO_CATALOGMEMBER (mssip.h)
 description: Provides additional information for catalog member subject types.
 helpviewer_keywords: ["*PMS_ADDINFO_CATALOGMEMBER","MS_ADDINFO_CATALOGMEMBER","MS_ADDINFO_CATALOGMEMBER structure [Security]","PMS_ADDINFO_CATALOGMEMBER","PMS_ADDINFO_CATALOGMEMBER structure pointer [Security]","mssip/MS_ADDINFO_CATALOGMEMBER_","mssip/PMS_ADDINFO_CATALOGMEMBER","security.ms_addinfo_catalogmember"]
 old-location: security\ms_addinfo_catalogmember.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 40a00c8a-95e4-406c-b04e-0d29beb70d67
 ms.date: 12/05/2018
 ms.keywords: '*PMS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER structure [Security], PMS_ADDINFO_CATALOGMEMBER, PMS_ADDINFO_CATALOGMEMBER structure pointer [Security], mssip/MS_ADDINFO_CATALOGMEMBER_, mssip/PMS_ADDINFO_CATALOGMEMBER, security.ms_addinfo_catalogmember'

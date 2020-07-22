@@ -4,7 +4,7 @@ title: IMtsGrp::get_Count (comsvcs.h)
 description: Retrieves the number of running packages in the catalog.
 helpviewer_keywords: ["IMtsGrp interface [COM+]","get_Count method","IMtsGrp.get_Count","IMtsGrp::get_Count","_dtc_IMtsGrp_get_Count","comsvcs/IMtsGrp::get_Count","cos.imtsgrp_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","IMtsGrp interface"]
 old-location: cos\imtsgrp_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 84d1d2e1-ea06-4e3f-81d9-bb2ed02cf021
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],get_Count method, IMtsGrp.get_Count, IMtsGrp::get_Count, _dtc_IMtsGrp_get_Count, comsvcs/IMtsGrp::get_Count, cos.imtsgrp_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsGrp interface

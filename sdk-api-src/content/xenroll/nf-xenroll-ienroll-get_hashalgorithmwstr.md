@@ -4,7 +4,7 @@ title: IEnroll::get_HashAlgorithmWStr (xenroll.h)
 description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS
 helpviewer_keywords: ["HashAlgorithmWStr property [Security]","HashAlgorithmWStr property [Security]","IEnroll interface","IEnroll interface [Security]","HashAlgorithmWStr property","IEnroll.HashAlgorithmWStr","IEnroll.get_HashAlgorithmWStr","IEnroll::HashAlgorithmWStr","IEnroll::get_HashAlgorithmWStr","IEnroll::put_HashAlgorithmWStr","get_HashAlgorithmWStr","security.ienroll4_hashalgorithmwstr","xenroll/IEnroll::HashAlgorithmWStr","xenroll/IEnroll::get_HashAlgorithmWStr","xenroll/IEnroll::put_HashAlgorithmWStr"]
 old-location: security\ienroll4_hashalgorithmwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c359c4c8-f53d-48f1-a2ac-9275751b48dc
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security],IEnroll interface, IEnroll interface [Security],HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll.get_HashAlgorithmWStr, IEnroll::HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, get_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr

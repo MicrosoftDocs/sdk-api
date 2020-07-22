@@ -4,7 +4,7 @@ title: IFhConfigMgr::SetBackupStatus (fhcfg.h)
 description: Changes the backup status value for an FhConfigMgr object.
 helpviewer_keywords: ["FhConfigMgr class [Windows API]","SetBackupStatus method","IFhConfigMgr interface [Windows API]","SetBackupStatus method","IFhConfigMgr.SetBackupStatus","IFhConfigMgr::SetBackupStatus","SetBackupStatus","SetBackupStatus method [Windows API]","SetBackupStatus method [Windows API]","FhConfigMgr class","SetBackupStatus method [Windows API]","IFhConfigMgr interface","fhcfg/IFhConfigMgr::SetBackupStatus","winprog.ifhconfigmgr_setbackupstatus"]
 old-location: winprog\ifhconfigmgr_setbackupstatus.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 17FF01A1-028D-4A22-A64C-F24C98F86663
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],SetBackupStatus method, IFhConfigMgr interface [Windows API],SetBackupStatus method, IFhConfigMgr.SetBackupStatus, IFhConfigMgr::SetBackupStatus, SetBackupStatus, SetBackupStatus method [Windows API], SetBackupStatus method [Windows API],FhConfigMgr class, SetBackupStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetBackupStatus, winprog.ifhconfigmgr_setbackupstatus

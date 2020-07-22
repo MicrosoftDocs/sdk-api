@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetScopes (wsddisco.h)
 description: Retrieves a list of WS-Discovery Scopes.
 helpviewer_keywords: ["GetScopes","GetScopes method","GetScopes method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetScopes method","IWSDiscoveredService.GetScopes","IWSDiscoveredService::GetScopes","ncd.iwsdiscoveredservice_getscopes","wsddisco/IWSDiscoveredService::GetScopes"]
 old-location: ncd\iwsdiscoveredservice_getscopes.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9b389ba3-9cc1-4bc2-949a-e7103378cbcc
 ms.date: 12/05/2018
 ms.keywords: GetScopes, GetScopes method, GetScopes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetScopes method, IWSDiscoveredService.GetScopes, IWSDiscoveredService::GetScopes, ncd.iwsdiscoveredservice_getscopes, wsddisco/IWSDiscoveredService::GetScopes

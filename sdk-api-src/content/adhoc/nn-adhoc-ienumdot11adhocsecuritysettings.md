@@ -4,7 +4,7 @@ title: IEnumDot11AdHocSecuritySettings (adhoc.h)
 description: Represents the collection of security settings associated with each visible wireless ad hoc network.
 helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings","IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","described","adhoc/IEnumDot11AdHocSecuritySettings","nwifi.ienumdot11adhocsecuritysettings"]
 old-location: nwifi\ienumdot11adhocsecuritysettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings

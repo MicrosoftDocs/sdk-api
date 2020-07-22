@@ -4,7 +4,7 @@ title: GetPhysicallyInstalledSystemMemory function (sysinfoapi.h)
 description: Retrieves the amount of RAM that is physically installed on the computer.
 helpviewer_keywords: ["GetPhysicallyInstalledSystemMemory","GetPhysicallyInstalledSystemMemory function","base.getphysicallyinstalledsystemmemory","sysinfoapi/GetPhysicallyInstalledSystemMemory"]
 old-location: base\getphysicallyinstalledsystemmemory.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: b9ac1174-399d-4962-a00c-6f2e3fb0c573
 ms.date: 12/05/2018
 ms.keywords: GetPhysicallyInstalledSystemMemory, GetPhysicallyInstalledSystemMemory function, base.getphysicallyinstalledsystemmemory, sysinfoapi/GetPhysicallyInstalledSystemMemory

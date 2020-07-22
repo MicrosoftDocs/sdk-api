@@ -4,7 +4,7 @@ title: TransactionVote (comsvcs.h)
 description: Indicates the readiness of an object to commit or abort the current transaction.
 helpviewer_keywords: ["TransactionVote","TransactionVote enumeration [COM+]","TxAbort","TxCommit","_cos_TransactionVote","comsvcs/TransactionVote","comsvcs/TxAbort","comsvcs/TxCommit","cos.transactionvote"]
 old-location: cos\transactionvote.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2fea9ac5-f714-4682-a78c-bfe9396fccd5
 ms.date: 12/05/2018
 ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCommit, _cos_TransactionVote, comsvcs/TransactionVote, comsvcs/TxAbort, comsvcs/TxCommit, cos.transactionvote

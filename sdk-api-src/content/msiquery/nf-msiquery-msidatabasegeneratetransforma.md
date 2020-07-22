@@ -4,7 +4,7 @@ title: MsiDatabaseGenerateTransformA function (msiquery.h)
 description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
 helpviewer_keywords: ["MsiDatabaseGenerateTransform","MsiDatabaseGenerateTransform function","MsiDatabaseGenerateTransformA","MsiDatabaseGenerateTransformW","_msi_msidatabasegeneratetransform","msiquery/MsiDatabaseGenerateTransform","msiquery/MsiDatabaseGenerateTransformA","msiquery/MsiDatabaseGenerateTransformW","setup.msidatabasegeneratetransform"]
 old-location: setup\msidatabasegeneratetransform.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseGenerateTransform, MsiDatabaseGenerateTransform function, MsiDatabaseGenerateTransformA, MsiDatabaseGenerateTransformW, _msi_msidatabasegeneratetransform, msiquery/MsiDatabaseGenerateTransform, msiquery/MsiDatabaseGenerateTransformA, msiquery/MsiDatabaseGenerateTransformW, setup.msidatabasegeneratetransform

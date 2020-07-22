@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_MOVE_MEDIUM
 description: Moves a piece of media to a destination.
 helpviewer_keywords: ["IOCTL_CHANGER_MOVE_MEDIUM","IOCTL_CHANGER_MOVE_MEDIUM control","IOCTL_CHANGER_MOVE_MEDIUM control code","_win32_ioctl_changer_move_medium","base.ioctl_changer_move_medium","winioctl/IOCTL_CHANGER_MOVE_MEDIUM"]
 old-location: base\ioctl_changer_move_medium.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 73fa826c-ef7f-4341-838e-73e025d8d1c1
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL_CHANGER_MOVE_MEDIUM control code, _win32_ioctl_changer_move_medium, base.ioctl_changer_move_medium, winioctl/IOCTL_CHANGER_MOVE_MEDIUM

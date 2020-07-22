@@ -4,7 +4,7 @@ title: IWscProduct::get_ProductName (iwscapi.h)
 description: Returns the current product information for the security product.
 helpviewer_keywords: ["IWscProduct interface [Windows API]","get_ProductName method","IWscProduct.get_ProductName","IWscProduct::get_ProductName","get_ProductName","get_ProductName method [Windows API]","get_ProductName method [Windows API]","IWscProduct interface","iwscapi/IWscProduct::get_ProductName","winprog.iwscproduct_productname"]
 old-location: winprog\iwscproduct_productname.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 5270D8AF-AA69-4CC8-8ABC-F0716B3ED588
 ms.date: 12/05/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductName method, IWscProduct.get_ProductName, IWscProduct::get_ProductName, get_ProductName, get_ProductName method [Windows API], get_ProductName method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_ProductName, winprog.iwscproduct_productname

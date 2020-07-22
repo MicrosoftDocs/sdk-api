@@ -4,7 +4,7 @@ title: IContextState::GetMyTransactionVote (comsvcs.h)
 description: Retrieves the value of the consistent flag.
 helpviewer_keywords: ["GetMyTransactionVote","GetMyTransactionVote method [COM+]","GetMyTransactionVote method [COM+]","IContextState interface","IContextState interface [COM+]","GetMyTransactionVote method","IContextState.GetMyTransactionVote","IContextState::GetMyTransactionVote","_cos_IContextState_GetMyTransactionVote","comsvcs/IContextState::GetMyTransactionVote","cos.icontextstate_getmytransactionvote"]
 old-location: cos\icontextstate_getmytransactionvote.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 72384c53-ce4a-413e-8ff6-33925c8cd0df
 ms.date: 12/05/2018
 ms.keywords: GetMyTransactionVote, GetMyTransactionVote method [COM+], GetMyTransactionVote method [COM+],IContextState interface, IContextState interface [COM+],GetMyTransactionVote method, IContextState.GetMyTransactionVote, IContextState::GetMyTransactionVote, _cos_IContextState_GetMyTransactionVote, comsvcs/IContextState::GetMyTransactionVote, cos.icontextstate_getmytransactionvote

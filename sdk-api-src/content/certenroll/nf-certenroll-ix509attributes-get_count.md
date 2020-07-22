@@ -4,7 +4,7 @@ title: IX509Attributes::get_Count (certenroll.h)
 description: Retrieves the number of IX509Attribute objects in the collection.
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","IX509Attributes interface","IX509Attributes interface [Security]","Count property","IX509Attributes.Count","IX509Attributes.get_Count","IX509Attributes::Count","IX509Attributes::get_Count","certenroll/IX509Attributes::Count","certenroll/IX509Attributes::get_Count","get_Count","security.ix509attributes_count_property"]
 old-location: security\ix509attributes_count_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c2ba7a6e-b049-4251-af56-0ea0a18a96ae
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509Attributes interface, IX509Attributes interface [Security],Count property, IX509Attributes.Count, IX509Attributes.get_Count, IX509Attributes::Count, IX509Attributes::get_Count, certenroll/IX509Attributes::Count, certenroll/IX509Attributes::get_Count, get_Count, security.ix509attributes_count_property

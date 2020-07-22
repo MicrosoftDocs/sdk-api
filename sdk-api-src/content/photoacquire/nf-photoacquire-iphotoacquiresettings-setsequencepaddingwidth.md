@@ -4,7 +4,7 @@ title: IPhotoAcquireSettings::SetSequencePaddingWidth (photoacquire.h)
 description: The SetSequencePaddingWidth method sets a value indicating how wide sequential fields in filenames will be.
 helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetSequencePaddingWidth method","IPhotoAcquireSettings.SetSequencePaddingWidth","IPhotoAcquireSettings::SetSequencePaddingWidth","IPhotoAcquireSettingsSetSequencePaddingWidth","SetSequencePaddingWidth","SetSequencePaddingWidth method [Picture Acquisition]","SetSequencePaddingWidth method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetSequencePaddingWidth","picacq.iphotoacquiresettings_setsequencepaddingwidth"]
 old-location: picacq\iphotoacquiresettings_setsequencepaddingwidth.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 2c90c109-1522-4722-a691-6f0f3caa50ec
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetSequencePaddingWidth method, IPhotoAcquireSettings.SetSequencePaddingWidth, IPhotoAcquireSettings::SetSequencePaddingWidth, IPhotoAcquireSettingsSetSequencePaddingWidth, SetSequencePaddingWidth, SetSequencePaddingWidth method [Picture Acquisition], SetSequencePaddingWidth method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetSequencePaddingWidth, picacq.iphotoacquiresettings_setsequencepaddingwidth

@@ -4,7 +4,7 @@ title: VDS_TARGET_NOTIFICATION (vds.h)
 description: Defines the details of iSCSI target events.
 helpviewer_keywords: ["VDS_NF_TARGET_ARRIVE","VDS_NF_TARGET_DEPART","VDS_NF_TARGET_MODIFY","VDS_TARGET_NOTIFICATION","VDS_TARGET_NOTIFICATION structure [VDS]","base.vds_target_notification","vds/_VDS_TARGET_NOTIFICATION","vdshwprv/_VDS_TARGET_NOTIFICATION"]
 old-location: base\vds_target_notification.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 71453c9c-d6a7-4527-8988-c0388d7a9991
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_TARGET_ARRIVE, VDS_NF_TARGET_DEPART, VDS_NF_TARGET_MODIFY, VDS_TARGET_NOTIFICATION, VDS_TARGET_NOTIFICATION structure [VDS], base.vds_target_notification, vds/_VDS_TARGET_NOTIFICATION, vdshwprv/_VDS_TARGET_NOTIFICATION

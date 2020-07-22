@@ -4,7 +4,7 @@ title: REASON_CONTEXT (minwinbase.h)
 description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
 helpviewer_keywords: ["*PREASON_CONTEXT","POWER_REQUEST_CONTEXT_DETAILED_STRING","POWER_REQUEST_CONTEXT_SIMPLE_STRING","PREASON_CONTEXT","PREASON_CONTEXT structure pointer","REASON_CONTEXT","REASON_CONTEXT structure","base.reason_context","minwinbase/PREASON_CONTEXT","minwinbase/REASON_CONTEXT","winbase/PREASON_CONTEXT","winbase/REASON_CONTEXT"]
 old-location: base\reason_context.htm
-tech.root: power
+tech.root: base
 ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
 ms.date: 12/05/2018
 ms.keywords: '*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT'

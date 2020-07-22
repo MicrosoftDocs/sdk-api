@@ -4,7 +4,7 @@ title: IXpsOMColorProfileResourceCollection (xpsobjectmodel.h)
 description: A collection of IXpsOMColorProfileResource interface pointers.
 helpviewer_keywords: ["IXpsOMColorProfileResourceCollection","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","described","xps.ixpsomcolorprofileresourcecollection","xpsobjectmodel/IXpsOMColorProfileResourceCollection"]
 old-location: xps\ixpsomcolorprofileresourcecollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: cb9253f3-461e-47a3-820b-bb6bf5e30210
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresourcecollection, xpsobjectmodel/IXpsOMColorProfileResourceCollection

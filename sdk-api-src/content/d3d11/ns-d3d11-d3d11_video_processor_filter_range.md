@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_FILTER_RANGE (d3d11.h)
 description: Defines the range of supported values for an image filter.
 helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_FILTER_RANGE","D3D11_VIDEO_PROCESSOR_FILTER_RANGE structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_FILTER_RANGE","mf.d3d11_video_processor_filter_range"]
 old-location: mf\d3d11_video_processor_filter_range.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 22B11763-717A-49D7-8F5B-2FD21C13F11E
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_VIDEO_PROCESSOR_FILTER_RANGE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_FILTER_RANGE, mf.d3d11_video_processor_filter_range

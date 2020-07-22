@@ -4,7 +4,7 @@ title: RtwqStartup function (rtworkq.h)
 description: Initializes the platform.
 helpviewer_keywords: ["RtwqStartup","RtwqStartup function","base.rtwqstartup","rtworkq/RtwqStartup"]
 old-location: base\rtwqstartup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 101e73ec-34ec-49af-999d-5410f46ff319
 ms.date: 12/05/2018
 ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqStartup

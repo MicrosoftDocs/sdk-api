@@ -4,7 +4,7 @@ title: ITQOSEvent::get_Call (tapi3if.h)
 description: The get_Call method gets a pointer to the ITCallInfo interface for the call on which the QOS event occurred.
 helpviewer_keywords: ["ITQOSEvent interface [TAPI 2.2]","get_Call method","ITQOSEvent.get_Call","ITQOSEvent::get_Call","_tapi3_itqosevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITQOSEvent interface","tapi3.itqosevent_get_call","tapi3if/ITQOSEvent::get_Call"]
 old-location: tapi3\itqosevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e91772da-948a-4d0a-999e-cdd51951fca2
 ms.date: 12/05/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Call method, ITQOSEvent.get_Call, ITQOSEvent::get_Call, _tapi3_itqosevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_call, tapi3if/ITQOSEvent::get_Call

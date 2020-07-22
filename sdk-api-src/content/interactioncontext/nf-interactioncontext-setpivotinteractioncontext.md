@@ -4,7 +4,7 @@ title: SetPivotInteractionContext function (interactioncontext.h)
 description: Sets the center point, and the pivot radius from the center point, for a rotation manipulation using a single input pointer.
 helpviewer_keywords: ["SetPivotInteractionContext","SetPivotInteractionContext function","input_intcontext.setpivotinteractioncontext","interactioncontext.setpivotinteractioncontext","interactioncontext/SetPivotInteractionContext"]
 old-location: input_intcontext\setpivotinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 3997e444-e90a-417f-a75c-69363b4c82d2
 ms.date: 12/05/2018
 ms.keywords: SetPivotInteractionContext, SetPivotInteractionContext function, input_intcontext.setpivotinteractioncontext, interactioncontext.setpivotinteractioncontext, interactioncontext/SetPivotInteractionContext

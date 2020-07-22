@@ -4,7 +4,7 @@ title: IXpsOMPackage1::GetDocumentType (xpsobjectmodel_1.h)
 description: Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 helpviewer_keywords: ["GetDocumentType","GetDocumentType method [XPS Documents and Packaging]","GetDocumentType method [XPS Documents and Packaging]","IXpsOMPackage1 interface","IXpsOMPackage1 interface [XPS Documents and Packaging]","GetDocumentType method","IXpsOMPackage1.GetDocumentType","IXpsOMPackage1::GetDocumentType","xps.ixpsompackage1_getdocumenttype","xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType"]
 old-location: xps\ixpsompackage1_getdocumenttype.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8f51e5c5-ac80-4f45-a0bb-ef19137fe391
 ms.date: 12/05/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPackage1 interface, IXpsOMPackage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPackage1.GetDocumentType, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType

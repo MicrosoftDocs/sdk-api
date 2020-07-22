@@ -4,7 +4,7 @@ title: NtOpenFile function (winternl.h)
 description: Opens an existing file, device, directory, or volume, and returns a handle for the file object.
 helpviewer_keywords: ["NtOpenFile","NtOpenFile function [Windows API]","winprog.ntopenfile","winternl/NtOpenFile"]
 old-location: winprog\ntopenfile.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: b77a85d1-7d2d-4834-b5d9-9baf68804369
 ms.date: 12/05/2018
 ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, winternl/NtOpenFile

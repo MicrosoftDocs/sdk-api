@@ -4,7 +4,7 @@ title: IDvdInfo::GetAllGPRMs (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all general parameter registers (GPRMs).
 helpviewer_keywords: ["GetAllGPRMs","GetAllGPRMs method [DirectShow]","GetAllGPRMs method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetAllGPRMs method","IDvdInfo.GetAllGPRMs","IDvdInfo::GetAllGPRMs","IDvdInfoGetAllGPRMs","dshow.idvdinfo_getallgprms","strmif/IDvdInfo::GetAllGPRMs"]
 old-location: dshow\idvdinfo_getallgprms.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 87d82404-cd43-4499-abc2-6c043c43bf4e
 ms.date: 12/05/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllGPRMs method, IDvdInfo.GetAllGPRMs, IDvdInfo::GetAllGPRMs, IDvdInfoGetAllGPRMs, dshow.idvdinfo_getallgprms, strmif/IDvdInfo::GetAllGPRMs

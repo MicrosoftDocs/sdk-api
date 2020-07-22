@@ -4,7 +4,7 @@ title: OpenTransaction function (ktmw32.h)
 description: Opens an existing transaction.
 helpviewer_keywords: ["OpenTransaction","OpenTransaction function [Files]","fs.opentransaction","ktmw32/OpenTransaction"]
 old-location: fs\opentransaction.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
 ms.date: 12/05/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction

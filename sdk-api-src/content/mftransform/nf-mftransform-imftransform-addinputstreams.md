@@ -4,7 +4,7 @@ title: IMFTransform::AddInputStreams (mftransform.h)
 description: Adds one or more new input streams to this Media Foundation transform (MFT).
 helpviewer_keywords: ["311ab66e-5dbd-452a-bad4-99a6293cbc60","AddInputStreams","AddInputStreams method [Media Foundation]","AddInputStreams method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","AddInputStreams method","IMFTransform.AddInputStreams","IMFTransform::AddInputStreams","mf.imftransform_addinputstreams","mftransform/IMFTransform::AddInputStreams"]
 old-location: mf\imftransform_addinputstreams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
 ms.date: 12/05/2018
 ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],AddInputStreams method, IMFTransform.AddInputStreams, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams

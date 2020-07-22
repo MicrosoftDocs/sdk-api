@@ -4,7 +4,7 @@ title: IXpsOMTileBrush::GetTransform (xpsobjectmodel.h)
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the brush.
 helpviewer_keywords: ["GetTransform","GetTransform method [XPS Documents and Packaging]","GetTransform method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetTransform method","IXpsOMTileBrush.GetTransform","IXpsOMTileBrush::GetTransform","xps.ixpsomtilebrush_gettransform","xpsobjectmodel/IXpsOMTileBrush::GetTransform"]
 old-location: xps\ixpsomtilebrush_gettransform.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: db4c4ef8-d5f4-4cff-b38d-d211e14a98c1
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransform method, IXpsOMTileBrush.GetTransform, IXpsOMTileBrush::GetTransform, xps.ixpsomtilebrush_gettransform, xpsobjectmodel/IXpsOMTileBrush::GetTransform

@@ -4,7 +4,7 @@ title: WlanHostedNetworkSetSecondaryKey function (wlanapi.h)
 description: Configures the secondary security key that will be used by the wireless Hosted Network.
 helpviewer_keywords: ["WlanHostedNetworkSetSecondaryKey","WlanHostedNetworkSetSecondaryKey function [NativeWIFI]","nwifi.wlanhostednetworksetsecondarykey","wlanapi/WlanHostedNetworkSetSecondaryKey"]
 old-location: nwifi\wlanhostednetworksetsecondarykey.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 385148fd-b5cd-4221-be25-077f484e93e9
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkSetSecondaryKey, WlanHostedNetworkSetSecondaryKey function [NativeWIFI], nwifi.wlanhostednetworksetsecondarykey, wlanapi/WlanHostedNetworkSetSecondaryKey

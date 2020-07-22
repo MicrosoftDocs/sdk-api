@@ -4,7 +4,7 @@ title: IEffectivePermission2 (aclui.h)
 description: Provides a way to determine effective permission for a security principal on an object.
 helpviewer_keywords: ["IEffectivePermission2","IEffectivePermission2 interface [Security]","IEffectivePermission2 interface [Security]","described","aclui/IEffectivePermission2","security.ieffectivepermission2"]
 old-location: security\ieffectivepermission2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2FDCA205-6880-4526-B8D7-6F9B107B218B
 ms.date: 12/05/2018
 ms.keywords: IEffectivePermission2, IEffectivePermission2 interface [Security], IEffectivePermission2 interface [Security],described, aclui/IEffectivePermission2, security.ieffectivepermission2

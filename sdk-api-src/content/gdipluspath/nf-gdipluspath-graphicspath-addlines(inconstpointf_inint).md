@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.GraphicsPath.AddLines(INconstPointF,ININT)
 title: GraphicsPath::AddLines
 description: The GraphicsPath::AddLines method adds a sequence of connected lines to the current figure of this path.
+tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddLines"]
 ms.assetid: 8b530334-98d8-4f73-88d5-e585c4b8e8ea
 ms.date: 05/13/2019

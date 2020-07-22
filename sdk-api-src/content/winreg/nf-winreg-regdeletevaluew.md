@@ -4,7 +4,7 @@ title: RegDeleteValueW function (winreg.h)
 description: Removes a named value from the specified registry key.
 helpviewer_keywords: ["RegDeleteValue","RegDeleteValue function","RegDeleteValueA","RegDeleteValueW","_win32_regdeletevalue","base.regdeletevalue","winreg/RegDeleteValue","winreg/RegDeleteValueA","winreg/RegDeleteValueW"]
 old-location: base\regdeletevalue.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 4393b4ef-cd10-40d4-bb12-2d84e7cb7d3c
 ms.date: 12/05/2018
 ms.keywords: RegDeleteValue, RegDeleteValue function, RegDeleteValueA, RegDeleteValueW, _win32_regdeletevalue, base.regdeletevalue, winreg/RegDeleteValue, winreg/RegDeleteValueA, winreg/RegDeleteValueW

@@ -4,7 +4,7 @@ title: GetWindowsAccountDomainSid function (securitybaseapi.h)
 description: Receives a security identifier (SID) and returns a SID representing the domain of that SID.
 helpviewer_keywords: ["GetWindowsAccountDomainSid","GetWindowsAccountDomainSid function [Security]","_win32_getwindowsaccountdomainsid","security.getwindowsaccountdomainsid","securitybaseapi/GetWindowsAccountDomainSid"]
 old-location: security\getwindowsaccountdomainsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ee2ba1b4-1bef-4d79-bb18-512705e2c378
 ms.date: 12/05/2018
 ms.keywords: GetWindowsAccountDomainSid, GetWindowsAccountDomainSid function [Security], _win32_getwindowsaccountdomainsid, security.getwindowsaccountdomainsid, securitybaseapi/GetWindowsAccountDomainSid

@@ -4,7 +4,7 @@ title: IVssComponent::GetRestoreMetadata (vswriter.h)
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
 helpviewer_keywords: ["GetRestoreMetadata","GetRestoreMetadata method [VSS]","GetRestoreMetadata method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetRestoreMetadata method","IVssComponent.GetRestoreMetadata","IVssComponent::GetRestoreMetadata","_win32_ivsscomponent_getrestoremetadata","base.ivsscomponent_getrestoremetadata","vswriter/IVssComponent::GetRestoreMetadata"]
 old-location: base\ivsscomponent_getrestoremetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 1b53c523-a105-4507-89f3-1f746aa86204
 ms.date: 12/05/2018
 ms.keywords: GetRestoreMetadata, GetRestoreMetadata method [VSS], GetRestoreMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreMetadata method, IVssComponent.GetRestoreMetadata, IVssComponent::GetRestoreMetadata, _win32_ivsscomponent_getrestoremetadata, base.ivsscomponent_getrestoremetadata, vswriter/IVssComponent::GetRestoreMetadata

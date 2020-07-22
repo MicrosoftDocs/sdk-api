@@ -4,7 +4,7 @@ title: IMFSequencerSource::DeleteTopology (mfidl.h)
 description: Deletes a topology from the queue.
 helpviewer_keywords: ["6ef3512d-f953-46a3-8604-bec3904a962f","DeleteTopology","DeleteTopology method [Media Foundation]","DeleteTopology method [Media Foundation]","IMFSequencerSource interface","IMFSequencerSource interface [Media Foundation]","DeleteTopology method","IMFSequencerSource.DeleteTopology","IMFSequencerSource::DeleteTopology","mf.imfsequencersource_deletetopology","mfidl/IMFSequencerSource::DeleteTopology"]
 old-location: mf\imfsequencersource_deletetopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6ef3512d-f953-46a3-8604-bec3904a962f
 ms.date: 12/05/2018
 ms.keywords: 6ef3512d-f953-46a3-8604-bec3904a962f, DeleteTopology, DeleteTopology method [Media Foundation], DeleteTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],DeleteTopology method, IMFSequencerSource.DeleteTopology, IMFSequencerSource::DeleteTopology, mf.imfsequencersource_deletetopology, mfidl/IMFSequencerSource::DeleteTopology

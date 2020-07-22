@@ -4,7 +4,7 @@ title: VfwCaptureDialogs (strmif.h)
 description: Specifies a dialog box that might exist in a Video for Windows capture driver.
 helpviewer_keywords: ["VfwCaptureDialog_Display","VfwCaptureDialog_Format","VfwCaptureDialog_Source","VfwCaptureDialogs","VfwCaptureDialogs enumeration [DirectShow]","VfwCaptureDialogsEnumeration","dshow.vfwcapturedialogs","strmif/VfwCaptureDialog_Display","strmif/VfwCaptureDialog_Format","strmif/VfwCaptureDialog_Source","strmif/VfwCaptureDialogs"]
 old-location: dshow\vfwcapturedialogs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0465d887-6452-4a67-9f52-a459620d12d2
 ms.date: 12/05/2018
 ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog_Source, VfwCaptureDialogs, VfwCaptureDialogs enumeration [DirectShow], VfwCaptureDialogsEnumeration, dshow.vfwcapturedialogs, strmif/VfwCaptureDialog_Display, strmif/VfwCaptureDialog_Format, strmif/VfwCaptureDialog_Source, strmif/VfwCaptureDialogs

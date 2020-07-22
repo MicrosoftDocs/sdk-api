@@ -4,7 +4,7 @@ title: IAMCertifiedOutputProtection::SessionSequenceStart (strmif.h)
 description: The SessionSequenceStart method initiates the COPP session with the graphics driver.
 helpviewer_keywords: ["IAMCertifiedOutputProtection interface [DirectShow]","SessionSequenceStart method","IAMCertifiedOutputProtection.SessionSequenceStart","IAMCertifiedOutputProtection::SessionSequenceStart","IAMCertifiedOutputProtectionSessionSequenceStart","SessionSequenceStart","SessionSequenceStart method [DirectShow]","SessionSequenceStart method [DirectShow]","IAMCertifiedOutputProtection interface","dshow.iamcertifiedoutputprotection_sessionsequencestart","strmif/IAMCertifiedOutputProtection::SessionSequenceStart"]
 old-location: dshow\iamcertifiedoutputprotection_sessionsequencestart.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0321e315-b53c-487f-a015-80f7ed581737
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart

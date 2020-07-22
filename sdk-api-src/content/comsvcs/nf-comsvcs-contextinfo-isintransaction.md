@@ -4,7 +4,7 @@ title: ContextInfo::IsInTransaction (comsvcs.h)
 description: Indicates whether the current object is executing in a transaction.
 helpviewer_keywords: ["ContextInfo interface [COM+]","IsInTransaction method","ContextInfo.IsInTransaction","ContextInfo::IsInTransaction","IsInTransaction","IsInTransaction method [COM+]","IsInTransaction method [COM+]","ContextInfo interface","_cos_ContextInfo_IsInTransaction","comsvcs/ContextInfo::IsInTransaction","cos.contextinfo_isintransaction"]
 old-location: cos\contextinfo_isintransaction.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 587805a4-6713-40be-83b6-5c772b5396cf
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],IsInTransaction method, ContextInfo.IsInTransaction, ContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ContextInfo interface, _cos_ContextInfo_IsInTransaction, comsvcs/ContextInfo::IsInTransaction, cos.contextinfo_isintransaction

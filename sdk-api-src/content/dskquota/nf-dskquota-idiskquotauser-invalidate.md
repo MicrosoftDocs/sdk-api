@@ -4,7 +4,7 @@ title: IDiskQuotaUser::Invalidate (dskquota.h)
 description: Invalidates the quota information stored in the quota user object.
 helpviewer_keywords: ["IDiskQuotaUser interface [Files]","Invalidate method","IDiskQuotaUser.Invalidate","IDiskQuotaUser::Invalidate","Invalidate","Invalidate method [Files]","Invalidate method [Files]","IDiskQuotaUser interface","_win32_idiskquotauser_invalidate","base.idiskquotauser_invalidate","dskquota/IDiskQuotaUser::Invalidate","fs.idiskquotauser_invalidate"]
 old-location: fs\idiskquotauser_invalidate.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 23a51df4-0578-43fe-99cd-491f709accab
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser interface [Files],Invalidate method, IDiskQuotaUser.Invalidate, IDiskQuotaUser::Invalidate, Invalidate, Invalidate method [Files], Invalidate method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_invalidate, base.idiskquotauser_invalidate, dskquota/IDiskQuotaUser::Invalidate, fs.idiskquotauser_invalidate

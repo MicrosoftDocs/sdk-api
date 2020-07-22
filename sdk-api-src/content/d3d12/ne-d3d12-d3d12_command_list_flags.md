@@ -3,7 +3,7 @@ UID: NE:d3d12.D3D12_COMMAND_LIST_FLAGS
 title: D3D12_COMMAND_LIST_FLAGS
 description: 
 helpviewer_keywords: ["D3D12_COMMAND_LIST_FLAGS","D3D12_COMMAND_LIST_FLAGS",""]
-tech.root: 
+tech.root: direct3d12
 ms.assetid: e9f512c9-32f5-46a4-a6a1-a0f203ec527b
 ms.date: 11/14/2019
 f1_keywords:

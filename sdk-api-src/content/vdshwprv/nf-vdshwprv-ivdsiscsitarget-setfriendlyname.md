@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::SetFriendlyName (vdshwprv.h)
 description: Sets the friendly name of the target.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","SetFriendlyName method","IVdsIscsiTarget.SetFriendlyName","IVdsIscsiTarget::SetFriendlyName","SetFriendlyName","SetFriendlyName method [VDS]","SetFriendlyName method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_setfriendlyname","vds/IVdsIscsiTarget::SetFriendlyName","vdshwprv/IVdsIscsiTarget::SetFriendlyName"]
 old-location: base\ivdsiscsitarget_setfriendlyname.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 34afd8d7-473b-49c5-8486-2749144aea5c
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetFriendlyName method, IVdsIscsiTarget.SetFriendlyName, IVdsIscsiTarget::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setfriendlyname, vds/IVdsIscsiTarget::SetFriendlyName, vdshwprv/IVdsIscsiTarget::SetFriendlyName

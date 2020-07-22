@@ -4,7 +4,7 @@ title: WSDXML_PREFIX_MAPPING (wsdxmldom.h)
 description: Describes an XML namespace prefix.
 helpviewer_keywords: ["WSDXML_PREFIX_MAPPING","WSDXML_PREFIX_MAPPING structure","_WSDXML_PREFIX_MAPPING","ncd.wsdxml_prefix_mapping_struct","wsdxmldom/WSDXML_PREFIX_MAPPING"]
 old-location: ncd\wsdxml_prefix_mapping_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d49a155a-a71b-4038-86a8-eb398db64e72
 ms.date: 12/05/2018
 ms.keywords: WSDXML_PREFIX_MAPPING, WSDXML_PREFIX_MAPPING structure, _WSDXML_PREFIX_MAPPING, ncd.wsdxml_prefix_mapping_struct, wsdxmldom/WSDXML_PREFIX_MAPPING

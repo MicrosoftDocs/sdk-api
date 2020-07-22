@@ -2,6 +2,7 @@
 UID: NF:windns.DnsStartMulticastQuery
 title: DnsStartMulticastQuery function
 description: Used to register a discoverable service on this device.
+tech.root: dns
 helpviewer_keywords: ["DnsStartMulticastQuery"]
 ms.date: 02/14/2019
 ms.keywords: DnsStartMulticastQuery

@@ -4,7 +4,7 @@ title: TSPI_lineSetTerminal function (tspi.h)
 description: The TSPI_lineSetTerminal function enables TAPI to specify to which terminal information related to the specified line, address, or call is to be routed.
 helpviewer_keywords: ["TSPI_lineSetTerminal","TSPI_lineSetTerminal function [TAPI 2.2]","_tspi_tspi_linesetterminal","tspi.tspi_linesetterminal","tspi/TSPI_lineSetTerminal"]
 old-location: tspi\tspi_linesetterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 106451b0-4491-472d-b73a-5d8333f0a372
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetTerminal, TSPI_lineSetTerminal function [TAPI 2.2], _tspi_tspi_linesetterminal, tspi.tspi_linesetterminal, tspi/TSPI_lineSetTerminal

@@ -4,7 +4,7 @@ title: ITPhone::get_PhoneCapsString (tapi3if.h)
 description: The get_PhoneCapsString method gets a string capability/information about the phone, based on the PHONECAPS_STRING enum passed in. The application does not have to call ITPhone::Open before executing this method.
 helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_PhoneCapsString method","ITPhone.get_PhoneCapsString","ITPhone::get_PhoneCapsString","_tapi3_itphone_get_phonecapsstring","get_PhoneCapsString","get_PhoneCapsString method [TAPI 2.2]","get_PhoneCapsString method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_phonecapsstring","tapi3if/ITPhone::get_PhoneCapsString"]
 old-location: tapi3\itphone_get_phonecapsstring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e4a0ed77-455e-428c-a3e5-cd467e47b5b2
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsString method, ITPhone.get_PhoneCapsString, ITPhone::get_PhoneCapsString, _tapi3_itphone_get_phonecapsstring, get_PhoneCapsString, get_PhoneCapsString method [TAPI 2.2], get_PhoneCapsString method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapsstring, tapi3if/ITPhone::get_PhoneCapsString

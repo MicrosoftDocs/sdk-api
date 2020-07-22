@@ -4,7 +4,7 @@ title: ICertEncodeStringArray::GetValue (certenc.h)
 description: Returns the specified string from the string array.
 helpviewer_keywords: ["CCertEncodeStringArray object [Security]","GetValue method","GetValue","GetValue method [Security]","GetValue method [Security]","CCertEncodeStringArray object","GetValue method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","GetValue method","ICertEncodeStringArray.GetValue","ICertEncodeStringArray::GetValue","_certsrv_icertencodestringarray_getvalue","certenc/ICertEncodeStringArray::GetValue","security.icertencodestringarray_getvalue"]
 old-location: security\icertencodestringarray_getvalue.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 93f827c6-4dc6-462f-8865-eb631d7fe7bc
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeStringArray object, GetValue method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetValue method, ICertEncodeStringArray.GetValue, ICertEncodeStringArray::GetValue, _certsrv_icertencodestringarray_getvalue, certenc/ICertEncodeStringArray::GetValue, security.icertencodestringarray_getvalue

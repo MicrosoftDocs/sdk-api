@@ -4,7 +4,7 @@ title: IMFPMediaPlayer::SetVolume (mfplay.h)
 description: Sets the audio volume.
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetVolume method","IMFPMediaPlayer.SetVolume","IMFPMediaPlayer::SetVolume","SetVolume","SetVolume method [Media Foundation]","SetVolume method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setvolume","mfplay/IMFPMediaPlayer::SetVolume"]
 old-location: mf\imfpmediaplayer_setvolume.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVolume method, IMFPMediaPlayer.SetVolume, IMFPMediaPlayer::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume

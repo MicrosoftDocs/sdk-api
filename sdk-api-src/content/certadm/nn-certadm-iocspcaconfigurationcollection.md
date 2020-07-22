@@ -4,7 +4,7 @@ title: IOCSPCAConfigurationCollection (certadm.h)
 description: Represents a set of certificates for which an Online Certificate Status Protocol (OCSP) service has been configured to provide certificate status responses.
 helpviewer_keywords: ["IOCSPCAConfigurationCollection","IOCSPCAConfigurationCollection interface [Security]","IOCSPCAConfigurationCollection interface [Security]","described","certadm/IOCSPCAConfigurationCollection","security.iocspcaconfigurationcollection"]
 old-location: security\iocspcaconfigurationcollection.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection

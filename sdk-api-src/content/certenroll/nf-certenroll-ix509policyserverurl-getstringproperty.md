@@ -4,7 +4,7 @@ title: IX509PolicyServerUrl::GetStringProperty (certenroll.h)
 description: Retrieves the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
 helpviewer_keywords: ["GetStringProperty","GetStringProperty method [Security]","GetStringProperty method [Security]","IX509PolicyServerUrl interface","IX509PolicyServerUrl interface [Security]","GetStringProperty method","IX509PolicyServerUrl.GetStringProperty","IX509PolicyServerUrl::GetStringProperty","PsFriendlyName","PsPolicyID","certenroll/IX509PolicyServerUrl::GetStringProperty","security.ix509policyserverurl_getstringproperty"]
 old-location: security\ix509policyserverurl_getstringproperty.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1a163774-2e32-48f7-9aa1-cbfa0ec7a943
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Security], GetStringProperty method [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],GetStringProperty method, IX509PolicyServerUrl.GetStringProperty, IX509PolicyServerUrl::GetStringProperty, PsFriendlyName, PsPolicyID, certenroll/IX509PolicyServerUrl::GetStringProperty, security.ix509policyserverurl_getstringproperty

@@ -4,7 +4,7 @@ title: TXF_ID (txfw32.h)
 description: Represents a unique identifier within the context of the Resource Manager.
 helpviewer_keywords: ["*PTXF_ID","PTXF_ID","PTXF_ID structure pointer [Files]","TXF_ID","TXF_ID structure [Files]","fs.txf_id","txfw32/PTXF_ID","txfw32/TXF_ID"]
 old-location: fs\txf_id.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
 ms.date: 12/05/2018
 ms.keywords: '*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID'

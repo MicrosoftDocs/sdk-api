@@ -4,7 +4,7 @@ title: CredPackAuthenticationBufferW function (wincred.h)
 description: Converts a string user name and password into an authentication buffer.
 helpviewer_keywords: ["CRED_PACK_GENERIC_CREDENTIALS","CRED_PACK_ID_PROVIDER_CREDENTIALS","CRED_PACK_PROTECTED_CREDENTIALS","CRED_PACK_WOW_BUFFER","CredPackAuthenticationBuffer","CredPackAuthenticationBuffer function [Security]","CredPackAuthenticationBufferA","CredPackAuthenticationBufferW","security.credpackauthenticationbuffer","wincred/CredPackAuthenticationBuffer","wincred/CredPackAuthenticationBufferA","wincred/CredPackAuthenticationBufferW"]
 old-location: security\credpackauthenticationbuffer.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 48ffdd7a-1969-4f6a-bbc7-2826e21ea052
 ms.date: 12/05/2018
 ms.keywords: CRED_PACK_GENERIC_CREDENTIALS, CRED_PACK_ID_PROVIDER_CREDENTIALS, CRED_PACK_PROTECTED_CREDENTIALS, CRED_PACK_WOW_BUFFER, CredPackAuthenticationBuffer, CredPackAuthenticationBuffer function [Security], CredPackAuthenticationBufferA, CredPackAuthenticationBufferW, security.credpackauthenticationbuffer, wincred/CredPackAuthenticationBuffer, wincred/CredPackAuthenticationBufferA, wincred/CredPackAuthenticationBufferW

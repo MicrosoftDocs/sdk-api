@@ -4,7 +4,7 @@ title: CertAddEncodedCertificateToSystemStoreA function (wincrypt.h)
 description: Opens the specified system store and adds the encoded certificate to it.
 helpviewer_keywords: ["CertAddEncodedCertificateToSystemStore","CertAddEncodedCertificateToSystemStore function [Security]","CertAddEncodedCertificateToSystemStoreA","CertAddEncodedCertificateToSystemStoreW","security.certaddencodedcertificatetosystemstore","wincrypt/CertAddEncodedCertificateToSystemStore","wincrypt/CertAddEncodedCertificateToSystemStoreA","wincrypt/CertAddEncodedCertificateToSystemStoreW"]
 old-location: security\certaddencodedcertificatetosystemstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 72ff1bcc-eb94-4d97-89fa-d95ed9eb460e
 ms.date: 12/05/2018
 ms.keywords: CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW

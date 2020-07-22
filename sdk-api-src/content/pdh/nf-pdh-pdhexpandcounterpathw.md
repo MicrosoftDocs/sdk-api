@@ -4,7 +4,7 @@ title: PdhExpandCounterPathW function (pdh.h)
 description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 helpviewer_keywords: ["PdhExpandCounterPath","PdhExpandCounterPath function [Perf]","PdhExpandCounterPathA","PdhExpandCounterPathW","_win32_pdhexpandcounterpath","base.pdhexpandcounterpath","pdh/PdhExpandCounterPath","pdh/PdhExpandCounterPathA","pdh/PdhExpandCounterPathW","perf.pdhexpandcounterpath"]
 old-location: perf\pdhexpandcounterpath.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.date: 12/05/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath

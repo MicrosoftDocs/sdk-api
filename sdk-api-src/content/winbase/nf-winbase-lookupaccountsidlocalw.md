@@ -4,7 +4,7 @@ title: LookupAccountSidLocalW function (winbase.h)
 description: Retrieves the name of the account for the specified SID on the local machine.
 helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
 old-location: security\lookupaccountsidlocal.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW

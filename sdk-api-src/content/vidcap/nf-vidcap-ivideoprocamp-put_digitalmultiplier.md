@@ -4,7 +4,7 @@ title: IVideoProcAmp::put_DigitalMultiplier (vidcap.h)
 description: The put_DigitalMultiplier method sets the camera's digital zoom level.
 helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_DigitalMultiplier method","IVideoProcAmp.put_DigitalMultiplier","IVideoProcAmp::put_DigitalMultiplier","IVideoProcAmpput_DigitalMultiplier","dshow.ivideoprocamp_put_digitalmultiplier","put_DigitalMultiplier","put_DigitalMultiplier method [DirectShow]","put_DigitalMultiplier method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_DigitalMultiplier"]
 old-location: dshow\ivideoprocamp_put_digitalmultiplier.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c1832aad-22fc-41f0-a99a-09b56c148384
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_DigitalMultiplier method, IVideoProcAmp.put_DigitalMultiplier, IVideoProcAmp::put_DigitalMultiplier, IVideoProcAmpput_DigitalMultiplier, dshow.ivideoprocamp_put_digitalmultiplier, put_DigitalMultiplier, put_DigitalMultiplier method [DirectShow], put_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_DigitalMultiplier

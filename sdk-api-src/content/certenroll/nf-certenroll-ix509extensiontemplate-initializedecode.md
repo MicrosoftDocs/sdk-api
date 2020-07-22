@@ -4,7 +4,7 @@ title: IX509ExtensionTemplate::InitializeDecode (certenroll.h)
 description: Initializes the extension from a DER-encoded byte array that contains the extension value.
 helpviewer_keywords: ["IX509ExtensionTemplate interface [Security]","InitializeDecode method","IX509ExtensionTemplate.InitializeDecode","IX509ExtensionTemplate::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionTemplate interface","certenroll/IX509ExtensionTemplate::InitializeDecode","security.ix509extensiontemplate_initializedecode_method"]
 old-location: security\ix509extensiontemplate_initializedecode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c35a6108-9f5e-4876-9ea1-ce8b568abfde
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],InitializeDecode method, IX509ExtensionTemplate.InitializeDecode, IX509ExtensionTemplate::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeDecode, security.ix509extensiontemplate_initializedecode_method

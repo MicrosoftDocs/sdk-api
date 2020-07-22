@@ -4,7 +4,7 @@ title: WSDXMLAddChild function (wsdutil.h)
 description: Adds a child element.
 helpviewer_keywords: ["WSDXMLAddChild","WSDXMLAddChild function","ncd.wsdxmladdchild","wsdutil/WSDXMLAddChild"]
 old-location: ncd\wsdxmladdchild.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb
 ms.date: 12/05/2018
 ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsdutil/WSDXMLAddChild

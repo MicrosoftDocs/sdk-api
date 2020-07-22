@@ -4,7 +4,7 @@ title: IMFSinkWriterEx (mfreadwrite.h)
 description: Extends the IMFSinkWriter interface.
 helpviewer_keywords: ["IMFSinkWriterEx","IMFSinkWriterEx interface [Media Foundation]","IMFSinkWriterEx interface [Media Foundation]","described","mf.imfsinkwriterex","mfreadwrite/IMFSinkWriterEx"]
 old-location: mf\imfsinkwriterex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 77E6CB22-E3B5-4D5E-8876-48582F75AA5C
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation],described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx

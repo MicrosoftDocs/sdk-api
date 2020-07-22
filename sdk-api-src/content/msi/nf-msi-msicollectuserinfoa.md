@@ -4,7 +4,7 @@ title: MsiCollectUserInfoA function (msi.h)
 description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.
 helpviewer_keywords: ["MsiCollectUserInfo","MsiCollectUserInfo function","MsiCollectUserInfoA","MsiCollectUserInfoW","_msi_msicollectuserinfo","msi/MsiCollectUserInfo","msi/MsiCollectUserInfoA","msi/MsiCollectUserInfoW","setup.msicollectuserinfo"]
 old-location: setup\msicollectuserinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
 ms.date: 12/05/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo

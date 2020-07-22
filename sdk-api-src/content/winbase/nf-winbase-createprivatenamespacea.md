@@ -4,7 +4,7 @@ title: CreatePrivateNamespaceA function (winbase.h)
 description: Creates a private namespace.
 helpviewer_keywords: ["CreatePrivateNamespace","CreatePrivateNamespace function","CreatePrivateNamespaceA","CreatePrivateNamespaceW","base.createprivatenamespace","winbase/CreatePrivateNamespace","winbase/CreatePrivateNamespaceA","winbase/CreatePrivateNamespaceW"]
 old-location: base\createprivatenamespace.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW

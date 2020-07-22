@@ -4,7 +4,7 @@ title: MsiRecordIsNull function (msiquery.h)
 description: Reports a null record field.
 helpviewer_keywords: ["MsiRecordIsNull","MsiRecordIsNull function","_msi_msirecordisnull","msiquery/MsiRecordIsNull","setup.msirecordisnull"]
 old-location: setup\msirecordisnull.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.date: 12/05/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull

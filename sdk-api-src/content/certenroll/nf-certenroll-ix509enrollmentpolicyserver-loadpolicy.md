@@ -4,7 +4,7 @@ title: IX509EnrollmentPolicyServer::LoadPolicy (certenroll.h)
 description: Retrieves policy information from the certificate enrollment policy (CEP) server.
 helpviewer_keywords: ["IX509EnrollmentPolicyServer interface [Security]","LoadPolicy method","IX509EnrollmentPolicyServer.LoadPolicy","IX509EnrollmentPolicyServer::LoadPolicy","LoadOptionCacheOnly","LoadOptionDefault","LoadOptionRegisterForADChanges","LoadOptionReload","LoadPolicy","LoadPolicy method [Security]","LoadPolicy method [Security]","IX509EnrollmentPolicyServer interface","certenroll/IX509EnrollmentPolicyServer::LoadPolicy","security.ix509enrollmentpolicyserver_loadpolicy"]
 old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5b617c6e-91bc-4a22-acd6-41083102850a
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method, IX509EnrollmentPolicyServer.LoadPolicy, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy, LoadPolicy method [Security], LoadPolicy method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy

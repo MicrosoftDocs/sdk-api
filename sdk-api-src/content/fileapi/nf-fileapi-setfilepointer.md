@@ -4,7 +4,7 @@ title: SetFilePointer function (fileapi.h)
 description: Moves the file pointer of the specified file.
 helpviewer_keywords: ["FILE_BEGIN","FILE_CURRENT","FILE_END","SetFilePointer","SetFilePointer function [Files]","_win32_setfilepointer","base.setfilepointer","fileapi/SetFilePointer","fs.setfilepointer","winbase/SetFilePointer"]
 old-location: fs\setfilepointer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer

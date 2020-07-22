@@ -4,7 +4,7 @@ title: IsCatalogFile function (mscat.h)
 description: Retrieves a Boolean value that indicates whether the specified file is a catalog file.
 helpviewer_keywords: ["IsCatalogFile","IsCatalogFile function [Security]","mscat/IsCatalogFile","security.iscatalogfile"]
 old-location: security\iscatalogfile.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: eeba34d4-08aa-456a-8fdc-16795cbce36a
 ms.date: 12/05/2018
 ms.keywords: IsCatalogFile, IsCatalogFile function [Security], mscat/IsCatalogFile, security.iscatalogfile

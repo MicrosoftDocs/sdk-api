@@ -4,7 +4,7 @@ title: BCryptVerifySignature function (bcrypt.h)
 description: Verifies that the specified signature matches the specified hash.
 helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","BCryptVerifySignature","BCryptVerifySignature function [Security]","bcrypt/BCryptVerifySignature","security.bcryptverifysignature_func"]
 old-location: security\bcryptverifysignature_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 95c32056-e444-441c-bbc1-c5ae82aba964
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptVerifySignature, BCryptVerifySignature function [Security], bcrypt/BCryptVerifySignature, security.bcryptverifysignature_func

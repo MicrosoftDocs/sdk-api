@@ -4,7 +4,7 @@ title: HEADER macro (amvideo.h)
 description: The HEADER macro returns the address of the BITMAPINFOHEADER within a VIDEOINFOHEADER.
 helpviewer_keywords: ["HEADER","HEADER macro [DirectShow]","amvideo/HEADER","dshow.header"]
 old-location: dshow\header.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5263f924-6f82-4d64-8dc7-0b5e7efa4150
 ms.date: 12/05/2018
 ms.keywords: HEADER, HEADER macro [DirectShow], amvideo/HEADER, dshow.header

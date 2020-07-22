@@ -4,7 +4,7 @@ title: STAT_SERVER_0 (lmstats.h)
 description: Contains statistical information about the server.
 helpviewer_keywords: ["*LPSTAT_SERVER_0","*PSTAT_SERVER_0","LPSTAT_SERVER_0","LPSTAT_SERVER_0 structure pointer [Files]","PSTAT_SERVER_0","PSTAT_SERVER_0 structure pointer [Files]","STAT_SERVER_0","STAT_SERVER_0 structure [Files]","_win32_stat_server_0_str","fs.stat_server_0_str","lmstats/LPSTAT_SERVER_0","lmstats/PSTAT_SERVER_0","lmstats/STAT_SERVER_0","netmgmt.stat_server_0_str"]
 old-location: fs\stat_server_0_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: 7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce
 ms.date: 12/05/2018
 ms.keywords: '*LPSTAT_SERVER_0, *PSTAT_SERVER_0, LPSTAT_SERVER_0, LPSTAT_SERVER_0 structure pointer [Files], PSTAT_SERVER_0, PSTAT_SERVER_0 structure pointer [Files], STAT_SERVER_0, STAT_SERVER_0 structure [Files], _win32_stat_server_0_str, fs.stat_server_0_str, lmstats/LPSTAT_SERVER_0, lmstats/PSTAT_SERVER_0, lmstats/STAT_SERVER_0, netmgmt.stat_server_0_str'

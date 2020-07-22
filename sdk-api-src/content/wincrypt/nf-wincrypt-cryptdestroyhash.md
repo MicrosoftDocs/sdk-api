@@ -4,7 +4,7 @@ title: CryptDestroyHash function (wincrypt.h)
 description: Destroys the hash object referenced by the hHash parameter.
 helpviewer_keywords: ["CryptDestroyHash","CryptDestroyHash function [Security]","_crypto2_cryptdestroyhash","security.cryptdestroyhash","wincrypt/CryptDestroyHash"]
 old-location: security\cryptdestroyhash.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.date: 12/05/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash

@@ -4,7 +4,7 @@ title: ILocation::GetReport (locationapi.h)
 description: Retrieves a location report.
 helpviewer_keywords: ["GetReport","GetReport method [WinLocation]","GetReport method [WinLocation]","ILocation interface","ILocation interface [WinLocation]","GetReport method","ILocation.GetReport","ILocation::GetReport","WinLocation_COM_Ref.ilocation_getreport","locationapi/ILocation::GetReport"]
 old-location: winlocation_com_ref\ilocation_getreport.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed
 ms.date: 12/05/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReport method, ILocation.GetReport, ILocation::GetReport, WinLocation_COM_Ref.ilocation_getreport, locationapi/ILocation::GetReport

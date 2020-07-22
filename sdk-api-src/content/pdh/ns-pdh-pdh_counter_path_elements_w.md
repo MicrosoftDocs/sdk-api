@@ -4,7 +4,7 @@ title: PDH_COUNTER_PATH_ELEMENTS_W (pdh.h)
 description: The PDH_COUNTER_PATH_ELEMENTS structure contains the components of a counter path.
 helpviewer_keywords: ["*PPDH_COUNTER_PATH_ELEMENTS_W","PDH_COUNTER_PATH_ELEMENTS","PDH_COUNTER_PATH_ELEMENTS structure [Perf]","PDH_COUNTER_PATH_ELEMENTS_A","PDH_COUNTER_PATH_ELEMENTS_W","PPDH_COUNTER_PATH_ELEMENTS","PPDH_COUNTER_PATH_ELEMENTS structure pointer [Perf]","_win32_pdh_counter_path_elements_str","base.pdh_counter_path_elements_str","pdh/PDH_COUNTER_PATH_ELEMENTS","pdh/PDH_COUNTER_PATH_ELEMENTS_A","pdh/PDH_COUNTER_PATH_ELEMENTS_W","pdh/PPDH_COUNTER_PATH_ELEMENTS","perf.pdh_counter_path_elements_str"]
 old-location: perf\pdh_counter_path_elements_str.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: ffa2a076-7267-406b-8eed-4a49504a7ad6
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_COUNTER_PATH_ELEMENTS_W, PDH_COUNTER_PATH_ELEMENTS, PDH_COUNTER_PATH_ELEMENTS structure [Perf], PDH_COUNTER_PATH_ELEMENTS_A, PDH_COUNTER_PATH_ELEMENTS_W, PPDH_COUNTER_PATH_ELEMENTS, PPDH_COUNTER_PATH_ELEMENTS structure pointer [Perf], _win32_pdh_counter_path_elements_str, base.pdh_counter_path_elements_str, pdh/PDH_COUNTER_PATH_ELEMENTS, pdh/PDH_COUNTER_PATH_ELEMENTS_A, pdh/PDH_COUNTER_PATH_ELEMENTS_W, pdh/PPDH_COUNTER_PATH_ELEMENTS, perf.pdh_counter_path_elements_str'

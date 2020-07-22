@@ -2,6 +2,7 @@
 UID: NF:winsvc.GetServiceDirectory
 title: GetServiceDirectory
 description: Returns a path for a per-service filesystem location for a service to read and/or write state to.
+tech.root: security
 ms.date: 4/26/2019
 ms.keywords: GetServiceDirectory
 ms.topic: language-reference

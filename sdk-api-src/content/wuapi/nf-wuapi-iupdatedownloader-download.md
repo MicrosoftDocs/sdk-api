@@ -4,7 +4,7 @@ title: IUpdateDownloader::Download (wuapi.h)
 description: Starts a synchronous download of the content files that are associated with the updates.
 helpviewer_keywords: ["Download","Download method [Windows Update Agent]","Download method [Windows Update Agent]","IUpdateDownloader interface","IUpdateDownloader interface [Windows Update Agent]","Download method","IUpdateDownloader.Download","IUpdateDownloader::Download","wua.iupdatedownloader_download","wuapi/IUpdateDownloader::Download"]
 old-location: wua\iupdatedownloader_download.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
 ms.date: 12/05/2018
 ms.keywords: Download, Download method [Windows Update Agent], Download method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],Download method, IUpdateDownloader.Download, IUpdateDownloader::Download, wua.iupdatedownloader_download, wuapi/IUpdateDownloader::Download

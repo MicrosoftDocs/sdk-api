@@ -4,7 +4,7 @@ title: ISystemAppEventData::Startup (comsvcs.h)
 description: Invoked when a COM+ application instance is created.
 helpviewer_keywords: ["ISystemAppEventData interface [COM+]","Startup method","ISystemAppEventData.Startup","ISystemAppEventData::Startup","Startup","Startup method [COM+]","Startup method [COM+]","ISystemAppEventData interface","_dtc_ISystemAppEventData_Startup","comsvcs/ISystemAppEventData::Startup","cos.isystemappeventdata_startup"]
 old-location: cos\isystemappeventdata_startup.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 89a5adc2-ee65-477d-9247-f075c63b43c7
 ms.date: 12/05/2018
 ms.keywords: ISystemAppEventData interface [COM+],Startup method, ISystemAppEventData.Startup, ISystemAppEventData::Startup, Startup, Startup method [COM+], Startup method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_Startup, comsvcs/ISystemAppEventData::Startup, cos.isystemappeventdata_startup

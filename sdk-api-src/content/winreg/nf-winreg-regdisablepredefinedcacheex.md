@@ -4,7 +4,7 @@ title: RegDisablePredefinedCacheEx function (winreg.h)
 description: Disables handle caching for all predefined registry handles for the current process.
 helpviewer_keywords: ["RegDisablePredefinedCacheEx","RegDisablePredefinedCacheEx function","base.regdisablepredefinedcacheex","winreg/RegDisablePredefinedCacheEx"]
 old-location: base\regdisablepredefinedcacheex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
 ms.date: 12/05/2018
 ms.keywords: RegDisablePredefinedCacheEx, RegDisablePredefinedCacheEx function, base.regdisablepredefinedcacheex, winreg/RegDisablePredefinedCacheEx

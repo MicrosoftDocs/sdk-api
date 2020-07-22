@@ -4,7 +4,7 @@ title: IMFTimedTextCue::GetRegion (mfmediaengine.h)
 description: Gets info about the display region of the timed-text cue.
 helpviewer_keywords: ["GetRegion","GetRegion method [Media Foundation]","GetRegion method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetRegion method","IMFTimedTextCue.GetRegion","IMFTimedTextCue::GetRegion","mf.imftimedtextcue_getregion","mfmediaengine/IMFTimedTextCue::GetRegion"]
 old-location: mf\imftimedtextcue_getregion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8F5CE96E-9714-4F1A-8CB5-87FA24735B9D
 ms.date: 12/05/2018
 ms.keywords: GetRegion, GetRegion method [Media Foundation], GetRegion method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetRegion method, IMFTimedTextCue.GetRegion, IMFTimedTextCue::GetRegion, mf.imftimedtextcue_getregion, mfmediaengine/IMFTimedTextCue::GetRegion

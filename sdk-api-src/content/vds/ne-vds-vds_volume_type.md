@@ -4,7 +4,7 @@ title: VDS_VOLUME_TYPE (vds.h)
 description: Defines the set of valid types for a volume object.
 helpviewer_keywords: ["VDS_VOLUME_TYPE","VDS_VOLUME_TYPE enumeration [VDS]","VDS_VT_MIRROR","VDS_VT_PARITY","VDS_VT_SIMPLE","VDS_VT_SPAN","VDS_VT_STRIPE","VDS_VT_UNKNOWN","base.vds_volume_type","vds/VDS_VOLUME_TYPE","vds/VDS_VT_MIRROR","vds/VDS_VT_PARITY","vds/VDS_VT_SIMPLE","vds/VDS_VT_SPAN","vds/VDS_VT_STRIPE","vds/VDS_VT_UNKNOWN"]
 old-location: base\vds_volume_type.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 07a44bbf-0726-4094-9b5f-2d26b0030796
 ms.date: 12/05/2018
 ms.keywords: VDS_VOLUME_TYPE, VDS_VOLUME_TYPE enumeration [VDS], VDS_VT_MIRROR, VDS_VT_PARITY, VDS_VT_SIMPLE, VDS_VT_SPAN, VDS_VT_STRIPE, VDS_VT_UNKNOWN, base.vds_volume_type, vds/VDS_VOLUME_TYPE, vds/VDS_VT_MIRROR, vds/VDS_VT_PARITY, vds/VDS_VT_SIMPLE, vds/VDS_VT_SPAN, vds/VDS_VT_STRIPE, vds/VDS_VT_UNKNOWN

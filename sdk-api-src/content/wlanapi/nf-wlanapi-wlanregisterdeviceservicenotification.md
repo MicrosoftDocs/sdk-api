@@ -2,6 +2,7 @@
 UID: NF:wlanapi.WlanRegisterDeviceServiceNotification
 title: WlanRegisterDeviceServiceNotification
 description: Allows user mode clients with admin privileges, or User-Mode Driver Framework (UMDF) drivers, to register for unsolicited notifications corresponding to device services that they're interested in.
+tech.root: nwifi
 helpviewer_keywords: ["WlanRegisterDeviceServiceNotification"]
 ms.date: 12/18/2019
 targetos: Windows

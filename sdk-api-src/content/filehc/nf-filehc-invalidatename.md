@@ -4,7 +4,7 @@ title: InvalidateName function (filehc.h)
 description: Enables the user to remove a single name and all associated data from the name cache.
 helpviewer_keywords: ["InvalidateName","InvalidateName function [Windows API]","filehc/InvalidateName","winprog._invalidatename"]
 old-location: winprog\_invalidatename.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.date: 12/05/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename

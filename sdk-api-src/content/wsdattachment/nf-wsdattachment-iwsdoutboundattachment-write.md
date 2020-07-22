@@ -4,7 +4,7 @@ title: IWSDOutboundAttachment::Write (wsdattachment.h)
 description: Sends attachment data to the remote host using a MIME container.
 helpviewer_keywords: ["IWSDOutboundAttachment interface","Write method","IWSDOutboundAttachment.Write","IWSDOutboundAttachment::Write","Write","Write method","Write method","IWSDOutboundAttachment interface","ncd.iwsdoutboundattachment_write_method","wsdattachment/IWSDOutboundAttachment::Write"]
 old-location: ncd\iwsdoutboundattachment_write_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 5bd24e7c-f2f4-4cc4-abc0-176ed024fa43
 ms.date: 12/05/2018
 ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachment.Write, IWSDOutboundAttachment::Write, Write, Write method, Write method,IWSDOutboundAttachment interface, ncd.iwsdoutboundattachment_write_method, wsdattachment/IWSDOutboundAttachment::Write

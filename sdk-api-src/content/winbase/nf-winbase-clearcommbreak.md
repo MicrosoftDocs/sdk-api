@@ -4,7 +4,7 @@ title: ClearCommBreak function (winbase.h)
 description: Restores character transmission for a specified communications device and places the transmission line in a nonbreak state.
 helpviewer_keywords: ["ClearCommBreak","ClearCommBreak function","_win32_clearcommbreak","base.clearcommbreak","winbase/ClearCommBreak"]
 old-location: base\clearcommbreak.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 9692242c-e209-4492-ab0b-333f09595597
 ms.date: 12/05/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak

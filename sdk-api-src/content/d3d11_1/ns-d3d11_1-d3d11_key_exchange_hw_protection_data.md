@@ -4,7 +4,7 @@ title: D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA (d3d11_1.h)
 description: Represents key exchange data for hardware content protection.
 helpviewer_keywords: ["D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA","D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA structure [Media Foundation]","d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA","mf.d3d11_key_exchange_hw_protection_data"]
 old-location: mf\d3d11_key_exchange_hw_protection_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1DAAE15F-80E4-4645-8326-0ECB1809F8CF
 ms.date: 12/05/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA, mf.d3d11_key_exchange_hw_protection_data

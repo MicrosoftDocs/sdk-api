@@ -4,7 +4,7 @@ title: IAMNetShowConfig::put_FixedUDPPort (qnetwork.h)
 description: The put_FixedUDPPort method specifies the fixed UDP port.
 helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_FixedUDPPort method","IAMNetShowConfig.put_FixedUDPPort","IAMNetShowConfig::put_FixedUDPPort","IAMNetShowConfigput_FixedUDPPort","dshow.iamnetshowconfig_put_fixedudpport","put_FixedUDPPort","put_FixedUDPPort method [DirectShow]","put_FixedUDPPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_FixedUDPPort"]
 old-location: dshow\iamnetshowconfig_put_fixedudpport.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 461b3999-ee1f-4d2a-9ebc-38faf344eba0
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_FixedUDPPort method, IAMNetShowConfig.put_FixedUDPPort, IAMNetShowConfig::put_FixedUDPPort, IAMNetShowConfigput_FixedUDPPort, dshow.iamnetshowconfig_put_fixedudpport, put_FixedUDPPort, put_FixedUDPPort method [DirectShow], put_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_FixedUDPPort

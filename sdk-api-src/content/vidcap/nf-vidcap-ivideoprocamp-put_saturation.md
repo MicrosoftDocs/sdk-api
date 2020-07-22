@@ -4,7 +4,7 @@ title: IVideoProcAmp::put_Saturation (vidcap.h)
 description: The put_Saturation method sets the camera's saturation setting.
 helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_Saturation method","IVideoProcAmp.put_Saturation","IVideoProcAmp::put_Saturation","IVideoProcAmpput_Saturation","dshow.ivideoprocamp_put_saturation","put_Saturation","put_Saturation method [DirectShow]","put_Saturation method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_Saturation"]
 old-location: dshow\ivideoprocamp_put_saturation.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7167fcac-b0c8-444e-a6a9-7ff9a603cc58
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Saturation method, IVideoProcAmp.put_Saturation, IVideoProcAmp::put_Saturation, IVideoProcAmpput_Saturation, dshow.ivideoprocamp_put_saturation, put_Saturation, put_Saturation method [DirectShow], put_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Saturation

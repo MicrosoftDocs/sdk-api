@@ -4,7 +4,7 @@ title: IMFTimedTextCue (mfmediaengine.h)
 description: Represents the timed-text-cue object.
 helpviewer_keywords: ["IMFTimedTextCue","IMFTimedTextCue interface [Media Foundation]","IMFTimedTextCue interface [Media Foundation]","described","mf.imftimedtextcue","mfmediaengine/IMFTimedTextCue"]
 old-location: mf\imftimedtextcue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue

@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx (vsbackup.h)
 description: Provides methods for requesters to run backup and restore operations using multiple writer instances.
 helpviewer_keywords: ["IVssBackupComponentsEx","IVssBackupComponentsEx interface [VSS]","IVssBackupComponentsEx interface [VSS]","described","base.ivssbackupcomponentsex","vsbackup/IVssBackupComponentsEx"]
 old-location: base\ivssbackupcomponentsex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], IVssBackupComponentsEx interface [VSS],described, base.ivssbackupcomponentsex, vsbackup/IVssBackupComponentsEx

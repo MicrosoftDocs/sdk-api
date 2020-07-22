@@ -2,6 +2,7 @@
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 description: Specifies input stream arguments for an input stream passed to ID3D12VideoProcessCommandList1::ProcessFrames1, which supports changing the field type for each call.
+tech.root: mf
 helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1"]
 ms.date: 4/26/2019
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1

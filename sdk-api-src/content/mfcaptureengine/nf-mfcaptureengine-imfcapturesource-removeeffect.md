@@ -4,7 +4,7 @@ title: IMFCaptureSource::RemoveEffect (mfcaptureengine.h)
 description: Removes an effect from a capture stream.
 helpviewer_keywords: ["IMFCaptureSource interface [Media Foundation]","RemoveEffect method","IMFCaptureSource.RemoveEffect","IMFCaptureSource::RemoveEffect","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","RemoveEffect","RemoveEffect method [Media Foundation]","RemoveEffect method [Media Foundation]","IMFCaptureSource interface","mf.imfcapturesource_removeeffect","mfcaptureengine/IMFCaptureSource::RemoveEffect"]
 old-location: mf\imfcapturesource_removeeffect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5FF2EF1C-1BF0-4CF7-95AB-1BB10025D66F
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],RemoveEffect method, IMFCaptureSource.RemoveEffect, IMFCaptureSource::RemoveEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_removeeffect, mfcaptureengine/IMFCaptureSource::RemoveEffect

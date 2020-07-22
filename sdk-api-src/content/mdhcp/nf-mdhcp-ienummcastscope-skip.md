@@ -4,7 +4,7 @@ title: IEnumMcastScope::Skip (mdhcp.h)
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 helpviewer_keywords: ["IEnumMcastScope interface [TAPI 2.2]","Skip method","IEnumMcastScope.Skip","IEnumMcastScope::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumMcastScope interface","_tapi3_ienummcastscope_skip","mdhcp/IEnumMcastScope::Skip","tapi3.ienummcastscope_skip"]
 old-location: tapi3\ienummcastscope_skip.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0e2255e7-586b-422f-a500-a32e6a460514
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Skip method, IEnumMcastScope.Skip, IEnumMcastScope::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_skip, mdhcp/IEnumMcastScope::Skip, tapi3.ienummcastscope_skip

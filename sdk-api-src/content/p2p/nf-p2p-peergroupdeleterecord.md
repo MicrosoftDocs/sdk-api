@@ -4,7 +4,7 @@ title: PeerGroupDeleteRecord function (p2p.h)
 description: The PeerGroupDeleteRecord function deletes a record from a peer group. The creator, as well as any other member in an administrative role may delete a specific record.
 helpviewer_keywords: ["PeerGroupDeleteRecord","PeerGroupDeleteRecord function [Peer Networking]","p2p.peergroupdeleterecord","p2p/PeerGroupDeleteRecord"]
 old-location: p2p\peergroupdeleterecord.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e80fbf7f-2193-4a45-8a7f-46707ae4acfe
 ms.date: 12/05/2018
 ms.keywords: PeerGroupDeleteRecord, PeerGroupDeleteRecord function [Peer Networking], p2p.peergroupdeleterecord, p2p/PeerGroupDeleteRecord

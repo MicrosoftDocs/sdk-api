@@ -4,7 +4,7 @@ title: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA (wincrypt.h)
 description: Used with the CryptInstallDefaultContext function to contain an array of object identifier strings.
 helpviewer_keywords: ["*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA","CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA","CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security]","PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA","PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security]","security.crypt_default_context_multi_oid_para","wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA","wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"]
 old-location: security\crypt_default_context_multi_oid_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2826ee4f-55b7-4161-8698-3a9b59190dcc
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security], PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security], security.crypt_default_context_multi_oid_para, wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA'

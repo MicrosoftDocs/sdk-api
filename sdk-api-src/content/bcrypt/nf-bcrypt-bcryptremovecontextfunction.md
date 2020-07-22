@@ -4,7 +4,7 @@ title: BCryptRemoveContextFunction function (bcrypt.h)
 description: Removes a cryptographic function from the list of functions that are supported by an existing CNG context.
 helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptRemoveContextFunction","BCryptRemoveContextFunction function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","NCRYPT_SCHANNEL_SIGNATURE_INTERFACE","bcrypt/BCryptRemoveContextFunction","security.bcryptremovecontextfunction"]
 old-location: security\bcryptremovecontextfunction.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: b8b1df66-f66f-4efc-9c8e-fca32e0278c5
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptRemoveContextFunction, BCryptRemoveContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptRemoveContextFunction, security.bcryptremovecontextfunction

@@ -4,7 +4,7 @@ title: IXpsOMDictionary::InsertAt (xpsobjectmodel.h)
 description: Inserts an IXpsOMShareable interface at a specified location in the dictionary and sets the key to identify the interface.
 helpviewer_keywords: ["IXpsOMDictionary interface [XPS Documents and Packaging]","InsertAt method","IXpsOMDictionary.InsertAt","IXpsOMDictionary::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMDictionary interface","xps.ixpsomdictionary_insertat","xpsobjectmodel/IXpsOMDictionary::InsertAt"]
 old-location: xps\ixpsomdictionary_insertat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a47b7130-a3c3-44d2-a987-e78b7feb52d6
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],InsertAt method, IXpsOMDictionary.InsertAt, IXpsOMDictionary::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_insertat, xpsobjectmodel/IXpsOMDictionary::InsertAt

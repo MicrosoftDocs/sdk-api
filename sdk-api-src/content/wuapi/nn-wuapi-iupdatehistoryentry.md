@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry (wuapi.h)
 description: Represents the recorded history of an update.
 helpviewer_keywords: ["IUpdateHistoryEntry","IUpdateHistoryEntry interface [Windows Update Agent]","IUpdateHistoryEntry interface [Windows Update Agent]","described","wua.iupdatehistoryentry","wuapi/IUpdateHistoryEntry"]
 old-location: wua\iupdatehistoryentry.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7f67ba11-41b5-4185-a78d-75c76dbe1fbe
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], IUpdateHistoryEntry interface [Windows Update Agent],described, wua.iupdatehistoryentry, wuapi/IUpdateHistoryEntry

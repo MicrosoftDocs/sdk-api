@@ -4,7 +4,7 @@ title: GetDisplayAutoRotationPreferencesByProcessId function (winuser.h)
 description: Retrieves the screen auto-rotation preferences for the process indicated by the dwProcessId parameter.
 helpviewer_keywords: ["GetDisplayAutoRotationPreferencesByProcessId","GetDisplayAutoRotationPreferencesByProcessId function","base.getdisplayautorotationpreferencesbyprocessid","winuser/GetDisplayAutoRotationPreferencesByProcessId"]
 old-location: base\getdisplayautorotationpreferencesbyprocessid.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 34A769D0-5160-4049-9C72-76BA7F8B8260
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAutoRotationPreferencesByProcessId, GetDisplayAutoRotationPreferencesByProcessId function, base.getdisplayautorotationpreferencesbyprocessid, winuser/GetDisplayAutoRotationPreferencesByProcessId

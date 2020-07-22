@@ -4,7 +4,7 @@ title: "_DVENCODERFORMAT (strmif.h)"
 description: Indicates the digital video (DV) format.
 helpviewer_keywords: ["DVENCODERFORMAT","DVENCODERFORMATEnumeration","DVENCODERFORMAT_DVHD","DVENCODERFORMAT_DVSD","DVENCODERFORMAT_DVSL","_DVENCODERFORMAT","_DVENCODERFORMAT enumeration [DirectShow]","dshow.dvencoderformat","strmif/DVENCODERFORMAT_DVHD","strmif/DVENCODERFORMAT_DVSD","strmif/DVENCODERFORMAT_DVSL","strmif/_DVENCODERFORMAT"]
 old-location: dshow\dvencoderformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 462c8034-5931-435d-8f18-b58842f2e234
 ms.date: 12/05/2018
 ms.keywords: DVENCODERFORMAT, DVENCODERFORMATEnumeration, DVENCODERFORMAT_DVHD, DVENCODERFORMAT_DVSD, DVENCODERFORMAT_DVSL, _DVENCODERFORMAT, _DVENCODERFORMAT enumeration [DirectShow], dshow.dvencoderformat, strmif/DVENCODERFORMAT_DVHD, strmif/DVENCODERFORMAT_DVSD, strmif/DVENCODERFORMAT_DVSL, strmif/_DVENCODERFORMAT

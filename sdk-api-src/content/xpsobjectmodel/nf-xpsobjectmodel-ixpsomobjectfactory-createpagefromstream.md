@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreatePageFromStream (xpsobjectmodel.h)
 description: Reads the page markup from the specified stream to create and populate an IXpsOMPage interface.
 helpviewer_keywords: ["CreatePageFromStream","CreatePageFromStream method [XPS Documents and Packaging]","CreatePageFromStream method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePageFromStream method","IXpsOMObjectFactory.CreatePageFromStream","IXpsOMObjectFactory::CreatePageFromStream","TRUE","xps.ixpsomobjectfactory_createpagefromstream","xpsobjectmodel/IXpsOMObjectFactory::CreatePageFromStream"]
 old-location: xps\ixpsomobjectfactory_createpagefromstream.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: daeafc73-33b0-4c88-b92d-da4ca42b19a9
 ms.date: 12/05/2018
 ms.keywords: CreatePageFromStream, CreatePageFromStream method [XPS Documents and Packaging], CreatePageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageFromStream method, IXpsOMObjectFactory.CreatePageFromStream, IXpsOMObjectFactory::CreatePageFromStream, TRUE, xps.ixpsomobjectfactory_createpagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePageFromStream

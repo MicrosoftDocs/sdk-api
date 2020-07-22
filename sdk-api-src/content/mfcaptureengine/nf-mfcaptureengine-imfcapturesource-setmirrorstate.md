@@ -4,7 +4,7 @@ title: IMFCaptureSource::SetMirrorState (mfcaptureengine.h)
 description: Enables or disables mirroring of the video preview stream.
 helpviewer_keywords: ["IMFCaptureSource interface [Media Foundation]","SetMirrorState method","IMFCaptureSource.SetMirrorState","IMFCaptureSource::SetMirrorState","SetMirrorState","SetMirrorState method [Media Foundation]","SetMirrorState method [Media Foundation]","IMFCaptureSource interface","mf.imfcapturesource_setmirrorstate","mf.imfcapturesource_setpreviewmirrorstate","mfcaptureengine/IMFCaptureSource::SetMirrorState"]
 old-location: mf\imfcapturesource_setmirrorstate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E170B262-95CD-4434-925A-3573D35FC1DC
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],SetMirrorState method, IMFCaptureSource.SetMirrorState, IMFCaptureSource::SetMirrorState, SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_setmirrorstate, mf.imfcapturesource_setpreviewmirrorstate, mfcaptureengine/IMFCaptureSource::SetMirrorState

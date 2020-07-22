@@ -4,7 +4,7 @@ title: IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm (adhoc.h)
 description: Gets the cipher algorithm associated with the security settings.
 helpviewer_keywords: ["GetDot11CipherAlgorithm","GetDot11CipherAlgorithm method [NativeWIFI]","GetDot11CipherAlgorithm method [NativeWIFI]","IDot11AdHocSecuritySettings interface","IDot11AdHocSecuritySettings interface [NativeWIFI]","GetDot11CipherAlgorithm method","IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm","IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm","adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm","nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm"]
 old-location: nwifi\idot11adhocsecuritysettings_getdot11cipheralgorithm.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 46bf39e3-351f-41c2-8f68-886fce8a83bd
 ms.date: 12/05/2018
 ms.keywords: GetDot11CipherAlgorithm, GetDot11CipherAlgorithm method [NativeWIFI], GetDot11CipherAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11CipherAlgorithm method, IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm, IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm

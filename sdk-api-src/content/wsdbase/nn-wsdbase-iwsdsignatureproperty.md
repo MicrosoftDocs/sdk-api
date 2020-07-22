@@ -4,7 +4,7 @@ title: IWSDSignatureProperty (wsdbase.h)
 description: Provides properties of signed messages.
 helpviewer_keywords: ["IWSDSignatureProperty","IWSDSignatureProperty interface","IWSDSignatureProperty interface","described","ncd.iwsdsignatureproperty","wsdbase/IWSDSignatureProperty"]
 old-location: ncd\iwsdsignatureproperty.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty

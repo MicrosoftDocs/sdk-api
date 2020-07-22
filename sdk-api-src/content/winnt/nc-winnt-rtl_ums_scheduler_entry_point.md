@@ -4,7 +4,7 @@ title: RTL_UMS_SCHEDULER_ENTRY_POINT (winnt.h)
 description: The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list.
 helpviewer_keywords: ["0","1","RTL_UMS_SCHEDULER_ENTRY_POINT","RTL_UMS_SCHEDULER_ENTRY_POINT callback","UmsSchedulerProc","UmsSchedulerProc callback function","UmsSchedulerStartup","UmsSchedulerThreadBlocked","UmsSchedulerThreadYield","base.umsschedulerproc","winnt/UmsSchedulerProc"]
 old-location: base\umsschedulerproc.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 10de1c48-255d-45c3-acf0-25f8a564b585
 ms.date: 12/05/2018
 ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT callback, UmsSchedulerProc, UmsSchedulerProc callback function, UmsSchedulerStartup, UmsSchedulerThreadBlocked, UmsSchedulerThreadYield, base.umsschedulerproc, winnt/UmsSchedulerProc

@@ -4,7 +4,7 @@ title: SetProviderStatusInfoFreeFunc (timeprov.h)
 description: Frees a SetProviderStatusInfo structure.
 helpviewer_keywords: ["SetProviderStatusInfoFreeFunc","SetProviderStatusInfoFreeFunc callback","SetProviderStatusInfoFreeFunc callback function","_win32_setproviderstatusinfofreefunc","base.setproviderstatusinfofreefunc","timeprov/SetProviderStatusInfoFreeFunc"]
 old-location: base\setproviderstatusinfofreefunc.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc

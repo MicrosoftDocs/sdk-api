@@ -4,7 +4,7 @@ title: GetPwrCapabilities function (powerbase.h)
 description: Retrieves information about the system power capabilities.
 helpviewer_keywords: ["GetPwrCapabilities","GetPwrCapabilities function","_win32_getpwrcapabilities","base.getpwrcapabilities","powerbase/GetPwrCapabilities","powrprof/GetPwrCapabilities"]
 old-location: base\getpwrcapabilities.htm
-tech.root: power
+tech.root: base
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.date: 12/05/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities

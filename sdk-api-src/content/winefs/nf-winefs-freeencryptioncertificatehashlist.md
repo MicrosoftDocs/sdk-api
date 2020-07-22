@@ -4,7 +4,7 @@ title: FreeEncryptionCertificateHashList function (winefs.h)
 description: Frees a certificate hash list.
 helpviewer_keywords: ["FreeEncryptionCertificateHashList","FreeEncryptionCertificateHashList function [Files]","_win32_freeencryptioncertificatehashlist","base.freeencryptioncertificatehashlist","fs.freeencryptioncertificatehashlist","winefs/FreeEncryptionCertificateHashList"]
 old-location: fs\freeencryptioncertificatehashlist.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
 ms.date: 12/05/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList

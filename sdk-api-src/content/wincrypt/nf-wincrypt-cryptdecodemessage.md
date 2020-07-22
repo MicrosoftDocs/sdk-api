@@ -4,7 +4,7 @@ title: CryptDecodeMessage function (wincrypt.h)
 description: Decodes, decrypts, and verifies a cryptographic message.
 helpviewer_keywords: ["CryptDecodeMessage","CryptDecodeMessage function [Security]","_crypto2_cryptdecodemessage","security.cryptdecodemessage","wincrypt/CryptDecodeMessage"]
 old-location: security\cryptdecodemessage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
 ms.date: 12/05/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage

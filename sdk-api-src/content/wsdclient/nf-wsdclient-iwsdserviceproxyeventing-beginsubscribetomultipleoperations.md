@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations (wsdclient.h
 description: Initializes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
 helpviewer_keywords: ["BeginSubscribeToMultipleOperations","BeginSubscribeToMultipleOperations method","BeginSubscribeToMultipleOperations method","IWSDServiceProxyEventing interface","IWSDServiceProxyEventing interface","BeginSubscribeToMultipleOperations method","IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations","IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations","ncd.iwsdserviceproxyeventing_beginsubscribetomultipleoperations","wsdclient/IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations"]
 old-location: ncd\iwsdserviceproxyeventing_beginsubscribetomultipleoperations.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 54c6ac58-4272-45ad-80cc-2114ba6f466e
 ms.date: 12/05/2018
 ms.keywords: BeginSubscribeToMultipleOperations, BeginSubscribeToMultipleOperations method, BeginSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginSubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations

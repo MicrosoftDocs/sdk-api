@@ -4,7 +4,7 @@ title: PeerGroupPeerTimeToUniversalTime function (p2p.h)
 description: The PeerGroupPeerTimeToUniversalTime function converts the peer group-maintained reference time value to a localized time value appropriate for display on a peer computer.
 helpviewer_keywords: ["PeerGroupPeerTimeToUniversalTime","PeerGroupPeerTimeToUniversalTime function [Peer Networking]","p2p.peergrouppeertimetouniversaltime","p2p/PeerGroupPeerTimeToUniversalTime"]
 old-location: p2p\peergrouppeertimetouniversaltime.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 27164da8-b5c7-41c1-bfe1-1c5797aa7ae1
 ms.date: 12/05/2018
 ms.keywords: PeerGroupPeerTimeToUniversalTime, PeerGroupPeerTimeToUniversalTime function [Peer Networking], p2p.peergrouppeertimetouniversaltime, p2p/PeerGroupPeerTimeToUniversalTime

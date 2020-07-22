@@ -4,7 +4,7 @@ title: WinHttpCreateProxyResolver function (winhttp.h)
 description: Creates a handle for use by WinHttpGetProxyForUrlEx.
 helpviewer_keywords: ["WinHttpCreateProxyResolver","WinHttpCreateProxyResolver function [WinHTTP]","http.winhttpcreateproxyresolver","winhttp/WinHttpCreateProxyResolver"]
 old-location: http\winhttpcreateproxyresolver.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 8d0058b5-964d-4bd8-b689-582875fc1d6e
 ms.date: 12/05/2018
 ms.keywords: WinHttpCreateProxyResolver, WinHttpCreateProxyResolver function [WinHTTP], http.winhttpcreateproxyresolver, winhttp/WinHttpCreateProxyResolver

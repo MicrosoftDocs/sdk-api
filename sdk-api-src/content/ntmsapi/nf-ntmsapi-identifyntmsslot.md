@@ -4,7 +4,7 @@ title: IdentifyNtmsSlot function (ntmsapi.h)
 description: The IdentifyNtmsSlot function identifies the media in the specified slot in a library. The command returns when the identification is complete.
 helpviewer_keywords: ["IdentifyNtmsSlot","IdentifyNtmsSlot function [Files]","NTMS_DISMOUNT_DEFERRED","NTMS_DISMOUNT_IMMEDIATE","_zaw_identifyntmsslot","base.identifyntmsslot","fs.identifyntmsslot","ntmsapi/IdentifyNtmsSlot"]
 old-location: fs\identifyntmsslot.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
 ms.date: 12/05/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot

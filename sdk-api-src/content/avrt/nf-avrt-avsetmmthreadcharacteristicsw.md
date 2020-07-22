@@ -4,7 +4,7 @@ title: AvSetMmThreadCharacteristicsW function (avrt.h)
 description: Associates the calling thread with the specified task.
 helpviewer_keywords: ["AvSetMmThreadCharacteristics","AvSetMmThreadCharacteristics function","AvSetMmThreadCharacteristicsA","AvSetMmThreadCharacteristicsW","avrt/AvSetMmThreadCharacteristics","avrt/AvSetMmThreadCharacteristicsA","avrt/AvSetMmThreadCharacteristicsW","base.avsetmmthreadcharacteristics"]
 old-location: base\avsetmmthreadcharacteristics.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
 ms.date: 12/05/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics

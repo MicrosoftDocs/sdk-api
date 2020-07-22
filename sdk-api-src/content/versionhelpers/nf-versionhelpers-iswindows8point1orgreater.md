@@ -4,7 +4,7 @@ title: IsWindows8Point1OrGreater function (versionhelpers.h)
 description: Indicates if the current OS version matches, or is greater than, the Windows 8.1 version.
 helpviewer_keywords: ["IsWindows8Point1OrGreater","IsWindows8Point1OrGreater function","base.iswindows8_1orgreater","versionhelpers/IsWindows8Point1OrGreater"]
 old-location: base\iswindows8_1orgreater.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: E391B568-5E43-42C7-B186-8CA524331FFE
 ms.date: 12/05/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater

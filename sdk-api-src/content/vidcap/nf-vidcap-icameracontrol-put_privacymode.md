@@ -4,7 +4,7 @@ title: ICameraControl::put_PrivacyMode (vidcap.h)
 description: The put_PrivacyMode method sets the camera's privacy setting. The privacy setting controls whether the camera sensor captures video.
 helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_PrivacyMode method","ICameraControl.put_PrivacyMode","ICameraControl::put_PrivacyMode","ICameraControlput_PrivacyMode","dshow.icameracontrol_put_privacymode","put_PrivacyMode","put_PrivacyMode method [DirectShow]","put_PrivacyMode method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_PrivacyMode"]
 old-location: dshow\icameracontrol_put_privacymode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 04116eba-926c-43fc-9a45-91be42e9af26
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PrivacyMode method, ICameraControl.put_PrivacyMode, ICameraControl::put_PrivacyMode, ICameraControlput_PrivacyMode, dshow.icameracontrol_put_privacymode, put_PrivacyMode, put_PrivacyMode method [DirectShow], put_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PrivacyMode

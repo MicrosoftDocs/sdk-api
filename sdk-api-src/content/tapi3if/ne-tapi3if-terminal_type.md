@@ -4,7 +4,7 @@ title: TERMINAL_TYPE (tapi3if.h)
 description: The TERMINAL_TYPE enum describes the type of the terminal. This enum is returned by the ITTerminal::get_TerminalType method.
 helpviewer_keywords: ["TERMINAL_TYPE","TERMINAL_TYPE enumeration [TAPI 2.2]","TT_DYNAMIC","TT_STATIC","_tapi3_terminal_type","tapi3.terminal_type","tapi3if/TERMINAL_TYPE","tapi3if/TT_DYNAMIC","tapi3if/TT_STATIC"]
 old-location: tapi3\terminal_type.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 43d08be3-c09b-4c74-ad71-6b452850d2e0
 ms.date: 12/05/2018
 ms.keywords: TERMINAL_TYPE, TERMINAL_TYPE enumeration [TAPI 2.2], TT_DYNAMIC, TT_STATIC, _tapi3_terminal_type, tapi3.terminal_type, tapi3if/TERMINAL_TYPE, tapi3if/TT_DYNAMIC, tapi3if/TT_STATIC

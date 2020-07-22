@@ -4,7 +4,7 @@ title: IMFSampleGrabberSinkCallback::OnProcessSample (mfidl.h)
 description: Called when the sample-grabber sink receives a new media sample.
 helpviewer_keywords: ["0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60","IMFSampleGrabberSinkCallback interface [Media Foundation]","OnProcessSample method","IMFSampleGrabberSinkCallback.OnProcessSample","IMFSampleGrabberSinkCallback::OnProcessSample","OnProcessSample","OnProcessSample method [Media Foundation]","OnProcessSample method [Media Foundation]","IMFSampleGrabberSinkCallback interface","mf.imfsamplegrabbersinkcallback_onprocesssample","mfidl/IMFSampleGrabberSinkCallback::OnProcessSample"]
 old-location: mf\imfsamplegrabbersinkcallback_onprocesssample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60
 ms.date: 12/05/2018
 ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback interface [Media Foundation],OnProcessSample method, IMFSampleGrabberSinkCallback.OnProcessSample, IMFSampleGrabberSinkCallback::OnProcessSample, OnProcessSample, OnProcessSample method [Media Foundation], OnProcessSample method [Media Foundation],IMFSampleGrabberSinkCallback interface, mf.imfsamplegrabbersinkcallback_onprocesssample, mfidl/IMFSampleGrabberSinkCallback::OnProcessSample

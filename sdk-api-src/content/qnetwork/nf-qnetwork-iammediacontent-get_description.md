@@ -4,7 +4,7 @@ title: IAMMediaContent::get_Description (qnetwork.h)
 description: The get_Description method retrieves a description of the content.
 helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_Description method","IAMMediaContent.get_Description","IAMMediaContent::get_Description","IAMMediaContentget_Description","dshow.iammediacontent_get_description","get_Description","get_Description method [DirectShow]","get_Description method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_Description"]
 old-location: dshow\iammediacontent_get_description.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description

@@ -4,7 +4,7 @@ title: IMFCapturePreviewSink (mfcaptureengine.h)
 description: Controls the preview sink.
 helpviewer_keywords: ["IMFCapturePreviewSink","IMFCapturePreviewSink interface [Media Foundation]","IMFCapturePreviewSink interface [Media Foundation]","described","mf.imfcapturepreviewsink","mfcaptureengine/IMFCapturePreviewSink"]
 old-location: mf\imfcapturepreviewsink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink

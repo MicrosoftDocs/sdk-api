@@ -4,7 +4,7 @@ title: IDeferredCommand::Cancel (control.h)
 description: The Cancel method cancels a command that the application previously queued.
 helpviewer_keywords: ["Cancel","Cancel method [DirectShow]","Cancel method [DirectShow]","IDeferredCommand interface","IDeferredCommand interface [DirectShow]","Cancel method","IDeferredCommand.Cancel","IDeferredCommand::Cancel","IDeferredCommandCancel","control/IDeferredCommand::Cancel","dshow.ideferredcommand_cancel"]
 old-location: dshow\ideferredcommand_cancel.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 56618860-3655-42a2-ad74-ef43da08d001
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [DirectShow], Cancel method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],Cancel method, IDeferredCommand.Cancel, IDeferredCommand::Cancel, IDeferredCommandCancel, control/IDeferredCommand::Cancel, dshow.ideferredcommand_cancel

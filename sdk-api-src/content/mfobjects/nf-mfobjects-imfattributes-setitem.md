@@ -4,7 +4,7 @@ title: IMFAttributes::SetItem (mfobjects.h)
 description: Adds an attribute value with a specified key.
 helpviewer_keywords: ["1ac6e1c3-cf78-4cff-a992-4f92f243c443","IMFAttributes interface [Media Foundation]","SetItem method","IMFAttributes.SetItem","IMFAttributes::SetItem","SetItem","SetItem method [Media Foundation]","SetItem method [Media Foundation]","IMFAttributes interface","mf.imfattributes_setitem","mfobjects/IMFAttributes::SetItem"]
 old-location: mf\imfattributes_setitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1ac6e1c3-cf78-4cff-a992-4f92f243c443
 ms.date: 12/05/2018
 ms.keywords: 1ac6e1c3-cf78-4cff-a992-4f92f243c443, IMFAttributes interface [Media Foundation],SetItem method, IMFAttributes.SetItem, IMFAttributes::SetItem, SetItem, SetItem method [Media Foundation], SetItem method [Media Foundation],IMFAttributes interface, mf.imfattributes_setitem, mfobjects/IMFAttributes::SetItem

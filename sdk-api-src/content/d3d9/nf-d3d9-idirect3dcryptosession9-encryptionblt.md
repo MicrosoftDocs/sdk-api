@@ -4,7 +4,7 @@ title: IDirect3DCryptoSession9::EncryptionBlt (d3d9.h)
 description: Reads encrypted data from a protected surface.
 helpviewer_keywords: ["EncryptionBlt","EncryptionBlt method [Media Foundation]","EncryptionBlt method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","EncryptionBlt method","IDirect3DCryptoSession9.EncryptionBlt","IDirect3DCryptoSession9::EncryptionBlt","d3d9/IDirect3DCryptoSession9::EncryptionBlt","mf.idirect3dcryptosession9_encryptionblt"]
 old-location: mf\idirect3dcryptosession9_encryptionblt.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
 ms.date: 12/05/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt

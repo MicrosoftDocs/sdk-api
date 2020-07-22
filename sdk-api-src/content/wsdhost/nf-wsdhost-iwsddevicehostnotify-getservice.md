@@ -4,7 +4,7 @@ title: IWSDDeviceHostNotify::GetService (wsdhost.h)
 description: Retrieves a service object that is not currently registered.
 helpviewer_keywords: ["GetService","GetService method","GetService method","IWSDDeviceHostNotify interface","IWSDDeviceHostNotify interface","GetService method","IWSDDeviceHostNotify.GetService","IWSDDeviceHostNotify::GetService","ncd.iwsddevicehostnotify_getservice_method","wsdhost/IWSDDeviceHostNotify::GetService"]
 old-location: ncd\iwsddevicehostnotify_getservice_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 5222b99a-b438-4775-91f0-8bcc7d3b73e8
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method, GetService method,IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,GetService method, IWSDDeviceHostNotify.GetService, IWSDDeviceHostNotify::GetService, ncd.iwsddevicehostnotify_getservice_method, wsdhost/IWSDDeviceHostNotify::GetService

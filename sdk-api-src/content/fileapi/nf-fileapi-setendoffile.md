@@ -4,7 +4,7 @@ title: SetEndOfFile function (fileapi.h)
 description: Sets the physical file size for the specified file to the current position of the file pointer.
 helpviewer_keywords: ["SetEndOfFile","SetEndOfFile function [Files]","_win32_setendoffile","base.setendoffile","fileapi/SetEndOfFile","fs.setendoffile","winbase/SetEndOfFile"]
 old-location: fs\setendoffile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2a579609-144a-4b77-8605-87aecf1f0957
 ms.date: 12/05/2018
 ms.keywords: SetEndOfFile, SetEndOfFile function [Files], _win32_setendoffile, base.setendoffile, fileapi/SetEndOfFile, fs.setendoffile, winbase/SetEndOfFile

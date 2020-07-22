@@ -4,7 +4,7 @@ title: IAMMediaTypeSample::SetTime (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The SetTime method sets the stream times at which the sample should start and stop.
 helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetTime method","IAMMediaTypeSample.SetTime","IAMMediaTypeSample::SetTime","IAMMediaTypeSampleSetTime","SetTime","SetTime method [DirectShow]","SetTime method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetTime","dshow.iammediatypesample_settime"]
 old-location: dshow\iammediatypesample_settime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b8f2c1bd-ea78-43b8-881c-d1f1a64ee575
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetTime method, IAMMediaTypeSample.SetTime, IAMMediaTypeSample::SetTime, IAMMediaTypeSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetTime, dshow.iammediatypesample_settime

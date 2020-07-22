@@ -4,7 +4,7 @@ title: IDvdInfo2::GetTotalTitleTime (strmif.h)
 description: The GetTotalTitleTime method retrieves the total playback time for the current title.
 helpviewer_keywords: ["GetTotalTitleTime","GetTotalTitleTime method [DirectShow]","GetTotalTitleTime method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetTotalTitleTime method","IDvdInfo2.GetTotalTitleTime","IDvdInfo2::GetTotalTitleTime","IDvdInfo2GetTotalTitleTime","dshow.idvdinfo2_gettotaltitletime","strmif/IDvdInfo2::GetTotalTitleTime"]
 old-location: dshow\idvdinfo2_gettotaltitletime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.date: 12/05/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime

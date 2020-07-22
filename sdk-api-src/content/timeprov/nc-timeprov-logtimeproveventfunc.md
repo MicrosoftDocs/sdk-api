@@ -4,7 +4,7 @@ title: LogTimeProvEventFunc (timeprov.h)
 description: Logs a time provider event in the event log.
 helpviewer_keywords: ["Error","Information","LogTimeProvEventFunc","LogTimeProvEventFunc callback","LogTimeProvEventFunc callback function","Warning","_win32_logtimeprovevent","base.logtimeprovevent","timeprov/LogTimeProvEventFunc"]
 old-location: base\logtimeprovevent.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: ddaea389-3f58-4011-bcf8-c60546d1bce1
 ms.date: 12/05/2018
 ms.keywords: Error, Information, LogTimeProvEventFunc, LogTimeProvEventFunc callback, LogTimeProvEventFunc callback function, Warning, _win32_logtimeprovevent, base.logtimeprovevent, timeprov/LogTimeProvEventFunc

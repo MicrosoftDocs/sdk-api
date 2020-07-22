@@ -4,7 +4,7 @@ title: CVssWriter::OnPostSnapshot (vswriter.h)
 description: The OnPostSnapshot method is called by a writer following a PostSnapshot event.
 helpviewer_keywords: ["CVssWriter class [VSS]","OnPostSnapshot method","CVssWriter.OnPostSnapshot","CVssWriter::OnPostSnapshot","OnPostSnapshot","OnPostSnapshot method [VSS]","OnPostSnapshot method [VSS]","CVssWriter class","_win32_cvsswriter_onpostsnapshot","base.cvsswriter_onpostsnapshot","vswriter/CVssWriter::OnPostSnapshot"]
 old-location: base\cvsswriter_onpostsnapshot.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: d97d4246-882e-49c3-a214-d8d3887c1508
 ms.date: 12/05/2018
 ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnapshot, CVssWriter::OnPostSnapshot, OnPostSnapshot, OnPostSnapshot method [VSS], OnPostSnapshot method [VSS],CVssWriter class, _win32_cvsswriter_onpostsnapshot, base.cvsswriter_onpostsnapshot, vswriter/CVssWriter::OnPostSnapshot

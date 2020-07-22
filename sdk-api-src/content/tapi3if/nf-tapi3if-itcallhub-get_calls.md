@@ -4,7 +4,7 @@ title: ITCallHub::get_Calls (tapi3if.h)
 description: The get_Calls method creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
 helpviewer_keywords: ["ITCallHub interface [TAPI 2.2]","get_Calls method","ITCallHub.get_Calls","ITCallHub::get_Calls","_tapi3_itcallhub_get_calls","get_Calls","get_Calls method [TAPI 2.2]","get_Calls method [TAPI 2.2]","ITCallHub interface","tapi3.itcallhub_get_calls","tapi3if/ITCallHub::get_Calls"]
 old-location: tapi3\itcallhub_get_calls.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 56634ab6-b905-48bb-a4d1-7ca1f0c4c0cf
 ms.date: 12/05/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_Calls method, ITCallHub.get_Calls, ITCallHub::get_Calls, _tapi3_itcallhub_get_calls, get_Calls, get_Calls method [TAPI 2.2], get_Calls method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_calls, tapi3if/ITCallHub::get_Calls

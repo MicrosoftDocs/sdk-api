@@ -4,7 +4,7 @@ title: PeerGroupShutdown function (p2p.h)
 description: The PeerGroupShutdown function closes a peer group created with PeerGroupStartup and disposes of any allocated resources.
 helpviewer_keywords: ["PeerGroupShutdown","PeerGroupShutdown function [Peer Networking]","p2p.peergroupshutdown","p2p/PeerGroupShutdown"]
 old-location: p2p\peergroupshutdown.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 61678a50-71cd-4717-b490-2755c605c2d5
 ms.date: 12/05/2018
 ms.keywords: PeerGroupShutdown, PeerGroupShutdown function [Peer Networking], p2p.peergroupshutdown, p2p/PeerGroupShutdown

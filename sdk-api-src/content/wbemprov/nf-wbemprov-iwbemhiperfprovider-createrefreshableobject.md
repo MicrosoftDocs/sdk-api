@@ -4,7 +4,7 @@ title: IWbemHiPerfProvider::CreateRefreshableObject (wbemprov.h)
 description: Requests a refreshable instance object.
 helpviewer_keywords: ["CreateRefreshableObject","CreateRefreshableObject method [Windows Management Instrumentation]","CreateRefreshableObject method [Windows Management Instrumentation]","IWbemHiPerfProvider interface","IWbemHiPerfProvider interface [Windows Management Instrumentation]","CreateRefreshableObject method","IWbemHiPerfProvider.CreateRefreshableObject","IWbemHiPerfProvider::CreateRefreshableObject","_hmm_iwbemhiperfprovider_createrefreshableobject","wbemprov/IWbemHiPerfProvider::CreateRefreshableObject","wmi.iwbemhiperfprovider_createrefreshableobject"]
 old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 1eb414e0-cdf6-4caa-88a5-8da17a32449c
 ms.date: 12/05/2018
 ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableObject method, IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject

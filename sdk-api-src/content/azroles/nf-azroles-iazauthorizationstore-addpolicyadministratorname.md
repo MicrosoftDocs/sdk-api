@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::AddPolicyAdministratorName (azroles.h)
 description: Adds the specified account name to the list of principals that act as policy administrators.
 helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName method [Security]","AddPolicyAdministratorName method [Security]","AzAuthorizationStore object","AddPolicyAdministratorName method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPolicyAdministratorName method","IAzAuthorizationStore interface [Security]","AddPolicyAdministratorName method","IAzAuthorizationStore.AddPolicyAdministratorName","IAzAuthorizationStore::AddPolicyAdministratorName","azroles/IAzAuthorizationStore::AddPolicyAdministratorName","security.azauthorizationstore_addpolicyadministratorname"]
 old-location: security\azauthorizationstore_addpolicyadministratorname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: b77348c7-4389-47ba-9f4f-e5643cf992aa
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzAuthorizationStore object, AddPolicyAdministratorName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministratorName method, IAzAuthorizationStore interface [Security],AddPolicyAdministratorName method, IAzAuthorizationStore.AddPolicyAdministratorName, IAzAuthorizationStore::AddPolicyAdministratorName, azroles/IAzAuthorizationStore::AddPolicyAdministratorName, security.azauthorizationstore_addpolicyadministratorname

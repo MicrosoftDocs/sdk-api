@@ -4,7 +4,7 @@ title: IMFByteStreamHandler::CancelObjectCreation (mfidl.h)
 description: Cancels the current request to create a media source.
 helpviewer_keywords: ["9731dac4-879c-4cbc-97b4-fa596b20c033","CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFByteStreamHandler interface","IMFByteStreamHandler interface [Media Foundation]","CancelObjectCreation method","IMFByteStreamHandler.CancelObjectCreation","IMFByteStreamHandler::CancelObjectCreation","mf.imfbytestreamhandler_cancelobjectcreation","mfidl/IMFByteStreamHandler::CancelObjectCreation"]
 old-location: mf\imfbytestreamhandler_cancelobjectcreation.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9731dac4-879c-4cbc-97b4-fa596b20c033
 ms.date: 12/05/2018
 ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],CancelObjectCreation method, IMFByteStreamHandler.CancelObjectCreation, IMFByteStreamHandler::CancelObjectCreation, mf.imfbytestreamhandler_cancelobjectcreation, mfidl/IMFByteStreamHandler::CancelObjectCreation

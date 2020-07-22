@@ -4,7 +4,7 @@ title: IMultiMediaStream::GetMediaStream (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaStream method retrieves a media stream, specified by purpose ID.
 helpviewer_keywords: ["GetMediaStream","GetMediaStream method [DirectShow]","GetMediaStream method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetMediaStream method","IMultiMediaStream.GetMediaStream","IMultiMediaStream::GetMediaStream","IMultiMediaStreamGetMediaStream","dshow.imultimediastream_getmediastream","mmstream/IMultiMediaStream::GetMediaStream"]
 old-location: dshow\imultimediastream_getmediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d85cde4f-99f4-4641-b75f-13ca6dc7f21e
 ms.date: 12/05/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetMediaStream method, IMultiMediaStream.GetMediaStream, IMultiMediaStream::GetMediaStream, IMultiMediaStreamGetMediaStream, dshow.imultimediastream_getmediastream, mmstream/IMultiMediaStream::GetMediaStream

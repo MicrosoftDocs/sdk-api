@@ -4,7 +4,7 @@ title: IInstallationBehavior::get_Impact (wuapi.h)
 description: Gets an InstallationImpact enumeration that indicates how the installation or uninstallation of the update affects the computer.
 helpviewer_keywords: ["IInstallationBehavior interface [Windows Update Agent]","Impact property","IInstallationBehavior.Impact","IInstallationBehavior.get_Impact","IInstallationBehavior::Impact","IInstallationBehavior::get_Impact","Impact property [Windows Update Agent]","Impact property [Windows Update Agent]","IInstallationBehavior interface","get_Impact","wua.iinstallationbehavior_impact","wuapi/IInstallationBehavior::Impact","wuapi/IInstallationBehavior::get_Impact"]
 old-location: wua\iinstallationbehavior_impact.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: c3749335-cfaf-46f3-afeb-3b8b4507467e
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],Impact property, IInstallationBehavior.Impact, IInstallationBehavior.get_Impact, IInstallationBehavior::Impact, IInstallationBehavior::get_Impact, Impact property [Windows Update Agent], Impact property [Windows Update Agent],IInstallationBehavior interface, get_Impact, wua.iinstallationbehavior_impact, wuapi/IInstallationBehavior::Impact, wuapi/IInstallationBehavior::get_Impact

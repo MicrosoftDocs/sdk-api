@@ -4,7 +4,7 @@ title: RemoveUsersFromEncryptedFile function (winefs.h)
 description: Removes specified certificate hashes from a specified file.
 helpviewer_keywords: ["RemoveUsersFromEncryptedFile","RemoveUsersFromEncryptedFile function [Files]","_win32_removeusersfromencryptedfile","base.removeusersfromencryptedfile","fs.removeusersfromencryptedfile","winefs/RemoveUsersFromEncryptedFile"]
 old-location: fs\removeusersfromencryptedfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c6672581-24b4-464c-b32d-48a04e56eef8
 ms.date: 12/05/2018
 ms.keywords: RemoveUsersFromEncryptedFile, RemoveUsersFromEncryptedFile function [Files], _win32_removeusersfromencryptedfile, base.removeusersfromencryptedfile, fs.removeusersfromencryptedfile, winefs/RemoveUsersFromEncryptedFile

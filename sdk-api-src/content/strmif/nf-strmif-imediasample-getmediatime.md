@@ -4,7 +4,7 @@ title: IMediaSample::GetMediaTime (strmif.h)
 description: The GetMediaTime method retrieves the media times for this sample.
 helpviewer_keywords: ["GetMediaTime","GetMediaTime method [DirectShow]","GetMediaTime method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetMediaTime method","IMediaSample.GetMediaTime","IMediaSample::GetMediaTime","IMediaSampleGetMediaTime","dshow.imediasample_getmediatime","strmif/IMediaSample::GetMediaTime"]
 old-location: dshow\imediasample_getmediatime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: eb2a8fd4-4a25-482c-8509-f43461c708d6
 ms.date: 12/05/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaTime method, IMediaSample.GetMediaTime, IMediaSample::GetMediaTime, IMediaSampleGetMediaTime, dshow.imediasample_getmediatime, strmif/IMediaSample::GetMediaTime

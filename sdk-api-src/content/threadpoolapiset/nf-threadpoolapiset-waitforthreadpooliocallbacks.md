@@ -4,7 +4,7 @@ title: WaitForThreadpoolIoCallbacks function (threadpoolapiset.h)
 description: Waits for outstanding I/O completion callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 helpviewer_keywords: ["WaitForThreadpoolIoCallbacks","WaitForThreadpoolIoCallbacks function","base.waitforthreadpooliocallbacks","threadpoolapiset/WaitForThreadpoolIoCallbacks","winbase/WaitForThreadpoolIoCallbacks"]
 old-location: base\waitforthreadpooliocallbacks.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 68dc640d-8678-441d-88bd-01284d98a251
 ms.date: 12/05/2018
 ms.keywords: WaitForThreadpoolIoCallbacks, WaitForThreadpoolIoCallbacks function, base.waitforthreadpooliocallbacks, threadpoolapiset/WaitForThreadpoolIoCallbacks, winbase/WaitForThreadpoolIoCallbacks

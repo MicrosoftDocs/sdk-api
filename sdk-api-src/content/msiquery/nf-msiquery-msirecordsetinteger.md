@@ -4,7 +4,7 @@ title: MsiRecordSetInteger function (msiquery.h)
 description: Sets a record field to an integer field.
 helpviewer_keywords: ["MsiRecordSetInteger","MsiRecordSetInteger function","_msi_msirecordsetinteger","msiquery/MsiRecordSetInteger","setup.msirecordsetinteger"]
 old-location: setup\msirecordsetinteger.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: d95105f0-afd6-4f56-94bd-ac8f49cb8f52
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetInteger, MsiRecordSetInteger function, _msi_msirecordsetinteger, msiquery/MsiRecordSetInteger, setup.msirecordsetinteger

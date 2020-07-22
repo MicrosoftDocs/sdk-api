@@ -4,7 +4,7 @@ title: SECURITY_STRING (sspi.h)
 description: Used as the string interface for kernel operations and is a clone of the UNICODE_STRING structure.
 helpviewer_keywords: ["*PSECURITY_STRING","PSECURITY_STRING","PSECURITY_STRING structure pointer [Security]","SECURITY_STRING","SECURITY_STRING structure [Security]","security.security_string","sspi/PSECURITY_STRING","sspi/SECURITY_STRING"]
 old-location: security\security_string.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4E03761C-8199-4D9F-B9DA-8941F0CC6700
 ms.date: 12/05/2018
 ms.keywords: '*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure pointer [Security], SECURITY_STRING, SECURITY_STRING structure [Security], security.security_string, sspi/PSECURITY_STRING, sspi/SECURITY_STRING'

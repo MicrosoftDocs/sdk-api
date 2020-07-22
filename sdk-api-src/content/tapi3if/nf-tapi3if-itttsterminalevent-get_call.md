@@ -4,7 +4,7 @@ title: ITTTSTerminalEvent::get_Call (tapi3if.h)
 description: The get_Call method returns an ITCallInfo interface pointer for the call involved in the terminal event.
 helpviewer_keywords: ["ITTTSTerminalEvent interface [TAPI 2.2]","get_Call method","ITTTSTerminalEvent.get_Call","ITTTSTerminalEvent::get_Call","_tapi3_itttsterminalevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITTTSTerminalEvent interface","tapi3.itttsterminalevent_get_call","tapi3if/ITTTSTerminalEvent::get_Call"]
 old-location: tapi3\itttsterminalevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7e9ffff3-1282-4d05-83c9-7f824406fcfa
 ms.date: 12/05/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Call method, ITTTSTerminalEvent.get_Call, ITTTSTerminalEvent::get_Call, _tapi3_itttsterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_call, tapi3if/ITTTSTerminalEvent::get_Call

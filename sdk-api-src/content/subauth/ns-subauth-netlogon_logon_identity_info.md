@@ -4,7 +4,7 @@ title: NETLOGON_LOGON_IDENTITY_INFO (subauth.h)
 description: Used to pass information about a user for logon subauthentication.
 helpviewer_keywords: ["*PNETLOGON_LOGON_IDENTITY_INFO","CLEARTEXT_PASSWORD_ALLOWED","NETLOGON_LOGON_IDENTITY_INFO","NETLOGON_LOGON_IDENTITY_INFO structure [Security]","PNETLOGON_LOGON_IDENTITY_INFO","PNETLOGON_LOGON_IDENTITY_INFO structure pointer [Security]","_lsa_netlogon_logon_identity_info","security.netlogon_logon_identity_info","subauth/NETLOGON_LOGON_IDENTITY_INFO","subauth/PNETLOGON_LOGON_IDENTITY_INFO"]
 old-location: security\netlogon_logon_identity_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b9cdf09f-897c-407e-80ba-e18c9ba667ec
 ms.date: 12/05/2018
 ms.keywords: '*PNETLOGON_LOGON_IDENTITY_INFO, CLEARTEXT_PASSWORD_ALLOWED, NETLOGON_LOGON_IDENTITY_INFO, NETLOGON_LOGON_IDENTITY_INFO structure [Security], PNETLOGON_LOGON_IDENTITY_INFO, PNETLOGON_LOGON_IDENTITY_INFO structure pointer [Security], _lsa_netlogon_logon_identity_info, security.netlogon_logon_identity_info, subauth/NETLOGON_LOGON_IDENTITY_INFO, subauth/PNETLOGON_LOGON_IDENTITY_INFO'

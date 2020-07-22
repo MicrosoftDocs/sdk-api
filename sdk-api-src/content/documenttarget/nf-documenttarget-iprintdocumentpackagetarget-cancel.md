@@ -4,7 +4,7 @@ title: IPrintDocumentPackageTarget::Cancel (documenttarget.h)
 description: Cancels the current print job.
 helpviewer_keywords: ["Cancel","Cancel method [XPS Documents and Packaging]","Cancel method [XPS Documents and Packaging]","IPrintDocumentPackageTarget interface","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","Cancel method","IPrintDocumentPackageTarget.Cancel","IPrintDocumentPackageTarget::Cancel","documenttarget/IPrintDocumentPackageTarget::Cancel","xps.iprintdocumentpackagetarget_cancel"]
 old-location: xps\iprintdocumentpackagetarget_cancel.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 57CE4050-2EC4-4137-A3EF-A72B07FF5232
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [XPS Documents and Packaging], Cancel method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],Cancel method, IPrintDocumentPackageTarget.Cancel, IPrintDocumentPackageTarget::Cancel, documenttarget/IPrintDocumentPackageTarget::Cancel, xps.iprintdocumentpackagetarget_cancel

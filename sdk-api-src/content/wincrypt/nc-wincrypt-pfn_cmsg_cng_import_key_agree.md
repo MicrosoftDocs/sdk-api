@@ -4,7 +4,7 @@ title: PFN_CMSG_CNG_IMPORT_KEY_AGREE (wincrypt.h)
 description: Decrypts a content encryption key (CEK) that is intended for a key agreement recipient.
 helpviewer_keywords: ["PFN_CMSG_CNG_IMPORT_KEY_AGREE","PFN_CMSG_CNG_IMPORT_KEY_AGREE callback","PFN_CMSG_CNG_IMPORT_KEY_AGREE callback function [Security]","security.pfn_cmsg_cng_import_key_agree","wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE"]
 old-location: security\pfn_cmsg_cng_import_key_agree.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 407fddaa-8b7d-4ef4-bfc8-0b7a273905e7
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_AGREE, PFN_CMSG_CNG_IMPORT_KEY_AGREE callback, PFN_CMSG_CNG_IMPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_cng_import_key_agree, wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE

@@ -4,7 +4,7 @@ title: IWbemPathKeyList::RemoveKey (wmiutils.h)
 description: The IWbemPathKeyList::RemoveKey method removes the key that matches the wszName parameter.
 helpviewer_keywords: ["IWbemPathKeyList interface [Windows Management Instrumentation]","RemoveKey method","IWbemPathKeyList.RemoveKey","IWbemPathKeyList::RemoveKey","RemoveKey","RemoveKey method [Windows Management Instrumentation]","RemoveKey method [Windows Management Instrumentation]","IWbemPathKeyList interface","_hmm_iwbempathkeylist_removekey","wmi.iwbempathkeylist_removekey","wmiutils/IWbemPathKeyList::RemoveKey"]
 old-location: wmi\iwbempathkeylist_removekey.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 07166023-2945-49d5-9d2d-8cac12053ed9
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveKey method, IWbemPathKeyList.RemoveKey, IWbemPathKeyList::RemoveKey, RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey

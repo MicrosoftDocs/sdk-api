@@ -4,7 +4,7 @@ title: IMFStreamDescriptor::GetMediaTypeHandler (mfidl.h)
 description: Retrieves a media type handler for the stream. The media type handler can be used to enumerate supported media types for the stream, get the current media type, and set the media type.
 helpviewer_keywords: ["8e991417-fe15-4749-94c4-26c621692b52","GetMediaTypeHandler","GetMediaTypeHandler method [Media Foundation]","GetMediaTypeHandler method [Media Foundation]","IMFStreamDescriptor interface","IMFStreamDescriptor interface [Media Foundation]","GetMediaTypeHandler method","IMFStreamDescriptor.GetMediaTypeHandler","IMFStreamDescriptor::GetMediaTypeHandler","mf.imfstreamdescriptor_getmediatypehandler","mfidl/IMFStreamDescriptor::GetMediaTypeHandler"]
 old-location: mf\imfstreamdescriptor_getmediatypehandler.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8e991417-fe15-4749-94c4-26c621692b52
 ms.date: 12/05/2018
 ms.keywords: 8e991417-fe15-4749-94c4-26c621692b52, GetMediaTypeHandler, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation],IMFStreamDescriptor interface, IMFStreamDescriptor interface [Media Foundation],GetMediaTypeHandler method, IMFStreamDescriptor.GetMediaTypeHandler, IMFStreamDescriptor::GetMediaTypeHandler, mf.imfstreamdescriptor_getmediatypehandler, mfidl/IMFStreamDescriptor::GetMediaTypeHandler

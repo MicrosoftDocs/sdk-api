@@ -4,7 +4,7 @@ title: IX509CertificateRequestCmc::get_SenderNonce (certenroll.h)
 description: Specifies or retrieves a byte array that contains a nonce.
 helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","SenderNonce property","IX509CertificateRequestCmc.SenderNonce","IX509CertificateRequestCmc.get_SenderNonce","IX509CertificateRequestCmc::SenderNonce","IX509CertificateRequestCmc::get_SenderNonce","IX509CertificateRequestCmc::put_SenderNonce","SenderNonce property [Security]","SenderNonce property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::SenderNonce","certenroll/IX509CertificateRequestCmc::get_SenderNonce","certenroll/IX509CertificateRequestCmc::put_SenderNonce","get_SenderNonce","security.ix509certificaterequestcmc_sendernonce_property"]
 old-location: security\ix509certificaterequestcmc_sendernonce_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7f7ec18f-7b5b-445e-9033-12d86b3675f1
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SenderNonce property, IX509CertificateRequestCmc.SenderNonce, IX509CertificateRequestCmc.get_SenderNonce, IX509CertificateRequestCmc::SenderNonce, IX509CertificateRequestCmc::get_SenderNonce, IX509CertificateRequestCmc::put_SenderNonce, SenderNonce property [Security], SenderNonce property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SenderNonce, certenroll/IX509CertificateRequestCmc::get_SenderNonce, certenroll/IX509CertificateRequestCmc::put_SenderNonce, get_SenderNonce, security.ix509certificaterequestcmc_sendernonce_property

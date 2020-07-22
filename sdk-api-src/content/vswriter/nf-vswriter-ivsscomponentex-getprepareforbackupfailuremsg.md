@@ -4,7 +4,7 @@ title: IVssComponentEx::GetPrepareForBackupFailureMsg (vswriter.h)
 description: Returns the PrepareForBackup failure message string that a writer has set for a given component.
 helpviewer_keywords: ["GetPrepareForBackupFailureMsg","GetPrepareForBackupFailureMsg method","GetPrepareForBackupFailureMsg method","IVssComponentEx interface","IVssComponentEx interface","GetPrepareForBackupFailureMsg method","IVssComponentEx.GetPrepareForBackupFailureMsg","IVssComponentEx::GetPrepareForBackupFailureMsg","base.ivsscomponentex_getprepareforbackupfailuremsg","vswriter/IVssComponentEx::GetPrepareForBackupFailureMsg"]
 old-location: base\ivsscomponentex_getprepareforbackupfailuremsg.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b086ff8d-ff51-4550-887d-e7741e2469f2
 ms.date: 12/05/2018
 ms.keywords: GetPrepareForBackupFailureMsg, GetPrepareForBackupFailureMsg method, GetPrepareForBackupFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPrepareForBackupFailureMsg method, IVssComponentEx.GetPrepareForBackupFailureMsg, IVssComponentEx::GetPrepareForBackupFailureMsg, base.ivsscomponentex_getprepareforbackupfailuremsg, vswriter/IVssComponentEx::GetPrepareForBackupFailureMsg

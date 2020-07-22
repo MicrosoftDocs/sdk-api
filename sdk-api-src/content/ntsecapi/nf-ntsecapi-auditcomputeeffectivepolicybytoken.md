@@ -4,7 +4,7 @@ title: AuditComputeEffectivePolicyByToken function (ntsecapi.h)
 description: Computes the effective audit policy for one or more subcategories for the security principal associated with the specified token. The function computes effective audit policy by combining system audit policy with per-user policy.
 helpviewer_keywords: ["AuditComputeEffectivePolicyByToken","AuditComputeEffectivePolicyByToken function [Security]","ntsecapi/AuditComputeEffectivePolicyByToken","security.auditcomputeeffectivepolicybytoken_func"]
 old-location: security\auditcomputeeffectivepolicybytoken_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e5fc9b8d-a61e-48c2-9093-f27167232cc8
 ms.date: 12/05/2018
 ms.keywords: AuditComputeEffectivePolicyByToken, AuditComputeEffectivePolicyByToken function [Security], ntsecapi/AuditComputeEffectivePolicyByToken, security.auditcomputeeffectivepolicybytoken_func

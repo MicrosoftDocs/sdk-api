@@ -4,7 +4,7 @@ title: ImpersonateNamedPipeClient function (namedpipeapi.h)
 description: Impersonates a named-pipe client application.
 helpviewer_keywords: ["ImpersonateNamedPipeClient","ImpersonateNamedPipeClient function [Security]","_win32_impersonatenamedpipeclient","namedpipeapi/ImpersonateNamedPipeClient","security.impersonatenamedpipeclient"]
 old-location: security\impersonatenamedpipeclient.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b
 ms.date: 12/05/2018
 ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Security], _win32_impersonatenamedpipeclient, namedpipeapi/ImpersonateNamedPipeClient, security.impersonatenamedpipeclient

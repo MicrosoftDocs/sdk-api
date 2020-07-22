@@ -4,7 +4,7 @@ title: FindNextChangeNotification function (fileapi.h)
 description: Requests that the operating system signal a change notification handle the next time it detects an appropriate change.
 helpviewer_keywords: ["FindNextChangeNotification","FindNextChangeNotification function [Files]","_win32_findnextchangenotification","base.findnextchangenotification","fileapi/FindNextChangeNotification","fs.findnextchangenotification","winbase/FindNextChangeNotification"]
 old-location: fs\findnextchangenotification.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0f93cc96-6e3b-4c03-aa5a-7a74d054a7ff
 ms.date: 12/05/2018
 ms.keywords: FindNextChangeNotification, FindNextChangeNotification function [Files], _win32_findnextchangenotification, base.findnextchangenotification, fileapi/FindNextChangeNotification, fs.findnextchangenotification, winbase/FindNextChangeNotification

@@ -4,7 +4,7 @@ title: IMFRateSupport::GetSlowestRate (mfidl.h)
 description: Retrieves the slowest playback rate supported by the object.
 helpviewer_keywords: ["GetSlowestRate","GetSlowestRate method [Media Foundation]","GetSlowestRate method [Media Foundation]","IMFRateSupport interface","IMFRateSupport interface [Media Foundation]","GetSlowestRate method","IMFRateSupport.GetSlowestRate","IMFRateSupport::GetSlowestRate","e10125e9-8bc7-4fb6-8a10-ba5717f1596f","mf.imfratesupport_getslowestrate","mfidl/IMFRateSupport::GetSlowestRate"]
 old-location: mf\imfratesupport_getslowestrate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e10125e9-8bc7-4fb6-8a10-ba5717f1596f
 ms.date: 12/05/2018
 ms.keywords: GetSlowestRate, GetSlowestRate method [Media Foundation], GetSlowestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetSlowestRate method, IMFRateSupport.GetSlowestRate, IMFRateSupport::GetSlowestRate, e10125e9-8bc7-4fb6-8a10-ba5717f1596f, mf.imfratesupport_getslowestrate, mfidl/IMFRateSupport::GetSlowestRate

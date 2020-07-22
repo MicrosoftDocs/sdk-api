@@ -4,7 +4,7 @@ title: FILE_QUERY_SPARING_BUFFER
 description: Contains defect management properties.
 helpviewer_keywords: ["*PFILE_QUERY_SPARING_BUFFER","FILE_QUERY_SPARING_BUFFER","FILE_QUERY_SPARING_BUFFER structure [Files]","PFILE_QUERY_SPARING_BUFFER","PFILE_QUERY_SPARING_BUFFER structure pointer [Files]","fs.file_query_sparing_buffer","winioctl/FILE_QUERY_SPARING_BUFFER","winioctl/PFILE_QUERY_SPARING_BUFFER"]
 old-location: fs\file_query_sparing_buffer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4b9b44ec-9e8e-4ebd-b192-952bbb71005d
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER structure [Files], PFILE_QUERY_SPARING_BUFFER, PFILE_QUERY_SPARING_BUFFER structure pointer [Files], fs.file_query_sparing_buffer, winioctl/FILE_QUERY_SPARING_BUFFER, winioctl/PFILE_QUERY_SPARING_BUFFER'

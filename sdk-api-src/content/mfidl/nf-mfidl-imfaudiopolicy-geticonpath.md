@@ -4,7 +4,7 @@ title: IMFAudioPolicy::GetIconPath (mfidl.h)
 description: Retrieves the icon resource for the audio session. The Windows volume control displays this icon.
 helpviewer_keywords: ["GetIconPath","GetIconPath method [Media Foundation]","GetIconPath method [Media Foundation]","IMFAudioPolicy interface","IMFAudioPolicy interface [Media Foundation]","GetIconPath method","IMFAudioPolicy.GetIconPath","IMFAudioPolicy::GetIconPath","f2114f15-4357-4b5a-b384-695165d887de","mf.imfaudiopolicy_geticonpath","mfidl/IMFAudioPolicy::GetIconPath"]
 old-location: mf\imfaudiopolicy_geticonpath.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f2114f15-4357-4b5a-b384-695165d887de
 ms.date: 12/05/2018
 ms.keywords: GetIconPath, GetIconPath method [Media Foundation], GetIconPath method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetIconPath method, IMFAudioPolicy.GetIconPath, IMFAudioPolicy::GetIconPath, f2114f15-4357-4b5a-b384-695165d887de, mf.imfaudiopolicy_geticonpath, mfidl/IMFAudioPolicy::GetIconPath

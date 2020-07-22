@@ -4,7 +4,7 @@ title: PTOpenProviderEx function (prntvpt.h)
 description: Opens an instance of a print ticket provider.
 helpviewer_keywords: ["PTOpenProviderEx","PTOpenProviderEx function [Windows GDI]","_win32_PTOpenProviderEx","gdi.ptopenproviderex","prntvpt/PTOpenProviderEx"]
 old-location: gdi\ptopenproviderex.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0e65170b-66f6-4238-bdde-0a0b7108a686
 ms.date: 12/05/2018
 ms.keywords: PTOpenProviderEx, PTOpenProviderEx function [Windows GDI], _win32_PTOpenProviderEx, gdi.ptopenproviderex, prntvpt/PTOpenProviderEx

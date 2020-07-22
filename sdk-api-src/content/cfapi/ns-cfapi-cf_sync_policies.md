@@ -4,7 +4,7 @@ title: CF_SYNC_POLICIES (cfapi.h)
 description: Defines the sync policies used by a sync root.
 helpviewer_keywords: ["CF_SYNC_POLICIES","CF_SYNC_POLICIES structure","cfapi/CF_SYNC_POLICIES","cloudApi.cf_sync_policies"]
 old-location: cloudapi\cf_sync_policies.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 5BCD0958-1FED-4F97-A4B4-2EB354E85BF6
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIES, cloudApi.cf_sync_policies

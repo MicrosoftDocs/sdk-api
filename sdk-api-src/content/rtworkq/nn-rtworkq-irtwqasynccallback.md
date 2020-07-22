@@ -4,7 +4,7 @@ title: IRtwqAsyncCallback (rtworkq.h)
 description: Callback interface to notify the application when an asynchronous method completes.
 helpviewer_keywords: ["IRtwqAsyncCallback","IRtwqAsyncCallback interface","IRtwqAsyncCallback interface","described","base.irtwqasynccallback","rtworkq/IRtwqAsyncCallback"]
 old-location: base\irtwqasynccallback.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: E595C072-98F8-4231-9C8F-A8393D751DE6
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback

@@ -4,7 +4,7 @@ title: IMFCapturePhotoSink::SetOutputByteStream (mfcaptureengine.h)
 description: Specifies a byte stream that will receive the still image data.
 helpviewer_keywords: ["IMFCapturePhotoSink interface [Media Foundation]","SetOutputByteStream method","IMFCapturePhotoSink.SetOutputByteStream","IMFCapturePhotoSink::SetOutputByteStream","SetOutputByteStream","SetOutputByteStream method [Media Foundation]","SetOutputByteStream method [Media Foundation]","IMFCapturePhotoSink interface","mf.imfcapturephotosink_setoutputbytestream","mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream"]
 old-location: mf\imfcapturephotosink_setoutputbytestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D67C2D66-FC40-4AF3-9E83-29D0DBF99AD3
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputByteStream method, IMFCapturePhotoSink.SetOutputByteStream, IMFCapturePhotoSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputbytestream, mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream

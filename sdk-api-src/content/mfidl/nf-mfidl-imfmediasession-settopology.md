@@ -4,7 +4,7 @@ title: IMFMediaSession::SetTopology (mfidl.h)
 description: Sets a topology on the Media Session.
 helpviewer_keywords: ["IMFMediaSession interface [Media Foundation]","SetTopology method","IMFMediaSession.SetTopology","IMFMediaSession::SetTopology","SetTopology","SetTopology method [Media Foundation]","SetTopology method [Media Foundation]","IMFMediaSession interface","ea5313f0-b0fd-4945-97a2-b3f17937294f","mf.imfmediasession_settopology","mfidl/IMFMediaSession::SetTopology"]
 old-location: mf\imfmediasession_settopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ea5313f0-b0fd-4945-97a2-b3f17937294f
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],SetTopology method, IMFMediaSession.SetTopology, IMFMediaSession::SetTopology, SetTopology, SetTopology method [Media Foundation], SetTopology method [Media Foundation],IMFMediaSession interface, ea5313f0-b0fd-4945-97a2-b3f17937294f, mf.imfmediasession_settopology, mfidl/IMFMediaSession::SetTopology

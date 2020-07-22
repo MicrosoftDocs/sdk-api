@@ -4,7 +4,7 @@ title: CertSrvBackupGetBackupLogsW function (certbcli.h)
 description: Retrieves the list of Certificate Services log file names that need to be backed up for the given backup context.
 helpviewer_keywords: ["CSBFT_LOG","CSBFT_PATCH_FILE","CertSrvBackupGetBackupLogs","CertSrvBackupGetBackupLogs function [Security]","CertSrvBackupGetBackupLogsW","_certsrv_certsrvbackupgetbackuplogs","certbcli/CertSrvBackupGetBackupLogs","certbcli/CertSrvBackupGetBackupLogsW","security.certsrvbackupgetbackuplogs"]
 old-location: security\certsrvbackupgetbackuplogs.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
 ms.date: 12/05/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs

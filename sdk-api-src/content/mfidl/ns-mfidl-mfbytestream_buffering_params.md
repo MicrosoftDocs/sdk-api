@@ -4,7 +4,7 @@ title: MFBYTESTREAM_BUFFERING_PARAMS (mfidl.h)
 description: Specifies the buffering parameters for a network byte stream.
 helpviewer_keywords: ["6667d32c-36a8-414e-a546-02d00a447b70","MFBYTESTREAM_BUFFERING_PARAMS","MFBYTESTREAM_BUFFERING_PARAMS structure [Media Foundation]","mf.mfbytestream_buffering_params","mfidl/MFBYTESTREAM_BUFFERING_PARAMS"]
 old-location: mf\mfbytestream_buffering_params.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6667d32c-36a8-414e-a546-02d00a447b70
 ms.date: 12/05/2018
 ms.keywords: 6667d32c-36a8-414e-a546-02d00a447b70, MFBYTESTREAM_BUFFERING_PARAMS, MFBYTESTREAM_BUFFERING_PARAMS structure [Media Foundation], mf.mfbytestream_buffering_params, mfidl/MFBYTESTREAM_BUFFERING_PARAMS

@@ -4,7 +4,7 @@ title: IsPwrShutdownAllowed function (powrprof.h)
 description: Determines whether the computer supports the soft off power state.
 helpviewer_keywords: ["IsPwrShutdownAllowed","IsPwrShutdownAllowed function","_win32_ispwrshutdownallowed","base.ispwrshutdownallowed","powrprof/IsPwrShutdownAllowed"]
 old-location: base\ispwrshutdownallowed.htm
-tech.root: power
+tech.root: base
 ms.assetid: e48d6f67-225b-40f7-902b-0e65112303b9
 ms.date: 12/05/2018
 ms.keywords: IsPwrShutdownAllowed, IsPwrShutdownAllowed function, _win32_ispwrshutdownallowed, base.ispwrshutdownallowed, powrprof/IsPwrShutdownAllowed

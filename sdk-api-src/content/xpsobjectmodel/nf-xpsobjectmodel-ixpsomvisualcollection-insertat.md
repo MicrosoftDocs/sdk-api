@@ -4,7 +4,7 @@ title: IXpsOMVisualCollection::InsertAt (xpsobjectmodel.h)
 description: Inserts an IXpsOMVisual interface pointer at a specified location in the collection.
 helpviewer_keywords: ["IXpsOMVisualCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMVisualCollection.InsertAt","IXpsOMVisualCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMVisualCollection interface","xps.ixpsomvisualcollection_insertat","xpsobjectmodel/IXpsOMVisualCollection::InsertAt"]
 old-location: xps\ixpsomvisualcollection_insertat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b4becd2b-c5f4-4d4d-a142-9f4fe11fafd3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMVisualCollection.InsertAt, IXpsOMVisualCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_insertat, xpsobjectmodel/IXpsOMVisualCollection::InsertAt

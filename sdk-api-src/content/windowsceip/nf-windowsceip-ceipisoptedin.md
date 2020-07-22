@@ -4,7 +4,7 @@ title: CeipIsOptedIn function (windowsceip.h)
 description: Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 helpviewer_keywords: ["CeipIsOptedIn","CeipIsOptedIn function","base.ceipisoptedin","windowsceip/ CeipIsOptedIn"]
 old-location: base\ceipisoptedin.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
 ms.date: 12/05/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn

@@ -4,7 +4,7 @@ title: IMFMediaBuffer::SetCurrentLength (mfobjects.h)
 description: Sets the length of the valid data in the buffer.
 helpviewer_keywords: ["IMFMediaBuffer interface [Media Foundation]","SetCurrentLength method","IMFMediaBuffer.SetCurrentLength","IMFMediaBuffer::SetCurrentLength","SetCurrentLength","SetCurrentLength method [Media Foundation]","SetCurrentLength method [Media Foundation]","IMFMediaBuffer interface","ce48458f-eb0f-441a-a4bc-9d3fbee0cd74","mf.imfmediabuffer_setcurrentlength","mfobjects/IMFMediaBuffer::SetCurrentLength"]
 old-location: mf\imfmediabuffer_setcurrentlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ce48458f-eb0f-441a-a4bc-9d3fbee0cd74
 ms.date: 12/05/2018
 ms.keywords: IMFMediaBuffer interface [Media Foundation],SetCurrentLength method, IMFMediaBuffer.SetCurrentLength, IMFMediaBuffer::SetCurrentLength, SetCurrentLength, SetCurrentLength method [Media Foundation], SetCurrentLength method [Media Foundation],IMFMediaBuffer interface, ce48458f-eb0f-441a-a4bc-9d3fbee0cd74, mf.imfmediabuffer_setcurrentlength, mfobjects/IMFMediaBuffer::SetCurrentLength

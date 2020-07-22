@@ -4,7 +4,7 @@ title: CreateThreadpoolIo function (threadpoolapiset.h)
 description: Creates a new I/O completion object.
 helpviewer_keywords: ["CreateThreadpoolIo","CreateThreadpoolIo function","base.createthreadpoolio","threadpoolapiset/CreateThreadpoolIo","winbase/CreateThreadpoolIo"]
 old-location: base\createthreadpoolio.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadpoolio, threadpoolapiset/CreateThreadpoolIo, winbase/CreateThreadpoolIo

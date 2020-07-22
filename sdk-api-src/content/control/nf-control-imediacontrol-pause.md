@@ -4,7 +4,7 @@ title: IMediaControl::Pause (control.h)
 description: The Pause method pauses all the filters in the filter graph.
 helpviewer_keywords: ["IMediaControl interface [DirectShow]","Pause method","IMediaControl.Pause","IMediaControl::Pause","IMediaControlPause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IMediaControl interface","control/IMediaControl::Pause","dshow.imediacontrol_pause"]
 old-location: dshow\imediacontrol_pause.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cfb875b7-cc4e-4ae2-8379-964d0e3ceb04
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause

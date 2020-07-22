@@ -4,7 +4,7 @@ title: IAMTVTuner::put_InputType (strmif.h)
 description: The put_InputType method sets the tuner input type (cable or antenna).
 helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","put_InputType method","IAMTVTuner.put_InputType","IAMTVTuner::put_InputType","IAMTVTunerput_InputType","dshow.iamtvtuner_put_inputtype","put_InputType","put_InputType method [DirectShow]","put_InputType method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::put_InputType"]
 old-location: dshow\iamtvtuner_put_inputtype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d23df6b1-eddc-4c8c-a3c9-400f915e35c4
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],put_InputType method, IAMTVTuner.put_InputType, IAMTVTuner::put_InputType, IAMTVTunerput_InputType, dshow.iamtvtuner_put_inputtype, put_InputType, put_InputType method [DirectShow], put_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_InputType

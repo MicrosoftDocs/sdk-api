@@ -4,7 +4,7 @@ title: IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration (mfobjects.h)
 description: Unregisters a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 helpviewer_keywords: ["IMFMuxStreamMediaTypeManager interface [Media Foundation]","RemoveStreamConfiguration method","IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration","IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration","RemoveStreamConfiguration","RemoveStreamConfiguration method [Media Foundation]","RemoveStreamConfiguration method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","mf.imfmuxstreammediatypemanager_removestreamconfiguration","mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration"]
 old-location: mf\imfmuxstreammediatypemanager_removestreamconfiguration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8808DC0A-7675-4913-B4F1-B2FCCB3AFBBF
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamMediaTypeManager interface [Media Foundation],RemoveStreamConfiguration method, IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration, IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration, RemoveStreamConfiguration, RemoveStreamConfiguration method [Media Foundation], RemoveStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, mf.imfmuxstreammediatypemanager_removestreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration

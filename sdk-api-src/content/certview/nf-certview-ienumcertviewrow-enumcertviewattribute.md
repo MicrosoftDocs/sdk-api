@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::EnumCertViewAttribute (certview.h)
 description: Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.
 helpviewer_keywords: ["EnumCertViewAttribute","EnumCertViewAttribute method [Security]","EnumCertViewAttribute method [Security]","IEnumCERTVIEWROW interface","IEnumCERTVIEWROW interface [Security]","EnumCertViewAttribute method","IEnumCERTVIEWROW.EnumCertViewAttribute","IEnumCERTVIEWROW::EnumCertViewAttribute","_certsrv_ienumcertviewrow_enumcertviewattribute","certview/IEnumCERTVIEWROW::EnumCertViewAttribute","security.ienumcertviewrow_enumcertviewattribute"]
 old-location: security\ienumcertviewrow_enumcertviewattribute.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 53a70f66-3805-429e-8ef6-01b00b666b72
 ms.date: 12/05/2018
 ms.keywords: EnumCertViewAttribute, EnumCertViewAttribute method [Security], EnumCertViewAttribute method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewAttribute method, IEnumCERTVIEWROW.EnumCertViewAttribute, IEnumCERTVIEWROW::EnumCertViewAttribute, _certsrv_ienumcertviewrow_enumcertviewattribute, certview/IEnumCERTVIEWROW::EnumCertViewAttribute, security.ienumcertviewrow_enumcertviewattribute

@@ -4,7 +4,7 @@ title: IVdsPack::AddDisk (vds.h)
 description: Adds a disk to an online pack.
 helpviewer_keywords: ["AddDisk","AddDisk method [VDS]","AddDisk method [VDS]","IVdsPack interface","IVdsPack interface [VDS]","AddDisk method","IVdsPack.AddDisk","IVdsPack::AddDisk","base.ivdspack_adddisk","vds/IVdsPack::AddDisk"]
 old-location: base\ivdspack_adddisk.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: e64e3891-74c6-4014-9909-24f75f69e06d
 ms.date: 12/05/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk

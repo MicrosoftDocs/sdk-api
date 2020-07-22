@@ -4,7 +4,7 @@ title: IMediaPosition::CanSeekBackward (control.h)
 description: The CanSeekBackward method determines whether the filter graph can seek backward in the stream.
 helpviewer_keywords: ["CanSeekBackward","CanSeekBackward method [DirectShow]","CanSeekBackward method [DirectShow]","IMediaPosition interface","IMediaPosition interface [DirectShow]","CanSeekBackward method","IMediaPosition.CanSeekBackward","IMediaPosition::CanSeekBackward","IMediaPositionCanSeekBackward","control/IMediaPosition::CanSeekBackward","dshow.imediaposition_canseekbackward"]
 old-location: dshow\imediaposition_canseekbackward.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8152553a-173b-4f0b-bcdf-b9c20912921d
 ms.date: 12/05/2018
 ms.keywords: CanSeekBackward, CanSeekBackward method [DirectShow], CanSeekBackward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekBackward method, IMediaPosition.CanSeekBackward, IMediaPosition::CanSeekBackward, IMediaPositionCanSeekBackward, control/IMediaPosition::CanSeekBackward, dshow.imediaposition_canseekbackward

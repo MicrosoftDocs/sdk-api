@@ -4,7 +4,7 @@ title: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA (wincrypt.h)
 description: Contains information about a key transport message recipient.
 helpviewer_keywords: ["*PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA","CMSG_CTRL_KEY_TRANS_DECRYPT_PARA","CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure [Security]","PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA","PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure pointer [Security]","_crypto2_cmsg_ctrl_key_trans_decrypt_para","security.cmsg_ctrl_key_trans_decrypt_para","wincrypt/CMSG_CTRL_KEY_TRANS_DECRYPT_PARA","wincrypt/PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA"]
 old-location: security\cmsg_ctrl_key_trans_decrypt_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_key_trans_decrypt_para, security.cmsg_ctrl_key_trans_decrypt_para, wincrypt/CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA'

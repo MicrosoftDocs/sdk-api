@@ -4,7 +4,7 @@ title: IMFMediaSourceExtensionNotify::OnSourceClose (mfmediaengine.h)
 description: Used to indicate that the media source has closed.
 helpviewer_keywords: ["IMFMediaSourceExtensionNotify interface [Media Foundation]","OnSourceClose method","IMFMediaSourceExtensionNotify.OnSourceClose","IMFMediaSourceExtensionNotify::OnSourceClose","OnSourceClose","OnSourceClose method [Media Foundation]","OnSourceClose method [Media Foundation]","IMFMediaSourceExtensionNotify interface","mf.imfmediasourceextensionnotify_onsourceclose","mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose"]
 old-location: mf\imfmediasourceextensionnotify_onsourceclose.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d4199b4e-320f-47ec-8434-862fb1c1db8d
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceClose method, IMFMediaSourceExtensionNotify.OnSourceClose, IMFMediaSourceExtensionNotify::OnSourceClose, OnSourceClose, OnSourceClose method [Media Foundation], OnSourceClose method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceclose, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose

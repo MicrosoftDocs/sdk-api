@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderFactory::CreatePropertyStore (functiondiscovery
 description: Enables providers to reuse the in-memory property store implementation.
 helpviewer_keywords: ["CreatePropertyStore","CreatePropertyStore method","CreatePropertyStore method","IFunctionDiscoveryProviderFactory interface","IFunctionDiscoveryProviderFactory interface","CreatePropertyStore method","IFunctionDiscoveryProviderFactory.CreatePropertyStore","IFunctionDiscoveryProviderFactory::CreatePropertyStore","functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreatePropertyStore","ncd.ifunctiondiscoveryproviderfactory_createpropertystore"]
 old-location: ncd\ifunctiondiscoveryproviderfactory_createpropertystore.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 668d0a70-a0c1-4e43-a258-5221e3fe28a1
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method, CreatePropertyStore method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreatePropertyStore method, IFunctionDiscoveryProviderFactory.CreatePropertyStore, IFunctionDiscoveryProviderFactory::CreatePropertyStore, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreatePropertyStore, ncd.ifunctiondiscoveryproviderfactory_createpropertystore

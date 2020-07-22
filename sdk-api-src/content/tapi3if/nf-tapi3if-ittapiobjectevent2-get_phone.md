@@ -4,7 +4,7 @@ title: ITTAPIObjectEvent2::get_Phone (tapi3if.h)
 description: The get_Phone method returns a pointer to the ITPhone interface on the phone object that caused this TAPI object event to be fired.
 helpviewer_keywords: ["ITTAPIObjectEvent2 interface [TAPI 2.2]","get_Phone method","ITTAPIObjectEvent2.get_Phone","ITTAPIObjectEvent2::get_Phone","_tapi3_ittapiobjectevent2_get_phone","get_Phone","get_Phone method [TAPI 2.2]","get_Phone method [TAPI 2.2]","ITTAPIObjectEvent2 interface","tapi3.ittapiobjectevent2_get_phone","tapi3if/ITTAPIObjectEvent2::get_Phone"]
 old-location: tapi3\ittapiobjectevent2_get_phone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 76e316f6-536b-4531-a4a6-397e258678cc
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent2 interface [TAPI 2.2],get_Phone method, ITTAPIObjectEvent2.get_Phone, ITTAPIObjectEvent2::get_Phone, _tapi3_ittapiobjectevent2_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITTAPIObjectEvent2 interface, tapi3.ittapiobjectevent2_get_phone, tapi3if/ITTAPIObjectEvent2::get_Phone

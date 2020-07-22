@@ -4,7 +4,7 @@ title: IPrintDocumentPackageTarget::GetPackageTargetTypes (documenttarget.h)
 description: Enumerates the supported target types.
 helpviewer_keywords: ["GetPackageTargetTypes","GetPackageTargetTypes method [XPS Documents and Packaging]","GetPackageTargetTypes method [XPS Documents and Packaging]","IPrintDocumentPackageTarget interface","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","GetPackageTargetTypes method","IPrintDocumentPackageTarget.GetPackageTargetTypes","IPrintDocumentPackageTarget::GetPackageTargetTypes","documenttarget/IPrintDocumentPackageTarget::GetPackageTargetTypes","xps.iprintdocumentpackagetarget_getpackagetargettypes"]
 old-location: xps\iprintdocumentpackagetarget_getpackagetargettypes.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2875B751-0D49-4CFC-AF96-7009400E5D6E
 ms.date: 12/05/2018
 ms.keywords: GetPackageTargetTypes, GetPackageTargetTypes method [XPS Documents and Packaging], GetPackageTargetTypes method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTargetTypes method, IPrintDocumentPackageTarget.GetPackageTargetTypes, IPrintDocumentPackageTarget::GetPackageTargetTypes, documenttarget/IPrintDocumentPackageTarget::GetPackageTargetTypes, xps.iprintdocumentpackagetarget_getpackagetargettypes

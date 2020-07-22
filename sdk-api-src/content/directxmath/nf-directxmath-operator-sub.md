@@ -2,6 +2,7 @@
 UID: NF:directxmath.operator-sub
 title: operator-
 description: Computes the negation of an XMVECTOR instance.
+tech.root: dxmath
 helpviewer_keywords: ["operator-"]
 ms.assetid: 96195aef-4e7b-4819-92a2-96379bc9f506
 ms.date: 05/13/2019

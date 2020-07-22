@@ -4,7 +4,7 @@ title: IXpsOMPageReference::HasRestrictedFonts (xpsobjectmodel.h)
 description: Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose EmbeddingOption property is set to XPS_FONT_EMBEDDING_RESTRICTED.
 helpviewer_keywords: ["FALSE","HasRestrictedFonts","HasRestrictedFonts method [XPS Documents and Packaging]","HasRestrictedFonts method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","HasRestrictedFonts method","IXpsOMPageReference.HasRestrictedFonts","IXpsOMPageReference::HasRestrictedFonts","TRUE","xps.ixpsompagereference_hasrestrictedfonts","xpsobjectmodel/IXpsOMPageReference::HasRestrictedFonts"]
 old-location: xps\ixpsompagereference_hasrestrictedfonts.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 721dffd7-a15f-4028-be9e-854a4445d76d
 ms.date: 12/05/2018
 ms.keywords: FALSE, HasRestrictedFonts, HasRestrictedFonts method [XPS Documents and Packaging], HasRestrictedFonts method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],HasRestrictedFonts method, IXpsOMPageReference.HasRestrictedFonts, IXpsOMPageReference::HasRestrictedFonts, TRUE, xps.ixpsompagereference_hasrestrictedfonts, xpsobjectmodel/IXpsOMPageReference::HasRestrictedFonts

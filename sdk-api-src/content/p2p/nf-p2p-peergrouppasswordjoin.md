@@ -4,7 +4,7 @@ title: PeerGroupPasswordJoin function (p2p.h)
 description: Prepares a peer with an invitation and the correct password to join a password-protected peer group prior to calling PeerGroupConnect or PeerGroupConnectByAddress.
 helpviewer_keywords: ["PeerGroupPasswordJoin","PeerGroupPasswordJoin function [Peer Networking]","p2p.peergrouppasswordjoin","p2p/PeerGroupPasswordJoin"]
 old-location: p2p\peergrouppasswordjoin.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: aff8a462-a4cf-462b-a641-b1573311037b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupPasswordJoin, PeerGroupPasswordJoin function [Peer Networking], p2p.peergrouppasswordjoin, p2p/PeerGroupPasswordJoin

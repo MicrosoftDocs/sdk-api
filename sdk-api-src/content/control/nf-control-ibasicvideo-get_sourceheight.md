@@ -4,7 +4,7 @@ title: IBasicVideo::get_SourceHeight (control.h)
 description: The get_SourceHeight method retrieves the height of the source rectangle.
 helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_SourceHeight method","IBasicVideo.get_SourceHeight","IBasicVideo::get_SourceHeight","IBasicVideoget_SourceHeight","control/IBasicVideo::get_SourceHeight","dshow.ibasicvideo_get_sourceheight","get_SourceHeight","get_SourceHeight method [DirectShow]","get_SourceHeight method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_sourceheight.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3f4e779a-cfa9-496d-a021-d24ae3daa5b3
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceHeight method, IBasicVideo.get_SourceHeight, IBasicVideo::get_SourceHeight, IBasicVideoget_SourceHeight, control/IBasicVideo::get_SourceHeight, dshow.ibasicvideo_get_sourceheight, get_SourceHeight, get_SourceHeight method [DirectShow], get_SourceHeight method [DirectShow],IBasicVideo interface

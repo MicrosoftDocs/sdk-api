@@ -4,7 +4,7 @@ title: IOCTL_PWM_PIN_SET_POLARITY (pwm.h)
 description: Sets the signal polarity of the pin or channel. The control code sets the signal polarity based on a PWM_PIN_SET_POLARITY_INPUT structure. The signal polarity is either Active High or Active Low, as defined in the PWM_POLARITY enumeration.
 helpviewer_keywords: ["IOCTL_PWM_PIN_SET_POLARITY","IOCTL_PWM_PIN_SET_POLARITY control","IOCTL_PWM_PIN_SET_POLARITY control code","base.ioctl_pwm_pin_set_polarity","pwm/IOCTL_PWM_PIN_SET_POLARITY"]
 old-location: base\ioctl_pwm_pin_set_polarity.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 310014B5-9E2A-49E5-AB07-B23408D9570F
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_SET_POLARITY, IOCTL_PWM_PIN_SET_POLARITY control, IOCTL_PWM_PIN_SET_POLARITY control code, base.ioctl_pwm_pin_set_polarity, pwm/IOCTL_PWM_PIN_SET_POLARITY

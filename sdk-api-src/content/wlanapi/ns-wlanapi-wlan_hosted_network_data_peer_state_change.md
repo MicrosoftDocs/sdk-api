@@ -4,7 +4,7 @@ title: WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE (wlanapi.h)
 description: Contains information about a network state change for a data peer on the wireless Hosted Network.
 helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE","PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE","PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE","WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure [NativeWIFI]","nwifi.wlan_hosted_network_data_peer_state_change","wlanapi/PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE","wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE"]
 old-location: nwifi\wlan_hosted_network_data_peer_state_change.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 476b903d-7c87-4734-8a42-c8b75d292fb5
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure [NativeWIFI], nwifi.wlan_hosted_network_data_peer_state_change, wlanapi/PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE'

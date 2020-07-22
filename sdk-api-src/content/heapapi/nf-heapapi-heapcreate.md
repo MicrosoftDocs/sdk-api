@@ -4,7 +4,7 @@ title: HeapCreate function (heapapi.h)
 description: Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
 helpviewer_keywords: ["HEAP_CREATE_ENABLE_EXECUTE","HEAP_GENERATE_EXCEPTIONS","HEAP_NO_SERIALIZE","HeapCreate","HeapCreate function","_win32_heapcreate","base.heapcreate","heapapi/HeapCreate","winbase/HeapCreate"]
 old-location: base\heapcreate.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b
 ms.date: 12/05/2018
 ms.keywords: HEAP_CREATE_ENABLE_EXECUTE, HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HeapCreate, HeapCreate function, _win32_heapcreate, base.heapcreate, heapapi/HeapCreate, winbase/HeapCreate

@@ -4,7 +4,7 @@ title: IVdsService::QueryProviders (vds.h)
 description: Returns an enumeration object containing a list of the hardware and software providers known to VDS.
 helpviewer_keywords: ["IVdsService interface [VDS]","QueryProviders method","IVdsService.QueryProviders","IVdsService::QueryProviders","QueryProviders","QueryProviders method [VDS]","QueryProviders method [VDS]","IVdsService interface","base.ivdsservice_queryproviders","vds/IVdsService::QueryProviders"]
 old-location: base\ivdsservice_queryproviders.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders

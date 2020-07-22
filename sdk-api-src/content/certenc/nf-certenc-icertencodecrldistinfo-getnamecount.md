@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::GetNameCount (certenc.h)
 description: Returns the number of names in a certificate revocation list (CRL) distribution point.
 helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","GetNameCount method","GetNameCount","GetNameCount method [Security]","GetNameCount method [Security]","CCertEncodeCRLDistInfo object","GetNameCount method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","GetNameCount method","ICertEncodeCRLDistInfo.GetNameCount","ICertEncodeCRLDistInfo::GetNameCount","_certsrv_icertencodecrldistinfo_getnamecount","certenc/ICertEncodeCRLDistInfo::GetNameCount","security.icertencodecrldistinfo_getnamecount"]
 old-location: security\icertencodecrldistinfo_getnamecount.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 64102b89-defe-4f26-b6b2-8c3903e08347
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeCRLDistInfo object, GetNameCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameCount method, ICertEncodeCRLDistInfo.GetNameCount, ICertEncodeCRLDistInfo::GetNameCount, _certsrv_icertencodecrldistinfo_getnamecount, certenc/ICertEncodeCRLDistInfo::GetNameCount, security.icertencodecrldistinfo_getnamecount

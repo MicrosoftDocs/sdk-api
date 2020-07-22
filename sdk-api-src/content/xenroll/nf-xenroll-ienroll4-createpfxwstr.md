@@ -4,7 +4,7 @@ title: IEnroll4::createPFXWStr (xenroll.h)
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS
 helpviewer_keywords: ["IEnroll4 interface [Security]","createPFXWStr method","IEnroll4.createPFXWStr","IEnroll4::createPFXWStr","createPFXWStr","createPFXWStr method [Security]","createPFXWStr method [Security]","IEnroll4 interface","security.ienroll4_createpfxwstr","xenroll/IEnroll4::createPFXWStr"]
 old-location: security\ienroll4_createpfxwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 38ab5b07-2a84-484b-b413-58f0e11599e9
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createPFXWStr method, IEnroll4.createPFXWStr, IEnroll4::createPFXWStr, createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security],IEnroll4 interface, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr

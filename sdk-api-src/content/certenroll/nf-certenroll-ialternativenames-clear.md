@@ -4,7 +4,7 @@ title: IAlternativeNames::Clear (certenroll.h)
 description: Removes all objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IAlternativeNames interface","IAlternativeNames interface [Security]","Clear method","IAlternativeNames.Clear","IAlternativeNames::Clear","certenroll/IAlternativeNames::Clear","security.ialternativenames_clear_method"]
 old-location: security\ialternativenames_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: babeb53a-b2db-420c-85fe-dacb9176ec70
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Clear method, IAlternativeNames.Clear, IAlternativeNames::Clear, certenroll/IAlternativeNames::Clear, security.ialternativenames_clear_method

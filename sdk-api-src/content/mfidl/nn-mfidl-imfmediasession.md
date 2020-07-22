@@ -4,7 +4,7 @@ title: IMFMediaSession (mfidl.h)
 description: Provides playback controls for protected and unprotected content.
 helpviewer_keywords: ["IMFMediaSession","IMFMediaSession interface [Media Foundation]","IMFMediaSession interface [Media Foundation]","described","feebf891-73fa-4fe6-94ca-3594986fc92d","mf.imfmediasession","mfidl/IMFMediaSession"]
 old-location: mf\imfmediasession.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: feebf891-73fa-4fe6-94ca-3594986fc92d
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFMediaSession interface [Media Foundation],described, feebf891-73fa-4fe6-94ca-3594986fc92d, mf.imfmediasession, mfidl/IMFMediaSession

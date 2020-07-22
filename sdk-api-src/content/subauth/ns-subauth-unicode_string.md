@@ -4,7 +4,7 @@ title: UNICODE_STRING (subauth.h)
 description: Used by various Local Security Authority (LSA) functions to specify a Unicode string.
 helpviewer_keywords: ["*PUNICODE_STRING","LSA_UNICODE_STRING","LSA_UNICODE_STRING structure [Security]","PLSA_UNICODE_STRING","PLSA_UNICODE_STRING structure pointer [Security]","PUNICODE_STRING","PUNICODE_STRING structure pointer [Security]","UNICODE_STRING","UNICODE_STRING structure [Security]","_lsa_unicode_string","ntsecapi/PLSA_UNICODE_STRING","ntsecapi/PUNICODE_STRING","ntsecapi/UNICODE_STRING","security.unicode_string","subauth/PLSA_UNICODE_STRING","subauth/PUNICODE_STRING","subauth/UNICODE_STRING"]
 old-location: security\unicode_string.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4687d63a-4e58-4181-a48f-2724e5015e77
 ms.date: 12/05/2018
 ms.keywords: '*PUNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING structure [Security], PLSA_UNICODE_STRING, PLSA_UNICODE_STRING structure pointer [Security], PUNICODE_STRING, PUNICODE_STRING structure pointer [Security], UNICODE_STRING, UNICODE_STRING structure [Security], _lsa_unicode_string, ntsecapi/PLSA_UNICODE_STRING, ntsecapi/PUNICODE_STRING, ntsecapi/UNICODE_STRING, security.unicode_string, subauth/PLSA_UNICODE_STRING, subauth/PUNICODE_STRING, subauth/UNICODE_STRING'

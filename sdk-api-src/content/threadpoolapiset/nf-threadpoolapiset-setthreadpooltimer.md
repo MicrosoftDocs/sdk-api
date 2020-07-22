@@ -4,7 +4,7 @@ title: SetThreadpoolTimer function (threadpoolapiset.h)
 description: Sets the timer object—, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 helpviewer_keywords: ["SetThreadpoolTimer","SetThreadpoolTimer function","base.setthreadpooltimer","threadpoolapiset/SetThreadpoolTimer","winbase/SetThreadpoolTimer"]
 old-location: base\setthreadpooltimer.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 017f88c6-e14c-47ba-94d2-e7bb0dc95d12
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolTimer, SetThreadpoolTimer function, base.setthreadpooltimer, threadpoolapiset/SetThreadpoolTimer, winbase/SetThreadpoolTimer

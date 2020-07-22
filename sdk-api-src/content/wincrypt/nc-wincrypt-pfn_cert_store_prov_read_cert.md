@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_READ_CERT (wincrypt.h)
 description: An application-defined callback function that reads the provider's copy of the certificate context.
 helpviewer_keywords: ["CertStoreProvReadCertCallback","PFN_CERT_STORE_PROV_READ_CERT","PFN_CERT_STORE_PROV_READ_CERT callback","PFN_CERT_STORE_PROV_READ_CERT callback function [Security]","_crypto2_certstoreprovreadcertcallback","security.certstoreprovreadcertcallback","wincrypt/PFN_CERT_STORE_PROV_READ_CERT"]
 old-location: security\certstoreprovreadcertcallback.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvReadCertCallback, PFN_CERT_STORE_PROV_READ_CERT, PFN_CERT_STORE_PROV_READ_CERT callback, PFN_CERT_STORE_PROV_READ_CERT callback function [Security], _crypto2_certstoreprovreadcertcallback, security.certstoreprovreadcertcallback, wincrypt/PFN_CERT_STORE_PROV_READ_CERT

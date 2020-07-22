@@ -4,7 +4,7 @@ title: IXpsSigningOptions::SetSignaturePartName (xpsdigitalsignature.h)
 description: Sets the part name of the document's signature part.
 helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetSignaturePartName method","IXpsSigningOptions.SetSignaturePartName","IXpsSigningOptions::SetSignaturePartName","SetSignaturePartName","SetSignaturePartName method [XPS Documents and Packaging]","SetSignaturePartName method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setsignaturepartname","xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName"]
 old-location: xps\ixpssigningoptions_setsignaturepartname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 24addd5c-09a5-4f1b-90eb-c398aa7dd9a1
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignaturePartName method, IXpsSigningOptions.SetSignaturePartName, IXpsSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [XPS Documents and Packaging], SetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName

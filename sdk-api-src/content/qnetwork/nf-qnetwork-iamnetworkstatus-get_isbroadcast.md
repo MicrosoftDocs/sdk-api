@@ -4,7 +4,7 @@ title: IAMNetworkStatus::get_IsBroadcast (qnetwork.h)
 description: The get_IsBroadcast method retrieves a value indicating whether the current stream is a broadcast stream.
 helpviewer_keywords: ["IAMNetworkStatus interface [DirectShow]","get_IsBroadcast method","IAMNetworkStatus.get_IsBroadcast","IAMNetworkStatus::get_IsBroadcast","IAMNetworkStatusget_IsBroadcast","dshow.iamnetworkstatus_get_isbroadcast","get_IsBroadcast","get_IsBroadcast method [DirectShow]","get_IsBroadcast method [DirectShow]","IAMNetworkStatus interface","qnetwork/IAMNetworkStatus::get_IsBroadcast"]
 old-location: dshow\iamnetworkstatus_get_isbroadcast.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 578fe82b-0c87-47ea-9600-91d68f4c733f
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_IsBroadcast method, IAMNetworkStatus.get_IsBroadcast, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_IsBroadcast

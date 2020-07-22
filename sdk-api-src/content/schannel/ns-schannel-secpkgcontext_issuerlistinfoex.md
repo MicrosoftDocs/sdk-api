@@ -4,7 +4,7 @@ title: SecPkgContext_IssuerListInfoEx (schannel.h)
 description: The SecPkgContext_IssuerListInfoEx structure holds a list of trusted certification authorities (CAs).
 helpviewer_keywords: ["*PSecPkgContext_IssuerListInfoEx","PSecPkgContext_IssuerListInfoEx","PSecPkgContext_IssuerListInfoEx structure pointer [Security]","SecPkgContext_IssuerListInfoEx","SecPkgContext_IssuerListInfoEx structure [Security]","_ssp_secpkgcontext_issuerlistinfoex","schannel/PSecPkgContext_IssuerListInfoEx","schannel/SecPkgContext_IssuerListInfoEx","security.secpkgcontext_issuerlistinfoex"]
 old-location: security\secpkgcontext_issuerlistinfoex.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: cf1ccd40-36bf-4597-b34f-d26cef63d800
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx structure pointer [Security], SecPkgContext_IssuerListInfoEx, SecPkgContext_IssuerListInfoEx structure [Security], _ssp_secpkgcontext_issuerlistinfoex, schannel/PSecPkgContext_IssuerListInfoEx, schannel/SecPkgContext_IssuerListInfoEx, security.secpkgcontext_issuerlistinfoex'

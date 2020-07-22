@@ -4,7 +4,7 @@ title: IAzApplication3::OpenScope2 (azroles.h)
 description: Opens an IAzScope2 object with the specified name.
 helpviewer_keywords: ["IAzApplication3 interface [Security]","OpenScope2 method","IAzApplication3.OpenScope2","IAzApplication3::OpenScope2","OpenScope2","OpenScope2 method [Security]","OpenScope2 method [Security]","IAzApplication3 interface","azroles/IAzApplication3::OpenScope2","security.iazapplication3_openscope2"]
 old-location: security\iazapplication3_openscope2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1ea9f12e-d00d-4ccd-bfd4-21027610e681
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],OpenScope2 method, IAzApplication3.OpenScope2, IAzApplication3::OpenScope2, OpenScope2, OpenScope2 method [Security], OpenScope2 method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenScope2, security.iazapplication3_openscope2

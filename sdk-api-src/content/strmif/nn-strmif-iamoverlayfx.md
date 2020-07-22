@@ -4,7 +4,7 @@ title: IAMOverlayFX (strmif.h)
 description: The IAMOverlayFX interface controls how the video overlay appears on the user's screen. The Overlay Mixer filter implements this interface.
 helpviewer_keywords: ["IAMOverlayFX","IAMOverlayFX interface [DirectShow]","IAMOverlayFX interface [DirectShow]","described","IAMOverlayFXInterface","dshow.iamoverlayfx","strmif/IAMOverlayFX"]
 old-location: dshow\iamoverlayfx.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6bc78464-8c9e-4016-b9aa-6589d53d45bf
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], IAMOverlayFX interface [DirectShow],described, IAMOverlayFXInterface, dshow.iamoverlayfx, strmif/IAMOverlayFX

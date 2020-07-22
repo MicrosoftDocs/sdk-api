@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Frees up a context created in the call to the SspiCreateAsyncContext function.
+tech.root: security
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

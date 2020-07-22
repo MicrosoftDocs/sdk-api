@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::AssignDriveLetter (vds.h)
 description: Assigns a drive letter to an existing OEM, ESP, or unknown partition.
 helpviewer_keywords: ["AssignDriveLetter","AssignDriveLetter method [VDS]","AssignDriveLetter method [VDS]","IVdsAdvancedDisk interface","IVdsAdvancedDisk interface [VDS]","AssignDriveLetter method","IVdsAdvancedDisk.AssignDriveLetter","IVdsAdvancedDisk::AssignDriveLetter","base.ivdsadvanceddisk_assigndriveletter","vds/IVdsAdvancedDisk::AssignDriveLetter"]
 old-location: base\ivdsadvanceddisk_assigndriveletter.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 92a79b87-7385-40d9-aa20-e4724b241e59
 ms.date: 12/05/2018
 ms.keywords: AssignDriveLetter, AssignDriveLetter method [VDS], AssignDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],AssignDriveLetter method, IVdsAdvancedDisk.AssignDriveLetter, IVdsAdvancedDisk::AssignDriveLetter, base.ivdsadvanceddisk_assigndriveletter, vds/IVdsAdvancedDisk::AssignDriveLetter

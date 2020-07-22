@@ -4,7 +4,7 @@ title: IMFSample (mfobjects.h)
 description: Represents a media sample, which is a container object for media data.
 helpviewer_keywords: ["IMFSample","IMFSample interface [Media Foundation]","IMFSample interface [Media Foundation]","described","b1c3758c-5133-41ee-b991-ae99d0296ccc","mf.imfsample","mfobjects/IMFSample"]
 old-location: mf\imfsample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc
 ms.date: 12/05/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample

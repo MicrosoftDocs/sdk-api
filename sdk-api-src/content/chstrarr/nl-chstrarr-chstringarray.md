@@ -4,7 +4,7 @@ title: CHStringArray (chstrarr.h)
 description: The following table lists the CHStringArray methods and operators.
 helpviewer_keywords: ["??1CHStringArray@@QAE@XZ","??1CHStringArray@@QEAA@XZ","CHStringArray","CHStringArray class [Windows Management Instrumentation]","CHStringArray class [Windows Management Instrumentation]","described","_hmm_chstringarray","chstrarr/CHStringArray","wmi.chstringarray"]
 old-location: wmi\chstringarray.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 62959345-4fed-4107-b155-1746ad35c658
 ms.date: 12/05/2018
 ms.keywords: ??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray class [Windows Management Instrumentation], CHStringArray class [Windows Management Instrumentation],described, _hmm_chstringarray, chstrarr/CHStringArray, wmi.chstringarray

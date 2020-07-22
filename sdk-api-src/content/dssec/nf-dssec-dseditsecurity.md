@@ -4,7 +4,7 @@ title: DSEditSecurity function (dssec.h)
 description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
 helpviewer_keywords: ["DSEditSecurity","DSEditSecurity function [Security]","dssec/DSEditSecurity","security.dseditsecurity"]
 old-location: security\dseditsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
 ms.date: 12/05/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity

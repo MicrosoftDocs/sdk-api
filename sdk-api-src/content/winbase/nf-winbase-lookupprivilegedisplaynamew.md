@@ -4,7 +4,7 @@ title: LookupPrivilegeDisplayNameW function (winbase.h)
 description: Retrieves the display name that represents a specified privilege.
 helpviewer_keywords: ["LookupPrivilegeDisplayName","LookupPrivilegeDisplayName function [Security]","LookupPrivilegeDisplayNameA","LookupPrivilegeDisplayNameW","_win32_lookupprivilegedisplayname","security.lookupprivilegedisplayname","winbase/LookupPrivilegeDisplayName","winbase/LookupPrivilegeDisplayNameA","winbase/LookupPrivilegeDisplayNameW"]
 old-location: security\lookupprivilegedisplayname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1fbb26b6-615e-4883-9f4b-3a1d05d9feaa
 ms.date: 12/05/2018
 ms.keywords: LookupPrivilegeDisplayName, LookupPrivilegeDisplayName function [Security], LookupPrivilegeDisplayNameA, LookupPrivilegeDisplayNameW, _win32_lookupprivilegedisplayname, security.lookupprivilegedisplayname, winbase/LookupPrivilegeDisplayName, winbase/LookupPrivilegeDisplayNameA, winbase/LookupPrivilegeDisplayNameW

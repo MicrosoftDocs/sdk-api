@@ -4,7 +4,7 @@ title: IAMExtTransport::GetStatus (strmif.h)
 description: The GetStatus method returns information about the transport's status.
 helpviewer_keywords: ["GetStatus","GetStatus method [DirectShow]","GetStatus method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetStatus method","IAMExtTransport.GetStatus","IAMExtTransport::GetStatus","IAMExtTransportGetStatus","dshow.iamexttransport_getstatus","strmif/IAMExtTransport::GetStatus"]
 old-location: dshow\iamexttransport_getstatus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 01d90527-4851-45a3-9481-929a9f4aa0cd
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus

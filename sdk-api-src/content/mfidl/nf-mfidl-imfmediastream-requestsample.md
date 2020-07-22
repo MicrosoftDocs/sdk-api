@@ -4,7 +4,7 @@ title: IMFMediaStream::RequestSample (mfidl.h)
 description: Requests a sample from the media source.
 helpviewer_keywords: ["3838167b-5774-47f5-9b8d-2882eaa97167","IMFMediaStream interface [Media Foundation]","RequestSample method","IMFMediaStream.RequestSample","IMFMediaStream::RequestSample","RequestSample","RequestSample method [Media Foundation]","RequestSample method [Media Foundation]","IMFMediaStream interface","mf.imfmediastream_requestsample","mfidl/IMFMediaStream::RequestSample"]
 old-location: mf\imfmediastream_requestsample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3838167b-5774-47f5-9b8d-2882eaa97167
 ms.date: 12/05/2018
 ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Media Foundation],RequestSample method, IMFMediaStream.RequestSample, IMFMediaStream::RequestSample, RequestSample, RequestSample method [Media Foundation], RequestSample method [Media Foundation],IMFMediaStream interface, mf.imfmediastream_requestsample, mfidl/IMFMediaStream::RequestSample

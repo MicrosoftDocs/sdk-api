@@ -4,7 +4,7 @@ title: RecoverTransactionManager function (ktmw32.h)
 description: Recovers a transaction manager's state from its log file.
 helpviewer_keywords: ["RecoverTransactionManager","RecoverTransactionManager function [Files]","fs.recovertransactionmanager","ktmw32/RecoverTransactionManager"]
 old-location: fs\recovertransactionmanager.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 6f217ebb-3423-41d3-acff-eb21838c9751
 ms.date: 12/05/2018
 ms.keywords: RecoverTransactionManager, RecoverTransactionManager function [Files], fs.recovertransactionmanager, ktmw32/RecoverTransactionManager

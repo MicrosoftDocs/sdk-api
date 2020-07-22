@@ -4,7 +4,7 @@ title: IX509Enrollment::InstallResponse (certenroll.h)
 description: Installs a certificate chain on the end-entity computer.
 helpviewer_keywords: ["AllowNoOutstandingRequest","AllowNone","AllowUntrustedCertificate","AllowUntrustedRoot","IX509Enrollment interface [Security]","InstallResponse method","IX509Enrollment.InstallResponse","IX509Enrollment::InstallResponse","InstallResponse","InstallResponse method [Security]","InstallResponse method [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::InstallResponse","security.ix509enrollment_installresponse_method"]
 old-location: security\ix509enrollment_installresponse_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 4ad33092-71c4-4ae1-a3a6-cef376d04c2d
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment interface [Security],InstallResponse method, IX509Enrollment.InstallResponse, IX509Enrollment::InstallResponse, InstallResponse, InstallResponse method [Security], InstallResponse method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InstallResponse, security.ix509enrollment_installresponse_method

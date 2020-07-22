@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreatePrintTicketResource (xpsobjectmodel.h)
 description: Creates an IXpsOMPrintTicketResource interface that enables access to a PrintTicket stream.
 helpviewer_keywords: ["CreatePrintTicketResource","CreatePrintTicketResource method [XPS Documents and Packaging]","CreatePrintTicketResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePrintTicketResource method","IXpsOMObjectFactory.CreatePrintTicketResource","IXpsOMObjectFactory::CreatePrintTicketResource","xps.ixpsomobjectfactory_createprintticketresource","xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource"]
 old-location: xps\ixpsomobjectfactory_createprintticketresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 67d5ccfc-0f01-49d2-966e-09c7958921a5
 ms.date: 12/05/2018
 ms.keywords: CreatePrintTicketResource, CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePrintTicketResource method, IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource

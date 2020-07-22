@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::put_HashAlgorithm (casetup.h)
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","ICertSrvSetupKeyInformation interface","ICertSrvSetupKeyInformation interface [Security]","HashAlgorithm property","ICertSrvSetupKeyInformation.HashAlgorithm","ICertSrvSetupKeyInformation.put_HashAlgorithm","ICertSrvSetupKeyInformation::HashAlgorithm","ICertSrvSetupKeyInformation::get_HashAlgorithm","ICertSrvSetupKeyInformation::put_HashAlgorithm","casetup/ICertSrvSetupKeyInformation::HashAlgorithm","casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm","casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm","put_HashAlgorithm","security.icertsrvsetupkeyinformation_hashalgorithm"]
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.put_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, put_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm

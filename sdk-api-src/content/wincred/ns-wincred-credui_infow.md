@@ -4,7 +4,7 @@ title: CREDUI_INFOW (wincred.h)
 description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information.
 helpviewer_keywords: ["*PCREDUI_INFOW","CREDUI_INFO","CREDUI_INFO structure [Security]","CREDUI_INFOW","PCREDUI_INFO","PCREDUI_INFO structure pointer [Security]","_cred_credui_info","security.credui_info","wincred/CREDUI_INFO","wincred/PCREDUI_INFO"]
 old-location: security\credui_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
 ms.date: 12/05/2018
 ms.keywords: '*PCREDUI_INFOW, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOW, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO'

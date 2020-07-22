@@ -4,7 +4,7 @@ title: PHONEEVENT (tspi.h)
 description: Phone_Event a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_phoneOpen. The service provider calls this function to report events that occur on the phone.
 helpviewer_keywords: ["PHONEEVENT","PHONEEVENT callback","Phone_Event","Phone_Event callback function [TAPI 2.2]","_tspi_phoneevent","tspi.phone_event_tspi","tspi.phoneevent","tspi/Phone_Event"]
 old-location: tspi\phone_event_tspi.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0b5745a4-7652-48ce-9e8a-eef52c09455f
 ms.date: 12/05/2018
 ms.keywords: PHONEEVENT, PHONEEVENT callback, Phone_Event, Phone_Event callback function [TAPI 2.2], _tspi_phoneevent, tspi.phone_event_tspi, tspi.phoneevent, tspi/Phone_Event

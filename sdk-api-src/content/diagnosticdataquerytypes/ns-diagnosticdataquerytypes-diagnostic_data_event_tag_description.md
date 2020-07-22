@@ -5,6 +5,7 @@ ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
 ms.topic: language-reference
 description: A resource that describes a tag, defined by the tag's name and its description. 
+tech.root: security
 targetos: Windows
 product: Windows
 req.construct-type: structure

@@ -5,7 +5,7 @@ ms.date: 1/23/2020
 ms.topic: language-reference
 targetos: Windows
 description: This interface is used to configure the capture device's extended properties.
-tech.root: medfound
+tech.root: mf
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

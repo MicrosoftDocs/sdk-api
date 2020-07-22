@@ -4,7 +4,7 @@ title: CloseEventLog function (winbase.h)
 description: Closes the specified event log.
 helpviewer_keywords: ["CloseEventLog","CloseEventLog function","_win32_closeeventlog","base.closeeventlog","winbase/CloseEventLog"]
 old-location: base\closeeventlog.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: cb98a0cf-8ee9-4d78-8508-efae1d43a91d
 ms.date: 12/05/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog

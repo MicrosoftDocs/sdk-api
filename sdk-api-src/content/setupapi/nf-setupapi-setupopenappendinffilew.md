@@ -4,7 +4,7 @@ title: SetupOpenAppendInfFileW function (setupapi.h)
 description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile.
 helpviewer_keywords: ["SetupOpenAppendInfFile","SetupOpenAppendInfFile function [Setup API]","SetupOpenAppendInfFileA","SetupOpenAppendInfFileW","_setupapi_setupopenappendinffile","setup.setupopenappendinffile","setupapi/SetupOpenAppendInfFile","setupapi/SetupOpenAppendInfFileA","setupapi/SetupOpenAppendInfFileW"]
 old-location: setup\setupopenappendinffile.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 12b1c676-912f-4876-998c-6b0ff162b95d
 ms.date: 12/05/2018
 ms.keywords: SetupOpenAppendInfFile, SetupOpenAppendInfFile function [Setup API], SetupOpenAppendInfFileA, SetupOpenAppendInfFileW, _setupapi_setupopenappendinffile, setup.setupopenappendinffile, setupapi/SetupOpenAppendInfFile, setupapi/SetupOpenAppendInfFileA, setupapi/SetupOpenAppendInfFileW

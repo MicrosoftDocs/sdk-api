@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration (tapi3if.h)
 description: The get_AutoKeypadTonesMinimumDuration method retrieves the current value of the AutoKeypadTonesMinimumDuration property. The property specifies how long to play keypad tones on PBS_DOWN.
 helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_AutoKeypadTonesMinimumDuration method","ITAutomatedPhoneControl.get_AutoKeypadTonesMinimumDuration","ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration","_tapi3_itautomatedphonecontrol_get_autokeypadtonesminimumduration","get_AutoKeypadTonesMinimumDuration","get_AutoKeypadTonesMinimumDuration method [TAPI 2.2]","get_AutoKeypadTonesMinimumDuration method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_autokeypadtonesminimumduration","tapi3if/ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration"]
 old-location: tapi3\itautomatedphonecontrol_get_autokeypadtonesminimumduration.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9f1ae3f0-ae6a-408a-ac53-e4181ecf2c4b
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoKeypadTonesMinimumDuration method, ITAutomatedPhoneControl.get_AutoKeypadTonesMinimumDuration, ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration, _tapi3_itautomatedphonecontrol_get_autokeypadtonesminimumduration, get_AutoKeypadTonesMinimumDuration, get_AutoKeypadTonesMinimumDuration method [TAPI 2.2], get_AutoKeypadTonesMinimumDuration method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autokeypadtonesminimumduration, tapi3if/ITAutomatedPhoneControl::get_AutoKeypadTonesMinimumDuration

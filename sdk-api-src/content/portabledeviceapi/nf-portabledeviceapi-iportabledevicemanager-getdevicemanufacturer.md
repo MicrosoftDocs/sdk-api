@@ -4,7 +4,7 @@ title: IPortableDeviceManager::GetDeviceManufacturer (portabledeviceapi.h)
 description: Retrieves the name of the device manufacturer.
 helpviewer_keywords: ["GetDeviceManufacturer","GetDeviceManufacturer method [Windows Portable Devices SDK]","GetDeviceManufacturer method [Windows Portable Devices SDK]","IPortableDeviceManager interface","IPortableDeviceManager interface [Windows Portable Devices SDK]","GetDeviceManufacturer method","IPortableDeviceManager.GetDeviceManufacturer","IPortableDeviceManager::GetDeviceManufacturer","IPortableDeviceManagerGetDeviceManufacturer","portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer","wpdsdk.iportabledevicemanager_getdevicemanufacturer"]
 old-location: wpdsdk\iportabledevicemanager_getdevicemanufacturer.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 2bd64da1-819d-430c-ab66-ab3b8e6c48f6
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Portable Devices SDK], GetDeviceManufacturer method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceManufacturer method, IPortableDeviceManager.GetDeviceManufacturer, IPortableDeviceManager::GetDeviceManufacturer, IPortableDeviceManagerGetDeviceManufacturer, portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer, wpdsdk.iportabledevicemanager_getdevicemanufacturer

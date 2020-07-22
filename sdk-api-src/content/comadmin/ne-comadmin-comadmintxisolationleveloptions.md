@@ -4,7 +4,7 @@ title: COMAdminTxIsolationLevelOptions (comadmin.h)
 description: Indicates the isolation level that is to be used for transactions.
 helpviewer_keywords: ["COMAdminTxIsolationLevelAny","COMAdminTxIsolationLevelOptions","COMAdminTxIsolationLevelOptions enumeration [COM+]","COMAdminTxIsolationLevelReadCommitted","COMAdminTxIsolationLevelReadUnCommitted","COMAdminTxIsolationLevelRepeatableRead","COMAdminTxIsolationLevelSerializable","_cos_COMAdminTxIsolationLevelOption","comadmin/COMAdminTxIsolationLevelAny","comadmin/COMAdminTxIsolationLevelOptions","comadmin/COMAdminTxIsolationLevelReadCommitted","comadmin/COMAdminTxIsolationLevelReadUnCommitted","comadmin/COMAdminTxIsolationLevelRepeatableRead","comadmin/COMAdminTxIsolationLevelSerializable","cos.comadmintxisolationleveloptions"]
 old-location: cos\comadmintxisolationleveloptions.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5e407423-b116-48c5-a99c-2551eca379b3
 ms.date: 12/05/2018
 ms.keywords: COMAdminTxIsolationLevelAny, COMAdminTxIsolationLevelOptions, COMAdminTxIsolationLevelOptions enumeration [COM+], COMAdminTxIsolationLevelReadCommitted, COMAdminTxIsolationLevelReadUnCommitted, COMAdminTxIsolationLevelRepeatableRead, COMAdminTxIsolationLevelSerializable, _cos_COMAdminTxIsolationLevelOption, comadmin/COMAdminTxIsolationLevelAny, comadmin/COMAdminTxIsolationLevelOptions, comadmin/COMAdminTxIsolationLevelReadCommitted, comadmin/COMAdminTxIsolationLevelReadUnCommitted, comadmin/COMAdminTxIsolationLevelRepeatableRead, comadmin/COMAdminTxIsolationLevelSerializable, cos.comadmintxisolationleveloptions

@@ -4,7 +4,7 @@ title: ID3D11VideoDevice::SetPrivateDataInterface (d3d11.h)
 description: Sets a private IUnknown pointer on the video device and associates that pointer with a GUID.
 helpviewer_keywords: ["ID3D11VideoDevice interface [Media Foundation]","SetPrivateDataInterface method","ID3D11VideoDevice.SetPrivateDataInterface","ID3D11VideoDevice::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [Media Foundation]","SetPrivateDataInterface method [Media Foundation]","ID3D11VideoDevice interface","d3d11/ID3D11VideoDevice::SetPrivateDataInterface","mf.id3d11videodevice_setprivatedatainterface"]
 old-location: mf\id3d11videodevice_setprivatedatainterface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E20FC248-92B2-4284-9EDC-9D5E6AB9506B
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateDataInterface method, ID3D11VideoDevice.SetPrivateDataInterface, ID3D11VideoDevice::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Media Foundation], SetPrivateDataInterface method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateDataInterface, mf.id3d11videodevice_setprivatedatainterface

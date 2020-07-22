@@ -4,7 +4,7 @@ title: ITTAPI::SetApplicationPriority (tapi3if.h)
 description: The SetApplicationPriority method allows an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
 helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","SetApplicationPriority method","ITTAPI.SetApplicationPriority","ITTAPI::SetApplicationPriority","SetApplicationPriority","SetApplicationPriority method [TAPI 2.2]","SetApplicationPriority method [TAPI 2.2]","ITTAPI interface","_tapi3_ittapi_setapplicationpriority","tapi3.ittapi_setapplicationpriority","tapi3if/ITTAPI::SetApplicationPriority"]
 old-location: tapi3\ittapi_setapplicationpriority.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ca049695-02d0-4b30-ad1f-60cdbf0a4dbd
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetApplicationPriority method, ITTAPI.SetApplicationPriority, ITTAPI::SetApplicationPriority, SetApplicationPriority, SetApplicationPriority method [TAPI 2.2], SetApplicationPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setapplicationpriority, tapi3.ittapi_setapplicationpriority, tapi3if/ITTAPI::SetApplicationPriority

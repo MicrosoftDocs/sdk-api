@@ -4,7 +4,7 @@ title: TSPI_phoneSetRing function (tspi.h)
 description: The TSPI_phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 helpviewer_keywords: ["TSPI_phoneSetRing","TSPI_phoneSetRing function [TAPI 2.2]","_tspi_tspi_phonesetring","tspi.tspi_phonesetring","tspi/TSPI_phoneSetRing"]
 old-location: tspi\tspi_phonesetring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8540f39e-4891-48d9-a5b0-b928eeb4be0d
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetRing, TSPI_phoneSetRing function [TAPI 2.2], _tspi_tspi_phonesetring, tspi.tspi_phonesetring, tspi/TSPI_phoneSetRing

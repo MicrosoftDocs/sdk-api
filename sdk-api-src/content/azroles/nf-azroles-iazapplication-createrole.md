@@ -4,7 +4,7 @@ title: IAzApplication::CreateRole (azroles.h)
 description: Creates an IAzRole object with the specified name.
 helpviewer_keywords: ["AzApplication object [Security]","CreateRole method","CreateRole","CreateRole method [Security]","CreateRole method [Security]","AzApplication object","CreateRole method [Security]","IAzApplication interface","IAzApplication interface [Security]","CreateRole method","IAzApplication.CreateRole","IAzApplication::CreateRole","azroles/IAzApplication::CreateRole","security.iazapplication_createrole"]
 old-location: security\iazapplication_createrole.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: abad30e8-a483-4c29-ae87-4218882e8319
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzApplication object, CreateRole method [Security],IAzApplication interface, IAzApplication interface [Security],CreateRole method, IAzApplication.CreateRole, IAzApplication::CreateRole, azroles/IAzApplication::CreateRole, security.iazapplication_createrole

@@ -4,7 +4,7 @@ title: ICertProperty::InitializeDecode (certenroll.h)
 description: Initializes the object from a byte array that contains the property value.
 helpviewer_keywords: ["ICertProperty interface [Security]","InitializeDecode method","ICertProperty.InitializeDecode","ICertProperty::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","ICertProperty interface","certenroll/ICertProperty::InitializeDecode","security.icertproperty_initializedecode_method"]
 old-location: security\icertproperty_initializedecode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 38b51242-cd4a-402e-b7ff-286f7bf66953
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeDecode method, ICertProperty.InitializeDecode, ICertProperty::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method

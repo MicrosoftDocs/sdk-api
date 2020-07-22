@@ -4,7 +4,7 @@ title: CMSG_SIGNER_INFO (wincrypt.h)
 description: The CMSG_SIGNER_INFO structure contains the content of the PKCS
 helpviewer_keywords: ["*PCMSG_SIGNER_INFO","CMSG_SIGNER_INFO","CMSG_SIGNER_INFO structure [Security]","PCMSG_SIGNER_INFO","PCMSG_SIGNER_INFO structure pointer [Security]","_crypto2_cmsg_signer_info","security.cmsg_signer_info","wincrypt/CMSG_SIGNER_INFO","wincrypt/PCMSG_SIGNER_INFO"]
 old-location: security\cmsg_signer_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_SIGNER_INFO, CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _crypto2_cmsg_signer_info, security.cmsg_signer_info, wincrypt/CMSG_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO'

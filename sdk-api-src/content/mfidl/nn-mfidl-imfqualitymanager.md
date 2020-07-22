@@ -4,7 +4,7 @@ title: IMFQualityManager (mfidl.h)
 description: Adjusts playback quality. This interface is exposed by the quality manager.
 helpviewer_keywords: ["66781a1f-7469-4222-9e99-6b1415830f4c","IMFQualityManager","IMFQualityManager interface [Media Foundation]","IMFQualityManager interface [Media Foundation]","described","mf.imfqualitymanager","mfidl/IMFQualityManager"]
 old-location: mf\imfqualitymanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 66781a1f-7469-4222-9e99-6b1415830f4c
 ms.date: 12/05/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager

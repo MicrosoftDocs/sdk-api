@@ -4,7 +4,7 @@ title: ISeekingPassThru::Init (strmif.h)
 description: The Init method initializes the seeking helper object.
 helpviewer_keywords: ["ISeekingPassThru interface [DirectShow]","Init method","ISeekingPassThru.Init","ISeekingPassThru::Init","ISeekingPassThruInit","Init","Init method [DirectShow]","Init method [DirectShow]","ISeekingPassThru interface","dshow.iseekingpassthru_init","strmif/ISeekingPassThru::Init"]
 old-location: dshow\iseekingpassthru_init.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bb32c20c-bbae-403a-885b-f07c6dcf46f4
 ms.date: 12/05/2018
 ms.keywords: ISeekingPassThru interface [DirectShow],Init method, ISeekingPassThru.Init, ISeekingPassThru::Init, ISeekingPassThruInit, Init, Init method [DirectShow], Init method [DirectShow],ISeekingPassThru interface, dshow.iseekingpassthru_init, strmif/ISeekingPassThru::Init

@@ -4,7 +4,7 @@ title: CHString::UnlockBuffer (chstring.h)
 description: The UnlockBuffer method unlocks the buffer that was previously secured by calling LockBuffer and resets the reference count to 1.
 helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","UnlockBuffer method","CHString.UnlockBuffer","CHString::UnlockBuffer","UnlockBuffer","UnlockBuffer method [Windows Management Instrumentation]","UnlockBuffer method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_unlockbuffer","chstring/CHString::UnlockBuffer","wmi.chstring_unlockbuffer"]
 old-location: wmi\chstring_unlockbuffer.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: cde732ea-b2de-4eb7-bef6-bed01137d76a
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],UnlockBuffer method, CHString.UnlockBuffer, CHString::UnlockBuffer, UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer

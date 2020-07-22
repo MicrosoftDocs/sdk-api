@@ -4,7 +4,7 @@ title: FlsGetValue function
 description: Retrieves the value in the calling fiber's fiber local storage (FLS) slot for the specified FLS index. Each fiber has its own slot for each FLS index.
 helpviewer_keywords: ["FlsGetValue","FlsGetValue function","_win32_flsgetvalue","base.flsgetvalue","fibersapi/FlsGetValue","winbase/FlsGetValue"]
 old-location: base\flsgetvalue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5d5a1fe6-10ed-42c5-87db-b24eef6f174c
 ms.date: 12/05/2018
 ms.keywords: FlsGetValue, FlsGetValue function, _win32_flsgetvalue, base.flsgetvalue, fibersapi/FlsGetValue, winbase/FlsGetValue

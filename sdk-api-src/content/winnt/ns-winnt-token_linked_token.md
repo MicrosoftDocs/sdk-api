@@ -4,7 +4,7 @@ title: TOKEN_LINKED_TOKEN (winnt.h)
 description: Contains a handle to a token. This token is linked to the token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 helpviewer_keywords: ["*PTOKEN_LINKED_TOKEN","PTOKEN_LINKED_TOKEN","PTOKEN_LINKED_TOKEN structure pointer [Security]","TOKEN_LINKED_TOKEN","TOKEN_LINKED_TOKEN structure [Security]","_TOKEN_LINKED_TOKEN","security.token_linked_token","winnt/PTOKEN_LINKED_TOKEN","winnt/TOKEN_LINKED_TOKEN"]
 old-location: security\token_linked_token.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a77dd410-1074-4196-8323-ccf52ed0375a
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN structure pointer [Security], TOKEN_LINKED_TOKEN, TOKEN_LINKED_TOKEN structure [Security], _TOKEN_LINKED_TOKEN, security.token_linked_token, winnt/PTOKEN_LINKED_TOKEN, winnt/TOKEN_LINKED_TOKEN'

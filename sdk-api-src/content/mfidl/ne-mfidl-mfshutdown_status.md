@@ -4,7 +4,7 @@ title: MFSHUTDOWN_STATUS (mfidl.h)
 description: Describes the current status of a call to the IMFShutdown::Shutdown method.
 helpviewer_keywords: ["MFSHUTDOWN_COMPLETED","MFSHUTDOWN_INITIATED","MFSHUTDOWN_STATUS","MFSHUTDOWN_STATUS enumeration [Media Foundation]","a2257260-3f2c-4c6b-88cc-b8927b899782","mf.mfshutdown_status","mfidl/MFSHUTDOWN_COMPLETED","mfidl/MFSHUTDOWN_INITIATED","mfidl/MFSHUTDOWN_STATUS"]
 old-location: mf\mfshutdown_status.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a2257260-3f2c-4c6b-88cc-b8927b899782
 ms.date: 12/05/2018
 ms.keywords: MFSHUTDOWN_COMPLETED, MFSHUTDOWN_INITIATED, MFSHUTDOWN_STATUS, MFSHUTDOWN_STATUS enumeration [Media Foundation], a2257260-3f2c-4c6b-88cc-b8927b899782, mf.mfshutdown_status, mfidl/MFSHUTDOWN_COMPLETED, mfidl/MFSHUTDOWN_INITIATED, mfidl/MFSHUTDOWN_STATUS

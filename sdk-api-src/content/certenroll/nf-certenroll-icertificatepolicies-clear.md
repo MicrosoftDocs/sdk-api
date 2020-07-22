@@ -4,7 +4,7 @@ title: ICertificatePolicies::Clear (certenroll.h)
 description: Removes all objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICertificatePolicies interface","ICertificatePolicies interface [Security]","Clear method","ICertificatePolicies.Clear","ICertificatePolicies::Clear","certenroll/ICertificatePolicies::Clear","security.icertificatepolicies_clear_method"]
 old-location: security\icertificatepolicies_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 842c06a7-bf70-45e5-8f65-edaa075a8f3e
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Clear method, ICertificatePolicies.Clear, ICertificatePolicies::Clear, certenroll/ICertificatePolicies::Clear, security.icertificatepolicies_clear_method

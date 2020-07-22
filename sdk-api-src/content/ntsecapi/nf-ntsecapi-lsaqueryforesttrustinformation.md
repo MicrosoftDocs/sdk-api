@@ -4,7 +4,7 @@ title: LsaQueryForestTrustInformation function (ntsecapi.h)
 description: Retrieves forest trust information for the specified Local Security Authority TrustedDomain object.
 helpviewer_keywords: ["LsaQueryForestTrustInformation","LsaQueryForestTrustInformation function [Security]","ntsecapi/LsaQueryForestTrustInformation","security.lsaqueryforesttrustinformation"]
 old-location: security\lsaqueryforesttrustinformation.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 38857f1f-e2c7-4ce5-a928-335bc3bd2176
 ms.date: 12/05/2018
 ms.keywords: LsaQueryForestTrustInformation, LsaQueryForestTrustInformation function [Security], ntsecapi/LsaQueryForestTrustInformation, security.lsaqueryforesttrustinformation

@@ -4,7 +4,7 @@ title: IAzScope::AddPolicyAdministratorName (azroles.h)
 description: The AddPolicyAdministratorName method of IAzScope adds the specified account name to the list of principals that act as policy administrators.
 helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName method [Security]","AddPolicyAdministratorName method [Security]","AzScope object","AddPolicyAdministratorName method [Security]","IAzScope interface","AzScope object [Security]","AddPolicyAdministratorName method","IAzScope interface [Security]","AddPolicyAdministratorName method","IAzScope.AddPolicyAdministratorName","IAzScope::AddPolicyAdministratorName","azroles/IAzScope::AddPolicyAdministratorName","security.iazscope_addpolicyadministratorname"]
 old-location: security\iazscope_addpolicyadministratorname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a160e4cb-e779-413e-9d8a-5fb9684a48f2
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzScope object, AddPolicyAdministratorName method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministratorName method, IAzScope interface [Security],AddPolicyAdministratorName method, IAzScope.AddPolicyAdministratorName, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname

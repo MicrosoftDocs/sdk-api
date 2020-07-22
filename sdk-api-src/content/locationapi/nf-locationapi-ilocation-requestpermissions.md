@@ -4,7 +4,7 @@ title: ILocation::RequestPermissions (locationapi.h)
 description: Opens a system dialog box to request user permission to enable location devices.
 helpviewer_keywords: ["ILocation interface [WinLocation]","RequestPermissions method","ILocation.RequestPermissions","ILocation::RequestPermissions","RequestPermissions","RequestPermissions method [WinLocation]","RequestPermissions method [WinLocation]","ILocation interface","WinLocation_COM_Ref.ilocation_requestpermissions","locationapi/ILocation::RequestPermissions"]
 old-location: winlocation_com_ref\ilocation_requestpermissions.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: eef60203-8705-4f68-be30-c9e7938e5596
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],RequestPermissions method, ILocation.RequestPermissions, ILocation::RequestPermissions, RequestPermissions, RequestPermissions method [WinLocation], RequestPermissions method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_requestpermissions, locationapi/ILocation::RequestPermissions

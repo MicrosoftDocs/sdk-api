@@ -4,7 +4,7 @@ title: RegDeleteKeyTransactedW function (winreg.h)
 description: Deletes a subkey and its values from the specified platform-specific view of the registry as a transacted operation.
 helpviewer_keywords: ["KEY_WOW64_32KEY","KEY_WOW64_64KEY","RegDeleteKeyTransacted","RegDeleteKeyTransacted function","RegDeleteKeyTransactedA","RegDeleteKeyTransactedW","base.regdeletekeytransacted","winreg/RegDeleteKeyTransacted","winreg/RegDeleteKeyTransactedA","winreg/RegDeleteKeyTransactedW"]
 old-location: base\regdeletekeytransacted.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 4c67e08b-4338-4441-8300-6b6ed31d4b21
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyTransacted, RegDeleteKeyTransacted function, RegDeleteKeyTransactedA, RegDeleteKeyTransactedW, base.regdeletekeytransacted, winreg/RegDeleteKeyTransacted, winreg/RegDeleteKeyTransactedA, winreg/RegDeleteKeyTransactedW

@@ -4,7 +4,7 @@ title: CryptUIDlgViewCertificateW function (cryptuiapi.h)
 description: Presents a dialog box that displays a specified certificate.
 helpviewer_keywords: ["CryptUIDlgViewCertificate","CryptUIDlgViewCertificate function [Security]","CryptUIDlgViewCertificateA","CryptUIDlgViewCertificateW","cryptuiapi/CryptUIDlgViewCertificate","cryptuiapi/CryptUIDlgViewCertificateA","cryptuiapi/CryptUIDlgViewCertificateW","security.cryptuidlgviewcertificate"]
 old-location: security\cryptuidlgviewcertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
 ms.date: 12/05/2018
 ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Security], CryptUIDlgViewCertificateA, CryptUIDlgViewCertificateW, cryptuiapi/CryptUIDlgViewCertificate, cryptuiapi/CryptUIDlgViewCertificateA, cryptuiapi/CryptUIDlgViewCertificateW, security.cryptuidlgviewcertificate

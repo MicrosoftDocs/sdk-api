@@ -4,7 +4,7 @@ title: lineSwapHold function (tapi.h)
 description: The lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 helpviewer_keywords: ["_tapi2_lineswaphold","lineSwapHold","lineSwapHold function [TAPI 2.2]","tapi/lineSwapHold","tapi2.lineswaphold"]
 old-location: tapi2\lineswaphold.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9e575c82-301c-4505-b400-faf4dc291ff8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold

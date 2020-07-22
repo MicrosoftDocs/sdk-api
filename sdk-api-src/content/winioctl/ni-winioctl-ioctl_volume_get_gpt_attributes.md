@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 description: Retrieves the attributes for a volume.
 helpviewer_keywords: ["IOCTL_VOLUME_GET_GPT_ATTRIBUTES","IOCTL_VOLUME_GET_GPT_ATTRIBUTES control","IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files]","fs.ioctl_volume_get_gpt_attributes","winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES"]
 old-location: fs\ioctl_volume_get_gpt_attributes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3e58e0d6-215a-47f3-b1bf-e8d53c224b68
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_GET_GPT_ATTRIBUTES, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files], fs.ioctl_volume_get_gpt_attributes, winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES

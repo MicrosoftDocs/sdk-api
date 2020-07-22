@@ -4,7 +4,7 @@ title: WinUsb_Initialize function (winusb.h)
 description: The WinUsb_Initialize function creates a WinUSB handle for the device specified by a file handle.
 helpviewer_keywords: ["WinUsb_Initialize","WinUsb_Initialize function [Buses]","buses.winusb_initialize","winusb/WinUsb_Initialize","winusbfunc_f0a58fec-c4eb-49b7-81d0-89c891e10731.xml"]
 old-location: buses\winusb_initialize.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 258cf508-036a-4ade-95b2-4b36d1149ffd
 ms.date: 12/05/2018
 ms.keywords: WinUsb_Initialize, WinUsb_Initialize function [Buses], buses.winusb_initialize, winusb/WinUsb_Initialize, winusbfunc_f0a58fec-c4eb-49b7-81d0-89c891e10731.xml

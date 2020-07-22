@@ -4,7 +4,7 @@ title: IUpdateHistoryEntryCollection::get_Item (wuapi.h)
 description: Gets an IUpdateHistoryEntry interface in the collection.
 helpviewer_keywords: ["IUpdateHistoryEntryCollection interface [Windows Update Agent]","Item property","IUpdateHistoryEntryCollection.Item","IUpdateHistoryEntryCollection.get_Item","IUpdateHistoryEntryCollection::Item","IUpdateHistoryEntryCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IUpdateHistoryEntryCollection interface","get_Item","wua.iupdatehistoryentrycollection_item","wuapi/IUpdateHistoryEntryCollection::Item","wuapi/IUpdateHistoryEntryCollection::get_Item"]
 old-location: wua\iupdatehistoryentrycollection_item.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 38b371bf-0dc3-4b16-8c7c-8a9e2a19c29b
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection interface [Windows Update Agent],Item property, IUpdateHistoryEntryCollection.Item, IUpdateHistoryEntryCollection.get_Item, IUpdateHistoryEntryCollection::Item, IUpdateHistoryEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateHistoryEntryCollection interface, get_Item, wua.iupdatehistoryentrycollection_item, wuapi/IUpdateHistoryEntryCollection::Item, wuapi/IUpdateHistoryEntryCollection::get_Item

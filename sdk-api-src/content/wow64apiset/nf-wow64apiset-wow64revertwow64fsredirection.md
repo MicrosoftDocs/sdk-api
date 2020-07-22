@@ -4,7 +4,7 @@ title: Wow64RevertWow64FsRedirection function (wow64apiset.h)
 description: Restores file system redirection for the calling thread.
 helpviewer_keywords: ["Wow64RevertWow64FsRedirection","Wow64RevertWow64FsRedirection function [Files]","base.wow64revertwow64fsredirection","fs.wow64revertwow64fsredirection","wow64apiset/Wow64RevertWow64FsRedirection"]
 old-location: fs\wow64revertwow64fsredirection.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8a09bdeb-b969-48b2-a432-c78dd4177000
 ms.date: 12/05/2018
 ms.keywords: Wow64RevertWow64FsRedirection, Wow64RevertWow64FsRedirection function [Files], base.wow64revertwow64fsredirection, fs.wow64revertwow64fsredirection, wow64apiset/Wow64RevertWow64FsRedirection

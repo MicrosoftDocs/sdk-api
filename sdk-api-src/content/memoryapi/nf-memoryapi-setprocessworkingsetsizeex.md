@@ -4,7 +4,7 @@ title: SetProcessWorkingSetSizeEx function (memoryapi.h)
 description: Sets the minimum and maximum working set sizes for the specified process.
 helpviewer_keywords: ["QUOTA_LIMITS_HARDWS_MAX_DISABLE","QUOTA_LIMITS_HARDWS_MAX_ENABLE","QUOTA_LIMITS_HARDWS_MIN_DISABLE","QUOTA_LIMITS_HARDWS_MIN_ENABLE","SetProcessWorkingSetSizeEx","SetProcessWorkingSetSizeEx function","base.setprocessworkingsetsizeex","memoryapi/SetProcessWorkingSetSizeEx","winbase/SetProcessWorkingSetSizeEx"]
 old-location: base\setprocessworkingsetsizeex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 04332239-dfc2-4d32-987a-af187e725b71
 ms.date: 12/05/2018
 ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, SetProcessWorkingSetSizeEx, SetProcessWorkingSetSizeEx function, base.setprocessworkingsetsizeex, memoryapi/SetProcessWorkingSetSizeEx, winbase/SetProcessWorkingSetSizeEx

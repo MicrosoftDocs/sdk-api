@@ -4,7 +4,7 @@ title: KERB_SMART_CARD_LOGON (ntsecapi.h)
 description: Contains information about a smart card logon session.
 helpviewer_keywords: ["*PKERB_SMART_CARD_LOGON","KERB_SMART_CARD_LOGON","KERB_SMART_CARD_LOGON structure [Security]","PKERB_SMART_CARD_LOGON","PKERB_SMART_CARD_LOGON structure pointer [Security]","ntsecapi/KERB_SMART_CARD_LOGON","ntsecapi/PKERB_SMART_CARD_LOGON","security.kerb_smart_card_logon"]
 old-location: security\kerb_smart_card_logon.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1a154034-6a2d-46be-9fb6-7c7d425d12f6
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON structure [Security], PKERB_SMART_CARD_LOGON, PKERB_SMART_CARD_LOGON structure pointer [Security], ntsecapi/KERB_SMART_CARD_LOGON, ntsecapi/PKERB_SMART_CARD_LOGON, security.kerb_smart_card_logon'

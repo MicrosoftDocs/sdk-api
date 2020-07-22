@@ -4,7 +4,7 @@ title: IMFAttributes::GetGUID (mfobjects.h)
 description: Retrieves a GUID value associated with a key.
 helpviewer_keywords: ["6ded35e1-2d1c-4e68-ad0f-2bd5ba469853","GetGUID","GetGUID method [Media Foundation]","GetGUID method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetGUID method","IMFAttributes.GetGUID","IMFAttributes::GetGUID","mf.imfattributes_getguid","mfobjects/IMFAttributes::GetGUID"]
 old-location: mf\imfattributes_getguid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853
 ms.date: 12/05/2018
 ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID, GetGUID method [Media Foundation], GetGUID method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetGUID method, IMFAttributes.GetGUID, IMFAttributes::GetGUID, mf.imfattributes_getguid, mfobjects/IMFAttributes::GetGUID

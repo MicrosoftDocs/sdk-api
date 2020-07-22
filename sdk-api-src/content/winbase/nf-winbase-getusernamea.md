@@ -4,7 +4,7 @@ title: GetUserNameA function (winbase.h)
 description: Retrieves the name of the user associated with the current thread.
 helpviewer_keywords: ["GetUserName","GetUserName function","GetUserNameA","GetUserNameW","_win32_getusername","base.getusername","winbase/GetUserName","winbase/GetUserNameA","winbase/GetUserNameW"]
 old-location: base\getusername.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
 ms.date: 12/05/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW

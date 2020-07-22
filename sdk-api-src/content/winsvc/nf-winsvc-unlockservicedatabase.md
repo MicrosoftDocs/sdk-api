@@ -4,7 +4,7 @@ title: UnlockServiceDatabase function (winsvc.h)
 description: Unlocks a service control manager database by releasing the specified lock.
 helpviewer_keywords: ["UnlockServiceDatabase","UnlockServiceDatabase function","_win32_unlockservicedatabase","base.unlockservicedatabase","winsvc/UnlockServiceDatabase"]
 old-location: base\unlockservicedatabase.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 3277d175-ab0b-43ce-965f-f8087d0124e4
 ms.date: 12/05/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase

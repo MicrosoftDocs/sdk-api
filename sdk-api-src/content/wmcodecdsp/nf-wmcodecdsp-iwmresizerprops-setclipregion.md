@@ -4,7 +4,7 @@ title: IWMResizerProps::SetClipRegion (wmcodecdsp.h)
 description: Sets the source rectangle.
 helpviewer_keywords: ["IWMResizerProps interface [Media Foundation]","SetClipRegion method","IWMResizerProps.SetClipRegion","IWMResizerProps::SetClipRegion","SetClipRegion","SetClipRegion method [Media Foundation]","SetClipRegion method [Media Foundation]","IWMResizerProps interface","codecapi.iwmresizerpropssetclipregion","mf.iwmresizerpropssetclipregion","wmcodecdsp/IWMResizerProps::SetClipRegion"]
 old-location: mf\iwmresizerpropssetclipregion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 51a11e24-a4c3-49fb-86ec-17baa1773caf
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetClipRegion method, IWMResizerProps.SetClipRegion, IWMResizerProps::SetClipRegion, SetClipRegion, SetClipRegion method [Media Foundation], SetClipRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetclipregion, mf.iwmresizerpropssetclipregion, wmcodecdsp/IWMResizerProps::SetClipRegion

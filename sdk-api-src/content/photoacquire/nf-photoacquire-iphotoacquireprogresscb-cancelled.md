@@ -4,7 +4,7 @@ title: IPhotoAcquireProgressCB::Cancelled (photoacquire.h)
 description: The Cancelled method provides extended functionality when a cancellation occurs during an acquisition session. The application provides the implementation of the Cancelled method.
 helpviewer_keywords: ["Cancelled","Cancelled method [Picture Acquisition]","Cancelled method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","Cancelled method","IPhotoAcquireProgressCB.Cancelled","IPhotoAcquireProgressCB::Cancelled","IPhotoAcquireProgressCBCancelled","photoacquire/IPhotoAcquireProgressCB::Cancelled","picacq.iphotoacquireprogresscb_cancelled"]
 old-location: picacq\iphotoacquireprogresscb_cancelled.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 7a37934c-dc0b-433e-99cf-6c26341e582c
 ms.date: 12/05/2018
 ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],Cancelled method, IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled

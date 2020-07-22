@@ -4,7 +4,7 @@ title: phoneGetHookSwitch function (tapi.h)
 description: The phoneGetHookSwitch function returns the current hookswitch mode of the specified open phone device.
 helpviewer_keywords: ["_tapi2_phonegethookswitch","phoneGetHookSwitch","phoneGetHookSwitch function [TAPI 2.2]","tapi/phoneGetHookSwitch","tapi2.phonegethookswitch"]
 old-location: tapi2\phonegethookswitch.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch function [TAPI 2.2], tapi/phoneGetHookSwitch, tapi2.phonegethookswitch

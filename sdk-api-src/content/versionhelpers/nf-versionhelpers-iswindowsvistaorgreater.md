@@ -4,7 +4,7 @@ title: IsWindowsVistaOrGreater function (versionhelpers.h)
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 helpviewer_keywords: ["IsWindowsVistaOrGreater","IsWindowsVistaOrGreater function","base.iswindowsvistaorgreater","versionhelpers/IsWindowsVistaOrGreater"]
 old-location: base\iswindowsvistaorgreater.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater

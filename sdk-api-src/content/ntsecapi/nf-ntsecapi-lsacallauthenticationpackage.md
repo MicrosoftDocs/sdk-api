@@ -4,7 +4,7 @@ title: LsaCallAuthenticationPackage function (ntsecapi.h)
 description: Used by a logon application to communicate with an authentication package.
 helpviewer_keywords: ["LsaCallAuthenticationPackage","LsaCallAuthenticationPackage function [Security]","_lsa_lsacallauthenticationpackage","ntsecapi/LsaCallAuthenticationPackage","security.lsacallauthenticationpackage"]
 old-location: security\lsacallauthenticationpackage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.date: 12/05/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage

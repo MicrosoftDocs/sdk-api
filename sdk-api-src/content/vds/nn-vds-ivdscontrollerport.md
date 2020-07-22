@@ -4,7 +4,7 @@ title: IVdsControllerPort (vds.h)
 description: Provides methods for performing query and configuration operations on a controller port.
 helpviewer_keywords: ["IVdsControllerPort","IVdsControllerPort interface [VDS]","IVdsControllerPort interface [VDS]","described","base.ivdscontrollerport","vds/IVdsControllerPort","vdshwprv/IVdsControllerPort"]
 old-location: base\ivdscontrollerport.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort

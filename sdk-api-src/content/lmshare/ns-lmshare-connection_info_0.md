@@ -4,7 +4,7 @@ title: CONNECTION_INFO_0 (lmshare.h)
 description: Contains the identification number of a connection.
 helpviewer_keywords: ["*LPCONNECTION_INFO_0","*PCONNECTION_INFO_0","CONNECTION_INFO_0","CONNECTION_INFO_0 structure [Files]","LPCONNECTION_INFO_0","LPCONNECTION_INFO_0 structure pointer [Files]","PCONNECTION_INFO_0","PCONNECTION_INFO_0 structure pointer [Files]","_win32_connection_info_0_str","fs.connection_info_0_str","lmshare/CONNECTION_INFO_0","lmshare/LPCONNECTION_INFO_0","lmshare/PCONNECTION_INFO_0","netmgmt.connection_info_0_str"]
 old-location: fs\connection_info_0_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: aebafe24-1216-48ab-92db-df8f77d36f26
 ms.date: 12/05/2018
 ms.keywords: '*LPCONNECTION_INFO_0, *PCONNECTION_INFO_0, CONNECTION_INFO_0, CONNECTION_INFO_0 structure [Files], LPCONNECTION_INFO_0, LPCONNECTION_INFO_0 structure pointer [Files], PCONNECTION_INFO_0, PCONNECTION_INFO_0 structure pointer [Files], _win32_connection_info_0_str, fs.connection_info_0_str, lmshare/CONNECTION_INFO_0, lmshare/LPCONNECTION_INFO_0, lmshare/PCONNECTION_INFO_0, netmgmt.connection_info_0_str'

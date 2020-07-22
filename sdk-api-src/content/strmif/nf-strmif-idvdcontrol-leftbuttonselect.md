@@ -4,7 +4,7 @@ title: IDvdControl::LeftButtonSelect (strmif.h)
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the left directional button from the displayed menu.
 helpviewer_keywords: ["IDvdControl interface [DirectShow]","LeftButtonSelect method","IDvdControl.LeftButtonSelect","IDvdControl::LeftButtonSelect","IDvdControlLeftButtonSelect","LeftButtonSelect","LeftButtonSelect method [DirectShow]","LeftButtonSelect method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_leftbuttonselect","strmif/IDvdControl::LeftButtonSelect"]
 old-location: dshow\idvdcontrol_leftbuttonselect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 62c35cb1-f1e0-4852-9a59-555cf979615f
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],LeftButtonSelect method, IDvdControl.LeftButtonSelect, IDvdControl::LeftButtonSelect, IDvdControlLeftButtonSelect, LeftButtonSelect, LeftButtonSelect method [DirectShow], LeftButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_leftbuttonselect, strmif/IDvdControl::LeftButtonSelect

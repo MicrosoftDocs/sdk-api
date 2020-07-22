@@ -4,7 +4,7 @@ title: IFilterMapper3::GetICreateDevEnum (strmif.h)
 description: The GetICreateDevEnum method returns a pointer to the ICreateDevEnum interface. You can use the ICreateDevEnum interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 helpviewer_keywords: ["GetICreateDevEnum","GetICreateDevEnum method [DirectShow]","GetICreateDevEnum method [DirectShow]","IFilterMapper3 interface","IFilterMapper3 interface [DirectShow]","GetICreateDevEnum method","IFilterMapper3.GetICreateDevEnum","IFilterMapper3::GetICreateDevEnum","IFilterMapper3GetICreateDevEnum","dshow.ifiltermapper3_geticreatedevenum","strmif/IFilterMapper3::GetICreateDevEnum"]
 old-location: dshow\ifiltermapper3_geticreatedevenum.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
 ms.date: 12/05/2018
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum

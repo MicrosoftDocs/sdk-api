@@ -4,7 +4,7 @@ title: AM_PROPERTY_SPHLI (dvdmedia.h)
 description: Describes the currently selected button from the DVD highlight information.
 helpviewer_keywords: ["*PAM_PROPERTY_SPHLI","AM_PROPERTY_SPHLI","AM_PROPERTY_SPHLI structure [DirectShow]","PAM_PROPERTY_SPHLI","PAM_PROPERTY_SPHLI structure pointer [DirectShow]","dshow.am_property_sphli","dvdmedia/AM_PROPERTY_SPHLI","dvdmedia/PAM_PROPERTY_SPHLI"]
 old-location: dshow\am_property_sphli.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fc073d53-bebb-47fc-b60c-7467b4df88c1
 ms.date: 12/05/2018
 ms.keywords: '*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structure [DirectShow], PAM_PROPERTY_SPHLI, PAM_PROPERTY_SPHLI structure pointer [DirectShow], dshow.am_property_sphli, dvdmedia/AM_PROPERTY_SPHLI, dvdmedia/PAM_PROPERTY_SPHLI'

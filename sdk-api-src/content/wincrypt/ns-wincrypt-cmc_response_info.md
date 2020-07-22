@@ -4,7 +4,7 @@ title: CMC_RESPONSE_INFO (wincrypt.h)
 description: Provides a means of communicating different pieces of tagged information.
 helpviewer_keywords: ["*PCMC_RESPONSE_INFO","CMC_RESPONSE_INFO","CMC_RESPONSE_INFO structure [Security]","PCMC_RESPONSE_INFO","PCMC_RESPONSE_INFO structure pointer [Security]","_crypto2_cmc_response_info","security.cmc_response_info","wincrypt/CMC_RESPONSE_INFO","wincrypt/PCMC_RESPONSE_INFO"]
 old-location: security\cmc_response_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 82d9314f-2f0f-4a98-a0da-a89cd8905886
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_RESPONSE_INFO, CMC_RESPONSE_INFO, CMC_RESPONSE_INFO structure [Security], PCMC_RESPONSE_INFO, PCMC_RESPONSE_INFO structure pointer [Security], _crypto2_cmc_response_info, security.cmc_response_info, wincrypt/CMC_RESPONSE_INFO, wincrypt/PCMC_RESPONSE_INFO'

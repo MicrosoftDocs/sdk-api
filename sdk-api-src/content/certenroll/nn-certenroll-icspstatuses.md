@@ -4,7 +4,7 @@ title: ICspStatuses (certenroll.h)
 description: Contains information about a cryptographic provider/algorithm pair.
 helpviewer_keywords: ["ICspStatuses","ICspStatuses interface [Security]","ICspStatuses interface [Security]","described","certenroll/ICspStatuses","security.icspstatuses"]
 old-location: security\icspstatuses.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 73d0f3a7-7afd-42c9-88db-911531c50137
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses, ICspStatuses interface [Security], ICspStatuses interface [Security],described, certenroll/ICspStatuses, security.icspstatuses

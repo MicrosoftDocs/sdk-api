@@ -4,7 +4,7 @@ title: IWbemEventProviderSecurity (wbemprov.h)
 description: The IWbemEventProviderSecurity interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see Securing WMI Events.
 helpviewer_keywords: ["IWbemEventProviderSecurity","IWbemEventProviderSecurity interface [Windows Management Instrumentation]","IWbemEventProviderSecurity interface [Windows Management Instrumentation]","described","_hmm_iwbemeventprovidersecurity","wbemprov/IWbemEventProviderSecurity","wmi.iwbemeventprovidersecurity"]
 old-location: wmi\iwbemeventprovidersecurity.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity

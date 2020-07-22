@@ -4,7 +4,7 @@ title: IConfigAsfWriter::SetIndexMode (dshowasf.h)
 description: The SetIndexMode method controls whether the WM ASF Writer filter creates a file with a temporal index.
 helpviewer_keywords: ["IConfigAsfWriter interface [DirectShow]","SetIndexMode method","IConfigAsfWriter.SetIndexMode","IConfigAsfWriter::SetIndexMode","IConfigAsfWriterSetIndexMode","SetIndexMode","SetIndexMode method [DirectShow]","SetIndexMode method [DirectShow]","IConfigAsfWriter interface","dshow.iconfigasfwriter_setindexmode","dshowasf/IConfigAsfWriter::SetIndexMode"]
 old-location: dshow\iconfigasfwriter_setindexmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d7f5d13a-d36e-4da2-babc-0446e5697b61
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter interface [DirectShow],SetIndexMode method, IConfigAsfWriter.SetIndexMode, IConfigAsfWriter::SetIndexMode, IConfigAsfWriterSetIndexMode, SetIndexMode, SetIndexMode method [DirectShow], SetIndexMode method [DirectShow],IConfigAsfWriter interface, dshow.iconfigasfwriter_setindexmode, dshowasf/IConfigAsfWriter::SetIndexMode

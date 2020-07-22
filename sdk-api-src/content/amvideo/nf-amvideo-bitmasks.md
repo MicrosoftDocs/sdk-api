@@ -4,7 +4,7 @@ title: BITMASKS macro (amvideo.h)
 description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.
 helpviewer_keywords: ["BITMASKS","BITMASKS macro [DirectShow]","amvideo/BITMASKS","dshow.bitmasks"]
 old-location: dshow\bitmasks.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
 ms.date: 12/05/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks

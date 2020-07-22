@@ -4,7 +4,7 @@ title: IVssComponent::GetRestoreSubcomponentCount (vswriter.h)
 description: The GetRestoreSubcomponentCount method returns the number of subcomponents associated with a component.
 helpviewer_keywords: ["GetRestoreSubcomponentCount","GetRestoreSubcomponentCount method [VSS]","GetRestoreSubcomponentCount method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetRestoreSubcomponentCount method","IVssComponent.GetRestoreSubcomponentCount","IVssComponent::GetRestoreSubcomponentCount","_win32_ivsscomponent_getrestoresubcomponentcount","base.ivsscomponent_getrestoresubcomponentcount","vswriter/IVssComponent::GetRestoreSubcomponentCount"]
 old-location: base\ivsscomponent_getrestoresubcomponentcount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 04c1dcdc-7672-4b7c-a9db-eafca80ab257
 ms.date: 12/05/2018
 ms.keywords: GetRestoreSubcomponentCount, GetRestoreSubcomponentCount method [VSS], GetRestoreSubcomponentCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponentCount method, IVssComponent.GetRestoreSubcomponentCount, IVssComponent::GetRestoreSubcomponentCount, _win32_ivsscomponent_getrestoresubcomponentcount, base.ivsscomponent_getrestoresubcomponentcount, vswriter/IVssComponent::GetRestoreSubcomponentCount

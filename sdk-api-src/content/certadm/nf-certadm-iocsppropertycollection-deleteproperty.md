@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::DeleteProperty (certadm.h)
 description: Removes a named property from a property set.
 helpviewer_keywords: ["DeleteProperty","DeleteProperty method [Security]","DeleteProperty method [Security]","IOCSPPropertyCollection interface","IOCSPPropertyCollection interface [Security]","DeleteProperty method","IOCSPPropertyCollection.DeleteProperty","IOCSPPropertyCollection::DeleteProperty","certadm/IOCSPPropertyCollection::DeleteProperty","security.iocsppropertycollection_deleteproperty_method"]
 old-location: security\iocsppropertycollection_deleteproperty_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.date: 12/05/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method

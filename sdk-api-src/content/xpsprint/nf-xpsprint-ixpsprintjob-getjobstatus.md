@@ -4,7 +4,7 @@ title: IXpsPrintJob::GetJobStatus (xpsprint.h)
 description: Gets the current status of the print job.
 helpviewer_keywords: ["GetJobStatus","GetJobStatus method [Windows GDI]","GetJobStatus method [Windows GDI]","IXpsPrintJob interface","IXpsPrintJob interface [Windows GDI]","GetJobStatus method","IXpsPrintJob.GetJobStatus","IXpsPrintJob::GetJobStatus","gdi.ixpsprintjob_getjobstatus","xpsprint/IXpsPrintJob::GetJobStatus"]
 old-location: gdi\ixpsprintjob_getjobstatus.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
 ms.date: 12/05/2018
 ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],GetJobStatus method, IXpsPrintJob.GetJobStatus, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus

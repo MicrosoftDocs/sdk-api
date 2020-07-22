@@ -4,7 +4,7 @@ title: DXVA2_Fixed32 (dxva2api.h)
 description: Defines a 32-bit fixed-point number.
 helpviewer_keywords: ["5f8f4515-1cf4-4060-813b-c746649c5c40","DXVA2_Fixed32","DXVA2_Fixed32 structure [Media Foundation]","dxva2api/DXVA2_Fixed32","mf.dxva2_fixed32"]
 old-location: mf\dxva2_fixed32.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5f8f4515-1cf4-4060-813b-c746649c5c40
 ms.date: 12/05/2018
 ms.keywords: 5f8f4515-1cf4-4060-813b-c746649c5c40, DXVA2_Fixed32, DXVA2_Fixed32 structure [Media Foundation], dxva2api/DXVA2_Fixed32, mf.dxva2_fixed32

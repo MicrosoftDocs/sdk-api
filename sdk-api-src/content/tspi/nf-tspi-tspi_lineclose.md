@@ -4,7 +4,7 @@ title: TSPI_lineClose function (tspi.h)
 description: The TSPI_lineClose function closes the specified open line device after completing or aborting all outstanding calls and asynchronous operations on the device.
 helpviewer_keywords: ["TSPI_lineClose","TSPI_lineClose function [TAPI 2.2]","_tspi_tspi_lineclose","tspi.tspi_lineclose","tspi/TSPI_lineClose"]
 old-location: tspi\tspi_lineclose.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d1041620-609b-476b-bdb7-e1e0cebd74f1
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineClose, TSPI_lineClose function [TAPI 2.2], _tspi_tspi_lineclose, tspi.tspi_lineclose, tspi/TSPI_lineClose

@@ -4,7 +4,7 @@ title: TpSetCallbackRaceWithDll function (winnt.h)
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 helpviewer_keywords: ["TpSetCallbackRaceWithDll","TpSetCallbackRaceWithDll function","base.tpsetcallbackracewithdll","winnt/TpSetCallbackRaceWithDll"]
 old-location: base\tpsetcallbackracewithdll.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 14519064-450C-409E-AA2D-B4EF4D43C180
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackRaceWithDll, TpSetCallbackRaceWithDll function, base.tpsetcallbackracewithdll, winnt/TpSetCallbackRaceWithDll

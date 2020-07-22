@@ -4,7 +4,7 @@ title: MFVideoTransferMatrix (mfobjects.h)
 description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
 helpviewer_keywords: ["08a05ee8-b053-4480-b7f9-6d96e541ccd9","MFVideoTransferMatrix","MFVideoTransferMatrix enumeration [Media Foundation]","MFVideoTransferMatrix_BT601","MFVideoTransferMatrix_BT709","MFVideoTransferMatrix_ForceDWORD","MFVideoTransferMatrix_Last","MFVideoTransferMatrix_SMPTE240M","MFVideoTransferMatrix_Unknown","mf.mfvideotransfermatrix","mfobjects/MFVideoTransferMatrix","mfobjects/MFVideoTransferMatrix_BT601","mfobjects/MFVideoTransferMatrix_BT709","mfobjects/MFVideoTransferMatrix_ForceDWORD","mfobjects/MFVideoTransferMatrix_Last","mfobjects/MFVideoTransferMatrix_SMPTE240M","mfobjects/MFVideoTransferMatrix_Unknown"]
 old-location: mf\mfvideotransfermatrix.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 08a05ee8-b053-4480-b7f9-6d96e541ccd9
 ms.date: 12/05/2018
 ms.keywords: 08a05ee8-b053-4480-b7f9-6d96e541ccd9, MFVideoTransferMatrix, MFVideoTransferMatrix enumeration [Media Foundation], MFVideoTransferMatrix_BT601, MFVideoTransferMatrix_BT709, MFVideoTransferMatrix_ForceDWORD, MFVideoTransferMatrix_Last, MFVideoTransferMatrix_SMPTE240M, MFVideoTransferMatrix_Unknown, mf.mfvideotransfermatrix, mfobjects/MFVideoTransferMatrix, mfobjects/MFVideoTransferMatrix_BT601, mfobjects/MFVideoTransferMatrix_BT709, mfobjects/MFVideoTransferMatrix_ForceDWORD, mfobjects/MFVideoTransferMatrix_Last, mfobjects/MFVideoTransferMatrix_SMPTE240M, mfobjects/MFVideoTransferMatrix_Unknown

@@ -4,7 +4,7 @@ title: ITASRTerminalEvent::get_Error (tapi3if.h)
 description: The get_Error method returns an HRESULT cast of the error associated with the terminal event.
 helpviewer_keywords: ["ITASRTerminalEvent interface [TAPI 2.2]","get_Error method","ITASRTerminalEvent.get_Error","ITASRTerminalEvent::get_Error","_tapi3_itasrterminalevent_get_error","get_Error","get_Error method [TAPI 2.2]","get_Error method [TAPI 2.2]","ITASRTerminalEvent interface","tapi3.itasrterminalevent_get_error","tapi3if/ITASRTerminalEvent::get_Error"]
 old-location: tapi3\itasrterminalevent_get_error.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7bccf537-a54b-4c40-866b-0f7a42149841
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Error method, ITASRTerminalEvent.get_Error, ITASRTerminalEvent::get_Error, _tapi3_itasrterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_error, tapi3if/ITASRTerminalEvent::get_Error

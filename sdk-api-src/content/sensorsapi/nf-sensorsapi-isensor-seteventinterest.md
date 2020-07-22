@@ -4,7 +4,7 @@ title: ISensor::SetEventInterest (sensorsapi.h)
 description: Specifies the list of sensor events to receive.
 helpviewer_keywords: ["ISensor interface","SetEventInterest method","ISensor.SetEventInterest","ISensor::SetEventInterest","SetEventInterest","SetEventInterest method","SetEventInterest method","ISensor interface","sensorsapi/ISensor::SetEventInterest","winsensors_com_ref.isensor_seteventinterest"]
 old-location: winsensors_com_ref\isensor_seteventinterest.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest

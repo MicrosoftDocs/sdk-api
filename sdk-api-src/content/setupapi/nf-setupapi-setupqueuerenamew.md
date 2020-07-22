@@ -4,7 +4,7 @@ title: SetupQueueRenameW function (setupapi.h)
 description: The SetupQueueRename function places an individual file rename operation on a setup file queue.
 helpviewer_keywords: ["SetupQueueRename","SetupQueueRename function [Setup API]","SetupQueueRenameA","SetupQueueRenameW","_setupapi_setupqueuerename","setup.setupqueuerename","setupapi/SetupQueueRename","setupapi/SetupQueueRenameA","setupapi/SetupQueueRenameW"]
 old-location: setup\setupqueuerename.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 0b80eba9-9e71-4255-8c1b-039878682ec4
 ms.date: 12/05/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW

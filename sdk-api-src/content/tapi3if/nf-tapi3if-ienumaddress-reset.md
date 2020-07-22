@@ -4,7 +4,7 @@ title: IEnumAddress::Reset (tapi3if.h)
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 helpviewer_keywords: ["IEnumAddress interface [TAPI 2.2]","Reset method","IEnumAddress.Reset","IEnumAddress::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumAddress interface","_tapi3_ienumaddress_reset","tapi3.ienumaddress_reset","tapi3if/IEnumAddress::Reset"]
 old-location: tapi3\ienumaddress_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 807c5098-bc8d-4133-8a90-929979ba0a85
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Reset method, IEnumAddress.Reset, IEnumAddress::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_reset, tapi3.ienumaddress_reset, tapi3if/IEnumAddress::Reset

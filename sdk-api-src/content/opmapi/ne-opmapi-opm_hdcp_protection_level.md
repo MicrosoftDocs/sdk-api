@@ -4,7 +4,7 @@ title: OPM_HDCP_PROTECTION_LEVEL (opmapi.h)
 description: Specifies the protection level for High-Bandwidth Digital Content Protection (HDCP).
 helpviewer_keywords: ["OPM_HDCP_FORCE_ULONG","OPM_HDCP_OFF","OPM_HDCP_ON","OPM_HDCP_PROTECTION_LEVEL","OPM_HDCP_PROTECTION_LEVEL enumeration [Media Foundation]","mf.opm_hdcp_protection_level","opmapi/OPM_HDCP_FORCE_ULONG","opmapi/OPM_HDCP_OFF","opmapi/OPM_HDCP_ON","opmapi/OPM_HDCP_PROTECTION_LEVEL"]
 old-location: mf\opm_hdcp_protection_level.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 698050e4-9726-49fa-85ed-9ae057e8c308
 ms.date: 12/05/2018
 ms.keywords: OPM_HDCP_FORCE_ULONG, OPM_HDCP_OFF, OPM_HDCP_ON, OPM_HDCP_PROTECTION_LEVEL, OPM_HDCP_PROTECTION_LEVEL enumeration [Media Foundation], mf.opm_hdcp_protection_level, opmapi/OPM_HDCP_FORCE_ULONG, opmapi/OPM_HDCP_OFF, opmapi/OPM_HDCP_ON, opmapi/OPM_HDCP_PROTECTION_LEVEL

@@ -4,7 +4,7 @@ title: IX509PrivateKey::get_ContainerNamePrefix (certenroll.h)
 description: Specifies or retrieves a prefix added to the name of the key container.
 helpviewer_keywords: ["ContainerNamePrefix property [Security]","ContainerNamePrefix property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","ContainerNamePrefix property","IX509PrivateKey.ContainerNamePrefix","IX509PrivateKey.get_ContainerNamePrefix","IX509PrivateKey::ContainerNamePrefix","IX509PrivateKey::get_ContainerNamePrefix","IX509PrivateKey::put_ContainerNamePrefix","certenroll/IX509PrivateKey::ContainerNamePrefix","certenroll/IX509PrivateKey::get_ContainerNamePrefix","certenroll/IX509PrivateKey::put_ContainerNamePrefix","get_ContainerNamePrefix","security.ix509privatekey_containernameprefix"]
 old-location: security\ix509privatekey_containernameprefix.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: af5a30dd-4707-4b38-bf6b-b971d854d5b0
 ms.date: 12/05/2018
 ms.keywords: ContainerNamePrefix property [Security], ContainerNamePrefix property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ContainerNamePrefix property, IX509PrivateKey.ContainerNamePrefix, IX509PrivateKey.get_ContainerNamePrefix, IX509PrivateKey::ContainerNamePrefix, IX509PrivateKey::get_ContainerNamePrefix, IX509PrivateKey::put_ContainerNamePrefix, certenroll/IX509PrivateKey::ContainerNamePrefix, certenroll/IX509PrivateKey::get_ContainerNamePrefix, certenroll/IX509PrivateKey::put_ContainerNamePrefix, get_ContainerNamePrefix, security.ix509privatekey_containernameprefix

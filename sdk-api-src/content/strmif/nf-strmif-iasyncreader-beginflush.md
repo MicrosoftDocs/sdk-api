@@ -4,7 +4,7 @@ title: IAsyncReader::BeginFlush (strmif.h)
 description: The BeginFlush method begins a flush operation.
 helpviewer_keywords: ["BeginFlush","BeginFlush method [DirectShow]","BeginFlush method [DirectShow]","IAsyncReader interface","IAsyncReader interface [DirectShow]","BeginFlush method","IAsyncReader.BeginFlush","IAsyncReader::BeginFlush","IAsyncReaderBeginFlush","dshow.iasyncreader_beginflush","strmif/IAsyncReader::BeginFlush"]
 old-location: dshow\iasyncreader_beginflush.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 29153592-dbc1-42b4-bd4e-2f1aef8d4c19
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],BeginFlush method, IAsyncReader.BeginFlush, IAsyncReader::BeginFlush, IAsyncReaderBeginFlush, dshow.iasyncreader_beginflush, strmif/IAsyncReader::BeginFlush

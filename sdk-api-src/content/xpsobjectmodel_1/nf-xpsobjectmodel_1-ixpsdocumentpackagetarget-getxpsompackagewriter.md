@@ -4,7 +4,7 @@ title: IXpsDocumentPackageTarget::GetXpsOMPackageWriter (xpsobjectmodel_1.h)
 description: Gets the IXpsOMPackageWriter object for the document package.
 helpviewer_keywords: ["GetXpsOMPackageWriter","GetXpsOMPackageWriter method [XPS Documents and Packaging]","GetXpsOMPackageWriter method [XPS Documents and Packaging]","IXpsDocumentPackageTarget interface","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","GetXpsOMPackageWriter method","IXpsDocumentPackageTarget.GetXpsOMPackageWriter","IXpsDocumentPackageTarget::GetXpsOMPackageWriter","xps.ixpsdocumentpackagetarget_getxpsompackagewriter","xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMPackageWriter"]
 old-location: xps\ixpsdocumentpackagetarget_getxpsompackagewriter.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: D20AE05F-466F-44B6-972A-06AA872FF7BA
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMPackageWriter, GetXpsOMPackageWriter method [XPS Documents and Packaging], GetXpsOMPackageWriter method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMPackageWriter method, IXpsDocumentPackageTarget.GetXpsOMPackageWriter, IXpsDocumentPackageTarget::GetXpsOMPackageWriter, xps.ixpsdocumentpackagetarget_getxpsompackagewriter, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMPackageWriter

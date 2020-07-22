@@ -4,7 +4,7 @@ title: IVdsDisk::GetPack (vds.h)
 description: Returns the disk pack to which the current disk is a member.
 helpviewer_keywords: ["GetPack","GetPack method [VDS]","GetPack method [VDS]","IVdsDisk interface","IVdsDisk interface [VDS]","GetPack method","IVdsDisk.GetPack","IVdsDisk::GetPack","base.ivdsdisk_getpack","vds/IVdsDisk::GetPack"]
 old-location: base\ivdsdisk_getpack.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 52c7edb5-a92d-423d-8115-e8c3cccd95b5
 ms.date: 12/05/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetPack method, IVdsDisk.GetPack, IVdsDisk::GetPack, base.ivdsdisk_getpack, vds/IVdsDisk::GetPack

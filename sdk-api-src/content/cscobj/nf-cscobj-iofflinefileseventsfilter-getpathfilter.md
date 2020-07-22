@@ -4,7 +4,7 @@ title: IOfflineFilesEventsFilter::GetPathFilter (cscobj.h)
 description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
 helpviewer_keywords: ["GetPathFilter","GetPathFilter method [Offline Files]","GetPathFilter method [Offline Files]","IOfflineFilesEventsFilter interface","IOfflineFilesEventsFilter interface [Offline Files]","GetPathFilter method","IOfflineFilesEventsFilter.GetPathFilter","IOfflineFilesEventsFilter::GetPathFilter","cscobj/IOfflineFilesEventsFilter::GetPathFilter","of.iofflinefileseventsfilter_getpathfilter"]
 old-location: of\iofflinefileseventsfilter_getpathfilter.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
 ms.date: 12/05/2018
 ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter

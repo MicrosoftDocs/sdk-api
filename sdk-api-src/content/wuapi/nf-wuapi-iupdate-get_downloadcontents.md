@@ -4,7 +4,7 @@ title: IUpdate::get_DownloadContents (wuapi.h)
 description: Gets file information about the download contents of the update.
 helpviewer_keywords: ["DownloadContents property [Windows Update Agent]","DownloadContents property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","DownloadContents property","IUpdate.DownloadContents","IUpdate.get_DownloadContents","IUpdate::DownloadContents","IUpdate::get_DownloadContents","get_DownloadContents","wua.iupdate_downloadcontents","wuapi/IUpdate::DownloadContents","wuapi/IUpdate::get_DownloadContents"]
 old-location: wua\iupdate_downloadcontents.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: dbeeaac7-3841-42ec-a3f3-bdf94694dbef
 ms.date: 12/05/2018
 ms.keywords: DownloadContents property [Windows Update Agent], DownloadContents property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DownloadContents property, IUpdate.DownloadContents, IUpdate.get_DownloadContents, IUpdate::DownloadContents, IUpdate::get_DownloadContents, get_DownloadContents, wua.iupdate_downloadcontents, wuapi/IUpdate::DownloadContents, wuapi/IUpdate::get_DownloadContents

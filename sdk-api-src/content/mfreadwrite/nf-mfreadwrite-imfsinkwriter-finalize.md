@@ -4,7 +4,7 @@ title: IMFSinkWriter::Finalize (mfreadwrite.h)
 description: Completes all writing operations on the sink writer.
 helpviewer_keywords: ["Finalize","Finalize method [Media Foundation]","Finalize method [Media Foundation]","IMFSinkWriter interface","IMFSinkWriter interface [Media Foundation]","Finalize method","IMFSinkWriter.Finalize","IMFSinkWriter::Finalize","mf.imfsinkwriter_finalize","mfreadwrite/IMFSinkWriter::Finalize"]
 old-location: mf\imfsinkwriter_finalize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 352e6679-0710-429a-a659-47044ab60773
 ms.date: 12/05/2018
 ms.keywords: Finalize, Finalize method [Media Foundation], Finalize method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Finalize method, IMFSinkWriter.Finalize, IMFSinkWriter::Finalize, mf.imfsinkwriter_finalize, mfreadwrite/IMFSinkWriter::Finalize

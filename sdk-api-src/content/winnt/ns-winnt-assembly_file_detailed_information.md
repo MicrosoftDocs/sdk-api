@@ -4,7 +4,7 @@ title: ASSEMBLY_FILE_DETAILED_INFORMATION (winnt.h)
 description: The ASSEMBLY_FILE_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
 helpviewer_keywords: ["*PASSEMBLY_FILE_DETAILED_INFORMATION","ASSEMBLY_FILE_DETAILED_INFORMATION","ASSEMBLY_FILE_DETAILED_INFORMATION structure [Side-by-side Assemblies]","PASSEMBLY_FILE_DETAILED_INFORMATION","PASSEMBLY_FILE_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies]","_ASSEMBLY_FILE_DETAILED_INFORMATION","_win32_assembly_file_detailed_information","setup.assembly_file_detailed_information","winnt/ASSEMBLY_FILE_DETAILED_INFORMATION","winnt/PASSEMBLY_FILE_DETAILED_INFORMATION"]
 old-location: setup\assembly_file_detailed_information.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 7f1e5155-a6c1-4b6a-be47-37fab337186c
 ms.date: 12/05/2018
 ms.keywords: '*PASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION structure [Side-by-side Assemblies], PASSEMBLY_FILE_DETAILED_INFORMATION, PASSEMBLY_FILE_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ASSEMBLY_FILE_DETAILED_INFORMATION, _win32_assembly_file_detailed_information, setup.assembly_file_detailed_information, winnt/ASSEMBLY_FILE_DETAILED_INFORMATION, winnt/PASSEMBLY_FILE_DETAILED_INFORMATION'

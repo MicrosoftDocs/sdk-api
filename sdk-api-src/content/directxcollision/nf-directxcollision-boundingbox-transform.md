@@ -2,6 +2,7 @@
 UID: NF:directxcollision.BoundingBox.Transform
 title: BoundingBox::Transform
 description: Transforms the BoundingBox.
+tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Transform"]
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Transform

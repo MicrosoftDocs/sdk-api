@@ -4,7 +4,7 @@ title: WLAN_FILTER_LIST_TYPE (wlanapi.h)
 description: Indicates types of filter lists.
 helpviewer_keywords: ["*PWLAN_FILTER_LIST_TYPE","PWLAN_FILTER_LIST_TYPE","PWLAN_FILTER_LIST_TYPE enumeration pointer [NativeWIFI]","WLAN_FILTER_LIST_TYPE","WLAN_FILTER_LIST_TYPE enumeration [NativeWIFI]","nwifi.wlan_filter_list_type","wlan_filter_list_type_gp_deny","wlan_filter_list_type_gp_permit","wlan_filter_list_type_user_deny","wlan_filter_list_type_user_permit","wlanapi/PWLAN_FILTER_LIST_TYPE","wlanapi/WLAN_FILTER_LIST_TYPE","wlanapi/wlan_filter_list_type_gp_deny","wlanapi/wlan_filter_list_type_gp_permit","wlanapi/wlan_filter_list_type_user_deny","wlanapi/wlan_filter_list_type_user_permit"]
 old-location: nwifi\wlan_filter_list_type.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: b53b9a6c-6453-4828-9662-589a1b99614c
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_FILTER_LIST_TYPE, PWLAN_FILTER_LIST_TYPE, PWLAN_FILTER_LIST_TYPE enumeration pointer [NativeWIFI], WLAN_FILTER_LIST_TYPE, WLAN_FILTER_LIST_TYPE enumeration [NativeWIFI], nwifi.wlan_filter_list_type, wlan_filter_list_type_gp_deny, wlan_filter_list_type_gp_permit, wlan_filter_list_type_user_deny, wlan_filter_list_type_user_permit, wlanapi/PWLAN_FILTER_LIST_TYPE, wlanapi/WLAN_FILTER_LIST_TYPE, wlanapi/wlan_filter_list_type_gp_deny, wlanapi/wlan_filter_list_type_gp_permit, wlanapi/wlan_filter_list_type_user_deny, wlanapi/wlan_filter_list_type_user_permit'

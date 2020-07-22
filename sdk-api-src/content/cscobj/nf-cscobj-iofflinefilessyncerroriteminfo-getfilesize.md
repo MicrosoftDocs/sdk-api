@@ -4,7 +4,7 @@ title: IOfflineFilesSyncErrorItemInfo::GetFileSize (cscobj.h)
 description: Retrieves the size of the item in bytes.
 helpviewer_keywords: ["GetFileSize","GetFileSize method [Offline Files]","GetFileSize method [Offline Files]","IOfflineFilesSyncErrorItemInfo interface","IOfflineFilesSyncErrorItemInfo interface [Offline Files]","GetFileSize method","IOfflineFilesSyncErrorItemInfo.GetFileSize","IOfflineFilesSyncErrorItemInfo::GetFileSize","cscobj/IOfflineFilesSyncErrorItemInfo::GetFileSize","of.iofflinefilessyncerroriteminfo_getfilesize"]
 old-location: of\iofflinefilessyncerroriteminfo_getfilesize.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: a1873a10-0e60-46c3-a3a3-12d974cc0ee9
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileSize method, IOfflineFilesSyncErrorItemInfo.GetFileSize, IOfflineFilesSyncErrorItemInfo::GetFileSize, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileSize, of.iofflinefilessyncerroriteminfo_getfilesize

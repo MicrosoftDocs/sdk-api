@@ -4,7 +4,7 @@ title: IMediaSeeking::GetPreroll (strmif.h)
 description: The GetPreroll method retrieves the amount of data that will be queued before the start position.
 helpviewer_keywords: ["GetPreroll","GetPreroll method [DirectShow]","GetPreroll method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetPreroll method","IMediaSeeking.GetPreroll","IMediaSeeking::GetPreroll","IMediaSeekingGetPreroll","dshow.imediaseeking_getpreroll","strmif/IMediaSeeking::GetPreroll"]
 old-location: dshow\imediaseeking_getpreroll.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9d519aab-eb35-4a00-b6fe-23d734f969ae
 ms.date: 12/05/2018
 ms.keywords: GetPreroll, GetPreroll method [DirectShow], GetPreroll method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPreroll method, IMediaSeeking.GetPreroll, IMediaSeeking::GetPreroll, IMediaSeekingGetPreroll, dshow.imediaseeking_getpreroll, strmif/IMediaSeeking::GetPreroll

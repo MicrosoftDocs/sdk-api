@@ -4,7 +4,7 @@ title: ITILSConfig (rend.h)
 description: The ITILSConfig interface allows configuration of the ILS directory.
 helpviewer_keywords: ["ITILSConfig","ITILSConfig interface [TAPI 2.2]","ITILSConfig interface [TAPI 2.2]","described","_tapi3_itilsconfig","rend/ITILSConfig","tapi3.itilsconfig"]
 old-location: tapi3\itilsconfig.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 92a5624b-acf5-4280-9932-860fde53c6a0
 ms.date: 12/05/2018
 ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], ITILSConfig interface [TAPI 2.2],described, _tapi3_itilsconfig, rend/ITILSConfig, tapi3.itilsconfig

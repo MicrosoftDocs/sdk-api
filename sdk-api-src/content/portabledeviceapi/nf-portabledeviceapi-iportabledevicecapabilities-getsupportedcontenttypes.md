@@ -4,7 +4,7 @@ title: IPortableDeviceCapabilities::GetSupportedContentTypes (portabledeviceapi.
 description: The GetSupportedContentTypes method retrieves all supported content types for a specified functional object type on a device.
 helpviewer_keywords: ["GetSupportedContentTypes","GetSupportedContentTypes method [Windows Portable Devices SDK]","GetSupportedContentTypes method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetSupportedContentTypes method","IPortableDeviceCapabilities.GetSupportedContentTypes","IPortableDeviceCapabilities::GetSupportedContentTypes","IPortableDeviceCapabilitiesGetSupportedContentTypes","portabledeviceapi/IPortableDeviceCapabilities::GetSupportedContentTypes","wpdsdk.iportabledevicecapabilities_getsupportedcontenttypes"]
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcontenttypes.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 5f56ca91-552f-4a52-8a68-225601c5f6f4
 ms.date: 12/05/2018
 ms.keywords: GetSupportedContentTypes, GetSupportedContentTypes method [Windows Portable Devices SDK], GetSupportedContentTypes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedContentTypes method, IPortableDeviceCapabilities.GetSupportedContentTypes, IPortableDeviceCapabilities::GetSupportedContentTypes, IPortableDeviceCapabilitiesGetSupportedContentTypes, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedContentTypes, wpdsdk.iportabledevicecapabilities_getsupportedcontenttypes

@@ -4,7 +4,7 @@ title: IXpsOMGlyphsEditor::ApplyEdits (xpsobjectmodel.h)
 description: Performs cross-property validation and then copies the changes to the parent IXpsOMGlyphs interface.
 helpviewer_keywords: ["ApplyEdits","ApplyEdits method [XPS Documents and Packaging]","ApplyEdits method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","ApplyEdits method","IXpsOMGlyphsEditor.ApplyEdits","IXpsOMGlyphsEditor::ApplyEdits","xps.ixpsomglyphseditor_applyedits","xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits"]
 old-location: xps\ixpsomglyphseditor_applyedits.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2
 ms.date: 12/05/2018
 ms.keywords: ApplyEdits, ApplyEdits method [XPS Documents and Packaging], ApplyEdits method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],ApplyEdits method, IXpsOMGlyphsEditor.ApplyEdits, IXpsOMGlyphsEditor::ApplyEdits, xps.ixpsomglyphseditor_applyedits, xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits

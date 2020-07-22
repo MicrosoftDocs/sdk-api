@@ -4,7 +4,7 @@ title: PeerDistGetOverlappedResult function (peerdist.h)
 description: The PeerDistGetOverlappedResult function retrieves the results of asynchronous operations.
 helpviewer_keywords: ["PeerDistGetOverlappedResult","PeerDistGetOverlappedResult function [Peer Networking]","p2p.peerdistgetoverlappedresult","peerdist/PeerDistGetOverlappedResult"]
 old-location: p2p\peerdistgetoverlappedresult.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 09feff6e-fa74-4212-8345-09a11cc026c7
 ms.date: 12/05/2018
 ms.keywords: PeerDistGetOverlappedResult, PeerDistGetOverlappedResult function [Peer Networking], p2p.peerdistgetoverlappedresult, peerdist/PeerDistGetOverlappedResult

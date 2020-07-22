@@ -4,7 +4,7 @@ title: IFilterMapper3 (strmif.h)
 description: The IFilterMapper3 interface extends the IFilterMapper2 interface. The Filter Mapper object implements this interface.Note  This interface is deprecated. .
 helpviewer_keywords: ["IFilterMapper3","IFilterMapper3 interface [DirectShow]","IFilterMapper3 interface [DirectShow]","described","IFilterMapper3Interface","dshow.ifiltermapper3","strmif/IFilterMapper3"]
 old-location: dshow\ifiltermapper3.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 385a4d15-08b5-40c6-8444-a22bec86a981
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper3, IFilterMapper3 interface [DirectShow], IFilterMapper3 interface [DirectShow],described, IFilterMapper3Interface, dshow.ifiltermapper3, strmif/IFilterMapper3

@@ -4,7 +4,7 @@ title: IAMAudioInputMixer::get_Loudness (strmif.h)
 description: The get_Loudness method retrieves the loudness control setting.
 helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Loudness method","IAMAudioInputMixer.get_Loudness","IAMAudioInputMixer::get_Loudness","IAMAudioInputMixerget_Loudness","dshow.iamaudioinputmixer_get_loudness","get_Loudness","get_Loudness method [DirectShow]","get_Loudness method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Loudness"]
 old-location: dshow\iamaudioinputmixer_get_loudness.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 620003c0-401f-4415-a82f-a80e7b32dbd3
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Loudness method, IAMAudioInputMixer.get_Loudness, IAMAudioInputMixer::get_Loudness, IAMAudioInputMixerget_Loudness, dshow.iamaudioinputmixer_get_loudness, get_Loudness, get_Loudness method [DirectShow], get_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Loudness

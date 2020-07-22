@@ -4,7 +4,7 @@ title: pfnIsFileSupported (mssip.h)
 description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.
 helpviewer_keywords: ["mssip/pfnIsFileSupported","pfnIsFileSupported","pfnIsFileSupported callback","pfnIsFileSupported callback function [Security]","security.pfnisfilesupported"]
 old-location: security\pfnisfilesupported.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cf12d057-328a-4975-b7e5-842c4ea2e760
 ms.date: 12/05/2018
 ms.keywords: mssip/pfnIsFileSupported, pfnIsFileSupported, pfnIsFileSupported callback, pfnIsFileSupported callback function [Security], security.pfnisfilesupported

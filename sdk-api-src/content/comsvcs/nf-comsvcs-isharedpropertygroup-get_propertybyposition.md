@@ -4,7 +4,7 @@ title: ISharedPropertyGroup::get_PropertyByPosition (comsvcs.h)
 description: Retrieves a reference to an existing shared property with the specified index.
 helpviewer_keywords: ["ISharedPropertyGroup interface [COM+]","get_PropertyByPosition method","ISharedPropertyGroup.get_PropertyByPosition","ISharedPropertyGroup::get_PropertyByPosition","_cos_ISharedPropertyGroup_get_PropertyByPosition","comsvcs/ISharedPropertyGroup::get_PropertyByPosition","cos.isharedpropertygroup_get_propertybyposition","get_PropertyByPosition","get_PropertyByPosition method [COM+]","get_PropertyByPosition method [COM+]","ISharedPropertyGroup interface"]
 old-location: cos\isharedpropertygroup_get_propertybyposition.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 186cbf9f-a01b-4331-9f18-645d9e47f106
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup interface [COM+],get_PropertyByPosition method, ISharedPropertyGroup.get_PropertyByPosition, ISharedPropertyGroup::get_PropertyByPosition, _cos_ISharedPropertyGroup_get_PropertyByPosition, comsvcs/ISharedPropertyGroup::get_PropertyByPosition, cos.isharedpropertygroup_get_propertybyposition, get_PropertyByPosition, get_PropertyByPosition method [COM+], get_PropertyByPosition method [COM+],ISharedPropertyGroup interface

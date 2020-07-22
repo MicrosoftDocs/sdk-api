@@ -4,7 +4,7 @@ title: WIN32_MEMORY_RANGE_ENTRY (memoryapi.h)
 description: Specifies a range of memory.
 helpviewer_keywords: ["*PWIN32_MEMORY_RANGE_ENTRY","PWIN32_MEMORY_RANGE_ENTRY","PWIN32_MEMORY_RANGE_ENTRY structure pointer","WIN32_MEMORY_RANGE_ENTRY","WIN32_MEMORY_RANGE_ENTRY structure","_WIN32_MEMORY_RANGE_ENTRY","base.win32_memory_range_entry","winbase/PWIN32_MEMORY_RANGE_ENTRY","winbase/WIN32_MEMORY_RANGE_ENTRY"]
 old-location: base\win32_memory_range_entry.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: d1372687-c397-4ba8-b0c0-2dcf2ec74fbb
 ms.date: 12/05/2018
 ms.keywords: '*PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY structure pointer, WIN32_MEMORY_RANGE_ENTRY, WIN32_MEMORY_RANGE_ENTRY structure, _WIN32_MEMORY_RANGE_ENTRY, base.win32_memory_range_entry, winbase/PWIN32_MEMORY_RANGE_ENTRY, winbase/WIN32_MEMORY_RANGE_ENTRY'

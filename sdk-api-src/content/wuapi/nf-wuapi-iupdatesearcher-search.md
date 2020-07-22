@@ -4,7 +4,7 @@ title: IUpdateSearcher::Search (wuapi.h)
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","Search method","IUpdateSearcher.Search","IUpdateSearcher::Search","Search","Search method [Windows Update Agent]","Search method [Windows Update Agent]","IUpdateSearcher interface","wua.iupdatesearchersearch","wuapi/IUpdateSearcher::Search"]
 old-location: wua\iupdatesearchersearch.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search

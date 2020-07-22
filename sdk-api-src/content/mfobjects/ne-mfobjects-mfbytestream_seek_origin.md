@@ -4,7 +4,7 @@ title: MFBYTESTREAM_SEEK_ORIGIN (mfobjects.h)
 description: Specifies the origin for a seek request.
 helpviewer_keywords: ["MFBYTESTREAM_SEEK_ORIGIN","MFBYTESTREAM_SEEK_ORIGIN enumeration [Media Foundation]","_MFBYTESTREAM_SEEK_ORIGIN","ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51","mf.mfbytestream_seek_origin","mfobjects/MFBYTESTREAM_SEEK_ORIGIN","mfobjects/msoBegin","mfobjects/msoCurrent","msoBegin","msoCurrent"]
 old-location: mf\mfbytestream_seek_origin.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51
 ms.date: 12/05/2018
 ms.keywords: MFBYTESTREAM_SEEK_ORIGIN, MFBYTESTREAM_SEEK_ORIGIN enumeration [Media Foundation], _MFBYTESTREAM_SEEK_ORIGIN, ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51, mf.mfbytestream_seek_origin, mfobjects/MFBYTESTREAM_SEEK_ORIGIN, mfobjects/msoBegin, mfobjects/msoCurrent, msoBegin, msoCurrent

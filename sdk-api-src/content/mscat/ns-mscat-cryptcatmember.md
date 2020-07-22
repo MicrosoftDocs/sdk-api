@@ -4,7 +4,7 @@ title: CRYPTCATMEMBER (mscat.h)
 description: The CRYPTCATMEMBER structure provides information about a catalog member. This structure is used by the CryptCATGetMemberInfo and CryptCATEnumerateAttr functions.
 helpviewer_keywords: ["CRYPTCATMEMBER","CRYPTCATMEMBER structure [Security]","mscat/CRYPTCATMEMBER","security.cryptcatmember"]
 old-location: security\cryptcatmember.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], mscat/CRYPTCATMEMBER, security.cryptcatmember

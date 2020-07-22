@@ -4,7 +4,7 @@ title: IXpsOMPartUriCollection::GetAt (xpsobjectmodel.h)
 description: Gets an IOpcPartUri interface pointer from a specified location in the collection.
 helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMPartUriCollection interface","IXpsOMPartUriCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMPartUriCollection.GetAt","IXpsOMPartUriCollection::GetAt","xps.ixpsomparturicollection_getat","xpsobjectmodel/IXpsOMPartUriCollection::GetAt"]
 old-location: xps\ixpsomparturicollection_getat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 9d7fcc13-13f5-494d-b6b2-d1180902ec08
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPartUriCollection.GetAt, IXpsOMPartUriCollection::GetAt, xps.ixpsomparturicollection_getat, xpsobjectmodel/IXpsOMPartUriCollection::GetAt

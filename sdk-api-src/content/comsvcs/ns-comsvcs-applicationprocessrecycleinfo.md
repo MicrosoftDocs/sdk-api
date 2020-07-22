@@ -4,7 +4,7 @@ title: ApplicationProcessRecycleInfo (comsvcs.h)
 description: Represents details about the recycling of a process hosting COM+ applications.
 helpviewer_keywords: ["ApplicationProcessRecycleInfo","ApplicationProcessRecycleInfo structure [COM+]","comsvcs/ApplicationProcessRecycleInfo","cos.applicationprocessrecycleinfo"]
 old-location: cos\applicationprocessrecycleinfo.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9e00c6a3-b82e-48a2-bec5-c5fbd6960072
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessRecycleInfo, ApplicationProcessRecycleInfo structure [COM+], comsvcs/ApplicationProcessRecycleInfo, cos.applicationprocessrecycleinfo

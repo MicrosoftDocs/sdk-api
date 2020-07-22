@@ -4,7 +4,7 @@ title: MF_OPM_ACP_PROTECTION_LEVEL (mfidl.h)
 description: Defines protection levels for MFPROTECTION_ACP.
 helpviewer_keywords: ["MF_OPM_ACP_FORCE_ULONG","MF_OPM_ACP_LEVEL_ONE","MF_OPM_ACP_LEVEL_THREE","MF_OPM_ACP_LEVEL_TWO","MF_OPM_ACP_OFF","MF_OPM_ACP_PROTECTION_LEVEL","MF_OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation]","mf.mf_opm_acp_protection_level","mfidl/MF_OPM_ACP_FORCE_ULONG","mfidl/MF_OPM_ACP_LEVEL_ONE","mfidl/MF_OPM_ACP_LEVEL_THREE","mfidl/MF_OPM_ACP_LEVEL_TWO","mfidl/MF_OPM_ACP_OFF","mfidl/MF_OPM_ACP_PROTECTION_LEVEL"]
 old-location: mf\mf_opm_acp_protection_level.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 82D289EE-7A81-4FBB-A259-6CF0CBD0D76A
 ms.date: 12/05/2018
 ms.keywords: MF_OPM_ACP_FORCE_ULONG, MF_OPM_ACP_LEVEL_ONE, MF_OPM_ACP_LEVEL_THREE, MF_OPM_ACP_LEVEL_TWO, MF_OPM_ACP_OFF, MF_OPM_ACP_PROTECTION_LEVEL, MF_OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], mf.mf_opm_acp_protection_level, mfidl/MF_OPM_ACP_FORCE_ULONG, mfidl/MF_OPM_ACP_LEVEL_ONE, mfidl/MF_OPM_ACP_LEVEL_THREE, mfidl/MF_OPM_ACP_LEVEL_TWO, mfidl/MF_OPM_ACP_OFF, mfidl/MF_OPM_ACP_PROTECTION_LEVEL

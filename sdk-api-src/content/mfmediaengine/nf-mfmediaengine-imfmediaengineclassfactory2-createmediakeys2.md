@@ -4,7 +4,7 @@ title: IMFMediaEngineClassFactory2::CreateMediaKeys2 (mfmediaengine.h)
 description: Creates a media keys object based on the specified key system.
 helpviewer_keywords: ["CreateMediaKeys2","CreateMediaKeys2 method [Media Foundation]","CreateMediaKeys2 method [Media Foundation]","IMFMediaEngineClassFactory2 interface","IMFMediaEngineClassFactory2 interface [Media Foundation]","CreateMediaKeys2 method","IMFMediaEngineClassFactory2.CreateMediaKeys2","IMFMediaEngineClassFactory2::CreateMediaKeys2","mf.imfmediaengineclassfactory2_createmediakeys2","mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2"]
 old-location: mf\imfmediaengineclassfactory2_createmediakeys2.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 857F4573-41B3-488C-88A9-4744EBE5D38B
 ms.date: 12/05/2018
 ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2

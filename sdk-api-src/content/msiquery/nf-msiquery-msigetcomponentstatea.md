@@ -4,7 +4,7 @@ title: MsiGetComponentStateA function (msiquery.h)
 description: The MsiGetComponentState function obtains the state of a component.
 helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_REMOVED","INSTALLSTATE_SOURCE","INSTALLSTATE_UNKNOWN","MsiGetComponentState","MsiGetComponentState function","MsiGetComponentStateA","MsiGetComponentStateW","_msi_msigetcomponentstate","msiquery/MsiGetComponentState","msiquery/MsiGetComponentStateA","msiquery/MsiGetComponentStateW","setup.msigetcomponentstate"]
 old-location: setup\msigetcomponentstate.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 343f5cbc-e026-4a51-9c54-da5d10b7caa8
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_REMOVED, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MsiGetComponentState, MsiGetComponentState function, MsiGetComponentStateA, MsiGetComponentStateW, _msi_msigetcomponentstate, msiquery/MsiGetComponentState, msiquery/MsiGetComponentStateA, msiquery/MsiGetComponentStateW, setup.msigetcomponentstate

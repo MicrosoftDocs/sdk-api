@@ -4,7 +4,7 @@ title: IWSDServiceMessaging (wsdhost.h)
 description: Is used by generated stub code to send faults or responses to incoming messages.
 helpviewer_keywords: ["IWSDServiceMessaging","IWSDServiceMessaging interface","IWSDServiceMessaging interface","described","ncd.iwsdservicemessaging","wsdhost/IWSDServiceMessaging"]
 old-location: ncd\iwsdservicemessaging.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging

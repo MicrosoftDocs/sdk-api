@@ -4,7 +4,7 @@ title: IMF2DBuffer::GetContiguousLength (mfobjects.h)
 description: Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
 helpviewer_keywords: ["413d50f6-a047-4561-985d-9d1927825617","GetContiguousLength","GetContiguousLength method [Media Foundation]","GetContiguousLength method [Media Foundation]","IMF2DBuffer interface","IMF2DBuffer interface [Media Foundation]","GetContiguousLength method","IMF2DBuffer.GetContiguousLength","IMF2DBuffer::GetContiguousLength","mf.imf2dbuffer_getcontiguouslength","mfobjects/IMF2DBuffer::GetContiguousLength"]
 old-location: mf\imf2dbuffer_getcontiguouslength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 413d50f6-a047-4561-985d-9d1927825617
 ms.date: 12/05/2018
 ms.keywords: 413d50f6-a047-4561-985d-9d1927825617, GetContiguousLength, GetContiguousLength method [Media Foundation], GetContiguousLength method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetContiguousLength method, IMF2DBuffer.GetContiguousLength, IMF2DBuffer::GetContiguousLength, mf.imf2dbuffer_getcontiguouslength, mfobjects/IMF2DBuffer::GetContiguousLength

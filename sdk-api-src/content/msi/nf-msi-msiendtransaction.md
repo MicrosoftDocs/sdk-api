@@ -4,7 +4,7 @@ title: MsiEndTransaction function (msi.h)
 description: The MsiEndTransaction function can commit or roll back all the installations belonging to the transaction opened by the MsiBeginTransaction function.
 helpviewer_keywords: ["MsiEndTransaction","MsiEndTransaction function [Setup API]","msi/MsiEndTransaction","setup.msiendtransaction"]
 old-location: setup\msiendtransaction.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 70912430-63d7-4087-858c-fb13f47008e2
 ms.date: 12/05/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction

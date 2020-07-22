@@ -4,7 +4,7 @@ title: SetEnlistmentRecoveryInformation function (ktmw32.h)
 description: Sets an opaque, user-defined structure of recovery data from KTM.
 helpviewer_keywords: ["SetEnlistmentRecoveryInformation","SetEnlistmentRecoveryInformation function [Files]","fs.setenlistmentrecoveryinformation","ktmw32/SetEnlistmentRecoveryInformation"]
 old-location: fs\setenlistmentrecoveryinformation.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 54e7526f-57f0-40cd-9624-fce0644a0884
 ms.date: 12/05/2018
 ms.keywords: SetEnlistmentRecoveryInformation, SetEnlistmentRecoveryInformation function [Files], fs.setenlistmentrecoveryinformation, ktmw32/SetEnlistmentRecoveryInformation

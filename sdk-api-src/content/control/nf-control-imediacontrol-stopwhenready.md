@@ -4,7 +4,7 @@ title: IMediaControl::StopWhenReady (control.h)
 description: The StopWhenReady method pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
 helpviewer_keywords: ["IMediaControl interface [DirectShow]","StopWhenReady method","IMediaControl.StopWhenReady","IMediaControl::StopWhenReady","IMediaControlStopWhenReady","StopWhenReady","StopWhenReady method [DirectShow]","StopWhenReady method [DirectShow]","IMediaControl interface","control/IMediaControl::StopWhenReady","dshow.imediacontrol_stopwhenready"]
 old-location: dshow\imediacontrol_stopwhenready.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 55dd55b1-51f0-4b47-8432-99741eaee8bb
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],StopWhenReady method, IMediaControl.StopWhenReady, IMediaControl::StopWhenReady, IMediaControlStopWhenReady, StopWhenReady, StopWhenReady method [DirectShow], StopWhenReady method [DirectShow],IMediaControl interface, control/IMediaControl::StopWhenReady, dshow.imediacontrol_stopwhenready

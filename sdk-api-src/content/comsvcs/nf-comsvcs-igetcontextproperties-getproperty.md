@@ -4,7 +4,7 @@ title: IGetContextProperties::GetProperty (comsvcs.h)
 description: Retrieves the value of the specified context property.
 helpviewer_keywords: ["GetProperty","GetProperty method [COM+]","GetProperty method [COM+]","IGetContextProperties interface","IGetContextProperties interface [COM+]","GetProperty method","IGetContextProperties.GetProperty","IGetContextProperties::GetProperty","_cos_IGetContextProperties_GetProperty","comsvcs/IGetContextProperties::GetProperty","cos.igetcontextproperties_getproperty"]
 old-location: cos\igetcontextproperties_getproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 920938a9-44b1-4473-8204-1129b9599a72
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],GetProperty method, IGetContextProperties.GetProperty, IGetContextProperties::GetProperty, _cos_IGetContextProperties_GetProperty, comsvcs/IGetContextProperties::GetProperty, cos.igetcontextproperties_getproperty

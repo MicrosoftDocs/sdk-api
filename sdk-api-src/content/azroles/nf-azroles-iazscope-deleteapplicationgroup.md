@@ -4,7 +4,7 @@ title: IAzScope::DeleteApplicationGroup (azroles.h)
 description: Removes the IAzApplicationGroup object with the specified name from the IAzScope object.
 helpviewer_keywords: ["AzScope object [Security]","DeleteApplicationGroup method","DeleteApplicationGroup","DeleteApplicationGroup method [Security]","DeleteApplicationGroup method [Security]","AzScope object","DeleteApplicationGroup method [Security]","IAzScope interface","IAzScope interface [Security]","DeleteApplicationGroup method","IAzScope.DeleteApplicationGroup","IAzScope::DeleteApplicationGroup","azroles/IAzScope::DeleteApplicationGroup","security.iazscope_deleteapplicationgroup"]
 old-location: security\iazscope_deleteapplicationgroup.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9571bff3-dfe5-48fa-be51-38d61da40414
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzScope object, DeleteApplicationGroup method [Security],IAzScope interface, IAzScope interface [Security],DeleteApplicationGroup method, IAzScope.DeleteApplicationGroup, IAzScope::DeleteApplicationGroup, azroles/IAzScope::DeleteApplicationGroup, security.iazscope_deleteapplicationgroup

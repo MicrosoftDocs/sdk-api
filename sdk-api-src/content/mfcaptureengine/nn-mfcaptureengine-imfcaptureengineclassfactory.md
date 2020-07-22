@@ -4,7 +4,7 @@ title: IMFCaptureEngineClassFactory (mfcaptureengine.h)
 description: Creates an instance of the capture engine.
 helpviewer_keywords: ["IMFCaptureEngineClassFactory","IMFCaptureEngineClassFactory interface [Media Foundation]","IMFCaptureEngineClassFactory interface [Media Foundation]","described","mf.imfcaptureengineclassfactory","mfcaptureengine/IMFCaptureEngineClassFactory"]
 old-location: mf\imfcaptureengineclassfactory.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: FAFA52AD-B96E-4ADC-BE79-3BE5F1ACC92A
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineClassFactory, IMFCaptureEngineClassFactory interface [Media Foundation], IMFCaptureEngineClassFactory interface [Media Foundation],described, mf.imfcaptureengineclassfactory, mfcaptureengine/IMFCaptureEngineClassFactory

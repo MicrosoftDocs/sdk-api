@@ -4,7 +4,7 @@ title: IVMRAspectRatioControl9 (vmr9.h)
 description: The IVMRAspectRatioControl9 interface controls whether the Video Mixing Renderer Filter 9 (VMR-9) preserves the aspect ratio of the source video.
 helpviewer_keywords: ["IVMRAspectRatioControl9","IVMRAspectRatioControl9 interface [DirectShow]","IVMRAspectRatioControl9 interface [DirectShow]","described","IVMRAspectRatioControl9Interface","dshow.ivmraspectratiocontrol9","vmr9/IVMRAspectRatioControl9"]
 old-location: dshow\ivmraspectratiocontrol9.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ae850eea-c283-4500-baa0-e26641576852
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], IVMRAspectRatioControl9 interface [DirectShow],described, IVMRAspectRatioControl9Interface, dshow.ivmraspectratiocontrol9, vmr9/IVMRAspectRatioControl9

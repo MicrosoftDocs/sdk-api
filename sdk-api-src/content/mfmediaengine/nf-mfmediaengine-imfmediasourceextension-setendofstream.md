@@ -4,7 +4,7 @@ title: IMFMediaSourceExtension::SetEndOfStream (mfmediaengine.h)
 description: Indicate that the end of the media stream has been reached.
 helpviewer_keywords: ["IMFMediaSourceExtension interface [Media Foundation]","SetEndOfStream method","IMFMediaSourceExtension.SetEndOfStream","IMFMediaSourceExtension::SetEndOfStream","SetEndOfStream","SetEndOfStream method [Media Foundation]","SetEndOfStream method [Media Foundation]","IMFMediaSourceExtension interface","mf.imfmediasourceextension_setendofstream","mfmediaengine/IMFMediaSourceExtension::SetEndOfStream"]
 old-location: mf\imfmediasourceextension_setendofstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetEndOfStream method, IMFMediaSourceExtension.SetEndOfStream, IMFMediaSourceExtension::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Media Foundation], SetEndOfStream method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setendofstream, mfmediaengine/IMFMediaSourceExtension::SetEndOfStream

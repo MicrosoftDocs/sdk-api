@@ -4,7 +4,7 @@ title: FindActCtxSectionStringA function (winbase.h)
 description: The FindActCtxSectionString function retrieves information on a specific string in the current activation context and returns a ACTCTX_SECTION_KEYED_DATA structure.
 helpviewer_keywords: ["FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX","FindActCtxSectionString","FindActCtxSectionString function [Side-by-side Assemblies]","FindActCtxSectionStringA","FindActCtxSectionStringW","_win32_findactctxsectionstring","setup.findactctxsectionstring","winbase/FindActCtxSectionString","winbase/FindActCtxSectionStringA","winbase/FindActCtxSectionStringW"]
 old-location: setup\findactctxsectionstring.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: d3f0b057-44ec-47ec-a0aa-69f3540b8900
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, FindActCtxSectionString function [Side-by-side Assemblies], FindActCtxSectionStringA, FindActCtxSectionStringW, _win32_findactctxsectionstring, setup.findactctxsectionstring, winbase/FindActCtxSectionString, winbase/FindActCtxSectionStringA, winbase/FindActCtxSectionStringW

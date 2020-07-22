@@ -4,7 +4,7 @@ title: IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate (certenr
 description: Initializes a null-signed certificate request by using an IX509PublicKey object and a template.
 helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509CertificateRequestPkcs10V2 interface [Security]","InitializeFromPublicKeyTemplate method","IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate","IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate","InitializeFromPublicKeyTemplate","InitializeFromPublicKeyTemplate method [Security]","InitializeFromPublicKeyTemplate method [Security]","IX509CertificateRequestPkcs10V2 interface","certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate","security.ix509certificaterequestpkcs10v2_initializefrompublickeytemplate"]
 old-location: security\ix509certificaterequestpkcs10v2_initializefrompublickeytemplate.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 20e94948-1455-46c4-bc8c-55dfde45818c
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromPublicKeyTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate, IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate, InitializeFromPublicKeyTemplate, InitializeFromPublicKeyTemplate method [Security], InitializeFromPublicKeyTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate, security.ix509certificaterequestpkcs10v2_initializefrompublickeytemplate

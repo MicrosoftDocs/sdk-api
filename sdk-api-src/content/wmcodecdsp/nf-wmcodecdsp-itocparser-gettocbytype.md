@@ -4,7 +4,7 @@ title: ITocParser::GetTocByType (wmcodecdsp.h)
 description: The GetTocByType retrieves all tables of contents of a specified type from the TOC Parser object.
 helpviewer_keywords: ["GetTocByType","GetTocByType method [Media Foundation]","GetTocByType method [Media Foundation]","ITocParser interface","ITocParser interface [Media Foundation]","GetTocByType method","ITocParser.GetTocByType","ITocParser::GetTocByType","codecapi.itocparser_gettocbytype","mf.itocparser_gettocbytype","wmcodecdsp/ITocParser::GetTocByType"]
 old-location: mf\itocparser_gettocbytype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 97a3b835-5d99-4b37-8f1d-2469e85faf9b
 ms.date: 12/05/2018
 ms.keywords: GetTocByType, GetTocByType method [Media Foundation], GetTocByType method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByType method, ITocParser.GetTocByType, ITocParser::GetTocByType, codecapi.itocparser_gettocbytype, mf.itocparser_gettocbytype, wmcodecdsp/ITocParser::GetTocByType

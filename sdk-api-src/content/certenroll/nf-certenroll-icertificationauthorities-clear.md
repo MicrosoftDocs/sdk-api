@@ -4,7 +4,7 @@ title: ICertificationAuthorities::Clear (certenroll.h)
 description: Removes all ICertificationAuthority objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICertificationAuthorities interface","ICertificationAuthorities interface [Security]","Clear method","ICertificationAuthorities.Clear","ICertificationAuthorities::Clear","certenroll/ICertificationAuthorities::Clear","security.icertificationauthorities_clear"]
 old-location: security\icertificationauthorities_clear.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear

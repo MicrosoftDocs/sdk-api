@@ -4,7 +4,7 @@ title: TruncateLog function (clfsw32.h)
 description: Truncates the log. The function sets the end of the log to the specified value.
 helpviewer_keywords: ["TruncateLog","TruncateLog function [Files]","clfsw32/TruncateLog","fs.truncatelog"]
 old-location: fs\truncatelog.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 76ef1a01-ba5c-4419-ac2f-4ba53dcc5bc4
 ms.date: 12/05/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog

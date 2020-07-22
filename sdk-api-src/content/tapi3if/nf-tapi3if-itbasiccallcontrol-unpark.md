@@ -4,7 +4,7 @@ title: ITBasicCallControl::Unpark (tapi3if.h)
 description: The Unpark method gets the call from park.
 helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","Unpark method","ITBasicCallControl.Unpark","ITBasicCallControl::Unpark","Unpark","Unpark method [TAPI 2.2]","Unpark method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_unpark","tapi3.itbasiccallcontrol_unpark","tapi3if/ITBasicCallControl::Unpark"]
 old-location: tapi3\itbasiccallcontrol_unpark.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark

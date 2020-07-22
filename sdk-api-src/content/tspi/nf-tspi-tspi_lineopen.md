@@ -4,7 +4,7 @@ title: TSPI_lineOpen function (tspi.h)
 description: The TSPI_lineOpen function opens the line device whose device identifier is given, returning the service provider's handle for the device.
 helpviewer_keywords: ["TSPI_lineOpen","TSPI_lineOpen function [TAPI 2.2]","_tspi_tspi_lineopen","tspi.tspi_lineopen","tspi/TSPI_lineOpen"]
 old-location: tspi\tspi_lineopen.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 97cde843-65bc-46ae-a6ae-724f2c9c5217
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineOpen, TSPI_lineOpen function [TAPI 2.2], _tspi_tspi_lineopen, tspi.tspi_lineopen, tspi/TSPI_lineOpen

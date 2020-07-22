@@ -4,7 +4,7 @@ title: IXpsOMCoreProperties::GetSubject (xpsobjectmodel.h)
 description: Gets the subject property.
 helpviewer_keywords: ["GetSubject","GetSubject method [XPS Documents and Packaging]","GetSubject method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetSubject method","IXpsOMCoreProperties.GetSubject","IXpsOMCoreProperties::GetSubject","xps.ixpsomcoreproperties_getsubject","xpsobjectmodel/IXpsOMCoreProperties::GetSubject"]
 old-location: xps\ixpsomcoreproperties_getsubject.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 80499d81-4adc-402c-ab72-4ebc77eefaea
 ms.date: 12/05/2018
 ms.keywords: GetSubject, GetSubject method [XPS Documents and Packaging], GetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetSubject method, IXpsOMCoreProperties.GetSubject, IXpsOMCoreProperties::GetSubject, xps.ixpsomcoreproperties_getsubject, xpsobjectmodel/IXpsOMCoreProperties::GetSubject

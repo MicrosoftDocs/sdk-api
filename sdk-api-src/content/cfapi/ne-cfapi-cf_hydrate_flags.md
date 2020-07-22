@@ -4,7 +4,7 @@ title: CF_HYDRATE_FLAGS (cfapi.h)
 description: Placeholder data hydration flags.
 helpviewer_keywords: ["CF_HYDRATE_FLAGS","CF_HYDRATE_FLAGS enumeration","CF_HYDRATE_FLAG_NONE","cfapi/CF_HYDRATE_FLAGS","cfapi/CF_HYDRATE_FLAG_NONE","cloudApi.cf_hydrate_flags"]
 old-location: cloudapi\cf_hydrate_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 1D49752C-2D80-4EC8-AE24-2DEAFCB7FD46
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATE_FLAGS, CF_HYDRATE_FLAGS enumeration, CF_HYDRATE_FLAG_NONE, cfapi/CF_HYDRATE_FLAGS, cfapi/CF_HYDRATE_FLAG_NONE, cloudApi.cf_hydrate_flags

@@ -4,7 +4,7 @@ title: GetCurrentInputMessageSource function (winuser.h)
 description: Retrieves the source of the input message.
 helpviewer_keywords: ["GetCurrentInputMessageSource","GetCurrentInputMessageSource function","input_sourceid.getcurrentinputmessagesource","inputsourceid.getcurrentinputmessagesource","winuser/GetCurrentInputMessageSource"]
 old-location: input_sourceid\getcurrentinputmessagesource.htm
-tech.root: Input_SourceId
+tech.root: controls
 ms.assetid: 35e4ebf5-df9d-4168-9996-355204c2ab93
 ms.date: 12/05/2018
 ms.keywords: GetCurrentInputMessageSource, GetCurrentInputMessageSource function, input_sourceid.getcurrentinputmessagesource, inputsourceid.getcurrentinputmessagesource, winuser/GetCurrentInputMessageSource

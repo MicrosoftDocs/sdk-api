@@ -4,7 +4,7 @@ title: IAMTimecodeGenerator::GetTimecode (strmif.h)
 description: The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.
 helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimecode method [DirectShow]","IAMTimecodeGenerator interface","IAMTimecodeGenerator interface [DirectShow]","GetTimecode method","IAMTimecodeGenerator.GetTimecode","IAMTimecodeGenerator::GetTimecode","IAMTimecodeGeneratorGetTimecode","dshow.iamtimecodegenerator_gettimecode","strmif/IAMTimecodeGenerator::GetTimecode"]
 old-location: dshow\iamtimecodegenerator_gettimecode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 40f24a99-5a6b-4aff-b22c-e05811c910f4
 ms.date: 12/05/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTimecode method, IAMTimecodeGenerator.GetTimecode, IAMTimecodeGenerator::GetTimecode, IAMTimecodeGeneratorGetTimecode, dshow.iamtimecodegenerator_gettimecode, strmif/IAMTimecodeGenerator::GetTimecode

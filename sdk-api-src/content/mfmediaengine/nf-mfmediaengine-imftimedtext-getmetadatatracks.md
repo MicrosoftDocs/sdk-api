@@ -4,7 +4,7 @@ title: IMFTimedText::GetMetadataTracks (mfmediaengine.h)
 description: Gets the list of the timed-metadata tracks in the timed-text component.
 helpviewer_keywords: ["GetMetadataTracks","GetMetadataTracks method [Media Foundation]","GetMetadataTracks method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","GetMetadataTracks method","IMFTimedText.GetMetadataTracks","IMFTimedText::GetMetadataTracks","mf.imftimedtext_getmetadatatracks","mfmediaengine/IMFTimedText::GetMetadataTracks"]
 old-location: mf\imftimedtext_getmetadatatracks.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EA4D12F6-D1F0-4DA9-BF80-22C6965CE396
 ms.date: 12/05/2018
 ms.keywords: GetMetadataTracks, GetMetadataTracks method [Media Foundation], GetMetadataTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetMetadataTracks method, IMFTimedText.GetMetadataTracks, IMFTimedText::GetMetadataTracks, mf.imftimedtext_getmetadatatracks, mfmediaengine/IMFTimedText::GetMetadataTracks

@@ -4,7 +4,7 @@ title: __VDS_PARTITION_STYLE (vds.h)
 description: This enumeration is not for explicit use.
 helpviewer_keywords: ["VDS_PARTITION_STYLE_GPT","VDS_PARTITION_STYLE_MBR","VDS_PARTITION_STYLE_RAW","__VDS_PARTITION_STYLE","__VDS_PARTITION_STYLE enumeration [VDS]","base.tag_vds_partition_style","tag_VDS_PARTITION_STYLE","tag_VDS_PARTITION_STYLE enumeration [VDS]","vds/VDS_PARTITION_STYLE_GPT","vds/VDS_PARTITION_STYLE_MBR","vds/VDS_PARTITION_STYLE_RAW","vds/tag_VDS_PARTITION_STYLE"]
 old-location: base\tag_vds_partition_style.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d994715e-1735-4841-98be-5f22de0670f0
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_STYLE_GPT, VDS_PARTITION_STYLE_MBR, VDS_PARTITION_STYLE_RAW, __VDS_PARTITION_STYLE, __VDS_PARTITION_STYLE enumeration [VDS], base.tag_vds_partition_style, tag_VDS_PARTITION_STYLE, tag_VDS_PARTITION_STYLE enumeration [VDS], vds/VDS_PARTITION_STYLE_GPT, vds/VDS_PARTITION_STYLE_MBR, vds/VDS_PARTITION_STYLE_RAW, vds/tag_VDS_PARTITION_STYLE

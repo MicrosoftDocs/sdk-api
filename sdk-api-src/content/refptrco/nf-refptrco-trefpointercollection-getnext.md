@@ -4,7 +4,7 @@ title: TRefPointerCollection::GetNext (refptrco.h)
 description: The GetNext method gets a pointer to the next instance in the collection.
 helpviewer_keywords: ["GetNext","GetNext method [Windows Management Instrumentation]","GetNext method [Windows Management Instrumentation]","TRefPointerCollection interface","TRefPointerCollection interface [Windows Management Instrumentation]","GetNext method","TRefPointerCollection.GetNext","TRefPointerCollection::GetNext","_hmm_trefpointercollection_getnext","refptrco/TRefPointerCollection::GetNext","wmi.trefpointercollection_getnext"]
 old-location: wmi\trefpointercollection_getnext.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
 ms.date: 12/05/2018
 ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext

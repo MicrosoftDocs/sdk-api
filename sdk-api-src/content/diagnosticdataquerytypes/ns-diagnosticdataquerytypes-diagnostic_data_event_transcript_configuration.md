@@ -5,6 +5,7 @@ ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION, DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION
 ms.topic: language-reference
 description: Event transcript configuration details such as maximum storage size and hours of data history. 
+tech.root: security
 targetos: Windows
 product: Windows
 req.construct-type: structure

@@ -4,7 +4,7 @@ title: IMFSensorProcessActivity::GetStreamingState (mfidl.h)
 description: Gets a value indicating whether the sensor is currently streaming.
 helpviewer_keywords: ["GetStreamingState","GetStreamingState method [Media Foundation]","GetStreamingState method [Media Foundation]","IMFSensorProcessActivity interface","IMFSensorProcessActivity interface [Media Foundation]","GetStreamingState method","IMFSensorProcessActivity.GetStreamingState","IMFSensorProcessActivity::GetStreamingState","mf.imfsensorprocessactivity_getstreamingstate","mfidl/IMFSensorProcessActivity::GetStreamingState"]
 old-location: mf\imfsensorprocessactivity_getstreamingstate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C8A99D4B-F3D5-41D2-A956-C147900F28ED
 ms.date: 12/05/2018
 ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingState method, IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState

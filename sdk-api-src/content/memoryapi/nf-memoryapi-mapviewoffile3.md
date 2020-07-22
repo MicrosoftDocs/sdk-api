@@ -4,7 +4,7 @@ title: MapViewOfFile3 function (memoryapi.h)
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3","MapViewOfFile3 function","base.mapviewoffile3","memoryapi/MapViewOfFile3"]
 old-location: base\mapviewoffile3.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 585D7BA1-688F-4F24-8D8D-46A2FC137193
 ms.date: 12/05/2018
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3, MapViewOfFile3 function, base.mapviewoffile3, memoryapi/MapViewOfFile3

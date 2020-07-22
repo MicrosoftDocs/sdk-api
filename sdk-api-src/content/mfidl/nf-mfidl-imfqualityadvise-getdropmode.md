@@ -4,7 +4,7 @@ title: IMFQualityAdvise::GetDropMode (mfidl.h)
 description: Retrieves the current drop mode.
 helpviewer_keywords: ["GetDropMode","GetDropMode method [Media Foundation]","GetDropMode method [Media Foundation]","IMFQualityAdvise interface","IMFQualityAdvise interface [Media Foundation]","GetDropMode method","IMFQualityAdvise.GetDropMode","IMFQualityAdvise::GetDropMode","bb700a3e-837f-4e88-a9b7-294c41143402","mf.imfqualityadvise_getdropmode","mfidl/IMFQualityAdvise::GetDropMode"]
 old-location: mf\imfqualityadvise_getdropmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bb700a3e-837f-4e88-a9b7-294c41143402
 ms.date: 12/05/2018
 ms.keywords: GetDropMode, GetDropMode method [Media Foundation], GetDropMode method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],GetDropMode method, IMFQualityAdvise.GetDropMode, IMFQualityAdvise::GetDropMode, bb700a3e-837f-4e88-a9b7-294c41143402, mf.imfqualityadvise_getdropmode, mfidl/IMFQualityAdvise::GetDropMode

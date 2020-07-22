@@ -4,7 +4,7 @@ title: BCryptCreateContext function (bcrypt.h)
 description: Creates a new CNG configuration context.
 helpviewer_keywords: ["BCryptCreateContext","BCryptCreateContext function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptCreateContext","security.bcryptcreatecontext"]
 old-location: security\bcryptcreatecontext.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 68f71010-0089-4433-bc89-f61f190e0bff
 ms.date: 12/05/2018
 ms.keywords: BCryptCreateContext, BCryptCreateContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptCreateContext, security.bcryptcreatecontext

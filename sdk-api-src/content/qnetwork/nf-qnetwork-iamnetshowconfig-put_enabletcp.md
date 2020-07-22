@@ -4,7 +4,7 @@ title: IAMNetShowConfig::put_EnableTCP (qnetwork.h)
 description: The put_EnableTCP method enables or disables TCP-based streaming.
 helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_EnableTCP method","IAMNetShowConfig.put_EnableTCP","IAMNetShowConfig::put_EnableTCP","IAMNetShowConfigput_EnableTCP","dshow.iamnetshowconfig_put_enabletcp","put_EnableTCP","put_EnableTCP method [DirectShow]","put_EnableTCP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_EnableTCP"]
 old-location: dshow\iamnetshowconfig_put_enabletcp.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8e875901-7ccb-4aa5-b283-f75b791e85f1
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP

@@ -4,7 +4,7 @@ title: Provider::GetLocalComputerName (provider.h)
 description: The GetLocalComputerName method returns a constant reference to the computer name in CHString format.
 helpviewer_keywords: ["GetLocalComputerName","GetLocalComputerName method [Windows Management Instrumentation]","GetLocalComputerName method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","GetLocalComputerName method","Provider.GetLocalComputerName","Provider::GetLocalComputerName","_hmm_provider_getlocalcomputername","provider/Provider::GetLocalComputerName","wmi.provider_getlocalcomputername"]
 old-location: wmi\provider_getlocalcomputername.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 20470353-417d-4067-8df1-c2ec6b330853
 ms.date: 12/05/2018
 ms.keywords: GetLocalComputerName, GetLocalComputerName method [Windows Management Instrumentation], GetLocalComputerName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetLocalComputerName method, Provider.GetLocalComputerName, Provider::GetLocalComputerName, _hmm_provider_getlocalcomputername, provider/Provider::GetLocalComputerName, wmi.provider_getlocalcomputername

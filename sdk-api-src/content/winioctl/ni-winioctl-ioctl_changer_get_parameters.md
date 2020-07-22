@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_PARAMETERS
 description: Retrieves the parameters of the specified device.
 helpviewer_keywords: ["IOCTL_CHANGER_GET_PARAMETERS","IOCTL_CHANGER_GET_PARAMETERS control","IOCTL_CHANGER_GET_PARAMETERS control code","_win32_ioctl_changer_get_parameters","base.ioctl_changer_get_parameters","winioctl/IOCTL_CHANGER_GET_PARAMETERS"]
 old-location: base\ioctl_changer_get_parameters.htm
-tech.root: devio
+tech.root: base
 ms.assetid: bd442970-1056-426f-810e-4e28286c65d2
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control, IOCTL_CHANGER_GET_PARAMETERS control code, _win32_ioctl_changer_get_parameters, base.ioctl_changer_get_parameters, winioctl/IOCTL_CHANGER_GET_PARAMETERS

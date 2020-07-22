@@ -4,7 +4,7 @@ title: IOfflineFilesPinInfo::IsPinned (cscobj.h)
 description: Determines whether the item is pinned.
 helpviewer_keywords: ["IOfflineFilesPinInfo interface [Offline Files]","IsPinned method","IOfflineFilesPinInfo.IsPinned","IOfflineFilesPinInfo::IsPinned","IsPinned","IsPinned method [Offline Files]","IsPinned method [Offline Files]","IOfflineFilesPinInfo interface","cscobj/IOfflineFilesPinInfo::IsPinned","of.iofflinefilespininfo_ispinned"]
 old-location: of\iofflinefilespininfo_ispinned.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned

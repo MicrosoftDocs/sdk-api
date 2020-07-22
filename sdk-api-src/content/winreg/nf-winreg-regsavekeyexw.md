@@ -4,7 +4,7 @@ title: RegSaveKeyExW function (winreg.h)
 description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 helpviewer_keywords: ["REG_LATEST_FORMAT","REG_NO_COMPRESSION","REG_STANDARD_FORMAT","RegSaveKeyEx","RegSaveKeyEx function","RegSaveKeyExA","RegSaveKeyExW","_win32_regsavekeyex","base.regsavekeyex","winreg/RegSaveKeyEx","winreg/RegSaveKeyExA","winreg/RegSaveKeyExW"]
 old-location: base\regsavekeyex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
 ms.date: 12/05/2018
 ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSaveKeyEx, RegSaveKeyEx function, RegSaveKeyExA, RegSaveKeyExW, _win32_regsavekeyex, base.regsavekeyex, winreg/RegSaveKeyEx, winreg/RegSaveKeyExA, winreg/RegSaveKeyExW

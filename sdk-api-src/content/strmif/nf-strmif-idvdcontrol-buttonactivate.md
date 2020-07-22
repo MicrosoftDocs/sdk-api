@@ -4,7 +4,7 @@ title: IDvdControl::ButtonActivate (strmif.h)
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Activates the selected button.
 helpviewer_keywords: ["ButtonActivate","ButtonActivate method [DirectShow]","ButtonActivate method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","ButtonActivate method","IDvdControl.ButtonActivate","IDvdControl::ButtonActivate","IDvdControlButtonActivate","dshow.idvdcontrol_buttonactivate","strmif/IDvdControl::ButtonActivate"]
 old-location: dshow\idvdcontrol_buttonactivate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6a5ee6ed-2baa-45d6-a874-5df4e5c56841
 ms.date: 12/05/2018
 ms.keywords: ButtonActivate, ButtonActivate method [DirectShow], ButtonActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonActivate method, IDvdControl.ButtonActivate, IDvdControl::ButtonActivate, IDvdControlButtonActivate, dshow.idvdcontrol_buttonactivate, strmif/IDvdControl::ButtonActivate

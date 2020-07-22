@@ -4,7 +4,7 @@ title: AuditLookupCategoryIdFromCategoryGuid function (ntsecapi.h)
 description: Retrieves an element of the POLICY_AUDIT_EVENT_TYPE enumeration that represents the specified audit-policy category.
 helpviewer_keywords: ["AuditLookupCategoryIdFromCategoryGuid","AuditLookupCategoryIdFromCategoryGuid function [Security]","ntsecapi/AuditLookupCategoryIdFromCategoryGuid","security.auditlookupcategoryidfromcategoryguid_func"]
 old-location: security\auditlookupcategoryidfromcategoryguid_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c50e39f0-d45f-4deb-abe5-6261775b507c
 ms.date: 12/05/2018
 ms.keywords: AuditLookupCategoryIdFromCategoryGuid, AuditLookupCategoryIdFromCategoryGuid function [Security], ntsecapi/AuditLookupCategoryIdFromCategoryGuid, security.auditlookupcategoryidfromcategoryguid_func

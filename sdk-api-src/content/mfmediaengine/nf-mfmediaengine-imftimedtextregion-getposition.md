@@ -4,7 +4,7 @@ title: IMFTimedTextRegion::GetPosition (mfmediaengine.h)
 description: Gets the position of the region.
 helpviewer_keywords: ["GetPosition","GetPosition method [Media Foundation]","GetPosition method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetPosition method","IMFTimedTextRegion.GetPosition","IMFTimedTextRegion::GetPosition","mf.imftimedtextregion_getposition","mfmediaengine/IMFTimedTextRegion::GetPosition"]
 old-location: mf\imftimedtextregion_getposition.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1DEE0689-A428-4121-9ED5-5E4D1376461E
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPosition method, IMFTimedTextRegion.GetPosition, IMFTimedTextRegion::GetPosition, mf.imftimedtextregion_getposition, mfmediaengine/IMFTimedTextRegion::GetPosition

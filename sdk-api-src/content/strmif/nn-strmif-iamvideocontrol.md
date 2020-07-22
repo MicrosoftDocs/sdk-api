@@ -4,7 +4,7 @@ title: IAMVideoControl (strmif.h)
 description: The IAMVideoControl interface controls certain video capture operations such as enumerating available frame rates and image orientation.
 helpviewer_keywords: ["IAMVideoControl","IAMVideoControl interface [DirectShow]","IAMVideoControl interface [DirectShow]","described","IAMVideoControlInterface","dshow.iamvideocontrol","strmif/IAMVideoControl"]
 old-location: dshow\iamvideocontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bd114977-c76c-4429-a835-98601b350a93
 ms.date: 12/05/2018
 ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoControl interface [DirectShow],described, IAMVideoControlInterface, dshow.iamvideocontrol, strmif/IAMVideoControl

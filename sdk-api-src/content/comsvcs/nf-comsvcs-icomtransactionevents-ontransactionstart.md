@@ -4,7 +4,7 @@ title: IComTransactionEvents::OnTransactionStart (comsvcs.h)
 description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
 helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionStart method","IComTransactionEvents.OnTransactionStart","IComTransactionEvents::OnTransactionStart","OnTransactionStart","OnTransactionStart method [COM+]","OnTransactionStart method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionStart","comsvcs/IComTransactionEvents::OnTransactionStart","cos.icomtransactionevents_ontransactionstart"]
 old-location: cos\icomtransactionevents_ontransactionstart.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ef9d7adc-69ed-4582-9ce7-c66c947d48a6
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionStart method, IComTransactionEvents.OnTransactionStart, IComTransactionEvents::OnTransactionStart, OnTransactionStart, OnTransactionStart method [COM+], OnTransactionStart method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionStart, comsvcs/IComTransactionEvents::OnTransactionStart, cos.icomtransactionevents_ontransactionstart

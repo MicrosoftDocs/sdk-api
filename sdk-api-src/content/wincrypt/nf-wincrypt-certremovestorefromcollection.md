@@ -4,7 +4,7 @@ title: CertRemoveStoreFromCollection function (wincrypt.h)
 description: Removes a sibling certificate store from a collection store.
 helpviewer_keywords: ["CertRemoveStoreFromCollection","CertRemoveStoreFromCollection function [Security]","_crypto2_certremovestorefromcollection","security.certremovestorefromcollection","wincrypt/CertRemoveStoreFromCollection"]
 old-location: security\certremovestorefromcollection.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.date: 12/05/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection

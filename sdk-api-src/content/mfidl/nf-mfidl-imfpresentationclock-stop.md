@@ -4,7 +4,7 @@ title: IMFPresentationClock::Stop (mfidl.h)
 description: Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's IMFPresentationClock::GetTime method returns zero.
 helpviewer_keywords: ["54377d65-2af7-410d-b8cf-45f467527a45","IMFPresentationClock interface [Media Foundation]","Stop method","IMFPresentationClock.Stop","IMFPresentationClock::Stop","Stop","Stop method [Media Foundation]","Stop method [Media Foundation]","IMFPresentationClock interface","mf.imfpresentationclock_stop","mfidl/IMFPresentationClock::Stop"]
 old-location: mf\imfpresentationclock_stop.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 54377d65-2af7-410d-b8cf-45f467527a45
 ms.date: 12/05/2018
 ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock interface [Media Foundation],Stop method, IMFPresentationClock.Stop, IMFPresentationClock::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop

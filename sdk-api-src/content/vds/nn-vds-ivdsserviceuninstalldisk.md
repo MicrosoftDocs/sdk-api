@@ -4,7 +4,7 @@ title: IVdsServiceUninstallDisk (vds.h)
 description: Provides methods to uninstall basic and dynamic disks.
 helpviewer_keywords: ["IVdsServiceUninstallDisk","IVdsServiceUninstallDisk interface","IVdsServiceUninstallDisk interface","described","base.ivdsserviceuninstalldisk","vds/IVdsServiceUninstallDisk"]
 old-location: base\ivdsserviceuninstalldisk.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2d111105-9970-40a3-bb8d-a92d38985fd9
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceUninstallDisk, IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,described, base.ivdsserviceuninstalldisk, vds/IVdsServiceUninstallDisk

@@ -4,7 +4,7 @@ title: GetCommPorts function (winbase.h)
 description: Gets an array that contains the well-formed COM ports.
 helpviewer_keywords: ["GetCommPorts","GetCommPorts function","base.getcommports","winbase/GetCommPorts"]
 old-location: base\getcommports.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1
 ms.date: 12/05/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts

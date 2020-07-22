@@ -4,7 +4,7 @@ title: IMFHttpDownloadRequest::GetHttpStatus (mfidl.h)
 description: Invoked by Microsoft Media Foundation to retrieve the HTTP status code that the server specified in its response. Media Foundation invokes this method after a successful call to EndReceiveResponse.
 helpviewer_keywords: ["GetHttpStatus","GetHttpStatus method [Media Foundation]","GetHttpStatus method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","GetHttpStatus method","IMFHttpDownloadRequest.GetHttpStatus","IMFHttpDownloadRequest::GetHttpStatus","mf.imfhttpdownloadrequest_gethttpstatus","mfidl/IMFHttpDownloadRequest::GetHttpStatus"]
 old-location: mf\imfhttpdownloadrequest_gethttpstatus.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E084CF25-BEFA-4061-AA77-2CFC57CF6DCE
 ms.date: 12/05/2018
 ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus

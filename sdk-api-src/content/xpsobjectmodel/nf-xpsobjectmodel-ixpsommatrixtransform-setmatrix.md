@@ -4,7 +4,7 @@ title: IXpsOMMatrixTransform::SetMatrix (xpsobjectmodel.h)
 description: Sets the XPS_MATRIX structure, which specifies the transform matrix.
 helpviewer_keywords: ["IXpsOMMatrixTransform interface [XPS Documents and Packaging]","SetMatrix method","IXpsOMMatrixTransform.SetMatrix","IXpsOMMatrixTransform::SetMatrix","SetMatrix","SetMatrix method [XPS Documents and Packaging]","SetMatrix method [XPS Documents and Packaging]","IXpsOMMatrixTransform interface","xps.ixpsommatrixtransform_setmatrix","xpsobjectmodel/IXpsOMMatrixTransform::SetMatrix"]
 old-location: xps\ixpsommatrixtransform_setmatrix.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: cbe6a992-1c94-40b0-a0b6-3b214b928805
 ms.date: 12/05/2018
 ms.keywords: IXpsOMMatrixTransform interface [XPS Documents and Packaging],SetMatrix method, IXpsOMMatrixTransform.SetMatrix, IXpsOMMatrixTransform::SetMatrix, SetMatrix, SetMatrix method [XPS Documents and Packaging], SetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, xps.ixpsommatrixtransform_setmatrix, xpsobjectmodel/IXpsOMMatrixTransform::SetMatrix

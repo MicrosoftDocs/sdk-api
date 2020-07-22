@@ -4,7 +4,7 @@ title: IComObjectPoolEvents2::OnObjPoolDestroyObject (comsvcs.h)
 description: Generated when an object is permanently removed from the pool.
 helpviewer_keywords: ["IComObjectPoolEvents2 interface [COM+]","OnObjPoolDestroyObject method","IComObjectPoolEvents2.OnObjPoolDestroyObject","IComObjectPoolEvents2::OnObjPoolDestroyObject","OnObjPoolDestroyObject","OnObjPoolDestroyObject method [COM+]","OnObjPoolDestroyObject method [COM+]","IComObjectPoolEvents2 interface","_dtc_IComObjectPoolEvents2_OnObjPoolDestroyObject","comsvcs/IComObjectPoolEvents2::OnObjPoolDestroyObject","cos.icomobjectpoolevents2_onobjpooldestroyobject"]
 old-location: cos\icomobjectpoolevents2_onobjpooldestroyobject.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c942da45-4d41-4483-a30b-862d3e0c13b7
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolDestroyObject method, IComObjectPoolEvents2.OnObjPoolDestroyObject, IComObjectPoolEvents2::OnObjPoolDestroyObject, OnObjPoolDestroyObject, OnObjPoolDestroyObject method [COM+], OnObjPoolDestroyObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolDestroyObject, comsvcs/IComObjectPoolEvents2::OnObjPoolDestroyObject, cos.icomobjectpoolevents2_onobjpooldestroyobject

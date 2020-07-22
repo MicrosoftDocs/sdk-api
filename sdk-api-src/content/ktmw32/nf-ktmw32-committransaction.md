@@ -4,7 +4,7 @@ title: CommitTransaction function (ktmw32.h)
 description: Requests that the specified transaction be committed.
 helpviewer_keywords: ["CommitTransaction","CommitTransaction function [Files]","fs.committransaction","ktmw32/CommitTransaction"]
 old-location: fs\committransaction.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 17db5e1f-685b-46f0-bac6-dff4c18bb515
 ms.date: 12/05/2018
 ms.keywords: CommitTransaction, CommitTransaction function [Files], fs.committransaction, ktmw32/CommitTransaction

@@ -4,7 +4,7 @@ title: IMsmMerge (mergemod.h)
 description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.
 helpviewer_keywords: ["IMsmMerge","IMsmMerge interface","IMsmMerge interface","described","_msi_imsmmerge_interface","mergemod/IMsmMerge","setup.imsmmerge_interface"]
 old-location: setup\imsmmerge_interface.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 6cb4b620-88ce-4348-ab72-6d2ed60c6298
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge, IMsmMerge interface, IMsmMerge interface,described, _msi_imsmmerge_interface, mergemod/IMsmMerge, setup.imsmmerge_interface

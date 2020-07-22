@@ -4,7 +4,7 @@ title: IMsmGetFiles::get_ModuleFiles (mergemod.h)
 description: The get_ModuleFiles method retrieves the ModuleFiles property of the GetFiles object.
 helpviewer_keywords: ["IMsmGetFiles interface","get_ModuleFiles method","IMsmGetFiles.get_ModuleFiles","IMsmGetFiles::get_ModuleFiles","_msi_get_modulefiles_function","get_ModuleFiles","get_ModuleFiles method","get_ModuleFiles method","IMsmGetFiles interface","mergemod/IMsmGetFiles::get_ModuleFiles","setup.imsmgetfiles_get_modulefiles"]
 old-location: setup\imsmgetfiles_get_modulefiles.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 525c1a30-a870-4303-b704-e8b37f9e641f
 ms.date: 12/05/2018
 ms.keywords: IMsmGetFiles interface,get_ModuleFiles method, IMsmGetFiles.get_ModuleFiles, IMsmGetFiles::get_ModuleFiles, _msi_get_modulefiles_function, get_ModuleFiles, get_ModuleFiles method, get_ModuleFiles method,IMsmGetFiles interface, mergemod/IMsmGetFiles::get_ModuleFiles, setup.imsmgetfiles_get_modulefiles

@@ -4,7 +4,7 @@ title: SetupTerminateFileLog function (setupapi.h)
 description: The SetupTerminateFileLog function releases resources associated with a file log.
 helpviewer_keywords: ["SetupTerminateFileLog","SetupTerminateFileLog function [Setup API]","_setupapi_setupterminatefilelog","setup.setupterminatefilelog","setupapi/SetupTerminateFileLog"]
 old-location: setup\setupterminatefilelog.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: a230063a-2b4a-4ed3-8624-4859a17f8ccc
 ms.date: 12/05/2018
 ms.keywords: SetupTerminateFileLog, SetupTerminateFileLog function [Setup API], _setupapi_setupterminatefilelog, setup.setupterminatefilelog, setupapi/SetupTerminateFileLog

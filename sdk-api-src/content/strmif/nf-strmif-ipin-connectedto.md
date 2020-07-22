@@ -4,7 +4,7 @@ title: IPin::ConnectedTo (strmif.h)
 description: The ConnectedTo method retrieves a pointer to the connected pin, if any.
 helpviewer_keywords: ["ConnectedTo","ConnectedTo method [DirectShow]","ConnectedTo method [DirectShow]","IPin interface","IPin interface [DirectShow]","ConnectedTo method","IPin.ConnectedTo","IPin::ConnectedTo","IPinConnectedTo","dshow.ipin_connectedto","strmif/IPin::ConnectedTo"]
 old-location: dshow\ipin_connectedto.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
 ms.date: 12/05/2018
 ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo

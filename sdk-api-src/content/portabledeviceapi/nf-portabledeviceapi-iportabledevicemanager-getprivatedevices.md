@@ -4,7 +4,7 @@ title: IPortableDeviceManager::GetPrivateDevices (portabledeviceapi.h)
 description: The GetPrivateDevices method retrieves a list of private portable devices connected to the computer. These private devices are only accessible through an application that is designed for these particular devices.
 helpviewer_keywords: ["GetPrivateDevices","GetPrivateDevices method [Windows Portable Devices SDK]","GetPrivateDevices method [Windows Portable Devices SDK]","IPortableDeviceManager interface","IPortableDeviceManager interface [Windows Portable Devices SDK]","GetPrivateDevices method","IPortableDeviceManager.GetPrivateDevices","IPortableDeviceManager::GetPrivateDevices","IPortableDeviceManagerGetPrivateDevices","portabledeviceapi/IPortableDeviceManager::GetPrivateDevices","wpdsdk.iportabledevicemanager_getprivatedevices"]
 old-location: wpdsdk\iportabledevicemanager_getprivatedevices.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: f25a8eb4-be40-43c0-bb3c-00031b7f08db
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDevices, GetPrivateDevices method [Windows Portable Devices SDK], GetPrivateDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetPrivateDevices method, IPortableDeviceManager.GetPrivateDevices, IPortableDeviceManager::GetPrivateDevices, IPortableDeviceManagerGetPrivateDevices, portabledeviceapi/IPortableDeviceManager::GetPrivateDevices, wpdsdk.iportabledevicemanager_getprivatedevices

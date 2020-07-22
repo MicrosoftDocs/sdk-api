@@ -4,7 +4,7 @@ title: IMFSensorProcessActivity::GetProcessId (mfidl.h)
 description: Gets the ID of the process with which the activity is associated.
 helpviewer_keywords: ["GetProcessId","GetProcessId method [Media Foundation]","GetProcessId method [Media Foundation]","IMFSensorProcessActivity interface","IMFSensorProcessActivity interface [Media Foundation]","GetProcessId method","IMFSensorProcessActivity.GetProcessId","IMFSensorProcessActivity::GetProcessId","mf.imfsensorprocessactivity_getprocessid","mfidl/IMFSensorProcessActivity::GetProcessId"]
 old-location: mf\imfsensorprocessactivity_getprocessid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E4277F4B-8CBB-4910-991B-1234AFEB49B3
 ms.date: 12/05/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId

@@ -4,7 +4,7 @@ title: IXpsOMDocumentSequence::GetDocuments (xpsobjectmodel.h)
 description: Gets a pointer to the IXpsOMDocumentCollection interface, which contains the documents specified in the document sequence.
 helpviewer_keywords: ["GetDocuments","GetDocuments method [XPS Documents and Packaging]","GetDocuments method [XPS Documents and Packaging]","IXpsOMDocumentSequence interface","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","GetDocuments method","IXpsOMDocumentSequence.GetDocuments","IXpsOMDocumentSequence::GetDocuments","xps.ixpsomdocumentsequence_getdocuments","xpsobjectmodel/IXpsOMDocumentSequence::GetDocuments"]
 old-location: xps\ixpsomdocumentsequence_getdocuments.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d924e610-1142-4623-b64b-219558fb07d6
 ms.date: 12/05/2018
 ms.keywords: GetDocuments, GetDocuments method [XPS Documents and Packaging], GetDocuments method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetDocuments method, IXpsOMDocumentSequence.GetDocuments, IXpsOMDocumentSequence::GetDocuments, xps.ixpsomdocumentsequence_getdocuments, xpsobjectmodel/IXpsOMDocumentSequence::GetDocuments

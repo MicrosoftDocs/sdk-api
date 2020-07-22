@@ -4,7 +4,7 @@ title: CVssWriter (vswriter.h)
 description: The CVssWriter class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 helpviewer_keywords: ["CVssWriter","CVssWriter class [VSS]","CVssWriter class [VSS]","described","_win32_cvsswriter","base.cvsswriter","vswriter/CVssWriter"]
 old-location: base\cvsswriter.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5d54c966-86ad-41af-82be-8a182b3d203a
 ms.date: 12/05/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], CVssWriter class [VSS],described, _win32_cvsswriter, base.cvsswriter, vswriter/CVssWriter

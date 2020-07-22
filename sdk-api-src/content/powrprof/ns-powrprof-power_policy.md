@@ -4,7 +4,7 @@ title: POWER_POLICY (powrprof.h)
 description: Contains power policy settings that are unique to each power scheme.
 helpviewer_keywords: ["*PPOWER_POLICY","POWER_POLICY","POWER_POLICY structure","PPOWER_POLICY","PPOWER_POLICY structure pointer","_win32_power_policy_str","base.power_policy_str","powrprof/POWER_POLICY","powrprof/PPOWER_POLICY"]
 old-location: base\power_policy_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: ba49fca6-04b6-4627-a653-07c3fc0dab22
 ms.date: 12/05/2018
 ms.keywords: '*PPOWER_POLICY, POWER_POLICY, POWER_POLICY structure, PPOWER_POLICY, PPOWER_POLICY structure pointer, _win32_power_policy_str, base.power_policy_str, powrprof/POWER_POLICY, powrprof/PPOWER_POLICY'

@@ -4,7 +4,7 @@ title: IMFCdmSuspendNotify::Begin (mfmediaengine.h)
 description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
 helpviewer_keywords: ["Begin","Begin method [Media Foundation]","Begin method [Media Foundation]","IMFCdmSuspendNotify interface","IMFCdmSuspendNotify interface [Media Foundation]","Begin method","IMFCdmSuspendNotify.Begin","IMFCdmSuspendNotify::Begin","mf.imfcdmsuspendnotify_begin","mfmediaengine/IMFCdmSuspendNotify::Begin"]
 old-location: mf\imfcdmsuspendnotify_begin.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5cf3d249-3d8b-4596-9d8b-e7b95a270eff
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Media Foundation], Begin method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],Begin method, IMFCdmSuspendNotify.Begin, IMFCdmSuspendNotify::Begin, mf.imfcdmsuspendnotify_begin, mfmediaengine/IMFCdmSuspendNotify::Begin

@@ -4,7 +4,7 @@ title: IX509PublicKey (certenroll.h)
 description: Represents a public key in a public/private key pair.
 helpviewer_keywords: ["IX509PublicKey","IX509PublicKey interface [Security]","IX509PublicKey interface [Security]","described","certenroll/IX509PublicKey","security.ix509publickey"]
 old-location: security\ix509publickey.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey

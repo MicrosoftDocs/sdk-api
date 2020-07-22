@@ -4,7 +4,7 @@ title: IPhotoAcquireProgressCB (photoacquire.h)
 description: The IPhotoAcquireProgressCB interface may be implemented if you wish to do extra processing at various stages in the acquisition process.
 helpviewer_keywords: ["IPhotoAcquireProgressCB","IPhotoAcquireProgressCB interface [Picture Acquisition]","IPhotoAcquireProgressCB interface [Picture Acquisition]","described","IPhotoAcquireProgressCBInterface","photoacquire/IPhotoAcquireProgressCB","picacq.iphotoacquireprogresscb"]
 old-location: picacq\iphotoacquireprogresscb.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: c4fcc470-1b05-4d33-8581-80c6e7488e04
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], IPhotoAcquireProgressCB interface [Picture Acquisition],described, IPhotoAcquireProgressCBInterface, photoacquire/IPhotoAcquireProgressCB, picacq.iphotoacquireprogresscb

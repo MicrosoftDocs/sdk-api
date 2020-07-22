@@ -4,7 +4,7 @@ title: GetLogicalDriveStringsA function (winbase.h)
 description: Fills a buffer with strings that specify valid drives in the system.
 helpviewer_keywords: ["GetLogicalDriveStrings","GetLogicalDriveStrings function [Files]","GetLogicalDriveStringsA","GetLogicalDriveStringsW","_win32_getlogicaldrivestrings","base.getlogicaldrivestrings","fileapi/GetLogicalDriveStrings","fileapi/GetLogicalDriveStringsA","fileapi/GetLogicalDriveStringsW","fs.getlogicaldrivestrings","winbase/GetLogicalDriveStrings","winbase/GetLogicalDriveStringsA","winbase/GetLogicalDriveStringsW"]
 old-location: fs\getlogicaldrivestrings.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d3a83f8d-c37c-48b9-a24c-f81dfe5773e9
 ms.date: 12/05/2018
 ms.keywords: GetLogicalDriveStrings, GetLogicalDriveStrings function [Files], GetLogicalDriveStringsA, GetLogicalDriveStringsW, _win32_getlogicaldrivestrings, base.getlogicaldrivestrings, fileapi/GetLogicalDriveStrings, fileapi/GetLogicalDriveStringsA, fileapi/GetLogicalDriveStringsW, fs.getlogicaldrivestrings, winbase/GetLogicalDriveStrings, winbase/GetLogicalDriveStringsA, winbase/GetLogicalDriveStringsW

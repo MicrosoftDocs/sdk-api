@@ -4,7 +4,7 @@ title: IMFASFContentInfo::GetProfile (wmcontainer.h)
 description: Retrieves an Advanced Systems Format (ASF) profile that describes the ASF content.
 helpviewer_keywords: ["6f74c896-a0c0-407b-b893-de15863bc2eb","GetProfile","GetProfile method [Media Foundation]","GetProfile method [Media Foundation]","IMFASFContentInfo interface","IMFASFContentInfo interface [Media Foundation]","GetProfile method","IMFASFContentInfo.GetProfile","IMFASFContentInfo::GetProfile","mf.imfasfcontentinfo_getprofile","wmcontainer/IMFASFContentInfo::GetProfile"]
 old-location: mf\imfasfcontentinfo_getprofile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6f74c896-a0c0-407b-b893-de15863bc2eb
 ms.date: 12/05/2018
 ms.keywords: 6f74c896-a0c0-407b-b893-de15863bc2eb, GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetProfile method, IMFASFContentInfo.GetProfile, IMFASFContentInfo::GetProfile, mf.imfasfcontentinfo_getprofile, wmcontainer/IMFASFContentInfo::GetProfile

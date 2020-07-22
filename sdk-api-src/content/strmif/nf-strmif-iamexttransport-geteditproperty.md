@@ -4,7 +4,7 @@ title: IAMExtTransport::GetEditProperty (strmif.h)
 description: The GetEditProperty method retrieves parameters and values associated with an edit event.
 helpviewer_keywords: ["GetEditProperty","GetEditProperty method [DirectShow]","GetEditProperty method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetEditProperty method","IAMExtTransport.GetEditProperty","IAMExtTransport::GetEditProperty","IAMExtTransportGetEditProperty","dshow.iamexttransport_geteditproperty","strmif/IAMExtTransport::GetEditProperty"]
 old-location: dshow\iamexttransport_geteditproperty.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c36b1fb1-f0a7-49df-8a6c-fb90ab268b23
 ms.date: 12/05/2018
 ms.keywords: GetEditProperty, GetEditProperty method [DirectShow], GetEditProperty method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditProperty method, IAMExtTransport.GetEditProperty, IAMExtTransport::GetEditProperty, IAMExtTransportGetEditProperty, dshow.iamexttransport_geteditproperty, strmif/IAMExtTransport::GetEditProperty

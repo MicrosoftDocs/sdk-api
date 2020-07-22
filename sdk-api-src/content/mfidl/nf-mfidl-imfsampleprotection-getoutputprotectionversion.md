@@ -4,7 +4,7 @@ title: IMFSampleProtection::GetOutputProtectionVersion (mfidl.h)
 description: Retrieves the version of sample protection that the component implements on output.
 helpviewer_keywords: ["607e6123-0cfa-4946-b390-1c44e502b2db","GetOutputProtectionVersion","GetOutputProtectionVersion method [Media Foundation]","GetOutputProtectionVersion method [Media Foundation]","IMFSampleProtection interface","IMFSampleProtection interface [Media Foundation]","GetOutputProtectionVersion method","IMFSampleProtection.GetOutputProtectionVersion","IMFSampleProtection::GetOutputProtectionVersion","mf.imfsampleprotection_getoutputprotectionversion","mfidl/IMFSampleProtection::GetOutputProtectionVersion"]
 old-location: mf\imfsampleprotection_getoutputprotectionversion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 607e6123-0cfa-4946-b390-1c44e502b2db
 ms.date: 12/05/2018
 ms.keywords: 607e6123-0cfa-4946-b390-1c44e502b2db, GetOutputProtectionVersion, GetOutputProtectionVersion method [Media Foundation], GetOutputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetOutputProtectionVersion method, IMFSampleProtection.GetOutputProtectionVersion, IMFSampleProtection::GetOutputProtectionVersion, mf.imfsampleprotection_getoutputprotectionversion, mfidl/IMFSampleProtection::GetOutputProtectionVersion

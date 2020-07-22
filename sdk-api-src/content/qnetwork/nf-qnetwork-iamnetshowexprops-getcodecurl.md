@@ -4,7 +4,7 @@ title: IAMNetShowExProps::GetCodecURL (qnetwork.h)
 description: The GetCodecURL method retrieves the URL where the codec may be downloaded.
 helpviewer_keywords: ["GetCodecURL","GetCodecURL method [DirectShow]","GetCodecURL method [DirectShow]","IAMNetShowExProps interface","IAMNetShowExProps interface [DirectShow]","GetCodecURL method","IAMNetShowExProps.GetCodecURL","IAMNetShowExProps::GetCodecURL","IAMNetShowExPropsGetCodecURL","dshow.iamnetshowexprops_getcodecurl","qnetwork/IAMNetShowExProps::GetCodecURL"]
 old-location: dshow\iamnetshowexprops_getcodecurl.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ad5672a8-2af9-45ef-b510-3c2f8948f64b
 ms.date: 12/05/2018
 ms.keywords: GetCodecURL, GetCodecURL method [DirectShow], GetCodecURL method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecURL method, IAMNetShowExProps.GetCodecURL, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL

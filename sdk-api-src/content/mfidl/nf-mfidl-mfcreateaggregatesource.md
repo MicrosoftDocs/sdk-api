@@ -4,7 +4,7 @@ title: MFCreateAggregateSource function (mfidl.h)
 description: Creates a media source that aggregates a collection of media sources.
 helpviewer_keywords: ["MFCreateAggregateSource","MFCreateAggregateSource function [Media Foundation]","mf.mfcreateaggregatesource","mfidl/MFCreateAggregateSource"]
 old-location: mf\mfcreateaggregatesource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.date: 12/05/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource

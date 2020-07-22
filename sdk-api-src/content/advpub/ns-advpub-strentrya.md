@@ -4,7 +4,7 @@ title: STRENTRYA (advpub.h)
 description: Represents a registry string replacement.
 helpviewer_keywords: ["*LPSTRENTRYA","LPSTRENTRYA","LPSTRENTRYA structure pointer [Windows API]","STRENTRY","STRENTRYA","STRENTRYA structure [Windows API]","_StrEntryA","_StrEntryA structure [Windows API]","advpub/LPSTRENTRYA","advpub/_StrEntryA","winprog._strentrya"]
 old-location: winprog\_strentrya.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: BE4239CA-68D5-4E5A-BA53-087001ACD7BB
 ms.date: 12/05/2018
 ms.keywords: '*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows API], STRENTRY, STRENTRYA, STRENTRYA structure [Windows API], _StrEntryA, _StrEntryA structure [Windows API], advpub/LPSTRENTRYA, advpub/_StrEntryA, winprog._strentrya'

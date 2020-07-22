@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::get_Length (casetup.h)
 description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
 helpviewer_keywords: ["ICertSrvSetupKeyInformation interface [Security]","Length property","ICertSrvSetupKeyInformation.Length","ICertSrvSetupKeyInformation.get_Length","ICertSrvSetupKeyInformation::Length","ICertSrvSetupKeyInformation::get_Length","ICertSrvSetupKeyInformation::put_Length","Length property [Security]","Length property [Security]","ICertSrvSetupKeyInformation interface","casetup/ICertSrvSetupKeyInformation::Length","casetup/ICertSrvSetupKeyInformation::get_Length","casetup/ICertSrvSetupKeyInformation::put_Length","get_Length","security.icertsrvsetupkeyinformation_length"]
 old-location: security\icertsrvsetupkeyinformation_length.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.get_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, get_Length, security.icertsrvsetupkeyinformation_length

@@ -4,7 +4,7 @@ title: SLGenerateOfflineInstallationId function (slpublic.h)
 description: Generates the Installation ID (IID).
 helpviewer_keywords: ["SLGenerateOfflineInstallationId","SLGenerateOfflineInstallationId function [Security]","security.slgenerateofflineinstallationid","slpublic/SLGenerateOfflineInstallationId"]
 old-location: security\slgenerateofflineinstallationid.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 2bfbedfc-6fac-468b-8314-c856aab856d0
 ms.date: 12/05/2018
 ms.keywords: SLGenerateOfflineInstallationId, SLGenerateOfflineInstallationId function [Security], security.slgenerateofflineinstallationid, slpublic/SLGenerateOfflineInstallationId

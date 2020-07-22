@@ -4,7 +4,7 @@ title: IAMNetShowConfig::put_EnableAutoProxy (qnetwork.h)
 description: The put_EnableAutoProxy method enables or disables auto-proxy.
 helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_EnableAutoProxy method","IAMNetShowConfig.put_EnableAutoProxy","IAMNetShowConfig::put_EnableAutoProxy","IAMNetShowConfigput_EnableAutoProxy","dshow.iamnetshowconfig_put_enableautoproxy","put_EnableAutoProxy","put_EnableAutoProxy method [DirectShow]","put_EnableAutoProxy method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_EnableAutoProxy"]
 old-location: dshow\iamnetshowconfig_put_enableautoproxy.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2746e4d9-3996-4b06-bbb9-7777de6d0202
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableAutoProxy method, IAMNetShowConfig.put_EnableAutoProxy, IAMNetShowConfig::put_EnableAutoProxy, IAMNetShowConfigput_EnableAutoProxy, dshow.iamnetshowconfig_put_enableautoproxy, put_EnableAutoProxy, put_EnableAutoProxy method [DirectShow], put_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableAutoProxy

@@ -4,7 +4,7 @@ title: CRYPT_XML_ALGORITHM (cryptxml.h)
 description: Specifies the algorithm used to sign or transform the message.
 helpviewer_keywords: ["*PCRYPT_XML_ALGORITHM","CRYPT_XML_ALGORITHM","CRYPT_XML_ALGORITHM structure [Security]","PCRYPT_XML_ALGORITHM","PCRYPT_XML_ALGORITHM structure pointer [Security]","cryptxml/CRYPT_XML_ALGORITHM","cryptxml/PCRYPT_XML_ALGORITHM","security.crypt_xml_algorithm"]
 old-location: security\crypt_xml_algorithm.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM structure [Security], PCRYPT_XML_ALGORITHM, PCRYPT_XML_ALGORITHM structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM, cryptxml/PCRYPT_XML_ALGORITHM, security.crypt_xml_algorithm'

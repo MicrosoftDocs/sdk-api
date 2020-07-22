@@ -4,7 +4,7 @@ title: PdhAddEnglishCounterW function (pdh.h)
 description: Adds the specified language-neutral counter to the query.
 helpviewer_keywords: ["PdhAddEnglishCounter","PdhAddEnglishCounter function [Perf]","PdhAddEnglishCounterA","PdhAddEnglishCounterW","pdh/PdhAddEnglishCounter","pdh/PdhAddEnglishCounterA","pdh/PdhAddEnglishCounterW","perf.pdhaddenglishcounter"]
 old-location: perf\pdhaddenglishcounter.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
 ms.date: 12/05/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter

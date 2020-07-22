@@ -4,7 +4,7 @@ title: GetFirmwareEnvironmentVariableW function (winbase.h)
 description: Retrieves the value of the specified firmware environment variable.
 helpviewer_keywords: ["GetFirmwareEnvironmentVariable","GetFirmwareEnvironmentVariable function","GetFirmwareEnvironmentVariableA","GetFirmwareEnvironmentVariableW","base.getfirmwareenvironmentvariable","winbase/GetFirmwareEnvironmentVariable","winbase/GetFirmwareEnvironmentVariableA","winbase/GetFirmwareEnvironmentVariableW"]
 old-location: base\getfirmwareenvironmentvariable.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW

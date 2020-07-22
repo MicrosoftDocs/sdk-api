@@ -4,7 +4,7 @@ title: AdvanceLogBase function (clfsw32.h)
 description: Advances the base log sequence number (LSN) of a log stream to the specified LSN.
 helpviewer_keywords: ["AdvanceLogBase","AdvanceLogBase function [Files]","clfsw32/AdvanceLogBase","fs.advancelogbase"]
 old-location: fs\advancelogbase.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: aecdea3b-ac42-43d4-88b3-14cd810a4017
 ms.date: 12/05/2018
 ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLogBase, fs.advancelogbase

@@ -4,7 +4,7 @@ title: DRT_REGISTRATION (drt.h)
 description: The DRT_REGISTRATION structure contains key and application data that make up a registration.
 helpviewer_keywords: ["*PDRT_REGISTRATION","DRT_REGISTRATION","DRT_REGISTRATION structure [Peer Networking]","PDRT_REGISTRATION","PDRT_REGISTRATION structure pointer [Peer Networking]","drt/DRT_REGISTRATION","drt/PDRT_REGISTRATION","p2p.drt_registration"]
 old-location: p2p\drt_registration.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
 ms.date: 12/05/2018
 ms.keywords: '*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, p2p.drt_registration'

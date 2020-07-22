@@ -4,7 +4,7 @@ title: IWbemPropertyProvider::GetProperty (wbemprov.h)
 description: The IWbemPropertyProvider::GetProperty method is called by Windows Management to retrieve an individual property value.
 helpviewer_keywords: ["GetProperty","GetProperty method [Windows Management Instrumentation]","GetProperty method [Windows Management Instrumentation]","IWbemPropertyProvider interface","IWbemPropertyProvider interface [Windows Management Instrumentation]","GetProperty method","IWbemPropertyProvider.GetProperty","IWbemPropertyProvider::GetProperty","_hmm_iwbempropertyprovider_getproperty","wbemprov/IWbemPropertyProvider::GetProperty","wmi.iwbempropertyprovider_getproperty"]
 old-location: wmi\iwbempropertyprovider_getproperty.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, IWbemPropertyProvider interface [Windows Management Instrumentation],GetProperty method, IWbemPropertyProvider.GetProperty, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty

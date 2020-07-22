@@ -4,7 +4,7 @@ title: ICspAlgorithm (certenroll.h)
 description: Represents an algorithm implemented by a cryptographic provider.
 helpviewer_keywords: ["ICspAlgorithm","ICspAlgorithm interface [Security]","ICspAlgorithm interface [Security]","described","certenroll/ICspAlgorithm","security.icspalgorithm"]
 old-location: security\icspalgorithm.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm

@@ -4,7 +4,7 @@ title: FSCTL_READ_FROM_PLEX
 description: Reads from the specified plex.
 helpviewer_keywords: ["FSCTL_READ_FROM_PLEX","FSCTL_READ_FROM_PLEX control","FSCTL_READ_FROM_PLEX control code [Files]","_win32_fsctl_read_from_plex","base.fsctl_read_from_plex","fs.fsctl_read_from_plex","winioctl/FSCTL_READ_FROM_PLEX"]
 old-location: fs\fsctl_read_from_plex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f2cddd4d-cb58-484c-9a85-274b88ec4ece
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FROM_PLEX, FSCTL_READ_FROM_PLEX control, FSCTL_READ_FROM_PLEX control code [Files], _win32_fsctl_read_from_plex, base.fsctl_read_from_plex, fs.fsctl_read_from_plex, winioctl/FSCTL_READ_FROM_PLEX

@@ -4,7 +4,7 @@ title: IRegisterServiceProvider::RegisterService (strmif.h)
 description: The RegisterService method registers an object as a service.
 helpviewer_keywords: ["IRegisterServiceProvider interface [DirectShow]","RegisterService method","IRegisterServiceProvider.RegisterService","IRegisterServiceProvider::RegisterService","IRegisterServiceProviderRegisterService","RegisterService","RegisterService method [DirectShow]","RegisterService method [DirectShow]","IRegisterServiceProvider interface","dshow.iregisterserviceprovider_registerservice","strmif/IRegisterServiceProvider::RegisterService"]
 old-location: dshow\iregisterserviceprovider_registerservice.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: be8c3a89-687e-4a53-9fd0-0ec676e27ce0
 ms.date: 12/05/2018
 ms.keywords: IRegisterServiceProvider interface [DirectShow],RegisterService method, IRegisterServiceProvider.RegisterService, IRegisterServiceProvider::RegisterService, IRegisterServiceProviderRegisterService, RegisterService, RegisterService method [DirectShow], RegisterService method [DirectShow],IRegisterServiceProvider interface, dshow.iregisterserviceprovider_registerservice, strmif/IRegisterServiceProvider::RegisterService

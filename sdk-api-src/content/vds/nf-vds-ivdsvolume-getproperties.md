@@ -4,7 +4,7 @@ title: IVdsVolume::GetProperties (vds.h)
 description: Returns property details of the current volume.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","GetProperties method","IVdsVolume.GetProperties","IVdsVolume::GetProperties","base.ivdsvolume_getproperties","vds/IVdsVolume::GetProperties"]
 old-location: base\ivdsvolume_getproperties.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: ba4a92c9-35f1-463a-8fa3-1a0d78720555
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetProperties method, IVdsVolume.GetProperties, IVdsVolume::GetProperties, base.ivdsvolume_getproperties, vds/IVdsVolume::GetProperties

@@ -4,7 +4,7 @@ title: IXpsSignature::Verify (xpsdigitalsignature.h)
 description: Verifies the signature against a specified X.509 certificate.
 helpviewer_keywords: ["IXpsSignature interface [XPS Documents and Packaging]","Verify method","IXpsSignature.Verify","IXpsSignature::Verify","Verify","Verify method [XPS Documents and Packaging]","Verify method [XPS Documents and Packaging]","IXpsSignature interface","xps.ixpssignature_verify","xpsdigitalsignature/IXpsSignature::Verify"]
 old-location: xps\ixpssignature_verify.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6f3239dd-e29f-4340-a4ad-49ceb6a151de
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],Verify method, IXpsSignature.Verify, IXpsSignature::Verify, Verify, Verify method [XPS Documents and Packaging], Verify method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_verify, xpsdigitalsignature/IXpsSignature::Verify

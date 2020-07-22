@@ -4,7 +4,7 @@ title: DXVAHD_COLOR_YCbCrA (dxvahd.h)
 description: Specifies a YCbCr color value.
 helpviewer_keywords: ["DXVAHD_COLOR_YCbCrA","DXVAHD_COLOR_YCbCrA structure [Media Foundation]","dxvahd/DXVAHD_COLOR_YCbCrA","mf.dxvahd_color_ycbcra"]
 old-location: mf\dxvahd_color_ycbcra.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3e37daf1-5529-4042-ab6e-89a7f77d5e15
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_COLOR_YCbCrA, DXVAHD_COLOR_YCbCrA structure [Media Foundation], dxvahd/DXVAHD_COLOR_YCbCrA, mf.dxvahd_color_ycbcra

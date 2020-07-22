@@ -4,7 +4,7 @@ title: ITPhone::SetDisplay (tapi3if.h)
 description: The SetDisplay method sets what will appear in a given row and column of the phone's display.
 helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","SetDisplay method","ITPhone.SetDisplay","ITPhone::SetDisplay","SetDisplay","SetDisplay method [TAPI 2.2]","SetDisplay method [TAPI 2.2]","ITPhone interface","_tapi3_itphone_setdisplay","tapi3.itphone_setdisplay","tapi3if/ITPhone::SetDisplay"]
 old-location: tapi3\itphone_setdisplay.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 690756c4-201d-472d-b536-452074226701
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],SetDisplay method, ITPhone.SetDisplay, ITPhone::SetDisplay, SetDisplay, SetDisplay method [TAPI 2.2], SetDisplay method [TAPI 2.2],ITPhone interface, _tapi3_itphone_setdisplay, tapi3.itphone_setdisplay, tapi3if/ITPhone::SetDisplay

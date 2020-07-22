@@ -4,7 +4,7 @@ title: TSPI_lineCompleteTransfer function (tspi.h)
 description: The TSPI_lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 helpviewer_keywords: ["TSPI_lineCompleteTransfer","TSPI_lineCompleteTransfer function [TAPI 2.2]","_tspi_tspi_linecompletetransfer","tspi.tspi_linecompletetransfer","tspi/TSPI_lineCompleteTransfer"]
 old-location: tspi\tspi_linecompletetransfer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 486a62df-dcdb-46f5-af02-1cf091215401
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI 2.2], _tspi_tspi_linecompletetransfer, tspi.tspi_linecompletetransfer, tspi/TSPI_lineCompleteTransfer

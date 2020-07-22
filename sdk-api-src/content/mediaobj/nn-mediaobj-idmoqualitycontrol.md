@@ -4,7 +4,7 @@ title: IDMOQualityControl (mediaobj.h)
 description: The IDMOQualityControl interface supports quality control on a Microsoft DirectX Media Object (DMO).
 helpviewer_keywords: ["IDMOQualityControl","IDMOQualityControl interface [DirectShow]","IDMOQualityControl interface [DirectShow]","described","IDMOQualityControlInterface","dshow.idmoqualitycontrol","mediaobj/IDMOQualityControl"]
 old-location: dshow\idmoqualitycontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c23211f2-d4ba-45ff-b443-3425c3a3e72f
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], IDMOQualityControl interface [DirectShow],described, IDMOQualityControlInterface, dshow.idmoqualitycontrol, mediaobj/IDMOQualityControl

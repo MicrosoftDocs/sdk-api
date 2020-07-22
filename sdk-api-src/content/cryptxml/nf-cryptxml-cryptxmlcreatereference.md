@@ -4,7 +4,7 @@ title: CryptXmlCreateReference function (cryptxml.h)
 description: Creates a reference to an XML signature.
 helpviewer_keywords: ["CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT","CryptXmlCreateReference","CryptXmlCreateReference function [Security]","cryptxml/CryptXmlCreateReference","security.cryptxmlcreatereference"]
 old-location: security\cryptxmlcreatereference.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1078d483-a017-486b-8967-a3efe9d3a29a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference

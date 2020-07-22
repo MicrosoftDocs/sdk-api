@@ -4,7 +4,7 @@ title: RegOpenKeyTransactedW function (winreg.h)
 description: Opens the specified registry key and associates it with a transaction.
 helpviewer_keywords: ["RegOpenKeyTransacted","RegOpenKeyTransacted function","RegOpenKeyTransactedA","RegOpenKeyTransactedW","base.regopenkeytransacted","winreg/RegOpenKeyTransacted","winreg/RegOpenKeyTransactedA","winreg/RegOpenKeyTransactedW"]
 old-location: base\regopenkeytransacted.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
 ms.date: 12/05/2018
 ms.keywords: RegOpenKeyTransacted, RegOpenKeyTransacted function, RegOpenKeyTransactedA, RegOpenKeyTransactedW, base.regopenkeytransacted, winreg/RegOpenKeyTransacted, winreg/RegOpenKeyTransactedA, winreg/RegOpenKeyTransactedW

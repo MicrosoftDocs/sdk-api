@@ -4,7 +4,7 @@ title: IAudioMediaStream (austream.h)
 description: Note  This interface is deprecated.
 helpviewer_keywords: ["IAudioMediaStream","IAudioMediaStream interface [DirectShow]","IAudioMediaStream interface [DirectShow]","described","IAudioMediaStreamInterface","austream/IAudioMediaStream","dshow.iaudiomediastream"]
 old-location: dshow\iaudiomediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b4098876-6c11-4cc6-8b6d-16edc02316f3
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudioMediaStream interface [DirectShow],described, IAudioMediaStreamInterface, austream/IAudioMediaStream, dshow.iaudiomediastream

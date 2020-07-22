@@ -4,7 +4,7 @@ title: IMemInputPin::GetAllocatorRequirements (strmif.h)
 description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 helpviewer_keywords: ["GetAllocatorRequirements","GetAllocatorRequirements method [DirectShow]","GetAllocatorRequirements method [DirectShow]","IMemInputPin interface","IMemInputPin interface [DirectShow]","GetAllocatorRequirements method","IMemInputPin.GetAllocatorRequirements","IMemInputPin::GetAllocatorRequirements","IMemInputPinGetAllocatorRequirements","dshow.imeminputpin_getallocatorrequirements","strmif/IMemInputPin::GetAllocatorRequirements"]
 old-location: dshow\imeminputpin_getallocatorrequirements.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 61e6ea4f-70cd-43d8-bbb7-76e041ee0eeb
 ms.date: 12/05/2018
 ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements

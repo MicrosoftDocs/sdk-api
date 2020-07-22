@@ -4,7 +4,7 @@ title: SCardSetAttrib function (winscard.h)
 description: Sets the given reader attribute for the given handle.
 helpviewer_keywords: ["SCARD_ATTR_SUPRESS_T1_IFS_REQUEST","SCardSetAttrib","SCardSetAttrib function [Security]","_smart_scardsetattrib","security.scardsetattrib","winscard/SCardSetAttrib"]
 old-location: security\scardsetattrib.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib

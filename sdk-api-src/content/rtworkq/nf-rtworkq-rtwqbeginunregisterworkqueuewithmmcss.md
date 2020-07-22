@@ -4,7 +4,7 @@ title: RtwqBeginUnregisterWorkQueueWithMMCSS function (rtworkq.h)
 description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 helpviewer_keywords: ["RtwqBeginUnregisterWorkQueueWithMMCSS","RtwqBeginUnregisterWorkQueueWithMMCSS function","base.rtwqbeginunregisterworkqueuewithmmcss","rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"]
 old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
 ms.date: 12/05/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS

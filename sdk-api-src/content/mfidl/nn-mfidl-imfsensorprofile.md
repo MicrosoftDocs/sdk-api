@@ -4,7 +4,7 @@ title: IMFSensorProfile (mfidl.h)
 description: Describes a media foundation sensor profile.
 helpviewer_keywords: ["IMFSensorProfile","IMFSensorProfile interface [Media Foundation]","IMFSensorProfile interface [Media Foundation]","described","mf.imfsensorprofile","mfidl/IMFSensorProfile"]
 old-location: mf\imfsensorprofile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile

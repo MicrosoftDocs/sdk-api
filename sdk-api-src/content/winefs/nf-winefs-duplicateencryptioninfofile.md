@@ -4,7 +4,7 @@ title: DuplicateEncryptionInfoFile function (winefs.h)
 description: Copies the EFS metadata from one file or directory to another.
 helpviewer_keywords: ["CREATE_ALWAYS","CREATE_NEW","DuplicateEncryptionInfoFile","DuplicateEncryptionInfoFile function [Files]","_win32_duplicateencryptioninfofile","base.duplicateencryptioninfofile","fs.duplicateencryptioninfofile","winefs/DuplicateEncryptionInfoFile"]
 old-location: fs\duplicateencryptioninfofile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c830ae98-3649-4981-9369-7d4cb019b50f
 ms.date: 12/05/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, DuplicateEncryptionInfoFile, DuplicateEncryptionInfoFile function [Files], _win32_duplicateencryptioninfofile, base.duplicateencryptioninfofile, fs.duplicateencryptioninfofile, winefs/DuplicateEncryptionInfoFile

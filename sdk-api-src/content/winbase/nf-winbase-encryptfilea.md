@@ -4,7 +4,7 @@ title: EncryptFileA function (winbase.h)
 description: Encrypts a file or directory.
 helpviewer_keywords: ["EncryptFile","EncryptFile function [Files]","EncryptFileA","EncryptFileW","_win32_encryptfile","base.encryptfile","fs.encryptfile","winbase/EncryptFile","winbase/EncryptFileA","winbase/EncryptFileW"]
 old-location: fs\encryptfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
 ms.date: 12/05/2018
 ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFileW, _win32_encryptfile, base.encryptfile, fs.encryptfile, winbase/EncryptFile, winbase/EncryptFileA, winbase/EncryptFileW

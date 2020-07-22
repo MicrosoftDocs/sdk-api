@@ -4,7 +4,7 @@ title: RemoveLogPolicy function (clfsmgmtw32.h)
 description: Resets the specified policy to its default behavior.
 helpviewer_keywords: ["RemoveLogPolicy","RemoveLogPolicy function [Files]","clfsmgmtw32/RemoveLogPolicy","fs.removelogpolicy"]
 old-location: fs\removelogpolicy.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 06e8c1bf-f190-4f3d-a588-5c8dd2e99f43
 ms.date: 12/05/2018
 ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/RemoveLogPolicy, fs.removelogpolicy

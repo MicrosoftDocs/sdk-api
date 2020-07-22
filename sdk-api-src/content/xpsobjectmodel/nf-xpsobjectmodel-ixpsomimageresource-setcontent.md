@@ -4,7 +4,7 @@ title: IXpsOMImageResource::SetContent (xpsobjectmodel.h)
 description: Sets the read-only stream to be associated with this resource.
 helpviewer_keywords: ["IXpsOMImageResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMImageResource.SetContent","IXpsOMImageResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMImageResource interface","xps.ixpsomimageresource_setcontent","xpsobjectmodel/IXpsOMImageResource::SetContent"]
 old-location: xps\ixpsomimageresource_setcontent.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 91dc565f-4ccb-497c-b5d2-f9b60884b094
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource interface [XPS Documents and Packaging],SetContent method, IXpsOMImageResource.SetContent, IXpsOMImageResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMImageResource interface, xps.ixpsomimageresource_setcontent, xpsobjectmodel/IXpsOMImageResource::SetContent

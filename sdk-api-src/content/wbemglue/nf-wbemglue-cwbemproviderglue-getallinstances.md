@@ -4,7 +4,7 @@ title: CWbemProviderGlue::GetAllInstances (wbemglue.h)
 description: The GetAllInstances method retrieves a list of instances returned by a specific class.
 helpviewer_keywords: ["?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollection@VCInstance@@@@0PAVMethodContext@@@Z","CWbemProviderGlue interface [Windows Management Instrumentation]","GetAllInstances method","CWbemProviderGlue.GetAllInstances","CWbemProviderGlue::GetAllInstances","GetAllInstances","GetAllInstances method [Windows Management Instrumentation]","GetAllInstances method [Windows Management Instrumentation]","CWbemProviderGlue interface","_hmm_cwbemproviderglue_getallinstances","wbemglue/CWbemProviderGlue::GetAllInstances","wmi.cwbemproviderglue_getallinstances"]
 old-location: wmi\cwbemproviderglue_getallinstances.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 510d0711-ee82-4270-a7e3-f6bb214716a0
 ms.date: 12/05/2018
 ms.keywords: ?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollection@VCInstance@@@@0PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetAllInstances method, CWbemProviderGlue.GetAllInstances, CWbemProviderGlue::GetAllInstances, GetAllInstances, GetAllInstances method [Windows Management Instrumentation], GetAllInstances method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallinstances, wbemglue/CWbemProviderGlue::GetAllInstances, wmi.cwbemproviderglue_getallinstances

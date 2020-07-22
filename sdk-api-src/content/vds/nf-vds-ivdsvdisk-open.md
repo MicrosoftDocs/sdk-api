@@ -4,7 +4,7 @@ title: IVdsVDisk::Open (vds.h)
 description: Opens a handle to the specified virtual disk file and returns an IVdsOpenVDisk interface pointer to the object that represents the opened handle.
 helpviewer_keywords: ["IVdsVDisk interface","Open method","IVdsVDisk.Open","IVdsVDisk::Open","Open","Open method","Open method","IVdsVDisk interface","base.ivdsvdisk_open","vds/IVdsVDisk::Open"]
 old-location: base\ivdsvdisk_open.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: e633f934-8f2d-4614-b34c-87bb74ebf385
 ms.date: 12/05/2018
 ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, Open, Open method, Open method,IVdsVDisk interface, base.ivdsvdisk_open, vds/IVdsVDisk::Open

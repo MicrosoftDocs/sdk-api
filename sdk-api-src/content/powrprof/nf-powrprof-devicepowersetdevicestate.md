@@ -4,7 +4,7 @@ title: DevicePowerSetDeviceState function (powrprof.h)
 description: Modifies the specified data on the specified device.
 helpviewer_keywords: ["DEVICEPOWER_CLEAR_WAKEENABLED","DEVICEPOWER_SET_WAKEENABLED","DevicePowerSetDeviceState","DevicePowerSetDeviceState function","base.devicepowersetdevicestate","powrprof/DevicePowerSetDeviceState"]
 old-location: base\devicepowersetdevicestate.htm
-tech.root: power
+tech.root: base
 ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
 ms.date: 12/05/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState

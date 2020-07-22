@@ -4,7 +4,7 @@ title: PIN_DIRECTION (strmif.h)
 description: Indicates a pin's direction.
 helpviewer_keywords: ["PINDIR_INPUT","PINDIR_OUTPUT","PIN_DIRECTION","PIN_DIRECTION","PIN_DIRECTION enumeration [DirectShow]","PIN_DIRECTIONEnumeration","dshow.pin_direction","strmif/PINDIR_INPUT","strmif/PINDIR_OUTPUT","strmif/PIN_DIRECTION"]
 old-location: dshow\pin_direction.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 87f4e2e8-543f-46a3-b385-cc2e6af39770
 ms.date: 12/05/2018
 ms.keywords: PINDIR_INPUT, PINDIR_OUTPUT, PIN_DIRECTION, PIN_DIRECTION , PIN_DIRECTION enumeration [DirectShow], PIN_DIRECTIONEnumeration, dshow.pin_direction, strmif/PINDIR_INPUT, strmif/PINDIR_OUTPUT, strmif/PIN_DIRECTION

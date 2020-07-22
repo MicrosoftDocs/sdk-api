@@ -4,7 +4,7 @@ title: NTMS_DRIVETYPEINFORMATIONA (ntmsapi.h)
 description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM.
 helpviewer_keywords: ["FILE_DEVICE_CD_ROM","FILE_DEVICE_DISK","FILE_DEVICE_DVD","FILE_DEVICE_TAPE","NTMS_DRIVETYPEINFORMATION","NTMS_DRIVETYPEINFORMATION structure [Files]","NTMS_DRIVETYPEINFORMATIONA","NTMS_DRIVETYPEINFORMATIONW","_NTMS_DRIVETYPEINFORMATIONA","_NTMS_DRIVETYPEINFORMATIONW","_zaw_ntms_drivetypeinformation","base.ntms_drivetypeinformation","fs.ntms_drivetypeinformation","ntmsapi/NTMS_DRIVETYPEINFORMATION"]
 old-location: fs\ntms_drivetypeinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 2c852397-540c-44f9-a94e-2100d1588d75
 ms.date: 12/05/2018
 ms.keywords: FILE_DEVICE_CD_ROM, FILE_DEVICE_DISK, FILE_DEVICE_DVD, FILE_DEVICE_TAPE, NTMS_DRIVETYPEINFORMATION, NTMS_DRIVETYPEINFORMATION structure [Files], NTMS_DRIVETYPEINFORMATIONA, NTMS_DRIVETYPEINFORMATIONW, _NTMS_DRIVETYPEINFORMATIONA, _NTMS_DRIVETYPEINFORMATIONW, _zaw_ntms_drivetypeinformation, base.ntms_drivetypeinformation, fs.ntms_drivetypeinformation, ntmsapi/NTMS_DRIVETYPEINFORMATION

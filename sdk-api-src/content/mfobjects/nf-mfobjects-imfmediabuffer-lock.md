@@ -4,7 +4,7 @@ title: IMFMediaBuffer::Lock (mfobjects.h)
 description: Gives the caller access to the memory in the buffer, for reading or writing.
 helpviewer_keywords: ["28ac372a-6e73-4e66-bf69-bcc244821b71","IMFMediaBuffer interface [Media Foundation]","Lock method","IMFMediaBuffer.Lock","IMFMediaBuffer::Lock","Lock","Lock method [Media Foundation]","Lock method [Media Foundation]","IMFMediaBuffer interface","mf.imfmediabuffer_lock","mfobjects/IMFMediaBuffer::Lock"]
 old-location: mf\imfmediabuffer_lock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 28ac372a-6e73-4e66-bf69-bcc244821b71
 ms.date: 12/05/2018
 ms.keywords: 28ac372a-6e73-4e66-bf69-bcc244821b71, IMFMediaBuffer interface [Media Foundation],Lock method, IMFMediaBuffer.Lock, IMFMediaBuffer::Lock, Lock, Lock method [Media Foundation], Lock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_lock, mfobjects/IMFMediaBuffer::Lock

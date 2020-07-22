@@ -4,7 +4,7 @@ title: QueryUnbiasedInterruptTimePrecise function (realtimeapiset.h)
 description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 helpviewer_keywords: ["QueryUnbiasedInterruptTimePrecise","QueryUnbiasedInterruptTimePrecise function","base.queryunbiasedinterrupttimeprecise","realtimeapiset/QueryUnbiasedInterruptTimePrecise"]
 old-location: base\queryunbiasedinterrupttimeprecise.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise

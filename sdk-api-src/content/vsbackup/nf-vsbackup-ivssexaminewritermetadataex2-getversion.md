@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadataEx2::GetVersion (vsbackup.h)
 description: Obtains the version information for a writer application.
 helpviewer_keywords: ["GetVersion","GetVersion method","GetVersion method","IVssExamineWriterMetadataEx2 interface","IVssExamineWriterMetadataEx2 interface","GetVersion method","IVssExamineWriterMetadataEx2.GetVersion","IVssExamineWriterMetadataEx2::GetVersion","base.ivssexaminewritermetadataex2_getversion","vsbackup/IVssExamineWriterMetadataEx2::GetVersion"]
 old-location: base\ivssexaminewritermetadataex2_getversion.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: d702263e-0ea5-428c-bbd6-1ab8a7334a92
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method, GetVersion method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetVersion method, IVssExamineWriterMetadataEx2.GetVersion, IVssExamineWriterMetadataEx2::GetVersion, base.ivssexaminewritermetadataex2_getversion, vsbackup/IVssExamineWriterMetadataEx2::GetVersion

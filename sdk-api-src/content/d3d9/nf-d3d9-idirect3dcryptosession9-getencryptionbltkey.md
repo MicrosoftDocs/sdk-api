@@ -4,7 +4,7 @@ title: IDirect3DCryptoSession9::GetEncryptionBltKey (d3d9.h)
 description: Gets the cryptographic key used to decrypt the data returned by the IDirect3DCryptoSession9::EncryptionBlt method.
 helpviewer_keywords: ["GetEncryptionBltKey","GetEncryptionBltKey method [Media Foundation]","GetEncryptionBltKey method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","GetEncryptionBltKey method","IDirect3DCryptoSession9.GetEncryptionBltKey","IDirect3DCryptoSession9::GetEncryptionBltKey","d3d9/IDirect3DCryptoSession9::GetEncryptionBltKey","mf.idirect3dcryptosession9_getencryptionbltkey"]
 old-location: mf\idirect3dcryptosession9_getencryptionbltkey.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c06b42b7-dc8a-4004-b2c5-37accc76db40
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetEncryptionBltKey method, IDirect3DCryptoSession9.GetEncryptionBltKey, IDirect3DCryptoSession9::GetEncryptionBltKey, d3d9/IDirect3DCryptoSession9::GetEncryptionBltKey, mf.idirect3dcryptosession9_getencryptionbltkey

@@ -4,7 +4,7 @@ title: IAMNetShowPreroll::get_Preroll (qnetwork.h)
 description: The get_Preroll method queries whether the filter is currently prerolling.
 helpviewer_keywords: ["IAMNetShowPreroll interface [DirectShow]","get_Preroll method","IAMNetShowPreroll.get_Preroll","IAMNetShowPreroll::get_Preroll","IAMNetShowPrerollget_Preroll","dshow.iamnetshowpreroll_get_preroll","get_Preroll","get_Preroll method [DirectShow]","get_Preroll method [DirectShow]","IAMNetShowPreroll interface","qnetwork/IAMNetShowPreroll::get_Preroll"]
 old-location: dshow\iamnetshowpreroll_get_preroll.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll

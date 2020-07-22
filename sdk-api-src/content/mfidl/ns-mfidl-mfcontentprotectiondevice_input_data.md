@@ -4,7 +4,7 @@ title: MFCONTENTPROTECTIONDEVICE_INPUT_DATA (mfidl.h)
 description: Contains information about the data that you want to provide as input to a protection system function.
 helpviewer_keywords: ["MFCONTENTPROTECTIONDEVICE_INPUT_DATA","MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure [Media Foundation]","mf.mfcontentprotectiondevice_input_data","mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA"]
 old-location: mf\mfcontentprotectiondevice_input_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8D27592C-56EA-4E69-A1DC-2FAD56193CE2
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_INPUT_DATA, MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_input_data, mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA

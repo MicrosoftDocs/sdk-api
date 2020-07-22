@@ -4,7 +4,7 @@ title: MoFreeMediaType function (dmort.h)
 description: The MoFreeMediaType function frees the allocated members of a media type structure.
 helpviewer_keywords: ["MoFreeMediaType","MoFreeMediaType function [DirectShow]","dmort/MoFreeMediaType","dshow.mofreemediatype"]
 old-location: dshow\mofreemediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
 ms.date: 12/05/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype

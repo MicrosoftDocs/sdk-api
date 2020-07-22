@@ -4,7 +4,7 @@ title: IAzApplication::OpenOperation (azroles.h)
 description: Opens an IAzOperation object with the specified name.
 helpviewer_keywords: ["AzApplication object [Security]","OpenOperation method","IAzApplication interface [Security]","OpenOperation method","IAzApplication.OpenOperation","IAzApplication::OpenOperation","OpenOperation","OpenOperation method [Security]","OpenOperation method [Security]","AzApplication object","OpenOperation method [Security]","IAzApplication interface","azroles/IAzApplication::OpenOperation","security.iazapplication_openoperation"]
 old-location: security\iazapplication_openoperation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplication interface [Security],OpenOperation method, IAzApplication.OpenOperation, IAzApplication::OpenOperation, OpenOperation, OpenOperation method [Security], OpenOperation method [Security],AzApplication object, OpenOperation method [Security],IAzApplication interface, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation

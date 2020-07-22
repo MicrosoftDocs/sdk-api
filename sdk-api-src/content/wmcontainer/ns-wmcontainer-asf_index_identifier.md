@@ -4,7 +4,7 @@ title: ASF_INDEX_IDENTIFIER (wmcontainer.h)
 description: Specifies an index for the ASF indexer object.
 helpviewer_keywords: ["8103a62e-6d1a-4dcd-af91-cedb30523004","ASF_INDEX_IDENTIFIER","ASF_INDEX_IDENTIFIER structure [Media Foundation]","mf.asf_index_identifier","wmcontainer/ASF_INDEX_IDENTIFIER"]
 old-location: mf\asf_index_identifier.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8103a62e-6d1a-4dcd-af91-cedb30523004
 ms.date: 12/05/2018
 ms.keywords: 8103a62e-6d1a-4dcd-af91-cedb30523004, ASF_INDEX_IDENTIFIER, ASF_INDEX_IDENTIFIER structure [Media Foundation], mf.asf_index_identifier, wmcontainer/ASF_INDEX_IDENTIFIER

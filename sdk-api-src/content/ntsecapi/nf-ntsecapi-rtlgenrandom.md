@@ -4,7 +4,7 @@ title: RtlGenRandom function (ntsecapi.h)
 description: Generates a pseudo-random number.
 helpviewer_keywords: ["RtlGenRandom","RtlGenRandom function [Security]","ntsecapi/RtlGenRandom","security.rtlgenrandom"]
 old-location: security\rtlgenrandom.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26
 ms.date: 12/05/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom

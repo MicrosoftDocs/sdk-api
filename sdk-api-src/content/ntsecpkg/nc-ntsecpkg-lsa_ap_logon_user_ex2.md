@@ -4,7 +4,7 @@ title: LSA_AP_LOGON_USER_EX2 (ntsecpkg.h)
 description: Used to authenticate a user logon attempt on the user's initial logon. A new logon session is established for the user, and validation information for the user is returned.
 helpviewer_keywords: ["LSA_AP_LOGON_USER_EX2","LSA_AP_LOGON_USER_EX2 callback","LsaApLogonUserEx2","LsaApLogonUserEx2 callback function [Security]","STATUS_ACCOUNT_DISABLED","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_PASSWORD_EXPIRED","_lsa_lsaaplogonuserex2","ntsecpkg/LsaApLogonUserEx2","security.lsaaplogonuserex2"]
 old-location: security\lsaaplogonuserex2.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 002ac773-bd46-49b5-b54c-6b8f5d5ef9f7
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_USER_EX2, LSA_AP_LOGON_USER_EX2 callback, LsaApLogonUserEx2, LsaApLogonUserEx2 callback function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuserex2, ntsecpkg/LsaApLogonUserEx2, security.lsaaplogonuserex2

@@ -4,7 +4,7 @@ title: IAMExtTransport::GetBump (strmif.h)
 description: The GetBump method retrieves the status of bump mode.
 helpviewer_keywords: ["GetBump","GetBump method [DirectShow]","GetBump method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetBump method","IAMExtTransport.GetBump","IAMExtTransport::GetBump","IAMExtTransportGetBump","dshow.iamexttransport_getbump","strmif/IAMExtTransport::GetBump"]
 old-location: dshow\iamexttransport_getbump.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 340b7c9a-cfd9-4915-b0fc-0d12d7663578
 ms.date: 12/05/2018
 ms.keywords: GetBump, GetBump method [DirectShow], GetBump method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetBump method, IAMExtTransport.GetBump, IAMExtTransport::GetBump, IAMExtTransportGetBump, dshow.iamexttransport_getbump, strmif/IAMExtTransport::GetBump

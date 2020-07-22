@@ -4,7 +4,7 @@ title: IDirect3DCryptoSession9::GetCertificate (d3d9.h)
 description: Gets the driver's certificate chain.
 helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","GetCertificate method","IDirect3DCryptoSession9.GetCertificate","IDirect3DCryptoSession9::GetCertificate","d3d9/IDirect3DCryptoSession9::GetCertificate","mf.idirect3dcryptosession9_getcertificate"]
 old-location: mf\idirect3dcryptosession9_getcertificate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 802285a6-1338-4131-bb5e-9d4daad62bdc
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetCertificate method, IDirect3DCryptoSession9.GetCertificate, IDirect3DCryptoSession9::GetCertificate, d3d9/IDirect3DCryptoSession9::GetCertificate, mf.idirect3dcryptosession9_getcertificate

@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.PathGradientBrush.GetRectangle(OUTRectF)
 title: PathGradientBrush::GetRectangle
 description: The PathGradientBrush::GetRectangle method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
+tech.root: gdiplus
 helpviewer_keywords: ["PathGradientBrush::GetRectangle"]
 ms.assetid: da6ff6c8-4be9-46fe-8509-5e72b2feab71
 ms.date: 05/13/2019

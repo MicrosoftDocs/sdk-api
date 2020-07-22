@@ -4,7 +4,7 @@ title: ObjectPrivilegeAuditAlarmA function (winbase.h)
 description: Generates an audit message in the security event log.
 helpviewer_keywords: ["ObjectPrivilegeAuditAlarm","ObjectPrivilegeAuditAlarm function [Security]","ObjectPrivilegeAuditAlarmA","ObjectPrivilegeAuditAlarmW","_win32_objectprivilegeauditalarm","security.objectprivilegeauditalarm","winbase/ObjectPrivilegeAuditAlarm","winbase/ObjectPrivilegeAuditAlarmA","winbase/ObjectPrivilegeAuditAlarmW"]
 old-location: security\objectprivilegeauditalarm.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
 ms.date: 12/05/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW

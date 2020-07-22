@@ -4,7 +4,7 @@ title: MsgWaitForMultipleObjectsEx function (winuser.h)
 description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses. The array of objects can include input event objects.
 helpviewer_keywords: ["MWMO_ALERTABLE","MWMO_INPUTAVAILABLE","MWMO_WAITALL","MsgWaitForMultipleObjectsEx","MsgWaitForMultipleObjectsEx function","QS_ALLEVENTS","QS_ALLINPUT","QS_ALLPOSTMESSAGE","QS_HOTKEY","QS_INPUT","QS_KEY","QS_MOUSE","QS_MOUSEBUTTON","QS_MOUSEMOVE","QS_PAINT","QS_POSTMESSAGE","QS_RAWINPUT","QS_SENDMESSAGE","QS_TIMER","_win32_msgwaitformultipleobjectsex","base.msgwaitformultipleobjectsex","winuser/MsgWaitForMultipleObjectsEx"]
 old-location: base\msgwaitformultipleobjectsex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 1774b721-3ad4-492e-96af-b71de9066f0c
 ms.date: 12/05/2018
 ms.keywords: MWMO_ALERTABLE, MWMO_INPUTAVAILABLE, MWMO_WAITALL, MsgWaitForMultipleObjectsEx, MsgWaitForMultipleObjectsEx function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjectsex, base.msgwaitformultipleobjectsex, winuser/MsgWaitForMultipleObjectsEx

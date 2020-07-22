@@ -4,7 +4,7 @@ title: CF_SYNC_REGISTRATION (cfapi.h)
 description: The details of the sync provider and sync root to be registered.
 helpviewer_keywords: ["CF_SYNC_REGISTRATION","CF_SYNC_REGISTRATION structure","cfapi/CF_SYNC_REGISTRATION","cloudApi.cf_sync_registration"]
 old-location: cloudapi\cf_sync_registration.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: F4D535FA-A0F5-4B4E-8409-0DD13C78A94E
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_REGISTRATION, CF_SYNC_REGISTRATION structure, cfapi/CF_SYNC_REGISTRATION, cloudApi.cf_sync_registration

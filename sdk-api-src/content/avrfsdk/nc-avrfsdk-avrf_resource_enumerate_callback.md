@@ -4,7 +4,7 @@ title: AVRF_RESOURCE_ENUMERATE_CALLBACK (avrfsdk.h)
 description: Provides access to one of the specialized callback functions for enumeration of either heap allocation or handle trace information.
 helpviewer_keywords: ["AVRF_RESOURCE_ENUMERATE_CALLBACK","AVRF_RESOURCE_ENUMERATE_CALLBACK callback","AVRF_RESOURCE_ENUMERATE_CALLBACK callback function [Windows API]","avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK","base.avrf_resource_enumerate_callback","winprog.avrf_resource_enumerate_callback"]
 old-location: winprog\avrf_resource_enumerate_callback.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 3f18937c-1d8f-46dd-8542-32107d358fc3
 ms.date: 12/05/2018
 ms.keywords: AVRF_RESOURCE_ENUMERATE_CALLBACK, AVRF_RESOURCE_ENUMERATE_CALLBACK callback, AVRF_RESOURCE_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK, base.avrf_resource_enumerate_callback, winprog.avrf_resource_enumerate_callback

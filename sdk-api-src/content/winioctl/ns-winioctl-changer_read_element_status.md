@@ -4,7 +4,7 @@ title: CHANGER_READ_ELEMENT_STATUS
 description: Contains information that the IOCTL_CHANGER_GET_ELEMENT_STATUS control code needs to determine the elements whose status is to be retrieved.
 helpviewer_keywords: ["*PCHANGER_READ_ELEMENT_STATUS","CHANGER_READ_ELEMENT_STATUS","CHANGER_READ_ELEMENT_STATUS structure","PCHANGER_READ_ELEMENT_STATUS","PCHANGER_READ_ELEMENT_STATUS structure pointer","_win32_changer_read_element_status_str","base.changer_read_element_status_str","winioctl/CHANGER_READ_ELEMENT_STATUS","winioctl/PCHANGER_READ_ELEMENT_STATUS"]
 old-location: base\changer_read_element_status_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 4eefc457-ba39-4025-98c8-21f599a87fcb
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer, _win32_changer_read_element_status_str, base.changer_read_element_status_str, winioctl/CHANGER_READ_ELEMENT_STATUS, winioctl/PCHANGER_READ_ELEMENT_STATUS'

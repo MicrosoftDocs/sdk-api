@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::IsVolumeSupported (vsprov.h)
 description: Determines whether the provider supports shadow copies on the specified volume.
 helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","IsVolumeSupported method","IVssSoftwareSnapshotProvider.IsVolumeSupported","IVssSoftwareSnapshotProvider::IsVolumeSupported","IsVolumeSupported","IsVolumeSupported method","IsVolumeSupported method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_isvolumesupported","vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported"]
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSupported method, IVssSoftwareSnapshotProvider.IsVolumeSupported, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported

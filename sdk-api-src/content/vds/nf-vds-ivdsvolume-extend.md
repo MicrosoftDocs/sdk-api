@@ -4,7 +4,7 @@ title: IVdsVolume::Extend (vds.h)
 description: Expands the size of the current volume by adding disk extents to each member of each plex.
 helpviewer_keywords: ["Extend","Extend method [VDS]","Extend method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","Extend method","IVdsVolume.Extend","IVdsVolume::Extend","base.ivdsvolume_extend","vds/IVdsVolume::Extend"]
 old-location: base\ivdsvolume_extend.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.date: 12/05/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend

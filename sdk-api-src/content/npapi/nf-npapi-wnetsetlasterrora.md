@@ -4,7 +4,7 @@ title: WNetSetLastErrorA function (npapi.h)
 description: Sets extended error information. Network providers should call this function instead of SetLastError.
 helpviewer_keywords: ["WNetSetLastError","WNetSetLastError function [Security]","WNetSetLastErrorA","_mnp_wnetsetlasterror","npapi/WNetSetLastError","npapi/WNetSetLastErrorA","security.wnetsetlasterror"]
 old-location: security\wnetsetlasterror.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.date: 12/05/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror

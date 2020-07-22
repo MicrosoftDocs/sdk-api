@@ -4,7 +4,7 @@ title: TSPI_lineGetAddressID function (tspi.h)
 description: The TSPI_lineGetAddressID function returns the address identifier associated with address in a different format on the specified line.
 helpviewer_keywords: ["TSPI_lineGetAddressID","TSPI_lineGetAddressID function [TAPI 2.2]","_tspi_tspi_linegetaddressid","tspi.tspi_linegetaddressid","tspi/TSPI_lineGetAddressID"]
 old-location: tspi\tspi_linegetaddressid.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8783fb72-a50c-444c-aa89-485cb0eb6739
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetAddressID, TSPI_lineGetAddressID function [TAPI 2.2], _tspi_tspi_linegetaddressid, tspi.tspi_linegetaddressid, tspi/TSPI_lineGetAddressID

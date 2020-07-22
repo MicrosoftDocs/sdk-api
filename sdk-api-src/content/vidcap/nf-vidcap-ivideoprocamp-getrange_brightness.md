@@ -4,7 +4,7 @@ title: IVideoProcAmp::getRange_Brightness (vidcap.h)
 description: The getRange_Brightness method returns the range of brightness settings supported by the camera.
 helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_Brightness method","IVideoProcAmp.getRange_Brightness","IVideoProcAmp::getRange_Brightness","IVideoProcAmpgetRange_Brightness","dshow.ivideoprocamp_getrange_brightness","getRange_Brightness","getRange_Brightness method [DirectShow]","getRange_Brightness method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_Brightness"]
 old-location: dshow\ivideoprocamp_getrange_brightness.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 236f919a-5ed3-4ce4-877e-023af1a4e4d0
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Brightness method, IVideoProcAmp.getRange_Brightness, IVideoProcAmp::getRange_Brightness, IVideoProcAmpgetRange_Brightness, dshow.ivideoprocamp_getrange_brightness, getRange_Brightness, getRange_Brightness method [DirectShow], getRange_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Brightness

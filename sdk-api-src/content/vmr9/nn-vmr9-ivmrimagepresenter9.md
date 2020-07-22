@@ -4,7 +4,7 @@ title: IVMRImagePresenter9 (vmr9.h)
 description: The IVMRImagePresenter9 interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 9 (VMR-9).
 helpviewer_keywords: ["IVMRImagePresenter9","IVMRImagePresenter9 interface [DirectShow]","IVMRImagePresenter9 interface [DirectShow]","described","IVMRImagePresenter9Interface","dshow.ivmrimagepresenter9","vmr9/IVMRImagePresenter9"]
 old-location: dshow\ivmrimagepresenter9.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2c18cdd6-af97-4db2-80b5-bab4cfa25f7d
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9, IVMRImagePresenter9 interface [DirectShow], IVMRImagePresenter9 interface [DirectShow],described, IVMRImagePresenter9Interface, dshow.ivmrimagepresenter9, vmr9/IVMRImagePresenter9

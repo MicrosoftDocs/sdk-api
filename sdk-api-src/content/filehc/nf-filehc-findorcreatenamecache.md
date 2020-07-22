@@ -4,7 +4,7 @@ title: FindOrCreateNameCache function (filehc.h)
 description: Finds or creates a name cache.
 helpviewer_keywords: ["FindOrCreateNameCache","FindOrCreateNameCache function [Windows API]","filehc/FindOrCreateNameCache","winprog._findorcreatenamecache"]
 old-location: winprog\_findorcreatenamecache.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.date: 12/05/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache

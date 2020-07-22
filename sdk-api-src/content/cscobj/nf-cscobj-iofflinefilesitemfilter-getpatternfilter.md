@@ -4,7 +4,7 @@ title: IOfflineFilesItemFilter::GetPatternFilter (cscobj.h)
 description: Provides a filter pattern string to limit enumerated items based on item name patterns.
 helpviewer_keywords: ["GetPatternFilter","GetPatternFilter method [Offline Files]","GetPatternFilter method [Offline Files]","IOfflineFilesItemFilter interface","IOfflineFilesItemFilter interface [Offline Files]","GetPatternFilter method","IOfflineFilesItemFilter.GetPatternFilter","IOfflineFilesItemFilter::GetPatternFilter","cscobj/IOfflineFilesItemFilter::GetPatternFilter","of.iofflinefilesitemfilter_getpatternfilter"]
 old-location: of\iofflinefilesitemfilter_getpatternfilter.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 570cf25c-d4a4-42d6-8f33-bb660a7e99ab
 ms.date: 12/05/2018
 ms.keywords: GetPatternFilter, GetPatternFilter method [Offline Files], GetPatternFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetPatternFilter method, IOfflineFilesItemFilter.GetPatternFilter, IOfflineFilesItemFilter::GetPatternFilter, cscobj/IOfflineFilesItemFilter::GetPatternFilter, of.iofflinefilesitemfilter_getpatternfilter

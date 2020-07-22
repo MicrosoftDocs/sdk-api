@@ -4,7 +4,7 @@ title: EnumServicesStatusA function (winsvc.h)
 description: Enumerates services in the specified service control manager database. The name and status of each service are provided.
 helpviewer_keywords: ["EnumServicesStatus","EnumServicesStatus function","EnumServicesStatusA","EnumServicesStatusW","SERVICE_ACTIVE","SERVICE_DRIVER","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INACTIVE","SERVICE_KERNEL_DRIVER","SERVICE_STATE_ALL","SERVICE_WIN32","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_enumservicesstatus","base.enumservicesstatus","winsvc/EnumServicesStatus","winsvc/EnumServicesStatusA","winsvc/EnumServicesStatusW"]
 old-location: base\enumservicesstatus.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 3a82ac0e-f3e8-4a5a-9b13-84e952712229
 ms.date: 12/05/2018
 ms.keywords: EnumServicesStatus, EnumServicesStatus function, EnumServicesStatusA, EnumServicesStatusW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatus, base.enumservicesstatus, winsvc/EnumServicesStatus, winsvc/EnumServicesStatusA, winsvc/EnumServicesStatusW

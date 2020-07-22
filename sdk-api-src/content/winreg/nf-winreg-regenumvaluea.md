@@ -4,7 +4,7 @@ title: RegEnumValueA function (winreg.h)
 description: Enumerates the values for the specified open registry key. The function copies one indexed value name and data block for the key each time it is called.
 helpviewer_keywords: ["RegEnumValue","RegEnumValue function","RegEnumValueA","RegEnumValueW","_win32_regenumvalue","base.regenumvalue","winreg/RegEnumValue","winreg/RegEnumValueA","winreg/RegEnumValueW"]
 old-location: base\regenumvalue.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 7014ff96-c655-486f-af32-180b87281b06
 ms.date: 12/05/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW

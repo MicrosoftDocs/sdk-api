@@ -4,7 +4,7 @@ title: RegSetKeySecurity function (winreg.h)
 description: Sets the security of an open registry key.
 helpviewer_keywords: ["RegSetKeySecurity","RegSetKeySecurity function [Security]","_win32_regsetkeysecurity","security.regsetkeysecurity","winreg/RegSetKeySecurity"]
 old-location: security\regsetkeysecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.date: 12/05/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity

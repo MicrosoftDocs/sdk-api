@@ -4,7 +4,7 @@ title: IWbemClassObject::GetNames (wbemcli.h)
 description: Retrieves the names of the properties in the object.
 helpviewer_keywords: ["GetNames","GetNames method [Windows Management Instrumentation]","GetNames method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetNames method","IWbemClassObject.GetNames","IWbemClassObject::GetNames","_hmm_iwbemclassobject_getnames","wbemcli/IWbemClassObject::GetNames","wmi.iwbemclassobject_getnames"]
 old-location: wmi\iwbemclassobject_getnames.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: fc75fb17-52a2-40dd-b333-fcd01cae1430
 ms.date: 12/05/2018
 ms.keywords: GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetNames method, IWbemClassObject.GetNames, IWbemClassObject::GetNames, _hmm_iwbemclassobject_getnames, wbemcli/IWbemClassObject::GetNames, wmi.iwbemclassobject_getnames

@@ -4,7 +4,7 @@ title: IXpsOMPath::GetFillBrush (xpsobjectmodel.h)
 description: Gets a pointer to the resolved IXpsOMBrush interface that contains the fill brush for the path.
 helpviewer_keywords: ["GetFillBrush","GetFillBrush method [XPS Documents and Packaging]","GetFillBrush method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetFillBrush method","IXpsOMPath.GetFillBrush","IXpsOMPath::GetFillBrush","xps.ixpsompath_getfillbrush","xpsobjectmodel/IXpsOMPath::GetFillBrush"]
 old-location: xps\ixpsompath_getfillbrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: fc121659-c04f-433a-aaf7-ab7ecd1fd763
 ms.date: 12/05/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMPath.GetFillBrush, IXpsOMPath::GetFillBrush, xps.ixpsompath_getfillbrush, xpsobjectmodel/IXpsOMPath::GetFillBrush

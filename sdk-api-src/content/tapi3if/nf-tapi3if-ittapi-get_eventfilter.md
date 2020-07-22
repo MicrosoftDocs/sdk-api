@@ -4,7 +4,7 @@ title: ITTAPI::get_EventFilter (tapi3if.h)
 description: The get_EventFilter method gets the current event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","get_EventFilter method","ITTAPI.get_EventFilter","ITTAPI::get_EventFilter","_tapi3_ittapi_get_eventfilter","get_EventFilter","get_EventFilter method [TAPI 2.2]","get_EventFilter method [TAPI 2.2]","ITTAPI interface","tapi3.ittapi_get_eventfilter","tapi3if/ITTAPI::get_EventFilter"]
 old-location: tapi3\ittapi_get_eventfilter.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_EventFilter method, ITTAPI.get_EventFilter, ITTAPI::get_EventFilter, _tapi3_ittapi_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_eventfilter, tapi3if/ITTAPI::get_EventFilter

@@ -4,7 +4,7 @@ title: IFunctionInstance::GetProviderInstanceID (functiondiscoveryapi.h)
 description: Gets the identifier string for the provider instance.
 helpviewer_keywords: ["GetProviderInstanceID","GetProviderInstanceID method","GetProviderInstanceID method","IFunctionInstance interface","IFunctionInstance interface","GetProviderInstanceID method","IFunctionInstance.GetProviderInstanceID","IFunctionInstance::GetProviderInstanceID","functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID","ncd.ifunctioninstance_getproviderinstanceid_method"]
 old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
 ms.date: 12/05/2018
 ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderInstanceID method,IFunctionInstance interface, IFunctionInstance interface,GetProviderInstanceID method, IFunctionInstance.GetProviderInstanceID, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method

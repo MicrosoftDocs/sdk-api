@@ -4,7 +4,7 @@ title: CryptSignMessageWithKey function (wincrypt.h)
 description: Signs a message by using a CSP's private key specified in the parameters.
 helpviewer_keywords: ["CryptSignMessageWithKey","CryptSignMessageWithKey function [Security]","security.cryptsignmessagewithkey","wincrypt/CryptSignMessageWithKey"]
 old-location: security\cryptsignmessagewithkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d31024bf-7022-440b-8134-a02578510357
 ms.date: 12/05/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey

@@ -4,7 +4,7 @@ title: ICspStatuses::get_Count (certenroll.h)
 description: Retrieves the number of ICspStatus objects in the collection.
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","ICspStatuses interface","ICspStatuses interface [Security]","Count property","ICspStatuses.Count","ICspStatuses.get_Count","ICspStatuses::Count","ICspStatuses::get_Count","certenroll/ICspStatuses::Count","certenroll/ICspStatuses::get_Count","get_Count","security.icspstatuses_count_property"]
 old-location: security\icspstatuses_count_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a99eb5ee-8677-4449-ba36-c87045530393
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICspStatuses interface, ICspStatuses interface [Security],Count property, ICspStatuses.Count, ICspStatuses.get_Count, ICspStatuses::Count, ICspStatuses::get_Count, certenroll/ICspStatuses::Count, certenroll/ICspStatuses::get_Count, get_Count, security.icspstatuses_count_property

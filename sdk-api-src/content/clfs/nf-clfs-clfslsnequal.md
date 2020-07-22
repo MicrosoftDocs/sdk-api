@@ -4,7 +4,7 @@ title: ClfsLsnEqual function (clfs.h)
 description: Determines whether two LSNs from the same stream are equal.
 helpviewer_keywords: ["ClfsLsnEqual","LsnEqual","LsnEqual function [Files]","clfs/LsnEqual","fs.lsnequal"]
 old-location: fs\lsnequal.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 995b3afd-5724-40d1-ab80-f2c7b2ea8560
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal

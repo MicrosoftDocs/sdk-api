@@ -4,7 +4,7 @@ title: IOfflineFilesChangeInfo::IsCreatedOffline (cscobj.h)
 description: Determines whether an item was created in the Offline Files cache while working offline.
 helpviewer_keywords: ["IOfflineFilesChangeInfo interface [Offline Files]","IsCreatedOffline method","IOfflineFilesChangeInfo.IsCreatedOffline","IOfflineFilesChangeInfo::IsCreatedOffline","IsCreatedOffline","IsCreatedOffline method [Offline Files]","IsCreatedOffline method [Offline Files]","IOfflineFilesChangeInfo interface","cscobj/IOfflineFilesChangeInfo::IsCreatedOffline","of.iofflinefileschangeinfo_iscreatedoffline"]
 old-location: of\iofflinefileschangeinfo_iscreatedoffline.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 2074df23-a2dd-45ea-9ef4-5619cebebe31
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline method, IOfflineFilesChangeInfo.IsCreatedOffline, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline

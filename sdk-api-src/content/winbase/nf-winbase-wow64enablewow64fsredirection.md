@@ -4,7 +4,7 @@ title: Wow64EnableWow64FsRedirection function (winbase.h)
 description: Enables or disables file system redirection for the calling thread.
 helpviewer_keywords: ["Wow64EnableWow64FsRedirection","Wow64EnableWow64FsRedirection function [Files]","base.wow64enablewow64fsredirection","fs.wow64enablewow64fsredirection","winbase/Wow64EnableWow64FsRedirection"]
 old-location: fs\wow64enablewow64fsredirection.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
 ms.date: 12/05/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection

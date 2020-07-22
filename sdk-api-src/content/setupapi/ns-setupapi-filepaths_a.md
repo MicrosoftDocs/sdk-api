@@ -4,7 +4,7 @@ title: FILEPATHS_A (setupapi.h)
 description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
 helpviewer_keywords: ["*PFILEPATHS_A","FILEOP_COPY","FILEOP_DELETE","FILEPATHS","FILEPATHS structure [Setup API]","FILEPATHS_A","PFILEPATHS","PFILEPATHS structure pointer [Setup API]","SP_COPY_NOBROWSE","SP_COPY_NOSKIP","SP_COPY_WARNIFSKIP","_setupapi_filepaths_str","setup.filepaths_str","setupapi/FILEPATHS","setupapi/PFILEPATHS"]
 old-location: setup\filepaths_str.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 220b1485-73f0-4c31-aa40-e4c9179bfd0f
 ms.date: 12/05/2018
 ms.keywords: '*PFILEPATHS_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS, FILEPATHS structure [Setup API], FILEPATHS_A, PFILEPATHS, PFILEPATHS structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_str, setup.filepaths_str, setupapi/FILEPATHS, setupapi/PFILEPATHS'

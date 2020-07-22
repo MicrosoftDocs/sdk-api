@@ -4,7 +4,7 @@ title: WSDXMLCreateContext function (wsdxml.h)
 description: Creates a new IWSDXMLContext object.
 helpviewer_keywords: ["WSDXMLCreateContext","WSDXMLCreateContext function","ncd.wsdxmlcreatecontext","wsdxml/WSDXMLCreateContext"]
 old-location: ncd\wsdxmlcreatecontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fb0d8c28-1dc3-43be-a1cf-c00de6c1f43e
 ms.date: 12/05/2018
 ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreatecontext, wsdxml/WSDXMLCreateContext

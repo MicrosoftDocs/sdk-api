@@ -4,7 +4,7 @@ title: IUpdate::get_IsMandatory (wuapi.h)
 description: Gets a Boolean value that indicates whether the installation of the update is mandatory.
 helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","IsMandatory property","IUpdate.IsMandatory","IUpdate.get_IsMandatory","IUpdate::IsMandatory","IUpdate::get_IsMandatory","IsMandatory property [Windows Update Agent]","IsMandatory property [Windows Update Agent]","IUpdate interface","get_IsMandatory","wua.iupdate_ismandatory","wuapi/IUpdate::IsMandatory","wuapi/IUpdate::get_IsMandatory"]
 old-location: wua\iupdate_ismandatory.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 5052914f-7b92-4637-b188-dce4a8e15328
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsMandatory property, IUpdate.IsMandatory, IUpdate.get_IsMandatory, IUpdate::IsMandatory, IUpdate::get_IsMandatory, IsMandatory property [Windows Update Agent], IsMandatory property [Windows Update Agent],IUpdate interface, get_IsMandatory, wua.iupdate_ismandatory, wuapi/IUpdate::IsMandatory, wuapi/IUpdate::get_IsMandatory

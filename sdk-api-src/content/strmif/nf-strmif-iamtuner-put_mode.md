@@ -4,7 +4,7 @@ title: IAMTuner::put_Mode (strmif.h)
 description: The put_Mode method sets a multifunction tuner to the specified mode.
 helpviewer_keywords: ["IAMTuner interface [DirectShow]","put_Mode method","IAMTuner.put_Mode","IAMTuner::put_Mode","IAMTunerput_Mode","dshow.iamtuner_put_mode","put_Mode","put_Mode method [DirectShow]","put_Mode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::put_Mode"]
 old-location: dshow\iamtuner_put_mode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4c0691fb-e291-43eb-9828-f58474a4334d
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Mode

@@ -4,7 +4,7 @@ title: TSPI_lineReceiveMSPData function (tspi.h)
 description: The TSPI_lineReceiveMSPData function service provider receives data sent by the media service provider (MSP). This function requires TAPI 3.0 version negotiation.
 helpviewer_keywords: ["TSPI_lineReceiveMSPData","TSPI_lineReceiveMSPData function [TAPI 2.2]","_tspi_tspi_linereceivemspdata","tspi.tspi_linereceivemspdata","tspi/TSPI_lineReceiveMSPData"]
 old-location: tspi\tspi_linereceivemspdata.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 90d334e7-e91d-482e-bd79-4b610fe5144d
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineReceiveMSPData, TSPI_lineReceiveMSPData function [TAPI 2.2], _tspi_tspi_linereceivemspdata, tspi.tspi_linereceivemspdata, tspi/TSPI_lineReceiveMSPData

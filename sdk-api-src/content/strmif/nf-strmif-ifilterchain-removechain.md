@@ -4,7 +4,7 @@ title: IFilterChain::RemoveChain (strmif.h)
 description: The RemoveChain method removes every filter in a filter chain from the filter graph.
 helpviewer_keywords: ["IFilterChain interface [DirectShow]","RemoveChain method","IFilterChain.RemoveChain","IFilterChain::RemoveChain","IFilterChainRemoveChain","RemoveChain","RemoveChain method [DirectShow]","RemoveChain method [DirectShow]","IFilterChain interface","dshow.ifilterchain_removechain","strmif/IFilterChain::RemoveChain"]
 old-location: dshow\ifilterchain_removechain.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a47d2087-5f06-4fce-b573-16935370a34c
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],RemoveChain method, IFilterChain.RemoveChain, IFilterChain::RemoveChain, IFilterChainRemoveChain, RemoveChain, RemoveChain method [DirectShow], RemoveChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_removechain, strmif/IFilterChain::RemoveChain

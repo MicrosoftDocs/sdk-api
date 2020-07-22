@@ -4,7 +4,7 @@ title: XPS_JOB_COMPLETION (xpsprint.h)
 description: Indicates the completion status of a print job.
 helpviewer_keywords: ["XPS_JOB_CANCELLED","XPS_JOB_COMPLETED","XPS_JOB_COMPLETION","XPS_JOB_COMPLETION enumeration [Windows GDI]","XPS_JOB_FAILED","XPS_JOB_IN_PROGRESS","gdi.xps_job_completion","xpsprint/XPS_JOB_CANCELLED","xpsprint/XPS_JOB_COMPLETED","xpsprint/XPS_JOB_COMPLETION","xpsprint/XPS_JOB_FAILED","xpsprint/XPS_JOB_IN_PROGRESS"]
 old-location: gdi\xps_job_completion.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a0bfb708-033a-4493-a878-0ebdcaae672f
 ms.date: 12/05/2018
 ms.keywords: XPS_JOB_CANCELLED, XPS_JOB_COMPLETED, XPS_JOB_COMPLETION, XPS_JOB_COMPLETION enumeration [Windows GDI], XPS_JOB_FAILED, XPS_JOB_IN_PROGRESS, gdi.xps_job_completion, xpsprint/XPS_JOB_CANCELLED, xpsprint/XPS_JOB_COMPLETED, xpsprint/XPS_JOB_COMPLETION, xpsprint/XPS_JOB_FAILED, xpsprint/XPS_JOB_IN_PROGRESS

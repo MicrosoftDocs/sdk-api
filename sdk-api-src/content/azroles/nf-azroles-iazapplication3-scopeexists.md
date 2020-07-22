@@ -4,7 +4,7 @@ title: IAzApplication3::ScopeExists (azroles.h)
 description: Indicates whether the specified scope exists in this IAzApplication3 object.
 helpviewer_keywords: ["IAzApplication3 interface [Security]","ScopeExists method","IAzApplication3.ScopeExists","IAzApplication3::ScopeExists","ScopeExists","ScopeExists method [Security]","ScopeExists method [Security]","IAzApplication3 interface","azroles/IAzApplication3::ScopeExists","security.iazapplication3_scopeexists"]
 old-location: security\iazapplication3_scopeexists.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 585f8b16-e634-4ac6-a20a-214eea344b0a
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],ScopeExists method, IAzApplication3.ScopeExists, IAzApplication3::ScopeExists, ScopeExists, ScopeExists method [Security], ScopeExists method [Security],IAzApplication3 interface, azroles/IAzApplication3::ScopeExists, security.iazapplication3_scopeexists

@@ -4,7 +4,7 @@ title: IMFMediaTimeRange::Clear (mfmediaengine.h)
 description: Clears the list of time ranges.
 helpviewer_keywords: ["Clear","Clear method [Media Foundation]","Clear method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","Clear method","IMFMediaTimeRange.Clear","IMFMediaTimeRange::Clear","mf.imfmediatimerange_clear","mfmediaengine/IMFMediaTimeRange::Clear"]
 old-location: mf\imfmediatimerange_clear.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F7CDC73E-CF14-48E2-9C8A-E1944099861A
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear

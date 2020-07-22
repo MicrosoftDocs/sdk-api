@@ -4,7 +4,7 @@ title: IDMOWrapperFilter (dmodshow.h)
 description: The IDMOWrapperFilter interface enables an application to use a DirectX Media Object (DMO) inside a filter graph.
 helpviewer_keywords: ["IDMOWrapperFilter","IDMOWrapperFilter interface [DirectShow]","IDMOWrapperFilter interface [DirectShow]","described","IDMOWrapperFilterInterface","dmodshow/IDMOWrapperFilter","dshow.idmowrapperfilter"]
 old-location: dshow\idmowrapperfilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c85b828c-095d-4991-85a8-65b96529f305
 ms.date: 12/05/2018
 ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], IDMOWrapperFilter interface [DirectShow],described, IDMOWrapperFilterInterface, dmodshow/IDMOWrapperFilter, dshow.idmowrapperfilter

@@ -4,7 +4,7 @@ title: ICreateDevEnum::CreateClassEnumerator (strmif.h)
 description: The CreateClassEnumerator method creates an enumerator for a specified device category.
 helpviewer_keywords: ["CreateClassEnumerator","CreateClassEnumerator method [DirectShow]","CreateClassEnumerator method [DirectShow]","ICreateDevEnum interface","ICreateDevEnum interface [DirectShow]","CreateClassEnumerator method","ICreateDevEnum.CreateClassEnumerator","ICreateDevEnum::CreateClassEnumerator","ICreateDevEnumCreateClassEnumerator","dshow.icreatedevenum_createclassenumerator","strmif/ICreateDevEnum::CreateClassEnumerator"]
 old-location: dshow\icreatedevenum_createclassenumerator.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 07457acc-51f1-4d1b-b795-e8d980a5531e
 ms.date: 12/05/2018
 ms.keywords: CreateClassEnumerator, CreateClassEnumerator method [DirectShow], CreateClassEnumerator method [DirectShow],ICreateDevEnum interface, ICreateDevEnum interface [DirectShow],CreateClassEnumerator method, ICreateDevEnum.CreateClassEnumerator, ICreateDevEnum::CreateClassEnumerator, ICreateDevEnumCreateClassEnumerator, dshow.icreatedevenum_createclassenumerator, strmif/ICreateDevEnum::CreateClassEnumerator

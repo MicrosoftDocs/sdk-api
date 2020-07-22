@@ -4,7 +4,7 @@ title: EqualPrefixSid function (securitybaseapi.h)
 description: Tests two security-identifier (SID) prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.
 helpviewer_keywords: ["EqualPrefixSid","EqualPrefixSid function [Security]","_win32_equalprefixsid","security.equalprefixsid","securitybaseapi/EqualPrefixSid"]
 old-location: security\equalprefixsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ef41de63-4ab5-40c6-8b16-b960e1308b5b
 ms.date: 12/05/2018
 ms.keywords: EqualPrefixSid, EqualPrefixSid function [Security], _win32_equalprefixsid, security.equalprefixsid, securitybaseapi/EqualPrefixSid

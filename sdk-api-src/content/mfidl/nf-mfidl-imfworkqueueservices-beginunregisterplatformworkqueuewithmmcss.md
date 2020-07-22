@@ -4,7 +4,7 @@ title: IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS (mfidl.h)
 description: Unregisters a platform work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 helpviewer_keywords: ["BeginUnregisterPlatformWorkQueueWithMMCSS","BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation]","BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","BeginUnregisterPlatformWorkQueueWithMMCSS method","IMFWorkQueueServices.BeginUnregisterPlatformWorkQueueWithMMCSS","IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS","e15c6ff9-b72e-4e5d-a738-6bef08782e1b","mf.imfworkqueueservices_beginunregisterplatformworkqueuewithmmcss","mfidl/IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS"]
 old-location: mf\imfworkqueueservices_beginunregisterplatformworkqueuewithmmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e15c6ff9-b72e-4e5d-a738-6bef08782e1b
 ms.date: 12/05/2018
 ms.keywords: BeginUnregisterPlatformWorkQueueWithMMCSS, BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.BeginUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS, e15c6ff9-b72e-4e5d-a738-6bef08782e1b, mf.imfworkqueueservices_beginunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS

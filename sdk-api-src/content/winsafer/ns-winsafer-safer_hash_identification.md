@@ -4,7 +4,7 @@ title: SAFER_HASH_IDENTIFICATION (winsafer.h)
 description: Represents a hash identification rule.
 helpviewer_keywords: ["*PSAFER_HASH_IDENTIFICATION","PSAFER_HASH_IDENTIFICATION","PSAFER_HASH_IDENTIFICATION structure pointer [Security]","SAFER_HASH_IDENTIFICATION","SAFER_HASH_IDENTIFICATION structure [Security]","_mnp_safer_hash_identification","security.safer_hash_identification","winsafer/PSAFER_HASH_IDENTIFICATION","winsafer/SAFER_HASH_IDENTIFICATION"]
 old-location: security\safer_hash_identification.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 68b4b5f5-8220-4180-8243-b6f1fd7826bd
 ms.date: 12/05/2018
 ms.keywords: '*PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION structure pointer [Security], SAFER_HASH_IDENTIFICATION, SAFER_HASH_IDENTIFICATION structure [Security], _mnp_safer_hash_identification, security.safer_hash_identification, winsafer/PSAFER_HASH_IDENTIFICATION, winsafer/SAFER_HASH_IDENTIFICATION'

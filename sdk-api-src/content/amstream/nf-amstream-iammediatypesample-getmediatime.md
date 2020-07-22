@@ -4,7 +4,7 @@ title: IAMMediaTypeSample::GetMediaTime (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaTime method retrieves the media time stamps for the sample.
 helpviewer_keywords: ["GetMediaTime","GetMediaTime method [DirectShow]","GetMediaTime method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetMediaTime method","IAMMediaTypeSample.GetMediaTime","IAMMediaTypeSample::GetMediaTime","IAMMediaTypeSampleGetMediaTime","amstream/IAMMediaTypeSample::GetMediaTime","dshow.iammediatypesample_getmediatime"]
 old-location: dshow\iammediatypesample_getmediatime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0ed66c17-f18b-4c8b-b31a-6dd4f5ab4292
 ms.date: 12/05/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaTime method, IAMMediaTypeSample.GetMediaTime, IAMMediaTypeSample::GetMediaTime, IAMMediaTypeSampleGetMediaTime, amstream/IAMMediaTypeSample::GetMediaTime, dshow.iammediatypesample_getmediatime

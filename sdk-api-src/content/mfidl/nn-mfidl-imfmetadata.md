@@ -4,7 +4,7 @@ title: IMFMetadata (mfidl.h)
 description: Manages metadata for an object.
 helpviewer_keywords: ["411658ca-dc5e-445b-8d61-0c0429fcfbb1","IMFMetadata","IMFMetadata interface [Media Foundation]","IMFMetadata interface [Media Foundation]","described","mf.imfmetadata","mfidl/IMFMetadata"]
 old-location: mf\imfmetadata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 411658ca-dc5e-445b-8d61-0c0429fcfbb1
 ms.date: 12/05/2018
 ms.keywords: 411658ca-dc5e-445b-8d61-0c0429fcfbb1, IMFMetadata, IMFMetadata interface [Media Foundation], IMFMetadata interface [Media Foundation],described, mf.imfmetadata, mfidl/IMFMetadata

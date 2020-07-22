@@ -4,7 +4,7 @@ title: DXVAHD_BLT_STATE_ALPHA_FILL_DATA (dxvahd.h)
 description: Specifies how the output alpha values are calculated for blit operations when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 helpviewer_keywords: ["DXVAHD_BLT_STATE_ALPHA_FILL_DATA","DXVAHD_BLT_STATE_ALPHA_FILL_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL_DATA","mf.dxvahd_blt_state_alpha_fill_data"]
 old-location: mf\dxvahd_blt_state_alpha_fill_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dcd42210-d5f8-42c7-aac0-08f0ce4b7ac9
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_ALPHA_FILL_DATA, DXVAHD_BLT_STATE_ALPHA_FILL_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL_DATA, mf.dxvahd_blt_state_alpha_fill_data

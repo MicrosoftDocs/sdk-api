@@ -4,7 +4,7 @@ title: MethodContext (methodco.h)
 description: The MethodContext class is the pointer to a structure used in a provider to get or set IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 helpviewer_keywords: ["MethodContext","MethodContext class [Windows Management Instrumentation]","MethodContext class [Windows Management Instrumentation]","described","methodco/MethodContext","wmi.methodcontext"]
 old-location: wmi\methodcontext.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: aea20c9d-4042-426a-abdf-51ebddf017aa
 ms.date: 12/05/2018
 ms.keywords: MethodContext, MethodContext class [Windows Management Instrumentation], MethodContext class [Windows Management Instrumentation],described, methodco/MethodContext, wmi.methodcontext

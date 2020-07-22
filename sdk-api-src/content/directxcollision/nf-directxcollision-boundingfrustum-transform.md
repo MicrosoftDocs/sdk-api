@@ -2,6 +2,7 @@
 UID: NF:directxcollision.BoundingFrustum.Transform
 title: BoundingFrustum::Transform
 description: Transforms the BoundingFrustum by the specified transformation matrix.
+tech.root: dxmath
 helpviewer_keywords: ["BoundingFrustum::Transform"]
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Transform

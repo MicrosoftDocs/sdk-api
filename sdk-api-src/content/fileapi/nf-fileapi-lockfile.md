@@ -4,7 +4,7 @@ title: LockFile function (fileapi.h)
 description: Locks the specified file for exclusive access by the calling process.
 helpviewer_keywords: ["LockFile","LockFile function [Files]","_win32_lockfile","base.lockfile","fileapi/LockFile","fs.lockfile","winbase/LockFile"]
 old-location: fs\lockfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c88e7b6c-c339-443b-adf9-0325807203dc
 ms.date: 12/05/2018
 ms.keywords: LockFile, LockFile function [Files], _win32_lockfile, base.lockfile, fileapi/LockFile, fs.lockfile, winbase/LockFile

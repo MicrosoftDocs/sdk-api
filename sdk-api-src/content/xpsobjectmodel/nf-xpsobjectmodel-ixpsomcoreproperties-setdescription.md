@@ -4,7 +4,7 @@ title: IXpsOMCoreProperties::SetDescription (xpsobjectmodel.h)
 description: Sets the description property.
 helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetDescription method","IXpsOMCoreProperties.SetDescription","IXpsOMCoreProperties::SetDescription","SetDescription","SetDescription method [XPS Documents and Packaging]","SetDescription method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setdescription","xpsobjectmodel/IXpsOMCoreProperties::SetDescription"]
 old-location: xps\ixpsomcoreproperties_setdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5be76080-0f85-4937-913c-2037740a3e9d
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetDescription method, IXpsOMCoreProperties.SetDescription, IXpsOMCoreProperties::SetDescription, SetDescription, SetDescription method [XPS Documents and Packaging], SetDescription method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setdescription, xpsobjectmodel/IXpsOMCoreProperties::SetDescription

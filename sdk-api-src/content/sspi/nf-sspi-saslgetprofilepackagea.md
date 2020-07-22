@@ -4,7 +4,7 @@ title: SaslGetProfilePackageA function (sspi.h)
 description: Returns the package information for the specified package.
 helpviewer_keywords: ["SaslGetProfilePackage","SaslGetProfilePackage function [Security]","SaslGetProfilePackageA","SaslGetProfilePackageW","security.saslgetprofilepackage","sspi/SaslGetProfilePackage","sspi/SaslGetProfilePackageA","sspi/SaslGetProfilePackageW"]
 old-location: security\saslgetprofilepackage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.date: 12/05/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW

@@ -4,7 +4,7 @@ title: IGraphConfig::Reconnect (strmif.h)
 description: The Reconnect method performs a dynamic reconnection between two pins.
 helpviewer_keywords: ["IGraphConfig interface [DirectShow]","Reconnect method","IGraphConfig.Reconnect","IGraphConfig::Reconnect","IGraphConfigReconnect","Reconnect","Reconnect method [DirectShow]","Reconnect method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_reconnect","strmif/IGraphConfig::Reconnect"]
 old-location: dshow\igraphconfig_reconnect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e8cfac8e-df89-444d-bcc7-0cbc7ab5a592
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect

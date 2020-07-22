@@ -4,7 +4,7 @@ title: IVssBackupComponents::BackupComplete (vsbackup.h)
 description: The BackupComplete method causes VSS to generate a BackupComplete event, which signals writers that the backup process has completed.
 helpviewer_keywords: ["BackupComplete","BackupComplete method [VSS]","BackupComplete method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","BackupComplete method","IVssBackupComponents.BackupComplete","IVssBackupComponents::BackupComplete","_win32_ivssbackupcomponents_backupcomplete","base.ivssbackupcomponents_backupcomplete","vsbackup/IVssBackupComponents::BackupComplete"]
 old-location: base\ivssbackupcomponents_backupcomplete.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ee49d4b1-f3f4-4c85-a3a2-f4452d066f21
 ms.date: 12/05/2018
 ms.keywords: BackupComplete, BackupComplete method [VSS], BackupComplete method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BackupComplete method, IVssBackupComponents.BackupComplete, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete

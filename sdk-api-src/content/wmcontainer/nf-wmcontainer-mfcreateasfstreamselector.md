@@ -4,7 +4,7 @@ title: MFCreateASFStreamSelector function (wmcontainer.h)
 description: Creates the ASF stream selector.
 helpviewer_keywords: ["71b1af5b-f127-463f-9720-72e789bb2cd1","MFCreateASFStreamSelector","MFCreateASFStreamSelector function [Media Foundation]","mf.mfcreateasfstreamselector","wmcontainer/MFCreateASFStreamSelector"]
 old-location: mf\mfcreateasfstreamselector.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1
 ms.date: 12/05/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector

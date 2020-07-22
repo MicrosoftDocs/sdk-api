@@ -4,7 +4,7 @@ title: IPortableDeviceCapabilities::GetSupportedEvents (portabledeviceapi.h)
 description: The GetSupportedEvents method retrieves the supported events for this device.
 helpviewer_keywords: ["GetSupportedEvents","GetSupportedEvents method [Windows Portable Devices SDK]","GetSupportedEvents method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetSupportedEvents method","IPortableDeviceCapabilities.GetSupportedEvents","IPortableDeviceCapabilities::GetSupportedEvents","IPortableDeviceCapabilitiesGetSupportedEvents","portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents","wpdsdk.iportabledevicecapabilities_getsupportedevents"]
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedevents.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: f5082b2b-d925-4f9d-bbfd-edcf4553a6fa
 ms.date: 12/05/2018
 ms.keywords: GetSupportedEvents, GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedEvents method, IPortableDeviceCapabilities.GetSupportedEvents, IPortableDeviceCapabilities::GetSupportedEvents, IPortableDeviceCapabilitiesGetSupportedEvents, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents, wpdsdk.iportabledevicecapabilities_getsupportedevents

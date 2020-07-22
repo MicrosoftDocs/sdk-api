@@ -4,7 +4,7 @@ title: IMFMetadata::SetLanguage (mfidl.h)
 description: Sets the language for setting and retrieving metadata.
 helpviewer_keywords: ["IMFMetadata interface [Media Foundation]","SetLanguage method","IMFMetadata.SetLanguage","IMFMetadata::SetLanguage","SetLanguage","SetLanguage method [Media Foundation]","SetLanguage method [Media Foundation]","IMFMetadata interface","da615053-ddd5-448e-905c-b060cdaefa95","mf.imfmetadata_setlanguage","mfidl/IMFMetadata::SetLanguage"]
 old-location: mf\imfmetadata_setlanguage.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: da615053-ddd5-448e-905c-b060cdaefa95
 ms.date: 12/05/2018
 ms.keywords: IMFMetadata interface [Media Foundation],SetLanguage method, IMFMetadata.SetLanguage, IMFMetadata::SetLanguage, SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation],IMFMetadata interface, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage

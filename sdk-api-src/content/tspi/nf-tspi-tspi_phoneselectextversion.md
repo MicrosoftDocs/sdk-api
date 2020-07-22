@@ -4,7 +4,7 @@ title: TSPI_phoneSelectExtVersion function (tspi.h)
 description: The TSPI_phoneSelectExtVersion function selects the indicated extension version for the indicated phone device. Subsequent requests operate according to that extension version.
 helpviewer_keywords: ["TSPI_phoneSelectExtVersion","TSPI_phoneSelectExtVersion function [TAPI 2.2]","_tspi_tspi_phoneselectextversion","tspi.tspi_phoneselectextversion","tspi/TSPI_phoneSelectExtVersion"]
 old-location: tspi\tspi_phoneselectextversion.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: edd746c8-3d76-4759-b2a7-9ec75dd16842
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSelectExtVersion, TSPI_phoneSelectExtVersion function [TAPI 2.2], _tspi_tspi_phoneselectextversion, tspi.tspi_phoneselectextversion, tspi/TSPI_phoneSelectExtVersion

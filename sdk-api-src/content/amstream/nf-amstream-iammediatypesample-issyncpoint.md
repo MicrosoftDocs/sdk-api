@@ -4,7 +4,7 @@ title: IAMMediaTypeSample::IsSyncPoint (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The IsSyncPoint method determines if the beginning of a sample is a synchronization point.
 helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","IsSyncPoint method","IAMMediaTypeSample.IsSyncPoint","IAMMediaTypeSample::IsSyncPoint","IAMMediaTypeSampleIsSyncPoint","IsSyncPoint","IsSyncPoint method [DirectShow]","IsSyncPoint method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::IsSyncPoint","dshow.iammediatypesample_issyncpoint"]
 old-location: dshow\iammediatypesample_issyncpoint.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0494f51e-2602-4574-88dd-0839a1d2f04f
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsSyncPoint method, IAMMediaTypeSample.IsSyncPoint, IAMMediaTypeSample::IsSyncPoint, IAMMediaTypeSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsSyncPoint, dshow.iammediatypesample_issyncpoint

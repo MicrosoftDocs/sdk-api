@@ -4,7 +4,7 @@ title: IOfflineFilesEvents::CacheIsFull (cscobj.h)
 description: This method is reserved for future use.
 helpviewer_keywords: ["CacheIsFull","CacheIsFull method [Offline Files]","CacheIsFull method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheIsFull method","IOfflineFilesEvents.CacheIsFull","IOfflineFilesEvents::CacheIsFull","cscobj/IOfflineFilesEvents::CacheIsFull","of.iofflinefilesevents_cacheisfull"]
 old-location: of\iofflinefilesevents_cacheisfull.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 535998f6-846b-4075-9504-a8d3e90a73b9
 ms.date: 12/05/2018
 ms.keywords: CacheIsFull, CacheIsFull method [Offline Files], CacheIsFull method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsFull method, IOfflineFilesEvents.CacheIsFull, IOfflineFilesEvents::CacheIsFull, cscobj/IOfflineFilesEvents::CacheIsFull, of.iofflinefilesevents_cacheisfull

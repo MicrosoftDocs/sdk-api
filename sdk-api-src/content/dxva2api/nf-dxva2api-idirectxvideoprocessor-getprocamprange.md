@@ -4,7 +4,7 @@ title: IDirectXVideoProcessor::GetProcAmpRange (dxva2api.h)
 description: Retrieves the range of values for a video processor (ProcAmp) setting on this video processor device.
 helpviewer_keywords: ["GetProcAmpRange","GetProcAmpRange method [Media Foundation]","GetProcAmpRange method [Media Foundation]","IDirectXVideoProcessor interface","IDirectXVideoProcessor interface [Media Foundation]","GetProcAmpRange method","IDirectXVideoProcessor.GetProcAmpRange","IDirectXVideoProcessor::GetProcAmpRange","dxva2api/IDirectXVideoProcessor::GetProcAmpRange","e15c8425-7a0b-4d03-b2da-467c800c57c2","mf.idirectxvideoprocessor_getprocamprange"]
 old-location: mf\idirectxvideoprocessor_getprocamprange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e15c8425-7a0b-4d03-b2da-467c800c57c2
 ms.date: 12/05/2018
 ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetProcAmpRange method, IDirectXVideoProcessor.GetProcAmpRange, IDirectXVideoProcessor::GetProcAmpRange, dxva2api/IDirectXVideoProcessor::GetProcAmpRange, e15c8425-7a0b-4d03-b2da-467c800c57c2, mf.idirectxvideoprocessor_getprocamprange

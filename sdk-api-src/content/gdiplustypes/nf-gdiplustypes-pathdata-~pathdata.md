@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Destructor for the [**PathData**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-pathdata) class.
+tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

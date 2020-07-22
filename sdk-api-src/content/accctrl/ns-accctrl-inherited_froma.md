@@ -4,7 +4,7 @@ title: INHERITED_FROMA (accctrl.h)
 description: Provides information about an object's inherited access control entry (ACE).
 helpviewer_keywords: ["*PINHERITED_FROMA","INHERITED_FROM","INHERITED_FROM structure [Security]","INHERITED_FROMA","INHERITED_FROMW","PINHERITED_FROM","PINHERITED_FROM structure pointer [Security]","_INHERITED_FROMA","_INHERITED_FROMW","accctrl/INHERITED_FROM","accctrl/INHERITED_FROMA","accctrl/INHERITED_FROMW","accctrl/PINHERITED_FROM","security.inherited_from"]
 old-location: security\inherited_from.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
 ms.date: 12/05/2018
 ms.keywords: '*PINHERITED_FROMA, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from'

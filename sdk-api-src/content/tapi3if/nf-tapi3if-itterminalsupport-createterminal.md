@@ -4,7 +4,7 @@ title: ITTerminalSupport::CreateTerminal (tapi3if.h)
 description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
 helpviewer_keywords: ["CreateTerminal","CreateTerminal method [TAPI 2.2]","CreateTerminal method [TAPI 2.2]","ITTerminalSupport interface","ITTerminalSupport interface [TAPI 2.2]","CreateTerminal method","ITTerminalSupport.CreateTerminal","ITTerminalSupport::CreateTerminal","_tapi3_itterminalsupport_createterminal","tapi3.itterminalsupport_createterminal","tapi3if/ITTerminalSupport::CreateTerminal"]
 old-location: tapi3\itterminalsupport_createterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2a2a037a-753c-4dd4-b6ce-10b69f2e2421
 ms.date: 12/05/2018
 ms.keywords: CreateTerminal, CreateTerminal method [TAPI 2.2], CreateTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],CreateTerminal method, ITTerminalSupport.CreateTerminal, ITTerminalSupport::CreateTerminal, _tapi3_itterminalsupport_createterminal, tapi3.itterminalsupport_createterminal, tapi3if/ITTerminalSupport::CreateTerminal

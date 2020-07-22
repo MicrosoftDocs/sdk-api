@@ -4,7 +4,7 @@ title: IAMExtTransport::put_Mode (strmif.h)
 description: The put_Mode method sets the transport mode; for example, play, stop, or record.
 helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_Mode method","IAMExtTransport.put_Mode","IAMExtTransport::put_Mode","IAMExtTransportput_Mode","dshow.iamexttransport_put_mode","put_Mode","put_Mode method [DirectShow]","put_Mode method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_Mode"]
 old-location: dshow\iamexttransport_put_mode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cf941c07-6f42-4c63-9bdf-923f7a5b0b02
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_Mode method, IAMExtTransport.put_Mode, IAMExtTransport::put_Mode, IAMExtTransportput_Mode, dshow.iamexttransport_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_Mode

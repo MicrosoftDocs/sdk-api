@@ -4,7 +4,7 @@ title: IMFMediaEngine::GetDefaultPlaybackRate (mfmediaengine.h)
 description: Gets the default playback rate.
 helpviewer_keywords: ["GetDefaultPlaybackRate","GetDefaultPlaybackRate method [Media Foundation]","GetDefaultPlaybackRate method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetDefaultPlaybackRate method","IMFMediaEngine.GetDefaultPlaybackRate","IMFMediaEngine::GetDefaultPlaybackRate","mf.imfmediaengine_getdefaultplaybackrate","mfmediaengine/IMFMediaEngine::GetDefaultPlaybackRate"]
 old-location: mf\imfmediaengine_getdefaultplaybackrate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: FF7E9E76-B85E-40BB-88BD-5033FCE31177
 ms.date: 12/05/2018
 ms.keywords: GetDefaultPlaybackRate, GetDefaultPlaybackRate method [Media Foundation], GetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetDefaultPlaybackRate method, IMFMediaEngine.GetDefaultPlaybackRate, IMFMediaEngine::GetDefaultPlaybackRate, mf.imfmediaengine_getdefaultplaybackrate, mfmediaengine/IMFMediaEngine::GetDefaultPlaybackRate

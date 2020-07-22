@@ -4,7 +4,7 @@ title: MF_SOURCE_READER_CONTROL_FLAG (mfreadwrite.h)
 description: Contains flags for the IMFSourceReader::ReadSample method.
 helpviewer_keywords: ["MF_SOURCE_READER_CONTROLF_DRAIN","MF_SOURCE_READER_CONTROL_FLAG","MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation]","mf.mf_source_reader_control_flag","mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN","mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG"]
 old-location: mf\mf_source_reader_control_flag.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a6367fea-ceba-4ce4-9a1b-88a40afc3055
 ms.date: 12/05/2018
 ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation], mf.mf_source_reader_control_flag, mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN, mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG

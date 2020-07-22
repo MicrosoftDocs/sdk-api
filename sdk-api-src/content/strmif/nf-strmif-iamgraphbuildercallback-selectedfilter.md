@@ -4,7 +4,7 @@ title: IAMGraphBuilderCallback::SelectedFilter (strmif.h)
 description: The Filter Graph Manager calls this method when it finds a candidate filter for the graph, but before it creates the filter.
 helpviewer_keywords: ["IAMGraphBuilderCallback interface [DirectShow]","SelectedFilter method","IAMGraphBuilderCallback.SelectedFilter","IAMGraphBuilderCallback::SelectedFilter","IAMGraphBuilderCallbackSelectedFilter","SelectedFilter","SelectedFilter method [DirectShow]","SelectedFilter method [DirectShow]","IAMGraphBuilderCallback interface","dshow.iamgraphbuildercallback_selectedfilter","strmif/IAMGraphBuilderCallback::SelectedFilter"]
 old-location: dshow\iamgraphbuildercallback_selectedfilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a1768857-eb55-4b01-87af-921337a418c3
 ms.date: 12/05/2018
 ms.keywords: IAMGraphBuilderCallback interface [DirectShow],SelectedFilter method, IAMGraphBuilderCallback.SelectedFilter, IAMGraphBuilderCallback::SelectedFilter, IAMGraphBuilderCallbackSelectedFilter, SelectedFilter, SelectedFilter method [DirectShow], SelectedFilter method [DirectShow],IAMGraphBuilderCallback interface, dshow.iamgraphbuildercallback_selectedfilter, strmif/IAMGraphBuilderCallback::SelectedFilter

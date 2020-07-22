@@ -4,7 +4,7 @@ title: RegOpenKeyW function (winreg.h)
 description: Opens the specified registry key.
 helpviewer_keywords: ["RegOpenKey","RegOpenKey function","RegOpenKeyA","RegOpenKeyW","_win32_regopenkey","base.regopenkey","winreg/RegOpenKey","winreg/RegOpenKeyA","winreg/RegOpenKeyW"]
 old-location: base\regopenkey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
 ms.date: 12/05/2018
 ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_regopenkey, base.regopenkey, winreg/RegOpenKey, winreg/RegOpenKeyA, winreg/RegOpenKeyW

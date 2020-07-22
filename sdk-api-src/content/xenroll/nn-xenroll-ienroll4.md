@@ -4,7 +4,7 @@ title: IEnroll4 (xenroll.h)
 description: The IEnroll4 interface represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 helpviewer_keywords: ["IEnroll4","IEnroll4 interface [Security]","IEnroll4 interface [Security]","described","security.ienroll4","xenroll/IEnroll4"]
 old-location: security\ienroll4.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 133529fb-e02a-41a2-83df-646cbc01dbe9
 ms.date: 12/05/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], IEnroll4 interface [Security],described, security.ienroll4, xenroll/IEnroll4

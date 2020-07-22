@@ -4,7 +4,7 @@ title: IVssProviderNotifications::OnLoad (vsprov.h)
 description: Notifies a provider that it was loaded.
 helpviewer_keywords: ["IVssProviderNotifications interface [VSS]","OnLoad method","IVssProviderNotifications.OnLoad","IVssProviderNotifications::OnLoad","OnLoad","OnLoad method [VSS]","OnLoad method [VSS]","IVssProviderNotifications interface","base.ivssprovidernotifications_onload","vsprov/IVssProviderNotifications::OnLoad"]
 old-location: base\ivssprovidernotifications_onload.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: dd3df604-074b-4206-827e-3cc4d5f71f87
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnLoad method, IVssProviderNotifications.OnLoad, IVssProviderNotifications::OnLoad, OnLoad, OnLoad method [VSS], OnLoad method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onload, vsprov/IVssProviderNotifications::OnLoad

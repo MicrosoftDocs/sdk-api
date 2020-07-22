@@ -4,7 +4,7 @@ title: AM_FRAMESTEP_STEP (amvideo.h)
 description: Specifies the number of frames to step.
 helpviewer_keywords: ["AM_FRAMESTEP_STEP","AM_FRAMESTEP_STEP structure [DirectShow]","AM_PROPERTY_FRAMESTEPStructure","_AM_FRAMESTEP_STEP","amvideo/AM_FRAMESTEP_STEP","dshow.am_property_framestep"]
 old-location: dshow\am_property_framestep.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 342029c8-0b2b-45d2-852d-062a8d297d28
 ms.date: 12/05/2018
 ms.keywords: AM_FRAMESTEP_STEP, AM_FRAMESTEP_STEP structure [DirectShow], AM_PROPERTY_FRAMESTEPStructure, _AM_FRAMESTEP_STEP, amvideo/AM_FRAMESTEP_STEP, dshow.am_property_framestep

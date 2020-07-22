@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::OpenApplication (azroles.h)
 description: Opens the IAzApplication object with the specified name.
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","OpenApplication method","IAzAuthorizationStore interface [Security]","OpenApplication method","IAzAuthorizationStore.OpenApplication","IAzAuthorizationStore::OpenApplication","OpenApplication","OpenApplication method [Security]","OpenApplication method [Security]","AzAuthorizationStore object","OpenApplication method [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::OpenApplication","security.azauthorizationstore_openapplication"]
 old-location: security\azauthorizationstore_openapplication.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 63215a9a-b739-4ba9-a760-a9968be9e017
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplication method, IAzAuthorizationStore interface [Security],OpenApplication method, IAzAuthorizationStore.OpenApplication, IAzAuthorizationStore::OpenApplication, OpenApplication, OpenApplication method [Security], OpenApplication method [Security],AzAuthorizationStore object, OpenApplication method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplication, security.azauthorizationstore_openapplication

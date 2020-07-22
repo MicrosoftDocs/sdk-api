@@ -4,7 +4,7 @@ title: WLX_DISPATCH_VERSION_1_4 (winwlx.h)
 description: Defines the format of the Winlogon version 1.4 function dispatch table passed to the GINA DLL in the WlxInitialize call.
 helpviewer_keywords: ["*PWLX_DISPATCH_VERSION_1_4","PWLX_DISPATCH_VERSION_1_4","PWLX_DISPATCH_VERSION_1_4 structure pointer [Security]","WLX_DISPATCH_VERSION_1_4","WLX_DISPATCH_VERSION_1_4 structure [Security]","_gina_wlx_dispatch_version_1_4","security.wlx_dispatch_version_1_4","winwlx/PWLX_DISPATCH_VERSION_1_4","winwlx/WLX_DISPATCH_VERSION_1_4"]
 old-location: security\wlx_dispatch_version_1_4.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b2d0c936-5430-48ed-b808-92209b909406
 ms.date: 12/05/2018
 ms.keywords: '*PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4 structure pointer [Security], WLX_DISPATCH_VERSION_1_4, WLX_DISPATCH_VERSION_1_4 structure [Security], _gina_wlx_dispatch_version_1_4, security.wlx_dispatch_version_1_4, winwlx/PWLX_DISPATCH_VERSION_1_4, winwlx/WLX_DISPATCH_VERSION_1_4'

@@ -4,7 +4,7 @@ title: PTReleaseMemory function (prntvpt.h)
 description: Releases buffers associated with print tickets and print capabilities.
 helpviewer_keywords: ["PTReleaseMemory","PTReleaseMemory function [Windows GDI]","_win32_PTReleaseMemory","gdi.ptreleasememory","prntvpt/PTReleaseMemory"]
 old-location: gdi\ptreleasememory.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83
 ms.date: 12/05/2018
 ms.keywords: PTReleaseMemory, PTReleaseMemory function [Windows GDI], _win32_PTReleaseMemory, gdi.ptreleasememory, prntvpt/PTReleaseMemory

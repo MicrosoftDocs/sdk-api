@@ -4,7 +4,7 @@ title: IPin::QueryId (strmif.h)
 description: The QueryId method retrieves an identifier for the pin.
 helpviewer_keywords: ["IPin interface [DirectShow]","QueryId method","IPin.QueryId","IPin::QueryId","IPinQueryId","QueryId","QueryId method [DirectShow]","QueryId method [DirectShow]","IPin interface","dshow.ipin_queryid","strmif/IPin::QueryId"]
 old-location: dshow\ipin_queryid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d4fb2713-549d-4c0d-9768-386bcffd696f
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryId method, IPin.QueryId, IPin::QueryId, IPinQueryId, QueryId, QueryId method [DirectShow], QueryId method [DirectShow],IPin interface, dshow.ipin_queryid, strmif/IPin::QueryId

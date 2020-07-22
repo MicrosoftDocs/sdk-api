@@ -4,7 +4,7 @@ title: IVMRSurfaceAllocatorNotify::SetDDrawDevice (strmif.h)
 description: The SetDDrawDevice method sets the initial DirectDraw device and monitor to be used for video playback.
 helpviewer_keywords: ["IVMRSurfaceAllocatorNotify interface [DirectShow]","SetDDrawDevice method","IVMRSurfaceAllocatorNotify.SetDDrawDevice","IVMRSurfaceAllocatorNotify::SetDDrawDevice","IVMRSurfaceAllocatorNotifySetDDrawDevice","SetDDrawDevice","SetDDrawDevice method [DirectShow]","SetDDrawDevice method [DirectShow]","IVMRSurfaceAllocatorNotify interface","dshow.ivmrsurfaceallocatornotify_setddrawdevice","strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice"]
 old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice

@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_StopTime (rend.h)
 description: The put_StopTime method sets the stop time of the conference. If the end time is zero, the session is not bounded.
 helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","put_StopTime method","ITDirectoryObjectConference.put_StopTime","ITDirectoryObjectConference::put_StopTime","_tapi3_itdirectoryobjectconference_put_stoptime","put_StopTime","put_StopTime method [TAPI 2.2]","put_StopTime method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::put_StopTime","tapi3.itdirectoryobjectconference_put_stoptime"]
 old-location: tapi3\itdirectoryobjectconference_put_stoptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2542f3e2-d391-4d96-8aa8-120d639f0468
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StopTime method, ITDirectoryObjectConference.put_StopTime, ITDirectoryObjectConference::put_StopTime, _tapi3_itdirectoryobjectconference_put_stoptime, put_StopTime, put_StopTime method [TAPI 2.2], put_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StopTime, tapi3.itdirectoryobjectconference_put_stoptime

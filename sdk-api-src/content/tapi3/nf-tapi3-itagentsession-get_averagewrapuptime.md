@@ -4,7 +4,7 @@ title: ITAgentSession::get_AverageWrapUpTime (tapi3.h)
 description: The get_AverageWrapUpTime method gets the average time (in seconds) per ACD call spent in wrap-up (after-call work) during this agent session.
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_AverageWrapUpTime method","ITAgentSession.get_AverageWrapUpTime","ITAgentSession::get_AverageWrapUpTime","_tapi3_itagentsession_get_averagewrapuptime","get_AverageWrapUpTime","get_AverageWrapUpTime method [TAPI 2.2]","get_AverageWrapUpTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_averagewrapuptime","tapi3cc/ITAgentSession::get_AverageWrapUpTime"]
 old-location: tapi3\itagentsession_get_averagewrapuptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 365d98ab-9127-45bb-8232-3e3903bd9ab3
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageWrapUpTime method, ITAgentSession.get_AverageWrapUpTime, ITAgentSession::get_AverageWrapUpTime, _tapi3_itagentsession_get_averagewrapuptime, get_AverageWrapUpTime, get_AverageWrapUpTime method [TAPI 2.2], get_AverageWrapUpTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagewrapuptime, tapi3cc/ITAgentSession::get_AverageWrapUpTime

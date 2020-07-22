@@ -4,7 +4,7 @@ title: IVPConfig::IsVPDecimationAllowed (vpconfig.h)
 description: The IsVPDecimationAllowed method, given the context, retrieves whether scaling at the video port is possible.
 helpviewer_keywords: ["IVPConfig interface [DirectShow]","IsVPDecimationAllowed method","IVPConfig.IsVPDecimationAllowed","IVPConfig::IsVPDecimationAllowed","IVPConfigIsVPDecimationAllowed","IsVPDecimationAllowed","IsVPDecimationAllowed method [DirectShow]","IsVPDecimationAllowed method [DirectShow]","IVPConfig interface","dshow.ivpconfig_isvpdecimationallowed","vpconfig/IVPConfig::IsVPDecimationAllowed"]
 old-location: dshow\ivpconfig_isvpdecimationallowed.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2362e321-cbdd-41ee-97ff-e6ff9cd672b0
 ms.date: 12/05/2018
 ms.keywords: IVPConfig interface [DirectShow],IsVPDecimationAllowed method, IVPConfig.IsVPDecimationAllowed, IVPConfig::IsVPDecimationAllowed, IVPConfigIsVPDecimationAllowed, IsVPDecimationAllowed, IsVPDecimationAllowed method [DirectShow], IsVPDecimationAllowed method [DirectShow],IVPConfig interface, dshow.ivpconfig_isvpdecimationallowed, vpconfig/IVPConfig::IsVPDecimationAllowed

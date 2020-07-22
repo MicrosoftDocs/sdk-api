@@ -4,7 +4,7 @@ title: WBEM_QUERY_FLAG_TYPE (wbemcli.h)
 description: Contains flags used to define a query or enumerator.
 helpviewer_keywords: ["WBEM_FLAG_DEEP","WBEM_FLAG_PROTOTYPE","WBEM_FLAG_SHALLOW","WBEM_QUERY_FLAG_TYPE","WBEM_QUERY_FLAG_TYPE enumeration [Windows Management Instrumentation]","wbemcli/WBEM_FLAG_DEEP","wbemcli/WBEM_FLAG_PROTOTYPE","wbemcli/WBEM_FLAG_SHALLOW","wbemcli/WBEM_QUERY_FLAG_TYPE","wmi.wbem_query_flag_type"]
 old-location: wmi\wbem_query_flag_type.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: D0F53F94-682A-432D-8FBA-8EC05C6B69BF
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_DEEP, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SHALLOW, WBEM_QUERY_FLAG_TYPE, WBEM_QUERY_FLAG_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_DEEP, wbemcli/WBEM_FLAG_PROTOTYPE, wbemcli/WBEM_FLAG_SHALLOW, wbemcli/WBEM_QUERY_FLAG_TYPE, wmi.wbem_query_flag_type

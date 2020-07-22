@@ -4,7 +4,7 @@ title: IMFASFStreamSelector::GetBandwidthStep (wmcontainer.h)
 description: Retrieves the stream numbers that apply to a bandwidth step. This method is used for multiple bit rate (MBR) content.
 helpviewer_keywords: ["82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c","GetBandwidthStep","GetBandwidthStep method [Media Foundation]","GetBandwidthStep method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetBandwidthStep method","IMFASFStreamSelector.GetBandwidthStep","IMFASFStreamSelector::GetBandwidthStep","mf.imfasfstreamselector_getbandwidthstep","wmcontainer/IMFASFStreamSelector::GetBandwidthStep"]
 old-location: mf\imfasfstreamselector_getbandwidthstep.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c
 ms.date: 12/05/2018
 ms.keywords: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c, GetBandwidthStep, GetBandwidthStep method [Media Foundation], GetBandwidthStep method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStep method, IMFASFStreamSelector.GetBandwidthStep, IMFASFStreamSelector::GetBandwidthStep, mf.imfasfstreamselector_getbandwidthstep, wmcontainer/IMFASFStreamSelector::GetBandwidthStep

@@ -4,7 +4,7 @@ title: DMOGetName function (dmoreg.h)
 description: The DMOGetName function retrieves the name of a DMO from the registry.
 helpviewer_keywords: ["DMOGetName","DMOGetName function [DirectShow]","dmoreg/DMOGetName","dshow.dmogetname"]
 old-location: dshow\dmogetname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7cb803c2-4fe1-46e3-868d-1b7c28b07a5b
 ms.date: 12/05/2018
 ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, dshow.dmogetname

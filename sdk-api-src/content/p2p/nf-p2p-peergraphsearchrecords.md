@@ -4,7 +4,7 @@ title: PeerGraphSearchRecords function (p2p.h)
 description: The PeerGraphSearchRecords function searches the peer graph for specific records.
 helpviewer_keywords: ["PeerGraphSearchRecords","PeerGraphSearchRecords function [Peer Networking]","p2p.peergraphsearchrecords","p2p/PeerGraphSearchRecords"]
 old-location: p2p\peergraphsearchrecords.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 0f20c738-ae56-4352-a1fb-5aa469a58bc8
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords

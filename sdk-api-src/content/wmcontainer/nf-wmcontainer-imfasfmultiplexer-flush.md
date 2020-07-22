@@ -4,7 +4,7 @@ title: IMFASFMultiplexer::Flush (wmcontainer.h)
 description: Signals the multiplexer to process all queued output media samples. Call this method after passing the last sample to the multiplexer.
 helpviewer_keywords: ["44a66374-ad9d-4c76-8c95-21a15e071c6d","Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFASFMultiplexer interface","IMFASFMultiplexer interface [Media Foundation]","Flush method","IMFASFMultiplexer.Flush","IMFASFMultiplexer::Flush","mf.imfasfmultiplexer_flush","wmcontainer/IMFASFMultiplexer::Flush"]
 old-location: mf\imfasfmultiplexer_flush.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 44a66374-ad9d-4c76-8c95-21a15e071c6d
 ms.date: 12/05/2018
 ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],Flush method, IMFASFMultiplexer.Flush, IMFASFMultiplexer::Flush, mf.imfasfmultiplexer_flush, wmcontainer/IMFASFMultiplexer::Flush

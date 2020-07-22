@@ -4,7 +4,7 @@ title: TERMINAL_MEDIA_STATE (tapi3if.h)
 description: The TERMINAL_MEDIA_STATE enum indicates the state of a file terminal.
 helpviewer_keywords: ["TERMINAL_MEDIA_STATE","TERMINAL_MEDIA_STATE enumeration [TAPI 2.2]","TMS_ACTIVE","TMS_IDLE","TMS_LASTITEM","TMS_PAUSED","_tapi3_terminal_media_state","tapi3.terminal_media_state","tapi3if/TERMINAL_MEDIA_STATE","tapi3if/TMS_ACTIVE","tapi3if/TMS_IDLE","tapi3if/TMS_LASTITEM","tapi3if/TMS_PAUSED"]
 old-location: tapi3\terminal_media_state.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9cc07684-9804-41ac-bc25-f37f6ae00280
 ms.date: 12/05/2018
 ms.keywords: TERMINAL_MEDIA_STATE, TERMINAL_MEDIA_STATE enumeration [TAPI 2.2], TMS_ACTIVE, TMS_IDLE, TMS_LASTITEM, TMS_PAUSED, _tapi3_terminal_media_state, tapi3.terminal_media_state, tapi3if/TERMINAL_MEDIA_STATE, tapi3if/TMS_ACTIVE, tapi3if/TMS_IDLE, tapi3if/TMS_LASTITEM, tapi3if/TMS_PAUSED

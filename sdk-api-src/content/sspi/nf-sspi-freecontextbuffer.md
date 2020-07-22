@@ -4,7 +4,7 @@ title: FreeContextBuffer function (sspi.h)
 description: Enables callers of security package functions to free memory buffers allocated by the security package.
 helpviewer_keywords: ["FreeContextBuffer","FreeContextBuffer function [Security]","_ssp_freecontextbuffer","security.freecontextbuffer","sspi/FreeContextBuffer"]
 old-location: security\freecontextbuffer.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.date: 12/05/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer

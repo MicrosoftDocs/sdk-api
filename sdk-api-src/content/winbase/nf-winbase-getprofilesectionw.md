@@ -4,7 +4,7 @@ title: GetProfileSectionW function (winbase.h)
 description: Retrieves all the keys and values for the specified section of the Win.ini file.
 helpviewer_keywords: ["GetProfileSection","GetProfileSection function","GetProfileSectionA","GetProfileSectionW","_win32_getprofilesection","base.getprofilesection","winbase/GetProfileSection","winbase/GetProfileSectionA","winbase/GetProfileSectionW"]
 old-location: base\getprofilesection.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: cc90811b-5e7b-4c75-987b-57f36a9408c5
 ms.date: 12/05/2018
 ms.keywords: GetProfileSection, GetProfileSection function, GetProfileSectionA, GetProfileSectionW, _win32_getprofilesection, base.getprofilesection, winbase/GetProfileSection, winbase/GetProfileSectionA, winbase/GetProfileSectionW

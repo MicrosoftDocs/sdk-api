@@ -4,7 +4,7 @@ title: CertGetServerOcspResponseContext function (wincrypt.h)
 description: Retrieves a non-blocking, time valid online certificate status protocol (OCSP) response context for the specified handle.
 helpviewer_keywords: ["CertGetServerOcspResponseContext","CertGetServerOcspResponseContext function [Security]","security.certgetserverocspresponsecontext","wincrypt/CertGetServerOcspResponseContext"]
 old-location: security\certgetserverocspresponsecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 07476e43-db6b-4119-8d6b-41143b98744e
 ms.date: 12/05/2018
 ms.keywords: CertGetServerOcspResponseContext, CertGetServerOcspResponseContext function [Security], security.certgetserverocspresponsecontext, wincrypt/CertGetServerOcspResponseContext

@@ -4,7 +4,7 @@ title: DRMInitEnvironment function (msdrm.h)
 description: Creates a secure environment for all rights management calls.
 helpviewer_keywords: ["DRMInitEnvironment","DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMInitEnvironment","rm.drminitenvironment"]
 old-location: rm\drminitenvironment.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: b46277f4-e854-4590-847a-cf4f878bee70
 ms.date: 12/05/2018
 ms.keywords: DRMInitEnvironment, DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMInitEnvironment, rm.drminitenvironment

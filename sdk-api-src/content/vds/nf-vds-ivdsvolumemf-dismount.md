@@ -4,7 +4,7 @@ title: IVdsVolumeMF::Dismount (vds.h)
 description: Dismounts a mounted volume.
 helpviewer_keywords: ["Dismount","Dismount method [VDS]","Dismount method [VDS]","IVdsVolumeMF interface","IVdsVolumeMF interface [VDS]","Dismount method","IVdsVolumeMF.Dismount","IVdsVolumeMF::Dismount","base.ivdsvolumemf_dismount","vds/IVdsVolumeMF::Dismount"]
 old-location: base\ivdsvolumemf_dismount.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 1ef5a1e6-0e41-4077-9ae8-fe266f2623cc
 ms.date: 12/05/2018
 ms.keywords: Dismount, Dismount method [VDS], Dismount method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Dismount method, IVdsVolumeMF.Dismount, IVdsVolumeMF::Dismount, base.ivdsvolumemf_dismount, vds/IVdsVolumeMF::Dismount

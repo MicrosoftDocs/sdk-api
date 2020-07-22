@@ -4,7 +4,7 @@ title: LSA_CONVERT_AUTH_DATA_TO_TOKEN (ntsecpkg.h)
 description: The ConvertAuthDataToToken function creates an access token from the authorization data returned from the GetAuthDataForUser or GetUserAuthData functions.
 helpviewer_keywords: ["ConvertAuthDataToToken","ConvertAuthDataToToken callback function [Security]","LSA_CONVERT_AUTH_DATA_TO_TOKEN","LSA_CONVERT_AUTH_DATA_TO_TOKEN callback","_ssp_convertauthdatatotoken","ntsecpkg/ConvertAuthDataToToken","security.convertauthdatatotoken"]
 old-location: security\convertauthdatatotoken.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 99dfd3b3-40e0-44b2-8752-39b7b394ac0e
 ms.date: 12/05/2018
 ms.keywords: ConvertAuthDataToToken, ConvertAuthDataToToken callback function [Security], LSA_CONVERT_AUTH_DATA_TO_TOKEN, LSA_CONVERT_AUTH_DATA_TO_TOKEN callback, _ssp_convertauthdatatotoken, ntsecpkg/ConvertAuthDataToToken, security.convertauthdatatotoken

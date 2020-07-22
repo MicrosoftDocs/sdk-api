@@ -4,7 +4,7 @@ title: IXpsOMPath::GetAccessibilityLongDescription (xpsobjectmodel.h)
 description: Gets the long (detailed) textual description of the object's contents.
 helpviewer_keywords: ["GetAccessibilityLongDescription","GetAccessibilityLongDescription method [XPS Documents and Packaging]","GetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetAccessibilityLongDescription method","IXpsOMPath.GetAccessibilityLongDescription","IXpsOMPath::GetAccessibilityLongDescription","xps.ixpsompath_getaccessibilitylongdescription","xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription"]
 old-location: xps\ixpsompath_getaccessibilitylongdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0ec32c0c-c6d3-4de0-a896-bf191805e799
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityLongDescription, GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityLongDescription method, IXpsOMPath.GetAccessibilityLongDescription, IXpsOMPath::GetAccessibilityLongDescription, xps.ixpsompath_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription

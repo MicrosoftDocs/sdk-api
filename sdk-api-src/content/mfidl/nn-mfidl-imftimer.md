@@ -4,7 +4,7 @@ title: IMFTimer (mfidl.h)
 description: Provides a timer that invokes a callback at a specified time.
 helpviewer_keywords: ["152594df-de3d-4f6f-9277-dba95ab3533a","IMFTimer","IMFTimer interface [Media Foundation]","IMFTimer interface [Media Foundation]","described","mf.imftimer","mfidl/IMFTimer"]
 old-location: mf\imftimer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
 ms.date: 12/05/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer

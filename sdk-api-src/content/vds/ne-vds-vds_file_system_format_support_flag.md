@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG (vds.h)
 description: Defines the properties of file systems that are supported for formatting volumes.
 helpviewer_keywords: ["VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG","VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG enumeration","VDS_FSS_DEFAULT","VDS_FSS_PREVIOUS_REVISION","VDS_FSS_RECOMMENDED","base.vds_file_system_format_support_flag","vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG","vds/VDS_FSS_DEFAULT","vds/VDS_FSS_PREVIOUS_REVISION","vds/VDS_FSS_RECOMMENDED"]
 old-location: base\vds_file_system_format_support_flag.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 78d60240-44dc-48b8-b2a6-5babbd79085f
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG enumeration, VDS_FSS_DEFAULT, VDS_FSS_PREVIOUS_REVISION, VDS_FSS_RECOMMENDED, base.vds_file_system_format_support_flag, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, vds/VDS_FSS_DEFAULT, vds/VDS_FSS_PREVIOUS_REVISION, vds/VDS_FSS_RECOMMENDED

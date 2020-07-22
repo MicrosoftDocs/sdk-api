@@ -4,7 +4,7 @@ title: IFullScreenVideoEx::IsModeAvailable (amvideo.h)
 description: The IsModeAvailable method queries whether a specified display mode is available.
 helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsModeAvailable method","IFullScreenVideoEx.IsModeAvailable","IFullScreenVideoEx::IsModeAvailable","IFullScreenVideoIsModeAvailable","IsModeAvailable","IsModeAvailable method [DirectShow]","IsModeAvailable method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsModeAvailable","dshow.ifullscreenvideoex_ismodeavailable"]
 old-location: dshow\ifullscreenvideoex_ismodeavailable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable

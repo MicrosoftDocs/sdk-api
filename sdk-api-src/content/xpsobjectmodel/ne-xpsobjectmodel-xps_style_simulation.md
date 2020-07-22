@@ -4,7 +4,7 @@ title: XPS_STYLE_SIMULATION (xpsobjectmodel.h)
 description: Describes the simulation style of a font or glyph.
 helpviewer_keywords: ["XPS_STYLE_SIMULATION","XPS_STYLE_SIMULATION enumeration [XPS Documents and Packaging]","XPS_STYLE_SIMULATION_BOLD","XPS_STYLE_SIMULATION_BOLDITALIC","XPS_STYLE_SIMULATION_ITALIC","XPS_STYLE_SIMULATION_NONE","xps.xps_style_simulation","xpsobjectmodel/XPS_STYLE_SIMULATION","xpsobjectmodel/XPS_STYLE_SIMULATION_BOLD","xpsobjectmodel/XPS_STYLE_SIMULATION_BOLDITALIC","xpsobjectmodel/XPS_STYLE_SIMULATION_ITALIC","xpsobjectmodel/XPS_STYLE_SIMULATION_NONE"]
 old-location: xps\xps_style_simulation.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 3f77c349-ba78-44e9-866a-9f654ed0e9dd
 ms.date: 12/05/2018
 ms.keywords: XPS_STYLE_SIMULATION, XPS_STYLE_SIMULATION enumeration [XPS Documents and Packaging], XPS_STYLE_SIMULATION_BOLD, XPS_STYLE_SIMULATION_BOLDITALIC, XPS_STYLE_SIMULATION_ITALIC, XPS_STYLE_SIMULATION_NONE, xps.xps_style_simulation, xpsobjectmodel/XPS_STYLE_SIMULATION, xpsobjectmodel/XPS_STYLE_SIMULATION_BOLD, xpsobjectmodel/XPS_STYLE_SIMULATION_BOLDITALIC, xpsobjectmodel/XPS_STYLE_SIMULATION_ITALIC, xpsobjectmodel/XPS_STYLE_SIMULATION_NONE

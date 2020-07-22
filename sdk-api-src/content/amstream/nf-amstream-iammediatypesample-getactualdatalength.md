@@ -4,7 +4,7 @@ title: IAMMediaTypeSample::GetActualDataLength (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetActualDataLength method retrieves the data length of the sample, in bytes.
 helpviewer_keywords: ["GetActualDataLength","GetActualDataLength method [DirectShow]","GetActualDataLength method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetActualDataLength method","IAMMediaTypeSample.GetActualDataLength","IAMMediaTypeSample::GetActualDataLength","IAMMediaTypeSampleGetActualDataLength","amstream/IAMMediaTypeSample::GetActualDataLength","dshow.iammediatypesample_getactualdatalength"]
 old-location: dshow\iammediatypesample_getactualdatalength.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e73672c7-7400-40dd-be65-f6c30c476c91
 ms.date: 12/05/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetActualDataLength method, IAMMediaTypeSample.GetActualDataLength, IAMMediaTypeSample::GetActualDataLength, IAMMediaTypeSampleGetActualDataLength, amstream/IAMMediaTypeSample::GetActualDataLength, dshow.iammediatypesample_getactualdatalength

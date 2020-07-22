@@ -4,7 +4,7 @@ title: ISensorCollection::Add (sensorsapi.h)
 description: Adds a sensor to the collection.
 helpviewer_keywords: ["Add","Add method","Add method","ISensorCollection interface","ISensorCollection interface","Add method","ISensorCollection.Add","ISensorCollection::Add","sensorsapi/ISensorCollection::Add","winsensors_com_ref.isensorcollection_add"]
 old-location: winsensors_com_ref\isensorcollection_add.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCollection interface,Add method, ISensorCollection.Add, ISensorCollection::Add, sensorsapi/ISensorCollection::Add, winsensors_com_ref.isensorcollection_add

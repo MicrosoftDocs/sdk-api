@@ -4,7 +4,7 @@ title: IAzOperation::get_Writable (azroles.h)
 description: Retrieves a value that indicates whether the operation can be modified by the user context that initialized it.
 helpviewer_keywords: ["AzOperation object [Security]","Writable property","IAzOperation interface [Security]","Writable property","IAzOperation.Writable","IAzOperation.get_Writable","IAzOperation::Writable","IAzOperation::get_Writable","Writable property [Security]","Writable property [Security]","AzOperation object","Writable property [Security]","IAzOperation interface","azroles/IAzOperation::Writable","azroles/IAzOperation::get_Writable","get_Writable","security.iazoperation_writable"]
 old-location: security\iazoperation_writable.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 16745237-23d9-4818-b8f8-de93405ae9ac
 ms.date: 12/05/2018
 ms.keywords: AzOperation object [Security],Writable property, IAzOperation interface [Security],Writable property, IAzOperation.Writable, IAzOperation.get_Writable, IAzOperation::Writable, IAzOperation::get_Writable, Writable property [Security], Writable property [Security],AzOperation object, Writable property [Security],IAzOperation interface, azroles/IAzOperation::Writable, azroles/IAzOperation::get_Writable, get_Writable, security.iazoperation_writable

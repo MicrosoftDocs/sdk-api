@@ -4,7 +4,7 @@ title: PeerCollabGetContact function (p2p.h)
 description: Obtains the information for a peer contact given the peer name of the contact.
 helpviewer_keywords: ["PeerCollabGetContact","PeerCollabGetContact function [Peer Networking]","p2p.peercollabgetcontact","p2p/PeerCollabGetContact"]
 old-location: p2p\peercollabgetcontact.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b1233942-1bd5-4198-a00c-6d0516ab32dc
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetContact, PeerCollabGetContact function [Peer Networking], p2p.peercollabgetcontact, p2p/PeerCollabGetContact

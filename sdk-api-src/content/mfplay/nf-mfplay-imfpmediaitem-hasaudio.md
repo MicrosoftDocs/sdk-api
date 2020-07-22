@@ -4,7 +4,7 @@ title: IMFPMediaItem::HasAudio (mfplay.h)
 description: Queries whether the media item contains an audio stream.
 helpviewer_keywords: ["HasAudio","HasAudio method [Media Foundation]","HasAudio method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","HasAudio method","IMFPMediaItem.HasAudio","IMFPMediaItem::HasAudio","mf.imfpmediaitem_hasaudio","mfplay/IMFPMediaItem::HasAudio"]
 old-location: mf\imfpmediaitem_hasaudio.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7
 ms.date: 12/05/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasAudio method, IMFPMediaItem.HasAudio, IMFPMediaItem::HasAudio, mf.imfpmediaitem_hasaudio, mfplay/IMFPMediaItem::HasAudio

@@ -4,7 +4,7 @@ title: IX509ExtensionMSApplicationPolicies::InitializeEncode (certenroll.h)
 description: Initializes the extension from an ICertificatePolicies collection.
 helpviewer_keywords: ["IX509ExtensionMSApplicationPolicies interface [Security]","InitializeEncode method","IX509ExtensionMSApplicationPolicies.InitializeEncode","IX509ExtensionMSApplicationPolicies::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionMSApplicationPolicies interface","certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode","security.ix509extensionmsapplicationpolicies_initializeencode_method"]
 old-location: security\ix509extensionmsapplicationpolicies_initializeencode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 2b79c295-5260-4708-9a20-2ac41052a171
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeEncode method, IX509ExtensionMSApplicationPolicies.InitializeEncode, IX509ExtensionMSApplicationPolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode, security.ix509extensionmsapplicationpolicies_initializeencode_method

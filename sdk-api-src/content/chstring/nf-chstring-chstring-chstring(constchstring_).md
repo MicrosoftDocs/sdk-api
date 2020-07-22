@@ -4,7 +4,7 @@ title: CHString::CHString(const CHString &) (chstring.h)
 description: Initializes a new CHString object with the specified data.
 helpviewer_keywords: ["??0CHString@@QAE@ABV0@@Z","??0CHString@@QEAA@AEBV0@@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(const CHString &)","CHString::CHString","CHString::CHString(const CHString &)","CHString::CHString(const CHString&)","chstring/CHString::CHString","wmi.chstring_chstring_const_chstring__"]
 old-location: wmi\chstring_chstring_const_chstring__.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 2b799ee3-e54f-4911-ac0c-4bca91a830d4
 ms.date: 12/05/2018
 ms.keywords: ??0CHString@@QAE@ABV0@@Z, ??0CHString@@QEAA@AEBV0@@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(const CHString &), CHString::CHString, CHString::CHString(const CHString &), CHString::CHString(const CHString&), chstring/CHString::CHString, wmi.chstring_chstring_const_chstring__

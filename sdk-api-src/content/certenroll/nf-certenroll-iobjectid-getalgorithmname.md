@@ -4,7 +4,7 @@ title: IObjectId::GetAlgorithmName (certenroll.h)
 description: Retrieves the display name associated with an algorithm object identifier (OID).
 helpviewer_keywords: ["GetAlgorithmName","GetAlgorithmName method [Security]","GetAlgorithmName method [Security]","IObjectId interface","IObjectId interface [Security]","GetAlgorithmName method","IObjectId.GetAlgorithmName","IObjectId::GetAlgorithmName","certenroll/IObjectId::GetAlgorithmName","security.iobjectid_getalgorithmname"]
 old-location: security\iobjectid_getalgorithmname.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname

@@ -4,7 +4,7 @@ title: ICEnroll4::getProviderType (xenroll.h)
 description: Retrieves the type of the specified cryptographic service provider (CSP). This method was first defined in the ICEnroll4 interface.
 helpviewer_keywords: ["CEnroll object [Security]","getProviderType method","ICEnroll4 interface [Security]","getProviderType method","ICEnroll4.getProviderType","ICEnroll4::getProviderType","getProviderType","getProviderType method [Security]","getProviderType method [Security]","CEnroll object","getProviderType method [Security]","ICEnroll4 interface","security.icenroll4_getprovidertype","xenroll/ICEnroll4::getProviderType"]
 old-location: security\icenroll4_getprovidertype.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f47c07b8-0919-44d4-b331-e062341aa050
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getProviderType method, ICEnroll4 interface [Security],getProviderType method, ICEnroll4.getProviderType, ICEnroll4::getProviderType, getProviderType, getProviderType method [Security], getProviderType method [Security],CEnroll object, getProviderType method [Security],ICEnroll4 interface, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType

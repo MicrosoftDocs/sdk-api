@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::GetAllProperties (certadm.h)
 description: Gets all properties in a property set.
 helpviewer_keywords: ["GetAllProperties","GetAllProperties method [Security]","GetAllProperties method [Security]","IOCSPPropertyCollection interface","IOCSPPropertyCollection interface [Security]","GetAllProperties method","IOCSPPropertyCollection.GetAllProperties","IOCSPPropertyCollection::GetAllProperties","certadm/IOCSPPropertyCollection::GetAllProperties","security.iocsppropertycollection_getallproperties_method"]
 old-location: security\iocsppropertycollection_getallproperties_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
 ms.date: 12/05/2018
 ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllProperties method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],GetAllProperties method, IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method

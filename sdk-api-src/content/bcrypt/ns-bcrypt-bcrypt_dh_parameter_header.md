@@ -4,7 +4,7 @@ title: BCRYPT_DH_PARAMETER_HEADER (bcrypt.h)
 description: Used to contain parameter header information for a Diffie-Hellman key.
 helpviewer_keywords: ["BCRYPT_DH_PARAMETERS_MAGIC","BCRYPT_DH_PARAMETER_HEADER","BCRYPT_DH_PARAMETER_HEADER structure [Security]","bcrypt/BCRYPT_DH_PARAMETER_HEADER","security.bcrypt_dh_parameter_header"]
 old-location: security\bcrypt_dh_parameter_header.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 5d023653-6197-4f08-8c71-e1d10f6b1860
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_PARAMETERS_MAGIC, BCRYPT_DH_PARAMETER_HEADER, BCRYPT_DH_PARAMETER_HEADER structure [Security], bcrypt/BCRYPT_DH_PARAMETER_HEADER, security.bcrypt_dh_parameter_header

@@ -4,7 +4,7 @@ title: CLS_INFORMATION (clfs.h)
 description: Describes general information about a log.
 helpviewer_keywords: ["*PCLFS_INFORMATION","*PCLS_INFORMATION","*PPCLS_INFORMATION","CLFS_INFORMATION","CLFS_INFORMATION structure [Files]","CLS_INFORMATION","PCLFS_INFORMATION","PCLFS_INFORMATION structure pointer [Files]","PPCLFS_INFORMATION","PPCLFS_INFORMATION structure pointer [Files]","clfs/PCLFS_INFORMATION","clfs/PPCLFS_INFORMATION","clfs/_CLFS_INFORMATION","fs.clfs_information"]
 old-location: fs\clfs_information.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 06f5919e-b98f-4502-9653-9ef42c1ebe5a
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, CLFS_INFORMATION, CLFS_INFORMATION structure [Files], CLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Files], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Files], clfs/PCLFS_INFORMATION, clfs/PPCLFS_INFORMATION, clfs/_CLFS_INFORMATION, fs.clfs_information'

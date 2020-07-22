@@ -4,7 +4,7 @@ title: SERVICE_PREFERRED_NODE_INFO (winsvc.h)
 description: Represents the preferred node on which to run a service.
 helpviewer_keywords: ["*LPSERVICE_PREFERRED_NODE_INFO","LPSERVICE_PREFERRED_NODE_INFO","LPSERVICE_PREFERRED_NODE_INFO structure pointer","SERVICE_PREFERRED_NODE_INFO","SERVICE_PREFERRED_NODE_INFO structure","base.service_preferred_node_info","winsvc/LPSERVICE_PREFERRED_NODE_INFO","winsvc/SERVICE_PREFERRED_NODE_INFO"]
 old-location: base\service_preferred_node_info.htm
-tech.root: Services
+tech.root: security
 ms.assetid: aa16cc56-0a95-47e0-9390-c219b83aeeb4
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO structure pointer, SERVICE_PREFERRED_NODE_INFO, SERVICE_PREFERRED_NODE_INFO structure, base.service_preferred_node_info, winsvc/LPSERVICE_PREFERRED_NODE_INFO, winsvc/SERVICE_PREFERRED_NODE_INFO'

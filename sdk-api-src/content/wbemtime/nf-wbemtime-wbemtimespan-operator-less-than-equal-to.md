@@ -4,7 +4,7 @@ title: WBEMTimeSpan::operator-less-than-equal-to (wbemtime.h)
 description: Compares two WBEMTimeSpan objects using a less than or equal comparison operator.
 helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator<= method","WBEMTimeSpan.operator-less-than-equal-to","WBEMTimeSpan.operator<=","WBEMTimeSpan::operator-less-than-equal-to","WBEMTimeSpan::operator<=","operator<=","operator<= method [Windows Management Instrumentation]","operator<= method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator<=","wmi.wbemtimespan_comparison_operators_lessthanorequal"]
 old-location: wmi\wbemtimespan_comparison_operators_lessthanorequal.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 32fdd62d-1f48-4cf7-824e-18edf4fd7b95
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator<= method, WBEMTimeSpan.operator-less-than-equal-to, WBEMTimeSpan.operator<=, WBEMTimeSpan::operator-less-than-equal-to, WBEMTimeSpan::operator<=, operator<=, operator<= method [Windows Management Instrumentation], operator<= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator<=, wmi.wbemtimespan_comparison_operators_lessthanorequal

@@ -4,7 +4,7 @@ title: WSDFreeLinkedMemory function (wsdutil.h)
 description: Frees a memory block previously allocated with WSDAllocateLinkedMemory.
 helpviewer_keywords: ["WSDFreeLinkedMemory","WSDFreeLinkedMemory function","ncd.wsdfreelinkedmemory_func","wsdutil/WSDFreeLinkedMemory"]
 old-location: ncd\wsdfreelinkedmemory_func.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8fe6f586-a262-4248-9650-dec0fae8cd74
 ms.date: 12/05/2018
 ms.keywords: WSDFreeLinkedMemory, WSDFreeLinkedMemory function, ncd.wsdfreelinkedmemory_func, wsdutil/WSDFreeLinkedMemory

@@ -2,6 +2,7 @@
 UID: NC:windns.DNS_SERVICE_RESOLVE_COMPLETE
 title: DNS_SERVICE_RESOLVE_COMPLETE callback function
 description: Used to asynchronously return the results of a service resolve operation.
+tech.root: dns
 helpviewer_keywords: ["DNS_SERVICE_RESOLVE_COMPLETE"]
 ms.date: 02/19/2019
 ms.keywords: DNS_SERVICE_RESOLVE_COMPLETE

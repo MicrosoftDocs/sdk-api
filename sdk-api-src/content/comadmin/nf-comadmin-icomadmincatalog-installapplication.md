@@ -4,7 +4,7 @@ title: ICOMAdminCatalog::InstallApplication (comadmin.h)
 description: Installs a COM+ application or application proxy from the specified file.
 helpviewer_keywords: ["COMAdminInstallForceOverwriteOfFiles","COMAdminInstallNoUsers","COMAdminInstallUsers","ICOMAdminCatalog interface [COM+]","InstallApplication method","ICOMAdminCatalog.InstallApplication","ICOMAdminCatalog::InstallApplication","InstallApplication","InstallApplication method [COM+]","InstallApplication method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_InstallApplication","comadmin/ICOMAdminCatalog::InstallApplication","cos.icomadmincatalog_installapplication"]
 old-location: cos\icomadmincatalog_installapplication.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 668f73e1-7238-42f5-b68c-a0b0c2595d18
 ms.date: 12/05/2018
 ms.keywords: COMAdminInstallForceOverwriteOfFiles, COMAdminInstallNoUsers, COMAdminInstallUsers, ICOMAdminCatalog interface [COM+],InstallApplication method, ICOMAdminCatalog.InstallApplication, ICOMAdminCatalog::InstallApplication, InstallApplication, InstallApplication method [COM+], InstallApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallApplication, comadmin/ICOMAdminCatalog::InstallApplication, cos.icomadmincatalog_installapplication

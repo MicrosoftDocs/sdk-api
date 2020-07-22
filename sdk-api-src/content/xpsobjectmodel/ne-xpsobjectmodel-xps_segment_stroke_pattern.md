@@ -4,7 +4,7 @@ title: XPS_SEGMENT_STROKE_PATTERN (xpsobjectmodel.h)
 description: Indicates whether all, some, or none of the segments in a figure are stroked.
 helpviewer_keywords: ["XPS_SEGMENT_STROKE_PATTERN","XPS_SEGMENT_STROKE_PATTERN enumeration [XPS Documents and Packaging]","XPS_SEGMENT_STROKE_PATTERN_ALL","XPS_SEGMENT_STROKE_PATTERN_MIXED","XPS_SEGMENT_STROKE_PATTERN_NONE","xps.xps_segment_stroke_pattern","xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN","xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_ALL","xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_MIXED","xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_NONE"]
 old-location: xps\xps_segment_stroke_pattern.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e824884e-ffad-4c44-9df8-e9c21e1f3758
 ms.date: 12/05/2018
 ms.keywords: XPS_SEGMENT_STROKE_PATTERN, XPS_SEGMENT_STROKE_PATTERN enumeration [XPS Documents and Packaging], XPS_SEGMENT_STROKE_PATTERN_ALL, XPS_SEGMENT_STROKE_PATTERN_MIXED, XPS_SEGMENT_STROKE_PATTERN_NONE, xps.xps_segment_stroke_pattern, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_ALL, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_MIXED, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_NONE

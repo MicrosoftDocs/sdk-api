@@ -4,7 +4,7 @@ title: IXpsOMGlyphsEditor::GetProhibitedCaretStopCount (xpsobjectmodel.h)
 description: Gets the number of prohibited caret stops.
 helpviewer_keywords: ["GetProhibitedCaretStopCount","GetProhibitedCaretStopCount method [XPS Documents and Packaging]","GetProhibitedCaretStopCount method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetProhibitedCaretStopCount method","IXpsOMGlyphsEditor.GetProhibitedCaretStopCount","IXpsOMGlyphsEditor::GetProhibitedCaretStopCount","xps.ixpsomglyphseditor_getprohibitedcaretstopcount","xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount"]
 old-location: xps\ixpsomglyphseditor_getprohibitedcaretstopcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8aeb4868-f52e-4e80-b0c6-c8f759066fb2
 ms.date: 12/05/2018
 ms.keywords: GetProhibitedCaretStopCount, GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetProhibitedCaretStopCount method, IXpsOMGlyphsEditor.GetProhibitedCaretStopCount, IXpsOMGlyphsEditor::GetProhibitedCaretStopCount, xps.ixpsomglyphseditor_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount

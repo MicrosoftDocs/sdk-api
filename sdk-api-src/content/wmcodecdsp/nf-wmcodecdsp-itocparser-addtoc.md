@@ -5,7 +5,7 @@ title: ITocParser::AddToc (wmcodecdsp.h)
 description: The AddToc method adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
 helpviewer_keywords: ["AddToc","AddToc method [Media Foundation]","AddToc method [Media Foundation]","ITocParser interface","ITocParser interface [Media Foundation]","AddToc method","ITocParser.AddToc","ITocParser::AddToc","codecapi.itocparser_addtoc","mf.itocparser_addtoc","wmcodecdsp/ITocParser::AddToc"]
 old-location: mf\itocparser_addtoc.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c99ccbb3-ba33-4d87-81a3-0de3c180554a
 
 ms.date: 12/05/2018

@@ -4,7 +4,7 @@ title: IMFSensorDevice::GetSensorDeviceMode (mfidl.h)
 description: Gets a value that specifies the current sharing mode of the sensor device, which is either controller or shared.
 helpviewer_keywords: ["GetSensorDeviceMode","GetSensorDeviceMode method [Media Foundation]","GetSensorDeviceMode method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetSensorDeviceMode method","IMFSensorDevice.GetSensorDeviceMode","IMFSensorDevice::GetSensorDeviceMode","mf.imfsensordevice_getsensordevicemode","mfidl/IMFSensorDevice::GetSensorDeviceMode"]
 old-location: mf\imfsensordevice_getsensordevicemode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 21594884-DAA5-450C-855D-E800FE164C5E
 ms.date: 12/05/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode

@@ -4,7 +4,7 @@ title: PHONEMESSAGE (tapi.h)
 description: The PHONEMESSAGE structure contains the next message queued for delivery to the application. The phoneGetMessage function returns this structure.
 helpviewer_keywords: ["*LPPHONEMESSAGE","LPPHONEMESSAGE","LPPHONEMESSAGE structure pointer [TAPI 2.2]","PHONEMESSAGE","PHONEMESSAGE structure [TAPI 2.2]","_tapi2_phonemessage_str","tapi/LPPHONEMESSAGE","tapi/PHONEMESSAGE","tapi2.phonemessage_str"]
 old-location: tapi2\phonemessage_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3655efef-d24c-4d67-b1dc-29d1948a1869
 ms.date: 12/05/2018
 ms.keywords: '*LPPHONEMESSAGE, LPPHONEMESSAGE, LPPHONEMESSAGE structure pointer [TAPI 2.2], PHONEMESSAGE, PHONEMESSAGE structure [TAPI 2.2], _tapi2_phonemessage_str, tapi/LPPHONEMESSAGE, tapi/PHONEMESSAGE, tapi2.phonemessage_str'

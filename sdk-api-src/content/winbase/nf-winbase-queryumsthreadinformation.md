@@ -4,7 +4,7 @@ title: QueryUmsThreadInformation function (winbase.h)
 description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.
 helpviewer_keywords: ["QueryUmsThreadInformation","QueryUmsThreadInformation function","base.queryumsthreadinformation","winbase/QueryUmsThreadInformation"]
 old-location: base\queryumsthreadinformation.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.date: 12/05/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation

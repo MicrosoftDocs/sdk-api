@@ -2,6 +2,7 @@
 UID: NF:chstring.CHString.Format(UINT,...)
 title: CHString::Format
 description: 
+tech.root: wmi
 helpviewer_keywords: ["CHString::Format"]
 ms.assetid: 5fadf422-fa36-4c68-b150-c79a71346768
 ms.date: 05/13/2019

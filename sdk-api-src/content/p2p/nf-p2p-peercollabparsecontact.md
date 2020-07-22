@@ -4,7 +4,7 @@ title: PeerCollabParseContact function (p2p.h)
 description: Parses a Unicode string buffer containing contact XML data into a PEER_CONTACT data structure.
 helpviewer_keywords: ["PeerCollabParseContact","PeerCollabParseContact function [Peer Networking]","p2p.peercollabparsecontact","p2p/PeerCollabParseContact"]
 old-location: p2p\peercollabparsecontact.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.date: 12/05/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact

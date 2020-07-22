@@ -4,7 +4,7 @@ title: IVMRSurface (strmif.h)
 description: The IVMRSurface interface is implemented on the media samples used by the Video Mixing Renderer Filter 7 (VMR-7).
 helpviewer_keywords: ["IVMRSurface","IVMRSurface interface [DirectShow]","IVMRSurface interface [DirectShow]","described","IVMRSurfaceInterface","dshow.ivmrsurface","strmif/IVMRSurface"]
 old-location: dshow\ivmrsurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8222ea5c-be77-4f33-83ff-073fb3e85e73
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow],described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface

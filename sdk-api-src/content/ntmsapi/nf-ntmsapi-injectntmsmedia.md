@@ -4,7 +4,7 @@ title: InjectNtmsMedia function (ntmsapi.h)
 description: The InjectNtmsMedia function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues InjectNtmsMedia and returns success.
 helpviewer_keywords: ["InjectNtmsMedia","InjectNtmsMedia function [Files]","NTMS_INJECT_RETRACT","NTMS_INJECT_START","NTMS_INJECT_START_MANY","NTMS_INJECT_STOP","_zaw_injectntmsmedia","base.injectntmsmedia","fs.injectntmsmedia","ntmsapi/InjectNtmsMedia"]
 old-location: fs\injectntmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: c4274c9c-f052-42dd-859b-85606d455001
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia

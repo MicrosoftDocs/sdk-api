@@ -4,7 +4,7 @@ title: IAMGraphBuilderCallback (strmif.h)
 description: The IAMGraphBuilderCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
 helpviewer_keywords: ["IAMGraphBuilderCallback","IAMGraphBuilderCallback interface [DirectShow]","IAMGraphBuilderCallback interface [DirectShow]","described","IAMGraphBuilderCallbackInterface","dshow.iamgraphbuildercallback","strmif/IAMGraphBuilderCallback"]
 old-location: dshow\iamgraphbuildercallback.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4d8e45e3-7144-44ad-b79e-5acc0cec6ed4
 ms.date: 12/05/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], IAMGraphBuilderCallback interface [DirectShow],described, IAMGraphBuilderCallbackInterface, dshow.iamgraphbuildercallback, strmif/IAMGraphBuilderCallback

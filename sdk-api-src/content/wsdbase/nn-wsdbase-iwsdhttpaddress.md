@@ -4,7 +4,7 @@ title: IWSDHttpAddress (wsdbase.h)
 description: Provides access to the individual components of an HTTP address.
 helpviewer_keywords: ["IWSDHttpAddress","IWSDHttpAddress interface","IWSDHttpAddress interface","described","ncd.iwsdhttpaddress","wsdbase/IWSDHttpAddress"]
 old-location: ncd\iwsdhttpaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 79d3570a-56b2-40ad-b3c6-cddc3239da7e
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress, IWSDHttpAddress interface, IWSDHttpAddress interface,described, ncd.iwsdhttpaddress, wsdbase/IWSDHttpAddress

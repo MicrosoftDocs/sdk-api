@@ -4,7 +4,7 @@ title: IX509CertificateRequest::Initialize (certenroll.h)
 description: Initializes the request object for a user or a computer.
 helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509CertificateRequest interface [Security]","Initialize method","IX509CertificateRequest.Initialize","IX509CertificateRequest::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::Initialize","security.ix509certificaterequest_initialize_method"]
 old-location: security\ix509certificaterequest_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: be0e2cda-5481-49ab-9a12-6dc52981fd24
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest interface [Security],Initialize method, IX509CertificateRequest.Initialize, IX509CertificateRequest::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method

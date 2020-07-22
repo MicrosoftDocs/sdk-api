@@ -4,7 +4,7 @@ title: CfReportProviderProgress function (cfapi.h)
 description: Allows a sync provider to report progress out-of-band.
 helpviewer_keywords: ["CfReportProviderProgress","CfReportProviderProgress function","cfapi/CfReportProviderProgress","cloudApi.cfreportproviderprogress"]
 old-location: cloudapi\cfreportproviderprogress.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069
 ms.date: 12/05/2018
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress

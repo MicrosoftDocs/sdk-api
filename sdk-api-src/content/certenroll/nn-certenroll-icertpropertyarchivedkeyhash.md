@@ -4,7 +4,7 @@ title: ICertPropertyArchivedKeyHash (certenroll.h)
 description: Represents a SHA-1 hash of an encrypted private key submitted to a certification authority for archival.
 helpviewer_keywords: ["ICertPropertyArchivedKeyHash","ICertPropertyArchivedKeyHash interface [Security]","ICertPropertyArchivedKeyHash interface [Security]","described","certenroll/ICertPropertyArchivedKeyHash","security.icertpropertyarchivedkeyhash"]
 old-location: security\icertpropertyarchivedkeyhash.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 06696346-b9d1-4229-991e-539862cff3c9
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], ICertPropertyArchivedKeyHash interface [Security],described, certenroll/ICertPropertyArchivedKeyHash, security.icertpropertyarchivedkeyhash

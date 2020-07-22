@@ -4,7 +4,7 @@ title: IWSDUdpAddress::GetMessageType (wsdbase.h)
 description: Gets the message type for this UDP address configuration.
 helpviewer_keywords: ["GetMessageType","GetMessageType method","GetMessageType method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetMessageType method","IWSDUdpAddress.GetMessageType","IWSDUdpAddress::GetMessageType","ncd.iwsdudpaddress_getmessagetype","wsdbase/IWSDUdpAddress::GetMessageType"]
 old-location: ncd\iwsdudpaddress_getmessagetype.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 258d7067-9b2b-4375-8b1a-c1d45cf55788
 ms.date: 12/05/2018
 ms.keywords: GetMessageType, GetMessageType method, GetMessageType method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetMessageType method, IWSDUdpAddress.GetMessageType, IWSDUdpAddress::GetMessageType, ncd.iwsdudpaddress_getmessagetype, wsdbase/IWSDUdpAddress::GetMessageType

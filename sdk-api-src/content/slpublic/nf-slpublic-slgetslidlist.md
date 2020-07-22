@@ -4,7 +4,7 @@ title: SLGetSLIDList function (slpublic.h)
 description: Gets a list of SLIDs according to the input query ID type and the ID value.
 helpviewer_keywords: ["SLGetSLIDList","SLGetSLIDList function [Security]","security.slgetslidlist","slpublic/SLGetSLIDList"]
 old-location: security\slgetslidlist.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: e2733f2e-e78b-4a77-a81d-d5913baa4bc4
 ms.date: 12/05/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList

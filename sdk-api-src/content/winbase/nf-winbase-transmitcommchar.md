@@ -4,7 +4,7 @@ title: TransmitCommChar function (winbase.h)
 description: Transmits a specified character ahead of any pending data in the output buffer of the specified communications device.
 helpviewer_keywords: ["TransmitCommChar","TransmitCommChar function","_win32_transmitcommchar","base.transmitcommchar","winbase/TransmitCommChar"]
 old-location: base\transmitcommchar.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 599c3d04-6cd3-41ac-88a8-752f4b83d46b
 ms.date: 12/05/2018
 ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommchar, base.transmitcommchar, winbase/TransmitCommChar

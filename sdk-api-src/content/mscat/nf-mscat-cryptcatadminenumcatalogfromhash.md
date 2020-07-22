@@ -4,7 +4,7 @@ title: CryptCATAdminEnumCatalogFromHash function (mscat.h)
 description: Enumerates the catalogs that contain a specified hash.
 helpviewer_keywords: ["CryptCATAdminEnumCatalogFromHash","CryptCATAdminEnumCatalogFromHash function [Security]","mscat/CryptCATAdminEnumCatalogFromHash","security.cryptcatadminenumcatalogfromhash"]
 old-location: security\cryptcatadminenumcatalogfromhash.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash

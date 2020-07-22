@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPIOCTL
 title: LPWSPIOCTL
 description: The LPWSPIoctl function controls the mode of a socket.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPIOCTL"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPIOCTL

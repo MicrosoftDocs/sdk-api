@@ -4,7 +4,7 @@ title: IAMExtTransport::GetTransportBasicParameters (strmif.h)
 description: The GetTransportBasicParameters method retrieves general properties of the external transport.
 helpviewer_keywords: ["GetTransportBasicParameters","GetTransportBasicParameters method [DirectShow]","GetTransportBasicParameters method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetTransportBasicParameters method","IAMExtTransport.GetTransportBasicParameters","IAMExtTransport::GetTransportBasicParameters","IAMExtTransportGetTransportBasicParameters","dshow.iamexttransport_gettransportbasicparameters","strmif/IAMExtTransport::GetTransportBasicParameters"]
 old-location: dshow\iamexttransport_gettransportbasicparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7f670efe-4433-496d-b789-925c02b69f58
 ms.date: 12/05/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters

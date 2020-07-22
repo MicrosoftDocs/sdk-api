@@ -4,7 +4,7 @@ title: CWbemProviderGlue::GetAllInstancesAsynch (wbemglue.h)
 description: The GetAllInstancesAsynch method retrieves a list of instances returned by a specific class. This method allows the provider to respond asynchronously by returning one instance at a time.
 helpviewer_keywords: ["CWbemProviderGlue interface [Windows Management Instrumentation]","GetAllInstancesAsynch method","CWbemProviderGlue.GetAllInstancesAsynch","CWbemProviderGlue::GetAllInstancesAsynch","GetAllInstancesAsynch","GetAllInstancesAsynch method [Windows Management Instrumentation]","GetAllInstancesAsynch method [Windows Management Instrumentation]","CWbemProviderGlue interface","_hmm_cwbemproviderglue_getallinstancesasynch","wbemglue/CWbemProviderGlue::GetAllInstancesAsynch","wmi.cwbemproviderglue_getallinstancesasynch"]
 old-location: wmi\cwbemproviderglue_getallinstancesasynch.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 58fe7757-c130-4859-9b60-d08bfb445eb1
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllInstancesAsynch method, CWbemProviderGlue.GetAllInstancesAsynch, CWbemProviderGlue::GetAllInstancesAsynch, GetAllInstancesAsynch, GetAllInstancesAsynch method [Windows Management Instrumentation], GetAllInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallinstancesasynch, wbemglue/CWbemProviderGlue::GetAllInstancesAsynch, wmi.cwbemproviderglue_getallinstancesasynch

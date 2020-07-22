@@ -4,7 +4,7 @@ title: SetupGetSourceFileLocationW function (setupapi.h)
 description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
 helpviewer_keywords: ["SetupGetSourceFileLocation","SetupGetSourceFileLocation function [Setup API]","SetupGetSourceFileLocationA","SetupGetSourceFileLocationW","_setupapi_setupgetsourcefilelocation","setup.setupgetsourcefilelocation","setupapi/SetupGetSourceFileLocation","setupapi/SetupGetSourceFileLocationA","setupapi/SetupGetSourceFileLocationW"]
 old-location: setup\setupgetsourcefilelocation.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW

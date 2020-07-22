@@ -4,7 +4,7 @@ title: DXVA2_DecodeExtensionData (dxva2api.h)
 description: Contains private data for the IDirectXVideoDecoder::Execute method.
 helpviewer_keywords: ["2a1b7139-fcbb-40b0-9ed3-f9b1fe482358","DXVA2_DecodeExtensionData","DXVA2_DecodeExtensionData structure [Media Foundation]","dxva2api/DXVA2_DecodeExtensionData","mf.dxva2_decodeextensiondata"]
 old-location: mf\dxva2_decodeextensiondata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
 ms.date: 12/05/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata

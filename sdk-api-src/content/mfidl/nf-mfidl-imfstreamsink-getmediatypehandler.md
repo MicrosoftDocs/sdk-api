@@ -4,7 +4,7 @@ title: IMFStreamSink::GetMediaTypeHandler (mfidl.h)
 description: Retrieves the media type handler for the stream sink. You can use the media type handler to find which formats the stream supports, and to set the media type on the stream.
 helpviewer_keywords: ["819d06b1-6b52-4496-bed8-a08b8f0b6153","GetMediaTypeHandler","GetMediaTypeHandler method [Media Foundation]","GetMediaTypeHandler method [Media Foundation]","IMFStreamSink interface","IMFStreamSink interface [Media Foundation]","GetMediaTypeHandler method","IMFStreamSink.GetMediaTypeHandler","IMFStreamSink::GetMediaTypeHandler","mf.imfstreamsink_getmediatypehandler","mfidl/IMFStreamSink::GetMediaTypeHandler"]
 old-location: mf\imfstreamsink_getmediatypehandler.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 819d06b1-6b52-4496-bed8-a08b8f0b6153
 ms.date: 12/05/2018
 ms.keywords: 819d06b1-6b52-4496-bed8-a08b8f0b6153, GetMediaTypeHandler, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaTypeHandler method, IMFStreamSink.GetMediaTypeHandler, IMFStreamSink::GetMediaTypeHandler, mf.imfstreamsink_getmediatypehandler, mfidl/IMFStreamSink::GetMediaTypeHandler

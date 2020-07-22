@@ -4,7 +4,7 @@ title: LZInit function (lzexpand.h)
 description: Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 helpviewer_keywords: ["LZInit","LZInit function [Files]","_win32_lzinit","base.lzinit","fs.lzinit","lzexpand/LZInit"]
 old-location: fs\lzinit.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.date: 12/05/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit

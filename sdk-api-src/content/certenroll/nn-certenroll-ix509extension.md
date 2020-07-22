@@ -4,7 +4,7 @@ title: IX509Extension (certenroll.h)
 description: Can be used to define an extension for a certificate request.
 helpviewer_keywords: ["IX509Extension","IX509Extension interface [Security]","IX509Extension interface [Security]","described","certenroll/IX509Extension","security.ix509extension"]
 old-location: security\ix509extension.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
 ms.date: 12/05/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension

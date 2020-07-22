@@ -4,7 +4,7 @@ title: ISmimeCapabilities::AddFromCsp (certenroll.h)
 description: Adds objects to the collection by identifying the encryption algorithms supported by a specific cryptographic provider.
 helpviewer_keywords: ["AddFromCsp","AddFromCsp method [Security]","AddFromCsp method [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","AddFromCsp method","ISmimeCapabilities.AddFromCsp","ISmimeCapabilities::AddFromCsp","certenroll/ISmimeCapabilities::AddFromCsp","security.ismimecapabilities_addfromcsp_method"]
 old-location: security\ismimecapabilities_addfromcsp_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a4244a4e-6ec3-4c1f-a0d6-607cc942b5f5
 ms.date: 12/05/2018
 ms.keywords: AddFromCsp, AddFromCsp method [Security], AddFromCsp method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddFromCsp method, ISmimeCapabilities.AddFromCsp, ISmimeCapabilities::AddFromCsp, certenroll/ISmimeCapabilities::AddFromCsp, security.ismimecapabilities_addfromcsp_method

@@ -4,7 +4,7 @@ title: DRMGetCertificateChainCount function (msdrm.h)
 description: Retrieves the number of certificates in a certificate chain.
 helpviewer_keywords: ["DRMGetCertificateChainCount","DRMGetCertificateChainCount function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetCertificateChainCount","rm.drmgetcertificatechaincount"]
 old-location: rm\drmgetcertificatechaincount.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: c19e7cfe-2a28-41d5-9075-3e159be1d9ab
 ms.date: 12/05/2018
 ms.keywords: DRMGetCertificateChainCount, DRMGetCertificateChainCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetCertificateChainCount, rm.drmgetcertificatechaincount

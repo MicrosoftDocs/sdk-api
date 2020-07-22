@@ -4,7 +4,7 @@ title: ICrmMonitorClerks::TransactionUOW (comsvcs.h)
 description: Retrieves the unit of work (UOW) of the transaction for the specified index.
 helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","TransactionUOW method","ICrmMonitorClerks.TransactionUOW","ICrmMonitorClerks::TransactionUOW","TransactionUOW","TransactionUOW method [COM+]","TransactionUOW method [COM+]","ICrmMonitorClerks interface","_dtc_ICrmMonitorClerks_TransactionUOW","comsvcs/ICrmMonitorClerks::TransactionUOW","cos.icrmmonitorclerks_transactionuow"]
 old-location: cos\icrmmonitorclerks_transactionuow.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9907ae75-7cb6-4fde-837c-616b106b4d7d
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],TransactionUOW method, ICrmMonitorClerks.TransactionUOW, ICrmMonitorClerks::TransactionUOW, TransactionUOW, TransactionUOW method [COM+], TransactionUOW method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_TransactionUOW, comsvcs/ICrmMonitorClerks::TransactionUOW, cos.icrmmonitorclerks_transactionuow

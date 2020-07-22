@@ -4,7 +4,7 @@ title: IVssComponentEx::GetRestoreName (vswriter.h)
 description: Obtains the logical name assigned to a component that is being restored.
 helpviewer_keywords: ["GetRestoreName","GetRestoreName method","GetRestoreName method","IVssComponentEx interface","IVssComponentEx interface","GetRestoreName method","IVssComponentEx.GetRestoreName","IVssComponentEx::GetRestoreName","base.ivsscomponentex_getrestorename","vswriter/IVssComponentEx::GetRestoreName"]
 old-location: base\ivsscomponentex_getrestorename.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.date: 12/05/2018
 ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName

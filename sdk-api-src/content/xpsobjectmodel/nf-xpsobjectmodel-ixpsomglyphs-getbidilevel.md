@@ -4,7 +4,7 @@ title: IXpsOMGlyphs::GetBidiLevel (xpsobjectmodel.h)
 description: Gets the level of bidirectional text.
 helpviewer_keywords: ["GetBidiLevel","GetBidiLevel method [XPS Documents and Packaging]","GetBidiLevel method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetBidiLevel method","IXpsOMGlyphs.GetBidiLevel","IXpsOMGlyphs::GetBidiLevel","xps.ixpsomglyphs_getbidilevel","xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel"]
 old-location: xps\ixpsomglyphs_getbidilevel.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 17110bb7-1ae9-41ef-aed1-8f1c00569825
 ms.date: 12/05/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphs.GetBidiLevel, IXpsOMGlyphs::GetBidiLevel, xps.ixpsomglyphs_getbidilevel, xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel

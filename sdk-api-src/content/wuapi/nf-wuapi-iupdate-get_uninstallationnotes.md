@@ -4,7 +4,7 @@ title: IUpdate::get_UninstallationNotes (wuapi.h)
 description: Gets the uninstallation notes for the update.
 helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","UninstallationNotes property","IUpdate.UninstallationNotes","IUpdate.get_UninstallationNotes","IUpdate::UninstallationNotes","IUpdate::get_UninstallationNotes","UninstallationNotes property [Windows Update Agent]","UninstallationNotes property [Windows Update Agent]","IUpdate interface","get_UninstallationNotes","wua.iupdate_uninstallationnotes","wuapi/IUpdate::UninstallationNotes","wuapi/IUpdate::get_UninstallationNotes"]
 old-location: wua\iupdate_uninstallationnotes.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: e5a84291-2c50-4ede-b69b-07d5a4226164
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationNotes property, IUpdate.UninstallationNotes, IUpdate.get_UninstallationNotes, IUpdate::UninstallationNotes, IUpdate::get_UninstallationNotes, UninstallationNotes property [Windows Update Agent], UninstallationNotes property [Windows Update Agent],IUpdate interface, get_UninstallationNotes, wua.iupdate_uninstallationnotes, wuapi/IUpdate::UninstallationNotes, wuapi/IUpdate::get_UninstallationNotes

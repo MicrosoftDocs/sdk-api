@@ -4,7 +4,7 @@ title: PstAcquirePrivateKey function (certpoleng.h)
 description: Associates the caller's private key with the specified certificate.
 helpviewer_keywords: ["PstAcquirePrivateKey","PstAcquirePrivateKey function [Security]","certpoleng/PstAcquirePrivateKey","security.pstacquireprivatekey"]
 old-location: security\pstacquireprivatekey.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
 ms.date: 12/05/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey

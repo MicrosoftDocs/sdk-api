@@ -4,7 +4,7 @@ title: IVdsLunNaming::SetFriendlyName (vdshwprv.h)
 description: Sets the friendly name of a LUN.
 helpviewer_keywords: ["IVdsLunNaming interface [VDS]","SetFriendlyName method","IVdsLunNaming.SetFriendlyName","IVdsLunNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method [VDS]","SetFriendlyName method [VDS]","IVdsLunNaming interface","base.ivdslunnaming_setfriendlyname","vds/IVdsLunNaming::SetFriendlyName","vdshwprv/IVdsLunNaming::SetFriendlyName"]
 old-location: base\ivdslunnaming_setfriendlyname.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming.SetFriendlyName, IVdsLunNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsLunNaming interface, base.ivdslunnaming_setfriendlyname, vds/IVdsLunNaming::SetFriendlyName, vdshwprv/IVdsLunNaming::SetFriendlyName

@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_DISK_ATTRIBUTES
 description: Retrieves the attributes of the specified disk device.
 helpviewer_keywords: ["IOCTL_DISK_GET_DISK_ATTRIBUTES","IOCTL_DISK_GET_DISK_ATTRIBUTES control","IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files]","fs.ioctl_disk_get_disk_attributes","winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES"]
 old-location: fs\ioctl_disk_get_disk_attributes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DISK_ATTRIBUTES, IOCTL_DISK_GET_DISK_ATTRIBUTES control, IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_get_disk_attributes, winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES

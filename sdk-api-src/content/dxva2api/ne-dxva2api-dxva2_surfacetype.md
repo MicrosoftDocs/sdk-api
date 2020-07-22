@@ -4,7 +4,7 @@ title: DXVA2_SurfaceType (dxva2api.h)
 description: Describes a DirectX surface type for DirectX Video Acceleration (DXVA).
 helpviewer_keywords: ["7ede2247-7878-4b70-9a74-56b626013989","DXVA2_SurfaceType","DXVA2_SurfaceType enumeration [Media Foundation]","DXVA2_SurfaceType_D3DRenderTargetTexture","DXVA2_SurfaceType_DecoderRenderTarget","DXVA2_SurfaceType_ProcessorRenderTarget","dxva2api/DXVA2_SurfaceType","dxva2api/DXVA2_SurfaceType_D3DRenderTargetTexture","dxva2api/DXVA2_SurfaceType_DecoderRenderTarget","dxva2api/DXVA2_SurfaceType_ProcessorRenderTarget","mf.dxva2_surfacetype"]
 old-location: mf\dxva2_surfacetype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7ede2247-7878-4b70-9a74-56b626013989
 ms.date: 12/05/2018
 ms.keywords: 7ede2247-7878-4b70-9a74-56b626013989, DXVA2_SurfaceType, DXVA2_SurfaceType enumeration [Media Foundation], DXVA2_SurfaceType_D3DRenderTargetTexture, DXVA2_SurfaceType_DecoderRenderTarget, DXVA2_SurfaceType_ProcessorRenderTarget, dxva2api/DXVA2_SurfaceType, dxva2api/DXVA2_SurfaceType_D3DRenderTargetTexture, dxva2api/DXVA2_SurfaceType_DecoderRenderTarget, dxva2api/DXVA2_SurfaceType_ProcessorRenderTarget, mf.dxva2_surfacetype

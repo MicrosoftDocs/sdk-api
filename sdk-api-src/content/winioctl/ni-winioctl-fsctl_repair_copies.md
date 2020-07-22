@@ -4,7 +4,7 @@ title: FSCTL_REPAIR_COPIES
 description: Repair data corruption by selecting the proper copy to use.
 helpviewer_keywords: ["FSCTL_REPAIR_COPIES","FSCTL_REPAIR_COPIES control","FSCTL_REPAIR_COPIES control code [Files]","fs.fsctl_repair_copies","winioctl/FSCTL_REPAIR_COPIES"]
 old-location: fs\fsctl_repair_copies.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1970ed09-5f37-4cc9-98c5-982629676fe4
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REPAIR_COPIES, FSCTL_REPAIR_COPIES control, FSCTL_REPAIR_COPIES control code [Files], fs.fsctl_repair_copies, winioctl/FSCTL_REPAIR_COPIES

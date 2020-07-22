@@ -4,7 +4,7 @@ title: SpUserModeInitializeFn (ntsecpkg.h)
 description: Called when a security support provider/authentication package (SSP/AP) DLL is loaded into the process space of a client/server application. This function provides the SECPKG_USER_FUNCTION_TABLE tables for each security package in the SSP/AP DLL.
 helpviewer_keywords: ["SpUserModeInitialize","SpUserModeInitialize callback function [Security]","SpUserModeInitializeFn","SpUserModeInitializeFn callback","_ssp_spusermodeinitialize","ntsecpkg/SpUserModeInitialize","security.spusermodeinitialize"]
 old-location: security\spusermodeinitialize.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e260db29-995b-4f32-b389-4ef62b3b29bc
 ms.date: 12/05/2018
 ms.keywords: SpUserModeInitialize, SpUserModeInitialize callback function [Security], SpUserModeInitializeFn, SpUserModeInitializeFn callback, _ssp_spusermodeinitialize, ntsecpkg/SpUserModeInitialize, security.spusermodeinitialize

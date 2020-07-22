@@ -4,7 +4,7 @@ title: IMFASFIndexer::GetIndexStatus (wmcontainer.h)
 description: Retrieves the index settings for a specified stream and index type.
 helpviewer_keywords: ["GetIndexStatus","GetIndexStatus method [Media Foundation]","GetIndexStatus method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetIndexStatus method","IMFASFIndexer.GetIndexStatus","IMFASFIndexer::GetIndexStatus","dc38a060-36e4-458e-829e-2770387fc484","mf.imfasfindexer_getindexstatus","wmcontainer/IMFASFIndexer::GetIndexStatus"]
 old-location: mf\imfasfindexer_getindexstatus.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dc38a060-36e4-458e-829e-2770387fc484
 ms.date: 12/05/2018
 ms.keywords: GetIndexStatus, GetIndexStatus method [Media Foundation], GetIndexStatus method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexStatus method, IMFASFIndexer.GetIndexStatus, IMFASFIndexer::GetIndexStatus, dc38a060-36e4-458e-829e-2770387fc484, mf.imfasfindexer_getindexstatus, wmcontainer/IMFASFIndexer::GetIndexStatus

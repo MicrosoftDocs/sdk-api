@@ -4,7 +4,7 @@ title: lineSetLineDevStatus function (tapi.h)
 description: The lineSetLineDevStatus function sets the line device status.
 helpviewer_keywords: ["_tapi2_linesetlinedevstatus","lineSetLineDevStatus","lineSetLineDevStatus function [TAPI 2.2]","tapi/lineSetLineDevStatus","tapi2.linesetlinedevstatus"]
 old-location: tapi2\linesetlinedevstatus.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c8eb142d-5160-49f3-81c1-61094c180df8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetlinedevstatus, lineSetLineDevStatus, lineSetLineDevStatus function [TAPI 2.2], tapi/lineSetLineDevStatus, tapi2.linesetlinedevstatus

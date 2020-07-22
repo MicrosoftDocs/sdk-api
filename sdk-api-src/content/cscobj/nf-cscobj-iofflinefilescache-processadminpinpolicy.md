@@ -4,7 +4,7 @@ title: IOfflineFilesCache::ProcessAdminPinPolicy (cscobj.h)
 description: Causes Offline Files to process the &quot;administratively assigned offline files&quot; group policy.
 helpviewer_keywords: ["IOfflineFilesCache interface [Offline Files]","ProcessAdminPinPolicy method","IOfflineFilesCache.ProcessAdminPinPolicy","IOfflineFilesCache::ProcessAdminPinPolicy","ProcessAdminPinPolicy","ProcessAdminPinPolicy method [Offline Files]","ProcessAdminPinPolicy method [Offline Files]","IOfflineFilesCache interface","cscobj/IOfflineFilesCache::ProcessAdminPinPolicy","of.iofflinefilescache_processadminpinpolicy"]
 old-location: of\iofflinefilescache_processadminpinpolicy.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy

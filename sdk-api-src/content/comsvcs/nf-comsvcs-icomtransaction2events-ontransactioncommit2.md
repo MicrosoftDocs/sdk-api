@@ -4,7 +4,7 @@ title: IComTransaction2Events::OnTransactionCommit2 (comsvcs.h)
 description: Generated when a transaction commits.
 helpviewer_keywords: ["IComTransaction2Events interface [COM+]","OnTransactionCommit2 method","IComTransaction2Events.OnTransactionCommit2","IComTransaction2Events::OnTransactionCommit2","OnTransactionCommit2","OnTransactionCommit2 method [COM+]","OnTransactionCommit2 method [COM+]","IComTransaction2Events interface","_dtc_icomtransaction2events_ontransactioncommit2","comsvcs/IComTransaction2Events::OnTransactionCommit2","cos.icomtransaction2events_ontransactioncommit2"]
 old-location: cos\icomtransaction2events_ontransactioncommit2.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e68ba7be-876b-446a-8f82-a6e7af503b2c
 ms.date: 12/05/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionCommit2 method, IComTransaction2Events.OnTransactionCommit2, IComTransaction2Events::OnTransactionCommit2, OnTransactionCommit2, OnTransactionCommit2 method [COM+], OnTransactionCommit2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactioncommit2, comsvcs/IComTransaction2Events::OnTransactionCommit2, cos.icomtransaction2events_ontransactioncommit2

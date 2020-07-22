@@ -4,7 +4,7 @@ title: CMSG_CMS_RECIPIENT_INFO (wincrypt.h)
 description: Used with the CryptMsgGetParam function to get information on a key transport, key agreement, or mail list envelope message recipient.
 helpviewer_keywords: ["*PCMSG_CMS_RECIPIENT_INFO","CMSG_CMS_RECIPIENT_INFO","CMSG_CMS_RECIPIENT_INFO structure [Security]","CMSG_KEY_AGREE_RECIPIENT","CMSG_KEY_TRANS_RECIPIENT","CMSG_MAIL_LIST_RECIPIENT","PCMSG_CMS_RECIPIENT_INFO","PCMSG_CMS_RECIPIENT_INFO structure pointer [Security]","_crypto2_cmsg_cms_recipient_info","security.cmsg_cms_recipient_info","wincrypt/CMSG_CMS_RECIPIENT_INFO","wincrypt/PCMSG_CMS_RECIPIENT_INFO"]
 old-location: security\cmsg_cms_recipient_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO structure [Security], CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, PCMSG_CMS_RECIPIENT_INFO, PCMSG_CMS_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_cms_recipient_info, security.cmsg_cms_recipient_info, wincrypt/CMSG_CMS_RECIPIENT_INFO, wincrypt/PCMSG_CMS_RECIPIENT_INFO'

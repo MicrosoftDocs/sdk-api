@@ -4,7 +4,7 @@ title: CREATE_ASM_NAME_OBJ_FLAGS (winsxs.h)
 description: The CREATE_ASM_NAME_OBJ_FLAGS enumeration is used by the CreateAssemblyNameObject function.
 helpviewer_keywords: ["CANOF_PARSE_DISPLAY_NAME","CANOF_SET_DEFAULT_VALUES","CREATE_ASM_NAME_OBJ_FLAGS","CREATE_ASM_NAME_OBJ_FLAGS","CREATE_ASM_NAME_OBJ_FLAGS enumeration [Side-by-side Assemblies]","setup.create_asm_name_obj_flags_","winsxs/CANOF_PARSE_DISPLAY_NAME","winsxs/CANOF_SET_DEFAULT_VALUES","winsxs/CREATE_ASM_NAME_OBJ_FLAGS"]
 old-location: setup\create_asm_name_obj_flags_.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: fdbb5eb0-0e45-483c-bcab-8b19a079800c
 ms.date: 12/05/2018
 ms.keywords: CANOF_PARSE_DISPLAY_NAME, CANOF_SET_DEFAULT_VALUES, CREATE_ASM_NAME_OBJ_FLAGS, CREATE_ASM_NAME_OBJ_FLAGS , CREATE_ASM_NAME_OBJ_FLAGS enumeration [Side-by-side Assemblies], setup.create_asm_name_obj_flags_, winsxs/CANOF_PARSE_DISPLAY_NAME, winsxs/CANOF_SET_DEFAULT_VALUES, winsxs/CREATE_ASM_NAME_OBJ_FLAGS

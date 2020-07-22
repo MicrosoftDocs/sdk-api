@@ -4,7 +4,7 @@ title: MSP_CALL_EVENT (msp.h)
 description: The MSP_CALL_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
 helpviewer_keywords: ["CALL_NEW_STREAM","CALL_STREAM_ACTIVE","CALL_STREAM_FAIL","CALL_STREAM_INACTIVE","CALL_STREAM_NOT_USED","CALL_TERMINAL_FAIL","MSP_CALL_EVENT","MSP_CALL_EVENT enumeration [TAPI 2.2]","_tapi3_msp_call_event","msp/CALL_NEW_STREAM","msp/CALL_STREAM_ACTIVE","msp/CALL_STREAM_FAIL","msp/CALL_STREAM_INACTIVE","msp/CALL_STREAM_NOT_USED","msp/CALL_TERMINAL_FAIL","msp/MSP_CALL_EVENT","tapi3.msp_call_event"]
 old-location: tapi3\msp_call_event.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c1bbc75e-04ad-4db4-9730-abbbf89306dd
 ms.date: 12/05/2018
 ms.keywords: CALL_NEW_STREAM, CALL_STREAM_ACTIVE, CALL_STREAM_FAIL, CALL_STREAM_INACTIVE, CALL_STREAM_NOT_USED, CALL_TERMINAL_FAIL, MSP_CALL_EVENT, MSP_CALL_EVENT enumeration [TAPI 2.2], _tapi3_msp_call_event, msp/CALL_NEW_STREAM, msp/CALL_STREAM_ACTIVE, msp/CALL_STREAM_FAIL, msp/CALL_STREAM_INACTIVE, msp/CALL_STREAM_NOT_USED, msp/CALL_TERMINAL_FAIL, msp/MSP_CALL_EVENT, tapi3.msp_call_event

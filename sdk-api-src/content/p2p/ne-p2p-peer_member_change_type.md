@@ -4,7 +4,7 @@ title: PEER_MEMBER_CHANGE_TYPE (p2p.h)
 description: The PEER_MEMBER_CHANGE_TYPE enumeration defines the set of possible peer group membership and presence states for a peer.
 helpviewer_keywords: ["PEER_MEMBER_CHANGE_TYPE","PEER_MEMBER_CHANGE_TYPE enumeration [Peer Networking]","PEER_MEMBER_CONNECTED","PEER_MEMBER_DISCONNECTED","PEER_MEMBER_JOINED","PEER_MEMBER_LEFT","PEER_MEMBER_UPDATED","p2p.peer_member_change_type","p2p/PEER_MEMBER_CHANGE_TYPE","p2p/PEER_MEMBER_CONNECTED","p2p/PEER_MEMBER_DISCONNECTED","p2p/PEER_MEMBER_JOINED","p2p/PEER_MEMBER_LEFT","p2p/PEER_MEMBER_UPDATED"]
 old-location: p2p\peer_member_change_type.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: ecebec4f-1dc6-481c-a2d4-cf0043729a8c
 ms.date: 12/05/2018
 ms.keywords: PEER_MEMBER_CHANGE_TYPE, PEER_MEMBER_CHANGE_TYPE enumeration [Peer Networking], PEER_MEMBER_CONNECTED, PEER_MEMBER_DISCONNECTED, PEER_MEMBER_JOINED, PEER_MEMBER_LEFT, PEER_MEMBER_UPDATED, p2p.peer_member_change_type, p2p/PEER_MEMBER_CHANGE_TYPE, p2p/PEER_MEMBER_CONNECTED, p2p/PEER_MEMBER_DISCONNECTED, p2p/PEER_MEMBER_JOINED, p2p/PEER_MEMBER_LEFT, p2p/PEER_MEMBER_UPDATED

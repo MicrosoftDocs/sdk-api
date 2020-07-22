@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_PARTITION_INFO
 description: Retrieves information about the type, size, and nature of a disk partition.
 helpviewer_keywords: ["IOCTL_DISK_GET_PARTITION_INFO","IOCTL_DISK_GET_PARTITION_INFO control","IOCTL_DISK_GET_PARTITION_INFO control code [Files]","_win32_ioctl_disk_get_partition_info","base.ioctl_disk_get_partition_info","fs.ioctl_disk_get_partition_info","winioctl/IOCTL_DISK_GET_PARTITION_INFO"]
 old-location: fs\ioctl_disk_get_partition_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 24053a1a-8cf8-4aa8-a611-15c9fae0a36d
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_PARTITION_INFO, IOCTL_DISK_GET_PARTITION_INFO control, IOCTL_DISK_GET_PARTITION_INFO control code [Files], _win32_ioctl_disk_get_partition_info, base.ioctl_disk_get_partition_info, fs.ioctl_disk_get_partition_info, winioctl/IOCTL_DISK_GET_PARTITION_INFO

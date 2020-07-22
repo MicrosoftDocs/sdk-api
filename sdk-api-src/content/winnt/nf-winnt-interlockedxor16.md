@@ -4,7 +4,7 @@ title: InterlockedXor16 function (winnt.h)
 description: Performs an atomic XOR operation on the specified SHORT values.
 helpviewer_keywords: ["InterlockedXor16","InterlockedXor16 function","base.interlockedxor16","winnt/InterlockedXor16"]
 old-location: base\interlockedxor16.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 414830ba-ce2b-4ed0-96f4-db5edd8e4ebe
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor16, InterlockedXor16 function, base.interlockedxor16, winnt/InterlockedXor16

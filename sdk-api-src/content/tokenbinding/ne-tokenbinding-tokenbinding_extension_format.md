@@ -4,7 +4,7 @@ title: TOKENBINDING_EXTENSION_FORMAT (tokenbinding.h)
 description: Specifies the formats that are available to interpret extension data.
 helpviewer_keywords: ["TOKENBINDING_EXTENSION_FORMAT","TOKENBINDING_EXTENSION_FORMAT enumeration [Security]","TOKENBINDING_EXTENSION_FORMAT_UNDEFINED","security.tokenbinding_extension_format","tokenbinding/TOKENBINDING_EXTENSION_FORMAT","tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED"]
 old-location: security\tokenbinding_extension_format.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: EBF14890-3F7D-4814-93E1-570E81E05DF2
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumeration [Security], TOKENBINDING_EXTENSION_FORMAT_UNDEFINED, security.tokenbinding_extension_format, tokenbinding/TOKENBINDING_EXTENSION_FORMAT, tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED

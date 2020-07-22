@@ -4,7 +4,7 @@ title: AMGetErrorTextA function (errors.h)
 description: The AMGetErrorText function retrieves the error message for a given return code, using the current language setting.
 helpviewer_keywords: ["AMGetErrorText","AMGetErrorText function [DirectShow]","AMGetErrorTextA","AMGetErrorTextW","dshow.amgeterrortext","errors/AMGetErrorText"]
 old-location: dshow\amgeterrortext.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 268fd554-99f4-4400-8e33-4d98c51b76cf
 ms.date: 12/05/2018
 ms.keywords: AMGetErrorText, AMGetErrorText function [DirectShow], AMGetErrorTextA, AMGetErrorTextW, dshow.amgeterrortext, errors/AMGetErrorText

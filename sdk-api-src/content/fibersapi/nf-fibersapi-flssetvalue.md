@@ -4,7 +4,7 @@ title: FlsSetValue function
 description: Stores a value in the calling fiber's fiber local storage (FLS) slot for the specified FLS index. Each fiber has its own slot for each FLS index.
 helpviewer_keywords: ["FlsSetValue","FlsSetValue function","_win32_flssetvalue","base.flssetvalue","fibersapi/FlsSetValue","winbase/FlsSetValue"]
 old-location: base\flssetvalue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: f2abea00-8c1b-47e8-a4e9-9e3e7242d0ad
 ms.date: 12/05/2018
 ms.keywords: FlsSetValue, FlsSetValue function, _win32_flssetvalue, base.flssetvalue, fibersapi/FlsSetValue, winbase/FlsSetValue

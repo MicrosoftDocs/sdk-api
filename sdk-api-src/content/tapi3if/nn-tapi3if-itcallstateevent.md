@@ -4,7 +4,7 @@ title: ITCallStateEvent (tapi3if.h)
 description: The ITCallStateEvent interface contains methods that retrieve the description of call state events.
 helpviewer_keywords: ["ITCallStateEvent","ITCallStateEvent interface [TAPI 2.2]","ITCallStateEvent interface [TAPI 2.2]","described","_tapi3_itcallstateevent","tapi3.itcallstateevent","tapi3if/ITCallStateEvent"]
 old-location: tapi3\itcallstateevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0885ef81-726d-41ca-be8c-b3ff2e02fc3c
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent, ITCallStateEvent interface [TAPI 2.2], ITCallStateEvent interface [TAPI 2.2],described, _tapi3_itcallstateevent, tapi3.itcallstateevent, tapi3if/ITCallStateEvent

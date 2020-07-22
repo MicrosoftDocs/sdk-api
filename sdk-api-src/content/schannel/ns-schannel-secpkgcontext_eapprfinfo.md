@@ -4,7 +4,7 @@ title: SecPkgContext_EapPrfInfo (schannel.h)
 description: Specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) Transport Layer Security protocol (TLS) Authentication Protocol.
 helpviewer_keywords: ["*PSecPkgContext_EapPrfInfo","EAP-FAST Keying Material","EAP-TTLSv0 Challenge Data","EAP-TTLSv0 Keying Material","PPP EAP TLS Key Data","PSecPkgContext_EapPrfInfo","PSecPkgContext_EapPrfInfo structure pointer [Security]","SecPkgContext_EapPrfInfo","SecPkgContext_EapPrfInfo structure [Security]","schannel/PSecPkgContext_EapPrfInfo","schannel/SecPkgContext_EapPrfInfo","security.secpkgcontext_eapprfinfo"]
 old-location: security\secpkgcontext_eapprfinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2772b83b-d1d1-4a8e-83d5-1f3dec3d66ac
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_EapPrfInfo, EAP-FAST Keying Material, EAP-TTLSv0 Challenge Data, EAP-TTLSv0 Keying Material, PPP EAP TLS Key Data, PSecPkgContext_EapPrfInfo, PSecPkgContext_EapPrfInfo structure pointer [Security], SecPkgContext_EapPrfInfo, SecPkgContext_EapPrfInfo structure [Security], schannel/PSecPkgContext_EapPrfInfo, schannel/SecPkgContext_EapPrfInfo, security.secpkgcontext_eapprfinfo'

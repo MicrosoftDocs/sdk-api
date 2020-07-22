@@ -4,7 +4,7 @@ title: SLSetGenuineInformation function (slpublic.h)
 description: Specifies information about the genuine status of a Windows computer.
 helpviewer_keywords: ["SLSetGenuineInformation","SLSetGenuineInformation function [Security]","SL_BRT_COMMIT","SL_BRT_DATA","security.slsetgenuineinformation","slpublic/SLSetGenuineInformation"]
 old-location: security\slsetgenuineinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.date: 12/05/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation

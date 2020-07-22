@@ -4,7 +4,7 @@ title: IOPMVideoOutput (opmapi.h)
 description: Represents a video output for an Output Protection Manager (OPM) session.
 helpviewer_keywords: ["IOPMVideoOutput","IOPMVideoOutput interface [Media Foundation]","IOPMVideoOutput interface [Media Foundation]","described","mf.iopmvideooutput","opmapi/IOPMVideoOutput"]
 old-location: mf\iopmvideooutput.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8bf43577-3535-4f62-ac81-bb7e3c329403
 ms.date: 12/05/2018
 ms.keywords: IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], IOPMVideoOutput interface [Media Foundation],described, mf.iopmvideooutput, opmapi/IOPMVideoOutput

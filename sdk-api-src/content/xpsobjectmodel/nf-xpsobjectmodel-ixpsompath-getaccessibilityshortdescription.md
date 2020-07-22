@@ -4,7 +4,7 @@ title: IXpsOMPath::GetAccessibilityShortDescription (xpsobjectmodel.h)
 description: Gets the short textual description of the object's contents.
 helpviewer_keywords: ["GetAccessibilityShortDescription","GetAccessibilityShortDescription method [XPS Documents and Packaging]","GetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetAccessibilityShortDescription method","IXpsOMPath.GetAccessibilityShortDescription","IXpsOMPath::GetAccessibilityShortDescription","xps.ixpsompath_getaccessibilityshortdescription","xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription"]
 old-location: xps\ixpsompath_getaccessibilityshortdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0124d37a-74c1-4f8b-9d91-c12e92cd5e8c
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMPath.GetAccessibilityShortDescription, IXpsOMPath::GetAccessibilityShortDescription, xps.ixpsompath_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription

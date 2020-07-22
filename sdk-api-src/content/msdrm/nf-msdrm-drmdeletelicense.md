@@ -4,7 +4,7 @@ title: DRMDeleteLicense function (msdrm.h)
 description: Deletes a license, client licensor certificate, revocation list, or issuance license template.
 helpviewer_keywords: ["DRMDeleteLicense","DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDeleteLicense","rm.drmdeletelicense"]
 old-location: rm\drmdeletelicense.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 596f9959-0beb-4051-87c4-b8704abd8fc0
 ms.date: 12/05/2018
 ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeleteLicense, rm.drmdeletelicense

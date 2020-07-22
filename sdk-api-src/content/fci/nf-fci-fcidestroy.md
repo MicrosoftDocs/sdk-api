@@ -4,7 +4,7 @@ title: FCIDestroy function (fci.h)
 description: The FCIDestroy function deletes an open FCI context, freeing any memory and temporary files associated with the context.
 helpviewer_keywords: ["FCIDestroy","FCIDestroy function [Windows API]","fci/FCIDestroy","winprog.fcidestroy"]
 old-location: winprog\fcidestroy.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
 ms.date: 12/05/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy

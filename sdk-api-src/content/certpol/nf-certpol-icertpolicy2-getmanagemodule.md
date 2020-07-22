@@ -4,7 +4,7 @@ title: ICertPolicy2::GetManageModule (certpol.h)
 description: Retrieves the ICertManageModule interface associated with the ICertPolicy2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 helpviewer_keywords: ["CCertPolicy object [Security]","GetManageModule method","GetManageModule","GetManageModule method [Security]","GetManageModule method [Security]","CCertPolicy object","GetManageModule method [Security]","ICertPolicy2 interface","ICertPolicy2 interface [Security]","GetManageModule method","ICertPolicy2.GetManageModule","ICertPolicy2::GetManageModule","_certsrv_icertpolicy2_getmanagemodule","certpol/ICertPolicy2::GetManageModule","security.icertpolicy2_getmanagemodule"]
 old-location: security\icertpolicy2_getmanagemodule.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a8d45938-1b89-4576-8705-7a174323e072
 ms.date: 12/05/2018
 ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule

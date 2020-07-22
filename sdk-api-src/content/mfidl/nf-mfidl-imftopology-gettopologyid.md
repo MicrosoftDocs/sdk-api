@@ -4,7 +4,7 @@ title: IMFTopology::GetTopologyID (mfidl.h)
 description: Gets the identifier of the topology.
 helpviewer_keywords: ["GetTopologyID","GetTopologyID method [Media Foundation]","GetTopologyID method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetTopologyID method","IMFTopology.GetTopologyID","IMFTopology::GetTopologyID","f7d33d20-1b58-4b88-9a98-1004a5c42dfa","mf.imftopology_gettopologyid","mfidl/IMFTopology::GetTopologyID"]
 old-location: mf\imftopology_gettopologyid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f7d33d20-1b58-4b88-9a98-1004a5c42dfa
 ms.date: 12/05/2018
 ms.keywords: GetTopologyID, GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetTopologyID method, IMFTopology.GetTopologyID, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID

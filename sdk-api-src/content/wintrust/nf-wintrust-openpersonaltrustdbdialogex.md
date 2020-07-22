@@ -4,7 +4,7 @@ title: OpenPersonalTrustDBDialogEx function (wintrust.h)
 description: Displays the Certificates dialog box.
 helpviewer_keywords: ["OpenPersonalTrustDBDialogEx","OpenPersonalTrustDBDialogEx function [Security]","WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG","security.openpersonaltrustdbdialogex","wintrust/OpenPersonalTrustDBDialogEx"]
 old-location: security\openpersonaltrustdbdialogex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5e4dbccd-4cd0-4525-85dc-3327a5b713a1
 ms.date: 12/05/2018
 ms.keywords: OpenPersonalTrustDBDialogEx, OpenPersonalTrustDBDialogEx function [Security], WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG, security.openpersonaltrustdbdialogex, wintrust/OpenPersonalTrustDBDialogEx

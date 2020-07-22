@@ -4,7 +4,7 @@ title: BCryptQueryContextFunctionProperty function (bcrypt.h)
 description: Obtains the value of a named property for a cryptographic function in an existing CNG context.
 helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptQueryContextFunctionProperty","BCryptQueryContextFunctionProperty function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptQueryContextFunctionProperty","security.bcryptquerycontextfunctionproperty"]
 old-location: security\bcryptquerycontextfunctionproperty.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: c8814a13-ac28-4583-927f-c787e0a25faf
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionProperty, BCryptQueryContextFunctionProperty function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionProperty, security.bcryptquerycontextfunctionproperty

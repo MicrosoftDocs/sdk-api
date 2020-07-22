@@ -4,7 +4,7 @@ title: IX509NameValuePair (certenroll.h)
 description: Represents a generic name-value pair.
 helpviewer_keywords: ["IX509NameValuePair","IX509NameValuePair interface [Security]","IX509NameValuePair interface [Security]","described","certenroll/IX509NameValuePair","security.ix509namevaluepair"]
 old-location: security\ix509namevaluepair.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair

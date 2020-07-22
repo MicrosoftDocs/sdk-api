@@ -4,7 +4,7 @@ title: MsiEvaluateConditionW function (msiquery.h)
 description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values.
 helpviewer_keywords: ["MsiEvaluateCondition","MsiEvaluateCondition function","MsiEvaluateConditionA","MsiEvaluateConditionW","_msi_msievaluatecondition","msiquery/MsiEvaluateCondition","msiquery/MsiEvaluateConditionA","msiquery/MsiEvaluateConditionW","setup.msievaluatecondition"]
 old-location: setup\msievaluatecondition.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
 ms.date: 12/05/2018
 ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateConditionA, MsiEvaluateConditionW, _msi_msievaluatecondition, msiquery/MsiEvaluateCondition, msiquery/MsiEvaluateConditionA, msiquery/MsiEvaluateConditionW, setup.msievaluatecondition

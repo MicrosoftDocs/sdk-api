@@ -4,7 +4,7 @@ title: IOCTL_DISK_RESET_SNAPSHOT_INFO
 description: Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &quot;snapshot&quot;) information from the disk.
 helpviewer_keywords: ["IOCTL_DISK_RESET_SNAPSHOT_INFO","IOCTL_DISK_RESET_SNAPSHOT_INFO control","IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files]","fs.ioctl_disk_reset_snapshot_info","winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO"]
 old-location: fs\ioctl_disk_reset_snapshot_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO

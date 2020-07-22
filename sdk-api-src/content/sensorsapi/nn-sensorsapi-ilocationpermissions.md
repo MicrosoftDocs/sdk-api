@@ -4,7 +4,7 @@ title: ILocationPermissions (sensorsapi.h)
 description: Provides the status of the system setting that allows users to change location settings.
 helpviewer_keywords: ["ILocationPermissions","ILocationPermissions interface [WinSensors]","ILocationPermissions interface [WinSensors]","described","sensorsapi/ILocationPermissions","winsensors.ilocationpermissions"]
 old-location: winsensors\ilocationpermissions.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
 ms.date: 12/05/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions

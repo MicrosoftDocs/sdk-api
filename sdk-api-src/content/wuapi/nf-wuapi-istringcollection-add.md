@@ -4,7 +4,7 @@ title: IStringCollection::Add (wuapi.h)
 description: Adds an item to the collection.
 helpviewer_keywords: ["Add","Add method [Windows Update Agent]","Add method [Windows Update Agent]","IStringCollection interface","IStringCollection interface [Windows Update Agent]","Add method","IStringCollection.Add","IStringCollection::Add","wua.istringcollection_add","wuapi/IStringCollection::Add"]
 old-location: wua\istringcollection_add.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f5412e0d-a8b7-43a6-b7a5-95d662459f78
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Add method, IStringCollection.Add, IStringCollection::Add, wua.istringcollection_add, wuapi/IStringCollection::Add

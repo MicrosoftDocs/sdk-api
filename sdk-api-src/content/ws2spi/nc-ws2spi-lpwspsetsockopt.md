@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPSETSOCKOPT
 title: LPWSPSETSOCKOPT
 description: The LPWSPSetSockOpt function sets a socket option.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPSETSOCKOPT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSETSOCKOPT

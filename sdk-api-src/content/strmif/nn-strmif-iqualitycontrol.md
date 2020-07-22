@@ -4,7 +4,7 @@ title: IQualityControl (strmif.h)
 description: The IQualityControl interface provides support for quality control.
 helpviewer_keywords: ["IQualityControl","IQualityControl interface [DirectShow]","IQualityControl interface [DirectShow]","described","IQualityControlInterface","dshow.iqualitycontrol","strmif/IQualityControl"]
 old-location: dshow\iqualitycontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8
 ms.date: 12/05/2018
 ms.keywords: IQualityControl, IQualityControl interface [DirectShow], IQualityControl interface [DirectShow],described, IQualityControlInterface, dshow.iqualitycontrol, strmif/IQualityControl

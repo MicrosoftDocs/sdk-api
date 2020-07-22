@@ -4,7 +4,7 @@ title: IAzScopes::get_Count (azroles.h)
 description: Retrieves the number of IAzScope objects in the collection.
 helpviewer_keywords: ["AzScopes object [Security]","Count property","Count property [Security]","Count property [Security]","AzScopes object","Count property [Security]","IAzScopes interface","IAzScopes interface [Security]","Count property","IAzScopes.Count","IAzScopes.get_Count","IAzScopes::Count","IAzScopes::get_Count","azroles/IAzScopes::Count","azroles/IAzScopes::get_Count","get_Count","security.iazscopes_count"]
 old-location: security\iazscopes_count.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: aff809a6-c768-4cfe-a41f-ee227f77a3b1
 ms.date: 12/05/2018
 ms.keywords: AzScopes object [Security],Count property, Count property [Security], Count property [Security],AzScopes object, Count property [Security],IAzScopes interface, IAzScopes interface [Security],Count property, IAzScopes.Count, IAzScopes.get_Count, IAzScopes::Count, IAzScopes::get_Count, azroles/IAzScopes::Count, azroles/IAzScopes::get_Count, get_Count, security.iazscopes_count

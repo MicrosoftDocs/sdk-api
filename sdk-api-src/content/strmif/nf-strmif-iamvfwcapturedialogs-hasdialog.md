@@ -4,7 +4,7 @@ title: IAMVfwCaptureDialogs::HasDialog (strmif.h)
 description: The HasDialog method determines if the specified dialog box exists in the driver.
 helpviewer_keywords: ["HasDialog","HasDialog method [DirectShow]","HasDialog method [DirectShow]","IAMVfwCaptureDialogs interface","IAMVfwCaptureDialogs interface [DirectShow]","HasDialog method","IAMVfwCaptureDialogs.HasDialog","IAMVfwCaptureDialogs::HasDialog","IAMVfwCaptureDialogsHasDialog","dshow.iamvfwcapturedialogs_hasdialog","strmif/IAMVfwCaptureDialogs::HasDialog"]
 old-location: dshow\iamvfwcapturedialogs_hasdialog.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: be2d9b1f-c53f-4a75-89ab-ec07c655cbea
 ms.date: 12/05/2018
 ms.keywords: HasDialog, HasDialog method [DirectShow], HasDialog method [DirectShow],IAMVfwCaptureDialogs interface, IAMVfwCaptureDialogs interface [DirectShow],HasDialog method, IAMVfwCaptureDialogs.HasDialog, IAMVfwCaptureDialogs::HasDialog, IAMVfwCaptureDialogsHasDialog, dshow.iamvfwcapturedialogs_hasdialog, strmif/IAMVfwCaptureDialogs::HasDialog

@@ -4,7 +4,7 @@ title: IPhotoAcquireProgressCB::GetDeleteAfterAcquire (photoacquire.h)
 description: The GetDeleteAfterAcquire method returns a value indicating whether photos should be deleted after acquisition.
 helpviewer_keywords: ["GetDeleteAfterAcquire","GetDeleteAfterAcquire method [Picture Acquisition]","GetDeleteAfterAcquire method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","GetDeleteAfterAcquire method","IPhotoAcquireProgressCB.GetDeleteAfterAcquire","IPhotoAcquireProgressCB::GetDeleteAfterAcquire","IPhotoAcquireProgressCBGetDeleteAfterAcquire","photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire","picacq.iphotoacquireprogresscb_getdeleteafteracquire"]
 old-location: picacq\iphotoacquireprogresscb_getdeleteafteracquire.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: a9e3fb54-e152-4fbd-b745-852719aabeec
 ms.date: 12/05/2018
 ms.keywords: GetDeleteAfterAcquire, GetDeleteAfterAcquire method [Picture Acquisition], GetDeleteAfterAcquire method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetDeleteAfterAcquire method, IPhotoAcquireProgressCB.GetDeleteAfterAcquire, IPhotoAcquireProgressCB::GetDeleteAfterAcquire, IPhotoAcquireProgressCBGetDeleteAfterAcquire, photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire, picacq.iphotoacquireprogresscb_getdeleteafteracquire

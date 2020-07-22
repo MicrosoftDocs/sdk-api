@@ -4,7 +4,7 @@ title: IAzOperation (azroles.h)
 description: Defines a low-level operation supported by an application.
 helpviewer_keywords: ["IAzOperation","IAzOperation interface [Security]","IAzOperation interface [Security]","described","azroles/IAzOperation","security.iazoperation"]
 old-location: security\iazoperation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 054fa4aa-70be-4618-a635-3941c830ea4e
 ms.date: 12/05/2018
 ms.keywords: IAzOperation, IAzOperation interface [Security], IAzOperation interface [Security],described, azroles/IAzOperation, security.iazoperation

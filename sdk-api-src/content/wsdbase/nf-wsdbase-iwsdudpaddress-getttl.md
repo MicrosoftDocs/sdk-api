@@ -4,7 +4,7 @@ title: IWSDUdpAddress::GetTTL (wsdbase.h)
 description: Gets the time-to-live (TTL) for all outbound packets using this address.
 helpviewer_keywords: ["GetTTL","GetTTL method","GetTTL method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetTTL method","IWSDUdpAddress.GetTTL","IWSDUdpAddress::GetTTL","ncd.iwsdudpaddress_getttl","wsdbase/IWSDUdpAddress::GetTTL"]
 old-location: ncd\iwsdudpaddress_getttl.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8bc2a973-a776-45c6-b6bf-cf268badab30
 ms.date: 12/05/2018
 ms.keywords: GetTTL, GetTTL method, GetTTL method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetTTL method, IWSDUdpAddress.GetTTL, IWSDUdpAddress::GetTTL, ncd.iwsdudpaddress_getttl, wsdbase/IWSDUdpAddress::GetTTL

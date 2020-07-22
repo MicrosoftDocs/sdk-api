@@ -4,7 +4,7 @@ title: DRMGetRevocationPoint function (msdrm.h)
 description: Retrieves information about the revocation point for an issuance license.
 helpviewer_keywords: ["DRMGetRevocationPoint","DRMGetRevocationPoint function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetRevocationPoint","rm.drmgetrevocationpoint"]
 old-location: rm\drmgetrevocationpoint.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 11197e77-0b7f-4972-83a1-a82aa5cef0dd
 ms.date: 12/05/2018
 ms.keywords: DRMGetRevocationPoint, DRMGetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRevocationPoint, rm.drmgetrevocationpoint

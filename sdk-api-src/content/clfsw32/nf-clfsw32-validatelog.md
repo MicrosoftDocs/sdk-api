@@ -4,7 +4,7 @@ title: ValidateLog function (clfsw32.h)
 description: Validates the consistency of the log metadata and data before log archive and after log restore.
 helpviewer_keywords: ["ValidateLog","ValidateLog function [Files]","clfsw32/ValidateLog","fs.validatelogrestore"]
 old-location: fs\validatelogrestore.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: dee4224e-bc94-42aa-95b9-226f13fd51ae
 ms.date: 12/05/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore

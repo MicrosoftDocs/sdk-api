@@ -4,7 +4,7 @@ title: GetSidSubAuthorityCount function (securitybaseapi.h)
 description: Returns a pointer to the member in a security identifier (SID) structure that contains the subauthority count.
 helpviewer_keywords: ["GetSidSubAuthorityCount","GetSidSubAuthorityCount function [Security]","_win32_getsidsubauthoritycount","security.getsidsubauthoritycount","securitybaseapi/GetSidSubAuthorityCount"]
 old-location: security\getsidsubauthoritycount.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ca81fb91-f5a1-4dc6-83ec-eadb62a37805
 ms.date: 12/05/2018
 ms.keywords: GetSidSubAuthorityCount, GetSidSubAuthorityCount function [Security], _win32_getsidsubauthoritycount, security.getsidsubauthoritycount, securitybaseapi/GetSidSubAuthorityCount

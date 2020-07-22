@@ -4,7 +4,7 @@ title: PWLX_DIALOG_BOX (winwlx.h)
 description: Called by the GINA to create a modal dialog box from a dialog box template.
 helpviewer_keywords: ["PWLX_DIALOG_BOX","PWLX_DIALOG_BOX callback","WlxDialogBox","WlxDialogBox callback function [Security]","_gina_wlxdialogbox","security.wlxdialogbox","winwlx/WlxDialogBox"]
 old-location: security\wlxdialogbox.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a16313ea-ae76-4d9b-80b3-3fb12af803c7
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX, PWLX_DIALOG_BOX callback, WlxDialogBox, WlxDialogBox callback function [Security], _gina_wlxdialogbox, security.wlxdialogbox, winwlx/WlxDialogBox

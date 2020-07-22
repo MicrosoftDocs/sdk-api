@@ -4,7 +4,7 @@ title: IMFPresentationClock::SetTimeSource (mfidl.h)
 description: Sets the time source for the presentation clock. The time source is the object that drives the clock by providing the current time.
 helpviewer_keywords: ["170b7c8e-9d1a-4168-964a-5fd057d1e8f9","IMFPresentationClock interface [Media Foundation]","SetTimeSource method","IMFPresentationClock.SetTimeSource","IMFPresentationClock::SetTimeSource","SetTimeSource","SetTimeSource method [Media Foundation]","SetTimeSource method [Media Foundation]","IMFPresentationClock interface","mf.imfpresentationclock_settimesource","mfidl/IMFPresentationClock::SetTimeSource"]
 old-location: mf\imfpresentationclock_settimesource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9
 ms.date: 12/05/2018
 ms.keywords: 170b7c8e-9d1a-4168-964a-5fd057d1e8f9, IMFPresentationClock interface [Media Foundation],SetTimeSource method, IMFPresentationClock.SetTimeSource, IMFPresentationClock::SetTimeSource, SetTimeSource, SetTimeSource method [Media Foundation], SetTimeSource method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_settimesource, mfidl/IMFPresentationClock::SetTimeSource

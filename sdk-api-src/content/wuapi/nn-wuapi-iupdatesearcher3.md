@@ -4,7 +4,7 @@ title: IUpdateSearcher3 (wuapi.h)
 description: Searches for updates on a server.
 helpviewer_keywords: ["IUpdateSearcher3","IUpdateSearcher3 interface [Windows Update Agent]","IUpdateSearcher3 interface [Windows Update Agent]","described","wua.iupdatesearcher3","wuapi/IUpdateSearcher3"]
 old-location: wua\iupdatesearcher3.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d37017d5-6f78-4b6c-ac0b-c83b83853079
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher3, IUpdateSearcher3 interface [Windows Update Agent], IUpdateSearcher3 interface [Windows Update Agent],described, wua.iupdatesearcher3, wuapi/IUpdateSearcher3

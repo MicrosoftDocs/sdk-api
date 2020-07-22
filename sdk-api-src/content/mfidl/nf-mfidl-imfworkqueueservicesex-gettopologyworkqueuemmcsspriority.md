@@ -4,7 +4,7 @@ title: IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority (mfidl.h)
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) string associated with the given topology work queue.
 helpviewer_keywords: ["GetTopologyWorkQueueMMCSSPriority","GetTopologyWorkQueueMMCSSPriority method [Media Foundation]","GetTopologyWorkQueueMMCSSPriority method [Media Foundation]","IMFWorkQueueServicesEx interface","IMFWorkQueueServicesEx interface [Media Foundation]","GetTopologyWorkQueueMMCSSPriority method","IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority","IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority","mf.imfworkqueueservicesex_gettopologyworkqueuemmcsspriority","mfidl/IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority"]
 old-location: mf\imfworkqueueservicesex_gettopologyworkqueuemmcsspriority.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d5550e53-cbe9-4956-a079-d2a825fd17ef
 ms.date: 12/05/2018
 ms.keywords: GetTopologyWorkQueueMMCSSPriority, GetTopologyWorkQueueMMCSSPriority method [Media Foundation], GetTopologyWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetTopologyWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_gettopologyworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority

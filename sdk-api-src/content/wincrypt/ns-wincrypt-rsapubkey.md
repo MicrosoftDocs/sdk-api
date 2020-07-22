@@ -4,7 +4,7 @@ title: RSAPUBKEY (wincrypt.h)
 description: The RSAPUBKEY structure contains information specific to the particular public key contained in the key BLOB.
 helpviewer_keywords: ["RSAPUBKEY","RSAPUBKEY structure [Security]","_crypto2_rsapubkey","security.rsapubkey","wincrypt/RSAPUBKEY"]
 old-location: security\rsapubkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 34b3d591-5d51-484b-accc-9a923d7492b9
 ms.date: 12/05/2018
 ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _crypto2_rsapubkey, security.rsapubkey, wincrypt/RSAPUBKEY

@@ -4,7 +4,7 @@ title: IXpsOMPackageWriter3D::SetModelPrintTicket (xpsobjectmodel_2.h)
 description: Creates a print ticket with the specified part.
 helpviewer_keywords: ["IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","SetModelPrintTicket method","IXpsOMPackageWriter3D.SetModelPrintTicket","IXpsOMPackageWriter3D::SetModelPrintTicket","SetModelPrintTicket","SetModelPrintTicket method [XPS Documents and Packaging]","SetModelPrintTicket method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","xps.ixpsompackagewriter3d_setmodelprintticket","xpsobjectmodel_2/IXpsOMPackageWriter3D::SetModelPrintTicket"]
 old-location: xps\ixpsompackagewriter3d_setmodelprintticket.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2CCA48A9-CB7C-40F9-8BE0-FEC74AA25902
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter3D interface [XPS Documents and Packaging],SetModelPrintTicket method, IXpsOMPackageWriter3D.SetModelPrintTicket, IXpsOMPackageWriter3D::SetModelPrintTicket, SetModelPrintTicket, SetModelPrintTicket method [XPS Documents and Packaging], SetModelPrintTicket method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter3d_setmodelprintticket, xpsobjectmodel_2/IXpsOMPackageWriter3D::SetModelPrintTicket

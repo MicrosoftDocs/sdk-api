@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_WRITE_CERT (wincrypt.h)
 description: An application-defined callback function that is called by CertAddEncodedCertificateToStore, CertAddCertificateContextToStore and CertAddSerializedElementToStore before adding to the store.
 helpviewer_keywords: ["CertStoreProvWriteCertCallback","PFN_CERT_STORE_PROV_WRITE_CERT","PFN_CERT_STORE_PROV_WRITE_CERT callback","PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security]","_crypto2_certstoreprovwritecertcallback","security.certstoreprovwritecertcallback","wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT"]
 old-location: security\certstoreprovwritecertcallback.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 97cc488a-7993-4b48-a4b4-cb13c6168226
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvWriteCertCallback, PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], _crypto2_certstoreprovwritecertcallback, security.certstoreprovwritecertcallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT

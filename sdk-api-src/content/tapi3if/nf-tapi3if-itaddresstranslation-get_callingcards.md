@@ -4,7 +4,7 @@ title: ITAddressTranslation::get_CallingCards (tapi3if.h)
 description: The get_CallingCards method creates a collection of calling cards associated with the address.
 helpviewer_keywords: ["ITAddressTranslation interface [TAPI 2.2]","get_CallingCards method","ITAddressTranslation.get_CallingCards","ITAddressTranslation::get_CallingCards","_tapi3_itaddresstranslation_get_callingcards","get_CallingCards","get_CallingCards method [TAPI 2.2]","get_CallingCards method [TAPI 2.2]","ITAddressTranslation interface","tapi3.itaddresstranslation_get_callingcards","tapi3if/ITAddressTranslation::get_CallingCards"]
 old-location: tapi3\itaddresstranslation_get_callingcards.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3033c584-1a7b-4bba-a8a2-2a2d59247689
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],get_CallingCards method, ITAddressTranslation.get_CallingCards, ITAddressTranslation::get_CallingCards, _tapi3_itaddresstranslation_get_callingcards, get_CallingCards, get_CallingCards method [TAPI 2.2], get_CallingCards method [TAPI 2.2],ITAddressTranslation interface, tapi3.itaddresstranslation_get_callingcards, tapi3if/ITAddressTranslation::get_CallingCards

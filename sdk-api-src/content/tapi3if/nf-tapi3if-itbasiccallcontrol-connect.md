@@ -4,7 +4,7 @@ title: ITBasicCallControl::Connect (tapi3if.h)
 description: The Connect method attempts to complete the connection of an outgoing call.
 helpviewer_keywords: ["Connect","Connect method [TAPI 2.2]","Connect method [TAPI 2.2]","ITBasicCallControl interface","ITBasicCallControl interface [TAPI 2.2]","Connect method","ITBasicCallControl.Connect","ITBasicCallControl::Connect","_tapi3_itbasiccallcontrol_connect","tapi3.itbasiccallcontrol_connect","tapi3if/ITBasicCallControl::Connect"]
 old-location: tapi3\itbasiccallcontrol_connect.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cc9a8bfd-14c0-459c-a911-325b73323c08
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Connect method, ITBasicCallControl.Connect, ITBasicCallControl::Connect, _tapi3_itbasiccallcontrol_connect, tapi3.itbasiccallcontrol_connect, tapi3if/ITBasicCallControl::Connect

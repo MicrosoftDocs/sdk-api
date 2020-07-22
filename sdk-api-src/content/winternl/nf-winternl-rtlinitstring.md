@@ -4,7 +4,7 @@ title: RtlInitString function (winternl.h)
 description: Initializes a counted string.
 helpviewer_keywords: ["RtlInitString","RtlInitString function [Windows API]","winprog.rtlinitstring","winternl/RtlInitString","winui.rtlinitstring"]
 old-location: winprog\rtlinitstring.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitstring.htm
 ms.date: 12/05/2018
 ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlinitstring, winternl/RtlInitString, winui.rtlinitstring

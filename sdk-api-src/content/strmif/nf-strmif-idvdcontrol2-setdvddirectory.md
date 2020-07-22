@@ -4,7 +4,7 @@ title: IDvdControl2::SetDVDDirectory (strmif.h)
 description: The SetDVDDirectory method sets the DVD drive that the DVD Navigator filter will read from.
 helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetDVDDirectory method","IDvdControl2.SetDVDDirectory","IDvdControl2::SetDVDDirectory","IDvdControl2SetDVDDirectory","SetDVDDirectory","SetDVDDirectory method [DirectShow]","SetDVDDirectory method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setdvddirectory","strmif/IDvdControl2::SetDVDDirectory"]
 old-location: dshow\idvdcontrol2_setdvddirectory.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fa64a614-14cb-4ea9-a005-0e738490b6d6
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetDVDDirectory method, IDvdControl2.SetDVDDirectory, IDvdControl2::SetDVDDirectory, IDvdControl2SetDVDDirectory, SetDVDDirectory, SetDVDDirectory method [DirectShow], SetDVDDirectory method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setdvddirectory, strmif/IDvdControl2::SetDVDDirectory

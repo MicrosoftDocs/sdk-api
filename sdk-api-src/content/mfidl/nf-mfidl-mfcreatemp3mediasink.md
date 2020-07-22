@@ -4,7 +4,7 @@ title: MFCreateMP3MediaSink function (mfidl.h)
 description: Creates the MP3 media sink.
 helpviewer_keywords: ["MFCreateMP3MediaSink","MFCreateMP3MediaSink function [Media Foundation]","mf.mfcreatemp3mediasink","mfidl/MFCreateMP3MediaSink"]
 old-location: mf\mfcreatemp3mediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
 ms.date: 12/05/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink

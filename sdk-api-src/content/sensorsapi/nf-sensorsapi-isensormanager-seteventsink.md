@@ -4,7 +4,7 @@ title: ISensorManager::SetEventSink (sensorsapi.h)
 description: Specifies the interface through which to receive sensor manager event notifications.
 helpviewer_keywords: ["ISensorManager interface","SetEventSink method","ISensorManager.SetEventSink","ISensorManager::SetEventSink","SetEventSink","SetEventSink method","SetEventSink method","ISensorManager interface","sensorsapi/ISensorManager::SetEventSink","winsensors_com_ref.isensormanager_seteventsink"]
 old-location: winsensors_com_ref\isensormanager_seteventsink.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 270f0943-dc6a-47df-b1bd-ecfbfcafc4c8
 ms.date: 12/05/2018
 ms.keywords: ISensorManager interface,SetEventSink method, ISensorManager.SetEventSink, ISensorManager::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensorManager interface, sensorsapi/ISensorManager::SetEventSink, winsensors_com_ref.isensormanager_seteventsink

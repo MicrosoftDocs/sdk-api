@@ -2,6 +2,7 @@
 UID: NE:d3d11.D3D11_SHARED_RESOURCE_TIER
 title: D3D11_SHARED_RESOURCE_TIER
 description: Defines constants that specify TBD.
+tech.root: direct3d11
 ms.date: 05/27/2020
 helpviewer_keywords: ["D3D11_SHARED_RESOURCE_TIER"]
 ms.keywords: D3D11_SHARED_RESOURCE_TIER

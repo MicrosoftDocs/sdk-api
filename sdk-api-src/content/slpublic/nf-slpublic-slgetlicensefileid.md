@@ -4,7 +4,7 @@ title: SLGetLicenseFileId function (slpublic.h)
 description: Checks if the license BLOB has been installed already.
 helpviewer_keywords: ["SLGetLicenseFileId","SLGetLicenseFileId function [Security]","security.slgetlicensefileid","slpublic/SLGetLicenseFileId"]
 old-location: security\slgetlicensefileid.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: b8474a25-2aef-43b6-85be-71dc287fd712
 ms.date: 12/05/2018
 ms.keywords: SLGetLicenseFileId, SLGetLicenseFileId function [Security], security.slgetlicensefileid, slpublic/SLGetLicenseFileId

@@ -4,7 +4,7 @@ title: InitializeCache function (filehc.h)
 description: Provides the initializing values of the file handle cache.
 helpviewer_keywords: ["InitializeCache","InitializeCache function [Windows API]","filehc/InitializeCache","winprog._initializecache"]
 old-location: winprog\_initializecache.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 756235f6-293b-4535-9b0e-4294fafe9e5a
 ms.date: 12/05/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache

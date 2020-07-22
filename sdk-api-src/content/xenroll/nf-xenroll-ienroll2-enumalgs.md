@@ -4,7 +4,7 @@ title: IEnroll2::EnumAlgs (xenroll.h)
 description: Retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 helpviewer_keywords: ["EnumAlgs","EnumAlgs method [Security]","EnumAlgs method [Security]","IEnroll2 interface","IEnroll2 interface [Security]","EnumAlgs method","IEnroll2.EnumAlgs","IEnroll2::EnumAlgs","security.ienroll4_enumalgs","xenroll/IEnroll2::EnumAlgs"]
 old-location: security\ienroll4_enumalgs.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a40d85d0-fd02-4e0a-af7d-dfefe02f4e2a
 ms.date: 12/05/2018
 ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IEnroll2 interface, IEnroll2 interface [Security],EnumAlgs method, IEnroll2.EnumAlgs, IEnroll2::EnumAlgs, security.ienroll4_enumalgs, xenroll/IEnroll2::EnumAlgs

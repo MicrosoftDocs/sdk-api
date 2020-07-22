@@ -4,7 +4,7 @@ title: WofShouldCompressBinaries function (wofapi.h)
 description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
 helpviewer_keywords: ["WofShouldCompressBinaries","WofShouldCompressBinaries function [Files]","fs.wofshouldcompressbinaries","wofapi/WofShouldCompressBinaries"]
 old-location: fs\wofshouldcompressbinaries.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
 ms.date: 12/05/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries

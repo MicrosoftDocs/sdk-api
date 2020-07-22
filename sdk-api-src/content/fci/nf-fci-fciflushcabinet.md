@@ -4,7 +4,7 @@ title: FCIFlushCabinet function (fci.h)
 description: The FCIFlushCabinet function completes the current cabinet.
 helpviewer_keywords: ["FCIFlushCabinet","FCIFlushCabinet function [Windows API]","fci/FCIFlushCabinet","winprog.fciflushcabinet"]
 old-location: winprog\fciflushcabinet.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.date: 12/05/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet

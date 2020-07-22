@@ -4,7 +4,7 @@ title: IVideoWindow::get_FullScreenMode (control.h)
 description: The get_FullScreenMode method queries whether the video renderer is in full-screen mode.
 helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_FullScreenMode method","IVideoWindow.get_FullScreenMode","IVideoWindow::get_FullScreenMode","IVideoWindowget_FullScreenMode","control/IVideoWindow::get_FullScreenMode","dshow.ivideowindow_get_fullscreenmode","get_FullScreenMode","get_FullScreenMode method [DirectShow]","get_FullScreenMode method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_fullscreenmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface

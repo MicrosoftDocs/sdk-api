@@ -4,7 +4,7 @@ title: IXpsSigningOptions::SetSigningTimeFormat (xpsdigitalsignature.h)
 description: Sets the format of the signing time string.
 helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetSigningTimeFormat method","IXpsSigningOptions.SetSigningTimeFormat","IXpsSigningOptions::SetSigningTimeFormat","SetSigningTimeFormat","SetSigningTimeFormat method [XPS Documents and Packaging]","SetSigningTimeFormat method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setsigningtimeformat","xpsdigitalsignature/IXpsSigningOptions::SetSigningTimeFormat"]
 old-location: xps\ixpssigningoptions_setsigningtimeformat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 55ed2bb7-56d0-41d6-a8c3-dc0ff8cde7f8
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSigningTimeFormat method, IXpsSigningOptions.SetSigningTimeFormat, IXpsSigningOptions::SetSigningTimeFormat, SetSigningTimeFormat, SetSigningTimeFormat method [XPS Documents and Packaging], SetSigningTimeFormat method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::SetSigningTimeFormat

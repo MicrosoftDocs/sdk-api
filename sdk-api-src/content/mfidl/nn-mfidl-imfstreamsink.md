@@ -4,7 +4,7 @@ title: IMFStreamSink (mfidl.h)
 description: Represents a stream on a media sink object.
 helpviewer_keywords: ["IMFStreamSink","IMFStreamSink interface [Media Foundation]","IMFStreamSink interface [Media Foundation]","described","fe403cab-b901-4c8e-a23c-788ee65c4689","mf.imfstreamsink","mfidl/IMFStreamSink"]
 old-location: mf\imfstreamsink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
 ms.date: 12/05/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink

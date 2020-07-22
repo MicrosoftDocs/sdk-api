@@ -4,7 +4,7 @@ title: TSPI_phoneSetVolume function (tspi.h)
 description: The TSPI_phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
 helpviewer_keywords: ["TSPI_phoneSetVolume","TSPI_phoneSetVolume function [TAPI 2.2]","_tspi_tspi_phonesetvolume","tspi.tspi_phonesetvolume","tspi/TSPI_phoneSetVolume"]
 old-location: tspi\tspi_phonesetvolume.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c9aa2a3a-71ef-4214-b165-00a9620bb7e9
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetVolume, TSPI_phoneSetVolume function [TAPI 2.2], _tspi_tspi_phonesetvolume, tspi.tspi_phonesetvolume, tspi/TSPI_phoneSetVolume

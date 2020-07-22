@@ -4,7 +4,7 @@ title: IWebApplicationHost::Advise (webapplication.h)
 description: Establishes a connection to allow a client to receive events.
 helpviewer_keywords: ["Advise","Advise method [Debugging Windows Store apps]","Advise method [Debugging Windows Store apps]","IWebApplicationHost interface","IWebApplicationHost interface [Debugging Windows Store apps]","Advise method","IWebApplicationHost.Advise","IWebApplicationHost::Advise","debug.iwebapplicationhost_advise","webapplication/IWebApplicationHost::Advise"]
 old-location: debug\iwebapplicationhost_advise.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: 94c016cb-f043-4ea6-a5d1-f3486b55c97f
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Debugging Windows Store apps], Advise method [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],Advise method, IWebApplicationHost.Advise, IWebApplicationHost::Advise, debug.iwebapplicationhost_advise, webapplication/IWebApplicationHost::Advise

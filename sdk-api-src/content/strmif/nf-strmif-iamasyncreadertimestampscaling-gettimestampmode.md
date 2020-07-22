@@ -4,7 +4,7 @@ title: IAMAsyncReaderTimestampScaling::GetTimestampMode (strmif.h)
 description: Gets the filter's time-stamping mode.
 helpviewer_keywords: ["FALSE","GetTimestampMode","GetTimestampMode method [DirectShow]","GetTimestampMode method [DirectShow]","IAMAsyncReaderTimestampScaling interface","IAMAsyncReaderTimestampScaling interface [DirectShow]","GetTimestampMode method","IAMAsyncReaderTimestampScaling.GetTimestampMode","IAMAsyncReaderTimestampScaling::GetTimestampMode","TRUE","dshow.iamasyncreadertimestampscaling_gettimestampmode","strmif/IAMAsyncReaderTimestampScaling::GetTimestampMode"]
 old-location: dshow\iamasyncreadertimestampscaling_gettimestampmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2fbadd9d-e741-482f-9ff1-655b149fec49
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetTimestampMode, GetTimestampMode method [DirectShow], GetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, IAMAsyncReaderTimestampScaling interface [DirectShow],GetTimestampMode method, IAMAsyncReaderTimestampScaling.GetTimestampMode, IAMAsyncReaderTimestampScaling::GetTimestampMode, TRUE, dshow.iamasyncreadertimestampscaling_gettimestampmode, strmif/IAMAsyncReaderTimestampScaling::GetTimestampMode

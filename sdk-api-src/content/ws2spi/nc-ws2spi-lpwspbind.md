@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPBIND
 title: LPWSPBIND
 description: The LPWSPBind function associates a local address (that is, name) with a socket.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPBIND"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPBIND

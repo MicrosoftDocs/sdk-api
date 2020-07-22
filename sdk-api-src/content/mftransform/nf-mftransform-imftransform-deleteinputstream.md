@@ -4,7 +4,7 @@ title: IMFTransform::DeleteInputStream (mftransform.h)
 description: Removes an input stream from this Media Foundation transform (MFT).
 helpviewer_keywords: ["DeleteInputStream","DeleteInputStream method [Media Foundation]","DeleteInputStream method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","DeleteInputStream method","IMFTransform.DeleteInputStream","IMFTransform::DeleteInputStream","cba37f7f-6ab2-469c-95c2-61d9e4d31d0b","mf.imftransform_deleteinputstream","mftransform/IMFTransform::DeleteInputStream"]
 old-location: mf\imftransform_deleteinputstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cba37f7f-6ab2-469c-95c2-61d9e4d31d0b
 ms.date: 12/05/2018
 ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],DeleteInputStream method, IMFTransform.DeleteInputStream, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream

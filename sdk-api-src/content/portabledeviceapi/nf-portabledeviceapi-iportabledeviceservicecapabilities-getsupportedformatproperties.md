@@ -4,7 +4,7 @@ title: IPortableDeviceServiceCapabilities::GetSupportedFormatProperties (portabl
 description: Retrieves the properties supported by the service for the specified format.
 helpviewer_keywords: ["GetSupportedFormatProperties","GetSupportedFormatProperties method [Windows Portable Devices SDK]","GetSupportedFormatProperties method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetSupportedFormatProperties method","IPortableDeviceServiceCapabilities.GetSupportedFormatProperties","IPortableDeviceServiceCapabilities::GetSupportedFormatProperties","portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormatProperties","wpdsdk.iportabledeviceservicecapabilities_getsupportedformatproperties"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformatproperties.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 80ce7975-c567-4c99-9eb5-6d494a0f1883
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFormatProperties, GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormatProperties method, IPortableDeviceServiceCapabilities.GetSupportedFormatProperties, IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledeviceservicecapabilities_getsupportedformatproperties

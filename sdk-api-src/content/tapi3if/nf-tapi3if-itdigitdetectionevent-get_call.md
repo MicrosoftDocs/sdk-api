@@ -4,7 +4,7 @@ title: ITDigitDetectionEvent::get_Call (tapi3if.h)
 description: The get_Call method gets a pointer to the ITCallInfo interface for the call on which the event occurred.
 helpviewer_keywords: ["ITDigitDetectionEvent interface [TAPI 2.2]","get_Call method","ITDigitDetectionEvent.get_Call","ITDigitDetectionEvent::get_Call","_tapi3_itdigitdetectionevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITDigitDetectionEvent interface","tapi3.itdigitdetectionevent_get_call","tapi3if/ITDigitDetectionEvent::get_Call"]
 old-location: tapi3\itdigitdetectionevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 98168b0c-132b-47cf-9d5d-6fba7b570216
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_Call method, ITDigitDetectionEvent.get_Call, ITDigitDetectionEvent::get_Call, _tapi3_itdigitdetectionevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_call, tapi3if/ITDigitDetectionEvent::get_Call

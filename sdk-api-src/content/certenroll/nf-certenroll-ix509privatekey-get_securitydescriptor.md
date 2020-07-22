@@ -4,7 +4,7 @@ title: IX509PrivateKey::get_SecurityDescriptor (certenroll.h)
 description: Specifies or retrieves the security descriptor for the private key.
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","SecurityDescriptor property","IX509PrivateKey.SecurityDescriptor","IX509PrivateKey.get_SecurityDescriptor","IX509PrivateKey::SecurityDescriptor","IX509PrivateKey::get_SecurityDescriptor","IX509PrivateKey::put_SecurityDescriptor","SecurityDescriptor property [Security]","SecurityDescriptor property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::SecurityDescriptor","certenroll/IX509PrivateKey::get_SecurityDescriptor","certenroll/IX509PrivateKey::put_SecurityDescriptor","get_SecurityDescriptor","security.ix509privatekey_securitydescriptor_property"]
 old-location: security\ix509privatekey_securitydescriptor_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5fa1e5d8-b745-494c-a727-426084fce2a1
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],SecurityDescriptor property, IX509PrivateKey.SecurityDescriptor, IX509PrivateKey.get_SecurityDescriptor, IX509PrivateKey::SecurityDescriptor, IX509PrivateKey::get_SecurityDescriptor, IX509PrivateKey::put_SecurityDescriptor, SecurityDescriptor property [Security], SecurityDescriptor property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::SecurityDescriptor, certenroll/IX509PrivateKey::get_SecurityDescriptor, certenroll/IX509PrivateKey::put_SecurityDescriptor, get_SecurityDescriptor, security.ix509privatekey_securitydescriptor_property

@@ -4,7 +4,7 @@ title: pCryptSIPGetCaps (mssip.h)
 description: Is implemented by an subject interface package (SIP) to report capabilities.
 helpviewer_keywords: ["mssip/pCryptSIPGetCaps","pCryptSIPGetCaps","pCryptSIPGetCaps callback","pCryptSIPGetCaps callback function [Security]","security.pfncryptsipgetcaps"]
 old-location: security\pfncryptsipgetcaps.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
 ms.date: 12/05/2018
 ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps callback, pCryptSIPGetCaps callback function [Security], security.pfncryptsipgetcaps

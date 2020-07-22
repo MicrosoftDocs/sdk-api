@@ -4,7 +4,7 @@ title: CfGetCorrelationVector function (cfapi.h)
 description: Allows the sync provider to query the current correlation vector for a given placeholder file.
 helpviewer_keywords: ["CfGetCorrelationVector","CfGetCorrelationVector function","cfapi/CfGetCorrelationVector","cloudApi.cfgetcorrelationvector"]
 old-location: cloudapi\cfgetcorrelationvector.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 3DB0AAFE-82DC-4707-8DB6-C52D4A9B2771
 ms.date: 12/05/2018
 ms.keywords: CfGetCorrelationVector, CfGetCorrelationVector function, cfapi/CfGetCorrelationVector, cloudApi.cfgetcorrelationvector

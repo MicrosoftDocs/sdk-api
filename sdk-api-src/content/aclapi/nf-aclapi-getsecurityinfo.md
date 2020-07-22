@@ -4,7 +4,7 @@ title: GetSecurityInfo function (aclapi.h)
 description: Retrieves a copy of the security descriptor for an object specified by a handle.
 helpviewer_keywords: ["GetSecurityInfo","GetSecurityInfo function [Security]","_win32_getsecurityinfo","aclapi/GetSecurityInfo","security.getsecurityinfo"]
 old-location: security\getsecurityinfo.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.date: 12/05/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo

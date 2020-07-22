@@ -4,7 +4,7 @@ title: IAMNetShowExProps (qnetwork.h)
 description: The IAMNetShowExProps interface configures the legacy Windows Media Player 6.4 source filter. The Windows Media Source filter implements this interface.
 helpviewer_keywords: ["IAMNetShowExProps","IAMNetShowExProps interface [DirectShow]","IAMNetShowExProps interface [DirectShow]","described","IAMNetShowExPropsInterface","dshow.iamnetshowexprops","qnetwork/IAMNetShowExProps"]
 old-location: dshow\iamnetshowexprops.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e68959dc-1a79-4e2c-aeaf-3febcb9c09ce
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps

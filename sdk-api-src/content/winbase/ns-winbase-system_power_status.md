@@ -4,7 +4,7 @@ title: SYSTEM_POWER_STATUS (winbase.h)
 description: Contains information about the power status of the system.
 helpviewer_keywords: ["*LPSYSTEM_POWER_STATUS","LPSYSTEM_POWER_STATUS","LPSYSTEM_POWER_STATUS structure pointer","SYSTEM_POWER_STATUS","SYSTEM_POWER_STATUS structure","_SYSTEM_POWER_STATUS","_win32_system_power_status_str","base.system_power_status_str","winbase/LPSYSTEM_POWER_STATUS","winbase/SYSTEM_POWER_STATUS"]
 old-location: base\system_power_status_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: 4c331239-4222-4650-a0ed-6d605bf376cd
 ms.date: 12/05/2018
 ms.keywords: '*LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS structure pointer, SYSTEM_POWER_STATUS, SYSTEM_POWER_STATUS structure, _SYSTEM_POWER_STATUS, _win32_system_power_status_str, base.system_power_status_str, winbase/LPSYSTEM_POWER_STATUS, winbase/SYSTEM_POWER_STATUS'

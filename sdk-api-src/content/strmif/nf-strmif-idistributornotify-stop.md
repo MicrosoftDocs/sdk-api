@@ -4,7 +4,7 @@ title: IDistributorNotify::Stop (strmif.h)
 description: The Stop method is called when the filter graph is entering a stopped state.
 helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","Stop method","IDistributorNotify.Stop","IDistributorNotify::Stop","IDistributorNotifyStop","Stop","Stop method [DirectShow]","Stop method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_stop","strmif/IDistributorNotify::Stop"]
 old-location: dshow\idistributornotify_stop.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 21312954-bc48-402b-a03c-954c01b53231
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Stop method, IDistributorNotify.Stop, IDistributorNotify::Stop, IDistributorNotifyStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop

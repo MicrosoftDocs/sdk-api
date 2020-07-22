@@ -4,7 +4,7 @@ title: GetPointerDeviceRects function (winuser.h)
 description: Gets the x and y range for the pointer device (in himetric) and the x and y range (current resolution) for the display that the pointer device is mapped to.
 helpviewer_keywords: ["GetPointerDeviceRects","GetPointerDeviceRects function","input_pointerdevice.getpointerdevicerects","unifiedinputstack.getpointerdevicerects","winuser/GetPointerDeviceRects"]
 old-location: input_pointerdevice\getpointerdevicerects.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: a6586dec-6d57-4345-be56-89c7308c1097
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointerdevice.getpointerdevicerects, unifiedinputstack.getpointerdevicerects, winuser/GetPointerDeviceRects

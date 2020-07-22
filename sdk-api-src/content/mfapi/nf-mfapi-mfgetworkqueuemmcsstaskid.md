@@ -4,7 +4,7 @@ title: MFGetWorkQueueMMCSSTaskId function (mfapi.h)
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier currently associated with this work queue.
 helpviewer_keywords: ["MFGetWorkQueueMMCSSTaskId","MFGetWorkQueueMMCSSTaskId function [Media Foundation]","e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4","mf.mfgetworkqueuemmcsstaskid","mfapi/MFGetWorkQueueMMCSSTaskId"]
 old-location: mf\mfgetworkqueuemmcsstaskid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4
 ms.date: 12/05/2018
 ms.keywords: MFGetWorkQueueMMCSSTaskId, MFGetWorkQueueMMCSSTaskId function [Media Foundation], e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4, mf.mfgetworkqueuemmcsstaskid, mfapi/MFGetWorkQueueMMCSSTaskId

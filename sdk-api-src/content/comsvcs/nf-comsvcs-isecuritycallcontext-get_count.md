@@ -4,7 +4,7 @@ title: ISecurityCallContext::get_Count (comsvcs.h)
 description: Retrieves the number of properties in the security context collection.
 helpviewer_keywords: ["ISecurityCallContext interface [COM+]","get_Count method","ISecurityCallContext.get_Count","ISecurityCallContext::get_Count","_cos_ISecurityCallContext_get_Count","comsvcs/ISecurityCallContext::get_Count","cos.isecuritycallcontext_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","ISecurityCallContext interface"]
 old-location: cos\isecuritycallcontext_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: aebb28de-79ee-4cec-afb9-cfb067a4fb62
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],get_Count method, ISecurityCallContext.get_Count, ISecurityCallContext::get_Count, _cos_ISecurityCallContext_get_Count, comsvcs/ISecurityCallContext::get_Count, cos.isecuritycallcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallContext interface

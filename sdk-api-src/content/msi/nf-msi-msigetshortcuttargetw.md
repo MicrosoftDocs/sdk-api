@@ -4,7 +4,7 @@ title: MsiGetShortcutTargetW function (msi.h)
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
 helpviewer_keywords: ["MsiGetShortcutTarget","MsiGetShortcutTarget function","MsiGetShortcutTargetA","MsiGetShortcutTargetW","_msi_msigetshortcuttarget","msi/MsiGetShortcutTarget","msi/MsiGetShortcutTargetA","msi/MsiGetShortcutTargetW","setup.msigetshortcuttarget"]
 old-location: setup\msigetshortcuttarget.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
 ms.date: 12/05/2018
 ms.keywords: MsiGetShortcutTarget, MsiGetShortcutTarget function, MsiGetShortcutTargetA, MsiGetShortcutTargetW, _msi_msigetshortcuttarget, msi/MsiGetShortcutTarget, msi/MsiGetShortcutTargetA, msi/MsiGetShortcutTargetW, setup.msigetshortcuttarget

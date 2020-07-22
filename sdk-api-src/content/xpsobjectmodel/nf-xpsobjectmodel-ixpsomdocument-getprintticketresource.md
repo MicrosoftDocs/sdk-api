@@ -4,7 +4,7 @@ title: IXpsOMDocument::GetPrintTicketResource (xpsobjectmodel.h)
 description: Gets the IXpsOMPrintTicketResource interface of the document-level print ticket.
 helpviewer_keywords: ["GetPrintTicketResource","GetPrintTicketResource method [XPS Documents and Packaging]","GetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMDocument interface","IXpsOMDocument interface [XPS Documents and Packaging]","GetPrintTicketResource method","IXpsOMDocument.GetPrintTicketResource","IXpsOMDocument::GetPrintTicketResource","xps.ixpsomdocument_getprintticketresource","xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource"]
 old-location: xps\ixpsomdocument_getprintticketresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 381bfbb3-1dfd-4761-acdc-cfe64a3aeeb5
 ms.date: 12/05/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocument.GetPrintTicketResource, IXpsOMDocument::GetPrintTicketResource, xps.ixpsomdocument_getprintticketresource, xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource

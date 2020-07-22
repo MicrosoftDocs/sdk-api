@@ -4,7 +4,7 @@ title: CRYPT_KEY_VERIFY_MESSAGE_PARA (wincrypt.h)
 description: Contains information needed to verify signed messages without a certificate for the signer.
 helpviewer_keywords: ["*PCRYPT_KEY_VERIFY_MESSAGE_PARA","CRYPT_KEY_VERIFY_MESSAGE_PARA","CRYPT_KEY_VERIFY_MESSAGE_PARA structure [Security]","PCRYPT_KEY_VERIFY_MESSAGE_PARA","PCRYPT_KEY_VERIFY_MESSAGE_PARA structure pointer [Security]","security.crypt_key_verify_message_para","wincrypt/CRYPT_KEY_VERIFY_MESSAGE_PARA","wincrypt/PCRYPT_KEY_VERIFY_MESSAGE_PARA"]
 old-location: security\crypt_key_verify_message_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4e0178fb-1f9f-4ee4-9a83-f37cf71d35ff
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_KEY_VERIFY_MESSAGE_PARA, CRYPT_KEY_VERIFY_MESSAGE_PARA, CRYPT_KEY_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_KEY_VERIFY_MESSAGE_PARA, PCRYPT_KEY_VERIFY_MESSAGE_PARA structure pointer [Security], security.crypt_key_verify_message_para, wincrypt/CRYPT_KEY_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_KEY_VERIFY_MESSAGE_PARA'

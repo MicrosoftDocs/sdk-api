@@ -5,7 +5,7 @@ ms.date: 1/23/2020
 ms.topic: language-reference
 targetos: Windows
 description: Allocates video samples for a video media sink with specialized functionality for video capture devices.
-tech.root: medfound
+tech.root: mf
 req.assembly: mfuuid.dll
 req.construct-type: iface
 req.ddi-compliance: 

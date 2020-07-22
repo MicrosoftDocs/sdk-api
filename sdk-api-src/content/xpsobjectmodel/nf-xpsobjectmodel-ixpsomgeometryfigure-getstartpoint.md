@@ -4,7 +4,7 @@ title: IXpsOMGeometryFigure::GetStartPoint (xpsobjectmodel.h)
 description: Gets the starting point of the figure.
 helpviewer_keywords: ["GetStartPoint","GetStartPoint method [XPS Documents and Packaging]","GetStartPoint method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetStartPoint method","IXpsOMGeometryFigure.GetStartPoint","IXpsOMGeometryFigure::GetStartPoint","xps.ixpsomgeometryfigure_getstartpoint","xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint"]
 old-location: xps\ixpsomgeometryfigure_getstartpoint.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7dbd829e-eaae-42f4-ae39-9ec35cbd3102
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMGeometryFigure.GetStartPoint, IXpsOMGeometryFigure::GetStartPoint, xps.ixpsomgeometryfigure_getstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint

@@ -4,7 +4,7 @@ title: SCardTransmit function (winscard.h)
 description: Sends a service request to the smart card and expects to receive data back from the card.
 helpviewer_keywords: ["SCardTransmit","SCardTransmit function [Security]","_smart_scardtransmit","bCla","bIns","bP1","bP2","bP3","security.scardtransmit","winscard/SCardTransmit"]
 old-location: security\scardtransmit.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
 ms.date: 12/05/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit

@@ -4,7 +4,7 @@ title: AM_DVDCOPY_DISCKEY (dvdmedia.h)
 description: Specifies the DVD disc key.
 helpviewer_keywords: ["*PAM_DVDCOPY_DISCKEY","AM_DVDCOPY_DISCKEY","AM_DVDCOPY_DISCKEY structure [DirectShow]","PAM_DVDCOPY_DISCKEY","PAM_DVDCOPY_DISCKEY structure pointer [DirectShow]","dshow.am_dvdcopy_disckey","dvdmedia/AM_DVDCOPY_DISCKEY","dvdmedia/PAM_DVDCOPY_DISCKEY"]
 old-location: dshow\am_dvdcopy_disckey.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ab4d7b2d-59a6-4ad1-9120-552747b96596
 ms.date: 12/05/2018
 ms.keywords: '*PAM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY structure [DirectShow], PAM_DVDCOPY_DISCKEY, PAM_DVDCOPY_DISCKEY structure pointer [DirectShow], dshow.am_dvdcopy_disckey, dvdmedia/AM_DVDCOPY_DISCKEY, dvdmedia/PAM_DVDCOPY_DISCKEY'

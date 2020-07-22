@@ -4,7 +4,7 @@ title: PerfSetULongCounterValue function (perflib.h)
 description: Updates the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 helpviewer_keywords: ["PerfSetULongCounterValue","PerfSetULongCounterValue function [Perf]","base.perfsetulongcountervalue","perf.perfsetulongcountervalue","perflib/PerfSetULongCounterValue"]
 old-location: perf\perfsetulongcountervalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: b790bea0-90d8-4894-bacb-a27f777cf240
 ms.date: 12/05/2018
 ms.keywords: PerfSetULongCounterValue, PerfSetULongCounterValue function [Perf], base.perfsetulongcountervalue, perf.perfsetulongcountervalue, perflib/PerfSetULongCounterValue

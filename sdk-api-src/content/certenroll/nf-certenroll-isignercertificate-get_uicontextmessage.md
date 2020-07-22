@@ -4,7 +4,7 @@ title: ISignerCertificate::get_UIContextMessage (certenroll.h)
 description: Specifies or retrieves a string that contains user interface text associated with the signing certificate.
 helpviewer_keywords: ["ISignerCertificate interface [Security]","UIContextMessage property","ISignerCertificate.UIContextMessage","ISignerCertificate.get_UIContextMessage","ISignerCertificate::UIContextMessage","ISignerCertificate::get_UIContextMessage","ISignerCertificate::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::UIContextMessage","certenroll/ISignerCertificate::get_UIContextMessage","certenroll/ISignerCertificate::put_UIContextMessage","get_UIContextMessage","security.isignercertificate_uicontextmessage_property"]
 old-location: security\isignercertificate_uicontextmessage_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0fd874b0-9093-4c1b-94a0-a2aaad19010e
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate.get_UIContextMessage, ISignerCertificate::UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, get_UIContextMessage, security.isignercertificate_uicontextmessage_property

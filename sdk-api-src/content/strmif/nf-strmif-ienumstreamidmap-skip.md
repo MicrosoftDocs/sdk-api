@@ -4,7 +4,7 @@ title: IEnumStreamIdMap::Skip (strmif.h)
 description: The Skip method skip the element at the specified index.
 helpviewer_keywords: ["IEnumStreamIdMap interface [DirectShow]","Skip method","IEnumStreamIdMap.Skip","IEnumStreamIdMap::Skip","IEnumStreamIdMapSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumStreamIdMap interface","dshow.ienumstreamidmap_skip","strmif/IEnumStreamIdMap::Skip"]
 old-location: dshow\ienumstreamidmap_skip.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 54502cd5-50b2-4bd2-a13f-180bddac178a
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Skip method, IEnumStreamIdMap.Skip, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip

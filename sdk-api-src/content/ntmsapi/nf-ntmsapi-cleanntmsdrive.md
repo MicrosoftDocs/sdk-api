@@ -4,7 +4,7 @@ title: CleanNtmsDrive function (ntmsapi.h)
 description: The CleanNtmsDrive function queues a cleaning request for the specified drive for cleaning.
 helpviewer_keywords: ["CleanNtmsDrive","CleanNtmsDrive function [Files]","_zaw_cleanntmsdrive","base.cleanntmsdrive","fs.cleanntmsdrive","ntmsapi/CleanNtmsDrive"]
 old-location: fs\cleanntmsdrive.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 55a8e7c0-85fd-40c5-b5b9-46ad321761c4
 ms.date: 12/05/2018
 ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdrive, base.cleanntmsdrive, fs.cleanntmsdrive, ntmsapi/CleanNtmsDrive

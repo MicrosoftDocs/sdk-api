@@ -4,7 +4,7 @@ title: IServicePool::GetObject (comsvcs.h)
 description: Retrieves an object from the object pool.
 helpviewer_keywords: ["GetObject","GetObject method [COM+]","GetObject method [COM+]","IServicePool interface","IServicePool interface [COM+]","GetObject method","IServicePool.GetObject","IServicePool::GetObject","_cos_IServicePool_GetObject","comsvcs/IServicePool::GetObject","cos.iservicepool_getobject"]
 old-location: cos\iservicepool_getobject.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f1b9487a-156c-4c2c-ab18-edfd66d96315
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM+], GetObject method [COM+],IServicePool interface, IServicePool interface [COM+],GetObject method, IServicePool.GetObject, IServicePool::GetObject, _cos_IServicePool_GetObject, comsvcs/IServicePool::GetObject, cos.iservicepool_getobject

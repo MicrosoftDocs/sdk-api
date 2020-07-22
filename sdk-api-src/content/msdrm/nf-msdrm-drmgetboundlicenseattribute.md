@@ -4,7 +4,7 @@ title: DRMGetBoundLicenseAttribute function (msdrm.h)
 description: Retrieves a bound license attribute from the license XrML.
 helpviewer_keywords: ["DRMGetBoundLicenseAttribute","DRMGetBoundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetBoundLicenseAttribute","rm.drmgetboundlicenseattribute"]
 old-location: rm\drmgetboundlicenseattribute.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 715fb3e6-6b1e-4136-9c25-efcde2015d6f
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseAttribute, DRMGetBoundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttribute, rm.drmgetboundlicenseattribute

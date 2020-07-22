@@ -4,7 +4,7 @@ title: IFileSourceFilter::GetCurFile (strmif.h)
 description: The GetCurFile method retrieves the name and media type of the current file.
 helpviewer_keywords: ["GetCurFile","GetCurFile method [DirectShow]","GetCurFile method [DirectShow]","IFileSourceFilter interface","IFileSourceFilter interface [DirectShow]","GetCurFile method","IFileSourceFilter.GetCurFile","IFileSourceFilter::GetCurFile","IFileSourceFilterGetCurfile","dshow.ifilesourcefilter_getcurfile","strmif/IFileSourceFilter::GetCurFile"]
 old-location: dshow\ifilesourcefilter_getcurfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile

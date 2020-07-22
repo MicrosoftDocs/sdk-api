@@ -4,7 +4,7 @@ title: LINEAGENTACTIVITYLIST (tapi.h)
 description: The LINEAGENTACTIVITYLIST structure describes a list of ACD agent activities. This structure can contain an array of LINEAGENTACTIVITYENTRY structures. The lineGetAgentActivityList function returns the LINEAGENTACTIVITYLIST structure.
 helpviewer_keywords: ["*LPLINEAGENTACTIVITYLIST","LINEAGENTACTIVITYLIST","LINEAGENTACTIVITYLIST structure [TAPI 2.2]","LPLINEAGENTACTIVITYLIST","LPLINEAGENTACTIVITYLIST structure pointer [TAPI 2.2]","_tapi2_lineagentactivitylist_str","tapi/LINEAGENTACTIVITYLIST","tapi/LPLINEAGENTACTIVITYLIST","tapi2.lineagentactivitylist_str"]
 old-location: tapi2\lineagentactivitylist_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 61e46717-8a14-440f-bb61-991c3dadd778
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST structure [TAPI 2.2], LPLINEAGENTACTIVITYLIST, LPLINEAGENTACTIVITYLIST structure pointer [TAPI 2.2], _tapi2_lineagentactivitylist_str, tapi/LINEAGENTACTIVITYLIST, tapi/LPLINEAGENTACTIVITYLIST, tapi2.lineagentactivitylist_str'

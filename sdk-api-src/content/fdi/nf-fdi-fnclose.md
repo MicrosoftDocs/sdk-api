@@ -4,7 +4,7 @@ title: FNCLOSE macro (fdi.h)
 description: The FNCLOSE macro provides the declaration for the application-defined callback function to close a file in an FDI context.
 helpviewer_keywords: ["FNCLOSE","FNCLOSE macro [Windows API]","fdi/FNCLOSE","winprog.fnclose"]
 old-location: winprog\fnclose.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.date: 12/05/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose

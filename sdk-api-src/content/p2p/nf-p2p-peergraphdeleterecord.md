@@ -4,7 +4,7 @@ title: PeerGraphDeleteRecord function (p2p.h)
 description: The PeerGraphDeleteRecord function marks a record as deleted within a peer graph. The record is not available on a local node to function calls, for example, calls to PeerGraphGetRecord and PeerGraphEnumRecords.
 helpviewer_keywords: ["PeerGraphDeleteRecord","PeerGraphDeleteRecord function [Peer Networking]","p2p.peergraphdeleterecord","p2p/PeerGraphDeleteRecord"]
 old-location: p2p\peergraphdeleterecord.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d6ecc762-8702-4366-81fc-c2b168dc8cb3
 ms.date: 12/05/2018
 ms.keywords: PeerGraphDeleteRecord, PeerGraphDeleteRecord function [Peer Networking], p2p.peergraphdeleterecord, p2p/PeerGraphDeleteRecord

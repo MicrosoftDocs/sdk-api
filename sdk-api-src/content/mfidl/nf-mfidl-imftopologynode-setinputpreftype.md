@@ -4,7 +4,7 @@ title: IMFTopologyNode::SetInputPrefType (mfidl.h)
 description: Sets the preferred media type for an input stream on this node.
 helpviewer_keywords: ["348b3cba-8c8c-4df9-8cb9-b69cd140cffb","IMFTopologyNode interface [Media Foundation]","SetInputPrefType method","IMFTopologyNode.SetInputPrefType","IMFTopologyNode::SetInputPrefType","SetInputPrefType","SetInputPrefType method [Media Foundation]","SetInputPrefType method [Media Foundation]","IMFTopologyNode interface","mf.imftopologynode_setinputpreftype","mfidl/IMFTopologyNode::SetInputPrefType"]
 old-location: mf\imftopologynode_setinputpreftype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb
 ms.date: 12/05/2018
 ms.keywords: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb, IMFTopologyNode interface [Media Foundation],SetInputPrefType method, IMFTopologyNode.SetInputPrefType, IMFTopologyNode::SetInputPrefType, SetInputPrefType, SetInputPrefType method [Media Foundation], SetInputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setinputpreftype, mfidl/IMFTopologyNode::SetInputPrefType

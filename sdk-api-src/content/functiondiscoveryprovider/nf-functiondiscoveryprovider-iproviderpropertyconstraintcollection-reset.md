@@ -4,7 +4,7 @@ title: IProviderPropertyConstraintCollection::Reset (functiondiscoveryprovider.h
 description: Resets the current index to the start of the collection.
 helpviewer_keywords: ["IProviderPropertyConstraintCollection interface","Reset method","IProviderPropertyConstraintCollection.Reset","IProviderPropertyConstraintCollection::Reset","Reset","Reset method","Reset method","IProviderPropertyConstraintCollection interface","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset","ncd.iproviderpropertyconstraintcollection_reset"]
 old-location: ncd\iproviderpropertyconstraintcollection_reset.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 57357567-b03f-4261-a267-42f44d829d74
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Reset method, IProviderPropertyConstraintCollection.Reset, IProviderPropertyConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset, ncd.iproviderpropertyconstraintcollection_reset

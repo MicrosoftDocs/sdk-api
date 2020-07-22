@@ -4,7 +4,7 @@ title: ICertSrvSetup::GetHashAlgorithmList (casetup.h)
 description: Gets the list of hash algorithms supported by the specified cryptographic service provider (CSP) for an asymmetric signature key algorithm.
 helpviewer_keywords: ["GetHashAlgorithmList","GetHashAlgorithmList method [Security]","GetHashAlgorithmList method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","GetHashAlgorithmList method","ICertSrvSetup.GetHashAlgorithmList","ICertSrvSetup::GetHashAlgorithmList","casetup/ICertSrvSetup::GetHashAlgorithmList","security.icertsrvsetup_gethashalgorithmlist"]
 old-location: security\icertsrvsetup_gethashalgorithmlist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 451c240d-8df9-4f4a-ab0e-56c5252d3b50
 ms.date: 12/05/2018
 ms.keywords: GetHashAlgorithmList, GetHashAlgorithmList method [Security], GetHashAlgorithmList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetHashAlgorithmList method, ICertSrvSetup.GetHashAlgorithmList, ICertSrvSetup::GetHashAlgorithmList, casetup/ICertSrvSetup::GetHashAlgorithmList, security.icertsrvsetup_gethashalgorithmlist

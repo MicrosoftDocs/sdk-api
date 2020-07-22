@@ -4,7 +4,7 @@ title: ICspAlgorithms::get_ItemByName (certenroll.h)
 description: Retrieves an ICspAlgorithm object from the collection by name.
 helpviewer_keywords: ["ICspAlgorithms interface [Security]","ItemByName property","ICspAlgorithms.ItemByName","ICspAlgorithms.get_ItemByName","ICspAlgorithms::ItemByName","ICspAlgorithms::get_ItemByName","ItemByName property [Security]","ItemByName property [Security]","ICspAlgorithms interface","certenroll/ICspAlgorithms::ItemByName","certenroll/ICspAlgorithms::get_ItemByName","get_ItemByName","security.icspalgorithms_itembyname_property"]
 old-location: security\icspalgorithms_itembyname_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a5984d8a-3199-4976-ac0f-95917843f473
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByName property, ICspAlgorithms.ItemByName, ICspAlgorithms.get_ItemByName, ICspAlgorithms::ItemByName, ICspAlgorithms::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByName, certenroll/ICspAlgorithms::get_ItemByName, get_ItemByName, security.icspalgorithms_itembyname_property

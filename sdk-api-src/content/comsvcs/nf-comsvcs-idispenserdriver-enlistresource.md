@@ -4,7 +4,7 @@ title: IDispenserDriver::EnlistResource (comsvcs.h)
 description: Enlists a resource in a transaction.
 helpviewer_keywords: ["EnlistResource","EnlistResource method [COM+]","EnlistResource method [COM+]","IDispenserDriver interface","IDispenserDriver interface [COM+]","EnlistResource method","IDispenserDriver.EnlistResource","IDispenserDriver::EnlistResource","_dtc_IDispenserDriver_EnlistResource","comsvcs/IDispenserDriver::EnlistResource","cos.idispenserdriver_enlistresource"]
 old-location: cos\idispenserdriver_enlistresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a
 ms.date: 12/05/2018
 ms.keywords: EnlistResource, EnlistResource method [COM+], EnlistResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],EnlistResource method, IDispenserDriver.EnlistResource, IDispenserDriver::EnlistResource, _dtc_IDispenserDriver_EnlistResource, comsvcs/IDispenserDriver::EnlistResource, cos.idispenserdriver_enlistresource

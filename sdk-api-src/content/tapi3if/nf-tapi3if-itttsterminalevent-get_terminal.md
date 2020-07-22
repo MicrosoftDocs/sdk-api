@@ -4,7 +4,7 @@ title: ITTTSTerminalEvent::get_Terminal (tapi3if.h)
 description: The get_Terminal method gets an ITTerminal interface pointer for the terminal object involved in the event.
 helpviewer_keywords: ["ITTTSTerminalEvent interface [TAPI 2.2]","get_Terminal method","ITTTSTerminalEvent.get_Terminal","ITTTSTerminalEvent::get_Terminal","_tapi3_itttsterminalevent_get_terminal","get_Terminal","get_Terminal method [TAPI 2.2]","get_Terminal method [TAPI 2.2]","ITTTSTerminalEvent interface","tapi3.itttsterminalevent_get_terminal","tapi3if/ITTTSTerminalEvent::get_Terminal"]
 old-location: tapi3\itttsterminalevent_get_terminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ce37e074-8ce0-4fde-b16a-c85a9487f0db
 ms.date: 12/05/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Terminal method, ITTTSTerminalEvent.get_Terminal, ITTTSTerminalEvent::get_Terminal, _tapi3_itttsterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_terminal, tapi3if/ITTTSTerminalEvent::get_Terminal

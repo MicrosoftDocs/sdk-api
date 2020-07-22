@@ -4,7 +4,7 @@ title: FSCTL_DUPLICATE_EXTENTS_TO_FILE
 description: Instructs the file system to copy a range of file bytes on behalf of an application.
 helpviewer_keywords: ["FSCTL_DUPLICATE_EXTENTS_TO_FILE","FSCTL_DUPLICATE_EXTENTS_TO_FILE control","FSCTL_DUPLICATE_EXTENTS_TO_FILE control code [Files]","fs.fsctl_duplicate_extents_to_file","winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE"]
 old-location: fs\fsctl_duplicate_extents_to_file.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: D66D2172-9308-4138-A321-867589787FED
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DUPLICATE_EXTENTS_TO_FILE, FSCTL_DUPLICATE_EXTENTS_TO_FILE control, FSCTL_DUPLICATE_EXTENTS_TO_FILE control code [Files], fs.fsctl_duplicate_extents_to_file, winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE

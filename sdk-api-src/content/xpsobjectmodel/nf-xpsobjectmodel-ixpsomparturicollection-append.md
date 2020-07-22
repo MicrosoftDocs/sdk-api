@@ -4,7 +4,7 @@ title: IXpsOMPartUriCollection::Append (xpsobjectmodel.h)
 description: Appends an IOpcPartUri interface to the end of the collection.
 helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMPartUriCollection interface","IXpsOMPartUriCollection interface [XPS Documents and Packaging]","Append method","IXpsOMPartUriCollection.Append","IXpsOMPartUriCollection::Append","xps.ixpsomparturicollection_append","xpsobjectmodel/IXpsOMPartUriCollection::Append"]
 old-location: xps\ixpsomparturicollection_append.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 53d450cf-3e31-4d17-99cc-0552df771024
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],Append method, IXpsOMPartUriCollection.Append, IXpsOMPartUriCollection::Append, xps.ixpsomparturicollection_append, xpsobjectmodel/IXpsOMPartUriCollection::Append

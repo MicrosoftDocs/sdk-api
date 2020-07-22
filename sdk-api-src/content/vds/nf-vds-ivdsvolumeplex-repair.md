@@ -4,7 +4,7 @@ title: IVdsVolumePlex::Repair (vds.h)
 description: Repairs a fault-tolerant volume plex by moving bad members to good disks.
 helpviewer_keywords: ["IVdsVolumePlex interface [VDS]","Repair method","IVdsVolumePlex.Repair","IVdsVolumePlex::Repair","Repair","Repair method [VDS]","Repair method [VDS]","IVdsVolumePlex interface","base.ivdsvolumeplex_repair","vds/IVdsVolumePlex::Repair"]
 old-location: base\ivdsvolumeplex_repair.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 21c91e85-8a49-4e74-9191-37aeb03b299e
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex interface [VDS],Repair method, IVdsVolumePlex.Repair, IVdsVolumePlex::Repair, Repair, Repair method [VDS], Repair method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_repair, vds/IVdsVolumePlex::Repair

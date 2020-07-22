@@ -4,7 +4,7 @@ title: POWERBROADCAST_SETTING (winuser.h)
 description: Sent with a power setting event and contains data about the specific change.
 helpviewer_keywords: ["*PPOWERBROADCAST_SETTING","POWERBROADCAST_SETTING","POWERBROADCAST_SETTING structure","PPOWERBROADCAST_SETTING","PPOWERBROADCAST_SETTING structure pointer","base.powerbroadcast_setting","winuser/POWERBROADCAST_SETTING","winuser/PPOWERBROADCAST_SETTING"]
 old-location: base\powerbroadcast_setting.htm
-tech.root: power
+tech.root: base
 ms.assetid: 13fa8220-bad2-4bb6-b652-38fc11a31215
 ms.date: 12/05/2018
 ms.keywords: '*PPOWERBROADCAST_SETTING, POWERBROADCAST_SETTING, POWERBROADCAST_SETTING structure, PPOWERBROADCAST_SETTING, PPOWERBROADCAST_SETTING structure pointer, base.powerbroadcast_setting, winuser/POWERBROADCAST_SETTING, winuser/PPOWERBROADCAST_SETTING'

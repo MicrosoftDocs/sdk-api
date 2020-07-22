@@ -4,7 +4,7 @@ title: GetFileAttributesA function (fileapi.h)
 description: Retrieves file system attributes for a specified file or directory.
 helpviewer_keywords: ["GetFileAttributes","GetFileAttributes function [Files]","GetFileAttributesA","GetFileAttributesW","_win32_getfileattributes","base.getfileattributes","fileapi/GetFileAttributes","fileapi/GetFileAttributesA","fileapi/GetFileAttributesW","fs.getfileattributes","winbase/GetFileAttributes","winbase/GetFileAttributesA","winbase/GetFileAttributesW"]
 old-location: fs\getfileattributes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributes, GetFileAttributes function [Files], GetFileAttributesA, GetFileAttributesW, _win32_getfileattributes, base.getfileattributes, fileapi/GetFileAttributes, fileapi/GetFileAttributesA, fileapi/GetFileAttributesW, fs.getfileattributes, winbase/GetFileAttributes, winbase/GetFileAttributesA, winbase/GetFileAttributesW

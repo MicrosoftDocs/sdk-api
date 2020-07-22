@@ -4,7 +4,7 @@ title: MFCreateCredentialCache function (mfidl.h)
 description: Creates a credential cache object. An application can use this object to implement a custom credential manager.
 helpviewer_keywords: ["MFCreateCredentialCache","MFCreateCredentialCache function [Media Foundation]","ec27f54a-4534-4342-856b-f6f55c5a7fdb","mf.mfcreatecredentialcache","mfidl/MFCreateCredentialCache"]
 old-location: mf\mfcreatecredentialcache.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ec27f54a-4534-4342-856b-f6f55c5a7fdb
 ms.date: 12/05/2018
 ms.keywords: MFCreateCredentialCache, MFCreateCredentialCache function [Media Foundation], ec27f54a-4534-4342-856b-f6f55c5a7fdb, mf.mfcreatecredentialcache, mfidl/MFCreateCredentialCache

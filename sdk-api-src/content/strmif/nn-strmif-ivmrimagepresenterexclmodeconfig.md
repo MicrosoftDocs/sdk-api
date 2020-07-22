@@ -4,7 +4,7 @@ title: IVMRImagePresenterExclModeConfig (strmif.h)
 description: The IVMRImagePresenterExclModeConfig interface inherits from IVMRImagePresenterConfig and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter.
 helpviewer_keywords: ["IVMRImagePresenterExclModeConfig","IVMRImagePresenterExclModeConfig interface [DirectShow]","IVMRImagePresenterExclModeConfig interface [DirectShow]","described","dshow.ivmrimagepresenterexclmodeconfig","strmif/IVMRImagePresenterExclModeConfig"]
 old-location: dshow\ivmrimagepresenterexclmodeconfig.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 67c9675c-c0fd-44f6-bdeb-ac3f73e937cc
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], IVMRImagePresenterExclModeConfig interface [DirectShow],described, dshow.ivmrimagepresenterexclmodeconfig, strmif/IVMRImagePresenterExclModeConfig

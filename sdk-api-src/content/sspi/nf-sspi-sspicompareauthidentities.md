@@ -4,7 +4,7 @@ title: SspiCompareAuthIdentities function (sspi.h)
 description: Compares the two specified credentials.
 helpviewer_keywords: ["SspiCompareAuthIdentities","SspiCompareAuthIdentities function [Security]","security.sspicompareauthidentities","sspi/SspiCompareAuthIdentities"]
 old-location: security\sspicompareauthidentities.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab
 ms.date: 12/05/2018
 ms.keywords: SspiCompareAuthIdentities, SspiCompareAuthIdentities function [Security], security.sspicompareauthidentities, sspi/SspiCompareAuthIdentities

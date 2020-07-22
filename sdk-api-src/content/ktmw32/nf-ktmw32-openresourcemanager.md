@@ -4,7 +4,7 @@ title: OpenResourceManager function (ktmw32.h)
 description: Opens an existing resource manager (RM).
 helpviewer_keywords: ["OpenResourceManager","OpenResourceManager function [Files]","fs.openresourcemanager","ktmw32/OpenResourceManager"]
 old-location: fs\openresourcemanager.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 396b586f-c594-4481-b095-862e9058519c
 ms.date: 12/05/2018
 ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openresourcemanager, ktmw32/OpenResourceManager

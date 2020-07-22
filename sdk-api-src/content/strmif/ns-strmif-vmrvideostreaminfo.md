@@ -4,7 +4,7 @@ title: VMRVIDEOSTREAMINFO (strmif.h)
 description: This topic applies to Windows XP or later. The VMRVIDEOSTREAMINFO structure is used in the VMR-7 filter's call to IVMRImageCompositor::CompositeImage on the image compositor.
 helpviewer_keywords: ["VMRVIDEOSTREAMINFO","VMRVIDEOSTREAMINFO structure [DirectShow]","VMRVIDEOSTREAMINFOStructure","dshow.vmrvideostreaminfo","strmif/VMRVIDEOSTREAMINFO"]
 old-location: dshow\vmrvideostreaminfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1425b3aa-f419-49ee-b262-d8d215466a2c
 ms.date: 12/05/2018
 ms.keywords: VMRVIDEOSTREAMINFO, VMRVIDEOSTREAMINFO structure [DirectShow], VMRVIDEOSTREAMINFOStructure, dshow.vmrvideostreaminfo, strmif/VMRVIDEOSTREAMINFO

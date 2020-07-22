@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_NOTIFICATION (vdshwprv.h)
 description: Defines the details of file-system events.
 helpviewer_keywords: ["VDS_FILE_SYSTEM_NOTIFICATION","VDS_FILE_SYSTEM_NOTIFICATION structure [VDS]","VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS","VDS_NF_FILE_SYSTEM_MODIFY","base.vds_file_system_notification","vds/_VDS_FILE_SYSTEM_NOTIFICATION","vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION"]
 old-location: base\vds_file_system_notification.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 81d62c22-4f29-43f6-a00e-12502174a768
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structure [VDS], VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS, VDS_NF_FILE_SYSTEM_MODIFY, base.vds_file_system_notification, vds/_VDS_FILE_SYSTEM_NOTIFICATION, vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION

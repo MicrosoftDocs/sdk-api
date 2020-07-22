@@ -4,7 +4,7 @@ title: AcquireCredentialsHandleA function (sspi.h)
 description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 helpviewer_keywords: ["AcquireCredentialsHandle","AcquireCredentialsHandle (CredSSP)","AcquireCredentialsHandle function [Security]","AcquireCredentialsHandleA","AcquireCredentialsHandleW","SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","security.acquirecredentialshandle__credssp_","sspi/AcquireCredentialsHandle","sspi/AcquireCredentialsHandleA","sspi/AcquireCredentialsHandleW"]
 old-location: security\acquirecredentialshandle__credssp_.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.date: 12/05/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW

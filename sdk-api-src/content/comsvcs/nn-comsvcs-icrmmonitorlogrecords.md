@@ -4,7 +4,7 @@ title: ICrmMonitorLogRecords (comsvcs.h)
 description: Monitors the individual log records maintained by a specific CRM clerk for a given transaction.
 helpviewer_keywords: ["ICrmMonitorLogRecords","ICrmMonitorLogRecords interface [COM+]","ICrmMonitorLogRecords interface [COM+]","described","_dtc_ICrmMonitorLogRecords_Interface","comsvcs/ICrmMonitorLogRecords","cos.icrmmonitorlogrecords"]
 old-location: cos\icrmmonitorlogrecords.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5077ad2a-89c1-43f7-a7e0-7bd8036147b6
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], ICrmMonitorLogRecords interface [COM+],described, _dtc_ICrmMonitorLogRecords_Interface, comsvcs/ICrmMonitorLogRecords, cos.icrmmonitorlogrecords

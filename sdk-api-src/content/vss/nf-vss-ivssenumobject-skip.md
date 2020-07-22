@@ -4,7 +4,7 @@ title: IVssEnumObject::Skip (vss.h)
 description: Skips the specified number of objects.
 helpviewer_keywords: ["IVssEnumObject interface [VSS]","Skip method","IVssEnumObject.Skip","IVssEnumObject::Skip","Skip","Skip method [VSS]","Skip method [VSS]","IVssEnumObject interface","_win32_ivssenumobject_skip","base.ivssenumobject_skip","vss/IVssEnumObject::Skip"]
 old-location: base\ivssenumobject_skip.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: a655978e-49fa-445d-8576-ba82b523750c
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject interface [VSS],Skip method, IVssEnumObject.Skip, IVssEnumObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumObject interface, _win32_ivssenumobject_skip, base.ivssenumobject_skip, vss/IVssEnumObject::Skip

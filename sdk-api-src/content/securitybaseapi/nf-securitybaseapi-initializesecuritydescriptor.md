@@ -4,7 +4,7 @@ title: InitializeSecurityDescriptor function (securitybaseapi.h)
 description: Initializes a new security descriptor.
 helpviewer_keywords: ["InitializeSecurityDescriptor","InitializeSecurityDescriptor function [Security]","_win32_initializesecuritydescriptor","security.initializesecuritydescriptor","securitybaseapi/InitializeSecurityDescriptor"]
 old-location: security\initializesecuritydescriptor.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 234fcda4-7d30-4c3f-a036-7ace58ca8a3c
 ms.date: 12/05/2018
 ms.keywords: InitializeSecurityDescriptor, InitializeSecurityDescriptor function [Security], _win32_initializesecuritydescriptor, security.initializesecuritydescriptor, securitybaseapi/InitializeSecurityDescriptor

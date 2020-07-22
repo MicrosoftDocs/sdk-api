@@ -4,7 +4,7 @@ title: VDS_ISCSI_TARGET_PROP (vdshwprv.h)
 description: Defines the properties of an iSCSI target.
 helpviewer_keywords: ["*PVDS_ISCSI_TARGET_PROP","VDS_ISCSI_TARGET_PROP","VDS_ISCSI_TARGET_PROP structure [VDS]","base.vds_iscsi_target_prop","vds/VDS_ISCSI_TARGET_PROP","vdshwprv/VDS_ISCSI_TARGET_PROP"]
 old-location: base\vds_iscsi_target_prop.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: ca92c9e8-4d15-4b3c-8420-3eac18a7c2f5
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_ISCSI_TARGET_PROP, VDS_ISCSI_TARGET_PROP, VDS_ISCSI_TARGET_PROP structure [VDS], base.vds_iscsi_target_prop, vds/VDS_ISCSI_TARGET_PROP, vdshwprv/VDS_ISCSI_TARGET_PROP'

@@ -5,6 +5,7 @@ ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_GENERAL_STATS, DIAGNOSTIC_DATA_GENERAL_STATS
 ms.topic: language-reference
 description: This resource contains general statistics about a set of diagnostic data records.
+tech.root: security
 targetos: Windows
 product: Windows
 req.construct-type: structure

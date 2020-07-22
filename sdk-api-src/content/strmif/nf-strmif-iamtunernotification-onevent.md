@@ -4,7 +4,7 @@ title: IAMTunerNotification::OnEvent (strmif.h)
 description: Note  The IAMTunerNotification interface is deprecated. The OnEvent method handles events from the TV tuner card.
 helpviewer_keywords: ["IAMTunerNotification interface [DirectShow]","OnEvent method","IAMTunerNotification.OnEvent","IAMTunerNotification::OnEvent","IAMTunerNotificationOnEvent","OnEvent","OnEvent method [DirectShow]","OnEvent method [DirectShow]","IAMTunerNotification interface","dshow.iamtunernotification_onevent","strmif/IAMTunerNotification::OnEvent"]
 old-location: dshow\iamtunernotification_onevent.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ac28a445-dfa0-4e88-861d-3364106c2b20
 ms.date: 12/05/2018
 ms.keywords: IAMTunerNotification interface [DirectShow],OnEvent method, IAMTunerNotification.OnEvent, IAMTunerNotification::OnEvent, IAMTunerNotificationOnEvent, OnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow],IAMTunerNotification interface, dshow.iamtunernotification_onevent, strmif/IAMTunerNotification::OnEvent

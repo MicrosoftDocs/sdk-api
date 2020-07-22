@@ -4,7 +4,7 @@ title: ICOMAdminCatalog::GetCollection (comadmin.h)
 description: Retrieves a top-level collection on the COM+ catalog.
 helpviewer_keywords: ["GetCollection","GetCollection method [COM+]","GetCollection method [COM+]","ICOMAdminCatalog interface","ICOMAdminCatalog interface [COM+]","GetCollection method","ICOMAdminCatalog.GetCollection","ICOMAdminCatalog::GetCollection","_cos_ICOMAdminCatalog_GetCollection","comadmin/ICOMAdminCatalog::GetCollection","cos.icomadmincatalog_getcollection"]
 old-location: cos\icomadmincatalog_getcollection.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6f01a7a7-d8f3-470f-8eb3-aa698b353af1
 ms.date: 12/05/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollection method, ICOMAdminCatalog.GetCollection, ICOMAdminCatalog::GetCollection, _cos_ICOMAdminCatalog_GetCollection, comadmin/ICOMAdminCatalog::GetCollection, cos.icomadmincatalog_getcollection

@@ -4,7 +4,7 @@ title: CVssWriter::OnPrepareBackup (vswriter.h)
 description: The OnPrepareBackup method is called by a writer following a PrepareForBackup event. This method is used to configure a writer's state and its components in preparation for a backup operation.
 helpviewer_keywords: ["CVssWriter interface [VSS]","OnPrepareBackup method","CVssWriter.OnPrepareBackup","CVssWriter::OnPrepareBackup","OnPrepareBackup","OnPrepareBackup method [VSS]","OnPrepareBackup method [VSS]","CVssWriter interface","_win32_cvsswriter_onpreparebackup","base.cvsswriter_onpreparebackup","vswriter/CVssWriter::OnPrepareBackup"]
 old-location: base\cvsswriter_onpreparebackup.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 4e88d92b-48f3-42f9-bf66-61337a745902
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareBackup method, CVssWriter.OnPrepareBackup, CVssWriter::OnPrepareBackup, OnPrepareBackup, OnPrepareBackup method [VSS], OnPrepareBackup method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparebackup, base.cvsswriter_onpreparebackup, vswriter/CVssWriter::OnPrepareBackup

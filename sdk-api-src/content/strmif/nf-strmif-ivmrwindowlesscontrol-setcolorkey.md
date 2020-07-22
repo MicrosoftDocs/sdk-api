@@ -4,7 +4,7 @@ title: IVMRWindowlessControl::SetColorKey (strmif.h)
 description: The SetColorKey method sets the source color key value that the VMR should use.
 helpviewer_keywords: ["IVMRWindowlessControl interface [DirectShow]","SetColorKey method","IVMRWindowlessControl.SetColorKey","IVMRWindowlessControl::SetColorKey","IVMRWindowlessControlSetColorKey","SetColorKey","SetColorKey method [DirectShow]","SetColorKey method [DirectShow]","IVMRWindowlessControl interface","dshow.ivmrwindowlesscontrol_setcolorkey","strmif/IVMRWindowlessControl::SetColorKey"]
 old-location: dshow\ivmrwindowlesscontrol_setcolorkey.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9facf4af-ed56-4a94-b351-35ddd7f63e6e
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetColorKey method, IVMRWindowlessControl.SetColorKey, IVMRWindowlessControl::SetColorKey, IVMRWindowlessControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setcolorkey, strmif/IVMRWindowlessControl::SetColorKey

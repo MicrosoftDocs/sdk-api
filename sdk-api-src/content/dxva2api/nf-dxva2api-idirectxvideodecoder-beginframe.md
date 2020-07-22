@@ -4,7 +4,7 @@ title: IDirectXVideoDecoder::BeginFrame (dxva2api.h)
 description: Starts the decoding operation.
 helpviewer_keywords: ["17759e7b-e6d4-4270-abd3-0f73c1df7ccb","BeginFrame","BeginFrame method [Media Foundation]","BeginFrame method [Media Foundation]","IDirectXVideoDecoder interface","IDirectXVideoDecoder interface [Media Foundation]","BeginFrame method","IDirectXVideoDecoder.BeginFrame","IDirectXVideoDecoder::BeginFrame","dxva2api/IDirectXVideoDecoder::BeginFrame","mf.idirectxvideodecoder_beginframe"]
 old-location: mf\idirectxvideodecoder_beginframe.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb
 ms.date: 12/05/2018
 ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method [Media Foundation], BeginFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],BeginFrame method, IDirectXVideoDecoder.BeginFrame, IDirectXVideoDecoder::BeginFrame, dxva2api/IDirectXVideoDecoder::BeginFrame, mf.idirectxvideodecoder_beginframe

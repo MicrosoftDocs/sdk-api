@@ -4,7 +4,7 @@ title: IVMRImagePresenter::StopPresenting (strmif.h)
 description: The StopPresenting method is called just after the video stops playing. The allocator-presenter should perform any necessary cleanup in this method.
 helpviewer_keywords: ["IVMRImagePresenter interface [DirectShow]","StopPresenting method","IVMRImagePresenter.StopPresenting","IVMRImagePresenter::StopPresenting","IVMRImagePresenterStopPresenting","StopPresenting","StopPresenting method [DirectShow]","StopPresenting method [DirectShow]","IVMRImagePresenter interface","dshow.ivmrimagepresenter_stoppresenting","strmif/IVMRImagePresenter::StopPresenting"]
 old-location: dshow\ivmrimagepresenter_stoppresenting.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b6887c66-56ba-4ee6-a740-73213ac088d5
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],StopPresenting method, IVMRImagePresenter.StopPresenting, IVMRImagePresenter::StopPresenting, IVMRImagePresenterStopPresenting, StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_stoppresenting, strmif/IVMRImagePresenter::StopPresenting

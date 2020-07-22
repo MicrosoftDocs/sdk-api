@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider::SetSnapshotProperty (vsprov.h)
 description: Requests the provider to set a property value for the specified snapshot.
 helpviewer_keywords: ["IVssFileShareSnapshotProvider interface [VSS]","SetSnapshotProperty method","IVssFileShareSnapshotProvider.SetSnapshotProperty","IVssFileShareSnapshotProvider::SetSnapshotProperty","SetSnapshotProperty","SetSnapshotProperty method [VSS]","SetSnapshotProperty method [VSS]","IVssFileShareSnapshotProvider interface","base.ivssfilesharesnapshotprovider_setsnapshotproperty","vsprov/IVssFileShareSnapshotProvider::SetSnapshotProperty"]
 old-location: base\ivssfilesharesnapshotprovider_setsnapshotproperty.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 62a3a189-b14c-434d-98b9-ea4c247e2439
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetSnapshotProperty method, IVssFileShareSnapshotProvider.SetSnapshotProperty, IVssFileShareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method [VSS], SetSnapshotProperty method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setsnapshotproperty, vsprov/IVssFileShareSnapshotProvider::SetSnapshotProperty

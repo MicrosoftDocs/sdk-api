@@ -4,7 +4,7 @@ title: MsiDatabaseApplyTransformA function (msiquery.h)
 description: The MsiDatabaseApplyTransform function applies a transform to a database.
 helpviewer_keywords: ["MSITRANSFORM_ERROR_ADDEXISTINGROW","MSITRANSFORM_ERROR_ADDEXISTINGTABLE","MSITRANSFORM_ERROR_CHANGECODEPAGE","MSITRANSFORM_ERROR_DELMISSINGROW","MSITRANSFORM_ERROR_DELMISSINGTABLE","MSITRANSFORM_ERROR_UPDATEMISSINGROW","MSITRANSFORM_ERROR_VIEWTRANSFORM","MsiDatabaseApplyTransform","MsiDatabaseApplyTransform function","MsiDatabaseApplyTransformA","MsiDatabaseApplyTransformW","_msi_msidatabaseapplytransform","msiquery/MsiDatabaseApplyTransform","msiquery/MsiDatabaseApplyTransformA","msiquery/MsiDatabaseApplyTransformW","setup.msidatabaseapplytransform"]
 old-location: setup\msidatabaseapplytransform.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
 ms.date: 12/05/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_ERROR_VIEWTRANSFORM, MsiDatabaseApplyTransform, MsiDatabaseApplyTransform function, MsiDatabaseApplyTransformA, MsiDatabaseApplyTransformW, _msi_msidatabaseapplytransform, msiquery/MsiDatabaseApplyTransform, msiquery/MsiDatabaseApplyTransformA, msiquery/MsiDatabaseApplyTransformW, setup.msidatabaseapplytransform

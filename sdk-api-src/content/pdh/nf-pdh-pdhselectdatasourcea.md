@@ -4,7 +4,7 @@ title: PdhSelectDataSourceA function (pdh.h)
 description: Displays a dialog window that prompts the user to specify the source of the performance data.
 helpviewer_keywords: ["0","PDH_FLAGS_FILE_BROWSER_ONLY","PdhSelectDataSource","PdhSelectDataSource function [Perf]","PdhSelectDataSourceA","PdhSelectDataSourceW","_win32_pdhselectdatasource","base.pdhselectdatasource","pdh/PdhSelectDataSource","pdh/PdhSelectDataSourceA","pdh/PdhSelectDataSourceW","perf.pdhselectdatasource"]
 old-location: perf\pdhselectdatasource.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 211d4504-e1f9-48a0-8ddd-613f2f183c59
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_FLAGS_FILE_BROWSER_ONLY, PdhSelectDataSource, PdhSelectDataSource function [Perf], PdhSelectDataSourceA, PdhSelectDataSourceW, _win32_pdhselectdatasource, base.pdhselectdatasource, pdh/PdhSelectDataSource, pdh/PdhSelectDataSourceA, pdh/PdhSelectDataSourceW, perf.pdhselectdatasource

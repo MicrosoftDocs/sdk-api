@@ -4,7 +4,7 @@ title: IAzApplication::AddPolicyReaderName (azroles.h)
 description: Adds the specified account name to the list of principals that act as policy readers.
 helpviewer_keywords: ["AddPolicyReaderName","AddPolicyReaderName method [Security]","AddPolicyReaderName method [Security]","AzApplication object","AddPolicyReaderName method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyReaderName method","IAzApplication interface [Security]","AddPolicyReaderName method","IAzApplication.AddPolicyReaderName","IAzApplication::AddPolicyReaderName","azroles/IAzApplication::AddPolicyReaderName","security.iazapplication_addpolicyreadername"]
 old-location: security\iazapplication_addpolicyreadername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cc81527a-7a38-4c5c-857e-bedcda5a5ac3
 ms.date: 12/05/2018
 ms.keywords: AddPolicyReaderName, AddPolicyReaderName method [Security], AddPolicyReaderName method [Security],AzApplication object, AddPolicyReaderName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReaderName method, IAzApplication interface [Security],AddPolicyReaderName method, IAzApplication.AddPolicyReaderName, IAzApplication::AddPolicyReaderName, azroles/IAzApplication::AddPolicyReaderName, security.iazapplication_addpolicyreadername

@@ -4,7 +4,7 @@ title: ISecurityProperty (comsvcs.h)
 description: Determines the security identifier of the current object's original caller or direct caller. However, the preferred way to get information about an object's callers is to use the ISecurityCallContext interface.
 helpviewer_keywords: ["ISecurityProperty","ISecurityProperty interface [COM+]","ISecurityProperty interface [COM+]","described","_cos_ISecurityProperty","comsvcs/ISecurityProperty","cos.isecurityproperty"]
 old-location: cos\isecurityproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 116715a5-a3e1-48aa-b155-107ea330b7ee
 ms.date: 12/05/2018
 ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+],described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty

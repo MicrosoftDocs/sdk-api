@@ -4,7 +4,7 @@ title: IsBadStringPtrW function (winbase.h)
 description: Verifies that the calling process has read access to the specified range of memory.
 helpviewer_keywords: ["IsBadStringPtr","IsBadStringPtr function","IsBadStringPtrA","IsBadStringPtrW","_win32_isbadstringptr","base.isbadstringptr","winbase/IsBadStringPtr","winbase/IsBadStringPtrA","winbase/IsBadStringPtrW"]
 old-location: base\isbadstringptr.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
 ms.date: 12/05/2018
 ms.keywords: IsBadStringPtr, IsBadStringPtr function, IsBadStringPtrA, IsBadStringPtrW, _win32_isbadstringptr, base.isbadstringptr, winbase/IsBadStringPtr, winbase/IsBadStringPtrA, winbase/IsBadStringPtrW

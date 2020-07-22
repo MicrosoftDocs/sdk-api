@@ -4,7 +4,7 @@ title: IPin::BeginFlush (strmif.h)
 description: The BeginFlush method begins a flush operation.
 helpviewer_keywords: ["BeginFlush","BeginFlush method [DirectShow]","BeginFlush method [DirectShow]","IPin interface","IPin interface [DirectShow]","BeginFlush method","IPin.BeginFlush","IPin::BeginFlush","IPinBeginFlush","dshow.ipin_beginflush","strmif/IPin::BeginFlush"]
 old-location: dshow\ipin_beginflush.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 15563666-5f35-46a0-ad12-215979c9d9c1
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IPin interface, IPin interface [DirectShow],BeginFlush method, IPin.BeginFlush, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush

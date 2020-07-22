@@ -4,7 +4,7 @@ title: IUpdateIdentity::get_UpdateID (wuapi.h)
 description: Gets the revision-independent identifier of an update.
 helpviewer_keywords: ["IUpdateIdentity interface [Windows Update Agent]","UpdateID property","IUpdateIdentity.UpdateID","IUpdateIdentity.get_UpdateID","IUpdateIdentity::UpdateID","IUpdateIdentity::get_UpdateID","UpdateID property [Windows Update Agent]","UpdateID property [Windows Update Agent]","IUpdateIdentity interface","get_UpdateID","wua.iupdateidentity_updateid","wuapi/IUpdateIdentity::UpdateID","wuapi/IUpdateIdentity::get_UpdateID"]
 old-location: wua\iupdateidentity_updateid.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 072c85a7-bcac-4323-97df-75aa2b89f1ba
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity interface [Windows Update Agent],UpdateID property, IUpdateIdentity.UpdateID, IUpdateIdentity.get_UpdateID, IUpdateIdentity::UpdateID, IUpdateIdentity::get_UpdateID, UpdateID property [Windows Update Agent], UpdateID property [Windows Update Agent],IUpdateIdentity interface, get_UpdateID, wua.iupdateidentity_updateid, wuapi/IUpdateIdentity::UpdateID, wuapi/IUpdateIdentity::get_UpdateID

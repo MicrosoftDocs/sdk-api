@@ -4,7 +4,7 @@ title: RegisterEventSourceA function (winbase.h)
 description: Retrieves a registered handle to the specified event log.
 helpviewer_keywords: ["RegisterEventSource","RegisterEventSource function","RegisterEventSourceA","RegisterEventSourceW","_win32_registereventsource","base.registereventsource","winbase/RegisterEventSource","winbase/RegisterEventSourceA","winbase/RegisterEventSourceW"]
 old-location: base\registereventsource.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
 ms.date: 12/05/2018
 ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSourceA, RegisterEventSourceW, _win32_registereventsource, base.registereventsource, winbase/RegisterEventSource, winbase/RegisterEventSourceA, winbase/RegisterEventSourceW

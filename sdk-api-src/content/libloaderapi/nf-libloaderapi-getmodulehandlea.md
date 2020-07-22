@@ -4,7 +4,7 @@ title: GetModuleHandleA function (libloaderapi.h)
 description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
 helpviewer_keywords: ["GetModuleHandle","GetModuleHandle function","GetModuleHandleA","GetModuleHandleW","_win32_getmodulehandle","base.getmodulehandle","libloaderapi/GetModuleHandle","libloaderapi/GetModuleHandleA","libloaderapi/GetModuleHandleW","winbase/GetModuleHandle","winbase/GetModuleHandleA","winbase/GetModuleHandleW"]
 old-location: base\getmodulehandle.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: 29514410-89fe-4888-8b34-0c30d5af237f
 ms.date: 12/05/2018
 ms.keywords: GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetModuleHandleW, _win32_getmodulehandle, base.getmodulehandle, libloaderapi/GetModuleHandle, libloaderapi/GetModuleHandleA, libloaderapi/GetModuleHandleW, winbase/GetModuleHandle, winbase/GetModuleHandleA, winbase/GetModuleHandleW

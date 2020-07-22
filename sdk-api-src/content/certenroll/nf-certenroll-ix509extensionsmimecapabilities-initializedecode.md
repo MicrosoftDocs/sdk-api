@@ -4,7 +4,7 @@ title: IX509ExtensionSmimeCapabilities::InitializeDecode (certenroll.h)
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 helpviewer_keywords: ["IX509ExtensionSmimeCapabilities interface [Security]","InitializeDecode method","IX509ExtensionSmimeCapabilities.InitializeDecode","IX509ExtensionSmimeCapabilities::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionSmimeCapabilities interface","certenroll/IX509ExtensionSmimeCapabilities::InitializeDecode","security.ix509extensionsmimecapabilities_initializedecode_method"]
 old-location: security\ix509extensionsmimecapabilities_initializedecode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9b89b9aa-3e71-4511-8e5a-1fe2165fa672
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeDecode method, IX509ExtensionSmimeCapabilities.InitializeDecode, IX509ExtensionSmimeCapabilities::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeDecode, security.ix509extensionsmimecapabilities_initializedecode_method

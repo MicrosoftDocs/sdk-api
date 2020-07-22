@@ -4,7 +4,7 @@ title: CHStringArray::Append (chstrarr.h)
 description: The Append method adds the contents of another array to the end of the given array.
 helpviewer_keywords: ["Append","Append method [Windows Management Instrumentation]","Append method [Windows Management Instrumentation]","CHStringArray interface","CHStringArray interface [Windows Management Instrumentation]","Append method","CHStringArray.Append","CHStringArray::Append","_hmm_chstringarray_append","chstrarr/CHStringArray::Append","wmi.chstringarray_append"]
 old-location: wmi\chstringarray_append.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: c37df3d4-9b0b-4ed3-ab51-407f26203578
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Windows Management Instrumentation], Append method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Append method, CHStringArray.Append, CHStringArray::Append, _hmm_chstringarray_append, chstrarr/CHStringArray::Append, wmi.chstringarray_append

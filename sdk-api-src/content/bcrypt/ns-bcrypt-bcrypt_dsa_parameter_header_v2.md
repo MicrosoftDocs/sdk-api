@@ -4,7 +4,7 @@ title: BCRYPT_DSA_PARAMETER_HEADER_V2 (bcrypt.h)
 description: Contains parameter header information for a Digital Signature Algorithm (DSA) key.
 helpviewer_keywords: ["BCRYPT_DSA_PARAMETERS_MAGIC_V2","BCRYPT_DSA_PARAMETER_HEADER_V2","BCRYPT_DSA_PARAMETER_HEADER_V2 structure [Security]","PBCRYPT_DSA_PARAMETER_HEADER_V2","PBCRYPT_DSA_PARAMETER_HEADER_V2 structure pointer [Security]","bcrypt/BCRYPT_DSA_PARAMETER_HEADER_V2","bcrypt/PBCRYPT_DSA_PARAMETER_HEADER_V2","security.bcrypt_dsa_parameter_header_v2"]
 old-location: security\bcrypt_dsa_parameter_header_v2.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 25FF89D8-1E3E-433B-AC5C-1CADC09A49D0
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC_V2, BCRYPT_DSA_PARAMETER_HEADER_V2, BCRYPT_DSA_PARAMETER_HEADER_V2 structure [Security], PBCRYPT_DSA_PARAMETER_HEADER_V2, PBCRYPT_DSA_PARAMETER_HEADER_V2 structure pointer [Security], bcrypt/BCRYPT_DSA_PARAMETER_HEADER_V2, bcrypt/PBCRYPT_DSA_PARAMETER_HEADER_V2, security.bcrypt_dsa_parameter_header_v2

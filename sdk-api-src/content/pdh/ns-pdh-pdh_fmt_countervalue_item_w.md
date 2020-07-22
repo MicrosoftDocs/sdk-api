@@ -4,7 +4,7 @@ title: PDH_FMT_COUNTERVALUE_ITEM_W (pdh.h)
 description: The PDH_FMT_COUNTERVALUE_ITEM structure contains the instance name and formatted value of a counter.
 helpviewer_keywords: ["*PPDH_FMT_COUNTERVALUE_ITEM_W","PDH_FMT_COUNTERVALUE_ITEM","PDH_FMT_COUNTERVALUE_ITEM structure [Perf]","PDH_FMT_COUNTERVALUE_ITEM_A","PDH_FMT_COUNTERVALUE_ITEM_W","PPDH_FMT_COUNTERVALUE_ITEM","PPDH_FMT_COUNTERVALUE_ITEM structure pointer [Perf]","_win32_pdh_fmt_countervalue_item_str","base.pdh_fmt_countervalue_item_str","pdh/PDH_FMT_COUNTERVALUE_ITEM","pdh/PDH_FMT_COUNTERVALUE_ITEM_A","pdh/PDH_FMT_COUNTERVALUE_ITEM_W","pdh/PPDH_FMT_COUNTERVALUE_ITEM","perf.pdh_fmt_countervalue_item_str"]
 old-location: perf\pdh_fmt_countervalue_item_str.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: d3bc6ad3-0cab-4843-ae1d-5f384948a1ea
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_FMT_COUNTERVALUE_ITEM_W, PDH_FMT_COUNTERVALUE_ITEM, PDH_FMT_COUNTERVALUE_ITEM structure [Perf], PDH_FMT_COUNTERVALUE_ITEM_A, PDH_FMT_COUNTERVALUE_ITEM_W, PPDH_FMT_COUNTERVALUE_ITEM, PPDH_FMT_COUNTERVALUE_ITEM structure pointer [Perf], _win32_pdh_fmt_countervalue_item_str, base.pdh_fmt_countervalue_item_str, pdh/PDH_FMT_COUNTERVALUE_ITEM, pdh/PDH_FMT_COUNTERVALUE_ITEM_A, pdh/PDH_FMT_COUNTERVALUE_ITEM_W, pdh/PPDH_FMT_COUNTERVALUE_ITEM, perf.pdh_fmt_countervalue_item_str'

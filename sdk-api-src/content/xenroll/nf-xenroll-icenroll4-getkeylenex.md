@@ -4,7 +4,7 @@ title: ICEnroll4::GetKeyLenEx (xenroll.h)
 description: Retrieves size information for the signature and exchange keys. This method was first defined in the ICEnroll4 interface.
 helpviewer_keywords: ["CEnroll object [Security]","GetKeyLenEx method","GetKeyLenEx","GetKeyLenEx method [Security]","GetKeyLenEx method [Security]","CEnroll object","GetKeyLenEx method [Security]","ICEnroll4 interface","ICEnroll4 interface [Security]","GetKeyLenEx method","ICEnroll4.GetKeyLenEx","ICEnroll4::GetKeyLenEx","XEKL_KEYSIZE_INC","XEKL_KEYSIZE_MAX","XEKL_KEYSIZE_MIN","XEKL_KEYSPEC_KEYX","XEKL_KEYSPEC_SIG","_xen_icenroll4_getkeylenex","security.icenroll4_getkeylenex","xenroll/ICEnroll4::GetKeyLenEx"]
 old-location: security\icenroll4_getkeylenex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4e54926f-f600-4795-b6d8-efb146edcda2
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],GetKeyLenEx method, GetKeyLenEx, GetKeyLenEx method [Security], GetKeyLenEx method [Security],CEnroll object, GetKeyLenEx method [Security],ICEnroll4 interface, ICEnroll4 interface [Security],GetKeyLenEx method, ICEnroll4.GetKeyLenEx, ICEnroll4::GetKeyLenEx, XEKL_KEYSIZE_INC, XEKL_KEYSIZE_MAX, XEKL_KEYSIZE_MIN, XEKL_KEYSPEC_KEYX, XEKL_KEYSPEC_SIG, _xen_icenroll4_getkeylenex, security.icenroll4_getkeylenex, xenroll/ICEnroll4::GetKeyLenEx

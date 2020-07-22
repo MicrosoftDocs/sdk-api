@@ -4,7 +4,7 @@ title: IMFMediaEngineEx::GetVideoSwapchainHandle (mfmediaengine.h)
 description: Gets a handle to the windowless swap chain.
 helpviewer_keywords: ["GetVideoSwapchainHandle","GetVideoSwapchainHandle method [Media Foundation]","GetVideoSwapchainHandle method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetVideoSwapchainHandle method","IMFMediaEngineEx.GetVideoSwapchainHandle","IMFMediaEngineEx::GetVideoSwapchainHandle","mf.imfmediaengineex_getvideoswapchainhandle","mfmediaengine/IMFMediaEngineEx::GetVideoSwapchainHandle"]
 old-location: mf\imfmediaengineex_getvideoswapchainhandle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 23AE2296-F0BF-4060-9849-F6A0E0C13B86
 ms.date: 12/05/2018
 ms.keywords: GetVideoSwapchainHandle, GetVideoSwapchainHandle method [Media Foundation], GetVideoSwapchainHandle method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetVideoSwapchainHandle method, IMFMediaEngineEx.GetVideoSwapchainHandle, IMFMediaEngineEx::GetVideoSwapchainHandle, mf.imfmediaengineex_getvideoswapchainhandle, mfmediaengine/IMFMediaEngineEx::GetVideoSwapchainHandle

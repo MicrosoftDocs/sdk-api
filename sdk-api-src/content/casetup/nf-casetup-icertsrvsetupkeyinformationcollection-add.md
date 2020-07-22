@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection::Add (casetup.h)
 description: Adds an ICertSrvSetupKeyInformation object to the collection.
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertSrvSetupKeyInformationCollection interface","ICertSrvSetupKeyInformationCollection interface [Security]","Add method","ICertSrvSetupKeyInformationCollection.Add","ICertSrvSetupKeyInformationCollection::Add","casetup/ICertSrvSetupKeyInformationCollection::Add","security.icertsrvsetupkeyinformationcollection_add"]
 old-location: security\icertsrvsetupkeyinformationcollection_add.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Add method, ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add

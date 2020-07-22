@@ -4,7 +4,7 @@ title: SaferComputeTokenFromLevel function (winsafer.h)
 description: Restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 helpviewer_keywords: ["SAFER_TOKEN_COMPARE_ONLY","SAFER_TOKEN_MAKE_INERT","SAFER_TOKEN_NULL_IF_EQUAL","SAFER_TOKEN_WANT_FLAGS","SaferComputeTokenFromLevel","SaferComputeTokenFromLevel function [Security]","security.safercomputetokenfromlevel","winsafer/SaferComputeTokenFromLevel"]
 old-location: security\safercomputetokenfromlevel.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.date: 12/05/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel

@@ -4,7 +4,7 @@ title: IComUserEvent::OnUserEvent (comsvcs.h)
 description: Provided for user components to generate user-defined events.
 helpviewer_keywords: ["IComUserEvent interface [COM+]","OnUserEvent method","IComUserEvent.OnUserEvent","IComUserEvent::OnUserEvent","OnUserEvent","OnUserEvent method [COM+]","OnUserEvent method [COM+]","IComUserEvent interface","_dtc_IComUserEvent_OnUserEvent","comsvcs/IComUserEvent::OnUserEvent","cos.icomuserevent_onuserevent"]
 old-location: cos\icomuserevent_onuserevent.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3c14bf53-7466-4cb0-b90f-681796e40fd3
 ms.date: 12/05/2018
 ms.keywords: IComUserEvent interface [COM+],OnUserEvent method, IComUserEvent.OnUserEvent, IComUserEvent::OnUserEvent, OnUserEvent, OnUserEvent method [COM+], OnUserEvent method [COM+],IComUserEvent interface, _dtc_IComUserEvent_OnUserEvent, comsvcs/IComUserEvent::OnUserEvent, cos.icomuserevent_onuserevent

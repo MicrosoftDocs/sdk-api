@@ -4,7 +4,7 @@ title: IXpsOMCoreProperties::SetContentStatus (xpsobjectmodel.h)
 description: Sets the contentStatus property.
 helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetContentStatus method","IXpsOMCoreProperties.SetContentStatus","IXpsOMCoreProperties::SetContentStatus","SetContentStatus","SetContentStatus method [XPS Documents and Packaging]","SetContentStatus method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setcontentstatus","xpsobjectmodel/IXpsOMCoreProperties::SetContentStatus"]
 old-location: xps\ixpsomcoreproperties_setcontentstatus.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f500407d-3eb4-4bf1-88ef-8f6bd2bcf472
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentStatus method, IXpsOMCoreProperties.SetContentStatus, IXpsOMCoreProperties::SetContentStatus, SetContentStatus, SetContentStatus method [XPS Documents and Packaging], SetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::SetContentStatus

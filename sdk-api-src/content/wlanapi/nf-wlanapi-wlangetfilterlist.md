@@ -4,7 +4,7 @@ title: WlanGetFilterList function (wlanapi.h)
 description: Retrieves a group policy or user permission list.
 helpviewer_keywords: ["WlanGetFilterList","WlanGetFilterList function [NativeWIFI]","nwifi.wlangetfilterlist","wlanapi/WlanGetFilterList"]
 old-location: nwifi\wlangetfilterlist.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 3ea88e52-34bb-47a6-b345-c789d1d8047d
 ms.date: 12/05/2018
 ms.keywords: WlanGetFilterList, WlanGetFilterList function [NativeWIFI], nwifi.wlangetfilterlist, wlanapi/WlanGetFilterList

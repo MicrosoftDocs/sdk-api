@@ -4,7 +4,7 @@ title: IUpdate4::get_PerUser (wuapi.h)
 description: Gets a Boolean value that indicates whether this is a per-user update.
 helpviewer_keywords: ["IUpdate4 interface [Windows Update Agent]","PerUser property","IUpdate4.PerUser","IUpdate4.get_PerUser","IUpdate4::PerUser","IUpdate4::get_PerUser","PerUser property [Windows Update Agent]","PerUser property [Windows Update Agent]","IUpdate4 interface","get_PerUser","wua.iupdate4_peruser","wuapi/IUpdate4::PerUser","wuapi/IUpdate4::get_PerUser"]
 old-location: wua\iupdate4_peruser.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f6d48e78-114f-4926-a1e7-201ac703f8b8
 ms.date: 12/05/2018
 ms.keywords: IUpdate4 interface [Windows Update Agent],PerUser property, IUpdate4.PerUser, IUpdate4.get_PerUser, IUpdate4::PerUser, IUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent],IUpdate4 interface, get_PerUser, wua.iupdate4_peruser, wuapi/IUpdate4::PerUser, wuapi/IUpdate4::get_PerUser

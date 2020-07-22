@@ -4,7 +4,7 @@ title: IAMVideoCompression::OverrideFrameSize (strmif.h)
 description: The OverrideFrameSize method overrides the frame size of a specified frame.
 helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","OverrideFrameSize method","IAMVideoCompression.OverrideFrameSize","IAMVideoCompression::OverrideFrameSize","IAMVideoCompressionOverrideFrameSize","OverrideFrameSize","OverrideFrameSize method [DirectShow]","OverrideFrameSize method [DirectShow]","IAMVideoCompression interface","dshow.iamvideocompression_overrideframesize","strmif/IAMVideoCompression::OverrideFrameSize"]
 old-location: dshow\iamvideocompression_overrideframesize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 19f5d231-965e-4b0a-bd0b-e85b03d79c71
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],OverrideFrameSize method, IAMVideoCompression.OverrideFrameSize, IAMVideoCompression::OverrideFrameSize, IAMVideoCompressionOverrideFrameSize, OverrideFrameSize, OverrideFrameSize method [DirectShow], OverrideFrameSize method [DirectShow],IAMVideoCompression interface, dshow.iamvideocompression_overrideframesize, strmif/IAMVideoCompression::OverrideFrameSize

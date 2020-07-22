@@ -4,7 +4,7 @@ title: IXpsOMStoryFragmentsResource (xpsobjectmodel.h)
 description: Provides access to the content of the resource stream of a page's StoryFragments part.
 helpviewer_keywords: ["IXpsOMStoryFragmentsResource","IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","described","xps.ixpsomstoryfragmentsresource","xpsobjectmodel/IXpsOMStoryFragmentsResource"]
 old-location: xps\ixpsomstoryfragmentsresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 83bc8017-c679-40a8-96a8-bff9aa2273af
 ms.date: 12/05/2018
 ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource

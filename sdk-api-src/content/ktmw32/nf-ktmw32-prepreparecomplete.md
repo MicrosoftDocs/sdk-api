@@ -4,7 +4,7 @@ title: PrePrepareComplete function (ktmw32.h)
 description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
 helpviewer_keywords: ["PrePrepareComplete","PrePrepareComplete function [Files]","fs.prepreparecomplete","ktmw32/PrePrepareComplete"]
 old-location: fs\prepreparecomplete.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
 ms.date: 12/05/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete

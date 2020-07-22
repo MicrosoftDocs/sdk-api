@@ -4,7 +4,7 @@ title: IAzApplication::DeleteRole (azroles.h)
 description: Removes the IAzRole object with the specified name from the IAzApplication object.
 helpviewer_keywords: ["AzApplication object [Security]","DeleteRole method","DeleteRole","DeleteRole method [Security]","DeleteRole method [Security]","AzApplication object","DeleteRole method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteRole method","IAzApplication.DeleteRole","IAzApplication::DeleteRole","azroles/IAzApplication::DeleteRole","security.iazapplication_deleterole"]
 old-location: security\iazapplication_deleterole.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c97c271a-f08c-481e-9787-61518d8cbb73
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteRole method, DeleteRole, DeleteRole method [Security], DeleteRole method [Security],AzApplication object, DeleteRole method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteRole method, IAzApplication.DeleteRole, IAzApplication::DeleteRole, azroles/IAzApplication::DeleteRole, security.iazapplication_deleterole

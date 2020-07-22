@@ -4,7 +4,7 @@ title: IOfflineFilesFileItem::IsSparse (cscobj.h)
 description: Determines whether an item in the Offline Files cache is sparsely cached.
 helpviewer_keywords: ["IOfflineFilesFileItem interface [Offline Files]","IsSparse method","IOfflineFilesFileItem.IsSparse","IOfflineFilesFileItem::IsSparse","IsSparse","IsSparse method [Offline Files]","IsSparse method [Offline Files]","IOfflineFilesFileItem interface","cscobj/IOfflineFilesFileItem::IsSparse","of.iofflinefilesfileitem_issparse"]
 old-location: of\iofflinefilesfileitem_issparse.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 6f731b25-f4f0-4635-af00-dbd1ba4e5f11
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IOfflineFilesFileItem.IsSparse, IOfflineFilesFileItem::IsSparse, IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse

@@ -4,7 +4,7 @@ title: NtQueryMultipleValueKey function (winternl.h)
 description: Retrieves values for the specified multiple-value key.
 helpviewer_keywords: ["NtQueryMultipleValueKey","NtQueryMultipleValueKey function [Windows API]","base.ntquerymultiplevaluekey","winprog.ntquerymultiplevaluekey","winternl/NtQueryMultipleValueKey"]
 old-location: winprog\ntquerymultiplevaluekey.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
 ms.date: 12/05/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey

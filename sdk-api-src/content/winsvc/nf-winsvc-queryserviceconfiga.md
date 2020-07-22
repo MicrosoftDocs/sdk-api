@@ -4,7 +4,7 @@ title: QueryServiceConfigA function (winsvc.h)
 description: Retrieves the configuration parameters of the specified service.
 helpviewer_keywords: ["QueryServiceConfig","QueryServiceConfig function","QueryServiceConfigA","QueryServiceConfigW","_win32_queryserviceconfig","base.queryserviceconfig","winsvc/QueryServiceConfig","winsvc/QueryServiceConfigA","winsvc/QueryServiceConfigW"]
 old-location: base\queryserviceconfig.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
 ms.date: 12/05/2018
 ms.keywords: QueryServiceConfig, QueryServiceConfig function, QueryServiceConfigA, QueryServiceConfigW, _win32_queryserviceconfig, base.queryserviceconfig, winsvc/QueryServiceConfig, winsvc/QueryServiceConfigA, winsvc/QueryServiceConfigW

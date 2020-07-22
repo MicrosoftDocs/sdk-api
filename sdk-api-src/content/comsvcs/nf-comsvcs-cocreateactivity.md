@@ -4,7 +4,7 @@ title: CoCreateActivity function (comsvcs.h)
 description: Creates an activity to do synchronous or asynchronous batch work that can use COM+ services without needing to create a COM+ component.
 helpviewer_keywords: ["CoCreateActivity","CoCreateActivity function [COM+]","_cos_CoCreateActivity","comsvcs/CoCreateActivity","cos.cocreateactivity"]
 old-location: cos\cocreateactivity.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
 ms.date: 12/05/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity

@@ -4,7 +4,7 @@ title: IMFMetadata::GetProperty (mfidl.h)
 description: Gets the value of a metadata property.
 helpviewer_keywords: ["177c8612-5c9f-4a71-9ee1-a4c67737af2d","GetProperty","GetProperty method [Media Foundation]","GetProperty method [Media Foundation]","IMFMetadata interface","IMFMetadata interface [Media Foundation]","GetProperty method","IMFMetadata.GetProperty","IMFMetadata::GetProperty","mf.imfmetadata_getproperty","mfidl/IMFMetadata::GetProperty"]
 old-location: mf\imfmetadata_getproperty.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 177c8612-5c9f-4a71-9ee1-a4c67737af2d
 ms.date: 12/05/2018
 ms.keywords: 177c8612-5c9f-4a71-9ee1-a4c67737af2d, GetProperty, GetProperty method [Media Foundation], GetProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetProperty method, IMFMetadata.GetProperty, IMFMetadata::GetProperty, mf.imfmetadata_getproperty, mfidl/IMFMetadata::GetProperty

@@ -4,7 +4,7 @@ title: SetSearchPathMode function (winbase.h)
 description: Sets the per-process mode that the SearchPath function uses when locating files.
 helpviewer_keywords: ["BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE","BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE","BASE_SEARCH_PATH_PERMANENT","SetSearchPathMode","SetSearchPathMode function [Files]","fs.setsearchpathmode","winbase/SetSearchPathMode"]
 old-location: fs\setsearchpathmode.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
 ms.date: 12/05/2018
 ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_PERMANENT, SetSearchPathMode, SetSearchPathMode function [Files], fs.setsearchpathmode, winbase/SetSearchPathMode

@@ -4,7 +4,7 @@ title: IVdsServiceHba::QueryHbaPorts (vds.h)
 description: Returns an IEnumVdsObject enumeration object containing a list of the HBA ports known to VDS on the local system.
 helpviewer_keywords: ["IVdsServiceHba interface [VDS]","QueryHbaPorts method","IVdsServiceHba.QueryHbaPorts","IVdsServiceHba::QueryHbaPorts","QueryHbaPorts","QueryHbaPorts method [VDS]","QueryHbaPorts method [VDS]","IVdsServiceHba interface","base.ivdsservicehba_queryhbaports","vds/IVdsServiceHba::QueryHbaPorts"]
 old-location: base\ivdsservicehba_queryhbaports.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2f81e5e9-5563-4435-8ecb-82f2c385c3dc
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceHba interface [VDS],QueryHbaPorts method, IVdsServiceHba.QueryHbaPorts, IVdsServiceHba::QueryHbaPorts, QueryHbaPorts, QueryHbaPorts method [VDS], QueryHbaPorts method [VDS],IVdsServiceHba interface, base.ivdsservicehba_queryhbaports, vds/IVdsServiceHba::QueryHbaPorts

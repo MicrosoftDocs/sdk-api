@@ -4,7 +4,7 @@ title: CRYPT_TIMESTAMP_ACCURACY (wincrypt.h)
 description: Is used by the CRYPT_TIMESTAMP_INFO structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
 helpviewer_keywords: ["*PCRYPT_TIMESTAMP_ACCURACY","CRYPT_TIMESTAMP_ACCURACY","CRYPT_TIMESTAMP_ACCURACY structure [Security]","PCRYPT_TIMESTAMP_ACCURACY","PCRYPT_TIMESTAMP_ACCURACY structure pointer [Security]","security.crypt_timestamp_accuracy","wincrypt/CRYPT_TIMESTAMP_ACCURACY","wincrypt/PCRYPT_TIMESTAMP_ACCURACY"]
 old-location: security\crypt_timestamp_accuracy.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9115db8a-7cc1-4360-b89b-6c33ddb67fe9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY structure [Security], PCRYPT_TIMESTAMP_ACCURACY, PCRYPT_TIMESTAMP_ACCURACY structure pointer [Security], security.crypt_timestamp_accuracy, wincrypt/CRYPT_TIMESTAMP_ACCURACY, wincrypt/PCRYPT_TIMESTAMP_ACCURACY'

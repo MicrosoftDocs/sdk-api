@@ -4,7 +4,7 @@ title: IMediaSample (strmif.h)
 description: The IMediaSample interface sets and retrieves properties on media samples.
 helpviewer_keywords: ["IMediaSample","IMediaSample interface [DirectShow]","IMediaSample interface [DirectShow]","described","IMediaSampleInterface","dshow.imediasample","strmif/IMediaSample"]
 old-location: dshow\imediasample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 883e5e3b-db91-4806-96cc-c6f8cddfcca6
 ms.date: 12/05/2018
 ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IMediaSample interface [DirectShow],described, IMediaSampleInterface, dshow.imediasample, strmif/IMediaSample

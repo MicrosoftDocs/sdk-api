@@ -4,7 +4,7 @@ title: IXpsOMPartResources::GetImageResources (xpsobjectmodel.h)
 description: Gets the IXpsOMImageResourceCollection interface that contains the images that are used in the XPS document.
 helpviewer_keywords: ["GetImageResources","GetImageResources method [XPS Documents and Packaging]","GetImageResources method [XPS Documents and Packaging]","IXpsOMPartResources interface","IXpsOMPartResources interface [XPS Documents and Packaging]","GetImageResources method","IXpsOMPartResources.GetImageResources","IXpsOMPartResources::GetImageResources","xps.ixpsompartresources_getimageresources","xpsobjectmodel/IXpsOMPartResources::GetImageResources"]
 old-location: xps\ixpsompartresources_getimageresources.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d30281b7-0b2c-4240-813b-a53c8acb819c
 ms.date: 12/05/2018
 ms.keywords: GetImageResources, GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetImageResources method, IXpsOMPartResources.GetImageResources, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources

@@ -4,7 +4,7 @@ title: IXpsOMGeometryFigureCollection (xpsobjectmodel.h)
 description: A collection of IXpsOMGeometryFigure interface pointers.
 helpviewer_keywords: ["IXpsOMGeometryFigureCollection","IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","described","xps.ixpsomgeometryfigurecollection","xpsobjectmodel/IXpsOMGeometryFigureCollection"]
 old-location: xps\ixpsomgeometryfigurecollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 24ed79ff-9160-4e9b-b322-c538b30f113b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigurecollection, xpsobjectmodel/IXpsOMGeometryFigureCollection

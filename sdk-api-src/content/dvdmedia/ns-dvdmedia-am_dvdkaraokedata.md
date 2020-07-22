@@ -4,7 +4,7 @@ title: AM_DvdKaraokeData (dvdmedia.h)
 description: Specifies how to mix the karaoke audio channels.
 helpviewer_keywords: ["AM_DvdKaraokeData","AM_DvdKaraokeData structure [DirectShow]","dshow.am_dvdkaraokedata","dvdmedia/AM_DvdKaraokeData"]
 old-location: dshow\am_dvdkaraokedata.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
 ms.date: 12/05/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData

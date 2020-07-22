@@ -4,7 +4,7 @@ title: MFTUnregisterLocal function (mfapi.h)
 description: Unregisters one or more Media Foundation transforms (MFTs) from the caller's process.
 helpviewer_keywords: ["MFTUnregisterLocal","MFTUnregisterLocal function [Media Foundation]","mf.mftunregisterlocal","mfapi/MFTUnregisterLocal"]
 old-location: mf\mftunregisterlocal.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e77edce7-0abb-41a3-a65e-fd159173e135
 ms.date: 12/05/2018
 ms.keywords: MFTUnregisterLocal, MFTUnregisterLocal function [Media Foundation], mf.mftunregisterlocal, mfapi/MFTUnregisterLocal

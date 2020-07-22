@@ -4,7 +4,7 @@ title: MsiDoActionA function (msiquery.h)
 description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
 helpviewer_keywords: ["MsiDoAction","MsiDoAction function","MsiDoActionA","MsiDoActionW","_msi_msidoaction","msiquery/MsiDoAction","msiquery/MsiDoActionA","msiquery/MsiDoActionW","setup.msidoaction"]
 old-location: setup\msidoaction.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.date: 12/05/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction

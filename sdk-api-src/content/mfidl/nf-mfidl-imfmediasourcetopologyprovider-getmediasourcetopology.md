@@ -4,7 +4,7 @@ title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology (mfidl.h)
 description: Returns a topology for a media source that builds an internal topology.
 helpviewer_keywords: ["3889768a-27bb-422e-912b-80546b6017fb","GetMediaSourceTopology","GetMediaSourceTopology method [Media Foundation]","GetMediaSourceTopology method [Media Foundation]","IMFMediaSourceTopologyProvider interface","IMFMediaSourceTopologyProvider interface [Media Foundation]","GetMediaSourceTopology method","IMFMediaSourceTopologyProvider.GetMediaSourceTopology","IMFMediaSourceTopologyProvider::GetMediaSourceTopology","mf.imfmediasourcetopologyprovider_getmediasourcetopology","mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology"]
 old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
 ms.date: 12/05/2018
 ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation],IMFMediaSourceTopologyProvider interface, IMFMediaSourceTopologyProvider interface [Media Foundation],GetMediaSourceTopology method, IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology

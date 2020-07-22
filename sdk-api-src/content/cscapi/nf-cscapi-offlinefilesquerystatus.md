@@ -4,7 +4,7 @@ title: OfflineFilesQueryStatus function (cscapi.h)
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active.
 helpviewer_keywords: ["OfflineFilesQueryStatus","OfflineFilesQueryStatus function [Offline Files]","cscapi/OfflineFilesQueryStatus","of.offlinefilesquerystatus"]
 old-location: of\offlinefilesquerystatus.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus

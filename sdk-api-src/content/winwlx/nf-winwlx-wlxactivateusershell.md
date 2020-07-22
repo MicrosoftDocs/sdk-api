@@ -4,7 +4,7 @@ title: WlxActivateUserShell function (winwlx.h)
 description: Activates the user shell program.
 helpviewer_keywords: ["WlxActivateUserShell","WlxActivateUserShell function [Security]","_gina_wlxactivateusershell","security.wlxactivateusershell","winwlx/WlxActivateUserShell"]
 old-location: security\wlxactivateusershell.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
 ms.date: 12/05/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell

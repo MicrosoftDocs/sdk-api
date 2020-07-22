@@ -4,7 +4,7 @@ title: CreateThreadpoolCleanupGroup function (threadpoolapiset.h)
 description: Creates a cleanup group that applications can use to track one or more thread pool callbacks.
 helpviewer_keywords: ["CreateThreadpoolCleanupGroup","CreateThreadpoolCleanupGroup function","base.createthreadpoolcleanupgroup","threadpoolapiset/CreateThreadpoolCleanupGroup","winbase/CreateThreadpoolCleanupGroup"]
 old-location: base\createthreadpoolcleanupgroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 668593fe-2ed1-418d-8cd5-5fac61826ea1
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolCleanupGroup, CreateThreadpoolCleanupGroup function, base.createthreadpoolcleanupgroup, threadpoolapiset/CreateThreadpoolCleanupGroup, winbase/CreateThreadpoolCleanupGroup

@@ -4,7 +4,7 @@ title: eAVEncDDProductionRoomType (codecapi.h)
 description: Specifies the room type for a Dolby Digital audio stream. This enumeration is used with the AVEncDDProductionRoomType property.
 helpviewer_keywords: ["codecapi/eAVEncDDProductionRoomType","codecapi/eAVEncDDProductionRoomType_Large","codecapi/eAVEncDDProductionRoomType_NotIndicated","codecapi/eAVEncDDProductionRoomType_Small","dshow.eavencddproductionroomtype","eAVEncDDProductionRoomType","eAVEncDDProductionRoomType enumeration [DirectShow]","eAVEncDDProductionRoomTypeEnumeration","eAVEncDDProductionRoomType_Large","eAVEncDDProductionRoomType_NotIndicated","eAVEncDDProductionRoomType_Small"]
 old-location: dshow\eavencddproductionroomtype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b0ea78b9-cfd8-4c32-9444-b30c1fa102fd
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDProductionRoomType, codecapi/eAVEncDDProductionRoomType_Large, codecapi/eAVEncDDProductionRoomType_NotIndicated, codecapi/eAVEncDDProductionRoomType_Small, dshow.eavencddproductionroomtype, eAVEncDDProductionRoomType, eAVEncDDProductionRoomType enumeration [DirectShow], eAVEncDDProductionRoomTypeEnumeration, eAVEncDDProductionRoomType_Large, eAVEncDDProductionRoomType_NotIndicated, eAVEncDDProductionRoomType_Small

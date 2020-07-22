@@ -4,7 +4,7 @@ title: IPortableDevicePropertiesBulk::Cancel (portabledeviceapi.h)
 description: The Cancel method cancels a pending properties request.
 helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDevicePropertiesBulk interface","IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK]","Cancel method","IPortableDevicePropertiesBulk.Cancel","IPortableDevicePropertiesBulk::Cancel","IPortableDevicePropertiesBulkCancel","portabledeviceapi/IPortableDevicePropertiesBulk::Cancel","wpdsdk.iportabledevicepropertiesbulk_cancel"]
 old-location: wpdsdk\iportabledevicepropertiesbulk_cancel.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 18a3458d-df93-4bdf-b5f2-f0197c35a1dd
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Cancel method, IPortableDevicePropertiesBulk.Cancel, IPortableDevicePropertiesBulk::Cancel, IPortableDevicePropertiesBulkCancel, portabledeviceapi/IPortableDevicePropertiesBulk::Cancel, wpdsdk.iportabledevicepropertiesbulk_cancel

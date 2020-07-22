@@ -4,7 +4,7 @@ title: TpcGetSamplesArgs (timeprov.h)
 description: A structure that is used by the TimeProvCommand function.
 helpviewer_keywords: ["TpcGetSamplesArgs","TpcGetSamplesArgs structure","_win32_tpcgetsamplesargs_str","base.tpcgetsamplesargs_str","timeprov/TpcGetSamplesArgs"]
 old-location: base\tpcgetsamplesargs_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 7e92a7c1-6927-4d53-8252-6bdd424d6e0c
 ms.date: 12/05/2018
 ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsamplesargs_str, base.tpcgetsamplesargs_str, timeprov/TpcGetSamplesArgs

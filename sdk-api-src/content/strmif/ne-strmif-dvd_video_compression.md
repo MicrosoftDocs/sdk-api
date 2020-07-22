@@ -4,7 +4,7 @@ title: DVD_VIDEO_COMPRESSION (strmif.h)
 description: Defines the possible DVD video compression types.
 helpviewer_keywords: ["DVD_VIDEO_COMPRESSION","DVD_VIDEO_COMPRESSION","DVD_VIDEO_COMPRESSION enumeration [DirectShow]","DVD_VIDEO_COMPRESSIONEnumeration","DVD_VideoCompression_MPEG1","DVD_VideoCompression_MPEG2","DVD_VideoCompression_Other","dshow.dvd_video_compression","strmif/DVD_VIDEO_COMPRESSION","strmif/DVD_VideoCompression_MPEG1","strmif/DVD_VideoCompression_MPEG2","strmif/DVD_VideoCompression_Other"]
 old-location: dshow\dvd_video_compression.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
 ms.date: 12/05/2018
 ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSION enumeration [DirectShow], DVD_VIDEO_COMPRESSIONEnumeration, DVD_VideoCompression_MPEG1, DVD_VideoCompression_MPEG2, DVD_VideoCompression_Other, dshow.dvd_video_compression, strmif/DVD_VIDEO_COMPRESSION, strmif/DVD_VideoCompression_MPEG1, strmif/DVD_VideoCompression_MPEG2, strmif/DVD_VideoCompression_Other

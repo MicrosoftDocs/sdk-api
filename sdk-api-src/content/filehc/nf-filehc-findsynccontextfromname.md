@@ -4,7 +4,7 @@ title: FindSyncContextFromName function (filehc.h)
 description: Retrieves the FIO_CONTEXT structure that is associated with the specified user name.
 helpviewer_keywords: ["FindSyncContextFromName","FindSyncContextFromName function [Windows API]","filehc/FindSyncContextFromName","winprog._findsynccontextfromname"]
 old-location: winprog\_findsynccontextfromname.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
 ms.date: 12/05/2018
 ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname

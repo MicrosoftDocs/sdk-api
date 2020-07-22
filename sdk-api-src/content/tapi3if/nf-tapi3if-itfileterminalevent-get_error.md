@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_Error (tapi3if.h)
 description: The get_Error method gets the error code for the event.
 helpviewer_keywords: ["ITFileTerminalEvent interface [TAPI 2.2]","get_Error method","ITFileTerminalEvent.get_Error","ITFileTerminalEvent::get_Error","_tapi3_itfileterminalevent_get_error","get_Error","get_Error method [TAPI 2.2]","get_Error method [TAPI 2.2]","ITFileTerminalEvent interface","tapi3.itfileterminalevent_get_error","tapi3if/ITFileTerminalEvent::get_Error"]
 old-location: tapi3\itfileterminalevent_get_error.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1eabd161-12d1-4537-beb1-3a05996aa506
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Error method, ITFileTerminalEvent.get_Error, ITFileTerminalEvent::get_Error, _tapi3_itfileterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_error, tapi3if/ITFileTerminalEvent::get_Error
