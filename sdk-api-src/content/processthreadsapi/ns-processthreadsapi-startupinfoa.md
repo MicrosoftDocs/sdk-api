@@ -75,9 +75,7 @@ Reserved; must be NULL.
 
  The name of the desktop, or the name of both the desktop and window station for this process. A backslash in the string indicates that the string includes both the desktop and window station names. 
 
-
-
-						For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/thread-connection-to-a-desktop">Thread Connection to a Desktop</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/thread-connection-to-a-desktop">Thread Connection to a Desktop</a>.
 					
 
 
