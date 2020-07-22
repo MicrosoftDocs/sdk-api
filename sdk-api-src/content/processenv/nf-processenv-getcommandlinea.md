@@ -53,62 +53,35 @@ ms.custom: 19H1
 
 # GetCommandLineA function
 
-
 ## -description
-
 
 Retrieves the command-line string for the current process.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 The return value is a pointer to the command-line string for the current process.
-
-
-
 
 ## -remarks
 
+The lifetime of the returned value is managed by the system, applications should not free or modify this value.
 
+Console processes can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> or <b>wmain</b> functions by implemneting those as the program entry point.
+GUI processes can use the <i>lpCmdLine</i> argument of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> or wWinMain functions by implementing those as the program entry point.
 
-ANSI console processes written in C can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> function to access the command-line arguments. ANSI GUI applications can use the <i>lpCmdLine</i> parameter of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> function to access the command-line string, excluding the program name. The <b>main</b> and <b>WinMain</b> functions cannot return Unicode strings.
-
-Unicode console process written in C can use the <b>wmain</b> or <b>_tmain</b> function to access the command-line arguments. Unicode GUI applications must use the 
-<b>GetCommandLineW</b> function to access Unicode strings.
-
-To convert the command line to an <i>argv</i> style array of strings, call the 
-<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw">CommandLineToArgv</a> function.
+To convert the command line to an <i>argv</i> style array of strings, pass the result from GetCommandLineA to
+<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargva">CommandLineToArgvA</a>.
 
 <div class="alert"><b>Note</b>  The name of the executable in the command line that the operating system provides to a process is not necessarily identical to that in the command line that the calling process gives to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. The operating system may prepend a fully qualified path to an executable name that is provided without a fully qualified path.</div>
 <div> </div>
-
-
-
 
 > [!NOTE]
 > The processenv.h header defines GetCommandLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
- 
-
- 
-
