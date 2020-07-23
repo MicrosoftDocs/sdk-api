@@ -65,7 +65,7 @@ Type: <b>PCWSTR</b>
 The name of the attribute.
 
 
-#### - type
+### - type
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_string_type">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
 
@@ -79,7 +79,7 @@ Type: <b>PWSTR</b>
 The value of the attribute.
 
 
-#### - valueCount
+### - valueCount
 
 Type: <b>UINT32</b>
 
