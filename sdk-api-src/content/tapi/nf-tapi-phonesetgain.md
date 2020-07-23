@@ -4,7 +4,7 @@ title: phoneSetGain function (tapi.h)
 description: The phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 helpviewer_keywords: ["_tapi2_phonesetgain","phoneSetGain","phoneSetGain function [TAPI 2.2]","tapi/phoneSetGain","tapi2.phonesetgain"]
 old-location: tapi2\phonesetgain.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 24e6047c-ca70-4e97-acb5-37647c5306c3
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2], tapi/phoneSetGain, tapi2.phonesetgain

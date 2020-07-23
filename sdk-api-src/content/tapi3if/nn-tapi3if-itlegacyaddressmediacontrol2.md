@@ -4,7 +4,7 @@ title: ITLegacyAddressMediaControl2 (tapi3if.h)
 description: The ITLegacyAddressMediaControl2 interface derives from the ITLegacyAddressMediaControl interface. ITLegacyAddressMediaControl2 provides additional methods that allow the configuration of parameters related to line devices.
 helpviewer_keywords: ["ITLegacyAddressMediaControl2","ITLegacyAddressMediaControl2 interface [TAPI 2.2]","ITLegacyAddressMediaControl2 interface [TAPI 2.2]","described","_tapi3_itlegacyaddressmediacontrol2","tapi3.itlegacyaddressmediacontrol2","tapi3if/ITLegacyAddressMediaControl2"]
 old-location: tapi3\itlegacyaddressmediacontrol2.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 38e5f1ba-b31e-47c9-a24a-2e4d37a0961b
 ms.date: 12/05/2018
 ms.keywords: ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interface [TAPI 2.2], ITLegacyAddressMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol2, tapi3.itlegacyaddressmediacontrol2, tapi3if/ITLegacyAddressMediaControl2

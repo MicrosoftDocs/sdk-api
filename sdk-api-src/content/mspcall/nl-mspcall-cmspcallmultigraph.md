@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph (mspcall.h)
 description: Derived from CMSPCallBase, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than CMSPCallBase. Defined in MSPcall.h.
 helpviewer_keywords: ["CMSPCallMultiGraph","CMSPCallMultiGraph class [TAPI 2.2]","CMSPCallMultiGraph class [TAPI 2.2]","described","_tapi3_cmspcallmultigraph","mspcall/CMSPCallMultiGraph","tapi3.cmspcallmultigraph"]
 old-location: tapi3\cmspcallmultigraph.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 86512d40-380b-4e98-840d-b7be99a86623
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph class [TAPI 2.2], CMSPCallMultiGraph class [TAPI 2.2],described, _tapi3_cmspcallmultigraph, mspcall/CMSPCallMultiGraph, tapi3.cmspcallmultigraph

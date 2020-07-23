@@ -4,7 +4,7 @@ title: MFCreateAudioRendererActivate function (mfidl.h)
 description: Creates an activation object for the Streaming Audio Renderer.
 helpviewer_keywords: ["MFCreateAudioRendererActivate","MFCreateAudioRendererActivate function [Media Foundation]","bce55c34-d64a-4f3b-8d09-6c9363e4eb11","mf.mfcreateaudiorendereractivate","mfidl/MFCreateAudioRendererActivate"]
 old-location: mf\mfcreateaudiorendereractivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
 ms.date: 12/05/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate

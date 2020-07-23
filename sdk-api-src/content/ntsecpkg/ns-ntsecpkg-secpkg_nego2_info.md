@@ -4,7 +4,7 @@ title: SECPKG_NEGO2_INFO (ntsecpkg.h)
 description: Contains extended package information used for NEGO2 negotiations.
 helpviewer_keywords: ["*PSECPKG_NEGO2_INFO","PSECPKG_NEGO2_INFO","PSECPKG_NEGO2_INFO structure pointer [Security]","SECPKG_NEGO2_INFO","SECPKG_NEGO2_INFO structure [Security]","ntsecpkg/PSECPKG_NEGO2_INFO","ntsecpkg/SECPKG_NEGO2_INFO","security.secpkg_nego2_info"]
 old-location: security\secpkg_nego2_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 8B093B74-DBF2-4DBD-9FDC-72FD6CC3CCA6
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO structure pointer [Security], SECPKG_NEGO2_INFO, SECPKG_NEGO2_INFO structure [Security], ntsecpkg/PSECPKG_NEGO2_INFO, ntsecpkg/SECPKG_NEGO2_INFO, security.secpkg_nego2_info'

@@ -4,7 +4,7 @@ title: IXpsOMGeometry::GetTransformLocal (xpsobjectmodel.h)
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared matrix transform for the geometry.
 helpviewer_keywords: ["GetTransformLocal","GetTransformLocal method [XPS Documents and Packaging]","GetTransformLocal method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetTransformLocal method","IXpsOMGeometry.GetTransformLocal","IXpsOMGeometry::GetTransformLocal","xps.ixpsomgeometry_gettransformlocal","xpsobjectmodel/IXpsOMGeometry::GetTransformLocal"]
 old-location: xps\ixpsomgeometry_gettransformlocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 1ae895a1-7b63-460c-b066-d8e9c7cd03c2
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGeometry.GetTransformLocal, IXpsOMGeometry::GetTransformLocal, xps.ixpsomgeometry_gettransformlocal, xpsobjectmodel/IXpsOMGeometry::GetTransformLocal

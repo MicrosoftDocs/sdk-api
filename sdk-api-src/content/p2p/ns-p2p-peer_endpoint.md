@@ -4,7 +4,7 @@ title: PEER_ENDPOINT (p2p.h)
 description: The PEER_ENDPOINT structure contains the address and friendly name of a peer endpoint.
 helpviewer_keywords: ["*PPEER_ENDPOINT","PCPEER_ENDPOINT","PCPEER_ENDPOINT structure pointer [Peer Networking]","PEER_ENDPOINT","PEER_ENDPOINT structure [Peer Networking]","PPEER_ENDPOINT","PPEER_ENDPOINT structure pointer [Peer Networking]","p2p.peer_endpoint","p2p/PCPEER_ENDPOINT","p2p/PEER_ENDPOINT","p2p/PPEER_ENDPOINT"]
 old-location: p2p\peer_endpoint.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9687b332-14ed-4023-b8c2-437d75fd0298
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_ENDPOINT, PCPEER_ENDPOINT, PCPEER_ENDPOINT structure pointer [Peer Networking], PEER_ENDPOINT, PEER_ENDPOINT structure [Peer Networking], PPEER_ENDPOINT, PPEER_ENDPOINT structure pointer [Peer Networking], p2p.peer_endpoint, p2p/PCPEER_ENDPOINT, p2p/PEER_ENDPOINT, p2p/PPEER_ENDPOINT'

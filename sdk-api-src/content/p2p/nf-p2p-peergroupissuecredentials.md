@@ -4,7 +4,7 @@ title: PeerGroupIssueCredentials function (p2p.h)
 description: The PeerGroupIssueCredentials function issues credentials, including a GMC, to a specific identity, and optionally returns an invitation XML string the invited peer can use to join a peer group.
 helpviewer_keywords: ["PEER_GROUP_STORE_CREDENTIALS","PeerGroupIssueCredentials","PeerGroupIssueCredentials function [Peer Networking]","p2p.peergroupissuecredentials","p2p/PeerGroupIssueCredentials"]
 old-location: p2p\peergroupissuecredentials.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 81284e61-fc31-47c3-a296-c9c02a2889ec
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_STORE_CREDENTIALS, PeerGroupIssueCredentials, PeerGroupIssueCredentials function [Peer Networking], p2p.peergroupissuecredentials, p2p/PeerGroupIssueCredentials

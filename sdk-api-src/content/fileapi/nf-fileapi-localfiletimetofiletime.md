@@ -4,7 +4,7 @@ title: LocalFileTimeToFileTime function (fileapi.h)
 description: Converts a local file time to a file time based on the Coordinated Universal Time (UTC).
 helpviewer_keywords: ["LocalFileTimeToFileTime","LocalFileTimeToFileTime function","_win32_localfiletimetofiletime","base.localfiletimetofiletime","fileapi/LocalFileTimeToFileTime","winbase/LocalFileTimeToFileTime"]
 old-location: base\localfiletimetofiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 491e4724-8e6f-4155-b427-15cd7968e2da
 ms.date: 12/05/2018
 ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_localfiletimetofiletime, base.localfiletimetofiletime, fileapi/LocalFileTimeToFileTime, winbase/LocalFileTimeToFileTime

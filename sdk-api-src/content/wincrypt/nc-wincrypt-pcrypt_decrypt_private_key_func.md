@@ -4,7 +4,7 @@ title: PCRYPT_DECRYPT_PRIVATE_KEY_FUNC (wincrypt.h)
 description: Decrypts the private key and returns the decrypted key in the pbClearTextKey parameter.
 helpviewer_keywords: ["PCRYPT_DECRYPT_PRIVATE_KEY_FUNC","PCRYPT_DECRYPT_PRIVATE_KEY_FUNC callback","PCRYPT_DECRYPT_PRIVATE_KEY_FUNC callback function [Security]","security.pcrypt_decrypt_private_key_func","wincrypt/PCRYPT_DECRYPT_PRIVATE_KEY_FUNC"]
 old-location: security\pcrypt_decrypt_private_key_func.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f59fd46b-5430-4aa2-85ba-961b416dbaac
 ms.date: 12/05/2018
 ms.keywords: PCRYPT_DECRYPT_PRIVATE_KEY_FUNC, PCRYPT_DECRYPT_PRIVATE_KEY_FUNC callback, PCRYPT_DECRYPT_PRIVATE_KEY_FUNC callback function [Security], security.pcrypt_decrypt_private_key_func, wincrypt/PCRYPT_DECRYPT_PRIVATE_KEY_FUNC

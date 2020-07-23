@@ -4,7 +4,7 @@ title: IXpsSignatureRequest (xpsdigitalsignature.h)
 description: Accesses the components of a signature request.
 helpviewer_keywords: ["IXpsSignatureRequest","IXpsSignatureRequest interface [XPS Documents and Packaging]","IXpsSignatureRequest interface [XPS Documents and Packaging]","described","xps.ixpssignaturerequest","xpsdigitalsignature/IXpsSignatureRequest"]
 old-location: xps\ixpssignaturerequest.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5ece2402-ab0e-4695-b9d7-478a65199ec8
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], IXpsSignatureRequest interface [XPS Documents and Packaging],described, xps.ixpssignaturerequest, xpsdigitalsignature/IXpsSignatureRequest

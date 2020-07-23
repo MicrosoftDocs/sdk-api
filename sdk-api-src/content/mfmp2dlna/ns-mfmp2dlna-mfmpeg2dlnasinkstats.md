@@ -4,7 +4,7 @@ title: MFMPEG2DLNASINKSTATS (mfmp2dlna.h)
 description: Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 helpviewer_keywords: ["MFMPEG2DLNASINKSTATS","MFMPEG2DLNASINKSTATS structure [Media Foundation]","mf.mfmpeg2dlnasinkstats","mfmp2dlna/MFMPEG2DLNASINKSTATS"]
 old-location: mf\mfmpeg2dlnasinkstats.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 40d7db61-cf27-4c27-8774-d565ebee2c93
 ms.date: 12/05/2018
 ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundation], mf.mfmpeg2dlnasinkstats, mfmp2dlna/MFMPEG2DLNASINKSTATS

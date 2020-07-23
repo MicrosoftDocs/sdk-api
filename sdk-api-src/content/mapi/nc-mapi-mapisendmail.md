@@ -4,7 +4,7 @@ title: MAPISENDMAIL (mapi.h)
 description: Sends an ANSI message.
 helpviewer_keywords: ["MAPISendMail","MAPISendMail callback","MAPISendMail callback function","mapi.mapisendmail","mapi/MAPISendMail"]
 old-location: mapi\mapisendmail.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 1d7da0f2-b736-401e-86bd-fc4375ccc0d1
 ms.date: 12/05/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail

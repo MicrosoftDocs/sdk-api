@@ -4,7 +4,7 @@ title: IXpsOMDocumentCollection::RemoveAt (xpsobjectmodel.h)
 description: Removes and releases an IXpsOMDocument interface pointer from a specified location in the collection.
 helpviewer_keywords: ["IXpsOMDocumentCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMDocumentCollection.RemoveAt","IXpsOMDocumentCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","xps.ixpsomdocumentcollection_removeat","xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt"]
 old-location: xps\ixpsomdocumentcollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e5e7d04c-c1da-4af7-9048-1a9b79ba4872
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDocumentCollection.RemoveAt, IXpsOMDocumentCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_removeat, xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt

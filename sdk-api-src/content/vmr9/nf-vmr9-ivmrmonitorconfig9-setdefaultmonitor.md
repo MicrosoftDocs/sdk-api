@@ -4,7 +4,7 @@ title: IVMRMonitorConfig9::SetDefaultMonitor (vmr9.h)
 description: The SetDefaultMonitor method specifies the default monitor that all future instances of the VMR should use for video playback.
 helpviewer_keywords: ["IVMRMonitorConfig9 interface [DirectShow]","SetDefaultMonitor method","IVMRMonitorConfig9.SetDefaultMonitor","IVMRMonitorConfig9::SetDefaultMonitor","IVMRMonitorConfig9SetDefaultMonitor","SetDefaultMonitor","SetDefaultMonitor method [DirectShow]","SetDefaultMonitor method [DirectShow]","IVMRMonitorConfig9 interface","dshow.ivmrmonitorconfig9_setdefaultmonitor","vmr9/IVMRMonitorConfig9::SetDefaultMonitor"]
 old-location: dshow\ivmrmonitorconfig9_setdefaultmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4e02e0b6-8c0e-4c32-9059-91b1b8be165f
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig9.SetDefaultMonitor, IVMRMonitorConfig9::SetDefaultMonitor, IVMRMonitorConfig9SetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, dshow.ivmrmonitorconfig9_setdefaultmonitor, vmr9/IVMRMonitorConfig9::SetDefaultMonitor

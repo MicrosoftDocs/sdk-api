@@ -4,7 +4,7 @@ title: ICertServerExit::GetCertificateExtension (certif.h)
 description: Gets a specified certificate extension.
 helpviewer_keywords: ["CCertServerExit object [Security]","GetCertificateExtension method","GetCertificateExtension","GetCertificateExtension method [Security]","GetCertificateExtension method [Security]","CCertServerExit object","GetCertificateExtension method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","GetCertificateExtension method","ICertServerExit.GetCertificateExtension","ICertServerExit::GetCertificateExtension","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","_certsrv_icertserverexit_getcertificateextension","certif/ICertServerExit::GetCertificateExtension","security.icertserverexit_getcertificateextension"]
 old-location: security\icertserverexit_getcertificateextension.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerExit object, GetCertificateExtension method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtension method, ICertServerExit.GetCertificateExtension, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension

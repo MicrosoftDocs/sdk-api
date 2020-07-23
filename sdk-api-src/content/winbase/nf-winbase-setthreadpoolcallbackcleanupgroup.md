@@ -4,7 +4,7 @@ title: SetThreadpoolCallbackCleanupGroup function (winbase.h)
 description: Associates the specified cleanup group with the specified callback environment.
 helpviewer_keywords: ["SetThreadpoolCallbackCleanupGroup","SetThreadpoolCallbackCleanupGroup function","base.setthreadpoolcallbackcleanupgroup","winbase/SetThreadpoolCallbackCleanupGroup"]
 old-location: base\setthreadpoolcallbackcleanupgroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 395db7ba-ff39-46ee-917b-2896a0e99d43
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackCleanupGroup, SetThreadpoolCallbackCleanupGroup function, base.setthreadpoolcallbackcleanupgroup, winbase/SetThreadpoolCallbackCleanupGroup

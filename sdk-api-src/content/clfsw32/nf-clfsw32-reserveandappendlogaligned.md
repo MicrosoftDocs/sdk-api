@@ -4,7 +4,7 @@ title: ReserveAndAppendLogAligned function (clfsw32.h)
 description: Reserves space for log buffers, or appends a log record to the log, or both.
 helpviewer_keywords: ["CLFS_FLAG_FORCE_APPEND","CLFS_FLAG_FORCE_FLUSH","CLFS_FLAG_NO_FLAGS","CLFS_FLAG_USE_RESERVATION","ReserveAndAppendLogAligned","ReserveAndAppendLogAligned function [Files]","clfsw32/ReserveAndAppendLogAligned","fs.reserveandappendlogaligned"]
 old-location: fs\reserveandappendlogaligned.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7
 ms.date: 12/05/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned

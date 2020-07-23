@@ -4,7 +4,7 @@ title: EnrollmentDisplayStatus (certenroll.h)
 description: Specifies whether to display enrollment status information in a user interface.
 helpviewer_keywords: ["DisplayNo","DisplayYes","EnrollmentDisplayStatus","EnrollmentDisplayStatus enumeration [Security]","certenroll/DisplayNo","certenroll/DisplayYes","certenroll/EnrollmentDisplayStatus","security.enrollmentdisplaystatus_enum"]
 old-location: security\enrollmentdisplaystatus_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: bd5019de-1a72-42a6-9ade-74a9252a19eb
 ms.date: 12/05/2018
 ms.keywords: DisplayNo, DisplayYes, EnrollmentDisplayStatus, EnrollmentDisplayStatus enumeration [Security], certenroll/DisplayNo, certenroll/DisplayYes, certenroll/EnrollmentDisplayStatus, security.enrollmentdisplaystatus_enum

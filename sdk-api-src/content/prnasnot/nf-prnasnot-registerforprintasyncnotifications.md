@@ -4,7 +4,7 @@ title: RegisterForPrintAsyncNotifications function (prnasnot.h)
 description: Enables an application to register for notifications from Print Spooler-hosted printing components such as printer drivers, print processors, and port monitors.
 helpviewer_keywords: ["RegisterForPrintAsyncNotifications","RegisterForPrintAsyncNotifications function [Windows GDI]","_win32_RegisterForPrintAsyncNotifications","gdi.registerforprintasyncnotifications","prnasnot/RegisterForPrintAsyncNotifications"]
 old-location: gdi\registerforprintasyncnotifications.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
 ms.date: 12/05/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications

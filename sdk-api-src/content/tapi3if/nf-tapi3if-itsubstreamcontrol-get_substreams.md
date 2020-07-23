@@ -4,7 +4,7 @@ title: ITSubStreamControl::get_SubStreams (tapi3if.h)
 description: The get_SubStreams method creates a collection of substreams currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateSubStreams method.
 helpviewer_keywords: ["ITSubStreamControl interface [TAPI 2.2]","get_SubStreams method","ITSubStreamControl.get_SubStreams","ITSubStreamControl::get_SubStreams","_tapi3_itsubstreamcontrol_get_substreams","get_SubStreams","get_SubStreams method [TAPI 2.2]","get_SubStreams method [TAPI 2.2]","ITSubStreamControl interface","tapi3.itsubstreamcontrol_get_substreams","tapi3if/ITSubStreamControl::get_SubStreams"]
 old-location: tapi3\itsubstreamcontrol_get_substreams.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1ea7dca0-9a0b-4966-83ba-0d1f6c5e5ccb
 ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],get_SubStreams method, ITSubStreamControl.get_SubStreams, ITSubStreamControl::get_SubStreams, _tapi3_itsubstreamcontrol_get_substreams, get_SubStreams, get_SubStreams method [TAPI 2.2], get_SubStreams method [TAPI 2.2],ITSubStreamControl interface, tapi3.itsubstreamcontrol_get_substreams, tapi3if/ITSubStreamControl::get_SubStreams

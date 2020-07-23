@@ -4,7 +4,7 @@ title: IPNPXAssociation (pnpxassoc.h)
 description: Defines methods to manage the association database entries for PnP-X devices.
 helpviewer_keywords: ["IPNPXAssociation","IPNPXAssociation interface","IPNPXAssociation interface","described","ncd.ipnpxassociation","pnpxassoc/IPNPXAssociation"]
 old-location: ncd\ipnpxassociation.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 03c1c4cb-fffb-4b4a-963a-200670062f4a
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation interface,described, ncd.ipnpxassociation, pnpxassoc/IPNPXAssociation

@@ -4,7 +4,7 @@ title: IAMParse (amparse.h)
 description: The IAMParse interface sets and retrieves the parse time for an MPEG-2 stream.
 helpviewer_keywords: ["IAMParse","IAMParse interface [DirectShow]","IAMParse interface [DirectShow]","described","IAMParseInterface","amparse/IAMParse","dshow.iamparse"]
 old-location: dshow\iamparse.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
 ms.date: 12/05/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse

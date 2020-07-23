@@ -4,7 +4,7 @@ title: IComActivityEvents (comsvcs.h)
 description: Notifies the subscriber if an activity is created, destroyed, or timed out.
 helpviewer_keywords: ["IComActivityEvents","IComActivityEvents interface [COM+]","IComActivityEvents interface [COM+]","described","_dtc_IComActivityEvents","comsvcs/IComActivityEvents","cos.icomactivityevents"]
 old-location: cos\icomactivityevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9b702bcd-d5a6-41fa-98ce-00a245dfe770
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], IComActivityEvents interface [COM+],described, _dtc_IComActivityEvents, comsvcs/IComActivityEvents, cos.icomactivityevents

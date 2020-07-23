@@ -4,7 +4,7 @@ title: IMFTranscodeSinkInfoProvider (mfidl.h)
 description: Implemented by the transcode sink activation object.
 helpviewer_keywords: ["IMFTranscodeSinkInfoProvider","IMFTranscodeSinkInfoProvider interface [Media Foundation]","IMFTranscodeSinkInfoProvider interface [Media Foundation]","described","mf.imftranscodesinkinfoprovider","mfidl/IMFTranscodeSinkInfoProvider"]
 old-location: mf\imftranscodesinkinfoprovider.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider

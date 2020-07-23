@@ -4,7 +4,7 @@ title: ITCallStateEvent::get_CallbackInstance (tapi3if.h)
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with this event.
 helpviewer_keywords: ["ITCallStateEvent interface [TAPI 2.2]","get_CallbackInstance method","ITCallStateEvent.get_CallbackInstance","ITCallStateEvent::get_CallbackInstance","_tapi3_itcallstateevent_get_callbackinstance","get_CallbackInstance","get_CallbackInstance method [TAPI 2.2]","get_CallbackInstance method [TAPI 2.2]","ITCallStateEvent interface","tapi3.itcallstateevent_get_callbackinstance","tapi3if/ITCallStateEvent::get_CallbackInstance"]
 old-location: tapi3\itcallstateevent_get_callbackinstance.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e4add561-94be-44e2-84bb-89d1e5e98969
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallStateEvent.get_CallbackInstance, ITCallStateEvent::get_CallbackInstance, _tapi3_itcallstateevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_callbackinstance, tapi3if/ITCallStateEvent::get_CallbackInstance

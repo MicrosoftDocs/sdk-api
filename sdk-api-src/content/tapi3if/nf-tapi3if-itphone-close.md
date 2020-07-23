@@ -4,7 +4,7 @@ title: ITPhone::Close (tapi3if.h)
 description: The Close method closes this phone device. The phone device remains closed until the application calls the ITPhone::Open method. For more information, see the following Remarks section.
 helpviewer_keywords: ["Close","Close method [TAPI 2.2]","Close method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","Close method","ITPhone.Close","ITPhone::Close","_tapi3_itphone_close","tapi3.itphone_close","tapi3if/ITPhone::Close"]
 old-location: tapi3\itphone_close.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1eae1a14-dd5e-4ba9-8e6e-71e9956cb3e3
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [TAPI 2.2], Close method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],Close method, ITPhone.Close, ITPhone::Close, _tapi3_itphone_close, tapi3.itphone_close, tapi3if/ITPhone::Close

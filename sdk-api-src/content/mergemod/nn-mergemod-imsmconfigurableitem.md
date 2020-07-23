@@ -4,7 +4,7 @@ title: IMsmConfigurableItem (mergemod.h)
 description: The IMsmConfigurableItem interface manages a single row from the ModuleConfiguration table. This is a single configurable &quot;attribute&quot; from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
 helpviewer_keywords: ["IMsmConfigurableItem","IMsmConfigurableItem interface","IMsmConfigurableItem interface","described","mergemod/IMsmConfigurableItem","setup.imsmconfigurableitem_interface"]
 old-location: setup\imsmconfigurableitem_interface.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface

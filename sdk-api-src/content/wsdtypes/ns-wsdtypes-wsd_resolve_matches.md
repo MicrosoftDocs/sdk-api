@@ -4,7 +4,7 @@ title: WSD_RESOLVE_MATCHES (wsdtypes.h)
 description: Represents a ResolveMatches message.
 helpviewer_keywords: ["WSD_RESOLVE_MATCHES","WSD_RESOLVE_MATCHES structure","ncd.wsd_resolve_matches","wsdtypes/WSD_RESOLVE_MATCHES"]
 old-location: ncd\wsd_resolve_matches.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a6094069-af17-4921-b2c3-4ec89cbbb6f6
 ms.date: 12/05/2018
 ms.keywords: WSD_RESOLVE_MATCHES, WSD_RESOLVE_MATCHES structure, ncd.wsd_resolve_matches, wsdtypes/WSD_RESOLVE_MATCHES

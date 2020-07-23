@@ -4,7 +4,7 @@ title: IProcessInitializer::Shutdown (comsvcs.h)
 description: Called when Dllhost.exe shuts down.
 helpviewer_keywords: ["IProcessInitializer interface [COM+]","Shutdown method","IProcessInitializer.Shutdown","IProcessInitializer::Shutdown","Shutdown","Shutdown method [COM+]","Shutdown method [COM+]","IProcessInitializer interface","_cos_IProcessInitializer_Shutdown","comsvcs/IProcessInitializer::Shutdown","cos.iprocessinitializer_shutdown"]
 old-location: cos\iprocessinitializer_shutdown.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e525ded0-971d-4711-b078-b2e6b28c313f
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer interface [COM+],Shutdown method, IProcessInitializer.Shutdown, IProcessInitializer::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Shutdown, comsvcs/IProcessInitializer::Shutdown, cos.iprocessinitializer_shutdown

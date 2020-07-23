@@ -4,7 +4,7 @@ title: KERB_QUERY_TKT_CACHE_RESPONSE (ntsecapi.h)
 description: Contains the results of querying the ticket cache.
 helpviewer_keywords: ["*PKERB_QUERY_TKT_CACHE_RESPONSE","KERB_QUERY_TKT_CACHE_RESPONSE","KERB_QUERY_TKT_CACHE_RESPONSE structure [Security]","PKERB_QUERY_TKT_CACHE_RESPONSE","PKERB_QUERY_TKT_CACHE_RESPONSE structure pointer [Security]","_lsa_kerb_query_tkt_cache_response","ntsecapi/KERB_QUERY_TKT_CACHE_RESPONSE","ntsecapi/PKERB_QUERY_TKT_CACHE_RESPONSE","security.kerb_query_tkt_cache_response"]
 old-location: security\kerb_query_tkt_cache_response.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2101c1de-f304-4d44-899f-f9f03cd50934
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE structure [Security], PKERB_QUERY_TKT_CACHE_RESPONSE, PKERB_QUERY_TKT_CACHE_RESPONSE structure pointer [Security], _lsa_kerb_query_tkt_cache_response, ntsecapi/KERB_QUERY_TKT_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_TKT_CACHE_RESPONSE, security.kerb_query_tkt_cache_response'

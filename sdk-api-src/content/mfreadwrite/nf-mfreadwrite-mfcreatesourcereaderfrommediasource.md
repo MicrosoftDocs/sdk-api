@@ -4,7 +4,7 @@ title: MFCreateSourceReaderFromMediaSource function (mfreadwrite.h)
 description: Creates the source reader from a media source.
 helpviewer_keywords: ["MFCreateSourceReaderFromMediaSource","MFCreateSourceReaderFromMediaSource function [Media Foundation]","mf.mfcreatesourcereaderfrommediasource","mfreadwrite/MFCreateSourceReaderFromMediaSource"]
 old-location: mf\mfcreatesourcereaderfrommediasource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource

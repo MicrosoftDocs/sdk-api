@@ -4,7 +4,7 @@ title: MapiMessage (mapi.h)
 description: A MapiMessage structure contains information about a message. For Unicode support, use the MapiMessageW structure.
 helpviewer_keywords: ["*lpMapiMessage","MAPI_RECEIPT_REQUESTED","MAPI_SENT","MAPI_UNREAD","MapiMessage","MapiMessage structure","lpMapiMessage","lpMapiMessage structure pointer","mapi.mapimessage","mapi/MapiMessage","mapi/lpMapiMessage"]
 old-location: mapi\mapimessage.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 7f696dd6-bfae-4c7d-b55f-d37952691c02
 ms.date: 12/05/2018
 ms.keywords: '*lpMapiMessage, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessage, MapiMessage structure, lpMapiMessage, lpMapiMessage structure pointer, mapi.mapimessage, mapi/MapiMessage, mapi/lpMapiMessage'

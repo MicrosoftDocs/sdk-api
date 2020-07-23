@@ -4,7 +4,7 @@ title: WlxWkstaLockedSAS function (winwlx.h)
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) and the workstation is locked.
 helpviewer_keywords: ["WLX_SAS_TYPE_CTRL_ALT_DEL","WLX_SAS_TYPE_SC_INSERT","WLX_SAS_TYPE_SC_REMOVE","WLX_SAS_TYPE_TIMEOUT","WlxWkstaLockedSAS","WlxWkstaLockedSAS function [Security]","_gina_wlxwkstalockedsas","security.wlxwkstalockedsas","winwlx/WlxWkstaLockedSAS"]
 old-location: security\wlxwkstalockedsas.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 7a9f8b00-857a-432e-bb49-2251504c46a0
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxWkstaLockedSAS, WlxWkstaLockedSAS function [Security], _gina_wlxwkstalockedsas, security.wlxwkstalockedsas, winwlx/WlxWkstaLockedSAS

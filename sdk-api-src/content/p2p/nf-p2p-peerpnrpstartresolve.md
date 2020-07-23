@@ -4,7 +4,7 @@ title: PeerPnrpStartResolve function (p2p.h)
 description: Starts an asynchronous peer name resolution operation.
 helpviewer_keywords: ["PeerPnrpStartResolve","PeerPnrpStartResolve function [Peer Networking]","p2p.peerpnrpstartresolve","p2p/PeerPnrpStartResolve"]
 old-location: p2p\peerpnrpstartresolve.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 140ecca5-85fe-480e-bc69-86e0bc69ad2e
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpStartResolve, PeerPnrpStartResolve function [Peer Networking], p2p.peerpnrpstartresolve, p2p/PeerPnrpStartResolve

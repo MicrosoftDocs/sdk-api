@@ -4,7 +4,7 @@ title: ID3D11VideoDevice::GetVideoDecoderProfileCount (d3d11.h)
 description: Gets the number of profiles that are supported by the driver.
 helpviewer_keywords: ["GetVideoDecoderProfileCount","GetVideoDecoderProfileCount method [Media Foundation]","GetVideoDecoderProfileCount method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","GetVideoDecoderProfileCount method","ID3D11VideoDevice.GetVideoDecoderProfileCount","ID3D11VideoDevice::GetVideoDecoderProfileCount","d3d11/ID3D11VideoDevice::GetVideoDecoderProfileCount","mf.id3d11videodevice_getvideodecoderprofilecount"]
 old-location: mf\id3d11videodevice_getvideodecoderprofilecount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6DCAD69B-3C00-4B3A-97AA-69DF26EF5CD4
 ms.date: 12/05/2018
 ms.keywords: GetVideoDecoderProfileCount, GetVideoDecoderProfileCount method [Media Foundation], GetVideoDecoderProfileCount method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderProfileCount method, ID3D11VideoDevice.GetVideoDecoderProfileCount, ID3D11VideoDevice::GetVideoDecoderProfileCount, d3d11/ID3D11VideoDevice::GetVideoDecoderProfileCount, mf.id3d11videodevice_getvideodecoderprofilecount

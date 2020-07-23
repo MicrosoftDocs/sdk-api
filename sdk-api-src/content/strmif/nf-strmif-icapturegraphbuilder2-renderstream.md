@@ -4,7 +4,7 @@ title: ICaptureGraphBuilder2::RenderStream (strmif.h)
 description: The RenderStream method connects an output pin on a source filter to a sink filter, optionally through an intermediate filter.
 helpviewer_keywords: ["ICaptureGraphBuilder2 interface [DirectShow]","RenderStream method","ICaptureGraphBuilder2.RenderStream","ICaptureGraphBuilder2::RenderStream","ICaptureGraphBuilder2RenderStream","RenderStream","RenderStream method [DirectShow]","RenderStream method [DirectShow]","ICaptureGraphBuilder2 interface","dshow.icapturegraphbuilder2_renderstream","strmif/ICaptureGraphBuilder2::RenderStream"]
 old-location: dshow\icapturegraphbuilder2_renderstream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream

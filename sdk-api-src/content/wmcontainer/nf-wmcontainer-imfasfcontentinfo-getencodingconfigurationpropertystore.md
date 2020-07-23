@@ -4,7 +4,7 @@ title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore (wmcontainer.h)
 description: Retrieves a property store that can be used to set encoding properties.
 helpviewer_keywords: ["GetEncodingConfigurationPropertyStore","GetEncodingConfigurationPropertyStore method [Media Foundation]","GetEncodingConfigurationPropertyStore method [Media Foundation]","IMFASFContentInfo interface","IMFASFContentInfo interface [Media Foundation]","GetEncodingConfigurationPropertyStore method","IMFASFContentInfo.GetEncodingConfigurationPropertyStore","IMFASFContentInfo::GetEncodingConfigurationPropertyStore","e77a5564-82bc-4c1d-9fb8-84ab484c4ca8","mf.imfasfcontentinfo_getencodingconfigurationpropertystore","wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore"]
 old-location: mf\imfasfcontentinfo_getencodingconfigurationpropertystore.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e77a5564-82bc-4c1d-9fb8-84ab484c4ca8
 ms.date: 12/05/2018
 ms.keywords: GetEncodingConfigurationPropertyStore, GetEncodingConfigurationPropertyStore method [Media Foundation], GetEncodingConfigurationPropertyStore method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetEncodingConfigurationPropertyStore method, IMFASFContentInfo.GetEncodingConfigurationPropertyStore, IMFASFContentInfo::GetEncodingConfigurationPropertyStore, e77a5564-82bc-4c1d-9fb8-84ab484c4ca8, mf.imfasfcontentinfo_getencodingconfigurationpropertystore, wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore

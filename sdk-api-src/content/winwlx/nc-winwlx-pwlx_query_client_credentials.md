@@ -4,7 +4,7 @@ title: PWLX_QUERY_CLIENT_CREDENTIALS (winwlx.h)
 description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to retrieve the credentials of remote Terminal Services clients that are not using an Internet connector license.
 helpviewer_keywords: ["PWLX_QUERY_CLIENT_CREDENTIALS","PWLX_QUERY_CLIENT_CREDENTIALS callback","WlxQueryClientCredentials","WlxQueryClientCredentials callback function [Security]","_gina_wlxqueryclientcredentials","security.wlxqueryclientcredentials","winwlx/WlxQueryClientCredentials"]
 old-location: security\wlxqueryclientcredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b563606d-f4d5-48d7-914d-a11ed5f536a1
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_CLIENT_CREDENTIALS, PWLX_QUERY_CLIENT_CREDENTIALS callback, WlxQueryClientCredentials, WlxQueryClientCredentials callback function [Security], _gina_wlxqueryclientcredentials, security.wlxqueryclientcredentials, winwlx/WlxQueryClientCredentials

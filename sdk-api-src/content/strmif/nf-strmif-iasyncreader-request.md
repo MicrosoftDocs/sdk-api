@@ -4,7 +4,7 @@ title: IAsyncReader::Request (strmif.h)
 description: The Request method queues an asynchronous request for data.
 helpviewer_keywords: ["IAsyncReader interface [DirectShow]","Request method","IAsyncReader.Request","IAsyncReader::Request","IAsyncReaderRequest","Request","Request method [DirectShow]","Request method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_request","strmif/IAsyncReader::Request"]
 old-location: dshow\iasyncreader_request.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request

@@ -4,7 +4,7 @@ title: SubmitThreadpoolWork function (threadpoolapiset.h)
 description: Posts a work object to the thread pool. A worker thread calls the work object's callback function.
 helpviewer_keywords: ["SubmitThreadpoolWork","SubmitThreadpoolWork function","base.submitthreadpoolwork","threadpoolapiset/SubmitThreadpoolWork","winbase/SubmitThreadpoolWork"]
 old-location: base\submitthreadpoolwork.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
 ms.date: 12/05/2018
 ms.keywords: SubmitThreadpoolWork, SubmitThreadpoolWork function, base.submitthreadpoolwork, threadpoolapiset/SubmitThreadpoolWork, winbase/SubmitThreadpoolWork

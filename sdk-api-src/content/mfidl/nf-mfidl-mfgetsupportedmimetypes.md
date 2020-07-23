@@ -4,7 +4,7 @@ title: MFGetSupportedMimeTypes function (mfidl.h)
 description: Retrieves the MIME types that are registered for the source resolver.
 helpviewer_keywords: ["7e7b0e6e-98eb-4fb1-8577-e73eb9d62623","MFGetSupportedMimeTypes","MFGetSupportedMimeTypes function [Media Foundation]","mf.mfgetsupportedmimetypes","mfidl/MFGetSupportedMimeTypes"]
 old-location: mf\mfgetsupportedmimetypes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623
 ms.date: 12/05/2018
 ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes

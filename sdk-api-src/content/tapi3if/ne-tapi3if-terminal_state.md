@@ -4,7 +4,7 @@ title: TERMINAL_STATE (tapi3if.h)
 description: The TERMINAL_STATE enum describes the current state of a terminal device. This enum is returned by the ITTerminal::get_State method.
 helpviewer_keywords: ["TERMINAL_STATE","TERMINAL_STATE enumeration [TAPI 2.2]","TS_INUSE","TS_NOTINUSE","_tapi3_terminal_state","tapi3.terminal_state","tapi3if/TERMINAL_STATE","tapi3if/TS_INUSE","tapi3if/TS_NOTINUSE"]
 old-location: tapi3\terminal_state.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 310c41f5-dfe7-491d-8669-87a98694f5b7
 ms.date: 12/05/2018
 ms.keywords: TERMINAL_STATE, TERMINAL_STATE enumeration [TAPI 2.2], TS_INUSE, TS_NOTINUSE, _tapi3_terminal_state, tapi3.terminal_state, tapi3if/TERMINAL_STATE, tapi3if/TS_INUSE, tapi3if/TS_NOTINUSE

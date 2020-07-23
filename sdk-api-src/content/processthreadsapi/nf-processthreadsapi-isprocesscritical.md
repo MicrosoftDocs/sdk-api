@@ -4,7 +4,7 @@ title: IsProcessCritical function (processthreadsapi.h)
 description: Determines whether the specified process is considered critical.
 helpviewer_keywords: ["IsProcessCritical","IsProcessCritical function","base.isprocesscritical","processthreadsapi/IsProcessCritical"]
 old-location: base\isprocesscritical.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.date: 12/05/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical

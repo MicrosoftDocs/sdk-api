@@ -4,7 +4,7 @@ title: IAMPushSource::GetPushSourceFlags (strmif.h)
 description: The GetPushSourceFlags method retrieves a combination of flags describing the behavior of the filter.
 helpviewer_keywords: ["GetPushSourceFlags","GetPushSourceFlags method [DirectShow]","GetPushSourceFlags method [DirectShow]","IAMPushSource interface","IAMPushSource interface [DirectShow]","GetPushSourceFlags method","IAMPushSource.GetPushSourceFlags","IAMPushSource::GetPushSourceFlags","IAMPushSourceGetPushSourceFlags","dshow.iampushsource_getpushsourceflags","strmif/IAMPushSource::GetPushSourceFlags"]
 old-location: dshow\iampushsource_getpushsourceflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
 ms.date: 12/05/2018
 ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags

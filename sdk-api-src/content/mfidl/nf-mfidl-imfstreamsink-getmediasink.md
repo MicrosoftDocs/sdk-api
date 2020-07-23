@@ -4,7 +4,7 @@ title: IMFStreamSink::GetMediaSink (mfidl.h)
 description: Retrieves the media sink that owns this stream sink.
 helpviewer_keywords: ["799fb0ce-6a43-49c2-97cf-49c51d8f69cd","GetMediaSink","GetMediaSink method [Media Foundation]","GetMediaSink method [Media Foundation]","IMFStreamSink interface","IMFStreamSink interface [Media Foundation]","GetMediaSink method","IMFStreamSink.GetMediaSink","IMFStreamSink::GetMediaSink","mf.imfstreamsink_getmediasink","mfidl/IMFStreamSink::GetMediaSink"]
 old-location: mf\imfstreamsink_getmediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd
 ms.date: 12/05/2018
 ms.keywords: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd, GetMediaSink, GetMediaSink method [Media Foundation], GetMediaSink method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaSink method, IMFStreamSink.GetMediaSink, IMFStreamSink::GetMediaSink, mf.imfstreamsink_getmediasink, mfidl/IMFStreamSink::GetMediaSink

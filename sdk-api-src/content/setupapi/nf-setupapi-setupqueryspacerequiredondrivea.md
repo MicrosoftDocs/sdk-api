@@ -4,7 +4,7 @@ title: SetupQuerySpaceRequiredOnDriveA function (setupapi.h)
 description: The SetupQuerySpaceRequiredOnDrive function examines a disk space list to determine the space that is required to perform all the file operations listed for a specific drive.
 helpviewer_keywords: ["SetupQuerySpaceRequiredOnDrive","SetupQuerySpaceRequiredOnDrive function [Setup API]","SetupQuerySpaceRequiredOnDriveA","SetupQuerySpaceRequiredOnDriveW","_setupapi_setupqueryspacerequiredondrive","setup.setupqueryspacerequiredondrive","setupapi/SetupQuerySpaceRequiredOnDrive","setupapi/SetupQuerySpaceRequiredOnDriveA","setupapi/SetupQuerySpaceRequiredOnDriveW"]
 old-location: setup\setupqueryspacerequiredondrive.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive function [Setup API], SetupQuerySpaceRequiredOnDriveA, SetupQuerySpaceRequiredOnDriveW, _setupapi_setupqueryspacerequiredondrive, setup.setupqueryspacerequiredondrive, setupapi/SetupQuerySpaceRequiredOnDrive, setupapi/SetupQuerySpaceRequiredOnDriveA, setupapi/SetupQuerySpaceRequiredOnDriveW

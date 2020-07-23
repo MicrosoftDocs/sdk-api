@@ -4,7 +4,7 @@ title: SetSecurityDescriptorGroup function (securitybaseapi.h)
 description: Sets the primary group information of an absolute-format security descriptor, replacing any primary group information already present in the security descriptor.
 helpviewer_keywords: ["SetSecurityDescriptorGroup","SetSecurityDescriptorGroup function [Security]","_win32_setsecuritydescriptorgroup","security.setsecuritydescriptorgroup","securitybaseapi/SetSecurityDescriptorGroup"]
 old-location: security\setsecuritydescriptorgroup.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 060c375c-a313-4fa2-8d85-cee9369c26a8
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorGroup, SetSecurityDescriptorGroup function [Security], _win32_setsecuritydescriptorgroup, security.setsecuritydescriptorgroup, securitybaseapi/SetSecurityDescriptorGroup

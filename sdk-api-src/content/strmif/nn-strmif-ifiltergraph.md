@@ -4,7 +4,7 @@ title: IFilterGraph (strmif.h)
 description: The IFilterGraph interface provides methods for building a filter graph.
 helpviewer_keywords: ["IFilterGraph","IFilterGraph interface [DirectShow]","IFilterGraph interface [DirectShow]","described","IFilterGraphInterface","dshow.ifiltergraph","strmif/IFilterGraph"]
 old-location: dshow\ifiltergraph.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 73a92f44-03c6-47e3-98d1-a20100ed8fa1
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], IFilterGraph interface [DirectShow],described, IFilterGraphInterface, dshow.ifiltergraph, strmif/IFilterGraph

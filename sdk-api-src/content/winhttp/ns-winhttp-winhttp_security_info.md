@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: The WINHTTP_SECURITY_INFO structure contains a variety of timing information for an HTTP request.
+tech.root: winhttp
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

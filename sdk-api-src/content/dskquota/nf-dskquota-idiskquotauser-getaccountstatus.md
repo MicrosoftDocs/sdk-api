@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetAccountStatus (dskquota.h)
 description: Retrieves the status of the user object's account.
 helpviewer_keywords: ["DISKQUOTA_USER_ABLE","DISKQUOTA_USER_ACCOUNT_DELETED","DISKQUOTA_USER_ACCOUNT_INVALID","DISKQUOTA_USER_ACCOUNT_RESOLVED","DISKQUOTA_USER_ACCOUNT_UNKNOWN","DISKQUOTA_USER_ACCOUNT_UNRESOLVED","GetAccountStatus","GetAccountStatus method [Files]","GetAccountStatus method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetAccountStatus method","IDiskQuotaUser.GetAccountStatus","IDiskQuotaUser::GetAccountStatus","_win32_idiskquotauser_getaccountstatus","base.idiskquotauser_getaccountstatus","dskquota/IDiskQuotaUser::GetAccountStatus","fs.idiskquotauser_getaccountstatus"]
 old-location: fs\idiskquotauser_getaccountstatus.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d4027660-beb1-45eb-9dd3-f4c12df28051
 ms.date: 12/05/2018
 ms.keywords: DISKQUOTA_USER_ABLE, DISKQUOTA_USER_ACCOUNT_DELETED, DISKQUOTA_USER_ACCOUNT_INVALID, DISKQUOTA_USER_ACCOUNT_RESOLVED, DISKQUOTA_USER_ACCOUNT_UNKNOWN, DISKQUOTA_USER_ACCOUNT_UNRESOLVED, GetAccountStatus, GetAccountStatus method [Files], GetAccountStatus method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetAccountStatus method, IDiskQuotaUser.GetAccountStatus, IDiskQuotaUser::GetAccountStatus, _win32_idiskquotauser_getaccountstatus, base.idiskquotauser_getaccountstatus, dskquota/IDiskQuotaUser::GetAccountStatus, fs.idiskquotauser_getaccountstatus

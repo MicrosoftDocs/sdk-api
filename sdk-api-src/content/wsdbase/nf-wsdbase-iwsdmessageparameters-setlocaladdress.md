@@ -4,7 +4,7 @@ title: IWSDMessageParameters::SetLocalAddress (wsdbase.h)
 description: Sets a generic address object representing the source address that should send the message.
 helpviewer_keywords: ["IWSDMessageParameters interface","SetLocalAddress method","IWSDMessageParameters.SetLocalAddress","IWSDMessageParameters::SetLocalAddress","SetLocalAddress","SetLocalAddress method","SetLocalAddress method","IWSDMessageParameters interface","ncd.iwsdmessageparameters_setlocaladdress","wsdbase/IWSDMessageParameters::SetLocalAddress"]
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress

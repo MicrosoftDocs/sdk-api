@@ -4,7 +4,7 @@ title: CertIsRDNAttrsInCertificateName function (wincrypt.h)
 description: The CertIsRDNAttrsInCertificateName function compares the attributes in the certificate name with the specified CERT_RDN to determine whether all attributes are included there.
 helpviewer_keywords: ["CertIsRDNAttrsInCertificateName","CertIsRDNAttrsInCertificateName function [Security]","_crypto2_certisrdnattrsincertificatename","security.certisrdnattrsincertificatename","wincrypt/CertIsRDNAttrsInCertificateName"]
 old-location: security\certisrdnattrsincertificatename.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
 ms.date: 12/05/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName

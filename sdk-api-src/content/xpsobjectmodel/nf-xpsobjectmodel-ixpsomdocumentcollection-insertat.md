@@ -4,7 +4,7 @@ title: IXpsOMDocumentCollection::InsertAt (xpsobjectmodel.h)
 description: Inserts an IXpsOMDocument interface pointer at a specified location in the collection.
 helpviewer_keywords: ["IXpsOMDocumentCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMDocumentCollection.InsertAt","IXpsOMDocumentCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","xps.ixpsomdocumentcollection_insertat","xpsobjectmodel/IXpsOMDocumentCollection::InsertAt"]
 old-location: xps\ixpsomdocumentcollection_insertat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2c968705-4fa5-4a74-8ae7-6bd4161f767f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMDocumentCollection.InsertAt, IXpsOMDocumentCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_insertat, xpsobjectmodel/IXpsOMDocumentCollection::InsertAt

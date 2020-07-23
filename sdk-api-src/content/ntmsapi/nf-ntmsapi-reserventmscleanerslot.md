@@ -4,7 +4,7 @@ title: ReserveNtmsCleanerSlot function (ntmsapi.h)
 description: The ReserveNtmsCleanerSlot function reserves a single slot in a library unit for a drive cleaner cartridge.
 helpviewer_keywords: ["ReserveNtmsCleanerSlot","ReserveNtmsCleanerSlot function [Files]","_zaw_reserventmscleanerslot","base.reserventmscleanerslot","fs.reserventmscleanerslot","ntmsapi/ReserveNtmsCleanerSlot"]
 old-location: fs\reserventmscleanerslot.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 17e5acf8-c6b3-42a8-a9fe-fdda53779b67
 ms.date: 12/05/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot

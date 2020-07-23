@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel (vsmgmt.h)
 description: Gets the shadow copy protection level and status for the specified volume.
 helpviewer_keywords: ["GetVolumeProtectLevel","GetVolumeProtectLevel method","GetVolumeProtectLevel method","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","GetVolumeProtectLevel method","IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel","IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel","base.ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: a67bf9f1-135b-4881-acd1-6392f27d58e5
 ms.date: 12/05/2018
 ms.keywords: GetVolumeProtectLevel, GetVolumeProtectLevel method, GetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,GetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel, base.ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel

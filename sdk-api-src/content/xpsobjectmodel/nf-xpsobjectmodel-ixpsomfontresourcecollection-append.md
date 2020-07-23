@@ -4,7 +4,7 @@ title: IXpsOMFontResourceCollection::Append (xpsobjectmodel.h)
 description: Appends an IXpsOMFontResource interface to the end of the collection.
 helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","Append method","IXpsOMFontResourceCollection.Append","IXpsOMFontResourceCollection::Append","xps.ixpsomfontresourcecollection_append","xpsobjectmodel/IXpsOMFontResourceCollection::Append"]
 old-location: xps\ixpsomfontresourcecollection_append.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: ddee8ecc-6426-47b2-940d-045c21ce588c
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMFontResourceCollection.Append, IXpsOMFontResourceCollection::Append, xps.ixpsomfontresourcecollection_append, xpsobjectmodel/IXpsOMFontResourceCollection::Append

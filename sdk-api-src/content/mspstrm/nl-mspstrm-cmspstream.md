@@ -4,7 +4,7 @@ title: CMSPStream (mspstrm.h)
 description: The CMSPStream class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.
 helpviewer_keywords: ["CMSPStream","CMSPStream class [TAPI 2.2]","CMSPStream class [TAPI 2.2]","described","_tapi3_cmspstream","mspstrm/CMSPStream","tapi3.cmspstream"]
 old-location: tapi3\cmspstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 776ca663-faa2-4534-8873-4e20ed79530c
 ms.date: 12/05/2018
 ms.keywords: CMSPStream, CMSPStream class [TAPI 2.2], CMSPStream class [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream

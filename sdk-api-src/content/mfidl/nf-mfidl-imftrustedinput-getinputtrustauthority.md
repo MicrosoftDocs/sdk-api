@@ -4,7 +4,7 @@ title: IMFTrustedInput::GetInputTrustAuthority (mfidl.h)
 description: Retrieves the input trust authority (ITA) for a specified stream.
 helpviewer_keywords: ["GetInputTrustAuthority","GetInputTrustAuthority method [Media Foundation]","GetInputTrustAuthority method [Media Foundation]","IMFTrustedInput interface","IMFTrustedInput interface [Media Foundation]","GetInputTrustAuthority method","IMFTrustedInput.GetInputTrustAuthority","IMFTrustedInput::GetInputTrustAuthority","b4ebf02e-554a-4e7e-93d3-6f37d8b689bf","mf.imftrustedinput_getinputtrustauthority","mfidl/IMFTrustedInput::GetInputTrustAuthority"]
 old-location: mf\imftrustedinput_getinputtrustauthority.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b4ebf02e-554a-4e7e-93d3-6f37d8b689bf
 ms.date: 12/05/2018
 ms.keywords: GetInputTrustAuthority, GetInputTrustAuthority method [Media Foundation], GetInputTrustAuthority method [Media Foundation],IMFTrustedInput interface, IMFTrustedInput interface [Media Foundation],GetInputTrustAuthority method, IMFTrustedInput.GetInputTrustAuthority, IMFTrustedInput::GetInputTrustAuthority, b4ebf02e-554a-4e7e-93d3-6f37d8b689bf, mf.imftrustedinput_getinputtrustauthority, mfidl/IMFTrustedInput::GetInputTrustAuthority

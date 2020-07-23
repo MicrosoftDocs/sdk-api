@@ -4,7 +4,7 @@ title: IWMCodecLeakyBucket (wmcodecdsp.h)
 description: Configures the &quot;leaky bucket&quot; parameters on a video encoder.
 helpviewer_keywords: ["IWMCodecLeakyBucket","IWMCodecLeakyBucket interface [Media Foundation]","IWMCodecLeakyBucket interface [Media Foundation]","described","codecapi.iwmcodecleakybucketinterface","mf.iwmcodecleakybucketinterface","wmcodecdsp/IWMCodecLeakyBucket"]
 old-location: mf\iwmcodecleakybucketinterface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 93a0169e-39fe-4152-8698-72a0650be41a
 ms.date: 12/05/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket

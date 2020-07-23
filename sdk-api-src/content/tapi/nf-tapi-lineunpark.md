@@ -4,7 +4,7 @@ title: lineUnpark function (tapi.h)
 description: The lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
 helpviewer_keywords: ["_tapi2_lineunpark","lineUnpark","lineUnpark function [TAPI 2.2]","lineUnparkA","lineUnparkW","tapi/lineUnpark","tapi/lineUnparkA","tapi/lineUnparkW","tapi2.lineunpark"]
 old-location: tapi2\lineunpark.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9262ab44-eac7-43e2-a0ec-dceea0838b09
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineunpark, lineUnpark, lineUnpark function [TAPI 2.2], lineUnparkA, lineUnparkW, tapi/lineUnpark, tapi/lineUnparkA, tapi/lineUnparkW, tapi2.lineunpark

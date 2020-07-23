@@ -4,7 +4,7 @@ title: IAMExtTransport::GetCapability (strmif.h)
 description: The GetCapability method retrieves the general capabilities of the transport.
 helpviewer_keywords: ["GetCapability","GetCapability method [DirectShow]","GetCapability method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetCapability method","IAMExtTransport.GetCapability","IAMExtTransport::GetCapability","IAMExtTransportGetCapability","dshow.iamexttransport_getcapability","strmif/IAMExtTransport::GetCapability"]
 old-location: dshow\iamexttransport_getcapability.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f5544fd9-2899-4995-9401-a53f59d6400b
 ms.date: 12/05/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetCapability method, IAMExtTransport.GetCapability, IAMExtTransport::GetCapability, IAMExtTransportGetCapability, dshow.iamexttransport_getcapability, strmif/IAMExtTransport::GetCapability

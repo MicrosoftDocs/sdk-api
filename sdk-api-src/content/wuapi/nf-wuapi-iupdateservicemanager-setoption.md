@@ -4,7 +4,7 @@ title: IUpdateServiceManager::SetOption (wuapi.h)
 description: Set options for the object that specifies the service ID. The SetOption method is also used to determine whether a warning is displayed when you change the registration of Automatic Updates.
 helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","SetOption method","IUpdateServiceManager.SetOption","IUpdateServiceManager::SetOption","SetOption","SetOption method [Windows Update Agent]","SetOption method [Windows Update Agent]","IUpdateServiceManager interface","wua.iupdateservicemanager_setoption","wuapi/IUpdateServiceManager::SetOption"]
 old-location: wua\iupdateservicemanager_setoption.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: dbf0b70c-5be0-4acc-9c44-bf32f6f752fd
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption

@@ -4,7 +4,7 @@ title: IComObjectConstructionEvents (comsvcs.h)
 description: Notifies the subscriber if a constructed object is created in an object pool.
 helpviewer_keywords: ["IComObjectConstructionEvents","IComObjectConstructionEvents interface [COM+]","IComObjectConstructionEvents interface [COM+]","described","_dtc_IComObjectConstructionEvents","comsvcs/IComObjectConstructionEvents","cos.icomobjectconstructionevents"]
 old-location: cos\icomobjectconstructionevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c5fdb9b1-937e-43cb-93ff-e90f8c268fee
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents, IComObjectConstructionEvents interface [COM+], IComObjectConstructionEvents interface [COM+],described, _dtc_IComObjectConstructionEvents, comsvcs/IComObjectConstructionEvents, cos.icomobjectconstructionevents

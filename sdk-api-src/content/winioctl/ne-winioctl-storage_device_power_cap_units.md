@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_POWER_CAP_UNITS
 description: The units of the maximum power threshold.
 helpviewer_keywords: ["*PSTORAGE_DEVICE_POWER_CAP_UNITS","STORAGE_DEVICE_POWER_CAP_UNITS","STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files]","StorageDevicePowerCapUnitsMilliwatts","StorageDevicePowerCapUnitsPercent","fs.storage_device_power_cap_units","winioctl/STORAGE_DEVICE_POWER_CAP_UNITS","winioctl/StorageDevicePowerCapUnitsMilliwatts","winioctl/StorageDevicePowerCapUnitsPercent"]
 old-location: fs\storage_device_power_cap_units.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: A6C48765-9A18-4F77-8B0F-9653CE6FDE23
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, fs.storage_device_power_cap_units, winioctl/STORAGE_DEVICE_POWER_CAP_UNITS, winioctl/StorageDevicePowerCapUnitsMilliwatts, winioctl/StorageDevicePowerCapUnitsPercent'

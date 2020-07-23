@@ -4,7 +4,7 @@ title: IX509Enrollment2::InstallResponse2 (certenroll.h)
 description: Installs a certificate chain on the end-entity computer.
 helpviewer_keywords: ["AllowNoOutstandingRequest","AllowNone","AllowUntrustedCertificate","AllowUntrustedRoot","IX509Enrollment2 interface [Security]","InstallResponse2 method","IX509Enrollment2.InstallResponse2","IX509Enrollment2::InstallResponse2","InstallResponse2","InstallResponse2 method [Security]","InstallResponse2 method [Security]","IX509Enrollment2 interface","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","PsfLocationGroupPolicy","PsfLocationRegistry","PsfUseClientId","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509Enrollment2::InstallResponse2","security.ix509enrollment2_installresponse2"]
 old-location: security\ix509enrollment2_installresponse2.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1a5dce88-afc5-4d47-85e8-980192a662d8
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment2 interface [Security],InstallResponse2 method, IX509Enrollment2.InstallResponse2, IX509Enrollment2::InstallResponse2, InstallResponse2, InstallResponse2 method [Security], InstallResponse2 method [Security],IX509Enrollment2 interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509Enrollment2::InstallResponse2, security.ix509enrollment2_installresponse2

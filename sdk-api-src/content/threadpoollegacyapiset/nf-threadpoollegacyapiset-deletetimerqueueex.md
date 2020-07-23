@@ -4,7 +4,7 @@ title: DeleteTimerQueueEx function (threadpoollegacyapiset.h)
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 helpviewer_keywords: ["DeleteTimerQueueEx","DeleteTimerQueueEx function","_win32_deletetimerqueueex","base.deletetimerqueueex","threadpoollegacyapiset/DeleteTimerQueueEx","winbase/DeleteTimerQueueEx"]
 old-location: base\deletetimerqueueex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 782f85df-b176-4bff-a048-d7fcdd8196b0
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueEx, DeleteTimerQueueEx function, _win32_deletetimerqueueex, base.deletetimerqueueex, threadpoollegacyapiset/DeleteTimerQueueEx, winbase/DeleteTimerQueueEx

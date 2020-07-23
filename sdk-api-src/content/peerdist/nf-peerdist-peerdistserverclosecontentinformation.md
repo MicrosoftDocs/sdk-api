@@ -4,7 +4,7 @@ title: PeerDistServerCloseContentInformation function (peerdist.h)
 description: PeerDistServerCloseContentInformation function closes the handle opened by PeerDistServerOpenContentInformation.
 helpviewer_keywords: ["PeerDistServerCloseContentInformation","PeerDistServerCloseContentInformation function [Peer Networking]","p2p.peerdistserverclosecontentinformation","peerdist/PeerDistServerCloseContentInformation"]
 old-location: p2p\peerdistserverclosecontentinformation.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 066f1856-0617-40c7-a444-9765c01b4563
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCloseContentInformation, PeerDistServerCloseContentInformation function [Peer Networking], p2p.peerdistserverclosecontentinformation, peerdist/PeerDistServerCloseContentInformation

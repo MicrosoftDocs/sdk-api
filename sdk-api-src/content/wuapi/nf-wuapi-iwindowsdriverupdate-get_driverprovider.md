@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate::get_DriverProvider (wuapi.h)
 description: Gets the language-invariant name of the provider of the Windows driver update.
 helpviewer_keywords: ["DriverProvider property [Windows Update Agent]","DriverProvider property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DriverProvider property","IWindowsDriverUpdate.DriverProvider","IWindowsDriverUpdate.get_DriverProvider","IWindowsDriverUpdate::DriverProvider","IWindowsDriverUpdate::get_DriverProvider","get_DriverProvider","wua.iwindowsdriverupdate_driverprovider","wuapi/IWindowsDriverUpdate::DriverProvider","wuapi/IWindowsDriverUpdate::get_DriverProvider"]
 old-location: wua\iwindowsdriverupdate_driverprovider.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 919b4696-773c-4866-b051-7438b5c399a7
 ms.date: 12/05/2018
 ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdate.DriverProvider, IWindowsDriverUpdate.get_DriverProvider, IWindowsDriverUpdate::DriverProvider, IWindowsDriverUpdate::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdate_driverprovider, wuapi/IWindowsDriverUpdate::DriverProvider, wuapi/IWindowsDriverUpdate::get_DriverProvider

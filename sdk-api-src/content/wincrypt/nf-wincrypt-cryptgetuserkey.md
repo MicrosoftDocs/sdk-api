@@ -4,7 +4,7 @@ title: CryptGetUserKey function (wincrypt.h)
 description: Retrieves a handle of one of a user's two public/private key pairs.
 helpviewer_keywords: ["CryptGetUserKey","CryptGetUserKey function [Security]","_crypto2_cryptgetuserkey","security.cryptgetuserkey","wincrypt/CryptGetUserKey"]
 old-location: security\cryptgetuserkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
 ms.date: 12/05/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey

@@ -4,7 +4,7 @@ title: NCryptStreamOpenToUnprotectEx function (ncryptprotect.h)
 description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
 helpviewer_keywords: ["NCryptStreamOpenToUnprotectEx","NCryptStreamOpenToUnprotectEx function [Security]","ncryptprotect/NCryptStreamOpenToUnprotectEx","security.ncryptstreamopentounprotectex"]
 old-location: security\ncryptstreamopentounprotectex.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 8E607F4F-4A0F-4796-8F40-D232687815AF
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx function [Security], ncryptprotect/NCryptStreamOpenToUnprotectEx, security.ncryptstreamopentounprotectex

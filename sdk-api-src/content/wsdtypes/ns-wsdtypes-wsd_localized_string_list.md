@@ -4,7 +4,7 @@ title: WSD_LOCALIZED_STRING_LIST (wsdtypes.h)
 description: Represents a node in a single-linked list of localized strings.
 helpviewer_keywords: ["WSD_LOCALIZED_STRING_LIST","WSD_LOCALIZED_STRING_LIST structure","ncd.wsd_localized_string_list_struct","wsdtypes/WSD_LOCALIZED_STRING_LIST"]
 old-location: ncd\wsd_localized_string_list_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 4941885c-d349-4e43-838f-b60c3cdc32ba
 ms.date: 12/05/2018
 ms.keywords: WSD_LOCALIZED_STRING_LIST, WSD_LOCALIZED_STRING_LIST structure, ncd.wsd_localized_string_list_struct, wsdtypes/WSD_LOCALIZED_STRING_LIST

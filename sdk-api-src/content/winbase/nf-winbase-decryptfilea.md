@@ -4,7 +4,7 @@ title: DecryptFileA function (winbase.h)
 description: Decrypts an encrypted file or directory.
 helpviewer_keywords: ["DecryptFile","DecryptFile function [Files]","DecryptFileA","DecryptFileW","_win32_decryptfile","base.decryptfile","fs.decryptfile","winbase/DecryptFile","winbase/DecryptFileA","winbase/DecryptFileW"]
 old-location: fs\decryptfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.date: 12/05/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW

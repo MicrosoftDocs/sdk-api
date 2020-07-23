@@ -4,7 +4,7 @@ title: IDvdInfo2::GetCurrentButton (strmif.h)
 description: The GetCurrentButton method retrieves the number of available buttons and the number of the currently selected button.
 helpviewer_keywords: ["GetCurrentButton","GetCurrentButton method [DirectShow]","GetCurrentButton method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetCurrentButton method","IDvdInfo2.GetCurrentButton","IDvdInfo2::GetCurrentButton","IDvdInfo2GetCurrentButton","dshow.idvdinfo2_getcurrentbutton","strmif/IDvdInfo2::GetCurrentButton"]
 old-location: dshow\idvdinfo2_getcurrentbutton.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9e8d8a0e-6db8-495b-b968-8a4e63435b99
 ms.date: 12/05/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentButton method, IDvdInfo2.GetCurrentButton, IDvdInfo2::GetCurrentButton, IDvdInfo2GetCurrentButton, dshow.idvdinfo2_getcurrentbutton, strmif/IDvdInfo2::GetCurrentButton

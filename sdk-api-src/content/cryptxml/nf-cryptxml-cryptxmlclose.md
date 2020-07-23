@@ -4,7 +4,7 @@ title: CryptXmlClose function (cryptxml.h)
 description: Closes a cryptographic XML object handle.
 helpviewer_keywords: ["CryptXmlClose","CryptXmlClose function [Security]","cryptxml/CryptXmlClose","security.cryptxmlclose"]
 old-location: security\cryptxmlclose.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ee3f8ea3-4898-462b-87cd-47dd3134636c
 ms.date: 12/05/2018
 ms.keywords: CryptXmlClose, CryptXmlClose function [Security], cryptxml/CryptXmlClose, security.cryptxmlclose

@@ -4,7 +4,7 @@ title: IDXVAHD_VideoProcessor (dxvahd.h)
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 helpviewer_keywords: ["IDXVAHD_VideoProcessor","IDXVAHD_VideoProcessor interface [Media Foundation]","IDXVAHD_VideoProcessor interface [Media Foundation]","described","dxvahd/IDXVAHD_VideoProcessor","mf.idxvahd_videoprocessor"]
 old-location: mf\idxvahd_videoprocessor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor

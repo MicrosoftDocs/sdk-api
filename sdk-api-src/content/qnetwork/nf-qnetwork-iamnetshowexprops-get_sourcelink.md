@@ -4,7 +4,7 @@ title: IAMNetShowExProps::get_SourceLink (qnetwork.h)
 description: The get_SourceLink method retrieves the source link.
 helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_SourceLink method","IAMNetShowExProps.get_SourceLink","IAMNetShowExProps::get_SourceLink","IAMNetShowExPropsget_SourceLink","dshow.iamnetshowexprops_get_sourcelink","get_SourceLink","get_SourceLink method [DirectShow]","get_SourceLink method [DirectShow]","IAMNetShowExProps interface","qnetwork/IAMNetShowExProps::get_SourceLink"]
 old-location: dshow\iamnetshowexprops_get_sourcelink.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a5d79169-ae1b-4532-b367-ec2d24fae0b1
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceLink method, IAMNetShowExProps.get_SourceLink, IAMNetShowExProps::get_SourceLink, IAMNetShowExPropsget_SourceLink, dshow.iamnetshowexprops_get_sourcelink, get_SourceLink, get_SourceLink method [DirectShow], get_SourceLink method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceLink

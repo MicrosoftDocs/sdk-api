@@ -4,7 +4,7 @@ title: IVdsHbaPort::SetAllPathStatuses (vds.h)
 description: Sets the statuses of all paths originating from the HBA port to a specified status.
 helpviewer_keywords: ["IVdsHbaPort interface [VDS]","SetAllPathStatuses method","IVdsHbaPort.SetAllPathStatuses","IVdsHbaPort::SetAllPathStatuses","SetAllPathStatuses","SetAllPathStatuses method [VDS]","SetAllPathStatuses method [VDS]","IVdsHbaPort interface","base.ivdshbaport_setallpathstatuses","vds/IVdsHbaPort::SetAllPathStatuses"]
 old-location: base\ivdshbaport_setallpathstatuses.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 0df5b5f7-1fdc-41f1-96e4-2abe96c59228
 ms.date: 12/05/2018
 ms.keywords: IVdsHbaPort interface [VDS],SetAllPathStatuses method, IVdsHbaPort.SetAllPathStatuses, IVdsHbaPort::SetAllPathStatuses, SetAllPathStatuses, SetAllPathStatuses method [VDS], SetAllPathStatuses method [VDS],IVdsHbaPort interface, base.ivdshbaport_setallpathstatuses, vds/IVdsHbaPort::SetAllPathStatuses

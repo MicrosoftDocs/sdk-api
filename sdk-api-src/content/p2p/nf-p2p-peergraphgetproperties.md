@@ -4,7 +4,7 @@ title: PeerGraphGetProperties function (p2p.h)
 description: The PeerGraphGetProperties function retrieves the current peer graph properties.
 helpviewer_keywords: ["PeerGraphGetProperties","PeerGraphGetProperties function [Peer Networking]","p2p.peergraphgetproperties","p2p/PeerGraphGetProperties"]
 old-location: p2p\peergraphgetproperties.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f62fadf8-8cc2-4597-93b0-e076258ccd6a
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetProperties, PeerGraphGetProperties function [Peer Networking], p2p.peergraphgetproperties, p2p/PeerGraphGetProperties

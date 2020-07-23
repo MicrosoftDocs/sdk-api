@@ -4,7 +4,7 @@ title: IAzApplicationGroup (azroles.h)
 description: Defines a collection of principals.
 helpviewer_keywords: ["IAzApplicationGroup","IAzApplicationGroup interface [Security]","IAzApplicationGroup interface [Security]","described","azroles/IAzApplicationGroup","security.iazapplicationgroup"]
 old-location: security\iazapplicationgroup.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6a15acde-e582-4c49-b7e4-82d4e54012b1
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroup, IAzApplicationGroup interface [Security], IAzApplicationGroup interface [Security],described, azroles/IAzApplicationGroup, security.iazapplicationgroup

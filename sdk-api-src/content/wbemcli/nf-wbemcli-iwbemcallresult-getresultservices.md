@@ -4,7 +4,7 @@ title: IWbemCallResult::GetResultServices (wbemcli.h)
 description: Retrieves the IWbemServices pointer, which results from a semisynchronous call to IWbemServices::OpenNamespace when it becomes available.
 helpviewer_keywords: ["GetResultServices","GetResultServices method [Windows Management Instrumentation]","GetResultServices method [Windows Management Instrumentation]","IWbemCallResult interface","IWbemCallResult interface [Windows Management Instrumentation]","GetResultServices method","IWbemCallResult.GetResultServices","IWbemCallResult::GetResultServices","_hmm_iwbemcallresult_getresultservices","wbemcli/IWbemCallResult::GetResultServices","wmi.iwbemcallresult_getresultservices"]
 old-location: wmi\iwbemcallresult_getresultservices.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
 ms.date: 12/05/2018
 ms.keywords: GetResultServices, GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultServices method, IWbemCallResult.GetResultServices, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices

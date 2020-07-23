@@ -4,7 +4,7 @@ title: MFFOLDDOWN_MATRIX (mfapi.h)
 description: Contains coefficients used to transform multichannel audio into a smaller number of audio channels. This process is called fold-down.
 helpviewer_keywords: ["59bf275d-583e-47aa-96ff-ce032c618081","MFFOLDDOWN_MATRIX","MFFOLDDOWN_MATRIX structure [Media Foundation]","mf.mffolddown_matrix","mfapi/MFFOLDDOWN_MATRIX"]
 old-location: mf\mffolddown_matrix.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 59bf275d-583e-47aa-96ff-ce032c618081
 ms.date: 12/05/2018
 ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN_MATRIX structure [Media Foundation], mf.mffolddown_matrix, mfapi/MFFOLDDOWN_MATRIX

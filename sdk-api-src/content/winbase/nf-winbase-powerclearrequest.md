@@ -4,7 +4,7 @@ title: PowerClearRequest function (winbase.h)
 description: Decrements the count of power requests of the specified type for a power request object.
 helpviewer_keywords: ["PowerClearRequest","PowerClearRequest function","PowerRequestAwayModeRequired","PowerRequestDisplayRequired","PowerRequestExecutionRequired","PowerRequestSystemRequired","base.powerclearrequest","winbase/PowerClearRequest"]
 old-location: base\powerclearrequest.htm
-tech.root: power
+tech.root: base
 ms.assetid: 794248b1-5aa8-495e-aca6-1a1f35dc9c7f
 ms.date: 12/05/2018
 ms.keywords: PowerClearRequest, PowerClearRequest function, PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, base.powerclearrequest, winbase/PowerClearRequest

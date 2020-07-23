@@ -4,7 +4,7 @@ title: XPS_MATRIX (xpsobjectmodel.h)
 description: Describes the left two columns of a 3-by-3 matrix.
 helpviewer_keywords: ["XPS_MATRIX","XPS_MATRIX structure [XPS Documents and Packaging]","xps.xps_matrix","xpsobjectmodel/XPS_MATRIX"]
 old-location: xps\xps_matrix.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0df75410-0e34-4962-8499-879d5153d9af
 ms.date: 12/05/2018
 ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], xps.xps_matrix, xpsobjectmodel/XPS_MATRIX

@@ -4,7 +4,7 @@ title: PROCESS_HEAP_ENTRY (minwinbase.h)
 description: Contains information about a heap element.
 helpviewer_keywords: ["*LPPROCESS_HEAP_ENTRY","*PPROCESS_HEAP_ENTRY","LPPROCESS_HEAP_ENTRY","LPPROCESS_HEAP_ENTRY structure pointer","PROCESS_HEAP_ENTRY","PROCESS_HEAP_ENTRY structure","PROCESS_HEAP_ENTRY_BUSY","PROCESS_HEAP_ENTRY_DDESHARE","PROCESS_HEAP_ENTRY_MOVEABLE","PROCESS_HEAP_REGION","PROCESS_HEAP_UNCOMMITTED_RANGE","_PROCESS_HEAP_ENTRY","_win32_process_heap_entry_str","base.process_heap_entry_str","minwinbase/LPPROCESS_HEAP_ENTRY","minwinbase/PROCESS_HEAP_ENTRY"]
 old-location: base\process_heap_entry_str.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: e61b209a-9cc1-4171-9638-5456b0fcf775
 ms.date: 12/05/2018
 ms.keywords: '*LPPROCESS_HEAP_ENTRY, *PPROCESS_HEAP_ENTRY, LPPROCESS_HEAP_ENTRY, LPPROCESS_HEAP_ENTRY structure pointer, PROCESS_HEAP_ENTRY, PROCESS_HEAP_ENTRY structure, PROCESS_HEAP_ENTRY_BUSY, PROCESS_HEAP_ENTRY_DDESHARE, PROCESS_HEAP_ENTRY_MOVEABLE, PROCESS_HEAP_REGION, PROCESS_HEAP_UNCOMMITTED_RANGE, _PROCESS_HEAP_ENTRY, _win32_process_heap_entry_str, base.process_heap_entry_str, minwinbase/LPPROCESS_HEAP_ENTRY, minwinbase/PROCESS_HEAP_ENTRY'

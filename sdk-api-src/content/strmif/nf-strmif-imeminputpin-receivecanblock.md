@@ -4,7 +4,7 @@ title: IMemInputPin::ReceiveCanBlock (strmif.h)
 description: The ReceiveCanBlock method determines whether calls to the IMemInputPin::Receive method might block.
 helpviewer_keywords: ["IMemInputPin interface [DirectShow]","ReceiveCanBlock method","IMemInputPin.ReceiveCanBlock","IMemInputPin::ReceiveCanBlock","IMemInputPinReceiveCanBlock","ReceiveCanBlock","ReceiveCanBlock method [DirectShow]","ReceiveCanBlock method [DirectShow]","IMemInputPin interface","dshow.imeminputpin_receivecanblock","strmif/IMemInputPin::ReceiveCanBlock"]
 old-location: dshow\imeminputpin_receivecanblock.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cc047cad-e250-41f7-856d-26fc077f87a1
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveCanBlock method, IMemInputPin.ReceiveCanBlock, IMemInputPin::ReceiveCanBlock, IMemInputPinReceiveCanBlock, ReceiveCanBlock, ReceiveCanBlock method [DirectShow], ReceiveCanBlock method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivecanblock, strmif/IMemInputPin::ReceiveCanBlock

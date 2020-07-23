@@ -4,7 +4,7 @@ title: LsaFreeMemory function (ntsecapi.h)
 description: The LsaFreeMemory function frees memory allocated for an output buffer by an LSA function call.
 helpviewer_keywords: ["LsaFreeMemory","LsaFreeMemory function [Security]","_lsa_lsafreememory","ntsecapi/LsaFreeMemory","security.lsafreememory"]
 old-location: security\lsafreememory.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9
 ms.date: 12/05/2018
 ms.keywords: LsaFreeMemory, LsaFreeMemory function [Security], _lsa_lsafreememory, ntsecapi/LsaFreeMemory, security.lsafreememory

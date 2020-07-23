@@ -4,7 +4,7 @@ title: RegisterTouchHitTestingWindow function (winuser.h)
 description: Registers a window to process the WM_TOUCHHITTESTING notification.
 helpviewer_keywords: ["RegisterTouchHitTestingWindow","RegisterTouchHitTestingWindow function","input_touchhittest.registertouchhittestingwindow","touch_hittest.registertouchhittestingwindow","winuser/RegisterTouchHitTestingWindow"]
 old-location: input_touchhittest\registertouchhittestingwindow.htm
-tech.root: Input_TouchHitTest
+tech.root: controls
 ms.assetid: 52e48cea-b5c7-405f-8df6-26052304b62c
 ms.date: 12/05/2018
 ms.keywords: RegisterTouchHitTestingWindow, RegisterTouchHitTestingWindow function, input_touchhittest.registertouchhittestingwindow, touch_hittest.registertouchhittestingwindow, winuser/RegisterTouchHitTestingWindow

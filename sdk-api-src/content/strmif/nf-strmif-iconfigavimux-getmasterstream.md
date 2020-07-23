@@ -4,7 +4,7 @@ title: IConfigAviMux::GetMasterStream (strmif.h)
 description: The GetMasterStream method queries which stream will be used to synchronize the other streams in the file.
 helpviewer_keywords: ["GetMasterStream","GetMasterStream method [DirectShow]","GetMasterStream method [DirectShow]","IConfigAviMux interface","IConfigAviMux interface [DirectShow]","GetMasterStream method","IConfigAviMux.GetMasterStream","IConfigAviMux::GetMasterStream","IConfigAviMuxGetMasterStream","dshow.iconfigavimux_getmasterstream","strmif/IConfigAviMux::GetMasterStream"]
 old-location: dshow\iconfigavimux_getmasterstream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2085a510-16d5-4a82-b372-824026203ef6
 ms.date: 12/05/2018
 ms.keywords: GetMasterStream, GetMasterStream method [DirectShow], GetMasterStream method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetMasterStream method, IConfigAviMux.GetMasterStream, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream

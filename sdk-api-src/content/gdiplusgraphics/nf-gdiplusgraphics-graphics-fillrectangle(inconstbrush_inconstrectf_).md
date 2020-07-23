@@ -2,6 +2,7 @@
 UID: NF:gdiplusgraphics.Graphics.FillRectangle(INconstBrush,INconstRectF&)
 title: Graphics::FillRectangle
 description: The Graphics::FillRectangle method uses a brush to fill the interior of a rectangle.
+tech.root: gdiplus
 helpviewer_keywords: ["Graphics::FillRectangle"]
 ms.assetid: 8e8ec281-ff99-4fc7-bbf0-77d1ca3f128e
 ms.date: 05/13/2019

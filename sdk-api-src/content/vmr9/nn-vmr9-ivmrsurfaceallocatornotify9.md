@@ -4,7 +4,7 @@ title: IVMRSurfaceAllocatorNotify9 (vmr9.h)
 description: The IVMRSurfaceAllocatorNotify9 interface is implemented by the Video Mixing Renderer Filter 9 (VMR-9).
 helpviewer_keywords: ["IVMRSurfaceAllocatorNotify9","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","described","IVMRSurfaceAllocatorNotify9Interface","dshow.ivmrsurfaceallocatornotify9","vmr9/IVMRSurfaceAllocatorNotify9"]
 old-location: dshow\ivmrsurfaceallocatornotify9.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f275b835-e5b3-46f4-8b26-a4b0e2554c7c
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], IVMRSurfaceAllocatorNotify9 interface [DirectShow],described, IVMRSurfaceAllocatorNotify9Interface, dshow.ivmrsurfaceallocatornotify9, vmr9/IVMRSurfaceAllocatorNotify9

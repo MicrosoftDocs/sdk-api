@@ -4,7 +4,7 @@ title: AddIntegrityLabelToBoundaryDescriptor function (winbase.h)
 description: Adds a new required security identifier (SID) to the specified boundary descriptor.
 helpviewer_keywords: ["AddIntegrityLabelToBoundaryDescriptor","AddIntegrityLabelToBoundaryDescriptor function","base.addintegritylabeltoboundarydescriptor","winbase/AddIntegrityLabelToBoundaryDescriptor"]
 old-location: base\addintegritylabeltoboundarydescriptor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 6b56e664-7795-4e30-8bca-1e4df2764606
 ms.date: 12/05/2018
 ms.keywords: AddIntegrityLabelToBoundaryDescriptor, AddIntegrityLabelToBoundaryDescriptor function, base.addintegritylabeltoboundarydescriptor, winbase/AddIntegrityLabelToBoundaryDescriptor

@@ -4,7 +4,7 @@ title: GetNumaNodeProcessorMaskEx function (systemtopologyapi.h)
 description: Retrieves the processor mask for a node regardless of the processor group the node belongs to.
 helpviewer_keywords: ["GetNumaNodeProcessorMaskEx","GetNumaNodeProcessorMaskEx function","base.getnumanodeprocessormaskex","systemtopologyapi/GetNumaNodeProcessorMaskEx","winbase/GetNumaNodeProcessorMaskEx"]
 old-location: base\getnumanodeprocessormaskex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 4baf7193-aab3-4bd0-bc0a-60fd9277fc72
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx

@@ -4,7 +4,7 @@ title: IUpdateDownloadResult (wuapi.h)
 description: Contains the properties that indicate the status of a download operation for an update.
 helpviewer_keywords: ["IUpdateDownloadResult","IUpdateDownloadResult interface [Windows Update Agent]","IUpdateDownloadResult interface [Windows Update Agent]","described","wua.iupdatedownloadresult","wuapi/IUpdateDownloadResult"]
 old-location: wua\iupdatedownloadresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d2a800c9-c23a-4aab-a9c6-e408349818dd
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Update Agent], IUpdateDownloadResult interface [Windows Update Agent],described, wua.iupdatedownloadresult, wuapi/IUpdateDownloadResult

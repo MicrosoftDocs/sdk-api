@@ -4,7 +4,7 @@ title: IWbemLocator (wbemcli.h)
 description: Use the IWbemLocator interface to obtain the initial namespace pointer to the IWbemServices interface for WMI on a specific host computer.
 helpviewer_keywords: ["IWbemLocator","IWbemLocator interface [Windows Management Instrumentation]","IWbemLocator interface [Windows Management Instrumentation]","described","_hmm_iwbemlocator","wbemcli/IWbemLocator","wmi.iwbemlocator"]
 old-location: wmi\iwbemlocator.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 3e630987-82e3-4eb0-aec0-30562bc7c843
 ms.date: 12/05/2018
 ms.keywords: IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], IWbemLocator interface [Windows Management Instrumentation],described, _hmm_iwbemlocator, wbemcli/IWbemLocator, wmi.iwbemlocator

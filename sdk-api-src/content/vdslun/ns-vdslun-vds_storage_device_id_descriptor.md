@@ -4,7 +4,7 @@ title: VDS_STORAGE_DEVICE_ID_DESCRIPTOR (vdslun.h)
 description: Defines one or more storage identifiers for a storage device (typically an instance, as opposed to a class, of device).
 helpviewer_keywords: ["VDS_STORAGE_DEVICE_ID_DESCRIPTOR","VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS]","base.vds_storage_device_id_descriptor","vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR"]
 old-location: base\vds_storage_device_id_descriptor.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 88fe83cb-6d3c-40bd-a5ce-71771d2e7511
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR

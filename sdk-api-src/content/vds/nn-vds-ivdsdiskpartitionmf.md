@@ -4,7 +4,7 @@ title: IVdsDiskPartitionMF (vds.h)
 description: Provides methods to perform file system management operations on partitions.
 helpviewer_keywords: ["IVdsDiskPartitionMF","IVdsDiskPartitionMF interface","IVdsDiskPartitionMF interface","described","base.ivdsdiskpartitionmf","vds/IVdsDiskPartitionMF"]
 old-location: base\ivdsdiskpartitionmf.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF

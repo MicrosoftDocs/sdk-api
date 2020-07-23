@@ -4,7 +4,7 @@ title: CVssWriter::OnVSSShutdown (vswriter.h)
 description: Not supported.
 helpviewer_keywords: ["CVssWriter interface [VSS]","OnVssShutdown method","CVssWriter.OnVSSShutdown","CVssWriter::OnVSSShutdown","CVssWriter::OnVssShutdown","OnVSSShutdown","OnVssShutdown method [VSS]","OnVssShutdown method [VSS]","CVssWriter interface","_win32_cvsswriter_onvssshutdown","base.cvsswriter_onvssshutdown","vswriter/CVssWriter::OnVssShutdown"]
 old-location: base\cvsswriter_onvssshutdown.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 79a2ebb4-300a-4c6e-b42d-8136d85fedbf
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnVssShutdown method, CVssWriter.OnVSSShutdown, CVssWriter::OnVSSShutdown, CVssWriter::OnVssShutdown, OnVSSShutdown, OnVssShutdown method [VSS], OnVssShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onvssshutdown, base.cvsswriter_onvssshutdown, vswriter/CVssWriter::OnVssShutdown

@@ -2,6 +2,7 @@
 UID: NF:d3d11on12.ID3D11On12Device1.GetD3D12Device
 title: ID3D11On12Device1::GetD3D12Device (d3d11on12.h)
 description: Retrieves the [Direct3D 12 device](/windows/desktop/api/d3d12/nn-d3d12-id3d12device) being interoperated with.
+tech.root: direct3d12
 ms.date: 02/25/2019
 ms.keywords: ID3D11On12Device1::GetD3D12Device
 f1_keywords:

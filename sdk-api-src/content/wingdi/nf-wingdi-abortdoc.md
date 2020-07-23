@@ -4,7 +4,7 @@ title: AbortDoc function (wingdi.h)
 description: The AbortDoc function stops the current print job and erases everything drawn since the last call to the StartDoc function.
 helpviewer_keywords: ["AbortDoc","AbortDoc function [Windows GDI]","_win32_AbortDoc","gdi.abortdoc","wingdi/AbortDoc"]
 old-location: gdi\abortdoc.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4ecc371c-34fa-4073-96fe-0de03b84d7e3
 ms.date: 12/05/2018
 ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abortdoc, wingdi/AbortDoc

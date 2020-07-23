@@ -4,7 +4,7 @@ title: AddServiceFlag (wuapi.h)
 description: Defines the possible ways in which the IUpdateServiceManager2 interface can process service registration requests.
 helpviewer_keywords: ["AddServiceFlag","AddServiceFlag enumeration [Windows Update Agent]","asfAllowOnlineRegistration","asfAllowPendingRegistration","asfRegisterServiceWithAU","wua.addserviceflag","wuapi/AddServiceFlag","wuapi/asfAllowOnlineRegistration","wuapi/asfAllowPendingRegistration","wuapi/asfRegisterServiceWithAU"]
 old-location: wua\addserviceflag.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 1372a062-9f62-4b4d-8476-b6c7059a801a
 ms.date: 12/05/2018
 ms.keywords: AddServiceFlag, AddServiceFlag enumeration [Windows Update Agent], asfAllowOnlineRegistration, asfAllowPendingRegistration, asfRegisterServiceWithAU, wua.addserviceflag, wuapi/AddServiceFlag, wuapi/asfAllowOnlineRegistration, wuapi/asfAllowPendingRegistration, wuapi/asfRegisterServiceWithAU

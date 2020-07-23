@@ -2,6 +2,7 @@
 UID: NF:windns.DnsServiceResolveCancel
 title: DnsServiceResolveCancel function
 description: Used to cancel a running DNS-SD resolve query.
+tech.root: dns
 helpviewer_keywords: ["DnsServiceResolveCancel"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceResolveCancel

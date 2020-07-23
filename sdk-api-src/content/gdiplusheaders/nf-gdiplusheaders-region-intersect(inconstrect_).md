@@ -2,6 +2,7 @@
 UID: NF:gdiplusheaders.Region.Intersect(INconstRect&)
 title: Region::Intersect
 description: The Region::Intersect method updates a region intersects the specified rectangle's interior.
+tech.root: gdiplus
 helpviewer_keywords: ["Region::Intersect"]
 ms.assetid: 875832ae-7dca-4830-bfdb-6d36fb33f717
 ms.date: 05/20/2019

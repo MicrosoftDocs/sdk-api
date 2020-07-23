@@ -4,7 +4,7 @@ title: ITPhone::get_Privilege (tapi3if.h)
 description: The get_Privilege method retrieves the privilege of the open phone.
 helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_Privilege method","ITPhone.get_Privilege","ITPhone::get_Privilege","_tapi3_itphone_get_privilege","get_Privilege","get_Privilege method [TAPI 2.2]","get_Privilege method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_privilege","tapi3if/ITPhone::get_Privilege"]
 old-location: tapi3\itphone_get_privilege.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 88103a48-a5cd-43a7-a88e-9b16313b35c2
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Privilege method, ITPhone.get_Privilege, ITPhone::get_Privilege, _tapi3_itphone_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_privilege, tapi3if/ITPhone::get_Privilege

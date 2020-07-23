@@ -4,7 +4,7 @@ title: ITPhone::GetPhoneCapsBuffer (tapi3if.h)
 description: The GetPhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 helpviewer_keywords: ["GetPhoneCapsBuffer","GetPhoneCapsBuffer method [TAPI 2.2]","GetPhoneCapsBuffer method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","GetPhoneCapsBuffer method","ITPhone.GetPhoneCapsBuffer","ITPhone::GetPhoneCapsBuffer","_tapi3_itphone_getphonecapsbuffer","tapi3.itphone_getphonecapsbuffer","tapi3if/ITPhone::GetPhoneCapsBuffer"]
 old-location: tapi3\itphone_getphonecapsbuffer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 239902ca-0e9e-4b8d-927d-ee46a35dd9d8
 ms.date: 12/05/2018
 ms.keywords: GetPhoneCapsBuffer, GetPhoneCapsBuffer method [TAPI 2.2], GetPhoneCapsBuffer method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],GetPhoneCapsBuffer method, ITPhone.GetPhoneCapsBuffer, ITPhone::GetPhoneCapsBuffer, _tapi3_itphone_getphonecapsbuffer, tapi3.itphone_getphonecapsbuffer, tapi3if/ITPhone::GetPhoneCapsBuffer

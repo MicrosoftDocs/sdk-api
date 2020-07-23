@@ -4,7 +4,7 @@ title: RtwqEndRegisterWorkQueueWithMMCSS function (rtworkq.h)
 description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 helpviewer_keywords: ["RtwqEndRegisterWorkQueueWithMMCSS","RtwqEndRegisterWorkQueueWithMMCSS function","base.rtwqendregisterworkqueuewithmmcss","rtworkq/RtwqEndRegisterWorkQueueWithMMCSS"]
 old-location: base\rtwqendregisterworkqueuewithmmcss.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 887dec6f-c3ba-4139-b80b-6a2e05bfa1f9
 ms.date: 12/05/2018
 ms.keywords: RtwqEndRegisterWorkQueueWithMMCSS, RtwqEndRegisterWorkQueueWithMMCSS function, base.rtwqendregisterworkqueuewithmmcss, rtworkq/RtwqEndRegisterWorkQueueWithMMCSS

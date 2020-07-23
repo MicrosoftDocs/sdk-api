@@ -4,7 +4,7 @@ title: SaferGetPolicyInformation function (winsafer.h)
 description: Gets information about a policy.
 helpviewer_keywords: ["SAFER_SCOPEID_MACHINE","SAFER_SCOPEID_USER","SaferGetPolicyInformation","SaferGetPolicyInformation function [Security]","SaferPolicyDefaultLevel","SaferPolicyEnableTransparentEnforcement","SaferPolicyEvaluateUserScope","SaferPolicyLevelList","SaferPolicyScopeFlags","_mnp_safergetpolicyinformation","security.safergetpolicyinformation","winsafer/SaferGetPolicyInformation"]
 old-location: security\safergetpolicyinformation.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 1c69d3c1-87e6-42cd-9acb-4c3d06801401
 ms.date: 12/05/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferGetPolicyInformation, SaferGetPolicyInformation function [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safergetpolicyinformation, security.safergetpolicyinformation, winsafer/SaferGetPolicyInformation

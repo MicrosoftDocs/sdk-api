@@ -4,7 +4,7 @@ title: IVssAdmin (vsadmin.h)
 description: The IVssAdmin interface manages providers registered with VSS.
 helpviewer_keywords: ["IVssAdmin","IVssAdmin interface [VSS]","IVssAdmin interface [VSS]","described","base.ivssadmin","vsadmin/IVssAdmin"]
 old-location: base\ivssadmin.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 6128d627-380b-4fef-b58a-caf8f149f526
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin, IVssAdmin interface [VSS], IVssAdmin interface [VSS],described, base.ivssadmin, vsadmin/IVssAdmin

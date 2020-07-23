@@ -4,7 +4,7 @@ title: IMFImageSharingEngineClassFactory (mfsharingengine.h)
 description: Creates an instance of the IMFImageSharingEngine.
 helpviewer_keywords: ["IMFImageSharingEngineClassFactory","IMFImageSharingEngineClassFactory interface [Media Foundation]","IMFImageSharingEngineClassFactory interface [Media Foundation]","described","mf.imfimagesharingengineclassfactory","mfsharingengine/IMFImageSharingEngineClassFactory"]
 old-location: mf\imfimagesharingengineclassfactory.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7D6385BC-4D9C-4026-9363-0F6917A62BDE
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngineClassFactory, IMFImageSharingEngineClassFactory interface [Media Foundation], IMFImageSharingEngineClassFactory interface [Media Foundation],described, mf.imfimagesharingengineclassfactory, mfsharingengine/IMFImageSharingEngineClassFactory

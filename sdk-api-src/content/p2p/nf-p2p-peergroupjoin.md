@@ -4,7 +4,7 @@ title: PeerGroupJoin function (p2p.h)
 description: The PeerGroupJoin function prepares a peer with an invitation to join an existing peer group prior to calling PeerGroupConnect or PeerGroupConnectByAddress.
 helpviewer_keywords: ["PeerGroupJoin","PeerGroupJoin function [Peer Networking]","p2p.peergroupjoin","p2p/PeerGroupJoin"]
 old-location: p2p\peergroupjoin.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: a7f5689d-4849-4363-bc61-3fed63f4287b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupJoin, PeerGroupJoin function [Peer Networking], p2p.peergroupjoin, p2p/PeerGroupJoin

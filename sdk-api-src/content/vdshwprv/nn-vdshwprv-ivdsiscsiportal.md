@@ -4,7 +4,7 @@ title: IVdsIscsiPortal (vdshwprv.h)
 description: Provides methods for performing query and configuration operations on an iSCSI portal.
 helpviewer_keywords: ["IVdsIscsiPortal","IVdsIscsiPortal interface [VDS]","IVdsIscsiPortal interface [VDS]","described","base.ivdsiscsiportal","vds/IVdsIscsiPortal","vdshwprv/IVdsIscsiPortal"]
 old-location: base\ivdsiscsiportal.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 1f3131a6-01ab-41e5-9e2f-6ffcdcd0e3a6
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], IVdsIscsiPortal interface [VDS],described, base.ivdsiscsiportal, vds/IVdsIscsiPortal, vdshwprv/IVdsIscsiPortal

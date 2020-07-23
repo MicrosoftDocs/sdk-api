@@ -4,7 +4,7 @@ title: IMediaObject::GetOutputSizeInfo (mediaobj.h)
 description: The GetOutputSizeInfo method retrieves the buffer requirements for a specified output stream.
 helpviewer_keywords: ["GetOutputSizeInfo","GetOutputSizeInfo method [DirectShow]","GetOutputSizeInfo method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetOutputSizeInfo method","IMediaObject.GetOutputSizeInfo","IMediaObject::GetOutputSizeInfo","IMediaObjectGetOutputSizeInfo","dshow.imediaobject_getoutputsizeinfo","mediaobj/IMediaObject::GetOutputSizeInfo"]
 old-location: dshow\imediaobject_getoutputsizeinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 497bc88e-4e26-409f-9d42-6a214a5d56e9
 ms.date: 12/05/2018
 ms.keywords: GetOutputSizeInfo, GetOutputSizeInfo method [DirectShow], GetOutputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputSizeInfo method, IMediaObject.GetOutputSizeInfo, IMediaObject::GetOutputSizeInfo, IMediaObjectGetOutputSizeInfo, dshow.imediaobject_getoutputsizeinfo, mediaobj/IMediaObject::GetOutputSizeInfo

@@ -4,7 +4,7 @@ title: IVdsVolumePlex::GetVolume (vds.h)
 description: Returns the volume to which the current plex is a member.
 helpviewer_keywords: ["GetVolume","GetVolume method [VDS]","GetVolume method [VDS]","IVdsVolumePlex interface","IVdsVolumePlex interface [VDS]","GetVolume method","IVdsVolumePlex.GetVolume","IVdsVolumePlex::GetVolume","base.ivdsvolumeplex_getvolume","vds/IVdsVolumePlex::GetVolume"]
 old-location: base\ivdsvolumeplex_getvolume.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: ddf6102b-81d4-4604-942e-ffb1c2c4730f
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [VDS], GetVolume method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetVolume method, IVdsVolumePlex.GetVolume, IVdsVolumePlex::GetVolume, base.ivdsvolumeplex_getvolume, vds/IVdsVolumePlex::GetVolume

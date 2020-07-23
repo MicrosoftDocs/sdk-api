@@ -4,7 +4,7 @@ title: IXpsOMCanvas::GetDictionary (xpsobjectmodel.h)
 description: Gets a pointer to the resolved IXpsOMDictionary interface of the dictionary associated with the canvas.
 helpviewer_keywords: ["GetDictionary","GetDictionary method [XPS Documents and Packaging]","GetDictionary method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetDictionary method","IXpsOMCanvas.GetDictionary","IXpsOMCanvas::GetDictionary","xps.ixpsomcanvas_getdictionary","xpsobjectmodel/IXpsOMCanvas::GetDictionary"]
 old-location: xps\ixpsomcanvas_getdictionary.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f32b534e-92bf-4e80-9ac1-b2577e076bed
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionary method, IXpsOMCanvas.GetDictionary, IXpsOMCanvas::GetDictionary, xps.ixpsomcanvas_getdictionary, xpsobjectmodel/IXpsOMCanvas::GetDictionary

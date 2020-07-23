@@ -4,7 +4,7 @@ title: MFCreateWMAEncoderActivate function (wmcontainer.h)
 description: Creates an activation object that can be used to create a Windows Media Audio (WMA) encoder.
 helpviewer_keywords: ["MFCreateWMAEncoderActivate","MFCreateWMAEncoderActivate function [Media Foundation]","b322a6a2-edf6-428e-8477-2fcd08e70aa2","mf.mfcreatewmaencoderactivate","wmcontainer/MFCreateWMAEncoderActivate"]
 old-location: mf\mfcreatewmaencoderactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b322a6a2-edf6-428e-8477-2fcd08e70aa2
 ms.date: 12/05/2018
 ms.keywords: MFCreateWMAEncoderActivate, MFCreateWMAEncoderActivate function [Media Foundation], b322a6a2-edf6-428e-8477-2fcd08e70aa2, mf.mfcreatewmaencoderactivate, wmcontainer/MFCreateWMAEncoderActivate

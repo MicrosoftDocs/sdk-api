@@ -4,7 +4,7 @@ title: IMFPresentationDescriptor (mfidl.h)
 description: Describes the details of a presentation. A presentation is a set of related media streams that share a common presentation time.
 helpviewer_keywords: ["IMFPresentationDescriptor","IMFPresentationDescriptor interface [Media Foundation]","IMFPresentationDescriptor interface [Media Foundation]","described","db03e212-7021-433e-84dc-410b2cf7af87","mf.imfpresentationdescriptor","mfidl/IMFPresentationDescriptor"]
 old-location: mf\imfpresentationdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: db03e212-7021-433e-84dc-410b2cf7af87
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation],described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor

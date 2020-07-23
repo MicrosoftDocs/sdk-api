@@ -4,7 +4,7 @@ title: IComThreadEvents::OnThreadUnassignApartment (comsvcs.h)
 description: Generated when an activity is unassigned from an apartment thread.
 helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadUnassignApartment method","IComThreadEvents.OnThreadUnassignApartment","IComThreadEvents::OnThreadUnassignApartment","OnThreadUnassignApartment","OnThreadUnassignApartment method [COM+]","OnThreadUnassignApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadUnassignApartment","comsvcs/IComThreadEvents::OnThreadUnassignApartment","cos.icomthreadevents_onthreadunassignapartment"]
 old-location: cos\icomthreadevents_onthreadunassignapartment.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c57b2427-9c39-4068-b531-9f18264746a1
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadUnassignApartment method, IComThreadEvents.OnThreadUnassignApartment, IComThreadEvents::OnThreadUnassignApartment, OnThreadUnassignApartment, OnThreadUnassignApartment method [COM+], OnThreadUnassignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnassignApartment, comsvcs/IComThreadEvents::OnThreadUnassignApartment, cos.icomthreadevents_onthreadunassignapartment

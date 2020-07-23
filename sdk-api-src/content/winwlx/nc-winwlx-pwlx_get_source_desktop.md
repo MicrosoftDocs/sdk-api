@@ -4,7 +4,7 @@ title: PWLX_GET_SOURCE_DESKTOP (winwlx.h)
 description: Called by GINA to determine the name and handle of the desktop that was current before Winlogon switched to the Winlogon desktop.
 helpviewer_keywords: ["PWLX_GET_SOURCE_DESKTOP","PWLX_GET_SOURCE_DESKTOP callback","WlxGetSourceDesktop","WlxGetSourceDesktop callback function [Security]","_gina_wlxgetsourcedesktop","security.wlxgetsourcedesktop","winwlx/WlxGetSourceDesktop"]
 old-location: security\wlxgetsourcedesktop.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c0b6c64e-7c2b-4dc9-81fd-243fc2230249
 ms.date: 12/05/2018
 ms.keywords: PWLX_GET_SOURCE_DESKTOP, PWLX_GET_SOURCE_DESKTOP callback, WlxGetSourceDesktop, WlxGetSourceDesktop callback function [Security], _gina_wlxgetsourcedesktop, security.wlxgetsourcedesktop, winwlx/WlxGetSourceDesktop

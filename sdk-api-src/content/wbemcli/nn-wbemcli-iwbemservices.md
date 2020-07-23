@@ -4,7 +4,7 @@ title: IWbemServices (wbemcli.h)
 description: Used by clients and providers to access WMI services. The interface is implemented by WMI and WMI providers, and is the primary WMI interface.
 helpviewer_keywords: ["IWbemServices","IWbemServices interface [Windows Management Instrumentation]","IWbemServices interface [Windows Management Instrumentation]","described","_hmm_iwbemservices","wbemcli/IWbemServices","wmi.iwbemservices"]
 old-location: wmi\iwbemservices.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 58e2ecca-7d1f-4831-93fc-f946f8ada2c0
 ms.date: 12/05/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], IWbemServices interface [Windows Management Instrumentation],described, _hmm_iwbemservices, wbemcli/IWbemServices, wmi.iwbemservices

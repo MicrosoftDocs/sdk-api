@@ -4,7 +4,7 @@ title: IVdsService::CleanupObsoleteMountPoints (vds.h)
 description: Removes user-mode paths and mounted folders for volumes that no longer exist.
 helpviewer_keywords: ["CleanupObsoleteMountPoints","CleanupObsoleteMountPoints method [VDS]","CleanupObsoleteMountPoints method [VDS]","IVdsService interface","IVdsService interface [VDS]","CleanupObsoleteMountPoints method","IVdsService.CleanupObsoleteMountPoints","IVdsService::CleanupObsoleteMountPoints","base.ivdsservice_cleanupobsoletemountpoints","vds/IVdsService::CleanupObsoleteMountPoints"]
 old-location: base\ivdsservice_cleanupobsoletemountpoints.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 93ed7789-be60-422c-be4f-e70e16d26fce
 ms.date: 12/05/2018
 ms.keywords: CleanupObsoleteMountPoints, CleanupObsoleteMountPoints method [VDS], CleanupObsoleteMountPoints method [VDS],IVdsService interface, IVdsService interface [VDS],CleanupObsoleteMountPoints method, IVdsService.CleanupObsoleteMountPoints, IVdsService::CleanupObsoleteMountPoints, base.ivdsservice_cleanupobsoletemountpoints, vds/IVdsService::CleanupObsoleteMountPoints

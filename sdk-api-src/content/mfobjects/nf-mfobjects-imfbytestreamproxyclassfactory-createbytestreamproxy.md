@@ -4,7 +4,7 @@ title: IMFByteStreamProxyClassFactory::CreateByteStreamProxy (mfobjects.h)
 description: Creates a proxy to a byte stream.
 helpviewer_keywords: ["CreateByteStreamProxy","CreateByteStreamProxy method [Media Foundation]","CreateByteStreamProxy method [Media Foundation]","IMFByteStreamProxyClassFactory interface","IMFByteStreamProxyClassFactory interface [Media Foundation]","CreateByteStreamProxy method","IMFByteStreamProxyClassFactory.CreateByteStreamProxy","IMFByteStreamProxyClassFactory::CreateByteStreamProxy","mf.imfbytestreamproxyclassfactory_createbytestreamproxy","mfobjects/IMFByteStreamProxyClassFactory::CreateByteStreamProxy"]
 old-location: mf\imfbytestreamproxyclassfactory_createbytestreamproxy.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5A7E6218-615F-43E3-BB96-0D39138A4E28
 ms.date: 12/05/2018
 ms.keywords: CreateByteStreamProxy, CreateByteStreamProxy method [Media Foundation], CreateByteStreamProxy method [Media Foundation],IMFByteStreamProxyClassFactory interface, IMFByteStreamProxyClassFactory interface [Media Foundation],CreateByteStreamProxy method, IMFByteStreamProxyClassFactory.CreateByteStreamProxy, IMFByteStreamProxyClassFactory::CreateByteStreamProxy, mf.imfbytestreamproxyclassfactory_createbytestreamproxy, mfobjects/IMFByteStreamProxyClassFactory::CreateByteStreamProxy

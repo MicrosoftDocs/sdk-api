@@ -4,7 +4,7 @@ title: LSA_AP_LOGON_USER (ntsecpkg.h)
 description: Authenticates a user's logon credentials.
 helpviewer_keywords: ["LSA_AP_LOGON_USER","LSA_AP_LOGON_USER callback","LsaApLogonUser","LsaApLogonUser callback function [Security]","STATUS_ACCOUNT_DISABLED","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_PASSWORD_EXPIRED","_lsa_lsaaplogonuser","ntsecpkg/LsaApLogonUser","security.lsaaplogonuser"]
 old-location: security\lsaaplogonuser.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4c8def77-d536-486e-a830-9df3848fbccb
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_USER, LSA_AP_LOGON_USER callback, LsaApLogonUser, LsaApLogonUser callback function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuser, ntsecpkg/LsaApLogonUser, security.lsaaplogonuser

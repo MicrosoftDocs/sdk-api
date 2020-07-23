@@ -4,7 +4,7 @@ title: CRYPT_TIMESTAMP_REQUEST (wincrypt.h)
 description: Defines a time stamp request structure that corresponds to the Abstract Syntax Notation One (ASN.1) definition of a TimeStampReq type.
 helpviewer_keywords: ["*PCRYPT_TIMESTAMP_REQUEST","CRYPT_TIMESTAMP_REQUEST","CRYPT_TIMESTAMP_REQUEST structure [Security]","PCRYPT_TIMESTAMP_REQUEST","PCRYPT_TIMESTAMP_REQUEST structure pointer [Security]","TIMESTAMP_VERSION","security.crypt_timestamp_request","wincrypt/CRYPT_TIMESTAMP_REQUEST","wincrypt/PCRYPT_TIMESTAMP_REQUEST"]
 old-location: security\crypt_timestamp_request.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1576986c-1a9b-4fcf-9dab-987b472a8671
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST structure [Security], PCRYPT_TIMESTAMP_REQUEST, PCRYPT_TIMESTAMP_REQUEST structure pointer [Security], TIMESTAMP_VERSION, security.crypt_timestamp_request, wincrypt/CRYPT_TIMESTAMP_REQUEST, wincrypt/PCRYPT_TIMESTAMP_REQUEST'

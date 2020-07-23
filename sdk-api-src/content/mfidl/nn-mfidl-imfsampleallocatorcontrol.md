@@ -5,7 +5,7 @@ ms.date: 1/23/2020
 ms.topic: language-reference
 targetos: Windows
 description: Implemented by video capture sources and transforms. Allows the system to provide components with a sample allocator to allocate samples using memory that is accessible from within a container.
-tech.root: medfound
+tech.root: mf
 req.assembly: mfuuid.dl
 req.construct-type: iface
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ title: IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx (mfidl.h)
 description: Initializes the video sample allocator object.
 helpviewer_keywords: ["IMFVideoSampleAllocatorEx interface [Media Foundation]","InitializeSampleAllocatorEx method","IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx","IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx","InitializeSampleAllocatorEx","InitializeSampleAllocatorEx method [Media Foundation]","InitializeSampleAllocatorEx method [Media Foundation]","IMFVideoSampleAllocatorEx interface","mf.imfvideosampleallocatorex_initializesampleallocatorex","mfidl/IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx"]
 old-location: mf\imfvideosampleallocatorex_initializesampleallocatorex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0AE0826D-058C-4A2F-94F2-A761CA885E67
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorEx interface [Media Foundation],InitializeSampleAllocatorEx method, IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx, IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx, InitializeSampleAllocatorEx, InitializeSampleAllocatorEx method [Media Foundation], InitializeSampleAllocatorEx method [Media Foundation],IMFVideoSampleAllocatorEx interface, mf.imfvideosampleallocatorex_initializesampleallocatorex, mfidl/IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx

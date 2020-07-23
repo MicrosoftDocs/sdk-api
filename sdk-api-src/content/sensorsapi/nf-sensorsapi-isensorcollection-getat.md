@@ -4,7 +4,7 @@ title: ISensorCollection::GetAt (sensorsapi.h)
 description: Retrieves the sensor at the specified index in the collection.
 helpviewer_keywords: ["GetAt","GetAt method","GetAt method","ISensorCollection interface","ISensorCollection interface","GetAt method","ISensorCollection.GetAt","ISensorCollection::GetAt","sensorsapi/ISensorCollection::GetAt","winsensors_com_ref.isensorcollection_getat"]
 old-location: winsensors_com_ref\isensorcollection_getat.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 3117a46d-62f2-4d69-97e1-1a75c08a799e
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method, GetAt method,ISensorCollection interface, ISensorCollection interface,GetAt method, ISensorCollection.GetAt, ISensorCollection::GetAt, sensorsapi/ISensorCollection::GetAt, winsensors_com_ref.isensorcollection_getat

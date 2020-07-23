@@ -4,7 +4,7 @@ title: IWSDEndpointProxy::GetFaultInfo (wsdclient.h)
 description: Retrieves information on the last received fault.
 helpviewer_keywords: ["GetFaultInfo","GetFaultInfo method","GetFaultInfo method","IWSDEndpointProxy interface","IWSDEndpointProxy interface","GetFaultInfo method","IWSDEndpointProxy.GetFaultInfo","IWSDEndpointProxy::GetFaultInfo","ncd.iwsdendpointproxy_getfaultinfo","wsdclient/IWSDEndpointProxy::GetFaultInfo"]
 old-location: ncd\iwsdendpointproxy_getfaultinfo.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 45ed30fd-7e4f-44f5-bb90-5686746e39be
 ms.date: 12/05/2018
 ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetFaultInfo method, IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo

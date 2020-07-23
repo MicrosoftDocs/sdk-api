@@ -4,7 +4,7 @@ title: IMFTimedTextStyle::GetFontFamily (mfmediaengine.h)
 description: Gets the font family of the timed-text style.
 helpviewer_keywords: ["GetFontFamily","GetFontFamily method [Media Foundation]","GetFontFamily method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetFontFamily method","IMFTimedTextStyle.GetFontFamily","IMFTimedTextStyle::GetFontFamily","mf.imftimedtextstyle_getfontfamily","mfmediaengine/IMFTimedTextStyle::GetFontFamily"]
 old-location: mf\imftimedtextstyle_getfontfamily.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4250F2ED-F479-45E9-89A3-9037F40BD4E2
 ms.date: 12/05/2018
 ms.keywords: GetFontFamily, GetFontFamily method [Media Foundation], GetFontFamily method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontFamily method, IMFTimedTextStyle.GetFontFamily, IMFTimedTextStyle::GetFontFamily, mf.imftimedtextstyle_getfontfamily, mfmediaengine/IMFTimedTextStyle::GetFontFamily

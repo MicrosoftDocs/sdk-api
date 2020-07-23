@@ -4,7 +4,7 @@ title: FDICreate function (fdi.h)
 description: The FDICreate function creates an FDI context.
 helpviewer_keywords: ["FDICreate","FDICreate function [Windows API]","cpu80286","cpu80386","cpuUNKNOWN","fdi/FDICreate","winprog.fdicreate"]
 old-location: winprog\fdicreate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
 ms.date: 12/05/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate

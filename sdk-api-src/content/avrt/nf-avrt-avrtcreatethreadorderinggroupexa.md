@@ -4,7 +4,7 @@ title: AvRtCreateThreadOrderingGroupExA function (avrt.h)
 description: Creates a thread ordering group and associates the server thread with a task.
 helpviewer_keywords: ["AvRtCreateThreadOrderingGroupEx","AvRtCreateThreadOrderingGroupEx function","AvRtCreateThreadOrderingGroupExA","AvRtCreateThreadOrderingGroupExW","avrt/AvRtCreateThreadOrderingGroupEx","avrt/AvRtCreateThreadOrderingGroupExA","avrt/AvRtCreateThreadOrderingGroupExW","base.avrtcreatethreadorderinggroupex"]
 old-location: base\avrtcreatethreadorderinggroupex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
 ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex

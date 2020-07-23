@@ -4,7 +4,7 @@ title: MFCreateMediaBufferWrapper function (mfapi.h)
 description: Creates a media buffer that wraps an existing media buffer.
 helpviewer_keywords: ["6850e75c-4612-4514-a74d-9b36fd88a598","MFCreateMediaBufferWrapper","MFCreateMediaBufferWrapper function [Media Foundation]","mf.mfcreatemediabufferwrapper","mfapi/MFCreateMediaBufferWrapper"]
 old-location: mf\mfcreatemediabufferwrapper.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6850e75c-4612-4514-a74d-9b36fd88a598
 ms.date: 12/05/2018
 ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, MFCreateMediaBufferWrapper function [Media Foundation], mf.mfcreatemediabufferwrapper, mfapi/MFCreateMediaBufferWrapper

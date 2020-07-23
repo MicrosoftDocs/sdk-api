@@ -4,7 +4,7 @@ title: phoneShutdown function (tapi.h)
 description: The phoneShutdown function shuts down the application's usage of TAPI's phone abstraction.
 helpviewer_keywords: ["_tapi2_phoneshutdown","phoneShutdown","phoneShutdown function [TAPI 2.2]","tapi/phoneShutdown","tapi2.phoneshutdown"]
 old-location: tapi2\phoneshutdown.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0cf8bc07-946a-450d-8062-b9e19c22a4c5
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 2.2], tapi/phoneShutdown, tapi2.phoneshutdown

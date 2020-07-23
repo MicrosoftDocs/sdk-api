@@ -4,7 +4,7 @@ title: IXpsOMPath::GetSnapsToPixels (xpsobjectmodel.h)
 description: Gets a Boolean value that indicates whether the path is to be snapped to device pixels when the path is rendered.
 helpviewer_keywords: ["FALSE","GetSnapsToPixels","GetSnapsToPixels method [XPS Documents and Packaging]","GetSnapsToPixels method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetSnapsToPixels method","IXpsOMPath.GetSnapsToPixels","IXpsOMPath::GetSnapsToPixels","TRUE","xps.ixpsompath_getsnapstopixels","xpsobjectmodel/IXpsOMPath::GetSnapsToPixels"]
 old-location: xps\ixpsompath_getsnapstopixels.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c0a4a8b5-f7cf-4cbe-9221-41cde4f63557
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetSnapsToPixels, GetSnapsToPixels method [XPS Documents and Packaging], GetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetSnapsToPixels method, IXpsOMPath.GetSnapsToPixels, IXpsOMPath::GetSnapsToPixels, TRUE, xps.ixpsompath_getsnapstopixels, xpsobjectmodel/IXpsOMPath::GetSnapsToPixels

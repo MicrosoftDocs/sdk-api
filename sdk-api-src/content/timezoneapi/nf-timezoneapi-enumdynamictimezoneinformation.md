@@ -4,7 +4,7 @@ title: EnumDynamicTimeZoneInformation function (timezoneapi.h)
 description: Enumerates DYNAMIC_TIME_ZONE_INFORMATION entries stored in the registry.
 helpviewer_keywords: ["EnumDynamicTimeZoneInformation","EnumDynamicTimeZoneInformation function","base.enumdynamictimezoneinformation","timezoneapi/EnumDynamicTimeZoneInformation"]
 old-location: base\enumdynamictimezoneinformation.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: EBB2366A-86FE-4764-B7F9-5D305993CE0A
 ms.date: 12/05/2018
 ms.keywords: EnumDynamicTimeZoneInformation, EnumDynamicTimeZoneInformation function, base.enumdynamictimezoneinformation, timezoneapi/EnumDynamicTimeZoneInformation

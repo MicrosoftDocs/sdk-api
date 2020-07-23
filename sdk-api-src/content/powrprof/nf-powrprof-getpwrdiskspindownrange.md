@@ -4,7 +4,7 @@ title: GetPwrDiskSpindownRange function (powrprof.h)
 description: Retrieves the disk spindown range.
 helpviewer_keywords: ["GetPwrDiskSpindownRange","GetPwrDiskSpindownRange function","_win32_getpwrdiskspindownrange","base.getpwrdiskspindownrange","powrprof/GetPwrDiskSpindownRange"]
 old-location: base\getpwrdiskspindownrange.htm
-tech.root: power
+tech.root: base
 ms.assetid: c56f679d-512a-4bf9-89dc-8905bba8c6ce
 ms.date: 12/05/2018
 ms.keywords: GetPwrDiskSpindownRange, GetPwrDiskSpindownRange function, _win32_getpwrdiskspindownrange, base.getpwrdiskspindownrange, powrprof/GetPwrDiskSpindownRange

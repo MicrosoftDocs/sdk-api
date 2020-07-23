@@ -4,7 +4,7 @@ title: GetWindowFeedbackSetting function (winuser.h)
 description: Retrieves the feedback configuration for a window.
 helpviewer_keywords: ["GetWindowFeedbackSetting","GetWindowFeedbackSetting function","input_feedback.getwindowfeedbacksetting","inputfeedbackui.getwindowfeedbacksetting","winuser/GetWindowFeedbackSetting"]
 old-location: input_feedback\getwindowfeedbacksetting.htm
-tech.root: Input_Feedback
+tech.root: controls
 ms.assetid: a40806b3-9085-42b6-9a87-95be0d1669c6
 ms.date: 12/05/2018
 ms.keywords: GetWindowFeedbackSetting, GetWindowFeedbackSetting function, input_feedback.getwindowfeedbacksetting, inputfeedbackui.getwindowfeedbacksetting, winuser/GetWindowFeedbackSetting

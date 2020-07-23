@@ -4,7 +4,7 @@ title: Provider::Flush (provider.h)
 description: The Flush method is called by the provider framework to delete all unnecessary memory in use by the provider.
 helpviewer_keywords: ["?Flush@Provider@@MAEXXZ","?Flush@Provider@@MEAAXXZ","Flush","Flush method [Windows Management Instrumentation]","Flush method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","Flush method","Provider.Flush","Provider::Flush","_hmm_provider_flush","provider/Provider::Flush","wmi.provider_flush"]
 old-location: wmi\provider_flush.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: c8be35ec-cd2e-45ec-b47f-48acf5e6f51a
 ms.date: 12/05/2018
 ms.keywords: ?Flush@Provider@@MAEXXZ, ?Flush@Provider@@MEAAXXZ, Flush, Flush method [Windows Management Instrumentation], Flush method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Flush method, Provider.Flush, Provider::Flush, _hmm_provider_flush, provider/Provider::Flush, wmi.provider_flush

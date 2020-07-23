@@ -4,7 +4,7 @@ title: IMFMediaSession::ClearTopologies (mfidl.h)
 description: Clears all of the presentations that are queued for playback in the Media Session.
 helpviewer_keywords: ["ClearTopologies","ClearTopologies method [Media Foundation]","ClearTopologies method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","ClearTopologies method","IMFMediaSession.ClearTopologies","IMFMediaSession::ClearTopologies","fcb7e5f1-1095-4766-afed-43ad2279abb4","mf.imfmediasession_cleartopologies","mfidl/IMFMediaSession::ClearTopologies"]
 old-location: mf\imfmediasession_cleartopologies.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
 ms.date: 12/05/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies

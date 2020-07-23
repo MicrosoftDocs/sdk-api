@@ -4,7 +4,7 @@ title: IXpsSignatureRequest::SetRequestedSigner (xpsdigitalsignature.h)
 description: Sets the identity of the person who signed or is requested to sign the package.
 helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetRequestedSigner method","IXpsSignatureRequest.SetRequestedSigner","IXpsSignatureRequest::SetRequestedSigner","SetRequestedSigner","SetRequestedSigner method [XPS Documents and Packaging]","SetRequestedSigner method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setrequestedsigner","xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner"]
 old-location: xps\ixpssignaturerequest_setrequestedsigner.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c744fb64-2e94-484c-9045-46a8357b0007
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestedSigner method, IXpsSignatureRequest.SetRequestedSigner, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner

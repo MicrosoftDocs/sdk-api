@@ -4,7 +4,7 @@ title: WBEMTimeSpan::GetTime (wbemtime.h)
 description: The GetTime method returns the time span as a 64-bit integer.
 helpviewer_keywords: ["GetTime","GetTime method [Windows Management Instrumentation]","GetTime method [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","GetTime method","WBEMTimeSpan.GetTime","WBEMTimeSpan::GetTime","_hmm_wbemtimespan_gettime","wbemtime/WBEMTimeSpan::GetTime","wmi.wbemtimespan_gettime"]
 old-location: wmi\wbemtimespan_gettime.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetTime method, WBEMTimeSpan.GetTime, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime

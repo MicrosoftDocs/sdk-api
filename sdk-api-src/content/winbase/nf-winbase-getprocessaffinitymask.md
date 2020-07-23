@@ -4,7 +4,7 @@ title: GetProcessAffinityMask function (winbase.h)
 description: Retrieves the process affinity mask for the specified process and the system affinity mask for the system.
 helpviewer_keywords: ["GetProcessAffinityMask","GetProcessAffinityMask function","_win32_getprocessaffinitymask","base.getprocessaffinitymask","winbase/GetProcessAffinityMask"]
 old-location: base\getprocessaffinitymask.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f
 ms.date: 12/05/2018
 ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_getprocessaffinitymask, base.getprocessaffinitymask, winbase/GetProcessAffinityMask

@@ -4,7 +4,7 @@ title: IGraphConfigCallback (strmif.h)
 description: The IGraphConfigCallback interface contains the callback method passed to IGraphConfig::Reconfigure. The caller (an application or filter) implements this interface. For more information, see IGraphConfig.
 helpviewer_keywords: ["IGraphConfigCallback","IGraphConfigCallback interface [DirectShow]","IGraphConfigCallback interface [DirectShow]","described","IGraphConfigCallbackInterface","dshow.igraphconfigcallback","strmif/IGraphConfigCallback"]
 old-location: dshow\igraphconfigcallback.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b7856181-1616-4984-bf5e-402140ab7b4e
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback, IGraphConfigCallback interface [DirectShow], IGraphConfigCallback interface [DirectShow],described, IGraphConfigCallbackInterface, dshow.igraphconfigcallback, strmif/IGraphConfigCallback

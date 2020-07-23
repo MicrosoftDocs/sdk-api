@@ -4,7 +4,7 @@ title: AddAccessAllowedAce function (securitybaseapi.h)
 description: Adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to a specified security identifier (SID).
 helpviewer_keywords: ["AddAccessAllowedAce","AddAccessAllowedAce function [Security]","_win32_addaccessallowedace","security.addaccessallowedace","securitybaseapi/AddAccessAllowedAce"]
 old-location: security\addaccessallowedace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1004353a-f907-4452-9c0f-85eba0ece813
 ms.date: 12/05/2018
 ms.keywords: AddAccessAllowedAce, AddAccessAllowedAce function [Security], _win32_addaccessallowedace, security.addaccessallowedace, securitybaseapi/AddAccessAllowedAce

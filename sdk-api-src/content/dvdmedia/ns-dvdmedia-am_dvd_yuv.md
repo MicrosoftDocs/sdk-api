@@ -4,7 +4,7 @@ title: AM_DVD_YUV (dvdmedia.h)
 description: Contains DVD YUV subpicture data.
 helpviewer_keywords: ["*PAM_DVD_YUV","AM_DVD_YUV","AM_DVD_YUV structure [DirectShow]","PAM_DVD_YUV","PAM_DVD_YUV structure pointer [DirectShow]","dshow.am_dvd_yuv","dvdmedia/AM_DVD_YUV","dvdmedia/PAM_DVD_YUV"]
 old-location: dshow\am_dvd_yuv.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fb954bc2-4ef1-4a5f-b795-a3b2a8aae8d4
 ms.date: 12/05/2018
 ms.keywords: '*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_DVD_YUV, PAM_DVD_YUV structure pointer [DirectShow], dshow.am_dvd_yuv, dvdmedia/AM_DVD_YUV, dvdmedia/PAM_DVD_YUV'

@@ -4,7 +4,7 @@ title: IMFSimpleAudioVolume::GetMasterVolume (mfidl.h)
 description: Retrieves the master volume level.
 helpviewer_keywords: ["03ce097e-c4e5-4dac-84c0-b569efc420bc","GetMasterVolume","GetMasterVolume method [Media Foundation]","GetMasterVolume method [Media Foundation]","IMFSimpleAudioVolume interface","IMFSimpleAudioVolume interface [Media Foundation]","GetMasterVolume method","IMFSimpleAudioVolume.GetMasterVolume","IMFSimpleAudioVolume::GetMasterVolume","mf.imfsimpleaudiovolume_getmastervolume","mfidl/IMFSimpleAudioVolume::GetMasterVolume"]
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
 ms.date: 12/05/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume

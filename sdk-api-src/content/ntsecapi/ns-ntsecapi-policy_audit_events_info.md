@@ -4,7 +4,7 @@ title: POLICY_AUDIT_EVENTS_INFO (ntsecapi.h)
 description: The POLICY_AUDIT_EVENTS_INFO structure is used to set and query the system's auditing rules.
 helpviewer_keywords: ["*PPOLICY_AUDIT_EVENTS_INFO","POLICY_AUDIT_EVENTS_INFO","POLICY_AUDIT_EVENTS_INFO structure [Security]","POLICY_AUDIT_EVENT_FAILURE","POLICY_AUDIT_EVENT_NONE","POLICY_AUDIT_EVENT_SUCCESS","POLICY_AUDIT_EVENT_UNCHANGED","PPOLICY_AUDIT_EVENTS_INFO","PPOLICY_AUDIT_EVENTS_INFO structure pointer [Security]","_POLICY_AUDIT_EVENTS_INFO","_lsa_policy_audit_events_info","ntsecapi/POLICY_AUDIT_EVENTS_INFO","ntsecapi/PPOLICY_AUDIT_EVENTS_INFO","security.policy_audit_events_info"]
 old-location: security\policy_audit_events_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 3442e5e5-78cf-4bda-ba11-0f51ee40df16
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO structure [Security], POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, PPOLICY_AUDIT_EVENTS_INFO, PPOLICY_AUDIT_EVENTS_INFO structure pointer [Security], _POLICY_AUDIT_EVENTS_INFO, _lsa_policy_audit_events_info, ntsecapi/POLICY_AUDIT_EVENTS_INFO, ntsecapi/PPOLICY_AUDIT_EVENTS_INFO, security.policy_audit_events_info'

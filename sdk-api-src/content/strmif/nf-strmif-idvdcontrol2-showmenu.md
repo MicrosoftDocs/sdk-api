@@ -4,7 +4,7 @@ title: IDvdControl2::ShowMenu (strmif.h)
 description: The ShowMenu method displays the specified menu, if available.
 helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","ShowMenu method","IDvdControl2.ShowMenu","IDvdControl2::ShowMenu","IDvdControl2ShowMenu","ShowMenu","ShowMenu method [DirectShow]","ShowMenu method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_showmenu","strmif/IDvdControl2::ShowMenu"]
 old-location: dshow\idvdcontrol2_showmenu.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.ShowMenu, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu

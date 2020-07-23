@@ -4,7 +4,7 @@ title: DXVA2_VideoProcessBltParams (dxva2api.h)
 description: Contains parameters for the IDirectXVideoProcessor::VideoProcessBlt method.
 helpviewer_keywords: ["6929fa8b-3cab-4d4e-ab2a-a3059b00905f","DXVA2_DestData_RFF","DXVA2_DestData_RFF_TFF_Present","DXVA2_DestData_TFF","DXVA2_VideoProcessBltParams","DXVA2_VideoProcessBltParams structure [Media Foundation]","dxva2api/DXVA2_VideoProcessBltParams","mf.dxva2_videoprocessbltparams"]
 old-location: mf\dxva2_videoprocessbltparams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f
 ms.date: 12/05/2018
 ms.keywords: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f, DXVA2_DestData_RFF, DXVA2_DestData_RFF_TFF_Present, DXVA2_DestData_TFF, DXVA2_VideoProcessBltParams, DXVA2_VideoProcessBltParams structure [Media Foundation], dxva2api/DXVA2_VideoProcessBltParams, mf.dxva2_videoprocessbltparams

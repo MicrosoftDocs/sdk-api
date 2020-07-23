@@ -4,7 +4,7 @@ title: CreateProcessWithLogonW function (winbase.h)
 description: Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 helpviewer_keywords: ["CREATE_DEFAULT_ERROR_MODE","CREATE_NEW_CONSOLE","CREATE_NEW_PROCESS_GROUP","CREATE_SEPARATE_WOW_VDM","CREATE_SUSPENDED","CREATE_UNICODE_ENVIRONMENT","CreateProcessWithLogonW","CreateProcessWithLogonW function","LOGON_NETCREDENTIALS_ONLY","LOGON_WITH_PROFILE","_win32_createprocesswithlogonw","base.createprocesswithlogonw","winbase/CreateProcessWithLogonW"]
 old-location: base\createprocesswithlogonw.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
 ms.date: 12/05/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithLogonW, CreateProcessWithLogonW function, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, _win32_createprocesswithlogonw, base.createprocesswithlogonw, winbase/CreateProcessWithLogonW

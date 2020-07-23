@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::SetSharedSecret (vds.h)
 description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","SetSharedSecret method","IVdsIscsiTarget.SetSharedSecret","IVdsIscsiTarget::SetSharedSecret","SetSharedSecret","SetSharedSecret method [VDS]","SetSharedSecret method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_setsharedsecret","vds/IVdsIscsiTarget::SetSharedSecret","vdshwprv/IVdsIscsiTarget::SetSharedSecret"]
 old-location: base\ivdsiscsitarget_setsharedsecret.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2b2eae3d-8ad0-4b68-943b-a42696165543
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret

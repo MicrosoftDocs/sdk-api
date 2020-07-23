@@ -2,6 +2,7 @@
 UID: NF:directxmath.operator-mult-assign
 title: operator*=
 description: Multiplies one XMVECTOR instance by a second instance, returning a reference to the updated initial instance.
+tech.root: dxmath
 helpviewer_keywords: ["operator*="]
 ms.assetid: 8aec8f87-795d-41a1-ba0e-ee3f82162de4
 ms.date: 05/13/2019

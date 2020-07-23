@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_Title (wuapi.h)
 description: Gets the title of an update.
 helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","Title property","IUpdateHistoryEntry.Title","IUpdateHistoryEntry.get_Title","IUpdateHistoryEntry::Title","IUpdateHistoryEntry::get_Title","Title property [Windows Update Agent]","Title property [Windows Update Agent]","IUpdateHistoryEntry interface","get_Title","wua.iupdatehistoryentry_title","wuapi/IUpdateHistoryEntry::Title","wuapi/IUpdateHistoryEntry::get_Title"]
 old-location: wua\iupdatehistoryentry_title.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 8a49fddf-ebaf-403e-bb7f-705ab08395eb
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Title property, IUpdateHistoryEntry.Title, IUpdateHistoryEntry.get_Title, IUpdateHistoryEntry::Title, IUpdateHistoryEntry::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdateHistoryEntry interface, get_Title, wua.iupdatehistoryentry_title, wuapi/IUpdateHistoryEntry::Title, wuapi/IUpdateHistoryEntry::get_Title

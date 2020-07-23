@@ -4,7 +4,7 @@ title: IVMRVideoStreamControl (strmif.h)
 description: The IVMRVideoStreamControl interface is implemented on each input pin of the Video Mixing Renderer Filter 7 (VMR-7).
 helpviewer_keywords: ["IVMRVideoStreamControl","IVMRVideoStreamControl interface [DirectShow]","IVMRVideoStreamControl interface [DirectShow]","described","IVMRVideoStreamControlInterface","dshow.ivmrvideostreamcontrol","strmif/IVMRVideoStreamControl"]
 old-location: dshow\ivmrvideostreamcontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b42fa81e-99d7-4051-b909-2189581825d0
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], IVMRVideoStreamControl interface [DirectShow],described, IVMRVideoStreamControlInterface, dshow.ivmrvideostreamcontrol, strmif/IVMRVideoStreamControl

@@ -4,7 +4,7 @@ title: SspiGetTargetHostName function (sspi.h)
 description: Gets the host name associated with the specified target.
 helpviewer_keywords: ["SspiGetTargetHostName","SspiGetTargetHostName function [Security]","security.sspigettargethostname","sspi/SspiGetTargetHostName"]
 old-location: security\sspigettargethostname.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 84570dfc-1890-4b82-b411-1f9eaa75537b
 ms.date: 12/05/2018
 ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], security.sspigettargethostname, sspi/SspiGetTargetHostName

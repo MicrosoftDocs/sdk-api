@@ -4,7 +4,7 @@ title: WINHTTP_REQUEST_STATS (winhttp.h)
 description: The WINHTTP_REQUEST_STATS structure contains a variety of statistics for a request.
 helpviewer_keywords: ["*PWINHTTP_REQUEST_STATS","WINHTTP_REQUEST_STATS","WINHTTP_REQUEST_STATS structure [HTTP]","http.winhttp_request_stats","winhttp/WINHTTP_REQUEST_STATS","WINHTTP_OPTION_REQUEST_STATS"]
 old-location:
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 7c65777e-24eb-4713-a7b8-7263a217e8ba
 ms.date: 02/25/2020
 ms.keywords: '*PWINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS structure [HTTP], http.winhttp_request_stats, winhttp/WINHTTP_REQUEST_STATS, WINHTTP_OPTION_REQUEST_STATS'

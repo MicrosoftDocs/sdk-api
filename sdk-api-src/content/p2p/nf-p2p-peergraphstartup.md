@@ -4,7 +4,7 @@ title: PeerGraphStartup function (p2p.h)
 description: The PeerGraphStartup function indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.
 helpviewer_keywords: ["PeerGraphStartup","PeerGraphStartup function [Peer Networking]","p2p.peergraphstartup","p2p/PeerGraphStartup"]
 old-location: p2p\peergraphstartup.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 00ffdec7-f084-4170-a4a1-e6112bab4d61
 ms.date: 12/05/2018
 ms.keywords: PeerGraphStartup, PeerGraphStartup function [Peer Networking], p2p.peergraphstartup, p2p/PeerGraphStartup

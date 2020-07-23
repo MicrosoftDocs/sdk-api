@@ -4,7 +4,7 @@ title: IMFSample::GetSampleDuration (mfobjects.h)
 description: Retrieves the duration of the sample.
 helpviewer_keywords: ["GetSampleDuration","GetSampleDuration method [Media Foundation]","GetSampleDuration method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleDuration method","IMFSample.GetSampleDuration","IMFSample::GetSampleDuration","c3284edc-b9b5-489b-9166-3bb6da50bd2a","mf.imfsample_getsampleduration","mfobjects/IMFSample::GetSampleDuration"]
 old-location: mf\imfsample_getsampleduration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c3284edc-b9b5-489b-9166-3bb6da50bd2a
 ms.date: 12/05/2018
 ms.keywords: GetSampleDuration, GetSampleDuration method [Media Foundation], GetSampleDuration method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleDuration method, IMFSample.GetSampleDuration, IMFSample::GetSampleDuration, c3284edc-b9b5-489b-9166-3bb6da50bd2a, mf.imfsample_getsampleduration, mfobjects/IMFSample::GetSampleDuration

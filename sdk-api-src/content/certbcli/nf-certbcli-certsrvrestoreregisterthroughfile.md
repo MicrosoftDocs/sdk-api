@@ -4,7 +4,7 @@ title: CertSrvRestoreRegisterThroughFile function (certbcli.h)
 description: Registers a Certificate Services restore.
 helpviewer_keywords: ["CertSrvRestoreRegisterThroughFile","CertSrvRestoreRegisterThroughFile function [Security]","certbcli/CertSrvRestoreRegisterThroughFile","security.certsrvrestoreregisterthroughfile"]
 old-location: security\certsrvrestoreregisterthroughfile.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile

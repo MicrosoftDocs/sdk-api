@@ -4,7 +4,7 @@ title: GetPointerDevices function (winuser.h)
 description: Gets information about the pointer devices attached to the system.
 helpviewer_keywords: ["GetPointerDevices","GetPointerDevices function","input_pointerdevice.getpointerdevices","unifiedinputstack.getpointerdevices","winuser/GetPointerDevices"]
 old-location: input_pointerdevice\getpointerdevices.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: 91FD5EBA-EDD7-4D7D-ABF3-3CE2461417B0
 ms.date: 12/05/2018
 ms.keywords: GetPointerDevices, GetPointerDevices function, input_pointerdevice.getpointerdevices, unifiedinputstack.getpointerdevices, winuser/GetPointerDevices

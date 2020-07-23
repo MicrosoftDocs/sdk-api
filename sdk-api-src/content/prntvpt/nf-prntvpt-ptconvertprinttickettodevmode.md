@@ -4,7 +4,7 @@ title: PTConvertPrintTicketToDevMode function (prntvpt.h)
 description: Converts a print ticket into a DEVMODE structure.
 helpviewer_keywords: ["PTConvertPrintTicketToDevMode","PTConvertPrintTicketToDevMode function [Windows GDI]","_win32_PTConvertPrintTicketToDevMode","gdi.ptconvertprinttickettodevmode","prntvpt/PTConvertPrintTicketToDevMode"]
 old-location: gdi\ptconvertprinttickettodevmode.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5eec91b9-d554-4440-bc9e-6a26af34994b
 ms.date: 12/05/2018
 ms.keywords: PTConvertPrintTicketToDevMode, PTConvertPrintTicketToDevMode function [Windows GDI], _win32_PTConvertPrintTicketToDevMode, gdi.ptconvertprinttickettodevmode, prntvpt/PTConvertPrintTicketToDevMode

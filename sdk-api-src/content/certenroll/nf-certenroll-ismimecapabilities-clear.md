@@ -4,7 +4,7 @@ title: ISmimeCapabilities::Clear (certenroll.h)
 description: Removes all objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","Clear method","ISmimeCapabilities.Clear","ISmimeCapabilities::Clear","certenroll/ISmimeCapabilities::Clear","security.ismimecapabilities_clear_method"]
 old-location: security\ismimecapabilities_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8df8eecd-c20f-40f0-a647-23d25ca76ae4
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Clear method, ISmimeCapabilities.Clear, ISmimeCapabilities::Clear, certenroll/ISmimeCapabilities::Clear, security.ismimecapabilities_clear_method

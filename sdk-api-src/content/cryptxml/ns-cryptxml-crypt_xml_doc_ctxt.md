@@ -4,7 +4,7 @@ title: CRYPT_XML_DOC_CTXT (cryptxml.h)
 description: Defines document context information.
 helpviewer_keywords: ["*PCRYPT_XML_DOC_CTXT","CRYPT_XML_DOC_CTXT","CRYPT_XML_DOC_CTXT structure [Security]","PCRYPT_XML_DOC_CTXT","PCRYPT_XML_DOC_CTXT structure pointer [Security]","cryptxml/CRYPT_XML_DOC_CTXT","cryptxml/PCRYPT_XML_DOC_CTXT","security.crypt_xml_doc_ctxt"]
 old-location: security\crypt_xml_doc_ctxt.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b57cccb1-b26f-4710-b888-f864cc9ae3be
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT structure [Security], PCRYPT_XML_DOC_CTXT, PCRYPT_XML_DOC_CTXT structure pointer [Security], cryptxml/CRYPT_XML_DOC_CTXT, cryptxml/PCRYPT_XML_DOC_CTXT, security.crypt_xml_doc_ctxt'

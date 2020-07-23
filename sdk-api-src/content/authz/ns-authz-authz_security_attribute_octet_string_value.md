@@ -4,7 +4,7 @@ title: AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE (authz.h)
 description: Specifies an octet string value for a security attribute.
 helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE","AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE","AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security]","PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE","PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE","authz/PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE","security.authz_security_attribute_octet_string_value"]
 old-location: security\authz_security_attribute_octet_string_value.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: aebe20d5-280f-45d3-a11d-279a08a1a165
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, security.authz_security_attribute_octet_string_value'

@@ -4,7 +4,7 @@ title: PeerDistClientAddData function (peerdist.h)
 description: The PeerDistClientAddData function is used to supply content to the local cache.
 helpviewer_keywords: ["PeerDistClientAddData","PeerDistClientAddData function [Peer Networking]","p2p.peerdistclientadddata","peerdist/PeerDistClientAddData"]
 old-location: p2p\peerdistclientadddata.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f1fdd398-ed84-4819-b0e8-e9b653bd6848
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientAddData, PeerDistClientAddData function [Peer Networking], p2p.peerdistclientadddata, peerdist/PeerDistClientAddData

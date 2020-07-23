@@ -4,7 +4,7 @@ title: ICaptureGraphBuilder2 (strmif.h)
 description: The ICaptureGraphBuilder2 interface builds capture graphs and other custom filter graphs.
 helpviewer_keywords: ["ICaptureGraphBuilder2","ICaptureGraphBuilder2 interface [DirectShow]","ICaptureGraphBuilder2 interface [DirectShow]","described","ICaptureGraphBuilder2Interface","dshow.icapturegraphbuilder2","strmif/ICaptureGraphBuilder2"]
 old-location: dshow\icapturegraphbuilder2.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: abdf6fb2-e98f-4df8-98ec-06d33798abb5
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], ICaptureGraphBuilder2 interface [DirectShow],described, ICaptureGraphBuilder2Interface, dshow.icapturegraphbuilder2, strmif/ICaptureGraphBuilder2

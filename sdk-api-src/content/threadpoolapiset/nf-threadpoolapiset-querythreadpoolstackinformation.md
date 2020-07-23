@@ -4,7 +4,7 @@ title: QueryThreadpoolStackInformation function (threadpoolapiset.h)
 description: Retrieves the stack reserve and commit sizes for threads in the specified thread pool.
 helpviewer_keywords: ["QueryThreadpoolStackInformation","QueryThreadpoolStackInformation function","base.querythreadpoolstackinformation","threadpoolapiset/QueryThreadpoolStackInformation","winbase/QueryThreadpoolStackInformation"]
 old-location: base\querythreadpoolstackinformation.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1669dfa7-75bf-4776-bba7-7d03a084a32c
 ms.date: 12/05/2018
 ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation function, base.querythreadpoolstackinformation, threadpoolapiset/QueryThreadpoolStackInformation, winbase/QueryThreadpoolStackInformation

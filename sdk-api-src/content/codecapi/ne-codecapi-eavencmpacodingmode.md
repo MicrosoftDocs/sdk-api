@@ -4,7 +4,7 @@ title: eAVEncMPACodingMode (codecapi.h)
 description: Specifies the MPEG audio encoding mode. This enumeration is used with the AVEncMPACodingMode property.
 helpviewer_keywords: ["codecapi/eAVEncMPACodingMode","codecapi/eAVEncMPACodingMode_DualChannel","codecapi/eAVEncMPACodingMode_JointStereo","codecapi/eAVEncMPACodingMode_Mono","codecapi/eAVEncMPACodingMode_Stereo","codecapi/eAVEncMPACodingMode_Surround","dshow.eavencmpacodingmode","eAVEncMPACodingMode","eAVEncMPACodingMode enumeration [DirectShow]","eAVEncMPACodingModeEnumeration","eAVEncMPACodingMode_DualChannel","eAVEncMPACodingMode_JointStereo","eAVEncMPACodingMode_Mono","eAVEncMPACodingMode_Stereo","eAVEncMPACodingMode_Surround"]
 old-location: dshow\eavencmpacodingmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 37c3309b-05ea-4c78-b447-196d16c0f0cd
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPACodingMode, codecapi/eAVEncMPACodingMode_DualChannel, codecapi/eAVEncMPACodingMode_JointStereo, codecapi/eAVEncMPACodingMode_Mono, codecapi/eAVEncMPACodingMode_Stereo, codecapi/eAVEncMPACodingMode_Surround, dshow.eavencmpacodingmode, eAVEncMPACodingMode, eAVEncMPACodingMode enumeration [DirectShow], eAVEncMPACodingModeEnumeration, eAVEncMPACodingMode_DualChannel, eAVEncMPACodingMode_JointStereo, eAVEncMPACodingMode_Mono, eAVEncMPACodingMode_Stereo, eAVEncMPACodingMode_Surround

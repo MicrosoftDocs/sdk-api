@@ -4,7 +4,7 @@ title: IAMExtTransport::put_MediaState (strmif.h)
 description: The put_MediaState method sets the current state of the media.
 helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_MediaState method","IAMExtTransport.put_MediaState","IAMExtTransport::put_MediaState","IAMExtTransportput_MediaState","dshow.iamexttransport_put_mediastate","put_MediaState","put_MediaState method [DirectShow]","put_MediaState method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_MediaState"]
 old-location: dshow\iamexttransport_put_mediastate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e5a4638e-3246-44dd-a7f8-52d0da12fc9c
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_MediaState method, IAMExtTransport.put_MediaState, IAMExtTransport::put_MediaState, IAMExtTransportput_MediaState, dshow.iamexttransport_put_mediastate, put_MediaState, put_MediaState method [DirectShow], put_MediaState method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_MediaState

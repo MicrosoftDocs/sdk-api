@@ -4,7 +4,7 @@ title: WinHttpSetDefaultProxyConfiguration function (winhttp.h)
 description: Sets the default WinHTTP proxy configuration in the registry.
 helpviewer_keywords: ["WinHttpSetDefaultProxyConfiguration","WinHttpSetDefaultProxyConfiguration function [WinHTTP]","http.winhttpsetdefaultproxyconfiguration","winhttp.winhttpsetdefaultproxyconfiguration_function","winhttp/WinHttpSetDefaultProxyConfiguration"]
 old-location: http\winhttpsetdefaultproxyconfiguration.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration

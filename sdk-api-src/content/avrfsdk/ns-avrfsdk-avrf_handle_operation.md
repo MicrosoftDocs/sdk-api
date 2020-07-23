@@ -4,7 +4,7 @@ title: AVRF_HANDLE_OPERATION (avrfsdk.h)
 description: Contains information required to collect handle trace information.
 helpviewer_keywords: ["*PAVRF_HANDLE_OPERATION","AVRF_HANDLE_OPERATION","AVRF_HANDLE_OPERATION structure [Windows API]","avrfsdk/AVRF_HANDLE_OPERATION","base.avrf_handle_operation","winprog.avrf_handle_operation"]
 old-location: winprog\avrf_handle_operation.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
 ms.date: 12/05/2018
 ms.keywords: '*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation'

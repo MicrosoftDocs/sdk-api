@@ -4,7 +4,7 @@ title: ICameraControl::put_TiltRelative (vidcap.h)
 description: The put_TiltRelative method sets the camera's relative tilt. The relative tilt is expressed as a number of steps, where the size of each step depends on the camera model.
 helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_TiltRelative method","ICameraControl.put_TiltRelative","ICameraControl::put_TiltRelative","ICameraControlput_TiltRelative","dshow.icameracontrol_put_tiltrelative","put_TiltRelative","put_TiltRelative method [DirectShow]","put_TiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_TiltRelative"]
 old-location: dshow\icameracontrol_put_tiltrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 69aa7ecf-4816-460b-b4f8-480c0d4f8331
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative

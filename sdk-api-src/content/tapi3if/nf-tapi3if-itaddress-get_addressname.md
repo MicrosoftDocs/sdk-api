@@ -4,7 +4,7 @@ title: ITAddress::get_AddressName (tapi3if.h)
 description: The get_AddressName method gets the displayable name of the address.
 helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","get_AddressName method","ITAddress.get_AddressName","ITAddress::get_AddressName","_tapi3_itaddress_get_addressname","get_AddressName","get_AddressName method [TAPI 2.2]","get_AddressName method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_get_addressname","tapi3if/ITAddress::get_AddressName"]
 old-location: tapi3\itaddress_get_addressname.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cb26dcf5-0192-4156-914b-9aa6e76a2bd2
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_AddressName method, ITAddress.get_AddressName, ITAddress::get_AddressName, _tapi3_itaddress_get_addressname, get_AddressName, get_AddressName method [TAPI 2.2], get_AddressName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_addressname, tapi3if/ITAddress::get_AddressName

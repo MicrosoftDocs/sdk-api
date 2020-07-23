@@ -4,7 +4,7 @@ title: IFilterGraph::Reconnect (strmif.h)
 description: The Reconnect method disconnects a pin and then reconnects it to the same pin.
 helpviewer_keywords: ["IFilterGraph interface [DirectShow]","Reconnect method","IFilterGraph.Reconnect","IFilterGraph::Reconnect","IFilterGraphReconnect","Reconnect","Reconnect method [DirectShow]","Reconnect method [DirectShow]","IFilterGraph interface","dshow.ifiltergraph_reconnect","strmif/IFilterGraph::Reconnect"]
 old-location: dshow\ifiltergraph_reconnect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 98a46014-031b-4f35-b1bc-58aef411360b
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],Reconnect method, IFilterGraph.Reconnect, IFilterGraph::Reconnect, IFilterGraphReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_reconnect, strmif/IFilterGraph::Reconnect

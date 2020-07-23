@@ -4,7 +4,7 @@ title: IDrawVideoImage::DrawVideoImageDraw (strmif.h)
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageDraw method draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
 helpviewer_keywords: ["DrawVideoImageDraw","DrawVideoImageDraw method [DirectShow]","DrawVideoImageDraw method [DirectShow]","IDrawVideoImage interface","IDrawVideoImage interface [DirectShow]","DrawVideoImageDraw method","IDrawVideoImage.DrawVideoImageDraw","IDrawVideoImage::DrawVideoImageDraw","IDrawVideoImageDrawVideoImageDraw","dshow.idrawvideoimage_drawvideoimagedraw","strmif/IDrawVideoImage::DrawVideoImageDraw"]
 old-location: dshow\idrawvideoimage_drawvideoimagedraw.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cecc3ae4-f1fa-437e-b967-c54fca10b27c
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageDraw method, IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw

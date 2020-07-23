@@ -4,7 +4,7 @@ title: IXpsOMGlyphs::GetUnicodeString (xpsobjectmodel.h)
 description: Gets the text in unescaped UTF-16 scalar values.
 helpviewer_keywords: ["GetUnicodeString","GetUnicodeString method [XPS Documents and Packaging]","GetUnicodeString method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetUnicodeString method","IXpsOMGlyphs.GetUnicodeString","IXpsOMGlyphs::GetUnicodeString","xps.ixpsomglyphs_getunicodestring","xpsobjectmodel/IXpsOMGlyphs::GetUnicodeString"]
 old-location: xps\ixpsomglyphs_getunicodestring.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0b1573b5-c9c7-4c7b-8511-c5c2fc42ed3e
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphs.GetUnicodeString, IXpsOMGlyphs::GetUnicodeString, xps.ixpsomglyphs_getunicodestring, xpsobjectmodel/IXpsOMGlyphs::GetUnicodeString

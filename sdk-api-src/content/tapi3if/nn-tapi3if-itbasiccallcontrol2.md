@@ -4,7 +4,7 @@ title: ITBasicCallControl2 (tapi3if.h)
 description: The ITBasicCallControl2 interface is an extension of the ITBasicCallControl interface.
 helpviewer_keywords: ["ITBasicCallControl2","ITBasicCallControl2 interface [TAPI 2.2]","ITBasicCallControl2 interface [TAPI 2.2]","described","_tapi3_itbasiccallcontrol2","tapi3.itbasiccallcontrol2","tapi3if/ITBasicCallControl2"]
 old-location: tapi3\itbasiccallcontrol2.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fc693221-b7ba-4b33-aed7-59ec92fc9b58
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2, ITBasicCallControl2 interface [TAPI 2.2], ITBasicCallControl2 interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol2, tapi3.itbasiccallcontrol2, tapi3if/ITBasicCallControl2

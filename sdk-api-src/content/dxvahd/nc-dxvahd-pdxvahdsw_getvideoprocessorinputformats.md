@@ -4,7 +4,7 @@ title: PDXVAHDSW_GetVideoProcessorInputFormats (dxvahd.h)
 description: Gets the input formats that are supported by a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessorInputFormats","PDXVAHDSW_GetVideoProcessorInputFormats callback","PDXVAHDSW_GetVideoProcessorInputFormats callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats","mf.pdxvahdsw_getvideoprocessorinputformats"]
 old-location: mf\pdxvahdsw_getvideoprocessorinputformats.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3d24da29-0fdb-4084-9810-1a0c9b04768b
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorInputFormats, PDXVAHDSW_GetVideoProcessorInputFormats callback, PDXVAHDSW_GetVideoProcessorInputFormats callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats, mf.pdxvahdsw_getvideoprocessorinputformats

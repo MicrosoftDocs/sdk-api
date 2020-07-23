@@ -4,7 +4,7 @@ title: CertFreeCertificateChainList function (wincrypt.h)
 description: Frees the array of pointers to chain contexts.
 helpviewer_keywords: ["CertFreeCertificateChainList","CertFreeCertificateChainList function [Security]","security.certfreecertificatechainlist","wincrypt/CertFreeCertificateChainList"]
 old-location: security\certfreecertificatechainlist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a53b02ca-bc3f-43fd-8c90-2f646d550182
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateChainList, CertFreeCertificateChainList function [Security], security.certfreecertificatechainlist, wincrypt/CertFreeCertificateChainList

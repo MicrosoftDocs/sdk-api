@@ -4,7 +4,7 @@ title: IMFCaptureSource::GetCaptureDeviceSource (mfcaptureengine.h)
 description: Gets the current capture device's IMFMediaSource object pointer.
 helpviewer_keywords: ["GetCaptureDeviceSource","GetCaptureDeviceSource method [Media Foundation]","GetCaptureDeviceSource method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetCaptureDeviceSource method","IMFCaptureSource.GetCaptureDeviceSource","IMFCaptureSource::GetCaptureDeviceSource","mf.imfcapturesource_getcapturedevicesource","mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource"]
 old-location: mf\imfcapturesource_getcapturedevicesource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 98bce6e3-02f2-449e-aba4-4bfc9de6d1db
 ms.date: 12/05/2018
 ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Foundation], GetCaptureDeviceSource method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceSource method, IMFCaptureSource.GetCaptureDeviceSource, IMFCaptureSource::GetCaptureDeviceSource, mf.imfcapturesource_getcapturedevicesource, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource

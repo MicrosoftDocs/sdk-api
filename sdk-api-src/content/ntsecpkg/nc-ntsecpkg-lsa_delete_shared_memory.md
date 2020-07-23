@@ -4,7 +4,7 @@ title: LSA_DELETE_SHARED_MEMORY (ntsecpkg.h)
 description: The DeleteSharedMemory function releases a section of memory that is shared by clients and a security package.
 helpviewer_keywords: ["DeleteSharedMemory","DeleteSharedMemory callback function [Security]","LSA_DELETE_SHARED_MEMORY","LSA_DELETE_SHARED_MEMORY callback","_ssp_deletesharedmemory","ntsecpkg/DeleteSharedMemory","security.deletesharedmemory"]
 old-location: security\deletesharedmemory.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 8059ff30-6301-4cf6-9620-2ba765303bb4
 ms.date: 12/05/2018
 ms.keywords: DeleteSharedMemory, DeleteSharedMemory callback function [Security], LSA_DELETE_SHARED_MEMORY, LSA_DELETE_SHARED_MEMORY callback, _ssp_deletesharedmemory, ntsecpkg/DeleteSharedMemory, security.deletesharedmemory

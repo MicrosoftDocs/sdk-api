@@ -4,7 +4,7 @@ title: IWMCodecStrings (wmcodecdsp.h)
 description: Retrieves names and descriptive strings for codecs and formats.
 helpviewer_keywords: ["IWMCodecStrings","IWMCodecStrings interface [Media Foundation]","IWMCodecStrings interface [Media Foundation]","described","codecapi.iwmcodecstringsinterface","mf.iwmcodecstringsinterface","wmcodecdsp/IWMCodecStrings"]
 old-location: mf\iwmcodecstringsinterface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 84b6223e-d42a-47b0-8553-2b4d69de2da3
 ms.date: 12/05/2018
 ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMCodecStrings interface [Media Foundation],described, codecapi.iwmcodecstringsinterface, mf.iwmcodecstringsinterface, wmcodecdsp/IWMCodecStrings

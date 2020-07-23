@@ -4,7 +4,7 @@ title: PeerGroupEnumRecords function (p2p.h)
 description: The PeerGroupEnumRecords function creates an enumeration of peer group records.
 helpviewer_keywords: ["PeerGroupEnumRecords","PeerGroupEnumRecords function [Peer Networking]","p2p.peergroupenumrecords","p2p/PeerGroupEnumRecords"]
 old-location: p2p\peergroupenumrecords.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d9a0654a-850a-40bb-9112-03ec9bf47370
 ms.date: 12/05/2018
 ms.keywords: PeerGroupEnumRecords, PeerGroupEnumRecords function [Peer Networking], p2p.peergroupenumrecords, p2p/PeerGroupEnumRecords

@@ -4,7 +4,7 @@ title: IOverlay::GetPalette (strmif.h)
 description: The GetPalette method retrieves the current system palette.
 helpviewer_keywords: ["GetPalette","GetPalette method [DirectShow]","GetPalette method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","GetPalette method","IOverlay.GetPalette","IOverlay::GetPalette","IOverlayGetPalette","dshow.ioverlay_getpalette","strmif/IOverlay::GetPalette"]
 old-location: dshow\ioverlay_getpalette.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 993c80fb-fa67-4dd6-815b-8e15d2f7f495
 ms.date: 12/05/2018
 ms.keywords: GetPalette, GetPalette method [DirectShow], GetPalette method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetPalette method, IOverlay.GetPalette, IOverlay::GetPalette, IOverlayGetPalette, dshow.ioverlay_getpalette, strmif/IOverlay::GetPalette

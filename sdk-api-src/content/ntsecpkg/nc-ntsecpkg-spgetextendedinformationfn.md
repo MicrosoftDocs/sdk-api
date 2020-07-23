@@ -4,7 +4,7 @@ title: SpGetExtendedInformationFn (ntsecpkg.h)
 description: Provides extended information about a security package.
 helpviewer_keywords: ["SpGetExtendedInformation","SpGetExtendedInformation callback function [Security]","SpGetExtendedInformationFn","SpGetExtendedInformationFn callback","_ssp_spgetextendedinformation","ntsecpkg/SpGetExtendedInformation","security.spgetextendedinformation"]
 old-location: security\spgetextendedinformation.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3
 ms.date: 12/05/2018
 ms.keywords: SpGetExtendedInformation, SpGetExtendedInformation callback function [Security], SpGetExtendedInformationFn, SpGetExtendedInformationFn callback, _ssp_spgetextendedinformation, ntsecpkg/SpGetExtendedInformation, security.spgetextendedinformation

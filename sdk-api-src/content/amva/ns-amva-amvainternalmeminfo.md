@@ -4,7 +4,7 @@ title: AMVAInternalMemInfo (amva.h)
 description: The AMVAInternalMemInfo structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 helpviewer_keywords: ["*LPAMVAInternalMemInfo","AMVAInternalMemInfo","AMVAInternalMemInfo structure [DirectShow]","AMVAInternalMemInfoStructure","LPAMVAInternalMemInfo","LPAMVAInternalMemInfo structure pointer [DirectShow]","amva/AMVAInternalMemInfo","amva/LPAMVAInternalMemInfo","dshow.amvainternalmeminfo"]
 old-location: dshow\amvainternalmeminfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo'

@@ -4,7 +4,7 @@ title: MFInitMediaTypeFromAMMediaType function (mfapi.h)
 description: Initializes a media type from a DirectShow AM_MEDIA_TYPE structure.
 helpviewer_keywords: ["MFInitMediaTypeFromAMMediaType","MFInitMediaTypeFromAMMediaType function [Media Foundation]","da5dcc32-c027-4b9a-b72f-a60b98885636","mf.mfinitmediatypefromammediatype","mfapi/MFInitMediaTypeFromAMMediaType"]
 old-location: mf\mfinitmediatypefromammediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: da5dcc32-c027-4b9a-b72f-a60b98885636
 ms.date: 12/05/2018
 ms.keywords: MFInitMediaTypeFromAMMediaType, MFInitMediaTypeFromAMMediaType function [Media Foundation], da5dcc32-c027-4b9a-b72f-a60b98885636, mf.mfinitmediatypefromammediatype, mfapi/MFInitMediaTypeFromAMMediaType

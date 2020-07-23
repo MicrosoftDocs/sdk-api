@@ -4,7 +4,7 @@ title: IVideoEncoder (strmif.h)
 description: The IVideoEncoder interface is optionally exposed by video encoder filters.
 helpviewer_keywords: ["IVideoEncoder","IVideoEncoder interface [DirectShow]","IVideoEncoder interface [DirectShow]","described","dshow.ivideoencoder","strmif/IVideoEncoder"]
 old-location: dshow\ivideoencoder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9264f7a2-b2d4-4449-913b-f1e5ecb40cac
 ms.date: 12/05/2018
 ms.keywords: IVideoEncoder, IVideoEncoder interface [DirectShow], IVideoEncoder interface [DirectShow],described, dshow.ivideoencoder, strmif/IVideoEncoder

@@ -4,7 +4,7 @@ title: MFCreateProtectedEnvironmentAccess function (mfidl.h)
 description: Creates an IMFProtectedEnvironmentAccess object that allows content protection systems to perform a handshake with the protected environment.
 helpviewer_keywords: ["MFCreateProtectedEnvironmentAccess","MFCreateProtectedEnvironmentAccess function [Media Foundation]","mf.mfcreateprotectedenvironmentaccess","mfidl/MFCreateProtectedEnvironmentAccess"]
 old-location: mf\mfcreateprotectedenvironmentaccess.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B16BEFFD-26CF-4598-96A4-098C3E3AA51C
 ms.date: 12/05/2018
 ms.keywords: MFCreateProtectedEnvironmentAccess, MFCreateProtectedEnvironmentAccess function [Media Foundation], mf.mfcreateprotectedenvironmentaccess, mfidl/MFCreateProtectedEnvironmentAccess

@@ -4,7 +4,7 @@ title: IMFASFStreamPrioritization (wmcontainer.h)
 description: Not implemented.
 helpviewer_keywords: ["6eb79c52-dc81-406c-9000-d25ad380e6b2","IMFASFStreamPrioritization","IMFASFStreamPrioritization interface [Media Foundation]","IMFASFStreamPrioritization interface [Media Foundation]","described","mf.imfasfstreamprioritization","wmcontainer/IMFASFStreamPrioritization"]
 old-location: mf\imfasfstreamprioritization.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
 ms.date: 12/05/2018
 ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization

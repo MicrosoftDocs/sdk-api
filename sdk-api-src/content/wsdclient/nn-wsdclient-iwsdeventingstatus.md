@@ -4,7 +4,7 @@ title: IWSDEventingStatus (wsdclient.h)
 description: Implement this interface to receive notification when status changes occur in event subscriptions.
 helpviewer_keywords: ["IWSDEventingStatus","IWSDEventingStatus interface","IWSDEventingStatus interface","described","ncd.iwsdeventingstatus","wsdclient/IWSDEventingStatus"]
 old-location: ncd\iwsdeventingstatus.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 04e6ea03-f9b5-48d9-940f-532bb3a85ff0
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus

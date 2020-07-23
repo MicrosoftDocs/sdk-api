@@ -4,7 +4,7 @@ title: IEnroll2 (xenroll.h)
 description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 helpviewer_keywords: ["IEnroll2","IEnroll2 interface [Security]","IEnroll2 interface [Security]","described","security.ienroll2","xenroll/IEnroll2"]
 old-location: security\ienroll2.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 60a28944-35de-4ea2-8523-5634685ac224
 ms.date: 12/05/2018
 ms.keywords: IEnroll2, IEnroll2 interface [Security], IEnroll2 interface [Security],described, security.ienroll2, xenroll/IEnroll2

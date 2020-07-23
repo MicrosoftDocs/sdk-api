@@ -4,7 +4,7 @@ title: IConfigInterleaving::get_Interleaving (strmif.h)
 description: The get_Interleaving method gets the audio preroll time and the frequency of interleaving for an AVI file.
 helpviewer_keywords: ["IConfigInterleaving interface [DirectShow]","get_Interleaving method","IConfigInterleaving.get_Interleaving","IConfigInterleaving::get_Interleaving","IConfigInterleavingget_Interleaving","dshow.iconfiginterleaving_get_interleaving","get_Interleaving","get_Interleaving method [DirectShow]","get_Interleaving method [DirectShow]","IConfigInterleaving interface","strmif/IConfigInterleaving::get_Interleaving"]
 old-location: dshow\iconfiginterleaving_get_interleaving.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 659aa136-c7fd-4955-913b-26f7c05325a8
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving

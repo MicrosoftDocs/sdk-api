@@ -4,7 +4,7 @@ title: IConnectedIdentityProvider::DisconnectIdentity (identityprovider.h)
 description: Disconnects an online identity from the current domain user.
 helpviewer_keywords: ["DisconnectIdentity","DisconnectIdentity method [Security]","DisconnectIdentity method [Security]","IConnectedIdentityProvider interface","IConnectedIdentityProvider interface [Security]","DisconnectIdentity method","IConnectedIdentityProvider.DisconnectIdentity","IConnectedIdentityProvider::DisconnectIdentity","identityprovider/IConnectedIdentityProvider::DisconnectIdentity","security.iconnectedidentityprovider_disconnectidentity"]
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.date: 12/05/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity

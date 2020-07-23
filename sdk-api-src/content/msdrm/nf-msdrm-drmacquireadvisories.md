@@ -4,7 +4,7 @@ title: DRMAcquireAdvisories function (msdrm.h)
 description: Retrieves revocation lists required by a submitted license.
 helpviewer_keywords: ["DRMAcquireAdvisories","DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMAcquireAdvisories","rm.drmacquireadvisories"]
 old-location: rm\drmacquireadvisories.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 42c58096-429c-4278-b9ab-8c5a91361af8
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAcquireAdvisories, rm.drmacquireadvisories

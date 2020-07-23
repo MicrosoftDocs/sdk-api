@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPCANCELBLOCKINGCALL
 title: LPWSPCANCELBLOCKINGCALL
 description: The LPWSPCancelBlockingCall function cancels a blocking call that is currently in progress.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPCANCELBLOCKINGCALL"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPCANCELBLOCKINGCALL

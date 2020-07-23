@@ -4,7 +4,7 @@ title: DHPRIVKEY_VER3 (wincrypt.h)
 description: Contains information specific to the particular private key contained in the key BLOB.
 helpviewer_keywords: ["DHPRIVKEY_VER3","DHPRIVKEY_VER3 structure [Security]","DSSPRIVKEY_VER3","_PRIVKEYVER3","_crypto2_dhprivkey_ver3","security.dhprivkey_ver3","wincrypt/DHPRIVKEY_VER3"]
 old-location: security\dhprivkey_ver3.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ad4bf20d-5c6c-4373-bd88-9a5bbb832ba5
 ms.date: 12/05/2018
 ms.keywords: DHPRIVKEY_VER3, DHPRIVKEY_VER3 structure [Security], DSSPRIVKEY_VER3, _PRIVKEYVER3, _crypto2_dhprivkey_ver3, security.dhprivkey_ver3, wincrypt/DHPRIVKEY_VER3

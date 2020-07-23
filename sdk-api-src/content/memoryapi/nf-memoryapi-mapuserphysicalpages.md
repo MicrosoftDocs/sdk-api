@@ -4,7 +4,7 @@ title: MapUserPhysicalPages function (memoryapi.h)
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 helpviewer_keywords: ["MapUserPhysicalPages","MapUserPhysicalPages function","_win32_mapuserphysicalpages","base.mapuserphysicalpages","winbase/MapUserPhysicalPages"]
 old-location: base\mapuserphysicalpages.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 7e9804dd-717d-4658-aac8-228878e61e4b
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPages, MapUserPhysicalPages function, _win32_mapuserphysicalpages, base.mapuserphysicalpages, winbase/MapUserPhysicalPages

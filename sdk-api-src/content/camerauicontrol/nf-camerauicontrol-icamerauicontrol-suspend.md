@@ -4,7 +4,7 @@ title: ICameraUIControl::Suspend (camerauicontrol.h)
 description: Simulates suspend of the user interface control.
 helpviewer_keywords: ["ICameraUIControl interface [Windows API]","Suspend method","ICameraUIControl.Suspend","ICameraUIControl::Suspend","Suspend","Suspend method [Windows API]","Suspend method [Windows API]","ICameraUIControl interface","camerauicontrol/ICameraUIControl::Suspend","winprog.icamerauicontrol_suspend"]
 old-location: winprog\icamerauicontrol_suspend.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 864333e6-b17f-4225-9302-4335556d0164
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],Suspend method, ICameraUIControl.Suspend, ICameraUIControl::Suspend, Suspend, Suspend method [Windows API], Suspend method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Suspend, winprog.icamerauicontrol_suspend

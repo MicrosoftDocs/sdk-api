@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreateCoreProperties (xpsobjectmodel.h)
 description: Creates an IXpsOMCoreProperties interface, which contains the metadata that describes an XPS document.
 helpviewer_keywords: ["CreateCoreProperties","CreateCoreProperties method [XPS Documents and Packaging]","CreateCoreProperties method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateCoreProperties method","IXpsOMObjectFactory.CreateCoreProperties","IXpsOMObjectFactory::CreateCoreProperties","xps.ixpsomobjectfactory_createcoreproperties","xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties"]
 old-location: xps\ixpsomobjectfactory_createcoreproperties.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b7146f0c-e397-45cb-9eb0-e03b3ac0e905
 ms.date: 12/05/2018
 ms.keywords: CreateCoreProperties, CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCoreProperties method, IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties

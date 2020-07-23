@@ -4,7 +4,7 @@ title: GetNumaNodeProcessorMask function (winbase.h)
 description: Retrieves the processor mask for the specified node.
 helpviewer_keywords: ["GetNumaNodeProcessorMask","GetNumaNodeProcessorMask function","_win32_getnumanodeprocessormask","base.getnumanodeprocessormask","winbase/GetNumaNodeProcessorMask"]
 old-location: base\getnumanodeprocessormask.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask

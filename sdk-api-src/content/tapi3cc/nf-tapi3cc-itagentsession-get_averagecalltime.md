@@ -4,7 +4,7 @@ title: ITAgentSession::get_AverageCallTime (tapi3cc.h)
 description: The get_AverageCallTime method gets the average time (in seconds) spent per ACD call during this agent session. This value includes the time spent on the phone plus wrap-up time.
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_AverageCallTime method","ITAgentSession.get_AverageCallTime","ITAgentSession::get_AverageCallTime","_tapi3_itagentsession_get_averagecalltime","get_AverageCallTime","get_AverageCallTime method [TAPI 2.2]","get_AverageCallTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_averagecalltime","tapi3cc/ITAgentSession::get_AverageCallTime"]
 old-location: tapi3\itagentsession_get_averagecalltime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 05029076-cb76-4771-b0a8-0c09e184e6ee
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageCallTime method, ITAgentSession.get_AverageCallTime, ITAgentSession::get_AverageCallTime, _tapi3_itagentsession_get_averagecalltime, get_AverageCallTime, get_AverageCallTime method [TAPI 2.2], get_AverageCallTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagecalltime, tapi3cc/ITAgentSession::get_AverageCallTime

@@ -4,7 +4,7 @@ title: ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID (comadmin.h)
 description: Retrieives the application instance identifier for the specified process identifier.
 helpviewer_keywords: ["GetApplicationInstanceIDFromProcessID","GetApplicationInstanceIDFromProcessID method [COM+]","GetApplicationInstanceIDFromProcessID method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","GetApplicationInstanceIDFromProcessID method","ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID","ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID","_cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID","comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID","cos.icomadmincatalog2_getapplicationinstanceidfromprocessid"]
 old-location: cos\icomadmincatalog2_getapplicationinstanceidfromprocessid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: a09569af-11ec-406a-a51c-72b81b84fe41
 ms.date: 12/05/2018
 ms.keywords: GetApplicationInstanceIDFromProcessID, GetApplicationInstanceIDFromProcessID method [COM+], GetApplicationInstanceIDFromProcessID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetApplicationInstanceIDFromProcessID method, ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID, ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, _cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID, comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, cos.icomadmincatalog2_getapplicationinstanceidfromprocessid

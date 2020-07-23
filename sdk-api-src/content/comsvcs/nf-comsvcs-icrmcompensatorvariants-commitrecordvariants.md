@@ -4,7 +4,7 @@ title: ICrmCompensatorVariants::CommitRecordVariants (comsvcs.h)
 description: Delivers a log record to the CRM Compensator during the commit phase.
 helpviewer_keywords: ["CommitRecordVariants","CommitRecordVariants method [COM+]","CommitRecordVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","CommitRecordVariants method","ICrmCompensatorVariants.CommitRecordVariants","ICrmCompensatorVariants::CommitRecordVariants","_dtc_ICrmCompensatorVariants_CommitRecordVariants","comsvcs/ICrmCompensatorVariants::CommitRecordVariants","cos.icrmcompensatorvariants_commitrecordvariants"]
 old-location: cos\icrmcompensatorvariants_commitrecordvariants.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3d3ae282-d2cd-48cf-a093-c8f5ef9cc29a
 ms.date: 12/05/2018
 ms.keywords: CommitRecordVariants, CommitRecordVariants method [COM+], CommitRecordVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],CommitRecordVariants method, ICrmCompensatorVariants.CommitRecordVariants, ICrmCompensatorVariants::CommitRecordVariants, _dtc_ICrmCompensatorVariants_CommitRecordVariants, comsvcs/ICrmCompensatorVariants::CommitRecordVariants, cos.icrmcompensatorvariants_commitrecordvariants

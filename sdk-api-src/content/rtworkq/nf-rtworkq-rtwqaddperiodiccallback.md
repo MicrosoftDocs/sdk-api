@@ -4,7 +4,7 @@ title: RtwqAddPeriodicCallback function (rtworkq.h)
 description: Sets a callback function to be called at a fixed interval.
 helpviewer_keywords: ["RtwqAddPeriodicCallback","RtwqAddPeriodicCallback function","base.rtwqaddperiodiccallback","rtworkq/RtwqAddPeriodicCallback"]
 old-location: base\rtwqaddperiodiccallback.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5f472e42-7c62-462a-91a8-240c395ad765
 ms.date: 12/05/2018
 ms.keywords: RtwqAddPeriodicCallback, RtwqAddPeriodicCallback function, base.rtwqaddperiodiccallback, rtworkq/RtwqAddPeriodicCallback

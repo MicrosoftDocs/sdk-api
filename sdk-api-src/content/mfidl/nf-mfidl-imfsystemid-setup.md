@@ -4,7 +4,7 @@ title: IMFSystemId::Setup (mfidl.h)
 description: Sets up the IMFSystemId.
 helpviewer_keywords: ["IMFSystemId interface [Media Foundation]","Setup method","IMFSystemId.Setup","IMFSystemId::Setup","Setup","Setup method [Media Foundation]","Setup method [Media Foundation]","IMFSystemId interface","mf.imfsystemid_setup","mfidl/IMFSystemId::Setup"]
 old-location: mf\imfsystemid_setup.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6a779581-326a-4666-8e11-d7cdcb02faa2
 ms.date: 12/05/2018
 ms.keywords: IMFSystemId interface [Media Foundation],Setup method, IMFSystemId.Setup, IMFSystemId::Setup, Setup, Setup method [Media Foundation], Setup method [Media Foundation],IMFSystemId interface, mf.imfsystemid_setup, mfidl/IMFSystemId::Setup

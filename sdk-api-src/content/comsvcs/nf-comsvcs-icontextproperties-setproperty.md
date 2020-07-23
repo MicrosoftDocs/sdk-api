@@ -4,7 +4,7 @@ title: IContextProperties::SetProperty (comsvcs.h)
 description: Sets a context object property.
 helpviewer_keywords: ["IContextProperties interface [COM+]","SetProperty method","IContextProperties.SetProperty","IContextProperties::SetProperty","SetProperty","SetProperty method [COM+]","SetProperty method [COM+]","IContextProperties interface","_cos_IContextProperties_SetProperty","comsvcs/IContextProperties::SetProperty","cos.icontextproperties_setproperty"]
 old-location: cos\icontextproperties_setproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 4f6a27a2-37e9-4d4b-9d7e-916d791f03a5
 ms.date: 12/05/2018
 ms.keywords: IContextProperties interface [COM+],SetProperty method, IContextProperties.SetProperty, IContextProperties::SetProperty, SetProperty, SetProperty method [COM+], SetProperty method [COM+],IContextProperties interface, _cos_IContextProperties_SetProperty, comsvcs/IContextProperties::SetProperty, cos.icontextproperties_setproperty

@@ -4,7 +4,7 @@ title: IX509NameValuePairs::Clear (certenroll.h)
 description: Removes all IX509NameValuePair objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IX509NameValuePairs interface","IX509NameValuePairs interface [Security]","Clear method","IX509NameValuePairs.Clear","IX509NameValuePairs::Clear","certenroll/IX509NameValuePairs::Clear","security.ix509namevaluepairs_clear_method"]
 old-location: security\ix509namevaluepairs_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: eded4dc2-ad3d-44eb-a20c-217756fad40f
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Clear method, IX509NameValuePairs.Clear, IX509NameValuePairs::Clear, certenroll/IX509NameValuePairs::Clear, security.ix509namevaluepairs_clear_method

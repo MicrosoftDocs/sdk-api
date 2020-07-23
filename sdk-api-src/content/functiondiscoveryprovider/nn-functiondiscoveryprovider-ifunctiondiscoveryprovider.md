@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider (functiondiscoveryprovider.h)
 description: This is the main interface implemented by a discovery provider. It is the primary interface the Function Discovery infrastructure uses to communicate with the provider and its resources.
 helpviewer_keywords: ["IFunctionDiscoveryProvider","IFunctionDiscoveryProvider interface","IFunctionDiscoveryProvider interface","described","functiondiscoveryprovider/IFunctionDiscoveryProvider","ncd.ifunctiondiscoveryprovider"]
 old-location: ncd\ifunctiondiscoveryprovider.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: e0019d0d-1495-4a0e-a7d9-7772046a4a26
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryProvider, ncd.ifunctiondiscoveryprovider

@@ -4,7 +4,7 @@ title: IWbemUnboundObjectSink (wbemprov.h)
 description: The IWbemUnboundObjectSink interface is implemented by all logical event consumers. It is a simple sink interface that accepts delivery of event objects.
 helpviewer_keywords: ["IWbemUnboundObjectSink","IWbemUnboundObjectSink interface [Windows Management Instrumentation]","IWbemUnboundObjectSink interface [Windows Management Instrumentation]","described","_hmm_iwbemunboundobjectsink","wbemprov/IWbemUnboundObjectSink","wmi.iwbemunboundobjectsink"]
 old-location: wmi\iwbemunboundobjectsink.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: a890aefe-e35e-4635-874d-953194f99a82
 ms.date: 12/05/2018
 ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows Management Instrumentation], IWbemUnboundObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemunboundobjectsink, wbemprov/IWbemUnboundObjectSink, wmi.iwbemunboundobjectsink

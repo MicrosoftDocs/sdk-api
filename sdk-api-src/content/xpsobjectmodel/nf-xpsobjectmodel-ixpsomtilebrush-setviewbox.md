@@ -4,7 +4,7 @@ title: IXpsOMTileBrush::SetViewbox (xpsobjectmodel.h)
 description: Sets the portion of the source content to be used as the tile image.
 helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetViewbox method","IXpsOMTileBrush.SetViewbox","IXpsOMTileBrush::SetViewbox","SetViewbox","SetViewbox method [XPS Documents and Packaging]","SetViewbox method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_setviewbox","xpsobjectmodel/IXpsOMTileBrush::SetViewbox"]
 old-location: xps\ixpsomtilebrush_setviewbox.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox

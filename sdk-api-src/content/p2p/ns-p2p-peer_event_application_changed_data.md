@@ -4,7 +4,7 @@ title: PEER_EVENT_APPLICATION_CHANGED_DATA (p2p.h)
 description: The PEER_EVENT_APPLICATION_CHANGED_DATA structure contains information returned when a PEER_EVENT_ENDPOINT_APPLICATION_CHANGED or PEER_EVENT_MY_APPLICATION_CHANGED event is raised on a peer participating in a peer collaboration network.
 helpviewer_keywords: ["*PPEER_EVENT_APPLICATION_CHANGED_DATA","PEER_EVENT_APPLICATION_CHANGED_DATA","PEER_EVENT_APPLICATION_CHANGED_DATA structure [Peer Networking]","PPEER_EVENT_APPLICATION_CHANGED_DATA","PPEER_EVENT_APPLICATION_CHANGED_DATA structure pointer [Peer Networking]","p2p.peer_event_application_changed_data","p2p/PEER_EVENT_APPLICATION_CHANGED_DATA","p2p/PPEER_EVENT_APPLICATION_CHANGED_DATA"]
 old-location: p2p\peer_event_application_changed_data.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f06e9fbd-7655-4d00-8d84-78852a34f016
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_EVENT_APPLICATION_CHANGED_DATA, PEER_EVENT_APPLICATION_CHANGED_DATA, PEER_EVENT_APPLICATION_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_APPLICATION_CHANGED_DATA, PPEER_EVENT_APPLICATION_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_application_changed_data, p2p/PEER_EVENT_APPLICATION_CHANGED_DATA, p2p/PPEER_EVENT_APPLICATION_CHANGED_DATA'

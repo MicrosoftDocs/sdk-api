@@ -4,7 +4,7 @@ title: XPS_SIGNATURE_STATUS (xpsdigitalsignature.h)
 description: Describes the status of a document's digital signature.
 helpviewer_keywords: ["XPS_SIGNATURE_STATUS","XPS_SIGNATURE_STATUS enumeration [XPS Documents and Packaging]","XPS_SIGNATURE_STATUS_BROKEN","XPS_SIGNATURE_STATUS_INCOMPLETE","XPS_SIGNATURE_STATUS_INCOMPLIANT","XPS_SIGNATURE_STATUS_QUESTIONABLE","XPS_SIGNATURE_STATUS_VALID","xps.xps_signature_status","xpsdigitalsignature/XPS_SIGNATURE_STATUS","xpsdigitalsignature/XPS_SIGNATURE_STATUS_BROKEN","xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLETE","xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLIANT","xpsdigitalsignature/XPS_SIGNATURE_STATUS_QUESTIONABLE","xpsdigitalsignature/XPS_SIGNATURE_STATUS_VALID"]
 old-location: xps\xps_signature_status.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8c03749c-49cf-4d9c-90be-a75412f044ec
 ms.date: 12/05/2018
 ms.keywords: XPS_SIGNATURE_STATUS, XPS_SIGNATURE_STATUS enumeration [XPS Documents and Packaging], XPS_SIGNATURE_STATUS_BROKEN, XPS_SIGNATURE_STATUS_INCOMPLETE, XPS_SIGNATURE_STATUS_INCOMPLIANT, XPS_SIGNATURE_STATUS_QUESTIONABLE, XPS_SIGNATURE_STATUS_VALID, xps.xps_signature_status, xpsdigitalsignature/XPS_SIGNATURE_STATUS, xpsdigitalsignature/XPS_SIGNATURE_STATUS_BROKEN, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLETE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLIANT, xpsdigitalsignature/XPS_SIGNATURE_STATUS_QUESTIONABLE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_VALID

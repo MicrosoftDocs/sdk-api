@@ -4,7 +4,7 @@ title: TSPI_lineUnhold function (tspi.h)
 description: The TSPI_lineUnhold function retrieves the specified held call.
 helpviewer_keywords: ["TSPI_lineUnhold","TSPI_lineUnhold function [TAPI 2.2]","_tspi_tspi_lineunhold","tspi.tspi_lineunhold","tspi/TSPI_lineUnhold"]
 old-location: tspi\tspi_lineunhold.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 4719c399-0dce-4aa2-9b6e-a84ad13f9228
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUnhold, TSPI_lineUnhold function [TAPI 2.2], _tspi_tspi_lineunhold, tspi.tspi_lineunhold, tspi/TSPI_lineUnhold

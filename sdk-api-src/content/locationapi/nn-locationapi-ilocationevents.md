@@ -4,7 +4,7 @@ title: ILocationEvents (locationapi.h)
 description: ILocationEvents provides callback methods that you must implement if you want to receive event notifications.
 helpviewer_keywords: ["ILocationEvents","ILocationEvents interface [WinLocation]","ILocationEvents interface [WinLocation]","described","locationapi/ILocationEvents","winlocation.ilocationevents"]
 old-location: winlocation\ilocationevents.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 5281ae0f-8599-4f84-a3f3-cde8c69e893d
 ms.date: 12/05/2018
 ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation],described, locationapi/ILocationEvents, winlocation.ilocationevents

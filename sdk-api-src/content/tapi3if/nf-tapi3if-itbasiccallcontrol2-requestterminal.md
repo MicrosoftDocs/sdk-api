@@ -4,7 +4,7 @@ title: ITBasicCallControl2::RequestTerminal (tapi3if.h)
 description: The RequestTerminal method gets a suitable terminal, given the class, media, and direction required.
 helpviewer_keywords: ["ITBasicCallControl2 interface [TAPI 2.2]","RequestTerminal method","ITBasicCallControl2.RequestTerminal","ITBasicCallControl2::RequestTerminal","RequestTerminal","RequestTerminal method [TAPI 2.2]","RequestTerminal method [TAPI 2.2]","ITBasicCallControl2 interface","_tapi3_itbasiccallcontrol2_requestterminal","tapi3.itbasiccallcontrol2_requestterminal","tapi3if/ITBasicCallControl2::RequestTerminal"]
 old-location: tapi3\itbasiccallcontrol2_requestterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 20b7266c-8990-457c-94cf-18cc2bed6b21
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],RequestTerminal method, ITBasicCallControl2.RequestTerminal, ITBasicCallControl2::RequestTerminal, RequestTerminal, RequestTerminal method [TAPI 2.2], RequestTerminal method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_requestterminal, tapi3.itbasiccallcontrol2_requestterminal, tapi3if/ITBasicCallControl2::RequestTerminal

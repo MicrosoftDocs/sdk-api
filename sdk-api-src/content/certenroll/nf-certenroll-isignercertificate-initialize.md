@@ -4,7 +4,7 @@ title: ISignerCertificate::Initialize (certenroll.h)
 description: Initializes the object from a signing certificate.
 helpviewer_keywords: ["ISignerCertificate interface [Security]","Initialize method","ISignerCertificate.Initialize","ISignerCertificate::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::Initialize","security.isignercertificate_initialize_method"]
 old-location: security\isignercertificate_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 2553f0bc-a177-49fc-932f-080cb4bd7a5c
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],Initialize method, ISignerCertificate.Initialize, ISignerCertificate::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method

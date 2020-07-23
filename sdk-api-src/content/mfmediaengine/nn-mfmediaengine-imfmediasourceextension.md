@@ -4,7 +4,7 @@ title: IMFMediaSourceExtension (mfmediaengine.h)
 description: Provides functionality for the Media Source Extension (MSE).
 helpviewer_keywords: ["IMFMediaSourceExtension","IMFMediaSourceExtension interface [Media Foundation]","IMFMediaSourceExtension interface [Media Foundation]","described","mf.imfmediasourceextension","mfmediaengine/IMFMediaSourceExtension"]
 old-location: mf\imfmediasourceextension.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2acabcc2-242d-4b3d-b5b4-680c7973201f
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension

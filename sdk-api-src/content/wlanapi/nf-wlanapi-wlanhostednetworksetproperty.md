@@ -4,7 +4,7 @@ title: WlanHostedNetworkSetProperty function (wlanapi.h)
 description: Sets static properties of the wireless Hosted Network.
 helpviewer_keywords: ["WlanHostedNetworkSetProperty","WlanHostedNetworkSetProperty function [NativeWIFI]","nwifi.wlanhostednetworksetproperty","wlan_hosted_network_opcode_connection_settings","wlan_hosted_network_opcode_enable","wlanapi/WlanHostedNetworkSetProperty"]
 old-location: nwifi\wlanhostednetworksetproperty.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty

@@ -4,7 +4,7 @@ title: DVD_CMD_FLAGS (strmif.h)
 description: Defines flags that control how the DVD Navigator Filter filter handles command synchronization.
 helpviewer_keywords: ["DVD_CMD_FLAGS","DVD_CMD_FLAGS","DVD_CMD_FLAGS enumeration [DirectShow]","DVD_CMD_FLAGSEnumeration","DVD_CMD_FLAG_Block","DVD_CMD_FLAG_EndAfterRendered","DVD_CMD_FLAG_Flush","DVD_CMD_FLAG_None","DVD_CMD_FLAG_SendEvents","DVD_CMD_FLAG_StartWhenRendered","dshow.dvd_cmd_flags","strmif/DVD_CMD_FLAGS","strmif/DVD_CMD_FLAG_Block","strmif/DVD_CMD_FLAG_EndAfterRendered","strmif/DVD_CMD_FLAG_Flush","strmif/DVD_CMD_FLAG_None","strmif/DVD_CMD_FLAG_SendEvents","strmif/DVD_CMD_FLAG_StartWhenRendered"]
 old-location: dshow\dvd_cmd_flags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 05eb5ab8-a1b3-4876-bac3-29510af8cdbd
 ms.date: 12/05/2018
 ms.keywords: DVD_CMD_FLAGS, DVD_CMD_FLAGS , DVD_CMD_FLAGS enumeration [DirectShow], DVD_CMD_FLAGSEnumeration, DVD_CMD_FLAG_Block, DVD_CMD_FLAG_EndAfterRendered, DVD_CMD_FLAG_Flush, DVD_CMD_FLAG_None, DVD_CMD_FLAG_SendEvents, DVD_CMD_FLAG_StartWhenRendered, dshow.dvd_cmd_flags, strmif/DVD_CMD_FLAGS, strmif/DVD_CMD_FLAG_Block, strmif/DVD_CMD_FLAG_EndAfterRendered, strmif/DVD_CMD_FLAG_Flush, strmif/DVD_CMD_FLAG_None, strmif/DVD_CMD_FLAG_SendEvents, strmif/DVD_CMD_FLAG_StartWhenRendered

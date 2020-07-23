@@ -4,7 +4,7 @@ title: IVMRMixerControl::SetZOrder (strmif.h)
 description: The SetZOrder method sets this video stream's position in the Z-order; larger values are further away.
 helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetZOrder method","IVMRMixerControl.SetZOrder","IVMRMixerControl::SetZOrder","IVMRMixerControlSetZOrder","SetZOrder","SetZOrder method [DirectShow]","SetZOrder method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setzorder","strmif/IVMRMixerControl::SetZOrder"]
 old-location: dshow\ivmrmixercontrol_setzorder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f1ef562e-049c-4edf-a83c-76675e2113c6
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetZOrder method, IVMRMixerControl.SetZOrder, IVMRMixerControl::SetZOrder, IVMRMixerControlSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setzorder, strmif/IVMRMixerControl::SetZOrder

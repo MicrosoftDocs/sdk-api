@@ -4,7 +4,7 @@ title: IsBadReadPtr function (winbase.h)
 description: Verifies that the calling process has read access to the specified range of memory.
 helpviewer_keywords: ["IsBadReadPtr","IsBadReadPtr function","_win32_isbadreadptr","base.isbadreadptr","winbase/IsBadReadPtr"]
 old-location: base\isbadreadptr.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: c1561403-2b77-4c93-80f1-261f26629d4b
 ms.date: 12/05/2018
 ms.keywords: IsBadReadPtr, IsBadReadPtr function, _win32_isbadreadptr, base.isbadreadptr, winbase/IsBadReadPtr

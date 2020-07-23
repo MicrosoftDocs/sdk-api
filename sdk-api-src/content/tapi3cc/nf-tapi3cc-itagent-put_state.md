@@ -4,7 +4,7 @@ title: ITAgent::put_State (tapi3cc.h)
 description: The put_State method sets the state of an agent session.
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","put_State method","ITAgent.put_State","ITAgent::put_State","_tapi3_itagent_put_state","put_State","put_State method [TAPI 2.2]","put_State method [TAPI 2.2]","ITAgent interface","tapi3.itagent_put_state","tapi3cc/ITAgent::put_State"]
 old-location: tapi3\itagent_put_state.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0f75146c-d8ce-4e9d-91bf-15dbb31b5c88
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],put_State method, ITAgent.put_State, ITAgent::put_State, _tapi3_itagent_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_state, tapi3cc/ITAgent::put_State

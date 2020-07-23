@@ -4,7 +4,7 @@ title: GetHandleInformation function (handleapi.h)
 description: Retrieves certain properties of an object handle.
 helpviewer_keywords: ["GetHandleInformation","GetHandleInformation function","HANDLE_FLAG_INHERIT","HANDLE_FLAG_PROTECT_FROM_CLOSE","_win32_gethandleinformation","base.gethandleinformation","handleapi/GetHandleInformation"]
 old-location: base\gethandleinformation.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: a0f50a0d-739d-411b-8144-77b775476d26
 ms.date: 12/05/2018
 ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, _win32_gethandleinformation, base.gethandleinformation, handleapi/GetHandleInformation

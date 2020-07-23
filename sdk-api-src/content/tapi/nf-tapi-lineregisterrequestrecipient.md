@@ -4,7 +4,7 @@ title: lineRegisterRequestRecipient function (tapi.h)
 description: The lineRegisterRequestRecipient function registers the invoking application as a recipient of requests for the specified request mode.
 helpviewer_keywords: ["_tapi2_lineregisterrequestrecipient","lineRegisterRequestRecipient","lineRegisterRequestRecipient function [TAPI 2.2]","tapi/lineRegisterRequestRecipient","tapi2.lineregisterrequestrecipient"]
 old-location: tapi2\lineregisterrequestrecipient.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ff2f9ab0-389f-4b35-abd1-29486750283b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineregisterrequestrecipient, lineRegisterRequestRecipient, lineRegisterRequestRecipient function [TAPI 2.2], tapi/lineRegisterRequestRecipient, tapi2.lineregisterrequestrecipient

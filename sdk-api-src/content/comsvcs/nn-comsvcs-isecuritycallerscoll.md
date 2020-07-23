@@ -4,7 +4,7 @@ title: ISecurityCallersColl (comsvcs.h)
 description: Provides access to information about individual callers in a collection of callers.
 helpviewer_keywords: ["ISecurityCallersColl","ISecurityCallersColl interface [COM+]","ISecurityCallersColl interface [COM+]","described","_cos_ISecurityCallersColl","comsvcs/ISecurityCallersColl","cos.isecuritycallerscoll"]
 old-location: cos\isecuritycallerscoll.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b9b16d2e-92fd-40d2-b33d-8a82a1291794
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], ISecurityCallersColl interface [COM+],described, _cos_ISecurityCallersColl, comsvcs/ISecurityCallersColl, cos.isecuritycallerscoll

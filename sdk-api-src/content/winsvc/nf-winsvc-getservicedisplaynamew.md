@@ -4,7 +4,7 @@ title: GetServiceDisplayNameW function (winsvc.h)
 description: Retrieves the display name of the specified service.
 helpviewer_keywords: ["GetServiceDisplayName","GetServiceDisplayName function","GetServiceDisplayNameA","GetServiceDisplayNameW","_win32_getservicedisplayname","base.getservicedisplayname","winsvc/GetServiceDisplayName","winsvc/GetServiceDisplayNameA","winsvc/GetServiceDisplayNameW"]
 old-location: base\getservicedisplayname.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
 ms.date: 12/05/2018
 ms.keywords: GetServiceDisplayName, GetServiceDisplayName function, GetServiceDisplayNameA, GetServiceDisplayNameW, _win32_getservicedisplayname, base.getservicedisplayname, winsvc/GetServiceDisplayName, winsvc/GetServiceDisplayNameA, winsvc/GetServiceDisplayNameW

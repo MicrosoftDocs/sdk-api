@@ -4,7 +4,7 @@ title: ISecurityProperty::ReleaseSID (comsvcs.h)
 description: Releases the security identifier returned by one of the other ISecurityProperty methods.
 helpviewer_keywords: ["ISecurityProperty interface [COM+]","ReleaseSID method","ISecurityProperty.ReleaseSID","ISecurityProperty::ReleaseSID","ReleaseSID","ReleaseSID method [COM+]","ReleaseSID method [COM+]","ISecurityProperty interface","_cos_ISecurityProperty_ReleaseSID","comsvcs/ISecurityProperty::ReleaseSID","cos.isecurityproperty_releasesid"]
 old-location: cos\isecurityproperty_releasesid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 572bf3fd-eb85-40de-b607-26b77b9d9cf8
 ms.date: 12/05/2018
 ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProperty.ReleaseSID, ISecurityProperty::ReleaseSID, ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+],ISecurityProperty interface, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid

@@ -4,7 +4,7 @@ title: LZOpenFileW function (lzexpand.h)
 description: Creates, opens, reopens, or deletes the specified file.
 helpviewer_keywords: ["LZOpenFile","LZOpenFile function [Files]","LZOpenFileA","LZOpenFileW","OF_CANCEL","OF_CREATE","OF_DELETE","OF_EXIST","OF_PARSE","OF_PROMPT","OF_READ","OF_READWRITE","OF_REOPEN","OF_SHARE_DENY_NONE","OF_SHARE_DENY_READ","OF_SHARE_DENY_WRITE","OF_SHARE_EXCLUSIVE","OF_WRITE","_win32_lzopenfile","base.lzopenfile","fs.lzopenfile","lzexpand/LZOpenFile","lzexpand/LZOpenFileA","lzexpand/LZOpenFileW"]
 old-location: fs\lzopenfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6ab3c81c-88f2-4b87-84b1-5b64848af043
 ms.date: 12/05/2018
 ms.keywords: LZOpenFile, LZOpenFile function [Files], LZOpenFileA, LZOpenFileW, OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_WRITE, _win32_lzopenfile, base.lzopenfile, fs.lzopenfile, lzexpand/LZOpenFile, lzexpand/LZOpenFileA, lzexpand/LZOpenFileW

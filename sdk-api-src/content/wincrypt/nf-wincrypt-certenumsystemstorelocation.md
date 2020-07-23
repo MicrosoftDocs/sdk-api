@@ -4,7 +4,7 @@ title: CertEnumSystemStoreLocation function (wincrypt.h)
 description: The CertEnumSystemStoreLocation function retrieves all of the system store locations. The function calls the provided callback function for each system store location found.
 helpviewer_keywords: ["CertEnumSystemStoreLocation","CertEnumSystemStoreLocation function [Security]","_crypto2_certenumsystemstorelocation","security.certenumsystemstorelocation","wincrypt/CertEnumSystemStoreLocation"]
 old-location: security\certenumsystemstorelocation.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 86408e6f-0732-4cb4-85cd-840b9d98b973
 ms.date: 12/05/2018
 ms.keywords: CertEnumSystemStoreLocation, CertEnumSystemStoreLocation function [Security], _crypto2_certenumsystemstorelocation, security.certenumsystemstorelocation, wincrypt/CertEnumSystemStoreLocation

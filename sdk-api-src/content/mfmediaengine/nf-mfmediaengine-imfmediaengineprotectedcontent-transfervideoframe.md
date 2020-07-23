@@ -4,7 +4,7 @@ title: IMFMediaEngineProtectedContent::TransferVideoFrame (mfmediaengine.h)
 description: Copies a protected video frame to a DXGI surface.
 helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","TransferVideoFrame method","IMFMediaEngineProtectedContent.TransferVideoFrame","IMFMediaEngineProtectedContent::TransferVideoFrame","TransferVideoFrame","TransferVideoFrame method [Media Foundation]","TransferVideoFrame method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_transfervideoframe","mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame"]
 old-location: mf\imfmediaengineprotectedcontent_transfervideoframe.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],TransferVideoFrame method, IMFMediaEngineProtectedContent.TransferVideoFrame, IMFMediaEngineProtectedContent::TransferVideoFrame, TransferVideoFrame, TransferVideoFrame method [Media Foundation], TransferVideoFrame method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_transfervideoframe, mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame

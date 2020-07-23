@@ -4,7 +4,7 @@ title: IX509EnrollmentPolicyServer::InitializeImport (certenroll.h)
 description: Initializes the certificate enrollment policy (CEP) server from a collection of templates and object identifiers.
 helpviewer_keywords: ["IX509EnrollmentPolicyServer interface [Security]","InitializeImport method","IX509EnrollmentPolicyServer.InitializeImport","IX509EnrollmentPolicyServer::InitializeImport","InitializeImport","InitializeImport method [Security]","InitializeImport method [Security]","IX509EnrollmentPolicyServer interface","certenroll/IX509EnrollmentPolicyServer::InitializeImport","security.ix509enrollmentpolicyserver_initializeimport"]
 old-location: security\ix509enrollmentpolicyserver_initializeimport.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b397f57f-e01e-4c2b-8338-892f56b76c9e
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],InitializeImport method, IX509EnrollmentPolicyServer.InitializeImport, IX509EnrollmentPolicyServer::InitializeImport, InitializeImport, InitializeImport method [Security], InitializeImport method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::InitializeImport, security.ix509enrollmentpolicyserver_initializeimport

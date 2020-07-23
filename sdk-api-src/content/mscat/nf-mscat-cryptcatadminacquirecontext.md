@@ -4,7 +4,7 @@ title: CryptCATAdminAcquireContext function (mscat.h)
 description: Acquires a handle to a catalog administrator context.
 helpviewer_keywords: ["CryptCATAdminAcquireContext","CryptCATAdminAcquireContext function [Security]","mscat/CryptCATAdminAcquireContext","security.cryptcatadminacquirecontext"]
 old-location: security\cryptcatadminacquirecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext

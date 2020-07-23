@@ -4,7 +4,7 @@ title: STREAM_STATE (mmstream.h)
 description: Note  This API is deprecated. New applications should not use it. Describes the state of the stream.
 helpviewer_keywords: ["STREAMSTATE_RUN","STREAMSTATE_STOP","STREAM_STATE","STREAM_STATE enumeration [DirectShow]","dshow.stream_state","mmstream/STREAMSTATE_RUN","mmstream/STREAMSTATE_STOP","mmstream/STREAM_STATE"]
 old-location: dshow\stream_state.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
 ms.date: 12/05/2018
 ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE

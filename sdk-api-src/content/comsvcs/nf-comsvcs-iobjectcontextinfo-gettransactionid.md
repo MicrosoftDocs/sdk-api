@@ -4,7 +4,7 @@ title: IObjectContextInfo::GetTransactionId (comsvcs.h)
 description: Retrieves the identifier of the current transaction.
 helpviewer_keywords: ["GetTransactionId","GetTransactionId method [COM+]","GetTransactionId method [COM+]","IObjectContextInfo interface","IObjectContextInfo interface [COM+]","GetTransactionId method","IObjectContextInfo.GetTransactionId","IObjectContextInfo::GetTransactionId","_cos_IObjectContextInfo_GetTransactionId","comsvcs/IObjectContextInfo::GetTransactionId","cos.iobjectcontextinfo_gettransactionid"]
 old-location: cos\iobjectcontextinfo_gettransactionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c8aa6fe8-acb2-4e00-a7fc-605bb56969e6
 ms.date: 12/05/2018
 ms.keywords: GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransactionId method, IObjectContextInfo.GetTransactionId, IObjectContextInfo::GetTransactionId, _cos_IObjectContextInfo_GetTransactionId, comsvcs/IObjectContextInfo::GetTransactionId, cos.iobjectcontextinfo_gettransactionid

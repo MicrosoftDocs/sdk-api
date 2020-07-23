@@ -4,7 +4,7 @@ title: IX509SignatureInformation::get_NullSigned (certenroll.h)
 description: Specifies and retrieves a Boolean value that indicates whether the certificate request is null-signed.
 helpviewer_keywords: ["IX509SignatureInformation interface [Security]","NullSigned property","IX509SignatureInformation.NullSigned","IX509SignatureInformation.get_NullSigned","IX509SignatureInformation::NullSigned","IX509SignatureInformation::get_NullSigned","IX509SignatureInformation::put_NullSigned","NullSigned property [Security]","NullSigned property [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::NullSigned","certenroll/IX509SignatureInformation::get_NullSigned","certenroll/IX509SignatureInformation::put_NullSigned","get_NullSigned","security.ix509signatureinformation_nullsigned_property"]
 old-location: security\ix509signatureinformation_nullsigned_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a693343e-7c9a-4967-b46c-53936497662a
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],NullSigned property, IX509SignatureInformation.NullSigned, IX509SignatureInformation.get_NullSigned, IX509SignatureInformation::NullSigned, IX509SignatureInformation::get_NullSigned, IX509SignatureInformation::put_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::NullSigned, certenroll/IX509SignatureInformation::get_NullSigned, certenroll/IX509SignatureInformation::put_NullSigned, get_NullSigned, security.ix509signatureinformation_nullsigned_property

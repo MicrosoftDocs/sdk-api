@@ -4,7 +4,7 @@ title: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA (mfidl.h)
 description: Contains information about the data you received as output from a protection system function.
 helpviewer_keywords: ["MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA","MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation]","mf.mfcontentprotectiondevice_output_data","mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA"]
 old-location: mf\mfcontentprotectiondevice_output_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA

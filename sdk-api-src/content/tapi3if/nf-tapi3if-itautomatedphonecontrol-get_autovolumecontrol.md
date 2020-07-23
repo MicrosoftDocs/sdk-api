@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoVolumeControl (tapi3if.h)
 description: The get_AutoVolumeControl method retrieves the current value of the AutoVolumeControl property.
 helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_AutoVolumeControl method","ITAutomatedPhoneControl.get_AutoVolumeControl","ITAutomatedPhoneControl::get_AutoVolumeControl","_tapi3_itautomatedphonecontrol_get_autovolumecontrol","get_AutoVolumeControl","get_AutoVolumeControl method [TAPI 2.2]","get_AutoVolumeControl method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_autovolumecontrol","tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControl"]
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrol.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7dae6d41-59d8-40ab-901f-91d97b59ac83
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControl method, ITAutomatedPhoneControl.get_AutoVolumeControl, ITAutomatedPhoneControl::get_AutoVolumeControl, _tapi3_itautomatedphonecontrol_get_autovolumecontrol, get_AutoVolumeControl, get_AutoVolumeControl method [TAPI 2.2], get_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControl

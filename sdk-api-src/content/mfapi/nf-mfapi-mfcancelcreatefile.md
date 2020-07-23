@@ -4,7 +4,7 @@ title: MFCancelCreateFile function (mfapi.h)
 description: Cancels an asynchronous request to create a byte stream from a file.
 helpviewer_keywords: ["MFCancelCreateFile","MFCancelCreateFile function [Media Foundation]","b3c0cad8-d578-4752-a2ea-0aa5c35a181a","mf.mfcancelcreatefile","mfapi/MFCancelCreateFile"]
 old-location: mf\mfcancelcreatefile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b3c0cad8-d578-4752-a2ea-0aa5c35a181a
 ms.date: 12/05/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile

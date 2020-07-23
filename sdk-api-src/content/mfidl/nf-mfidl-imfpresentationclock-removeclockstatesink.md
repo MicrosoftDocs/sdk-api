@@ -4,7 +4,7 @@ title: IMFPresentationClock::RemoveClockStateSink (mfidl.h)
 description: Unregisters an object that is receiving state-change notifications from the clock.
 helpviewer_keywords: ["IMFPresentationClock interface [Media Foundation]","RemoveClockStateSink method","IMFPresentationClock.RemoveClockStateSink","IMFPresentationClock::RemoveClockStateSink","RemoveClockStateSink","RemoveClockStateSink method [Media Foundation]","RemoveClockStateSink method [Media Foundation]","IMFPresentationClock interface","c037183d-a81f-4f49-9e02-06dc2476471f","mf.imfpresentationclock_removeclockstatesink","mfidl/IMFPresentationClock::RemoveClockStateSink"]
 old-location: mf\imfpresentationclock_removeclockstatesink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c037183d-a81f-4f49-9e02-06dc2476471f
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],RemoveClockStateSink method, IMFPresentationClock.RemoveClockStateSink, IMFPresentationClock::RemoveClockStateSink, RemoveClockStateSink, RemoveClockStateSink method [Media Foundation], RemoveClockStateSink method [Media Foundation],IMFPresentationClock interface, c037183d-a81f-4f49-9e02-06dc2476471f, mf.imfpresentationclock_removeclockstatesink, mfidl/IMFPresentationClock::RemoveClockStateSink

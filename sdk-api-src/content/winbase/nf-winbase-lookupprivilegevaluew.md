@@ -4,7 +4,7 @@ title: LookupPrivilegeValueW function (winbase.h)
 description: Retrieves the locally unique identifier (LUID) used on a specified system to locally represent the specified privilege name.
 helpviewer_keywords: ["LookupPrivilegeValue","LookupPrivilegeValue function [Security]","LookupPrivilegeValueA","LookupPrivilegeValueW","_win32_lookupprivilegevalue","security.lookupprivilegevalue","winbase/LookupPrivilegeValue","winbase/LookupPrivilegeValueA","winbase/LookupPrivilegeValueW"]
 old-location: security\lookupprivilegevalue.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 334b8ba8-101d-43a1-a8bf-1c7e0448c272
 ms.date: 12/05/2018
 ms.keywords: LookupPrivilegeValue, LookupPrivilegeValue function [Security], LookupPrivilegeValueA, LookupPrivilegeValueW, _win32_lookupprivilegevalue, security.lookupprivilegevalue, winbase/LookupPrivilegeValue, winbase/LookupPrivilegeValueA, winbase/LookupPrivilegeValueW

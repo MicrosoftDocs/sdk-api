@@ -4,7 +4,7 @@ title: IPortableDeviceService::Content (portabledeviceapi.h)
 description: Retrieves access to the service content.
 helpviewer_keywords: ["Content","Content method [Windows Portable Devices SDK]","Content method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","Content method","IPortableDeviceService.Content","IPortableDeviceService::Content","portabledeviceapi/IPortableDeviceService::Content","wpdsdk.iportabledeviceservice_content"]
 old-location: wpdsdk\iportabledeviceservice_content.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 36977b23-b03f-48bc-8313-ddfe2ef208de
 ms.date: 12/05/2018
 ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Content method, IPortableDeviceService.Content, IPortableDeviceService::Content, portabledeviceapi/IPortableDeviceService::Content, wpdsdk.iportabledeviceservice_content

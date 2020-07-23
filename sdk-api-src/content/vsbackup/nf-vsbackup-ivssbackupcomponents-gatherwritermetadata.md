@@ -4,7 +4,7 @@ title: IVssBackupComponents::GatherWriterMetadata (vsbackup.h)
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 helpviewer_keywords: ["GatherWriterMetadata","GatherWriterMetadata method [VSS]","GatherWriterMetadata method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GatherWriterMetadata method","IVssBackupComponents.GatherWriterMetadata","IVssBackupComponents::GatherWriterMetadata","_win32_ivssbackupcomponents_gatherwritermetadata","base.ivssbackupcomponents_gatherwritermetadata","vsbackup/IVssBackupComponents::GatherWriterMetadata"]
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.date: 12/05/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata

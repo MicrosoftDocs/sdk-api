@@ -4,7 +4,7 @@ title: IMFFieldOfUseMFTUnlock (mfidl.h)
 description: Enables an application to use a Media Foundation transform (MFT) that has restrictions on its use.
 helpviewer_keywords: ["IMFFieldOfUseMFTUnlock","IMFFieldOfUseMFTUnlock interface [Media Foundation]","IMFFieldOfUseMFTUnlock interface [Media Foundation]","described","mf.imffieldofusemftunlock","mfidl/IMFFieldOfUseMFTUnlock"]
 old-location: mf\imffieldofusemftunlock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b144589b-d559-4686-b617-0e3c393380e9
 ms.date: 12/05/2018
 ms.keywords: IMFFieldOfUseMFTUnlock, IMFFieldOfUseMFTUnlock interface [Media Foundation], IMFFieldOfUseMFTUnlock interface [Media Foundation],described, mf.imffieldofusemftunlock, mfidl/IMFFieldOfUseMFTUnlock

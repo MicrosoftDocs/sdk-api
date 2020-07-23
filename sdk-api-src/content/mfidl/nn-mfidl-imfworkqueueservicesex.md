@@ -4,7 +4,7 @@ title: IMFWorkQueueServicesEx (mfidl.h)
 description: Extends the IMFWorkQueueServices interface.
 helpviewer_keywords: ["IMFWorkQueueServicesEx","IMFWorkQueueServicesEx interface [Media Foundation]","IMFWorkQueueServicesEx interface [Media Foundation]","described","mf.imfworkqueueservicesex","mfidl/IMFWorkQueueServicesEx"]
 old-location: mf\imfworkqueueservicesex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 12d4f0f4-9a6d-4782-b5ae-4add6608782a
 ms.date: 12/05/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx

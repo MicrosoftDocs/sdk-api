@@ -4,7 +4,7 @@ title: IOfflineFilesEvents::SyncConflictRecRemoved (cscobj.h)
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","SyncConflictRecRemoved method","IOfflineFilesEvents.SyncConflictRecRemoved","IOfflineFilesEvents::SyncConflictRecRemoved","SyncConflictRecRemoved","SyncConflictRecRemoved method [Offline Files]","SyncConflictRecRemoved method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::SyncConflictRecRemoved","of.iofflinefilesevents_syncconflictrecremoved"]
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved

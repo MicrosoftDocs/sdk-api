@@ -4,7 +4,7 @@ title: IVssSnapshotMgmt (vsmgmt.h)
 description: Provides a method that returns an interface to further configure a shadow copy provider.
 helpviewer_keywords: ["IVssSnapshotMgmt","IVssSnapshotMgmt interface [Files]","IVssSnapshotMgmt interface [Files]","described","base.ivsssnapshotmgmt","vsmgmt/IVssSnapshotMgmt"]
 old-location: base\ivsssnapshotmgmt.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5e5694a1-7c17-4d8a-b094-09dcf28a636f
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt, IVssSnapshotMgmt interface [Files], IVssSnapshotMgmt interface [Files],described, base.ivsssnapshotmgmt, vsmgmt/IVssSnapshotMgmt

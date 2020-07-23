@@ -4,7 +4,7 @@ title: SLFireEvent function (slpublic.h)
 description: Sends a specified event to a registered listener.
 helpviewer_keywords: ["SLFireEvent","SLFireEvent function [Security]","security.slfireevent","slpublic/SLFireEvent"]
 old-location: security\slfireevent.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
 ms.date: 12/05/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent

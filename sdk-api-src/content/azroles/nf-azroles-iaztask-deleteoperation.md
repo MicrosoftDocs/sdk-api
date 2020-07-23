@@ -4,7 +4,7 @@ title: IAzTask::DeleteOperation (azroles.h)
 description: Removes the IAzOperation object with the specified name from the task.
 helpviewer_keywords: ["AzTask object [Security]","DeleteOperation method","DeleteOperation","DeleteOperation method [Security]","DeleteOperation method [Security]","AzTask object","DeleteOperation method [Security]","IAzTask interface","IAzTask interface [Security]","DeleteOperation method","IAzTask.DeleteOperation","IAzTask::DeleteOperation","azroles/IAzTask::DeleteOperation","security.iaztask_deleteoperation"]
 old-location: security\iaztask_deleteoperation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3f370d04-2115-4dcc-bf18-2d28a52bdead
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzTask object, DeleteOperation method [Security],IAzTask interface, IAzTask interface [Security],DeleteOperation method, IAzTask.DeleteOperation, IAzTask::DeleteOperation, azroles/IAzTask::DeleteOperation, security.iaztask_deleteoperation

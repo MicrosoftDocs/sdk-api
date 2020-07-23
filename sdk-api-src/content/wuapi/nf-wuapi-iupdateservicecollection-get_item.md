@@ -4,7 +4,7 @@ title: IUpdateServiceCollection::get_Item (wuapi.h)
 description: Gets and sets an IUpdateService interface in a collection.
 helpviewer_keywords: ["IUpdateServiceCollection interface [Windows Update Agent]","Item property","IUpdateServiceCollection.Item","IUpdateServiceCollection.get_Item","IUpdateServiceCollection::Item","IUpdateServiceCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IUpdateServiceCollection interface","get_Item","wua.iupdateservicecollection_item","wuapi/IUpdateServiceCollection::Item","wuapi/IUpdateServiceCollection::get_Item"]
 old-location: wua\iupdateservicecollection_item.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 581f532d-a973-4b66-9e9e-d8229a3b28b4
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection.get_Item, IUpdateServiceCollection::Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateServiceCollection interface, get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item

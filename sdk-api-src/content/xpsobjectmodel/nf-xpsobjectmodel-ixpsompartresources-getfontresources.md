@@ -4,7 +4,7 @@ title: IXpsOMPartResources::GetFontResources (xpsobjectmodel.h)
 description: Gets the IXpsOMFontResourceCollection interface that contains the fonts that are used in the XPS document.
 helpviewer_keywords: ["GetFontResources","GetFontResources method [XPS Documents and Packaging]","GetFontResources method [XPS Documents and Packaging]","IXpsOMPartResources interface","IXpsOMPartResources interface [XPS Documents and Packaging]","GetFontResources method","IXpsOMPartResources.GetFontResources","IXpsOMPartResources::GetFontResources","xps.ixpsompartresources_getfontresources","xpsobjectmodel/IXpsOMPartResources::GetFontResources"]
 old-location: xps\ixpsompartresources_getfontresources.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c6655eed-5dd2-4b36-9ed7-55a3b25940e9
 ms.date: 12/05/2018
 ms.keywords: GetFontResources, GetFontResources method [XPS Documents and Packaging], GetFontResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetFontResources method, IXpsOMPartResources.GetFontResources, IXpsOMPartResources::GetFontResources, xps.ixpsompartresources_getfontresources, xpsobjectmodel/IXpsOMPartResources::GetFontResources

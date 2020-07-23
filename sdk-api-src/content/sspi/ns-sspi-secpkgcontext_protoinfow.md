@@ -4,7 +4,7 @@ title: SecPkgContext_ProtoInfoW (sspi.h)
 description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use.
 helpviewer_keywords: ["*PSecPkgContext_ProtoInfoW","PSecPkgContext_ProtoInfo","PSecPkgContext_ProtoInfo structure pointer [Security]","SecPkgContext_ProtoInfo","SecPkgContext_ProtoInfo structure [Security]","SecPkgContext_ProtoInfoA","SecPkgContext_ProtoInfoW","_ssp_secpkgcontext_protoinfo","security.secpkgcontext_protoinfo","sspi/PSecPkgContext_ProtoInfo","sspi/SecPkgContext_ProtoInfo"]
 old-location: security\secpkgcontext_protoinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c10eb1fc-b957-4853-86c1-070749488bb9
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_ProtoInfoW, PSecPkgContext_ProtoInfo, PSecPkgContext_ProtoInfo structure pointer [Security], SecPkgContext_ProtoInfo, SecPkgContext_ProtoInfo structure [Security], SecPkgContext_ProtoInfoA, SecPkgContext_ProtoInfoW, _ssp_secpkgcontext_protoinfo, security.secpkgcontext_protoinfo, sspi/PSecPkgContext_ProtoInfo, sspi/SecPkgContext_ProtoInfo'

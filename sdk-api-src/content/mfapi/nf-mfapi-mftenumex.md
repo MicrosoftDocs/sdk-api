@@ -4,7 +4,7 @@ title: MFTEnumEx function (mfapi.h)
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the MFTEnum function.
 helpviewer_keywords: ["MFTEnumEx","MFTEnumEx function [Media Foundation]","mf.mftenumex","mfapi/MFTEnumEx"]
 old-location: mf\mftenumex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
 ms.date: 12/05/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx

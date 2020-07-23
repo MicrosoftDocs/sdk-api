@@ -4,7 +4,7 @@ title: IUpdateCollection::Insert (wuapi.h)
 description: Inserts an item into the collection at the specified position.
 helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","Insert method","IUpdateCollection.Insert","IUpdateCollection::Insert","Insert","Insert method [Windows Update Agent]","Insert method [Windows Update Agent]","IUpdateCollection interface","wua.iupdatecollection_insert","wuapi/IUpdateCollection::Insert"]
 old-location: wua\iupdatecollection_insert.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 165f251e-9171-4464-8608-8f365b6598b3
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],Insert method, IUpdateCollection.Insert, IUpdateCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_insert, wuapi/IUpdateCollection::Insert

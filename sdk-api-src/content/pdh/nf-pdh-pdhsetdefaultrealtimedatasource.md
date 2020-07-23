@@ -4,7 +4,7 @@ title: PdhSetDefaultRealTimeDataSource function (pdh.h)
 description: Specifies the source of the real-time data.
 helpviewer_keywords: ["DATA_SOURCE_REGISTRY","DATA_SOURCE_WBEM","PdhSetDefaultRealTimeDataSource","PdhSetDefaultRealTimeDataSource function [Perf]","_win32_pdhsetdefaultrealtimedatasource","base.pdhsetdefaultrealtimedatasource","pdh/PdhSetDefaultRealTimeDataSource","perf.pdhsetdefaultrealtimedatasource"]
 old-location: perf\pdhsetdefaultrealtimedatasource.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 5a46ac26-c1a1-40c1-a328-688e0b394e18
 ms.date: 12/05/2018
 ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource

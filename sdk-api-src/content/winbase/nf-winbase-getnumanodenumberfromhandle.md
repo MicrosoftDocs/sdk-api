@@ -4,7 +4,7 @@ title: GetNumaNodeNumberFromHandle function (winbase.h)
 description: Retrieves the NUMA node associated with the file or I/O device represented by the specified file handle.
 helpviewer_keywords: ["GetNumaNodeNumberFromHandle","GetNumaNodeNumberFromHandle function","base.getnumanodenumberfromhandle","winbase/GetNumaNodeNumberFromHandle"]
 old-location: base\getnumanodenumberfromhandle.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 7622f7c9-2dfc-4ab7-b3e9-48d483c6cc0e
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeNumberFromHandle, GetNumaNodeNumberFromHandle function, base.getnumanodenumberfromhandle, winbase/GetNumaNodeNumberFromHandle

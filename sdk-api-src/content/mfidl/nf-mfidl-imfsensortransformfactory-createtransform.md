@@ -4,7 +4,7 @@ title: IMFSensorTransformFactory::CreateTransform (mfidl.h)
 description: Called by the media pipeline to create the transform.
 helpviewer_keywords: ["CreateTransform","CreateTransform method [Media Foundation]","CreateTransform method [Media Foundation]","IMFSensorTransformFactory interface","IMFSensorTransformFactory interface [Media Foundation]","CreateTransform method","IMFSensorTransformFactory.CreateTransform","IMFSensorTransformFactory::CreateTransform","mf.imfsensortransformfactory_createtransform","mfidl/IMFSensorTransformFactory::CreateTransform"]
 old-location: mf\imfsensortransformfactory_createtransform.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
 ms.date: 12/05/2018
 ms.keywords: CreateTransform, CreateTransform method [Media Foundation], CreateTransform method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],CreateTransform method, IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform

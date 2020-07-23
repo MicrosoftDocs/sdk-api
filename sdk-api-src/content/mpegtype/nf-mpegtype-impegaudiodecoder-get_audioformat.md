@@ -4,7 +4,7 @@ title: IMpegAudioDecoder::get_AudioFormat (mpegtype.h)
 description: Returns the audio format of the connected input pin.
 helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","get_AudioFormat method","IMpegAudioDecoder.get_AudioFormat","IMpegAudioDecoder::get_AudioFormat","IMpegAudioDecodergetAudioFormat","dshow.impegaudiodecoder_get_audioformat","get_AudioFormat","get_AudioFormat method [DirectShow]","get_AudioFormat method [DirectShow]","IMpegAudioDecoder interface","mpegtype/IMpegAudioDecoder::get_AudioFormat"]
 old-location: dshow\impegaudiodecoder_get_audioformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f7634504-d3f5-46a9-be25-08293190c27b
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_AudioFormat method, IMpegAudioDecoder.get_AudioFormat, IMpegAudioDecoder::get_AudioFormat, IMpegAudioDecodergetAudioFormat, dshow.impegaudiodecoder_get_audioformat, get_AudioFormat, get_AudioFormat method [DirectShow], get_AudioFormat method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_AudioFormat

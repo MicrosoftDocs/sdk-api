@@ -4,7 +4,7 @@ title: RtwqUnjoinWorkQueue function (rtworkq.h)
 description: Disassociates a work queue from an input/output (I/O) handle.
 helpviewer_keywords: ["RtwqUnjoinWorkQueue","RtwqUnjoinWorkQueue function","base.rtwqunjoinworkqueue","rtworkq/RtwqUnjoinWorkQueue"]
 old-location: base\rtwqunjoinworkqueue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 360f595a-ee9b-4979-a763-6d7cbf31d2ea
 ms.date: 12/05/2018
 ms.keywords: RtwqUnjoinWorkQueue, RtwqUnjoinWorkQueue function, base.rtwqunjoinworkqueue, rtworkq/RtwqUnjoinWorkQueue

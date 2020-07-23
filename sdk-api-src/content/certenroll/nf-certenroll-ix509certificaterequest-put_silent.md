@@ -4,7 +4,7 @@ title: IX509CertificateRequest::put_Silent (certenroll.h)
 description: Specifies or retrieves a Boolean value that indicates whether any of the key-related modal dialogs are displayed during the certificate enrollment process.
 helpviewer_keywords: ["IX509CertificateRequest interface [Security]","Silent property","IX509CertificateRequest.Silent","IX509CertificateRequest.put_Silent","IX509CertificateRequest::Silent","IX509CertificateRequest::get_Silent","IX509CertificateRequest::put_Silent","Silent property [Security]","Silent property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::Silent","certenroll/IX509CertificateRequest::get_Silent","certenroll/IX509CertificateRequest::put_Silent","put_Silent","security.ix509certificaterequest_silent_property"]
 old-location: security\ix509certificaterequest_silent_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 339c8d47-4406-4f2e-b927-b2dd5f58d1ec
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],Silent property, IX509CertificateRequest.Silent, IX509CertificateRequest.put_Silent, IX509CertificateRequest::Silent, IX509CertificateRequest::get_Silent, IX509CertificateRequest::put_Silent, Silent property [Security], Silent property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Silent, certenroll/IX509CertificateRequest::get_Silent, certenroll/IX509CertificateRequest::put_Silent, put_Silent, security.ix509certificaterequest_silent_property

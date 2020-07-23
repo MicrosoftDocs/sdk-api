@@ -4,7 +4,7 @@ title: CRYPT_XML_KEY_INFO_ITEM (cryptxml.h)
 description: Encapsulates key information data that corresponds to a KeyInfo element. The KeyInfo element enables the recipient to obtain the key needed to validate the signature.
 helpviewer_keywords: ["CRYPT_XML_KEYINFO_TYPE_CUSTOM","CRYPT_XML_KEYINFO_TYPE_KEYNAME","CRYPT_XML_KEYINFO_TYPE_KEYVALUE","CRYPT_XML_KEYINFO_TYPE_RETRIEVAL","CRYPT_XML_KEYINFO_TYPE_X509DATA","CRYPT_XML_KEY_INFO_ITEM","CRYPT_XML_KEY_INFO_ITEM structure [Security]","cryptxml/CRYPT_XML_KEY_INFO_ITEM","security.crypt_xml_key_info_item"]
 old-location: security\crypt_xml_key_info_item.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3fbb1623-d493-49f1-a004-74ec8d22520e
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYPT_XML_KEYINFO_TYPE_KEYVALUE, CRYPT_XML_KEYINFO_TYPE_RETRIEVAL, CRYPT_XML_KEYINFO_TYPE_X509DATA, CRYPT_XML_KEY_INFO_ITEM, CRYPT_XML_KEY_INFO_ITEM structure [Security], cryptxml/CRYPT_XML_KEY_INFO_ITEM, security.crypt_xml_key_info_item

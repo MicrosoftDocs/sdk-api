@@ -4,7 +4,7 @@ title: IMFASFMutualExclusion::GetStreamsForRecord (wmcontainer.h)
 description: Retrieves the stream numbers contained in a record in the Advanced Systems Format mutual exclusion object.
 helpviewer_keywords: ["GetStreamsForRecord","GetStreamsForRecord method [Media Foundation]","GetStreamsForRecord method [Media Foundation]","IMFASFMutualExclusion interface","IMFASFMutualExclusion interface [Media Foundation]","GetStreamsForRecord method","IMFASFMutualExclusion.GetStreamsForRecord","IMFASFMutualExclusion::GetStreamsForRecord","ce410ae9-d0d0-4617-8178-829ef3c77ce0","mf.imfasfmutualexclusion_getstreamsforrecord","wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord"]
 old-location: mf\imfasfmutualexclusion_getstreamsforrecord.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ce410ae9-d0d0-4617-8178-829ef3c77ce0
 ms.date: 12/05/2018
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [Media Foundation], GetStreamsForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetStreamsForRecord method, IMFASFMutualExclusion.GetStreamsForRecord, IMFASFMutualExclusion::GetStreamsForRecord, ce410ae9-d0d0-4617-8178-829ef3c77ce0, mf.imfasfmutualexclusion_getstreamsforrecord, wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord

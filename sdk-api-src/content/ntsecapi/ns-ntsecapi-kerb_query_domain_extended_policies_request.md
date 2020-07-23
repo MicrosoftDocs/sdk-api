@@ -4,7 +4,7 @@ title: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST (ntsecapi.h)
 description: Contains information used to query the domain for the extended policies.
 helpviewer_keywords: ["*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST","KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST","KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure [Security]","PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST","PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure pointer [Security]","ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST","ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST","security.kerb_query_domain_extended_policies_request"]
 old-location: security\kerb_query_domain_extended_policies_request.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3900428B-B7FE-4169-BFF0-B8BEEEB342ED
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure [Security], PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure pointer [Security], ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, security.kerb_query_domain_extended_policies_request'

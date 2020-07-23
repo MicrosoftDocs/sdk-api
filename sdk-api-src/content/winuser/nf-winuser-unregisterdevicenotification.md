@@ -4,7 +4,7 @@ title: UnregisterDeviceNotification function (winuser.h)
 description: Closes the specified device notification handle.
 helpviewer_keywords: ["UnregisterDeviceNotification","UnregisterDeviceNotification function","_win32_unregisterdevicenotification","base.unregisterdevicenotification","winuser/UnregisterDeviceNotification"]
 old-location: base\unregisterdevicenotification.htm
-tech.root: devio
+tech.root: base
 ms.assetid: bcc0cf87-f996-47b5-937c-14a6332d00d9
 ms.date: 12/05/2018
 ms.keywords: UnregisterDeviceNotification, UnregisterDeviceNotification function, _win32_unregisterdevicenotification, base.unregisterdevicenotification, winuser/UnregisterDeviceNotification

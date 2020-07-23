@@ -4,7 +4,7 @@ title: ISearchResult::get_Updates (wuapi.h)
 description: Gets an interface collection of the updates that result from a search.
 helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","Updates property","ISearchResult.Updates","ISearchResult.get_Updates","ISearchResult::Updates","ISearchResult::get_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","ISearchResult interface","get_Updates","wua.isearchresult_updates","wuapi/ISearchResult::Updates","wuapi/ISearchResult::get_Updates"]
 old-location: wua\isearchresult_updates.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a978986c-6cb0-4333-9bfe-0456a133ee08
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Updates property, ISearchResult.Updates, ISearchResult.get_Updates, ISearchResult::Updates, ISearchResult::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],ISearchResult interface, get_Updates, wua.isearchresult_updates, wuapi/ISearchResult::Updates, wuapi/ISearchResult::get_Updates

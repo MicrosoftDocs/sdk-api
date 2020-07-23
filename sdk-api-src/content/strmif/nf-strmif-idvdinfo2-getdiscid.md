@@ -4,7 +4,7 @@ title: IDvdInfo2::GetDiscID (strmif.h)
 description: The GetDiscID method retrieves a system-generated 64-bit identification number for the specified DVD.
 helpviewer_keywords: ["GetDiscID","GetDiscID method [DirectShow]","GetDiscID method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDiscID method","IDvdInfo2.GetDiscID","IDvdInfo2::GetDiscID","IDvdInfo2GetDiscID","dshow.idvdinfo2_getdiscid","strmif/IDvdInfo2::GetDiscID"]
 old-location: dshow\idvdinfo2_getdiscid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 53c244ff-026f-4838-b805-316ef3d872d1
 ms.date: 12/05/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDiscID method, IDvdInfo2.GetDiscID, IDvdInfo2::GetDiscID, IDvdInfo2GetDiscID, dshow.idvdinfo2_getdiscid, strmif/IDvdInfo2::GetDiscID

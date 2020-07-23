@@ -4,7 +4,7 @@ title: IDirectDrawVideo::CanUseScanLine (amvideo.h)
 description: The CanUseScanLine method determines whether the renderer will check the current scan line when drawing.
 helpviewer_keywords: ["CanUseScanLine","CanUseScanLine method [DirectShow]","CanUseScanLine method [DirectShow]","IDirectDrawVideo interface","IDirectDrawVideo interface [DirectShow]","CanUseScanLine method","IDirectDrawVideo.CanUseScanLine","IDirectDrawVideo::CanUseScanLine","IDirectDrawVideoCanUseScanLine","amvideo/IDirectDrawVideo::CanUseScanLine","dshow.idirectdrawvideo_canusescanline"]
 old-location: dshow\idirectdrawvideo_canusescanline.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2fa11ebb-0408-4ea7-9d18-c85860d6e2fc
 ms.date: 12/05/2018
 ms.keywords: CanUseScanLine, CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseScanLine method, IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline

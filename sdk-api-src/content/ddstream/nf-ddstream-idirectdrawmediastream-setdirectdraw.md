@@ -4,7 +4,7 @@ title: IDirectDrawMediaStream::SetDirectDraw (ddstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Sets the current media stream's DirectDraw object.
 helpviewer_keywords: ["IDirectDrawMediaStream interface [DirectShow]","SetDirectDraw method","IDirectDrawMediaStream.SetDirectDraw","IDirectDrawMediaStream::SetDirectDraw","IDirectDrawMediaStreamSetDirectDraw","SetDirectDraw","SetDirectDraw method [DirectShow]","SetDirectDraw method [DirectShow]","IDirectDrawMediaStream interface","ddstream/IDirectDrawMediaStream::SetDirectDraw","dshow.idirectdrawmediastream_setdirectdraw"]
 old-location: dshow\idirectdrawmediastream_setdirectdraw.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ffa425c5-5f81-4963-bf23-2139d8b245b3
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetDirectDraw method, IDirectDrawMediaStream.SetDirectDraw, IDirectDrawMediaStream::SetDirectDraw, IDirectDrawMediaStreamSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetDirectDraw, dshow.idirectdrawmediastream_setdirectdraw

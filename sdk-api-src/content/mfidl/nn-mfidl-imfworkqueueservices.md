@@ -4,7 +4,7 @@ title: IMFWorkQueueServices (mfidl.h)
 description: Controls the work queues created by the Media Session.
 helpviewer_keywords: ["7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d","IMFWorkQueueServices","IMFWorkQueueServices interface [Media Foundation]","IMFWorkQueueServices interface [Media Foundation]","described","mf.imfworkqueueservices","mfidl/IMFWorkQueueServices"]
 old-location: mf\imfworkqueueservices.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d
 ms.date: 12/05/2018
 ms.keywords: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], IMFWorkQueueServices interface [Media Foundation],described, mf.imfworkqueueservices, mfidl/IMFWorkQueueServices

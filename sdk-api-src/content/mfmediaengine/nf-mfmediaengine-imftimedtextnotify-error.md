@@ -4,7 +4,7 @@ title: IMFTimedTextNotify::Error (mfmediaengine.h)
 description: Called when an error occurs in a text track.
 helpviewer_keywords: ["Error","Error method [Media Foundation]","Error method [Media Foundation]","IMFTimedTextNotify interface","IMFTimedTextNotify interface [Media Foundation]","Error method","IMFTimedTextNotify.Error","IMFTimedTextNotify::Error","mf.imftimedtextnotify_error","mfmediaengine/IMFTimedTextNotify::Error"]
 old-location: mf\imftimedtextnotify_error.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3658EE26-497D-4D33-BE68-572BCE1B28B1
 ms.date: 12/05/2018
 ms.keywords: Error, Error method [Media Foundation], Error method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Error method, IMFTimedTextNotify.Error, IMFTimedTextNotify::Error, mf.imftimedtextnotify_error, mfmediaengine/IMFTimedTextNotify::Error

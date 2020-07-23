@@ -4,7 +4,7 @@ title: IAzScope::get_PolicyReaders (azroles.h)
 description: The PolicyReaders property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy readers.
 helpviewer_keywords: ["AzScope object [Security]","PolicyReaders property","IAzScope interface [Security]","PolicyReaders property","IAzScope.PolicyReaders","IAzScope.get_PolicyReaders","IAzScope::PolicyReaders","IAzScope::get_PolicyReaders","PolicyReaders property [Security]","PolicyReaders property [Security]","AzScope object","PolicyReaders property [Security]","IAzScope interface","azroles/IAzScope::PolicyReaders","azroles/IAzScope::get_PolicyReaders","get_PolicyReaders","security.iazscope_policyreaders"]
 old-location: security\iazscope_policyreaders.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 7576997c-a585-4f0d-bec5-c616d39633f9
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],PolicyReaders property, IAzScope interface [Security],PolicyReaders property, IAzScope.PolicyReaders, IAzScope.get_PolicyReaders, IAzScope::PolicyReaders, IAzScope::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzScope object, PolicyReaders property [Security],IAzScope interface, azroles/IAzScope::PolicyReaders, azroles/IAzScope::get_PolicyReaders, get_PolicyReaders, security.iazscope_policyreaders

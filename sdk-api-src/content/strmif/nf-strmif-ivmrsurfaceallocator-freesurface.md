@@ -4,7 +4,7 @@ title: IVMRSurfaceAllocator::FreeSurface (strmif.h)
 description: The FreeSurface method frees the allocated DirectDraw surface.
 helpviewer_keywords: ["FreeSurface","FreeSurface method [DirectShow]","FreeSurface method [DirectShow]","IVMRSurfaceAllocator interface","IVMRSurfaceAllocator interface [DirectShow]","FreeSurface method","IVMRSurfaceAllocator.FreeSurface","IVMRSurfaceAllocator::FreeSurface","IVMRSurfaceAllocatorFreeSurface","dshow.ivmrsurfaceallocator_freesurface","strmif/IVMRSurfaceAllocator::FreeSurface"]
 old-location: dshow\ivmrsurfaceallocator_freesurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7b00d32c-832f-439f-8da5-7e77f90e1510
 ms.date: 12/05/2018
 ms.keywords: FreeSurface, FreeSurface method [DirectShow], FreeSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],FreeSurface method, IVMRSurfaceAllocator.FreeSurface, IVMRSurfaceAllocator::FreeSurface, IVMRSurfaceAllocatorFreeSurface, dshow.ivmrsurfaceallocator_freesurface, strmif/IVMRSurfaceAllocator::FreeSurface

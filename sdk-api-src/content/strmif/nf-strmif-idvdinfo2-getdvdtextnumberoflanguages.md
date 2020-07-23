@@ -4,7 +4,7 @@ title: IDvdInfo2::GetDVDTextNumberOfLanguages (strmif.h)
 description: The GetDVDTextNumberOfLanguages method retrieves the number of languages in which DVD text strings appear.
 helpviewer_keywords: ["GetDVDTextNumberOfLanguages","GetDVDTextNumberOfLanguages method [DirectShow]","GetDVDTextNumberOfLanguages method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDTextNumberOfLanguages method","IDvdInfo2.GetDVDTextNumberOfLanguages","IDvdInfo2::GetDVDTextNumberOfLanguages","IDvdInfo2GetDVDTextNumberOfLanguages","dshow.idvdinfo2_getdvdtextnumberoflanguages","strmif/IDvdInfo2::GetDVDTextNumberOfLanguages"]
 old-location: dshow\idvdinfo2_getdvdtextnumberoflanguages.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 20c6ee1f-f20b-40c5-bc84-5ec1c07c0681
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextNumberOfLanguages, GetDVDTextNumberOfLanguages method [DirectShow], GetDVDTextNumberOfLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextNumberOfLanguages method, IDvdInfo2.GetDVDTextNumberOfLanguages, IDvdInfo2::GetDVDTextNumberOfLanguages, IDvdInfo2GetDVDTextNumberOfLanguages, dshow.idvdinfo2_getdvdtextnumberoflanguages, strmif/IDvdInfo2::GetDVDTextNumberOfLanguages

@@ -4,7 +4,7 @@ title: IWebProxy::put_Address (wuapi.h)
 description: Gets and sets the address and the decimal port number of the proxy server.
 helpviewer_keywords: ["Address property [Windows Update Agent]","Address property [Windows Update Agent]","IWebProxy interface","IWebProxy interface [Windows Update Agent]","Address property","IWebProxy.Address","IWebProxy.put_Address","IWebProxy::Address","IWebProxy::get_Address","IWebProxy::put_Address","put_Address","wua.iwebproxy_address","wuapi/IWebProxy::Address","wuapi/IWebProxy::get_Address","wuapi/IWebProxy::put_Address"]
 old-location: wua\iwebproxy_address.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ed8c899f-5080-435a-8577-7e92a54738ad
 ms.date: 12/05/2018
 ms.keywords: Address property [Windows Update Agent], Address property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],Address property, IWebProxy.Address, IWebProxy.put_Address, IWebProxy::Address, IWebProxy::get_Address, IWebProxy::put_Address, put_Address, wua.iwebproxy_address, wuapi/IWebProxy::Address, wuapi/IWebProxy::get_Address, wuapi/IWebProxy::put_Address

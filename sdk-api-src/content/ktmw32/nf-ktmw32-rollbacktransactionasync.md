@@ -4,7 +4,7 @@ title: RollbackTransactionAsync function (ktmw32.h)
 description: Requests that the specified transaction be rolled back. This function returns asynchronously.
 helpviewer_keywords: ["RollbackTransactionAsync","RollbackTransactionAsync function [Files]","fs.rollbacktransactionasync","ktmw32/RollbackTransactionAsync"]
 old-location: fs\rollbacktransactionasync.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: df23e5af-c37e-4e60-b160-6ffa8f6a26e3
 ms.date: 12/05/2018
 ms.keywords: RollbackTransactionAsync, RollbackTransactionAsync function [Files], fs.rollbacktransactionasync, ktmw32/RollbackTransactionAsync

@@ -4,7 +4,7 @@ title: IWbemQualifierSet::EndEnumeration (wbemcli.h)
 description: Call the IWbemQualifierSet::EndEnumeration method when you plan to terminate enumerations initiated with IWbemQualifierSet::BeginEnumeration and IWbemQualifierSet::Next.
 helpviewer_keywords: ["EndEnumeration","EndEnumeration method [Windows Management Instrumentation]","EndEnumeration method [Windows Management Instrumentation]","IWbemQualifierSet interface","IWbemQualifierSet interface [Windows Management Instrumentation]","EndEnumeration method","IWbemQualifierSet.EndEnumeration","IWbemQualifierSet::EndEnumeration","_hmm_iwbemqualifierset_endenumeration","wbemcli/IWbemQualifierSet::EndEnumeration","wmi.iwbemqualifierset_endenumeration"]
 old-location: wmi\iwbemqualifierset_endenumeration.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 317409e9-b098-404b-bc09-78b5b5ae7fc7
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],EndEnumeration method, IWbemQualifierSet.EndEnumeration, IWbemQualifierSet::EndEnumeration, _hmm_iwbemqualifierset_endenumeration, wbemcli/IWbemQualifierSet::EndEnumeration, wmi.iwbemqualifierset_endenumeration

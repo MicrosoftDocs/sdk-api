@@ -4,7 +4,7 @@ title: IAMPushSource (strmif.h)
 description: The IAMPushSource interface synchronizes a filter graph that renders a live source.
 helpviewer_keywords: ["IAMPushSource","IAMPushSource interface [DirectShow]","IAMPushSource interface [DirectShow]","described","IAMPushSourceInterface","dshow.iampushsource","strmif/IAMPushSource"]
 old-location: dshow\iampushsource.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource

@@ -4,7 +4,7 @@ title: ID3D11VideoContext::VideoProcessorSetStreamFrameFormat (d3d11.h)
 description: Specifies whether an input stream on the video processor contains interlaced or progressive frames.
 helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamFrameFormat method","ID3D11VideoContext.VideoProcessorSetStreamFrameFormat","ID3D11VideoContext::VideoProcessorSetStreamFrameFormat","VideoProcessorSetStreamFrameFormat","VideoProcessorSetStreamFrameFormat method [Media Foundation]","VideoProcessorSetStreamFrameFormat method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamFrameFormat","mf.id3d11videocontext_videoprocessorsetstreamframeformat"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamframeformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 248BE244-23A9-4F4E-95F7-D3DB678B2D9F
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamFrameFormat method, ID3D11VideoContext.VideoProcessorSetStreamFrameFormat, ID3D11VideoContext::VideoProcessorSetStreamFrameFormat, VideoProcessorSetStreamFrameFormat, VideoProcessorSetStreamFrameFormat method [Media Foundation], VideoProcessorSetStreamFrameFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamFrameFormat, mf.id3d11videocontext_videoprocessorsetstreamframeformat

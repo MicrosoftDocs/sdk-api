@@ -4,7 +4,7 @@ title: IGraphConfig::RemoveFilterFromCache (strmif.h)
 description: The RemoveFilterFromCache method removes a filter from the filter cache.
 helpviewer_keywords: ["IGraphConfig interface [DirectShow]","RemoveFilterFromCache method","IGraphConfig.RemoveFilterFromCache","IGraphConfig::RemoveFilterFromCache","IGraphConfigRemoveFilterFromCache","RemoveFilterFromCache","RemoveFilterFromCache method [DirectShow]","RemoveFilterFromCache method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_removefilterfromcache","strmif/IGraphConfig::RemoveFilterFromCache"]
 old-location: dshow\igraphconfig_removefilterfromcache.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a23710d0-85aa-4ae0-84ea-03b9e22091ad
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterFromCache method, IGraphConfig.RemoveFilterFromCache, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache

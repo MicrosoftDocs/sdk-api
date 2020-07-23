@@ -4,7 +4,7 @@ title: WSDCreateDeviceProxy function (wsdclient.h)
 description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
 helpviewer_keywords: ["WSDCreateDeviceProxy","WSDCreateDeviceProxy function","ncd.wsdcreatedeviceproxy","wsdclient/WSDCreateDeviceProxy"]
 old-location: ncd\wsdcreatedeviceproxy.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d432ae9a-cf34-4149-978c-637443a3824f
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceProxy, WSDCreateDeviceProxy function, ncd.wsdcreatedeviceproxy, wsdclient/WSDCreateDeviceProxy

@@ -4,7 +4,7 @@ title: ClosePrivateNamespace function (namespaceapi.h)
 description: Closes an open namespace handle.
 helpviewer_keywords: ["ClosePrivateNamespace","ClosePrivateNamespace function","base.closeprivatenamespace","namespaceapi/ClosePrivateNamespace","winbase/ClosePrivateNamespace"]
 old-location: base\closeprivatenamespace.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1
 ms.date: 12/05/2018
 ms.keywords: ClosePrivateNamespace, ClosePrivateNamespace function, base.closeprivatenamespace, namespaceapi/ClosePrivateNamespace, winbase/ClosePrivateNamespace

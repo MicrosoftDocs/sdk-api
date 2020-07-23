@@ -4,7 +4,7 @@ title: TOKENBINDING_IDENTIFIER (tokenbinding.h)
 description: Contains the information for representing a token binding identifier that results from a token binding message exchange.
 helpviewer_keywords: ["TOKENBINDING_IDENTIFIER","TOKENBINDING_IDENTIFIER structure [Security]","TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256","TOKENBINDING_SIGNATURE_ALGORITHM_RSA","security.tokenbinding_identifier","tokenbinding/TOKENBINDING_IDENTIFIER"]
 old-location: security\tokenbinding_identifier.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_IDENTIFIER, TOKENBINDING_IDENTIFIER structure [Security], TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256, TOKENBINDING_SIGNATURE_ALGORITHM_RSA, security.tokenbinding_identifier, tokenbinding/TOKENBINDING_IDENTIFIER

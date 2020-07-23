@@ -3,7 +3,7 @@ UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop2.CopySu
 title: ICompositionDrawingSurfaceInterop2::CopySurface
 description: Reads back the contents of a composition drawing surface (or a composition virtual drawing surface).
 ms.date: 01/09/2020
-tech.root: w_ui_comp
+tech.root: winrt
 ms.topic: language-reference
 f1_keywords:
  - windows/ICompositionDrawingSurfaceInterop2::CopySurface

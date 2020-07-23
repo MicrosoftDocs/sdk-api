@@ -4,7 +4,7 @@ title: FlushFileBuffers function (fileapi.h)
 description: Flushes the buffers of a specified file and causes all buffered data to be written to a file.
 helpviewer_keywords: ["FlushFileBuffers","FlushFileBuffers function [Files]","_win32_flushfilebuffers","base.flushfilebuffers","fileapi/FlushFileBuffers","fs.flushfilebuffers","winbase/FlushFileBuffers"]
 old-location: fs\flushfilebuffers.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6
 ms.date: 12/05/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers

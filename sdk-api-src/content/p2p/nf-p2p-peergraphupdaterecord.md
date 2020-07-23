@@ -4,7 +4,7 @@ title: PeerGraphUpdateRecord function (p2p.h)
 description: The PeerGraphUpdateRecord function updates a record in the peer graph and then floods the record to each node in the peer graph.
 helpviewer_keywords: ["PeerGraphUpdateRecord","PeerGraphUpdateRecord function [Peer Networking]","p2p.peergraphupdaterecord","p2p/PeerGraphUpdateRecord"]
 old-location: p2p\peergraphupdaterecord.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9007095f-4f2a-4e92-895b-9a4033f0f7b9
 ms.date: 12/05/2018
 ms.keywords: PeerGraphUpdateRecord, PeerGraphUpdateRecord function [Peer Networking], p2p.peergraphupdaterecord, p2p/PeerGraphUpdateRecord

@@ -4,7 +4,7 @@ title: IXpsOMSignatureBlockResourceCollection::GetByPartName (xpsobjectmodel.h)
 description: Gets an IXpsOMSignatureBlockResource interface pointer from the collection by matching the interface's part name.
 helpviewer_keywords: ["GetByPartName","GetByPartName method [XPS Documents and Packaging]","GetByPartName method [XPS Documents and Packaging]","IXpsOMSignatureBlockResourceCollection interface","IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","GetByPartName method","IXpsOMSignatureBlockResourceCollection.GetByPartName","IXpsOMSignatureBlockResourceCollection::GetByPartName","xps.ixpsomsignatureblockresourcecollection_getbypartname","xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName"]
 old-location: xps\ixpsomsignatureblockresourcecollection_getbypartname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 38e6d6d9-0f31-45e9-8a19-1aae02dfafd3
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMSignatureBlockResourceCollection.GetByPartName, IXpsOMSignatureBlockResourceCollection::GetByPartName, xps.ixpsomsignatureblockresourcecollection_getbypartname, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName

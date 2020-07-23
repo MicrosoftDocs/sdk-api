@@ -4,7 +4,7 @@ title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel (azroles.h)
 description: Upgrades this authorization store from version 1 to version 2.
 helpviewer_keywords: ["IAzAuthorizationStore3 interface [Security]","UpgradeStoresFunctionalLevel method","IAzAuthorizationStore3.UpgradeStoresFunctionalLevel","IAzAuthorizationStore3::UpgradeStoresFunctionalLevel","UpgradeStoresFunctionalLevel","UpgradeStoresFunctionalLevel method [Security]","UpgradeStoresFunctionalLevel method [Security]","IAzAuthorizationStore3 interface","azroles/IAzAuthorizationStore3::UpgradeStoresFunctionalLevel","security.iazauthorizationstore3_upgradestoresfunctionallevel_method"]
 old-location: security\iazauthorizationstore3_upgradestoresfunctionallevel_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 7719e3fd-5b06-468c-9034-f1f0bb41a5be
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],UpgradeStoresFunctionalLevel method, IAzAuthorizationStore3.UpgradeStoresFunctionalLevel, IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel method [Security], UpgradeStoresFunctionalLevel method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, security.iazauthorizationstore3_upgradestoresfunctionallevel_method

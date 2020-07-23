@@ -4,7 +4,7 @@ title: LookupAccountNameW function (winbase.h)
 description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 helpviewer_keywords: ["LookupAccountName","LookupAccountName function [Security]","LookupAccountNameA","LookupAccountNameW","_win32_lookupaccountname","security.lookupaccountname","winbase/LookupAccountName","winbase/LookupAccountNameA","winbase/LookupAccountNameW"]
 old-location: security\lookupaccountname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.date: 12/05/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW

@@ -4,7 +4,7 @@ title: IMFByteStreamCacheControl (mfidl.h)
 description: Controls how a network byte stream transfers data to a local cache.
 helpviewer_keywords: ["IMFByteStreamCacheControl","IMFByteStreamCacheControl interface [Media Foundation]","IMFByteStreamCacheControl interface [Media Foundation]","described","mf.imfbytestreamcachecontrol","mfidl/IMFByteStreamCacheControl"]
 old-location: mf\imfbytestreamcachecontrol.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e12a532a-4624-4e06-8e19-6e9daec550ac
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl, IMFByteStreamCacheControl interface [Media Foundation], IMFByteStreamCacheControl interface [Media Foundation],described, mf.imfbytestreamcachecontrol, mfidl/IMFByteStreamCacheControl

@@ -4,7 +4,7 @@ title: IXpsOMGradientStop::GetColor (xpsobjectmodel.h)
 description: Gets the color value and color profile of the gradient stop.
 helpviewer_keywords: ["GetColor","GetColor method [XPS Documents and Packaging]","GetColor method [XPS Documents and Packaging]","IXpsOMGradientStop interface","IXpsOMGradientStop interface [XPS Documents and Packaging]","GetColor method","IXpsOMGradientStop.GetColor","IXpsOMGradientStop::GetColor","xps.ixpsomgradientstop_getcolor","xpsobjectmodel/IXpsOMGradientStop::GetColor"]
 old-location: xps\ixpsomgradientstop_getcolor.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6630d58f-d0f0-4b39-a14c-d3955f0f401a
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetColor method, IXpsOMGradientStop.GetColor, IXpsOMGradientStop::GetColor, xps.ixpsomgradientstop_getcolor, xpsobjectmodel/IXpsOMGradientStop::GetColor

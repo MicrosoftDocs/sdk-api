@@ -4,7 +4,7 @@ title: IVMRMixerControl9::SetProcAmpControl (vmr9.h)
 description: The SetProcAmpControl method sets the image adjustment for the VMR-9.
 helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetProcAmpControl method","IVMRMixerControl9.SetProcAmpControl","IVMRMixerControl9::SetProcAmpControl","IVMRMixerControl9SetProcAmpControl","SetProcAmpControl","SetProcAmpControl method [DirectShow]","SetProcAmpControl method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setprocampcontrol","vmr9/IVMRMixerControl9::SetProcAmpControl"]
 old-location: dshow\ivmrmixercontrol9_setprocampcontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6e2949f5-87e5-4748-bb23-be14452c8c82
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetProcAmpControl method, IVMRMixerControl9.SetProcAmpControl, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl

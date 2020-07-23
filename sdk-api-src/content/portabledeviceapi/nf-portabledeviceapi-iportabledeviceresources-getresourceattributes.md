@@ -4,7 +4,7 @@ title: IPortableDeviceResources::GetResourceAttributes (portabledeviceapi.h)
 description: The GetResourceAttributes method retrieves all attributes from a specified resource in an object.
 helpviewer_keywords: ["GetResourceAttributes","GetResourceAttributes method [Windows Portable Devices SDK]","GetResourceAttributes method [Windows Portable Devices SDK]","IPortableDeviceResources interface","IPortableDeviceResources interface [Windows Portable Devices SDK]","GetResourceAttributes method","IPortableDeviceResources.GetResourceAttributes","IPortableDeviceResources::GetResourceAttributes","IPortableDeviceResourcesGetResourceAttributes","portabledeviceapi/IPortableDeviceResources::GetResourceAttributes","wpdsdk.iportabledeviceresources_getresourceattributes"]
 old-location: wpdsdk\iportabledeviceresources_getresourceattributes.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 6188d0cc-3161-400e-9abf-ef43a4dee690
 ms.date: 12/05/2018
 ms.keywords: GetResourceAttributes, GetResourceAttributes method [Windows Portable Devices SDK], GetResourceAttributes method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetResourceAttributes method, IPortableDeviceResources.GetResourceAttributes, IPortableDeviceResources::GetResourceAttributes, IPortableDeviceResourcesGetResourceAttributes, portabledeviceapi/IPortableDeviceResources::GetResourceAttributes, wpdsdk.iportabledeviceresources_getresourceattributes

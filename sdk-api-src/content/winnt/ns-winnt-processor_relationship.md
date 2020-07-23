@@ -4,7 +4,7 @@ title: PROCESSOR_RELATIONSHIP (winnt.h)
 description: Represents information about affinity within a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 helpviewer_keywords: ["*PPROCESSOR_RELATIONSHIP","PPROCESSOR_RELATIONSHIP","PPROCESSOR_RELATIONSHIP structure pointer","PROCESSOR_RELATIONSHIP","PROCESSOR_RELATIONSHIP structure","_PROCESSOR_RELATIONSHIP","base.processor_relationship","winnt/PPROCESSOR_RELATIONSHIP","winnt/PROCESSOR_RELATIONSHIP"]
 old-location: base\processor_relationship.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1efda80d-cf5b-4312-801a-ea3585b152ac
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP structure pointer, PROCESSOR_RELATIONSHIP, PROCESSOR_RELATIONSHIP structure, _PROCESSOR_RELATIONSHIP, base.processor_relationship, winnt/PPROCESSOR_RELATIONSHIP, winnt/PROCESSOR_RELATIONSHIP'

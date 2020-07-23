@@ -4,7 +4,7 @@ title: FSCTL_IS_VOLUME_MOUNTED
 description: Determines whether the specified volume is mounted, or if the specified file or directory is on a mounted volume.
 helpviewer_keywords: ["FSCTL_IS_VOLUME_MOUNTED","FSCTL_IS_VOLUME_MOUNTED control","FSCTL_IS_VOLUME_MOUNTED control code [Files]","base.fsctl_is_volume_mounted","fs.fsctl_is_volume_mounted","winioctl/FSCTL_IS_VOLUME_MOUNTED"]
 old-location: fs\fsctl_is_volume_mounted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1effd05a-2c9f-4c8b-97dd-ed93b04cc2ee
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_VOLUME_MOUNTED, FSCTL_IS_VOLUME_MOUNTED control, FSCTL_IS_VOLUME_MOUNTED control code [Files], base.fsctl_is_volume_mounted, fs.fsctl_is_volume_mounted, winioctl/FSCTL_IS_VOLUME_MOUNTED

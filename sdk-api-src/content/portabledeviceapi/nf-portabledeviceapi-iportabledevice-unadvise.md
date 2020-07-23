@@ -4,7 +4,7 @@ title: IPortableDevice::Unadvise (portabledeviceapi.h)
 description: The Unadvise method unregisters a client from receiving callback notifications. You must call this method if you called Advise previously.
 helpviewer_keywords: ["IPortableDevice interface [Windows Portable Devices SDK]","Unadvise method","IPortableDevice.Unadvise","IPortableDevice::Unadvise","IPortableDeviceUnadvise","Unadvise","Unadvise method [Windows Portable Devices SDK]","Unadvise method [Windows Portable Devices SDK]","IPortableDevice interface","portabledeviceapi/IPortableDevice::Unadvise","wpdsdk.iportabledevice_unadvise"]
 old-location: wpdsdk\iportabledevice_unadvise.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 6720e92b-35cd-4e3f-bd21-36337cf80140
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise method, IPortableDevice.Unadvise, IPortableDevice::Unadvise, IPortableDeviceUnadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Unadvise, wpdsdk.iportabledevice_unadvise

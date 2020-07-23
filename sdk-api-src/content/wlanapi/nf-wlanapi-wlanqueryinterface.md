@@ -4,7 +4,7 @@ title: WlanQueryInterface function (wlanapi.h)
 description: The WlanQueryInterface function queries various parameters of a specified interface.
 helpviewer_keywords: ["WlanQueryInterface","WlanQueryInterface function [NativeWIFI]","nwifi.wlanqueryinterface","wlanapi/WlanQueryInterface"]
 old-location: nwifi\wlanqueryinterface.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
 ms.date: 12/05/2018
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface

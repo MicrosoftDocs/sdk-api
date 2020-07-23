@@ -4,7 +4,7 @@ title: IDiskQuotaUserBatch::FlushToDisk (dskquota.h)
 description: Writes user object changes to disk in a single call to the underlying file system.
 helpviewer_keywords: ["FlushToDisk","FlushToDisk method [Files]","FlushToDisk method [Files]","IDiskQuotaUserBatch interface","IDiskQuotaUserBatch interface [Files]","FlushToDisk method","IDiskQuotaUserBatch.FlushToDisk","IDiskQuotaUserBatch::FlushToDisk","_win32_idiskquotauserbatch_flushtodisk","base.idiskquotauserbatch_flushtodisk","dskquota/IDiskQuotaUserBatch::FlushToDisk","fs.idiskquotauserbatch_flushtodisk"]
 old-location: fs\idiskquotauserbatch_flushtodisk.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2d147224-64d8-4c15-b860-e6dd216cb170
 ms.date: 12/05/2018
 ms.keywords: FlushToDisk, FlushToDisk method [Files], FlushToDisk method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],FlushToDisk method, IDiskQuotaUserBatch.FlushToDisk, IDiskQuotaUserBatch::FlushToDisk, _win32_idiskquotauserbatch_flushtodisk, base.idiskquotauserbatch_flushtodisk, dskquota/IDiskQuotaUserBatch::FlushToDisk, fs.idiskquotauserbatch_flushtodisk

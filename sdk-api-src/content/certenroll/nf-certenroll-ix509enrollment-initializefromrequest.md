@@ -4,7 +4,7 @@ title: IX509Enrollment::InitializeFromRequest (certenroll.h)
 description: Initializes the enrollment object from an existing IX509CertificateRequest object.
 helpviewer_keywords: ["IX509Enrollment interface [Security]","InitializeFromRequest method","IX509Enrollment.InitializeFromRequest","IX509Enrollment::InitializeFromRequest","InitializeFromRequest","InitializeFromRequest method [Security]","InitializeFromRequest method [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::InitializeFromRequest","security.ix509enrollment_initializefromrequest_method"]
 old-location: security\ix509enrollment_initializefromrequest_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method

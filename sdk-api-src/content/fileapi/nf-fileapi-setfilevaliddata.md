@@ -4,7 +4,7 @@ title: SetFileValidData function (fileapi.h)
 description: Sets the valid data length of the specified file. This function is useful in very limited scenarios. For more information, see the Remarks section.
 helpviewer_keywords: ["SetFileValidData","SetFileValidData function [Files]","_win32_setfilevaliddata","base.setfilevaliddata","fileapi/SetFileValidData","fs.setfilevaliddata","winbase/SetFileValidData"]
 old-location: fs\setfilevaliddata.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c6ded2d7-270a-4b75-b2d4-1007a92fe831
 ms.date: 12/05/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData

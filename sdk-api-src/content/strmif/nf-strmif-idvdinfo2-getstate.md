@@ -4,7 +4,7 @@ title: IDvdInfo2::GetState (strmif.h)
 description: The GetState method retrieves a bookmark containing the disc location and DVD Navigator state information.
 helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetState method","IDvdInfo2.GetState","IDvdInfo2::GetState","IDvdInfo2GetState","dshow.idvdinfo2_getstate","strmif/IDvdInfo2::GetState"]
 old-location: dshow\idvdinfo2_getstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 403add2b-3dfd-436d-8184-7a14f30f6ea3
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetState method, IDvdInfo2.GetState, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState

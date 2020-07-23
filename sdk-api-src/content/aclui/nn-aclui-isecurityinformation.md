@@ -4,7 +4,7 @@ title: ISecurityInformation (aclui.h)
 description: Enables the access control editor to communicate with the caller of the CreateSecurityPage and EditSecurity functions.
 helpviewer_keywords: ["ISecurityInformation","ISecurityInformation interface [Security]","ISecurityInformation interface [Security]","described","_win32_isecurityinformation","aclui/ISecurityInformation","security.isecurityinformation"]
 old-location: security\isecurityinformation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation, ISecurityInformation interface [Security], ISecurityInformation interface [Security],described, _win32_isecurityinformation, aclui/ISecurityInformation, security.isecurityinformation

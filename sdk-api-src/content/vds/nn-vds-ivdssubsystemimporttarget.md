@@ -4,7 +4,7 @@ title: IVdsSubSystemImportTarget (vds.h)
 description: Provides methods to query and configure the default VSS import target for the subsystem.
 helpviewer_keywords: ["IVdsSubSystemImportTarget","IVdsSubSystemImportTarget interface [VDS]","IVdsSubSystemImportTarget interface [VDS]","described","base.ivdssubsystemimporttarget","vds/IVdsSubSystemImportTarget"]
 old-location: base\ivdssubsystemimporttarget.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget

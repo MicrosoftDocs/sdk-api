@@ -4,7 +4,7 @@ title: IAMStreamConfig::GetStreamCaps (strmif.h)
 description: The GetStreamCaps method retrieves a set of format capabilities.
 helpviewer_keywords: ["GetStreamCaps","GetStreamCaps method [DirectShow]","GetStreamCaps method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetStreamCaps method","IAMStreamConfig.GetStreamCaps","IAMStreamConfig::GetStreamCaps","IAMStreamConfigGetStreamCaps","dshow.iamstreamconfig_getstreamcaps","strmif/IAMStreamConfig::GetStreamCaps"]
 old-location: dshow\iamstreamconfig_getstreamcaps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
 ms.date: 12/05/2018
 ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetStreamCaps method, IAMStreamConfig.GetStreamCaps, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps

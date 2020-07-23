@@ -4,7 +4,7 @@ title: IDirectDrawMediaStream::GetDirectDraw (ddstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the DirectDraw object used by the current media stream.
 helpviewer_keywords: ["GetDirectDraw","GetDirectDraw method [DirectShow]","GetDirectDraw method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","GetDirectDraw method","IDirectDrawMediaStream.GetDirectDraw","IDirectDrawMediaStream::GetDirectDraw","IDirectDrawMediaStreamGetDirectDraw","ddstream/IDirectDrawMediaStream::GetDirectDraw","dshow.idirectdrawmediastream_getdirectdraw"]
 old-location: dshow\idirectdrawmediastream_getdirectdraw.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 44c505fe-70d9-49bd-9135-8a6dc2c72e98
 ms.date: 12/05/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetDirectDraw method, IDirectDrawMediaStream.GetDirectDraw, IDirectDrawMediaStream::GetDirectDraw, IDirectDrawMediaStreamGetDirectDraw, ddstream/IDirectDrawMediaStream::GetDirectDraw, dshow.idirectdrawmediastream_getdirectdraw

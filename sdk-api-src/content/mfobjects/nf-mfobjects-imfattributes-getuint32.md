@@ -4,7 +4,7 @@ title: IMFAttributes::GetUINT32 (mfobjects.h)
 description: Retrieves a UINT32 value associated with a key.
 helpviewer_keywords: ["GetUINT32","GetUINT32 method [Media Foundation]","GetUINT32 method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetUINT32 method","IMFAttributes.GetUINT32","IMFAttributes::GetUINT32","e47495e0-3274-4ce2-9fd3-d2fb2afb7578","mf.imfattributes_getuint32","mfobjects/IMFAttributes::GetUINT32"]
 old-location: mf\imfattributes_getuint32.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e47495e0-3274-4ce2-9fd3-d2fb2afb7578
 ms.date: 12/05/2018
 ms.keywords: GetUINT32, GetUINT32 method [Media Foundation], GetUINT32 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT32 method, IMFAttributes.GetUINT32, IMFAttributes::GetUINT32, e47495e0-3274-4ce2-9fd3-d2fb2afb7578, mf.imfattributes_getuint32, mfobjects/IMFAttributes::GetUINT32

@@ -4,7 +4,7 @@ title: LsaEnumerateAccountRights function (ntsecapi.h)
 description: The LsaEnumerateAccountRights function enumerates the privileges assigned to an account.
 helpviewer_keywords: ["LsaEnumerateAccountRights","LsaEnumerateAccountRights function [Security]","_lsa_lsaenumerateaccountrights","ntsecapi/LsaEnumerateAccountRights","security.lsaenumerateaccountrights"]
 old-location: security\lsaenumerateaccountrights.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 3f4a4a9a-66ca-410a-8bdc-c390e8b966e3
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountRights, LsaEnumerateAccountRights function [Security], _lsa_lsaenumerateaccountrights, ntsecapi/LsaEnumerateAccountRights, security.lsaenumerateaccountrights

@@ -4,7 +4,7 @@ title: IWSDInboundAttachment::Read (wsdattachment.h)
 description: Retrieves attachment data from a message sent by a remote host.
 helpviewer_keywords: ["IWSDInboundAttachment interface","Read method","IWSDInboundAttachment.Read","IWSDInboundAttachment::Read","Read","Read method","Read method","IWSDInboundAttachment interface","ncd.iwsdinboundattachment_read_method","wsdattachment/IWSDInboundAttachment::Read"]
 old-location: ncd\iwsdinboundattachment_read_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 66b8ce84-23b3-43f2-826d-c866b8bedab1
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment interface,Read method, IWSDInboundAttachment.Read, IWSDInboundAttachment::Read, Read, Read method, Read method,IWSDInboundAttachment interface, ncd.iwsdinboundattachment_read_method, wsdattachment/IWSDInboundAttachment::Read

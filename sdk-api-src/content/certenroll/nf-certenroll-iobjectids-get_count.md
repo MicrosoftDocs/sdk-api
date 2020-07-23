@@ -4,7 +4,7 @@ title: IObjectIds::get_Count (certenroll.h)
 description: Retrieves the number of objects in the collection.
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","IObjectIds interface","IObjectIds interface [Security]","Count property","IObjectIds.Count","IObjectIds.get_Count","IObjectIds::Count","IObjectIds::get_Count","certenroll/IObjectIds::Count","certenroll/IObjectIds::get_Count","get_Count","security.iobjectids_count_property"]
 old-location: security\iobjectids_count_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 21beb41d-ebbf-4925-8e21-4506cdaefb97
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IObjectIds interface, IObjectIds interface [Security],Count property, IObjectIds.Count, IObjectIds.get_Count, IObjectIds::Count, IObjectIds::get_Count, certenroll/IObjectIds::Count, certenroll/IObjectIds::get_Count, get_Count, security.iobjectids_count_property

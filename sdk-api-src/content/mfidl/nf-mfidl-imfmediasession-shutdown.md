@@ -4,7 +4,7 @@ title: IMFMediaSession::Shutdown (mfidl.h)
 description: Shuts down the Media Session and releases all the resources used by the Media Session.
 helpviewer_keywords: ["5b9663c2-e32e-4075-b397-59ae01558e15","IMFMediaSession interface [Media Foundation]","Shutdown method","IMFMediaSession.Shutdown","IMFMediaSession::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFMediaSession interface","mf.imfmediasession_shutdown","mfidl/IMFMediaSession::Shutdown"]
 old-location: mf\imfmediasession_shutdown.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5b9663c2-e32e-4075-b397-59ae01558e15
 ms.date: 12/05/2018
 ms.keywords: 5b9663c2-e32e-4075-b397-59ae01558e15, IMFMediaSession interface [Media Foundation],Shutdown method, IMFMediaSession.Shutdown, IMFMediaSession::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_shutdown, mfidl/IMFMediaSession::Shutdown

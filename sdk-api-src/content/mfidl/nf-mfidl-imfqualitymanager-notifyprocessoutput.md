@@ -4,7 +4,7 @@ title: IMFQualityManager::NotifyProcessOutput (mfidl.h)
 description: Called after the media processor gets an output sample from a pipeline component.
 helpviewer_keywords: ["90596111-6fbc-4249-a696-bd575cb66830","IMFQualityManager interface [Media Foundation]","NotifyProcessOutput method","IMFQualityManager.NotifyProcessOutput","IMFQualityManager::NotifyProcessOutput","NotifyProcessOutput","NotifyProcessOutput method [Media Foundation]","NotifyProcessOutput method [Media Foundation]","IMFQualityManager interface","mf.imfqualitymanager_notifyprocessoutput","mfidl/IMFQualityManager::NotifyProcessOutput"]
 old-location: mf\imfqualitymanager_notifyprocessoutput.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 90596111-6fbc-4249-a696-bd575cb66830
 ms.date: 12/05/2018
 ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager interface [Media Foundation],NotifyProcessOutput method, IMFQualityManager.NotifyProcessOutput, IMFQualityManager::NotifyProcessOutput, NotifyProcessOutput, NotifyProcessOutput method [Media Foundation], NotifyProcessOutput method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifyprocessoutput, mfidl/IMFQualityManager::NotifyProcessOutput

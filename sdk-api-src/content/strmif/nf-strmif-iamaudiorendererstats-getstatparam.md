@@ -4,7 +4,7 @@ title: IAMAudioRendererStats::GetStatParam (strmif.h)
 description: The GetStatParam method retrieves performance information from the audio renderer.
 helpviewer_keywords: ["GetStatParam","GetStatParam method [DirectShow]","GetStatParam method [DirectShow]","IAMAudioRendererStats interface","IAMAudioRendererStats interface [DirectShow]","GetStatParam method","IAMAudioRendererStats.GetStatParam","IAMAudioRendererStats::GetStatParam","IAMAudioRendererStatsGetStatParam","dshow.iamaudiorendererstats_getstatparam","strmif/IAMAudioRendererStats::GetStatParam"]
 old-location: dshow\iamaudiorendererstats_getstatparam.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
 ms.date: 12/05/2018
 ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method [DirectShow],IAMAudioRendererStats interface, IAMAudioRendererStats interface [DirectShow],GetStatParam method, IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam

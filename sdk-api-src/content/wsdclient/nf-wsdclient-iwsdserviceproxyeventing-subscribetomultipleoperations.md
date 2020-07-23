@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::SubscribeToMultipleOperations (wsdclient.h)
 description: Subscribes to a collection of notifications or solicit/response events.
 helpviewer_keywords: ["IWSDServiceProxyEventing interface","SubscribeToMultipleOperations method","IWSDServiceProxyEventing.SubscribeToMultipleOperations","IWSDServiceProxyEventing::SubscribeToMultipleOperations","SubscribeToMultipleOperations","SubscribeToMultipleOperations method","SubscribeToMultipleOperations method","IWSDServiceProxyEventing interface","ncd.iwsdserviceproxyeventing_subscribetomultipleoperations","wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations"]
 old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 0df5b429-5b6e-4cef-af05-7f615c93aa0f
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing interface,SubscribeToMultipleOperations method, IWSDServiceProxyEventing.SubscribeToMultipleOperations, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations

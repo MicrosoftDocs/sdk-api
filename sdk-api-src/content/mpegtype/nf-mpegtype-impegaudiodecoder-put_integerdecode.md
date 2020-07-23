@@ -4,7 +4,7 @@ title: IMpegAudioDecoder::put_IntegerDecode (mpegtype.h)
 description: Specifies whether the decoder will use integer-based decoding.
 helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","put_IntegerDecode method","IMpegAudioDecoder.put_IntegerDecode","IMpegAudioDecoder::put_IntegerDecode","IMpegAudioDecoderputIntegerDecode","dshow.impegaudiodecoder_put_integerdecode","mpegtype/IMpegAudioDecoder::put_IntegerDecode","put_IntegerDecode","put_IntegerDecode method [DirectShow]","put_IntegerDecode method [DirectShow]","IMpegAudioDecoder interface"]
 old-location: dshow\impegaudiodecoder_put_integerdecode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_IntegerDecode method, IMpegAudioDecoder.put_IntegerDecode, IMpegAudioDecoder::put_IntegerDecode, IMpegAudioDecoderputIntegerDecode, dshow.impegaudiodecoder_put_integerdecode, mpegtype/IMpegAudioDecoder::put_IntegerDecode, put_IntegerDecode, put_IntegerDecode method [DirectShow], put_IntegerDecode method [DirectShow],IMpegAudioDecoder interface

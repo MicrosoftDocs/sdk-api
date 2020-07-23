@@ -4,7 +4,7 @@ title: IDirectDrawMediaStream::CreateSample (ddstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Creates a stream sample using the specified DirectDraw surface object.
 helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","CreateSample method","IDirectDrawMediaStream.CreateSample","IDirectDrawMediaStream::CreateSample","IDirectDrawMediaStreamCreateSample","ddstream/IDirectDrawMediaStream::CreateSample","dshow.idirectdrawmediastream_createsample"]
 old-location: dshow\idirectdrawmediastream_createsample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample

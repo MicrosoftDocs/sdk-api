@@ -4,7 +4,7 @@ title: PeerGraphFreeData function (p2p.h)
 description: The PeerGraphFreeData function frees resources that several of the Peer Graphing API functions return.
 helpviewer_keywords: ["PeerGraphFreeData","PeerGraphFreeData function [Peer Networking]","p2p.peergraphfreedata","p2p/PeerGraphFreeData"]
 old-location: p2p\peergraphfreedata.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: a5b7d563-214a-48e0-b184-0c12d62fb125
 ms.date: 12/05/2018
 ms.keywords: PeerGraphFreeData, PeerGraphFreeData function [Peer Networking], p2p.peergraphfreedata, p2p/PeerGraphFreeData

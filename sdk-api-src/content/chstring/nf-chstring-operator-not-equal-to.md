@@ -2,6 +2,7 @@
 UID: NF:chstring.operator-not-equal-to
 title: operator!=
 description: 
+tech.root: wmi
 helpviewer_keywords: ["operator!="]
 ms.assetid: 5ab84140-31c8-4759-aaee-f79408e7d61c
 ms.date: 05/20/2019

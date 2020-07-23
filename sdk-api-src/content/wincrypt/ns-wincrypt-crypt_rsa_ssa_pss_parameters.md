@@ -4,7 +4,7 @@ title: CRYPT_RSA_SSA_PSS_PARAMETERS (wincrypt.h)
 description: Contains the parameters for an RSA PKCS
 helpviewer_keywords: ["*PCRYPT_RSA_SSA_PSS_PARAMETERS","CRYPT_RSA_SSA_PSS_PARAMETERS","CRYPT_RSA_SSA_PSS_PARAMETERS structure [Security]","PCRYPT_RSA_SSA_PSS_PARAMETERS","PCRYPT_RSA_SSA_PSS_PARAMETERS structure pointer [Security]","security.crypt_rsa_ssa_pss_parameters","wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS","wincrypt/PCRYPT_RSA_SSA_PSS_PARAMETERS"]
 old-location: security\crypt_rsa_ssa_pss_parameters.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3887e6c7-17df-42d3-82b1-a8f410321ba0
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS structure [Security], PCRYPT_RSA_SSA_PSS_PARAMETERS, PCRYPT_RSA_SSA_PSS_PARAMETERS structure pointer [Security], security.crypt_rsa_ssa_pss_parameters, wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS, wincrypt/PCRYPT_RSA_SSA_PSS_PARAMETERS'

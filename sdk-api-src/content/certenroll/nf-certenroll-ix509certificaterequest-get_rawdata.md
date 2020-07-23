@@ -4,7 +4,7 @@ title: IX509CertificateRequest::get_RawData (certenroll.h)
 description: Retrieves a byte array that contains the signed, Distinguished Encoding Rules (DER) encoded certificate request.
 helpviewer_keywords: ["IX509CertificateRequest interface [Security]","RawData property","IX509CertificateRequest.RawData","IX509CertificateRequest.get_RawData","IX509CertificateRequest::RawData","IX509CertificateRequest::get_RawData","RawData property [Security]","RawData property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::RawData","certenroll/IX509CertificateRequest::get_RawData","get_RawData","security.ix509certificaterequest_rawdata_property"]
 old-location: security\ix509certificaterequest_rawdata_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1830a569-03a4-4692-adbf-b627bf4370a1
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],RawData property, IX509CertificateRequest.RawData, IX509CertificateRequest.get_RawData, IX509CertificateRequest::RawData, IX509CertificateRequest::get_RawData, RawData property [Security], RawData property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RawData, certenroll/IX509CertificateRequest::get_RawData, get_RawData, security.ix509certificaterequest_rawdata_property

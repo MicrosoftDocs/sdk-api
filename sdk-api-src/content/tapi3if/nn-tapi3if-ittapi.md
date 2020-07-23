@@ -4,7 +4,7 @@ title: ITTAPI (tapi3if.h)
 description: The ITTAPI interface is the base interface for the TAPI object. The TAPI object is created by CoCreateInstance. For information on CoCreateInstance, see documentation on COM. All other TAPI 3 objects are created by TAPI 3 itself.
 helpviewer_keywords: ["ITTAPI","ITTAPI interface [TAPI 2.2]","ITTAPI interface [TAPI 2.2]","described","_tapi3_ittapi","tapi3.ittapi","tapi3if/ITTAPI"]
 old-location: tapi3\ittapi.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 75d641c7-dbf8-4ae2-b16b-2757e890d32b
 ms.date: 12/05/2018
 ms.keywords: ITTAPI, ITTAPI interface [TAPI 2.2], ITTAPI interface [TAPI 2.2],described, _tapi3_ittapi, tapi3.ittapi, tapi3if/ITTAPI

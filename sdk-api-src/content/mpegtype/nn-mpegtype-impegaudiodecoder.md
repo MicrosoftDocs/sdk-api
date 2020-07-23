@@ -4,7 +4,7 @@ title: IMpegAudioDecoder (mpegtype.h)
 description: The IMpegAudioDecoder interface is exposed on the MPEG-1 Audio Decoder filter and it enables applications to control decoding parameters.
 helpviewer_keywords: ["IMpegAudioDecoder","IMpegAudioDecoder interface [DirectShow]","IMpegAudioDecoder interface [DirectShow]","described","IMpegAudioDecoderInterface","dshow.impegaudiodecoder","mpegtype/IMpegAudioDecoder"]
 old-location: dshow\impegaudiodecoder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 59fd96ef-2f9a-4a8e-bd08-2695de52b1c6
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegAudioDecoder interface [DirectShow],described, IMpegAudioDecoderInterface, dshow.impegaudiodecoder, mpegtype/IMpegAudioDecoder

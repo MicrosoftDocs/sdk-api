@@ -4,7 +4,7 @@ title: IVssEnumMgmtObject::Skip (vsmgmt.h)
 description: Skips the specified number of objects.
 helpviewer_keywords: ["IVssEnumMgmtObject interface [VSS]","Skip method","IVssEnumMgmtObject.Skip","IVssEnumMgmtObject::Skip","Skip","Skip method [VSS]","Skip method [VSS]","IVssEnumMgmtObject interface","base.ivssenummgmtobject_skip","vsmgmt/IVssEnumMgmtObject::Skip"]
 old-location: base\ivssenummgmtobject_skip.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ec53ac62-deb3-46f3-947a-1f6a4add4db2
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Skip method, IVssEnumMgmtObject.Skip, IVssEnumMgmtObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_skip, vsmgmt/IVssEnumMgmtObject::Skip

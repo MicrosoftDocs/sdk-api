@@ -4,7 +4,7 @@ title: IMFPluginControl::SetPreferredClsid (mfobjects.h)
 description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
 helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","SetPreferredClsid method","IMFPluginControl.SetPreferredClsid","IMFPluginControl::SetPreferredClsid","SetPreferredClsid","SetPreferredClsid method [Media Foundation]","SetPreferredClsid method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__setpreferredclsid","mfobjects/IMFPluginControl::SetPreferredClsid"]
 old-location: mf\imfplugincontrol_imfplugincontrol__setpreferredclsid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c2362150-bb99-43d4-a6e6-7dc240e9826e
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetPreferredClsid method, IMFPluginControl.SetPreferredClsid, IMFPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [Media Foundation], SetPreferredClsid method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setpreferredclsid, mfobjects/IMFPluginControl::SetPreferredClsid

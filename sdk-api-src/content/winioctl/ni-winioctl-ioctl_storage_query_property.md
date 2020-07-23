@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_QUERY_PROPERTY
 description: Windows applications can use this control code to return the properties of a storage device or adapter.
 helpviewer_keywords: ["IOCTL_STORAGE_QUERY_PROPERTY","IOCTL_STORAGE_QUERY_PROPERTY control","IOCTL_STORAGE_QUERY_PROPERTY control code [Files]","fs.ioctl_storage_query_property","winioctl/IOCTL_STORAGE_QUERY_PROPERTY"]
 old-location: fs\ioctl_storage_query_property.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6755dcd4-e4a0-423f-9dcc-b9719c8e5c88
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY

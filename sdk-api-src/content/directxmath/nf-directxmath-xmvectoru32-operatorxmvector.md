@@ -2,6 +2,7 @@
 UID: NF:directxmath.XMVECTORU32.operatorXMVECTOR
 title: XMVECTORU32::operator XMVECTOR
 description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORU32.
+tech.root: dxmath
 helpviewer_keywords: ["XMVECTORU32::operator XMVECTOR"]
 ms.assetid: cda61fd5-8dc5-418d-ad92-5d5d28306afa
 ms.date: 05/13/2019

@@ -4,7 +4,7 @@ title: SetupDecompressOrCopyFileW function (setupapi.h)
 description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary.
 helpviewer_keywords: ["SetupDecompressOrCopyFile","SetupDecompressOrCopyFile function [Setup API]","SetupDecompressOrCopyFileA","SetupDecompressOrCopyFileW","_setupapi_setupdecompressorcopyfile","setup.setupdecompressorcopyfile","setupapi/SetupDecompressOrCopyFile","setupapi/SetupDecompressOrCopyFileA","setupapi/SetupDecompressOrCopyFileW"]
 old-location: setup\setupdecompressorcopyfile.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
 ms.date: 12/05/2018
 ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW

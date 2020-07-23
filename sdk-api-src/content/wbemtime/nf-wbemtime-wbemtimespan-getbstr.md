@@ -4,7 +4,7 @@ title: WBEMTimeSpan::GetBSTR (wbemtime.h)
 description: The GetBSTR method gets the time span as a BSTR in Date and Time format.
 helpviewer_keywords: ["GetBSTR","GetBSTR method [Windows Management Instrumentation]","GetBSTR method [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","GetBSTR method","WBEMTimeSpan.GetBSTR","WBEMTimeSpan::GetBSTR","_hmm_wbemtimespan_getbstr","wbemtime/WBEMTimeSpan::GetBSTR","wmi.wbemtimespan_getbstr"]
 old-location: wmi\wbemtimespan_getbstr.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: f5db5a7a-0590-4598-bde7-e90cfc7cd932
 ms.date: 12/05/2018
 ms.keywords: GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetBSTR method, WBEMTimeSpan.GetBSTR, WBEMTimeSpan::GetBSTR, _hmm_wbemtimespan_getbstr, wbemtime/WBEMTimeSpan::GetBSTR, wmi.wbemtimespan_getbstr

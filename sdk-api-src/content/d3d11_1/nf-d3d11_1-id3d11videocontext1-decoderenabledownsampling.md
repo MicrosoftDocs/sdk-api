@@ -4,7 +4,7 @@ title: ID3D11VideoContext1::DecoderEnableDownsampling (d3d11_1.h)
 description: Indicates that decoder downsampling will be used and that the driver should allocate the appropriate reference frames.
 helpviewer_keywords: ["DecoderEnableDownsampling","DecoderEnableDownsampling method [Media Foundation]","DecoderEnableDownsampling method [Media Foundation]","ID3D11VideoContext1 interface","ID3D11VideoContext1 interface [Media Foundation]","DecoderEnableDownsampling method","ID3D11VideoContext1.DecoderEnableDownsampling","ID3D11VideoContext1::DecoderEnableDownsampling","d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling","mf.id3d11videocontext1_decoderenabledownsampling"]
 old-location: mf\id3d11videocontext1_decoderenabledownsampling.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
 ms.date: 12/05/2018
 ms.keywords: DecoderEnableDownsampling, DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderEnableDownsampling method, ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling

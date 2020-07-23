@@ -4,7 +4,7 @@ title: MFStartup function (mfapi.h)
 description: Initializes Microsoft Media Foundation.
 helpviewer_keywords: ["MFStartup","MFStartup function [Media Foundation]","b4472e40-3681-4b26-9385-4df7bf19c2d8","mf.mfstartup","mfapi/MFStartup"]
 old-location: mf\mfstartup.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b4472e40-3681-4b26-9385-4df7bf19c2d8
 ms.date: 12/05/2018
 ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b26-9385-4df7bf19c2d8, mf.mfstartup, mfapi/MFStartup

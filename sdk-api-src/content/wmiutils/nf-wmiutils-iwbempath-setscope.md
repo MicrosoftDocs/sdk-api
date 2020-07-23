@@ -4,7 +4,7 @@ title: IWbemPath::SetScope (wmiutils.h)
 description: The IWbemPath::SetScope method sets a scope in the path based upon an index. The index is always 0 (zero) and the scope is the class or key portion of the path. This method also sets the class name.
 helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","SetScope method","IWbemPath.SetScope","IWbemPath::SetScope","SetScope","SetScope method [Windows Management Instrumentation]","SetScope method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_setscope","wmi.iwbempath_setscope","wmiutils/IWbemPath::SetScope"]
 old-location: wmi\iwbempath_setscope.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 0b4597ec-0d08-4929-9591-21588ded66bb
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetScope method, IWbemPath.SetScope, IWbemPath::SetScope, SetScope, SetScope method [Windows Management Instrumentation], SetScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setscope, wmi.iwbempath_setscope, wmiutils/IWbemPath::SetScope

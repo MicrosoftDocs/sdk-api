@@ -4,7 +4,7 @@ title: TMGR_DIRECTION (termmgr.h)
 description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
 helpviewer_keywords: ["TMGR_DIRECTION","TMGR_DIRECTION enumeration [TAPI 2.2]","TMGR_TD_BOTH","TMGR_TD_CAPTURE","TMGR_TD_RENDER","_tapi3_tmgr_direction","tapi3.tmgr_direction","termmgr/TMGR_DIRECTION","termmgr/TMGR_TD_BOTH","termmgr/TMGR_TD_CAPTURE","termmgr/TMGR_TD_RENDER"]
 old-location: tapi3\tmgr_direction.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
 ms.date: 12/05/2018
 ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH, TMGR_TD_CAPTURE, TMGR_TD_RENDER, _tapi3_tmgr_direction, tapi3.tmgr_direction, termmgr/TMGR_DIRECTION, termmgr/TMGR_TD_BOTH, termmgr/TMGR_TD_CAPTURE, termmgr/TMGR_TD_RENDER

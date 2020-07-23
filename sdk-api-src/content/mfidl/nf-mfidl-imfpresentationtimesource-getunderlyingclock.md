@@ -4,7 +4,7 @@ title: IMFPresentationTimeSource::GetUnderlyingClock (mfidl.h)
 description: Retrieves the underlying clock that the presentation time source uses to generate its clock times.
 helpviewer_keywords: ["09c8fef8-7288-4356-9671-4c927c0cf502","GetUnderlyingClock","GetUnderlyingClock method [Media Foundation]","GetUnderlyingClock method [Media Foundation]","IMFPresentationTimeSource interface","IMFPresentationTimeSource interface [Media Foundation]","GetUnderlyingClock method","IMFPresentationTimeSource.GetUnderlyingClock","IMFPresentationTimeSource::GetUnderlyingClock","mf.imfpresentationtimesource_getunderlyingclock","mfidl/IMFPresentationTimeSource::GetUnderlyingClock"]
 old-location: mf\imfpresentationtimesource_getunderlyingclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 09c8fef8-7288-4356-9671-4c927c0cf502
 ms.date: 12/05/2018
 ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock, GetUnderlyingClock method [Media Foundation], GetUnderlyingClock method [Media Foundation],IMFPresentationTimeSource interface, IMFPresentationTimeSource interface [Media Foundation],GetUnderlyingClock method, IMFPresentationTimeSource.GetUnderlyingClock, IMFPresentationTimeSource::GetUnderlyingClock, mf.imfpresentationtimesource_getunderlyingclock, mfidl/IMFPresentationTimeSource::GetUnderlyingClock

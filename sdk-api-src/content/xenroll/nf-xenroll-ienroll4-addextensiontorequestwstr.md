@@ -4,7 +4,7 @@ title: IEnroll4::addExtensionToRequestWStr (xenroll.h)
 description: Adds an extension to the request.
 helpviewer_keywords: ["IEnroll4 interface [Security]","addExtensionToRequestWStr method","IEnroll4.addExtensionToRequestWStr","IEnroll4::addExtensionToRequestWStr","addExtensionToRequestWStr","addExtensionToRequestWStr method [Security]","addExtensionToRequestWStr method [Security]","IEnroll4 interface","security.ienroll4_addextensiontorequestwstr","xenroll/IEnroll4::addExtensionToRequestWStr"]
 old-location: security\ienroll4_addextensiontorequestwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],addExtensionToRequestWStr method, IEnroll4.addExtensionToRequestWStr, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr

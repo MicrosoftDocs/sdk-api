@@ -4,7 +4,7 @@ title: IMFTrackedSample::SetAllocator (mfidl.h)
 description: Sets the owner for the sample.
 helpviewer_keywords: ["IMFTrackedSample interface [Media Foundation]","SetAllocator method","IMFTrackedSample.SetAllocator","IMFTrackedSample::SetAllocator","SetAllocator","SetAllocator method [Media Foundation]","SetAllocator method [Media Foundation]","IMFTrackedSample interface","eb9ffeb3-60af-4cef-bbbc-f4be53d48df0","mf.imftrackedsample_setallocator","mfidl/IMFTrackedSample::SetAllocator"]
 old-location: mf\imftrackedsample_setallocator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: eb9ffeb3-60af-4cef-bbbc-f4be53d48df0
 ms.date: 12/05/2018
 ms.keywords: IMFTrackedSample interface [Media Foundation],SetAllocator method, IMFTrackedSample.SetAllocator, IMFTrackedSample::SetAllocator, SetAllocator, SetAllocator method [Media Foundation], SetAllocator method [Media Foundation],IMFTrackedSample interface, eb9ffeb3-60af-4cef-bbbc-f4be53d48df0, mf.imftrackedsample_setallocator, mfidl/IMFTrackedSample::SetAllocator

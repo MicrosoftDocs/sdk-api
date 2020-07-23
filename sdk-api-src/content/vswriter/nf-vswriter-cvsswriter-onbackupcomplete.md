@@ -4,7 +4,7 @@ title: CVssWriter::OnBackupComplete (vswriter.h)
 description: The OnBackupComplete method is called by a writer following a BackupComplete event. It is used to perform operations considered necessary following a backup. These operations cannot, however, modify the Backup Components Document.
 helpviewer_keywords: ["CVssWriter interface [VSS]","OnBackupComplete method","CVssWriter.OnBackupComplete","CVssWriter::OnBackupComplete","OnBackupComplete","OnBackupComplete method [VSS]","OnBackupComplete method [VSS]","CVssWriter interface","_win32_cvsswriter_onbackupcomplete","base.cvsswriter_onbackupcomplete","vswriter/CVssWriter::OnBackupComplete"]
 old-location: base\cvsswriter_onbackupcomplete.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 77d0621d-81bd-4d53-8e5d-f5d3bfd86013
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnBackupComplete method, CVssWriter.OnBackupComplete, CVssWriter::OnBackupComplete, OnBackupComplete, OnBackupComplete method [VSS], OnBackupComplete method [VSS],CVssWriter interface, _win32_cvsswriter_onbackupcomplete, base.cvsswriter_onbackupcomplete, vswriter/CVssWriter::OnBackupComplete

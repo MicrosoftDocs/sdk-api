@@ -4,7 +4,7 @@ title: IEnroll2::GetSupportedKeySpec (xenroll.h)
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations.
 helpviewer_keywords: ["GetSupportedKeySpec","GetSupportedKeySpec method [Security]","GetSupportedKeySpec method [Security]","IEnroll2 interface","IEnroll2 interface [Security]","GetSupportedKeySpec method","IEnroll2.GetSupportedKeySpec","IEnroll2::GetSupportedKeySpec","security.ienroll4_getsupportedkeyspec","xenroll/IEnroll2::GetSupportedKeySpec"]
 old-location: security\ienroll4_getsupportedkeyspec.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
 ms.date: 12/05/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec

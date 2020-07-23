@@ -4,7 +4,7 @@ title: lineSetAgentActivity function (tapi.h)
 description: The lineSetAgentActivity function sets the agent activity code associated with a particular address.
 helpviewer_keywords: ["_tapi2_linesetagentactivity","lineSetAgentActivity","lineSetAgentActivity function [TAPI 2.2]","tapi/lineSetAgentActivity","tapi2.linesetagentactivity"]
 old-location: tapi2\linesetagentactivity.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2c46e1cb-e2d7-4cb5-b937-55011058fd15
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetagentactivity, lineSetAgentActivity, lineSetAgentActivity function [TAPI 2.2], tapi/lineSetAgentActivity, tapi2.linesetagentactivity

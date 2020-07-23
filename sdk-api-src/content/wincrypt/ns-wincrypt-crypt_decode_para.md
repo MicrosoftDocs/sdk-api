@@ -4,7 +4,7 @@ title: CRYPT_DECODE_PARA (wincrypt.h)
 description: Used by the CryptDecodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 helpviewer_keywords: ["*PCRYPT_DECODE_PARA","CRYPT_DECODE_PARA","CRYPT_DECODE_PARA structure [Security]","PCRYPT_DECODE_PARA","PCRYPT_DECODE_PARA structure pointer [Security]","security.crypt_decode_para","wincrypt/CRYPT_DECODE_PARA","wincrypt/PCRYPT_DECODE_PARA"]
 old-location: security\crypt_decode_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_DECODE_PARA, CRYPT_DECODE_PARA, CRYPT_DECODE_PARA structure [Security], PCRYPT_DECODE_PARA, PCRYPT_DECODE_PARA structure pointer [Security], security.crypt_decode_para, wincrypt/CRYPT_DECODE_PARA, wincrypt/PCRYPT_DECODE_PARA'

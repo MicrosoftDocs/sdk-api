@@ -4,7 +4,7 @@ title: IVMRMixerControl9::SetOutputRect (vmr9.h)
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
 helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetOutputRect method","IVMRMixerControl9.SetOutputRect","IVMRMixerControl9::SetOutputRect","IVMRMixerControl9SetOutputRect","SetOutputRect","SetOutputRect method [DirectShow]","SetOutputRect method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setoutputrect","vmr9/IVMRMixerControl9::SetOutputRect"]
 old-location: dshow\ivmrmixercontrol9_setoutputrect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d09d2e90-e121-46e0-a659-e7bae4432031
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetOutputRect method, IVMRMixerControl9.SetOutputRect, IVMRMixerControl9::SetOutputRect, IVMRMixerControl9SetOutputRect, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setoutputrect, vmr9/IVMRMixerControl9::SetOutputRect

@@ -4,7 +4,7 @@ title: IMFPMediaItem::GetPresentationAttribute (mfplay.h)
 description: Queries the media item for a presentation attribute.
 helpviewer_keywords: ["GetPresentationAttribute","GetPresentationAttribute method [Media Foundation]","GetPresentationAttribute method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetPresentationAttribute method","IMFPMediaItem.GetPresentationAttribute","IMFPMediaItem::GetPresentationAttribute","mf.imfpmediaitem_getpresentationattribute","mfplay/IMFPMediaItem::GetPresentationAttribute"]
 old-location: mf\imfpmediaitem_getpresentationattribute.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d6600009-a8da-4464-9df7-08f20a1a6b15
 ms.date: 12/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetPresentationAttribute method, IMFPMediaItem.GetPresentationAttribute, IMFPMediaItem::GetPresentationAttribute, mf.imfpmediaitem_getpresentationattribute, mfplay/IMFPMediaItem::GetPresentationAttribute

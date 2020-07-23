@@ -4,7 +4,7 @@ title: IX509PolicyServerUrl::put_Url (certenroll.h)
 description: Specifies or retrieves the URL for the certificate enrollment policy (CEP) server.
 helpviewer_keywords: ["IX509PolicyServerUrl interface [Security]","Url property","IX509PolicyServerUrl.Url","IX509PolicyServerUrl.put_Url","IX509PolicyServerUrl::Url","IX509PolicyServerUrl::get_Url","IX509PolicyServerUrl::put_Url","Url property [Security]","Url property [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::Url","certenroll/IX509PolicyServerUrl::get_Url","certenroll/IX509PolicyServerUrl::put_Url","put_Url","security.ix509policyserverurl_url"]
 old-location: security\ix509policyserverurl_url.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ea45a003-357b-469a-b932-66fa13ae80b1
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],Url property, IX509PolicyServerUrl.Url, IX509PolicyServerUrl.put_Url, IX509PolicyServerUrl::Url, IX509PolicyServerUrl::get_Url, IX509PolicyServerUrl::put_Url, Url property [Security], Url property [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Url, certenroll/IX509PolicyServerUrl::get_Url, certenroll/IX509PolicyServerUrl::put_Url, put_Url, security.ix509policyserverurl_url

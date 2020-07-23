@@ -4,7 +4,7 @@ title: GlobalDiscard macro (winbase.h)
 description: Discards the specified global memory block.
 helpviewer_keywords: ["GlobalDiscard","GlobalDiscard macro","_win32_globaldiscard","base.globaldiscard","winbase/GlobalDiscard"]
 old-location: base\globaldiscard.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
 ms.date: 12/05/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard

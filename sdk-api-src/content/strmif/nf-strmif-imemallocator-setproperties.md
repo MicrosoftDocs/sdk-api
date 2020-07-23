@@ -4,7 +4,7 @@ title: IMemAllocator::SetProperties (strmif.h)
 description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
 helpviewer_keywords: ["IMemAllocator interface [DirectShow]","SetProperties method","IMemAllocator.SetProperties","IMemAllocator::SetProperties","IMemAllocatorSetProperties","SetProperties","SetProperties method [DirectShow]","SetProperties method [DirectShow]","IMemAllocator interface","dshow.imemallocator_setproperties","strmif/IMemAllocator::SetProperties"]
 old-location: dshow\imemallocator_setproperties.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c68f2e2f-c70f-447d-804b-dfdfe8ae8a52
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties

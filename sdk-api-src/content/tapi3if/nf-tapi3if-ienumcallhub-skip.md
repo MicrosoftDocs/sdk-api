@@ -4,7 +4,7 @@ title: IEnumCallHub::Skip (tapi3if.h)
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 helpviewer_keywords: ["IEnumCallHub interface [TAPI 2.2]","Skip method","IEnumCallHub.Skip","IEnumCallHub::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumCallHub interface","_tapi3_ienumcallhub_skip","tapi3.ienumcallhub_skip","tapi3if/IEnumCallHub::Skip"]
 old-location: tapi3\ienumcallhub_skip.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6650d0c7-d067-47fa-a597-c45924b03351
 ms.date: 12/05/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Skip method, IEnumCallHub.Skip, IEnumCallHub::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_skip, tapi3.ienumcallhub_skip, tapi3if/IEnumCallHub::Skip

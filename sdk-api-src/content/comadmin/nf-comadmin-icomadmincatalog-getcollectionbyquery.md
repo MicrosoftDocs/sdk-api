@@ -4,7 +4,7 @@ title: ICOMAdminCatalog::GetCollectionByQuery (comadmin.h)
 description: Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
 helpviewer_keywords: ["GetCollectionByQuery","GetCollectionByQuery method [COM+]","GetCollectionByQuery method [COM+]","ICOMAdminCatalog interface","ICOMAdminCatalog interface [COM+]","GetCollectionByQuery method","ICOMAdminCatalog.GetCollectionByQuery","ICOMAdminCatalog::GetCollectionByQuery","_cos_ICOMAdminCatalog_GetCollectionByQuery","comadmin/ICOMAdminCatalog::GetCollectionByQuery","cos.icomadmincatalog_getcollectionbyquery"]
 old-location: cos\icomadmincatalog_getcollectionbyquery.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
 ms.date: 12/05/2018
 ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollectionByQuery method, ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery

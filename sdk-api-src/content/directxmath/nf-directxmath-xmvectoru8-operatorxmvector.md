@@ -2,6 +2,7 @@
 UID: NF:directxmath.XMVECTORU8.operator-cast-XMVECTOR
 title: XMVECTORU8::operator XMVECTOR
 description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORU8.
+tech.root: dxmath
 helpviewer_keywords: ["XMVECTORU8::operator XMVECTOR"]
 ms.assetid: 562f5db2-0135-46a2-8425-0941ea190714
 ms.date: 05/13/2019

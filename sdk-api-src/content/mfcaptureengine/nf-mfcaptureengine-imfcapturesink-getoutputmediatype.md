@@ -4,7 +4,7 @@ title: IMFCaptureSink::GetOutputMediaType (mfcaptureengine.h)
 description: Gets the output format for a stream on this capture sink.
 helpviewer_keywords: ["GetOutputMediaType","GetOutputMediaType method [Media Foundation]","GetOutputMediaType method [Media Foundation]","IMFCaptureSink interface","IMFCaptureSink interface [Media Foundation]","GetOutputMediaType method","IMFCaptureSink.GetOutputMediaType","IMFCaptureSink::GetOutputMediaType","mf.imfcapturesink_getoutputmediatype","mfcaptureengine/IMFCaptureSink::GetOutputMediaType"]
 old-location: mf\imfcapturesink_getoutputmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3F050964-9E71-45FC-9553-A2E7A397217E
 ms.date: 12/05/2018
 ms.keywords: GetOutputMediaType, GetOutputMediaType method [Media Foundation], GetOutputMediaType method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetOutputMediaType method, IMFCaptureSink.GetOutputMediaType, IMFCaptureSink::GetOutputMediaType, mf.imfcapturesink_getoutputmediatype, mfcaptureengine/IMFCaptureSink::GetOutputMediaType

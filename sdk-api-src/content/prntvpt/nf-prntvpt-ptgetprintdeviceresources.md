@@ -4,7 +4,7 @@ title: PTGetPrintDeviceResources function (prntvpt.h)
 description: It retrieves the print devices resources for a printer formatted in compliance with the XML Print Schema.
 helpviewer_keywords: ["PTGetPrintDeviceResources","PTGetPrintDeviceResources function [XPS Documents and Packaging]","prntvpt/PTGetPrintDeviceResources","xps.ptgetprintdeviceresources"]
 old-location: xps\ptgetprintdeviceresources.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 39F17562-B8EB-41AF-BA55-42FE35B4560F
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceResources, xps.ptgetprintdeviceresources

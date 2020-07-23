@@ -4,7 +4,7 @@ title: PeerIdentitySetFriendlyName function (p2p.h)
 description: The PeerIdentitySetFriendlyName function modifies the friendly name for a specified peer identity. The friendly name is the human-readable name.
 helpviewer_keywords: ["PeerIdentitySetFriendlyName","PeerIdentitySetFriendlyName function [Peer Networking]","p2p.peeridentitysetfriendlyname","p2p/PeerIdentitySetFriendlyName"]
 old-location: p2p\peeridentitysetfriendlyname.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 018e95b5-b817-44f8-909f-cc7c3edb84c8
 ms.date: 12/05/2018
 ms.keywords: PeerIdentitySetFriendlyName, PeerIdentitySetFriendlyName function [Peer Networking], p2p.peeridentitysetfriendlyname, p2p/PeerIdentitySetFriendlyName

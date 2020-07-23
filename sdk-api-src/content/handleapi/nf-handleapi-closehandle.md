@@ -4,7 +4,7 @@ title: CloseHandle function (handleapi.h)
 description: Closes an open object handle.
 helpviewer_keywords: ["CloseHandle","CloseHandle function","_win32_closehandle","base.closehandle","handleapi/CloseHandle"]
 old-location: base\closehandle.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 9b84891d-62ca-4ddc-97b7-c4c79482abd9
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closehandle, handleapi/CloseHandle

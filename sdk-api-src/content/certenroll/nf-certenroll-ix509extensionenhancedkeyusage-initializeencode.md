@@ -4,7 +4,7 @@ title: IX509ExtensionEnhancedKeyUsage::InitializeEncode (certenroll.h)
 description: Initializes the extension from a collection of IObjectId object identifiers (OIDs) that specify the intended uses of the public key.
 helpviewer_keywords: ["IX509ExtensionEnhancedKeyUsage interface [Security]","InitializeEncode method","IX509ExtensionEnhancedKeyUsage.InitializeEncode","IX509ExtensionEnhancedKeyUsage::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionEnhancedKeyUsage interface","certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode","security.ix509extensionenhancedkeyusage_initializeencode_method"]
 old-location: security\ix509extensionenhancedkeyusage_initializeencode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6cb12736-db5d-4d65-b32f-4bd11ceea01d
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeEncode method, IX509ExtensionEnhancedKeyUsage.InitializeEncode, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method

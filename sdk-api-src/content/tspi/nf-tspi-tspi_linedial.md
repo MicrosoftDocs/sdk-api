@@ -4,7 +4,7 @@ title: TSPI_lineDial function (tspi.h)
 description: The TSPI_lineDial function dials the specified dialable number on the specified call.
 helpviewer_keywords: ["TSPI_lineDial","TSPI_lineDial function [TAPI 2.2]","_tspi_tspi_linedial","tspi.tspi_linedial","tspi/TSPI_lineDial"]
 old-location: tspi\tspi_linedial.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8b24b9a3-af97-45dc-aaaf-d95ce9007ba8
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDial, TSPI_lineDial function [TAPI 2.2], _tspi_tspi_linedial, tspi.tspi_linedial, tspi/TSPI_lineDial

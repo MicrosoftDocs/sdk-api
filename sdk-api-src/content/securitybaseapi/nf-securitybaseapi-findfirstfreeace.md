@@ -4,7 +4,7 @@ title: FindFirstFreeAce function (securitybaseapi.h)
 description: Retrieves a pointer to the first free byte in an access control list (ACL).
 helpviewer_keywords: ["FindFirstFreeAce","FindFirstFreeAce function [Security]","_win32_findfirstfreeace","security.findfirstfreeace","securitybaseapi/FindFirstFreeAce"]
 old-location: security\findfirstfreeace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: bf770761-008a-4a35-b31f-b781d5a8622b
 ms.date: 12/05/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce

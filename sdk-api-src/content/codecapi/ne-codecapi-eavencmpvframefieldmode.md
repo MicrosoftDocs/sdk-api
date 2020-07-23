@@ -4,7 +4,7 @@ title: eAVEncMPVFrameFieldMode (codecapi.h)
 description: Specifies whether the encoder produces encoded fields or encoded frames. This enumeration is used with the AVEncMPVFrameFieldMode property.
 helpviewer_keywords: ["codecapi/eAVEncMPVFrameFieldMode","codecapi/eAVEncMPVFrameFieldMode_FieldMode","codecapi/eAVEncMPVFrameFieldMode_FrameMode","dshow.eavencmpvframefieldmode","eAVEncMPVFrameFieldMode","eAVEncMPVFrameFieldMode enumeration [DirectShow]","eAVEncMPVFrameFieldModeEnumeration","eAVEncMPVFrameFieldMode_FieldMode","eAVEncMPVFrameFieldMode_FrameMode"]
 old-location: dshow\eavencmpvframefieldmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4e1d683c-cbeb-4e40-a8d2-484d09323cb9
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVFrameFieldMode, codecapi/eAVEncMPVFrameFieldMode_FieldMode, codecapi/eAVEncMPVFrameFieldMode_FrameMode, dshow.eavencmpvframefieldmode, eAVEncMPVFrameFieldMode, eAVEncMPVFrameFieldMode enumeration [DirectShow], eAVEncMPVFrameFieldModeEnumeration, eAVEncMPVFrameFieldMode_FieldMode, eAVEncMPVFrameFieldMode_FrameMode

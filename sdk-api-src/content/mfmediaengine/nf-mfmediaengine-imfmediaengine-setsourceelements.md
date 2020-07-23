@@ -4,7 +4,7 @@ title: IMFMediaEngine::SetSourceElements (mfmediaengine.h)
 description: Sets a list of media sources.
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetSourceElements method","IMFMediaEngine.SetSourceElements","IMFMediaEngine::SetSourceElements","SetSourceElements","SetSourceElements method [Media Foundation]","SetSourceElements method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setsourceelements","mfmediaengine/IMFMediaEngine::SetSourceElements"]
 old-location: mf\imfmediaengine_setsourceelements.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSourceElements method, IMFMediaEngine.SetSourceElements, IMFMediaEngine::SetSourceElements, SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements

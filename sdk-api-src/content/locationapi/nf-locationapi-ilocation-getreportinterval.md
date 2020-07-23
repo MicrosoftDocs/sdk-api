@@ -4,7 +4,7 @@ title: ILocation::GetReportInterval (locationapi.h)
 description: Retrieves the requested amount of time, in milliseconds, between report events.
 helpviewer_keywords: ["GetReportInterval","GetReportInterval method [WinLocation]","GetReportInterval method [WinLocation]","ILocation interface","ILocation interface [WinLocation]","GetReportInterval method","ILocation.GetReportInterval","ILocation::GetReportInterval","WinLocation_COM_Ref.ilocation_getreportinterval","locationapi/ILocation::GetReportInterval"]
 old-location: winlocation_com_ref\ilocation_getreportinterval.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: c7bcd665-317c-428a-aa20-0d09c8d7a813
 ms.date: 12/05/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval

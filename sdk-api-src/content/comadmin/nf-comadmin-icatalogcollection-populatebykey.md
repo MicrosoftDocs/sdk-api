@@ -4,7 +4,7 @@ title: ICatalogCollection::PopulateByKey (comadmin.h)
 description: Populates a selected list of items in the collection from the COM+ catalog, based on the specified keys.
 helpviewer_keywords: ["ICatalogCollection interface [COM+]","PopulateByKey method","ICatalogCollection.PopulateByKey","ICatalogCollection::PopulateByKey","PopulateByKey","PopulateByKey method [COM+]","PopulateByKey method [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_PopulateByKey","comadmin/ICatalogCollection::PopulateByKey","cos.icatalogcollection_populatebykey"]
 old-location: cos\icatalogcollection_populatebykey.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 57329c32-2852-47ff-bf8c-dbb63f69841f
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByKey method, ICatalogCollection.PopulateByKey, ICatalogCollection::PopulateByKey, PopulateByKey, PopulateByKey method [COM+], PopulateByKey method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByKey, comadmin/ICatalogCollection::PopulateByKey, cos.icatalogcollection_populatebykey

@@ -4,7 +4,7 @@ title: IXpsOMVisual::SetLanguage (xpsobjectmodel.h)
 description: Sets the Language property of the visual.
 helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetLanguage method","IXpsOMVisual.SetLanguage","IXpsOMVisual::SetLanguage","SetLanguage","SetLanguage method [XPS Documents and Packaging]","SetLanguage method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_setlanguage","xpsobjectmodel/IXpsOMVisual::SetLanguage"]
 old-location: xps\ixpsomvisual_setlanguage.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 19a7c10d-ceea-4303-a655-a3cb8b910377
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetLanguage method, IXpsOMVisual.SetLanguage, IXpsOMVisual::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage

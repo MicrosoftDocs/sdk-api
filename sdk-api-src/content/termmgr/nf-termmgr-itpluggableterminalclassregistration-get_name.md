@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::get_Name (termmgr.h)
 description: The get_Name method gets the terminal's friendly name.
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Name method","ITPluggableTerminalClassRegistration.get_Name","ITPluggableTerminalClassRegistration::get_Name","_tapi3_itpluggableterminalclassregistration_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_name","termmgr/ITPluggableTerminalClassRegistration::get_Name"]
 old-location: tapi3\itpluggableterminalclassregistration_get_name.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0bbc0862-41d7-40cc-9b9d-57a2238122ee
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassRegistration.get_Name, ITPluggableTerminalClassRegistration::get_Name, _tapi3_itpluggableterminalclassregistration_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_name, termmgr/ITPluggableTerminalClassRegistration::get_Name

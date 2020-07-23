@@ -4,7 +4,7 @@ title: AddSIDToBoundaryDescriptor function (namespaceapi.h)
 description: Adds a security identifier (SID) to the specified boundary descriptor.
 helpviewer_keywords: ["AddSIDToBoundaryDescriptor","AddSIDToBoundaryDescriptor function","base.addsidtoboundarydescriptor","namespaceapi/AddSIDToBoundaryDescriptor","winbase/AddSIDToBoundaryDescriptor"]
 old-location: base\addsidtoboundarydescriptor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: c0dd01a0-1a08-43dc-8cef-dff290e73ca1
 ms.date: 12/05/2018
 ms.keywords: AddSIDToBoundaryDescriptor, AddSIDToBoundaryDescriptor function, base.addsidtoboundarydescriptor, namespaceapi/AddSIDToBoundaryDescriptor, winbase/AddSIDToBoundaryDescriptor

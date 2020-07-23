@@ -4,7 +4,7 @@ title: IX509PrivateKey::put_ExportPolicy (certenroll.h)
 description: Specifies or retrieves export constraints for a private key.
 helpviewer_keywords: ["ExportPolicy property [Security]","ExportPolicy property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","ExportPolicy property","IX509PrivateKey.ExportPolicy","IX509PrivateKey.put_ExportPolicy","IX509PrivateKey::ExportPolicy","IX509PrivateKey::get_ExportPolicy","IX509PrivateKey::put_ExportPolicy","XCN_NCRYPT_ALLOW_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_EXPORT_FLAG","XCN_NCRYPT_ALLOW_EXPORT_NONE","XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG","certenroll/IX509PrivateKey::ExportPolicy","certenroll/IX509PrivateKey::get_ExportPolicy","certenroll/IX509PrivateKey::put_ExportPolicy","put_ExportPolicy","security.ix509privatekey_exportpolicy"]
 old-location: security\ix509privatekey_exportpolicy.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e3f04252-fe49-48fb-9e77-8a05031abf5f
 ms.date: 12/05/2018
 ms.keywords: ExportPolicy property [Security], ExportPolicy property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ExportPolicy property, IX509PrivateKey.ExportPolicy, IX509PrivateKey.put_ExportPolicy, IX509PrivateKey::ExportPolicy, IX509PrivateKey::get_ExportPolicy, IX509PrivateKey::put_ExportPolicy, XCN_NCRYPT_ALLOW_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_EXPORT_FLAG, XCN_NCRYPT_ALLOW_EXPORT_NONE, XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG, certenroll/IX509PrivateKey::ExportPolicy, certenroll/IX509PrivateKey::get_ExportPolicy, certenroll/IX509PrivateKey::put_ExportPolicy, put_ExportPolicy, security.ix509privatekey_exportpolicy

@@ -4,7 +4,7 @@ title: OBJECTS_AND_SID (accctrl.h)
 description: Contains a security identifier (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific access control entry (ACE).
 helpviewer_keywords: ["*POBJECTS_AND_SID","ACE_INHERITED_OBJECT_TYPE_PRESENT","ACE_OBJECT_TYPE_PRESENT","OBJECTS_AND_SID","OBJECTS_AND_SID structure [Security]","POBJECTS_AND_SID","POBJECTS_AND_SID structure pointer [Security]","_OBJECTS_AND_SID","_win32_objects_and_sid_str","accctrl/OBJECTS_AND_SID","accctrl/POBJECTS_AND_SID","security.objects_and_sid"]
 old-location: security\objects_and_sid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 77ba8a3c-01e5-4a3e-835f-c7b9ef60035a
 ms.date: 12/05/2018
 ms.keywords: '*POBJECTS_AND_SID, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_SID, OBJECTS_AND_SID structure [Security], POBJECTS_AND_SID, POBJECTS_AND_SID structure pointer [Security], _OBJECTS_AND_SID, _win32_objects_and_sid_str, accctrl/OBJECTS_AND_SID, accctrl/POBJECTS_AND_SID, security.objects_and_sid'

@@ -4,7 +4,7 @@ title: IMFTopologyNode::SetObject (mfidl.h)
 description: Sets the object associated with this node.
 helpviewer_keywords: ["IMFTopologyNode interface [Media Foundation]","SetObject method","IMFTopologyNode.SetObject","IMFTopologyNode::SetObject","SetObject","SetObject method [Media Foundation]","SetObject method [Media Foundation]","IMFTopologyNode interface","bbef706d-a4a0-4ff3-bfdb-8ba39d70617c","mf.imftopologynode_setobject","mfidl/IMFTopologyNode::SetObject"]
 old-location: mf\imftopologynode_setobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bbef706d-a4a0-4ff3-bfdb-8ba39d70617c
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFTopologyNode.SetObject, IMFTopologyNode::SetObject, SetObject, SetObject method [Media Foundation], SetObject method [Media Foundation],IMFTopologyNode interface, bbef706d-a4a0-4ff3-bfdb-8ba39d70617c, mf.imftopologynode_setobject, mfidl/IMFTopologyNode::SetObject

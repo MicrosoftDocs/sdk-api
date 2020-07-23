@@ -4,7 +4,7 @@ title: IWSDDeviceProxy::GetServiceProxyByType (wsdclient.h)
 description: Retrieves a generic IWSDServiceProxy proxy for a service exposed by the device by port type name.
 helpviewer_keywords: ["GetServiceProxyByType","GetServiceProxyByType method","GetServiceProxyByType method","IWSDDeviceProxy interface","IWSDDeviceProxy interface","GetServiceProxyByType method","IWSDDeviceProxy.GetServiceProxyByType","IWSDDeviceProxy::GetServiceProxyByType","ncd.iwsddeviceproxy_getserviceproxybytype_method","wsdclient/IWSDDeviceProxy::GetServiceProxyByType"]
 old-location: ncd\iwsddeviceproxy_getserviceproxybytype_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 20df9a62-b983-40ed-a4bc-07131b80de6e
 ms.date: 12/05/2018
 ms.keywords: GetServiceProxyByType, GetServiceProxyByType method, GetServiceProxyByType method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyByType method, IWSDDeviceProxy.GetServiceProxyByType, IWSDDeviceProxy::GetServiceProxyByType, ncd.iwsddeviceproxy_getserviceproxybytype_method, wsdclient/IWSDDeviceProxy::GetServiceProxyByType

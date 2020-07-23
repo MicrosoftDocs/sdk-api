@@ -4,7 +4,7 @@ title: NCryptCreateClaim function (ncrypt.h)
 description: Creates a key attestation claim.
 helpviewer_keywords: ["NCryptCreateClaim","NCryptCreateClaim function [Security]","ncrypt/NCryptCreateClaim","security.ncryptcreateclaim"]
 old-location: security\ncryptcreateclaim.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim

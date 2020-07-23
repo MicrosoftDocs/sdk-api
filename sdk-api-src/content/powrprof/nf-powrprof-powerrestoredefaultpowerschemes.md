@@ -4,7 +4,7 @@ title: PowerRestoreDefaultPowerSchemes function (powrprof.h)
 description: Replaces the power schemes for the system with default power schemes. All current power schemes and settings are deleted and replaced with the default system power schemes.
 helpviewer_keywords: ["PowerRestoreDefaultPowerSchemes","PowerRestoreDefaultPowerSchemes function","base.powerrestoredefaultpowerschemes","powrprof/PowerRestoreDefaultPowerSchemes"]
 old-location: base\powerrestoredefaultpowerschemes.htm
-tech.root: power
+tech.root: base
 ms.assetid: 6d0a6167-34de-439b-afb4-2536c715905c
 ms.date: 12/05/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes

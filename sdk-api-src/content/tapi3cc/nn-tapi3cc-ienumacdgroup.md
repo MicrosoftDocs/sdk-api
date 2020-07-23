@@ -4,7 +4,7 @@ title: IEnumACDGroup (tapi3cc.h)
 description: The IEnumACDGroup interface provides COM-standard enumeration methods for the ITACDGroup interface. The ITAgentHandler::EnumerateACDGroups method returns a pointer to IEnumACDGroup.
 helpviewer_keywords: ["IEnumACDGroup","IEnumACDGroup interface [TAPI 2.2]","IEnumACDGroup interface [TAPI 2.2]","described","_tapi3_ienumacdgroup","tapi3.ienumacdgroup","tapi3cc/IEnumACDGroup"]
 old-location: tapi3\ienumacdgroup.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 301cd27e-00ac-44a4-b5c6-0efcb36ad974
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], IEnumACDGroup interface [TAPI 2.2],described, _tapi3_ienumacdgroup, tapi3.ienumacdgroup, tapi3cc/IEnumACDGroup

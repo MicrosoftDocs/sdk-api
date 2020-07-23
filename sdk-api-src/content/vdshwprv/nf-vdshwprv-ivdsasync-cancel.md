@@ -4,7 +4,7 @@ title: IVdsAsync::Cancel (vdshwprv.h)
 description: Cancels the asynchronous operation.
 helpviewer_keywords: ["Cancel","Cancel method [VDS]","Cancel method [VDS]","IVdsAsync interface","IVdsAsync interface [VDS]","Cancel method","IVdsAsync.Cancel","IVdsAsync::Cancel","base.ivdsasync_cancel","vds/IVdsAsync::Cancel","vdshwprv/IVdsAsync::Cancel"]
 old-location: base\ivdsasync_cancel.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel

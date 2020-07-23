@@ -2,6 +2,7 @@
 UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve(INconstPen,INconstPointF,ININT)
 title: Graphics::DrawClosedCurve
 description: The Graphics::DrawClosedCurve method draws a closed cardinal spline.
+tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawClosedCurve"]
 ms.assetid: 49d14771-2cfb-4b42-b0cd-e8f9ef209b32
 ms.date: 05/13/2019

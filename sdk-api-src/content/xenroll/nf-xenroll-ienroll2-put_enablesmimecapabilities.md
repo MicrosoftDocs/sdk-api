@@ -4,7 +4,7 @@ title: IEnroll2::put_EnableSMIMECapabilities (xenroll.h)
 description: Controls whether the PKCS
 helpviewer_keywords: ["EnableSMIMECapabilities property [Security]","EnableSMIMECapabilities property [Security]","IEnroll2 interface","IEnroll2 interface [Security]","EnableSMIMECapabilities property","IEnroll2.EnableSMIMECapabilities","IEnroll2.put_EnableSMIMECapabilities","IEnroll2::EnableSMIMECapabilities","IEnroll2::get_EnableSMIMECapabilities","IEnroll2::put_EnableSMIMECapabilities","put_EnableSMIMECapabilities","security.ienroll4_enablesmimecapabilities","xenroll/IEnroll2::EnableSMIMECapabilities","xenroll/IEnroll2::get_EnableSMIMECapabilities","xenroll/IEnroll2::put_EnableSMIMECapabilities"]
 old-location: security\ienroll4_enablesmimecapabilities.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e0571a8c-c682-44fd-a479-ace627b314b5
 ms.date: 12/05/2018
 ms.keywords: EnableSMIMECapabilities property [Security], EnableSMIMECapabilities property [Security],IEnroll2 interface, IEnroll2 interface [Security],EnableSMIMECapabilities property, IEnroll2.EnableSMIMECapabilities, IEnroll2.put_EnableSMIMECapabilities, IEnroll2::EnableSMIMECapabilities, IEnroll2::get_EnableSMIMECapabilities, IEnroll2::put_EnableSMIMECapabilities, put_EnableSMIMECapabilities, security.ienroll4_enablesmimecapabilities, xenroll/IEnroll2::EnableSMIMECapabilities, xenroll/IEnroll2::get_EnableSMIMECapabilities, xenroll/IEnroll2::put_EnableSMIMECapabilities

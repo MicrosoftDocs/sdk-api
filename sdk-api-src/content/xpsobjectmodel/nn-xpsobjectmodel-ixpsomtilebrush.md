@@ -4,7 +4,7 @@ title: IXpsOMTileBrush (xpsobjectmodel.h)
 description: A tile brush uses a visual image to paint a region by repeating the image.
 helpviewer_keywords: ["IXpsOMTileBrush","IXpsOMTileBrush interface [XPS Documents and Packaging]","IXpsOMTileBrush interface [XPS Documents and Packaging]","described","xps.ixpsomtilebrush","xpsobjectmodel/IXpsOMTileBrush"]
 old-location: xps\ixpsomtilebrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush

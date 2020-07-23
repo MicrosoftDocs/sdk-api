@@ -4,7 +4,7 @@ title: IVssEnumMgmtObject::Reset (vsmgmt.h)
 description: Resets the enumerator so that IVssEnumMgmtObject starts at the first enumerated object.
 helpviewer_keywords: ["IVssEnumMgmtObject interface [VSS]","Reset method","IVssEnumMgmtObject.Reset","IVssEnumMgmtObject::Reset","Reset","Reset method [VSS]","Reset method [VSS]","IVssEnumMgmtObject interface","base.ivssenummgmtobject_reset","vsmgmt/IVssEnumMgmtObject::Reset"]
 old-location: base\ivssenummgmtobject_reset.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 57f984da-6c20-405b-883b-6e54e4ac9546
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Reset method, IVssEnumMgmtObject.Reset, IVssEnumMgmtObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_reset, vsmgmt/IVssEnumMgmtObject::Reset

@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted (vsprov.h)
 description: Determines whether any shadow copies exist for the specified volume.
 helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","IsVolumeSnapshotted method","IVssSoftwareSnapshotProvider.IsVolumeSnapshotted","IVssSoftwareSnapshotProvider::IsVolumeSnapshotted","IsVolumeSnapshotted","IsVolumeSnapshotted method","IsVolumeSnapshotted method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_isvolumesnapshotted","vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted"]
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSnapshotted method, IVssSoftwareSnapshotProvider.IsVolumeSnapshotted, IVssSoftwareSnapshotProvider::IsVolumeSnapshotted, IsVolumeSnapshotted, IsVolumeSnapshotted method, IsVolumeSnapshotted method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesnapshotted, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted

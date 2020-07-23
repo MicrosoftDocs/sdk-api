@@ -4,7 +4,7 @@ title: IMsmMerge::Connect (mergemod.h)
 description: The Connect method connects a module that has been, or will be, merged into the database to an additional feature. For more information, see the Connect method of the Merge object.
 helpviewer_keywords: ["Connect","Connect method","Connect method","IMsmMerge interface","IMsmMerge interface","Connect method","IMsmMerge.Connect","IMsmMerge::Connect","_msi_connect_function","mergemod/IMsmMerge::Connect","setup.imsmmerge_connect"]
 old-location: setup\imsmmerge_connect.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMerge interface,Connect method, IMsmMerge.Connect, IMsmMerge::Connect, _msi_connect_function, mergemod/IMsmMerge::Connect, setup.imsmmerge_connect

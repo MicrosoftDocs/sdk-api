@@ -4,7 +4,7 @@ title: IMsmMerge::get_Errors (mergemod.h)
 description: The get_Errors method retrieves the Errors property of the Merge object. This retrieves the current collection of errors.
 helpviewer_keywords: ["IMsmMerge interface","get_Errors method","IMsmMerge.get_Errors","IMsmMerge::get_Errors","_msi_get_errors_function","get_Errors","get_Errors method","get_Errors method","IMsmMerge interface","mergemod/IMsmMerge::get_Errors","setup.imsmmerge_get_errors"]
 old-location: setup\imsmmerge_get_errors.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 81bf84f6-d469-47b1-9097-8a3ee9c8550d
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,get_Errors method, IMsmMerge.get_Errors, IMsmMerge::get_Errors, _msi_get_errors_function, get_Errors, get_Errors method, get_Errors method,IMsmMerge interface, mergemod/IMsmMerge::get_Errors, setup.imsmmerge_get_errors

@@ -4,7 +4,7 @@ title: SLUnloadApplicationPolicies function (slpublic.h)
 description: Releases the policy context handle returned by the SLLoadApplicationPolicies function.
 helpviewer_keywords: ["SLUnloadApplicationPolicies","SLUnloadApplicationPolicies function [Security]","security.slunloadapplicationpolicies","slpublic/SLUnloadApplicationPolicies"]
 old-location: security\slunloadapplicationpolicies.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 56dae943-659a-4e75-81ef-0d58fa3cd6d2
 ms.date: 12/05/2018
 ms.keywords: SLUnloadApplicationPolicies, SLUnloadApplicationPolicies function [Security], security.slunloadapplicationpolicies, slpublic/SLUnloadApplicationPolicies

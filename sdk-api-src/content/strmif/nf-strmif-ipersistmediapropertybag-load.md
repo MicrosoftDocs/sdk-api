@@ -4,7 +4,7 @@ title: IPersistMediaPropertyBag::Load (strmif.h)
 description: The Load method loads properties from the media property bag into the filter.
 helpviewer_keywords: ["IPersistMediaPropertyBag interface [DirectShow]","Load method","IPersistMediaPropertyBag.Load","IPersistMediaPropertyBag::Load","IPersistMediaPropertyBagLoad","Load","Load method [DirectShow]","Load method [DirectShow]","IPersistMediaPropertyBag interface","dshow.ipersistmediapropertybag_load","strmif/IPersistMediaPropertyBag::Load"]
 old-location: dshow\ipersistmediapropertybag_load.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 02ee3911-0b85-404d-81c9-7d0e6b3ccd5d
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersistMediaPropertyBag.Load, IPersistMediaPropertyBag::Load, IPersistMediaPropertyBagLoad, Load, Load method [DirectShow], Load method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_load, strmif/IPersistMediaPropertyBag::Load

@@ -4,7 +4,7 @@ title: TxfLogCreateFileReadContext function (txfw32.h)
 description: Creates a context to be used to read replication records.
 helpviewer_keywords: ["TxfLogCreateFileReadContext","TxfLogCreateFileReadContext function [Files]","fs.txflogcreatefilereadcontext","txfw32/TxfLogCreateFileReadContext"]
 old-location: fs\txflogcreatefilereadcontext.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 57218f53-adcd-4a9a-b772-d3dab576b8c1
 ms.date: 12/05/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext

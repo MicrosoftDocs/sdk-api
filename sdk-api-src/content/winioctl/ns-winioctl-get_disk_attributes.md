@@ -4,7 +4,7 @@ title: GET_DISK_ATTRIBUTES
 description: Contains the attributes of a disk device.
 helpviewer_keywords: ["*PGET_DISK_ATTRIBUTES","DISK_ATTRIBUTE_OFFLINE","DISK_ATTRIBUTE_READ_ONLY","GET_DISK_ATTRIBUTES","GET_DISK_ATTRIBUTES structure [Files]","PGET_DISK_ATTRIBUTES","PGET_DISK_ATTRIBUTES structure pointer [Files]","fs.get_disk_attributes","winioctl/GET_DISK_ATTRIBUTES","winioctl/PGET_DISK_ATTRIBUTES"]
 old-location: fs\get_disk_attributes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c6a0461d-cc23-4191-a0ff-c4279c1b097e
 ms.date: 12/05/2018
 ms.keywords: '*PGET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, GET_DISK_ATTRIBUTES, GET_DISK_ATTRIBUTES structure [Files], PGET_DISK_ATTRIBUTES, PGET_DISK_ATTRIBUTES structure pointer [Files], fs.get_disk_attributes, winioctl/GET_DISK_ATTRIBUTES, winioctl/PGET_DISK_ATTRIBUTES'

@@ -4,7 +4,7 @@ title: IMFClockStateSink (mfidl.h)
 description: Receives state-change notifications from the presentation clock.
 helpviewer_keywords: ["9aa0d2cd-a687-4b3a-834d-ccc8d3a03196","IMFClockStateSink","IMFClockStateSink interface [Media Foundation]","IMFClockStateSink interface [Media Foundation]","described","mf.imfclockstatesink","mfidl/IMFClockStateSink"]
 old-location: mf\imfclockstatesink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196
 ms.date: 12/05/2018
 ms.keywords: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], IMFClockStateSink interface [Media Foundation],described, mf.imfclockstatesink, mfidl/IMFClockStateSink

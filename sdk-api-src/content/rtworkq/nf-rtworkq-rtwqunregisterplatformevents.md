@@ -4,7 +4,7 @@ title: RtwqUnregisterPlatformEvents function (rtworkq.h)
 description: Unregisters a listener event from the callback platform.
 helpviewer_keywords: ["RtwqUnregisterPlatformEvents","RtwqUnregisterPlatformEvents function","base.rtwqunregisterplatformevents","rtworkq/RtwqUnregisterPlatformEvents"]
 old-location: base\rtwqunregisterplatformevents.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
 ms.date: 12/05/2018
 ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents

@@ -4,7 +4,7 @@ title: IMFPMPServer (mfidl.h)
 description: Enables two instances of the Media Session to share the same protected media path (PMP) process.
 helpviewer_keywords: ["IMFPMPServer","IMFPMPServer interface [Media Foundation]","IMFPMPServer interface [Media Foundation]","described","ba6dc70a-d77d-41de-afe1-65f2efcc4a95","mf.imfpmpserver","mfidl/IMFPMPServer"]
 old-location: mf\imfpmpserver.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ba6dc70a-d77d-41de-afe1-65f2efcc4a95
 ms.date: 12/05/2018
 ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServer interface [Media Foundation],described, ba6dc70a-d77d-41de-afe1-65f2efcc4a95, mf.imfpmpserver, mfidl/IMFPMPServer

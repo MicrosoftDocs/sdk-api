@@ -4,7 +4,7 @@ title: IEnumOfflineFilesSettings::Next (cscobj.h)
 description: Retrieves the next item in the enumeration and advances the enumerator.
 helpviewer_keywords: ["IEnumOfflineFilesSettings interface [Offline Files]","Next method","IEnumOfflineFilesSettings.Next","IEnumOfflineFilesSettings::Next","Next","Next method [Offline Files]","Next method [Offline Files]","IEnumOfflineFilesSettings interface","cscobj/IEnumOfflineFilesSettings::Next","of.ienumofflinefilessettings_next"]
 old-location: of\ienumofflinefilessettings_next.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 00230021-6069-4e0b-a3d6-95651aa6e44a
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Next method, IEnumOfflineFilesSettings.Next, IEnumOfflineFilesSettings::Next, Next, Next method [Offline Files], Next method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Next, of.ienumofflinefilessettings_next

@@ -4,7 +4,7 @@ title: LocalDiscard macro (minwinbase.h)
 description: Discards the specified local memory object. The lock count of the memory object must be zero.
 helpviewer_keywords: ["LocalDiscard","LocalDiscard macro","_win32_localdiscard","base.localdiscard","minwinbase/LocalDiscard"]
 old-location: base\localdiscard.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
 ms.date: 12/05/2018
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard

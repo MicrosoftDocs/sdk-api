@@ -4,7 +4,7 @@ title: SetSystemTimeAdjustmentPrecise function (sysinfoapi.h)
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 helpviewer_keywords: ["SetSystemTimeAdjustmentPrecise","SetSystemTimeAdjustmentPrecise function","base.setsystemtimeadjustmentprecise","sysinfoapi/SetSystemTimeAdjustmentPrecise"]
 old-location: base\setsystemtimeadjustmentprecise.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
 ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise

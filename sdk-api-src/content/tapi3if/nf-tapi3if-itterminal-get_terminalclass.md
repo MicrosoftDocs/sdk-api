@@ -4,7 +4,7 @@ title: ITTerminal::get_TerminalClass (tapi3if.h)
 description: The get_TerminalClass method gets the Terminal Class of the terminal.
 helpviewer_keywords: ["ITTerminal interface [TAPI 2.2]","get_TerminalClass method","ITTerminal.get_TerminalClass","ITTerminal::get_TerminalClass","_tapi3_itterminal_get_terminalclass","get_TerminalClass","get_TerminalClass method [TAPI 2.2]","get_TerminalClass method [TAPI 2.2]","ITTerminal interface","tapi3.itterminal_get_terminalclass","tapi3if/ITTerminal::get_TerminalClass"]
 old-location: tapi3\itterminal_get_terminalclass.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a31543da-4cb8-4719-8e33-fcb4d9d630b1
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalClass method, ITTerminal.get_TerminalClass, ITTerminal::get_TerminalClass, _tapi3_itterminal_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_terminalclass, tapi3if/ITTerminal::get_TerminalClass

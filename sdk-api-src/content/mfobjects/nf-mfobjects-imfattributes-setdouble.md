@@ -4,7 +4,7 @@ title: IMFAttributes::SetDouble (mfobjects.h)
 description: Associates a double value with a key.
 helpviewer_keywords: ["IMFAttributes interface [Media Foundation]","SetDouble method","IMFAttributes.SetDouble","IMFAttributes::SetDouble","SetDouble","SetDouble method [Media Foundation]","SetDouble method [Media Foundation]","IMFAttributes interface","bb58f35e-0fca-4b19-9976-de2140e6ebc0","mf.imfattributes_setdouble","mfobjects/IMFAttributes::SetDouble"]
 old-location: mf\imfattributes_setdouble.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bb58f35e-0fca-4b19-9976-de2140e6ebc0
 ms.date: 12/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetDouble method, IMFAttributes.SetDouble, IMFAttributes::SetDouble, SetDouble, SetDouble method [Media Foundation], SetDouble method [Media Foundation],IMFAttributes interface, bb58f35e-0fca-4b19-9976-de2140e6ebc0, mf.imfattributes_setdouble, mfobjects/IMFAttributes::SetDouble

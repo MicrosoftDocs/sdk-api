@@ -4,7 +4,7 @@ title: IMediaSeeking::GetCurrentPosition (strmif.h)
 description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream.
 helpviewer_keywords: ["GetCurrentPosition","GetCurrentPosition method [DirectShow]","GetCurrentPosition method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetCurrentPosition method","IMediaSeeking.GetCurrentPosition","IMediaSeeking::GetCurrentPosition","IMediaSeekingGetCurrentPosition","dshow.imediaseeking_getcurrentposition","strmif/IMediaSeeking::GetCurrentPosition"]
 old-location: dshow\imediaseeking_getcurrentposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4dca0c9e-ce95-4716-8e4d-ce8bf83628d6
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [DirectShow], GetCurrentPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCurrentPosition method, IMediaSeeking.GetCurrentPosition, IMediaSeeking::GetCurrentPosition, IMediaSeekingGetCurrentPosition, dshow.imediaseeking_getcurrentposition, strmif/IMediaSeeking::GetCurrentPosition

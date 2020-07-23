@@ -4,7 +4,7 @@ title: IMFSourceBufferNotify::OnUpdate (mfmediaengine.h)
 description: Used to indicate that the source buffer is updating.
 helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnUpdate method","IMFSourceBufferNotify.OnUpdate","IMFSourceBufferNotify::OnUpdate","OnUpdate","OnUpdate method [Media Foundation]","OnUpdate method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onupdate","mfmediaengine/IMFSourceBufferNotify::OnUpdate"]
 old-location: mf\imfsourcebuffernotify_onupdate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdate method, IMFSourceBufferNotify.OnUpdate, IMFSourceBufferNotify::OnUpdate, OnUpdate, OnUpdate method [Media Foundation], OnUpdate method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdate, mfmediaengine/IMFSourceBufferNotify::OnUpdate

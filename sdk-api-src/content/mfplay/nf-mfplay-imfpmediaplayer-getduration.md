@@ -4,7 +4,7 @@ title: IMFPMediaPlayer::GetDuration (mfplay.h)
 description: Gets the playback duration of the current media item.
 helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetDuration method","IMFPMediaPlayer.GetDuration","IMFPMediaPlayer::GetDuration","MFP_POSITIONTYPE_100NS","mf.imfpmediaplayer_getduration","mfplay/IMFPMediaPlayer::GetDuration"]
 old-location: mf\imfpmediaplayer_getduration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7d201035-6946-4a46-bc66-b9e78006a04a
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetDuration method, IMFPMediaPlayer.GetDuration, IMFPMediaPlayer::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getduration, mfplay/IMFPMediaPlayer::GetDuration

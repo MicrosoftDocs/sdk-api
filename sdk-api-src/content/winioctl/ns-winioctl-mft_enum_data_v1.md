@@ -4,7 +4,7 @@ title: MFT_ENUM_DATA_V1
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes.
 helpviewer_keywords: ["*PMFT_ENUM_DATA","*PMFT_ENUM_DATA_V1","MFT_ENUM_DATA","MFT_ENUM_DATA_V1","MFT_ENUM_DATA_V1 structure [Files]","PMFT_ENUM_DATA_V1","PMFT_ENUM_DATA_V1 structure pointer [Files]","fs.mft_enum_data_v1","winioctl/MFT_ENUM_DATA_V1","winioctl/PMFT_ENUM_DATA_V1"]
 old-location: fs\mft_enum_data_v1.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6d7b50e3-60cf-4eaf-9d22-fbb20c7e0bba
 ms.date: 12/05/2018
 ms.keywords: '*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_V1, MFT_ENUM_DATA_V1 structure [Files], PMFT_ENUM_DATA_V1, PMFT_ENUM_DATA_V1 structure pointer [Files], fs.mft_enum_data_v1, winioctl/MFT_ENUM_DATA_V1, winioctl/PMFT_ENUM_DATA_V1'

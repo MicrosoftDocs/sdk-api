@@ -4,7 +4,7 @@ title: IAzApplication2::InitializeClientContextFromToken2 (azroles.h)
 description: Retrieves an IAzClientContext2 object pointer from the specified client token.
 helpviewer_keywords: ["IAzApplication2 interface [Security]","InitializeClientContextFromToken2 method","IAzApplication2.InitializeClientContextFromToken2","IAzApplication2::InitializeClientContextFromToken2","InitializeClientContextFromToken2","InitializeClientContextFromToken2 method [Security]","InitializeClientContextFromToken2 method [Security]","IAzApplication2 interface","azroles/IAzApplication2::InitializeClientContextFromToken2","security.iazapplication2_initializeclientcontextfromtoken2"]
 old-location: security\iazapplication2_initializeclientcontextfromtoken2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f77b5eb1-c121-4392-a317-7021059268ed
 ms.date: 12/05/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContextFromToken2 method, IAzApplication2.InitializeClientContextFromToken2, IAzApplication2::InitializeClientContextFromToken2, InitializeClientContextFromToken2, InitializeClientContextFromToken2 method [Security], InitializeClientContextFromToken2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContextFromToken2, security.iazapplication2_initializeclientcontextfromtoken2

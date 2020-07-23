@@ -4,7 +4,7 @@ title: IVdsVolumeMF (vds.h)
 description: Provides methods to perform access-path and file-system activities on the volume object.
 helpviewer_keywords: ["IVdsVolumeMF","IVdsVolumeMF interface [VDS]","IVdsVolumeMF interface [VDS]","described","base.ivdsvolumemf","vds/IVdsVolumeMF"]
 old-location: base\ivdsvolumemf.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 4c8a63bd-ae2f-4157-92f9-aefc592c7d4f
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], IVdsVolumeMF interface [VDS],described, base.ivdsvolumemf, vds/IVdsVolumeMF

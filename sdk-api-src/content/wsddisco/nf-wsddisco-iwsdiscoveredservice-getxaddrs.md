@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetXAddrs (wsddisco.h)
 description: Retrieves a list of WS-Discovery XAddrs.
 helpviewer_keywords: ["GetXAddrs","GetXAddrs method","GetXAddrs method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetXAddrs method","IWSDiscoveredService.GetXAddrs","IWSDiscoveredService::GetXAddrs","ncd.iwsdiscoveredservice_getxaddrs","wsddisco/IWSDiscoveredService::GetXAddrs"]
 old-location: ncd\iwsdiscoveredservice_getxaddrs.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a861374e-fee4-486b-8e23-f4a4a8203b28
 ms.date: 12/05/2018
 ms.keywords: GetXAddrs, GetXAddrs method, GetXAddrs method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetXAddrs method, IWSDiscoveredService.GetXAddrs, IWSDiscoveredService::GetXAddrs, ncd.iwsdiscoveredservice_getxaddrs, wsddisco/IWSDiscoveredService::GetXAddrs

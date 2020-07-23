@@ -4,7 +4,7 @@ title: IUpdate::get_Image (wuapi.h)
 description: Gets an interface that contains information about an image that is associated with the update.
 helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Image property","IUpdate.Image","IUpdate.get_Image","IUpdate::Image","IUpdate::get_Image","Image property [Windows Update Agent]","Image property [Windows Update Agent]","IUpdate interface","get_Image","wua.iupdate_image","wuapi/IUpdate::Image","wuapi/IUpdate::get_Image"]
 old-location: wua\iupdate_image.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 0cae0b5b-8a47-461f-ab91-b9ac80418e20
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Image property, IUpdate.Image, IUpdate.get_Image, IUpdate::Image, IUpdate::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],IUpdate interface, get_Image, wua.iupdate_image, wuapi/IUpdate::Image, wuapi/IUpdate::get_Image

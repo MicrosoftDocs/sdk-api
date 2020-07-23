@@ -4,7 +4,7 @@ title: ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData (d3d11_4.h)
 description: Sets the HDR metadata describing the display on which the content will be presented.
 helpviewer_keywords: ["ID3D11VideoContext2 interface [Media Foundation]","VideoProcessorSetOutputHDRMetaData method","ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData","ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData","VideoProcessorSetOutputHDRMetaData","VideoProcessorSetOutputHDRMetaData method [Media Foundation]","VideoProcessorSetOutputHDRMetaData method [Media Foundation]","ID3D11VideoContext2 interface","d3d11_4/ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData","mf.id3d11videocontext2_videoprocessorsetoutputhdrmetadata"]
 old-location: mf\id3d11videocontext2_videoprocessorsetoutputhdrmetadata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5905E3F2-B0A3-4FF6-B498-BC24BFD3F58F
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData method [Media Foundation], VideoProcessorSetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorsetoutputhdrmetadata

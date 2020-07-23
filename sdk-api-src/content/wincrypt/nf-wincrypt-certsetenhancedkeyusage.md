@@ -4,7 +4,7 @@ title: CertSetEnhancedKeyUsage function (wincrypt.h)
 description: The CertSetEnhancedKeyUsage function sets the enhanced key usage (EKU) property for the certificate.
 helpviewer_keywords: ["CertSetEnhancedKeyUsage","CertSetEnhancedKeyUsage function [Security]","_crypto2_certsetenhancedkeyusage","security.certsetenhancedkeyusage","wincrypt/CertSetEnhancedKeyUsage"]
 old-location: security\certsetenhancedkeyusage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 423b0232-846e-4e40-bc42-d30c48c548da
 ms.date: 12/05/2018
 ms.keywords: CertSetEnhancedKeyUsage, CertSetEnhancedKeyUsage function [Security], _crypto2_certsetenhancedkeyusage, security.certsetenhancedkeyusage, wincrypt/CertSetEnhancedKeyUsage

@@ -4,7 +4,7 @@ title: IWbemClassObject::BeginEnumeration (wbemcli.h)
 description: Resets an enumeration back to the beginning of the enumeration.
 helpviewer_keywords: ["BeginEnumeration","BeginEnumeration method [Windows Management Instrumentation]","BeginEnumeration method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","BeginEnumeration method","IWbemClassObject.BeginEnumeration","IWbemClassObject::BeginEnumeration","_hmm_iwbemclassobject_beginenumeration","wbemcli/IWbemClassObject::BeginEnumeration","wmi.iwbemclassobject_beginenumeration"]
 old-location: wmi\iwbemclassobject_beginenumeration.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: c7ece530-5309-4f0d-9096-73d01b4a7fde
 ms.date: 12/05/2018
 ms.keywords: BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],BeginEnumeration method, IWbemClassObject.BeginEnumeration, IWbemClassObject::BeginEnumeration, _hmm_iwbemclassobject_beginenumeration, wbemcli/IWbemClassObject::BeginEnumeration, wmi.iwbemclassobject_beginenumeration

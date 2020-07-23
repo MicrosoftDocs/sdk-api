@@ -4,7 +4,7 @@ title: lineAddToConference function (tapi.h)
 description: The lineAddToConference function adds the call specified by hConsultCall to the conference call specified by hConfCall.
 helpviewer_keywords: ["_tapi2_lineaddtoconference","lineAddToConference","lineAddToConference function [TAPI 2.2]","tapi/lineAddToConference","tapi2.lineaddtoconference"]
 old-location: tapi2\lineaddtoconference.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fbbaea96-727c-46b9-91d1-31d3f89d8ad8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineaddtoconference, lineAddToConference, lineAddToConference function [TAPI 2.2], tapi/lineAddToConference, tapi2.lineaddtoconference

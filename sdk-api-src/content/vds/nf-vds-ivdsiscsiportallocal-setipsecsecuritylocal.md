@@ -4,7 +4,7 @@ title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal (vds.h)
 description: Not supported.This method is reserved for future use.
 helpviewer_keywords: ["IVdsIscsiPortalLocal interface [VDS]","SetIpsecSecurityLocal method","IVdsIscsiPortalLocal.SetIpsecSecurityLocal","IVdsIscsiPortalLocal::SetIpsecSecurityLocal","SetIpsecSecurityLocal","SetIpsecSecurityLocal method [VDS]","SetIpsecSecurityLocal method [VDS]","IVdsIscsiPortalLocal interface","base.ivdsiscsiportallocal_setipsecsecuritylocal","vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal"]
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 3da426d0-9fa7-4dec-a0bb-416ec14b69a0
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal interface [VDS],SetIpsecSecurityLocal method, IVdsIscsiPortalLocal.SetIpsecSecurityLocal, IVdsIscsiPortalLocal::SetIpsecSecurityLocal, SetIpsecSecurityLocal, SetIpsecSecurityLocal method [VDS], SetIpsecSecurityLocal method [VDS],IVdsIscsiPortalLocal interface, base.ivdsiscsiportallocal_setipsecsecuritylocal, vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal

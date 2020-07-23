@@ -2,6 +2,7 @@
 UID: NF:gdiplusgraphics.Graphics.DrawEllipse(INconstPen,INconstRectF&)
 title: Graphics::DrawEllipse
 description: The Graphics::DrawEllipse method draws an ellipse.
+tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawEllipse"]
 ms.assetid: c520987b-a425-4959-b293-5988de01a553
 ms.date: 05/13/2019

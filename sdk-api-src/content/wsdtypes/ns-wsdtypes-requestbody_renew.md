@@ -4,7 +4,7 @@ title: REQUESTBODY_Renew (wsdtypes.h)
 description: Represents a WS-Eventing Renew request message.
 helpviewer_keywords: ["REQUESTBODY_Renew","REQUESTBODY_Renew structure","ncd.requestbody_renew_struct","wsdtypes/REQUESTBODY_Renew"]
 old-location: ncd\requestbody_renew_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 2646cfb7-e372-44d2-9d4c-fa68e0d567bb
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_Renew, REQUESTBODY_Renew structure, ncd.requestbody_renew_struct, wsdtypes/REQUESTBODY_Renew

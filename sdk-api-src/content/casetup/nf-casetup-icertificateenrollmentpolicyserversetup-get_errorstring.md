@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup::get_ErrorString (casetup.h)
 description: Retrieves a string that contains additional information about Certificate Enrollment Policy (CEP) Web Service setup failure.
 helpviewer_keywords: ["ErrorString property [Security]","ErrorString property [Security]","ICertificateEnrollmentPolicyServerSetup interface","ICertificateEnrollmentPolicyServerSetup interface [Security]","ErrorString property","ICertificateEnrollmentPolicyServerSetup.ErrorString","ICertificateEnrollmentPolicyServerSetup.get_ErrorString","ICertificateEnrollmentPolicyServerSetup::ErrorString","ICertificateEnrollmentPolicyServerSetup::get_ErrorString","casetup/ICertificateEnrollmentPolicyServerSetup::ErrorString","casetup/ICertificateEnrollmentPolicyServerSetup::get_ErrorString","get_ErrorString","security.icertificateenrollmentpolicyserversetup_errorstring"]
 old-location: security\icertificateenrollmentpolicyserversetup_errorstring.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: CA9103BD-96CA-4FF3-B78D-A1F1345E58D3
 ms.date: 12/05/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],ErrorString property, ICertificateEnrollmentPolicyServerSetup.ErrorString, ICertificateEnrollmentPolicyServerSetup.get_ErrorString, ICertificateEnrollmentPolicyServerSetup::ErrorString, ICertificateEnrollmentPolicyServerSetup::get_ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentpolicyserversetup_errorstring

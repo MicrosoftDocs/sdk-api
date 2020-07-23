@@ -4,7 +4,7 @@ title: IVMRImagePresenterConfig (strmif.h)
 description: The IVMRImagePresenterConfig interface provides methods for setting the renderering preferences on the allocator-presenter used by the Video Mixing Renderer Filter 7 (VMR-7).Applications should not use this interface directly.
 helpviewer_keywords: ["IVMRImagePresenterConfig","IVMRImagePresenterConfig interface [DirectShow]","IVMRImagePresenterConfig interface [DirectShow]","described","IVMRImagePresenterConfigInterface","dshow.ivmrimagepresenterconfig","strmif/IVMRImagePresenterConfig"]
 old-location: dshow\ivmrimagepresenterconfig.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cbf0fac4-c976-4c1a-ab3a-75ae0d565544
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterConfig, IVMRImagePresenterConfig interface [DirectShow], IVMRImagePresenterConfig interface [DirectShow],described, IVMRImagePresenterConfigInterface, dshow.ivmrimagepresenterconfig, strmif/IVMRImagePresenterConfig

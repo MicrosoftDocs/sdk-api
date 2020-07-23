@@ -4,7 +4,7 @@ title: IDirectDrawVideo::GetSwitches (amvideo.h)
 description: The GetSwitches method retrieves the surface types that the renderer is allowed to use.
 helpviewer_keywords: ["GetSwitches","GetSwitches method [DirectShow]","GetSwitches method [DirectShow]","IDirectDrawVideo interface","IDirectDrawVideo interface [DirectShow]","GetSwitches method","IDirectDrawVideo.GetSwitches","IDirectDrawVideo::GetSwitches","IDirectDrawVideoGetSwitches","amvideo/IDirectDrawVideo::GetSwitches","dshow.idirectdrawvideo_getswitches"]
 old-location: dshow\idirectdrawvideo_getswitches.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0a9e3c46-6d2d-474e-ab72-f67b5ed450f2
 ms.date: 12/05/2018
 ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSwitches method, IDirectDrawVideo.GetSwitches, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches

@@ -4,7 +4,7 @@ title: IEnumCallingCard::Next (tapi3if.h)
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 helpviewer_keywords: ["IEnumCallingCard interface [TAPI 2.2]","Next method","IEnumCallingCard.Next","IEnumCallingCard::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumCallingCard interface","_tapi3_ienumcallingcard_next","tapi3.ienumcallingcard_next","tapi3if/IEnumCallingCard::Next"]
 old-location: tapi3\ienumcallingcard_next.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: df0b4591-581b-4949-9212-ff4c92eec12c
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Next method, IEnumCallingCard.Next, IEnumCallingCard::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_next, tapi3.ienumcallingcard_next, tapi3if/IEnumCallingCard::Next

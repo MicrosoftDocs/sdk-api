@@ -4,7 +4,7 @@ title: IsWindowsXPOrGreater function (versionhelpers.h)
 description: Indicates if the current OS version matches, or is greater than, the Windows XP version.
 helpviewer_keywords: ["IsWindowsXPOrGreater","IsWindowsXPOrGreater function","base.iswindowsxporgreater","versionhelpers/IsWindowsXPOrGreater"]
 old-location: base\iswindowsxporgreater.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736
 ms.date: 12/05/2018
 ms.keywords: IsWindowsXPOrGreater, IsWindowsXPOrGreater function, base.iswindowsxporgreater, versionhelpers/IsWindowsXPOrGreater

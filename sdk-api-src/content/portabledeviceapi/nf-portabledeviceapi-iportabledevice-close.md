@@ -4,7 +4,7 @@ title: IPortableDevice::Close (portabledeviceapi.h)
 description: The Close method closes the connection with the device.
 helpviewer_keywords: ["Close","Close method [Windows Portable Devices SDK]","Close method [Windows Portable Devices SDK]","IPortableDevice interface","IPortableDevice interface [Windows Portable Devices SDK]","Close method","IPortableDevice.Close","IPortableDevice::Close","IPortableDeviceClose","portabledeviceapi/IPortableDevice::Close","wpdsdk.iportabledevice_close"]
 old-location: wpdsdk\iportabledevice_close.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: aa60a439-7589-465e-98e5-56b93d594f96
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Close method, IPortableDevice.Close, IPortableDevice::Close, IPortableDeviceClose, portabledeviceapi/IPortableDevice::Close, wpdsdk.iportabledevice_close

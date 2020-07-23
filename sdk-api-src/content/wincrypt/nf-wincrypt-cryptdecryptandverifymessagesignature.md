@@ -4,7 +4,7 @@ title: CryptDecryptAndVerifyMessageSignature function (wincrypt.h)
 description: The CryptDecryptAndVerifyMessageSignature function decrypts a message and verifies its signature.
 helpviewer_keywords: ["CryptDecryptAndVerifyMessageSignature","CryptDecryptAndVerifyMessageSignature function [Security]","_crypto2_cryptdecryptandverifymessagesignature","security.cryptdecryptandverifymessagesignature","wincrypt/CryptDecryptAndVerifyMessageSignature"]
 old-location: security\cryptdecryptandverifymessagesignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0864a187-617f-4a21-9809-d2dbbc54ab9c
 ms.date: 12/05/2018
 ms.keywords: CryptDecryptAndVerifyMessageSignature, CryptDecryptAndVerifyMessageSignature function [Security], _crypto2_cryptdecryptandverifymessagesignature, security.cryptdecryptandverifymessagesignature, wincrypt/CryptDecryptAndVerifyMessageSignature

@@ -4,7 +4,7 @@ title: LSA_TRANSLATED_NAME (lsalookup.h)
 description: Used with the LsaLookupSids function to return information about the account identified by a SID.
 helpviewer_keywords: ["*PLSA_TRANSLATED_NAME","LSA_TRANSLATED_NAME","LSA_TRANSLATED_NAME structure [Security]","PLSA_TRANSLATED_NAME","PLSA_TRANSLATED_NAME structure pointer [Security]","SidTypeDomain","SidTypeInvalid","SidTypeUnknown","SidTypeWellKnownGroup","_lsa_lsa_translated_name","lsalookup/LSA_TRANSLATED_NAME","lsalookup/PLSA_TRANSLATED_NAME","security.lsa_translated_name"]
 old-location: security\lsa_translated_name.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: edea8317-5cdf-4d1e-9e6d-fcf17b91adb7
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name'

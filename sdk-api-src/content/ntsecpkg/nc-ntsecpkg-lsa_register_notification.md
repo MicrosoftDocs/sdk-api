@@ -4,7 +4,7 @@ title: LSA_REGISTER_NOTIFICATION (ntsecpkg.h)
 description: Provides a mechanism whereby the security package is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
 helpviewer_keywords: ["LSA_REGISTER_NOTIFICATION","NOTIFIER_FLAG_NEW_THREAD","NOTIFIER_FLAG_ONE_SHOT","NOTIFIER_FLAG_SECONDS","NOTIFIER_TYPE_HANDLE_WAIT","NOTIFIER_TYPE_IMMEDIATE","NOTIFIER_TYPE_INTERVAL","NOTIFIER_TYPE_NOTIFY_EVENT","NOTIFIER_TYPE_STATE_CHANGE","NOTIFY_CLASS_DOMAIN_CHANGE","NOTIFY_CLASS_PACKAGE_CHANGE","NOTIFY_CLASS_ROLE_CHANGE","PLSA_REGISTER_NOTIFICATION callback","RegisterNotification","RegisterNotification callback function [Security]","_ssp_registernotification","ntsecpkg/RegisterNotification","security.registernotification"]
 old-location: security\registernotification.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 689a1956-5eab-4eec-93ef-5ddcef6546ee
 ms.date: 12/05/2018
 ms.keywords: LSA_REGISTER_NOTIFICATION, NOTIFIER_FLAG_NEW_THREAD, NOTIFIER_FLAG_ONE_SHOT, NOTIFIER_FLAG_SECONDS, NOTIFIER_TYPE_HANDLE_WAIT, NOTIFIER_TYPE_IMMEDIATE, NOTIFIER_TYPE_INTERVAL, NOTIFIER_TYPE_NOTIFY_EVENT, NOTIFIER_TYPE_STATE_CHANGE, NOTIFY_CLASS_DOMAIN_CHANGE, NOTIFY_CLASS_PACKAGE_CHANGE, NOTIFY_CLASS_ROLE_CHANGE, PLSA_REGISTER_NOTIFICATION callback, RegisterNotification, RegisterNotification callback function [Security], _ssp_registernotification, ntsecpkg/RegisterNotification, security.registernotification

@@ -2,6 +2,7 @@
 UID: NF:windns.DnsServiceResolve
 title: DnsServiceResolve function
 description: Used to obtain more information about a service advertised on the local network.
+tech.root: dns
 helpviewer_keywords: ["DnsServiceResolve"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceResolve

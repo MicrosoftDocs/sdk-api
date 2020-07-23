@@ -4,7 +4,7 @@ title: IX509CertificateRequestCmc::put_TransactionId (certenroll.h)
 description: Specifies or retrieves a transaction identifier that can be used to track a certificate request or response.
 helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","TransactionId property","IX509CertificateRequestCmc.TransactionId","IX509CertificateRequestCmc.put_TransactionId","IX509CertificateRequestCmc::TransactionId","IX509CertificateRequestCmc::get_TransactionId","IX509CertificateRequestCmc::put_TransactionId","TransactionId property [Security]","TransactionId property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::TransactionId","certenroll/IX509CertificateRequestCmc::get_TransactionId","certenroll/IX509CertificateRequestCmc::put_TransactionId","put_TransactionId","security.ix509certificaterequestcmc_transactionid_property"]
 old-location: security\ix509certificaterequestcmc_transactionid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0d47e4b6-47bb-4ec4-8248-f4c859e9b9da
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],TransactionId property, IX509CertificateRequestCmc.TransactionId, IX509CertificateRequestCmc.put_TransactionId, IX509CertificateRequestCmc::TransactionId, IX509CertificateRequestCmc::get_TransactionId, IX509CertificateRequestCmc::put_TransactionId, TransactionId property [Security], TransactionId property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::TransactionId, certenroll/IX509CertificateRequestCmc::get_TransactionId, certenroll/IX509CertificateRequestCmc::put_TransactionId, put_TransactionId, security.ix509certificaterequestcmc_transactionid_property

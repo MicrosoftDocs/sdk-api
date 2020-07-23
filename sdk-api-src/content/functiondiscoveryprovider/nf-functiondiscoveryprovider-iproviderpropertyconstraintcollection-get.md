@@ -4,7 +4,7 @@ title: IProviderPropertyConstraintCollection::Get (functiondiscoveryprovider.h)
 description: Gets the name and value of the specified property constraint, by property key.
 helpviewer_keywords: ["Get","Get method","Get method","IProviderPropertyConstraintCollection interface","IProviderPropertyConstraintCollection interface","Get method","IProviderPropertyConstraintCollection.Get","IProviderPropertyConstraintCollection::Get","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get","ncd.iproviderpropertyconstraintcollection_get"]
 old-location: ncd\iproviderpropertyconstraintcollection_get.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 0388d895-07bb-490c-9fce-0821a51d765a
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,Get method, IProviderPropertyConstraintCollection.Get, IProviderPropertyConstraintCollection::Get, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get, ncd.iproviderpropertyconstraintcollection_get

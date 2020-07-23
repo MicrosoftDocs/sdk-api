@@ -4,7 +4,7 @@ title: CacheRichCreateFile function (filehc.h)
 description: Creates a file in the cache or finds an existing file and allows properties to be added to it in the cache.
 helpviewer_keywords: ["CacheRichCreateFile","CacheRichCreateFile function [Windows API]","filehc/CacheRichCreateFile","winprog._cacherichcreatefile"]
 old-location: winprog\_cacherichcreatefile.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
 ms.date: 12/05/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile

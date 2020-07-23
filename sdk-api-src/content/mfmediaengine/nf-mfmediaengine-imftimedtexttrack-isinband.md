@@ -4,7 +4,7 @@ title: IMFTimedTextTrack::IsInBand (mfmediaengine.h)
 description: Determines whether the timed-text track is inband.
 helpviewer_keywords: ["IMFTimedTextTrack interface [Media Foundation]","IsInBand method","IMFTimedTextTrack.IsInBand","IMFTimedTextTrack::IsInBand","IsInBand","IsInBand method [Media Foundation]","IsInBand method [Media Foundation]","IMFTimedTextTrack interface","mf.imftimedtexttrack_isinband","mfmediaengine/IMFTimedTextTrack::IsInBand"]
 old-location: mf\imftimedtexttrack_isinband.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 02B69F41-313A-4792-BB0C-D14A02738002
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsInBand method, IMFTimedTextTrack.IsInBand, IMFTimedTextTrack::IsInBand, IsInBand, IsInBand method [Media Foundation], IsInBand method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isinband, mfmediaengine/IMFTimedTextTrack::IsInBand

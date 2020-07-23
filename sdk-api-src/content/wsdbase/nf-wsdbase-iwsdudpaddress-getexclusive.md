@@ -4,7 +4,7 @@ title: IWSDUdpAddress::GetExclusive (wsdbase.h)
 description: Determines whether the socket is in exclusive mode.
 helpviewer_keywords: ["GetExclusive","GetExclusive method","GetExclusive method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetExclusive method","IWSDUdpAddress.GetExclusive","IWSDUdpAddress::GetExclusive","ncd.iwsdudpaddress_getexclusive","wsdbase/IWSDUdpAddress::GetExclusive"]
 old-location: ncd\iwsdudpaddress_getexclusive.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9ee62901-242a-47bc-a50d-4ced245392de
 ms.date: 12/05/2018
 ms.keywords: GetExclusive, GetExclusive method, GetExclusive method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetExclusive method, IWSDUdpAddress.GetExclusive, IWSDUdpAddress::GetExclusive, ncd.iwsdudpaddress_getexclusive, wsdbase/IWSDUdpAddress::GetExclusive

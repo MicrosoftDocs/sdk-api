@@ -4,7 +4,7 @@ title: FSCTL_SET_REPAIR
 description: Sets the mode of an NTFS file system's self-healing capability.
 helpviewer_keywords: ["FSCTL_SET_REPAIR","FSCTL_SET_REPAIR control","FSCTL_SET_REPAIR control code [Files]","SET_REPAIR_DELETE_CROSSLINK","SET_REPAIR_DISABLED_AND_BUGCHECK_ON_CORRUPT","SET_REPAIR_ENABLED","SET_REPAIR_VOLUME_BITMAP_SCAN","SET_REPAIR_WARN_ABOUT_DATA_LOSS","fs.fsctl_set_repair","winioctl/FSCTL_SET_REPAIR"]
 old-location: fs\fsctl_set_repair.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3df03a87-7117-4f85-a04e-54bcd800e8ff
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_REPAIR, FSCTL_SET_REPAIR control, FSCTL_SET_REPAIR control code [Files], SET_REPAIR_DELETE_CROSSLINK, SET_REPAIR_DISABLED_AND_BUGCHECK_ON_CORRUPT, SET_REPAIR_ENABLED, SET_REPAIR_VOLUME_BITMAP_SCAN, SET_REPAIR_WARN_ABOUT_DATA_LOSS, fs.fsctl_set_repair, winioctl/FSCTL_SET_REPAIR

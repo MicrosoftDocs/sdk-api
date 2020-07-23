@@ -4,7 +4,7 @@ title: IVdsVolumeShrink::Shrink (vds.h)
 description: Shrinks the volume and all plexes and returns the released extents.
 helpviewer_keywords: ["IVdsVolumeShrink interface","Shrink method","IVdsVolumeShrink.Shrink","IVdsVolumeShrink::Shrink","Shrink","Shrink method","Shrink method","IVdsVolumeShrink interface","base.ivdsvolumeshrink_shrink","vds/IVdsVolumeShrink::Shrink"]
 old-location: base\ivdsvolumeshrink_shrink.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: a6d91cb0-b9a4-4a5f-94bc-824b1691bcd7
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink interface,Shrink method, IVdsVolumeShrink.Shrink, IVdsVolumeShrink::Shrink, Shrink, Shrink method, Shrink method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_shrink, vds/IVdsVolumeShrink::Shrink

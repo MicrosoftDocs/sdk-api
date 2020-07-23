@@ -4,7 +4,7 @@ title: IUpdate2 (wuapi.h)
 description: Contains the properties and methods that are available to an update.
 helpviewer_keywords: ["IUpdate2","IUpdate2 interface [Windows Update Agent]","IUpdate2 interface [Windows Update Agent]","described","wua.iupdate2","wuapi/IUpdate2"]
 old-location: wua\iupdate2.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 75041e85-0f3c-4996-9af2-d2969549393e
 ms.date: 12/05/2018
 ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 interface [Windows Update Agent],described, wua.iupdate2, wuapi/IUpdate2

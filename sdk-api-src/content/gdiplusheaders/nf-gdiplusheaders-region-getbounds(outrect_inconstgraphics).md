@@ -2,6 +2,7 @@
 UID: NF:gdiplusheaders.Region.GetBounds(OUTRect,INconstGraphics)
 title: Region::GetBounds
 description: The Region::GetBounds method gets a rectangle that encloses this region.
+tech.root: gdiplus
 helpviewer_keywords: ["Region::GetBounds"]
 ms.assetid: fdbecca4-be04-4162-a930-19e94c69c7e2
 ms.date: 05/20/2019

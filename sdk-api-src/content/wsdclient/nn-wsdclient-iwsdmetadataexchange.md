@@ -4,7 +4,7 @@ title: IWSDMetadataExchange (wsdclient.h)
 description: Is the base class for other objects which access metadata.
 helpviewer_keywords: ["IWSDMetadataExchange","IWSDMetadataExchange interface","IWSDMetadataExchange interface","described","ncd.iwsdmetadataexchange","wsdclient/IWSDMetadataExchange"]
 old-location: ncd\iwsdmetadataexchange.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: f4e2c2f7-3e76-4a17-88f8-9d59c18343a9
 ms.date: 12/05/2018
 ms.keywords: IWSDMetadataExchange, IWSDMetadataExchange interface, IWSDMetadataExchange interface,described, ncd.iwsdmetadataexchange, wsdclient/IWSDMetadataExchange

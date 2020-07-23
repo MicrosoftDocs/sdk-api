@@ -4,7 +4,7 @@ title: ISignerCertificate::put_ParentWindow (certenroll.h)
 description: Specifies or retrieves the ID of the window used to display signing certificate information.
 helpviewer_keywords: ["ISignerCertificate interface [Security]","ParentWindow property","ISignerCertificate.ParentWindow","ISignerCertificate.put_ParentWindow","ISignerCertificate::ParentWindow","ISignerCertificate::get_ParentWindow","ISignerCertificate::put_ParentWindow","ParentWindow property [Security]","ParentWindow property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::ParentWindow","certenroll/ISignerCertificate::get_ParentWindow","certenroll/ISignerCertificate::put_ParentWindow","put_ParentWindow","security.isignercertificate_parentwindow_property"]
 old-location: security\isignercertificate_parentwindow_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a1749c92-11e4-4726-a355-ccdd245b4df8
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate.put_ParentWindow, ISignerCertificate::ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, put_ParentWindow, security.isignercertificate_parentwindow_property

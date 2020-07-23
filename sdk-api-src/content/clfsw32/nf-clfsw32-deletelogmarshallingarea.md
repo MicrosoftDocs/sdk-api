@@ -4,7 +4,7 @@ title: DeleteLogMarshallingArea function (clfsw32.h)
 description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.
 helpviewer_keywords: ["DeleteLogMarshallingArea","DeleteLogMarshallingArea function [Files]","clfsw32/DeleteLogMarshallingArea","fs.deletelogmarshalingarea","fs.deletelogmarshallingarea"]
 old-location: fs\deletelogmarshallingarea.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c
 ms.date: 12/05/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea

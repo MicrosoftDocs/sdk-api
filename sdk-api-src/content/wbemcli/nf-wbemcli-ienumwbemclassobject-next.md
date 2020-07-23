@@ -4,7 +4,7 @@ title: IEnumWbemClassObject::Next (wbemcli.h)
 description: Use the IEnumWbemClassObject::Next method to get one or more objects starting at the current position in an enumeration.
 helpviewer_keywords: ["IEnumWbemClassObject interface [Windows Management Instrumentation]","Next method","IEnumWbemClassObject.Next","IEnumWbemClassObject::Next","Next","Next method [Windows Management Instrumentation]","Next method [Windows Management Instrumentation]","IEnumWbemClassObject interface","_hmm_ienumwbemclassobject_next","wbemcli/IEnumWbemClassObject::Next","wmi.ienumwbemclassobject_next"]
 old-location: wmi\ienumwbemclassobject_next.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next

@@ -4,7 +4,7 @@ title: MFAYUVSample (mfobjects.h)
 description: Describes a 4:4:4:4 Y'Cb'Cr' sample.
 helpviewer_keywords: ["9784b561-3b87-4df9-a434-55e12f97b05a","MFAYUVSample","MFAYUVSample structure [Media Foundation]","mf.mfayuvsample","mfobjects/MFAYUVSample"]
 old-location: mf\mfayuvsample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9784b561-3b87-4df9-a434-55e12f97b05a
 ms.date: 12/05/2018
 ms.keywords: 9784b561-3b87-4df9-a434-55e12f97b05a, MFAYUVSample, MFAYUVSample structure [Media Foundation], mf.mfayuvsample, mfobjects/MFAYUVSample

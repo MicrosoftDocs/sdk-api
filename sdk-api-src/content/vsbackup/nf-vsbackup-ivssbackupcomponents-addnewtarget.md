@@ -4,7 +4,7 @@ title: IVssBackupComponents::AddNewTarget (vsbackup.h)
 description: The AddNewTarget method is used by a requester during a restore operation to indicate that the backup application plans to restore files to a new location.
 helpviewer_keywords: ["AddNewTarget","AddNewTarget method [VSS]","AddNewTarget method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AddNewTarget method","IVssBackupComponents.AddNewTarget","IVssBackupComponents::AddNewTarget","_win32_ivssbackupcomponents_addnewtarget","base.ivssbackupcomponents_addnewtarget","vsbackup/IVssBackupComponents::AddNewTarget"]
 old-location: base\ivssbackupcomponents_addnewtarget.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9a4e2638-f6e7-4264-997d-41880f23c981
 ms.date: 12/05/2018
 ms.keywords: AddNewTarget, AddNewTarget method [VSS], AddNewTarget method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddNewTarget method, IVssBackupComponents.AddNewTarget, IVssBackupComponents::AddNewTarget, _win32_ivssbackupcomponents_addnewtarget, base.ivssbackupcomponents_addnewtarget, vsbackup/IVssBackupComponents::AddNewTarget

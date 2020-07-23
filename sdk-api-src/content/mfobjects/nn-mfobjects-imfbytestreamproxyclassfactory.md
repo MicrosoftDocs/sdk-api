@@ -4,7 +4,7 @@ title: IMFByteStreamProxyClassFactory (mfobjects.h)
 description: Creates a proxy to a byte stream.
 helpviewer_keywords: ["IMFByteStreamProxyClassFactory","IMFByteStreamProxyClassFactory interface [Media Foundation]","IMFByteStreamProxyClassFactory interface [Media Foundation]","described","mf.imfbytestreamproxyclassfactory","mfobjects/IMFByteStreamProxyClassFactory"]
 old-location: mf\imfbytestreamproxyclassfactory.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: DF29B5FC-864F-4400-8EDB-3A2CD797E37A
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory interface [Media Foundation], IMFByteStreamProxyClassFactory interface [Media Foundation],described, mf.imfbytestreamproxyclassfactory, mfobjects/IMFByteStreamProxyClassFactory

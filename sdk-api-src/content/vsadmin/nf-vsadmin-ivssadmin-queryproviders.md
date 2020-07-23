@@ -4,7 +4,7 @@ title: IVssAdmin::QueryProviders (vsadmin.h)
 description: Queries all registered providers.
 helpviewer_keywords: ["IVssAdmin interface [VSS]","QueryProviders method","IVssAdmin.QueryProviders","IVssAdmin::QueryProviders","QueryProviders","QueryProviders method [VSS]","QueryProviders method [VSS]","IVssAdmin interface","base.ivssadmin_queryproviders","vsadmin/IVssAdmin::QueryProviders"]
 old-location: base\ivssadmin_queryproviders.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 1267b715-dc2e-47a2-88f1-5c03b5fb5415
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryProviders, IVssAdmin::QueryProviders, QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS],IVssAdmin interface, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders

@@ -4,7 +4,7 @@ title: IMediaEvent::WaitForCompletion (control.h)
 description: The WaitForCompletion method waits for the filter graph to render all available data. The filter graph must be running or the method fails.
 helpviewer_keywords: ["IMediaEvent interface [DirectShow]","WaitForCompletion method","IMediaEvent.WaitForCompletion","IMediaEvent::WaitForCompletion","IMediaEventWaitForCompletion","WaitForCompletion","WaitForCompletion method [DirectShow]","WaitForCompletion method [DirectShow]","IMediaEvent interface","control/IMediaEvent::WaitForCompletion","dshow.imediaevent_waitforcompletion"]
 old-location: dshow\imediaevent_waitforcompletion.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion

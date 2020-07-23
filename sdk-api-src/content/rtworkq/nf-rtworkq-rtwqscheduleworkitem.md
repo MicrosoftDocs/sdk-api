@@ -4,7 +4,7 @@ title: RtwqScheduleWorkItem function (rtworkq.h)
 description: Schedules an asynchronous operation to be completed after a specified interval.
 helpviewer_keywords: ["RtwqScheduleWorkItem","RtwqScheduleWorkItem function","base.rtwqscheduleworkitem","rtworkq/RtwqScheduleWorkItem"]
 old-location: base\rtwqscheduleworkitem.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: cfc22cfb-44fc-441b-826c-61f72cb0bd68
 ms.date: 12/05/2018
 ms.keywords: RtwqScheduleWorkItem, RtwqScheduleWorkItem function, base.rtwqscheduleworkitem, rtworkq/RtwqScheduleWorkItem

@@ -4,7 +4,7 @@ title: GetCommTimeouts function (winbase.h)
 description: Retrieves the time-out parameters for all read and write operations on a specified communications device.
 helpviewer_keywords: ["GetCommTimeouts","GetCommTimeouts function","_win32_getcommtimeouts","base.getcommtimeouts","winbase/GetCommTimeouts"]
 old-location: base\getcommtimeouts.htm
-tech.root: devio
+tech.root: base
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.date: 12/05/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts

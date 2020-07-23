@@ -4,7 +4,7 @@ title: WritePwrScheme function (powrprof.h)
 description: Writes policy settings that are unique to the specified power scheme.
 helpviewer_keywords: ["WritePwrScheme","WritePwrScheme function","_win32_writepwrscheme","base.writepwrscheme","powrprof/WritePwrScheme"]
 old-location: base\writepwrscheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: b9233601-6848-41c4-bb58-27decad60ba5
 ms.date: 12/05/2018
 ms.keywords: WritePwrScheme, WritePwrScheme function, _win32_writepwrscheme, base.writepwrscheme, powrprof/WritePwrScheme

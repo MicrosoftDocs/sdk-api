@@ -4,7 +4,7 @@ title: ITCallInfo::get_CallHub (tapi3if.h)
 description: The get_CallHub method gets a pointer to the ITCallHub interface of the CallHub object.
 helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","get_CallHub method","ITCallInfo.get_CallHub","ITCallInfo::get_CallHub","_tapi3_itcallinfo_get_callhub","get_CallHub","get_CallHub method [TAPI 2.2]","get_CallHub method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_get_callhub","tapi3if/ITCallInfo::get_CallHub"]
 old-location: tapi3\itcallinfo_get_callhub.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ae7d74f7-c69b-45d1-a049-59e581856f27
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallHub method, ITCallInfo.get_CallHub, ITCallInfo::get_CallHub, _tapi3_itcallinfo_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callhub, tapi3if/ITCallInfo::get_CallHub

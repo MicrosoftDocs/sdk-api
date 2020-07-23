@@ -4,7 +4,7 @@ title: InitializeEnclave function (enclaveapi.h)
 description: Initializes an enclave that you created and loaded with data.
 helpviewer_keywords: ["InitializeEnclave","InitializeEnclave function","base.initializeenclave","enclaveapi/InitializeEnclave"]
 old-location: base\initializeenclave.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.date: 12/05/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave

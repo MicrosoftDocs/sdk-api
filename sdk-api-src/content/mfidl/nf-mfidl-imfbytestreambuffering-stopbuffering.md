@@ -4,7 +4,7 @@ title: IMFByteStreamBuffering::StopBuffering (mfidl.h)
 description: Stops any buffering that is in progress.
 helpviewer_keywords: ["IMFByteStreamBuffering interface [Media Foundation]","StopBuffering method","IMFByteStreamBuffering.StopBuffering","IMFByteStreamBuffering::StopBuffering","StopBuffering","StopBuffering method [Media Foundation]","StopBuffering method [Media Foundation]","IMFByteStreamBuffering interface","da342ac4-bb61-40d6-9b67-0480ac2a780f","mf.imfbytestreambuffering_stopbuffering","mfidl/IMFByteStreamBuffering::StopBuffering"]
 old-location: mf\imfbytestreambuffering_stopbuffering.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: da342ac4-bb61-40d6-9b67-0480ac2a780f
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering interface [Media Foundation],StopBuffering method, IMFByteStreamBuffering.StopBuffering, IMFByteStreamBuffering::StopBuffering, StopBuffering, StopBuffering method [Media Foundation], StopBuffering method [Media Foundation],IMFByteStreamBuffering interface, da342ac4-bb61-40d6-9b67-0480ac2a780f, mf.imfbytestreambuffering_stopbuffering, mfidl/IMFByteStreamBuffering::StopBuffering

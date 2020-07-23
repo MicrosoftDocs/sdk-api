@@ -4,7 +4,7 @@ title: NtSetInformationKey function (winternl.h)
 description: Sets information for the specified registry key.
 helpviewer_keywords: ["NtSetInformationKey","NtSetInformationKey function [Windows API]","base.ntsetinformationkey","winprog.ntsetinformationkey","winternl/NtSetInformationKey"]
 old-location: winprog\ntsetinformationkey.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.date: 12/05/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey

@@ -4,7 +4,7 @@ title: IMFClockConsumer::SetPresentationClock (mfidl.h)
 description: Called by the media pipeline to provide the app with an instance of IMFPresentationClock.
 helpviewer_keywords: ["IMFClockConsumer interface [Media Foundation]","SetPresentationClock method","IMFClockConsumer.SetPresentationClock","IMFClockConsumer::SetPresentationClock","SetPresentationClock","SetPresentationClock method [Media Foundation]","SetPresentationClock method [Media Foundation]","IMFClockConsumer interface","mf.imfclockconsumer_setpresentationclock","mfidl/IMFClockConsumer::SetPresentationClock"]
 old-location: mf\imfclockconsumer_setpresentationclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7F4CC427-1DBE-4586-BA67-7AB472A55408
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer interface [Media Foundation],SetPresentationClock method, IMFClockConsumer.SetPresentationClock, IMFClockConsumer::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFClockConsumer interface, mf.imfclockconsumer_setpresentationclock, mfidl/IMFClockConsumer::SetPresentationClock

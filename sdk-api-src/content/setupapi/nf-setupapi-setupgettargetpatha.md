@@ -4,7 +4,7 @@ title: SetupGetTargetPathA function (setupapi.h)
 description: The SetupGetTargetPath function determines the target directory for a file list section.
 helpviewer_keywords: ["SetupGetTargetPath","SetupGetTargetPath function [Setup API]","SetupGetTargetPathA","SetupGetTargetPathW","_setupapi_setupgettargetpath","setup.setupgettargetpath","setupapi/SetupGetTargetPath","setupapi/SetupGetTargetPathA","setupapi/SetupGetTargetPathW"]
 old-location: setup\setupgettargetpath.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: fe98f00e-7887-4e37-8e09-037a804e6195
 ms.date: 12/05/2018
 ms.keywords: SetupGetTargetPath, SetupGetTargetPath function [Setup API], SetupGetTargetPathA, SetupGetTargetPathW, _setupapi_setupgettargetpath, setup.setupgettargetpath, setupapi/SetupGetTargetPath, setupapi/SetupGetTargetPathA, setupapi/SetupGetTargetPathW

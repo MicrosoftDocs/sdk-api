@@ -4,7 +4,7 @@ title: IEnumCERTVIEWATTRIBUTE::Clone (certview.h)
 description: Creates a copy of the attribute-enumeration sequence object in its current state.
 helpviewer_keywords: ["Clone","Clone method [Security]","Clone method [Security]","IEnumCERTVIEWATTRIBUTE interface","IEnumCERTVIEWATTRIBUTE interface [Security]","Clone method","IEnumCERTVIEWATTRIBUTE.Clone","IEnumCERTVIEWATTRIBUTE::Clone","_certsrv_ienumcertviewattribute_clone","certview/IEnumCERTVIEWATTRIBUTE::Clone","security.ienumcertviewattribute_clone"]
 old-location: security\ienumcertviewattribute_clone.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],Clone method, IEnumCERTVIEWATTRIBUTE.Clone, IEnumCERTVIEWATTRIBUTE::Clone, _certsrv_ienumcertviewattribute_clone, certview/IEnumCERTVIEWATTRIBUTE::Clone, security.ienumcertviewattribute_clone

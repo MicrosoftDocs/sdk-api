@@ -4,7 +4,7 @@ title: GetSecurityDescriptorRMControl function (securitybaseapi.h)
 description: Retrieves the resource manager control bits.
 helpviewer_keywords: ["GetSecurityDescriptorRMControl","GetSecurityDescriptorRMControl function [Security]","_win32_getsecuritydescriptorrmcontrol","security.getsecuritydescriptorrmcontrol","securitybaseapi/GetSecurityDescriptorRMControl"]
 old-location: security\getsecuritydescriptorrmcontrol.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a1e2ce12-586b-4011-a82d-e246d5544367
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorRMControl, GetSecurityDescriptorRMControl function [Security], _win32_getsecuritydescriptorrmcontrol, security.getsecuritydescriptorrmcontrol, securitybaseapi/GetSecurityDescriptorRMControl

@@ -4,7 +4,7 @@ title: WLAN_MSM_NOTIFICATION_DATA (wlanapi.h)
 description: Contains information about media specific module (MSM) connection related notifications.
 helpviewer_keywords: ["*PWLAN_MSM_NOTIFICATION_DATA","PWLAN_MSM_NOTIFICATION_DATA","PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI]","WLAN_MSM_NOTIFICATION_DATA","WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI]","nwifi.wlan_msm_notification_data","wlanapi/PWLAN_MSM_NOTIFICATION_DATA","wlanapi/WLAN_MSM_NOTIFICATION_DATA"]
 old-location: nwifi\wlan_msm_notification_data.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 76693a8e-7df8-45f0-a3c1-7960de27250c
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_MSM_NOTIFICATION_DATA, WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI], nwifi.wlan_msm_notification_data, wlanapi/PWLAN_MSM_NOTIFICATION_DATA, wlanapi/WLAN_MSM_NOTIFICATION_DATA'

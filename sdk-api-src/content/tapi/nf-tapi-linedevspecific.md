@@ -4,7 +4,7 @@ title: lineDevSpecific function (tapi.h)
 description: The lineDevSpecific function enables service providers to provide access to features not offered by other TAPI functions.
 helpviewer_keywords: ["_tapi2_linedevspecific","lineDevSpecific","lineDevSpecific function [TAPI 2.2]","tapi/lineDevSpecific","tapi2.linedevspecific"]
 old-location: tapi2\linedevspecific.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 28f43b21-5118-465f-95b3-036aab16a049
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedevspecific, lineDevSpecific, lineDevSpecific function [TAPI 2.2], tapi/lineDevSpecific, tapi2.linedevspecific

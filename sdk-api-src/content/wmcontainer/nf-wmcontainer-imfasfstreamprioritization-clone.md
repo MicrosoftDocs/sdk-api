@@ -4,7 +4,7 @@ title: IMFASFStreamPrioritization::Clone (wmcontainer.h)
 description: Note  This interface is not implemented in this version of Media Foundation. Creates a copy of the ASF stream prioritization object.
 helpviewer_keywords: ["Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFASFStreamPrioritization interface","IMFASFStreamPrioritization interface [Media Foundation]","Clone method","IMFASFStreamPrioritization.Clone","IMFASFStreamPrioritization::Clone","e4d7cc00-4483-4aa6-8f26-d25ddc5129bb","mf.imfasfstreamprioritization_clone","wmcontainer/IMFASFStreamPrioritization::Clone"]
 old-location: mf\imfasfstreamprioritization_clone.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e4d7cc00-4483-4aa6-8f26-d25ddc5129bb
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],Clone method, IMFASFStreamPrioritization.Clone, IMFASFStreamPrioritization::Clone, e4d7cc00-4483-4aa6-8f26-d25ddc5129bb, mf.imfasfstreamprioritization_clone, wmcontainer/IMFASFStreamPrioritization::Clone

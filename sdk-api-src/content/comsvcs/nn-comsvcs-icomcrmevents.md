@@ -4,7 +4,7 @@ title: IComCRMEvents (comsvcs.h)
 description: Notifies the subscriber about activities of the Compensating Resource Manager (CRM) feature of Component Services.
 helpviewer_keywords: ["IComCRMEvents","IComCRMEvents interface [COM+]","IComCRMEvents interface [COM+]","described","_dtc_icomcrmevents","comsvcs/IComCRMEvents","cos.icomcrmevents"]
 old-location: cos\icomcrmevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 720beffb-8fb5-4c87-9bcf-6db214543b01
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], IComCRMEvents interface [COM+],described, _dtc_icomcrmevents, comsvcs/IComCRMEvents, cos.icomcrmevents

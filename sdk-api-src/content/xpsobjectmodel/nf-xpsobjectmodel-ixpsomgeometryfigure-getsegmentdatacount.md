@@ -4,7 +4,7 @@ title: IXpsOMGeometryFigure::GetSegmentDataCount (xpsobjectmodel.h)
 description: Gets the number of segment data points in the figure.
 helpviewer_keywords: ["GetSegmentDataCount","GetSegmentDataCount method [XPS Documents and Packaging]","GetSegmentDataCount method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentDataCount method","IXpsOMGeometryFigure.GetSegmentDataCount","IXpsOMGeometryFigure::GetSegmentDataCount","xps.ixpsomgeometryfigure_getsegmentdatacount","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount"]
 old-location: xps\ixpsomgeometryfigure_getsegmentdatacount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 42b68a76-e7fe-49d2-9190-4a4d5e763052
 ms.date: 12/05/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [XPS Documents and Packaging], GetSegmentDataCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentDataCount method, IXpsOMGeometryFigure.GetSegmentDataCount, IXpsOMGeometryFigure::GetSegmentDataCount, xps.ixpsomgeometryfigure_getsegmentdatacount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount

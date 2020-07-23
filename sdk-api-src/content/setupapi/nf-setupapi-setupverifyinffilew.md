@@ -4,7 +4,7 @@ title: SetupVerifyInfFileW function (setupapi.h)
 description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform.
 helpviewer_keywords: ["SetupVerifyInfFile","SetupVerifyInfFile function [Setup API]","SetupVerifyInfFileA","SetupVerifyInfFileW","_setupapi_setupverifyinffile","setup.setupverifyinffile","setupapi/SetupVerifyInfFile","setupapi/SetupVerifyInfFileA","setupapi/SetupVerifyInfFileW"]
 old-location: setup\setupverifyinffile.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.date: 12/05/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW

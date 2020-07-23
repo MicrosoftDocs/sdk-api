@@ -4,7 +4,7 @@ title: IAudioStreamSample (austream.h)
 description: Note  This interface is deprecated.
 helpviewer_keywords: ["IAudioStreamSample","IAudioStreamSample interface [DirectShow]","IAudioStreamSample interface [DirectShow]","described","IAudioStreamSampleInterface","austream/IAudioStreamSample","dshow.iaudiostreamsample"]
 old-location: dshow\iaudiostreamsample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 53deec43-30ca-472e-9a82-750049686d2a
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamSample, IAudioStreamSample interface [DirectShow], IAudioStreamSample interface [DirectShow],described, IAudioStreamSampleInterface, austream/IAudioStreamSample, dshow.iaudiostreamsample

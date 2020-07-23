@@ -4,7 +4,7 @@ title: IOfflineFilesDirtyInfo::RemoteDirtyByteCount (cscobj.h)
 description: This method is reserved for future use.
 helpviewer_keywords: ["IOfflineFilesDirtyInfo interface [Offline Files]","RemoteDirtyByteCount method","IOfflineFilesDirtyInfo.RemoteDirtyByteCount","IOfflineFilesDirtyInfo::RemoteDirtyByteCount","RemoteDirtyByteCount","RemoteDirtyByteCount method [Offline Files]","RemoteDirtyByteCount method [Offline Files]","IOfflineFilesDirtyInfo interface","cscobj/IOfflineFilesDirtyInfo::RemoteDirtyByteCount","of.iofflinefilesdirtyinfo_remotedirtybytecount"]
 old-location: of\iofflinefilesdirtyinfo_remotedirtybytecount.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 3913dc9d-f640-407d-b3b9-77b33f26e726
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],RemoteDirtyByteCount method, IOfflineFilesDirtyInfo.RemoteDirtyByteCount, IOfflineFilesDirtyInfo::RemoteDirtyByteCount, RemoteDirtyByteCount, RemoteDirtyByteCount method [Offline Files], RemoteDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::RemoteDirtyByteCount, of.iofflinefilesdirtyinfo_remotedirtybytecount

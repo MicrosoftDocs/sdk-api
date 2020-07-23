@@ -4,7 +4,7 @@ title: IMFMediaEngineEx::SetAudioEndpointRole (mfmediaengine.h)
 description: Sets the audio device endpoint used for the next call to SetSource or Load.
 helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetAudioEndpointRole method","IMFMediaEngineEx.SetAudioEndpointRole","IMFMediaEngineEx::SetAudioEndpointRole","SetAudioEndpointRole","SetAudioEndpointRole method [Media Foundation]","SetAudioEndpointRole method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setaudioendpointrole","mfmediaengine/IMFMediaEngineEx::SetAudioEndpointRole"]
 old-location: mf\imfmediaengineex_setaudioendpointrole.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 00fd78ce-e046-40a0-8bad-f4a1e1f517bb
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioEndpointRole method, IMFMediaEngineEx.SetAudioEndpointRole, IMFMediaEngineEx::SetAudioEndpointRole, SetAudioEndpointRole, SetAudioEndpointRole method [Media Foundation], SetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudioendpointrole, mfmediaengine/IMFMediaEngineEx::SetAudioEndpointRole

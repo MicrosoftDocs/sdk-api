@@ -4,7 +4,7 @@ title: OPENCARDNAME_EXA (winscard.h)
 description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box.
 helpviewer_keywords: ["*LPOPENCARDNAME_EXA","*POPENCARDNAME_EXA","LPOPENCARDNAME_EX","LPOPENCARDNAME_EX structure pointer [Security]","OPENCARDNAME_EX","OPENCARDNAME_EX structure [Security]","OPENCARDNAME_EXA","OPENCARDNAME_EXW","POPENCARDNAME_EX","POPENCARDNAME_EX structure pointer [Security]","SC_DLG_FORCE_UI","SC_DLG_MINIMAL_UI","SC_DLG_NO_UI","_smart_opencardname_ex","security.opencardname_ex","winscard/LPOPENCARDNAME_EX","winscard/OPENCARDNAME_EX","winscard/OPENCARDNAME_EXA","winscard/OPENCARDNAME_EXW","winscard/POPENCARDNAME_EX"]
 old-location: security\opencardname_ex.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: fb9e64a9-441a-4c7b-b404-79682778c694
 ms.date: 12/05/2018
 ms.keywords: '*LPOPENCARDNAME_EXA, *POPENCARDNAME_EXA, LPOPENCARDNAME_EX, LPOPENCARDNAME_EX structure pointer [Security], OPENCARDNAME_EX, OPENCARDNAME_EX structure [Security], OPENCARDNAME_EXA, OPENCARDNAME_EXW, POPENCARDNAME_EX, POPENCARDNAME_EX structure pointer [Security], SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname_ex, security.opencardname_ex, winscard/LPOPENCARDNAME_EX, winscard/OPENCARDNAME_EX, winscard/OPENCARDNAME_EXA, winscard/OPENCARDNAME_EXW, winscard/POPENCARDNAME_EX'

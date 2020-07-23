@@ -4,7 +4,7 @@ title: IsNativeVhdBoot function (winbase.h)
 description: Indicates if the OS was booted from a VHD container.
 helpviewer_keywords: ["IsNativeVhdBoot","IsNativeVhdBoot","IsNativeVhdBoot function","base.isnativevhdboot","base.isnativevhdboot_","winbase/IsNativeVhdBoot"]
 old-location: base\isnativevhdboot.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 8198D4AF-553D-42B3-AF22-EC2C63C0E9AE
 ms.date: 12/05/2018
 ms.keywords: IsNativeVhdBoot, IsNativeVhdBoot , IsNativeVhdBoot function, base.isnativevhdboot, base.isnativevhdboot_, winbase/IsNativeVhdBoot

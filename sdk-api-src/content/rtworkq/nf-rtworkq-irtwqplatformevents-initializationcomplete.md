@@ -4,7 +4,7 @@ title: IRtwqPlatformEvents::InitializationComplete (rtworkq.h)
 description: Called after the platform has been initialized.
 helpviewer_keywords: ["IRtwqPlatformEvents interface","InitializationComplete method","IRtwqPlatformEvents.InitializationComplete","IRtwqPlatformEvents::InitializationComplete","InitializationComplete","InitializationComplete method","InitializationComplete method","IRtwqPlatformEvents interface","base.irtwqplatformevents_initializationcomplete","rtworkq/IRtwqPlatformEvents::InitializationComplete"]
 old-location: base\irtwqplatformevents_initializationcomplete.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 7CAD2809-9030-4D84-9FF4-A2461EB18583
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,InitializationComplete method, IRtwqPlatformEvents.InitializationComplete, IRtwqPlatformEvents::InitializationComplete, InitializationComplete, InitializationComplete method, InitializationComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_initializationcomplete, rtworkq/IRtwqPlatformEvents::InitializationComplete

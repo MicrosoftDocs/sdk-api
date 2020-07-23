@@ -4,7 +4,7 @@ title: IFilterMapper::RegisterPinType (strmif.h)
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers this pin type.
 helpviewer_keywords: ["IFilterMapper interface [DirectShow]","RegisterPinType method","IFilterMapper.RegisterPinType","IFilterMapper::RegisterPinType","IFilterMapperRegisterPinType","RegisterPinType","RegisterPinType method [DirectShow]","RegisterPinType method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_registerpintype","strmif/IFilterMapper::RegisterPinType"]
 old-location: dshow\ifiltermapper_registerpintype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7f92745b-2b97-4cc6-9755-a580827b5bba
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterPinType method, IFilterMapper.RegisterPinType, IFilterMapper::RegisterPinType, IFilterMapperRegisterPinType, RegisterPinType, RegisterPinType method [DirectShow], RegisterPinType method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerpintype, strmif/IFilterMapper::RegisterPinType

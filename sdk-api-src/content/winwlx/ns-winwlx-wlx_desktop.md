@@ -4,7 +4,7 @@ title: WLX_DESKTOP (winwlx.h)
 description: Used to pass desktop information between your GINA DLL and Winlogon.
 helpviewer_keywords: ["*PWLX_DESKTOP","PWLX_DESKTOP","PWLX_DESKTOP structure pointer [Security]","WLX_DESKTOP","WLX_DESKTOP structure [Security]","WLX_DESKTOP_HANDLE","WLX_DESKTOP_NAME","_gina_wlx_desktop","security.wlx_desktop","winwlx/PWLX_DESKTOP","winwlx/WLX_DESKTOP"]
 old-location: security\wlx_desktop.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
 ms.date: 12/05/2018
 ms.keywords: '*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP'

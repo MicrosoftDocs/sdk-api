@@ -4,7 +4,7 @@ title: ID3D11VideoContext::GetDecoderBuffer (d3d11.h)
 description: Gets a pointer to a decoder buffer.
 helpviewer_keywords: ["GetDecoderBuffer","GetDecoderBuffer method [Media Foundation]","GetDecoderBuffer method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","GetDecoderBuffer method","ID3D11VideoContext.GetDecoderBuffer","ID3D11VideoContext::GetDecoderBuffer","d3d11/ID3D11VideoContext::GetDecoderBuffer","mf.id3d11videocontext_getdecoderbuffer"]
 old-location: mf\id3d11videocontext_getdecoderbuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6842D5D7-6165-4428-91BD-2234BE5332B8
 ms.date: 12/05/2018
 ms.keywords: GetDecoderBuffer, GetDecoderBuffer method [Media Foundation], GetDecoderBuffer method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetDecoderBuffer method, ID3D11VideoContext.GetDecoderBuffer, ID3D11VideoContext::GetDecoderBuffer, d3d11/ID3D11VideoContext::GetDecoderBuffer, mf.id3d11videocontext_getdecoderbuffer

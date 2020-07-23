@@ -4,7 +4,7 @@ title: IVdsService::GetProperties (vds.h)
 description: Returns the properties of VDS.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsService interface","IVdsService interface [VDS]","GetProperties method","IVdsService.GetProperties","IVdsService::GetProperties","base.ivdsservice_getproperties","vds/IVdsService::GetProperties"]
 old-location: base\ivdsservice_getproperties.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: fb5fe743-4833-400a-a8aa-8de886203190
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties

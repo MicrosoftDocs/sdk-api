@@ -4,7 +4,7 @@ title: PWLX_DIALOG_BOX_PARAM (winwlx.h)
 description: Called by GINA to initialize dialog box controls and then create a modal dialog box from a dialog box template resource.
 helpviewer_keywords: ["PWLX_DIALOG_BOX_PARAM","PWLX_DIALOG_BOX_PARAM callback","WlxDialogBoxParam","WlxDialogBoxParam callback function [Security]","_gina_wlxdialogboxparam","security.wlxdialogboxparam","winwlx/WlxDialogBoxParam"]
 old-location: security\wlxdialogboxparam.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 0b4543e1-066b-4d19-9b15-90d966d25154
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX_PARAM, PWLX_DIALOG_BOX_PARAM callback, WlxDialogBoxParam, WlxDialogBoxParam callback function [Security], _gina_wlxdialogboxparam, security.wlxdialogboxparam, winwlx/WlxDialogBoxParam

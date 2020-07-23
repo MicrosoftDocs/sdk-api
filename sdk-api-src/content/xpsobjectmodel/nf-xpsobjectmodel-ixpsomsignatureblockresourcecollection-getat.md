@@ -4,7 +4,7 @@ title: IXpsOMSignatureBlockResourceCollection::GetAt (xpsobjectmodel.h)
 description: Gets an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
 helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMSignatureBlockResourceCollection interface","IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMSignatureBlockResourceCollection.GetAt","IXpsOMSignatureBlockResourceCollection::GetAt","xps.ixpsomsignatureblockresourcecollection_getat","xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetAt"]
 old-location: xps\ixpsomsignatureblockresourcecollection_getat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 84269d8c-9d0f-4489-8e4e-369f5e53fa95
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMSignatureBlockResourceCollection.GetAt, IXpsOMSignatureBlockResourceCollection::GetAt, xps.ixpsomsignatureblockresourcecollection_getat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetAt

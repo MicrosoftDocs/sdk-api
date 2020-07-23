@@ -4,7 +4,7 @@ title: IAzClientContext2::GetAssignedScopesPage (azroles.h)
 description: Retrieves a list of the scopes in which the client represented by the current IAzClientContext2 object is assigned to at least one role.
 helpviewer_keywords: ["AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY","GetAssignedScopesPage","GetAssignedScopesPage method [Security]","GetAssignedScopesPage method [Security]","IAzClientContext2 interface","IAzClientContext2 interface [Security]","GetAssignedScopesPage method","IAzClientContext2.GetAssignedScopesPage","IAzClientContext2::GetAssignedScopesPage","azroles/IAzClientContext2::GetAssignedScopesPage","security.iazclientcontext2_getassignedscopespage"]
 old-location: security\iazclientcontext2_getassignedscopespage.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 496dd834-37d9-41f6-a552-39c558dd60b3
 ms.date: 12/05/2018
 ms.keywords: AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY, GetAssignedScopesPage, GetAssignedScopesPage method [Security], GetAssignedScopesPage method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],GetAssignedScopesPage method, IAzClientContext2.GetAssignedScopesPage, IAzClientContext2::GetAssignedScopesPage, azroles/IAzClientContext2::GetAssignedScopesPage, security.iazclientcontext2_getassignedscopespage

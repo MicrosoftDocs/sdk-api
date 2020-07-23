@@ -4,7 +4,7 @@ title: IInstallationAgent::RecordInstallationResult (wuapi.h)
 description: Records the result for an update. The result is specified by an IStringCollection object.
 helpviewer_keywords: ["IInstallationAgent interface [Windows Update Agent]","RecordInstallationResult method","IInstallationAgent.RecordInstallationResult","IInstallationAgent::RecordInstallationResult","RecordInstallationResult","RecordInstallationResult method [Windows Update Agent]","RecordInstallationResult method [Windows Update Agent]","IInstallationAgent interface","wua.iinstallationagent_recordinstallationresult","wuapi/IInstallationAgent::RecordInstallationResult"]
 old-location: wua\iinstallationagent_recordinstallationresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: E2DD54E3-741E-4647-9993-A9476279BD6C
 ms.date: 12/05/2018
 ms.keywords: IInstallationAgent interface [Windows Update Agent],RecordInstallationResult method, IInstallationAgent.RecordInstallationResult, IInstallationAgent::RecordInstallationResult, RecordInstallationResult, RecordInstallationResult method [Windows Update Agent], RecordInstallationResult method [Windows Update Agent],IInstallationAgent interface, wua.iinstallationagent_recordinstallationresult, wuapi/IInstallationAgent::RecordInstallationResult

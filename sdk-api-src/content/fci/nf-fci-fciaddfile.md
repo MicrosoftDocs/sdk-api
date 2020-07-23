@@ -4,7 +4,7 @@ title: FCIAddFile function (fci.h)
 description: The FCIAddFile adds a file to the cabinet under construction.
 helpviewer_keywords: ["FCIAddFile","FCIAddFile function [Windows API]","fci/FCIAddFile","tcompTYPE_MSZIP","tcompTYPE_NONE","winprog.fciaddfile"]
 old-location: winprog\fciaddfile.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
 ms.date: 12/05/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile

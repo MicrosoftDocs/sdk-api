@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::Detach (wsddisco.h)
 description: Detaches a callback interface from the discovery provider.
 helpviewer_keywords: ["Detach","Detach method","Detach method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","Detach method","IWSDiscoveryProvider.Detach","IWSDiscoveryProvider::Detach","ncd.iwsdiscoveryprovider_detach_method","wsddisco/IWSDiscoveryProvider::Detach"]
 old-location: ncd\iwsdiscoveryprovider_detach_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 562e7618-06ac-4bd3-9746-6ff3a7531b6b
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method, Detach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Detach method, IWSDiscoveryProvider.Detach, IWSDiscoveryProvider::Detach, ncd.iwsdiscoveryprovider_detach_method, wsddisco/IWSDiscoveryProvider::Detach

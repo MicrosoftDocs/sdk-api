@@ -4,7 +4,7 @@ title: IMediaSample2::SetProperties (strmif.h)
 description: The SetProperties method sets the properties of a media sample.
 helpviewer_keywords: ["IMediaSample2 interface [DirectShow]","SetProperties method","IMediaSample2.SetProperties","IMediaSample2::SetProperties","IMediaSample2SetProperties","SetProperties","SetProperties method [DirectShow]","SetProperties method [DirectShow]","IMediaSample2 interface","dshow.imediasample2_setproperties","strmif/IMediaSample2::SetProperties"]
 old-location: dshow\imediasample2_setproperties.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f024fe3a-802d-4dc1-9f4d-ebeeed0b067a
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2 interface [DirectShow],SetProperties method, IMediaSample2.SetProperties, IMediaSample2::SetProperties, IMediaSample2SetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMediaSample2 interface, dshow.imediasample2_setproperties, strmif/IMediaSample2::SetProperties

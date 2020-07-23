@@ -4,7 +4,7 @@ title: IPhotoAcquireSettings::GetGroupTag (photoacquire.h)
 description: The GetGroupTag method retrieves a tag string for the group of files being downloaded from the device.
 helpviewer_keywords: ["GetGroupTag","GetGroupTag method [Picture Acquisition]","GetGroupTag method [Picture Acquisition]","IPhotoAcquireSettings interface","IPhotoAcquireSettings interface [Picture Acquisition]","GetGroupTag method","IPhotoAcquireSettings.GetGroupTag","IPhotoAcquireSettings::GetGroupTag","IPhotoAcquireSettingsGetGroupTag","photoacquire/IPhotoAcquireSettings::GetGroupTag","picacq.iphotoacquiresettings_getgrouptag"]
 old-location: picacq\iphotoacquiresettings_getgrouptag.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 4e65c5b2-ea1c-4376-a4bb-afbad7efb5ed
 ms.date: 12/05/2018
 ms.keywords: GetGroupTag, GetGroupTag method [Picture Acquisition], GetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetGroupTag method, IPhotoAcquireSettings.GetGroupTag, IPhotoAcquireSettings::GetGroupTag, IPhotoAcquireSettingsGetGroupTag, photoacquire/IPhotoAcquireSettings::GetGroupTag, picacq.iphotoacquiresettings_getgrouptag

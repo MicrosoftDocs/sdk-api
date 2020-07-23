@@ -4,7 +4,7 @@ title: IAMNetShowConfig::get_EnableMulticast (qnetwork.h)
 description: The get_EnableMulticast method queries whether multicast-type streaming is enabled.
 helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_EnableMulticast method","IAMNetShowConfig.get_EnableMulticast","IAMNetShowConfig::get_EnableMulticast","IAMNetShowConfigget_EnableMulticast","dshow.iamnetshowconfig_get_enablemulticast","get_EnableMulticast","get_EnableMulticast method [DirectShow]","get_EnableMulticast method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_EnableMulticast"]
 old-location: dshow\iamnetshowconfig_get_enablemulticast.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: dae5c0ad-a41e-424c-a04d-69dbe7264143
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableMulticast method, IAMNetShowConfig.get_EnableMulticast, IAMNetShowConfig::get_EnableMulticast, IAMNetShowConfigget_EnableMulticast, dshow.iamnetshowconfig_get_enablemulticast, get_EnableMulticast, get_EnableMulticast method [DirectShow], get_EnableMulticast method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableMulticast

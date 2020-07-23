@@ -4,7 +4,7 @@ title: ASM_CMP_FLAGS (winsxs.h)
 description: The values of the ASM_CMP_FLAGS enumeration are used by the IsEqual method to specify which portions of two assembly names to compare.
 helpviewer_keywords: ["ASM_CMPF_ALL","ASM_CMPF_BUILD_NUMBER","ASM_CMPF_CULTURE","ASM_CMPF_CUSTOM","ASM_CMPF_DEFAULT","ASM_CMPF_MAJOR_VERSION","ASM_CMPF_MINOR_VERSION","ASM_CMPF_NAME","ASM_CMPF_PUBLIC_KEY_TOKEN","ASM_CMPF_REVISION_NUMBER","ASM_CMP_FLAGS","ASM_CMP_FLAGS","ASM_CMP_FLAGS enumeration [Side-by-side Assemblies]","setup.asm_cmp_flags_","winsxs/ASM_CMPF_ALL","winsxs/ASM_CMPF_BUILD_NUMBER","winsxs/ASM_CMPF_CULTURE","winsxs/ASM_CMPF_CUSTOM","winsxs/ASM_CMPF_DEFAULT","winsxs/ASM_CMPF_MAJOR_VERSION","winsxs/ASM_CMPF_MINOR_VERSION","winsxs/ASM_CMPF_NAME","winsxs/ASM_CMPF_PUBLIC_KEY_TOKEN","winsxs/ASM_CMPF_REVISION_NUMBER","winsxs/ASM_CMP_FLAGS"]
 old-location: setup\asm_cmp_flags_.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 3dd1ac40-e729-409d-a109-8e4f5fd12b37
 ms.date: 12/05/2018
 ms.keywords: ASM_CMPF_ALL, ASM_CMPF_BUILD_NUMBER, ASM_CMPF_CULTURE, ASM_CMPF_CUSTOM, ASM_CMPF_DEFAULT, ASM_CMPF_MAJOR_VERSION, ASM_CMPF_MINOR_VERSION, ASM_CMPF_NAME, ASM_CMPF_PUBLIC_KEY_TOKEN, ASM_CMPF_REVISION_NUMBER, ASM_CMP_FLAGS, ASM_CMP_FLAGS , ASM_CMP_FLAGS enumeration [Side-by-side Assemblies], setup.asm_cmp_flags_, winsxs/ASM_CMPF_ALL, winsxs/ASM_CMPF_BUILD_NUMBER, winsxs/ASM_CMPF_CULTURE, winsxs/ASM_CMPF_CUSTOM, winsxs/ASM_CMPF_DEFAULT, winsxs/ASM_CMPF_MAJOR_VERSION, winsxs/ASM_CMPF_MINOR_VERSION, winsxs/ASM_CMPF_NAME, winsxs/ASM_CMPF_PUBLIC_KEY_TOKEN, winsxs/ASM_CMPF_REVISION_NUMBER, winsxs/ASM_CMP_FLAGS

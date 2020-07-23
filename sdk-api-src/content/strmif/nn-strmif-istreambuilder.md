@@ -4,7 +4,7 @@ title: IStreamBuilder (strmif.h)
 description: The IStreamBuilder interface enables an output pin to notify the filter graph manager that the pin itself will build the downstream section of the filter graph.
 helpviewer_keywords: ["IStreamBuilder","IStreamBuilder interface [DirectShow]","IStreamBuilder interface [DirectShow]","described","IStreamBuilderInterface","dshow.istreambuilder","strmif/IStreamBuilder"]
 old-location: dshow\istreambuilder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 233821e9-9916-4047-a554-4ff43769819f
 ms.date: 12/05/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], IStreamBuilder interface [DirectShow],described, IStreamBuilderInterface, dshow.istreambuilder, strmif/IStreamBuilder

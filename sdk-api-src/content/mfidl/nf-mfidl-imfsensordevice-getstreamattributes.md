@@ -4,7 +4,7 @@ title: IMFSensorDevice::GetStreamAttributes (mfidl.h)
 description: Gets the stream attribute store with the specified index.
 helpviewer_keywords: ["GetStreamAttributes","GetStreamAttributes method [Media Foundation]","GetStreamAttributes method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetStreamAttributes method","IMFSensorDevice.GetStreamAttributes","IMFSensorDevice::GetStreamAttributes","mf.imfsensordevice_getstreamattributes","mfidl/IMFSensorDevice::GetStreamAttributes"]
 old-location: mf\imfsensordevice_getstreamattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: DDBEB335-E6E3-4185-B7EF-90FABA9CDCE5
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributes method, IMFSensorDevice.GetStreamAttributes, IMFSensorDevice::GetStreamAttributes, mf.imfsensordevice_getstreamattributes, mfidl/IMFSensorDevice::GetStreamAttributes

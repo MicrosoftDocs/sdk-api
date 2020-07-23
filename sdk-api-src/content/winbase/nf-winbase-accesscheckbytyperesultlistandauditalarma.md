@@ -4,7 +4,7 @@ title: AccessCheckByTypeResultListAndAuditAlarmA function (winbase.h)
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 helpviewer_keywords: ["AccessCheckByTypeResultListAndAuditAlarm","AccessCheckByTypeResultListAndAuditAlarm function [Security]","AccessCheckByTypeResultListAndAuditAlarmA","AccessCheckByTypeResultListAndAuditAlarmW","_win32_accesscheckbytyperesultlistandauditalarm","security.accesscheckbytyperesultlistandauditalarm","winbase/AccessCheckByTypeResultListAndAuditAlarm","winbase/AccessCheckByTypeResultListAndAuditAlarmA","winbase/AccessCheckByTypeResultListAndAuditAlarmW"]
 old-location: security\accesscheckbytyperesultlistandauditalarm.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, winbase/AccessCheckByTypeResultListAndAuditAlarm, winbase/AccessCheckByTypeResultListAndAuditAlarmA, winbase/AccessCheckByTypeResultListAndAuditAlarmW

@@ -4,7 +4,7 @@ title: IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange (adhoc.h)
 description: Notifies the client that the connection status of the network associated with the NIC has changed.
 helpviewer_keywords: ["IDot11AdHocInterfaceNotificationSink interface [NativeWIFI]","OnConnectionStatusChange method","IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange","IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange","OnConnectionStatusChange","OnConnectionStatusChange method [NativeWIFI]","OnConnectionStatusChange method [NativeWIFI]","IDot11AdHocInterfaceNotificationSink interface","adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange","nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange"]
 old-location: nwifi\idot11adhocinterfacenotificationsink_onconnectionstatuschange.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: a2116e44-e29b-4110-8794-ed161fdb534d
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink interface [NativeWIFI],OnConnectionStatusChange method, IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange, IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, OnConnectionStatusChange, OnConnectionStatusChange method [NativeWIFI], OnConnectionStatusChange method [NativeWIFI],IDot11AdHocInterfaceNotificationSink interface, adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange

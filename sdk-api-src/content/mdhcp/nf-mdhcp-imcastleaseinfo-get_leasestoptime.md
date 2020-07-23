@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_LeaseStopTime (mdhcp.h)
 description: The get_LeaseStopTime method obtains the stop time of the lease.
 helpviewer_keywords: ["IMcastLeaseInfo interface [TAPI 2.2]","get_LeaseStopTime method","IMcastLeaseInfo.get_LeaseStopTime","IMcastLeaseInfo::get_LeaseStopTime","_tapi3_imcastleaseinfo_get_leasestoptime","get_LeaseStopTime","get_LeaseStopTime method [TAPI 2.2]","get_LeaseStopTime method [TAPI 2.2]","IMcastLeaseInfo interface","mdhcp/IMcastLeaseInfo::get_LeaseStopTime","tapi3.imcastleaseinfo_get_leasestoptime"]
 old-location: tapi3\imcastleaseinfo_get_leasestoptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b2b99329-b176-4e5d-afb1-754c418e843a
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStopTime method, IMcastLeaseInfo.get_LeaseStopTime, IMcastLeaseInfo::get_LeaseStopTime, _tapi3_imcastleaseinfo_get_leasestoptime, get_LeaseStopTime, get_LeaseStopTime method [TAPI 2.2], get_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStopTime, tapi3.imcastleaseinfo_get_leasestoptime

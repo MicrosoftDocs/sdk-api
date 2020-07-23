@@ -4,7 +4,7 @@ title: IEnumEventObject::Next (eventsys.h)
 description: Retrieves the specified number of items in the enumeration sequence.
 helpviewer_keywords: ["IEnumEventObject interface [COM+]","Next method","IEnumEventObject.Next","IEnumEventObject::Next","Next","Next method [COM+]","Next method [COM+]","IEnumEventObject interface","_cos_ienumeventobject_next","cos.ienumeventobject_next","eventsys/IEnumEventObject::Next"]
 old-location: cos\ienumeventobject_next.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c9dab0b5-dbbb-4330-afd2-e13e708d708f
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Next method, IEnumEventObject.Next, IEnumEventObject::Next, Next, Next method [COM+], Next method [COM+],IEnumEventObject interface, _cos_ienumeventobject_next, cos.ienumeventobject_next, eventsys/IEnumEventObject::Next

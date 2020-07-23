@@ -4,7 +4,7 @@ title: WSD_SYNCHRONOUS_RESPONSE_CONTEXT (wsdtypes.h)
 description: Provides a context for handling the response to a two-way request.
 helpviewer_keywords: ["WSD_SYNCHRONOUS_RESPONSE_CONTEXT","WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure","ncd.wsd_synchronous_response_context_struct","wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT"]
 old-location: ncd\wsd_synchronous_response_context_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 591cf076-f55f-4e78-aa5e-94ea8db3d102
 ms.date: 12/05/2018
 ms.keywords: WSD_SYNCHRONOUS_RESPONSE_CONTEXT, WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure, ncd.wsd_synchronous_response_context_struct, wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT

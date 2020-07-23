@@ -4,7 +4,7 @@ title: IVMRSurface::UnlockSurface (strmif.h)
 description: The UnlockSurface method unlocks the attached DirectDraw surface.
 helpviewer_keywords: ["IVMRSurface interface [DirectShow]","UnlockSurface method","IVMRSurface.UnlockSurface","IVMRSurface::UnlockSurface","IVMRSurfaceUnlockSurface","UnlockSurface","UnlockSurface method [DirectShow]","UnlockSurface method [DirectShow]","IVMRSurface interface","dshow.ivmrsurface_unlocksurface","strmif/IVMRSurface::UnlockSurface"]
 old-location: dshow\ivmrsurface_unlocksurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f6acaf96-925c-46b9-8d56-11d94f3dbda3
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],UnlockSurface method, IVMRSurface.UnlockSurface, IVMRSurface::UnlockSurface, IVMRSurfaceUnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_unlocksurface, strmif/IVMRSurface::UnlockSurface

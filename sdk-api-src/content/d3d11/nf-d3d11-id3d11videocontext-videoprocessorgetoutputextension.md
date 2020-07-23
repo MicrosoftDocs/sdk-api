@@ -4,7 +4,7 @@ title: ID3D11VideoContext::VideoProcessorGetOutputExtension (d3d11.h)
 description: Gets private state data from the video processor.
 helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputExtension method","ID3D11VideoContext.VideoProcessorGetOutputExtension","ID3D11VideoContext::VideoProcessorGetOutputExtension","VideoProcessorGetOutputExtension","VideoProcessorGetOutputExtension method [Media Foundation]","VideoProcessorGetOutputExtension method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputExtension","mf.id3d11videocontext_videoprocessorgetoutputextension"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputextension.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3B979D5D-CB3D-4B67-9BE3-277005076604
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputExtension method, ID3D11VideoContext.VideoProcessorGetOutputExtension, ID3D11VideoContext::VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension method [Media Foundation], VideoProcessorGetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputExtension, mf.id3d11videocontext_videoprocessorgetoutputextension

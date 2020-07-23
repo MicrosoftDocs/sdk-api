@@ -4,7 +4,7 @@ title: CreateUmsCompletionList function (winbase.h)
 description: Creates a user-mode scheduling (UMS) completion list.
 helpviewer_keywords: ["CreateUmsCompletionList","CreateUmsCompletionList function","base.createumscompletionlist","winbase/CreateUmsCompletionList"]
 old-location: base\createumscompletionlist.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
 ms.date: 12/05/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList

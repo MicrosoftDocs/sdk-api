@@ -4,7 +4,7 @@ title: IGraphBuilder::RenderFile (strmif.h)
 description: The RenderFile method builds a filter graph that renders the specified file.
 helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","RenderFile method","IGraphBuilder.RenderFile","IGraphBuilder::RenderFile","IGraphBuilderRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_renderfile","strmif/IGraphBuilder::RenderFile"]
 old-location: dshow\igraphbuilder_renderfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile

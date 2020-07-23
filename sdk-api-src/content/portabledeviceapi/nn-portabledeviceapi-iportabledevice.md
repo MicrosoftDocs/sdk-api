@@ -4,7 +4,7 @@ title: IPortableDevice (portabledeviceapi.h)
 description: The IPortableDevice interface provides access to a portable device.
 helpviewer_keywords: ["IPortableDevice","IPortableDevice interface [Windows Portable Devices SDK]","IPortableDevice interface [Windows Portable Devices SDK]","described","IPortableDeviceInterface","portabledeviceapi/IPortableDevice","wpdsdk.iportabledevice"]
 old-location: wpdsdk\iportabledevice.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 98c48e56-56b8-4800-b52b-ac08f2abf27e
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], IPortableDevice interface [Windows Portable Devices SDK],described, IPortableDeviceInterface, portabledeviceapi/IPortableDevice, wpdsdk.iportabledevice

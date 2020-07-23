@@ -4,7 +4,7 @@ title: IDvdInfo2::IsAudioStreamEnabled (strmif.h)
 description: The IsAudioStreamEnabled method determines if the specified audio stream is enabled in the current title.
 helpviewer_keywords: ["IDvdInfo2 interface [DirectShow]","IsAudioStreamEnabled method","IDvdInfo2.IsAudioStreamEnabled","IDvdInfo2::IsAudioStreamEnabled","IDvdInfo2IsAudioStreamEnabled","IsAudioStreamEnabled","IsAudioStreamEnabled method [DirectShow]","IsAudioStreamEnabled method [DirectShow]","IDvdInfo2 interface","dshow.idvdinfo2_isaudiostreamenabled","strmif/IDvdInfo2::IsAudioStreamEnabled"]
 old-location: dshow\idvdinfo2_isaudiostreamenabled.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 34938f9b-d3d8-4f38-95b4-bd65a5e88458
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2 interface [DirectShow],IsAudioStreamEnabled method, IDvdInfo2.IsAudioStreamEnabled, IDvdInfo2::IsAudioStreamEnabled, IDvdInfo2IsAudioStreamEnabled, IsAudioStreamEnabled, IsAudioStreamEnabled method [DirectShow], IsAudioStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_isaudiostreamenabled, strmif/IDvdInfo2::IsAudioStreamEnabled

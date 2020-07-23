@@ -4,7 +4,7 @@ title: IPin::EndOfStream (strmif.h)
 description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter.
 helpviewer_keywords: ["EndOfStream","EndOfStream method [DirectShow]","EndOfStream method [DirectShow]","IPin interface","IPin interface [DirectShow]","EndOfStream method","IPin.EndOfStream","IPin::EndOfStream","IPinEndOfStream","dshow.ipin_endofstream","strmif/IPin::EndOfStream"]
 old-location: dshow\ipin_endofstream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b0cca250-9603-4d58-8af5-5b272730e5fa
 ms.date: 12/05/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IPin interface, IPin interface [DirectShow],EndOfStream method, IPin.EndOfStream, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream

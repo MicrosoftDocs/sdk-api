@@ -4,7 +4,7 @@ title: IMFPMPHost (mfidl.h)
 description: Enables a media source in the application process to create objects in the protected media path (PMP) process.
 helpviewer_keywords: ["IMFPMPHost","IMFPMPHost interface [Media Foundation]","IMFPMPHost interface [Media Foundation]","described","fab1fb42-07c5-4a74-b6f5-0950b2c3ba46","mf.imfpmphost","mfidl/IMFPMPHost"]
 old-location: mf\imfpmphost.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost

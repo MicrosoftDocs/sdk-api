@@ -4,7 +4,7 @@ title: IXpsOMPage::GetContentBox (xpsobjectmodel.h)
 description: Gets the dimensions of the page's content box.
 helpviewer_keywords: ["GetContentBox","GetContentBox method [XPS Documents and Packaging]","GetContentBox method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetContentBox method","IXpsOMPage.GetContentBox","IXpsOMPage::GetContentBox","xps.ixpsompage_getcontentbox","xpsobjectmodel/IXpsOMPage::GetContentBox"]
 old-location: xps\ixpsompage_getcontentbox.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6402bcd0-84cb-472f-8c3c-1fe34eecc6d2
 ms.date: 12/05/2018
 ms.keywords: GetContentBox, GetContentBox method [XPS Documents and Packaging], GetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetContentBox method, IXpsOMPage.GetContentBox, IXpsOMPage::GetContentBox, xps.ixpsompage_getcontentbox, xpsobjectmodel/IXpsOMPage::GetContentBox

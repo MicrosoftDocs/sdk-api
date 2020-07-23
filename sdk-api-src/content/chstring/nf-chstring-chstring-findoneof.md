@@ -4,7 +4,7 @@ title: CHString::FindOneOf (chstring.h)
 description: The FindOneOf method searches a string for the first character that matches any character contained in lpszCharSet.
 helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","FindOneOf method","CHString.FindOneOf","CHString::FindOneOf","FindOneOf","FindOneOf method [Windows Management Instrumentation]","FindOneOf method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_findoneof","chstring/CHString::FindOneOf","wmi.chstring_findoneof"]
 old-location: wmi\chstring_findoneof.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof

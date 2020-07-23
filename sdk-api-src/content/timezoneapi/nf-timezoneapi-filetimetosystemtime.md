@@ -4,7 +4,7 @@ title: FileTimeToSystemTime function (timezoneapi.h)
 description: Converts a file time to system time format. System time is based on Coordinated Universal Time (UTC).
 helpviewer_keywords: ["FileTimeToSystemTime","FileTimeToSystemTime function","_win32_filetimetosystemtime","base.filetimetosystemtime","timezoneapi/FileTimeToSystemTime","winbase/FileTimeToSystemTime"]
 old-location: base\filetimetosystemtime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: d1d55f1f-4daa-4b9d-9962-873e38b1e0cf
 ms.date: 12/05/2018
 ms.keywords: FileTimeToSystemTime, FileTimeToSystemTime function, _win32_filetimetosystemtime, base.filetimetosystemtime, timezoneapi/FileTimeToSystemTime, winbase/FileTimeToSystemTime

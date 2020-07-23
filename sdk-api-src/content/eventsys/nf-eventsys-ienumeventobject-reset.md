@@ -4,7 +4,7 @@ title: IEnumEventObject::Reset (eventsys.h)
 description: Resets the enumeration sequence to the beginning.
 helpviewer_keywords: ["IEnumEventObject interface [COM+]","Reset method","IEnumEventObject.Reset","IEnumEventObject::Reset","Reset","Reset method [COM+]","Reset method [COM+]","IEnumEventObject interface","_cos_ienumeventobject_reset","cos.ienumeventobject_reset","eventsys/IEnumEventObject::Reset"]
 old-location: cos\ienumeventobject_reset.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9a92c9de-e259-4b62-8f74-dff3f9947d1a
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Reset method, IEnumEventObject.Reset, IEnumEventObject::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumEventObject interface, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset

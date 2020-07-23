@@ -4,7 +4,7 @@ title: FILE_STORAGE_TIER_MEDIA_TYPE
 description: Specifies the storage media type.
 helpviewer_keywords: ["*PFILE_STORAGE_TIER_MEDIA_TYPE","FILE_STORAGE_TIER_MEDIA_TYPE","FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files]","FileStorageTierMediaTypeDisk","FileStorageTierMediaTypeSsd","FileStorageTierMediaTypeUnspecified","fs.file_storage_tier_media_type","winioctl/FILE_STORAGE_TIER_MEDIA_TYPE","winioctl/FileStorageTierMediaTypeDisk","winioctl/FileStorageTierMediaTypeSsd","winioctl/FileStorageTierMediaTypeUnspecified"]
 old-location: fs\file_storage_tier_media_type.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE, FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files], FileStorageTierMediaTypeDisk, FileStorageTierMediaTypeSsd, FileStorageTierMediaTypeUnspecified, fs.file_storage_tier_media_type, winioctl/FILE_STORAGE_TIER_MEDIA_TYPE, winioctl/FileStorageTierMediaTypeDisk, winioctl/FileStorageTierMediaTypeSsd, winioctl/FileStorageTierMediaTypeUnspecified'

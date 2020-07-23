@@ -4,7 +4,7 @@ title: LSA_CREATE_LOGON_SESSION (ntsecpkg.h)
 description: Creates logon sessions.
 helpviewer_keywords: ["CreateLogonSession","CreateLogonSession callback function [Security]","LSA_CREATE_LOGON_SESSION","LSA_CREATE_LOGON_SESSION callback","_lsa_createlogonsession","ntsecpkg/CreateLogonSession","security.createlogonsession"]
 old-location: security\createlogonsession.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 383c935c-a1f2-4d1b-bb02-e7e37f154771
 ms.date: 12/05/2018
 ms.keywords: CreateLogonSession, CreateLogonSession callback function [Security], LSA_CREATE_LOGON_SESSION, LSA_CREATE_LOGON_SESSION callback, _lsa_createlogonsession, ntsecpkg/CreateLogonSession, security.createlogonsession

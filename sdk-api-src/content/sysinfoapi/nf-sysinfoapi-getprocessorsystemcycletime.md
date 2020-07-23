@@ -4,7 +4,7 @@ title: GetProcessorSystemCycleTime function (sysinfoapi.h)
 description: Retrieves the cycle time each processor in the specified processor group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs) since the processor became active.
 helpviewer_keywords: ["GetProcessorSystemCycleTime","GetProcessorSystemCycleTime function","base.getprocessorsystemcycletime","sysinfoapi/GetProcessorSystemCycleTime"]
 old-location: base\getprocessorsystemcycletime.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 231c2a26-4a2e-4c66-a652-eb9c886369b2
 ms.date: 12/05/2018
 ms.keywords: GetProcessorSystemCycleTime, GetProcessorSystemCycleTime function, base.getprocessorsystemcycletime, sysinfoapi/GetProcessorSystemCycleTime

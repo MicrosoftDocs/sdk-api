@@ -4,7 +4,7 @@ title: CreateHardLinkTransactedW function (winbase.h)
 description: Establishes a hard link between an existing file and a new file as a transacted operation.
 helpviewer_keywords: ["CreateHardLinkTransacted","CreateHardLinkTransacted function [Files]","CreateHardLinkTransactedA","CreateHardLinkTransactedW","fs.createhardlinktransacted","winbase/CreateHardLinkTransacted","winbase/CreateHardLinkTransactedA","winbase/CreateHardLinkTransactedW"]
 old-location: fs\createhardlinktransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
 ms.date: 12/05/2018
 ms.keywords: CreateHardLinkTransacted, CreateHardLinkTransacted function [Files], CreateHardLinkTransactedA, CreateHardLinkTransactedW, fs.createhardlinktransacted, winbase/CreateHardLinkTransacted, winbase/CreateHardLinkTransactedA, winbase/CreateHardLinkTransactedW

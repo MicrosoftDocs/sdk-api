@@ -4,7 +4,7 @@ title: IMFHttpDownloadRequest::QueryHeader (mfidl.h)
 description: Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP headers from the response to a previously sent HTTP or HTTPS request.
 helpviewer_keywords: ["IMFHttpDownloadRequest interface [Media Foundation]","QueryHeader method","IMFHttpDownloadRequest.QueryHeader","IMFHttpDownloadRequest::QueryHeader","QueryHeader","QueryHeader method [Media Foundation]","QueryHeader method [Media Foundation]","IMFHttpDownloadRequest interface","mf.imfhttpdownloadrequest_queryheader","mfidl/IMFHttpDownloadRequest::QueryHeader"]
 old-location: mf\imfhttpdownloadrequest_queryheader.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader

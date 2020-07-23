@@ -4,7 +4,7 @@ title: AuditQuerySystemPolicy function (ntsecapi.h)
 description: Retrieves system audit policy for one or more audit-policy subcategories.
 helpviewer_keywords: ["AuditQuerySystemPolicy","AuditQuerySystemPolicy function [Security]","ntsecapi/AuditQuerySystemPolicy","security.auditquerysystempolicy_func"]
 old-location: security\auditquerysystempolicy_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 5c268033-65fd-4a74-90a1-4b9e1e18daf1
 ms.date: 12/05/2018
 ms.keywords: AuditQuerySystemPolicy, AuditQuerySystemPolicy function [Security], ntsecapi/AuditQuerySystemPolicy, security.auditquerysystempolicy_func

@@ -4,7 +4,7 @@ title: FH_BACKUP_STATUS (fhcfg.h)
 description: Specifies whether File History backups are enabled.
 helpviewer_keywords: ["FH_BACKUP_STATUS","FH_BACKUP_STATUS enumeration [Windows API]","FH_STATUS_DISABLED","FH_STATUS_DISABLED_BY_GP","FH_STATUS_ENABLED","MAX_BACKUP_STATUS","fhcfg/FH_BACKUP_STATUS","fhcfg/FH_STATUS_DISABLED","fhcfg/FH_STATUS_DISABLED_BY_GP","fhcfg/FH_STATUS_ENABLED","fhcfg/MAX_BACKUP_STATUS","winprog.fh_backup_status"]
 old-location: winprog\fh_backup_status.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 7F988CA1-8295-4758-B66B-9B707B2CA126
 ms.date: 12/05/2018
 ms.keywords: FH_BACKUP_STATUS, FH_BACKUP_STATUS enumeration [Windows API], FH_STATUS_DISABLED, FH_STATUS_DISABLED_BY_GP, FH_STATUS_ENABLED, MAX_BACKUP_STATUS, fhcfg/FH_BACKUP_STATUS, fhcfg/FH_STATUS_DISABLED, fhcfg/FH_STATUS_DISABLED_BY_GP, fhcfg/FH_STATUS_ENABLED, fhcfg/MAX_BACKUP_STATUS, winprog.fh_backup_status

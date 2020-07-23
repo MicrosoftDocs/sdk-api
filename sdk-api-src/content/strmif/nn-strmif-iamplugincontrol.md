@@ -4,7 +4,7 @@ title: IAMPluginControl (strmif.h)
 description: Controls the preferred and blocked filter lists.
 helpviewer_keywords: ["IAMPluginControl","IAMPluginControl interface [DirectShow]","IAMPluginControl interface [DirectShow]","described","dshow.iamplugincontrol","strmif/IAMPluginControl"]
 old-location: dshow\iamplugincontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 66720991-3a3f-4c45-a543-b8050d31fcc3
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl

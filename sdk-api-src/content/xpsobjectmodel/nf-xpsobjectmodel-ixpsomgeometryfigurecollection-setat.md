@@ -4,7 +4,7 @@ title: IXpsOMGeometryFigureCollection::SetAt (xpsobjectmodel.h)
 description: Replaces an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 helpviewer_keywords: ["IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMGeometryFigureCollection.SetAt","IXpsOMGeometryFigureCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMGeometryFigureCollection interface","xps.ixpsomgeometryfigurecollection_setat","xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt"]
 old-location: xps\ixpsomgeometryfigurecollection_setat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 59612109-8500-4bd9-a37c-120ef12aded4
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMGeometryFigureCollection.SetAt, IXpsOMGeometryFigureCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_setat, xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt

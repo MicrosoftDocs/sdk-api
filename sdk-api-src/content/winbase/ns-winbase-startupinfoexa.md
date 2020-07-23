@@ -4,7 +4,7 @@ title: STARTUPINFOEXA (winbase.h)
 description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.
 helpviewer_keywords: ["*LPSTARTUPINFOEXA","LPSTARTUPINFOEX","LPSTARTUPINFOEX structure pointer","STARTUPINFOEX","STARTUPINFOEX structure","STARTUPINFOEXA","STARTUPINFOEXW","_STARTUPINFOEXA","_STARTUPINFOEXW","base.startupinfoex","winbase/LPSTARTUPINFOEX","winbase/STARTUPINFOEX","winbase/STARTUPINFOEXA","winbase/STARTUPINFOEXW"]
 old-location: base\startupinfoex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
 ms.date: 12/05/2018
 ms.keywords: '*LPSTARTUPINFOEXA, LPSTARTUPINFOEX, LPSTARTUPINFOEX structure pointer, STARTUPINFOEX, STARTUPINFOEX structure, STARTUPINFOEXA, STARTUPINFOEXW, _STARTUPINFOEXA, _STARTUPINFOEXW, base.startupinfoex, winbase/LPSTARTUPINFOEX, winbase/STARTUPINFOEX, winbase/STARTUPINFOEXA, winbase/STARTUPINFOEXW'

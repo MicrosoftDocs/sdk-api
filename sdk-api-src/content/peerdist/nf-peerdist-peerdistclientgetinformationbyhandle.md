@@ -4,7 +4,7 @@ title: PeerDistClientGetInformationByHandle function (peerdist.h)
 description: The PeerDistClientGetInformationByHandle function retrieves additional information from the Peer Distribution service for a specific content handle.
 helpviewer_keywords: ["PeerDistClientGetInformationByHandle","PeerDistClientGetInformationByHandle function [Peer Networking]","p2p.peerdistclientgetinformationbyhandle","peerdist/PeerDistClientGetInformationByHandle"]
 old-location: p2p\peerdistclientgetinformationbyhandle.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle

@@ -4,7 +4,7 @@ title: DRMDuplicateEnvironmentHandle function (msdrm.h)
 description: Creates a copy of an environment handle.
 helpviewer_keywords: ["DRMDuplicateEnvironmentHandle","DRMDuplicateEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDuplicateEnvironmentHandle","rm.drmduplicateenvironmenthandle"]
 old-location: rm\drmduplicateenvironmenthandle.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 6e246181-1d93-49b4-bc3f-e54083d4cad2
 ms.date: 12/05/2018
 ms.keywords: DRMDuplicateEnvironmentHandle, DRMDuplicateEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateEnvironmentHandle, rm.drmduplicateenvironmenthandle

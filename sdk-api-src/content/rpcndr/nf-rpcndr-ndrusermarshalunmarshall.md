@@ -4,7 +4,7 @@ title: NdrUserMarshalUnmarshall function (rpcndr.h)
 description: The NdrUserMarshalUnmarshall function calls a user-defined unmarshal routine to unmarshal data with the attribute.
 helpviewer_keywords: ["NdrUserMarshalUnmarshall","NdrUserMarshalUnmarshall function [Windows API]","rpcndr/NdrUserMarshalUnmarshall","winprog.ndrusermarshalunmarshall"]
 old-location: winprog\ndrusermarshalunmarshall.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 8012973b-a41f-4729-a04a-8a1afb29cebe
 ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalUnmarshall, NdrUserMarshalUnmarshall function [Windows API], rpcndr/NdrUserMarshalUnmarshall, winprog.ndrusermarshalunmarshall

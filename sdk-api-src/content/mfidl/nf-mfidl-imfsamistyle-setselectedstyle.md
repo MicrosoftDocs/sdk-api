@@ -4,7 +4,7 @@ title: IMFSAMIStyle::SetSelectedStyle (mfidl.h)
 description: Sets the current style on the SAMI media source.
 helpviewer_keywords: ["IMFSAMIStyle interface [Media Foundation]","SetSelectedStyle method","IMFSAMIStyle.SetSelectedStyle","IMFSAMIStyle::SetSelectedStyle","SetSelectedStyle","SetSelectedStyle method [Media Foundation]","SetSelectedStyle method [Media Foundation]","IMFSAMIStyle interface","f7179756-517b-400b-8676-fd9ab5bbe74c","mf.imfsamistyle_setselectedstyle","mfidl/IMFSAMIStyle::SetSelectedStyle"]
 old-location: mf\imfsamistyle_setselectedstyle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f7179756-517b-400b-8676-fd9ab5bbe74c
 ms.date: 12/05/2018
 ms.keywords: IMFSAMIStyle interface [Media Foundation],SetSelectedStyle method, IMFSAMIStyle.SetSelectedStyle, IMFSAMIStyle::SetSelectedStyle, SetSelectedStyle, SetSelectedStyle method [Media Foundation], SetSelectedStyle method [Media Foundation],IMFSAMIStyle interface, f7179756-517b-400b-8676-fd9ab5bbe74c, mf.imfsamistyle_setselectedstyle, mfidl/IMFSAMIStyle::SetSelectedStyle

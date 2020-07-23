@@ -4,7 +4,7 @@ title: CERT_CHAIN_ELEMENT (wincrypt.h)
 description: The CERT_CHAIN_ELEMENT structure is a single element in a simple certificate chain.
 helpviewer_keywords: ["*PCERT_CHAIN_ELEMENT","CERT_CHAIN_ELEMENT","CERT_CHAIN_ELEMENT structure [Security]","PCERT_CHAIN_ELEMENT","PCERT_CHAIN_ELEMENT structure pointer [Security]","_crypto2_cert_chain_element","security.cert_chain_element","wincrypt/CERT_CHAIN_ELEMENT","wincrypt/PCERT_CHAIN_ELEMENT"]
 old-location: security\cert_chain_element.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a1f6ba18-63ef-43ac-a17f-900fa13398aa
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT structure [Security], PCERT_CHAIN_ELEMENT, PCERT_CHAIN_ELEMENT structure pointer [Security], _crypto2_cert_chain_element, security.cert_chain_element, wincrypt/CERT_CHAIN_ELEMENT, wincrypt/PCERT_CHAIN_ELEMENT'

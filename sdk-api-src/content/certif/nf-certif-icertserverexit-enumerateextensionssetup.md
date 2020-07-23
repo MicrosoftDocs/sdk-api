@@ -4,7 +4,7 @@ title: ICertServerExit::EnumerateExtensionsSetup (certif.h)
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateExtensionsSetup method","EnumerateExtensionsSetup","EnumerateExtensionsSetup method [Security]","EnumerateExtensionsSetup method [Security]","CCertServerExit object","EnumerateExtensionsSetup method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateExtensionsSetup method","ICertServerExit.EnumerateExtensionsSetup","ICertServerExit::EnumerateExtensionsSetup","_certsrv_icertserverexit_enumerateextensionssetup","certif/ICertServerExit::EnumerateExtensionsSetup","security.icertserverexit_enumerateextensionssetup"]
 old-location: security\icertserverexit_enumerateextensionssetup.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2a0c4919-b3a0-4027-85bd-970f6bc0cdeb
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerExit object, EnumerateExtensionsSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsSetup method, ICertServerExit.EnumerateExtensionsSetup, ICertServerExit::EnumerateExtensionsSetup, _certsrv_icertserverexit_enumerateextensionssetup, certif/ICertServerExit::EnumerateExtensionsSetup, security.icertserverexit_enumerateextensionssetup

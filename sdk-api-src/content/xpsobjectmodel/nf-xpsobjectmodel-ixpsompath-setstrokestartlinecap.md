@@ -4,7 +4,7 @@ title: IXpsOMPath::SetStrokeStartLineCap (xpsobjectmodel.h)
 description: Sets the style of the stroke's line cap at the start of the stroke line.
 helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeStartLineCap method","IXpsOMPath.SetStrokeStartLineCap","IXpsOMPath::SetStrokeStartLineCap","SetStrokeStartLineCap","SetStrokeStartLineCap method [XPS Documents and Packaging]","SetStrokeStartLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokestartlinecap","xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap"]
 old-location: xps\ixpsompath_setstrokestartlinecap.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2b465775-6eda-49cb-aa9a-091e4d815da3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeStartLineCap method, IXpsOMPath.SetStrokeStartLineCap, IXpsOMPath::SetStrokeStartLineCap, SetStrokeStartLineCap, SetStrokeStartLineCap method [XPS Documents and Packaging], SetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokestartlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap

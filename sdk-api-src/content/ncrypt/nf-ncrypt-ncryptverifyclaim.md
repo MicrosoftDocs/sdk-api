@@ -4,7 +4,7 @@ title: NCryptVerifyClaim function (ncrypt.h)
 description: Verifies a key attestation claim.
 helpviewer_keywords: ["NCryptVerifyClaim","NCryptVerifyClaim function [Security]","ncrypt/NCryptVerifyClaim","security.ncryptverifyclaim"]
 old-location: security\ncryptverifyclaim.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: D3C837A5-49D7-4099-B8FE-37364A275A73
 ms.date: 12/05/2018
 ms.keywords: NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NCryptVerifyClaim, security.ncryptverifyclaim

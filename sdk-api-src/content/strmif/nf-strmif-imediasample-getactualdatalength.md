@@ -4,7 +4,7 @@ title: IMediaSample::GetActualDataLength (strmif.h)
 description: The GetActualDataLength method retrieves the length of the valid data in the buffer.
 helpviewer_keywords: ["GetActualDataLength","GetActualDataLength method [DirectShow]","GetActualDataLength method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetActualDataLength method","IMediaSample.GetActualDataLength","IMediaSample::GetActualDataLength","IMediaSampleGetActualDataLength","dshow.imediasample_getactualdatalength","strmif/IMediaSample::GetActualDataLength"]
 old-location: dshow\imediasample_getactualdatalength.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d89dbaef-01ff-4379-b696-cdd1a6a9801b
 ms.date: 12/05/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetActualDataLength method, IMediaSample.GetActualDataLength, IMediaSample::GetActualDataLength, IMediaSampleGetActualDataLength, dshow.imediasample_getactualdatalength, strmif/IMediaSample::GetActualDataLength

@@ -4,7 +4,7 @@ title: lineAccept function (tapi.h)
 description: The lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
 helpviewer_keywords: ["_tapi2_lineaccept","lineAccept","lineAccept function [TAPI 2.2]","tapi/lineAccept","tapi2.lineaccept"]
 old-location: tapi2\lineaccept.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 185f129a-ba8c-496b-ab1a-ba22e5928c54
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineaccept, lineAccept, lineAccept function [TAPI 2.2], tapi/lineAccept, tapi2.lineaccept

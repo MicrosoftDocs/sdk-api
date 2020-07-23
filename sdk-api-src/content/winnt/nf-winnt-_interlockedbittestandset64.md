@@ -4,7 +4,7 @@ title: _interlockedbittestandset64 function (winnt.h)
 description: Tests the specified bit of the specified LONG64 value and sets it to 1. The operation is atomic.
 helpviewer_keywords: ["InterlockedBitTestAndSet64","InterlockedBitTestAndSet64 function","_interlockedbittestandset64","base.interlockedbittestandset64","winnt/InterlockedBitTestAndSet64"]
 old-location: base\interlockedbittestandset64.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 27f344c7-7143-42fe-b5b6-adc1d983abde
 ms.date: 12/05/2018
 ms.keywords: InterlockedBitTestAndSet64, InterlockedBitTestAndSet64 function, _interlockedbittestandset64, base.interlockedbittestandset64, winnt/InterlockedBitTestAndSet64

@@ -4,7 +4,7 @@ title: InterlockedAdd64 function (winnt.h)
 description: Performs an atomic addition operation on the specified LONG64 values.
 helpviewer_keywords: ["InterlockedAdd64","InterlockedAdd64 function","_InlineInterlockedAdd64","base.interlockedadd64","winnt/InterlockedAdd64"]
 old-location: base\interlockedadd64.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: ab37292f-4291-4cca-826c-d6488e141db8
 ms.date: 12/05/2018
 ms.keywords: InterlockedAdd64, InterlockedAdd64 function, _InlineInterlockedAdd64, base.interlockedadd64, winnt/InterlockedAdd64

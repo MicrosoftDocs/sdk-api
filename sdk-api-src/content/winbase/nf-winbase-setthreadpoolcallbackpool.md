@@ -4,7 +4,7 @@ title: SetThreadpoolCallbackPool function (winbase.h)
 description: Sets the thread pool to be used when generating callbacks.
 helpviewer_keywords: ["SetThreadpoolCallbackPool","SetThreadpoolCallbackPool function","base.setthreadpoolcallbackpool","winbase/SetThreadpoolCallbackPool"]
 old-location: base\setthreadpoolcallbackpool.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 022d83de-ff6c-4bc8-8213-42f403a323e8
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPool, SetThreadpoolCallbackPool function, base.setthreadpoolcallbackpool, winbase/SetThreadpoolCallbackPool

@@ -4,7 +4,7 @@ title: MFCreateMediaSession function (mfidl.h)
 description: Creates the Media Session in the application's process.
 helpviewer_keywords: ["86b2b5ec-231c-4943-9add-1a5a60e72268","MFCreateMediaSession","MFCreateMediaSession function [Media Foundation]","mf.mfcreatemediasession","mfidl/MFCreateMediaSession"]
 old-location: mf\mfcreatemediasession.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 86b2b5ec-231c-4943-9add-1a5a60e72268
 ms.date: 12/05/2018
 ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreateMediaSession function [Media Foundation], mf.mfcreatemediasession, mfidl/MFCreateMediaSession

@@ -4,7 +4,7 @@ title: PdhGetRawCounterValue function (pdh.h)
 description: Returns the current raw value of the counter.
 helpviewer_keywords: ["PdhGetRawCounterValue","PdhGetRawCounterValue function [Perf]","_win32_pdhgetrawcountervalue","base.pdhgetrawcountervalue","pdh/PdhGetRawCounterValue","perf.pdhgetrawcountervalue"]
 old-location: perf\pdhgetrawcountervalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: bb246c82-8748-4e2f-9f44-a206199aff90
 ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue

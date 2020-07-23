@@ -4,7 +4,7 @@ title: IMFASFMutualExclusion (wmcontainer.h)
 description: Configures an Advanced Systems Format (ASF) mutual exclusion object, which manages information about a group of streams in an ASF profile that are mutually exclusive.
 helpviewer_keywords: ["9c2278ec-77d1-445e-94bc-44e5d48f14ae","IMFASFMutualExclusion","IMFASFMutualExclusion interface [Media Foundation]","IMFASFMutualExclusion interface [Media Foundation]","described","mf.imfasfmutualexclusion","wmcontainer/IMFASFMutualExclusion"]
 old-location: mf\imfasfmutualexclusion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9c2278ec-77d1-445e-94bc-44e5d48f14ae
 ms.date: 12/05/2018
 ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], IMFASFMutualExclusion interface [Media Foundation],described, mf.imfasfmutualexclusion, wmcontainer/IMFASFMutualExclusion

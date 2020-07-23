@@ -4,7 +4,7 @@ title: IXpsOMGeometry::SetFillRule (xpsobjectmodel.h)
 description: Sets the XPS_FILL_RULE value that describes the fill rule to be used.
 helpviewer_keywords: ["IXpsOMGeometry interface [XPS Documents and Packaging]","SetFillRule method","IXpsOMGeometry.SetFillRule","IXpsOMGeometry::SetFillRule","SetFillRule","SetFillRule method [XPS Documents and Packaging]","SetFillRule method [XPS Documents and Packaging]","IXpsOMGeometry interface","xps.ixpsomgeometry_setfillrule","xpsobjectmodel/IXpsOMGeometry::SetFillRule"]
 old-location: xps\ixpsomgeometry_setfillrule.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e219a505-48e0-46b0-a739-d46fb898bc58
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetFillRule method, IXpsOMGeometry.SetFillRule, IXpsOMGeometry::SetFillRule, SetFillRule, SetFillRule method [XPS Documents and Packaging], SetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_setfillrule, xpsobjectmodel/IXpsOMGeometry::SetFillRule

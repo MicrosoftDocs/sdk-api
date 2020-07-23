@@ -4,7 +4,7 @@ title: DRMGetTime function (msdrm.h)
 description: Requests a secure time from the rights management system.
 helpviewer_keywords: ["DRMGetTime","DRMGetTime function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetTime","rm.drmgettime"]
 old-location: rm\drmgettime.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 124507af-ccb4-4552-9421-bbbf1b556930
 ms.date: 12/05/2018
 ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime

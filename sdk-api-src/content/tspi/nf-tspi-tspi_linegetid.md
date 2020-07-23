@@ -4,7 +4,7 @@ title: TSPI_lineGetID function (tspi.h)
 description: The TSPI_lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
 helpviewer_keywords: ["TSPI_lineGetID","TSPI_lineGetID function [TAPI 2.2]","_tspi_tspi_linegetid","tspi.tspi_linegetid","tspi/TSPI_lineGetID"]
 old-location: tspi\tspi_linegetid.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d4331721-61c3-4de0-bb1f-c27f475170d1
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetID, TSPI_lineGetID function [TAPI 2.2], _tspi_tspi_linegetid, tspi.tspi_linegetid, tspi/TSPI_lineGetID

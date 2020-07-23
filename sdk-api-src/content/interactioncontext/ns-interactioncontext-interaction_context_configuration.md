@@ -4,7 +4,7 @@ title: INTERACTION_CONTEXT_CONFIGURATION (interactioncontext.h)
 description: Defines the configuration of an Interaction Context object that enables, disables, or modifies the behavior of an interaction.
 helpviewer_keywords: ["INTERACTION_CONTEXT_CONFIGURATION","INTERACTION_CONTEXT_CONFIGURATION structure","input_intcontext.interaction_context_configuration","interactioncontext.interaction_context_configuration","interactioncontext/INTERACTION_CONTEXT_CONFIGURATION"]
 old-location: input_intcontext\interaction_context_configuration.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATION structure, input_intcontext.interaction_context_configuration, interactioncontext.interaction_context_configuration, interactioncontext/INTERACTION_CONTEXT_CONFIGURATION

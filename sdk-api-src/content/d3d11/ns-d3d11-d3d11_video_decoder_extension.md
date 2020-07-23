@@ -4,7 +4,7 @@ title: D3D11_VIDEO_DECODER_EXTENSION (d3d11.h)
 description: Contains driver-specific data for the ID3D11VideoContext::DecoderExtension method.
 helpviewer_keywords: ["D3D11_VIDEO_DECODER_EXTENSION","D3D11_VIDEO_DECODER_EXTENSION structure [Media Foundation]","d3d11/D3D11_VIDEO_DECODER_EXTENSION","mf.d3d11_video_decoder_extension"]
 old-location: mf\d3d11_video_decoder_extension.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F82746A4-16AB-49B5-96C8-777675416467
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_EXTENSION, D3D11_VIDEO_DECODER_EXTENSION structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_EXTENSION, mf.d3d11_video_decoder_extension

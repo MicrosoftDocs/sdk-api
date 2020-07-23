@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider::IsPathSnapshotted (vsprov.h)
 description: Determines whether the given Universal Naming Convention (UNC) path currently has any snapshots.
 helpviewer_keywords: ["IVssFileShareSnapshotProvider interface [VSS]","IsPathSnapshotted method","IVssFileShareSnapshotProvider.IsPathSnapshotted","IVssFileShareSnapshotProvider::IsPathSnapshotted","IsPathSnapshotted","IsPathSnapshotted method [VSS]","IsPathSnapshotted method [VSS]","IVssFileShareSnapshotProvider interface","base.ivssfilesharesnapshotprovider_ispathsnapshotted","vsprov/IVssFileShareSnapshotProvider::IsPathSnapshotted"]
 old-location: base\ivssfilesharesnapshotprovider_ispathsnapshotted.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9a885d5d-a441-4567-b562-39820fa7ffc1
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSnapshotted method, IVssFileShareSnapshotProvider.IsPathSnapshotted, IVssFileShareSnapshotProvider::IsPathSnapshotted, IsPathSnapshotted, IsPathSnapshotted method [VSS], IsPathSnapshotted method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsnapshotted, vsprov/IVssFileShareSnapshotProvider::IsPathSnapshotted

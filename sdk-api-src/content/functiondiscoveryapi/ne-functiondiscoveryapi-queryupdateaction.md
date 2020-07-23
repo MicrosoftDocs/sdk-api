@@ -4,7 +4,7 @@ title: QueryUpdateAction (functiondiscoveryapi.h)
 description: Represents the type of action Function Discovery is performing on the specified function instance. This information is used by the client program's change notification handler.
 helpviewer_keywords: ["QUA_ADD","QUA_CHANGE","QUA_REMOVE","QueryUpdateAction","QueryUpdateAction enumeration","functiondiscoveryapi/QUA_ADD","functiondiscoveryapi/QUA_CHANGE","functiondiscoveryapi/QUA_REMOVE","functiondiscoveryapi/QueryUpdateAction","ncd.queryupdateaction_enum"]
 old-location: ncd\queryupdateaction_enum.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: ae3a4fe2-1b1f-4a8d-9b5d-361a7ece315d
 ms.date: 12/05/2018
 ms.keywords: QUA_ADD, QUA_CHANGE, QUA_REMOVE, QueryUpdateAction, QueryUpdateAction enumeration, functiondiscoveryapi/QUA_ADD, functiondiscoveryapi/QUA_CHANGE, functiondiscoveryapi/QUA_REMOVE, functiondiscoveryapi/QueryUpdateAction, ncd.queryupdateaction_enum

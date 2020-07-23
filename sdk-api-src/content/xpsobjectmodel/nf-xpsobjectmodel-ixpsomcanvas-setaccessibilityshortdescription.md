@@ -4,7 +4,7 @@ title: IXpsOMCanvas::SetAccessibilityShortDescription (xpsobjectmodel.h)
 description: Sets the short textual description of the object's contents.
 helpviewer_keywords: ["IXpsOMCanvas interface [XPS Documents and Packaging]","SetAccessibilityShortDescription method","IXpsOMCanvas.SetAccessibilityShortDescription","IXpsOMCanvas::SetAccessibilityShortDescription","SetAccessibilityShortDescription","SetAccessibilityShortDescription method [XPS Documents and Packaging]","SetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","xps.ixpsomcanvas_setaccessibilityshortdescription","xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription"]
 old-location: xps\ixpsomcanvas_setaccessibilityshortdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0968e378-99eb-470c-9bf0-51f65906b07b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMCanvas.SetAccessibilityShortDescription, IXpsOMCanvas::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription

@@ -4,7 +4,7 @@ title: IX509CertificateRequest::Encode (certenroll.h)
 description: Signs and encodes a certificate request and creates a key pair if one does not exist.
 helpviewer_keywords: ["Encode","Encode method [Security]","Encode method [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","Encode method","IX509CertificateRequest.Encode","IX509CertificateRequest::Encode","certenroll/IX509CertificateRequest::Encode","security.ix509certificaterequest_encode_method"]
 old-location: security\ix509certificaterequest_encode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 098788f4-539f-420b-a4e1-65625dd56ca1
 ms.date: 12/05/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],Encode method, IX509CertificateRequest.Encode, IX509CertificateRequest::Encode, certenroll/IX509CertificateRequest::Encode, security.ix509certificaterequest_encode_method

@@ -4,7 +4,7 @@ title: IAMWstDecoder::SetAnswerMode (iwstdec.h)
 description: Downstream filters use the SetAnswerMode method to assign the current answer mode.
 helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetAnswerMode method","IAMWstDecoder.SetAnswerMode","IAMWstDecoder::SetAnswerMode","IAMWstDecoderSetAnswerMode","SetAnswerMode","SetAnswerMode method [DirectShow]","SetAnswerMode method [DirectShow]","IAMWstDecoder interface","dshow.iamwstdecoder_setanswermode","iwstdec/IAMWstDecoder::SetAnswerMode"]
 old-location: dshow\iamwstdecoder_setanswermode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d26b22d2-2c88-4347-80fb-aca8abae50ab
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetAnswerMode method, IAMWstDecoder.SetAnswerMode, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode

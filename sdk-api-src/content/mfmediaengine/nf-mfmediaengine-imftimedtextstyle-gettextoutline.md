@@ -4,7 +4,7 @@ title: IMFTimedTextStyle::GetTextOutline (mfmediaengine.h)
 description: Gets the text outline for the timed-text style.
 helpviewer_keywords: ["GetTextOutline","GetTextOutline method [Media Foundation]","GetTextOutline method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetTextOutline method","IMFTimedTextStyle.GetTextOutline","IMFTimedTextStyle::GetTextOutline","mf.imftimedtextstyle_gettextoutline","mfmediaengine/IMFTimedTextStyle::GetTextOutline"]
 old-location: mf\imftimedtextstyle_gettextoutline.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 44701080-7E70-4073-85E2-4AF86D4B4FDB
 ms.date: 12/05/2018
 ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOutline method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextOutline method, IMFTimedTextStyle.GetTextOutline, IMFTimedTextStyle::GetTextOutline, mf.imftimedtextstyle_gettextoutline, mfmediaengine/IMFTimedTextStyle::GetTextOutline

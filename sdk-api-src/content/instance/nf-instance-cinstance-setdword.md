@@ -4,7 +4,7 @@ title: CInstance::SetDWORD (instance.h)
 description: The SetDWORD method sets a DWORD property.
 helpviewer_keywords: ["?SetDWORD@CInstance@@QAE_NPBGK@Z","?SetDWORD@CInstance@@QEAA_NPEBGK@Z","CInstance interface [Windows Management Instrumentation]","SetDWORD method","CInstance.SetDWORD","CInstance::SetDWORD","SetDWORD","SetDWORD method [Windows Management Instrumentation]","SetDWORD method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setdword","instance/CInstance::SetDWORD","wmi.cinstance_setdword"]
 old-location: wmi\cinstance_setdword.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 06b2ab13-b42d-4dfe-83f2-ecc526977b92
 ms.date: 12/05/2018
 ms.keywords: ?SetDWORD@CInstance@@QAE_NPBGK@Z, ?SetDWORD@CInstance@@QEAA_NPEBGK@Z, CInstance interface [Windows Management Instrumentation],SetDWORD method, CInstance.SetDWORD, CInstance::SetDWORD, SetDWORD, SetDWORD method [Windows Management Instrumentation], SetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdword, instance/CInstance::SetDWORD, wmi.cinstance_setdword

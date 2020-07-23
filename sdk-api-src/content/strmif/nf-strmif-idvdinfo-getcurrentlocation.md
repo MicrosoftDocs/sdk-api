@@ -4,7 +4,7 @@ title: IDvdInfo::GetCurrentLocation (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current playback location.
 helpviewer_keywords: ["GetCurrentLocation","GetCurrentLocation method [DirectShow]","GetCurrentLocation method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentLocation method","IDvdInfo.GetCurrentLocation","IDvdInfo::GetCurrentLocation","IDvdInfoGetCurrentLocation","dshow.idvdinfo_getcurrentlocation","strmif/IDvdInfo::GetCurrentLocation"]
 old-location: dshow\idvdinfo_getcurrentlocation.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 27913630-d0c2-4bc1-9d6a-623f7aa631ec
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentLocation method, IDvdInfo.GetCurrentLocation, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation

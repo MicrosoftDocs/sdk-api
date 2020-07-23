@@ -4,7 +4,7 @@ title: IWbemContext::GetValue (wbemcli.h)
 description: The IWbemContext::GetValue method is used to retrieve a specific named context value by name.
 helpviewer_keywords: ["GetValue","GetValue method [Windows Management Instrumentation]","GetValue method [Windows Management Instrumentation]","IWbemContext interface","IWbemContext interface [Windows Management Instrumentation]","GetValue method","IWbemContext.GetValue","IWbemContext::GetValue","_hmm_iwbemcontext_getvalue","wbemcli/IWbemContext::GetValue","wmi.iwbemcontext_getvalue"]
 old-location: wmi\iwbemcontext_getvalue.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: e11fff37-aeb7-41c5-8639-ca0a7a144263
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue

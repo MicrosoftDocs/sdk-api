@@ -4,7 +4,7 @@ title: GetCrossSlideParameterInteractionContext function (interactioncontext.h)
 description: Gets the cross-slide interaction behavior.
 helpviewer_keywords: ["GetCrossSlideParameterInteractionContext","GetCrossSlideParameterInteractionContext function","input_intcontext.getcrossslideparameterinteractioncontext","interactioncontext.getcrossslideparameterinteractioncontext","interactioncontext/GetCrossSlideParameterInteractionContext"]
 old-location: input_intcontext\getcrossslideparameterinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 19e934c6-8cd7-4302-a903-bd7865aef908
 ms.date: 12/05/2018
 ms.keywords: GetCrossSlideParameterInteractionContext, GetCrossSlideParameterInteractionContext function, input_intcontext.getcrossslideparameterinteractioncontext, interactioncontext.getcrossslideparameterinteractioncontext, interactioncontext/GetCrossSlideParameterInteractionContext

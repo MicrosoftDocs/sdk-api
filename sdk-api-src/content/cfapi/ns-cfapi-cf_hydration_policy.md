@@ -4,7 +4,7 @@ title: CF_HYDRATION_POLICY (cfapi.h)
 description: Specifies the primary hydration policy and its modifier.
 helpviewer_keywords: ["CF_HYDRATION_POLICY","CF_HYDRATION_POLICY structure","cfapi/CF_HYDRATION_POLICY","cloudApi.cf_hydration_policy"]
 old-location: cloudapi\cf_hydration_policy.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 1541E108-7AE4-4899-8940-94FD264C1B10
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATION_POLICY, CF_HYDRATION_POLICY structure, cfapi/CF_HYDRATION_POLICY, cloudApi.cf_hydration_policy

@@ -4,7 +4,7 @@ title: SLGetInstalledProductKeyIds function (slpublic.h)
 description: This function returns a list of product key IDs associated with the specified Product SKU ID.
 helpviewer_keywords: ["SLGetInstalledProductKeyIds","SLGetInstalledProductKeyIds function [Security]","security.slgetinstalledproductkeyids","slpublic/SLGetInstalledProductKeyIds"]
 old-location: security\slgetinstalledproductkeyids.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 6d678ffa-ef67-41e6-bafa-bdca418c5f9f
 ms.date: 12/05/2018
 ms.keywords: SLGetInstalledProductKeyIds, SLGetInstalledProductKeyIds function [Security], security.slgetinstalledproductkeyids, slpublic/SLGetInstalledProductKeyIds

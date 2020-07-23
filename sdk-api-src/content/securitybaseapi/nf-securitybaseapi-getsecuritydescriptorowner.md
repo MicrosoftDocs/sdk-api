@@ -4,7 +4,7 @@ title: GetSecurityDescriptorOwner function (securitybaseapi.h)
 description: Retrieves the owner information from a security descriptor.
 helpviewer_keywords: ["GetSecurityDescriptorOwner","GetSecurityDescriptorOwner function [Security]","_win32_getsecuritydescriptorowner","security.getsecuritydescriptorowner","securitybaseapi/GetSecurityDescriptorOwner"]
 old-location: security\getsecuritydescriptorowner.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorOwner, GetSecurityDescriptorOwner function [Security], _win32_getsecuritydescriptorowner, security.getsecuritydescriptorowner, securitybaseapi/GetSecurityDescriptorOwner

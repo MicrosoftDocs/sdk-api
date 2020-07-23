@@ -4,7 +4,7 @@ title: IWscProduct::get_ProductState (iwscapi.h)
 description: Returns the current state of the signature data for the security product.
 helpviewer_keywords: ["IWscProduct interface [Windows API]","get_ProductState method","IWscProduct.get_ProductState","IWscProduct::get_ProductState","get_ProductState","get_ProductState method [Windows API]","get_ProductState method [Windows API]","IWscProduct interface","iwscapi/IWscProduct::get_ProductState","winprog.iwscproduct_productstate"]
 old-location: winprog\iwscproduct_productstate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 73E4EA93-C298-4F25-BC51-DB6E38B48EE3
 ms.date: 12/05/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductState method, IWscProduct.get_ProductState, IWscProduct::get_ProductState, get_ProductState, get_ProductState method [Windows API], get_ProductState method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_ProductState, winprog.iwscproduct_productstate

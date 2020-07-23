@@ -4,7 +4,7 @@ title: IXpsOMGlyphs::GetFontResource (xpsobjectmodel.h)
 description: Gets a pointer to the IXpsOMFontResource interface of the font resource object required for this text.
 helpviewer_keywords: ["GetFontResource","GetFontResource method [XPS Documents and Packaging]","GetFontResource method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFontResource method","IXpsOMGlyphs.GetFontResource","IXpsOMGlyphs::GetFontResource","xps.ixpsomglyphs_getfontresource","xpsobjectmodel/IXpsOMGlyphs::GetFontResource"]
 old-location: xps\ixpsomglyphs_getfontresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6ecca6a0-eb47-4511-898d-cf097a78d6f0
 ms.date: 12/05/2018
 ms.keywords: GetFontResource, GetFontResource method [XPS Documents and Packaging], GetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontResource method, IXpsOMGlyphs.GetFontResource, IXpsOMGlyphs::GetFontResource, xps.ixpsomglyphs_getfontresource, xpsobjectmodel/IXpsOMGlyphs::GetFontResource

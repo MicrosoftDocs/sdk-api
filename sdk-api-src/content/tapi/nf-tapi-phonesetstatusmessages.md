@@ -4,7 +4,7 @@ title: phoneSetStatusMessages function (tapi.h)
 description: The phoneSetStatusMessages function enables an application to monitor the specified phone device for selected status events.
 helpviewer_keywords: ["_tapi2_phonesetstatusmessages","phoneSetStatusMessages","phoneSetStatusMessages function [TAPI 2.2]","tapi/phoneSetStatusMessages","tapi2.phonesetstatusmessages"]
 old-location: tapi2\phonesetstatusmessages.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: eb3b6ea8-447f-44df-a0fb-9ab50d6471f8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonesetstatusmessages, phoneSetStatusMessages, phoneSetStatusMessages function [TAPI 2.2], tapi/phoneSetStatusMessages, tapi2.phonesetstatusmessages

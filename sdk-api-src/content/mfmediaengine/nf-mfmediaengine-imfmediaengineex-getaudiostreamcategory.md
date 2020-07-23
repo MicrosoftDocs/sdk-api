@@ -4,7 +4,7 @@ title: IMFMediaEngineEx::GetAudioStreamCategory (mfmediaengine.h)
 description: Gets the audio stream category used for the next call to SetSource or Load.
 helpviewer_keywords: ["GetAudioStreamCategory","GetAudioStreamCategory method [Media Foundation]","GetAudioStreamCategory method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetAudioStreamCategory method","IMFMediaEngineEx.GetAudioStreamCategory","IMFMediaEngineEx::GetAudioStreamCategory","mf.imfmediaengineex_getaudiostreamcategory","mfmediaengine/IMFMediaEngineEx::GetAudioStreamCategory"]
 old-location: mf\imfmediaengineex_getaudiostreamcategory.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 587c0844-93be-42e4-96f6-d5aa721e9ced
 ms.date: 12/05/2018
 ms.keywords: GetAudioStreamCategory, GetAudioStreamCategory method [Media Foundation], GetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioStreamCategory method, IMFMediaEngineEx.GetAudioStreamCategory, IMFMediaEngineEx::GetAudioStreamCategory, mf.imfmediaengineex_getaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::GetAudioStreamCategory

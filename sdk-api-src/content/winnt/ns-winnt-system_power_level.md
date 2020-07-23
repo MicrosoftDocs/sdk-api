@@ -4,7 +4,7 @@ title: SYSTEM_POWER_LEVEL (winnt.h)
 description: Contains information about system battery drain policy settings.
 helpviewer_keywords: ["*PSYSTEM_POWER_LEVEL","PSYSTEM_POWER_LEVEL","PSYSTEM_POWER_LEVEL structure pointer","SYSTEM_POWER_LEVEL","SYSTEM_POWER_LEVEL structure","_win32_system_power_level_str","base.system_power_level_str","winnt/PSYSTEM_POWER_LEVEL","winnt/SYSTEM_POWER_LEVEL"]
 old-location: base\system_power_level_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: 4efa847d-92da-4cf7-95c2-c329de1691f4
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL structure pointer, SYSTEM_POWER_LEVEL, SYSTEM_POWER_LEVEL structure, _win32_system_power_level_str, base.system_power_level_str, winnt/PSYSTEM_POWER_LEVEL, winnt/SYSTEM_POWER_LEVEL'

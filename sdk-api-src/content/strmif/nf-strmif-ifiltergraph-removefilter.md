@@ -4,7 +4,7 @@ title: IFilterGraph::RemoveFilter (strmif.h)
 description: The RemoveFilter method removes a filter from the graph.
 helpviewer_keywords: ["IFilterGraph interface [DirectShow]","RemoveFilter method","IFilterGraph.RemoveFilter","IFilterGraph::RemoveFilter","IFilterGraphRemoveFilter","RemoveFilter","RemoveFilter method [DirectShow]","RemoveFilter method [DirectShow]","IFilterGraph interface","dshow.ifiltergraph_removefilter","strmif/IFilterGraph::RemoveFilter"]
 old-location: dshow\ifiltergraph_removefilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ec681340-0fb9-4eba-8211-d5fa07fb076b
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],RemoveFilter method, IFilterGraph.RemoveFilter, IFilterGraph::RemoveFilter, IFilterGraphRemoveFilter, RemoveFilter, RemoveFilter method [DirectShow], RemoveFilter method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_removefilter, strmif/IFilterGraph::RemoveFilter

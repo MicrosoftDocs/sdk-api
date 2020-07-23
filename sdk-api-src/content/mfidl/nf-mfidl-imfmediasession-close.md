@@ -4,7 +4,7 @@ title: IMFMediaSession::Close (mfidl.h)
 description: Closes the Media Session and releases all of the resources it is using.
 helpviewer_keywords: ["6ed118ae-7538-4ef6-81fc-b762f709838f","Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","Close method","IMFMediaSession.Close","IMFMediaSession::Close","mf.imfmediasession_close","mfidl/IMFMediaSession::Close"]
 old-location: mf\imfmediasession_close.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6ed118ae-7538-4ef6-81fc-b762f709838f
 ms.date: 12/05/2018
 ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],Close method, IMFMediaSession.Close, IMFMediaSession::Close, mf.imfmediasession_close, mfidl/IMFMediaSession::Close

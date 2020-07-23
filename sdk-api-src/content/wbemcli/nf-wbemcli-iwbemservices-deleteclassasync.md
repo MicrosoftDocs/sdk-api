@@ -4,7 +4,7 @@ title: IWbemServices::DeleteClassAsync (wbemcli.h)
 description: The IWbemServices::DeleteClassAsync method deletes the specified class from the current namespace.
 helpviewer_keywords: ["DeleteClassAsync","DeleteClassAsync method [Windows Management Instrumentation]","DeleteClassAsync method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","DeleteClassAsync method","IWbemServices.DeleteClassAsync","IWbemServices::DeleteClassAsync","WBEM_FLAG_OWNER_UPDATE","WBEM_FLAG_SEND_STATUS","_hmm_iwbemservices_deleteclassasync","wbemcli/IWbemServices::DeleteClassAsync","wmi.iwbemservices_deleteclassasync"]
 old-location: wmi\iwbemservices_deleteclassasync.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: ebb58f3b-201c-4e37-8a51-9b5e2365cf3c
 ms.date: 12/05/2018
 ms.keywords: DeleteClassAsync, DeleteClassAsync method [Windows Management Instrumentation], DeleteClassAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteClassAsync method, IWbemServices.DeleteClassAsync, IWbemServices::DeleteClassAsync, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_deleteclassasync, wbemcli/IWbemServices::DeleteClassAsync, wmi.iwbemservices_deleteclassasync

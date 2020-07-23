@@ -4,7 +4,7 @@ title: IAMPluginControl::IsDisabled (strmif.h)
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","IsDisabled method","IAMPluginControl.IsDisabled","IAMPluginControl::IsDisabled","IsDisabled","IsDisabled method [DirectShow]","IsDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_isdisabled","strmif/IAMPluginControl::IsDisabled"]
 old-location: dshow\iamplugincontrol_isdisabled.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2d6bae28-7c26-47c4-8633-9ecc60293dc6
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsDisabled method, IAMPluginControl.IsDisabled, IAMPluginControl::IsDisabled, IsDisabled, IsDisabled method [DirectShow], IsDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_isdisabled, strmif/IAMPluginControl::IsDisabled

@@ -4,7 +4,7 @@ title: OpenCommPort function (winbase.h)
 description: Attempts to open a communication device.
 helpviewer_keywords: ["FILE_FLAG_OVERLAPPED","OpenCommPort","OpenCommPort function","base.opencommport","winbase/OpenCommPort"]
 old-location: base\opencommport.htm
-tech.root: devio
+tech.root: base
 ms.assetid: D96D3F6D-2158-4E6A-84A8-DC3BAE9624FA
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort

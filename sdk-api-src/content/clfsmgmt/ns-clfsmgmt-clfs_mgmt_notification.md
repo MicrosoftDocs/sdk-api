@@ -4,7 +4,7 @@ title: CLFS_MGMT_NOTIFICATION (clfsmgmt.h)
 description: The CLFS_MGMT_NOTIFICATION structure specifies information about the notifications that the client receives.
 helpviewer_keywords: ["*PCLFS_MGMT_NOTIFICATION","CLFS_MGMT_NOTIFICATION","CLFS_MGMT_NOTIFICATION structure [Files]","ClfsMgmtAdvanceTailNotification","ClfsMgmtLogFullHandlerNotification","ClfsMgmtLogUnpinnedNotification","ClfsMgmtLogWriteNotification","PCLFS_MGMT_NOTIFICATION","PCLFS_MGMT_NOTIFICATION structure pointer [Files]","clfsmgmt/CLFS_MGMT_NOTIFICATION","clfsmgmt/PCLFS_MGMT_NOTIFICATION","fs.clfs_mgmt_notification"]
 old-location: fs\clfs_mgmt_notification.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: ba7f7414-885f-40d0-ab61-2348d7f6125b
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION, CLFS_MGMT_NOTIFICATION structure [Files], ClfsMgmtAdvanceTailNotification, ClfsMgmtLogFullHandlerNotification, ClfsMgmtLogUnpinnedNotification, ClfsMgmtLogWriteNotification, PCLFS_MGMT_NOTIFICATION, PCLFS_MGMT_NOTIFICATION structure pointer [Files], clfsmgmt/CLFS_MGMT_NOTIFICATION, clfsmgmt/PCLFS_MGMT_NOTIFICATION, fs.clfs_mgmt_notification'

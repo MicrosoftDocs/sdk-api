@@ -4,7 +4,7 @@ title: RequireNetworkDuringMediaTaskCompletion function (comppkgsup.h)
 description: Increments or decrements the count of network connections required for media task completion.
 helpviewer_keywords: ["RequireNetworkDuringMediaTaskCompletion","RequireNetworkDuringMediaTaskCompletion function [Windows API]","comppkgsup/RequireNetworkDuringMediaTaskCompletion","winprog.requirenetworkduringmediataskcompletion"]
 old-location: winprog\requirenetworkduringmediataskcompletion.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: D3A1E926-CC9C-4E5E-B588-A45B2FEE9FAF
 ms.date: 12/05/2018
 ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion

@@ -4,7 +4,7 @@ title: CMSG_KEY_TRANS_RECIPIENT_INFO (wincrypt.h)
 description: The CMSG_KEY_TRANS_RECIPIENT_INFO structure contains information used in key transport algorithms.
 helpviewer_keywords: ["*PCMSG_KEY_TRANS_RECIPIENT_INFO","CMSG_KEY_TRANS_RECIPIENT_INFO","CMSG_KEY_TRANS_RECIPIENT_INFO structure [Security]","PCMSG_KEY_TRANS_RECIPIENT_INFO","PCMSG_KEY_TRANS_RECIPIENT_INFO structure pointer [Security]","_crypto2_cmsg_key_trans_recipient_info","security.cmsg_key_trans_recipient_info","wincrypt/CMSG_KEY_TRANS_RECIPIENT_INFO","wincrypt/PCMSG_KEY_TRANS_RECIPIENT_INFO"]
 old-location: security\cmsg_key_trans_recipient_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 956b0646-50a5-46d1-aa9a-91194c35d2b2
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_INFO, PCMSG_KEY_TRANS_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_key_trans_recipient_info, security.cmsg_key_trans_recipient_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_INFO'

@@ -4,7 +4,7 @@ title: AUDIO_STREAM_CONFIG_CAPS (strmif.h)
 description: The AUDIO_STREAM_CONFIG_CAPS structure describes a range of audio formats. Audio compression and capture filters use this structure to describe the formats they can produce.
 helpviewer_keywords: ["AUDIO_STREAM_CONFIG_CAPS","AUDIO_STREAM_CONFIG_CAPS structure [DirectShow]","AUDIO_STREAM_CONFIG_CAPSStructure","dshow.audio_stream_config_caps","strmif/AUDIO_STREAM_CONFIG_CAPS"]
 old-location: dshow\audio_stream_config_caps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8a923e8e-173e-4258-ba81-7d398bd9c5fe
 ms.date: 12/05/2018
 ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [DirectShow], AUDIO_STREAM_CONFIG_CAPSStructure, dshow.audio_stream_config_caps, strmif/AUDIO_STREAM_CONFIG_CAPS

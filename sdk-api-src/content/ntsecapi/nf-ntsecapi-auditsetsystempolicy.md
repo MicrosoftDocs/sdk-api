@@ -4,7 +4,7 @@ title: AuditSetSystemPolicy function (ntsecapi.h)
 description: Sets system audit policy for one or more audit-policy subcategories.
 helpviewer_keywords: ["AuditSetSystemPolicy","AuditSetSystemPolicy function [Security]","ntsecapi/AuditSetSystemPolicy","security.auditsetsystempolicy_func"]
 old-location: security\auditsetsystempolicy_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.date: 12/05/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func

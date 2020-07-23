@@ -4,7 +4,7 @@ title: ICompositionGraphicsDeviceInterop (windows.ui.composition.interop.h)
 description: A native interoperation interface that allows getting and setting the graphics device. This is interface is available in C++ only.
 helpviewer_keywords: ["ICompositionGraphicsDeviceInterop","ICompositionGraphicsDeviceInterop interface","ICompositionGraphicsDeviceInterop interface","described","w_ui_comp.icompositiongraphicsdeviceinterop","windows/ICompositionGraphicsDeviceInterop"]
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: E8585E49-DB1E-44CA-AE75-138E87FD2D30
 ms.date: 12/05/2018
 ms.keywords: ICompositionGraphicsDeviceInterop, ICompositionGraphicsDeviceInterop interface, ICompositionGraphicsDeviceInterop interface,described, w_ui_comp.icompositiongraphicsdeviceinterop, windows/ICompositionGraphicsDeviceInterop

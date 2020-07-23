@@ -4,7 +4,7 @@ title: lineGetStatusMessages function (tapi.h)
 description: The lineGetStatusMessages function enables an application to query which notification messages the application is set up to receive for events related to status changes for the specified line or any of its addresses.
 helpviewer_keywords: ["_tapi2_linegetstatusmessages","lineGetStatusMessages","lineGetStatusMessages function [TAPI 2.2]","tapi/lineGetStatusMessages","tapi2.linegetstatusmessages"]
 old-location: tapi2\linegetstatusmessages.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c8ac3bff-be4f-43ca-9651-3263fa06af23
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetstatusmessages, lineGetStatusMessages, lineGetStatusMessages function [TAPI 2.2], tapi/lineGetStatusMessages, tapi2.linegetstatusmessages

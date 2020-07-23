@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreatePartUri (xpsobjectmodel.h)
 description: Creates an IOpcPartUri interface that uses the specified URI.
 helpviewer_keywords: ["CreatePartUri","CreatePartUri method [XPS Documents and Packaging]","CreatePartUri method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePartUri method","IXpsOMObjectFactory.CreatePartUri","IXpsOMObjectFactory::CreatePartUri","xps.ixpsomobjectfactory_createparturi","xpsobjectmodel/IXpsOMObjectFactory::CreatePartUri"]
 old-location: xps\ixpsomobjectfactory_createparturi.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0ed86fd1-ebc0-4eb6-a332-0dea3a21c100
 ms.date: 12/05/2018
 ms.keywords: CreatePartUri, CreatePartUri method [XPS Documents and Packaging], CreatePartUri method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUri method, IXpsOMObjectFactory.CreatePartUri, IXpsOMObjectFactory::CreatePartUri, xps.ixpsomobjectfactory_createparturi, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUri

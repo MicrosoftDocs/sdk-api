@@ -4,7 +4,7 @@ title: IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper (vmr9.h)
 description: The AllocateSurfaceHelper method allocates a Direct3D surface based on application-specified parameters.
 helpviewer_keywords: ["AllocateSurfaceHelper","AllocateSurfaceHelper method [DirectShow]","AllocateSurfaceHelper method [DirectShow]","IVMRSurfaceAllocatorNotify9 interface","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","AllocateSurfaceHelper method","IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper","IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper","IVMRSurfaceAllocatorNotify9AllocateSurfaceHelper","dshow.ivmrsurfaceallocatornotify9_allocatesurfacehelper","vmr9/IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper"]
 old-location: dshow\ivmrsurfaceallocatornotify9_allocatesurfacehelper.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b69db9e9-6ab0-40ad-b929-30613c0b9e4b
 ms.date: 12/05/2018
 ms.keywords: AllocateSurfaceHelper, AllocateSurfaceHelper method [DirectShow], AllocateSurfaceHelper method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AllocateSurfaceHelper method, IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9AllocateSurfaceHelper, dshow.ivmrsurfaceallocatornotify9_allocatesurfacehelper, vmr9/IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper

@@ -4,7 +4,7 @@ title: MF_VIDEO_PROCESSOR_MIRROR (mfidl.h)
 description: Specifies how to flip a video image.
 helpviewer_keywords: ["MF_VIDEO_PROCESSOR_MIRROR","MF_VIDEO_PROCESSOR_MIRROR enumeration [Media Foundation]","MIRROR_HORIZONTAL","MIRROR_NONE","MIRROR_VERTICAL","mf.mf_video_processor_mirror","mfidl/MF_VIDEO_PROCESSOR_MIRROR","mfidl/MIRROR_HORIZONTAL","mfidl/MIRROR_NONE","mfidl/MIRROR_VERTICAL"]
 old-location: mf\mf_video_processor_mirror.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: AFD29AD7-8DC9-4834-8F8E-D062A3A19BD0
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_MIRROR, MF_VIDEO_PROCESSOR_MIRROR enumeration [Media Foundation], MIRROR_HORIZONTAL, MIRROR_NONE, MIRROR_VERTICAL, mf.mf_video_processor_mirror, mfidl/MF_VIDEO_PROCESSOR_MIRROR, mfidl/MIRROR_HORIZONTAL, mfidl/MIRROR_NONE, mfidl/MIRROR_VERTICAL

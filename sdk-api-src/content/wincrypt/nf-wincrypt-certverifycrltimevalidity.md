@@ -4,7 +4,7 @@ title: CertVerifyCRLTimeValidity function (wincrypt.h)
 description: The CertVerifyCRLTimeValidity function verifies the time validity of a CRL.
 helpviewer_keywords: ["CertVerifyCRLTimeValidity","CertVerifyCRLTimeValidity function [Security]","_crypto2_certverifycrltimevalidity","security.certverifycrltimevalidity","wincrypt/CertVerifyCRLTimeValidity"]
 old-location: security\certverifycrltimevalidity.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ff321fe8-df45-4a1d-b626-055fb0696438
 ms.date: 12/05/2018
 ms.keywords: CertVerifyCRLTimeValidity, CertVerifyCRLTimeValidity function [Security], _crypto2_certverifycrltimevalidity, security.certverifycrltimevalidity, wincrypt/CertVerifyCRLTimeValidity

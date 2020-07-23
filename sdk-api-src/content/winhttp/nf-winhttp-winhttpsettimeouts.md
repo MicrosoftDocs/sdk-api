@@ -4,7 +4,7 @@ title: WinHttpSetTimeouts function (winhttp.h)
 description: Sets time-outs involved with HTTP transactions.
 helpviewer_keywords: ["WinHttpSetTimeouts","WinHttpSetTimeouts function [WinHTTP]","http.winhttpsettimeouts","winhttp.winhttpsettimeouts_function","winhttp/WinHttpSetTimeouts"]
 old-location: http\winhttpsettimeouts.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts

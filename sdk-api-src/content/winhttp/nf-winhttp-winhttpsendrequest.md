@@ -4,7 +4,7 @@ title: WinHttpSendRequest function (winhttp.h)
 description: Sends the specified request to the HTTP server.
 helpviewer_keywords: ["WinHttpSendRequest","WinHttpSendRequest function [WinHTTP]","http.winhttpsendrequest","winhttp.winhttpsendrequest_function","winhttp/WinHttpSendRequest"]
 old-location: http\winhttpsendrequest.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.date: 12/05/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest

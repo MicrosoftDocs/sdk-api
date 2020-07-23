@@ -4,7 +4,7 @@ title: IMFByteStreamBuffering::SetBufferingParams (mfidl.h)
 description: Sets the buffering parameters.
 helpviewer_keywords: ["033ea7d4-d669-497b-be37-a8c9a6584209","IMFByteStreamBuffering interface [Media Foundation]","SetBufferingParams method","IMFByteStreamBuffering.SetBufferingParams","IMFByteStreamBuffering::SetBufferingParams","SetBufferingParams","SetBufferingParams method [Media Foundation]","SetBufferingParams method [Media Foundation]","IMFByteStreamBuffering interface","mf.imfbytestreambuffering_setbufferingparams","mfidl/IMFByteStreamBuffering::SetBufferingParams"]
 old-location: mf\imfbytestreambuffering_setbufferingparams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 033ea7d4-d669-497b-be37-a8c9a6584209
 ms.date: 12/05/2018
 ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering interface [Media Foundation],SetBufferingParams method, IMFByteStreamBuffering.SetBufferingParams, IMFByteStreamBuffering::SetBufferingParams, SetBufferingParams, SetBufferingParams method [Media Foundation], SetBufferingParams method [Media Foundation],IMFByteStreamBuffering interface, mf.imfbytestreambuffering_setbufferingparams, mfidl/IMFByteStreamBuffering::SetBufferingParams

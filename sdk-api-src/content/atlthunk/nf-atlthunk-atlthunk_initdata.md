@@ -4,7 +4,7 @@ title: AtlThunk_InitData function (atlthunk.h)
 description: Initializes an ATL thunk.
 helpviewer_keywords: ["AtlThunk_InitData","AtlThunk_InitData function","atlthunk/AtlThunk_InitData","base.atlthunk_initdata"]
 old-location: base\atlthunk_initdata.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata

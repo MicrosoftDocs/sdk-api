@@ -4,7 +4,7 @@ title: IAzApplication::AddPolicyReader (azroles.h)
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers.
 helpviewer_keywords: ["AddPolicyReader","AddPolicyReader method [Security]","AddPolicyReader method [Security]","AzApplication object","AddPolicyReader method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyReader method","IAzApplication interface [Security]","AddPolicyReader method","IAzApplication.AddPolicyReader","IAzApplication::AddPolicyReader","azroles/IAzApplication::AddPolicyReader","security.iazapplication_addpolicyreader"]
 old-location: security\iazapplication_addpolicyreader.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: fb44461c-e494-4393-bdcd-0e759f6fbae1
 ms.date: 12/05/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzApplication object, AddPolicyReader method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReader method, IAzApplication interface [Security],AddPolicyReader method, IAzApplication.AddPolicyReader, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader

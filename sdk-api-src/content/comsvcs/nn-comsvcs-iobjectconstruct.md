@@ -4,7 +4,7 @@ title: IObjectConstruct (comsvcs.h)
 description: Controls the object construction process by passing in parameters from other methods or objects.
 helpviewer_keywords: ["IObjectConstruct","IObjectConstruct interface [COM+]","IObjectConstruct interface [COM+]","described","_cos_IObjectConstruct","comsvcs/IObjectConstruct","cos.iobjectconstruct"]
 old-location: cos\iobjectconstruct.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3fc84c37-f38d-4ff1-bdb1-f5d298802b64
 ms.date: 12/05/2018
 ms.keywords: IObjectConstruct, IObjectConstruct interface [COM+], IObjectConstruct interface [COM+],described, _cos_IObjectConstruct, comsvcs/IObjectConstruct, cos.iobjectconstruct

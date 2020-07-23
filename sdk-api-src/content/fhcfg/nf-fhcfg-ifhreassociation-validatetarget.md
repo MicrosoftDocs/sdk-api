@@ -4,7 +4,7 @@ title: IFhReassociation::ValidateTarget (fhcfg.h)
 description: This method checks whether a certain storage device or network share can be used as a File History default target and, thus, whether reassociation is possible at all or not.
 helpviewer_keywords: ["FhReassociation class [Windows API]","ValidateTarget method","IFhReassociation interface [Windows API]","ValidateTarget method","IFhReassociation.ValidateTarget","IFhReassociation::ValidateTarget","ValidateTarget","ValidateTarget method [Windows API]","ValidateTarget method [Windows API]","FhReassociation class","ValidateTarget method [Windows API]","IFhReassociation interface","fhcfg/IFhReassociation::ValidateTarget","winprog.ifhreassociation_validatetarget"]
 old-location: winprog\ifhreassociation_validatetarget.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 307F2C8F-B847-437C-BDD7-BE09FD407C79
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],ValidateTarget method, IFhReassociation interface [Windows API],ValidateTarget method, IFhReassociation.ValidateTarget, IFhReassociation::ValidateTarget, ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API],FhReassociation class, ValidateTarget method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::ValidateTarget, winprog.ifhreassociation_validatetarget

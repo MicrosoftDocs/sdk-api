@@ -4,7 +4,7 @@ title: IMFSaveJob::BeginSave (mfidl.h)
 description: Begins saving a Windows Media file to the application's byte stream.
 helpviewer_keywords: ["BeginSave","BeginSave method [Media Foundation]","BeginSave method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","BeginSave method","IMFSaveJob.BeginSave","IMFSaveJob::BeginSave","ff137b76-2a05-4e58-8d4f-d12cdd89656b","mf.imfsavejob_beginsave","mfidl/IMFSaveJob::BeginSave"]
 old-location: mf\imfsavejob_beginsave.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ff137b76-2a05-4e58-8d4f-d12cdd89656b
 ms.date: 12/05/2018
 ms.keywords: BeginSave, BeginSave method [Media Foundation], BeginSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],BeginSave method, IMFSaveJob.BeginSave, IMFSaveJob::BeginSave, ff137b76-2a05-4e58-8d4f-d12cdd89656b, mf.imfsavejob_beginsave, mfidl/IMFSaveJob::BeginSave

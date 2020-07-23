@@ -4,7 +4,7 @@ title: WlxLogoff function (winwlx.h)
 description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
 helpviewer_keywords: ["WlxLogoff","WlxLogoff function [Security]","_gina_wlxlogoff","security.wlxlogoff","winwlx/WlxLogoff"]
 old-location: security\wlxlogoff.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
 ms.date: 12/05/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff

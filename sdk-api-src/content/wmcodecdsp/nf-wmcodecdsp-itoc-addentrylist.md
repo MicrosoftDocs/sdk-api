@@ -4,7 +4,7 @@ title: IToc::AddEntryList (wmcodecdsp.h)
 description: The AddEntryList method adds an entry list to the table of contents and assigns an index to the entry list.
 helpviewer_keywords: ["AddEntryList","AddEntryList method [Media Foundation]","AddEntryList method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","AddEntryList method","IToc.AddEntryList","IToc::AddEntryList","codecapi.itoc_addentrylist","mf.itoc_addentrylist","wmcodecdsp/IToc::AddEntryList"]
 old-location: mf\itoc_addentrylist.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8d04d6b8-d110-45a3-b3bb-5a7b680ddabe
 ms.date: 12/05/2018
 ms.keywords: AddEntryList, AddEntryList method [Media Foundation], AddEntryList method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryList method, IToc.AddEntryList, IToc::AddEntryList, codecapi.itoc_addentrylist, mf.itoc_addentrylist, wmcodecdsp/IToc::AddEntryList

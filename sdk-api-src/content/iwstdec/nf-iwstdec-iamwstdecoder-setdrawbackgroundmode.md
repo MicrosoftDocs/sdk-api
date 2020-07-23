@@ -4,7 +4,7 @@ title: IAMWstDecoder::SetDrawBackgroundMode (iwstdec.h)
 description: Downstream filters use the SetDrawBackgroundMode method to assign whether the caption text background is to be opaque or transparent.
 helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetDrawBackgroundMode method","IAMWstDecoder.SetDrawBackgroundMode","IAMWstDecoder::SetDrawBackgroundMode","IAMWstDecoderSetDrawBackgroundMode","SetDrawBackgroundMode","SetDrawBackgroundMode method [DirectShow]","SetDrawBackgroundMode method [DirectShow]","IAMWstDecoder interface","dshow.iamwstdecoder_setdrawbackgroundmode","iwstdec/IAMWstDecoder::SetDrawBackgroundMode"]
 old-location: dshow\iamwstdecoder_setdrawbackgroundmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d237d3dc-b3c9-44b2-9277-798c4830b361
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode

@@ -4,7 +4,7 @@ title: DrtContinueSearch function (drt.h)
 description: DrtContinueSearch function continues an iterative search for a key.
 helpviewer_keywords: ["DrtContinueSearch","DrtContinueSearch function [Peer Networking]","drt/DrtContinueSearch","p2p.drtcontinuesearch"]
 old-location: p2p\drtcontinuesearch.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 04bdeb53-4901-41d4-835e-da665095edc5
 ms.date: 12/05/2018
 ms.keywords: DrtContinueSearch, DrtContinueSearch function [Peer Networking], drt/DrtContinueSearch, p2p.drtcontinuesearch

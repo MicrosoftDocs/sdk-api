@@ -4,7 +4,7 @@ title: ID3D11VideoProcessor::GetRateConversionCaps (d3d11.h)
 description: Gets the rate conversion capabilities of the video processor.
 helpviewer_keywords: ["GetRateConversionCaps","GetRateConversionCaps method [Media Foundation]","GetRateConversionCaps method [Media Foundation]","ID3D11VideoProcessor interface","ID3D11VideoProcessor interface [Media Foundation]","GetRateConversionCaps method","ID3D11VideoProcessor.GetRateConversionCaps","ID3D11VideoProcessor::GetRateConversionCaps","d3d11/ID3D11VideoProcessor::GetRateConversionCaps","mf.id3d11videoprocessor_getrateconversioncaps"]
 old-location: mf\id3d11videoprocessor_getrateconversioncaps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: CC1ED2C7-8277-4F2A-801D-7534CE383DAD
 ms.date: 12/05/2018
 ms.keywords: GetRateConversionCaps, GetRateConversionCaps method [Media Foundation], GetRateConversionCaps method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetRateConversionCaps method, ID3D11VideoProcessor.GetRateConversionCaps, ID3D11VideoProcessor::GetRateConversionCaps, d3d11/ID3D11VideoProcessor::GetRateConversionCaps, mf.id3d11videoprocessor_getrateconversioncaps

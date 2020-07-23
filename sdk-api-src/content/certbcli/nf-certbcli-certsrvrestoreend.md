@@ -4,7 +4,7 @@ title: CertSrvRestoreEnd function (certbcli.h)
 description: Ends a Certificate Services restore session.
 helpviewer_keywords: ["CertSrvRestoreEnd","CertSrvRestoreEnd function [Security]","_certsrv_certsrvrestoreend","certbcli/CertSrvRestoreEnd","security.certsrvrestoreend"]
 old-location: security\certsrvrestoreend.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend

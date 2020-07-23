@@ -4,7 +4,7 @@ title: IX509SignatureInformation::put_HashAlgorithm (certenroll.h)
 description: Specifies and retrieves an object identifier (OID) for the hashing algorithm used in the GetSignatureAlgorithm method.
 helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IX509SignatureInformation interface","IX509SignatureInformation interface [Security]","HashAlgorithm property","IX509SignatureInformation.HashAlgorithm","IX509SignatureInformation.put_HashAlgorithm","IX509SignatureInformation::HashAlgorithm","IX509SignatureInformation::get_HashAlgorithm","IX509SignatureInformation::put_HashAlgorithm","certenroll/IX509SignatureInformation::HashAlgorithm","certenroll/IX509SignatureInformation::get_HashAlgorithm","certenroll/IX509SignatureInformation::put_HashAlgorithm","put_HashAlgorithm","security.ix509signatureinformation_hashalgorithm_property"]
 old-location: security\ix509signatureinformation_hashalgorithm_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b5242975-50e5-49d6-be1f-3a09ada03593
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],HashAlgorithm property, IX509SignatureInformation.HashAlgorithm, IX509SignatureInformation.put_HashAlgorithm, IX509SignatureInformation::HashAlgorithm, IX509SignatureInformation::get_HashAlgorithm, IX509SignatureInformation::put_HashAlgorithm, certenroll/IX509SignatureInformation::HashAlgorithm, certenroll/IX509SignatureInformation::get_HashAlgorithm, certenroll/IX509SignatureInformation::put_HashAlgorithm, put_HashAlgorithm, security.ix509signatureinformation_hashalgorithm_property

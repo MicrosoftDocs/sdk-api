@@ -4,7 +4,7 @@ title: WSD_SOAP_HEADER (wsdtypes.h)
 description: Provides SOAP header data for the WSD_SOAP_MESSAGE structure.
 helpviewer_keywords: ["WSD_SOAP_HEADER","WSD_SOAP_HEADER structure","ncd.wsd_soap_header_struct","wsdtypes/WSD_SOAP_HEADER"]
 old-location: ncd\wsd_soap_header_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 6a0f0fd3-486e-45b3-bac6-e241bce8e2dc
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_HEADER, WSD_SOAP_HEADER structure, ncd.wsd_soap_header_struct, wsdtypes/WSD_SOAP_HEADER

@@ -4,7 +4,7 @@ title: eAVDecDDStereoDownMixMode (codecapi.h)
 description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 helpviewer_keywords: ["codecapi/eAVDecDDStereoDownMixMode","codecapi/eAVDecDDStereoDownMixMode_Auto","codecapi/eAVDecDDStereoDownMixMode_LoRo","codecapi/eAVDecDDStereoDownMixMode_LtRt","eAVDecDDStereoDownMixMode","eAVDecDDStereoDownMixMode enumeration [Media Foundation]","eAVDecDDStereoDownMixMode_Auto","eAVDecDDStereoDownMixMode_LoRo","eAVDecDDStereoDownMixMode_LtRt","mf.eavdecddstereodownmixmode"]
 old-location: mf\eavdecddstereodownmixmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B7DBC665-2942-433B-8C7F-1A02DB994A8B
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecDDStereoDownMixMode, codecapi/eAVDecDDStereoDownMixMode_Auto, codecapi/eAVDecDDStereoDownMixMode_LoRo, codecapi/eAVDecDDStereoDownMixMode_LtRt, eAVDecDDStereoDownMixMode, eAVDecDDStereoDownMixMode enumeration [Media Foundation], eAVDecDDStereoDownMixMode_Auto, eAVDecDDStereoDownMixMode_LoRo, eAVDecDDStereoDownMixMode_LtRt, mf.eavdecddstereodownmixmode

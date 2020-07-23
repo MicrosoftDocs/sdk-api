@@ -4,7 +4,7 @@ title: CryptXmlSign function (cryptxml.h)
 description: Creates a cryptographic signature of a SignedInfo element.
 helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CERT_NCRYPT_KEY_SPEC","CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CRYPT_XML_SIGN_ADD_KEYVALUE","CryptXmlSign","CryptXmlSign function [Security]","cryptxml/CryptXmlSign","security.cryptxmlsign"]
 old-location: security\cryptxmlsign.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign

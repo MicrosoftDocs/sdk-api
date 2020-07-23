@@ -4,7 +4,7 @@ title: IMediaSeeking (strmif.h)
 description: The IMediaSeeking interface contains methods for seeking to a position within a stream, and for setting the playback rate.
 helpviewer_keywords: ["IMediaSeeking","IMediaSeeking interface [DirectShow]","IMediaSeeking interface [DirectShow]","described","IMediaSeekingInterface","dshow.imediaseeking","strmif/IMediaSeeking"]
 old-location: dshow\imediaseeking.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 32adad53-d1ac-495f-9347-7bdd4ae4b78d
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IMediaSeeking interface [DirectShow],described, IMediaSeekingInterface, dshow.imediaseeking, strmif/IMediaSeeking

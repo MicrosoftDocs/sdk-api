@@ -4,7 +4,7 @@ title: IComExceptionEvents::OnExceptionUser (comsvcs.h)
 description: Generated for transactional components when an unhandled exception occurs in the user's code.
 helpviewer_keywords: ["IComExceptionEvents interface [COM+]","OnExceptionUser method","IComExceptionEvents.OnExceptionUser","IComExceptionEvents::OnExceptionUser","OnExceptionUser","OnExceptionUser method [COM+]","OnExceptionUser method [COM+]","IComExceptionEvents interface","_dtc_IComExceptionEvents_OnExceptionUser","comsvcs/IComExceptionEvents::OnExceptionUser","cos.icomexceptionevents_onexceptionuser"]
 old-location: cos\icomexceptionevents_onexceptionuser.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 961e3668-a35e-4e65-8477-fd7457ecc6ca
 ms.date: 12/05/2018
 ms.keywords: IComExceptionEvents interface [COM+],OnExceptionUser method, IComExceptionEvents.OnExceptionUser, IComExceptionEvents::OnExceptionUser, OnExceptionUser, OnExceptionUser method [COM+], OnExceptionUser method [COM+],IComExceptionEvents interface, _dtc_IComExceptionEvents_OnExceptionUser, comsvcs/IComExceptionEvents::OnExceptionUser, cos.icomexceptionevents_onexceptionuser

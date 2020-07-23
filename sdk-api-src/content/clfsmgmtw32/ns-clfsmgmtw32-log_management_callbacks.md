@@ -4,7 +4,7 @@ title: LOG_MANAGEMENT_CALLBACKS (clfsmgmtw32.h)
 description: The LOG_MANAGEMENT_CALLBACKS structure is used to register with the Common Log File System (CLFS) for the callbacks that a client program requires information from.
 helpviewer_keywords: ["*PLOG_MANAGEMENT_CALLBACKS","LOG_MANAGEMENT_CALLBACKS","LOG_MANAGEMENT_CALLBACKS structure [Files]","PLOG_MANAGEMENT_CALLBACKS","PLOG_MANAGEMENT_CALLBACKS structure pointer [Files]","clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS","clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS","fs.log_management_callbacks"]
 old-location: fs\log_management_callbacks.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 69c657e7-97f0-468a-b349-9891a771c1ed
 ms.date: 12/05/2018
 ms.keywords: '*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS structure [Files], PLOG_MANAGEMENT_CALLBACKS, PLOG_MANAGEMENT_CALLBACKS structure pointer [Files], clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS, fs.log_management_callbacks'

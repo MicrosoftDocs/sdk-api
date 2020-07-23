@@ -4,7 +4,7 @@ title: IVdsProviderPrivate (vdshwprv.h)
 description: Provides methods to enable VDS to perform miscellaneous operations on provider objects.
 helpviewer_keywords: ["IVdsProviderPrivate","IVdsProviderPrivate interface [VDS]","IVdsProviderPrivate interface [VDS]","described","base.ivdsproviderprivate","vdshwprv/IVdsProviderPrivate"]
 old-location: base\ivdsproviderprivate.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 5f1c38bf-85a7-4123-becb-e8abf3052b41
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderPrivate, IVdsProviderPrivate interface [VDS], IVdsProviderPrivate interface [VDS],described, base.ivdsproviderprivate, vdshwprv/IVdsProviderPrivate

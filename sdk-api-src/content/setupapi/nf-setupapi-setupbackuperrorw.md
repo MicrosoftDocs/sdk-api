@@ -4,7 +4,7 @@ title: SetupBackupErrorW function (setupapi.h)
 description: The SetupBackupError function generates a dialog box that informs the user of a backup error.
 helpviewer_keywords: ["SetupBackupError","SetupBackupError function [Setup API]","SetupBackupErrorA","SetupBackupErrorW","_setupapi_setupbackuperror","setup.setupbackuperror","setupapi/SetupBackupError","setupapi/SetupBackupErrorA","setupapi/SetupBackupErrorW"]
 old-location: setup\setupbackuperror.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 4c2a8a63-29e7-4750-9239-6693754dff58
 ms.date: 12/05/2018
 ms.keywords: SetupBackupError, SetupBackupError function [Setup API], SetupBackupErrorA, SetupBackupErrorW, _setupapi_setupbackuperror, setup.setupbackuperror, setupapi/SetupBackupError, setupapi/SetupBackupErrorA, setupapi/SetupBackupErrorW

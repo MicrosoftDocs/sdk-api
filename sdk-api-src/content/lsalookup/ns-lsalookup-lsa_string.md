@@ -4,7 +4,7 @@ title: LSA_STRING (lsalookup.h)
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 helpviewer_keywords: ["*PLSA_STRING","LSA_STRING","LSA_STRING structure [Security]","PLSA_STRING","PLSA_STRING structure pointer [Security]","_lsa_lsa_string","lsalookup/LSA_STRING","lsalookup/PLSA_STRING","security.lsa_string"]
 old-location: security\lsa_string.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4ae4160f-bcad-41d9-8239-91da44702b76
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string'

@@ -4,7 +4,7 @@ title: IOfflineFilesItem (cscobj.h)
 description: Represents a single item in the Offline Files cache.
 helpviewer_keywords: ["IOfflineFilesItem","IOfflineFilesItem interface [Offline Files]","IOfflineFilesItem interface [Offline Files]","described","cscobj/IOfflineFilesItem","of.iofflinefilesitem"]
 old-location: of\iofflinefilesitem.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 870cf4c4-e757-429d-b6cc-c136ed5aa10e
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItem, IOfflineFilesItem interface [Offline Files], IOfflineFilesItem interface [Offline Files],described, cscobj/IOfflineFilesItem, of.iofflinefilesitem

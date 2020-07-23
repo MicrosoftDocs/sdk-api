@@ -4,7 +4,7 @@ title: IXpsOMRemoteDictionaryResourceCollection::GetCount (xpsobjectmodel.h)
 description: Gets the number of IXpsOMRemoteDictionaryResource interface pointers in the collection.
 helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMRemoteDictionaryResourceCollection.GetCount","IXpsOMRemoteDictionaryResourceCollection::GetCount","xps.ixpsomremotedictionaryresourcecollection_getcount","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetCount"]
 old-location: xps\ixpsomremotedictionaryresourcecollection_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 853fbce6-db0e-48c6-8a93-172c2568f45d
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMRemoteDictionaryResourceCollection.GetCount, IXpsOMRemoteDictionaryResourceCollection::GetCount, xps.ixpsomremotedictionaryresourcecollection_getcount, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetCount

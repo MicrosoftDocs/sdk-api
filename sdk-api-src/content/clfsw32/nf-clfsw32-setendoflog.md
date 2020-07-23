@@ -4,7 +4,7 @@ title: SetEndOfLog function (clfsw32.h)
 description: This function has been deprecated. Use TruncateLog instead.
 helpviewer_keywords: ["SetEndOfLog","SetEndOfLog function [Files]","clfsw32/SetEndOfLog","fs.setendoflog"]
 old-location: fs\setendoflog.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: ef4f123f-3e1a-4082-93c7-f23783b1d45e
 ms.date: 12/05/2018
 ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.setendoflog

@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider::GetSnapshotProperties (vsprov.h)
 description: Gets the VSS_SNAPSHOT_PROP structure for a file share snapshot.
 helpviewer_keywords: ["GetSnapshotProperties","GetSnapshotProperties method [VSS]","GetSnapshotProperties method [VSS]","IVssFileShareSnapshotProvider interface","IVssFileShareSnapshotProvider interface [VSS]","GetSnapshotProperties method","IVssFileShareSnapshotProvider.GetSnapshotProperties","IVssFileShareSnapshotProvider::GetSnapshotProperties","base.ivssfilesharesnapshotprovider_getsnapshotproperties","vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties"]
 old-location: base\ivssfilesharesnapshotprovider_getsnapshotproperties.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
 ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],GetSnapshotProperties method, IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties

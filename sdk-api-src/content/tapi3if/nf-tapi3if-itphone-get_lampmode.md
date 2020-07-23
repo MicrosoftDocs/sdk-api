@@ -4,7 +4,7 @@ title: ITPhone::get_LampMode (tapi3if.h)
 description: The get_LampMode method gets the current lamp mode for the given lamp.
 helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_LampMode method","ITPhone.get_LampMode","ITPhone::get_LampMode","_tapi3_itphone_get_lampmode","get_LampMode","get_LampMode method [TAPI 2.2]","get_LampMode method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_lampmode","tapi3if/ITPhone::get_LampMode"]
 old-location: tapi3\itphone_get_lampmode.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5e0fa135-304a-4598-a6cd-2e5734b3678c
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_LampMode method, ITPhone.get_LampMode, ITPhone::get_LampMode, _tapi3_itphone_get_lampmode, get_LampMode, get_LampMode method [TAPI 2.2], get_LampMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_lampmode, tapi3if/ITPhone::get_LampMode

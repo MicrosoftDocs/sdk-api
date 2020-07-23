@@ -4,7 +4,7 @@ title: NdrComplexStructUnmarshall function (rpcndr.h)
 description: The NdrComplexStructUnmarshall function unmarshals the complex structure from the network buffer to memory.
 helpviewer_keywords: ["NdrComplexStructUnmarshall","NdrComplexStructUnmarshall function [Windows API]","rpcndr/NdrComplexStructUnmarshall","winprog.ndrcomplexstructunmarshall"]
 old-location: winprog\ndrcomplexstructunmarshall.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: a29d685e-df89-4ffd-95e1-d265a8e7b7a2
 ms.date: 12/05/2018
 ms.keywords: NdrComplexStructUnmarshall, NdrComplexStructUnmarshall function [Windows API], rpcndr/NdrComplexStructUnmarshall, winprog.ndrcomplexstructunmarshall

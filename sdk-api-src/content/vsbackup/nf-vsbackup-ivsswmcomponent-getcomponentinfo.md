@@ -4,7 +4,7 @@ title: IVssWMComponent::GetComponentInfo (vsbackup.h)
 description: The GetComponentInfo method obtains basic information about the specified writer metadata component.
 helpviewer_keywords: ["GetComponentInfo","GetComponentInfo method [VSS]","GetComponentInfo method [VSS]","IVssWMComponent interface","IVssWMComponent interface [VSS]","GetComponentInfo method","IVssWMComponent.GetComponentInfo","IVssWMComponent::GetComponentInfo","_win32_ivsswmcomponent_getcomponentinfo","base.ivsswmcomponent_getcomponentinfo","vsbackup/IVssWMComponent::GetComponentInfo"]
 old-location: base\ivsswmcomponent_getcomponentinfo.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ac01bfea-e60f-4f50-a865-5bb7e372fbf2
 ms.date: 12/05/2018
 ms.keywords: GetComponentInfo, GetComponentInfo method [VSS], GetComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetComponentInfo method, IVssWMComponent.GetComponentInfo, IVssWMComponent::GetComponentInfo, _win32_ivsswmcomponent_getcomponentinfo, base.ivsswmcomponent_getcomponentinfo, vsbackup/IVssWMComponent::GetComponentInfo

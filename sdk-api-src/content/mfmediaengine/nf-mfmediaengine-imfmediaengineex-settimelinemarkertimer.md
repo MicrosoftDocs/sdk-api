@@ -4,7 +4,7 @@ title: IMFMediaEngineEx::SetTimelineMarkerTimer (mfmediaengine.h)
 description: Specifies a presentation time when the Media Engine will send a marker event.
 helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetTimelineMarkerTimer method","IMFMediaEngineEx.SetTimelineMarkerTimer","IMFMediaEngineEx::SetTimelineMarkerTimer","SetTimelineMarkerTimer","SetTimelineMarkerTimer method [Media Foundation]","SetTimelineMarkerTimer method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_settimelinemarkertimer","mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer"]
 old-location: mf\imfmediaengineex_settimelinemarkertimer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2FD65E4A-C70A-4CB4-9038-3A8B791E251C
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer

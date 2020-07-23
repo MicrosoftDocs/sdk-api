@@ -4,7 +4,7 @@ title: HandleLogFull function (clfsmgmtw32.h)
 description: Called by a managed log client when an attempt to reserve or append to a log fails with a log full error message. The log manager attempts to resolve the log full condition for the client, and notifies the client when the outcome is known.
 helpviewer_keywords: ["HandleLogFull","HandleLogFull function [Files]","clfsmgmtw32/HandleLogFull","fs.handlelogfull"]
 old-location: fs\handlelogfull.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: ed4b067f-9386-4bec-a6dc-b22d6fd52390
 ms.date: 12/05/2018
 ms.keywords: HandleLogFull, HandleLogFull function [Files], clfsmgmtw32/HandleLogFull, fs.handlelogfull

@@ -4,7 +4,7 @@ title: ISensor::GetProperties (sensorsapi.h)
 description: Retrieves multiple sensor properties.
 helpviewer_keywords: ["GetProperties","GetProperties method","GetProperties method","ISensor interface","ISensor interface","GetProperties method","ISensor.GetProperties","ISensor::GetProperties","sensorsapi/ISensor::GetProperties","winsensors_com_ref.isensor_getproperties"]
 old-location: winsensors_com_ref\isensor_getproperties.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 19581a45-500f-4210-9ec2-b3e33c84fb8a
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor interface, ISensor interface,GetProperties method, ISensor.GetProperties, ISensor::GetProperties, sensorsapi/ISensor::GetProperties, winsensors_com_ref.isensor_getproperties

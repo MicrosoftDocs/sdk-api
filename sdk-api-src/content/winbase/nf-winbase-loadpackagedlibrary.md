@@ -4,7 +4,7 @@ title: LoadPackagedLibrary function (winbase.h)
 description: Loads the specified packaged module and its dependencies into the address space of the calling process.
 helpviewer_keywords: ["LoadPackagedLibrary","LoadPackagedLibrary function","base.loadpackagedlibrary","winbase/LoadPackagedLibrary"]
 old-location: base\loadpackagedlibrary.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: 4a103753-a2c9-487f-b797-01d5f5d489f3
 ms.date: 12/05/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary

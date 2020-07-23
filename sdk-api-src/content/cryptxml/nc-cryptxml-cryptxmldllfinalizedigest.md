@@ -4,7 +4,7 @@ title: CryptXmlDllFinalizeDigest (cryptxml.h)
 description: Retrieves the digest value.
 helpviewer_keywords: ["CryptXmlDllFinalizeDigest","CryptXmlDllFinalizeDigest callback","CryptXmlDllFinalizeDigest callback function [Security]","cryptxml/CryptXmlDllFinalizeDigest","security.cryptxmldllfinalizedigest"]
 old-location: security\cryptxmldllfinalizedigest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 749226fa-6de8-4c1c-9ec0-9801a2029a6e
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest callback, CryptXmlDllFinalizeDigest callback function [Security], cryptxml/CryptXmlDllFinalizeDigest, security.cryptxmldllfinalizedigest

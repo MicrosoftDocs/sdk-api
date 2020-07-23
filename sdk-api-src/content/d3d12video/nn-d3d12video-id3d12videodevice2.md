@@ -2,6 +2,7 @@
 UID: NN:d3d12video.ID3D12VideoDevice2
 title: ID3D12VideoDevice2
 description: Adds support for protected resources.
+tech.root: mf
 helpviewer_keywords: ["ID3D12VideoDevice2"]
 ms.date: 6/7/2019
 ms.keywords: ID3D12VideoDevice2

@@ -4,7 +4,7 @@ title: BCryptHash function (bcrypt.h)
 description: Performs a single hash computation. This is a convenience function that wraps calls to BCryptCreateHash, BCryptHashData, BCryptFinishHash, and BCryptDestroyHash.
 helpviewer_keywords: ["BCryptHash","BCryptHash function [Security]","bcrypt/BCryptHash","security.bcrypthash"]
 old-location: security\bcrypthash.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: F0FF9B6D-1345-480A-BE13-BE90547407BF
 ms.date: 12/05/2018
 ms.keywords: BCryptHash, BCryptHash function [Security], bcrypt/BCryptHash, security.bcrypthash

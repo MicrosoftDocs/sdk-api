@@ -4,7 +4,7 @@ title: QueryDepthSList function (interlockedapi.h)
 description: Retrieves the number of entries in the specified singly linked list.
 helpviewer_keywords: ["QueryDepthSList","QueryDepthSList function","base.querydepthslist","interlockedapi/QueryDepthSList","winbase/QueryDepthSList"]
 old-location: base\querydepthslist.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 3f9b4481-647f-457f-bdfb-62e6ae4198e5
 ms.date: 12/05/2018
 ms.keywords: QueryDepthSList, QueryDepthSList function, base.querydepthslist, interlockedapi/QueryDepthSList, winbase/QueryDepthSList

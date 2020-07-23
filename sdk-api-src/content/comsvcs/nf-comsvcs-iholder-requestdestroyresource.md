@@ -4,7 +4,7 @@ title: IHolder::RequestDestroyResource (comsvcs.h)
 description: Deletes a resource, calling its destructor to free memory and other associated system resources.
 helpviewer_keywords: ["IHolder interface [COM+]","RequestDestroyResource method","IHolder.RequestDestroyResource","IHolder::RequestDestroyResource","RequestDestroyResource","RequestDestroyResource method [COM+]","RequestDestroyResource method [COM+]","IHolder interface","_dtc_IHolder_RequestDestroyResource","comsvcs/IHolder::RequestDestroyResource","cos.iholder_requestdestroyresource"]
 old-location: cos\iholder_requestdestroyresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c1602718-2221-4e49-a57c-f65f87174dc9
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],RequestDestroyResource method, IHolder.RequestDestroyResource, IHolder::RequestDestroyResource, RequestDestroyResource, RequestDestroyResource method [COM+], RequestDestroyResource method [COM+],IHolder interface, _dtc_IHolder_RequestDestroyResource, comsvcs/IHolder::RequestDestroyResource, cos.iholder_requestdestroyresource

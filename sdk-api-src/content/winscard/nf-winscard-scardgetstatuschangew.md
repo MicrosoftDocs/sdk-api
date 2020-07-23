@@ -4,7 +4,7 @@ title: SCardGetStatusChangeW function (winscard.h)
 description: Blocks execution until the current availability of the cards in a specific set of readers changes.
 helpviewer_keywords: ["SCardGetStatusChange","SCardGetStatusChange function [Security]","SCardGetStatusChangeA","SCardGetStatusChangeW","_smart_scardgetstatuschange","security.scardgetstatuschange","winscard/SCardGetStatusChange","winscard/SCardGetStatusChangeA","winscard/SCardGetStatusChangeW"]
 old-location: security\scardgetstatuschange.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
 ms.date: 12/05/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW

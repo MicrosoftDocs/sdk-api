@@ -4,7 +4,7 @@ title: IMFCaptureSink2::SetOutputMediaType (mfcaptureengine.h)
 description: Dynamically sets the output media type of the record sink or preview sink.
 helpviewer_keywords: ["IMFCaptureSink2 interface [Media Foundation]","SetOutputMediaType method","IMFCaptureSink2.SetOutputMediaType","IMFCaptureSink2::SetOutputMediaType","SetOutputMediaType","SetOutputMediaType method [Media Foundation]","SetOutputMediaType method [Media Foundation]","IMFCaptureSink2 interface","mf.imfcapturesink2_setoutputmediatype","mfcaptureengine/IMFCaptureSink2::SetOutputMediaType"]
 old-location: mf\imfcapturesink2_setoutputmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e9a653c3-927b-4577-9a54-2d63f6b29c06
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType method, IMFCaptureSink2.SetOutputMediaType, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation],IMFCaptureSink2 interface, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType

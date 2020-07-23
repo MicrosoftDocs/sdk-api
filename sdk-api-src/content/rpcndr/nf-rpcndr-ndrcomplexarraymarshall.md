@@ -4,7 +4,7 @@ title: NdrComplexArrayMarshall function (rpcndr.h)
 description: The NdrComplexArrayMarshall function marshals the complex array into a network buffer.
 helpviewer_keywords: ["NdrComplexArrayMarshall","NdrComplexArrayMarshall function [Windows API]","rpcndr/NdrComplexArrayMarshall","winprog.ndrcomplexarraymarshall"]
 old-location: winprog\ndrcomplexarraymarshall.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 01109e96-7d5b-4f16-a0fc-e7cf49020c3e
 ms.date: 12/05/2018
 ms.keywords: NdrComplexArrayMarshall, NdrComplexArrayMarshall function [Windows API], rpcndr/NdrComplexArrayMarshall, winprog.ndrcomplexarraymarshall

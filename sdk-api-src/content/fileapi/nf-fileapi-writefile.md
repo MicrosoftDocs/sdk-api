@@ -4,7 +4,7 @@ title: WriteFile function (fileapi.h)
 description: Writes data to the specified file or input/output (I/O) device.
 helpviewer_keywords: ["WriteFile","WriteFile function [Files]","_win32_writefile","base.writefile","fileapi/WriteFile","fs.writefile","winbase/WriteFile"]
 old-location: fs\writefile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.date: 12/05/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile

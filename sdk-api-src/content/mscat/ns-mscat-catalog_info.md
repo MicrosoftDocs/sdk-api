@@ -4,7 +4,7 @@ title: CATALOG_INFO (mscat.h)
 description: The CATALOG_INFO structure contains the name of a catalog file. This structure is used by the CryptCATCatalogInfoFromContext function.
 helpviewer_keywords: ["CATALOG_INFO","CATALOG_INFO structure [Security]","mscat/CATALOG_INFO","security.catalog_info"]
 old-location: security\catalog_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
 ms.date: 12/05/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], mscat/CATALOG_INFO, security.catalog_info

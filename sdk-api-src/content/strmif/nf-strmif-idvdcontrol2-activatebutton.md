@@ -4,7 +4,7 @@ title: IDvdControl2::ActivateButton (strmif.h)
 description: The ActivateButton method activates the currently selected menu button.
 helpviewer_keywords: ["ActivateButton","ActivateButton method [DirectShow]","ActivateButton method [DirectShow]","IDvdControl2 interface","IDvdControl2 interface [DirectShow]","ActivateButton method","IDvdControl2.ActivateButton","IDvdControl2::ActivateButton","IDvdControl2ActivateButton","dshow.idvdcontrol2_activatebutton","strmif/IDvdControl2::ActivateButton"]
 old-location: dshow\idvdcontrol2_activatebutton.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 20213874-ed28-4e0a-83af-044570b2c7e3
 ms.date: 12/05/2018
 ms.keywords: ActivateButton, ActivateButton method [DirectShow], ActivateButton method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateButton method, IDvdControl2.ActivateButton, IDvdControl2::ActivateButton, IDvdControl2ActivateButton, dshow.idvdcontrol2_activatebutton, strmif/IDvdControl2::ActivateButton

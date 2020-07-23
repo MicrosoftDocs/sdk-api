@@ -4,7 +4,7 @@ title: MFCreateLegacyMediaBufferOnMFMediaBuffer function (mfapi.h)
 description: Converts a Media Foundation media buffer into a buffer that is compatible with DirectX Media Objects (DMOs).
 helpviewer_keywords: ["35d749d8-2bca-4fe8-b145-175e178ae529","MFCreateLegacyMediaBufferOnMFMediaBuffer","MFCreateLegacyMediaBufferOnMFMediaBuffer function [Media Foundation]","mf.mfcreatelegacymediabufferonmfmediabuffer","mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer"]
 old-location: mf\mfcreatelegacymediabufferonmfmediabuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 35d749d8-2bca-4fe8-b145-175e178ae529
 ms.date: 12/05/2018
 ms.keywords: 35d749d8-2bca-4fe8-b145-175e178ae529, MFCreateLegacyMediaBufferOnMFMediaBuffer, MFCreateLegacyMediaBufferOnMFMediaBuffer function [Media Foundation], mf.mfcreatelegacymediabufferonmfmediabuffer, mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer

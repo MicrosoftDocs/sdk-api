@@ -4,7 +4,7 @@ title: IMFMediaKeys::GetSuspendNotify (mfmediaengine.h)
 description: Gets the suspend notify interface of the Content Decryption Module (CDM).
 helpviewer_keywords: ["GetSuspendNotify","GetSuspendNotify method [Media Foundation]","GetSuspendNotify method [Media Foundation]","IMFMediaKeys interface","IMFMediaKeys interface [Media Foundation]","GetSuspendNotify method","IMFMediaKeys.GetSuspendNotify","IMFMediaKeys::GetSuspendNotify","mf.imfmediakeys_getsuspendnotify","mfmediaengine/IMFMediaKeys::GetSuspendNotify"]
 old-location: mf\imfmediakeys_getsuspendnotify.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 35d76cbc-04c7-49e7-9451-6b032ccd2937
 ms.date: 12/05/2018
 ms.keywords: GetSuspendNotify, GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],GetSuspendNotify method, IMFMediaKeys.GetSuspendNotify, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify

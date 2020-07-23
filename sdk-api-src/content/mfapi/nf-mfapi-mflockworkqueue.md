@@ -4,7 +4,7 @@ title: MFLockWorkQueue function (mfapi.h)
 description: Locks a work queue.
 helpviewer_keywords: ["307a1ec5-e54a-47f6-8ace-3b935081faf8","MFLockWorkQueue","MFLockWorkQueue function [Media Foundation]","mf.mflockworkqueue","mfapi/MFLockWorkQueue"]
 old-location: mf\mflockworkqueue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 307a1ec5-e54a-47f6-8ace-3b935081faf8
 ms.date: 12/05/2018
 ms.keywords: 307a1ec5-e54a-47f6-8ace-3b935081faf8, MFLockWorkQueue, MFLockWorkQueue function [Media Foundation], mf.mflockworkqueue, mfapi/MFLockWorkQueue

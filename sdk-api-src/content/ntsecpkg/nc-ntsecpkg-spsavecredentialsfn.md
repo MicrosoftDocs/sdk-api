@@ -4,7 +4,7 @@ title: SpSaveCredentialsFn (ntsecpkg.h)
 description: Saves a supplemental credential to the user object.
 helpviewer_keywords: ["SpSaveCredentials","SpSaveCredentials callback function [Security]","SpSaveCredentialsFn","SpSaveCredentialsFn callback","_ssp_spsavecredentials","ntsecpkg/SpSaveCredentials","security.spsavecredentials"]
 old-location: security\spsavecredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 15983acb-6fa3-4c53-9ede-a41db95c82f1
 ms.date: 12/05/2018
 ms.keywords: SpSaveCredentials, SpSaveCredentials callback function [Security], SpSaveCredentialsFn, SpSaveCredentialsFn callback, _ssp_spsavecredentials, ntsecpkg/SpSaveCredentials, security.spsavecredentials

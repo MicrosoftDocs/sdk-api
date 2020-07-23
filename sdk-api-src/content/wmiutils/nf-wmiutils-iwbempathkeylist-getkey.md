@@ -4,7 +4,7 @@ title: IWbemPathKeyList::GetKey (wmiutils.h)
 description: The IWbemPathKeyList::GetKey method retrieves a key's name or value. Keys are indexed from 0 (zero), though the order of the keys is not significant.
 helpviewer_keywords: ["GetKey","GetKey method [Windows Management Instrumentation]","GetKey method [Windows Management Instrumentation]","IWbemPathKeyList interface","IWbemPathKeyList interface [Windows Management Instrumentation]","GetKey method","IWbemPathKeyList.GetKey","IWbemPathKeyList::GetKey","_hmm_iwbempathkeylist_getkey","wmi.iwbempathkeylist_getkey","wmiutils/IWbemPathKeyList::GetKey"]
 old-location: wmi\iwbempathkeylist_getkey.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 98b3a8e6-f2cf-4a39-91f9-eb20e397e54e
 ms.date: 12/05/2018
 ms.keywords: GetKey, GetKey method [Windows Management Instrumentation], GetKey method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetKey method, IWbemPathKeyList.GetKey, IWbemPathKeyList::GetKey, _hmm_iwbempathkeylist_getkey, wmi.iwbempathkeylist_getkey, wmiutils/IWbemPathKeyList::GetKey

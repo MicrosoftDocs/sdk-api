@@ -4,7 +4,7 @@ title: MSPEVENTITEM (mspaddr.h)
 description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
 helpviewer_keywords: ["*PMSPEVENTITEM","MSPEVENTITEM","MSPEVENTITEM structure [TAPI 2.2]","PMSPEVENTITEM","PMSPEVENTITEM structure pointer [TAPI 2.2]","_tapi3_mspeventitem","mspaddr/MSPEVENTITEM","mspaddr/PMSPEVENTITEM","tapi3.mspeventitem"]
 old-location: tapi3\mspeventitem.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc
 ms.date: 12/05/2018
 ms.keywords: '*PMSPEVENTITEM, MSPEVENTITEM, MSPEVENTITEM structure [TAPI 2.2], PMSPEVENTITEM, PMSPEVENTITEM structure pointer [TAPI 2.2], _tapi3_mspeventitem, mspaddr/MSPEVENTITEM, mspaddr/PMSPEVENTITEM, tapi3.mspeventitem'

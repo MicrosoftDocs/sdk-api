@@ -4,7 +4,7 @@ title: CryptEncodeObject function (wincrypt.h)
 description: The CryptEncodeObject function encodes a structure of the type indicated by the value of the lpszStructType parameter. The use of CryptEncodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 helpviewer_keywords: ["CryptEncodeObject","CryptEncodeObject function [Security]","_crypto2_cryptencodeobject","security.cryptencodeobject","wincrypt/CryptEncodeObject"]
 old-location: security\cryptencodeobject.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.date: 12/05/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject

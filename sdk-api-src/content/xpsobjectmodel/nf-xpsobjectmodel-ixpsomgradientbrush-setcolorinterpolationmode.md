@@ -4,7 +4,7 @@ title: IXpsOMGradientBrush::SetColorInterpolationMode (xpsobjectmodel.h)
 description: Sets the XPS_COLOR_INTERPOLATION value, which describes the gamma function to be used for color interpolation.
 helpviewer_keywords: ["IXpsOMGradientBrush interface [XPS Documents and Packaging]","SetColorInterpolationMode method","IXpsOMGradientBrush.SetColorInterpolationMode","IXpsOMGradientBrush::SetColorInterpolationMode","SetColorInterpolationMode","SetColorInterpolationMode method [XPS Documents and Packaging]","SetColorInterpolationMode method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","xps.ixpsomgradientbrush_setcolorinterpolationmode","xpsobjectmodel/IXpsOMGradientBrush::SetColorInterpolationMode"]
 old-location: xps\ixpsomgradientbrush_setcolorinterpolationmode.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f9fa44e7-336a-4758-ac53-b2d527336b7d
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetColorInterpolationMode method, IXpsOMGradientBrush.SetColorInterpolationMode, IXpsOMGradientBrush::SetColorInterpolationMode, SetColorInterpolationMode, SetColorInterpolationMode method [XPS Documents and Packaging], SetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_setcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::SetColorInterpolationMode

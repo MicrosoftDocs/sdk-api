@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreatePartUriCollection (xpsobjectmodel.h)
 description: Creates an IXpsOMPartUriCollection interface that can contain IOpcPartUri interface pointers.
 helpviewer_keywords: ["CreatePartUriCollection","CreatePartUriCollection method [XPS Documents and Packaging]","CreatePartUriCollection method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePartUriCollection method","IXpsOMObjectFactory.CreatePartUriCollection","IXpsOMObjectFactory::CreatePartUriCollection","xps.ixpsomobjectfactory_createparturicollection","xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection"]
 old-location: xps\ixpsomobjectfactory_createparturicollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 1127a314-43c8-43a2-a06e-88858a43c519
 ms.date: 12/05/2018
 ms.keywords: CreatePartUriCollection, CreatePartUriCollection method [XPS Documents and Packaging], CreatePartUriCollection method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUriCollection method, IXpsOMObjectFactory.CreatePartUriCollection, IXpsOMObjectFactory::CreatePartUriCollection, xps.ixpsomobjectfactory_createparturicollection, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection

@@ -4,7 +4,7 @@ title: CRYPTUI_CERT_MGR_STRUCT (cryptuiapi.h)
 description: Contains information about a certificate manager dialog box.
 helpviewer_keywords: ["*PCRYPTUI_CERT_MGR_STRUCT","CRYPTUI_CERT_MGR_STRUCT","CRYPTUI_CERT_MGR_STRUCT structure [Security]","PCRYPTUI_CERT_MGR_STRUCT","PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security]","cryptuiapi/CRYPTUI_CERT_MGR_STRUCT","cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT","security.cryptui_cert_mgr_struct"]
 old-location: security\cryptui_cert_mgr_struct.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e6c24d16-0ae2-443c-8971-2d7da3aae963
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct'

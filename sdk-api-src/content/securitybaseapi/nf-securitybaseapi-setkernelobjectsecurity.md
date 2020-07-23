@@ -4,7 +4,7 @@ title: SetKernelObjectSecurity function (securitybaseapi.h)
 description: Sets the security of a kernel object.
 helpviewer_keywords: ["SetKernelObjectSecurity","SetKernelObjectSecurity function [Security]","_win32_setkernelobjectsecurity","security.setkernelobjectsecurity","securitybaseapi/SetKernelObjectSecurity"]
 old-location: security\setkernelobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2a70483e-245d-4bc7-b90a-58d143364ce1
 ms.date: 12/05/2018
 ms.keywords: SetKernelObjectSecurity, SetKernelObjectSecurity function [Security], _win32_setkernelobjectsecurity, security.setkernelobjectsecurity, securitybaseapi/SetKernelObjectSecurity

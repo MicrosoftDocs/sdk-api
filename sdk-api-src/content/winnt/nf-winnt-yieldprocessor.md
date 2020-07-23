@@ -4,7 +4,7 @@ title: YieldProcessor function (winnt.h)
 description: Signals to the processor to give resources to threads that are waiting for them.
 helpviewer_keywords: ["YieldProcessor","YieldProcessor function","base.yieldprocessor","winnt/YieldProcessor"]
 old-location: base\yieldprocessor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 83a331c1-cfc6-427d-aa80-9583db02ee92
 ms.date: 12/05/2018
 ms.keywords: YieldProcessor, YieldProcessor function, base.yieldprocessor, winnt/YieldProcessor

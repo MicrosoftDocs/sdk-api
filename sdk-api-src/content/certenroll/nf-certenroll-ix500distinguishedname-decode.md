@@ -4,7 +4,7 @@ title: IX500DistinguishedName::Decode (certenroll.h)
 description: Initializes the object from a Unicode-encoded distinguished name.
 helpviewer_keywords: ["Decode","Decode method [Security]","Decode method [Security]","IX500DistinguishedName interface","IX500DistinguishedName interface [Security]","Decode method","IX500DistinguishedName.Decode","IX500DistinguishedName::Decode","certenroll/IX500DistinguishedName::Decode","security.ix500distinguishedname_decode_method"]
 old-location: security\ix500distinguishedname_decode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 52cc0595-b825-4bf3-805c-21afc468b91e
 ms.date: 12/05/2018
 ms.keywords: Decode, Decode method [Security], Decode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Decode method, IX500DistinguishedName.Decode, IX500DistinguishedName::Decode, certenroll/IX500DistinguishedName::Decode, security.ix500distinguishedname_decode_method

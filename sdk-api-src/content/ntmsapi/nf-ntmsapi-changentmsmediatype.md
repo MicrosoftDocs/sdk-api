@@ -4,7 +4,7 @@ title: ChangeNtmsMediaType function (ntmsapi.h)
 description: The ChangeNtmsMediaType function moves the specified PMID to the specified target media pool and sets the PMID's media type identifier to the media type of the target media pool.
 helpviewer_keywords: ["ChangeNtmsMediaType","ChangeNtmsMediaType function [Files]","_zaw_changentmsmediatype","base.changentmsmediatype","fs.changentmsmediatype","ntmsapi/ChangeNtmsMediaType"]
 old-location: fs\changentmsmediatype.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 89b3eb9b-0614-47a9-825e-1335c7fc5d0d
 ms.date: 12/05/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType

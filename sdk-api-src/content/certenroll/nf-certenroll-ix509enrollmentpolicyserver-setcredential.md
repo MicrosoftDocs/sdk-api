@@ -4,7 +4,7 @@ title: IX509EnrollmentPolicyServer::SetCredential (certenroll.h)
 description: Sets the credential used to contact the certificate enrollment policy (CEP) server.
 helpviewer_keywords: ["IX509EnrollmentPolicyServer interface [Security]","SetCredential method","IX509EnrollmentPolicyServer.SetCredential","IX509EnrollmentPolicyServer::SetCredential","SetCredential","SetCredential method [Security]","SetCredential method [Security]","IX509EnrollmentPolicyServer interface","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509EnrollmentPolicyServer::SetCredential","security.ix509enrollmentpolicyserver_setcredential"]
 old-location: security\ix509enrollmentpolicyserver_setcredential.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 64ea6d9e-8eca-4a1b-95a0-ecc5c0d37df3
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],SetCredential method, IX509EnrollmentPolicyServer.SetCredential, IX509EnrollmentPolicyServer::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::SetCredential, security.ix509enrollmentpolicyserver_setcredential

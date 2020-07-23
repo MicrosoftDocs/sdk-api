@@ -4,7 +4,7 @@ title: IXpsOMGradientBrush::GetGradientStops (xpsobjectmodel.h)
 description: Gets a pointer to an IXpsOMGradientStopCollection interface that contains the collection of IXpsOMGradientStop interfaces that define the gradient.
 helpviewer_keywords: ["GetGradientStops","GetGradientStops method [XPS Documents and Packaging]","GetGradientStops method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetGradientStops method","IXpsOMGradientBrush.GetGradientStops","IXpsOMGradientBrush::GetGradientStops","xps.ixpsomgradientbrush_getgradientstops","xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops"]
 old-location: xps\ixpsomgradientbrush_getgradientstops.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 1b308323-12d4-427c-a3d8-fcf5488e1dde
 ms.date: 12/05/2018
 ms.keywords: GetGradientStops, GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetGradientStops method, IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops

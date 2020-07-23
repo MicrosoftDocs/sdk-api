@@ -4,7 +4,7 @@ title: GetDotStuffState function (filehc.h)
 description: Determines whether dots are added to the file when any dot stuffing mechanisms are turned on.
 helpviewer_keywords: ["GetDotStuffState","GetDotStuffState function [Windows API]","filehc/GetDotStuffState","winprog._getdotstuffstate"]
 old-location: winprog\_getdotstuffstate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.date: 12/05/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate

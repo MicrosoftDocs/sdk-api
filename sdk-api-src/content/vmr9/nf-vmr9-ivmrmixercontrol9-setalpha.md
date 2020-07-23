@@ -4,7 +4,7 @@ title: IVMRMixerControl9::SetAlpha (vmr9.h)
 description: The SetAlpha method sets a constant alpha value that is applied to this video stream.
 helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetAlpha method","IVMRMixerControl9.SetAlpha","IVMRMixerControl9::SetAlpha","IVMRMixerControl9SetAlpha","SetAlpha","SetAlpha method [DirectShow]","SetAlpha method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setalpha","vmr9/IVMRMixerControl9::SetAlpha"]
 old-location: dshow\ivmrmixercontrol9_setalpha.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c746d473-bfa4-403c-8775-3f7270836a73
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetAlpha method, IVMRMixerControl9.SetAlpha, IVMRMixerControl9::SetAlpha, IVMRMixerControl9SetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setalpha, vmr9/IVMRMixerControl9::SetAlpha

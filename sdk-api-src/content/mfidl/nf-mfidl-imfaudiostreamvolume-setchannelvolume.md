@@ -4,7 +4,7 @@ title: IMFAudioStreamVolume::SetChannelVolume (mfidl.h)
 description: Sets the volume level for a specified channel in the audio stream.
 helpviewer_keywords: ["7786a6aa-c777-4b65-b38c-a75cd654a080","IMFAudioStreamVolume interface [Media Foundation]","SetChannelVolume method","IMFAudioStreamVolume.SetChannelVolume","IMFAudioStreamVolume::SetChannelVolume","SetChannelVolume","SetChannelVolume method [Media Foundation]","SetChannelVolume method [Media Foundation]","IMFAudioStreamVolume interface","mf.imfaudiostreamvolume_setchannelvolume","mfidl/IMFAudioStreamVolume::SetChannelVolume"]
 old-location: mf\imfaudiostreamvolume_setchannelvolume.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7786a6aa-c777-4b65-b38c-a75cd654a080
 ms.date: 12/05/2018
 ms.keywords: 7786a6aa-c777-4b65-b38c-a75cd654a080, IMFAudioStreamVolume interface [Media Foundation],SetChannelVolume method, IMFAudioStreamVolume.SetChannelVolume, IMFAudioStreamVolume::SetChannelVolume, SetChannelVolume, SetChannelVolume method [Media Foundation], SetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, mf.imfaudiostreamvolume_setchannelvolume, mfidl/IMFAudioStreamVolume::SetChannelVolume

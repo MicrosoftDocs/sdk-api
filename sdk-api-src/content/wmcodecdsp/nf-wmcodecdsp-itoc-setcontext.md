@@ -4,7 +4,7 @@ title: IToc::SetContext (wmcodecdsp.h)
 description: The SetContext method associates a caller-supplied context block with the table of contents.
 helpviewer_keywords: ["IToc interface [Media Foundation]","SetContext method","IToc.SetContext","IToc::SetContext","SetContext","SetContext method [Media Foundation]","SetContext method [Media Foundation]","IToc interface","codecapi.itoc_setcontext","mf.itoc_setcontext","wmcodecdsp/IToc::SetContext"]
 old-location: mf\itoc_setcontext.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 45aadac5-6c65-4525-a1fc-b045337a6030
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],SetContext method, IToc.SetContext, IToc::SetContext, SetContext, SetContext method [Media Foundation], SetContext method [Media Foundation],IToc interface, codecapi.itoc_setcontext, mf.itoc_setcontext, wmcodecdsp/IToc::SetContext

@@ -4,7 +4,7 @@ title: lineGetCallInfo function (tapi.h)
 description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
 helpviewer_keywords: ["_tapi2_linegetcallinfo","lineGetCallInfo","lineGetCallInfo function [TAPI 2.2]","lineGetCallInfoA","lineGetCallInfoW","tapi/lineGetCallInfo","tapi/lineGetCallInfoA","tapi/lineGetCallInfoW","tapi2.linegetcallinfo"]
 old-location: tapi2\linegetcallinfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo

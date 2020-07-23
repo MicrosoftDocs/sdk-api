@@ -4,7 +4,7 @@ title: IWbemObjectSinkEx::PromptUser (wbemcli.h)
 description: TBD
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","PromptUser method","IWbemObjectSinkEx.PromptUser","IWbemObjectSinkEx::PromptUser","PromptUser","PromptUser method [Windows Management Instrumentation]","PromptUser method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::PromptUser","wmi.iwbemobjectsinkex_promptuser"]
 old-location: wmi\iwbemobjectsinkex_promptuser.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: a4ea6f73-e94f-4ffa-9528-43b52ab00192
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],PromptUser method, IWbemObjectSinkEx.PromptUser, IWbemObjectSinkEx::PromptUser, PromptUser, PromptUser method [Windows Management Instrumentation], PromptUser method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::PromptUser, wmi.iwbemobjectsinkex_promptuser

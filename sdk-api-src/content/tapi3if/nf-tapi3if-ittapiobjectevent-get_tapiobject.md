@@ -4,7 +4,7 @@ title: ITTAPIObjectEvent::get_TAPIObject (tapi3if.h)
 description: The get_TAPIObject method gets a pointer to the TAPI object on which the event occurred.
 helpviewer_keywords: ["ITTAPIObjectEvent interface [TAPI 2.2]","get_TAPIObject method","ITTAPIObjectEvent.get_TAPIObject","ITTAPIObjectEvent::get_TAPIObject","_tapi3_ittapiobjectevent_get_tapiobject","get_TAPIObject","get_TAPIObject method [TAPI 2.2]","get_TAPIObject method [TAPI 2.2]","ITTAPIObjectEvent interface","tapi3.ittapiobjectevent_get_tapiobject","tapi3if/ITTAPIObjectEvent::get_TAPIObject"]
 old-location: tapi3\ittapiobjectevent_get_tapiobject.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d0dcf3ca-e6b7-4eb4-b3f2-8ddeea16d746
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_TAPIObject method, ITTAPIObjectEvent.get_TAPIObject, ITTAPIObjectEvent::get_TAPIObject, _tapi3_ittapiobjectevent_get_tapiobject, get_TAPIObject, get_TAPIObject method [TAPI 2.2], get_TAPIObject method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_tapiobject, tapi3if/ITTAPIObjectEvent::get_TAPIObject

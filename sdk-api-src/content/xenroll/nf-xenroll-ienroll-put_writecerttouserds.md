@@ -4,7 +4,7 @@ title: IEnroll::put_WriteCertToUserDS (xenroll.h)
 description: The WriteCertToUserDS property of IEnroll4 sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 helpviewer_keywords: ["IEnroll interface [Security]","WriteCertToUserDS property","IEnroll.WriteCertToUserDS","IEnroll.put_WriteCertToUserDS","IEnroll::WriteCertToUserDS","IEnroll::get_WriteCertToUserDS","IEnroll::put_WriteCertToUserDS","WriteCertToUserDS property [Security]","WriteCertToUserDS property [Security]","IEnroll interface","put_WriteCertToUserDS","security.ienroll4_writecerttouserds","xenroll/IEnroll::WriteCertToUserDS","xenroll/IEnroll::get_WriteCertToUserDS","xenroll/IEnroll::put_WriteCertToUserDS"]
 old-location: security\ienroll4_writecerttouserds.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8b29f442-265f-4826-a2f0-3305d6f70cbb
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],WriteCertToUserDS property, IEnroll.WriteCertToUserDS, IEnroll.put_WriteCertToUserDS, IEnroll::WriteCertToUserDS, IEnroll::get_WriteCertToUserDS, IEnroll::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],IEnroll interface, put_WriteCertToUserDS, security.ienroll4_writecerttouserds, xenroll/IEnroll::WriteCertToUserDS, xenroll/IEnroll::get_WriteCertToUserDS, xenroll/IEnroll::put_WriteCertToUserDS

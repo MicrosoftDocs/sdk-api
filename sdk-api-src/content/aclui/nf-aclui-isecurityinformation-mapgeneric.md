@@ -4,7 +4,7 @@ title: ISecurityInformation::MapGeneric (aclui.h)
 description: The MapGeneric method requests that the generic access rights in an access mask be mapped to their corresponding standard and specific access rights.
 helpviewer_keywords: ["ISecurityInformation interface [Security]","MapGeneric method","ISecurityInformation.MapGeneric","ISecurityInformation::MapGeneric","MapGeneric","MapGeneric method [Security]","MapGeneric method [Security]","ISecurityInformation interface","_win32_isecurityinformation_mapgeneric","aclui/ISecurityInformation::MapGeneric","security.isecurityinformation_mapgeneric"]
 old-location: security\isecurityinformation_mapgeneric.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 85ad4d42-11e7-4d26-943f-3d7451899c8e
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation interface [Security],MapGeneric method, ISecurityInformation.MapGeneric, ISecurityInformation::MapGeneric, MapGeneric, MapGeneric method [Security], MapGeneric method [Security],ISecurityInformation interface, _win32_isecurityinformation_mapgeneric, aclui/ISecurityInformation::MapGeneric, security.isecurityinformation_mapgeneric

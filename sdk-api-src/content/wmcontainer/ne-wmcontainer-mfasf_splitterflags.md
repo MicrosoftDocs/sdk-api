@@ -4,7 +4,7 @@ title: MFASF_SPLITTERFLAGS (wmcontainer.h)
 description: Defines the ASF splitter options.
 helpviewer_keywords: ["8eaad139-b487-4348-ae19-4251a2aeed14","MFASF_SPLITTERFLAGS","MFASF_SPLITTERFLAGS enumeration [Media Foundation]","MFASF_SPLITTER_REVERSE","MFASF_SPLITTER_WMDRM","enumeration [Media Foundation]","mf.mfasf_splitterflags","wmcontainer/MFASF_SPLITTERFLAGS","wmcontainer/MFASF_SPLITTER_REVERSE","wmcontainer/MFASF_SPLITTER_WMDRM"]
 old-location: mf\mfasf_splitterflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8eaad139-b487-4348-ae19-4251a2aeed14
 ms.date: 12/05/2018
 ms.keywords: 8eaad139-b487-4348-ae19-4251a2aeed14, MFASF_SPLITTERFLAGS, MFASF_SPLITTERFLAGS enumeration [Media Foundation], MFASF_SPLITTER_REVERSE, MFASF_SPLITTER_WMDRM, enumeration [Media Foundation], mf.mfasf_splitterflags, wmcontainer/MFASF_SPLITTERFLAGS, wmcontainer/MFASF_SPLITTER_REVERSE, wmcontainer/MFASF_SPLITTER_WMDRM

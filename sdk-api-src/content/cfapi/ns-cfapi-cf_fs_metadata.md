@@ -4,7 +4,7 @@ title: CF_FS_METADATA (cfapi.h)
 description: Placeholder file or directory metadata.
 helpviewer_keywords: ["CF_FS_METADATA","CF_FS_METADATA structure","cfapi/CF_FS_METADATA","cloudApi.cf_fs_metadata"]
 old-location: cloudapi\cf_fs_metadata.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: A6D4473A-C93A-4B56-9EB0-9B44A56E5D28
 ms.date: 12/05/2018
 ms.keywords: CF_FS_METADATA, CF_FS_METADATA structure, cfapi/CF_FS_METADATA, cloudApi.cf_fs_metadata

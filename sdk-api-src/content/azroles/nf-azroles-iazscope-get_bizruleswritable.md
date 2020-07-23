@@ -4,7 +4,7 @@ title: IAzScope::get_BizrulesWritable (azroles.h)
 description: Retrieves a value that indicates whether a non-delegated scope is writable.
 helpviewer_keywords: ["AzScope object [Security]","BizrulesWritable property","BizrulesWritable property [Security]","BizrulesWritable property [Security]","AzScope object","BizrulesWritable property [Security]","IAzScope interface","IAzScope interface [Security]","BizrulesWritable property","IAzScope.BizrulesWritable","IAzScope.get_BizrulesWritable","IAzScope::BizrulesWritable","IAzScope::get_BizrulesWritable","azroles/IAzScope::BizrulesWritable","azroles/IAzScope::get_BizrulesWritable","get_BizrulesWritable","security.iazscope_bizruleswritable"]
 old-location: security\iazscope_bizruleswritable.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 7cd84e64-ef90-48ca-8da0-88ca6d79e1bf
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],BizrulesWritable property, BizrulesWritable property [Security], BizrulesWritable property [Security],AzScope object, BizrulesWritable property [Security],IAzScope interface, IAzScope interface [Security],BizrulesWritable property, IAzScope.BizrulesWritable, IAzScope.get_BizrulesWritable, IAzScope::BizrulesWritable, IAzScope::get_BizrulesWritable, azroles/IAzScope::BizrulesWritable, azroles/IAzScope::get_BizrulesWritable, get_BizrulesWritable, security.iazscope_bizruleswritable

@@ -4,7 +4,7 @@ title: IWbemHiPerfEnum::RemoveObjects (wbemcli.h)
 description: The IWbemHiPerfEnum::RemoveObjects method removes objects (identified by their refresher identifiers) from a refresher.
 helpviewer_keywords: ["IWbemHiPerfEnum interface [Windows Management Instrumentation]","RemoveObjects method","IWbemHiPerfEnum.RemoveObjects","IWbemHiPerfEnum::RemoveObjects","RemoveObjects","RemoveObjects method [Windows Management Instrumentation]","RemoveObjects method [Windows Management Instrumentation]","IWbemHiPerfEnum interface","_hmm_iwbemhiperfenum_removeobjects","wbemcli/IWbemHiPerfEnum::RemoveObjects","wmi.iwbemhiperfenum_removeobjects"]
 old-location: wmi\iwbemhiperfenum_removeobjects.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: a4f25be2-8450-4e4c-ba6a-8d78c1fefca1
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfEnum interface [Windows Management Instrumentation],RemoveObjects method, IWbemHiPerfEnum.RemoveObjects, IWbemHiPerfEnum::RemoveObjects, RemoveObjects, RemoveObjects method [Windows Management Instrumentation], RemoveObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, _hmm_iwbemhiperfenum_removeobjects, wbemcli/IWbemHiPerfEnum::RemoveObjects, wmi.iwbemhiperfenum_removeobjects

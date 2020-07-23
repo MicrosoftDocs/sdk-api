@@ -4,7 +4,7 @@ title: ITCallInfo::SetCallInfoBuffer (tapi3if.h)
 description: The SetCallInfoBuffer method sets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::put_CallInfoBuffer method.
 helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","SetCallInfoBuffer method","ITCallInfo.SetCallInfoBuffer","ITCallInfo::SetCallInfoBuffer","SetCallInfoBuffer","SetCallInfoBuffer method [TAPI 2.2]","SetCallInfoBuffer method [TAPI 2.2]","ITCallInfo interface","_tapi3_itcallinfo_setcallinfobuffer","tapi3.itcallinfo_setcallinfobuffer","tapi3if/ITCallInfo::SetCallInfoBuffer"]
 old-location: tapi3\itcallinfo_setcallinfobuffer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fafe3c99-4584-43eb-b446-a9f2b9308097
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],SetCallInfoBuffer method, ITCallInfo.SetCallInfoBuffer, ITCallInfo::SetCallInfoBuffer, SetCallInfoBuffer, SetCallInfoBuffer method [TAPI 2.2], SetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_setcallinfobuffer, tapi3.itcallinfo_setcallinfobuffer, tapi3if/ITCallInfo::SetCallInfoBuffer

@@ -4,7 +4,7 @@ title: RtwqSetDeadline function (rtworkq.h)
 description: Sets a deadline by which the work in a work queue must be completed.
 helpviewer_keywords: ["RtwqSetDeadline","RtwqSetDeadline function","base.rtwqsetdeadline","rtworkq/RtwqSetDeadline"]
 old-location: base\rtwqsetdeadline.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1A5D6352-283C-43FC-B011-48DFA69BC75A
 ms.date: 12/05/2018
 ms.keywords: RtwqSetDeadline, RtwqSetDeadline function, base.rtwqsetdeadline, rtworkq/RtwqSetDeadline

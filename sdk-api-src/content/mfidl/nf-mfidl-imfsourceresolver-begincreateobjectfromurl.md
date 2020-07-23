@@ -4,7 +4,7 @@ title: IMFSourceResolver::BeginCreateObjectFromURL (mfidl.h)
 description: Begins an asynchronous request to create a media source or a byte stream from a URL.
 helpviewer_keywords: ["BeginCreateObjectFromURL","BeginCreateObjectFromURL method [Media Foundation]","BeginCreateObjectFromURL method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","BeginCreateObjectFromURL method","IMFSourceResolver.BeginCreateObjectFromURL","IMFSourceResolver::BeginCreateObjectFromURL","bc97c1fb-d23a-4887-b6ac-0751c254a405","mf.imfsourceresolver_begincreateobjectfromurl","mfidl/IMFSourceResolver::BeginCreateObjectFromURL"]
 old-location: mf\imfsourceresolver_begincreateobjectfromurl.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bc97c1fb-d23a-4887-b6ac-0751c254a405
 ms.date: 12/05/2018
 ms.keywords: BeginCreateObjectFromURL, BeginCreateObjectFromURL method [Media Foundation], BeginCreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],BeginCreateObjectFromURL method, IMFSourceResolver.BeginCreateObjectFromURL, IMFSourceResolver::BeginCreateObjectFromURL, bc97c1fb-d23a-4887-b6ac-0751c254a405, mf.imfsourceresolver_begincreateobjectfromurl, mfidl/IMFSourceResolver::BeginCreateObjectFromURL

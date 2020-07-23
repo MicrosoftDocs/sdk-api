@@ -4,7 +4,7 @@ title: IVPBaseConfig::GetConnectInfo (vpconfig.h)
 description: The GetConnectInfo method retrieves information about the connections supported by the VPE object.
 helpviewer_keywords: ["GetConnectInfo","GetConnectInfo method [DirectShow]","GetConnectInfo method [DirectShow]","IVPBaseConfig interface","IVPBaseConfig interface [DirectShow]","GetConnectInfo method","IVPBaseConfig.GetConnectInfo","IVPBaseConfig::GetConnectInfo","IVPBaseConfigGetConnectInfo","dshow.ivpbaseconfig_getconnectinfo","vpconfig/IVPBaseConfig::GetConnectInfo"]
 old-location: dshow\ivpbaseconfig_getconnectinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b428e77a-83c3-42ce-95e4-1cdde4da066d
 ms.date: 12/05/2018
 ms.keywords: GetConnectInfo, GetConnectInfo method [DirectShow], GetConnectInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetConnectInfo method, IVPBaseConfig.GetConnectInfo, IVPBaseConfig::GetConnectInfo, IVPBaseConfigGetConnectInfo, dshow.ivpbaseconfig_getconnectinfo, vpconfig/IVPBaseConfig::GetConnectInfo

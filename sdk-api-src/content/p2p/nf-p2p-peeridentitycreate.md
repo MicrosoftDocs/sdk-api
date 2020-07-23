@@ -4,7 +4,7 @@ title: PeerIdentityCreate function (p2p.h)
 description: The PeerIdentityCreate function creates a new peer identity and returns its name.
 helpviewer_keywords: ["PeerIdentityCreate","PeerIdentityCreate function [Peer Networking]","p2p.peeridentitycreate","p2p/PeerIdentityCreate"]
 old-location: p2p\peeridentitycreate.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 24600215-afa0-4e6b-8455-b19b0de60b65
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityCreate, PeerIdentityCreate function [Peer Networking], p2p.peeridentitycreate, p2p/PeerIdentityCreate

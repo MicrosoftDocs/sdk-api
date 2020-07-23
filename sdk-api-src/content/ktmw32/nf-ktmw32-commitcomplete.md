@@ -4,7 +4,7 @@ title: CommitComplete function (ktmw32.h)
 description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).
 helpviewer_keywords: ["CommitComplete","CommitComplete function [Files]","fs.commitcomplete","ktmw32/CommitComplete"]
 old-location: fs\commitcomplete.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed
 ms.date: 12/05/2018
 ms.keywords: CommitComplete, CommitComplete function [Files], fs.commitcomplete, ktmw32/CommitComplete

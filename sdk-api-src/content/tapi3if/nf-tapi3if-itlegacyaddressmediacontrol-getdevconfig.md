@@ -4,7 +4,7 @@ title: ITLegacyAddressMediaControl::GetDevConfig (tapi3if.h)
 description: The GetDevConfig method returns an opaque data structure.
 helpviewer_keywords: ["GetDevConfig","GetDevConfig method [TAPI 2.2]","GetDevConfig method [TAPI 2.2]","ITLegacyAddressMediaControl interface","ITLegacyAddressMediaControl interface [TAPI 2.2]","GetDevConfig method","ITLegacyAddressMediaControl.GetDevConfig","ITLegacyAddressMediaControl::GetDevConfig","_tapi3_itlegacyaddressmediacontrol_getdevconfig","tapi3.itlegacyaddressmediacontrol_getdevconfig","tapi3if/ITLegacyAddressMediaControl::GetDevConfig"]
 old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ed8cc556-31a5-4725-92fe-1f78c16aadcd
 ms.date: 12/05/2018
 ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetDevConfig method, ITLegacyAddressMediaControl.GetDevConfig, ITLegacyAddressMediaControl::GetDevConfig, _tapi3_itlegacyaddressmediacontrol_getdevconfig, tapi3.itlegacyaddressmediacontrol_getdevconfig, tapi3if/ITLegacyAddressMediaControl::GetDevConfig

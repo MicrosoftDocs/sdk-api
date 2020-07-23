@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPRECVFROM
 title: LPWSPRECVFROM
 description: The LPWSPRecvFrom function receives a datagram and stores the source address.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPRECVFROM"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECVFROM

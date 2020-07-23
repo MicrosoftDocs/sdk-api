@@ -4,7 +4,7 @@ title: ISensorDataReport::GetTimestamp (sensorsapi.h)
 description: Retrieves the time at which the data report was created.
 helpviewer_keywords: ["GetTimestamp","GetTimestamp method","GetTimestamp method","ISensorDataReport interface","ISensorDataReport interface","GetTimestamp method","ISensorDataReport.GetTimestamp","ISensorDataReport::GetTimestamp","sensorsapi/ISensorDataReport::GetTimestamp","winsensors_com_ref.isensordatareport_gettimestamp"]
 old-location: winsensors_com_ref\isensordatareport_gettimestamp.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 3366bfb5-1132-4960-8a0e-49967310ade5
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method, GetTimestamp method,ISensorDataReport interface, ISensorDataReport interface,GetTimestamp method, ISensorDataReport.GetTimestamp, ISensorDataReport::GetTimestamp, sensorsapi/ISensorDataReport::GetTimestamp, winsensors_com_ref.isensordatareport_gettimestamp

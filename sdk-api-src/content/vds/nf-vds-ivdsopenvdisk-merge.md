@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::Merge (vds.h)
 description: Merges a child virtual disk with its parents in the differencing chain.
 helpviewer_keywords: ["IVdsOpenVDisk interface","Merge method","IVdsOpenVDisk.Merge","IVdsOpenVDisk::Merge","Merge","Merge method","Merge method","IVdsOpenVDisk interface","base.ivdsopenvdisk_merge","vds/IVdsOpenVDisk::Merge"]
 old-location: base\ivdsopenvdisk_merge.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: b513e904-a6ff-494e-9f63-b5158467b245
 ms.date: 12/05/2018
 ms.keywords: IVdsOpenVDisk interface,Merge method, IVdsOpenVDisk.Merge, IVdsOpenVDisk::Merge, Merge, Merge method, Merge method,IVdsOpenVDisk interface, base.ivdsopenvdisk_merge, vds/IVdsOpenVDisk::Merge

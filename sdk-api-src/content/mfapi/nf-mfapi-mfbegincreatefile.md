@@ -4,7 +4,7 @@ title: MFBeginCreateFile function (mfapi.h)
 description: Begins an asynchronous request to create a byte stream from a file.
 helpviewer_keywords: ["MFBeginCreateFile","MFBeginCreateFile function [Media Foundation]","aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd","mf.mfbegincreatefile","mfapi/MFBeginCreateFile"]
 old-location: mf\mfbegincreatefile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
 ms.date: 12/05/2018
 ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd, mf.mfbegincreatefile, mfapi/MFBeginCreateFile

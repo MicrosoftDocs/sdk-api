@@ -4,7 +4,7 @@ title: ITAddress2::get_PreferredPhones (tapi3if.h)
 description: The get_PreferredPhones method returns a collection of phone objects corresponding to the phone devices that are preferred for use with this address.
 helpviewer_keywords: ["ITAddress2 interface [TAPI 2.2]","get_PreferredPhones method","ITAddress2.get_PreferredPhones","ITAddress2::get_PreferredPhones","_tapi3_itaddress2_get_preferredphones","get_PreferredPhones","get_PreferredPhones method [TAPI 2.2]","get_PreferredPhones method [TAPI 2.2]","ITAddress2 interface","tapi3.itaddress2_get_preferredphones","tapi3if/ITAddress2::get_PreferredPhones"]
 old-location: tapi3\itaddress2_get_preferredphones.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6cb17c83-86db-4d44-bbd3-80a0e52fec73
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_PreferredPhones method, ITAddress2.get_PreferredPhones, ITAddress2::get_PreferredPhones, _tapi3_itaddress2_get_preferredphones, get_PreferredPhones, get_PreferredPhones method [TAPI 2.2], get_PreferredPhones method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_preferredphones, tapi3if/ITAddress2::get_PreferredPhones

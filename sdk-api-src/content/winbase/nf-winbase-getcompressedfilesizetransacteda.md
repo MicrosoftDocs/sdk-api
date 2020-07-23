@@ -4,7 +4,7 @@ title: GetCompressedFileSizeTransactedA function (winbase.h)
 description: Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation.
 helpviewer_keywords: ["GetCompressedFileSizeTransacted","GetCompressedFileSizeTransacted function [Files]","GetCompressedFileSizeTransactedA","GetCompressedFileSizeTransactedW","fs.getcompressedfilesizetransacted","winbase/GetCompressedFileSizeTransacted","winbase/GetCompressedFileSizeTransactedA","winbase/GetCompressedFileSizeTransactedW"]
 old-location: fs\getcompressedfilesizetransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
 ms.date: 12/05/2018
 ms.keywords: GetCompressedFileSizeTransacted, GetCompressedFileSizeTransacted function [Files], GetCompressedFileSizeTransactedA, GetCompressedFileSizeTransactedW, fs.getcompressedfilesizetransacted, winbase/GetCompressedFileSizeTransacted, winbase/GetCompressedFileSizeTransactedA, winbase/GetCompressedFileSizeTransactedW

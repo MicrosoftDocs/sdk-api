@@ -4,7 +4,7 @@ title: IMFQualityAdvise::GetQualityLevel (mfidl.h)
 description: Retrieves the current quality level.
 helpviewer_keywords: ["9a2b501e-543d-4ba0-86a1-a55e7d136685","GetQualityLevel","GetQualityLevel method [Media Foundation]","GetQualityLevel method [Media Foundation]","IMFQualityAdvise interface","IMFQualityAdvise interface [Media Foundation]","GetQualityLevel method","IMFQualityAdvise.GetQualityLevel","IMFQualityAdvise::GetQualityLevel","mf.imfqualityadvise_getqualitylevel","mfidl/IMFQualityAdvise::GetQualityLevel"]
 old-location: mf\imfqualityadvise_getqualitylevel.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9a2b501e-543d-4ba0-86a1-a55e7d136685
 ms.date: 12/05/2018
 ms.keywords: 9a2b501e-543d-4ba0-86a1-a55e7d136685, GetQualityLevel, GetQualityLevel method [Media Foundation], GetQualityLevel method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],GetQualityLevel method, IMFQualityAdvise.GetQualityLevel, IMFQualityAdvise::GetQualityLevel, mf.imfqualityadvise_getqualitylevel, mfidl/IMFQualityAdvise::GetQualityLevel

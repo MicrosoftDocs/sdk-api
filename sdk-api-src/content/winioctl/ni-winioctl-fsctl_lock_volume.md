@@ -4,7 +4,7 @@ title: FSCTL_LOCK_VOLUME
 description: Locks a volume if it is not in use.
 helpviewer_keywords: ["FSCTL_LOCK_VOLUME","FSCTL_LOCK_VOLUME control","FSCTL_LOCK_VOLUME control code [Files]","_win32_fsctl_lock_volume","base.fsctl_lock_volume","fs.fsctl_lock_volume","winioctl/FSCTL_LOCK_VOLUME"]
 old-location: fs\fsctl_lock_volume.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: b59b5c5e-6719-47a8-8810-14b60204e5ed
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOCK_VOLUME, FSCTL_LOCK_VOLUME control, FSCTL_LOCK_VOLUME control code [Files], _win32_fsctl_lock_volume, base.fsctl_lock_volume, fs.fsctl_lock_volume, winioctl/FSCTL_LOCK_VOLUME

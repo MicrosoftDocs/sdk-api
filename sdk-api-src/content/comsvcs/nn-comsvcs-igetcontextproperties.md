@@ -4,7 +4,7 @@ title: IGetContextProperties (comsvcs.h)
 description: Enables the caller to obtain the properties associated with the current object's context.
 helpviewer_keywords: ["IGetContextProperties","IGetContextProperties interface [COM+]","IGetContextProperties interface [COM+]","described","_cos_IGetContextProperties","comsvcs/IGetContextProperties","cos.igetcontextproperties"]
 old-location: cos\igetcontextproperties.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5e960c75-b074-4d4b-b5d6-252c26c70176
 ms.date: 12/05/2018
 ms.keywords: IGetContextProperties, IGetContextProperties interface [COM+], IGetContextProperties interface [COM+],described, _cos_IGetContextProperties, comsvcs/IGetContextProperties, cos.igetcontextproperties

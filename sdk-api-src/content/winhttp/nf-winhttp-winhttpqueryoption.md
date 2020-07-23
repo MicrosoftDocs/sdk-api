@@ -4,7 +4,7 @@ title: WinHttpQueryOption function (winhttp.h)
 description: The WinHttpQueryOption function queries an Internet option on the specified handle.
 helpviewer_keywords: ["WinHttpQueryOption","WinHttpQueryOption function [WinHTTP]","http.winhttpqueryoption","winhttp.winhttpqueryoption_function","winhttp/WinHttpQueryOption"]
 old-location: http\winhttpqueryoption.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 47973eab-de70-47bf-9713-97b87a500cfa
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryOption, WinHttpQueryOption function [WinHTTP], http.winhttpqueryoption, winhttp.winhttpqueryoption_function, winhttp/WinHttpQueryOption

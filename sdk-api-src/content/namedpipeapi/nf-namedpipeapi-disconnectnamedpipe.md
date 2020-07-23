@@ -4,7 +4,7 @@ title: DisconnectNamedPipe function (namedpipeapi.h)
 description: Disconnects the server end of a named pipe instance from a client process.
 helpviewer_keywords: ["DisconnectNamedPipe","DisconnectNamedPipe function","_win32_disconnectnamedpipe","base.disconnectnamedpipe","namedpipeapi/DisconnectNamedPipe"]
 old-location: base\disconnectnamedpipe.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 7af2d4fa-5e19-4256-a713-ac5bdaee6023
 ms.date: 12/05/2018
 ms.keywords: DisconnectNamedPipe, DisconnectNamedPipe function, _win32_disconnectnamedpipe, base.disconnectnamedpipe, namedpipeapi/DisconnectNamedPipe

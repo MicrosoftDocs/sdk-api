@@ -4,7 +4,7 @@ title: IVMRFilterConfig9::GetRenderingPrefs (vmr9.h)
 description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR-9.
 helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]","GetRenderingPrefs method [DirectShow]","IVMRFilterConfig9 interface","IVMRFilterConfig9 interface [DirectShow]","GetRenderingPrefs method","IVMRFilterConfig9.GetRenderingPrefs","IVMRFilterConfig9::GetRenderingPrefs","IVMRFilterConfig9GetRenderingPrefs","dshow.ivmrfilterconfig9_getrenderingprefs","vmr9/IVMRFilterConfig9::GetRenderingPrefs"]
 old-location: dshow\ivmrfilterconfig9_getrenderingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b82a9dbe-aa86-4153-945b-fe8968faa5ca
 ms.date: 12/05/2018
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRFilterConfig9.GetRenderingPrefs, IVMRFilterConfig9::GetRenderingPrefs, IVMRFilterConfig9GetRenderingPrefs, dshow.ivmrfilterconfig9_getrenderingprefs, vmr9/IVMRFilterConfig9::GetRenderingPrefs

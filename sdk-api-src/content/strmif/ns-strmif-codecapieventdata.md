@@ -4,7 +4,7 @@ title: CodecAPIEventData (strmif.h)
 description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.
 helpviewer_keywords: ["CodecAPIEventData","CodecAPIEventData structure [DirectShow]","CodecAPIEventDataStructure","dshow.codecapieventdata","strmif/CodecAPIEventData"]
 old-location: dshow\codecapieventdata.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
 ms.date: 12/05/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData

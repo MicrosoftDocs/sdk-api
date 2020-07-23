@@ -4,7 +4,7 @@ title: IUpdate3 (wuapi.h)
 description: Contains the properties and methods that are available to an update.
 helpviewer_keywords: ["IUpdate3","IUpdate3 interface [Windows Update Agent]","IUpdate3 interface [Windows Update Agent]","described","wua.iupdate3","wuapi/IUpdate3"]
 old-location: wua\iupdate3.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 61b06451-0252-4dbe-8a19-e7260620377d
 ms.date: 12/05/2018
 ms.keywords: IUpdate3, IUpdate3 interface [Windows Update Agent], IUpdate3 interface [Windows Update Agent],described, wua.iupdate3, wuapi/IUpdate3

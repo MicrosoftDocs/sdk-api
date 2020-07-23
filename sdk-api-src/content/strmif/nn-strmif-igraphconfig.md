@@ -4,7 +4,7 @@ title: IGraphConfig (strmif.h)
 description: The Filter Graph Manager exposes IGraphConfig to support dynamic graph building.
 helpviewer_keywords: ["IGraphConfig","IGraphConfig interface [DirectShow]","IGraphConfig interface [DirectShow]","described","IGraphConfigInterface","dshow.igraphconfig","strmif/IGraphConfig"]
 old-location: dshow\igraphconfig.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7df22157-9dd1-410e-b037-a155f7b9a01b
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], IGraphConfig interface [DirectShow],described, IGraphConfigInterface, dshow.igraphconfig, strmif/IGraphConfig

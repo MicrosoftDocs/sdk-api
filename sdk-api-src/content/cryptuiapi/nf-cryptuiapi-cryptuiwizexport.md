@@ -4,7 +4,7 @@ title: CryptUIWizExport function (cryptuiapi.h)
 description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
 helpviewer_keywords: ["CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY","CRYPTUI_WIZ_EXPORT_PRIVATE_KEY","CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS","CRYPTUI_WIZ_NO_UI","CRYPTUI_WIZ_NO_UI_EXCEPT_CSP","CryptUIWizExport","CryptUIWizExport function [Security]","cryptuiapi/CryptUIWizExport","security.cryptuiwizexport"]
 old-location: security\cryptuiwizexport.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 62537d51-c761-4180-b857-58c819ea66aa
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY, CRYPTUI_WIZ_EXPORT_PRIVATE_KEY, CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_NO_UI, CRYPTUI_WIZ_NO_UI_EXCEPT_CSP, CryptUIWizExport, CryptUIWizExport function [Security], cryptuiapi/CryptUIWizExport, security.cryptuiwizexport

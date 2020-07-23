@@ -4,7 +4,7 @@ title: WinUsb_QueryPipeEx function (winusb.h)
 description: The WinUsb_QueryPipeEx function retrieves extended information about the specified endpoint and the associated pipe for an interface.
 helpviewer_keywords: ["WinUsb_QueryPipeEx","WinUsb_QueryPipeEx function [Buses]","buses.winusb_querypipeex","winusb/WinUsb_QueryPipeEx"]
 old-location: buses\winusb_querypipeex.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 73C291EC-2345-454B-BC7C-8A443DDFF57C
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryPipeEx, WinUsb_QueryPipeEx function [Buses], buses.winusb_querypipeex, winusb/WinUsb_QueryPipeEx

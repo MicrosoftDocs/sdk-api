@@ -4,7 +4,7 @@ title: IX509CertificateRequestCmc2::InitializeFromTemplate (certenroll.h)
 description: Initializes the certificate request by using a template.
 helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509CertificateRequestCmc2 interface [Security]","InitializeFromTemplate method","IX509CertificateRequestCmc2.InitializeFromTemplate","IX509CertificateRequestCmc2::InitializeFromTemplate","InitializeFromTemplate","InitializeFromTemplate method [Security]","InitializeFromTemplate method [Security]","IX509CertificateRequestCmc2 interface","certenroll/IX509CertificateRequestCmc2::InitializeFromTemplate","security.ix509certificaterequestcmc2_initializefromtemplate"]
 old-location: security\ix509certificaterequestcmc2_initializefromtemplate.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 576e3349-1da7-4f1e-9410-a72c30e22063
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCmc2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCmc2.InitializeFromTemplate, IX509CertificateRequestCmc2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromTemplate, security.ix509certificaterequestcmc2_initializefromtemplate

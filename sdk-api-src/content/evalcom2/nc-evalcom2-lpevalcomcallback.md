@@ -4,7 +4,7 @@ title: LPEVALCOMCALLBACK (evalcom2.h)
 description: The LPEVALCOMCALLBACK specification defines a callback function prototype. The IValidate::SetStatus method enables an authoring tool to receive information about the progress of validation through the registered callback function.
 helpviewer_keywords: ["LPEVALCOMCALLBACK","LPEVALCOMCALLBACK callback","LPEVALCOMCALLBACK callback function","evalcom2/LPEVALCOMCALLBACK","ieStatusCancel","ieStatusCreateEngine","ieStatusFail","ieStatusICECount","ieStatusMerge","ieStatusRunICE","ieStatusShutdown","ieStatusStarting","ieStatusSuccess","ieStatusSummaryInfo","setup.lpevalcomcallback"]
 old-location: setup\lpevalcomcallback.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 76504031-b63a-40fc-aa5b-728f3551057b
 ms.date: 12/05/2018
 ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK callback function, evalcom2/LPEVALCOMCALLBACK, ieStatusCancel, ieStatusCreateEngine, ieStatusFail, ieStatusICECount, ieStatusMerge, ieStatusRunICE, ieStatusShutdown, ieStatusStarting, ieStatusSuccess, ieStatusSummaryInfo, setup.lpevalcomcallback

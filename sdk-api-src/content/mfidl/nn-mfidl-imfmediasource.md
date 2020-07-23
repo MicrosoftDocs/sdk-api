@@ -4,7 +4,7 @@ title: IMFMediaSource (mfidl.h)
 description: Implemented by media source objects.
 helpviewer_keywords: ["8b579f61-6fea-4b20-a051-7633fc01fa05","IMFMediaSource","IMFMediaSource interface [Media Foundation]","IMFMediaSource interface [Media Foundation]","described","mf.imfmediasource","mfidl/IMFMediaSource"]
 old-location: mf\imfmediasource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8b579f61-6fea-4b20-a051-7633fc01fa05
 ms.date: 12/05/2018
 ms.keywords: 8b579f61-6fea-4b20-a051-7633fc01fa05, IMFMediaSource, IMFMediaSource interface [Media Foundation], IMFMediaSource interface [Media Foundation],described, mf.imfmediasource, mfidl/IMFMediaSource

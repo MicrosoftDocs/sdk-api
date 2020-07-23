@@ -4,7 +4,7 @@ title: IVMRSurface9 (vmr9.h)
 description: The IVMRSurface9 interface is implemented on the media samples used by the Video Mixing Renderer Filter 9.
 helpviewer_keywords: ["IVMRSurface9","IVMRSurface9 interface [DirectShow]","IVMRSurface9 interface [DirectShow]","described","IVMRSurface9Interface","dshow.ivmrsurface9","vmr9/IVMRSurface9"]
 old-location: dshow\ivmrsurface9.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b24dae7d-5e88-4973-8507-8bd13cdccbde
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 interface [DirectShow],described, IVMRSurface9Interface, dshow.ivmrsurface9, vmr9/IVMRSurface9

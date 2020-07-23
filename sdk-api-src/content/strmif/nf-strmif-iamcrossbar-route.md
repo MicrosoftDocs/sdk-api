@@ -4,7 +4,7 @@ title: IAMCrossbar::Route (strmif.h)
 description: The Route method routes an input pin to an output pin.
 helpviewer_keywords: ["IAMCrossbar interface [DirectShow]","Route method","IAMCrossbar.Route","IAMCrossbar::Route","IAMCrossbarRoute","Route","Route method [DirectShow]","Route method [DirectShow]","IAMCrossbar interface","dshow.iamcrossbar_route","strmif/IAMCrossbar::Route"]
 old-location: dshow\iamcrossbar_route.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a3f6823d-e389-478a-b882-2556a3cbd821
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],Route method, IAMCrossbar.Route, IAMCrossbar::Route, IAMCrossbarRoute, Route, Route method [DirectShow], Route method [DirectShow],IAMCrossbar interface, dshow.iamcrossbar_route, strmif/IAMCrossbar::Route

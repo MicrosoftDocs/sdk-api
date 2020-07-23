@@ -4,7 +4,7 @@ title: ICrmMonitorClerks (comsvcs.h)
 description: Retrieves information about the state of clerks.
 helpviewer_keywords: ["ICrmMonitorClerks","ICrmMonitorClerks interface [COM+]","ICrmMonitorClerks interface [COM+]","described","_dtc_ICrmMonitorClerks_Interface","comsvcs/ICrmMonitorClerks","cos.icrmmonitorclerks"]
 old-location: cos\icrmmonitorclerks.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 90403516-f677-4396-8991-ae621c159567
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ICrmMonitorClerks interface [COM+],described, _dtc_ICrmMonitorClerks_Interface, comsvcs/ICrmMonitorClerks, cos.icrmmonitorclerks

@@ -4,7 +4,7 @@ title: IGraphVersion (strmif.h)
 description: The IGraphVersion interface is implemented on the Filter Graph Manager to provide a way for plug-in distributors and applications to know when the graph has changed.
 helpviewer_keywords: ["IGraphVersion","IGraphVersion interface [DirectShow]","IGraphVersion interface [DirectShow]","described","IGraphVersionInterface","dshow.igraphversion","strmif/IGraphVersion"]
 old-location: dshow\igraphversion.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: abca59f2-2134-4938-9933-bacaed771d0d
 ms.date: 12/05/2018
 ms.keywords: IGraphVersion, IGraphVersion interface [DirectShow], IGraphVersion interface [DirectShow],described, IGraphVersionInterface, dshow.igraphversion, strmif/IGraphVersion

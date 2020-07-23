@@ -4,7 +4,7 @@ title: LsaClose function (ntsecapi.h)
 description: The LsaClose function closes a handle to a Policy or TrustedDomain object.
 helpviewer_keywords: ["LsaClose","LsaClose function [Security]","_lsa_lsaclose","ntsecapi/LsaClose","security.lsaclose"]
 old-location: security\lsaclose.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 6283b1da-4ec3-48e1-91f6-321c6390befe
 ms.date: 12/05/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose

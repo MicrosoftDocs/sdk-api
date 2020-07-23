@@ -4,7 +4,7 @@ title: IEnroll::put_ProviderType (xenroll.h)
 description: Sets or retrieves the type of provider.
 helpviewer_keywords: ["IEnroll interface [Security]","ProviderType property","IEnroll.ProviderType","IEnroll.put_ProviderType","IEnroll::ProviderType","IEnroll::get_ProviderType","IEnroll::put_ProviderType","ProviderType property [Security]","ProviderType property [Security]","IEnroll interface","put_ProviderType","security.ienroll4_providertype","xenroll/IEnroll::ProviderType","xenroll/IEnroll::get_ProviderType","xenroll/IEnroll::put_ProviderType"]
 old-location: security\ienroll4_providertype.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d4ab2b0e-127f-4ec0-9e4a-4314561912e3
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderType property, IEnroll.ProviderType, IEnroll.put_ProviderType, IEnroll::ProviderType, IEnroll::get_ProviderType, IEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IEnroll interface, put_ProviderType, security.ienroll4_providertype, xenroll/IEnroll::ProviderType, xenroll/IEnroll::get_ProviderType, xenroll/IEnroll::put_ProviderType

@@ -4,7 +4,7 @@ title: CertCloseServerOcspResponse function (wincrypt.h)
 description: Closes an online certificate status protocol (OCSP) server response handle.
 helpviewer_keywords: ["CertCloseServerOcspResponse","CertCloseServerOcspResponse function [Security]","security.certcloseserverocspresponse","wincrypt/CertCloseServerOcspResponse"]
 old-location: security\certcloseserverocspresponse.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6247e8ca-ba12-432f-9bf8-a6c644f253e9
 ms.date: 12/05/2018
 ms.keywords: CertCloseServerOcspResponse, CertCloseServerOcspResponse function [Security], security.certcloseserverocspresponse, wincrypt/CertCloseServerOcspResponse

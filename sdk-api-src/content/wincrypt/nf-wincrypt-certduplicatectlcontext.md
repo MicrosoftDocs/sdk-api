@@ -4,7 +4,7 @@ title: CertDuplicateCTLContext function (wincrypt.h)
 description: The CertDuplicateCTLContext function duplicates a certificate trust list (CTL) context by incrementing its reference count.
 helpviewer_keywords: ["CertDuplicateCTLContext","CertDuplicateCTLContext function [Security]","_crypto2_certduplicatectlcontext","security.certduplicatectlcontext","wincrypt/CertDuplicateCTLContext"]
 old-location: security\certduplicatectlcontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 512d246f-9f22-4ac1-a4fc-d5c615a65cf9
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateCTLContext, CertDuplicateCTLContext function [Security], _crypto2_certduplicatectlcontext, security.certduplicatectlcontext, wincrypt/CertDuplicateCTLContext

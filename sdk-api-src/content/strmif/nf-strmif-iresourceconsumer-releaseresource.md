@@ -4,7 +4,7 @@ title: IResourceConsumer::ReleaseResource (strmif.h)
 description: The ReleaseResource method requests the resource consumer to release the specified resource.
 helpviewer_keywords: ["IResourceConsumer interface [DirectShow]","ReleaseResource method","IResourceConsumer.ReleaseResource","IResourceConsumer::ReleaseResource","IResourceConsumerReleaseResource","ReleaseResource","ReleaseResource method [DirectShow]","ReleaseResource method [DirectShow]","IResourceConsumer interface","dshow.iresourceconsumer_releaseresource","strmif/IResourceConsumer::ReleaseResource"]
 old-location: dshow\iresourceconsumer_releaseresource.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9f0a5830-dcaa-4020-9e78-0cbe64e13360
 ms.date: 12/05/2018
 ms.keywords: IResourceConsumer interface [DirectShow],ReleaseResource method, IResourceConsumer.ReleaseResource, IResourceConsumer::ReleaseResource, IResourceConsumerReleaseResource, ReleaseResource, ReleaseResource method [DirectShow], ReleaseResource method [DirectShow],IResourceConsumer interface, dshow.iresourceconsumer_releaseresource, strmif/IResourceConsumer::ReleaseResource

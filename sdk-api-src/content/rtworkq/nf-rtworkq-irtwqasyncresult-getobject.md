@@ -4,7 +4,7 @@ title: IRtwqAsyncResult::GetObject (rtworkq.h)
 description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 helpviewer_keywords: ["GetObject","GetObject method","GetObject method","IRtwqAsyncResult interface","IRtwqAsyncResult interface","GetObject method","IRtwqAsyncResult.GetObject","IRtwqAsyncResult::GetObject","base.irtwqasyncresult_getobject","rtworkq/IRtwqAsyncResult::GetObject"]
 old-location: base\irtwqasyncresult_getobject.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject

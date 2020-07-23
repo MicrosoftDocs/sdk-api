@@ -4,7 +4,7 @@ title: PWLX_SWITCH_DESKTOP_TO_USER (winwlx.h)
 description: Called by GINA to switch to the application desktop.
 helpviewer_keywords: ["PWLX_SWITCH_DESKTOP_TO_USER","PWLX_SWITCH_DESKTOP_TO_USER callback","WlxSwitchDesktopToUser","WlxSwitchDesktopToUser callback function [Security]","_gina_wlxswitchdesktoptouser","security.wlxswitchdesktoptouser","winwlx/WlxSwitchDesktopToUser"]
 old-location: security\wlxswitchdesktoptouser.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ec353e23-7e33-4af2-93ea-35801a19d9aa
 ms.date: 12/05/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_USER, PWLX_SWITCH_DESKTOP_TO_USER callback, WlxSwitchDesktopToUser, WlxSwitchDesktopToUser callback function [Security], _gina_wlxswitchdesktoptouser, security.wlxswitchdesktoptouser, winwlx/WlxSwitchDesktopToUser

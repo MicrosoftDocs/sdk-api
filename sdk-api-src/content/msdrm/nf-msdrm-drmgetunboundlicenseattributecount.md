@@ -4,7 +4,7 @@ title: DRMGetUnboundLicenseAttributeCount function (msdrm.h)
 description: Retrieves the number of occurrences of an attribute within an object in an unbound license.
 helpviewer_keywords: ["DRMGetUnboundLicenseAttributeCount","DRMGetUnboundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUnboundLicenseAttributeCount","rm.drmgetunboundlicenseattributecount"]
 old-location: rm\drmgetunboundlicenseattributecount.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: ea462757-9df8-4b50-966b-5998e570f321
 ms.date: 12/05/2018
 ms.keywords: DRMGetUnboundLicenseAttributeCount, DRMGetUnboundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseAttributeCount, rm.drmgetunboundlicenseattributecount

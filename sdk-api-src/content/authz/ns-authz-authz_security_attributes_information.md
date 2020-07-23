@@ -4,7 +4,7 @@ title: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION (authz.h)
 description: Specifies one or more security attributes and values.
 helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","AUTHZ_SECURITY_ATTRIBUTES_INFORMATION","AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security]","PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION","authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","security.authz_security_attributes_information"]
 old-location: security\authz_security_attributes_information.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, security.authz_security_attributes_information'

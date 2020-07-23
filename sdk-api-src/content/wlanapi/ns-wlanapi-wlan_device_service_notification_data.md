@@ -2,6 +2,7 @@
 UID: NS:wlanapi._WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 title: WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 description: A structure that represents a device service notification.
+tech.root: nwifi
 helpviewer_keywords: ["_WLAN_DEVICE_SERVICE_NOTIFICATION_DATA"]
 ms.date: 12/18/2019
 targetos: Windows

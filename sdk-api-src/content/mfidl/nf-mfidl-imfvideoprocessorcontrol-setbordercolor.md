@@ -4,7 +4,7 @@ title: IMFVideoProcessorControl::SetBorderColor (mfidl.h)
 description: Sets the border color.
 helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetBorderColor method","IMFVideoProcessorControl.SetBorderColor","IMFVideoProcessorControl::SetBorderColor","SetBorderColor","SetBorderColor method [Media Foundation]","SetBorderColor method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setbordercolor","mfidl/IMFVideoProcessorControl::SetBorderColor"]
 old-location: mf\imfvideoprocessorcontrol_setbordercolor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: DA6165C9-24E9-473C-A4F7-4C94399AF346
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetBorderColor method, IMFVideoProcessorControl.SetBorderColor, IMFVideoProcessorControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setbordercolor, mfidl/IMFVideoProcessorControl::SetBorderColor

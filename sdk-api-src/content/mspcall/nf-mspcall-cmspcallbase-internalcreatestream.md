@@ -4,7 +4,7 @@ title: CMSPCallBase::InternalCreateStream (mspcall.h)
 description: The InternalCreateStream method is called by CreateStream to create a stream object (the caller does the argument checking). It should create and initialize the stream object (using CreateStreamObject).
 helpviewer_keywords: ["CMSPCallBase interface [TAPI 2.2]","InternalCreateStream method","CMSPCallBase.InternalCreateStream","CMSPCallBase::InternalCreateStream","InternalCreateStream","InternalCreateStream method [TAPI 2.2]","InternalCreateStream method [TAPI 2.2]","CMSPCallBase interface","_tapi3_cmspcallbase_internalcreatestream","mspcall/CMSPCallBase::InternalCreateStream","tapi3.cmspcallbase_internalcreatestream"]
 old-location: tapi3\cmspcallbase_internalcreatestream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6f9cef2e-36dd-4095-9060-b6d37ccbc6d7
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],InternalCreateStream method, CMSPCallBase.InternalCreateStream, CMSPCallBase::InternalCreateStream, InternalCreateStream, InternalCreateStream method [TAPI 2.2], InternalCreateStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_internalcreatestream, mspcall/CMSPCallBase::InternalCreateStream, tapi3.cmspcallbase_internalcreatestream

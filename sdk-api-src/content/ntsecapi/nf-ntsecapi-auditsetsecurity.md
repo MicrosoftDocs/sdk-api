@@ -4,7 +4,7 @@ title: AuditSetSecurity function (ntsecapi.h)
 description: Sets a security descriptor that delegates access to audit policy.
 helpviewer_keywords: ["AuditSetSecurity","AuditSetSecurity function [Security]","ntsecapi/AuditSetSecurity","security.auditsetsecurity"]
 old-location: security\auditsetsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.date: 12/05/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity

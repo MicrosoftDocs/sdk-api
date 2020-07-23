@@ -4,7 +4,7 @@ title: IPhotoAcquireSettings::SetGroupTag (photoacquire.h)
 description: The SetGroupTag method sets the group tag for an acquisition session.
 helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetGroupTag method","IPhotoAcquireSettings.SetGroupTag","IPhotoAcquireSettings::SetGroupTag","IPhotoAcquireSettingsSetGroupTag","SetGroupTag","SetGroupTag method [Picture Acquisition]","SetGroupTag method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetGroupTag","picacq.iphotoacquiresettings_setgrouptag"]
 old-location: picacq\iphotoacquiresettings_setgrouptag.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: f3c8b7dc-5701-412a-a376-498c40017d8f
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetGroupTag method, IPhotoAcquireSettings.SetGroupTag, IPhotoAcquireSettings::SetGroupTag, IPhotoAcquireSettingsSetGroupTag, SetGroupTag, SetGroupTag method [Picture Acquisition], SetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetGroupTag, picacq.iphotoacquiresettings_setgrouptag

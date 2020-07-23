@@ -4,7 +4,7 @@ title: SetFileApisToOEM function (fileapi.h)
 description: Causes the file I/O functions for the process to use the OEM character set code page.
 helpviewer_keywords: ["SetFileApisToOEM","SetFileApisToOEM function [Files]","_win32_setfileapistooem","base.setfileapistooem","fileapi/SetFileApisToOEM","fs.setfileapistooem"]
 old-location: fs\setfileapistooem.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 15f657d8-075a-4f0c-a653-73273ea62f5f
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToOEM, SetFileApisToOEM function [Files], _win32_setfileapistooem, base.setfileapistooem, fileapi/SetFileApisToOEM, fs.setfileapistooem

@@ -4,7 +4,7 @@ title: BuildTrusteeWithObjectsAndNameA function (aclapi.h)
 description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.
 helpviewer_keywords: ["BuildTrusteeWithObjectsAndName","BuildTrusteeWithObjectsAndName function [Security]","BuildTrusteeWithObjectsAndNameA","BuildTrusteeWithObjectsAndNameW","_win32_buildtrusteewithobjectsandname","aclapi/BuildTrusteeWithObjectsAndName","aclapi/BuildTrusteeWithObjectsAndNameA","aclapi/BuildTrusteeWithObjectsAndNameW","security.buildtrusteewithobjectsandname"]
 old-location: security\buildtrusteewithobjectsandname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname

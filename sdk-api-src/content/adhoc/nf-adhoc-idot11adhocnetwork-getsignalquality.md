@@ -4,7 +4,7 @@ title: IDot11AdHocNetwork::GetSignalQuality (adhoc.h)
 description: Gets the signal quality values associated with the network's radio.
 helpviewer_keywords: ["GetSignalQuality","GetSignalQuality method [NativeWIFI]","GetSignalQuality method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","GetSignalQuality method","IDot11AdHocNetwork.GetSignalQuality","IDot11AdHocNetwork::GetSignalQuality","adhoc/IDot11AdHocNetwork::GetSignalQuality","nwifi.idot11adhocnetwork_getsignalquality"]
 old-location: nwifi\idot11adhocnetwork_getsignalquality.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: be31a2ed-c9ba-4894-a295-a88e01639891
 ms.date: 12/05/2018
 ms.keywords: GetSignalQuality, GetSignalQuality method [NativeWIFI], GetSignalQuality method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignalQuality method, IDot11AdHocNetwork.GetSignalQuality, IDot11AdHocNetwork::GetSignalQuality, adhoc/IDot11AdHocNetwork::GetSignalQuality, nwifi.idot11adhocnetwork_getsignalquality

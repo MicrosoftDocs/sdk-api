@@ -4,7 +4,7 @@ title: IAzRoleDefinition::AddRoleDefinition (azroles.h)
 description: Adds the specified IAzRoleDefinition object to this IAzRoleDefinition object.
 helpviewer_keywords: ["AddRoleDefinition","AddRoleDefinition method [Security]","AddRoleDefinition method [Security]","IAzRoleDefinition interface","IAzRoleDefinition interface [Security]","AddRoleDefinition method","IAzRoleDefinition.AddRoleDefinition","IAzRoleDefinition::AddRoleDefinition","azroles/IAzRoleDefinition::AddRoleDefinition","security.iazroledefinition_addroledefinition"]
 old-location: security\iazroledefinition_addroledefinition.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 38d65f5f-452b-4641-a683-2740fb529064
 ms.date: 12/05/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleDefinition interface, IAzRoleDefinition interface [Security],AddRoleDefinition method, IAzRoleDefinition.AddRoleDefinition, IAzRoleDefinition::AddRoleDefinition, azroles/IAzRoleDefinition::AddRoleDefinition, security.iazroledefinition_addroledefinition

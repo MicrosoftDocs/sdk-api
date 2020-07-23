@@ -4,7 +4,7 @@ title: IComMethodEvents (comsvcs.h)
 description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
 helpviewer_keywords: ["IComMethodEvents","IComMethodEvents interface [COM+]","IComMethodEvents interface [COM+]","described","_dtc_IComMethodEvents","comsvcs/IComMethodEvents","cos.icommethodevents"]
 old-location: cos\icommethodevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 24670a23-4300-48f9-a089-dff3082cb544
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], IComMethodEvents interface [COM+],described, _dtc_IComMethodEvents, comsvcs/IComMethodEvents, cos.icommethodevents

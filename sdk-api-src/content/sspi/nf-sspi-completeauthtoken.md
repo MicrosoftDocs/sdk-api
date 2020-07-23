@@ -4,7 +4,7 @@ title: CompleteAuthToken function (sspi.h)
 description: Completes an authentication token.
 helpviewer_keywords: ["CompleteAuthToken","CompleteAuthToken function [Security]","_ssp_completeauthtoken","security.completeauthtoken","sspi/CompleteAuthToken"]
 old-location: security\completeauthtoken.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
 ms.date: 12/05/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken

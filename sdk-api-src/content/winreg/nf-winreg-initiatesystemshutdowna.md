@@ -4,7 +4,7 @@ title: InitiateSystemShutdownA function (winreg.h)
 description: Initiates a shutdown and optional restart of the specified computer.
 helpviewer_keywords: ["InitiateSystemShutdown","InitiateSystemShutdown function","InitiateSystemShutdownA","InitiateSystemShutdownW","_win32_initiatesystemshutdown","base.initiatesystemshutdown","winreg/InitiateSystemShutdown","winreg/InitiateSystemShutdownA","winreg/InitiateSystemShutdownW"]
 old-location: base\initiatesystemshutdown.htm
-tech.root: Shutdown
+tech.root: base
 ms.assetid: cad54fea-7f59-438c-83ac-f0160d81496b
 ms.date: 12/05/2018
 ms.keywords: InitiateSystemShutdown, InitiateSystemShutdown function, InitiateSystemShutdownA, InitiateSystemShutdownW, _win32_initiatesystemshutdown, base.initiatesystemshutdown, winreg/InitiateSystemShutdown, winreg/InitiateSystemShutdownA, winreg/InitiateSystemShutdownW

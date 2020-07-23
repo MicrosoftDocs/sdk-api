@@ -4,7 +4,7 @@ title: IDvdControl2::PlayChapter (strmif.h)
 description: The PlayChapter method starts playback from the specified chapter in the current title.
 helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayChapter method","IDvdControl2.PlayChapter","IDvdControl2::PlayChapter","IDvdControl2PlayChapter","PlayChapter","PlayChapter method [DirectShow]","PlayChapter method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playchapter","strmif/IDvdControl2::PlayChapter"]
 old-location: dshow\idvdcontrol2_playchapter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapter method, IDvdControl2.PlayChapter, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter

@@ -4,7 +4,7 @@ title: MsiGetFileVersionW function (msi.h)
 description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database.
 helpviewer_keywords: ["MsiGetFileVersion","MsiGetFileVersion function","MsiGetFileVersionA","MsiGetFileVersionW","_msi_msigetfileversion","msi/MsiGetFileVersion","msi/MsiGetFileVersionA","msi/MsiGetFileVersionW","setup.msigetfileversion"]
 old-location: setup\msigetfileversion.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 9dd7d71e-2e76-4755-a979-f3dcdcd6ebec
 ms.date: 12/05/2018
 ms.keywords: MsiGetFileVersion, MsiGetFileVersion function, MsiGetFileVersionA, MsiGetFileVersionW, _msi_msigetfileversion, msi/MsiGetFileVersion, msi/MsiGetFileVersionA, msi/MsiGetFileVersionW, setup.msigetfileversion

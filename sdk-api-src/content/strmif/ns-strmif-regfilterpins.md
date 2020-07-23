@@ -4,7 +4,7 @@ title: REGFILTERPINS (strmif.h)
 description: The REGFILTERPINS structure contains pin information for registering a filter.
 helpviewer_keywords: ["AMOVIESETUP_PIN","AMOVIESETUP_PIN structure [DirectShow]","LPAMOVIESETUP_PIN","LPAMOVIESETUP_PIN structure pointer [DirectShow]","PAMOVIESETUP_PIN","PAMOVIESETUP_PIN structure pointer [DirectShow]","REGFILTERPINS","REGFILTERPINS structure [DirectShow]","REGFILTERPINSStructure","dshow.regfilterpins","strmif/AMOVIESETUP_PIN","strmif/LPAMOVIESETUP_PIN","strmif/PAMOVIESETUP_PIN","strmif/REGFILTERPINS"]
 old-location: dshow\regfilterpins.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1da033e1-24c3-46e0-becf-025966e6238f
 ms.date: 12/05/2018
 ms.keywords: AMOVIESETUP_PIN, AMOVIESETUP_PIN structure [DirectShow], LPAMOVIESETUP_PIN, LPAMOVIESETUP_PIN structure pointer [DirectShow], PAMOVIESETUP_PIN, PAMOVIESETUP_PIN structure pointer [DirectShow], REGFILTERPINS, REGFILTERPINS structure [DirectShow], REGFILTERPINSStructure, dshow.regfilterpins, strmif/AMOVIESETUP_PIN, strmif/LPAMOVIESETUP_PIN, strmif/PAMOVIESETUP_PIN, strmif/REGFILTERPINS

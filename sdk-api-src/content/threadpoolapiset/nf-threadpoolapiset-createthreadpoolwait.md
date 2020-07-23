@@ -4,7 +4,7 @@ title: CreateThreadpoolWait function (threadpoolapiset.h)
 description: Creates a new wait object.
 helpviewer_keywords: ["CreateThreadpoolWait","CreateThreadpoolWait function","base.createthreadpoolwait","threadpoolapiset/CreateThreadpoolWait","winbase/CreateThreadpoolWait"]
 old-location: base\createthreadpoolwait.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: ba19f5f9-d4b0-4865-9609-95e7697d61c0
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolWait, CreateThreadpoolWait function, base.createthreadpoolwait, threadpoolapiset/CreateThreadpoolWait, winbase/CreateThreadpoolWait

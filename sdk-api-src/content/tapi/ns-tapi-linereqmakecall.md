@@ -4,7 +4,7 @@ title: LINEREQMAKECALL (tapi.h)
 description: The LINEREQMAKECALL structure describes a request initiated by a call to the lineGetRequest function.
 helpviewer_keywords: ["*LPLINEREQMAKECALL","LINEREQMAKECALL","LINEREQMAKECALL structure [TAPI 2.2]","LPLINEREQMAKECALL","LPLINEREQMAKECALL structure pointer [TAPI 2.2]","_tapi2_linereqmakecall_str","tapi/LINEREQMAKECALL","tapi/LPLINEREQMAKECALL","tapi2.linereqmakecall_str"]
 old-location: tapi2\linereqmakecall_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: de4e51af-ea1c-41aa-b5a9-9fa628e18d9d
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEREQMAKECALL, LINEREQMAKECALL, LINEREQMAKECALL structure [TAPI 2.2], LPLINEREQMAKECALL, LPLINEREQMAKECALL structure pointer [TAPI 2.2], _tapi2_linereqmakecall_str, tapi/LINEREQMAKECALL, tapi/LPLINEREQMAKECALL, tapi2.linereqmakecall_str'

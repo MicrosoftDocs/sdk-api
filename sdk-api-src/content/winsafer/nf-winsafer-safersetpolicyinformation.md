@@ -4,7 +4,7 @@ title: SaferSetPolicyInformation function (winsafer.h)
 description: Sets the global policy controls.
 helpviewer_keywords: ["SAFER_SCOPEID_MACHINE","SAFER_SCOPEID_USER","SaferPolicyDefaultLevel","SaferPolicyEnableTransparentEnforcement","SaferPolicyEvaluateUserScope","SaferPolicyLevelList","SaferPolicyScopeFlags","SaferSetPolicyInformation","SaferSetPolicyInformation function [Security]","security.safersetpolicyinformation","winsafer/SaferSetPolicyInformation"]
 old-location: security\safersetpolicyinformation.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: B8F3AFC4-8CAD-4AD2-AF17-CCE05A315AD8
 ms.date: 12/05/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, SaferSetPolicyInformation, SaferSetPolicyInformation function [Security], security.safersetpolicyinformation, winsafer/SaferSetPolicyInformation

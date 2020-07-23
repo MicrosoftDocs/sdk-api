@@ -4,7 +4,7 @@ title: IMFSensorDevice::SetSensorDeviceMode (mfidl.h)
 description: Sets a value that specifies the sharing mode of the sensor device to either controller or shared.
 helpviewer_keywords: ["IMFSensorDevice interface [Media Foundation]","SetSensorDeviceMode method","IMFSensorDevice.SetSensorDeviceMode","IMFSensorDevice::SetSensorDeviceMode","SetSensorDeviceMode","SetSensorDeviceMode method [Media Foundation]","SetSensorDeviceMode method [Media Foundation]","IMFSensorDevice interface","mf.imfsensordevice_setsensordevicemode","mfidl/IMFSensorDevice::SetSensorDeviceMode"]
 old-location: mf\imfsensordevice_setsensordevicemode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
 ms.date: 12/05/2018
 ms.keywords: IMFSensorDevice interface [Media Foundation],SetSensorDeviceMode method, IMFSensorDevice.SetSensorDeviceMode, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode

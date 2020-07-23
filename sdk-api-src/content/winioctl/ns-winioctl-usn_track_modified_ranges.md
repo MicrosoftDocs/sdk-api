@@ -4,7 +4,7 @@ title: USN_TRACK_MODIFIED_RANGES
 description: Contains information on range tracking parameters for an update sequence number (USN) change journal using the FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 helpviewer_keywords: ["*PUSN_TRACK_MODIFIED_RANGES","PUSN_TRACK_MODIFIED_RANGES","PUSN_TRACK_MODIFIED_RANGES structure pointer [Files]","USN_TRACK_MODIFIED_RANGES","USN_TRACK_MODIFIED_RANGES structure [Files]","fs.usn_track_modified_ranges","winioctl/PUSN_TRACK_MODIFIED_RANGES","winioctl/USN_TRACK_MODIFIED_RANGES"]
 old-location: fs\usn_track_modified_ranges.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 00254BBD-8F38-46AB-8B0A-3094020A48C5
 ms.date: 12/05/2018
 ms.keywords: '*PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES structure pointer [Files], USN_TRACK_MODIFIED_RANGES, USN_TRACK_MODIFIED_RANGES structure [Files], fs.usn_track_modified_ranges, winioctl/PUSN_TRACK_MODIFIED_RANGES, winioctl/USN_TRACK_MODIFIED_RANGES'

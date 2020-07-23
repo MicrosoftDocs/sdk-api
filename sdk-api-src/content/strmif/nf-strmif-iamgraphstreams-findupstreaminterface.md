@@ -4,7 +4,7 @@ title: IAMGraphStreams::FindUpstreamInterface (strmif.h)
 description: The FindUpstreamInterface method searches the filter graph for a specified interface, upstream from a specified pin.
 helpviewer_keywords: ["FindUpstreamInterface","FindUpstreamInterface method [DirectShow]","FindUpstreamInterface method [DirectShow]","IAMGraphStreams interface","IAMGraphStreams interface [DirectShow]","FindUpstreamInterface method","IAMGraphStreams.FindUpstreamInterface","IAMGraphStreams::FindUpstreamInterface","IAMGraphStreamsFindUpstreamInterface","dshow.iamgraphstreams_findupstreaminterface","strmif/IAMGraphStreams::FindUpstreamInterface"]
 old-location: dshow\iamgraphstreams_findupstreaminterface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 23106ef0-e5ce-47a6-97b0-518bb78ec67c
 ms.date: 12/05/2018
 ms.keywords: FindUpstreamInterface, FindUpstreamInterface method [DirectShow], FindUpstreamInterface method [DirectShow],IAMGraphStreams interface, IAMGraphStreams interface [DirectShow],FindUpstreamInterface method, IAMGraphStreams.FindUpstreamInterface, IAMGraphStreams::FindUpstreamInterface, IAMGraphStreamsFindUpstreamInterface, dshow.iamgraphstreams_findupstreaminterface, strmif/IAMGraphStreams::FindUpstreamInterface

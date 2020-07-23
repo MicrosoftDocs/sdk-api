@@ -4,7 +4,7 @@ title: IMFSampleGrabberSinkCallback (mfidl.h)
 description: Callback interface to get media data from the sample-grabber sink.
 helpviewer_keywords: ["6635823c-f532-4012-ad3c-382491b61671","IMFSampleGrabberSinkCallback","IMFSampleGrabberSinkCallback interface [Media Foundation]","IMFSampleGrabberSinkCallback interface [Media Foundation]","described","mf.imfsamplegrabbersinkcallback","mfidl/IMFSampleGrabberSinkCallback"]
 old-location: mf\imfsamplegrabbersinkcallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6635823c-f532-4012-ad3c-382491b61671
 ms.date: 12/05/2018
 ms.keywords: 6635823c-f532-4012-ad3c-382491b61671, IMFSampleGrabberSinkCallback, IMFSampleGrabberSinkCallback interface [Media Foundation], IMFSampleGrabberSinkCallback interface [Media Foundation],described, mf.imfsamplegrabbersinkcallback, mfidl/IMFSampleGrabberSinkCallback

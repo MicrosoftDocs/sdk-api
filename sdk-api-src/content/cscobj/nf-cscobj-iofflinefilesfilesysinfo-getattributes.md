@@ -4,7 +4,7 @@ title: IOfflineFilesFileSysInfo::GetAttributes (cscobj.h)
 description: Retrieves the Win32 attributes for an item.
 helpviewer_keywords: ["GetAttributes","GetAttributes method [Offline Files]","GetAttributes method [Offline Files]","IOfflineFilesFileSysInfo interface","IOfflineFilesFileSysInfo interface [Offline Files]","GetAttributes method","IOfflineFilesFileSysInfo.GetAttributes","IOfflineFilesFileSysInfo::GetAttributes","cscobj/IOfflineFilesFileSysInfo::GetAttributes","of.iofflinefilesfilesysinfo_getattributes"]
 old-location: of\iofflinefilesfilesysinfo_getattributes.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 5bf8a834-cd5e-46b9-9b7d-b5cc6fb9fe10
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Offline Files], GetAttributes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetAttributes method, IOfflineFilesFileSysInfo.GetAttributes, IOfflineFilesFileSysInfo::GetAttributes, cscobj/IOfflineFilesFileSysInfo::GetAttributes, of.iofflinefilesfilesysinfo_getattributes

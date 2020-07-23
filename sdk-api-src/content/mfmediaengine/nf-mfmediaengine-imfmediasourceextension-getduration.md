@@ -4,7 +4,7 @@ title: IMFMediaSourceExtension::GetDuration (mfmediaengine.h)
 description: Gets the duration of the media source in 100-nanosecond units.
 helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFMediaSourceExtension interface","IMFMediaSourceExtension interface [Media Foundation]","GetDuration method","IMFMediaSourceExtension.GetDuration","IMFMediaSourceExtension::GetDuration","mf.imfmediasourceextension_getduration","mfmediaengine/IMFMediaSourceExtension::GetDuration"]
 old-location: mf\imfmediasourceextension_getduration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d0c644a0-9784-40b0-9d1f-7d9e8334d705
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetDuration method, IMFMediaSourceExtension.GetDuration, IMFMediaSourceExtension::GetDuration, mf.imfmediasourceextension_getduration, mfmediaengine/IMFMediaSourceExtension::GetDuration

@@ -4,7 +4,7 @@ title: ICatalogObject::IsPropertyReadOnly (comadmin.h)
 description: Indicates whether the specified property can be modified using Value.
 helpviewer_keywords: ["ICatalogObject interface [COM+]","IsPropertyReadOnly method","ICatalogObject.IsPropertyReadOnly","ICatalogObject::IsPropertyReadOnly","IsPropertyReadOnly","IsPropertyReadOnly method [COM+]","IsPropertyReadOnly method [COM+]","ICatalogObject interface","_cos_ICatalogObject_IsPropertyReadOnly","comadmin/ICatalogObject::IsPropertyReadOnly","cos.icatalogobject_ispropertyreadonly"]
 old-location: cos\icatalogobject_ispropertyreadonly.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: bd088794-1245-4cb8-a1f7-385354640675
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyReadOnly method, ICatalogObject.IsPropertyReadOnly, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly

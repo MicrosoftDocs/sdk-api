@@ -4,7 +4,7 @@ title: IMFSensorActivityMonitor (mfidl.h)
 description: Provides methods for controlling a sensor activity monitor.
 helpviewer_keywords: ["IMFSensorActivityMonitor","IMFSensorActivityMonitor interface [Media Foundation]","IMFSensorActivityMonitor interface [Media Foundation]","described","mf.imfsensoractivitymonitor","mfidl/IMFSensorActivityMonitor"]
 old-location: mf\imfsensoractivitymonitor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1D0F8C4E-CB64-4787-A25F-8D826356226C
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media Foundation], IMFSensorActivityMonitor interface [Media Foundation],described, mf.imfsensoractivitymonitor, mfidl/IMFSensorActivityMonitor

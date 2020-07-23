@@ -4,7 +4,7 @@ title: MFCreateASFContentInfo function (wmcontainer.h)
 description: Creates the ASF Header Object object.
 helpviewer_keywords: ["00460f79-7033-4893-88c0-b1c939441f70","MFCreateASFContentInfo","MFCreateASFContentInfo function [Media Foundation]","mf.mfcreateasfcontentinfo","wmcontainer/MFCreateASFContentInfo"]
 old-location: mf\mfcreateasfcontentinfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 00460f79-7033-4893-88c0-b1c939441f70
 ms.date: 12/05/2018
 ms.keywords: 00460f79-7033-4893-88c0-b1c939441f70, MFCreateASFContentInfo, MFCreateASFContentInfo function [Media Foundation], mf.mfcreateasfcontentinfo, wmcontainer/MFCreateASFContentInfo

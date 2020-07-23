@@ -4,7 +4,7 @@ title: IMediaFilter::GetSyncSource (strmif.h)
 description: The GetSyncSource method retrieves the current reference clock.
 helpviewer_keywords: ["GetSyncSource","GetSyncSource method [DirectShow]","GetSyncSource method [DirectShow]","IMediaFilter interface","IMediaFilter interface [DirectShow]","GetSyncSource method","IMediaFilter.GetSyncSource","IMediaFilter::GetSyncSource","IMediaFilterGetSyncSource","dshow.imediafilter_getsyncsource","strmif/IMediaFilter::GetSyncSource"]
 old-location: dshow\imediafilter_getsyncsource.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5f5eb31c-3a12-45f4-9c95-caafc0267481
 ms.date: 12/05/2018
 ms.keywords: GetSyncSource, GetSyncSource method [DirectShow], GetSyncSource method [DirectShow],IMediaFilter interface, IMediaFilter interface [DirectShow],GetSyncSource method, IMediaFilter.GetSyncSource, IMediaFilter::GetSyncSource, IMediaFilterGetSyncSource, dshow.imediafilter_getsyncsource, strmif/IMediaFilter::GetSyncSource

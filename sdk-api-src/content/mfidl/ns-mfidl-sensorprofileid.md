@@ -4,7 +4,7 @@ title: SENSORPROFILEID (mfidl.h)
 description: Describes a sensor profile ID.
 helpviewer_keywords: ["PSENSORPROFILEID","PSENSORPROFILEID structure pointer [Media Foundation]","SENSORPROFILEID","SENSORPROFILEID structure [Media Foundation]","mf.sensorprofileid","mfidl/PSENSORPROFILEID","mfidl/SENSORPROFILEID"]
 old-location: mf\sensorprofileid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 29BF454E-60DD-4709-A1B2-2A46C3BD3F42
 ms.date: 12/05/2018
 ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundation], SENSORPROFILEID, SENSORPROFILEID structure [Media Foundation], mf.sensorprofileid, mfidl/PSENSORPROFILEID, mfidl/SENSORPROFILEID

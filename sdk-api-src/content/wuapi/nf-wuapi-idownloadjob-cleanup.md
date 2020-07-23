@@ -4,7 +4,7 @@ title: IDownloadJob::CleanUp (wuapi.h)
 description: Waits for an asynchronous operation to be completed and releases all callbacks.
 helpviewer_keywords: ["CleanUp","CleanUp method [Windows Update Agent]","CleanUp method [Windows Update Agent]","IDownloadJob interface","IDownloadJob interface [Windows Update Agent]","CleanUp method","IDownloadJob.CleanUp","IDownloadJob::CleanUp","wua.idownloadjob_cleanup","wuapi/IDownloadJob::CleanUp"]
 old-location: wua\idownloadjob_cleanup.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 0910acbc-81d7-44ae-bae1-26c82b33d29b
 ms.date: 12/05/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],IDownloadJob interface, IDownloadJob interface [Windows Update Agent],CleanUp method, IDownloadJob.CleanUp, IDownloadJob::CleanUp, wua.idownloadjob_cleanup, wuapi/IDownloadJob::CleanUp

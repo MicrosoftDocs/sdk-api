@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_Type (azroles.h)
 description: Sets or retrieves the group type of the application group.
 helpviewer_keywords: ["AZ_GROUPTYPE_BASIC","AZ_GROUPTYPE_LDAP_QUERY","AzApplicationGroup object [Security]","Type property","IAzApplicationGroup interface [Security]","Type property","IAzApplicationGroup.Type","IAzApplicationGroup.get_Type","IAzApplicationGroup::Type","IAzApplicationGroup::get_Type","IAzApplicationGroup::put_Type","Type property [Security]","Type property [Security]","AzApplicationGroup object","Type property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::Type","azroles/IAzApplicationGroup::get_Type","azroles/IAzApplicationGroup::put_Type","get_Type","security.iazapplicationgroup_type"]
 old-location: security\iazapplicationgroup_type.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: dc100895-4cfb-4e02-97bc-5c99bf26fbe2
 ms.date: 12/05/2018
 ms.keywords: AZ_GROUPTYPE_BASIC, AZ_GROUPTYPE_LDAP_QUERY, AzApplicationGroup object [Security],Type property, IAzApplicationGroup interface [Security],Type property, IAzApplicationGroup.Type, IAzApplicationGroup.get_Type, IAzApplicationGroup::Type, IAzApplicationGroup::get_Type, IAzApplicationGroup::put_Type, Type property [Security], Type property [Security],AzApplicationGroup object, Type property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Type, azroles/IAzApplicationGroup::get_Type, azroles/IAzApplicationGroup::put_Type, get_Type, security.iazapplicationgroup_type

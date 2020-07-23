@@ -2,6 +2,7 @@
 UID: NF:gdiplusgraphics.Graphics.DrawString(INconstWCHAR,ININT,INconstFont,INconstRectF&,INconstStringFormat,INconstBrush)
 title: Graphics::DrawString
 description: The Graphics::DrawString method draws a string based on a font, a layout rectangle, and a format.
+tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawString"]
 ms.assetid: ef1d9dc7-132f-4e0b-aba8-bc5a0c5d5d84
 ms.date: 05/13/2019

@@ -4,7 +4,7 @@ title: RecycleSurrogate function (comsvcs.h)
 description: Recycles the calling process.
 helpviewer_keywords: ["CRR_ACTIVATION_LIMIT","CRR_CALL_LIMIT","CRR_LIFETIME_LIMIT","CRR_MEMORY_LIMIT","CRR_NO_REASON_SUPPLIED","CRR_RECYCLED_FROM_UI","RecycleSurrogate","RecycleSurrogate function [COM+]","_cos_recyclesurrogate","comsvcs/RecycleSurrogate","cos.recyclesurrogate"]
 old-location: cos\recyclesurrogate.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d75f5894-f711-48f8-a6f5-be7ac594dc42
 ms.date: 12/05/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, RecycleSurrogate, RecycleSurrogate function [COM+], _cos_recyclesurrogate, comsvcs/RecycleSurrogate, cos.recyclesurrogate

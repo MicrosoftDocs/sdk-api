@@ -4,7 +4,7 @@ title: IMFSourceBufferNotify::OnAbort (mfmediaengine.h)
 description: Used to indicate that the source buffer has been aborted.
 helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnAbort method","IMFSourceBufferNotify.OnAbort","IMFSourceBufferNotify::OnAbort","OnAbort","OnAbort method [Media Foundation]","OnAbort method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onabort","mfmediaengine/IMFSourceBufferNotify::OnAbort"]
 old-location: mf\imfsourcebuffernotify_onabort.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 65d8bbb3-e683-4a9d-acb2-023932d3e44d
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnAbort method, IMFSourceBufferNotify.OnAbort, IMFSourceBufferNotify::OnAbort, OnAbort, OnAbort method [Media Foundation], OnAbort method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onabort, mfmediaengine/IMFSourceBufferNotify::OnAbort

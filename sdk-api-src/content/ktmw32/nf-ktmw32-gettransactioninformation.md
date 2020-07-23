@@ -4,7 +4,7 @@ title: GetTransactionInformation function (ktmw32.h)
 description: Returns the requested information about the specified transaction.
 helpviewer_keywords: ["GetTransactionInformation","GetTransactionInformation function [Files]","fs.gettransactioninformation_func","ktmw32/GetTransactionInformation"]
 old-location: fs\gettransactioninformation_func.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 5ce3c96a-629e-49d0-8ec4-f9bf76af99ac
 ms.date: 12/05/2018
 ms.keywords: GetTransactionInformation, GetTransactionInformation function [Files], fs.gettransactioninformation_func, ktmw32/GetTransactionInformation

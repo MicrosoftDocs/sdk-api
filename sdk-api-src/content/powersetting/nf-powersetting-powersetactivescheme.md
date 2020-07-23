@@ -4,7 +4,7 @@ title: PowerSetActiveScheme function (powersetting.h)
 description: Sets the active power scheme for the current user.
 helpviewer_keywords: ["PowerSetActiveScheme","PowerSetActiveScheme function","base.powersetactivescheme","powersetting/PowerSetActiveScheme","powrprof/PowerSetActiveScheme"]
 old-location: base\powersetactivescheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: e56bc3f4-2141-4be7-8479-12f8d59971af
 ms.date: 12/05/2018
 ms.keywords: PowerSetActiveScheme, PowerSetActiveScheme function, base.powersetactivescheme, powersetting/PowerSetActiveScheme, powrprof/PowerSetActiveScheme

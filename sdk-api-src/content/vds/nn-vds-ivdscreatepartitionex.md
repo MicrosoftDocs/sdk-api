@@ -4,7 +4,7 @@ title: IVdsCreatePartitionEx (vds.h)
 description: Creates a partition on a basic disk.
 helpviewer_keywords: ["IVdsCreatePartitionEx","IVdsCreatePartitionEx interface [VDS]","IVdsCreatePartitionEx interface [VDS]","described","base.ivdscreatepartitionex","vds/IVdsCreatePartitionEx"]
 old-location: base\ivdscreatepartitionex.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: aae89a86-35b2-45ab-83f5-9461960876c4
 ms.date: 12/05/2018
 ms.keywords: IVdsCreatePartitionEx, IVdsCreatePartitionEx interface [VDS], IVdsCreatePartitionEx interface [VDS],described, base.ivdscreatepartitionex, vds/IVdsCreatePartitionEx

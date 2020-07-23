@@ -4,7 +4,7 @@ title: MF_OBJECT_TYPE (mfidl.h)
 description: Defines the object types that are created by the source resolver.
 helpviewer_keywords: ["MF_OBJECT_BYTESTREAM","MF_OBJECT_INVALID","MF_OBJECT_MEDIASOURCE","MF_OBJECT_TYPE","MF_OBJECT_TYPE enumeration [Media Foundation]","e919ae78-e3a5-42c5-b4e0-186e7e4fe54a","mf.mf_object_type","mfidl/MF_OBJECT_BYTESTREAM","mfidl/MF_OBJECT_INVALID","mfidl/MF_OBJECT_MEDIASOURCE","mfidl/MF_OBJECT_TYPE"]
 old-location: mf\mf_object_type.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e919ae78-e3a5-42c5-b4e0-186e7e4fe54a
 ms.date: 12/05/2018
 ms.keywords: MF_OBJECT_BYTESTREAM, MF_OBJECT_INVALID, MF_OBJECT_MEDIASOURCE, MF_OBJECT_TYPE, MF_OBJECT_TYPE enumeration [Media Foundation], e919ae78-e3a5-42c5-b4e0-186e7e4fe54a, mf.mf_object_type, mfidl/MF_OBJECT_BYTESTREAM, mfidl/MF_OBJECT_INVALID, mfidl/MF_OBJECT_MEDIASOURCE, mfidl/MF_OBJECT_TYPE

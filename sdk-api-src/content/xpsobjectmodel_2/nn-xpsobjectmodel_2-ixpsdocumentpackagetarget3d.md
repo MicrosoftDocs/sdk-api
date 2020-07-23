@@ -4,7 +4,7 @@ title: IXpsDocumentPackageTarget3D (xpsobjectmodel_2.h)
 description: Provides methods for sending 3D content to XPS for printing.
 helpviewer_keywords: ["IXpsDocumentPackageTarget3D","IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging]","IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging]","described","xps.ixpsdocumentpackagetarget3d","xpsobjectmodel_2/IXpsDocumentPackageTarget3D"]
 old-location: xps\ixpsdocumentpackagetarget3d.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7273235D-EB74-4FB2-B471-FCFF71741BF6
 ms.date: 12/05/2018
 ms.keywords: IXpsDocumentPackageTarget3D, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging], IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D

@@ -4,7 +4,7 @@ title: IEnumWbemClassObject::Reset (wbemcli.h)
 description: The IEnumWbemClassObject::Reset method resets an enumeration sequence back to the beginning. Because CIM objects are dynamic, calling this method does not necessarily return the same list of objects that you obtained previously.
 helpviewer_keywords: ["IEnumWbemClassObject interface [Windows Management Instrumentation]","Reset method","IEnumWbemClassObject.Reset","IEnumWbemClassObject::Reset","Reset","Reset method [Windows Management Instrumentation]","Reset method [Windows Management Instrumentation]","IEnumWbemClassObject interface","_hmm_ienumwbemclassobject_reset","wbemcli/IEnumWbemClassObject::Reset","wmi.ienumwbemclassobject_reset"]
 old-location: wmi\ienumwbemclassobject_reset.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 571b7067-676f-4e9e-9694-268ec10dc60b
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Reset method, IEnumWbemClassObject.Reset, IEnumWbemClassObject::Reset, Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset

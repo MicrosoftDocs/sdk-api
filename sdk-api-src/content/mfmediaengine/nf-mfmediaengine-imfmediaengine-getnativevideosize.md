@@ -4,7 +4,7 @@ title: IMFMediaEngine::GetNativeVideoSize (mfmediaengine.h)
 description: Gets the size of the video frame, adjusted for aspect ratio.
 helpviewer_keywords: ["GetNativeVideoSize","GetNativeVideoSize method [Media Foundation]","GetNativeVideoSize method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetNativeVideoSize method","IMFMediaEngine.GetNativeVideoSize","IMFMediaEngine::GetNativeVideoSize","mf.imfmediaengine_getnativevideosize","mfmediaengine/IMFMediaEngine::GetNativeVideoSize"]
 old-location: mf\imfmediaengine_getnativevideosize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 843F09F7-2E8B-4DF7-AF0C-136BB8626779
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNativeVideoSize method, IMFMediaEngine.GetNativeVideoSize, IMFMediaEngine::GetNativeVideoSize, mf.imfmediaengine_getnativevideosize, mfmediaengine/IMFMediaEngine::GetNativeVideoSize

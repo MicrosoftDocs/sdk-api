@@ -4,7 +4,7 @@ title: GetComputerNameExA function (sysinfoapi.h)
 description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 helpviewer_keywords: ["ComputerNameDnsDomain","ComputerNameDnsFullyQualified","ComputerNameDnsHostname","ComputerNameNetBIOS","ComputerNamePhysicalDnsDomain","ComputerNamePhysicalDnsFullyQualified","ComputerNamePhysicalDnsHostname","ComputerNamePhysicalNetBIOS","GetComputerNameEx","GetComputerNameEx function","GetComputerNameExA","GetComputerNameExW","_win32_getcomputernameex","base.getcomputernameex","sysinfoapi/GetComputerNameEx","sysinfoapi/GetComputerNameExA","sysinfoapi/GetComputerNameExW"]
 old-location: base\getcomputernameex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.date: 12/05/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW

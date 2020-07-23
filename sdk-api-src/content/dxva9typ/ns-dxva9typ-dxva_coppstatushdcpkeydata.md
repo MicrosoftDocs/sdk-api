@@ -4,7 +4,7 @@ title: DXVA_COPPStatusHDCPKeyData (dxva9typ.h)
 description: Contains the result from an HDCP Key Data query in Certified Output Protection Protocol (COPP). This query returns the device's HDCP key selection vector (KSV).
 helpviewer_keywords: ["DXVA_COPPStatusHDCPKeyData","DXVA_COPPStatusHDCPKeyData structure [DirectShow]","DXVA_COPPStatusHDCPKeyDataStructure","_DXVA_COPPStatusHDCPKeyData","dshow.dxva_coppstatushdcpkeydata","dxva9typ/DXVA_COPPStatusHDCPKeyData"]
 old-location: dshow\dxva_coppstatushdcpkeydata.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fd49c50d-6caa-4d2a-83c6-41ff0130160f
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [DirectShow], DXVA_COPPStatusHDCPKeyDataStructure, _DXVA_COPPStatusHDCPKeyData, dshow.dxva_coppstatushdcpkeydata, dxva9typ/DXVA_COPPStatusHDCPKeyData

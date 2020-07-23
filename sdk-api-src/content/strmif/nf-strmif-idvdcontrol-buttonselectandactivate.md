@@ -4,7 +4,7 @@ title: IDvdControl::ButtonSelectAndActivate (strmif.h)
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects and activates the specified button.
 helpviewer_keywords: ["ButtonSelectAndActivate","ButtonSelectAndActivate method [DirectShow]","ButtonSelectAndActivate method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","ButtonSelectAndActivate method","IDvdControl.ButtonSelectAndActivate","IDvdControl::ButtonSelectAndActivate","IDvdControlButtonSelectAndActivate","dshow.idvdcontrol_buttonselectandactivate","strmif/IDvdControl::ButtonSelectAndActivate"]
 old-location: dshow\idvdcontrol_buttonselectandactivate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 15ed6a4e-d798-49c9-bff3-c77207658d31
 ms.date: 12/05/2018
 ms.keywords: ButtonSelectAndActivate, ButtonSelectAndActivate method [DirectShow], ButtonSelectAndActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonSelectAndActivate method, IDvdControl.ButtonSelectAndActivate, IDvdControl::ButtonSelectAndActivate, IDvdControlButtonSelectAndActivate, dshow.idvdcontrol_buttonselectandactivate, strmif/IDvdControl::ButtonSelectAndActivate

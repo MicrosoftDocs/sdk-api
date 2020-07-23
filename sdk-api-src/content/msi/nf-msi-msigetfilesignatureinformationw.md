@@ -4,7 +4,7 @@ title: MsiGetFileSignatureInformationW function (msi.h)
 description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash.
 helpviewer_keywords: ["MSI_INVALID_HASH_IS_FATAL","MsiGetFileSignatureInformation","MsiGetFileSignatureInformation function","MsiGetFileSignatureInformationA","MsiGetFileSignatureInformationW","_msi_msigetfilesignatureinformation","msi/MsiGetFileSignatureInformation","msi/MsiGetFileSignatureInformationA","msi/MsiGetFileSignatureInformationW","setup.msigetfilesignatureinformation"]
 old-location: setup\msigetfilesignatureinformation.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a3f8b8ef-2d2e-4375-a2bb-08a53a94fb16
 ms.date: 12/05/2018
 ms.keywords: MSI_INVALID_HASH_IS_FATAL, MsiGetFileSignatureInformation, MsiGetFileSignatureInformation function, MsiGetFileSignatureInformationA, MsiGetFileSignatureInformationW, _msi_msigetfilesignatureinformation, msi/MsiGetFileSignatureInformation, msi/MsiGetFileSignatureInformationA, msi/MsiGetFileSignatureInformationW, setup.msigetfilesignatureinformation

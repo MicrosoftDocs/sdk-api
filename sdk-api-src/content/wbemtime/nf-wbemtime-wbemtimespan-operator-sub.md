@@ -4,7 +4,7 @@ title: WBEMTimeSpan::operator-sub (wbemtime.h)
 description: The WBEMTimeSpan class subtract operator (–) subtracts a time span from the object on which the method is executed.
 helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator- method","WBEMTimeSpan.operator-","WBEMTimeSpan.operator-sub","WBEMTimeSpan::operator-","WBEMTimeSpan::operator-sub","_hmm_wbemtimespan_operator_minus","operator-","operator- method [Windows Management Instrumentation]","operator- method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator-","wmi.wbemtimespan_operator_minus"]
 old-location: wmi\wbemtimespan_operator_minus.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 643e3353-c770-46e6-aa59-b6df43097988
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator- method, WBEMTimeSpan.operator-, WBEMTimeSpan.operator-sub, WBEMTimeSpan::operator-, WBEMTimeSpan::operator-sub, _hmm_wbemtimespan_operator_minus, operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-, wmi.wbemtimespan_operator_minus

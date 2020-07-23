@@ -4,7 +4,7 @@ title: SERVICE_DELAYED_AUTO_START_INFO (winsvc.h)
 description: Contains the delayed auto-start setting of an auto-start service.
 helpviewer_keywords: ["*LPSERVICE_DELAYED_AUTO_START_INFO","LPSERVICE_DELAYED_AUTO_START_INFO","LPSERVICE_DELAYED_AUTO_START_INFO structure pointer","SERVICE_DELAYED_AUTO_START_INFO","SERVICE_DELAYED_AUTO_START_INFO structure","base.service_delayed_auto_start_info","winsvc/LPSERVICE_DELAYED_AUTO_START_INFO","winsvc/SERVICE_DELAYED_AUTO_START_INFO"]
 old-location: base\service_delayed_auto_start_info.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 16117450-eb73-47de-8be7-c7aff3d44c81
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_DELAYED_AUTO_START_INFO, LPSERVICE_DELAYED_AUTO_START_INFO, LPSERVICE_DELAYED_AUTO_START_INFO structure pointer, SERVICE_DELAYED_AUTO_START_INFO, SERVICE_DELAYED_AUTO_START_INFO structure, base.service_delayed_auto_start_info, winsvc/LPSERVICE_DELAYED_AUTO_START_INFO, winsvc/SERVICE_DELAYED_AUTO_START_INFO'

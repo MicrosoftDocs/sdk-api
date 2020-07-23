@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_Writable (azroles.h)
 description: Retrieves a value that indicates whether the object can be modified by the user context that called the Initialize method.
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","Writable property","IAzAuthorizationStore interface [Security]","Writable property","IAzAuthorizationStore.Writable","IAzAuthorizationStore.get_Writable","IAzAuthorizationStore::Writable","IAzAuthorizationStore::get_Writable","Writable property [Security]","Writable property [Security]","AzAuthorizationStore object","Writable property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::Writable","azroles/IAzAuthorizationStore::get_Writable","get_Writable","security.azauthorizationstore_writable"]
 old-location: security\azauthorizationstore_writable.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 0c896364-739a-456a-97f7-0448711462b3
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],Writable property, IAzAuthorizationStore interface [Security],Writable property, IAzAuthorizationStore.Writable, IAzAuthorizationStore.get_Writable, IAzAuthorizationStore::Writable, IAzAuthorizationStore::get_Writable, Writable property [Security], Writable property [Security],AzAuthorizationStore object, Writable property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Writable, azroles/IAzAuthorizationStore::get_Writable, get_Writable, security.azauthorizationstore_writable

@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve(INconstPointF,ININT)
 title: GraphicsPath::AddClosedCurve
 description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
+tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddClosedCurve"]
 ms.assetid: cd2aaebd-da69-4664-ae8b-c559bb510913
 ms.date: 05/13/2019

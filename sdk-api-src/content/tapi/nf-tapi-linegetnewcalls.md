@@ -4,7 +4,7 @@ title: lineGetNewCalls function (tapi.h)
 description: The lineGetNewCalls function returns call handles to calls on a specified line or address for which the application currently does not have handles. The application is granted monitor privilege to these calls.
 helpviewer_keywords: ["_tapi2_linegetnewcalls","lineGetNewCalls","lineGetNewCalls function [TAPI 2.2]","tapi/lineGetNewCalls","tapi2.linegetnewcalls"]
 old-location: tapi2\linegetnewcalls.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 179af1a1-078f-401c-8c15-12fc8ca06e3c
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls

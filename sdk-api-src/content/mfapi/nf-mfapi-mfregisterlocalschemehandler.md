@@ -4,7 +4,7 @@ title: MFRegisterLocalSchemeHandler function (mfapi.h)
 description: Registers a scheme handler in the caller's process.
 helpviewer_keywords: ["MFRegisterLocalSchemeHandler","MFRegisterLocalSchemeHandler function [Media Foundation]","mf.mfregisterlocalschemehandler","mfapi/MFRegisterLocalSchemeHandler"]
 old-location: mf\mfregisterlocalschemehandler.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler

@@ -4,7 +4,7 @@ title: ILocation::SetReportInterval (locationapi.h)
 description: Specifies the requested minimum amount of time, in milliseconds, between report events.
 helpviewer_keywords: ["ILocation interface [WinLocation]","SetReportInterval method","ILocation.SetReportInterval","ILocation::SetReportInterval","SetReportInterval","SetReportInterval method [WinLocation]","SetReportInterval method [WinLocation]","ILocation interface","WinLocation_COM_Ref.ilocation_setreportinterval","locationapi/ILocation::SetReportInterval"]
 old-location: winlocation_com_ref\ilocation_setreportinterval.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 4b48f64d-47e8-41cc-a7a1-970654896e7e
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],SetReportInterval method, ILocation.SetReportInterval, ILocation::SetReportInterval, SetReportInterval, SetReportInterval method [WinLocation], SetReportInterval method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_setreportinterval, locationapi/ILocation::SetReportInterval

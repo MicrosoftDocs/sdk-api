@@ -4,7 +4,7 @@ title: IMessageMover::get_CommitBatchSize (comsvcs.h)
 description: Retrieves the commit batch size.
 helpviewer_keywords: ["IMessageMover interface [COM+]","get_CommitBatchSize method","IMessageMover.get_CommitBatchSize","IMessageMover::get_CommitBatchSize","comsvcs/IMessageMover::get_CommitBatchSize","cos.imessagemover_get_commitbatchsize","get_CommitBatchSize","get_CommitBatchSize method [COM+]","get_CommitBatchSize method [COM+]","IMessageMover interface"]
 old-location: cos\imessagemover_get_commitbatchsize.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],get_CommitBatchSize method, IMessageMover.get_CommitBatchSize, IMessageMover::get_CommitBatchSize, comsvcs/IMessageMover::get_CommitBatchSize, cos.imessagemover_get_commitbatchsize, get_CommitBatchSize, get_CommitBatchSize method [COM+], get_CommitBatchSize method [COM+],IMessageMover interface

@@ -4,7 +4,7 @@ title: IMFSourceBufferNotify::OnUpdateStart (mfmediaengine.h)
 description: Used to indicate that the source buffer has started updating.
 helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnUpdateStart method","IMFSourceBufferNotify.OnUpdateStart","IMFSourceBufferNotify::OnUpdateStart","OnUpdateStart","OnUpdateStart method [Media Foundation]","OnUpdateStart method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onupdatestart","mfmediaengine/IMFSourceBufferNotify::OnUpdateStart"]
 old-location: mf\imfsourcebuffernotify_onupdatestart.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 513ef55d-756e-4ae3-b312-6a4178bc2f42
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateStart method, IMFSourceBufferNotify.OnUpdateStart, IMFSourceBufferNotify::OnUpdateStart, OnUpdateStart, OnUpdateStart method [Media Foundation], OnUpdateStart method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdatestart, mfmediaengine/IMFSourceBufferNotify::OnUpdateStart

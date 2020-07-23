@@ -4,7 +4,7 @@ title: IWSCProductList::Initialize (iwscapi.h)
 description: Gathers information on all of the providers of the specified type on the computer.
 helpviewer_keywords: ["IWSCProductList interface [Windows API]","Initialize method","IWSCProductList.Initialize","IWSCProductList::Initialize","Initialize","Initialize method [Windows API]","Initialize method [Windows API]","IWSCProductList interface","WSC_SECURITY_PROVIDER_ANTISPYWARE","WSC_SECURITY_PROVIDER_ANTIVIRUS","WSC_SECURITY_PROVIDER_FIREWALL","iwscapi/IWSCProductList::Initialize","winprog.iwscproductlist_initialize"]
 old-location: winprog\iwscproductlist_initialize.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 0D003510-BCFE-45E9-A34E-58036C382157
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],Initialize method, IWSCProductList.Initialize, IWSCProductList::Initialize, Initialize, Initialize method [Windows API], Initialize method [Windows API],IWSCProductList interface, WSC_SECURITY_PROVIDER_ANTISPYWARE, WSC_SECURITY_PROVIDER_ANTIVIRUS, WSC_SECURITY_PROVIDER_FIREWALL, iwscapi/IWSCProductList::Initialize, winprog.iwscproductlist_initialize

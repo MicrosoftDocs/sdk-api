@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection::get_Count (casetup.h)
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","ICertSrvSetupKeyInformationCollection interface","ICertSrvSetupKeyInformationCollection interface [Security]","Count property","ICertSrvSetupKeyInformationCollection.Count","ICertSrvSetupKeyInformationCollection.get_Count","ICertSrvSetupKeyInformationCollection::Count","ICertSrvSetupKeyInformationCollection::get_Count","casetup/ICertSrvSetupKeyInformationCollection::Count","casetup/ICertSrvSetupKeyInformationCollection::get_Count","get_Count","security.icertsrvsetupkeyinformationcollection_count"]
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 58412a07-7e97-4379-b052-fb7458400be9
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Count property, ICertSrvSetupKeyInformationCollection.Count, ICertSrvSetupKeyInformationCollection.get_Count, ICertSrvSetupKeyInformationCollection::Count, ICertSrvSetupKeyInformationCollection::get_Count, casetup/ICertSrvSetupKeyInformationCollection::Count, casetup/ICertSrvSetupKeyInformationCollection::get_Count, get_Count, security.icertsrvsetupkeyinformationcollection_count

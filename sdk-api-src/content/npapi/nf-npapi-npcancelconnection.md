@@ -4,7 +4,7 @@ title: NPCancelConnection function (npapi.h)
 description: Disconnects a network connection.
 helpviewer_keywords: ["NPCancelConnection","NPCancelConnection function [Security]","_mnp_npcancelconnection","npapi/NPCancelConnection","security.npcancelconnection"]
 old-location: security\npcancelconnection.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.date: 12/05/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection

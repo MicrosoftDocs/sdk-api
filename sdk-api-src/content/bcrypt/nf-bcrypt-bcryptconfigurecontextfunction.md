@@ -4,7 +4,7 @@ title: BCryptConfigureContextFunction function (bcrypt.h)
 description: Sets the configuration information for the cryptographic function of an existing CNG context.
 helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptConfigureContextFunction","BCryptConfigureContextFunction function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","NCRYPT_SCHANNEL_SIGNATURE_INTERFACE","bcrypt/BCryptConfigureContextFunction","security.bcryptconfigurecontextfunction"]
 old-location: security\bcryptconfigurecontextfunction.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: e93c5e3e-3c63-49a3-8c8c-6510e10611ea
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptConfigureContextFunction, BCryptConfigureContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptConfigureContextFunction, security.bcryptconfigurecontextfunction

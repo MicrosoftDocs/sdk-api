@@ -4,7 +4,7 @@ title: ResetInteractionContext function (interactioncontext.h)
 description: Resets the interaction state, interaction configuration settings, and all parameters to their initial state. Current interactions are cancelled without notifications. Interaction Context must be reconfigured before next use.
 helpviewer_keywords: ["ResetInteractionContext","ResetInteractionContext function","input_intcontext.resetinteractioncontext","interactioncontext.resetinteractioncontext","interactioncontext/ResetInteractionContext"]
 old-location: input_intcontext\resetinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
 ms.date: 12/05/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext

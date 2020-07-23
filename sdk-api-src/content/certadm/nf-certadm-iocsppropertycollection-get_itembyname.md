@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::get_ItemByName (certadm.h)
 description: Gets the property identified by name in a property set.
 helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","ItemByName property","IOCSPPropertyCollection.ItemByName","IOCSPPropertyCollection.get_ItemByName","IOCSPPropertyCollection::ItemByName","IOCSPPropertyCollection::get_ItemByName","ItemByName property [Security]","ItemByName property [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::ItemByName","certadm/IOCSPPropertyCollection::get_ItemByName","get_ItemByName","security.iocsppropertycollection_itembyname_method"]
 old-location: security\iocsppropertycollection_itembyname_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0f7fe732-1d76-49c0-8b1e-a9950c85ca59
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],ItemByName property, IOCSPPropertyCollection.ItemByName, IOCSPPropertyCollection.get_ItemByName, IOCSPPropertyCollection::ItemByName, IOCSPPropertyCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::ItemByName, certadm/IOCSPPropertyCollection::get_ItemByName, get_ItemByName, security.iocsppropertycollection_itembyname_method

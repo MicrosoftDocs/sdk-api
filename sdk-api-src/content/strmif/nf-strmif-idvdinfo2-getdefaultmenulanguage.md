@@ -4,7 +4,7 @@ title: IDvdInfo2::GetDefaultMenuLanguage (strmif.h)
 description: The GetDefaultMenuLanguage method retrieves the default menu language.
 helpviewer_keywords: ["GetDefaultMenuLanguage","GetDefaultMenuLanguage method [DirectShow]","GetDefaultMenuLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDefaultMenuLanguage method","IDvdInfo2.GetDefaultMenuLanguage","IDvdInfo2::GetDefaultMenuLanguage","IDvdInfo2GetDefaultMenuLanguage","dshow.idvdinfo2_getdefaultmenulanguage","strmif/IDvdInfo2::GetDefaultMenuLanguage"]
 old-location: dshow\idvdinfo2_getdefaultmenulanguage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f2ad5bec-fc8c-4fcf-8657-aa1726c28cdc
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMenuLanguage, GetDefaultMenuLanguage method [DirectShow], GetDefaultMenuLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultMenuLanguage method, IDvdInfo2.GetDefaultMenuLanguage, IDvdInfo2::GetDefaultMenuLanguage, IDvdInfo2GetDefaultMenuLanguage, dshow.idvdinfo2_getdefaultmenulanguage, strmif/IDvdInfo2::GetDefaultMenuLanguage

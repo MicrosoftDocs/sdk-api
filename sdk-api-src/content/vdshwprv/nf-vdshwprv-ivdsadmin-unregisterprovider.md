@@ -4,7 +4,7 @@ title: IVdsAdmin::UnregisterProvider (vdshwprv.h)
 description: Removes VDS provider registration data. Hardware providers call this method.
 helpviewer_keywords: ["IVdsAdmin interface [VDS]","UnregisterProvider method","IVdsAdmin.UnregisterProvider","IVdsAdmin::UnregisterProvider","UnregisterProvider","UnregisterProvider method [VDS]","UnregisterProvider method [VDS]","IVdsAdmin interface","base.ivdsadmin_unregisterprovider","vdshwprv/IVdsAdmin::UnregisterProvider"]
 old-location: base\ivdsadmin_unregisterprovider.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: da78b4ed-17e3-4953-9e5e-310e55349058
 ms.date: 12/05/2018
 ms.keywords: IVdsAdmin interface [VDS],UnregisterProvider method, IVdsAdmin.UnregisterProvider, IVdsAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VDS], UnregisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_unregisterprovider, vdshwprv/IVdsAdmin::UnregisterProvider

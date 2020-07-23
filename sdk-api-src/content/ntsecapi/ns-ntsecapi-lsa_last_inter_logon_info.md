@@ -4,7 +4,7 @@ title: LSA_LAST_INTER_LOGON_INFO (ntsecapi.h)
 description: Contains information about a logon session.
 helpviewer_keywords: ["*PLSA_LAST_INTER_LOGON_INFO","LSA_LAST_INTER_LOGON_INFO","LSA_LAST_INTER_LOGON_INFO structure [Security]","PLSA_LAST_INTER_LOGON_INFO","PLSA_LAST_INTER_LOGON_INFO structure pointer [Security]","_LSA_LAST_INTER_LOGON_INFO","ntsecapi/LSA_LAST_INTER_LOGON_INFO","ntsecapi/PLSA_LAST_INTER_LOGON_INFO","security.lsa_last_inter_logon_info"]
 old-location: security\lsa_last_inter_logon_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: FB935FED-571F-4298-8F83-0F805408179D
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO structure [Security], PLSA_LAST_INTER_LOGON_INFO, PLSA_LAST_INTER_LOGON_INFO structure pointer [Security], _LSA_LAST_INTER_LOGON_INFO, ntsecapi/LSA_LAST_INTER_LOGON_INFO, ntsecapi/PLSA_LAST_INTER_LOGON_INFO, security.lsa_last_inter_logon_info'

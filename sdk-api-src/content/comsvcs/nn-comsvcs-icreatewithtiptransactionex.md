@@ -4,7 +4,7 @@ title: ICreateWithTipTransactionEx (comsvcs.h)
 description: Creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
 helpviewer_keywords: ["ICreateWithTipTransactionEx","ICreateWithTipTransactionEx interface [COM+]","ICreateWithTipTransactionEx interface [COM+]","described","_dtc_ICreateWithTipTransactionEx_Interface","comsvcs/ICreateWithTipTransactionEx","cos.icreatewithtiptransactionex"]
 old-location: cos\icreatewithtiptransactionex.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 09927c61-ce64-4d8a-a5b3-542748bfd256
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTipTransactionEx, ICreateWithTipTransactionEx interface [COM+], ICreateWithTipTransactionEx interface [COM+],described, _dtc_ICreateWithTipTransactionEx_Interface, comsvcs/ICreateWithTipTransactionEx, cos.icreatewithtiptransactionex

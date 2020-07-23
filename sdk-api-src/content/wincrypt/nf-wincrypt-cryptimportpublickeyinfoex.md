@@ -4,7 +4,7 @@ title: CryptImportPublicKeyInfoEx function (wincrypt.h)
 description: Important  This API is deprecated.
 helpviewer_keywords: ["CryptImportPublicKeyInfoEx","CryptImportPublicKeyInfoEx function [Security]","_crypto2_cryptimportpublickeyinfoex","security.cryptimportpublickeyinfoex","wincrypt/CryptImportPublicKeyInfoEx"]
 old-location: security\cryptimportpublickeyinfoex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d3a59f83-c761-46bb-ac4f-f42f689ea5f1
 ms.date: 12/05/2018
 ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Security], _crypto2_cryptimportpublickeyinfoex, security.cryptimportpublickeyinfoex, wincrypt/CryptImportPublicKeyInfoEx

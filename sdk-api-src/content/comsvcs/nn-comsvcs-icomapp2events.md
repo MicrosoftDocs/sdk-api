@@ -4,7 +4,7 @@ title: IComApp2Events (comsvcs.h)
 description: Notifies the subscriber if a COM+ server application is loaded, shut down, or paused.
 helpviewer_keywords: ["IComApp2Events","IComApp2Events interface [COM+]","IComApp2Events interface [COM+]","described","_dtc_icomapp2events","comsvcs/IComApp2Events","cos.icomapp2events"]
 old-location: cos\icomapp2events.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 45e0d26b-7485-436b-9b64-fa48217b32d1
 ms.date: 12/05/2018
 ms.keywords: IComApp2Events, IComApp2Events interface [COM+], IComApp2Events interface [COM+],described, _dtc_icomapp2events, comsvcs/IComApp2Events, cos.icomapp2events

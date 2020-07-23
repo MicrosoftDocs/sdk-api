@@ -4,7 +4,7 @@ title: IPrintAsyncNotifyCallback::ChannelClosed (prnasnot.h)
 description: Advises one member of a communication channel to notify the other member that the channel is being closed.
 helpviewer_keywords: ["ChannelClosed","ChannelClosed method [Windows GDI]","ChannelClosed method [Windows GDI]","IPrintAsyncNotifyCallback interface","IPrintAsyncNotifyCallback interface [Windows GDI]","ChannelClosed method","IPrintAsyncNotifyCallback.ChannelClosed","IPrintAsyncNotifyCallback::ChannelClosed","_win32_IPrintAsyncNotifyCallback_ChannelClosed","gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed","prnasnot/IPrintAsyncNotifyCallback::ChannelClosed"]
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 245f4d86-a6b9-421a-add5-fb7afbbacb45
 ms.date: 12/05/2018
 ms.keywords: ChannelClosed, ChannelClosed method [Windows GDI], ChannelClosed method [Windows GDI],IPrintAsyncNotifyCallback interface, IPrintAsyncNotifyCallback interface [Windows GDI],ChannelClosed method, IPrintAsyncNotifyCallback.ChannelClosed, IPrintAsyncNotifyCallback::ChannelClosed, _win32_IPrintAsyncNotifyCallback_ChannelClosed, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed, prnasnot/IPrintAsyncNotifyCallback::ChannelClosed

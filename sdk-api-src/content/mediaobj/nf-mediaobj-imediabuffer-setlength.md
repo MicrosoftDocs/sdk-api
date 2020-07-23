@@ -4,7 +4,7 @@ title: IMediaBuffer::SetLength (mediaobj.h)
 description: The SetLength method specifies the length of the data currently in the buffer.
 helpviewer_keywords: ["IMediaBuffer interface [DirectShow]","SetLength method","IMediaBuffer.SetLength","IMediaBuffer::SetLength","IMediaBufferSetLength","SetLength","SetLength method [DirectShow]","SetLength method [DirectShow]","IMediaBuffer interface","dshow.imediabuffer_setlength","mediaobj/IMediaBuffer::SetLength"]
 old-location: dshow\imediabuffer_setlength.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 06cfbfd3-d196-4adb-a6b3-9b5f88bc03a6
 ms.date: 12/05/2018
 ms.keywords: IMediaBuffer interface [DirectShow],SetLength method, IMediaBuffer.SetLength, IMediaBuffer::SetLength, IMediaBufferSetLength, SetLength, SetLength method [DirectShow], SetLength method [DirectShow],IMediaBuffer interface, dshow.imediabuffer_setlength, mediaobj/IMediaBuffer::SetLength

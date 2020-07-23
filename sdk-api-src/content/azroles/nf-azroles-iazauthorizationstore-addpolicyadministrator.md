@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::AddPolicyAdministrator (azroles.h)
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 helpviewer_keywords: ["AddPolicyAdministrator","AddPolicyAdministrator method [Security]","AddPolicyAdministrator method [Security]","AzAuthorizationStore object","AddPolicyAdministrator method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPolicyAdministrator method","IAzAuthorizationStore interface [Security]","AddPolicyAdministrator method","IAzAuthorizationStore.AddPolicyAdministrator","IAzAuthorizationStore::AddPolicyAdministrator","azroles/IAzAuthorizationStore::AddPolicyAdministrator","security.azauthorizationstore_addpolicyadministrator"]
 old-location: security\azauthorizationstore_addpolicyadministrator.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzAuthorizationStore object, AddPolicyAdministrator method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministrator method, IAzAuthorizationStore interface [Security],AddPolicyAdministrator method, IAzAuthorizationStore.AddPolicyAdministrator, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator

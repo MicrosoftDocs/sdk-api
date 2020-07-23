@@ -4,7 +4,7 @@ title: IMFStreamSink::Flush (mfidl.h)
 description: Causes the stream sink to drop any samples that it has received and has not rendered yet.
 helpviewer_keywords: ["514d29bd-571d-46b1-9948-5d623c6703aa","Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFStreamSink interface","IMFStreamSink interface [Media Foundation]","Flush method","IMFStreamSink.Flush","IMFStreamSink::Flush","mf.imfstreamsink_flush","mfidl/IMFStreamSink::Flush"]
 old-location: mf\imfstreamsink_flush.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 514d29bd-571d-46b1-9948-5d623c6703aa
 ms.date: 12/05/2018
 ms.keywords: 514d29bd-571d-46b1-9948-5d623c6703aa, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],Flush method, IMFStreamSink.Flush, IMFStreamSink::Flush, mf.imfstreamsink_flush, mfidl/IMFStreamSink::Flush

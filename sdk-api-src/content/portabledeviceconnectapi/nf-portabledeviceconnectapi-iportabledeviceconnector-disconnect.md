@@ -4,7 +4,7 @@ title: IPortableDeviceConnector::Disconnect (portabledeviceconnectapi.h)
 description: Sends an asynchronous disconnect request to the MTP/Bluetooth device.
 helpviewer_keywords: ["Disconnect","Disconnect method [Windows Portable Devices SDK]","Disconnect method [Windows Portable Devices SDK]","IPortableDeviceConnector interface","IPortableDeviceConnector interface [Windows Portable Devices SDK]","Disconnect method","IPortableDeviceConnector.Disconnect","IPortableDeviceConnector::Disconnect","devpkey/IPortableDeviceConnector::Disconnect","portabledeviceconnectapi/IPortableDeviceConnector::Disconnect","wpdsdk.iportabledeviceconnector_disconnect"]
 old-location: wpdsdk\iportabledeviceconnector_disconnect.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 0cc104e6-5e3a-4fce-ba3b-68f3fb94196b
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Disconnect method, IPortableDeviceConnector.Disconnect, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect

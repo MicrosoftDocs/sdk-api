@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery (functiondiscoverypro
 description: Determines whether a query is for function instances in a specific subcategory.
 helpviewer_keywords: ["IFunctionDiscoveryProviderQuery interface","IsSubcategoryQuery method","IFunctionDiscoveryProviderQuery.IsSubcategoryQuery","IFunctionDiscoveryProviderQuery::IsSubcategoryQuery","IsSubcategoryQuery","IsSubcategoryQuery method","IsSubcategoryQuery method","IFunctionDiscoveryProviderQuery interface","functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery","ncd.ifunctiondiscoveryproviderquery_issubcategoryquery"]
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery

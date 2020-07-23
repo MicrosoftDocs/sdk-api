@@ -4,7 +4,7 @@ title: OpenEventLogW function (winbase.h)
 description: Opens a handle to the specified event log.
 helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
 old-location: base\openeventlog.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
 ms.date: 12/05/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW

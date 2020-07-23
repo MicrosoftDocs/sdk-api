@@ -5,6 +5,7 @@ ms.date: 11/26/2019
 ms.topic: language-reference
 targetos: Windows
 description: Provides messages, including licenses, to the Content Decryption Module (CDM) session.
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

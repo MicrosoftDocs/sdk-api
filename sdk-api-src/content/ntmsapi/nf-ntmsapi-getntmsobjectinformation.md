@@ -4,7 +4,7 @@ title: GetNtmsObjectInformation function (ntmsapi.h)
 description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
 helpviewer_keywords: ["GetNtmsObjectInformation","GetNtmsObjectInformation function [Files]","GetNtmsObjectInformationA","GetNtmsObjectInformationW","_zaw_getntmsobjectinformation","base.getntmsobjectinformation","fs.getntmsobjectinformation","ntmsapi/GetNtmsObjectInformation","ntmsapi/GetNtmsObjectInformationA","ntmsapi/GetNtmsObjectInformationW"]
 old-location: fs\getntmsobjectinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW

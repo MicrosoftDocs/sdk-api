@@ -4,7 +4,7 @@ title: ICameraUIControl::Close (camerauicontrol.h)
 description: Closes the user interface control.
 helpviewer_keywords: ["Close","Close method [Windows API]","Close method [Windows API]","ICameraUIControl interface","ICameraUIControl interface [Windows API]","Close method","ICameraUIControl.Close","ICameraUIControl::Close","camerauicontrol/ICameraUIControl::Close","winprog.icamerauicontrol_close"]
 old-location: winprog\icamerauicontrol_close.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close

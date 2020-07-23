@@ -4,7 +4,7 @@ title: IAppDomainHelper::Initialize (comsvcs.h)
 description: Binds the calling object to the current application domain and provides a callback function for shutdown that is executed when the application domain is unloaded.
 helpviewer_keywords: ["IAppDomainHelper interface [COM+]","Initialize method","IAppDomainHelper.Initialize","IAppDomainHelper::Initialize","Initialize","Initialize method [COM+]","Initialize method [COM+]","IAppDomainHelper interface","_cos_IAppDomainHelper_Initialize","comsvcs/IAppDomainHelper::Initialize","cos.iappdomainhelper_initialize"]
 old-location: cos\iappdomainhelper_initialize.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c5cdff7f-6fb4-4f49-995a-63e4ecaef71a
 ms.date: 12/05/2018
 ms.keywords: IAppDomainHelper interface [COM+],Initialize method, IAppDomainHelper.Initialize, IAppDomainHelper::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IAppDomainHelper interface, _cos_IAppDomainHelper_Initialize, comsvcs/IAppDomainHelper::Initialize, cos.iappdomainhelper_initialize

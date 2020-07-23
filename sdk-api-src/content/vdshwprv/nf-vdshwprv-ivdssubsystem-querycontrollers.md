@@ -4,7 +4,7 @@ title: IVdsSubSystem::QueryControllers (vdshwprv.h)
 description: Returns an object that enumerates the online and offline controllers managed by the subsystem.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","QueryControllers method","IVdsSubSystem.QueryControllers","IVdsSubSystem::QueryControllers","QueryControllers","QueryControllers method [VDS]","QueryControllers method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_querycontrollers","vds/IVdsSubSystem::QueryControllers","vdshwprv/IVdsSubSystem::QueryControllers"]
 old-location: base\ivdssubsystem_querycontrollers.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 61f32915-c616-477e-b0f0-4a7f92aca0e2
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryControllers method, IVdsSubSystem.QueryControllers, IVdsSubSystem::QueryControllers, QueryControllers, QueryControllers method [VDS], QueryControllers method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querycontrollers, vds/IVdsSubSystem::QueryControllers, vdshwprv/IVdsSubSystem::QueryControllers

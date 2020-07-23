@@ -4,7 +4,7 @@ title: IMFTimedText::AddDataSourceFromUrl (mfmediaengine.h)
 description: Adds a timed-text data source from the specified URL.
 helpviewer_keywords: ["AddDataSourceFromUrl","AddDataSourceFromUrl method [Media Foundation]","AddDataSourceFromUrl method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","AddDataSourceFromUrl method","IMFTimedText.AddDataSourceFromUrl","IMFTimedText::AddDataSourceFromUrl","mf.imftimedtext_adddatasourcefromurl","mfmediaengine/IMFTimedText::AddDataSourceFromUrl"]
 old-location: mf\imftimedtext_adddatasourcefromurl.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5E02BE3F-D0A8-492D-BBB2-F5A95B9C406D
 ms.date: 12/05/2018
 ms.keywords: AddDataSourceFromUrl, AddDataSourceFromUrl method [Media Foundation], AddDataSourceFromUrl method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSourceFromUrl method, IMFTimedText.AddDataSourceFromUrl, IMFTimedText::AddDataSourceFromUrl, mf.imftimedtext_adddatasourcefromurl, mfmediaengine/IMFTimedText::AddDataSourceFromUrl

@@ -4,7 +4,7 @@ title: MsiGetSummaryInformationA function (msiquery.h)
 description: The MsiGetSummaryInformation function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using MsiCloseHandle.
 helpviewer_keywords: ["MsiGetSummaryInformation","MsiGetSummaryInformation function","MsiGetSummaryInformationA","MsiGetSummaryInformationW","_msi_msigetsummaryinformation","msiquery/MsiGetSummaryInformation","msiquery/MsiGetSummaryInformationA","msiquery/MsiGetSummaryInformationW","setup.msigetsummaryinformation"]
 old-location: setup\msigetsummaryinformation.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
 ms.date: 12/05/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation

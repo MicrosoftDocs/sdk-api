@@ -4,7 +4,7 @@ title: CreateTransaction function (ktmw32.h)
 description: Creates a new transaction object.
 helpviewer_keywords: ["CreateTransaction","CreateTransaction function [Files]","TRANSACTION_DO_NOT_PROMOTE","fs.createtransaction","ktmw32/CreateTransaction"]
 old-location: fs\createtransaction.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 578bda35-bd35-4f6d-8366-a4bfb4dbfe42
 ms.date: 12/05/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction

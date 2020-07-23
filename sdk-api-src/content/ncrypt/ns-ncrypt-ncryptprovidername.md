@@ -4,7 +4,7 @@ title: NCryptProviderName (ncrypt.h)
 description: Used to contain the name of a CNG key storage provider.
 helpviewer_keywords: ["NCryptProviderName","NCryptProviderName structure [Security]","ncrypt/NCryptProviderName","security.ncryptprovidername_struct"]
 old-location: security\ncryptprovidername_struct.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 21d8bf28-ee3f-4036-b3b0-d9c68cb14fa9
 ms.date: 12/05/2018
 ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt/NCryptProviderName, security.ncryptprovidername_struct

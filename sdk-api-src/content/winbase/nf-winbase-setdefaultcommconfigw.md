@@ -4,7 +4,7 @@ title: SetDefaultCommConfigW function (winbase.h)
 description: Sets the default configuration for a communications device.
 helpviewer_keywords: ["SetDefaultCommConfig","SetDefaultCommConfig function","SetDefaultCommConfigA","SetDefaultCommConfigW","_win32_setdefaultcommconfig","base.setdefaultcommconfig","winbase/SetDefaultCommConfig","winbase/SetDefaultCommConfigA","winbase/SetDefaultCommConfigW"]
 old-location: base\setdefaultcommconfig.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 3b228b56-34ca-4b37-af67-4e4e1fa60df2
 ms.date: 12/05/2018
 ms.keywords: SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW

@@ -4,7 +4,7 @@ title: ITransactionProxy::IsReusable (comsvcs.h)
 description: Indicates whether the non-DTC transaction context can be reused for multiple transactions.
 helpviewer_keywords: ["ITransactionProxy interface [COM+]","IsReusable method","ITransactionProxy.IsReusable","ITransactionProxy::IsReusable","IsReusable","IsReusable method [COM+]","IsReusable method [COM+]","ITransactionProxy interface","comsvcs/ITransactionProxy::IsReusable","cos.itransactionproxy_isreusable"]
 old-location: cos\itransactionproxy_isreusable.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c642d329-c996-4207-bdcf-7c79d955b2c4
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy interface [COM+],IsReusable method, ITransactionProxy.IsReusable, ITransactionProxy::IsReusable, IsReusable, IsReusable method [COM+], IsReusable method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::IsReusable, cos.itransactionproxy_isreusable

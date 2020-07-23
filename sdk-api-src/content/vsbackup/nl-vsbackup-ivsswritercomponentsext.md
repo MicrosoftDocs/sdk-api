@@ -4,7 +4,7 @@ title: IVssWriterComponentsExt (vsbackup.h)
 description: The IVssWriterComponentsExt interface is a C++ (not COM) interface used by requesters to access and modify the components of a writer involved in a backup.
 helpviewer_keywords: ["IVssWriterComponentsExt","IVssWriterComponentsExt interface [VSS]","IVssWriterComponentsExt interface [VSS]","described","_win32_ivsswritercomponentsext","base.ivsswritercomponentsext","vsbackup/IVssWriterComponentsExt"]
 old-location: base\ivsswritercomponentsext.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470
 ms.date: 12/05/2018
 ms.keywords: IVssWriterComponentsExt, IVssWriterComponentsExt interface [VSS], IVssWriterComponentsExt interface [VSS],described, _win32_ivsswritercomponentsext, base.ivsswritercomponentsext, vsbackup/IVssWriterComponentsExt

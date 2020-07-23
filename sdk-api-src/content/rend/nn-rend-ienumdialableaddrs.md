@@ -4,7 +4,7 @@ title: IEnumDialableAddrs (rend.h)
 description: The IEnumDialableAddrs interface provides COM-standard enumeration methods to discover and use the available dialable addresses in a directory. The ITDirectoryObject::EnumerateDialableAddrs method returns a pointer to this interface.
 helpviewer_keywords: ["IEnumDialableAddrs","IEnumDialableAddrs interface [TAPI 2.2]","IEnumDialableAddrs interface [TAPI 2.2]","described","_tapi3_ienumdialableaddrs","rend/IEnumDialableAddrs","tapi3.ienumdialableaddrs"]
 old-location: tapi3\ienumdialableaddrs.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0a64cb89-9e44-4af1-9b0f-2eec6e5267c7
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], IEnumDialableAddrs interface [TAPI 2.2],described, _tapi3_ienumdialableaddrs, rend/IEnumDialableAddrs, tapi3.ienumdialableaddrs

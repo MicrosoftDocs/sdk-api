@@ -4,7 +4,7 @@ title: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK (avrfsdk.h)
 description: Receives information related to the enumeration of handle traces.
 helpviewer_keywords: ["AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK","AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK callback","AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK callback function [Windows API]","avrfsdk/AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK","base.avrf_handleoperation_enumerate_callback","winprog.avrf_handleoperation_enumerate_callback"]
 old-location: winprog\avrf_handleoperation_enumerate_callback.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 55949e7b-f47e-4b19-9c1d-e398db3e5ea7
 ms.date: 12/05/2018
 ms.keywords: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK, AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK callback, AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK, base.avrf_handleoperation_enumerate_callback, winprog.avrf_handleoperation_enumerate_callback

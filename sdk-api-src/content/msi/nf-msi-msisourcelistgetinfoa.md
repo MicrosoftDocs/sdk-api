@@ -4,7 +4,7 @@ title: MsiSourceListGetInfoA function (msi.h)
 description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context.
 helpviewer_keywords: ["INSTALLPROPERTY_DISKPROMPT","INSTALLPROPERTY_LASTUSEDSOURCE","INSTALLPROPERTY_LASTUSEDTYPE","INSTALLPROPERTY_MEDIAPACKAGEPATH","INSTALLPROPERTY_PACKAGENAME","MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListGetInfo","MsiSourceListGetInfo function","MsiSourceListGetInfoA","MsiSourceListGetInfoW","NULL","User SID","msi/MsiSourceListGetInfo","msi/MsiSourceListGetInfoA","msi/MsiSourceListGetInfoW","setup.msisourcelistgetinfo"]
 old-location: setup\msisourcelistgetinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 24188c7f-d9b5-4907-861a-9555c34cbd2d
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISKPROMPT, INSTALLPROPERTY_LASTUSEDSOURCE, INSTALLPROPERTY_LASTUSEDTYPE, INSTALLPROPERTY_MEDIAPACKAGEPATH, INSTALLPROPERTY_PACKAGENAME, MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListGetInfo, MsiSourceListGetInfo function, MsiSourceListGetInfoA, MsiSourceListGetInfoW, NULL, User SID, msi/MsiSourceListGetInfo, msi/MsiSourceListGetInfoA, msi/MsiSourceListGetInfoW, setup.msisourcelistgetinfo

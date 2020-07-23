@@ -4,7 +4,7 @@ title: IDirectXVideoProcessor::GetFilterPropertyRange (dxva2api.h)
 description: Retrieves the range of values for an image filter supported by this device.
 helpviewer_keywords: ["550c426b-a194-4ed6-9a90-b79a93e79322","GetFilterPropertyRange","GetFilterPropertyRange method [Media Foundation]","GetFilterPropertyRange method [Media Foundation]","IDirectXVideoProcessor interface","IDirectXVideoProcessor interface [Media Foundation]","GetFilterPropertyRange method","IDirectXVideoProcessor.GetFilterPropertyRange","IDirectXVideoProcessor::GetFilterPropertyRange","dxva2api/IDirectXVideoProcessor::GetFilterPropertyRange","mf.idirectxvideoprocessor_getfilterpropertyrange"]
 old-location: mf\idirectxvideoprocessor_getfilterpropertyrange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 550c426b-a194-4ed6-9a90-b79a93e79322
 ms.date: 12/05/2018
 ms.keywords: 550c426b-a194-4ed6-9a90-b79a93e79322, GetFilterPropertyRange, GetFilterPropertyRange method [Media Foundation], GetFilterPropertyRange method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetFilterPropertyRange method, IDirectXVideoProcessor.GetFilterPropertyRange, IDirectXVideoProcessor::GetFilterPropertyRange, dxva2api/IDirectXVideoProcessor::GetFilterPropertyRange, mf.idirectxvideoprocessor_getfilterpropertyrange

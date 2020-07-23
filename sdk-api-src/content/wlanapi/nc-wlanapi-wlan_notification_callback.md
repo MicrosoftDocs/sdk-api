@@ -4,7 +4,7 @@ title: WLAN_NOTIFICATION_CALLBACK (wlanapi.h)
 description: Defines the type of notification callback function.
 helpviewer_keywords: ["WLAN_NOTIFICATION_CALLBACK","WLAN_NOTIFICATION_CALLBACK callback","WLAN_NOTIFICATION_CALLBACK callback function [NativeWIFI]","nwifi.notif_callback","wlanapi/WLAN_NOTIFICATION_CALLBACK"]
 old-location: nwifi\notif_callback.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: df721e77-3285-442b-aabd-2dccae85fda5
 ms.date: 12/05/2018
 ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK callback, WLAN_NOTIFICATION_CALLBACK callback function [NativeWIFI], nwifi.notif_callback, wlanapi/WLAN_NOTIFICATION_CALLBACK

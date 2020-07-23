@@ -4,7 +4,7 @@ title: AddAccessAllowedObjectAce function (securitybaseapi.h)
 description: Adds an access-allowed access control entry (ACE) to the end of a discretionary access control list (DACL).
 helpviewer_keywords: ["AddAccessAllowedObjectAce","AddAccessAllowedObjectAce function [Security]","CONTAINER_INHERIT_ACE","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","_win32_addaccessallowedobjectace","security.addaccessallowedobjectace","securitybaseapi/AddAccessAllowedObjectAce"]
 old-location: security\addaccessallowedobjectace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ccf83e95-ba6f-49f5-a312-52eac90f209a
 ms.date: 12/05/2018
 ms.keywords: AddAccessAllowedObjectAce, AddAccessAllowedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedobjectace, security.addaccessallowedobjectace, securitybaseapi/AddAccessAllowedObjectAce

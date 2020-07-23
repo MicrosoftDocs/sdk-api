@@ -4,7 +4,7 @@ title: IFilterGraph3::SetSyncSourceEx (strmif.h)
 description: The SetSyncSourceEx method establishes two reference clocks for the filter graph:\_a primary clock that is used by most of the filters, and a secondary clock that is used only by one specified filter.
 helpviewer_keywords: ["IFilterGraph3 interface [DirectShow]","SetSyncSourceEx method","IFilterGraph3.SetSyncSourceEx","IFilterGraph3::SetSyncSourceEx","IFilterGraph3SetSyncSourceEx","SetSyncSourceEx","SetSyncSourceEx method [DirectShow]","SetSyncSourceEx method [DirectShow]","IFilterGraph3 interface","dshow.ifiltergraph3_setsyncsourceex","strmif/IFilterGraph3::SetSyncSourceEx"]
 old-location: dshow\ifiltergraph3_setsyncsourceex.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 153a0584-d613-499d-8dbb-c4207c7f60b3
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph3 interface [DirectShow],SetSyncSourceEx method, IFilterGraph3.SetSyncSourceEx, IFilterGraph3::SetSyncSourceEx, IFilterGraph3SetSyncSourceEx, SetSyncSourceEx, SetSyncSourceEx method [DirectShow], SetSyncSourceEx method [DirectShow],IFilterGraph3 interface, dshow.ifiltergraph3_setsyncsourceex, strmif/IFilterGraph3::SetSyncSourceEx

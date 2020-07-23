@@ -4,7 +4,7 @@ title: CrmLogRecordRead (comsvcs.h)
 description: Contains unstructured log records for the Compensating Resource Manager (CRM).
 helpviewer_keywords: ["CrmLogRecordRead","CrmLogRecordRead structure [COM+]","_cos_CrmLogRecordRead","comsvcs/CrmLogRecordRead","cos.crmlogrecordread"]
 old-location: cos\crmlogrecordread.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6
 ms.date: 12/05/2018
 ms.keywords: CrmLogRecordRead, CrmLogRecordRead structure [COM+], _cos_CrmLogRecordRead, comsvcs/CrmLogRecordRead, cos.crmlogrecordread

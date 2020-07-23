@@ -4,7 +4,7 @@ title: IMFMediaEngine::GetAutoPlay (mfmediaengine.h)
 description: Queries whether the Media Engine automatically begins playback.
 helpviewer_keywords: ["GetAutoPlay","GetAutoPlay method [Media Foundation]","GetAutoPlay method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetAutoPlay method","IMFMediaEngine.GetAutoPlay","IMFMediaEngine::GetAutoPlay","mf.imfmediaengine_getautoplay","mfmediaengine/IMFMediaEngine::GetAutoPlay"]
 old-location: mf\imfmediaengine_getautoplay.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: CEF50308-D4F9-435F-A81A-3746A27846F0
 ms.date: 12/05/2018
 ms.keywords: GetAutoPlay, GetAutoPlay method [Media Foundation], GetAutoPlay method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetAutoPlay method, IMFMediaEngine.GetAutoPlay, IMFMediaEngine::GetAutoPlay, mf.imfmediaengine_getautoplay, mfmediaengine/IMFMediaEngine::GetAutoPlay

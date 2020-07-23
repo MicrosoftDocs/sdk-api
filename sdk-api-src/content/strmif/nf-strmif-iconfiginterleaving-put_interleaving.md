@@ -4,7 +4,7 @@ title: IConfigInterleaving::put_Interleaving (strmif.h)
 description: The put_Interleaving method sets the audio preroll time and the frequency of interleaving for an AVI file.
 helpviewer_keywords: ["IConfigInterleaving interface [DirectShow]","put_Interleaving method","IConfigInterleaving.put_Interleaving","IConfigInterleaving::put_Interleaving","IConfigInterleavingput_Interleaving","dshow.iconfiginterleaving_put_interleaving","put_Interleaving","put_Interleaving method [DirectShow]","put_Interleaving method [DirectShow]","IConfigInterleaving interface","strmif/IConfigInterleaving::put_Interleaving"]
 old-location: dshow\iconfiginterleaving_put_interleaving.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4b1363c4-9cdd-4b28-a5ea-e5e554597be2
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Interleaving method, IConfigInterleaving.put_Interleaving, IConfigInterleaving::put_Interleaving, IConfigInterleavingput_Interleaving, dshow.iconfiginterleaving_put_interleaving, put_Interleaving, put_Interleaving method [DirectShow], put_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Interleaving

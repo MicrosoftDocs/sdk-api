@@ -4,7 +4,7 @@ title: IWbemEventProviderQuerySink::NewQuery (wbemprov.h)
 description: Call the IWbemEventProviderQuerySink::NewQuery method when a logical event consumer registers a relevant event query filter with Windows Management.
 helpviewer_keywords: ["IWbemEventProviderQuerySink interface [Windows Management Instrumentation]","NewQuery method","IWbemEventProviderQuerySink.NewQuery","IWbemEventProviderQuerySink::NewQuery","NewQuery","NewQuery method [Windows Management Instrumentation]","NewQuery method [Windows Management Instrumentation]","IWbemEventProviderQuerySink interface","_hmm_iwbemeventproviderquerysink_newquery","wbemprov/IWbemEventProviderQuerySink::NewQuery","wmi.iwbemeventproviderquerysink_newquery"]
 old-location: wmi\iwbemeventproviderquerysink_newquery.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 82f76b19-2035-4567-b619-31ce8a35e422
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderQuerySink interface [Windows Management Instrumentation],NewQuery method, IWbemEventProviderQuerySink.NewQuery, IWbemEventProviderQuerySink::NewQuery, NewQuery, NewQuery method [Windows Management Instrumentation], NewQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, _hmm_iwbemeventproviderquerysink_newquery, wbemprov/IWbemEventProviderQuerySink::NewQuery, wmi.iwbemeventproviderquerysink_newquery

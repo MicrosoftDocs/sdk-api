@@ -4,7 +4,7 @@ title: IVdsVdProvider (vds.h)
 description: Defines methods for creating and managing virtual disks.
 helpviewer_keywords: ["IVdsVdProvider","IVdsVdProvider interface","IVdsVdProvider interface","described","base.ivdsvdprovider","vds/IVdsVdProvider"]
 old-location: base\ivdsvdprovider.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 812e8ac5-91c5-455a-94e7-2edf55d92cdc
 ms.date: 12/05/2018
 ms.keywords: IVdsVdProvider, IVdsVdProvider interface, IVdsVdProvider interface,described, base.ivdsvdprovider, vds/IVdsVdProvider

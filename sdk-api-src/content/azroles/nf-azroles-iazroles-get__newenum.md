@@ -4,7 +4,7 @@ title: IAzRoles::get__NewEnum (azroles.h)
 description: The _NewEnum property of IAzRoles retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 helpviewer_keywords: ["AzRoles object [Security]","_NewEnum property","IAzRoles interface [Security]","_NewEnum property","IAzRoles._NewEnum","IAzRoles.get__NewEnum","IAzRoles::_NewEnum","IAzRoles::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzRoles object","_NewEnum property [Security]","IAzRoles interface","azroles/IAzRoles::_NewEnum","azroles/IAzRoles::get__NewEnum","get__NewEnum","security.iazroles_newenum"]
 old-location: security\iazroles_newenum.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 46388cf1-6ad8-4320-a0cd-998216b0043c
 ms.date: 12/05/2018
 ms.keywords: AzRoles object [Security],_NewEnum property, IAzRoles interface [Security],_NewEnum property, IAzRoles._NewEnum, IAzRoles.get__NewEnum, IAzRoles::_NewEnum, IAzRoles::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzRoles object, _NewEnum property [Security],IAzRoles interface, azroles/IAzRoles::_NewEnum, azroles/IAzRoles::get__NewEnum, get__NewEnum, security.iazroles_newenum

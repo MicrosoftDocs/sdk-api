@@ -4,7 +4,7 @@ title: AddLogContainer function (clfsw32.h)
 description: Adds a container to the physical log that is associated with the log handle—if the calling process has write access to the .blf file and the ability to create files in the target directory of the container.
 helpviewer_keywords: ["AddLogContainer","AddLogContainer function [Files]","clfsw32/AddLogContainer","fs.addlogcontainer"]
 old-location: fs\addlogcontainer.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
 ms.date: 12/05/2018
 ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer

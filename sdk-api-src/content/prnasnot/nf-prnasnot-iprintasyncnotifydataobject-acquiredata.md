@@ -4,7 +4,7 @@ title: IPrintAsyncNotifyDataObject::AcquireData (prnasnot.h)
 description: Directs listening applications to the notification data, including the data's size and type.
 helpviewer_keywords: ["AcquireData","AcquireData method [Windows GDI]","AcquireData method [Windows GDI]","IPrintAsyncNotifyDataObject interface","IPrintAsyncNotifyDataObject interface [Windows GDI]","AcquireData method","IPrintAsyncNotifyDataObject.AcquireData","IPrintAsyncNotifyDataObject::AcquireData","_win32_IPrintAsyncNotifyDataObject_AcquireData","gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata","prnasnot/IPrintAsyncNotifyDataObject::AcquireData"]
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
 ms.date: 12/05/2018
 ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData

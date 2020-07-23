@@ -4,7 +4,7 @@ title: IX509Enrollment::get_Request (certenroll.h)
 description: Retrieves the certificate request associated with the enrollment object.
 helpviewer_keywords: ["IX509Enrollment interface [Security]","Request property","IX509Enrollment.Request","IX509Enrollment.get_Request","IX509Enrollment::Request","IX509Enrollment::get_Request","Request property [Security]","Request property [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::Request","certenroll/IX509Enrollment::get_Request","get_Request","security.ix509enrollment_request_property"]
 old-location: security\ix509enrollment_request_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: dc754240-9c52-459e-9612-caf19eeb351c
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Request property, IX509Enrollment.Request, IX509Enrollment.get_Request, IX509Enrollment::Request, IX509Enrollment::get_Request, Request property [Security], Request property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Request, certenroll/IX509Enrollment::get_Request, get_Request, security.ix509enrollment_request_property

@@ -4,7 +4,7 @@ title: SLRegisterEvent function (slpublic.h)
 description: Registers an event in the SL service.
 helpviewer_keywords: ["SLRegisterEvent","SLRegisterEvent function [Security]","security.slregisterevent","slpublic/SLRegisterEvent"]
 old-location: security\slregisterevent.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a18f58d4-c8e7-4974-a015-e4941e834e79
 ms.date: 12/05/2018
 ms.keywords: SLRegisterEvent, SLRegisterEvent function [Security], security.slregisterevent, slpublic/SLRegisterEvent

@@ -4,7 +4,7 @@ title: STRTABLEA (advpub.h)
 description: Represents a table of registry string replacements.
 helpviewer_keywords: ["*LPSTRTABLEA","LPSTRTABLEA","LPSTRTABLEA structure pointer [Windows API]","STRTABLE","STRTABLEA","STRTABLEA structure [Windows API]","_StrTableA","_StrTableA structure [Windows API]","advpub/LPSTRTABLEA","advpub/_StrTableA","winprog._strtablea"]
 old-location: winprog\_strtablea.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: BCDD9AE4-6ADF-4018-A9C0-7924DE30B954
 ms.date: 12/05/2018
 ms.keywords: '*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows API], STRTABLE, STRTABLEA, STRTABLEA structure [Windows API], _StrTableA, _StrTableA structure [Windows API], advpub/LPSTRTABLEA, advpub/_StrTableA, winprog._strtablea'

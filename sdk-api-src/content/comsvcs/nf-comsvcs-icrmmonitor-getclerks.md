@@ -4,7 +4,7 @@ title: ICrmMonitor::GetClerks (comsvcs.h)
 description: Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
 helpviewer_keywords: ["GetClerks","GetClerks method [COM+]","GetClerks method [COM+]","ICrmMonitor interface","ICrmMonitor interface [COM+]","GetClerks method","ICrmMonitor.GetClerks","ICrmMonitor::GetClerks","_dtc_ICrmMonitor_GetClerks","comsvcs/ICrmMonitor::GetClerks","cos.icrmmonitor_getclerks"]
 old-location: cos\icrmmonitor_getclerks.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b5802d3b-1464-4ddf-b459-a308b699de96
 ms.date: 12/05/2018
 ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],GetClerks method, ICrmMonitor.GetClerks, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks

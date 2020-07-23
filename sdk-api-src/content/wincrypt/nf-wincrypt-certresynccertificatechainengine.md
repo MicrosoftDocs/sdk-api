@@ -4,7 +4,7 @@ title: CertResyncCertificateChainEngine function (wincrypt.h)
 description: Resyncs the certificate chain engine, which resynchronizes the stores the store's engine and updates the engine caches.
 helpviewer_keywords: ["CertResyncCertificateChainEngine","CertResyncCertificateChainEngine function [Security]","security.certresynccertificatechainengine","wincrypt/CertResyncCertificateChainEngine"]
 old-location: security\certresynccertificatechainengine.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: D8674AD1-0407-4D1E-9E21-60CAC6D01FC5
 ms.date: 12/05/2018
 ms.keywords: CertResyncCertificateChainEngine, CertResyncCertificateChainEngine function [Security], security.certresynccertificatechainengine, wincrypt/CertResyncCertificateChainEngine

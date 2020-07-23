@@ -4,7 +4,7 @@ title: IWbemBackupRestoreEx::Resume (wbemcli.h)
 description: The IWbemBackUpRestoreEx::Resume method releases a lock on the Windows Management Instrumentation (WMI) repository so operations can continue.
 helpviewer_keywords: ["IWbemBackupRestoreEx interface [Windows Management Instrumentation]","Resume method","IWbemBackupRestoreEx.Resume","IWbemBackupRestoreEx::Resume","Resume","Resume method [Windows Management Instrumentation]","Resume method [Windows Management Instrumentation]","IWbemBackupRestoreEx interface","wbemcli/IWbemBackupRestoreEx::Resume","wmi.iwbembackuprestoreex_resume"]
 old-location: wmi\iwbembackuprestoreex_resume.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: fa31860b-36f5-4182-a58c-b8747af0e628
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Resume method, IWbemBackupRestoreEx.Resume, IWbemBackupRestoreEx::Resume, Resume, Resume method [Windows Management Instrumentation], Resume method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Resume, wmi.iwbembackuprestoreex_resume

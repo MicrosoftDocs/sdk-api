@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.GraphicsPath.AddRectangles(INconstRectF,ININT)
 title: GraphicsPath::AddRectangles
 description: The GraphicsPath::AddRectangles method adds a sequence of rectangles to this path.
+tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddRectangles"]
 ms.assetid: 9f5e91b9-bf02-4f4b-bb33-7a2dae2e1306
 ms.date: 05/13/2019

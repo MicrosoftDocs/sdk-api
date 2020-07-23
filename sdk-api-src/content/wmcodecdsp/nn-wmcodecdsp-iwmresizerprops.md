@@ -4,7 +4,7 @@ title: IWMResizerProps (wmcodecdsp.h)
 description: Sets properties on the video resizer DSP.
 helpviewer_keywords: ["IWMResizerProps","IWMResizerProps interface [Media Foundation]","IWMResizerProps interface [Media Foundation]","described","codecapi.iwmresizerpropsinterface","mf.iwmresizerprops","mf.iwmresizerpropsinterface","wmcodecdsp/IWMResizerProps"]
 old-location: mf\iwmresizerpropsinterface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 12c26507-c729-4143-a0bd-e043d42744f6
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], IWMResizerProps interface [Media Foundation],described, codecapi.iwmresizerpropsinterface, mf.iwmresizerprops, mf.iwmresizerpropsinterface, wmcodecdsp/IWMResizerProps

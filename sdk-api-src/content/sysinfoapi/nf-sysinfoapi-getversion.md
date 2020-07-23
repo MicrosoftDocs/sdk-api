@@ -4,7 +4,7 @@ title: GetVersion function (sysinfoapi.h)
 description: With the release of Windows 8.1, the behavior of the GetVersion API has changed in the value it will return for the operating system version. The value returned by the GetVersion function now depends on how the application is manifested.
 helpviewer_keywords: ["GetVersion","GetVersion function","_win32_getversion","base.getversion","sysinfoapi/GetVersion"]
 old-location: base\getversion.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 25cb87c6-e4a5-447e-8153-f12638859d00
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion function, _win32_getversion, base.getversion, sysinfoapi/GetVersion

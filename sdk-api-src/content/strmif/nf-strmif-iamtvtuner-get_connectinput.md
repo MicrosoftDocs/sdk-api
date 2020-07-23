@@ -4,7 +4,7 @@ title: IAMTVTuner::get_ConnectInput (strmif.h)
 description: The get_ConnectInput method retrieves the hardware tuner input connection.
 helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_ConnectInput method","IAMTVTuner.get_ConnectInput","IAMTVTuner::get_ConnectInput","IAMTVTunerget_ConnectInput","dshow.iamtvtuner_get_connectinput","get_ConnectInput","get_ConnectInput method [DirectShow]","get_ConnectInput method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_ConnectInput"]
 old-location: dshow\iamtvtuner_get_connectinput.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9dbcdc9f-7efe-4784-a60c-a6c161befb9b
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_ConnectInput method, IAMTVTuner.get_ConnectInput, IAMTVTuner::get_ConnectInput, IAMTVTunerget_ConnectInput, dshow.iamtvtuner_get_connectinput, get_ConnectInput, get_ConnectInput method [DirectShow], get_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_ConnectInput

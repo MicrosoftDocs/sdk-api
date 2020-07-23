@@ -4,7 +4,7 @@ title: DVD_AudioAttributes (strmif.h)
 description: The DVD_AudioAttributes structure is used in IDvdInfo2::GetAudioAttributes to receive the various audio attributes of the disc.
 helpviewer_keywords: ["DVD_AudioAttributes","DVD_AudioAttributes structure [DirectShow]","DVD_AudioAttributesStructure","dshow.dvd_audioattributes","strmif/DVD_AudioAttributes"]
 old-location: dshow\dvd_audioattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes

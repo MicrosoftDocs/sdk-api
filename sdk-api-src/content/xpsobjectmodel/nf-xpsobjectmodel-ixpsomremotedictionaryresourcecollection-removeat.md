@@ -4,7 +4,7 @@ title: IXpsOMRemoteDictionaryResourceCollection::RemoveAt (xpsobjectmodel.h)
 description: Removes and releases an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.
 helpviewer_keywords: ["IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMRemoteDictionaryResourceCollection.RemoveAt","IXpsOMRemoteDictionaryResourceCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface","xps.ixpsomremotedictionaryresourcecollection_removeat","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::RemoveAt"]
 old-location: xps\ixpsomremotedictionaryresourcecollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a144a3b4-3935-4377-b97d-3d3a723ea3b7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMRemoteDictionaryResourceCollection.RemoveAt, IXpsOMRemoteDictionaryResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_removeat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::RemoveAt

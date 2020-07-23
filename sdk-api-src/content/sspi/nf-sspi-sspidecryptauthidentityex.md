@@ -4,7 +4,7 @@ title: SspiDecryptAuthIdentityEx function (sspi.h)
 description: Decrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
 helpviewer_keywords: ["SspiDecryptAuthIdentityEx","SspiDecryptAuthIdentityEx function [Security]","security.sspidecryptauthidentityex","sspi/SspiDecryptAuthIdentityEx"]
 old-location: security\sspidecryptauthidentityex.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA
 ms.date: 12/05/2018
 ms.keywords: SspiDecryptAuthIdentityEx, SspiDecryptAuthIdentityEx function [Security], security.sspidecryptauthidentityex, sspi/SspiDecryptAuthIdentityEx

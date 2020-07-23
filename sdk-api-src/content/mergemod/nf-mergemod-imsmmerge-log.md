@@ -4,7 +4,7 @@ title: IMsmMerge::Log (mergemod.h)
 description: The Log method writes a text string to the currently open log file. For more information, see the Log method of the Merge object.
 helpviewer_keywords: ["IMsmMerge interface","Log method","IMsmMerge.Log","IMsmMerge::Log","Log","Log method","Log method","IMsmMerge interface","_msi_log_function","mergemod/IMsmMerge::Log","setup.imsmmerge_log"]
 old-location: setup\imsmmerge_log.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 15c7450b-6887-4a54-8f4f-ac2cf5944f17
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,Log method, IMsmMerge.Log, IMsmMerge::Log, Log, Log method, Log method,IMsmMerge interface, _msi_log_function, mergemod/IMsmMerge::Log, setup.imsmmerge_log

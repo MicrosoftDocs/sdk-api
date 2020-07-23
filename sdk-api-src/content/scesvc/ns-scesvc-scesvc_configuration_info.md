@@ -4,7 +4,7 @@ title: SCESVC_CONFIGURATION_INFO (scesvc.h)
 description: The SCESVC_CONFIGURATION_INFO structure provides configuration information for a service. This structure is used by the PFSCE_QUERY_INFO and PFSCE_SET_INFO functions when the configuration information is specified.
 helpviewer_keywords: ["*PSCESVC_CONFIGURATION_INFO","PSCESVC_CONFIGURATION_INFO","PSCESVC_CONFIGURATION_INFO structure pointer [Security]","SCESVC_CONFIGURATION_INFO","SCESVC_CONFIGURATION_INFO structure [Security]","_config_scesvc_configuration_info","scesvc/PSCESVC_CONFIGURATION_INFO","scesvc/SCESVC_CONFIGURATION_INFO","security.scesvc_configuration_info"]
 old-location: security\scesvc_configuration_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: a89ab072-7b7c-4ecd-83fa-26e2689778df
 ms.date: 12/05/2018
 ms.keywords: '*PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO structure pointer [Security], SCESVC_CONFIGURATION_INFO, SCESVC_CONFIGURATION_INFO structure [Security], _config_scesvc_configuration_info, scesvc/PSCESVC_CONFIGURATION_INFO, scesvc/SCESVC_CONFIGURATION_INFO, security.scesvc_configuration_info'

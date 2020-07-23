@@ -4,7 +4,7 @@ title: IMFSensorActivitiesReport::GetCount (mfidl.h)
 description: Gets the count of IMFSensorActivityReport objects that are available to be retrieved.
 helpviewer_keywords: ["GetCount","GetCount method [Media Foundation]","GetCount method [Media Foundation]","IMFSensorActivitiesReport interface","IMFSensorActivitiesReport interface [Media Foundation]","GetCount method","IMFSensorActivitiesReport.GetCount","IMFSensorActivitiesReport::GetCount","mf.imfsensoractivityreport_getcount","mfidl/IMFSensorActivitiesReport::GetCount"]
 old-location: mf\imfsensoractivityreport_getcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 459A0898-ED5F-479F-8DDC-EA67C04F7BF9
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetCount method, IMFSensorActivitiesReport.GetCount, IMFSensorActivitiesReport::GetCount, mf.imfsensoractivityreport_getcount, mfidl/IMFSensorActivitiesReport::GetCount

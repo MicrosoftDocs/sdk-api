@@ -4,7 +4,7 @@ title: SpAcceptLsaModeContextFn (ntsecpkg.h)
 description: Server dispatch function used to create a security context shared by a server and client.
 helpviewer_keywords: ["ASC_REQ_ALLOCATE_MEMORY","ASC_REQ_CONNECTION","ASC_REQ_DATAGRAM","ASC_REQ_DELEGATE","ASC_REQ_EXTENDED_ERROR","ASC_REQ_INTEGRITY","ASC_REQ_MUTUAL_AUTH","ASC_REQ_PROMPT_FOR_CREDS","ASC_REQ_REPLAY_DETECT","ASC_REQ_SEQUENCE_DETECT","ASC_REQ_STREAM","ASC_REQ_USE_DCE_STYLE","ASC_REQ_USE_SESSION_KEY","ASC_REQ_USE_SUPPLIED_CREDS","SpAcceptLsaModeContext","SpAcceptLsaModeContext callback function [Security]","SpAcceptLsaModeContextFn","SpAcceptLsaModeContextFn callback","_ssp_spacceptlsamodecontext","ntsecpkg/SpAcceptLsaModeContext","security.spacceptlsamodecontext"]
 old-location: security\spacceptlsamodecontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: bf443c15-0039-4ffa-a5ec-e8ef6a24dc80
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DATAGRAM, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_INTEGRITY, ASC_REQ_MUTUAL_AUTH, ASC_REQ_PROMPT_FOR_CREDS, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, ASC_REQ_USE_DCE_STYLE, ASC_REQ_USE_SESSION_KEY, ASC_REQ_USE_SUPPLIED_CREDS, SpAcceptLsaModeContext, SpAcceptLsaModeContext callback function [Security], SpAcceptLsaModeContextFn, SpAcceptLsaModeContextFn callback, _ssp_spacceptlsamodecontext, ntsecpkg/SpAcceptLsaModeContext, security.spacceptlsamodecontext

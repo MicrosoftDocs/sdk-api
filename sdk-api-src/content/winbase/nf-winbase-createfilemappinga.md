@@ -4,7 +4,7 @@ title: CreateFileMappingA function (winbase.h)
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 helpviewer_keywords: ["CreateFileMapping","CreateFileMapping function","CreateFileMappingA","CreateFileMappingW","PAGE_EXECUTE_READ","PAGE_EXECUTE_READWRITE","PAGE_EXECUTE_WRITECOPY","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","_win32_createfilemapping","base.createfilemapping","fs.createfilemapping","winbase/CreateFileMapping","winbase/CreateFileMappingA","winbase/CreateFileMappingW"]
 old-location: base\createfilemapping.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.date: 12/05/2018
 ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW

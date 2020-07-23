@@ -4,7 +4,7 @@ title: IOfflineFilesEvents::SyncEnd (cscobj.h)
 description: Reports that the Offline Files cache has ended a synchronize operation.
 helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","SyncEnd method","IOfflineFilesEvents.SyncEnd","IOfflineFilesEvents::SyncEnd","SyncEnd","SyncEnd method [Offline Files]","SyncEnd method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::SyncEnd","of.iofflinefilesevents_syncend"]
 old-location: of\iofflinefilesevents_syncend.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 2b4b32b9-7268-4f79-8eac-640a6c62b0c1
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncEnd method, IOfflineFilesEvents.SyncEnd, IOfflineFilesEvents::SyncEnd, SyncEnd, SyncEnd method [Offline Files], SyncEnd method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncEnd, of.iofflinefilesevents_syncend

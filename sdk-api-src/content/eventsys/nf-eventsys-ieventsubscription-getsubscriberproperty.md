@@ -4,7 +4,7 @@ title: IEventSubscription::GetSubscriberProperty (eventsys.h)
 description: Retrieves the value of a property stored in the property bag to define subscriber context.
 helpviewer_keywords: ["GetSubscriberProperty","GetSubscriberProperty method [COM+]","GetSubscriberProperty method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetSubscriberProperty method","IEventSubscription.GetSubscriberProperty","IEventSubscription::GetSubscriberProperty","_cos_IEventSubscription_GetSubscriberProperty","cos.ieventsubscription_getsubscriberproperty","eventsys/IEventSubscription::GetSubscriberProperty"]
 old-location: cos\ieventsubscription_getsubscriberproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6e16557a-e4ea-46ae-8285-0446189cea8e
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberProperty method, IEventSubscription.GetSubscriberProperty, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty

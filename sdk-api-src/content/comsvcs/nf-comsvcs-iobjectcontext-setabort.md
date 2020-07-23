@@ -4,7 +4,7 @@ title: IObjectContext::SetAbort (comsvcs.h)
 description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated when it returns from the currently executing method call.
 helpviewer_keywords: ["IObjectContext interface [COM+]","SetAbort method","IObjectContext.SetAbort","IObjectContext::SetAbort","SetAbort","SetAbort method [COM+]","SetAbort method [COM+]","IObjectContext interface","_cos_IObjectContext_SetAbort","comsvcs/IObjectContext::SetAbort","cos.iobjectcontext_setabort"]
 old-location: cos\iobjectcontext_setabort.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c254305f-1fc5-417e-b93b-d5e2b36e9e39
 ms.date: 12/05/2018
 ms.keywords: IObjectContext interface [COM+],SetAbort method, IObjectContext.SetAbort, IObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],IObjectContext interface, _cos_IObjectContext_SetAbort, comsvcs/IObjectContext::SetAbort, cos.iobjectcontext_setabort

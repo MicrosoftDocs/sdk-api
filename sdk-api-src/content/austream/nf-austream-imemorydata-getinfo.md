@@ -4,7 +4,7 @@ title: IMemoryData::GetInfo (austream.h)
 description: Note  This interface is deprecated. New applications should not use it. Retrieves information describing an audio data object.
 helpviewer_keywords: ["GetInfo","GetInfo method [DirectShow]","GetInfo method [DirectShow]","IMemoryData interface","IMemoryData interface [DirectShow]","GetInfo method","IMemoryData.GetInfo","IMemoryData::GetInfo","IMemoryDataGetInfo","austream/IMemoryData::GetInfo","dshow.imemorydata_getinfo"]
 old-location: dshow\imemorydata_getinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9e9538c4-2f11-401e-a3c1-f8aa6c24f725
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo

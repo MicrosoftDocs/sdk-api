@@ -4,7 +4,7 @@ title: IXpsOMCanvas::SetUseAliasedEdgeMode (xpsobjectmodel.h)
 description: Sets the value that determines whether the edges of objects in this canvas will be rendered using the aliased edge mode.
 helpviewer_keywords: ["FALSE","IXpsOMCanvas interface [XPS Documents and Packaging]","SetUseAliasedEdgeMode method","IXpsOMCanvas.SetUseAliasedEdgeMode","IXpsOMCanvas::SetUseAliasedEdgeMode","SetUseAliasedEdgeMode","SetUseAliasedEdgeMode method [XPS Documents and Packaging]","SetUseAliasedEdgeMode method [XPS Documents and Packaging]","IXpsOMCanvas interface","TRUE","xps.ixpsomcanvas_setusealiasededgemode","xpsobjectmodel/IXpsOMCanvas::SetUseAliasedEdgeMode"]
 old-location: xps\ixpsomcanvas_setusealiasededgemode.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a16b10fe-5065-4044-b632-452a79f61e90
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMCanvas interface [XPS Documents and Packaging],SetUseAliasedEdgeMode method, IXpsOMCanvas.SetUseAliasedEdgeMode, IXpsOMCanvas::SetUseAliasedEdgeMode, SetUseAliasedEdgeMode, SetUseAliasedEdgeMode method [XPS Documents and Packaging], SetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, TRUE, xps.ixpsomcanvas_setusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::SetUseAliasedEdgeMode

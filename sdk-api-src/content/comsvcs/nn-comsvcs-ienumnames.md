@@ -4,7 +4,7 @@ title: IEnumNames (comsvcs.h)
 description: Enumerates names.
 helpviewer_keywords: ["IEnumNames","IEnumNames interface [COM+]","IEnumNames interface [COM+]","described","_cos_IEnumNames","comsvcs/IEnumNames","cos.ienumnames"]
 old-location: cos\ienumnames.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a
 ms.date: 12/05/2018
 ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames

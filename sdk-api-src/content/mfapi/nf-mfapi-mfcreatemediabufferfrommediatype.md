@@ -4,7 +4,7 @@ title: MFCreateMediaBufferFromMediaType function (mfapi.h)
 description: Allocates a system-memory buffer that is optimal for a specified media type.
 helpviewer_keywords: ["MFCreateMediaBufferFromMediaType","MFCreateMediaBufferFromMediaType function [Media Foundation]","mf.mfcreatemediabufferfrommediatype","mfapi/MFCreateMediaBufferFromMediaType"]
 old-location: mf\mfcreatemediabufferfrommediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1EBDB616-6FA9-4E4E-9BC6-CA1E382A08D9
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType function [Media Foundation], mf.mfcreatemediabufferfrommediatype, mfapi/MFCreateMediaBufferFromMediaType

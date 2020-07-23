@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::IsIndexed (certview.h)
 description: Reports whether the data in the column is indexed.
 helpviewer_keywords: ["IEnumCERTVIEWCOLUMN interface [Security]","IsIndexed method","IEnumCERTVIEWCOLUMN.IsIndexed","IEnumCERTVIEWCOLUMN::IsIndexed","IsIndexed","IsIndexed method [Security]","IsIndexed method [Security]","IEnumCERTVIEWCOLUMN interface","_certsrv_ienumcertviewcolumn_isindexed","certview/IEnumCERTVIEWCOLUMN::IsIndexed","security.ienumcertviewcolumn_isindexed"]
 old-location: security\ienumcertviewcolumn_isindexed.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed

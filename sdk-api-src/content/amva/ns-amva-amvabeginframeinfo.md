@@ -4,7 +4,7 @@ title: AMVABeginFrameInfo (amva.h)
 description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.
 helpviewer_keywords: ["*LPAMVABeginFrameInfo","AMVABeginFrameInfo","AMVABeginFrameInfo structure [DirectShow]","AMVABeginFrameInfoStructure","LPAMVABeginFrameInfo","LPAMVABeginFrameInfo structure pointer [DirectShow]","amva/AMVABeginFrameInfo","amva/LPAMVABeginFrameInfo","dshow.amvabeginframeinfo"]
 old-location: dshow\amvabeginframeinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo'

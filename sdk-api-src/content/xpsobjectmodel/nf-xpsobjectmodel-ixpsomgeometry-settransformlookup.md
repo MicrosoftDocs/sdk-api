@@ -4,7 +4,7 @@ title: IXpsOMGeometry::SetTransformLookup (xpsobjectmodel.h)
 description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
 helpviewer_keywords: ["IXpsOMGeometry interface [XPS Documents and Packaging]","SetTransformLookup method","IXpsOMGeometry.SetTransformLookup","IXpsOMGeometry::SetTransformLookup","SetTransformLookup","SetTransformLookup method [XPS Documents and Packaging]","SetTransformLookup method [XPS Documents and Packaging]","IXpsOMGeometry interface","xps.ixpsomgeometry_settransformlookup","xpsobjectmodel/IXpsOMGeometry::SetTransformLookup"]
 old-location: xps\ixpsomgeometry_settransformlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 98623f23-eb34-4140-8179-46786ab18fb0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGeometry.SetTransformLookup, IXpsOMGeometry::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlookup, xpsobjectmodel/IXpsOMGeometry::SetTransformLookup

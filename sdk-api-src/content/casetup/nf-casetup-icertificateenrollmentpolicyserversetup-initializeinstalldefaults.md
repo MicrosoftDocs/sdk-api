@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults (caset
 description: Initializes the ICertificateEnrollmentPolicyServerSetup object with a default configuration.
 helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","InitializeInstallDefaults method","ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults","ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults","InitializeInstallDefaults","InitializeInstallDefaults method [Security]","InitializeInstallDefaults method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults","security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults"]
 old-location: security\icertificateenrollmentpolicyserversetup_initializeinstalldefaults.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults

@@ -4,7 +4,7 @@ title: IX509PolicyServerUrl::UpdateRegistry (certenroll.h)
 description: Registers a certificate enrollment policy (CEP) server.
 helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509PolicyServerUrl interface [Security]","UpdateRegistry method","IX509PolicyServerUrl.UpdateRegistry","IX509PolicyServerUrl::UpdateRegistry","UpdateRegistry","UpdateRegistry method [Security]","UpdateRegistry method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::UpdateRegistry","security.ix509policyserverurl_updateregistry"]
 old-location: security\ix509policyserverurl_updateregistry.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry

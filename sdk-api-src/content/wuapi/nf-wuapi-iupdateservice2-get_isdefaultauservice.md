@@ -4,7 +4,7 @@ title: IUpdateService2::get_IsDefaultAUService (wuapi.h)
 description: Gets a Boolean value that indicates whether the service is registered with Automatic Updates and whether the service is currently used by Automatic Updates as the default service.
 helpviewer_keywords: ["IUpdateService2 interface [Windows Update Agent]","IsDefaultAUService property","IUpdateService2.IsDefaultAUService","IUpdateService2.get_IsDefaultAUService","IUpdateService2::IsDefaultAUService","IUpdateService2::get_IsDefaultAUService","IsDefaultAUService property [Windows Update Agent]","IsDefaultAUService property [Windows Update Agent]","IUpdateService2 interface","get_IsDefaultAUService","wua.iupdateservice2_isdefaultauservice","wuapi/IUpdateService2::IsDefaultAUService","wuapi/IUpdateService2::get_IsDefaultAUService"]
 old-location: wua\iupdateservice2_isdefaultauservice.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2c7645b7-3845-4340-904b-38c56d4aa0ac
 ms.date: 12/05/2018
 ms.keywords: IUpdateService2 interface [Windows Update Agent],IsDefaultAUService property, IUpdateService2.IsDefaultAUService, IUpdateService2.get_IsDefaultAUService, IUpdateService2::IsDefaultAUService, IUpdateService2::get_IsDefaultAUService, IsDefaultAUService property [Windows Update Agent], IsDefaultAUService property [Windows Update Agent],IUpdateService2 interface, get_IsDefaultAUService, wua.iupdateservice2_isdefaultauservice, wuapi/IUpdateService2::IsDefaultAUService, wuapi/IUpdateService2::get_IsDefaultAUService

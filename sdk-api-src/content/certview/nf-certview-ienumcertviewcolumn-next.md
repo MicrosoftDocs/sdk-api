@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::Next (certview.h)
 description: Moves to the next column in the column-enumeration sequence.
 helpviewer_keywords: ["IEnumCERTVIEWCOLUMN interface [Security]","Next method","IEnumCERTVIEWCOLUMN.Next","IEnumCERTVIEWCOLUMN::Next","Next","Next method [Security]","Next method [Security]","IEnumCERTVIEWCOLUMN interface","_certsrv_ienumcertviewcolumn_next","certview/IEnumCERTVIEWCOLUMN::Next","security.ienumcertviewcolumn_next"]
 old-location: security\ienumcertviewcolumn_next.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Next method, IEnumCERTVIEWCOLUMN.Next, IEnumCERTVIEWCOLUMN::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next

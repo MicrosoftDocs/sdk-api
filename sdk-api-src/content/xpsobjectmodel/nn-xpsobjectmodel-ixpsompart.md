@@ -4,7 +4,7 @@ title: IXpsOMPart (xpsobjectmodel.h)
 description: The base interface for all XPS document part interfaces.
 helpviewer_keywords: ["IXpsOMPart","IXpsOMPart interface [XPS Documents and Packaging]","IXpsOMPart interface [XPS Documents and Packaging]","described","xps.ixpsompart","xpsobjectmodel/IXpsOMPart"]
 old-location: xps\ixpsompart.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 71cd0155-6c95-42ca-bfc3-dffd43d95dc9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], IXpsOMPart interface [XPS Documents and Packaging],described, xps.ixpsompart, xpsobjectmodel/IXpsOMPart

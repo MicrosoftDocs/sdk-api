@@ -4,7 +4,7 @@ title: IVdsDiskOnline (vds.h)
 description: Provides methods to bring a disk online and take it offline.Windows Vista:  This interface is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2 instead.
 helpviewer_keywords: ["IVdsDiskOnline","IVdsDiskOnline interface","IVdsDiskOnline interface","described","base.ivdsdiskonline","vds/IVdsDiskOnline"]
 old-location: base\ivdsdiskonline.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f30ceaa0-ff4b-49fb-b140-b6725810cd06
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,described, base.ivdsdiskonline, vds/IVdsDiskOnline

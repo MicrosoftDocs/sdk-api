@@ -4,7 +4,7 @@ title: IXpsOMPath::SetAccessibilityShortDescription (xpsobjectmodel.h)
 description: Sets the short textual description of the object's contents.
 helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetAccessibilityShortDescription method","IXpsOMPath.SetAccessibilityShortDescription","IXpsOMPath::SetAccessibilityShortDescription","SetAccessibilityShortDescription","SetAccessibilityShortDescription method [XPS Documents and Packaging]","SetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setaccessibilityshortdescription","xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription"]
 old-location: xps\ixpsompath_setaccessibilityshortdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 1e078817-be7c-493c-9b46-9c9f4068745c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMPath.SetAccessibilityShortDescription, IXpsOMPath::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription

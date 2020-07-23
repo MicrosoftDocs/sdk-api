@@ -4,7 +4,7 @@ title: IMFClockConsumer (mfidl.h)
 description: Implemented by an app in order to get access to the IMFPresentationClock.
 helpviewer_keywords: ["IMFClockConsumer","IMFClockConsumer interface [Media Foundation]","IMFClockConsumer interface [Media Foundation]","described","mf.imfclockconsumer","mfidl/IMFClockConsumer"]
 old-location: mf\imfclockconsumer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B21D3797-695F-4794-80A2-05D381F288C2
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IMFClockConsumer interface [Media Foundation],described, mf.imfclockconsumer, mfidl/IMFClockConsumer

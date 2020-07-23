@@ -4,7 +4,7 @@ title: IMFSourceBuffer::AppendByteStream (mfmediaengine.h)
 description: Appends the media segment from the specified byte stream to the IMFSourceBuffer.
 helpviewer_keywords: ["AppendByteStream","AppendByteStream method [Media Foundation]","AppendByteStream method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","AppendByteStream method","IMFSourceBuffer.AppendByteStream","IMFSourceBuffer::AppendByteStream","mf.imfsourcebuffer_appendbytestream","mfmediaengine/IMFSourceBuffer::AppendByteStream"]
 old-location: mf\imfsourcebuffer_appendbytestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1a4fc611-4923-48ad-bc92-c3686d855c13
 ms.date: 12/05/2018
 ms.keywords: AppendByteStream, AppendByteStream method [Media Foundation], AppendByteStream method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],AppendByteStream method, IMFSourceBuffer.AppendByteStream, IMFSourceBuffer::AppendByteStream, mf.imfsourcebuffer_appendbytestream, mfmediaengine/IMFSourceBuffer::AppendByteStream

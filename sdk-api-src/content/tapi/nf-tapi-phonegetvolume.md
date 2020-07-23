@@ -4,7 +4,7 @@ title: phoneGetVolume function (tapi.h)
 description: The phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 helpviewer_keywords: ["_tapi2_phonegetvolume","phoneGetVolume","phoneGetVolume function [TAPI 2.2]","tapi/phoneGetVolume","tapi2.phonegetvolume"]
 old-location: tapi2\phonegetvolume.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 049da2d5-4c31-4311-8dac-30545f8bf39b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetvolume, phoneGetVolume, phoneGetVolume function [TAPI 2.2], tapi/phoneGetVolume, tapi2.phonegetvolume

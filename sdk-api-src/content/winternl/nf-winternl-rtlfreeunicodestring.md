@@ -4,7 +4,7 @@ title: RtlFreeUnicodeString function (winternl.h)
 description: Frees the string buffer allocated by RtlAnsiStringToUnicodeString or by RtlUpcaseUnicodeString.
 helpviewer_keywords: ["RtlFreeUnicodeString","RtlFreeUnicodeString function [Windows API]","winprog.rtlfreeunicodestring","winternl/RtlFreeUnicodeString","winui.rtlfreeunicodestring"]
 old-location: winprog\rtlfreeunicodestring.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeunicodestring.htm
 ms.date: 12/05/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString function [Windows API], winprog.rtlfreeunicodestring, winternl/RtlFreeUnicodeString, winui.rtlfreeunicodestring

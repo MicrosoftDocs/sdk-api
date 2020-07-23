@@ -4,7 +4,7 @@ title: IVdsHwProvider::Refresh (vdshwprv.h)
 description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers.
 helpviewer_keywords: ["IVdsHwProvider interface [VDS]","Refresh method","IVdsHwProvider.Refresh","IVdsHwProvider::Refresh","Refresh","Refresh method [VDS]","Refresh method [VDS]","IVdsHwProvider interface","base.ivdshwprovider_refresh","vds/IVdsHwProvider::Refresh","vdshwprv/IVdsHwProvider::Refresh"]
 old-location: base\ivdshwprovider_refresh.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProvider interface [VDS],Refresh method, IVdsHwProvider.Refresh, IVdsHwProvider::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsHwProvider interface, base.ivdshwprovider_refresh, vds/IVdsHwProvider::Refresh, vdshwprv/IVdsHwProvider::Refresh

@@ -4,7 +4,7 @@ title: CfCreatePlaceholders function (cfapi.h)
 description: Creates one or more new placeholder files or directories under a sync root tree.
 helpviewer_keywords: ["CfCreatePlaceholders","CfCreatePlaceholders function","cfapi/CfCreatePlaceholders","cloudApi.cfcreateplaceholders"]
 old-location: cloudapi\cfcreateplaceholders.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 96A6F62E-7F14-40B5-AB57-260DC9B1DF89
 ms.date: 12/05/2018
 ms.keywords: CfCreatePlaceholders, CfCreatePlaceholders function, cfapi/CfCreatePlaceholders, cloudApi.cfcreateplaceholders

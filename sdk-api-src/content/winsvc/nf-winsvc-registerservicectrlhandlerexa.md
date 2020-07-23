@@ -4,7 +4,7 @@ title: RegisterServiceCtrlHandlerExA function (winsvc.h)
 description: Registers a function to handle extended service control requests.
 helpviewer_keywords: ["RegisterServiceCtrlHandlerEx","RegisterServiceCtrlHandlerEx function","RegisterServiceCtrlHandlerExA","RegisterServiceCtrlHandlerExW","_win32_registerservicectrlhandlerex","base.registerservicectrlhandlerex","winsvc/RegisterServiceCtrlHandlerEx","winsvc/RegisterServiceCtrlHandlerExA","winsvc/RegisterServiceCtrlHandlerExW"]
 old-location: base\registerservicectrlhandlerex.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 23eea346-9899-4214-88f4-9b7eb7ce1332
 ms.date: 12/05/2018
 ms.keywords: RegisterServiceCtrlHandlerEx, RegisterServiceCtrlHandlerEx function, RegisterServiceCtrlHandlerExA, RegisterServiceCtrlHandlerExW, _win32_registerservicectrlhandlerex, base.registerservicectrlhandlerex, winsvc/RegisterServiceCtrlHandlerEx, winsvc/RegisterServiceCtrlHandlerExA, winsvc/RegisterServiceCtrlHandlerExW

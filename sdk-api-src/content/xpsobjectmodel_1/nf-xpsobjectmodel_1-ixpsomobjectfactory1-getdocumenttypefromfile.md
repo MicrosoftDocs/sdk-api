@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory1::GetDocumentTypeFromFile (xpsobjectmodel_1.h)
 description: Detects the type of XPS document that is stored in the specified file.
 helpviewer_keywords: ["GetDocumentTypeFromFile","GetDocumentTypeFromFile method [XPS Documents and Packaging]","GetDocumentTypeFromFile method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","GetDocumentTypeFromFile method","IXpsOMObjectFactory1.GetDocumentTypeFromFile","IXpsOMObjectFactory1::GetDocumentTypeFromFile","xps.ixpsomobjectfactory1_getdocumenttypefromfile","xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromFile"]
 old-location: xps\ixpsomobjectfactory1_getdocumenttypefromfile.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a122c7cb-4166-46e1-a680-d0644ab8ce81
 ms.date: 12/05/2018
 ms.keywords: GetDocumentTypeFromFile, GetDocumentTypeFromFile method [XPS Documents and Packaging], GetDocumentTypeFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromFile method, IXpsOMObjectFactory1.GetDocumentTypeFromFile, IXpsOMObjectFactory1::GetDocumentTypeFromFile, xps.ixpsomobjectfactory1_getdocumenttypefromfile, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromFile

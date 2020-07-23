@@ -4,7 +4,7 @@ title: DRMEncrypt function (msdrm.h)
 description: Encrypts data.
 helpviewer_keywords: ["DRMEncrypt","DRMEncrypt function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMEncrypt","rm.drmencrypt"]
 old-location: rm\drmencrypt.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 1de19409-2b14-4ab0-9853-23ee5741a7ae
 ms.date: 12/05/2018
 ms.keywords: DRMEncrypt, DRMEncrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncrypt, rm.drmencrypt

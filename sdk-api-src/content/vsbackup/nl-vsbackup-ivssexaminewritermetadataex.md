@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadataEx (vsbackup.h)
 description: Provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 helpviewer_keywords: ["IVssExamineWriterMetadataEx","IVssExamineWriterMetadataEx interface [VSS]","IVssExamineWriterMetadataEx interface [VSS]","described","base.ivssexaminewritermetadataex","vsbackup/IVssExamineWriterMetadataEx"]
 old-location: base\ivssexaminewritermetadataex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx

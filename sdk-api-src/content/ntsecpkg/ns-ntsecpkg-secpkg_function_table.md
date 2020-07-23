@@ -4,7 +4,7 @@ title: SECPKG_FUNCTION_TABLE (ntsecpkg.h)
 description: The SECPKG_FUNCTION_TABLE structure contains pointers to the LSA functions that a security package must implement. The Local Security Authority (LSA) obtains this structure from an SSP/AP DLL when it calls the SpLsaModeInitialize function.
 helpviewer_keywords: ["*PSECPKG_FUNCTION_TABLE","PSECPKG_FUNCTION_TABLE","PSECPKG_FUNCTION_TABLE structure pointer [Security]","SECPKG_FUNCTION_TABLE","SECPKG_FUNCTION_TABLE structure [Security]","_ssp_secpkg_function_table","ntsecpkg/PSECPKG_FUNCTION_TABLE","ntsecpkg/SECPKG_FUNCTION_TABLE","security.secpkg_function_table"]
 old-location: security\secpkg_function_table.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 43ca0f9b-1393-48aa-9d9c-4dd19963a66d
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE structure pointer [Security], SECPKG_FUNCTION_TABLE, SECPKG_FUNCTION_TABLE structure [Security], _ssp_secpkg_function_table, ntsecpkg/PSECPKG_FUNCTION_TABLE, ntsecpkg/SECPKG_FUNCTION_TABLE, security.secpkg_function_table'

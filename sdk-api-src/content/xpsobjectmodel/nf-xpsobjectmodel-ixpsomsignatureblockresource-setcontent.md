@@ -4,7 +4,7 @@ title: IXpsOMSignatureBlockResource::SetContent (xpsobjectmodel.h)
 description: Sets the read-only stream to be associated with this resource.
 helpviewer_keywords: ["IXpsOMSignatureBlockResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMSignatureBlockResource.SetContent","IXpsOMSignatureBlockResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMSignatureBlockResource interface","xps.ixpsomsignatureblockresource_setcontent","xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent"]
 old-location: xps\ixpsomsignatureblockresource_setcontent.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f9a10907-9241-42af-8858-029c2cf925cf
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],SetContent method, IXpsOMSignatureBlockResource.SetContent, IXpsOMSignatureBlockResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, xps.ixpsomsignatureblockresource_setcontent, xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent

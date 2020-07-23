@@ -4,7 +4,7 @@ title: IMFMediaSourceExtension::RemoveSourceBuffer (mfmediaengine.h)
 description: Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.
 helpviewer_keywords: ["IMFMediaSourceExtension interface [Media Foundation]","RemoveSourceBuffer method","IMFMediaSourceExtension.RemoveSourceBuffer","IMFMediaSourceExtension::RemoveSourceBuffer","RemoveSourceBuffer","RemoveSourceBuffer method [Media Foundation]","RemoveSourceBuffer method [Media Foundation]","IMFMediaSourceExtension interface","mf.imfmediasourceextension_removesourcebuffer","mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer"]
 old-location: mf\imfmediasourceextension_removesourcebuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],RemoveSourceBuffer method, IMFMediaSourceExtension.RemoveSourceBuffer, IMFMediaSourceExtension::RemoveSourceBuffer, RemoveSourceBuffer, RemoveSourceBuffer method [Media Foundation], RemoveSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_removesourcebuffer, mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer

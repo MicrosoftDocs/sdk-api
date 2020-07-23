@@ -4,7 +4,7 @@ title: CreatePipe function (namedpipeapi.h)
 description: Creates an anonymous pipe, and returns handles to the read and write ends of the pipe.
 helpviewer_keywords: ["CreatePipe","CreatePipe function","_win32_createpipe","base.createpipe","namedpipeapi/CreatePipe"]
 old-location: base\createpipe.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: a2d2fee8-c174-49d3-9e5a-2ce3bb763932
 ms.date: 12/05/2018
 ms.keywords: CreatePipe, CreatePipe function, _win32_createpipe, base.createpipe, namedpipeapi/CreatePipe

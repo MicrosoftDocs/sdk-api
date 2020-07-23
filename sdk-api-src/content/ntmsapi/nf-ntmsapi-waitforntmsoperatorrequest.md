@@ -4,7 +4,7 @@ title: WaitForNtmsOperatorRequest function (ntmsapi.h)
 description: The WaitForNtmsOperatorRequest function waits for the specified RSM operator request.
 helpviewer_keywords: ["WaitForNtmsOperatorRequest","WaitForNtmsOperatorRequest function [Files]","_zaw_waitforntmsoperatorrequest","base.waitforntmsoperatorrequest","fs.waitforntmsoperatorrequest","ntmsapi/WaitForNtmsOperatorRequest"]
 old-location: fs\waitforntmsoperatorrequest.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: abc78047-a6d7-4e98-baec-5e4ba394c64f
 ms.date: 12/05/2018
 ms.keywords: WaitForNtmsOperatorRequest, WaitForNtmsOperatorRequest function [Files], _zaw_waitforntmsoperatorrequest, base.waitforntmsoperatorrequest, fs.waitforntmsoperatorrequest, ntmsapi/WaitForNtmsOperatorRequest

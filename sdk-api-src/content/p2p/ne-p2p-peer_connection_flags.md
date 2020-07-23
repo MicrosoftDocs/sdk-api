@@ -4,7 +4,7 @@ title: PEER_CONNECTION_FLAGS (p2p.h)
 description: The PEER_CONNECTION_FLAGS enumeration specifies the types of connections that a peer can have.
 helpviewer_keywords: ["PEER_CONNECTION_DIRECT","PEER_CONNECTION_FLAGS","PEER_CONNECTION_FLAGS enumeration [Peer Networking]","PEER_CONNECTION_NEIGHBOR","p2p.peer_connection_flags","p2p/PEER_CONNECTION_DIRECT","p2p/PEER_CONNECTION_FLAGS","p2p/PEER_CONNECTION_NEIGHBOR"]
 old-location: p2p\peer_connection_flags.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 24723421-18e4-4333-8c25-f5ee08182f7f
 ms.date: 12/05/2018
 ms.keywords: PEER_CONNECTION_DIRECT, PEER_CONNECTION_FLAGS, PEER_CONNECTION_FLAGS enumeration [Peer Networking], PEER_CONNECTION_NEIGHBOR, p2p.peer_connection_flags, p2p/PEER_CONNECTION_DIRECT, p2p/PEER_CONNECTION_FLAGS, p2p/PEER_CONNECTION_NEIGHBOR

@@ -4,7 +4,7 @@ title: SLGetPolicyInformation function (slpublic.h)
 description: Gets the policy information after right has been consumed successfully.
 helpviewer_keywords: ["SLGetPolicyInformation","SLGetPolicyInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","security.slgetpolicyinformation","slpublic/SLGetPolicyInformation"]
 old-location: security\slgetpolicyinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a9cfd1a0-e622-4726-918b-264f196a4e85
 ms.date: 12/05/2018
 ms.keywords: SLGetPolicyInformation, SLGetPolicyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, security.slgetpolicyinformation, slpublic/SLGetPolicyInformation

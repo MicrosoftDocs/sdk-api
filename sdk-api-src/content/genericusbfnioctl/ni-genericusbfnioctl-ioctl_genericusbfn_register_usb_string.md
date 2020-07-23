@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_REGISTER_USB_STRING (genericusbfnioctl.h)
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to register a string descriptor.Universal Serial Bus (USB) string descriptor.
 helpviewer_keywords: ["IOCTL_GENERICUSBFN_REGISTER_USB_STRING","IOCTL_GENERICUSBFN_REGISTER_USB_STRING control","IOCTL_GENERICUSBFN_REGISTER_USB_STRING control code [Buses]","buses.ioctl_genericusbfn_register_usb_string","genericusbfnioctl/IOCTL_GENERICUSBFN_REGISTER_USB_STRING"]
 old-location: buses\ioctl_genericusbfn_register_usb_string.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: E3BDD2EF-C3F2-435E-8473-84C8FFAEAB06
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_REGISTER_USB_STRING, IOCTL_GENERICUSBFN_REGISTER_USB_STRING control, IOCTL_GENERICUSBFN_REGISTER_USB_STRING control code [Buses], buses.ioctl_genericusbfn_register_usb_string, genericusbfnioctl/IOCTL_GENERICUSBFN_REGISTER_USB_STRING

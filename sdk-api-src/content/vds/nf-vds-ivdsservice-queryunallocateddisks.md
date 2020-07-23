@@ -4,7 +4,7 @@ title: IVdsService::QueryUnallocatedDisks (vds.h)
 description: Returns an enumeration object containing a list of the unallocated disks managed by VDS.
 helpviewer_keywords: ["IVdsService interface [VDS]","QueryUnallocatedDisks method","IVdsService.QueryUnallocatedDisks","IVdsService::QueryUnallocatedDisks","QueryUnallocatedDisks","QueryUnallocatedDisks method [VDS]","QueryUnallocatedDisks method [VDS]","IVdsService interface","base.ivdsservice_queryunallocateddisks","vds/IVdsService::QueryUnallocatedDisks"]
 old-location: base\ivdsservice_queryunallocateddisks.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d519c3d0-7c5a-4c0c-bad9-2429490f2212
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryUnallocatedDisks method, IVdsService.QueryUnallocatedDisks, IVdsService::QueryUnallocatedDisks, QueryUnallocatedDisks, QueryUnallocatedDisks method [VDS], QueryUnallocatedDisks method [VDS],IVdsService interface, base.ivdsservice_queryunallocateddisks, vds/IVdsService::QueryUnallocatedDisks

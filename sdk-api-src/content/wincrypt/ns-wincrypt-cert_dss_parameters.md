@@ -4,7 +4,7 @@ title: CERT_DSS_PARAMETERS (wincrypt.h)
 description: Contains parameters associated with a Digital Signature Standard (DSS) public key algorithm.
 helpviewer_keywords: ["*PCERT_DSS_PARAMETERS","CERT_DSS_PARAMETERS","CERT_DSS_PARAMETERS structure [Security]","PCERT_DSS_PARAMETERS","PCERT_DSS_PARAMETERS structure pointer [Security]","_crypto2_cert_dss_parameters","security.cert_dss_parameters","wincrypt/CERT_DSS_PARAMETERS","wincrypt/PCERT_DSS_PARAMETERS"]
 old-location: security\cert_dss_parameters.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4544986a-8168-4d56-be5f-59d318da7c30
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS structure [Security], PCERT_DSS_PARAMETERS, PCERT_DSS_PARAMETERS structure pointer [Security], _crypto2_cert_dss_parameters, security.cert_dss_parameters, wincrypt/CERT_DSS_PARAMETERS, wincrypt/PCERT_DSS_PARAMETERS'

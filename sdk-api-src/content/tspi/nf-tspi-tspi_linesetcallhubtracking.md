@@ -4,7 +4,7 @@ title: TSPI_lineSetCallHubTracking function (tspi.h)
 description: The TSPI_lineSetCallHubTracking function sets the CallHub tracking mode. This function requires TAPI 3.0 version negotiation.
 helpviewer_keywords: ["TSPI_lineSetCallHubTracking","TSPI_lineSetCallHubTracking function [TAPI 2.2]","_tspi_tspi_linesetcallhubtracking","tspi.tspi_linesetcallhubtracking","tspi/TSPI_lineSetCallHubTracking"]
 old-location: tspi\tspi_linesetcallhubtracking.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ec2d5d46-1c83-47a0-9c10-684959630a16
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallHubTracking, TSPI_lineSetCallHubTracking function [TAPI 2.2], _tspi_tspi_linesetcallhubtracking, tspi.tspi_linesetcallhubtracking, tspi/TSPI_lineSetCallHubTracking

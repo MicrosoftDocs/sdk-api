@@ -4,7 +4,7 @@ title: IAMVideoControl::SetMode (strmif.h)
 description: The SetMode method sets the video control mode of operation.
 helpviewer_keywords: ["IAMVideoControl interface [DirectShow]","SetMode method","IAMVideoControl.SetMode","IAMVideoControl::SetMode","IAMVideoControlSetMode","SetMode","SetMode method [DirectShow]","SetMode method [DirectShow]","IAMVideoControl interface","dshow.iamvideocontrol_setmode","strmif/IAMVideoControl::SetMode"]
 old-location: dshow\iamvideocontrol_setmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 09fe5d3f-41d8-4a60-a770-64c628a6b82d
 ms.date: 12/05/2018
 ms.keywords: IAMVideoControl interface [DirectShow],SetMode method, IAMVideoControl.SetMode, IAMVideoControl::SetMode, IAMVideoControlSetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IAMVideoControl interface, dshow.iamvideocontrol_setmode, strmif/IAMVideoControl::SetMode

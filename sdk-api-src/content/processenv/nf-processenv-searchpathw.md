@@ -4,7 +4,7 @@ title: SearchPathW function
 description: Searches for a specified file in a specified path.
 helpviewer_keywords: ["SearchPath","SearchPath function [Files]","SearchPathA","SearchPathW","_win32_searchpath","base.searchpath","fs.searchpath","processenv/SearchPath","processenv/SearchPathA","processenv/SearchPathW"]
 old-location: fs\searchpath.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d
 ms.date: 12/5/2018
 ms.keywords: SearchPath, SearchPath function [Files], SearchPathA, SearchPathW, _win32_searchpath, base.searchpath, fs.searchpath, processenv/SearchPath, processenv/SearchPathA, processenv/SearchPathW

@@ -4,7 +4,7 @@ title: LINETERMCAPS (tapi.h)
 description: The LINETERMCAPS structure describes the capabilities of a line's terminal device. The LINEDEVCAPS structure can contain an array of LINETERMCAPS structures.
 helpviewer_keywords: ["*LPLINETERMCAPS","LINETERMCAPS","LINETERMCAPS structure [TAPI 2.2]","LPLINETERMCAPS","LPLINETERMCAPS structure pointer [TAPI 2.2]","_tapi2_linetermcaps_str","tapi/LINETERMCAPS","tapi/LPLINETERMCAPS","tapi2.linetermcaps_str"]
 old-location: tapi2\linetermcaps_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 54d36126-a032-4baa-8484-6ebeb9c4adf9
 ms.date: 12/05/2018
 ms.keywords: '*LPLINETERMCAPS, LINETERMCAPS, LINETERMCAPS structure [TAPI 2.2], LPLINETERMCAPS, LPLINETERMCAPS structure pointer [TAPI 2.2], _tapi2_linetermcaps_str, tapi/LINETERMCAPS, tapi/LPLINETERMCAPS, tapi2.linetermcaps_str'

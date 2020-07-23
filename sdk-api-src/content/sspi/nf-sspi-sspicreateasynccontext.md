@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Creates an instance of SspiAsyncContext which is used to track the async call.
+tech.root: security
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ title: IAzRoleDefinitions (azroles.h)
 description: Represents a collection of IAzRoleDefinition objects.
 helpviewer_keywords: ["IAzRoleDefinitions","IAzRoleDefinitions interface [Security]","IAzRoleDefinitions interface [Security]","described","azroles/IAzRoleDefinitions","security.iazroledefinitions"]
 old-location: security\iazroledefinitions.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9d17647c-3ff9-4881-a02f-d7bcb508e102
 ms.date: 12/05/2018
 ms.keywords: IAzRoleDefinitions, IAzRoleDefinitions interface [Security], IAzRoleDefinitions interface [Security],described, azroles/IAzRoleDefinitions, security.iazroledefinitions

@@ -4,7 +4,7 @@ title: IEnumStreamIdMap::Next (strmif.h)
 description: The Next method retrieves the next n elements in the collection.
 helpviewer_keywords: ["IEnumStreamIdMap interface [DirectShow]","Next method","IEnumStreamIdMap.Next","IEnumStreamIdMap::Next","IEnumStreamIdMapNext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumStreamIdMap interface","dshow.ienumstreamidmap_next","strmif/IEnumStreamIdMap::Next"]
 old-location: dshow\ienumstreamidmap_next.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 49e7ab23-e57e-4437-a195-88bccb6002de
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next

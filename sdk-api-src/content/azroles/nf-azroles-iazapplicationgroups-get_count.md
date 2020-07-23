@@ -4,7 +4,7 @@ title: IAzApplicationGroups::get_Count (azroles.h)
 description: Retrieves the number of IAzApplicationGroup objects in the collection.
 helpviewer_keywords: ["AzApplicationGroups object [Security]","Count property","Count property [Security]","Count property [Security]","AzApplicationGroups object","Count property [Security]","IAzApplicationGroups interface","IAzApplicationGroups interface [Security]","Count property","IAzApplicationGroups.Count","IAzApplicationGroups.get_Count","IAzApplicationGroups::Count","IAzApplicationGroups::get_Count","azroles/IAzApplicationGroups::Count","azroles/IAzApplicationGroups::get_Count","get_Count","security.iazapplicationgroups_count"]
 old-location: security\iazapplicationgroups_count.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d57e4428-3666-4eb0-8157-8b35acfc517b
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroups object [Security],Count property, Count property [Security], Count property [Security],AzApplicationGroups object, Count property [Security],IAzApplicationGroups interface, IAzApplicationGroups interface [Security],Count property, IAzApplicationGroups.Count, IAzApplicationGroups.get_Count, IAzApplicationGroups::Count, IAzApplicationGroups::get_Count, azroles/IAzApplicationGroups::Count, azroles/IAzApplicationGroups::get_Count, get_Count, security.iazapplicationgroups_count

@@ -4,7 +4,7 @@ title: EFS_HASH_BLOB (winefs.h)
 description: Contains a certificate hash.
 helpviewer_keywords: ["*PEFS_HASH_BLOB","EFS_HASH_BLOB","EFS_HASH_BLOB structure [Files]","PEFS_HASH_BLOB","PEFS_HASH_BLOB structure pointer [Files]","_win32_efs_hash_blob_str","base.efs_hash_blob_str","fs.efs_hash_blob_str","winefs/EFS_HASH_BLOB","winefs/PEFS_HASH_BLOB"]
 old-location: fs\efs_hash_blob_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 23a172be-6e94-4a1f-afde-fc9437443c7a
 ms.date: 12/05/2018
 ms.keywords: '*PEFS_HASH_BLOB, EFS_HASH_BLOB, EFS_HASH_BLOB structure [Files], PEFS_HASH_BLOB, PEFS_HASH_BLOB structure pointer [Files], _win32_efs_hash_blob_str, base.efs_hash_blob_str, fs.efs_hash_blob_str, winefs/EFS_HASH_BLOB, winefs/PEFS_HASH_BLOB'

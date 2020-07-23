@@ -4,7 +4,7 @@ title: IReferenceClock::GetTime (strmif.h)
 description: The GetTime method retrieves the current reference time.
 helpviewer_keywords: ["GetTime","GetTime method [DirectShow]","GetTime method [DirectShow]","IReferenceClock interface","IReferenceClock interface [DirectShow]","GetTime method","IReferenceClock.GetTime","IReferenceClock::GetTime","IReferenceClockGetTime","dshow.ireferenceclock_gettime","strmif/IReferenceClock::GetTime"]
 old-location: dshow\ireferenceclock_gettime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1fcf8b8a-f449-4f42-8061-cc4116867d9d
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],GetTime method, IReferenceClock.GetTime, IReferenceClock::GetTime, IReferenceClockGetTime, dshow.ireferenceclock_gettime, strmif/IReferenceClock::GetTime

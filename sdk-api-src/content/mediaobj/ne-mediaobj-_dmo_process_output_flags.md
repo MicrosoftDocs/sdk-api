@@ -4,7 +4,7 @@ title: "_DMO_PROCESS_OUTPUT_FLAGS (mediaobj.h)"
 description: The DMO_PROCESS_OUTPUT_FLAGS enumeration defines flags that specify output processing requests.
 helpviewer_keywords: ["DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER","DMO_PROCESS_OUTPUT_FLAGS","DMO_PROCESS_OUTPUT_FLAGSEnumeration","_DMO_PROCESS_OUTPUT_FLAGS","_DMO_PROCESS_OUTPUT_FLAGS enumeration [DirectShow]","dshow.dmo_process_output_flags","mediaobj/DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER","mediaobj/_DMO_PROCESS_OUTPUT_FLAGS"]
 old-location: dshow\dmo_process_output_flags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7648f975-3753-41fe-a311-e86334ef7071
 ms.date: 12/05/2018
 ms.keywords: DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, DMO_PROCESS_OUTPUT_FLAGS , DMO_PROCESS_OUTPUT_FLAGSEnumeration, _DMO_PROCESS_OUTPUT_FLAGS, _DMO_PROCESS_OUTPUT_FLAGS enumeration [DirectShow], dshow.dmo_process_output_flags, mediaobj/DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mediaobj/_DMO_PROCESS_OUTPUT_FLAGS

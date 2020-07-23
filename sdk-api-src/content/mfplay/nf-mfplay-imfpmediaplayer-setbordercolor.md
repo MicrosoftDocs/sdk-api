@@ -4,7 +4,7 @@ title: IMFPMediaPlayer::SetBorderColor (mfplay.h)
 description: Sets the color for the video border.
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetBorderColor method","IMFPMediaPlayer.SetBorderColor","IMFPMediaPlayer::SetBorderColor","SetBorderColor","SetBorderColor method [Media Foundation]","SetBorderColor method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setbordercolor","mfplay/IMFPMediaPlayer::SetBorderColor"]
 old-location: mf\imfpmediaplayer_setbordercolor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f66b671d-0c7d-4261-8210-05f2d2f8d9a5
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBorderColor method, IMFPMediaPlayer.SetBorderColor, IMFPMediaPlayer::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbordercolor, mfplay/IMFPMediaPlayer::SetBorderColor

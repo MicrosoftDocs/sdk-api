@@ -4,7 +4,7 @@ title: MFCreateASFStreamingMediaSinkActivate function (wmcontainer.h)
 description: Creates an activation object for the ASF streaming sink.
 helpviewer_keywords: ["MFCreateASFStreamingMediaSinkActivate","MFCreateASFStreamingMediaSinkActivate function [Media Foundation]","mf.mfcreateasfstreamingmediasinkactivate","wmcontainer/MFCreateASFStreamingMediaSinkActivate"]
 old-location: mf\mfcreateasfstreamingmediasinkactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ffcab5ee-400a-424f-ab98-3c9e36ef40ce
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFStreamingMediaSinkActivate, MFCreateASFStreamingMediaSinkActivate function [Media Foundation], mf.mfcreateasfstreamingmediasinkactivate, wmcontainer/MFCreateASFStreamingMediaSinkActivate

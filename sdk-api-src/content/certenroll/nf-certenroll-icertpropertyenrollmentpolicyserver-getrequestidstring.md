@@ -4,7 +4,7 @@ title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString (certenroll.h)
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 helpviewer_keywords: ["GetRequestIdString","GetRequestIdString method [Security]","GetRequestIdString method [Security]","ICertPropertyEnrollmentPolicyServer interface","ICertPropertyEnrollmentPolicyServer interface [Security]","GetRequestIdString method","ICertPropertyEnrollmentPolicyServer.GetRequestIdString","ICertPropertyEnrollmentPolicyServer::GetRequestIdString","certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString","security.icertpropertyenrollmentpolicyserver_getrequestidstring"]
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
 ms.date: 12/05/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring

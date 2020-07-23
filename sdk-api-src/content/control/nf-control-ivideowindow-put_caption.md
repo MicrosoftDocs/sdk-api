@@ -4,7 +4,7 @@ title: IVideoWindow::put_Caption (control.h)
 description: The put_Caption method sets the video window caption.
 helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_Caption method","IVideoWindow.put_Caption","IVideoWindow::put_Caption","IVideoWindowput_Caption","control/IVideoWindow::put_Caption","dshow.ivideowindow_put_caption","put_Caption","put_Caption method [DirectShow]","put_Caption method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_caption.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d16dca01-95ba-4573-b9c4-ab996dcf21e4
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Caption method, IVideoWindow.put_Caption, IVideoWindow::put_Caption, IVideoWindowput_Caption, control/IVideoWindow::put_Caption, dshow.ivideowindow_put_caption, put_Caption, put_Caption method [DirectShow], put_Caption method [DirectShow],IVideoWindow interface

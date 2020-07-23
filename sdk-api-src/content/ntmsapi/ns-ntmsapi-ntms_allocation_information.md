@@ -4,7 +4,7 @@ title: NTMS_ALLOCATION_INFORMATION (ntmsapi.h)
 description: The NTMS_ALLOCATION_INFORMATION structure contains information about the source media pool from which a medium was taken.
 helpviewer_keywords: ["*LPNTMS_ALLOCATION_INFORMATION","LPNTMS_ALLOCATION_INFORMATION","LPNTMS_ALLOCATION_INFORMATION structure pointer [Files]","NTMS_ALLOCATION_INFORMATION","NTMS_ALLOCATION_INFORMATION structure [Files]","_zaw_ntms_allocation_information","base.ntms_allocation_information","fs.ntms_allocation_information","ntmsapi/LPNTMS_ALLOCATION_INFORMATION","ntmsapi/NTMS_ALLOCATION_INFORMATION"]
 old-location: fs\ntms_allocation_information.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 6861dcea-7f50-4175-85f1-b59478d6c119
 ms.date: 12/05/2018
 ms.keywords: '*LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION structure pointer [Files], NTMS_ALLOCATION_INFORMATION, NTMS_ALLOCATION_INFORMATION structure [Files], _zaw_ntms_allocation_information, base.ntms_allocation_information, fs.ntms_allocation_information, ntmsapi/LPNTMS_ALLOCATION_INFORMATION, ntmsapi/NTMS_ALLOCATION_INFORMATION'

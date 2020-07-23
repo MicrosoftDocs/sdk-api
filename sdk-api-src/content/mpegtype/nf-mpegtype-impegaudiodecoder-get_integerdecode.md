@@ -4,7 +4,7 @@ title: IMpegAudioDecoder::get_IntegerDecode (mpegtype.h)
 description: Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
 helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","get_IntegerDecode method","IMpegAudioDecoder.get_IntegerDecode","IMpegAudioDecoder::get_IntegerDecode","IMpegAudioDecodergetIntegerDecode","dshow.impegaudiodecoder_get_integerdecode","get_IntegerDecode","get_IntegerDecode method [DirectShow]","get_IntegerDecode method [DirectShow]","IMpegAudioDecoder interface","mpegtype/IMpegAudioDecoder::get_IntegerDecode"]
 old-location: dshow\impegaudiodecoder_get_integerdecode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3cb73c5a-8bca-4dc3-a48c-cac57f3d7fbf
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_IntegerDecode method, IMpegAudioDecoder.get_IntegerDecode, IMpegAudioDecoder::get_IntegerDecode, IMpegAudioDecodergetIntegerDecode, dshow.impegaudiodecoder_get_integerdecode, get_IntegerDecode, get_IntegerDecode method [DirectShow], get_IntegerDecode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_IntegerDecode

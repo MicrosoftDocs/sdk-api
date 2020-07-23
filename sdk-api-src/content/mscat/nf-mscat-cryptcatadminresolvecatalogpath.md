@@ -4,7 +4,7 @@ title: CryptCATAdminResolveCatalogPath function (mscat.h)
 description: Retrieves the fully qualified path of the specified catalog.
 helpviewer_keywords: ["CryptCATAdminResolveCatalogPath","CryptCATAdminResolveCatalogPath function [Security]","mscat/CryptCATAdminResolveCatalogPath","security.cryptcatadminresolvecatalogpath"]
 old-location: security\cryptcatadminresolvecatalogpath.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminResolveCatalogPath, CryptCATAdminResolveCatalogPath function [Security], mscat/CryptCATAdminResolveCatalogPath, security.cryptcatadminresolvecatalogpath

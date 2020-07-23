@@ -4,7 +4,7 @@ title: IMultiInterfaceEventControl::SetDefaultQuery (eventsys.h)
 description: Establishes a default query to be used when a publisher filter is not associated with an event method.
 helpviewer_keywords: ["IMultiInterfaceEventControl interface [COM+]","SetDefaultQuery method","IMultiInterfaceEventControl.SetDefaultQuery","IMultiInterfaceEventControl::SetDefaultQuery","SetDefaultQuery","SetDefaultQuery method [COM+]","SetDefaultQuery method [COM+]","IMultiInterfaceEventControl interface","_cos_IMultiInterfaceEventControl_SetDefaultQuery","cos.imultiinterfaceeventcontrol_setdefaultquery","eventsys/IMultiInterfaceEventControl::SetDefaultQuery"]
 old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 31d544d4-8cac-46ae-9db7-c5b366ac6b2f
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetDefaultQuery method, IMultiInterfaceEventControl.SetDefaultQuery, IMultiInterfaceEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetDefaultQuery, cos.imultiinterfaceeventcontrol_setdefaultquery, eventsys/IMultiInterfaceEventControl::SetDefaultQuery

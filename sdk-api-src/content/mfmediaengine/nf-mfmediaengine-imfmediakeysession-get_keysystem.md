@@ -4,7 +4,7 @@ title: IMFMediaKeySession::get_KeySystem (mfmediaengine.h)
 description: Gets the name of the key system name the media keys object was created with.
 helpviewer_keywords: ["IMFMediaKeySession interface [Media Foundation]","get_KeySystem method","IMFMediaKeySession.get_KeySystem","IMFMediaKeySession::get_KeySystem","get_KeySystem","get_KeySystem method [Media Foundation]","get_KeySystem method [Media Foundation]","IMFMediaKeySession interface","mf.imfmediakeysession_get_keysystem","mfmediaengine/IMFMediaKeySession::get_KeySystem"]
 old-location: mf\imfmediakeysession_get_keysystem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: eaf3a411-7282-496c-8095-79a8913a0f8e
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_KeySystem method, IMFMediaKeySession.get_KeySystem, IMFMediaKeySession::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_keysystem, mfmediaengine/IMFMediaKeySession::get_KeySystem

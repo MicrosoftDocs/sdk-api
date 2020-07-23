@@ -4,7 +4,7 @@ title: IDispenserDriver::ResetResource (comsvcs.h)
 description: Prepares the resource to be put back into general or enlisted inventory.
 helpviewer_keywords: ["IDispenserDriver interface [COM+]","ResetResource method","IDispenserDriver.ResetResource","IDispenserDriver::ResetResource","ResetResource","ResetResource method [COM+]","ResetResource method [COM+]","IDispenserDriver interface","_dtc_IDispenserDriver_ResetResource","comsvcs/IDispenserDriver::ResetResource","cos.idispenserdriver_resetresource"]
 old-location: cos\idispenserdriver_resetresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 59df0703-90ea-480c-8608-7d43039b48ba
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver interface [COM+],ResetResource method, IDispenserDriver.ResetResource, IDispenserDriver::ResetResource, ResetResource, ResetResource method [COM+], ResetResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_ResetResource, comsvcs/IDispenserDriver::ResetResource, cos.idispenserdriver_resetresource

@@ -4,7 +4,7 @@ title: IMFByteStreamCacheControl2::IsBackgroundTransferActive (mfidl.h)
 description: Queries whether background transfer is active.
 helpviewer_keywords: ["IMFByteStreamCacheControl2 interface [Media Foundation]","IsBackgroundTransferActive method","IMFByteStreamCacheControl2.IsBackgroundTransferActive","IMFByteStreamCacheControl2::IsBackgroundTransferActive","IsBackgroundTransferActive","IsBackgroundTransferActive method [Media Foundation]","IsBackgroundTransferActive method [Media Foundation]","IMFByteStreamCacheControl2 interface","mf.imfbytestreamcachecontrol2_isbackgroundtransferactive","mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive"]
 old-location: mf\imfbytestreamcachecontrol2_isbackgroundtransferactive.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: FC08E5E8-A7E0-461C-B70C-B1273FCDD1A0
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],IsBackgroundTransferActive method, IMFByteStreamCacheControl2.IsBackgroundTransferActive, IMFByteStreamCacheControl2::IsBackgroundTransferActive, IsBackgroundTransferActive, IsBackgroundTransferActive method [Media Foundation], IsBackgroundTransferActive method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_isbackgroundtransferactive, mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive

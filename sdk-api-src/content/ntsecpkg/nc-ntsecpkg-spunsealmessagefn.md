@@ -4,7 +4,7 @@ title: SpUnsealMessageFn (ntsecpkg.h)
 description: Decrypts a message that was previously encrypted with the SpSealMessage function.
 helpviewer_keywords: ["SpUnsealMessage","SpUnsealMessage callback function [Security]","SpUnsealMessageFn","SpUnsealMessageFn callback","_ssp_spunsealmessage","ntsecpkg/SpUnsealMessage","security.spunsealmessage"]
 old-location: security\spunsealmessage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3ece6f30-bb8b-4fad-a8c4-9088c134cf25
 ms.date: 12/05/2018
 ms.keywords: SpUnsealMessage, SpUnsealMessage callback function [Security], SpUnsealMessageFn, SpUnsealMessageFn callback, _ssp_spunsealmessage, ntsecpkg/SpUnsealMessage, security.spunsealmessage

@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_StopTime (rend.h)
 description: The get_StopTime method gets the stop time of the conference. If the end time is zero, the session is not bounded.
 helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_StopTime method","ITDirectoryObjectConference.get_StopTime","ITDirectoryObjectConference::get_StopTime","_tapi3_itdirectoryobjectconference_get_stoptime","get_StopTime","get_StopTime method [TAPI 2.2]","get_StopTime method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_StopTime","tapi3.itdirectoryobjectconference_get_stoptime"]
 old-location: tapi3\itdirectoryobjectconference_get_stoptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: df22b117-8382-4ea2-8e6b-961f87f41b21
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StopTime method, ITDirectoryObjectConference.get_StopTime, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime

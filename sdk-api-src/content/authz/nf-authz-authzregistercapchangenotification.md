@@ -4,7 +4,7 @@ title: AuthzRegisterCapChangeNotification function (authz.h)
 description: Registers a CAP update notification callback.
 helpviewer_keywords: ["AuthzRegisterCapChangeNotification","AuthzRegisterCapChangeNotification function [Security]","authz/AuthzRegisterCapChangeNotification","security.authzregistercapchangenotification"]
 old-location: security\authzregistercapchangenotification.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC
 ms.date: 12/05/2018
 ms.keywords: AuthzRegisterCapChangeNotification, AuthzRegisterCapChangeNotification function [Security], authz/AuthzRegisterCapChangeNotification, security.authzregistercapchangenotification

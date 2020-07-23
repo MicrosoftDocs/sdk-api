@@ -4,7 +4,7 @@ title: IDownloadProgress::get_CurrentUpdatePercentComplete (wuapi.h)
 description: Gets an estimate of the percentage of the current update that has been downloaded.
 helpviewer_keywords: ["CurrentUpdatePercentComplete property [Windows Update Agent]","CurrentUpdatePercentComplete property [Windows Update Agent]","IDownloadProgress interface","IDownloadProgress interface [Windows Update Agent]","CurrentUpdatePercentComplete property","IDownloadProgress.CurrentUpdatePercentComplete","IDownloadProgress.get_CurrentUpdatePercentComplete","IDownloadProgress::CurrentUpdatePercentComplete","IDownloadProgress::get_CurrentUpdatePercentComplete","get_CurrentUpdatePercentComplete","wua.idownloadprogress_currentupdatepercentcomplete","wuapi/IDownloadProgress::CurrentUpdatePercentComplete","wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete"]
 old-location: wua\idownloadprogress_currentupdatepercentcomplete.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7dad425f-721a-4c4a-938b-d4de51f38dee
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IDownloadProgress.CurrentUpdatePercentComplete, IDownloadProgress.get_CurrentUpdatePercentComplete, IDownloadProgress::CurrentUpdatePercentComplete, IDownloadProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.idownloadprogress_currentupdatepercentcomplete, wuapi/IDownloadProgress::CurrentUpdatePercentComplete, wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete

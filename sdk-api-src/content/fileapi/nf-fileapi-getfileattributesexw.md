@@ -4,7 +4,7 @@ title: GetFileAttributesExW function (fileapi.h)
 description: Retrieves attributes for a specified file or directory.
 helpviewer_keywords: ["GetFileAttributesEx","GetFileAttributesEx function [Files]","GetFileAttributesExA","GetFileAttributesExW","GetFileExInfoStandard","_win32_getfileattributesex","base.getfileattributesex","fileapi/GetFileAttributesEx","fileapi/GetFileAttributesExA","fileapi/GetFileAttributesExW","fs.getfileattributesex","winbase/GetFileAttributesEx","winbase/GetFileAttributesExA","winbase/GetFileAttributesExW"]
 old-location: fs\getfileattributesex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW

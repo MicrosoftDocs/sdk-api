@@ -4,7 +4,7 @@ title: RegQueryMultipleValuesW function (winreg.h)
 description: Retrieves the type and data for a list of value names associated with an open registry key.
 helpviewer_keywords: ["RegQueryMultipleValues","RegQueryMultipleValues function","RegQueryMultipleValuesA","RegQueryMultipleValuesW","_win32_regquerymultiplevalues","base.regquerymultiplevalues","winreg/RegQueryMultipleValues","winreg/RegQueryMultipleValuesA","winreg/RegQueryMultipleValuesW"]
 old-location: base\regquerymultiplevalues.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
 ms.date: 12/05/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW

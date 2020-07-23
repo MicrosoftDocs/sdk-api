@@ -4,7 +4,7 @@ title: IMFTimedTextCue::GetTrackId (mfmediaengine.h)
 description: Gets the identifier of the timed-text cue.
 helpviewer_keywords: ["GetTrackId","GetTrackId method [Media Foundation]","GetTrackId method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetTrackId method","IMFTimedTextCue.GetTrackId","IMFTimedTextCue::GetTrackId","mf.imftimedtextcue_gettrackid","mfmediaengine/IMFTimedTextCue::GetTrackId"]
 old-location: mf\imftimedtextcue_gettrackid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 967CA2AC-A36A-4875-9882-6EF4748EC92C
 ms.date: 12/05/2018
 ms.keywords: GetTrackId, GetTrackId method [Media Foundation], GetTrackId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetTrackId method, IMFTimedTextCue.GetTrackId, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId

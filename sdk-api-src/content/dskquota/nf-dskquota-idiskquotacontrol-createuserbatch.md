@@ -4,7 +4,7 @@ title: IDiskQuotaControl::CreateUserBatch (dskquota.h)
 description: Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
 helpviewer_keywords: ["CreateUserBatch","CreateUserBatch method [Files]","CreateUserBatch method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","CreateUserBatch method","IDiskQuotaControl.CreateUserBatch","IDiskQuotaControl::CreateUserBatch","_win32_idiskquotacontrol_createuserbatch","base.idiskquotacontrol_createuserbatch","dskquota/IDiskQuotaControl::CreateUserBatch","fs.idiskquotacontrol_createuserbatch"]
 old-location: fs\idiskquotacontrol_createuserbatch.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c1c5a71f-4a2f-4bf9-b28f-11b87a558771
 ms.date: 12/05/2018
 ms.keywords: CreateUserBatch, CreateUserBatch method [Files], CreateUserBatch method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],CreateUserBatch method, IDiskQuotaControl.CreateUserBatch, IDiskQuotaControl::CreateUserBatch, _win32_idiskquotacontrol_createuserbatch, base.idiskquotacontrol_createuserbatch, dskquota/IDiskQuotaControl::CreateUserBatch, fs.idiskquotacontrol_createuserbatch

@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE
 description: Enables performance counters that provide disk performance information.
 helpviewer_keywords: ["IOCTL_DISK_PERFORMANCE","IOCTL_DISK_PERFORMANCE control","IOCTL_DISK_PERFORMANCE control code [Files]","_win32_ioctl_disk_performance","base.ioctl_disk_performance","fs.ioctl_disk_performance","winioctl/IOCTL_DISK_PERFORMANCE"]
 old-location: fs\ioctl_disk_performance.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e182282c-17e9-442a-8742-437052cfed03
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE, IOCTL_DISK_PERFORMANCE control, IOCTL_DISK_PERFORMANCE control code [Files], _win32_ioctl_disk_performance, base.ioctl_disk_performance, fs.ioctl_disk_performance, winioctl/IOCTL_DISK_PERFORMANCE

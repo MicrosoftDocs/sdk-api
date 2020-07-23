@@ -4,7 +4,7 @@ title: IPortableDeviceManager::RefreshDeviceList (portabledeviceapi.h)
 description: The RefreshDeviceList method refreshes the list of devices that are connected to the computer.
 helpviewer_keywords: ["IPortableDeviceManager interface [Windows Portable Devices SDK]","RefreshDeviceList method","IPortableDeviceManager.RefreshDeviceList","IPortableDeviceManager::RefreshDeviceList","IPortableDeviceManagerRefreshDeviceList","RefreshDeviceList","RefreshDeviceList method [Windows Portable Devices SDK]","RefreshDeviceList method [Windows Portable Devices SDK]","IPortableDeviceManager interface","portabledeviceapi/IPortableDeviceManager::RefreshDeviceList","wpdsdk.iportabledevicemanager_refreshdevicelist"]
 old-location: wpdsdk\iportabledevicemanager_refreshdevicelist.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 89163407-7b38-4c79-8171-67a5b7e1d17c
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceManager interface [Windows Portable Devices SDK],RefreshDeviceList method, IPortableDeviceManager.RefreshDeviceList, IPortableDeviceManager::RefreshDeviceList, IPortableDeviceManagerRefreshDeviceList, RefreshDeviceList, RefreshDeviceList method [Windows Portable Devices SDK], RefreshDeviceList method [Windows Portable Devices SDK],IPortableDeviceManager interface, portabledeviceapi/IPortableDeviceManager::RefreshDeviceList, wpdsdk.iportabledevicemanager_refreshdevicelist

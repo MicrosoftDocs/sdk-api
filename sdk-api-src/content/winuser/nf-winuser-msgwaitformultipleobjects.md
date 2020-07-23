@@ -4,7 +4,7 @@ title: MsgWaitForMultipleObjects function (winuser.h)
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
 helpviewer_keywords: ["MsgWaitForMultipleObjects","MsgWaitForMultipleObjects function","QS_ALLEVENTS","QS_ALLINPUT","QS_ALLPOSTMESSAGE","QS_HOTKEY","QS_INPUT","QS_KEY","QS_MOUSE","QS_MOUSEBUTTON","QS_MOUSEMOVE","QS_PAINT","QS_POSTMESSAGE","QS_RAWINPUT","QS_SENDMESSAGE","QS_TIMER","_win32_msgwaitformultipleobjects","base.msgwaitformultipleobjects","winuser/MsgWaitForMultipleObjects"]
 old-location: base\msgwaitformultipleobjects.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
 ms.date: 12/05/2018
 ms.keywords: MsgWaitForMultipleObjects, MsgWaitForMultipleObjects function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjects, base.msgwaitformultipleobjects, winuser/MsgWaitForMultipleObjects

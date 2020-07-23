@@ -4,7 +4,7 @@ title: IMFTimer::CancelTimer (mfidl.h)
 description: Cancels a timer that was set using the IMFTimer::SetTimer method.
 helpviewer_keywords: ["3fa65809-1652-4903-92ad-1034bcdf0743","CancelTimer","CancelTimer method [Media Foundation]","CancelTimer method [Media Foundation]","IMFTimer interface","IMFTimer interface [Media Foundation]","CancelTimer method","IMFTimer.CancelTimer","IMFTimer::CancelTimer","mf.imftimer_canceltimer","mfidl/IMFTimer::CancelTimer"]
 old-location: mf\imftimer_canceltimer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3fa65809-1652-4903-92ad-1034bcdf0743
 ms.date: 12/05/2018
 ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer, CancelTimer method [Media Foundation], CancelTimer method [Media Foundation],IMFTimer interface, IMFTimer interface [Media Foundation],CancelTimer method, IMFTimer.CancelTimer, IMFTimer::CancelTimer, mf.imftimer_canceltimer, mfidl/IMFTimer::CancelTimer

@@ -4,7 +4,7 @@ title: IWSDDeviceProxy (wsdclient.h)
 description: Represents a remote Devices Profile for Web Services (DPWS) device for client applications and middleware.
 helpviewer_keywords: ["IWSDDeviceProxy","IWSDDeviceProxy interface","IWSDDeviceProxy interface","described","ncd.iwsddeviceproxy","wsdclient/IWSDDeviceProxy"]
 old-location: ncd\iwsddeviceproxy.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a1a54ba0-241a-4c3d-8113-89c0f8171c40
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceProxy, IWSDDeviceProxy interface, IWSDDeviceProxy interface,described, ncd.iwsddeviceproxy, wsdclient/IWSDDeviceProxy

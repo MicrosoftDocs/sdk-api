@@ -4,7 +4,7 @@ title: ID3D11VideoContext::DecryptionBlt (d3d11.h)
 description: Writes encrypted data to a protected surface.
 helpviewer_keywords: ["DecryptionBlt","DecryptionBlt method [Media Foundation]","DecryptionBlt method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","DecryptionBlt method","ID3D11VideoContext.DecryptionBlt","ID3D11VideoContext::DecryptionBlt","d3d11/ID3D11VideoContext::DecryptionBlt","mf.id3d11videocontext_decryptionblt"]
 old-location: mf\id3d11videocontext_decryptionblt.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E693D97A-E21F-4133-B56A-490F92CBD945
 ms.date: 12/05/2018
 ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecryptionBlt method, ID3D11VideoContext.DecryptionBlt, ID3D11VideoContext::DecryptionBlt, d3d11/ID3D11VideoContext::DecryptionBlt, mf.id3d11videocontext_decryptionblt

@@ -4,7 +4,7 @@ title: IWMVideoDecoderReconBuffer (wmcodecdsp.h)
 description: Note  This interface is obsolete and should not be used. Manages reconstructed video frames.
 helpviewer_keywords: ["IWMVideoDecoderReconBuffer","IWMVideoDecoderReconBuffer interface [Media Foundation]","IWMVideoDecoderReconBuffer interface [Media Foundation]","described","codecapi.iwmvideodecoderreconbufferinterface","mf.iwmvideodecoderreconbuffer","mf.iwmvideodecoderreconbufferinterface","wmcodecdsp/IWMVideoDecoderReconBuffer"]
 old-location: mf\iwmvideodecoderreconbufferinterface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e2a4600e-3d55-42f1-804c-8dc5bdf5daec
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [Media Foundation], IWMVideoDecoderReconBuffer interface [Media Foundation],described, codecapi.iwmvideodecoderreconbufferinterface, mf.iwmvideodecoderreconbuffer, mf.iwmvideodecoderreconbufferinterface, wmcodecdsp/IWMVideoDecoderReconBuffer

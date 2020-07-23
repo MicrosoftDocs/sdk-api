@@ -4,7 +4,7 @@ title: IOCSPAdmin::get_OCSPCAConfigurationCollection (certadm.h)
 description: Gets an instance of an OCSPCAConfigurationCollection object. This object represents the set of certification authority (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
 helpviewer_keywords: ["IOCSPAdmin interface [Security]","OCSPCAConfigurationCollection property","IOCSPAdmin.OCSPCAConfigurationCollection","IOCSPAdmin.get_OCSPCAConfigurationCollection","IOCSPAdmin::OCSPCAConfigurationCollection","IOCSPAdmin::get_OCSPCAConfigurationCollection","OCSPCAConfigurationCollection property [Security]","OCSPCAConfigurationCollection property [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::OCSPCAConfigurationCollection","certadm/IOCSPAdmin::get_OCSPCAConfigurationCollection","get_OCSPCAConfigurationCollection","security.iocspadmin_ocspcaconfigurationcollection_method"]
 old-location: security\iocspadmin_ocspcaconfigurationcollection_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 77be6c77-f693-448b-ad2d-f148b2b3dc78
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPCAConfigurationCollection property, IOCSPAdmin.OCSPCAConfigurationCollection, IOCSPAdmin.get_OCSPCAConfigurationCollection, IOCSPAdmin::OCSPCAConfigurationCollection, IOCSPAdmin::get_OCSPCAConfigurationCollection, OCSPCAConfigurationCollection property [Security], OCSPCAConfigurationCollection property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPCAConfigurationCollection, certadm/IOCSPAdmin::get_OCSPCAConfigurationCollection, get_OCSPCAConfigurationCollection, security.iocspadmin_ocspcaconfigurationcollection_method

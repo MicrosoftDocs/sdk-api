@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderFactory::CreateInstance (functiondiscoveryprovi
 description: Creates a function instance.
 helpviewer_keywords: ["CreateInstance","CreateInstance method","CreateInstance method","IFunctionDiscoveryProviderFactory interface","IFunctionDiscoveryProviderFactory interface","CreateInstance method","IFunctionDiscoveryProviderFactory.CreateInstance","IFunctionDiscoveryProviderFactory::CreateInstance","functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance","ncd.ifunctiondiscoveryproviderfactory_createinstance"]
 old-location: ncd\ifunctiondiscoveryproviderfactory_createinstance.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateInstance method, IFunctionDiscoveryProviderFactory.CreateInstance, IFunctionDiscoveryProviderFactory::CreateInstance, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance, ncd.ifunctiondiscoveryproviderfactory_createinstance

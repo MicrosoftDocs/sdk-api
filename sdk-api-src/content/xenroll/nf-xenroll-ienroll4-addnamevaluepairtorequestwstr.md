@@ -4,7 +4,7 @@ title: IEnroll4::addNameValuePairToRequestWStr (xenroll.h)
 description: Adds an unauthenticated name-value string pair to the request.
 helpviewer_keywords: ["IEnroll interface [Security]","addNameValuePairToRequestWStr method","IEnroll4 interface [Security]","addNameValuePairToRequestWStr method","IEnroll4.addNameValuePairToRequestWStr","IEnroll4::addNameValuePairToRequestWStr","IEnroll::addNameValuePairToRequestWStr","addNameValuePairToRequestWStr","addNameValuePairToRequestWStr method [Security]","addNameValuePairToRequestWStr method [Security]","IEnroll interface","addNameValuePairToRequestWStr method [Security]","IEnroll4 interface","security.ienroll4_addnamevaluepairtorequestwstr","xenroll/IEnroll4::addNameValuePairToRequestWStr","xenroll/IEnroll::addNameValuePairToRequestWStr"]
 old-location: security\ienroll4_addnamevaluepairtorequestwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 25f8ae01-e975-4ada-b17c-c97385dc0585
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],addNameValuePairToRequestWStr method, IEnroll4 interface [Security],addNameValuePairToRequestWStr method, IEnroll4.addNameValuePairToRequestWStr, IEnroll4::addNameValuePairToRequestWStr, IEnroll::addNameValuePairToRequestWStr, addNameValuePairToRequestWStr, addNameValuePairToRequestWStr method [Security], addNameValuePairToRequestWStr method [Security],IEnroll interface, addNameValuePairToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addnamevaluepairtorequestwstr, xenroll/IEnroll4::addNameValuePairToRequestWStr, xenroll/IEnroll::addNameValuePairToRequestWStr

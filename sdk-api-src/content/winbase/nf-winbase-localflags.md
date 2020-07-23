@@ -4,7 +4,7 @@ title: LocalFlags function (winbase.h)
 description: Retrieves information about the specified local memory object.
 helpviewer_keywords: ["LocalFlags","LocalFlags function","_win32_localflags","base.localflags","winbase/LocalFlags"]
 old-location: base\localflags.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 4804c8c3-6c0b-4f62-87ab-f64b23fff8b9
 ms.date: 12/05/2018
 ms.keywords: LocalFlags, LocalFlags function, _win32_localflags, base.localflags, winbase/LocalFlags

@@ -4,7 +4,7 @@ title: CHString::Find(LPCWSTR) (chstring.h)
 description: The Find method searches a string for the first match of a substring.
 helpviewer_keywords: ["?Find@CHString@@QBEHPBG@Z","?Find@CHString@@QEBAHPEBG@Z","CHString interface [Windows Management Instrumentation]","Find method","CHString.Find","CHString.Find(LPCWSTR)","CHString::Find","CHString::Find(LPCWSTR)","Find","Find method [Windows Management Instrumentation]","Find method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_find","chstring/CHString::Find","wmi.chstring_find_lpcwstr_"]
 old-location: wmi\chstring_find_lpcwstr_.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: d2a8998c-e0e3-47d0-9539-9ae1d1fba5c8
 ms.date: 12/05/2018
 ms.keywords: ?Find@CHString@@QBEHPBG@Z, ?Find@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Find method, CHString.Find, CHString.Find(LPCWSTR), CHString::Find, CHString::Find(LPCWSTR), Find, Find method [Windows Management Instrumentation], Find method [Windows Management Instrumentation],CHString interface, _hmm_chstring_find, chstring/CHString::Find, wmi.chstring_find_lpcwstr_

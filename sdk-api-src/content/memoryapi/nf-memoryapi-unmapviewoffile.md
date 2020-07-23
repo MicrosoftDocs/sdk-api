@@ -4,7 +4,7 @@ title: UnmapViewOfFile function (memoryapi.h)
 description: Unmaps a mapped view of a file from the calling process's address space.
 helpviewer_keywords: ["UnmapViewOfFile","UnmapViewOfFile function","_win32_unmapviewoffile","base.unmapviewoffile","fs.unmapviewoffile","winbase/UnmapViewOfFile"]
 old-location: base\unmapviewoffile.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 2e9c3174-af48-4fa3-9f6a-fb62b23ed994
 ms.date: 12/05/2018
 ms.keywords: UnmapViewOfFile, UnmapViewOfFile function, _win32_unmapviewoffile, base.unmapviewoffile, fs.unmapviewoffile, winbase/UnmapViewOfFile

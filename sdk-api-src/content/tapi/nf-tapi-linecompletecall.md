@@ -4,7 +4,7 @@ title: lineCompleteCall function (tapi.h)
 description: The lineCompleteCall function specifies how a call that could not be connected normally should be completed instead.
 helpviewer_keywords: ["_tapi2_linecompletecall","lineCompleteCall","lineCompleteCall function [TAPI 2.2]","tapi/lineCompleteCall","tapi2.linecompletecall"]
 old-location: tapi2\linecompletecall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 4cc4c1fd-3f54-40ec-9342-58b3783031ad
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall

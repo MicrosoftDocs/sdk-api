@@ -4,7 +4,7 @@ title: IX509AttributeRenewalCertificate (certenroll.h)
 description: Represents an attribute that contains the certificate being renewed. This attribute is automatically placed in the PKCS
 helpviewer_keywords: ["IX509AttributeRenewalCertificate","IX509AttributeRenewalCertificate interface [Security]","IX509AttributeRenewalCertificate interface [Security]","described","certenroll/IX509AttributeRenewalCertificate","security.ix509attributerenewalcertificate"]
 old-location: security\ix509attributerenewalcertificate.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], IX509AttributeRenewalCertificate interface [Security],described, certenroll/IX509AttributeRenewalCertificate, security.ix509attributerenewalcertificate

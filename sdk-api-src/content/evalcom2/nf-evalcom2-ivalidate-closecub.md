@@ -4,7 +4,7 @@ title: IValidate::CloseCUB (evalcom2.h)
 description: The CloseCUB method closes an open Internal Consistency Evaluator (ICE) .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the OpenCUB method.
 helpviewer_keywords: ["CloseCUB","CloseCUB method","CloseCUB method","IValidate interface","IValidate interface","CloseCUB method","IValidate.CloseCUB","IValidate::CloseCUB","evalcom2/IValidate::CloseCUB","setup.ivalidate_closecub"]
 old-location: setup\ivalidate_closecub.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: be0d21ee-bb15-4c6d-9d69-741adf047863
 ms.date: 12/05/2018
 ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IValidate interface,CloseCUB method, IValidate.CloseCUB, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub

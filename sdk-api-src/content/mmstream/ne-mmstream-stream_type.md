@@ -4,7 +4,7 @@ title: STREAM_TYPE (mmstream.h)
 description: Note  This API is deprecated. New applications should not use it. Defines the direction of data flow for the stream.
 helpviewer_keywords: ["STREAMTYPE_READ","STREAMTYPE_TRANSFORM","STREAMTYPE_WRITE","STREAM_TYPE","STREAM_TYPE enumeration [DirectShow]","dshow.stream_type","mmstream/STREAMTYPE_READ","mmstream/STREAMTYPE_TRANSFORM","mmstream/STREAMTYPE_WRITE","mmstream/STREAM_TYPE"]
 old-location: dshow\stream_type.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 07ab5ded-28b8-4cac-b4da-76f07ad351ef
 ms.date: 12/05/2018
 ms.keywords: STREAMTYPE_READ, STREAMTYPE_TRANSFORM, STREAMTYPE_WRITE, STREAM_TYPE, STREAM_TYPE enumeration [DirectShow], dshow.stream_type, mmstream/STREAMTYPE_READ, mmstream/STREAMTYPE_TRANSFORM, mmstream/STREAMTYPE_WRITE, mmstream/STREAM_TYPE

@@ -4,7 +4,7 @@ title: PTMergeAndValidatePrintTicket function (prntvpt.h)
 description: Merges two print tickets and returns a valid, viable print ticket.
 helpviewer_keywords: ["PTMergeAndValidatePrintTicket","PTMergeAndValidatePrintTicket function [Windows GDI]","_win32_PTMergeAndValidatePrintTicket","gdi.ptmergeandvalidateprintticket","prntvpt/PTMergeAndValidatePrintTicket"]
 old-location: gdi\ptmergeandvalidateprintticket.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.date: 12/05/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket

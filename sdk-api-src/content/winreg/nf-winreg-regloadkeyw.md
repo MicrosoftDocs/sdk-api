@@ -4,7 +4,7 @@ title: RegLoadKeyW function (winreg.h)
 description: Creates a subkey under HKEY_USERS or HKEY_LOCAL_MACHINE and loads the data from the specified registry hive into that subkey.
 helpviewer_keywords: ["RegLoadKey","RegLoadKey function","RegLoadKeyA","RegLoadKeyW","_win32_regloadkey","base.regloadkey","winreg/RegLoadKey","winreg/RegLoadKeyA","winreg/RegLoadKeyW"]
 old-location: base\regloadkey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
 ms.date: 12/05/2018
 ms.keywords: RegLoadKey, RegLoadKey function, RegLoadKeyA, RegLoadKeyW, _win32_regloadkey, base.regloadkey, winreg/RegLoadKey, winreg/RegLoadKeyA, winreg/RegLoadKeyW

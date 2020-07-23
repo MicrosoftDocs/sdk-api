@@ -4,7 +4,7 @@ title: D3D11_VIDEO_CONTENT_PROTECTION_CAPS (d3d11.h)
 description: Describes the content-protection capabilities of a graphics driver.
 helpviewer_keywords: ["D3D11_VIDEO_CONTENT_PROTECTION_CAPS","D3D11_VIDEO_CONTENT_PROTECTION_CAPS structure [Media Foundation]","d3d11/D3D11_VIDEO_CONTENT_PROTECTION_CAPS","mf.d3d11_video_content_protection_caps"]
 old-location: mf\d3d11_video_content_protection_caps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 15691779-DC30-4C0C-86D0-497F2BD60614
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_VIDEO_CONTENT_PROTECTION_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_CONTENT_PROTECTION_CAPS, mf.d3d11_video_content_protection_caps

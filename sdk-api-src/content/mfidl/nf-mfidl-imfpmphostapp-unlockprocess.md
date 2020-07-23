@@ -4,7 +4,7 @@ title: IMFPMPHostApp::UnlockProcess (mfidl.h)
 description: Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to IMFPMPHostApp::LockProcess.
 helpviewer_keywords: ["IMFPMPHostApp interface [Media Foundation]","UnlockProcess method","IMFPMPHostApp.UnlockProcess","IMFPMPHostApp::UnlockProcess","UnlockProcess","UnlockProcess method [Media Foundation]","UnlockProcess method [Media Foundation]","IMFPMPHostApp interface","mf.imfpmphostapp_unlockprocess","mfidl/IMFPMPHostApp::UnlockProcess"]
 old-location: mf\imfpmphostapp_unlockprocess.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4cb26f53-7d2a-417b-9bb8-0268920cf2a7
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHostApp interface [Media Foundation],UnlockProcess method, IMFPMPHostApp.UnlockProcess, IMFPMPHostApp::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPHostApp interface, mf.imfpmphostapp_unlockprocess, mfidl/IMFPMPHostApp::UnlockProcess

@@ -4,7 +4,7 @@ title: RegLoadMUIStringW function (winreg.h)
 description: Loads the specified string from the specified key and subkey.
 helpviewer_keywords: ["REG_MUI_STRING_TRUNCATE","RegLoadMUIString","RegLoadMUIString function","RegLoadMUIStringA","RegLoadMUIStringW","base.regloadmuistring","winreg/RegLoadMUIString","winreg/RegLoadMUIStringA","winreg/RegLoadMUIStringW"]
 old-location: base\regloadmuistring.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
 ms.date: 12/05/2018
 ms.keywords: REG_MUI_STRING_TRUNCATE, RegLoadMUIString, RegLoadMUIString function, RegLoadMUIStringA, RegLoadMUIStringW, base.regloadmuistring, winreg/RegLoadMUIString, winreg/RegLoadMUIStringA, winreg/RegLoadMUIStringW

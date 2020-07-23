@@ -4,7 +4,7 @@ title: ContextInfo::GetTransaction (comsvcs.h)
 description: Retrieves the object context's transaction object.
 helpviewer_keywords: ["ContextInfo interface [COM+]","GetTransaction method","ContextInfo.GetTransaction","ContextInfo::GetTransaction","GetTransaction","GetTransaction method [COM+]","GetTransaction method [COM+]","ContextInfo interface","_cos_ContextInfo_GetTransaction","comsvcs/ContextInfo::GetTransaction","cos.contextinfo_gettransaction"]
 old-location: cos\contextinfo_gettransaction.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9922f2a3-9b2e-4bfe-8a9a-a17c0628439e
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],GetTransaction method, ContextInfo.GetTransaction, ContextInfo::GetTransaction, GetTransaction, GetTransaction method [COM+], GetTransaction method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransaction, comsvcs/ContextInfo::GetTransaction, cos.contextinfo_gettransaction

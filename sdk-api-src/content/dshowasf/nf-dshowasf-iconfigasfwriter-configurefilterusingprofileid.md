@@ -4,7 +4,7 @@ title: IConfigAsfWriter::ConfigureFilterUsingProfileId (dshowasf.h)
 description: The ConfigureFilterUsingProfileId method sets a Windows Media Format 4.0 profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.
 helpviewer_keywords: ["ConfigureFilterUsingProfileId","ConfigureFilterUsingProfileId method [DirectShow]","ConfigureFilterUsingProfileId method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","ConfigureFilterUsingProfileId method","IConfigAsfWriter.ConfigureFilterUsingProfileId","IConfigAsfWriter::ConfigureFilterUsingProfileId","IConfigAsfWriterConfigureFilterUsingProfileId","dshow.iconfigasfwriter_configurefilterusingprofileid","dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileId"]
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e532001a-e2ff-4ad4-8fef-2fa5b051d1f5
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfileId, ConfigureFilterUsingProfileId method [DirectShow], ConfigureFilterUsingProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileId method, IConfigAsfWriter.ConfigureFilterUsingProfileId, IConfigAsfWriter::ConfigureFilterUsingProfileId, IConfigAsfWriterConfigureFilterUsingProfileId, dshow.iconfigasfwriter_configurefilterusingprofileid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileId

@@ -4,7 +4,7 @@ title: InterlockedCompareExchange64 function (winnt.h)
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 64-bit values and exchanges with another 64-bit value based on the outcome of the comparison.
 helpviewer_keywords: ["InterlockedCompareExchange64","InterlockedCompareExchange64 function","base.interlockedcompareexchange64","winnt/InterlockedCompareExchange64"]
 old-location: base\interlockedcompareexchange64.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: b0799de3-49f9-4eef-9c14-d145f42ce57b
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange64, InterlockedCompareExchange64 function, base.interlockedcompareexchange64, winnt/InterlockedCompareExchange64

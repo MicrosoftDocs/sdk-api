@@ -4,7 +4,7 @@ title: ReadPwrScheme function (powrprof.h)
 description: Retrieves the power policy settings that are unique to the specified power scheme.
 helpviewer_keywords: ["ReadPwrScheme","ReadPwrScheme function","_win32_readpwrscheme","base.readpwrscheme","powrprof/ReadPwrScheme"]
 old-location: base\readpwrscheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: a8d93820-b652-4358-8039-8987fac95dca
 ms.date: 12/05/2018
 ms.keywords: ReadPwrScheme, ReadPwrScheme function, _win32_readpwrscheme, base.readpwrscheme, powrprof/ReadPwrScheme

@@ -4,7 +4,7 @@ title: lineSetAgentStateEx function (tapi.h)
 description: The lineSetAgentStateEx function sets the agent state associated with a particular agent handle.
 helpviewer_keywords: ["_tapi2_linesetagentstateex","lineSetAgentStateEx","lineSetAgentStateEx function [TAPI 2.2]","tapi/lineSetAgentStateEx","tapi2.linesetagentstateex"]
 old-location: tapi2\linesetagentstateex.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f7da697a-658e-4f0d-8e6c-539fd8fb1935
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetagentstateex, lineSetAgentStateEx, lineSetAgentStateEx function [TAPI 2.2], tapi/lineSetAgentStateEx, tapi2.linesetagentstateex

@@ -4,7 +4,7 @@ title: IThreadPoolKnobs::GetMaxThreads (comsvcs.h)
 description: Retrieves the maximum number of threads that are allowed in the pool.
 helpviewer_keywords: ["GetMaxThreads","GetMaxThreads method [COM+]","GetMaxThreads method [COM+]","IThreadPoolKnobs interface","IThreadPoolKnobs interface [COM+]","GetMaxThreads method","IThreadPoolKnobs.GetMaxThreads","IThreadPoolKnobs::GetMaxThreads","_cos_IThreadPoolKnobs_GetMaxThreads","comsvcs/IThreadPoolKnobs::GetMaxThreads","cos.ithreadpoolknobs_getmaxthreads"]
 old-location: cos\ithreadpoolknobs_getmaxthreads.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cf99a8f3-fe48-41f3-9162-8550981520a2
 ms.date: 12/05/2018
 ms.keywords: GetMaxThreads, GetMaxThreads method [COM+], GetMaxThreads method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetMaxThreads method, IThreadPoolKnobs.GetMaxThreads, IThreadPoolKnobs::GetMaxThreads, _cos_IThreadPoolKnobs_GetMaxThreads, comsvcs/IThreadPoolKnobs::GetMaxThreads, cos.ithreadpoolknobs_getmaxthreads

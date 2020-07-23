@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_StartTime (rend.h)
 description: The get_StartTime method gets the start time of the conference.
 helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_StartTime method","ITDirectoryObjectConference.get_StartTime","ITDirectoryObjectConference::get_StartTime","_tapi3_itdirectoryobjectconference_get_starttime","get_StartTime","get_StartTime method [TAPI 2.2]","get_StartTime method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_StartTime","tapi3.itdirectoryobjectconference_get_starttime"]
 old-location: tapi3\itdirectoryobjectconference_get_starttime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: aeb496d5-2cea-4c69-ba19-c9083d133c1e
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StartTime method, ITDirectoryObjectConference.get_StartTime, ITDirectoryObjectConference::get_StartTime, _tapi3_itdirectoryobjectconference_get_starttime, get_StartTime, get_StartTime method [TAPI 2.2], get_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StartTime, tapi3.itdirectoryobjectconference_get_starttime

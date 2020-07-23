@@ -2,6 +2,7 @@
 UID: NF:chstring.CHString.FormatMessageW(UINT,...)
 title: CHString::FormatMessageW
 description: 
+tech.root: wmi
 helpviewer_keywords: ["CHString::FormatMessageW"]
 ms.assetid: efa2f907-3a83-4508-95ef-5d40513f507e
 ms.date: 05/13/2019

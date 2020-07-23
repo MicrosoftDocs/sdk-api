@@ -4,7 +4,7 @@ title: FileTimeToLocalFileTime function (fileapi.h)
 description: Converts a file time to a local file time.
 helpviewer_keywords: ["FileTimeToLocalFileTime","FileTimeToLocalFileTime function","_win32_filetimetolocalfiletime","base.filetimetolocalfiletime","fileapi/FileTimeToLocalFileTime","winbase/FileTimeToLocalFileTime"]
 old-location: base\filetimetolocalfiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 58dfce16-2d7f-4db5-9f84-5dd651d26745
 ms.date: 12/05/2018
 ms.keywords: FileTimeToLocalFileTime, FileTimeToLocalFileTime function, _win32_filetimetolocalfiletime, base.filetimetolocalfiletime, fileapi/FileTimeToLocalFileTime, winbase/FileTimeToLocalFileTime

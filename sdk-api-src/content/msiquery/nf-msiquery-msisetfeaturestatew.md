@@ -4,7 +4,7 @@ title: MsiSetFeatureStateW function (msiquery.h)
 description: The MsiSetFeatureState function sets a feature to a specified state.
 helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiSetFeatureState","MsiSetFeatureState function","MsiSetFeatureStateA","MsiSetFeatureStateW","_msi_msisetfeaturestate","msiquery/MsiSetFeatureState","msiquery/MsiSetFeatureStateA","msiquery/MsiSetFeatureStateW","setup.msisetfeaturestate"]
 old-location: setup\msisetfeaturestate.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetFeatureState, MsiSetFeatureState function, MsiSetFeatureStateA, MsiSetFeatureStateW, _msi_msisetfeaturestate, msiquery/MsiSetFeatureState, msiquery/MsiSetFeatureStateA, msiquery/MsiSetFeatureStateW, setup.msisetfeaturestate

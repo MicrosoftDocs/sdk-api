@@ -4,7 +4,7 @@ title: SetNtmsRequestOrder function (ntmsapi.h)
 description: The SetNtmsRequestOrder function sets the order that the specified request will be processed in the library queue.
 helpviewer_keywords: ["SetNtmsRequestOrder","SetNtmsRequestOrder function [Files]","_zaw_setntmsrequestorder","base.setntmsrequestorder","fs.setntmsrequestorder","ntmsapi/SetNtmsRequestOrder"]
 old-location: fs\setntmsrequestorder.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: d7171ce9-14d9-4fbc-b95f-19c502adedd0
 ms.date: 12/05/2018
 ms.keywords: SetNtmsRequestOrder, SetNtmsRequestOrder function [Files], _zaw_setntmsrequestorder, base.setntmsrequestorder, fs.setntmsrequestorder, ntmsapi/SetNtmsRequestOrder

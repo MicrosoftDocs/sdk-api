@@ -4,7 +4,7 @@ title: IDot11AdHocNetwork::GetSSID (adhoc.h)
 description: Gets the SSID of the network.
 helpviewer_keywords: ["GetSSID","GetSSID method [NativeWIFI]","GetSSID method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","GetSSID method","IDot11AdHocNetwork.GetSSID","IDot11AdHocNetwork::GetSSID","adhoc/IDot11AdHocNetwork::GetSSID","nwifi.idot11adhocnetwork_getssid"]
 old-location: nwifi\idot11adhocnetwork_getssid.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: a1a190a2-038b-4353-8dc9-76950b1da9ff
 ms.date: 12/05/2018
 ms.keywords: GetSSID, GetSSID method [NativeWIFI], GetSSID method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSSID method, IDot11AdHocNetwork.GetSSID, IDot11AdHocNetwork::GetSSID, adhoc/IDot11AdHocNetwork::GetSSID, nwifi.idot11adhocnetwork_getssid

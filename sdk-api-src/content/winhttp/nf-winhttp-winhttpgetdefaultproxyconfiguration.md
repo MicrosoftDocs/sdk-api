@@ -4,7 +4,7 @@ title: WinHttpGetDefaultProxyConfiguration function (winhttp.h)
 description: Retrieves the default WinHTTP proxy configuration from the registry.
 helpviewer_keywords: ["WinHttpGetDefaultProxyConfiguration","WinHttpGetDefaultProxyConfiguration function [WinHTTP]","http.winhttpgetdefaultproxyconfiguration","winhttp.winhttpgetdefaultproxyconfiguration_function","winhttp/WinHttpGetDefaultProxyConfiguration"]
 old-location: http\winhttpgetdefaultproxyconfiguration.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: e8038b4b-b9d0-481a-a49c-26201d72bc7a
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetDefaultProxyConfiguration, WinHttpGetDefaultProxyConfiguration function [WinHTTP], http.winhttpgetdefaultproxyconfiguration, winhttp.winhttpgetdefaultproxyconfiguration_function, winhttp/WinHttpGetDefaultProxyConfiguration

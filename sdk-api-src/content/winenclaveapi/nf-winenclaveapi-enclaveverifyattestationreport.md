@@ -4,7 +4,7 @@ title: EnclaveVerifyAttestationReport function (winenclaveapi.h)
 description: Verifies an attestation report that was generated on the current system.
 helpviewer_keywords: ["EnclaveVerifyAttestationReport","EnclaveVerifyAttestationReport function","base.enclaveverifyattestationreport","winenclaveapi/EnclaveVerifyAttestationReport"]
 old-location: base\enclaveverifyattestationreport.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
 ms.date: 12/05/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport

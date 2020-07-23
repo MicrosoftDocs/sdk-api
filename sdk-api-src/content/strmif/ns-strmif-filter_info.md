@@ -4,7 +4,7 @@ title: FILTER_INFO (strmif.h)
 description: The FILTER_INFO structure contains information about a filter.
 helpviewer_keywords: ["FILTER_INFO","FILTER_INFO structure [DirectShow]","FILTER_INFOStructure","dshow.filter_info","strmif/FILTER_INFO"]
 old-location: dshow\filter_info.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 43d1951e-448d-4139-879b-3fe021490d7d
 ms.date: 12/05/2018
 ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructure, dshow.filter_info, strmif/FILTER_INFO

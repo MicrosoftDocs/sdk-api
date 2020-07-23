@@ -4,7 +4,7 @@ title: IPNPXDeviceAssociation::Delete (pnpxassoc.h)
 description: Removes an entry from the association database and sends an appropriate notification.
 helpviewer_keywords: ["Delete","Delete method","Delete method","IPNPXDeviceAssociation interface","IPNPXDeviceAssociation interface","Delete method","IPNPXDeviceAssociation.Delete","IPNPXDeviceAssociation::Delete","ncd.ipnpxdeviceassociation_delete","pnpxassoc/IPNPXDeviceAssociation::Delete"]
 old-location: ncd\ipnpxdeviceassociation_delete.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 208da586-6bb3-4365-90ba-9fd615a371eb
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Delete method, IPNPXDeviceAssociation.Delete, IPNPXDeviceAssociation::Delete, ncd.ipnpxdeviceassociation_delete, pnpxassoc/IPNPXDeviceAssociation::Delete

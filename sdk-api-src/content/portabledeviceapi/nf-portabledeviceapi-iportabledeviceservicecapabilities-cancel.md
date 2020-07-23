@@ -4,7 +4,7 @@ title: IPortableDeviceServiceCapabilities::Cancel (portabledeviceapi.h)
 description: Cancels a pending operation.
 helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceServiceCapabilities.Cancel","IPortableDeviceServiceCapabilities::Cancel","portabledeviceapi/IPortableDeviceServiceCapabilities::Cancel","wpdsdk.iportabledeviceservicecapabilities_cancel"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_cancel.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: f83a23ab-88c4-4486-adad-2bdff6b34df9
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceServiceCapabilities.Cancel, IPortableDeviceServiceCapabilities::Cancel, portabledeviceapi/IPortableDeviceServiceCapabilities::Cancel, wpdsdk.iportabledeviceservicecapabilities_cancel

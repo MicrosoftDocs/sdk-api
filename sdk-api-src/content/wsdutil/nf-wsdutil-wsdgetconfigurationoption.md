@@ -4,7 +4,7 @@ title: WSDGetConfigurationOption function (wsdutil.h)
 description: Gets a WSDAPI configuration option.
 helpviewer_keywords: ["WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE","WSDGetConfigurationOption","WSDGetConfigurationOption function","ncd.wsdgetconfigurationoption","wsdutil/WSDGetConfigurationOption"]
 old-location: ncd\wsdgetconfigurationoption.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 33fc271e-4cc5-466c-8688-7b19f4399f8e
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDGetConfigurationOption, WSDGetConfigurationOption function, ncd.wsdgetconfigurationoption, wsdutil/WSDGetConfigurationOption

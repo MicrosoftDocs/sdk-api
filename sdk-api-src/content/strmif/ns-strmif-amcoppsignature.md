@@ -4,7 +4,7 @@ title: AMCOPPSignature (strmif.h)
 description: The AMCOPPSignature structure contains the signature needed for the IAMCertifiedOutputProtection::SessionSequenceStart method.
 helpviewer_keywords: ["AMCOPPSignature","AMCOPPSignature structure [DirectShow]","AMCOPPSignatureStructure","dshow.amcoppsignature","strmif/AMCOPPSignature"]
 old-location: dshow\amcoppsignature.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: eaf220cf-111f-42fa-80db-1c69cd863258
 ms.date: 12/05/2018
 ms.keywords: AMCOPPSignature, AMCOPPSignature structure [DirectShow], AMCOPPSignatureStructure, dshow.amcoppsignature, strmif/AMCOPPSignature

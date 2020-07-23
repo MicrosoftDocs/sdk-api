@@ -4,7 +4,7 @@ title: IMsmMerge::CloseLog (mergemod.h)
 description: The CloseLog function method closes the current log. For more information, see the CloseLog method of the Merge object.
 helpviewer_keywords: ["CloseLog","CloseLog method","CloseLog method","IMsmMerge interface","IMsmMerge interface","CloseLog method","IMsmMerge.CloseLog","IMsmMerge::CloseLog","_msi_closelog_function","mergemod/IMsmMerge::CloseLog","setup.imsmmerge_closelog"]
 old-location: setup\imsmmerge_closelog.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f683e405-da98-455f-85d5-d61dc1d73440
 ms.date: 12/05/2018
 ms.keywords: CloseLog, CloseLog method, CloseLog method,IMsmMerge interface, IMsmMerge interface,CloseLog method, IMsmMerge.CloseLog, IMsmMerge::CloseLog, _msi_closelog_function, mergemod/IMsmMerge::CloseLog, setup.imsmmerge_closelog

@@ -4,7 +4,7 @@ title: IEventControl (eventsys.h)
 description: Controls the behavior of an event object, the object that fires an event to its subscribers.
 helpviewer_keywords: ["IEventControl","IEventControl interface [COM+]","IEventControl interface [COM+]","described","_cos_IEventControl","cos.ieventcontrol","eventsys/IEventControl"]
 old-location: cos\ieventcontrol.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 8b2fba30-3ede-466f-ad3b-2de2175a088b
 ms.date: 12/05/2018
 ms.keywords: IEventControl, IEventControl interface [COM+], IEventControl interface [COM+],described, _cos_IEventControl, cos.ieventcontrol, eventsys/IEventControl

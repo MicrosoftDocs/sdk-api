@@ -4,7 +4,7 @@ title: DeregisterEventSource function (winbase.h)
 description: Closes the specified event log.
 helpviewer_keywords: ["DeregisterEventSource","DeregisterEventSource function","_win32_deregistereventsource","base.deregistereventsource","winbase/DeregisterEventSource"]
 old-location: base\deregistereventsource.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: f5d1f4b0-5320-4aec-a129-cafff6f1fed1
 ms.date: 12/05/2018
 ms.keywords: DeregisterEventSource, DeregisterEventSource function, _win32_deregistereventsource, base.deregistereventsource, winbase/DeregisterEventSource

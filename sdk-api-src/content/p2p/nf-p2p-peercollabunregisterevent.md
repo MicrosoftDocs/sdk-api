@@ -4,7 +4,7 @@ title: PeerCollabUnregisterEvent function (p2p.h)
 description: Deregisters an application from notification about specific peer collaboration events.
 helpviewer_keywords: ["PeerCollabUnregisterEvent","PeerCollabUnregisterEvent function [Peer Networking]","p2p.peercollabunregisterevent","p2p/PeerCollabUnregisterEvent"]
 old-location: p2p\peercollabunregisterevent.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent

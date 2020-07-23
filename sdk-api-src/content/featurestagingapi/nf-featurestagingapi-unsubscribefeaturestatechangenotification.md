@@ -4,7 +4,7 @@ title: UnsubscribeFeatureStateChangeNotification function (featurestagingapi.h)
 description: This function is intended for infrastructure use only.
 helpviewer_keywords: ["UnsubscribeFeatureStateChangeNotification","UnsubscribeFeatureStateChangeNotification function [Windows API]","featurestagingapi/UnsubscribeFeatureStateChangeNotification","winprog.unsubscribefeaturestatechangenotification"]
 old-location: winprog\unsubscribefeaturestatechangenotification.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 489FFAE2-E2A0-4DE2-B66A-7165E28CD90A
 ms.date: 12/05/2018
 ms.keywords: UnsubscribeFeatureStateChangeNotification, UnsubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/UnsubscribeFeatureStateChangeNotification, winprog.unsubscribefeaturestatechangenotification

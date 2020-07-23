@@ -4,7 +4,7 @@ title: IMFSeekInfo (mfidl.h)
 description: For a particular seek position, gets the two nearest key frames.
 helpviewer_keywords: ["IMFSeekInfo","IMFSeekInfo interface [Media Foundation]","IMFSeekInfo interface [Media Foundation]","described","mf.imfseekinfo","mfidl/IMFSeekInfo"]
 old-location: mf\imfseekinfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5B1AD3A1-D5ED-4F9D-A895-0312E6EB3072
 ms.date: 12/05/2018
 ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo interface [Media Foundation],described, mf.imfseekinfo, mfidl/IMFSeekInfo

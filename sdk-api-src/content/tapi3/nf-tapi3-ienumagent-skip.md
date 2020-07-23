@@ -4,7 +4,7 @@ title: IEnumAgent::Skip (tapi3.h)
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 helpviewer_keywords: ["IEnumAgent interface [TAPI 2.2]","Skip method","IEnumAgent.Skip","IEnumAgent::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumAgent interface","_tapi3_ienumagent_skip","tapi3.ienumagent_skip","tapi3cc/IEnumAgent::Skip"]
 old-location: tapi3\ienumagent_skip.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 972e02f5-2aaf-4c9f-ab66-61d500b6f8ae
 ms.date: 12/05/2018
 ms.keywords: IEnumAgent interface [TAPI 2.2],Skip method, IEnumAgent.Skip, IEnumAgent::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_skip, tapi3.ienumagent_skip, tapi3cc/IEnumAgent::Skip

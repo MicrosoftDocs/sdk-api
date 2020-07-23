@@ -4,7 +4,7 @@ title: IMFByteStream::EndRead (mfobjects.h)
 description: Completes an asynchronous read operation.
 helpviewer_keywords: ["EndRead","EndRead method [Media Foundation]","EndRead method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","EndRead method","IMFByteStream.EndRead","IMFByteStream::EndRead","dd62f644-fb97-474b-8303-3086a7b51c4d","mf.imfbytestream_endread","mfobjects/IMFByteStream::EndRead"]
 old-location: mf\imfbytestream_endread.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dd62f644-fb97-474b-8303-3086a7b51c4d
 ms.date: 12/05/2018
 ms.keywords: EndRead, EndRead method [Media Foundation], EndRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndRead method, IMFByteStream.EndRead, IMFByteStream::EndRead, dd62f644-fb97-474b-8303-3086a7b51c4d, mf.imfbytestream_endread, mfobjects/IMFByteStream::EndRead

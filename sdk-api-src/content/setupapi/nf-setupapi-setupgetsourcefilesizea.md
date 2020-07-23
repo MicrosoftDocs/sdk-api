@@ -4,7 +4,7 @@ title: SetupGetSourceFileSizeA function (setupapi.h)
 description: The SetupGetSourceFileSize function reads the uncompressed size of a source file listed in an INF file.
 helpviewer_keywords: ["SetupGetSourceFileSize","SetupGetSourceFileSize function [Setup API]","SetupGetSourceFileSizeA","SetupGetSourceFileSizeW","_setupapi_setupgetsourcefilesize","setup.setupgetsourcefilesize","setupapi/SetupGetSourceFileSize","setupapi/SetupGetSourceFileSizeA","setupapi/SetupGetSourceFileSizeW"]
 old-location: setup\setupgetsourcefilesize.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: f1db8ad5-b133-410e-9843-38b09e2ef5e7
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileSize, SetupGetSourceFileSize function [Setup API], SetupGetSourceFileSizeA, SetupGetSourceFileSizeW, _setupapi_setupgetsourcefilesize, setup.setupgetsourcefilesize, setupapi/SetupGetSourceFileSize, setupapi/SetupGetSourceFileSizeA, setupapi/SetupGetSourceFileSizeW

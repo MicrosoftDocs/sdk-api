@@ -4,7 +4,7 @@ title: IAMLine21Decoder (il21dec.h)
 description: The IAMLine21Decoder interface sets and retrieves information about closed captions.The Line 21 Decoder filter exposes this interface.
 helpviewer_keywords: ["IAMLine21Decoder","IAMLine21Decoder interface [DirectShow]","IAMLine21Decoder interface [DirectShow]","described","IAMLine21DecoderInterface","dshow.iamline21decoder","il21dec/IAMLine21Decoder"]
 old-location: dshow\iamline21decoder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder

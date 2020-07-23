@@ -4,7 +4,7 @@ title: IMFTimedTextRegion::GetName (mfmediaengine.h)
 description: Gets the name of the region.
 helpviewer_keywords: ["GetName","GetName method [Media Foundation]","GetName method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetName method","IMFTimedTextRegion.GetName","IMFTimedTextRegion::GetName","mf.imftimedtextregion_getname","mfmediaengine/IMFTimedTextRegion::GetName"]
 old-location: mf\imftimedtextregion_getname.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName

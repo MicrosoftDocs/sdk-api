@@ -4,7 +4,7 @@ title: IComTransactionEvents::OnTransactionPrepare (comsvcs.h)
 description: Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
 helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionPrepare method","IComTransactionEvents.OnTransactionPrepare","IComTransactionEvents::OnTransactionPrepare","OnTransactionPrepare","OnTransactionPrepare method [COM+]","OnTransactionPrepare method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionPrepare","comsvcs/IComTransactionEvents::OnTransactionPrepare","cos.icomtransactionevents_ontransactionprepare"]
 old-location: cos\icomtransactionevents_ontransactionprepare.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ab56c3fc-daeb-4c7a-ac7f-a2c6d70c1006
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionPrepare method, IComTransactionEvents.OnTransactionPrepare, IComTransactionEvents::OnTransactionPrepare, OnTransactionPrepare, OnTransactionPrepare method [COM+], OnTransactionPrepare method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionPrepare, comsvcs/IComTransactionEvents::OnTransactionPrepare, cos.icomtransactionevents_ontransactionprepare

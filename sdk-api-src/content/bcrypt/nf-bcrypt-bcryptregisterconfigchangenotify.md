@@ -4,7 +4,7 @@ title: BCryptRegisterConfigChangeNotify function (bcrypt.h)
 description: Creates a user mode CNG configuration change event handler.
 helpviewer_keywords: ["BCryptRegisterConfigChangeNotify","BCryptRegisterConfigChangeNotify function [Security]","BCryptRegisterConfigChangeNotify(HANDLE*)","bcrypt/BCryptRegisterConfigChangeNotify","security.bcryptregisterconfigchangenotify_handle"]
 old-location: security\bcryptregisterconfigchangenotify_handle.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
 ms.date: 12/05/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle

@@ -4,7 +4,7 @@ title: CryptXmlDllCreateDigest (cryptxml.h)
 description: Creates a digest object for the specified method.
 helpviewer_keywords: ["CryptXmlDllCreateDigest","CryptXmlDllCreateDigest callback","CryptXmlDllCreateDigest callback function [Security]","cryptxml/CryptXmlDllCreateDigest","security.cryptxmldllcreatedigest"]
 old-location: security\cryptxmldllcreatedigest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9c9b14c8-511b-4e40-b3d3-014d75dc7fe4
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest callback, CryptXmlDllCreateDigest callback function [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest

@@ -4,7 +4,7 @@ title: IVssBackupComponents::GetWriterStatusCount (vsbackup.h)
 description: The GetWriterStatusCount method returns the number of writers with status.
 helpviewer_keywords: ["GetWriterStatusCount","GetWriterStatusCount method [VSS]","GetWriterStatusCount method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GetWriterStatusCount method","IVssBackupComponents.GetWriterStatusCount","IVssBackupComponents::GetWriterStatusCount","_win32_ivssbackupcomponents_getwriterstatuscount","base.ivssbackupcomponents_getwriterstatuscount","vsbackup/IVssBackupComponents::GetWriterStatusCount"]
 old-location: base\ivssbackupcomponents_getwriterstatuscount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff
 ms.date: 12/05/2018
 ms.keywords: GetWriterStatusCount, GetWriterStatusCount method [VSS], GetWriterStatusCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatusCount method, IVssBackupComponents.GetWriterStatusCount, IVssBackupComponents::GetWriterStatusCount, _win32_ivssbackupcomponents_getwriterstatuscount, base.ivssbackupcomponents_getwriterstatuscount, vsbackup/IVssBackupComponents::GetWriterStatusCount

@@ -4,7 +4,7 @@ title: IMFClockStateSink::OnClockStop (mfidl.h)
 description: Called when the presentation clock stops.
 helpviewer_keywords: ["472b704f-d402-4e0b-96b8-fea267e8ff63","IMFClockStateSink interface [Media Foundation]","OnClockStop method","IMFClockStateSink.OnClockStop","IMFClockStateSink::OnClockStop","OnClockStop","OnClockStop method [Media Foundation]","OnClockStop method [Media Foundation]","IMFClockStateSink interface","mf.imfclockstatesink_onclockstop","mfidl/IMFClockStateSink::OnClockStop"]
 old-location: mf\imfclockstatesink_onclockstop.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 472b704f-d402-4e0b-96b8-fea267e8ff63
 ms.date: 12/05/2018
 ms.keywords: 472b704f-d402-4e0b-96b8-fea267e8ff63, IMFClockStateSink interface [Media Foundation],OnClockStop method, IMFClockStateSink.OnClockStop, IMFClockStateSink::OnClockStop, OnClockStop, OnClockStop method [Media Foundation], OnClockStop method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstop, mfidl/IMFClockStateSink::OnClockStop

@@ -4,7 +4,7 @@ title: PWLX_SET_OPTION (winwlx.h)
 description: Called by GINA to set the value of an option.
 helpviewer_keywords: ["PWLX_SET_OPTION","PWLX_SET_OPTION callback","WlxSetOption","WlxSetOption callback function [Security]","_gina_wlxsetoption","security.wlxsetoption","winwlx/WlxSetOption"]
 old-location: security\wlxsetoption.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 59f775dd-b3ed-4a57-bec7-fa6ddf267401
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_OPTION, PWLX_SET_OPTION callback, WlxSetOption, WlxSetOption callback function [Security], _gina_wlxsetoption, security.wlxsetoption, winwlx/WlxSetOption

@@ -4,7 +4,7 @@ title: IServiceIISIntrinsicsConfig::IISIntrinsicsConfig (comsvcs.h)
 description: Configures the IIS intrinsics for the enclosed work.
 helpviewer_keywords: ["IISIntrinsicsConfig","IISIntrinsicsConfig method [COM+]","IISIntrinsicsConfig method [COM+]","IServiceIISIntrinsicsConfig interface","IServiceIISIntrinsicsConfig interface [COM+]","IISIntrinsicsConfig method","IServiceIISIntrinsicsConfig.IISIntrinsicsConfig","IServiceIISIntrinsicsConfig::IISIntrinsicsConfig","_cos_IServiceIISIntrinsicsConfig_IISIntrinsicsConfig","comsvcs/IServiceIISIntrinsicsConfig::IISIntrinsicsConfig","cos.iserviceiisintrinsicsconfig_iisintrinsicsconfig"]
 old-location: cos\iserviceiisintrinsicsconfig_iisintrinsicsconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 458bd0d6-ed4f-45c2-8a96-1a4a08aad509
 ms.date: 12/05/2018
 ms.keywords: IISIntrinsicsConfig, IISIntrinsicsConfig method [COM+], IISIntrinsicsConfig method [COM+],IServiceIISIntrinsicsConfig interface, IServiceIISIntrinsicsConfig interface [COM+],IISIntrinsicsConfig method, IServiceIISIntrinsicsConfig.IISIntrinsicsConfig, IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, _cos_IServiceIISIntrinsicsConfig_IISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig_iisintrinsicsconfig

@@ -4,7 +4,7 @@ title: RegCloseKey function (winreg.h)
 description: Closes a handle to the specified registry key.
 helpviewer_keywords: ["RegCloseKey","RegCloseKey function","_win32_regclosekey","base.regclosekey","winreg/RegCloseKey"]
 old-location: base\regclosekey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 10175499-abf3-4694-9594-bb97b43f3fa5
 ms.date: 12/05/2018
 ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclosekey, winreg/RegCloseKey

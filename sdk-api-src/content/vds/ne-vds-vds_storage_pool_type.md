@@ -4,7 +4,7 @@ title: VDS_STORAGE_POOL_TYPE (vds.h)
 description: Defines the set of storage pool types.
 helpviewer_keywords: ["VDS_SPT_CONCRETE","VDS_SPT_PRIMORDIAL","VDS_SPT_UNKNOWN","VDS_STORAGE_POOL_TYPE","VDS_STORAGE_POOL_TYPE enumeration","base.vds_storage_pool_type","vds/VDS_SPT_CONCRETE","vds/VDS_SPT_PRIMORDIAL","vds/VDS_SPT_UNKNOWN","vds/VDS_STORAGE_POOL_TYPE","vdshwprv/VDS_SPT_CONCRETE","vdshwprv/VDS_SPT_PRIMORDIAL","vdshwprv/VDS_SPT_UNKNOWN","vdshwprv/VDS_STORAGE_POOL_TYPE"]
 old-location: base\vds_storage_pool_type.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 813d3452-46ad-4f7a-ab53-e3f6577b00ba
 ms.date: 12/05/2018
 ms.keywords: VDS_SPT_CONCRETE, VDS_SPT_PRIMORDIAL, VDS_SPT_UNKNOWN, VDS_STORAGE_POOL_TYPE, VDS_STORAGE_POOL_TYPE enumeration, base.vds_storage_pool_type, vds/VDS_SPT_CONCRETE, vds/VDS_SPT_PRIMORDIAL, vds/VDS_SPT_UNKNOWN, vds/VDS_STORAGE_POOL_TYPE, vdshwprv/VDS_SPT_CONCRETE, vdshwprv/VDS_SPT_PRIMORDIAL, vdshwprv/VDS_SPT_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_TYPE

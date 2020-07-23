@@ -4,7 +4,7 @@ title: DrtCreateDnsBootstrapResolver function (drt.h)
 description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
 helpviewer_keywords: ["DrtCreateDnsBootstrapResolver","DrtCreateDnsBootstrapResolver function [Distributed Routing Tables]","drt/DrtCreateDnsBootstrapResolver","p2p.drtcreatednsbootstrapresolver"]
 old-location: p2p\drtcreatednsbootstrapresolver.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver

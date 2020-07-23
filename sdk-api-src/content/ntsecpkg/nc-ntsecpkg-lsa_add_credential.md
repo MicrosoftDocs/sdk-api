@@ -4,7 +4,7 @@ title: LSA_ADD_CREDENTIAL (ntsecpkg.h)
 description: Adds credentials to a logon session.
 helpviewer_keywords: ["AddCredential","AddCredential callback function [Security]","LSA_ADD_CREDENTIAL","LSA_ADD_CREDENTIAL callback","_lsa_addcredential","ntsecpkg/AddCredential","security.addcredential"]
 old-location: security\addcredential.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ea6ddd18-818e-43f5-9453-de2b3f994325
 ms.date: 12/05/2018
 ms.keywords: AddCredential, AddCredential callback function [Security], LSA_ADD_CREDENTIAL, LSA_ADD_CREDENTIAL callback, _lsa_addcredential, ntsecpkg/AddCredential, security.addcredential

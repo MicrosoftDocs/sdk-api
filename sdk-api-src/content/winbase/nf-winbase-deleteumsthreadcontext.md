@@ -4,7 +4,7 @@ title: DeleteUmsThreadContext function (winbase.h)
 description: Deletes the specified user-mode scheduling (UMS) thread context. The thread must be terminated.
 helpviewer_keywords: ["DeleteUmsThreadContext","DeleteUmsThreadContext function","base.deleteumsthreadcontext","winbase/DeleteUmsThreadContext"]
 old-location: base\deleteumsthreadcontext.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
 ms.date: 12/05/2018
 ms.keywords: DeleteUmsThreadContext, DeleteUmsThreadContext function, base.deleteumsthreadcontext, winbase/DeleteUmsThreadContext

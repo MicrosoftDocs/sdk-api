@@ -4,7 +4,7 @@ title: IMFRealTimeClientEx::SetWorkQueueEx (mfidl.h)
 description: Specifies the work queue that this object should use for asynchronous work items.
 helpviewer_keywords: ["IMFRealTimeClientEx interface [Media Foundation]","SetWorkQueueEx method","IMFRealTimeClientEx.SetWorkQueueEx","IMFRealTimeClientEx::SetWorkQueueEx","SetWorkQueueEx","SetWorkQueueEx method [Media Foundation]","SetWorkQueueEx method [Media Foundation]","IMFRealTimeClientEx interface","mf.imfrealtimeclientex_setworkqueueex","mfidl/IMFRealTimeClientEx::SetWorkQueueEx"]
 old-location: mf\imfrealtimeclientex_setworkqueueex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4F91FD8A-A8B6-4066-A0EB-F764A3BFD8A2
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],SetWorkQueueEx method, IMFRealTimeClientEx.SetWorkQueueEx, IMFRealTimeClientEx::SetWorkQueueEx, SetWorkQueueEx, SetWorkQueueEx method [Media Foundation], SetWorkQueueEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_setworkqueueex, mfidl/IMFRealTimeClientEx::SetWorkQueueEx

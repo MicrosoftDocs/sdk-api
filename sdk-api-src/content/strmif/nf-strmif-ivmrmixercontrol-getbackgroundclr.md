@@ -4,7 +4,7 @@ title: IVMRMixerControl::GetBackgroundClr (strmif.h)
 description: Gets the current background color on the output rectangle.
 helpviewer_keywords: ["GetBackgroundClr","GetBackgroundClr method [DirectShow]","GetBackgroundClr method [DirectShow]","IVMRMixerControl interface","IVMRMixerControl interface [DirectShow]","GetBackgroundClr method","IVMRMixerControl.GetBackgroundClr","IVMRMixerControl::GetBackgroundClr","IVMRMixerControlGetBackgroundClr","dshow.ivmrmixercontrol_getbackgroundclr","strmif/IVMRMixerControl::GetBackgroundClr"]
 old-location: dshow\ivmrmixercontrol_getbackgroundclr.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetBackgroundClr method, IVMRMixerControl.GetBackgroundClr, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr

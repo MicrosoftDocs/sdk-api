@@ -2,6 +2,7 @@
 UID: NS:ws2spi.WSPData
 title: WSPDATA
 description: The WSPDATA structure contains service provider information.
+tech.root: winsock
 helpviewer_keywords: ["WSPData","WSPDATA"]
 ms.date: 4/26/2019
 ms.keywords: WSPData, WSPDATA

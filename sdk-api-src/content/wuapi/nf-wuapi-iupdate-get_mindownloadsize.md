@@ -4,7 +4,7 @@ title: IUpdate::get_MinDownloadSize (wuapi.h)
 description: Gets the minimum download size of the update.
 helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","MinDownloadSize property","IUpdate.MinDownloadSize","IUpdate.get_MinDownloadSize","IUpdate::MinDownloadSize","IUpdate::get_MinDownloadSize","MinDownloadSize property [Windows Update Agent]","MinDownloadSize property [Windows Update Agent]","IUpdate interface","get_MinDownloadSize","wua.iupdate_mindownloadsize","wuapi/IUpdate::MinDownloadSize","wuapi/IUpdate::get_MinDownloadSize"]
 old-location: wua\iupdate_mindownloadsize.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 58666d64-fe29-4ece-8b51-67212f90e54e
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MinDownloadSize property, IUpdate.MinDownloadSize, IUpdate.get_MinDownloadSize, IUpdate::MinDownloadSize, IUpdate::get_MinDownloadSize, MinDownloadSize property [Windows Update Agent], MinDownloadSize property [Windows Update Agent],IUpdate interface, get_MinDownloadSize, wua.iupdate_mindownloadsize, wuapi/IUpdate::MinDownloadSize, wuapi/IUpdate::get_MinDownloadSize

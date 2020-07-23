@@ -4,7 +4,7 @@ title: IVdsProviderPrivate::OnLoad (vdshwprv.h)
 description: Prompts the provider to initialize itself, and passes a callback object that the provider uses to get necessary interfaces.
 helpviewer_keywords: ["IVdsProviderPrivate interface [VDS]","OnLoad method","IVdsProviderPrivate.OnLoad","IVdsProviderPrivate::OnLoad","OnLoad","OnLoad method [VDS]","OnLoad method [VDS]","IVdsProviderPrivate interface","base.ivdsproviderprivate_onload","vdshwprv/IVdsProviderPrivate::OnLoad"]
 old-location: base\ivdsproviderprivate_onload.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: c5b2ac78-6a23-470c-a762-26ce6358e0b6
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnLoad method, IVdsProviderPrivate.OnLoad, IVdsProviderPrivate::OnLoad, OnLoad, OnLoad method [VDS], OnLoad method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onload, vdshwprv/IVdsProviderPrivate::OnLoad

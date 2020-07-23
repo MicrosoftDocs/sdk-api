@@ -4,7 +4,7 @@ title: IManagedActivationEvents (comsvcs.h)
 description: Used to create and destroy stubs for managed objects within the current COM+ context.
 helpviewer_keywords: ["IManagedActivationEvents","IManagedActivationEvents interface [COM+]","IManagedActivationEvents interface [COM+]","described","_cos_IManagedActivationEvents","comsvcs/IManagedActivationEvents","cos.imanagedactivationevents"]
 old-location: cos\imanagedactivationevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 621ffc7d-186e-451c-8d97-9c8291549f51
 ms.date: 12/05/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents

@@ -4,7 +4,7 @@ title: PFN_CERT_ENUM_PHYSICAL_STORE (wincrypt.h)
 description: The CertEnumPhysicalStoreCallback callback function formats and presents information on each physical store found by a call to CertEnumPhysicalStore.
 helpviewer_keywords: ["CertEnumPhysicalStoreCallback","PFN_CERT_ENUM_PHYSICAL_STORE","PFN_CERT_ENUM_PHYSICAL_STORE callback","PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security]","security.certenumphysicalstorecallback","wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE"]
 old-location: security\certenumphysicalstorecallback.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
 ms.date: 12/05/2018
 ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE

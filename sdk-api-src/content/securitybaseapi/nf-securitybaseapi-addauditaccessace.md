@@ -4,7 +4,7 @@ title: AddAuditAccessAce function (securitybaseapi.h)
 description: Adds a system-audit access control entry (ACE) to a system access control list (ACL). The access of a specified security identifier (SID) is audited.
 helpviewer_keywords: ["AddAuditAccessAce","AddAuditAccessAce function [Security]","_win32_addauditaccessace","security.addauditaccessace","securitybaseapi/AddAuditAccessAce"]
 old-location: security\addauditaccessace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 34f22aea-9cde-411e-b2d5-bfcd3bfe325d
 ms.date: 12/05/2018
 ms.keywords: AddAuditAccessAce, AddAuditAccessAce function [Security], _win32_addauditaccessace, security.addauditaccessace, securitybaseapi/AddAuditAccessAce

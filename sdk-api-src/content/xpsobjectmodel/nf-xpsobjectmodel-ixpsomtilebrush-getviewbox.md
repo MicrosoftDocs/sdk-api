@@ -4,7 +4,7 @@ title: IXpsOMTileBrush::GetViewbox (xpsobjectmodel.h)
 description: Gets the portion of the source image to be used by the tile.
 helpviewer_keywords: ["GetViewbox","GetViewbox method [XPS Documents and Packaging]","GetViewbox method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetViewbox method","IXpsOMTileBrush.GetViewbox","IXpsOMTileBrush::GetViewbox","xps.ixpsomtilebrush_getviewbox","xpsobjectmodel/IXpsOMTileBrush::GetViewbox"]
 old-location: xps\ixpsomtilebrush_getviewbox.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: dc884aa6-3652-4b94-80f6-83c345973d46
 ms.date: 12/05/2018
 ms.keywords: GetViewbox, GetViewbox method [XPS Documents and Packaging], GetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewbox method, IXpsOMTileBrush.GetViewbox, IXpsOMTileBrush::GetViewbox, xps.ixpsomtilebrush_getviewbox, xpsobjectmodel/IXpsOMTileBrush::GetViewbox

@@ -4,7 +4,7 @@ title: PLEX_READ_DATA_REQUEST
 description: Indicates the range of the read operation to perform and the plex from which to read.
 helpviewer_keywords: ["*PPLEX_READ_DATA_REQUEST","PLEX_READ_DATA_REQUEST","PLEX_READ_DATA_REQUEST structure [Files]","PPLEX_READ_DATA_REQUEST","PPLEX_READ_DATA_REQUEST structure pointer [Files]","_win32_plex_read_data_request_str","base.plex_read_data_request_str","fs.plex_read_data_request_str","winioctl/PLEX_READ_DATA_REQUEST","winioctl/PPLEX_READ_DATA_REQUEST"]
 old-location: fs\plex_read_data_request_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: efabc8f3-1596-4a6a-86a3-ecd5b3d934d5
 ms.date: 12/05/2018
 ms.keywords: '*PPLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST structure [Files], PPLEX_READ_DATA_REQUEST, PPLEX_READ_DATA_REQUEST structure pointer [Files], _win32_plex_read_data_request_str, base.plex_read_data_request_str, fs.plex_read_data_request_str, winioctl/PLEX_READ_DATA_REQUEST, winioctl/PPLEX_READ_DATA_REQUEST'

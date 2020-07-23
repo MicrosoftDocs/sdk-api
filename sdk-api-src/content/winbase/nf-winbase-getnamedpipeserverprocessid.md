@@ -4,7 +4,7 @@ title: GetNamedPipeServerProcessId function (winbase.h)
 description: Retrieves the server process identifier for the specified named pipe.
 helpviewer_keywords: ["GetNamedPipeServerProcessId","GetNamedPipeServerProcessId function","base.getnamedpipeserverprocessid","winbase/GetNamedPipeServerProcessId"]
 old-location: base\getnamedpipeserverprocessid.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 1ee33a66-a71c-4c34-b907-aab7860294c4
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeServerProcessId, GetNamedPipeServerProcessId function, base.getnamedpipeserverprocessid, winbase/GetNamedPipeServerProcessId

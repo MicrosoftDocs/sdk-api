@@ -4,7 +4,7 @@ title: IMediaObject::GetInputStreamInfo (mediaobj.h)
 description: The GetInputStreamInfo method retrieves information about an input stream, such as any restrictions on the number of samples per buffer, and whether the stream performs lookahead on the input data. This information never changes.
 helpviewer_keywords: ["GetInputStreamInfo","GetInputStreamInfo method [DirectShow]","GetInputStreamInfo method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputStreamInfo method","IMediaObject.GetInputStreamInfo","IMediaObject::GetInputStreamInfo","IMediaObjectGetInputStreamInfo","dshow.imediaobject_getinputstreaminfo","mediaobj/IMediaObject::GetInputStreamInfo"]
 old-location: dshow\imediaobject_getinputstreaminfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9e18bf5e-cf29-4446-a1ba-422b41e02edc
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [DirectShow], GetInputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStreamInfo method, IMediaObject.GetInputStreamInfo, IMediaObject::GetInputStreamInfo, IMediaObjectGetInputStreamInfo, dshow.imediaobject_getinputstreaminfo, mediaobj/IMediaObject::GetInputStreamInfo

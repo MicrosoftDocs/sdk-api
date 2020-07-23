@@ -4,7 +4,7 @@ title: IPolicyQualifiers::Clear (certenroll.h)
 description: Removes all objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IPolicyQualifiers interface","IPolicyQualifiers interface [Security]","Clear method","IPolicyQualifiers.Clear","IPolicyQualifiers::Clear","certenroll/IPolicyQualifiers::Clear","security.ipolicyqualifiers_clear_method"]
 old-location: security\ipolicyqualifiers_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 96b36a6e-f67b-40fb-ab05-4782e7cb659f
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method

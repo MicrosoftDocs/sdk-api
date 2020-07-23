@@ -4,7 +4,7 @@ title: IAMTunerNotification (strmif.h)
 description: Note  This callback interface has been deprecated, because the TV Tuner filter does not implement the callback mechanism. .
 helpviewer_keywords: ["IAMTunerNotification","IAMTunerNotification interface [DirectShow]","IAMTunerNotification interface [DirectShow]","described","IAMTunerNotificationInterface","dshow.iamtunernotification","strmif/IAMTunerNotification"]
 old-location: dshow\iamtunernotification.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8e5fde62-d17c-4d3c-bdb0-0748a9bd285b
 ms.date: 12/05/2018
 ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], IAMTunerNotification interface [DirectShow],described, IAMTunerNotificationInterface, dshow.iamtunernotification, strmif/IAMTunerNotification

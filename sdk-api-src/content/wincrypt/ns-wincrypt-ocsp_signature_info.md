@@ -4,7 +4,7 @@ title: OCSP_SIGNATURE_INFO (wincrypt.h)
 description: Contains a signature for an online certificate status protocol (OCSP) request or response.
 helpviewer_keywords: ["*POCSP_SIGNATURE_INFO","OCSP_SIGNATURE_INFO","OCSP_SIGNATURE_INFO structure [Security]","POCSP_SIGNATURE_INFO","POCSP_SIGNATURE_INFO structure pointer [Security]","security.ocsp_signature_info","wincrypt/OCSP_SIGNATURE_INFO","wincrypt/POCSP_SIGNATURE_INFO"]
 old-location: security\ocsp_signature_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1489e2a4-36f3-4e8c-9b99-7c2e396b3814
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO, OCSP_SIGNATURE_INFO structure [Security], POCSP_SIGNATURE_INFO, POCSP_SIGNATURE_INFO structure pointer [Security], security.ocsp_signature_info, wincrypt/OCSP_SIGNATURE_INFO, wincrypt/POCSP_SIGNATURE_INFO'

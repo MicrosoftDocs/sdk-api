@@ -4,7 +4,7 @@ title: IAzAuthorizationStore3::GetSchemaVersion (azroles.h)
 description: Gets the version number of this authorization store.
 helpviewer_keywords: ["GetSchemaVersion","GetSchemaVersion method [Security]","GetSchemaVersion method [Security]","IAzAuthorizationStore3 interface","IAzAuthorizationStore3 interface [Security]","GetSchemaVersion method","IAzAuthorizationStore3.GetSchemaVersion","IAzAuthorizationStore3::GetSchemaVersion","azroles/IAzAuthorizationStore3::GetSchemaVersion","security.iazauthorizationstore3_getschemaversion_method"]
 old-location: security\iazauthorizationstore3_getschemaversion_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 263d8f04-8ed9-4801-86cf-51ede83436c7
 ms.date: 12/05/2018
 ms.keywords: GetSchemaVersion, GetSchemaVersion method [Security], GetSchemaVersion method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],GetSchemaVersion method, IAzAuthorizationStore3.GetSchemaVersion, IAzAuthorizationStore3::GetSchemaVersion, azroles/IAzAuthorizationStore3::GetSchemaVersion, security.iazauthorizationstore3_getschemaversion_method

@@ -4,7 +4,7 @@ title: IFunctionInstance::GetID (functiondiscoveryapi.h)
 description: Gets the identifier string for the function instance.
 helpviewer_keywords: ["GetID","GetID method","GetID method","IFunctionInstance interface","IFunctionInstance interface","GetID method","IFunctionInstance.GetID","IFunctionInstance::GetID","functiondiscoveryapi/IFunctionInstance::GetID","ncd.ifunctioninstance_getid_method"]
 old-location: ncd\ifunctioninstance_getid_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFunctionInstance interface,GetID method, IFunctionInstance.GetID, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method

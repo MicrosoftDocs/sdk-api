@@ -4,7 +4,7 @@ title: CryptHashCertificate function (wincrypt.h)
 description: The CryptHashCertificate function hashes the entire encoded content of a certificate including its signature.
 helpviewer_keywords: ["CryptHashCertificate","CryptHashCertificate function [Security]","_crypto2_crypthashcertificate","security.crypthashcertificate","wincrypt/CryptHashCertificate"]
 old-location: security\crypthashcertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a5beba30-f32b-4d57-8a54-7d9096459c50
 ms.date: 12/05/2018
 ms.keywords: CryptHashCertificate, CryptHashCertificate function [Security], _crypto2_crypthashcertificate, security.crypthashcertificate, wincrypt/CryptHashCertificate

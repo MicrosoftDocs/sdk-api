@@ -4,7 +4,7 @@ title: PolicyServerUrlFlags (certenroll.h)
 description: Contains certificate enrollment policy (CEP) server flags.
 helpviewer_keywords: ["PolicyServerUrlFlags","PolicyServerUrlFlags enumeration [Security]","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","PsfLocationGroupPolicy","PsfLocationRegistry","PsfNone","PsfUseClientId","certenroll/PolicyServerUrlFlags","certenroll/PsfAllowUnTrustedCA","certenroll/PsfAutoEnrollmentEnabled","certenroll/PsfLocationGroupPolicy","certenroll/PsfLocationRegistry","certenroll/PsfNone","certenroll/PsfUseClientId","security.policyserverurlflags"]
 old-location: security\policyserverurlflags.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e73bccb8-ca4d-4007-bdf3-1194ede5fdd1
 ms.date: 12/05/2018
 ms.keywords: PolicyServerUrlFlags, PolicyServerUrlFlags enumeration [Security], PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/PolicyServerUrlFlags, certenroll/PsfAllowUnTrustedCA, certenroll/PsfAutoEnrollmentEnabled, certenroll/PsfLocationGroupPolicy, certenroll/PsfLocationRegistry, certenroll/PsfNone, certenroll/PsfUseClientId, security.policyserverurlflags

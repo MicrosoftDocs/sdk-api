@@ -4,7 +4,7 @@ title: IXpsOMPartUriCollection (xpsobjectmodel.h)
 description: A collection of IOpcPartUri interface pointers.
 helpviewer_keywords: ["IXpsOMPartUriCollection","IXpsOMPartUriCollection interface [XPS Documents and Packaging]","IXpsOMPartUriCollection interface [XPS Documents and Packaging]","described","xps.ixpsomparturicollection","xpsobjectmodel/IXpsOMPartUriCollection"]
 old-location: xps\ixpsomparturicollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 05fe9700-19e6-4e63-9693-cfa4b019f643
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging],described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection

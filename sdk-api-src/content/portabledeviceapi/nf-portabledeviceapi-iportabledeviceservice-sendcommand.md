@@ -4,7 +4,7 @@ title: IPortableDeviceService::SendCommand (portabledeviceapi.h)
 description: Sends a standard WPD command and its parameters to the service.
 helpviewer_keywords: ["IPortableDeviceService interface [Windows Portable Devices SDK]","SendCommand method","IPortableDeviceService.SendCommand","IPortableDeviceService::SendCommand","SendCommand","SendCommand method [Windows Portable Devices SDK]","SendCommand method [Windows Portable Devices SDK]","IPortableDeviceService interface","portabledeviceapi/IPortableDeviceService::SendCommand","wpdsdk.iportabledeviceservice_sendcommand"]
 old-location: wpdsdk\iportabledeviceservice_sendcommand.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: c6c42347-145c-4be7-bea6-34b13c211cb1
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],SendCommand method, IPortableDeviceService.SendCommand, IPortableDeviceService::SendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::SendCommand, wpdsdk.iportabledeviceservice_sendcommand

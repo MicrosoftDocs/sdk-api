@@ -4,7 +4,7 @@ title: ITCallInfo::GetCallInfoBuffer (tapi3if.h)
 description: The GetCallInfoBuffer method gets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::get_CallInfoBuffer method.
 helpviewer_keywords: ["GetCallInfoBuffer","GetCallInfoBuffer method [TAPI 2.2]","GetCallInfoBuffer method [TAPI 2.2]","ITCallInfo interface","ITCallInfo interface [TAPI 2.2]","GetCallInfoBuffer method","ITCallInfo.GetCallInfoBuffer","ITCallInfo::GetCallInfoBuffer","_tapi3_itcallinfo_getcallinfobuffer","tapi3.itcallinfo_getcallinfobuffer","tapi3if/ITCallInfo::GetCallInfoBuffer"]
 old-location: tapi3\itcallinfo_getcallinfobuffer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 00f5dde6-e9df-4b61-8122-2183e047f9ba
 ms.date: 12/05/2018
 ms.keywords: GetCallInfoBuffer, GetCallInfoBuffer method [TAPI 2.2], GetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, ITCallInfo interface [TAPI 2.2],GetCallInfoBuffer method, ITCallInfo.GetCallInfoBuffer, ITCallInfo::GetCallInfoBuffer, _tapi3_itcallinfo_getcallinfobuffer, tapi3.itcallinfo_getcallinfobuffer, tapi3if/ITCallInfo::GetCallInfoBuffer

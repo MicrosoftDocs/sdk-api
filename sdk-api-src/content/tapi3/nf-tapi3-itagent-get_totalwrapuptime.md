@@ -4,7 +4,7 @@ title: ITAgent::get_TotalWrapUpTime (tapi3.h)
 description: The get_TotalWrapUpTime method gets the number of seconds spent on ACD call wrap-up (after-call work) by this agent (across all sessions).
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_TotalWrapUpTime method","ITAgent.get_TotalWrapUpTime","ITAgent::get_TotalWrapUpTime","_tapi3_itagent_get_totalwrapuptime","get_TotalWrapUpTime","get_TotalWrapUpTime method [TAPI 2.2]","get_TotalWrapUpTime method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_totalwrapuptime","tapi3cc/ITAgent::get_TotalWrapUpTime"]
 old-location: tapi3\itagent_get_totalwrapuptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 23fb0c9b-b3c7-4a1d-91fc-9ecfb6a2d8bf
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgent.get_TotalWrapUpTime, ITAgent::get_TotalWrapUpTime, _tapi3_itagent_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalwrapuptime, tapi3cc/ITAgent::get_TotalWrapUpTime

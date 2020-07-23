@@ -4,7 +4,7 @@ title: CryptEnumProviderTypesA function (wincrypt.h)
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 helpviewer_keywords: ["CryptEnumProviderTypes","CryptEnumProviderTypes function [Security]","CryptEnumProviderTypesA","CryptEnumProviderTypesW","_crypto2_cryptenumprovidertypes","security.cryptenumprovidertypes","wincrypt/CryptEnumProviderTypes","wincrypt/CryptEnumProviderTypesA","wincrypt/CryptEnumProviderTypesW"]
 old-location: security\cryptenumprovidertypes.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
 ms.date: 12/05/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW

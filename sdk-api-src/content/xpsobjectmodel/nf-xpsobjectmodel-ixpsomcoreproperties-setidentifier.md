@@ -4,7 +4,7 @@ title: IXpsOMCoreProperties::SetIdentifier (xpsobjectmodel.h)
 description: Sets the identifier property.
 helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetIdentifier method","IXpsOMCoreProperties.SetIdentifier","IXpsOMCoreProperties::SetIdentifier","SetIdentifier","SetIdentifier method [XPS Documents and Packaging]","SetIdentifier method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setidentifier","xpsobjectmodel/IXpsOMCoreProperties::SetIdentifier"]
 old-location: xps\ixpsomcoreproperties_setidentifier.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8ad5a359-77f6-4b11-9c1c-2e4094be65d0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetIdentifier method, IXpsOMCoreProperties.SetIdentifier, IXpsOMCoreProperties::SetIdentifier, SetIdentifier, SetIdentifier method [XPS Documents and Packaging], SetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setidentifier, xpsobjectmodel/IXpsOMCoreProperties::SetIdentifier

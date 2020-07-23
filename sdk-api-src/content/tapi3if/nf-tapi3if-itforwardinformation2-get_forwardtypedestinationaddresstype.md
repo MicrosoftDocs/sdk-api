@@ -4,7 +4,7 @@ title: ITForwardInformation2::get_ForwardTypeDestinationAddressType (tapi3if.h)
 description: The get_ForwardTypeDestinationAddressType method gets the destination address type for a given forwarding type.
 helpviewer_keywords: ["ITForwardInformation2 interface [TAPI 2.2]","get_ForwardTypeDestinationAddressType method","ITForwardInformation2.get_ForwardTypeDestinationAddressType","ITForwardInformation2::get_ForwardTypeDestinationAddressType","_tapi3_itforwardinformation2_get_forwardtypedestinationaddresstype","get_ForwardTypeDestinationAddressType","get_ForwardTypeDestinationAddressType method [TAPI 2.2]","get_ForwardTypeDestinationAddressType method [TAPI 2.2]","ITForwardInformation2 interface","tapi3.itforwardinformation2_get_forwardtypedestinationaddresstype","tapi3if/ITForwardInformation2::get_ForwardTypeDestinationAddressType"]
 old-location: tapi3\itforwardinformation2_get_forwardtypedestinationaddresstype.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: de40538a-e2ba-49ec-bde6-6803da6515da
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeDestinationAddressType method, ITForwardInformation2.get_ForwardTypeDestinationAddressType, ITForwardInformation2::get_ForwardTypeDestinationAddressType, _tapi3_itforwardinformation2_get_forwardtypedestinationaddresstype, get_ForwardTypeDestinationAddressType, get_ForwardTypeDestinationAddressType method [TAPI 2.2], get_ForwardTypeDestinationAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypedestinationaddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeDestinationAddressType

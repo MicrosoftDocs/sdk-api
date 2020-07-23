@@ -4,7 +4,7 @@ title: IAMVideoCompression::get_PFramesPerKeyFrame (strmif.h)
 description: The get_PFramesPerKeyFrame method retrieves the rate of predicted (P) frames per key frame.
 helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","get_PFramesPerKeyFrame method","IAMVideoCompression.get_PFramesPerKeyFrame","IAMVideoCompression::get_PFramesPerKeyFrame","IAMVideoCompressionget_PFramesPerKeyFrame","dshow.iamvideocompression_get_pframesperkeyframe","get_PFramesPerKeyFrame","get_PFramesPerKeyFrame method [DirectShow]","get_PFramesPerKeyFrame method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::get_PFramesPerKeyFrame"]
 old-location: dshow\iamvideocompression_get_pframesperkeyframe.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 621292dd-42d9-4458-8971-929db39ed8b9
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_PFramesPerKeyFrame method, IAMVideoCompression.get_PFramesPerKeyFrame, IAMVideoCompression::get_PFramesPerKeyFrame, IAMVideoCompressionget_PFramesPerKeyFrame, dshow.iamvideocompression_get_pframesperkeyframe, get_PFramesPerKeyFrame, get_PFramesPerKeyFrame method [DirectShow], get_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_PFramesPerKeyFrame

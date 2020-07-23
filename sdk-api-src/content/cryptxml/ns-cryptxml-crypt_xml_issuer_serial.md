@@ -4,7 +4,7 @@ title: CRYPT_XML_ISSUER_SERIAL (cryptxml.h)
 description: Contains an X.509 issued distinguished name–serial number pair.
 helpviewer_keywords: ["CRYPT_XML_ISSUER_SERIAL","CRYPT_XML_ISSUER_SERIAL structure [Security]","cryptxml/CRYPT_XML_ISSUER_SERIAL","security.crypt_xml_issuer_serial"]
 old-location: security\crypt_xml_issuer_serial.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8d74e119-c7ea-4c7c-9d2a-e81f7ae40310
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_ISSUER_SERIAL, CRYPT_XML_ISSUER_SERIAL structure [Security], cryptxml/CRYPT_XML_ISSUER_SERIAL, security.crypt_xml_issuer_serial

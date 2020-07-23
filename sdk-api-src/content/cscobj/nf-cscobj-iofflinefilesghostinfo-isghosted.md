@@ -4,7 +4,7 @@ title: IOfflineFilesGhostInfo::IsGhosted (cscobj.h)
 description: Determines whether the item is ghosted.
 helpviewer_keywords: ["IOfflineFilesGhostInfo interface [Offline Files]","IsGhosted method","IOfflineFilesGhostInfo.IsGhosted","IOfflineFilesGhostInfo::IsGhosted","IsGhosted","IsGhosted method [Offline Files]","IsGhosted method [Offline Files]","IOfflineFilesGhostInfo interface","cscobj/IOfflineFilesGhostInfo::IsGhosted","of.iofflinefilesghostinfo_isghosted"]
 old-location: of\iofflinefilesghostinfo_isghosted.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted

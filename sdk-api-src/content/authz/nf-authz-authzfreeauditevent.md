@@ -4,7 +4,7 @@ title: AuthzFreeAuditEvent function (authz.h)
 description: Frees the structure allocated by the AuthzInitializeObjectAccessAuditEvent function.
 helpviewer_keywords: ["AuthzFreeAuditEvent","AuthzFreeAuditEvent function [Security]","_win32_authzfreeauditevent","authz/AuthzFreeAuditEvent","security.authzfreeauditevent"]
 old-location: security\authzfreeauditevent.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e2980ef7-45dd-47c7-ba4d-f36b52bbd7dc
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win32_authzfreeauditevent, authz/AuthzFreeAuditEvent, security.authzfreeauditevent

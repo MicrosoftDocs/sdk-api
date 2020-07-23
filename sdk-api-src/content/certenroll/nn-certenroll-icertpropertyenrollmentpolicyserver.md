@@ -4,7 +4,7 @@ title: ICertPropertyEnrollmentPolicyServer (certenroll.h)
 description: Represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).
 helpviewer_keywords: ["ICertPropertyEnrollmentPolicyServer","ICertPropertyEnrollmentPolicyServer interface [Security]","ICertPropertyEnrollmentPolicyServer interface [Security]","described","certenroll/ICertPropertyEnrollmentPolicyServer","security.icertpropertyenrollmentpolicyserver"]
 old-location: security\icertpropertyenrollmentpolicyserver.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver

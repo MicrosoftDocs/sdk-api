@@ -4,7 +4,7 @@ title: IOfflineFilesItem::GetPath (cscobj.h)
 description: Retrieves the fully qualified UNC path string for an item in the Offline Files cache.
 helpviewer_keywords: ["GetPath","GetPath method [Offline Files]","GetPath method [Offline Files]","IOfflineFilesItem interface","IOfflineFilesItem interface [Offline Files]","GetPath method","IOfflineFilesItem.GetPath","IOfflineFilesItem::GetPath","cscobj/IOfflineFilesItem::GetPath","of.iofflinefilesitem_getpath"]
 old-location: of\iofflinefilesitem_getpath.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: d1453c9c-e0e7-4451-bb42-58a627fa1db5
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Offline Files], GetPath method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetPath method, IOfflineFilesItem.GetPath, IOfflineFilesItem::GetPath, cscobj/IOfflineFilesItem::GetPath, of.iofflinefilesitem_getpath

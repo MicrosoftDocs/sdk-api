@@ -4,7 +4,7 @@ title: ShouldBlockRevert function (vsbackup.h)
 description: Checks the registry for writers that should block revert operations on the specified volume.
 helpviewer_keywords: ["ShouldBlockRevert","ShouldBlockRevert function","base.shouldblockrevert","vsbackup/ShouldBlockRevert"]
 old-location: base\shouldblockrevert.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
 ms.date: 12/05/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert

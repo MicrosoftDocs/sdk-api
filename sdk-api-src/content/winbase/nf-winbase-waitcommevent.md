@@ -4,7 +4,7 @@ title: WaitCommEvent function (winbase.h)
 description: Waits for an event to occur for a specified communications device. The set of events that are monitored by this function is contained in the event mask associated with the device handle.
 helpviewer_keywords: ["EV_BREAK","EV_CTS","EV_DSR","EV_ERR","EV_RING","EV_RLSD","EV_RXCHAR","EV_RXFLAG","EV_TXEMPTY","WaitCommEvent","WaitCommEvent function","_win32_waitcommevent","base.waitcommevent","winbase/WaitCommEvent"]
 old-location: base\waitcommevent.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 79e955c0-8756-4d6f-bce6-49e8e44d0d3f
 ms.date: 12/05/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, WaitCommEvent, WaitCommEvent function, _win32_waitcommevent, base.waitcommevent, winbase/WaitCommEvent

@@ -4,7 +4,7 @@ title: CF_POPULATION_POLICY_PRIMARY (cfapi.h)
 description: Allows a sync provider to control how placeholder directories and files should be created by the platform. This is the primary policy.
 helpviewer_keywords: ["CF_POPULATION_POLICY_ALWAYS_FULL","CF_POPULATION_POLICY_FULL","CF_POPULATION_POLICY_PARTIAL","CF_POPULATION_POLICY_PRIMARY","CF_POPULATION_POLICY_PRIMARY enumeration","PCF_POPULATION_POLICY_PRIMARY","PCF_POPULATION_POLICY_PRIMARY enumeration pointer","cfapi/CF_POPULATION_POLICY_ALWAYS_FULL","cfapi/CF_POPULATION_POLICY_FULL","cfapi/CF_POPULATION_POLICY_PARTIAL","cfapi/CF_POPULATION_POLICY_PRIMARY","cfapi/PCF_POPULATION_POLICY_PRIMARY","cloudApi.cf_population_policy_primary"]
 old-location: cloudapi\cf_population_policy_primary.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 3EDCDE3D-AD47-4C4B-9F83-C89879D668DA
 ms.date: 12/05/2018
 ms.keywords: CF_POPULATION_POLICY_ALWAYS_FULL, CF_POPULATION_POLICY_FULL, CF_POPULATION_POLICY_PARTIAL, CF_POPULATION_POLICY_PRIMARY, CF_POPULATION_POLICY_PRIMARY enumeration, PCF_POPULATION_POLICY_PRIMARY, PCF_POPULATION_POLICY_PRIMARY enumeration pointer, cfapi/CF_POPULATION_POLICY_ALWAYS_FULL, cfapi/CF_POPULATION_POLICY_FULL, cfapi/CF_POPULATION_POLICY_PARTIAL, cfapi/CF_POPULATION_POLICY_PRIMARY, cfapi/PCF_POPULATION_POLICY_PRIMARY, cloudApi.cf_population_policy_primary

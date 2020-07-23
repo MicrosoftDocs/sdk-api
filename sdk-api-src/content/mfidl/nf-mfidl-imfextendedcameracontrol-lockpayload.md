@@ -5,7 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Locks the internal payload buffer contained in the capture device control to enable querying or changing the payload.
-tech.root: medfound
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ title: IVdsVolumeMF3::OfflineVolume (vds.h)
 description: Takes the volume offline by using the IOCTL_VOLUME_OFFLINE control code.
 helpviewer_keywords: ["IVdsVolumeMF3 interface","OfflineVolume method","IVdsVolumeMF3.OfflineVolume","IVdsVolumeMF3::OfflineVolume","OfflineVolume","OfflineVolume method","OfflineVolume method","IVdsVolumeMF3 interface","base.ivdsvolumemf3_offlinevolume","vds/IVdsVolumeMF3::OfflineVolume"]
 old-location: base\ivdsvolumemf3_offlinevolume.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d7f699c6-6f1c-445d-80b4-3576102d5b5f
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.OfflineVolume, IVdsVolumeMF3::OfflineVolume, OfflineVolume, OfflineVolume method, OfflineVolume method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume

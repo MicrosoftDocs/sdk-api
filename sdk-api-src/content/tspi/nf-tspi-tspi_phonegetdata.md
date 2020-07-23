@@ -4,7 +4,7 @@ title: TSPI_phoneGetData function (tspi.h)
 description: The TSPI_phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 helpviewer_keywords: ["TSPI_phoneGetData","TSPI_phoneGetData function [TAPI 2.2]","_tspi_tspi_phonegetdata","tspi.tspi_phonegetdata","tspi/TSPI_phoneGetData"]
 old-location: tspi\tspi_phonegetdata.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 16692dfe-7a78-428a-94c0-bf56dda834b6
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetData, TSPI_phoneGetData function [TAPI 2.2], _tspi_tspi_phonegetdata, tspi.tspi_phonegetdata, tspi/TSPI_phoneGetData

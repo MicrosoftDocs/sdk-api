@@ -4,7 +4,7 @@ title: IComThreadEvents (comsvcs.h)
 description: Notifies the subscriber if a single-threaded apartment (STA) is created or terminated, and when an apartment thread is allocated.
 helpviewer_keywords: ["IComThreadEvents","IComThreadEvents interface [COM+]","IComThreadEvents interface [COM+]","described","_dtc_IComThreadEvents","comsvcs/IComThreadEvents","cos.icomthreadevents"]
 old-location: cos\icomthreadevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: a6523088-cca4-41c1-a3fe-d8cb7320ff33
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], IComThreadEvents interface [COM+],described, _dtc_IComThreadEvents, comsvcs/IComThreadEvents, cos.icomthreadevents

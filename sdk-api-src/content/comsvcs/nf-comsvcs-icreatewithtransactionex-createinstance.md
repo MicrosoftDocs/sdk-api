@@ -4,7 +4,7 @@ title: ICreateWithTransactionEx::CreateInstance (comsvcs.h)
 description: Creates a COM+ object that executes within the scope of a manual transaction specified with a reference to an ITransaction interface.
 helpviewer_keywords: ["CreateInstance","CreateInstance method [COM+]","CreateInstance method [COM+]","ICreateWithTransactionEx interface","ICreateWithTransactionEx interface [COM+]","CreateInstance method","ICreateWithTransactionEx.CreateInstance","ICreateWithTransactionEx::CreateInstance","_dtc_ICreateWithTransactionEx_CreateInstance","comsvcs/ICreateWithTransactionEx::CreateInstance","cos.icreatewithtransactionex_createinstance"]
 old-location: cos\icreatewithtransactionex_createinstance.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 71d3b8ad-195b-47a6-8197-05df6311ed2a
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTransactionEx interface, ICreateWithTransactionEx interface [COM+],CreateInstance method, ICreateWithTransactionEx.CreateInstance, ICreateWithTransactionEx::CreateInstance, _dtc_ICreateWithTransactionEx_CreateInstance, comsvcs/ICreateWithTransactionEx::CreateInstance, cos.icreatewithtransactionex_createinstance

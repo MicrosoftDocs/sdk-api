@@ -4,7 +4,7 @@ title: ICertView::EnumCertViewColumn (certview.h)
 description: Obtains an instance of a column-enumeration sequence for the database schema.
 helpviewer_keywords: ["CCertView object [Security]","EnumCertViewColumn method","CVRC_COLUMN_MASK","CVRC_COLUMN_RESULT","CVRC_COLUMN_SCHEMA","CVRC_COLUMN_VALUE","EnumCertViewColumn","EnumCertViewColumn method [Security]","EnumCertViewColumn method [Security]","CCertView object","EnumCertViewColumn method [Security]","ICertView interface","EnumCertViewColumn method [Security]","ICertView2 interface","ICertView interface [Security]","EnumCertViewColumn method","ICertView.EnumCertViewColumn","ICertView2 interface [Security]","EnumCertViewColumn method","ICertView2::EnumCertViewColumn","ICertView::EnumCertViewColumn","certview/ICertView2::EnumCertViewColumn","certview/ICertView::EnumCertViewColumn","security.icertview2_enumcertviewcolumn"]
 old-location: security\icertview2_enumcertviewcolumn.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a51162f9-cc3d-4f06-993a-e5c9f57dd8a1
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],EnumCertViewColumn method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, EnumCertViewColumn, EnumCertViewColumn method [Security], EnumCertViewColumn method [Security],CCertView object, EnumCertViewColumn method [Security],ICertView interface, EnumCertViewColumn method [Security],ICertView2 interface, ICertView interface [Security],EnumCertViewColumn method, ICertView.EnumCertViewColumn, ICertView2 interface [Security],EnumCertViewColumn method, ICertView2::EnumCertViewColumn, ICertView::EnumCertViewColumn, certview/ICertView2::EnumCertViewColumn, certview/ICertView::EnumCertViewColumn, security.icertview2_enumcertviewcolumn

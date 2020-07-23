@@ -4,7 +4,7 @@ title: IWSDUdpAddress (wsdbase.h)
 description: Provides access to the individual components of a UDP address.
 helpviewer_keywords: ["IWSDUdpAddress","IWSDUdpAddress interface","IWSDUdpAddress interface","described","ncd.iwsdudpaddress","wsdbase/IWSDUdpAddress"]
 old-location: ncd\iwsdudpaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface,described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress

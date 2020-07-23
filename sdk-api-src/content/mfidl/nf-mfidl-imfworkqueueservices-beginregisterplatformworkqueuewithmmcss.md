@@ -4,7 +4,7 @@ title: IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS (mfidl.h)
 description: Associates a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 helpviewer_keywords: ["BeginRegisterPlatformWorkQueueWithMMCSS","BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation]","BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","BeginRegisterPlatformWorkQueueWithMMCSS method","IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS","IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS","aea9f946-dd59-4e51-a1de-b086e70ea083","mf.imfworkqueueservices_beginregisterplatformworkqueuewithmmcss","mfidl/IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS"]
 old-location: mf\imfworkqueueservices_beginregisterplatformworkqueuewithmmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: aea9f946-dd59-4e51-a1de-b086e70ea083
 ms.date: 12/05/2018
 ms.keywords: BeginRegisterPlatformWorkQueueWithMMCSS, BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS, aea9f946-dd59-4e51-a1de-b086e70ea083, mf.imfworkqueueservices_beginregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS

@@ -4,7 +4,7 @@ title: IX509CertificateRequestPkcs10::get_PublicKey (certenroll.h)
 description: Retrieves the IX509PublicKey object that contains the public key included in the certificate request.
 helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","PublicKey property","IX509CertificateRequestPkcs10.PublicKey","IX509CertificateRequestPkcs10.get_PublicKey","IX509CertificateRequestPkcs10::PublicKey","IX509CertificateRequestPkcs10::get_PublicKey","PublicKey property [Security]","PublicKey property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::PublicKey","certenroll/IX509CertificateRequestPkcs10::get_PublicKey","get_PublicKey","security.ix509certificaterequestpkcs10_publickey_property"]
 old-location: security\ix509certificaterequestpkcs10_publickey_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9f9d05d8-9bc5-441e-8409-498ee9d20c25
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],PublicKey property, IX509CertificateRequestPkcs10.PublicKey, IX509CertificateRequestPkcs10.get_PublicKey, IX509CertificateRequestPkcs10::PublicKey, IX509CertificateRequestPkcs10::get_PublicKey, PublicKey property [Security], PublicKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::PublicKey, certenroll/IX509CertificateRequestPkcs10::get_PublicKey, get_PublicKey, security.ix509certificaterequestpkcs10_publickey_property

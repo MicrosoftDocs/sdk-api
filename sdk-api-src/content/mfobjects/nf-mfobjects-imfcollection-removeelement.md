@@ -4,7 +4,7 @@ title: IMFCollection::RemoveElement (mfobjects.h)
 description: Removes an object from the collection.
 helpviewer_keywords: ["47f33235-6bb5-4103-82b4-87210b0e695c","IMFCollection interface [Media Foundation]","RemoveElement method","IMFCollection.RemoveElement","IMFCollection::RemoveElement","RemoveElement","RemoveElement method [Media Foundation]","RemoveElement method [Media Foundation]","IMFCollection interface","mf.imfcollection_removeelement","mfobjects/IMFCollection::RemoveElement"]
 old-location: mf\imfcollection_removeelement.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 47f33235-6bb5-4103-82b4-87210b0e695c
 ms.date: 12/05/2018
 ms.keywords: 47f33235-6bb5-4103-82b4-87210b0e695c, IMFCollection interface [Media Foundation],RemoveElement method, IMFCollection.RemoveElement, IMFCollection::RemoveElement, RemoveElement, RemoveElement method [Media Foundation], RemoveElement method [Media Foundation],IMFCollection interface, mf.imfcollection_removeelement, mfobjects/IMFCollection::RemoveElement

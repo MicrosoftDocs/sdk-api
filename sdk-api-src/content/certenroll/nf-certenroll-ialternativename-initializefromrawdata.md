@@ -4,7 +4,7 @@ title: IAlternativeName::InitializeFromRawData (certenroll.h)
 description: Initializes the object from a Digital Signature Algorithm (DSA) GUID, an X.500 directory name, or an Internet Protocol (IP) address contained in a Distinguished Encoding Rules (DER) encoded byte array.
 helpviewer_keywords: ["IAlternativeName interface [Security]","InitializeFromRawData method","IAlternativeName.InitializeFromRawData","IAlternativeName::InitializeFromRawData","InitializeFromRawData","InitializeFromRawData method [Security]","InitializeFromRawData method [Security]","IAlternativeName interface","XCN_CERT_ALT_NAME_DIRECTORY_NAME","XCN_CERT_ALT_NAME_GUID","XCN_CERT_ALT_NAME_IP_ADDRESS","certenroll/IAlternativeName::InitializeFromRawData","security.ialternativename_initializefromrawdata_method"]
 old-location: security\ialternativename_initializefromrawdata_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1559801c-ec62-471e-851f-f67219565cd1
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromRawData method, IAlternativeName.InitializeFromRawData, IAlternativeName::InitializeFromRawData, InitializeFromRawData, InitializeFromRawData method [Security], InitializeFromRawData method [Security],IAlternativeName interface, XCN_CERT_ALT_NAME_DIRECTORY_NAME, XCN_CERT_ALT_NAME_GUID, XCN_CERT_ALT_NAME_IP_ADDRESS, certenroll/IAlternativeName::InitializeFromRawData, security.ialternativename_initializefromrawdata_method

@@ -4,7 +4,7 @@ title: SIP_SUBJECTINFO (mssip.h)
 description: Specifies subject information data to the subject interface package (SIP) APIs.
 helpviewer_keywords: ["*LPSIP_SUBJECTINFO","LPSIP_SUBJECTINFO","LPSIP_SUBJECTINFO structure pointer [Security]","MSSIP_ADDINFO_BLOB","MSSIP_ADDINFO_CATMEMBER","MSSIP_ADDINFO_FLAT","MSSIP_ADDINFO_NONE","MSSIP_ADDINFO_NONMSSIP","SIP_SUBJECTINFO","SIP_SUBJECTINFO structure [Security]","mssip/LPSIP_SUBJECTINFO","mssip/SIP_SUBJECTINFO","security.sip_subjectinfo"]
 old-location: security\sip_subjectinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6274cd08-d67f-410d-9303-3a42b7f1edc6
 ms.date: 12/05/2018
 ms.keywords: '*LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO structure pointer [Security], MSSIP_ADDINFO_BLOB, MSSIP_ADDINFO_CATMEMBER, MSSIP_ADDINFO_FLAT, MSSIP_ADDINFO_NONE, MSSIP_ADDINFO_NONMSSIP, SIP_SUBJECTINFO, SIP_SUBJECTINFO structure [Security], mssip/LPSIP_SUBJECTINFO, mssip/SIP_SUBJECTINFO, security.sip_subjectinfo'

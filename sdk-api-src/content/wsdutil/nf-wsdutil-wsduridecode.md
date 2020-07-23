@@ -4,7 +4,7 @@ title: WSDUriDecode function (wsdutil.h)
 description: Decodes a URI according to the rules in RFC2396.
 helpviewer_keywords: ["WSDUriDecode","WSDUriDecode function","ncd.wsduridecode","wsdutil/WSDUriDecode"]
 old-location: ncd\wsduridecode.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
 ms.date: 12/05/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode

@@ -4,7 +4,7 @@ title: AuditFree function (ntsecapi.h)
 description: Frees the memory allocated by audit functions for the specified buffer.
 helpviewer_keywords: ["AuditFree","AuditFree function [Security]","ntsecapi/AuditFree","security.auditfree_func"]
 old-location: security\auditfree_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
 ms.date: 12/05/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func

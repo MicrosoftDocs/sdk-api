@@ -4,7 +4,7 @@ title: WinHttpGetProxyForUrl function (winhttp.h)
 description: Retrieves the proxy data for the specified URL.
 helpviewer_keywords: ["WinHttpGetProxyForUrl","WinHttpGetProxyForUrl function [WinHTTP]","http.winhttpgetproxyforurl","winhttp/WinHttpGetProxyForUrl"]
 old-location: http\winhttpgetproxyforurl.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl

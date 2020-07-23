@@ -4,7 +4,7 @@ title: DRMGetMetaData function (msdrm.h)
 description: Retrieves metadata from an issuance license.
 helpviewer_keywords: ["DRMGetMetaData","DRMGetMetaData function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetMetaData","rm.drmgetmetadata"]
 old-location: rm\drmgetmetadata.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: bea3120a-11a2-42e9-bf1b-368cad25ede5
 ms.date: 12/05/2018
 ms.keywords: DRMGetMetaData, DRMGetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetMetaData, rm.drmgetmetadata

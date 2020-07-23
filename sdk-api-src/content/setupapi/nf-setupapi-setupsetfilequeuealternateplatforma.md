@@ -4,7 +4,7 @@ title: SetupSetFileQueueAlternatePlatformA function (setupapi.h)
 description: The SetupSetFileQueueAlternatePlatform function associates the file queue with a target platform that is different from the platform running the function. This is done to enable for non-native signature verification.
 helpviewer_keywords: ["SetupSetFileQueueAlternatePlatform","SetupSetFileQueueAlternatePlatform function [Setup API]","SetupSetFileQueueAlternatePlatformA","SetupSetFileQueueAlternatePlatformW","_setupapi_setupsetfilequeuealternateplatform","setup.setupsetfilequeuealternateplatform","setupapi/SetupSetFileQueueAlternatePlatform","setupapi/SetupSetFileQueueAlternatePlatformA","setupapi/SetupSetFileQueueAlternatePlatformW"]
 old-location: setup\setupsetfilequeuealternateplatform.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 86289ab5-c313-470d-9ac1-3651c23af979
 ms.date: 12/05/2018
 ms.keywords: SetupSetFileQueueAlternatePlatform, SetupSetFileQueueAlternatePlatform function [Setup API], SetupSetFileQueueAlternatePlatformA, SetupSetFileQueueAlternatePlatformW, _setupapi_setupsetfilequeuealternateplatform, setup.setupsetfilequeuealternateplatform, setupapi/SetupSetFileQueueAlternatePlatform, setupapi/SetupSetFileQueueAlternatePlatformA, setupapi/SetupSetFileQueueAlternatePlatformW

@@ -4,7 +4,7 @@ title: IMFPMediaItem::GetCharacteristics (mfplay.h)
 description: Gets various flags that describe the media item.
 helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Media Foundation]","GetCharacteristics method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetCharacteristics method","IMFPMediaItem.GetCharacteristics","IMFPMediaItem::GetCharacteristics","mf.imfpmediaitem_getcharacteristics","mfplay/IMFPMediaItem::GetCharacteristics"]
 old-location: mf\imfpmediaitem_getcharacteristics.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9fe65644-c7a0-4af5-9765-f933215f5f83
 ms.date: 12/05/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetCharacteristics method, IMFPMediaItem.GetCharacteristics, IMFPMediaItem::GetCharacteristics, mf.imfpmediaitem_getcharacteristics, mfplay/IMFPMediaItem::GetCharacteristics

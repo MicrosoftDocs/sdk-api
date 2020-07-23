@@ -4,7 +4,7 @@ title: MsiOpenPackageW function (msi.h)
 description: The MsiOpenPackage function opens a package to use with the functions that access the product database.
 helpviewer_keywords: ["MsiOpenPackage","MsiOpenPackage function","MsiOpenPackageA","MsiOpenPackageW","_msi_msiopenpackage","msi/MsiOpenPackage","msi/MsiOpenPackageA","msi/MsiOpenPackageW","setup.msiopenpackage"]
 old-location: setup\msiopenpackage.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
 ms.date: 12/05/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage

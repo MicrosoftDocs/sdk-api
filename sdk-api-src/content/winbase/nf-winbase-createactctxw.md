@@ -4,7 +4,7 @@ title: CreateActCtxW function (winbase.h)
 description: The CreateActCtx function creates an activation context.
 helpviewer_keywords: ["CreateActCtx","CreateActCtx function [Side-by-side Assemblies]","CreateActCtxA","CreateActCtxW","_win32_createactctx","setup.createactctx","winbase/CreateActCtx","winbase/CreateActCtxA","winbase/CreateActCtxW"]
 old-location: setup\createactctx.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 11508215-8d8b-4040-a725-88804103fac4
 ms.date: 12/05/2018
 ms.keywords: CreateActCtx, CreateActCtx function [Side-by-side Assemblies], CreateActCtxA, CreateActCtxW, _win32_createactctx, setup.createactctx, winbase/CreateActCtx, winbase/CreateActCtxA, winbase/CreateActCtxW

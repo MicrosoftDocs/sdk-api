@@ -4,7 +4,7 @@ title: IXpsOMPageReference::CollectLinkTargets (xpsobjectmodel.h)
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
 helpviewer_keywords: ["CollectLinkTargets","CollectLinkTargets method [XPS Documents and Packaging]","CollectLinkTargets method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","CollectLinkTargets method","IXpsOMPageReference.CollectLinkTargets","IXpsOMPageReference::CollectLinkTargets","xps.ixpsompagereference_collectlinktargets","xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets"]
 old-location: xps\ixpsompagereference_collectlinktargets.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.date: 12/05/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets

@@ -4,7 +4,7 @@ title: SECPKG_SHORT_VECTOR (ntsecpkg.h)
 description: Specifies the short vector information.
 helpviewer_keywords: ["*PSECPKG_SHORT_VECTOR","PSECPKG_SHORT_VECTOR","PSECPKG_SHORT_VECTOR structure pointer [Security]","SECPKG_SHORT_VECTOR","SECPKG_SHORT_VECTOR structure [Security]","ntsecpkg/PSECPKG_SHORT_VECTOR","ntsecpkg/SECPKG_SHORT_VECTOR","security.secpkg_short_vector"]
 old-location: security\secpkg_short_vector.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 55F6B72E-B4D5-44F0-9268-D25D677746C5
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR structure pointer [Security], SECPKG_SHORT_VECTOR, SECPKG_SHORT_VECTOR structure [Security], ntsecpkg/PSECPKG_SHORT_VECTOR, ntsecpkg/SECPKG_SHORT_VECTOR, security.secpkg_short_vector'

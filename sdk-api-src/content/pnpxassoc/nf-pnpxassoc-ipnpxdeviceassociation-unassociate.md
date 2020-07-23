@@ -4,7 +4,7 @@ title: IPNPXDeviceAssociation::Unassociate (pnpxassoc.h)
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 helpviewer_keywords: ["IPNPXDeviceAssociation interface","Unassociate method","IPNPXDeviceAssociation.Unassociate","IPNPXDeviceAssociation::Unassociate","Unassociate","Unassociate method","Unassociate method","IPNPXDeviceAssociation interface","ncd.ipnpxdeviceassociation_unassociate","pnpxassoc/IPNPXDeviceAssociation::Unassociate"]
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate

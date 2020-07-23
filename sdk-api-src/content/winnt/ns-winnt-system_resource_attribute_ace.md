@@ -4,7 +4,7 @@ title: SYSTEM_RESOURCE_ATTRIBUTE_ACE (winnt.h)
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the system resource attributes for a securable object.
 helpviewer_keywords: ["*PSYSTEM_RESOURCE_ATTRIBUTE_ACE","PSYSTEM_RESOURCE_ATTRIBUTE_ACE","PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Security]","SYSTEM_RESOURCE_ATTRIBUTE_ACE","SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Security]","_SYSTEM_RESOURCE_ATTRIBUTE_ACE","security.system_resource_attribute_ace","winnt/PSYSTEM_RESOURCE_ATTRIBUTE_ACE","winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE"]
 old-location: security\system_resource_attribute_ace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: A222E1B7-CA9C-4250-A697-B9D278B26C06
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Security], SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Security], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, security.system_resource_attribute_ace, winnt/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE'

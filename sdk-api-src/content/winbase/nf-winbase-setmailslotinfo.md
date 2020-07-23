@@ -4,7 +4,7 @@ title: SetMailslotInfo function (winbase.h)
 description: Sets the time-out value used by the specified mailslot for a read operation.
 helpviewer_keywords: ["MAILSLOT_WAIT_FOREVER","SetMailslotInfo","SetMailslotInfo function","_win32_setmailslotinfo","base.setmailslotinfo","winbase/SetMailslotInfo"]
 old-location: base\setmailslotinfo.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 4afcbbfb-fd04-4813-b139-4baffc2fdf3c
 ms.date: 12/05/2018
 ms.keywords: MAILSLOT_WAIT_FOREVER, SetMailslotInfo, SetMailslotInfo function, _win32_setmailslotinfo, base.setmailslotinfo, winbase/SetMailslotInfo

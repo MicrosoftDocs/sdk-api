@@ -4,7 +4,7 @@ title: IXpsOMRadialGradientBrush (xpsobjectmodel.h)
 description: Specifies a radial gradient.
 helpviewer_keywords: ["IXpsOMRadialGradientBrush","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","described","xps.ixpsomradialgradientbrush","xpsobjectmodel/IXpsOMRadialGradientBrush"]
 old-location: xps\ixpsomradialgradientbrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2f5b7b99-64a0-4156-8963-cfceb0d73503
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomradialgradientbrush, xpsobjectmodel/IXpsOMRadialGradientBrush

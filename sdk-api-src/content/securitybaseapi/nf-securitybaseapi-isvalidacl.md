@@ -4,7 +4,7 @@ title: IsValidAcl function (securitybaseapi.h)
 description: Validates an access control list (ACL).
 helpviewer_keywords: ["IsValidAcl","IsValidAcl function [Security]","_win32_isvalidacl","security.isvalidacl","securitybaseapi/IsValidAcl"]
 old-location: security\isvalidacl.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3ae9f147-4e90-44df-a1af-cf6ebad92aea
 ms.date: 12/05/2018
 ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, security.isvalidacl, securitybaseapi/IsValidAcl

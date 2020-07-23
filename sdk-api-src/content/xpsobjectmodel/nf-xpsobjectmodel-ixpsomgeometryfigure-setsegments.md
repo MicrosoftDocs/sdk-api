@@ -3,7 +3,7 @@ UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetSegments
 title: IXpsOMGeometryFigure::SetSegments (xpsobjectmodel.h)
 description: Sets the segment information and data points for segments in the figure.
 old-location: xps\ixpsomgeometryfigure_setsegments.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4e2a1a80-1eda-458f-b711-de56df7a98ac
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSegments method, IXpsOMGeometryFigure.SetSegments, IXpsOMGeometryFigure::SetSegments, SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments

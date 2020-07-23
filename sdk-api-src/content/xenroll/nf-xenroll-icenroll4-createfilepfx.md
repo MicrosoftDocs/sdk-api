@@ -4,7 +4,7 @@ title: ICEnroll4::createFilePFX (xenroll.h)
 description: Saves the accepted certificate chain and private key in a file in Personal Information Exchange (PFX) format. This method was first defined in the ICEnroll4 interface.
 helpviewer_keywords: ["CEnroll object [Security]","createFilePFX method","ICEnroll4 interface [Security]","createFilePFX method","ICEnroll4.createFilePFX","ICEnroll4::createFilePFX","_xen_icenroll4_createfilepfx","createFilePFX","createFilePFX method [Security]","createFilePFX method [Security]","CEnroll object","createFilePFX method [Security]","ICEnroll4 interface","security.icenroll4_createfilepfx","xenroll/ICEnroll4::createFilePFX"]
 old-location: security\icenroll4_createfilepfx.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: df58ba41-5301-48dd-9255-7173bb73965c
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],createFilePFX method, ICEnroll4 interface [Security],createFilePFX method, ICEnroll4.createFilePFX, ICEnroll4::createFilePFX, _xen_icenroll4_createfilepfx, createFilePFX, createFilePFX method [Security], createFilePFX method [Security],CEnroll object, createFilePFX method [Security],ICEnroll4 interface, security.icenroll4_createfilepfx, xenroll/ICEnroll4::createFilePFX

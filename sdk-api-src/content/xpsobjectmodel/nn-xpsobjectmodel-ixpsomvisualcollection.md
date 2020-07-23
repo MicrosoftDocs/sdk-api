@@ -4,7 +4,7 @@ title: IXpsOMVisualCollection (xpsobjectmodel.h)
 description: A collection of IXpsOMVisual interface pointers.
 helpviewer_keywords: ["IXpsOMVisualCollection","IXpsOMVisualCollection interface [XPS Documents and Packaging]","IXpsOMVisualCollection interface [XPS Documents and Packaging]","described","xps.ixpsomvisualcollection","xpsobjectmodel/IXpsOMVisualCollection"]
 old-location: xps\ixpsomvisualcollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f373b437-3973-40aa-9cac-a6b196a3e5d1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging],described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection

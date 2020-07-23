@@ -4,7 +4,7 @@ title: DRMCreateEnablingBitsDecryptor function (msdrm.h)
 description: Creates a decryption object that is used to decrypt content data.
 helpviewer_keywords: ["DRMCreateEnablingBitsDecryptor","DRMCreateEnablingBitsDecryptor function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateEnablingBitsDecryptor","rm.drmcreateenablingbitsdecryptor"]
 old-location: rm\drmcreateenablingbitsdecryptor.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 133582e2-6396-476f-a28b-37ed0257fb79
 ms.date: 12/05/2018
 ms.keywords: DRMCreateEnablingBitsDecryptor, DRMCreateEnablingBitsDecryptor function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingBitsDecryptor, rm.drmcreateenablingbitsdecryptor

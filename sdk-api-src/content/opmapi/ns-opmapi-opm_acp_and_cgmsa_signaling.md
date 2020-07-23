@@ -4,7 +4,7 @@ title: OPM_ACP_AND_CGMSA_SIGNALING (opmapi.h)
 description: Contains the result from an OPM_GET_ACP_AND_CGMSA_SIGNALING query.
 helpviewer_keywords: ["OPM_ACP_AND_CGMSA_SIGNALING","OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation]","mf.opm_acp_and_cgmsa_signaling","opmapi/OPM_ACP_AND_CGMSA_SIGNALING"]
 old-location: mf\opm_acp_and_cgmsa_signaling.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7388bdd9-a8bc-45f4-8539-a175190fb3c3
 ms.date: 12/05/2018
 ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation], mf.opm_acp_and_cgmsa_signaling, opmapi/OPM_ACP_AND_CGMSA_SIGNALING

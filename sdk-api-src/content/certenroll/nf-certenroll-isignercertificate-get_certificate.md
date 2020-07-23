@@ -4,7 +4,7 @@ title: ISignerCertificate::get_Certificate (certenroll.h)
 description: Retrieves a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate.
 helpviewer_keywords: ["Certificate property [Security]","Certificate property [Security]","ISignerCertificate interface","ISignerCertificate interface [Security]","Certificate property","ISignerCertificate.Certificate","ISignerCertificate.get_Certificate","ISignerCertificate::Certificate","ISignerCertificate::get_Certificate","certenroll/ISignerCertificate::Certificate","certenroll/ISignerCertificate::get_Certificate","get_Certificate","security.isignercertificate_certificate_property"]
 old-location: security\isignercertificate_certificate_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7c7cc326-593d-4b2b-b8db-46aaf894279b
 ms.date: 12/05/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],ISignerCertificate interface, ISignerCertificate interface [Security],Certificate property, ISignerCertificate.Certificate, ISignerCertificate.get_Certificate, ISignerCertificate::Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate, security.isignercertificate_certificate_property

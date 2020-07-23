@@ -4,7 +4,7 @@ title: MFCompareFullToPartialMediaType function (mfapi.h)
 description: Compares a full media type to a partial media type.
 helpviewer_keywords: ["5659cc69-46dc-4b08-96c4-e9ec787a310a","MFCompareFullToPartialMediaType","MFCompareFullToPartialMediaType function [Media Foundation]","mf.mfcomparefulltopartialmediatype","mfapi/MFCompareFullToPartialMediaType"]
 old-location: mf\mfcomparefulltopartialmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
 ms.date: 12/05/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType

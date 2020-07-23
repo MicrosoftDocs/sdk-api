@@ -4,7 +4,7 @@ title: WriteLogRestartArea function (clfsw32.h)
 description: Appends a new client restart area to a log, and optionally advances the base log sequence number (LSN) of the log.
 helpviewer_keywords: ["CLFS_FLAG_NO_FLAGS","CLFS_FLAG_USE_RESERVATION","WriteLogRestartArea","WriteLogRestartArea function [Files]","clfsw32/WriteLogRestartArea","fs.writelogrestartarea"]
 old-location: fs\writelogrestartarea.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: deb5fd90-e987-4e5b-9740-6ecef8705557
 ms.date: 12/05/2018
 ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea, WriteLogRestartArea function [Files], clfsw32/WriteLogRestartArea, fs.writelogrestartarea

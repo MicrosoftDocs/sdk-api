@@ -4,7 +4,7 @@ title: CInstance::SetEmbeddedObject (instance.h)
 description: The SetEmbeddedObject method sets an embedded CInstance property.
 helpviewer_keywords: ["?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z","CInstance interface [Windows Management Instrumentation]","SetEmbeddedObject method","CInstance.SetEmbeddedObject","CInstance::SetEmbeddedObject","SetEmbeddedObject","SetEmbeddedObject method [Windows Management Instrumentation]","SetEmbeddedObject method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setembeddedobject","instance/CInstance::SetEmbeddedObject","wmi.cinstance_setembeddedobject"]
 old-location: wmi\cinstance_setembeddedobject.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 64000949-8a3d-47c9-888b-09d520c41e1e
 ms.date: 12/05/2018
 ms.keywords: ?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z, CInstance interface [Windows Management Instrumentation],SetEmbeddedObject method, CInstance.SetEmbeddedObject, CInstance::SetEmbeddedObject, SetEmbeddedObject, SetEmbeddedObject method [Windows Management Instrumentation], SetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setembeddedobject, instance/CInstance::SetEmbeddedObject, wmi.cinstance_setembeddedobject

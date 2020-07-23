@@ -4,7 +4,7 @@ title: BCRYPT_DSA_KEY_BLOB_V2 (bcrypt.h)
 description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
 helpviewer_keywords: ["*PBCRYPT_DSA_KEY_BLOB_V2","BCRYPT_DSA_KEY_BLOB_V2","BCRYPT_DSA_KEY_BLOB_V2 structure [Security]","BCRYPT_DSA_PRIVATE_MAGIC","BCRYPT_DSA_PUBLIC_MAGIC","PBCRYPT_DSA_KEY_BLOB_V2","PBCRYPT_DSA_KEY_BLOB_V2 structure pointer [Security]","bcrypt/BCRYPT_DSA_KEY_BLOB_V2","bcrypt/PBCRYPT_DSA_KEY_BLOB_V2","security.bcrypt_dsa_key_blob_v2"]
 old-location: security\bcrypt_dsa_key_blob_v2.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: E8240DE1-B65F-4DAC-92C9-45725435A0F7
 ms.date: 12/05/2018
 ms.keywords: '*PBCRYPT_DSA_KEY_BLOB_V2, BCRYPT_DSA_KEY_BLOB_V2, BCRYPT_DSA_KEY_BLOB_V2 structure [Security], BCRYPT_DSA_PRIVATE_MAGIC, BCRYPT_DSA_PUBLIC_MAGIC, PBCRYPT_DSA_KEY_BLOB_V2, PBCRYPT_DSA_KEY_BLOB_V2 structure pointer [Security], bcrypt/BCRYPT_DSA_KEY_BLOB_V2, bcrypt/PBCRYPT_DSA_KEY_BLOB_V2, security.bcrypt_dsa_key_blob_v2'

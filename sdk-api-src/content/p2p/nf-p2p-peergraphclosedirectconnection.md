@@ -4,7 +4,7 @@ title: PeerGraphCloseDirectConnection function (p2p.h)
 description: The PeerGraphCloseDirectConnection function closes a specified direct connection.
 helpviewer_keywords: ["PeerGraphCloseDirectConnection","PeerGraphCloseDirectConnection function [Peer Networking]","p2p.peergraphclosedirectconnection","p2p/PeerGraphCloseDirectConnection"]
 old-location: p2p\peergraphclosedirectconnection.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e5547292-7f6f-456c-b47a-5d5948f51a7f
 ms.date: 12/05/2018
 ms.keywords: PeerGraphCloseDirectConnection, PeerGraphCloseDirectConnection function [Peer Networking], p2p.peergraphclosedirectconnection, p2p/PeerGraphCloseDirectConnection

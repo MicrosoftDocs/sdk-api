@@ -4,7 +4,7 @@ title: ID3D11VideoDevice::CheckCryptoKeyExchange (d3d11.h)
 description: Gets a cryptographic key-exchange mechanism that is supported by the driver.
 helpviewer_keywords: ["CheckCryptoKeyExchange","CheckCryptoKeyExchange method [Media Foundation]","CheckCryptoKeyExchange method [Media Foundation]","ID3D11VideoDevice interface","D3D11_CRYPTO_TYPE_AES128_CTR","ID3D11VideoDevice interface [Media Foundation]","CheckCryptoKeyExchange method","ID3D11VideoDevice.CheckCryptoKeyExchange","ID3D11VideoDevice::CheckCryptoKeyExchange","d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange","mf.id3d11videodevice_checkcryptokeyexchange"]
 old-location: mf\id3d11videodevice_checkcryptokeyexchange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: AE2DA6F9-6153-43AF-8E61-26FB9DD5A1D1
 ms.date: 12/05/2018
 ms.keywords: CheckCryptoKeyExchange, CheckCryptoKeyExchange method [Media Foundation], CheckCryptoKeyExchange method [Media Foundation],ID3D11VideoDevice interface, D3D11_CRYPTO_TYPE_AES128_CTR, ID3D11VideoDevice interface [Media Foundation],CheckCryptoKeyExchange method, ID3D11VideoDevice.CheckCryptoKeyExchange, ID3D11VideoDevice::CheckCryptoKeyExchange, d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange, mf.id3d11videodevice_checkcryptokeyexchange

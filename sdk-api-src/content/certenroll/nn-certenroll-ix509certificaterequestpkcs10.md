@@ -4,7 +4,7 @@ title: IX509CertificateRequestPkcs10 (certenroll.h)
 description: The IX509CertificateRequestPkcs10 interface represents a PKCS
 helpviewer_keywords: ["IX509CertificateRequestPkcs10","IX509CertificateRequestPkcs10 interface [Security]","IX509CertificateRequestPkcs10 interface [Security]","described","certenroll/IX509CertificateRequestPkcs10","security.ix509certificaterequestpkcs10"]
 old-location: security\ix509certificaterequestpkcs10.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5b3764dc-fc63-45cc-8c35-65539c461e81
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], IX509CertificateRequestPkcs10 interface [Security],described, certenroll/IX509CertificateRequestPkcs10, security.ix509certificaterequestpkcs10

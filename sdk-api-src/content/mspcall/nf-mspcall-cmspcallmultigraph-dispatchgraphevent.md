@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::DispatchGraphEvent (mspcall.h)
 description: The DispatchGraphEvent method is a static method posted to the RegisterWaitForSingleObject function during initialization.
 helpviewer_keywords: ["CMSPCallMultiGraph interface [TAPI 2.2]","DispatchGraphEvent method","CMSPCallMultiGraph.DispatchGraphEvent","CMSPCallMultiGraph::DispatchGraphEvent","DispatchGraphEvent","DispatchGraphEvent method [TAPI 2.2]","DispatchGraphEvent method [TAPI 2.2]","CMSPCallMultiGraph interface","_tapi3_cmspcallmultigraph_dispatchgraphevent","mspcall/CMSPCallMultiGraph::DispatchGraphEvent","tapi3.cmspcallmultigraph_dispatchgraphevent"]
 old-location: tapi3\cmspcallmultigraph_dispatchgraphevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3f6f9145-1968-4067-936e-918f43ccbbcc
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],DispatchGraphEvent method, CMSPCallMultiGraph.DispatchGraphEvent, CMSPCallMultiGraph::DispatchGraphEvent, DispatchGraphEvent, DispatchGraphEvent method [TAPI 2.2], DispatchGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_dispatchgraphevent, mspcall/CMSPCallMultiGraph::DispatchGraphEvent, tapi3.cmspcallmultigraph_dispatchgraphevent

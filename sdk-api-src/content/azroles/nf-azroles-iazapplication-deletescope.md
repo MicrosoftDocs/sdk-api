@@ -4,7 +4,7 @@ title: IAzApplication::DeleteScope (azroles.h)
 description: Removes the IAzScope object with the specified name from the IAzApplication object.
 helpviewer_keywords: ["AzApplication object [Security]","DeleteScope method","DeleteScope","DeleteScope method [Security]","DeleteScope method [Security]","AzApplication object","DeleteScope method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteScope method","IAzApplication.DeleteScope","IAzApplication::DeleteScope","azroles/IAzApplication::DeleteScope","security.iazapplication_deletescope"]
 old-location: security\iazapplication_deletescope.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteScope method, DeleteScope, DeleteScope method [Security], DeleteScope method [Security],AzApplication object, DeleteScope method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteScope method, IAzApplication.DeleteScope, IAzApplication::DeleteScope, azroles/IAzApplication::DeleteScope, security.iazapplication_deletescope

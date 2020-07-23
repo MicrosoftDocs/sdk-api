@@ -4,7 +4,7 @@ title: NCryptIsAlgSupported function (ncrypt.h)
 description: Determines if a CNG key storage provider supports a specific cryptographic algorithm.
 helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptIsAlgSupported","NCryptIsAlgSupported function [Security]","ncrypt/NCryptIsAlgSupported","security.ncryptisalgsupported_func"]
 old-location: security\ncryptisalgsupported_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func

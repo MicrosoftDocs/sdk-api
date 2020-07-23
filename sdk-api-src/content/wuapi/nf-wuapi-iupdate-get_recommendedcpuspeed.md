@@ -4,7 +4,7 @@ title: IUpdate::get_RecommendedCpuSpeed (wuapi.h)
 description: Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","RecommendedCPUSpeed property","IUpdate.RecommendedCPUSpeed","IUpdate.get_RecommendedCpuSpeed","IUpdate::RecommendedCPUSpeed","IUpdate::get_RecommendedCPUSpeed","IUpdate::get_RecommendedCpuSpeed","RecommendedCPUSpeed property [Windows Update Agent]","RecommendedCPUSpeed property [Windows Update Agent]","IUpdate interface","get_RecommendedCpuSpeed","wua.iupdate_recommendedcpuspeed","wuapi/IUpdate::RecommendedCPUSpeed","wuapi/IUpdate::get_RecommendedCPUSpeed"]
 old-location: wua\iupdate_recommendedcpuspeed.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 21003be2-c14e-48d4-a51f-ed75b1b47284
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedCPUSpeed property, IUpdate.RecommendedCPUSpeed, IUpdate.get_RecommendedCpuSpeed, IUpdate::RecommendedCPUSpeed, IUpdate::get_RecommendedCPUSpeed, IUpdate::get_RecommendedCpuSpeed, RecommendedCPUSpeed property [Windows Update Agent], RecommendedCPUSpeed property [Windows Update Agent],IUpdate interface, get_RecommendedCpuSpeed, wua.iupdate_recommendedcpuspeed, wuapi/IUpdate::RecommendedCPUSpeed, wuapi/IUpdate::get_RecommendedCPUSpeed

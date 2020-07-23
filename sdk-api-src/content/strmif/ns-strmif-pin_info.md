@@ -4,7 +4,7 @@ title: PIN_INFO (strmif.h)
 description: The PIN_INFO structure contains information about a pin.
 helpviewer_keywords: ["PIN_INFO","PIN_INFO structure [DirectShow]","PIN_INFOStructure","dshow.pin_info","strmif/PIN_INFO"]
 old-location: dshow\pin_info.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 67a837f3-8b81-4651-a0fa-fed7b61e71c2
 ms.date: 12/05/2018
 ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, dshow.pin_info, strmif/PIN_INFO

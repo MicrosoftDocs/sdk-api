@@ -4,7 +4,7 @@ title: PeerGroupAddRecord function (p2p.h)
 description: The PeerGroupAddRecord function adds a new record to the peer group, which is propagated to all participating peers.
 helpviewer_keywords: ["PeerGroupAddRecord","PeerGroupAddRecord function [Peer Networking]","p2p.peergroupaddrecord","p2p/PeerGroupAddRecord"]
 old-location: p2p\peergroupaddrecord.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
 ms.date: 12/05/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord

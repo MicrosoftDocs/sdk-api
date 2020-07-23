@@ -4,7 +4,7 @@ title: IWbemEventProviderQuerySink (wbemprov.h)
 description: The IWbemEventProviderQuerySink interface is optionally implemented by event providers who want to know what kinds of event query filters are currently active to optimize performance.
 helpviewer_keywords: ["IWbemEventProviderQuerySink","IWbemEventProviderQuerySink interface [Windows Management Instrumentation]","IWbemEventProviderQuerySink interface [Windows Management Instrumentation]","described","_hmm_iwbemeventproviderquerysink","wbemprov/IWbemEventProviderQuerySink","wmi.iwbemeventproviderquerysink"]
 old-location: wmi\iwbemeventproviderquerysink.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 76a29d81-33c2-489f-a71d-2e85ba2617bf
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], IWbemEventProviderQuerySink interface [Windows Management Instrumentation],described, _hmm_iwbemeventproviderquerysink, wbemprov/IWbemEventProviderQuerySink, wmi.iwbemeventproviderquerysink

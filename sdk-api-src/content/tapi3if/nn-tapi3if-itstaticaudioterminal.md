@@ -4,7 +4,7 @@ title: ITStaticAudioTerminal (tapi3if.h)
 description: The ITStaticAudioTerminal interface is an interface that TAPI 3.1 MSPs must expose on all static audio terminals. The interface defines methods on static audio terminal objects that are needed to support phone devices.
 helpviewer_keywords: ["ITStaticAudioTerminal","ITStaticAudioTerminal interface [TAPI 2.2]","ITStaticAudioTerminal interface [TAPI 2.2]","described","_tapi3_itstaticaudioterminal","tapi3.itstaticaudioterminal","tapi3if/ITStaticAudioTerminal"]
 old-location: tapi3\itstaticaudioterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 154c07b6-c693-469d-819a-f6d2d2afd744
 ms.date: 12/05/2018
 ms.keywords: ITStaticAudioTerminal, ITStaticAudioTerminal interface [TAPI 2.2], ITStaticAudioTerminal interface [TAPI 2.2],described, _tapi3_itstaticaudioterminal, tapi3.itstaticaudioterminal, tapi3if/ITStaticAudioTerminal

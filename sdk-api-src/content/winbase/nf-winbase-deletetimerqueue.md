@@ -4,7 +4,7 @@ title: DeleteTimerQueue function (winbase.h)
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 helpviewer_keywords: ["DeleteTimerQueue","DeleteTimerQueue function","_win32_deletetimerqueue","base.deletetimerqueue","winbase/DeleteTimerQueue"]
 old-location: base\deletetimerqueue.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue

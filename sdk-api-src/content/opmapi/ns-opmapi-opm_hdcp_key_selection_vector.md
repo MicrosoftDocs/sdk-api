@@ -4,7 +4,7 @@ title: OPM_HDCP_KEY_SELECTION_VECTOR (opmapi.h)
 description: Contains the key selection vector (KSV) for a High-Bandwidth Digital Content Protection (HDCP) receiver.
 helpviewer_keywords: ["OPM_HDCP_KEY_SELECTION_VECTOR","OPM_HDCP_KEY_SELECTION_VECTOR structure [Media Foundation]","mf.opm_hdcp_key_selection_vector","opmapi/OPM_HDCP_KEY_SELECTION_VECTOR"]
 old-location: mf\opm_hdcp_key_selection_vector.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 79c0e5e5-62ef-4b8a-9e3b-3a9482731b16
 ms.date: 12/05/2018
 ms.keywords: OPM_HDCP_KEY_SELECTION_VECTOR, OPM_HDCP_KEY_SELECTION_VECTOR structure [Media Foundation], mf.opm_hdcp_key_selection_vector, opmapi/OPM_HDCP_KEY_SELECTION_VECTOR

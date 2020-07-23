@@ -4,7 +4,7 @@ title: IMFTimedTextRegion (mfmediaengine.h)
 description: Represents the display region of a timed-text object.
 helpviewer_keywords: ["IMFTimedTextRegion","IMFTimedTextRegion interface [Media Foundation]","IMFTimedTextRegion interface [Media Foundation]","described","mf.imftimedtextregion","mfmediaengine/IMFTimedTextRegion"]
 old-location: mf\imftimedtextregion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1A6E068F-2E01-4A72-8BCF-D645B1D21ECF
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], IMFTimedTextRegion interface [Media Foundation],described, mf.imftimedtextregion, mfmediaengine/IMFTimedTextRegion

@@ -4,7 +4,7 @@ title: LINECARDENTRY (tapi.h)
 description: The LINECARDENTRY structure describes a calling card. The LINETRANSLATECAPS structure can contain an array of LINECARDENTRY structures.
 helpviewer_keywords: ["*LPLINECARDENTRY","LINECARDENTRY","LINECARDENTRY structure [TAPI 2.2]","LPLINECARDENTRY","LPLINECARDENTRY structure pointer [TAPI 2.2]","_tapi2_linecardentry_str","tapi/LINECARDENTRY","tapi/LPLINECARDENTRY","tapi2.linecardentry_str"]
 old-location: tapi2\linecardentry_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8b2a4eaf-6c59-4d3b-839f-52915bff6116
 ms.date: 12/05/2018
 ms.keywords: '*LPLINECARDENTRY, LINECARDENTRY, LINECARDENTRY structure [TAPI 2.2], LPLINECARDENTRY, LPLINECARDENTRY structure pointer [TAPI 2.2], _tapi2_linecardentry_str, tapi/LINECARDENTRY, tapi/LPLINECARDENTRY, tapi2.linecardentry_str'

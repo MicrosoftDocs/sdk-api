@@ -4,7 +4,7 @@ title: DIRECTORY_TYPE (rend.h)
 description: The DIRECTORY_TYPE enum is used to indicate the type of directory server.
 helpviewer_keywords: ["DIRECTORY_TYPE","DIRECTORY_TYPE enumeration [TAPI 2.2]","DT_ILS","DT_NTDS","_tapi3_directory_type","rend/DIRECTORY_TYPE","rend/DT_ILS","rend/DT_NTDS","tapi3.directory_type"]
 old-location: tapi3\directory_type.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: dd4292f0-ca76-4464-b0fb-288ce5813a40
 ms.date: 12/05/2018
 ms.keywords: DIRECTORY_TYPE, DIRECTORY_TYPE enumeration [TAPI 2.2], DT_ILS, DT_NTDS, _tapi3_directory_type, rend/DIRECTORY_TYPE, rend/DT_ILS, rend/DT_NTDS, tapi3.directory_type

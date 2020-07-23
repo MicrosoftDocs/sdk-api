@@ -4,7 +4,7 @@ title: IBasicVideo::IsUsingDefaultDestination (control.h)
 description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.
 helpviewer_keywords: ["IBasicVideo interface [DirectShow]","IsUsingDefaultDestination method","IBasicVideo.IsUsingDefaultDestination","IBasicVideo::IsUsingDefaultDestination","IBasicVideoIsUsingDefaultDestination","IsUsingDefaultDestination","IsUsingDefaultDestination method [DirectShow]","IsUsingDefaultDestination method [DirectShow]","IBasicVideo interface","control/IBasicVideo::IsUsingDefaultDestination","dshow.ibasicvideo_isusingdefaultdestination"]
 old-location: dshow\ibasicvideo_isusingdefaultdestination.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultDestination method, IBasicVideo.IsUsingDefaultDestination, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination

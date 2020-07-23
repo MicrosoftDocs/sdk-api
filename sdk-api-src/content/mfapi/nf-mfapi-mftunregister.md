@@ -4,7 +4,7 @@ title: MFTUnregister function (mfapi.h)
 description: Unregisters a Media Foundation transform (MFT).
 helpviewer_keywords: ["2e63a098-5b83-4ea9-8149-4972f8ed0944","MFTUnregister","MFTUnregister function [Media Foundation]","mf.mftunregister","mfapi/MFTUnregister"]
 old-location: mf\mftunregister.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2e63a098-5b83-4ea9-8149-4972f8ed0944
 ms.date: 12/05/2018
 ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister function [Media Foundation], mf.mftunregister, mfapi/MFTUnregister

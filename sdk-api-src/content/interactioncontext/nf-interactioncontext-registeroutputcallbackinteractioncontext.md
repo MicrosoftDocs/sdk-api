@@ -4,7 +4,7 @@ title: RegisterOutputCallbackInteractionContext function (interactioncontext.h)
 description: Registers a callback to receive interaction events from an Interaction Context object.
 helpviewer_keywords: ["RegisterOutputCallbackInteractionContext","RegisterOutputCallbackInteractionContext function","input_intcontext.registeroutputcallbackinteractioncontext","interactioncontext.registeroutputcallbackinteractioncontext","interactioncontext/RegisterOutputCallbackInteractionContext"]
 old-location: input_intcontext\registeroutputcallbackinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 87000250-f225-4864-96d2-1e189f5be1a3
 ms.date: 12/05/2018
 ms.keywords: RegisterOutputCallbackInteractionContext, RegisterOutputCallbackInteractionContext function, input_intcontext.registeroutputcallbackinteractioncontext, interactioncontext.registeroutputcallbackinteractioncontext, interactioncontext/RegisterOutputCallbackInteractionContext

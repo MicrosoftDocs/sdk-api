@@ -4,7 +4,7 @@ title: IMFTransform::GetOutputAvailableType (mftransform.h)
 description: Gets an available media type for an output stream on this Media Foundation transform (MFT).
 helpviewer_keywords: ["GetOutputAvailableType","GetOutputAvailableType method [Media Foundation]","GetOutputAvailableType method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputAvailableType method","IMFTransform.GetOutputAvailableType","IMFTransform::GetOutputAvailableType","d0f75414-18cf-4e76-b875-5f373510c87b","mf.imftransform_getoutputavailabletype","mftransform/IMFTransform::GetOutputAvailableType"]
 old-location: mf\imftransform_getoutputavailabletype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d0f75414-18cf-4e76-b875-5f373510c87b
 ms.date: 12/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputAvailableType method, IMFTransform.GetOutputAvailableType, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType

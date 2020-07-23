@@ -2,6 +2,7 @@
 UID: NF:gdipluspath.PathGradientBrush.SetCenterPoint(INconstPointF&)
 title: PathGradientBrush::SetCenterPoint
 description: The PathGradientBrush::SetCenterPoint method sets the center point of this path gradient brush.
+tech.root: gdiplus
 helpviewer_keywords: ["PathGradientBrush::SetCenterPoint"]
 ms.assetid: 3123b926-ce18-4d71-a1e9-24dd9ecbd50e
 ms.date: 05/13/2019

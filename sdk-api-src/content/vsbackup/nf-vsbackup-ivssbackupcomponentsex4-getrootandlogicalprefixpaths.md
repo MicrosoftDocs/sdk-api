@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths (vsbackup.h)
 description: Normalizes a local volume path or UNC share path so that it can be passed to the IVssBackupComponents::AddToSnapshotSet method.
 helpviewer_keywords: ["GetRootAndLogicalPrefixPaths","GetRootAndLogicalPrefixPaths method","GetRootAndLogicalPrefixPaths method","IVssBackupComponentsEx4 interface","IVssBackupComponentsEx4 interface","GetRootAndLogicalPrefixPaths method","IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths","IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths","base.ivssbackupcomponentsex4_getrootandlogicalprefixpaths","vsbackup/IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths"]
 old-location: base\ivssbackupcomponentsex4_getrootandlogicalprefixpaths.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 94F942A9-909D-4A9F-9DEA-CFFCFD00C1BF
 ms.date: 12/05/2018
 ms.keywords: GetRootAndLogicalPrefixPaths, GetRootAndLogicalPrefixPaths method, GetRootAndLogicalPrefixPaths method,IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths, IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths, base.ivssbackupcomponentsex4_getrootandlogicalprefixpaths, vsbackup/IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths

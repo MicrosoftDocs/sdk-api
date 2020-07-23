@@ -4,7 +4,7 @@ title: IXpsSignatureRequest::GetSpotLocation (xpsdigitalsignature.h)
 description: Gets the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
 helpviewer_keywords: ["GetSpotLocation","GetSpotLocation method [XPS Documents and Packaging]","GetSpotLocation method [XPS Documents and Packaging]","IXpsSignatureRequest interface","IXpsSignatureRequest interface [XPS Documents and Packaging]","GetSpotLocation method","IXpsSignatureRequest.GetSpotLocation","IXpsSignatureRequest::GetSpotLocation","xps.ixpssignaturerequest_getspotlocation","xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation"]
 old-location: xps\ixpssignaturerequest_getspotlocation.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f8a93c77-c978-4483-b0e0-36d998add184
 ms.date: 12/05/2018
 ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSpotLocation method, IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation

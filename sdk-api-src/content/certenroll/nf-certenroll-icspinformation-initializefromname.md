@@ -4,7 +4,7 @@ title: ICspInformation::InitializeFromName (certenroll.h)
 description: Initializes the object from a string that contains a provider name.
 helpviewer_keywords: ["ICspInformation interface [Security]","InitializeFromName method","ICspInformation.InitializeFromName","ICspInformation::InitializeFromName","InitializeFromName","InitializeFromName method [Security]","InitializeFromName method [Security]","ICspInformation interface","certenroll/ICspInformation::InitializeFromName","security.icspinformation_initializefromname_method"]
 old-location: security\icspinformation_initializefromname_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b405503f-2af5-4a2f-abdb-e2eb108c4b1b
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromName method, ICspInformation.InitializeFromName, ICspInformation::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromName, security.icspinformation_initializefromname_method

@@ -4,7 +4,7 @@ title: NdrSimpleStructMarshall function (rpcndr.h)
 description: The NdrSimpleStructMarshall function marshals the simple structure into a network buffer.
 helpviewer_keywords: ["NdrSimpleStructMarshall","NdrSimpleStructMarshall function [Windows API]","rpcndr/NdrSimpleStructMarshall","winprog.ndrsimplestructmarshall"]
 old-location: winprog\ndrsimplestructmarshall.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 9e921653-0669-4fe9-8a54-509ed39ad204
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleStructMarshall, NdrSimpleStructMarshall function [Windows API], rpcndr/NdrSimpleStructMarshall, winprog.ndrsimplestructmarshall

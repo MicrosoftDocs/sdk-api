@@ -4,7 +4,7 @@ title: CHANGER_ELEMENT
 description: Represents a changer element.
 helpviewer_keywords: ["*PCHANGER_ELEMENT","CHANGER_ELEMENT","CHANGER_ELEMENT structure","PCHANGER_ELEMENT","PCHANGER_ELEMENT structure pointer","_win32_changer_element_str","base.changer_element_str","winioctl/CHANGER_ELEMENT","winioctl/PCHANGER_ELEMENT"]
 old-location: base\changer_element_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 96e9803b-16c4-415c-940a-f5df3edff3b3
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure, PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer, _win32_changer_element_str, base.changer_element_str, winioctl/CHANGER_ELEMENT, winioctl/PCHANGER_ELEMENT'

@@ -4,7 +4,7 @@ title: ITpmVirtualSmartCardManagerStatusCallback::ReportError (tpmvscmgr.h)
 description: Reports any errors from the requested operation.
 helpviewer_keywords: ["ITpmVirtualSmartCardManagerStatusCallback interface [Security]","ReportError method","ITpmVirtualSmartCardManagerStatusCallback.ReportError","ITpmVirtualSmartCardManagerStatusCallback::ReportError","ReportError","ReportError method [Security]","ReportError method [Security]","ITpmVirtualSmartCardManagerStatusCallback interface","security.itpmvirtualsmartcardmanagerstatuscallback_reporterror","tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError"]
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reporterror.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 936F22EA-1C9F-4328-B71F-FA7720396F6F
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportError method, ITpmVirtualSmartCardManagerStatusCallback.ReportError, ITpmVirtualSmartCardManagerStatusCallback::ReportError, ReportError, ReportError method [Security], ReportError method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reporterror, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError

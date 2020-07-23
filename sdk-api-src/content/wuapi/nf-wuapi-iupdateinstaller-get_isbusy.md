@@ -4,7 +4,7 @@ title: IUpdateInstaller::get_IsBusy (wuapi.h)
 description: Gets a Boolean value that indicates whether an installation or uninstallation is in progress on a computer at a specific time.
 helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","IsBusy property","IUpdateInstaller.IsBusy","IUpdateInstaller.get_IsBusy","IUpdateInstaller::IsBusy","IUpdateInstaller::get_IsBusy","IsBusy property [Windows Update Agent]","IsBusy property [Windows Update Agent]","IUpdateInstaller interface","get_IsBusy","wua.iupdateinstaller_isbusy","wuapi/IUpdateInstaller::IsBusy","wuapi/IUpdateInstaller::get_IsBusy"]
 old-location: wua\iupdateinstaller_isbusy.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 20875312-f54a-45fc-a0f4-ed17b812dd9e
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsBusy property, IUpdateInstaller.IsBusy, IUpdateInstaller.get_IsBusy, IUpdateInstaller::IsBusy, IUpdateInstaller::get_IsBusy, IsBusy property [Windows Update Agent], IsBusy property [Windows Update Agent],IUpdateInstaller interface, get_IsBusy, wua.iupdateinstaller_isbusy, wuapi/IUpdateInstaller::IsBusy, wuapi/IUpdateInstaller::get_IsBusy

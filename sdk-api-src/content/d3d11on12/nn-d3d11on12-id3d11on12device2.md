@@ -2,6 +2,7 @@
 UID: NN:d3d11on12.ID3D11On12Device2
 title: ID3D11On12Device2
 description: Enables you to take resources created through the Direct3D 11 APIs, and use them in Direct3D 12.
+tech.root: direct3d12
 ms.date: 01/22/2020
 targetos: Windows
 req.assembly: 

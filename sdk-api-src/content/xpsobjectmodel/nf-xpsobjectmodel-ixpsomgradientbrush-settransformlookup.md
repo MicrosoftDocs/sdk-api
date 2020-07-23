@@ -4,7 +4,7 @@ title: IXpsOMGradientBrush::SetTransformLookup (xpsobjectmodel.h)
 description: Sets the name of the lookup key of a shared matrix transform that is to be used for the brush.
 helpviewer_keywords: ["IXpsOMGradientBrush interface [XPS Documents and Packaging]","SetTransformLookup method","IXpsOMGradientBrush.SetTransformLookup","IXpsOMGradientBrush::SetTransformLookup","SetTransformLookup","SetTransformLookup method [XPS Documents and Packaging]","SetTransformLookup method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","xps.ixpsomgradientbrush_settransformlookup","xpsobjectmodel/IXpsOMGradientBrush::SetTransformLookup"]
 old-location: xps\ixpsomgradientbrush_settransformlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 342434ff-9fdc-43ea-8beb-9d518f7a9454
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGradientBrush.SetTransformLookup, IXpsOMGradientBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_settransformlookup, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLookup

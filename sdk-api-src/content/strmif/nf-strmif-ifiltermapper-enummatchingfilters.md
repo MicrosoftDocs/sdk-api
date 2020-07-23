@@ -4,7 +4,7 @@ title: IFilterMapper::EnumMatchingFilters (strmif.h)
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Provides an enumerator that enumerates registered filters that meet specified requirements.
 helpviewer_keywords: ["EnumMatchingFilters","EnumMatchingFilters method [DirectShow]","EnumMatchingFilters method [DirectShow]","IFilterMapper interface","IFilterMapper interface [DirectShow]","EnumMatchingFilters method","IFilterMapper.EnumMatchingFilters","IFilterMapper::EnumMatchingFilters","IFilterMapperEnumMatchingFilters","dshow.ifiltermapper_enummatchingfilters","strmif/IFilterMapper::EnumMatchingFilters"]
 old-location: dshow\ifiltermapper_enummatchingfilters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 602a7568-f5f8-4705-a2bc-6b9408bbbe54
 ms.date: 12/05/2018
 ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper interface, IFilterMapper interface [DirectShow],EnumMatchingFilters method, IFilterMapper.EnumMatchingFilters, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters

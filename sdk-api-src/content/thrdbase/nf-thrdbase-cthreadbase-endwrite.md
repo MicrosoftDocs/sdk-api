@@ -4,7 +4,7 @@ title: CThreadBase::EndWrite (thrdbase.h)
 description: The EndWrite method provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 helpviewer_keywords: ["?Empty@CHString@@QEAAXXZ","CThreadBase interface [Windows Management Instrumentation]","EndWrite method","CThreadBase.EndWrite","CThreadBase::EndWrite","EndWrite","EndWrite method [Windows Management Instrumentation]","EndWrite method [Windows Management Instrumentation]","CThreadBase interface","thrdbase/CThreadBase::EndWrite","wmi.cthreadbase_endwrite"]
 old-location: wmi\cthreadbase_endwrite.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8b57bcc0-f8ca-412a-87d9-9afeb5ac8446
 ms.date: 12/05/2018
 ms.keywords: ?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite

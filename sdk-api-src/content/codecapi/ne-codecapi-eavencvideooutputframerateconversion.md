@@ -4,7 +4,7 @@ title: eAVEncVideoOutputFrameRateConversion (codecapi.h)
 description: Specifies whether the encoder converts the frame rate, if the output frame rate does not match the input frame rate. This enumeration is used with the AVEncVideoOutputFrameRateConversion property.
 helpviewer_keywords: ["codecapi/eAVEncVideoOutputFrameRateConversion","codecapi/eAVEncVideoOutputFrameRateConversion_Alias","codecapi/eAVEncVideoOutputFrameRateConversion_Disable","codecapi/eAVEncVideoOutputFrameRateConversion_Enable","dshow.eavencvideooutputframerateconversion","eAVEncVideoOutputFrameRateConversion","eAVEncVideoOutputFrameRateConversion enumeration [DirectShow]","eAVEncVideoOutputFrameRateConversionEnumeration","eAVEncVideoOutputFrameRateConversion_Alias","eAVEncVideoOutputFrameRateConversion_Disable","eAVEncVideoOutputFrameRateConversion_Enable"]
 old-location: dshow\eavencvideooutputframerateconversion.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0303f49c-9651-4781-8a6b-2af0a1b8f1ab
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoOutputFrameRateConversion, codecapi/eAVEncVideoOutputFrameRateConversion_Alias, codecapi/eAVEncVideoOutputFrameRateConversion_Disable, codecapi/eAVEncVideoOutputFrameRateConversion_Enable, dshow.eavencvideooutputframerateconversion, eAVEncVideoOutputFrameRateConversion, eAVEncVideoOutputFrameRateConversion enumeration [DirectShow], eAVEncVideoOutputFrameRateConversionEnumeration, eAVEncVideoOutputFrameRateConversion_Alias, eAVEncVideoOutputFrameRateConversion_Disable, eAVEncVideoOutputFrameRateConversion_Enable

@@ -4,7 +4,7 @@ title: lineAnswer function (tapi.h)
 description: The lineAnswer function answers the specified offering call.
 helpviewer_keywords: ["_tapi2_lineanswer","lineAnswer","lineAnswer function [TAPI 2.2]","tapi/lineAnswer","tapi2.lineanswer"]
 old-location: tapi2\lineanswer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: dd51991c-c044-4b88-8f97-9e0ae701a2a5
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineanswer, lineAnswer, lineAnswer function [TAPI 2.2], tapi/lineAnswer, tapi2.lineanswer

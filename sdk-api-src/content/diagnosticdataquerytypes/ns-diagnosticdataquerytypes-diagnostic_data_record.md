@@ -5,6 +5,7 @@ ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_RECORD, DIAGNOSTIC_DATA_RECORD
 ms.topic: language-reference
 description: This resource describes an individual diagnostic data record (event). 
+tech.root: security
 targetos: Windows
 product: Windows
 req.construct-type: structure

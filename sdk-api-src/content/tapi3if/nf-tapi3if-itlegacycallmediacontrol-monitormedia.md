@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl::MonitorMedia (tapi3if.h)
 description: The MonitorMedia method sets monitoring for a given media type on the current call.
 helpviewer_keywords: ["ITLegacyCallMediaControl interface [TAPI 2.2]","MonitorMedia method","ITLegacyCallMediaControl.MonitorMedia","ITLegacyCallMediaControl::MonitorMedia","MonitorMedia","MonitorMedia method [TAPI 2.2]","MonitorMedia method [TAPI 2.2]","ITLegacyCallMediaControl interface","_tapi3_itlegacycallmediacontrol_monitormedia","tapi3.itlegacycallmediacontrol_monitormedia","tapi3if/ITLegacyCallMediaControl::MonitorMedia"]
 old-location: tapi3\itlegacycallmediacontrol_monitormedia.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 82efd729-fbbf-449f-a347-24bceada140c
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],MonitorMedia method, ITLegacyCallMediaControl.MonitorMedia, ITLegacyCallMediaControl::MonitorMedia, MonitorMedia, MonitorMedia method [TAPI 2.2], MonitorMedia method [TAPI 2.2],ITLegacyCallMediaControl interface, _tapi3_itlegacycallmediacontrol_monitormedia, tapi3.itlegacycallmediacontrol_monitormedia, tapi3if/ITLegacyCallMediaControl::MonitorMedia

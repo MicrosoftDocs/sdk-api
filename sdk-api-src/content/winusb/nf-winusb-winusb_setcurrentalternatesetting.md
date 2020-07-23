@@ -4,7 +4,7 @@ title: WinUsb_SetCurrentAlternateSetting function (winusb.h)
 description: The WinUsb_SetCurrentAlternateSetting function sets the alternate setting of an interface.
 helpviewer_keywords: ["WinUsb_SetCurrentAlternateSetting","WinUsb_SetCurrentAlternateSetting function [Buses]","buses.winusb_setcurrentalternatesetting","winusb/WinUsb_SetCurrentAlternateSetting","winusbfunc_54d8b9ed-9a45-4fed-a61e-2ad2bb573028.xml"]
 old-location: buses\winusb_setcurrentalternatesetting.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 8826f440-c031-4af2-968d-bf13f515f020
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetCurrentAlternateSetting, WinUsb_SetCurrentAlternateSetting function [Buses], buses.winusb_setcurrentalternatesetting, winusb/WinUsb_SetCurrentAlternateSetting, winusbfunc_54d8b9ed-9a45-4fed-a61e-2ad2bb573028.xml

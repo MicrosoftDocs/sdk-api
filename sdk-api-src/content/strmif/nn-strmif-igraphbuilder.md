@@ -4,7 +4,7 @@ title: IGraphBuilder (strmif.h)
 description: This interface provides methods that enable an application to build a filter graph.
 helpviewer_keywords: ["IGraphBuilder","IGraphBuilder interface [DirectShow]","IGraphBuilder interface [DirectShow]","described","IGraphBuilderInterface","dshow.igraphbuilder","strmif/IGraphBuilder"]
 old-location: dshow\igraphbuilder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 54ed8ac8-4821-4c0c-9fb9-789c70dbca37
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder interface [DirectShow],described, IGraphBuilderInterface, dshow.igraphbuilder, strmif/IGraphBuilder

@@ -4,7 +4,7 @@ title: PerfQueryCounterInfo function (perflib.h)
 description: Gets the counter specifications in the specified query.
 helpviewer_keywords: ["PerfQueryCounterInfo","PerfQueryCounterInfo function [Perf]","perf.perfquerycounterinfo","perflib/PerfQueryCounterInfo"]
 old-location: perf\perfquerycounterinfo.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo

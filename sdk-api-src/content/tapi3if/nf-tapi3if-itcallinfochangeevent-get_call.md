@@ -4,7 +4,7 @@ title: ITCallInfoChangeEvent::get_Call (tapi3if.h)
 description: The get_Call method returns the ITCallInfo interface on which call information has changed.
 helpviewer_keywords: ["ITCallInfoChangeEvent interface [TAPI 2.2]","get_Call method","ITCallInfoChangeEvent.get_Call","ITCallInfoChangeEvent::get_Call","_tapi3_itcallinfochangeevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITCallInfoChangeEvent interface","tapi3.itcallinfochangeevent_get_call","tapi3if/ITCallInfoChangeEvent::get_Call"]
 old-location: tapi3\itcallinfochangeevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ee6c4f2f-e53c-4eae-b86c-2849395cca74
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Call method, ITCallInfoChangeEvent.get_Call, ITCallInfoChangeEvent::get_Call, _tapi3_itcallinfochangeevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_call, tapi3if/ITCallInfoChangeEvent::get_Call

@@ -4,7 +4,7 @@ title: MsiGetTargetPathW function (msiquery.h)
 description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table.
 helpviewer_keywords: ["MsiGetTargetPath","MsiGetTargetPath function","MsiGetTargetPathA","MsiGetTargetPathW","_msi_msigettargetpath","msiquery/MsiGetTargetPath","msiquery/MsiGetTargetPathA","msiquery/MsiGetTargetPathW","setup.msigettargetpath"]
 old-location: setup\msigettargetpath.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: cad0e1c1-3f3a-4438-8b85-ea146c943579
 ms.date: 12/05/2018
 ms.keywords: MsiGetTargetPath, MsiGetTargetPath function, MsiGetTargetPathA, MsiGetTargetPathW, _msi_msigettargetpath, msiquery/MsiGetTargetPath, msiquery/MsiGetTargetPathA, msiquery/MsiGetTargetPathW, setup.msigettargetpath

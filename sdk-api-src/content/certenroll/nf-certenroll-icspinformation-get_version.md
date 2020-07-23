@@ -4,7 +4,7 @@ title: ICspInformation::get_Version (certenroll.h)
 description: Retrieves the version number of the provider.
 helpviewer_keywords: ["ICspInformation interface [Security]","Version property","ICspInformation.Version","ICspInformation.get_Version","ICspInformation::Version","ICspInformation::get_Version","Version property [Security]","Version property [Security]","ICspInformation interface","certenroll/ICspInformation::Version","certenroll/ICspInformation::get_Version","get_Version","security.icspinformation_version_property"]
 old-location: security\icspinformation_version_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9b5010e3-d4c2-4194-ad8a-f8f4e0a41446
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Version property, ICspInformation.Version, ICspInformation.get_Version, ICspInformation::Version, ICspInformation::get_Version, Version property [Security], Version property [Security],ICspInformation interface, certenroll/ICspInformation::Version, certenroll/ICspInformation::get_Version, get_Version, security.icspinformation_version_property

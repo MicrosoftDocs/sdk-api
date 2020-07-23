@@ -4,7 +4,7 @@ title: CryptHashToBeSigned function (wincrypt.h)
 description: Important  This API is deprecated.
 helpviewer_keywords: ["CryptHashToBeSigned","CryptHashToBeSigned function [Security]","_crypto2_crypthashtobesigned","security.crypthashtobesigned","wincrypt/CryptHashToBeSigned"]
 old-location: security\crypthashtobesigned.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
 ms.date: 12/05/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned

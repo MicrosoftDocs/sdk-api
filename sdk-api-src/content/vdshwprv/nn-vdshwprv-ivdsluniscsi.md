@@ -4,7 +4,7 @@ title: IVdsLunIscsi (vdshwprv.h)
 description: Provides methods for performing query and configuration operations on an iSCSI LUN.
 helpviewer_keywords: ["IVdsLunIscsi","IVdsLunIscsi interface [VDS]","IVdsLunIscsi interface [VDS]","described","base.ivdsluniscsi","vds/IVdsLunIscsi","vdshwprv/IVdsLunIscsi"]
 old-location: base\ivdsluniscsi.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 5b1e6204-6cc0-4d94-8e54-fa963f83ae39
 ms.date: 12/05/2018
 ms.keywords: IVdsLunIscsi, IVdsLunIscsi interface [VDS], IVdsLunIscsi interface [VDS],described, base.ivdsluniscsi, vds/IVdsLunIscsi, vdshwprv/IVdsLunIscsi

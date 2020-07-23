@@ -4,7 +4,7 @@ title: DVD_TitleAttributes (strmif.h)
 description: The DVD_TitleAttributes structure contains information about a DVD title.
 helpviewer_keywords: ["DVD_TitleAttributes","DVD_TitleAttributes structure [DirectShow]","DVD_TitleAttributesStructure","dshow.dvd_titleattributes","strmif/DVD_TitleAttributes"]
 old-location: dshow\dvd_titleattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.date: 12/05/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes

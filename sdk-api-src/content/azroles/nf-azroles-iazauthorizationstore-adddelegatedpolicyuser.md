@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::AddDelegatedPolicyUser (azroles.h)
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 helpviewer_keywords: ["AddDelegatedPolicyUser","AddDelegatedPolicyUser method [Security]","AddDelegatedPolicyUser method [Security]","AzAuthorizationStore object","AddDelegatedPolicyUser method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddDelegatedPolicyUser method","IAzAuthorizationStore interface [Security]","AddDelegatedPolicyUser method","IAzAuthorizationStore.AddDelegatedPolicyUser","IAzAuthorizationStore::AddDelegatedPolicyUser","azroles/IAzAuthorizationStore::AddDelegatedPolicyUser","security.azauthorizationstore_adddelegatedpolicyuser"]
 old-location: security\azauthorizationstore_adddelegatedpolicyuser.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 0c6714e9-489e-4266-a8b5-35c66b0a14f4
 ms.date: 12/05/2018
 ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzAuthorizationStore object, AddDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore.AddDelegatedPolicyUser, IAzAuthorizationStore::AddDelegatedPolicyUser, azroles/IAzAuthorizationStore::AddDelegatedPolicyUser, security.azauthorizationstore_adddelegatedpolicyuser

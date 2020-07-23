@@ -4,7 +4,7 @@ title: IMFTransform::GetStreamLimits (mftransform.h)
 description: Gets the minimum and maximum number of input and output streams for this Media Foundation transform (MFT).
 helpviewer_keywords: ["4d9585f0-5818-4e7f-925c-4c50ae6a6edc","GetStreamLimits","GetStreamLimits method [Media Foundation]","GetStreamLimits method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetStreamLimits method","IMFTransform.GetStreamLimits","IMFTransform::GetStreamLimits","mf.imftransform_getstreamlimits","mftransform/IMFTransform::GetStreamLimits"]
 old-location: mf\imftransform_getstreamlimits.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc
 ms.date: 12/05/2018
 ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits, GetStreamLimits method [Media Foundation], GetStreamLimits method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamLimits method, IMFTransform.GetStreamLimits, IMFTransform::GetStreamLimits, mf.imftransform_getstreamlimits, mftransform/IMFTransform::GetStreamLimits

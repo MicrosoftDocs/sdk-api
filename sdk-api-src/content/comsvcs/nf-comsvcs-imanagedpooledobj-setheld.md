@@ -4,7 +4,7 @@ title: IManagedPooledObj::SetHeld (comsvcs.h)
 description: Sets whether the managed object should go back into the COM+ object pool.
 helpviewer_keywords: ["IManagedPooledObj interface [COM+]","SetHeld method","IManagedPooledObj.SetHeld","IManagedPooledObj::SetHeld","SetHeld","SetHeld method [COM+]","SetHeld method [COM+]","IManagedPooledObj interface","_cos_IManagedPooledObj_SetHeld","comsvcs/IManagedPooledObj::SetHeld","cos.imanagedpooledobj_setheld"]
 old-location: cos\imanagedpooledobj_setheld.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 36e7f210-0532-424f-b958-a7a1be904b3c
 ms.date: 12/05/2018
 ms.keywords: IManagedPooledObj interface [COM+],SetHeld method, IManagedPooledObj.SetHeld, IManagedPooledObj::SetHeld, SetHeld, SetHeld method [COM+], SetHeld method [COM+],IManagedPooledObj interface, _cos_IManagedPooledObj_SetHeld, comsvcs/IManagedPooledObj::SetHeld, cos.imanagedpooledobj_setheld

@@ -4,7 +4,7 @@ title: MFP_GET_PLAYBACK_ENDED_EVENT macro (mfplay.h)
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_PLAYBACK_ENDED_EVENT pointer.
 helpviewer_keywords: ["MFP_GET_PLAYBACK_ENDED_EVENT","MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation]","mf.mfp_get_playback_ended_event","mfplay/MFP_GET_PLAYBACK_ENDED_EVENT"]
 old-location: mf\mfp_get_playback_ended_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT

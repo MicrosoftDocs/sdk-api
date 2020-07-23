@@ -4,7 +4,7 @@ title: IUpdate::CopyFromCache (wuapi.h)
 description: Copies the contents of an update to a specified path.
 helpviewer_keywords: ["CopyFromCache","CopyFromCache method [Windows Update Agent]","CopyFromCache method [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","CopyFromCache method","IUpdate.CopyFromCache","IUpdate::CopyFromCache","wua.iupdate_copyfromcache","wuapi/IUpdate::CopyFromCache"]
 old-location: wua\iupdate_copyfromcache.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 43af8bb9-0e09-4541-bc2e-fd40be64a980
 ms.date: 12/05/2018
 ms.keywords: CopyFromCache, CopyFromCache method [Windows Update Agent], CopyFromCache method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],CopyFromCache method, IUpdate.CopyFromCache, IUpdate::CopyFromCache, wua.iupdate_copyfromcache, wuapi/IUpdate::CopyFromCache

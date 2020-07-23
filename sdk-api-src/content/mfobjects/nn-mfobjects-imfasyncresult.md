@@ -4,7 +4,7 @@ title: IMFAsyncResult (mfobjects.h)
 description: Provides information about the result of an asynchronous operation.
 helpviewer_keywords: ["8c95b1de-8974-445c-8070-41552ea83e53","IMFAsyncResult","IMFAsyncResult interface [Media Foundation]","IMFAsyncResult interface [Media Foundation]","described","mf.imfasyncresult","mfobjects/IMFAsyncResult"]
 old-location: mf\imfasyncresult.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8c95b1de-8974-445c-8070-41552ea83e53
 ms.date: 12/05/2018
 ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], IMFAsyncResult interface [Media Foundation],described, mf.imfasyncresult, mfobjects/IMFAsyncResult

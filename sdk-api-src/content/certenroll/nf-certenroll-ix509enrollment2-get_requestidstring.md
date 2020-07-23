@@ -4,7 +4,7 @@ title: IX509Enrollment2::get_RequestIdString (certenroll.h)
 description: Retrieves a string that contains a unique identifier for the certificate request sent to the certification enrollment server (CES).
 helpviewer_keywords: ["IX509Enrollment2 interface [Security]","RequestIdString property","IX509Enrollment2.RequestIdString","IX509Enrollment2.get_RequestIdString","IX509Enrollment2::RequestIdString","IX509Enrollment2::get_RequestIdString","RequestIdString property [Security]","RequestIdString property [Security]","IX509Enrollment2 interface","certenroll/IX509Enrollment2::RequestIdString","certenroll/IX509Enrollment2::get_RequestIdString","get_RequestIdString","security.ix509enrollment2_requestidstring"]
 old-location: security\ix509enrollment2_requestidstring.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a1269b0d-6b55-47ba-bca8-610c1032ecc4
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment2 interface [Security],RequestIdString property, IX509Enrollment2.RequestIdString, IX509Enrollment2.get_RequestIdString, IX509Enrollment2::RequestIdString, IX509Enrollment2::get_RequestIdString, RequestIdString property [Security], RequestIdString property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::RequestIdString, certenroll/IX509Enrollment2::get_RequestIdString, get_RequestIdString, security.ix509enrollment2_requestidstring

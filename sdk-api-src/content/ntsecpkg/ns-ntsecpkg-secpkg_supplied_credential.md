@@ -4,7 +4,7 @@ title: SECPKG_SUPPLIED_CREDENTIAL (ntsecpkg.h)
 description: Specifies the supplied credentials.
 helpviewer_keywords: ["*PSECPKG_SUPPLIED_CREDENTIAL","PSECPKG_SUPPLIED_CREDENTIAL","PSECPKG_SUPPLIED_CREDENTIAL structure pointer [Security]","SECPKG_SUPPLIED_CREDENTIAL","SECPKG_SUPPLIED_CREDENTIAL structure [Security]","ntsecpkg/PSECPKG_SUPPLIED_CREDENTIAL","ntsecpkg/SECPKG_SUPPLIED_CREDENTIAL","security.secpkg_supplied_credential"]
 old-location: security\secpkg_supplied_credential.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 23849312-7AC5-4D09-8889-27DFF8E32FE8
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_SUPPLIED_CREDENTIAL, PSECPKG_SUPPLIED_CREDENTIAL, PSECPKG_SUPPLIED_CREDENTIAL structure pointer [Security], SECPKG_SUPPLIED_CREDENTIAL, SECPKG_SUPPLIED_CREDENTIAL structure [Security], ntsecpkg/PSECPKG_SUPPLIED_CREDENTIAL, ntsecpkg/SECPKG_SUPPLIED_CREDENTIAL, security.secpkg_supplied_credential'

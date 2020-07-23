@@ -4,7 +4,7 @@ title: IAzApplicationGroups::get_Item (azroles.h)
 description: Retrieves the IAzApplicationGroup object at the specified index into the IAzApplicationGroups collection.
 helpviewer_keywords: ["AzApplicationGroups object [Security]","Item property","IAzApplicationGroups interface [Security]","Item property","IAzApplicationGroups.Item","IAzApplicationGroups.get_Item","IAzApplicationGroups::Item","IAzApplicationGroups::get_Item","Item property [Security]","Item property [Security]","AzApplicationGroups object","Item property [Security]","IAzApplicationGroups interface","azroles/IAzApplicationGroups::Item","azroles/IAzApplicationGroups::get_Item","get_Item","security.iazapplicationgroups_item"]
 old-location: security\iazapplicationgroups_item.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9b895379-9b2f-45f5-997e-b589f08d7d6e
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroups object [Security],Item property, IAzApplicationGroups interface [Security],Item property, IAzApplicationGroups.Item, IAzApplicationGroups.get_Item, IAzApplicationGroups::Item, IAzApplicationGroups::get_Item, Item property [Security], Item property [Security],AzApplicationGroups object, Item property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::Item, azroles/IAzApplicationGroups::get_Item, get_Item, security.iazapplicationgroups_item

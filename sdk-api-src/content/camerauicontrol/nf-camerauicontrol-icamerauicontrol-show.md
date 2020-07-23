@@ -4,7 +4,7 @@ title: ICameraUIControl::Show (camerauicontrol.h)
 description: Displays the user interface control for the camera.
 helpviewer_keywords: ["ICameraUIControl interface [Windows API]","Show method","ICameraUIControl.Show","ICameraUIControl::Show","Show","Show method [Windows API]","Show method [Windows API]","ICameraUIControl interface","camerauicontrol/ICameraUIControl::Show","winprog.icamerauicontrol_show"]
 old-location: winprog\icamerauicontrol_show.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show

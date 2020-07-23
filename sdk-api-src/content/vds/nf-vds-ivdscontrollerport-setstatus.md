@@ -4,7 +4,7 @@ title: IVdsControllerPort::SetStatus (vds.h)
 description: Sets the status of a controller port to the specified value.
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","SetStatus method","IVdsControllerPort.SetStatus","IVdsControllerPort::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_setstatus","vds/IVdsControllerPort::SetStatus","vdshwprv/IVdsControllerPort::SetStatus"]
 old-location: base\ivdscontrollerport_setstatus.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 1338e1e7-80c8-409d-aa54-575618fd9797
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsControllerPort.SetStatus, IVdsControllerPort::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus, vdshwprv/IVdsControllerPort::SetStatus

@@ -4,7 +4,7 @@ title: IVdsVolumeMF::ClearFileSystemFlags (vds.h)
 description: Clears the file-system flags.
 helpviewer_keywords: ["ClearFileSystemFlags","ClearFileSystemFlags method [VDS]","ClearFileSystemFlags method [VDS]","IVdsVolumeMF interface","IVdsVolumeMF interface [VDS]","ClearFileSystemFlags method","IVdsVolumeMF.ClearFileSystemFlags","IVdsVolumeMF::ClearFileSystemFlags","base.ivdsvolumemf_clearfilesystemflags","vds/IVdsVolumeMF::ClearFileSystemFlags"]
 old-location: base\ivdsvolumemf_clearfilesystemflags.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f3b02b4a-109c-419f-94c1-fc2f15ea5291
 ms.date: 12/05/2018
 ms.keywords: ClearFileSystemFlags, ClearFileSystemFlags method [VDS], ClearFileSystemFlags method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],ClearFileSystemFlags method, IVdsVolumeMF.ClearFileSystemFlags, IVdsVolumeMF::ClearFileSystemFlags, base.ivdsvolumemf_clearfilesystemflags, vds/IVdsVolumeMF::ClearFileSystemFlags

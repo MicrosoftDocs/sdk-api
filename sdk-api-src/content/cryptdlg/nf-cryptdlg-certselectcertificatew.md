@@ -4,7 +4,7 @@ title: CertSelectCertificateW function (cryptdlg.h)
 description: Presents a dialog box that allows the user to select certificates from a set of certificates that match the given criteria.
 helpviewer_keywords: ["CertSelectCertificate","CertSelectCertificate function [Security]","CertSelectCertificateA","CertSelectCertificateW","cryptdlg/CertSelectCertificate","cryptdlg/CertSelectCertificateA","cryptdlg/CertSelectCertificateW","security.certselectcertificate"]
 old-location: security\certselectcertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b
 ms.date: 12/05/2018
 ms.keywords: CertSelectCertificate, CertSelectCertificate function [Security], CertSelectCertificateA, CertSelectCertificateW, cryptdlg/CertSelectCertificate, cryptdlg/CertSelectCertificateA, cryptdlg/CertSelectCertificateW, security.certselectcertificate

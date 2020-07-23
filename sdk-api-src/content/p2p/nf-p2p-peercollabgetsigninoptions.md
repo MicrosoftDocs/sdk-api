@@ -4,7 +4,7 @@ title: PeerCollabGetSigninOptions function (p2p.h)
 description: Obtains the peer's current signed-in peer collaboration network presence options.
 helpviewer_keywords: ["PeerCollabGetSigninOptions","PeerCollabGetSigninOptions function [Peer Networking]","p2p.peercollabgetsigninoptions","p2p/PeerCollabGetSigninOptions"]
 old-location: p2p\peercollabgetsigninoptions.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 2b1452d3-2474-40c9-a913-de7e148e2d94
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetSigninOptions, PeerCollabGetSigninOptions function [Peer Networking], p2p.peercollabgetsigninoptions, p2p/PeerCollabGetSigninOptions

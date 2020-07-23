@@ -4,7 +4,7 @@ title: PeerGroupGetRecord function (p2p.h)
 description: The PeerGroupGetRecord function retrieves a specific group record.
 helpviewer_keywords: ["PeerGroupGetRecord","PeerGroupGetRecord function [Peer Networking]","p2p.peergroupgetrecord","p2p/PeerGroupGetRecord"]
 old-location: p2p\peergroupgetrecord.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: cf24bf5f-8ffc-4b86-80f7-dcb7621f49d2
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetRecord, PeerGroupGetRecord function [Peer Networking], p2p.peergroupgetrecord, p2p/PeerGroupGetRecord

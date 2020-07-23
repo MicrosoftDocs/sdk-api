@@ -4,7 +4,7 @@ title: ITTerminal::get_Direction (tapi3if.h)
 description: The get_Direction method gets a TERMINAL_DIRECTION descriptor of the media stream direction for the terminal.
 helpviewer_keywords: ["ITTerminal interface [TAPI 2.2]","get_Direction method","ITTerminal.get_Direction","ITTerminal::get_Direction","_tapi3_itterminal_get_direction","get_Direction","get_Direction method [TAPI 2.2]","get_Direction method [TAPI 2.2]","ITTerminal interface","tapi3.itterminal_get_direction","tapi3if/ITTerminal::get_Direction"]
 old-location: tapi3\itterminal_get_direction.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e0a69c3d-1780-4088-8249-961788dbf184
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_Direction method, ITTerminal.get_Direction, ITTerminal::get_Direction, _tapi3_itterminal_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_direction, tapi3if/ITTerminal::get_Direction

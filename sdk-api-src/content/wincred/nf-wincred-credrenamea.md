@@ -4,7 +4,7 @@ title: CredRenameA function (wincred.h)
 description: CredRename is no longer supported.
 helpviewer_keywords: ["CredRename","CredRename function [Security]","CredRenameA","CredRenameW","_cred_credrename","security.credrename","wincred/CredRename","wincred/CredRenameA","wincred/CredRenameW"]
 old-location: security\credrename.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940
 ms.date: 12/05/2018
 ms.keywords: CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW

@@ -4,7 +4,7 @@ title: IXpsOMFontResourceCollection::RemoveAt (xpsobjectmodel.h)
 description: Removes and releases an IXpsOMFontResource interface pointer from a specified location in the collection.
 helpviewer_keywords: ["IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMFontResourceCollection.RemoveAt","IXpsOMFontResourceCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","xps.ixpsomfontresourcecollection_removeat","xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt"]
 old-location: xps\ixpsomfontresourcecollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: adcb8673-47ab-4d2f-829f-49d78ab26273
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMFontResourceCollection.RemoveAt, IXpsOMFontResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt

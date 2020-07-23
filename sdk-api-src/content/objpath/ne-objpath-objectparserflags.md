@@ -4,7 +4,7 @@ title: ObjectParserFlags (objpath.h)
 description: Flags used by constructor for CObjectPathParser.
 helpviewer_keywords: ["ObjectParserFlags","ObjectParserFlags enumeration [Windows Management Instrumentation]","e_ParserAbsoluteNamespaceOnly","e_ParserAcceptAll","e_ParserAcceptRelativeNamespace","objpath/ObjectParserFlags","objpath/e_ParserAbsoluteNamespaceOnly","objpath/e_ParserAcceptAll","objpath/e_ParserAcceptRelativeNamespace","wmi.objectparserflags"]
 old-location: wmi\objectparserflags.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d
 ms.date: 12/05/2018
 ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Management Instrumentation], e_ParserAbsoluteNamespaceOnly, e_ParserAcceptAll, e_ParserAcceptRelativeNamespace, objpath/ObjectParserFlags, objpath/e_ParserAbsoluteNamespaceOnly, objpath/e_ParserAcceptAll, objpath/e_ParserAcceptRelativeNamespace, wmi.objectparserflags

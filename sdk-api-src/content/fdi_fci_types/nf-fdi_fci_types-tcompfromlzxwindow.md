@@ -4,7 +4,7 @@ title: TCOMPfromLZXWindow macro (fdi_fci_types.h)
 description: The TCOMPfromLZXWindow macro converts window size into an LXZTCOMP value for FCIAddFile.
 helpviewer_keywords: ["TCOMPfromLZXWindow","TCOMPfromLZXWindow macro [Windows API]","fdi_fci_types/TCOMPfromLZXWindow","winprog.tcompfromlzxwindow"]
 old-location: winprog\tcompfromlzxwindow.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 39b5a1e0-a711-444b-8326-4aba9a98f203
 ms.date: 12/05/2018
 ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci_types/TCOMPfromLZXWindow, winprog.tcompfromlzxwindow

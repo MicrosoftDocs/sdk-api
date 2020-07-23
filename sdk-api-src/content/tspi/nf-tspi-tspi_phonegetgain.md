@@ -4,7 +4,7 @@ title: TSPI_phoneGetGain function (tspi.h)
 description: The TSPI_phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
 helpviewer_keywords: ["TSPI_phoneGetGain","TSPI_phoneGetGain function [TAPI 2.2]","_tspi_tspi_phonegetgain","tspi.tspi_phonegetgain","tspi/TSPI_phoneGetGain"]
 old-location: tspi\tspi_phonegetgain.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2efe9d36-3179-486b-9691-78a88452d91c
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetGain, TSPI_phoneGetGain function [TAPI 2.2], _tspi_tspi_phonegetgain, tspi.tspi_phonegetgain, tspi/TSPI_phoneGetGain

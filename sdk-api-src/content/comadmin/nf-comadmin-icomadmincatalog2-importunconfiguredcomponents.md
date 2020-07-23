@@ -4,7 +4,7 @@ title: ICOMAdminCatalog2::ImportUnconfiguredComponents (comadmin.h)
 description: Imports the specified classes into a COM+ application as unconfigured components.
 helpviewer_keywords: ["COMAdmin32BitComponent","COMAdmin64BitComponent","ICOMAdminCatalog2 interface [COM+]","ImportUnconfiguredComponents method","ICOMAdminCatalog2.ImportUnconfiguredComponents","ICOMAdminCatalog2::ImportUnconfiguredComponents","ImportUnconfiguredComponents","ImportUnconfiguredComponents method [COM+]","ImportUnconfiguredComponents method [COM+]","ICOMAdminCatalog2 interface","_cos_icomadmincatalog2_ImportUnconfiguredComponents","comadmin/ICOMAdminCatalog2::ImportUnconfiguredComponents","cos.icomadmincatalog2_importunconfiguredcomponents"]
 old-location: cos\icomadmincatalog2_importunconfiguredcomponents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 51bab6c7-5ec2-4651-a0c4-c54683a65d75
 ms.date: 12/05/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportUnconfiguredComponents method, ICOMAdminCatalog2.ImportUnconfiguredComponents, ICOMAdminCatalog2::ImportUnconfiguredComponents, ImportUnconfiguredComponents, ImportUnconfiguredComponents method [COM+], ImportUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportUnconfiguredComponents, comadmin/ICOMAdminCatalog2::ImportUnconfiguredComponents, cos.icomadmincatalog2_importunconfiguredcomponents

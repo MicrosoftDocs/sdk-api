@@ -4,7 +4,7 @@ title: ITPhone::get_ButtonText (tapi3if.h)
 description: The get_ButtonText method retrieves the button text associated with a particular button.
 helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_ButtonText method","ITPhone.get_ButtonText","ITPhone::get_ButtonText","_tapi3_itphone_get_buttontext","get_ButtonText","get_ButtonText method [TAPI 2.2]","get_ButtonText method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_buttontext","tapi3if/ITPhone::get_ButtonText"]
 old-location: tapi3\itphone_get_buttontext.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 75a216fb-7bb3-4178-baa5-8ba478bd5422
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonText method, ITPhone.get_ButtonText, ITPhone::get_ButtonText, _tapi3_itphone_get_buttontext, get_ButtonText, get_ButtonText method [TAPI 2.2], get_ButtonText method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttontext, tapi3if/ITPhone::get_ButtonText

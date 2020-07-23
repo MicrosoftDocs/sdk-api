@@ -4,7 +4,7 @@ title: AM_STREAM_INFO_FLAGS (strmif.h)
 description: The AM_STREAM_INFO_FLAGS enumeration defines flags that indicate a pin's stream-control status.
 helpviewer_keywords: ["AM_STREAM_INFO_DISCARDING","AM_STREAM_INFO_FLAGS","AM_STREAM_INFO_FLAGS","AM_STREAM_INFO_FLAGS enumeration [DirectShow]","AM_STREAM_INFO_FLAGSEnumeration","AM_STREAM_INFO_START_DEFINED","AM_STREAM_INFO_STOP_DEFINED","AM_STREAM_INFO_STOP_SEND_EXTRA","dshow.am_stream_info_flags","strmif/AM_STREAM_INFO_DISCARDING","strmif/AM_STREAM_INFO_FLAGS","strmif/AM_STREAM_INFO_START_DEFINED","strmif/AM_STREAM_INFO_STOP_DEFINED","strmif/AM_STREAM_INFO_STOP_SEND_EXTRA"]
 old-location: dshow\am_stream_info_flags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 48f6ab36-f019-4096-b6e7-6f6ebc7c454a
 ms.date: 12/05/2018
 ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLAGS , AM_STREAM_INFO_FLAGS enumeration [DirectShow], AM_STREAM_INFO_FLAGSEnumeration, AM_STREAM_INFO_START_DEFINED, AM_STREAM_INFO_STOP_DEFINED, AM_STREAM_INFO_STOP_SEND_EXTRA, dshow.am_stream_info_flags, strmif/AM_STREAM_INFO_DISCARDING, strmif/AM_STREAM_INFO_FLAGS, strmif/AM_STREAM_INFO_START_DEFINED, strmif/AM_STREAM_INFO_STOP_DEFINED, strmif/AM_STREAM_INFO_STOP_SEND_EXTRA

@@ -4,7 +4,7 @@ title: MF_QUALITY_ADVISE_FLAGS (mfidl.h)
 description: Contains flags for the IMFQualityAdvise2::NotifyQualityEvent method.
 helpviewer_keywords: ["MF_QUALITY_ADVISE_FLAGS","MF_QUALITY_ADVISE_FLAGS enumeration [Media Foundation]","MF_QUALITY_CANNOT_KEEP_UP","mf.mf_quality_advise_flags","mfidl/MF_QUALITY_ADVISE_FLAGS","mfidl/MF_QUALITY_CANNOT_KEEP_UP"]
 old-location: mf\mf_quality_advise_flags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 93cf5585-fcb4-480a-b482-241376e8ec73
 ms.date: 12/05/2018
 ms.keywords: MF_QUALITY_ADVISE_FLAGS, MF_QUALITY_ADVISE_FLAGS enumeration [Media Foundation], MF_QUALITY_CANNOT_KEEP_UP, mf.mf_quality_advise_flags, mfidl/MF_QUALITY_ADVISE_FLAGS, mfidl/MF_QUALITY_CANNOT_KEEP_UP

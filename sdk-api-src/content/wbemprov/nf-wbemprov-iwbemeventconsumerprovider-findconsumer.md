@@ -4,7 +4,7 @@ title: IWbemEventConsumerProvider::FindConsumer (wbemprov.h)
 description: The FindConsumer function locates and returns sink objects to which WMI can send events.
 helpviewer_keywords: ["FindConsumer","FindConsumer method [Windows Management Instrumentation]","FindConsumer method [Windows Management Instrumentation]","IWbemEventConsumerProvider interface","IWbemEventConsumerProvider interface [Windows Management Instrumentation]","FindConsumer method","IWbemEventConsumerProvider.FindConsumer","IWbemEventConsumerProvider::FindConsumer","_hmm_iwbemeventconsumerprovider_findconsumer","wbemprov/IWbemEventConsumerProvider::FindConsumer","wmi.iwbemeventconsumerprovider_findconsumer"]
 old-location: wmi\iwbemeventconsumerprovider_findconsumer.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 196c839a-5b8f-4ff6-b6cf-3483db275e8b
 ms.date: 12/05/2018
 ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation],IWbemEventConsumerProvider interface, IWbemEventConsumerProvider interface [Windows Management Instrumentation],FindConsumer method, IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer

@@ -4,7 +4,7 @@ title: IMFCapturePhotoSink::SetSampleCallback (mfcaptureengine.h)
 description: Sets a callback to receive the still-image data.
 helpviewer_keywords: ["IMFCapturePhotoSink interface [Media Foundation]","SetSampleCallback method","IMFCapturePhotoSink.SetSampleCallback","IMFCapturePhotoSink::SetSampleCallback","SetSampleCallback","SetSampleCallback method [Media Foundation]","SetSampleCallback method [Media Foundation]","IMFCapturePhotoSink interface","mf.imfcapturephotosink_setsamplecallback","mfcaptureengine/IMFCapturePhotoSink::SetSampleCallback"]
 old-location: mf\imfcapturephotosink_setsamplecallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 595716F6-8059-4B56-9FB3-906846BA3CBB
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetSampleCallback method, IMFCapturePhotoSink.SetSampleCallback, IMFCapturePhotoSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setsamplecallback, mfcaptureengine/IMFCapturePhotoSink::SetSampleCallback

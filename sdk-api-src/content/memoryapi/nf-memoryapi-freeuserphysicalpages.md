@@ -4,7 +4,7 @@ title: FreeUserPhysicalPages function (memoryapi.h)
 description: Frees physical memory pages that are allocated previously by using AllocateUserPhysicalPages or AllocateUserPhysicalPagesNuma.
 helpviewer_keywords: ["FreeUserPhysicalPages","FreeUserPhysicalPages function","_win32_freeuserphysicalpages","base.freeuserphysicalpages","winbase/FreeUserPhysicalPages"]
 old-location: base\freeuserphysicalpages.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: c01da9f1-1d24-4b7e-8c6b-50aa6f558384
 ms.date: 12/05/2018
 ms.keywords: FreeUserPhysicalPages, FreeUserPhysicalPages function, _win32_freeuserphysicalpages, base.freeuserphysicalpages, winbase/FreeUserPhysicalPages

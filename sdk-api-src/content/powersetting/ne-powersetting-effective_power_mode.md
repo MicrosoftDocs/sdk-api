@@ -4,7 +4,7 @@ title: EFFECTIVE_POWER_MODE (powersetting.h)
 description: Indicates the effective power mode the system is running.
 helpviewer_keywords: ["EFFECTIVE_POWER_MODE","EFFECTIVE_POWER_MODE enumeration","EffectivePowerModeBalanced","EffectivePowerModeBatterySaver","EffectivePowerModeBetterBattery","EffectivePowerModeHighPerformance","EffectivePowerModeInvalid","EffectivePowerModeMaxPerformance","base.effective_power_mode","powersetting/EFFECTIVE_POWER_MODE","powersetting/EffectivePowerModeBalanced","powersetting/EffectivePowerModeBatterySaver","powersetting/EffectivePowerModeBetterBattery","powersetting/EffectivePowerModeHighPerformance","powersetting/EffectivePowerModeInvalid","powersetting/EffectivePowerModeMaxPerformance"]
 old-location: base\effective_power_mode.htm
-tech.root: power
+tech.root: base
 ms.assetid: 8FA09CC0-99E7-4B05-88A0-2AF406C7B60C
 ms.date: 12/05/2018
 ms.keywords: EFFECTIVE_POWER_MODE, EFFECTIVE_POWER_MODE enumeration, EffectivePowerModeBalanced, EffectivePowerModeBatterySaver, EffectivePowerModeBetterBattery, EffectivePowerModeHighPerformance, EffectivePowerModeInvalid, EffectivePowerModeMaxPerformance, base.effective_power_mode, powersetting/EFFECTIVE_POWER_MODE, powersetting/EffectivePowerModeBalanced, powersetting/EffectivePowerModeBatterySaver, powersetting/EffectivePowerModeBetterBattery, powersetting/EffectivePowerModeHighPerformance, powersetting/EffectivePowerModeInvalid, powersetting/EffectivePowerModeMaxPerformance

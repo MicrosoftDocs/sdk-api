@@ -4,7 +4,7 @@ title: TOKEN_STATISTICS (winnt.h)
 description: Contains information about an access token.
 helpviewer_keywords: ["*PTOKEN_STATISTICS","PTOKEN_STATISTICS","PTOKEN_STATISTICS structure pointer [Security]","TOKEN_STATISTICS","TOKEN_STATISTICS structure [Security]","_TOKEN_STATISTICS","_win32_token_statistics_str","security.token_statistics","winnt/PTOKEN_STATISTICS","winnt/TOKEN_STATISTICS"]
 old-location: security\token_statistics.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 7fcc4a46-1bac-49c1-a239-b466d3bf31d9
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Security], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Security], _TOKEN_STATISTICS, _win32_token_statistics_str, security.token_statistics, winnt/PTOKEN_STATISTICS, winnt/TOKEN_STATISTICS'

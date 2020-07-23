@@ -4,7 +4,7 @@ title: ICertPropertySHA1Hash::get_SHA1Hash (certenroll.h)
 description: Retrieves the SHA-1 hash of a certificate.
 helpviewer_keywords: ["ICertPropertySHA1Hash interface [Security]","SHA1Hash property","ICertPropertySHA1Hash.SHA1Hash","ICertPropertySHA1Hash.get_SHA1Hash","ICertPropertySHA1Hash::SHA1Hash","ICertPropertySHA1Hash::get_SHA1Hash","SHA1Hash property [Security]","SHA1Hash property [Security]","ICertPropertySHA1Hash interface","certenroll/ICertPropertySHA1Hash::SHA1Hash","certenroll/ICertPropertySHA1Hash::get_SHA1Hash","get_SHA1Hash","security.icertpropertysha1hash_sha1hash_property"]
 old-location: security\icertpropertysha1hash_sha1hash_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 28c6efb3-1cf7-4f3b-ad42-6f5d72d3117b
 ms.date: 12/05/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],SHA1Hash property, ICertPropertySHA1Hash.SHA1Hash, ICertPropertySHA1Hash.get_SHA1Hash, ICertPropertySHA1Hash::SHA1Hash, ICertPropertySHA1Hash::get_SHA1Hash, SHA1Hash property [Security], SHA1Hash property [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::SHA1Hash, certenroll/ICertPropertySHA1Hash::get_SHA1Hash, get_SHA1Hash, security.icertpropertysha1hash_sha1hash_property

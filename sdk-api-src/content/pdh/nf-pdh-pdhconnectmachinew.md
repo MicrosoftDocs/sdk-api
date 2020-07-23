@@ -4,7 +4,7 @@ title: PdhConnectMachineW function (pdh.h)
 description: Connects to the specified computer.
 helpviewer_keywords: ["PdhConnectMachine","PdhConnectMachine function [Perf]","PdhConnectMachineA","PdhConnectMachineW","_win32_pdhconnectmachine","base.pdhconnectmachine","pdh/PdhConnectMachine","pdh/PdhConnectMachineA","pdh/PdhConnectMachineW","perf.pdhconnectmachine"]
 old-location: perf\pdhconnectmachine.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.date: 12/05/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine

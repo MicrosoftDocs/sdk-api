@@ -4,7 +4,7 @@ title: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT (d3d11.h)
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID query.
 helpviewer_keywords: ["D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT","D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT","mf.d3d11_authenticated_query_accessibility_encryption_guid_output"]
 old-location: mf\d3d11_authenticated_query_accessibility_encryption_guid_output.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C782FABE-5B17-4C02-857C-AF2EE466903F
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT, mf.d3d11_authenticated_query_accessibility_encryption_guid_output

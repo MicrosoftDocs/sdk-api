@@ -4,7 +4,7 @@ title: MsiRecordClearData function (msiquery.h)
 description: The MsiRecordClearData function sets all fields in a record to null.
 helpviewer_keywords: ["MsiRecordClearData","MsiRecordClearData function","_msi_msirecordcleardata","msiquery/MsiRecordClearData","setup.msirecordcleardata"]
 old-location: setup\msirecordcleardata.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 61fc362e-2b8e-4ce4-83e2-bade40fb96bc
 ms.date: 12/05/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata

@@ -4,7 +4,7 @@ title: WinHttpReadData function (winhttp.h)
 description: The WinHttpReadData function reads data from a handle opened by the WinHttpOpenRequest function.
 helpviewer_keywords: ["WinHttpReadData","WinHttpReadData function [WinHTTP]","http.winhttpreaddata","winhttp.winhttpreaddata_function","winhttp/WinHttpReadData"]
 old-location: http\winhttpreaddata.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 06340601-9b2d-487a-a82a-aa2175a52dc5
 ms.date: 12/05/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData

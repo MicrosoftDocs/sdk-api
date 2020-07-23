@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS (genericusbfnioctl.h)
 description: This IOCTL code is nevtot supported.
 helpviewer_keywords: ["IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS","IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control","IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control code [Buses]","buses.ioctl_genericusbfn_deactivate_usb_bus","genericusbfnioctl/IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS"]
 old-location: buses\ioctl_genericusbfn_deactivate_usb_bus.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 07F56732-590F-42B8-9939-5E02ED2A3EF0
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_deactivate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS

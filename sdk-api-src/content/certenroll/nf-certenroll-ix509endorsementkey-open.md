@@ -4,7 +4,7 @@ title: IX509EndorsementKey::Open (certenroll.h)
 description: Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
 helpviewer_keywords: ["IX509EndorsementKey interface [Security]","Open method","IX509EndorsementKey.Open","IX509EndorsementKey::Open","Open","Open method [Security]","Open method [Security]","IX509EndorsementKey interface","certenroll/IX509EndorsementKey::Open","security.ix509endorsementkey_open"]
 old-location: security\ix509endorsementkey_open.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 06855fc0-0d87-4fe7-9525-55eb60bffcd1
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey interface [Security],Open method, IX509EndorsementKey.Open, IX509EndorsementKey::Open, Open, Open method [Security], Open method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Open, security.ix509endorsementkey_open

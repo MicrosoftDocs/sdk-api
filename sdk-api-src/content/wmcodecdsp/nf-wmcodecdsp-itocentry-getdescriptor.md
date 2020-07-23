@@ -4,7 +4,7 @@ title: ITocEntry::GetDescriptor (wmcodecdsp.h)
 description: The GetDescriptor method retrieves the descriptor, previously set by a call to SetDescriptor, of the entry.
 helpviewer_keywords: ["GetDescriptor","GetDescriptor method [Media Foundation]","GetDescriptor method [Media Foundation]","ITocEntry interface","ITocEntry interface [Media Foundation]","GetDescriptor method","ITocEntry.GetDescriptor","ITocEntry::GetDescriptor","codecapi.itocentry_getdescriptor","mf.itocentry_getdescriptor","wmcodecdsp/ITocEntry::GetDescriptor"]
 old-location: mf\itocentry_getdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bb685d4c-c5ec-413f-b279-25216b2bcee8
 ms.date: 12/05/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptor method, ITocEntry.GetDescriptor, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor

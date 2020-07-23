@@ -4,7 +4,7 @@ title: ITCallingCard::get_NumberOfDigits (tapi3if.h)
 description: The get_NumberOfDigits method gets the number of digits in the existing card number.
 helpviewer_keywords: ["ITCallingCard interface [TAPI 2.2]","get_NumberOfDigits method","ITCallingCard.get_NumberOfDigits","ITCallingCard::get_NumberOfDigits","_tapi3_itcallingcard_get_numberofdigits","get_NumberOfDigits","get_NumberOfDigits method [TAPI 2.2]","get_NumberOfDigits method [TAPI 2.2]","ITCallingCard interface","tapi3.itcallingcard_get_numberofdigits","tapi3if/ITCallingCard::get_NumberOfDigits"]
 old-location: tapi3\itcallingcard_get_numberofdigits.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9eacfd2d-b137-4923-9cfa-139473ba8298
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_NumberOfDigits method, ITCallingCard.get_NumberOfDigits, ITCallingCard::get_NumberOfDigits, _tapi3_itcallingcard_get_numberofdigits, get_NumberOfDigits, get_NumberOfDigits method [TAPI 2.2], get_NumberOfDigits method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_numberofdigits, tapi3if/ITCallingCard::get_NumberOfDigits

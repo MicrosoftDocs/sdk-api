@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::GetValue (certenc.h)
 description: Returns the specified date from the DATE array.
 helpviewer_keywords: ["CCertEncodeDateArray object [Security]","GetValue method","GetValue","GetValue method [Security]","GetValue method [Security]","CCertEncodeDateArray object","GetValue method [Security]","ICertEncodeDateArray interface","ICertEncodeDateArray interface [Security]","GetValue method","ICertEncodeDateArray.GetValue","ICertEncodeDateArray::GetValue","_certsrv_icertencodedatearray_getvalue","certenc/ICertEncodeDateArray::GetValue","security.icertencodedatearray_getvalue"]
 old-location: security\icertencodedatearray_getvalue.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: db108b2a-c3ee-4ef8-be5c-74dc739dacee
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeDateArray object, GetValue method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetValue method, ICertEncodeDateArray.GetValue, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue

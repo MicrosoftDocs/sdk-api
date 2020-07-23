@@ -4,7 +4,7 @@ title: PdhEnumMachinesA function (pdh.h)
 description: Returns a list of the computer names associated with counters in a log file.
 helpviewer_keywords: ["PdhEnumMachines","PdhEnumMachines function [Perf]","PdhEnumMachinesA","PdhEnumMachinesW","_win32_pdhenummachines","base.pdhenummachines","pdh/PdhEnumMachines","pdh/PdhEnumMachinesA","pdh/PdhEnumMachinesW","perf.pdhenummachines"]
 old-location: perf\pdhenummachines.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 77584d3b-3ba5-4288-b730-be2458f4fc1c
 ms.date: 12/05/2018
 ms.keywords: PdhEnumMachines, PdhEnumMachines function [Perf], PdhEnumMachinesA, PdhEnumMachinesW, _win32_pdhenummachines, base.pdhenummachines, pdh/PdhEnumMachines, pdh/PdhEnumMachinesA, pdh/PdhEnumMachinesW, perf.pdhenummachines

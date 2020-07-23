@@ -4,7 +4,7 @@ title: IAzApplications::get_Count (azroles.h)
 description: Retrieves the number of IAzApplication objects in the collection.
 helpviewer_keywords: ["AzApplications object [Security]","Count property","Count property [Security]","Count property [Security]","AzApplications object","Count property [Security]","IAzApplications interface","IAzApplications interface [Security]","Count property","IAzApplications.Count","IAzApplications.get_Count","IAzApplications::Count","IAzApplications::get_Count","azroles/IAzApplications::Count","azroles/IAzApplications::get_Count","get_Count","security.iazapplications_count"]
 old-location: security\iazapplications_count.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2f12fd9f-4632-4eef-8ac4-80e73a731539
 ms.date: 12/05/2018
 ms.keywords: AzApplications object [Security],Count property, Count property [Security], Count property [Security],AzApplications object, Count property [Security],IAzApplications interface, IAzApplications interface [Security],Count property, IAzApplications.Count, IAzApplications.get_Count, IAzApplications::Count, IAzApplications::get_Count, azroles/IAzApplications::Count, azroles/IAzApplications::get_Count, get_Count, security.iazapplications_count

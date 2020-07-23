@@ -4,7 +4,7 @@ title: PerfEnumerateCounterSetInstances function (perflib.h)
 description: Gets the names and identifiers of the active instances of a counter set on the specified system.
 helpviewer_keywords: ["PerfEnumerateCounterSetInstances","PerfEnumerateCounterSetInstances function [Perf]","perf.perfenumeratecountersetinstances","perflib/PerfEnumerateCounterSetInstances"]
 old-location: perf\perfenumeratecountersetinstances.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 83DCEAB7-5F79-4A55-8BAC-D20F545FF76D
 ms.date: 12/05/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances

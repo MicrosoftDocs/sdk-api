@@ -4,7 +4,7 @@ title: ITPrivateEvent::get_Call (tapi3if.h)
 description: The get_Call method returns a pointer to the ITCallInfo interface of the call on which the event occurred.
 helpviewer_keywords: ["ITPrivateEvent interface [TAPI 2.2]","get_Call method","ITPrivateEvent.get_Call","ITPrivateEvent::get_Call","_tapi3_itprivateevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITPrivateEvent interface","tapi3.itprivateevent_get_call","tapi3if/ITPrivateEvent::get_Call"]
 old-location: tapi3\itprivateevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3d4db0b3-9bff-4e14-9fe2-549934c2d244
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_Call method, ITPrivateEvent.get_Call, ITPrivateEvent::get_Call, _tapi3_itprivateevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_call, tapi3if/ITPrivateEvent::get_Call

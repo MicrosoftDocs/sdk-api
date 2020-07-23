@@ -4,7 +4,7 @@ title: IEnumMediaTypes::Next (strmif.h)
 description: The Next method retrieves a specified number of media types.
 helpviewer_keywords: ["IEnumMediaTypes interface [DirectShow]","Next method","IEnumMediaTypes.Next","IEnumMediaTypes::Next","IEnumMediaTypesNext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumMediaTypes interface","dshow.ienummediatypes_next","strmif/IEnumMediaTypes::Next"]
 old-location: dshow\ienummediatypes_next.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7a57fa8e-756b-457c-918a-154fbd085ea3
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Next method, IEnumMediaTypes.Next, IEnumMediaTypes::Next, IEnumMediaTypesNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_next, strmif/IEnumMediaTypes::Next

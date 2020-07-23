@@ -4,7 +4,7 @@ title: TSPI_providerGenericDialogData function (tspi.h)
 description: The TSPI_providerGenericDialogData function delivers to the service provider data that was sent from the UI DLL running in an application context through the TUISPIDLLCALLBACK function.
 helpviewer_keywords: ["TSPI_providerGenericDialogData","TSPI_providerGenericDialogData function [TAPI 2.2]","_tspi_tspi_providergenericdialogdata","tspi.tspi_providergenericdialogdata","tspi/TSPI_providerGenericDialogData"]
 old-location: tspi\tspi_providergenericdialogdata.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f48d1995-c775-4ae6-9af8-5f5f5c4f4ebe
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerGenericDialogData, TSPI_providerGenericDialogData function [TAPI 2.2], _tspi_tspi_providergenericdialogdata, tspi.tspi_providergenericdialogdata, tspi/TSPI_providerGenericDialogData

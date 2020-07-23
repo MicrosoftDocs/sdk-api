@@ -4,7 +4,7 @@ title: IPortableDeviceProperties (portabledeviceapi.h)
 description: The IPortableDeviceProperties interface retrieves, adds, or deletes properties from an object on a device, or the device itself.
 helpviewer_keywords: ["IPortableDeviceProperties","IPortableDeviceProperties interface [Windows Portable Devices SDK]","IPortableDeviceProperties interface [Windows Portable Devices SDK]","described","IPortableDevicePropertiesInterface","portabledeviceapi/IPortableDeviceProperties","wpdsdk.iportabledeviceproperties"]
 old-location: wpdsdk\iportabledeviceproperties.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 4555e85b-c667-466c-a527-cc29ca7a6aee
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], IPortableDeviceProperties interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesInterface, portabledeviceapi/IPortableDeviceProperties, wpdsdk.iportabledeviceproperties

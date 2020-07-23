@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_HookSwitchDevice (tapi3if.h)
 description: The get_HookSwitchDevice method returns a PHONE_HOOK_SWITCH_DEVICE value specifying the hookswitch device that changed state. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
 helpviewer_keywords: ["ITPhoneEvent interface [TAPI 2.2]","get_HookSwitchDevice method","ITPhoneEvent.get_HookSwitchDevice","ITPhoneEvent::get_HookSwitchDevice","_tapi3_itphoneevent_get_hookswitchdevice","get_HookSwitchDevice","get_HookSwitchDevice method [TAPI 2.2]","get_HookSwitchDevice method [TAPI 2.2]","ITPhoneEvent interface","tapi3.itphoneevent_get_hookswitchdevice","tapi3if/ITPhoneEvent::get_HookSwitchDevice"]
 old-location: tapi3\itphoneevent_get_hookswitchdevice.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: acc25e8e-966f-4b54-ad59-226d2b7728b8
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_HookSwitchDevice method, ITPhoneEvent.get_HookSwitchDevice, ITPhoneEvent::get_HookSwitchDevice, _tapi3_itphoneevent_get_hookswitchdevice, get_HookSwitchDevice, get_HookSwitchDevice method [TAPI 2.2], get_HookSwitchDevice method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_hookswitchdevice, tapi3if/ITPhoneEvent::get_HookSwitchDevice

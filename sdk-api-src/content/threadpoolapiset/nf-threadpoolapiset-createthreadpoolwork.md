@@ -4,7 +4,7 @@ title: CreateThreadpoolWork function (threadpoolapiset.h)
 description: Creates a new work object.
 helpviewer_keywords: ["CreateThreadpoolWork","CreateThreadpoolWork function","base.createthreadpoolwork","threadpoolapiset/CreateThreadpoolWork"]
 old-location: base\createthreadpoolwork.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 50647d87-1768-4918-8376-a6a04daca621
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolWork, CreateThreadpoolWork function, base.createthreadpoolwork, threadpoolapiset/CreateThreadpoolWork

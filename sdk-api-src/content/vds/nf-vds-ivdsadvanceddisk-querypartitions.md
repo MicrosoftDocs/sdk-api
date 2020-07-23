@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::QueryPartitions (vds.h)
 description: Returns the details of all partitions on the current disk.
 helpviewer_keywords: ["IVdsAdvancedDisk interface [VDS]","QueryPartitions method","IVdsAdvancedDisk.QueryPartitions","IVdsAdvancedDisk::QueryPartitions","QueryPartitions","QueryPartitions method [VDS]","QueryPartitions method [VDS]","IVdsAdvancedDisk interface","base.ivdsadvanceddisk_querypartitions","vds/IVdsAdvancedDisk::QueryPartitions"]
 old-location: base\ivdsadvanceddisk_querypartitions.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: ca02c5f8-11cd-4bdf-a376-3b146eb2aa70
 ms.date: 12/05/2018
 ms.keywords: IVdsAdvancedDisk interface [VDS],QueryPartitions method, IVdsAdvancedDisk.QueryPartitions, IVdsAdvancedDisk::QueryPartitions, QueryPartitions, QueryPartitions method [VDS], QueryPartitions method [VDS],IVdsAdvancedDisk interface, base.ivdsadvanceddisk_querypartitions, vds/IVdsAdvancedDisk::QueryPartitions

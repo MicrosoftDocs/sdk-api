@@ -4,7 +4,7 @@ title: IMFMediaEngine::Play (mfmediaengine.h)
 description: Starts playback.
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","Play method","IMFMediaEngine.Play","IMFMediaEngine::Play","Play","Play method [Media Foundation]","Play method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_play","mfmediaengine/IMFMediaEngine::Play"]
 old-location: mf\imfmediaengine_play.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2D6083F5-734A-4350-8E54-56C79038389D
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Play method, IMFMediaEngine.Play, IMFMediaEngine::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_play, mfmediaengine/IMFMediaEngine::Play

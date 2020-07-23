@@ -4,7 +4,7 @@ title: IEnroll4::createFilePFXWStr (xenroll.h)
 description: Saves the accepted certificate chain and private key in a file in Personal Information Exchange (PFX) format.
 helpviewer_keywords: ["IEnroll4 interface [Security]","createFilePFXWStr method","IEnroll4.createFilePFXWStr","IEnroll4::createFilePFXWStr","createFilePFXWStr","createFilePFXWStr method [Security]","createFilePFXWStr method [Security]","IEnroll4 interface","security.ienroll4_createfilepfxwstr","xenroll/IEnroll4::createFilePFXWStr"]
 old-location: security\ienroll4_createfilepfxwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1df364e7-35ab-4c16-ac13-2f0be36fe0f9
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createFilePFXWStr method, IEnroll4.createFilePFXWStr, IEnroll4::createFilePFXWStr, createFilePFXWStr, createFilePFXWStr method [Security], createFilePFXWStr method [Security],IEnroll4 interface, security.ienroll4_createfilepfxwstr, xenroll/IEnroll4::createFilePFXWStr

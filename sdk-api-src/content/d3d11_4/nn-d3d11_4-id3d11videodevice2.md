@@ -2,6 +2,7 @@
 UID: NN:d3d11_4.ID3D11VideoDevice2
 title: ID3D11VideoDevice2
 description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
+tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoDevice2"]
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoDevice2

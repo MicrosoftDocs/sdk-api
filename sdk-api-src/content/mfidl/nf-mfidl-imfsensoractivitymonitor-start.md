@@ -4,7 +4,7 @@ title: IMFSensorActivityMonitor::Start (mfidl.h)
 description: Starts the sensor activity monitor.
 helpviewer_keywords: ["IMFSensorActivityMonitor interface [Media Foundation]","Start method","IMFSensorActivityMonitor.Start","IMFSensorActivityMonitor::Start","Start","Start method [Media Foundation]","Start method [Media Foundation]","IMFSensorActivityMonitor interface","mf.imfsensoractivitymonitor_start","mfidl/IMFSensorActivityMonitor::Start"]
 old-location: mf\imfsensoractivitymonitor_start.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 49300C9F-CA0B-4515-81C7-02F067B2BBD3
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Start method, IMFSensorActivityMonitor.Start, IMFSensorActivityMonitor::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_start, mfidl/IMFSensorActivityMonitor::Start

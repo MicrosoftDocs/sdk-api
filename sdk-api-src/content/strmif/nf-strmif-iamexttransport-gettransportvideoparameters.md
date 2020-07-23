@@ -4,7 +4,7 @@ title: IAMExtTransport::GetTransportVideoParameters (strmif.h)
 description: The GetTransportVideoParameters retrieves video parameter settings for external transport.
 helpviewer_keywords: ["GetTransportVideoParameters","GetTransportVideoParameters method [DirectShow]","GetTransportVideoParameters method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetTransportVideoParameters method","IAMExtTransport.GetTransportVideoParameters","IAMExtTransport::GetTransportVideoParameters","IAMExtTransportGetTransportVideoParameters","dshow.iamexttransport_gettransportvideoparameters","strmif/IAMExtTransport::GetTransportVideoParameters"]
 old-location: dshow\iamexttransport_gettransportvideoparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7a77ecf6-49e4-4d91-a06e-80313b4b8957
 ms.date: 12/05/2018
 ms.keywords: GetTransportVideoParameters, GetTransportVideoParameters method [DirectShow], GetTransportVideoParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportVideoParameters method, IAMExtTransport.GetTransportVideoParameters, IAMExtTransport::GetTransportVideoParameters, IAMExtTransportGetTransportVideoParameters, dshow.iamexttransport_gettransportvideoparameters, strmif/IAMExtTransport::GetTransportVideoParameters

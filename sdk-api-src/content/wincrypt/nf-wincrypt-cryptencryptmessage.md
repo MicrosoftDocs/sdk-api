@@ -4,7 +4,7 @@ title: CryptEncryptMessage function (wincrypt.h)
 description: The CryptEncryptMessage function encrypts and encodes a message.
 helpviewer_keywords: ["CryptEncryptMessage","CryptEncryptMessage function [Security]","_crypto2_cryptencryptmessage","security.cryptencryptmessage","wincrypt/CryptEncryptMessage"]
 old-location: security\cryptencryptmessage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 927f2e9a-96cf-4744-bd57-420b5034d28d
 ms.date: 12/05/2018
 ms.keywords: CryptEncryptMessage, CryptEncryptMessage function [Security], _crypto2_cryptencryptmessage, security.cryptencryptmessage, wincrypt/CryptEncryptMessage

@@ -4,7 +4,7 @@ title: IXpsOMDashCollection::SetAt (xpsobjectmodel.h)
 description: Replaces an XPS_DASH structure at a specified location in the collection.
 helpviewer_keywords: ["IXpsOMDashCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMDashCollection.SetAt","IXpsOMDashCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMDashCollection interface","xps.ixpsomdashcollection_setat","xpsobjectmodel/IXpsOMDashCollection::SetAt"]
 old-location: xps\ixpsomdashcollection_setat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c0ea0ae0-2c28-4478-82fc-3e80bc70eef8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDashCollection.SetAt, IXpsOMDashCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt

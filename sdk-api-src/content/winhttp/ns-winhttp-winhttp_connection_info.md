@@ -4,7 +4,7 @@ title: WINHTTP_CONNECTION_INFO (winhttp.h)
 description: The WINHTTP_CONNECTION_INFO structure contains the source and destination IP address of the request that generated the response.
 helpviewer_keywords: ["WINHTTP_CONNECTION_INFO","WINHTTP_CONNECTION_INFO structure [HTTP]","http.winhttp_connection_info","winhttp/WINHTTP_CONNECTION_INFO"]
 old-location: http\winhttp_connection_info.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: cb6e10f8-a480-41ac-b4d3-f09cfc663780
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CONNECTION_INFO, WINHTTP_CONNECTION_INFO structure [HTTP], http.winhttp_connection_info, winhttp/WINHTTP_CONNECTION_INFO

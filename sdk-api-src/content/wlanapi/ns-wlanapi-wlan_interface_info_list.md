@@ -4,7 +4,7 @@ title: WLAN_INTERFACE_INFO_LIST (wlanapi.h)
 description: Array of NIC interface information.
 helpviewer_keywords: ["*PWLAN_INTERFACE_INFO_LIST","PWLAN_INTERFACE_INFO_LIST","PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI]","WLAN_INTERFACE_INFO_LIST","WLAN_INTERFACE_INFO_LIST structure [NativeWIFI]","nwifi.wlan_interface_info_list","wlanapi/PWLAN_INTERFACE_INFO_LIST","wlanapi/WLAN_INTERFACE_INFO_LIST"]
 old-location: nwifi\wlan_interface_info_list.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: c57f4658-9f1e-4b05-a298-38a064121bb3
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI], WLAN_INTERFACE_INFO_LIST, WLAN_INTERFACE_INFO_LIST structure [NativeWIFI], nwifi.wlan_interface_info_list, wlanapi/PWLAN_INTERFACE_INFO_LIST, wlanapi/WLAN_INTERFACE_INFO_LIST'

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderFactory (functiondiscoveryprovider.h)
 description: Provides factory methods to create Function Discovery objects.
 helpviewer_keywords: ["IFunctionDiscoveryProviderFactory","IFunctionDiscoveryProviderFactory interface","IFunctionDiscoveryProviderFactory interface","described","functiondiscoveryprovider/IFunctionDiscoveryProviderFactory","ncd.ifunctiondiscoveryproviderfactory"]
 old-location: ncd\ifunctiondiscoveryproviderfactory.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 576db617-0bca-4b46-839b-0f133f28cacb
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderFactory, IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory, ncd.ifunctiondiscoveryproviderfactory

@@ -4,7 +4,7 @@ title: SP_ALTPLATFORM_INFO_V1 (setupapi.h)
 description: This structure is used to pass information for an alternate platform to SetupQueryInfOriginalFileInformation.
 helpviewer_keywords: ["*PSP_ALTPLATFORM_INFO_V1","PSP_ALTPLATFORM_INFO_V1","PSP_ALTPLATFORM_INFO_V1 structure pointer [Setup API]","SP_ALTPLATFORM_INFO","SP_ALTPLATFORM_INFO_V1","SP_ALTPLATFORM_INFO_V1 structure [Setup API]","VER_PLATFORM_WIN32_NT","VER_PLATFORM_WIN32_WINDOWS","_setupapi_sp_altplatform_info","setup.sp_altplatform_info_v1","setupapi/PSP_ALTPLATFORM_INFO_V1","setupapi/SP_ALTPLATFORM_INFO_V1"]
 old-location: setup\sp_altplatform_info_v1.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 33872a84-8f7f-4508-a326-2d95ac0fcfd7
 ms.date: 12/05/2018
 ms.keywords: '*PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V1, SP_ALTPLATFORM_INFO_V1 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v1, setupapi/PSP_ALTPLATFORM_INFO_V1, setupapi/SP_ALTPLATFORM_INFO_V1'

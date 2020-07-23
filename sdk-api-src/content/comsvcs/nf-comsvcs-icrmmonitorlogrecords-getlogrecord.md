@@ -4,7 +4,7 @@ title: ICrmMonitorLogRecords::GetLogRecord (comsvcs.h)
 description: Retrieves an unstructured log record given its numeric index.
 helpviewer_keywords: ["GetLogRecord","GetLogRecord method [COM+]","GetLogRecord method [COM+]","ICrmMonitorLogRecords interface","ICrmMonitorLogRecords interface [COM+]","GetLogRecord method","ICrmMonitorLogRecords.GetLogRecord","ICrmMonitorLogRecords::GetLogRecord","_dtc_ICrmMonitorLogRecords_GetLogRecord","comsvcs/ICrmMonitorLogRecords::GetLogRecord","cos.icrmmonitorlogrecords_getlogrecord"]
 old-location: cos\icrmmonitorlogrecords_getlogrecord.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9b5b566a-e98c-482d-9959-3498000875d3
 ms.date: 12/05/2018
 ms.keywords: GetLogRecord, GetLogRecord method [COM+], GetLogRecord method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecord method, ICrmMonitorLogRecords.GetLogRecord, ICrmMonitorLogRecords::GetLogRecord, _dtc_ICrmMonitorLogRecords_GetLogRecord, comsvcs/ICrmMonitorLogRecords::GetLogRecord, cos.icrmmonitorlogrecords_getlogrecord

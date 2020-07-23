@@ -4,7 +4,7 @@ title: ITAddressCapabilities::get_AddressCapabilityString (tapi3if.h)
 description: The get_AddressCapabilityString method gets the capability string for a given ADDRESS_CAPABILITY_STRING.
 helpviewer_keywords: ["ITAddressCapabilities interface [TAPI 2.2]","get_AddressCapabilityString method","ITAddressCapabilities.get_AddressCapabilityString","ITAddressCapabilities::get_AddressCapabilityString","_tapi3_itaddresscapabilities_get_addresscapabilitystring","get_AddressCapabilityString","get_AddressCapabilityString method [TAPI 2.2]","get_AddressCapabilityString method [TAPI 2.2]","ITAddressCapabilities interface","tapi3.itaddresscapabilities_get_addresscapabilitystring","tapi3if/ITAddressCapabilities::get_AddressCapabilityString"]
 old-location: tapi3\itaddresscapabilities_get_addresscapabilitystring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9ec4c25e-700b-4aed-97ff-e7cb420fdf96
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapabilityString method, ITAddressCapabilities.get_AddressCapabilityString, ITAddressCapabilities::get_AddressCapabilityString, _tapi3_itaddresscapabilities_get_addresscapabilitystring, get_AddressCapabilityString, get_AddressCapabilityString method [TAPI 2.2], get_AddressCapabilityString method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapabilitystring, tapi3if/ITAddressCapabilities::get_AddressCapabilityString

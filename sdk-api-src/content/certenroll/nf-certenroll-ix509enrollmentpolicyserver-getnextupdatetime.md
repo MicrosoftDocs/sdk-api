@@ -4,7 +4,7 @@ title: IX509EnrollmentPolicyServer::GetNextUpdateTime (certenroll.h)
 description: Retrieves the date and time at which the policy expires and should be refreshed.
 helpviewer_keywords: ["GetNextUpdateTime","GetNextUpdateTime method [Security]","GetNextUpdateTime method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetNextUpdateTime method","IX509EnrollmentPolicyServer.GetNextUpdateTime","IX509EnrollmentPolicyServer::GetNextUpdateTime","certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime","security.ix509enrollmentpolicyserver_getnextupdatetime"]
 old-location: security\ix509enrollmentpolicyserver_getnextupdatetime.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 23ddd933-2392-410b-a4e6-7f5c00f867b3
 ms.date: 12/05/2018
 ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetNextUpdateTime method, IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime

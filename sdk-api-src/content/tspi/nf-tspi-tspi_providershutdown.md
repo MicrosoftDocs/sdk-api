@@ -4,7 +4,7 @@ title: TSPI_providerShutdown function (tspi.h)
 description: The TSPI_providerShutdown function shuts down the service provider. The service provider terminates any activities it has in progress and releases any resources it has allocated.
 helpviewer_keywords: ["TSPI_providerShutdown","TSPI_providerShutdown function [TAPI 2.2]","_tspi_tspi_providershutdown","tspi.tspi_providershutdown","tspi/TSPI_providerShutdown"]
 old-location: tspi\tspi_providershutdown.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b13e0ed6-c053-4290-bc4c-5f66e4a376b7
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerShutdown, TSPI_providerShutdown function [TAPI 2.2], _tspi_tspi_providershutdown, tspi.tspi_providershutdown, tspi/TSPI_providerShutdown

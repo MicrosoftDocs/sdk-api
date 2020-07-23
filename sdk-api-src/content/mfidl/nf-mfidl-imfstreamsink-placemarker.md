@@ -4,7 +4,7 @@ title: IMFStreamSink::PlaceMarker (mfidl.h)
 description: Places a marker in the stream.
 helpviewer_keywords: ["IMFStreamSink interface [Media Foundation]","PlaceMarker method","IMFStreamSink.PlaceMarker","IMFStreamSink::PlaceMarker","PlaceMarker","PlaceMarker method [Media Foundation]","PlaceMarker method [Media Foundation]","IMFStreamSink interface","bfa4fb12-59b2-4599-b8ff-dc38750a5a79","mf.imfstreamsink_placemarker","mfidl/IMFStreamSink::PlaceMarker"]
 old-location: mf\imfstreamsink_placemarker.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bfa4fb12-59b2-4599-b8ff-dc38750a5a79
 ms.date: 12/05/2018
 ms.keywords: IMFStreamSink interface [Media Foundation],PlaceMarker method, IMFStreamSink.PlaceMarker, IMFStreamSink::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFStreamSink interface, bfa4fb12-59b2-4599-b8ff-dc38750a5a79, mf.imfstreamsink_placemarker, mfidl/IMFStreamSink::PlaceMarker

@@ -4,7 +4,7 @@ title: IAzScope::put_Name (azroles.h)
 description: Sets or retrieves the name of the scope.
 helpviewer_keywords: ["AzScope object [Security]","Name property","IAzScope interface [Security]","Name property","IAzScope.Name","IAzScope.put_Name","IAzScope::Name","IAzScope::get_Name","IAzScope::put_Name","Name property [Security]","Name property [Security]","AzScope object","Name property [Security]","IAzScope interface","azroles/IAzScope::Name","azroles/IAzScope::get_Name","azroles/IAzScope::put_Name","put_Name","security.iazscope_name"]
 old-location: security\iazscope_name.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 66c5722a-5217-4e77-b14f-f9cfa4e030c0
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Name property, IAzScope interface [Security],Name property, IAzScope.Name, IAzScope.put_Name, IAzScope::Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security],AzScope object, Name property [Security],IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, put_Name, security.iazscope_name

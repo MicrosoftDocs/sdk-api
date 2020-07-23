@@ -4,7 +4,7 @@ title: SLLoadApplicationPolicies function (slpublic.h)
 description: Loads the application policies set with the SLPersistApplicationPolicies function for use by the SLGetApplicationPolicy function.
 helpviewer_keywords: ["SLLoadApplicationPolicies","SLLoadApplicationPolicies function [Security]","security.slloadapplicationpolicies","slpublic/SLLoadApplicationPolicies"]
 old-location: security\slloadapplicationpolicies.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a0852c0c-3d7d-4cca-a30b-b413c653b284
 ms.date: 12/05/2018
 ms.keywords: SLLoadApplicationPolicies, SLLoadApplicationPolicies function [Security], security.slloadapplicationpolicies, slpublic/SLLoadApplicationPolicies

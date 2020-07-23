@@ -4,7 +4,7 @@ title: DVD_DISC_SIDE (strmif.h)
 description: Indicates the sides of a DVD disc.
 helpviewer_keywords: ["DVD_DISC_SIDE","DVD_DISC_SIDE","DVD_DISC_SIDE enumeration [DirectShow]","DVD_DISC_SIDEEnumeration","DVD_SIDE_A","DVD_SIDE_B","dshow.dvd_disc_side","strmif/DVD_DISC_SIDE","strmif/DVD_SIDE_A","strmif/DVD_SIDE_B"]
 old-location: dshow\dvd_disc_side.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 50ea509c-15fc-4066-ad86-04e5e87fdfa6
 ms.date: 12/05/2018
 ms.keywords: DVD_DISC_SIDE, DVD_DISC_SIDE , DVD_DISC_SIDE enumeration [DirectShow], DVD_DISC_SIDEEnumeration, DVD_SIDE_A, DVD_SIDE_B, dshow.dvd_disc_side, strmif/DVD_DISC_SIDE, strmif/DVD_SIDE_A, strmif/DVD_SIDE_B

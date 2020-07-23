@@ -4,7 +4,7 @@ title: IDirectDrawVideo::UseOverlayStretch (amvideo.h)
 description: The UseOverlayStretch method determines whether the renderer should check overlay stretch limitations.
 helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","UseOverlayStretch method","IDirectDrawVideo.UseOverlayStretch","IDirectDrawVideo::UseOverlayStretch","IDirectDrawVideoUseOverlayStretch","UseOverlayStretch","UseOverlayStretch method [DirectShow]","UseOverlayStretch method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::UseOverlayStretch","dshow.idirectdrawvideo_useoverlaystretch"]
 old-location: dshow\idirectdrawvideo_useoverlaystretch.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e617b40d-ba5b-4fc8-825e-3c751f72bc2c
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseOverlayStretch method, IDirectDrawVideo.UseOverlayStretch, IDirectDrawVideo::UseOverlayStretch, IDirectDrawVideoUseOverlayStretch, UseOverlayStretch, UseOverlayStretch method [DirectShow], UseOverlayStretch method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseOverlayStretch, dshow.idirectdrawvideo_useoverlaystretch

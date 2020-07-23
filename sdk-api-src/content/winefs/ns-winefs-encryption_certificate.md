@@ -4,7 +4,7 @@ title: ENCRYPTION_CERTIFICATE (winefs.h)
 description: Contains a certificate and the SID of its owner.
 helpviewer_keywords: ["*PENCRYPTION_CERTIFICATE","ENCRYPTION_CERTIFICATE","ENCRYPTION_CERTIFICATE structure [Files]","PENCRYPTION_CERTIFICATE","PENCRYPTION_CERTIFICATE structure pointer [Files]","_win32_encryption_certificate_str","base.encryption_certificate_str","fs.encryption_certificate_str","winefs/ENCRYPTION_CERTIFICATE","winefs/PENCRYPTION_CERTIFICATE"]
 old-location: fs\encryption_certificate_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 33b36659-48bb-4297-8142-f8702db03d20
 ms.date: 12/05/2018
 ms.keywords: '*PENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE structure [Files], PENCRYPTION_CERTIFICATE, PENCRYPTION_CERTIFICATE structure pointer [Files], _win32_encryption_certificate_str, base.encryption_certificate_str, fs.encryption_certificate_str, winefs/ENCRYPTION_CERTIFICATE, winefs/PENCRYPTION_CERTIFICATE'

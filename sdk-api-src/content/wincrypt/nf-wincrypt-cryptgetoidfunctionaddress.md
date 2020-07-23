@@ -4,7 +4,7 @@ title: CryptGetOIDFunctionAddress function (wincrypt.h)
 description: Searches the list of registered and installed functions for an encoding type and object identifier (OID) match.
 helpviewer_keywords: ["CRYPT_GET_INSTALLED_OID_FUNC_FLAG","CryptGetOIDFunctionAddress","CryptGetOIDFunctionAddress function [Security]","_crypto2_cryptgetoidfunctionaddress","security.cryptgetoidfunctionaddress","wincrypt/CryptGetOIDFunctionAddress"]
 old-location: security\cryptgetoidfunctionaddress.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2eef6109-a840-48c6-936c-ec0875039c39
 ms.date: 12/05/2018
 ms.keywords: CRYPT_GET_INSTALLED_OID_FUNC_FLAG, CryptGetOIDFunctionAddress, CryptGetOIDFunctionAddress function [Security], _crypto2_cryptgetoidfunctionaddress, security.cryptgetoidfunctionaddress, wincrypt/CryptGetOIDFunctionAddress

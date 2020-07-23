@@ -4,7 +4,7 @@ title: LINECOUNTRYENTRY (tapi.h)
 description: Provides the data for a single country/region entry.
 helpviewer_keywords: ["*LPLINECOUNTRYENTRY","LINECOUNTRYENTRY","LINECOUNTRYENTRY structure [TAPI 2.2]","LPLINECOUNTRYENTRY","LPLINECOUNTRYENTRY structure pointer [TAPI 2.2]","_tapi2_linecountryentry_str","tapi/LINECOUNTRYENTRY","tapi/LPLINECOUNTRYENTRY","tapi2.linecountryentry_str"]
 old-location: tapi2\linecountryentry_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 627ff743-f90b-4bcb-b646-cdbc9f768ad2
 ms.date: 12/05/2018
 ms.keywords: '*LPLINECOUNTRYENTRY, LINECOUNTRYENTRY, LINECOUNTRYENTRY structure [TAPI 2.2], LPLINECOUNTRYENTRY, LPLINECOUNTRYENTRY structure pointer [TAPI 2.2], _tapi2_linecountryentry_str, tapi/LINECOUNTRYENTRY, tapi/LPLINECOUNTRYENTRY, tapi2.linecountryentry_str'

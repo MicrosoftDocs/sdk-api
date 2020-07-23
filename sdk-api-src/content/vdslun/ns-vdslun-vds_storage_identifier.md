@@ -4,7 +4,7 @@ title: VDS_STORAGE_IDENTIFIER (vdslun.h)
 description: Defines a storage device using a particular code set and type.
 helpviewer_keywords: ["VDS_STORAGE_IDENTIFIER","VDS_STORAGE_IDENTIFIER structure [VDS]","base.vds_storage_identifier","vdslun/_VDS_STORAGE_IDENTIFIER"]
 old-location: base\vds_storage_identifier.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER

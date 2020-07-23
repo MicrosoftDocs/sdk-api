@@ -4,7 +4,7 @@ title: CertGetIntendedKeyUsage function (wincrypt.h)
 description: Acquires the intended key usage bytes from a certificate.
 helpviewer_keywords: ["CertGetIntendedKeyUsage","CertGetIntendedKeyUsage function [Security]","_crypto2_certgetintendedkeyusage","security.certgetintendedkeyusage","wincrypt/CertGetIntendedKeyUsage"]
 old-location: security\certgetintendedkeyusage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
 ms.date: 12/05/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage

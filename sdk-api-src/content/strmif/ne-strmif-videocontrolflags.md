@@ -4,7 +4,7 @@ title: VideoControlFlags (strmif.h)
 description: Specifies the video mode of operation for a video device.
 helpviewer_keywords: ["VideoControlFlag_ExternalTriggerEnable","VideoControlFlag_FlipHorizontal","VideoControlFlag_FlipVertical","VideoControlFlag_Trigger","VideoControlFlags","VideoControlFlags enumeration [DirectShow]","VideoControlFlagsEnumeration","dshow.videocontrolflags","strmif/VideoControlFlag_ExternalTriggerEnable","strmif/VideoControlFlag_FlipHorizontal","strmif/VideoControlFlag_FlipVertical","strmif/VideoControlFlag_Trigger","strmif/VideoControlFlags"]
 old-location: dshow\videocontrolflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9d7feb46-fb07-46d8-a9a5-511578873cf3
 ms.date: 12/05/2018
 ms.keywords: VideoControlFlag_ExternalTriggerEnable, VideoControlFlag_FlipHorizontal, VideoControlFlag_FlipVertical, VideoControlFlag_Trigger, VideoControlFlags, VideoControlFlags enumeration [DirectShow], VideoControlFlagsEnumeration, dshow.videocontrolflags, strmif/VideoControlFlag_ExternalTriggerEnable, strmif/VideoControlFlag_FlipHorizontal, strmif/VideoControlFlag_FlipVertical, strmif/VideoControlFlag_Trigger, strmif/VideoControlFlags

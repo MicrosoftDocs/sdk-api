@@ -4,7 +4,7 @@ title: IAzTask::AddPropertyItem (azroles.h)
 description: Adds the specified entity to the specified list.
 helpviewer_keywords: ["AZ_PROP_TASK_OPERATIONS","AZ_PROP_TASK_TASKS","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzTask object","AddPropertyItem method [Security]","IAzTask interface","AzTask object [Security]","AddPropertyItem method","IAzTask interface [Security]","AddPropertyItem method","IAzTask.AddPropertyItem","IAzTask::AddPropertyItem","azroles/IAzTask::AddPropertyItem","security.iaztask_addpropertyitem"]
 old-location: security\iaztask_addpropertyitem.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzTask object, AddPropertyItem method [Security],IAzTask interface, AzTask object [Security],AddPropertyItem method, IAzTask interface [Security],AddPropertyItem method, IAzTask.AddPropertyItem, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem

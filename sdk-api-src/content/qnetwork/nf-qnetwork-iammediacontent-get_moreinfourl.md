@@ -4,7 +4,7 @@ title: IAMMediaContent::get_MoreInfoURL (qnetwork.h)
 description: The get_MoreInfoURL method retrieves a URL for additional information about the content.
 helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_MoreInfoURL method","IAMMediaContent.get_MoreInfoURL","IAMMediaContent::get_MoreInfoURL","IAMMediaContentget_MoreInfoURL","dshow.iammediacontent_get_moreinfourl","get_MoreInfoURL","get_MoreInfoURL method [DirectShow]","get_MoreInfoURL method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_MoreInfoURL"]
 old-location: dshow\iammediacontent_get_moreinfourl.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8efaa0b9-09c1-4434-a992-6290fc388cb2
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoURL method, IAMMediaContent.get_MoreInfoURL, IAMMediaContent::get_MoreInfoURL, IAMMediaContentget_MoreInfoURL, dshow.iammediacontent_get_moreinfourl, get_MoreInfoURL, get_MoreInfoURL method [DirectShow], get_MoreInfoURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoURL

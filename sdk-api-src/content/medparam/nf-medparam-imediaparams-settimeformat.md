@@ -4,7 +4,7 @@ title: IMediaParams::SetTimeFormat (medparam.h)
 description: The SetTimeFormat method specifies the time format for the object.
 helpviewer_keywords: ["IMediaParams interface [DirectShow]","SetTimeFormat method","IMediaParams.SetTimeFormat","IMediaParams::SetTimeFormat","IMediaParamsSetTimeFormat","SetTimeFormat","SetTimeFormat method [DirectShow]","SetTimeFormat method [DirectShow]","IMediaParams interface","dshow.imediaparams_settimeformat","medparam/IMediaParams::SetTimeFormat"]
 old-location: dshow\imediaparams_settimeformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 48c28dd8-aeae-4212-9221-ab943113aa76
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetTimeFormat method, IMediaParams.SetTimeFormat, IMediaParams::SetTimeFormat, IMediaParamsSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaParams interface, dshow.imediaparams_settimeformat, medparam/IMediaParams::SetTimeFormat

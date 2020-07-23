@@ -4,7 +4,7 @@ title: CfGetSyncRootInfoByHandle function (cfapi.h)
 description: Gets various characteristics of the sync root containing a given file specified by a file handle.
 helpviewer_keywords: ["CfGetSyncRootInfoByHandle","CfGetSyncRootInfoByHandle function","cfapi/CfGetSyncRootInfoByHandle","cloudApi.cfgetsyncrootinfobyhandle"]
 old-location: cloudapi\cfgetsyncrootinfobyhandle.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: EC96CB4E-6BCE-49D9-9CDA-A24A9303B5CF
 ms.date: 12/05/2018
 ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfapi/CfGetSyncRootInfoByHandle, cloudApi.cfgetsyncrootinfobyhandle

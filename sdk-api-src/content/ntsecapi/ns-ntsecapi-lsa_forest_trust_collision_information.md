@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_COLLISION_INFORMATION (ntsecapi.h)
 description: Contains information about Local Security Authority forest trust collisions.
 helpviewer_keywords: ["*PLSA_FOREST_TRUST_COLLISION_INFORMATION","LSA_FOREST_TRUST_COLLISION_INFORMATION","LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security]","PLSA_FOREST_TRUST_COLLISION_INFORMATION","PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security]","_LSA_FOREST_TRUST_COLLISION_INFORMATION","ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION","ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION","security.lsa_forest_trust_collision_information"]
 old-location: security\lsa_forest_trust_collision_information.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a4a3b040-c074-4756-a30f-408d8bca87ba
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security], PLSA_FOREST_TRUST_COLLISION_INFORMATION, PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION, security.lsa_forest_trust_collision_information'

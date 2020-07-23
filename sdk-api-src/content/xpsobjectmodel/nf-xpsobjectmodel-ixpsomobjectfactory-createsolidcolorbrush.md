@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreateSolidColorBrush (xpsobjectmodel.h)
 description: Creates an IXpsOMSolidColorBrush interface, which specifies a brush of a single, solid color.
 helpviewer_keywords: ["CreateSolidColorBrush","CreateSolidColorBrush method [XPS Documents and Packaging]","CreateSolidColorBrush method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateSolidColorBrush method","IXpsOMObjectFactory.CreateSolidColorBrush","IXpsOMObjectFactory::CreateSolidColorBrush","xps.ixpsomobjectfactory_createsolidcolorbrush","xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush"]
 old-location: xps\ixpsomobjectfactory_createsolidcolorbrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 58690d93-9e3f-487c-956e-bb21122ecc96
 ms.date: 12/05/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [XPS Documents and Packaging], CreateSolidColorBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSolidColorBrush method, IXpsOMObjectFactory.CreateSolidColorBrush, IXpsOMObjectFactory::CreateSolidColorBrush, xps.ixpsomobjectfactory_createsolidcolorbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush

@@ -4,7 +4,7 @@ title: TRANSACTION_NOTIFICATION (ktmtypes.h)
 description: Contains the data that is associated with a transaction notification.
 helpviewer_keywords: ["*PTRANSACTION_NOTIFICATION","PTRANSACTION_NOTIFICATION","PTRANSACTION_NOTIFICATION structure pointer [Files]","TRANSACTION_NOTIFICATION","TRANSACTION_NOTIFICATION structure [Files]","fs.transaction_notification","ktmtypes/PTRANSACTION_NOTIFICATION","ktmtypes/TRANSACTION_NOTIFICATION"]
 old-location: fs\transaction_notification.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 4f87de9d-a068-4ab9-8f38-b75f20552b1d
 ms.date: 12/05/2018
 ms.keywords: '*PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION structure pointer [Files], TRANSACTION_NOTIFICATION, TRANSACTION_NOTIFICATION structure [Files], fs.transaction_notification, ktmtypes/PTRANSACTION_NOTIFICATION, ktmtypes/TRANSACTION_NOTIFICATION'

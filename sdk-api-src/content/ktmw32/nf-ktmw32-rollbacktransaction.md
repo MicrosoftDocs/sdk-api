@@ -4,7 +4,7 @@ title: RollbackTransaction function (ktmw32.h)
 description: Requests that the specified transaction be rolled back.
 helpviewer_keywords: ["RollbackTransaction","RollbackTransaction function [Files]","fs.rollbacktransaction","ktmw32/RollbackTransaction"]
 old-location: fs\rollbacktransaction.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 7d3522b8-ddf0-449e-8ab4-09e679ba1f15
 ms.date: 12/05/2018
 ms.keywords: RollbackTransaction, RollbackTransaction function [Files], fs.rollbacktransaction, ktmw32/RollbackTransaction

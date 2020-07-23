@@ -4,7 +4,7 @@ title: IX509ExtensionSmimeCapabilities::InitializeEncode (certenroll.h)
 description: Initializes the extension from an ISmimeCapabilities collection.
 helpviewer_keywords: ["IX509ExtensionSmimeCapabilities interface [Security]","InitializeEncode method","IX509ExtensionSmimeCapabilities.InitializeEncode","IX509ExtensionSmimeCapabilities::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionSmimeCapabilities interface","certenroll/IX509ExtensionSmimeCapabilities::InitializeEncode","security.ix509extensionsmimecapabilities_initializeencode_method"]
 old-location: security\ix509extensionsmimecapabilities_initializeencode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 731e3c93-699b-4a99-8520-294f3134aa66
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeEncode method, IX509ExtensionSmimeCapabilities.InitializeEncode, IX509ExtensionSmimeCapabilities::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeEncode, security.ix509extensionsmimecapabilities_initializeencode_method

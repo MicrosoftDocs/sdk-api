@@ -4,7 +4,7 @@ title: IVideoFrameStep (strmif.h)
 description: The IVideoFrameStep interface steps through a video stream.
 helpviewer_keywords: ["IVideoFrameStep","IVideoFrameStep interface [DirectShow]","IVideoFrameStep interface [DirectShow]","described","IVideoFrameStepInterface","dshow.ivideoframestep","strmif/IVideoFrameStep"]
 old-location: dshow\ivideoframestep.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7bf45473-144c-49f8-8178-aff5b60112b6
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep

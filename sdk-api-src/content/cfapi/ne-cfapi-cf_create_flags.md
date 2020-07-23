@@ -4,7 +4,7 @@ title: CF_CREATE_FLAGS (cfapi.h)
 description: Flags for creating a placeholder file or directory.
 helpviewer_keywords: ["CF_CREATE_FLAGS","CF_CREATE_FLAGS enumeration","CF_CREATE_FLAG_NONE","CF_CREATE_FLAG_STOP_ON_ERROR","PCF_CREATE_FLAGS","PCF_CREATE_FLAGS enumeration pointer","cfapi/CF_CREATE_FLAGS","cfapi/CF_CREATE_FLAG_NONE","cfapi/CF_CREATE_FLAG_STOP_ON_ERROR","cfapi/PCF_CREATE_FLAGS","cloudApi.cf_create_flags"]
 old-location: cloudapi\cf_create_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: F70ECFDB-8542-4395-9EDD-7DABC2E5225D
 ms.date: 12/05/2018
 ms.keywords: CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, CF_CREATE_FLAG_STOP_ON_ERROR, PCF_CREATE_FLAGS, PCF_CREATE_FLAGS enumeration pointer, cfapi/CF_CREATE_FLAGS, cfapi/CF_CREATE_FLAG_NONE, cfapi/CF_CREATE_FLAG_STOP_ON_ERROR, cfapi/PCF_CREATE_FLAGS, cloudApi.cf_create_flags

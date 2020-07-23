@@ -4,7 +4,7 @@ title: ICEnroll4::addNameValuePairToRequest (xenroll.h)
 description: Adds an unauthenticated name-value string pair to the request. This method was first defined in the ICEnroll4 interface.
 helpviewer_keywords: ["CEnroll object [Security]","addNameValuePairToRequest method","ICEnroll4 interface [Security]","addNameValuePairToRequest method","ICEnroll4.addNameValuePairToRequest","ICEnroll4::addNameValuePairToRequest","_xen_icenroll4_addnamevaluepairtorequest","addNameValuePairToRequest","addNameValuePairToRequest method [Security]","addNameValuePairToRequest method [Security]","CEnroll object","addNameValuePairToRequest method [Security]","ICEnroll4 interface","security.icenroll4_addnamevaluepairtorequest","xenroll/ICEnroll4::addNameValuePairToRequest"]
 old-location: security\icenroll4_addnamevaluepairtorequest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 252d1789-1207-4281-b044-e1f1ca6cd585
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addNameValuePairToRequest method, ICEnroll4 interface [Security],addNameValuePairToRequest method, ICEnroll4.addNameValuePairToRequest, ICEnroll4::addNameValuePairToRequest, _xen_icenroll4_addnamevaluepairtorequest, addNameValuePairToRequest, addNameValuePairToRequest method [Security], addNameValuePairToRequest method [Security],CEnroll object, addNameValuePairToRequest method [Security],ICEnroll4 interface, security.icenroll4_addnamevaluepairtorequest, xenroll/ICEnroll4::addNameValuePairToRequest

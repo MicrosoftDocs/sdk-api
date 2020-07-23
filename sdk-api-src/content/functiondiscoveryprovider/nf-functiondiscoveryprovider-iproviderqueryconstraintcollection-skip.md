@@ -4,7 +4,7 @@ title: IProviderQueryConstraintCollection::Skip (functiondiscoveryprovider.h)
 description: Skips the next item in the collection.
 helpviewer_keywords: ["IProviderQueryConstraintCollection interface","Skip method","IProviderQueryConstraintCollection.Skip","IProviderQueryConstraintCollection::Skip","Skip","Skip method","Skip method","IProviderQueryConstraintCollection interface","functiondiscoveryprovider/IProviderQueryConstraintCollection::Skip","ncd.iproviderqueryconstraintcollection_skip"]
 old-location: ncd\iproviderqueryconstraintcollection_skip.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 18c25f6d-387e-46bf-97b6-6bcf195b15e8
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Skip method, IProviderQueryConstraintCollection.Skip, IProviderQueryConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Skip, ncd.iproviderqueryconstraintcollection_skip

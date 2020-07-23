@@ -4,7 +4,7 @@ title: eAVDecVideoSWPowerLevel (codecapi.h)
 description: Specifies the power-saving level of a video decoder.
 helpviewer_keywords: ["codecapi/eAVDecVideoSWPowerLevel","codecapi/eAVDecVideoSWPowerLevel_Balanced","codecapi/eAVDecVideoSWPowerLevel_BatteryLife","codecapi/eAVDecVideoSWPowerLevel_VideoQuality","dshow.eavdecvideoswpowerlevel","eAVDecVideoSWPowerLevel","eAVDecVideoSWPowerLevel enumeration [DirectShow]","eAVDecVideoSWPowerLevel_Balanced","eAVDecVideoSWPowerLevel_BatteryLife","eAVDecVideoSWPowerLevel_VideoQuality"]
 old-location: dshow\eavdecvideoswpowerlevel.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality

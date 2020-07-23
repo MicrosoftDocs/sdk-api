@@ -4,7 +4,7 @@ title: IsPwrSuspendAllowed function (powrprof.h)
 description: Determines whether the computer supports the sleep states.
 helpviewer_keywords: ["IsPwrSuspendAllowed","IsPwrSuspendAllowed function","_win32_ispwrsuspendallowed","base.ispwrsuspendallowed","powrprof/IsPwrSuspendAllowed"]
 old-location: base\ispwrsuspendallowed.htm
-tech.root: power
+tech.root: base
 ms.assetid: 66ef2402-b1b8-432e-b47d-240d255fc907
 ms.date: 12/05/2018
 ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsuspendallowed, base.ispwrsuspendallowed, powrprof/IsPwrSuspendAllowed

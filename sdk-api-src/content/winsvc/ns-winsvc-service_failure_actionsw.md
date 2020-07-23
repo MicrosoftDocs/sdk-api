@@ -4,7 +4,7 @@ title: SERVICE_FAILURE_ACTIONSW (winsvc.h)
 description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller.
 helpviewer_keywords: ["*LPSERVICE_FAILURE_ACTIONSW","LPSERVICE_FAILURE_ACTIONS","LPSERVICE_FAILURE_ACTIONS structure pointer","SERVICE_FAILURE_ACTIONS","SERVICE_FAILURE_ACTIONS structure","SERVICE_FAILURE_ACTIONSA","SERVICE_FAILURE_ACTIONSW","_win32_service_failure_actions_str","base.service_failure_actions_str","winsvc/LPSERVICE_FAILURE_ACTIONS","winsvc/SERVICE_FAILURE_ACTIONS","winsvc/SERVICE_FAILURE_ACTIONSA","winsvc/SERVICE_FAILURE_ACTIONSW"]
 old-location: base\service_failure_actions_str.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 180ca6d9-f2c3-4ea1-b2c6-319d08ef88ee
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_FAILURE_ACTIONSW, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_FAILURE_ACTIONS structure pointer, SERVICE_FAILURE_ACTIONS, SERVICE_FAILURE_ACTIONS structure, SERVICE_FAILURE_ACTIONSA, SERVICE_FAILURE_ACTIONSW, _win32_service_failure_actions_str, base.service_failure_actions_str, winsvc/LPSERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONSA, winsvc/SERVICE_FAILURE_ACTIONSW'

@@ -4,7 +4,7 @@ title: VDS_CREATE_VDISK_PARAMETERS (vds.h)
 description: Contains the parameters to be used when a virtual disk is created.
 helpviewer_keywords: ["*PVDS_CREATE_VDISK_PARAMETERS","PVDS_CREATE_VDISK_PARAMETERS","PVDS_CREATE_VDISK_PARAMETERS structure pointer","VDS_CREATE_VDISK_PARAMETERS","VDS_CREATE_VDISK_PARAMETERS structure","base.vds_create_vdisk_parameters","vds/PVDS_CREATE_VDISK_PARAMETERS","vds/VDS_CREATE_VDISK_PARAMETERS"]
 old-location: base\vds_create_vdisk_parameters.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 7ee830d5-6392-4e66-a8bb-2fd92c1e092c
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS structure pointer, VDS_CREATE_VDISK_PARAMETERS, VDS_CREATE_VDISK_PARAMETERS structure, base.vds_create_vdisk_parameters, vds/PVDS_CREATE_VDISK_PARAMETERS, vds/VDS_CREATE_VDISK_PARAMETERS'

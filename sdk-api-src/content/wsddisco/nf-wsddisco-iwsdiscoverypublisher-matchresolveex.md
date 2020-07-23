@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::MatchResolveEx (wsddisco.h)
 description: Determines whether a Resolve message matches the specified host and sends a WS-Discovery ResolveMatches message with extended information if the match is made.
 helpviewer_keywords: ["IWSDiscoveryPublisher interface","MatchResolveEx method","IWSDiscoveryPublisher.MatchResolveEx","IWSDiscoveryPublisher::MatchResolveEx","MatchResolveEx","MatchResolveEx method","MatchResolveEx method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_matchresolveex_method","wsddisco/IWSDiscoveryPublisher::MatchResolveEx"]
 old-location: ncd\iwsdiscoverypublisher_matchresolveex_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 0eba744c-c335-4b82-95f0-6142cfedad09
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchResolveEx method, IWSDiscoveryPublisher.MatchResolveEx, IWSDiscoveryPublisher::MatchResolveEx, MatchResolveEx, MatchResolveEx method, MatchResolveEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchresolveex_method, wsddisco/IWSDiscoveryPublisher::MatchResolveEx

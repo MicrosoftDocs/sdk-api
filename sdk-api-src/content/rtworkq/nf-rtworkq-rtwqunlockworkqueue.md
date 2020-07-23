@@ -4,7 +4,7 @@ title: RtwqUnlockWorkQueue function (rtworkq.h)
 description: Unlocks a work queue.
 helpviewer_keywords: ["RtwqUnlockWorkQueue","RtwqUnlockWorkQueue function","base.rtwqunlockworkqueue","rtworkq/RtwqUnlockWorkQueue"]
 old-location: base\rtwqunlockworkqueue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: a7c4c8e2-ad35-4b39-9174-41e2a605304e
 ms.date: 12/05/2018
 ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockworkqueue, rtworkq/RtwqUnlockWorkQueue

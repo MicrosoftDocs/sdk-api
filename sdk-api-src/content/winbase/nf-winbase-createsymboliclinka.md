@@ -4,7 +4,7 @@ title: CreateSymbolicLinkA function (winbase.h)
 description: Creates a symbolic link.
 helpviewer_keywords: ["CreateSymbolicLink","CreateSymbolicLink function [Files]","CreateSymbolicLinkA","CreateSymbolicLinkW","SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclink","winbase/CreateSymbolicLink","winbase/CreateSymbolicLinkA","winbase/CreateSymbolicLinkW"]
 old-location: fs\createsymboliclink.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.date: 12/05/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW

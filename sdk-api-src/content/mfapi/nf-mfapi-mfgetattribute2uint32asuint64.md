@@ -4,7 +4,7 @@ title: MFGetAttribute2UINT32asUINT64 function (mfapi.h)
 description: Gets an attribute whose value is two UINT32 values packed into a UINT64.
 helpviewer_keywords: ["MFGetAttribute2UINT32asUINT64","MFGetAttribute2UINT32asUINT64 function [Media Foundation]","mf.mfgetattribute2uint32asuint64","mfobjects/MFGetAttribute2UINT32asUINT64"]
 old-location: mf\mfgetattribute2uint32asuint64.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2b3050da-6914-4d7f-af6f-d8e504da0870
 ms.date: 12/05/2018
 ms.keywords: MFGetAttribute2UINT32asUINT64, MFGetAttribute2UINT32asUINT64 function [Media Foundation], mf.mfgetattribute2uint32asuint64, mfobjects/MFGetAttribute2UINT32asUINT64

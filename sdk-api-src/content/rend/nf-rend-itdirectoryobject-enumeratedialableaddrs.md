@@ -4,7 +4,7 @@ title: ITDirectoryObject::EnumerateDialableAddrs (rend.h)
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
 helpviewer_keywords: ["EnumerateDialableAddrs","EnumerateDialableAddrs method [TAPI 2.2]","EnumerateDialableAddrs method [TAPI 2.2]","ITDirectoryObject interface","ITDirectoryObject interface [TAPI 2.2]","EnumerateDialableAddrs method","ITDirectoryObject.EnumerateDialableAddrs","ITDirectoryObject::EnumerateDialableAddrs","_tapi3_itdirectoryobject_enumeratedialableaddrs","rend/ITDirectoryObject::EnumerateDialableAddrs","tapi3.itdirectoryobject_enumeratedialableaddrs"]
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.date: 12/05/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs

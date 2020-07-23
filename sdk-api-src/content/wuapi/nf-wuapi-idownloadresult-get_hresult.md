@@ -4,7 +4,7 @@ title: IDownloadResult::get_HResult (wuapi.h)
 description: Gets the exception code number if an exception code number is raised during the download.
 helpviewer_keywords: ["HResult property [Windows Update Agent]","HResult property [Windows Update Agent]","IDownloadResult interface","IDownloadResult interface [Windows Update Agent]","HResult property","IDownloadResult.HResult","IDownloadResult.get_HResult","IDownloadResult::HResult","IDownloadResult::get_HResult","get_HResult","wua.idownloadresult_hresult","wuapi/IDownloadResult::HResult","wuapi/IDownloadResult::get_HResult"]
 old-location: wua\idownloadresult_hresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 3f1aa4d9-0e34-4456-bac0-2c8b08519cdc
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IDownloadResult interface, IDownloadResult interface [Windows Update Agent],HResult property, IDownloadResult.HResult, IDownloadResult.get_HResult, IDownloadResult::HResult, IDownloadResult::get_HResult, get_HResult, wua.idownloadresult_hresult, wuapi/IDownloadResult::HResult, wuapi/IDownloadResult::get_HResult

@@ -4,7 +4,7 @@ title: IBasicVideo::get_VideoWidth (control.h)
 description: The get_VideoWidth method retrieves the native width of the video.
 helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_VideoWidth method","IBasicVideo.get_VideoWidth","IBasicVideo::get_VideoWidth","IBasicVideoget_VideoWidth","control/IBasicVideo::get_VideoWidth","dshow.ibasicvideo_get_videowidth","get_VideoWidth","get_VideoWidth method [DirectShow]","get_VideoWidth method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_videowidth.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d5167b1e-1341-43b0-bc72-e990ee76e3c4
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoWidth method, IBasicVideo.get_VideoWidth, IBasicVideo::get_VideoWidth, IBasicVideoget_VideoWidth, control/IBasicVideo::get_VideoWidth, dshow.ibasicvideo_get_videowidth, get_VideoWidth, get_VideoWidth method [DirectShow], get_VideoWidth method [DirectShow],IBasicVideo interface

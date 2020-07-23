@@ -4,7 +4,7 @@ title: IIdentityProvider::FindByUniqueID (identityprovider.h)
 description: Retrieves a pointer to the IPropertyStore interface instance associated with the specified identity.
 helpviewer_keywords: ["FindByUniqueID","FindByUniqueID method [Security]","FindByUniqueID method [Security]","IIdentityProvider interface","IIdentityProvider interface [Security]","FindByUniqueID method","IIdentityProvider.FindByUniqueID","IIdentityProvider::FindByUniqueID","identityprovider/IIdentityProvider::FindByUniqueID","security.iidentityprovider_findbyuniqueid"]
 old-location: security\iidentityprovider_findbyuniqueid.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
 ms.date: 12/05/2018
 ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],FindByUniqueID method, IIdentityProvider.FindByUniqueID, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid

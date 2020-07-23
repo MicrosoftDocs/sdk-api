@@ -4,7 +4,7 @@ title: IServiceTransactionConfigBase::BringYourOwnTransaction (comsvcs.h)
 description: Enables you to run the enclosed code in an existing transaction that you provide.
 helpviewer_keywords: ["BringYourOwnTransaction","BringYourOwnTransaction method [COM+]","BringYourOwnTransaction method [COM+]","IServiceTransactionConfigBase interface","IServiceTransactionConfigBase interface [COM+]","BringYourOwnTransaction method","IServiceTransactionConfigBase.BringYourOwnTransaction","IServiceTransactionConfigBase::BringYourOwnTransaction","_cos_IServiceTransactionConfigBase_BringYourOwnTransaction","comsvcs/IServiceTransactionConfigBase::BringYourOwnTransaction","cos.iservicetransactionconfigbase_bringyourowntransaction"]
 old-location: cos\iservicetransactionconfigbase_bringyourowntransaction.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: fcd65d90-8855-41e9-a22d-d2b1d46e98fa
 ms.date: 12/05/2018
 ms.keywords: BringYourOwnTransaction, BringYourOwnTransaction method [COM+], BringYourOwnTransaction method [COM+],IServiceTransactionConfigBase interface, IServiceTransactionConfigBase interface [COM+],BringYourOwnTransaction method, IServiceTransactionConfigBase.BringYourOwnTransaction, IServiceTransactionConfigBase::BringYourOwnTransaction, _cos_IServiceTransactionConfigBase_BringYourOwnTransaction, comsvcs/IServiceTransactionConfigBase::BringYourOwnTransaction, cos.iservicetransactionconfigbase_bringyourowntransaction

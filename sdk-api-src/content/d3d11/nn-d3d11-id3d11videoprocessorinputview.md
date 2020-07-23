@@ -4,7 +4,7 @@ title: ID3D11VideoProcessorInputView (d3d11.h)
 description: Identifies the input surfaces that can be accessed during video processing.
 helpviewer_keywords: ["ID3D11VideoProcessorInputView","ID3D11VideoProcessorInputView interface [Media Foundation]","ID3D11VideoProcessorInputView interface [Media Foundation]","described","d3d11/ID3D11VideoProcessorInputView","mf.id3d11videoprocessorinputview"]
 old-location: mf\id3d11videoprocessorinputview.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E76B9CBE-2584-4DBC-8EF4-E9DA105226B9
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorInputView, ID3D11VideoProcessorInputView interface [Media Foundation], ID3D11VideoProcessorInputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorInputView, mf.id3d11videoprocessorinputview

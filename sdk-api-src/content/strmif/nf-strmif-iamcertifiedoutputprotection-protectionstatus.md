@@ -4,7 +4,7 @@ title: IAMCertifiedOutputProtection::ProtectionStatus (strmif.h)
 description: The ProtectionStatus method sends a COPP status request to the graphics driver.
 helpviewer_keywords: ["IAMCertifiedOutputProtection interface [DirectShow]","ProtectionStatus method","IAMCertifiedOutputProtection.ProtectionStatus","IAMCertifiedOutputProtection::ProtectionStatus","IAMCertifiedOutputProtectionProtectionStatus","ProtectionStatus","ProtectionStatus method [DirectShow]","ProtectionStatus method [DirectShow]","IAMCertifiedOutputProtection interface","dshow.iamcertifiedoutputprotection_protectionstatus","strmif/IAMCertifiedOutputProtection::ProtectionStatus"]
 old-location: dshow\iamcertifiedoutputprotection_protectionstatus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c93ebbcc-ce44-4d77-b088-7112ddaf41b2
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionStatus method, IAMCertifiedOutputProtection.ProtectionStatus, IAMCertifiedOutputProtection::ProtectionStatus, IAMCertifiedOutputProtectionProtectionStatus, ProtectionStatus, ProtectionStatus method [DirectShow], ProtectionStatus method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectionstatus, strmif/IAMCertifiedOutputProtection::ProtectionStatus

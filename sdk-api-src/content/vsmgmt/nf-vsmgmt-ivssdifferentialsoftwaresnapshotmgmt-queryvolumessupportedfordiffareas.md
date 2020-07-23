@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas (
 description: Queries volumes that support shadow copy storage areas (including volumes with disabled shadow copy storage areas).
 helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryVolumesSupportedForDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas","IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas","QueryVolumesSupportedForDiffAreas","QueryVolumesSupportedForDiffAreas method [VSS]","QueryVolumesSupportedForDiffAreas method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 2aad75e3-0228-4cc4-b813-c70a7ebfdea5
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryVolumesSupportedForDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas, IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas, QueryVolumesSupportedForDiffAreas, QueryVolumesSupportedForDiffAreas method [VSS], QueryVolumesSupportedForDiffAreas method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas

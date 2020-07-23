@@ -4,7 +4,7 @@ title: TSPI_lineMonitorTones function (tspi.h)
 description: The TSPI_lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the client application through TAPI.
 helpviewer_keywords: ["TSPI_lineMonitorTones","TSPI_lineMonitorTones function [TAPI 2.2]","_tspi_tspi_linemonitortones","tspi.tspi_linemonitortones","tspi/TSPI_lineMonitorTones"]
 old-location: tspi\tspi_linemonitortones.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8b16dda3-bcb4-4a89-b2e5-b9330be3eb01
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMonitorTones, TSPI_lineMonitorTones function [TAPI 2.2], _tspi_tspi_linemonitortones, tspi.tspi_linemonitortones, tspi/TSPI_lineMonitorTones

@@ -4,7 +4,7 @@ title: IX509CertificateRequestCmc2::get_Template (certenroll.h)
 description: Retrieves the certificate request template used during initialization.
 helpviewer_keywords: ["IX509CertificateRequestCmc2 interface [Security]","Template property","IX509CertificateRequestCmc2.Template","IX509CertificateRequestCmc2.get_Template","IX509CertificateRequestCmc2::Template","IX509CertificateRequestCmc2::get_Template","Template property [Security]","Template property [Security]","IX509CertificateRequestCmc2 interface","certenroll/IX509CertificateRequestCmc2::Template","certenroll/IX509CertificateRequestCmc2::get_Template","get_Template","security.ix509certificaterequestcmc2_template"]
 old-location: security\ix509certificaterequestcmc2_template.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 50c1b376-60e4-4a77-8e12-01fd61805d92
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],Template property, IX509CertificateRequestCmc2.Template, IX509CertificateRequestCmc2.get_Template, IX509CertificateRequestCmc2::Template, IX509CertificateRequestCmc2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::Template, certenroll/IX509CertificateRequestCmc2::get_Template, get_Template, security.ix509certificaterequestcmc2_template

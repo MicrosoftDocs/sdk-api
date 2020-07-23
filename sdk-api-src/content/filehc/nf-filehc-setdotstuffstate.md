@@ -4,7 +4,7 @@ title: SetDotStuffState function (filehc.h)
 description: Enables dot stuffing to be set in an FIO_CONTEXT structure.
 helpviewer_keywords: ["SetDotStuffState","SetDotStuffState function [Windows API]","filehc/SetDotStuffState","winprog._setdotstuffstate"]
 old-location: winprog\_setdotstuffstate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate

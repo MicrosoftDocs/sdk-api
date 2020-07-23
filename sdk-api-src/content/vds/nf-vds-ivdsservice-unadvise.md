@@ -4,7 +4,7 @@ title: IVdsService::Unadvise (vds.h)
 description: Unregisters the caller's IVdsAdviseSink interface so that the caller no longer receives notifications from the VDS service.
 helpviewer_keywords: ["IVdsService interface [VDS]","Unadvise method","IVdsService.Unadvise","IVdsService::Unadvise","Unadvise","Unadvise method [VDS]","Unadvise method [VDS]","IVdsService interface","base.ivdsservice_unadvise","vds/IVdsService::Unadvise"]
 old-location: base\ivdsservice_unadvise.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 085d380c-2e09-470a-a23d-704c31535975
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],Unadvise method, IVdsService.Unadvise, IVdsService::Unadvise, Unadvise, Unadvise method [VDS], Unadvise method [VDS],IVdsService interface, base.ivdsservice_unadvise, vds/IVdsService::Unadvise

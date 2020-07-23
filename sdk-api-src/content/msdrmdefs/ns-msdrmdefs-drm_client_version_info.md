@@ -4,7 +4,7 @@ title: DRM_CLIENT_VERSION_INFO (msdrmdefs.h)
 description: Receives information about the version of the Active Directory Rights Management Services (AD RMS) client and the hierarchy, such as Production or Pre-production.
 helpviewer_keywords: ["DRM_CLIENT_VERSION_INFO","DRM_CLIENT_VERSION_INFO structure [Active Directory Rights Management Services SDK 1.0]","dwVersion","msdrmdefs/DRM_CLIENT_VERSION_INFO","rm.drm_client_version_info"]
 old-location: rm\drm_client_version_info.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 5f1fdd8a-dbe1-4b07-888b-b5af0f593fd3
 ms.date: 12/05/2018
 ms.keywords: DRM_CLIENT_VERSION_INFO, DRM_CLIENT_VERSION_INFO structure [Active Directory Rights Management Services SDK 1.0], dwVersion, msdrmdefs/DRM_CLIENT_VERSION_INFO, rm.drm_client_version_info

@@ -4,7 +4,7 @@ title: Provider::ExecQuery (provider.h)
 description: The ExecQuery method is called by WMI to process a WMI Query Language (WQL) query.
 helpviewer_keywords: ["ExecQuery","ExecQuery method [Windows Management Instrumentation]","ExecQuery method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","ExecQuery method","Provider.ExecQuery","Provider::ExecQuery","_hmm_provider_execquery","provider/Provider::ExecQuery","wmi.provider_execquery"]
 old-location: wmi\provider_execquery.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
 ms.date: 12/05/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery

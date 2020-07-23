@@ -4,7 +4,7 @@ title: PeerGroupCreateInvitation function (p2p.h)
 description: The PeerGroupCreateInvitation function returns an XML string that can be used by the specified peer to join a group.
 helpviewer_keywords: ["PEER_GROUP_ROLE_ADMIN","PEER_GROUP_ROLE_MEMBER","PeerGroupCreateInvitation","PeerGroupCreateInvitation function [Peer Networking]","p2p.peergroupcreateinvitation","p2p/PeerGroupCreateInvitation"]
 old-location: p2p\peergroupcreateinvitation.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation

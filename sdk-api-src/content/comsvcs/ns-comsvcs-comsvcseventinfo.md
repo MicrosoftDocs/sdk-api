@@ -4,7 +4,7 @@ title: COMSVCSEVENTINFO (comsvcs.h)
 description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.
 helpviewer_keywords: ["COMSVCSEVENTINFO","COMSVCSEVENTINFO structure [COM+]","_dtc_Event_Structure","comsvcs/COMSVCSEVENTINFO","cos.comsvcseventinfo"]
 old-location: cos\comsvcseventinfo.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389
 ms.date: 12/05/2018
 ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo

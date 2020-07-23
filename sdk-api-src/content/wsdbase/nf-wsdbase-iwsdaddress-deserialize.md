@@ -4,7 +4,7 @@ title: IWSDAddress::Deserialize (wsdbase.h)
 description: Parses the address, validates its component parts and saves them in the object.
 helpviewer_keywords: ["Deserialize","Deserialize method","Deserialize method","IWSDAddress interface","IWSDAddress interface","Deserialize method","IWSDAddress.Deserialize","IWSDAddress::Deserialize","ncd.iwsdaddress_deserialize","wsdbase/IWSDAddress::Deserialize"]
 old-location: ncd\iwsdaddress_deserialize.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a23ac1cd-d2af-4562-a623-64ca1deb1830
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method, Deserialize method,IWSDAddress interface, IWSDAddress interface,Deserialize method, IWSDAddress.Deserialize, IWSDAddress::Deserialize, ncd.iwsdaddress_deserialize, wsdbase/IWSDAddress::Deserialize

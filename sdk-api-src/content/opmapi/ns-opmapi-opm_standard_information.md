@@ -4,7 +4,7 @@ title: OPM_STANDARD_INFORMATION (opmapi.h)
 description: Contains the result from an Output Protection Manager (OPM) status request.
 helpviewer_keywords: ["OPM_STANDARD_INFORMATION","OPM_STANDARD_INFORMATION structure [Media Foundation]","_OPM_STANDARD_INFORMATION","ksopmapi/OPM_STANDARD_INFORMATION","mf.opm_standard_information"]
 old-location: mf\opm_standard_information.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4c1b6803-0015-4def-acb0-295193ba0e17
 ms.date: 12/05/2018
 ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media Foundation], _OPM_STANDARD_INFORMATION, ksopmapi/OPM_STANDARD_INFORMATION, mf.opm_standard_information

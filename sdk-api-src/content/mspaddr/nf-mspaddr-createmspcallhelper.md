@@ -4,7 +4,7 @@ title: CreateMSPCallHelper function (mspaddr.h)
 description: The CreateMSPCallHelper helper template function is called in the derived class' implementation of CreateMSPCall.
 helpviewer_keywords: ["CMSPAddress object [TAPI 2.2]","CreateMSPCallHelper method","CMSPAddress.CreateMSPCallHelper","CreateMSPCallHelper","CreateMSPCallHelper method [TAPI 2.2]","CreateMSPCallHelper method [TAPI 2.2]","CMSPAddress object","_tapi3_cmspaddress_createmspcallhelper","tapi3.cmspaddress_createmspcallhelper"]
 old-location: tapi3\cmspaddress_createmspcallhelper.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1e894d26-de19-4c24-b4e6-58c0b4c9d5ee
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress object [TAPI 2.2],CreateMSPCallHelper method, CMSPAddress.CreateMSPCallHelper, CreateMSPCallHelper, CreateMSPCallHelper method [TAPI 2.2], CreateMSPCallHelper method [TAPI 2.2],CMSPAddress object, _tapi3_cmspaddress_createmspcallhelper, tapi3.cmspaddress_createmspcallhelper

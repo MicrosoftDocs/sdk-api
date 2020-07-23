@@ -4,7 +4,7 @@ title: WofWimEnumFiles function (wofapi.h)
 description: Enumerates all of the files which are being backed by a specified WIM data source on a specified volume.
 helpviewer_keywords: ["WofWimEnumFiles","WofWimEnumFiles function [Files]","fs.wofwimenumfiles","wofapi/WofWimEnumFiles"]
 old-location: fs\wofwimenumfiles.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
 ms.date: 12/05/2018
 ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfiles, wofapi/WofWimEnumFiles

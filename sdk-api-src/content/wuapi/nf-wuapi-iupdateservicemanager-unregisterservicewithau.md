@@ -4,7 +4,7 @@ title: IUpdateServiceManager::UnregisterServiceWithAU (wuapi.h)
 description: Unregisters a service with Automatic Updates.
 helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","UnregisterServiceWithAU method","IUpdateServiceManager.UnregisterServiceWithAU","IUpdateServiceManager::UnregisterServiceWithAU","UnregisterServiceWithAU","UnregisterServiceWithAU method [Windows Update Agent]","UnregisterServiceWithAU method [Windows Update Agent]","IUpdateServiceManager interface","wua.iupdateservicemanager_unregisterservicewithau","wuapi/IUpdateServiceManager::UnregisterServiceWithAU"]
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU

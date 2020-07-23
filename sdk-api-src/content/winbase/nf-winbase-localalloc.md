@@ -4,7 +4,7 @@ title: LocalAlloc function (winbase.h)
 description: Allocates the specified number of bytes from the heap.
 helpviewer_keywords: ["LHND","LMEM_FIXED","LMEM_MOVEABLE","LMEM_ZEROINIT","LPTR","LocalAlloc","LocalAlloc function","NONZEROLHND","NONZEROLPTR","_win32_localalloc","base.localalloc","winbase/LocalAlloc"]
 old-location: base\localalloc.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.date: 12/05/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc

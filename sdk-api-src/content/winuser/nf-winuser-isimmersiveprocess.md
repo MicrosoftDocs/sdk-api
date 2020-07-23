@@ -4,7 +4,7 @@ title: IsImmersiveProcess function (winuser.h)
 description: Determines whether the process belongs to a Windows Store app.
 helpviewer_keywords: ["IsImmersiveProcess","IsImmersiveProcess function","base.isimmersiveprocess","winuser/IsImmersiveProcess"]
 old-location: base\isimmersiveprocess.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: E95FD9C0-8E4A-44FA-BBA6-0A7F53A0E584
 ms.date: 12/05/2018
 ms.keywords: IsImmersiveProcess, IsImmersiveProcess function, base.isimmersiveprocess, winuser/IsImmersiveProcess

@@ -4,7 +4,7 @@ title: IDirectXVideoAccelerationService::CreateSurface (dxva2api.h)
 description: Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
 helpviewer_keywords: ["34ed2029-7c79-45ce-962d-df4970babb23","CreateSurface","CreateSurface method [Media Foundation]","CreateSurface method [Media Foundation]","IDirectXVideoAccelerationService interface","DXVA2_VideoDecoderRenderTarget","DXVA2_VideoProcessorRenderTarget","DXVA2_VideoSoftwareRenderTarget","IDirectXVideoAccelerationService interface [Media Foundation]","CreateSurface method","IDirectXVideoAccelerationService.CreateSurface","IDirectXVideoAccelerationService::CreateSurface","dxva2api/IDirectXVideoAccelerationService::CreateSurface","mf.idirectxvideoaccelerationservice_createsurface"]
 old-location: mf\idirectxvideoaccelerationservice_createsurface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 34ed2029-7c79-45ce-962d-df4970babb23
 ms.date: 12/05/2018
 ms.keywords: 34ed2029-7c79-45ce-962d-df4970babb23, CreateSurface, CreateSurface method [Media Foundation], CreateSurface method [Media Foundation],IDirectXVideoAccelerationService interface, DXVA2_VideoDecoderRenderTarget, DXVA2_VideoProcessorRenderTarget, DXVA2_VideoSoftwareRenderTarget, IDirectXVideoAccelerationService interface [Media Foundation],CreateSurface method, IDirectXVideoAccelerationService.CreateSurface, IDirectXVideoAccelerationService::CreateSurface, dxva2api/IDirectXVideoAccelerationService::CreateSurface, mf.idirectxvideoaccelerationservice_createsurface

@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::DetachAndDelete (vds.h)
 description: Detaches a virtual disk and deletes the backing files.
 helpviewer_keywords: ["DetachAndDelete","DetachAndDelete method","DetachAndDelete method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","DetachAndDelete method","IVdsOpenVDisk.DetachAndDelete","IVdsOpenVDisk::DetachAndDelete","base.ivdsopenvdisk_detachanddelete","vds/IVdsOpenVDisk::DetachAndDelete"]
 old-location: base\ivdsopenvdisk_detachanddelete.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 79179da4-3c88-480b-bfb8-c4315fa56c4e
 ms.date: 12/05/2018
 ms.keywords: DetachAndDelete, DetachAndDelete method, DetachAndDelete method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,DetachAndDelete method, IVdsOpenVDisk.DetachAndDelete, IVdsOpenVDisk::DetachAndDelete, base.ivdsopenvdisk_detachanddelete, vds/IVdsOpenVDisk::DetachAndDelete

@@ -4,7 +4,7 @@ title: WFDOpenHandle function (wlanapi.h)
 description: Opens a handle to the Wi-Fi Direct service and negotiates a version of the Wi-FI Direct API to use.
 helpviewer_keywords: ["WFDOpenHandle","WFDOpenHandle function [NativeWIFI]","nwifi.wfdopenhandle","wlanapi/WFDOpenHandle"]
 old-location: nwifi\wfdopenhandle.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: D89FAC10-BC33-44BE-ABC8-962241949281
 ms.date: 12/05/2018
 ms.keywords: WFDOpenHandle, WFDOpenHandle function [NativeWIFI], nwifi.wfdopenhandle, wlanapi/WFDOpenHandle

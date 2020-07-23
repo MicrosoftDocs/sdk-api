@@ -4,7 +4,7 @@ title: IX509ExtensionAlternativeNames::get_AlternativeNames (certenroll.h)
 description: Retrieves a collection of subject alternative names.
 helpviewer_keywords: ["AlternativeNames property [Security]","AlternativeNames property [Security]","IX509ExtensionAlternativeNames interface","IX509ExtensionAlternativeNames interface [Security]","AlternativeNames property","IX509ExtensionAlternativeNames.AlternativeNames","IX509ExtensionAlternativeNames.get_AlternativeNames","IX509ExtensionAlternativeNames::AlternativeNames","IX509ExtensionAlternativeNames::get_AlternativeNames","certenroll/IX509ExtensionAlternativeNames::AlternativeNames","certenroll/IX509ExtensionAlternativeNames::get_AlternativeNames","get_AlternativeNames","security.ix509extensionalternativenames_alternativenames_property"]
 old-location: security\ix509extensionalternativenames_alternativenames_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 816afa9d-2283-4e17-ad12-ee53e5353d83
 ms.date: 12/05/2018
 ms.keywords: AlternativeNames property [Security], AlternativeNames property [Security],IX509ExtensionAlternativeNames interface, IX509ExtensionAlternativeNames interface [Security],AlternativeNames property, IX509ExtensionAlternativeNames.AlternativeNames, IX509ExtensionAlternativeNames.get_AlternativeNames, IX509ExtensionAlternativeNames::AlternativeNames, IX509ExtensionAlternativeNames::get_AlternativeNames, certenroll/IX509ExtensionAlternativeNames::AlternativeNames, certenroll/IX509ExtensionAlternativeNames::get_AlternativeNames, get_AlternativeNames, security.ix509extensionalternativenames_alternativenames_property

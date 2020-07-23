@@ -4,7 +4,7 @@ title: IAMTimecodeDisplay::GetTCDisplayEnable (strmif.h)
 description: The GetTCDisplayEnable method determines whether an external device's timecode character generator output is enabled or disabled.
 helpviewer_keywords: ["GetTCDisplayEnable","GetTCDisplayEnable method [DirectShow]","GetTCDisplayEnable method [DirectShow]","IAMTimecodeDisplay interface","IAMTimecodeDisplay interface [DirectShow]","GetTCDisplayEnable method","IAMTimecodeDisplay.GetTCDisplayEnable","IAMTimecodeDisplay::GetTCDisplayEnable","IAMTimecodeDisplayGetTCDisplayEnable","dshow.iamtimecodedisplay_gettcdisplayenable","strmif/IAMTimecodeDisplay::GetTCDisplayEnable"]
 old-location: dshow\iamtimecodedisplay_gettcdisplayenable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fe8bac4d-a271-47b3-9737-f115429b50aa
 ms.date: 12/05/2018
 ms.keywords: GetTCDisplayEnable, GetTCDisplayEnable method [DirectShow], GetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, IAMTimecodeDisplay interface [DirectShow],GetTCDisplayEnable method, IAMTimecodeDisplay.GetTCDisplayEnable, IAMTimecodeDisplay::GetTCDisplayEnable, IAMTimecodeDisplayGetTCDisplayEnable, dshow.iamtimecodedisplay_gettcdisplayenable, strmif/IAMTimecodeDisplay::GetTCDisplayEnable

@@ -4,7 +4,7 @@ title: IVssEnumObject::Clone (vss.h)
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumObject enumerator object.
 helpviewer_keywords: ["Clone","Clone method [VSS]","Clone method [VSS]","IVssEnumObject interface","IVssEnumObject interface [VSS]","Clone method","IVssEnumObject.Clone","IVssEnumObject::Clone","_win32_ivssenumobject_clone","base.ivssenumobject_clone","vss/IVssEnumObject::Clone"]
 old-location: base\ivssenumobject_clone.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 71bf3789-247e-4e3f-8200-a4309a7c2d8c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interface, IVssEnumObject interface [VSS],Clone method, IVssEnumObject.Clone, IVssEnumObject::Clone, _win32_ivssenumobject_clone, base.ivssenumobject_clone, vss/IVssEnumObject::Clone

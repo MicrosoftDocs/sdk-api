@@ -4,7 +4,7 @@ title: IAMFilterGraphCallback::UnableToRender (strmif.h)
 description: The UnableToRender method is called by the Filter Graph Manager if it cannot find any combination of filters to render the specified pin.
 helpviewer_keywords: ["IAMFilterGraphCallback interface [DirectShow]","UnableToRender method","IAMFilterGraphCallback.UnableToRender","IAMFilterGraphCallback::UnableToRender","IAMFilterGraphCallbackUnableToRender","UnableToRender","UnableToRender method [DirectShow]","UnableToRender method [DirectShow]","IAMFilterGraphCallback interface","dshow.iamfiltergraphcallback_unabletorender","strmif/IAMFilterGraphCallback::UnableToRender"]
 old-location: dshow\iamfiltergraphcallback_unabletorender.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c7fa0eae-f950-423a-8a89-9a7619b27ce6
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender

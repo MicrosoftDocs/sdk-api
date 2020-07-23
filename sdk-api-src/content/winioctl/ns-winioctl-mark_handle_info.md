@@ -4,7 +4,7 @@ title: MARK_HANDLE_INFO
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 helpviewer_keywords: ["*PMARK_HANDLE_INFO","MARK_HANDLE_INFO","MARK_HANDLE_INFO structure [Files]","MARK_HANDLE_NOT_READ_COPY","MARK_HANDLE_NOT_REALTIME","MARK_HANDLE_NOT_TXF_SYSTEM_LOG","MARK_HANDLE_PROTECT_CLUSTERS","MARK_HANDLE_READ_COPY","MARK_HANDLE_REALTIME","MARK_HANDLE_TXF_SYSTEM_LOG","PMARK_HANDLE_INFO","PMARK_HANDLE_INFO structure pointer [Files]","USN_SOURCE_AUXILIARY_DATA","USN_SOURCE_DATA_MANAGEMENT","USN_SOURCE_REPLICATION_MANAGEMENT","_win32_mark_handle_info_str","base.mark_handle_info_str","fs.mark_handle_info_str","winioctl/MARK_HANDLE_INFO","winioctl/PMARK_HANDLE_INFO"]
 old-location: fs\mark_handle_info_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6f736b31-279d-4118-a5e3-ad3c2bea2250
 ms.date: 12/05/2018
 ms.keywords: '*PMARK_HANDLE_INFO, MARK_HANDLE_INFO, MARK_HANDLE_INFO structure [Files], MARK_HANDLE_NOT_READ_COPY, MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_READ_COPY, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO, PMARK_HANDLE_INFO structure pointer [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, _win32_mark_handle_info_str, base.mark_handle_info_str, fs.mark_handle_info_str, winioctl/MARK_HANDLE_INFO, winioctl/PMARK_HANDLE_INFO'

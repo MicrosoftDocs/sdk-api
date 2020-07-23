@@ -4,7 +4,7 @@ title: SspiUnmarshalAuthIdentity function (sspi.h)
 description: Deserializes the specified array of byte values into an identity structure.
 helpviewer_keywords: ["SspiUnmarshalAuthIdentity","SspiUnmarshalAuthIdentity function [Security]","security.sspiunmarshalauthidentity","sspi/SspiUnmarshalAuthIdentity"]
 old-location: security\sspiunmarshalauthidentity.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 89798b37-808a-4174-8362-a2dc4ee1b460
 ms.date: 12/05/2018
 ms.keywords: SspiUnmarshalAuthIdentity, SspiUnmarshalAuthIdentity function [Security], security.sspiunmarshalauthidentity, sspi/SspiUnmarshalAuthIdentity

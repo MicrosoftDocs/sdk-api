@@ -4,7 +4,7 @@ title: RegFlushKey function (winreg.h)
 description: Writes all the attributes of the specified open registry key into the registry.
 helpviewer_keywords: ["RegFlushKey","RegFlushKey function","_win32_regflushkey","base.regflushkey","winreg/RegFlushKey"]
 old-location: base\regflushkey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: ae1160be-1da7-4621-a0fc-727aa229ec06
 ms.date: 12/05/2018
 ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflushkey, winreg/RegFlushKey

@@ -4,7 +4,7 @@ title: IVdsDrive (vdshwprv.h)
 description: Provides methods for performing query and configuration operations on a drive.
 helpviewer_keywords: ["IVdsDrive","IVdsDrive interface [VDS]","IVdsDrive interface [VDS]","described","base.ivdsdrive","vds/IVdsDrive","vdshwprv/IVdsDrive"]
 old-location: base\ivdsdrive.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 597917cf-fb02-4949-98c3-3da3f7449ed1
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],described, base.ivdsdrive, vds/IVdsDrive, vdshwprv/IVdsDrive

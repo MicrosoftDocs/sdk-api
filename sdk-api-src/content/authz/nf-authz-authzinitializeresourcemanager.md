@@ -4,7 +4,7 @@ title: AuthzInitializeResourceManager function (authz.h)
 description: Uses Authz to verify that clients have access to various resources.
 helpviewer_keywords: ["AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION","AUTHZ_RM_FLAG_NO_AUDIT","AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES","AuthzInitializeResourceManager","AuthzInitializeResourceManager function [Security]","_win32_authzinitializeresourcemanager","authz/AuthzInitializeResourceManager","security.authzinitializeresourcemanager"]
 old-location: security\authzinitializeresourcemanager.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager

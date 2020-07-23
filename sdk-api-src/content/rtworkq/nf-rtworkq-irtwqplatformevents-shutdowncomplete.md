@@ -4,7 +4,7 @@ title: IRtwqPlatformEvents::ShutdownComplete (rtworkq.h)
 description: Called after the platform has shutdown.
 helpviewer_keywords: ["IRtwqPlatformEvents interface","ShutdownComplete method","IRtwqPlatformEvents.ShutdownComplete","IRtwqPlatformEvents::ShutdownComplete","ShutdownComplete","ShutdownComplete method","ShutdownComplete method","IRtwqPlatformEvents interface","base.irtwqplatformevents_shutdowncomplete","rtworkq/IRtwqPlatformEvents::ShutdownComplete"]
 old-location: base\irtwqplatformevents_shutdowncomplete.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 03F4F1D8-8A90-4DDE-B0BC-8F10EBA9691E
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownComplete method, IRtwqPlatformEvents.ShutdownComplete, IRtwqPlatformEvents::ShutdownComplete, ShutdownComplete, ShutdownComplete method, ShutdownComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdowncomplete, rtworkq/IRtwqPlatformEvents::ShutdownComplete

@@ -4,7 +4,7 @@ title: RegUnLoadKeyA function (winreg.h)
 description: Unloads the specified registry key and its subkeys from the registry.
 helpviewer_keywords: ["RegUnLoadKey","RegUnLoadKey function","RegUnLoadKeyA","RegUnLoadKeyW","_win32_regunloadkey","base.regunloadkey","winreg/RegUnLoadKey","winreg/RegUnLoadKeyA","winreg/RegUnLoadKeyW"]
 old-location: base\regunloadkey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 73b4b6a9-4acb-4247-bd7f-82024ba3e14a
 ms.date: 12/05/2018
 ms.keywords: RegUnLoadKey, RegUnLoadKey function, RegUnLoadKeyA, RegUnLoadKeyW, _win32_regunloadkey, base.regunloadkey, winreg/RegUnLoadKey, winreg/RegUnLoadKeyA, winreg/RegUnLoadKeyW

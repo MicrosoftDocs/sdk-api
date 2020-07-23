@@ -4,7 +4,7 @@ title: IMFVideoMediaType::GetVideoFormat (mfobjects.h)
 description: GetVideoFormat is no longer available for use as of Windows 7.
 helpviewer_keywords: ["2168c76e-2b83-40ad-8ac1-9b76f1a31b7b","GetVideoFormat","GetVideoFormat method [Media Foundation]","GetVideoFormat method [Media Foundation]","IMFVideoMediaType interface","IMFVideoMediaType interface [Media Foundation]","GetVideoFormat method","IMFVideoMediaType.GetVideoFormat","IMFVideoMediaType::GetVideoFormat","mf.imfvideomediatype_getvideoformat","mfobjects/IMFVideoMediaType::GetVideoFormat"]
 old-location: mf\imfvideomediatype_getvideoformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b
 ms.date: 12/05/2018
 ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat, GetVideoFormat method [Media Foundation], GetVideoFormat method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoFormat method, IMFVideoMediaType.GetVideoFormat, IMFVideoMediaType::GetVideoFormat, mf.imfvideomediatype_getvideoformat, mfobjects/IMFVideoMediaType::GetVideoFormat

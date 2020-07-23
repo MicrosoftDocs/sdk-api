@@ -4,7 +4,7 @@ title: MsiRecordGetStringW function (msiquery.h)
 description: The MsiRecordGetString function returns the string value of a record field.
 helpviewer_keywords: ["MsiRecordGetString","MsiRecordGetString function","MsiRecordGetStringA","MsiRecordGetStringW","_msi_msirecordgetstring","msiquery/MsiRecordGetString","msiquery/MsiRecordGetStringA","msiquery/MsiRecordGetStringW","setup.msirecordgetstring"]
 old-location: setup\msirecordgetstring.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
 ms.date: 12/05/2018
 ms.keywords: MsiRecordGetString, MsiRecordGetString function, MsiRecordGetStringA, MsiRecordGetStringW, _msi_msirecordgetstring, msiquery/MsiRecordGetString, msiquery/MsiRecordGetStringA, msiquery/MsiRecordGetStringW, setup.msirecordgetstring

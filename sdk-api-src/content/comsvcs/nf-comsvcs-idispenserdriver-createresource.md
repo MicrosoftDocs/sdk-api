@@ -4,7 +4,7 @@ title: IDispenserDriver::CreateResource (comsvcs.h)
 description: Creates a resource.
 helpviewer_keywords: ["CreateResource","CreateResource method [COM+]","CreateResource method [COM+]","IDispenserDriver interface","IDispenserDriver interface [COM+]","CreateResource method","IDispenserDriver.CreateResource","IDispenserDriver::CreateResource","_dtc_IDispenserDriver_CreateResource","comsvcs/IDispenserDriver::CreateResource","cos.idispenserdriver_createresource"]
 old-location: cos\idispenserdriver_createresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 97b49069-3428-48da-a818-737f3bc342d0
 ms.date: 12/05/2018
 ms.keywords: CreateResource, CreateResource method [COM+], CreateResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],CreateResource method, IDispenserDriver.CreateResource, IDispenserDriver::CreateResource, _dtc_IDispenserDriver_CreateResource, comsvcs/IDispenserDriver::CreateResource, cos.idispenserdriver_createresource

@@ -4,7 +4,7 @@ title: IConfigAsfWriter::GetCurrentProfile (dshowasf.h)
 description: The GetCurrentProfile method retrieves the current ASF profile from the WM ASF Writer filter.
 helpviewer_keywords: ["GetCurrentProfile","GetCurrentProfile method [DirectShow]","GetCurrentProfile method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","GetCurrentProfile method","IConfigAsfWriter.GetCurrentProfile","IConfigAsfWriter::GetCurrentProfile","IConfigAsfWriterGetCurrentProfile","dshow.iconfigasfwriter_getcurrentprofile","dshowasf/IConfigAsfWriter::GetCurrentProfile"]
 old-location: dshow\iconfigasfwriter_getcurrentprofile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfile, GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfile method, IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile

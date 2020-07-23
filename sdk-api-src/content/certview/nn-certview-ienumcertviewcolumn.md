@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN (certview.h)
 description: Represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 helpviewer_keywords: ["IEnumCERTVIEWCOLUMN","IEnumCERTVIEWCOLUMN interface [Security]","IEnumCERTVIEWCOLUMN interface [Security]","described","_certsrv_ienumcertviewcolumn","certview/IEnumCERTVIEWCOLUMN","security.ienumcertviewcolumn"]
 old-location: security\ienumcertviewcolumn.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn

@@ -4,7 +4,7 @@ title: TRUECOLORINFO (amvideo.h)
 description: The TRUECOLORINFO structure contains color palette and bitmask information for a video image.
 helpviewer_keywords: ["TRUECOLORINFO","TRUECOLORINFO structure [DirectShow]","TRUECOLORINFOStructure","amvideo/TRUECOLORINFO","dshow.truecolorinfostructure"]
 old-location: dshow\truecolorinfostructure.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc
 ms.date: 12/05/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure

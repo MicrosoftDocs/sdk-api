@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_HOTPLUG_INFO
 description: Retrieves the hotplug configuration of the specified device.
 helpviewer_keywords: ["IOCTL_STORAGE_GET_HOTPLUG_INFO","IOCTL_STORAGE_GET_HOTPLUG_INFO control","IOCTL_STORAGE_GET_HOTPLUG_INFO control code","_win32_ioctl_storage_get_hotplug_info","base.ioctl_storage_get_hotplug_info","winioctl/IOCTL_STORAGE_GET_HOTPLUG_INFO"]
 old-location: base\ioctl_storage_get_hotplug_info.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 4ecf6f84-17fc-4c48-a859-c043e8f9cd14
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_HOTPLUG_INFO, IOCTL_STORAGE_GET_HOTPLUG_INFO control, IOCTL_STORAGE_GET_HOTPLUG_INFO control code, _win32_ioctl_storage_get_hotplug_info, base.ioctl_storage_get_hotplug_info, winioctl/IOCTL_STORAGE_GET_HOTPLUG_INFO

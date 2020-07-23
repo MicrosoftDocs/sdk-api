@@ -4,7 +4,7 @@ title: CHString::GetAllocLength (chstring.h)
 description: The GetAllocLength method returns the size of the allocated string buffer.
 helpviewer_keywords: ["?GetAllocLength@CHString@@QBEHXZ","CHString interface [Windows Management Instrumentation]","GetAllocLength method","CHString.GetAllocLength","CHString::GetAllocLength","GetAllocLength","GetAllocLength method [Windows Management Instrumentation]","GetAllocLength method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_getalloclength","chstring/CHString::GetAllocLength","wmi.chstring_getalloclength"]
 old-location: wmi\chstring_getalloclength.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
 ms.date: 12/05/2018
 ms.keywords: ?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength

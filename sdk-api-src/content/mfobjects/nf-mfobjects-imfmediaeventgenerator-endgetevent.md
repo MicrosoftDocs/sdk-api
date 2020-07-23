@@ -4,7 +4,7 @@ title: IMFMediaEventGenerator::EndGetEvent (mfobjects.h)
 description: Completes an asynchronous request for the next event in the queue.
 helpviewer_keywords: ["6b38e984-d818-4f69-af28-8b54153faebb","EndGetEvent","EndGetEvent method [Media Foundation]","EndGetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","EndGetEvent method","IMFMediaEventGenerator.EndGetEvent","IMFMediaEventGenerator::EndGetEvent","mf.imfmediaeventgenerator_endgetevent","mfobjects/IMFMediaEventGenerator::EndGetEvent"]
 old-location: mf\imfmediaeventgenerator_endgetevent.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6b38e984-d818-4f69-af28-8b54153faebb
 ms.date: 12/05/2018
 ms.keywords: 6b38e984-d818-4f69-af28-8b54153faebb, EndGetEvent, EndGetEvent method [Media Foundation], EndGetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],EndGetEvent method, IMFMediaEventGenerator.EndGetEvent, IMFMediaEventGenerator::EndGetEvent, mf.imfmediaeventgenerator_endgetevent, mfobjects/IMFMediaEventGenerator::EndGetEvent

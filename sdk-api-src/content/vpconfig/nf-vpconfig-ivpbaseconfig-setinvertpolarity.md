@@ -4,7 +4,7 @@ title: IVPBaseConfig::SetInvertPolarity (vpconfig.h)
 description: The SetInvertPolarity method reverses the current polarity the device uses.
 helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetInvertPolarity method","IVPBaseConfig.SetInvertPolarity","IVPBaseConfig::SetInvertPolarity","IVPBaseConfigSetInvertPolarity","SetInvertPolarity","SetInvertPolarity method [DirectShow]","SetInvertPolarity method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setinvertpolarity","vpconfig/IVPBaseConfig::SetInvertPolarity"]
 old-location: dshow\ivpbaseconfig_setinvertpolarity.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2c33cea2-2c83-4978-9059-c15706f14f85
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetInvertPolarity method, IVPBaseConfig.SetInvertPolarity, IVPBaseConfig::SetInvertPolarity, IVPBaseConfigSetInvertPolarity, SetInvertPolarity, SetInvertPolarity method [DirectShow], SetInvertPolarity method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setinvertpolarity, vpconfig/IVPBaseConfig::SetInvertPolarity

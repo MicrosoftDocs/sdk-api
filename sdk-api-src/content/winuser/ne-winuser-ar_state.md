@@ -4,7 +4,7 @@ title: AR_STATE (winuser.h)
 description: Indicates the state of screen auto-rotation for the system. For example, whether auto-rotation is supported, and whether it is enabled by the user.
 helpviewer_keywords: ["*PAR_STATE","AR_DISABLED","AR_DOCKED","AR_ENABLED","AR_LAPTOP","AR_MULTIMON","AR_NOSENSOR","AR_NOT_SUPPORTED","AR_REMOTESESSION","AR_STATE","AR_STATE enumeration","AR_SUPPRESSED","PAR_STATE","PAR_STATE enumeration pointer","base.ar_state","winuser/AR_DISABLED","winuser/AR_DOCKED","winuser/AR_ENABLED","winuser/AR_LAPTOP","winuser/AR_MULTIMON","winuser/AR_NOSENSOR","winuser/AR_NOT_SUPPORTED","winuser/AR_REMOTESESSION","winuser/AR_STATE","winuser/AR_SUPPRESSED","winuser/PAR_STATE"]
 old-location: base\ar_state.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 55BCB2EB-524D-478A-8DCE-53E59DD0822D
 ms.date: 12/05/2018
 ms.keywords: '*PAR_STATE, AR_DISABLED, AR_DOCKED, AR_ENABLED, AR_LAPTOP, AR_MULTIMON, AR_NOSENSOR, AR_NOT_SUPPORTED, AR_REMOTESESSION, AR_STATE, AR_STATE enumeration, AR_SUPPRESSED, PAR_STATE, PAR_STATE enumeration pointer, base.ar_state, winuser/AR_DISABLED, winuser/AR_DOCKED, winuser/AR_ENABLED, winuser/AR_LAPTOP, winuser/AR_MULTIMON, winuser/AR_NOSENSOR, winuser/AR_NOT_SUPPORTED, winuser/AR_REMOTESESSION, winuser/AR_STATE, winuser/AR_SUPPRESSED, winuser/PAR_STATE'

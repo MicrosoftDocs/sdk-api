@@ -4,7 +4,7 @@ title: IMFSourceBufferList::GetLength (mfmediaengine.h)
 description: Gets the number of IMFSourceBuffer objects in the list.
 helpviewer_keywords: ["GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFSourceBufferList interface","IMFSourceBufferList interface [Media Foundation]","GetLength method","IMFSourceBufferList.GetLength","IMFSourceBufferList::GetLength","mf.imfsourcebufferlist_getlength","mfmediaengine/IMFSourceBufferList::GetLength"]
 old-location: mf\imfsourcebufferlist_getlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetLength method, IMFSourceBufferList.GetLength, IMFSourceBufferList::GetLength, mf.imfsourcebufferlist_getlength, mfmediaengine/IMFSourceBufferList::GetLength

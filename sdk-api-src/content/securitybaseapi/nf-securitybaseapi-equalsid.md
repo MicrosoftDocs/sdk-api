@@ -4,7 +4,7 @@ title: EqualSid function (securitybaseapi.h)
 description: Tests two security identifier (SID) values for equality. Two SIDs must match exactly to be considered equal.
 helpviewer_keywords: ["EqualSid","EqualSid function [Security]","_win32_equalsid","security.equalsid","securitybaseapi/EqualSid"]
 old-location: security\equalsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 08420df3-f6e6-462e-a2e6-d2a7a90be8ed
 ms.date: 12/05/2018
 ms.keywords: EqualSid, EqualSid function [Security], _win32_equalsid, security.equalsid, securitybaseapi/EqualSid

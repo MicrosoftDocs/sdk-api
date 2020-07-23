@@ -4,7 +4,7 @@ title: ITocEntry::GetDescriptionData (wmcodecdsp.h)
 description: The GetDescriptionData method gets a description data block that was previously associated with the entry by a call to SetDescriptionData.
 helpviewer_keywords: ["GetDescriptionData","GetDescriptionData method [Media Foundation]","GetDescriptionData method [Media Foundation]","ITocEntry interface","ITocEntry interface [Media Foundation]","GetDescriptionData method","ITocEntry.GetDescriptionData","ITocEntry::GetDescriptionData","codecapi.itocentry_getdescriptiondata","mf.itocentry_getdescriptiondata","wmcodecdsp/ITocEntry::GetDescriptionData"]
 old-location: mf\itocentry_getdescriptiondata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4000b67c-e34e-4bce-9a0d-c56c9fc0f41e
 ms.date: 12/05/2018
 ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptionData method, ITocEntry.GetDescriptionData, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData

@@ -4,7 +4,7 @@ title: IX509Attribute (certenroll.h)
 description: Can be used to represent an attribute in a PKCS
 helpviewer_keywords: ["IX509Attribute","IX509Attribute interface [Security]","IX509Attribute interface [Security]","described","certenroll/IX509Attribute","security.ix509attribute"]
 old-location: security\ix509attribute.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 20965768-2c6b-488a-ab7c-5e0f6f28ac9b
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute interface [Security],described, certenroll/IX509Attribute, security.ix509attribute

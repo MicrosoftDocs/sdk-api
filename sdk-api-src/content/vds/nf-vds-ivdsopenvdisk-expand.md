@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::Expand (vds.h)
 description: Increases the size of a virtual disk to the maximum size available on a fixed or expandable disk.
 helpviewer_keywords: ["Expand","Expand method","Expand method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Expand method","IVdsOpenVDisk.Expand","IVdsOpenVDisk::Expand","base.ivdsopenvdisk_expand","vds/IVdsOpenVDisk::Expand"]
 old-location: base\ivdsopenvdisk_expand.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand

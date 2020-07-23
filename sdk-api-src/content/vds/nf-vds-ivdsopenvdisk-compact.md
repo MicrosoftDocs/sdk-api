@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::Compact (vds.h)
 description: Compacts the virtual disk to reduce the physical size of the backing file.
 helpviewer_keywords: ["Compact","Compact method","Compact method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Compact method","IVdsOpenVDisk.Compact","IVdsOpenVDisk::Compact","base.ivdsopenvdisk_compact","vds/IVdsOpenVDisk::Compact"]
 old-location: base\ivdsopenvdisk_compact.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 011adaae-3a17-4643-ae8d-400753019c83
 ms.date: 12/05/2018
 ms.keywords: Compact, Compact method, Compact method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Compact method, IVdsOpenVDisk.Compact, IVdsOpenVDisk::Compact, base.ivdsopenvdisk_compact, vds/IVdsOpenVDisk::Compact

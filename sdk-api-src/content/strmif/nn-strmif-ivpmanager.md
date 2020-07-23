@@ -4,7 +4,7 @@ title: IVPManager (strmif.h)
 description: The IVPManager interface is implemented on the Video Port Manager (VPM).
 helpviewer_keywords: ["IVPManager","IVPManager interface [DirectShow]","IVPManager interface [DirectShow]","described","IVPManagerInterface","dshow.ivpmanager","strmif/IVPManager"]
 old-location: dshow\ivpmanager.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
 ms.date: 12/05/2018
 ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager

@@ -4,7 +4,7 @@ title: IManagedPoolAction::LastRelease (comsvcs.h)
 description: Called when a COM+ object pool drops the last reference to the object that implements it.
 helpviewer_keywords: ["IManagedPoolAction interface [COM+]","LastRelease method","IManagedPoolAction.LastRelease","IManagedPoolAction::LastRelease","LastRelease","LastRelease method [COM+]","LastRelease method [COM+]","IManagedPoolAction interface","_cos_IManagedPoolAction_LastRelease","comsvcs/IManagedPoolAction::LastRelease","cos.imanagedpoolaction_lastrelease"]
 old-location: cos\imanagedpoolaction_lastrelease.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6685da39-17bb-4c4e-b47a-888511f605ad
 ms.date: 12/05/2018
 ms.keywords: IManagedPoolAction interface [COM+],LastRelease method, IManagedPoolAction.LastRelease, IManagedPoolAction::LastRelease, LastRelease, LastRelease method [COM+], LastRelease method [COM+],IManagedPoolAction interface, _cos_IManagedPoolAction_LastRelease, comsvcs/IManagedPoolAction::LastRelease, cos.imanagedpoolaction_lastrelease

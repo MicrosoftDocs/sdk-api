@@ -4,7 +4,7 @@ title: ICertRequest3::SetCredential (certcli.h)
 description: Sets the credential used to contact the Certificate Enrollment Web Service.
 helpviewer_keywords: ["CCertRequest object [Security]","SetCredential method","ICertRequest3 class [Security]","SetCredential method","ICertRequest3.SetCredential","ICertRequest3::SetCredential","SetCredential","SetCredential method [Security]","SetCredential method [Security]","CCertRequest object","SetCredential method [Security]","ICertRequest3 class","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certcli/ICertRequest3::SetCredential","security.icertrequest3_setcredential"]
 old-location: security\icertrequest3_setcredential.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cdc3fc7b-aef6-4d73-876e-c958d7bf8f98
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],SetCredential method, ICertRequest3 class [Security],SetCredential method, ICertRequest3.SetCredential, ICertRequest3::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],CCertRequest object, SetCredential method [Security],ICertRequest3 class, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certcli/ICertRequest3::SetCredential, security.icertrequest3_setcredential

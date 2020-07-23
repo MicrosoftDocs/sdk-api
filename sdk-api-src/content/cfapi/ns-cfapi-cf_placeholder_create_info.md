@@ -4,7 +4,7 @@ title: CF_PLACEHOLDER_CREATE_INFO (cfapi.h)
 description: Contains placeholder information for creating new placeholder files or directories.
 helpviewer_keywords: ["CF_PLACEHOLDER_CREATE_INFO","CF_PLACEHOLDER_CREATE_INFO structure","cfapi/CF_PLACEHOLDER_CREATE_INFO","cloudApi.cf_placeholder_create_info"]
 old-location: cloudapi\cf_placeholder_create_info.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 2DC1FF5F-FBFD-45CA-8CD5-B2F586C22778
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_CREATE_INFO, CF_PLACEHOLDER_CREATE_INFO structure, cfapi/CF_PLACEHOLDER_CREATE_INFO, cloudApi.cf_placeholder_create_info

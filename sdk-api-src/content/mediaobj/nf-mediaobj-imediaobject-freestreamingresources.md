@@ -4,7 +4,7 @@ title: IMediaObject::FreeStreamingResources (mediaobj.h)
 description: The FreeStreamingResources method frees resources allocated by the DMO. Calling this method is always optional.
 helpviewer_keywords: ["FreeStreamingResources","FreeStreamingResources method [DirectShow]","FreeStreamingResources method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","FreeStreamingResources method","IMediaObject.FreeStreamingResources","IMediaObject::FreeStreamingResources","IMediaObjectFreeStreamingResources","dshow.imediaobject_freestreamingresources","mediaobj/IMediaObject::FreeStreamingResources"]
 old-location: dshow\imediaobject_freestreamingresources.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c4d2dbf1-45c9-47a2-a21f-5eb04f828ec1
 ms.date: 12/05/2018
 ms.keywords: FreeStreamingResources, FreeStreamingResources method [DirectShow], FreeStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],FreeStreamingResources method, IMediaObject.FreeStreamingResources, IMediaObject::FreeStreamingResources, IMediaObjectFreeStreamingResources, dshow.imediaobject_freestreamingresources, mediaobj/IMediaObject::FreeStreamingResources

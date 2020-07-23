@@ -4,7 +4,7 @@ title: CancelThreadpoolIo function (threadpoolapiset.h)
 description: Cancels the notification from the StartThreadpoolIo function.
 helpviewer_keywords: ["CancelThreadpoolIo","CancelThreadpoolIo function","base.cancelthreadpoolio","threadpoolapiset/CancelThreadpoolIo","winbase/CancelThreadpoolIo"]
 old-location: base\cancelthreadpoolio.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
 ms.date: 12/05/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo

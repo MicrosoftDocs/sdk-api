@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetComponent (vsbackup.h)
 description: The GetComponent method obtains a Writer Metadata Document for a specified backup component.
 helpviewer_keywords: ["GetComponent","GetComponent method [VSS]","GetComponent method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetComponent method","IVssExamineWriterMetadata.GetComponent","IVssExamineWriterMetadata::GetComponent","_win32_ivssexaminewritermetadata_getcomponent","base.ivssexaminewritermetadata_getcomponent","vsbackup/IVssExamineWriterMetadata::GetComponent"]
 old-location: base\ivssexaminewritermetadata_getcomponent.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
 ms.date: 12/05/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetComponent method, IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent

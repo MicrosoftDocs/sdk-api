@@ -4,7 +4,7 @@ title: WintrustAddDefaultForUsage function (wintrust.h)
 description: Specifies the default usage identifier and callback information for a provider.
 helpviewer_keywords: ["WintrustAddDefaultForUsage","WintrustAddDefaultForUsage function [Security]","security.wintrustadddefaultforusage","wintrust/WintrustAddDefaultForUsage"]
 old-location: security\wintrustadddefaultforusage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC
 ms.date: 12/05/2018
 ms.keywords: WintrustAddDefaultForUsage, WintrustAddDefaultForUsage function [Security], security.wintrustadddefaultforusage, wintrust/WintrustAddDefaultForUsage

@@ -4,7 +4,7 @@ title: CloseThreadpool function (threadpoolapiset.h)
 description: Closes the specified thread pool.
 helpviewer_keywords: ["CloseThreadpool","CloseThreadpool function","base.closethreadpool","threadpoolapiset/CloseThreadpool","winbase/CloseThreadpool"]
 old-location: base\closethreadpool.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 84f673b5-d9b1-4f3d-9ae6-b1ad173268cd
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpool, CloseThreadpool function, base.closethreadpool, threadpoolapiset/CloseThreadpool, winbase/CloseThreadpool

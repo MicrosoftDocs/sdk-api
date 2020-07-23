@@ -4,7 +4,7 @@ title: AbortSystemShutdownA function (winreg.h)
 description: Stops a system shutdown that has been initiated.
 helpviewer_keywords: ["AbortSystemShutdown","AbortSystemShutdown function","AbortSystemShutdownA","AbortSystemShutdownW","_win32_abortsystemshutdown","base.abortsystemshutdown","winreg/AbortSystemShutdown","winreg/AbortSystemShutdownA","winreg/AbortSystemShutdownW"]
 old-location: base\abortsystemshutdown.htm
-tech.root: Shutdown
+tech.root: base
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
 ms.date: 12/05/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW

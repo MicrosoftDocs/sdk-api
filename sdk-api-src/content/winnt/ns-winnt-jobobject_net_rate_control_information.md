@@ -4,7 +4,7 @@ title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION (winnt.h)
 description: Contains information used to control the network traffic for a job. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNetRateControlInformation information class.
 helpviewer_keywords: ["JOBOBJECT_NET_RATE_CONTROL_INFORMATION","JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure","base.jobobject_net_rate_control_information","winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION"]
 old-location: base\jobobject_net_rate_control_information.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
 ms.date: 12/05/2018
 ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION

@@ -2,6 +2,7 @@
 UID: NF:gdiplusgraphics.Graphics.DrawArc(INconstPen,INREAL,INREAL,INREAL,INREAL,INREAL,INREAL)
 title: Graphics::DrawArc
 description: The Graphics::DrawArc method draws an arc.
+tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawArc"]
 ms.assetid: b4936938-7337-43d8-8cc1-ff1f6d3f6b24
 ms.date: 05/13/2019

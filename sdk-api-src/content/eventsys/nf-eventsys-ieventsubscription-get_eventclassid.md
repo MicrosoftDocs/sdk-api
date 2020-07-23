@@ -4,7 +4,7 @@ title: IEventSubscription::get_EventClassID (eventsys.h)
 description: The unique ID of the event class associated with the subscription.
 helpviewer_keywords: ["EventClassID property [COM+]","EventClassID property [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","EventClassID property","IEventSubscription.EventClassID","IEventSubscription.get_EventClassID","IEventSubscription::EventClassID","IEventSubscription::get_EventClassID","IEventSubscription::put_EventClassID","cos.ieventsubscription_eventclassid","eventsys/IEventSubscription::EventClassID","eventsys/IEventSubscription::get_EventClassID","eventsys/IEventSubscription::put_EventClassID","get_EventClassID"]
 old-location: cos\ieventsubscription_eventclassid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cba78857-0b59-4012-84d6-f5e7ae28b8bd
 ms.date: 12/05/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],EventClassID property, IEventSubscription.EventClassID, IEventSubscription.get_EventClassID, IEventSubscription::EventClassID, IEventSubscription::get_EventClassID, IEventSubscription::put_EventClassID, cos.ieventsubscription_eventclassid, eventsys/IEventSubscription::EventClassID, eventsys/IEventSubscription::get_EventClassID, eventsys/IEventSubscription::put_EventClassID, get_EventClassID

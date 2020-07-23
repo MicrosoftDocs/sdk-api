@@ -4,7 +4,7 @@ title: CryptXmlDigestReference function (cryptxml.h)
 description: Is used by an application to digest the resolved reference. This function applies transforms before updating the digest.
 helpviewer_keywords: ["CRYPT_XML_REFERENCE_DATA_TRANSFORMED","CryptXmlDigestReference","CryptXmlDigestReference function [Security]","cryptxml/CryptXmlDigestReference","security.cryptxmldigestreference"]
 old-location: security\cryptxmldigestreference.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference

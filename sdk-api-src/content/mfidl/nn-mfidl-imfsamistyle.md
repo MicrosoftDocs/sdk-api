@@ -4,7 +4,7 @@ title: IMFSAMIStyle (mfidl.h)
 description: Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the SAMI Media Source.
 helpviewer_keywords: ["IMFSAMIStyle","IMFSAMIStyle interface [Media Foundation]","IMFSAMIStyle interface [Media Foundation]","described","c4887c52-57af-4783-b853-11fe6ad3510e","mf.imfsamistyle","mfidl/IMFSAMIStyle"]
 old-location: mf\imfsamistyle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c4887c52-57af-4783-b853-11fe6ad3510e
 ms.date: 12/05/2018
 ms.keywords: IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], IMFSAMIStyle interface [Media Foundation],described, c4887c52-57af-4783-b853-11fe6ad3510e, mf.imfsamistyle, mfidl/IMFSAMIStyle

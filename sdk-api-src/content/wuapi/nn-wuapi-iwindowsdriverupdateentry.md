@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntry (wuapi.h)
 description: Contains the properties that are available only from a Windows driver update.
 helpviewer_keywords: ["IWindowsDriverUpdateEntry","IWindowsDriverUpdateEntry interface [Windows Update Agent]","IWindowsDriverUpdateEntry interface [Windows Update Agent]","described","wua.iwindowsdriverupdateentry","wuapi/IWindowsDriverUpdateEntry"]
 old-location: wua\iwindowsdriverupdateentry.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 91b8ed77-70f7-400f-a887-b3cf9f573c76
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], IWindowsDriverUpdateEntry interface [Windows Update Agent],described, wua.iwindowsdriverupdateentry, wuapi/IWindowsDriverUpdateEntry

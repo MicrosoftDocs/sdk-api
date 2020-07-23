@@ -4,7 +4,7 @@ title: SecPkgContext_LastClientTokenStatus (sspi.h)
 description: Specifies whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 helpviewer_keywords: ["*PSecPkgContext_LastClientTokenStatus","PSecPkgContext_LastClientTokenStatus","PSecPkgContext_LastClientTokenStatus structure pointer [Security]","SecPkgContext_LastClientTokenStatus","SecPkgContext_LastClientTokenStatus structure [Security]","security.secpkgcontext_lastclienttokenstatus","sspi/PSecPkgContext_LastClientTokenStatus","sspi/SecPkgContext_LastClientTokenStatus"]
 old-location: security\secpkgcontext_lastclienttokenstatus.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ccb2bb4e-3c65-4305-95ad-b9111f3936b5
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus structure pointer [Security], SecPkgContext_LastClientTokenStatus, SecPkgContext_LastClientTokenStatus structure [Security], security.secpkgcontext_lastclienttokenstatus, sspi/PSecPkgContext_LastClientTokenStatus, sspi/SecPkgContext_LastClientTokenStatus'

@@ -4,7 +4,7 @@ title: BCryptDuplicateKey function (bcrypt.h)
 description: Creates a duplicate of a symmetric key.
 helpviewer_keywords: ["BCryptDuplicateKey","BCryptDuplicateKey function [Security]","bcrypt/BCryptDuplicateKey","security.bcryptduplicatekey_func"]
 old-location: security\bcryptduplicatekey_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
 ms.date: 12/05/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func

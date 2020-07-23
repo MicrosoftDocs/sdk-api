@@ -4,7 +4,7 @@ title: ICompositorInterop (windows.ui.composition.interop.h)
 description: Native interoperation interface that allows creating swapchain surfaces and graphics devices. This is interface is available in C++ only.
 helpviewer_keywords: ["ICompositorInterop","ICompositorInterop interface","ICompositorInterop interface","described","w_ui_comp.icompositorinterop","windows/ICompositorInterop"]
 old-location: w_ui_comp\icompositorinterop.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: 0BE505EA-1C31-411E-AAF7-06D52D9F4682
 ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop

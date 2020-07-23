@@ -4,7 +4,7 @@ title: ISmimeCapability::Initialize (certenroll.h)
 description: Initializes the object from a symmetric encryption algorithm object identifier (OID) and an optional key length.
 helpviewer_keywords: ["ISmimeCapability interface [Security]","Initialize method","ISmimeCapability.Initialize","ISmimeCapability::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ISmimeCapability interface","certenroll/ISmimeCapability::Initialize","security.ismimecapability_initialize_method"]
 old-location: security\ismimecapability_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: d972121d-ecfa-4a79-9322-dd0d0b81ba68
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability interface [Security],Initialize method, ISmimeCapability.Initialize, ISmimeCapability::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISmimeCapability interface, certenroll/ISmimeCapability::Initialize, security.ismimecapability_initialize_method

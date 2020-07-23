@@ -4,7 +4,7 @@ title: ICryptAttributes::Clear (certenroll.h)
 description: Removes all ICryptAttribute objects from the collection.
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICryptAttributes interface","ICryptAttributes interface [Security]","Clear method","ICryptAttributes.Clear","ICryptAttributes::Clear","certenroll/ICryptAttributes::Clear","security.icryptattributes_clear_method"]
 old-location: security\icryptattributes_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 00d6c72d-0170-4174-9274-5fe217156f28
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Clear method, ICryptAttributes.Clear, ICryptAttributes::Clear, certenroll/ICryptAttributes::Clear, security.icryptattributes_clear_method

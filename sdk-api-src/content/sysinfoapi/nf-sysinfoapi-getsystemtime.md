@@ -4,7 +4,7 @@ title: GetSystemTime function (sysinfoapi.h)
 description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
 helpviewer_keywords: ["GetSystemTime","GetSystemTime function","_win32_getsystemtime","base.getsystemtime","sysinfoapi/GetSystemTime"]
 old-location: base\getsystemtime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
 ms.date: 12/05/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime

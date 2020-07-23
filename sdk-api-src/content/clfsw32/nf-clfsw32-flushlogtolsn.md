@@ -4,7 +4,7 @@ title: FlushLogToLsn function (clfsw32.h)
 description: Forces all records appended to this marshaling area up to the record with the specified log sequence number (LSN) to be flushed to the disk. More records than specified may be flushed during this operation.
 helpviewer_keywords: ["FlushLogToLsn","FlushLogToLsn function [Files]","clfsw32/FlushLogToLsn","fs.flushlogtolsn"]
 old-location: fs\flushlogtolsn.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: d2a30ce1-e9c7-4dcf-b5fb-4355c9134461
 ms.date: 12/05/2018
 ms.keywords: FlushLogToLsn, FlushLogToLsn function [Files], clfsw32/FlushLogToLsn, fs.flushlogtolsn

@@ -4,7 +4,7 @@ title: AM_DVDCOPY_BUSKEY (dvdmedia.h)
 description: Identifies the DVD bus key.
 helpviewer_keywords: ["*PAM_DVDCOPY_BUSKEY","AM_DVDCOPY_BUSKEY","AM_DVDCOPY_BUSKEY structure [DirectShow]","PAM_DVDCOPY_BUSKEY","PAM_DVDCOPY_BUSKEY structure pointer [DirectShow]","dshow.am_dvdcopy_buskey","dvdmedia/AM_DVDCOPY_BUSKEY","dvdmedia/PAM_DVDCOPY_BUSKEY"]
 old-location: dshow\am_dvdcopy_buskey.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9f55dcc1-cb59-40ce-82d0-7f2066cb9d03
 ms.date: 12/05/2018
 ms.keywords: '*PAM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY structure [DirectShow], PAM_DVDCOPY_BUSKEY, PAM_DVDCOPY_BUSKEY structure pointer [DirectShow], dshow.am_dvdcopy_buskey, dvdmedia/AM_DVDCOPY_BUSKEY, dvdmedia/PAM_DVDCOPY_BUSKEY'

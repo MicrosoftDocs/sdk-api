@@ -4,7 +4,7 @@ title: RtwqLockWorkQueue function (rtworkq.h)
 description: Locks a work queue.
 helpviewer_keywords: ["RtwqLockWorkQueue","RtwqLockWorkQueue function","base.rtwqlockworkqueue","rtworkq/RtwqLockWorkQueue"]
 old-location: base\rtwqlockworkqueue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
 ms.date: 12/05/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue

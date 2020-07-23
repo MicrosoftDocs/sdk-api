@@ -4,7 +4,7 @@ title: IVssBackupComponents::GatherWriterStatus (vsbackup.h)
 description: The GatherWriterStatus method prompts each writer to send a status message.
 helpviewer_keywords: ["GatherWriterStatus","GatherWriterStatus method [VSS]","GatherWriterStatus method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GatherWriterStatus method","IVssBackupComponents.GatherWriterStatus","IVssBackupComponents::GatherWriterStatus","_win32_ivssbackupcomponents_gatherwriterstatus","base.ivssbackupcomponents_gatherwriterstatus","vsbackup/IVssBackupComponents::GatherWriterStatus"]
 old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
 ms.date: 12/05/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus

@@ -4,7 +4,7 @@ title: IMFInputTrustAuthority::GetDecrypter (mfidl.h)
 description: Retrieves a decrypter transform.
 helpviewer_keywords: ["3bc4e2e6-41a8-4751-a7fe-5e1f8c136983","GetDecrypter","GetDecrypter method [Media Foundation]","GetDecrypter method [Media Foundation]","IMFInputTrustAuthority interface","IMFInputTrustAuthority interface [Media Foundation]","GetDecrypter method","IMFInputTrustAuthority.GetDecrypter","IMFInputTrustAuthority::GetDecrypter","mf.imfinputtrustauthority_getdecrypter","mfidl/IMFInputTrustAuthority::GetDecrypter"]
 old-location: mf\imfinputtrustauthority_getdecrypter.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983
 ms.date: 12/05/2018
 ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter method [Media Foundation], GetDecrypter method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetDecrypter method, IMFInputTrustAuthority.GetDecrypter, IMFInputTrustAuthority::GetDecrypter, mf.imfinputtrustauthority_getdecrypter, mfidl/IMFInputTrustAuthority::GetDecrypter

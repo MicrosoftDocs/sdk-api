@@ -4,7 +4,7 @@ title: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD (pwm.h)
 description: Sets the output signal period of a Pulse Width Modulation (PWM) controller to a suggested value.
 helpviewer_keywords: ["IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD","IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control","IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code","base.ioctl_pwm_controller_set_desired_period","pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD"]
 old-location: base\ioctl_pwm_controller_set_desired_period.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD

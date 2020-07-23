@@ -4,7 +4,7 @@ title: IMFTimedTextBinary (mfmediaengine.h)
 description: Represents the data content of a timed-text object.
 helpviewer_keywords: ["IMFTimedTextBinary","IMFTimedTextBinary interface [Media Foundation]","IMFTimedTextBinary interface [Media Foundation]","described","mf.imftimedtextbinary","mfmediaengine/IMFTimedTextBinary"]
 old-location: mf\imftimedtextbinary.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C76FAC0F-6C15-4874-BAE6-7315E1C3066E
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation],described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary

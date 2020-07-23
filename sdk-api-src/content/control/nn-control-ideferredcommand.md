@@ -4,7 +4,7 @@ title: IDeferredCommand (control.h)
 description: The IDeferredCommand interface cancels or modify graph-control commands that were queued using the IQueueCommand interface.When an application calls an IQueueCommand method on the Filter Graph Manager, it receives a pointer to the IDeferredCommand interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
 helpviewer_keywords: ["IDeferredCommand","IDeferredCommand interface [DirectShow]","IDeferredCommand interface [DirectShow]","described","IDeferredCommandInterface","control/IDeferredCommand","dshow.ideferredcommand"]
 old-location: dshow\ideferredcommand.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8161932a-16aa-4700-b91d-b4d8948ad59f
 ms.date: 12/05/2018
 ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], IDeferredCommand interface [DirectShow],described, IDeferredCommandInterface, control/IDeferredCommand, dshow.ideferredcommand

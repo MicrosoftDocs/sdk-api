@@ -4,7 +4,7 @@ title: IEnumPortableDeviceObjectIDs::Next (portabledeviceapi.h)
 description: The Next method retrieves the next one or more object IDs in the enumeration sequence.
 helpviewer_keywords: ["IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK]","Next method","IEnumPortableDeviceObjectIDs.Next","IEnumPortableDeviceObjectIDs::Next","IEnumPortableDeviceObjectIDsNext","Next","Next method [Windows Portable Devices SDK]","Next method [Windows Portable Devices SDK]","IEnumPortableDeviceObjectIDs interface","portabledeviceapi/IEnumPortableDeviceObjectIDs::Next","wpdsdk.ienumportabledeviceobjectids_next"]
 old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next

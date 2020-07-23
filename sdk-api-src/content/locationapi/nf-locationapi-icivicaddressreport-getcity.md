@@ -4,7 +4,7 @@ title: ICivicAddressReport::GetCity (locationapi.h)
 description: Retrieves the city name.
 helpviewer_keywords: ["GetCity","GetCity method [WinLocation]","GetCity method [WinLocation]","ICivicAddressReport interface","ICivicAddressReport interface [WinLocation]","GetCity method","ICivicAddressReport.GetCity","ICivicAddressReport::GetCity","WinLocation_COM_Ref.icivicaddressreport_getcity","locationapi/ICivicAddressReport::GetCity"]
 old-location: winlocation_com_ref\icivicaddressreport_getcity.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: c87debb3-63ab-4d5b-85ff-0ee0653d6ffe
 ms.date: 12/05/2018
 ms.keywords: GetCity, GetCity method [WinLocation], GetCity method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCity method, ICivicAddressReport.GetCity, ICivicAddressReport::GetCity, WinLocation_COM_Ref.icivicaddressreport_getcity, locationapi/ICivicAddressReport::GetCity

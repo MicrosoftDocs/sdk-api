@@ -4,7 +4,7 @@ title: IMFMediaEngine::SetLoop (mfmediaengine.h)
 description: Specifies whether the Media Engine loops playback.
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetLoop method","IMFMediaEngine.SetLoop","IMFMediaEngine::SetLoop","SetLoop","SetLoop method [Media Foundation]","SetLoop method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setloop","mfmediaengine/IMFMediaEngine::SetLoop"]
 old-location: mf\imfmediaengine_setloop.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0B8890EA-9207-428B-8EC2-18B51E1D8365
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMediaEngine.SetLoop, IMFMediaEngine::SetLoop, SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop

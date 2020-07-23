@@ -4,7 +4,7 @@ title: IX500DistinguishedName::get_Name (certenroll.h)
 description: Retrieves a distinguished name.
 helpviewer_keywords: ["IX500DistinguishedName interface [Security]","Name property","IX500DistinguishedName.Name","IX500DistinguishedName.get_Name","IX500DistinguishedName::Name","IX500DistinguishedName::get_Name","Name property [Security]","Name property [Security]","IX500DistinguishedName interface","certenroll/IX500DistinguishedName::Name","certenroll/IX500DistinguishedName::get_Name","get_Name","security.ix500distinguishedname_name_property"]
 old-location: security\ix500distinguishedname_name_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1335c726-c16a-4a15-b231-8a3bd212f4ec
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName interface [Security],Name property, IX500DistinguishedName.Name, IX500DistinguishedName.get_Name, IX500DistinguishedName::Name, IX500DistinguishedName::get_Name, Name property [Security], Name property [Security],IX500DistinguishedName interface, certenroll/IX500DistinguishedName::Name, certenroll/IX500DistinguishedName::get_Name, get_Name, security.ix500distinguishedname_name_property

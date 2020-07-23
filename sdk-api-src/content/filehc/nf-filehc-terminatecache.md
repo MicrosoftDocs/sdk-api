@@ -4,7 +4,7 @@ title: TerminateCache function (filehc.h)
 description: Eliminates the cache and ends asynchronous I/O with the DLL.
 helpviewer_keywords: ["TerminateCache","TerminateCache function [Windows API]","filehc/TerminateCache","winprog._terminatecache"]
 old-location: winprog\_terminatecache.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 3c4bdb54-8baa-4302-89ab-c7e6f35582e5
 ms.date: 12/05/2018
 ms.keywords: TerminateCache, TerminateCache function [Windows API], filehc/TerminateCache, winprog._terminatecache

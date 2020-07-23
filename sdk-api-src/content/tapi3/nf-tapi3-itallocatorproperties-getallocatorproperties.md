@@ -4,7 +4,7 @@ title: ITAllocatorProperties::GetAllocatorProperties (tapi3.h)
 description: The GetAllocatorProperties method gets the current values for the allocator properties after connection and provides the negotiated values. This method is invalid before connection. The MST will accept any values suggested by the connected filters.
 helpviewer_keywords: ["GetAllocatorProperties","GetAllocatorProperties method [TAPI 2.2]","GetAllocatorProperties method [TAPI 2.2]","ITAllocatorProperties interface","ITAllocatorProperties interface [TAPI 2.2]","GetAllocatorProperties method","ITAllocatorProperties.GetAllocatorProperties","ITAllocatorProperties::GetAllocatorProperties","_tapi3_itallocatorproperties_getallocatorproperties","tapi3.itallocatorproperties_getallocatorproperties","tapi3ds/ITAllocatorProperties::GetAllocatorProperties"]
 old-location: tapi3\itallocatorproperties_getallocatorproperties.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 67360904-a632-43cf-9f67-50bbdbb62f48
 ms.date: 12/05/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [TAPI 2.2], GetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocatorProperties method, ITAllocatorProperties.GetAllocatorProperties, ITAllocatorProperties::GetAllocatorProperties, _tapi3_itallocatorproperties_getallocatorproperties, tapi3.itallocatorproperties_getallocatorproperties, tapi3ds/ITAllocatorProperties::GetAllocatorProperties

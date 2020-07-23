@@ -4,7 +4,7 @@ title: IX509ExtensionTemplate::get_MinorVersion (certenroll.h)
 description: Retrieves the minimum minor version number of the certificate template.
 helpviewer_keywords: ["IX509ExtensionTemplate interface [Security]","MinorVersion property","IX509ExtensionTemplate.MinorVersion","IX509ExtensionTemplate.get_MinorVersion","IX509ExtensionTemplate::MinorVersion","IX509ExtensionTemplate::get_MinorVersion","MinorVersion property [Security]","MinorVersion property [Security]","IX509ExtensionTemplate interface","certenroll/IX509ExtensionTemplate::MinorVersion","certenroll/IX509ExtensionTemplate::get_MinorVersion","get_MinorVersion","security.ix509extensiontemplate_minorversion_property"]
 old-location: security\ix509extensiontemplate_minorversion_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0fb17099-4bf6-405c-8b54-4280a8023256
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],MinorVersion property, IX509ExtensionTemplate.MinorVersion, IX509ExtensionTemplate.get_MinorVersion, IX509ExtensionTemplate::MinorVersion, IX509ExtensionTemplate::get_MinorVersion, MinorVersion property [Security], MinorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MinorVersion, certenroll/IX509ExtensionTemplate::get_MinorVersion, get_MinorVersion, security.ix509extensiontemplate_minorversion_property

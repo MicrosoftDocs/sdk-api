@@ -4,7 +4,7 @@ title: WSDCreateUdpAddress function (wsdbase.h)
 description: Creates an IWSDUdpAddress object.
 helpviewer_keywords: ["WSDCreateUdpAddress","WSDCreateUdpAddress function","ncd.wsdcreateudpaddress","wsdbase/WSDCreateUdpAddress"]
 old-location: ncd\wsdcreateudpaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 84610d5f-9b90-4830-b6d3-7b5622709668
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress

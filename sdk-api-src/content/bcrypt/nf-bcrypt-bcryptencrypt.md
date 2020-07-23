@@ -4,7 +4,7 @@ title: BCryptEncrypt function (bcrypt.h)
 description: Encrypts a block of data.
 helpviewer_keywords: ["BCRYPT_BLOCK_PADDING","BCRYPT_PAD_NONE","BCRYPT_PAD_OAEP","BCRYPT_PAD_PKCS1","BCryptEncrypt","BCryptEncrypt function [Security]","bcrypt/BCryptEncrypt","security.bcryptencrypt_func"]
 old-location: security\bcryptencrypt_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 69fe4530-4b7c-40db-a85c-f9dc458735e7
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptEncrypt, BCryptEncrypt function [Security], bcrypt/BCryptEncrypt, security.bcryptencrypt_func

@@ -2,6 +2,7 @@
 UID: NF:directxmath.operator-div~r1
 title: operator/
 description: Divides an XMVECTOR instance by a floating point value, returning the result a new instance of XMVECTOR.
+tech.root: dxmath
 helpviewer_keywords: ["operator/"]
 ms.assetid: 7f917647-be7e-4a70-95ac-134d9728b39b
 ms.date: 05/13/2019

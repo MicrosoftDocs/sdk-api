@@ -2,6 +2,7 @@
 UID: NS:windns._DNS_SERVICE_RESOLVE_REQUEST
 title: DNS_SERVICE_RESOLVE_REQUEST structure
 description: Contains the query parameters used in a call to [DnsServiceResolve](nf-windns-dnsserviceresolve.md).
+tech.root: dns
 helpviewer_keywords: ["_DNS_SERVICE_RESOLVE_REQUEST","DNS_SERVICE_RESOLVE_REQUEST"]
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_RESOLVE_REQUEST, DNS_SERVICE_RESOLVE_REQUEST

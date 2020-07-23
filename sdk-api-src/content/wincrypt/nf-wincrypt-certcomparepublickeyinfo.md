@@ -4,7 +4,7 @@ title: CertComparePublicKeyInfo function (wincrypt.h)
 description: The CertComparePublicKeyInfo function compares two encoded public keys to determine whether they are identical.
 helpviewer_keywords: ["CertComparePublicKeyInfo","CertComparePublicKeyInfo function [Security]","_crypto2_certcomparepublickeyinfo","security.certcomparepublickeyinfo","wincrypt/CertComparePublicKeyInfo"]
 old-location: security\certcomparepublickeyinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 079e4d5e-c8cb-4c3e-8094-13b9a140d564
 ms.date: 12/05/2018
 ms.keywords: CertComparePublicKeyInfo, CertComparePublicKeyInfo function [Security], _crypto2_certcomparepublickeyinfo, security.certcomparepublickeyinfo, wincrypt/CertComparePublicKeyInfo

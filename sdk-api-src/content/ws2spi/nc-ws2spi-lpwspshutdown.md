@@ -2,6 +2,7 @@
 UID: NC:ws2spi.LPWSPSHUTDOWN
 title: LPWSPSHUTDOWN
 description: The LPWSPShutdown function disables sends and/or receives on a socket.
+tech.root: winsock
 helpviewer_keywords: ["LPWSPSHUTDOWN"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSHUTDOWN

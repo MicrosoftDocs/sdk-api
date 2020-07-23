@@ -4,7 +4,7 @@ title: ICivicAddressReport::GetAddressLine1 (locationapi.h)
 description: Retrieves the first line of a street address.
 helpviewer_keywords: ["GetAddressLine1","GetAddressLine1 method [WinLocation]","GetAddressLine1 method [WinLocation]","ICivicAddressReport interface","ICivicAddressReport interface [WinLocation]","GetAddressLine1 method","ICivicAddressReport.GetAddressLine1","ICivicAddressReport::GetAddressLine1","WinLocation_COM_Ref.icivicaddressreport_getaddressline1","locationapi/ICivicAddressReport::GetAddressLine1"]
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline1.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 946f0e69-7139-45e9-8da4-755225ce1bd1
 ms.date: 12/05/2018
 ms.keywords: GetAddressLine1, GetAddressLine1 method [WinLocation], GetAddressLine1 method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetAddressLine1 method, ICivicAddressReport.GetAddressLine1, ICivicAddressReport::GetAddressLine1, WinLocation_COM_Ref.icivicaddressreport_getaddressline1, locationapi/ICivicAddressReport::GetAddressLine1

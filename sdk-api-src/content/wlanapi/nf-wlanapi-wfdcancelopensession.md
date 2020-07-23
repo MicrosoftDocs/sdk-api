@@ -4,7 +4,7 @@ title: WFDCancelOpenSession function (wlanapi.h)
 description: Indicates that the application wants to cancel a pending WFDStartOpenSession function that has not completed.
 helpviewer_keywords: ["WFDCancelOpenSession","WFDCancelOpenSession function [NativeWIFI]","nwifi.wfdcancelopensession","wlanapi/WFDCancelOpenSession"]
 old-location: nwifi\wfdcancelopensession.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 0BE3DAED-C9B1-492B-BDFC-CB32BE23E700
 ms.date: 12/05/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession

@@ -4,7 +4,7 @@ title: PowerRegisterSuspendResumeNotification function (powerbase.h)
 description: Registers to receive notification when the system is suspended or resumed.
 helpviewer_keywords: ["PowerRegisterSuspendResumeNotification","PowerRegisterSuspendResumeNotification function","base.powerregistersuspendresumenotification","powerbase/PowerRegisterSuspendResumeNotification"]
 old-location: base\powerregistersuspendresumenotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeNotification function, base.powerregistersuspendresumenotification, powerbase/PowerRegisterSuspendResumeNotification

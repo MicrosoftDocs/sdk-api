@@ -4,7 +4,7 @@ title: IXpsOMCanvas::GetDictionaryLocal (xpsobjectmodel.h)
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary.
 helpviewer_keywords: ["GetDictionaryLocal","GetDictionaryLocal method [XPS Documents and Packaging]","GetDictionaryLocal method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetDictionaryLocal method","IXpsOMCanvas.GetDictionaryLocal","IXpsOMCanvas::GetDictionaryLocal","xps.ixpsomcanvas_getdictionarylocal","xpsobjectmodel/IXpsOMCanvas::GetDictionaryLocal"]
 old-location: xps\ixpsomcanvas_getdictionarylocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5578ae0f-4da7-4d9f-9133-fbe501ff66a1
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMCanvas.GetDictionaryLocal, IXpsOMCanvas::GetDictionaryLocal, xps.ixpsomcanvas_getdictionarylocal, xpsobjectmodel/IXpsOMCanvas::GetDictionaryLocal

@@ -4,7 +4,7 @@ title: ApplicationProcessSummary (comsvcs.h)
 description: Represents summary information about a process hosting COM+ applications.
 helpviewer_keywords: ["ApplicationProcessSummary","ApplicationProcessSummary structure [COM+]","comsvcs/ApplicationProcessSummary","cos.applicationprocesssummary"]
 old-location: cos\applicationprocesssummary.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2402aca6-4992-4c6e-a6ff-b4cc50c57dde
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM+], comsvcs/ApplicationProcessSummary, cos.applicationprocesssummary

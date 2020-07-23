@@ -4,7 +4,7 @@ title: WofWimRemoveEntry function (wofapi.h)
 description: Removes a single WIM data source from backing files on a volume.
 helpviewer_keywords: ["WofWimRemoveEntry","WofWimRemoveEntry function [Files]","fs.wofwimremoveentry","wofapi/WofWimRemoveEntry"]
 old-location: fs\wofwimremoveentry.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
 ms.date: 12/05/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
