@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultOIDFunctionAddress
 title: CryptGetDefaultOIDFunctionAddress function (wincrypt.h)
-description: The CryptGetDefaultOIDFunctionAddress function loads the DLL that contains a default function address.helpviewer_keywords: ["CryptGetDefaultOIDFunctionAddress","CryptGetDefaultOIDFunctionAddress function [Security]","_crypto2_cryptgetdefaultoidfunctionaddress","security.cryptgetdefaultoidfunctionaddress","wincrypt/CryptGetDefaultOIDFunctionAddress"]
+description: The CryptGetDefaultOIDFunctionAddress function loads the DLL that contains a default function address.
+helpviewer_keywords: ["CryptGetDefaultOIDFunctionAddress","CryptGetDefaultOIDFunctionAddress function [Security]","_crypto2_cryptgetdefaultoidfunctionaddress","security.cryptgetdefaultoidfunctionaddress","wincrypt/CryptGetDefaultOIDFunctionAddress"]
 old-location: security\cryptgetdefaultoidfunctionaddress.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3977368c-ad13-43f9-859b-10c7f170f482
 ms.date: 12/05/2018
 ms.keywords: CryptGetDefaultOIDFunctionAddress, CryptGetDefaultOIDFunctionAddress function [Security], _crypto2_cryptgetdefaultoidfunctionaddress, security.cryptgetdefaultoidfunctionaddress, wincrypt/CryptGetDefaultOIDFunctionAddress

@@ -4,7 +4,7 @@ title: FSCTL_SET_COMPRESSION
 description: Sets the compression state of a file or directory on a volume whose file system supports per-file and per-directory compression.
 helpviewer_keywords: ["COMPRESSION_FORMAT_DEFAULT","COMPRESSION_FORMAT_LZNT1","COMPRESSION_FORMAT_NONE","FSCTL_SET_COMPRESSION","FSCTL_SET_COMPRESSION control","FSCTL_SET_COMPRESSION control code [Files]","_win32_fsctl_set_compression","all other values","base.fsctl_set_compression","fs.fsctl_set_compression","winioctl/FSCTL_SET_COMPRESSION"]
 old-location: fs\fsctl_set_compression.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e6fb29ed-f4f4-4507-8312-d771ffb00256
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_SET_COMPRESSION, FSCTL_SET_COMPRESSION control, FSCTL_SET_COMPRESSION control code [Files], _win32_fsctl_set_compression, all other values, base.fsctl_set_compression, fs.fsctl_set_compression, winioctl/FSCTL_SET_COMPRESSION

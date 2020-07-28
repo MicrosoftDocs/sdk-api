@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVideoCompression.GetInfo
 title: IAMVideoCompression::GetInfo (strmif.h)
-description: The GetInfo method retrieves information about the filter's compression properties, including capabilities and default values.helpviewer_keywords: ["GetInfo","GetInfo method [DirectShow]","GetInfo method [DirectShow]","IAMVideoCompression interface","IAMVideoCompression interface [DirectShow]","GetInfo method","IAMVideoCompression.GetInfo","IAMVideoCompression::GetInfo","IAMVideoCompressionGetInfo","dshow.iamvideocompression_getinfo","strmif/IAMVideoCompression::GetInfo"]
+description: The GetInfo method retrieves information about the filter's compression properties, including capabilities and default values.
+helpviewer_keywords: ["GetInfo","GetInfo method [DirectShow]","GetInfo method [DirectShow]","IAMVideoCompression interface","IAMVideoCompression interface [DirectShow]","GetInfo method","IAMVideoCompression.GetInfo","IAMVideoCompression::GetInfo","IAMVideoCompressionGetInfo","dshow.iamvideocompression_getinfo","strmif/IAMVideoCompression::GetInfo"]
 old-location: dshow\iamvideocompression_getinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d8ba2ba2-510a-4fb8-844e-48059ec4ef0d
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMVideoCompression interface, IAMVideoCompression interface [DirectShow],GetInfo method, IAMVideoCompression.GetInfo, IAMVideoCompression::GetInfo, IAMVideoCompressionGetInfo, dshow.iamvideocompression_getinfo, strmif/IAMVideoCompression::GetInfo

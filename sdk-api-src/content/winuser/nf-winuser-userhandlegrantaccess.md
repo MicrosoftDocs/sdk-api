@@ -1,9 +1,10 @@
 ---
 UID: NF:winuser.UserHandleGrantAccess
 title: UserHandleGrantAccess function (winuser.h)
-description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.helpviewer_keywords: ["UserHandleGrantAccess","UserHandleGrantAccess function","_win32_userhandlegrantaccess","base.userhandlegrantaccess","winuser/UserHandleGrantAccess"]
+description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.
+helpviewer_keywords: ["UserHandleGrantAccess","UserHandleGrantAccess function","_win32_userhandlegrantaccess","base.userhandlegrantaccess","winuser/UserHandleGrantAccess"]
 old-location: base\userhandlegrantaccess.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
 ms.date: 12/05/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess

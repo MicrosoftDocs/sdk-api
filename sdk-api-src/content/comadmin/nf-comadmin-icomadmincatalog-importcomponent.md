@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ImportComponent
 title: ICOMAdminCatalog::ImportComponent (comadmin.h)
-description: Imports a component already registered as an in-process server into a COM+ application.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","ImportComponent method","ICOMAdminCatalog.ImportComponent","ICOMAdminCatalog::ImportComponent","ImportComponent","ImportComponent method [COM+]","ImportComponent method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_ImportComponent","comadmin/ICOMAdminCatalog::ImportComponent","cos.icomadmincatalog_importcomponent"]
+description: Imports a component already registered as an in-process server into a COM+ application.
+helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","ImportComponent method","ICOMAdminCatalog.ImportComponent","ICOMAdminCatalog::ImportComponent","ImportComponent","ImportComponent method [COM+]","ImportComponent method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_ImportComponent","comadmin/ICOMAdminCatalog::ImportComponent","cos.icomadmincatalog_importcomponent"]
 old-location: cos\icomadmincatalog_importcomponent.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 0e29025d-60bc-4f95-a6f9-aa178769855c
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ImportComponent method, ICOMAdminCatalog.ImportComponent, ICOMAdminCatalog::ImportComponent, ImportComponent, ImportComponent method [COM+], ImportComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ImportComponent, comadmin/ICOMAdminCatalog::ImportComponent, cos.icomadmincatalog_importcomponent

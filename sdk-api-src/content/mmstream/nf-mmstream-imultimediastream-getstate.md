@@ -1,9 +1,10 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetState
 title: IMultiMediaStream::GetState (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetState method retrieves the current state of the multimedia stream object.helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetState method","IMultiMediaStream.GetState","IMultiMediaStream::GetState","IMultiMediaStreamGetState","dshow.imultimediastream_getstate","mmstream/IMultiMediaStream::GetState"]
+description: Note  This interface is deprecated. New applications should not use it. The GetState method retrieves the current state of the multimedia stream object.
+helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetState method","IMultiMediaStream.GetState","IMultiMediaStream::GetState","IMultiMediaStreamGetState","dshow.imultimediastream_getstate","mmstream/IMultiMediaStream::GetState"]
 old-location: dshow\imultimediastream_getstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8d01c4cf-2de9-4e9c-8b6e-921284f4f1b6
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetState method, IMultiMediaStream.GetState, IMultiMediaStream::GetState, IMultiMediaStreamGetState, dshow.imultimediastream_getstate, mmstream/IMultiMediaStream::GetState

@@ -1,9 +1,10 @@
 ---
 UID: NF:memoryapi.VirtualFreeEx
 title: VirtualFreeEx function (memoryapi.h)
-description: Releases, decommits, or releases and decommits a region of memory within the virtual address space of a specified process.helpviewer_keywords: ["MEM_COALESCE_PLACEHOLDERS","MEM_DECOMMIT","MEM_PRESERVE_PLACEHOLDER","MEM_RELEASE","VirtualFreeEx","VirtualFreeEx function","_win32_virtualfreeex","base.virtualfreeex","winbase/VirtualFreeEx"]
+description: Releases, decommits, or releases and decommits a region of memory within the virtual address space of a specified process.
+helpviewer_keywords: ["MEM_COALESCE_PLACEHOLDERS","MEM_DECOMMIT","MEM_PRESERVE_PLACEHOLDER","MEM_RELEASE","VirtualFreeEx","VirtualFreeEx function","_win32_virtualfreeex","base.virtualfreeex","winbase/VirtualFreeEx"]
 old-location: base\virtualfreeex.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
 ms.date: 12/05/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
@@ -104,7 +105,52 @@ If <i>dwFreeType</i> is <b>MEM_DECOMMIT</b>, the function decommits all memory p
 
 ### -param dwFreeType [in]
 
-The type of free operation. This parameter can be one of the following values.
+The type of free operation. This parameter must be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_DECOMMIT"></a><a id="mem_decommit"></a><dl>
+<dt><b>MEM_DECOMMIT</b></dt>
+<dt>0x00004000</dt>
+</dl>
+</td>
+<td width="60%">
+Decommits the specified region of committed pages. After the operation, the pages are in the reserved state. 
+
+The function does not fail if you attempt to decommit an uncommitted page. This means that you can decommit a range of pages without first determining the current commitment state.
+
+The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> parameter provides the base address for an enclave.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MEM_RELEASE"></a><a id="mem_release"></a><dl>
+<dt><b>MEM_RELEASE</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+Releases the specified region of pages, or placeholder (for a placeholder, the address space is released and available for other allocations). After this operation, the pages are in the free state. 
+
+
+If you specify this value, <i>dwSize</i> must be 0 (zero), and <i>lpAddress</i> must point to the base address returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function when the region is reserved. The function fails if either of these conditions is not met.
+
+If any pages in the region are committed currently, the function first decommits, and then releases them.
+
+The function does not fail if you attempt to release pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state.
+
+</td>
+</tr>
+</table>
+
+
+When using <b>MEM_RELEASE</b>, this parameter can additionally specify one of the following values.
+
 
 <table>
 <tr>
@@ -135,52 +181,7 @@ To split a placeholder into two placeholders, specify <code>MEM_RELEASE | MEM_PR
 
 </td>
 </tr>
-<tr>
-<td width="40%"><a id="MEM_DECOMMIT"></a><a id="mem_decommit"></a><dl>
-<dt><b>MEM_DECOMMIT</b></dt>
-<dt>0x4000</dt>
-</dl>
-</td>
-<td width="60%">
-Decommits the specified region of committed pages. After the operation, the pages are in the reserved state. 
-
-
-
-
-The function does not fail if you attempt to decommit an uncommitted page. This means that you can decommit a range of pages without first determining their current commitment state.
-
-Do not use this value with <b>MEM_RELEASE</b>.
-
-The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> parameter provides the base address for an enclave.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MEM_RELEASE"></a><a id="mem_release"></a><dl>
-<dt><b>MEM_RELEASE</b></dt>
-<dt>0x8000</dt>
-</dl>
-</td>
-<td width="60%">
-Releases the specified region of pages, or placeholder (for a placeholder, the address space is released and available for other allocations). After the operation, the pages are in the free state. 
-
-
-
-
-If you specify this value, <i>dwSize</i> must be 0 (zero), and <i>lpAddress</i> must point to the base address returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function when the region is reserved. The function fails if either of these conditions is not met.
-
-If any pages in the region are committed currently, the function first decommits, and then releases them.
-
-The function does not fail if you attempt to release pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state.
-
-Do not use this value with <b>MEM_DECOMMIT</b>.
-
-</td>
-</tr>
 </table>
- 
-
 
 ## -returns
 

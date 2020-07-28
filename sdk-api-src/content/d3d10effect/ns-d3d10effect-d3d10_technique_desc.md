@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10effect._D3D10_TECHNIQUE_DESC
 title: D3D10_TECHNIQUE_DESC (d3d10effect.h)
-description: Describes an effect technique.helpviewer_keywords: ["506d7648-e159-3365-396e-418be67bb2d9","D3D10_TECHNIQUE_DESC","D3D10_TECHNIQUE_DESC structure [Direct3D 10]","d3d10effect/D3D10_TECHNIQUE_DESC","direct3d10.d3d10_technique_desc"]
+description: Describes an effect technique.
+helpviewer_keywords: ["506d7648-e159-3365-396e-418be67bb2d9","D3D10_TECHNIQUE_DESC","D3D10_TECHNIQUE_DESC structure [Direct3D 10]","d3d10effect/D3D10_TECHNIQUE_DESC","direct3d10.d3d10_technique_desc"]
 old-location: direct3d10\d3d10_technique_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_technique_desc.htm

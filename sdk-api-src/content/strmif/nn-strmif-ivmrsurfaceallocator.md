@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocator
 title: IVMRSurfaceAllocator (strmif.h)
-description: The IVMRSurfaceAllocator interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 7 (VMR-7).helpviewer_keywords: ["IVMRSurfaceAllocator","IVMRSurfaceAllocator interface [DirectShow]","IVMRSurfaceAllocator interface [DirectShow]","described","IVMRSurfaceAllocatorInterface","dshow.ivmrsurfaceallocator","strmif/IVMRSurfaceAllocator"]
+description: The IVMRSurfaceAllocator interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 7 (VMR-7).
+helpviewer_keywords: ["IVMRSurfaceAllocator","IVMRSurfaceAllocator interface [DirectShow]","IVMRSurfaceAllocator interface [DirectShow]","described","IVMRSurfaceAllocatorInterface","dshow.ivmrsurfaceallocator","strmif/IVMRSurfaceAllocator"]
 old-location: dshow\ivmrsurfaceallocator.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bbcbe152-80fd-469b-a79b-c8db6f97da22
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], IVMRSurfaceAllocator interface [DirectShow],described, IVMRSurfaceAllocatorInterface, dshow.ivmrsurfaceallocator, strmif/IVMRSurfaceAllocator

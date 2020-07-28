@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineProtectedContent
 title: IMFMediaEngineProtectedContent (mfmediaengine.h)
-description: Enables the Media Engine to play protected video content.helpviewer_keywords: ["IMFMediaEngineProtectedContent","IMFMediaEngineProtectedContent interface [Media Foundation]","IMFMediaEngineProtectedContent interface [Media Foundation]","described","mf.imfmediaengineprotectedcontent","mfmediaengine/IMFMediaEngineProtectedContent"]
+description: Enables the Media Engine to play protected video content.
+helpviewer_keywords: ["IMFMediaEngineProtectedContent","IMFMediaEngineProtectedContent interface [Media Foundation]","IMFMediaEngineProtectedContent interface [Media Foundation]","described","mf.imfmediaengineprotectedcontent","mfmediaengine/IMFMediaEngineProtectedContent"]
 old-location: mf\imfmediaengineprotectedcontent.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent

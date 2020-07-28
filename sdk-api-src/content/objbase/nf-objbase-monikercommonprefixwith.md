@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.MonikerCommonPrefixWith
 title: MonikerCommonPrefixWith function (objbase.h)
-description: Creates a new moniker based on the common prefix that this moniker (the one comprising the data of this moniker object) shares with another moniker.helpviewer_keywords: ["MonikerCommonPrefixWith","MonikerCommonPrefixWith function [COM]","_com_MonikerCommonPrefixWith","com.monikercommonprefixwith","objbase/MonikerCommonPrefixWith"]
+description: Creates a new moniker based on the common prefix that this moniker (the one comprising the data of this moniker object) shares with another moniker.
+helpviewer_keywords: ["MonikerCommonPrefixWith","MonikerCommonPrefixWith function [COM]","_com_MonikerCommonPrefixWith","com.monikercommonprefixwith","objbase/MonikerCommonPrefixWith"]
 old-location: com\monikercommonprefixwith.htm
 tech.root: com
 ms.assetid: 6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926

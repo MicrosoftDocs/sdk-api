@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventClass.get_EventClassID
 title: IEventClass::get_EventClassID (eventsys.h)
-description: The CLSID for the event class object.helpviewer_keywords: ["EventClassID property [COM+]","EventClassID property [COM+]","IEventClass interface","IEventClass interface [COM+]","EventClassID property","IEventClass.EventClassID","IEventClass.get_EventClassID","IEventClass::EventClassID","IEventClass::get_EventClassID","IEventClass::put_EventClassID","cos.ieventclass_eventclassid","eventsys/IEventClass::EventClassID","eventsys/IEventClass::get_EventClassID","eventsys/IEventClass::put_EventClassID","get_EventClassID"]
+description: The CLSID for the event class object.
+helpviewer_keywords: ["EventClassID property [COM+]","EventClassID property [COM+]","IEventClass interface","IEventClass interface [COM+]","EventClassID property","IEventClass.EventClassID","IEventClass.get_EventClassID","IEventClass::EventClassID","IEventClass::get_EventClassID","IEventClass::put_EventClassID","cos.ieventclass_eventclassid","eventsys/IEventClass::EventClassID","eventsys/IEventClass::get_EventClassID","eventsys/IEventClass::put_EventClassID","get_EventClassID"]
 old-location: cos\ieventclass_eventclassid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: eb51a015-cb99-4cbc-8fba-8c4834adcf65
 ms.date: 12/05/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventClass interface, IEventClass interface [COM+],EventClassID property, IEventClass.EventClassID, IEventClass.get_EventClassID, IEventClass::EventClassID, IEventClass::get_EventClassID, IEventClass::put_EventClassID, cos.ieventclass_eventclassid, eventsys/IEventClass::EventClassID, eventsys/IEventClass::get_EventClassID, eventsys/IEventClass::put_EventClassID, get_EventClassID

@@ -1,9 +1,10 @@
 ---
 UID: NC:msdrmdefs.DRMCALLBACK
 title: DRMCALLBACK (msdrmdefs.h)
-description: Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.helpviewer_keywords: ["DRM callback","DRMCallback","DRMCallback callback function [Active Directory Rights Management Services SDK 1.0]","msdrmdefs/DRMCallback","rm.callback_prototype"]
+description: Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
+helpviewer_keywords: ["DRM callback","DRMCallback","DRMCallback callback function [Active Directory Rights Management Services SDK 1.0]","msdrmdefs/DRMCallback","rm.callback_prototype"]
 old-location: rm\callback_prototype.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
 ms.date: 12/05/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype

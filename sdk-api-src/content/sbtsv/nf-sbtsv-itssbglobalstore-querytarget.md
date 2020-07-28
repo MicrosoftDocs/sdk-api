@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.QueryTarget
 title: ITsSbGlobalStore::QueryTarget (sbtsv.h)
-description: Retrieves the ITsSbTarget object for the given parameters.helpviewer_keywords: ["ITsSbGlobalStore interface [Remote Desktop Services]","QueryTarget method","ITsSbGlobalStore.QueryTarget","ITsSbGlobalStore::QueryTarget","QueryTarget","QueryTarget method [Remote Desktop Services]","QueryTarget method [Remote Desktop Services]","ITsSbGlobalStore interface","sbtsv/ITsSbGlobalStore::QueryTarget","termserv.itssbglobalstore_querytarget"]
+description: Retrieves the ITsSbTarget object for the given parameters.
+helpviewer_keywords: ["ITsSbGlobalStore interface [Remote Desktop Services]","QueryTarget method","ITsSbGlobalStore.QueryTarget","ITsSbGlobalStore::QueryTarget","QueryTarget","QueryTarget method [Remote Desktop Services]","QueryTarget method [Remote Desktop Services]","ITsSbGlobalStore interface","sbtsv/ITsSbGlobalStore::QueryTarget","termserv.itssbglobalstore_querytarget"]
 old-location: termserv\itssbglobalstore_querytarget.htm
 tech.root: TermServ
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f

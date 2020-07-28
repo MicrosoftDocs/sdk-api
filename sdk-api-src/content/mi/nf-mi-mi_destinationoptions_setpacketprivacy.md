@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetPacketPrivacy
 title: MI_DestinationOptions_SetPacketPrivacy function (mi.h)
-description: Enables or disables packet privacy (encryption).helpviewer_keywords: ["MI_DestinationOptions_SetPacketPrivacy","MI_DestinationOptions_SetPacketPrivacy function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetPacketPrivacy","wmi_v2.mi_destinationoptions_setpacketprivacy"]
+description: Enables or disables packet privacy (encryption).
+helpviewer_keywords: ["MI_DestinationOptions_SetPacketPrivacy","MI_DestinationOptions_SetPacketPrivacy function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetPacketPrivacy","wmi_v2.mi_destinationoptions_setpacketprivacy"]
 old-location: wmi_v2\mi_destinationoptions_setpacketprivacy.htm
 tech.root: wmi_v2
 ms.assetid: bb047646-fa95-4691-946c-5faf5b7edc8b

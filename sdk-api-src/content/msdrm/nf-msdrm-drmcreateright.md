@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMCreateRight
 title: DRMCreateRight function (msdrm.h)
-description: Creates an XrML right that will define a right granted to a user or group.helpviewer_keywords: ["DRMCreateRight","DRMCreateRight function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateRight","rm.drmcreateright"]
+description: Creates an XrML right that will define a right granted to a user or group.
+helpviewer_keywords: ["DRMCreateRight","DRMCreateRight function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateRight","rm.drmcreateright"]
 old-location: rm\drmcreateright.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 05074fbd-9268-41b4-a916-a932dc7a7858
 ms.date: 12/05/2018
 ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateRight, rm.drmcreateright

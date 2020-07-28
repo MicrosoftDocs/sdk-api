@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetMatchingFonts
 title: IDWriteFontFamily::GetMatchingFonts (dwrite.h)
-description: Gets a list of fonts in the font family ranked in order of how well they match the specified properties.helpviewer_keywords: ["GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontFamily interface","IDWriteFontFamily interface [Direct Write]","GetMatchingFonts method","IDWriteFontFamily.GetMatchingFonts","IDWriteFontFamily::GetMatchingFonts","directwrite.IDWriteFontFamily_GetMatchingFonts","dwrite/IDWriteFontFamily::GetMatchingFonts"]
+description: Gets a list of fonts in the font family ranked in order of how well they match the specified properties.
+helpviewer_keywords: ["GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontFamily interface","IDWriteFontFamily interface [Direct Write]","GetMatchingFonts method","IDWriteFontFamily.GetMatchingFonts","IDWriteFontFamily::GetMatchingFonts","directwrite.IDWriteFontFamily_GetMatchingFonts","dwrite/IDWriteFontFamily::GetMatchingFonts"]
 old-location: directwrite\IDWriteFontFamily_GetMatchingFonts.htm
 tech.root: DirectWrite
 ms.assetid: 81984e35-7b62-4e14-9ded-45cee49a8921

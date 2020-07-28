@@ -4,7 +4,7 @@ title: ReadOnlyEnlistment function (ktmw32.h)
 description: Requests that the specified enlistment be converted to a read-only enlistment. A read-only enlistment cannot participate in the outcome of the transaction and is not durably recorded for recovery.
 helpviewer_keywords: ["ReadOnlyEnlistment","ReadOnlyEnlistment function [Files]","fs.readonlyenlistment","ktmw32/ReadOnlyEnlistment"]
 old-location: fs\readonlyenlistment.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
 ms.date: 12/05/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment

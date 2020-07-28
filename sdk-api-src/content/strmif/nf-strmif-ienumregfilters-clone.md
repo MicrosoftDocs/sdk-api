@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Clone
 title: IEnumRegFilters::Clone (strmif.h)
-description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumRegFilters interface","IEnumRegFilters interface [DirectShow]","Clone method","IEnumRegFilters.Clone","IEnumRegFilters::Clone","IEnumRegFiltersClone","dshow.ienumregfilters_clone","strmif/IEnumRegFilters::Clone"]
+description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumRegFilters interface","IEnumRegFilters interface [DirectShow]","Clone method","IEnumRegFilters.Clone","IEnumRegFilters::Clone","IEnumRegFiltersClone","dshow.ienumregfilters_clone","strmif/IEnumRegFilters::Clone"]
 old-location: dshow\ienumregfilters_clone.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ba4366fa-57ba-4057-b3b9-5380e0fca006
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumRegFilters interface, IEnumRegFilters interface [DirectShow],Clone method, IEnumRegFilters.Clone, IEnumRegFilters::Clone, IEnumRegFiltersClone, dshow.ienumregfilters_clone, strmif/IEnumRegFilters::Clone

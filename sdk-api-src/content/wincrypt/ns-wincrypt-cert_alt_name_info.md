@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_ALT_NAME_INFO
 title: CERT_ALT_NAME_INFO (wincrypt.h)
-description: The CERT_ALT_NAME_INFO structure is used in encoding and decoding extensions for subject or issuer certificates, Certificate Revocation Lists (CRLs), and Certificate Trust Lists (CTLs).helpviewer_keywords: ["*PCERT_ALT_NAME_INFO","CERT_ALT_NAME_INFO","CERT_ALT_NAME_INFO structure [Security]","PCERT_ALT_NAME_INFO","PCERT_ALT_NAME_INFO structure pointer [Security]","_crypto2_cert_alt_name_info","security.cert_alt_name_info","wincrypt/CERT_ALT_NAME_INFO","wincrypt/PCERT_ALT_NAME_INFO"]
+description: The CERT_ALT_NAME_INFO structure is used in encoding and decoding extensions for subject or issuer certificates, Certificate Revocation Lists (CRLs), and Certificate Trust Lists (CTLs).
+helpviewer_keywords: ["*PCERT_ALT_NAME_INFO","CERT_ALT_NAME_INFO","CERT_ALT_NAME_INFO structure [Security]","PCERT_ALT_NAME_INFO","PCERT_ALT_NAME_INFO structure pointer [Security]","_crypto2_cert_alt_name_info","security.cert_alt_name_info","wincrypt/CERT_ALT_NAME_INFO","wincrypt/PCERT_ALT_NAME_INFO"]
 old-location: security\cert_alt_name_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f9a20827-3333-4ce2-b074-2e8ce903fad2
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO structure [Security], PCERT_ALT_NAME_INFO, PCERT_ALT_NAME_INFO structure pointer [Security], _crypto2_cert_alt_name_info, security.cert_alt_name_info, wincrypt/CERT_ALT_NAME_INFO, wincrypt/PCERT_ALT_NAME_INFO'

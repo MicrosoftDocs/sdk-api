@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFStreamDescriptor.GetStreamIdentifier
 title: IMFStreamDescriptor::GetStreamIdentifier (mfidl.h)
-description: Retrieves an identifier for the stream.helpviewer_keywords: ["GetStreamIdentifier","GetStreamIdentifier method [Media Foundation]","GetStreamIdentifier method [Media Foundation]","IMFStreamDescriptor interface","IMFStreamDescriptor interface [Media Foundation]","GetStreamIdentifier method","IMFStreamDescriptor.GetStreamIdentifier","IMFStreamDescriptor::GetStreamIdentifier","d282ee48-6145-4557-8fa7-786b893327fa","mf.imfstreamdescriptor_getstreamidentifier","mfidl/IMFStreamDescriptor::GetStreamIdentifier"]
+description: Retrieves an identifier for the stream.
+helpviewer_keywords: ["GetStreamIdentifier","GetStreamIdentifier method [Media Foundation]","GetStreamIdentifier method [Media Foundation]","IMFStreamDescriptor interface","IMFStreamDescriptor interface [Media Foundation]","GetStreamIdentifier method","IMFStreamDescriptor.GetStreamIdentifier","IMFStreamDescriptor::GetStreamIdentifier","d282ee48-6145-4557-8fa7-786b893327fa","mf.imfstreamdescriptor_getstreamidentifier","mfidl/IMFStreamDescriptor::GetStreamIdentifier"]
 old-location: mf\imfstreamdescriptor_getstreamidentifier.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d282ee48-6145-4557-8fa7-786b893327fa
 ms.date: 12/05/2018
 ms.keywords: GetStreamIdentifier, GetStreamIdentifier method [Media Foundation], GetStreamIdentifier method [Media Foundation],IMFStreamDescriptor interface, IMFStreamDescriptor interface [Media Foundation],GetStreamIdentifier method, IMFStreamDescriptor.GetStreamIdentifier, IMFStreamDescriptor::GetStreamIdentifier, d282ee48-6145-4557-8fa7-786b893327fa, mf.imfstreamdescriptor_getstreamidentifier, mfidl/IMFStreamDescriptor::GetStreamIdentifier

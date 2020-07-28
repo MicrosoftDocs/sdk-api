@@ -1,9 +1,10 @@
 ---
 UID: NF:instance.CInstance.GetStatus
 title: CInstance::GetStatus (instance.h)
-description: The GetStatus method determines whether a property exists and, if so, determines its type.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetStatus method","CInstance.GetStatus","CInstance::GetStatus","GetStatus","GetStatus method [Windows Management Instrumentation]","GetStatus method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getstatus","instance/CInstance::GetStatus","wmi.cinstance_getstatus"]
+description: The GetStatus method determines whether a property exists and, if so, determines its type.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetStatus method","CInstance.GetStatus","CInstance::GetStatus","GetStatus","GetStatus method [Windows Management Instrumentation]","GetStatus method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getstatus","instance/CInstance::GetStatus","wmi.cinstance_getstatus"]
 old-location: wmi\cinstance_getstatus.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 355386c5-7cd2-46de-8696-a83bd3f96cc5
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStatus method, CInstance.GetStatus, CInstance::GetStatus, GetStatus, GetStatus method [Windows Management Instrumentation], GetStatus method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstatus, instance/CInstance::GetStatus, wmi.cinstance_getstatus

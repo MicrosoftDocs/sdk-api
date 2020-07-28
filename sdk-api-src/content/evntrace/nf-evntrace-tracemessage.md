@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.TraceMessage
 title: TraceMessage function (evntrace.h)
-description: The TraceMessage function sends an informational message to an event tracing session.helpviewer_keywords: ["PVOID","TRACE_MESSAGE_COMPONENTID","TRACE_MESSAGE_GUID","TRACE_MESSAGE_SEQUENCE","TRACE_MESSAGE_SYSTEMINFO","TRACE_MESSAGE_TIMESTAMP","TraceMessage","TraceMessage function [ETW]","_evt_tracemessage","base.tracemessage","etw.tracemessage","evntrace/TraceMessage","size_t"]
+description: The TraceMessage function sends an informational message to an event tracing session.
+helpviewer_keywords: ["PVOID","TRACE_MESSAGE_COMPONENTID","TRACE_MESSAGE_GUID","TRACE_MESSAGE_SEQUENCE","TRACE_MESSAGE_SYSTEMINFO","TRACE_MESSAGE_TIMESTAMP","TraceMessage","TraceMessage function [ETW]","_evt_tracemessage","base.tracemessage","etw.tracemessage","evntrace/TraceMessage","size_t"]
 old-location: etw\tracemessage.htm
 tech.root: ETW
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a

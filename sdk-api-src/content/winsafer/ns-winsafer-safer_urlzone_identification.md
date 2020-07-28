@@ -1,9 +1,10 @@
 ---
 UID: NS:winsafer._SAFER_URLZONE_IDENTIFICATION
 title: SAFER_URLZONE_IDENTIFICATION (winsafer.h)
-description: Represents a URL zone identification rule.helpviewer_keywords: ["*PSAFER_URLZONE_IDENTIFICATION","PSAFER_URLZONE_IDENTIFICATION","PSAFER_URLZONE_IDENTIFICATION structure pointer [Security]","SAFER_URLZONE_IDENTIFICATION","SAFER_URLZONE_IDENTIFICATION structure [Security]","URLZONE_INTERNET","URLZONE_INTRANET","URLZONE_LOCAL_MACHINE","URLZONE_TRUSTED","URLZONE_UNTRUSTED","_mnp_safer_urlzone_identification","security.safer_urlzone_identification","winsafer/PSAFER_URLZONE_IDENTIFICATION","winsafer/SAFER_URLZONE_IDENTIFICATION"]
+description: Represents a URL zone identification rule.
+helpviewer_keywords: ["*PSAFER_URLZONE_IDENTIFICATION","PSAFER_URLZONE_IDENTIFICATION","PSAFER_URLZONE_IDENTIFICATION structure pointer [Security]","SAFER_URLZONE_IDENTIFICATION","SAFER_URLZONE_IDENTIFICATION structure [Security]","URLZONE_INTERNET","URLZONE_INTRANET","URLZONE_LOCAL_MACHINE","URLZONE_TRUSTED","URLZONE_UNTRUSTED","_mnp_safer_urlzone_identification","security.safer_urlzone_identification","winsafer/PSAFER_URLZONE_IDENTIFICATION","winsafer/SAFER_URLZONE_IDENTIFICATION"]
 old-location: security\safer_urlzone_identification.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 8f165956-9ef0-469e-a71b-f9341a347e59
 ms.date: 12/05/2018
 ms.keywords: '*PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION structure pointer [Security], SAFER_URLZONE_IDENTIFICATION, SAFER_URLZONE_IDENTIFICATION structure [Security], URLZONE_INTERNET, URLZONE_INTRANET, URLZONE_LOCAL_MACHINE, URLZONE_TRUSTED, URLZONE_UNTRUSTED, _mnp_safer_urlzone_identification, security.safer_urlzone_identification, winsafer/PSAFER_URLZONE_IDENTIFICATION, winsafer/SAFER_URLZONE_IDENTIFICATION'

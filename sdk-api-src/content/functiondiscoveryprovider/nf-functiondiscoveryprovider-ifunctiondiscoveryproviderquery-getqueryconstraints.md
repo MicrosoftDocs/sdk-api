@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetQueryConstraints
 title: IFunctionDiscoveryProviderQuery::GetQueryConstraints (functiondiscoveryprovider.h)
-description: Retrieves the current query constraints.helpviewer_keywords: ["GetQueryConstraints","GetQueryConstraints method","GetQueryConstraints method","IFunctionDiscoveryProviderQuery interface","IFunctionDiscoveryProviderQuery interface","GetQueryConstraints method","IFunctionDiscoveryProviderQuery.GetQueryConstraints","IFunctionDiscoveryProviderQuery::GetQueryConstraints","functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints","ncd.ifunctiondiscoveryproviderquery_getqueryconstraints"]
+description: Retrieves the current query constraints.
+helpviewer_keywords: ["GetQueryConstraints","GetQueryConstraints method","GetQueryConstraints method","IFunctionDiscoveryProviderQuery interface","IFunctionDiscoveryProviderQuery interface","GetQueryConstraints method","IFunctionDiscoveryProviderQuery.GetQueryConstraints","IFunctionDiscoveryProviderQuery::GetQueryConstraints","functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints","ncd.ifunctiondiscoveryproviderquery_getqueryconstraints"]
 old-location: ncd\ifunctiondiscoveryproviderquery_getqueryconstraints.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: a8329732-79dd-4606-96c3-40534cde5fc4
 ms.date: 12/05/2018
 ms.keywords: GetQueryConstraints, GetQueryConstraints method, GetQueryConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetQueryConstraints method, IFunctionDiscoveryProviderQuery.GetQueryConstraints, IFunctionDiscoveryProviderQuery::GetQueryConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints, ncd.ifunctiondiscoveryproviderquery_getqueryconstraints

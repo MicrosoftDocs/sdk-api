@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetVolume
 title: IMFMediaEngine::SetVolume (mfmediaengine.h)
-description: Sets the audio volume level.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetVolume method","IMFMediaEngine.SetVolume","IMFMediaEngine::SetVolume","SetVolume","SetVolume method [Media Foundation]","SetVolume method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setvolume","mfmediaengine/IMFMediaEngine::SetVolume"]
+description: Sets the audio volume level.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetVolume method","IMFMediaEngine.SetVolume","IMFMediaEngine::SetVolume","SetVolume","SetVolume method [Media Foundation]","SetVolume method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setvolume","mfmediaengine/IMFMediaEngine::SetVolume"]
 old-location: mf\imfmediaengine_setvolume.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 010EE05C-3F81-404E-8AFB-7C57CA55A8AE
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetVolume method, IMFMediaEngine.SetVolume, IMFMediaEngine::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setvolume, mfmediaengine/IMFMediaEngine::SetVolume

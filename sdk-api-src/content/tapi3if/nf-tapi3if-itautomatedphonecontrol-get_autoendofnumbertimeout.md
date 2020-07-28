@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout
 title: ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout (tapi3if.h)
-description: The get_AutoEndOfNumberTimeout method retrieves the current value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_AutoEndOfNumberTimeout method","ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout","ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout","_tapi3_itautomatedphonecontrol_get_autoendofnumbertimeout","get_AutoEndOfNumberTimeout","get_AutoEndOfNumberTimeout method [TAPI 2.2]","get_AutoEndOfNumberTimeout method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_autoendofnumbertimeout","tapi3if/ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout"]
+description: The get_AutoEndOfNumberTimeout method retrieves the current value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
+helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_AutoEndOfNumberTimeout method","ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout","ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout","_tapi3_itautomatedphonecontrol_get_autoendofnumbertimeout","get_AutoEndOfNumberTimeout","get_AutoEndOfNumberTimeout method [TAPI 2.2]","get_AutoEndOfNumberTimeout method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_autoendofnumbertimeout","tapi3if/ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout"]
 old-location: tapi3\itautomatedphonecontrol_get_autoendofnumbertimeout.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c5bc3176-7237-4c20-808a-b2d028ae4344
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoEndOfNumberTimeout method, ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout, ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout, _tapi3_itautomatedphonecontrol_get_autoendofnumbertimeout, get_AutoEndOfNumberTimeout, get_AutoEndOfNumberTimeout method [TAPI 2.2], get_AutoEndOfNumberTimeout method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autoendofnumbertimeout, tapi3if/ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout

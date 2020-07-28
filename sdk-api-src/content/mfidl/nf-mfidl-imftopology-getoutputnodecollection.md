@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTopology.GetOutputNodeCollection
 title: IMFTopology::GetOutputNodeCollection (mfidl.h)
-description: Gets the output nodes in the topology.helpviewer_keywords: ["0862cd4a-4d22-4d8d-a754-0cd376d44b22","GetOutputNodeCollection","GetOutputNodeCollection method [Media Foundation]","GetOutputNodeCollection method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetOutputNodeCollection method","IMFTopology.GetOutputNodeCollection","IMFTopology::GetOutputNodeCollection","mf.imftopology_getoutputnodecollection","mfidl/IMFTopology::GetOutputNodeCollection"]
+description: Gets the output nodes in the topology.
+helpviewer_keywords: ["0862cd4a-4d22-4d8d-a754-0cd376d44b22","GetOutputNodeCollection","GetOutputNodeCollection method [Media Foundation]","GetOutputNodeCollection method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetOutputNodeCollection method","IMFTopology.GetOutputNodeCollection","IMFTopology::GetOutputNodeCollection","mf.imftopology_getoutputnodecollection","mfidl/IMFTopology::GetOutputNodeCollection"]
 old-location: mf\imftopology_getoutputnodecollection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22
 ms.date: 12/05/2018
 ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetOutputNodeCollection method, IMFTopology.GetOutputNodeCollection, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection

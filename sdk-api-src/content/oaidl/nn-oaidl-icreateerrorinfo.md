@@ -1,7 +1,8 @@
 ---
 UID: NN:oaidl.ICreateErrorInfo
 title: ICreateErrorInfo (oaidl.h)
-description: Returns error information.helpviewer_keywords: ["ICreateErrorInfo","ICreateErrorInfo interface [Automation]","ICreateErrorInfo interface [Automation]","described","_oa96_ICreateErrorInfo_Interface","automat.icreateerrorinfo","oaidl/ICreateErrorInfo"]
+description: Returns error information.
+helpviewer_keywords: ["ICreateErrorInfo","ICreateErrorInfo interface [Automation]","ICreateErrorInfo interface [Automation]","described","_oa96_ICreateErrorInfo_Interface","automat.icreateerrorinfo","oaidl/ICreateErrorInfo"]
 old-location: automat\icreateerrorinfo.htm
 tech.root: automat
 ms.assetid: 2e7c5ad5-9018-413e-8826-ef752ebf302c

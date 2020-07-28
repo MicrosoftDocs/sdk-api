@@ -1,9 +1,10 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Reset
 title: IEnumDot11AdHocSecuritySettings::Reset (adhoc.h)
-description: Resets to the beginning of the enumeration sequence.helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Reset method","IEnumDot11AdHocSecuritySettings.Reset","IEnumDot11AdHocSecuritySettings::Reset","Reset","Reset method [NativeWIFI]","Reset method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","adhoc/IEnumDot11AdHocSecuritySettings::Reset","nwifi.ienumdot11adhocsecuritysettings_reset"]
+description: Resets to the beginning of the enumeration sequence.
+helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Reset method","IEnumDot11AdHocSecuritySettings.Reset","IEnumDot11AdHocSecuritySettings::Reset","Reset","Reset method [NativeWIFI]","Reset method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","adhoc/IEnumDot11AdHocSecuritySettings::Reset","nwifi.ienumdot11adhocsecuritysettings_reset"]
 old-location: nwifi\ienumdot11adhocsecuritysettings_reset.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 15fc655c-56d3-4f1e-b4e9-cb0e16191dc7
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Reset method, IEnumDot11AdHocSecuritySettings.Reset, IEnumDot11AdHocSecuritySettings::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Reset, nwifi.ienumdot11adhocsecuritysettings_reset

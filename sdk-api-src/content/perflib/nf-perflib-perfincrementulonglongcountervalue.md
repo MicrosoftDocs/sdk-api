@@ -1,9 +1,10 @@
 ---
 UID: NF:perflib.PerfIncrementULongLongCounterValue
 title: PerfIncrementULongLongCounterValue function (perflib.h)
-description: Increments the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.helpviewer_keywords: ["PerfIncrementULongLongCounterValue","PerfIncrementULongLongCounterValue function [Perf]","perf.perfincrementulonglongcountervalue","perflib/PerfIncrementULongLongCounterValue"]
+description: Increments the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.
+helpviewer_keywords: ["PerfIncrementULongLongCounterValue","PerfIncrementULongLongCounterValue function [Perf]","perf.perfincrementulonglongcountervalue","perflib/PerfIncrementULongLongCounterValue"]
 old-location: perf\perfincrementulonglongcountervalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 6e701561-4036-4ae4-8d4e-667fa6a20d99
 ms.date: 12/05/2018
 ms.keywords: PerfIncrementULongLongCounterValue, PerfIncrementULongLongCounterValue function [Perf], perf.perfincrementulonglongcountervalue, perflib/PerfIncrementULongLongCounterValue

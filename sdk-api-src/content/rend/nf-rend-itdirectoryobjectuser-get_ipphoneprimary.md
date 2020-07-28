@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObjectUser.get_IPPhonePrimary
 title: ITDirectoryObjectUser::get_IPPhonePrimary (rend.h)
-description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.helpviewer_keywords: ["ITDirectoryObjectUser interface [TAPI 2.2]","get_IPPhonePrimary method","ITDirectoryObjectUser.get_IPPhonePrimary","ITDirectoryObjectUser::get_IPPhonePrimary","_tapi3_itdirectoryobjectuser_get_ipphoneprimary","get_IPPhonePrimary","get_IPPhonePrimary method [TAPI 2.2]","get_IPPhonePrimary method [TAPI 2.2]","ITDirectoryObjectUser interface","rend/ITDirectoryObjectUser::get_IPPhonePrimary","tapi3.itdirectoryobjectuser_get_ipphoneprimary"]
+description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
+helpviewer_keywords: ["ITDirectoryObjectUser interface [TAPI 2.2]","get_IPPhonePrimary method","ITDirectoryObjectUser.get_IPPhonePrimary","ITDirectoryObjectUser::get_IPPhonePrimary","_tapi3_itdirectoryobjectuser_get_ipphoneprimary","get_IPPhonePrimary","get_IPPhonePrimary method [TAPI 2.2]","get_IPPhonePrimary method [TAPI 2.2]","ITDirectoryObjectUser interface","rend/ITDirectoryObjectUser::get_IPPhonePrimary","tapi3.itdirectoryobjectuser_get_ipphoneprimary"]
 old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],get_IPPhonePrimary method, ITDirectoryObjectUser.get_IPPhonePrimary, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary

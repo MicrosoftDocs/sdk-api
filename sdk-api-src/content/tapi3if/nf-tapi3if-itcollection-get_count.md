@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCollection.get_Count
 title: ITCollection::get_Count (tapi3if.h)
-description: The get_Count method gets the number of items in the collection.helpviewer_keywords: ["ITCollection interface [TAPI 2.2]","get_Count method","ITCollection.get_Count","ITCollection::get_Count","_tapi3_itcollection_get_count","get_Count","get_Count method [TAPI 2.2]","get_Count method [TAPI 2.2]","ITCollection interface","tapi3.itcollection_get_count","tapi3if/ITCollection::get_Count"]
+description: The get_Count method gets the number of items in the collection.
+helpviewer_keywords: ["ITCollection interface [TAPI 2.2]","get_Count method","ITCollection.get_Count","ITCollection::get_Count","_tapi3_itcollection_get_count","get_Count","get_Count method [TAPI 2.2]","get_Count method [TAPI 2.2]","ITCollection interface","tapi3.itcollection_get_count","tapi3if/ITCollection::get_Count"]
 old-location: tapi3\itcollection_get_count.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 253c09db-4b64-43d0-8040-b3a2ab95af30
 ms.date: 12/05/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Count method, ITCollection.get_Count, ITCollection::get_Count, _tapi3_itcollection_get_count, get_Count, get_Count method [TAPI 2.2], get_Count method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_count, tapi3if/ITCollection::get_Count

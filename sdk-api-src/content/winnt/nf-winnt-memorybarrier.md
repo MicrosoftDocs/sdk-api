@@ -1,9 +1,10 @@
 ---
 UID: NF:winnt.MemoryBarrier
 title: MemoryBarrier function (winnt.h)
-description: Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering read and write operations. It may also prevent the compiler from re-ordering read and write operations.helpviewer_keywords: ["MemoryBarrier","MemoryBarrier function","base.memorybarrier","winnt/MemoryBarrier"]
+description: Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering read and write operations. It may also prevent the compiler from re-ordering read and write operations.
+helpviewer_keywords: ["MemoryBarrier","MemoryBarrier function","base.memorybarrier","winnt/MemoryBarrier"]
 old-location: base\memorybarrier.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
 ms.date: 12/05/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier

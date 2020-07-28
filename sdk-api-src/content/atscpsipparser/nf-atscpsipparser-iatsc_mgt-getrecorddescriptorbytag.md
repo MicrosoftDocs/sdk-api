@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordDescriptorByTag
 title: IATSC_MGT::GetRecordDescriptorByTag (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IATSC_MGT.GetRecordDescriptorByTag","IATSC_MGT::GetRecordDescriptorByTag","IATSC_MGTGetRecordDescriptorByTag","atscpsipparser/IATSC_MGT::GetRecordDescriptorByTag","mstv.iatsc_mgt_getrecorddescriptorbytag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IATSC_MGT.GetRecordDescriptorByTag","IATSC_MGT::GetRecordDescriptorByTag","IATSC_MGTGetRecordDescriptorByTag","atscpsipparser/IATSC_MGT::GetRecordDescriptorByTag","mstv.iatsc_mgt_getrecorddescriptorbytag"]
 old-location: mstv\iatsc_mgt_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: fcc309ca-05bb-45cf-8930-f4413f84a55c

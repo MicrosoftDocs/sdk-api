@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.ImpersonateAnonymousToken
 title: ImpersonateAnonymousToken function (securitybaseapi.h)
-description: Enables the specified thread to impersonate the system's anonymous logon token.helpviewer_keywords: ["ImpersonateAnonymousToken","ImpersonateAnonymousToken function [Security]","_win32_impersonateanonymoustoken","security.impersonateanonymoustoken","securitybaseapi/ImpersonateAnonymousToken"]
+description: Enables the specified thread to impersonate the system's anonymous logon token.
+helpviewer_keywords: ["ImpersonateAnonymousToken","ImpersonateAnonymousToken function [Security]","_win32_impersonateanonymoustoken","security.impersonateanonymoustoken","securitybaseapi/ImpersonateAnonymousToken"]
 old-location: security\impersonateanonymoustoken.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 98d1072e-f569-4c8c-9254-fa558054c7ec
 ms.date: 12/05/2018
 ms.keywords: ImpersonateAnonymousToken, ImpersonateAnonymousToken function [Security], _win32_impersonateanonymoustoken, security.impersonateanonymoustoken, securitybaseapi/ImpersonateAnonymousToken

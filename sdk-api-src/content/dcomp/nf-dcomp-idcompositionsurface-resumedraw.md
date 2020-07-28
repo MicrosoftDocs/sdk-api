@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.ResumeDraw
 title: IDCompositionSurface::ResumeDraw (dcomp.h)
-description: Resumes drawing on this Microsoft DirectComposition surface object.helpviewer_keywords: ["IDCompositionSurface interface [DirectComposition]","ResumeDraw method","IDCompositionSurface.ResumeDraw","IDCompositionSurface::ResumeDraw","ResumeDraw","ResumeDraw method [DirectComposition]","ResumeDraw method [DirectComposition]","IDCompositionSurface interface","dcomp/IDCompositionSurface::ResumeDraw","directcomp.idcompositionsurface_resumedraw"]
+description: Resumes drawing on this Microsoft DirectComposition surface object.
+helpviewer_keywords: ["IDCompositionSurface interface [DirectComposition]","ResumeDraw method","IDCompositionSurface.ResumeDraw","IDCompositionSurface::ResumeDraw","ResumeDraw","ResumeDraw method [DirectComposition]","ResumeDraw method [DirectComposition]","IDCompositionSurface interface","dcomp/IDCompositionSurface::ResumeDraw","directcomp.idcompositionsurface_resumedraw"]
 old-location: directcomp\idcompositionsurface_resumedraw.htm
 tech.root: directcomp
 ms.assetid: EE008AAB-0C79-4D60-953C-7A9BCFED2C41

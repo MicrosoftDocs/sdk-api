@@ -1,9 +1,10 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentAlternateSetting
 title: WinUsb_GetCurrentAlternateSetting function (winusb.h)
-description: The WinUsb_GetCurrentAlternateSetting function gets the current alternate interface setting for an interface. This is a synchronous operation.helpviewer_keywords: ["WinUsb_GetCurrentAlternateSetting","WinUsb_GetCurrentAlternateSetting function [Buses]","buses.winusb_getcurrentalternatesetting","winusb/WinUsb_GetCurrentAlternateSetting","winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml"]
+description: The WinUsb_GetCurrentAlternateSetting function gets the current alternate interface setting for an interface. This is a synchronous operation.
+helpviewer_keywords: ["WinUsb_GetCurrentAlternateSetting","WinUsb_GetCurrentAlternateSetting function [Buses]","buses.winusb_getcurrentalternatesetting","winusb/WinUsb_GetCurrentAlternateSetting","winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml"]
 old-location: buses\winusb_getcurrentalternatesetting.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: a644eb68-2192-4927-ac67-77384f8cf2b6
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentAlternateSetting, WinUsb_GetCurrentAlternateSetting function [Buses], buses.winusb_getcurrentalternatesetting, winusb/WinUsb_GetCurrentAlternateSetting, winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml

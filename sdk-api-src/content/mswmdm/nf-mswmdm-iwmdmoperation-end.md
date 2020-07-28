@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.End
 title: IWMDMOperation::End (mswmdm.h)
-description: The End method indicates that a read or write operation is finished, whether successful or not, and it returns a completion code.helpviewer_keywords: ["End","End method [windows Media Device Manager]","End method [windows Media Device Manager]","IWMDMOperation interface","IWMDMOperation interface [windows Media Device Manager]","End method","IWMDMOperation.End","IWMDMOperation::End","IWMDMOperationEnd","mswmdm/IWMDMOperation::End","wmdm.iwmdmoperation_end"]
+description: The End method indicates that a read or write operation is finished, whether successful or not, and it returns a completion code.
+helpviewer_keywords: ["End","End method [windows Media Device Manager]","End method [windows Media Device Manager]","IWMDMOperation interface","IWMDMOperation interface [windows Media Device Manager]","End method","IWMDMOperation.End","IWMDMOperation::End","IWMDMOperationEnd","mswmdm/IWMDMOperation::End","wmdm.iwmdmoperation_end"]
 old-location: wmdm\iwmdmoperation_end.htm
 tech.root: WMDM
 ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705

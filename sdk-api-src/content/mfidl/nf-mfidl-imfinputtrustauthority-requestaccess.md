@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.RequestAccess
 title: IMFInputTrustAuthority::RequestAccess (mfidl.h)
-description: Requests permission to perform a specified action on the stream.helpviewer_keywords: ["8f2f7f65-7000-4404-8678-ba36c5c97c80","IMFInputTrustAuthority interface [Media Foundation]","RequestAccess method","IMFInputTrustAuthority.RequestAccess","IMFInputTrustAuthority::RequestAccess","RequestAccess","RequestAccess method [Media Foundation]","RequestAccess method [Media Foundation]","IMFInputTrustAuthority interface","mf.imfinputtrustauthority_requestaccess","mfidl/IMFInputTrustAuthority::RequestAccess"]
+description: Requests permission to perform a specified action on the stream.
+helpviewer_keywords: ["8f2f7f65-7000-4404-8678-ba36c5c97c80","IMFInputTrustAuthority interface [Media Foundation]","RequestAccess method","IMFInputTrustAuthority.RequestAccess","IMFInputTrustAuthority::RequestAccess","RequestAccess","RequestAccess method [Media Foundation]","RequestAccess method [Media Foundation]","IMFInputTrustAuthority interface","mf.imfinputtrustauthority_requestaccess","mfidl/IMFInputTrustAuthority::RequestAccess"]
 old-location: mf\imfinputtrustauthority_requestaccess.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8f2f7f65-7000-4404-8678-ba36c5c97c80
 ms.date: 12/05/2018
 ms.keywords: 8f2f7f65-7000-4404-8678-ba36c5c97c80, IMFInputTrustAuthority interface [Media Foundation],RequestAccess method, IMFInputTrustAuthority.RequestAccess, IMFInputTrustAuthority::RequestAccess, RequestAccess, RequestAccess method [Media Foundation], RequestAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_requestaccess, mfidl/IMFInputTrustAuthority::RequestAccess

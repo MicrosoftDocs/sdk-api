@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_ColorEnable
 title: IVideoProcAmp::put_ColorEnable (vidcap.h)
-description: The put_ColorEnable method sets the camera's color-enable setting.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_ColorEnable method","IVideoProcAmp.put_ColorEnable","IVideoProcAmp::put_ColorEnable","IVideoProcAmpput_ColorEnable","dshow.ivideoprocamp_put_colorenable","put_ColorEnable","put_ColorEnable method [DirectShow]","put_ColorEnable method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_ColorEnable"]
+description: The put_ColorEnable method sets the camera's color-enable setting.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_ColorEnable method","IVideoProcAmp.put_ColorEnable","IVideoProcAmp::put_ColorEnable","IVideoProcAmpput_ColorEnable","dshow.ivideoprocamp_put_colorenable","put_ColorEnable","put_ColorEnable method [DirectShow]","put_ColorEnable method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_ColorEnable"]
 old-location: dshow\ivideoprocamp_put_colorenable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6a1caa3f-e591-4176-90b9-80a4bd71533b
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_ColorEnable method, IVideoProcAmp.put_ColorEnable, IVideoProcAmp::put_ColorEnable, IVideoProcAmpput_ColorEnable, dshow.ivideoprocamp_put_colorenable, put_ColorEnable, put_ColorEnable method [DirectShow], put_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_ColorEnable

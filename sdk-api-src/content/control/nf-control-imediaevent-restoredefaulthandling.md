@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IMediaEvent.RestoreDefaultHandling
 title: IMediaEvent::RestoreDefaultHandling (control.h)
-description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.helpviewer_keywords: ["IMediaEvent interface [DirectShow]","RestoreDefaultHandling method","IMediaEvent.RestoreDefaultHandling","IMediaEvent::RestoreDefaultHandling","IMediaEventRestoreDefaultHandling","RestoreDefaultHandling","RestoreDefaultHandling method [DirectShow]","RestoreDefaultHandling method [DirectShow]","IMediaEvent interface","control/IMediaEvent::RestoreDefaultHandling","dshow.imediaevent_restoredefaulthandling"]
+description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.
+helpviewer_keywords: ["IMediaEvent interface [DirectShow]","RestoreDefaultHandling method","IMediaEvent.RestoreDefaultHandling","IMediaEvent::RestoreDefaultHandling","IMediaEventRestoreDefaultHandling","RestoreDefaultHandling","RestoreDefaultHandling method [DirectShow]","RestoreDefaultHandling method [DirectShow]","IMediaEvent interface","control/IMediaEvent::RestoreDefaultHandling","dshow.imediaevent_restoredefaulthandling"]
 old-location: dshow\imediaevent_restoredefaulthandling.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling

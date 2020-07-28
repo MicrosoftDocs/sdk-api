@@ -1,7 +1,8 @@
 ---
 UID: NE:mi._MI_ProviderArchitecture
 title: MI_ProviderArchitecture (mi.h)
-description: This enumeration defines the WMI provider architecture used on the server.helpviewer_keywords: ["MI_PROVIDER_ARCHITECTURE_32BIT","MI_PROVIDER_ARCHITECTURE_64BIT","MI_ProviderArchitecture","MI_ProviderArchitecture enumeration [Windows Management Infrastructure (MI)]","mi/MI_PROVIDER_ARCHITECTURE_32BIT","mi/MI_PROVIDER_ARCHITECTURE_64BIT","mi/MI_ProviderArchitecture","wmi._mi_providerarchitecture","wmi_v2.mi_providerarchitecture"]
+description: This enumeration defines the WMI provider architecture used on the server.
+helpviewer_keywords: ["MI_PROVIDER_ARCHITECTURE_32BIT","MI_PROVIDER_ARCHITECTURE_64BIT","MI_ProviderArchitecture","MI_ProviderArchitecture enumeration [Windows Management Infrastructure (MI)]","mi/MI_PROVIDER_ARCHITECTURE_32BIT","mi/MI_PROVIDER_ARCHITECTURE_64BIT","mi/MI_ProviderArchitecture","wmi._mi_providerarchitecture","wmi_v2.mi_providerarchitecture"]
 old-location: wmi_v2\mi_providerarchitecture.htm
 tech.root: wmi_v2
 ms.assetid: 9dd275aa-23a9-44f4-916f-355b77490161

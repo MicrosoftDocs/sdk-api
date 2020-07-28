@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredUIReadSSOCredW
 title: CredUIReadSSOCredW function (wincred.h)
-description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.helpviewer_keywords: ["CredUIReadSSOCredW","CredUIReadSSOCredW function [Security]","security.creduireadssocredw","wincred/CredUIReadSSOCredW"]
+description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.
+helpviewer_keywords: ["CredUIReadSSOCredW","CredUIReadSSOCredW function [Security]","security.creduireadssocredw","wincred/CredUIReadSSOCredW"]
 old-location: security\creduireadssocredw.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
 ms.date: 12/05/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW

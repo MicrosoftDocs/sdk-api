@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.LCMapStringW
 title: LCMapStringW function (winnls.h)
-description: For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string.helpviewer_keywords: ["LCMapString","LCMapString function [Internationalization for Windows Applications]","LCMapStringA","LCMapStringW","_win32_LCMapString","intl.lcmapstring","winnls/LCMapString","winnls/LCMapStringA","winnls/LCMapStringW"]
+description: For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string.
+helpviewer_keywords: ["LCMapString","LCMapString function [Internationalization for Windows Applications]","LCMapStringA","LCMapStringW","_win32_LCMapString","intl.lcmapstring","winnls/LCMapString","winnls/LCMapStringA","winnls/LCMapStringW"]
 old-location: intl\lcmapstring.htm
 tech.root: Intl
 ms.assetid: 84dda2cd-cbf9-45e9-b18c-7dea0b5bc991
@@ -162,6 +163,10 @@ The ANSI version of <b>LCMapString</b> maps strings to and from Unicode based on
 
 
 
+
+
+> [!NOTE]
+> The winnls.h header defines LCMapString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,9 @@
 ---
 UID: NC:ws2spi.LPWSPSENDTO
 title: LPWSPSENDTO
-description: The WSPSendTo function sends data to a specific destination using overlapped I/O.helpviewer_keywords: ["LPWSPSENDTO"]
+description: The WSPSendTo function sends data to a specific destination using overlapped I/O.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPSENDTO"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSENDTO
 targetos: Windows

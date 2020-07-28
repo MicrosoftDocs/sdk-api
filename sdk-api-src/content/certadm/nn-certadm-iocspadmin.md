@@ -1,9 +1,10 @@
 ---
 UID: NN:certadm.IOCSPAdmin
 title: IOCSPAdmin (certadm.h)
-description: Provides functionality to manage an Online Certificate Status Protocol (OCSP) responder server.helpviewer_keywords: ["IOCSPAdmin","IOCSPAdmin interface [Security]","IOCSPAdmin interface [Security]","described","OCSPAdmin object","certadm/IOCSPAdmin","security.iocspadmin"]
+description: Provides functionality to manage an Online Certificate Status Protocol (OCSP) responder server.
+helpviewer_keywords: ["IOCSPAdmin","IOCSPAdmin interface [Security]","IOCSPAdmin interface [Security]","described","OCSPAdmin object","certadm/IOCSPAdmin","security.iocspadmin"]
 old-location: security\iocspadmin.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cf76e934-07a2-46de-b2cf-7f6d3e274d71
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security],described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin

@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCreateNetConnectionIncident
 title: NdfCreateNetConnectionIncident function (ndfapi.h)
-description: Diagnoses connectivity issues using the NetConnection helper class.helpviewer_keywords: ["NdfCreateNetConnectionIncident","NdfCreateNetConnectionIncident function [NDF]","ndf.ndfcreatenetconnectionincident","ndfapi/NdfCreateNetConnectionIncident"]
+description: Diagnoses connectivity issues using the NetConnection helper class.
+helpviewer_keywords: ["NdfCreateNetConnectionIncident","NdfCreateNetConnectionIncident function [NDF]","ndf.ndfcreatenetconnectionincident","ndfapi/NdfCreateNetConnectionIncident"]
 old-location: ndf\ndfcreatenetconnectionincident.htm
 tech.root: NDF
 ms.assetid: EF682ED4-2AD5-4A5B-A308-C671A9E6EB10

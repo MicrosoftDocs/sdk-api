@@ -1,9 +1,10 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetZOrder
 title: IMixerPinConfig::SetZOrder (mpconfig.h)
-description: The SetZOrder method sets the z-order of a particular video stream.helpviewer_keywords: ["IMixerPinConfig interface [DirectShow]","SetZOrder method","IMixerPinConfig.SetZOrder","IMixerPinConfig::SetZOrder","IMixerPinConfigSetZOrder","SetZOrder","SetZOrder method [DirectShow]","SetZOrder method [DirectShow]","IMixerPinConfig interface","dshow.imixerpinconfig_setzorder","mpconfig/IMixerPinConfig::SetZOrder"]
+description: The SetZOrder method sets the z-order of a particular video stream.
+helpviewer_keywords: ["IMixerPinConfig interface [DirectShow]","SetZOrder method","IMixerPinConfig.SetZOrder","IMixerPinConfig::SetZOrder","IMixerPinConfigSetZOrder","SetZOrder","SetZOrder method [DirectShow]","SetZOrder method [DirectShow]","IMixerPinConfig interface","dshow.imixerpinconfig_setzorder","mpconfig/IMixerPinConfig::SetZOrder"]
 old-location: dshow\imixerpinconfig_setzorder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fe8e71b8-9aaf-438e-b370-5ba9f131bf7a
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetZOrder method, IMixerPinConfig.SetZOrder, IMixerPinConfig::SetZOrder, IMixerPinConfigSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setzorder, mpconfig/IMixerPinConfig::SetZOrder

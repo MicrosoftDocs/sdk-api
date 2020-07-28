@@ -1,9 +1,10 @@
 ---
 UID: NF:timezoneapi.SetTimeZoneInformation
 title: SetTimeZoneInformation function (timezoneapi.h)
-description: Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.helpviewer_keywords: ["SetTimeZoneInformation","SetTimeZoneInformation function","_win32_settimezoneinformation","base.settimezoneinformation","timezoneapi/SetTimeZoneInformation"]
+description: Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
+helpviewer_keywords: ["SetTimeZoneInformation","SetTimeZoneInformation function","_win32_settimezoneinformation","base.settimezoneinformation","timezoneapi/SetTimeZoneInformation"]
 old-location: base\settimezoneinformation.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: afb13501-3a87-433a-a05e-139103060109
 ms.date: 12/05/2018
 ms.keywords: SetTimeZoneInformation, SetTimeZoneInformation function, _win32_settimezoneinformation, base.settimezoneinformation, timezoneapi/SetTimeZoneInformation

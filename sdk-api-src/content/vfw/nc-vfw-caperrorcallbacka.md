@@ -1,7 +1,8 @@
 ---
 UID: NC:vfw.CAPERRORCALLBACKA
 title: CAPERRORCALLBACKA (vfw.h)
-description: The capErrorCallback function is the error callback function used with video capture. The name capErrorCallback is a placeholder for the application-supplied function name.helpviewer_keywords: ["CAPERRORCALLBACKA","CAPERRORCALLBACKW","_win32_capErrorCallback","capErrorCallback","capErrorCallback callback","capErrorCallback callback function [Windows Multimedia]","multimedia.caperrorcallback","vfw/CAPERRORCALLBACKA","vfw/CAPERRORCALLBACKW","vfw/capErrorCallback"]
+description: The capErrorCallback function is the error callback function used with video capture. The name capErrorCallback is a placeholder for the application-supplied function name.
+helpviewer_keywords: ["CAPERRORCALLBACKA","CAPERRORCALLBACKW","_win32_capErrorCallback","capErrorCallback","capErrorCallback callback","capErrorCallback callback function [Windows Multimedia]","multimedia.caperrorcallback","vfw/CAPERRORCALLBACKA","vfw/CAPERRORCALLBACKW","vfw/capErrorCallback"]
 old-location: multimedia\caperrorcallback.htm
 tech.root: Multimedia
 ms.assetid: 3dc41a0e-1fed-423d-b05b-c42f361a3fb3
@@ -87,6 +88,10 @@ A message identifier of zero indicates a new operation is starting and the callb
 
 
 
+
+
+> [!NOTE]
+> The vfw.h header defines CAPERRORCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

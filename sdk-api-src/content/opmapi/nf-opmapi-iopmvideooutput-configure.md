@@ -1,9 +1,10 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.Configure
 title: IOPMVideoOutput::Configure (opmapi.h)
-description: Configures a video output.helpviewer_keywords: ["Configure","Configure method [Media Foundation]","Configure method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","Configure method","IOPMVideoOutput.Configure","IOPMVideoOutput::Configure","mf.iopmvideooutput_iopmvideooutput__configure","opmapi/IOPMVideoOutput::Configure"]
+description: Configures a video output.
+helpviewer_keywords: ["Configure","Configure method [Media Foundation]","Configure method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","Configure method","IOPMVideoOutput.Configure","IOPMVideoOutput::Configure","mf.iopmvideooutput_iopmvideooutput__configure","opmapi/IOPMVideoOutput::Configure"]
 old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],Configure method, IOPMVideoOutput.Configure, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure

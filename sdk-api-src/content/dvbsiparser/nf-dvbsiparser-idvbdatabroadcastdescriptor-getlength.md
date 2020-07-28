@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetLength
 title: IDvbDataBroadcastDescriptor::GetLength (dvbsiparser.h)
-description: Gets the length of a Digital Video Broadcast (DVB) data broadcast descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbDataBroadcastDescriptor interface","IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbDataBroadcastDescriptor.GetLength","IDvbDataBroadcastDescriptor::GetLength","dvbsiparser/IDvbDataBroadcastDescriptor::GetLength","mstv.idvbdatabroadcastdescriptor_getlength"]
+description: Gets the length of a Digital Video Broadcast (DVB) data broadcast descriptor, in bytes.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbDataBroadcastDescriptor interface","IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbDataBroadcastDescriptor.GetLength","IDvbDataBroadcastDescriptor::GetLength","dvbsiparser/IDvbDataBroadcastDescriptor::GetLength","mstv.idvbdatabroadcastdescriptor_getlength"]
 old-location: mstv\idvbdatabroadcastdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 426292bf-0cc3-4494-bd9a-b63229671bfb

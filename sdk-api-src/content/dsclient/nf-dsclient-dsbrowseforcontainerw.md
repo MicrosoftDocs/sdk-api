@@ -1,7 +1,8 @@
 ---
 UID: NF:dsclient.DsBrowseForContainerW
 title: DsBrowseForContainerW function (dsclient.h)
-description: Displays a dialog box used to browse for container objects in Active Directory Domain Services.helpviewer_keywords: ["DsBrowseForContainer","DsBrowseForContainer function [Active Directory]","DsBrowseForContainerA","DsBrowseForContainerW","_glines_dsbrowseforcontainer","ad.dsbrowseforcontainer","dsclient/DsBrowseForContainer","dsclient/DsBrowseForContainerA","dsclient/DsBrowseForContainerW"]
+description: Displays a dialog box used to browse for container objects in Active Directory Domain Services.
+helpviewer_keywords: ["DsBrowseForContainer","DsBrowseForContainer function [Active Directory]","DsBrowseForContainerA","DsBrowseForContainerW","_glines_dsbrowseforcontainer","ad.dsbrowseforcontainer","dsclient/DsBrowseForContainer","dsclient/DsBrowseForContainerA","dsclient/DsBrowseForContainerW"]
 old-location: ad\dsbrowseforcontainer.htm
 tech.root: ad
 ms.assetid: c95585b3-bf40-4aee-ae47-ca8f43daf0e6
@@ -125,6 +126,10 @@ void PickContainer(void)
 
 
 
+
+
+> [!NOTE]
+> The dsclient.h header defines DsBrowseForContainer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

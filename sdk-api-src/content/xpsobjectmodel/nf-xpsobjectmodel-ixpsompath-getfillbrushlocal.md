@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrushLocal
 title: IXpsOMPath::GetFillBrushLocal (xpsobjectmodel.h)
-description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the fill brush for the path.helpviewer_keywords: ["GetFillBrushLocal","GetFillBrushLocal method [XPS Documents and Packaging]","GetFillBrushLocal method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetFillBrushLocal method","IXpsOMPath.GetFillBrushLocal","IXpsOMPath::GetFillBrushLocal","xps.ixpsompath_getfillbrushlocal","xpsobjectmodel/IXpsOMPath::GetFillBrushLocal"]
+description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the fill brush for the path.
+helpviewer_keywords: ["GetFillBrushLocal","GetFillBrushLocal method [XPS Documents and Packaging]","GetFillBrushLocal method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetFillBrushLocal method","IXpsOMPath.GetFillBrushLocal","IXpsOMPath::GetFillBrushLocal","xps.ixpsompath_getfillbrushlocal","xpsobjectmodel/IXpsOMPath::GetFillBrushLocal"]
 old-location: xps\ixpsompath_getfillbrushlocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5c5a7150-19d6-40aa-871b-5600c0b0a947
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMPath.GetFillBrushLocal, IXpsOMPath::GetFillBrushLocal, xps.ixpsompath_getfillbrushlocal, xpsobjectmodel/IXpsOMPath::GetFillBrushLocal

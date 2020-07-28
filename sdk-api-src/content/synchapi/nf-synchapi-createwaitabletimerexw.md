@@ -4,7 +4,7 @@ title: CreateWaitableTimerExW function (synchapi.h)
 description: Creates or opens a waitable timer object and returns a handle to the object.
 helpviewer_keywords: ["CREATE_WAITABLE_TIMER_MANUAL_RESET","CreateWaitableTimerEx","CreateWaitableTimerEx function","CreateWaitableTimerExA","CreateWaitableTimerExW","base.createwaitabletimerex","synchapi/CreateWaitableTimerEx","synchapi/CreateWaitableTimerExA","synchapi/CreateWaitableTimerExW"]
 old-location: base\createwaitabletimerex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.date: 12/05/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Enumerate
 title: IWSManSession::Enumerate (wsmandisp.h)
-description: Enumerates a table, data collection, or log resource.helpviewer_keywords: ["Enumerate","Enumerate method [Windows Remote Management]","Enumerate method [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","Enumerate method","IWSManSession.Enumerate","IWSManSession::Enumerate","winrm.iwsmansession_enumerate","wsmandisp/IWSManSession::Enumerate"]
+description: Enumerates a table, data collection, or log resource.
+helpviewer_keywords: ["Enumerate","Enumerate method [Windows Remote Management]","Enumerate method [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","Enumerate method","IWSManSession.Enumerate","IWSManSession::Enumerate","winrm.iwsmansession_enumerate","wsmandisp/IWSManSession::Enumerate"]
 old-location: winrm\iwsmansession_enumerate.htm
 tech.root: winrm
 ms.assetid: b1a4815e-93aa-4a30-a67e-c52fd06c1ee1

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetTag
 title: IDvbServiceListDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag identifying a Digital Video Broadcast (DVB) service list descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbServiceListDescriptor.GetTag","IDvbServiceListDescriptor::GetTag","dvbsiparser/IDvbServiceListDescriptor::GetTag","mstv.idvbservicelistdescriptor_gettag"]
+description: Gets the tag identifying a Digital Video Broadcast (DVB) service list descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbServiceListDescriptor.GetTag","IDvbServiceListDescriptor::GetTag","dvbsiparser/IDvbServiceListDescriptor::GetTag","mstv.idvbservicelistdescriptor_gettag"]
 old-location: mstv\idvbservicelistdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 5e16ab7f-25df-461e-b3aa-73de613e45b6

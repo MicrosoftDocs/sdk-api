@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._TOKEN_DEFAULT_DACL
 title: TOKEN_DEFAULT_DACL (winnt.h)
-description: Specifies a discretionary access control list (DACL).helpviewer_keywords: ["*PTOKEN_DEFAULT_DACL","PTOKEN_DEFAULT_DACL","PTOKEN_DEFAULT_DACL structure pointer [Security]","TOKEN_DEFAULT_DACL","TOKEN_DEFAULT_DACL structure [Security]","_TOKEN_DEFAULT_DACL","_win32_token_default_dacl_str","security.token_default_dacl","winnt/PTOKEN_DEFAULT_DACL","winnt/TOKEN_DEFAULT_DACL"]
+description: Specifies a discretionary access control list (DACL).
+helpviewer_keywords: ["*PTOKEN_DEFAULT_DACL","PTOKEN_DEFAULT_DACL","PTOKEN_DEFAULT_DACL structure pointer [Security]","TOKEN_DEFAULT_DACL","TOKEN_DEFAULT_DACL structure [Security]","_TOKEN_DEFAULT_DACL","_win32_token_default_dacl_str","security.token_default_dacl","winnt/PTOKEN_DEFAULT_DACL","winnt/TOKEN_DEFAULT_DACL"]
 old-location: security\token_default_dacl.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 29fb738f-1ecd-4b72-9aea-64698cd74c12
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Security], TOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL structure [Security], _TOKEN_DEFAULT_DACL, _win32_token_default_dacl_str, security.token_default_dacl, winnt/PTOKEN_DEFAULT_DACL, winnt/TOKEN_DEFAULT_DACL'

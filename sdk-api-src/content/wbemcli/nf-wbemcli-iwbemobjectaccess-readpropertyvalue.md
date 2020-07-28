@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadPropertyValue
 title: IWbemObjectAccess::ReadPropertyValue (wbemcli.h)
-description: The ReadPropertyValue method returns a specified number of bytes of a property associated with a property handle.helpviewer_keywords: ["IWbemObjectAccess interface [Windows Management Instrumentation]","ReadPropertyValue method","IWbemObjectAccess.ReadPropertyValue","IWbemObjectAccess::ReadPropertyValue","ReadPropertyValue","ReadPropertyValue method [Windows Management Instrumentation]","ReadPropertyValue method [Windows Management Instrumentation]","IWbemObjectAccess interface","_hmm_iwbemobjectaccess_readpropertyvalue","wbemcli/IWbemObjectAccess::ReadPropertyValue","wmi.iwbemobjectaccess_readpropertyvalue"]
+description: The ReadPropertyValue method returns a specified number of bytes of a property associated with a property handle.
+helpviewer_keywords: ["IWbemObjectAccess interface [Windows Management Instrumentation]","ReadPropertyValue method","IWbemObjectAccess.ReadPropertyValue","IWbemObjectAccess::ReadPropertyValue","ReadPropertyValue","ReadPropertyValue method [Windows Management Instrumentation]","ReadPropertyValue method [Windows Management Instrumentation]","IWbemObjectAccess interface","_hmm_iwbemobjectaccess_readpropertyvalue","wbemcli/IWbemObjectAccess::ReadPropertyValue","wmi.iwbemobjectaccess_readpropertyvalue"]
 old-location: wmi\iwbemobjectaccess_readpropertyvalue.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 878fa803-73dc-45ad-8d58-2decb7e316b2
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadPropertyValue method, IWbemObjectAccess.ReadPropertyValue, IWbemObjectAccess::ReadPropertyValue, ReadPropertyValue, ReadPropertyValue method [Windows Management Instrumentation], ReadPropertyValue method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readpropertyvalue, wbemcli/IWbemObjectAccess::ReadPropertyValue, wmi.iwbemobjectaccess_readpropertyvalue

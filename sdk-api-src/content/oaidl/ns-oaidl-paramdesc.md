@@ -1,7 +1,8 @@
 ---
 UID: NS:oaidl.tagPARAMDESC
 title: PARAMDESC (oaidl.h)
-description: Contains information needed for transferring a structure element, parameter, or function return value between processes.helpviewer_keywords: ["*LPPARAMDESC","LPPARAMDESC","LPPARAMDESC structure pointer [Automation]","PARAMDESC","PARAMDESC structure [Automation]","_oa96_PARAMDESC","automat.paramdesc","oaidl/LPPARAMDESC","oaidl/PARAMDESC"]
+description: Contains information needed for transferring a structure element, parameter, or function return value between processes.
+helpviewer_keywords: ["*LPPARAMDESC","LPPARAMDESC","LPPARAMDESC structure pointer [Automation]","PARAMDESC","PARAMDESC structure [Automation]","_oa96_PARAMDESC","automat.paramdesc","oaidl/LPPARAMDESC","oaidl/PARAMDESC"]
 old-location: automat\paramdesc.htm
 tech.root: automat
 ms.assetid: 3b3b2c54-1997-4d1f-9934-81621500b2b9

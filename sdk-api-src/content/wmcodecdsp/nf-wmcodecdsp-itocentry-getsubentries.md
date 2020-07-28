@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetSubEntries
 title: ITocEntry::GetSubEntries (wmcodecdsp.h)
-description: The GetSubEntries method gets an array of subentry indices that were set by a previous call to SetSubEntries.helpviewer_keywords: ["GetSubEntries","GetSubEntries method [Media Foundation]","GetSubEntries method [Media Foundation]","ITocEntry interface","ITocEntry interface [Media Foundation]","GetSubEntries method","ITocEntry.GetSubEntries","ITocEntry::GetSubEntries","codecapi.itocentry_getsubentries","mf.itocentry_getsubentries","wmcodecdsp/ITocEntry::GetSubEntries"]
+description: The GetSubEntries method gets an array of subentry indices that were set by a previous call to SetSubEntries.
+helpviewer_keywords: ["GetSubEntries","GetSubEntries method [Media Foundation]","GetSubEntries method [Media Foundation]","ITocEntry interface","ITocEntry interface [Media Foundation]","GetSubEntries method","ITocEntry.GetSubEntries","ITocEntry::GetSubEntries","codecapi.itocentry_getsubentries","mf.itocentry_getsubentries","wmcodecdsp/ITocEntry::GetSubEntries"]
 old-location: mf\itocentry_getsubentries.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 583340d7-87f9-40c5-a0dc-3e69bbb96334
 ms.date: 12/05/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries

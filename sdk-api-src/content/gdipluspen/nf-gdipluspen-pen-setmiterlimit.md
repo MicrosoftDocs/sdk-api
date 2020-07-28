@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.SetMiterLimit
 title: Pen::SetMiterLimit (gdipluspen.h)
-description: The Pen::SetMiterLimit method sets the miter limit of this Pen object.helpviewer_keywords: ["Pen class [GDI+]","SetMiterLimit method","Pen.SetMiterLimit","Pen::SetMiterLimit","SetMiterLimit","SetMiterLimit method [GDI+]","SetMiterLimit method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_","gdiplus._gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_"]
+description: The Pen::SetMiterLimit method sets the miter limit of this Pen object.
+helpviewer_keywords: ["Pen class [GDI+]","SetMiterLimit method","Pen.SetMiterLimit","Pen::SetMiterLimit","SetMiterLimit","SetMiterLimit method [GDI+]","SetMiterLimit method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_","gdiplus._gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setmiterlimit.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagWCRANGE
 title: WCRANGE (wingdi.h)
-description: The WCRANGE structure specifies a range of Unicode characters.helpviewer_keywords: ["*LPWCRANGE","*PWCRANGE","PWCRANGE","PWCRANGE structure pointer [Windows GDI]","WCRANGE","WCRANGE structure [Windows GDI]","_win32_WCRANGE_str","gdi.wcrange","wingdi/PWCRANGE","wingdi/WCRANGE"]
+description: The WCRANGE structure specifies a range of Unicode characters.
+helpviewer_keywords: ["*LPWCRANGE","*PWCRANGE","PWCRANGE","PWCRANGE structure pointer [Windows GDI]","WCRANGE","WCRANGE structure [Windows GDI]","_win32_WCRANGE_str","gdi.wcrange","wingdi/PWCRANGE","wingdi/WCRANGE"]
 old-location: gdi\wcrange.htm
 tech.root: gdi
 ms.assetid: 20959057-6062-4c1e-a23d-535584ba6ea3

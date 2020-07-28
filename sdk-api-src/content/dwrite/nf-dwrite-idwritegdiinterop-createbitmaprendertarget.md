@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateBitmapRenderTarget
 title: IDWriteGdiInterop::CreateBitmapRenderTarget (dwrite.h)
-description: Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.helpviewer_keywords: ["CreateBitmapRenderTarget","CreateBitmapRenderTarget method [Direct Write]","CreateBitmapRenderTarget method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","CreateBitmapRenderTarget method","IDWriteGdiInterop.CreateBitmapRenderTarget","IDWriteGdiInterop::CreateBitmapRenderTarget","directwrite.IDWriteGdiInterop_CreateBitmapRenderTarget","dwrite/IDWriteGdiInterop::CreateBitmapRenderTarget"]
+description: Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.
+helpviewer_keywords: ["CreateBitmapRenderTarget","CreateBitmapRenderTarget method [Direct Write]","CreateBitmapRenderTarget method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","CreateBitmapRenderTarget method","IDWriteGdiInterop.CreateBitmapRenderTarget","IDWriteGdiInterop::CreateBitmapRenderTarget","directwrite.IDWriteGdiInterop_CreateBitmapRenderTarget","dwrite/IDWriteGdiInterop::CreateBitmapRenderTarget"]
 old-location: directwrite\IDWriteGdiInterop_CreateBitmapRenderTarget.htm
 tech.root: DirectWrite
 ms.assetid: 1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152

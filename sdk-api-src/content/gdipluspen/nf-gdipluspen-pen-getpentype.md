@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetPenType
 title: Pen::GetPenType (gdipluspen.h)
-description: The Pen::GetPenType method gets the type currently set for this Pen object.helpviewer_keywords: ["GetPenType","GetPenType method [GDI+]","GetPenType method [GDI+]","Pen class","Pen class [GDI+]","GetPenType method","Pen.GetPenType","Pen::GetPenType","_gdiplus_CLASS_Pen_GetPenType_","gdiplus._gdiplus_CLASS_Pen_GetPenType_"]
+description: The Pen::GetPenType method gets the type currently set for this Pen object.
+helpviewer_keywords: ["GetPenType","GetPenType method [GDI+]","GetPenType method [GDI+]","Pen class","Pen class [GDI+]","GetPenType method","Pen.GetPenType","Pen::GetPenType","_gdiplus_CLASS_Pen_GetPenType_","gdiplus._gdiplus_CLASS_Pen_GetPenType_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetPenType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getpentype.htm

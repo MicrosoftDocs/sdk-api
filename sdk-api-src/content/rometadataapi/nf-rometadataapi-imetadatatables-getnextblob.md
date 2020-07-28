@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextBlob
 title: IMetaDataTables::GetNextBlob (rometadataapi.h)
-description: Gets the index of the next binary large object (BLOB) in the table.helpviewer_keywords: ["GetNextBlob","GetNextBlob method [Windows Runtime]","GetNextBlob method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetNextBlob method","IMetaDataTables.GetNextBlob","IMetaDataTables::GetNextBlob","rometadataapi/IMetaDataTables::GetNextBlob","winrt.imetadatatables_getnextblob"]
+description: Gets the index of the next binary large object (BLOB) in the table.
+helpviewer_keywords: ["GetNextBlob","GetNextBlob method [Windows Runtime]","GetNextBlob method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetNextBlob method","IMetaDataTables.GetNextBlob","IMetaDataTables::GetNextBlob","rometadataapi/IMetaDataTables::GetNextBlob","winrt.imetadatatables_getnextblob"]
 old-location: winrt\imetadatatables_getnextblob.htm
 tech.root: WinRT
 ms.assetid: f70e5377-4cc1-4066-acc2-bb13f336881b

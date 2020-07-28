@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfThreadMgr2
 title: ITfThreadMgr2 (msctf.h)
-description: The ITfThreadMgr2 defines the primary object implemented by the TSF manager. ITfThreadMgr2 is used by applications and text services to activate and deactivate text services, create document managers, and maintain the document context focus.helpviewer_keywords: ["ITfThreadMgr2","ITfThreadMgr2 interface [Text Services Framework]","ITfThreadMgr2 interface [Text Services Framework]","described","msctf/ITfThreadMgr2","tsf.itfthreadmgr2"]
+description: The ITfThreadMgr2 defines the primary object implemented by the TSF manager. ITfThreadMgr2 is used by applications and text services to activate and deactivate text services, create document managers, and maintain the document context focus.
+helpviewer_keywords: ["ITfThreadMgr2","ITfThreadMgr2 interface [Text Services Framework]","ITfThreadMgr2 interface [Text Services Framework]","described","msctf/ITfThreadMgr2","tsf.itfthreadmgr2"]
 old-location: tsf\itfthreadmgr2.htm
 tech.root: TSF
 ms.assetid: B80A0DBA-349A-450D-BD9D-14BD36308590

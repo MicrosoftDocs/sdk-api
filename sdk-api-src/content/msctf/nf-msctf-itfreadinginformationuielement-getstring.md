@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetString
 title: ITfReadingInformationUIElement::GetString (msctf.h)
-description: This method returns the string on the reading information UI.helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetString method","ITfReadingInformationUIElement.GetString","ITfReadingInformationUIElement::GetString","msctf/ITfReadingInformationUIElement::GetString","tsf.iitfreadinginformationuielement_getstring","tsf.itfreadinginformationuielement_getstring"]
+description: This method returns the string on the reading information UI.
+helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetString method","ITfReadingInformationUIElement.GetString","ITfReadingInformationUIElement::GetString","msctf/ITfReadingInformationUIElement::GetString","tsf.iitfreadinginformationuielement_getstring","tsf.itfreadinginformationuielement_getstring"]
 old-location: tsf\itfreadinginformationuielement_getstring.htm
 tech.root: TSF
 ms.assetid: d8e7dae5-ea73-4fad-a731-3ca1eaa60b03

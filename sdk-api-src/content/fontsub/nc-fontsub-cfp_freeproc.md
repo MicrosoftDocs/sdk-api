@@ -1,7 +1,8 @@
 ---
 UID: NC:fontsub.CFP_FREEPROC
 title: CFP_FREEPROC (fontsub.h)
-description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to free memory.helpviewer_keywords: ["CFP_FREEPROC","CFP_FREEPROC callback","CFP_FREEPROC callback function [Windows GDI]","_win32_CFP_FREEPROC","fontsub/CFP_FREEPROC","gdi.cfp_freeproc"]
+description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to free memory.
+helpviewer_keywords: ["CFP_FREEPROC","CFP_FREEPROC callback","CFP_FREEPROC callback function [Windows GDI]","_win32_CFP_FREEPROC","fontsub/CFP_FREEPROC","gdi.cfp_freeproc"]
 old-location: gdi\cfp_freeproc.htm
 tech.root: gdi
 ms.assetid: cd99e704-b3a8-4d55-946f-76dd47b2a030

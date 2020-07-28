@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTask.SetProperty
 title: IAzTask::SetProperty (azroles.h)
-description: Sets the specified value to the IAzTask object property with the specified property ID.helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_DESCRIPTION","AZ_PROP_IS_ROLE_DEFINITION","AZ_PROP_NAME","AZ_PROP_TASK_BIZRULE","AZ_PROP_TASK_BIZRULE_LANGUAGE","AZ_PROP_TASK_IS_ROLE_DEFINITION","AzTask object [Security]","SetProperty method","IAzTask interface [Security]","SetProperty method","IAzTask.SetProperty","IAzTask::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzTask object","SetProperty method [Security]","IAzTask interface","azroles/IAzTask::SetProperty","security.iaztask_setproperty"]
+description: Sets the specified value to the IAzTask object property with the specified property ID.
+helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_DESCRIPTION","AZ_PROP_IS_ROLE_DEFINITION","AZ_PROP_NAME","AZ_PROP_TASK_BIZRULE","AZ_PROP_TASK_BIZRULE_LANGUAGE","AZ_PROP_TASK_IS_ROLE_DEFINITION","AzTask object [Security]","SetProperty method","IAzTask interface [Security]","SetProperty method","IAzTask.SetProperty","IAzTask::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzTask object","SetProperty method [Security]","IAzTask interface","azroles/IAzTask::SetProperty","security.iaztask_setproperty"]
 old-location: security\iaztask_setproperty.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 515d23f6-fcd9-4838-8910-2675211dfc48
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_IS_ROLE_DEFINITION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AzTask object [Security],SetProperty method, IAzTask interface [Security],SetProperty method, IAzTask.SetProperty, IAzTask::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzTask object, SetProperty method [Security],IAzTask interface, azroles/IAzTask::SetProperty, security.iaztask_setproperty

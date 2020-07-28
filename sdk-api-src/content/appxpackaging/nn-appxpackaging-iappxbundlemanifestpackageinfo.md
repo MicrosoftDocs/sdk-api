@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfo
 title: IAppxBundleManifestPackageInfo (appxpackaging.h)
-description: Provides a read-only object model for a &lt;Package&gt; element in a bundle package manifest.helpviewer_keywords: ["IAppxBundleManifestPackageInfo","IAppxBundleManifestPackageInfo interface [App packaging and management]","IAppxBundleManifestPackageInfo interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestPackageInfo","appxpkg.iappxbundlemanifestpackageinfo"]
+description: Provides a read-only object model for a &lt;Package&gt; element in a bundle package manifest.
+helpviewer_keywords: ["IAppxBundleManifestPackageInfo","IAppxBundleManifestPackageInfo interface [App packaging and management]","IAppxBundleManifestPackageInfo interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestPackageInfo","appxpkg.iappxbundlemanifestpackageinfo"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: B9272875-E02A-4443-82B3-C64104E8291C

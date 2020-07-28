@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher
 title: WSDCreateDiscoveryPublisher function (wsddisco.h)
-description: Creates an IWSDiscoveryPublisher object.helpviewer_keywords: ["WSDCreateDiscoveryPublisher","WSDCreateDiscoveryPublisher function","ncd.wsdcreatediscoverypublisher_func","wsddisco/WSDCreateDiscoveryPublisher"]
+description: Creates an IWSDiscoveryPublisher object.
+helpviewer_keywords: ["WSDCreateDiscoveryPublisher","WSDCreateDiscoveryPublisher function","ncd.wsdcreatediscoverypublisher_func","wsddisco/WSDCreateDiscoveryPublisher"]
 old-location: ncd\wsdcreatediscoverypublisher_func.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 18abde49-2ea7-4c49-9afe-1b7c7182aeeb
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryPublisher, WSDCreateDiscoveryPublisher function, ncd.wsdcreatediscoverypublisher_func, wsddisco/WSDCreateDiscoveryPublisher

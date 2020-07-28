@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_VoidTransform.Stop
 title: IBDA_VoidTransform::Stop (bdaiface.h)
-description: The Stop method stops data flow through a control node.helpviewer_keywords: ["IBDA_VoidTransform interface [Microsoft TV Technologies]","Stop method","IBDA_VoidTransform.Stop","IBDA_VoidTransform::Stop","IBDA_VoidTransformStop","Stop","Stop method [Microsoft TV Technologies]","Stop method [Microsoft TV Technologies]","IBDA_VoidTransform interface","bdaiface/IBDA_VoidTransform::Stop","mstv.ibda_voidtransform_stop"]
+description: The Stop method stops data flow through a control node.
+helpviewer_keywords: ["IBDA_VoidTransform interface [Microsoft TV Technologies]","Stop method","IBDA_VoidTransform.Stop","IBDA_VoidTransform::Stop","IBDA_VoidTransformStop","Stop","Stop method [Microsoft TV Technologies]","Stop method [Microsoft TV Technologies]","IBDA_VoidTransform interface","bdaiface/IBDA_VoidTransform::Stop","mstv.ibda_voidtransform_stop"]
 old-location: mstv\ibda_voidtransform_stop.htm
 tech.root: mstv
 ms.assetid: ff061aef-1058-4d1d-802e-89e7f4ebfe3c

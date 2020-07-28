@@ -1,9 +1,10 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.BeginPrepareSnapshot
 title: IVssSoftwareSnapshotProvider::BeginPrepareSnapshot (vsprov.h)
-description: VSS calls this method for each shadow copy that is added to the shadow copy set.helpviewer_keywords: ["BeginPrepareSnapshot","BeginPrepareSnapshot method","BeginPrepareSnapshot method","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","BeginPrepareSnapshot method","IVssSoftwareSnapshotProvider.BeginPrepareSnapshot","IVssSoftwareSnapshotProvider::BeginPrepareSnapshot","base.ivsssoftwaresnapshotprovider_beginpreparesnapshot","vsprov/IVssSoftwareSnapshotProvider::BeginPrepareSnapshot"]
+description: VSS calls this method for each shadow copy that is added to the shadow copy set.
+helpviewer_keywords: ["BeginPrepareSnapshot","BeginPrepareSnapshot method","BeginPrepareSnapshot method","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","BeginPrepareSnapshot method","IVssSoftwareSnapshotProvider.BeginPrepareSnapshot","IVssSoftwareSnapshotProvider::BeginPrepareSnapshot","base.ivsssoftwaresnapshotprovider_beginpreparesnapshot","vsprov/IVssSoftwareSnapshotProvider::BeginPrepareSnapshot"]
 old-location: base\ivsssoftwaresnapshotprovider_beginpreparesnapshot.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 75e6a865-13e7-4bed-bd83-c74c4c1dc228
 ms.date: 12/05/2018
 ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method, BeginPrepareSnapshot method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,BeginPrepareSnapshot method, IVssSoftwareSnapshotProvider.BeginPrepareSnapshot, IVssSoftwareSnapshotProvider::BeginPrepareSnapshot, base.ivsssoftwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssSoftwareSnapshotProvider::BeginPrepareSnapshot

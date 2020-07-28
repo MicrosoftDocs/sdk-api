@@ -1,7 +1,8 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRenderer
 title: IWTSBitmapRenderer (tsvirtualchannels.h)
-description: Used by a dynamic virtual channel plug-in to render bitmaps.helpviewer_keywords: ["IWTSBitmapRenderer","IWTSBitmapRenderer interface [Remote Desktop Services]","IWTSBitmapRenderer interface [Remote Desktop Services]","described","termserv.iwtsbitmaprenderer","tsvirtualchannels/IWTSBitmapRenderer"]
+description: Used by a dynamic virtual channel plug-in to render bitmaps.
+helpviewer_keywords: ["IWTSBitmapRenderer","IWTSBitmapRenderer interface [Remote Desktop Services]","IWTSBitmapRenderer interface [Remote Desktop Services]","described","termserv.iwtsbitmaprenderer","tsvirtualchannels/IWTSBitmapRenderer"]
 old-location: termserv\iwtsbitmaprenderer.htm
 tech.root: TermServ
 ms.assetid: 6930683e-bb9e-499c-b44f-27938faff3db

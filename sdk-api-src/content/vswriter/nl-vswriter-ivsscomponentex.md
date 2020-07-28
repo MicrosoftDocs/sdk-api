@@ -1,9 +1,10 @@
 ---
 UID: NL:vswriter.IVssComponentEx
 title: IVssComponentEx (vswriter.h)
-description: Defines additional methods for examining and modifying information about components contained in a requester's Backup Components Document.helpviewer_keywords: ["IVssComponentEx","IVssComponentEx interface","IVssComponentEx interface","described","base.ivsscomponentex","vswriter/IVssComponentEx"]
+description: Defines additional methods for examining and modifying information about components contained in a requester's Backup Components Document.
+helpviewer_keywords: ["IVssComponentEx","IVssComponentEx interface","IVssComponentEx interface","described","base.ivsscomponentex","vswriter/IVssComponentEx"]
 old-location: base\ivsscomponentex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx

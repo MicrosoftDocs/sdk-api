@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RetireService
 title: IWSDDeviceHost::RetireService (wsdhost.h)
-description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.helpviewer_keywords: ["IWSDDeviceHost interface","RetireService method","IWSDDeviceHost.RetireService","IWSDDeviceHost::RetireService","RetireService","RetireService method","RetireService method","IWSDDeviceHost interface","ncd.iwsddevicehost_retireservice_method","wsdhost/IWSDDeviceHost::RetireService"]
+description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
+helpviewer_keywords: ["IWSDDeviceHost interface","RetireService method","IWSDDeviceHost.RetireService","IWSDDeviceHost::RetireService","RetireService","RetireService method","RetireService method","IWSDDeviceHost interface","ncd.iwsddevicehost_retireservice_method","wsdhost/IWSDDeviceHost::RetireService"]
 old-location: ncd\iwsddevicehost_retireservice_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService

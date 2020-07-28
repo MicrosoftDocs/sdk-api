@@ -1,9 +1,10 @@
 ---
 UID: NS:interactioncontext.MANIPULATION_VELOCITY
 title: MANIPULATION_VELOCITY (interactioncontext.h)
-description: Defines the velocity data of a manipulation.helpviewer_keywords: ["MANIPULATION_VELOCITY","MANIPULATION_VELOCITY structure","input_intcontext.manipulation_velocity","interactioncontext.manipulation_velocity","interactioncontext/MANIPULATION_VELOCITY"]
+description: Defines the velocity data of a manipulation.
+helpviewer_keywords: ["MANIPULATION_VELOCITY","MANIPULATION_VELOCITY structure","input_intcontext.manipulation_velocity","interactioncontext.manipulation_velocity","interactioncontext/MANIPULATION_VELOCITY"]
 old-location: input_intcontext\manipulation_velocity.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: fe7ef0b7-52f6-4171-8ecf-7bc8db7c7a48
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_VELOCITY, MANIPULATION_VELOCITY structure, input_intcontext.manipulation_velocity, interactioncontext.manipulation_velocity, interactioncontext/MANIPULATION_VELOCITY

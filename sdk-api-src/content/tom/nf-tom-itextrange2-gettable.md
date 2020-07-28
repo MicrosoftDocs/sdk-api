@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.GetTable
 title: ITextRange2::GetTable (tom.h)
-description: Gets the table properties in the currently selected table.helpviewer_keywords: ["GetTable","GetTable method [Windows Controls]","GetTable method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetTable method","ITextRange2.GetTable","ITextRange2::GetTable","controls.itextrange2_gettable","tom/ITextRange2::GetTable"]
+description: Gets the table properties in the currently selected table.
+helpviewer_keywords: ["GetTable","GetTable method [Windows Controls]","GetTable method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetTable method","ITextRange2.GetTable","ITextRange2::GetTable","controls.itextrange2_gettable","tom/ITextRange2::GetTable"]
 old-location: controls\itextrange2_gettable.htm
 tech.root: Controls
 ms.assetid: ade77edf-6a9e-4c8d-a522-3158c802b6dd

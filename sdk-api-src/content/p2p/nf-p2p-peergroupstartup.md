@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupStartup
 title: PeerGroupStartup function (p2p.h)
-description: The PeerGroupStartup function initiates a peer group by using a requested version of the Peer infrastructure.helpviewer_keywords: ["PeerGroupStartup","PeerGroupStartup function [Peer Networking]","p2p.peergroupstartup","p2p/PeerGroupStartup"]
+description: The PeerGroupStartup function initiates a peer group by using a requested version of the Peer infrastructure.
+helpviewer_keywords: ["PeerGroupStartup","PeerGroupStartup function [Peer Networking]","p2p.peergroupstartup","p2p/PeerGroupStartup"]
 old-location: p2p\peergroupstartup.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
 ms.date: 12/05/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup

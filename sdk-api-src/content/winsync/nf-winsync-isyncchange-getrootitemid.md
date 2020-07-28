@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChange.GetRootItemId
 title: ISyncChange::GetRootItemId (winsync.h)
-description: Gets the ID of the changed item.helpviewer_keywords: ["GetRootItemId","GetRootItemId method [Windows Sync]","GetRootItemId method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetRootItemId method","ISyncChange.GetRootItemId","ISyncChange::GetRootItemId","winsync.isyncchange_getrootitemid","winsync/ISyncChange::GetRootItemId"]
+description: Gets the ID of the changed item.
+helpviewer_keywords: ["GetRootItemId","GetRootItemId method [Windows Sync]","GetRootItemId method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetRootItemId method","ISyncChange.GetRootItemId","ISyncChange::GetRootItemId","winsync.isyncchange_getrootitemid","winsync/ISyncChange::GetRootItemId"]
 old-location: winsync\isyncchange_getrootitemid.htm
 tech.root: winsync
 ms.assetid: 775868d5-8cab-431a-913b-b22b2d516f0d

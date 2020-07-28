@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineNegotiateExtVersion
 title: TSPI_lineNegotiateExtVersion function (tspi.h)
-description: The TSPI_lineNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.helpviewer_keywords: ["TSPI_lineNegotiateExtVersion","TSPI_lineNegotiateExtVersion function [TAPI 2.2]","_tspi_tspi_linenegotiateextversion","tspi.tspi_linenegotiateextversion","tspi/TSPI_lineNegotiateExtVersion"]
+description: The TSPI_lineNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
+helpviewer_keywords: ["TSPI_lineNegotiateExtVersion","TSPI_lineNegotiateExtVersion function [TAPI 2.2]","_tspi_tspi_linenegotiateextversion","tspi.tspi_linenegotiateextversion","tspi/TSPI_lineNegotiateExtVersion"]
 old-location: tspi\tspi_linenegotiateextversion.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cd7cc421-3efb-4fe1-858c-4d894f4d9377
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineNegotiateExtVersion, TSPI_lineNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_linenegotiateextversion, tspi.tspi_linenegotiateextversion, tspi/TSPI_lineNegotiateExtVersion

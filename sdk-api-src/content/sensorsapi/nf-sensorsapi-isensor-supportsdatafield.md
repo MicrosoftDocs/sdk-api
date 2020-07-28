@@ -1,9 +1,10 @@
 ---
 UID: NF:sensorsapi.ISensor.SupportsDataField
 title: ISensor::SupportsDataField (sensorsapi.h)
-description: Indicates whether the sensor supports the specified data field.helpviewer_keywords: ["ISensor interface","SupportsDataField method","ISensor.SupportsDataField","ISensor::SupportsDataField","SupportsDataField","SupportsDataField method","SupportsDataField method","ISensor interface","sensorsapi/ISensor::SupportsDataField","winsensors_com_ref.isensor_supportsdatafield"]
+description: Indicates whether the sensor supports the specified data field.
+helpviewer_keywords: ["ISensor interface","SupportsDataField method","ISensor.SupportsDataField","ISensor::SupportsDataField","SupportsDataField","SupportsDataField method","SupportsDataField method","ISensor interface","sensorsapi/ISensor::SupportsDataField","winsensors_com_ref.isensor_supportsdatafield"]
 old-location: winsensors_com_ref\isensor_supportsdatafield.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 95e7211f-9335-4ecf-b9e9-b86ec6a63cba
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SupportsDataField method, ISensor.SupportsDataField, ISensor::SupportsDataField, SupportsDataField, SupportsDataField method, SupportsDataField method,ISensor interface, sensorsapi/ISensor::SupportsDataField, winsensors_com_ref.isensor_supportsdatafield

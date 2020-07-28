@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.DestroyInteractionContext
 title: DestroyInteractionContext function (interactioncontext.h)
-description: Destroys the specified Interaction Context object.helpviewer_keywords: ["DestroyInteractionContext","DestroyInteractionContext function","input_intcontext.destroyinteractioncontext","interactioncontext.destroyinteractioncontext","interactioncontext/DestroyInteractionContext"]
+description: Destroys the specified Interaction Context object.
+helpviewer_keywords: ["DestroyInteractionContext","DestroyInteractionContext function","input_intcontext.destroyinteractioncontext","interactioncontext.destroyinteractioncontext","interactioncontext/DestroyInteractionContext"]
 old-location: input_intcontext\destroyinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 871b35be-ccda-4a74-b516-e1e7f852782d
 ms.date: 12/05/2018
 ms.keywords: DestroyInteractionContext, DestroyInteractionContext function, input_intcontext.destroyinteractioncontext, interactioncontext.destroyinteractioncontext, interactioncontext/DestroyInteractionContext

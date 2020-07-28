@@ -1,9 +1,10 @@
 ---
 UID: NE:winnt._FIRMWARE_TYPE
 title: FIRMWARE_TYPE (winnt.h)
-description: Specifies a firmware type.helpviewer_keywords: ["*PFIRMWARE_TYPE","FIRMWARE_TYPE","FIRMWARE_TYPE enumeration","FirmwareTypeBios","FirmwareTypeMax","FirmwareTypeUefi","FirmwareTypeUnknown","PFIRMWARE_TYPE","PFIRMWARE_TYPE enumeration pointer","base.firmware_type","winnt/FIRMWARE_TYPE","winnt/FirmwareTypeBios","winnt/FirmwareTypeMax","winnt/FirmwareTypeUefi","winnt/FirmwareTypeUnknown","winnt/PFIRMWARE_TYPE"]
+description: Specifies a firmware type.
+helpviewer_keywords: ["*PFIRMWARE_TYPE","FIRMWARE_TYPE","FIRMWARE_TYPE enumeration","FirmwareTypeBios","FirmwareTypeMax","FirmwareTypeUefi","FirmwareTypeUnknown","PFIRMWARE_TYPE","PFIRMWARE_TYPE enumeration pointer","base.firmware_type","winnt/FIRMWARE_TYPE","winnt/FirmwareTypeBios","winnt/FirmwareTypeMax","winnt/FirmwareTypeUefi","winnt/FirmwareTypeUnknown","winnt/PFIRMWARE_TYPE"]
 old-location: base\firmware_type.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: c058e20e-11f9-4652-b658-9fd0a43d4224
 ms.date: 12/05/2018
 ms.keywords: '*PFIRMWARE_TYPE, FIRMWARE_TYPE, FIRMWARE_TYPE enumeration, FirmwareTypeBios, FirmwareTypeMax, FirmwareTypeUefi, FirmwareTypeUnknown, PFIRMWARE_TYPE, PFIRMWARE_TYPE enumeration pointer, base.firmware_type, winnt/FIRMWARE_TYPE, winnt/FirmwareTypeBios, winnt/FirmwareTypeMax, winnt/FirmwareTypeUefi, winnt/FirmwareTypeUnknown, winnt/PFIRMWARE_TYPE'

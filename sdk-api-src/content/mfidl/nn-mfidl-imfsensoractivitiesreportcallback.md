@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFSensorActivitiesReportCallback
 title: IMFSensorActivitiesReportCallback (mfidl.h)
-description: Interface implemented by the client to receive callbacks when sensor activity reports are available.helpviewer_keywords: ["IMFSensorActivitiesReportCallback","IMFSensorActivitiesReportCallback interface [Media Foundation]","IMFSensorActivitiesReportCallback interface [Media Foundation]","described","mf.imfsensoractivitiesreportcallback","mfidl/IMFSensorActivitiesReportCallback"]
+description: Interface implemented by the client to receive callbacks when sensor activity reports are available.
+helpviewer_keywords: ["IMFSensorActivitiesReportCallback","IMFSensorActivitiesReportCallback interface [Media Foundation]","IMFSensorActivitiesReportCallback interface [Media Foundation]","described","mf.imfsensoractivitiesreportcallback","mfidl/IMFSensorActivitiesReportCallback"]
 old-location: mf\imfsensoractivitiesreportcallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback

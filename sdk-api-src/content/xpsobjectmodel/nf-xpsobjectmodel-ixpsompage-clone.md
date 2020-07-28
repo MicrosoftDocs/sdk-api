@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.Clone
 title: IXpsOMPage::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","Clone method","IXpsOMPage.Clone","IXpsOMPage::Clone","xps.ixpsompage_clone","xpsobjectmodel/IXpsOMPage::Clone"]
+description: Makes a deep copy of the interface.
+helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","Clone method","IXpsOMPage.Clone","IXpsOMPage::Clone","xps.ixpsompage_clone","xpsobjectmodel/IXpsOMPage::Clone"]
 old-location: xps\ixpsompage_clone.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 9577aeec-105d-475f-bc4b-db9abc4d0dce
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],Clone method, IXpsOMPage.Clone, IXpsOMPage::Clone, xps.ixpsompage_clone, xpsobjectmodel/IXpsOMPage::Clone

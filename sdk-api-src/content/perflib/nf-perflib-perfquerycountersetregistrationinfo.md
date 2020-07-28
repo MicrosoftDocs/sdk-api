@@ -1,9 +1,10 @@
 ---
 UID: NF:perflib.PerfQueryCounterSetRegistrationInfo
 title: PerfQueryCounterSetRegistrationInfo function (perflib.h)
-description: Gets information about a counter set on the specified system.helpviewer_keywords: ["PerfQueryCounterSetRegistrationInfo","PerfQueryCounterSetRegistrationInfo function [Perf]","perf.perfquerycountersetregistrationinfo","perflib/PerfQueryCounterSetRegistrationInfo"]
+description: Gets information about a counter set on the specified system.
+helpviewer_keywords: ["PerfQueryCounterSetRegistrationInfo","PerfQueryCounterSetRegistrationInfo function [Perf]","perf.perfquerycountersetregistrationinfo","perflib/PerfQueryCounterSetRegistrationInfo"]
 old-location: perf\perfquerycountersetregistrationinfo.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo

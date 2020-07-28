@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpFormatCredentialsFn
 title: SpFormatCredentialsFn (ntsecpkg.h)
-description: Formats credentials to be stored in a user object.helpviewer_keywords: ["SpFormatCredentials","SpFormatCredentials callback function [Security]","SpFormatCredentialsFn","SpFormatCredentialsFn callback","_ssp_spformatcredentials","ntsecpkg/SpFormatCredentials","security.spformatcredentials"]
+description: Formats credentials to be stored in a user object.
+helpviewer_keywords: ["SpFormatCredentials","SpFormatCredentials callback function [Security]","SpFormatCredentialsFn","SpFormatCredentialsFn callback","_ssp_spformatcredentials","ntsecpkg/SpFormatCredentials","security.spformatcredentials"]
 old-location: security\spformatcredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c6036636-7f22-4f64-b507-59212d37638b
 ms.date: 12/05/2018
 ms.keywords: SpFormatCredentials, SpFormatCredentials callback function [Security], SpFormatCredentialsFn, SpFormatCredentialsFn callback, _ssp_spformatcredentials, ntsecpkg/SpFormatCredentials, security.spformatcredentials

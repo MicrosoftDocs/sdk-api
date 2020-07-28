@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromURL
 title: IMFPMediaPlayer::CreateMediaItemFromURL (mfplay.h)
-description: Creates a media item from a URL.helpviewer_keywords: ["CreateMediaItemFromURL","CreateMediaItemFromURL method [Media Foundation]","CreateMediaItemFromURL method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","CreateMediaItemFromURL method","IMFPMediaPlayer.CreateMediaItemFromURL","IMFPMediaPlayer::CreateMediaItemFromURL","mf.imfpmediaplayer_createmediaitemfromurl","mfplay/IMFPMediaPlayer::CreateMediaItemFromURL"]
+description: Creates a media item from a URL.
+helpviewer_keywords: ["CreateMediaItemFromURL","CreateMediaItemFromURL method [Media Foundation]","CreateMediaItemFromURL method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","CreateMediaItemFromURL method","IMFPMediaPlayer.CreateMediaItemFromURL","IMFPMediaPlayer::CreateMediaItemFromURL","mf.imfpmediaplayer_createmediaitemfromurl","mfplay/IMFPMediaPlayer::CreateMediaItemFromURL"]
 old-location: mf\imfpmediaplayer_createmediaitemfromurl.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7dc2a7f3-81b4-46c6-b45e-44c6a20afc6b
 ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromURL method, IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL

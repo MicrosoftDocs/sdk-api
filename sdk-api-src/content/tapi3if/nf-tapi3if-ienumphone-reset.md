@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.IEnumPhone.Reset
 title: IEnumPhone::Reset (tapi3if.h)
-description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.helpviewer_keywords: ["IEnumPhone interface [TAPI 2.2]","Reset method","IEnumPhone.Reset","IEnumPhone::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumPhone interface","_tapi3_ienumphone_reset","tapi3.ienumphone_reset","tapi3if/IEnumPhone::Reset"]
+description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
+helpviewer_keywords: ["IEnumPhone interface [TAPI 2.2]","Reset method","IEnumPhone.Reset","IEnumPhone::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumPhone interface","_tapi3_ienumphone_reset","tapi3.ienumphone_reset","tapi3if/IEnumPhone::Reset"]
 old-location: tapi3\ienumphone_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 394e1d55-56f2-4233-93ce-a109906414f4
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Reset method, IEnumPhone.Reset, IEnumPhone::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_reset, tapi3.ienumphone_reset, tapi3if/IEnumPhone::Reset

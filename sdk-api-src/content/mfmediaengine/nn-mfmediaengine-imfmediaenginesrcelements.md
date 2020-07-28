@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElements
 title: IMFMediaEngineSrcElements (mfmediaengine.h)
-description: Provides the Media Engine with a list of media resources.helpviewer_keywords: ["IMFMediaEngineSrcElements","IMFMediaEngineSrcElements interface [Media Foundation]","IMFMediaEngineSrcElements interface [Media Foundation]","described","mf.imfmediaenginesrcelements","mfmediaengine/IMFMediaEngineSrcElements"]
+description: Provides the Media Engine with a list of media resources.
+helpviewer_keywords: ["IMFMediaEngineSrcElements","IMFMediaEngineSrcElements interface [Media Foundation]","IMFMediaEngineSrcElements interface [Media Foundation]","described","mf.imfmediaenginesrcelements","mfmediaengine/IMFMediaEngineSrcElements"]
 old-location: mf\imfmediaenginesrcelements.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements

@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.IAnchor.ShiftTo
 title: IAnchor::ShiftTo (textstor.h)
-description: The IAnchor::ShiftTo method shifts the current anchor to the same position as another anchor.helpviewer_keywords: ["IAnchor interface [Text Services Framework]","ShiftTo method","IAnchor.ShiftTo","IAnchor::ShiftTo","ShiftTo","ShiftTo method [Text Services Framework]","ShiftTo method [Text Services Framework]","IAnchor interface","textstor/IAnchor::ShiftTo","tsf.ianchor_shiftto"]
+description: The IAnchor::ShiftTo method shifts the current anchor to the same position as another anchor.
+helpviewer_keywords: ["IAnchor interface [Text Services Framework]","ShiftTo method","IAnchor.ShiftTo","IAnchor::ShiftTo","ShiftTo","ShiftTo method [Text Services Framework]","ShiftTo method [Text Services Framework]","IAnchor interface","textstor/IAnchor::ShiftTo","tsf.ianchor_shiftto"]
 old-location: tsf\ianchor_shiftto.htm
 tech.root: TSF
 ms.assetid: a0fb9a08-3f46-4d2f-8887-e80dc0bade1b

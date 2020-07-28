@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidOutputDeviceEvent
 title: IMSVidOutputDeviceEvent (segment.h)
-description: Note  This topic applies to Windows XP or later. The IMSVidOutputDeviceEvent interface is the base interface for output device events.helpviewer_keywords: ["IMSVidOutputDeviceEvent","IMSVidOutputDeviceEvent interface [Microsoft TV Technologies]","IMSVidOutputDeviceEvent interface [Microsoft TV Technologies]","described","IMSVidOutputDeviceEventInterface","mstv.imsvidoutputdeviceevent","segment/IMSVidOutputDeviceEvent"]
+description: Note  This topic applies to Windows XP or later. The IMSVidOutputDeviceEvent interface is the base interface for output device events.
+helpviewer_keywords: ["IMSVidOutputDeviceEvent","IMSVidOutputDeviceEvent interface [Microsoft TV Technologies]","IMSVidOutputDeviceEvent interface [Microsoft TV Technologies]","described","IMSVidOutputDeviceEventInterface","mstv.imsvidoutputdeviceevent","segment/IMSVidOutputDeviceEvent"]
 old-location: mstv\imsvidoutputdeviceevent.htm
 tech.root: mstv
 ms.assetid: 4f3ad7c0-02fd-4232-89f1-49517c23ee28

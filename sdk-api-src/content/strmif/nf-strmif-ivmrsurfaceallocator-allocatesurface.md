@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.AllocateSurface
 title: IVMRSurfaceAllocator::AllocateSurface (strmif.h)
-description: The AllocateSurface method allocates a DirectDraw surface.helpviewer_keywords: ["AllocateSurface","AllocateSurface method [DirectShow]","AllocateSurface method [DirectShow]","IVMRSurfaceAllocator interface","IVMRSurfaceAllocator interface [DirectShow]","AllocateSurface method","IVMRSurfaceAllocator.AllocateSurface","IVMRSurfaceAllocator::AllocateSurface","IVMRSurfaceAllocatorAllocateSurface","dshow.ivmrsurfaceallocator_allocatesurface","strmif/IVMRSurfaceAllocator::AllocateSurface"]
+description: The AllocateSurface method allocates a DirectDraw surface.
+helpviewer_keywords: ["AllocateSurface","AllocateSurface method [DirectShow]","AllocateSurface method [DirectShow]","IVMRSurfaceAllocator interface","IVMRSurfaceAllocator interface [DirectShow]","AllocateSurface method","IVMRSurfaceAllocator.AllocateSurface","IVMRSurfaceAllocator::AllocateSurface","IVMRSurfaceAllocatorAllocateSurface","dshow.ivmrsurfaceallocator_allocatesurface","strmif/IVMRSurfaceAllocator::AllocateSurface"]
 old-location: dshow\ivmrsurfaceallocator_allocatesurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6783df91-c92f-45d0-b299-16cdbc4bb630
 ms.date: 12/05/2018
 ms.keywords: AllocateSurface, AllocateSurface method [DirectShow], AllocateSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AllocateSurface method, IVMRSurfaceAllocator.AllocateSurface, IVMRSurfaceAllocator::AllocateSurface, IVMRSurfaceAllocatorAllocateSurface, dshow.ivmrsurfaceallocator_allocatesurface, strmif/IVMRSurfaceAllocator::AllocateSurface

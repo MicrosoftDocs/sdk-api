@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_FAULT
 title: WS_FAULT (webservices.h)
-description: A Fault is a value carried in the body of a message which conveys a processing failure. Faults are modeled using the WS_FAULT structure.helpviewer_keywords: ["WS_FAULT","WS_FAULT structure [Web Services for Windows]","webservices/WS_FAULT","wsw.ws_fault"]
+description: A Fault is a value carried in the body of a message which conveys a processing failure. Faults are modeled using the WS_FAULT structure.
+helpviewer_keywords: ["WS_FAULT","WS_FAULT structure [Web Services for Windows]","webservices/WS_FAULT","wsw.ws_fault"]
 old-location: wsw\ws_fault.htm
 tech.root: wsw
 ms.assetid: 7fe0b142-04a1-4a92-99ca-523412f7c94e

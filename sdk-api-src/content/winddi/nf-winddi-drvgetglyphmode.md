@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvGetGlyphMode
 title: DrvGetGlyphMode function (winddi.h)
-description: The DrvGetGlyphMode function tells GDI how to cache glyph information.helpviewer_keywords: ["DrvGetGlyphMode","DrvGetGlyphMode function [Display Devices]","ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml","display.drvgetglyphmode","winddi/DrvGetGlyphMode"]
+description: The DrvGetGlyphMode function tells GDI how to cache glyph information.
+helpviewer_keywords: ["DrvGetGlyphMode","DrvGetGlyphMode function [Display Devices]","ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml","display.drvgetglyphmode","winddi/DrvGetGlyphMode"]
 old-location: display\drvgetglyphmode.htm
 tech.root: display
 ms.assetid: 8e11c4e7-0203-4445-8f33-3b928161c62a

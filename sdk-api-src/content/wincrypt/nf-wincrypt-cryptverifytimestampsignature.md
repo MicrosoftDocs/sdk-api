@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptVerifyTimeStampSignature
 title: CryptVerifyTimeStampSignature function (wincrypt.h)
-description: Validates the time stamp signature on a specified array of bytes.helpviewer_keywords: ["CryptVerifyTimeStampSignature","CryptVerifyTimeStampSignature function [Security]","security.cryptverifytimestampsignature","wincrypt/CryptVerifyTimeStampSignature"]
+description: Validates the time stamp signature on a specified array of bytes.
+helpviewer_keywords: ["CryptVerifyTimeStampSignature","CryptVerifyTimeStampSignature function [Security]","security.cryptverifytimestampsignature","wincrypt/CryptVerifyTimeStampSignature"]
 old-location: security\cryptverifytimestampsignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 791b1500-98e3-49d5-97aa-be91f5edb7c2
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyTimeStampSignature, CryptVerifyTimeStampSignature function [Security], security.cryptverifytimestampsignature, wincrypt/CryptVerifyTimeStampSignature

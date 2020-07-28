@@ -4,7 +4,7 @@ title: FSCTL_REQUEST_OPLOCK_LEVEL_2
 description: Requests a level 2 opportunistic lock on a file.
 helpviewer_keywords: ["FSCTL_REQUEST_OPLOCK_LEVEL_2","FSCTL_REQUEST_OPLOCK_LEVEL_2 control","FSCTL_REQUEST_OPLOCK_LEVEL_2 control code [Files]","_win32_fsctl_request_oplock_level_2","base.fsctl_request_oplock_level_2","fs.fsctl_request_oplock_level_2","winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_2"]
 old-location: fs\fsctl_request_oplock_level_2.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e7a36484-2ebc-4c91-b11f-e4ffb804dfa5
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_OPLOCK_LEVEL_2, FSCTL_REQUEST_OPLOCK_LEVEL_2 control, FSCTL_REQUEST_OPLOCK_LEVEL_2 control code [Files], _win32_fsctl_request_oplock_level_2, base.fsctl_request_oplock_level_2, fs.fsctl_request_oplock_level_2, winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_2

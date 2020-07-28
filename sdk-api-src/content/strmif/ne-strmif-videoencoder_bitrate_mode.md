@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif.VIDEOENCODER_BITRATE_MODE
 title: VIDEOENCODER_BITRATE_MODE (strmif.h)
-description: The VIDEOENCODER_BITRATE_MODE enumeration type defines the three types of bitrates supported by the IEncoderAPI interface.helpviewer_keywords: ["ConstantBitRate","VIDEOENCODER_BITRATE_MODE","VIDEOENCODER_BITRATE_MODE","VIDEOENCODER_BITRATE_MODE enumeration [DirectShow]","VIDEOENCODER_BITRATE_MODEEnumeration","VariableBitRateAverage","VariableBitRatePeak","dshow.videoencoder_bitrate_mode","strmif/ConstantBitRate","strmif/VIDEOENCODER_BITRATE_MODE","strmif/VariableBitRateAverage","strmif/VariableBitRatePeak"]
+description: The VIDEOENCODER_BITRATE_MODE enumeration type defines the three types of bitrates supported by the IEncoderAPI interface.
+helpviewer_keywords: ["ConstantBitRate","VIDEOENCODER_BITRATE_MODE","VIDEOENCODER_BITRATE_MODE","VIDEOENCODER_BITRATE_MODE enumeration [DirectShow]","VIDEOENCODER_BITRATE_MODEEnumeration","VariableBitRateAverage","VariableBitRatePeak","dshow.videoencoder_bitrate_mode","strmif/ConstantBitRate","strmif/VIDEOENCODER_BITRATE_MODE","strmif/VariableBitRateAverage","strmif/VariableBitRatePeak"]
 old-location: dshow\videoencoder_bitrate_mode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ccceae9a-6d1d-4453-bd84-88cefc20320e
 ms.date: 12/05/2018
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE , VIDEOENCODER_BITRATE_MODE enumeration [DirectShow], VIDEOENCODER_BITRATE_MODEEnumeration, VariableBitRateAverage, VariableBitRatePeak, dshow.videoencoder_bitrate_mode, strmif/ConstantBitRate, strmif/VIDEOENCODER_BITRATE_MODE, strmif/VariableBitRateAverage, strmif/VariableBitRatePeak

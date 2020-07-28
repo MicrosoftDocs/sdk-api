@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CharUpperBuffA
 title: CharUpperBuffA function (winuser.h)
-description: Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place.helpviewer_keywords: ["CharUpperBuff","CharUpperBuff function [Menus and Other Resources]","CharUpperBuffA","CharUpperBuffW","_win32_CharUpperBuff","_win32_charupperbuff_cpp","menurc.charupperbuff","winui._win32_charupperbuff","winuser/CharUpperBuff","winuser/CharUpperBuffA","winuser/CharUpperBuffW"]
+description: Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place.
+helpviewer_keywords: ["CharUpperBuff","CharUpperBuff function [Menus and Other Resources]","CharUpperBuffA","CharUpperBuffW","_win32_CharUpperBuff","_win32_charupperbuff_cpp","menurc.charupperbuff","winui._win32_charupperbuff","winuser/CharUpperBuff","winuser/CharUpperBuffA","winuser/CharUpperBuffW"]
 old-location: menurc\charupperbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm
@@ -114,6 +115,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/c
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CharUpperBuff as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.OpenApplicationGroup
 title: IAzApplication::OpenApplicationGroup (azroles.h)
-description: Opens an IAzApplicationGroup object by specifying its name.helpviewer_keywords: ["AzApplication object [Security]","OpenApplicationGroup method","IAzApplication interface [Security]","OpenApplicationGroup method","IAzApplication.OpenApplicationGroup","IAzApplication::OpenApplicationGroup","OpenApplicationGroup","OpenApplicationGroup method [Security]","OpenApplicationGroup method [Security]","AzApplication object","OpenApplicationGroup method [Security]","IAzApplication interface","azroles/IAzApplication::OpenApplicationGroup","security.iazapplication_openapplicationgroup"]
+description: Opens an IAzApplicationGroup object by specifying its name.
+helpviewer_keywords: ["AzApplication object [Security]","OpenApplicationGroup method","IAzApplication interface [Security]","OpenApplicationGroup method","IAzApplication.OpenApplicationGroup","IAzApplication::OpenApplicationGroup","OpenApplicationGroup","OpenApplicationGroup method [Security]","OpenApplicationGroup method [Security]","AzApplication object","OpenApplicationGroup method [Security]","IAzApplication interface","azroles/IAzApplication::OpenApplicationGroup","security.iazapplication_openapplicationgroup"]
 old-location: security\iazapplication_openapplicationgroup.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6f9c9d65-73aa-40e9-bd04-d4d5d4370201
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenApplicationGroup method, IAzApplication interface [Security],OpenApplicationGroup method, IAzApplication.OpenApplicationGroup, IAzApplication::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzApplication object, OpenApplicationGroup method [Security],IAzApplication interface, azroles/IAzApplication::OpenApplicationGroup, security.iazapplication_openapplicationgroup

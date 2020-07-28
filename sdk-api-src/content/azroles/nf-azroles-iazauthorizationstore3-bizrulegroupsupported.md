@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.BizruleGroupSupported
 title: IAzAuthorizationStore3::BizruleGroupSupported (azroles.h)
-description: Returns a Boolean value that specifies whether this IAzAuthorizationStore3 object supports application groups that use business rule (BizRule) scripts.helpviewer_keywords: ["BizruleGroupSupported","BizruleGroupSupported method [Security]","BizruleGroupSupported method [Security]","IAzAuthorizationStore3 interface","IAzAuthorizationStore3 interface [Security]","BizruleGroupSupported method","IAzAuthorizationStore3.BizruleGroupSupported","IAzAuthorizationStore3::BizruleGroupSupported","azroles/IAzAuthorizationStore3::BizruleGroupSupported","security.iazauthorizationstore3_bizrulegroupsupported_method"]
+description: Returns a Boolean value that specifies whether this IAzAuthorizationStore3 object supports application groups that use business rule (BizRule) scripts.
+helpviewer_keywords: ["BizruleGroupSupported","BizruleGroupSupported method [Security]","BizruleGroupSupported method [Security]","IAzAuthorizationStore3 interface","IAzAuthorizationStore3 interface [Security]","BizruleGroupSupported method","IAzAuthorizationStore3.BizruleGroupSupported","IAzAuthorizationStore3::BizruleGroupSupported","azroles/IAzAuthorizationStore3::BizruleGroupSupported","security.iazauthorizationstore3_bizrulegroupsupported_method"]
 old-location: security\iazauthorizationstore3_bizrulegroupsupported_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 88449b12-5086-4f86-94d4-2a4afb4be070
 ms.date: 12/05/2018
 ms.keywords: BizruleGroupSupported, BizruleGroupSupported method [Security], BizruleGroupSupported method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],BizruleGroupSupported method, IAzAuthorizationStore3.BizruleGroupSupported, IAzAuthorizationStore3::BizruleGroupSupported, azroles/IAzAuthorizationStore3::BizruleGroupSupported, security.iazauthorizationstore3_bizrulegroupsupported_method

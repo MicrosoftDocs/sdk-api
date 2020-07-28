@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetRawValue
 title: ID3D10EffectVariable::GetRawValue (d3d10effect.h)
-description: Get data.helpviewer_keywords: ["18ba7994-4337-bf43-0492-e591b629b77d","GetRawValue","GetRawValue method [Direct3D 10]","GetRawValue method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetRawValue method","ID3D10EffectVariable.GetRawValue","ID3D10EffectVariable::GetRawValue","d3d10effect/ID3D10EffectVariable::GetRawValue","direct3d10.id3d10effectvariable_getrawvalue"]
+description: Get data.
+helpviewer_keywords: ["18ba7994-4337-bf43-0492-e591b629b77d","GetRawValue","GetRawValue method [Direct3D 10]","GetRawValue method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetRawValue method","ID3D10EffectVariable.GetRawValue","ID3D10EffectVariable::GetRawValue","d3d10effect/ID3D10EffectVariable::GetRawValue","direct3d10.id3d10effectvariable_getrawvalue"]
 old-location: direct3d10\id3d10effectvariable_getrawvalue.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getrawvalue.htm

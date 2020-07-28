@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_UserSamName
 title: IX509AttributeClientId::get_UserSamName (certenroll.h)
-description: Retrieves the Security Accounts Manager (SAM) name of the user.helpviewer_keywords: ["IX509AttributeClientId interface [Security]","UserSamName property","IX509AttributeClientId.UserSamName","IX509AttributeClientId.get_UserSamName","IX509AttributeClientId::UserSamName","IX509AttributeClientId::get_UserSamName","UserSamName property [Security]","UserSamName property [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::UserSamName","certenroll/IX509AttributeClientId::get_UserSamName","get_UserSamName","security.ix509attributeclientid_usersamname_property"]
+description: Retrieves the Security Accounts Manager (SAM) name of the user.
+helpviewer_keywords: ["IX509AttributeClientId interface [Security]","UserSamName property","IX509AttributeClientId.UserSamName","IX509AttributeClientId.get_UserSamName","IX509AttributeClientId::UserSamName","IX509AttributeClientId::get_UserSamName","UserSamName property [Security]","UserSamName property [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::UserSamName","certenroll/IX509AttributeClientId::get_UserSamName","get_UserSamName","security.ix509attributeclientid_usersamname_property"]
 old-location: security\ix509attributeclientid_usersamname_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a5a5027f-3854-4064-9cf7-675562b4cd57
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId interface [Security],UserSamName property, IX509AttributeClientId.UserSamName, IX509AttributeClientId.get_UserSamName, IX509AttributeClientId::UserSamName, IX509AttributeClientId::get_UserSamName, UserSamName property [Security], UserSamName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::UserSamName, certenroll/IX509AttributeClientId::get_UserSamName, get_UserSamName, security.ix509attributeclientid_usersamname_property

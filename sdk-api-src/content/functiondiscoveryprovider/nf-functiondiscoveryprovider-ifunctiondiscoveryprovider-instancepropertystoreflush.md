@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 title: IFunctionDiscoveryProvider::InstancePropertyStoreFlush (functiondiscoveryprovider.h)
-description: Provides a mechanism for the provider to persist properties.helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstancePropertyStoreFlush method","IFunctionDiscoveryProvider.InstancePropertyStoreFlush","IFunctionDiscoveryProvider::InstancePropertyStoreFlush","InstancePropertyStoreFlush","InstancePropertyStoreFlush method","InstancePropertyStoreFlush method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush","ncd.ifunctiondiscoveryprovider_instancepropertystoreflush"]
+description: Provides a mechanism for the provider to persist properties.
+helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstancePropertyStoreFlush method","IFunctionDiscoveryProvider.InstancePropertyStoreFlush","IFunctionDiscoveryProvider::InstancePropertyStoreFlush","InstancePropertyStoreFlush","InstancePropertyStoreFlush method","InstancePropertyStoreFlush method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush","ncd.ifunctiondiscoveryprovider_instancepropertystoreflush"]
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreflush.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 7ad29f46-fb21-4287-9fc9-9ab86d44d298
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush method, IFunctionDiscoveryProvider.InstancePropertyStoreFlush, IFunctionDiscoveryProvider::InstancePropertyStoreFlush, InstancePropertyStoreFlush, InstancePropertyStoreFlush method, InstancePropertyStoreFlush method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush, ncd.ifunctiondiscoveryprovider_instancepropertystoreflush

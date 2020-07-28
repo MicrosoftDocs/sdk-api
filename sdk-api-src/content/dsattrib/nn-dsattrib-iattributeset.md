@@ -1,7 +1,8 @@
 ---
 UID: NN:dsattrib.IAttributeSet
 title: IAttributeSet (dsattrib.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAttributeSet interface sets key/value pairs on an object, where the key is a GUID and the value is any binary data.helpviewer_keywords: ["IAttributeSet","IAttributeSet interface [Microsoft TV Technologies]","IAttributeSet interface [Microsoft TV Technologies]","described","IAttributeSetInterface","dsattrib/IAttributeSet","mstv.iattributeset"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAttributeSet interface sets key/value pairs on an object, where the key is a GUID and the value is any binary data.
+helpviewer_keywords: ["IAttributeSet","IAttributeSet interface [Microsoft TV Technologies]","IAttributeSet interface [Microsoft TV Technologies]","described","IAttributeSetInterface","dsattrib/IAttributeSet","mstv.iattributeset"]
 old-location: mstv\iattributeset.htm
 tech.root: mstv
 ms.assetid: ce10ae94-5bd5-4f97-a341-8d5f894bda59

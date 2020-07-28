@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetTooltipText
 title: IUserInputString::GetTooltipText (photoacquire.h)
-description: The GetTooltipText method retrieves the tooltip text displayed for a control.helpviewer_keywords: ["GetTooltipText","GetTooltipText method [Picture Acquisition]","GetTooltipText method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetTooltipText method","IUserInputString.GetTooltipText","IUserInputString::GetTooltipText","IUserInputStringGetTooltipText","photoacquire/IUserInputString::GetTooltipText","picacq.iuserinputstring_gettooltiptext"]
+description: The GetTooltipText method retrieves the tooltip text displayed for a control.
+helpviewer_keywords: ["GetTooltipText","GetTooltipText method [Picture Acquisition]","GetTooltipText method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetTooltipText method","IUserInputString.GetTooltipText","IUserInputString::GetTooltipText","IUserInputStringGetTooltipText","photoacquire/IUserInputString::GetTooltipText","picacq.iuserinputstring_gettooltiptext"]
 old-location: picacq\iuserinputstring_gettooltiptext.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: f57b247c-bd6d-46ea-be95-a239c1b087ce
 ms.date: 12/05/2018
 ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetTooltipText method, IUserInputString.GetTooltipText, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext

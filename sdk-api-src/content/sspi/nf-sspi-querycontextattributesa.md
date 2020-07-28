@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.QueryContextAttributesA
 title: QueryContextAttributesA function (sspi.h)
-description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.helpviewer_keywords: ["QueryContextAttributes","QueryContextAttributes (CredSSP)","QueryContextAttributes function [Security]","QueryContextAttributesA","QueryContextAttributesW","SECPKG_ATTR_CERT_TRUST_STATUS","SECPKG_ATTR_CREDS","SECPKG_ATTR_CREDS_2","SECPKG_ATTR_C_ACCESS_TOKEN","SECPKG_ATTR_C_FULL_ACCESS_TOKEN","SECPKG_ATTR_NEGOTIATION_PACKAGE","SECPKG_ATTR_PACKAGE_INFO","SECPKG_ATTR_SERVER_AUTH_FLAGS","SECPKG_ATTR_SIZES","SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES","security.querycontextattributes__credssp_","sspi/QueryContextAttributes","sspi/QueryContextAttributesA","sspi/QueryContextAttributesW"]
+description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
+helpviewer_keywords: ["QueryContextAttributes","QueryContextAttributes (CredSSP)","QueryContextAttributes function [Security]","QueryContextAttributesA","QueryContextAttributesW","SECPKG_ATTR_CERT_TRUST_STATUS","SECPKG_ATTR_CREDS","SECPKG_ATTR_CREDS_2","SECPKG_ATTR_C_ACCESS_TOKEN","SECPKG_ATTR_C_FULL_ACCESS_TOKEN","SECPKG_ATTR_NEGOTIATION_PACKAGE","SECPKG_ATTR_PACKAGE_INFO","SECPKG_ATTR_SERVER_AUTH_FLAGS","SECPKG_ATTR_SIZES","SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES","security.querycontextattributes__credssp_","sspi/QueryContextAttributes","sspi/QueryContextAttributesA","sspi/QueryContextAttributesW"]
 old-location: security\querycontextattributes__credssp_.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 ms.date: 12/05/2018
 ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryContextAttributes function [Security], QueryContextAttributesA, QueryContextAttributesW, SECPKG_ATTR_CERT_TRUST_STATUS, SECPKG_ATTR_CREDS, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_C_ACCESS_TOKEN, SECPKG_ATTR_C_FULL_ACCESS_TOKEN, SECPKG_ATTR_NEGOTIATION_PACKAGE, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_SERVER_AUTH_FLAGS, SECPKG_ATTR_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, security.querycontextattributes__credssp_, sspi/QueryContextAttributes, sspi/QueryContextAttributesA, sspi/QueryContextAttributesW
@@ -277,6 +278,10 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 
+
+
+> [!NOTE]
+> The sspi.h header defines QueryContextAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

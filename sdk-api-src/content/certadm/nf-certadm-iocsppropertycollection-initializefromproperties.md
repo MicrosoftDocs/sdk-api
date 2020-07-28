@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.InitializeFromProperties
 title: IOCSPPropertyCollection::InitializeFromProperties (certadm.h)
-description: Creates a property set from the properties contained in an existing server configuration.helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","InitializeFromProperties method","IOCSPPropertyCollection.InitializeFromProperties","IOCSPPropertyCollection::InitializeFromProperties","InitializeFromProperties","InitializeFromProperties method [Security]","InitializeFromProperties method [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::InitializeFromProperties","security.iocsppropertycollection_initializefromproperties_method"]
+description: Creates a property set from the properties contained in an existing server configuration.
+helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","InitializeFromProperties method","IOCSPPropertyCollection.InitializeFromProperties","IOCSPPropertyCollection::InitializeFromProperties","InitializeFromProperties","InitializeFromProperties method [Security]","InitializeFromProperties method [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::InitializeFromProperties","security.iocsppropertycollection_initializefromproperties_method"]
 old-location: security\iocsppropertycollection_initializefromproperties_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],InitializeFromProperties method, IOCSPPropertyCollection.InitializeFromProperties, IOCSPPropertyCollection::InitializeFromProperties, InitializeFromProperties, InitializeFromProperties method [Security], InitializeFromProperties method [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::InitializeFromProperties, security.iocsppropertycollection_initializefromproperties_method

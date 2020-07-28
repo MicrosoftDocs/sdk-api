@@ -1,9 +1,10 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTimePrecise
 title: QueryInterruptTimePrecise function (realtimeapiset.h)
-description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.helpviewer_keywords: ["QueryInterruptTimePrecise","QueryInterruptTimePrecise function","base.queryinterrupttimeprecise","realtimeapiset/QueryInterruptTimePrecise"]
+description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.
+helpviewer_keywords: ["QueryInterruptTimePrecise","QueryInterruptTimePrecise function","base.queryinterrupttimeprecise","realtimeapiset/QueryInterruptTimePrecise"]
 old-location: base\queryinterrupttimeprecise.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
 ms.date: 12/05/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise

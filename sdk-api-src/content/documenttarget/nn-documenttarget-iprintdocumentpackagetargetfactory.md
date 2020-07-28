@@ -1,9 +1,10 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageTargetFactory
 title: IPrintDocumentPackageTargetFactory (documenttarget.h)
-description: Used with IPrintDocumentPackageTarget for starting a print job.helpviewer_keywords: ["IPrintDocumentPackageTargetFactory","IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging]","IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging]","described","documenttarget/IPrintDocumentPackageTargetFactory","xps.iprintdocumentpackagetargetfactory"]
+description: Used with IPrintDocumentPackageTarget for starting a print job.
+helpviewer_keywords: ["IPrintDocumentPackageTargetFactory","IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging]","IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging]","described","documenttarget/IPrintDocumentPackageTargetFactory","xps.iprintdocumentpackagetargetfactory"]
 old-location: xps\iprintdocumentpackagetargetfactory.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 631FBF5E-1DDF-49A9-8E1E-201BC6996EA5
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory

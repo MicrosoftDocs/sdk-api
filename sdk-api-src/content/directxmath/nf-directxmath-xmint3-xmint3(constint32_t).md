@@ -1,7 +1,8 @@
 ---
-UID: NF:directxmath.XMINT3.XMINT3(const int32_t)
+UID: NF:directxmath.XMINT3.XMINT3(constint32_t)
 title: XMINT3::XMINT3(const int32_t) (directxmath.h)
-description: Initializes a new instance of XMINT3 from a three element int32_t array argument.helpviewer_keywords: ["XMINT3","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 structure","XMINT3 structure [DirectX Math Support APIs]","XMINT3 constructor","XMINT3.XMINT3","XMINT3.XMINT3(const int32_t)","XMINT3.XMINT3(const int32_t*)","XMINT3::XMINT3","XMINT3::XMINT3(const int32_t)","dxmath.xmint3_ctor_3"]
+description: Initializes a new instance of XMINT3 from a three element int32_t array argument.
+helpviewer_keywords: ["XMINT3","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 structure","XMINT3 structure [DirectX Math Support APIs]","XMINT3 constructor","XMINT3.XMINT3","XMINT3.XMINT3(const int32_t)","XMINT3.XMINT3(const int32_t*)","XMINT3::XMINT3","XMINT3::XMINT3(const int32_t)","dxmath.xmint3_ctor_3"]
 old-location: dxmath\xmint3_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT3.#ctor(const int32_t)

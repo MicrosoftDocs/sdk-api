@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerIdentityGetXML
 title: PeerIdentityGetXML function (p2p.h)
-description: The PeerIdentityGetXML function returns a description of the peer identity, which can then be passed to third parties and used to invite a peer identity into a peer group. This information is returned as an XML fragment.helpviewer_keywords: ["PeerIdentityGetXML","PeerIdentityGetXML function [Peer Networking]","p2p.peeridentitygetxml","p2p/PeerIdentityGetXML"]
+description: The PeerIdentityGetXML function returns a description of the peer identity, which can then be passed to third parties and used to invite a peer identity into a peer group. This information is returned as an XML fragment.
+helpviewer_keywords: ["PeerIdentityGetXML","PeerIdentityGetXML function [Peer Networking]","p2p.peeridentitygetxml","p2p/PeerIdentityGetXML"]
 old-location: p2p\peeridentitygetxml.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 94172351-291e-461e-8c7f-0925c80df0c3
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetXML, PeerIdentityGetXML function [Peer Networking], p2p.peeridentitygetxml, p2p/PeerIdentityGetXML

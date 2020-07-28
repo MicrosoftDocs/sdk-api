@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetPrivateProfileStringA
 title: GetPrivateProfileStringA function (winbase.h)
-description: Retrieves a string from the specified section in an initialization file.helpviewer_keywords: ["GetPrivateProfileString","GetPrivateProfileString function","GetPrivateProfileStringA","GetPrivateProfileStringW","_win32_getprivateprofilestring","base.getprivateprofilestring","winbase/GetPrivateProfileString","winbase/GetPrivateProfileStringA","winbase/GetPrivateProfileStringW"]
+description: Retrieves a string from the specified section in an initialization file.
+helpviewer_keywords: ["GetPrivateProfileString","GetPrivateProfileString function","GetPrivateProfileStringA","GetPrivateProfileStringW","_win32_getprivateprofilestring","base.getprivateprofilestring","winbase/GetPrivateProfileString","winbase/GetPrivateProfileStringA","winbase/GetPrivateProfileStringW"]
 old-location: base\getprivateprofilestring.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
@@ -173,6 +174,10 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetPrivateProfileString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

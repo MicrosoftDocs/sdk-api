@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceSetInfo
 title: MprConfigInterfaceSetInfo function (mprapi.h)
-description: The MprConfigInterfaceSetInfo function sets the configuration for the specified interface.helpviewer_keywords: ["MprConfigInterfaceSetInfo","MprConfigInterfaceSetInfo function [RAS]","_mpr_mprconfiginterfacesetinfo","mprapi/MprConfigInterfaceSetInfo","rras.mprconfiginterfacesetinfo"]
+description: The MprConfigInterfaceSetInfo function sets the configuration for the specified interface.
+helpviewer_keywords: ["MprConfigInterfaceSetInfo","MprConfigInterfaceSetInfo function [RAS]","_mpr_mprconfiginterfacesetinfo","mprapi/MprConfigInterfaceSetInfo","rras.mprconfiginterfacesetinfo"]
 old-location: rras\mprconfiginterfacesetinfo.htm
 tech.root: RRAS
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa

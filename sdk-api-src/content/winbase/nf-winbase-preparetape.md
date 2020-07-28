@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.PrepareTape
 title: PrepareTape function (winbase.h)
-description: Prepares the tape to be accessed or removed.helpviewer_keywords: ["PrepareTape","PrepareTape function [Backup]","TAPE_FORMAT","TAPE_LOAD","TAPE_LOCK","TAPE_TENSION","TAPE_UNLOAD","TAPE_UNLOCK","_win32_preparetape","backup.preparetape","base.preparetape","winbase/PrepareTape"]
+description: Prepares the tape to be accessed or removed.
+helpviewer_keywords: ["PrepareTape","PrepareTape function [Backup]","TAPE_FORMAT","TAPE_LOAD","TAPE_LOCK","TAPE_TENSION","TAPE_UNLOAD","TAPE_UNLOCK","_win32_preparetape","backup.preparetape","base.preparetape","winbase/PrepareTape"]
 old-location: backup\preparetape.htm
 tech.root: Backup
 ms.assetid: 13aacf38-b0ae-4f4d-ada9-42c61490be7e

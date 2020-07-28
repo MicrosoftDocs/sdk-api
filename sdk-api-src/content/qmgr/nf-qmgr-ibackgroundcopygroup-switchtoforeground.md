@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SwitchToForeground
 title: IBackgroundCopyGroup::SwitchToForeground (qmgr.h)
-description: Use the SwitchToForeground method to download the group in the foreground instead of the background.helpviewer_keywords: ["IBackgroundCopyGroup interface [BITS]","SwitchToForeground method","IBackgroundCopyGroup.SwitchToForeground","IBackgroundCopyGroup::SwitchToForeground","SwitchToForeground","SwitchToForeground method [BITS]","SwitchToForeground method [BITS]","IBackgroundCopyGroup interface","bits.ibackgroundcopygroup_switchtoforeground","qmgr/IBackgroundCopyGroup::SwitchToForeground"]
+description: Use the SwitchToForeground method to download the group in the foreground instead of the background.
+helpviewer_keywords: ["IBackgroundCopyGroup interface [BITS]","SwitchToForeground method","IBackgroundCopyGroup.SwitchToForeground","IBackgroundCopyGroup::SwitchToForeground","SwitchToForeground","SwitchToForeground method [BITS]","SwitchToForeground method [BITS]","IBackgroundCopyGroup interface","bits.ibackgroundcopygroup_switchtoforeground","qmgr/IBackgroundCopyGroup::SwitchToForeground"]
 old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
 tech.root: Bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Volume
 title: IMSVidAudioRenderer::get_Volume (segment.h)
-description: The get_Volume method retrieves the audio renderer's volume level.helpviewer_keywords: ["IMSVidAudioRenderer interface [Microsoft TV Technologies]","get_Volume method","IMSVidAudioRenderer.get_Volume","IMSVidAudioRenderer::get_Volume","IMSVidAudioRendererget_Volume","get_Volume","get_Volume method [Microsoft TV Technologies]","get_Volume method [Microsoft TV Technologies]","IMSVidAudioRenderer interface","mstv.imsvidaudiorenderer_get_volume","segment/IMSVidAudioRenderer::get_Volume"]
+description: The get_Volume method retrieves the audio renderer's volume level.
+helpviewer_keywords: ["IMSVidAudioRenderer interface [Microsoft TV Technologies]","get_Volume method","IMSVidAudioRenderer.get_Volume","IMSVidAudioRenderer::get_Volume","IMSVidAudioRendererget_Volume","get_Volume","get_Volume method [Microsoft TV Technologies]","get_Volume method [Microsoft TV Technologies]","IMSVidAudioRenderer interface","mstv.imsvidaudiorenderer_get_volume","segment/IMSVidAudioRenderer::get_Volume"]
 old-location: mstv\imsvidaudiorenderer_get_volume.htm
 tech.root: mstv
 ms.assetid: 7dbbdb17-b077-4e36-a5d4-c8e343feb930

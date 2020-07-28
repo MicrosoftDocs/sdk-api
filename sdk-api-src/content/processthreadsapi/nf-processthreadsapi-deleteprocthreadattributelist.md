@@ -1,9 +1,10 @@
 ---
 UID: NF:processthreadsapi.DeleteProcThreadAttributeList
 title: DeleteProcThreadAttributeList function (processthreadsapi.h)
-description: Deletes the specified list of attributes for process and thread creation.helpviewer_keywords: ["DeleteProcThreadAttributeList","DeleteProcThreadAttributeList function","base.deleteprocthreadattributelist","processthreadsapi/DeleteProcThreadAttributeList","winbase/DeleteProcThreadAttributeList"]
+description: Deletes the specified list of attributes for process and thread creation.
+helpviewer_keywords: ["DeleteProcThreadAttributeList","DeleteProcThreadAttributeList function","base.deleteprocthreadattributelist","processthreadsapi/DeleteProcThreadAttributeList","winbase/DeleteProcThreadAttributeList"]
 old-location: base\deleteprocthreadattributelist.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
 ms.date: 12/05/2018
 ms.keywords: DeleteProcThreadAttributeList, DeleteProcThreadAttributeList function, base.deleteprocthreadattributelist, processthreadsapi/DeleteProcThreadAttributeList, winbase/DeleteProcThreadAttributeList

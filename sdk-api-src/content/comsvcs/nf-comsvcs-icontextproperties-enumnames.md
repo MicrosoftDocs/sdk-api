@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IContextProperties.EnumNames
 title: IContextProperties::EnumNames (comsvcs.h)
-description: Retrieves a reference to an enumerator for the context object properties.helpviewer_keywords: ["EnumNames","EnumNames method [COM+]","EnumNames method [COM+]","IContextProperties interface","IContextProperties interface [COM+]","EnumNames method","IContextProperties.EnumNames","IContextProperties::EnumNames","_cos_IContextProperties_EnumNames","comsvcs/IContextProperties::EnumNames","cos.icontextproperties_enumnames"]
+description: Retrieves a reference to an enumerator for the context object properties.
+helpviewer_keywords: ["EnumNames","EnumNames method [COM+]","EnumNames method [COM+]","IContextProperties interface","IContextProperties interface [COM+]","EnumNames method","IContextProperties.EnumNames","IContextProperties::EnumNames","_cos_IContextProperties_EnumNames","comsvcs/IContextProperties::EnumNames","cos.icontextproperties_enumnames"]
 old-location: cos\icontextproperties_enumnames.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cae9eaf7-a422-4daa-9f0a-e7863f167112
 ms.date: 12/05/2018
 ms.keywords: EnumNames, EnumNames method [COM+], EnumNames method [COM+],IContextProperties interface, IContextProperties interface [COM+],EnumNames method, IContextProperties.EnumNames, IContextProperties::EnumNames, _cos_IContextProperties_EnumNames, comsvcs/IContextProperties::EnumNames, cos.icontextproperties_enumnames

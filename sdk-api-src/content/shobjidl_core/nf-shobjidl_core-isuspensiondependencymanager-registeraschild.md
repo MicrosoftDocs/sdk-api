@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.RegisterAsChild
 title: ISuspensionDependencyManager::RegisterAsChild (shobjidl_core.h)
-description: ISuspensionDependencyManager::RegisterAsChild methodhelpviewer_keywords: ["ISuspensionDependencyManager interface [Windows Shell]","RegisterAsChild method","ISuspensionDependencyManager.RegisterAsChild","ISuspensionDependencyManager::RegisterAsChild","RegisterAsChild","RegisterAsChild method [Windows Shell]","RegisterAsChild method [Windows Shell]","ISuspensionDependencyManager interface","shell.ISuspensionDependencyManager_RegisterAsChild","shobjidl_core/ISuspensionDependencyManager::RegisterAsChild"]
+description: ISuspensionDependencyManager::RegisterAsChild method
+helpviewer_keywords: ["ISuspensionDependencyManager interface [Windows Shell]","RegisterAsChild method","ISuspensionDependencyManager.RegisterAsChild","ISuspensionDependencyManager::RegisterAsChild","RegisterAsChild","RegisterAsChild method [Windows Shell]","RegisterAsChild method [Windows Shell]","ISuspensionDependencyManager interface","shell.ISuspensionDependencyManager_RegisterAsChild","shobjidl_core/ISuspensionDependencyManager::RegisterAsChild"]
 old-location: shell\ISuspensionDependencyManager_RegisterAsChild.htm
 tech.root: shell
 ms.assetid: DB9DDDA7-34AA-43D7-813B-C9A065383682

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent2.RateChange
 title: IMSVidStreamBufferSourceEvent2::RateChange (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies]","RateChange method","IMSVidStreamBufferSourceEvent2.RateChange","IMSVidStreamBufferSourceEvent2::RateChange","IMSVidStreamBufferSourceEvent2RateChange","RateChange","RateChange method [Microsoft TV Technologies]","RateChange method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent2 interface","mstv.imsvidstreambuffersourceevent2_ratechange","segment/IMSVidStreamBufferSourceEvent2::RateChange"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies]","RateChange method","IMSVidStreamBufferSourceEvent2.RateChange","IMSVidStreamBufferSourceEvent2::RateChange","IMSVidStreamBufferSourceEvent2RateChange","RateChange","RateChange method [Microsoft TV Technologies]","RateChange method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent2 interface","mstv.imsvidstreambuffersourceevent2_ratechange","segment/IMSVidStreamBufferSourceEvent2::RateChange"]
 old-location: mstv\imsvidstreambuffersourceevent2_ratechange.htm
 tech.root: mstv
 ms.assetid: 5c3b9e5f-51ad-4a36-8181-bec4243499a5

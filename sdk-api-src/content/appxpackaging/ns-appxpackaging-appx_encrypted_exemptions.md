@@ -1,7 +1,8 @@
 ---
 UID: NS:appxpackaging.APPX_ENCRYPTED_EXEMPTIONS
 title: APPX_ENCRYPTED_EXEMPTIONS (appxpackaging.h)
-description: Files exempted from Windows app package encryption.helpviewer_keywords: ["APPX_ENCRYPTED_EXEMPTIONS","APPX_ENCRYPTED_EXEMPTIONS structure [App packaging and management]","PAPPX_ENCRYPTED_EXEMPTIONS","PAPPX_ENCRYPTED_EXEMPTIONS structure pointer [App packaging and management]","appxpackaging/APPX_ENCRYPTED_EXEMPTIONS","appxpackaging/PAPPX_ENCRYPTED_EXEMPTIONS","appxpkg.appx_encrypted_exemptions"]
+description: Files exempted from Windows app package encryption.
+helpviewer_keywords: ["APPX_ENCRYPTED_EXEMPTIONS","APPX_ENCRYPTED_EXEMPTIONS structure [App packaging and management]","PAPPX_ENCRYPTED_EXEMPTIONS","PAPPX_ENCRYPTED_EXEMPTIONS structure pointer [App packaging and management]","appxpackaging/APPX_ENCRYPTED_EXEMPTIONS","appxpackaging/PAPPX_ENCRYPTED_EXEMPTIONS","appxpkg.appx_encrypted_exemptions"]
 old-location: appxpkg\appx_encrypted_exemptions.htm
 tech.root: appxpkg
 ms.assetid: EEA57363-3070-4D3E-9F37-4FE0ADF35FED

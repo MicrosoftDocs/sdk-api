@@ -1,7 +1,9 @@
 ---
 UID: NF:chstring.operator-equal-equal-to
 title: operator==
-description: helpviewer_keywords: ["operator=="]
+description: 
+tech.root: wmi
+helpviewer_keywords: ["operator=="]
 ms.assetid: 2121ed0a-74e5-4e44-a20e-52f4f895a3ae
 ms.date: 05/20/2019
 ms.keywords: operator==

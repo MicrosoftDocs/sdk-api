@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRYPT_AES_128_KEY_STATE
 title: CRYPT_AES_128_KEY_STATE (wincrypt.h)
-description: Specifies the 128-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.helpviewer_keywords: ["*PCRYPT_AES_128_KEY_STATE","CRYPT_AES_128_KEY_STATE","CRYPT_AES_128_KEY_STATE structure [Security]","PCRYPT_AES_128_KEY_STATE","PCRYPT_AES_128_KEY_STATE structure pointer [Security]","security.crypt_aes_128_key_state","wincrypt/CRYPT_AES_128_KEY_STATE","wincrypt/PCRYPT_AES_128_KEY_STATE"]
+description: Specifies the 128-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
+helpviewer_keywords: ["*PCRYPT_AES_128_KEY_STATE","CRYPT_AES_128_KEY_STATE","CRYPT_AES_128_KEY_STATE structure [Security]","PCRYPT_AES_128_KEY_STATE","PCRYPT_AES_128_KEY_STATE structure pointer [Security]","security.crypt_aes_128_key_state","wincrypt/CRYPT_AES_128_KEY_STATE","wincrypt/PCRYPT_AES_128_KEY_STATE"]
 old-location: security\crypt_aes_128_key_state.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1a472caa-e57a-4b3a-ab28-8aacf8e39ad1
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE structure [Security], PCRYPT_AES_128_KEY_STATE, PCRYPT_AES_128_KEY_STATE structure pointer [Security], security.crypt_aes_128_key_state, wincrypt/CRYPT_AES_128_KEY_STATE, wincrypt/PCRYPT_AES_128_KEY_STATE'

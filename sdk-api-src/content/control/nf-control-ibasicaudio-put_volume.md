@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IBasicAudio.put_Volume
 title: IBasicAudio::put_Volume (control.h)
-description: The put_Volume method sets the volume (amplitude) of the audio signal.helpviewer_keywords: ["IBasicAudio interface [DirectShow]","put_Volume method","IBasicAudio.put_Volume","IBasicAudio::put_Volume","IBasicAudioput_Volume","control/IBasicAudio::put_Volume","dshow.ibasicaudio_put_volume","put_Volume","put_Volume method [DirectShow]","put_Volume method [DirectShow]","IBasicAudio interface"]
+description: The put_Volume method sets the volume (amplitude) of the audio signal.
+helpviewer_keywords: ["IBasicAudio interface [DirectShow]","put_Volume method","IBasicAudio.put_Volume","IBasicAudio::put_Volume","IBasicAudioput_Volume","control/IBasicAudio::put_Volume","dshow.ibasicaudio_put_volume","put_Volume","put_Volume method [DirectShow]","put_Volume method [DirectShow]","IBasicAudio interface"]
 old-location: dshow\ibasicaudio_put_volume.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 95171b87-e558-450b-8a48-f43a19069218
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Volume method, IBasicAudio.put_Volume, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume, put_Volume method [DirectShow], put_Volume method [DirectShow],IBasicAudio interface

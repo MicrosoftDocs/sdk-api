@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_LastModificationTime
 title: IFsrmPropertyBag::get_LastModificationTime (fsrmpipeline.h)
-description: The date and time of when the file was last modified.helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","LastModificationTime property","IFsrmPropertyBag.LastModificationTime","IFsrmPropertyBag.get_LastModificationTime","IFsrmPropertyBag::LastModificationTime","IFsrmPropertyBag::get_LastModificationTime","LastModificationTime property [File Server Resource Manager]","LastModificationTime property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_lastmodificationtime","fsrm.ifsrmpropertybag_lastmodificationtime","fsrmpipeline/IFsrmPropertyBag::LastModificationTime","fsrmpipeline/IFsrmPropertyBag::get_LastModificationTime","get_LastModificationTime"]
+description: The date and time of when the file was last modified.
+helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","LastModificationTime property","IFsrmPropertyBag.LastModificationTime","IFsrmPropertyBag.get_LastModificationTime","IFsrmPropertyBag::LastModificationTime","IFsrmPropertyBag::get_LastModificationTime","LastModificationTime property [File Server Resource Manager]","LastModificationTime property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_lastmodificationtime","fsrm.ifsrmpropertybag_lastmodificationtime","fsrmpipeline/IFsrmPropertyBag::LastModificationTime","fsrmpipeline/IFsrmPropertyBag::get_LastModificationTime","get_LastModificationTime"]
 old-location: fsrm\ifsrmpropertybag_lastmodificationtime.htm
 tech.root: fsrm
 ms.assetid: 0afba4f9-b716-49dc-bbeb-6245e5c7a386

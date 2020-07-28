@@ -1,9 +1,10 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.SetSource
 title: IMFImageSharingEngine::SetSource (mfsharingengine.h)
-description: Sets the source stream.helpviewer_keywords: ["IMFImageSharingEngine interface [Media Foundation]","SetSource method","IMFImageSharingEngine.SetSource","IMFImageSharingEngine::SetSource","SetSource","SetSource method [Media Foundation]","SetSource method [Media Foundation]","IMFImageSharingEngine interface","mf.imfimagesharingengine_setsource","mfsharingengine/IMFImageSharingEngine::SetSource"]
+description: Sets the source stream.
+helpviewer_keywords: ["IMFImageSharingEngine interface [Media Foundation]","SetSource method","IMFImageSharingEngine.SetSource","IMFImageSharingEngine::SetSource","SetSource","SetSource method [Media Foundation]","SetSource method [Media Foundation]","IMFImageSharingEngine interface","mf.imfimagesharingengine_setsource","mfsharingengine/IMFImageSharingEngine::SetSource"]
 old-location: mf\imfimagesharingengine_setsource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 59DFAF26-B1D2-4658-B6E8-A0D14F48C734
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],SetSource method, IMFImageSharingEngine.SetSource, IMFImageSharingEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_setsource, mfsharingengine/IMFImageSharingEngine::SetSource

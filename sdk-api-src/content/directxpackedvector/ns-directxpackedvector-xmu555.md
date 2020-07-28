@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMU555
 title: XMU555 (directxpackedvector.h)
-description: A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.helpviewer_keywords: ["XMU555","XMU555 structure [DirectX Math Support APIs]","directxpackedvector/XMU555","dxmath.xmu555"]
+description: A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
+helpviewer_keywords: ["XMU555","XMU555 structure [DirectX Math Support APIs]","directxpackedvector/XMU555","dxmath.xmu555"]
 old-location: dxmath\xmu555.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU555

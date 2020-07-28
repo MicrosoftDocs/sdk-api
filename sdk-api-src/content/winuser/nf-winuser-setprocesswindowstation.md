@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetProcessWindowStation
 title: SetProcessWindowStation function (winuser.h)
-description: Assigns the specified window station to the calling process.helpviewer_keywords: ["SetProcessWindowStation","SetProcessWindowStation function [Windows Stations and Desktops]","_win32_setprocesswindowstation","base.setprocesswindowstation","winstation.setprocesswindowstation","winuser/SetProcessWindowStation"]
+description: Assigns the specified window station to the calling process.
+helpviewer_keywords: ["SetProcessWindowStation","SetProcessWindowStation function [Windows Stations and Desktops]","_win32_setprocesswindowstation","base.setprocesswindowstation","winstation.setprocesswindowstation","winuser/SetProcessWindowStation"]
 old-location: winstation\setprocesswindowstation.htm
 tech.root: winstation
 ms.assetid: d64814a7-945c-4e73-a977-5f696d60610e

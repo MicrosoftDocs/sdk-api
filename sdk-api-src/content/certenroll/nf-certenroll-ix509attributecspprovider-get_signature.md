@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.get_Signature
 title: IX509AttributeCspProvider::get_Signature (certenroll.h)
-description: Retrieves the digital signature on the provider.helpviewer_keywords: ["IX509AttributeCspProvider interface [Security]","Signature property","IX509AttributeCspProvider.Signature","IX509AttributeCspProvider.get_Signature","IX509AttributeCspProvider::Signature","IX509AttributeCspProvider::get_Signature","Signature property [Security]","Signature property [Security]","IX509AttributeCspProvider interface","certenroll/IX509AttributeCspProvider::Signature","certenroll/IX509AttributeCspProvider::get_Signature","get_Signature","security.ix509attributecspprovider_signature_property"]
+description: Retrieves the digital signature on the provider.
+helpviewer_keywords: ["IX509AttributeCspProvider interface [Security]","Signature property","IX509AttributeCspProvider.Signature","IX509AttributeCspProvider.get_Signature","IX509AttributeCspProvider::Signature","IX509AttributeCspProvider::get_Signature","Signature property [Security]","Signature property [Security]","IX509AttributeCspProvider interface","certenroll/IX509AttributeCspProvider::Signature","certenroll/IX509AttributeCspProvider::get_Signature","get_Signature","security.ix509attributecspprovider_signature_property"]
 old-location: security\ix509attributecspprovider_signature_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 06245293-b331-4963-a0cf-b7c604580908
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],Signature property, IX509AttributeCspProvider.Signature, IX509AttributeCspProvider.get_Signature, IX509AttributeCspProvider::Signature, IX509AttributeCspProvider::get_Signature, Signature property [Security], Signature property [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::Signature, certenroll/IX509AttributeCspProvider::get_Signature, get_Signature, security.ix509attributecspprovider_signature_property

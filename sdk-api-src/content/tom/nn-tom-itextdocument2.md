@@ -1,7 +1,8 @@
 ---
 UID: NN:tom.ITextDocument2
 title: ITextDocument2 (tom.h)
-description: Extends the ITextDocument interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as ITextDisplays, ITextRange2, ITextFont2, ITextPara2, and so on.helpviewer_keywords: ["ITextDocument2","ITextDocument2 interface [Windows Controls]","ITextDocument2 interface [Windows Controls]","described","controls.itextdocument2","tom/ITextDocument2"]
+description: Extends the ITextDocument interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as ITextDisplays, ITextRange2, ITextFont2, ITextPara2, and so on.
+helpviewer_keywords: ["ITextDocument2","ITextDocument2 interface [Windows Controls]","ITextDocument2 interface [Windows Controls]","described","controls.itextdocument2","tom/ITextDocument2"]
 old-location: controls\itextdocument2.htm
 tech.root: Controls
 ms.assetid: 0b0a54d7-7606-41f6-b8be-6367d9180ef4

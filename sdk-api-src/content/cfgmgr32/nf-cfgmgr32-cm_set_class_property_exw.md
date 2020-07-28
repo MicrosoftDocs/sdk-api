@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_Property_ExW
 title: CM_Set_Class_Property_ExW function (cfgmgr32.h)
-description: The CM_Set_Class_Property_ExW function sets a class property for a device setup class or a device interface class.helpviewer_keywords: ["CM_Set_Class_Property_ExW","CM_Set_Class_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Set_Class_Property_ExW","devinst.cm_set_class_property_exw"]
+description: The CM_Set_Class_Property_ExW function sets a class property for a device setup class or a device interface class.
+helpviewer_keywords: ["CM_Set_Class_Property_ExW","CM_Set_Class_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Set_Class_Property_ExW","devinst.cm_set_class_property_exw"]
 old-location: devinst\cm_set_class_property_exw.htm
 tech.root: devinst
 ms.assetid: A2232661-DA67-40BB-81B9-0BC7851A6E25

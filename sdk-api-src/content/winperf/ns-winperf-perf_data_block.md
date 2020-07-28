@@ -1,9 +1,10 @@
 ---
 UID: NS:winperf._PERF_DATA_BLOCK
 title: PERF_DATA_BLOCK (winperf.h)
-description: Describes the performance data block that you queried, for example, the number of performance objects returned by the provider and the time-based values that you use when calculating performance values.helpviewer_keywords: ["*PPERF_DATA_BLOCK","PERF_DATA_BLOCK","PERF_DATA_BLOCK structure [Perf]","_win32_perf_data_block_str","base.perf_data_block_str","perf.perf_data_block_str","winperf/PERF_DATA_BLOCK"]
+description: Describes the performance data block that you queried, for example, the number of performance objects returned by the provider and the time-based values that you use when calculating performance values.
+helpviewer_keywords: ["*PPERF_DATA_BLOCK","PERF_DATA_BLOCK","PERF_DATA_BLOCK structure [Perf]","_win32_perf_data_block_str","base.perf_data_block_str","perf.perf_data_block_str","winperf/PERF_DATA_BLOCK"]
 old-location: perf\perf_data_block_str.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 29f89719-7597-4f7b-879e-1670386f8396
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_DATA_BLOCK, PERF_DATA_BLOCK, PERF_DATA_BLOCK structure [Perf], _win32_perf_data_block_str, base.perf_data_block_str, perf.perf_data_block_str, winperf/PERF_DATA_BLOCK'

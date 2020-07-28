@@ -1,7 +1,8 @@
 ---
 UID: NE:dxgi1_2.DXGI_SCALING
 title: DXGI_SCALING (dxgi1_2.h)
-description: Identifies resize behavior when the back-buffer size does not match the size of the target output.helpviewer_keywords: ["DXGI_SCALING","DXGI_SCALING enumeration [DXGI]","DXGI_SCALING_ASPECT_RATIO_STRETCH","DXGI_SCALING_NONE","DXGI_SCALING_STRETCH","direct3ddxgi.dxgi_scaling","dxgi1_2/DXGI_SCALING","dxgi1_2/DXGI_SCALING_ASPECT_RATIO_STRETCH","dxgi1_2/DXGI_SCALING_NONE","dxgi1_2/DXGI_SCALING_STRETCH"]
+description: Identifies resize behavior when the back-buffer size does not match the size of the target output.
+helpviewer_keywords: ["DXGI_SCALING","DXGI_SCALING enumeration [DXGI]","DXGI_SCALING_ASPECT_RATIO_STRETCH","DXGI_SCALING_NONE","DXGI_SCALING_STRETCH","direct3ddxgi.dxgi_scaling","dxgi1_2/DXGI_SCALING","dxgi1_2/DXGI_SCALING_ASPECT_RATIO_STRETCH","dxgi1_2/DXGI_SCALING_NONE","dxgi1_2/DXGI_SCALING_STRETCH"]
 old-location: direct3ddxgi\dxgi_scaling.htm
 tech.root: direct3ddxgi
 ms.assetid: 7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE

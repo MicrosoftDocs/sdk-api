@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.StopPresenting
 title: IVMRImagePresenter9::StopPresenting (vmr9.h)
-description: The StopPresenting method is called just after the video stops playing. The allocator-presenter should perform any necessary cleanup in this method.helpviewer_keywords: ["IVMRImagePresenter9 interface [DirectShow]","StopPresenting method","IVMRImagePresenter9.StopPresenting","IVMRImagePresenter9::StopPresenting","IVMRImagePresenter9StopPresenting","StopPresenting","StopPresenting method [DirectShow]","StopPresenting method [DirectShow]","IVMRImagePresenter9 interface","dshow.ivmrimagepresenter9_stoppresenting","vmr9/IVMRImagePresenter9::StopPresenting"]
+description: The StopPresenting method is called just after the video stops playing. The allocator-presenter should perform any necessary cleanup in this method.
+helpviewer_keywords: ["IVMRImagePresenter9 interface [DirectShow]","StopPresenting method","IVMRImagePresenter9.StopPresenting","IVMRImagePresenter9::StopPresenting","IVMRImagePresenter9StopPresenting","StopPresenting","StopPresenting method [DirectShow]","StopPresenting method [DirectShow]","IVMRImagePresenter9 interface","dshow.ivmrimagepresenter9_stoppresenting","vmr9/IVMRImagePresenter9::StopPresenting"]
 old-location: dshow\ivmrimagepresenter9_stoppresenting.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 47f34048-3b07-464e-a1f2-f0b49fe76659
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],StopPresenting method, IVMRImagePresenter9.StopPresenting, IVMRImagePresenter9::StopPresenting, IVMRImagePresenter9StopPresenting, StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_stoppresenting, vmr9/IVMRImagePresenter9::StopPresenting

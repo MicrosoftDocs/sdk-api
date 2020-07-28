@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetAuthoritativeRestore
 title: IVssComponentEx::GetAuthoritativeRestore (vswriter.h)
-description: Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.helpviewer_keywords: ["GetAuthoritativeRestore","GetAuthoritativeRestore method","GetAuthoritativeRestore method","IVssComponentEx interface","IVssComponentEx interface","GetAuthoritativeRestore method","IVssComponentEx.GetAuthoritativeRestore","IVssComponentEx::GetAuthoritativeRestore","base.ivsscomponentex_getauthoritativerestore","vswriter/IVssComponentEx::GetAuthoritativeRestore"]
+description: Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.
+helpviewer_keywords: ["GetAuthoritativeRestore","GetAuthoritativeRestore method","GetAuthoritativeRestore method","IVssComponentEx interface","IVssComponentEx interface","GetAuthoritativeRestore method","IVssComponentEx.GetAuthoritativeRestore","IVssComponentEx::GetAuthoritativeRestore","base.ivsscomponentex_getauthoritativerestore","vswriter/IVssComponentEx::GetAuthoritativeRestore"]
 old-location: base\ivsscomponentex_getauthoritativerestore.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ca85cf27-b16c-4356-abb8-eb6474db637f
 ms.date: 12/05/2018
 ms.keywords: GetAuthoritativeRestore, GetAuthoritativeRestore method, GetAuthoritativeRestore method,IVssComponentEx interface, IVssComponentEx interface,GetAuthoritativeRestore method, IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore

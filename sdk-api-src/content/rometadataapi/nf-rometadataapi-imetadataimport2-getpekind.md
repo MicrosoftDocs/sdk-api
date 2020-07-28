@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetPEKind
 title: IMetaDataImport2::GetPEKind (rometadataapi.h)
-description: Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.helpviewer_keywords: ["GetPEKind","GetPEKind method [Windows Runtime]","GetPEKind method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","GetPEKind method","IMetaDataImport2.GetPEKind","IMetaDataImport2::GetPEKind","rometadataapi/IMetaDataImport2::GetPEKind","winrt.imetadataimport2_getpekind"]
+description: Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.
+helpviewer_keywords: ["GetPEKind","GetPEKind method [Windows Runtime]","GetPEKind method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","GetPEKind method","IMetaDataImport2.GetPEKind","IMetaDataImport2::GetPEKind","rometadataapi/IMetaDataImport2::GetPEKind","winrt.imetadataimport2_getpekind"]
 old-location: winrt\imetadataimport2_getpekind.htm
 tech.root: WinRT
 ms.assetid: ece40ffa-f92f-4f27-b03c-75204e0c6ee1

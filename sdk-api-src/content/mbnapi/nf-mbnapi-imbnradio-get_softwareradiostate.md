@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnRadio.get_SoftwareRadioState
 title: IMbnRadio::get_SoftwareRadioState (mbnapi.h)
-description: The software radio state of a Mobile Broadband device.helpviewer_keywords: ["IMbnRadio interface [Microsoft Broadband Networks]","SoftwareRadioState property","IMbnRadio.SoftwareRadioState","IMbnRadio.get_SoftwareRadioState","IMbnRadio::SoftwareRadioState","IMbnRadio::get_SoftwareRadioState","SoftwareRadioState property [Microsoft Broadband Networks]","SoftwareRadioState property [Microsoft Broadband Networks]","IMbnRadio interface","get_SoftwareRadioState","mbn.imbnradio_softwareradiostate","mbnapi/IMbnRadio::SoftwareRadioState","mbnapi/IMbnRadio::get_SoftwareRadioState"]
+description: The software radio state of a Mobile Broadband device.
+helpviewer_keywords: ["IMbnRadio interface [Microsoft Broadband Networks]","SoftwareRadioState property","IMbnRadio.SoftwareRadioState","IMbnRadio.get_SoftwareRadioState","IMbnRadio::SoftwareRadioState","IMbnRadio::get_SoftwareRadioState","SoftwareRadioState property [Microsoft Broadband Networks]","SoftwareRadioState property [Microsoft Broadband Networks]","IMbnRadio interface","get_SoftwareRadioState","mbn.imbnradio_softwareradiostate","mbnapi/IMbnRadio::SoftwareRadioState","mbnapi/IMbnRadio::get_SoftwareRadioState"]
 old-location: mbn\imbnradio_softwareradiostate.htm
 tech.root: mbn
 ms.assetid: 8e8cd410-0c8b-4e62-ab8e-65e67f7a81a5

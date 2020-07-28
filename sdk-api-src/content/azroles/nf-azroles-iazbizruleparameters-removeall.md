@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.RemoveAll
 title: IAzBizRuleParameters::RemoveAll (azroles.h)
-description: Removes all parameters from the list of parameters available to business rule (BizRule) scripts.helpviewer_keywords: ["IAzBizRuleParameters interface [Security]","RemoveAll method","IAzBizRuleParameters.RemoveAll","IAzBizRuleParameters::RemoveAll","RemoveAll","RemoveAll method [Security]","RemoveAll method [Security]","IAzBizRuleParameters interface","azroles/IAzBizRuleParameters::RemoveAll","security.iazbizruleparameters_removeall_method"]
+description: Removes all parameters from the list of parameters available to business rule (BizRule) scripts.
+helpviewer_keywords: ["IAzBizRuleParameters interface [Security]","RemoveAll method","IAzBizRuleParameters.RemoveAll","IAzBizRuleParameters::RemoveAll","RemoveAll","RemoveAll method [Security]","RemoveAll method [Security]","IAzBizRuleParameters interface","azroles/IAzBizRuleParameters::RemoveAll","security.iazbizruleparameters_removeall_method"]
 old-location: security\iazbizruleparameters_removeall_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 5ec13e1b-6b83-4178-a5a5-b278fe7c8c3c
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleParameters interface [Security],RemoveAll method, IAzBizRuleParameters.RemoveAll, IAzBizRuleParameters::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method

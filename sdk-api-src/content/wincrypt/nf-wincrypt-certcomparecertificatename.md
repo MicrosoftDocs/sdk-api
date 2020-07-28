@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertCompareCertificateName
 title: CertCompareCertificateName function (wincrypt.h)
-description: The CertCompareCertificateName function compares two certificate CERT_NAME_BLOB structures to determine whether they are identical. The CERT_NAME_BLOB structures are used for the subject and the issuer of certificates.helpviewer_keywords: ["CertCompareCertificateName","CertCompareCertificateName function [Security]","_crypto2_certcomparecertificatename","security.certcomparecertificatename","wincrypt/CertCompareCertificateName"]
+description: The CertCompareCertificateName function compares two certificate CERT_NAME_BLOB structures to determine whether they are identical. The CERT_NAME_BLOB structures are used for the subject and the issuer of certificates.
+helpviewer_keywords: ["CertCompareCertificateName","CertCompareCertificateName function [Security]","_crypto2_certcomparecertificatename","security.certcomparecertificatename","wincrypt/CertCompareCertificateName"]
 old-location: security\certcomparecertificatename.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6249429d-0cb2-4209-9580-87185d44b967
 ms.date: 12/05/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName

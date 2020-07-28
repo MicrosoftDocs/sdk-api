@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.AccessCheckByTypeAndAuditAlarmA
 title: AccessCheckByTypeAndAuditAlarmA function (winbase.h)
-description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.helpviewer_keywords: ["AccessCheckByTypeAndAuditAlarm","AccessCheckByTypeAndAuditAlarm function [Security]","AccessCheckByTypeAndAuditAlarmA","AccessCheckByTypeAndAuditAlarmW","_win32_accesscheckbytypeandauditalarm","security.accesscheckbytypeandauditalarm","winbase/AccessCheckByTypeAndAuditAlarm","winbase/AccessCheckByTypeAndAuditAlarmA","winbase/AccessCheckByTypeAndAuditAlarmW"]
+description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
+helpviewer_keywords: ["AccessCheckByTypeAndAuditAlarm","AccessCheckByTypeAndAuditAlarm function [Security]","AccessCheckByTypeAndAuditAlarmA","AccessCheckByTypeAndAuditAlarmW","_win32_accesscheckbytypeandauditalarm","security.accesscheckbytypeandauditalarm","winbase/AccessCheckByTypeAndAuditAlarm","winbase/AccessCheckByTypeAndAuditAlarmA","winbase/AccessCheckByTypeAndAuditAlarmW"]
 old-location: security\accesscheckbytypeandauditalarm.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ea14fd55-e0e4-4bf2-b20e-5874783c16c3
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeAndAuditAlarm, AccessCheckByTypeAndAuditAlarm function [Security], AccessCheckByTypeAndAuditAlarmA, AccessCheckByTypeAndAuditAlarmW, _win32_accesscheckbytypeandauditalarm, security.accesscheckbytypeandauditalarm, winbase/AccessCheckByTypeAndAuditAlarm, winbase/AccessCheckByTypeAndAuditAlarmA, winbase/AccessCheckByTypeAndAuditAlarmW

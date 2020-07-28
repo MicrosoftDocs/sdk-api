@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._TXFS_GET_TRANSACTED_VERSION
 title: TXFS_GET_TRANSACTED_VERSION
-description: Contains the information about the base and latest versions of the specified file.helpviewer_keywords: ["*PTXFS_GET_TRANSACTED_VERSION","PTXFS_GET_TRANSACTED_VERSION","PTXFS_GET_TRANSACTED_VERSION structure pointer [Files]","TXFS_GET_TRANSACTED_VERSION","TXFS_GET_TRANSACTED_VERSION structure [Files]","TXFS_TRANSACTED_VERSION_NONTRANSACTED","TXFS_TRANSACTED_VERSION_UNCOMMITTED","fs.get_transacted_version","fs.txfs_get_transacted_version","winioctl/PTXFS_GET_TRANSACTED_VERSION","winioctl/TXFS_GET_TRANSACTED_VERSION"]
+description: Contains the information about the base and latest versions of the specified file.
+helpviewer_keywords: ["*PTXFS_GET_TRANSACTED_VERSION","PTXFS_GET_TRANSACTED_VERSION","PTXFS_GET_TRANSACTED_VERSION structure pointer [Files]","TXFS_GET_TRANSACTED_VERSION","TXFS_GET_TRANSACTED_VERSION structure [Files]","TXFS_TRANSACTED_VERSION_NONTRANSACTED","TXFS_TRANSACTED_VERSION_UNCOMMITTED","fs.get_transacted_version","fs.txfs_get_transacted_version","winioctl/PTXFS_GET_TRANSACTED_VERSION","winioctl/TXFS_GET_TRANSACTED_VERSION"]
 old-location: fs\txfs_get_transacted_version.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4a8d0271-7693-483f-89b3-2f6b592bbb8a
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION structure pointer [Files], TXFS_GET_TRANSACTED_VERSION, TXFS_GET_TRANSACTED_VERSION structure [Files], TXFS_TRANSACTED_VERSION_NONTRANSACTED, TXFS_TRANSACTED_VERSION_UNCOMMITTED, fs.get_transacted_version, fs.txfs_get_transacted_version, winioctl/PTXFS_GET_TRANSACTED_VERSION, winioctl/TXFS_GET_TRANSACTED_VERSION'

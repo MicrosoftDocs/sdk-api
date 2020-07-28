@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SaveAsXML
 title: IVssBackupComponents::SaveAsXML (vsbackup.h)
-description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SaveAsXML method","IVssBackupComponents.SaveAsXML","IVssBackupComponents::SaveAsXML","SaveAsXML","SaveAsXML method [VSS]","SaveAsXML method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_saveasxml","base.ivssbackupcomponents_saveasxml","vsbackup/IVssBackupComponents::SaveAsXML"]
+description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SaveAsXML method","IVssBackupComponents.SaveAsXML","IVssBackupComponents::SaveAsXML","SaveAsXML","SaveAsXML method [VSS]","SaveAsXML method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_saveasxml","base.ivssbackupcomponents_saveasxml","vsbackup/IVssBackupComponents::SaveAsXML"]
 old-location: base\ivssbackupcomponents_saveasxml.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SaveAsXML method, IVssBackupComponents.SaveAsXML, IVssBackupComponents::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_saveasxml, base.ivssbackupcomponents_saveasxml, vsbackup/IVssBackupComponents::SaveAsXML

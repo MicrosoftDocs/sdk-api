@@ -1,9 +1,10 @@
 ---
 UID: NE:accctrl._TRUSTEE_TYPE
 title: TRUSTEE_TYPE (accctrl.h)
-description: Values that indicate the type of trustee identified by a TRUSTEE structure.helpviewer_keywords: ["TRUSTEE_IS_ALIAS","TRUSTEE_IS_COMPUTER","TRUSTEE_IS_DELETED","TRUSTEE_IS_DOMAIN","TRUSTEE_IS_GROUP","TRUSTEE_IS_INVALID","TRUSTEE_IS_UNKNOWN","TRUSTEE_IS_USER","TRUSTEE_IS_WELL_KNOWN_GROUP","TRUSTEE_TYPE","TRUSTEE_TYPE enumeration [Security]","_win32_trustee_type_str","accctrl/TRUSTEE_IS_ALIAS","accctrl/TRUSTEE_IS_COMPUTER","accctrl/TRUSTEE_IS_DELETED","accctrl/TRUSTEE_IS_DOMAIN","accctrl/TRUSTEE_IS_GROUP","accctrl/TRUSTEE_IS_INVALID","accctrl/TRUSTEE_IS_UNKNOWN","accctrl/TRUSTEE_IS_USER","accctrl/TRUSTEE_IS_WELL_KNOWN_GROUP","accctrl/TRUSTEE_TYPE","security.trustee_type"]
+description: Values that indicate the type of trustee identified by a TRUSTEE structure.
+helpviewer_keywords: ["TRUSTEE_IS_ALIAS","TRUSTEE_IS_COMPUTER","TRUSTEE_IS_DELETED","TRUSTEE_IS_DOMAIN","TRUSTEE_IS_GROUP","TRUSTEE_IS_INVALID","TRUSTEE_IS_UNKNOWN","TRUSTEE_IS_USER","TRUSTEE_IS_WELL_KNOWN_GROUP","TRUSTEE_TYPE","TRUSTEE_TYPE enumeration [Security]","_win32_trustee_type_str","accctrl/TRUSTEE_IS_ALIAS","accctrl/TRUSTEE_IS_COMPUTER","accctrl/TRUSTEE_IS_DELETED","accctrl/TRUSTEE_IS_DOMAIN","accctrl/TRUSTEE_IS_GROUP","accctrl/TRUSTEE_IS_INVALID","accctrl/TRUSTEE_IS_UNKNOWN","accctrl/TRUSTEE_IS_USER","accctrl/TRUSTEE_IS_WELL_KNOWN_GROUP","accctrl/TRUSTEE_TYPE","security.trustee_type"]
 old-location: security\trustee_type.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6519c79d-9cee-4565-a71e-0b81a27c1185
 ms.date: 12/05/2018
 ms.keywords: TRUSTEE_IS_ALIAS, TRUSTEE_IS_COMPUTER, TRUSTEE_IS_DELETED, TRUSTEE_IS_DOMAIN, TRUSTEE_IS_GROUP, TRUSTEE_IS_INVALID, TRUSTEE_IS_UNKNOWN, TRUSTEE_IS_USER, TRUSTEE_IS_WELL_KNOWN_GROUP, TRUSTEE_TYPE, TRUSTEE_TYPE enumeration [Security], _win32_trustee_type_str, accctrl/TRUSTEE_IS_ALIAS, accctrl/TRUSTEE_IS_COMPUTER, accctrl/TRUSTEE_IS_DELETED, accctrl/TRUSTEE_IS_DOMAIN, accctrl/TRUSTEE_IS_GROUP, accctrl/TRUSTEE_IS_INVALID, accctrl/TRUSTEE_IS_UNKNOWN, accctrl/TRUSTEE_IS_USER, accctrl/TRUSTEE_IS_WELL_KNOWN_GROUP, accctrl/TRUSTEE_TYPE, security.trustee_type

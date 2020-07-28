@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadRequest
 title: IMFHttpDownloadRequest (mfidl.h)
-description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.helpviewer_keywords: ["IMFHttpDownloadRequest","IMFHttpDownloadRequest interface [Media Foundation]","IMFHttpDownloadRequest interface [Media Foundation]","described","mf.imfhttpdownloadrequest","mfidl/IMFHttpDownloadRequest"]
+description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.
+helpviewer_keywords: ["IMFHttpDownloadRequest","IMFHttpDownloadRequest interface [Media Foundation]","IMFHttpDownloadRequest interface [Media Foundation]","described","mf.imfhttpdownloadrequest","mfidl/IMFHttpDownloadRequest"]
 old-location: mf\imfhttpdownloadrequest.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A8A37C2F-A662-4FDA-95F6-43D96A8471A8
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest, IMFHttpDownloadRequest interface [Media Foundation], IMFHttpDownloadRequest interface [Media Foundation],described, mf.imfhttpdownloadrequest, mfidl/IMFHttpDownloadRequest

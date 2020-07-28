@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.GetChildren
 title: IUIAutomationAndCondition::GetChildren (uiautomationclient.h)
-description: Retrieves the conditions that make up this &#0034;and&#0034; condition.helpviewer_keywords: ["GetChildren","GetChildren method [Windows Accessibility]","GetChildren method [Windows Accessibility]","IUIAutomationAndCondition interface","IUIAutomationAndCondition interface [Windows Accessibility]","GetChildren method","IUIAutomationAndCondition.GetChildren","IUIAutomationAndCondition::GetChildren","uiauto.uiauto_IUIAutomationAndCondition_GetChildren","uiauto_IUIAutomationAndCondition_GetChildren","uiautomationclient/IUIAutomationAndCondition::GetChildren","winauto.uiauto_IUIAutomationAndCondition_GetChildren"]
+description: Retrieves the conditions that make up this &quot;and&quot; condition.
+helpviewer_keywords: ["GetChildren","GetChildren method [Windows Accessibility]","GetChildren method [Windows Accessibility]","IUIAutomationAndCondition interface","IUIAutomationAndCondition interface [Windows Accessibility]","GetChildren method","IUIAutomationAndCondition.GetChildren","IUIAutomationAndCondition::GetChildren","uiauto.uiauto_IUIAutomationAndCondition_GetChildren","uiauto_IUIAutomationAndCondition_GetChildren","uiautomationclient/IUIAutomationAndCondition::GetChildren","winauto.uiauto_IUIAutomationAndCondition_GetChildren"]
 old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildren.htm
 tech.root: WinAuto
 ms.assetid: 6868fae6-74fb-4133-8dc5-73ce5f8a6f7b

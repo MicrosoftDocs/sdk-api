@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IContextMenuCallback.AddItem
 title: IContextMenuCallback::AddItem (mmc.h)
-description: The IContextMenuCallback::AddItem method adds a single item to a context menu.helpviewer_keywords: ["AddItem","AddItem method [MMC]","AddItem method [MMC]","IContextMenuCallback interface","IContextMenuCallback interface [MMC]","AddItem method","IContextMenuCallback.AddItem","IContextMenuCallback::AddItem","_slate_icontextmenucallback_additem","mmc.icontextmenucallback_additem","mmc/IContextMenuCallback::AddItem"]
+description: The IContextMenuCallback::AddItem method adds a single item to a context menu.
+helpviewer_keywords: ["AddItem","AddItem method [MMC]","AddItem method [MMC]","IContextMenuCallback interface","IContextMenuCallback interface [MMC]","AddItem method","IContextMenuCallback.AddItem","IContextMenuCallback::AddItem","_slate_icontextmenucallback_additem","mmc.icontextmenucallback_additem","mmc/IContextMenuCallback::AddItem"]
 old-location: mmc\icontextmenucallback_additem.htm
 tech.root: mmc
 ms.assetid: 7186f201-13aa-4357-9b89-b435d244229c

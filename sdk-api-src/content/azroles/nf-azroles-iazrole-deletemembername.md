@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzRole.DeleteMemberName
 title: IAzRole::DeleteMemberName (azroles.h)
-description: Removes the specified account name from the list of accounts that belong to the role.helpviewer_keywords: ["AzRole object [Security]","DeleteMemberName method","DeleteMemberName","DeleteMemberName method [Security]","DeleteMemberName method [Security]","AzRole object","DeleteMemberName method [Security]","IAzRole interface","IAzRole interface [Security]","DeleteMemberName method","IAzRole.DeleteMemberName","IAzRole::DeleteMemberName","azroles/IAzRole::DeleteMemberName","security.iazrole_deletemembername"]
+description: Removes the specified account name from the list of accounts that belong to the role.
+helpviewer_keywords: ["AzRole object [Security]","DeleteMemberName method","DeleteMemberName","DeleteMemberName method [Security]","DeleteMemberName method [Security]","AzRole object","DeleteMemberName method [Security]","IAzRole interface","IAzRole interface [Security]","DeleteMemberName method","IAzRole.DeleteMemberName","IAzRole::DeleteMemberName","azroles/IAzRole::DeleteMemberName","security.iazrole_deletemembername"]
 old-location: security\iazrole_deletemembername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzRole object, DeleteMemberName method [Security],IAzRole interface, IAzRole interface [Security],DeleteMemberName method, IAzRole.DeleteMemberName, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername

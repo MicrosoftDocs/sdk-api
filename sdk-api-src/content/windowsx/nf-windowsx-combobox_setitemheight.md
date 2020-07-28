@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_SetItemHeight
 title: ComboBox_SetItemHeight macro (windowsx.h)
-description: Sets the height of list items or the selection field in a combo box. You can use this macro or send the CB_SETITEMHEIGHT message explicitly.helpviewer_keywords: ["ComboBox_SetItemHeight","ComboBox_SetItemHeight macro [Windows Controls]","_win32_ComboBox_SetItemHeight","_win32_ComboBox_SetItemHeight_cpp","controls.ComboBox_SetItemHeight","controls._win32_ComboBox_SetItemHeight","windowsx/ComboBox_SetItemHeight"]
+description: Sets the height of list items or the selection field in a combo box. You can use this macro or send the CB_SETITEMHEIGHT message explicitly.
+helpviewer_keywords: ["ComboBox_SetItemHeight","ComboBox_SetItemHeight macro [Windows Controls]","_win32_ComboBox_SetItemHeight","_win32_ComboBox_SetItemHeight_cpp","controls.ComboBox_SetItemHeight","controls._win32_ComboBox_SetItemHeight","windowsx/ComboBox_SetItemHeight"]
 old-location: controls\ComboBox_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemheight.htm

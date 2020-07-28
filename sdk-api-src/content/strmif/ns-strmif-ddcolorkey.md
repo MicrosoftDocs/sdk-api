@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.DDCOLORKEY
 title: DDCOLORKEY (strmif.h)
-description: Describes a color key as a range of values.helpviewer_keywords: ["*LPDDCOLORKEY","DDCOLORKEY","DDCOLORKEY structure [DirectShow]","DDCOLORKEYStructure","dshow.ddcolorkey","strmif/DDCOLORKEY"]
+description: Describes a color key as a range of values.
+helpviewer_keywords: ["*LPDDCOLORKEY","DDCOLORKEY","DDCOLORKEY structure [DirectShow]","DDCOLORKEYStructure","dshow.ddcolorkey","strmif/DDCOLORKEY"]
 old-location: dshow\ddcolorkey.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bd360860-94e3-4f91-a455-5fdb227368b3
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCOLORKEYStructure, dshow.ddcolorkey, strmif/DDCOLORKEY'

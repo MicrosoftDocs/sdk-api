@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IPin.QueryInternalConnections
 title: IPin::QueryInternalConnections (strmif.h)
-description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).helpviewer_keywords: ["IPin interface [DirectShow]","QueryInternalConnections method","IPin.QueryInternalConnections","IPin::QueryInternalConnections","IPinQueryInternalConnections","QueryInternalConnections","QueryInternalConnections method [DirectShow]","QueryInternalConnections method [DirectShow]","IPin interface","dshow.ipin_queryinternalconnections","strmif/IPin::QueryInternalConnections"]
+description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).
+helpviewer_keywords: ["IPin interface [DirectShow]","QueryInternalConnections method","IPin.QueryInternalConnections","IPin::QueryInternalConnections","IPinQueryInternalConnections","QueryInternalConnections","QueryInternalConnections method [DirectShow]","QueryInternalConnections method [DirectShow]","IPin interface","dshow.ipin_queryinternalconnections","strmif/IPin::QueryInternalConnections"]
 old-location: dshow\ipin_queryinternalconnections.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections

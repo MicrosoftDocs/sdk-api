@@ -1,9 +1,10 @@
 ---
 UID: NF:loadperf.LoadPerfCounterTextStringsW
 title: LoadPerfCounterTextStringsW function (loadperf.h)
-description: Loads onto the computer the performance objects and counters defined in the specified initialization file.helpviewer_keywords: ["LoadPerfCounterTextStrings","LoadPerfCounterTextStrings function [Perf]","LoadPerfCounterTextStringsA","LoadPerfCounterTextStringsW","_win32_loadperfcountertextstrings","base.loadperfcountertextstrings","loadperf/LoadPerfCounterTextStrings","loadperf/LoadPerfCounterTextStringsA","loadperf/LoadPerfCounterTextStringsW","perf.loadperfcountertextstrings"]
+description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
+helpviewer_keywords: ["LoadPerfCounterTextStrings","LoadPerfCounterTextStrings function [Perf]","LoadPerfCounterTextStringsA","LoadPerfCounterTextStringsW","_win32_loadperfcountertextstrings","base.loadperfcountertextstrings","loadperf/LoadPerfCounterTextStrings","loadperf/LoadPerfCounterTextStringsA","loadperf/LoadPerfCounterTextStringsW","perf.loadperfcountertextstrings"]
 old-location: perf\loadperfcountertextstrings.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
 ms.date: 12/05/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
@@ -93,6 +94,10 @@ This function provides an API to the functionality provided by the <b>Lodctr</b>
 
 
 
+
+
+> [!NOTE]
+> The loadperf.h header defines LoadPerfCounterTextStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

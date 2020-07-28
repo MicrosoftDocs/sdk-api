@@ -1,7 +1,8 @@
 ---
 UID: NF:immdev.ImmConfigureIMEW
 title: ImmConfigureIMEW function (immdev.h)
-description: Displays the configuration dialog box for the IME of the specified input locale identifier.helpviewer_keywords: ["IME_CONFIG_GENERAL","IME_CONFIG_REGISTERWORD","IME_CONFIG_SELECTDICTIONARY","ImmConfigureIME","ImmConfigureIME function [Internationalization for Windows Applications]","ImmConfigureIMEA","ImmConfigureIMEW","_win32_ImmConfigureIME","imm/ImmConfigureIME","imm/ImmConfigureIMEA","imm/ImmConfigureIMEW","intl.immconfigureime"]
+description: Displays the configuration dialog box for the IME of the specified input locale identifier.
+helpviewer_keywords: ["IME_CONFIG_GENERAL","IME_CONFIG_REGISTERWORD","IME_CONFIG_SELECTDICTIONARY","ImmConfigureIME","ImmConfigureIME function [Internationalization for Windows Applications]","ImmConfigureIMEA","ImmConfigureIMEW","_win32_ImmConfigureIME","imm/ImmConfigureIME","imm/ImmConfigureIMEA","imm/ImmConfigureIMEW","intl.immconfigureime"]
 old-location: intl\immconfigureime.htm
 tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
@@ -143,4 +144,9 @@ Returns a nonzero value if successful, or 0 otherwise.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The immdev.h header defines ImmConfigureIME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

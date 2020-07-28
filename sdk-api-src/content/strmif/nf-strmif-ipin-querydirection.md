@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IPin.QueryDirection
 title: IPin::QueryDirection (strmif.h)
-description: The QueryDirection method gets the direction of the pin (input or output).helpviewer_keywords: ["IPin interface [DirectShow]","QueryDirection method","IPin.QueryDirection","IPin::QueryDirection","IPinQueryDirection","QueryDirection","QueryDirection method [DirectShow]","QueryDirection method [DirectShow]","IPin interface","dshow.ipin_querydirection","strmif/IPin::QueryDirection"]
+description: The QueryDirection method gets the direction of the pin (input or output).
+helpviewer_keywords: ["IPin interface [DirectShow]","QueryDirection method","IPin.QueryDirection","IPin::QueryDirection","IPinQueryDirection","QueryDirection","QueryDirection method [DirectShow]","QueryDirection method [DirectShow]","IPin interface","dshow.ipin_querydirection","strmif/IPin::QueryDirection"]
 old-location: dshow\ipin_querydirection.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cc36b5d6-bcca-403d-b840-ceabbf159f5d
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection

@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSPStartup
 title: WSPStartup function (ws2spi.h)
-description: The WSPStartup function initiates use of a Windows Sockets service provider interface (SPI) by a client.helpviewer_keywords: ["WSPStartup","WSPStartup function [Winsock]","_win32_wspstartup_2","winsock.wspstartup_2","ws2spi/WSPStartup"]
+description: The WSPStartup function initiates use of a Windows Sockets service provider interface (SPI) by a client.
+helpviewer_keywords: ["WSPStartup","WSPStartup function [Winsock]","_win32_wspstartup_2","winsock.wspstartup_2","ws2spi/WSPStartup"]
 old-location: winsock\wspstartup_2.htm
 tech.root: WinSock
 ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf

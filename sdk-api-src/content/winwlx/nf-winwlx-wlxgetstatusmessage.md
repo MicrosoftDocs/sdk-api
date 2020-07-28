@@ -1,9 +1,10 @@
 ---
 UID: NF:winwlx.WlxGetStatusMessage
 title: WlxGetStatusMessage function (winwlx.h)
-description: Winlogon calls this function to get the status message being displayed by the GINA DLL.helpviewer_keywords: ["WlxGetStatusMessage","WlxGetStatusMessage function [Security]","_gina_wlxgetstatusmessage","security.wlxgetstatusmessage","winwlx/WlxGetStatusMessage"]
+description: Winlogon calls this function to get the status message being displayed by the GINA DLL.
+helpviewer_keywords: ["WlxGetStatusMessage","WlxGetStatusMessage function [Security]","_gina_wlxgetstatusmessage","security.wlxgetstatusmessage","winwlx/WlxGetStatusMessage"]
 old-location: security\wlxgetstatusmessage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.date: 12/05/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage

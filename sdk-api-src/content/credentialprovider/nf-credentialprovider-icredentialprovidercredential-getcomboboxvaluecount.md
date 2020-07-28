@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetComboBoxValueCount
 title: ICredentialProviderCredential::GetComboBoxValueCount (credentialprovider.h)
-description: Gets a count of the items in the specified combo box and designates which item should have initial selection.helpviewer_keywords: ["GetComboBoxValueCount","GetComboBoxValueCount method [Windows Shell]","GetComboBoxValueCount method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetComboBoxValueCount method","ICredentialProviderCredential.GetComboBoxValueCount","ICredentialProviderCredential::GetComboBoxValueCount","_shell_ICredentialProviderCredential_GetComboBoxValueCount","credentialprovider/ICredentialProviderCredential::GetComboBoxValueCount","shell.ICredentialProviderCredential_GetComboBoxValueCount"]
+description: Gets a count of the items in the specified combo box and designates which item should have initial selection.
+helpviewer_keywords: ["GetComboBoxValueCount","GetComboBoxValueCount method [Windows Shell]","GetComboBoxValueCount method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetComboBoxValueCount method","ICredentialProviderCredential.GetComboBoxValueCount","ICredentialProviderCredential::GetComboBoxValueCount","_shell_ICredentialProviderCredential_GetComboBoxValueCount","credentialprovider/ICredentialProviderCredential::GetComboBoxValueCount","shell.ICredentialProviderCredential_GetComboBoxValueCount"]
 old-location: shell\ICredentialProviderCredential_GetComboBoxValueCount.htm
 tech.root: shell
 ms.assetid: 50d28ad6-ab18-4648-8e3d-1759ce6b5aeb

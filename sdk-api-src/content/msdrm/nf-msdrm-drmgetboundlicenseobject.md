@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseObject
 title: DRMGetBoundLicenseObject function (msdrm.h)
-description: Returns an object from a bound license.helpviewer_keywords: ["DRMGetBoundLicenseObject","DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetBoundLicenseObject","rm.drmgetboundlicenseobject"]
+description: Returns an object from a bound license.
+helpviewer_keywords: ["DRMGetBoundLicenseObject","DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetBoundLicenseObject","rm.drmgetboundlicenseobject"]
 old-location: rm\drmgetboundlicenseobject.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: d1be0668-fb5a-4541-92dc-34255ba3fdad
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseObject, DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObject, rm.drmgetboundlicenseobject

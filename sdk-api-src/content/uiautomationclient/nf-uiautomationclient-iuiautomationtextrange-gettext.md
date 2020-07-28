@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetText
 title: IUIAutomationTextRange::GetText (uiautomationclient.h)
-description: Returns the plain text of the text range.helpviewer_keywords: ["GetText","GetText method [Windows Accessibility]","GetText method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","GetText method","IUIAutomationTextRange.GetText","IUIAutomationTextRange::GetText","uiauto.uiauto_IUIAutomationTextRange_GetText","uiauto_IUIAutomationTextRange_GetText","uiautomationclient/IUIAutomationTextRange::GetText","winauto.uiauto_IUIAutomationTextRange_GetText"]
+description: Returns the plain text of the text range.
+helpviewer_keywords: ["GetText","GetText method [Windows Accessibility]","GetText method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","GetText method","IUIAutomationTextRange.GetText","IUIAutomationTextRange::GetText","uiauto.uiauto_IUIAutomationTextRange_GetText","uiauto_IUIAutomationTextRange_GetText","uiautomationclient/IUIAutomationTextRange::GetText","winauto.uiauto_IUIAutomationTextRange_GetText"]
 old-location: winauto\uiauto_IUIAutomationTextRange_GetText.htm
 tech.root: WinAuto
 ms.assetid: 704e222d-1e1e-4953-bfa1-bbaa1c5ba833

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMetadataProvider.GetMFMetadata
 title: IMFMetadataProvider::GetMFMetadata (mfidl.h)
-description: Gets a collection of metadata, either for an entire presentation, or for one stream in the presentation.helpviewer_keywords: ["0a3c1932-c301-4ecd-b640-02d7bcfc2aca","GetMFMetadata","GetMFMetadata method [Media Foundation]","GetMFMetadata method [Media Foundation]","IMFMetadataProvider interface","IMFMetadataProvider interface [Media Foundation]","GetMFMetadata method","IMFMetadataProvider.GetMFMetadata","IMFMetadataProvider::GetMFMetadata","mf.imfmetadataprovider_getmfmetadata","mfidl/IMFMetadataProvider::GetMFMetadata"]
+description: Gets a collection of metadata, either for an entire presentation, or for one stream in the presentation.
+helpviewer_keywords: ["0a3c1932-c301-4ecd-b640-02d7bcfc2aca","GetMFMetadata","GetMFMetadata method [Media Foundation]","GetMFMetadata method [Media Foundation]","IMFMetadataProvider interface","IMFMetadataProvider interface [Media Foundation]","GetMFMetadata method","IMFMetadataProvider.GetMFMetadata","IMFMetadataProvider::GetMFMetadata","mf.imfmetadataprovider_getmfmetadata","mfidl/IMFMetadataProvider::GetMFMetadata"]
 old-location: mf\imfmetadataprovider_getmfmetadata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca
 ms.date: 12/05/2018
 ms.keywords: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca, GetMFMetadata, GetMFMetadata method [Media Foundation], GetMFMetadata method [Media Foundation],IMFMetadataProvider interface, IMFMetadataProvider interface [Media Foundation],GetMFMetadata method, IMFMetadataProvider.GetMFMetadata, IMFMetadataProvider::GetMFMetadata, mf.imfmetadataprovider_getmfmetadata, mfidl/IMFMetadataProvider::GetMFMetadata

@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.GetIdentifier
 title: ITransactionProxy::GetIdentifier (comsvcs.h)
-description: Retrieves the identifier of the non-DTC transaction.helpviewer_keywords: ["GetIdentifier","GetIdentifier method [COM+]","GetIdentifier method [COM+]","ITransactionProxy interface","ITransactionProxy interface [COM+]","GetIdentifier method","ITransactionProxy.GetIdentifier","ITransactionProxy::GetIdentifier","comsvcs/ITransactionProxy::GetIdentifier","cos.itransactionproxy_getidentifier"]
+description: Retrieves the identifier of the non-DTC transaction.
+helpviewer_keywords: ["GetIdentifier","GetIdentifier method [COM+]","GetIdentifier method [COM+]","ITransactionProxy interface","ITransactionProxy interface [COM+]","GetIdentifier method","ITransactionProxy.GetIdentifier","ITransactionProxy::GetIdentifier","comsvcs/ITransactionProxy::GetIdentifier","cos.itransactionproxy_getidentifier"]
 old-location: cos\itransactionproxy_getidentifier.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 8045989b-7b66-4340-a06e-4b4102d09784
 ms.date: 12/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [COM+], GetIdentifier method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIdentifier method, ITransactionProxy.GetIdentifier, ITransactionProxy::GetIdentifier, comsvcs/ITransactionProxy::GetIdentifier, cos.itransactionproxy_getidentifier

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusbrush.LinearGradientBrush.GetRectangle(OUT Rect)
+UID: NF:gdiplusbrush.LinearGradientBrush.GetRectangle(OUTRect)
 title: LinearGradientBrush::GetRectangle(OUT Rect) (gdiplusbrush.h)
-description: The LinearGradientBrush::GetRectangle method gets the rectangle that defines the boundaries of the gradient.helpviewer_keywords: ["GetRectangle","GetRectangle method [GDI+]","GetRectangle method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetRectangle method","LinearGradientBrush.GetRectangle","LinearGradientBrush.GetRectangle(OUT Rect)","LinearGradientBrush.GetRectangle(Rect*)","LinearGradientBrush::GetRectangle","LinearGradientBrush::GetRectangle(OUT Rect)","_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_"]
+description: The LinearGradientBrush::GetRectangle method gets the rectangle that defines the boundaries of the gradient.
+helpviewer_keywords: ["GetRectangle","GetRectangle method [GDI+]","GetRectangle method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetRectangle method","LinearGradientBrush.GetRectangle","LinearGradientBrush.GetRectangle(OUT Rect)","LinearGradientBrush.GetRectangle(Rect*)","LinearGradientBrush::GetRectangle","LinearGradientBrush::GetRectangle(OUT Rect)","_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods\getrectangle.htm

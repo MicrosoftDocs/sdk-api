@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterFilterInstance
 title: IFilterMapper::UnregisterFilterInstance (strmif.h)
-description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter instance from the registry.helpviewer_keywords: ["IFilterMapper interface [DirectShow]","UnregisterFilterInstance method","IFilterMapper.UnregisterFilterInstance","IFilterMapper::UnregisterFilterInstance","IFilterMapperUnregisterFilterInstance","UnregisterFilterInstance","UnregisterFilterInstance method [DirectShow]","UnregisterFilterInstance method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_unregisterfilterinstance","strmif/IFilterMapper::UnregisterFilterInstance"]
+description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter instance from the registry.
+helpviewer_keywords: ["IFilterMapper interface [DirectShow]","UnregisterFilterInstance method","IFilterMapper.UnregisterFilterInstance","IFilterMapper::UnregisterFilterInstance","IFilterMapperUnregisterFilterInstance","UnregisterFilterInstance","UnregisterFilterInstance method [DirectShow]","UnregisterFilterInstance method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_unregisterfilterinstance","strmif/IFilterMapper::UnregisterFilterInstance"]
 old-location: dshow\ifiltermapper_unregisterfilterinstance.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bfeb0129-f67c-4318-8206-aa08e3b5b370
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilterInstance method, IFilterMapper.UnregisterFilterInstance, IFilterMapper::UnregisterFilterInstance, IFilterMapperUnregisterFilterInstance, UnregisterFilterInstance, UnregisterFilterInstance method [DirectShow], UnregisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilterinstance, strmif/IFilterMapper::UnregisterFilterInstance

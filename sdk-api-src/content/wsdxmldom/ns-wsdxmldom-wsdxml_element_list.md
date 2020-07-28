@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ELEMENT_LIST
 title: WSDXML_ELEMENT_LIST (wsdxmldom.h)
-description: Represents a node in a linked list of XML elements.helpviewer_keywords: ["WSDXML_ELEMENT_LIST","WSDXML_ELEMENT_LIST structure","_WSDXML_ELEMENT_LIST","ncd.wsdxml_element_list_struct","wsdxmldom/WSDXML_ELEMENT_LIST"]
+description: Represents a node in a linked list of XML elements.
+helpviewer_keywords: ["WSDXML_ELEMENT_LIST","WSDXML_ELEMENT_LIST structure","_WSDXML_ELEMENT_LIST","ncd.wsdxml_element_list_struct","wsdxmldom/WSDXML_ELEMENT_LIST"]
 old-location: ncd\wsdxml_element_list_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 498fe365-e9a1-490c-a361-2312ea698977
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT_LIST, ncd.wsdxml_element_list_struct, wsdxmldom/WSDXML_ELEMENT_LIST

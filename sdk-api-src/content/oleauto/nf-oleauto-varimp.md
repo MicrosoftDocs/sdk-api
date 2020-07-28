@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarImp
 title: VarImp function (oleauto.h)
-description: Performs a bitwise implication on two variants.helpviewer_keywords: ["VarImp","VarImp function [Automation]","_oa96_VarImp","automat.varimp","oleauto/VarImp"]
+description: Performs a bitwise implication on two variants.
+helpviewer_keywords: ["VarImp","VarImp function [Automation]","_oa96_VarImp","automat.varimp","oleauto/VarImp"]
 old-location: automat\varimp.htm
 tech.root: automat
 ms.assetid: c8d846dd-97c3-4e7d-af4f-632f04be75cf

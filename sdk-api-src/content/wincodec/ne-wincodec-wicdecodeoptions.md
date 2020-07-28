@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICDecodeOptions
 title: WICDecodeOptions (wincodec.h)
-description: Specifies decode options.helpviewer_keywords: ["WICDecodeMetadataCacheOnDemand","WICDecodeMetadataCacheOnLoad","WICDecodeOptions","WICDecodeOptions enumeration [Windows Imaging Component]","_wic_codec_wicdecodeoptions","wic._wic_codec_wicdecodeoptions","wincodec/WICDecodeMetadataCacheOnDemand","wincodec/WICDecodeMetadataCacheOnLoad","wincodec/WICDecodeOptions"]
+description: Specifies decode options.
+helpviewer_keywords: ["WICDecodeMetadataCacheOnDemand","WICDecodeMetadataCacheOnLoad","WICDecodeOptions","WICDecodeOptions enumeration [Windows Imaging Component]","_wic_codec_wicdecodeoptions","wic._wic_codec_wicdecodeoptions","wincodec/WICDecodeMetadataCacheOnDemand","wincodec/WICDecodeMetadataCacheOnLoad","wincodec/WICDecodeOptions"]
 old-location: wic\_wic_codec_wicdecodeoptions.htm
 tech.root: wic
 ms.assetid: 27b9d6e1-e171-4c7f-8f96-fa5a93923e35

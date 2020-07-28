@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.LSA_AUDIT_LOGON
 title: LSA_AUDIT_LOGON (ntsecpkg.h)
-description: The AuditLogon function is used to audit a logon attempt.helpviewer_keywords: ["AuditLogon","AuditLogon callback function [Security]","LSA_AUDIT_LOGON","LSA_AUDIT_LOGON callback","_ssp_auditlogon","ntsecpkg/AuditLogon","security.auditlogon"]
+description: The AuditLogon function is used to audit a logon attempt.
+helpviewer_keywords: ["AuditLogon","AuditLogon callback function [Security]","LSA_AUDIT_LOGON","LSA_AUDIT_LOGON callback","_ssp_auditlogon","ntsecpkg/AuditLogon","security.auditlogon"]
 old-location: security\auditlogon.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1b0316ae-0c09-4a7e-8443-e59b4db9e825
 ms.date: 12/05/2018
 ms.keywords: AuditLogon, AuditLogon callback function [Security], LSA_AUDIT_LOGON, LSA_AUDIT_LOGON callback, _ssp_auditlogon, ntsecpkg/AuditLogon, security.auditlogon

@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_12
 title: ERROR_SPEC (lpmapi.h)
-description: The ERROR_SPEC structure contains RSVP error messages.helpviewer_keywords: ["ERROR_SPEC","ERROR_SPEC structure [QOS]","lpmapi/ERROR_SPEC","qos.error_spec"]
+description: The ERROR_SPEC structure contains RSVP error messages.
+helpviewer_keywords: ["ERROR_SPEC","ERROR_SPEC structure [QOS]","lpmapi/ERROR_SPEC","qos.error_spec"]
 old-location: qos\error_spec.htm
 tech.root: QOS
 ms.assetid: 4d20cbb8-c29a-4c0c-bf06-532144da3e33

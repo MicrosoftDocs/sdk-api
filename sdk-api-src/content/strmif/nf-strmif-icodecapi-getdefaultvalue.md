@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.ICodecAPI.GetDefaultValue
 title: ICodecAPI::GetDefaultValue (strmif.h)
-description: The GetDefaultValue method gets the default value of a codec property.helpviewer_keywords: ["GetDefaultValue","GetDefaultValue method [DirectShow]","GetDefaultValue method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetDefaultValue method","ICodecAPI.GetDefaultValue","ICodecAPI::GetDefaultValue","ICodecAPIGetDefaultValue","dshow.icodecapi_getdefaultvalue","strmif/ICodecAPI::GetDefaultValue"]
+description: The GetDefaultValue method gets the default value of a codec property.
+helpviewer_keywords: ["GetDefaultValue","GetDefaultValue method [DirectShow]","GetDefaultValue method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetDefaultValue method","ICodecAPI.GetDefaultValue","ICodecAPI::GetDefaultValue","ICodecAPIGetDefaultValue","dshow.icodecapi_getdefaultvalue","strmif/ICodecAPI::GetDefaultValue"]
 old-location: dshow\icodecapi_getdefaultvalue.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 749f5235-2f62-4609-84b8-a880a38cd9cb
 ms.date: 12/05/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetDefaultValue method, ICodecAPI.GetDefaultValue, ICodecAPI::GetDefaultValue, ICodecAPIGetDefaultValue, dshow.icodecapi_getdefaultvalue, strmif/ICodecAPI::GetDefaultValue

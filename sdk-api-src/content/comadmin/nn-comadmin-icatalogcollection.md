@@ -1,9 +1,10 @@
 ---
 UID: NN:comadmin.ICatalogCollection
 title: ICatalogCollection (comadmin.h)
-description: Represents any collection in the COM+ catalog. ICatalogCollection enables you to enumerate, add, remove, and retrieve items in a collection and to access related collections.helpviewer_keywords: ["ICatalogCollection","ICatalogCollection interface [COM+]","ICatalogCollection interface [COM+]","described","_cos_ICatalogCollection_Interface","comadmin/ICatalogCollection","cos.icatalogcollection"]
+description: Represents any collection in the COM+ catalog. ICatalogCollection enables you to enumerate, add, remove, and retrieve items in a collection and to access related collections.
+helpviewer_keywords: ["ICatalogCollection","ICatalogCollection interface [COM+]","ICatalogCollection interface [COM+]","described","_cos_ICatalogCollection_Interface","comadmin/ICatalogCollection","cos.icatalogcollection"]
 old-location: cos\icatalogcollection.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 7c24ead4-d69f-467d-b3d8-a81adbc49a7b
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection

@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey (vds.h)
-description: Not supported.This method is reserved for future use.helpviewer_keywords: ["IVdsSubSystemIscsi interface","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi.SetIpsecGroupPresharedKey","IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey method","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_setipsecgrouppresharedkey","vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey"]
+description: Not supported.This method is reserved for future use.
+helpviewer_keywords: ["IVdsSubSystemIscsi interface","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi.SetIpsecGroupPresharedKey","IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey method","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_setipsecgrouppresharedkey","vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey"]
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f4a06e2b-09c9-438b-ba5b-b12bb846743b
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface,SetIpsecGroupPresharedKey method, IVdsSubSystemIscsi.SetIpsecGroupPresharedKey, IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method, SetIpsecGroupPresharedKey method,IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_setipsecgrouppresharedkey, vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey

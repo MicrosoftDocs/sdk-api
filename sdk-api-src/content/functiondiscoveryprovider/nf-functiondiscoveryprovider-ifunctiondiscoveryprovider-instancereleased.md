@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstanceReleased
 title: IFunctionDiscoveryProvider::InstanceReleased (functiondiscoveryprovider.h)
-description: Releases the specified function instance and frees the memory previously allocated.helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstanceReleased method","IFunctionDiscoveryProvider.InstanceReleased","IFunctionDiscoveryProvider::InstanceReleased","InstanceReleased","InstanceReleased method","InstanceReleased method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased","ncd.ifunctiondiscoveryprovider_instancereleased"]
+description: Releases the specified function instance and frees the memory previously allocated.
+helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstanceReleased method","IFunctionDiscoveryProvider.InstanceReleased","IFunctionDiscoveryProvider::InstanceReleased","InstanceReleased","InstanceReleased method","InstanceReleased method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased","ncd.ifunctiondiscoveryprovider_instancereleased"]
 old-location: ncd\ifunctiondiscoveryprovider_instancereleased.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased

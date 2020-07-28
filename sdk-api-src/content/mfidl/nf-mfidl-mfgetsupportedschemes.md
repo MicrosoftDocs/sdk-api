@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFGetSupportedSchemes
 title: MFGetSupportedSchemes function (mfidl.h)
-description: Retrieves the URL schemes that are registered for the source resolver.helpviewer_keywords: ["MFGetSupportedSchemes","MFGetSupportedSchemes function [Media Foundation]","b40315fc-7e2b-4573-a98f-840b6ce31dd3","mf.mfgetsupportedschemes","mfidl/MFGetSupportedSchemes"]
+description: Retrieves the URL schemes that are registered for the source resolver.
+helpviewer_keywords: ["MFGetSupportedSchemes","MFGetSupportedSchemes function [Media Foundation]","b40315fc-7e2b-4573-a98f-840b6ce31dd3","mf.mfgetsupportedschemes","mfidl/MFGetSupportedSchemes"]
 old-location: mf\mfgetsupportedschemes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
 ms.date: 12/05/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes

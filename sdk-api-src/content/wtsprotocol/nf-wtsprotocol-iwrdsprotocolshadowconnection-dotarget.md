@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.DoTarget
 title: IWRdsProtocolShadowConnection::DoTarget (wtsprotocol.h)
-description: Requests that the protocol start the target side of a shadow connection.helpviewer_keywords: ["DoTarget","DoTarget method [Remote Desktop Services]","DoTarget method [Remote Desktop Services]","IWRdsProtocolShadowConnection interface","IWRdsProtocolShadowConnection interface [Remote Desktop Services]","DoTarget method","IWRdsProtocolShadowConnection.DoTarget","IWRdsProtocolShadowConnection::DoTarget","termserv.iwrdsprotocolshadowconnection_dotarget","wtsprotocol/IWRdsProtocolShadowConnection::DoTarget"]
+description: Requests that the protocol start the target side of a shadow connection.
+helpviewer_keywords: ["DoTarget","DoTarget method [Remote Desktop Services]","DoTarget method [Remote Desktop Services]","IWRdsProtocolShadowConnection interface","IWRdsProtocolShadowConnection interface [Remote Desktop Services]","DoTarget method","IWRdsProtocolShadowConnection.DoTarget","IWRdsProtocolShadowConnection::DoTarget","termserv.iwrdsprotocolshadowconnection_dotarget","wtsprotocol/IWRdsProtocolShadowConnection::DoTarget"]
 old-location: termserv\iwrdsprotocolshadowconnection_dotarget.htm
 tech.root: TermServ
 ms.assetid: 9fe2e3fb-f368-4b7e-b679-402db900916c

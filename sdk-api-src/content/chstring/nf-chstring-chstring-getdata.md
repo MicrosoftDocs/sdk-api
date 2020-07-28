@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.GetData
 title: CHString::GetData (chstring.h)
-description: The GetData method to get the data from the CHString object.helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","GetData method","CHString.GetData","CHString::GetData","GetData","GetData method [Windows Management Instrumentation]","GetData method [Windows Management Instrumentation]","CHString interface","chstring/CHString::GetData","wmi.chstring_getdata"]
+description: The GetData method to get the data from the CHString object.
+helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","GetData method","CHString.GetData","CHString::GetData","GetData","GetData method [Windows Management Instrumentation]","GetData method [Windows Management Instrumentation]","CHString interface","chstring/CHString::GetData","wmi.chstring_getdata"]
 old-location: wmi\chstring_getdata.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: eb463c0d-8cb3-40b8-9c81-ce98c859068a
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetData method, CHString.GetData, CHString::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHString interface, chstring/CHString::GetData, wmi.chstring_getdata

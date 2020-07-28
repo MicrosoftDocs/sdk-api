@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetDisabled
 title: IAMPluginControl::SetDisabled (strmif.h)
-description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetDisabled method","IAMPluginControl.SetDisabled","IAMPluginControl::SetDisabled","SetDisabled","SetDisabled method [DirectShow]","SetDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setdisabled","strmif/IAMPluginControl::SetDisabled"]
+description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
+helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetDisabled method","IAMPluginControl.SetDisabled","IAMPluginControl::SetDisabled","SetDisabled","SetDisabled method [DirectShow]","SetDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setdisabled","strmif/IAMPluginControl::SetDisabled"]
 old-location: dshow\iamplugincontrol_setdisabled.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3ac4b3b5-0882-4e30-b3fa-1dcee33a74d3
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],SetDisabled method, IAMPluginControl.SetDisabled, IAMPluginControl::SetDisabled, SetDisabled, SetDisabled method [DirectShow], SetDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setdisabled, strmif/IAMPluginControl::SetDisabled

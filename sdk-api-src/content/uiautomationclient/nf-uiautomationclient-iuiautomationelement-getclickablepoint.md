@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetClickablePoint
 title: IUIAutomationElement::GetClickablePoint (uiautomationclient.h)
-description: Retrieves a point on the element that can be clicked.helpviewer_keywords: ["GetClickablePoint","GetClickablePoint method [Windows Accessibility]","GetClickablePoint method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","GetClickablePoint method","IUIAutomationElement.GetClickablePoint","IUIAutomationElement::GetClickablePoint","uiauto.uiauto_IUIAutomationElement_GetClickablePoint","uiauto_IUIAutomationElement_GetClickablePoint","uiautomationclient/IUIAutomationElement::GetClickablePoint","winauto.uiauto_IUIAutomationElement_GetClickablePoint"]
+description: Retrieves a point on the element that can be clicked.
+helpviewer_keywords: ["GetClickablePoint","GetClickablePoint method [Windows Accessibility]","GetClickablePoint method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","GetClickablePoint method","IUIAutomationElement.GetClickablePoint","IUIAutomationElement::GetClickablePoint","uiauto.uiauto_IUIAutomationElement_GetClickablePoint","uiauto_IUIAutomationElement_GetClickablePoint","uiautomationclient/IUIAutomationElement::GetClickablePoint","winauto.uiauto_IUIAutomationElement_GetClickablePoint"]
 old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm
 tech.root: WinAuto
 ms.assetid: 3762aac6-5bd8-43a6-8fe6-e79d8724622b

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetFormatGUID
 title: IWICPixelFormatInfo::GetFormatGUID (wincodec.h)
-description: Gets the pixel format GUID.helpviewer_keywords: ["GetFormatGUID","GetFormatGUID method [Windows Imaging Component]","GetFormatGUID method [Windows Imaging Component]","IWICPixelFormatInfo interface","IWICPixelFormatInfo interface [Windows Imaging Component]","GetFormatGUID method","IWICPixelFormatInfo.GetFormatGUID","IWICPixelFormatInfo::GetFormatGUID","_wic_codec_iwicpixelformatinfo_getformatguid","wic._wic_codec_iwicpixelformatinfo_getformatguid","wincodec/IWICPixelFormatInfo::GetFormatGUID"]
+description: Gets the pixel format GUID.
+helpviewer_keywords: ["GetFormatGUID","GetFormatGUID method [Windows Imaging Component]","GetFormatGUID method [Windows Imaging Component]","IWICPixelFormatInfo interface","IWICPixelFormatInfo interface [Windows Imaging Component]","GetFormatGUID method","IWICPixelFormatInfo.GetFormatGUID","IWICPixelFormatInfo::GetFormatGUID","_wic_codec_iwicpixelformatinfo_getformatguid","wic._wic_codec_iwicpixelformatinfo_getformatguid","wincodec/IWICPixelFormatInfo::GetFormatGUID"]
 old-location: wic\_wic_codec_iwicpixelformatinfo_getformatguid.htm
 tech.root: wic
 ms.assetid: 184ad8e5-51f2-47eb-b3c4-010626fa7c34

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetOutputFileName
 title: IMFCapturePhotoSink::SetOutputFileName (mfcaptureengine.h)
-description: Specifies the name of the output file for the still image.helpviewer_keywords: ["IMFCapturePhotoSink interface [Media Foundation]","SetOutputFileName method","IMFCapturePhotoSink.SetOutputFileName","IMFCapturePhotoSink::SetOutputFileName","SetOutputFileName","SetOutputFileName method [Media Foundation]","SetOutputFileName method [Media Foundation]","IMFCapturePhotoSink interface","mf.imfcapturephotosink_setoutputfilename","mfcaptureengine/IMFCapturePhotoSink::SetOutputFileName"]
+description: Specifies the name of the output file for the still image.
+helpviewer_keywords: ["IMFCapturePhotoSink interface [Media Foundation]","SetOutputFileName method","IMFCapturePhotoSink.SetOutputFileName","IMFCapturePhotoSink::SetOutputFileName","SetOutputFileName","SetOutputFileName method [Media Foundation]","SetOutputFileName method [Media Foundation]","IMFCapturePhotoSink interface","mf.imfcapturephotosink_setoutputfilename","mfcaptureengine/IMFCapturePhotoSink::SetOutputFileName"]
 old-location: mf\imfcapturephotosink_setoutputfilename.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: CAA9F7CF-A92F-4039-BEA5-07A730E82EE4
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputFileName method, IMFCapturePhotoSink.SetOutputFileName, IMFCapturePhotoSink::SetOutputFileName, SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputfilename, mfcaptureengine/IMFCapturePhotoSink::SetOutputFileName

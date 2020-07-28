@@ -1,9 +1,10 @@
 ---
 UID: NF:certpoleng.PstValidate
 title: PstValidate function (certpoleng.h)
-description: Validates the specified certificate.helpviewer_keywords: ["PstValidate","PstValidate function [Security]","certpoleng/PstValidate","security.pstvalidate"]
+description: Validates the specified certificate.
+helpviewer_keywords: ["PstValidate","PstValidate function [Security]","certpoleng/PstValidate","security.pstvalidate"]
 old-location: security\pstvalidate.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.date: 12/05/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate

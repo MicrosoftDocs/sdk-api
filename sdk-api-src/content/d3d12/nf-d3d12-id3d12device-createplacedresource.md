@@ -152,7 +152,7 @@ In this model, you can ignore the active/inactive state abstraction. Instead, yo
 
 Initialization operations must occur either on an entire subresource, or on a 64KB granularity. An entire subresource initialization is supported for all resource types. A 64KB initialization granularity, aligned at a 64KB offset, is supported for buffers and textures with either the 64KB_UNDEFINED_SWIZZLE or 64KB_STANDARD_SWIZZLE texture layout (refer to <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_texture_layout">D3D12_TEXTURE_LAYOUT</a>).
 
-## Notes on the aliasing barrier
+### Notes on the aliasing barrier
 
 The aliasing barrier may set NULL for both *pResourceAfter* and *pResourceBefore*. The memory coherence definition of <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">**ExecuteCommandLists**</a> and an aliasing barrier are the same, such that two aliased accesses to the same physical memory need no aliasing barrier when the accesses are in two different **ExecuteCommandLists** invocations. 
 

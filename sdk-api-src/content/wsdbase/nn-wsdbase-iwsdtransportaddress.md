@@ -1,9 +1,10 @@
 ---
 UID: NN:wsdbase.IWSDTransportAddress
 title: IWSDTransportAddress (wsdbase.h)
-description: Represents an IP-based transport address.helpviewer_keywords: ["IWSDTransportAddress","IWSDTransportAddress interface","IWSDTransportAddress interface","described","ncd.iwsdtransportaddress","wsdbase/IWSDTransportAddress"]
+description: Represents an IP-based transport address.
+helpviewer_keywords: ["IWSDTransportAddress","IWSDTransportAddress interface","IWSDTransportAddress interface","described","ncd.iwsdtransportaddress","wsdbase/IWSDTransportAddress"]
 old-location: ncd\iwsdtransportaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress

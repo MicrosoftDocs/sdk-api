@@ -1,9 +1,10 @@
 ---
 UID: NS:setupapi._SOURCE_MEDIA_A
 title: SOURCE_MEDIA_A (setupapi.h)
-description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.helpviewer_keywords: ["*PSOURCE_MEDIA_A","PSOURCE_MEDIA","PSOURCE_MEDIA structure pointer [Setup API]","SOURCE_MEDIA","SOURCE_MEDIA structure [Setup API]","SOURCE_MEDIA_A","_setupapi_source_media_str","setup.source_media_str","setupapi/PSOURCE_MEDIA","setupapi/SOURCE_MEDIA"]
+description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
+helpviewer_keywords: ["*PSOURCE_MEDIA_A","PSOURCE_MEDIA","PSOURCE_MEDIA structure pointer [Setup API]","SOURCE_MEDIA","SOURCE_MEDIA structure [Setup API]","SOURCE_MEDIA_A","_setupapi_source_media_str","setup.source_media_str","setupapi/PSOURCE_MEDIA","setupapi/SOURCE_MEDIA"]
 old-location: setup\source_media_str.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.date: 12/05/2018
 ms.keywords: '*PSOURCE_MEDIA_A, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_A, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA'
@@ -135,4 +136,9 @@ Do not offer the user the option to browse.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SOURCE_MEDIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

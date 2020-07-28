@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IETFilter.SetRecordingOn
 title: IETFilter::SetRecordingOn (encdec.h)
-description: The SetRecordingOn method signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.helpviewer_keywords: ["IETFilter interface [Microsoft TV Technologies]","SetRecordingOn method","IETFilter.SetRecordingOn","IETFilter::SetRecordingOn","IETFilterSetRecordingOn","SetRecordingOn","SetRecordingOn method [Microsoft TV Technologies]","SetRecordingOn method [Microsoft TV Technologies]","IETFilter interface","encdec/IETFilter::SetRecordingOn","mstv.ietfilter_setrecordingon"]
+description: The SetRecordingOn method signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
+helpviewer_keywords: ["IETFilter interface [Microsoft TV Technologies]","SetRecordingOn method","IETFilter.SetRecordingOn","IETFilter::SetRecordingOn","IETFilterSetRecordingOn","SetRecordingOn","SetRecordingOn method [Microsoft TV Technologies]","SetRecordingOn method [Microsoft TV Technologies]","IETFilter interface","encdec/IETFilter::SetRecordingOn","mstv.ietfilter_setrecordingon"]
 old-location: mstv\ietfilter_setrecordingon.htm
 tech.root: mstv
 ms.assetid: 4579b897-8b68-4b95-8dd4-e5fd94195742

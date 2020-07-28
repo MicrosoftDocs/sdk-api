@@ -1,9 +1,10 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.ReleaseAddress
 title: IMcastAddressAllocation::ReleaseAddress (mdhcp.h)
-description: The ReleaseAddress method releases a lease that was obtained previously.helpviewer_keywords: ["IMcastAddressAllocation interface [TAPI 2.2]","ReleaseAddress method","IMcastAddressAllocation.ReleaseAddress","IMcastAddressAllocation::ReleaseAddress","ReleaseAddress","ReleaseAddress method [TAPI 2.2]","ReleaseAddress method [TAPI 2.2]","IMcastAddressAllocation interface","_tapi3_imcastaddressallocation_releaseaddress","mdhcp/IMcastAddressAllocation::ReleaseAddress","tapi3.imcastaddressallocation_releaseaddress"]
+description: The ReleaseAddress method releases a lease that was obtained previously.
+helpviewer_keywords: ["IMcastAddressAllocation interface [TAPI 2.2]","ReleaseAddress method","IMcastAddressAllocation.ReleaseAddress","IMcastAddressAllocation::ReleaseAddress","ReleaseAddress","ReleaseAddress method [TAPI 2.2]","ReleaseAddress method [TAPI 2.2]","IMcastAddressAllocation interface","_tapi3_imcastaddressallocation_releaseaddress","mdhcp/IMcastAddressAllocation::ReleaseAddress","tapi3.imcastaddressallocation_releaseaddress"]
 old-location: tapi3\imcastaddressallocation_releaseaddress.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6b5fd18b-1b13-4e2a-9ff9-4a66212213a7
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],ReleaseAddress method, IMcastAddressAllocation.ReleaseAddress, IMcastAddressAllocation::ReleaseAddress, ReleaseAddress, ReleaseAddress method [TAPI 2.2], ReleaseAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_releaseaddress, mdhcp/IMcastAddressAllocation::ReleaseAddress, tapi3.imcastaddressallocation_releaseaddress

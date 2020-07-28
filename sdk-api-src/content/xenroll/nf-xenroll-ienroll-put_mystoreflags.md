@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreFlags
 title: IEnroll::put_MyStoreFlags (xenroll.h)
-description: Sets or retrieves the registry location used for the MY store.helpviewer_keywords: ["IEnroll interface [Security]","MyStoreFlags property","IEnroll.MyStoreFlags","IEnroll.put_MyStoreFlags","IEnroll::MyStoreFlags","IEnroll::get_MyStoreFlags","IEnroll::put_MyStoreFlags","MyStoreFlags property [Security]","MyStoreFlags property [Security]","IEnroll interface","put_MyStoreFlags","security.ienroll4_mystoreflags","xenroll/IEnroll::MyStoreFlags","xenroll/IEnroll::get_MyStoreFlags","xenroll/IEnroll::put_MyStoreFlags"]
+description: Sets or retrieves the registry location used for the MY store.
+helpviewer_keywords: ["IEnroll interface [Security]","MyStoreFlags property","IEnroll.MyStoreFlags","IEnroll.put_MyStoreFlags","IEnroll::MyStoreFlags","IEnroll::get_MyStoreFlags","IEnroll::put_MyStoreFlags","MyStoreFlags property [Security]","MyStoreFlags property [Security]","IEnroll interface","put_MyStoreFlags","security.ienroll4_mystoreflags","xenroll/IEnroll::MyStoreFlags","xenroll/IEnroll::get_MyStoreFlags","xenroll/IEnroll::put_MyStoreFlags"]
 old-location: security\ienroll4_mystoreflags.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e545920a-0c39-49bb-90cc-87039d2e2cfd
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreFlags property, IEnroll.MyStoreFlags, IEnroll.put_MyStoreFlags, IEnroll::MyStoreFlags, IEnroll::get_MyStoreFlags, IEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],IEnroll interface, put_MyStoreFlags, security.ienroll4_mystoreflags, xenroll/IEnroll::MyStoreFlags, xenroll/IEnroll::get_MyStoreFlags, xenroll/IEnroll::put_MyStoreFlags

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFileSinkFilter2.SetMode
 title: IFileSinkFilter2::SetMode (strmif.h)
-description: The SetMode method determines whether the file writer destroys the file when it creates the new one.helpviewer_keywords: ["IFileSinkFilter2 interface [DirectShow]","SetMode method","IFileSinkFilter2.SetMode","IFileSinkFilter2::SetMode","IFileSinkFilter2SetMode","SetMode","SetMode method [DirectShow]","SetMode method [DirectShow]","IFileSinkFilter2 interface","dshow.ifilesinkfilter2_setmode","strmif/IFileSinkFilter2::SetMode"]
+description: The SetMode method determines whether the file writer destroys the file when it creates the new one.
+helpviewer_keywords: ["IFileSinkFilter2 interface [DirectShow]","SetMode method","IFileSinkFilter2.SetMode","IFileSinkFilter2::SetMode","IFileSinkFilter2SetMode","SetMode","SetMode method [DirectShow]","SetMode method [DirectShow]","IFileSinkFilter2 interface","dshow.ifilesinkfilter2_setmode","strmif/IFileSinkFilter2::SetMode"]
 old-location: dshow\ifilesinkfilter2_setmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a32ae597-1468-4ac8-ae7b-8831d2a9ad6e
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter2 interface [DirectShow],SetMode method, IFileSinkFilter2.SetMode, IFileSinkFilter2::SetMode, IFileSinkFilter2SetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IFileSinkFilter2 interface, dshow.ifilesinkfilter2_setmode, strmif/IFileSinkFilter2::SetMode

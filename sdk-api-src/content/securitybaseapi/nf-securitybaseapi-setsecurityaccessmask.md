@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.SetSecurityAccessMask
 title: SetSecurityAccessMask function (securitybaseapi.h)
-description: Creates an access mask that represents the access permissions necessary to set the specified object security information.helpviewer_keywords: ["SetSecurityAccessMask","SetSecurityAccessMask function [Security]","security.setsecurityaccessmask","securitybaseapi/SetSecurityAccessMask","winbase/SetSecurityAccessMask"]
+description: Creates an access mask that represents the access permissions necessary to set the specified object security information.
+helpviewer_keywords: ["SetSecurityAccessMask","SetSecurityAccessMask function [Security]","security.setsecurityaccessmask","securitybaseapi/SetSecurityAccessMask","winbase/SetSecurityAccessMask"]
 old-location: security\setsecurityaccessmask.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
 ms.date: 12/05/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineTranslateAddressA
 title: lineTranslateAddressA function (tapi.h)
-description: The lineTranslateAddress function translates the specified address into another format.helpviewer_keywords: ["_tapi2_linetranslateaddress","lineTranslateAddress","lineTranslateAddress function [TAPI 2.2]","lineTranslateAddressA","lineTranslateAddressW","tapi/lineTranslateAddress","tapi/lineTranslateAddressA","tapi/lineTranslateAddressW","tapi2.linetranslateaddress"]
+description: The lineTranslateAddress function translates the specified address into another format.
+helpviewer_keywords: ["_tapi2_linetranslateaddress","lineTranslateAddress","lineTranslateAddress function [TAPI 2.2]","lineTranslateAddressA","lineTranslateAddressW","tapi/lineTranslateAddress","tapi/lineTranslateAddressA","tapi/lineTranslateAddressW","tapi2.linetranslateaddress"]
 old-location: tapi2\linetranslateaddress.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0347d526-9596-4b42-8075-07318bf39634
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress
@@ -159,4 +160,9 @@ LINEERR_BADDEVICEID, LINEERR_INVALPOINTER, LINEERR_INCOMPATIBLEAPIVERSION, LINEE
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The tapi.h header defines lineTranslateAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

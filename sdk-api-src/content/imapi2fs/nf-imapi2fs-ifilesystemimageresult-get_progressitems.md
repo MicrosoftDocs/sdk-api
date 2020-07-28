@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ProgressItems
 title: IFileSystemImageResult::get_ProgressItems (imapi2fs.h)
-description: Retrieves the progress item block mapping collection.helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_ProgressItems method","IFileSystemImageResult.get_ProgressItems","IFileSystemImageResult::get_ProgressItems","get_ProgressItems","get_ProgressItems method [IMAPI]","get_ProgressItems method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_progressitems","imapi2fs/IFileSystemImageResult::get_ProgressItems"]
+description: Retrieves the progress item block mapping collection.
+helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_ProgressItems method","IFileSystemImageResult.get_ProgressItems","IFileSystemImageResult::get_ProgressItems","get_ProgressItems","get_ProgressItems method [IMAPI]","get_ProgressItems method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_progressitems","imapi2fs/IFileSystemImageResult::get_ProgressItems"]
 old-location: imapi\ifilesystemimageresult_get_progressitems.htm
 tech.root: imapi
 ms.assetid: c4ef572d-7e18-4537-847c-419441befe00

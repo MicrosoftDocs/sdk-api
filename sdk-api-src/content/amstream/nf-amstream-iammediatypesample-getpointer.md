@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetPointer
 title: IAMMediaTypeSample::GetPointer (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetPointer method retrieves a read/write pointer to the buffer's memory.helpviewer_keywords: ["GetPointer","GetPointer method [DirectShow]","GetPointer method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetPointer method","IAMMediaTypeSample.GetPointer","IAMMediaTypeSample::GetPointer","IAMMediaTypeSampleGetPointer","amstream/IAMMediaTypeSample::GetPointer","dshow.iammediatypesample_getpointer"]
+description: Note  This interface is deprecated. New applications should not use it. The GetPointer method retrieves a read/write pointer to the buffer's memory.
+helpviewer_keywords: ["GetPointer","GetPointer method [DirectShow]","GetPointer method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetPointer method","IAMMediaTypeSample.GetPointer","IAMMediaTypeSample::GetPointer","IAMMediaTypeSampleGetPointer","amstream/IAMMediaTypeSample::GetPointer","dshow.iammediatypesample_getpointer"]
 old-location: dshow\iammediatypesample_getpointer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e1ca46d8-51d6-4dd5-bbcc-463acf53420c
 ms.date: 12/05/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetPointer method, IAMMediaTypeSample.GetPointer, IAMMediaTypeSample::GetPointer, IAMMediaTypeSampleGetPointer, amstream/IAMMediaTypeSample::GetPointer, dshow.iammediatypesample_getpointer

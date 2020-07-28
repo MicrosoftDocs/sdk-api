@@ -1,7 +1,8 @@
 ---
 UID: NE:directxcollision.PlaneIntersectionType
 title: PlaneIntersectionType
-description: Indicates whether an object intersects a plane.helpviewer_keywords: ["BACK","FRONT","INTERSECTING","PlaneIntersectionType","PlaneIntersectionType enumeration [DirectX Math Support APIs]","directxcollision/BACK","directxcollision/FRONT","directxcollision/INTERSECTING","directxcollision/PlaneIntersectionType","dxmath.planeintersectiontype"]
+description: Indicates whether an object intersects a plane.
+helpviewer_keywords: ["BACK","FRONT","INTERSECTING","PlaneIntersectionType","PlaneIntersectionType enumeration [DirectX Math Support APIs]","directxcollision/BACK","directxcollision/FRONT","directxcollision/INTERSECTING","directxcollision/PlaneIntersectionType","dxmath.planeintersectiontype"]
 old-location: dxmath\planeintersectiontype.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.PlaneIntersectionType

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspInformations.GetEncryptionCspAlgorithms
 title: ICspInformations::GetEncryptionCspAlgorithms (certenroll.h)
-description: Retrieves the collection of encryption algorithms supported by a provider.helpviewer_keywords: ["GetEncryptionCspAlgorithms","GetEncryptionCspAlgorithms method [Security]","GetEncryptionCspAlgorithms method [Security]","ICspInformations interface","ICspInformations interface [Security]","GetEncryptionCspAlgorithms method","ICspInformations.GetEncryptionCspAlgorithms","ICspInformations::GetEncryptionCspAlgorithms","certenroll/ICspInformations::GetEncryptionCspAlgorithms","security.icspinformations_getencryptioncspalgorithms_method"]
+description: Retrieves the collection of encryption algorithms supported by a provider.
+helpviewer_keywords: ["GetEncryptionCspAlgorithms","GetEncryptionCspAlgorithms method [Security]","GetEncryptionCspAlgorithms method [Security]","ICspInformations interface","ICspInformations interface [Security]","GetEncryptionCspAlgorithms method","ICspInformations.GetEncryptionCspAlgorithms","ICspInformations::GetEncryptionCspAlgorithms","certenroll/ICspInformations::GetEncryptionCspAlgorithms","security.icspinformations_getencryptioncspalgorithms_method"]
 old-location: security\icspinformations_getencryptioncspalgorithms_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 85d2507c-0d0c-47a3-beb9-62af42b3ca3f
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionCspAlgorithms, GetEncryptionCspAlgorithms method [Security], GetEncryptionCspAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetEncryptionCspAlgorithms method, ICspInformations.GetEncryptionCspAlgorithms, ICspInformations::GetEncryptionCspAlgorithms, certenroll/ICspInformations::GetEncryptionCspAlgorithms, security.icspinformations_getencryptioncspalgorithms_method

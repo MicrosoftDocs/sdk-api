@@ -1,9 +1,10 @@
 ---
 UID: NN:evr.IMFDesiredSample
 title: IMFDesiredSample (evr.h)
-description: Enables the presenter for the enhanced video renderer (EVR) to request a specific frame from the video mixer.helpviewer_keywords: ["373c076c-6329-4332-9f07-f18a01197659","IMFDesiredSample","IMFDesiredSample interface [Media Foundation]","IMFDesiredSample interface [Media Foundation]","described","evr/IMFDesiredSample","mf.imfdesiredsample"]
+description: Enables the presenter for the enhanced video renderer (EVR) to request a specific frame from the video mixer.
+helpviewer_keywords: ["373c076c-6329-4332-9f07-f18a01197659","IMFDesiredSample","IMFDesiredSample interface [Media Foundation]","IMFDesiredSample interface [Media Foundation]","described","evr/IMFDesiredSample","mf.imfdesiredsample"]
 old-location: mf\imfdesiredsample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 373c076c-6329-4332-9f07-f18a01197659
 ms.date: 12/05/2018
 ms.keywords: 373c076c-6329-4332-9f07-f18a01197659, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], IMFDesiredSample interface [Media Foundation],described, evr/IMFDesiredSample, mf.imfdesiredsample

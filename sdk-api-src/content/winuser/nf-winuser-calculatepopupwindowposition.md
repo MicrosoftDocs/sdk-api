@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CalculatePopupWindowPosition
 title: CalculatePopupWindowPosition function (winuser.h)
-description: Calculates an appropriate pop-up window position using the specified anchor point, pop-up window size, flags, and the optional exclude rectangle.helpviewer_keywords: ["CalculatePopupWindowPosition","CalculatePopupWindowPosition function [Windows and Messages]","TPM_BOTTOMALIGN","TPM_CENTERALIGN","TPM_HORIZONTAL","TPM_LEFTALIGN","TPM_RIGHTALIGN","TPM_TOPALIGN","TPM_VCENTERALIGN","TPM_VERTICAL","TPM_WORKAREA","_win32_CalculatePopupWindowPosition","_win32_calculatepopupwindowposition_cpp","winmsg.calculatepopupwindowposition","winui._win32_calculatepopupwindowposition","winuser/CalculatePopupWindowPosition"]
+description: Calculates an appropriate pop-up window position using the specified anchor point, pop-up window size, flags, and the optional exclude rectangle.
+helpviewer_keywords: ["CalculatePopupWindowPosition","CalculatePopupWindowPosition function [Windows and Messages]","TPM_BOTTOMALIGN","TPM_CENTERALIGN","TPM_HORIZONTAL","TPM_LEFTALIGN","TPM_RIGHTALIGN","TPM_TOPALIGN","TPM_VCENTERALIGN","TPM_VERTICAL","TPM_WORKAREA","_win32_CalculatePopupWindowPosition","_win32_calculatepopupwindowposition_cpp","winmsg.calculatepopupwindowposition","winui._win32_calculatepopupwindowposition","winuser/CalculatePopupWindowPosition"]
 old-location: winmsg\calculatepopupwindowposition.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\calculatepopupwindowposition.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.DDiscFormat2EraseEvents
 title: DDiscFormat2EraseEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current erase operation.helpviewer_keywords: ["DDiscFormat2EraseEvents","DDiscFormat2EraseEvents interface [IMAPI]","DDiscFormat2EraseEvents interface [IMAPI]","described","imapi.ddiscformat2eraseevents","imapi2/DDiscFormat2EraseEvents"]
+description: Implement this interface to receive notifications of the current erase operation.
+helpviewer_keywords: ["DDiscFormat2EraseEvents","DDiscFormat2EraseEvents interface [IMAPI]","DDiscFormat2EraseEvents interface [IMAPI]","described","imapi.ddiscformat2eraseevents","imapi2/DDiscFormat2EraseEvents"]
 old-location: imapi\ddiscformat2eraseevents.htm
 tech.root: imapi
 ms.assetid: 0e999859-d409-4fd8-a5da-c43da64bcd8f

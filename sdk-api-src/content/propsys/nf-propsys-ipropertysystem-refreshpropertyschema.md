@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertySystem.RefreshPropertySchema
 title: IPropertySystem::RefreshPropertySchema (propsys.h)
-description: Not supported.helpviewer_keywords: ["IPropertySystem interface [Windows Properties]","RefreshPropertySchema method","IPropertySystem.RefreshPropertySchema","IPropertySystem::RefreshPropertySchema","RefreshPropertySchema","RefreshPropertySchema method [Windows Properties]","RefreshPropertySchema method [Windows Properties]","IPropertySystem interface","properties.IPropertySystem_RefreshPropertySchema","propsys/IPropertySystem::RefreshPropertySchema","shell.IPropertySystem_RefreshPropertySchema","shell_IPropertySystem_RefreshPropertySchema"]
+description: Not supported.
+helpviewer_keywords: ["IPropertySystem interface [Windows Properties]","RefreshPropertySchema method","IPropertySystem.RefreshPropertySchema","IPropertySystem::RefreshPropertySchema","RefreshPropertySchema","RefreshPropertySchema method [Windows Properties]","RefreshPropertySchema method [Windows Properties]","IPropertySystem interface","properties.IPropertySystem_RefreshPropertySchema","propsys/IPropertySystem::RefreshPropertySchema","shell.IPropertySystem_RefreshPropertySchema","shell_IPropertySystem_RefreshPropertySchema"]
 old-location: properties\IPropertySystem_RefreshPropertySchema.htm
 tech.root: properties
 ms.assetid: 9aa0c678-5139-42a4-ac71-deb39dae4129

@@ -1,9 +1,10 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_REGISTRATION
 title: CF_CALLBACK_REGISTRATION (cfapi.h)
-description: The callbacks to be registered by the sync provider.helpviewer_keywords: ["CF_CALLBACK_REGISTRATION","CF_CALLBACK_REGISTRATION structure","cfapi/CF_CALLBACK_REGISTRATION","cloudApi.cf_callback_registration"]
+description: The callbacks to be registered by the sync provider.
+helpviewer_keywords: ["CF_CALLBACK_REGISTRATION","CF_CALLBACK_REGISTRATION structure","cfapi/CF_CALLBACK_REGISTRATION","cloudApi.cf_callback_registration"]
 old-location: cloudapi\cf_callback_registration.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: F1633983-DAB2-4072-AA9E-DC7015E6B988
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi/CF_CALLBACK_REGISTRATION, cloudApi.cf_callback_registration

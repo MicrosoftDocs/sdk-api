@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabSignout
 title: PeerCollabSignout function (p2p.h)
-description: Signs a peer out of a specific type of peer collaboration network presence provider.helpviewer_keywords: ["PeerCollabSignout","PeerCollabSignout function [Peer Networking]","p2p.peercollabsignout","p2p/PeerCollabSignout"]
+description: Signs a peer out of a specific type of peer collaboration network presence provider.
+helpviewer_keywords: ["PeerCollabSignout","PeerCollabSignout function [Peer Networking]","p2p.peercollabsignout","p2p/PeerCollabSignout"]
 old-location: p2p\peercollabsignout.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: aa69a233-6104-47c6-a0b5-378794108623
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout

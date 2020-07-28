@@ -1,9 +1,10 @@
 ---
 UID: NS:p2p.peer_graph_event_data_tag
 title: PEER_GRAPH_EVENT_DATA (p2p.h)
-description: The PEER_GRAPH_EVENT_DATA structure contains data associated with a peer event.helpviewer_keywords: ["*PPEER_GRAPH_EVENT_DATA","PEER_GRAPH_EVENT_DATA","PEER_GRAPH_EVENT_DATA structure [Peer Networking]","PPEER_GRAPH_EVENT_DATA","PPEER_GRAPH_EVENT_DATA structure pointer [Peer Networking]","p2p.peer_graph_event_data","p2p/PPEER_GRAPH_EVENT_DATA","p2p/peer_graph_event_data_tag"]
+description: The PEER_GRAPH_EVENT_DATA structure contains data associated with a peer event.
+helpviewer_keywords: ["*PPEER_GRAPH_EVENT_DATA","PEER_GRAPH_EVENT_DATA","PEER_GRAPH_EVENT_DATA structure [Peer Networking]","PPEER_GRAPH_EVENT_DATA","PPEER_GRAPH_EVENT_DATA structure pointer [Peer Networking]","p2p.peer_graph_event_data","p2p/PPEER_GRAPH_EVENT_DATA","p2p/peer_graph_event_data_tag"]
 old-location: p2p\peer_graph_event_data.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: a052bff8-e90c-4ff7-8362-edb94b130f38
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_GRAPH_EVENT_DATA, PEER_GRAPH_EVENT_DATA, PEER_GRAPH_EVENT_DATA structure [Peer Networking], PPEER_GRAPH_EVENT_DATA, PPEER_GRAPH_EVENT_DATA structure pointer [Peer Networking], p2p.peer_graph_event_data, p2p/PPEER_GRAPH_EVENT_DATA, p2p/peer_graph_event_data_tag'

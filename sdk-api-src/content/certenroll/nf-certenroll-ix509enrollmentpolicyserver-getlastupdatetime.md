@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetLastUpdateTime
 title: IX509EnrollmentPolicyServer::GetLastUpdateTime (certenroll.h)
-description: Retrieves the date and time at which the policy was last downloaded.helpviewer_keywords: ["GetLastUpdateTime","GetLastUpdateTime method [Security]","GetLastUpdateTime method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetLastUpdateTime method","IX509EnrollmentPolicyServer.GetLastUpdateTime","IX509EnrollmentPolicyServer::GetLastUpdateTime","certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime","security.ix509enrollmentpolicyserver_getlastupdatetime"]
+description: Retrieves the date and time at which the policy was last downloaded.
+helpviewer_keywords: ["GetLastUpdateTime","GetLastUpdateTime method [Security]","GetLastUpdateTime method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetLastUpdateTime method","IX509EnrollmentPolicyServer.GetLastUpdateTime","IX509EnrollmentPolicyServer::GetLastUpdateTime","certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime","security.ix509enrollmentpolicyserver_getlastupdatetime"]
 old-location: security\ix509enrollmentpolicyserver_getlastupdatetime.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6f0ec30a-9a93-47f9-8046-8eba6eb3b1da
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdateTime, GetLastUpdateTime method [Security], GetLastUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetLastUpdateTime method, IX509EnrollmentPolicyServer.GetLastUpdateTime, IX509EnrollmentPolicyServer::GetLastUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime, security.ix509enrollmentpolicyserver_getlastupdatetime

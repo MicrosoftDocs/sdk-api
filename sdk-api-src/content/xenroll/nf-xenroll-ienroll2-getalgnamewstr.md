@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll2.GetAlgNameWStr
 title: IEnroll2::GetAlgNameWStr (xenroll.h)
-description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP).helpviewer_keywords: ["GetAlgNameWStr","GetAlgNameWStr method [Security]","GetAlgNameWStr method [Security]","IEnroll2 interface","IEnroll2 interface [Security]","GetAlgNameWStr method","IEnroll2.GetAlgNameWStr","IEnroll2::GetAlgNameWStr","security.ienroll4_getalgnamewstr","xenroll/IEnroll2::GetAlgNameWStr"]
+description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP).
+helpviewer_keywords: ["GetAlgNameWStr","GetAlgNameWStr method [Security]","GetAlgNameWStr method [Security]","IEnroll2 interface","IEnroll2 interface [Security]","GetAlgNameWStr method","IEnroll2.GetAlgNameWStr","IEnroll2::GetAlgNameWStr","security.ienroll4_getalgnamewstr","xenroll/IEnroll2::GetAlgNameWStr"]
 old-location: security\ienroll4_getalgnamewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2d628d26-a081-49a2-8fc9-88f014d24a4e
 ms.date: 12/05/2018
 ms.keywords: GetAlgNameWStr, GetAlgNameWStr method [Security], GetAlgNameWStr method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetAlgNameWStr method, IEnroll2.GetAlgNameWStr, IEnroll2::GetAlgNameWStr, security.ienroll4_getalgnamewstr, xenroll/IEnroll2::GetAlgNameWStr

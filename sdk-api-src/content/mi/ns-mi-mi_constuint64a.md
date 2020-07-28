@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ConstUint64A
 title: MI_ConstUint64A (mi.h)
-description: Represents an array of MI_Uint64 types.helpviewer_keywords: ["MI_ConstUint64A","MI_ConstUint64A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstUint64A","wmi._mi_constuint64a","wmi_v2.mi_constuint64a"]
+description: Represents an array of MI_Uint64 types.
+helpviewer_keywords: ["MI_ConstUint64A","MI_ConstUint64A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstUint64A","wmi._mi_constuint64a","wmi_v2.mi_constuint64a"]
 old-location: wmi_v2\mi_constuint64a.htm
 tech.root: wmi_v2
 ms.assetid: 6363509d-2389-496b-ae8e-7ef6cd4af6ab

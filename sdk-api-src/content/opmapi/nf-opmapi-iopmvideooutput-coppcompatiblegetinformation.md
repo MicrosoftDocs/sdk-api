@@ -1,9 +1,10 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.COPPCompatibleGetInformation
 title: IOPMVideoOutput::COPPCompatibleGetInformation (opmapi.h)
-description: Sends an Output Protection Manager (OPM) status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).helpviewer_keywords: ["COPPCompatibleGetInformation","COPPCompatibleGetInformation method [Media Foundation]","COPPCompatibleGetInformation method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","COPPCompatibleGetInformation method","IOPMVideoOutput.COPPCompatibleGetInformation","IOPMVideoOutput::COPPCompatibleGetInformation","mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation","opmapi/IOPMVideoOutput::COPPCompatibleGetInformation"]
+description: Sends an Output Protection Manager (OPM) status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).
+helpviewer_keywords: ["COPPCompatibleGetInformation","COPPCompatibleGetInformation method [Media Foundation]","COPPCompatibleGetInformation method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","COPPCompatibleGetInformation method","IOPMVideoOutput.COPPCompatibleGetInformation","IOPMVideoOutput::COPPCompatibleGetInformation","mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation","opmapi/IOPMVideoOutput::COPPCompatibleGetInformation"]
 old-location: mf\iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 46c0c426-9730-4a0e-ab95-03b240bd55f0
 ms.date: 12/05/2018
 ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [Media Foundation], COPPCompatibleGetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],COPPCompatibleGetInformation method, IOPMVideoOutput.COPPCompatibleGetInformation, IOPMVideoOutput::COPPCompatibleGetInformation, mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation, opmapi/IOPMVideoOutput::COPPCompatibleGetInformation

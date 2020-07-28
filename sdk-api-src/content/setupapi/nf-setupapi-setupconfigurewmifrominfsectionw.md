@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupConfigureWmiFromInfSectionW
 title: SetupConfigureWmiFromInfSectionW function (setupapi.h)
-description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section.helpviewer_keywords: ["SCWMI_CLOBBER_SECURITY","SetupConfigureWmiFromInfSection","SetupConfigureWmiFromInfSection function [Setup API]","SetupConfigureWmiFromInfSectionA","SetupConfigureWmiFromInfSectionW","_setupapi_setupuninstalloeminf","setup.setupconfigurewmifrominfsection","setupapi/SetupConfigureWmiFromInfSection","setupapi/SetupConfigureWmiFromInfSectionA","setupapi/SetupConfigureWmiFromInfSectionW"]
+description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section.
+helpviewer_keywords: ["SCWMI_CLOBBER_SECURITY","SetupConfigureWmiFromInfSection","SetupConfigureWmiFromInfSection function [Setup API]","SetupConfigureWmiFromInfSectionA","SetupConfigureWmiFromInfSectionW","_setupapi_setupuninstalloeminf","setup.setupconfigurewmifrominfsection","setupapi/SetupConfigureWmiFromInfSection","setupapi/SetupConfigureWmiFromInfSectionA","setupapi/SetupConfigureWmiFromInfSectionW"]
 old-location: setup\setupconfigurewmifrominfsection.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
 ms.date: 12/05/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
@@ -115,6 +116,10 @@ In previous SetupAPI versions, WMI information in INF files is exposed to all us
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupConfigureWmiFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

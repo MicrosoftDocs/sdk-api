@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetComponent
 title: IVssWriterComponents::GetComponent (vswriter.h)
-description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.helpviewer_keywords: ["GetComponent","GetComponent method [VSS]","GetComponent method [VSS]","IVssWriterComponents interface","IVssWriterComponents interface [VSS]","GetComponent method","IVssWriterComponents.GetComponent","IVssWriterComponents::GetComponent","_win32_ivsswritercomponents_getcomponent","base.ivsswritercomponents_getcomponent","vswriter/IVssWriterComponents::GetComponent"]
+description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.
+helpviewer_keywords: ["GetComponent","GetComponent method [VSS]","GetComponent method [VSS]","IVssWriterComponents interface","IVssWriterComponents interface [VSS]","GetComponent method","IVssWriterComponents.GetComponent","IVssWriterComponents::GetComponent","_win32_ivsswritercomponents_getcomponent","base.ivsswritercomponents_getcomponent","vswriter/IVssWriterComponents::GetComponent"]
 old-location: base\ivsswritercomponents_getcomponent.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
 ms.date: 12/05/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponent method, IVssWriterComponents.GetComponent, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent

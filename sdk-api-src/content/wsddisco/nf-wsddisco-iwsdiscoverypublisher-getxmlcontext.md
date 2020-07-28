@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.GetXMLContext
 title: IWSDiscoveryPublisher::GetXMLContext (wsddisco.h)
-description: Gets the XML context associated with the device.helpviewer_keywords: ["GetXMLContext","GetXMLContext method","GetXMLContext method","IWSDiscoveryPublisher interface","IWSDiscoveryPublisher interface","GetXMLContext method","IWSDiscoveryPublisher.GetXMLContext","IWSDiscoveryPublisher::GetXMLContext","ncd.iwsdiscoverypublisher_getxmlcontext","wsddisco/IWSDiscoveryPublisher::GetXMLContext"]
+description: Gets the XML context associated with the device.
+helpviewer_keywords: ["GetXMLContext","GetXMLContext method","GetXMLContext method","IWSDiscoveryPublisher interface","IWSDiscoveryPublisher interface","GetXMLContext method","IWSDiscoveryPublisher.GetXMLContext","IWSDiscoveryPublisher::GetXMLContext","ncd.iwsdiscoverypublisher_getxmlcontext","wsddisco/IWSDiscoveryPublisher::GetXMLContext"]
 old-location: ncd\iwsdiscoverypublisher_getxmlcontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9b849b17-0597-4e78-88c6-8ee95bcb754c
 ms.date: 12/05/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,GetXMLContext method, IWSDiscoveryPublisher.GetXMLContext, IWSDiscoveryPublisher::GetXMLContext, ncd.iwsdiscoverypublisher_getxmlcontext, wsddisco/IWSDiscoveryPublisher::GetXMLContext

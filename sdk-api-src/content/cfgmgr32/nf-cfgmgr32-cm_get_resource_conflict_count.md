@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Resource_Conflict_Count
 title: CM_Get_Resource_Conflict_Count function (cfgmgr32.h)
-description: The CM_Get_Resource_Conflict_Count function obtains the number of conflicts contained in a specified resource conflict list.helpviewer_keywords: ["CM_Get_Resource_Conflict_Count","CM_Get_Resource_Conflict_Count function [Device and Driver Installation]","cfgmgr32/CM_Get_Resource_Conflict_Count","cfgmgrfn_ac18aaca-cd62-4629-a29e-c717b293e8c9.xml","devinst.cm_get_resource_conflict_count"]
+description: The CM_Get_Resource_Conflict_Count function obtains the number of conflicts contained in a specified resource conflict list.
+helpviewer_keywords: ["CM_Get_Resource_Conflict_Count","CM_Get_Resource_Conflict_Count function [Device and Driver Installation]","cfgmgr32/CM_Get_Resource_Conflict_Count","cfgmgrfn_ac18aaca-cd62-4629-a29e-c717b293e8c9.xml","devinst.cm_get_resource_conflict_count"]
 old-location: devinst\cm_get_resource_conflict_count.htm
 tech.root: devinst
 ms.assetid: 758fbc4c-499f-492d-b64d-f80b1fc7ee25

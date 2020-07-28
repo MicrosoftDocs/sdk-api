@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_OUTPUT
 title: FSCTL_QUERY_REGION_INFO_OUTPUT
-description: Contains information for one or more regions.helpviewer_keywords: ["*PFSCTL_QUERY_REGION_INFO_OUTPUT","FSCTL_QUERY_REGION_INFO_OUTPUT","FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files]","PFSCTL_QUERY_REGION_INFO_OUTPUT","PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files]","fs.fsctl_query_region_info_output","winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT","winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT"]
+description: Contains information for one or more regions.
+helpviewer_keywords: ["*PFSCTL_QUERY_REGION_INFO_OUTPUT","FSCTL_QUERY_REGION_INFO_OUTPUT","FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files]","PFSCTL_QUERY_REGION_INFO_OUTPUT","PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files]","fs.fsctl_query_region_info_output","winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT","winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT"]
 old-location: fs\fsctl_query_region_info_output.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4DF96C7E-9BC3-4EB8-95AD-3E46DA1C435F
 ms.date: 12/05/2018
 ms.keywords: '*PFSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files], PFSCTL_QUERY_REGION_INFO_OUTPUT, PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files], fs.fsctl_query_region_info_output, winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT, winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT'

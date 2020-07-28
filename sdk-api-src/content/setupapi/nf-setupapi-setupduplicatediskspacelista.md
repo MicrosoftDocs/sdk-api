@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupDuplicateDiskSpaceListA
 title: SetupDuplicateDiskSpaceListA function (setupapi.h)
-description: The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list.helpviewer_keywords: ["SetupDuplicateDiskSpaceList","SetupDuplicateDiskSpaceList function [Setup API]","SetupDuplicateDiskSpaceListA","SetupDuplicateDiskSpaceListW","setup.setupduplicatediskspacelist","setupapi/SetupDuplicateDiskSpaceList","setupapi/SetupDuplicateDiskSpaceListA","setupapi/SetupDuplicateDiskSpaceListW"]
+description: The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list.
+helpviewer_keywords: ["SetupDuplicateDiskSpaceList","SetupDuplicateDiskSpaceList function [Setup API]","SetupDuplicateDiskSpaceListA","SetupDuplicateDiskSpaceListW","setup.setupduplicatediskspacelist","setupapi/SetupDuplicateDiskSpaceList","setupapi/SetupDuplicateDiskSpaceListA","setupapi/SetupDuplicateDiskSpaceListW"]
 old-location: setup\setupduplicatediskspacelist.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 92d18c15-e8e2-4e89-8d2f-7c87c948603f
 ms.date: 12/05/2018
 ms.keywords: SetupDuplicateDiskSpaceList, SetupDuplicateDiskSpaceList function [Setup API], SetupDuplicateDiskSpaceListA, SetupDuplicateDiskSpaceListW, setup.setupduplicatediskspacelist, setupapi/SetupDuplicateDiskSpaceList, setupapi/SetupDuplicateDiskSpaceListA, setupapi/SetupDuplicateDiskSpaceListW
@@ -106,4 +107,9 @@ If the function fails, it returns null. To get extended error information, call
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDuplicateDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

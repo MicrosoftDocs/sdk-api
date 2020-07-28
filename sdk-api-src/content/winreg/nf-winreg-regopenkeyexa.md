@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegOpenKeyExA
 title: RegOpenKeyExA function (winreg.h)
-description: Opens the specified registry key. Note that key names are not case sensitive.helpviewer_keywords: ["REG_OPTION_OPEN_LINK","RegOpenKeyEx","RegOpenKeyEx function","RegOpenKeyExA","RegOpenKeyExW","_win32_regopenkeyex","base.regopenkeyex","winreg/RegOpenKeyEx","winreg/RegOpenKeyExA","winreg/RegOpenKeyExW"]
+description: Opens the specified registry key. Note that key names are not case sensitive.
+helpviewer_keywords: ["REG_OPTION_OPEN_LINK","RegOpenKeyEx","RegOpenKeyEx function","RegOpenKeyExA","RegOpenKeyExW","_win32_regopenkeyex","base.regopenkeyex","winreg/RegOpenKeyEx","winreg/RegOpenKeyExA","winreg/RegOpenKeyExW"]
 old-location: base\regopenkeyex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: c8a590f2-3249-437f-a320-c7443d42b792
 ms.date: 12/05/2018
 ms.keywords: REG_OPTION_OPEN_LINK, RegOpenKeyEx, RegOpenKeyEx function, RegOpenKeyExA, RegOpenKeyExW, _win32_regopenkeyex, base.regopenkeyex, winreg/RegOpenKeyEx, winreg/RegOpenKeyExA, winreg/RegOpenKeyExW
@@ -42,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegOpenKeyEx
 - RegOpenKeyExA
@@ -142,7 +144,8 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 
 ## -remarks
@@ -168,6 +171,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegOpenKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

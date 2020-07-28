@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup::GetProperty (casetup.h)
 description: Retrieves a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 helpviewer_keywords: ["GetProperty","GetProperty method [Security]","GetProperty method [Security]","ICertificateEnrollmentServerSetup interface","ICertificateEnrollmentServerSetup interface [Security]","GetProperty method","ICertificateEnrollmentServerSetup.GetProperty","ICertificateEnrollmentServerSetup::GetProperty","casetup/ICertificateEnrollmentServerSetup::GetProperty","security.icertificateenrollmentserversetup_getproperty"]
 old-location: security\icertificateenrollmentserversetup_getproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4B380551-742C-4D36-80C9-C92F62F916BB
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],GetProperty method, ICertificateEnrollmentServerSetup.GetProperty, ICertificateEnrollmentServerSetup::GetProperty, casetup/ICertificateEnrollmentServerSetup::GetProperty, security.icertificateenrollmentserversetup_getproperty

@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerPnrpRegister
 title: PeerPnrpRegister function (p2p.h)
-description: Registers a peer with a PNRP cloud and returns a handle that can be used for registration updates.helpviewer_keywords: ["PeerPnrpRegister","PeerPnrpRegister function [Peer Networking]","p2p.peerpnrpregister","p2p/PeerPnrpRegister"]
+description: Registers a peer with a PNRP cloud and returns a handle that can be used for registration updates.
+helpviewer_keywords: ["PeerPnrpRegister","PeerPnrpRegister function [Peer Networking]","p2p.peerpnrpregister","p2p/PeerPnrpRegister"]
 old-location: p2p\peerpnrpregister.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 18c26779-f50d-43bd-a772-763ceba25da8
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpRegister, PeerPnrpRegister function [Peer Networking], p2p.peerpnrpregister, p2p/PeerPnrpRegister

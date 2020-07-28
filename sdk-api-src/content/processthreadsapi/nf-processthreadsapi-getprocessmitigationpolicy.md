@@ -4,10 +4,10 @@ title: GetProcessMitigationPolicy function (processthreadsapi.h)
 description: Retrieves mitigation policy settings for the calling process.
 helpviewer_keywords: ["GetProcessMitigationPolicy","GetProcessMitigationPolicy function","ProcessASLRPolicy","ProcessControlFlowGuardPolicy","ProcessDEPPolicy","ProcessDynamicCodePolicy","ProcessExtensionPointDisablePolicy","ProcessFontDisablePolicy","ProcessImageLoadPolicy","ProcessMitigationOptionsMask","ProcessSideChannelIsolationPolicy","ProcessSignaturePolicy","ProcessStrictHandleCheckPolicy","ProcessSystemCallDisablePolicy","base.getprocessmitigationpolicy","processthreadsapi/GetProcessMitigationPolicy"]
 old-location: base\getprocessmitigationpolicy.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.date: 12/05/2018
-ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
+ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
 f1_keywords:
 - processthreadsapi/GetProcessMitigationPolicy
 dev_langs:
@@ -218,7 +218,21 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 Windows 10, version 1809 and above: The policy regarding isolation of side channels for the specified process.
 
 
-The <i>lpBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Mt832784(v=VS.85).aspx">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a>structure that specifies the policy flags for side channel isolation.
+The <i>lpBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Mt832784(v=VS.85).aspx">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a> structure that specifies the policy flags for side channel isolation.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ProcessUserShadowStackPolicy"></a><a id="processusershadowstackpolicy"></a><a id="PROCESSUSERSHADOWSTACKPOLICY"></a><dl>
+<dt><b>ProcessUserShadowStackPolicy</b></dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10, version 2004 and above: The policy regarding user-mode Hardware-enforced Stack Protection for the specified process.
+
+
+The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that specifies the policy flags for user-mode Hardware-enforced Stack Protection.
 
 
 </td>
@@ -250,6 +264,8 @@ If the <i>MitigationPolicy</i> parameter is <b>ProcessSignaturePolicy</b>, this 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessFontDisablePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that receives the policy flags for font loading.
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that receives the policy flags for image loading.
+
+If the <i>MitigationPolicy</i> parameter is <b>ProcessUserShadowStackPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that receives the policy flags for user-mode Hardware-enforced Stack Protection.
 
 
 ### -param dwLength [in]

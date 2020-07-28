@@ -1,9 +1,10 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesUserType
 title: AutomaticUpdatesUserType (wuapi.h)
-description: Defines the type of user.helpviewer_keywords: ["AutomaticUpdatesUserType","AutomaticUpdatesUserType enumeration [Windows Update Agent]","auutCurrentUser","auutLocalAdministrator","wua.automaticupdatesusertype","wuapi/AutomaticUpdatesUserType","wuapi/auutCurrentUser","wuapi/auutLocalAdministrator"]
+description: Defines the type of user.
+helpviewer_keywords: ["AutomaticUpdatesUserType","AutomaticUpdatesUserType enumeration [Windows Update Agent]","auutCurrentUser","auutLocalAdministrator","wua.automaticupdatesusertype","wuapi/AutomaticUpdatesUserType","wuapi/auutCurrentUser","wuapi/auutLocalAdministrator"]
 old-location: wua\automaticupdatesusertype.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: e18c7aa0-111b-4209-bc7f-e533a26d684c
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesUserType, AutomaticUpdatesUserType enumeration [Windows Update Agent], auutCurrentUser, auutLocalAdministrator, wua.automaticupdatesusertype, wuapi/AutomaticUpdatesUserType, wuapi/auutCurrentUser, wuapi/auutLocalAdministrator

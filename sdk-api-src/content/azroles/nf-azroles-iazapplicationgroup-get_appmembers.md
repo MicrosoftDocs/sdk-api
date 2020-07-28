@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_AppMembers
 title: IAzApplicationGroup::get_AppMembers (azroles.h)
-description: Retrieves the application groups that belong to this application group.helpviewer_keywords: ["AppMembers property [Security]","AppMembers property [Security]","AzApplicationGroup object","AppMembers property [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AppMembers property","IAzApplicationGroup interface [Security]","AppMembers property","IAzApplicationGroup.AppMembers","IAzApplicationGroup.get_AppMembers","IAzApplicationGroup::AppMembers","IAzApplicationGroup::get_AppMembers","azroles/IAzApplicationGroup::AppMembers","azroles/IAzApplicationGroup::get_AppMembers","get_AppMembers","security.iazapplicationgroup_appmembers"]
+description: Retrieves the application groups that belong to this application group.
+helpviewer_keywords: ["AppMembers property [Security]","AppMembers property [Security]","AzApplicationGroup object","AppMembers property [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AppMembers property","IAzApplicationGroup interface [Security]","AppMembers property","IAzApplicationGroup.AppMembers","IAzApplicationGroup.get_AppMembers","IAzApplicationGroup::AppMembers","IAzApplicationGroup::get_AppMembers","azroles/IAzApplicationGroup::AppMembers","azroles/IAzApplicationGroup::get_AppMembers","get_AppMembers","security.iazapplicationgroup_appmembers"]
 old-location: security\iazapplicationgroup_appmembers.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 74239ac2-b6ea-4839-b4c5-7a77d454aa0b
 ms.date: 12/05/2018
 ms.keywords: AppMembers property [Security], AppMembers property [Security],AzApplicationGroup object, AppMembers property [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AppMembers property, IAzApplicationGroup interface [Security],AppMembers property, IAzApplicationGroup.AppMembers, IAzApplicationGroup.get_AppMembers, IAzApplicationGroup::AppMembers, IAzApplicationGroup::get_AppMembers, azroles/IAzApplicationGroup::AppMembers, azroles/IAzApplicationGroup::get_AppMembers, get_AppMembers, security.iazapplicationgroup_appmembers

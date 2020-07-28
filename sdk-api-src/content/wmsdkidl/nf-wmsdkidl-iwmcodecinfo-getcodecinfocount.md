@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecInfoCount
 title: IWMCodecInfo::GetCodecInfoCount (wmsdkidl.h)
-description: The GetCodecInfoCount method retrieves the number of supported codecs for a specified major type of digital media (audio or video).helpviewer_keywords: ["GetCodecInfoCount","GetCodecInfoCount method [windows Media Format]","GetCodecInfoCount method [windows Media Format]","IWMCodecInfo interface","IWMCodecInfo interface [windows Media Format]","GetCodecInfoCount method","IWMCodecInfo.GetCodecInfoCount","IWMCodecInfo::GetCodecInfoCount","IWMCodecInfoGetCodecInfoCount","wmformat.iwmcodecinfo_getcodecinfocount","wmsdkidl/IWMCodecInfo::GetCodecInfoCount"]
+description: The GetCodecInfoCount method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
+helpviewer_keywords: ["GetCodecInfoCount","GetCodecInfoCount method [windows Media Format]","GetCodecInfoCount method [windows Media Format]","IWMCodecInfo interface","IWMCodecInfo interface [windows Media Format]","GetCodecInfoCount method","IWMCodecInfo.GetCodecInfoCount","IWMCodecInfo::GetCodecInfoCount","IWMCodecInfoGetCodecInfoCount","wmformat.iwmcodecinfo_getcodecinfocount","wmsdkidl/IWMCodecInfo::GetCodecInfoCount"]
 old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
 tech.root: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be

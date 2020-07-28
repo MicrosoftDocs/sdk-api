@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContext.GetEnd
 title: ITfContext::GetEnd (msctf.h)
-description: ITfContext::GetEnd methodhelpviewer_keywords: ["GetEnd","GetEnd method [Text Services Framework]","GetEnd method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetEnd method","ITfContext.GetEnd","ITfContext::GetEnd","_tsf_itfcontext_getend_ref","msctf/ITfContext::GetEnd","tsf.itfcontext_getend"]
+description: ITfContext::GetEnd method
+helpviewer_keywords: ["GetEnd","GetEnd method [Text Services Framework]","GetEnd method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetEnd method","ITfContext.GetEnd","ITfContext::GetEnd","_tsf_itfcontext_getend_ref","msctf/ITfContext::GetEnd","tsf.itfcontext_getend"]
 old-location: tsf\itfcontext_getend.htm
 tech.root: TSF
 ms.assetid: 4fdae76d-ad02-43a4-8a39-418cae847ae8

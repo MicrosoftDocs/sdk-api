@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultOIDDllList
 title: CryptGetDefaultOIDDllList function (wincrypt.h)
-description: The CryptGetDefaultOIDDllList function acquires the list of the names of DLL files that contain registered default object identifier (OID) functions for a specified function set and encoding type.helpviewer_keywords: ["CryptGetDefaultOIDDllList","CryptGetDefaultOIDDllList function [Security]","_crypto2_cryptgetdefaultoiddlllist","security.cryptgetdefaultoiddlllist","wincrypt/CryptGetDefaultOIDDllList"]
+description: The CryptGetDefaultOIDDllList function acquires the list of the names of DLL files that contain registered default object identifier (OID) functions for a specified function set and encoding type.
+helpviewer_keywords: ["CryptGetDefaultOIDDllList","CryptGetDefaultOIDDllList function [Security]","_crypto2_cryptgetdefaultoiddlllist","security.cryptgetdefaultoiddlllist","wincrypt/CryptGetDefaultOIDDllList"]
 old-location: security\cryptgetdefaultoiddlllist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
 ms.date: 12/05/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList

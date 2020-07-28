@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device3.OpenExistingHeapFromFileMapping
 title: ID3D12Device3::OpenExistingHeapFromFileMapping
-description: Creates a special-purpose diagnostic heap in system memory from a file mapping object. The created heap can persist even in the event of a GPU-fault or device-removed scenario.helpviewer_keywords: ["ID3D12Device3::OpenExistingHeapFromFileMapping"]
+description: Creates a special-purpose diagnostic heap in system memory from a file mapping object. The created heap can persist even in the event of a GPU-fault or device-removed scenario.
+helpviewer_keywords: ["ID3D12Device3::OpenExistingHeapFromFileMapping"]
 tech.root: direct3d12
 ms.date: 02/27/2020
 f1_keywords:

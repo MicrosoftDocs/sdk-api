@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.DeleteItems
 title: IOfflineFilesCache::DeleteItems (cscobj.h)
-description: Deletes files and directories from the local cache.helpviewer_keywords: ["DeleteItems","DeleteItems method [Offline Files]","DeleteItems method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","DeleteItems method","IOfflineFilesCache.DeleteItems","IOfflineFilesCache::DeleteItems","OFFLINEFILES_DELETE_FLAG_ADMIN","OFFLINEFILES_DELETE_FLAG_DELMODIFIED","OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED","OFFLINEFILES_DELETE_FLAG_NOPINNED","cscobj/IOfflineFilesCache::DeleteItems","of.iofflinefilescache_deleteitems"]
+description: Deletes files and directories from the local cache.
+helpviewer_keywords: ["DeleteItems","DeleteItems method [Offline Files]","DeleteItems method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","DeleteItems method","IOfflineFilesCache.DeleteItems","IOfflineFilesCache::DeleteItems","OFFLINEFILES_DELETE_FLAG_ADMIN","OFFLINEFILES_DELETE_FLAG_DELMODIFIED","OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED","OFFLINEFILES_DELETE_FLAG_NOPINNED","cscobj/IOfflineFilesCache::DeleteItems","of.iofflinefilescache_deleteitems"]
 old-location: of\iofflinefilescache_deleteitems.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: e6326364-fbd0-4446-97c3-6a3940856efb
 ms.date: 12/05/2018
 ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItems method, IOfflineFilesCache.DeleteItems, IOfflineFilesCache::DeleteItems, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItems, of.iofflinefilescache_deleteitems

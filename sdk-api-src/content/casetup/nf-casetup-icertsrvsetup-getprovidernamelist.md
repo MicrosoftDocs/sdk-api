@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetProviderNameList
 title: ICertSrvSetup::GetProviderNameList (casetup.h)
-description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.helpviewer_keywords: ["GetProviderNameList","GetProviderNameList method [Security]","GetProviderNameList method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","GetProviderNameList method","ICertSrvSetup.GetProviderNameList","ICertSrvSetup::GetProviderNameList","casetup/ICertSrvSetup::GetProviderNameList","security.icertsrvsetup_getprovidernamelist"]
+description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
+helpviewer_keywords: ["GetProviderNameList","GetProviderNameList method [Security]","GetProviderNameList method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","GetProviderNameList method","ICertSrvSetup.GetProviderNameList","ICertSrvSetup::GetProviderNameList","casetup/ICertSrvSetup::GetProviderNameList","security.icertsrvsetup_getprovidernamelist"]
 old-location: security\icertsrvsetup_getprovidernamelist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist

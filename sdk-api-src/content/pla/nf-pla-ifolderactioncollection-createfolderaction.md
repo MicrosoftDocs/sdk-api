@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IFolderActionCollection.CreateFolderAction
 title: IFolderActionCollection::CreateFolderAction (pla.h)
-description: Creates a folder action object.helpviewer_keywords: ["CreateFolderAction","CreateFolderAction method [PLA]","CreateFolderAction method [PLA]","IFolderActionCollection interface","IFolderActionCollection interface [PLA]","CreateFolderAction method","IFolderActionCollection.CreateFolderAction","IFolderActionCollection::CreateFolderAction","pla.ifolderactioncollection_createfolderaction","pla/IFolderActionCollection::CreateFolderAction"]
+description: Creates a folder action object.
+helpviewer_keywords: ["CreateFolderAction","CreateFolderAction method [PLA]","CreateFolderAction method [PLA]","IFolderActionCollection interface","IFolderActionCollection interface [PLA]","CreateFolderAction method","IFolderActionCollection.CreateFolderAction","IFolderActionCollection::CreateFolderAction","pla.ifolderactioncollection_createfolderaction","pla/IFolderActionCollection::CreateFolderAction"]
 old-location: pla\ifolderactioncollection_createfolderaction.htm
 tech.root: PLA
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFilterGraph.FindFilterByName
 title: IFilterGraph::FindFilterByName (strmif.h)
-description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.helpviewer_keywords: ["FindFilterByName","FindFilterByName method [DirectShow]","FindFilterByName method [DirectShow]","IFilterGraph interface","IFilterGraph interface [DirectShow]","FindFilterByName method","IFilterGraph.FindFilterByName","IFilterGraph::FindFilterByName","IFilterGraphFindFilterByName","dshow.ifiltergraph_findfilterbyname","strmif/IFilterGraph::FindFilterByName"]
+description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.
+helpviewer_keywords: ["FindFilterByName","FindFilterByName method [DirectShow]","FindFilterByName method [DirectShow]","IFilterGraph interface","IFilterGraph interface [DirectShow]","FindFilterByName method","IFilterGraph.FindFilterByName","IFilterGraph::FindFilterByName","IFilterGraphFindFilterByName","dshow.ifiltergraph_findfilterbyname","strmif/IFilterGraph::FindFilterByName"]
 old-location: dshow\ifiltergraph_findfilterbyname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 59d90274-ac00-4e19-bcee-2282e26994b5
 ms.date: 12/05/2018
 ms.keywords: FindFilterByName, FindFilterByName method [DirectShow], FindFilterByName method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],FindFilterByName method, IFilterGraph.FindFilterByName, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName

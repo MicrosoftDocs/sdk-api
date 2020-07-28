@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._SHRINK_VOLUME_INFORMATION
 title: SHRINK_VOLUME_INFORMATION
-description: Specifies the volume shrink operation to perform.helpviewer_keywords: ["*PSHRINK_VOLUME_INFORMATION","PSHRINK_VOLUME_INFORMATION","PSHRINK_VOLUME_INFORMATION structure pointer [Files]","SHRINK_VOLUME_INFORMATION","SHRINK_VOLUME_INFORMATION structure [Files]","ShrinkAbort","ShrinkCommit","ShrinkPrepare","fs.shrink_volume_information","winioctl/PSHRINK_VOLUME_INFORMATION","winioctl/SHRINK_VOLUME_INFORMATION"]
+description: Specifies the volume shrink operation to perform.
+helpviewer_keywords: ["*PSHRINK_VOLUME_INFORMATION","PSHRINK_VOLUME_INFORMATION","PSHRINK_VOLUME_INFORMATION structure pointer [Files]","SHRINK_VOLUME_INFORMATION","SHRINK_VOLUME_INFORMATION structure [Files]","ShrinkAbort","ShrinkCommit","ShrinkPrepare","fs.shrink_volume_information","winioctl/PSHRINK_VOLUME_INFORMATION","winioctl/SHRINK_VOLUME_INFORMATION"]
 old-location: fs\shrink_volume_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea
 ms.date: 12/05/2018
 ms.keywords: '*PSHRINK_VOLUME_INFORMATION, PSHRINK_VOLUME_INFORMATION, PSHRINK_VOLUME_INFORMATION structure pointer [Files], SHRINK_VOLUME_INFORMATION, SHRINK_VOLUME_INFORMATION structure [Files], ShrinkAbort, ShrinkCommit, ShrinkPrepare, fs.shrink_volume_information, winioctl/PSHRINK_VOLUME_INFORMATION, winioctl/SHRINK_VOLUME_INFORMATION'

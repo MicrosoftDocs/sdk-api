@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetTypeFromNameW
 title: SymGetTypeFromNameW function (dbghelp.h)
-description: Retrieves a type index for the specified type name.helpviewer_keywords: ["SymGetTypeFromName","SymGetTypeFromName function","SymGetTypeFromNameW","_win32_symgettypefromname","base.symgettypefromname","dbghelp/SymGetTypeFromName","dbghelp/SymGetTypeFromNameW"]
+description: Retrieves a type index for the specified type name.
+helpviewer_keywords: ["SymGetTypeFromName","SymGetTypeFromName function","SymGetTypeFromNameW","_win32_symgettypefromname","base.symgettypefromname","dbghelp/SymGetTypeFromName","dbghelp/SymGetTypeFromNameW"]
 old-location: base\symgettypefromname.htm
 tech.root: Debug
 ms.assetid: 3a48365f-3b8a-493d-9fd9-dde77be9ced2
@@ -106,6 +107,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymGetTypeFromName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

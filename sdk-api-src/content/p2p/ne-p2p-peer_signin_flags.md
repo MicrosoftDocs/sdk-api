@@ -1,9 +1,10 @@
 ---
 UID: NE:p2p.peer_signin_flags_tag
 title: PEER_SIGNIN_FLAGS (p2p.h)
-description: The PEER_SIGNIN_FLAGS enumeration defines the set of peer presence publication behaviors available when the peer signs in to a peer collaboration network.helpviewer_keywords: ["PEER_SIGNIN_ALL","PEER_SIGNIN_FLAGS","PEER_SIGNIN_FLAGS enumeration [Peer Networking]","PEER_SIGNIN_INTERNET","PEER_SIGNIN_NEAR_ME","PEER_SIGNIN_NONE","p2p.peer_signin_flags","p2p/PEER_SIGNIN_ALL","p2p/PEER_SIGNIN_FLAGS","p2p/PEER_SIGNIN_INTERNET","p2p/PEER_SIGNIN_NEAR_ME","p2p/PEER_SIGNIN_NONE"]
+description: The PEER_SIGNIN_FLAGS enumeration defines the set of peer presence publication behaviors available when the peer signs in to a peer collaboration network.
+helpviewer_keywords: ["PEER_SIGNIN_ALL","PEER_SIGNIN_FLAGS","PEER_SIGNIN_FLAGS enumeration [Peer Networking]","PEER_SIGNIN_INTERNET","PEER_SIGNIN_NEAR_ME","PEER_SIGNIN_NONE","p2p.peer_signin_flags","p2p/PEER_SIGNIN_ALL","p2p/PEER_SIGNIN_FLAGS","p2p/PEER_SIGNIN_INTERNET","p2p/PEER_SIGNIN_NEAR_ME","p2p/PEER_SIGNIN_NONE"]
 old-location: p2p\peer_signin_flags.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 00b7f57a-222d-4152-bded-93f1899692da
 ms.date: 12/05/2018
 ms.keywords: PEER_SIGNIN_ALL, PEER_SIGNIN_FLAGS, PEER_SIGNIN_FLAGS enumeration [Peer Networking], PEER_SIGNIN_INTERNET, PEER_SIGNIN_NEAR_ME, PEER_SIGNIN_NONE, p2p.peer_signin_flags, p2p/PEER_SIGNIN_ALL, p2p/PEER_SIGNIN_FLAGS, p2p/PEER_SIGNIN_INTERNET, p2p/PEER_SIGNIN_NEAR_ME, p2p/PEER_SIGNIN_NONE

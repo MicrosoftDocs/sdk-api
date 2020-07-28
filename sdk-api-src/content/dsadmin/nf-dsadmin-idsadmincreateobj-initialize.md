@@ -1,7 +1,8 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.Initialize
 title: IDsAdminCreateObj::Initialize (dsadmin.h)
-description: The IDsAdminCreateObj::Initialize method initializes an IDsAdminCreateObj object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.helpviewer_keywords: ["IDsAdminCreateObj interface [Active Directory]","Initialize method","IDsAdminCreateObj.Initialize","IDsAdminCreateObj::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IDsAdminCreateObj interface","_glines_idsadmincreateobj_initialize","ad.idsadmincreateobj__initialize","ad.idsadmincreateobj_initialize","dsadmin/IDsAdminCreateObj::Initialize"]
+description: The IDsAdminCreateObj::Initialize method initializes an IDsAdminCreateObj object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
+helpviewer_keywords: ["IDsAdminCreateObj interface [Active Directory]","Initialize method","IDsAdminCreateObj.Initialize","IDsAdminCreateObj::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IDsAdminCreateObj interface","_glines_idsadmincreateobj_initialize","ad.idsadmincreateobj__initialize","ad.idsadmincreateobj_initialize","dsadmin/IDsAdminCreateObj::Initialize"]
 old-location: ad\idsadmincreateobj_initialize.htm
 tech.root: ad
 ms.assetid: 811863e7-25d2-48d0-bf97-61b49a224c98

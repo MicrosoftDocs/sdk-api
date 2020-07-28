@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.SetProperty
 title: IAzApplicationGroup::SetProperty (azroles.h)
-description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.helpviewer_keywords: ["AZ_PROP_DESCRIPTION","AZ_PROP_GROUP_LDAP_QUERY","AZ_PROP_GROUP_TYPE","AZ_PROP_NAME","AzApplicationGroup object [Security]","SetProperty method","IAzApplicationGroup interface [Security]","SetProperty method","IAzApplicationGroup.SetProperty","IAzApplicationGroup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzApplicationGroup object","SetProperty method [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::SetProperty","security.iazapplicationgroup_setproperty"]
+description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.
+helpviewer_keywords: ["AZ_PROP_DESCRIPTION","AZ_PROP_GROUP_LDAP_QUERY","AZ_PROP_GROUP_TYPE","AZ_PROP_NAME","AzApplicationGroup object [Security]","SetProperty method","IAzApplicationGroup interface [Security]","SetProperty method","IAzApplicationGroup.SetProperty","IAzApplicationGroup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzApplicationGroup object","SetProperty method [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::SetProperty","security.iazapplicationgroup_setproperty"]
 old-location: security\iazapplicationgroup_setproperty.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AzApplicationGroup object [Security],SetProperty method, IAzApplicationGroup interface [Security],SetProperty method, IAzApplicationGroup.SetProperty, IAzApplicationGroup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplicationGroup object, SetProperty method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::SetProperty, security.iazapplicationgroup_setproperty

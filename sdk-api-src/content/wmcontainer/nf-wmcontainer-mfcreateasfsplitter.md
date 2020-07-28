@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.MFCreateASFSplitter
 title: MFCreateASFSplitter function (wmcontainer.h)
-description: Creates the ASF Splitter.helpviewer_keywords: ["05936a66-ed39-4645-adfb-5816b9981771","MFCreateASFSplitter","MFCreateASFSplitter function [Media Foundation]","mf.mfcreateasfsplitter","wmcontainer/MFCreateASFSplitter"]
+description: Creates the ASF Splitter.
+helpviewer_keywords: ["05936a66-ed39-4645-adfb-5816b9981771","MFCreateASFSplitter","MFCreateASFSplitter function [Media Foundation]","mf.mfcreateasfsplitter","wmcontainer/MFCreateASFSplitter"]
 old-location: mf\mfcreateasfsplitter.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 05936a66-ed39-4645-adfb-5816b9981771
 ms.date: 12/05/2018
 ms.keywords: 05936a66-ed39-4645-adfb-5816b9981771, MFCreateASFSplitter, MFCreateASFSplitter function [Media Foundation], mf.mfcreateasfsplitter, wmcontainer/MFCreateASFSplitter

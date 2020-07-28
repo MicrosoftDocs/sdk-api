@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_DestinationOptionsFT
 title: MI_DestinationOptionsFT (mi.h)
-description: A support structure used in the MI_DestinationOptions structure. Use the functions with the name prefix &#0034;MI_DestinationOptions_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_DestinationOptionsFT","MI_DestinationOptionsFT structure [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptionsFT","wmi_v2.mi_destinationoptionsft"]
+description: A support structure used in the MI_DestinationOptions structure. Use the functions with the name prefix &quot;MI_DestinationOptions_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_DestinationOptionsFT","MI_DestinationOptionsFT structure [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptionsFT","wmi_v2.mi_destinationoptionsft"]
 old-location: wmi_v2\mi_destinationoptionsft.htm
 tech.root: wmi_v2
 ms.assetid: e6cf4d82-8820-40d5-924a-e4270252807d

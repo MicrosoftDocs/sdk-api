@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IResourceConsumer.AcquireResource
 title: IResourceConsumer::AcquireResource (strmif.h)
-description: The AcquireResource method notifies the resource consumer that a resource might be acquired.helpviewer_keywords: ["AcquireResource","AcquireResource method [DirectShow]","AcquireResource method [DirectShow]","IResourceConsumer interface","IResourceConsumer interface [DirectShow]","AcquireResource method","IResourceConsumer.AcquireResource","IResourceConsumer::AcquireResource","IResourceConsumerAcquireResource","dshow.iresourceconsumer_acquireresource","strmif/IResourceConsumer::AcquireResource"]
+description: The AcquireResource method notifies the resource consumer that a resource might be acquired.
+helpviewer_keywords: ["AcquireResource","AcquireResource method [DirectShow]","AcquireResource method [DirectShow]","IResourceConsumer interface","IResourceConsumer interface [DirectShow]","AcquireResource method","IResourceConsumer.AcquireResource","IResourceConsumer::AcquireResource","IResourceConsumerAcquireResource","dshow.iresourceconsumer_acquireresource","strmif/IResourceConsumer::AcquireResource"]
 old-location: dshow\iresourceconsumer_acquireresource.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e88d90af-681e-483b-9b29-9844eec75e41
 ms.date: 12/05/2018
 ms.keywords: AcquireResource, AcquireResource method [DirectShow], AcquireResource method [DirectShow],IResourceConsumer interface, IResourceConsumer interface [DirectShow],AcquireResource method, IResourceConsumer.AcquireResource, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource

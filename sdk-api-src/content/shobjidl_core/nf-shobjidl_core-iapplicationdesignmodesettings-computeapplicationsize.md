@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.ComputeApplicationSize
 title: IApplicationDesignModeSettings::ComputeApplicationSize (shobjidl_core.h)
-description: Gets the size of the Windows Store app, based on the current set of spoofed settings.helpviewer_keywords: ["ComputeApplicationSize","ComputeApplicationSize method [Windows Shell]","ComputeApplicationSize method [Windows Shell]","IApplicationDesignModeSettings interface","IApplicationDesignModeSettings interface [Windows Shell]","ComputeApplicationSize method","IApplicationDesignModeSettings.ComputeApplicationSize","IApplicationDesignModeSettings::ComputeApplicationSize","shell.IApplicationDesignModeSettings_ComputeApplicationSize","shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize"]
+description: Gets the size of the Windows Store app, based on the current set of spoofed settings.
+helpviewer_keywords: ["ComputeApplicationSize","ComputeApplicationSize method [Windows Shell]","ComputeApplicationSize method [Windows Shell]","IApplicationDesignModeSettings interface","IApplicationDesignModeSettings interface [Windows Shell]","ComputeApplicationSize method","IApplicationDesignModeSettings.ComputeApplicationSize","IApplicationDesignModeSettings::ComputeApplicationSize","shell.IApplicationDesignModeSettings_ComputeApplicationSize","shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize"]
 old-location: shell\IApplicationDesignModeSettings_ComputeApplicationSize.htm
 tech.root: shell
 ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501

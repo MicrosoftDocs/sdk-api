@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Transfer
 title: ITBasicCallControl::Transfer (tapi3if.h)
-description: The Transfer method transfers the current call to the destination address.helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","Transfer method","ITBasicCallControl.Transfer","ITBasicCallControl::Transfer","Transfer","Transfer method [TAPI 2.2]","Transfer method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_transfer","tapi3.itbasiccallcontrol_transfer","tapi3if/ITBasicCallControl::Transfer"]
+description: The Transfer method transfers the current call to the destination address.
+helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","Transfer method","ITBasicCallControl.Transfer","ITBasicCallControl::Transfer","Transfer","Transfer method [TAPI 2.2]","Transfer method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_transfer","tapi3.itbasiccallcontrol_transfer","tapi3if/ITBasicCallControl::Transfer"]
 old-location: tapi3\itbasiccallcontrol_transfer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 4f2a06e6-9f0b-4bf3-9f18-6e9f57c4b02f
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Transfer method, ITBasicCallControl.Transfer, ITBasicCallControl::Transfer, Transfer, Transfer method [TAPI 2.2], Transfer method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_transfer, tapi3.itbasiccallcontrol_transfer, tapi3if/ITBasicCallControl::Transfer

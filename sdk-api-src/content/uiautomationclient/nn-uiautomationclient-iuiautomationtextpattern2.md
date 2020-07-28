@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextPattern2
 title: IUIAutomationTextPattern2 (uiautomationclient.h)
-description: Extends the IUIAutomationTextPattern interface.helpviewer_keywords: ["IUIAutomationTextPattern2","IUIAutomationTextPattern2 interface [Windows Accessibility]","IUIAutomationTextPattern2 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationTextPattern2","winauto.uiauto_iuiautomationtextpattern2"]
+description: Extends the IUIAutomationTextPattern interface.
+helpviewer_keywords: ["IUIAutomationTextPattern2","IUIAutomationTextPattern2 interface [Windows Accessibility]","IUIAutomationTextPattern2 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationTextPattern2","winauto.uiauto_iuiautomationtextpattern2"]
 old-location: winauto\uiauto_iuiautomationtextpattern2.htm
 tech.root: WinAuto
 ms.assetid: E7160CDD-9A83-42F9-9F7B-8A8C13849E20

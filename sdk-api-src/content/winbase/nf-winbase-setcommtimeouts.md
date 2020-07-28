@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetCommTimeouts
 title: SetCommTimeouts function (winbase.h)
-description: Sets the time-out parameters for all read and write operations on a specified communications device.helpviewer_keywords: ["SetCommTimeouts","SetCommTimeouts function","_win32_setcommtimeouts","base.setcommtimeouts","winbase/SetCommTimeouts"]
+description: Sets the time-out parameters for all read and write operations on a specified communications device.
+helpviewer_keywords: ["SetCommTimeouts","SetCommTimeouts function","_win32_setcommtimeouts","base.setcommtimeouts","winbase/SetCommTimeouts"]
 old-location: base\setcommtimeouts.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 71aa6ab3-d56c-43bc-9932-5b4e61fc4b30
 ms.date: 12/05/2018
 ms.keywords: SetCommTimeouts, SetCommTimeouts function, _win32_setcommtimeouts, base.setcommtimeouts, winbase/SetCommTimeouts

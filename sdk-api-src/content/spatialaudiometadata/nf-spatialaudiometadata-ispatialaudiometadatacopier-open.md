@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Open
 title: ISpatialAudioMetadataCopier::Open (spatialaudiometadata.h)
-description: Opens an ISpatialAudioMetadataItems object for copying.helpviewer_keywords: ["ISpatialAudioMetadataCopier interface [Core Audio]","Open method","ISpatialAudioMetadataCopier.Open","ISpatialAudioMetadataCopier::Open","Open","Open method [Core Audio]","Open method [Core Audio]","ISpatialAudioMetadataCopier interface","coreaudio.ispatialaudiometadatacopier_open","spatialaudiometadata/ISpatialAudioMetadataCopier::Open"]
+description: Opens an ISpatialAudioMetadataItems object for copying.
+helpviewer_keywords: ["ISpatialAudioMetadataCopier interface [Core Audio]","Open method","ISpatialAudioMetadataCopier.Open","ISpatialAudioMetadataCopier::Open","Open","Open method [Core Audio]","Open method [Core Audio]","ISpatialAudioMetadataCopier interface","coreaudio.ispatialaudiometadatacopier_open","spatialaudiometadata/ISpatialAudioMetadataCopier::Open"]
 old-location: coreaudio\ispatialaudiometadatacopier_open.htm
 tech.root: CoreAudio
 ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D

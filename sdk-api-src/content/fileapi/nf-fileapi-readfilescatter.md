@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.ReadFileScatter
 title: ReadFileScatter function (fileapi.h)
-description: Reads data from a file and stores it in an array of buffers.helpviewer_keywords: ["ReadFileScatter","ReadFileScatter function [Files]","_win32_readfilescatter","base.readfilescatter","fileapi/ReadFileScatter","fs.readfilescatter","winbase/ReadFileScatter"]
+description: Reads data from a file and stores it in an array of buffers.
+helpviewer_keywords: ["ReadFileScatter","ReadFileScatter function [Files]","_win32_readfilescatter","base.readfilescatter","fileapi/ReadFileScatter","fs.readfilescatter","winbase/ReadFileScatter"]
 old-location: fs\readfilescatter.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4ed7c47b-d40b-4016-8550-0af17ee9e86d
 ms.date: 12/05/2018
 ms.keywords: ReadFileScatter, ReadFileScatter function [Files], _win32_readfilescatter, base.readfilescatter, fileapi/ReadFileScatter, fs.readfilescatter, winbase/ReadFileScatter

@@ -1,9 +1,10 @@
 ---
 UID: NF:cfapi.CfSetCorrelationVector
 title: CfSetCorrelationVector function (cfapi.h)
-description: Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.helpviewer_keywords: ["CfSetCorrelationVector","CfSetCorrelationVector function","cfapi/CfSetCorrelationVector","cloudApi.cfsetcorrelationvector"]
+description: Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.
+helpviewer_keywords: ["CfSetCorrelationVector","CfSetCorrelationVector function","cfapi/CfSetCorrelationVector","cloudApi.cfsetcorrelationvector"]
 old-location: cloudapi\cfsetcorrelationvector.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: B9B05D24-BEE5-4BE6-95D5-C28466D69543
 ms.date: 12/05/2018
 ms.keywords: CfSetCorrelationVector, CfSetCorrelationVector function, cfapi/CfSetCorrelationVector, cloudApi.cfsetcorrelationvector

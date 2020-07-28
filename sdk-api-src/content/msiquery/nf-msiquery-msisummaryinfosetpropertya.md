@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoSetPropertyA
 title: MsiSummaryInfoSetPropertyA function (msiquery.h)
-description: The MsiSummaryInfoSetProperty function sets a single summary information property.helpviewer_keywords: ["MsiSummaryInfoSetProperty","MsiSummaryInfoSetProperty function","MsiSummaryInfoSetPropertyA","MsiSummaryInfoSetPropertyW","_msi_msisummaryinfosetproperty","msiquery/MsiSummaryInfoSetProperty","msiquery/MsiSummaryInfoSetPropertyA","msiquery/MsiSummaryInfoSetPropertyW","setup.msisummaryinfosetproperty"]
+description: The MsiSummaryInfoSetProperty function sets a single summary information property.
+helpviewer_keywords: ["MsiSummaryInfoSetProperty","MsiSummaryInfoSetProperty function","MsiSummaryInfoSetPropertyA","MsiSummaryInfoSetPropertyW","_msi_msisummaryinfosetproperty","msiquery/MsiSummaryInfoSetProperty","msiquery/MsiSummaryInfoSetPropertyA","msiquery/MsiSummaryInfoSetPropertyW","setup.msisummaryinfosetproperty"]
 old-location: setup\msisummaryinfosetproperty.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
@@ -123,4 +124,9 @@ The
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msiquery.h header defines MsiSummaryInfoSetProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

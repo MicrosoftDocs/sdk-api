@@ -1,9 +1,10 @@
 ---
 UID: NN:vds.IVdsPack
 title: IVdsPack (vds.h)
-description: Provides methods to query and perform management operations on a pack containing disks and volumes.helpviewer_keywords: ["IVdsPack","IVdsPack interface [VDS]","IVdsPack interface [VDS]","described","base.ivdspack","vds/IVdsPack"]
+description: Provides methods to query and perform management operations on a pack containing disks and volumes.
+helpviewer_keywords: ["IVdsPack","IVdsPack interface [VDS]","IVdsPack interface [VDS]","described","base.ivdspack","vds/IVdsPack"]
 old-location: base\ivdspack.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 106989fe-d1dd-4c7f-b889-00a671c6e567
 ms.date: 12/05/2018
 ms.keywords: IVdsPack, IVdsPack interface [VDS], IVdsPack interface [VDS],described, base.ivdspack, vds/IVdsPack

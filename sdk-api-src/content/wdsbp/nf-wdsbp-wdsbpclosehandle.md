@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsbp.WdsBpCloseHandle
 title: WdsBpCloseHandle function (wdsbp.h)
-description: Closes the specified handle.helpviewer_keywords: ["WdsBpCloseHandle","WdsBpCloseHandle function [Windows Deployment Services]","wds.wdsbpclosehandle","wdsbp/WdsBpCloseHandle"]
+description: Closes the specified handle.
+helpviewer_keywords: ["WdsBpCloseHandle","WdsBpCloseHandle function [Windows Deployment Services]","wds.wdsbpclosehandle","wdsbp/WdsBpCloseHandle"]
 old-location: wds\wdsbpclosehandle.htm
 tech.root: wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a

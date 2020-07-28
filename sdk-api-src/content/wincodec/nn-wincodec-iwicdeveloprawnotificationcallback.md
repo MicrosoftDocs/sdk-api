@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICDevelopRawNotificationCallback
 title: IWICDevelopRawNotificationCallback (wincodec.h)
-description: Exposes a callback method for raw image change nofications.helpviewer_keywords: ["IWICDevelopRawNotificationCallback","IWICDevelopRawNotificationCallback interface [Windows Imaging Component]","IWICDevelopRawNotificationCallback interface [Windows Imaging Component]","described","_wic_codec_iwicdeveloprawnotificationcallback","wic._wic_codec_iwicdeveloprawnotificationcallback","wincodec/IWICDevelopRawNotificationCallback"]
+description: Exposes a callback method for raw image change nofications.
+helpviewer_keywords: ["IWICDevelopRawNotificationCallback","IWICDevelopRawNotificationCallback interface [Windows Imaging Component]","IWICDevelopRawNotificationCallback interface [Windows Imaging Component]","described","_wic_codec_iwicdeveloprawnotificationcallback","wic._wic_codec_iwicdeveloprawnotificationcallback","wincodec/IWICDevelopRawNotificationCallback"]
 old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback.htm
 tech.root: wic
 ms.assetid: ccd162e4-84be-4ed5-a583-c9bd195f503b

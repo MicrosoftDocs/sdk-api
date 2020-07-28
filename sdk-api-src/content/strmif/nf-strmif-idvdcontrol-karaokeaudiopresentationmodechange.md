@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl.KaraokeAudioPresentationModeChange
 title: IDvdControl::KaraokeAudioPresentationModeChange (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the audio playback mode to karaoke.helpviewer_keywords: ["IDvdControl interface [DirectShow]","KaraokeAudioPresentationModeChange method","IDvdControl.KaraokeAudioPresentationModeChange","IDvdControl::KaraokeAudioPresentationModeChange","IDvdControlKaraokeAudioPresentationModeChange","KaraokeAudioPresentationModeChange","KaraokeAudioPresentationModeChange method [DirectShow]","KaraokeAudioPresentationModeChange method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_karaokeaudiopresentationmodechange","strmif/IDvdControl::KaraokeAudioPresentationModeChange"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the audio playback mode to karaoke.
+helpviewer_keywords: ["IDvdControl interface [DirectShow]","KaraokeAudioPresentationModeChange method","IDvdControl.KaraokeAudioPresentationModeChange","IDvdControl::KaraokeAudioPresentationModeChange","IDvdControlKaraokeAudioPresentationModeChange","KaraokeAudioPresentationModeChange","KaraokeAudioPresentationModeChange method [DirectShow]","KaraokeAudioPresentationModeChange method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_karaokeaudiopresentationmodechange","strmif/IDvdControl::KaraokeAudioPresentationModeChange"]
 old-location: dshow\idvdcontrol_karaokeaudiopresentationmodechange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a724af67-6aac-4307-97bc-a79e73621ce1
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],KaraokeAudioPresentationModeChange method, IDvdControl.KaraokeAudioPresentationModeChange, IDvdControl::KaraokeAudioPresentationModeChange, IDvdControlKaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange method [DirectShow], KaraokeAudioPresentationModeChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_karaokeaudiopresentationmodechange, strmif/IDvdControl::KaraokeAudioPresentationModeChange

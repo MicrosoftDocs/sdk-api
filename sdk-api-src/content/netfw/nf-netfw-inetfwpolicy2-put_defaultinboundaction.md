@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_DefaultInboundAction
 title: INetFwPolicy2::put_DefaultInboundAction (netfw.h)
-description: Specifies the default action for inbound traffic. These settings are Block by default.helpviewer_keywords: ["DefaultInboundAction property [ICS/ICF]","DefaultInboundAction property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","DefaultInboundAction property","INetFwPolicy2.DefaultInboundAction","INetFwPolicy2.put_DefaultInboundAction","INetFwPolicy2::DefaultInboundAction","INetFwPolicy2::get_DefaultInboundAction","INetFwPolicy2::put_DefaultInboundAction","ics.inetfwpolicy2_defaultinboundaction","netfw/INetFwPolicy2::DefaultInboundAction","netfw/INetFwPolicy2::get_DefaultInboundAction","netfw/INetFwPolicy2::put_DefaultInboundAction","put_DefaultInboundAction"]
+description: Specifies the default action for inbound traffic. These settings are Block by default.
+helpviewer_keywords: ["DefaultInboundAction property [ICS/ICF]","DefaultInboundAction property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","DefaultInboundAction property","INetFwPolicy2.DefaultInboundAction","INetFwPolicy2.put_DefaultInboundAction","INetFwPolicy2::DefaultInboundAction","INetFwPolicy2::get_DefaultInboundAction","INetFwPolicy2::put_DefaultInboundAction","ics.inetfwpolicy2_defaultinboundaction","netfw/INetFwPolicy2::DefaultInboundAction","netfw/INetFwPolicy2::get_DefaultInboundAction","netfw/INetFwPolicy2::put_DefaultInboundAction","put_DefaultInboundAction"]
 old-location: ics\inetfwpolicy2_defaultinboundaction.htm
 tech.root: ics
 ms.assetid: d9251979-0479-4245-8a29-a161acbf591f
@@ -79,13 +80,7 @@ When you pass a profile type obtained from the <a href="https://docs.microsoft.c
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_action_">NET_FW_ACTION</a>
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_action">NET_FW_ACTION</a>
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type2_">NET_FW_PROFILE_TYPE2</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>

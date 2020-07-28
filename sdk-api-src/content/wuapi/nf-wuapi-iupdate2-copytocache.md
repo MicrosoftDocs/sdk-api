@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate2.CopyToCache
 title: IUpdate2::CopyToCache (wuapi.h)
-description: Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.helpviewer_keywords: ["CopyToCache","CopyToCache method [Windows Update Agent]","CopyToCache method [Windows Update Agent]","IUpdate2 interface","IUpdate2 interface [Windows Update Agent]","CopyToCache method","IUpdate2.CopyToCache","IUpdate2::CopyToCache","wua.iupdate2_copytocache","wuapi/IUpdate2::CopyToCache"]
+description: Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
+helpviewer_keywords: ["CopyToCache","CopyToCache method [Windows Update Agent]","CopyToCache method [Windows Update Agent]","IUpdate2 interface","IUpdate2 interface [Windows Update Agent]","CopyToCache method","IUpdate2.CopyToCache","IUpdate2::CopyToCache","wua.iupdate2_copytocache","wuapi/IUpdate2::CopyToCache"]
 old-location: wua\iupdate2_copytocache.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a12f850a-df08-4263-bb66-94c45f7d875e
 ms.date: 12/05/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CopyToCache method, IUpdate2.CopyToCache, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache

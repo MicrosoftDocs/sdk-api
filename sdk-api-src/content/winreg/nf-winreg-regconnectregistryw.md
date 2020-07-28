@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegConnectRegistryW
 title: RegConnectRegistryW function (winreg.h)
-description: Establishes a connection to a predefined registry key on another computer.helpviewer_keywords: ["RegConnectRegistry","RegConnectRegistry function","RegConnectRegistryA","RegConnectRegistryW","_win32_regconnectregistry","base.regconnectregistry","winreg/RegConnectRegistry","winreg/RegConnectRegistryA","winreg/RegConnectRegistryW"]
+description: Establishes a connection to a predefined registry key on another computer.
+helpviewer_keywords: ["RegConnectRegistry","RegConnectRegistry function","RegConnectRegistryA","RegConnectRegistryW","_win32_regconnectregistry","base.regconnectregistry","winreg/RegConnectRegistry","winreg/RegConnectRegistryA","winreg/RegConnectRegistryW"]
 old-location: base\regconnectregistry.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: d7fb41cc-4855-4ad7-879c-b1ac85ac5803
 ms.date: 12/05/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
@@ -127,6 +128,10 @@ If the current user does not have proper access to the remote computer, the call
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegConnectRegistry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

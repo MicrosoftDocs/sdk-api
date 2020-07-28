@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 title: IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit (dxgidebug.h)
-description: Gets the number of messages that were discarded due to the message count limit.helpviewer_keywords: ["GetNumMessagesDiscardedByMessageCountLimit","GetNumMessagesDiscardedByMessageCountLimit method [DXGI]","GetNumMessagesDiscardedByMessageCountLimit method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumMessagesDiscardedByMessageCountLimit method","IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit","IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit","direct3ddxgi.idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit","dxgidebug/IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit"]
+description: Gets the number of messages that were discarded due to the message count limit.
+helpviewer_keywords: ["GetNumMessagesDiscardedByMessageCountLimit","GetNumMessagesDiscardedByMessageCountLimit method [DXGI]","GetNumMessagesDiscardedByMessageCountLimit method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumMessagesDiscardedByMessageCountLimit method","IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit","IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit","direct3ddxgi.idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit","dxgidebug/IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit"]
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: 8F97E69B-5534-409F-9702-9FC6D7940D65

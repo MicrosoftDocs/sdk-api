@@ -1,9 +1,10 @@
 ---
 UID: NF:winscard.SCardEndTransaction
 title: SCardEndTransaction function (winscard.h)
-description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.helpviewer_keywords: ["SCARD_EJECT_CARD","SCARD_LEAVE_CARD","SCARD_RESET_CARD","SCARD_UNPOWER_CARD","SCardEndTransaction","SCardEndTransaction function [Security]","_smart_scardendtransaction","security.scardendtransaction","winscard/SCardEndTransaction"]
+description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
+helpviewer_keywords: ["SCARD_EJECT_CARD","SCARD_LEAVE_CARD","SCARD_RESET_CARD","SCARD_UNPOWER_CARD","SCardEndTransaction","SCardEndTransaction function [Security]","_smart_scardendtransaction","security.scardendtransaction","winscard/SCardEndTransaction"]
 old-location: security\scardendtransaction.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction

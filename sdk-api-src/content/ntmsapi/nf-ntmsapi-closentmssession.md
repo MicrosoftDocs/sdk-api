@@ -1,9 +1,10 @@
 ---
 UID: NF:ntmsapi.CloseNtmsSession
 title: CloseNtmsSession function (ntmsapi.h)
-description: The CloseNtmsSession function closes the specified RSM session.helpviewer_keywords: ["CloseNtmsSession","CloseNtmsSession function [Files]","_zaw_closentmssession","base.closentmssession","fs.closentmssession","ntmsapi/CloseNtmsSession"]
+description: The CloseNtmsSession function closes the specified RSM session.
+helpviewer_keywords: ["CloseNtmsSession","CloseNtmsSession function [Files]","_zaw_closentmssession","base.closentmssession","fs.closentmssession","ntmsapi/CloseNtmsSession"]
 old-location: fs\closentmssession.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 54bc354a-fdef-4642-8e53-cf20ed374000
 ms.date: 12/05/2018
 ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentmssession, base.closentmssession, fs.closentmssession, ntmsapi/CloseNtmsSession

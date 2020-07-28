@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
 title: IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage (certenroll.h)
-description: Retrieves a collection of key usage object identifiers (OIDs).helpviewer_keywords: ["EnhancedKeyUsage property [Security]","EnhancedKeyUsage property [Security]","IX509ExtensionEnhancedKeyUsage interface","IX509ExtensionEnhancedKeyUsage interface [Security]","EnhancedKeyUsage property","IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage","certenroll/IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage","certenroll/IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage","get_EnhancedKeyUsage","security.ix509extensionenhancedkeyusage_enhancedkeyusage_property"]
+description: Retrieves a collection of key usage object identifiers (OIDs).
+helpviewer_keywords: ["EnhancedKeyUsage property [Security]","EnhancedKeyUsage property [Security]","IX509ExtensionEnhancedKeyUsage interface","IX509ExtensionEnhancedKeyUsage interface [Security]","EnhancedKeyUsage property","IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage","certenroll/IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage","certenroll/IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage","get_EnhancedKeyUsage","security.ix509extensionenhancedkeyusage_enhancedkeyusage_property"]
 old-location: security\ix509extensionenhancedkeyusage_enhancedkeyusage_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 17a92139-0f6c-4371-b6cb-44185752abce
 ms.date: 12/05/2018
 ms.keywords: EnhancedKeyUsage property [Security], EnhancedKeyUsage property [Security],IX509ExtensionEnhancedKeyUsage interface, IX509ExtensionEnhancedKeyUsage interface [Security],EnhancedKeyUsage property, IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage, certenroll/IX509ExtensionEnhancedKeyUsage::EnhancedKeyUsage, certenroll/IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage, get_EnhancedKeyUsage, security.ix509extensionenhancedkeyusage_enhancedkeyusage_property

@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagTEXTMETRICA
 title: TEXTMETRICA (wingdi.h)
-description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.helpviewer_keywords: ["*LPTEXTMETRICA","*NPTEXTMETRICA","*PTEXTMETRICA","PTEXTMETRIC","PTEXTMETRIC structure pointer [Windows GDI]","TEXTMETRIC","TEXTMETRIC structure [Windows GDI]","TEXTMETRICA","TEXTMETRICW","_win32_TEXTMETRIC_str","gdi.textmetric","wingdi/PTEXTMETRIC","wingdi/TEXTMETRIC","wingdi/TEXTMETRICA","wingdi/TEXTMETRICW"]
+description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.
+helpviewer_keywords: ["*LPTEXTMETRICA","*NPTEXTMETRICA","*PTEXTMETRICA","PTEXTMETRIC","PTEXTMETRIC structure pointer [Windows GDI]","TEXTMETRIC","TEXTMETRIC structure [Windows GDI]","TEXTMETRICA","TEXTMETRICW","_win32_TEXTMETRIC_str","gdi.textmetric","wingdi/PTEXTMETRIC","wingdi/TEXTMETRIC","wingdi/TEXTMETRICA","wingdi/TEXTMETRICW"]
 old-location: gdi\textmetric.htm
 tech.root: gdi
 ms.assetid: 0a46da58-5d0f-4db4-bba6-9e1b6c1f892c
@@ -264,4 +265,9 @@ THAI_CHARSET
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wingdi.h header defines TEXTMETRIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

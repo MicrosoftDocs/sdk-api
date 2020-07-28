@@ -1,9 +1,10 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveData
 title: LoadEnclaveData function (enclaveapi.h)
-description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.helpviewer_keywords: ["LoadEnclaveData","LoadEnclaveData function","base.loadenclavedata","enclaveapi/LoadEnclaveData"]
+description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.
+helpviewer_keywords: ["LoadEnclaveData","LoadEnclaveData function","base.loadenclavedata","enclaveapi/LoadEnclaveData"]
 old-location: base\loadenclavedata.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
 ms.date: 12/05/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData

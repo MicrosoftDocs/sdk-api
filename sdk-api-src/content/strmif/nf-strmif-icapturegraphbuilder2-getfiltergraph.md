@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.GetFiltergraph
 title: ICaptureGraphBuilder2::GetFiltergraph (strmif.h)
-description: The GetFiltergraph method retrieves the filter graph that the capture graph builder is using.helpviewer_keywords: ["GetFiltergraph","GetFiltergraph method [DirectShow]","GetFiltergraph method [DirectShow]","ICaptureGraphBuilder2 interface","ICaptureGraphBuilder2 interface [DirectShow]","GetFiltergraph method","ICaptureGraphBuilder2.GetFiltergraph","ICaptureGraphBuilder2::GetFiltergraph","ICaptureGraphBuilder2GetFiltergraph","dshow.icapturegraphbuilder2_getfiltergraph","strmif/ICaptureGraphBuilder2::GetFiltergraph"]
+description: The GetFiltergraph method retrieves the filter graph that the capture graph builder is using.
+helpviewer_keywords: ["GetFiltergraph","GetFiltergraph method [DirectShow]","GetFiltergraph method [DirectShow]","ICaptureGraphBuilder2 interface","ICaptureGraphBuilder2 interface [DirectShow]","GetFiltergraph method","ICaptureGraphBuilder2.GetFiltergraph","ICaptureGraphBuilder2::GetFiltergraph","ICaptureGraphBuilder2GetFiltergraph","dshow.icapturegraphbuilder2_getfiltergraph","strmif/ICaptureGraphBuilder2::GetFiltergraph"]
 old-location: dshow\icapturegraphbuilder2_getfiltergraph.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 91136a71-cfda-4aa5-ba6c-d1ce6cbef3c1
 ms.date: 12/05/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],GetFiltergraph method, ICaptureGraphBuilder2.GetFiltergraph, ICaptureGraphBuilder2::GetFiltergraph, ICaptureGraphBuilder2GetFiltergraph, dshow.icapturegraphbuilder2_getfiltergraph, strmif/ICaptureGraphBuilder2::GetFiltergraph

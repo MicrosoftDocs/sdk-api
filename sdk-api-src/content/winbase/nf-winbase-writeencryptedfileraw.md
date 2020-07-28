@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.WriteEncryptedFileRaw
 title: WriteEncryptedFileRaw function (winbase.h)
-description: Restores (import) encrypted files.helpviewer_keywords: ["WriteEncryptedFileRaw","WriteEncryptedFileRaw function [Files]","base.writeencryptedfileraw","fs.writeencryptedfileraw","winbase/WriteEncryptedFileRaw"]
+description: Restores (import) encrypted files.
+helpviewer_keywords: ["WriteEncryptedFileRaw","WriteEncryptedFileRaw function [Files]","base.writeencryptedfileraw","fs.writeencryptedfileraw","winbase/WriteEncryptedFileRaw"]
 old-location: fs\writeencryptedfileraw.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f44e291e-dbc6-4a44-92ba-92a81e043764
 ms.date: 12/05/2018
 ms.keywords: WriteEncryptedFileRaw, WriteEncryptedFileRaw function [Files], base.writeencryptedfileraw, fs.writeencryptedfileraw, winbase/WriteEncryptedFileRaw

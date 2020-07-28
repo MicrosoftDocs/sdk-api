@@ -1,9 +1,10 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.Add
 title: IDiskQuotaUserBatch::Add (dskquota.h)
-description: Adds an IDiskQuotaUser pointer to the batch list.helpviewer_keywords: ["Add","Add method [Files]","Add method [Files]","IDiskQuotaUserBatch interface","IDiskQuotaUserBatch interface [Files]","Add method","IDiskQuotaUserBatch.Add","IDiskQuotaUserBatch::Add","_win32_idiskquotauserbatch_add","base.idiskquotauserbatch_add","dskquota/IDiskQuotaUserBatch::Add","fs.idiskquotauserbatch_add"]
+description: Adds an IDiskQuotaUser pointer to the batch list.
+helpviewer_keywords: ["Add","Add method [Files]","Add method [Files]","IDiskQuotaUserBatch interface","IDiskQuotaUserBatch interface [Files]","Add method","IDiskQuotaUserBatch.Add","IDiskQuotaUserBatch::Add","_win32_idiskquotauserbatch_add","base.idiskquotauserbatch_add","dskquota/IDiskQuotaUserBatch::Add","fs.idiskquotauserbatch_add"]
 old-location: fs\idiskquotauserbatch_add.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Files], Add method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],Add method, IDiskQuotaUserBatch.Add, IDiskQuotaUserBatch::Add, _win32_idiskquotauserbatch_add, base.idiskquotauserbatch_add, dskquota/IDiskQuotaUserBatch::Add, fs.idiskquotauserbatch_add

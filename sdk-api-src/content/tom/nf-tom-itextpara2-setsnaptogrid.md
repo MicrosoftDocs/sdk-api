@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara2.SetSnapToGrid
 title: ITextPara2::SetSnapToGrid (tom.h)
-description: Sets whether paragraph lines snap to a vertical grid that could be defined for the whole document.helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","SetSnapToGrid method","ITextPara2.SetSnapToGrid","ITextPara2::SetSnapToGrid","SetSnapToGrid","SetSnapToGrid method [Windows Controls]","SetSnapToGrid method [Windows Controls]","ITextPara2 interface","controls.itextpara2_setsnaptogrid","tom/ITextPara2::SetSnapToGrid"]
+description: Sets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
+helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","SetSnapToGrid method","ITextPara2.SetSnapToGrid","ITextPara2::SetSnapToGrid","SetSnapToGrid","SetSnapToGrid method [Windows Controls]","SetSnapToGrid method [Windows Controls]","ITextPara2 interface","controls.itextpara2_setsnaptogrid","tom/ITextPara2::SetSnapToGrid"]
 old-location: controls\itextpara2_setsnaptogrid.htm
 tech.root: Controls
 ms.assetid: 93116780-03e2-406b-8923-b9f02f53892d

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_USER
 title: CLUSCTL_GET_USER macro (clusapi.h)
-description: Retrieves the user bit from a control code. For more information, see Control Code Architecture.helpviewer_keywords: ["CLUSCTL_GET_USER","CLUSCTL_GET_USER macro [Failover Cluster]","clusapi/CLUSCTL_GET_USER","mscs.clusctl_get_user"]
+description: Retrieves the user bit from a control code. For more information, see Control Code Architecture.
+helpviewer_keywords: ["CLUSCTL_GET_USER","CLUSCTL_GET_USER macro [Failover Cluster]","clusapi/CLUSCTL_GET_USER","mscs.clusctl_get_user"]
 old-location: mscs\clusctl_get_user.htm
 tech.root: MsCS
 ms.assetid: E96CD23F-D1A7-46FC-820C-D32A23E8E008

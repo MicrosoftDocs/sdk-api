@@ -1,7 +1,8 @@
 ---
 UID: NF:timeapi.timeEndPeriod
 title: timeEndPeriod function (timeapi.h)
-description: The timeEndPeriod function clears a previously set minimum timer resolution.helpviewer_keywords: ["_win32_timeEndPeriod","mmsystem/timeEndPeriod","multimedia.timeendperiod","timeEndPeriod","timeEndPeriod function [Windows Multimedia]","timeapi/timeEndPeriod"]
+description: The timeEndPeriod function clears a previously set minimum timer resolution.
+helpviewer_keywords: ["_win32_timeEndPeriod","mmsystem/timeEndPeriod","multimedia.timeendperiod","timeEndPeriod","timeEndPeriod function [Windows Multimedia]","timeapi/timeEndPeriod"]
 old-location: multimedia\timeendperiod.htm
 tech.root: Multimedia
 ms.assetid: b06531f9-4fd7-4051-80d4-5a175fdd37e7

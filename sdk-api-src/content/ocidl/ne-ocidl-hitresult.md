@@ -1,7 +1,8 @@
 ---
 UID: NE:ocidl.tagHITRESULT
 title: HITRESULT (ocidl.h)
-description: Indicates whether a location is within the image of an object.helpviewer_keywords: ["HITRESULT","HITRESULT enumeration [COM]","HITRESULT_CLOSE","HITRESULT_HIT","HITRESULT_OUTSIDE","HITRESULT_TRANSPARENT","_ole_HITRESULT","com.hitresult","ocidl/HITRESULT","ocidl/HITRESULT_CLOSE","ocidl/HITRESULT_HIT","ocidl/HITRESULT_OUTSIDE","ocidl/HITRESULT_TRANSPARENT"]
+description: Indicates whether a location is within the image of an object.
+helpviewer_keywords: ["HITRESULT","HITRESULT enumeration [COM]","HITRESULT_CLOSE","HITRESULT_HIT","HITRESULT_OUTSIDE","HITRESULT_TRANSPARENT","_ole_HITRESULT","com.hitresult","ocidl/HITRESULT","ocidl/HITRESULT_CLOSE","ocidl/HITRESULT_HIT","ocidl/HITRESULT_OUTSIDE","ocidl/HITRESULT_TRANSPARENT"]
 old-location: com\hitresult.htm
 tech.root: com
 ms.assetid: 44b070e4-5453-446c-a871-d977a8df8140

@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj_core.IShellDetails
 title: IShellDetails (shlobj_core.h)
-description: Exposed by Shell folders to provide detailed information about the items in a folder.helpviewer_keywords: ["IShellDetails","IShellDetails interface [Windows Shell]","IShellDetails interface [Windows Shell]","described","_win32_IShellDetails","shell.IShellDetails","shlobj_core/IShellDetails"]
+description: Exposed by Shell folders to provide detailed information about the items in a folder.
+helpviewer_keywords: ["IShellDetails","IShellDetails interface [Windows Shell]","IShellDetails interface [Windows Shell]","described","_win32_IShellDetails","shell.IShellDetails","shlobj_core/IShellDetails"]
 old-location: shell\IShellDetails.htm
 tech.root: shell
 ms.assetid: c31409fd-9350-46bb-a8a0-85d5958c6e49

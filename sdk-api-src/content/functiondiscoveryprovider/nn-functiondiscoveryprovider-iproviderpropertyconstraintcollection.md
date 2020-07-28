@@ -1,9 +1,10 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderPropertyConstraintCollection
 title: IProviderPropertyConstraintCollection (functiondiscoveryprovider.h)
-description: This interface is accessible to the provider through IFunctionDiscoveryProviderQuery::GetPropertyConstraints.helpviewer_keywords: ["IProviderPropertyConstraintCollection","IProviderPropertyConstraintCollection interface","IProviderPropertyConstraintCollection interface","described","functiondiscoveryprovider/IProviderPropertyConstraintCollection","ncd.iproviderpropertyconstraintcollection"]
+description: This interface is accessible to the provider through IFunctionDiscoveryProviderQuery::GetPropertyConstraints.
+helpviewer_keywords: ["IProviderPropertyConstraintCollection","IProviderPropertyConstraintCollection interface","IProviderPropertyConstraintCollection interface","described","functiondiscoveryprovider/IProviderPropertyConstraintCollection","ncd.iproviderpropertyconstraintcollection"]
 old-location: ncd\iproviderpropertyconstraintcollection.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: d2e3bc10-e45f-43de-abc5-c5e35d366d87
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,described, functiondiscoveryprovider/IProviderPropertyConstraintCollection, ncd.iproviderpropertyconstraintcollection

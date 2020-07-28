@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.AddActiveTextPositionChangedEventHandler
 title: IUIAutomation6::AddActiveTextPositionChangedEventHandler (uiautomationclient.h)
-description: Registers a method that handles when the active text position changes.helpviewer_keywords: ["AddActiveTextPositionChangedEventHandler","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","IUIAutomation6 interface","IUIAutomation6 interface [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method","IUIAutomation6.AddActiveTextPositionChangedEventHandler","IUIAutomation6::AddActiveTextPositionChangedEventHandler","uiautomationclient/IUIAutomation6::AddActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHandler"]
+description: Registers a method that handles when the active text position changes.
+helpviewer_keywords: ["AddActiveTextPositionChangedEventHandler","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","IUIAutomation6 interface","IUIAutomation6 interface [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method","IUIAutomation6.AddActiveTextPositionChangedEventHandler","IUIAutomation6::AddActiveTextPositionChangedEventHandler","uiautomationclient/IUIAutomation6::AddActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 05D46393-6B76-415A-A1F9-F28B5DAF2074
@@ -76,7 +77,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
+
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
 Active text position is indicated by a navigation event within or between read-only text elements (such as web browsers, Portable Document Format (PDF) documents, or [EPUB](https://en.wikipedia.org/wiki/EPUB) documents) using  bookmarks (or fragment identifiers to refer to a location within a resource). Examples include:
 
@@ -91,7 +93,7 @@ For example, when a same page anchor (`<a href="#C4">Jump to Chapter 4</a> ...<h
 
 Similarly, activating a new page URI (with a fragment identifier: (`<a href="www.blah.com#C4">Jump to Chapter 4</a>`) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients at the top of the page.
 
-For editable text elements, such as [Edit](https://docs.microsoft.com/windows/desktop/controls/edit-controls) and [Rich Edit](https://docs.microsoft.com/windows/desktop/controls/rich-edit-controls") controls, you can listen for a SelectionChanged event.
+For editable text elements, such as [Edit](/windows/desktop/controls/edit-controls) and [Rich Edit](/windows/win32/controls/rich-edit-controls)controls, you can listen for a SelectionChanged event.
 
 It is possible for an event to be delivered to an event handler after the handler has been unsubscribed, if the event is received simultaneously with the request to unsubscribe the event. The best practice is to follow the Component Object Model (COM) standard and avoid destroying the event handler object until its reference count has reached zero. Destroying an event handler immediately after unsubscribing for events may result in an access violation if an event is delivered late.
 

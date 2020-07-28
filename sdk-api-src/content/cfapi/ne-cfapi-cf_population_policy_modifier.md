@@ -1,9 +1,10 @@
 ---
 UID: NE:cfapi.CF_POPULATION_POLICY_MODIFIER
 title: CF_POPULATION_POLICY_MODIFIER (cfapi.h)
-description: Defines the population policy modifiers. This is a modifier that can be used with the primary policy:\_CF_POPULATION_POLICY_PRIMARY.helpviewer_keywords: ["CF_POPULATION_POLICY_MODIFIER","CF_POPULATION_POLICY_MODIFIER enumeration","CF_POPULATION_POLICY_MODIFIER_NONE","cfapi/CF_POPULATION_POLICY_MODIFIER","cfapi/CF_POPULATION_POLICY_MODIFIER_NONE","cloudApi.cf_population_policy_modifier"]
+description: Defines the population policy modifiers. This is a modifier that can be used with the primary policy:\_CF_POPULATION_POLICY_PRIMARY.
+helpviewer_keywords: ["CF_POPULATION_POLICY_MODIFIER","CF_POPULATION_POLICY_MODIFIER enumeration","CF_POPULATION_POLICY_MODIFIER_NONE","cfapi/CF_POPULATION_POLICY_MODIFIER","cfapi/CF_POPULATION_POLICY_MODIFIER_NONE","cloudApi.cf_population_policy_modifier"]
 old-location: cloudapi\cf_population_policy_modifier.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: E8F8066C-BAAE-4576-BA8F-49074F7C3C8F
 ms.date: 12/05/2018
 ms.keywords: CF_POPULATION_POLICY_MODIFIER, CF_POPULATION_POLICY_MODIFIER enumeration, CF_POPULATION_POLICY_MODIFIER_NONE, cfapi/CF_POPULATION_POLICY_MODIFIER, cfapi/CF_POPULATION_POLICY_MODIFIER_NONE, cloudApi.cf_population_policy_modifier

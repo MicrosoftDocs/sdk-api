@@ -1,7 +1,8 @@
 ---
 UID: NC:stm.PCLOSE_SERVICE_ENUMERATION_HANDLE
 title: PCLOSE_SERVICE_ENUMERATION_HANDLE (stm.h)
-description: The CloseServiceEnumerationHandle function terminates the enumeration and frees associated resources.helpviewer_keywords: ["CloseServiceEnumerationHandle","CloseServiceEnumerationHandle callback function [RAS]","PCLOSE_SERVICE_ENUMERATION_HANDLE","PCLOSE_SERVICE_ENUMERATION_HANDLE callback","_mpr_closeserviceenumerationhandle","rras.closeserviceenumerationhandle","stm/CloseServiceEnumerationHandle"]
+description: The CloseServiceEnumerationHandle function terminates the enumeration and frees associated resources.
+helpviewer_keywords: ["CloseServiceEnumerationHandle","CloseServiceEnumerationHandle callback function [RAS]","PCLOSE_SERVICE_ENUMERATION_HANDLE","PCLOSE_SERVICE_ENUMERATION_HANDLE callback","_mpr_closeserviceenumerationhandle","rras.closeserviceenumerationhandle","stm/CloseServiceEnumerationHandle"]
 old-location: rras\closeserviceenumerationhandle.htm
 tech.root: RRAS
 ms.assetid: c127f914-b655-4b6a-bb13-daeb5e82e343

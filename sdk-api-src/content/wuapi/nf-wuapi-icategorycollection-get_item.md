@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Item
 title: ICategoryCollection::get_Item (wuapi.h)
-description: Gets an ICategory interface from the collection.helpviewer_keywords: ["ICategoryCollection interface [Windows Update Agent]","Item property","ICategoryCollection.Item","ICategoryCollection.get_Item","ICategoryCollection::Item","ICategoryCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","ICategoryCollection interface","get_Item","wua.icategorycollection_item","wuapi/ICategoryCollection::Item","wuapi/ICategoryCollection::get_Item"]
+description: Gets an ICategory interface from the collection.
+helpviewer_keywords: ["ICategoryCollection interface [Windows Update Agent]","Item property","ICategoryCollection.Item","ICategoryCollection.get_Item","ICategoryCollection::Item","ICategoryCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","ICategoryCollection interface","get_Item","wua.icategorycollection_item","wuapi/ICategoryCollection::Item","wuapi/ICategoryCollection::get_Item"]
 old-location: wua\icategorycollection_item.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
 ms.date: 12/05/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],Item property, ICategoryCollection.Item, ICategoryCollection.get_Item, ICategoryCollection::Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],ICategoryCollection interface, get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item

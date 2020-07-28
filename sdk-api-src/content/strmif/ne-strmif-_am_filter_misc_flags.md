@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif._AM_FILTER_MISC_FLAGS
 title: "_AM_FILTER_MISC_FLAGS (strmif.h)"
-description: The _AM_FILTER_MISC_FLAGS enumeration contains flags that indicate whether a filter is a source filter or a renderer filter.helpviewer_keywords: ["AM_FILTER_MISC_FLAGSEnumeration","AM_FILTER_MISC_FLAGS_IS_RENDERER","AM_FILTER_MISC_FLAGS_IS_SOURCE","_AM_FILTER_MISC_FLAGS","_AM_FILTER_MISC_FLAGS enumeration [DirectShow]","dshow._am_filter_misc_flags","strmif/AM_FILTER_MISC_FLAGS_IS_RENDERER","strmif/AM_FILTER_MISC_FLAGS_IS_SOURCE","strmif/_AM_FILTER_MISC_FLAGS"]
+description: The _AM_FILTER_MISC_FLAGS enumeration contains flags that indicate whether a filter is a source filter or a renderer filter.
+helpviewer_keywords: ["AM_FILTER_MISC_FLAGSEnumeration","AM_FILTER_MISC_FLAGS_IS_RENDERER","AM_FILTER_MISC_FLAGS_IS_SOURCE","_AM_FILTER_MISC_FLAGS","_AM_FILTER_MISC_FLAGS enumeration [DirectShow]","dshow._am_filter_misc_flags","strmif/AM_FILTER_MISC_FLAGS_IS_RENDERER","strmif/AM_FILTER_MISC_FLAGS_IS_SOURCE","strmif/_AM_FILTER_MISC_FLAGS"]
 old-location: dshow\_am_filter_misc_flags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7acc160c-0da8-4b85-b88c-82b59ec38106
 ms.date: 12/05/2018
 ms.keywords: AM_FILTER_MISC_FLAGSEnumeration, AM_FILTER_MISC_FLAGS_IS_RENDERER, AM_FILTER_MISC_FLAGS_IS_SOURCE, _AM_FILTER_MISC_FLAGS, _AM_FILTER_MISC_FLAGS enumeration [DirectShow], dshow._am_filter_misc_flags, strmif/AM_FILTER_MISC_FLAGS_IS_RENDERER, strmif/AM_FILTER_MISC_FLAGS_IS_SOURCE, strmif/_AM_FILTER_MISC_FLAGS

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.EndGetClientCertificate
 title: IMFSSLCertificateManager::EndGetClientCertificate (mfidl.h)
-description: Completes an asynchronous request to get the client SSL certificate.helpviewer_keywords: ["EndGetClientCertificate","EndGetClientCertificate method [Media Foundation]","EndGetClientCertificate method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","EndGetClientCertificate method","IMFSSLCertificateManager.EndGetClientCertificate","IMFSSLCertificateManager::EndGetClientCertificate","mf.imfsslcertificatemanager_endgetclientcertificate","mfidl/IMFSSLCertificateManager::EndGetClientCertificate"]
+description: Completes an asynchronous request to get the client SSL certificate.
+helpviewer_keywords: ["EndGetClientCertificate","EndGetClientCertificate method [Media Foundation]","EndGetClientCertificate method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","EndGetClientCertificate method","IMFSSLCertificateManager.EndGetClientCertificate","IMFSSLCertificateManager::EndGetClientCertificate","mf.imfsslcertificatemanager_endgetclientcertificate","mfidl/IMFSSLCertificateManager::EndGetClientCertificate"]
 old-location: mf\imfsslcertificatemanager_endgetclientcertificate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 25cd2ab0-7f58-4bd5-b594-75a3acbdc2d9
 ms.date: 12/05/2018
 ms.keywords: EndGetClientCertificate, EndGetClientCertificate method [Media Foundation], EndGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],EndGetClientCertificate method, IMFSSLCertificateManager.EndGetClientCertificate, IMFSSLCertificateManager::EndGetClientCertificate, mf.imfsslcertificatemanager_endgetclientcertificate, mfidl/IMFSSLCertificateManager::EndGetClientCertificate

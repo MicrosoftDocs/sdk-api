@@ -1,9 +1,10 @@
 ---
 UID: NF:icwcfg.CheckConnectionWizard
 title: CheckConnectionWizard function (icwcfg.h)
-description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.helpviewer_keywords: ["CheckConnectionWizard","CheckConnectionWizard function [Windows API]","ICW_ALREADYRUN","ICW_CHECKSTATUS","ICW_FULLPRESENT","ICW_FULL_SMARTSTART","ICW_LAUNCHEDFULL","ICW_LAUNCHEDMANUAL","ICW_LAUNCHFULL","ICW_LAUNCHMANUAL","ICW_MANUALPRESENT","ICW_USE_SHELLNEXT","icwcfg/CheckConnectionWizard","winprog.checkconnectionwizard"]
+description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
+helpviewer_keywords: ["CheckConnectionWizard","CheckConnectionWizard function [Windows API]","ICW_ALREADYRUN","ICW_CHECKSTATUS","ICW_FULLPRESENT","ICW_FULL_SMARTSTART","ICW_LAUNCHEDFULL","ICW_LAUNCHEDMANUAL","ICW_LAUNCHFULL","ICW_LAUNCHMANUAL","ICW_MANUALPRESENT","ICW_USE_SHELLNEXT","icwcfg/CheckConnectionWizard","winprog.checkconnectionwizard"]
 old-location: winprog\checkconnectionwizard.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
 ms.date: 12/05/2018
 ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API], ICW_ALREADYRUN, ICW_CHECKSTATUS, ICW_FULLPRESENT, ICW_FULL_SMARTSTART, ICW_LAUNCHEDFULL, ICW_LAUNCHEDMANUAL, ICW_LAUNCHFULL, ICW_LAUNCHMANUAL, ICW_MANUALPRESENT, ICW_USE_SHELLNEXT, icwcfg/CheckConnectionWizard, winprog.checkconnectionwizard

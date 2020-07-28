@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateProxyFactoryEntry
 title: IUIAutomation::CreateProxyFactoryEntry (uiautomationclient.h)
-description: Creates a new instance of a proxy factory object.helpviewer_keywords: ["CreateProxyFactoryEntry","CreateProxyFactoryEntry method [Windows Accessibility]","CreateProxyFactoryEntry method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateProxyFactoryEntry method","IUIAutomation.CreateProxyFactoryEntry","IUIAutomation::CreateProxyFactoryEntry","uiauto.uiauto_IUIAutomation_CreateProxyFactoryEntry","uiauto_IUIAutomation_CreateProxyFactoryEntry","uiautomationclient/IUIAutomation::CreateProxyFactoryEntry","winauto.uiauto_IUIAutomation_CreateProxyFactoryEntry"]
+description: Creates a new instance of a proxy factory object.
+helpviewer_keywords: ["CreateProxyFactoryEntry","CreateProxyFactoryEntry method [Windows Accessibility]","CreateProxyFactoryEntry method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateProxyFactoryEntry method","IUIAutomation.CreateProxyFactoryEntry","IUIAutomation::CreateProxyFactoryEntry","uiauto.uiauto_IUIAutomation_CreateProxyFactoryEntry","uiauto_IUIAutomation_CreateProxyFactoryEntry","uiautomationclient/IUIAutomation::CreateProxyFactoryEntry","winauto.uiauto_IUIAutomation_CreateProxyFactoryEntry"]
 old-location: winauto\uiauto_IUIAutomation_CreateProxyFactoryEntry.htm
 tech.root: WinAuto
 ms.assetid: dcb7ceb8-d794-4b7a-97ed-d7fc2002d7d7

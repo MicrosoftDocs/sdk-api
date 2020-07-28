@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetProperties
 title: ResUtilGetProperties function (resapi.h)
-description: Retrieves properties specified by a property table from the cluster database and returns them in a property list. The PRESUTIL_GET_PROPERTIES type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_PROPERTIES","PRESUTIL_GET_PROPERTIES function [Failover Cluster]","ResUtilGetProperties","ResUtilGetProperties function [Failover Cluster]","_wolf_resutilgetproperties","mscs.resutilgetproperties","resapi/PRESUTIL_GET_PROPERTIES","resapi/ResUtilGetProperties"]
+description: Retrieves properties specified by a property table from the cluster database and returns them in a property list. The PRESUTIL_GET_PROPERTIES type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_PROPERTIES","PRESUTIL_GET_PROPERTIES function [Failover Cluster]","ResUtilGetProperties","ResUtilGetProperties function [Failover Cluster]","_wolf_resutilgetproperties","mscs.resutilgetproperties","resapi/PRESUTIL_GET_PROPERTIES","resapi/ResUtilGetProperties"]
 old-location: mscs\resutilgetproperties.htm
 tech.root: MsCS
 ms.assetid: 6ed03916-660f-4862-b638-900c9b8e4bef

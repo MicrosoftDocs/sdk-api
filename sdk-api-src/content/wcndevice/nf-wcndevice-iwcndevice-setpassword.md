@@ -1,7 +1,8 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetPassword
 title: IWCNDevice::SetPassword (wcndevice.h)
-description: The IWCNDevice::SetPassword method configures the authentication method value, and if required, a password used for the pending session. This method may only be called prior to IWCNDevice::Connect.helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetPassword method","IWCNDevice.SetPassword","IWCNDevice::SetPassword","SetPassword","SetPassword method [Windows Connect Now]","SetPassword method [Windows Connect Now]","IWCNDevice interface","WCN_PASSWORD_TYPE_PIN","WCN_PASSWORD_TYPE_PUSH_BUTTON","wcn.iwcndevice_setpassword","wcndevice/IWCNDevice::SetPassword"]
+description: The IWCNDevice::SetPassword method configures the authentication method value, and if required, a password used for the pending session. This method may only be called prior to IWCNDevice::Connect.
+helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetPassword method","IWCNDevice.SetPassword","IWCNDevice::SetPassword","SetPassword","SetPassword method [Windows Connect Now]","SetPassword method [Windows Connect Now]","IWCNDevice interface","WCN_PASSWORD_TYPE_PIN","WCN_PASSWORD_TYPE_PUSH_BUTTON","wcn.iwcndevice_setpassword","wcndevice/IWCNDevice::SetPassword"]
 old-location: wcn\iwcndevice_setpassword.htm
 tech.root: wcn
 ms.assetid: 51d03336-3861-4585-b493-d6765c28b1eb

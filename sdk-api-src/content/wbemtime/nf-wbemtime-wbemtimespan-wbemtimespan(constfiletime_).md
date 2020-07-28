@@ -1,9 +1,10 @@
 ---
-UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const FILETIME &)
+UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(constFILETIME&)
 title: WBEMTimeSpan::WBEMTimeSpan(const FILETIME &) (wbemtime.h)
-description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.helpviewer_keywords: ["WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan(const FILETIME &)","WBEMTimeSpan::WBEMTimeSpan","WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation]","WBEMTimeSpan::WBEMTimeSpan(const FILETIME &)","WBEMTimeSpan::WbemTimeSpan","wbemtime/WBEMTimeSpan::WBEMTimeSpan","wmi.wbemtimespan_wbemtimespan"]
+description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
+helpviewer_keywords: ["WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan(const FILETIME &)","WBEMTimeSpan::WBEMTimeSpan","WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation]","WBEMTimeSpan::WBEMTimeSpan(const FILETIME &)","WBEMTimeSpan::WbemTimeSpan","wbemtime/WBEMTimeSpan::WBEMTimeSpan","wmi.wbemtimespan_wbemtimespan"]
 old-location: wmi\wbemtimespan_wbemtimespan.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const FILETIME &), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WBEMTimeSpan(const FILETIME &), WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan

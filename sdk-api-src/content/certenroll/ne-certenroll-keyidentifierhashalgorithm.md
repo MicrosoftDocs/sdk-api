@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.KeyIdentifierHashAlgorithm
 title: KeyIdentifierHashAlgorithm (certenroll.h)
-description: Specifies the algorithm used to hash the public key in a certificate request.helpviewer_keywords: ["KeyIdentifierHashAlgorithm","KeyIdentifierHashAlgorithm enumeration [Security]","SKIHashCapiSha1","SKIHashDefault","SKIHashSha1","SKIHashSha256","certenroll/KeyIdentifierHashAlgorithm","certenroll/SKIHashCapiSha1","certenroll/SKIHashDefault","certenroll/SKIHashSha1","certenroll/SKIHashSha256","security.keyidentifierhashalgorithm_enum"]
+description: Specifies the algorithm used to hash the public key in a certificate request.
+helpviewer_keywords: ["KeyIdentifierHashAlgorithm","KeyIdentifierHashAlgorithm enumeration [Security]","SKIHashCapiSha1","SKIHashDefault","SKIHashSha1","SKIHashSha256","certenroll/KeyIdentifierHashAlgorithm","certenroll/SKIHashCapiSha1","certenroll/SKIHashDefault","certenroll/SKIHashSha1","certenroll/SKIHashSha256","security.keyidentifierhashalgorithm_enum"]
 old-location: security\keyidentifierhashalgorithm_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 80e3c730-880f-4cfa-921f-3bb88cf827f2
 ms.date: 12/05/2018
 ms.keywords: KeyIdentifierHashAlgorithm, KeyIdentifierHashAlgorithm enumeration [Security], SKIHashCapiSha1, SKIHashDefault, SKIHashSha1, SKIHashSha256, certenroll/KeyIdentifierHashAlgorithm, certenroll/SKIHashCapiSha1, certenroll/SKIHashDefault, certenroll/SKIHashSha1, certenroll/SKIHashSha256, security.keyidentifierhashalgorithm_enum

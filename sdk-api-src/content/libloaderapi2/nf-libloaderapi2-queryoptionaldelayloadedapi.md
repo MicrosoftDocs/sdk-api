@@ -1,9 +1,10 @@
 ---
 UID: NF:libloaderapi2.QueryOptionalDelayLoadedAPI
 title: QueryOptionalDelayLoadedAPI function (libloaderapi2.h)
-description: Determines whether the specified function in a delay-loaded DLL is available on the system.helpviewer_keywords: ["QueryOptionalDelayLoadedAPI","QueryOptionalDelayLoadedAPI function","base.queryoptionaldelayloadedapi","libloaderapi2/QueryOptionalDelayLoadedAPI"]
+description: Determines whether the specified function in a delay-loaded DLL is available on the system.
+helpviewer_keywords: ["QueryOptionalDelayLoadedAPI","QueryOptionalDelayLoadedAPI function","base.queryoptionaldelayloadedapi","libloaderapi2/QueryOptionalDelayLoadedAPI"]
 old-location: base\queryoptionaldelayloadedapi.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.date: 12/05/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI

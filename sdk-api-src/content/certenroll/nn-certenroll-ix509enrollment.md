@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509Enrollment
 title: IX509Enrollment (certenroll.h)
-description: Represents the top level object and enables you to enroll in a certificate hierarchy and install a certificate response.helpviewer_keywords: ["IX509Enrollment","IX509Enrollment interface [Security]","IX509Enrollment interface [Security]","described","certenroll/IX509Enrollment","security.ix509enrollment"]
+description: Represents the top level object and enables you to enroll in a certificate hierarchy and install a certificate response.
+helpviewer_keywords: ["IX509Enrollment","IX509Enrollment interface [Security]","IX509Enrollment interface [Security]","described","certenroll/IX509Enrollment","security.ix509enrollment"]
 old-location: security\ix509enrollment.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment

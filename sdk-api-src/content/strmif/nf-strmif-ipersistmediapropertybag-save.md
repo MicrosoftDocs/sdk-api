@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.Save
 title: IPersistMediaPropertyBag::Save (strmif.h)
-description: The Save method saves properties from the filter into the media property bag.helpviewer_keywords: ["IPersistMediaPropertyBag interface [DirectShow]","Save method","IPersistMediaPropertyBag.Save","IPersistMediaPropertyBag::Save","IPersistMediaPropertyBagSave","Save","Save method [DirectShow]","Save method [DirectShow]","IPersistMediaPropertyBag interface","dshow.ipersistmediapropertybag_save","strmif/IPersistMediaPropertyBag::Save"]
+description: The Save method saves properties from the filter into the media property bag.
+helpviewer_keywords: ["IPersistMediaPropertyBag interface [DirectShow]","Save method","IPersistMediaPropertyBag.Save","IPersistMediaPropertyBag::Save","IPersistMediaPropertyBagSave","Save","Save method [DirectShow]","Save method [DirectShow]","IPersistMediaPropertyBag interface","dshow.ipersistmediapropertybag_save","strmif/IPersistMediaPropertyBag::Save"]
 old-location: dshow\ipersistmediapropertybag_save.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 12c66650-31c1-40b8-9f3d-bc5553dbfa94
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Save method, IPersistMediaPropertyBag.Save, IPersistMediaPropertyBag::Save, IPersistMediaPropertyBagSave, Save, Save method [DirectShow], Save method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_save, strmif/IPersistMediaPropertyBag::Save

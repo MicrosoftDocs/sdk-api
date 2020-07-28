@@ -1,9 +1,10 @@
 ---
 UID: NF:winuser.IsWow64Message
 title: IsWow64Message function (winuser.h)
-description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.helpviewer_keywords: ["IsWow64Message","IsWow64Message function","base.iswow64message","winuser/IsWow64Message"]
+description: Determines whether the last message read from the current thread's queue originated from a WOW64 process.
+helpviewer_keywords: ["IsWow64Message","IsWow64Message function","base.iswow64message","winuser/IsWow64Message"]
 old-location: base\iswow64message.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
 ms.date: 12/05/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message

@@ -1,9 +1,10 @@
 ---
 UID: NS:p2p.peer_pnrp_endpoint_info_tag
 title: PEER_PNRP_ENDPOINT_INFO (p2p.h)
-description: Contains the IP addresses and data associated with a peer endpoint.helpviewer_keywords: ["*PPEER_PNRP_ENDPOINT_INFO","PEER_PNRP_ENDPOINT_INFO","PEER_PNRP_ENDPOINT_INFO structure [Peer Networking]","PPEER_PNRP_ENDPOINT_INFO","PPEER_PNRP_ENDPOINT_INFO structure pointer [Peer Networking]","p2p.peer_pnrp_endpoint_info","p2p/PEER_PNRP_ENDPOINT_INFO","p2p/PPEER_PNRP_ENDPOINT_INFO"]
+description: Contains the IP addresses and data associated with a peer endpoint.
+helpviewer_keywords: ["*PPEER_PNRP_ENDPOINT_INFO","PEER_PNRP_ENDPOINT_INFO","PEER_PNRP_ENDPOINT_INFO structure [Peer Networking]","PPEER_PNRP_ENDPOINT_INFO","PPEER_PNRP_ENDPOINT_INFO structure pointer [Peer Networking]","p2p.peer_pnrp_endpoint_info","p2p/PEER_PNRP_ENDPOINT_INFO","p2p/PPEER_PNRP_ENDPOINT_INFO"]
 old-location: p2p\peer_pnrp_endpoint_info.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 986e3bec-9915-4a7c-8f54-faf25fa2848c
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO structure [Peer Networking], PPEER_PNRP_ENDPOINT_INFO, PPEER_PNRP_ENDPOINT_INFO structure pointer [Peer Networking], p2p.peer_pnrp_endpoint_info, p2p/PEER_PNRP_ENDPOINT_INFO, p2p/PPEER_PNRP_ENDPOINT_INFO'

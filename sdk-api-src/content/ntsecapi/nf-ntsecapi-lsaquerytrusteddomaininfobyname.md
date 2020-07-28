@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.LsaQueryTrustedDomainInfoByName
 title: LsaQueryTrustedDomainInfoByName function (ntsecapi.h)
-description: The LsaQueryTrustedDomainInfoByName function returns information about a trusted domain.helpviewer_keywords: ["LsaQueryTrustedDomainInfoByName","LsaQueryTrustedDomainInfoByName function [Security]","TrustedDomainFullInformation","TrustedDomainInformationBasic","TrustedDomainInformationEx","TrustedDomainNameInformation","TrustedPasswordInformation","TrustedPosixInformation","_lsa_lsaquerytrusteddomaininfobyname","ntsecapi/LsaQueryTrustedDomainInfoByName","security.lsaquerytrusteddomaininfobyname"]
+description: The LsaQueryTrustedDomainInfoByName function returns information about a trusted domain.
+helpviewer_keywords: ["LsaQueryTrustedDomainInfoByName","LsaQueryTrustedDomainInfoByName function [Security]","TrustedDomainFullInformation","TrustedDomainInformationBasic","TrustedDomainInformationEx","TrustedDomainNameInformation","TrustedPasswordInformation","TrustedPosixInformation","_lsa_lsaquerytrusteddomaininfobyname","ntsecapi/LsaQueryTrustedDomainInfoByName","security.lsaquerytrusteddomaininfobyname"]
 old-location: security\lsaquerytrusteddomaininfobyname.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: d33d6cee-bd8b-49f4-8e65-07cdc65bec7c
 ms.date: 12/05/2018
 ms.keywords: LsaQueryTrustedDomainInfoByName, LsaQueryTrustedDomainInfoByName function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixInformation, _lsa_lsaquerytrusteddomaininfobyname, ntsecapi/LsaQueryTrustedDomainInfoByName, security.lsaquerytrusteddomaininfobyname

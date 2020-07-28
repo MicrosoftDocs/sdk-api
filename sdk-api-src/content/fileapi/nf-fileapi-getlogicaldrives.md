@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.GetLogicalDrives
 title: GetLogicalDrives function (fileapi.h)
-description: Retrieves a bitmask representing the currently available disk drives.helpviewer_keywords: ["GetLogicalDrives","GetLogicalDrives function [Files]","_win32_getlogicaldrives","base.getlogicaldrives","fileapi/GetLogicalDrives","fs.getlogicaldrives","winbase/GetLogicalDrives"]
+description: Retrieves a bitmask representing the currently available disk drives.
+helpviewer_keywords: ["GetLogicalDrives","GetLogicalDrives function [Files]","_win32_getlogicaldrives","base.getlogicaldrives","fileapi/GetLogicalDrives","fs.getlogicaldrives","winbase/GetLogicalDrives"]
 old-location: fs\getlogicaldrives.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
 ms.date: 12/05/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives

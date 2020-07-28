@@ -1,9 +1,10 @@
 ---
 UID: NF:certpol.INDESPolicy.Initialize
 title: INDESPolicy::Initialize (certpol.h)
-description: Initializes the NDES policy module.helpviewer_keywords: ["INDESPolicy interface [Security]","Initialize method","INDESPolicy.Initialize","INDESPolicy::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","INDESPolicy interface","certpol/INDESPolicy::Initialize","security.indespolicy_initialize"]
+description: Initializes the NDES policy module.
+helpviewer_keywords: ["INDESPolicy interface [Security]","Initialize method","INDESPolicy.Initialize","INDESPolicy::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","INDESPolicy interface","certpol/INDESPolicy::Initialize","security.indespolicy_initialize"]
 old-location: security\indespolicy_initialize.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.ScrollPattern_Scroll
 title: ScrollPattern_Scroll function (uiautomationcoreapi.h)
-description: Scrolls the currently visible region of the content area the specified ScrollAmount, horizontally, vertically, or both.helpviewer_keywords: ["ScrollPattern_Scroll","ScrollPattern_Scroll function [Windows Accessibility]","uiauto.uiauto_ScrollPattern_ScrollConPat","uiauto_ScrollPattern_ScrollConPat","uiautomationcoreapi/ScrollPattern_Scroll","winauto.uiauto_ScrollPattern_ScrollConPat"]
+description: Scrolls the currently visible region of the content area the specified ScrollAmount, horizontally, vertically, or both.
+helpviewer_keywords: ["ScrollPattern_Scroll","ScrollPattern_Scroll function [Windows Accessibility]","uiauto.uiauto_ScrollPattern_ScrollConPat","uiauto_ScrollPattern_ScrollConPat","uiautomationcoreapi/ScrollPattern_Scroll","winauto.uiauto_ScrollPattern_ScrollConPat"]
 old-location: winauto\uiauto_ScrollPattern_ScrollConPat.htm
 tech.root: WinAuto
 ms.assetid: fffed882-89db-47f1-8e3a-a2c8e11ac865

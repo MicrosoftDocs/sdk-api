@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetAuthorizationFn
 title: RpcMgmtSetAuthorizationFn function (rpcdce.h)
-description: The RpcMgmtSetAuthorizationFn function establishes an authorization function for processing remote calls to a server's management functions.helpviewer_keywords: ["RpcMgmtSetAuthorizationFn","RpcMgmtSetAuthorizationFn function [RPC]","_rpc_rpcmgmtsetauthorizationfn","rpc.rpcmgmtsetauthorizationfn","rpcdce/RpcMgmtSetAuthorizationFn"]
+description: The RpcMgmtSetAuthorizationFn function establishes an authorization function for processing remote calls to a server's management functions.
+helpviewer_keywords: ["RpcMgmtSetAuthorizationFn","RpcMgmtSetAuthorizationFn function [RPC]","_rpc_rpcmgmtsetauthorizationfn","rpc.rpcmgmtsetauthorizationfn","rpcdce/RpcMgmtSetAuthorizationFn"]
 old-location: rpc\rpcmgmtsetauthorizationfn.htm
 tech.root: Rpc
 ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4

@@ -1,7 +1,9 @@
 ---
 UID: NF:chstring.CHString.Find(WCHAR)
 title: CHString::Find
-description: helpviewer_keywords: ["CHString::Find"]
+description: 
+tech.root: wmi
+helpviewer_keywords: ["CHString::Find"]
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: CHString::Find

@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IAudioAutoGainControl.SetEnabled
 title: IAudioAutoGainControl::SetEnabled (devicetopology.h)
-description: The SetEnabled method enables or disables the AGC.helpviewer_keywords: ["IAudioAutoGainControl interface [Core Audio]","SetEnabled method","IAudioAutoGainControl.SetEnabled","IAudioAutoGainControl::SetEnabled","IAudioAutoGainControlSetEnabled","SetEnabled","SetEnabled method [Core Audio]","SetEnabled method [Core Audio]","IAudioAutoGainControl interface","coreaudio.iaudioautogaincontrol_setenabled","devicetopology/IAudioAutoGainControl::SetEnabled"]
+description: The SetEnabled method enables or disables the AGC.
+helpviewer_keywords: ["IAudioAutoGainControl interface [Core Audio]","SetEnabled method","IAudioAutoGainControl.SetEnabled","IAudioAutoGainControl::SetEnabled","IAudioAutoGainControlSetEnabled","SetEnabled","SetEnabled method [Core Audio]","SetEnabled method [Core Audio]","IAudioAutoGainControl interface","coreaudio.iaudioautogaincontrol_setenabled","devicetopology/IAudioAutoGainControl::SetEnabled"]
 old-location: coreaudio\iaudioautogaincontrol_setenabled.htm
 tech.root: CoreAudio
 ms.assetid: 05bf3b59-20e9-4bb0-931b-b6f28676cb5f

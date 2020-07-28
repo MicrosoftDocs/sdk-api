@@ -1,7 +1,8 @@
 ---
 UID: NE:xamlom.VisualMutationType
 title: VisualMutationType (xamlom.h)
-description: Defines constants that specify whether the element was added to or removed from the live visual tree.helpviewer_keywords: ["Add","Remove","VisualMutationType","VisualMutationType enumeration","xaml_diagnostics.visualmutationtype","xamlom/Add","xamlom/Remove","xamlom/VisualMutationType"]
+description: Defines constants that specify whether the element was added to or removed from the live visual tree.
+helpviewer_keywords: ["Add","Remove","VisualMutationType","VisualMutationType enumeration","xaml_diagnostics.visualmutationtype","xamlom/Add","xamlom/Remove","xamlom/VisualMutationType"]
 old-location: xaml_diagnostics\visualmutationtype.htm
 tech.root: xaml_diagnostics
 ms.assetid: 9DAABF59-AC88-4B14-A7F1-470D4C0879FF

@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.GetLength
 title: CHString::GetLength (chstring.h)
-description: The GetLength method gets a count of the number of wide characters in this CHString string. The count does not include a NULL terminator.helpviewer_keywords: ["?GetLength@CHString@@QBEHXZ","?GetLength@CHString@@QEBAHXZ","CHString interface [Windows Management Instrumentation]","GetLength method","CHString.GetLength","CHString::GetLength","GetLength","GetLength method [Windows Management Instrumentation]","GetLength method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_getlength","chstring/CHString::GetLength","wmi.chstring_getlength"]
+description: The GetLength method gets a count of the number of wide characters in this CHString string. The count does not include a NULL terminator.
+helpviewer_keywords: ["?GetLength@CHString@@QBEHXZ","?GetLength@CHString@@QEBAHXZ","CHString interface [Windows Management Instrumentation]","GetLength method","CHString.GetLength","CHString::GetLength","GetLength","GetLength method [Windows Management Instrumentation]","GetLength method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_getlength","chstring/CHString::GetLength","wmi.chstring_getlength"]
 old-location: wmi\chstring_getlength.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
 ms.date: 12/05/2018
 ms.keywords: ?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],GetLength method, CHString.GetLength, CHString::GetLength, GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength

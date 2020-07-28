@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageFromStream1
 title: IXpsOMObjectFactory1::CreatePackageFromStream1 (xpsobjectmodel_1.h)
-description: Opens a stream that contains an XPS package and returns an instantiated XPS document object tree.helpviewer_keywords: ["CreatePackageFromStream1","CreatePackageFromStream1 method [XPS Documents and Packaging]","CreatePackageFromStream1 method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","CreatePackageFromStream1 method","IXpsOMObjectFactory1.CreatePackageFromStream1","IXpsOMObjectFactory1::CreatePackageFromStream1","xps.ixpsomobjectfactory1_createpackagefromstream1","xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromStream1"]
+description: Opens a stream that contains an XPS package and returns an instantiated XPS document object tree.
+helpviewer_keywords: ["CreatePackageFromStream1","CreatePackageFromStream1 method [XPS Documents and Packaging]","CreatePackageFromStream1 method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","CreatePackageFromStream1 method","IXpsOMObjectFactory1.CreatePackageFromStream1","IXpsOMObjectFactory1::CreatePackageFromStream1","xps.ixpsomobjectfactory1_createpackagefromstream1","xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromStream1"]
 old-location: xps\ixpsomobjectfactory1_createpackagefromstream1.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d9a7fd3a-d436-41b6-89ab-17baab9139e1
 ms.date: 12/05/2018
 ms.keywords: CreatePackageFromStream1, CreatePackageFromStream1 method [XPS Documents and Packaging], CreatePackageFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageFromStream1 method, IXpsOMObjectFactory1.CreatePackageFromStream1, IXpsOMObjectFactory1::CreatePackageFromStream1, xps.ixpsomobjectfactory1_createpackagefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromStream1

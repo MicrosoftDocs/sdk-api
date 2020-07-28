@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabRefreshEndpointData
 title: PeerCollabRefreshEndpointData function (p2p.h)
-description: Updates the calling peer node with new endpoint data.helpviewer_keywords: ["PeerCollabRefreshEndpointData","PeerCollabRefreshEndpointData function [Peer Networking]","p2p.peercollabrefreshendpointdata","p2p/PeerCollabRefreshEndpointData"]
+description: Updates the calling peer node with new endpoint data.
+helpviewer_keywords: ["PeerCollabRefreshEndpointData","PeerCollabRefreshEndpointData function [Peer Networking]","p2p.peercollabrefreshendpointdata","p2p/PeerCollabRefreshEndpointData"]
 old-location: p2p\peercollabrefreshendpointdata.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: ba841da4-de7f-4288-84b7-a06370b55e3c
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRefreshEndpointData, PeerCollabRefreshEndpointData function [Peer Networking], p2p.peercollabrefreshendpointdata, p2p/PeerCollabRefreshEndpointData

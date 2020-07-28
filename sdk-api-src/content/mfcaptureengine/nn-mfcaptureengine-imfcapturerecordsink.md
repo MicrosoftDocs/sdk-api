@@ -1,9 +1,10 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureRecordSink
 title: IMFCaptureRecordSink (mfcaptureengine.h)
-description: Controls the recording sink.helpviewer_keywords: ["IMFCaptureRecordSink","IMFCaptureRecordSink interface [Media Foundation]","IMFCaptureRecordSink interface [Media Foundation]","described","mf.imfcapturerecordsink","mfcaptureengine/IMFCaptureRecordSink"]
+description: Controls the recording sink.
+helpviewer_keywords: ["IMFCaptureRecordSink","IMFCaptureRecordSink interface [Media Foundation]","IMFCaptureRecordSink interface [Media Foundation]","described","mf.imfcapturerecordsink","mfcaptureengine/IMFCaptureRecordSink"]
 old-location: mf\imfcapturerecordsink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: AEF5923D-C4ED-4BEA-A969-163ED837A5BD
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], IMFCaptureRecordSink interface [Media Foundation],described, mf.imfcapturerecordsink, mfcaptureengine/IMFCaptureRecordSink

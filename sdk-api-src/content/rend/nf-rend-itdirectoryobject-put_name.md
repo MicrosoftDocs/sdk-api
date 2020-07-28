@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObject.put_Name
 title: ITDirectoryObject::put_Name (rend.h)
-description: The put_Name method sets the name of the directory object.helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","put_Name method","ITDirectoryObject.put_Name","ITDirectoryObject::put_Name","_tapi3_itdirectoryobject_put_name","put_Name","put_Name method [TAPI 2.2]","put_Name method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::put_Name","tapi3.itdirectoryobject_put_name"]
+description: The put_Name method sets the name of the directory object.
+helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","put_Name method","ITDirectoryObject.put_Name","ITDirectoryObject::put_Name","_tapi3_itdirectoryobject_put_name","put_Name","put_Name method [TAPI 2.2]","put_Name method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::put_Name","tapi3.itdirectoryobject_put_name"]
 old-location: tapi3\itdirectoryobject_put_name.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 398ba207-bdd7-4090-ac8b-72badbb401e3
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],put_Name method, ITDirectoryObject.put_Name, ITDirectoryObject::put_Name, _tapi3_itdirectoryobject_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::put_Name, tapi3.itdirectoryobject_put_name

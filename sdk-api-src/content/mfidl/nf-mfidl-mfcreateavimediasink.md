@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFCreateAVIMediaSink
 title: MFCreateAVIMediaSink function (mfidl.h)
-description: Creates an Audio-Video Interleaved (AVI) Sink.helpviewer_keywords: ["MFCreateAVIMediaSink","MFCreateAVIMediaSink function [Media Foundation]","mf.mfcreateavimediasink","mfidl/MFCreateAVIMediaSink"]
+description: Creates an Audio-Video Interleaved (AVI) Sink.
+helpviewer_keywords: ["MFCreateAVIMediaSink","MFCreateAVIMediaSink function [Media Foundation]","mf.mfcreateavimediasink","mfidl/MFCreateAVIMediaSink"]
 old-location: mf\mfcreateavimediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BAF47469-783B-4035-BD83-2921A88877E4
 ms.date: 12/05/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink

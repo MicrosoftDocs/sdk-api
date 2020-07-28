@@ -1,9 +1,10 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleExA
 title: GetModuleHandleExA function (libloaderapi.h)
-description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process.helpviewer_keywords: ["GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS","GET_MODULE_HANDLE_EX_FLAG_PIN","GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT","GetModuleHandleEx","GetModuleHandleEx function","GetModuleHandleExA","GetModuleHandleExW","_win32_getmodulehandleex","base.getmodulehandleex","libloaderapi/GetModuleHandleEx","libloaderapi/GetModuleHandleExA","libloaderapi/GetModuleHandleExW","winbase/GetModuleHandleEx","winbase/GetModuleHandleExA","winbase/GetModuleHandleExW"]
+description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process.
+helpviewer_keywords: ["GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS","GET_MODULE_HANDLE_EX_FLAG_PIN","GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT","GetModuleHandleEx","GetModuleHandleEx function","GetModuleHandleExA","GetModuleHandleExW","_win32_getmodulehandleex","base.getmodulehandleex","libloaderapi/GetModuleHandleEx","libloaderapi/GetModuleHandleExA","libloaderapi/GetModuleHandleExW","winbase/GetModuleHandleEx","winbase/GetModuleHandleExA","winbase/GetModuleHandleExW"]
 old-location: base\getmodulehandleex.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: 951c7e6e-1d6d-4393-a675-d2b353c53b87
 ms.date: 12/05/2018
 ms.keywords: GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, GET_MODULE_HANDLE_EX_FLAG_PIN, GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, GetModuleHandleEx, GetModuleHandleEx function, GetModuleHandleExA, GetModuleHandleExW, _win32_getmodulehandleex, base.getmodulehandleex, libloaderapi/GetModuleHandleEx, libloaderapi/GetModuleHandleExA, libloaderapi/GetModuleHandleExW, winbase/GetModuleHandleEx, winbase/GetModuleHandleExA, winbase/GetModuleHandleExW
@@ -151,6 +152,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 
 
+
+
+> [!NOTE]
+> The libloaderapi.h header defines GetModuleHandleEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

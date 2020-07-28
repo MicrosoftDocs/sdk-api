@@ -1,7 +1,8 @@
 ---
 UID: NF:roregistrationapi.RoGetActivatableClassRegistration
 title: RoGetActivatableClassRegistration function (roregistrationapi.h)
-description: Enables retrieving class registration information.helpviewer_keywords: ["RoGetActivatableClassRegistration","RoGetActivatableClassRegistration function [Windows Runtime]","roregistrationapi/RoGetActivatableClassRegistration","winrt.rogetactivatableclassregistration"]
+description: Enables retrieving class registration information.
+helpviewer_keywords: ["RoGetActivatableClassRegistration","RoGetActivatableClassRegistration function [Windows Runtime]","roregistrationapi/RoGetActivatableClassRegistration","winrt.rogetactivatableclassregistration"]
 old-location: winrt\rogetactivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 9D9B74C9-9D9A-4E10-A222-C8F3658F2C48

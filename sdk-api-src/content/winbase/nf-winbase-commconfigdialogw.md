@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CommConfigDialogW
 title: CommConfigDialogW function (winbase.h)
-description: Displays a driver-supplied configuration dialog box.helpviewer_keywords: ["CommConfigDialog","CommConfigDialog function","CommConfigDialogA","CommConfigDialogW","_win32_commconfigdialog","base.commconfigdialog","winbase/CommConfigDialog","winbase/CommConfigDialogA","winbase/CommConfigDialogW"]
+description: Displays a driver-supplied configuration dialog box.
+helpviewer_keywords: ["CommConfigDialog","CommConfigDialog function","CommConfigDialogA","CommConfigDialogW","_win32_commconfigdialog","base.commconfigdialog","winbase/CommConfigDialog","winbase/CommConfigDialogA","winbase/CommConfigDialogW"]
 old-location: base\commconfigdialog.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 6c7a3833-1d40-40c5-bfa7-14523bc73ab0
 ms.date: 12/05/2018
 ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW
@@ -96,6 +97,10 @@ The
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CommConfigDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

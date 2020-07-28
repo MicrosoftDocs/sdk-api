@@ -1,7 +1,8 @@
 ---
 UID: NF:sensevts.ISensLogon.DisplayLock
 title: ISensLogon::DisplayLock (sensevts.h)
-description: The DisplayLock method notifies an application that the screen display is locked.helpviewer_keywords: ["DisplayLock","DisplayLock method [SENS]","DisplayLock method [SENS]","ISensLogon interface","ISensLogon interface [SENS]","DisplayLock method","ISensLogon.DisplayLock","ISensLogon::DisplayLock","_zaw_isenslogon_displaylock","sens.isenslogon_displaylock","sensevts/ISensLogon::DisplayLock","syncmgr.isenslogon_displaylock"]
+description: The DisplayLock method notifies an application that the screen display is locked.
+helpviewer_keywords: ["DisplayLock","DisplayLock method [SENS]","DisplayLock method [SENS]","ISensLogon interface","ISensLogon interface [SENS]","DisplayLock method","ISensLogon.DisplayLock","ISensLogon::DisplayLock","_zaw_isenslogon_displaylock","sens.isenslogon_displaylock","sensevts/ISensLogon::DisplayLock","syncmgr.isenslogon_displaylock"]
 old-location: sens\isenslogon_displaylock.htm
 tech.root: Sens
 ms.assetid: 1675ffc7-7031-492d-bf39-64281a16a074

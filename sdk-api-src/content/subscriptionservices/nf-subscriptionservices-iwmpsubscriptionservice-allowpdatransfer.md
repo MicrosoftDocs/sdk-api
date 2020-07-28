@@ -1,7 +1,8 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowPDATransfer
 title: IWMPSubscriptionService::allowPDATransfer (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionService interface [Windows Media Player]","allowPDATransfer method","IWMPSubscriptionService.allowPDATransfer","IWMPSubscriptionService::allowPDATransfer","IWMPSubscriptionServiceallowPDATransfer","allowPDATransfer","allowPDATransfer method [Windows Media Player]","allowPDATransfer method [Windows Media Player]","IWMPSubscriptionService interface","subscriptionservices/IWMPSubscriptionService::allowPDATransfer","wmp.iwmpsubscriptionservice_allowpdatransfer"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPSubscriptionService interface [Windows Media Player]","allowPDATransfer method","IWMPSubscriptionService.allowPDATransfer","IWMPSubscriptionService::allowPDATransfer","IWMPSubscriptionServiceallowPDATransfer","allowPDATransfer","allowPDATransfer method [Windows Media Player]","allowPDATransfer method [Windows Media Player]","IWMPSubscriptionService interface","subscriptionservices/IWMPSubscriptionService::allowPDATransfer","wmp.iwmpsubscriptionservice_allowpdatransfer"]
 old-location: wmp\iwmpsubscriptionservice_allowpdatransfer.htm
 tech.root: WMP
 ms.assetid: a824c6c0-0887-41cb-892a-832635ade222

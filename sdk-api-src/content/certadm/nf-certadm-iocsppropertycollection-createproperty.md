@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.CreateProperty
 title: IOCSPPropertyCollection::CreateProperty (certadm.h)
-description: Creates a new property and adds it to a property set.helpviewer_keywords: ["CreateProperty","CreateProperty method [Security]","CreateProperty method [Security]","IOCSPPropertyCollection interface","IOCSPPropertyCollection interface [Security]","CreateProperty method","IOCSPPropertyCollection.CreateProperty","IOCSPPropertyCollection::CreateProperty","certadm/IOCSPPropertyCollection::CreateProperty","security.iocsppropertycollection_createproperty_method"]
+description: Creates a new property and adds it to a property set.
+helpviewer_keywords: ["CreateProperty","CreateProperty method [Security]","CreateProperty method [Security]","IOCSPPropertyCollection interface","IOCSPPropertyCollection interface [Security]","CreateProperty method","IOCSPPropertyCollection.CreateProperty","IOCSPPropertyCollection::CreateProperty","certadm/IOCSPPropertyCollection::CreateProperty","security.iocsppropertycollection_createproperty_method"]
 old-location: security\iocsppropertycollection_createproperty_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
 ms.date: 12/05/2018
 ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],CreateProperty method, IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method

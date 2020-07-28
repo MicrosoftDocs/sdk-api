@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509ExtensionSubjectKeyIdentifier
 title: IX509ExtensionSubjectKeyIdentifier (certenroll.h)
-description: Enables you to specify a SubjectKeyIdentifier extension.helpviewer_keywords: ["IX509ExtensionSubjectKeyIdentifier","IX509ExtensionSubjectKeyIdentifier interface [Security]","IX509ExtensionSubjectKeyIdentifier interface [Security]","described","certenroll/IX509ExtensionSubjectKeyIdentifier","security.ix509extensionsubjectkeyidentifier"]
+description: Enables you to specify a SubjectKeyIdentifier extension.
+helpviewer_keywords: ["IX509ExtensionSubjectKeyIdentifier","IX509ExtensionSubjectKeyIdentifier interface [Security]","IX509ExtensionSubjectKeyIdentifier interface [Security]","described","certenroll/IX509ExtensionSubjectKeyIdentifier","security.ix509extensionsubjectkeyidentifier"]
 old-location: security\ix509extensionsubjectkeyidentifier.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: dcf28967-65e0-4669-b1b1-b3d42f1b3d6b
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], IX509ExtensionSubjectKeyIdentifier interface [Security],described, certenroll/IX509ExtensionSubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier

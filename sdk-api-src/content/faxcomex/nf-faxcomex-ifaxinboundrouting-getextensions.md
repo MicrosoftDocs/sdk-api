@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxInboundRouting.GetExtensions
 title: IFaxInboundRouting::GetExtensions (faxcomex.h)
-description: The GetExtensions method retrieves the collection of inbound routing extensions registered with the fax service.helpviewer_keywords: ["GetExtensions","GetExtensions method [Fax Service]","GetExtensions method [Fax Service]","IFaxInboundRouting interface","IFaxInboundRouting interface [Fax Service]","GetExtensions method","IFaxInboundRouting.GetExtensions","IFaxInboundRouting::GetExtensions","_mfax_faxinboundrouting.getextensions_cpp","fax._mfax_faxinboundrouting_getextensions_cpp","faxcomex/IFaxInboundRouting::GetExtensions"]
+description: The GetExtensions method retrieves the collection of inbound routing extensions registered with the fax service.
+helpviewer_keywords: ["GetExtensions","GetExtensions method [Fax Service]","GetExtensions method [Fax Service]","IFaxInboundRouting interface","IFaxInboundRouting interface [Fax Service]","GetExtensions method","IFaxInboundRouting.GetExtensions","IFaxInboundRouting::GetExtensions","_mfax_faxinboundrouting.getextensions_cpp","fax._mfax_faxinboundrouting_getextensions_cpp","faxcomex/IFaxInboundRouting::GetExtensions"]
 old-location: fax\_mfax_faxinboundrouting_getextensions_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_80oj_cpp.htm

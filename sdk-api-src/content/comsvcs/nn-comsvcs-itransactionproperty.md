@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.ITransactionProperty
 title: ITransactionProperty (comsvcs.h)
-description: Used to get the transaction resource pool.helpviewer_keywords: ["ITransactionProperty","ITransactionProperty interface [COM+]","ITransactionProperty interface [COM+]","described","_cos_ITransactionProperty","comsvcs/ITransactionProperty","cos.itransactionproperty"]
+description: Used to get the transaction resource pool.
+helpviewer_keywords: ["ITransactionProperty","ITransactionProperty interface [COM+]","ITransactionProperty interface [COM+]","described","_cos_ITransactionProperty","comsvcs/ITransactionProperty","cos.itransactionproperty"]
 old-location: cos\itransactionproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 602842ce-abb1-4830-99b3-d361d18ac074
 ms.date: 12/05/2018
 ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+],described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty

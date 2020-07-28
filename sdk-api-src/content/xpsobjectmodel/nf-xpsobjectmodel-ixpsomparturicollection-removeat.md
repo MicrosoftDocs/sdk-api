@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.RemoveAt
 title: IXpsOMPartUriCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and releases an IOpcPartUri interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsOMPartUriCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMPartUriCollection.RemoveAt","IXpsOMPartUriCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMPartUriCollection interface","xps.ixpsomparturicollection_removeat","xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt"]
+description: Removes and releases an IOpcPartUri interface pointer from a specified location in the collection.
+helpviewer_keywords: ["IXpsOMPartUriCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMPartUriCollection.RemoveAt","IXpsOMPartUriCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMPartUriCollection interface","xps.ixpsomparturicollection_removeat","xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt"]
 old-location: xps\ixpsomparturicollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: db5e7595-eba0-454f-8fb3-f129ab537886
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPartUriCollection.RemoveAt, IXpsOMPartUriCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_removeat, xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt

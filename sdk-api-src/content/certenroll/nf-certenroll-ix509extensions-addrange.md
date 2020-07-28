@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509Extensions.AddRange
 title: IX509Extensions::AddRange (certenroll.h)
-description: Adds a range of IX509Extension objects to the collection.helpviewer_keywords: ["AddRange","AddRange method [Security]","AddRange method [Security]","IX509Extensions interface","IX509Extensions interface [Security]","AddRange method","IX509Extensions.AddRange","IX509Extensions::AddRange","certenroll/IX509Extensions::AddRange","security.ix509extensions_addrange_method"]
+description: Adds a range of IX509Extension objects to the collection.
+helpviewer_keywords: ["AddRange","AddRange method [Security]","AddRange method [Security]","IX509Extensions interface","IX509Extensions interface [Security]","AddRange method","IX509Extensions.AddRange","IX509Extensions::AddRange","certenroll/IX509Extensions::AddRange","security.ix509extensions_addrange_method"]
 old-location: security\ix509extensions_addrange_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e2e11b36-966b-497a-a199-41364314d287
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX509Extensions interface, IX509Extensions interface [Security],AddRange method, IX509Extensions.AddRange, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsSoftwareDevice
 title: ICspInformation::get_IsSoftwareDevice (certenroll.h)
-description: Retrieves a Boolean value that specifies whether the provider is implemented in software.helpviewer_keywords: ["ICspInformation interface [Security]","IsSoftwareDevice property","ICspInformation.IsSoftwareDevice","ICspInformation.get_IsSoftwareDevice","ICspInformation::IsSoftwareDevice","ICspInformation::get_IsSoftwareDevice","IsSoftwareDevice property [Security]","IsSoftwareDevice property [Security]","ICspInformation interface","certenroll/ICspInformation::IsSoftwareDevice","certenroll/ICspInformation::get_IsSoftwareDevice","get_IsSoftwareDevice","security.icspinformation_issoftwaredevice_property"]
+description: Retrieves a Boolean value that specifies whether the provider is implemented in software.
+helpviewer_keywords: ["ICspInformation interface [Security]","IsSoftwareDevice property","ICspInformation.IsSoftwareDevice","ICspInformation.get_IsSoftwareDevice","ICspInformation::IsSoftwareDevice","ICspInformation::get_IsSoftwareDevice","IsSoftwareDevice property [Security]","IsSoftwareDevice property [Security]","ICspInformation interface","certenroll/ICspInformation::IsSoftwareDevice","certenroll/ICspInformation::get_IsSoftwareDevice","get_IsSoftwareDevice","security.icspinformation_issoftwaredevice_property"]
 old-location: security\icspinformation_issoftwaredevice_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 50f78dcc-4d32-40c9-8153-f0b6ac72c03b
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsSoftwareDevice property, ICspInformation.IsSoftwareDevice, ICspInformation.get_IsSoftwareDevice, ICspInformation::IsSoftwareDevice, ICspInformation::get_IsSoftwareDevice, IsSoftwareDevice property [Security], IsSoftwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsSoftwareDevice, certenroll/ICspInformation::get_IsSoftwareDevice, get_IsSoftwareDevice, security.icspinformation_issoftwaredevice_property

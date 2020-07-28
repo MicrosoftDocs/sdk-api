@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureBlockCollection
 title: IXpsSignatureBlockCollection (xpsdigitalsignature.h)
-description: A collection of IXpsSignatureBlock interfaces.helpviewer_keywords: ["IXpsSignatureBlockCollection","IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","described","xps.ixpssignatureblockcollection","xpsdigitalsignature/IXpsSignatureBlockCollection"]
+description: A collection of IXpsSignatureBlock interfaces.
+helpviewer_keywords: ["IXpsSignatureBlockCollection","IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","described","xps.ixpssignatureblockcollection","xpsdigitalsignature/IXpsSignatureBlockCollection"]
 old-location: xps\ixpssignatureblockcollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e8f7be84-389e-40cf-a093-83417ba184c7
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureBlockCollection, IXpsSignatureBlockCollection interface [XPS Documents and Packaging], IXpsSignatureBlockCollection interface [XPS Documents and Packaging],described, xps.ixpssignatureblockcollection, xpsdigitalsignature/IXpsSignatureBlockCollection

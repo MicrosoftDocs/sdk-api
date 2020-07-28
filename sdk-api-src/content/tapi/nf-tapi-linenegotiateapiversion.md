@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineNegotiateAPIVersion
 title: lineNegotiateAPIVersion function (tapi.h)
-description: The lineNegotiateAPIVersion function allows an application to negotiate an API version to use.helpviewer_keywords: ["_tapi2_linenegotiateapiversion","lineNegotiateAPIVersion","lineNegotiateAPIVersion function [TAPI 2.2]","tapi/lineNegotiateAPIVersion","tapi2.linenegotiateapiversion"]
+description: The lineNegotiateAPIVersion function allows an application to negotiate an API version to use.
+helpviewer_keywords: ["_tapi2_linenegotiateapiversion","lineNegotiateAPIVersion","lineNegotiateAPIVersion function [TAPI 2.2]","tapi/lineNegotiateAPIVersion","tapi2.linenegotiateapiversion"]
 old-location: tapi2\linenegotiateapiversion.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 71eb55de-281b-42a9-8d9b-7ded62cb006a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linenegotiateapiversion, lineNegotiateAPIVersion, lineNegotiateAPIVersion function [TAPI 2.2], tapi/lineNegotiateAPIVersion, tapi2.linenegotiateapiversion

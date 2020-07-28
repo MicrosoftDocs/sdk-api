@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_Write
 title: ImageList_Write function (commctrl.h)
-description: Writes an image list to a stream.helpviewer_keywords: ["ImageList_Write","ImageList_Write function [Windows Controls]","_win32_ImageList_Write","_win32_ImageList_Write_cpp","commctrl/ImageList_Write","controls.ImageList_Write","controls._win32_ImageList_Write"]
+description: Writes an image list to a stream.
+helpviewer_keywords: ["ImageList_Write","ImageList_Write function [Windows Controls]","_win32_ImageList_Write","_win32_ImageList_Write_cpp","commctrl/ImageList_Write","controls.ImageList_Write","controls._win32_ImageList_Write"]
 old-location: controls\ImageList_Write.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_write.htm

@@ -4,7 +4,7 @@ title: FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 description: Writes Transactional NTFS (TxF) specific information to a specified file.
 helpviewer_keywords: ["FSCTL_TXFS_WRITE_BACKUP_INFORMATION","FSCTL_TXFS_WRITE_BACKUP_INFORMATION control","FSCTL_TXFS_WRITE_BACKUP_INFORMATION control code [Files]","fs.fsctl_txfs_write_backup_information","winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION"]
 old-location: fs\fsctl_txfs_write_backup_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 36080d53-9004-40f7-9d92-c6deaac8299f
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_WRITE_BACKUP_INFORMATION, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_write_backup_information, winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION

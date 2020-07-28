@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects_2.D2D1_CONTRAST_PROP
 title: D2D1_CONTRAST_PROP (d2d1effects_2.h)
-description: Identifiers for properties of the Contrast effect.helpviewer_keywords: ["D2D1_CONTRAST_PROP","D2D1_CONTRAST_PROP enumeration [Direct2D]","D2D1_CONTRAST_PROP_CLAMP_INPUT","D2D1_CONTRAST_PROP_CONTRAST","d2d1effects_2/D2D1_CONTRAST_PROP","d2d1effects_2/D2D1_CONTRAST_PROP_CLAMP_INPUT","d2d1effects_2/D2D1_CONTRAST_PROP_CONTRAST","direct2d.d2d1_contrast_prop"]
+description: Identifiers for properties of the Contrast effect.
+helpviewer_keywords: ["D2D1_CONTRAST_PROP","D2D1_CONTRAST_PROP enumeration [Direct2D]","D2D1_CONTRAST_PROP_CLAMP_INPUT","D2D1_CONTRAST_PROP_CONTRAST","d2d1effects_2/D2D1_CONTRAST_PROP","d2d1effects_2/D2D1_CONTRAST_PROP_CLAMP_INPUT","d2d1effects_2/D2D1_CONTRAST_PROP_CONTRAST","direct2d.d2d1_contrast_prop"]
 old-location: direct2d\d2d1_contrast_prop.htm
 tech.root: Direct2D
 ms.assetid: 04215468-F6AA-4AA4-8F03-4858CE57FC14

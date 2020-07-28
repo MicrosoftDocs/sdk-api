@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhUpdateLogFileCatalog
 title: PdhUpdateLogFileCatalog function (pdh.h)
-description: Synchronizes the information in the log file catalog with the performance data in the log file.helpviewer_keywords: ["PdhUpdateLogFileCatalog","PdhUpdateLogFileCatalog function [Perf]","_win32_pdhupdatelogfilecatalog","base.pdhupdatelogfilecatalog","pdh/PdhUpdateLogFileCatalog","perf.pdhupdatelogfilecatalog"]
+description: Synchronizes the information in the log file catalog with the performance data in the log file.
+helpviewer_keywords: ["PdhUpdateLogFileCatalog","PdhUpdateLogFileCatalog function [Perf]","_win32_pdhupdatelogfilecatalog","base.pdhupdatelogfilecatalog","pdh/PdhUpdateLogFileCatalog","perf.pdhupdatelogfilecatalog"]
 old-location: perf\pdhupdatelogfilecatalog.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog

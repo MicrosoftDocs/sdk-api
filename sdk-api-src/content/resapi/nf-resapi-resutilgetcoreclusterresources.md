@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetCoreClusterResources
 title: ResUtilGetCoreClusterResources function (resapi.h)
-description: Returns handles to the core&#32;Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_CORE_CLUSTER_RESOURCES","PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster]","ResUtilGetCoreClusterResources","ResUtilGetCoreClusterResources function [Failover Cluster]","_wolf_resutilgetcoreclusterresources","mscs.resutilgetcoreclusterresources","resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES","resapi/ResUtilGetCoreClusterResources"]
+description: Returns handles to the core Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_CORE_CLUSTER_RESOURCES","PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster]","ResUtilGetCoreClusterResources","ResUtilGetCoreClusterResources function [Failover Cluster]","_wolf_resutilgetcoreclusterresources","mscs.resutilgetcoreclusterresources","resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES","resapi/ResUtilGetCoreClusterResources"]
 old-location: mscs\resutilgetcoreclusterresources.htm
 tech.root: MsCS
 ms.assetid: cadfeaf7-951f-4fc7-96fa-2e256e52a370

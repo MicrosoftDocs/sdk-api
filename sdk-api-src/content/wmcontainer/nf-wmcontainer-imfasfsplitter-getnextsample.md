@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetNextSample
 title: IMFASFSplitter::GetNextSample (wmcontainer.h)
-description: Retrieves a sample from the Advanced Systems Format (ASF) splitter after the data has been parsed.helpviewer_keywords: ["85133059-6710-4fb2-b42b-f54747816f9c","ASF_STATUSFLAGS_INCOMPLETE","GetNextSample","GetNextSample method [Media Foundation]","GetNextSample method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetNextSample method","IMFASFSplitter.GetNextSample","IMFASFSplitter::GetNextSample","Zero","mf.imfasfsplitter_getnextsample","wmcontainer/IMFASFSplitter::GetNextSample"]
+description: Retrieves a sample from the Advanced Systems Format (ASF) splitter after the data has been parsed.
+helpviewer_keywords: ["85133059-6710-4fb2-b42b-f54747816f9c","ASF_STATUSFLAGS_INCOMPLETE","GetNextSample","GetNextSample method [Media Foundation]","GetNextSample method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetNextSample method","IMFASFSplitter.GetNextSample","IMFASFSplitter::GetNextSample","Zero","mf.imfasfsplitter_getnextsample","wmcontainer/IMFASFSplitter::GetNextSample"]
 old-location: mf\imfasfsplitter_getnextsample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 85133059-6710-4fb2-b42b-f54747816f9c
 ms.date: 12/05/2018
 ms.keywords: 85133059-6710-4fb2-b42b-f54747816f9c, ASF_STATUSFLAGS_INCOMPLETE, GetNextSample, GetNextSample method [Media Foundation], GetNextSample method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetNextSample method, IMFASFSplitter.GetNextSample, IMFASFSplitter::GetNextSample, Zero, mf.imfasfsplitter_getnextsample, wmcontainer/IMFASFSplitter::GetNextSample

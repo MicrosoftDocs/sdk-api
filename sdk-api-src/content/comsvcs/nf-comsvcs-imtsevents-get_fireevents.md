@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_FireEvents
 title: IMtsEvents::get_FireEvents (comsvcs.h)
-description: Retrieves whether events are enabled or disabled for an event sink.helpviewer_keywords: ["IMtsEvents interface [COM+]","get_FireEvents method","IMtsEvents.get_FireEvents","IMtsEvents::get_FireEvents","_dtc_IMtsEvents_get_FireEvents","comsvcs/IMtsEvents::get_FireEvents","cos.imtsevents_get_fireevents","get_FireEvents","get_FireEvents method [COM+]","get_FireEvents method [COM+]","IMtsEvents interface"]
+description: Retrieves whether events are enabled or disabled for an event sink.
+helpviewer_keywords: ["IMtsEvents interface [COM+]","get_FireEvents method","IMtsEvents.get_FireEvents","IMtsEvents::get_FireEvents","_dtc_IMtsEvents_get_FireEvents","comsvcs/IMtsEvents::get_FireEvents","cos.imtsevents_get_fireevents","get_FireEvents","get_FireEvents method [COM+]","get_FireEvents method [COM+]","IMtsEvents interface"]
 old-location: cos\imtsevents_get_fireevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: fad889d2-412e-4dc7-8380-408bda456037
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents interface [COM+],get_FireEvents method, IMtsEvents.get_FireEvents, IMtsEvents::get_FireEvents, _dtc_IMtsEvents_get_FireEvents, comsvcs/IMtsEvents::get_FireEvents, cos.imtsevents_get_fireevents, get_FireEvents, get_FireEvents method [COM+], get_FireEvents method [COM+],IMtsEvents interface

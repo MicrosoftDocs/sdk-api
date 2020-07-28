@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enableContextMenu
 title: IWMPPlayer::get_enableContextMenu (wmp.h)
-description: The get_enableContextMenu method retrieves a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","get_enableContextMenu method","IWMPPlayer.get_enableContextMenu","IWMPPlayer::get_enableContextMenu","IWMPPlayerget_enableContextMenu","get_enableContextMenu","get_enableContextMenu method [Windows Media Player]","get_enableContextMenu method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_get_enablecontextmenu","wmp/IWMPPlayer::get_enableContextMenu"]
+description: The get_enableContextMenu method retrieves a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
+helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","get_enableContextMenu method","IWMPPlayer.get_enableContextMenu","IWMPPlayer::get_enableContextMenu","IWMPPlayerget_enableContextMenu","get_enableContextMenu","get_enableContextMenu method [Windows Media Player]","get_enableContextMenu method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_get_enablecontextmenu","wmp/IWMPPlayer::get_enableContextMenu"]
 old-location: wmp\iwmpplayer_get_enablecontextmenu.htm
 tech.root: WMP
 ms.assetid: 66769441-7923-45d2-b84f-24770537923c

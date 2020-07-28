@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Remove
 title: ITraceDataProviderCollection::Remove (pla.h)
-description: Removes a trace provider from the collection.helpviewer_keywords: ["ITraceDataProviderCollection interface [PLA]","Remove method","ITraceDataProviderCollection.Remove","ITraceDataProviderCollection::Remove","Remove","Remove method [PLA]","Remove method [PLA]","ITraceDataProviderCollection interface","base.itracedataprovidercollection_remove","pla.itracedataprovidercollection_remove","pla/ITraceDataProviderCollection::Remove"]
+description: Removes a trace provider from the collection.
+helpviewer_keywords: ["ITraceDataProviderCollection interface [PLA]","Remove method","ITraceDataProviderCollection.Remove","ITraceDataProviderCollection::Remove","Remove","Remove method [PLA]","Remove method [PLA]","ITraceDataProviderCollection interface","base.itracedataprovidercollection_remove","pla.itracedataprovidercollection_remove","pla/ITraceDataProviderCollection::Remove"]
 old-location: pla\itracedataprovidercollection_remove.htm
 tech.root: PLA
 ms.assetid: 553ec66e-d38a-46cc-9b01-f4d7947eda91

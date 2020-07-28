@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssWMDependency.GetLogicalPath
 title: IVssWMDependency::GetLogicalPath (vswriter.h)
-description: The GetLogicalPath method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.helpviewer_keywords: ["GetLogicalPath","GetLogicalPath method [VSS]","GetLogicalPath method [VSS]","IVssWMDependency interface","IVssWMDependency interface [VSS]","GetLogicalPath method","IVssWMDependency.GetLogicalPath","IVssWMDependency::GetLogicalPath","_win32_ivsswmdependency_getlogicalpath","base.ivsswmdependency_getlogicalpath","vswriter/IVssWMDependency::GetLogicalPath"]
+description: The GetLogicalPath method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.
+helpviewer_keywords: ["GetLogicalPath","GetLogicalPath method [VSS]","GetLogicalPath method [VSS]","IVssWMDependency interface","IVssWMDependency interface [VSS]","GetLogicalPath method","IVssWMDependency.GetLogicalPath","IVssWMDependency::GetLogicalPath","_win32_ivsswmdependency_getlogicalpath","base.ivsswmdependency_getlogicalpath","vswriter/IVssWMDependency::GetLogicalPath"]
 old-location: base\ivsswmdependency_getlogicalpath.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 642e9266-40b8-4184-b83f-3131886da32b
 ms.date: 12/05/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetLogicalPath method, IVssWMDependency.GetLogicalPath, IVssWMDependency::GetLogicalPath, _win32_ivsswmdependency_getlogicalpath, base.ivsswmdependency_getlogicalpath, vswriter/IVssWMDependency::GetLogicalPath

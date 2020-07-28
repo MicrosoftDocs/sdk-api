@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawTransform.SetDrawInfo
 title: ID2D1DrawTransform::SetDrawInfo (d2d1effectauthor.h)
-description: Provides the GPU render info interface to the transform implementation.helpviewer_keywords: ["ID2D1DrawTransform interface [Direct2D]","SetDrawInfo method","ID2D1DrawTransform.SetDrawInfo","ID2D1DrawTransform::SetDrawInfo","SetDrawInfo","SetDrawInfo method [Direct2D]","SetDrawInfo method [Direct2D]","ID2D1DrawTransform interface","d2d1effectauthor/ID2D1DrawTransform::SetDrawInfo","direct2d.id2d1drawtransform_setdrawinfo"]
+description: Provides the GPU render info interface to the transform implementation.
+helpviewer_keywords: ["ID2D1DrawTransform interface [Direct2D]","SetDrawInfo method","ID2D1DrawTransform.SetDrawInfo","ID2D1DrawTransform::SetDrawInfo","SetDrawInfo","SetDrawInfo method [Direct2D]","SetDrawInfo method [Direct2D]","ID2D1DrawTransform interface","d2d1effectauthor/ID2D1DrawTransform::SetDrawInfo","direct2d.id2d1drawtransform_setdrawinfo"]
 old-location: direct2d\id2d1drawtransform_setdrawinfo.htm
 tech.root: Direct2D
 ms.assetid: 9B7336B0-59D8-416F-822C-0AD5C1B40EAA

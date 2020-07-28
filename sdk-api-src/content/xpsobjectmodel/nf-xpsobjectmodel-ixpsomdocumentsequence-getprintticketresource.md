@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetPrintTicketResource
 title: IXpsOMDocumentSequence::GetPrintTicketResource (xpsobjectmodel.h)
-description: Gets the IXpsOMPrintTicketResource interface to the job-level print ticket that is assigned to the document sequence.helpviewer_keywords: ["GetPrintTicketResource","GetPrintTicketResource method [XPS Documents and Packaging]","GetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMDocumentSequence interface","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","GetPrintTicketResource method","IXpsOMDocumentSequence.GetPrintTicketResource","IXpsOMDocumentSequence::GetPrintTicketResource","xps.ixpsomdocumentsequence_getprintticketresource","xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource"]
+description: Gets the IXpsOMPrintTicketResource interface to the job-level print ticket that is assigned to the document sequence.
+helpviewer_keywords: ["GetPrintTicketResource","GetPrintTicketResource method [XPS Documents and Packaging]","GetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMDocumentSequence interface","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","GetPrintTicketResource method","IXpsOMDocumentSequence.GetPrintTicketResource","IXpsOMDocumentSequence::GetPrintTicketResource","xps.ixpsomdocumentsequence_getprintticketresource","xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource"]
 old-location: xps\ixpsomdocumentsequence_getprintticketresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0d53d537-8db1-4e39-98e6-8987dbf5fc27
 ms.date: 12/05/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocumentSequence.GetPrintTicketResource, IXpsOMDocumentSequence::GetPrintTicketResource, xps.ixpsomdocumentsequence_getprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource

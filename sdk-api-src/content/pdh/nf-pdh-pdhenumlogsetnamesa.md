@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhEnumLogSetNamesA
 title: PdhEnumLogSetNamesA function (pdh.h)
-description: Enumerates the names of the log sets within the DSN.helpviewer_keywords: ["PdhEnumLogSetNames","PdhEnumLogSetNames function [Perf]","PdhEnumLogSetNamesA","PdhEnumLogSetNamesW","_win32_pdhenumlogsetnames","base.pdhenumlogsetnames","pdh/PdhEnumLogSetNames","pdh/PdhEnumLogSetNamesA","pdh/PdhEnumLogSetNamesW","perf.pdhenumlogsetnames"]
+description: Enumerates the names of the log sets within the DSN.
+helpviewer_keywords: ["PdhEnumLogSetNames","PdhEnumLogSetNames function [Perf]","PdhEnumLogSetNamesA","PdhEnumLogSetNamesW","_win32_pdhenumlogsetnames","base.pdhenumlogsetnames","pdh/PdhEnumLogSetNames","pdh/PdhEnumLogSetNamesA","pdh/PdhEnumLogSetNamesW","perf.pdhenumlogsetnames"]
 old-location: perf\pdhenumlogsetnames.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.date: 12/05/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
@@ -126,4 +127,8 @@ A parameter is not valid. For example, on some releases you could receive this e
 You should call this function twice, the first time to get the required buffer size (set <i>mszLogSetNameList</i> to <b>NULL</b> and <i>pcchBufferLength</i> to 0), and the second time to get the data.
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhEnumLogSetNames as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

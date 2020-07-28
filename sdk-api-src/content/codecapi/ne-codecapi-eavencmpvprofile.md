@@ -1,9 +1,10 @@
 ---
 UID: NE:codecapi.eAVEncMPVProfile
 title: eAVEncMPVProfile (codecapi.h)
-description: Specifies the MPEG-2 profile. This enumeration is used with the AVEncMPVProfile property.helpviewer_keywords: ["codecapi/eAVEncMPVProfile","codecapi/eAVEncMPVProfile_422","codecapi/eAVEncMPVProfile_High","codecapi/eAVEncMPVProfile_Main","codecapi/eAVEncMPVProfile_Simple","codecapi/eAVEncMPVProfile_unknown","dshow.eavencmpvprofile","eAVEncMPVProfile","eAVEncMPVProfile enumeration [DirectShow]","eAVEncMPVProfileEnumeration","eAVEncMPVProfile_422","eAVEncMPVProfile_High","eAVEncMPVProfile_Main","eAVEncMPVProfile_Simple","eAVEncMPVProfile_unknown"]
+description: Specifies the MPEG-2 profile. This enumeration is used with the AVEncMPVProfile property.
+helpviewer_keywords: ["codecapi/eAVEncMPVProfile","codecapi/eAVEncMPVProfile_422","codecapi/eAVEncMPVProfile_High","codecapi/eAVEncMPVProfile_Main","codecapi/eAVEncMPVProfile_Simple","codecapi/eAVEncMPVProfile_unknown","dshow.eavencmpvprofile","eAVEncMPVProfile","eAVEncMPVProfile enumeration [DirectShow]","eAVEncMPVProfileEnumeration","eAVEncMPVProfile_422","eAVEncMPVProfile_High","eAVEncMPVProfile_Main","eAVEncMPVProfile_Simple","eAVEncMPVProfile_unknown"]
 old-location: dshow\eavencmpvprofile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 20e6bddb-8761-4ac7-9342-09ad7c9d4905
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVProfile, codecapi/eAVEncMPVProfile_422, codecapi/eAVEncMPVProfile_High, codecapi/eAVEncMPVProfile_Main, codecapi/eAVEncMPVProfile_Simple, codecapi/eAVEncMPVProfile_unknown, dshow.eavencmpvprofile, eAVEncMPVProfile, eAVEncMPVProfile enumeration [DirectShow], eAVEncMPVProfileEnumeration, eAVEncMPVProfile_422, eAVEncMPVProfile_High, eAVEncMPVProfile_Main, eAVEncMPVProfile_Simple, eAVEncMPVProfile_unknown

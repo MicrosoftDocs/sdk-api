@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.SetValues
 title: IPortableDeviceProperties::SetValues (portabledeviceapi.h)
-description: The SetValues method adds or modifies one or more properties on a specified object on a device.helpviewer_keywords: ["IPortableDeviceProperties interface [Windows Portable Devices SDK]","SetValues method","IPortableDeviceProperties.SetValues","IPortableDeviceProperties::SetValues","IPortableDevicePropertiesSetValues","SetValues","SetValues method [Windows Portable Devices SDK]","SetValues method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","portabledeviceapi/IPortableDeviceProperties::SetValues","wpdsdk.iportabledeviceproperties_setvalues"]
+description: The SetValues method adds or modifies one or more properties on a specified object on a device.
+helpviewer_keywords: ["IPortableDeviceProperties interface [Windows Portable Devices SDK]","SetValues method","IPortableDeviceProperties.SetValues","IPortableDeviceProperties::SetValues","IPortableDevicePropertiesSetValues","SetValues","SetValues method [Windows Portable Devices SDK]","SetValues method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","portabledeviceapi/IPortableDeviceProperties::SetValues","wpdsdk.iportabledeviceproperties_setvalues"]
 old-location: wpdsdk\iportabledeviceproperties_setvalues.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 3c631d31-5553-4ad0-8384-821c11c78254
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceProperties interface [Windows Portable Devices SDK],SetValues method, IPortableDeviceProperties.SetValues, IPortableDeviceProperties::SetValues, IPortableDevicePropertiesSetValues, SetValues, SetValues method [Windows Portable Devices SDK], SetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, portabledeviceapi/IPortableDeviceProperties::SetValues, wpdsdk.iportabledeviceproperties_setvalues

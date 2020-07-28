@@ -1,9 +1,10 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.AddUserSid
 title: IDiskQuotaControl::AddUserSid (dskquota.h)
-description: Adds a new quota entry on the volume for the specified user. The user is identified by security identifier (SID).helpviewer_keywords: ["AddUserSid","AddUserSid method [Files]","AddUserSid method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","AddUserSid method","IDiskQuotaControl.AddUserSid","IDiskQuotaControl::AddUserSid","_win32_idiskquotacontrol_addusersid","base.idiskquotacontrol_addusersid","dskquota/IDiskQuotaControl::AddUserSid","fs.idiskquotacontrol_addusersid"]
+description: Adds a new quota entry on the volume for the specified user. The user is identified by security identifier (SID).
+helpviewer_keywords: ["AddUserSid","AddUserSid method [Files]","AddUserSid method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","AddUserSid method","IDiskQuotaControl.AddUserSid","IDiskQuotaControl::AddUserSid","_win32_idiskquotacontrol_addusersid","base.idiskquotacontrol_addusersid","dskquota/IDiskQuotaControl::AddUserSid","fs.idiskquotacontrol_addusersid"]
 old-location: fs\idiskquotacontrol_addusersid.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a82b36a9-7270-4b4a-b850-67916864c052
 ms.date: 12/05/2018
 ms.keywords: AddUserSid, AddUserSid method [Files], AddUserSid method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserSid method, IDiskQuotaControl.AddUserSid, IDiskQuotaControl::AddUserSid, _win32_idiskquotacontrol_addusersid, base.idiskquotacontrol_addusersid, dskquota/IDiskQuotaControl::AddUserSid, fs.idiskquotacontrol_addusersid

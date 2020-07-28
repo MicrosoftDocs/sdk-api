@@ -1,9 +1,10 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_START
 title: IOCTL_PWM_PIN_START (pwm.h)
-description: Starts generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use IOCTL_PWM_PIN_IS_STARTED.helpviewer_keywords: ["IOCTL_PWM_PIN_START","IOCTL_PWM_PIN_START control","IOCTL_PWM_PIN_START control code","base.ioctl_pwm_pin_start","pwm/IOCTL_PWM_PIN_START"]
+description: Starts generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use IOCTL_PWM_PIN_IS_STARTED.
+helpviewer_keywords: ["IOCTL_PWM_PIN_START","IOCTL_PWM_PIN_START control","IOCTL_PWM_PIN_START control code","base.ioctl_pwm_pin_start","pwm/IOCTL_PWM_PIN_START"]
 old-location: base\ioctl_pwm_pin_start.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 2256B46F-2E81-4A28-8F48-C870E4B8D906
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_START, IOCTL_PWM_PIN_START control, IOCTL_PWM_PIN_START control code, base.ioctl_pwm_pin_start, pwm/IOCTL_PWM_PIN_START

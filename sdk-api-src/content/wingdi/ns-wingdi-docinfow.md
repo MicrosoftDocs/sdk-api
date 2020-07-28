@@ -1,9 +1,10 @@
 ---
 UID: NS:wingdi._DOCINFOW
 title: DOCINFOW (wingdi.h)
-description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function.helpviewer_keywords: ["*LPDOCINFOW","DOCINFO","DOCINFO structure [Windows GDI]","DOCINFOW","LPDOCINFO","LPDOCINFO structure pointer [Windows GDI]","_win32_DOCINFO_str","gdi.docinfo","wingdi/DOCINFO","wingdi/LPDOCINFO"]
+description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function.
+helpviewer_keywords: ["*LPDOCINFOW","DOCINFO","DOCINFO structure [Windows GDI]","DOCINFOW","LPDOCINFO","LPDOCINFO structure pointer [Windows GDI]","_win32_DOCINFO_str","gdi.docinfo","wingdi/DOCINFO","wingdi/LPDOCINFO"]
 old-location: gdi\docinfo.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 329bf0d9-399b-4f64-a029-361ef7558aeb
 ms.date: 12/05/2018
 ms.keywords: '*LPDOCINFOW, DOCINFO, DOCINFO structure [Windows GDI], DOCINFOW, LPDOCINFO, LPDOCINFO structure pointer [Windows GDI], _win32_DOCINFO_str, gdi.docinfo, wingdi/DOCINFO, wingdi/LPDOCINFO'
@@ -118,4 +119,9 @@ Specifies additional information about the print job. This member must be zero o
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wingdi.h header defines DOCINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

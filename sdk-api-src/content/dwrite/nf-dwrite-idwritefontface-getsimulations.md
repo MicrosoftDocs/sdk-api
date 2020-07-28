@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetSimulations
 title: IDWriteFontFace::GetSimulations (dwrite.h)
-description: Obtains the algorithmic style simulation flags of a font face.helpviewer_keywords: ["GetSimulations","GetSimulations method [Direct Write]","GetSimulations method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetSimulations method","IDWriteFontFace.GetSimulations","IDWriteFontFace::GetSimulations","directwrite.idwritefontface_getsimulations","dwrite/IDWriteFontFace::GetSimulations"]
+description: Obtains the algorithmic style simulation flags of a font face.
+helpviewer_keywords: ["GetSimulations","GetSimulations method [Direct Write]","GetSimulations method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetSimulations method","IDWriteFontFace.GetSimulations","IDWriteFontFace::GetSimulations","directwrite.idwritefontface_getsimulations","dwrite/IDWriteFontFace::GetSimulations"]
 old-location: directwrite\idwritefontface_getsimulations.htm
 tech.root: DirectWrite
 ms.assetid: 409f5e6e-af3c-4d31-968c-d26a89aa1e9d

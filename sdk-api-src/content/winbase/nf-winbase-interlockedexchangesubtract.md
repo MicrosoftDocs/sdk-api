@@ -4,7 +4,7 @@ title: InterlockedExchangeSubtract function (winbase.h)
 description: Performs an atomic subtraction of two values.
 helpviewer_keywords: ["InterlockedExchangeSubtract","InterlockedExchangeSubtract function","base.interlockedexchangesubtract","winbase/InterlockedExchangeSubtract"]
 old-location: base\interlockedexchangesubtract.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract

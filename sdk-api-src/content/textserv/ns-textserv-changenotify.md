@@ -1,7 +1,8 @@
 ---
 UID: NS:textserv.CHANGENOTIFY
 title: CHANGENOTIFY (textserv.h)
-description: Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.helpviewer_keywords: ["CHANGENOTIFY","CHANGENOTIFY structure [Windows Controls]","CN_GENERIC","CN_NEWREDO","CN_NEWUNDO","CN_TEXTCHANGED","controls.changenotify","textserv/CHANGENOTIFY"]
+description: Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
+helpviewer_keywords: ["CHANGENOTIFY","CHANGENOTIFY structure [Windows Controls]","CN_GENERIC","CN_NEWREDO","CN_NEWUNDO","CN_TEXTCHANGED","controls.changenotify","textserv/CHANGENOTIFY"]
 old-location: controls\changenotify.htm
 tech.root: Controls
 ms.assetid: F4756754-EF22-430F-B9EE-F4270EBBEF33

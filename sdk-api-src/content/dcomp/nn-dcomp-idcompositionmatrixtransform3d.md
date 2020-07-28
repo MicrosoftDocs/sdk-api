@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionMatrixTransform3D
 title: IDCompositionMatrixTransform3D (dcomp.h)
-description: Represents an arbitrary 3D transformation defined by a 4-by-4 matrix.helpviewer_keywords: ["IDCompositionMatrixTransform3D","IDCompositionMatrixTransform3D interface [DirectComposition]","IDCompositionMatrixTransform3D interface [DirectComposition]","described","dcomp/IDCompositionMatrixTransform3D","directcomp.idcompositionmatrixtransform3d"]
+description: Represents an arbitrary 3D transformation defined by a 4-by-4 matrix.
+helpviewer_keywords: ["IDCompositionMatrixTransform3D","IDCompositionMatrixTransform3D interface [DirectComposition]","IDCompositionMatrixTransform3D interface [DirectComposition]","described","dcomp/IDCompositionMatrixTransform3D","directcomp.idcompositionmatrixtransform3d"]
 old-location: directcomp\idcompositionmatrixtransform3d.htm
 tech.root: directcomp
 ms.assetid: 56C9A564-2504-4940-B850-D280C8E0CF82

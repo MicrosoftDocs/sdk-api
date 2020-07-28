@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCreatePnrpIncident
 title: NdfCreatePnrpIncident function (ndfapi.h)
-description: Creates a session to diagnose issues with the Peer Name Resolution Protocol (PNRP) service.helpviewer_keywords: ["NdfCreatePnrpIncident","NdfCreatePnrpIncident function [NDF]","ndf.ndfcreatepnrpincident","ndfapi/NdfCreatePnrpIncident"]
+description: Creates a session to diagnose issues with the Peer Name Resolution Protocol (PNRP) service.
+helpviewer_keywords: ["NdfCreatePnrpIncident","NdfCreatePnrpIncident function [NDF]","ndf.ndfcreatepnrpincident","ndfapi/NdfCreatePnrpIncident"]
 old-location: ndf\ndfcreatepnrpincident.htm
 tech.root: NDF
 ms.assetid: e9ee6433-89b9-4b95-b02c-2778e009220c

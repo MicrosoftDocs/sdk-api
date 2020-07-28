@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorDivide
 title: XMVectorDivide function (directxmath.h)
-description: Divides one instance of XMVECTOR by a second instance, returning the result in a third instance.helpviewer_keywords: ["Use DirectX..XMVectorDivide","XMVectorDivide","XMVectorDivide method [DirectX Math Support APIs]","dxmath.xmvectordivide"]
+description: Divides one instance of XMVECTOR by a second instance, returning the result in a third instance.
+helpviewer_keywords: ["Use DirectX..XMVectorDivide","XMVectorDivide","XMVectorDivide method [DirectX Math Support APIs]","dxmath.xmvectordivide"]
 old-location: dxmath\xmvectordivide.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorDivide(XMVECTOR,XMVECTOR)

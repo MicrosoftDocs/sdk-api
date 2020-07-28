@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Stop
 title: IWMDMDeviceControl::Stop (mswmdm.h)
-description: The Stop method stops the current record or play operation.helpviewer_keywords: ["IWMDMDeviceControl interface [windows Media Device Manager]","Stop method","IWMDMDeviceControl.Stop","IWMDMDeviceControl::Stop","IWMDMDeviceControlStop","Stop","Stop method [windows Media Device Manager]","Stop method [windows Media Device Manager]","IWMDMDeviceControl interface","mswmdm/IWMDMDeviceControl::Stop","wmdm.iwmdmdevicecontrol_stop"]
+description: The Stop method stops the current record or play operation.
+helpviewer_keywords: ["IWMDMDeviceControl interface [windows Media Device Manager]","Stop method","IWMDMDeviceControl.Stop","IWMDMDeviceControl::Stop","IWMDMDeviceControlStop","Stop","Stop method [windows Media Device Manager]","Stop method [windows Media Device Manager]","IWMDMDeviceControl interface","mswmdm/IWMDMDeviceControl::Stop","wmdm.iwmdmdevicecontrol_stop"]
 old-location: wmdm\iwmdmdevicecontrol_stop.htm
 tech.root: WMDM
 ms.assetid: 842b7de7-dde2-40d1-8028-9ffebcaea90e

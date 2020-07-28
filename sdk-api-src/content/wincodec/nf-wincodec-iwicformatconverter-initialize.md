@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.Initialize
 title: IWICFormatConverter::Initialize (wincodec.h)
-description: Initializes the format converter.helpviewer_keywords: ["IWICFormatConverter interface [Windows Imaging Component]","Initialize method","IWICFormatConverter.Initialize","IWICFormatConverter::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICFormatConverter interface","_wic_codec_iwicformatconverter_initialize","wic._wic_codec_iwicformatconverter_initialize","wincodec/IWICFormatConverter::Initialize"]
+description: Initializes the format converter.
+helpviewer_keywords: ["IWICFormatConverter interface [Windows Imaging Component]","Initialize method","IWICFormatConverter.Initialize","IWICFormatConverter::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICFormatConverter interface","_wic_codec_iwicformatconverter_initialize","wic._wic_codec_iwicformatconverter_initialize","wincodec/IWICFormatConverter::Initialize"]
 old-location: wic\_wic_codec_iwicformatconverter_initialize.htm
 tech.root: wic
 ms.assetid: ff046b2c-a863-48dd-9cbe-3c559c84b682

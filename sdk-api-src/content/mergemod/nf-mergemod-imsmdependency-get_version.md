@@ -1,9 +1,10 @@
 ---
 UID: NF:mergemod.IMsmDependency.get_Version
 title: IMsmDependency::get_Version (mergemod.h)
-description: The get_Version method retrieves the Version property of the Dependency object. This method returns the version of the required module in the form of a BSTR.helpviewer_keywords: ["IMsmDependency interface","get_Version method","IMsmDependency.get_Version","IMsmDependency::get_Version","_msi_get_version_function","get_Version","get_Version method","get_Version method","IMsmDependency interface","mergemod/IMsmDependency::get_Version","setup.imsmdependency_get_version"]
+description: The get_Version method retrieves the Version property of the Dependency object. This method returns the version of the required module in the form of a BSTR.
+helpviewer_keywords: ["IMsmDependency interface","get_Version method","IMsmDependency.get_Version","IMsmDependency::get_Version","_msi_get_version_function","get_Version","get_Version method","get_Version method","IMsmDependency interface","mergemod/IMsmDependency::get_Version","setup.imsmdependency_get_version"]
 old-location: setup\imsmdependency_get_version.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 122542f9-b7b5-4e22-b05f-bd5dd04e5a2f
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency interface,get_Version method, IMsmDependency.get_Version, IMsmDependency::get_Version, _msi_get_version_function, get_Version, get_Version method, get_Version method,IMsmDependency interface, mergemod/IMsmDependency::get_Version, setup.imsmdependency_get_version

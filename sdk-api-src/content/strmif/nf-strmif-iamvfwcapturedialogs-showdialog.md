@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.ShowDialog
 title: IAMVfwCaptureDialogs::ShowDialog (strmif.h)
-description: The ShowDialog method displays the specified VFW dialog box.helpviewer_keywords: ["IAMVfwCaptureDialogs interface [DirectShow]","ShowDialog method","IAMVfwCaptureDialogs.ShowDialog","IAMVfwCaptureDialogs::ShowDialog","IAMVfwCaptureDialogsShowDialog","ShowDialog","ShowDialog method [DirectShow]","ShowDialog method [DirectShow]","IAMVfwCaptureDialogs interface","dshow.iamvfwcapturedialogs_showdialog","strmif/IAMVfwCaptureDialogs::ShowDialog"]
+description: The ShowDialog method displays the specified VFW dialog box.
+helpviewer_keywords: ["IAMVfwCaptureDialogs interface [DirectShow]","ShowDialog method","IAMVfwCaptureDialogs.ShowDialog","IAMVfwCaptureDialogs::ShowDialog","IAMVfwCaptureDialogsShowDialog","ShowDialog","ShowDialog method [DirectShow]","ShowDialog method [DirectShow]","IAMVfwCaptureDialogs interface","dshow.iamvfwcapturedialogs_showdialog","strmif/IAMVfwCaptureDialogs::ShowDialog"]
 old-location: dshow\iamvfwcapturedialogs_showdialog.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 988b68e5-12fb-47c5-8a49-81ba262da739
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],ShowDialog method, IAMVfwCaptureDialogs.ShowDialog, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog

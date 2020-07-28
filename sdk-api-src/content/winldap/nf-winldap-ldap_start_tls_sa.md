@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_start_tls_sA
 title: ldap_start_tls_sA function (winldap.h)
-description: Used in an active LDAP session to begin using TLS encryption.helpviewer_keywords: ["ldap.ldap_start_tls_s","ldap_start_tls_s","ldap_start_tls_s function [LDAP]","ldap_start_tls_sA","ldap_start_tls_sW","winldap/ldap_start_tls_s","winldap/ldap_start_tls_sA","winldap/ldap_start_tls_sW"]
+description: Used in an active LDAP session to begin using TLS encryption.
+helpviewer_keywords: ["ldap.ldap_start_tls_s","ldap_start_tls_s","ldap_start_tls_s function [LDAP]","ldap_start_tls_sA","ldap_start_tls_sW","winldap/ldap_start_tls_s","winldap/ldap_start_tls_sA","winldap/ldap_start_tls_sW"]
 old-location: ldap\ldap_start_tls_s.htm
 tech.root: ldap
 ms.assetid: faca9324-5a85-47b0-9d6a-c62ec3c1ee80
@@ -71,7 +72,7 @@ Optional. A pointer to a <b>ULONG</b> that may contain a server error code. This
 
 ### -param result [out]
 
-Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
+Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
 
 
 ### -param ServerControls [in]
@@ -108,7 +109,8 @@ This function has a default timeout of about thirty seconds. That timeout is use
 For more information about start-stop TLS encryption, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-start-stop-tls-encryption">Using Start-Stop TLS Encryption</a>.
 
 
-
+> [!NOTE]
+> The winldap.h header defines ldap_start_tls_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

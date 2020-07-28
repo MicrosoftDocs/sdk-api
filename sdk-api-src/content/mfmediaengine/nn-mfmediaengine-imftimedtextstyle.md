@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextStyle
 title: IMFTimedTextStyle (mfmediaengine.h)
-description: Represents the style for timed text.helpviewer_keywords: ["IMFTimedTextStyle","IMFTimedTextStyle interface [Media Foundation]","IMFTimedTextStyle interface [Media Foundation]","described","mf.imftimedtextstyle","mfmediaengine/IMFTimedTextStyle"]
+description: Represents the style for timed text.
+helpviewer_keywords: ["IMFTimedTextStyle","IMFTimedTextStyle interface [Media Foundation]","IMFTimedTextStyle interface [Media Foundation]","described","mf.imftimedtextstyle","mfmediaengine/IMFTimedTextStyle"]
 old-location: mf\imftimedtextstyle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ED358A36-BEEF-491E-8984-938F71472F26
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], IMFTimedTextStyle interface [Media Foundation],described, mf.imftimedtextstyle, mfmediaengine/IMFTimedTextStyle

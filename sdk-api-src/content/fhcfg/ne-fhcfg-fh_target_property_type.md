@@ -1,9 +1,10 @@
 ---
 UID: NE:fhcfg._FH_TARGET_PROPERTY_TYPE
 title: FH_TARGET_PROPERTY_TYPE (fhcfg.h)
-description: Specifies the type of a property of a backup target.helpviewer_keywords: ["*PFH_TARGET_PROPERTY_TYPE","FH_TARGET_DRIVE_TYPE","FH_TARGET_NAME","FH_TARGET_PROPERTY_TYPE","FH_TARGET_PROPERTY_TYPE enumeration [Windows API]","FH_TARGET_URL","MAX_TARGET_PROPERTY","fhcfg/FH_TARGET_DRIVE_TYPE","fhcfg/FH_TARGET_NAME","fhcfg/FH_TARGET_PROPERTY_TYPE","fhcfg/FH_TARGET_URL","fhcfg/MAX_TARGET_PROPERTY","winprog.fh_target_property_type"]
+description: Specifies the type of a property of a backup target.
+helpviewer_keywords: ["*PFH_TARGET_PROPERTY_TYPE","FH_TARGET_DRIVE_TYPE","FH_TARGET_NAME","FH_TARGET_PROPERTY_TYPE","FH_TARGET_PROPERTY_TYPE enumeration [Windows API]","FH_TARGET_URL","MAX_TARGET_PROPERTY","fhcfg/FH_TARGET_DRIVE_TYPE","fhcfg/FH_TARGET_NAME","fhcfg/FH_TARGET_PROPERTY_TYPE","fhcfg/FH_TARGET_URL","fhcfg/MAX_TARGET_PROPERTY","winprog.fh_target_property_type"]
 old-location: winprog\fh_target_property_type.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 0A39626B-942F-4BD6-930D-15E9D401F0FF
 ms.date: 12/05/2018
 ms.keywords: '*PFH_TARGET_PROPERTY_TYPE, FH_TARGET_DRIVE_TYPE, FH_TARGET_NAME, FH_TARGET_PROPERTY_TYPE, FH_TARGET_PROPERTY_TYPE enumeration [Windows API], FH_TARGET_URL, MAX_TARGET_PROPERTY, fhcfg/FH_TARGET_DRIVE_TYPE, fhcfg/FH_TARGET_NAME, fhcfg/FH_TARGET_PROPERTY_TYPE, fhcfg/FH_TARGET_URL, fhcfg/MAX_TARGET_PROPERTY, winprog.fh_target_property_type'

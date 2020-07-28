@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.ExportPublicKey
 title: IX509EndorsementKey::ExportPublicKey (certenroll.h)
-description: Exports the endorsement public key.helpviewer_keywords: ["ExportPublicKey","ExportPublicKey method [Security]","ExportPublicKey method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","ExportPublicKey method","IX509EndorsementKey.ExportPublicKey","IX509EndorsementKey::ExportPublicKey","certenroll/IX509EndorsementKey::ExportPublicKey","security.ix509endorsementkey_exportpublickey"]
+description: Exports the endorsement public key.
+helpviewer_keywords: ["ExportPublicKey","ExportPublicKey method [Security]","ExportPublicKey method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","ExportPublicKey method","IX509EndorsementKey.ExportPublicKey","IX509EndorsementKey::ExportPublicKey","certenroll/IX509EndorsementKey::ExportPublicKey","security.ix509endorsementkey_exportpublickey"]
 old-location: security\ix509endorsementkey_exportpublickey.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b38c6421-2918-4d0e-81ed-d9d575817efa
 ms.date: 12/05/2018
 ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],ExportPublicKey method, IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey

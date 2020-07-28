@@ -1,7 +1,8 @@
 ---
 UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0001
 title: BITS_JOB_PROPERTY_VALUE
-description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.helpviewer_keywords: ["BITS_JOB_PROPERTY_VALUE","BITS_JOB_PROPERTY_VALUE union [BITS]","bits.bits_job_property_value","bits.bits_job_property_value_union","bits5_0/BITS_JOB_PROPERTY_VALUE"]
+description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
+helpviewer_keywords: ["BITS_JOB_PROPERTY_VALUE","BITS_JOB_PROPERTY_VALUE union [BITS]","bits.bits_job_property_value","bits.bits_job_property_value_union","bits5_0/BITS_JOB_PROPERTY_VALUE"]
 old-location: bits\bits_job_property_value.htm
 tech.root: Bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB

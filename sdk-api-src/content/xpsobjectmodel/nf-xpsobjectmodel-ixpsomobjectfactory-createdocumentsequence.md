@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocumentSequence
 title: IXpsOMObjectFactory::CreateDocumentSequence (xpsobjectmodel.h)
-description: Creates an IXpsOMDocumentSequence interface, which can contain the IXpsOMDocument interfaces of the XPS document.helpviewer_keywords: ["CreateDocumentSequence","CreateDocumentSequence method [XPS Documents and Packaging]","CreateDocumentSequence method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateDocumentSequence method","IXpsOMObjectFactory.CreateDocumentSequence","IXpsOMObjectFactory::CreateDocumentSequence","xps.ixpsomobjectfactory_createdocumentsequence","xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence"]
+description: Creates an IXpsOMDocumentSequence interface, which can contain the IXpsOMDocument interfaces of the XPS document.
+helpviewer_keywords: ["CreateDocumentSequence","CreateDocumentSequence method [XPS Documents and Packaging]","CreateDocumentSequence method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateDocumentSequence method","IXpsOMObjectFactory.CreateDocumentSequence","IXpsOMObjectFactory::CreateDocumentSequence","xps.ixpsomobjectfactory_createdocumentsequence","xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence"]
 old-location: xps\ixpsomobjectfactory_createdocumentsequence.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 51d42b34-3380-4464-8feb-d03935f88077
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentSequence, CreateDocumentSequence method [XPS Documents and Packaging], CreateDocumentSequence method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentSequence method, IXpsOMObjectFactory.CreateDocumentSequence, IXpsOMObjectFactory::CreateDocumentSequence, xps.ixpsomobjectfactory_createdocumentsequence, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence

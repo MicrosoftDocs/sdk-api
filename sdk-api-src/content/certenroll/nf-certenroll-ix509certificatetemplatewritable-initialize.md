@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.Initialize
 title: IX509CertificateTemplateWritable::Initialize (certenroll.h)
-description: Initializes an IX509CertificateTemplateWritable object from a template.helpviewer_keywords: ["IX509CertificateTemplateWritable interface [Security]","Initialize method","IX509CertificateTemplateWritable.Initialize","IX509CertificateTemplateWritable::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509CertificateTemplateWritable interface","certenroll/IX509CertificateTemplateWritable::Initialize","security.ix509certificatetemplatewritable_initialize"]
+description: Initializes an IX509CertificateTemplateWritable object from a template.
+helpviewer_keywords: ["IX509CertificateTemplateWritable interface [Security]","Initialize method","IX509CertificateTemplateWritable.Initialize","IX509CertificateTemplateWritable::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509CertificateTemplateWritable interface","certenroll/IX509CertificateTemplateWritable::Initialize","security.ix509certificatetemplatewritable_initialize"]
 old-location: security\ix509certificatetemplatewritable_initialize.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: d70cfb65-403f-4a58-8882-393029111552
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Initialize method, IX509CertificateTemplateWritable.Initialize, IX509CertificateTemplateWritable::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Initialize, security.ix509certificatetemplatewritable_initialize

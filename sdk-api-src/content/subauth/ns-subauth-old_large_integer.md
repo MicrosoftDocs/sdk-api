@@ -1,9 +1,10 @@
 ---
 UID: NS:subauth._OLD_LARGE_INTEGER
 title: OLD_LARGE_INTEGER (subauth.h)
-description: Is used to represent a 64-bit signed integer value as two 32-bit integers.helpviewer_keywords: ["*POLD_LARGE_INTEGER","OLD_LARGE_INTEGER","OLD_LARGE_INTEGER structure [Security]","POLD_LARGE_INTEGER","POLD_LARGE_INTEGER structure pointer [Security]","security.old_large_integer","subauth/OLD_LARGE_INTEGER","subauth/POLD_LARGE_INTEGER"]
+description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
+helpviewer_keywords: ["*POLD_LARGE_INTEGER","OLD_LARGE_INTEGER","OLD_LARGE_INTEGER structure [Security]","POLD_LARGE_INTEGER","POLD_LARGE_INTEGER structure pointer [Security]","security.old_large_integer","subauth/OLD_LARGE_INTEGER","subauth/POLD_LARGE_INTEGER"]
 old-location: security\old_large_integer.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
 ms.date: 12/05/2018
 ms.keywords: '*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER'

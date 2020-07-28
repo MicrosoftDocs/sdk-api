@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IDListContainerIsConsistent
 title: IDListContainerIsConsistent function (shlobj_core.h)
-description: Verifies that the container structure of an IDList is valid.helpviewer_keywords: ["IDListContainerIsConsistent","IDListContainerIsConsistent function [Windows Shell]","shell.IDListContainerIsConsistent","shlobj_core/IDListContainerIsConsistent"]
+description: Verifies that the container structure of an IDList is valid.
+helpviewer_keywords: ["IDListContainerIsConsistent","IDListContainerIsConsistent function [Windows Shell]","shell.IDListContainerIsConsistent","shlobj_core/IDListContainerIsConsistent"]
 old-location: shell\IDListContainerIsConsistent.htm
 tech.root: shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C

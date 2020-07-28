@@ -1,9 +1,10 @@
 ---
 UID: NE:wuapicommon.tagServerSelection
 title: ServerSelection (wuapicommon.h)
-description: Defines the update services that Windows Update can operate against.helpviewer_keywords: ["ServerSelection","ServerSelection enumeration [Windows Update Agent]","ssDefault","ssManagedServer","ssOthers","ssWindowsUpdate","wua.serverselection","wuapicommon/ServerSelection","wuapicommon/ssDefault","wuapicommon/ssManagedServer","wuapicommon/ssOthers","wuapicommon/ssWindowsUpdate"]
+description: Defines the update services that Windows Update can operate against.
+helpviewer_keywords: ["ServerSelection","ServerSelection enumeration [Windows Update Agent]","ssDefault","ssManagedServer","ssOthers","ssWindowsUpdate","wua.serverselection","wuapicommon/ServerSelection","wuapicommon/ssDefault","wuapicommon/ssManagedServer","wuapicommon/ssOthers","wuapicommon/ssWindowsUpdate"]
 old-location: wua\serverselection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
 ms.date: 12/05/2018
 ms.keywords: ServerSelection, ServerSelection enumeration [Windows Update Agent], ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, wua.serverselection, wuapicommon/ServerSelection, wuapicommon/ssDefault, wuapicommon/ssManagedServer, wuapicommon/ssOthers, wuapicommon/ssWindowsUpdate

@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbTaskPlugin
 title: ITsSbTaskPlugin (sbtsv.h)
-description: Exposes methods that update the queue of tasks for Remote Desktop Connection Broker plugins.helpviewer_keywords: ["ITsSbTaskPlugin","ITsSbTaskPlugin interface [Remote Desktop Services]","ITsSbTaskPlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbTaskPlugin","termserv.itssbtaskplugin"]
+description: Exposes methods that update the queue of tasks for Remote Desktop Connection Broker plugins.
+helpviewer_keywords: ["ITsSbTaskPlugin","ITsSbTaskPlugin interface [Remote Desktop Services]","ITsSbTaskPlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbTaskPlugin","termserv.itssbtaskplugin"]
 old-location: termserv\itssbtaskplugin.htm
 tech.root: TermServ
 ms.assetid: 56463b47-c2f2-43b7-884f-d6fab9bebbf0

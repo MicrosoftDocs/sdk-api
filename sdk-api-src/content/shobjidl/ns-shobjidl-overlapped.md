@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl._OVERLAPPED
 title: OVERLAPPED (shobjidl.h)
-description: Contains information used in asynchronous (overlapped) input/output (I/O).helpviewer_keywords: ["*LPOVERLAPPED","LPOVERLAPPED","LPOVERLAPPED structure pointer [Windows Shell]","OVERLAPPED","OVERLAPPED structure [Windows Shell]","_shell_OVERLAPPED","shell.OVERLAPPED","shobjidl/LPOVERLAPPED","shobjidl/OVERLAPPED"]
+description: Contains information used in asynchronous (overlapped) input/output (I/O).
+helpviewer_keywords: ["*LPOVERLAPPED","LPOVERLAPPED","LPOVERLAPPED structure pointer [Windows Shell]","OVERLAPPED","OVERLAPPED structure [Windows Shell]","_shell_OVERLAPPED","shell.OVERLAPPED","shobjidl/LPOVERLAPPED","shobjidl/OVERLAPPED"]
 old-location: shell\OVERLAPPED.htm
 tech.root: shell
 ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b

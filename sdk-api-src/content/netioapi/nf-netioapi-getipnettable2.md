@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetIpNetTable2
 title: GetIpNetTable2 function (netioapi.h)
-description: The GetIpNetTable2 function retrieves the IP neighbor table on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpNetTable2","GetIpNetTable2 function [IP Helper]","iphlp.getipnettable2","netioapi/GetIpNetTable2"]
+description: The GetIpNetTable2 function retrieves the IP neighbor table on the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpNetTable2","GetIpNetTable2 function [IP Helper]","iphlp.getipnettable2","netioapi/GetIpNetTable2"]
 old-location: iphlp\getipnettable2.htm
 tech.root: IpHlp
 ms.assetid: 6c45d735-9a07-41ca-8d8a-919f32c98a3c

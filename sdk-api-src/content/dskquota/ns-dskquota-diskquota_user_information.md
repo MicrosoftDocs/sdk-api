@@ -1,9 +1,10 @@
 ---
 UID: NS:dskquota.DiskQuotaUserInformation
 title: DISKQUOTA_USER_INFORMATION (dskquota.h)
-description: Represents the per-user quota information.helpviewer_keywords: ["*PDISKQUOTA_USER_INFORMATION","DISKQUOTA_USER_INFORMATION","DISKQUOTA_USER_INFORMATION structure [Files]","PDISKQUOTA_USER_INFORMATION","PDISKQUOTA_USER_INFORMATION structure pointer [Files]","_win32_diskquota_user_information_str","base.diskquota_user_information_str","dskquota/DISKQUOTA_USER_INFORMATION","dskquota/PDISKQUOTA_USER_INFORMATION","fs.diskquota_user_information_str"]
+description: Represents the per-user quota information.
+helpviewer_keywords: ["*PDISKQUOTA_USER_INFORMATION","DISKQUOTA_USER_INFORMATION","DISKQUOTA_USER_INFORMATION structure [Files]","PDISKQUOTA_USER_INFORMATION","PDISKQUOTA_USER_INFORMATION structure pointer [Files]","_win32_diskquota_user_information_str","base.diskquota_user_information_str","dskquota/DISKQUOTA_USER_INFORMATION","dskquota/PDISKQUOTA_USER_INFORMATION","fs.diskquota_user_information_str"]
 old-location: fs\diskquota_user_information_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8929faab-e15e-47a0-af9e-b64684272cb7
 ms.date: 12/05/2018
 ms.keywords: '*PDISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION structure [Files], PDISKQUOTA_USER_INFORMATION, PDISKQUOTA_USER_INFORMATION structure pointer [Files], _win32_diskquota_user_information_str, base.diskquota_user_information_str, dskquota/DISKQUOTA_USER_INFORMATION, dskquota/PDISKQUOTA_USER_INFORMATION, fs.diskquota_user_information_str'

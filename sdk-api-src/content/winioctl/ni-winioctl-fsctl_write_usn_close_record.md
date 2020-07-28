@@ -4,7 +4,7 @@ title: FSCTL_WRITE_USN_CLOSE_RECORD
 description: Generates a record in the update sequence number (USN) change journal stream for the input file.
 helpviewer_keywords: ["FSCTL_WRITE_USN_CLOSE_RECORD","FSCTL_WRITE_USN_CLOSE_RECORD control","FSCTL_WRITE_USN_CLOSE_RECORD control code [Files]","_win32_fsctl_write_usn_close_record","base.fsctl_write_usn_close_record","fs.fsctl_write_usn_close_record","winioctl/FSCTL_WRITE_USN_CLOSE_RECORD"]
 old-location: fs\fsctl_write_usn_close_record.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d7e0ad05-8ad5-4672-bd32-5a3b1dd0a6ea
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WRITE_USN_CLOSE_RECORD, FSCTL_WRITE_USN_CLOSE_RECORD control, FSCTL_WRITE_USN_CLOSE_RECORD control code [Files], _win32_fsctl_write_usn_close_record, base.fsctl_write_usn_close_record, fs.fsctl_write_usn_close_record, winioctl/FSCTL_WRITE_USN_CLOSE_RECORD

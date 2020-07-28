@@ -1,9 +1,10 @@
 ---
 UID: NS:tapi.lineappinfo_tag
 title: LINEAPPINFO (tapi.h)
-description: The LINEAPPINFO structure contains information about the application that is currently running. The LINEDEVSTATUS structure can contain an array of LINEAPPINFO structures.helpviewer_keywords: ["*LPLINEAPPINFO","LINEAPPINFO","LINEAPPINFO structure [TAPI 2.2]","LPLINEAPPINFO","LPLINEAPPINFO structure pointer [TAPI 2.2]","_tapi2_lineappinfo_str","tapi/LINEAPPINFO","tapi/LPLINEAPPINFO","tapi2.lineappinfo_str"]
+description: The LINEAPPINFO structure contains information about the application that is currently running. The LINEDEVSTATUS structure can contain an array of LINEAPPINFO structures.
+helpviewer_keywords: ["*LPLINEAPPINFO","LINEAPPINFO","LINEAPPINFO structure [TAPI 2.2]","LPLINEAPPINFO","LPLINEAPPINFO structure pointer [TAPI 2.2]","_tapi2_lineappinfo_str","tapi/LINEAPPINFO","tapi/LPLINEAPPINFO","tapi2.lineappinfo_str"]
 old-location: tapi2\lineappinfo_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1c1d2d31-a234-407e-b9fc-4823928c5ca1
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAPPINFO, LINEAPPINFO, LINEAPPINFO structure [TAPI 2.2], LPLINEAPPINFO, LPLINEAPPINFO structure pointer [TAPI 2.2], _tapi2_lineappinfo_str, tapi/LINEAPPINFO, tapi/LPLINEAPPINFO, tapi2.lineappinfo_str'

@@ -1,9 +1,10 @@
 ---
 UID: NF:npapi.CancelConnectNotify
 title: CancelConnectNotify function (npapi.h)
-description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).helpviewer_keywords: ["CancelConnectNotify","CancelConnectNotify function [Security]","_mnp_cancelconnectnotify","npapi/CancelConnectNotify","security.cancelconnectnotify"]
+description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).
+helpviewer_keywords: ["CancelConnectNotify","CancelConnectNotify function [Security]","_mnp_cancelconnectnotify","npapi/CancelConnectNotify","security.cancelconnectnotify"]
 old-location: security\cancelconnectnotify.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
 ms.date: 12/05/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify

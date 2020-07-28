@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.EnrollmentEnrollStatus
 title: EnrollmentEnrollStatus (certenroll.h)
-description: Specifies the enrollment status of a certificate request.helpviewer_keywords: ["EnrollDenied","EnrollError","EnrollPended","EnrollSkipped","EnrollUIDeferredEnrollmentRequired","EnrollUnknown","Enrolled","EnrollmentEnrollStatus","EnrollmentEnrollStatus enumeration [Security]","certenroll/EnrollDenied","certenroll/EnrollError","certenroll/EnrollPended","certenroll/EnrollSkipped","certenroll/EnrollUIDeferredEnrollmentRequired","certenroll/EnrollUnknown","certenroll/Enrolled","certenroll/EnrollmentEnrollStatus","security.enrollmentenrollstatus_enum"]
+description: Specifies the enrollment status of a certificate request.
+helpviewer_keywords: ["EnrollDenied","EnrollError","EnrollPended","EnrollSkipped","EnrollUIDeferredEnrollmentRequired","EnrollUnknown","Enrolled","EnrollmentEnrollStatus","EnrollmentEnrollStatus enumeration [Security]","certenroll/EnrollDenied","certenroll/EnrollError","certenroll/EnrollPended","certenroll/EnrollSkipped","certenroll/EnrollUIDeferredEnrollmentRequired","certenroll/EnrollUnknown","certenroll/Enrolled","certenroll/EnrollmentEnrollStatus","security.enrollmentenrollstatus_enum"]
 old-location: security\enrollmentenrollstatus_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
 ms.date: 12/05/2018
 ms.keywords: EnrollDenied, EnrollError, EnrollPended, EnrollSkipped, EnrollUIDeferredEnrollmentRequired, EnrollUnknown, Enrolled, EnrollmentEnrollStatus, EnrollmentEnrollStatus enumeration [Security], certenroll/EnrollDenied, certenroll/EnrollError, certenroll/EnrollPended, certenroll/EnrollSkipped, certenroll/EnrollUIDeferredEnrollmentRequired, certenroll/EnrollUnknown, certenroll/Enrolled, certenroll/EnrollmentEnrollStatus, security.enrollmentenrollstatus_enum

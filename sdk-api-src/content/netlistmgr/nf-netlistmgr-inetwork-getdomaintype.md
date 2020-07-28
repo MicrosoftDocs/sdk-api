@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetwork.GetDomainType
 title: INetwork::GetDomainType (netlistmgr.h)
-description: The GetDomainType method returns the domain type of a network.helpviewer_keywords: ["GetDomainType","GetDomainType method [Network Awareness]","GetDomainType method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetDomainType method","INetwork.GetDomainType","INetwork::GetDomainType","netlistmgr/INetwork::GetDomainType","nla.inetwork_getdomaintype"]
+description: The GetDomainType method returns the domain type of a network.
+helpviewer_keywords: ["GetDomainType","GetDomainType method [Network Awareness]","GetDomainType method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetDomainType method","INetwork.GetDomainType","INetwork::GetDomainType","netlistmgr/INetwork::GetDomainType","nla.inetwork_getdomaintype"]
 old-location: nla\inetwork_getdomaintype.htm
 tech.root: nla
 ms.assetid: ca23d7c0-fe25-4375-bd2c-6c2ccae56548

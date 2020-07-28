@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.MFP_GET_MEDIAITEM_CREATED_EVENT
 title: MFP_GET_MEDIAITEM_CREATED_EVENT macro (mfplay.h)
-description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_CREATED_EVENT pointer.helpviewer_keywords: ["MFP_GET_MEDIAITEM_CREATED_EVENT","MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation]","mf.mfp_get_mediaitem_created_event","mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT"]
+description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_CREATED_EVENT pointer.
+helpviewer_keywords: ["MFP_GET_MEDIAITEM_CREATED_EVENT","MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation]","mf.mfp_get_mediaitem_created_event","mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT"]
 old-location: mf\mfp_get_mediaitem_created_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 16187a19-6ea9-461a-a785-d302056c41ef
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_MEDIAITEM_CREATED_EVENT, MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_created_event, mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT

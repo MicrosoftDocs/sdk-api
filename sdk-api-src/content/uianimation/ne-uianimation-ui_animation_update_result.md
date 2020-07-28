@@ -1,7 +1,8 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0001
 title: UI_ANIMATION_UPDATE_RESULT (uianimation.h)
-description: Defines results for animation updates.helpviewer_keywords: ["UI_ANIMATION_UPDATE_NO_CHANGE","UI_ANIMATION_UPDATE_RESULT","UI_ANIMATION_UPDATE_RESULT enumeration [Windows Animation]","UI_ANIMATION_UPDATE_VARIABLES_CHANGED","uianimation.ui_animation_update_result","uianimation/UI_ANIMATION_UPDATE_NO_CHANGE","uianimation/UI_ANIMATION_UPDATE_RESULT","uianimation/UI_ANIMATION_UPDATE_VARIABLES_CHANGED"]
+description: Defines results for animation updates.
+helpviewer_keywords: ["UI_ANIMATION_UPDATE_NO_CHANGE","UI_ANIMATION_UPDATE_RESULT","UI_ANIMATION_UPDATE_RESULT enumeration [Windows Animation]","UI_ANIMATION_UPDATE_VARIABLES_CHANGED","uianimation.ui_animation_update_result","uianimation/UI_ANIMATION_UPDATE_NO_CHANGE","uianimation/UI_ANIMATION_UPDATE_RESULT","uianimation/UI_ANIMATION_UPDATE_VARIABLES_CHANGED"]
 old-location: uianimation\ui_animation_update_result.htm
 tech.root: UIAnimation
 ms.assetid: 19b1d80f-39b3-4046-aa6a-5312e004b4b0

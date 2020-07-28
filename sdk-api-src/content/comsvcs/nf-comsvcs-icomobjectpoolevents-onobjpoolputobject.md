@@ -4,7 +4,7 @@ title: IComObjectPoolEvents::OnObjPoolPutObject (comsvcs.h)
 description: Generated when a new object is added to the pool.
 helpviewer_keywords: ["IComObjectPoolEvents interface [COM+]","OnObjPoolPutObject method","IComObjectPoolEvents.OnObjPoolPutObject","IComObjectPoolEvents::OnObjPoolPutObject","OnObjPoolPutObject","OnObjPoolPutObject method [COM+]","OnObjPoolPutObject method [COM+]","IComObjectPoolEvents interface","_dtc_IComObjectPoolEvents_OnObjPoolPutObject","comsvcs/IComObjectPoolEvents::OnObjPoolPutObject","cos.icomobjectpoolevents_onobjpoolputobject"]
 old-location: cos\icomobjectpoolevents_onobjpoolputobject.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 00b0b3b1-943d-4fba-bd5d-52d6de80fcf6
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolPutObject method, IComObjectPoolEvents.OnObjPoolPutObject, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject

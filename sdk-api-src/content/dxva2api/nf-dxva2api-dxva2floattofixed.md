@@ -1,9 +1,10 @@
 ---
 UID: NF:dxva2api.DXVA2FloatToFixed
 title: DXVA2FloatToFixed function (dxva2api.h)
-description: Converts a floating-point number to a DXVA2_Fixed32 value.helpviewer_keywords: ["2537e691-2137-4e4b-90a0-6749a6ceb144","DXVA2FloatToFixed","DXVA2FloatToFixed function [Media Foundation]","dxva2api/DXVA2FloatToFixed","mf.dxva2floattofixed"]
+description: Converts a floating-point number to a DXVA2_Fixed32 value.
+helpviewer_keywords: ["2537e691-2137-4e4b-90a0-6749a6ceb144","DXVA2FloatToFixed","DXVA2FloatToFixed function [Media Foundation]","dxva2api/DXVA2FloatToFixed","mf.dxva2floattofixed"]
 old-location: mf\dxva2floattofixed.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2537e691-2137-4e4b-90a0-6749a6ceb144
 ms.date: 12/05/2018
 ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2FloatToFixed function [Media Foundation], dxva2api/DXVA2FloatToFixed, mf.dxva2floattofixed

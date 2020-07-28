@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiEnumRelatedProductsA
 title: MsiEnumRelatedProductsA function (msi.h)
-description: The MsiEnumRelatedProducts function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified UpgradeCode property in their Property table.helpviewer_keywords: ["MsiEnumRelatedProducts","MsiEnumRelatedProducts function","MsiEnumRelatedProductsA","MsiEnumRelatedProductsW","_msi_msienumrelatedproducts","msi/MsiEnumRelatedProducts","msi/MsiEnumRelatedProductsA","msi/MsiEnumRelatedProductsW","setup.msienumrelatedproducts"]
+description: The MsiEnumRelatedProducts function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified UpgradeCode property in their Property table.
+helpviewer_keywords: ["MsiEnumRelatedProducts","MsiEnumRelatedProducts function","MsiEnumRelatedProductsA","MsiEnumRelatedProductsW","_msi_msienumrelatedproducts","msi/MsiEnumRelatedProducts","msi/MsiEnumRelatedProductsA","msi/MsiEnumRelatedProductsW","setup.msienumrelatedproducts"]
 old-location: setup\msienumrelatedproducts.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: cb0fbdce-0b20-4fb3-8b01-d5e81d7bf3a3
 ms.date: 12/05/2018
 ms.keywords: MsiEnumRelatedProducts, MsiEnumRelatedProducts function, MsiEnumRelatedProductsA, MsiEnumRelatedProductsW, _msi_msienumrelatedproducts, msi/MsiEnumRelatedProducts, msi/MsiEnumRelatedProductsA, msi/MsiEnumRelatedProductsW, setup.msienumrelatedproducts
@@ -168,4 +169,8 @@ When making multiple calls to
 <b>MsiEnumRelatedProducts</b> to enumerate all of the related products, each call should be made from the same thread.
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiEnumRelatedProducts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

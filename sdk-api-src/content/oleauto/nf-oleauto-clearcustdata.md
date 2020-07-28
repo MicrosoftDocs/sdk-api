@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.ClearCustData
 title: ClearCustData function (oleauto.h)
-description: Releases memory used to hold the custom data item.helpviewer_keywords: ["ClearCustData","ClearCustData function [Automation]","_oa96_ClearCustData","automat.clearcustdata","oleauto/ClearCustData"]
+description: Releases memory used to hold the custom data item.
+helpviewer_keywords: ["ClearCustData","ClearCustData function [Automation]","_oa96_ClearCustData","automat.clearcustdata","oleauto/ClearCustData"]
 old-location: automat\clearcustdata.htm
 tech.root: automat
 ms.assetid: 14556107-3b22-48c8-b480-280b9dee9b17

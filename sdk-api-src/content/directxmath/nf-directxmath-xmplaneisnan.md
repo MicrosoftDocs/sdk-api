@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMPlaneIsNaN
 title: XMPlaneIsNaN function (directxmath.h)
-description: Tests whether any of the coefficients of a plane is a NaN.helpviewer_keywords: ["Use DirectX..XMPlaneIsNaN","XMPlaneIsNaN","XMPlaneIsNaN method [DirectX Math Support APIs]","dxmath.xmplaneisnan"]
+description: Tests whether any of the coefficients of a plane is a NaN.
+helpviewer_keywords: ["Use DirectX..XMPlaneIsNaN","XMPlaneIsNaN","XMPlaneIsNaN method [DirectX Math Support APIs]","dxmath.xmplaneisnan"]
 old-location: dxmath\xmplaneisnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneIsNaN(XMVECTOR)

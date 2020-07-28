@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.GetImageResource
 title: IXpsOMImageBrush::GetImageResource (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMImageResource interface, which contains the image resource to be used as the source for the brush.helpviewer_keywords: ["GetImageResource","GetImageResource method [XPS Documents and Packaging]","GetImageResource method [XPS Documents and Packaging]","IXpsOMImageBrush interface","IXpsOMImageBrush interface [XPS Documents and Packaging]","GetImageResource method","IXpsOMImageBrush.GetImageResource","IXpsOMImageBrush::GetImageResource","xps.ixpsomimagebrush_getimageresource","xpsobjectmodel/IXpsOMImageBrush::GetImageResource"]
+description: Gets a pointer to the IXpsOMImageResource interface, which contains the image resource to be used as the source for the brush.
+helpviewer_keywords: ["GetImageResource","GetImageResource method [XPS Documents and Packaging]","GetImageResource method [XPS Documents and Packaging]","IXpsOMImageBrush interface","IXpsOMImageBrush interface [XPS Documents and Packaging]","GetImageResource method","IXpsOMImageBrush.GetImageResource","IXpsOMImageBrush::GetImageResource","xps.ixpsomimagebrush_getimageresource","xpsobjectmodel/IXpsOMImageBrush::GetImageResource"]
 old-location: xps\ixpsomimagebrush_getimageresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 92b03d98-22ce-4856-afe1-d13fb74eb340
 ms.date: 12/05/2018
 ms.keywords: GetImageResource, GetImageResource method [XPS Documents and Packaging], GetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetImageResource method, IXpsOMImageBrush.GetImageResource, IXpsOMImageBrush::GetImageResource, xps.ixpsomimagebrush_getimageresource, xpsobjectmodel/IXpsOMImageBrush::GetImageResource

@@ -4,7 +4,7 @@ title: IXpsOMGradientBrush (xpsobjectmodel.h)
 description: This interface describes a gradient that is made up of gradient stops. Classes that inherit from IXpsOMGradientBrush specify different ways of interpreting gradient stops.
 helpviewer_keywords: ["IXpsOMGradientBrush","IXpsOMGradientBrush interface [XPS Documents and Packaging]","IXpsOMGradientBrush interface [XPS Documents and Packaging]","described","xps.ixpsomgradientbrush","xpsobjectmodel/IXpsOMGradientBrush"]
 old-location: xps\ixpsomgradientbrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d381b813-5368-4ffe-a9a1-0f5027ae9d80
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], IXpsOMGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomgradientbrush, xpsobjectmodel/IXpsOMGradientBrush

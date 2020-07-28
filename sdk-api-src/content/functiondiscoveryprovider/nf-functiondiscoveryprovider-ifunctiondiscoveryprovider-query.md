@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Query
 title: IFunctionDiscoveryProvider::Query (functiondiscoveryprovider.h)
-description: Retrieves a collection of function instances that meet the specified constraints.helpviewer_keywords: ["IFunctionDiscoveryProvider interface","Query method","IFunctionDiscoveryProvider.Query","IFunctionDiscoveryProvider::Query","Query","Query method","Query method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::Query","ncd.ifunctiondiscoveryprovider_query_method"]
+description: Retrieves a collection of function instances that meet the specified constraints.
+helpviewer_keywords: ["IFunctionDiscoveryProvider interface","Query method","IFunctionDiscoveryProvider.Query","IFunctionDiscoveryProvider::Query","Query","Query method","Query method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::Query","ncd.ifunctiondiscoveryprovider_query_method"]
 old-location: ncd\ifunctiondiscoveryprovider_query_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method

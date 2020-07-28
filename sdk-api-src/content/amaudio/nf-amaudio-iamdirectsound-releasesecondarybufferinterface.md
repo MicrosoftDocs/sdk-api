@@ -1,9 +1,10 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleaseSecondaryBufferInterface
 title: IAMDirectSound::ReleaseSecondaryBufferInterface (amaudio.h)
-description: The ReleaseSecondaryBufferInterface method is not implemented.helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleaseSecondaryBufferInterface method","IAMDirectSound.ReleaseSecondaryBufferInterface","IAMDirectSound::ReleaseSecondaryBufferInterface","IAMDirectSoundReleaseSecondaryBufferInterface","ReleaseSecondaryBufferInterface","ReleaseSecondaryBufferInterface method [DirectShow]","ReleaseSecondaryBufferInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface","dshow.iamdirectsound_releasesecondarybufferinterface"]
+description: The ReleaseSecondaryBufferInterface method is not implemented.
+helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleaseSecondaryBufferInterface method","IAMDirectSound.ReleaseSecondaryBufferInterface","IAMDirectSound::ReleaseSecondaryBufferInterface","IAMDirectSoundReleaseSecondaryBufferInterface","ReleaseSecondaryBufferInterface","ReleaseSecondaryBufferInterface method [DirectShow]","ReleaseSecondaryBufferInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface","dshow.iamdirectsound_releasesecondarybufferinterface"]
 old-location: dshow\iamdirectsound_releasesecondarybufferinterface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ba563876-074e-49eb-bc53-889ead49ceb8
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseSecondaryBufferInterface method, IAMDirectSound.ReleaseSecondaryBufferInterface, IAMDirectSound::ReleaseSecondaryBufferInterface, IAMDirectSoundReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface method [DirectShow], ReleaseSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface, dshow.iamdirectsound_releasesecondarybufferinterface

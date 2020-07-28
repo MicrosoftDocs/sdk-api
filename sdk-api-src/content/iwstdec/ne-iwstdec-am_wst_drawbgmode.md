@@ -1,9 +1,10 @@
 ---
 UID: NE:iwstdec._AM_WST_DRAWBGMODE
 title: AM_WST_DRAWBGMODE (iwstdec.h)
-description: The AM_WST_DRAWBGMODE enumeration specifies whether the background of the WST frame is opaque or transparent.helpviewer_keywords: ["*PAM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE enumeration [DirectShow]","AM_WST_DRAWBGMODEEnumeration","AM_WST_DRAWBGMODE_Opaque","AM_WST_DRAWBGMODE_Transparent","PAM_WST_DRAWBGMODE","PAM_WST_DRAWBGMODE enumeration pointer [DirectShow]","dshow.am_wst_drawbgmode","iwstdec/AM_WST_DRAWBGMODE","iwstdec/AM_WST_DRAWBGMODE_Opaque","iwstdec/AM_WST_DRAWBGMODE_Transparent","iwstdec/PAM_WST_DRAWBGMODE"]
+description: The AM_WST_DRAWBGMODE enumeration specifies whether the background of the WST frame is opaque or transparent.
+helpviewer_keywords: ["*PAM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE enumeration [DirectShow]","AM_WST_DRAWBGMODEEnumeration","AM_WST_DRAWBGMODE_Opaque","AM_WST_DRAWBGMODE_Transparent","PAM_WST_DRAWBGMODE","PAM_WST_DRAWBGMODE enumeration pointer [DirectShow]","dshow.am_wst_drawbgmode","iwstdec/AM_WST_DRAWBGMODE","iwstdec/AM_WST_DRAWBGMODE_Opaque","iwstdec/AM_WST_DRAWBGMODE_Transparent","iwstdec/PAM_WST_DRAWBGMODE"]
 old-location: dshow\am_wst_drawbgmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1c27f3e1-a097-4f0e-af01-62cf500a3264
 ms.date: 12/05/2018
 ms.keywords: '*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE'

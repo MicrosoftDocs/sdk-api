@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_QOS_SETTING_TYPE
 title: HTTP_QOS_SETTING_TYPE (http.h)
-description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.helpviewer_keywords: ["*PHTTP_QOS_SETTING_TYPE","*PHTTP_QOS_SETTING_TYPE enumeration [HTTP]","HTTP_QOS_SETTING_TYPE","HTTP_QOS_SETTING_TYPE enumeration [HTTP]","HttpQosSettingTypeBandwidth","HttpQosSettingTypeConnectionLimit","HttpQosSettingTypeFlowRate","http.http_qos_setting_type","http/*PHTTP_QOS_SETTING_TYPE","http/HTTP_QOS_SETTING_TYPE","http/HttpQosSettingTypeBandwidth","http/HttpQosSettingTypeConnectionLimit","http/HttpQosSettingTypeFlowRate"]
+description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.
+helpviewer_keywords: ["*PHTTP_QOS_SETTING_TYPE","*PHTTP_QOS_SETTING_TYPE enumeration [HTTP]","HTTP_QOS_SETTING_TYPE","HTTP_QOS_SETTING_TYPE enumeration [HTTP]","HttpQosSettingTypeBandwidth","HttpQosSettingTypeConnectionLimit","HttpQosSettingTypeFlowRate","http.http_qos_setting_type","http/*PHTTP_QOS_SETTING_TYPE","http/HTTP_QOS_SETTING_TYPE","http/HttpQosSettingTypeBandwidth","http/HttpQosSettingTypeConnectionLimit","http/HttpQosSettingTypeFlowRate"]
 old-location: http\http_qos_setting_type.htm
 tech.root: http
 ms.assetid: d1593670-9f5c-48a9-93d9-d5ff744cfc8b

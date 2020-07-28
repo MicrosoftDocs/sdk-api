@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._FORMAT_PARAMETERS
 title: FORMAT_PARAMETERS
-description: Contains information used in formatting a contiguous set of disk tracks.helpviewer_keywords: ["*PFORMAT_PARAMETERS","FORMAT_PARAMETERS","FORMAT_PARAMETERS structure [Files]","PFORMAT_PARAMETERS","PFORMAT_PARAMETERS structure pointer [Files]","_win32_format_parameters_str","base.format_parameters_str","fs.format_parameters_str","winioctl/FORMAT_PARAMETERS","winioctl/PFORMAT_PARAMETERS"]
+description: Contains information used in formatting a contiguous set of disk tracks.
+helpviewer_keywords: ["*PFORMAT_PARAMETERS","FORMAT_PARAMETERS","FORMAT_PARAMETERS structure [Files]","PFORMAT_PARAMETERS","PFORMAT_PARAMETERS structure pointer [Files]","_win32_format_parameters_str","base.format_parameters_str","fs.format_parameters_str","winioctl/FORMAT_PARAMETERS","winioctl/PFORMAT_PARAMETERS"]
 old-location: fs\format_parameters_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 81fcfd8e-abb9-4c0b-b23d-302aa3645a6f
 ms.date: 12/05/2018
 ms.keywords: '*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Files], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Files], _win32_format_parameters_str, base.format_parameters_str, fs.format_parameters_str, winioctl/FORMAT_PARAMETERS, winioctl/PFORMAT_PARAMETERS'

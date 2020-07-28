@@ -1,9 +1,10 @@
 ---
 UID: NF:mmstream.IMediaStream.GetMultiMediaStream
 title: IMediaStream::GetMultiMediaStream (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the multimedia stream that contains the specified media stream.helpviewer_keywords: ["GetMultiMediaStream","GetMultiMediaStream method [DirectShow]","GetMultiMediaStream method [DirectShow]","IMediaStream interface","IMediaStream interface [DirectShow]","GetMultiMediaStream method","IMediaStream.GetMultiMediaStream","IMediaStream::GetMultiMediaStream","IMediaStreamGetMultiMediaStream","dshow.imediastream_getmultimediastream","mmstream/IMediaStream::GetMultiMediaStream"]
+description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the multimedia stream that contains the specified media stream.
+helpviewer_keywords: ["GetMultiMediaStream","GetMultiMediaStream method [DirectShow]","GetMultiMediaStream method [DirectShow]","IMediaStream interface","IMediaStream interface [DirectShow]","GetMultiMediaStream method","IMediaStream.GetMultiMediaStream","IMediaStream::GetMultiMediaStream","IMediaStreamGetMultiMediaStream","dshow.imediastream_getmultimediastream","mmstream/IMediaStream::GetMultiMediaStream"]
 old-location: dshow\imediastream_getmultimediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 09af4bfc-2427-4992-b508-fe9a7ac150d7
 ms.date: 12/05/2018
 ms.keywords: GetMultiMediaStream, GetMultiMediaStream method [DirectShow], GetMultiMediaStream method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],GetMultiMediaStream method, IMediaStream.GetMultiMediaStream, IMediaStream::GetMultiMediaStream, IMediaStreamGetMultiMediaStream, dshow.imediastream_getmultimediastream, mmstream/IMediaStream::GetMultiMediaStream

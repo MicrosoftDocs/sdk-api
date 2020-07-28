@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V2.get_PolicyServer
 title: IX509CertificateRequestPkcs10V2::get_PolicyServer (certenroll.h)
-description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.helpviewer_keywords: ["IX509CertificateRequestPkcs10V2 interface [Security]","PolicyServer property","IX509CertificateRequestPkcs10V2.PolicyServer","IX509CertificateRequestPkcs10V2.get_PolicyServer","IX509CertificateRequestPkcs10V2::PolicyServer","IX509CertificateRequestPkcs10V2::get_PolicyServer","PolicyServer property [Security]","PolicyServer property [Security]","IX509CertificateRequestPkcs10V2 interface","certenroll/IX509CertificateRequestPkcs10V2::PolicyServer","certenroll/IX509CertificateRequestPkcs10V2::get_PolicyServer","get_PolicyServer","security.ix509certificaterequestpkcs10v2_policyserver"]
+description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
+helpviewer_keywords: ["IX509CertificateRequestPkcs10V2 interface [Security]","PolicyServer property","IX509CertificateRequestPkcs10V2.PolicyServer","IX509CertificateRequestPkcs10V2.get_PolicyServer","IX509CertificateRequestPkcs10V2::PolicyServer","IX509CertificateRequestPkcs10V2::get_PolicyServer","PolicyServer property [Security]","PolicyServer property [Security]","IX509CertificateRequestPkcs10V2 interface","certenroll/IX509CertificateRequestPkcs10V2::PolicyServer","certenroll/IX509CertificateRequestPkcs10V2::get_PolicyServer","get_PolicyServer","security.ix509certificaterequestpkcs10v2_policyserver"]
 old-location: security\ix509certificaterequestpkcs10v2_policyserver.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6cb17dcc-81bf-4396-a368-c974b8136e64
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],PolicyServer property, IX509CertificateRequestPkcs10V2.PolicyServer, IX509CertificateRequestPkcs10V2.get_PolicyServer, IX509CertificateRequestPkcs10V2::PolicyServer, IX509CertificateRequestPkcs10V2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::PolicyServer, certenroll/IX509CertificateRequestPkcs10V2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestpkcs10v2_policyserver

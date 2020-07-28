@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeBitmap
 title: GetThemeBitmap function (uxtheme.h)
-description: Retrieves the bitmap associated with a particular theme, part, state, and property.helpviewer_keywords: ["GBF_COPY","GBF_DIRECT","GBF_VALIDBITS","GetThemeBitmap","GetThemeBitmap function [Windows Controls]","TMT_DIBDATA","TMT_GLYPHDIBDATA","TMT_HBITMAP","controls.GetThemeBitmap","controls.inet_GetThemeBitmap","inet_GetThemeBitmap","inet_GetThemeBitmap_cpp","uxtheme/GetThemeBitmap"]
+description: Retrieves the bitmap associated with a particular theme, part, state, and property.
+helpviewer_keywords: ["GBF_COPY","GBF_DIRECT","GBF_VALIDBITS","GetThemeBitmap","GetThemeBitmap function [Windows Controls]","TMT_DIBDATA","TMT_GLYPHDIBDATA","TMT_HBITMAP","controls.GetThemeBitmap","controls.inet_GetThemeBitmap","inet_GetThemeBitmap","inet_GetThemeBitmap_cpp","uxtheme/GetThemeBitmap"]
 old-location: controls\GetThemeBitmap.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebitmap.htm

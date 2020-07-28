@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.get_ForwardTypeCaller
 title: ITForwardInformation::get_ForwardTypeCaller (tapi3if.h)
-description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.helpviewer_keywords: ["ITForwardInformation interface [TAPI 2.2]","get_ForwardTypeCaller method","ITForwardInformation.get_ForwardTypeCaller","ITForwardInformation::get_ForwardTypeCaller","_tapi3_itforwardinformation_get_forwardtypecaller","get_ForwardTypeCaller","get_ForwardTypeCaller method [TAPI 2.2]","get_ForwardTypeCaller method [TAPI 2.2]","ITForwardInformation interface","tapi3.itforwardinformation_get_forwardtypecaller","tapi3if/ITForwardInformation::get_ForwardTypeCaller"]
+description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.
+helpviewer_keywords: ["ITForwardInformation interface [TAPI 2.2]","get_ForwardTypeCaller method","ITForwardInformation.get_ForwardTypeCaller","ITForwardInformation::get_ForwardTypeCaller","_tapi3_itforwardinformation_get_forwardtypecaller","get_ForwardTypeCaller","get_ForwardTypeCaller method [TAPI 2.2]","get_ForwardTypeCaller method [TAPI 2.2]","ITForwardInformation interface","tapi3.itforwardinformation_get_forwardtypecaller","tapi3if/ITForwardInformation::get_ForwardTypeCaller"]
 old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeCaller method, ITForwardInformation.get_ForwardTypeCaller, ITForwardInformation::get_ForwardTypeCaller, _tapi3_itforwardinformation_get_forwardtypecaller, get_ForwardTypeCaller, get_ForwardTypeCaller method [TAPI 2.2], get_ForwardTypeCaller method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypecaller, tapi3if/ITForwardInformation::get_ForwardTypeCaller

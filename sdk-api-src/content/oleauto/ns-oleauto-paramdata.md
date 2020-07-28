@@ -1,7 +1,8 @@
 ---
 UID: NS:oleauto.tagPARAMDATA
 title: PARAMDATA (oleauto.h)
-description: Describes a parameter accepted by a method or property.helpviewer_keywords: ["*LPPARAMDATA","LPPARAMDATA","LPPARAMDATA structure pointer [Automation]","PARAMDATA","PARAMDATA structure [Automation]","_oa96_PARAMDATA","automat.paramdata","oleauto/LPPARAMDATA","oleauto/PARAMDATA"]
+description: Describes a parameter accepted by a method or property.
+helpviewer_keywords: ["*LPPARAMDATA","LPPARAMDATA","LPPARAMDATA structure pointer [Automation]","PARAMDATA","PARAMDATA structure [Automation]","_oa96_PARAMDATA","automat.paramdata","oleauto/LPPARAMDATA","oleauto/PARAMDATA"]
 old-location: automat\paramdata.htm
 tech.root: automat
 ms.assetid: 3166eac0-7e07-47e1-9bca-60b15cbdf971

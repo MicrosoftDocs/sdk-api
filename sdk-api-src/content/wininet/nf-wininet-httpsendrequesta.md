@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.HttpSendRequestA
 title: HttpSendRequestA function (wininet.h)
-description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.helpviewer_keywords: ["HttpSendRequest","HttpSendRequest function [WinINet]","HttpSendRequestA","HttpSendRequestW","_inet_httpsendrequest_function","wininet.httpsendrequest","wininet/HttpSendRequest","wininet/HttpSendRequestA","wininet/HttpSendRequestW"]
+description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.
+helpviewer_keywords: ["HttpSendRequest","HttpSendRequest function [WinINet]","HttpSendRequestA","HttpSendRequestW","_inet_httpsendrequest_function","wininet.httpsendrequest","wininet/HttpSendRequest","wininet/HttpSendRequestA","wininet/HttpSendRequestW"]
 old-location: wininet\httpsendrequest.htm
 tech.root: wininet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
@@ -114,7 +115,7 @@ An application can use the same HTTP request handle in multiple calls to
 In offline mode, 
 <b>HttpSendRequest</b> returns <b>ERROR_FILE_NOT_FOUND</b> if the resource is not found in the Internet cache.
 
-There two versions of 
+There are two versions of 
 <b>HttpSendRequest</b>—<b>HttpSendRequestA</b> (used with ANSI builds) and <b>HttpSendRequestW</b> (used with Unicode builds).  If 
 <b>dwHeadersLength</b> is -1L and 
 <i>lpszHeaders</i> is not <b>NULL</b>, the following will happen:  If <b>HttpSendRequestA</b> is called, the function assumes that 
@@ -130,6 +131,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines HttpSendRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegGetKeySecurity
 title: ClusterRegGetKeySecurity function (clusapi.h)
-description: Returns a copy of the security descriptor protecting the specified cluster database key.helpviewer_keywords: ["ClusterRegGetKeySecurity","ClusterRegGetKeySecurity function [Failover Cluster]","_wolf_clusterreggetkeysecurity","clusapi/ClusterRegGetKeySecurity","mscs.clusterreggetkeysecurity"]
+description: Returns a copy of the security descriptor protecting the specified cluster database key.
+helpviewer_keywords: ["ClusterRegGetKeySecurity","ClusterRegGetKeySecurity function [Failover Cluster]","_wolf_clusterreggetkeysecurity","clusapi/ClusterRegGetKeySecurity","mscs.clusterreggetkeysecurity"]
 old-location: mscs\clusterreggetkeysecurity.htm
 tech.root: MsCS
 ms.assetid: cd0fcfd2-21e0-4627-9b01-6a7f61a80823

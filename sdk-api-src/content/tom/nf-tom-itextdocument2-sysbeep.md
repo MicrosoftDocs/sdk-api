@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.SysBeep
 title: ITextDocument2::SysBeep (tom.h)
-description: Generates a system beep.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SysBeep method","ITextDocument2.SysBeep","ITextDocument2::SysBeep","SysBeep","SysBeep method [Windows Controls]","SysBeep method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_sysbeep","tom/ITextDocument2::SysBeep"]
+description: Generates a system beep.
+helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SysBeep method","ITextDocument2.SysBeep","ITextDocument2::SysBeep","SysBeep","SysBeep method [Windows Controls]","SysBeep method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_sysbeep","tom/ITextDocument2::SysBeep"]
 old-location: controls\itextdocument2_sysbeep.htm
 tech.root: Controls
 ms.assetid: 2f1f83a0-9308-40c8-b889-aa8118ee9e71

@@ -1,9 +1,10 @@
 ---
 UID: NS:lsalookup._POLICY_ACCOUNT_DOMAIN_INFO
 title: POLICY_ACCOUNT_DOMAIN_INFO (lsalookup.h)
-description: Used to set and query the name and SID of the system's account domain.helpviewer_keywords: ["*PPOLICY_ACCOUNT_DOMAIN_INFO","POLICY_ACCOUNT_DOMAIN_INFO","POLICY_ACCOUNT_DOMAIN_INFO structure [Security]","PPOLICY_ACCOUNT_DOMAIN_INFO","PPOLICY_ACCOUNT_DOMAIN_INFO structure pointer [Security]","_lsa_policy_account_domain_info","lsalookup/POLICY_ACCOUNT_DOMAIN_INFO","lsalookup/PPOLICY_ACCOUNT_DOMAIN_INFO","security.policy_account_domain_info"]
+description: Used to set and query the name and SID of the system's account domain.
+helpviewer_keywords: ["*PPOLICY_ACCOUNT_DOMAIN_INFO","POLICY_ACCOUNT_DOMAIN_INFO","POLICY_ACCOUNT_DOMAIN_INFO structure [Security]","PPOLICY_ACCOUNT_DOMAIN_INFO","PPOLICY_ACCOUNT_DOMAIN_INFO structure pointer [Security]","_lsa_policy_account_domain_info","lsalookup/POLICY_ACCOUNT_DOMAIN_INFO","lsalookup/PPOLICY_ACCOUNT_DOMAIN_INFO","security.policy_account_domain_info"]
 old-location: security\policy_account_domain_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 0e38ac5f-40db-405d-9394-b6bcb7c652b5
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO structure [Security], PPOLICY_ACCOUNT_DOMAIN_INFO, PPOLICY_ACCOUNT_DOMAIN_INFO structure pointer [Security], _lsa_policy_account_domain_info, lsalookup/POLICY_ACCOUNT_DOMAIN_INFO, lsalookup/PPOLICY_ACCOUNT_DOMAIN_INFO, security.policy_account_domain_info'

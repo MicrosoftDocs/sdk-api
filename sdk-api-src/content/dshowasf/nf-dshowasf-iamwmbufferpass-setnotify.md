@@ -1,7 +1,8 @@
 ---
 UID: NF:dshowasf.IAMWMBufferPass.SetNotify
 title: IAMWMBufferPass::SetNotify (dshowasf.h)
-description: The SetNotify method is used by applications to provide the WM ASF Writer or WM ASF Reader filter with a pointer to the application's IAMWMBufferPassCallback interface.helpviewer_keywords: ["IAMWMBufferPass interface [windows Media Format]","SetNotify method","IAMWMBufferPass.SetNotify","IAMWMBufferPass::SetNotify","IAMWMBufferPassSetNotify","SetNotify","SetNotify method [windows Media Format]","SetNotify method [windows Media Format]","IAMWMBufferPass interface","dshowasf/IAMWMBufferPass::SetNotify","wmformat.iamwmbufferpass_setnotify"]
+description: The SetNotify method is used by applications to provide the WM ASF Writer or WM ASF Reader filter with a pointer to the application's IAMWMBufferPassCallback interface.
+helpviewer_keywords: ["IAMWMBufferPass interface [windows Media Format]","SetNotify method","IAMWMBufferPass.SetNotify","IAMWMBufferPass::SetNotify","IAMWMBufferPassSetNotify","SetNotify","SetNotify method [windows Media Format]","SetNotify method [windows Media Format]","IAMWMBufferPass interface","dshowasf/IAMWMBufferPass::SetNotify","wmformat.iamwmbufferpass_setnotify"]
 old-location: wmformat\iamwmbufferpass_setnotify.htm
 tech.root: wmformat
 ms.assetid: b0fff344-a20c-4cfc-828b-c6fc49d990ea

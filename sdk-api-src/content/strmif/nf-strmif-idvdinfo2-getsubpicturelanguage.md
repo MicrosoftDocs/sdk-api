@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetSubpictureLanguage
 title: IDvdInfo2::GetSubpictureLanguage (strmif.h)
-description: The GetSubpictureLanguage method retrieves the language of the specified subpicture stream within the current title.helpviewer_keywords: ["GetSubpictureLanguage","GetSubpictureLanguage method [DirectShow]","GetSubpictureLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetSubpictureLanguage method","IDvdInfo2.GetSubpictureLanguage","IDvdInfo2::GetSubpictureLanguage","IDvdInfo2GetSubpictureLanguage","dshow.idvdinfo2_getsubpicturelanguage","strmif/IDvdInfo2::GetSubpictureLanguage"]
+description: The GetSubpictureLanguage method retrieves the language of the specified subpicture stream within the current title.
+helpviewer_keywords: ["GetSubpictureLanguage","GetSubpictureLanguage method [DirectShow]","GetSubpictureLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetSubpictureLanguage method","IDvdInfo2.GetSubpictureLanguage","IDvdInfo2::GetSubpictureLanguage","IDvdInfo2GetSubpictureLanguage","dshow.idvdinfo2_getsubpicturelanguage","strmif/IDvdInfo2::GetSubpictureLanguage"]
 old-location: dshow\idvdinfo2_getsubpicturelanguage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 175ab238-59a9-4142-921b-ed374423f4e3
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureLanguage method, IDvdInfo2.GetSubpictureLanguage, IDvdInfo2::GetSubpictureLanguage, IDvdInfo2GetSubpictureLanguage, dshow.idvdinfo2_getsubpicturelanguage, strmif/IDvdInfo2::GetSubpictureLanguage

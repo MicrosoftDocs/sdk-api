@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._FILE_ALLOCATED_RANGE_BUFFER
 title: FILE_ALLOCATED_RANGE_BUFFER
-description: Indicates a range of bytes in a file.helpviewer_keywords: ["*PFILE_ALLOCATED_RANGE_BUFFER","FILE_ALLOCATED_RANGE_BUFFER","FILE_ALLOCATED_RANGE_BUFFER structure [Files]","PFILE_ALLOCATED_RANGE_BUFFER","PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files]","_win32_file_allocated_range_buffer_str","base.file_allocated_range_buffer_str","fs.file_allocated_range_buffer_str","winioctl/FILE_ALLOCATED_RANGE_BUFFER","winioctl/PFILE_ALLOCATED_RANGE_BUFFER"]
+description: Indicates a range of bytes in a file.
+helpviewer_keywords: ["*PFILE_ALLOCATED_RANGE_BUFFER","FILE_ALLOCATED_RANGE_BUFFER","FILE_ALLOCATED_RANGE_BUFFER structure [Files]","PFILE_ALLOCATED_RANGE_BUFFER","PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files]","_win32_file_allocated_range_buffer_str","base.file_allocated_range_buffer_str","fs.file_allocated_range_buffer_str","winioctl/FILE_ALLOCATED_RANGE_BUFFER","winioctl/PFILE_ALLOCATED_RANGE_BUFFER"]
 old-location: fs\file_allocated_range_buffer_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e9c7d757-df29-4419-baba-56beb41623bf
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER structure [Files], PFILE_ALLOCATED_RANGE_BUFFER, PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files], _win32_file_allocated_range_buffer_str, base.file_allocated_range_buffer_str, fs.file_allocated_range_buffer_str, winioctl/FILE_ALLOCATED_RANGE_BUFFER, winioctl/PFILE_ALLOCATED_RANGE_BUFFER'

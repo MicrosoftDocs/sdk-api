@@ -1,9 +1,10 @@
 ---
 UID: NF:dpapi.CryptUnprotectMemory
 title: CryptUnprotectMemory function (dpapi.h)
-description: Decrypts memory that was encrypted using the CryptProtectMemory function.helpviewer_keywords: ["CRYPTPROTECTMEMORY_CROSS_PROCESS","CRYPTPROTECTMEMORY_SAME_LOGON","CRYPTPROTECTMEMORY_SAME_PROCESS","CryptUnprotectMemory","CryptUnprotectMemory function [Security]","dpapi/CryptUnprotectMemory","security.cryptunprotectmemory","wincrypt/CryptUnprotectMemory"]
+description: Decrypts memory that was encrypted using the CryptProtectMemory function.
+helpviewer_keywords: ["CRYPTPROTECTMEMORY_CROSS_PROCESS","CRYPTPROTECTMEMORY_SAME_LOGON","CRYPTPROTECTMEMORY_SAME_PROCESS","CryptUnprotectMemory","CryptUnprotectMemory function [Security]","dpapi/CryptUnprotectMemory","security.cryptunprotectmemory","wincrypt/CryptUnprotectMemory"]
 old-location: security\cryptunprotectmemory.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory

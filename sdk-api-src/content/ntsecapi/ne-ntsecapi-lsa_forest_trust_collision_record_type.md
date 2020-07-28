@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE (ntsecapi.h)
 description: Defines the types of collision that can occur between Local Security Authority forest trust records.
 helpviewer_keywords: ["CollisionOther","CollisionTdo","CollisionXref","LSA_FOREST_TRUST_COLLISION_RECORD_TYPE","LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration [Security]","ntsecapi/CollisionOther","ntsecapi/CollisionTdo","ntsecapi/CollisionXref","ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD_TYPE","security.lsa_forest_trust_collision_record_type"]
 old-location: security\lsa_forest_trust_collision_record_type.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 67c89d75-2c2d-4980-a1c9-32e7f64a7b49
 ms.date: 12/05/2018
 ms.keywords: CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD_TYPE, LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration [Security], ntsecapi/CollisionOther, ntsecapi/CollisionTdo, ntsecapi/CollisionXref, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD_TYPE, security.lsa_forest_trust_collision_record_type

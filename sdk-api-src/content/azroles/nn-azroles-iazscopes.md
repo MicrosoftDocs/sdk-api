@@ -1,9 +1,10 @@
 ---
 UID: NN:azroles.IAzScopes
 title: IAzScopes (azroles.h)
-description: Represents a collection of IAzScope objects.helpviewer_keywords: ["IAzScopes","IAzScopes interface [Security]","IAzScopes interface [Security]","described","azroles/IAzScopes","security.iazscopes"]
+description: Represents a collection of IAzScope objects.
+helpviewer_keywords: ["IAzScopes","IAzScopes interface [Security]","IAzScopes interface [Security]","described","azroles/IAzScopes","security.iazscopes"]
 old-location: security\iazscopes.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f00953bf-b90a-4812-a87d-a66b98a2e95f
 ms.date: 12/05/2018
 ms.keywords: IAzScopes, IAzScopes interface [Security], IAzScopes interface [Security],described, azroles/IAzScopes, security.iazscopes

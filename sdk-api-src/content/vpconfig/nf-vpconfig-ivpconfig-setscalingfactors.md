@@ -1,9 +1,10 @@
 ---
 UID: NF:vpconfig.IVPConfig.SetScalingFactors
 title: IVPConfig::SetScalingFactors (vpconfig.h)
-description: The SetScalingFactors method sets the factors by which the decoder should scale the video stream.helpviewer_keywords: ["IVPConfig interface [DirectShow]","SetScalingFactors method","IVPConfig.SetScalingFactors","IVPConfig::SetScalingFactors","IVPConfigSetScalingFactors","SetScalingFactors","SetScalingFactors method [DirectShow]","SetScalingFactors method [DirectShow]","IVPConfig interface","dshow.ivpconfig_setscalingfactors","vpconfig/IVPConfig::SetScalingFactors"]
+description: The SetScalingFactors method sets the factors by which the decoder should scale the video stream.
+helpviewer_keywords: ["IVPConfig interface [DirectShow]","SetScalingFactors method","IVPConfig.SetScalingFactors","IVPConfig::SetScalingFactors","IVPConfigSetScalingFactors","SetScalingFactors","SetScalingFactors method [DirectShow]","SetScalingFactors method [DirectShow]","IVPConfig interface","dshow.ivpconfig_setscalingfactors","vpconfig/IVPConfig::SetScalingFactors"]
 old-location: dshow\ivpconfig_setscalingfactors.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 62b8281e-6feb-43f5-b1a5-36444fda5543
 ms.date: 12/05/2018
 ms.keywords: IVPConfig interface [DirectShow],SetScalingFactors method, IVPConfig.SetScalingFactors, IVPConfig::SetScalingFactors, IVPConfigSetScalingFactors, SetScalingFactors, SetScalingFactors method [DirectShow], SetScalingFactors method [DirectShow],IVPConfig interface, dshow.ivpconfig_setscalingfactors, vpconfig/IVPConfig::SetScalingFactors

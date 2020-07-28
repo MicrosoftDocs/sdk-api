@@ -4,7 +4,7 @@ title: PTConvertDevModeToPrintTicket function (prntvpt.h)
 description: Converts a DEVMODE structure to a print ticket inside an IStream.
 helpviewer_keywords: ["PTConvertDevModeToPrintTicket","PTConvertDevModeToPrintTicket function [Windows GDI]","_win32_PTConvertDevModeToPrintTicket","gdi.ptconvertdevmodetoprintticket","prntvpt/PTConvertDevModeToPrintTicket"]
 old-location: gdi\ptconvertdevmodetoprintticket.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
 ms.date: 12/05/2018
 ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket function [Windows GDI], _win32_PTConvertDevModeToPrintTicket, gdi.ptconvertdevmodetoprintticket, prntvpt/PTConvertDevModeToPrintTicket

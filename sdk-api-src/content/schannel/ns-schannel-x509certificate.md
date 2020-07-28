@@ -1,9 +1,10 @@
 ---
 UID: NS:schannel._X509Certificate
 title: X509Certificate (schannel.h)
-description: Represents an X.509 certificate.helpviewer_keywords: ["*PX509Certificate","PX509Certificate","PX509Certificate structure pointer [Security]","X509Certificate","X509Certificate structure [Security]","schannel/PX509Certificate","schannel/X509Certificate","security.x509certificate"]
+description: Represents an X.509 certificate.
+helpviewer_keywords: ["*PX509Certificate","PX509Certificate","PX509Certificate structure pointer [Security]","X509Certificate","X509Certificate structure [Security]","schannel/PX509Certificate","schannel/X509Certificate","security.x509certificate"]
 old-location: security\x509certificate.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
 ms.date: 12/05/2018
 ms.keywords: '*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate'

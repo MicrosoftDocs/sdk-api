@@ -1,9 +1,10 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.AddSpatialAudioObject
 title: IMFSpatialAudioSample::AddSpatialAudioObject (mfspatialaudio.h)
-description: Adds a new spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, to the sample.helpviewer_keywords: ["AddSpatialAudioObject","AddSpatialAudioObject method [Media Foundation]","AddSpatialAudioObject method [Media Foundation]","IMFSpatialAudioSample interface","IMFSpatialAudioSample interface [Media Foundation]","AddSpatialAudioObject method","IMFSpatialAudioSample.AddSpatialAudioObject","IMFSpatialAudioSample::AddSpatialAudioObject","mf.imfspatialaudiosample_addspatialaudioobject","mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject"]
+description: Adds a new spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, to the sample.
+helpviewer_keywords: ["AddSpatialAudioObject","AddSpatialAudioObject method [Media Foundation]","AddSpatialAudioObject method [Media Foundation]","IMFSpatialAudioSample interface","IMFSpatialAudioSample interface [Media Foundation]","AddSpatialAudioObject method","IMFSpatialAudioSample.AddSpatialAudioObject","IMFSpatialAudioSample::AddSpatialAudioObject","mf.imfspatialaudiosample_addspatialaudioobject","mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject"]
 old-location: mf\imfspatialaudiosample_addspatialaudioobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D967B4FE-8E11-4520-BF9E-725ACC7AA99A
 ms.date: 12/05/2018
 ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],AddSpatialAudioObject method, IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject

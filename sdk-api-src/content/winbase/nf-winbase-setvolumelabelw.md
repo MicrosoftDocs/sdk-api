@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetVolumeLabelW
 title: SetVolumeLabelW function (winbase.h)
-description: Sets the label of a file system volume.helpviewer_keywords: ["SetVolumeLabel","SetVolumeLabel function [Files]","SetVolumeLabelA","SetVolumeLabelW","_win32_setvolumelabel","base.setvolumelabel","fs.setvolumelabel","winbase/SetVolumeLabel","winbase/SetVolumeLabelA","winbase/SetVolumeLabelW"]
+description: Sets the label of a file system volume.
+helpviewer_keywords: ["SetVolumeLabel","SetVolumeLabel function [Files]","SetVolumeLabelA","SetVolumeLabelW","_win32_setvolumelabel","base.setvolumelabel","fs.setvolumelabel","winbase/SetVolumeLabel","winbase/SetVolumeLabelA","winbase/SetVolumeLabelW"]
 old-location: fs\setvolumelabel.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
 ms.date: 12/05/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
@@ -171,6 +172,10 @@ SMB does not support volume management functions.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines SetVolumeLabel as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

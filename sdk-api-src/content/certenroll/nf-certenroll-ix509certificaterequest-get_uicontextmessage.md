@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_UIContextMessage
 title: IX509CertificateRequest::get_UIContextMessage (certenroll.h)
-description: Specifies or retrieves a context string to display in the user interface.helpviewer_keywords: ["IX509CertificateRequest interface [Security]","UIContextMessage property","IX509CertificateRequest.UIContextMessage","IX509CertificateRequest.get_UIContextMessage","IX509CertificateRequest::UIContextMessage","IX509CertificateRequest::get_UIContextMessage","IX509CertificateRequest::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::UIContextMessage","certenroll/IX509CertificateRequest::get_UIContextMessage","certenroll/IX509CertificateRequest::put_UIContextMessage","get_UIContextMessage","security.ix509certificaterequest_uicontextmessage_property"]
+description: Specifies or retrieves a context string to display in the user interface.
+helpviewer_keywords: ["IX509CertificateRequest interface [Security]","UIContextMessage property","IX509CertificateRequest.UIContextMessage","IX509CertificateRequest.get_UIContextMessage","IX509CertificateRequest::UIContextMessage","IX509CertificateRequest::get_UIContextMessage","IX509CertificateRequest::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::UIContextMessage","certenroll/IX509CertificateRequest::get_UIContextMessage","certenroll/IX509CertificateRequest::put_UIContextMessage","get_UIContextMessage","security.ix509certificaterequest_uicontextmessage_property"]
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0eedb520-06c3-4106-8593-1c5fb0829d5e
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest.get_UIContextMessage, IX509CertificateRequest::UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, get_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property

@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetFourCCCodes
 title: IDirectDrawVideo::GetFourCCCodes (amvideo.h)
-description: The GetFourCCCodes method retrieves the multimedia format type.helpviewer_keywords: ["GetFourCCCodes","GetFourCCCodes method [DirectShow]","GetFourCCCodes method [DirectShow]","IDirectDrawVideo interface","IDirectDrawVideo interface [DirectShow]","GetFourCCCodes method","IDirectDrawVideo.GetFourCCCodes","IDirectDrawVideo::GetFourCCCodes","IDirectDrawVideoGetFourCCCodes","amvideo/IDirectDrawVideo::GetFourCCCodes","dshow.idirectdrawvideo_getfourcccodes"]
+description: The GetFourCCCodes method retrieves the multimedia format type.
+helpviewer_keywords: ["GetFourCCCodes","GetFourCCCodes method [DirectShow]","GetFourCCCodes method [DirectShow]","IDirectDrawVideo interface","IDirectDrawVideo interface [DirectShow]","GetFourCCCodes method","IDirectDrawVideo.GetFourCCCodes","IDirectDrawVideo::GetFourCCCodes","IDirectDrawVideoGetFourCCCodes","amvideo/IDirectDrawVideo::GetFourCCCodes","dshow.idirectdrawvideo_getfourcccodes"]
 old-location: dshow\idirectdrawvideo_getfourcccodes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3ea1c5c4-bf2e-40f6-bf48-a69900128ec8
 ms.date: 12/05/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectShow], GetFourCCCodes method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetFourCCCodes method, IDirectDrawVideo.GetFourCCCodes, IDirectDrawVideo::GetFourCCCodes, IDirectDrawVideoGetFourCCCodes, amvideo/IDirectDrawVideo::GetFourCCCodes, dshow.idirectdrawvideo_getfourcccodes

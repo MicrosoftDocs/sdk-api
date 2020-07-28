@@ -1,9 +1,10 @@
 ---
 UID: NN:wsdbase.IWSDHttpAuthParameters
 title: IWSDHttpAuthParameters (wsdbase.h)
-description: Use this interface to retrieve the access token or authorization scheme used during the authentication of a client.helpviewer_keywords: ["IWSDHttpAuthParameters","IWSDHttpAuthParameters interface","IWSDHttpAuthParameters interface","described","ncd.iwsdhttpauthparameters","wsdbase/IWSDHttpAuthParameters"]
+description: Use this interface to retrieve the access token or authorization scheme used during the authentication of a client.
+helpviewer_keywords: ["IWSDHttpAuthParameters","IWSDHttpAuthParameters interface","IWSDHttpAuthParameters interface","described","ncd.iwsdhttpauthparameters","wsdbase/IWSDHttpAuthParameters"]
 old-location: ncd\iwsdhttpauthparameters.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 77AB4D22-55F2-4DF6-8E83-718BFB88841A
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters

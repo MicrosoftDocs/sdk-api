@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObject
 title: IOleItemContainer::GetObject (oleidl.h)
-description: Retrieves a pointer to the specified object.helpviewer_keywords: ["GetObject","GetObject method [COM]","GetObject method [COM]","IOleItemContainer interface","IOleItemContainer interface [COM]","GetObject method","IOleItemContainer.GetObject","IOleItemContainer::GetObject","_com_ioleitemcontainer_getobject","com.ioleitemcontainer_getobject","oleidl/IOleItemContainer::GetObject"]
+description: Retrieves a pointer to the specified object.
+helpviewer_keywords: ["GetObject","GetObject method [COM]","GetObject method [COM]","IOleItemContainer interface","IOleItemContainer interface [COM]","GetObject method","IOleItemContainer.GetObject","IOleItemContainer::GetObject","_com_ioleitemcontainer_getobject","com.ioleitemcontainer_getobject","oleidl/IOleItemContainer::GetObject"]
 old-location: com\ioleitemcontainer_getobject.htm
 tech.root: com
 ms.assetid: 08569037-7ecd-4e63-9f94-c2552c327800

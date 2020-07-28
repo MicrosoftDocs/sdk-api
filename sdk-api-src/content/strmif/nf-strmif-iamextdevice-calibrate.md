@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMExtDevice.Calibrate
 title: IAMExtDevice::Calibrate (strmif.h)
-description: The Calibrate method calibrates an external device's transport mechanism.helpviewer_keywords: ["Calibrate","Calibrate method [DirectShow]","Calibrate method [DirectShow]","IAMExtDevice interface","IAMExtDevice interface [DirectShow]","Calibrate method","IAMExtDevice.Calibrate","IAMExtDevice::Calibrate","IAMExtDeviceCalibrate","dshow.iamextdevice_calibrate","strmif/IAMExtDevice::Calibrate"]
+description: The Calibrate method calibrates an external device's transport mechanism.
+helpviewer_keywords: ["Calibrate","Calibrate method [DirectShow]","Calibrate method [DirectShow]","IAMExtDevice interface","IAMExtDevice interface [DirectShow]","Calibrate method","IAMExtDevice.Calibrate","IAMExtDevice::Calibrate","IAMExtDeviceCalibrate","dshow.iamextdevice_calibrate","strmif/IAMExtDevice::Calibrate"]
 old-location: dshow\iamextdevice_calibrate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0c760669-c494-45bb-994e-5b4599db7de4
 ms.date: 12/05/2018
 ms.keywords: Calibrate, Calibrate method [DirectShow], Calibrate method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],Calibrate method, IAMExtDevice.Calibrate, IAMExtDevice::Calibrate, IAMExtDeviceCalibrate, dshow.iamextdevice_calibrate, strmif/IAMExtDevice::Calibrate

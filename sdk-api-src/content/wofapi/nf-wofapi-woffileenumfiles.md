@@ -1,9 +1,10 @@
 ---
 UID: NF:wofapi.WofFileEnumFiles
 title: WofFileEnumFiles function (wofapi.h)
-description: Enumerates all of the files which are compressed with a specified compression algorithm on a specified volume.helpviewer_keywords: ["WofFileEnumFiles","WofFileEnumFiles function [Files]","fs.woffileenumfiles","wofapi/WofFileEnumFiles"]
+description: Enumerates all of the files which are compressed with a specified compression algorithm on a specified volume.
+helpviewer_keywords: ["WofFileEnumFiles","WofFileEnumFiles function [Files]","fs.woffileenumfiles","wofapi/WofFileEnumFiles"]
 old-location: fs\woffileenumfiles.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0B3CD8A2-AF4C-4438-B284-03AAA81DE436
 ms.date: 12/05/2018
 ms.keywords: WofFileEnumFiles, WofFileEnumFiles function [Files], fs.woffileenumfiles, wofapi/WofFileEnumFiles

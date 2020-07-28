@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateTrustedDomains
 title: LsaEnumerateTrustedDomains function (ntsecapi.h)
-description: The LsaEnumerateTrustedDomains function retrieves the names and SIDs of domains trusted to authenticate logon credentials.helpviewer_keywords: ["LsaEnumerateTrustedDomains","LsaEnumerateTrustedDomains function [Security]","_lsa_lsaenumeratetrusteddomains","ntsecapi/LsaEnumerateTrustedDomains","security.lsaenumeratetrusteddomains"]
+description: The LsaEnumerateTrustedDomains function retrieves the names and SIDs of domains trusted to authenticate logon credentials.
+helpviewer_keywords: ["LsaEnumerateTrustedDomains","LsaEnumerateTrustedDomains function [Security]","_lsa_lsaenumeratetrusteddomains","ntsecapi/LsaEnumerateTrustedDomains","security.lsaenumeratetrusteddomains"]
 old-location: security\lsaenumeratetrusteddomains.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 5c371d5a-26cf-4a99-a8e1-006b6b3cc91f
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateTrustedDomains, LsaEnumerateTrustedDomains function [Security], _lsa_lsaenumeratetrusteddomains, ntsecapi/LsaEnumerateTrustedDomains, security.lsaenumeratetrusteddomains

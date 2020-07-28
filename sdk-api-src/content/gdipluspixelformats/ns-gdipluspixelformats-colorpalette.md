@@ -1,7 +1,8 @@
 ---
 UID: NS:gdipluspixelformats.ColorPalette
 title: ColorPalette (gdipluspixelformats.h)
-description: The ColorPalette structure defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors.helpviewer_keywords: ["ColorPalette","ColorPalette structure [GDI+]","_gdiplus_STRUC_ColorPalette","gdiplus._gdiplus_STRUC_ColorPalette","gdipluspixelformats/ColorPalette"]
+description: The ColorPalette structure defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors.
+helpviewer_keywords: ["ColorPalette","ColorPalette structure [GDI+]","_gdiplus_STRUC_ColorPalette","gdiplus._gdiplus_STRUC_ColorPalette","gdipluspixelformats/ColorPalette"]
 old-location: gdiplus\_gdiplus_STRUC_ColorPalette.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorpalette.htm

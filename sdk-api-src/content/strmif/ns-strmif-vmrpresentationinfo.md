@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.tagVMRPRESENTATIONINFO
 title: VMRPRESENTATIONINFO (strmif.h)
-description: The VMRPRESENTATIONINFO structure is used in the IVMRImagePresenter::PresentImage method (VMR-7 only).helpviewer_keywords: ["VMRPRESENTATIONINFO","VMRPRESENTATIONINFO structure [DirectShow]","VMRPRESENTATIONINFOStructure","dshow.vmrpresentationinfo","strmif/VMRPRESENTATIONINFO"]
+description: The VMRPRESENTATIONINFO structure is used in the IVMRImagePresenter::PresentImage method (VMR-7 only).
+helpviewer_keywords: ["VMRPRESENTATIONINFO","VMRPRESENTATIONINFO structure [DirectShow]","VMRPRESENTATIONINFOStructure","dshow.vmrpresentationinfo","strmif/VMRPRESENTATIONINFO"]
 old-location: dshow\vmrpresentationinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
 ms.date: 12/05/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO

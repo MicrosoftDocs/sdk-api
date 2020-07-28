@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509Attributes.Add
 title: IX509Attributes::Add (certenroll.h)
-description: Adds an IX509Attribute object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","IX509Attributes interface","IX509Attributes interface [Security]","Add method","IX509Attributes.Add","IX509Attributes::Add","certenroll/IX509Attributes::Add","security.ix509attributes_add_method"]
+description: Adds an IX509Attribute object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","IX509Attributes interface","IX509Attributes interface [Security]","Add method","IX509Attributes.Add","IX509Attributes::Add","certenroll/IX509Attributes::Add","security.ix509attributes_add_method"]
 old-location: security\ix509attributes_add_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method

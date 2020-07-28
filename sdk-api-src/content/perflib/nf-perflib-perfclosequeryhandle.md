@@ -1,9 +1,10 @@
 ---
 UID: NF:perflib.PerfCloseQueryHandle
 title: PerfCloseQueryHandle function (perflib.h)
-description: Closes a query handle that you opened by calling PerfOpenQueryHandle.helpviewer_keywords: ["PerfCloseQueryHandle","PerfCloseQueryHandle function [Perf]","perf.perfclosequeryhandle","perflib/PerfCloseQueryHandle"]
+description: Closes a query handle that you opened by calling PerfOpenQueryHandle.
+helpviewer_keywords: ["PerfCloseQueryHandle","PerfCloseQueryHandle function [Perf]","perf.perfclosequeryhandle","perflib/PerfCloseQueryHandle"]
 old-location: perf\perfclosequeryhandle.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.date: 12/05/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle

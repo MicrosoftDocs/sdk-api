@@ -1,9 +1,10 @@
 ---
 UID: NF:identitystore.IIdentityStore.AddToCache
 title: IIdentityStore::AddToCache (identitystore.h)
-description: Caches the specified identity in the registry.helpviewer_keywords: ["AddToCache","AddToCache method [Security]","AddToCache method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","AddToCache method","IIdentityStore.AddToCache","IIdentityStore::AddToCache","identitystore/IIdentityStore::AddToCache","security.iidentitystore_addtocache"]
+description: Caches the specified identity in the registry.
+helpviewer_keywords: ["AddToCache","AddToCache method [Security]","AddToCache method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","AddToCache method","IIdentityStore.AddToCache","IIdentityStore::AddToCache","identitystore/IIdentityStore::AddToCache","security.iidentitystore_addtocache"]
 old-location: security\iidentitystore_addtocache.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 5ce977bc-41fa-4f80-bb82-76a8bdc40e7e
 ms.date: 12/05/2018
 ms.keywords: AddToCache, AddToCache method [Security], AddToCache method [Security],IIdentityStore interface, IIdentityStore interface [Security],AddToCache method, IIdentityStore.AddToCache, IIdentityStore::AddToCache, identitystore/IIdentityStore::AddToCache, security.iidentitystore_addtocache

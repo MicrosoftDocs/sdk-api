@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_Count
 title: IX509Extensions::get_Count (certenroll.h)
-description: Retrieves the number of IX509Extension objects in the collection.helpviewer_keywords: ["Count property [Security]","Count property [Security]","IX509Extensions interface","IX509Extensions interface [Security]","Count property","IX509Extensions.Count","IX509Extensions.get_Count","IX509Extensions::Count","IX509Extensions::get_Count","certenroll/IX509Extensions::Count","certenroll/IX509Extensions::get_Count","get_Count","security.ix509extensions_count_property"]
+description: Retrieves the number of IX509Extension objects in the collection.
+helpviewer_keywords: ["Count property [Security]","Count property [Security]","IX509Extensions interface","IX509Extensions interface [Security]","Count property","IX509Extensions.Count","IX509Extensions.get_Count","IX509Extensions::Count","IX509Extensions::get_Count","certenroll/IX509Extensions::Count","certenroll/IX509Extensions::get_Count","get_Count","security.ix509extensions_count_property"]
 old-location: security\ix509extensions_count_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 3afee7ca-c58c-4152-b696-19d31410de5a
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509Extensions interface, IX509Extensions interface [Security],Count property, IX509Extensions.Count, IX509Extensions.get_Count, IX509Extensions::Count, IX509Extensions::get_Count, certenroll/IX509Extensions::Count, certenroll/IX509Extensions::get_Count, get_Count, security.ix509extensions_count_property

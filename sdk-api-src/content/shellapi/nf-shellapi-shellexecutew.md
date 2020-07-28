@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteW
 title: ShellExecuteW function (shellapi.h)
-description: Performs an operation on a specified file.helpviewer_keywords: ["NULL","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWDEFAULT","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","ShellExecute","ShellExecute function [Windows Shell]","ShellExecuteA","ShellExecuteW","_win32_ShellExecute","_win32_ShellExecute_cpp","edit","explore","find","open","print","shell.ShellExecute","shellapi/ShellExecute","shellapi/ShellExecuteA","shellapi/ShellExecuteW"]
+description: Performs an operation on a specified file.
+helpviewer_keywords: ["NULL","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWDEFAULT","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","ShellExecute","ShellExecute function [Windows Shell]","ShellExecuteA","ShellExecuteW","_win32_ShellExecute","_win32_ShellExecute_cpp","edit","explore","find","open","print","shell.ShellExecute","shellapi/ShellExecute","shellapi/ShellExecuteA","shellapi/ShellExecuteW"]
 old-location: shell\ShellExecute.htm
 tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897
@@ -555,6 +556,10 @@ To obtain information about the application that is launched as a result of call
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines ShellExecute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

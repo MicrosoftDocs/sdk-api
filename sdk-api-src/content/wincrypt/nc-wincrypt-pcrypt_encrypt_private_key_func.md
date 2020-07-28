@@ -1,9 +1,10 @@
 ---
 UID: NC:wincrypt.PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
 title: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC (wincrypt.h)
-description: Encrypts the private key and returns the encrypted contents in the pbEncryptedKey parameter.helpviewer_keywords: ["PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC","PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback","PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback function [Security]","security.pcrypt_encrypt_private_key_func","wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC"]
+description: Encrypts the private key and returns the encrypted contents in the pbEncryptedKey parameter.
+helpviewer_keywords: ["PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC","PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback","PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback function [Security]","security.pcrypt_encrypt_private_key_func","wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC"]
 old-location: security\pcrypt_encrypt_private_key_func.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: aa6b8bca-4f0d-491e-ab38-5c273a01ca05
 ms.date: 12/05/2018
 ms.keywords: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC callback function [Security], security.pcrypt_encrypt_private_key_func, wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC

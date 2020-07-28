@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO (cryptuiapi.h)
 description: Contains information about the PVK file that contains the certificates used by the CryptUIWizDigitalSign function.
 helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure [Security]","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV","PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","security.cryptui_wiz_digital_sign_cert_pvk_info"]
 old-location: security\cryptui_wiz_digital_sign_cert_pvk_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0316ed0b-d4e5-4102-9ab0-637e96c7d9f5
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV, PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, security.cryptui_wiz_digital_sign_cert_pvk_info'

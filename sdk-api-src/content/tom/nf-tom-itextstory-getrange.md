@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStory.GetRange
 title: ITextStory::GetRange (tom.h)
-description: Gets a text range object for the story.helpviewer_keywords: ["GetRange","GetRange method [Windows Controls]","GetRange method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetRange method","ITextStory.GetRange","ITextStory::GetRange","controls.itextstory_getrange","tom/ITextStory::GetRange"]
+description: Gets a text range object for the story.
+helpviewer_keywords: ["GetRange","GetRange method [Windows Controls]","GetRange method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetRange method","ITextStory.GetRange","ITextStory::GetRange","controls.itextstory_getrange","tom/ITextStory::GetRange"]
 old-location: controls\itextstory_getrange.htm
 tech.root: Controls
 ms.assetid: 7cc02056-c431-470a-83ef-99e47123da1e

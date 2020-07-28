@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstance
 title: IFunctionDiscovery::GetInstance (functiondiscoveryapi.h)
-description: Gets the specified function instance, based on identifier.helpviewer_keywords: ["GetInstance","GetInstance method","GetInstance method","IFunctionDiscovery interface","IFunctionDiscovery interface","GetInstance method","IFunctionDiscovery.GetInstance","IFunctionDiscovery::GetInstance","functiondiscoveryapi/IFunctionDiscovery::GetInstance","ncd.ifunctiondiscovery_getinstance_method"]
+description: Gets the specified function instance, based on identifier.
+helpviewer_keywords: ["GetInstance","GetInstance method","GetInstance method","IFunctionDiscovery interface","IFunctionDiscovery interface","GetInstance method","IFunctionDiscovery.GetInstance","IFunctionDiscovery::GetInstance","functiondiscoveryapi/IFunctionDiscovery::GetInstance","ncd.ifunctiondiscovery_getinstance_method"]
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
 ms.date: 12/05/2018
 ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstance method, IFunctionDiscovery.GetInstance, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method

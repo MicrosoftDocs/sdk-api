@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TUISPI_providerRemove
 title: TUISPI_providerRemove function (tspi.h)
-description: The TUISPI_providerRemove function asks the user to confirm elimination of the service provider. This function makes the TSPI_providerRemove function obsolete in version 2.0 and later (supported in version 1.4 and earlier).helpviewer_keywords: ["TUISPI_providerRemove","TUISPI_providerRemove function [TAPI 2.2]","_tspi_tuispi_providerremove","tspi.tuispi_providerremove","tspi/TUISPI_providerRemove"]
+description: The TUISPI_providerRemove function asks the user to confirm elimination of the service provider. This function makes the TSPI_providerRemove function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
+helpviewer_keywords: ["TUISPI_providerRemove","TUISPI_providerRemove function [TAPI 2.2]","_tspi_tuispi_providerremove","tspi.tuispi_providerremove","tspi/TUISPI_providerRemove"]
 old-location: tspi\tuispi_providerremove.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 217d1f40-7f3f-49a0-b29e-e2da85ba47f1
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _tspi_tuispi_providerremove, tspi.tuispi_providerremove, tspi/TUISPI_providerRemove

@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.DuplicateIcon
 title: DuplicateIcon function (shellapi.h)
-description: Creates a duplicate of a specified icon.helpviewer_keywords: ["DuplicateIcon","DuplicateIcon function [Windows Shell]","_shell_DuplicateIcon","shell.DuplicateIcon","shellapi/DuplicateIcon"]
+description: Creates a duplicate of a specified icon.
+helpviewer_keywords: ["DuplicateIcon","DuplicateIcon function [Windows Shell]","_shell_DuplicateIcon","shell.DuplicateIcon","shellapi/DuplicateIcon"]
 old-location: shell\DuplicateIcon.htm
 tech.root: shell
 ms.assetid: 488a24e1-f6f0-4bbd-9487-2b4c650f4879

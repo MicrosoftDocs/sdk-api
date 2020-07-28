@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVideoCompression.OverrideKeyFrame
 title: IAMVideoCompression::OverrideKeyFrame (strmif.h)
-description: The OverrideKeyFrame method instructs the filter to compress a particular frame as a key frame.helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","OverrideKeyFrame method","IAMVideoCompression.OverrideKeyFrame","IAMVideoCompression::OverrideKeyFrame","IAMVideoCompressionOverrideKeyFrame","OverrideKeyFrame","OverrideKeyFrame method [DirectShow]","OverrideKeyFrame method [DirectShow]","IAMVideoCompression interface","dshow.iamvideocompression_overridekeyframe","strmif/IAMVideoCompression::OverrideKeyFrame"]
+description: The OverrideKeyFrame method instructs the filter to compress a particular frame as a key frame.
+helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","OverrideKeyFrame method","IAMVideoCompression.OverrideKeyFrame","IAMVideoCompression::OverrideKeyFrame","IAMVideoCompressionOverrideKeyFrame","OverrideKeyFrame","OverrideKeyFrame method [DirectShow]","OverrideKeyFrame method [DirectShow]","IAMVideoCompression interface","dshow.iamvideocompression_overridekeyframe","strmif/IAMVideoCompression::OverrideKeyFrame"]
 old-location: dshow\iamvideocompression_overridekeyframe.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2e8e52b9-cc66-42f5-a0ea-110188bfcf8b
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],OverrideKeyFrame method, IAMVideoCompression.OverrideKeyFrame, IAMVideoCompression::OverrideKeyFrame, IAMVideoCompressionOverrideKeyFrame, OverrideKeyFrame, OverrideKeyFrame method [DirectShow], OverrideKeyFrame method [DirectShow],IAMVideoCompression interface, dshow.iamvideocompression_overridekeyframe, strmif/IAMVideoCompression::OverrideKeyFrame

@@ -1,7 +1,9 @@
 ---
 UID: NC:ws2spi.LPWSPENUMNETWORKEVENTS
 title: LPWSPENUMNETWORKEVENTS
-description: The LPWSPEnumNetworkEvents function reports occurrences of network events for the indicated socket.helpviewer_keywords: ["LPWSPENUMNETWORKEVENTS"]
+description: The LPWSPEnumNetworkEvents function reports occurrences of network events for the indicated socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPENUMNETWORKEVENTS"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPENUMNETWORKEVENTS
 targetos: Windows

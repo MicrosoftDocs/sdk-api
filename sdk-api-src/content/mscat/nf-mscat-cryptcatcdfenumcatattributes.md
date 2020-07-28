@@ -4,7 +4,7 @@ title: CryptCATCDFEnumCatAttributes function (mscat.h)
 description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
 helpviewer_keywords: ["CryptCATCDFEnumCatAttributes","CryptCATCDFEnumCatAttributes function [Security]","mscat/CryptCATCDFEnumCatAttributes","security.cryptcatcdfenumcatattributes"]
 old-location: security\cryptcatcdfenumcatattributes.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFEnumCatAttributes, CryptCATCDFEnumCatAttributes function [Security], mscat/CryptCATCDFEnumCatAttributes, security.cryptcatcdfenumcatattributes

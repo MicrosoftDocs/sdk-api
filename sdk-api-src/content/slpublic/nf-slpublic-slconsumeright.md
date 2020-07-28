@@ -1,9 +1,10 @@
 ---
 UID: NF:slpublic.SLConsumeRight
 title: SLConsumeRight function (slpublic.h)
-description: Let an application to exercise rights on a locally-stored licenses.helpviewer_keywords: ["SLConsumeRight","SLConsumeRight function [Security]","security.slconsumeright","slpublic/SLConsumeRight"]
+description: Let an application to exercise rights on a locally-stored licenses.
+helpviewer_keywords: ["SLConsumeRight","SLConsumeRight function [Security]","security.slconsumeright","slpublic/SLConsumeRight"]
 old-location: security\slconsumeright.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: d61ec4ec-c552-4963-8f4e-a1540081e747
 ms.date: 12/05/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight

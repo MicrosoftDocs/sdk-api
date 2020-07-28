@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptDeriveKey
 title: CryptDeriveKey function (wincrypt.h)
-description: Generates cryptographic session keys derived from a base data value.helpviewer_keywords: ["CRYPT_CREATE_SALT","CRYPT_EXPORTABLE","CRYPT_NO_SALT","CRYPT_SERVER","CRYPT_UPDATE_KEY","CryptDeriveKey","CryptDeriveKey function [Security]","_crypto2_cryptderivekey","security.cryptderivekey","wincrypt/CryptDeriveKey"]
+description: Generates cryptographic session keys derived from a base data value.
+helpviewer_keywords: ["CRYPT_CREATE_SALT","CRYPT_EXPORTABLE","CRYPT_NO_SALT","CRYPT_SERVER","CRYPT_UPDATE_KEY","CryptDeriveKey","CryptDeriveKey function [Security]","_crypto2_cryptderivekey","security.cryptderivekey","wincrypt/CryptDeriveKey"]
 old-location: security\cryptderivekey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
 ms.date: 12/05/2018
 ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, CRYPT_UPDATE_KEY, CryptDeriveKey, CryptDeriveKey function [Security], _crypto2_cryptderivekey, security.cryptderivekey, wincrypt/CryptDeriveKey

@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.put_EnvironmentPropertySet
 title: ITsSbEnvironment::put_EnvironmentPropertySet (sbtsv.h)
-description: Retrieves or specifies the property set for the environment that hosts the target computer.helpviewer_keywords: ["EnvironmentPropertySet property [Remote Desktop Services]","EnvironmentPropertySet property [Remote Desktop Services]","ITsSbEnvironment interface","ITsSbEnvironment interface [Remote Desktop Services]","EnvironmentPropertySet property","ITsSbEnvironment.EnvironmentPropertySet","ITsSbEnvironment.put_EnvironmentPropertySet","ITsSbEnvironment::EnvironmentPropertySet","ITsSbEnvironment::get_EnvironmentPropertySet","ITsSbEnvironment::put_EnvironmentPropertySet","put_EnvironmentPropertySet","sbtsv/ITsSbEnvironment::EnvironmentPropertySet","sbtsv/ITsSbEnvironment::get_EnvironmentPropertySet","sbtsv/ITsSbEnvironment::put_EnvironmentPropertySet","termserv.itssbenvironment_environmentpropertyset"]
+description: Retrieves or specifies the property set for the environment that hosts the target computer.
+helpviewer_keywords: ["EnvironmentPropertySet property [Remote Desktop Services]","EnvironmentPropertySet property [Remote Desktop Services]","ITsSbEnvironment interface","ITsSbEnvironment interface [Remote Desktop Services]","EnvironmentPropertySet property","ITsSbEnvironment.EnvironmentPropertySet","ITsSbEnvironment.put_EnvironmentPropertySet","ITsSbEnvironment::EnvironmentPropertySet","ITsSbEnvironment::get_EnvironmentPropertySet","ITsSbEnvironment::put_EnvironmentPropertySet","put_EnvironmentPropertySet","sbtsv/ITsSbEnvironment::EnvironmentPropertySet","sbtsv/ITsSbEnvironment::get_EnvironmentPropertySet","sbtsv/ITsSbEnvironment::put_EnvironmentPropertySet","termserv.itssbenvironment_environmentpropertyset"]
 old-location: termserv\itssbenvironment_environmentpropertyset.htm
 tech.root: TermServ
 ms.assetid: 1615cfbc-09f7-4304-9995-fc1a26b76ce6

@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagEVENTMSG
 title: EVENTMSG (winuser.h)
-description: Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the JournalPlaybackProc callback function.helpviewer_keywords: ["*LPEVENTMSG","*LPEVENTMSGMSG","*NPEVENTMSG","*NPEVENTMSGMSG","*PEVENTMSG","*PEVENTMSGMSG","EVENTMSG","EVENTMSG structure [Windows and Messages]","LPEVENTMSG","LPEVENTMSG structure pointer [Windows and Messages]","PEVENTMSG","PEVENTMSG structure pointer [Windows and Messages]","_win32_EVENTMSG_str","_win32_eventmsg_str_cpp","winmsg.eventmsg","winui._win32_eventmsg_str","winuser/EVENTMSG","winuser/LPEVENTMSG","winuser/PEVENTMSG"]
+description: Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the JournalPlaybackProc callback function.
+helpviewer_keywords: ["*LPEVENTMSG","*LPEVENTMSGMSG","*NPEVENTMSG","*NPEVENTMSGMSG","*PEVENTMSG","*PEVENTMSGMSG","EVENTMSG","EVENTMSG structure [Windows and Messages]","LPEVENTMSG","LPEVENTMSG structure pointer [Windows and Messages]","PEVENTMSG","PEVENTMSG structure pointer [Windows and Messages]","_win32_EVENTMSG_str","_win32_eventmsg_str_cpp","winmsg.eventmsg","winui._win32_eventmsg_str","winuser/EVENTMSG","winuser/LPEVENTMSG","winuser/PEVENTMSG"]
 old-location: winmsg\eventmsg.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\eventmsg.htm

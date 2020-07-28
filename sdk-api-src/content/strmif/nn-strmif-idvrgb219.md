@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IDVRGB219
 title: IDVRGB219 (strmif.h)
-description: The IDVRGB219 interface controls the dynamic range in the DV Video Encoder and DV Video Decoder filters.helpviewer_keywords: ["IDVRGB219","IDVRGB219 interface [DirectShow]","IDVRGB219 interface [DirectShow]","described","IDVRGB219Interface","dshow.idvrgb219","strmif/IDVRGB219"]
+description: The IDVRGB219 interface controls the dynamic range in the DV Video Encoder and DV Video Decoder filters.
+helpviewer_keywords: ["IDVRGB219","IDVRGB219 interface [DirectShow]","IDVRGB219 interface [DirectShow]","described","IDVRGB219Interface","dshow.idvrgb219","strmif/IDVRGB219"]
 old-location: dshow\idvrgb219.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6d346f0b-97c1-4f3c-aa79-b3bfab18c634
 ms.date: 12/05/2018
 ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [DirectShow],described, IDVRGB219Interface, dshow.idvrgb219, strmif/IDVRGB219

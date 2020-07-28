@@ -4,7 +4,7 @@ title: IXpsOMPage::GetPageDimensions (xpsobjectmodel.h)
 description: Gets the page dimensions.
 helpviewer_keywords: ["GetPageDimensions","GetPageDimensions method [XPS Documents and Packaging]","GetPageDimensions method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetPageDimensions method","IXpsOMPage.GetPageDimensions","IXpsOMPage::GetPageDimensions","xps.ixpsompage_getpagedimensions","xpsobjectmodel/IXpsOMPage::GetPageDimensions"]
 old-location: xps\ixpsompage_getpagedimensions.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 24a81c7a-f048-4347-8023-96ed85bec2a1
 ms.date: 12/05/2018
 ms.keywords: GetPageDimensions, GetPageDimensions method [XPS Documents and Packaging], GetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetPageDimensions method, IXpsOMPage.GetPageDimensions, IXpsOMPage::GetPageDimensions, xps.ixpsompage_getpagedimensions, xpsobjectmodel/IXpsOMPage::GetPageDimensions

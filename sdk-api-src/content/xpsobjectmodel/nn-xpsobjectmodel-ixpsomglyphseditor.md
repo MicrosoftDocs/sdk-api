@@ -4,7 +4,7 @@ title: IXpsOMGlyphsEditor (xpsobjectmodel.h)
 description: Allows batch modification of properties that affect the text content in an IXpsOMGlyphs interface.
 helpviewer_keywords: ["IXpsOMGlyphsEditor","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","described","xps.ixpsomglyphseditor","xpsobjectmodel/IXpsOMGlyphsEditor"]
 old-location: xps\ixpsomglyphseditor.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging],described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor

@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.PowerDeterminePlatformRole
 title: PowerDeterminePlatformRole function (powrprof.h)
-description: Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.helpviewer_keywords: ["PowerDeterminePlatformRole","PowerDeterminePlatformRole function","base.powerdetermineplatformrole","powrprof/PowerDeterminePlatformRole"]
+description: Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
+helpviewer_keywords: ["PowerDeterminePlatformRole","PowerDeterminePlatformRole function","base.powerdetermineplatformrole","powrprof/PowerDeterminePlatformRole"]
 old-location: base\powerdetermineplatformrole.htm
-tech.root: power
+tech.root: base
 ms.assetid: a0311454-3908-49a6-95c0-c118dca259ac
 ms.date: 12/05/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole

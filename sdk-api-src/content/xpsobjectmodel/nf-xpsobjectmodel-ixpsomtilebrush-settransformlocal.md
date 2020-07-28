@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLocal
 title: IXpsOMTileBrush::SetTransformLocal (xpsobjectmodel.h)
-description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform.helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMTileBrush.SetTransformLocal","IXpsOMTileBrush::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_settransformlocal","xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal"]
+description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform.
+helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMTileBrush.SetTransformLocal","IXpsOMTileBrush::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_settransformlocal","xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal"]
 old-location: xps\ixpsomtilebrush_settransformlocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a0a0f0e9-d8b5-4b42-804b-66780f56b09a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMTileBrush.SetTransformLocal, IXpsOMTileBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlocal, xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal

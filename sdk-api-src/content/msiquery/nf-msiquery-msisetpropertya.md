@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiSetPropertyA
 title: MsiSetPropertyA function (msiquery.h)
-description: The MsiSetProperty function sets the value for an installation property.helpviewer_keywords: ["MsiSetProperty","MsiSetProperty function","MsiSetPropertyA","MsiSetPropertyW","_msi_msisetproperty","msiquery/MsiSetProperty","msiquery/MsiSetPropertyA","msiquery/MsiSetPropertyW","setup.msisetproperty"]
+description: The MsiSetProperty function sets the value for an installation property.
+helpviewer_keywords: ["MsiSetProperty","MsiSetProperty function","MsiSetPropertyA","MsiSetPropertyW","_msi_msisetproperty","msiquery/MsiSetProperty","msiquery/MsiSetPropertyA","msiquery/MsiSetPropertyW","setup.msisetproperty"]
 old-location: setup\msisetproperty.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25
 ms.date: 12/05/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
@@ -93,6 +94,10 @@ If the property is not defined, it is created by the
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiSetProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

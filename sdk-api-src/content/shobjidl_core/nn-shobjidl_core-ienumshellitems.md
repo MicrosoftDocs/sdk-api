@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IEnumShellItems
 title: IEnumShellItems (shobjidl_core.h)
-description: Exposes enumeration of IShellItem interfaces. This interface is typically obtained by calling the IEnumShellItems method.helpviewer_keywords: ["IEnumShellItems","IEnumShellItems interface [Windows Shell]","IEnumShellItems interface [Windows Shell]","described","_shell_IEnumShellItems","shell.IEnumShellItems","shobjidl_core/IEnumShellItems"]
+description: Exposes enumeration of IShellItem interfaces. This interface is typically obtained by calling the IEnumShellItems method.
+helpviewer_keywords: ["IEnumShellItems","IEnumShellItems interface [Windows Shell]","IEnumShellItems interface [Windows Shell]","described","_shell_IEnumShellItems","shell.IEnumShellItems","shobjidl_core/IEnumShellItems"]
 old-location: shell\IEnumShellItems.htm
 tech.root: shell
 ms.assetid: 07aed597-359f-4f4b-9edf-168c15bdc58e

@@ -1,9 +1,10 @@
 ---
 UID: NF:authz.AuthzReportSecurityEvent
 title: AuthzReportSecurityEvent function (authz.h)
-description: Generates a security audit for a registered security event source.helpviewer_keywords: ["APF_AuditFailure","APF_AuditSuccess","AuthzReportSecurityEvent","AuthzReportSecurityEvent function [Security]","authz/AuthzReportSecurityEvent","security.authzreportsecurityevent"]
+description: Generates a security audit for a registered security event source.
+helpviewer_keywords: ["APF_AuditFailure","APF_AuditSuccess","AuthzReportSecurityEvent","AuthzReportSecurityEvent function [Security]","authz/AuthzReportSecurityEvent","security.authzreportsecurityevent"]
 old-location: security\authzreportsecurityevent.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.date: 12/05/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent

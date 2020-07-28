@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.PowerCreateRequest
 title: PowerCreateRequest function (winbase.h)
-description: Creates a new power request object.helpviewer_keywords: ["PowerCreateRequest","PowerCreateRequest function","base.powercreaterequest","winbase/PowerCreateRequest"]
+description: Creates a new power request object.
+helpviewer_keywords: ["PowerCreateRequest","PowerCreateRequest function","base.powercreaterequest","winbase/PowerCreateRequest"]
 old-location: base\powercreaterequest.htm
-tech.root: power
+tech.root: base
 ms.assetid: 2122bf00-9e6b-48ab-89b0-f53dd6804902
 ms.date: 12/05/2018
 ms.keywords: PowerCreateRequest, PowerCreateRequest function, base.powercreaterequest, winbase/PowerCreateRequest

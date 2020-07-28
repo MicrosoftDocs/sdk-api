@@ -1,9 +1,10 @@
 ---
 UID: NF:sensorsapi.ISensor.SetProperties
 title: ISensor::SetProperties (sensorsapi.h)
-description: Specifies sensor properties.helpviewer_keywords: ["ISensor interface","SetProperties method","ISensor.SetProperties","ISensor::SetProperties","SetProperties","SetProperties method","SetProperties method","ISensor interface","sensorsapi/ISensor::SetProperties","winsensors_com_ref.isensor_setproperties"]
+description: Specifies sensor properties.
+helpviewer_keywords: ["ISensor interface","SetProperties method","ISensor.SetProperties","ISensor::SetProperties","SetProperties","SetProperties method","SetProperties method","ISensor interface","sensorsapi/ISensor::SetProperties","winsensors_com_ref.isensor_setproperties"]
 old-location: winsensors_com_ref\isensor_setproperties.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties

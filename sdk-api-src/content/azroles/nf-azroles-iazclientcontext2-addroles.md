@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddRoles
 title: IAzClientContext2::AddRoles (azroles.h)
-description: Adds the specified array of existing IAzRole objects to the client context.helpviewer_keywords: ["AddRoles","AddRoles method [Security]","AddRoles method [Security]","IAzClientContext2 interface","IAzClientContext2 interface [Security]","AddRoles method","IAzClientContext2.AddRoles","IAzClientContext2::AddRoles","azroles/IAzClientContext2::AddRoles","security.iazclientcontext2_addroles"]
+description: Adds the specified array of existing IAzRole objects to the client context.
+helpviewer_keywords: ["AddRoles","AddRoles method [Security]","AddRoles method [Security]","IAzClientContext2 interface","IAzClientContext2 interface [Security]","AddRoles method","IAzClientContext2.AddRoles","IAzClientContext2::AddRoles","azroles/IAzClientContext2::AddRoles","security.iazclientcontext2_addroles"]
 old-location: security\iazclientcontext2_addroles.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: fa81e935-1207-44dd-85cb-215f754575fe
 ms.date: 12/05/2018
 ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddRoles method, IAzClientContext2.AddRoles, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles

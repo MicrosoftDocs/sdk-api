@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagFaceCharacterizationBlobHeader
 title: FaceCharacterizationBlobHeader (mfapi.h)
-description: The FaceCharacterizationBlobHeader structure describes the size and count information of the blob format for the MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS attribute.helpviewer_keywords: ["FaceCharacterizationBlobHeader","FaceCharacterizationBlobHeader structure [Streaming Media Devices]","mfapi/FaceCharacterizationBlobHeader","stream.facecharacterizationblobheader"]
+description: The FaceCharacterizationBlobHeader structure describes the size and count information of the blob format for the MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS attribute.
+helpviewer_keywords: ["FaceCharacterizationBlobHeader","FaceCharacterizationBlobHeader structure [Streaming Media Devices]","mfapi/FaceCharacterizationBlobHeader","stream.facecharacterizationblobheader"]
 old-location: stream\facecharacterizationblobheader.htm
 tech.root: stream
 ms.assetid: F3BDB935-A8CB-41BA-B912-0B9264FE0B09

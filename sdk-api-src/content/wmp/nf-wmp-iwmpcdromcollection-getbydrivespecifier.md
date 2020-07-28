@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.getByDriveSpecifier
 title: IWMPCdromCollection::getByDriveSpecifier (wmp.h)
-description: The getByDriveSpecifier method retrieves a pointer to an IWMPCdrom interface associated with a particular drive letter.helpviewer_keywords: ["IWMPCdromCollection interface [Windows Media Player]","getByDriveSpecifier method","IWMPCdromCollection.getByDriveSpecifier","IWMPCdromCollection::getByDriveSpecifier","IWMPCdromCollectiongetByDriveSpecifier","getByDriveSpecifier","getByDriveSpecifier method [Windows Media Player]","getByDriveSpecifier method [Windows Media Player]","IWMPCdromCollection interface","wmp.iwmpcdromcollection_getbydrivespecifier","wmp/IWMPCdromCollection::getByDriveSpecifier"]
+description: The getByDriveSpecifier method retrieves a pointer to an IWMPCdrom interface associated with a particular drive letter.
+helpviewer_keywords: ["IWMPCdromCollection interface [Windows Media Player]","getByDriveSpecifier method","IWMPCdromCollection.getByDriveSpecifier","IWMPCdromCollection::getByDriveSpecifier","IWMPCdromCollectiongetByDriveSpecifier","getByDriveSpecifier","getByDriveSpecifier method [Windows Media Player]","getByDriveSpecifier method [Windows Media Player]","IWMPCdromCollection interface","wmp.iwmpcdromcollection_getbydrivespecifier","wmp/IWMPCdromCollection::getByDriveSpecifier"]
 old-location: wmp\iwmpcdromcollection_getbydrivespecifier.htm
 tech.root: WMP
 ms.assetid: b48679da-c8f3-4e9d-89cd-0ecbcbc07fe4

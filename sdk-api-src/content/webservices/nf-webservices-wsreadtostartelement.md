@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadToStartElement
 title: WsReadToStartElement function (webservices.h)
-description: Advances the reader to the next start element skipping whitespace and comments if necessary. Optionally, it may also verify the localName and namespace of the element.helpviewer_keywords: ["WsReadToStartElement","WsReadToStartElement function [Web Services for Windows]","webservices/WsReadToStartElement","wsw.wsreadtostartelement"]
+description: Advances the reader to the next start element skipping whitespace and comments if necessary. Optionally, it may also verify the localName and namespace of the element.
+helpviewer_keywords: ["WsReadToStartElement","WsReadToStartElement function [Web Services for Windows]","webservices/WsReadToStartElement","wsw.wsreadtostartelement"]
 old-location: wsw\wsreadtostartelement.htm
 tech.root: wsw
 ms.assetid: 919a3836-6a26-4d47-b123-24856b20566d

@@ -1,9 +1,10 @@
 ---
 UID: NF:mergemod.IMsmMerge2.MergeEx
 title: IMsmMerge2::MergeEx (mergemod.h)
-description: The MergeEx method executes a merge of the current database and current module.helpviewer_keywords: ["IMsmMerge2 interface","MergeEx method","IMsmMerge2.MergeEx","IMsmMerge2::MergeEx","MergeEx","MergeEx method","MergeEx method","IMsmMerge2 interface","_msi_mergeex_function","mergemod/IMsmMerge2::MergeEx","setup.imsmmerge2_mergeex"]
+description: The MergeEx method executes a merge of the current database and current module.
+helpviewer_keywords: ["IMsmMerge2 interface","MergeEx method","IMsmMerge2.MergeEx","IMsmMerge2::MergeEx","MergeEx","MergeEx method","MergeEx method","IMsmMerge2 interface","_msi_mergeex_function","mergemod/IMsmMerge2::MergeEx","setup.imsmmerge2_mergeex"]
 old-location: setup\imsmmerge2_mergeex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex

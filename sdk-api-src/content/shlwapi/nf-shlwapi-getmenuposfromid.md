@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.GetMenuPosFromID
 title: GetMenuPosFromID function (shlwapi.h)
-description: GetMenuPosFromID may be altered or unavailable.helpviewer_keywords: ["GetMenuPosFromID","GetMenuPosFromID function [Windows Shell]","_shell_GetMenuPosFromID","shell.GetMenuPosFromID","shlwapi/GetMenuPosFromID"]
+description: GetMenuPosFromID may be altered or unavailable.
+helpviewer_keywords: ["GetMenuPosFromID","GetMenuPosFromID function [Windows Shell]","_shell_GetMenuPosFromID","shell.GetMenuPosFromID","shlwapi/GetMenuPosFromID"]
 old-location: shell\GetMenuPosFromID.htm
 tech.root: shell
 ms.assetid: 25fb51bc-9b36-4afb-bb07-7bc455c7fbc4

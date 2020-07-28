@@ -1,7 +1,8 @@
 ---
 UID: NS:msapofxproxy.tagKSP_PINMODE
 title: KSP_PINMODE (msapofxproxy.h)
-description: The KSP_PINMODE structure specifies the pin property and the supported audio processing modes for a pin factory.helpviewer_keywords: ["*PKSP_PINMODE","KSP_PINMODE","KSP_PINMODE structure [Audio Devices]","PKSP_PINMODE","PKSP_PINMODE structure pointer [Audio Devices]","audio.ksp_pinmode","msapofxproxy/KSP_PINMODE","msapofxproxy/PKSP_PINMODE"]
+description: The KSP_PINMODE structure specifies the pin property and the supported audio processing modes for a pin factory.
+helpviewer_keywords: ["*PKSP_PINMODE","KSP_PINMODE","KSP_PINMODE structure [Audio Devices]","PKSP_PINMODE","PKSP_PINMODE structure pointer [Audio Devices]","audio.ksp_pinmode","msapofxproxy/KSP_PINMODE","msapofxproxy/PKSP_PINMODE"]
 old-location: audio\ksp_pinmode.htm
 tech.root: audio
 ms.assetid: 179517E8-BFC7-4B63-8F9E-A57D0C881102

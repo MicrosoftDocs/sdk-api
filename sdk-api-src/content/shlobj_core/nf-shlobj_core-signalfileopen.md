@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SignalFileOpen
 title: SignalFileOpen function (shlobj_core.h)
-description: SignalFileOpen may be altered or unavailable.helpviewer_keywords: ["SignalFileOpen","SignalFileOpen function [Windows Shell]","_win32_SignalFileOpen","shell.SignalFileOpen","shlobj_core/SignalFileOpen"]
+description: SignalFileOpen may be altered or unavailable.
+helpviewer_keywords: ["SignalFileOpen","SignalFileOpen function [Windows Shell]","_win32_SignalFileOpen","shell.SignalFileOpen","shlobj_core/SignalFileOpen"]
 old-location: shell\SignalFileOpen.htm
 tech.root: shell
 ms.assetid: b46bb06f-a183-4a39-89bd-457fa4fe728f

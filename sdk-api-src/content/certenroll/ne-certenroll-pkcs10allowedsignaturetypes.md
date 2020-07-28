@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.Pkcs10AllowedSignatureTypes
 title: Pkcs10AllowedSignatureTypes (certenroll.h)
-description: Specifies the type of signature permitted when signing a certificate request.helpviewer_keywords: ["AllowedKeySignature","AllowedNullSignature","Pkcs10AllowedSignatureTypes","Pkcs10AllowedSignatureTypes enumeration [Security]","certenroll/AllowedKeySignature","certenroll/AllowedNullSignature","certenroll/Pkcs10AllowedSignatureTypes","security.pkcs10allowedsignaturetypes_enum"]
+description: Specifies the type of signature permitted when signing a certificate request.
+helpviewer_keywords: ["AllowedKeySignature","AllowedNullSignature","Pkcs10AllowedSignatureTypes","Pkcs10AllowedSignatureTypes enumeration [Security]","certenroll/AllowedKeySignature","certenroll/AllowedNullSignature","certenroll/Pkcs10AllowedSignatureTypes","security.pkcs10allowedsignaturetypes_enum"]
 old-location: security\pkcs10allowedsignaturetypes_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b5c6a28b-d46b-4d93-adc2-625a82d6df7a
 ms.date: 12/05/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, Pkcs10AllowedSignatureTypes, Pkcs10AllowedSignatureTypes enumeration [Security], certenroll/AllowedKeySignature, certenroll/AllowedNullSignature, certenroll/Pkcs10AllowedSignatureTypes, security.pkcs10allowedsignaturetypes_enum

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentItem
 title: IWMPControls::get_currentItem (wmp.h)
-description: The get_currentItem method retrieves the current media item in a playlist.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_currentItem method","IWMPControls.get_currentItem","IWMPControls::get_currentItem","IWMPControlsget_currentItem","get_currentItem","get_currentItem method [Windows Media Player]","get_currentItem method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_currentitem","wmp/IWMPControls::get_currentItem"]
+description: The get_currentItem method retrieves the current media item in a playlist.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_currentItem method","IWMPControls.get_currentItem","IWMPControls::get_currentItem","IWMPControlsget_currentItem","get_currentItem","get_currentItem method [Windows Media Player]","get_currentItem method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_currentitem","wmp/IWMPControls::get_currentItem"]
 old-location: wmp\iwmpcontrols_get_currentitem.htm
 tech.root: WMP
 ms.assetid: 1c2443cd-d7e6-466f-b728-ad04a415d192

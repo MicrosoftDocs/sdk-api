@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetAsyncState
 title: IWSDAsyncResult::GetAsyncState (wsdclient.h)
-description: Gets the state of the asynchronous operation.helpviewer_keywords: ["GetAsyncState","GetAsyncState method","GetAsyncState method","IWSDAsyncResult interface","IWSDAsyncResult interface","GetAsyncState method","IWSDAsyncResult.GetAsyncState","IWSDAsyncResult::GetAsyncState","ncd.iwsdasyncresult_getasyncstate_method","wsdclient/IWSDAsyncResult::GetAsyncState"]
+description: Gets the state of the asynchronous operation.
+helpviewer_keywords: ["GetAsyncState","GetAsyncState method","GetAsyncState method","IWSDAsyncResult interface","IWSDAsyncResult interface","GetAsyncState method","IWSDAsyncResult.GetAsyncState","IWSDAsyncResult::GetAsyncState","ncd.iwsdasyncresult_getasyncstate_method","wsdclient/IWSDAsyncResult::GetAsyncState"]
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.date: 12/05/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState

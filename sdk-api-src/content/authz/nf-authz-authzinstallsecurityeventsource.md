@@ -1,9 +1,10 @@
 ---
 UID: NF:authz.AuthzInstallSecurityEventSource
 title: AuthzInstallSecurityEventSource function (authz.h)
-description: Installs the specified source as a security event source.helpviewer_keywords: ["AuthzInstallSecurityEventSource","AuthzInstallSecurityEventSource function [Security]","authz/AuthzInstallSecurityEventSource","security.authzinstallsecurityeventsource"]
+description: Installs the specified source as a security event source.
+helpviewer_keywords: ["AuthzInstallSecurityEventSource","AuthzInstallSecurityEventSource function [Security]","authz/AuthzInstallSecurityEventSource","security.authzinstallsecurityeventsource"]
 old-location: security\authzinstallsecurityeventsource.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 77cb5c6c-1634-4449-8d05-ce6357ad4e4b
 ms.date: 12/05/2018
 ms.keywords: AuthzInstallSecurityEventSource, AuthzInstallSecurityEventSource function [Security], authz/AuthzInstallSecurityEventSource, security.authzinstallsecurityeventsource

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetServiceId
 title: IIsdbEmergencyInformationDescriptor::GetServiceId (dvbsiparser.h)
-description: Gets the identifier for a broadcasting event from an emergency information descriptor.helpviewer_keywords: ["GetServiceId","GetServiceId method [Microsoft TV Technologies]","GetServiceId method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetServiceId method","IIsdbEmergencyInformationDescriptor.GetServiceId","IIsdbEmergencyInformationDescriptor::GetServiceId","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId","mstv.iisdbemergencyinformationdescriptor_getserviceid"]
+description: Gets the identifier for a broadcasting event from an emergency information descriptor.
+helpviewer_keywords: ["GetServiceId","GetServiceId method [Microsoft TV Technologies]","GetServiceId method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetServiceId method","IIsdbEmergencyInformationDescriptor.GetServiceId","IIsdbEmergencyInformationDescriptor::GetServiceId","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId","mstv.iisdbemergencyinformationdescriptor_getserviceid"]
 old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm
 tech.root: mstv
 ms.assetid: 298f0637-eea1-4247-a9ff-cbe1a82fb8f6

@@ -1,9 +1,10 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_BINDING_CACHE_RESPONSE
 title: KERB_QUERY_BINDING_CACHE_RESPONSE (ntsecapi.h)
-description: Contains the results of querying the binding cache.helpviewer_keywords: ["*PKERB_QUERY_BINDING_CACHE_RESPONSE","KERB_QUERY_BINDING_CACHE_RESPONSE","KERB_QUERY_BINDING_CACHE_RESPONSE structure [Security]","PKERB_QUERY_BINDING_CACHE_RESPONSE","PKERB_QUERY_BINDING_CACHE_RESPONSE structure pointer [Security]","ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE","ntsecapi/PKERB_QUERY_BINDING_CACHE_RESPONSE","security.kerb_query_binding_cache_response"]
+description: Contains the results of querying the binding cache.
+helpviewer_keywords: ["*PKERB_QUERY_BINDING_CACHE_RESPONSE","KERB_QUERY_BINDING_CACHE_RESPONSE","KERB_QUERY_BINDING_CACHE_RESPONSE structure [Security]","PKERB_QUERY_BINDING_CACHE_RESPONSE","PKERB_QUERY_BINDING_CACHE_RESPONSE structure pointer [Security]","ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE","ntsecapi/PKERB_QUERY_BINDING_CACHE_RESPONSE","security.kerb_query_binding_cache_response"]
 old-location: security\kerb_query_binding_cache_response.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: D096068F-7EC0-4745-A361-142F9B478402
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESPONSE structure [Security], PKERB_QUERY_BINDING_CACHE_RESPONSE, PKERB_QUERY_BINDING_CACHE_RESPONSE structure pointer [Security], ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_BINDING_CACHE_RESPONSE, security.kerb_query_binding_cache_response'

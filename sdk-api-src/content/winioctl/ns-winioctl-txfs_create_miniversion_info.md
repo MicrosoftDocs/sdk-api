@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._TXFS_CREATE_MINIVERSION_INFO
 title: TXFS_CREATE_MINIVERSION_INFO
-description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.helpviewer_keywords: ["*PTXFS_CREATE_MINIVERSION_INFO","PTXFS_CREATE_MINIVERSION_INFO","PTXFS_CREATE_MINIVERSION_INFO structure pointer [Files]","TXFS_CREATE_MINIVERSION_INFO","TXFS_CREATE_MINIVERSION_INFO structure [Files]","fs.txfs_create_miniversion_info","winioctl/PTXFS_CREATE_MINIVERSION_INFO","winioctl/TXFS_CREATE_MINIVERSION_INFO"]
+description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.
+helpviewer_keywords: ["*PTXFS_CREATE_MINIVERSION_INFO","PTXFS_CREATE_MINIVERSION_INFO","PTXFS_CREATE_MINIVERSION_INFO structure pointer [Files]","TXFS_CREATE_MINIVERSION_INFO","TXFS_CREATE_MINIVERSION_INFO structure [Files]","fs.txfs_create_miniversion_info","winioctl/PTXFS_CREATE_MINIVERSION_INFO","winioctl/TXFS_CREATE_MINIVERSION_INFO"]
 old-location: fs\txfs_create_miniversion_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 247d1471-08f4-4717-bcd8-be9d01e23d79
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO structure pointer [Files], TXFS_CREATE_MINIVERSION_INFO, TXFS_CREATE_MINIVERSION_INFO structure [Files], fs.txfs_create_miniversion_info, winioctl/PTXFS_CREATE_MINIVERSION_INFO, winioctl/TXFS_CREATE_MINIVERSION_INFO'

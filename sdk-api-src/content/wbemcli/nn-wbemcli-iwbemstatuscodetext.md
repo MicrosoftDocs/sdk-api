@@ -1,9 +1,10 @@
 ---
 UID: NN:wbemcli.IWbemStatusCodeText
 title: IWbemStatusCodeText (wbemcli.h)
-description: The IWbemStatusCodeText interface extracts text string descriptions of error codes or the name of the subsystem where the error occurred.helpviewer_keywords: ["IWbemStatusCodeText","IWbemStatusCodeText interface [Windows Management Instrumentation]","IWbemStatusCodeText interface [Windows Management Instrumentation]","described","WbemStatusCodeText","_hmm_iwbemstatuscodetext","wbemcli/IWbemStatusCodeText","wmi.iwbemstatuscodetext"]
+description: The IWbemStatusCodeText interface extracts text string descriptions of error codes or the name of the subsystem where the error occurred.
+helpviewer_keywords: ["IWbemStatusCodeText","IWbemStatusCodeText interface [Windows Management Instrumentation]","IWbemStatusCodeText interface [Windows Management Instrumentation]","described","WbemStatusCodeText","_hmm_iwbemstatuscodetext","wbemcli/IWbemStatusCodeText","wmi.iwbemstatuscodetext"]
 old-location: wmi\iwbemstatuscodetext.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: e196b598-6b1a-4d29-9724-2d221c4bcd16
 ms.date: 12/05/2018
 ms.keywords: IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Management Instrumentation], IWbemStatusCodeText interface [Windows Management Instrumentation],described, WbemStatusCodeText, _hmm_iwbemstatuscodetext, wbemcli/IWbemStatusCodeText, wmi.iwbemstatuscodetext

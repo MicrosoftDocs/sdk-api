@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDecoderCaps
 title: IDvdInfo2::GetDecoderCaps (strmif.h)
-description: The GetDecoderCaps method retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (in forward and reverse) as well as support for various types of audio (AC-3, MPEG-2, DTS, SDDS, LPCM).helpviewer_keywords: ["GetDecoderCaps","GetDecoderCaps method [DirectShow]","GetDecoderCaps method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDecoderCaps method","IDvdInfo2.GetDecoderCaps","IDvdInfo2::GetDecoderCaps","IDvdInfo2GetDecoderCaps","dshow.idvdinfo2_getdecodercaps","strmif/IDvdInfo2::GetDecoderCaps"]
+description: The GetDecoderCaps method retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (in forward and reverse) as well as support for various types of audio (AC-3, MPEG-2, DTS, SDDS, LPCM).
+helpviewer_keywords: ["GetDecoderCaps","GetDecoderCaps method [DirectShow]","GetDecoderCaps method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDecoderCaps method","IDvdInfo2.GetDecoderCaps","IDvdInfo2::GetDecoderCaps","IDvdInfo2GetDecoderCaps","dshow.idvdinfo2_getdecodercaps","strmif/IDvdInfo2::GetDecoderCaps"]
 old-location: dshow\idvdinfo2_getdecodercaps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cfaf475c-336a-492f-b5a8-c49c21e5392d
 ms.date: 12/05/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDecoderCaps method, IDvdInfo2.GetDecoderCaps, IDvdInfo2::GetDecoderCaps, IDvdInfo2GetDecoderCaps, dshow.idvdinfo2_getdecodercaps, strmif/IDvdInfo2::GetDecoderCaps

@@ -1,9 +1,10 @@
 ---
 UID: NF:instance.CInstance.GetDWORD
 title: CInstance::GetDWORD (instance.h)
-description: The GetDWORD method retrieves a DWORD property.helpviewer_keywords: ["?GetDWORD@CInstance@@QBE_NPBGAAK@Z","?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z","CInstance interface [Windows Management Instrumentation]","GetDWORD method","CInstance.GetDWORD","CInstance::GetDWORD","GetDWORD","GetDWORD method [Windows Management Instrumentation]","GetDWORD method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getdword","instance/CInstance::GetDWORD","wmi.cinstance_getdword"]
+description: The GetDWORD method retrieves a DWORD property.
+helpviewer_keywords: ["?GetDWORD@CInstance@@QBE_NPBGAAK@Z","?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z","CInstance interface [Windows Management Instrumentation]","GetDWORD method","CInstance.GetDWORD","CInstance::GetDWORD","GetDWORD","GetDWORD method [Windows Management Instrumentation]","GetDWORD method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getdword","instance/CInstance::GetDWORD","wmi.cinstance_getdword"]
 old-location: wmi\cinstance_getdword.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 02690232-a887-4de3-a850-84ad8ffa9ee0
 ms.date: 12/05/2018
 ms.keywords: ?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance interface [Windows Management Instrumentation],GetDWORD method, CInstance.GetDWORD, CInstance::GetDWORD, GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword

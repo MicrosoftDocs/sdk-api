@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DeferWindowPos
 title: DeferWindowPos function (winuser.h)
-description: Updates the specified multiple-window &#8211; position structure for the specified window.helpviewer_keywords: ["DeferWindowPos","DeferWindowPos function [Windows and Messages]","HWND_BOTTOM","HWND_NOTOPMOST","HWND_TOP","HWND_TOPMOST","SWP_DRAWFRAME","SWP_FRAMECHANGED","SWP_HIDEWINDOW","SWP_NOACTIVATE","SWP_NOCOPYBITS","SWP_NOMOVE","SWP_NOOWNERZORDER","SWP_NOREDRAW","SWP_NOREPOSITION","SWP_NOSENDCHANGING","SWP_NOSIZE","SWP_NOZORDER","SWP_SHOWWINDOW","_win32_DeferWindowPos","_win32_deferwindowpos_cpp","winmsg.deferwindowpos","winui._win32_deferwindowpos","winuser/DeferWindowPos"]
+description: Updates the specified multiple-window – position structure for the specified window.
+helpviewer_keywords: ["DeferWindowPos","DeferWindowPos function [Windows and Messages]","HWND_BOTTOM","HWND_NOTOPMOST","HWND_TOP","HWND_TOPMOST","SWP_DRAWFRAME","SWP_FRAMECHANGED","SWP_HIDEWINDOW","SWP_NOACTIVATE","SWP_NOCOPYBITS","SWP_NOMOVE","SWP_NOOWNERZORDER","SWP_NOREDRAW","SWP_NOREPOSITION","SWP_NOSENDCHANGING","SWP_NOSIZE","SWP_NOZORDER","SWP_SHOWWINDOW","_win32_DeferWindowPos","_win32_deferwindowpos_cpp","winmsg.deferwindowpos","winui._win32_deferwindowpos","winuser/DeferWindowPos"]
 old-location: winmsg\deferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\deferwindowpos.htm

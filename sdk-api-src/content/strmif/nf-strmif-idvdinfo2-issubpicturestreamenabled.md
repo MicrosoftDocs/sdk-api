@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsSubpictureStreamEnabled
 title: IDvdInfo2::IsSubpictureStreamEnabled (strmif.h)
-description: The IsSubpictureStreamEnabled method determines if the specified subpicture stream is enabled in the current title.helpviewer_keywords: ["IDvdInfo2 interface [DirectShow]","IsSubpictureStreamEnabled method","IDvdInfo2.IsSubpictureStreamEnabled","IDvdInfo2::IsSubpictureStreamEnabled","IDvdInfo2IsSubpictureStreamEnabled","IsSubpictureStreamEnabled","IsSubpictureStreamEnabled method [DirectShow]","IsSubpictureStreamEnabled method [DirectShow]","IDvdInfo2 interface","dshow.idvdinfo2_issubpicturestreamenabled","strmif/IDvdInfo2::IsSubpictureStreamEnabled"]
+description: The IsSubpictureStreamEnabled method determines if the specified subpicture stream is enabled in the current title.
+helpviewer_keywords: ["IDvdInfo2 interface [DirectShow]","IsSubpictureStreamEnabled method","IDvdInfo2.IsSubpictureStreamEnabled","IDvdInfo2::IsSubpictureStreamEnabled","IDvdInfo2IsSubpictureStreamEnabled","IsSubpictureStreamEnabled","IsSubpictureStreamEnabled method [DirectShow]","IsSubpictureStreamEnabled method [DirectShow]","IDvdInfo2 interface","dshow.idvdinfo2_issubpicturestreamenabled","strmif/IDvdInfo2::IsSubpictureStreamEnabled"]
 old-location: dshow\idvdinfo2_issubpicturestreamenabled.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 19facb38-8bc4-4605-9b2b-2a123b67aeb6
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2 interface [DirectShow],IsSubpictureStreamEnabled method, IDvdInfo2.IsSubpictureStreamEnabled, IDvdInfo2::IsSubpictureStreamEnabled, IDvdInfo2IsSubpictureStreamEnabled, IsSubpictureStreamEnabled, IsSubpictureStreamEnabled method [DirectShow], IsSubpictureStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_issubpicturestreamenabled, strmif/IDvdInfo2::IsSubpictureStreamEnabled

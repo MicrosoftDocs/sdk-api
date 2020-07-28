@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._VERIFY_INFORMATION
 title: VERIFY_INFORMATION
-description: Contains information used to verify a disk extent.helpviewer_keywords: ["*PVERIFY_INFORMATION","PVERIFY_INFORMATION","PVERIFY_INFORMATION structure pointer [Files]","VERIFY_INFORMATION","VERIFY_INFORMATION structure [Files]","_win32_verify_information_str","base.verify_information_str","fs.verify_information_str","winioctl/PVERIFY_INFORMATION","winioctl/VERIFY_INFORMATION"]
+description: Contains information used to verify a disk extent.
+helpviewer_keywords: ["*PVERIFY_INFORMATION","PVERIFY_INFORMATION","PVERIFY_INFORMATION structure pointer [Files]","VERIFY_INFORMATION","VERIFY_INFORMATION structure [Files]","_win32_verify_information_str","base.verify_information_str","fs.verify_information_str","winioctl/PVERIFY_INFORMATION","winioctl/VERIFY_INFORMATION"]
 old-location: fs\verify_information_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: bf987bb5-b3d8-4d5b-af44-d05fbe4c0a5c
 ms.date: 12/05/2018
 ms.keywords: '*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Files], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Files], _win32_verify_information_str, base.verify_information_str, fs.verify_information_str, winioctl/PVERIFY_INFORMATION, winioctl/VERIFY_INFORMATION'

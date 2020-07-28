@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_1.ID2D1PrintControl
 title: ID2D1PrintControl (d2d1_1.h)
-description: Converts Direct2D primitives stored in an ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.helpviewer_keywords: ["ID2D1PrintControl","ID2D1PrintControl interface [Direct2D]","ID2D1PrintControl interface [Direct2D]","described","d2d1_1/ID2D1PrintControl","direct2d.id2d1printcontrol"]
+description: Converts Direct2D primitives stored in an ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
+helpviewer_keywords: ["ID2D1PrintControl","ID2D1PrintControl interface [Direct2D]","ID2D1PrintControl interface [Direct2D]","described","d2d1_1/ID2D1PrintControl","direct2d.id2d1printcontrol"]
 old-location: direct2d\id2d1printcontrol.htm
 tech.root: Direct2D
 ms.assetid: 0E8D8218-0671-44A2-AD6E-13BB0B4EB66C

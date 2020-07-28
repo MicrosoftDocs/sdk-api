@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterInstanceCreate
 title: FilterInstanceCreate function (fltuser.h)
-description: The FilterInstanceCreate function creates a handle that can be used to communicate with the given minifilter instance.helpviewer_keywords: ["FilterInstanceCreate","FilterInstanceCreate function [Installable File System Drivers]","FltWin32ApiRef_eccac8f5-bc38-49ba-b2d8-cf505bec3641.xml","fltuser/FilterInstanceCreate","ifsk.filterinstancecreate"]
+description: The FilterInstanceCreate function creates a handle that can be used to communicate with the given minifilter instance.
+helpviewer_keywords: ["FilterInstanceCreate","FilterInstanceCreate function [Installable File System Drivers]","FltWin32ApiRef_eccac8f5-bc38-49ba-b2d8-cf505bec3641.xml","fltuser/FilterInstanceCreate","ifsk.filterinstancecreate"]
 old-location: ifsk\filterinstancecreate.htm
 tech.root: ifsk
 ms.assetid: eb29fefc-285a-4a77-b1f6-1d42d029b7b7

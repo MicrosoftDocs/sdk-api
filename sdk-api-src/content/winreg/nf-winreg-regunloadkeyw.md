@@ -4,7 +4,7 @@ title: RegUnLoadKeyW function (winreg.h)
 description: Unloads the specified registry key and its subkeys from the registry.
 helpviewer_keywords: ["RegUnLoadKey","RegUnLoadKey function","RegUnLoadKeyA","RegUnLoadKeyW","win32_regunloadkey","base.regunloadkey","winreg/RegUnLoadKey","winreg/RegUnLoadKeyA","winreg/RegUnLoadKeyW"]
 old-location: base\regunloadkey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 73b4b6a9-4acb-4247-bd7f-82024ba3e14a
 ms.date: 12/05/2018
 ms.keywords: RegUnLoadKey, RegUnLoadKey function, RegUnLoadKeyA, RegUnLoadKeyW, _win32_regunloadkey, base.regunloadkey, winreg/RegUnLoadKey, winreg/RegUnLoadKeyA, winreg/RegUnLoadKeyW
@@ -114,6 +114,10 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegUnLoadKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

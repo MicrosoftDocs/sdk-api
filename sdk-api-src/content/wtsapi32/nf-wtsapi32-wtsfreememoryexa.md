@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSFreeMemoryExA
 title: WTSFreeMemoryExA function (wtsapi32.h)
-description: Frees memory that contains WTS_PROCESS_INFO_EX or WTS_SESSION_INFO_1 structures allocated by a Remote Desktop Services function.helpviewer_keywords: ["WTSFreeMemoryEx","WTSFreeMemoryEx function [Remote Desktop Services]","WTSFreeMemoryExA","WTSFreeMemoryExW","termserv.wtsfreememoryex","wtsapi32/WTSFreeMemoryEx","wtsapi32/WTSFreeMemoryExA","wtsapi32/WTSFreeMemoryExW"]
+description: Frees memory that contains WTS_PROCESS_INFO_EX or WTS_SESSION_INFO_1 structures allocated by a Remote Desktop Services function.
+helpviewer_keywords: ["WTSFreeMemoryEx","WTSFreeMemoryEx function [Remote Desktop Services]","WTSFreeMemoryExA","WTSFreeMemoryExW","termserv.wtsfreememoryex","wtsapi32/WTSFreeMemoryEx","wtsapi32/WTSFreeMemoryExA","wtsapi32/WTSFreeMemoryExW"]
 old-location: termserv\wtsfreememoryex.htm
 tech.root: TermServ
 ms.assetid: d84a4fe3-a829-4cf3-b217-157391d0c495
@@ -105,6 +106,10 @@ Several Remote Desktop Services functions allocate buffers to return information
 
 
 
+
+
+> [!NOTE]
+> The wtsapi32.h header defines WTSFreeMemoryEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

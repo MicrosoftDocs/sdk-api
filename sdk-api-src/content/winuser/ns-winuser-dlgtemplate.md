@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.__unnamed_struct_4
 title: DLGTEMPLATE (winuser.h)
-description: Defines the dimensions and style of a dialog box.helpviewer_keywords: ["*LPDLGTEMPLATEA","*LPDLGTEMPLATEW","DLGTEMPLATE","DLGTEMPLATE structure [Dialog Boxes]","LPDLGTEMPLATE","LPDLGTEMPLATE structure pointer [Dialog Boxes]","_win32_DLGTEMPLATE_str","_win32_dlgtemplate_str_cpp","dlgbox.dlgtemplate","winui._win32_dlgtemplate_str","winuser/DLGTEMPLATE","winuser/LPDLGTEMPLATE"]
+description: Defines the dimensions and style of a dialog box.
+helpviewer_keywords: ["*LPDLGTEMPLATEA","*LPDLGTEMPLATEW","DLGTEMPLATE","DLGTEMPLATE structure [Dialog Boxes]","LPDLGTEMPLATE","LPDLGTEMPLATE structure pointer [Dialog Boxes]","_win32_DLGTEMPLATE_str","_win32_dlgtemplate_str_cpp","dlgbox.dlgtemplate","winui._win32_dlgtemplate_str","winuser/DLGTEMPLATE","winuser/LPDLGTEMPLATE"]
 old-location: dlgbox\dlgtemplate.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgtemplate.htm
@@ -120,7 +121,7 @@ In a standard template for a dialog box, the <b>DLGTEMPLATE</b> structure is alw
 
 Immediately following the <b>DLGTEMPLATE</b> structure is a menu array that identifies a menu resource for the dialog box. If the first element of this array is 0x0000, the dialog box has no menu and the array has no other elements. If the first element is 0xFFFF, the array has one additional element that specifies the ordinal value of a menu resource in an executable file. If the first element has any other value, the system treats the array as a null-terminated Unicode string that specifies the name of a menu resource in an executable file. 
 
-Following the menu array is a class array that identifies the window class of the control. If the first element of the array is 0x0000, the system uses the predefined dialog box class for the dialog box and the array has no other elements. If the first element is 0xFFFF, the array has one additional element that specifies the ordinal value of a predefined system window class. If the first element has any other value, the system treats the array as a null-terminated Unicode string that specifies the name of a registered window class. 
+Following the menu array is a class array that identifies the window class of the dialog box. If the first element of the array is 0x0000, the system uses the predefined dialog box class for the dialog box and the array has no other elements. If the first element is 0xFFFF, the array has one additional element that specifies the ordinal value of a predefined system window class. If the first element has any other value, the system treats the array as a null-terminated Unicode string that specifies the name of a registered window class. 
 
 Following the class array is a title array that specifies a null-terminated Unicode string that contains the title of the dialog box. If the first element of this array is 0x0000, the dialog box has no title and the array has no other elements. 
 

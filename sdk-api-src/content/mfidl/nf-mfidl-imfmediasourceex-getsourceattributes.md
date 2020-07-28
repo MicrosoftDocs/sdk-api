@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetSourceAttributes
 title: IMFMediaSourceEx::GetSourceAttributes (mfidl.h)
-description: Gets an attribute store for the media source.helpviewer_keywords: ["GetSourceAttributes","GetSourceAttributes method [Media Foundation]","GetSourceAttributes method [Media Foundation]","IMFMediaSourceEx interface","IMFMediaSourceEx interface [Media Foundation]","GetSourceAttributes method","IMFMediaSourceEx.GetSourceAttributes","IMFMediaSourceEx::GetSourceAttributes","mf.imfmediasourceex_getsourceattributes","mfidl/IMFMediaSourceEx::GetSourceAttributes"]
+description: Gets an attribute store for the media source.
+helpviewer_keywords: ["GetSourceAttributes","GetSourceAttributes method [Media Foundation]","GetSourceAttributes method [Media Foundation]","IMFMediaSourceEx interface","IMFMediaSourceEx interface [Media Foundation]","GetSourceAttributes method","IMFMediaSourceEx.GetSourceAttributes","IMFMediaSourceEx::GetSourceAttributes","mf.imfmediasourceex_getsourceattributes","mfidl/IMFMediaSourceEx::GetSourceAttributes"]
 old-location: mf\imfmediasourceex_getsourceattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A58A2537-1ABD-4EC5-AC84-A5FFA7127CEB
 ms.date: 12/05/2018
 ms.keywords: GetSourceAttributes, GetSourceAttributes method [Media Foundation], GetSourceAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetSourceAttributes method, IMFMediaSourceEx.GetSourceAttributes, IMFMediaSourceEx::GetSourceAttributes, mf.imfmediasourceex_getsourceattributes, mfidl/IMFMediaSourceEx::GetSourceAttributes

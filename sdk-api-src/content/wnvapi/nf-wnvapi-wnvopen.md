@@ -1,7 +1,8 @@
 ---
 UID: NF:wnvapi.WnvOpen
 title: WnvOpen function (wnvapi.h)
-description: Provides a handle to the Windows Network Virtualization (WNV) driver object to be used to request and receive WNV notifications.helpviewer_keywords: ["WnvOpen","WnvOpen function [Windows Network Virtualization]","wnv.wnvopen","wnvapi/WnvOpen"]
+description: Provides a handle to the Windows Network Virtualization (WNV) driver object to be used to request and receive WNV notifications.
+helpviewer_keywords: ["WnvOpen","WnvOpen function [Windows Network Virtualization]","wnv.wnvopen","wnvapi/WnvOpen"]
 old-location: wnv\wnvopen.htm
 tech.root: wnv
 ms.assetid: C20BA303-7ECD-4CF3-BB5E-D4509162CD85

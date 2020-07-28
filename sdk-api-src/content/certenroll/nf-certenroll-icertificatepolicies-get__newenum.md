@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get__NewEnum
 title: ICertificatePolicies::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.helpviewer_keywords: ["ICertificatePolicies interface [Security]","_NewEnum property","ICertificatePolicies._NewEnum","ICertificatePolicies.get__NewEnum","ICertificatePolicies::_NewEnum","ICertificatePolicies::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICertificatePolicies interface","certenroll/ICertificatePolicies::_NewEnum","certenroll/ICertificatePolicies::get__NewEnum","get__NewEnum","security.icertificatepolicies__newenum_property"]
+description: Retrieves the enumerator for the collection.
+helpviewer_keywords: ["ICertificatePolicies interface [Security]","_NewEnum property","ICertificatePolicies._NewEnum","ICertificatePolicies.get__NewEnum","ICertificatePolicies::_NewEnum","ICertificatePolicies::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICertificatePolicies interface","certenroll/ICertificatePolicies::_NewEnum","certenroll/ICertificatePolicies::get__NewEnum","get__NewEnum","security.icertificatepolicies__newenum_property"]
 old-location: security\icertificatepolicies__newenum_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 99ce5d45-c2ff-45be-8eb4-e1a57bbfa2fc
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies interface [Security],_NewEnum property, ICertificatePolicies._NewEnum, ICertificatePolicies.get__NewEnum, ICertificatePolicies::_NewEnum, ICertificatePolicies::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::_NewEnum, certenroll/ICertificatePolicies::get__NewEnum, get__NewEnum, security.icertificatepolicies__newenum_property

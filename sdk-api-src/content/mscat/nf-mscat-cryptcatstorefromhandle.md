@@ -4,7 +4,7 @@ title: CryptCATStoreFromHandle function (mscat.h)
 description: Retrieves a CRYPTCATSTORE structure from a catalog handle.
 helpviewer_keywords: ["CryptCATStoreFromHandle","CryptCATStoreFromHandle function [Security]","mscat/CryptCATStoreFromHandle","security.cryptcatstorefromhandle"]
 old-location: security\cryptcatstorefromhandle.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
 ms.date: 12/05/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle

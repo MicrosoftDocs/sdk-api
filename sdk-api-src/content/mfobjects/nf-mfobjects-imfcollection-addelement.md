@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFCollection.AddElement
 title: IMFCollection::AddElement (mfobjects.h)
-description: Adds an object to the collection.helpviewer_keywords: ["1ef2463b-3d5e-4ed0-ab7c-68758e6cc056","AddElement","AddElement method [Media Foundation]","AddElement method [Media Foundation]","IMFCollection interface","IMFCollection interface [Media Foundation]","AddElement method","IMFCollection.AddElement","IMFCollection::AddElement","mf.imfcollection_addelement","mfobjects/IMFCollection::AddElement"]
+description: Adds an object to the collection.
+helpviewer_keywords: ["1ef2463b-3d5e-4ed0-ab7c-68758e6cc056","AddElement","AddElement method [Media Foundation]","AddElement method [Media Foundation]","IMFCollection interface","IMFCollection interface [Media Foundation]","AddElement method","IMFCollection.AddElement","IMFCollection::AddElement","mf.imfcollection_addelement","mfobjects/IMFCollection::AddElement"]
 old-location: mf\imfcollection_addelement.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056
 ms.date: 12/05/2018
 ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],AddElement method, IMFCollection.AddElement, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement

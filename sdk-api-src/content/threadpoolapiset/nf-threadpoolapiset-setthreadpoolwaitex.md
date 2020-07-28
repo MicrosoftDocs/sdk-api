@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWaitEx
 title: SetThreadpoolWaitEx function (threadpoolapiset.h)
-description: Sets the wait object&#8212;replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.helpviewer_keywords: ["SetThreadpoolWaitEx","SetThreadpoolWaitEx function","base.setthreadpoolwaitex","threadpoolapiset/SetThreadpoolWaitEx"]
+description: Sets the wait object—replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
+helpviewer_keywords: ["SetThreadpoolWaitEx","SetThreadpoolWaitEx function","base.setthreadpoolwaitex","threadpoolapiset/SetThreadpoolWaitEx"]
 old-location: base\setthreadpoolwaitex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 0653D169-CE6B-4D8F-A640-F49B2BCBBF61
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWaitEx, SetThreadpoolWaitEx function, base.setthreadpoolwaitex, threadpoolapiset/SetThreadpoolWaitEx

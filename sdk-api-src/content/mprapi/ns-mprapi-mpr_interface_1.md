@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_1
 title: MPR_INTERFACE_1 (mprapi.h)
-description: The MPR_INTERFACE_1 structure contains configuration and status information for a particular router interface.helpviewer_keywords: ["*PMPR_INTERFACE_1","MPR_INTERFACE_1","MPR_INTERFACE_1 structure [RAS]","PMPR_INTERFACE_1","PMPR_INTERFACE_1 structure pointer [RAS]","_mpr_mpr_interface_1","mprapi/MPR_INTERFACE_1","mprapi/PMPR_INTERFACE_1","rras.mpr_interface_1"]
+description: The MPR_INTERFACE_1 structure contains configuration and status information for a particular router interface.
+helpviewer_keywords: ["*PMPR_INTERFACE_1","MPR_INTERFACE_1","MPR_INTERFACE_1 structure [RAS]","PMPR_INTERFACE_1","PMPR_INTERFACE_1 structure pointer [RAS]","_mpr_mpr_interface_1","mprapi/MPR_INTERFACE_1","mprapi/PMPR_INTERFACE_1","rras.mpr_interface_1"]
 old-location: rras\mpr_interface_1.htm
 tech.root: RRAS
 ms.assetid: 90a3da46-7dd1-428b-ab72-d5defa710225

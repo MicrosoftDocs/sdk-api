@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabSetPresenceInfo
 title: PeerCollabSetPresenceInfo function (p2p.h)
-description: Updates the caller's presence information to any contacts watching it.helpviewer_keywords: ["PeerCollabSetPresenceInfo","PeerCollabSetPresenceInfo function [Peer Networking]","p2p.peercollabsetpresenceinfo","p2p/PeerCollabSetPresenceInfo"]
+description: Updates the caller's presence information to any contacts watching it.
+helpviewer_keywords: ["PeerCollabSetPresenceInfo","PeerCollabSetPresenceInfo function [Peer Networking]","p2p.peercollabsetpresenceinfo","p2p/PeerCollabSetPresenceInfo"]
 old-location: p2p\peercollabsetpresenceinfo.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: fd90e7d2-5126-4bcf-b633-466855abd60a
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetPresenceInfo, PeerCollabSetPresenceInfo function [Peer Networking], p2p.peercollabsetpresenceinfo, p2p/PeerCollabSetPresenceInfo

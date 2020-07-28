@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMResourceControl.Reserve
 title: IAMResourceControl::Reserve (strmif.h)
-description: The Reserve method reserves or unreserves a device resource.helpviewer_keywords: ["IAMResourceControl interface [DirectShow]","Reserve method","IAMResourceControl.Reserve","IAMResourceControl::Reserve","IAMResourceControlReserve","Reserve","Reserve method [DirectShow]","Reserve method [DirectShow]","IAMResourceControl interface","dshow.iamresourcecontrol_reserve","strmif/IAMResourceControl::Reserve"]
+description: The Reserve method reserves or unreserves a device resource.
+helpviewer_keywords: ["IAMResourceControl interface [DirectShow]","Reserve method","IAMResourceControl.Reserve","IAMResourceControl::Reserve","IAMResourceControlReserve","Reserve","Reserve method [DirectShow]","Reserve method [DirectShow]","IAMResourceControl interface","dshow.iamresourcecontrol_reserve","strmif/IAMResourceControl::Reserve"]
 old-location: dshow\iamresourcecontrol_reserve.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5f264b87-dae4-4478-811f-1c99e670928a
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl interface [DirectShow],Reserve method, IAMResourceControl.Reserve, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve, Reserve method [DirectShow], Reserve method [DirectShow],IAMResourceControl interface, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve

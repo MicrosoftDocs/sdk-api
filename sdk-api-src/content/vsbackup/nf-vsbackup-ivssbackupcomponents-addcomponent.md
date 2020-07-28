@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
 title: IVssBackupComponents::AddComponent (vsbackup.h)
-description: Used to explicitly add to the backup set.helpviewer_keywords: ["AddComponent","AddComponent method [VSS]","AddComponent method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AddComponent method","IVssBackupComponents.AddComponent","IVssBackupComponents::AddComponent","_win32_ivssbackupcomponents_addcomponent","base.ivssbackupcomponents_addcomponent","vsbackup/IVssBackupComponents::AddComponent"]
+description: Used to explicitly add to the backup set.
+helpviewer_keywords: ["AddComponent","AddComponent method [VSS]","AddComponent method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AddComponent method","IVssBackupComponents.AddComponent","IVssBackupComponents::AddComponent","_win32_ivssbackupcomponents_addcomponent","base.ivssbackupcomponents_addcomponent","vsbackup/IVssBackupComponents::AddComponent"]
 old-location: base\ivssbackupcomponents_addcomponent.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent

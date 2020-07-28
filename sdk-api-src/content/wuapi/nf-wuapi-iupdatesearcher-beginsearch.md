@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.BeginSearch
 title: IUpdateSearcher::BeginSearch (wuapi.h)
-description: Begins execution of an asynchronous search for updates. The search uses the search options that are currently configured.helpviewer_keywords: ["BeginSearch","BeginSearch method [Windows Update Agent]","BeginSearch method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","BeginSearch method","IUpdateSearcher.BeginSearch","IUpdateSearcher::BeginSearch","wua.iupdatesearcherbeginsearch","wuapi/IUpdateSearcher::BeginSearch"]
+description: Begins execution of an asynchronous search for updates. The search uses the search options that are currently configured.
+helpviewer_keywords: ["BeginSearch","BeginSearch method [Windows Update Agent]","BeginSearch method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","BeginSearch method","IUpdateSearcher.BeginSearch","IUpdateSearcher::BeginSearch","wua.iupdatesearcherbeginsearch","wuapi/IUpdateSearcher::BeginSearch"]
 old-location: wua\iupdatesearcherbeginsearch.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 8af818b1-7dd8-4f48-b447-5b6dfbfce420
 ms.date: 12/05/2018
 ms.keywords: BeginSearch, BeginSearch method [Windows Update Agent], BeginSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],BeginSearch method, IUpdateSearcher.BeginSearch, IUpdateSearcher::BeginSearch, wua.iupdatesearcherbeginsearch, wuapi/IUpdateSearcher::BeginSearch

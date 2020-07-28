@@ -1,9 +1,10 @@
 ---
 UID: NF:powerbase.PowerUnregisterSuspendResumeNotification
 title: PowerUnregisterSuspendResumeNotification function (powerbase.h)
-description: Cancels a registration to receive notification when the system is suspended or resumed.helpviewer_keywords: ["PowerUnregisterSuspendResumeNotification","PowerUnregisterSuspendResumeNotification function","base.powerunregistersuspendresumenotification","powerbase/PowerUnregisterSuspendResumeNotification"]
+description: Cancels a registration to receive notification when the system is suspended or resumed.
+helpviewer_keywords: ["PowerUnregisterSuspendResumeNotification","PowerUnregisterSuspendResumeNotification function","base.powerunregistersuspendresumenotification","powerbase/PowerUnregisterSuspendResumeNotification"]
 old-location: base\powerunregistersuspendresumenotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: 5680e6bd-1694-4d5f-94ea-41b24149c741
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendResumeNotification function, base.powerunregistersuspendresumenotification, powerbase/PowerUnregisterSuspendResumeNotification

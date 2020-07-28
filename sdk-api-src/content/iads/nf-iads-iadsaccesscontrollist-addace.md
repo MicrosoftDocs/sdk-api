@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsAccessControlList.AddAce
 title: IADsAccessControlList::AddAce (iads.h)
-description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.helpviewer_keywords: ["AddAce","AddAce method [ADSI]","AddAce method [ADSI]","IADsAccessControlList interface","IADsAccessControlList interface [ADSI]","AddAce method","IADsAccessControlList.AddAce","IADsAccessControlList::AddAce","_ds_iadsaccesscontrollist_addace","adsi.iadsaccesscontrollist__addace","adsi.iadsaccesscontrollist_addace","iads/IADsAccessControlList::AddAce"]
+description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.
+helpviewer_keywords: ["AddAce","AddAce method [ADSI]","AddAce method [ADSI]","IADsAccessControlList interface","IADsAccessControlList interface [ADSI]","AddAce method","IADsAccessControlList.AddAce","IADsAccessControlList::AddAce","_ds_iadsaccesscontrollist_addace","adsi.iadsaccesscontrollist__addace","adsi.iadsaccesscontrollist_addace","iads/IADsAccessControlList::AddAce"]
 old-location: adsi\iadsaccesscontrollist_addace.htm
 tech.root: adsi
 ms.assetid: 663be55a-29d6-4a8a-adf2-024762413fc3

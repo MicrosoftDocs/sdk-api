@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrushLookup
 title: IXpsOMPath::GetFillBrushLookup (xpsobjectmodel.h)
-description: Gets the lookup key of the brush that is stored in a resource dictionary and used as the fill brush for the path.helpviewer_keywords: ["GetFillBrushLookup","GetFillBrushLookup method [XPS Documents and Packaging]","GetFillBrushLookup method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetFillBrushLookup method","IXpsOMPath.GetFillBrushLookup","IXpsOMPath::GetFillBrushLookup","xps.ixpsompath_getfillbrushlookup","xpsobjectmodel/IXpsOMPath::GetFillBrushLookup"]
+description: Gets the lookup key of the brush that is stored in a resource dictionary and used as the fill brush for the path.
+helpviewer_keywords: ["GetFillBrushLookup","GetFillBrushLookup method [XPS Documents and Packaging]","GetFillBrushLookup method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetFillBrushLookup method","IXpsOMPath.GetFillBrushLookup","IXpsOMPath::GetFillBrushLookup","xps.ixpsompath_getfillbrushlookup","xpsobjectmodel/IXpsOMPath::GetFillBrushLookup"]
 old-location: xps\ixpsompath_getfillbrushlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 89433357-fa39-41e9-bd21-ff3c076261db
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMPath.GetFillBrushLookup, IXpsOMPath::GetFillBrushLookup, xps.ixpsompath_getfillbrushlookup, xpsobjectmodel/IXpsOMPath::GetFillBrushLookup

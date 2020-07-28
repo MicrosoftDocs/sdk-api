@@ -4,7 +4,7 @@ title: IXpsSigningOptions::GetFlags (xpsdigitalsignature.h)
 description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.
 helpviewer_keywords: ["GetFlags","GetFlags method [XPS Documents and Packaging]","GetFlags method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetFlags method","IXpsSigningOptions.GetFlags","IXpsSigningOptions::GetFlags","xps.ixpssigningoptions_getflags","xpsdigitalsignature/IXpsSigningOptions::GetFlags"]
 old-location: xps\ixpssigningoptions_getflags.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 02d07300-e8f2-44fa-a562-5cec03af9a8c
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [XPS Documents and Packaging], GetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetFlags method, IXpsSigningOptions.GetFlags, IXpsSigningOptions::GetFlags, xps.ixpssigningoptions_getflags, xpsdigitalsignature/IXpsSigningOptions::GetFlags

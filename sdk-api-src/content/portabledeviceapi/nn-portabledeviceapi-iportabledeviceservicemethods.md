@@ -1,9 +1,10 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceMethods
 title: IPortableDeviceServiceMethods (portabledeviceapi.h)
-description: Invokes, or cancels invocation of, a method on a service.helpviewer_keywords: ["IPortableDeviceServiceMethods","IPortableDeviceServiceMethods interface [Windows Portable Devices SDK]","IPortableDeviceServiceMethods interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceServiceMethods","wpdsdk.iportabledeviceservicemethods"]
+description: Invokes, or cancels invocation of, a method on a service.
+helpviewer_keywords: ["IPortableDeviceServiceMethods","IPortableDeviceServiceMethods interface [Windows Portable Devices SDK]","IPortableDeviceServiceMethods interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceServiceMethods","wpdsdk.iportabledeviceservicemethods"]
 old-location: wpdsdk\iportabledeviceservicemethods.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 9d233dea-91b6-4358-830c-6abe466264e5
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK], IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceMethods, wpdsdk.iportabledeviceservicemethods

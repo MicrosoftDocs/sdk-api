@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDecFromI2
 title: VarDecFromI2 function (oleauto.h)
-description: Converts a short value to a decimal value.helpviewer_keywords: ["VarDecFromI2","VarDecFromI2 function [Automation]","_oa96_VarDecFromI2","automat.vardecfromi2","oleauto/VarDecFromI2"]
+description: Converts a short value to a decimal value.
+helpviewer_keywords: ["VarDecFromI2","VarDecFromI2 function [Automation]","_oa96_VarDecFromI2","automat.vardecfromi2","oleauto/VarDecFromI2"]
 old-location: automat\vardecfromi2.htm
 tech.root: automat
 ms.assetid: c57c6428-15ef-47ae-b040-b473399b549a

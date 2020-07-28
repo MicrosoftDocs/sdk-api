@@ -1,9 +1,10 @@
 ---
 UID: NF:instance.CInstance.Setbool
 title: CInstance::Setbool (instance.h)
-description: The Setbool method sets a Boolean property.helpviewer_keywords: ["?Setbool@CInstance@@QAE_NPBG_N@Z","?Setbool@CInstance@@QEAA_NPEBG_N@Z","CInstance interface [Windows Management Instrumentation]","Setbool method","CInstance.Setbool","CInstance::Setbool","Setbool","Setbool method [Windows Management Instrumentation]","Setbool method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setbool","instance/CInstance::Setbool","wmi.cinstance_setbool"]
+description: The Setbool method sets a Boolean property.
+helpviewer_keywords: ["?Setbool@CInstance@@QAE_NPBG_N@Z","?Setbool@CInstance@@QEAA_NPEBG_N@Z","CInstance interface [Windows Management Instrumentation]","Setbool method","CInstance.Setbool","CInstance::Setbool","Setbool","Setbool method [Windows Management Instrumentation]","Setbool method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setbool","instance/CInstance::Setbool","wmi.cinstance_setbool"]
 old-location: wmi\cinstance_setbool.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: d4ca045d-a018-48a0-a4ea-94d0c8f094a6
 ms.date: 12/05/2018
 ms.keywords: ?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance interface [Windows Management Instrumentation],Setbool method, CInstance.Setbool, CInstance::Setbool, Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool

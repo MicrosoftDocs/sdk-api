@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemtime.WBEMTime.Gettime_t
 title: WBEMTime::Gettime_t (wbemtime.h)
-description: The Gettime_t method gets the time as an ANSI C run-time time_t variable.helpviewer_keywords: ["?Gettime_t@WBEMTime@@QBEHPAJ@Z","Gettime_t","Gettime_t method [Windows Management Instrumentation]","Gettime_t method [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","Gettime_t method","WBEMTime.Gettime_t","WBEMTime::Gettime_t","_hmm_wbemtime_gettime_t","wbemtime/WBEMTime::Gettime_t","wmi.wbemtime_gettime_t"]
+description: The Gettime_t method gets the time as an ANSI C run-time time_t variable.
+helpviewer_keywords: ["?Gettime_t@WBEMTime@@QBEHPAJ@Z","Gettime_t","Gettime_t method [Windows Management Instrumentation]","Gettime_t method [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","Gettime_t method","WBEMTime.Gettime_t","WBEMTime::Gettime_t","_hmm_wbemtime_gettime_t","wbemtime/WBEMTime::Gettime_t","wmi.wbemtime_gettime_t"]
 old-location: wmi\wbemtime_gettime_t.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 62e0faff-4e5a-4bc4-a9a7-a4edbaea9541
 ms.date: 12/05/2018
 ms.keywords: ?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Gettime_t method, WBEMTime.Gettime_t, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t

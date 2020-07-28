@@ -4,7 +4,7 @@ title: IXpsOMPage::SetPageDimensions (xpsobjectmodel.h)
 description: Sets dimensions of the page.
 helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetPageDimensions method","IXpsOMPage.SetPageDimensions","IXpsOMPage::SetPageDimensions","SetPageDimensions","SetPageDimensions method [XPS Documents and Packaging]","SetPageDimensions method [XPS Documents and Packaging]","IXpsOMPage interface","pageDimensions.height","pageDimensions.width","xps.ixpsompage_setpagedimensions","xpsobjectmodel/IXpsOMPage::SetPageDimensions"]
 old-location: xps\ixpsompage_setpagedimensions.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetPageDimensions method, IXpsOMPage.SetPageDimensions, IXpsOMPage::SetPageDimensions, SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions

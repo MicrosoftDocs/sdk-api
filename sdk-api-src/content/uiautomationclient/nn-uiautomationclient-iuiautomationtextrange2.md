@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRange2
 title: IUIAutomationTextRange2 (uiautomationclient.h)
-description: Extends the IUIAutomationTextRange interface to enable Microsoft UI Automation clients to programmatically invoke context menus.helpviewer_keywords: ["IUIAutomationTextRange2","IUIAutomationTextRange2 interface [Windows Accessibility]","IUIAutomationTextRange2 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationTextRange2","winauto.uiauto_IUIAutomationTextRange2"]
+description: Extends the IUIAutomationTextRange interface to enable Microsoft UI Automation clients to programmatically invoke context menus.
+helpviewer_keywords: ["IUIAutomationTextRange2","IUIAutomationTextRange2 interface [Windows Accessibility]","IUIAutomationTextRange2 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationTextRange2","winauto.uiauto_IUIAutomationTextRange2"]
 old-location: winauto\uiauto_IUIAutomationTextRange2.htm
 tech.root: WinAuto
 ms.assetid: 62E95500-5691-FAE8-BC31-0BB31318D8A4

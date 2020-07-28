@@ -1,9 +1,10 @@
 ---
 UID: NN:aclui.ISecurityInformation3
 title: ISecurityInformation3 (aclui.h)
-description: Provides methods necessary for displaying an elevated access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.helpviewer_keywords: ["ISecurityInformation3","ISecurityInformation3 interface [Security]","ISecurityInformation3 interface [Security]","described","aclui/ISecurityInformation3","security.isecurityinformation3"]
+description: Provides methods necessary for displaying an elevated access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.
+helpviewer_keywords: ["ISecurityInformation3","ISecurityInformation3 interface [Security]","ISecurityInformation3 interface [Security]","described","aclui/ISecurityInformation3","security.isecurityinformation3"]
 old-location: security\isecurityinformation3.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e6cf92da-ebd2-4960-9df1-7124745df616
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation3, ISecurityInformation3 interface [Security], ISecurityInformation3 interface [Security],described, aclui/ISecurityInformation3, security.isecurityinformation3

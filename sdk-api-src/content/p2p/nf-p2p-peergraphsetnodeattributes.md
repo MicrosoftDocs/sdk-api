@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGraphSetNodeAttributes
 title: PeerGraphSetNodeAttributes function (p2p.h)
-description: The PeerGraphSetNodeAttributes function sets the attributes of the PEER_NODE_INFO structure for the local node.helpviewer_keywords: ["PeerGraphSetNodeAttributes","PeerGraphSetNodeAttributes function [Peer Networking]","p2p.peergraphsetnodeattributes","p2p/PeerGraphSetNodeAttributes"]
+description: The PeerGraphSetNodeAttributes function sets the attributes of the PEER_NODE_INFO structure for the local node.
+helpviewer_keywords: ["PeerGraphSetNodeAttributes","PeerGraphSetNodeAttributes function [Peer Networking]","p2p.peergraphsetnodeattributes","p2p/PeerGraphSetNodeAttributes"]
 old-location: p2p\peergraphsetnodeattributes.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 334b6c88-4d5d-4e73-843f-2be07b9de9c9
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes

@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetConfigEntry
 title: ICertAdmin2::SetConfigEntry (certadm.h)
-description: Sets configuration information for a certification authority (CA).helpviewer_keywords: ["ICertAdmin2 interface [Security]","SetConfigEntry method","ICertAdmin2.SetConfigEntry","ICertAdmin2::SetConfigEntry","SetConfigEntry","SetConfigEntry method [Security]","SetConfigEntry method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::SetConfigEntry","security.icertadmin2_setconfigentry"]
+description: Sets configuration information for a certification authority (CA).
+helpviewer_keywords: ["ICertAdmin2 interface [Security]","SetConfigEntry method","ICertAdmin2.SetConfigEntry","ICertAdmin2::SetConfigEntry","SetConfigEntry","SetConfigEntry method [Security]","SetConfigEntry method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::SetConfigEntry","security.icertadmin2_setconfigentry"]
 old-location: security\icertadmin2_setconfigentry.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin2 interface [Security],SetConfigEntry method, ICertAdmin2.SetConfigEntry, ICertAdmin2::SetConfigEntry, SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry

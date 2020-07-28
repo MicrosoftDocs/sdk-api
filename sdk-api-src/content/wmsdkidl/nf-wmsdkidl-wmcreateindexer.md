@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.WMCreateIndexer
 title: WMCreateIndexer function (wmsdkidl.h)
-description: The WMCreateIndexer function creates an indexer object.helpviewer_keywords: ["WMCreateIndexer","WMCreateIndexer function [windows Media Format]","wmformat.wmcreateindexer","wmsdkidl/WMCreateIndexer"]
+description: The WMCreateIndexer function creates an indexer object.
+helpviewer_keywords: ["WMCreateIndexer","WMCreateIndexer function [windows Media Format]","wmformat.wmcreateindexer","wmsdkidl/WMCreateIndexer"]
 old-location: wmformat\wmcreateindexer.htm
 tech.root: wmformat
 ms.assetid: 08f83923-ed33-41d2-b7f8-d70627197b31

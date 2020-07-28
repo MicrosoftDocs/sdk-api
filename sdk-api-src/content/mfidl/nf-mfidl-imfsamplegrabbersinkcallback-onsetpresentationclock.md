@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnSetPresentationClock
 title: IMFSampleGrabberSinkCallback::OnSetPresentationClock (mfidl.h)
-description: Called when the presentation clock is set on the sample-grabber sink.helpviewer_keywords: ["IMFSampleGrabberSinkCallback interface [Media Foundation]","OnSetPresentationClock method","IMFSampleGrabberSinkCallback.OnSetPresentationClock","IMFSampleGrabberSinkCallback::OnSetPresentationClock","OnSetPresentationClock","OnSetPresentationClock method [Media Foundation]","OnSetPresentationClock method [Media Foundation]","IMFSampleGrabberSinkCallback interface","bd367a8f-e7a0-4032-8f62-7dd9896d24ef","mf.imfsamplegrabbersinkcallback_onsetpresentationclock","mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock"]
+description: Called when the presentation clock is set on the sample-grabber sink.
+helpviewer_keywords: ["IMFSampleGrabberSinkCallback interface [Media Foundation]","OnSetPresentationClock method","IMFSampleGrabberSinkCallback.OnSetPresentationClock","IMFSampleGrabberSinkCallback::OnSetPresentationClock","OnSetPresentationClock","OnSetPresentationClock method [Media Foundation]","OnSetPresentationClock method [Media Foundation]","IMFSampleGrabberSinkCallback interface","bd367a8f-e7a0-4032-8f62-7dd9896d24ef","mf.imfsamplegrabbersinkcallback_onsetpresentationclock","mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock"]
 old-location: mf\imfsamplegrabbersinkcallback_onsetpresentationclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bd367a8f-e7a0-4032-8f62-7dd9896d24ef
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnSetPresentationClock method, IMFSampleGrabberSinkCallback.OnSetPresentationClock, IMFSampleGrabberSinkCallback::OnSetPresentationClock, OnSetPresentationClock, OnSetPresentationClock method [Media Foundation], OnSetPresentationClock method [Media Foundation],IMFSampleGrabberSinkCallback interface, bd367a8f-e7a0-4032-8f62-7dd9896d24ef, mf.imfsamplegrabbersinkcallback_onsetpresentationclock, mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock

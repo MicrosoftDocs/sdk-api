@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamNextSampleTime
 title: AVIStreamNextSampleTime macro (vfw.h)
-description: The AVIStreamNextSampleTime macro returns the time that a sample changes to the next sample in the stream. This macro finds the next interesting time in a stream.helpviewer_keywords: ["AVIStreamNextSampleTime","AVIStreamNextSampleTime macro [Windows Multimedia]","_win32_AVIStreamNextSampleTime","multimedia.avistreamnextsampletime","vfw/AVIStreamNextSampleTime"]
+description: The AVIStreamNextSampleTime macro returns the time that a sample changes to the next sample in the stream. This macro finds the next interesting time in a stream.
+helpviewer_keywords: ["AVIStreamNextSampleTime","AVIStreamNextSampleTime macro [Windows Multimedia]","_win32_AVIStreamNextSampleTime","multimedia.avistreamnextsampletime","vfw/AVIStreamNextSampleTime"]
 old-location: multimedia\avistreamnextsampletime.htm
 tech.root: Multimedia
 ms.assetid: 0421f082-9281-4cdb-8b33-2a90c14404dc

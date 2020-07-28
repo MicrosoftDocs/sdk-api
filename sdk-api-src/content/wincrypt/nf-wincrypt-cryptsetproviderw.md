@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptSetProviderW
 title: CryptSetProviderW function (wincrypt.h)
-description: Specifies the current user's default cryptographic service provider (CSP).helpviewer_keywords: ["CryptSetProvider","CryptSetProvider function [Security]","CryptSetProviderA","CryptSetProviderW","_crypto2_cryptsetprovider","security.cryptsetprovider","wincrypt/CryptSetProvider","wincrypt/CryptSetProviderA","wincrypt/CryptSetProviderW"]
+description: Specifies the current user's default cryptographic service provider (CSP).
+helpviewer_keywords: ["CryptSetProvider","CryptSetProvider function [Security]","CryptSetProviderA","CryptSetProviderW","_crypto2_cryptsetprovider","security.cryptsetprovider","wincrypt/CryptSetProvider","wincrypt/CryptSetProviderA","wincrypt/CryptSetProviderW"]
 old-location: security\cryptsetprovider.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.date: 12/05/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
@@ -144,6 +145,10 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CryptSetProvider as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

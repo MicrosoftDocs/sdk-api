@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiGetPropertyW
 title: MsiGetPropertyW function (msiquery.h)
-description: The MsiGetProperty function gets the value for an installer property.helpviewer_keywords: ["MsiGetProperty","MsiGetProperty function","MsiGetPropertyA","MsiGetPropertyW","_msi_msigetproperty","msiquery/MsiGetProperty","msiquery/MsiGetPropertyA","msiquery/MsiGetPropertyW","setup.msigetproperty"]
+description: The MsiGetProperty function gets the value for an installer property.
+helpviewer_keywords: ["MsiGetProperty","MsiGetProperty function","MsiGetPropertyA","MsiGetPropertyW","_msi_msigetproperty","msiquery/MsiGetProperty","msiquery/MsiGetPropertyA","msiquery/MsiGetPropertyW","setup.msigetproperty"]
 old-location: setup\msigetproperty.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
 ms.date: 12/05/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
@@ -137,6 +138,10 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiGetProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

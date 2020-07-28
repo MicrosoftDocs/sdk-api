@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMProgress3
 title: IWMDMProgress3 (mswmdm.h)
-description: The optional, application-implemented IWMDMProgress3 interface extends IWMDMProgress2 by providing additional input parameters to specify which event is being monitored, and to allow for context-specific information.Applications that implement this callback interface should provide an implementation for methods corresponding to IWMDMProgress and IWMDMProgress2 for backward compatibility, in addition to the new methods.helpviewer_keywords: ["IWMDMProgress3","IWMDMProgress3 interface [windows Media Device Manager]","IWMDMProgress3 interface [windows Media Device Manager]","described","IWMDMProgress3Interface","mswmdm/IWMDMProgress3","wmdm.iwmdmprogress3"]
+description: The optional, application-implemented IWMDMProgress3 interface extends IWMDMProgress2 by providing additional input parameters to specify which event is being monitored, and to allow for context-specific information.Applications that implement this callback interface should provide an implementation for methods corresponding to IWMDMProgress and IWMDMProgress2 for backward compatibility, in addition to the new methods.
+helpviewer_keywords: ["IWMDMProgress3","IWMDMProgress3 interface [windows Media Device Manager]","IWMDMProgress3 interface [windows Media Device Manager]","described","IWMDMProgress3Interface","mswmdm/IWMDMProgress3","wmdm.iwmdmprogress3"]
 old-location: wmdm\iwmdmprogress3.htm
 tech.root: WMDM
 ms.assetid: fc3a7031-ac1b-45cf-889b-2d40d50b347d

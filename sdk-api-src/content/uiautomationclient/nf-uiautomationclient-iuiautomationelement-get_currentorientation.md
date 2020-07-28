@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentOrientation
 title: IUIAutomationElement::get_CurrentOrientation (uiautomationclient.h)
-description: Retrieves a value that indicates the orientation of the element.helpviewer_keywords: ["CurrentOrientation property [Windows Accessibility]","CurrentOrientation property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentOrientation property","IUIAutomationElement.CurrentOrientation","IUIAutomationElement.get_CurrentOrientation","IUIAutomationElement::CurrentOrientation","IUIAutomationElement::get_CurrentOrientation","get_CurrentOrientation","uiauto.uiauto_IUIAutomationElement_CurrentOrientation","uiauto_IUIAutomationElement_CurrentOrientation","uiautomationclient/IUIAutomationElement::CurrentOrientation","uiautomationclient/IUIAutomationElement::get_CurrentOrientation","winauto.uiauto_IUIAutomationElement_CurrentOrientation"]
+description: Retrieves a value that indicates the orientation of the element.
+helpviewer_keywords: ["CurrentOrientation property [Windows Accessibility]","CurrentOrientation property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentOrientation property","IUIAutomationElement.CurrentOrientation","IUIAutomationElement.get_CurrentOrientation","IUIAutomationElement::CurrentOrientation","IUIAutomationElement::get_CurrentOrientation","get_CurrentOrientation","uiauto.uiauto_IUIAutomationElement_CurrentOrientation","uiauto_IUIAutomationElement_CurrentOrientation","uiautomationclient/IUIAutomationElement::CurrentOrientation","uiautomationclient/IUIAutomationElement::get_CurrentOrientation","winauto.uiauto_IUIAutomationElement_CurrentOrientation"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentOrientation.htm
 tech.root: WinAuto
 ms.assetid: 9afe358e-b80c-40f8-be0a-1f07346bb583

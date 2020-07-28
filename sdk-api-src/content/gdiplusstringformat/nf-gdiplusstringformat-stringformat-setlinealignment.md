@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetLineAlignment
 title: StringFormat::SetLineAlignment (gdiplusstringformat.h)
-description: The StringFormat::SetLineAlignment method sets the line alignment of this StringFormat object in relation to the origin of the layout rectangle.helpviewer_keywords: ["SetLineAlignment","SetLineAlignment method [GDI+]","SetLineAlignment method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetLineAlignment method","StringFormat.SetLineAlignment","StringFormat::SetLineAlignment","_gdiplus_CLASS_StringFormat_SetLineAlignment_align_","gdiplus._gdiplus_CLASS_StringFormat_SetLineAlignment_align_"]
+description: The StringFormat::SetLineAlignment method sets the line alignment of this StringFormat object in relation to the origin of the layout rectangle.
+helpviewer_keywords: ["SetLineAlignment","SetLineAlignment method [GDI+]","SetLineAlignment method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetLineAlignment method","StringFormat.SetLineAlignment","StringFormat::SetLineAlignment","_gdiplus_CLASS_StringFormat_SetLineAlignment_align_","gdiplus._gdiplus_CLASS_StringFormat_SetLineAlignment_align_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetLineAlignment_align_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setlinealignment.htm

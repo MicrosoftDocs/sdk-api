@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.SetParameters
 title: IWICDdsEncoder::SetParameters (wincodec.h)
-description: Sets DDS-specific data.helpviewer_keywords: ["IWICDdsEncoder interface [Windows Imaging Component]","SetParameters method","IWICDdsEncoder.SetParameters","IWICDdsEncoder::SetParameters","SetParameters","SetParameters method [Windows Imaging Component]","SetParameters method [Windows Imaging Component]","IWICDdsEncoder interface","wic.iwicddsencoder_setparameters","wincodec/IWICDdsEncoder::SetParameters"]
+description: Sets DDS-specific data.
+helpviewer_keywords: ["IWICDdsEncoder interface [Windows Imaging Component]","SetParameters method","IWICDdsEncoder.SetParameters","IWICDdsEncoder::SetParameters","SetParameters","SetParameters method [Windows Imaging Component]","SetParameters method [Windows Imaging Component]","IWICDdsEncoder interface","wic.iwicddsencoder_setparameters","wincodec/IWICDdsEncoder::SetParameters"]
 old-location: wic\iwicddsencoder_setparameters.htm
 tech.root: wic
 ms.assetid: 9DF51D95-97B0-4EC9-8F77-E49B16D76D77

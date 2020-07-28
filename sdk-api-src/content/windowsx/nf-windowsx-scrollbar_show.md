@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ScrollBar_Show
 title: ScrollBar_Show macro (windowsx.h)
-description: Shows or hides a scroll bar control.helpviewer_keywords: ["ScrollBar_Show","ScrollBar_Show macro [Windows Controls]","_win32_ScrollBar_Show","_win32_ScrollBar_Show_cpp","controls.ScrollBar_Show","controls._win32_ScrollBar_Show","windowsx/ScrollBar_Show"]
+description: Shows or hides a scroll bar control.
+helpviewer_keywords: ["ScrollBar_Show","ScrollBar_Show macro [Windows Controls]","_win32_ScrollBar_Show","_win32_ScrollBar_Show_cpp","controls.ScrollBar_Show","controls._win32_ScrollBar_Show","windowsx/ScrollBar_Show"]
 old-location: controls\ScrollBar_Show.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_show.htm

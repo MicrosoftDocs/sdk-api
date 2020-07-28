@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2Transform
 title: XMVector2Transform function (directxmath.h)
-description: Transforms a 2D vector by a matrix.helpviewer_keywords: ["Use DirectX..XMVector2Transform","XMVector2Transform","XMVector2Transform method [DirectX Math Support APIs]","dxmath.xmvector2transform"]
+description: Transforms a 2D vector by a matrix.
+helpviewer_keywords: ["Use DirectX..XMVector2Transform","XMVector2Transform","XMVector2Transform method [DirectX Math Support APIs]","dxmath.xmvector2transform"]
 old-location: dxmath\xmvector2transform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2Transform(XMVECTOR,XMMATRIX)

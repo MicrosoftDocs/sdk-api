@@ -1,9 +1,10 @@
 ---
 UID: NF:ntmsapi.DeallocateNtmsMedia
 title: DeallocateNtmsMedia function (ntmsapi.h)
-description: The DeallocateNtmsMedia function deallocates the side associated with the specified logical media.helpviewer_keywords: ["DeallocateNtmsMedia","DeallocateNtmsMedia function [Files]","_zaw_deallocatentmsmedia","base.deallocatentmsmedia","fs.deallocatentmsmedia","ntmsapi/DeallocateNtmsMedia"]
+description: The DeallocateNtmsMedia function deallocates the side associated with the specified logical media.
+helpviewer_keywords: ["DeallocateNtmsMedia","DeallocateNtmsMedia function [Files]","_zaw_deallocatentmsmedia","base.deallocatentmsmedia","fs.deallocatentmsmedia","ntmsapi/DeallocateNtmsMedia"]
 old-location: fs\deallocatentmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: e053c725-2da6-4eeb-b471-644847dd8db5
 ms.date: 12/05/2018
 ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_deallocatentmsmedia, base.deallocatentmsmedia, fs.deallocatentmsmedia, ntmsapi/DeallocateNtmsMedia

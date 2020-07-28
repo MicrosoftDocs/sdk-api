@@ -4,7 +4,7 @@ title: IXpsOMRadialGradientBrush::SetGradientOrigin (xpsobjectmodel.h)
 description: Sets the origin point of the radial gradient.
 helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetGradientOrigin method","IXpsOMRadialGradientBrush.SetGradientOrigin","IXpsOMRadialGradientBrush::SetGradientOrigin","SetGradientOrigin","SetGradientOrigin method [XPS Documents and Packaging]","SetGradientOrigin method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setgradientorigin","xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin"]
 old-location: xps\ixpsomradialgradientbrush_setgradientorigin.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 101bebbf-854c-49fa-bc5c-8c81c5d2f7f9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetGradientOrigin method, IXpsOMRadialGradientBrush.SetGradientOrigin, IXpsOMRadialGradientBrush::SetGradientOrigin, SetGradientOrigin, SetGradientOrigin method [XPS Documents and Packaging], SetGradientOrigin method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin

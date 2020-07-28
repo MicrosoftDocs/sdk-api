@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetCurrentHwProfileA
 title: GetCurrentHwProfileA function (winbase.h)
-description: Retrieves information about the current hardware profile for the local computer.helpviewer_keywords: ["GetCurrentHwProfile","GetCurrentHwProfile function","GetCurrentHwProfileA","GetCurrentHwProfileW","_win32_getcurrenthwprofile","base.getcurrenthwprofile","winbase/GetCurrentHwProfile","winbase/GetCurrentHwProfileA","winbase/GetCurrentHwProfileW"]
+description: Retrieves information about the current hardware profile for the local computer.
+helpviewer_keywords: ["GetCurrentHwProfile","GetCurrentHwProfile function","GetCurrentHwProfileA","GetCurrentHwProfileW","_win32_getcurrenthwprofile","base.getcurrenthwprofile","winbase/GetCurrentHwProfile","winbase/GetCurrentHwProfileA","winbase/GetCurrentHwProfileW"]
 old-location: base\getcurrenthwprofile.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
 ms.date: 12/05/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
@@ -122,6 +123,10 @@ void main(void)
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetCurrentHwProfile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

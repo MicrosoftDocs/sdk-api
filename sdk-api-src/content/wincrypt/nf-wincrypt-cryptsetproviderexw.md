@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptSetProviderExW
 title: CryptSetProviderExW function (wincrypt.h)
-description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.helpviewer_keywords: ["CRYPT_DELETE_DEFAULT","CRYPT_MACHINE_DEFAULT","CRYPT_USER_DEFAULT","CryptSetProviderEx","CryptSetProviderEx function [Security]","CryptSetProviderExA","CryptSetProviderExW","_crypto2_cryptsetproviderex","security.cryptsetproviderex","wincrypt/CryptSetProviderEx","wincrypt/CryptSetProviderExA","wincrypt/CryptSetProviderExW"]
+description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
+helpviewer_keywords: ["CRYPT_DELETE_DEFAULT","CRYPT_MACHINE_DEFAULT","CRYPT_USER_DEFAULT","CryptSetProviderEx","CryptSetProviderEx function [Security]","CryptSetProviderExA","CryptSetProviderExW","_crypto2_cryptsetproviderex","security.cryptsetproviderex","wincrypt/CryptSetProviderEx","wincrypt/CryptSetProviderExA","wincrypt/CryptSetProviderExW"]
 old-location: security\cryptsetproviderex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
@@ -174,6 +175,10 @@ Most applications do not specify a CSP name when calling the
 
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CryptSetProviderEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

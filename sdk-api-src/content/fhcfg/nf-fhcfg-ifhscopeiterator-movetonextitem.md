@@ -1,9 +1,10 @@
 ---
 UID: NF:fhcfg.IFhScopeIterator.MoveToNextItem
 title: IFhScopeIterator::MoveToNextItem (fhcfg.h)
-description: Moves to the next item in the inclusion or exclusion list.helpviewer_keywords: ["IFhScopeIterator interface [Windows API]","MoveToNextItem method","IFhScopeIterator.MoveToNextItem","IFhScopeIterator::MoveToNextItem","MoveToNextItem","MoveToNextItem method [Windows API]","MoveToNextItem method [Windows API]","IFhScopeIterator interface","fhcfg/IFhScopeIterator::MoveToNextItem","winprog.ifhscopeiterator_movetonextitem"]
+description: Moves to the next item in the inclusion or exclusion list.
+helpviewer_keywords: ["IFhScopeIterator interface [Windows API]","MoveToNextItem method","IFhScopeIterator.MoveToNextItem","IFhScopeIterator::MoveToNextItem","MoveToNextItem","MoveToNextItem method [Windows API]","MoveToNextItem method [Windows API]","IFhScopeIterator interface","fhcfg/IFhScopeIterator::MoveToNextItem","winprog.ifhscopeiterator_movetonextitem"]
 old-location: winprog\ifhscopeiterator_movetonextitem.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A
 ms.date: 12/05/2018
 ms.keywords: IFhScopeIterator interface [Windows API],MoveToNextItem method, IFhScopeIterator.MoveToNextItem, IFhScopeIterator::MoveToNextItem, MoveToNextItem, MoveToNextItem method [Windows API], MoveToNextItem method [Windows API],IFhScopeIterator interface, fhcfg/IFhScopeIterator::MoveToNextItem, winprog.ifhscopeiterator_movetonextitem

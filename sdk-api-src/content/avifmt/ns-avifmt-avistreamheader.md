@@ -1,9 +1,10 @@
 ---
 UID: NS:avifmt.__unnamed_struct_1
 title: AVIStreamHeader (avifmt.h)
-description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.helpviewer_keywords: [""auds","mids","txts","vids","AVISF_DISABLED","AVISF_VIDEO_PALCHANGES","AVISTREAMHEADER","AVISTREAMHEADER structure [DirectShow]","AVISTREAMHEADERStructure","AVIStreamHeader","_avistreamheader","avifmt/AVISTREAMHEADER","dshow.avistreamheader""]
+description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
+helpviewer_keywords: [""auds","mids","txts","vids","AVISF_DISABLED","AVISF_VIDEO_PALCHANGES","AVISTREAMHEADER","AVISTREAMHEADER structure [DirectShow]","AVISTREAMHEADERStructure","AVIStreamHeader","_avistreamheader","avifmt/AVISTREAMHEADER","dshow.avistreamheader""]
 old-location: dshow\avistreamheader.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.date: 12/05/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, AVIStreamHeader, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"

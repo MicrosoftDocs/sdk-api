@@ -1,9 +1,10 @@
 ---
 UID: NF:objpath.CObjectPathParser.Unparse
 title: CObjectPathParser::Unparse (objpath.h)
-description: Converts a structure that contains the parsed path to a string. Use of this object is not recommended. Instead, use the IWbemPath COM interface.helpviewer_keywords: ["CObjectPathParser interface [Windows Management Instrumentation]","UnParse method","CObjectPathParser.Unparse","CObjectPathParser::UnParse","CObjectPathParser::Unparse","UnParse method [Windows Management Instrumentation]","UnParse method [Windows Management Instrumentation]","CObjectPathParser interface","Unparse","objpath/CObjectPathParser::UnParse","wmi.cobjectpathparser_unparse"]
+description: Converts a structure that contains the parsed path to a string. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
+helpviewer_keywords: ["CObjectPathParser interface [Windows Management Instrumentation]","UnParse method","CObjectPathParser.Unparse","CObjectPathParser::UnParse","CObjectPathParser::Unparse","UnParse method [Windows Management Instrumentation]","UnParse method [Windows Management Instrumentation]","CObjectPathParser interface","Unparse","objpath/CObjectPathParser::UnParse","wmi.cobjectpathparser_unparse"]
 old-location: wmi\cobjectpathparser_unparse.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 6135b808-b9eb-4ba0-9eb8-e7a59993ae34
 ms.date: 12/05/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],UnParse method, CObjectPathParser.Unparse, CObjectPathParser::UnParse, CObjectPathParser::Unparse, UnParse method [Windows Management Instrumentation], UnParse method [Windows Management Instrumentation],CObjectPathParser interface, Unparse, objpath/CObjectPathParser::UnParse, wmi.cobjectpathparser_unparse

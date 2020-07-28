@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineSetCallData
 title: lineSetCallData function (tapi.h)
-description: The lineSetCallData function sets the CallData member in LINECALLINFO.helpviewer_keywords: ["_tapi2_linesetcalldata","lineSetCallData","lineSetCallData function [TAPI 2.2]","tapi/lineSetCallData","tapi2.linesetcalldata"]
+description: The lineSetCallData function sets the CallData member in LINECALLINFO.
+helpviewer_keywords: ["_tapi2_linesetcalldata","lineSetCallData","lineSetCallData function [TAPI 2.2]","tapi/lineSetCallData","tapi2.linesetcalldata"]
 old-location: tapi2\linesetcalldata.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f428f952-f8ff-4b55-a957-58fdb35a8c0e
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetcalldata, lineSetCallData, lineSetCallData function [TAPI 2.2], tapi/lineSetCallData, tapi2.linesetcalldata

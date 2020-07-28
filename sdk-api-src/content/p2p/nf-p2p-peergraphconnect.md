@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGraphConnect
 title: PeerGraphConnect function (p2p.h)
-description: The PeerGraphConnect function attempts to make a connection to a specified node in a peer graph.helpviewer_keywords: ["PeerGraphConnect","PeerGraphConnect function [Peer Networking]","p2p.peergraphconnect","p2p/PeerGraphConnect"]
+description: The PeerGraphConnect function attempts to make a connection to a specified node in a peer graph.
+helpviewer_keywords: ["PeerGraphConnect","PeerGraphConnect function [Peer Networking]","p2p.peergraphconnect","p2p/PeerGraphConnect"]
 old-location: p2p\peergraphconnect.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 76a2c54d-4424-4aa3-9b62-3ebe88b63c9f
 ms.date: 12/05/2018
 ms.keywords: PeerGraphConnect, PeerGraphConnect function [Peer Networking], p2p.peergraphconnect, p2p/PeerGraphConnect

@@ -1,7 +1,8 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_SETTINGS
 title: SOCKET_SECURITY_SETTINGS (mstcpip.h)
-description: Specifies generic security requirements for a socket.helpviewer_keywords: ["SOCKET_SECURITY_SETTINGS","SOCKET_SECURITY_SETTINGS structure [Winsock]","SOCKET_SETTINGS_ALLOW_INSECURE","SOCKET_SETTINGS_GUARANTEE_ENCRYPTION","mstcpip/SOCKET_SECURITY_SETTINGS","winsock.socket_security_settings"]
+description: Specifies generic security requirements for a socket.
+helpviewer_keywords: ["SOCKET_SECURITY_SETTINGS","SOCKET_SECURITY_SETTINGS structure [Winsock]","SOCKET_SETTINGS_ALLOW_INSECURE","SOCKET_SETTINGS_GUARANTEE_ENCRYPTION","mstcpip/SOCKET_SECURITY_SETTINGS","winsock.socket_security_settings"]
 old-location: winsock\socket_security_settings.htm
 tech.root: WinSock
 ms.assetid: 9c47efb4-dd3e-4db9-a659-003292e2c5e9

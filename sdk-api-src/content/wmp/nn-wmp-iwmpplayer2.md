@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPPlayer2
 title: IWMPPlayer2 (wmp.h)
-description: The IWMPPlayer2 interface provides additional methods for modifying the basic behavior of the Windows Media Player control user interface.helpviewer_keywords: ["IWMPPlayer2","IWMPPlayer2 interface [Windows Media Player]","IWMPPlayer2 interface [Windows Media Player]","described","IWMPPlayer2Interface","wmp.iwmpplayer2","wmp/IWMPPlayer2"]
+description: The IWMPPlayer2 interface provides additional methods for modifying the basic behavior of the Windows Media Player control user interface.
+helpviewer_keywords: ["IWMPPlayer2","IWMPPlayer2 interface [Windows Media Player]","IWMPPlayer2 interface [Windows Media Player]","described","IWMPPlayer2Interface","wmp.iwmpplayer2","wmp/IWMPPlayer2"]
 old-location: wmp\iwmpplayer2.htm
 tech.root: WMP
 ms.assetid: bf51d54d-d0aa-42ad-8180-d1f6487baac8

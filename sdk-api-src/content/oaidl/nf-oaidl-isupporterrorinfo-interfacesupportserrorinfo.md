@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ISupportErrorInfo.InterfaceSupportsErrorInfo
 title: ISupportErrorInfo::InterfaceSupportsErrorInfo (oaidl.h)
-description: Indicates whether an interface supports the IErrorInfo interface.helpviewer_keywords: ["ISupportErrorInfo interface [Automation]","InterfaceSupportsErrorInfo method","ISupportErrorInfo.InterfaceSupportsErrorInfo","ISupportErrorInfo::InterfaceSupportsErrorInfo","InterfaceSupportsErrorInfo","InterfaceSupportsErrorInfo method [Automation]","InterfaceSupportsErrorInfo method [Automation]","ISupportErrorInfo interface","_oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo","automat.isupporterrorinfo_interfacesupportserrorinfo","oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo"]
+description: Indicates whether an interface supports the IErrorInfo interface.
+helpviewer_keywords: ["ISupportErrorInfo interface [Automation]","InterfaceSupportsErrorInfo method","ISupportErrorInfo.InterfaceSupportsErrorInfo","ISupportErrorInfo::InterfaceSupportsErrorInfo","InterfaceSupportsErrorInfo","InterfaceSupportsErrorInfo method [Automation]","InterfaceSupportsErrorInfo method [Automation]","ISupportErrorInfo interface","_oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo","automat.isupporterrorinfo_interfacesupportserrorinfo","oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo"]
 old-location: automat\isupporterrorinfo_interfacesupportserrorinfo.htm
 tech.root: automat
 ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a

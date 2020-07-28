@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.ReleaseActCtx
 title: ReleaseActCtx function (winbase.h)
-description: The ReleaseActCtx function decrements the reference count of the specified activation context.helpviewer_keywords: ["ReleaseActCtx","ReleaseActCtx function [Side-by-side Assemblies]","_win32_releaseactctx","setup.releaseactctx","winbase/ReleaseActCtx"]
+description: The ReleaseActCtx function decrements the reference count of the specified activation context.
+helpviewer_keywords: ["ReleaseActCtx","ReleaseActCtx function [Side-by-side Assemblies]","_win32_releaseactctx","setup.releaseactctx","winbase/ReleaseActCtx"]
 old-location: setup\releaseactctx.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: aaf58969-06b7-4981-83af-651252339186
 ms.date: 12/05/2018
 ms.keywords: ReleaseActCtx, ReleaseActCtx function [Side-by-side Assemblies], _win32_releaseactctx, setup.releaseactctx, winbase/ReleaseActCtx

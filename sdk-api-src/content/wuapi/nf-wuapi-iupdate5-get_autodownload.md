@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate5.get_AutoDownload
 title: IUpdate5::get_AutoDownload (wuapi.h)
-description: Gets a value indicating the automatic download mode of update.helpviewer_keywords: ["AutoDownload property [Windows Update Agent]","AutoDownload property [Windows Update Agent]","IUpdate5 interface","IUpdate5 interface [Windows Update Agent]","AutoDownload property","IUpdate5.AutoDownload","IUpdate5.get_AutoDownload","IUpdate5::AutoDownload","IUpdate5::get_AutoDownload","get_AutoDownload","wua.iupdate5_autodownload","wuapi/IUpdate5::AutoDownload","wuapi/IUpdate5::get_AutoDownload"]
+description: Gets a value indicating the automatic download mode of update.
+helpviewer_keywords: ["AutoDownload property [Windows Update Agent]","AutoDownload property [Windows Update Agent]","IUpdate5 interface","IUpdate5 interface [Windows Update Agent]","AutoDownload property","IUpdate5.AutoDownload","IUpdate5.get_AutoDownload","IUpdate5::AutoDownload","IUpdate5::get_AutoDownload","get_AutoDownload","wua.iupdate5_autodownload","wuapi/IUpdate5::AutoDownload","wuapi/IUpdate5::get_AutoDownload"]
 old-location: wua\iupdate5_autodownload.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b8819ba8-7333-488c-b337-0a51f995d942
 ms.date: 12/05/2018
 ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoDownload property, IUpdate5.AutoDownload, IUpdate5.get_AutoDownload, IUpdate5::AutoDownload, IUpdate5::get_AutoDownload, get_AutoDownload, wua.iupdate5_autodownload, wuapi/IUpdate5::AutoDownload, wuapi/IUpdate5::get_AutoDownload

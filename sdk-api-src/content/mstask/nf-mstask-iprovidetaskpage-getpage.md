@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IProvideTaskPage.GetPage
 title: IProvideTaskPage::GetPage (mstask.h)
-description: This method retrieves one or more property sheet pages associated with a task object.helpviewer_keywords: ["GetPage","GetPage method [Task Scheduler]","GetPage method [Task Scheduler]","IProvideTaskPage interface","IProvideTaskPage interface [Task Scheduler]","GetPage method","IProvideTaskPage.GetPage","IProvideTaskPage::GetPage","_msb_iprovidetaskpage_getpage","mstask/IProvideTaskPage::GetPage","taskschd.iprovidetaskpage_getpage"]
+description: This method retrieves one or more property sheet pages associated with a task object.
+helpviewer_keywords: ["GetPage","GetPage method [Task Scheduler]","GetPage method [Task Scheduler]","IProvideTaskPage interface","IProvideTaskPage interface [Task Scheduler]","GetPage method","IProvideTaskPage.GetPage","IProvideTaskPage::GetPage","_msb_iprovidetaskpage_getpage","mstask/IProvideTaskPage::GetPage","taskschd.iprovidetaskpage_getpage"]
 old-location: taskschd\iprovidetaskpage_getpage.htm
 tech.root: taskschd
 ms.assetid: 2313abc1-587f-473b-8d2e-390dfa7234ab

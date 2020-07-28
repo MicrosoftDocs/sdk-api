@@ -1,9 +1,10 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap
 title: IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap (vsmgmt.h)
-description: This method is reserved for future use.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt3 interface","QuerySnapshotDeltaBitmap method","IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap","IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap","QuerySnapshotDeltaBitmap","QuerySnapshotDeltaBitmap method","QuerySnapshotDeltaBitmap method","IVssDifferentialSoftwareSnapshotMgmt3 interface","base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap"]
+description: This method is reserved for future use.
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt3 interface","QuerySnapshotDeltaBitmap method","IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap","IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap","QuerySnapshotDeltaBitmap","QuerySnapshotDeltaBitmap method","QuerySnapshotDeltaBitmap method","IVssDifferentialSoftwareSnapshotMgmt3 interface","base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: cfa4420f-dc11-48c1-b177-1c58a4515550
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,QuerySnapshotDeltaBitmap method, IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap, IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap method, QuerySnapshotDeltaBitmap method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap

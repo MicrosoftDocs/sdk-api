@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.TrimLeft
 title: CHString::TrimLeft (chstring.h)
-description: The TrimLeft method trims leading whitespace characters from the string by removing new line, space, and tab characters.helpviewer_keywords: ["?TrimLeft@CHString@@QAEXXZ","?TrimLeft@CHString@@QEAAXXZ","CHString interface [Windows Management Instrumentation]","TrimLeft method","CHString.TrimLeft","CHString::TrimLeft","TrimLeft","TrimLeft method [Windows Management Instrumentation]","TrimLeft method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_trimleft","chstring/CHString::TrimLeft","wmi.chstring_trimleft"]
+description: The TrimLeft method trims leading whitespace characters from the string by removing new line, space, and tab characters.
+helpviewer_keywords: ["?TrimLeft@CHString@@QAEXXZ","?TrimLeft@CHString@@QEAAXXZ","CHString interface [Windows Management Instrumentation]","TrimLeft method","CHString.TrimLeft","CHString::TrimLeft","TrimLeft","TrimLeft method [Windows Management Instrumentation]","TrimLeft method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_trimleft","chstring/CHString::TrimLeft","wmi.chstring_trimleft"]
 old-location: wmi\chstring_trimleft.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 7f64181b-eae9-4c65-8fa5-d9171a1e2de8
 ms.date: 12/05/2018
 ms.keywords: ?TrimLeft@CHString@@QAEXXZ, ?TrimLeft@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimLeft method, CHString.TrimLeft, CHString::TrimLeft, TrimLeft, TrimLeft method [Windows Management Instrumentation], TrimLeft method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimleft, chstring/CHString::TrimLeft, wmi.chstring_trimleft

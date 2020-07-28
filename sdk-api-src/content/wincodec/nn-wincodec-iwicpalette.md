@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICPalette
 title: IWICPalette (wincodec.h)
-description: Exposes methods for accessing and building a color table, primarily for indexed pixel formats.helpviewer_keywords: ["IWICPalette","IWICPalette interface [Windows Imaging Component]","IWICPalette interface [Windows Imaging Component]","described","_wic_codec_iwicpalette","wic._wic_codec_iwicpalette","wincodec/IWICPalette"]
+description: Exposes methods for accessing and building a color table, primarily for indexed pixel formats.
+helpviewer_keywords: ["IWICPalette","IWICPalette interface [Windows Imaging Component]","IWICPalette interface [Windows Imaging Component]","described","_wic_codec_iwicpalette","wic._wic_codec_iwicpalette","wincodec/IWICPalette"]
 old-location: wic\_wic_codec_iwicpalette.htm
 tech.root: wic
 ms.assetid: cb0e4f92-4aff-48c7-af62-5f7154539289

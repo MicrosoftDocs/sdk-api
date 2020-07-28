@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGetAgentGroupListW
 title: lineGetAgentGroupListW function (tapi.h)
-description: The lineGetAgentGroupList function obtains the identities of agent groups (combination of queue, supervisor, skill level, and so on) into which the agent currently logged in on the workstation is permitted to log into on the automatic call distributor.helpviewer_keywords: ["_tapi2_linegetagentgrouplist","lineGetAgentGroupList","lineGetAgentGroupList function [TAPI 2.2]","lineGetAgentGroupListA","lineGetAgentGroupListW","tapi/lineGetAgentGroupList","tapi/lineGetAgentGroupListA","tapi/lineGetAgentGroupListW","tapi2.linegetagentgrouplist"]
+description: The lineGetAgentGroupList function obtains the identities of agent groups (combination of queue, supervisor, skill level, and so on) into which the agent currently logged in on the workstation is permitted to log into on the automatic call distributor.
+helpviewer_keywords: ["_tapi2_linegetagentgrouplist","lineGetAgentGroupList","lineGetAgentGroupList function [TAPI 2.2]","lineGetAgentGroupListA","lineGetAgentGroupListW","tapi/lineGetAgentGroupList","tapi/lineGetAgentGroupListA","tapi/lineGetAgentGroupListW","tapi2.linegetagentgrouplist"]
 old-location: tapi2\linegetagentgrouplist.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b3767efd-8f7a-4a03-81f6-97e11994900d
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetagentgrouplist, lineGetAgentGroupList, lineGetAgentGroupList function [TAPI 2.2], lineGetAgentGroupListA, lineGetAgentGroupListW, tapi/lineGetAgentGroupList, tapi/lineGetAgentGroupListA, tapi/lineGetAgentGroupListW, tapi2.linegetagentgrouplist
@@ -104,4 +105,9 @@ LINEERR_INVALADDRESSID, LINEERR_INVALAGENTID, LINEERR_INVALLINEHANDLE, LINEERR_I
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The tapi.h header defines lineGetAgentGroupList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

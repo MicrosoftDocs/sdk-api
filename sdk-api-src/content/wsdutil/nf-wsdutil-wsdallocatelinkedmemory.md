@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdutil.WSDAllocateLinkedMemory
 title: WSDAllocateLinkedMemory function (wsdutil.h)
-description: Allocates a linked memory block.helpviewer_keywords: ["WSDAllocateLinkedMemory","WSDAllocateLinkedMemory function","ncd.wsdallocatelinkedmemory_func","wsdutil/WSDAllocateLinkedMemory"]
+description: Allocates a linked memory block.
+helpviewer_keywords: ["WSDAllocateLinkedMemory","WSDAllocateLinkedMemory function","ncd.wsdallocatelinkedmemory_func","wsdutil/WSDAllocateLinkedMemory"]
 old-location: ncd\wsdallocatelinkedmemory_func.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 2608985f-56aa-4223-b76d-85ebe3b080fb
 ms.date: 12/05/2018
 ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsdallocatelinkedmemory_func, wsdutil/WSDAllocateLinkedMemory

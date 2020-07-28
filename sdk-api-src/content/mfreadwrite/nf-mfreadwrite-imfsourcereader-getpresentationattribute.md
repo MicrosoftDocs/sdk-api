@@ -1,9 +1,10 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetPresentationAttribute
 title: IMFSourceReader::GetPresentationAttribute (mfreadwrite.h)
-description: Gets an attribute from the underlying media source.helpviewer_keywords: ["GetPresentationAttribute","GetPresentationAttribute method [Media Foundation]","GetPresentationAttribute method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetPresentationAttribute method","IMFSourceReader.GetPresentationAttribute","IMFSourceReader::GetPresentationAttribute","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","MF_SOURCE_READER_MEDIASOURCE","mf.imfsourcereader_getpresentationattribute","mfreadwrite/IMFSourceReader::GetPresentationAttribute"]
+description: Gets an attribute from the underlying media source.
+helpviewer_keywords: ["GetPresentationAttribute","GetPresentationAttribute method [Media Foundation]","GetPresentationAttribute method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetPresentationAttribute method","IMFSourceReader.GetPresentationAttribute","IMFSourceReader::GetPresentationAttribute","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","MF_SOURCE_READER_MEDIASOURCE","mf.imfsourcereader_getpresentationattribute","mfreadwrite/IMFSourceReader::GetPresentationAttribute"]
 old-location: mf\imfsourcereader_getpresentationattribute.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 40544e1e-cce2-4860-aeb2-b60696b09145
 ms.date: 12/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetPresentationAttribute method, IMFSourceReader.GetPresentationAttribute, IMFSourceReader::GetPresentationAttribute, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getpresentationattribute, mfreadwrite/IMFSourceReader::GetPresentationAttribute

@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ResolveHandler
 title: IWSDiscoveryPublisherNotify::ResolveHandler (wsddisco.h)
-description: Is called when a Resolve is received by the discovery publisher.helpviewer_keywords: ["IWSDiscoveryPublisherNotify interface","ResolveHandler method","IWSDiscoveryPublisherNotify.ResolveHandler","IWSDiscoveryPublisherNotify::ResolveHandler","ResolveHandler","ResolveHandler method","ResolveHandler method","IWSDiscoveryPublisherNotify interface","ncd.iwsdiscoverypublishernotify_resolvehandler_method","wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler"]
+description: Is called when a Resolve is received by the discovery publisher.
+helpviewer_keywords: ["IWSDiscoveryPublisherNotify interface","ResolveHandler method","IWSDiscoveryPublisherNotify.ResolveHandler","IWSDiscoveryPublisherNotify::ResolveHandler","ResolveHandler","ResolveHandler method","ResolveHandler method","IWSDiscoveryPublisherNotify interface","ncd.iwsdiscoverypublishernotify_resolvehandler_method","wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler"]
 old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b0dd2b82-5d08-4dd3-8e6a-892ebaf71045
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler

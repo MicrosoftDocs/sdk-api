@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetAudioAttributes
 title: IMFTranscodeProfile::GetAudioAttributes (mfidl.h)
-description: Gets the audio stream settings that are currently set in the transcode profile.helpviewer_keywords: ["GetAudioAttributes","GetAudioAttributes method [Media Foundation]","GetAudioAttributes method [Media Foundation]","IMFTranscodeProfile interface","IMFTranscodeProfile interface [Media Foundation]","GetAudioAttributes method","IMFTranscodeProfile.GetAudioAttributes","IMFTranscodeProfile::GetAudioAttributes","mf.imftranscodeprofile_getaudioattributes","mfidl/IMFTranscodeProfile::GetAudioAttributes"]
+description: Gets the audio stream settings that are currently set in the transcode profile.
+helpviewer_keywords: ["GetAudioAttributes","GetAudioAttributes method [Media Foundation]","GetAudioAttributes method [Media Foundation]","IMFTranscodeProfile interface","IMFTranscodeProfile interface [Media Foundation]","GetAudioAttributes method","IMFTranscodeProfile.GetAudioAttributes","IMFTranscodeProfile::GetAudioAttributes","mf.imftranscodeprofile_getaudioattributes","mfidl/IMFTranscodeProfile::GetAudioAttributes"]
 old-location: mf\imftranscodeprofile_getaudioattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c02dabfe-33ef-4835-a707-d1350b18629f
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [Media Foundation], GetAudioAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetAudioAttributes method, IMFTranscodeProfile.GetAudioAttributes, IMFTranscodeProfile::GetAudioAttributes, mf.imftranscodeprofile_getaudioattributes, mfidl/IMFTranscodeProfile::GetAudioAttributes

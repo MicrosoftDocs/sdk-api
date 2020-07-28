@@ -1,9 +1,10 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstance
 title: IFunctionInstance (functiondiscoveryapi.h)
-description: A function instance is created as the result of calling one of the IFunctionDiscovery methods; client program do not create these objects themselves.helpviewer_keywords: ["IFunctionInstance","IFunctionInstance interface","IFunctionInstance interface","described","functiondiscoveryapi/IFunctionInstance","ncd.ifunctioninstance"]
+description: A function instance is created as the result of calling one of the IFunctionDiscovery methods; client program do not create these objects themselves.
+helpviewer_keywords: ["IFunctionInstance","IFunctionInstance interface","IFunctionInstance interface","described","functiondiscoveryapi/IFunctionInstance","ncd.ifunctioninstance"]
 old-location: ncd\ifunctioninstance.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: cc421719-73a6-4d4d-9bf8-171e46c4e275
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstance, IFunctionInstance interface, IFunctionInstance interface,described, functiondiscoveryapi/IFunctionInstance, ncd.ifunctioninstance

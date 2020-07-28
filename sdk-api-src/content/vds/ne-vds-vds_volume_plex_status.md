@@ -1,9 +1,10 @@
 ---
 UID: NE:vds._VDS_VOLUME_PLEX_STATUS
 title: VDS_VOLUME_PLEX_STATUS (vds.h)
-description: Defines the set of object status values for a volume plex.helpviewer_keywords: ["VDS_VOLUME_PLEX_STATUS","VDS_VOLUME_PLEX_STATUS enumeration [VDS]","VDS_VPS_FAILED","VDS_VPS_NO_MEDIA","VDS_VPS_ONLINE","VDS_VPS_UNKNOWN","base.vds_volume_plex_status","vds/VDS_VOLUME_PLEX_STATUS","vds/VDS_VPS_FAILED","vds/VDS_VPS_NO_MEDIA","vds/VDS_VPS_ONLINE","vds/VDS_VPS_UNKNOWN"]
+description: Defines the set of object status values for a volume plex.
+helpviewer_keywords: ["VDS_VOLUME_PLEX_STATUS","VDS_VOLUME_PLEX_STATUS enumeration [VDS]","VDS_VPS_FAILED","VDS_VPS_NO_MEDIA","VDS_VPS_ONLINE","VDS_VPS_UNKNOWN","base.vds_volume_plex_status","vds/VDS_VOLUME_PLEX_STATUS","vds/VDS_VPS_FAILED","vds/VDS_VPS_NO_MEDIA","vds/VDS_VPS_ONLINE","vds/VDS_VPS_UNKNOWN"]
 old-location: base\vds_volume_plex_status.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2e382a68-876a-4287-a7df-d7eadd8ce037
 ms.date: 12/05/2018
 ms.keywords: VDS_VOLUME_PLEX_STATUS, VDS_VOLUME_PLEX_STATUS enumeration [VDS], VDS_VPS_FAILED, VDS_VPS_NO_MEDIA, VDS_VPS_ONLINE, VDS_VPS_UNKNOWN, base.vds_volume_plex_status, vds/VDS_VOLUME_PLEX_STATUS, vds/VDS_VPS_FAILED, vds/VDS_VPS_NO_MEDIA, vds/VDS_VPS_ONLINE, vds/VDS_VPS_UNKNOWN

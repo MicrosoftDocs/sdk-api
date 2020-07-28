@@ -1,7 +1,8 @@
 ---
 UID: NE:mi._MI_CancellationReason
 title: MI_CancellationReason (mi.h)
-description: Value to pass to an operation cancel request to notify the system of the reason the operation is being canceled. If the service is being shutdown, it may pass one of these values to the provider as well.helpviewer_keywords: ["MI_CancellationReason","MI_CancellationReason enumeration [Windows Management Infrastructure (MI)]","MI_REASON_NONE","MI_REASON_SERVICESTOP","MI_REASON_SHUTDOWN","MI_REASON_TIMEOUT","mi/MI_CancellationReason","mi/MI_REASON_NONE","mi/MI_REASON_SERVICESTOP","mi/MI_REASON_SHUTDOWN","mi/MI_REASON_TIMEOUT","wmi._mi_cancellationreason","wmi_v2.mi_cancellationreason"]
+description: Value to pass to an operation cancel request to notify the system of the reason the operation is being canceled. If the service is being shutdown, it may pass one of these values to the provider as well.
+helpviewer_keywords: ["MI_CancellationReason","MI_CancellationReason enumeration [Windows Management Infrastructure (MI)]","MI_REASON_NONE","MI_REASON_SERVICESTOP","MI_REASON_SHUTDOWN","MI_REASON_TIMEOUT","mi/MI_CancellationReason","mi/MI_REASON_NONE","mi/MI_REASON_SERVICESTOP","mi/MI_REASON_SHUTDOWN","mi/MI_REASON_TIMEOUT","wmi._mi_cancellationreason","wmi_v2.mi_cancellationreason"]
 old-location: wmi_v2\mi_cancellationreason.htm
 tech.root: wmi_v2
 ms.assetid: 3c498055-03ef-4163-9de5-cf4e70051cea

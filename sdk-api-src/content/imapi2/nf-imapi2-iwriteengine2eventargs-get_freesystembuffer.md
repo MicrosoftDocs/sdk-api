@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_FreeSystemBuffer
 title: IWriteEngine2EventArgs::get_FreeSystemBuffer (imapi2.h)
-description: Retrieves the number of unused bytes in the internal data buffer that is used for writing to disc.helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_FreeSystemBuffer method","IWriteEngine2EventArgs.get_FreeSystemBuffer","IWriteEngine2EventArgs::get_FreeSystemBuffer","get_FreeSystemBuffer","get_FreeSystemBuffer method [IMAPI]","get_FreeSystemBuffer method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_freesystembuffer","imapi2/IWriteEngine2EventArgs::get_FreeSystemBuffer"]
+description: Retrieves the number of unused bytes in the internal data buffer that is used for writing to disc.
+helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_FreeSystemBuffer method","IWriteEngine2EventArgs.get_FreeSystemBuffer","IWriteEngine2EventArgs::get_FreeSystemBuffer","get_FreeSystemBuffer","get_FreeSystemBuffer method [IMAPI]","get_FreeSystemBuffer method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_freesystembuffer","imapi2/IWriteEngine2EventArgs::get_FreeSystemBuffer"]
 old-location: imapi\iwriteengine2eventargs_get_freesystembuffer.htm
 tech.root: imapi
 ms.assetid: d62eeb31-cf47-4456-832c-9a29c045b11c

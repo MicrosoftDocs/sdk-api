@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.INetSharingPortMapping
 title: INetSharingPortMapping (netcon.h)
-description: The INetSharingPortMapping interface provides methods for managing a particular port mapping.helpviewer_keywords: ["INetSharingPortMapping","INetSharingPortMapping interface [ICS/ICF]","INetSharingPortMapping interface [ICS/ICF]","described","_ics_inetsharingportmapping","ics.inetsharingportmapping","netcon/INetSharingPortMapping"]
+description: The INetSharingPortMapping interface provides methods for managing a particular port mapping.
+helpviewer_keywords: ["INetSharingPortMapping","INetSharingPortMapping interface [ICS/ICF]","INetSharingPortMapping interface [ICS/ICF]","described","_ics_inetsharingportmapping","ics.inetsharingportmapping","netcon/INetSharingPortMapping"]
 old-location: ics\inetsharingportmapping.htm
 tech.root: ics
 ms.assetid: 236608c3-061e-4db0-96df-25d263b6463b

@@ -1,9 +1,10 @@
 ---
 UID: NE:wbemcli.tag_WBEM_TIMEOUT_TYPE
 title: WBEM_TIMEOUT_TYPE (wbemcli.h)
-description: Contains values used to specify the timeout for the IEnumWbemClassObject::Next method.helpviewer_keywords: ["WBEM_INFINITE","WBEM_NO_WAIT","WBEM_TIMEOUT_TYPE","WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation]","wbemcli/WBEM_INFINITE","wbemcli/WBEM_NO_WAIT","wbemcli/WBEM_TIMEOUT_TYPE","wmi.wbem_timeout_type"]
+description: Contains values used to specify the timeout for the IEnumWbemClassObject::Next method.
+helpviewer_keywords: ["WBEM_INFINITE","WBEM_NO_WAIT","WBEM_TIMEOUT_TYPE","WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation]","wbemcli/WBEM_INFINITE","wbemcli/WBEM_NO_WAIT","wbemcli/WBEM_TIMEOUT_TYPE","wmi.wbem_timeout_type"]
 old-location: wmi\wbem_timeout_type.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
 ms.date: 12/05/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type

@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll4.SetSignerCertificate
 title: IEnroll4::SetSignerCertificate (xenroll.h)
-description: The SetSignerCertificate method specifies the signer's certificate. This method was first defined in the IEnroll4 interface.helpviewer_keywords: ["IEnroll4 interface [Security]","SetSignerCertificate method","IEnroll4.SetSignerCertificate","IEnroll4::SetSignerCertificate","SetSignerCertificate","SetSignerCertificate method [Security]","SetSignerCertificate method [Security]","IEnroll4 interface","security.ienroll4_setsignercertificate","xenroll/IEnroll4::SetSignerCertificate"]
+description: The SetSignerCertificate method specifies the signer's certificate. This method was first defined in the IEnroll4 interface.
+helpviewer_keywords: ["IEnroll4 interface [Security]","SetSignerCertificate method","IEnroll4.SetSignerCertificate","IEnroll4::SetSignerCertificate","SetSignerCertificate","SetSignerCertificate method [Security]","SetSignerCertificate method [Security]","IEnroll4 interface","security.ienroll4_setsignercertificate","xenroll/IEnroll4::SetSignerCertificate"]
 old-location: security\ienroll4_setsignercertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1c970f6b-6b8f-4396-b59b-d6b58d52172b
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],SetSignerCertificate method, IEnroll4.SetSignerCertificate, IEnroll4::SetSignerCertificate, SetSignerCertificate, SetSignerCertificate method [Security], SetSignerCertificate method [Security],IEnroll4 interface, security.ienroll4_setsignercertificate, xenroll/IEnroll4::SetSignerCertificate

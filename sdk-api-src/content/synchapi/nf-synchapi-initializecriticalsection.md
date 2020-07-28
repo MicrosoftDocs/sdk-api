@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.InitializeCriticalSection
 title: InitializeCriticalSection function (synchapi.h)
-description: Initializes a critical section object.helpviewer_keywords: ["InitializeCriticalSection","InitializeCriticalSection function","_win32_initializecriticalsection","base.initializecriticalsection","synchapi/InitializeCriticalSection","winbase/InitializeCriticalSection"]
+description: Initializes a critical section object.
+helpviewer_keywords: ["InitializeCriticalSection","InitializeCriticalSection function","_win32_initializecriticalsection","base.initializecriticalsection","synchapi/InitializeCriticalSection","winbase/InitializeCriticalSection"]
 old-location: base\initializecriticalsection.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: ad4b182d-a65d-4890-9eda-fdd6d044f736
 ms.date: 12/05/2018
 ms.keywords: InitializeCriticalSection, InitializeCriticalSection function, _win32_initializecriticalsection, base.initializecriticalsection, synchapi/InitializeCriticalSection, winbase/InitializeCriticalSection

@@ -1,9 +1,10 @@
 ---
 UID: NS:dispatcherqueue.DispatcherQueueOptions
 title: DispatcherQueueOptions (dispatcherqueue.h)
-description: Specifies the threading and apartment type for a new DispatcherQueueController.helpviewer_keywords: ["DispatcherQueueOptions","DispatcherQueueOptions structure","base.dispatcherqueueoptions","dispatcherqueue/DispatcherQueueOptions"]
+description: Specifies the threading and apartment type for a new DispatcherQueueController.
+helpviewer_keywords: ["DispatcherQueueOptions","DispatcherQueueOptions structure","base.dispatcherqueueoptions","dispatcherqueue/DispatcherQueueOptions"]
 old-location: base\dispatcherqueueoptions.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
 ms.date: 12/05/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions

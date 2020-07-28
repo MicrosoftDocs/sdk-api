@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509ExtensionAuthorityKeyIdentifier
 title: IX509ExtensionAuthorityKeyIdentifier (certenroll.h)
-description: Enables you to specify an AuthorityKeyIdentifier extension.helpviewer_keywords: ["IX509ExtensionAuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier interface [Security]","IX509ExtensionAuthorityKeyIdentifier interface [Security]","described","certenroll/IX509ExtensionAuthorityKeyIdentifier","security.ix509extensionauthoritykeyidentifier"]
+description: Enables you to specify an AuthorityKeyIdentifier extension.
+helpviewer_keywords: ["IX509ExtensionAuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier interface [Security]","IX509ExtensionAuthorityKeyIdentifier interface [Security]","described","certenroll/IX509ExtensionAuthorityKeyIdentifier","security.ix509extensionauthoritykeyidentifier"]
 old-location: security\ix509extensionauthoritykeyidentifier.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 68889c3e-25ea-440a-a776-ef3d11dc6b54
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAuthorityKeyIdentifier, IX509ExtensionAuthorityKeyIdentifier interface [Security], IX509ExtensionAuthorityKeyIdentifier interface [Security],described, certenroll/IX509ExtensionAuthorityKeyIdentifier, security.ix509extensionauthoritykeyidentifier

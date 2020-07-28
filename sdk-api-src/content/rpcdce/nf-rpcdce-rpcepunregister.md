@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcEpUnregister
 title: RpcEpUnregister function (rpcdce.h)
-description: The RpcEpUnregister function removes server-address information from the local endpoint-map database.helpviewer_keywords: ["RpcEpUnregister","RpcEpUnregister function [RPC]","_rpc_rpcepunregister","rpc.rpcepunregister","rpcdce/RpcEpUnregister"]
+description: The RpcEpUnregister function removes server-address information from the local endpoint-map database.
+helpviewer_keywords: ["RpcEpUnregister","RpcEpUnregister function [RPC]","_rpc_rpcepunregister","rpc.rpcepunregister","rpcdce/RpcEpUnregister"]
 old-location: rpc\rpcepunregister.htm
 tech.root: Rpc
 ms.assetid: bb0485fc-0b25-4fc0-9a18-921a9de428ce

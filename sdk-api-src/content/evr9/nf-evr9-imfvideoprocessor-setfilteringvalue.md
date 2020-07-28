@@ -1,9 +1,10 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetFilteringValue
 title: IMFVideoProcessor::SetFilteringValue (evr9.h)
-description: Sets a parameter for an image filter.helpviewer_keywords: ["IMFVideoProcessor interface [Media Foundation]","SetFilteringValue method","IMFVideoProcessor.SetFilteringValue","IMFVideoProcessor::SetFilteringValue","SetFilteringValue","SetFilteringValue method [Media Foundation]","SetFilteringValue method [Media Foundation]","IMFVideoProcessor interface","cb3c9516-2083-4c9d-b583-fc561f977ed5","evr9/IMFVideoProcessor::SetFilteringValue","mf.imfvideoprocessor_setfilteringvalue"]
+description: Sets a parameter for an image filter.
+helpviewer_keywords: ["IMFVideoProcessor interface [Media Foundation]","SetFilteringValue method","IMFVideoProcessor.SetFilteringValue","IMFVideoProcessor::SetFilteringValue","SetFilteringValue","SetFilteringValue method [Media Foundation]","SetFilteringValue method [Media Foundation]","IMFVideoProcessor interface","cb3c9516-2083-4c9d-b583-fc561f977ed5","evr9/IMFVideoProcessor::SetFilteringValue","mf.imfvideoprocessor_setfilteringvalue"]
 old-location: mf\imfvideoprocessor_setfilteringvalue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cb3c9516-2083-4c9d-b583-fc561f977ed5
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue method, IMFVideoProcessor.SetFilteringValue, IMFVideoProcessor::SetFilteringValue, SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation],IMFVideoProcessor interface, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue

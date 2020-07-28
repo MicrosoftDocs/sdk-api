@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorLess
 title: XMVectorLess function (directxmath.h)
-description: Performs a per-component test for less-than between two vectors.helpviewer_keywords: ["Use DirectX..XMVectorLess","XMVectorLess","XMVectorLess method [DirectX Math Support APIs]","dxmath.xmvectorless"]
+description: Performs a per-component test for less-than between two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorLess","XMVectorLess","XMVectorLess method [DirectX Math Support APIs]","dxmath.xmvectorless"]
 old-location: dxmath\xmvectorless.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorLess(XMVECTOR,XMVECTOR)

@@ -1,9 +1,10 @@
 ---
 UID: NS:ntsecpkg._SECPKG_DLL_FUNCTIONS
 title: SECPKG_DLL_FUNCTIONS (ntsecpkg.h)
-description: The SECPKG_DLL_FUNCTIONS structure contains pointers to the LSA functions that a security package can call while executing in-process with a client/server application.helpviewer_keywords: ["*PSECPKG_DLL_FUNCTIONS","PSECPKG_DLL_FUNCTIONS","PSECPKG_DLL_FUNCTIONS structure pointer [Security]","SECPKG_DLL_FUNCTIONS","SECPKG_DLL_FUNCTIONS structure [Security]","_ssp_secpkg_dll_functions","ntsecpkg/PSECPKG_DLL_FUNCTIONS","ntsecpkg/SECPKG_DLL_FUNCTIONS","security.secpkg_dll_functions"]
+description: The SECPKG_DLL_FUNCTIONS structure contains pointers to the LSA functions that a security package can call while executing in-process with a client/server application.
+helpviewer_keywords: ["*PSECPKG_DLL_FUNCTIONS","PSECPKG_DLL_FUNCTIONS","PSECPKG_DLL_FUNCTIONS structure pointer [Security]","SECPKG_DLL_FUNCTIONS","SECPKG_DLL_FUNCTIONS structure [Security]","_ssp_secpkg_dll_functions","ntsecpkg/PSECPKG_DLL_FUNCTIONS","ntsecpkg/SECPKG_DLL_FUNCTIONS","security.secpkg_dll_functions"]
 old-location: security\secpkg_dll_functions.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a7881f06-792c-4791-9aa6-9a7eb202020b
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS structure pointer [Security], SECPKG_DLL_FUNCTIONS, SECPKG_DLL_FUNCTIONS structure [Security], _ssp_secpkg_dll_functions, ntsecpkg/PSECPKG_DLL_FUNCTIONS, ntsecpkg/SECPKG_DLL_FUNCTIONS, security.secpkg_dll_functions'

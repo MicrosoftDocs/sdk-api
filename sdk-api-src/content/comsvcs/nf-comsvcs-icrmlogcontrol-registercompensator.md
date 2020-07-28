@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.RegisterCompensator
 title: ICrmLogControl::RegisterCompensator (comsvcs.h)
-description: The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.helpviewer_keywords: ["ICrmLogControl interface [COM+]","RegisterCompensator method","ICrmLogControl.RegisterCompensator","ICrmLogControl::RegisterCompensator","RegisterCompensator","RegisterCompensator method [COM+]","RegisterCompensator method [COM+]","ICrmLogControl interface","_dtc_ICrmLogControl_RegisterCompensator","comsvcs/ICrmLogControl::RegisterCompensator","cos.icrmlogcontrol_registercompensator"]
+description: The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.
+helpviewer_keywords: ["ICrmLogControl interface [COM+]","RegisterCompensator method","ICrmLogControl.RegisterCompensator","ICrmLogControl::RegisterCompensator","RegisterCompensator","RegisterCompensator method [COM+]","RegisterCompensator method [COM+]","ICrmLogControl interface","_dtc_ICrmLogControl_RegisterCompensator","comsvcs/ICrmLogControl::RegisterCompensator","cos.icrmlogcontrol_registercompensator"]
 old-location: cos\icrmlogcontrol_registercompensator.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f7907dff-a4a1-4526-8dab-547e819199ec
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],RegisterCompensator method, ICrmLogControl.RegisterCompensator, ICrmLogControl::RegisterCompensator, RegisterCompensator, RegisterCompensator method [COM+], RegisterCompensator method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_RegisterCompensator, comsvcs/ICrmLogControl::RegisterCompensator, cos.icrmlogcontrol_registercompensator

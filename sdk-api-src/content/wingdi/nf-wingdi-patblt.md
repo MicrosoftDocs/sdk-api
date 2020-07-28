@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.PatBlt
 title: PatBlt function (wingdi.h)
-description: The PatBlt function paints the specified rectangle using the brush that is currently selected into the specified device context. The brush color and the surface color or colors are combined by using the specified raster operation.helpviewer_keywords: ["BLACKNESS","DSTINVERT","PATCOPY","PATINVERT","PatBlt","PatBlt function [Windows GDI]","WHITENESS","_win32_PatBlt","gdi.patblt","wingdi/PatBlt"]
+description: The PatBlt function paints the specified rectangle using the brush that is currently selected into the specified device context. The brush color and the surface color or colors are combined by using the specified raster operation.
+helpviewer_keywords: ["BLACKNESS","DSTINVERT","PATCOPY","PATINVERT","PatBlt","PatBlt function [Windows GDI]","WHITENESS","_win32_PatBlt","gdi.patblt","wingdi/PatBlt"]
 old-location: gdi\patblt.htm
 tech.root: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd

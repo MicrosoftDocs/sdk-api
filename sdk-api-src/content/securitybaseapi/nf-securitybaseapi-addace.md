@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.AddAce
 title: AddAce function (securitybaseapi.h)
-description: Adds one or more access control entries (ACEs) to a specified access control list (ACL).helpviewer_keywords: ["AddAce","AddAce function [Security]","_win32_addace","security.addace","securitybaseapi/AddAce"]
+description: Adds one or more access control entries (ACEs) to a specified access control list (ACL).
+helpviewer_keywords: ["AddAce","AddAce function [Security]","_win32_addace","security.addace","securitybaseapi/AddAce"]
 old-location: security\addace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f472d864-a273-49b5-b5e2-98772989971e
 ms.date: 12/05/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce

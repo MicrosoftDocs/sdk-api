@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetVersionNumber
 title: IISDB_CDT::GetVersionNumber (dvbsiparser.h)
-description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetVersionNumber method","IISDB_CDT.GetVersionNumber","IISDB_CDT::GetVersionNumber","dvbsiparser/IISDB_CDT::GetVersionNumber","mstv.iisdb_cdt_getversionnumber"]
+description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetVersionNumber method","IISDB_CDT.GetVersionNumber","IISDB_CDT::GetVersionNumber","dvbsiparser/IISDB_CDT::GetVersionNumber","mstv.iisdb_cdt_getversionnumber"]
 old-location: mstv\iisdb_cdt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 4c88ecdb-8e01-4fec-96f2-c67331b6d071

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_CryptAttributes
 title: IX509CertificateRequestCmc::get_CryptAttributes (certenroll.h)
-description: Retrieves an ICryptAttributes collection of optional certificate attributes.helpviewer_keywords: ["CryptAttributes property [Security]","CryptAttributes property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","CryptAttributes property","IX509CertificateRequestCmc.CryptAttributes","IX509CertificateRequestCmc.get_CryptAttributes","IX509CertificateRequestCmc::CryptAttributes","IX509CertificateRequestCmc::get_CryptAttributes","certenroll/IX509CertificateRequestCmc::CryptAttributes","certenroll/IX509CertificateRequestCmc::get_CryptAttributes","get_CryptAttributes","security.ix509certificaterequestcmc_cryptattributes_property"]
+description: Retrieves an ICryptAttributes collection of optional certificate attributes.
+helpviewer_keywords: ["CryptAttributes property [Security]","CryptAttributes property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","CryptAttributes property","IX509CertificateRequestCmc.CryptAttributes","IX509CertificateRequestCmc.get_CryptAttributes","IX509CertificateRequestCmc::CryptAttributes","IX509CertificateRequestCmc::get_CryptAttributes","certenroll/IX509CertificateRequestCmc::CryptAttributes","certenroll/IX509CertificateRequestCmc::get_CryptAttributes","get_CryptAttributes","security.ix509certificaterequestcmc_cryptattributes_property"]
 old-location: security\ix509certificaterequestcmc_cryptattributes_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 733d29d8-95ea-4193-99b0-a07fcf560435
 ms.date: 12/05/2018
 ms.keywords: CryptAttributes property [Security], CryptAttributes property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],CryptAttributes property, IX509CertificateRequestCmc.CryptAttributes, IX509CertificateRequestCmc.get_CryptAttributes, IX509CertificateRequestCmc::CryptAttributes, IX509CertificateRequestCmc::get_CryptAttributes, certenroll/IX509CertificateRequestCmc::CryptAttributes, certenroll/IX509CertificateRequestCmc::get_CryptAttributes, get_CryptAttributes, security.ix509certificaterequestcmc_cryptattributes_property

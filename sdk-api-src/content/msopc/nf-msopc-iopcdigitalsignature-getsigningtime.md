@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSigningTime
 title: IOpcDigitalSignature::GetSigningTime (msopc.h)
-description: Gets a string that indicates the time at which the signature was generated.helpviewer_keywords: ["GetSigningTime","GetSigningTime method [Open Packaging Conventions]","GetSigningTime method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSigningTime method","IOpcDigitalSignature.GetSigningTime","IOpcDigitalSignature::GetSigningTime","msopc/IOpcDigitalSignature::GetSigningTime","opc.iopcdigitalsignature_getsigningtime"]
+description: Gets a string that indicates the time at which the signature was generated.
+helpviewer_keywords: ["GetSigningTime","GetSigningTime method [Open Packaging Conventions]","GetSigningTime method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSigningTime method","IOpcDigitalSignature.GetSigningTime","IOpcDigitalSignature::GetSigningTime","msopc/IOpcDigitalSignature::GetSigningTime","opc.iopcdigitalsignature_getsigningtime"]
 old-location: opc\iopcdigitalsignature_getsigningtime.htm
 tech.root: OPC
 ms.assetid: 8054eba8-ca53-42e4-9105-ef7cf20637c1

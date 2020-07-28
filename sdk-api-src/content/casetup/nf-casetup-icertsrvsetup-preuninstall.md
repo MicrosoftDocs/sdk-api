@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PreUnInstall
 title: ICertSrvSetup::PreUnInstall (casetup.h)
-description: Temporarily saves role-specific state information and then it uninstalls the role.helpviewer_keywords: ["ICertSrvSetup interface [Security]","PreUnInstall method","ICertSrvSetup.PreUnInstall","ICertSrvSetup::PreUnInstall","PreUnInstall","PreUnInstall method [Security]","PreUnInstall method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::PreUnInstall","security.icertsrvsetup_preuninstall"]
+description: Temporarily saves role-specific state information and then it uninstalls the role.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","PreUnInstall method","ICertSrvSetup.PreUnInstall","ICertSrvSetup::PreUnInstall","PreUnInstall","PreUnInstall method [Security]","PreUnInstall method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::PreUnInstall","security.icertsrvsetup_preuninstall"]
 old-location: security\icertsrvsetup_preuninstall.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2872a7fb-fe96-4ace-b5f4-af88350835ab
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],PreUnInstall method, ICertSrvSetup.PreUnInstall, ICertSrvSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PreUnInstall, security.icertsrvsetup_preuninstall

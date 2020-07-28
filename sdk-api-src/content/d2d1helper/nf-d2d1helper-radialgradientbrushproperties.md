@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.RadialGradientBrushProperties
 title: RadialGradientBrushProperties function (d2d1helper.h)
-description: Creates a D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure.helpviewer_keywords: ["RadialGradientBrushProperties","RadialGradientBrushProperties function [Direct2D]","d2d1helper/RadialGradientBrushProperties","direct2d.radialgradientbrushproperties"]
+description: Creates a D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure.
+helpviewer_keywords: ["RadialGradientBrushProperties","RadialGradientBrushProperties function [Direct2D]","d2d1helper/RadialGradientBrushProperties","direct2d.radialgradientbrushproperties"]
 old-location: direct2d\radialgradientbrushproperties.htm
 tech.root: Direct2D
 ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc

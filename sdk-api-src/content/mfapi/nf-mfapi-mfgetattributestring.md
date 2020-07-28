@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFGetAttributeString
 title: MFGetAttributeString function (mfapi.h)
-description: Gets a string value from an attribute store.helpviewer_keywords: ["MFGetAttributeString","MFGetAttributeString function [Media Foundation]","mf.mfgetattributestring","mfapi/MFGetAttributeString"]
+description: Gets a string value from an attribute store.
+helpviewer_keywords: ["MFGetAttributeString","MFGetAttributeString function [Media Foundation]","mf.mfgetattributestring","mfapi/MFGetAttributeString"]
 old-location: mf\mfgetattributestring.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6CA416AB-5EA1-4A85-A421-1CDD3D111296
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundation], mf.mfgetattributestring, mfapi/MFGetAttributeString

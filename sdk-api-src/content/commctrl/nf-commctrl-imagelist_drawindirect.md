@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_DrawIndirect
 title: ImageList_DrawIndirect function (commctrl.h)
-description: Draws an image list image based on an IMAGELISTDRAWPARAMS structure.helpviewer_keywords: ["ImageList_DrawIndirect","ImageList_DrawIndirect function [Windows Controls]","_win32_ImageList_DrawIndirect","_win32_ImageList_DrawIndirect_cpp","commctrl/ImageList_DrawIndirect","controls.ImageList_DrawIndirect","controls._win32_ImageList_DrawIndirect"]
+description: Draws an image list image based on an IMAGELISTDRAWPARAMS structure.
+helpviewer_keywords: ["ImageList_DrawIndirect","ImageList_DrawIndirect function [Windows Controls]","_win32_ImageList_DrawIndirect","_win32_ImageList_DrawIndirect_cpp","commctrl/ImageList_DrawIndirect","controls.ImageList_DrawIndirect","controls._win32_ImageList_DrawIndirect"]
 old-location: controls\ImageList_DrawIndirect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawindirect.htm

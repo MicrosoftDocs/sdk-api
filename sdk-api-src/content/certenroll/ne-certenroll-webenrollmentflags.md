@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.WebEnrollmentFlags
 title: WebEnrollmentFlags (certenroll.h)
-description: Specifies web enrollment behavior.helpviewer_keywords: ["EnrollPrompt","WebEnrollmentFlags","WebEnrollmentFlags enumeration [Security]","certenroll/EnrollPrompt","certenroll/WebEnrollmentFlags","security.webenrollmentflags"]
+description: Specifies web enrollment behavior.
+helpviewer_keywords: ["EnrollPrompt","WebEnrollmentFlags","WebEnrollmentFlags enumeration [Security]","certenroll/EnrollPrompt","certenroll/WebEnrollmentFlags","security.webenrollmentflags"]
 old-location: security\webenrollmentflags.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 3b5940c4-f262-498e-82ab-c56af13afd06
 ms.date: 12/05/2018
 ms.keywords: EnrollPrompt, WebEnrollmentFlags, WebEnrollmentFlags enumeration [Security], certenroll/EnrollPrompt, certenroll/WebEnrollmentFlags, security.webenrollmentflags

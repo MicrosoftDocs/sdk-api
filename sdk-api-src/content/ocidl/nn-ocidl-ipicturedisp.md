@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IPictureDisp
 title: IPictureDisp (ocidl.h)
-description: Exposes the picture object's properties through Automation. It provides a subset of the functionality available through IPicture methods.helpviewer_keywords: ["IPictureDisp","IPictureDisp interface [COM]","IPictureDisp interface [COM]","described","_ctrl_ipicturedisp","com.ipicturedisp","ocidl/IPictureDisp"]
+description: Exposes the picture object's properties through Automation. It provides a subset of the functionality available through IPicture methods.
+helpviewer_keywords: ["IPictureDisp","IPictureDisp interface [COM]","IPictureDisp interface [COM]","described","_ctrl_ipicturedisp","com.ipicturedisp","ocidl/IPictureDisp"]
 old-location: com\ipicturedisp.htm
 tech.root: com
 ms.assetid: 42efa5a3-66af-4432-a2fd-616261b1f407

@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IAMStats.GetValueByName
 title: IAMStats::GetValueByName (control.h)
-description: The GetValueByName method retrieves a statistic, by name.helpviewer_keywords: ["GetValueByName","GetValueByName method [DirectShow]","GetValueByName method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","GetValueByName method","IAMStats.GetValueByName","IAMStats::GetValueByName","IAMStatsGetValueByName","control/IAMStats::GetValueByName","dshow.iamstats_getvaluebyname"]
+description: The GetValueByName method retrieves a statistic, by name.
+helpviewer_keywords: ["GetValueByName","GetValueByName method [DirectShow]","GetValueByName method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","GetValueByName method","IAMStats.GetValueByName","IAMStats::GetValueByName","IAMStatsGetValueByName","control/IAMStats::GetValueByName","dshow.iamstats_getvaluebyname"]
 old-location: dshow\iamstats_getvaluebyname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c380deb0-bd49-4191-8218-d05aef39cb15
 ms.date: 12/05/2018
 ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByName method, IAMStats.GetValueByName, IAMStats::GetValueByName, IAMStatsGetValueByName, control/IAMStats::GetValueByName, dshow.iamstats_getvaluebyname

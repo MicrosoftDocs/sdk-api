@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.BreakSnapshotSet
 title: IVssBackupComponents::BreakSnapshotSet (vsbackup.h)
-description: The BreakSnapshotSet method causes the existence of a shadow copy set to be &#0034;forgotten&#0034; by VSS.helpviewer_keywords: ["BreakSnapshotSet","BreakSnapshotSet method [VSS]","BreakSnapshotSet method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","BreakSnapshotSet method","IVssBackupComponents.BreakSnapshotSet","IVssBackupComponents::BreakSnapshotSet","_win32_ivssbackupcomponents_breaksnapshotset","base.ivssbackupcomponents_breaksnapshotset","vsbackup/IVssBackupComponents::BreakSnapshotSet"]
+description: The BreakSnapshotSet method causes the existence of a shadow copy set to be &quot;forgotten&quot; by VSS.
+helpviewer_keywords: ["BreakSnapshotSet","BreakSnapshotSet method [VSS]","BreakSnapshotSet method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","BreakSnapshotSet method","IVssBackupComponents.BreakSnapshotSet","IVssBackupComponents::BreakSnapshotSet","_win32_ivssbackupcomponents_breaksnapshotset","base.ivssbackupcomponents_breaksnapshotset","vsbackup/IVssBackupComponents::BreakSnapshotSet"]
 old-location: base\ivssbackupcomponents_breaksnapshotset.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 8c366f19-b10f-46cd-b5dc-cc3c77c5a008
 ms.date: 12/05/2018
 ms.keywords: BreakSnapshotSet, BreakSnapshotSet method [VSS], BreakSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BreakSnapshotSet method, IVssBackupComponents.BreakSnapshotSet, IVssBackupComponents::BreakSnapshotSet, _win32_ivssbackupcomponents_breaksnapshotset, base.ivssbackupcomponents_breaksnapshotset, vsbackup/IVssBackupComponents::BreakSnapshotSet

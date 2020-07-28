@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.ClearEventLogW
 title: ClearEventLogW function (winbase.h)
-description: Clears the specified event log, and optionally saves the current copy of the log to a backup file.helpviewer_keywords: ["ClearEventLog","ClearEventLog function","ClearEventLogA","ClearEventLogW","_win32_cleareventlog","base.cleareventlog","winbase/ClearEventLog","winbase/ClearEventLogA","winbase/ClearEventLogW"]
+description: Clears the specified event log, and optionally saves the current copy of the log to a backup file.
+helpviewer_keywords: ["ClearEventLog","ClearEventLog function","ClearEventLogA","ClearEventLogW","_win32_cleareventlog","base.cleareventlog","winbase/ClearEventLog","winbase/ClearEventLogA","winbase/ClearEventLogW"]
 old-location: base\cleareventlog.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
 ms.date: 12/05/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
@@ -96,6 +97,10 @@ After this function returns, any handles that reference the cleared event log ca
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines ClearEventLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

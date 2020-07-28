@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate3.get_BrowseOnly
 title: IUpdate3::get_BrowseOnly (wuapi.h)
-description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.helpviewer_keywords: ["BrowseOnly property [Windows Update Agent]","BrowseOnly property [Windows Update Agent]","IUpdate3 interface","IUpdate3 interface [Windows Update Agent]","BrowseOnly property","IUpdate3.BrowseOnly","IUpdate3.get_BrowseOnly","IUpdate3::BrowseOnly","IUpdate3::get_BrowseOnly","get_BrowseOnly","wua.iupdate3_browseonly","wuapi/IUpdate3::BrowseOnly","wuapi/IUpdate3::get_BrowseOnly"]
+description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.
+helpviewer_keywords: ["BrowseOnly property [Windows Update Agent]","BrowseOnly property [Windows Update Agent]","IUpdate3 interface","IUpdate3 interface [Windows Update Agent]","BrowseOnly property","IUpdate3.BrowseOnly","IUpdate3.get_BrowseOnly","IUpdate3::BrowseOnly","IUpdate3::get_BrowseOnly","get_BrowseOnly","wua.iupdate3_browseonly","wuapi/IUpdate3::BrowseOnly","wuapi/IUpdate3::get_BrowseOnly"]
 old-location: wua\iupdate3_browseonly.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a1b5a225-6089-48f6-903c-0eb0539ca157
 ms.date: 12/05/2018
 ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IUpdate3 interface, IUpdate3 interface [Windows Update Agent],BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3.get_BrowseOnly, IUpdate3::BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly

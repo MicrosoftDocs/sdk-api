@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IVMRImageCompositor
 title: IVMRImageCompositor (strmif.h)
-description: The IVMRImageCompositor interface is implemented by the default compositor for the Video Mixing Renderer Filter 7 (VMR-7).helpviewer_keywords: ["IVMRImageCompositor","IVMRImageCompositor interface [DirectShow]","IVMRImageCompositor interface [DirectShow]","described","IVMRImageCompositorInterface","dshow.ivmrimagecompositor","strmif/IVMRImageCompositor"]
+description: The IVMRImageCompositor interface is implemented by the default compositor for the Video Mixing Renderer Filter 7 (VMR-7).
+helpviewer_keywords: ["IVMRImageCompositor","IVMRImageCompositor interface [DirectShow]","IVMRImageCompositor interface [DirectShow]","described","IVMRImageCompositorInterface","dshow.ivmrimagecompositor","strmif/IVMRImageCompositor"]
 old-location: dshow\ivmrimagecompositor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d905e871-c156-4140-bb3f-a19fa0cd79be
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], IVMRImageCompositor interface [DirectShow],described, IVMRImageCompositorInterface, dshow.ivmrimagecompositor, strmif/IVMRImageCompositor

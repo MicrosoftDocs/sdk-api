@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesResults.get_LastSearchSuccessDate
 title: IAutomaticUpdatesResults::get_LastSearchSuccessDate (wuapi.h)
-description: Gets the last time and Coordinated Universal Time (UTC) date when AutomaticUpdates successfully searched for updates.helpviewer_keywords: ["IAutomaticUpdatesResults interface [Windows Update Agent]","LastSearchSuccessDate property","IAutomaticUpdatesResults.LastSearchSuccessDate","IAutomaticUpdatesResults.get_LastSearchSuccessDate","IAutomaticUpdatesResults::LastSearchSuccessDate","IAutomaticUpdatesResults::get_LastSearchSuccessDate","LastSearchSuccessDate property [Windows Update Agent]","LastSearchSuccessDate property [Windows Update Agent]","IAutomaticUpdatesResults interface","get_LastSearchSuccessDate","wua.iautomaticupdatesresults_lastsearchsuccessdate","wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate","wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate"]
+description: Gets the last time and Coordinated Universal Time (UTC) date when AutomaticUpdates successfully searched for updates.
+helpviewer_keywords: ["IAutomaticUpdatesResults interface [Windows Update Agent]","LastSearchSuccessDate property","IAutomaticUpdatesResults.LastSearchSuccessDate","IAutomaticUpdatesResults.get_LastSearchSuccessDate","IAutomaticUpdatesResults::LastSearchSuccessDate","IAutomaticUpdatesResults::get_LastSearchSuccessDate","LastSearchSuccessDate property [Windows Update Agent]","LastSearchSuccessDate property [Windows Update Agent]","IAutomaticUpdatesResults interface","get_LastSearchSuccessDate","wua.iautomaticupdatesresults_lastsearchsuccessdate","wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate","wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate"]
 old-location: wua\iautomaticupdatesresults_lastsearchsuccessdate.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 3c053888-be91-45e9-a5da-182f18e07710
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastSearchSuccessDate property, IAutomaticUpdatesResults.LastSearchSuccessDate, IAutomaticUpdatesResults.get_LastSearchSuccessDate, IAutomaticUpdatesResults::LastSearchSuccessDate, IAutomaticUpdatesResults::get_LastSearchSuccessDate, LastSearchSuccessDate property [Windows Update Agent], LastSearchSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastSearchSuccessDate, wua.iautomaticupdatesresults_lastsearchsuccessdate, wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate

@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsprint.IXpsPrintJob
 title: IXpsPrintJob (xpsprint.h)
-description: Provides access to a print job that is currently in progress.helpviewer_keywords: ["IXpsPrintJob","IXpsPrintJob interface [Windows GDI]","IXpsPrintJob interface [Windows GDI]","described","gdi.ixpsprintjob","xpsprint/IXpsPrintJob"]
+description: Provides access to a print job that is currently in progress.
+helpviewer_keywords: ["IXpsPrintJob","IXpsPrintJob interface [Windows GDI]","IXpsPrintJob interface [Windows GDI]","described","gdi.ixpsprintjob","xpsprint/IXpsPrintJob"]
 old-location: gdi\ixpsprintjob.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: aa17e059-6208-4348-87f3-556a3818f2b9
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJob, IXpsPrintJob interface [Windows GDI], IXpsPrintJob interface [Windows GDI],described, gdi.ixpsprintjob, xpsprint/IXpsPrintJob

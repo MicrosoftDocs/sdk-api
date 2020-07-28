@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecUpdated
 title: IOfflineFilesEvents::SyncConflictRecUpdated (cscobj.h)
-description: Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","SyncConflictRecUpdated method","IOfflineFilesEvents.SyncConflictRecUpdated","IOfflineFilesEvents::SyncConflictRecUpdated","SyncConflictRecUpdated","SyncConflictRecUpdated method [Offline Files]","SyncConflictRecUpdated method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::SyncConflictRecUpdated","of.iofflinefilesevents_syncconflictrecupdated"]
+description: Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","SyncConflictRecUpdated method","IOfflineFilesEvents.SyncConflictRecUpdated","IOfflineFilesEvents::SyncConflictRecUpdated","SyncConflictRecUpdated","SyncConflictRecUpdated method [Offline Files]","SyncConflictRecUpdated method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::SyncConflictRecUpdated","of.iofflinefilesevents_syncconflictrecupdated"]
 old-location: of\iofflinefilesevents_syncconflictrecupdated.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: adf13e95-bcb0-4f84-bbb9-9648f90f3be8
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecUpdated method, IOfflineFilesEvents.SyncConflictRecUpdated, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated

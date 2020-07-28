@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertPropertyBackedUp
 title: ICertPropertyBackedUp (certenroll.h)
-description: Represents an external certificate property that identifies whether a certificate has been backed up and, if so, the date and time that it was saved.helpviewer_keywords: ["ICertPropertyBackedUp","ICertPropertyBackedUp interface [Security]","ICertPropertyBackedUp interface [Security]","described","certenroll/ICertPropertyBackedUp","security.icertpropertybackedup"]
+description: Represents an external certificate property that identifies whether a certificate has been backed up and, if so, the date and time that it was saved.
+helpviewer_keywords: ["ICertPropertyBackedUp","ICertPropertyBackedUp interface [Security]","ICertPropertyBackedUp interface [Security]","described","certenroll/ICertPropertyBackedUp","security.icertpropertybackedup"]
 old-location: security\icertpropertybackedup.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9c694991-6f2d-420e-9f9f-5a36b10c39aa
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security],described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetMiterLimit
 title: SetMiterLimit function (wingdi.h)
-description: The SetMiterLimit function sets the limit for the length of miter joins for the specified device context.helpviewer_keywords: ["SetMiterLimit","SetMiterLimit function [Windows GDI]","_win32_SetMiterLimit","gdi.setmiterlimit","wingdi/SetMiterLimit"]
+description: The SetMiterLimit function sets the limit for the length of miter joins for the specified device context.
+helpviewer_keywords: ["SetMiterLimit","SetMiterLimit function [Windows GDI]","_win32_SetMiterLimit","gdi.setmiterlimit","wingdi/SetMiterLimit"]
 old-location: gdi\setmiterlimit.htm
 tech.root: gdi
 ms.assetid: 4bed113b-9e3f-441f-96d7-71630bf9298e

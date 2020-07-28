@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.get_IsSelected
 title: ISelectionItemProvider::get_IsSelected (uiautomationcore.h)
-description: Indicates whether an item is selected.helpviewer_keywords: ["ISelectionItemProvider interface [Windows Accessibility]","IsSelected property","ISelectionItemProvider.IsSelected","ISelectionItemProvider.get_IsSelected","ISelectionItemProvider::IsSelected","ISelectionItemProvider::get_IsSelected","IsSelected property [Windows Accessibility]","IsSelected property [Windows Accessibility]","ISelectionItemProvider interface","get_IsSelected","uiauto.uiauto_ISelectionItemProvider_IsSelected","uiauto_ISelectionItemProvider_IsSelected","uiautomationcore/ISelectionItemProvider::IsSelected","uiautomationcore/ISelectionItemProvider::get_IsSelected","winauto.uiauto_ISelectionItemProvider_IsSelected"]
+description: Indicates whether an item is selected.
+helpviewer_keywords: ["ISelectionItemProvider interface [Windows Accessibility]","IsSelected property","ISelectionItemProvider.IsSelected","ISelectionItemProvider.get_IsSelected","ISelectionItemProvider::IsSelected","ISelectionItemProvider::get_IsSelected","IsSelected property [Windows Accessibility]","IsSelected property [Windows Accessibility]","ISelectionItemProvider interface","get_IsSelected","uiauto.uiauto_ISelectionItemProvider_IsSelected","uiauto_ISelectionItemProvider_IsSelected","uiautomationcore/ISelectionItemProvider::IsSelected","uiautomationcore/ISelectionItemProvider::get_IsSelected","winauto.uiauto_ISelectionItemProvider_IsSelected"]
 old-location: winauto\uiauto_ISelectionItemProvider_IsSelected.htm
 tech.root: WinAuto
 ms.assetid: 15172a66-385a-437e-8f79-a696708971e3

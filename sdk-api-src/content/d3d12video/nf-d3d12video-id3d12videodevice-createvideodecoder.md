@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice.CreateVideoDecoder
 title: ID3D12VideoDevice::CreateVideoDecoder
-description: Creates a video decoder instance.helpviewer_keywords: ["ID3D12VideoDevice::CreateVideoDecoder","CreateVideoDecoder","ID3D12VideoDevice.CreateVideoDecoder","ID3D12VideoDevice::CreateVideoDecoder","ID3D12VideoDevice.CreateVideoDecoder"]
+description: Creates a video decoder instance.
+helpviewer_keywords: ["ID3D12VideoDevice::CreateVideoDecoder","CreateVideoDecoder","ID3D12VideoDevice.CreateVideoDecoder","ID3D12VideoDevice::CreateVideoDecoder","ID3D12VideoDevice.CreateVideoDecoder"]
 tech.root: mf
 ms.assetid: 13e547db-b7b9-4664-9859-ba76d7eaac10
 ms.date: 05/28/2019

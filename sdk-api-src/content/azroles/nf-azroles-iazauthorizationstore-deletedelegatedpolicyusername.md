@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUserName
 title: IAzAuthorizationStore::DeleteDelegatedPolicyUserName (azroles.h)
-description: Removes the specified account name from the list of principals that act as delegated policy users.helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeleteDelegatedPolicyUserName method","DeleteDelegatedPolicyUserName","DeleteDelegatedPolicyUserName method [Security]","DeleteDelegatedPolicyUserName method [Security]","AzAuthorizationStore object","DeleteDelegatedPolicyUserName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeleteDelegatedPolicyUserName method","IAzAuthorizationStore.DeleteDelegatedPolicyUserName","IAzAuthorizationStore::DeleteDelegatedPolicyUserName","azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUserName","security.azauthorizationstore_deletedelegatedpolicyusername"]
+description: Removes the specified account name from the list of principals that act as delegated policy users.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeleteDelegatedPolicyUserName method","DeleteDelegatedPolicyUserName","DeleteDelegatedPolicyUserName method [Security]","DeleteDelegatedPolicyUserName method [Security]","AzAuthorizationStore object","DeleteDelegatedPolicyUserName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeleteDelegatedPolicyUserName method","IAzAuthorizationStore.DeleteDelegatedPolicyUserName","IAzAuthorizationStore::DeleteDelegatedPolicyUserName","azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUserName","security.azauthorizationstore_deletedelegatedpolicyusername"]
 old-location: security\azauthorizationstore_deletedelegatedpolicyusername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a2e7523a-41d3-4fb5-b455-588e0618f51f
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUserName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUserName method, IAzAuthorizationStore.DeleteDelegatedPolicyUserName, IAzAuthorizationStore::DeleteDelegatedPolicyUserName, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUserName, security.azauthorizationstore_deletedelegatedpolicyusername

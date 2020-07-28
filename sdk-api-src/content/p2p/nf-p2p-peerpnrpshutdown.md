@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerPnrpShutdown
 title: PeerPnrpShutdown function (p2p.h)
-description: Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.helpviewer_keywords: ["PeerPnrpShutdown","PeerPnrpShutdown function [Peer Networking]","p2p.peerpnrpshutdown","p2p/PeerPnrpShutdown"]
+description: Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
+helpviewer_keywords: ["PeerPnrpShutdown","PeerPnrpShutdown function [Peer Networking]","p2p.peerpnrpshutdown","p2p/PeerPnrpShutdown"]
 old-location: p2p\peerpnrpshutdown.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e617fb5b-ace2-46b4-b165-4cd9cf891ac7
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpShutdown, PeerPnrpShutdown function [Peer Networking], p2p.peerpnrpshutdown, p2p/PeerPnrpShutdown

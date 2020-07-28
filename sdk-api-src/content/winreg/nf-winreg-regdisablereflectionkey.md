@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegDisableReflectionKey
 title: RegDisableReflectionKey function (winreg.h)
-description: Disables registry reflection for the specified key. Disabling reflection for a key does not affect reflection of any subkeys.helpviewer_keywords: ["RegDisableReflectionKey","RegDisableReflectionKey function","base.regdisablereflectionkey","winreg/RegDisableReflectionKey"]
+description: Disables registry reflection for the specified key. Disabling reflection for a key does not affect reflection of any subkeys.
+helpviewer_keywords: ["RegDisableReflectionKey","RegDisableReflectionKey function","base.regdisablereflectionkey","winreg/RegDisableReflectionKey"]
 old-location: base\regdisablereflectionkey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 294a1d28-d09f-44a3-8bc0-6fae50c3a8f8
 ms.date: 12/05/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey

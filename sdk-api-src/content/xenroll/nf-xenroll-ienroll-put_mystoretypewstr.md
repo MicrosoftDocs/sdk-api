@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreTypeWStr
 title: IEnroll::put_MyStoreTypeWStr (xenroll.h)
-description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property.helpviewer_keywords: ["IEnroll interface [Security]","MyStoreTypeWStr property","IEnroll.MyStoreTypeWStr","IEnroll.put_MyStoreTypeWStr","IEnroll::MyStoreTypeWStr","IEnroll::get_MyStoreTypeWStr","IEnroll::put_MyStoreTypeWStr","MyStoreTypeWStr property [Security]","MyStoreTypeWStr property [Security]","IEnroll interface","put_MyStoreTypeWStr","security.ienroll4_mystoretypewstr","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/IEnroll::MyStoreTypeWStr","xenroll/IEnroll::get_MyStoreTypeWStr","xenroll/IEnroll::put_MyStoreTypeWStr"]
+description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property.
+helpviewer_keywords: ["IEnroll interface [Security]","MyStoreTypeWStr property","IEnroll.MyStoreTypeWStr","IEnroll.put_MyStoreTypeWStr","IEnroll::MyStoreTypeWStr","IEnroll::get_MyStoreTypeWStr","IEnroll::put_MyStoreTypeWStr","MyStoreTypeWStr property [Security]","MyStoreTypeWStr property [Security]","IEnroll interface","put_MyStoreTypeWStr","security.ienroll4_mystoretypewstr","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/IEnroll::MyStoreTypeWStr","xenroll/IEnroll::get_MyStoreTypeWStr","xenroll/IEnroll::put_MyStoreTypeWStr"]
 old-location: security\ienroll4_mystoretypewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 46f95ae3-efd2-4545-b31d-df04112aa737
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreTypeWStr property, IEnroll.MyStoreTypeWStr, IEnroll.put_MyStoreTypeWStr, IEnroll::MyStoreTypeWStr, IEnroll::get_MyStoreTypeWStr, IEnroll::put_MyStoreTypeWStr, MyStoreTypeWStr property [Security], MyStoreTypeWStr property [Security],IEnroll interface, put_MyStoreTypeWStr, security.ienroll4_mystoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::MyStoreTypeWStr, xenroll/IEnroll::get_MyStoreTypeWStr, xenroll/IEnroll::put_MyStoreTypeWStr

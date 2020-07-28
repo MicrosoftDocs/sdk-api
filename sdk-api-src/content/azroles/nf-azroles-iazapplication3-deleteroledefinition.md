@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication3.DeleteRoleDefinition
 title: IAzApplication3::DeleteRoleDefinition (azroles.h)
-description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.helpviewer_keywords: ["DeleteRoleDefinition","DeleteRoleDefinition method [Security]","DeleteRoleDefinition method [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","DeleteRoleDefinition method","IAzApplication3.DeleteRoleDefinition","IAzApplication3::DeleteRoleDefinition","azroles/IAzApplication3::DeleteRoleDefinition","security.iazapplication3_deleteroledefinition"]
+description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.
+helpviewer_keywords: ["DeleteRoleDefinition","DeleteRoleDefinition method [Security]","DeleteRoleDefinition method [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","DeleteRoleDefinition method","IAzApplication3.DeleteRoleDefinition","IAzApplication3::DeleteRoleDefinition","azroles/IAzApplication3::DeleteRoleDefinition","security.iazapplication3_deleteroledefinition"]
 old-location: security\iazapplication3_deleteroledefinition.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 34dc0bb8-1a44-418a-9b2c-f506f21f6ab1
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleDefinition method, IAzApplication3.DeleteRoleDefinition, IAzApplication3::DeleteRoleDefinition, azroles/IAzApplication3::DeleteRoleDefinition, security.iazapplication3_deleteroledefinition

@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_PeerIP
 title: IRDPSRAPITcpConnectionInfo::get_PeerIP (rdpencomapi.h)
-description: Retrieves the remote IP address that is being used by the sharer or by the viewer in communication.helpviewer_keywords: ["IRDPSRAPITcpConnectionInfo interface [RDP]","PeerIP property","IRDPSRAPITcpConnectionInfo.PeerIP","IRDPSRAPITcpConnectionInfo.get_PeerIP","IRDPSRAPITcpConnectionInfo::PeerIP","IRDPSRAPITcpConnectionInfo::get_PeerIP","PeerIP property [RDP]","PeerIP property [RDP]","IRDPSRAPITcpConnectionInfo interface","PeerIP property [RDP]","RDPSRAPITcpConnectionInfo object","RDPSRAPITcpConnectionInfo object [RDP]","PeerIP property","get_PeerIP","rdp.irdpsrapitcpconnectioninfo_peerip","rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerIP","rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerIP"]
+description: Retrieves the remote IP address that is being used by the sharer or by the viewer in communication.
+helpviewer_keywords: ["IRDPSRAPITcpConnectionInfo interface [RDP]","PeerIP property","IRDPSRAPITcpConnectionInfo.PeerIP","IRDPSRAPITcpConnectionInfo.get_PeerIP","IRDPSRAPITcpConnectionInfo::PeerIP","IRDPSRAPITcpConnectionInfo::get_PeerIP","PeerIP property [RDP]","PeerIP property [RDP]","IRDPSRAPITcpConnectionInfo interface","PeerIP property [RDP]","RDPSRAPITcpConnectionInfo object","RDPSRAPITcpConnectionInfo object [RDP]","PeerIP property","get_PeerIP","rdp.irdpsrapitcpconnectioninfo_peerip","rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerIP","rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerIP"]
 old-location: rdp\irdpsrapitcpconnectioninfo_peerip.htm
 tech.root: rdp
 ms.assetid: 864b9488-9307-427d-8a11-2d9b5dd10b6a

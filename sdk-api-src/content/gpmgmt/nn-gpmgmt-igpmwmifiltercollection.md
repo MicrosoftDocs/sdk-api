@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMWMIFilterCollection
 title: IGPMWMIFilterCollection (gpmgmt.h)
-description: The IGPMWMIFilterCollection interface contains methods that enable applications to access a collection of WMI filters when using the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMWMIFilterCollection","IGPMWMIFilterCollection","IGPMWMIFilterCollection interface [GPMC]","IGPMWMIFilterCollection interface [GPMC]","described","_win32_igpmwmifiltercollection","gpmc.igpmwmifiltercollection","gpmgmt/IGPMWMIFilterCollection"]
+description: The IGPMWMIFilterCollection interface contains methods that enable applications to access a collection of WMI filters when using the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["GPMWMIFilterCollection","IGPMWMIFilterCollection","IGPMWMIFilterCollection interface [GPMC]","IGPMWMIFilterCollection interface [GPMC]","described","_win32_igpmwmifiltercollection","gpmc.igpmwmifiltercollection","gpmgmt/IGPMWMIFilterCollection"]
 old-location: gpmc\igpmwmifiltercollection.htm
 tech.root: gpmc
 ms.assetid: 8f65e6f6-fca3-46b7-aa0d-804470feb5bb

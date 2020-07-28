@@ -1,7 +1,8 @@
 ---
 UID: NE:dxgi1_5.DXGI_FEATURE
 title: DXGI_FEATURE (dxgi1_5.h)
-description: Specifies a range of hardware features, to be used when checking for feature support.helpviewer_keywords: ["DXGI_FEATURE","DXGI_FEATURE enumeration [DXGI]","DXGI_FEATURE_PRESENT_ALLOW_TEARING","direct3ddxgi.dxgi_feature","dxgi1_5/DXGI_FEATURE","dxgi1_5/DXGI_FEATURE_PRESENT_ALLOW_TEARING"]
+description: Specifies a range of hardware features, to be used when checking for feature support.
+helpviewer_keywords: ["DXGI_FEATURE","DXGI_FEATURE enumeration [DXGI]","DXGI_FEATURE_PRESENT_ALLOW_TEARING","direct3ddxgi.dxgi_feature","dxgi1_5/DXGI_FEATURE","dxgi1_5/DXGI_FEATURE_PRESENT_ALLOW_TEARING"]
 old-location: direct3ddxgi\dxgi_feature.htm
 tech.root: direct3ddxgi
 ms.assetid: 207D5BDC-5D10-4F84-931F-4812574FA74B

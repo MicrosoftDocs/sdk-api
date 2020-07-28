@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateInstance
 title: IMFMediaEngineClassFactory::CreateInstance (mfmediaengine.h)
-description: Creates a new instance of the Media Engine.helpviewer_keywords: ["CreateInstance","CreateInstance method [Media Foundation]","CreateInstance method [Media Foundation]","IMFMediaEngineClassFactory interface","IMFMediaEngineClassFactory interface [Media Foundation]","CreateInstance method","IMFMediaEngineClassFactory.CreateInstance","IMFMediaEngineClassFactory::CreateInstance","mf.imfmediaengineclassfactory_createinstance","mfmediaengine/IMFMediaEngineClassFactory::CreateInstance"]
+description: Creates a new instance of the Media Engine.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Media Foundation]","CreateInstance method [Media Foundation]","IMFMediaEngineClassFactory interface","IMFMediaEngineClassFactory interface [Media Foundation]","CreateInstance method","IMFMediaEngineClassFactory.CreateInstance","IMFMediaEngineClassFactory::CreateInstance","mf.imfmediaengineclassfactory_createinstance","mfmediaengine/IMFMediaEngineClassFactory::CreateInstance"]
 old-location: mf\imfmediaengineclassfactory_createinstance.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance

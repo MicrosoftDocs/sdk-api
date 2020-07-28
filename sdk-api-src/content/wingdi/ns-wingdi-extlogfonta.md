@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEXTLOGFONTA
 title: EXTLOGFONTA (wingdi.h)
-description: The EXTLOGFONT structure defines the attributes of a font.helpviewer_keywords: ["*LPEXTLOGFONTA","*NPEXTLOGFONTA","*PEXTLOGFONTA","EXTLOGFONT","EXTLOGFONT structure [Windows GDI]","EXTLOGFONTA","EXTLOGFONTW","PEXTLOGFONT","PEXTLOGFONT structure pointer [Windows GDI]","_win32_EXTLOGFONT_str","gdi.extlogfont","wingdi/EXTLOGFONT","wingdi/EXTLOGFONTA","wingdi/EXTLOGFONTW","wingdi/PEXTLOGFONT"]
+description: The EXTLOGFONT structure defines the attributes of a font.
+helpviewer_keywords: ["*LPEXTLOGFONTA","*NPEXTLOGFONTA","*PEXTLOGFONTA","EXTLOGFONT","EXTLOGFONT structure [Windows GDI]","EXTLOGFONTA","EXTLOGFONTW","PEXTLOGFONT","PEXTLOGFONT structure pointer [Windows GDI]","_win32_EXTLOGFONT_str","gdi.extlogfont","wingdi/EXTLOGFONT","wingdi/EXTLOGFONTA","wingdi/EXTLOGFONTW","wingdi/PEXTLOGFONT"]
 old-location: gdi\extlogfont.htm
 tech.root: gdi
 ms.assetid: 19f6364e-3347-45b6-be02-e2cc69a7145a
@@ -133,4 +134,9 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-panos
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wingdi.h header defines EXTLOGFONT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

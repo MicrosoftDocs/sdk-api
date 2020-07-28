@@ -1,9 +1,10 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetProcAmpRange
 title: IMFVideoProcessor::GetProcAmpRange (evr9.h)
-description: Retrieves the range of values for a color adjustment (ProcAmp) setting.helpviewer_keywords: ["03894bfe-020a-4478-af6f-88521d4bbb6d","GetProcAmpRange","GetProcAmpRange method [Media Foundation]","GetProcAmpRange method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetProcAmpRange method","IMFVideoProcessor.GetProcAmpRange","IMFVideoProcessor::GetProcAmpRange","evr9/IMFVideoProcessor::GetProcAmpRange","mf.imfvideoprocessor_getprocamprange"]
+description: Retrieves the range of values for a color adjustment (ProcAmp) setting.
+helpviewer_keywords: ["03894bfe-020a-4478-af6f-88521d4bbb6d","GetProcAmpRange","GetProcAmpRange method [Media Foundation]","GetProcAmpRange method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetProcAmpRange method","IMFVideoProcessor.GetProcAmpRange","IMFVideoProcessor::GetProcAmpRange","evr9/IMFVideoProcessor::GetProcAmpRange","mf.imfvideoprocessor_getprocamprange"]
 old-location: mf\imfvideoprocessor_getprocamprange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 03894bfe-020a-4478-af6f-88521d4bbb6d
 ms.date: 12/05/2018
 ms.keywords: 03894bfe-020a-4478-af6f-88521d4bbb6d, GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpRange method, IMFVideoProcessor.GetProcAmpRange, IMFVideoProcessor::GetProcAmpRange, evr9/IMFVideoProcessor::GetProcAmpRange, mf.imfvideoprocessor_getprocamprange

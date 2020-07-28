@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnPreViewCreated
 title: ICommDlgBrowser3::OnPreViewCreated (shobjidl.h)
-description: Called after a specified preview is created in the IShellView interface.helpviewer_keywords: ["ICommDlgBrowser3 interface [Windows Shell]","OnPreViewCreated method","ICommDlgBrowser3.OnPreViewCreated","ICommDlgBrowser3::OnPreViewCreated","OnPreViewCreated","OnPreViewCreated method [Windows Shell]","OnPreViewCreated method [Windows Shell]","ICommDlgBrowser3 interface","_shell_ICommDlgBrowser3_OnPreViewCreated","shell.ICommDlgBrowser3_OnPreViewCreated","shobjidl/ICommDlgBrowser3::OnPreViewCreated"]
+description: Called after a specified preview is created in the IShellView interface.
+helpviewer_keywords: ["ICommDlgBrowser3 interface [Windows Shell]","OnPreViewCreated method","ICommDlgBrowser3.OnPreViewCreated","ICommDlgBrowser3::OnPreViewCreated","OnPreViewCreated","OnPreViewCreated method [Windows Shell]","OnPreViewCreated method [Windows Shell]","ICommDlgBrowser3 interface","_shell_ICommDlgBrowser3_OnPreViewCreated","shell.ICommDlgBrowser3_OnPreViewCreated","shobjidl/ICommDlgBrowser3::OnPreViewCreated"]
 old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm
 tech.root: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112

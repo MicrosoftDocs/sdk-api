@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFLocalMFTRegistration
 title: IMFLocalMFTRegistration (mfidl.h)
-description: Registers Media Foundation transforms (MFTs) in the caller's process.helpviewer_keywords: ["IMFLocalMFTRegistration","IMFLocalMFTRegistration interface [Media Foundation]","IMFLocalMFTRegistration interface [Media Foundation]","described","mf.imflocalmftregistration","mfidl/IMFLocalMFTRegistration"]
+description: Registers Media Foundation transforms (MFTs) in the caller's process.
+helpviewer_keywords: ["IMFLocalMFTRegistration","IMFLocalMFTRegistration interface [Media Foundation]","IMFLocalMFTRegistration interface [Media Foundation]","described","mf.imflocalmftregistration","mfidl/IMFLocalMFTRegistration"]
 old-location: mf\imflocalmftregistration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e540a93a-ecce-4c5b-a121-b0f868a2af41
 ms.date: 12/05/2018
 ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], IMFLocalMFTRegistration interface [Media Foundation],described, mf.imflocalmftregistration, mfidl/IMFLocalMFTRegistration

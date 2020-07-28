@@ -1,9 +1,10 @@
 ---
 UID: NN:certadm.ICertAdmin
 title: ICertAdmin (certadm.h)
-description: Provides administration functionality for properly authorized clients.helpviewer_keywords: ["ICertAdmin","ICertAdmin interface [Security]","ICertAdmin interface [Security]","described","_certsrv_icertadmin","certadm/ICertAdmin","security.icertadmin"]
+description: Provides administration functionality for properly authorized clients.
+helpviewer_keywords: ["ICertAdmin","ICertAdmin interface [Security]","ICertAdmin interface [Security]","described","_certsrv_icertadmin","certadm/ICertAdmin","security.icertadmin"]
 old-location: security\icertadmin.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin

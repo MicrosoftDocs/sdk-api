@@ -1,9 +1,10 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_5
 title: BCRYPT_MULTI_OPERATION_TYPE (bcrypt.h)
-description: The BCRYPT_MULTI_OPERATION_TYPE enumeration specifies type of multi-operation that is passed to the BCryptProcessMultiOperations function.helpviewer_keywords: ["BCRYPT_MULTI_OPERATION_TYPE","BCRYPT_MULTI_OPERATION_TYPE enumeration [Security]","BCRYPT_OPERATION_TYPE_HASH","bcrypt/BCRYPT_MULTI_OPERATION_TYPE","bcrypt/BCRYPT_OPERATION_TYPE_HASH","security.bcrypt_multi_operation_type"]
+description: The BCRYPT_MULTI_OPERATION_TYPE enumeration specifies type of multi-operation that is passed to the BCryptProcessMultiOperations function.
+helpviewer_keywords: ["BCRYPT_MULTI_OPERATION_TYPE","BCRYPT_MULTI_OPERATION_TYPE enumeration [Security]","BCRYPT_OPERATION_TYPE_HASH","bcrypt/BCRYPT_MULTI_OPERATION_TYPE","bcrypt/BCRYPT_OPERATION_TYPE_HASH","security.bcrypt_multi_operation_type"]
 old-location: security\bcrypt_multi_operation_type.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: C87714F6-CB25-4215-B1BA-C09AAA875D00
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeration [Security], BCRYPT_OPERATION_TYPE_HASH, bcrypt/BCRYPT_MULTI_OPERATION_TYPE, bcrypt/BCRYPT_OPERATION_TYPE_HASH, security.bcrypt_multi_operation_type

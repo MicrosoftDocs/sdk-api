@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get_IndexByObjectId
 title: ICryptAttributes::get_IndexByObjectId (certenroll.h)
-description: Retrieves the index of an attribute by object identifier (OID).helpviewer_keywords: ["ICryptAttributes interface [Security]","IndexByObjectId property","ICryptAttributes.IndexByObjectId","ICryptAttributes.get_IndexByObjectId","ICryptAttributes::IndexByObjectId","ICryptAttributes::get_IndexByObjectId","IndexByObjectId property [Security]","IndexByObjectId property [Security]","ICryptAttributes interface","certenroll/ICryptAttributes::IndexByObjectId","certenroll/ICryptAttributes::get_IndexByObjectId","get_IndexByObjectId","security.icryptattributes_indexbyobjectid_property"]
+description: Retrieves the index of an attribute by object identifier (OID).
+helpviewer_keywords: ["ICryptAttributes interface [Security]","IndexByObjectId property","ICryptAttributes.IndexByObjectId","ICryptAttributes.get_IndexByObjectId","ICryptAttributes::IndexByObjectId","ICryptAttributes::get_IndexByObjectId","IndexByObjectId property [Security]","IndexByObjectId property [Security]","ICryptAttributes interface","certenroll/ICryptAttributes::IndexByObjectId","certenroll/ICryptAttributes::get_IndexByObjectId","get_IndexByObjectId","security.icryptattributes_indexbyobjectid_property"]
 old-location: security\icryptattributes_indexbyobjectid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e294e205-791f-444e-92d8-78da347616a7
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes interface [Security],IndexByObjectId property, ICryptAttributes.IndexByObjectId, ICryptAttributes.get_IndexByObjectId, ICryptAttributes::IndexByObjectId, ICryptAttributes::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::IndexByObjectId, certenroll/ICryptAttributes::get_IndexByObjectId, get_IndexByObjectId, security.icryptattributes_indexbyobjectid_property

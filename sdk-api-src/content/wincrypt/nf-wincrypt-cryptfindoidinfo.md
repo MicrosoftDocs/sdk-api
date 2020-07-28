@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptFindOIDInfo
 title: CryptFindOIDInfo function (wincrypt.h)
-description: Retrieves the first predefined or registered CRYPT_OID_INFO structure that matches a specified key type and key. The search can be limited to object identifiers (OIDs) within a specified OID group.helpviewer_keywords: ["CRYPT_OID_DISABLE_SEARCH_DS_FLAG","CRYPT_OID_INFO_ALGID_KEY","CRYPT_OID_INFO_CNG_ALGID_KEY","CRYPT_OID_INFO_CNG_SIGN_KEY","CRYPT_OID_INFO_NAME_KEY","CRYPT_OID_INFO_OID_KEY","CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG","CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG","CRYPT_OID_INFO_SIGN_KEY","CryptFindOIDInfo","CryptFindOIDInfo function [Security]","_crypto2_cryptfindoidinfo","security.cryptfindoidinfo","wincrypt/CryptFindOIDInfo"]
+description: Retrieves the first predefined or registered CRYPT_OID_INFO structure that matches a specified key type and key. The search can be limited to object identifiers (OIDs) within a specified OID group.
+helpviewer_keywords: ["CRYPT_OID_DISABLE_SEARCH_DS_FLAG","CRYPT_OID_INFO_ALGID_KEY","CRYPT_OID_INFO_CNG_ALGID_KEY","CRYPT_OID_INFO_CNG_SIGN_KEY","CRYPT_OID_INFO_NAME_KEY","CRYPT_OID_INFO_OID_KEY","CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG","CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG","CRYPT_OID_INFO_SIGN_KEY","CryptFindOIDInfo","CryptFindOIDInfo function [Security]","_crypto2_cryptfindoidinfo","security.cryptfindoidinfo","wincrypt/CryptFindOIDInfo"]
 old-location: security\cryptfindoidinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 87acf207-d109-4173-9530-8cbbebb473b2
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OID_DISABLE_SEARCH_DS_FLAG, CRYPT_OID_INFO_ALGID_KEY, CRYPT_OID_INFO_CNG_ALGID_KEY, CRYPT_OID_INFO_CNG_SIGN_KEY, CRYPT_OID_INFO_NAME_KEY, CRYPT_OID_INFO_OID_KEY, CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CRYPT_OID_INFO_SIGN_KEY, CryptFindOIDInfo, CryptFindOIDInfo function [Security], _crypto2_cryptfindoidinfo, security.cryptfindoidinfo, wincrypt/CryptFindOIDInfo

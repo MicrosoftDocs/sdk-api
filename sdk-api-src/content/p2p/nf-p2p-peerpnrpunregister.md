@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerPnrpUnregister
 title: PeerPnrpUnregister function (p2p.h)
-description: Deregisters a peer from a PNRP cloud.helpviewer_keywords: ["PeerPnrpUnregister","PeerPnrpUnregister function [Peer Networking]","p2p.peerpnrpunregister","p2p/PeerPnrpUnregister"]
+description: Deregisters a peer from a PNRP cloud.
+helpviewer_keywords: ["PeerPnrpUnregister","PeerPnrpUnregister function [Peer Networking]","p2p.peerpnrpunregister","p2p/PeerPnrpUnregister"]
 old-location: p2p\peerpnrpunregister.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUnregister, PeerPnrpUnregister function [Peer Networking], p2p.peerpnrpunregister, p2p/PeerPnrpUnregister

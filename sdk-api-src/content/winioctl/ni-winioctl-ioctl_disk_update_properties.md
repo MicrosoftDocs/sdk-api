@@ -4,7 +4,7 @@ title: IOCTL_DISK_UPDATE_PROPERTIES
 description: Invalidates the cached partition table and re-enumerates the device.
 helpviewer_keywords: ["IOCTL_DISK_UPDATE_PROPERTIES","IOCTL_DISK_UPDATE_PROPERTIES control","IOCTL_DISK_UPDATE_PROPERTIES control code [Files]","_win32_ioctl_disk_update_properties","base.ioctl_disk_update_properties","fs.ioctl_disk_update_properties","winioctl/IOCTL_DISK_UPDATE_PROPERTIES"]
 old-location: fs\ioctl_disk_update_properties.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d97e0257-c3b0-48d5-b801-594763be8178
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_UPDATE_PROPERTIES, IOCTL_DISK_UPDATE_PROPERTIES control, IOCTL_DISK_UPDATE_PROPERTIES control code [Files], _win32_ioctl_disk_update_properties, base.ioctl_disk_update_properties, fs.ioctl_disk_update_properties, winioctl/IOCTL_DISK_UPDATE_PROPERTIES

@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.DeleteCAConfiguration
 title: IOCSPCAConfigurationCollection::DeleteCAConfiguration (certadm.h)
-description: Removes a named certification authority (CA) configuration from the configuration set.helpviewer_keywords: ["DeleteCAConfiguration","DeleteCAConfiguration method [Security]","DeleteCAConfiguration method [Security]","IOCSPCAConfigurationCollection interface","IOCSPCAConfigurationCollection interface [Security]","DeleteCAConfiguration method","IOCSPCAConfigurationCollection.DeleteCAConfiguration","IOCSPCAConfigurationCollection::DeleteCAConfiguration","certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration","security.iocspcaconfigurationcollection_deletecaconfiguration_method"]
+description: Removes a named certification authority (CA) configuration from the configuration set.
+helpviewer_keywords: ["DeleteCAConfiguration","DeleteCAConfiguration method [Security]","DeleteCAConfiguration method [Security]","IOCSPCAConfigurationCollection interface","IOCSPCAConfigurationCollection interface [Security]","DeleteCAConfiguration method","IOCSPCAConfigurationCollection.DeleteCAConfiguration","IOCSPCAConfigurationCollection::DeleteCAConfiguration","certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration","security.iocspcaconfigurationcollection_deletecaconfiguration_method"]
 old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
 ms.date: 12/05/2018
 ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],DeleteCAConfiguration method, IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method

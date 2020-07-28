@@ -1,7 +1,8 @@
 ---
 UID: NS:xamlom.VisualElement
 title: VisualElement (xamlom.h)
-description: Represents a XAML element in the Live Visual Tree in Microsoft Visual Studio.helpviewer_keywords: ["PVisualElement","PVisualElement structure pointer","VisualElement","VisualElement structure","xaml_diagnostics.visualelement","xamlom/PVisualElement","xamlom/VisualElement"]
+description: Represents a XAML element in the Live Visual Tree in Microsoft Visual Studio.
+helpviewer_keywords: ["PVisualElement","PVisualElement structure pointer","VisualElement","VisualElement structure","xaml_diagnostics.visualelement","xamlom/PVisualElement","xamlom/VisualElement"]
 old-location: xaml_diagnostics\visualelement.htm
 tech.root: xaml_diagnostics
 ms.assetid: 655642E7-64B3-439A-BAE1-7D54461EE058

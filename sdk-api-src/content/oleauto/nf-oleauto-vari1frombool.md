@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI1FromBool
 title: VarI1FromBool function (oleauto.h)
-description: Converts a Boolean value to a char value.helpviewer_keywords: ["VarI1FromBool","VarI1FromBool function [Automation]","_oa96_VarI1FromBool","automat.vari1frombool","oleauto/VarI1FromBool"]
+description: Converts a Boolean value to a char value.
+helpviewer_keywords: ["VarI1FromBool","VarI1FromBool function [Automation]","_oa96_VarI1FromBool","automat.vari1frombool","oleauto/VarI1FromBool"]
 old-location: automat\vari1frombool.htm
 tech.root: automat
 ms.assetid: 0e8043da-b41f-467a-a0c3-3f4bc3d098cf

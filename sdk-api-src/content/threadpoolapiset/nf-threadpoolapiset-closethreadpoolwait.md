@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolWait
 title: CloseThreadpoolWait function (threadpoolapiset.h)
-description: Releases the specified wait object.helpviewer_keywords: ["CloseThreadpoolWait","CloseThreadpoolWait function","base.closethreadpoolwait","threadpoolapiset/CloseThreadpoolWait","winbase/CloseThreadpoolWait"]
+description: Releases the specified wait object.
+helpviewer_keywords: ["CloseThreadpoolWait","CloseThreadpoolWait function","base.closethreadpoolwait","threadpoolapiset/CloseThreadpoolWait","winbase/CloseThreadpoolWait"]
 old-location: base\closethreadpoolwait.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: f8323ad2-c0b6-4e5c-b6eb-7195673f8992
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolWait, CloseThreadpoolWait function, base.closethreadpoolwait, threadpoolapiset/CloseThreadpoolWait, winbase/CloseThreadpoolWait

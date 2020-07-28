@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventsGetSecurityInfo0
 title: FwpmvSwitchEventsGetSecurityInfo0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor for a vSwitch event.helpviewer_keywords: ["FwpmvSwitchEventsGetSecurityInfo0","FwpmvSwitchEventsGetSecurityInfo0 function [Filtering]","fwp.fwpmvswitcheventsgetsecurityinfo0","fwpmu/FwpmvSwitchEventsGetSecurityInfo0"]
+description: Retrieves a copy of the security descriptor for a vSwitch event.
+helpviewer_keywords: ["FwpmvSwitchEventsGetSecurityInfo0","FwpmvSwitchEventsGetSecurityInfo0 function [Filtering]","fwp.fwpmvswitcheventsgetsecurityinfo0","fwpmu/FwpmvSwitchEventsGetSecurityInfo0"]
 old-location: fwp\fwpmvswitcheventsgetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 20183a71-f750-4131-8d29-80a0624f8b8d

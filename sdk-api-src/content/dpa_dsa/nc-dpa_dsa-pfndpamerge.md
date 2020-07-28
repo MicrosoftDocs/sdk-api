@@ -1,7 +1,8 @@
 ---
 UID: NC:dpa_dsa.PFNDPAMERGE
 title: PFNDPAMERGE (dpa_dsa.h)
-description: Defines the prototype for the merge function used by DPA_Merge.helpviewer_keywords: ["DPAMM_DELETE","DPAMM_INSERT","DPAMM_MERGE","PFNDPAMERGE","PFNDPAMERGE callback","PFNDPAMERGE callback function [Windows Controls]","_shell_PFNDPAMERGE","_shell_PFNDPAMERGE_cpp","controls.PFNDPAMERGE","controls._shell_PFNDPAMERGE","dpa_dsa/PFNDPAMERGE"]
+description: Defines the prototype for the merge function used by DPA_Merge.
+helpviewer_keywords: ["DPAMM_DELETE","DPAMM_INSERT","DPAMM_MERGE","PFNDPAMERGE","PFNDPAMERGE callback","PFNDPAMERGE callback function [Windows Controls]","_shell_PFNDPAMERGE","_shell_PFNDPAMERGE_cpp","controls.PFNDPAMERGE","controls._shell_PFNDPAMERGE","dpa_dsa/PFNDPAMERGE"]
 old-location: controls\PFNDPAMERGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamerge.htm

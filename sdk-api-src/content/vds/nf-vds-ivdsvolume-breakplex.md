@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsVolume.BreakPlex
 title: IVdsVolume::BreakPlex (vds.h)
-description: Removes a specified plex from the current volume.helpviewer_keywords: ["BreakPlex","BreakPlex method [VDS]","BreakPlex method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","BreakPlex method","IVdsVolume.BreakPlex","IVdsVolume::BreakPlex","base.ivdsvolume_breakplex","vds/IVdsVolume::BreakPlex"]
+description: Removes a specified plex from the current volume.
+helpviewer_keywords: ["BreakPlex","BreakPlex method [VDS]","BreakPlex method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","BreakPlex method","IVdsVolume.BreakPlex","IVdsVolume::BreakPlex","base.ivdsvolume_breakplex","vds/IVdsVolume::BreakPlex"]
 old-location: base\ivdsvolume_breakplex.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: c7e42aa4-3233-40e9-b537-043eecd192ad
 ms.date: 12/05/2018
 ms.keywords: BreakPlex, BreakPlex method [VDS], BreakPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],BreakPlex method, IVdsVolume.BreakPlex, IVdsVolume::BreakPlex, base.ivdsvolume_breakplex, vds/IVdsVolume::BreakPlex

@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsCreatePartitionEx.CreatePartitionEx
 title: IVdsCreatePartitionEx::CreatePartitionEx (vds.h)
-description: Creates a partition on a basic disk. This method supersedes the IVdsAdvancedDisk::CreatePartition method.helpviewer_keywords: ["CreatePartitionEx","CreatePartitionEx method [VDS]","CreatePartitionEx method [VDS]","IVdsCreatePartitionEx interface","IVdsCreatePartitionEx interface [VDS]","CreatePartitionEx method","IVdsCreatePartitionEx.CreatePartitionEx","IVdsCreatePartitionEx::CreatePartitionEx","base.ivdscreatepartitionex_createpartitionex","vds/IVdsCreatePartitionEx::CreatePartitionEx"]
+description: Creates a partition on a basic disk. This method supersedes the IVdsAdvancedDisk::CreatePartition method.
+helpviewer_keywords: ["CreatePartitionEx","CreatePartitionEx method [VDS]","CreatePartitionEx method [VDS]","IVdsCreatePartitionEx interface","IVdsCreatePartitionEx interface [VDS]","CreatePartitionEx method","IVdsCreatePartitionEx.CreatePartitionEx","IVdsCreatePartitionEx::CreatePartitionEx","base.ivdscreatepartitionex_createpartitionex","vds/IVdsCreatePartitionEx::CreatePartitionEx"]
 old-location: base\ivdscreatepartitionex_createpartitionex.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: c9ab5a24-b0b3-41cc-a4bf-3619f156008c
 ms.date: 12/05/2018
 ms.keywords: CreatePartitionEx, CreatePartitionEx method [VDS], CreatePartitionEx method [VDS],IVdsCreatePartitionEx interface, IVdsCreatePartitionEx interface [VDS],CreatePartitionEx method, IVdsCreatePartitionEx.CreatePartitionEx, IVdsCreatePartitionEx::CreatePartitionEx, base.ivdscreatepartitionex_createpartitionex, vds/IVdsCreatePartitionEx::CreatePartitionEx

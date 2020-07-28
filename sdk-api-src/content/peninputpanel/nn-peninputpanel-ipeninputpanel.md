@@ -1,7 +1,8 @@
 ---
 UID: NN:peninputpanel.IPenInputPanel
 title: IPenInputPanel (peninputpanel.h)
-description: .helpviewer_keywords: ["IPenInputPanel","IPenInputPanel interface [Tablet PC]","IPenInputPanel interface [Tablet PC]","described","peninputpanel/IPenInputPanel","tablet.ipeninputpanel"]
+description: .
+helpviewer_keywords: ["IPenInputPanel","IPenInputPanel interface [Tablet PC]","IPenInputPanel interface [Tablet PC]","described","peninputpanel/IPenInputPanel","tablet.ipeninputpanel"]
 old-location: tablet\ipeninputpanel.htm
 tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5

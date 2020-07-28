@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Flush
 title: ISimilarityTraitsMappedView::Flush (msrdc.h)
-description: Writes to the disk any dirty pages within a mapped view of a similarity traits table file.helpviewer_keywords: ["Flush","Flush method [Remote Differential Compression]","Flush method [Remote Differential Compression]","ISimilarityTraitsMappedView interface","ISimilarityTraitsMappedView interface [Remote Differential Compression]","Flush method","ISimilarityTraitsMappedView.Flush","ISimilarityTraitsMappedView::Flush","fs.isimilaritytraitsmappedview_flush","msrdc/ISimilarityTraitsMappedView::Flush","rdc.isimilaritytraitsmappedview_flush"]
+description: Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
+helpviewer_keywords: ["Flush","Flush method [Remote Differential Compression]","Flush method [Remote Differential Compression]","ISimilarityTraitsMappedView interface","ISimilarityTraitsMappedView interface [Remote Differential Compression]","Flush method","ISimilarityTraitsMappedView.Flush","ISimilarityTraitsMappedView::Flush","fs.isimilaritytraitsmappedview_flush","msrdc/ISimilarityTraitsMappedView::Flush","rdc.isimilaritytraitsmappedview_flush"]
 old-location: rdc\isimilaritytraitsmappedview_flush.htm
 tech.root: rdc
 ms.assetid: 88ac6bd2-846e-40ae-bbc6-3f2c49e66e3a

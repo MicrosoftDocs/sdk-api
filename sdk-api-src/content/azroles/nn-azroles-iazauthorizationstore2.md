@@ -1,9 +1,10 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore2
 title: IAzAuthorizationStore2 (azroles.h)
-description: Inherits from the AzAuthorizationStore object and implements methods to create and open IAzApplication2 objects.helpviewer_keywords: ["IAzAuthorizationStore2","IAzAuthorizationStore2 interface [Security]","IAzAuthorizationStore2 interface [Security]","described","azroles/IAzAuthorizationStore2","security.iazauthorizationstore2"]
+description: Inherits from the AzAuthorizationStore object and implements methods to create and open IAzApplication2 objects.
+helpviewer_keywords: ["IAzAuthorizationStore2","IAzAuthorizationStore2 interface [Security]","IAzAuthorizationStore2 interface [Security]","described","azroles/IAzAuthorizationStore2","security.iazauthorizationstore2"]
 old-location: security\iazauthorizationstore2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8b3901a9-003f-4346-a0c7-34a1ed730949
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore2, IAzAuthorizationStore2 interface [Security], IAzAuthorizationStore2 interface [Security],described, azroles/IAzAuthorizationStore2, security.iazauthorizationstore2

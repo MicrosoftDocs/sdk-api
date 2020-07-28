@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsVDisk.GetProperties
 title: IVdsVDisk::GetProperties (vds.h)
-description: Returns disk property information for the volume where the virtual disk resides.helpviewer_keywords: ["GetProperties","GetProperties method","GetProperties method","IVdsVDisk interface","IVdsVDisk interface","GetProperties method","IVdsVDisk.GetProperties","IVdsVDisk::GetProperties","base.ivdsvdisk_getproperties","vds/IVdsVDisk::GetProperties"]
+description: Returns disk property information for the volume where the virtual disk resides.
+helpviewer_keywords: ["GetProperties","GetProperties method","GetProperties method","IVdsVDisk interface","IVdsVDisk interface","GetProperties method","IVdsVDisk.GetProperties","IVdsVDisk::GetProperties","base.ivdsvdisk_getproperties","vds/IVdsVDisk::GetProperties"]
 old-location: base\ivdsvdisk_getproperties.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 0ecfbd1f-2f67-4d79-b081-7df071b070a4
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties

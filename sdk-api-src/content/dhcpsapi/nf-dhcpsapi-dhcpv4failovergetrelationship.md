@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetRelationship
 title: DhcpV4FailoverGetRelationship function (dhcpsapi.h)
-description: Retrieves relationship details for a specific relationship name.helpviewer_keywords: ["DhcpV4FailoverGetRelationship","DhcpV4FailoverGetRelationship function [DHCP]","dhcp.dhcpv4failovergetrelationship","dhcpsapi/DhcpV4FailoverGetRelationship"]
+description: Retrieves relationship details for a specific relationship name.
+helpviewer_keywords: ["DhcpV4FailoverGetRelationship","DhcpV4FailoverGetRelationship function [DHCP]","dhcp.dhcpv4failovergetrelationship","dhcpsapi/DhcpV4FailoverGetRelationship"]
 old-location: dhcp\dhcpv4failovergetrelationship.htm
 tech.root: DHCP
 ms.assetid: b637d1e8-8c61-4382-a5ec-3d5395433f86

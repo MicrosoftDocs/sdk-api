@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_StartAddressOfPreviousSession
 title: IMultisessionSequential::get_StartAddressOfPreviousSession (imapi2.h)
-description: Retrieves the first sector written in the previous session on the media.helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_StartAddressOfPreviousSession method","IMultisessionSequential.get_StartAddressOfPreviousSession","IMultisessionSequential::get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession method [IMAPI]","get_StartAddressOfPreviousSession method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_startaddressofprevioussession","imapi2/IMultisessionSequential::get_StartAddressOfPreviousSession"]
+description: Retrieves the first sector written in the previous session on the media.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_StartAddressOfPreviousSession method","IMultisessionSequential.get_StartAddressOfPreviousSession","IMultisessionSequential::get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession method [IMAPI]","get_StartAddressOfPreviousSession method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_startaddressofprevioussession","imapi2/IMultisessionSequential::get_StartAddressOfPreviousSession"]
 old-location: imapi\imultisessionsequential_get_startaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: 97819e2a-c01b-4820-a200-d9e9c6928f1b

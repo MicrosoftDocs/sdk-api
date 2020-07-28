@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.DeleteMethod
 title: IWbemClassObject::DeleteMethod (wbemcli.h)
-description: Use the IWbemClassObject::DeleteMethod method to delete a method. This call is supported only if the current object is a CIM class definition. Method manipulation is not available from IWbemClassObject pointers which point to CIM instances.helpviewer_keywords: ["DeleteMethod","DeleteMethod method [Windows Management Instrumentation]","DeleteMethod method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","DeleteMethod method","IWbemClassObject.DeleteMethod","IWbemClassObject::DeleteMethod","_hmm_iwbemclassobject_deletemethod","wbemcli/IWbemClassObject::DeleteMethod","wmi.iwbemclassobject_deletemethod"]
+description: Use the IWbemClassObject::DeleteMethod method to delete a method. This call is supported only if the current object is a CIM class definition. Method manipulation is not available from IWbemClassObject pointers which point to CIM instances.
+helpviewer_keywords: ["DeleteMethod","DeleteMethod method [Windows Management Instrumentation]","DeleteMethod method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","DeleteMethod method","IWbemClassObject.DeleteMethod","IWbemClassObject::DeleteMethod","_hmm_iwbemclassobject_deletemethod","wbemcli/IWbemClassObject::DeleteMethod","wmi.iwbemclassobject_deletemethod"]
 old-location: wmi\iwbemclassobject_deletemethod.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 75502b28-1157-4bdd-ba8f-d2cf0c1228c4
 ms.date: 12/05/2018
 ms.keywords: DeleteMethod, DeleteMethod method [Windows Management Instrumentation], DeleteMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],DeleteMethod method, IWbemClassObject.DeleteMethod, IWbemClassObject::DeleteMethod, _hmm_iwbemclassobject_deletemethod, wbemcli/IWbemClassObject::DeleteMethod, wmi.iwbemclassobject_deletemethod

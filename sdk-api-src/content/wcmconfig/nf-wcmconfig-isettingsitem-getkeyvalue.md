@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetKeyValue
 title: ISettingsItem::GetKeyValue (wcmconfig.h)
-description: Extracts key values for any list that already exists in the image, for example, DNS, http settings, and user account information.helpviewer_keywords: ["GetKeyValue","GetKeyValue method [SMI]","GetKeyValue method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetKeyValue method","ISettingsItem.GetKeyValue","ISettingsItem::GetKeyValue","smi.isettingsitem_getkeyvalue","wcmconfig/ISettingsItem::GetKeyValue"]
+description: Extracts key values for any list that already exists in the image, for example, DNS, http settings, and user account information.
+helpviewer_keywords: ["GetKeyValue","GetKeyValue method [SMI]","GetKeyValue method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetKeyValue method","ISettingsItem.GetKeyValue","ISettingsItem::GetKeyValue","smi.isettingsitem_getkeyvalue","wcmconfig/ISettingsItem::GetKeyValue"]
 old-location: smi\isettingsitem_getkeyvalue.htm
 tech.root: SMI
 ms.assetid: a627d0aa-05ef-43b6-a8e8-bb0770dd8873

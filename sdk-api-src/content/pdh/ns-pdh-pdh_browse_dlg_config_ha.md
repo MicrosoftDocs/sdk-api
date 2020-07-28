@@ -1,9 +1,10 @@
 ---
 UID: NS:pdh._BrowseDlgConfig_HA
 title: PDH_BROWSE_DLG_CONFIG_HA (pdh.h)
-description: The PDH_BROWSE_DLG_CONFIG_H structure is used by the PdhBrowseCountersH function to configure the Browse Performance Counters dialog box.helpviewer_keywords: ["*PPDH_BROWSE_DLG_CONFIG_HA","PDH_BROWSE_DLG_CONFIG_H","PDH_BROWSE_DLG_CONFIG_H structure [Perf]","PDH_BROWSE_DLG_CONFIG_HA","PDH_BROWSE_DLG_CONFIG_HW","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PPDH_BROWSE_DLG_CONFIG_H","PPDH_BROWSE_DLG_CONFIG_H structure pointer [Perf]","_win32_pdh_browse_dlg_config_h_str","base.pdh_browse_dlg_config_h_str","pdh/PDH_BROWSE_DLG_CONFIG_H","pdh/PDH_BROWSE_DLG_CONFIG_HA","pdh/PDH_BROWSE_DLG_CONFIG_HW","pdh/PPDH_BROWSE_DLG_CONFIG_H","perf.pdh_browse_dlg_config_h_str"]
+description: The PDH_BROWSE_DLG_CONFIG_H structure is used by the PdhBrowseCountersH function to configure the Browse Performance Counters dialog box.
+helpviewer_keywords: ["*PPDH_BROWSE_DLG_CONFIG_HA","PDH_BROWSE_DLG_CONFIG_H","PDH_BROWSE_DLG_CONFIG_H structure [Perf]","PDH_BROWSE_DLG_CONFIG_HA","PDH_BROWSE_DLG_CONFIG_HW","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PPDH_BROWSE_DLG_CONFIG_H","PPDH_BROWSE_DLG_CONFIG_H structure pointer [Perf]","_win32_pdh_browse_dlg_config_h_str","base.pdh_browse_dlg_config_h_str","pdh/PDH_BROWSE_DLG_CONFIG_H","pdh/PDH_BROWSE_DLG_CONFIG_HA","pdh/PDH_BROWSE_DLG_CONFIG_HW","pdh/PPDH_BROWSE_DLG_CONFIG_H","perf.pdh_browse_dlg_config_h_str"]
 old-location: perf\pdh_browse_dlg_config_h_str.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: db30ff94-3238-45a0-a78e-8b3cd00ec79c
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_BROWSE_DLG_CONFIG_HA, PDH_BROWSE_DLG_CONFIG_H, PDH_BROWSE_DLG_CONFIG_H structure [Perf], PDH_BROWSE_DLG_CONFIG_HA, PDH_BROWSE_DLG_CONFIG_HW, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PPDH_BROWSE_DLG_CONFIG_H, PPDH_BROWSE_DLG_CONFIG_H structure pointer [Perf], _win32_pdh_browse_dlg_config_h_str, base.pdh_browse_dlg_config_h_str, pdh/PDH_BROWSE_DLG_CONFIG_H, pdh/PDH_BROWSE_DLG_CONFIG_HA, pdh/PDH_BROWSE_DLG_CONFIG_HW, pdh/PPDH_BROWSE_DLG_CONFIG_H, perf.pdh_browse_dlg_config_h_str'
@@ -254,6 +255,10 @@ Each time the
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PDH_BROWSE_DLG_CONFIG_H as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

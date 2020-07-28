@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorCallback.SetCallback
 title: IMFVideoSampleAllocatorCallback::SetCallback (mfidl.h)
-description: Sets the callback object that receives notification whenever a video sample is returned to the allocator.helpviewer_keywords: ["IMFVideoSampleAllocatorCallback interface [Media Foundation]","SetCallback method","IMFVideoSampleAllocatorCallback.SetCallback","IMFVideoSampleAllocatorCallback::SetCallback","SetCallback","SetCallback method [Media Foundation]","SetCallback method [Media Foundation]","IMFVideoSampleAllocatorCallback interface","mf.imfvideosampleallocatorcallback_setcallback","mfidl/IMFVideoSampleAllocatorCallback::SetCallback"]
+description: Sets the callback object that receives notification whenever a video sample is returned to the allocator.
+helpviewer_keywords: ["IMFVideoSampleAllocatorCallback interface [Media Foundation]","SetCallback method","IMFVideoSampleAllocatorCallback.SetCallback","IMFVideoSampleAllocatorCallback::SetCallback","SetCallback","SetCallback method [Media Foundation]","SetCallback method [Media Foundation]","IMFVideoSampleAllocatorCallback interface","mf.imfvideosampleallocatorcallback_setcallback","mfidl/IMFVideoSampleAllocatorCallback::SetCallback"]
 old-location: mf\imfvideosampleallocatorcallback_setcallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: edcf1ef2-d71f-4ca1-94db-ebf358e80e57
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorCallback interface [Media Foundation],SetCallback method, IMFVideoSampleAllocatorCallback.SetCallback, IMFVideoSampleAllocatorCallback::SetCallback, SetCallback, SetCallback method [Media Foundation], SetCallback method [Media Foundation],IMFVideoSampleAllocatorCallback interface, mf.imfvideosampleallocatorcallback_setcallback, mfidl/IMFVideoSampleAllocatorCallback::SetCallback

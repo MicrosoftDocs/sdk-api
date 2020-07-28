@@ -1,7 +1,8 @@
 ---
 UID: NN:msaatext.ITfMSAAControl
 title: ITfMSAAControl (msaatext.h)
-description: The ITfMSAAControl interface is used by Microsoft Active Accessibility to add or remove a document from TSF control, to avoid unnecessary overhead in TSF. This interface is not recommended for use by other applications.helpviewer_keywords: ["ITfMSAAControl","ITfMSAAControl interface [Text Services Framework]","ITfMSAAControl interface [Text Services Framework]","described","msaatext/ITfMSAAControl","tsf.itfmsaacontrol"]
+description: The ITfMSAAControl interface is used by Microsoft Active Accessibility to add or remove a document from TSF control, to avoid unnecessary overhead in TSF. This interface is not recommended for use by other applications.
+helpviewer_keywords: ["ITfMSAAControl","ITfMSAAControl interface [Text Services Framework]","ITfMSAAControl interface [Text Services Framework]","described","msaatext/ITfMSAAControl","tsf.itfmsaacontrol"]
 old-location: tsf\itfmsaacontrol.htm
 tech.root: TSF
 ms.assetid: e01a0177-7e3a-4087-84b8-151da2145be8

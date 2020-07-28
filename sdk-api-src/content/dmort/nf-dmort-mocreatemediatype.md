@@ -1,9 +1,10 @@
 ---
 UID: NF:dmort.MoCreateMediaType
 title: MoCreateMediaType function (dmort.h)
-description: The MoCreateMediaType function allocates a new media type structure.helpviewer_keywords: ["MoCreateMediaType","MoCreateMediaType function [DirectShow]","dmort/MoCreateMediaType","dshow.mocreatemediatype"]
+description: The MoCreateMediaType function allocates a new media type structure.
+helpviewer_keywords: ["MoCreateMediaType","MoCreateMediaType function [DirectShow]","dmort/MoCreateMediaType","dshow.mocreatemediatype"]
 old-location: dshow\mocreatemediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f67b04b5-163e-4793-8df0-10a4b2be5025
 ms.date: 12/05/2018
 ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype

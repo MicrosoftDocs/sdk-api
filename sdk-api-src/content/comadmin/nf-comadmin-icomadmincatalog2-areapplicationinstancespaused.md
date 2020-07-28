@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.AreApplicationInstancesPaused
 title: ICOMAdminCatalog2::AreApplicationInstancesPaused (comadmin.h)
-description: Determines whether any of the specified application instances (processes) are paused.helpviewer_keywords: ["AreApplicationInstancesPaused","AreApplicationInstancesPaused method [COM+]","AreApplicationInstancesPaused method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","AreApplicationInstancesPaused method","ICOMAdminCatalog2.AreApplicationInstancesPaused","ICOMAdminCatalog2::AreApplicationInstancesPaused","_cos_icomadmincatalog2_AreApplicationInstancesPaused","comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused","cos.icomadmincatalog2_areapplicationinstancespaused"]
+description: Determines whether any of the specified application instances (processes) are paused.
+helpviewer_keywords: ["AreApplicationInstancesPaused","AreApplicationInstancesPaused method [COM+]","AreApplicationInstancesPaused method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","AreApplicationInstancesPaused method","ICOMAdminCatalog2.AreApplicationInstancesPaused","ICOMAdminCatalog2::AreApplicationInstancesPaused","_cos_icomadmincatalog2_AreApplicationInstancesPaused","comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused","cos.icomadmincatalog2_areapplicationinstancespaused"]
 old-location: cos\icomadmincatalog2_areapplicationinstancespaused.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b526dc2e-107c-4936-95ac-2c0c91f5c09b
 ms.date: 12/05/2018
 ms.keywords: AreApplicationInstancesPaused, AreApplicationInstancesPaused method [COM+], AreApplicationInstancesPaused method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AreApplicationInstancesPaused method, ICOMAdminCatalog2.AreApplicationInstancesPaused, ICOMAdminCatalog2::AreApplicationInstancesPaused, _cos_icomadmincatalog2_AreApplicationInstancesPaused, comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused, cos.icomadmincatalog2_areapplicationinstancespaused

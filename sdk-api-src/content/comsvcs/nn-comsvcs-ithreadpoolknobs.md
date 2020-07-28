@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IThreadPoolKnobs
 title: IThreadPoolKnobs (comsvcs.h)
-description: Used to control the behavior of thread pools.helpviewer_keywords: ["IThreadPoolKnobs","IThreadPoolKnobs interface [COM+]","IThreadPoolKnobs interface [COM+]","described","_cos_IThreadPoolKnobs","comsvcs/IThreadPoolKnobs","cos.ithreadpoolknobs"]
+description: Used to control the behavior of thread pools.
+helpviewer_keywords: ["IThreadPoolKnobs","IThreadPoolKnobs interface [COM+]","IThreadPoolKnobs interface [COM+]","described","_cos_IThreadPoolKnobs","comsvcs/IThreadPoolKnobs","cos.ithreadpoolknobs"]
 old-location: cos\ithreadpoolknobs.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs

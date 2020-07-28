@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPOCollection.get_Count
 title: IGPMGPOCollection::get_Count (gpmgmt.h)
-description: Returns the number of GPOs in the collection.helpviewer_keywords: ["Count property [GPMC]","Count property [GPMC]","GPMGPOCollection class","Count property [GPMC]","IGPMGPOCollection interface","GPMGPOCollection class [GPMC]","Count property","IGPMGPOCollection interface [GPMC]","Count property","IGPMGPOCollection.Count","IGPMGPOCollection.get_Count","IGPMGPOCollection::Count","IGPMGPOCollection::get_Count","_win32_igpmgpocollection_get_count","get_Count","gpmc.igpmgpocollection_get_count","gpmgmt/IGPMGPOCollection::Count","gpmgmt/IGPMGPOCollection::get_Count"]
+description: Returns the number of GPOs in the collection.
+helpviewer_keywords: ["Count property [GPMC]","Count property [GPMC]","GPMGPOCollection class","Count property [GPMC]","IGPMGPOCollection interface","GPMGPOCollection class [GPMC]","Count property","IGPMGPOCollection interface [GPMC]","Count property","IGPMGPOCollection.Count","IGPMGPOCollection.get_Count","IGPMGPOCollection::Count","IGPMGPOCollection::get_Count","_win32_igpmgpocollection_get_count","get_Count","gpmc.igpmgpocollection_get_count","gpmgmt/IGPMGPOCollection::Count","gpmgmt/IGPMGPOCollection::get_Count"]
 old-location: gpmc\igpmgpocollection_get_count.htm
 tech.root: gpmc
 ms.assetid: eda3c574-baee-44fa-b6bc-7f0dfa239ecc

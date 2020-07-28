@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.AddAccessDeniedObjectAce
 title: AddAccessDeniedObjectAce function (securitybaseapi.h)
-description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL). The new ACE can deny access to an object, or to a property set or property on an object.helpviewer_keywords: ["AddAccessDeniedObjectAce","AddAccessDeniedObjectAce function [Security]","CONTAINER_INHERIT_ACE","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","_win32_addaccessdeniedobjectace","security.addaccessdeniedobjectace","securitybaseapi/AddAccessDeniedObjectAce"]
+description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL). The new ACE can deny access to an object, or to a property set or property on an object.
+helpviewer_keywords: ["AddAccessDeniedObjectAce","AddAccessDeniedObjectAce function [Security]","CONTAINER_INHERIT_ACE","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","_win32_addaccessdeniedobjectace","security.addaccessdeniedobjectace","securitybaseapi/AddAccessDeniedObjectAce"]
 old-location: security\addaccessdeniedobjectace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1427c908-92b6-46b2-9189-a2fd93c470b1
 ms.date: 12/05/2018
 ms.keywords: AddAccessDeniedObjectAce, AddAccessDeniedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedobjectace, security.addaccessdeniedobjectace, securitybaseapi/AddAccessDeniedObjectAce

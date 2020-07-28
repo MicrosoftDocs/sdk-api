@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CharToOemA
 title: CharToOemA function (winuser.h)
-description: Translates a string into the OEM-defined character set.Warning  Do not use.helpviewer_keywords: ["CharToOem","CharToOem function [Menus and Other Resources]","CharToOemA","CharToOemW","_win32_CharToOem","_win32_chartooem_cpp","menurc.chartooem","winui._win32_chartooem","winuser/CharToOem","winuser/CharToOemA","winuser/CharToOemW"]
+description: Translates a string into the OEM-defined character set.Warning  Do not use.
+helpviewer_keywords: ["CharToOem","CharToOem function [Menus and Other Resources]","CharToOemA","CharToOemW","_win32_CharToOem","_win32_chartooem_cpp","menurc.chartooem","winui._win32_chartooem","winuser/CharToOem","winuser/CharToOemA","winuser/CharToOemW"]
 old-location: menurc\chartooem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooem.htm
@@ -119,4 +120,9 @@ The return value is always nonzero except when you pass the same address to
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines CharToOem as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

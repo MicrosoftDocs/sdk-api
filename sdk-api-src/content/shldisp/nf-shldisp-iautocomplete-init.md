@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IAutoComplete.Init
 title: IAutoComplete::Init (shldisp.h)
-description: Initializes the autocomplete object.helpviewer_keywords: ["IAutoComplete interface [Windows Shell]","Init method","IAutoComplete.Init","IAutoComplete::Init","Init","Init method [Windows Shell]","Init method [Windows Shell]","IAutoComplete interface","_win32_IAutoComplete_Init","shell.IAutoComplete_Init","shldisp/IAutoComplete::Init"]
+description: Initializes the autocomplete object.
+helpviewer_keywords: ["IAutoComplete interface [Windows Shell]","Init method","IAutoComplete.Init","IAutoComplete::Init","Init","Init method [Windows Shell]","Init method [Windows Shell]","IAutoComplete interface","_win32_IAutoComplete_Init","shell.IAutoComplete_Init","shldisp/IAutoComplete::Init"]
 old-location: shell\IAutoComplete_Init.htm
 tech.root: shell
 ms.assetid: e5ee36b7-11b4-4eca-ae8e-eefa6245f287

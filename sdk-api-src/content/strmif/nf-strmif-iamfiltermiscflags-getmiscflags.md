@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMFilterMiscFlags.GetMiscFlags
 title: IAMFilterMiscFlags::GetMiscFlags (strmif.h)
-description: The GetMiscFlags method returns the filter's type, either source or renderer.helpviewer_keywords: ["GetMiscFlags","GetMiscFlags method [DirectShow]","GetMiscFlags method [DirectShow]","IAMFilterMiscFlags interface","IAMFilterMiscFlags interface [DirectShow]","GetMiscFlags method","IAMFilterMiscFlags.GetMiscFlags","IAMFilterMiscFlags::GetMiscFlags","IAMFilterMiscFlagsGetMiscFlags","dshow.iamfiltermiscflags_getmiscflags","strmif/IAMFilterMiscFlags::GetMiscFlags"]
+description: The GetMiscFlags method returns the filter's type, either source or renderer.
+helpviewer_keywords: ["GetMiscFlags","GetMiscFlags method [DirectShow]","GetMiscFlags method [DirectShow]","IAMFilterMiscFlags interface","IAMFilterMiscFlags interface [DirectShow]","GetMiscFlags method","IAMFilterMiscFlags.GetMiscFlags","IAMFilterMiscFlags::GetMiscFlags","IAMFilterMiscFlagsGetMiscFlags","dshow.iamfiltermiscflags_getmiscflags","strmif/IAMFilterMiscFlags::GetMiscFlags"]
 old-location: dshow\iamfiltermiscflags_getmiscflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 03728d28-a3e5-4ac5-b637-1daa173e5e88
 ms.date: 12/05/2018
 ms.keywords: GetMiscFlags, GetMiscFlags method [DirectShow], GetMiscFlags method [DirectShow],IAMFilterMiscFlags interface, IAMFilterMiscFlags interface [DirectShow],GetMiscFlags method, IAMFilterMiscFlags.GetMiscFlags, IAMFilterMiscFlags::GetMiscFlags, IAMFilterMiscFlagsGetMiscFlags, dshow.iamfiltermiscflags_getmiscflags, strmif/IAMFilterMiscFlags::GetMiscFlags

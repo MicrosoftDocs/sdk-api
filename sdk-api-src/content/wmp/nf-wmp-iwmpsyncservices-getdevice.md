@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSyncServices.getDevice
 title: IWMPSyncServices::getDevice (wmp.h)
-description: The getDevice method retrieves a pointer to a device interface.helpviewer_keywords: ["IWMPSyncServices interface [Windows Media Player]","getDevice method","IWMPSyncServices.getDevice","IWMPSyncServices::getDevice","IWMPSyncServicesgetDevice","getDevice","getDevice method [Windows Media Player]","getDevice method [Windows Media Player]","IWMPSyncServices interface","wmp.iwmpsyncservices_getdevice","wmp/IWMPSyncServices::getDevice"]
+description: The getDevice method retrieves a pointer to a device interface.
+helpviewer_keywords: ["IWMPSyncServices interface [Windows Media Player]","getDevice method","IWMPSyncServices.getDevice","IWMPSyncServices::getDevice","IWMPSyncServicesgetDevice","getDevice","getDevice method [Windows Media Player]","getDevice method [Windows Media Player]","IWMPSyncServices interface","wmp.iwmpsyncservices_getdevice","wmp/IWMPSyncServices::getDevice"]
 old-location: wmp\iwmpsyncservices_getdevice.htm
 tech.root: WMP
 ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef

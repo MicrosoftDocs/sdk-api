@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.SecurityProperty
 title: SecurityProperty (comsvcs.h)
-description: Retrieves information about the current object's original caller and direct caller.helpviewer_keywords: ["SecurityProperty","SecurityProperty interface [COM+]","SecurityProperty interface [COM+]","described","_cos_SecurityProperty","comsvcs/SecurityProperty","cos.securityproperty"]
+description: Retrieves information about the current object's original caller and direct caller.
+helpviewer_keywords: ["SecurityProperty","SecurityProperty interface [COM+]","SecurityProperty interface [COM+]","described","_cos_SecurityProperty","comsvcs/SecurityProperty","cos.securityproperty"]
 old-location: cos\securityproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e4eb8e83-3510-4c2c-8b9c-563bfcbf48b3
 ms.date: 12/05/2018
 ms.keywords: SecurityProperty, SecurityProperty interface [COM+], SecurityProperty interface [COM+],described, _cos_SecurityProperty, comsvcs/SecurityProperty, cos.securityproperty

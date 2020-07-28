@@ -1,9 +1,10 @@
 ---
 UID: NF:cryptuiapi.CertSelectionGetSerializedBlob
 title: CertSelectionGetSerializedBlob function (cryptuiapi.h)
-description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.helpviewer_keywords: ["CertSelectionGetSerializedBlob","CertSelectionGetSerializedBlob function [Security]","cryptuiapi/CertSelectionGetSerializedBlob","security.certselectiongetserializedblob"]
+description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.
+helpviewer_keywords: ["CertSelectionGetSerializedBlob","CertSelectionGetSerializedBlob function [Security]","cryptuiapi/CertSelectionGetSerializedBlob","security.certselectiongetserializedblob"]
 old-location: security\certselectiongetserializedblob.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.date: 12/05/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob

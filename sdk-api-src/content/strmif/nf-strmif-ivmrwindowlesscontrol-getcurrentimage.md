@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetCurrentImage
 title: IVMRWindowlessControl::GetCurrentImage (strmif.h)
-description: The GetCurrentImage method retrieves a copy of the current image being displayed by the VMR.helpviewer_keywords: ["GetCurrentImage","GetCurrentImage method [DirectShow]","GetCurrentImage method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetCurrentImage method","IVMRWindowlessControl.GetCurrentImage","IVMRWindowlessControl::GetCurrentImage","IVMRWindowlessControlGetCurrentImage","dshow.ivmrwindowlesscontrol_getcurrentimage","strmif/IVMRWindowlessControl::GetCurrentImage"]
+description: The GetCurrentImage method retrieves a copy of the current image being displayed by the VMR.
+helpviewer_keywords: ["GetCurrentImage","GetCurrentImage method [DirectShow]","GetCurrentImage method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetCurrentImage method","IVMRWindowlessControl.GetCurrentImage","IVMRWindowlessControl::GetCurrentImage","IVMRWindowlessControlGetCurrentImage","dshow.ivmrwindowlesscontrol_getcurrentimage","strmif/IVMRWindowlessControl::GetCurrentImage"]
 old-location: dshow\ivmrwindowlesscontrol_getcurrentimage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 515e252d-4ac4-49ec-8d94-bf850dd4783f
 ms.date: 12/05/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl.GetCurrentImage, IVMRWindowlessControl::GetCurrentImage, IVMRWindowlessControlGetCurrentImage, dshow.ivmrwindowlesscontrol_getcurrentimage, strmif/IVMRWindowlessControl::GetCurrentImage

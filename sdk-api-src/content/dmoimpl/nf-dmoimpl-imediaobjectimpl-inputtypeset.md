@@ -1,9 +1,10 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputTypeSet
 title: IMediaObjectImpl::InputTypeSet (dmoimpl.h)
-description: The InputTypeSet method queries whether the media type was set on an input stream.helpviewer_keywords: ["IMediaObjectImpl interface [DirectShow]","InputTypeSet method","IMediaObjectImpl.InputTypeSet","IMediaObjectImpl::InputTypeSet","IMediaObjectImplInputTypeSet","InputTypeSet","InputTypeSet method [DirectShow]","InputTypeSet method [DirectShow]","IMediaObjectImpl interface","dmoimpl/IMediaObjectImpl::InputTypeSet","dshow.imediaobjectimpl_inputtypeset"]
+description: The InputTypeSet method queries whether the media type was set on an input stream.
+helpviewer_keywords: ["IMediaObjectImpl interface [DirectShow]","InputTypeSet method","IMediaObjectImpl.InputTypeSet","IMediaObjectImpl::InputTypeSet","IMediaObjectImplInputTypeSet","InputTypeSet","InputTypeSet method [DirectShow]","InputTypeSet method [DirectShow]","IMediaObjectImpl interface","dmoimpl/IMediaObjectImpl::InputTypeSet","dshow.imediaobjectimpl_inputtypeset"]
 old-location: dshow\imediaobjectimpl_inputtypeset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f7f2f594-31ed-4c75-8221-9c62f8b4bed3
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputTypeSet method, IMediaObjectImpl.InputTypeSet, IMediaObjectImpl::InputTypeSet, IMediaObjectImplInputTypeSet, InputTypeSet, InputTypeSet method [DirectShow], InputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputTypeSet, dshow.imediaobjectimpl_inputtypeset

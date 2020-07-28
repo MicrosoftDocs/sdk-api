@@ -1,9 +1,10 @@
 ---
 UID: NE:vss._VSS_PROVIDER_CAPABILITIES
 title: VSS_PROVIDER_CAPABILITIES (vss.h)
-description: This enumeration is reserved for future use.helpviewer_keywords: ["*PVSS_PROVIDER_CAPABILITIES","VSS_PROVIDER_CAPABILITIES","_VSS_PROVIDER_CAPABILITIES","_VSS_PROVIDER_CAPABILITIES enumeration","base._vss_provider_capabilities","vss/","vss/_VSS_PROVIDER_CAPABILITIES"]
+description: This enumeration is reserved for future use.
+helpviewer_keywords: ["*PVSS_PROVIDER_CAPABILITIES","VSS_PROVIDER_CAPABILITIES","_VSS_PROVIDER_CAPABILITIES","_VSS_PROVIDER_CAPABILITIES enumeration","base._vss_provider_capabilities","vss/","vss/_VSS_PROVIDER_CAPABILITIES"]
 old-location: base\_vss_provider_capabilities.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES'

@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiGetPatchFileListA
 title: MsiGetPatchFileListA function (msi.h)
-description: The MsiGetPatchFileList function is provided a list of .msp files, delimited by semicolons, and retrieves the list of files that can be updated by the patches.helpviewer_keywords: ["MsiGetPatchFileList","MsiGetPatchFileList function","MsiGetPatchFileListA","MsiGetPatchFileListW","msi/MsiGetPatchFileList","msi/MsiGetPatchFileListA","msi/MsiGetPatchFileListW","setup.msigetpatchfilelist"]
+description: The MsiGetPatchFileList function is provided a list of .msp files, delimited by semicolons, and retrieves the list of files that can be updated by the patches.
+helpviewer_keywords: ["MsiGetPatchFileList","MsiGetPatchFileList function","MsiGetPatchFileListA","MsiGetPatchFileListW","msi/MsiGetPatchFileList","msi/MsiGetPatchFileListA","msi/MsiGetPatchFileListW","setup.msigetpatchfilelist"]
 old-location: setup\msigetpatchfilelist.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
 ms.date: 12/05/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
@@ -146,6 +147,10 @@ For more information about using the <b>MsiGetPatchFileList</b> function  see <a
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetPatchFileList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

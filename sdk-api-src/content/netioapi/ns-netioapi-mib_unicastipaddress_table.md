@@ -1,7 +1,8 @@
 ---
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_TABLE
 title: MIB_UNICASTIPADDRESS_TABLE (netioapi.h)
-description: Contains a table of unicast IP address entries.helpviewer_keywords: ["*PMIB_UNICASTIPADDRESS_TABLE","MIB_UNICASTIPADDRESS_TABLE","MIB_UNICASTIPADDRESS_TABLE structure [MIB]","PMIB_UNICASTIPADDRESS_TABLE","PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB]","_MIB_UNICASTIPADDRESS_TABL","mib.mib_unicastipaddress_table","netioapi/MIB_UNICASTIPADDRESS_TABLE","netioapi/PMIB_UNICASTIPADDRESS_TABLE"]
+description: Contains a table of unicast IP address entries.
+helpviewer_keywords: ["*PMIB_UNICASTIPADDRESS_TABLE","MIB_UNICASTIPADDRESS_TABLE","MIB_UNICASTIPADDRESS_TABLE structure [MIB]","PMIB_UNICASTIPADDRESS_TABLE","PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB]","_MIB_UNICASTIPADDRESS_TABL","mib.mib_unicastipaddress_table","netioapi/MIB_UNICASTIPADDRESS_TABLE","netioapi/PMIB_UNICASTIPADDRESS_TABLE"]
 old-location: mib\mib_unicastipaddress_table.htm
 tech.root: MIB
 ms.assetid: b064494c-d0d5-4570-b255-4cc95412fd3a

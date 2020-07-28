@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGraphCreate
 title: PeerGraphCreate function (p2p.h)
-description: The PeerGraphCreate function creates a new peer graph. An application can specify information about a peer graph, and the type of security that a peer graph uses. A handle to a peer graph is returned, but a network connection is not established.helpviewer_keywords: ["PeerGraphCreate","PeerGraphCreate function [Peer Networking]","p2p.peergraphcreate","p2p/PeerGraphCreate"]
+description: The PeerGraphCreate function creates a new peer graph. An application can specify information about a peer graph, and the type of security that a peer graph uses. A handle to a peer graph is returned, but a network connection is not established.
+helpviewer_keywords: ["PeerGraphCreate","PeerGraphCreate function [Peer Networking]","p2p.peergraphcreate","p2p/PeerGraphCreate"]
 old-location: p2p\peergraphcreate.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.date: 12/05/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate

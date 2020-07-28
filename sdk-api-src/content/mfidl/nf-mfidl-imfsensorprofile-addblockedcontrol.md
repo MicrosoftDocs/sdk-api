@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.AddBlockedControl
 title: IMFSensorProfile::AddBlockedControl (mfidl.h)
-description: Adds the specified blocked control .helpviewer_keywords: ["AddBlockedControl","AddBlockedControl method [Media Foundation]","AddBlockedControl method [Media Foundation]","IMFSensorProfile interface","IMFSensorProfile interface [Media Foundation]","AddBlockedControl method","IMFSensorProfile.AddBlockedControl","IMFSensorProfile::AddBlockedControl","mf.imfsensorprofile_addblockedcontrol","mfidl/IMFSensorProfile::AddBlockedControl"]
+description: Adds the specified blocked control .
+helpviewer_keywords: ["AddBlockedControl","AddBlockedControl method [Media Foundation]","AddBlockedControl method [Media Foundation]","IMFSensorProfile interface","IMFSensorProfile interface [Media Foundation]","AddBlockedControl method","IMFSensorProfile.AddBlockedControl","IMFSensorProfile::AddBlockedControl","mf.imfsensorprofile_addblockedcontrol","mfidl/IMFSensorProfile::AddBlockedControl"]
 old-location: mf\imfsensorprofile_addblockedcontrol.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1D1EAD84-5053-47B2-9366-EEBE8681970F
 ms.date: 12/05/2018
 ms.keywords: AddBlockedControl, AddBlockedControl method [Media Foundation], AddBlockedControl method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddBlockedControl method, IMFSensorProfile.AddBlockedControl, IMFSensorProfile::AddBlockedControl, mf.imfsensorprofile_addblockedcontrol, mfidl/IMFSensorProfile::AddBlockedControl

@@ -1,9 +1,10 @@
 ---
 UID: NF:perflib.PerfDecrementULongLongCounterValue
 title: PerfDecrementULongLongCounterValue function (perflib.h)
-description: Decrements the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.helpviewer_keywords: ["PerfDecrementULongLongCounterValue","PerfDecrementULongLongCounterValue function [Perf]","perf.perfdecrementulonglongcountervalue","perflib/PerfDecrementULongLongCounterValue"]
+description: Decrements the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.
+helpviewer_keywords: ["PerfDecrementULongLongCounterValue","PerfDecrementULongLongCounterValue function [Perf]","perf.perfdecrementulonglongcountervalue","perflib/PerfDecrementULongLongCounterValue"]
 old-location: perf\perfdecrementulonglongcountervalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 38fd52a7-c2af-4c69-a104-aba6a602fbf4
 ms.date: 12/05/2018
 ms.keywords: PerfDecrementULongLongCounterValue, PerfDecrementULongLongCounterValue function [Perf], perf.perfdecrementulonglongcountervalue, perflib/PerfDecrementULongLongCounterValue

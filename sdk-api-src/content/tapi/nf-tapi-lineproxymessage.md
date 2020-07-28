@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineProxyMessage
 title: lineProxyMessage function (tapi.h)
-description: The lineProxyMessage function is used by a registered proxy request handler to generate TAPI messages related to its role.helpviewer_keywords: ["_tapi2_lineproxymessage","lineProxyMessage","lineProxyMessage function [TAPI 2.2]","tapi/lineProxyMessage","tapi2.lineproxymessage"]
+description: The lineProxyMessage function is used by a registered proxy request handler to generate TAPI messages related to its role.
+helpviewer_keywords: ["_tapi2_lineproxymessage","lineProxyMessage","lineProxyMessage function [TAPI 2.2]","tapi/lineProxyMessage","tapi2.lineproxymessage"]
 old-location: tapi2\lineproxymessage.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 624a13f4-4be7-441b-abc0-e1fad8f01bdf
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage

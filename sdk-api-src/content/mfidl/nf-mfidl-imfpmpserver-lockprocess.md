@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFPMPServer.LockProcess
 title: IMFPMPServer::LockProcess (mfidl.h)
-description: Blocks the protected media path (PMP) process from ending.helpviewer_keywords: ["9a25abfb-5038-4869-ad70-1ae52e8cf599","IMFPMPServer interface [Media Foundation]","LockProcess method","IMFPMPServer.LockProcess","IMFPMPServer::LockProcess","LockProcess","LockProcess method [Media Foundation]","LockProcess method [Media Foundation]","IMFPMPServer interface","mf.imfpmpserver_lockprocess","mfidl/IMFPMPServer::LockProcess"]
+description: Blocks the protected media path (PMP) process from ending.
+helpviewer_keywords: ["9a25abfb-5038-4869-ad70-1ae52e8cf599","IMFPMPServer interface [Media Foundation]","LockProcess method","IMFPMPServer.LockProcess","IMFPMPServer::LockProcess","LockProcess","LockProcess method [Media Foundation]","LockProcess method [Media Foundation]","IMFPMPServer interface","mf.imfpmpserver_lockprocess","mfidl/IMFPMPServer::LockProcess"]
 old-location: mf\imfpmpserver_lockprocess.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9a25abfb-5038-4869-ad70-1ae52e8cf599
 ms.date: 12/05/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess

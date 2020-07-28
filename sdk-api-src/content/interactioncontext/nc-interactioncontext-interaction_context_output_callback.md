@@ -1,9 +1,10 @@
 ---
 UID: NC:interactioncontext.INTERACTION_CONTEXT_OUTPUT_CALLBACK
 title: INTERACTION_CONTEXT_OUTPUT_CALLBACK (interactioncontext.h)
-description: Callback that receives events from an Interaction Context object.helpviewer_keywords: ["INTERACTION_CONTEXT_OUTPUT_CALLBACK","INTERACTION_CONTEXT_OUTPUT_CALLBACK callback","INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function","input_intcontext.interaction_context_output_callback","interactioncontext.interaction_context_output_callback","interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK"]
+description: Callback that receives events from an Interaction Context object.
+helpviewer_keywords: ["INTERACTION_CONTEXT_OUTPUT_CALLBACK","INTERACTION_CONTEXT_OUTPUT_CALLBACK callback","INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function","input_intcontext.interaction_context_output_callback","interactioncontext.interaction_context_output_callback","interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK"]
 old-location: input_intcontext\interaction_context_output_callback.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 7d2badad-5b98-4717-9409-5ee75d8fa213
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT_CALLBACK, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function, input_intcontext.interaction_context_output_callback, interactioncontext.interaction_context_output_callback, interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK

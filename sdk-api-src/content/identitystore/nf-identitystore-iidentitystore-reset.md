@@ -1,9 +1,10 @@
 ---
 UID: NF:identitystore.IIdentityStore.Reset
 title: IIdentityStore::Reset (identitystore.h)
-description: Sets the current index of the identity enumeration to zero.helpviewer_keywords: ["IIdentityStore interface [Security]","Reset method","IIdentityStore.Reset","IIdentityStore::Reset","Reset","Reset method [Security]","Reset method [Security]","IIdentityStore interface","identitystore/IIdentityStore::Reset","security.iidentitystore_reset"]
+description: Sets the current index of the identity enumeration to zero.
+helpviewer_keywords: ["IIdentityStore interface [Security]","Reset method","IIdentityStore.Reset","IIdentityStore::Reset","Reset","Reset method [Security]","Reset method [Security]","IIdentityStore interface","identitystore/IIdentityStore::Reset","security.iidentitystore_reset"]
 old-location: security\iidentitystore_reset.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3a01fde0-0ef6-401a-8af4-ee3310da568a
 ms.date: 12/05/2018
 ms.keywords: IIdentityStore interface [Security],Reset method, IIdentityStore.Reset, IIdentityStore::Reset, Reset, Reset method [Security], Reset method [Security],IIdentityStore interface, identitystore/IIdentityStore::Reset, security.iidentitystore_reset

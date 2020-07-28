@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IObjectIds
 title: IObjectIds (certenroll.h)
-description: The IObjectIds interface defines methods and properties that enable you to manage a collection of IObjectId objects.helpviewer_keywords: ["IObjectIds","IObjectIds interface [Security]","IObjectIds interface [Security]","described","certenroll/IObjectIds","security.iobjectids"]
+description: The IObjectIds interface defines methods and properties that enable you to manage a collection of IObjectId objects.
+helpviewer_keywords: ["IObjectIds","IObjectIds interface [Security]","IObjectIds interface [Security]","described","certenroll/IObjectIds","security.iobjectids"]
 old-location: security\iobjectids.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
 ms.date: 12/05/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids

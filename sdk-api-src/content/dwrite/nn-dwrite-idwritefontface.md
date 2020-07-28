@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteFontFace
 title: IDWriteFontFace
-description: This interface exposes various font data such as metrics, names, and glyph outlines. It contains font face type, appropriate file references, and face identification data.helpviewer_keywords: ["IDWriteFontFace","IDWriteFontFace interface [Direct Write]","IDWriteFontFace interface [Direct Write]","described","directwrite.IDWriteFontFace","dwrite/IDWriteFontFace"]
+description: This interface exposes various font data such as metrics, names, and glyph outlines. It contains font face type, appropriate file references, and face identification data.
+helpviewer_keywords: ["IDWriteFontFace","IDWriteFontFace interface [Direct Write]","IDWriteFontFace interface [Direct Write]","described","directwrite.IDWriteFontFace","dwrite/IDWriteFontFace"]
 old-location: directwrite\IDWriteFontFace.htm
 tech.root: DirectWrite
 ms.assetid: 1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8

@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SearchTreeForFileW
 title: SearchTreeForFileW function (dbghelp.h)
-description: Searches a directory tree for a specified file.helpviewer_keywords: ["SearchTreeForFile","SearchTreeForFile function","SearchTreeForFileW","_win32_searchtreeforfile","base.searchtreeforfile","dbghelp/SearchTreeForFile","dbghelp/SearchTreeForFileW"]
+description: Searches a directory tree for a specified file.
+helpviewer_keywords: ["SearchTreeForFile","SearchTreeForFile function","SearchTreeForFileW","_win32_searchtreeforfile","base.searchtreeforfile","dbghelp/SearchTreeForFile","dbghelp/SearchTreeForFileW"]
 old-location: base\searchtreeforfile.htm
 tech.root: Debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
@@ -105,6 +106,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SearchTreeForFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

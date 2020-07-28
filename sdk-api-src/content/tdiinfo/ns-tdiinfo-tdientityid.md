@@ -1,9 +1,10 @@
 ---
 UID: NS:tdiinfo.TDIEntityID
 title: TDIEntityID (tdiinfo.h)
-description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.helpviewer_keywords: ["AT_ENTITY","CL_NL_ENTITY","CL_TL_ENTITY","CO_NL_ENTITY","CO_TL_ENTITY","ER_ENTITY","GENERIC_ENTITY","IF_ENTITY","TDIEntityID","TDIEntityID structure [Windows API]","tdiinfo/TDIEntityID","winprog.tdientityid"]
+description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.
+helpviewer_keywords: ["AT_ENTITY","CL_NL_ENTITY","CL_TL_ENTITY","CO_NL_ENTITY","CO_TL_ENTITY","ER_ENTITY","GENERIC_ENTITY","IF_ENTITY","TDIEntityID","TDIEntityID structure [Windows API]","tdiinfo/TDIEntityID","winprog.tdientityid"]
 old-location: winprog\tdientityid.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
 ms.date: 12/05/2018
 ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, ER_ENTITY, GENERIC_ENTITY, IF_ENTITY, TDIEntityID, TDIEntityID structure [Windows API], tdiinfo/TDIEntityID, winprog.tdientityid

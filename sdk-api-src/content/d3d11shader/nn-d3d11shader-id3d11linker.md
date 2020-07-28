@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11shader.ID3D11Linker
 title: ID3D11Linker (d3d11shader.h)
-description: A linker interface is used to link a shader module.helpviewer_keywords: ["ID3D11Linker","ID3D11Linker interface [Direct3D 11]","ID3D11Linker interface [Direct3D 11]","described","d3d11shader/ID3D11Linker","direct3d11.id3d11linker"]
+description: A linker interface is used to link a shader module.
+helpviewer_keywords: ["ID3D11Linker","ID3D11Linker interface [Direct3D 11]","ID3D11Linker interface [Direct3D 11]","described","d3d11shader/ID3D11Linker","direct3d11.id3d11linker"]
 old-location: direct3d11\id3d11linker.htm
 tech.root: direct3d11
 ms.assetid: 08967A5F-AAAE-4352-A8A9-C7B1ED16EF25

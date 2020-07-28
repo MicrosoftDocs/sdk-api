@@ -1,9 +1,10 @@
 ---
 UID: NF:winscard.SCardReleaseStartedEvent
 title: SCardReleaseStartedEvent function (winscard.h)
-description: Decrements the reference count for a handle acquired by a previous call to the SCardAccessStartedEvent function.helpviewer_keywords: ["SCardReleaseStartedEvent","SCardReleaseStartedEvent function [Security]","_smart_scardreleasestartedevent","security.scardreleasestartedevent","winscard/SCardReleaseStartedEvent"]
+description: Decrements the reference count for a handle acquired by a previous call to the SCardAccessStartedEvent function.
+helpviewer_keywords: ["SCardReleaseStartedEvent","SCardReleaseStartedEvent function [Security]","_smart_scardreleasestartedevent","security.scardreleasestartedevent","winscard/SCardReleaseStartedEvent"]
 old-location: security\scardreleasestartedevent.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
 ms.date: 12/05/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent

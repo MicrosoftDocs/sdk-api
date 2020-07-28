@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveMountName
 title: ITargetInfo::SetSchemaHiveMountName (wcmconfig.h)
-description: Sets the name of the mount location of the schema hive.helpviewer_keywords: ["ITargetInfo interface [SMI]","SetSchemaHiveMountName method","ITargetInfo.SetSchemaHiveMountName","ITargetInfo::SetSchemaHiveMountName","SetSchemaHiveMountName","SetSchemaHiveMountName method [SMI]","SetSchemaHiveMountName method [SMI]","ITargetInfo interface","smi.itargetinfo_setschemahivemountname","wcmconfig/ITargetInfo::SetSchemaHiveMountName"]
+description: Sets the name of the mount location of the schema hive.
+helpviewer_keywords: ["ITargetInfo interface [SMI]","SetSchemaHiveMountName method","ITargetInfo.SetSchemaHiveMountName","ITargetInfo::SetSchemaHiveMountName","SetSchemaHiveMountName","SetSchemaHiveMountName method [SMI]","SetSchemaHiveMountName method [SMI]","ITargetInfo interface","smi.itargetinfo_setschemahivemountname","wcmconfig/ITargetInfo::SetSchemaHiveMountName"]
 old-location: smi\itargetinfo_setschemahivemountname.htm
 tech.root: SMI
 ms.assetid: 128cf457-c66e-49b7-88a7-3f5d87800a20

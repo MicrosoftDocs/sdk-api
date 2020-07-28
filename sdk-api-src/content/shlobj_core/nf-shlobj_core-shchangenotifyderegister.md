@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyDeregister
 title: SHChangeNotifyDeregister function (shlobj_core.h)
-description: Unregisters the client's window process from receiving SHChangeNotify messages.helpviewer_keywords: ["NTSHChangeNotifyDeregister","SHChangeNotifyDeregister","SHChangeNotifyDeregister function [Windows Shell]","_win32_SHChangeNotifyDeregister","shell.SHChangeNotifyDeregister","shlobj_core/NTSHChangeNotifyDeregister","shlobj_core/SHChangeNotifyDeregister"]
+description: Unregisters the client's window process from receiving SHChangeNotify messages.
+helpviewer_keywords: ["NTSHChangeNotifyDeregister","SHChangeNotifyDeregister","SHChangeNotifyDeregister function [Windows Shell]","_win32_SHChangeNotifyDeregister","shell.SHChangeNotifyDeregister","shlobj_core/NTSHChangeNotifyDeregister","shlobj_core/SHChangeNotifyDeregister"]
 old-location: shell\SHChangeNotifyDeregister.htm
 tech.root: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f

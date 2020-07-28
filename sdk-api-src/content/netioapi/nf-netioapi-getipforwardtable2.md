@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetIpForwardTable2
 title: GetIpForwardTable2 function (netioapi.h)
-description: The GetIpForwardTable2 function retrieves the IP route entries on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpForwardTable2","GetIpForwardTable2 function [IP Helper]","iphlp.getipforwardtable2","netioapi/GetIpForwardTable2"]
+description: The GetIpForwardTable2 function retrieves the IP route entries on the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpForwardTable2","GetIpForwardTable2 function [IP Helper]","iphlp.getipforwardtable2","netioapi/GetIpForwardTable2"]
 old-location: iphlp\getipforwardtable2.htm
 tech.root: IpHlp
 ms.assetid: 14412ef1-d970-419d-abfa-389f6ceb638d

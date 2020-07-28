@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegisteredTask.RunEx
 title: IRegisteredTask::RunEx (taskschd.h)
-description: Runs the registered task immediately using specified flags and a session identifier.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","RunEx method","IRegisteredTask.RunEx","IRegisteredTask::RunEx","RunEx","RunEx method [Task Scheduler]","RunEx method [Task Scheduler]","IRegisteredTask interface","taskschd.iregisteredtask_runex","taskschd/IRegisteredTask::RunEx"]
+description: Runs the registered task immediately using specified flags and a session identifier.
+helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","RunEx method","IRegisteredTask.RunEx","IRegisteredTask::RunEx","RunEx","RunEx method [Task Scheduler]","RunEx method [Task Scheduler]","IRegisteredTask interface","taskschd.iregisteredtask_runex","taskschd/IRegisteredTask::RunEx"]
 old-location: taskschd\iregisteredtask_runex.htm
 tech.root: taskschd
 ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e

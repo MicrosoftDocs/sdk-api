@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_CONTENT_INFO
 title: CMC_TAGGED_CONTENT_INFO (wincrypt.h)
-description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.helpviewer_keywords: ["*PCMC_TAGGED_CONTENT_INFO","CMC_TAGGED_CONTENT_INFO","CMC_TAGGED_CONTENT_INFO structure [Security]","PCMC_TAGGED_CONTENT_INFO","PCMC_TAGGED_CONTENT_INFO structure pointer [Security]","_crypto2_cmc_tagged_content_info","security.cmc_tagged_content_info","wincrypt/CMC_TAGGED_CONTENT_INFO","wincrypt/PCMC_TAGGED_CONTENT_INFO"]
+description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
+helpviewer_keywords: ["*PCMC_TAGGED_CONTENT_INFO","CMC_TAGGED_CONTENT_INFO","CMC_TAGGED_CONTENT_INFO structure [Security]","PCMC_TAGGED_CONTENT_INFO","PCMC_TAGGED_CONTENT_INFO structure pointer [Security]","_crypto2_cmc_tagged_content_info","security.cmc_tagged_content_info","wincrypt/CMC_TAGGED_CONTENT_INFO","wincrypt/PCMC_TAGGED_CONTENT_INFO"]
 old-location: security\cmc_tagged_content_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ff10dcdf-4c76-434a-a8bd-78d64ea24d23
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO structure [Security], PCMC_TAGGED_CONTENT_INFO, PCMC_TAGGED_CONTENT_INFO structure pointer [Security], _crypto2_cmc_tagged_content_info, security.cmc_tagged_content_info, wincrypt/CMC_TAGGED_CONTENT_INFO, wincrypt/PCMC_TAGGED_CONTENT_INFO'

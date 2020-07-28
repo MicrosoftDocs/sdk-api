@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMemAllocatorNotifyCallbackTemp.NotifyRelease
 title: IMemAllocatorNotifyCallbackTemp::NotifyRelease (strmif.h)
-description: The NotifyRelease method is called whenever the allocator's IMemAllocator::ReleaseBuffer method is called. The ReleaseBuffer method returns a media sample to the allocator's free list. Samples call this method when their reference counts reach zero.helpviewer_keywords: ["IMemAllocatorNotifyCallbackTemp interface [DirectShow]","NotifyRelease method","IMemAllocatorNotifyCallbackTemp.NotifyRelease","IMemAllocatorNotifyCallbackTemp::NotifyRelease","IMemAllocatorNotifyCallbackTempNotifyRelease","NotifyRelease","NotifyRelease method [DirectShow]","NotifyRelease method [DirectShow]","IMemAllocatorNotifyCallbackTemp interface","dshow.imemallocatornotifycallbacktemp_notifyrelease","strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease"]
+description: The NotifyRelease method is called whenever the allocator's IMemAllocator::ReleaseBuffer method is called. The ReleaseBuffer method returns a media sample to the allocator's free list. Samples call this method when their reference counts reach zero.
+helpviewer_keywords: ["IMemAllocatorNotifyCallbackTemp interface [DirectShow]","NotifyRelease method","IMemAllocatorNotifyCallbackTemp.NotifyRelease","IMemAllocatorNotifyCallbackTemp::NotifyRelease","IMemAllocatorNotifyCallbackTempNotifyRelease","NotifyRelease","NotifyRelease method [DirectShow]","NotifyRelease method [DirectShow]","IMemAllocatorNotifyCallbackTemp interface","dshow.imemallocatornotifycallbacktemp_notifyrelease","strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease"]
 old-location: dshow\imemallocatornotifycallbacktemp_notifyrelease.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: deb5d97c-67f7-48ae-b408-1af89477b1b7
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp interface [DirectShow],NotifyRelease method, IMemAllocatorNotifyCallbackTemp.NotifyRelease, IMemAllocatorNotifyCallbackTemp::NotifyRelease, IMemAllocatorNotifyCallbackTempNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IMemAllocatorNotifyCallbackTemp interface, dshow.imemallocatornotifycallbacktemp_notifyrelease, strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease

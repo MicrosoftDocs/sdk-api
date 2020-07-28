@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.MoveFileTransactedA
 title: MoveFileTransactedA function (winbase.h)
-description: Moves an existing file or a directory, including its children, as a transacted operation.helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED","MOVEFILE_CREATE_HARDLINK","MOVEFILE_DELAY_UNTIL_REBOOT","MOVEFILE_REPLACE_EXISTING","MOVEFILE_WRITE_THROUGH","MoveFileTransacted","MoveFileTransacted function [Files]","MoveFileTransactedA","MoveFileTransactedW","fs.movefiletransacted","rename file [Files]","winbase/MoveFileTransacted","winbase/MoveFileTransactedA","winbase/MoveFileTransactedW"]
+description: Moves an existing file or a directory, including its children, as a transacted operation.
+helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED","MOVEFILE_CREATE_HARDLINK","MOVEFILE_DELAY_UNTIL_REBOOT","MOVEFILE_REPLACE_EXISTING","MOVEFILE_WRITE_THROUGH","MoveFileTransacted","MoveFileTransacted function [Files]","MoveFileTransactedA","MoveFileTransactedW","fs.movefiletransacted","rename file [Files]","winbase/MoveFileTransacted","winbase/MoveFileTransactedA","winbase/MoveFileTransactedW"]
 old-location: fs\movefiletransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 466d733b-30d2-4297-a0e6-77038f1a21d5
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileTransacted, MoveFileTransacted function [Files], MoveFileTransactedA, MoveFileTransactedW, fs.movefiletransacted, rename file [Files], winbase/MoveFileTransacted, winbase/MoveFileTransactedA, winbase/MoveFileTransactedW
@@ -243,7 +244,7 @@ If the <i>dwFlags</i> parameter specifies
     <b>MoveFileTransacted</b> fails if it cannot access the registry. The 
     function transactionally stores the locations of the files to be renamed at restart in the following registry 
     value:
-    <b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>Session Manager</b>\<b>PendingFileRenameOperations</b>
+    <b>HKEY_LOCAL_MACHINE</b>\\<b>SYSTEM</b>\\<b>CurrentControlSet</b>\\<b>Control</b>\\<b>Session Manager</b>\\<b>PendingFileRenameOperations</b>
 
 
 
@@ -340,6 +341,10 @@ SMB 3.0 does not support TxF.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines MoveFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -359,6 +364,3 @@ SMB 3.0 does not support TxF.
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
  
-
- 
-

@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertPropertyRequestOriginator
 title: ICertPropertyRequestOriginator (certenroll.h)
-description: Represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was created.helpviewer_keywords: ["ICertPropertyRequestOriginator","ICertPropertyRequestOriginator interface [Security]","ICertPropertyRequestOriginator interface [Security]","described","certenroll/ICertPropertyRequestOriginator","security.icertpropertyrequestoriginator"]
+description: Represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was created.
+helpviewer_keywords: ["ICertPropertyRequestOriginator","ICertPropertyRequestOriginator interface [Security]","ICertPropertyRequestOriginator interface [Security]","described","certenroll/ICertPropertyRequestOriginator","security.icertpropertyrequestoriginator"]
 old-location: security\icertpropertyrequestoriginator.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator

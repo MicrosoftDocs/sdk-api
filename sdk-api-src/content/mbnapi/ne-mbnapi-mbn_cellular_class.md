@@ -1,7 +1,8 @@
 ---
 UID: NE:mbnapi.MBN_CELLULAR_CLASS
 title: MBN_CELLULAR_CLASS (mbnapi.h)
-description: The MBN_CELLULAR_CLASS enumerated type defines the type of cellular device.helpviewer_keywords: ["MBN_CELLULAR_CLASS","MBN_CELLULAR_CLASS enumeration [Microsoft Broadband Networks]","MBN_CELLULAR_CLASS_CDMA","MBN_CELLULAR_CLASS_GSM","MBN_CELLULAR_CLASS_NONE","mbn.mbn_cellular_class","mbnapi/MBN_CELLULAR_CLASS","mbnapi/MBN_CELLULAR_CLASS_CDMA","mbnapi/MBN_CELLULAR_CLASS_GSM","mbnapi/MBN_CELLULAR_CLASS_NONE"]
+description: The MBN_CELLULAR_CLASS enumerated type defines the type of cellular device.
+helpviewer_keywords: ["MBN_CELLULAR_CLASS","MBN_CELLULAR_CLASS enumeration [Microsoft Broadband Networks]","MBN_CELLULAR_CLASS_CDMA","MBN_CELLULAR_CLASS_GSM","MBN_CELLULAR_CLASS_NONE","mbn.mbn_cellular_class","mbnapi/MBN_CELLULAR_CLASS","mbnapi/MBN_CELLULAR_CLASS_CDMA","mbnapi/MBN_CELLULAR_CLASS_GSM","mbnapi/MBN_CELLULAR_CLASS_NONE"]
 old-location: mbn\mbn_cellular_class.htm
 tech.root: mbn
 ms.assetid: 2d75c20b-1ae4-4824-8918-41c20327a007

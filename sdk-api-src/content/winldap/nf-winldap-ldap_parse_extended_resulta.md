@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_parse_extended_resultA
 title: ldap_parse_extended_resultA function (winldap.h)
-description: The ldap_parse_extended_result parses the results of an LDAP extended operation.helpviewer_keywords: ["_ldap_ldap_parse_extended_result","ldap.ldap__parse__extended__result","ldap.ldap_parse_extended_result","ldap_parse_extended_result","ldap_parse_extended_result function [LDAP]","ldap_parse_extended_resultA","ldap_parse_extended_resultW","winldap/ldap_parse_extended_result","winldap/ldap_parse_extended_resultA","winldap/ldap_parse_extended_resultW"]
+description: The ldap_parse_extended_result parses the results of an LDAP extended operation.
+helpviewer_keywords: ["_ldap_ldap_parse_extended_result","ldap.ldap__parse__extended__result","ldap.ldap_parse_extended_result","ldap_parse_extended_result","ldap_parse_extended_result function [LDAP]","ldap_parse_extended_resultA","ldap_parse_extended_resultW","winldap/ldap_parse_extended_result","winldap/ldap_parse_extended_resultA","winldap/ldap_parse_extended_resultW"]
 old-location: ldap\ldap_parse_extended_result.htm
 tech.root: ldap
 ms.assetid: b869c8e9-022c-437c-ba06-cb98a59c8c2d
@@ -67,7 +68,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> in response to an extended operation request.
 
 
@@ -112,6 +113,8 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 
 
 
+> [!NOTE]
+> The winldap.h header defines ldap_parse_extended_result as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -121,10 +124,7 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Pause
 title: ITMediaControl::Pause (tapi3if.h)
-description: The Pause method pauses the action, remaining at the current location in the file.helpviewer_keywords: ["ITMediaControl interface [TAPI 2.2]","Pause method","ITMediaControl.Pause","ITMediaControl::Pause","Pause","Pause method [TAPI 2.2]","Pause method [TAPI 2.2]","ITMediaControl interface","_tapi3_itmediacontrol_pause","tapi3.itmediacontrol_pause","tapi3if/ITMediaControl::Pause"]
+description: The Pause method pauses the action, remaining at the current location in the file.
+helpviewer_keywords: ["ITMediaControl interface [TAPI 2.2]","Pause method","ITMediaControl.Pause","ITMediaControl::Pause","Pause","Pause method [TAPI 2.2]","Pause method [TAPI 2.2]","ITMediaControl interface","_tapi3_itmediacontrol_pause","tapi3.itmediacontrol_pause","tapi3if/ITMediaControl::Pause"]
 old-location: tapi3\itmediacontrol_pause.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ede287ff-2f13-4258-9afe-f6d0958e53b4
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Pause method, ITMediaControl.Pause, ITMediaControl::Pause, Pause, Pause method [TAPI 2.2], Pause method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_pause, tapi3.itmediacontrol_pause, tapi3if/ITMediaControl::Pause

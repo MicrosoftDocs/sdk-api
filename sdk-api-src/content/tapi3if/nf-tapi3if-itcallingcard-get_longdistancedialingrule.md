@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_LongDistanceDialingRule
 title: ITCallingCard::get_LongDistanceDialingRule (tapi3if.h)
-description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.helpviewer_keywords: ["ITCallingCard interface [TAPI 2.2]","get_LongDistanceDialingRule method","ITCallingCard.get_LongDistanceDialingRule","ITCallingCard::get_LongDistanceDialingRule","_tapi3_itcallingcard_get_longdistancedialingrule","get_LongDistanceDialingRule","get_LongDistanceDialingRule method [TAPI 2.2]","get_LongDistanceDialingRule method [TAPI 2.2]","ITCallingCard interface","tapi3.itcallingcard_get_longdistancedialingrule","tapi3if/ITCallingCard::get_LongDistanceDialingRule"]
+description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.
+helpviewer_keywords: ["ITCallingCard interface [TAPI 2.2]","get_LongDistanceDialingRule method","ITCallingCard.get_LongDistanceDialingRule","ITCallingCard::get_LongDistanceDialingRule","_tapi3_itcallingcard_get_longdistancedialingrule","get_LongDistanceDialingRule","get_LongDistanceDialingRule method [TAPI 2.2]","get_LongDistanceDialingRule method [TAPI 2.2]","ITCallingCard interface","tapi3.itcallingcard_get_longdistancedialingrule","tapi3if/ITCallingCard::get_LongDistanceDialingRule"]
 old-location: tapi3\itcallingcard_get_longdistancedialingrule.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 97ad3528-ee84-4b61-9d08-55d3500432dd
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_LongDistanceDialingRule method, ITCallingCard.get_LongDistanceDialingRule, ITCallingCard::get_LongDistanceDialingRule, _tapi3_itcallingcard_get_longdistancedialingrule, get_LongDistanceDialingRule, get_LongDistanceDialingRule method [TAPI 2.2], get_LongDistanceDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_longdistancedialingrule, tapi3if/ITCallingCard::get_LongDistanceDialingRule

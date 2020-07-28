@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetEventID
 title: ISyncMgrEvent::GetEventID (syncmgr.h)
-description: Gets the event ID.helpviewer_keywords: ["GetEventID","GetEventID method [Windows Shell]","GetEventID method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetEventID method","ISyncMgrEvent.GetEventID","ISyncMgrEvent::GetEventID","_shell_ISyncMgrEvent_GetEventID","shell.ISyncMgrEvent_GetEventID","syncmgr/ISyncMgrEvent::GetEventID"]
+description: Gets the event ID.
+helpviewer_keywords: ["GetEventID","GetEventID method [Windows Shell]","GetEventID method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetEventID method","ISyncMgrEvent.GetEventID","ISyncMgrEvent::GetEventID","_shell_ISyncMgrEvent_GetEventID","shell.ISyncMgrEvent_GetEventID","syncmgr/ISyncMgrEvent::GetEventID"]
 old-location: shell\ISyncMgrEvent_GetEventID.htm
 tech.root: shell
 ms.assetid: 2951a015-b365-468b-a143-1b807885a99a

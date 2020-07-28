@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_AudioFrequency
 title: IAMTVTuner::get_AudioFrequency (strmif.h)
-description: The get_AudioFrequency method retrieves the currently tuned audio frequency.helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_AudioFrequency method","IAMTVTuner.get_AudioFrequency","IAMTVTuner::get_AudioFrequency","IAMTVTunerget_AudioFrequency","dshow.iamtvtuner_get_audiofrequency","get_AudioFrequency","get_AudioFrequency method [DirectShow]","get_AudioFrequency method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_AudioFrequency"]
+description: The get_AudioFrequency method retrieves the currently tuned audio frequency.
+helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_AudioFrequency method","IAMTVTuner.get_AudioFrequency","IAMTVTuner::get_AudioFrequency","IAMTVTunerget_AudioFrequency","dshow.iamtvtuner_get_audiofrequency","get_AudioFrequency","get_AudioFrequency method [DirectShow]","get_AudioFrequency method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_AudioFrequency"]
 old-location: dshow\iamtvtuner_get_audiofrequency.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7d0d288a-7ad0-40ad-b86e-9df9447ed484
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_AudioFrequency method, IAMTVTuner.get_AudioFrequency, IAMTVTuner::get_AudioFrequency, IAMTVTunerget_AudioFrequency, dshow.iamtvtuner_get_audiofrequency, get_AudioFrequency, get_AudioFrequency method [DirectShow], get_AudioFrequency method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AudioFrequency

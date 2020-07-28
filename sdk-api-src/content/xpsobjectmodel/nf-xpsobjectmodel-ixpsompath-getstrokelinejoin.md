@@ -4,7 +4,7 @@ title: IXpsOMPath::GetStrokeLineJoin (xpsobjectmodel.h)
 description: Gets the style for joining stroke lines.
 helpviewer_keywords: ["GetStrokeLineJoin","GetStrokeLineJoin method [XPS Documents and Packaging]","GetStrokeLineJoin method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeLineJoin method","IXpsOMPath.GetStrokeLineJoin","IXpsOMPath::GetStrokeLineJoin","xps.ixpsompath_getstrokelinejoin","xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin"]
 old-location: xps\ixpsompath_getstrokelinejoin.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 3e460f22-7997-419a-86b7-a0beace1bc27
 ms.date: 12/05/2018
 ms.keywords: GetStrokeLineJoin, GetStrokeLineJoin method [XPS Documents and Packaging], GetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeLineJoin method, IXpsOMPath.GetStrokeLineJoin, IXpsOMPath::GetStrokeLineJoin, xps.ixpsompath_getstrokelinejoin, xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin

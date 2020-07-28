@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeyTraceEventSink.OnKeyTraceDown
 title: ITfKeyTraceEventSink::OnKeyTraceDown (msctf.h)
-description: ITfKeyTraceEventSink::OnKeyTraceDown methodhelpviewer_keywords: ["ITfKeyTraceEventSink interface [Text Services Framework]","OnKeyTraceDown method","ITfKeyTraceEventSink.OnKeyTraceDown","ITfKeyTraceEventSink::OnKeyTraceDown","OnKeyTraceDown","OnKeyTraceDown method [Text Services Framework]","OnKeyTraceDown method [Text Services Framework]","ITfKeyTraceEventSink interface","_tsf_itfkeytraceeventsink_onkeytracedown_ref","msctf/ITfKeyTraceEventSink::OnKeyTraceDown","tsf.itfkeytraceeventsink_onkeytracedown"]
+description: ITfKeyTraceEventSink::OnKeyTraceDown method
+helpviewer_keywords: ["ITfKeyTraceEventSink interface [Text Services Framework]","OnKeyTraceDown method","ITfKeyTraceEventSink.OnKeyTraceDown","ITfKeyTraceEventSink::OnKeyTraceDown","OnKeyTraceDown","OnKeyTraceDown method [Text Services Framework]","OnKeyTraceDown method [Text Services Framework]","ITfKeyTraceEventSink interface","_tsf_itfkeytraceeventsink_onkeytracedown_ref","msctf/ITfKeyTraceEventSink::OnKeyTraceDown","tsf.itfkeytraceeventsink_onkeytracedown"]
 old-location: tsf\itfkeytraceeventsink_onkeytracedown.htm
 tech.root: TSF
 ms.assetid: 826b45cd-a1ec-406c-bf7a-685a766484e3

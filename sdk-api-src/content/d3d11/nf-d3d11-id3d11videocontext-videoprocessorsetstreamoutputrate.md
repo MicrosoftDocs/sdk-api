@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamOutputRate
 title: ID3D11VideoContext::VideoProcessorSetStreamOutputRate (d3d11.h)
-description: Sets the rate at which the video processor produces output frames for an input stream.helpviewer_keywords: ["FALSE","ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamOutputRate method","ID3D11VideoContext.VideoProcessorSetStreamOutputRate","ID3D11VideoContext::VideoProcessorSetStreamOutputRate","TRUE","VideoProcessorSetStreamOutputRate","VideoProcessorSetStreamOutputRate method [Media Foundation]","VideoProcessorSetStreamOutputRate method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate","mf.id3d11videocontext_videoprocessorsetstreamoutputrate"]
+description: Sets the rate at which the video processor produces output frames for an input stream.
+helpviewer_keywords: ["FALSE","ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamOutputRate method","ID3D11VideoContext.VideoProcessorSetStreamOutputRate","ID3D11VideoContext::VideoProcessorSetStreamOutputRate","TRUE","VideoProcessorSetStreamOutputRate","VideoProcessorSetStreamOutputRate method [Media Foundation]","VideoProcessorSetStreamOutputRate method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate","mf.id3d11videocontext_videoprocessorsetstreamoutputrate"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamoutputrate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D353F6E8-B465-46CB-AA47-8B097AB4AF2A
 ms.date: 12/05/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamOutputRate method, ID3D11VideoContext.VideoProcessorSetStreamOutputRate, ID3D11VideoContext::VideoProcessorSetStreamOutputRate, TRUE, VideoProcessorSetStreamOutputRate, VideoProcessorSetStreamOutputRate method [Media Foundation], VideoProcessorSetStreamOutputRate method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate, mf.id3d11videocontext_videoprocessorsetstreamoutputrate

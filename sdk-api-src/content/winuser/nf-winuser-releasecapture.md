@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ReleaseCapture
 title: ReleaseCapture function (winuser.h)
-description: Releases the mouse capture from a window in the current thread and restores normal mouse input processing.helpviewer_keywords: ["ReleaseCapture","ReleaseCapture function [Keyboard and Mouse Input]","_win32_ReleaseCapture","_win32_releasecapture_cpp","inputdev.releasecapture","winui._win32_releasecapture","winuser/ReleaseCapture"]
+description: Releases the mouse capture from a window in the current thread and restores normal mouse input processing.
+helpviewer_keywords: ["ReleaseCapture","ReleaseCapture function [Keyboard and Mouse Input]","_win32_ReleaseCapture","_win32_releasecapture_cpp","inputdev.releasecapture","winui._win32_releasecapture","winuser/ReleaseCapture"]
 old-location: inputdev\releasecapture.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\releasecapture.htm

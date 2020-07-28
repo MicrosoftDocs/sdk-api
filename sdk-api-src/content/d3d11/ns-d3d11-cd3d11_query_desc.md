@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.CD3D11_QUERY_DESC
 title: CD3D11_QUERY_DESC (d3d11.h)
-description: Represents a query and provides convenience methods for creating queries.helpviewer_keywords: ["CD3D11_QUERY_DESC","CD3D11_QUERY_DESC structure [Direct3D 11]","d3d11/CD3D11_QUERY_DESC","direct3d11.cd3d11_query_desc"]
+description: Represents a query and provides convenience methods for creating queries.
+helpviewer_keywords: ["CD3D11_QUERY_DESC","CD3D11_QUERY_DESC structure [Direct3D 11]","d3d11/CD3D11_QUERY_DESC","direct3d11.cd3d11_query_desc"]
 old-location: direct3d11\cd3d11_query_desc.htm
 tech.root: direct3d11
 ms.assetid: F77E6197-550F-47ED-9619-42C8D2F16AF5

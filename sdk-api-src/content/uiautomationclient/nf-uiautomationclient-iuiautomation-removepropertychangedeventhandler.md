@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemovePropertyChangedEventHandler
 title: IUIAutomation::RemovePropertyChangedEventHandler (uiautomationclient.h)
-description: Removes a property-changed event handler.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","RemovePropertyChangedEventHandler method","IUIAutomation.RemovePropertyChangedEventHandler","IUIAutomation::RemovePropertyChangedEventHandler","RemovePropertyChangedEventHandler","RemovePropertyChangedEventHandler method [Windows Accessibility]","RemovePropertyChangedEventHandler method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler","uiauto_IUIAutomation_RemovePropertyChangedEventHandler","uiautomationclient/IUIAutomation::RemovePropertyChangedEventHandler","winauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler"]
+description: Removes a property-changed event handler.
+helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","RemovePropertyChangedEventHandler method","IUIAutomation.RemovePropertyChangedEventHandler","IUIAutomation::RemovePropertyChangedEventHandler","RemovePropertyChangedEventHandler","RemovePropertyChangedEventHandler method [Windows Accessibility]","RemovePropertyChangedEventHandler method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler","uiauto_IUIAutomation_RemovePropertyChangedEventHandler","uiautomationclient/IUIAutomation::RemovePropertyChangedEventHandler","winauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation_RemovePropertyChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: d8f7600f-a33e-4f30-ae8e-423f9c71edbe

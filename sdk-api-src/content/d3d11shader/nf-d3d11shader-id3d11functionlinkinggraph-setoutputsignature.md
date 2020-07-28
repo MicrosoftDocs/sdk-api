@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.SetOutputSignature
 title: ID3D11FunctionLinkingGraph::SetOutputSignature (d3d11shader.h)
-description: Sets the output signature of the function-linking-graph.helpviewer_keywords: ["ID3D11FunctionLinkingGraph interface [Direct3D 11]","SetOutputSignature method","ID3D11FunctionLinkingGraph.SetOutputSignature","ID3D11FunctionLinkingGraph::SetOutputSignature","SetOutputSignature","SetOutputSignature method [Direct3D 11]","SetOutputSignature method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","d3d11shader/ID3D11FunctionLinkingGraph::SetOutputSignature","direct3d11.id3d11functionlinkinggraph_setoutputsignature"]
+description: Sets the output signature of the function-linking-graph.
+helpviewer_keywords: ["ID3D11FunctionLinkingGraph interface [Direct3D 11]","SetOutputSignature method","ID3D11FunctionLinkingGraph.SetOutputSignature","ID3D11FunctionLinkingGraph::SetOutputSignature","SetOutputSignature","SetOutputSignature method [Direct3D 11]","SetOutputSignature method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","d3d11shader/ID3D11FunctionLinkingGraph::SetOutputSignature","direct3d11.id3d11functionlinkinggraph_setoutputsignature"]
 old-location: direct3d11\id3d11functionlinkinggraph_setoutputsignature.htm
 tech.root: direct3d11
 ms.assetid: C32E3BF1-E08C-4949-A8DE-4359704D2E40

@@ -1,9 +1,10 @@
 ---
 UID: NF:versionhelpers.IsWindows7SP1OrGreater
 title: IsWindows7SP1OrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the Windows 7 with Service Pack 1 (SP1) version.helpviewer_keywords: ["IsWindows7SP1OrGreater","IsWindows7SP1OrGreater function","base.iswindows7sp1orgreater","versionhelpers/IsWindows7SP1OrGreater"]
+description: Indicates if the current OS version matches, or is greater than, the Windows 7 with Service Pack 1 (SP1) version.
+helpviewer_keywords: ["IsWindows7SP1OrGreater","IsWindows7SP1OrGreater function","base.iswindows7sp1orgreater","versionhelpers/IsWindows7SP1OrGreater"]
 old-location: base\iswindows7sp1orgreater.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: E8AD3423-91EF-4ECE-9EF2-808C68CEA861
 ms.date: 12/05/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater

@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdsapi._DS_REPL_ATTR_META_DATA_BLOB
 title: DS_REPL_ATTR_META_DATA_BLOB (ntdsapi.h)
-description: The DS_REPL_ATTR_META_DATA_BLOB structure is used to contain replication state data for an object attribute.helpviewer_keywords: ["DS_REPL_ATTR_META_DATA_BLOB","DS_REPL_ATTR_META_DATA_BLOB structure [Active Directory]","ad.ds_repl_attr_meta_data_blob","ntdsapi/DS_REPL_ATTR_META_DATA_BLOB"]
+description: The DS_REPL_ATTR_META_DATA_BLOB structure is used to contain replication state data for an object attribute.
+helpviewer_keywords: ["DS_REPL_ATTR_META_DATA_BLOB","DS_REPL_ATTR_META_DATA_BLOB structure [Active Directory]","ad.ds_repl_attr_meta_data_blob","ntdsapi/DS_REPL_ATTR_META_DATA_BLOB"]
 old-location: ad\ds_repl_attr_meta_data_blob.htm
 tech.root: ad
 ms.assetid: eee12de1-287a-4e76-9a9c-37e6b967971f

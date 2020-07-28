@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsSwProvider.CreatePack
 title: IVdsSwProvider::CreatePack (vds.h)
-description: Creates a pack object.helpviewer_keywords: ["CreatePack","CreatePack method [VDS]","CreatePack method [VDS]","IVdsSwProvider interface","IVdsSwProvider interface [VDS]","CreatePack method","IVdsSwProvider.CreatePack","IVdsSwProvider::CreatePack","base.ivdsswprovider_createpack","vds/IVdsSwProvider::CreatePack"]
+description: Creates a pack object.
+helpviewer_keywords: ["CreatePack","CreatePack method [VDS]","CreatePack method [VDS]","IVdsSwProvider interface","IVdsSwProvider interface [VDS]","CreatePack method","IVdsSwProvider.CreatePack","IVdsSwProvider::CreatePack","base.ivdsswprovider_createpack","vds/IVdsSwProvider::CreatePack"]
 old-location: base\ivdsswprovider_createpack.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
 ms.date: 12/05/2018
 ms.keywords: CreatePack, CreatePack method [VDS], CreatePack method [VDS],IVdsSwProvider interface, IVdsSwProvider interface [VDS],CreatePack method, IVdsSwProvider.CreatePack, IVdsSwProvider::CreatePack, base.ivdsswprovider_createpack, vds/IVdsSwProvider::CreatePack

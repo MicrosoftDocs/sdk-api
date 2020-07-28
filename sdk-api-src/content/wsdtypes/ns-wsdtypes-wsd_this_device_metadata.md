@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_THIS_DEVICE_METADATA
 title: WSD_THIS_DEVICE_METADATA (wsdtypes.h)
-description: Specifies metadata that is unique to a specific device.helpviewer_keywords: ["WSD_THIS_DEVICE_METADATA","WSD_THIS_DEVICE_METADATA structure","ncd.wsd_this_device_metadata_struct","wsdtypes/WSD_THIS_DEVICE_METADATA"]
+description: Specifies metadata that is unique to a specific device.
+helpviewer_keywords: ["WSD_THIS_DEVICE_METADATA","WSD_THIS_DEVICE_METADATA structure","ncd.wsd_this_device_metadata_struct","wsdtypes/WSD_THIS_DEVICE_METADATA"]
 old-location: ncd\wsd_this_device_metadata_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 7b9d063f-f0d5-4333-a5d8-e9a6d2d9af88
 ms.date: 12/05/2018
 ms.keywords: WSD_THIS_DEVICE_METADATA, WSD_THIS_DEVICE_METADATA structure, ncd.wsd_this_device_metadata_struct, wsdtypes/WSD_THIS_DEVICE_METADATA

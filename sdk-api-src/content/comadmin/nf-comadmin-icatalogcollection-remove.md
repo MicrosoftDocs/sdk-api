@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Remove
 title: ICatalogCollection::Remove (comadmin.h)
-description: Removes an item from the collection, given its index, and re-indexes the items with higher index values.helpviewer_keywords: ["ICatalogCollection interface [COM+]","Remove method","ICatalogCollection.Remove","ICatalogCollection::Remove","Remove","Remove method [COM+]","Remove method [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_Remove","comadmin/ICatalogCollection::Remove","cos.icatalogcollection_remove"]
+description: Removes an item from the collection, given its index, and re-indexes the items with higher index values.
+helpviewer_keywords: ["ICatalogCollection interface [COM+]","Remove method","ICatalogCollection.Remove","ICatalogCollection::Remove","Remove","Remove method [COM+]","Remove method [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_Remove","comadmin/ICatalogCollection::Remove","cos.icatalogcollection_remove"]
 old-location: cos\icatalogcollection_remove.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 984f60b1-0963-482c-90a3-563e8699f73d
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],Remove method, ICatalogCollection.Remove, ICatalogCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Remove, comadmin/ICatalogCollection::Remove, cos.icatalogcollection_remove

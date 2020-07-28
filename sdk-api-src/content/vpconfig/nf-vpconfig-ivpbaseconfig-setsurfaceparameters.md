@@ -1,9 +1,10 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetSurfaceParameters
 title: IVPBaseConfig::SetSurfaceParameters (vpconfig.h)
-description: The SetSurfaceParameters method informs the device of the layout of the overlay surface. The downstream filter (the Overlay Mixer, VBI Surface Allocator, or Video Port Manager) calls this method after it creates the overlay surface.helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetSurfaceParameters method","IVPBaseConfig.SetSurfaceParameters","IVPBaseConfig::SetSurfaceParameters","IVPBaseConfigSetSurfaceParameters","SetSurfaceParameters","SetSurfaceParameters method [DirectShow]","SetSurfaceParameters method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setsurfaceparameters","vpconfig/IVPBaseConfig::SetSurfaceParameters"]
+description: The SetSurfaceParameters method informs the device of the layout of the overlay surface. The downstream filter (the Overlay Mixer, VBI Surface Allocator, or Video Port Manager) calls this method after it creates the overlay surface.
+helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetSurfaceParameters method","IVPBaseConfig.SetSurfaceParameters","IVPBaseConfig::SetSurfaceParameters","IVPBaseConfigSetSurfaceParameters","SetSurfaceParameters","SetSurfaceParameters method [DirectShow]","SetSurfaceParameters method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setsurfaceparameters","vpconfig/IVPBaseConfig::SetSurfaceParameters"]
 old-location: dshow\ivpbaseconfig_setsurfaceparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4af0092e-5866-45ca-b0be-e97d9dd51b0f
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetSurfaceParameters method, IVPBaseConfig.SetSurfaceParameters, IVPBaseConfig::SetSurfaceParameters, IVPBaseConfigSetSurfaceParameters, SetSurfaceParameters, SetSurfaceParameters method [DirectShow], SetSurfaceParameters method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setsurfaceparameters, vpconfig/IVPBaseConfig::SetSurfaceParameters

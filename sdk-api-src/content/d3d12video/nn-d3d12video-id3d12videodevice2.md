@@ -1,7 +1,9 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDevice2
 title: ID3D12VideoDevice2
-description: Adds support for protected resources.helpviewer_keywords: ["ID3D12VideoDevice2"]
+description: Adds support for protected resources.
+tech.root: mf
+helpviewer_keywords: ["ID3D12VideoDevice2"]
 ms.date: 6/7/2019
 ms.keywords: ID3D12VideoDevice2
 f1_keywords:
@@ -32,13 +34,14 @@ api_name:
 - ID3D12VideoDevice2
 ---
 
+
 ## -inheritance
 
-ID3D12VideoDevice2 interits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice1).
+**ID3D12VideoDevice2** inherits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice1).
 
 ## -description
 
-Provides video decoding and processing capabilities of a Microsoft Direct3D 12 device including the ability to query video capabilities and instantiating video decoders and processors. This interface adds support for protected resources.
+Provides video decoding and processing capabilities of a Microsoft Direct3D 12 device including the ability to query video capabilities and instantiating video decoders and processors. This interface adds support for protected resources and video extension commands.
 
 ## -remarks
 
@@ -46,4 +49,3 @@ Provides video decoding and processing capabilities of a Microsoft Direct3D 12 d
 
 - [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice)
 - [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice1)
-

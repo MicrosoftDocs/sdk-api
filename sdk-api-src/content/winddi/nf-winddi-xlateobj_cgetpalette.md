@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.XLATEOBJ_cGetPalette
 title: XLATEOBJ_cGetPalette function (winddi.h)
-description: The XLATEOBJ_cGetPalette function retrieves RGB colors or the bitfields format from the specified palette.helpviewer_keywords: ["XLATEOBJ_cGetPalette","XLATEOBJ_cGetPalette function [Display Devices]","display.xlateobj_cgetpalette","gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml","winddi/XLATEOBJ_cGetPalette"]
+description: The XLATEOBJ_cGetPalette function retrieves RGB colors or the bitfields format from the specified palette.
+helpviewer_keywords: ["XLATEOBJ_cGetPalette","XLATEOBJ_cGetPalette function [Display Devices]","display.xlateobj_cgetpalette","gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml","winddi/XLATEOBJ_cGetPalette"]
 old-location: display\xlateobj_cgetpalette.htm
 tech.root: display
 ms.assetid: eec6a5ec-398a-484f-b70f-e6baaedc6abd

@@ -4,7 +4,7 @@ title: FSCTL_QUERY_REGION_INFO
 description: Retrieves the storage tier regions defined for a volume that supports data tiering.
 helpviewer_keywords: ["FSCTL_QUERY_REGION_INFO","FSCTL_QUERY_REGION_INFO control","FSCTL_QUERY_REGION_INFO control code [Files]","fs.fsctl_query_region_info","winioctl/FSCTL_QUERY_REGION_INFO"]
 old-location: fs\fsctl_query_region_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 292D377B-F7DE-489B-B686-0CE5278360BC
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_REGION_INFO, FSCTL_QUERY_REGION_INFO control, FSCTL_QUERY_REGION_INFO control code [Files], fs.fsctl_query_region_info, winioctl/FSCTL_QUERY_REGION_INFO

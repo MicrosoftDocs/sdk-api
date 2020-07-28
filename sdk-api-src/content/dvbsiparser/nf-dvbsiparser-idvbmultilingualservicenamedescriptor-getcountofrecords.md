@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
 title: IDvbMultilingualServiceNameDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of service records in a Digital Video Broadcast (DVB) multilingual service name descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbMultilingualServiceNameDescriptor interface","IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbMultilingualServiceNameDescriptor.GetCountOfRecords","IDvbMultilingualServiceNameDescriptor::GetCountOfRecords","dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords","mstv.idvbmultilingualservicenamedescriptor_getcountofrecords"]
+description: Gets the number of service records in a Digital Video Broadcast (DVB) multilingual service name descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbMultilingualServiceNameDescriptor interface","IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbMultilingualServiceNameDescriptor.GetCountOfRecords","IDvbMultilingualServiceNameDescriptor::GetCountOfRecords","dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords","mstv.idvbmultilingualservicenamedescriptor_getcountofrecords"]
 old-location: mstv\idvbmultilingualservicenamedescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: c157e520-696f-45d8-8e43-0e6845882404

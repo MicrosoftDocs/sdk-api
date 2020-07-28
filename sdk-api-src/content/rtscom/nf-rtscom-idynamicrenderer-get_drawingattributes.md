@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_DrawingAttributes
 title: IDynamicRenderer::get_DrawingAttributes (rtscom.h)
-description: Gets or sets the DrawingAttributes object used by the DynamicRenderer Class object.helpviewer_keywords: ["DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","DrawingAttributes property","IDynamicRenderer.DrawingAttributes","IDynamicRenderer.get_DrawingAttributes","IDynamicRenderer.put_DrawingAttributes","IDynamicRenderer::DrawingAttributes","IDynamicRenderer::get_DrawingAttributes","IDynamicRenderer::put_DrawingAttributes","d67a85e7-6dfc-4444-bb69-a46e1234d021","get_DrawingAttributes","rtscom/IDynamicRenderer::DrawingAttributes","rtscom/IDynamicRenderer::get_DrawingAttributes","rtscom/IDynamicRenderer::put_DrawingAttributes","tablet.idynamicrenderer_drawingattributes"]
+description: Gets or sets the DrawingAttributes object used by the DynamicRenderer Class object.
+helpviewer_keywords: ["DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","DrawingAttributes property","IDynamicRenderer.DrawingAttributes","IDynamicRenderer.get_DrawingAttributes","IDynamicRenderer.put_DrawingAttributes","IDynamicRenderer::DrawingAttributes","IDynamicRenderer::get_DrawingAttributes","IDynamicRenderer::put_DrawingAttributes","d67a85e7-6dfc-4444-bb69-a46e1234d021","get_DrawingAttributes","rtscom/IDynamicRenderer::DrawingAttributes","rtscom/IDynamicRenderer::get_DrawingAttributes","rtscom/IDynamicRenderer::put_DrawingAttributes","tablet.idynamicrenderer_drawingattributes"]
 old-location: tablet\idynamicrenderer_drawingattributes.htm
 tech.root: tablet
 ms.assetid: d67a85e7-6dfc-4444-bb69-a46e1234d021

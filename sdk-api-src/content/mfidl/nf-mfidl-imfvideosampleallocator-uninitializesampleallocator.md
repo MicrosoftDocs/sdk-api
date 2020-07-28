@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.UninitializeSampleAllocator
 title: IMFVideoSampleAllocator::UninitializeSampleAllocator (mfidl.h)
-description: Releases all of the video samples that have been allocated.helpviewer_keywords: ["7bcb0425-00ac-4fdc-83a8-2b2686979a1d","IMFVideoSampleAllocator interface [Media Foundation]","UninitializeSampleAllocator method","IMFVideoSampleAllocator.UninitializeSampleAllocator","IMFVideoSampleAllocator::UninitializeSampleAllocator","UninitializeSampleAllocator","UninitializeSampleAllocator method [Media Foundation]","UninitializeSampleAllocator method [Media Foundation]","IMFVideoSampleAllocator interface","mf.imfvideosampleallocator_uninitializesampleallocator","mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator"]
+description: Releases all of the video samples that have been allocated.
+helpviewer_keywords: ["7bcb0425-00ac-4fdc-83a8-2b2686979a1d","IMFVideoSampleAllocator interface [Media Foundation]","UninitializeSampleAllocator method","IMFVideoSampleAllocator.UninitializeSampleAllocator","IMFVideoSampleAllocator::UninitializeSampleAllocator","UninitializeSampleAllocator","UninitializeSampleAllocator method [Media Foundation]","UninitializeSampleAllocator method [Media Foundation]","IMFVideoSampleAllocator interface","mf.imfvideosampleallocator_uninitializesampleallocator","mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator"]
 old-location: mf\imfvideosampleallocator_uninitializesampleallocator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d
 ms.date: 12/05/2018
 ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator interface [Media Foundation],UninitializeSampleAllocator method, IMFVideoSampleAllocator.UninitializeSampleAllocator, IMFVideoSampleAllocator::UninitializeSampleAllocator, UninitializeSampleAllocator, UninitializeSampleAllocator method [Media Foundation], UninitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, mf.imfvideosampleallocator_uninitializesampleallocator, mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator

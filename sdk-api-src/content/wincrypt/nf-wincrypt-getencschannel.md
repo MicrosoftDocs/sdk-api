@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.GetEncSChannel
 title: GetEncSChannel function (wincrypt.h)
-description: This function is unavailable.helpviewer_keywords: ["GetEncSChannel","GetEncSChannel function [Security]","security.getencschannel","wincrypt/GetEncSChannel"]
+description: This function is unavailable.
+helpviewer_keywords: ["GetEncSChannel","GetEncSChannel function [Security]","security.getencschannel","wincrypt/GetEncSChannel"]
 old-location: security\getencschannel.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
 ms.date: 12/05/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel

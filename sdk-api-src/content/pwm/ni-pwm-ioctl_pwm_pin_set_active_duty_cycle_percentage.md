@@ -1,9 +1,10 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 title: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE (pwm.h)
-description: Set a desired duty cycle percentage value for the controller pin or channel. The control code specifies the percentage as a PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure.helpviewer_keywords: ["IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE","IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control","IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code","base.ioctl_pwm_pin_set_active_duty_cycle_percentage","pwm/IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE"]
+description: Set a desired duty cycle percentage value for the controller pin or channel. The control code specifies the percentage as a PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure.
+helpviewer_keywords: ["IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE","IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control","IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code","base.ioctl_pwm_pin_set_active_duty_cycle_percentage","pwm/IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE"]
 old-location: base\ioctl_pwm_pin_set_active_duty_cycle_percentage.htm
-tech.root: devio
+tech.root: base
 ms.assetid: A6B29913-5F91-46BD-8B96-DB00B7B1D3FF
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control, IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_set_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE

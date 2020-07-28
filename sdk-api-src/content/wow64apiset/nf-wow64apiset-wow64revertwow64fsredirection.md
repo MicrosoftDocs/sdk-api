@@ -1,9 +1,10 @@
 ---
 UID: NF:wow64apiset.Wow64RevertWow64FsRedirection
 title: Wow64RevertWow64FsRedirection function (wow64apiset.h)
-description: Restores file system redirection for the calling thread.helpviewer_keywords: ["Wow64RevertWow64FsRedirection","Wow64RevertWow64FsRedirection function [Files]","base.wow64revertwow64fsredirection","fs.wow64revertwow64fsredirection","wow64apiset/Wow64RevertWow64FsRedirection"]
+description: Restores file system redirection for the calling thread.
+helpviewer_keywords: ["Wow64RevertWow64FsRedirection","Wow64RevertWow64FsRedirection function [Files]","base.wow64revertwow64fsredirection","fs.wow64revertwow64fsredirection","wow64apiset/Wow64RevertWow64FsRedirection"]
 old-location: fs\wow64revertwow64fsredirection.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8a09bdeb-b969-48b2-a432-c78dd4177000
 ms.date: 12/05/2018
 ms.keywords: Wow64RevertWow64FsRedirection, Wow64RevertWow64FsRedirection function [Files], base.wow64revertwow64fsredirection, fs.wow64revertwow64fsredirection, wow64apiset/Wow64RevertWow64FsRedirection
@@ -101,11 +102,7 @@ If the function fails, the return value is <b>FALSE</b> (zero). To get extended 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>/<b>Wow64RevertWow64FsRedirection</b> function pair is a replacement for the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> function.
 
-To disable file system redirection, call the 
-     
-    <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function. Every call to the <b>Wow64DisableWow64FsRedirection</b> function must have a matching call to the 
-    <b>Wow64RevertWow64FsRedirection</b> 
-    function. This will ensure redirection is re-enabled and frees associated system resources.
+To disable file system redirection, call the [Wow64DisableWow64FsRedirection](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection) function. Every call to the **Wow64DisableWow64FsRedirection** function must have a matching call to the  **Wow64RevertWow64FsRedirection** function. This will ensure redirection is re-enabled and frees associated system resources.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

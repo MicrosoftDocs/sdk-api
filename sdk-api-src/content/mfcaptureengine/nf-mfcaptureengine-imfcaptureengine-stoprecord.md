@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StopRecord
 title: IMFCaptureEngine::StopRecord (mfcaptureengine.h)
-description: Stops recording.helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StopRecord method","IMFCaptureEngine.StopRecord","IMFCaptureEngine::StopRecord","StopRecord","StopRecord method [Media Foundation]","StopRecord method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_stoprecord","mfcaptureengine/IMFCaptureEngine::StopRecord"]
+description: Stops recording.
+helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StopRecord method","IMFCaptureEngine.StopRecord","IMFCaptureEngine::StopRecord","StopRecord","StopRecord method [Media Foundation]","StopRecord method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_stoprecord","mfcaptureengine/IMFCaptureEngine::StopRecord"]
 old-location: mf\imfcaptureengine_stoprecord.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 737C23E0-D4EF-4630-A460-2AE56FE50A12
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StopRecord method, IMFCaptureEngine.StopRecord, IMFCaptureEngine::StopRecord, StopRecord, StopRecord method [Media Foundation], StopRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoprecord, mfcaptureengine/IMFCaptureEngine::StopRecord

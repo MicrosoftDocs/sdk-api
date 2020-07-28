@@ -1,9 +1,10 @@
 ---
 UID: NS:winwlx._WLX_TERMINAL_SERVICES_DATA
 title: WLX_TERMINAL_SERVICES_DATA (winwlx.h)
-description: Used to provide GINA with Terminal Services user configuration information.helpviewer_keywords: ["*PWLX_TERMINAL_SERVICES_DATA","PWLX_TERMINAL_SERVICES_DATA","PWLX_TERMINAL_SERVICES_DATA structure pointer [Security]","WLX_TERMINAL_SERVICES_DATA","WLX_TERMINAL_SERVICES_DATA structure [Security]","_gina_wlx_terminal_services_data","security.wlx_terminal_services_data","winwlx/PWLX_TERMINAL_SERVICES_DATA","winwlx/WLX_TERMINAL_SERVICES_DATA"]
+description: Used to provide GINA with Terminal Services user configuration information.
+helpviewer_keywords: ["*PWLX_TERMINAL_SERVICES_DATA","PWLX_TERMINAL_SERVICES_DATA","PWLX_TERMINAL_SERVICES_DATA structure pointer [Security]","WLX_TERMINAL_SERVICES_DATA","WLX_TERMINAL_SERVICES_DATA structure [Security]","_gina_wlx_terminal_services_data","security.wlx_terminal_services_data","winwlx/PWLX_TERMINAL_SERVICES_DATA","winwlx/WLX_TERMINAL_SERVICES_DATA"]
 old-location: security\wlx_terminal_services_data.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e3c6285e-cac3-490d-b2db-ea63871b3620
 ms.date: 12/05/2018
 ms.keywords: '*PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA structure pointer [Security], WLX_TERMINAL_SERVICES_DATA, WLX_TERMINAL_SERVICES_DATA structure [Security], _gina_wlx_terminal_services_data, security.wlx_terminal_services_data, winwlx/PWLX_TERMINAL_SERVICES_DATA, winwlx/WLX_TERMINAL_SERVICES_DATA'

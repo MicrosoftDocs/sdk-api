@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromBoundingBox
 title: BoundingOrientedBox::CreateFromBoundingBox
-description: Creates a BoundingOrientedBox from a BoundingBox.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","CreateFromBoundingBox method","BoundingOrientedBox.CreateFromBoundingBox","BoundingOrientedBox::CreateFromBoundingBox","CreateFromBoundingBox","CreateFromBoundingBox method [DirectX Math Support APIs]","CreateFromBoundingBox method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_createfromboundingbox"]
+description: Creates a BoundingOrientedBox from a BoundingBox.
+helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","CreateFromBoundingBox method","BoundingOrientedBox.CreateFromBoundingBox","BoundingOrientedBox::CreateFromBoundingBox","CreateFromBoundingBox","CreateFromBoundingBox method [DirectX Math Support APIs]","CreateFromBoundingBox method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_createfromboundingbox"]
 old-location: dxmath\boundingorientedbox_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromBoundingBox(BoundingOrientedBox@,BoundingBox)

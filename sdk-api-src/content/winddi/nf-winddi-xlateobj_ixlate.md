@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.XLATEOBJ_iXlate
 title: XLATEOBJ_iXlate function (winddi.h)
-description: The XLATEOBJ_iXlate function translates a color index of the source palette to the closest index in the destination palette.helpviewer_keywords: ["XLATEOBJ_iXlate","XLATEOBJ_iXlate function [Display Devices]","display.xlateobj_ixlate","gdifncs_c1ca950a-fb95-47ae-936a-857ffc47c027.xml","winddi/XLATEOBJ_iXlate"]
+description: The XLATEOBJ_iXlate function translates a color index of the source palette to the closest index in the destination palette.
+helpviewer_keywords: ["XLATEOBJ_iXlate","XLATEOBJ_iXlate function [Display Devices]","display.xlateobj_ixlate","gdifncs_c1ca950a-fb95-47ae-936a-857ffc47c027.xml","winddi/XLATEOBJ_iXlate"]
 old-location: display\xlateobj_ixlate.htm
 tech.root: display
 ms.assetid: 1506efcb-d4fa-4120-89ba-5aca0f3c7f97

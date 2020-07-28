@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableUDP
 title: IAMNetShowConfig::put_EnableUDP (qnetwork.h)
-description: The put_EnableUDP method enables or disablles UDP-based streaming.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_EnableUDP method","IAMNetShowConfig.put_EnableUDP","IAMNetShowConfig::put_EnableUDP","IAMNetShowConfigput_EnableUDP","dshow.iamnetshowconfig_put_enableudp","put_EnableUDP","put_EnableUDP method [DirectShow]","put_EnableUDP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_EnableUDP"]
+description: The put_EnableUDP method enables or disablles UDP-based streaming.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_EnableUDP method","IAMNetShowConfig.put_EnableUDP","IAMNetShowConfig::put_EnableUDP","IAMNetShowConfigput_EnableUDP","dshow.iamnetshowconfig_put_enableudp","put_EnableUDP","put_EnableUDP method [DirectShow]","put_EnableUDP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_EnableUDP"]
 old-location: dshow\iamnetshowconfig_put_enableudp.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP

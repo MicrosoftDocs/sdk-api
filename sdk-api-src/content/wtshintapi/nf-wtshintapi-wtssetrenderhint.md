@@ -1,7 +1,8 @@
 ---
 UID: NF:wtshintapi.WTSSetRenderHint
 title: WTSSetRenderHint function (wtshintapi.h)
-description: Used by an application that is displaying content that can be optimized for displaying in a remote session to identify the region of a window that is the actual content.helpviewer_keywords: ["RENDER_HINT_CLEAR","RENDER_HINT_MAPPEDWINDOW","RENDER_HINT_VIDEO","WTSSetRenderHint","WTSSetRenderHint function [Remote Desktop Services]","termserv.wtssetrenderhint","wtshintapi/WTSSetRenderHint"]
+description: Used by an application that is displaying content that can be optimized for displaying in a remote session to identify the region of a window that is the actual content.
+helpviewer_keywords: ["RENDER_HINT_CLEAR","RENDER_HINT_MAPPEDWINDOW","RENDER_HINT_VIDEO","WTSSetRenderHint","WTSSetRenderHint function [Remote Desktop Services]","termserv.wtssetrenderhint","wtshintapi/WTSSetRenderHint"]
 old-location: termserv\wtssetrenderhint.htm
 tech.root: TermServ
 ms.assetid: CF8AE408-AE3A-44AC-91F9-6F6D9858893F

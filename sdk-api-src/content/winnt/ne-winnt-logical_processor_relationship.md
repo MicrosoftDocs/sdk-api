@@ -4,7 +4,7 @@ title: LOGICAL_PROCESSOR_RELATIONSHIP (winnt.h)
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
 helpviewer_keywords: ["LOGICAL_PROCESSOR_RELATIONSHIP","LOGICAL_PROCESSOR_RELATIONSHIP enumeration","RelationAll","RelationCache","RelationGroup","RelationNumaNode","RelationProcessorCore","RelationProcessorPackage","base.logical_processor_relationship","winnt/LOGICAL_PROCESSOR_RELATIONSHIP","winnt/RelationAll","winnt/RelationCache","winnt/RelationGroup","winnt/RelationNumaNode","winnt/RelationProcessorCore","winnt/RelationProcessorPackage"]
 old-location: base\logical_processor_relationship.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
 ms.date: 12/05/2018
 ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage

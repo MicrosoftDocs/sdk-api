@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Promote
 title: ITransactionProxy::Promote (comsvcs.h)
-description: Promotes a non-DTC transaction to a DTC transaction.helpviewer_keywords: ["ITransactionProxy interface [COM+]","Promote method","ITransactionProxy.Promote","ITransactionProxy::Promote","Promote","Promote method [COM+]","Promote method [COM+]","ITransactionProxy interface","comsvcs/ITransactionProxy::Promote","cos.itransactionproxy_promote"]
+description: Promotes a non-DTC transaction to a DTC transaction.
+helpviewer_keywords: ["ITransactionProxy interface [COM+]","Promote method","ITransactionProxy.Promote","ITransactionProxy::Promote","Promote","Promote method [COM+]","Promote method [COM+]","ITransactionProxy interface","comsvcs/ITransactionProxy::Promote","cos.itransactionproxy_promote"]
 old-location: cos\itransactionproxy_promote.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 861103b4-b5fa-4543-b26b-ad0c89d4473d
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy interface [COM+],Promote method, ITransactionProxy.Promote, ITransactionProxy::Promote, Promote, Promote method [COM+], Promote method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::Promote, cos.itransactionproxy_promote

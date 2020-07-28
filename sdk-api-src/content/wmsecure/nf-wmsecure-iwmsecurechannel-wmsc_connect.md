@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Connect
 title: IWMSecureChannel::WMSC_Connect (wmsecure.h)
-description: The WMSC_Connect method initializes the secure connection.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_Connect method","IWMSecureChannel.WMSC_Connect","IWMSecureChannel::WMSC_Connect","WMSC_Connect","WMSC_Connect method [windows Media Format]","WMSC_Connect method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_connect","wmsecure/IWMSecureChannel::WMSC_Connect"]
+description: The WMSC_Connect method initializes the secure connection.
+helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_Connect method","IWMSecureChannel.WMSC_Connect","IWMSecureChannel::WMSC_Connect","WMSC_Connect","WMSC_Connect method [windows Media Format]","WMSC_Connect method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_connect","wmsecure/IWMSecureChannel::WMSC_Connect"]
 old-location: wmformat\iwmsecurechannel_wmsc_connect.htm
 tech.root: wmformat
 ms.assetid: d8386b23-6319-4687-9de2-a81e661a60e6

@@ -4,7 +4,7 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER (wincrypt.h)
 description: Releases memory for an object identifier.
 helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function [Security]","security.pfn_crypt_object_locator_provider_free_identifier","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER"]
 old-location: security\pfn_crypt_object_locator_provider_free_identifier.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: C2ED3B51-8B98-412C-A571-D107F2BEC5F1
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function [Security], security.pfn_crypt_object_locator_provider_free_identifier, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER

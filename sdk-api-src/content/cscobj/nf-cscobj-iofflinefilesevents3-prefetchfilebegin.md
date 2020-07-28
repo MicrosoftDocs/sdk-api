@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileBegin
 title: IOfflineFilesEvents3::PrefetchFileBegin (cscobj.h)
-description: Reports that a file prefetch operation has begun.helpviewer_keywords: ["IOfflineFilesEvents3 interface [Offline Files]","PrefetchFileBegin method","IOfflineFilesEvents3.PrefetchFileBegin","IOfflineFilesEvents3::PrefetchFileBegin","PrefetchFileBegin","PrefetchFileBegin method [Offline Files]","PrefetchFileBegin method [Offline Files]","IOfflineFilesEvents3 interface","cscobj/IOfflineFilesEvents3::PrefetchFileBegin","of.iofflinefilesevents3_prefetchfilebegin"]
+description: Reports that a file prefetch operation has begun.
+helpviewer_keywords: ["IOfflineFilesEvents3 interface [Offline Files]","PrefetchFileBegin method","IOfflineFilesEvents3.PrefetchFileBegin","IOfflineFilesEvents3::PrefetchFileBegin","PrefetchFileBegin","PrefetchFileBegin method [Offline Files]","PrefetchFileBegin method [Offline Files]","IOfflineFilesEvents3 interface","cscobj/IOfflineFilesEvents3::PrefetchFileBegin","of.iofflinefilesevents3_prefetchfilebegin"]
 old-location: of\iofflinefilesevents3_prefetchfilebegin.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: b65354ed-dc4b-491c-9672-2f5fa91093bd
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileBegin method, IOfflineFilesEvents3.PrefetchFileBegin, IOfflineFilesEvents3::PrefetchFileBegin, PrefetchFileBegin, PrefetchFileBegin method [Offline Files], PrefetchFileBegin method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileBegin, of.iofflinefilesevents3_prefetchfilebegin

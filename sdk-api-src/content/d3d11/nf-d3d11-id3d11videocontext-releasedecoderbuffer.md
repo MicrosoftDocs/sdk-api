@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.ReleaseDecoderBuffer
 title: ID3D11VideoContext::ReleaseDecoderBuffer (d3d11.h)
-description: Releases a buffer that was obtained by calling the ID3D11VideoContext::GetDecoderBuffer method.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","ReleaseDecoderBuffer method","ID3D11VideoContext.ReleaseDecoderBuffer","ID3D11VideoContext::ReleaseDecoderBuffer","ReleaseDecoderBuffer","ReleaseDecoderBuffer method [Media Foundation]","ReleaseDecoderBuffer method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::ReleaseDecoderBuffer","mf.id3d11videocontext_releasedecoderbuffer"]
+description: Releases a buffer that was obtained by calling the ID3D11VideoContext::GetDecoderBuffer method.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","ReleaseDecoderBuffer method","ID3D11VideoContext.ReleaseDecoderBuffer","ID3D11VideoContext::ReleaseDecoderBuffer","ReleaseDecoderBuffer","ReleaseDecoderBuffer method [Media Foundation]","ReleaseDecoderBuffer method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::ReleaseDecoderBuffer","mf.id3d11videocontext_releasedecoderbuffer"]
 old-location: mf\id3d11videocontext_releasedecoderbuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C7BD4CA6-706D-4C3A-AED1-EDF1C65E41E0
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],ReleaseDecoderBuffer method, ID3D11VideoContext.ReleaseDecoderBuffer, ID3D11VideoContext::ReleaseDecoderBuffer, ReleaseDecoderBuffer, ReleaseDecoderBuffer method [Media Foundation], ReleaseDecoderBuffer method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::ReleaseDecoderBuffer, mf.id3d11videocontext_releasedecoderbuffer

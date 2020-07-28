@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Move
 title: IInkStrokes::Move (msinkaut.h)
-description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.helpviewer_keywords: ["2d3425c0-6000-4478-9c67-5fdb8e2316e5","IInkStrokes interface [Tablet PC]","Move method","IInkStrokes.Move","IInkStrokes::Move","Move","Move method [Tablet PC]","Move method [Tablet PC]","IInkStrokes interface","msinkaut/IInkStrokes::Move","tablet.inkstrokes_move"]
+description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.
+helpviewer_keywords: ["2d3425c0-6000-4478-9c67-5fdb8e2316e5","IInkStrokes interface [Tablet PC]","Move method","IInkStrokes.Move","IInkStrokes::Move","Move","Move method [Tablet PC]","Move method [Tablet PC]","IInkStrokes interface","msinkaut/IInkStrokes::Move","tablet.inkstrokes_move"]
 old-location: tablet\inkstrokes_move.htm
 tech.root: tablet
 ms.assetid: 4754a211-b90c-453a-91b2-9f49ad31621d

@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.SpanExcluding
 title: CHString::SpanExcluding (chstring.h)
-description: The SpanExcluding method extracts and returns all characters preceding the first occurrence of a character from lpszCharSet.helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","SpanExcluding method","CHString.SpanExcluding","CHString::SpanExcluding","SpanExcluding","SpanExcluding method [Windows Management Instrumentation]","SpanExcluding method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_spanexcluding","chstring/CHString::SpanExcluding","wmi.chstring_spanexcluding"]
+description: The SpanExcluding method extracts and returns all characters preceding the first occurrence of a character from lpszCharSet.
+helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","SpanExcluding method","CHString.SpanExcluding","CHString::SpanExcluding","SpanExcluding","SpanExcluding method [Windows Management Instrumentation]","SpanExcluding method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_spanexcluding","chstring/CHString::SpanExcluding","wmi.chstring_spanexcluding"]
 old-location: wmi\chstring_spanexcluding.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 5ddadf16-0177-4f96-a5ca-e1b8891473e6
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanExcluding method, CHString.SpanExcluding, CHString::SpanExcluding, SpanExcluding, SpanExcluding method [Windows Management Instrumentation], SpanExcluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanexcluding, chstring/CHString::SpanExcluding, wmi.chstring_spanexcluding

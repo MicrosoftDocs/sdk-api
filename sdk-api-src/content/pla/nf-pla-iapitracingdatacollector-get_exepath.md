@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExePath
 title: IApiTracingDataCollector::get_ExePath (pla.h)
-description: Retrieves or sets the path to the executable file whose API calls you want to trace.helpviewer_keywords: ["ExePath property [PLA]","ExePath property [PLA]","IApiTracingDataCollector interface","IApiTracingDataCollector interface [PLA]","ExePath property","IApiTracingDataCollector.ExePath","IApiTracingDataCollector.get_ExePath","IApiTracingDataCollector::ExePath","IApiTracingDataCollector::get_ExePath","IApiTracingDataCollector::put_ExePath","base.iapitracingdatacollector_exepath","get_ExePath","pla.iapitracingdatacollector_exepath","pla/IApiTracingDataCollector::ExePath","pla/IApiTracingDataCollector::get_ExePath","pla/IApiTracingDataCollector::put_ExePath"]
+description: Retrieves or sets the path to the executable file whose API calls you want to trace.
+helpviewer_keywords: ["ExePath property [PLA]","ExePath property [PLA]","IApiTracingDataCollector interface","IApiTracingDataCollector interface [PLA]","ExePath property","IApiTracingDataCollector.ExePath","IApiTracingDataCollector.get_ExePath","IApiTracingDataCollector::ExePath","IApiTracingDataCollector::get_ExePath","IApiTracingDataCollector::put_ExePath","base.iapitracingdatacollector_exepath","get_ExePath","pla.iapitracingdatacollector_exepath","pla/IApiTracingDataCollector::ExePath","pla/IApiTracingDataCollector::get_ExePath","pla/IApiTracingDataCollector::put_ExePath"]
 old-location: pla\iapitracingdatacollector_exepath.htm
 tech.root: PLA
 ms.assetid: aa2239f0-b70e-491f-8a88-b41d429e8bb2

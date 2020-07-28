@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastMode
 title: IBDA_EthernetFilter::GetMulticastMode (bdaiface.h)
-description: The GetMulticastMode method retrieves the multicast mode.helpviewer_keywords: ["GetMulticastMode","GetMulticastMode method [Microsoft TV Technologies]","GetMulticastMode method [Microsoft TV Technologies]","IBDA_EthernetFilter interface","IBDA_EthernetFilter interface [Microsoft TV Technologies]","GetMulticastMode method","IBDA_EthernetFilter.GetMulticastMode","IBDA_EthernetFilter::GetMulticastMode","IBDA_EthernetFilterGetMulticastMode","bdaiface/IBDA_EthernetFilter::GetMulticastMode","mstv.ibda_ethernetfilter_getmulticastmode"]
+description: The GetMulticastMode method retrieves the multicast mode.
+helpviewer_keywords: ["GetMulticastMode","GetMulticastMode method [Microsoft TV Technologies]","GetMulticastMode method [Microsoft TV Technologies]","IBDA_EthernetFilter interface","IBDA_EthernetFilter interface [Microsoft TV Technologies]","GetMulticastMode method","IBDA_EthernetFilter.GetMulticastMode","IBDA_EthernetFilter::GetMulticastMode","IBDA_EthernetFilterGetMulticastMode","bdaiface/IBDA_EthernetFilter::GetMulticastMode","mstv.ibda_ethernetfilter_getmulticastmode"]
 old-location: mstv\ibda_ethernetfilter_getmulticastmode.htm
 tech.root: mstv
 ms.assetid: 8a0a5dbb-642a-458b-a5b2-80e993ab61ca

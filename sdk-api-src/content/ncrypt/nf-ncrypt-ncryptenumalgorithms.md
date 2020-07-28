@@ -1,9 +1,10 @@
 ---
 UID: NF:ncrypt.NCryptEnumAlgorithms
 title: NCryptEnumAlgorithms function (ncrypt.h)
-description: Obtains the names of the algorithms that are supported by the specified key storage provider.helpviewer_keywords: ["NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","NCRYPT_CIPHER_OPERATION","NCRYPT_HASH_OPERATION","NCRYPT_SECRET_AGREEMENT_OPERATION","NCRYPT_SIGNATURE_OPERATION","NCRYPT_SILENT_FLAG","NCryptEnumAlgorithms","NCryptEnumAlgorithms function [Security]","ncrypt/NCryptEnumAlgorithms","security.ncryptenumalgorithms_func"]
+description: Obtains the names of the algorithms that are supported by the specified key storage provider.
+helpviewer_keywords: ["NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","NCRYPT_CIPHER_OPERATION","NCRYPT_HASH_OPERATION","NCRYPT_SECRET_AGREEMENT_OPERATION","NCRYPT_SIGNATURE_OPERATION","NCRYPT_SILENT_FLAG","NCryptEnumAlgorithms","NCryptEnumAlgorithms function [Security]","ncrypt/NCryptEnumAlgorithms","security.ncryptenumalgorithms_func"]
 old-location: security\ncryptenumalgorithms_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_CIPHER_OPERATION, NCRYPT_HASH_OPERATION, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_OPERATION, NCRYPT_SILENT_FLAG, NCryptEnumAlgorithms, NCryptEnumAlgorithms function [Security], ncrypt/NCryptEnumAlgorithms, security.ncryptenumalgorithms_func

@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_OFFLINE
 description: Takes a volume offline.
 helpviewer_keywords: ["IOCTL_VOLUME_OFFLINE","IOCTL_VOLUME_OFFLINE control","IOCTL_VOLUME_OFFLINE control code [Files]","fs.ioctl_volume_offline","winioctl/IOCTL_VOLUME_OFFLINE"]
 old-location: fs\ioctl_volume_offline.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE

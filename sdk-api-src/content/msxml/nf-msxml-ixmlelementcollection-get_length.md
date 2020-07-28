@@ -1,9 +1,10 @@
 ---
 UID: NF:msxml.IXMLElementCollection.get_length
 title: IXMLElementCollection::get_length (msxml.h)
-description: Retrieves the number of elements in the collection.helpviewer_keywords: ["IXMLElementCollection interface [Windows API]","get_length method","IXMLElementCollection.get_length","IXMLElementCollection::get_length","get_length","get_length method [Windows API]","get_length method [Windows API]","IXMLElementCollection interface","msxml/IXMLElementCollection::get_length","winprog.ixmlelementcollection_length"]
+description: Retrieves the number of elements in the collection.
+helpviewer_keywords: ["IXMLElementCollection interface [Windows API]","get_length method","IXMLElementCollection.get_length","IXMLElementCollection::get_length","get_length","get_length method [Windows API]","get_length method [Windows API]","IXMLElementCollection interface","msxml/IXMLElementCollection::get_length","winprog.ixmlelementcollection_length"]
 old-location: winprog\ixmlelementcollection_length.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: eb9236ad-378e-499e-8ab5-ed5bd327ef95
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection interface [Windows API],get_length method, IXMLElementCollection.get_length, IXMLElementCollection::get_length, get_length, get_length method [Windows API], get_length method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::get_length, winprog.ixmlelementcollection_length

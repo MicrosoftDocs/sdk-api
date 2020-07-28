@@ -4,7 +4,7 @@ title: LINECALLINFO (tapi.h)
 description: The LINECALLINFO structure contains information about a call.
 helpviewer_keywords: ["*LPLINECALLINFO","LINECALLINFO","LINECALLINFO structure [TAPI 2.2]","LPLINECALLINFO","LPLINECALLINFO structure pointer [TAPI 2.2]","_tapi2_linecallinfo_str","tapi/LINECALLINFO","tapi/LPLINECALLINFO","tapi2.linecallinfo_str"]
 old-location: tapi2\linecallinfo_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b077546b-cc95-44ce-99ee-f0007fd916b2
 ms.date: 12/05/2018
 ms.keywords: '*LPLINECALLINFO, LINECALLINFO, LINECALLINFO structure [TAPI 2.2], LPLINECALLINFO, LPLINECALLINFO structure pointer [TAPI 2.2], _tapi2_linecallinfo_str, tapi/LINECALLINFO, tapi/LPLINECALLINFO, tapi2.linecallinfo_str'

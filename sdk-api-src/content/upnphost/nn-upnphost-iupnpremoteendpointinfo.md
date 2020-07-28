@@ -1,7 +1,8 @@
 ---
 UID: NN:upnphost.IUPnPRemoteEndpointInfo
 title: IUPnPRemoteEndpointInfo (upnphost.h)
-description: The IUPnPRemoteEndpointInfo interface allows a hosted device to obtain information about a requester (that is, a control point) and the request.helpviewer_keywords: ["IUPnPRemoteEndpointInfo","IUPnPRemoteEndpointInfo interface [UPnP APIs]","IUPnPRemoteEndpointInfo interface [UPnP APIs]","described","upnp.iupnpremoteendpointinfo","upnphost/IUPnPRemoteEndpointInfo"]
+description: The IUPnPRemoteEndpointInfo interface allows a hosted device to obtain information about a requester (that is, a control point) and the request.
+helpviewer_keywords: ["IUPnPRemoteEndpointInfo","IUPnPRemoteEndpointInfo interface [UPnP APIs]","IUPnPRemoteEndpointInfo interface [UPnP APIs]","described","upnp.iupnpremoteendpointinfo","upnphost/IUPnPRemoteEndpointInfo"]
 old-location: upnp\iupnpremoteendpointinfo.htm
 tech.root: upnp
 ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentDropEffect
 title: IUIAutomationDragPattern::get_CurrentDropEffect (uiautomationclient.h)
-description: Retrieves a localized string that indicates what happens when the user drops this element as part of a drag-drop operation.helpviewer_keywords: ["CurrentDropEffect property [Windows Accessibility]","CurrentDropEffect property [Windows Accessibility]","IUIAutomationDragPattern interface","IUIAutomationDragPattern interface [Windows Accessibility]","CurrentDropEffect property","IUIAutomationDragPattern.CurrentDropEffect","IUIAutomationDragPattern.get_CurrentDropEffect","IUIAutomationDragPattern::CurrentDropEffect","IUIAutomationDragPattern::get_CurrentDropEffect","get_CurrentDropEffect","uiautomationclient/IUIAutomationDragPattern::CurrentDropEffect","uiautomationclient/IUIAutomationDragPattern::get_CurrentDropEffect","winauto.uiauto_iuiautomationdragpattern_currentdropeffect"]
+description: Retrieves a localized string that indicates what happens when the user drops this element as part of a drag-drop operation.
+helpviewer_keywords: ["CurrentDropEffect property [Windows Accessibility]","CurrentDropEffect property [Windows Accessibility]","IUIAutomationDragPattern interface","IUIAutomationDragPattern interface [Windows Accessibility]","CurrentDropEffect property","IUIAutomationDragPattern.CurrentDropEffect","IUIAutomationDragPattern.get_CurrentDropEffect","IUIAutomationDragPattern::CurrentDropEffect","IUIAutomationDragPattern::get_CurrentDropEffect","get_CurrentDropEffect","uiautomationclient/IUIAutomationDragPattern::CurrentDropEffect","uiautomationclient/IUIAutomationDragPattern::get_CurrentDropEffect","winauto.uiauto_iuiautomationdragpattern_currentdropeffect"]
 old-location: winauto\uiauto_iuiautomationdragpattern_currentdropeffect.htm
 tech.root: WinAuto
 ms.assetid: 8F5459DE-4BAA-412D-88E9-A81125150CAA

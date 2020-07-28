@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMFLOAT3X3.operator-function-call(size_t,size_t)
 title: XMFLOAT3X3::operator-function-call(size_t,size_t)
-description: Returns a reference to a matrix element of an instance XMFLOAT3X3 as specified by row and column arguments.helpviewer_keywords: ["XMFLOAT3X3 structure [DirectX Math Support APIs]","operator () method","XMFLOAT3X3.operator ()(size_t","size_t)","XMFLOAT3X3.operator (size_t","size_t)","XMFLOAT3X3.operator()","XMFLOAT3X3.operator-function-call(size_t","size_t)","XMFLOAT3X3::operator()","XMFLOAT3X3::operator-function-call(size_t","size_t)","dxmath.xmfloat3x3_operator_parens_1","operator () method [DirectX Math Support APIs]","operator () method [DirectX Math Support APIs]","XMFLOAT3X3 structure","operator()"]
+description: Returns a reference to a matrix element of an instance XMFLOAT3X3 as specified by row and column arguments.
+helpviewer_keywords: ["XMFLOAT3X3 structure [DirectX Math Support APIs]","operator () method","XMFLOAT3X3.operator ()(size_t","size_t)","XMFLOAT3X3.operator (size_t","size_t)","XMFLOAT3X3.operator()","XMFLOAT3X3.operator-function-call(size_t","size_t)","XMFLOAT3X3::operator()","XMFLOAT3X3::operator-function-call(size_t","size_t)","dxmath.xmfloat3x3_operator_parens_1","operator () method [DirectX Math Support APIs]","operator () method [DirectX Math Support APIs]","XMFLOAT3X3 structure","operator()"]
 old-location: dxmath\xmfloat3x3_operator_parens_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.operator ()(size_t,size_t)

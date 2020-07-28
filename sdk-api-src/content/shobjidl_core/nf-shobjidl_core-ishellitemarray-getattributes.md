@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetAttributes
 title: IShellItemArray::GetAttributes (shobjidl_core.h)
-description: Gets the attributes of the set of items contained in an IShellItemArray.helpviewer_keywords: ["GetAttributes","GetAttributes method [Windows Shell]","GetAttributes method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetAttributes method","IShellItemArray.GetAttributes","IShellItemArray::GetAttributes","SIATTRIBFLAGS_ALLITEMS","SIATTRIBFLAGS_AND","SIATTRIBFLAGS_APPCOMPAT","SIATTRIBFLAGS_MASK","SIATTRIBFLAGS_OR","_shell_IShellItemArray_GetAttributes","shell.IShellItemArray_GetAttributes","shobjidl_core/IShellItemArray::GetAttributes"]
+description: Gets the attributes of the set of items contained in an IShellItemArray.
+helpviewer_keywords: ["GetAttributes","GetAttributes method [Windows Shell]","GetAttributes method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetAttributes method","IShellItemArray.GetAttributes","IShellItemArray::GetAttributes","SIATTRIBFLAGS_ALLITEMS","SIATTRIBFLAGS_AND","SIATTRIBFLAGS_APPCOMPAT","SIATTRIBFLAGS_MASK","SIATTRIBFLAGS_OR","_shell_IShellItemArray_GetAttributes","shell.IShellItemArray_GetAttributes","shobjidl_core/IShellItemArray::GetAttributes"]
 old-location: shell\IShellItemArray_GetAttributes.htm
 tech.root: shell
 ms.assetid: 0498ce03-9949-48bb-a1eb-b569f4171884

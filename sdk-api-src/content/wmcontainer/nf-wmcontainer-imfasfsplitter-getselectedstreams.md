@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetSelectedStreams
 title: IMFASFSplitter::GetSelectedStreams (wmcontainer.h)
-description: Gets a list of currently selected streams.helpviewer_keywords: ["GetSelectedStreams","GetSelectedStreams method [Media Foundation]","GetSelectedStreams method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetSelectedStreams method","IMFASFSplitter.GetSelectedStreams","IMFASFSplitter::GetSelectedStreams","f2c12e45-f320-43e0-abf1-36993dfed32d","mf.imfasfsplitter_getselectedstreams","wmcontainer/IMFASFSplitter::GetSelectedStreams"]
+description: Gets a list of currently selected streams.
+helpviewer_keywords: ["GetSelectedStreams","GetSelectedStreams method [Media Foundation]","GetSelectedStreams method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetSelectedStreams method","IMFASFSplitter.GetSelectedStreams","IMFASFSplitter::GetSelectedStreams","f2c12e45-f320-43e0-abf1-36993dfed32d","mf.imfasfsplitter_getselectedstreams","wmcontainer/IMFASFSplitter::GetSelectedStreams"]
 old-location: mf\imfasfsplitter_getselectedstreams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.date: 12/05/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams

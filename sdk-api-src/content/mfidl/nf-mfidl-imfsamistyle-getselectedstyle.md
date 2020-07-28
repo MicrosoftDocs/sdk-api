@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetSelectedStyle
 title: IMFSAMIStyle::GetSelectedStyle (mfidl.h)
-description: Gets the current style from the SAMI media source.helpviewer_keywords: ["7501a4d5-eb5f-4f62-ae55-96ee999e561c","GetSelectedStyle","GetSelectedStyle method [Media Foundation]","GetSelectedStyle method [Media Foundation]","IMFSAMIStyle interface","IMFSAMIStyle interface [Media Foundation]","GetSelectedStyle method","IMFSAMIStyle.GetSelectedStyle","IMFSAMIStyle::GetSelectedStyle","mf.imfsamistyle_getselectedstyle","mfidl/IMFSAMIStyle::GetSelectedStyle"]
+description: Gets the current style from the SAMI media source.
+helpviewer_keywords: ["7501a4d5-eb5f-4f62-ae55-96ee999e561c","GetSelectedStyle","GetSelectedStyle method [Media Foundation]","GetSelectedStyle method [Media Foundation]","IMFSAMIStyle interface","IMFSAMIStyle interface [Media Foundation]","GetSelectedStyle method","IMFSAMIStyle.GetSelectedStyle","IMFSAMIStyle::GetSelectedStyle","mf.imfsamistyle_getselectedstyle","mfidl/IMFSAMIStyle::GetSelectedStyle"]
 old-location: mf\imfsamistyle_getselectedstyle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7501a4d5-eb5f-4f62-ae55-96ee999e561c
 ms.date: 12/05/2018
 ms.keywords: 7501a4d5-eb5f-4f62-ae55-96ee999e561c, GetSelectedStyle, GetSelectedStyle method [Media Foundation], GetSelectedStyle method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetSelectedStyle method, IMFSAMIStyle.GetSelectedStyle, IMFSAMIStyle::GetSelectedStyle, mf.imfsamistyle_getselectedstyle, mfidl/IMFSAMIStyle::GetSelectedStyle

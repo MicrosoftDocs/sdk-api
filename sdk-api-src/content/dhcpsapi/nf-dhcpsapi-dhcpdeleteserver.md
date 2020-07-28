@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteServer
 title: DhcpDeleteServer function (dhcpsapi.h)
-description: The DhcpDeleteServer function attempts to delete a DHCP server and any related objects (such as subnet information and IP reservations) from the directory service.helpviewer_keywords: ["DhcpDeleteServer","DhcpDeleteServer function [DHCP]","dhcp.dhcpdeleteserver","dhcpsapi/DhcpDeleteServer"]
+description: The DhcpDeleteServer function attempts to delete a DHCP server and any related objects (such as subnet information and IP reservations) from the directory service.
+helpviewer_keywords: ["DhcpDeleteServer","DhcpDeleteServer function [DHCP]","dhcp.dhcpdeleteserver","dhcpsapi/DhcpDeleteServer"]
 old-location: dhcp\dhcpdeleteserver.htm
 tech.root: DHCP
 ms.assetid: 88b6c29b-7b01-40c7-b4f5-4920845f1eb9

@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMCOLOR
 title: XMCOLOR (directxpackedvector.h)
-description: A 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is specified as an unsigned 8 bit integer.helpviewer_keywords: ["XMCOLOR","XMCOLOR structure [DirectX Math Support APIs]","directxpackedvector/XMCOLOR","dxmath.xmcolor"]
+description: A 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is specified as an unsigned 8 bit integer.
+helpviewer_keywords: ["XMCOLOR","XMCOLOR structure [DirectX Math Support APIs]","directxpackedvector/XMCOLOR","dxmath.xmcolor"]
 old-location: dxmath\xmcolor.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMCOLOR

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ILockBytes.SetSize
 title: ILockBytes::SetSize (objidl.h)
-description: The SetSize method changes the size of the byte array.helpviewer_keywords: ["ILockBytes interface [Structured Storage]","SetSize method","ILockBytes.SetSize","ILockBytes::SetSize","SetSize","SetSize method [Structured Storage]","SetSize method [Structured Storage]","ILockBytes interface","_stg_ilockbytes_setsize","objidl/ILockBytes::SetSize","stg.ilockbytes_setsize"]
+description: The SetSize method changes the size of the byte array.
+helpviewer_keywords: ["ILockBytes interface [Structured Storage]","SetSize method","ILockBytes.SetSize","ILockBytes::SetSize","SetSize","SetSize method [Structured Storage]","SetSize method [Structured Storage]","ILockBytes interface","_stg_ilockbytes_setsize","objidl/ILockBytes::SetSize","stg.ilockbytes_setsize"]
 old-location: stg\ilockbytes_setsize.htm
 tech.root: Stg
 ms.assetid: 13b3237b-d113-4505-b397-b06916368fef

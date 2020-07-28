@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetConnection.Rename
 title: INetConnection::Rename (netcon.h)
-description: The Rename method renames this connection.helpviewer_keywords: ["INetConnection interface [ICS/ICF]","Rename method","INetConnection.Rename","INetConnection::Rename","Rename","Rename method [ICS/ICF]","Rename method [ICS/ICF]","INetConnection interface","_ics_inetconnection_rename","ics.inetconnection_rename","netcon/INetConnection::Rename"]
+description: The Rename method renames this connection.
+helpviewer_keywords: ["INetConnection interface [ICS/ICF]","Rename method","INetConnection.Rename","INetConnection::Rename","Rename","Rename method [ICS/ICF]","Rename method [ICS/ICF]","INetConnection interface","_ics_inetconnection_rename","ics.inetconnection_rename","netcon/INetConnection::Rename"]
 old-location: ics\inetconnection_rename.htm
 tech.root: ics
 ms.assetid: 741261cd-f86f-4889-aa3a-df3598938883

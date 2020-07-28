@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncProvider.GetIdParameters
 title: ISyncProvider::GetIdParameters (winsync.h)
-description: Gets the ID format schema of the provider.helpviewer_keywords: ["GetIdParameters","GetIdParameters method [Windows Sync]","GetIdParameters method [Windows Sync]","ISyncProvider interface","ISyncProvider interface [Windows Sync]","GetIdParameters method","ISyncProvider.GetIdParameters","ISyncProvider::GetIdParameters","winsync.isyncprovider_getidparameters","winsync/ISyncProvider::GetIdParameters"]
+description: Gets the ID format schema of the provider.
+helpviewer_keywords: ["GetIdParameters","GetIdParameters method [Windows Sync]","GetIdParameters method [Windows Sync]","ISyncProvider interface","ISyncProvider interface [Windows Sync]","GetIdParameters method","ISyncProvider.GetIdParameters","ISyncProvider::GetIdParameters","winsync.isyncprovider_getidparameters","winsync/ISyncProvider::GetIdParameters"]
 old-location: winsync\isyncprovider_getidparameters.htm
 tech.root: winsync
 ms.assetid: a1839c53-7978-4a14-8b17-43621b801f13

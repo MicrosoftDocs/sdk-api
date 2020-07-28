@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddMemberName
 title: IAzApplicationGroup::AddMemberName (azroles.h)
-description: Adds the specified account name to the list of accounts that belong to the application group.helpviewer_keywords: ["AddMemberName","AddMemberName method [Security]","AddMemberName method [Security]","AzApplicationGroup object","AddMemberName method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddMemberName method","IAzApplicationGroup interface [Security]","AddMemberName method","IAzApplicationGroup.AddMemberName","IAzApplicationGroup::AddMemberName","azroles/IAzApplicationGroup::AddMemberName","security.iazapplicationgroup_addmembername"]
+description: Adds the specified account name to the list of accounts that belong to the application group.
+helpviewer_keywords: ["AddMemberName","AddMemberName method [Security]","AddMemberName method [Security]","AzApplicationGroup object","AddMemberName method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddMemberName method","IAzApplicationGroup interface [Security]","AddMemberName method","IAzApplicationGroup.AddMemberName","IAzApplicationGroup::AddMemberName","azroles/IAzApplicationGroup::AddMemberName","security.iazapplicationgroup_addmembername"]
 old-location: security\iazapplicationgroup_addmembername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 148be96b-be8d-4ad7-a5ad-f22599114cfa
 ms.date: 12/05/2018
 ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzApplicationGroup object, AddMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMemberName method, IAzApplicationGroup interface [Security],AddMemberName method, IAzApplicationGroup.AddMemberName, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername

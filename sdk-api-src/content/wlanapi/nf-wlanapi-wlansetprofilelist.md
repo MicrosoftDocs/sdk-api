@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanSetProfileList
 title: WlanSetProfileList function (wlanapi.h)
-description: Sets the preference order of profiles.helpviewer_keywords: ["WlanSetProfileList","WlanSetProfileList function [NativeWIFI]","nwifi.wlansetprofilelist","wlanapi/WlanSetProfileList"]
+description: Sets the preference order of profiles.
+helpviewer_keywords: ["WlanSetProfileList","WlanSetProfileList function [NativeWIFI]","nwifi.wlansetprofilelist","wlanapi/WlanSetProfileList"]
 old-location: nwifi\wlansetprofilelist.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList

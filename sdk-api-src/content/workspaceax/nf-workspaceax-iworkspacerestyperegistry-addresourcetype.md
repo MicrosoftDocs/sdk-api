@@ -1,7 +1,8 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.AddResourceType
 title: IWorkspaceResTypeRegistry::AddResourceType (workspaceax.h)
-description: Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.helpviewer_keywords: ["AddResourceType","AddResourceType method [Remote Desktop Services]","AddResourceType method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","AddResourceType method [Remote Desktop Services]","Workspace object","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","AddResourceType method","IWorkspaceResTypeRegistry.AddResourceType","IWorkspaceResTypeRegistry::AddResourceType","Workspace object [Remote Desktop Services]","AddResourceType method","termserv.iworkspacerestyperegistry_addresourcetype","workspaceax/IWorkspaceResTypeRegistry::AddResourceType"]
+description: Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.
+helpviewer_keywords: ["AddResourceType","AddResourceType method [Remote Desktop Services]","AddResourceType method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","AddResourceType method [Remote Desktop Services]","Workspace object","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","AddResourceType method","IWorkspaceResTypeRegistry.AddResourceType","IWorkspaceResTypeRegistry::AddResourceType","Workspace object [Remote Desktop Services]","AddResourceType method","termserv.iworkspacerestyperegistry_addresourcetype","workspaceax/IWorkspaceResTypeRegistry::AddResourceType"]
 old-location: termserv\iworkspacerestyperegistry_addresourcetype.htm
 tech.root: TermServ
 ms.assetid: 0f4b82a6-1eca-4890-aa0c-1e4c5821cd33

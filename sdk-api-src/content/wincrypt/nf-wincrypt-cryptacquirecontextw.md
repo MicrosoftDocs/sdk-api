@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptAcquireContextW
 title: CryptAcquireContextW function (wincrypt.h)
-description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL","CRYPT_DELETEKEYSET","CRYPT_MACHINE_KEYSET","CRYPT_NEWKEYSET","CRYPT_SILENT","CRYPT_VERIFYCONTEXT","CryptAcquireContext","CryptAcquireContext function [Security]","CryptAcquireContextA","CryptAcquireContextW","_crypto2_cryptacquirecontext","security.cryptacquirecontext","wincrypt/CryptAcquireContext","wincrypt/CryptAcquireContextA","wincrypt/CryptAcquireContextW"]
+description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
+helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL","CRYPT_DELETEKEYSET","CRYPT_MACHINE_KEYSET","CRYPT_NEWKEYSET","CRYPT_SILENT","CRYPT_VERIFYCONTEXT","CryptAcquireContext","CryptAcquireContext function [Security]","CryptAcquireContextA","CryptAcquireContextW","_crypto2_cryptacquirecontext","security.cryptacquirecontext","wincrypt/CryptAcquireContext","wincrypt/CryptAcquireContextA","wincrypt/CryptAcquireContextW"]
 old-location: security\cryptacquirecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
@@ -595,6 +596,10 @@ else
 
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CryptAcquireContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

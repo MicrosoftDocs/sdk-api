@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsFaxNumber
 title: IADsFaxNumber (iads.h)
-description: The IADsFaxNumber interface provides methods for an ADSI client to access the Facsimile Telephone Number attribute.helpviewer_keywords: ["IADsFaxNumber","IADsFaxNumber interface [ADSI]","IADsFaxNumber interface [ADSI]","described","_ds_iadsfaxnumber","adsi.iadsfaxnumber","iads/IADsFaxNumber"]
+description: The IADsFaxNumber interface provides methods for an ADSI client to access the Facsimile Telephone Number attribute.
+helpviewer_keywords: ["IADsFaxNumber","IADsFaxNumber interface [ADSI]","IADsFaxNumber interface [ADSI]","described","_ds_iadsfaxnumber","adsi.iadsfaxnumber","iads/IADsFaxNumber"]
 old-location: adsi\iadsfaxnumber.htm
 tech.root: adsi
 ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7

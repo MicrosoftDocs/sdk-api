@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreated
 title: IXpsOMCoreProperties::GetCreated (xpsobjectmodel.h)
-description: Gets the created property.helpviewer_keywords: ["GetCreated","GetCreated method [XPS Documents and Packaging]","GetCreated method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetCreated method","IXpsOMCoreProperties.GetCreated","IXpsOMCoreProperties::GetCreated","xps.ixpsomcoreproperties_getcreated","xpsobjectmodel/IXpsOMCoreProperties::GetCreated"]
+description: Gets the created property.
+helpviewer_keywords: ["GetCreated","GetCreated method [XPS Documents and Packaging]","GetCreated method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetCreated method","IXpsOMCoreProperties.GetCreated","IXpsOMCoreProperties::GetCreated","xps.ixpsomcoreproperties_getcreated","xpsobjectmodel/IXpsOMCoreProperties::GetCreated"]
 old-location: xps\ixpsomcoreproperties_getcreated.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.date: 12/05/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated

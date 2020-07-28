@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertRegisterSystemStore
 title: CertRegisterSystemStore function (wincrypt.h)
-description: Registers a system store.helpviewer_keywords: ["CERT_STORE_CREATE_NEW_FLAG","CERT_SYSTEM_STORE_CURRENT_SERVICE","CERT_SYSTEM_STORE_CURRENT_USER","CERT_SYSTEM_STORE_LOCAL_MACHINE","CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY","CERT_SYSTEM_STORE_RELOCATE_FLAG","CERT_SYSTEM_STORE_SERVICES","CERT_SYSTEM_STORE_USERS","CertRegisterSystemStore","CertRegisterSystemStore function [Security]","_crypto2_certregistersystemstore","security.certregistersystemstore","wincrypt/CertRegisterSystemStore"]
+description: Registers a system store.
+helpviewer_keywords: ["CERT_STORE_CREATE_NEW_FLAG","CERT_SYSTEM_STORE_CURRENT_SERVICE","CERT_SYSTEM_STORE_CURRENT_USER","CERT_SYSTEM_STORE_LOCAL_MACHINE","CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY","CERT_SYSTEM_STORE_RELOCATE_FLAG","CERT_SYSTEM_STORE_SERVICES","CERT_SYSTEM_STORE_USERS","CertRegisterSystemStore","CertRegisterSystemStore function [Security]","_crypto2_certregistersystemstore","security.certregistersystemstore","wincrypt/CertRegisterSystemStore"]
 old-location: security\certregistersystemstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b6f72826-92ab-4e21-8db9-eb053663148b
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_USERS, CertRegisterSystemStore, CertRegisterSystemStore function [Security], _crypto2_certregistersystemstore, security.certregistersystemstore, wincrypt/CertRegisterSystemStore

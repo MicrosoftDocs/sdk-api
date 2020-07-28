@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_BufferingTime
 title: IAMNetShowConfig::put_BufferingTime (qnetwork.h)
-description: The put_BufferingTime method specifies the buffering time.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_BufferingTime method","IAMNetShowConfig.put_BufferingTime","IAMNetShowConfig::put_BufferingTime","IAMNetShowConfigput_BufferingTime","dshow.iamnetshowconfig_put_bufferingtime","put_BufferingTime","put_BufferingTime method [DirectShow]","put_BufferingTime method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_BufferingTime"]
+description: The put_BufferingTime method specifies the buffering time.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_BufferingTime method","IAMNetShowConfig.put_BufferingTime","IAMNetShowConfig::put_BufferingTime","IAMNetShowConfigput_BufferingTime","dshow.iamnetshowconfig_put_bufferingtime","put_BufferingTime","put_BufferingTime method [DirectShow]","put_BufferingTime method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_BufferingTime"]
 old-location: dshow\iamnetshowconfig_put_bufferingtime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 60dea6f3-b45f-44a1-ba21-eb71206b2fb5
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_BufferingTime method, IAMNetShowConfig.put_BufferingTime, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_BufferingTime

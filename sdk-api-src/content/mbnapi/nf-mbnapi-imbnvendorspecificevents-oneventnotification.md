@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificEvents.OnEventNotification
 title: IMbnVendorSpecificEvents::OnEventNotification (mbnapi.h)
-description: Notification method signaling a change event from the underlying Mobile Broadband device miniport driver.helpviewer_keywords: ["IMbnVendorSpecificEvents interface [Microsoft Broadband Networks]","OnEventNotification method","IMbnVendorSpecificEvents.OnEventNotification","IMbnVendorSpecificEvents::OnEventNotification","OnEventNotification","OnEventNotification method [Microsoft Broadband Networks]","OnEventNotification method [Microsoft Broadband Networks]","IMbnVendorSpecificEvents interface","mbn.imbnvendorspecificevents_oneventnotification","mbnapi/IMbnVendorSpecificEvents::OnEventNotification"]
+description: Notification method signaling a change event from the underlying Mobile Broadband device miniport driver.
+helpviewer_keywords: ["IMbnVendorSpecificEvents interface [Microsoft Broadband Networks]","OnEventNotification method","IMbnVendorSpecificEvents.OnEventNotification","IMbnVendorSpecificEvents::OnEventNotification","OnEventNotification","OnEventNotification method [Microsoft Broadband Networks]","OnEventNotification method [Microsoft Broadband Networks]","IMbnVendorSpecificEvents interface","mbn.imbnvendorspecificevents_oneventnotification","mbnapi/IMbnVendorSpecificEvents::OnEventNotification"]
 old-location: mbn\imbnvendorspecificevents_oneventnotification.htm
 tech.root: mbn
 ms.assetid: c3d10e9c-b60f-42e8-adaa-2c0ba3c77718

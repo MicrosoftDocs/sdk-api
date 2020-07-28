@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokes.AddStrokes
 title: IInkStrokes::AddStrokes (msinkaut.h)
-description: Adds a Strokes collection to an existing Strokes collection.helpviewer_keywords: ["76580828-c776-4787-843c-db0acb768321","AddStrokes","AddStrokes method [Tablet PC]","AddStrokes method [Tablet PC]","IInkStrokes interface","IInkStrokes interface [Tablet PC]","AddStrokes method","IInkStrokes.AddStrokes","IInkStrokes::AddStrokes","msinkaut/IInkStrokes::AddStrokes","tablet.inkstrokes_addstrokes"]
+description: Adds a Strokes collection to an existing Strokes collection.
+helpviewer_keywords: ["76580828-c776-4787-843c-db0acb768321","AddStrokes","AddStrokes method [Tablet PC]","AddStrokes method [Tablet PC]","IInkStrokes interface","IInkStrokes interface [Tablet PC]","AddStrokes method","IInkStrokes.AddStrokes","IInkStrokes::AddStrokes","msinkaut/IInkStrokes::AddStrokes","tablet.inkstrokes_addstrokes"]
 old-location: tablet\inkstrokes_addstrokes.htm
 tech.root: tablet
 ms.assetid: 76580828-c776-4787-843c-db0acb768321

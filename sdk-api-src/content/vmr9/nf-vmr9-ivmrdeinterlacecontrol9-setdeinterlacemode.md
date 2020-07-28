@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.SetDeinterlaceMode
 title: IVMRDeinterlaceControl9::SetDeinterlaceMode (vmr9.h)
-description: The SetDeinterlaceMode method sets the deinterlacing mode for the specified video stream.helpviewer_keywords: ["IVMRDeinterlaceControl9 interface [DirectShow]","SetDeinterlaceMode method","IVMRDeinterlaceControl9.SetDeinterlaceMode","IVMRDeinterlaceControl9::SetDeinterlaceMode","IVMRDeinterlaceControl9SetDeinterlaceMode","SetDeinterlaceMode","SetDeinterlaceMode method [DirectShow]","SetDeinterlaceMode method [DirectShow]","IVMRDeinterlaceControl9 interface","dshow.ivmrdeinterlacecontrol9_setdeinterlacemode","vmr9/IVMRDeinterlaceControl9::SetDeinterlaceMode"]
+description: The SetDeinterlaceMode method sets the deinterlacing mode for the specified video stream.
+helpviewer_keywords: ["IVMRDeinterlaceControl9 interface [DirectShow]","SetDeinterlaceMode method","IVMRDeinterlaceControl9.SetDeinterlaceMode","IVMRDeinterlaceControl9::SetDeinterlaceMode","IVMRDeinterlaceControl9SetDeinterlaceMode","SetDeinterlaceMode","SetDeinterlaceMode method [DirectShow]","SetDeinterlaceMode method [DirectShow]","IVMRDeinterlaceControl9 interface","dshow.ivmrdeinterlacecontrol9_setdeinterlacemode","vmr9/IVMRDeinterlaceControl9::SetDeinterlaceMode"]
 old-location: dshow\ivmrdeinterlacecontrol9_setdeinterlacemode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2c88b3b9-32eb-473b-9db5-9e9d65e2062c
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl9 interface [DirectShow],SetDeinterlaceMode method, IVMRDeinterlaceControl9.SetDeinterlaceMode, IVMRDeinterlaceControl9::SetDeinterlaceMode, IVMRDeinterlaceControl9SetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl9 interface, dshow.ivmrdeinterlacecontrol9_setdeinterlacemode, vmr9/IVMRDeinterlaceControl9::SetDeinterlaceMode

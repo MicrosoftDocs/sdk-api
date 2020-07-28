@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceQuery
 title: IFunctionDiscovery::CreateInstanceQuery (functiondiscoveryapi.h)
-description: Creates a query for a specific function instance.helpviewer_keywords: ["CreateInstanceQuery","CreateInstanceQuery method","CreateInstanceQuery method","IFunctionDiscovery interface","IFunctionDiscovery interface","CreateInstanceQuery method","IFunctionDiscovery.CreateInstanceQuery","IFunctionDiscovery::CreateInstanceQuery","functiondiscoveryapi/IFunctionDiscovery::CreateInstanceQuery","ncd.ifunctiondiscovery_createinstancequery_method"]
+description: Creates a query for a specific function instance.
+helpviewer_keywords: ["CreateInstanceQuery","CreateInstanceQuery method","CreateInstanceQuery method","IFunctionDiscovery interface","IFunctionDiscovery interface","CreateInstanceQuery method","IFunctionDiscovery.CreateInstanceQuery","IFunctionDiscovery::CreateInstanceQuery","functiondiscoveryapi/IFunctionDiscovery::CreateInstanceQuery","ncd.ifunctiondiscovery_createinstancequery_method"]
 old-location: ncd\ifunctiondiscovery_createinstancequery_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 80e70972-ced1-416e-aa4f-69c54b2cbf95
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceQuery, CreateInstanceQuery method, CreateInstanceQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceQuery method, IFunctionDiscovery.CreateInstanceQuery, IFunctionDiscovery::CreateInstanceQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceQuery, ncd.ifunctiondiscovery_createinstancequery_method

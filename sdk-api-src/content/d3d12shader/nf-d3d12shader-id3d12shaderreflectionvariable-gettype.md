@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetType
 title: ID3D12ShaderReflectionVariable::GetType (d3d12shader.h)
-description: Gets a shader-variable type.helpviewer_keywords: ["GetType","GetType method","GetType method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetType method","ID3D12ShaderReflectionVariable.GetType","ID3D12ShaderReflectionVariable::GetType","d3d12shader/ID3D12ShaderReflectionVariable::GetType","direct3d12.id3d12shaderreflectionvariable_gettype"]
+description: Gets a shader-variable type.
+helpviewer_keywords: ["GetType","GetType method","GetType method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetType method","ID3D12ShaderReflectionVariable.GetType","ID3D12ShaderReflectionVariable::GetType","d3d12shader/ID3D12ShaderReflectionVariable::GetType","direct3d12.id3d12shaderreflectionvariable_gettype"]
 old-location: direct3d12\id3d12shaderreflectionvariable_gettype.htm
 tech.root: direct3d12
 ms.assetid: DE2BBC9F-3519-4896-96E1-40C2E726D8A1

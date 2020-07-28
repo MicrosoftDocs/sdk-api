@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertPropertyArchivedKeyHash.Initialize
 title: ICertPropertyArchivedKeyHash::Initialize (certenroll.h)
-description: Initializes the object from a byte array that contains the hash.helpviewer_keywords: ["ICertPropertyArchivedKeyHash interface [Security]","Initialize method","ICertPropertyArchivedKeyHash.Initialize","ICertPropertyArchivedKeyHash::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyArchivedKeyHash interface","certenroll/ICertPropertyArchivedKeyHash::Initialize","security.icertpropertyarchivedkeyhash_initialize_method"]
+description: Initializes the object from a byte array that contains the hash.
+helpviewer_keywords: ["ICertPropertyArchivedKeyHash interface [Security]","Initialize method","ICertPropertyArchivedKeyHash.Initialize","ICertPropertyArchivedKeyHash::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyArchivedKeyHash interface","certenroll/ICertPropertyArchivedKeyHash::Initialize","security.icertpropertyarchivedkeyhash_initialize_method"]
 old-location: security\icertpropertyarchivedkeyhash_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1f201b37-6f3a-4f1c-83b8-2f1dbb1d4d07
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchivedKeyHash interface [Security],Initialize method, ICertPropertyArchivedKeyHash.Initialize, ICertPropertyArchivedKeyHash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchivedKeyHash interface, certenroll/ICertPropertyArchivedKeyHash::Initialize, security.icertpropertyarchivedkeyhash_initialize_method

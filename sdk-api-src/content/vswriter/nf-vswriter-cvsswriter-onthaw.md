@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.CVssWriter.OnThaw
 title: CVssWriter::OnThaw (vswriter.h)
-description: The OnThaw method is called by a writer following a Thaw event.helpviewer_keywords: ["CVssWriter interface [VSS]","OnThaw method","CVssWriter.OnThaw","CVssWriter::OnThaw","OnThaw","OnThaw method [VSS]","OnThaw method [VSS]","CVssWriter interface","_win32_cvsswriter_onthaw","base.cvsswriter_onthaw","vswriter/CVssWriter::OnThaw"]
+description: The OnThaw method is called by a writer following a Thaw event.
+helpviewer_keywords: ["CVssWriter interface [VSS]","OnThaw method","CVssWriter.OnThaw","CVssWriter::OnThaw","OnThaw","OnThaw method [VSS]","OnThaw method [VSS]","CVssWriter interface","_win32_cvsswriter_onthaw","base.cvsswriter_onthaw","vswriter/CVssWriter::OnThaw"]
 old-location: base\cvsswriter_onthaw.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 36028e9f-f7a7-41f1-a570-48f943e9ab83
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnThaw method, CVssWriter.OnThaw, CVssWriter::OnThaw, OnThaw, OnThaw method [VSS], OnThaw method [VSS],CVssWriter interface, _win32_cvsswriter_onthaw, base.cvsswriter_onthaw, vswriter/CVssWriter::OnThaw

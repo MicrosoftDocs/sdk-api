@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupIterateCabinetA
 title: SetupIterateCabinetA function (setupapi.h)
-description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found.helpviewer_keywords: ["SetupIterateCabinet","SetupIterateCabinet function [Setup API]","SetupIterateCabinetA","SetupIterateCabinetW","_setupapi_setupiteratecabinet","setup.setupiteratecabinet","setupapi/SetupIterateCabinet","setupapi/SetupIterateCabinetA","setupapi/SetupIterateCabinetW"]
+description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found.
+helpviewer_keywords: ["SetupIterateCabinet","SetupIterateCabinet function [Setup API]","SetupIterateCabinetA","SetupIterateCabinetW","_setupapi_setupiteratecabinet","setup.setupiteratecabinet","setupapi/SetupIterateCabinet","setupapi/SetupIterateCabinetA","setupapi/SetupIterateCabinetW"]
 old-location: setup\setupiteratecabinet.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4
 ms.date: 12/05/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
@@ -110,4 +111,9 @@ If the function fails, the return value is zero. To get extended error informati
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupIterateCabinet as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

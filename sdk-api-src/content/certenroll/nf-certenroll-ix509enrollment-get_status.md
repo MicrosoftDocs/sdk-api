@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Status
 title: IX509Enrollment::get_Status (certenroll.h)
-description: Retrieves an IX509EnrollmentStatus object that can be used to monitor the status of the enrollment process and retrieve error information.helpviewer_keywords: ["IX509Enrollment interface [Security]","Status property","IX509Enrollment.Status","IX509Enrollment.get_Status","IX509Enrollment::Status","IX509Enrollment::get_Status","Status property [Security]","Status property [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::Status","certenroll/IX509Enrollment::get_Status","get_Status","security.ix509enrollment_status_property"]
+description: Retrieves an IX509EnrollmentStatus object that can be used to monitor the status of the enrollment process and retrieve error information.
+helpviewer_keywords: ["IX509Enrollment interface [Security]","Status property","IX509Enrollment.Status","IX509Enrollment.get_Status","IX509Enrollment::Status","IX509Enrollment::get_Status","Status property [Security]","Status property [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::Status","certenroll/IX509Enrollment::get_Status","get_Status","security.ix509enrollment_status_property"]
 old-location: security\ix509enrollment_status_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9ebceb0b-bd78-48a8-ae57-c11fda0fe8a6
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Status property, IX509Enrollment.Status, IX509Enrollment.get_Status, IX509Enrollment::Status, IX509Enrollment::get_Status, Status property [Security], Status property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Status, certenroll/IX509Enrollment::get_Status, get_Status, security.ix509enrollment_status_property

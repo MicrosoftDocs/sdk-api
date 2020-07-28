@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ToUnicodeEx
 title: ToUnicodeEx function (winuser.h)
-description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.helpviewer_keywords: ["ToUnicodeEx","ToUnicodeEx function [Keyboard and Mouse Input]","_win32_ToUnicodeEx","_win32_tounicodeex_cpp","inputdev.tounicodeex","winui._win32_tounicodeex","winuser/ToUnicodeEx"]
+description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
+helpviewer_keywords: ["ToUnicodeEx","ToUnicodeEx function [Keyboard and Mouse Input]","_win32_ToUnicodeEx","_win32_tounicodeex_cpp","inputdev.tounicodeex","winui._win32_tounicodeex","winuser/ToUnicodeEx"]
 old-location: inputdev\tounicodeex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\tounicodeex.htm

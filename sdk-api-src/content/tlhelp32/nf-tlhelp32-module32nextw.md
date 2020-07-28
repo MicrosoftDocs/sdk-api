@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Module32NextW
 title: Module32NextW function (tlhelp32.h)
-description: Retrieves information about the next module associated with a process or thread.helpviewer_keywords: ["Module32Next","Module32Next function [ToolHelp]","Module32NextW","_win32_module32next","base.module32next","tlhelp32/Module32Next","tlhelp32/Module32NextW","toolhelp.module32next"]
+description: Retrieves information about the next module associated with a process or thread.
+helpviewer_keywords: ["Module32Next","Module32Next function [ToolHelp]","Module32NextW","_win32_module32next","base.module32next","tlhelp32/Module32Next","tlhelp32/Module32NextW","toolhelp.module32next"]
 old-location: toolhelp\module32next.htm
 tech.root: ToolHelp
 ms.assetid: 88ec1af4-bae7-4cd7-b830-97a98fb337f4
@@ -104,6 +105,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The tlhelp32.h header defines Module32Next as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

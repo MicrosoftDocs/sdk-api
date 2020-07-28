@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SysReAllocStringLen
 title: SysReAllocStringLen function (oleauto.h)
-description: Creates a new BSTR containing a specified number of characters from an old BSTR, and frees the old BSTR.helpviewer_keywords: ["SysReAllocStringLen","SysReAllocStringLen function [Automation]","_oa96_SysReAllocStringLen","automat.sysreallocstringlen","oleauto/SysReAllocStringLen"]
+description: Creates a new BSTR containing a specified number of characters from an old BSTR, and frees the old BSTR.
+helpviewer_keywords: ["SysReAllocStringLen","SysReAllocStringLen function [Automation]","_oa96_SysReAllocStringLen","automat.sysreallocstringlen","oleauto/SysReAllocStringLen"]
 old-location: automat\sysreallocstringlen.htm
 tech.root: automat
 ms.assetid: d134cff1-7cc8-4284-a216-3819615e3017

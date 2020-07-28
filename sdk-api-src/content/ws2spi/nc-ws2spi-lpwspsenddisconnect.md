@@ -1,7 +1,9 @@
 ---
 UID: NC:ws2spi.LPWSPSENDDISCONNECT
 title: LPWSPSENDDISCONNECT
-description: The LPWSPSendDisconnect function initiates termination of the connection for the socket and sends disconnect data.helpviewer_keywords: ["LPWSPSENDDISCONNECT"]
+description: The LPWSPSendDisconnect function initiates termination of the connection for the socket and sends disconnect data.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPSENDDISCONNECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSENDDISCONNECT
 targetos: Windows
@@ -131,7 +133,7 @@ After this function has been successfully issued, subsequent sends are disallowe
 
 The <i>lpOutboundDisconnectData</i> parameter, if not null, points to a buffer containing the outgoing disconnect data to be sent to the remote party.
 
-Note that **LPWSPSendDisconnect** does not close the socket, and that resources attached to the socket will not be freed until <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
+Note that **LPWSPSendDisconnect** does not close the socket, and that resources attached to the socket will not be freed until <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b> is invoked.
 
 > [!Note]  
 > The **LPWSPSendDisconnect** function does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been disconnected. In particular, a Windows Sockets provider is not required to support the use of <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.

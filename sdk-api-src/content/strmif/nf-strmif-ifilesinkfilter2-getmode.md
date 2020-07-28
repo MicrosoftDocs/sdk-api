@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFileSinkFilter2.GetMode
 title: IFileSinkFilter2::GetMode (strmif.h)
-description: The GetMode method retrieves whether the file writer destroys the file when it creates the new one.helpviewer_keywords: ["GetMode","GetMode method [DirectShow]","GetMode method [DirectShow]","IFileSinkFilter2 interface","IFileSinkFilter2 interface [DirectShow]","GetMode method","IFileSinkFilter2.GetMode","IFileSinkFilter2::GetMode","IFileSinkFilter2GetMode","dshow.ifilesinkfilter2_getmode","strmif/IFileSinkFilter2::GetMode"]
+description: The GetMode method retrieves whether the file writer destroys the file when it creates the new one.
+helpviewer_keywords: ["GetMode","GetMode method [DirectShow]","GetMode method [DirectShow]","IFileSinkFilter2 interface","IFileSinkFilter2 interface [DirectShow]","GetMode method","IFileSinkFilter2.GetMode","IFileSinkFilter2::GetMode","IFileSinkFilter2GetMode","dshow.ifilesinkfilter2_getmode","strmif/IFileSinkFilter2::GetMode"]
 old-location: dshow\ifilesinkfilter2_getmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b2a8e34e-a6c1-448b-be6e-31fba9d64f6e
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IFileSinkFilter2 interface, IFileSinkFilter2 interface [DirectShow],GetMode method, IFileSinkFilter2.GetMode, IFileSinkFilter2::GetMode, IFileSinkFilter2GetMode, dshow.ifilesinkfilter2_getmode, strmif/IFileSinkFilter2::GetMode

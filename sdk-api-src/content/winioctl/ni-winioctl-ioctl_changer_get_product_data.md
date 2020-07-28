@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_PRODUCT_DATA
 description: Retrieves the product data for the specified device.
 helpviewer_keywords: ["IOCTL_CHANGER_GET_PRODUCT_DATA","IOCTL_CHANGER_GET_PRODUCT_DATA control","IOCTL_CHANGER_GET_PRODUCT_DATA control code","_win32_ioctl_changer_get_product_data","base.ioctl_changer_get_product_data","winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA"]
 old-location: base\ioctl_changer_get_product_data.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 60744666-fb37-4263-8f4a-e7e043e6b71e
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code, _win32_ioctl_changer_get_product_data, base.ioctl_changer_get_product_data, winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA

@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.TranslateClip(IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.TranslateClip(INREAL,INREAL)
 title: Graphics::TranslateClip
-description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.helpviewer_keywords: ["Graphics::TranslateClip"]
+description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.
+tech.root: gdiplus
+helpviewer_keywords: ["Graphics::TranslateClip"]
 ms.assetid: 323bc752-60d5-44f5-88dd-6bf0c4c0c926
 ms.date: 05/13/2019
 ms.keywords: Graphics::TranslateClip

@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSCEnableNSProvider
 title: WSCEnableNSProvider function (ws2spi.h)
-description: Changes the state of a given namespace provider.helpviewer_keywords: ["WSCEnableNSProvider","WSCEnableNSProvider function [Winsock]","_win32_wscenablensprovider_2","winsock.wscenablensprovider_2","ws2spi/WSCEnableNSProvider"]
+description: Changes the state of a given namespace provider.
+helpviewer_keywords: ["WSCEnableNSProvider","WSCEnableNSProvider function [Winsock]","_win32_wscenablensprovider_2","winsock.wscenablensprovider_2","ws2spi/WSCEnableNSProvider"]
 old-location: winsock\wscenablensprovider_2.htm
 tech.root: WinSock
 ms.assetid: 2dff5af6-3011-4e3f-b812-fffaca8fa2d9

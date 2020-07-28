@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Iris
 title: ICameraControl::put_Iris (vidcap.h)
-description: The put_Iris method sets the camera's aperture setting.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Iris method","ICameraControl.put_Iris","ICameraControl::put_Iris","ICameraControlput_Iris","dshow.icameracontrol_put_iris","put_Iris","put_Iris method [DirectShow]","put_Iris method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Iris"]
+description: The put_Iris method sets the camera's aperture setting.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Iris method","ICameraControl.put_Iris","ICameraControl::put_Iris","ICameraControlput_Iris","dshow.icameracontrol_put_iris","put_Iris","put_Iris method [DirectShow]","put_Iris method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Iris"]
 old-location: dshow\icameracontrol_put_iris.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b181f556-3d3d-4622-8cc9-57fda50bf9c0
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Iris method, ICameraControl.put_Iris, ICameraControl::put_Iris, ICameraControlput_Iris, dshow.icameracontrol_put_iris, put_Iris, put_Iris method [DirectShow], put_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Iris

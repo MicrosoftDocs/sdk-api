@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFilterGraph2.RenderEx
 title: IFilterGraph2::RenderEx (strmif.h)
-description: The RenderEx method renders an output pin, with an option to use existing renderers only.helpviewer_keywords: ["IFilterGraph2 interface [DirectShow]","RenderEx method","IFilterGraph2.RenderEx","IFilterGraph2::RenderEx","IFilterGraph2RenderEx","RenderEx","RenderEx method [DirectShow]","RenderEx method [DirectShow]","IFilterGraph2 interface","dshow.ifiltergraph2_renderex","strmif/IFilterGraph2::RenderEx"]
+description: The RenderEx method renders an output pin, with an option to use existing renderers only.
+helpviewer_keywords: ["IFilterGraph2 interface [DirectShow]","RenderEx method","IFilterGraph2.RenderEx","IFilterGraph2::RenderEx","IFilterGraph2RenderEx","RenderEx","RenderEx method [DirectShow]","RenderEx method [DirectShow]","IFilterGraph2 interface","dshow.ifiltergraph2_renderex","strmif/IFilterGraph2::RenderEx"]
 old-location: dshow\ifiltergraph2_renderex.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b169c784-2ce3-47dc-ad64-3e4c96483f34
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2.RenderEx, IFilterGraph2::RenderEx, IFilterGraph2RenderEx, RenderEx, RenderEx method [DirectShow], RenderEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_renderex, strmif/IFilterGraph2::RenderEx

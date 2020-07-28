@@ -1,7 +1,8 @@
 ---
 UID: NF:micaut.IMathInputControl.GetPosition
 title: IMathInputControl::GetPosition (micaut.h)
-description: Retrieves the position and size of the control.helpviewer_keywords: ["GetPosition","GetPosition method [Tablet PC]","GetPosition method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetPosition method","IMathInputControl.GetPosition","IMathInputControl::GetPosition","micaut/IMathInputControl::GetPosition","tablet.imathinputcontrol_getposition"]
+description: Retrieves the position and size of the control.
+helpviewer_keywords: ["GetPosition","GetPosition method [Tablet PC]","GetPosition method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetPosition method","IMathInputControl.GetPosition","IMathInputControl::GetPosition","micaut/IMathInputControl::GetPosition","tablet.imathinputcontrol_getposition"]
 old-location: tablet\imathinputcontrol_getposition.htm
 tech.root: tablet
 ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56

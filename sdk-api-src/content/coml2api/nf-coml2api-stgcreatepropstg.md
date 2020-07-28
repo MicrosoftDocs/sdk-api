@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.StgCreatePropStg
 title: StgCreatePropStg function (coml2api.h)
-description: Creates and opens a property set in a specified storage or stream object.helpviewer_keywords: ["StgCreatePropStg","StgCreatePropStg function [Structured Storage]","_stg_stgcreatepropstg","coml2api/StgCreatePropStg","stg.stgcreatepropstg"]
+description: Creates and opens a property set in a specified storage or stream object.
+helpviewer_keywords: ["StgCreatePropStg","StgCreatePropStg function [Structured Storage]","_stg_stgcreatepropstg","coml2api/StgCreatePropStg","stg.stgcreatepropstg"]
 old-location: stg\stgcreatepropstg.htm
 tech.root: Stg
 ms.assetid: fc171888-3723-4894-a356-1b234352c4e8

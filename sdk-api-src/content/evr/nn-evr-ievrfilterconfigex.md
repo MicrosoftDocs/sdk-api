@@ -1,9 +1,10 @@
 ---
 UID: NN:evr.IEVRFilterConfigEx
 title: IEVRFilterConfigEx (evr.h)
-description: Configures the DirectShow Enhanced Video Renderer (EVR) filter.helpviewer_keywords: ["IEVRFilterConfigEx","IEVRFilterConfigEx interface [Media Foundation]","IEVRFilterConfigEx interface [Media Foundation]","described","evr/IEVRFilterConfigEx","mf.ievrfilterconfigex"]
+description: Configures the DirectShow Enhanced Video Renderer (EVR) filter.
+helpviewer_keywords: ["IEVRFilterConfigEx","IEVRFilterConfigEx interface [Media Foundation]","IEVRFilterConfigEx interface [Media Foundation]","described","evr/IEVRFilterConfigEx","mf.ievrfilterconfigex"]
 old-location: mf\ievrfilterconfigex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bbe85dc1-af9c-4be7-9064-d61bba160942
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx, IEVRFilterConfigEx interface [Media Foundation], IEVRFilterConfigEx interface [Media Foundation],described, evr/IEVRFilterConfigEx, mf.ievrfilterconfigex

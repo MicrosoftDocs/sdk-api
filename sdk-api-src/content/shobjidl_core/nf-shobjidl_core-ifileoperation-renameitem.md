@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.RenameItem
 title: IFileOperation::RenameItem (shobjidl_core.h)
-description: Declares a single item that is to be given a new display name.helpviewer_keywords: ["IFileOperation interface [Windows Shell]","RenameItem method","IFileOperation.RenameItem","IFileOperation::RenameItem","RenameItem","RenameItem method [Windows Shell]","RenameItem method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_RenameItem","shell.IFileOperation_RenameItem","shobjidl_core/IFileOperation::RenameItem"]
+description: Declares a single item that is to be given a new display name.
+helpviewer_keywords: ["IFileOperation interface [Windows Shell]","RenameItem method","IFileOperation.RenameItem","IFileOperation::RenameItem","RenameItem","RenameItem method [Windows Shell]","RenameItem method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_RenameItem","shell.IFileOperation_RenameItem","shobjidl_core/IFileOperation::RenameItem"]
 old-location: shell\IFileOperation_RenameItem.htm
 tech.root: shell
 ms.assetid: 2f72b729-3535-4ab7-9579-21b1ba97c67f

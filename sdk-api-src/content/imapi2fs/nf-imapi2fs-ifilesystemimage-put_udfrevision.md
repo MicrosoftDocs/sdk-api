@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_UDFRevision
 title: IFileSystemImage::put_UDFRevision (imapi2fs.h)
-description: Sets the UDF revision level of the file system image.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_UDFRevision method","IFileSystemImage.put_UDFRevision","IFileSystemImage::put_UDFRevision","imapi.ifilesystemimage_put_udfrevision","imapi2fs/IFileSystemImage::put_UDFRevision","put_UDFRevision","put_UDFRevision method [IMAPI]","put_UDFRevision method [IMAPI]","IFileSystemImage interface"]
+description: Sets the UDF revision level of the file system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_UDFRevision method","IFileSystemImage.put_UDFRevision","IFileSystemImage::put_UDFRevision","imapi.ifilesystemimage_put_udfrevision","imapi2fs/IFileSystemImage::put_UDFRevision","put_UDFRevision","put_UDFRevision method [IMAPI]","put_UDFRevision method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_udfrevision.htm
 tech.root: imapi
 ms.assetid: a4b0e73b-6bef-44e1-b0b7-9a4e0fcc1370

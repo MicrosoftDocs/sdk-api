@@ -150,7 +150,7 @@ The requested buffer size is not aligned. This code can be returned for a render
 <td width="60%">
 <div class="alert"><b>Note</b>  Applies to Windows 7 and later.</div>
 <div> </div>
-Indicates that the buffer duration value requested by an exclusive-mode client is out of range. The requested duration value for pull mode must not be greater than 500 milliseconds; for push mode the duration value must not be greater than 2 seconds.
+Indicates that the buffer duration value requested by an exclusive-mode client is out of range. The requested duration value for pull mode must not be greater than 5000 milliseconds; for push mode the duration value must not be greater than 2 seconds.
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ The method failed to create the audio endpoint for the render or the capture dev
 <td width="60%">
 <div class="alert"><b>Note</b>  Applies to Windows 7 and later.</div>
 <div> </div>
-Indicates that the device period requested by an exclusive-mode client is greater than 500 milliseconds.
+Indicates that the device period requested by an exclusive-mode client is greater than 5000 milliseconds.
 
 </td>
 </tr>

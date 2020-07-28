@@ -4,7 +4,7 @@ title: IComObjectEvents::OnDisableCommit (comsvcs.h)
 description: Generated when the client calls DisableCommit on a context.
 helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnDisableCommit method","IComObjectEvents.OnDisableCommit","IComObjectEvents::OnDisableCommit","OnDisableCommit","OnDisableCommit method [COM+]","OnDisableCommit method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnDisableCommit","comsvcs/IComObjectEvents::OnDisableCommit","cos.icomobjectevents_ondisablecommit"]
 old-location: cos\icomobjectevents_ondisablecommit.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 413d7216-294c-4e46-b24c-abe1d1a09239
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnDisableCommit method, IComObjectEvents.OnDisableCommit, IComObjectEvents::OnDisableCommit, OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit

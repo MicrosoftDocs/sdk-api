@@ -1,9 +1,10 @@
 ---
 UID: NF:rtworkq.RtwqCreateAsyncResult
 title: RtwqCreateAsyncResult function (rtworkq.h)
-description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.helpviewer_keywords: ["RtwqCreateAsyncResult","RtwqCreateAsyncResult function","base.rtwqcreateasyncresult","rtworkq/RtwqCreateAsyncResult"]
+description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
+helpviewer_keywords: ["RtwqCreateAsyncResult","RtwqCreateAsyncResult function","base.rtwqcreateasyncresult","rtworkq/RtwqCreateAsyncResult"]
 old-location: base\rtwqcreateasyncresult.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: ba8e888a-5bd6-4624-94a6-2f2ce0a080d1
 ms.date: 12/05/2018
 ms.keywords: RtwqCreateAsyncResult, RtwqCreateAsyncResult function, base.rtwqcreateasyncresult, rtworkq/RtwqCreateAsyncResult

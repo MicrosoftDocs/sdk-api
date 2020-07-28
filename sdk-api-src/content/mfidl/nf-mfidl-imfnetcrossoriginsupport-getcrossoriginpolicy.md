@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.GetCrossOriginPolicy
 title: IMFNetCrossOriginSupport::GetCrossOriginPolicy (mfidl.h)
-description: Returns the client's current cross-origin policy to apply to the download session.helpviewer_keywords: ["GetCrossOriginPolicy","GetCrossOriginPolicy method [Media Foundation]","GetCrossOriginPolicy method [Media Foundation]","IMFNetCrossOriginSupport interface","IMFNetCrossOriginSupport interface [Media Foundation]","GetCrossOriginPolicy method","IMFNetCrossOriginSupport.GetCrossOriginPolicy","IMFNetCrossOriginSupport::GetCrossOriginPolicy","mf.imfnetcrossoriginsupport_getcrossoriginpolicy","mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy"]
+description: Returns the client's current cross-origin policy to apply to the download session.
+helpviewer_keywords: ["GetCrossOriginPolicy","GetCrossOriginPolicy method [Media Foundation]","GetCrossOriginPolicy method [Media Foundation]","IMFNetCrossOriginSupport interface","IMFNetCrossOriginSupport interface [Media Foundation]","GetCrossOriginPolicy method","IMFNetCrossOriginSupport.GetCrossOriginPolicy","IMFNetCrossOriginSupport::GetCrossOriginPolicy","mf.imfnetcrossoriginsupport_getcrossoriginpolicy","mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy"]
 old-location: mf\imfnetcrossoriginsupport_getcrossoriginpolicy.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B74FA337-014E-4A5C-83CD-26C563E9BBD4
 ms.date: 12/05/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy

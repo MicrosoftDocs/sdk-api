@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_Identifier
 title: IOCSPCAConfiguration::get_Identifier (certadm.h)
-description: Gets a name for the certification authority (CA) configuration.helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","Identifier property","IOCSPCAConfiguration.Identifier","IOCSPCAConfiguration.get_Identifier","IOCSPCAConfiguration::Identifier","IOCSPCAConfiguration::get_Identifier","Identifier property [Security]","Identifier property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::Identifier","certadm/IOCSPCAConfiguration::get_Identifier","get_Identifier","security.iocspcaconfiguration_identifier_method"]
+description: Gets a name for the certification authority (CA) configuration.
+helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","Identifier property","IOCSPCAConfiguration.Identifier","IOCSPCAConfiguration.get_Identifier","IOCSPCAConfiguration::Identifier","IOCSPCAConfiguration::get_Identifier","Identifier property [Security]","Identifier property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::Identifier","certadm/IOCSPCAConfiguration::get_Identifier","get_Identifier","security.iocspcaconfiguration_identifier_method"]
 old-location: security\iocspcaconfiguration_identifier_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a35aaaf1-8bad-4de1-a2e8-2e4947c30d72
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Identifier property, IOCSPCAConfiguration.Identifier, IOCSPCAConfiguration.get_Identifier, IOCSPCAConfiguration::Identifier, IOCSPCAConfiguration::get_Identifier, Identifier property [Security], Identifier property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Identifier, certadm/IOCSPCAConfiguration::get_Identifier, get_Identifier, security.iocspcaconfiguration_identifier_method

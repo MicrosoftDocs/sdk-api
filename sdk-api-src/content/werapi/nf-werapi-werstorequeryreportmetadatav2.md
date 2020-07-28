@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerStoreQueryReportMetadataV2
 title: WerStoreQueryReportMetadataV2 function (werapi.h)
-description: Retrieves metadata about a report in the store.helpviewer_keywords: ["WerStoreQueryReportMetadataV2","WerStoreQueryReportMetadataV2 function [Windows Error Reporting]","wer.werstorequeryreportmetadatav2","werapi/WerStoreQueryReportMetadataV2"]
+description: Retrieves metadata about a report in the store.
+helpviewer_keywords: ["WerStoreQueryReportMetadataV2","WerStoreQueryReportMetadataV2 function [Windows Error Reporting]","wer.werstorequeryreportmetadatav2","werapi/WerStoreQueryReportMetadataV2"]
 old-location: wer\werstorequeryreportmetadatav2.htm
 tech.root: wer
 ms.assetid: ADF6619C-1F3E-4AFF-9E25-4F6F83D1353C

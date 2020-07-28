@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.Add
 title: IOpcCertificateSet::Add (msopc.h)
-description: Adds a certificate to the set.helpviewer_keywords: ["Add","Add method [Open Packaging Conventions]","Add method [Open Packaging Conventions]","IOpcCertificateSet interface","IOpcCertificateSet interface [Open Packaging Conventions]","Add method","IOpcCertificateSet.Add","IOpcCertificateSet::Add","msopc/IOpcCertificateSet::Add","opc.iopccertificateset_add"]
+description: Adds a certificate to the set.
+helpviewer_keywords: ["Add","Add method [Open Packaging Conventions]","Add method [Open Packaging Conventions]","IOpcCertificateSet interface","IOpcCertificateSet interface [Open Packaging Conventions]","Add method","IOpcCertificateSet.Add","IOpcCertificateSet::Add","msopc/IOpcCertificateSet::Add","opc.iopccertificateset_add"]
 old-location: opc\iopccertificateset_add.htm
 tech.root: OPC
 ms.assetid: d14e9a1e-dda3-4b57-9882-0fd473a19e8c

@@ -1,7 +1,8 @@
 ---
 UID: NS:iprtrmib._MIB_BEST_IF
 title: MIB_BEST_IF (iprtrmib.h)
-description: Stores the index of the interface that has the best route to a particular destination IPv4 address.helpviewer_keywords: ["*PMIB_BEST_IF","MIB_BEST_IF","MIB_BEST_IF structure [MIB]","PMIB_BEST_IF","PMIB_BEST_IF structure pointer [MIB]","_mpr_mib_best_if","ipmib/MIB_BEST_IF","ipmib/PMIB_BEST_IF","iprtrmib/MIB_BEST_IF","iprtrmib/PMIB_BEST_IF","mib.mib_best_if","rras.mib_best_if"]
+description: Stores the index of the interface that has the best route to a particular destination IPv4 address.
+helpviewer_keywords: ["*PMIB_BEST_IF","MIB_BEST_IF","MIB_BEST_IF structure [MIB]","PMIB_BEST_IF","PMIB_BEST_IF structure pointer [MIB]","_mpr_mib_best_if","ipmib/MIB_BEST_IF","ipmib/PMIB_BEST_IF","iprtrmib/MIB_BEST_IF","iprtrmib/PMIB_BEST_IF","mib.mib_best_if","rras.mib_best_if"]
 old-location: mib\mib_best_if.htm
 tech.root: MIB
 ms.assetid: a557acfe-c5c6-44fc-b1f1-2aa7ef599d44

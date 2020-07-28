@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMActivate
 title: DRMActivate function (msdrm.h)
-description: Obtains a lockbox and machine certificate for a machine or a rights account certificate for a user.helpviewer_keywords: ["DRMActivate","DRMActivate function [Active Directory Rights Management Services SDK 1.0]","DRM_ACTIVATE_CANCEL","DRM_ACTIVATE_DELAYED","DRM_ACTIVATE_GROUPIDENTITY","DRM_ACTIVATE_MACHINE","DRM_ACTIVATE_SHARED_GROUPIDENTITY","DRM_ACTIVATE_SILENT","DRM_ACTIVATE_TEMPORARY","msdrm/DRMActivate","rm.drmactivate"]
+description: Obtains a lockbox and machine certificate for a machine or a rights account certificate for a user.
+helpviewer_keywords: ["DRMActivate","DRMActivate function [Active Directory Rights Management Services SDK 1.0]","DRM_ACTIVATE_CANCEL","DRM_ACTIVATE_DELAYED","DRM_ACTIVATE_GROUPIDENTITY","DRM_ACTIVATE_MACHINE","DRM_ACTIVATE_SHARED_GROUPIDENTITY","DRM_ACTIVATE_SILENT","DRM_ACTIVATE_TEMPORARY","msdrm/DRMActivate","rm.drmactivate"]
 old-location: rm\drmactivate.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: d3f4ac2c-95d9-4273-a679-81670dd62d28
 ms.date: 12/05/2018
 ms.keywords: DRMActivate, DRMActivate function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_CANCEL, DRM_ACTIVATE_DELAYED, DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, DRM_ACTIVATE_SHARED_GROUPIDENTITY, DRM_ACTIVATE_SILENT, DRM_ACTIVATE_TEMPORARY, msdrm/DRMActivate, rm.drmactivate
@@ -135,7 +136,7 @@ The language ID used by the application. If this parameter is set to zero, the d
 
 ### -param pActServInfo [in]
 
-Optional server information. If the client has not been configured to use Active Directory Federation Services (ADFS) with AD RMS, you can pass <b>NULL</b> to use the Windows Live ID service for service discovery. If the client has been configured to use ADFS, you must pass the Windows Live certification URL. Currently, the Windows Live ID certification service URL is https://certification.drm.microsoft.com/certification. For more information about service discovery, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a>.
+Optional server information. If the client has not been configured to use Active Directory Federation Services (ADFS) with AD RMS, you can pass <b>NULL</b> to use the Windows Live ID service for service discovery. If the client has been configured to use ADFS, you must pass the Windows Live certification URL. <!-- Currently, the Windows Live ID certification service URL is https://certification.isv.drm.microsoft.com/certification/certification.asmx.--> For more information about service discovery, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a>.
 
 
 ### -param pvContext [in]

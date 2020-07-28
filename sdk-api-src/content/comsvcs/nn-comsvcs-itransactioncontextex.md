@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.ITransactionContextEx
 title: ITransactionContextEx (comsvcs.h)
-description: Provides basic methods for a generic transactional object that begins a transaction. By calling the methods of this interface, you can compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.helpviewer_keywords: ["ITransactionContextEx","ITransactionContextEx interface [COM+]","ITransactionContextEx interface [COM+]","described","_cos_ITransactionContextEx_Interface","comsvcs/ITransactionContextEx","cos.itransactioncontextex"]
+description: Provides basic methods for a generic transactional object that begins a transaction. By calling the methods of this interface, you can compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
+helpviewer_keywords: ["ITransactionContextEx","ITransactionContextEx interface [COM+]","ITransactionContextEx interface [COM+]","described","_cos_ITransactionContextEx_Interface","comsvcs/ITransactionContextEx","cos.itransactioncontextex"]
 old-location: cos\itransactioncontextex.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cdf3a74f-cdef-4721-9c0d-90af724c24ba
 ms.date: 12/05/2018
 ms.keywords: ITransactionContextEx, ITransactionContextEx interface [COM+], ITransactionContextEx interface [COM+],described, _cos_ITransactionContextEx_Interface, comsvcs/ITransactionContextEx, cos.itransactioncontextex

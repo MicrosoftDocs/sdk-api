@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Description
 title: IX509PrivateKey::get_Description (certenroll.h)
-description: Specifies or retrieves a string that contains a description of the private key.helpviewer_keywords: ["Description property [Security]","Description property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Description property","IX509PrivateKey.Description","IX509PrivateKey.get_Description","IX509PrivateKey::Description","IX509PrivateKey::get_Description","IX509PrivateKey::put_Description","certenroll/IX509PrivateKey::Description","certenroll/IX509PrivateKey::get_Description","certenroll/IX509PrivateKey::put_Description","get_Description","security.ix509privatekey_description_property"]
+description: Specifies or retrieves a string that contains a description of the private key.
+helpviewer_keywords: ["Description property [Security]","Description property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Description property","IX509PrivateKey.Description","IX509PrivateKey.get_Description","IX509PrivateKey::Description","IX509PrivateKey::get_Description","IX509PrivateKey::put_Description","certenroll/IX509PrivateKey::Description","certenroll/IX509PrivateKey::get_Description","certenroll/IX509PrivateKey::put_Description","get_Description","security.ix509privatekey_description_property"]
 old-location: security\ix509privatekey_description_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 84889286-7740-4f4f-b095-1fb999702f9a
 ms.date: 12/05/2018
 ms.keywords: Description property [Security], Description property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Description property, IX509PrivateKey.Description, IX509PrivateKey.get_Description, IX509PrivateKey::Description, IX509PrivateKey::get_Description, IX509PrivateKey::put_Description, certenroll/IX509PrivateKey::Description, certenroll/IX509PrivateKey::get_Description, certenroll/IX509PrivateKey::put_Description, get_Description, security.ix509privatekey_description_property

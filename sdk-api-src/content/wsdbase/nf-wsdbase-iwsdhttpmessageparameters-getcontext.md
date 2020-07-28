@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetContext
 title: IWSDHttpMessageParameters::GetContext (wsdbase.h)
-description: Retrieves the private transmission context for the current transaction.helpviewer_keywords: ["GetContext","GetContext method","GetContext method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetContext method","IWSDHttpMessageParameters.GetContext","IWSDHttpMessageParameters::GetContext","ncd.iwsdhttpmessageparameters_getcontext","wsdbase/IWSDHttpMessageParameters::GetContext"]
+description: Retrieves the private transmission context for the current transaction.
+helpviewer_keywords: ["GetContext","GetContext method","GetContext method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetContext method","IWSDHttpMessageParameters.GetContext","IWSDHttpMessageParameters::GetContext","ncd.iwsdhttpmessageparameters_getcontext","wsdbase/IWSDHttpMessageParameters::GetContext"]
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext

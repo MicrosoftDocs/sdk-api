@@ -1,9 +1,10 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUPPLEMENTAL_CREDENTIAL
 title: MSV1_0_SUPPLEMENTAL_CREDENTIAL (ntsecapi.h)
-description: The MSV1_0_SUPPLEMENTAL_CREDENTIAL structure is used to pass credentials into MSV1_0 from Kerberos or custom authentication package.helpviewer_keywords: ["*PMSV1_0_SUPPLEMENTAL_CREDENTIAL","MSV1_0_CRED_LM_PRESENT","MSV1_0_CRED_NT_PRESENT","MSV1_0_CRED_VERSION","MSV1_0_SUPPLEMENTAL_CREDENTIAL","MSV1_0_SUPPLEMENTAL_CREDENTIAL structure [Security]","PMSV1_0_SUPPLEMENTAL_CREDENTIAL","PMSV1_0_SUPPLEMENTAL_CREDENTIAL structure pointer [Security]","_lsa_msv1_0_supplemental_credential","ntsecapi/MSV1_0_SUPPLEMENTAL_CREDENTIAL","ntsecapi/PMSV1_0_SUPPLEMENTAL_CREDENTIAL","security.msv1_0_supplemental_credential"]
+description: The MSV1_0_SUPPLEMENTAL_CREDENTIAL structure is used to pass credentials into MSV1_0 from Kerberos or custom authentication package.
+helpviewer_keywords: ["*PMSV1_0_SUPPLEMENTAL_CREDENTIAL","MSV1_0_CRED_LM_PRESENT","MSV1_0_CRED_NT_PRESENT","MSV1_0_CRED_VERSION","MSV1_0_SUPPLEMENTAL_CREDENTIAL","MSV1_0_SUPPLEMENTAL_CREDENTIAL structure [Security]","PMSV1_0_SUPPLEMENTAL_CREDENTIAL","PMSV1_0_SUPPLEMENTAL_CREDENTIAL structure pointer [Security]","_lsa_msv1_0_supplemental_credential","ntsecapi/MSV1_0_SUPPLEMENTAL_CREDENTIAL","ntsecapi/PMSV1_0_SUPPLEMENTAL_CREDENTIAL","security.msv1_0_supplemental_credential"]
 old-location: security\msv1_0_supplemental_credential.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 63848b26-b611-4ae6-8bc3-fc124a825d3d
 ms.date: 12/05/2018
 ms.keywords: '*PMSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_CRED_LM_PRESENT, MSV1_0_CRED_NT_PRESENT, MSV1_0_CRED_VERSION, MSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_SUPPLEMENTAL_CREDENTIAL structure [Security], PMSV1_0_SUPPLEMENTAL_CREDENTIAL, PMSV1_0_SUPPLEMENTAL_CREDENTIAL structure pointer [Security], _lsa_msv1_0_supplemental_credential, ntsecapi/MSV1_0_SUPPLEMENTAL_CREDENTIAL, ntsecapi/PMSV1_0_SUPPLEMENTAL_CREDENTIAL, security.msv1_0_supplemental_credential'

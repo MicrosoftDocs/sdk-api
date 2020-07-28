@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetEncryptionStatus
 title: IOfflineFilesCache::GetEncryptionStatus (cscobj.h)
-description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.helpviewer_keywords: ["GetEncryptionStatus","GetEncryptionStatus method [Offline Files]","GetEncryptionStatus method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","GetEncryptionStatus method","IOfflineFilesCache.GetEncryptionStatus","IOfflineFilesCache::GetEncryptionStatus","cscobj/IOfflineFilesCache::GetEncryptionStatus","of.iofflinefilescache_getencryptionstatus"]
+description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
+helpviewer_keywords: ["GetEncryptionStatus","GetEncryptionStatus method [Offline Files]","GetEncryptionStatus method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","GetEncryptionStatus method","IOfflineFilesCache.GetEncryptionStatus","IOfflineFilesCache::GetEncryptionStatus","cscobj/IOfflineFilesCache::GetEncryptionStatus","of.iofflinefilescache_getencryptionstatus"]
 old-location: of\iofflinefilescache_getencryptionstatus.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 87c2aced-84c9-40cb-bdf2-6974925e89d5
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetEncryptionStatus method, IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus

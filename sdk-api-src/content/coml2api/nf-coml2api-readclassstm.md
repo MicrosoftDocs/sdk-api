@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.ReadClassStm
 title: ReadClassStm function (coml2api.h)
-description: Reads the CLSID previously written to a stream object with the WriteClassStm function.helpviewer_keywords: ["ReadClassStm","ReadClassStm function [Structured Storage]","_stg_readclassstm","coml2api/ReadClassStm","stg.readclassstm"]
+description: Reads the CLSID previously written to a stream object with the WriteClassStm function.
+helpviewer_keywords: ["ReadClassStm","ReadClassStm function [Structured Storage]","_stg_readclassstm","coml2api/ReadClassStm","stg.readclassstm"]
 old-location: stg\readclassstm.htm
 tech.root: Stg
 ms.assetid: bcf11c5b-e164-4a0f-b30f-ee9e76c4356d

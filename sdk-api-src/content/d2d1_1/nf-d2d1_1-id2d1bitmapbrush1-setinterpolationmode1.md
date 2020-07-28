@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1BitmapBrush1.SetInterpolationMode1
 title: ID2D1BitmapBrush1::SetInterpolationMode1 (d2d1_1.h)
-description: Sets the interpolation mode for the brush.helpviewer_keywords: ["ID2D1BitmapBrush1 interface [Direct2D]","SetInterpolationMode1 method","ID2D1BitmapBrush1.SetInterpolationMode1","ID2D1BitmapBrush1::SetInterpolationMode1","SetInterpolationMode1","SetInterpolationMode1 method [Direct2D]","SetInterpolationMode1 method [Direct2D]","ID2D1BitmapBrush1 interface","d2d1_1/ID2D1BitmapBrush1::SetInterpolationMode1","direct2d.id2d1bitmapbrush1_setinterpolationmode1"]
+description: Sets the interpolation mode for the brush.
+helpviewer_keywords: ["ID2D1BitmapBrush1 interface [Direct2D]","SetInterpolationMode1 method","ID2D1BitmapBrush1.SetInterpolationMode1","ID2D1BitmapBrush1::SetInterpolationMode1","SetInterpolationMode1","SetInterpolationMode1 method [Direct2D]","SetInterpolationMode1 method [Direct2D]","ID2D1BitmapBrush1 interface","d2d1_1/ID2D1BitmapBrush1::SetInterpolationMode1","direct2d.id2d1bitmapbrush1_setinterpolationmode1"]
 old-location: direct2d\id2d1bitmapbrush1_setinterpolationmode1.htm
 tech.root: Direct2D
 ms.assetid: 55CBCA8D-5155-4D26-B868-41571A2DB640

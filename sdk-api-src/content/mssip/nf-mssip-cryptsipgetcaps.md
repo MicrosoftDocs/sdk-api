@@ -4,7 +4,7 @@ title: CryptSIPGetCaps function (mssip.h)
 description: Retrieves the capabilities of a subject interface package (SIP).
 helpviewer_keywords: ["CryptSIPGetCaps","CryptSIPGetCaps function [Security]","mssip/CryptSIPGetCaps","security.cryptsipgetcaps"]
 old-location: security\cryptsipgetcaps.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps

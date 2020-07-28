@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupVerifyInfFileA
 title: SetupVerifyInfFileA function (setupapi.h)
-description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform.helpviewer_keywords: ["SetupVerifyInfFile","SetupVerifyInfFile function [Setup API]","SetupVerifyInfFileA","SetupVerifyInfFileW","_setupapi_setupverifyinffile","setup.setupverifyinffile","setupapi/SetupVerifyInfFile","setupapi/SetupVerifyInfFileA","setupapi/SetupVerifyInfFileW"]
+description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform.
+helpviewer_keywords: ["SetupVerifyInfFile","SetupVerifyInfFile function [Setup API]","SetupVerifyInfFileA","SetupVerifyInfFileW","_setupapi_setupverifyinffile","setup.setupverifyinffile","setupapi/SetupVerifyInfFile","setupapi/SetupVerifyInfFileA","setupapi/SetupVerifyInfFileW"]
 old-location: setup\setupverifyinffile.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.date: 12/05/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
@@ -100,4 +101,9 @@ This function returns WINSETUPAPI BOOL.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupVerifyInfFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFMediaEventGenerator
 title: IMFMediaEventGenerator (mfobjects.h)
-description: Retrieves events from any Media Foundation object that generates events.helpviewer_keywords: ["IMFMediaEventGenerator","IMFMediaEventGenerator interface [Media Foundation]","IMFMediaEventGenerator interface [Media Foundation]","described","a37d0840-c896-43a0-b3d1-c2a6aaff1b25","mf.imfmediaeventgenerator","mfobjects/IMFMediaEventGenerator"]
+description: Retrieves events from any Media Foundation object that generates events.
+helpviewer_keywords: ["IMFMediaEventGenerator","IMFMediaEventGenerator interface [Media Foundation]","IMFMediaEventGenerator interface [Media Foundation]","described","a37d0840-c896-43a0-b3d1-c2a6aaff1b25","mf.imfmediaeventgenerator","mfobjects/IMFMediaEventGenerator"]
 old-location: mf\imfmediaeventgenerator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a37d0840-c896-43a0-b3d1-c2a6aaff1b25
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator

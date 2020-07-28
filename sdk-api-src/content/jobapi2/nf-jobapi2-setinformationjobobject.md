@@ -4,7 +4,7 @@ title: SetInformationJobObject function (jobapi2.h)
 description: Sets limits for a job object.
 helpviewer_keywords: ["JobObjectAssociateCompletionPortInformation","JobObjectBasicLimitInformation","JobObjectBasicUIRestrictions","JobObjectCpuRateControlInformation","JobObjectEndOfJobTimeInformation","JobObjectExtendedLimitInformation","JobObjectGroupInformation","JobObjectGroupInformationEx","JobObjectLimitViolationInformation2","JobObjectNetRateControlInformation","JobObjectNotificationLimitInformation","JobObjectNotificationLimitInformation2","JobObjectSecurityLimitInformation","SetInformationJobObject","SetInformationJobObject function","_win32_setinformationjobobject","base.setinformationjobobject","jobapi2/SetInformationJobObject"]
 old-location: base\setinformationjobobject.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 46f7c579-e8d3-4434-a6ce-56573cd84387
 ms.date: 12/05/2018
 ms.keywords: JobObjectAssociateCompletionPortInformation, JobObjectBasicLimitInformation, JobObjectBasicUIRestrictions, JobObjectCpuRateControlInformation, JobObjectEndOfJobTimeInformation, JobObjectExtendedLimitInformation, JobObjectGroupInformation, JobObjectGroupInformationEx, JobObjectLimitViolationInformation2, JobObjectNetRateControlInformation, JobObjectNotificationLimitInformation, JobObjectNotificationLimitInformation2, JobObjectSecurityLimitInformation, SetInformationJobObject, SetInformationJobObject function, _win32_setinformationjobobject, base.setinformationjobobject, jobapi2/SetInformationJobObject

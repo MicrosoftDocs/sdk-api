@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFHeapFree
 title: MFHeapFree function (mfapi.h)
-description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.helpviewer_keywords: ["MFHeapFree","MFHeapFree function [Media Foundation]","c4a03a20-5398-4fe0-9a1f-3bc162c624cd","mf.mfheapfree","mfapi/MFHeapFree"]
+description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.
+helpviewer_keywords: ["MFHeapFree","MFHeapFree function [Media Foundation]","c4a03a20-5398-4fe0-9a1f-3bc162c624cd","mf.mfheapfree","mfapi/MFHeapFree"]
 old-location: mf\mfheapfree.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c4a03a20-5398-4fe0-9a1f-3bc162c624cd
 ms.date: 12/05/2018
 ms.keywords: MFHeapFree, MFHeapFree function [Media Foundation], c4a03a20-5398-4fe0-9a1f-3bc162c624cd, mf.mfheapfree, mfapi/MFHeapFree

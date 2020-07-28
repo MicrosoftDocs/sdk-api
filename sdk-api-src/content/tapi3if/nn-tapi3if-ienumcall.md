@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.IEnumCall
 title: IEnumCall (tapi3if.h)
-description: The IEnumCall interface provides COM-standard enumeration methods for the ITCallInfo interface. The ITCallHub::EnumerateCalls and ITAddress::EnumerateCalls methods return a pointer to IEnumCall.helpviewer_keywords: ["IEnumCall","IEnumCall interface [TAPI 2.2]","IEnumCall interface [TAPI 2.2]","described","_tapi3_ienumcall","tapi3.ienumcall","tapi3if/IEnumCall"]
+description: The IEnumCall interface provides COM-standard enumeration methods for the ITCallInfo interface. The ITCallHub::EnumerateCalls and ITAddress::EnumerateCalls methods return a pointer to IEnumCall.
+helpviewer_keywords: ["IEnumCall","IEnumCall interface [TAPI 2.2]","IEnumCall interface [TAPI 2.2]","described","_tapi3_ienumcall","tapi3.ienumcall","tapi3if/IEnumCall"]
 old-location: tapi3\ienumcall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 418c1005-98f0-406f-a85c-c08adb269b9f
 ms.date: 12/05/2018
 ms.keywords: IEnumCall, IEnumCall interface [TAPI 2.2], IEnumCall interface [TAPI 2.2],described, _tapi3_ienumcall, tapi3.ienumcall, tapi3if/IEnumCall

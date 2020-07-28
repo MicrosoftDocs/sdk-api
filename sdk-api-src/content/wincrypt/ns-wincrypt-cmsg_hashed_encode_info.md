@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMSG_HASHED_ENCODE_INFO
 title: CMSG_HASHED_ENCODE_INFO (wincrypt.h)
-description: Used with hashed messages. It is passed to the CryptMsgOpenToEncode function if the CryptMsgOpenToEncode function's dwMsgType parameter is CMSG_ENVELOPED.helpviewer_keywords: ["*PCMSG_HASHED_ENCODE_INFO","CMSG_HASHED_ENCODE_INFO","CMSG_HASHED_ENCODE_INFO structure [Security]","PCMSG_HASHED_ENCODE_INFO","PCMSG_HASHED_ENCODE_INFO structure pointer [Security]","_crypto2_cmsg_hashed_encode_info","security.cmsg_hashed_encode_info","wincrypt/CMSG_HASHED_ENCODE_INFO","wincrypt/PCMSG_HASHED_ENCODE_INFO"]
+description: Used with hashed messages. It is passed to the CryptMsgOpenToEncode function if the CryptMsgOpenToEncode function's dwMsgType parameter is CMSG_ENVELOPED.
+helpviewer_keywords: ["*PCMSG_HASHED_ENCODE_INFO","CMSG_HASHED_ENCODE_INFO","CMSG_HASHED_ENCODE_INFO structure [Security]","PCMSG_HASHED_ENCODE_INFO","PCMSG_HASHED_ENCODE_INFO structure pointer [Security]","_crypto2_cmsg_hashed_encode_info","security.cmsg_hashed_encode_info","wincrypt/CMSG_HASHED_ENCODE_INFO","wincrypt/PCMSG_HASHED_ENCODE_INFO"]
 old-location: security\cmsg_hashed_encode_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 05dfeda0-a8a1-4203-a68a-af92903ab215
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO structure [Security], PCMSG_HASHED_ENCODE_INFO, PCMSG_HASHED_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_hashed_encode_info, security.cmsg_hashed_encode_info, wincrypt/CMSG_HASHED_ENCODE_INFO, wincrypt/PCMSG_HASHED_ENCODE_INFO'

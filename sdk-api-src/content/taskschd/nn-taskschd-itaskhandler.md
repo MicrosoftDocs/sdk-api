@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.ITaskHandler
 title: ITaskHandler (taskschd.h)
-description: Defines the methods that are called by the Task Scheduler service to manage a COM handler.helpviewer_keywords: ["ITaskHandler","ITaskHandler interface [Task Scheduler]","ITaskHandler interface [Task Scheduler]","described","taskschd.itaskhandler","taskschd/ITaskHandler"]
+description: Defines the methods that are called by the Task Scheduler service to manage a COM handler.
+helpviewer_keywords: ["ITaskHandler","ITaskHandler interface [Task Scheduler]","ITaskHandler interface [Task Scheduler]","described","taskschd.itaskhandler","taskschd/ITaskHandler"]
 old-location: taskschd\itaskhandler.htm
 tech.root: taskschd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1

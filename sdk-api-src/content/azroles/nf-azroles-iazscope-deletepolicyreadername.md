@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyReaderName
 title: IAzScope::DeletePolicyReaderName (azroles.h)
-description: The DeletePolicyReaderName method of IAzScope removes the specified account name from the list of principals that act as policy readers.helpviewer_keywords: ["AzScope object [Security]","DeletePolicyReaderName method","DeletePolicyReaderName","DeletePolicyReaderName method [Security]","DeletePolicyReaderName method [Security]","AzScope object","DeletePolicyReaderName method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyReaderName method","IAzScope.DeletePolicyReaderName","IAzScope::DeletePolicyReaderName","azroles/IAzScope::DeletePolicyReaderName","security.iazscope_deletepolicyreadername"]
+description: The DeletePolicyReaderName method of IAzScope removes the specified account name from the list of principals that act as policy readers.
+helpviewer_keywords: ["AzScope object [Security]","DeletePolicyReaderName method","DeletePolicyReaderName","DeletePolicyReaderName method [Security]","DeletePolicyReaderName method [Security]","AzScope object","DeletePolicyReaderName method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyReaderName method","IAzScope.DeletePolicyReaderName","IAzScope::DeletePolicyReaderName","azroles/IAzScope::DeletePolicyReaderName","security.iazscope_deletepolicyreadername"]
 old-location: security\iazscope_deletepolicyreadername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e65af2a2-c7f7-483c-af05-342075218158
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzScope object, DeletePolicyReaderName method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReaderName method, IAzScope.DeletePolicyReaderName, IAzScope::DeletePolicyReaderName, azroles/IAzScope::DeletePolicyReaderName, security.iazscope_deletepolicyreadername

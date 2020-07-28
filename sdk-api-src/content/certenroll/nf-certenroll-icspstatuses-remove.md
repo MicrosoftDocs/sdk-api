@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspStatuses.Remove
 title: ICspStatuses::Remove (certenroll.h)
-description: Removes an ICspStatus object from the collection by index number.helpviewer_keywords: ["ICspStatuses interface [Security]","Remove method","ICspStatuses.Remove","ICspStatuses::Remove","Remove","Remove method [Security]","Remove method [Security]","ICspStatuses interface","certenroll/ICspStatuses::Remove","security.icspstatuses_remove_method"]
+description: Removes an ICspStatus object from the collection by index number.
+helpviewer_keywords: ["ICspStatuses interface [Security]","Remove method","ICspStatuses.Remove","ICspStatuses::Remove","Remove","Remove method [Security]","Remove method [Security]","ICspStatuses interface","certenroll/ICspStatuses::Remove","security.icspstatuses_remove_method"]
 old-location: security\icspstatuses_remove_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: de8a2598-6108-41af-b049-3b981d880e80
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],Remove method, ICspStatuses.Remove, ICspStatuses::Remove, Remove, Remove method [Security], Remove method [Security],ICspStatuses interface, certenroll/ICspStatuses::Remove, security.icspstatuses_remove_method

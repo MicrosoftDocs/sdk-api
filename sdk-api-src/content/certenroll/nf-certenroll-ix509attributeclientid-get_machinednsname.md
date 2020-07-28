@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_MachineDnsName
 title: IX509AttributeClientId::get_MachineDnsName (certenroll.h)
-description: Retrieves the Domain Name System (DNS) name of the computer that generated the request.helpviewer_keywords: ["IX509AttributeClientId interface [Security]","MachineDnsName property","IX509AttributeClientId.MachineDnsName","IX509AttributeClientId.get_MachineDnsName","IX509AttributeClientId::MachineDnsName","IX509AttributeClientId::get_MachineDnsName","MachineDnsName property [Security]","MachineDnsName property [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::MachineDnsName","certenroll/IX509AttributeClientId::get_MachineDnsName","get_MachineDnsName","security.ix509attributeclientid_machinednsname_property"]
+description: Retrieves the Domain Name System (DNS) name of the computer that generated the request.
+helpviewer_keywords: ["IX509AttributeClientId interface [Security]","MachineDnsName property","IX509AttributeClientId.MachineDnsName","IX509AttributeClientId.get_MachineDnsName","IX509AttributeClientId::MachineDnsName","IX509AttributeClientId::get_MachineDnsName","MachineDnsName property [Security]","MachineDnsName property [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::MachineDnsName","certenroll/IX509AttributeClientId::get_MachineDnsName","get_MachineDnsName","security.ix509attributeclientid_machinednsname_property"]
 old-location: security\ix509attributeclientid_machinednsname_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 596682fc-aaf4-4247-a44b-34001cf7aecb
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId interface [Security],MachineDnsName property, IX509AttributeClientId.MachineDnsName, IX509AttributeClientId.get_MachineDnsName, IX509AttributeClientId::MachineDnsName, IX509AttributeClientId::get_MachineDnsName, MachineDnsName property [Security], MachineDnsName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::MachineDnsName, certenroll/IX509AttributeClientId::get_MachineDnsName, get_MachineDnsName, security.ix509attributeclientid_machinednsname_property

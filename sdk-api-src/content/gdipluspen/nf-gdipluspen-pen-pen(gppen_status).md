@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(GpPen,Status)
 title: Pen::Pen(GpPen,Status) (gdipluspen.h)
-description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.helpviewer_keywords: ["Pen","Pen constructors [GDI+]","Pen.Pen","Pen.Pen(GpPen","Status)","Pen::Pen","Pen::Pen(GpPen","Status)","_gdiplus_CLASS_Pen_Constructors","gdiplus._gdiplus_CLASS_Pen_Constructors","gdipluspen/Pen"]
+description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
+helpviewer_keywords: ["Pen","Pen constructors [GDI+]","Pen.Pen","Pen.Pen(GpPen","Status)","Pen::Pen","Pen::Pen(GpPen","Status)","_gdiplus_CLASS_Pen_Constructors","gdiplus._gdiplus_CLASS_Pen_Constructors","gdipluspen/Pen"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm

@@ -1,9 +1,10 @@
 ---
 UID: NS:mfplay.MFP_ERROR_EVENT
 title: MFP_ERROR_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_ERROR event.helpviewer_keywords: ["MFP_ERROR_EVENT","MFP_ERROR_EVENT structure [Media Foundation]","mf.mfp_error_event","mfplay/MFP_ERROR_EVENT"]
+description: Event structure for the MFP_EVENT_TYPE_ERROR event.
+helpviewer_keywords: ["MFP_ERROR_EVENT","MFP_ERROR_EVENT structure [Media Foundation]","mf.mfp_error_event","mfplay/MFP_ERROR_EVENT"]
 old-location: mf\mfp_error_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0ccfdefa-4913-4a02-bb91-14df1c185ddf
 ms.date: 12/05/2018
 ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.mfp_error_event, mfplay/MFP_ERROR_EVENT

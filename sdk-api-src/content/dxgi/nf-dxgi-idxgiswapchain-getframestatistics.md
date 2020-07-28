@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetFrameStatistics
 title: IDXGISwapChain::GetFrameStatistics (dxgi.h)
-description: Gets performance statistics about the last render frame.helpviewer_keywords: ["GetFrameStatistics","GetFrameStatistics method [DXGI]","GetFrameStatistics method [DXGI]","IDXGISwapChain interface","IDXGISwapChain interface [DXGI]","GetFrameStatistics method","IDXGISwapChain.GetFrameStatistics","IDXGISwapChain::GetFrameStatistics","direct3ddxgi.idxgiswapchain_getframestatistics","dxgi/IDXGISwapChain::GetFrameStatistics","f3c97ad1-9125-a209-1985-7dfedb3a35e2"]
+description: Gets performance statistics about the last render frame.
+helpviewer_keywords: ["GetFrameStatistics","GetFrameStatistics method [DXGI]","GetFrameStatistics method [DXGI]","IDXGISwapChain interface","IDXGISwapChain interface [DXGI]","GetFrameStatistics method","IDXGISwapChain.GetFrameStatistics","IDXGISwapChain::GetFrameStatistics","direct3ddxgi.idxgiswapchain_getframestatistics","dxgi/IDXGISwapChain::GetFrameStatistics","f3c97ad1-9125-a209-1985-7dfedb3a35e2"]
 old-location: direct3ddxgi\idxgiswapchain_getframestatistics.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getframestatistics.htm

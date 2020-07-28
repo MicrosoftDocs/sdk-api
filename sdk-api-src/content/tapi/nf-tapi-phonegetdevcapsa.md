@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneGetDevCapsA
 title: phoneGetDevCapsA function (tapi.h)
-description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.helpviewer_keywords: ["_tapi2_phonegetdevcaps","phoneGetDevCaps","phoneGetDevCaps function [TAPI 2.2]","phoneGetDevCapsA","phoneGetDevCapsW","tapi/phoneGetDevCaps","tapi/phoneGetDevCapsA","tapi/phoneGetDevCapsW","tapi2.phonegetdevcaps"]
+description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
+helpviewer_keywords: ["_tapi2_phonegetdevcaps","phoneGetDevCaps","phoneGetDevCaps function [TAPI 2.2]","phoneGetDevCapsA","phoneGetDevCapsW","tapi/phoneGetDevCaps","tapi/phoneGetDevCapsA","tapi/phoneGetDevCapsW","tapi2.phonegetdevcaps"]
 old-location: tapi2\phonegetdevcaps.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7bfef6d7-d5fd-4887-afb8-b1d850df050d
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetdevcaps, phoneGetDevCaps, phoneGetDevCaps function [TAPI 2.2], phoneGetDevCapsA, phoneGetDevCapsW, tapi/phoneGetDevCaps, tapi/phoneGetDevCapsA, tapi/phoneGetDevCapsW, tapi2.phonegetdevcaps
@@ -112,6 +113,10 @@ TAPI and extension version numbers are those under which TAPI, Telephony DLL, an
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines phoneGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

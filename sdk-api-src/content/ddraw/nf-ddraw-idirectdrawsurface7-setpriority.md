@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPriority
 title: IDirectDrawSurface7::SetPriority (ddraw.h)
-description: Assigns the texture-management priority for this texture. This method succeeds only on managed textures.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetPriority method","IDirectDrawSurface7.SetPriority","IDirectDrawSurface7::SetPriority","SetPriority","SetPriority method [DirectDraw]","SetPriority method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetPriority","directdraw.idirectdrawsurface7_setpriority"]
+description: Assigns the texture-management priority for this texture. This method succeeds only on managed textures.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetPriority method","IDirectDrawSurface7.SetPriority","IDirectDrawSurface7::SetPriority","SetPriority","SetPriority method [DirectDraw]","SetPriority method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetPriority","directdraw.idirectdrawsurface7_setpriority"]
 old-location: directdraw\idirectdrawsurface7_setpriority.htm
 tech.root: directdraw
 ms.assetid: 06ab2190-db76-41e5-915e-32a3613505a5

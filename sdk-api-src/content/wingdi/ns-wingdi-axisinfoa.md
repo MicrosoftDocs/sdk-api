@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagAXISINFOA
 title: AXISINFOA (wingdi.h)
-description: The AXISINFO structure contains information about an axis of a multiple master font.helpviewer_keywords: ["*LPAXISINFOA","*PAXISINFOA","AXISINFO","AXISINFO structure [Windows GDI]","AXISINFOA","AXISINFOW","PAXISINFO","PAXISINFO structure pointer [Windows GDI]","_win32_AXISINFO_str","gdi.axisinfo","wingdi/AXISINFO","wingdi/AXISINFOA","wingdi/AXISINFOW","wingdi/PAXISINFO"]
+description: The AXISINFO structure contains information about an axis of a multiple master font.
+helpviewer_keywords: ["*LPAXISINFOA","*PAXISINFOA","AXISINFO","AXISINFO structure [Windows GDI]","AXISINFOA","AXISINFOW","PAXISINFO","PAXISINFO structure pointer [Windows GDI]","_win32_AXISINFO_str","gdi.axisinfo","wingdi/AXISINFO","wingdi/AXISINFOA","wingdi/AXISINFOW","wingdi/PAXISINFO"]
 old-location: gdi\axisinfo.htm
 tech.root: gdi
 ms.assetid: a947618e-4b50-453a-82d5-5a6f825faebb
@@ -89,6 +90,10 @@ For the ANSI version of this structure, <b>axAxisName</b> must be an array of by
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines AXISINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

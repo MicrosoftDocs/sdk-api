@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerGetNumDevs
 title: mixerGetNumDevs function (mmeapi.h)
-description: The mixerGetNumDevs function retrieves the number of mixer devices present in the system.helpviewer_keywords: ["_win32_mixerGetNumDevs","mixerGetNumDevs","mixerGetNumDevs function [Windows Multimedia]","mmeapi/mixerGetNumDevs","multimedia.mixergetnumdevs"]
+description: The mixerGetNumDevs function retrieves the number of mixer devices present in the system.
+helpviewer_keywords: ["_win32_mixerGetNumDevs","mixerGetNumDevs","mixerGetNumDevs function [Windows Multimedia]","mmeapi/mixerGetNumDevs","multimedia.mixergetnumdevs"]
 old-location: multimedia\mixergetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: ae3c3a28-1dc1-4e35-99d6-68e629124a89

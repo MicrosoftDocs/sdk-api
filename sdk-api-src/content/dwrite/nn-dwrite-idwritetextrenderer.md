@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteTextRenderer
 title: IDWriteTextRenderer (dwrite.h)
-description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.helpviewer_keywords: ["IDWriteTextRenderer","IDWriteTextRenderer interface [Direct Write]","IDWriteTextRenderer interface [Direct Write]","described","directwrite.IDWriteTextRenderer","dwrite/IDWriteTextRenderer"]
+description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
+helpviewer_keywords: ["IDWriteTextRenderer","IDWriteTextRenderer interface [Direct Write]","IDWriteTextRenderer interface [Direct Write]","described","directwrite.IDWriteTextRenderer","dwrite/IDWriteTextRenderer"]
 old-location: directwrite\IDWriteTextRenderer.htm
 tech.root: DirectWrite
 ms.assetid: a2ac70c8-e33b-46f1-b53b-1ab07555f109

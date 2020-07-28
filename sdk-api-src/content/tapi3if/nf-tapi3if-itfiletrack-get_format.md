@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_Format
 title: ITFileTrack::get_Format (tapi3if.h)
-description: The get_Format method gets the file terminal's format.helpviewer_keywords: ["ITFileTrack interface [TAPI 2.2]","get_Format method","ITFileTrack.get_Format","ITFileTrack::get_Format","_tapi3_itfiletrack_get_format","get_Format","get_Format method [TAPI 2.2]","get_Format method [TAPI 2.2]","ITFileTrack interface","tapi3.itfiletrack_get_format","tapi3if/ITFileTrack::get_Format"]
+description: The get_Format method gets the file terminal's format.
+helpviewer_keywords: ["ITFileTrack interface [TAPI 2.2]","get_Format method","ITFileTrack.get_Format","ITFileTrack::get_Format","_tapi3_itfiletrack_get_format","get_Format","get_Format method [TAPI 2.2]","get_Format method [TAPI 2.2]","ITFileTrack interface","tapi3.itfiletrack_get_format","tapi3if/ITFileTrack::get_Format"]
 old-location: tapi3\itfiletrack_get_format.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6d489888-49b3-4fcd-9643-82f0a08fe1c6
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_Format method, ITFileTrack.get_Format, ITFileTrack::get_Format, _tapi3_itfiletrack_get_format, get_Format, get_Format method [TAPI 2.2], get_Format method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_format, tapi3if/ITFileTrack::get_Format

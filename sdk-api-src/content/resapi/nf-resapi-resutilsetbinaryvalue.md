@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilSetBinaryValue
 title: ResUtilSetBinaryValue function (resapi.h)
-description: Sets a binary value in the cluster database.helpviewer_keywords: ["PRESUTIL_SET_BINARY_VALUE","PRESUTIL_SET_BINARY_VALUE function [Failover Cluster]","ResUtilSetBinaryValue","ResUtilSetBinaryValue function [Failover Cluster]","_wolf_resutilsetbinaryvalue","mscs.resutilsetbinaryvalue","resapi/PRESUTIL_SET_BINARY_VALUE","resapi/ResUtilSetBinaryValue"]
+description: Sets a binary value in the cluster database.
+helpviewer_keywords: ["PRESUTIL_SET_BINARY_VALUE","PRESUTIL_SET_BINARY_VALUE function [Failover Cluster]","ResUtilSetBinaryValue","ResUtilSetBinaryValue function [Failover Cluster]","_wolf_resutilsetbinaryvalue","mscs.resutilsetbinaryvalue","resapi/PRESUTIL_SET_BINARY_VALUE","resapi/ResUtilSetBinaryValue"]
 old-location: mscs\resutilsetbinaryvalue.htm
 tech.root: MsCS
 ms.assetid: 6a32169c-af14-40f4-ac45-f9923da544ca

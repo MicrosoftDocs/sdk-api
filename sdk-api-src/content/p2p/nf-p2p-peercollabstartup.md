@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabStartup
 title: PeerCollabStartup function (p2p.h)
-description: Initializes the Peer Collaboration infrastructure.helpviewer_keywords: ["PeerCollabStartup","PeerCollabStartup function [Peer Networking]","p2p.peercollabstartup","p2p/PeerCollabStartup"]
+description: Initializes the Peer Collaboration infrastructure.
+helpviewer_keywords: ["PeerCollabStartup","PeerCollabStartup function [Peer Networking]","p2p.peercollabstartup","p2p/PeerCollabStartup"]
 old-location: p2p\peercollabstartup.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b3f4ac2a-c722-4609-b893-c4b9667ae559
 ms.date: 12/05/2018
 ms.keywords: PeerCollabStartup, PeerCollabStartup function [Peer Networking], p2p.peercollabstartup, p2p/PeerCollabStartup

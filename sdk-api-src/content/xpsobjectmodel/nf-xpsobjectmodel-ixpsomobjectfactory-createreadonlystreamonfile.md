@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateReadOnlyStreamOnFile
 title: IXpsOMObjectFactory::CreateReadOnlyStreamOnFile (xpsobjectmodel.h)
-description: Creates a read-only IStream over the specified file.helpviewer_keywords: ["CreateReadOnlyStreamOnFile","CreateReadOnlyStreamOnFile method [XPS Documents and Packaging]","CreateReadOnlyStreamOnFile method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateReadOnlyStreamOnFile method","IXpsOMObjectFactory.CreateReadOnlyStreamOnFile","IXpsOMObjectFactory::CreateReadOnlyStreamOnFile","xps.ixpsomobjectfactory_createreadonlystreamonfile","xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile"]
+description: Creates a read-only IStream over the specified file.
+helpviewer_keywords: ["CreateReadOnlyStreamOnFile","CreateReadOnlyStreamOnFile method [XPS Documents and Packaging]","CreateReadOnlyStreamOnFile method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateReadOnlyStreamOnFile method","IXpsOMObjectFactory.CreateReadOnlyStreamOnFile","IXpsOMObjectFactory::CreateReadOnlyStreamOnFile","xps.ixpsomobjectfactory_createreadonlystreamonfile","xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile"]
 old-location: xps\ixpsomobjectfactory_createreadonlystreamonfile.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 00df5162-6fcd-4df8-b7d4-614c14aca8b5
 ms.date: 12/05/2018
 ms.keywords: CreateReadOnlyStreamOnFile, CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateReadOnlyStreamOnFile method, IXpsOMObjectFactory.CreateReadOnlyStreamOnFile, IXpsOMObjectFactory::CreateReadOnlyStreamOnFile, xps.ixpsomobjectfactory_createreadonlystreamonfile, xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile

@@ -1,9 +1,10 @@
 ---
 UID: NS:perflib._PERF_MULTI_COUNTERS
 title: PERF_MULTI_COUNTERS (perflib.h)
-description: Provides information about the PERF_MULTI_COUNTERS block that contains the structure.helpviewer_keywords: ["*PPERF_MULTI_COUNTERS","PERF_MULTI_COUNTERS","PERF_MULTI_COUNTERS structure [Perf]","PPERF_MULTI_COUNTERS","PPERF_MULTI_COUNTERS structure pointer [Perf]","perf.perf_multi_counters","perflib/PERF_MULTI_COUNTERS","perflib/PPERF_MULTI_COUNTERS"]
+description: Provides information about the PERF_MULTI_COUNTERS block that contains the structure.
+helpviewer_keywords: ["*PPERF_MULTI_COUNTERS","PERF_MULTI_COUNTERS","PERF_MULTI_COUNTERS structure [Perf]","PPERF_MULTI_COUNTERS","PPERF_MULTI_COUNTERS structure pointer [Perf]","perf.perf_multi_counters","perflib/PERF_MULTI_COUNTERS","perflib/PPERF_MULTI_COUNTERS"]
 old-location: perf\perf_multi_counters.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 4F490C3C-F587-4E7B-B316-162EDA76EC30
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS structure [Perf], PPERF_MULTI_COUNTERS, PPERF_MULTI_COUNTERS structure pointer [Perf], perf.perf_multi_counters, perflib/PERF_MULTI_COUNTERS, perflib/PPERF_MULTI_COUNTERS'

@@ -1,9 +1,10 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetNativeVideoSize
 title: IMFVideoDisplayControl::GetNativeVideoSize (evr.h)
-description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.helpviewer_keywords: ["12630035-dd07-44bd-98f7-79974c9cc58b","GetNativeVideoSize","GetNativeVideoSize method [Media Foundation]","GetNativeVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetNativeVideoSize method","IMFVideoDisplayControl.GetNativeVideoSize","IMFVideoDisplayControl::GetNativeVideoSize","evr/IMFVideoDisplayControl::GetNativeVideoSize","mf.imfvideodisplaycontrol_getnativevideosize"]
+description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
+helpviewer_keywords: ["12630035-dd07-44bd-98f7-79974c9cc58b","GetNativeVideoSize","GetNativeVideoSize method [Media Foundation]","GetNativeVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetNativeVideoSize method","IMFVideoDisplayControl.GetNativeVideoSize","IMFVideoDisplayControl::GetNativeVideoSize","evr/IMFVideoDisplayControl::GetNativeVideoSize","mf.imfvideodisplaycontrol_getnativevideosize"]
 old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
 ms.date: 12/05/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize

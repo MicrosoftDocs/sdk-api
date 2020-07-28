@@ -1,9 +1,10 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceService
 title: IPortableDeviceService (portabledeviceapi.h)
-description: Provides access to a service.helpviewer_keywords: ["IPortableDeviceService","IPortableDeviceService interface [Windows Portable Devices SDK]","IPortableDeviceService interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceService","wpdsdk.iportabledeviceservice"]
+description: Provides access to a service.
+helpviewer_keywords: ["IPortableDeviceService","IPortableDeviceService interface [Windows Portable Devices SDK]","IPortableDeviceService interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceService","wpdsdk.iportabledeviceservice"]
 old-location: wpdsdk\iportabledeviceservice.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: f57344d5-c978-4c27-b8a9-b42492bd9312
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], IPortableDeviceService interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceService, wpdsdk.iportabledeviceservice

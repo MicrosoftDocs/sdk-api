@@ -1,9 +1,10 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetConnectInfo
 title: IVPBaseConfig::SetConnectInfo (vpconfig.h)
-description: The SetConnectInfo method sets the video port connection parameters.helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetConnectInfo method","IVPBaseConfig.SetConnectInfo","IVPBaseConfig::SetConnectInfo","IVPBaseConfigSetConnectInfo","SetConnectInfo","SetConnectInfo method [DirectShow]","SetConnectInfo method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setconnectinfo","vpconfig/IVPBaseConfig::SetConnectInfo"]
+description: The SetConnectInfo method sets the video port connection parameters.
+helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetConnectInfo method","IVPBaseConfig.SetConnectInfo","IVPBaseConfig::SetConnectInfo","IVPBaseConfigSetConnectInfo","SetConnectInfo","SetConnectInfo method [DirectShow]","SetConnectInfo method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setconnectinfo","vpconfig/IVPBaseConfig::SetConnectInfo"]
 old-location: dshow\ivpbaseconfig_setconnectinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetConnectInfo method, IVPBaseConfig.SetConnectInfo, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo

@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanCloseHandle
 title: WlanCloseHandle function (wlanapi.h)
-description: Closes a connection to the server.helpviewer_keywords: ["WlanCloseHandle","WlanCloseHandle function [NativeWIFI]","nwifi.wlanclosehandle","wlanapi/WlanCloseHandle"]
+description: Closes a connection to the server.
+helpviewer_keywords: ["WlanCloseHandle","WlanCloseHandle function [NativeWIFI]","nwifi.wlanclosehandle","wlanapi/WlanCloseHandle"]
 old-location: nwifi\wlanclosehandle.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 8e944133-2616-4e17-ac38-c17e8d25ccec
 ms.date: 12/05/2018
 ms.keywords: WlanCloseHandle, WlanCloseHandle function [NativeWIFI], nwifi.wlanclosehandle, wlanapi/WlanCloseHandle

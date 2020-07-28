@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IPersistMediaPropertyBag
 title: IPersistMediaPropertyBag (strmif.h)
-description: The IPersistMediaPropertyBag interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams.helpviewer_keywords: ["IPersistMediaPropertyBag","IPersistMediaPropertyBag interface [DirectShow]","IPersistMediaPropertyBag interface [DirectShow]","described","IPersistMediaPropertyBagInterface","dshow.ipersistmediapropertybag","strmif/IPersistMediaPropertyBag"]
+description: The IPersistMediaPropertyBag interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams.
+helpviewer_keywords: ["IPersistMediaPropertyBag","IPersistMediaPropertyBag interface [DirectShow]","IPersistMediaPropertyBag interface [DirectShow]","described","IPersistMediaPropertyBagInterface","dshow.ipersistmediapropertybag","strmif/IPersistMediaPropertyBag"]
 old-location: dshow\ipersistmediapropertybag.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 33e4b76b-841a-4dc5-b117-e08a6f4dcbe7
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag, IPersistMediaPropertyBag interface [DirectShow], IPersistMediaPropertyBag interface [DirectShow],described, IPersistMediaPropertyBagInterface, dshow.ipersistmediapropertybag, strmif/IPersistMediaPropertyBag

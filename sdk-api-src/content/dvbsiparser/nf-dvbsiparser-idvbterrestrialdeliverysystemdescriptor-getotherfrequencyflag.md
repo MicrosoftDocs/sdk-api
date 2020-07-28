@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag
 title: IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetOtherFrequencyFlag","GetOtherFrequencyFlag method [Microsoft TV Technologies]","GetOtherFrequencyFlag method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetOtherFrequencyFlag method","IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag","IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag","IDvbTerrestrialDeliverySystemDescriptorGetOtherFrequencyFlag","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag","mstv.idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetOtherFrequencyFlag","GetOtherFrequencyFlag method [Microsoft TV Technologies]","GetOtherFrequencyFlag method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetOtherFrequencyFlag method","IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag","IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag","IDvbTerrestrialDeliverySystemDescriptorGetOtherFrequencyFlag","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag","mstv.idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag.htm
 tech.root: mstv
 ms.assetid: 1462004c-7605-430e-bf9a-beb1776adb6c

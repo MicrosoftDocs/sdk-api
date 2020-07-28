@@ -1,9 +1,10 @@
 ---
 UID: NF:termmgr.ITTerminalManager2.GetPluggableSuperclasses
 title: ITTerminalManager2::GetPluggableSuperclasses (termmgr.h)
-description: The GetPluggableSuperclasses method gets the public CLSIDs for all pluggable terminal superclasses in the registry.helpviewer_keywords: ["GetPluggableSuperclasses","GetPluggableSuperclasses method [TAPI 2.2]","GetPluggableSuperclasses method [TAPI 2.2]","ITTerminalManager2 interface","ITTerminalManager2 interface [TAPI 2.2]","GetPluggableSuperclasses method","ITTerminalManager2.GetPluggableSuperclasses","ITTerminalManager2::GetPluggableSuperclasses","_tapi3_itterminalmanager2_getpluggablesuperclasses","tapi3.itterminalmanager2_getpluggablesuperclasses","termmgr/ITTerminalManager2::GetPluggableSuperclasses"]
+description: The GetPluggableSuperclasses method gets the public CLSIDs for all pluggable terminal superclasses in the registry.
+helpviewer_keywords: ["GetPluggableSuperclasses","GetPluggableSuperclasses method [TAPI 2.2]","GetPluggableSuperclasses method [TAPI 2.2]","ITTerminalManager2 interface","ITTerminalManager2 interface [TAPI 2.2]","GetPluggableSuperclasses method","ITTerminalManager2.GetPluggableSuperclasses","ITTerminalManager2::GetPluggableSuperclasses","_tapi3_itterminalmanager2_getpluggablesuperclasses","tapi3.itterminalmanager2_getpluggablesuperclasses","termmgr/ITTerminalManager2::GetPluggableSuperclasses"]
 old-location: tapi3\itterminalmanager2_getpluggablesuperclasses.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a3db1979-0ba5-416a-bb14-0ac4b61eb425
 ms.date: 12/05/2018
 ms.keywords: GetPluggableSuperclasses, GetPluggableSuperclasses method [TAPI 2.2], GetPluggableSuperclasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableSuperclasses method, ITTerminalManager2.GetPluggableSuperclasses, ITTerminalManager2::GetPluggableSuperclasses, _tapi3_itterminalmanager2_getpluggablesuperclasses, tapi3.itterminalmanager2_getpluggablesuperclasses, termmgr/ITTerminalManager2::GetPluggableSuperclasses

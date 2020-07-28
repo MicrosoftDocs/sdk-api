@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetFlags
 title: IMFASFMultiplexer::GetFlags (wmcontainer.h)
-description: Retrieves flags indicating the configured multiplexer options.helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFASFMultiplexer interface","IMFASFMultiplexer interface [Media Foundation]","GetFlags method","IMFASFMultiplexer.GetFlags","IMFASFMultiplexer::GetFlags","b0aeefb5-6996-4abb-b869-855aaa7fcde2","mf.imfasfmultiplexer_getflags","wmcontainer/IMFASFMultiplexer::GetFlags"]
+description: Retrieves flags indicating the configured multiplexer options.
+helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFASFMultiplexer interface","IMFASFMultiplexer interface [Media Foundation]","GetFlags method","IMFASFMultiplexer.GetFlags","IMFASFMultiplexer::GetFlags","b0aeefb5-6996-4abb-b869-855aaa7fcde2","mf.imfasfmultiplexer_getflags","wmcontainer/IMFASFMultiplexer::GetFlags"]
 old-location: mf\imfasfmultiplexer_getflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b0aeefb5-6996-4abb-b869-855aaa7fcde2
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetFlags method, IMFASFMultiplexer.GetFlags, IMFASFMultiplexer::GetFlags, b0aeefb5-6996-4abb-b869-855aaa7fcde2, mf.imfasfmultiplexer_getflags, wmcontainer/IMFASFMultiplexer::GetFlags

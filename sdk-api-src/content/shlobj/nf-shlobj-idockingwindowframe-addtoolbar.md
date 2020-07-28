@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IDockingWindowFrame.AddToolbar
 title: IDockingWindowFrame::AddToolbar (shlobj.h)
-description: Adds the specified IDockingWindow object to the frame.helpviewer_keywords: ["0","AddToolbar","AddToolbar method [Windows Shell]","AddToolbar method [Windows Shell]","IDockingWindowFrame interface","DWFAF_AUTOHIDE","DWFAF_GROUP1","DWFAF_GROUP2","DWFAF_HIDDEN","IDockingWindowFrame interface [Windows Shell]","AddToolbar method","IDockingWindowFrame.AddToolbar","IDockingWindowFrame::AddToolbar","_win32_IDockingWindowFrame_AddToolbar","shell.IDockingWindowFrame_AddToolbar","shlobj/IDockingWindowFrame::AddToolbar"]
+description: Adds the specified IDockingWindow object to the frame.
+helpviewer_keywords: ["0","AddToolbar","AddToolbar method [Windows Shell]","AddToolbar method [Windows Shell]","IDockingWindowFrame interface","DWFAF_AUTOHIDE","DWFAF_GROUP1","DWFAF_GROUP2","DWFAF_HIDDEN","IDockingWindowFrame interface [Windows Shell]","AddToolbar method","IDockingWindowFrame.AddToolbar","IDockingWindowFrame::AddToolbar","_win32_IDockingWindowFrame_AddToolbar","shell.IDockingWindowFrame_AddToolbar","shlobj/IDockingWindowFrame::AddToolbar"]
 old-location: shell\IDockingWindowFrame_AddToolbar.htm
 tech.root: shell
 ms.assetid: b046bb62-8bc1-4021-bcb2-d4f23a9fccf4

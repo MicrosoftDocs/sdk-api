@@ -1,9 +1,10 @@
 ---
 UID: NF:sddl.ConvertSidToStringSidA
 title: ConvertSidToStringSidA function (sddl.h)
-description: Converts a security identifier (SID) to a string format suitable for display, storage, or transmission.helpviewer_keywords: ["ConvertSidToStringSid","ConvertSidToStringSid function [Security]","ConvertSidToStringSidA","ConvertSidToStringSidW","_win32_convertsidtostringsid","sddl/ConvertSidToStringSid","sddl/ConvertSidToStringSidA","sddl/ConvertSidToStringSidW","security.convertsidtostringsid"]
+description: Converts a security identifier (SID) to a string format suitable for display, storage, or transmission.
+helpviewer_keywords: ["ConvertSidToStringSid","ConvertSidToStringSid function [Security]","ConvertSidToStringSidA","ConvertSidToStringSidW","_win32_convertsidtostringsid","sddl/ConvertSidToStringSid","sddl/ConvertSidToStringSidA","sddl/ConvertSidToStringSidW","security.convertsidtostringsid"]
 old-location: security\convertsidtostringsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
 ms.date: 12/05/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
@@ -141,6 +142,10 @@ The <b>ConvertSidToStringSid</b> function uses the standard S-<i>R</i>-<i>I</i>-
 
 
 
+
+
+> [!NOTE]
+> The sddl.h header defines ConvertSidToStringSid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

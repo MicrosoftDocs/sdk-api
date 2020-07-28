@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_SecurityDescriptor
 title: ITDirectoryObject::get_SecurityDescriptor (rend.h)
-description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_SecurityDescriptor method","ITDirectoryObject.get_SecurityDescriptor","ITDirectoryObject::get_SecurityDescriptor","_tapi3_itdirectoryobject_get_securitydescriptor","get_SecurityDescriptor","get_SecurityDescriptor method [TAPI 2.2]","get_SecurityDescriptor method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_SecurityDescriptor","tapi3.itdirectoryobject_get_securitydescriptor"]
+description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
+helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_SecurityDescriptor method","ITDirectoryObject.get_SecurityDescriptor","ITDirectoryObject::get_SecurityDescriptor","_tapi3_itdirectoryobject_get_securitydescriptor","get_SecurityDescriptor","get_SecurityDescriptor method [TAPI 2.2]","get_SecurityDescriptor method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_SecurityDescriptor","tapi3.itdirectoryobject_get_securitydescriptor"]
 old-location: tapi3\itdirectoryobject_get_securitydescriptor.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 746367e1-4319-4903-843f-7a25d60f4223
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor method, ITDirectoryObject.get_SecurityDescriptor, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor

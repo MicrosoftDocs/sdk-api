@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetProfile
 title: IMFTranscodeSinkInfoProvider::SetProfile (mfidl.h)
-description: Sets the transcoding profile on the transcode sink activation object.helpviewer_keywords: ["IMFTranscodeSinkInfoProvider interface [Media Foundation]","SetProfile method","IMFTranscodeSinkInfoProvider.SetProfile","IMFTranscodeSinkInfoProvider::SetProfile","SetProfile","SetProfile method [Media Foundation]","SetProfile method [Media Foundation]","IMFTranscodeSinkInfoProvider interface","mf.imftranscodesinkinfoprovider_setprofile","mfidl/IMFTranscodeSinkInfoProvider::SetProfile"]
+description: Sets the transcoding profile on the transcode sink activation object.
+helpviewer_keywords: ["IMFTranscodeSinkInfoProvider interface [Media Foundation]","SetProfile method","IMFTranscodeSinkInfoProvider.SetProfile","IMFTranscodeSinkInfoProvider::SetProfile","SetProfile","SetProfile method [Media Foundation]","SetProfile method [Media Foundation]","IMFTranscodeSinkInfoProvider interface","mf.imftranscodesinkinfoprovider_setprofile","mfidl/IMFTranscodeSinkInfoProvider::SetProfile"]
 old-location: mf\imftranscodesinkinfoprovider_setprofile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 81137d8c-70b2-4a0a-a1b4-16a2f50f134b
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetProfile method, IMFTranscodeSinkInfoProvider.SetProfile, IMFTranscodeSinkInfoProvider::SetProfile, SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setprofile, mfidl/IMFTranscodeSinkInfoProvider::SetProfile

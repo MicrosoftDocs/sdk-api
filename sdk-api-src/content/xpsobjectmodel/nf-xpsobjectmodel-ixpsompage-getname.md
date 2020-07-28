@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetName
 title: IXpsOMPage::GetName (xpsobjectmodel.h)
-description: Gets the Name property of the page.helpviewer_keywords: ["GetName","GetName method [XPS Documents and Packaging]","GetName method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetName method","IXpsOMPage.GetName","IXpsOMPage::GetName","xps.ixpsompage_getname","xpsobjectmodel/IXpsOMPage::GetName"]
+description: Gets the Name property of the page.
+helpviewer_keywords: ["GetName","GetName method [XPS Documents and Packaging]","GetName method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetName method","IXpsOMPage.GetName","IXpsOMPage::GetName","xps.ixpsompage_getname","xpsobjectmodel/IXpsOMPage::GetName"]
 old-location: xps\ixpsompage_getname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0c133dce-3a5a-4d7f-af83-2e185450c207
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetName method, IXpsOMPage.GetName, IXpsOMPage::GetName, xps.ixpsompage_getname, xpsobjectmodel/IXpsOMPage::GetName

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetLanguage
 title: IXpsOMVisual::GetLanguage (xpsobjectmodel.h)
-description: Gets the Language property of the visual and of its contents.helpviewer_keywords: ["GetLanguage","GetLanguage method [XPS Documents and Packaging]","GetLanguage method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetLanguage method","IXpsOMVisual.GetLanguage","IXpsOMVisual::GetLanguage","xps.ixpsomvisual_getlanguage","xpsobjectmodel/IXpsOMVisual::GetLanguage"]
+description: Gets the Language property of the visual and of its contents.
+helpviewer_keywords: ["GetLanguage","GetLanguage method [XPS Documents and Packaging]","GetLanguage method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetLanguage method","IXpsOMVisual.GetLanguage","IXpsOMVisual::GetLanguage","xps.ixpsomvisual_getlanguage","xpsobjectmodel/IXpsOMVisual::GetLanguage"]
 old-location: xps\ixpsomvisual_getlanguage.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 22cddce5-f881-4585-9ab8-d8cdce06511f
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetLanguage method, IXpsOMVisual.GetLanguage, IXpsOMVisual::GetLanguage, xps.ixpsomvisual_getlanguage, xpsobjectmodel/IXpsOMVisual::GetLanguage

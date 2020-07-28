@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Count
 title: IFsiDirectoryItem::get_Count (imapi2fs.h)
-description: Number of child items in the enumeration.helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","get_Count method","IFsiDirectoryItem.get_Count","IFsiDirectoryItem::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_get_count","imapi2fs/IFsiDirectoryItem::get_Count"]
+description: Number of child items in the enumeration.
+helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","get_Count method","IFsiDirectoryItem.get_Count","IFsiDirectoryItem::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_get_count","imapi2fs/IFsiDirectoryItem::get_Count"]
 old-location: imapi\ifsidirectoryitem_get_count.htm
 tech.root: imapi
 ms.assetid: 66553025-35c9-4902-a184-01c07a478977

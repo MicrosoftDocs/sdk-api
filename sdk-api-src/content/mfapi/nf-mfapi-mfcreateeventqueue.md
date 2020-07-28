@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCreateEventQueue
 title: MFCreateEventQueue function (mfapi.h)
-description: Creates an event queue.helpviewer_keywords: ["214cea99-37cf-4571-aa00-7b3e220a6b84","MFCreateEventQueue","MFCreateEventQueue function [Media Foundation]","mf.mfcreateeventqueue","mfapi/MFCreateEventQueue"]
+description: Creates an event queue.
+helpviewer_keywords: ["214cea99-37cf-4571-aa00-7b3e220a6b84","MFCreateEventQueue","MFCreateEventQueue function [Media Foundation]","mf.mfcreateeventqueue","mfapi/MFCreateEventQueue"]
 old-location: mf\mfcreateeventqueue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 214cea99-37cf-4571-aa00-7b3e220a6b84
 ms.date: 12/05/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue

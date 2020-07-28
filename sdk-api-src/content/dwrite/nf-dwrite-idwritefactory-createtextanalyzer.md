@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextAnalyzer
 title: IDWriteFactory::CreateTextAnalyzer (dwrite.h)
-description: Returns an interface for performing text analysis.helpviewer_keywords: ["CreateTextAnalyzer","CreateTextAnalyzer method [Direct Write]","CreateTextAnalyzer method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTextAnalyzer method","IDWriteFactory.CreateTextAnalyzer","IDWriteFactory::CreateTextAnalyzer","directwrite.IDWriteFactory_CreateTextAnalyzer","dwrite/IDWriteFactory::CreateTextAnalyzer"]
+description: Returns an interface for performing text analysis.
+helpviewer_keywords: ["CreateTextAnalyzer","CreateTextAnalyzer method [Direct Write]","CreateTextAnalyzer method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTextAnalyzer method","IDWriteFactory.CreateTextAnalyzer","IDWriteFactory::CreateTextAnalyzer","directwrite.IDWriteFactory_CreateTextAnalyzer","dwrite/IDWriteFactory::CreateTextAnalyzer"]
 old-location: directwrite\IDWriteFactory_CreateTextAnalyzer.htm
 tech.root: DirectWrite
 ms.assetid: 1f786de4-9498-49ef-b884-7e5f69cefe4a

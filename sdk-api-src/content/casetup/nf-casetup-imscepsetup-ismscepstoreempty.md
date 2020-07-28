@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.IMSCEPSetup.IsMSCEPStoreEmpty
 title: IMSCEPSetup::IsMSCEPStoreEmpty (casetup.h)
-description: Always returns VARIANT_TRUE. It should not be used.helpviewer_keywords: ["IMSCEPSetup interface [Security]","IsMSCEPStoreEmpty method","IMSCEPSetup.IsMSCEPStoreEmpty","IMSCEPSetup::IsMSCEPStoreEmpty","IsMSCEPStoreEmpty","IsMSCEPStoreEmpty method [Security]","IsMSCEPStoreEmpty method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::IsMSCEPStoreEmpty","security.imscepsetup_ismscepstoreempty"]
+description: Always returns VARIANT_TRUE. It should not be used.
+helpviewer_keywords: ["IMSCEPSetup interface [Security]","IsMSCEPStoreEmpty method","IMSCEPSetup.IsMSCEPStoreEmpty","IMSCEPSetup::IsMSCEPStoreEmpty","IsMSCEPStoreEmpty","IsMSCEPStoreEmpty method [Security]","IsMSCEPStoreEmpty method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::IsMSCEPStoreEmpty","security.imscepsetup_ismscepstoreempty"]
 old-location: security\imscepsetup_ismscepstoreempty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 90ce2ea5-e531-4787-954a-cd4d09ba753e
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSetup.IsMSCEPStoreEmpty, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty

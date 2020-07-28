@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12LifetimeTracker
 title: ID3D12LifetimeTracker
-description: Represents facilities for controlling the lifetime a lifetime-tracked object.helpviewer_keywords: ["ID3D12LifetimeTracker"]
+description: Represents facilities for controlling the lifetime a lifetime-tracked object.
+helpviewer_keywords: ["ID3D12LifetimeTracker"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeTracker

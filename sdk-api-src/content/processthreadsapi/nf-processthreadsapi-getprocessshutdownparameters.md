@@ -1,9 +1,10 @@
 ---
 UID: NF:processthreadsapi.GetProcessShutdownParameters
 title: GetProcessShutdownParameters function (processthreadsapi.h)
-description: Retrieves the shutdown parameters for the currently calling process.helpviewer_keywords: ["GetProcessShutdownParameters","GetProcessShutdownParameters function","SHUTDOWN_NORETRY","_win32_getprocessshutdownparameters","base.getprocessshutdownparameters","processthreadsapi/GetProcessShutdownParameters"]
+description: Retrieves the shutdown parameters for the currently calling process.
+helpviewer_keywords: ["GetProcessShutdownParameters","GetProcessShutdownParameters function","SHUTDOWN_NORETRY","_win32_getprocessshutdownparameters","base.getprocessshutdownparameters","processthreadsapi/GetProcessShutdownParameters"]
 old-location: base\getprocessshutdownparameters.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 68b48e67-c7e0-4434-bef5-b2aaebb343ff
 ms.date: 12/05/2018
 ms.keywords: GetProcessShutdownParameters, GetProcessShutdownParameters function, SHUTDOWN_NORETRY, _win32_getprocessshutdownparameters, base.getprocessshutdownparameters, processthreadsapi/GetProcessShutdownParameters

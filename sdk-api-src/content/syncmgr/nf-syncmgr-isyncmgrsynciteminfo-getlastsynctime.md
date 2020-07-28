@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetLastSyncTime
 title: ISyncMgrSyncItemInfo::GetLastSyncTime (syncmgr.h)
-description: Gets the date and time when the item was last synchronized.helpviewer_keywords: ["GetLastSyncTime","GetLastSyncTime method [Windows Shell]","GetLastSyncTime method [Windows Shell]","ISyncMgrSyncItemInfo interface","ISyncMgrSyncItemInfo interface [Windows Shell]","GetLastSyncTime method","ISyncMgrSyncItemInfo.GetLastSyncTime","ISyncMgrSyncItemInfo::GetLastSyncTime","_shell_ISyncMgrSyncItemInfo_GetLastSyncTime","shell.ISyncMgrSyncItemInfo_GetLastSyncTime","syncmgr/ISyncMgrSyncItemInfo::GetLastSyncTime"]
+description: Gets the date and time when the item was last synchronized.
+helpviewer_keywords: ["GetLastSyncTime","GetLastSyncTime method [Windows Shell]","GetLastSyncTime method [Windows Shell]","ISyncMgrSyncItemInfo interface","ISyncMgrSyncItemInfo interface [Windows Shell]","GetLastSyncTime method","ISyncMgrSyncItemInfo.GetLastSyncTime","ISyncMgrSyncItemInfo::GetLastSyncTime","_shell_ISyncMgrSyncItemInfo_GetLastSyncTime","shell.ISyncMgrSyncItemInfo_GetLastSyncTime","syncmgr/ISyncMgrSyncItemInfo::GetLastSyncTime"]
 old-location: shell\ISyncMgrSyncItemInfo_GetLastSyncTime.htm
 tech.root: shell
 ms.assetid: ce6690fc-bc1b-4177-ad4a-76c51d36e908

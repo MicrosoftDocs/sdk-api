@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.RGB
 title: RGB macro (wingdi.h)
-description: The RGB macro selects a red, green, blue (RGB) color based on the arguments supplied and the color capabilities of the output device.helpviewer_keywords: ["RGB","RGB macro [Windows GDI]","_win32_RGB","gdi.rgb","wingdi/RGB"]
+description: The RGB macro selects a red, green, blue (RGB) color based on the arguments supplied and the color capabilities of the output device.
+helpviewer_keywords: ["RGB","RGB macro [Windows GDI]","_win32_RGB","gdi.rgb","wingdi/RGB"]
 old-location: gdi\rgb.htm
 tech.root: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae

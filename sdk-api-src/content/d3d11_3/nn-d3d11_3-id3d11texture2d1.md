@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11_3.ID3D11Texture2D1
 title: ID3D11Texture2D1 (d3d11_3.h)
-description: A 2D texture interface represents texel data, which is structured memory.helpviewer_keywords: ["ID3D11Texture2D1","ID3D11Texture2D1 interface [Direct3D 11]","ID3D11Texture2D1 interface [Direct3D 11]","described","d3d11_3/ID3D11Texture2D1","direct3d11.id3d11texture2d1"]
+description: A 2D texture interface represents texel data, which is structured memory.
+helpviewer_keywords: ["ID3D11Texture2D1","ID3D11Texture2D1 interface [Direct3D 11]","ID3D11Texture2D1 interface [Direct3D 11]","described","d3d11_3/ID3D11Texture2D1","direct3d11.id3d11texture2d1"]
 old-location: direct3d11\id3d11texture2d1.htm
 tech.root: direct3d11
 ms.assetid: 0BEBF03C-CBE5-4988-AC98-76D90363A0B7

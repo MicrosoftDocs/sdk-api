@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._GROUP_AFFINITY
 title: GROUP_AFFINITY (winnt.h)
-description: Represents a processor group-specific affinity, such as the affinity of a thread.helpviewer_keywords: ["*PGROUP_AFFINITY","GROUP_AFFINITY","GROUP_AFFINITY structure","PGROUP_AFFINITY","PGROUP_AFFINITY structure pointer","base.group_affinity","winnt/GROUP_AFFINITY","winnt/PGROUP_AFFINITY"]
+description: Represents a processor group-specific affinity, such as the affinity of a thread.
+helpviewer_keywords: ["*PGROUP_AFFINITY","GROUP_AFFINITY","GROUP_AFFINITY structure","PGROUP_AFFINITY","PGROUP_AFFINITY structure pointer","base.group_affinity","winnt/GROUP_AFFINITY","winnt/PGROUP_AFFINITY"]
 old-location: base\group_affinity.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 76009431-9139-4c03-9c7b-0c4bb5f0cb83
 ms.date: 12/05/2018
 ms.keywords: '*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure, PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer, base.group_affinity, winnt/GROUP_AFFINITY, winnt/PGROUP_AFFINITY'

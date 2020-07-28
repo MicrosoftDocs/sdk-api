@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineSetAgentGroup
 title: lineSetAgentGroup function (tapi.h)
-description: The lineSetAgentGroup function sets the agent groups into which the agent is logged into on a particular address.helpviewer_keywords: ["_tapi2_linesetagentgroup","lineSetAgentGroup","lineSetAgentGroup function [TAPI 2.2]","tapi/lineSetAgentGroup","tapi2.linesetagentgroup"]
+description: The lineSetAgentGroup function sets the agent groups into which the agent is logged into on a particular address.
+helpviewer_keywords: ["_tapi2_linesetagentgroup","lineSetAgentGroup","lineSetAgentGroup function [TAPI 2.2]","tapi/lineSetAgentGroup","tapi2.linesetagentgroup"]
 old-location: tapi2\linesetagentgroup.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ce6795fb-fe11-4125-abeb-9b2686ea669a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetagentgroup, lineSetAgentGroup, lineSetAgentGroup function [TAPI 2.2], tapi/lineSetAgentGroup, tapi2.linesetagentgroup

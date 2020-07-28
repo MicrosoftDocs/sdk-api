@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_ENVIRONMENT_VARIABLE_SET
 title: WSMAN_ENVIRONMENT_VARIABLE_SET (wsman.h)
-description: Defines an array of environment variables.helpviewer_keywords: ["WSMAN_ENVIRONMENT_VARIABLE_SET","WSMAN_ENVIRONMENT_VARIABLE_SET structure [Windows Remote Management]","winrm.wsman_environment_variable_set","wsman/WSMAN_ENVIRONMENT_VARIABLE_SET"]
+description: Defines an array of environment variables.
+helpviewer_keywords: ["WSMAN_ENVIRONMENT_VARIABLE_SET","WSMAN_ENVIRONMENT_VARIABLE_SET structure [Windows Remote Management]","winrm.wsman_environment_variable_set","wsman/WSMAN_ENVIRONMENT_VARIABLE_SET"]
 old-location: winrm\wsman_environment_variable_set.htm
 tech.root: winrm
 ms.assetid: 3d9b4374-241f-489e-946a-9c180d77de3b

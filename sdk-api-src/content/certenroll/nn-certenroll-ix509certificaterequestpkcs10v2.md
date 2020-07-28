@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestPkcs10V2
 title: IX509CertificateRequestPkcs10V2 (certenroll.h)
-description: The IX509CertificateRequestPkcs10V2 interface represents a PKCShelpviewer_keywords: ["IX509CertificateRequestPkcs10V2","IX509CertificateRequestPkcs10V2 interface [Security]","IX509CertificateRequestPkcs10V2 interface [Security]","described","certenroll/IX509CertificateRequestPkcs10V2","security.ix509certificaterequestpkcs10v2"]
+description: The IX509CertificateRequestPkcs10V2 interface represents a PKCS
+helpviewer_keywords: ["IX509CertificateRequestPkcs10V2","IX509CertificateRequestPkcs10V2 interface [Security]","IX509CertificateRequestPkcs10V2 interface [Security]","described","certenroll/IX509CertificateRequestPkcs10V2","security.ix509certificaterequestpkcs10v2"]
 old-location: security\ix509certificaterequestpkcs10v2.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 38177793-c15b-4651-8260-c90a151da83e
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10V2, IX509CertificateRequestPkcs10V2 interface [Security], IX509CertificateRequestPkcs10V2 interface [Security],described, certenroll/IX509CertificateRequestPkcs10V2, security.ix509certificaterequestpkcs10v2

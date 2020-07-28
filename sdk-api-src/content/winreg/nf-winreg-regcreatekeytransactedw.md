@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegCreateKeyTransactedW
 title: RegCreateKeyTransactedW function (winreg.h)
-description: Creates the specified registry key and associates it with a transaction.helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyTransacted","RegCreateKeyTransacted function","RegCreateKeyTransactedA","RegCreateKeyTransactedW","base.regcreatekeytransacted","winreg/RegCreateKeyTransacted","winreg/RegCreateKeyTransactedA","winreg/RegCreateKeyTransactedW"]
+description: Creates the specified registry key and associates it with a transaction.
+helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyTransacted","RegCreateKeyTransacted function","RegCreateKeyTransactedA","RegCreateKeyTransactedW","base.regcreatekeytransacted","winreg/RegCreateKeyTransacted","winreg/RegCreateKeyTransactedA","winreg/RegCreateKeyTransactedW"]
 old-location: base\regcreatekeytransacted.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
@@ -262,6 +263,10 @@ An application cannot create a key that is a direct child of <b>HKEY_USERS</b> o
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegCreateKeyTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

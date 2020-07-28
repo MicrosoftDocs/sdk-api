@@ -1,9 +1,10 @@
 ---
 UID: NF:winuser.RegisterPointerDeviceNotifications
 title: RegisterPointerDeviceNotifications function (winuser.h)
-description: Registers a window to process the WM_POINTERDEVICECHANGE, WM_POINTERDEVICEINRANGE, and WM_POINTERDEVICEOUTOFRANGE pointer device notifications.helpviewer_keywords: ["RegisterPointerDeviceNotifications","RegisterPointerDeviceNotifications function","input_pointerdevice.registerpointerdevicenotifications","unifiedinputstack.registerpointerdevicenotifications","winuser/RegisterPointerDeviceNotifications"]
+description: Registers a window to process the WM_POINTERDEVICECHANGE, WM_POINTERDEVICEINRANGE, and WM_POINTERDEVICEOUTOFRANGE pointer device notifications.
+helpviewer_keywords: ["RegisterPointerDeviceNotifications","RegisterPointerDeviceNotifications function","input_pointerdevice.registerpointerdevicenotifications","unifiedinputstack.registerpointerdevicenotifications","winuser/RegisterPointerDeviceNotifications"]
 old-location: input_pointerdevice\registerpointerdevicenotifications.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: a7322d97-f96c-449d-94a6-2081962ec7ed
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerDeviceNotifications, RegisterPointerDeviceNotifications function, input_pointerdevice.registerpointerdevicenotifications, unifiedinputstack.registerpointerdevicenotifications, winuser/RegisterPointerDeviceNotifications

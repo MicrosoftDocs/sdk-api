@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilOctetsCpy
 title: SnmpUtilOctetsCpy function (snmp.h)
-description: The SnmpUtilOctetsCpy function copies the variable pointed to by the pOctetsSrc parameter to the variable pointed to by the pOctetsDst parameter.helpviewer_keywords: ["SnmpUtilOctetsCpy","SnmpUtilOctetsCpy function [SNMP]","_snmp_snmputiloctetscpy","snmp.snmputiloctetscpy","snmp/SnmpUtilOctetsCpy"]
+description: The SnmpUtilOctetsCpy function copies the variable pointed to by the pOctetsSrc parameter to the variable pointed to by the pOctetsDst parameter.
+helpviewer_keywords: ["SnmpUtilOctetsCpy","SnmpUtilOctetsCpy function [SNMP]","_snmp_snmputiloctetscpy","snmp.snmputiloctetscpy","snmp/SnmpUtilOctetsCpy"]
 old-location: snmp\snmputiloctetscpy.htm
 tech.root: SNMP
 ms.assetid: 5ea92551-f6af-431d-8bf8-5b6c576f3392

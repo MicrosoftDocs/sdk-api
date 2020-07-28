@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ExportPartition
 title: ICOMAdminCatalog2::ExportPartition (comadmin.h)
-description: Exports a partition to a file.helpviewer_keywords: ["COMAdminExportApplicationProxy","COMAdminExportForceOverwriteOfFile","COMAdminExportIn10Format","COMAdminExportNoUsers","COMAdminExportUsers","ExportPartition","ExportPartition method [COM+]","ExportPartition method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","ExportPartition method","ICOMAdminCatalog2.ExportPartition","ICOMAdminCatalog2::ExportPartition","_cos_icomadmincatalog2_ExportPartition","comadmin/ICOMAdminCatalog2::ExportPartition","cos.icomadmincatalog2_exportpartition"]
+description: Exports a partition to a file.
+helpviewer_keywords: ["COMAdminExportApplicationProxy","COMAdminExportForceOverwriteOfFile","COMAdminExportIn10Format","COMAdminExportNoUsers","COMAdminExportUsers","ExportPartition","ExportPartition method [COM+]","ExportPartition method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","ExportPartition method","ICOMAdminCatalog2.ExportPartition","ICOMAdminCatalog2::ExportPartition","_cos_icomadmincatalog2_ExportPartition","comadmin/ICOMAdminCatalog2::ExportPartition","cos.icomadmincatalog2_exportpartition"]
 old-location: cos\icomadmincatalog2_exportpartition.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cc793025-e8d9-4dcb-a55d-81dec38d05b9
 ms.date: 12/05/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition, ExportPartition method [COM+], ExportPartition method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],ExportPartition method, ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition

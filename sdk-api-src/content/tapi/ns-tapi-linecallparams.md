@@ -4,7 +4,7 @@ title: LINECALLPARAMS (tapi.h)
 description: The LINECALLPARAMS structure describes parameters supplied when making calls using the lineMakeCall and TSPI_lineMakeCall functions. The LINECALLPARAMS structure is also used as a parameter in other operations, such as the lineOpen function.
 helpviewer_keywords: ["*LPLINECALLPARAMS","LINECALLPARAMS","LINECALLPARAMS structure [TAPI 2.2]","LPLINECALLPARAMS","LPLINECALLPARAMS structure pointer [TAPI 2.2]","_tapi2_linecallparams_str","tapi/LINECALLPARAMS","tapi/LPLINECALLPARAMS","tapi2.linecallparams_str"]
 old-location: tapi2\linecallparams_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e7bc5604-20eb-48d8-a857-df8962c6b2ae
 ms.date: 12/05/2018
 ms.keywords: '*LPLINECALLPARAMS, LINECALLPARAMS, LINECALLPARAMS structure [TAPI 2.2], LPLINECALLPARAMS, LPLINECALLPARAMS structure pointer [TAPI 2.2], _tapi2_linecallparams_str, tapi/LINECALLPARAMS, tapi/LPLINECALLPARAMS, tapi2.linecallparams_str'

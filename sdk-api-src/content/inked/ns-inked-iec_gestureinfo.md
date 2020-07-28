@@ -1,7 +1,8 @@
 ---
 UID: NS:inked.IEC_GESTUREINFO
 title: IEC_GESTUREINFO (inked.h)
-description: Contains information about a specific gesture.helpviewer_keywords: ["IEC_GESTUREINFO","IEC_GESTUREINFO (Win32 Only)","IEC_GESTUREINFO (Win32 Only) structure [Tablet PC]","f932508b-44d3-4605-97a7-bb6eed248939","inked/IEC_GESTUREINFO","tablet.iec_gestureinfo__win32_only_"]
+description: Contains information about a specific gesture.
+helpviewer_keywords: ["IEC_GESTUREINFO","IEC_GESTUREINFO (Win32 Only)","IEC_GESTUREINFO (Win32 Only) structure [Tablet PC]","f932508b-44d3-4605-97a7-bb6eed248939","inked/IEC_GESTUREINFO","tablet.iec_gestureinfo__win32_only_"]
 old-location: tablet\iec_gestureinfo__win32_only_.htm
 tech.root: tablet
 ms.assetid: f932508b-44d3-4605-97a7-bb6eed248939

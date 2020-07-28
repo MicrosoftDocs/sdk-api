@@ -1,9 +1,10 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetDrawBackgroundMode
 title: IAMLine21Decoder::SetDrawBackgroundMode (il21dec.h)
-description: The SetDrawBackgroundMode method specifies whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetDrawBackgroundMode method","IAMLine21Decoder.SetDrawBackgroundMode","IAMLine21Decoder::SetDrawBackgroundMode","IAMLine21DecoderSetDrawBackgroundMode","SetDrawBackgroundMode","SetDrawBackgroundMode method [DirectShow]","SetDrawBackgroundMode method [DirectShow]","IAMLine21Decoder interface","dshow.iamline21decoder_setdrawbackgroundmode","il21dec/IAMLine21Decoder::SetDrawBackgroundMode"]
+description: The SetDrawBackgroundMode method specifies whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
+helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetDrawBackgroundMode method","IAMLine21Decoder.SetDrawBackgroundMode","IAMLine21Decoder::SetDrawBackgroundMode","IAMLine21DecoderSetDrawBackgroundMode","SetDrawBackgroundMode","SetDrawBackgroundMode method [DirectShow]","SetDrawBackgroundMode method [DirectShow]","IAMLine21Decoder interface","dshow.iamline21decoder_setdrawbackgroundmode","il21dec/IAMLine21Decoder::SetDrawBackgroundMode"]
 old-location: dshow\iamline21decoder_setdrawbackgroundmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 56301cc2-8f27-4530-bb6e-9909eb5bb390
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode method, IAMLine21Decoder.SetDrawBackgroundMode, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode

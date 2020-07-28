@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkInitSettings
 title: WlanHostedNetworkInitSettings function (wlanapi.h)
-description: Configures and persists to storage the network connection settings (SSID and maximum number of peers, for example) on the wireless Hosted Network if these settings are not already configured.helpviewer_keywords: ["WlanHostedNetworkInitSettings","WlanHostedNetworkInitSettings function [NativeWIFI]","nwifi.wlanhostednetworkinitsettings","wlanapi/WlanHostedNetworkInitSettings"]
+description: Configures and persists to storage the network connection settings (SSID and maximum number of peers, for example) on the wireless Hosted Network if these settings are not already configured.
+helpviewer_keywords: ["WlanHostedNetworkInitSettings","WlanHostedNetworkInitSettings function [NativeWIFI]","nwifi.wlanhostednetworkinitsettings","wlanapi/WlanHostedNetworkInitSettings"]
 old-location: nwifi\wlanhostednetworkinitsettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: aed4db5d-9740-43ee-bf09-7a4a5abae953
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkInitSettings, WlanHostedNetworkInitSettings function [NativeWIFI], nwifi.wlanhostednetworkinitsettings, wlanapi/WlanHostedNetworkInitSettings

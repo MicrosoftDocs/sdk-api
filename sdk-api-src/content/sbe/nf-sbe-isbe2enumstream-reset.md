@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Reset
 title: ISBE2EnumStream::Reset (sbe.h)
-description: Resets the enumeration sequence to the beginning.helpviewer_keywords: ["ISBE2EnumStream interface [Microsoft TV Technologies]","Reset method","ISBE2EnumStream.Reset","ISBE2EnumStream::Reset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","ISBE2EnumStream interface","mstv.isbe2enumstream_reset","sbe/ISBE2EnumStream::Reset"]
+description: Resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["ISBE2EnumStream interface [Microsoft TV Technologies]","Reset method","ISBE2EnumStream.Reset","ISBE2EnumStream::Reset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","ISBE2EnumStream interface","mstv.isbe2enumstream_reset","sbe/ISBE2EnumStream::Reset"]
 old-location: mstv\isbe2enumstream_reset.htm
 tech.root: mstv
 ms.assetid: db74d4b5-6564-4fbe-9ea3-0c373be4af44

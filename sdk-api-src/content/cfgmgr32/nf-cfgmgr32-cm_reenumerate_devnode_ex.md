@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Reenumerate_DevNode_Ex
 title: CM_Reenumerate_DevNode_Ex function (cfgmgr32.h)
-description: The CM_Reenumerate_DevNode_Ex function enumerates the devices identified by a specified device node and all of its children.helpviewer_keywords: ["CM_Reenumerate_DevNode_Ex","CM_Reenumerate_DevNode_Ex function [Device and Driver Installation]","cfgmgr32/CM_Reenumerate_DevNode_Ex","cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml","devinst.cm_reenumerate_devnode_ex"]
+description: The CM_Reenumerate_DevNode_Ex function enumerates the devices identified by a specified device node and all of its children.
+helpviewer_keywords: ["CM_Reenumerate_DevNode_Ex","CM_Reenumerate_DevNode_Ex function [Device and Driver Installation]","cfgmgr32/CM_Reenumerate_DevNode_Ex","cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml","devinst.cm_reenumerate_devnode_ex"]
 old-location: devinst\cm_reenumerate_devnode_ex.htm
 tech.root: devinst
 ms.assetid: 1d927aec-db3c-403f-9952-1bcc931984bf

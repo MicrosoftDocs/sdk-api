@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigGetFriendlyName
 title: MprConfigGetFriendlyName function (mprapi.h)
-description: The MprConfigGetFriendlyName function returns the friendly name for an interface that corresponds to the specified GUID name.helpviewer_keywords: ["MprConfigGetFriendlyName","MprConfigGetFriendlyName function [RAS]","_mpr_mprconfiggetfriendlyname","mprapi/MprConfigGetFriendlyName","rras.mprconfiggetfriendlyname"]
+description: The MprConfigGetFriendlyName function returns the friendly name for an interface that corresponds to the specified GUID name.
+helpviewer_keywords: ["MprConfigGetFriendlyName","MprConfigGetFriendlyName function [RAS]","_mpr_mprconfiggetfriendlyname","mprapi/MprConfigGetFriendlyName","rras.mprconfiggetfriendlyname"]
 old-location: rras\mprconfiggetfriendlyname.htm
 tech.root: RRAS
 ms.assetid: 16cd38f2-5029-4b95-871d-a8ba6c96b78c

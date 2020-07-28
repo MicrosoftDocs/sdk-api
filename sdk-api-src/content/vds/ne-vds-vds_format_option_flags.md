@@ -1,9 +1,10 @@
 ---
 UID: NE:vds._VDS_FORMAT_OPTION_FLAGS
 title: VDS_FORMAT_OPTION_FLAGS (vds.h)
-description: Defines the set of valid formatting options for the IVdsDiskPartitionMF2::FormatPartitionEx2 method.helpviewer_keywords: ["VDS_FORMAT_OPTION_FLAGS","VDS_FORMAT_OPTION_FLAGS enumeration","VDS_FSOF_COMPRESSION","VDS_FSOF_DUPLICATE_METADATA","VDS_FSOF_FORCE","VDS_FSOF_NONE","VDS_FSOF_QUICK","base.vds_format_option_flags","vds/VDS_FORMAT_OPTION_FLAGS","vds/VDS_FSOF_COMPRESSION","vds/VDS_FSOF_DUPLICATE_METADATA","vds/VDS_FSOF_FORCE","vds/VDS_FSOF_NONE","vds/VDS_FSOF_QUICK"]
+description: Defines the set of valid formatting options for the IVdsDiskPartitionMF2::FormatPartitionEx2 method.
+helpviewer_keywords: ["VDS_FORMAT_OPTION_FLAGS","VDS_FORMAT_OPTION_FLAGS enumeration","VDS_FSOF_COMPRESSION","VDS_FSOF_DUPLICATE_METADATA","VDS_FSOF_FORCE","VDS_FSOF_NONE","VDS_FSOF_QUICK","base.vds_format_option_flags","vds/VDS_FORMAT_OPTION_FLAGS","vds/VDS_FSOF_COMPRESSION","vds/VDS_FSOF_DUPLICATE_METADATA","vds/VDS_FSOF_FORCE","vds/VDS_FSOF_NONE","vds/VDS_FSOF_QUICK"]
 old-location: base\vds_format_option_flags.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 75c92a9a-36c9-4c8d-90f2-a2b88cd8a7b5
 ms.date: 12/05/2018
 ms.keywords: VDS_FORMAT_OPTION_FLAGS, VDS_FORMAT_OPTION_FLAGS enumeration, VDS_FSOF_COMPRESSION, VDS_FSOF_DUPLICATE_METADATA, VDS_FSOF_FORCE, VDS_FSOF_NONE, VDS_FSOF_QUICK, base.vds_format_option_flags, vds/VDS_FORMAT_OPTION_FLAGS, vds/VDS_FSOF_COMPRESSION, vds/VDS_FSOF_DUPLICATE_METADATA, vds/VDS_FSOF_FORCE, vds/VDS_FSOF_NONE, vds/VDS_FSOF_QUICK

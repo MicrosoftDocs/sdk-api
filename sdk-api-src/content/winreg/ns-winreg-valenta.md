@@ -1,9 +1,10 @@
 ---
 UID: NS:winreg.value_entA
 title: VALENTA (winreg.h)
-description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.helpviewer_keywords: ["*PVALENTA","PVALENT","PVALENT structure pointer","VALENT","VALENT structure","VALENTA","VALENTW","_win32_valent_str","base.valent_str","winreg/PVALENT","winreg/VALENT","winreg/VALENTA","winreg/VALENTW"]
+description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
+helpviewer_keywords: ["*PVALENTA","PVALENT","PVALENT structure pointer","VALENT","VALENT structure","VALENTA","VALENTW","_win32_valent_str","base.valent_str","winreg/PVALENT","winreg/VALENT","winreg/VALENTA","winreg/VALENTW"]
 old-location: base\valent_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
 ms.date: 12/05/2018
 ms.keywords: '*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW'
@@ -92,4 +93,9 @@ The type of data pointed to by <b>ve_valueptr</b>. For a list of the possible ty
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winreg.h header defines VALENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:vss.IVssAsync.QueryStatus
 title: IVssAsync::QueryStatus (vss.h)
-description: The QueryStatus method queries the status of an asynchronous operation.helpviewer_keywords: ["IVssAsync interface [VSS]","QueryStatus method","IVssAsync.QueryStatus","IVssAsync::QueryStatus","QueryStatus","QueryStatus method [VSS]","QueryStatus method [VSS]","IVssAsync interface","VSS_S_ASYNC_CANCELLED","VSS_S_ASYNC_FINISHED","VSS_S_ASYNC_PENDING","_win32_ivssasync_querystatus","base.ivssasync_querystatus","vss/IVssAsync::QueryStatus"]
+description: The QueryStatus method queries the status of an asynchronous operation.
+helpviewer_keywords: ["IVssAsync interface [VSS]","QueryStatus method","IVssAsync.QueryStatus","IVssAsync::QueryStatus","QueryStatus","QueryStatus method [VSS]","QueryStatus method [VSS]","IVssAsync interface","VSS_S_ASYNC_CANCELLED","VSS_S_ASYNC_FINISHED","VSS_S_ASYNC_PENDING","_win32_ivssasync_querystatus","base.ivssasync_querystatus","vss/IVssAsync::QueryStatus"]
 old-location: base\ivssasync_querystatus.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a
 ms.date: 12/05/2018
 ms.keywords: IVssAsync interface [VSS],QueryStatus method, IVssAsync.QueryStatus, IVssAsync::QueryStatus, QueryStatus, QueryStatus method [VSS], QueryStatus method [VSS],IVssAsync interface, VSS_S_ASYNC_CANCELLED, VSS_S_ASYNC_FINISHED, VSS_S_ASYNC_PENDING, _win32_ivssasync_querystatus, base.ivssasync_querystatus, vss/IVssAsync::QueryStatus

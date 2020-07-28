@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelLicenseAcquisition
 title: IWMDRMReader::CancelLicenseAcquisition (wmsdkidl.h)
-description: The CancelLicenseAcquisition method cancels a current call to the AcquireLicense method.helpviewer_keywords: ["CancelLicenseAcquisition","CancelLicenseAcquisition method [windows Media Format]","CancelLicenseAcquisition method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","CancelLicenseAcquisition method","IWMDRMReader.CancelLicenseAcquisition","IWMDRMReader::CancelLicenseAcquisition","IWMDRMReaderCancelLicenseAcquisition","wmformat.iwmdrmreader_cancellicenseacquisition","wmsdkidl/IWMDRMReader::CancelLicenseAcquisition"]
+description: The CancelLicenseAcquisition method cancels a current call to the AcquireLicense method.
+helpviewer_keywords: ["CancelLicenseAcquisition","CancelLicenseAcquisition method [windows Media Format]","CancelLicenseAcquisition method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","CancelLicenseAcquisition method","IWMDRMReader.CancelLicenseAcquisition","IWMDRMReader::CancelLicenseAcquisition","IWMDRMReaderCancelLicenseAcquisition","wmformat.iwmdrmreader_cancellicenseacquisition","wmsdkidl/IWMDRMReader::CancelLicenseAcquisition"]
 old-location: wmformat\iwmdrmreader_cancellicenseacquisition.htm
 tech.root: wmformat
 ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a

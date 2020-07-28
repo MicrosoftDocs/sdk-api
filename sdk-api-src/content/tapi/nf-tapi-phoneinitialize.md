@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneInitialize
 title: phoneInitialize function (tapi.h)
-description: The phoneInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using TAPI versions 1.3 and 1.4.helpviewer_keywords: ["_tapi2_phoneinitialize","phoneInitialize","phoneInitialize function [TAPI 2.2]","tapi/phoneInitialize","tapi2.phoneinitialize"]
+description: The phoneInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using TAPI versions 1.3 and 1.4.
+helpviewer_keywords: ["_tapi2_phoneinitialize","phoneInitialize","phoneInitialize function [TAPI 2.2]","tapi/phoneInitialize","tapi2.phoneinitialize"]
 old-location: tapi2\phoneinitialize.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e06153c1-707e-45a9-8d26-747d53e16cf2
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phoneinitialize, phoneInitialize, phoneInitialize function [TAPI 2.2], tapi/phoneInitialize, tapi2.phoneinitialize

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidXDSEvent.RatingChange
 title: IMSVidXDSEvent::RatingChange (segment.h)
-description: The RatingChange method is called when the current rating changes.helpviewer_keywords: ["IMSVidXDSEvent interface [Microsoft TV Technologies]","RatingChange method","IMSVidXDSEvent.RatingChange","IMSVidXDSEvent::RatingChange","IMSVidXDSEventRatingChange","RatingChange","RatingChange method [Microsoft TV Technologies]","RatingChange method [Microsoft TV Technologies]","IMSVidXDSEvent interface","mstv.imsvidxdsevent_ratingchange","segment/IMSVidXDSEvent::RatingChange"]
+description: The RatingChange method is called when the current rating changes.
+helpviewer_keywords: ["IMSVidXDSEvent interface [Microsoft TV Technologies]","RatingChange method","IMSVidXDSEvent.RatingChange","IMSVidXDSEvent::RatingChange","IMSVidXDSEventRatingChange","RatingChange","RatingChange method [Microsoft TV Technologies]","RatingChange method [Microsoft TV Technologies]","IMSVidXDSEvent interface","mstv.imsvidxdsevent_ratingchange","segment/IMSVidXDSEvent::RatingChange"]
 old-location: mstv\imsvidxdsevent_ratingchange.htm
 tech.root: mstv
 ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715

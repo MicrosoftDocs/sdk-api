@@ -59,11 +59,11 @@ Retrieves the input code from <i>wParam</i> in [WM_INPUT](https://docs.microsoft
 ## -returns
 
 Input code value. Can be one of the following:
- 
-| Value | Meaning |
-|---|---|
-| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl> | Input occurred while the application was in the foreground. |
-| <span id="RIM_INPUTSINK"></span><span id="rim_inputsink"></span><dl> <dt>**RIM\_INPUTSINK**</dt> <dt>1</dt> </dl> | Input occurred while the application was not in the foreground. |
+
+| Value                | Meaning                                                         |
+| -------------------- | --------------------------------------------------------------- |
+| **RIM\_INPUT** 0     | Input occurred while the application was in the foreground.     |
+| **RIM\_INPUTSINK** 1 | Input occurred while the application was not in the foreground. |
 
 ## -see-also
 

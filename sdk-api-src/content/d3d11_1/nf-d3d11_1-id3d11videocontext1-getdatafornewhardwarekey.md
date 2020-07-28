@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.GetDataForNewHardwareKey
 title: ID3D11VideoContext1::GetDataForNewHardwareKey (d3d11_1.h)
-description: Allows the driver to return IHV specific information used when initializing the new hardware key.helpviewer_keywords: ["GetDataForNewHardwareKey","GetDataForNewHardwareKey method [Media Foundation]","GetDataForNewHardwareKey method [Media Foundation]","ID3D11VideoContext1 interface","ID3D11VideoContext1 interface [Media Foundation]","GetDataForNewHardwareKey method","ID3D11VideoContext1.GetDataForNewHardwareKey","ID3D11VideoContext1::GetDataForNewHardwareKey","d3d11_1/ID3D11VideoContext1::GetDataForNewHardwareKey","mf.id3d11videocontext1_getdatafornewhardwarekey"]
+description: Allows the driver to return IHV specific information used when initializing the new hardware key.
+helpviewer_keywords: ["GetDataForNewHardwareKey","GetDataForNewHardwareKey method [Media Foundation]","GetDataForNewHardwareKey method [Media Foundation]","ID3D11VideoContext1 interface","ID3D11VideoContext1 interface [Media Foundation]","GetDataForNewHardwareKey method","ID3D11VideoContext1.GetDataForNewHardwareKey","ID3D11VideoContext1::GetDataForNewHardwareKey","d3d11_1/ID3D11VideoContext1::GetDataForNewHardwareKey","mf.id3d11videocontext1_getdatafornewhardwarekey"]
 old-location: mf\id3d11videocontext1_getdatafornewhardwarekey.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4C02F80C-CF7A-4E66-9172-D55A31986ACD
 ms.date: 12/05/2018
 ms.keywords: GetDataForNewHardwareKey, GetDataForNewHardwareKey method [Media Foundation], GetDataForNewHardwareKey method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],GetDataForNewHardwareKey method, ID3D11VideoContext1.GetDataForNewHardwareKey, ID3D11VideoContext1::GetDataForNewHardwareKey, d3d11_1/ID3D11VideoContext1::GetDataForNewHardwareKey, mf.id3d11videocontext1_getdatafornewhardwarekey

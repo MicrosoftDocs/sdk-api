@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedMethods
 title: IPortableDeviceServiceCapabilities::GetSupportedMethods (portabledeviceapi.h)
-description: Retrieves the methods supported by the service.helpviewer_keywords: ["GetSupportedMethods","GetSupportedMethods method [Windows Portable Devices SDK]","GetSupportedMethods method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetSupportedMethods method","IPortableDeviceServiceCapabilities.GetSupportedMethods","IPortableDeviceServiceCapabilities::GetSupportedMethods","portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods","wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods"]
+description: Retrieves the methods supported by the service.
+helpviewer_keywords: ["GetSupportedMethods","GetSupportedMethods method [Windows Portable Devices SDK]","GetSupportedMethods method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetSupportedMethods method","IPortableDeviceServiceCapabilities.GetSupportedMethods","IPortableDeviceServiceCapabilities::GetSupportedMethods","portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods","wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethods.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 60201d12-5a49-4d84-9dae-b04cbb144d8f
 ms.date: 12/05/2018
 ms.keywords: GetSupportedMethods, GetSupportedMethods method [Windows Portable Devices SDK], GetSupportedMethods method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethods method, IPortableDeviceServiceCapabilities.GetSupportedMethods, IPortableDeviceServiceCapabilities::GetSupportedMethods, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods

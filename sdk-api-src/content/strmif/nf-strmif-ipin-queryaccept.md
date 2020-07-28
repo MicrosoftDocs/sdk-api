@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IPin.QueryAccept
 title: IPin::QueryAccept (strmif.h)
-description: The QueryAccept method determines whether the pin accepts a specified media type.helpviewer_keywords: ["IPin interface [DirectShow]","QueryAccept method","IPin.QueryAccept","IPin::QueryAccept","IPinQueryAccept","QueryAccept","QueryAccept method [DirectShow]","QueryAccept method [DirectShow]","IPin interface","dshow.ipin_queryaccept","strmif/IPin::QueryAccept"]
+description: The QueryAccept method determines whether the pin accepts a specified media type.
+helpviewer_keywords: ["IPin interface [DirectShow]","QueryAccept method","IPin.QueryAccept","IPin::QueryAccept","IPinQueryAccept","QueryAccept","QueryAccept method [DirectShow]","QueryAccept method [DirectShow]","IPin interface","dshow.ipin_queryaccept","strmif/IPin::QueryAccept"]
 old-location: dshow\ipin_queryaccept.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ed11eeef-464b-4a75-958b-2bc6dbc7af04
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryAccept method, IPin.QueryAccept, IPin::QueryAccept, IPinQueryAccept, QueryAccept, QueryAccept method [DirectShow], QueryAccept method [DirectShow],IPin interface, dshow.ipin_queryaccept, strmif/IPin::QueryAccept

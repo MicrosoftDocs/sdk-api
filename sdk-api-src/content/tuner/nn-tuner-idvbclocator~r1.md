@@ -1,8 +1,9 @@
 ---
 UID: NN:tuner.IDVBCLocator~r1
 title: IDVBCLocator
-description: TBDhelpviewer_keywords: ["- IDVBCLocator"]
-tech.root: 
+description: TBD
+helpviewer_keywords: ["- IDVBCLocator"]
+tech.root: mstv
 ms.assetid: 8e26394f-6534-45d3-8918-01b4c0408f9a
 ms.date: 11/14/2019
 f1_keywords:

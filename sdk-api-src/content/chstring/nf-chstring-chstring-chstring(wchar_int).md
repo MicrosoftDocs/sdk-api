@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.CHString(WCHAR,int)
 title: CHString::CHString(WCHAR,int) (chstring.h)
-description: Initializes a new CHString object with the specified data.helpviewer_keywords: ["??0CHString@@QAE@GH@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(WCHAR","int)","CHString::CHString","CHString::CHString(WCHAR","int)","chstring/CHString::CHString","wmi.chstring_chstring_wchar_int_"]
+description: Initializes a new CHString object with the specified data.
+helpviewer_keywords: ["??0CHString@@QAE@GH@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(WCHAR","int)","CHString::CHString","CHString::CHString(WCHAR","int)","chstring/CHString::CHString","wmi.chstring_chstring_wchar_int_"]
 old-location: wmi\chstring_chstring_wchar_int_.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 2b0afbc0-3ce0-4bcc-8ad1-e3b546d3b0dd
 ms.date: 12/05/2018
 ms.keywords: ??0CHString@@QAE@GH@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(WCHAR,int), CHString::CHString, CHString::CHString(WCHAR,int), chstring/CHString::CHString, wmi.chstring_chstring_wchar_int_

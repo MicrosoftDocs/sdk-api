@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.Refresh
 title: IFaxInboundRoutingMethod::Refresh (faxcomex.h)
-description: The IFaxInboundRoutingMethod::Refresh method refreshes IFaxInboundRoutingMethod interface information from the fax server.helpviewer_keywords: ["IFaxInboundRoutingMethod interface [Fax Service]","Refresh method","IFaxInboundRoutingMethod.Refresh","IFaxInboundRoutingMethod::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxInboundRoutingMethod interface","_mfax_faxinboundroutingmethod.refresh","fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_refresh_cpp","fax._mfax_faxinboundroutingmethod_refresh","faxcomex/IFaxInboundRoutingMethod::Refresh"]
+description: The IFaxInboundRoutingMethod::Refresh method refreshes IFaxInboundRoutingMethod interface information from the fax server.
+helpviewer_keywords: ["IFaxInboundRoutingMethod interface [Fax Service]","Refresh method","IFaxInboundRoutingMethod.Refresh","IFaxInboundRoutingMethod::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxInboundRoutingMethod interface","_mfax_faxinboundroutingmethod.refresh","fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_refresh_cpp","fax._mfax_faxinboundroutingmethod_refresh","faxcomex/IFaxInboundRoutingMethod::Refresh"]
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_42aw.htm

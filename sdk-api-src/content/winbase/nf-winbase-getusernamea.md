@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetUserNameA
 title: GetUserNameA function (winbase.h)
-description: Retrieves the name of the user associated with the current thread.helpviewer_keywords: ["GetUserName","GetUserName function","GetUserNameA","GetUserNameW","_win32_getusername","base.getusername","winbase/GetUserName","winbase/GetUserNameA","winbase/GetUserNameW"]
+description: Retrieves the name of the user associated with the current thread.
+helpviewer_keywords: ["GetUserName","GetUserName function","GetUserNameA","GetUserNameW","_win32_getusername","base.getusername","winbase/GetUserName","winbase/GetUserNameA","winbase/GetUserNameW"]
 old-location: base\getusername.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
 ms.date: 12/05/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
@@ -110,6 +111,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetUserName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

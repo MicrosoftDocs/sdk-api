@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.CveEventWrite
 title: CveEventWrite function (securitybaseapi.h)
-description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.helpviewer_keywords: ["CveEventWrite","CveEventWrite function [ETW]","etw.cveeventwrite","securitybaseapi/CveEventWrite"]
+description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.
+helpviewer_keywords: ["CveEventWrite","CveEventWrite function [ETW]","etw.cveeventwrite","securitybaseapi/CveEventWrite"]
 old-location: etw\cveeventwrite.htm
 tech.root: ETW
 ms.assetid: 81CDC4A8-67B3-40AE-B492-89EF47BC5C4D

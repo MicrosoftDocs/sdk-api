@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IQueryContinue
 title: IQueryContinue (shobjidl_core.h)
-description: Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation.helpviewer_keywords: ["IQueryContinue","IQueryContinue interface [Windows Shell]","IQueryContinue interface [Windows Shell]","described","inet_IQueryContinue","shell.IQueryContinue","shobjidl_core/IQueryContinue"]
+description: Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation.
+helpviewer_keywords: ["IQueryContinue","IQueryContinue interface [Windows Shell]","IQueryContinue interface [Windows Shell]","described","inet_IQueryContinue","shell.IQueryContinue","shobjidl_core/IQueryContinue"]
 old-location: shell\IQueryContinue.htm
 tech.root: shell
 ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884

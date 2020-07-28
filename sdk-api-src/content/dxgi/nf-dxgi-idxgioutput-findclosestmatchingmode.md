@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIOutput.FindClosestMatchingMode
 title: IDXGIOutput::FindClosestMatchingMode (dxgi.h)
-description: Finds the display mode that most closely matches the requested display mode.helpviewer_keywords: ["FindClosestMatchingMode","FindClosestMatchingMode method [DXGI]","FindClosestMatchingMode method [DXGI]","IDXGIOutput interface","IDXGIOutput interface [DXGI]","FindClosestMatchingMode method","IDXGIOutput.FindClosestMatchingMode","IDXGIOutput::FindClosestMatchingMode","c140400c-32d4-ec57-8da0-a37a23cfd5e4","direct3ddxgi.idxgioutput_findclosestmatchingmode","dxgi/IDXGIOutput::FindClosestMatchingMode"]
+description: Finds the display mode that most closely matches the requested display mode.
+helpviewer_keywords: ["FindClosestMatchingMode","FindClosestMatchingMode method [DXGI]","FindClosestMatchingMode method [DXGI]","IDXGIOutput interface","IDXGIOutput interface [DXGI]","FindClosestMatchingMode method","IDXGIOutput.FindClosestMatchingMode","IDXGIOutput::FindClosestMatchingMode","c140400c-32d4-ec57-8da0-a37a23cfd5e4","direct3ddxgi.idxgioutput_findclosestmatchingmode","dxgi/IDXGIOutput::FindClosestMatchingMode"]
 old-location: direct3ddxgi\idxgioutput_findclosestmatchingmode.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_findclosestmatchingmode.htm

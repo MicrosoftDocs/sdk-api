@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerPnrpGetCloudInfo
 title: PeerPnrpGetCloudInfo function (p2p.h)
-description: Retrieves information on the Peer Name Resolution Protocol (PNRP) clouds in which the calling peer is participating.helpviewer_keywords: ["PeerPnrpGetCloudInfo","PeerPnrpGetCloudInfo function [Peer Networking]","p2p.peerpnrpgetcloudinfo","p2p/PeerPnrpGetCloudInfo"]
+description: Retrieves information on the Peer Name Resolution Protocol (PNRP) clouds in which the calling peer is participating.
+helpviewer_keywords: ["PeerPnrpGetCloudInfo","PeerPnrpGetCloudInfo function [Peer Networking]","p2p.peerpnrpgetcloudinfo","p2p/PeerPnrpGetCloudInfo"]
 old-location: p2p\peerpnrpgetcloudinfo.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e6067973-68e3-4b0e-8a7a-ffba2ab2a971
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpGetCloudInfo, PeerPnrpGetCloudInfo function [Peer Networking], p2p.peerpnrpgetcloudinfo, p2p/PeerPnrpGetCloudInfo

@@ -1,9 +1,10 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesSetup
 title: ICertServerExit::EnumerateAttributesSetup (certif.h)
-description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateAttributesSetup method","EnumerateAttributesSetup","EnumerateAttributesSetup method [Security]","EnumerateAttributesSetup method [Security]","CCertServerExit object","EnumerateAttributesSetup method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateAttributesSetup method","ICertServerExit.EnumerateAttributesSetup","ICertServerExit::EnumerateAttributesSetup","_certsrv_icertserverexit_enumerateattributessetup","certif/ICertServerExit::EnumerateAttributesSetup","security.icertserverexit_enumerateattributessetup"]
+description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
+helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateAttributesSetup method","EnumerateAttributesSetup","EnumerateAttributesSetup method [Security]","EnumerateAttributesSetup method [Security]","CCertServerExit object","EnumerateAttributesSetup method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateAttributesSetup method","ICertServerExit.EnumerateAttributesSetup","ICertServerExit::EnumerateAttributesSetup","_certsrv_icertserverexit_enumerateattributessetup","certif/ICertServerExit::EnumerateAttributesSetup","security.icertserverexit_enumerateattributessetup"]
 old-location: security\icertserverexit_enumerateattributessetup.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c81b9c4d-483e-48b8-a270-f570e148d371
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerExit object, EnumerateAttributesSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributesSetup method, ICertServerExit.EnumerateAttributesSetup, ICertServerExit::EnumerateAttributesSetup, _certsrv_icertserverexit_enumerateattributessetup, certif/ICertServerExit::EnumerateAttributesSetup, security.icertserverexit_enumerateattributessetup

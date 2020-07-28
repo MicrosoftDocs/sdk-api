@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_WriteError
 title: MI_Context_WriteError function (mi.h)
-description: Sends an error code and error message to the client.helpviewer_keywords: ["MI_Context_WriteError","MI_Context_WriteError function [Windows Management Infrastructure (MI)]","MI_RESULT_TYPE_HRESULT","MI_RESULT_TYPE_MI","MI_RESULT_TYPE_WIN32","mi/MI_Context_WriteError","wmi.mi_writeerror","wmi_v2.mi_context_writeerror"]
+description: Sends an error code and error message to the client.
+helpviewer_keywords: ["MI_Context_WriteError","MI_Context_WriteError function [Windows Management Infrastructure (MI)]","MI_RESULT_TYPE_HRESULT","MI_RESULT_TYPE_MI","MI_RESULT_TYPE_WIN32","mi/MI_Context_WriteError","wmi.mi_writeerror","wmi_v2.mi_context_writeerror"]
 old-location: wmi_v2\mi_context_writeerror.htm
 tech.root: wmi_v2
 ms.assetid: 7626b488-58a3-4c9c-a80b-9b0a6dd7f533

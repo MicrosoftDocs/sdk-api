@@ -1,9 +1,10 @@
 ---
 UID: NF:dmoreg.DMOUnregister
 title: DMOUnregister function (dmoreg.h)
-description: The DMOUnregister function unregisters a DMO.helpviewer_keywords: ["DMOUnregister","DMOUnregister function [DirectShow]","dmoreg/DMOUnregister","dshow.dmounregister"]
+description: The DMOUnregister function unregisters a DMO.
+helpviewer_keywords: ["DMOUnregister","DMOUnregister function [DirectShow]","dmoreg/DMOUnregister","dshow.dmounregister"]
 old-location: dshow\dmounregister.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7f65789d-7654-4da2-a572-e07c1e81b4ae
 ms.date: 12/05/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister

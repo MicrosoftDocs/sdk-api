@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertFreeCRLContext
 title: CertFreeCRLContext function (wincrypt.h)
-description: Frees a certificate revocation list (CRL) context by decrementing its reference count.helpviewer_keywords: ["CertFreeCRLContext","CertFreeCRLContext function [Security]","_crypto2_certfreecrlcontext","security.certfreecrlcontext","wincrypt/CertFreeCRLContext"]
+description: Frees a certificate revocation list (CRL) context by decrementing its reference count.
+helpviewer_keywords: ["CertFreeCRLContext","CertFreeCRLContext function [Security]","_crypto2_certfreecrlcontext","security.certfreecrlcontext","wincrypt/CertFreeCRLContext"]
 old-location: security\certfreecrlcontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 19a590a5-bd39-4bbe-ad86-4e648baa1ba8
 ms.date: 12/05/2018
 ms.keywords: CertFreeCRLContext, CertFreeCRLContext function [Security], _crypto2_certfreecrlcontext, security.certfreecrlcontext, wincrypt/CertFreeCRLContext

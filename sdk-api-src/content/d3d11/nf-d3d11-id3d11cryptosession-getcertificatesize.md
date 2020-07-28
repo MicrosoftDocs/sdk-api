@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificateSize
 title: ID3D11CryptoSession::GetCertificateSize (d3d11.h)
-description: Gets the size of the driver's certificate chain.helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","ID3D11CryptoSession interface","ID3D11CryptoSession interface [Media Foundation]","GetCertificateSize method","ID3D11CryptoSession.GetCertificateSize","ID3D11CryptoSession::GetCertificateSize","d3d11/ID3D11CryptoSession::GetCertificateSize","mf.id3d11cryptosession_getcertificatesize"]
+description: Gets the size of the driver's certificate chain.
+helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","ID3D11CryptoSession interface","ID3D11CryptoSession interface [Media Foundation]","GetCertificateSize method","ID3D11CryptoSession.GetCertificateSize","ID3D11CryptoSession::GetCertificateSize","d3d11/ID3D11CryptoSession::GetCertificateSize","mf.id3d11cryptosession_getcertificatesize"]
 old-location: mf\id3d11cryptosession_getcertificatesize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C5FE51B8-A681-4B8C-BFC0-9D0B625292F1
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificateSize method, ID3D11CryptoSession.GetCertificateSize, ID3D11CryptoSession::GetCertificateSize, d3d11/ID3D11CryptoSession::GetCertificateSize, mf.id3d11cryptosession_getcertificatesize

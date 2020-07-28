@@ -1,9 +1,10 @@
 ---
 UID: NF:dmoreg.DMORegister
 title: DMORegister function (dmoreg.h)
-description: The DMORegister function registers a DMO.helpviewer_keywords: ["DMORegister","DMORegister function [DirectShow]","dmoreg/DMORegister","dshow.dmoregister"]
+description: The DMORegister function registers a DMO.
+helpviewer_keywords: ["DMORegister","DMORegister function [DirectShow]","dmoreg/DMORegister","dshow.dmoregister"]
 old-location: dshow\dmoregister.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4e70569b-8502-4eee-bd23-173269b345d1
 ms.date: 12/05/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister

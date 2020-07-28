@@ -1,9 +1,10 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.SetKey2
 title: IWbemPathKeyList::SetKey2 (wmiutils.h)
-description: Sets the name or value pair for a key using variants.helpviewer_keywords: ["IWbemPathKeyList interface [Windows Management Instrumentation]","SetKey2 method","IWbemPathKeyList.SetKey2","IWbemPathKeyList::SetKey2","SetKey2","SetKey2 method [Windows Management Instrumentation]","SetKey2 method [Windows Management Instrumentation]","IWbemPathKeyList interface","_hmm_iwbempathkeylist_setkey2","wmi.iwbempathkeylist_setkey2","wmiutils/IWbemPathKeyList::SetKey2"]
+description: Sets the name or value pair for a key using variants.
+helpviewer_keywords: ["IWbemPathKeyList interface [Windows Management Instrumentation]","SetKey2 method","IWbemPathKeyList.SetKey2","IWbemPathKeyList::SetKey2","SetKey2","SetKey2 method [Windows Management Instrumentation]","SetKey2 method [Windows Management Instrumentation]","IWbemPathKeyList interface","_hmm_iwbempathkeylist_setkey2","wmi.iwbempathkeylist_setkey2","wmiutils/IWbemPathKeyList::SetKey2"]
 old-location: wmi\iwbempathkeylist_setkey2.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 3b282124-d544-405a-96e0-39cc504c8117
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],SetKey2 method, IWbemPathKeyList.SetKey2, IWbemPathKeyList::SetKey2, SetKey2, SetKey2 method [Windows Management Instrumentation], SetKey2 method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_setkey2, wmi.iwbempathkeylist_setkey2, wmiutils/IWbemPathKeyList::SetKey2

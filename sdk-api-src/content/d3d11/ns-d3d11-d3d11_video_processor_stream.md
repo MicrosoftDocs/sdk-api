@@ -1,9 +1,10 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_STREAM
 title: D3D11_VIDEO_PROCESSOR_STREAM (d3d11.h)
-description: Contains stream-level data for the ID3D11VideoContext::VideoProcessorBlt method.helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_STREAM","D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_STREAM","mf.d3d11_video_processor_stream"]
+description: Contains stream-level data for the ID3D11VideoContext::VideoProcessorBlt method.
+helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_STREAM","D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_STREAM","mf.d3d11_video_processor_stream"]
 old-location: mf\d3d11_video_processor_stream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B861D00B-2FF2-4F8F-AD40-0EE6A9706A0C
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM, D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_STREAM, mf.d3d11_video_processor_stream

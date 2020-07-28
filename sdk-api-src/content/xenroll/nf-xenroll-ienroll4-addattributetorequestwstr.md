@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll4.addAttributeToRequestWStr
 title: IEnroll4::addAttributeToRequestWStr (xenroll.h)
-description: Adds an attribute to the certificate request.helpviewer_keywords: ["IEnroll4 interface [Security]","addAttributeToRequestWStr method","IEnroll4.addAttributeToRequestWStr","IEnroll4::addAttributeToRequestWStr","addAttributeToRequestWStr","addAttributeToRequestWStr method [Security]","addAttributeToRequestWStr method [Security]","IEnroll4 interface","security.ienroll4_addattributetorequestwstr","xenroll/IEnroll4::addAttributeToRequestWStr"]
+description: Adds an attribute to the certificate request.
+helpviewer_keywords: ["IEnroll4 interface [Security]","addAttributeToRequestWStr method","IEnroll4.addAttributeToRequestWStr","IEnroll4::addAttributeToRequestWStr","addAttributeToRequestWStr","addAttributeToRequestWStr method [Security]","addAttributeToRequestWStr method [Security]","IEnroll4 interface","security.ienroll4_addattributetorequestwstr","xenroll/IEnroll4::addAttributeToRequestWStr"]
 old-location: security\ienroll4_addattributetorequestwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 71421bca-ef72-47d3-8f4a-95cb9768644f
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],addAttributeToRequestWStr method, IEnroll4.addAttributeToRequestWStr, IEnroll4::addAttributeToRequestWStr, addAttributeToRequestWStr, addAttributeToRequestWStr method [Security], addAttributeToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addattributetorequestwstr, xenroll/IEnroll4::addAttributeToRequestWStr

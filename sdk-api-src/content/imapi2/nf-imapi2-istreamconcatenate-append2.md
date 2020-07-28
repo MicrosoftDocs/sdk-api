@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Append2
 title: IStreamConcatenate::Append2 (imapi2.h)
-description: Appends an array of streams to this stream.helpviewer_keywords: ["Append2","Append2 method [IMAPI]","Append2 method [IMAPI]","IStreamConcatenate interface","IStreamConcatenate interface [IMAPI]","Append2 method","IStreamConcatenate.Append2","IStreamConcatenate::Append2","imapi.istreamconcatenate_append2","imapi2/IStreamConcatenate::Append2"]
+description: Appends an array of streams to this stream.
+helpviewer_keywords: ["Append2","Append2 method [IMAPI]","Append2 method [IMAPI]","IStreamConcatenate interface","IStreamConcatenate interface [IMAPI]","Append2 method","IStreamConcatenate.Append2","IStreamConcatenate::Append2","imapi.istreamconcatenate_append2","imapi2/IStreamConcatenate::Append2"]
 old-location: imapi\istreamconcatenate_append2.htm
 tech.root: imapi
 ms.assetid: 75e7f4cd-f3c8-494d-b049-7fe32c486659

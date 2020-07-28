@@ -1,9 +1,10 @@
 ---
 UID: NF:enclaveapi.IsEnclaveTypeSupported
 title: IsEnclaveTypeSupported function (enclaveapi.h)
-description: Retrieves whether the specified type of enclave is supported.helpviewer_keywords: ["ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_VBS","IsEnclaveTypeSupported","IsEnclaveTypeSupported function","base.isenclavetypesupported","base.isenclavetypesypported","enclaveapi/IsEnclaveTypeSupported"]
+description: Retrieves whether the specified type of enclave is supported.
+helpviewer_keywords: ["ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_VBS","IsEnclaveTypeSupported","IsEnclaveTypeSupported function","base.isenclavetypesupported","base.isenclavetypesypported","enclaveapi/IsEnclaveTypeSupported"]
 old-location: base\isenclavetypesupported.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported

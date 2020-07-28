@@ -1,9 +1,10 @@
 ---
 UID: NS:ncrypt.NCRYPT_ALLOC_PARA
 title: NCRYPT_ALLOC_PARA (ncrypt.h)
-description: Enables you to specify custom functions that can be used to allocate and free data.helpviewer_keywords: ["NCRYPT_ALLOC_PARA","NCRYPT_ALLOC_PARA structure [Security]","PNCRYPT_ALLOC_PARA","PNCRYPT_ALLOC_PARA structure pointer [Security]","ncrypt/NCRYPT_ALLOC_PARA","ncrypt/PNCRYPT_ALLOC_PARA","security.ncrypt_alloc_para"]
+description: Enables you to specify custom functions that can be used to allocate and free data.
+helpviewer_keywords: ["NCRYPT_ALLOC_PARA","NCRYPT_ALLOC_PARA structure [Security]","PNCRYPT_ALLOC_PARA","PNCRYPT_ALLOC_PARA structure pointer [Security]","ncrypt/NCRYPT_ALLOC_PARA","ncrypt/PNCRYPT_ALLOC_PARA","security.ncrypt_alloc_para"]
 old-location: security\ncrypt_alloc_para.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 4F546F51-E4DE-4703-B1D1-F84165C3C31B
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ALLOC_PARA, NCRYPT_ALLOC_PARA structure [Security], PNCRYPT_ALLOC_PARA, PNCRYPT_ALLOC_PARA structure pointer [Security], ncrypt/NCRYPT_ALLOC_PARA, ncrypt/PNCRYPT_ALLOC_PARA, security.ncrypt_alloc_para

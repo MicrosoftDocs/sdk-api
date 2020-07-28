@@ -1,9 +1,10 @@
 ---
 UID: NF:cfapi.CfHydratePlaceholder
 title: CfHydratePlaceholder function (cfapi.h)
-description: Hydrates a placeholder file by ensuring that the specified byte range is present on-disk in the placeholder. This is valid for files only.helpviewer_keywords: ["CfHydratePlaceholder","CfHydratePlaceholder function","cfapi/CfHydratePlaceholder","cloudApi.cfhydrateplaceholder"]
+description: Hydrates a placeholder file by ensuring that the specified byte range is present on-disk in the placeholder. This is valid for files only.
+helpviewer_keywords: ["CfHydratePlaceholder","CfHydratePlaceholder function","cfapi/CfHydratePlaceholder","cloudApi.cfhydrateplaceholder"]
 old-location: cloudapi\cfhydrateplaceholder.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
 ms.date: 12/05/2018
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder

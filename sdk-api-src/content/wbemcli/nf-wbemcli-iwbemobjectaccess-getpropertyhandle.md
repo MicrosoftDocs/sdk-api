@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.GetPropertyHandle
 title: IWbemObjectAccess::GetPropertyHandle (wbemcli.h)
-description: The GetPropertyHandle method returns a unique handle that identifies a property. You can use this handle to identify properties when using IWbemObjectAccess methods to read or write property values.helpviewer_keywords: ["GetPropertyHandle","GetPropertyHandle method [Windows Management Instrumentation]","GetPropertyHandle method [Windows Management Instrumentation]","IWbemObjectAccess interface","IWbemObjectAccess interface [Windows Management Instrumentation]","GetPropertyHandle method","IWbemObjectAccess.GetPropertyHandle","IWbemObjectAccess::GetPropertyHandle","_hmm_iwbemobjectaccess_getpropertyhandle","wbemcli/IWbemObjectAccess::GetPropertyHandle","wmi.iwbemobjectaccess_getpropertyhandle"]
+description: The GetPropertyHandle method returns a unique handle that identifies a property. You can use this handle to identify properties when using IWbemObjectAccess methods to read or write property values.
+helpviewer_keywords: ["GetPropertyHandle","GetPropertyHandle method [Windows Management Instrumentation]","GetPropertyHandle method [Windows Management Instrumentation]","IWbemObjectAccess interface","IWbemObjectAccess interface [Windows Management Instrumentation]","GetPropertyHandle method","IWbemObjectAccess.GetPropertyHandle","IWbemObjectAccess::GetPropertyHandle","_hmm_iwbemobjectaccess_getpropertyhandle","wbemcli/IWbemObjectAccess::GetPropertyHandle","wmi.iwbemobjectaccess_getpropertyhandle"]
 old-location: wmi\iwbemobjectaccess_getpropertyhandle.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 889d90cd-f53f-460e-b1c2-ed2b87863d58
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandle, GetPropertyHandle method [Windows Management Instrumentation], GetPropertyHandle method [Windows Management Instrumentation],IWbemObjectAccess interface, IWbemObjectAccess interface [Windows Management Instrumentation],GetPropertyHandle method, IWbemObjectAccess.GetPropertyHandle, IWbemObjectAccess::GetPropertyHandle, _hmm_iwbemobjectaccess_getpropertyhandle, wbemcli/IWbemObjectAccess::GetPropertyHandle, wmi.iwbemobjectaccess_getpropertyhandle

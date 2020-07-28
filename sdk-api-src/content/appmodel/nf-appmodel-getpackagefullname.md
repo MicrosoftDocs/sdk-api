@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetPackageFullName
 title: GetPackageFullName function (appmodel.h)
-description: Gets the package full name for the specified process.helpviewer_keywords: ["GetPackageFullName","GetPackageFullName function [App packaging and management]","appmodel/GetPackageFullName","appxpkg.getpackagefullname"]
+description: Gets the package full name for the specified process.
+helpviewer_keywords: ["GetPackageFullName","GetPackageFullName function [App packaging and management]","appmodel/GetPackageFullName","appxpkg.getpackagefullname"]
 old-location: appxpkg\getpackagefullname.htm
 tech.root: appxpkg
 ms.assetid: D1BA8E91-A3D1-454A-A4F6-E3C786F0BD7E

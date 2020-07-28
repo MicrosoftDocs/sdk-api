@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
 title: ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio (d3d11.h)
-description: Sets the pixel aspect ratio for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamPixelAspectRatio method","ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio","ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio","VideoProcessorSetStreamPixelAspectRatio","VideoProcessorSetStreamPixelAspectRatio method [Media Foundation]","VideoProcessorSetStreamPixelAspectRatio method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio","mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio"]
+description: Sets the pixel aspect ratio for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamPixelAspectRatio method","ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio","ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio","VideoProcessorSetStreamPixelAspectRatio","VideoProcessorSetStreamPixelAspectRatio method [Media Foundation]","VideoProcessorSetStreamPixelAspectRatio method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio","mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreampixelaspectratio.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4205F6F0-4AF3-42B1-8636-64FCFC865856
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio

@@ -4,7 +4,7 @@ title: IO_COUNTERS (winnt.h)
 description: Contains I/O accounting information for a process or a job object.
 helpviewer_keywords: ["*PIO_COUNTERS","IO_COUNTERS","IO_COUNTERS structure","PIO_COUNTERS","PIO_COUNTERS structure pointer","_IO_COUNTERS","_win32_io_counters_str","base.io_counters_str","winnt/IO_COUNTERS","winnt/PIO_COUNTERS"]
 old-location: base\io_counters_str.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 78729cbe-5256-4939-a7cc-c393662f8361
 ms.date: 12/05/2018
 ms.keywords: '*PIO_COUNTERS, IO_COUNTERS, IO_COUNTERS structure, PIO_COUNTERS, PIO_COUNTERS structure pointer, _IO_COUNTERS, _win32_io_counters_str, base.io_counters_str, winnt/IO_COUNTERS, winnt/PIO_COUNTERS'

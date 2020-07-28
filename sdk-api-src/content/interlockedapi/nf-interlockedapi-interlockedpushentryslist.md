@@ -1,9 +1,10 @@
 ---
 UID: NF:interlockedapi.InterlockedPushEntrySList
 title: InterlockedPushEntrySList function (interlockedapi.h)
-description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.helpviewer_keywords: ["InterlockedPushEntrySList","InterlockedPushEntrySList function","_win32_interlockedpushentryslist","base.interlockedpushentryslist","interlockedapi/InterlockedPushEntrySList","winbase/InterlockedPushEntrySList"]
+description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
+helpviewer_keywords: ["InterlockedPushEntrySList","InterlockedPushEntrySList function","_win32_interlockedpushentryslist","base.interlockedpushentryslist","interlockedapi/InterlockedPushEntrySList","winbase/InterlockedPushEntrySList"]
 old-location: base\interlockedpushentryslist.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 60e3b6f7-f556-4699-be90-db7330cfb8ca
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushEntrySList, InterlockedPushEntrySList function, _win32_interlockedpushentryslist, base.interlockedpushentryslist, interlockedapi/InterlockedPushEntrySList, winbase/InterlockedPushEntrySList
@@ -71,7 +72,7 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param ListEntry [in, out]
 
 Pointer to an 
-<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
+<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
 
 
 ## -returns
@@ -124,7 +125,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a>
 
 
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetCount
 title: IXpsOMGradientStopCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of IXpsOMGradientStop interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface","IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMGradientStopCollection.GetCount","IXpsOMGradientStopCollection::GetCount","xps.ixpsomgradientstopcollection_getcount","xpsobjectmodel/IXpsOMGradientStopCollection::GetCount"]
+description: Gets the number of IXpsOMGradientStop interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface","IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMGradientStopCollection.GetCount","IXpsOMGradientStopCollection::GetCount","xps.ixpsomgradientstopcollection_getcount","xpsobjectmodel/IXpsOMGradientStopCollection::GetCount"]
 old-location: xps\ixpsomgradientstopcollection_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c8f26de2-1237-4c41-bc91-de221739eb76
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGradientStopCollection.GetCount, IXpsOMGradientStopCollection::GetCount, xps.ixpsomgradientstopcollection_getcount, xpsobjectmodel/IXpsOMGradientStopCollection::GetCount

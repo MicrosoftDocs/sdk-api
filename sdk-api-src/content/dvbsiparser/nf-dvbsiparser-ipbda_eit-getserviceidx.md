@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetServiceIdx
 title: IPBDA_EIT::GetServiceIdx (dvbsiparser.h)
-description: Gets the service identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The service identifier identifies the service that contains the events.helpviewer_keywords: ["GetServiceIdx","GetServiceIdx method [Microsoft TV Technologies]","GetServiceIdx method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetServiceIdx method","IPBDA_EIT.GetServiceIdx","IPBDA_EIT::GetServiceIdx","dvbsiparser/IPBDA_EIT::GetServiceIdx","mstv.ipbda_eit_getserviceidx"]
+description: Gets the service identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The service identifier identifies the service that contains the events.
+helpviewer_keywords: ["GetServiceIdx","GetServiceIdx method [Microsoft TV Technologies]","GetServiceIdx method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetServiceIdx method","IPBDA_EIT.GetServiceIdx","IPBDA_EIT::GetServiceIdx","dvbsiparser/IPBDA_EIT::GetServiceIdx","mstv.ipbda_eit_getserviceidx"]
 old-location: mstv\ipbda_eit_getserviceidx.htm
 tech.root: mstv
 ms.assetid: 10e8def6-be78-4b0f-8b47-d0485a1b50f1

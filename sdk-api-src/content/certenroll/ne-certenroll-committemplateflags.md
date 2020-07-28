@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.CommitTemplateFlags
 title: CommitTemplateFlags (certenroll.h)
-description: Specifies options for saving and deleting templates.helpviewer_keywords: ["CommitFlagDeleteTemplate","CommitFlagSaveTemplateGenerateOID","CommitFlagSaveTemplateOverwrite","CommitFlagSaveTemplateUseCurrentOID","CommitTemplateFlags","CommitTemplateFlags enumeration [Security]","certenroll/CommitFlagDeleteTemplate","certenroll/CommitFlagSaveTemplateGenerateOID","certenroll/CommitFlagSaveTemplateOverwrite","certenroll/CommitFlagSaveTemplateUseCurrentOID","certenroll/CommitTemplateFlags","security.committemplateflags"]
+description: Specifies options for saving and deleting templates.
+helpviewer_keywords: ["CommitFlagDeleteTemplate","CommitFlagSaveTemplateGenerateOID","CommitFlagSaveTemplateOverwrite","CommitFlagSaveTemplateUseCurrentOID","CommitTemplateFlags","CommitTemplateFlags enumeration [Security]","certenroll/CommitFlagDeleteTemplate","certenroll/CommitFlagSaveTemplateGenerateOID","certenroll/CommitFlagSaveTemplateOverwrite","certenroll/CommitFlagSaveTemplateUseCurrentOID","certenroll/CommitTemplateFlags","security.committemplateflags"]
 old-location: security\committemplateflags.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e228928a-ef11-4caa-b33f-fe25a3a6ff86
 ms.date: 12/05/2018
 ms.keywords: CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, CommitTemplateFlags, CommitTemplateFlags enumeration [Security], certenroll/CommitFlagDeleteTemplate, certenroll/CommitFlagSaveTemplateGenerateOID, certenroll/CommitFlagSaveTemplateOverwrite, certenroll/CommitFlagSaveTemplateUseCurrentOID, certenroll/CommitTemplateFlags, security.committemplateflags

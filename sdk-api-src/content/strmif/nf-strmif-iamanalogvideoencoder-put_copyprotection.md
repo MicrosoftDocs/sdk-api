@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.put_CopyProtection
 title: IAMAnalogVideoEncoder::put_CopyProtection (strmif.h)
-description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CopyProtection method sets the level of copy protection for the encoder.helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","put_CopyProtection method","IAMAnalogVideoEncoder.put_CopyProtection","IAMAnalogVideoEncoder::put_CopyProtection","IAMAnalogVideoEncoderput_CopyProtection","dshow.iamanalogvideoencoder_put_copyprotection","put_CopyProtection","put_CopyProtection method [DirectShow]","put_CopyProtection method [DirectShow]","IAMAnalogVideoEncoder interface","strmif/IAMAnalogVideoEncoder::put_CopyProtection"]
+description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CopyProtection method sets the level of copy protection for the encoder.
+helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","put_CopyProtection method","IAMAnalogVideoEncoder.put_CopyProtection","IAMAnalogVideoEncoder::put_CopyProtection","IAMAnalogVideoEncoderput_CopyProtection","dshow.iamanalogvideoencoder_put_copyprotection","put_CopyProtection","put_CopyProtection method [DirectShow]","put_CopyProtection method [DirectShow]","IAMAnalogVideoEncoder interface","strmif/IAMAnalogVideoEncoder::put_CopyProtection"]
 old-location: dshow\iamanalogvideoencoder_put_copyprotection.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a2a762f3-8b11-4334-979d-206234d6cf09
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CopyProtection method, IAMAnalogVideoEncoder.put_CopyProtection, IAMAnalogVideoEncoder::put_CopyProtection, IAMAnalogVideoEncoderput_CopyProtection, dshow.iamanalogvideoencoder_put_copyprotection, put_CopyProtection, put_CopyProtection method [DirectShow], put_CopyProtection method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CopyProtection

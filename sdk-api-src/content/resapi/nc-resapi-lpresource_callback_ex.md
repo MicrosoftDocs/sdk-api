@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.LPRESOURCE_CALLBACK_EX
 title: LPRESOURCE_CALLBACK_EX (resapi.h)
-description: TBD.helpviewer_keywords: ["LPRESOURCE_CALLBACK_EX","LPRESOURCE_CALLBACK_EX callback function [Failover Cluster]","ResourceCallbackEx","ResourceCallbackEx callback","ResourceCallbackEx callback function [Failover Cluster]","mscs.lpresource_callback_ex","resapi/LPRESOURCE_CALLBACK_EX","resapi/ResourceCallbackEx"]
+description: TBD.
+helpviewer_keywords: ["LPRESOURCE_CALLBACK_EX","LPRESOURCE_CALLBACK_EX callback function [Failover Cluster]","ResourceCallbackEx","ResourceCallbackEx callback","ResourceCallbackEx callback function [Failover Cluster]","mscs.lpresource_callback_ex","resapi/LPRESOURCE_CALLBACK_EX","resapi/ResourceCallbackEx"]
 old-location: mscs\lpresource_callback_ex.htm
 tech.root: MsCS
 ms.assetid: 663b009c-92cf-4881-bae7-fb1215140581

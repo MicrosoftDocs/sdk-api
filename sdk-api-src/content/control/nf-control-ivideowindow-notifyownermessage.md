@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IVideoWindow.NotifyOwnerMessage
 title: IVideoWindow::NotifyOwnerMessage (control.h)
-description: The NotifyOwnerMessage method forwards a message to the video window.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","NotifyOwnerMessage method","IVideoWindow.NotifyOwnerMessage","IVideoWindow::NotifyOwnerMessage","IVideoWindowNotifyOwnerMessage","NotifyOwnerMessage","NotifyOwnerMessage method [DirectShow]","NotifyOwnerMessage method [DirectShow]","IVideoWindow interface","control/IVideoWindow::NotifyOwnerMessage","dshow.ivideowindow_notifyownermessage"]
+description: The NotifyOwnerMessage method forwards a message to the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","NotifyOwnerMessage method","IVideoWindow.NotifyOwnerMessage","IVideoWindow::NotifyOwnerMessage","IVideoWindowNotifyOwnerMessage","NotifyOwnerMessage","NotifyOwnerMessage method [DirectShow]","NotifyOwnerMessage method [DirectShow]","IVideoWindow interface","control/IVideoWindow::NotifyOwnerMessage","dshow.ivideowindow_notifyownermessage"]
 old-location: dshow\ivideowindow_notifyownermessage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 37d28f32-5da5-4082-ac57-5b274e95ca68
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.GetStream
 title: IXpsOMPrintTicketResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMPrintTicketResource interface","IXpsOMPrintTicketResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMPrintTicketResource.GetStream","IXpsOMPrintTicketResource::GetStream","xps.ixpsomprintticketresource_getstream","xpsobjectmodel/IXpsOMPrintTicketResource::GetStream"]
+description: Gets a new, read-only copy of the stream that is associated with this resource.
+helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMPrintTicketResource interface","IXpsOMPrintTicketResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMPrintTicketResource.GetStream","IXpsOMPrintTicketResource::GetStream","xps.ixpsomprintticketresource_getstream","xpsobjectmodel/IXpsOMPrintTicketResource::GetStream"]
 old-location: xps\ixpsomprintticketresource_getstream.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0783cdda-84c6-4441-accf-10fc2610199b
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, IXpsOMPrintTicketResource interface [XPS Documents and Packaging],GetStream method, IXpsOMPrintTicketResource.GetStream, IXpsOMPrintTicketResource::GetStream, xps.ixpsomprintticketresource_getstream, xpsobjectmodel/IXpsOMPrintTicketResource::GetStream

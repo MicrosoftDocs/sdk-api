@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4CreatePolicy
 title: DhcpV4CreatePolicy function (dhcpsapi.h)
-description: Creates a new policy on the DHCP Server.helpviewer_keywords: ["DhcpV4CreatePolicy","DhcpV4CreatePolicy function [DHCP]","dhcp.dhcpv4createpolicy","dhcpsapi/DhcpV4CreatePolicy"]
+description: Creates a new policy on the DHCP Server.
+helpviewer_keywords: ["DhcpV4CreatePolicy","DhcpV4CreatePolicy function [DHCP]","dhcp.dhcpv4createpolicy","dhcpsapi/DhcpV4CreatePolicy"]
 old-location: dhcp\dhcpv4createpolicy.htm
 tech.root: DHCP
 ms.assetid: c42e9c64-d028-4489-82dc-85ce9a6d6c09

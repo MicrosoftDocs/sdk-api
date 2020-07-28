@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.Initialize
 title: ICertPropertyRenewal::Initialize (certenroll.h)
-description: Initializes the object from a SHA-1 hash of the new certificate.helpviewer_keywords: ["ICertPropertyRenewal interface [Security]","Initialize method","ICertPropertyRenewal.Initialize","ICertPropertyRenewal::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyRenewal interface","certenroll/ICertPropertyRenewal::Initialize","security.icertpropertyrenewal_initialize_method"]
+description: Initializes the object from a SHA-1 hash of the new certificate.
+helpviewer_keywords: ["ICertPropertyRenewal interface [Security]","Initialize method","ICertPropertyRenewal.Initialize","ICertPropertyRenewal::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyRenewal interface","certenroll/ICertPropertyRenewal::Initialize","security.icertpropertyrenewal_initialize_method"]
 old-location: security\icertpropertyrenewal_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: dc1e124e-400a-4f1e-8e87-095b6a3341d4
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Initialize method, ICertPropertyRenewal.Initialize, ICertPropertyRenewal::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Initialize, security.icertpropertyrenewal_initialize_method

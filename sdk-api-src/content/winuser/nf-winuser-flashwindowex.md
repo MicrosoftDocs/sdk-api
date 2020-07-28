@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.FlashWindowEx
 title: FlashWindowEx function (winuser.h)
-description: Flashes the specified window. It does not change the active state of the window.helpviewer_keywords: ["FlashWindowEx","FlashWindowEx function","_win32_flashwindowex","base.flashwindowex","winuser/FlashWindowEx"]
+description: Flashes the specified window. It does not change the active state of the window.
+helpviewer_keywords: ["FlashWindowEx","FlashWindowEx function","_win32_flashwindowex","base.flashwindowex","winuser/FlashWindowEx"]
 old-location: base\flashwindowex.htm
 tech.root: Debug
 ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f

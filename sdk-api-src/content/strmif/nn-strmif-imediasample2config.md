@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IMediaSample2Config
 title: IMediaSample2Config (strmif.h)
-description: The IMediaSample2Config interface returns a pointer to a Direct3D surface representing a VRAM capture buffer.helpviewer_keywords: ["IMediaSample2Config","IMediaSample2Config interface [DirectShow]","IMediaSample2Config interface [DirectShow]","described","IMediaSample2ConfigInterface","dshow.imediasample2config","strmif/IMediaSample2Config"]
+description: The IMediaSample2Config interface returns a pointer to a Direct3D surface representing a VRAM capture buffer.
+helpviewer_keywords: ["IMediaSample2Config","IMediaSample2Config interface [DirectShow]","IMediaSample2Config interface [DirectShow]","described","IMediaSample2ConfigInterface","dshow.imediasample2config","strmif/IMediaSample2Config"]
 old-location: dshow\imediasample2config.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 99a3d957-b504-4242-87de-54b5468f00b5
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config

@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.DeriveCapabilitySidsFromName
 title: DeriveCapabilitySidsFromName function (securitybaseapi.h)
-description: This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.helpviewer_keywords: ["DeriveCapabilitySidsFromName","DeriveCapabilitySidsFromName function [Security]","security.derivecapabilitysidsfromname","securitybaseapi/DeriveCapabilitySidsFromName"]
+description: This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
+helpviewer_keywords: ["DeriveCapabilitySidsFromName","DeriveCapabilitySidsFromName function [Security]","security.derivecapabilitysidsfromname","securitybaseapi/DeriveCapabilitySidsFromName"]
 old-location: security\derivecapabilitysidsfromname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
 ms.date: 12/05/2018
 ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName

@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorControl
 title: SetSecurityDescriptorControl function (securitybaseapi.h)
-description: Sets the control bits of a security descriptor. The function can set only the control bits that relate to automatic inheritance of ACEs.helpviewer_keywords: ["SetSecurityDescriptorControl","SetSecurityDescriptorControl function [Security]","_win32_setsecuritydescriptorcontrol","security.setsecuritydescriptorcontrol","securitybaseapi/SetSecurityDescriptorControl"]
+description: Sets the control bits of a security descriptor. The function can set only the control bits that relate to automatic inheritance of ACEs.
+helpviewer_keywords: ["SetSecurityDescriptorControl","SetSecurityDescriptorControl function [Security]","_win32_setsecuritydescriptorcontrol","security.setsecuritydescriptorcontrol","securitybaseapi/SetSecurityDescriptorControl"]
 old-location: security\setsecuritydescriptorcontrol.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 672406af-ae04-4939-82a4-069a91e61b3f
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorControl, SetSecurityDescriptorControl function [Security], _win32_setsecuritydescriptorcontrol, security.setsecuritydescriptorcontrol, securitybaseapi/SetSecurityDescriptorControl

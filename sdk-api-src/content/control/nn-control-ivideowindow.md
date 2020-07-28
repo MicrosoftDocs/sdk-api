@@ -1,9 +1,10 @@
 ---
 UID: NN:control.IVideoWindow
 title: IVideoWindow (control.h)
-description: The IVideoWindow interface sets properties on the video window.helpviewer_keywords: ["IVideoWindow","IVideoWindow interface [DirectShow]","IVideoWindow interface [DirectShow]","described","IVideoWindowInterface","control/IVideoWindow","dshow.ivideowindow"]
+description: The IVideoWindow interface sets properties on the video window.
+helpviewer_keywords: ["IVideoWindow","IVideoWindow interface [DirectShow]","IVideoWindow interface [DirectShow]","described","IVideoWindowInterface","control/IVideoWindow","dshow.ivideowindow"]
 old-location: dshow\ivideowindow.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSession2.put_UserLocale
 title: IUpdateSession2::put_UserLocale (wuapi.h)
-description: Gets and sets the preferred locale for which update information is retrieved..helpviewer_keywords: ["IUpdateSession2 interface [Windows Update Agent]","UserLocale property","IUpdateSession2.UserLocale","IUpdateSession2.put_UserLocale","IUpdateSession2::UserLocale","IUpdateSession2::get_UserLocale","IUpdateSession2::put_UserLocale","UserLocale property [Windows Update Agent]","UserLocale property [Windows Update Agent]","IUpdateSession2 interface","put_UserLocale","wua.iupdatesession2_userlocale","wuapi/IUpdateSession2::UserLocale","wuapi/IUpdateSession2::get_UserLocale","wuapi/IUpdateSession2::put_UserLocale"]
+description: Gets and sets the preferred locale for which update information is retrieved..
+helpviewer_keywords: ["IUpdateSession2 interface [Windows Update Agent]","UserLocale property","IUpdateSession2.UserLocale","IUpdateSession2.put_UserLocale","IUpdateSession2::UserLocale","IUpdateSession2::get_UserLocale","IUpdateSession2::put_UserLocale","UserLocale property [Windows Update Agent]","UserLocale property [Windows Update Agent]","IUpdateSession2 interface","put_UserLocale","wua.iupdatesession2_userlocale","wuapi/IUpdateSession2::UserLocale","wuapi/IUpdateSession2::get_UserLocale","wuapi/IUpdateSession2::put_UserLocale"]
 old-location: wua\iupdatesession2_userlocale.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 30ee1836-ea70-4dd1-b531-a7ca32ca940d
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession2 interface [Windows Update Agent],UserLocale property, IUpdateSession2.UserLocale, IUpdateSession2.put_UserLocale, IUpdateSession2::UserLocale, IUpdateSession2::get_UserLocale, IUpdateSession2::put_UserLocale, UserLocale property [Windows Update Agent], UserLocale property [Windows Update Agent],IUpdateSession2 interface, put_UserLocale, wua.iupdatesession2_userlocale, wuapi/IUpdateSession2::UserLocale, wuapi/IUpdateSession2::get_UserLocale, wuapi/IUpdateSession2::put_UserLocale

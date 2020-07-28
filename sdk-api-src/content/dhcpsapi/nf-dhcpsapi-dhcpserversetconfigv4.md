@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetConfigV4
 title: DhcpServerSetConfigV4 function (dhcpsapi.h)
-description: The DhcpServerSetConfigV4 function configures a DHCP server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.helpviewer_keywords: ["DhcpServerSetConfigV4","DhcpServerSetConfigV4 function [DHCP]","Set_APIProtocolSupport","Set_AuditLogState","Set_BackupInterval","Set_BackupPath","Set_BootFileTable","Set_DatabaseCleanupInterval","Set_DatabaseLoggingFlag","Set_DatabaseName","Set_DatabasePath","Set_DebugFlag","Set_PingRetries","Set_RestoreFlag","dhcp.dhcpserversetconfigv4","dhcpsapi/DhcpServerSetConfigV4"]
+description: The DhcpServerSetConfigV4 function configures a DHCP server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.
+helpviewer_keywords: ["DhcpServerSetConfigV4","DhcpServerSetConfigV4 function [DHCP]","Set_APIProtocolSupport","Set_AuditLogState","Set_BackupInterval","Set_BackupPath","Set_BootFileTable","Set_DatabaseCleanupInterval","Set_DatabaseLoggingFlag","Set_DatabaseName","Set_DatabasePath","Set_DebugFlag","Set_PingRetries","Set_RestoreFlag","dhcp.dhcpserversetconfigv4","dhcpsapi/DhcpServerSetConfigV4"]
 old-location: dhcp\dhcpserversetconfigv4.htm
 tech.root: DHCP
 ms.assetid: b2d74c43-5c17-4988-be70-fa152e7f848a

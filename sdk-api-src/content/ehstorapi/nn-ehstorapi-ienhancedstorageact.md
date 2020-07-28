@@ -1,7 +1,8 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageACT
 title: IEnhancedStorageACT (ehstorapi.h)
-description: This interface to obtain information and perform operations for an 1667 Addressable Contact Target (ACT).helpviewer_keywords: ["IEnhancedStorageACT","IEnhancedStorageACT interface [Enhanced Storage]","IEnhancedStorageACT interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageACT","enstor.ienhancedstorageact"]
+description: This interface to obtain information and perform operations for an 1667 Addressable Contact Target (ACT).
+helpviewer_keywords: ["IEnhancedStorageACT","IEnhancedStorageACT interface [Enhanced Storage]","IEnhancedStorageACT interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageACT","enstor.ienhancedstorageact"]
 old-location: enstor\ienhancedstorageact.htm
 tech.root: enstor
 ms.assetid: 33d5df30-f877-4852-ad2f-af1bb58d0044

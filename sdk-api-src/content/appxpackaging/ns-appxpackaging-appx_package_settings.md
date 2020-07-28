@@ -1,7 +1,8 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_SETTINGS
 title: APPX_PACKAGE_SETTINGS (appxpackaging.h)
-description: Represents package settings used to create a package.helpviewer_keywords: ["APPX_PACKAGE_SETTINGS","APPX_PACKAGE_SETTINGS structure [App packaging and management]","appxpackaging/APPX_PACKAGE_SETTINGS","appxpkg.appx_package_settings"]
+description: Represents package settings used to create a package.
+helpviewer_keywords: ["APPX_PACKAGE_SETTINGS","APPX_PACKAGE_SETTINGS structure [App packaging and management]","appxpackaging/APPX_PACKAGE_SETTINGS","appxpkg.appx_package_settings"]
 old-location: appxpkg\appx_package_settings.htm
 tech.root: appxpkg
 ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4

@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.GetPnPDeviceID
 title: IPortableDevice::GetPnPDeviceID (portabledeviceapi.h)
-description: The GetPnPDeviceID method retrieves the Plug and Play (PnP) device identifier that the application used to open the device.helpviewer_keywords: ["GetPnPDeviceID","GetPnPDeviceID method [Windows Portable Devices SDK]","GetPnPDeviceID method [Windows Portable Devices SDK]","IPortableDevice interface","IPortableDevice interface [Windows Portable Devices SDK]","GetPnPDeviceID method","IPortableDevice.GetPnPDeviceID","IPortableDevice::GetPnPDeviceID","IPortableDeviceGetPnPDeviceID","portabledeviceapi/IPortableDevice::GetPnPDeviceID","wpdsdk.iportabledevice_getpnpdeviceid"]
+description: The GetPnPDeviceID method retrieves the Plug and Play (PnP) device identifier that the application used to open the device.
+helpviewer_keywords: ["GetPnPDeviceID","GetPnPDeviceID method [Windows Portable Devices SDK]","GetPnPDeviceID method [Windows Portable Devices SDK]","IPortableDevice interface","IPortableDevice interface [Windows Portable Devices SDK]","GetPnPDeviceID method","IPortableDevice.GetPnPDeviceID","IPortableDevice::GetPnPDeviceID","IPortableDeviceGetPnPDeviceID","portabledeviceapi/IPortableDevice::GetPnPDeviceID","wpdsdk.iportabledevice_getpnpdeviceid"]
 old-location: wpdsdk\iportabledevice_getpnpdeviceid.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: e6bde2ac-ceef-47f8-b60b-e61595078e8c
 ms.date: 12/05/2018
 ms.keywords: GetPnPDeviceID, GetPnPDeviceID method [Windows Portable Devices SDK], GetPnPDeviceID method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],GetPnPDeviceID method, IPortableDevice.GetPnPDeviceID, IPortableDevice::GetPnPDeviceID, IPortableDeviceGetPnPDeviceID, portabledeviceapi/IPortableDevice::GetPnPDeviceID, wpdsdk.iportabledevice_getpnpdeviceid

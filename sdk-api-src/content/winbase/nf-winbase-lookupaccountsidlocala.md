@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.LookupAccountSidLocalA
 title: LookupAccountSidLocalA function (winbase.h)
-description: Retrieves the name of the account for the specified SID on the local machine.helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
+description: Retrieves the name of the account for the specified SID on the local machine.
+helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
 old-location: security\lookupaccountsidlocal.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
@@ -119,6 +120,10 @@ This function is similar to <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines LookupAccountSidLocal as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get__NewEnum
 title: IUpdateExceptionCollection::get__NewEnum (wuapi.h)
-description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.helpviewer_keywords: ["IUpdateExceptionCollection interface [Windows Update Agent]","_NewEnum property","IUpdateExceptionCollection._NewEnum","IUpdateExceptionCollection.get__NewEnum","IUpdateExceptionCollection::_NewEnum","IUpdateExceptionCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IUpdateExceptionCollection interface","get__NewEnum","wua.iupdateexceptioncollection__newenum","wuapi/IUpdateExceptionCollection::_NewEnum","wuapi/IUpdateExceptionCollection::get__NewEnum"]
+description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
+helpviewer_keywords: ["IUpdateExceptionCollection interface [Windows Update Agent]","_NewEnum property","IUpdateExceptionCollection._NewEnum","IUpdateExceptionCollection.get__NewEnum","IUpdateExceptionCollection::_NewEnum","IUpdateExceptionCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IUpdateExceptionCollection interface","get__NewEnum","wua.iupdateexceptioncollection__newenum","wuapi/IUpdateExceptionCollection::_NewEnum","wuapi/IUpdateExceptionCollection::get__NewEnum"]
 old-location: wua\iupdateexceptioncollection__newenum.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2150dda6-99b5-4819-b16b-91c38aa2bbab
 ms.date: 12/05/2018
 ms.keywords: IUpdateExceptionCollection interface [Windows Update Agent],_NewEnum property, IUpdateExceptionCollection._NewEnum, IUpdateExceptionCollection.get__NewEnum, IUpdateExceptionCollection::_NewEnum, IUpdateExceptionCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateExceptionCollection interface, get__NewEnum, wua.iupdateexceptioncollection__newenum, wuapi/IUpdateExceptionCollection::_NewEnum, wuapi/IUpdateExceptionCollection::get__NewEnum

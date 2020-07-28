@@ -1,7 +1,8 @@
 ---
 UID: NC:ddraw.LPDDENUMMODESCALLBACK
 title: LPDDENUMMODESCALLBACK (ddraw.h)
-description: Do not use. This callback function is superseded by the EnumModesCallback2 function that is used with the IDirectDraw7::EnumDisplayModes method.helpviewer_keywords: ["EnumModesCallback","EnumModesCallback callback function [DirectDraw]","LPDDENUMMODESCALLBACK","LPDDENUMMODESCALLBACK callback","ddraw/EnumModesCallback","directdraw.enummodescallback"]
+description: Do not use. This callback function is superseded by the EnumModesCallback2 function that is used with the IDirectDraw7::EnumDisplayModes method.
+helpviewer_keywords: ["EnumModesCallback","EnumModesCallback callback function [DirectDraw]","LPDDENUMMODESCALLBACK","LPDDENUMMODESCALLBACK callback","ddraw/EnumModesCallback","directdraw.enummodescallback"]
 old-location: directdraw\enummodescallback.htm
 tech.root: directdraw
 ms.assetid: 5959FD6F-7C48-43EA-8C7C-BCA659D06CE2

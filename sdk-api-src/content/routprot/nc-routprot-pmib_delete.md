@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PMIB_DELETE
 title: PMIB_DELETE (routprot.h)
-description: The MibDelete function passes an SNMP MIB-style Delete Request to the routing protocol.helpviewer_keywords: ["MibDelete","MibDelete callback function [RAS]","PMIB_DELETE","PMIB_DELETE callback","_mpr_mibdelete","routprot/MibDelete","rras.mibdelete"]
+description: The MibDelete function passes an SNMP MIB-style Delete Request to the routing protocol.
+helpviewer_keywords: ["MibDelete","MibDelete callback function [RAS]","PMIB_DELETE","PMIB_DELETE callback","_mpr_mibdelete","routprot/MibDelete","rras.mibdelete"]
 old-location: rras\mibdelete.htm
 tech.root: RRAS
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a

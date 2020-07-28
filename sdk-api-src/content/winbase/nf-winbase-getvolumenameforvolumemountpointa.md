@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetVolumeNameForVolumeMountPointA
 title: GetVolumeNameForVolumeMountPointA function (winbase.h)
-description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).helpviewer_keywords: ["GetVolumeNameForVolumeMountPoint","GetVolumeNameForVolumeMountPoint function [Files]","GetVolumeNameForVolumeMountPointA","GetVolumeNameForVolumeMountPointW","_win32_getvolumenameforvolumemountpoint","base.getvolumenameforvolumemountpoint","fileapi/GetVolumeNameForVolumeMountPoint","fileapi/GetVolumeNameForVolumeMountPointA","fileapi/GetVolumeNameForVolumeMountPointW","fs.getvolumenameforvolumemountpoint","winbase/GetVolumeNameForVolumeMountPoint","winbase/GetVolumeNameForVolumeMountPointA","winbase/GetVolumeNameForVolumeMountPointW"]
+description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
+helpviewer_keywords: ["GetVolumeNameForVolumeMountPoint","GetVolumeNameForVolumeMountPoint function [Files]","GetVolumeNameForVolumeMountPointA","GetVolumeNameForVolumeMountPointW","_win32_getvolumenameforvolumemountpoint","base.getvolumenameforvolumemountpoint","fileapi/GetVolumeNameForVolumeMountPoint","fileapi/GetVolumeNameForVolumeMountPointA","fileapi/GetVolumeNameForVolumeMountPointW","fs.getvolumenameforvolumemountpoint","winbase/GetVolumeNameForVolumeMountPoint","winbase/GetVolumeNameForVolumeMountPointA","winbase/GetVolumeNameForVolumeMountPointW"]
 old-location: fs\getvolumenameforvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3f749042-bdc9-4087-bb8a-d833713472eb
 ms.date: 12/05/2018
 ms.keywords: GetVolumeNameForVolumeMountPoint, GetVolumeNameForVolumeMountPoint function [Files], GetVolumeNameForVolumeMountPointA, GetVolumeNameForVolumeMountPointW, _win32_getvolumenameforvolumemountpoint, base.getvolumenameforvolumemountpoint, fileapi/GetVolumeNameForVolumeMountPoint, fileapi/GetVolumeNameForVolumeMountPointA, fileapi/GetVolumeNameForVolumeMountPointW, fs.getvolumenameforvolumemountpoint, winbase/GetVolumeNameForVolumeMountPoint, winbase/GetVolumeNameForVolumeMountPointA, winbase/GetVolumeNameForVolumeMountPointW

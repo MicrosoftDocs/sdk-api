@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrEventLinkUIOperation
 title: ISyncMgrEventLinkUIOperation (syncmgr.h)
-description: Provides a method that is called when event links are clicked in the sync results folder.helpviewer_keywords: ["ISyncMgrEventLinkUIOperation","ISyncMgrEventLinkUIOperation interface [Windows Shell]","ISyncMgrEventLinkUIOperation interface [Windows Shell]","described","_shell_ISyncMgrEventLinkUIOperation","shell.ISyncMgrEventLinkUIOperation","syncmgr/ISyncMgrEventLinkUIOperation"]
+description: Provides a method that is called when event links are clicked in the sync results folder.
+helpviewer_keywords: ["ISyncMgrEventLinkUIOperation","ISyncMgrEventLinkUIOperation interface [Windows Shell]","ISyncMgrEventLinkUIOperation interface [Windows Shell]","described","_shell_ISyncMgrEventLinkUIOperation","shell.ISyncMgrEventLinkUIOperation","syncmgr/ISyncMgrEventLinkUIOperation"]
 old-location: shell\ISyncMgrEventLinkUIOperation.htm
 tech.root: shell
 ms.assetid: 53ea9488-77e0-4eb2-86d3-88747ba44654

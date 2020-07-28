@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ADD_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ADD_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the function of adding every element in ATensor to its corresponding element in BTensor, f(a, b) = a + b.helpviewer_keywords: ["DML_ELEMENT_WISE_ADD_OPERATOR_DESC","DML_ELEMENT_WISE_ADD_OPERATOR_DESC structure","direct3d12.dml_element_wise_add_operator_desc","directml/DML_ELEMENT_WISE_ADD_OPERATOR_DESC"]
+description: Describes a DirectML math operator that performs the function of adding every element in ATensor to its corresponding element in BTensor, f(a, b) = a + b.
+helpviewer_keywords: ["DML_ELEMENT_WISE_ADD_OPERATOR_DESC","DML_ELEMENT_WISE_ADD_OPERATOR_DESC structure","direct3d12.dml_element_wise_add_operator_desc","directml/DML_ELEMENT_WISE_ADD_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_add_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 0F541A9C-12A0-4105-AF92-E5CEAA0B6F00
@@ -48,20 +49,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
 Describes a DirectML math operator that performs the function of adding every element in <i>ATensor</i> to its corresponding element in <i>BTensor</i>, f(a, b) = a + b.
 
 This operator supports in-place execution, meaning the output tensor is permitted to alias one of the input tensors during binding.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ATensor
 
@@ -69,17 +61,14 @@ Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_te
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>A</i> tensor to read from.
 
-
 ### -field BTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>B</i> tensor to read from.
 
-
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
-

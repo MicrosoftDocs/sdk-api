@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.DVINFO
 title: DVINFO (strmif.h)
-description: The DVINFO structure describes the format of a digital video (DV) stream.helpviewer_keywords: ["*PDVINFO","DVINFO","DVINFO structure [DirectShow]","DVINFOStructure","PDVINFO","PDVINFO structure pointer [DirectShow]","dshow.dvinfo","strmif/DVINFO","strmif/PDVINFO"]
+description: The DVINFO structure describes the format of a digital video (DV) stream.
+helpviewer_keywords: ["*PDVINFO","DVINFO","DVINFO structure [DirectShow]","DVINFOStructure","PDVINFO","PDVINFO structure pointer [DirectShow]","dshow.dvinfo","strmif/DVINFO","strmif/PDVINFO"]
 old-location: dshow\dvinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
 ms.date: 12/05/2018
 ms.keywords: '*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO'

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestSignByDate
 title: IXpsSignatureRequest::SetRequestSignByDate (xpsdigitalsignature.h)
-description: Sets the date and time before which the requested signer must sign the specified parts of the document.helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetRequestSignByDate method","IXpsSignatureRequest.SetRequestSignByDate","IXpsSignatureRequest::SetRequestSignByDate","SetRequestSignByDate","SetRequestSignByDate method [XPS Documents and Packaging]","SetRequestSignByDate method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setrequestsignbydate","xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate"]
+description: Sets the date and time before which the requested signer must sign the specified parts of the document.
+helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetRequestSignByDate method","IXpsSignatureRequest.SetRequestSignByDate","IXpsSignatureRequest::SetRequestSignByDate","SetRequestSignByDate","SetRequestSignByDate method [XPS Documents and Packaging]","SetRequestSignByDate method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setrequestsignbydate","xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate"]
 old-location: xps\ixpssignaturerequest_setrequestsignbydate.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b7048b34-17f8-4df4-b1c6-6c6e6250f02a
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestSignByDate method, IXpsSignatureRequest.SetRequestSignByDate, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate

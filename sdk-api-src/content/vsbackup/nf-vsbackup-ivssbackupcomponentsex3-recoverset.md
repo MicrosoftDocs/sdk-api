@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.RecoverSet
 title: IVssBackupComponentsEx3::RecoverSet (vsbackup.h)
-description: Initiates a LUN resynchronization operation.helpviewer_keywords: ["IVssBackupComponentsEx3 interface","RecoverSet method","IVssBackupComponentsEx3.RecoverSet","IVssBackupComponentsEx3::RecoverSet","RecoverSet","RecoverSet method","RecoverSet method","IVssBackupComponentsEx3 interface","base.ivssbackupcomponentsex3_recoverset","vsbackup/IVssBackupComponentsEx3::RecoverSet"]
+description: Initiates a LUN resynchronization operation.
+helpviewer_keywords: ["IVssBackupComponentsEx3 interface","RecoverSet method","IVssBackupComponentsEx3.RecoverSet","IVssBackupComponentsEx3::RecoverSet","RecoverSet","RecoverSet method","RecoverSet method","IVssBackupComponentsEx3 interface","base.ivssbackupcomponentsex3_recoverset","vsbackup/IVssBackupComponentsEx3::RecoverSet"]
 old-location: base\ivssbackupcomponentsex3_recoverset.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 2e468527-11e7-42d8-808b-2cb2eb86e0ba
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx3 interface,RecoverSet method, IVssBackupComponentsEx3.RecoverSet, IVssBackupComponentsEx3::RecoverSet, RecoverSet, RecoverSet method, RecoverSet method,IVssBackupComponentsEx3 interface, base.ivssbackupcomponentsex3_recoverset, vsbackup/IVssBackupComponentsEx3::RecoverSet

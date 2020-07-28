@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IMediaPropertyBag
 title: IMediaPropertyBag (strmif.h)
-description: The IMediaPropertyBag interface is exposed by the Media Property Bag object.helpviewer_keywords: ["IMediaPropertyBag","IMediaPropertyBag interface [DirectShow]","IMediaPropertyBag interface [DirectShow]","described","IMediaPropertyBagInterface","dshow.imediapropertybag","strmif/IMediaPropertyBag"]
+description: The IMediaPropertyBag interface is exposed by the Media Property Bag object.
+helpviewer_keywords: ["IMediaPropertyBag","IMediaPropertyBag interface [DirectShow]","IMediaPropertyBag interface [DirectShow]","described","IMediaPropertyBagInterface","dshow.imediapropertybag","strmif/IMediaPropertyBag"]
 old-location: dshow\imediapropertybag.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6f134160-b0aa-44fd-b1b9-938f11349eac
 ms.date: 12/05/2018
 ms.keywords: IMediaPropertyBag, IMediaPropertyBag interface [DirectShow], IMediaPropertyBag interface [DirectShow],described, IMediaPropertyBagInterface, dshow.imediapropertybag, strmif/IMediaPropertyBag

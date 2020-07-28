@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrush
 title: IXpsOMGlyphs::GetFillBrush (xpsobjectmodel.h)
-description: Gets a pointer to the resolved IXpsOMBrush interface of the fill brush to be used for the text.helpviewer_keywords: ["GetFillBrush","GetFillBrush method [XPS Documents and Packaging]","GetFillBrush method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFillBrush method","IXpsOMGlyphs.GetFillBrush","IXpsOMGlyphs::GetFillBrush","xps.ixpsomglyphs_getfillbrush","xpsobjectmodel/IXpsOMGlyphs::GetFillBrush"]
+description: Gets a pointer to the resolved IXpsOMBrush interface of the fill brush to be used for the text.
+helpviewer_keywords: ["GetFillBrush","GetFillBrush method [XPS Documents and Packaging]","GetFillBrush method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFillBrush method","IXpsOMGlyphs.GetFillBrush","IXpsOMGlyphs::GetFillBrush","xps.ixpsomglyphs_getfillbrush","xpsobjectmodel/IXpsOMGlyphs::GetFillBrush"]
 old-location: xps\ixpsomglyphs_getfillbrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0deadd8e-24c5-4be1-8eaf-43cd59e22243
 ms.date: 12/05/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMGlyphs.GetFillBrush, IXpsOMGlyphs::GetFillBrush, xps.ixpsomglyphs_getfillbrush, xpsobjectmodel/IXpsOMGlyphs::GetFillBrush

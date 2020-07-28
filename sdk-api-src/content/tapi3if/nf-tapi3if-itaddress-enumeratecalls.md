@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAddress.EnumerateCalls
 title: ITAddress::EnumerateCalls (tapi3if.h)
-description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.helpviewer_keywords: ["EnumerateCalls","EnumerateCalls method [TAPI 2.2]","EnumerateCalls method [TAPI 2.2]","ITAddress interface","ITAddress interface [TAPI 2.2]","EnumerateCalls method","ITAddress.EnumerateCalls","ITAddress::EnumerateCalls","_tapi3_itaddress_enumeratecalls","tapi3.itaddress_enumeratecalls","tapi3if/ITAddress::EnumerateCalls"]
+description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
+helpviewer_keywords: ["EnumerateCalls","EnumerateCalls method [TAPI 2.2]","EnumerateCalls method [TAPI 2.2]","ITAddress interface","ITAddress interface [TAPI 2.2]","EnumerateCalls method","ITAddress.EnumerateCalls","ITAddress::EnumerateCalls","_tapi3_itaddress_enumeratecalls","tapi3.itaddress_enumeratecalls","tapi3if/ITAddress::EnumerateCalls"]
 old-location: tapi3\itaddress_enumeratecalls.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2ffa90bf-3005-4fd0-b52f-b155c8b2194f
 ms.date: 12/05/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],EnumerateCalls method, ITAddress.EnumerateCalls, ITAddress::EnumerateCalls, _tapi3_itaddress_enumeratecalls, tapi3.itaddress_enumeratecalls, tapi3if/ITAddress::EnumerateCalls

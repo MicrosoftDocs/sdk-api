@@ -1,9 +1,10 @@
 ---
 UID: NE:peerdist._PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 title: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS (peerdist.h)
-description: The PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration defines the possible client information values.helpviewer_keywords: ["*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","MaximumPeerDistClientInfoByHandlesClass","PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking]","PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking]","PeerDistClientBasicInfo","p2p.peerdist_client_info_by_handle_class","peerdist/MaximumPeerDistClientInfoByHandlesClass","peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","peerdist/PeerDistClientBasicInfo"]
+description: The PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration defines the possible client information values.
+helpviewer_keywords: ["*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","MaximumPeerDistClientInfoByHandlesClass","PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking]","PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking]","PeerDistClientBasicInfo","p2p.peerdist_client_info_by_handle_class","peerdist/MaximumPeerDistClientInfoByHandlesClass","peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS","peerdist/PeerDistClientBasicInfo"]
 old-location: p2p\peerdist_client_info_by_handle_class.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 28391dc5-ec89-44d9-acac-b7ff3868e542
 ms.date: 12/05/2018
 ms.keywords: '*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, MaximumPeerDistClientInfoByHandlesClass, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking], PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking], PeerDistClientBasicInfo, p2p.peerdist_client_info_by_handle_class, peerdist/MaximumPeerDistClientInfoByHandlesClass, peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PeerDistClientBasicInfo'

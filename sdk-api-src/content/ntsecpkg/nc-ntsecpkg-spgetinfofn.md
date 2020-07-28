@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpGetInfoFn
 title: SpGetInfoFn (ntsecpkg.h)
-description: Provides general information about the security package, such as its name and capabilities.helpviewer_keywords: ["SpGetInfo","SpGetInfo callback function [Security]","SpGetInfoFn","SpGetInfoFn callback","_ssp_spgetinfo","ntsecpkg/SpGetInfo","security.spgetinfo"]
+description: Provides general information about the security package, such as its name and capabilities.
+helpviewer_keywords: ["SpGetInfo","SpGetInfo callback function [Security]","SpGetInfoFn","SpGetInfoFn callback","_ssp_spgetinfo","ntsecpkg/SpGetInfo","security.spgetinfo"]
 old-location: security\spgetinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e1e6f71f-6f54-424c-be49-7bc11cb19036
 ms.date: 12/05/2018
 ms.keywords: SpGetInfo, SpGetInfo callback function [Security], SpGetInfoFn, SpGetInfoFn callback, _ssp_spgetinfo, ntsecpkg/SpGetInfo, security.spgetinfo

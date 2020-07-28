@@ -1,7 +1,8 @@
 ---
 UID: NE:contentpartner.WMPTransactionType
 title: WMPTransactionType (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTransactionType enumeration represents a transaction type.helpviewer_keywords: ["WMPTransactionType","WMPTransactionType enumeration [Windows Media Player]","contentpartner/WMPTransactionType","contentpartner/wmpttBuy","contentpartner/wmpttDownload","contentpartner/wmpttNoTransaction","enumeration [Windows Media Player]","wmp.wmptransactiontype","wmpttBuy","wmpttDownload","wmpttNoTransaction"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTransactionType enumeration represents a transaction type.
+helpviewer_keywords: ["WMPTransactionType","WMPTransactionType enumeration [Windows Media Player]","contentpartner/WMPTransactionType","contentpartner/wmpttBuy","contentpartner/wmpttDownload","contentpartner/wmpttNoTransaction","enumeration [Windows Media Player]","wmp.wmptransactiontype","wmpttBuy","wmpttDownload","wmpttNoTransaction"]
 old-location: wmp\wmptransactiontype.htm
 tech.root: WMP
 ms.assetid: b3dc35d8-098a-464d-957e-3746447156d0

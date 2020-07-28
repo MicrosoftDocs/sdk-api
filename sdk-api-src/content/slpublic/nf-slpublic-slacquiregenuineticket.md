@@ -1,9 +1,10 @@
 ---
 UID: NF:slpublic.SLAcquireGenuineTicket
 title: SLAcquireGenuineTicket function (slpublic.h)
-description: Gets a XrML genuine ticket acquired from the Software Licensing Server (SLS).helpviewer_keywords: ["SLAcquireGenuineTicket","SLAcquireGenuineTicket function [Security]","security.slacquiregenuineticket","slpublic/SLAcquireGenuineTicket"]
+description: Gets a XrML genuine ticket acquired from the Software Licensing Server (SLS).
+helpviewer_keywords: ["SLAcquireGenuineTicket","SLAcquireGenuineTicket function [Security]","security.slacquiregenuineticket","slpublic/SLAcquireGenuineTicket"]
 old-location: security\slacquiregenuineticket.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 028099c8-9116-4212-bc29-1065b22be593
 ms.date: 12/05/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket

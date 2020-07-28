@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFAudioMediaType
 title: IMFAudioMediaType (mfobjects.h)
-description: IMFAudioMediaType is no longer available for use as of Windows 7.helpviewer_keywords: ["425a4a37-6fd3-4724-9d18-c39cc2862ef7","IMFAudioMediaType","IMFAudioMediaType interface [Media Foundation]","IMFAudioMediaType interface [Media Foundation]","described","mf.imfaudiomediatype","mfobjects/IMFAudioMediaType"]
+description: IMFAudioMediaType is no longer available for use as of Windows 7.
+helpviewer_keywords: ["425a4a37-6fd3-4724-9d18-c39cc2862ef7","IMFAudioMediaType","IMFAudioMediaType interface [Media Foundation]","IMFAudioMediaType interface [Media Foundation]","described","mf.imfaudiomediatype","mfobjects/IMFAudioMediaType"]
 old-location: mf\imfaudiomediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
 ms.date: 12/05/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType

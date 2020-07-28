@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_STRONG_SIGN_PARA
 title: CERT_STRONG_SIGN_PARA (wincrypt.h)
-description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCShelpviewer_keywords: ["*PCERT_STRONG_SIGN_PARA","CERT_STRONG_SIGN_PARA","CERT_STRONG_SIGN_PARA structure [Security]","PCCERT_STRONG_SIGN_PARA","PCCERT_STRONG_SIGN_PARA structure pointer [Security]","PCERT_STRONG_SIGN_PARA","PCERT_STRONG_SIGN_PARA structure pointer [Security]","security.cert_strong_sign_para","szOID_CERT_STRONG_KEY_OS_1","szOID_CERT_STRONG_SIGN_OS_1","wincrypt/CERT_STRONG_SIGN_PARA","wincrypt/PCCERT_STRONG_SIGN_PARA","wincrypt/PCERT_STRONG_SIGN_PARA"]
+description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS
+helpviewer_keywords: ["*PCERT_STRONG_SIGN_PARA","CERT_STRONG_SIGN_PARA","CERT_STRONG_SIGN_PARA structure [Security]","PCCERT_STRONG_SIGN_PARA","PCCERT_STRONG_SIGN_PARA structure pointer [Security]","PCERT_STRONG_SIGN_PARA","PCERT_STRONG_SIGN_PARA structure pointer [Security]","security.cert_strong_sign_para","szOID_CERT_STRONG_KEY_OS_1","szOID_CERT_STRONG_SIGN_OS_1","wincrypt/CERT_STRONG_SIGN_PARA","wincrypt/PCCERT_STRONG_SIGN_PARA","wincrypt/PCERT_STRONG_SIGN_PARA"]
 old-location: security\cert_strong_sign_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA'

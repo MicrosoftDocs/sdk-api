@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.OnTxParaFormatChange
 title: ITextHost::OnTxParaFormatChange (textserv.h)
-description: Sets the default paragraph format for the text host.helpviewer_keywords: ["ITextHost interface [Windows Controls]","OnTxParaFormatChange method","ITextHost.OnTxParaFormatChange","ITextHost::OnTxParaFormatChange","OnTxParaFormatChange","OnTxParaFormatChange method [Windows Controls]","OnTxParaFormatChange method [Windows Controls]","ITextHost interface","_win32_ITextHost_OnTxParaFormatChange","_win32_ITextHost_OnTxParaFormatChange_cpp","controls.ITextHost_OnTxParaFormatChange","controls._win32_ITextHost_OnTxParaFormatChange","textserv/ITextHost::OnTxParaFormatChange"]
+description: Sets the default paragraph format for the text host.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","OnTxParaFormatChange method","ITextHost.OnTxParaFormatChange","ITextHost::OnTxParaFormatChange","OnTxParaFormatChange","OnTxParaFormatChange method [Windows Controls]","OnTxParaFormatChange method [Windows Controls]","ITextHost interface","_win32_ITextHost_OnTxParaFormatChange","_win32_ITextHost_OnTxParaFormatChange_cpp","controls.ITextHost_OnTxParaFormatChange","controls._win32_ITextHost_OnTxParaFormatChange","textserv/ITextHost::OnTxParaFormatChange"]
 old-location: controls\ITextHost_OnTxParaFormatChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxparaformatchange.htm

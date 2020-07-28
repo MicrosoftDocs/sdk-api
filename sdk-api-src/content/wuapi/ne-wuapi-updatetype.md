@@ -1,9 +1,10 @@
 ---
 UID: NE:wuapi.tagUpdateType
 title: UpdateType (wuapi.h)
-description: Defines the types of update, such as a driver or software update.helpviewer_keywords: ["UpdateType","UpdateType enumeration [Windows Update Agent]","utDriver","utSoftware","wua.updatetype","wuapi/UpdateType","wuapi/utDriver","wuapi/utSoftware"]
+description: Defines the types of update, such as a driver or software update.
+helpviewer_keywords: ["UpdateType","UpdateType enumeration [Windows Update Agent]","utDriver","utSoftware","wua.updatetype","wuapi/UpdateType","wuapi/utDriver","wuapi/utSoftware"]
 old-location: wua\updatetype.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
 ms.date: 12/05/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware

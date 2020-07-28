@@ -1,9 +1,10 @@
 ---
 UID: NN:cscobj.IOfflineFilesTransparentCacheInfo
 title: IOfflineFilesTransparentCacheInfo (cscobj.h)
-description: Represents information associated with transparently cached items.helpviewer_keywords: ["IOfflineFilesTransparentCacheInfo","IOfflineFilesTransparentCacheInfo interface [Offline Files]","IOfflineFilesTransparentCacheInfo interface [Offline Files]","described","cscobj/IOfflineFilesTransparentCacheInfo","of.iofflinefilestransparentcacheinfo"]
+description: Represents information associated with transparently cached items.
+helpviewer_keywords: ["IOfflineFilesTransparentCacheInfo","IOfflineFilesTransparentCacheInfo interface [Offline Files]","IOfflineFilesTransparentCacheInfo interface [Offline Files]","described","cscobj/IOfflineFilesTransparentCacheInfo","of.iofflinefilestransparentcacheinfo"]
 old-location: of\iofflinefilestransparentcacheinfo.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 49c8213c-e8a1-4cb8-9b58-120fc0982b7b
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IOfflineFilesTransparentCacheInfo interface [Offline Files],described, cscobj/IOfflineFilesTransparentCacheInfo, of.iofflinefilestransparentcacheinfo

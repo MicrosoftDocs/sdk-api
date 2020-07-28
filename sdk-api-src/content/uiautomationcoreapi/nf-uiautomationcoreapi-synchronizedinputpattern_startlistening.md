@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.SynchronizedInputPattern_StartListening
 title: SynchronizedInputPattern_StartListening function (uiautomationcoreapi.h)
-description: Causes the UI Automation provider to start listening for mouse or keyboard input.helpviewer_keywords: ["SynchronizedInputPattern_StartListening","SynchronizedInputPattern_StartListening function [Windows Accessibility]","uiauto.uiauto_SynchronizedInputPattern_StartListening","uiauto_SynchronizedInputPattern_StartListening","uiautomationcoreapi/SynchronizedInputPattern_StartListening","winauto.uiauto_SynchronizedInputPattern_StartListening"]
+description: Causes the UI Automation provider to start listening for mouse or keyboard input.
+helpviewer_keywords: ["SynchronizedInputPattern_StartListening","SynchronizedInputPattern_StartListening function [Windows Accessibility]","uiauto.uiauto_SynchronizedInputPattern_StartListening","uiauto_SynchronizedInputPattern_StartListening","uiautomationcoreapi/SynchronizedInputPattern_StartListening","winauto.uiauto_SynchronizedInputPattern_StartListening"]
 old-location: winauto\uiauto_SynchronizedInputPattern_StartListening.htm
 tech.root: WinAuto
 ms.assetid: 6c8c88fc-25b2-4ca3-86d7-f1d666fc45e1

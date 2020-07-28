@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertProperty
 title: ICertProperty (certenroll.h)
-description: Can be used to associate an external property with a certificate.helpviewer_keywords: ["ICertProperty","ICertProperty interface [Security]","ICertProperty interface [Security]","described","certenroll/ICertProperty","security.icertproperty"]
+description: Can be used to associate an external property with a certificate.
+helpviewer_keywords: ["ICertProperty","ICertProperty interface [Security]","ICertProperty interface [Security]","described","certenroll/ICertProperty","security.icertproperty"]
 old-location: security\icertproperty.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 947c2f09-993d-4ced-8b76-66b79d96e3bc
 ms.date: 12/05/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty interface [Security],described, certenroll/ICertProperty, security.icertproperty

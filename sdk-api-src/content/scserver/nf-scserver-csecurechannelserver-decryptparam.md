@@ -1,7 +1,8 @@
 ---
 UID: NF:scserver.CSecureChannelServer.DecryptParam
 title: CSecureChannelServer::DecryptParam (scserver.h)
-description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","DecryptParam method","CSecureChannelServer.DecryptParam","CSecureChannelServer::DecryptParam","CSecureChannelServerDecryptParam","DecryptParam","DecryptParam method [windows Media Device Manager]","DecryptParam method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::DecryptParam","wmdm.csecurechannelserver_decryptparam"]
+description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
+helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","DecryptParam method","CSecureChannelServer.DecryptParam","CSecureChannelServer::DecryptParam","CSecureChannelServerDecryptParam","DecryptParam","DecryptParam method [windows Media Device Manager]","DecryptParam method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::DecryptParam","wmdm.csecurechannelserver_decryptparam"]
 old-location: wmdm\csecurechannelserver_decryptparam.htm
 tech.root: WMDM
 ms.assetid: 42ccaf4a-02a4-432f-a0eb-b7852f0e5406

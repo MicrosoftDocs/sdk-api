@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.ShowFloating
 title: ITfLangBarMgr::ShowFloating (ctfutb.h)
-description: ITfLangBarMgr::ShowFloating methodhelpviewer_keywords: ["ITfLangBarMgr interface [Text Services Framework]","ShowFloating method","ITfLangBarMgr.ShowFloating","ITfLangBarMgr::ShowFloating","ShowFloating","ShowFloating method [Text Services Framework]","ShowFloating method [Text Services Framework]","ITfLangBarMgr interface","TF_SFT_DESKBAND","TF_SFT_DOCK","TF_SFT_EXTRAICONSONMINIMIZED","TF_SFT_HIDDEN","TF_SFT_HIGHTRANSPARENCY","TF_SFT_LABELS","TF_SFT_LOWTRANSPARENCY","TF_SFT_MINIMIZED","TF_SFT_NOEXTRAICONSONMINIMIZED","TF_SFT_NOLABELS","TF_SFT_NOTRANSPARENCY","TF_SFT_SHOWNORMAL","_tsf_itflangbarmgr_showfloating_ref","ctfutb/ITfLangBarMgr::ShowFloating","tsf.itflangbarmgr_showfloating"]
+description: ITfLangBarMgr::ShowFloating method
+helpviewer_keywords: ["ITfLangBarMgr interface [Text Services Framework]","ShowFloating method","ITfLangBarMgr.ShowFloating","ITfLangBarMgr::ShowFloating","ShowFloating","ShowFloating method [Text Services Framework]","ShowFloating method [Text Services Framework]","ITfLangBarMgr interface","TF_SFT_DESKBAND","TF_SFT_DOCK","TF_SFT_EXTRAICONSONMINIMIZED","TF_SFT_HIDDEN","TF_SFT_HIGHTRANSPARENCY","TF_SFT_LABELS","TF_SFT_LOWTRANSPARENCY","TF_SFT_MINIMIZED","TF_SFT_NOEXTRAICONSONMINIMIZED","TF_SFT_NOLABELS","TF_SFT_NOTRANSPARENCY","TF_SFT_SHOWNORMAL","_tsf_itflangbarmgr_showfloating_ref","ctfutb/ITfLangBarMgr::ShowFloating","tsf.itflangbarmgr_showfloating"]
 old-location: tsf\itflangbarmgr_showfloating.htm
 tech.root: TSF
 ms.assetid: f49987c7-476d-4add-9d43-83de78693420

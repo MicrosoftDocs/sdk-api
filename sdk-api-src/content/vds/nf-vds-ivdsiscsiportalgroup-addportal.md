@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.AddPortal
 title: IVdsIscsiPortalGroup::AddPortal (vds.h)
-description: Adds a portal to a portal group.helpviewer_keywords: ["AddPortal","AddPortal method [VDS]","AddPortal method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","AddPortal method","IVdsIscsiPortalGroup.AddPortal","IVdsIscsiPortalGroup::AddPortal","base.ivdsiscsiportalgroup_addportal","vds/IVdsIscsiPortalGroup::AddPortal","vdshwprv/IVdsIscsiPortalGroup::AddPortal"]
+description: Adds a portal to a portal group.
+helpviewer_keywords: ["AddPortal","AddPortal method [VDS]","AddPortal method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","AddPortal method","IVdsIscsiPortalGroup.AddPortal","IVdsIscsiPortalGroup::AddPortal","base.ivdsiscsiportalgroup_addportal","vds/IVdsIscsiPortalGroup::AddPortal","vdshwprv/IVdsIscsiPortalGroup::AddPortal"]
 old-location: base\ivdsiscsiportalgroup_addportal.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
 ms.date: 12/05/2018
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal

@@ -4,7 +4,7 @@ title: IComCRMEvents::OnCRMRecoveryStart (comsvcs.h)
 description: Generated when CRM recovery has started.
 helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRecoveryStart method","IComCRMEvents.OnCRMRecoveryStart","IComCRMEvents::OnCRMRecoveryStart","OnCRMRecoveryStart","OnCRMRecoveryStart method [COM+]","OnCRMRecoveryStart method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRecoveryStart","comsvcs/IComCRMEvents::OnCRMRecoveryStart","cos.icomcrmevents_oncrmrecoverystart"]
 old-location: cos\icomcrmevents_oncrmrecoverystart.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ac958f4b-1af4-4cfc-8fb4-92e89fdba771
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryStart method, IComCRMEvents.OnCRMRecoveryStart, IComCRMEvents::OnCRMRecoveryStart, OnCRMRecoveryStart, OnCRMRecoveryStart method [COM+], OnCRMRecoveryStart method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryStart, comsvcs/IComCRMEvents::OnCRMRecoveryStart, cos.icomcrmevents_oncrmrecoverystart

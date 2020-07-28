@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptRegisterOIDInfo
 title: CryptRegisterOIDInfo function (wincrypt.h)
-description: The CryptRegisterOIDInfo function registers the OID information specified in the CRYPT_OID_INFO structure, persisting it to the registry.helpviewer_keywords: ["CryptRegisterOIDInfo","CryptRegisterOIDInfo function [Security]","_crypto2_cryptregisteroidinfo","security.cryptregisteroidinfo","wincrypt/CryptRegisterOIDInfo"]
+description: The CryptRegisterOIDInfo function registers the OID information specified in the CRYPT_OID_INFO structure, persisting it to the registry.
+helpviewer_keywords: ["CryptRegisterOIDInfo","CryptRegisterOIDInfo function [Security]","_crypto2_cryptregisteroidinfo","security.cryptregisteroidinfo","wincrypt/CryptRegisterOIDInfo"]
 old-location: security\cryptregisteroidinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo

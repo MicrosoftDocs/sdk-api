@@ -1,9 +1,10 @@
 ---
 UID: NE:il21dec._AM_LINE21_DRAWBGMODE
 title: AM_LINE21_DRAWBGMODE (il21dec.h)
-description: Indicates the closed captioning text background mode.helpviewer_keywords: ["*PAM_LINE21_DRAWBGMODE","AM_L21_DRAWBGMODE_Opaque","AM_L21_DRAWBGMODE_Transparent","AM_LINE21_DRAWBGMODE","AM_LINE21_DRAWBGMODE","AM_LINE21_DRAWBGMODE enumeration [DirectShow]","AM_LINE21_DRAWBGMODEEnumeration","PAM_LINE21_DRAWBGMODE","PAM_LINE21_DRAWBGMODE enumeration pointer [DirectShow]","dshow.am_line21_drawbgmode","il21dec/AM_L21_DRAWBGMODE_Opaque","il21dec/AM_L21_DRAWBGMODE_Transparent","il21dec/AM_LINE21_DRAWBGMODE","il21dec/PAM_LINE21_DRAWBGMODE"]
+description: Indicates the closed captioning text background mode.
+helpviewer_keywords: ["*PAM_LINE21_DRAWBGMODE","AM_L21_DRAWBGMODE_Opaque","AM_L21_DRAWBGMODE_Transparent","AM_LINE21_DRAWBGMODE","AM_LINE21_DRAWBGMODE","AM_LINE21_DRAWBGMODE enumeration [DirectShow]","AM_LINE21_DRAWBGMODEEnumeration","PAM_LINE21_DRAWBGMODE","PAM_LINE21_DRAWBGMODE enumeration pointer [DirectShow]","dshow.am_line21_drawbgmode","il21dec/AM_L21_DRAWBGMODE_Opaque","il21dec/AM_L21_DRAWBGMODE_Transparent","il21dec/AM_LINE21_DRAWBGMODE","il21dec/PAM_LINE21_DRAWBGMODE"]
 old-location: dshow\am_line21_drawbgmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: efd8ee53-702b-45af-a3dc-e6afe26b01c9
 ms.date: 12/05/2018
 ms.keywords: '*PAM_LINE21_DRAWBGMODE, AM_L21_DRAWBGMODE_Opaque, AM_L21_DRAWBGMODE_Transparent, AM_LINE21_DRAWBGMODE, AM_LINE21_DRAWBGMODE , AM_LINE21_DRAWBGMODE enumeration [DirectShow], AM_LINE21_DRAWBGMODEEnumeration, PAM_LINE21_DRAWBGMODE, PAM_LINE21_DRAWBGMODE enumeration pointer [DirectShow], dshow.am_line21_drawbgmode, il21dec/AM_L21_DRAWBGMODE_Opaque, il21dec/AM_L21_DRAWBGMODE_Transparent, il21dec/AM_LINE21_DRAWBGMODE, il21dec/PAM_LINE21_DRAWBGMODE'

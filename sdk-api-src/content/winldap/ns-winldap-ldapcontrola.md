@@ -1,7 +1,8 @@
 ---
 UID: NS:winldap.ldapcontrolA
 title: LDAPControlA (winldap.h)
-description: Represents both client-side and server controls.helpviewer_keywords: ["*PLDAPControlA","LDAPControl","LDAPControl structure [LDAP]","LDAPControlA","LDAPControlW","PLDAPControl","PLDAPControl structure pointer [LDAP]","_ldap_ldapcontrol","ldap.ldapcontrol","winldap/LDAPControl","winldap/LDAPControlA","winldap/LDAPControlW","winldap/PLDAPControl"]
+description: Represents both client-side and server controls.
+helpviewer_keywords: ["*PLDAPControlA","LDAPControl","LDAPControl structure [LDAP]","LDAPControlA","LDAPControlW","PLDAPControl","PLDAPControl structure pointer [LDAP]","_ldap_ldapcontrol","ldap.ldapcontrol","winldap/LDAPControl","winldap/LDAPControlA","winldap/LDAPControlW","winldap/PLDAPControl"]
 old-location: ldap\ldapcontrol.htm
 tech.root: ldap
 ms.assetid: c0b4d712-021d-46f3-8bda-aaf660ec1acc
@@ -88,6 +89,11 @@ For more information, and a list of the supported LDAP extended controls and the
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines LDAPControl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -96,9 +102,7 @@ For more information, and a list of the supported LDAP extended controls and the
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>

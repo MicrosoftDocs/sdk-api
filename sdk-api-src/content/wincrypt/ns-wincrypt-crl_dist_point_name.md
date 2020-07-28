@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRL_DIST_POINT_NAME
 title: CRL_DIST_POINT_NAME (wincrypt.h)
-description: Identifies a location from which the CRL can be obtained.helpviewer_keywords: ["*PCRL_DIST_POINT_NAME","CRL_DIST_POINT_FULL_NAME","CRL_DIST_POINT_ISSUER_RDN_NAME","CRL_DIST_POINT_NAME","CRL_DIST_POINT_NAME structure [Security]","CRL_DIST_POINT_NO_NAME","PCRL_DIST_POINT_NAME","PCRL_DIST_POINT_NAME structure pointer [Security]","_crypto2_crl_dist_point_name","security.crl_dist_point_name","wincrypt/CRL_DIST_POINT_NAME","wincrypt/PCRL_DIST_POINT_NAME"]
+description: Identifies a location from which the CRL can be obtained.
+helpviewer_keywords: ["*PCRL_DIST_POINT_NAME","CRL_DIST_POINT_FULL_NAME","CRL_DIST_POINT_ISSUER_RDN_NAME","CRL_DIST_POINT_NAME","CRL_DIST_POINT_NAME structure [Security]","CRL_DIST_POINT_NO_NAME","PCRL_DIST_POINT_NAME","PCRL_DIST_POINT_NAME structure pointer [Security]","_crypto2_crl_dist_point_name","security.crl_dist_point_name","wincrypt/CRL_DIST_POINT_NAME","wincrypt/PCRL_DIST_POINT_NAME"]
 old-location: security\crl_dist_point_name.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f47283c3-34f5-4611-b041-456d28d85dbe
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_DIST_POINT_NAME, CRL_DIST_POINT_FULL_NAME, CRL_DIST_POINT_ISSUER_RDN_NAME, CRL_DIST_POINT_NAME, CRL_DIST_POINT_NAME structure [Security], CRL_DIST_POINT_NO_NAME, PCRL_DIST_POINT_NAME, PCRL_DIST_POINT_NAME structure pointer [Security], _crypto2_crl_dist_point_name, security.crl_dist_point_name, wincrypt/CRL_DIST_POINT_NAME, wincrypt/PCRL_DIST_POINT_NAME'

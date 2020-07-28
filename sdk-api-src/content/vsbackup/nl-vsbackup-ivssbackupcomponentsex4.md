@@ -1,9 +1,10 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx4
 title: IVssBackupComponentsEx4 (vsbackup.h)
-description: Defines additional methods to support the processing of UNC file share paths in a requester.helpviewer_keywords: ["IVssBackupComponentsEx4","IVssBackupComponentsEx4 interface","IVssBackupComponentsEx4 interface","described","base.ivssbackupcomponentsex4","vsbackup/IVssBackupComponentsEx4"]
+description: Defines additional methods to support the processing of UNC file share paths in a requester.
+helpviewer_keywords: ["IVssBackupComponentsEx4","IVssBackupComponentsEx4 interface","IVssBackupComponentsEx4 interface","described","base.ivssbackupcomponentsex4","vsbackup/IVssBackupComponentsEx4"]
 old-location: base\ivssbackupcomponentsex4.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4

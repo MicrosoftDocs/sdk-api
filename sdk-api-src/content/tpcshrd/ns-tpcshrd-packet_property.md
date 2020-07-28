@@ -1,7 +1,8 @@
 ---
 UID: NS:tpcshrd._PACKET_PROPERTY
 title: PACKET_PROPERTY (tpcshrd.h)
-description: Describes a packet property that is reported by the tablet driver.helpviewer_keywords: ["*PPACKET_PROPERTY","PACKET_PROPERTY","PACKET_PROPERTY structure [Tablet PC]","PPACKET_PROPERTY","PPACKET_PROPERTY structure pointer [Tablet PC]","c1bd6240-7f95-421c-8622-0d7b98182d7c","tablet.packet_property","tpcshrd/PACKET_PROPERTY","tpcshrd/PPACKET_PROPERTY"]
+description: Describes a packet property that is reported by the tablet driver.
+helpviewer_keywords: ["*PPACKET_PROPERTY","PACKET_PROPERTY","PACKET_PROPERTY structure [Tablet PC]","PPACKET_PROPERTY","PPACKET_PROPERTY structure pointer [Tablet PC]","c1bd6240-7f95-421c-8622-0d7b98182d7c","tablet.packet_property","tpcshrd/PACKET_PROPERTY","tpcshrd/PPACKET_PROPERTY"]
 old-location: tablet\packet_property.htm
 tech.root: tablet
 ms.assetid: c1bd6240-7f95-421c-8622-0d7b98182d7c

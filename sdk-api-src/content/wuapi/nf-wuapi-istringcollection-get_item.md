@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IStringCollection.get_Item
 title: IStringCollection::get_Item (wuapi.h)
-description: Gets or sets a string in the collection.helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","Item property","IStringCollection.Item","IStringCollection.get_Item","IStringCollection::Item","IStringCollection::get_Item","IStringCollection::put_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IStringCollection interface","get_Item","wua.istringcollection_item","wuapi/IStringCollection::Item","wuapi/IStringCollection::get_Item","wuapi/IStringCollection::put_Item"]
+description: Gets or sets a string in the collection.
+helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","Item property","IStringCollection.Item","IStringCollection.get_Item","IStringCollection::Item","IStringCollection::get_Item","IStringCollection::put_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IStringCollection interface","get_Item","wua.istringcollection_item","wuapi/IStringCollection::Item","wuapi/IStringCollection::get_Item","wuapi/IStringCollection::put_Item"]
 old-location: wua\istringcollection_item.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Item property, IStringCollection.Item, IStringCollection.get_Item, IStringCollection::Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IStringCollection interface, get_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item

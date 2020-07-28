@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRunningTask.get_State
 title: IRunningTask::get_State (taskschd.h)
-description: Gets an identifier for the state of the running task.helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","State property","IRunningTask.State","IRunningTask.get_State","IRunningTask::State","IRunningTask::get_State","State property [Task Scheduler]","State property [Task Scheduler]","IRunningTask interface","TASK_STATE_DISABLED","TASK_STATE_QUEUED","TASK_STATE_READY","TASK_STATE_RUNNING","TASK_STATE_UNKNOWN","get_State","taskschd.irunningtask_state","taskschd/IRunningTask::State","taskschd/IRunningTask::get_State"]
+description: Gets an identifier for the state of the running task.
+helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","State property","IRunningTask.State","IRunningTask.get_State","IRunningTask::State","IRunningTask::get_State","State property [Task Scheduler]","State property [Task Scheduler]","IRunningTask interface","TASK_STATE_DISABLED","TASK_STATE_QUEUED","TASK_STATE_READY","TASK_STATE_RUNNING","TASK_STATE_UNKNOWN","get_State","taskschd.irunningtask_state","taskschd/IRunningTask::State","taskschd/IRunningTask::get_State"]
 old-location: taskschd\irunningtask_state.htm
 tech.root: taskschd
 ms.assetid: 50a1d81d-9762-4d1f-801a-b2c54ad9c5bc

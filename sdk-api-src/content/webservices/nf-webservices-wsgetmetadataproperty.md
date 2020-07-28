@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetMetadataProperty
 title: WsGetMetadataProperty function (webservices.h)
-description: Retrieves a specified WS_METADATA object property. The property to retrieve is identified by a WS_METADATA_PROPERTY_ID input parameter.helpviewer_keywords: ["WsGetMetadataProperty","WsGetMetadataProperty function [Web Services for Windows]","webservices/WsGetMetadataProperty","wsw.wsgetmetadataproperty"]
+description: Retrieves a specified WS_METADATA object property. The property to retrieve is identified by a WS_METADATA_PROPERTY_ID input parameter.
+helpviewer_keywords: ["WsGetMetadataProperty","WsGetMetadataProperty function [Web Services for Windows]","webservices/WsGetMetadataProperty","wsw.wsgetmetadataproperty"]
 old-location: wsw\wsgetmetadataproperty.htm
 tech.root: wsw
 ms.assetid: 21d8dbca-e8a5-4b2f-a1f7-951532922024

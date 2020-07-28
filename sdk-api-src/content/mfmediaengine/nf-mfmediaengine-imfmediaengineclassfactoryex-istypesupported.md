@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.IsTypeSupported
 title: IMFMediaEngineClassFactoryEx::IsTypeSupported (mfmediaengine.h)
-description: Gets a value that indicates if the specified key system supports the specified media type.helpviewer_keywords: ["IMFMediaEngineClassFactoryEx interface [Media Foundation]","IsTypeSupported method","IMFMediaEngineClassFactoryEx.IsTypeSupported","IMFMediaEngineClassFactoryEx::IsTypeSupported","IsTypeSupported","IsTypeSupported method [Media Foundation]","IsTypeSupported method [Media Foundation]","IMFMediaEngineClassFactoryEx interface","mf.imfmediaengineclassfactoryex_istypesupported","mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported"]
+description: Gets a value that indicates if the specified key system supports the specified media type.
+helpviewer_keywords: ["IMFMediaEngineClassFactoryEx interface [Media Foundation]","IsTypeSupported method","IMFMediaEngineClassFactoryEx.IsTypeSupported","IMFMediaEngineClassFactoryEx::IsTypeSupported","IsTypeSupported","IsTypeSupported method [Media Foundation]","IsTypeSupported method [Media Foundation]","IMFMediaEngineClassFactoryEx interface","mf.imfmediaengineclassfactoryex_istypesupported","mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported"]
 old-location: mf\imfmediaengineclassfactoryex_istypesupported.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx interface [Media Foundation],IsTypeSupported method, IMFMediaEngineClassFactoryEx.IsTypeSupported, IMFMediaEngineClassFactoryEx::IsTypeSupported, IsTypeSupported, IsTypeSupported method [Media Foundation], IsTypeSupported method [Media Foundation],IMFMediaEngineClassFactoryEx interface, mf.imfmediaengineclassfactoryex_istypesupported, mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported

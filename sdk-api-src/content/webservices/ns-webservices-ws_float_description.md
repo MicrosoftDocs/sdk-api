@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_FLOAT_DESCRIPTION
 title: WS_FLOAT_DESCRIPTION (webservices.h)
-description: An optional type description used with WS_FLOAT_TYPE to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_FLOAT_DESCRIPTION","WS_FLOAT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FLOAT_DESCRIPTION","wsw.ws_float_description"]
+description: An optional type description used with WS_FLOAT_TYPE to specify constraints on the set of values which can be deserialized.
+helpviewer_keywords: ["WS_FLOAT_DESCRIPTION","WS_FLOAT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FLOAT_DESCRIPTION","wsw.ws_float_description"]
 old-location: wsw\ws_float_description.htm
 tech.root: wsw
 ms.assetid: 54af331f-92bd-4970-945d-13f3a2e62c4b

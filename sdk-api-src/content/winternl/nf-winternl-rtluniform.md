@@ -1,9 +1,10 @@
 ---
 UID: NF:winternl.RtlUniform
 title: RtlUniform function (winternl.h)
-description: Generates a uniform random number using D.H. Lehmer's 1948 algorithm.helpviewer_keywords: ["RtlUniform","RtlUniform function [Windows API]","winprog.rtluniform","winternl/RtlUniform"]
+description: Generates a uniform random number using D.H. Lehmer's 1948 algorithm.
+helpviewer_keywords: ["RtlUniform","RtlUniform function [Windows API]","winprog.rtluniform","winternl/RtlUniform"]
 old-location: winprog\rtluniform.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 78bb05fa-3ebc-4e61-ae4f-58544da51200
 ms.date: 12/05/2018
 ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, winternl/RtlUniform

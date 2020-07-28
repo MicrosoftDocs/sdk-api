@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetBaseFrequency
 title: IDCompositionTurbulenceEffect::SetBaseFrequency (dcomp.h)
-description: Sets the base frequencies in the X and Y direction.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetBaseFrequency method","IDCompositionTurbulenceEffect.SetBaseFrequency","IDCompositionTurbulenceEffect::SetBaseFrequency","SetBaseFrequency","SetBaseFrequency method [DirectComposition]","SetBaseFrequency method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetBaseFrequency","directcomp.idcompositionturbulenceeffect_setbasefrequency"]
+description: Sets the base frequencies in the X and Y direction.
+helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetBaseFrequency method","IDCompositionTurbulenceEffect.SetBaseFrequency","IDCompositionTurbulenceEffect::SetBaseFrequency","SetBaseFrequency","SetBaseFrequency method [DirectComposition]","SetBaseFrequency method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetBaseFrequency","directcomp.idcompositionturbulenceeffect_setbasefrequency"]
 old-location: directcomp\idcompositionturbulenceeffect_setbasefrequency.htm
 tech.root: directcomp
 ms.assetid: 4231DC9C-3CF3-405C-80BB-6DABCA40B4CD

@@ -1,9 +1,10 @@
 ---
 UID: NS:pdh._PDH_STATISTICS
 title: PDH_STATISTICS (pdh.h)
-description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.helpviewer_keywords: ["*PPDH_STATISTICS","PDH_STATISTICS","PDH_STATISTICS structure [Perf]","PPDH_STATISTICS","PPDH_STATISTICS structure pointer [Perf]","_win32_pdh_statistics_str","base.pdh_statistics_str","pdh/PDH_STATISTICS","pdh/PPDH_STATISTICS","perf.pdh_statistics_str"]
+description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
+helpviewer_keywords: ["*PPDH_STATISTICS","PDH_STATISTICS","PDH_STATISTICS structure [Perf]","PPDH_STATISTICS","PPDH_STATISTICS structure pointer [Perf]","_win32_pdh_statistics_str","base.pdh_statistics_str","pdh/PDH_STATISTICS","pdh/PPDH_STATISTICS","perf.pdh_statistics_str"]
 old-location: perf\pdh_statistics_str.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str'

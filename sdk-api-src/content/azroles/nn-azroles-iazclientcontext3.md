@@ -1,9 +1,10 @@
 ---
 UID: NN:azroles.IAzClientContext3
 title: IAzClientContext3 (azroles.h)
-description: Extends the IAzClientContext2 interface.helpviewer_keywords: ["IAzClientContext3","IAzClientContext3 interface [Security]","IAzClientContext3 interface [Security]","described","azroles/IAzClientContext3","security.iazclientcontext3"]
+description: Extends the IAzClientContext2 interface.
+helpviewer_keywords: ["IAzClientContext3","IAzClientContext3 interface [Security]","IAzClientContext3 interface [Security]","described","azroles/IAzClientContext3","security.iazclientcontext3"]
 old-location: security\iazclientcontext3.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9435e41b-b2ec-4a2a-9058-82025f2c2e09
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], IAzClientContext3 interface [Security],described, azroles/IAzClientContext3, security.iazclientcontext3

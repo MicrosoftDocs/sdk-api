@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiGetComponentPathExW
 title: MsiGetComponentPathExW function (msi.h)
-description: Returns the full path to an installed component.helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_USERS","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetComponentPathEx","MsiGetComponentPathEx function [Setup API]","MsiGetComponentPathExA","MsiGetComponentPathExW","NULL","User SID","msi/MsiGetComponentPathEx","msi/MsiGetComponentPathExA","msi/MsiGetComponentPathExW","s-1-1-0","setup.msigetcomponentpathex"]
+description: Returns the full path to an installed component.
+helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_USERS","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetComponentPathEx","MsiGetComponentPathEx function [Setup API]","MsiGetComponentPathExA","MsiGetComponentPathExW","NULL","User SID","msi/MsiGetComponentPathEx","msi/MsiGetComponentPathExA","msi/MsiGetComponentPathExW","s-1-1-0","setup.msigetcomponentpathex"]
 old-location: setup\msigetcomponentpathex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
@@ -378,6 +379,10 @@ The feature is not published. The application should have determined this earlie
 </ul>
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetComponentPathEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

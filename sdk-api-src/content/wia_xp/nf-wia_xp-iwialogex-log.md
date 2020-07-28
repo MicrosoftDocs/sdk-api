@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.Log
 title: IWiaLogEx::Log (wia_xp.h)
-description: This method is not supported.helpviewer_keywords: ["IWiaLogEx interface [WIA]","Log method","IWiaLogEx.Log","IWiaLogEx::Log","Log","Log method [WIA]","Log method [WIA]","IWiaLogEx interface","_wia_IWiaLogEx_Log","wia._wia_IWiaLogEx_Log","wia_xp/IWiaLogEx::Log"]
+description: This method is not supported.
+helpviewer_keywords: ["IWiaLogEx interface [WIA]","Log method","IWiaLogEx.Log","IWiaLogEx::Log","Log","Log method [WIA]","Log method [WIA]","IWiaLogEx interface","_wia_IWiaLogEx_Log","wia._wia_IWiaLogEx_Log","wia_xp/IWiaLogEx::Log"]
 old-location: wia\_wia_IWiaLogEx_Log.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\log.htm

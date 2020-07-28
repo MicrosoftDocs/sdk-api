@@ -1,9 +1,10 @@
 ---
 UID: NF:processenv.NeedCurrentDirectoryForExePathW
 title: NeedCurrentDirectoryForExePathW function (processenv.h)
-description: Determines whether the current directory should be included in the search path for the specified executable.helpviewer_keywords: ["NeedCurrentDirectoryForExePath","NeedCurrentDirectoryForExePath function","NeedCurrentDirectoryForExePathA","NeedCurrentDirectoryForExePathW","base.needcurrentdirectoryforexepath","processenv/NeedCurrentDirectoryForExePath","processenv/NeedCurrentDirectoryForExePathA","processenv/NeedCurrentDirectoryForExePathW","winbase/NeedCurrentDirectoryForExePath","winbase/NeedCurrentDirectoryForExePathA","winbase/NeedCurrentDirectoryForExePathW"]
+description: Determines whether the current directory should be included in the search path for the specified executable.
+helpviewer_keywords: ["NeedCurrentDirectoryForExePath","NeedCurrentDirectoryForExePath function","NeedCurrentDirectoryForExePathA","NeedCurrentDirectoryForExePathW","base.needcurrentdirectoryforexepath","processenv/NeedCurrentDirectoryForExePath","processenv/NeedCurrentDirectoryForExePathA","processenv/NeedCurrentDirectoryForExePathW","winbase/NeedCurrentDirectoryForExePath","winbase/NeedCurrentDirectoryForExePathA","winbase/NeedCurrentDirectoryForExePathW"]
 old-location: base\needcurrentdirectoryforexepath.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 2bdc07b9-bb83-48c2-a668-fda5c69d54ee
 ms.date: 12/05/2018
 ms.keywords: NeedCurrentDirectoryForExePath, NeedCurrentDirectoryForExePath function, NeedCurrentDirectoryForExePathA, NeedCurrentDirectoryForExePathW, base.needcurrentdirectoryforexepath, processenv/NeedCurrentDirectoryForExePath, processenv/NeedCurrentDirectoryForExePathA, processenv/NeedCurrentDirectoryForExePathW, winbase/NeedCurrentDirectoryForExePath, winbase/NeedCurrentDirectoryForExePathA, winbase/NeedCurrentDirectoryForExePathW
@@ -94,6 +95,10 @@ An example of an instance when this function should be called instead of relying
 
 
 
+
+
+> [!NOTE]
+> The processenv.h header defines NeedCurrentDirectoryForExePath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

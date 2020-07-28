@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWritingMode
 title: IMFTimedTextRegion::GetWritingMode (mfmediaengine.h)
-description: Gets the writing mode of the region.helpviewer_keywords: ["GetWritingMode","GetWritingMode method [Media Foundation]","GetWritingMode method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetWritingMode method","IMFTimedTextRegion.GetWritingMode","IMFTimedTextRegion::GetWritingMode","mf.imftimedtextregion_getwritingmode","mfmediaengine/IMFTimedTextRegion::GetWritingMode"]
+description: Gets the writing mode of the region.
+helpviewer_keywords: ["GetWritingMode","GetWritingMode method [Media Foundation]","GetWritingMode method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetWritingMode method","IMFTimedTextRegion.GetWritingMode","IMFTimedTextRegion::GetWritingMode","mf.imftimedtextregion_getwritingmode","mfmediaengine/IMFTimedTextRegion::GetWritingMode"]
 old-location: mf\imftimedtextregion_getwritingmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BCF99D3C-554A-4788-B54B-236F463B1EAE
 ms.date: 12/05/2018
 ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritingMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWritingMode method, IMFTimedTextRegion.GetWritingMode, IMFTimedTextRegion::GetWritingMode, mf.imftimedtextregion_getwritingmode, mfmediaengine/IMFTimedTextRegion::GetWritingMode

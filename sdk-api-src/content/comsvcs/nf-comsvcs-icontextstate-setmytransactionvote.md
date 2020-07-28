@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IContextState.SetMyTransactionVote
 title: IContextState::SetMyTransactionVote (comsvcs.h)
-description: Sets the consistent flag.helpviewer_keywords: ["IContextState interface [COM+]","SetMyTransactionVote method","IContextState.SetMyTransactionVote","IContextState::SetMyTransactionVote","SetMyTransactionVote","SetMyTransactionVote method [COM+]","SetMyTransactionVote method [COM+]","IContextState interface","_cos_IContextState_SetMyTransactionVote","comsvcs/IContextState::SetMyTransactionVote","cos.icontextstate_setmytransactionvote"]
+description: Sets the consistent flag.
+helpviewer_keywords: ["IContextState interface [COM+]","SetMyTransactionVote method","IContextState.SetMyTransactionVote","IContextState::SetMyTransactionVote","SetMyTransactionVote","SetMyTransactionVote method [COM+]","SetMyTransactionVote method [COM+]","IContextState interface","_cos_IContextState_SetMyTransactionVote","comsvcs/IContextState::SetMyTransactionVote","cos.icontextstate_setmytransactionvote"]
 old-location: cos\icontextstate_setmytransactionvote.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
 ms.date: 12/05/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote

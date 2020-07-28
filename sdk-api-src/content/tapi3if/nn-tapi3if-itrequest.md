@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITRequest
 title: ITRequest (tapi3if.h)
-description: The ITRequest interface allows an application to use Assisted Telephony. Assisted Telephony provides telephony-enabled applications with a simple mechanism for making phone calls without requiring the developer to become fully literate in telephony.helpviewer_keywords: ["ITRequest","ITRequest interface [TAPI 2.2]","ITRequest interface [TAPI 2.2]","described","_tapi3_itrequest","tapi3.itrequest","tapi3if/ITRequest"]
+description: The ITRequest interface allows an application to use Assisted Telephony. Assisted Telephony provides telephony-enabled applications with a simple mechanism for making phone calls without requiring the developer to become fully literate in telephony.
+helpviewer_keywords: ["ITRequest","ITRequest interface [TAPI 2.2]","ITRequest interface [TAPI 2.2]","described","_tapi3_itrequest","tapi3.itrequest","tapi3if/ITRequest"]
 old-location: tapi3\itrequest.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2b6d4f99-3ffe-44ce-9cb5-3fdd565085db
 ms.date: 12/05/2018
 ms.keywords: ITRequest, ITRequest interface [TAPI 2.2], ITRequest interface [TAPI 2.2],described, _tapi3_itrequest, tapi3.itrequest, tapi3if/ITRequest

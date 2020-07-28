@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Execute
 title: IAttachmentExecute::Execute (shobjidl_core.h)
-description: Executes an action on an attachment.helpviewer_keywords: ["Execute","Execute method [Windows Shell]","Execute method [Windows Shell]","IAttachmentExecute interface","IAttachmentExecute interface [Windows Shell]","Execute method","IAttachmentExecute.Execute","IAttachmentExecute::Execute","_win32_IAttachmentExecute_Execute","shell.IAttachmentExecute_Execute","shobjidl_core/IAttachmentExecute::Execute"]
+description: Executes an action on an attachment.
+helpviewer_keywords: ["Execute","Execute method [Windows Shell]","Execute method [Windows Shell]","IAttachmentExecute interface","IAttachmentExecute interface [Windows Shell]","Execute method","IAttachmentExecute.Execute","IAttachmentExecute::Execute","_win32_IAttachmentExecute_Execute","shell.IAttachmentExecute_Execute","shobjidl_core/IAttachmentExecute::Execute"]
 old-location: shell\IAttachmentExecute_Execute.htm
 tech.root: shell
 ms.assetid: 80cbbb6c-c6f1-4937-9c1e-4de57aee748c

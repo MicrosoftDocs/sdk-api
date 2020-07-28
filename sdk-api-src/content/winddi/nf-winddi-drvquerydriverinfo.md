@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvQueryDriverInfo
 title: DrvQueryDriverInfo function (winddi.h)
-description: The DrvQueryDriverInfo function returns requested driver-specific information.helpviewer_keywords: ["DrvQueryDriverInfo","DrvQueryDriverInfo function [Display Devices]","ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml","display.drvquerydriverinfo","winddi/DrvQueryDriverInfo"]
+description: The DrvQueryDriverInfo function returns requested driver-specific information.
+helpviewer_keywords: ["DrvQueryDriverInfo","DrvQueryDriverInfo function [Display Devices]","ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml","display.drvquerydriverinfo","winddi/DrvQueryDriverInfo"]
 old-location: display\drvquerydriverinfo.htm
 tech.root: display
 ms.assetid: 94691c91-f6e9-4f48-8da2-bde5354ed94c

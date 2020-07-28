@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(const float)
+UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(constfloat)
 title: XMUSHORTN2::XMUSHORTN2(const float) (directxpackedvector.h)
-description: A constructor for XMUSHORTN2.helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 structure","XMUSHORTN2 structure [DirectX Math Support APIs]","XMUSHORTN2 constructor","XMUSHORTN2.XMUSHORTN2","XMUSHORTN2.XMUSHORTN2()","XMUSHORTN2.XMUSHORTN2(const float)","XMUSHORTN2::XMUSHORTN2","XMUSHORTN2::XMUSHORTN2(const float)","dxmath.xmushortn2_ctor_1"]
+description: A constructor for XMUSHORTN2.
+helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 structure","XMUSHORTN2 structure [DirectX Math Support APIs]","XMUSHORTN2 constructor","XMUSHORTN2.XMUSHORTN2","XMUSHORTN2.XMUSHORTN2()","XMUSHORTN2.XMUSHORTN2(const float)","XMUSHORTN2::XMUSHORTN2","XMUSHORTN2::XMUSHORTN2(const float)","dxmath.xmushortn2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 

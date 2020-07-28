@@ -1,9 +1,10 @@
 ---
 UID: NF:winusb.WinUsb_ReadIsochPipeAsap
 title: WinUsb_ReadIsochPipeAsap function (winusb.h)
-description: The WinUsb_ReadIsochPipeAsap function submits a request that reads data from an isochronous OUT endpoint.helpviewer_keywords: ["WinUsb_ReadIsochPipeAsap","WinUsb_ReadIsochPipeAsap function [Buses]","buses.winusb_readisochpipeasap","winusb/WinUsb_ReadIsochPipeAsap"]
+description: The WinUsb_ReadIsochPipeAsap function submits a request that reads data from an isochronous OUT endpoint.
+helpviewer_keywords: ["WinUsb_ReadIsochPipeAsap","WinUsb_ReadIsochPipeAsap function [Buses]","buses.winusb_readisochpipeasap","winusb/WinUsb_ReadIsochPipeAsap"]
 old-location: buses\winusb_readisochpipeasap.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: E9AD5DD2-AAC1-46C9-BF57-1C97CF619936
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadIsochPipeAsap, WinUsb_ReadIsochPipeAsap function [Buses], buses.winusb_readisochpipeasap, winusb/WinUsb_ReadIsochPipeAsap

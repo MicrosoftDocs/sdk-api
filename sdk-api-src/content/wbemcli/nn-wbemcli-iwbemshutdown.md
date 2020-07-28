@@ -1,9 +1,10 @@
 ---
 UID: NN:wbemcli.IWbemShutdown
 title: IWbemShutdown (wbemcli.h)
-description: The IWbemShutdown interface indicates to the provider that an instance of an object is ready to be discarded. The provider can use this call to release resources that it is referencing currently.helpviewer_keywords: ["IWbemShutdown","IWbemShutdown interface [Windows Management Instrumentation]","IWbemShutdown interface [Windows Management Instrumentation]","described","wbemcli/ IWbemShutdown","wmi.iwbemshutdown"]
+description: The IWbemShutdown interface indicates to the provider that an instance of an object is ready to be discarded. The provider can use this call to release resources that it is referencing currently.
+helpviewer_keywords: ["IWbemShutdown","IWbemShutdown interface [Windows Management Instrumentation]","IWbemShutdown interface [Windows Management Instrumentation]","described","wbemcli/ IWbemShutdown","wmi.iwbemshutdown"]
 old-location: wmi\iwbemshutdown.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: a228ed61-1f16-45f4-85f2-85661ce06b72
 ms.date: 12/05/2018
 ms.keywords: IWbemShutdown, IWbemShutdown interface [Windows Management Instrumentation], IWbemShutdown interface [Windows Management Instrumentation],described, wbemcli/ IWbemShutdown, wmi.iwbemshutdown

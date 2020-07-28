@@ -4,7 +4,7 @@ title: CreateProcessAsUserW function (processthreadsapi.h)
 description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
 helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
 old-location: base\createprocessasuser.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
@@ -323,6 +323,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processthreadsapi.h header defines CreateProcessAsUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

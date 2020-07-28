@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMATRIX.operator-assign
 title: XMMATRIX::operator-assign
-description: Assigns the matrix data of one instance of XMMATRIX to the current instance of XMMATRIX and returns a reference to the current instance.helpviewer_keywords: ["Use DirectX..XMMATRIX.operator =","Use DirectX::::XMMATRIX::operator =","XMMATRIX structure [DirectX Math Support APIs]","operator = method","XMMATRIX.operator =","XMMATRIX.operator-assign","XMMATRIX.operator=","XMMATRIX::operator-assign","XMMATRIX::operator=","dxmath.xmmatrix_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMMATRIX structure","operator="]
+description: Assigns the matrix data of one instance of XMMATRIX to the current instance of XMMATRIX and returns a reference to the current instance.
+helpviewer_keywords: ["Use DirectX..XMMATRIX.operator =","Use DirectX::::XMMATRIX::operator =","XMMATRIX structure [DirectX Math Support APIs]","operator = method","XMMATRIX.operator =","XMMATRIX.operator-assign","XMMATRIX.operator=","XMMATRIX::operator-assign","XMMATRIX::operator=","dxmath.xmmatrix_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMMATRIX structure","operator="]
 old-location: dxmath\xmmatrix_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator =(const XMMATRIX)

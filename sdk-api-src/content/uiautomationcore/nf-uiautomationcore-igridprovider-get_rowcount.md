@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IGridProvider.get_RowCount
 title: IGridProvider::get_RowCount (uiautomationcore.h)
-description: Specifies the total number of rows in the grid.helpviewer_keywords: ["IGridProvider interface [Windows Accessibility]","RowCount property","IGridProvider.RowCount","IGridProvider.get_RowCount","IGridProvider::RowCount","IGridProvider::get_RowCount","RowCount property [Windows Accessibility]","RowCount property [Windows Accessibility]","IGridProvider interface","get_RowCount","uiauto.uiauto_IGridProvider_RowCount","uiauto_IGridProvider_RowCount","uiautomationcore/IGridProvider::RowCount","uiautomationcore/IGridProvider::get_RowCount","winauto.uiauto_IGridProvider_RowCount"]
+description: Specifies the total number of rows in the grid.
+helpviewer_keywords: ["IGridProvider interface [Windows Accessibility]","RowCount property","IGridProvider.RowCount","IGridProvider.get_RowCount","IGridProvider::RowCount","IGridProvider::get_RowCount","RowCount property [Windows Accessibility]","RowCount property [Windows Accessibility]","IGridProvider interface","get_RowCount","uiauto.uiauto_IGridProvider_RowCount","uiauto_IGridProvider_RowCount","uiautomationcore/IGridProvider::RowCount","uiautomationcore/IGridProvider::get_RowCount","winauto.uiauto_IGridProvider_RowCount"]
 old-location: winauto\uiauto_IGridProvider_RowCount.htm
 tech.root: WinAuto
 ms.assetid: 036a05fd-53b7-4e6d-b96b-503832933b56

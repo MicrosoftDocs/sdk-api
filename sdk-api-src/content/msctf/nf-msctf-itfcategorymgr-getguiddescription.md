@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDescription
 title: ITfCategoryMgr::GetGUIDDescription (msctf.h)
-description: ITfCategoryMgr::GetGUIDDescription methodhelpviewer_keywords: ["GetGUIDDescription","GetGUIDDescription method [Text Services Framework]","GetGUIDDescription method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","GetGUIDDescription method","ITfCategoryMgr.GetGUIDDescription","ITfCategoryMgr::GetGUIDDescription","_tsf_itfcategorymgr_getguiddescription_ref","msctf/ITfCategoryMgr::GetGUIDDescription","tsf.itfcategorymgr_getguiddescription"]
+description: ITfCategoryMgr::GetGUIDDescription method
+helpviewer_keywords: ["GetGUIDDescription","GetGUIDDescription method [Text Services Framework]","GetGUIDDescription method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","GetGUIDDescription method","ITfCategoryMgr.GetGUIDDescription","ITfCategoryMgr::GetGUIDDescription","_tsf_itfcategorymgr_getguiddescription_ref","msctf/ITfCategoryMgr::GetGUIDDescription","tsf.itfcategorymgr_getguiddescription"]
 old-location: tsf\itfcategorymgr_getguiddescription.htm
 tech.root: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32

@@ -1,9 +1,10 @@
 ---
 UID: NE:wsdbase._WSDUdpMessageType
 title: WSDUdpMessageType (wsdbase.h)
-description: Identifies the type of UDP message.helpviewer_keywords: ["ONE_WAY","TWO_WAY","WSDUdpMessageType","WSDUdpMessageType enumeration","ncd.wsdudpmessagetype","wsdbase/ONE_WAY","wsdbase/TWO_WAY","wsdbase/WSDUdpMessageType"]
+description: Identifies the type of UDP message.
+helpviewer_keywords: ["ONE_WAY","TWO_WAY","WSDUdpMessageType","WSDUdpMessageType enumeration","ncd.wsdudpmessagetype","wsdbase/ONE_WAY","wsdbase/TWO_WAY","wsdbase/WSDUdpMessageType"]
 old-location: ncd\wsdudpmessagetype.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
 ms.date: 12/05/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType

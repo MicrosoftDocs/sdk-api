@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedCommands
 title: IPortableDeviceServiceCapabilities::GetSupportedCommands (portabledeviceapi.h)
-description: Retrieves the commands supported by the service.helpviewer_keywords: ["GetSupportedCommands","GetSupportedCommands method [Windows Portable Devices SDK]","GetSupportedCommands method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetSupportedCommands method","IPortableDeviceServiceCapabilities.GetSupportedCommands","IPortableDeviceServiceCapabilities::GetSupportedCommands","portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedCommands","wpdsdk.iportabledeviceservicecapabilities_getsupportedcommands"]
+description: Retrieves the commands supported by the service.
+helpviewer_keywords: ["GetSupportedCommands","GetSupportedCommands method [Windows Portable Devices SDK]","GetSupportedCommands method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetSupportedCommands method","IPortableDeviceServiceCapabilities.GetSupportedCommands","IPortableDeviceServiceCapabilities::GetSupportedCommands","portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedCommands","wpdsdk.iportabledeviceservicecapabilities_getsupportedcommands"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedcommands.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: b116ae11-f02f-47aa-8c54-4810e2d50046
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceServiceCapabilities.GetSupportedCommands, IPortableDeviceServiceCapabilities::GetSupportedCommands, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedCommands, wpdsdk.iportabledeviceservicecapabilities_getsupportedcommands

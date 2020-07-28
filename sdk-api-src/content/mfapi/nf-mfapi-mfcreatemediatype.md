@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCreateMediaType
 title: MFCreateMediaType function (mfapi.h)
-description: Creates an empty media type.helpviewer_keywords: ["05b0941e-03ce-4ced-9022-22b65d1c4b4c","MFCreateMediaType","MFCreateMediaType function [Media Foundation]","mf.mfcreatemediatype","mfapi/MFCreateMediaType"]
+description: Creates an empty media type.
+helpviewer_keywords: ["05b0941e-03ce-4ced-9022-22b65d1c4b4c","MFCreateMediaType","MFCreateMediaType function [Media Foundation]","mf.mfcreatemediatype","mfapi/MFCreateMediaType"]
 old-location: mf\mfcreatemediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
 ms.date: 12/05/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType

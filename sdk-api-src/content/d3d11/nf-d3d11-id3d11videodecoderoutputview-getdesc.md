@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoderOutputView.GetDesc
 title: ID3D11VideoDecoderOutputView::GetDesc (d3d11.h)
-description: Gets the properties of the video decoder output view.helpviewer_keywords: ["GetDesc","GetDesc method [Media Foundation]","GetDesc method [Media Foundation]","ID3D11VideoDecoderOutputView interface","ID3D11VideoDecoderOutputView interface [Media Foundation]","GetDesc method","ID3D11VideoDecoderOutputView.GetDesc","ID3D11VideoDecoderOutputView::GetDesc","d3d11/ID3D11VideoDecoderOutputView::GetDesc","mf.id3d11videodecoderoutputview_getdesc"]
+description: Gets the properties of the video decoder output view.
+helpviewer_keywords: ["GetDesc","GetDesc method [Media Foundation]","GetDesc method [Media Foundation]","ID3D11VideoDecoderOutputView interface","ID3D11VideoDecoderOutputView interface [Media Foundation]","GetDesc method","ID3D11VideoDecoderOutputView.GetDesc","ID3D11VideoDecoderOutputView::GetDesc","d3d11/ID3D11VideoDecoderOutputView::GetDesc","mf.id3d11videodecoderoutputview_getdesc"]
 old-location: mf\id3d11videodecoderoutputview_getdesc.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 002BE600-2B4C-4337-BAA4-EC132FD3BC8A
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoDecoderOutputView interface, ID3D11VideoDecoderOutputView interface [Media Foundation],GetDesc method, ID3D11VideoDecoderOutputView.GetDesc, ID3D11VideoDecoderOutputView::GetDesc, d3d11/ID3D11VideoDecoderOutputView::GetDesc, mf.id3d11videodecoderoutputview_getdesc

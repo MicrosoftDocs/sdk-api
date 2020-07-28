@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetAlpha
 title: IVMRMixerControl::SetAlpha (strmif.h)
-description: The SetAlpha method sets a constant alpha value that is applied to this video stream.helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetAlpha method","IVMRMixerControl.SetAlpha","IVMRMixerControl::SetAlpha","IVMRMixerControlSetAlpha","SetAlpha","SetAlpha method [DirectShow]","SetAlpha method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setalpha","strmif/IVMRMixerControl::SetAlpha"]
+description: The SetAlpha method sets a constant alpha value that is applied to this video stream.
+helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetAlpha method","IVMRMixerControl.SetAlpha","IVMRMixerControl::SetAlpha","IVMRMixerControlSetAlpha","SetAlpha","SetAlpha method [DirectShow]","SetAlpha method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setalpha","strmif/IVMRMixerControl::SetAlpha"]
 old-location: dshow\ivmrmixercontrol_setalpha.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: aab95d45-b8f1-40cb-811f-c1d00aa37c97
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetAlpha method, IVMRMixerControl.SetAlpha, IVMRMixerControl::SetAlpha, IVMRMixerControlSetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setalpha, strmif/IVMRMixerControl::SetAlpha

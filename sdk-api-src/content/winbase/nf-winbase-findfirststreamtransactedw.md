@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.FindFirstStreamTransactedW
 title: FindFirstStreamTransactedW function (winbase.h)
-description: Enumerates the first stream in the specified file or directory as a transacted operation.helpviewer_keywords: ["FindFirstStreamTransactedW","FindFirstStreamTransactedW function [Files]","FindStreamInfoStandard","fs.findfirststreamtransactedw","winbase/FindFirstStreamTransactedW"]
+description: Enumerates the first stream in the specified file or directory as a transacted operation.
+helpviewer_keywords: ["FindFirstStreamTransactedW","FindFirstStreamTransactedW function [Files]","FindStreamInfoStandard","fs.findfirststreamtransactedw","winbase/FindFirstStreamTransactedW"]
 old-location: fs\findfirststreamtransactedw.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW

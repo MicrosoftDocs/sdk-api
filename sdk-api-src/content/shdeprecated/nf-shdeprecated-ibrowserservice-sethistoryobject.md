@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetHistoryObject
 title: IBrowserService::SetHistoryObject (shdeprecated.h)
-description: Deprecated. Sets the browser's history object.helpviewer_keywords: ["IBrowserService interface [Windows Shell]","SetHistoryObject method","IBrowserService.SetHistoryObject","IBrowserService::SetHistoryObject","SetHistoryObject","SetHistoryObject method [Windows Shell]","SetHistoryObject method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::SetHistoryObject","shell.IBrowserService_SetHistoryObject","zone_IBrowserService_SetHistoryObject"]
+description: Deprecated. Sets the browser's history object.
+helpviewer_keywords: ["IBrowserService interface [Windows Shell]","SetHistoryObject method","IBrowserService.SetHistoryObject","IBrowserService::SetHistoryObject","SetHistoryObject","SetHistoryObject method [Windows Shell]","SetHistoryObject method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::SetHistoryObject","shell.IBrowserService_SetHistoryObject","zone_IBrowserService_SetHistoryObject"]
 old-location: shell\IBrowserService_SetHistoryObject.htm
 tech.root: shell
 ms.assetid: 1a0b55b0-a6b6-4b0c-be09-cfb573a5420c

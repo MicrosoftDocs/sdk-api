@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.PathCleanupSpec
 title: PathCleanupSpec function (shlobj_core.h)
-description: PathCleanupSpec may be altered or unavailable.helpviewer_keywords: ["PathCleanupSpec","PathCleanupSpec function [Windows Shell]","_win32_PathCleanupSpec","shell.PathCleanupSpec","shlobj_core/PathCleanupSpec"]
+description: PathCleanupSpec may be altered or unavailable.
+helpviewer_keywords: ["PathCleanupSpec","PathCleanupSpec function [Windows Shell]","_win32_PathCleanupSpec","shell.PathCleanupSpec","shlobj_core/PathCleanupSpec"]
 old-location: shell\PathCleanupSpec.htm
 tech.root: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa

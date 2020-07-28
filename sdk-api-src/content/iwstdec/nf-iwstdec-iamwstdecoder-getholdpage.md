@@ -1,9 +1,10 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetHoldPage
 title: IAMWstDecoder::GetHoldPage (iwstdec.h)
-description: Downstream filters use the GetHoldPage method to determine whether the current WST page is held. When the WST decoder holds a page, any updates from the TV stream are turned off. It is though the page was paused in real time.helpviewer_keywords: ["GetHoldPage","GetHoldPage method [DirectShow]","GetHoldPage method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetHoldPage method","IAMWstDecoder.GetHoldPage","IAMWstDecoder::GetHoldPage","IAMWstDecoderGetHoldPage","dshow.iamwstdecoder_getholdpage","iwstdec/IAMWstDecoder::GetHoldPage"]
+description: Downstream filters use the GetHoldPage method to determine whether the current WST page is held. When the WST decoder holds a page, any updates from the TV stream are turned off. It is though the page was paused in real time.
+helpviewer_keywords: ["GetHoldPage","GetHoldPage method [DirectShow]","GetHoldPage method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetHoldPage method","IAMWstDecoder.GetHoldPage","IAMWstDecoder::GetHoldPage","IAMWstDecoderGetHoldPage","dshow.iamwstdecoder_getholdpage","iwstdec/IAMWstDecoder::GetHoldPage"]
 old-location: dshow\iamwstdecoder_getholdpage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: db09b2a2-7f92-421a-8582-4ed648563119
 ms.date: 12/05/2018
 ms.keywords: GetHoldPage, GetHoldPage method [DirectShow], GetHoldPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetHoldPage method, IAMWstDecoder.GetHoldPage, IAMWstDecoder::GetHoldPage, IAMWstDecoderGetHoldPage, dshow.iamwstdecoder_getholdpage, iwstdec/IAMWstDecoder::GetHoldPage

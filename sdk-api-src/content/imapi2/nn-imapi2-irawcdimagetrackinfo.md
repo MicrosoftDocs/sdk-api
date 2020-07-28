@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IRawCDImageTrackInfo
 title: IRawCDImageTrackInfo (imapi2.h)
-description: Use this interface to track per-track properties that are applied to CD media.helpviewer_keywords: ["IRawCDImageTrackInfo","IRawCDImageTrackInfo interface [IMAPI]","IRawCDImageTrackInfo interface [IMAPI]","described","imapi.irawcdimagetrackinfo","imapi2/IRawCDImageTrackInfo"]
+description: Use this interface to track per-track properties that are applied to CD media.
+helpviewer_keywords: ["IRawCDImageTrackInfo","IRawCDImageTrackInfo interface [IMAPI]","IRawCDImageTrackInfo interface [IMAPI]","described","imapi.irawcdimagetrackinfo","imapi2/IRawCDImageTrackInfo"]
 old-location: imapi\irawcdimagetrackinfo.htm
 tech.root: imapi
 ms.assetid: 5d074279-35fb-48d0-b298-c1a83f57d805

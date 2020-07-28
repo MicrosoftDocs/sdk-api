@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.RedEyeCorrection
 title: RedEyeCorrection (gdipluseffects.h)
-description: The RedEyeCorrection class enables you to correct the red eyes that sometimes occur in flash photographs.helpviewer_keywords: ["RedEyeCorrection","RedEyeCorrection class [GDI+]","RedEyeCorrection class [GDI+]","described","_gdiplus_CLASS_RedEyeCorrection_Class","gdiplus._gdiplus_CLASS_RedEyeCorrection_Class","gdipluseffects/RedEyeCorrection"]
+description: The RedEyeCorrection class enables you to correct the red eyes that sometimes occur in flash photographs.
+helpviewer_keywords: ["RedEyeCorrection","RedEyeCorrection class [GDI+]","RedEyeCorrection class [GDI+]","described","_gdiplus_CLASS_RedEyeCorrection_Class","gdiplus._gdiplus_CLASS_RedEyeCorrection_Class","gdipluseffects/RedEyeCorrection"]
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrection.htm

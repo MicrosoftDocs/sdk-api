@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateMenuDescriptor
 title: OleCreateMenuDescriptor function (ole2.h)
-description: Creates and returns an OLE menu descriptor (that is, an OLE-provided data structure that describes the menus) for OLE to use when dispatching menu messages and commands.helpviewer_keywords: ["OleCreateMenuDescriptor","OleCreateMenuDescriptor function [COM]","_ole_OleCreateMenuDescriptor","com.olecreatemenudescriptor","ole2/OleCreateMenuDescriptor"]
+description: Creates and returns an OLE menu descriptor (that is, an OLE-provided data structure that describes the menus) for OLE to use when dispatching menu messages and commands.
+helpviewer_keywords: ["OleCreateMenuDescriptor","OleCreateMenuDescriptor function [COM]","_ole_OleCreateMenuDescriptor","com.olecreatemenudescriptor","ole2/OleCreateMenuDescriptor"]
 old-location: com\olecreatemenudescriptor.htm
 tech.root: com
 ms.assetid: b4a6b3f1-aee9-4b68-8ffe-24bd497db0a0

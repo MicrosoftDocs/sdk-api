@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.StartThreadpoolIo
 title: StartThreadpoolIo function (threadpoolapiset.h)
-description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.helpviewer_keywords: ["StartThreadpoolIo","StartThreadpoolIo function","base.startthreadpoolio","threadpoolapiset/StartThreadpoolIo","winbase/StartThreadpoolIo"]
+description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.
+helpviewer_keywords: ["StartThreadpoolIo","StartThreadpoolIo function","base.startthreadpoolio","threadpoolapiset/StartThreadpoolIo","winbase/StartThreadpoolIo"]
 old-location: base\startthreadpoolio.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5a817d6f-a8e6-4aaa-b560-0128eacb98b1
 ms.date: 12/05/2018
 ms.keywords: StartThreadpoolIo, StartThreadpoolIo function, base.startthreadpoolio, threadpoolapiset/StartThreadpoolIo, winbase/StartThreadpoolIo

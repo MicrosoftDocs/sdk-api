@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IOverlayNotify2.OnDisplayChange
 title: IOverlayNotify2::OnDisplayChange (strmif.h)
-description: The OnDisplayChange method provides notification that the exposed window area has changed.helpviewer_keywords: ["IOverlayNotify2 interface [DirectShow]","OnDisplayChange method","IOverlayNotify2.OnDisplayChange","IOverlayNotify2::OnDisplayChange","IOverlayNotify2OnDisplayChange","OnDisplayChange","OnDisplayChange method [DirectShow]","OnDisplayChange method [DirectShow]","IOverlayNotify2 interface","dshow.ioverlaynotify2_ondisplaychange","strmif/IOverlayNotify2::OnDisplayChange"]
+description: The OnDisplayChange method provides notification that the exposed window area has changed.
+helpviewer_keywords: ["IOverlayNotify2 interface [DirectShow]","OnDisplayChange method","IOverlayNotify2.OnDisplayChange","IOverlayNotify2::OnDisplayChange","IOverlayNotify2OnDisplayChange","OnDisplayChange","OnDisplayChange method [DirectShow]","OnDisplayChange method [DirectShow]","IOverlayNotify2 interface","dshow.ioverlaynotify2_ondisplaychange","strmif/IOverlayNotify2::OnDisplayChange"]
 old-location: dshow\ioverlaynotify2_ondisplaychange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8f32a373-5d98-4491-8bfb-9445cb15ff10
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify2 interface [DirectShow],OnDisplayChange method, IOverlayNotify2.OnDisplayChange, IOverlayNotify2::OnDisplayChange, IOverlayNotify2OnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IOverlayNotify2 interface, dshow.ioverlaynotify2_ondisplaychange, strmif/IOverlayNotify2::OnDisplayChange

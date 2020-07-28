@@ -1,9 +1,10 @@
 ---
 UID: NS:mfplay.MFP_MF_EVENT
 title: MFP_MF_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_MF event.helpviewer_keywords: ["MFP_MF_EVENT","MFP_MF_EVENT structure [Media Foundation]","mf.mfp_mf_event","mfplay/MFP_MF_EVENT"]
+description: Event structure for the MFP_EVENT_TYPE_MF event.
+helpviewer_keywords: ["MFP_MF_EVENT","MFP_MF_EVENT structure [Media Foundation]","mf.mfp_mf_event","mfplay/MFP_MF_EVENT"]
 old-location: mf\mfp_mf_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
 ms.date: 12/05/2018
 ms.keywords: MFP_MF_EVENT, MFP_MF_EVENT structure [Media Foundation], mf.mfp_mf_event, mfplay/MFP_MF_EVENT

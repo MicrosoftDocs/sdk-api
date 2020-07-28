@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_NVME_DATA_TYPE
 description: Describes the type of NVMe protocol-specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 helpviewer_keywords: ["*PSTORAGE_PROTOCOL_NVME_DATA_TYPE","NVMeDataTypeFeature","NVMeDataTypeIdentify","NVMeDataTypeLogPage","NVMeDataTypeUnknown","PSTORAGE_PROTOCOL_NVME_DATA_TYPE","PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Files]","STORAGE_PROTOCOL_NVME_DATA_TYPE","STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Files]","fs.storage_protocol_nvme_data_type","winioctl/NVMeDataTypeFeature","winioctl/NVMeDataTypeIdentify","winioctl/NVMeDataTypeLogPage","winioctl/NVMeDataTypeUnknown","winioctl/PSTORAGE_PROTOCOL_NVME_DATA_TYPE","winioctl/STORAGE_PROTOCOL_NVME_DATA_TYPE"]
 old-location: fs\storage_protocol_nvme_data_type.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: BB171CEE-1CB7-44AC-9F39-87394EFAFAEC
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeFeature, NVMeDataTypeIdentify, NVMeDataTypeLogPage, NVMeDataTypeUnknown, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Files], STORAGE_PROTOCOL_NVME_DATA_TYPE, STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Files], fs.storage_protocol_nvme_data_type, winioctl/NVMeDataTypeFeature, winioctl/NVMeDataTypeIdentify, winioctl/NVMeDataTypeLogPage, winioctl/NVMeDataTypeUnknown, winioctl/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, winioctl/STORAGE_PROTOCOL_NVME_DATA_TYPE'

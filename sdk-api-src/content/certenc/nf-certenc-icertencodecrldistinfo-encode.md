@@ -1,9 +1,10 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Encode
 title: ICertEncodeCRLDistInfo::Encode (certenc.h)
-description: Performs Abstract Syntax Notation One (ASN.1) encoding on a certificate revocation list (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeCRLDistInfo object","Encode method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","Encode method","ICertEncodeCRLDistInfo.Encode","ICertEncodeCRLDistInfo::Encode","_certsrv_icertencodecrldistinfo_encode","certenc/ICertEncodeCRLDistInfo::Encode","security.icertencodecrldistinfo_encode"]
+description: Performs Abstract Syntax Notation One (ASN.1) encoding on a certificate revocation list (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
+helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeCRLDistInfo object","Encode method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","Encode method","ICertEncodeCRLDistInfo.Encode","ICertEncodeCRLDistInfo::Encode","_certsrv_icertencodecrldistinfo_encode","certenc/ICertEncodeCRLDistInfo::Encode","security.icertencodecrldistinfo_encode"]
 old-location: security\icertencodecrldistinfo_encode.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 46520e3a-1f15-4d1c-9f44-b9b420fb4f25
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeCRLDistInfo object, Encode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Encode method, ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode

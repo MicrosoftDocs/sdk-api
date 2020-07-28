@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspInformations.GetHashAlgorithms
 title: ICspInformations::GetHashAlgorithms (certenroll.h)
-description: Retrieves the collection of hash algorithms supported by a provider.helpviewer_keywords: ["GetHashAlgorithms","GetHashAlgorithms method [Security]","GetHashAlgorithms method [Security]","ICspInformations interface","ICspInformations interface [Security]","GetHashAlgorithms method","ICspInformations.GetHashAlgorithms","ICspInformations::GetHashAlgorithms","certenroll/ICspInformations::GetHashAlgorithms","security.icspinformations_gethashalgorithms_method"]
+description: Retrieves the collection of hash algorithms supported by a provider.
+helpviewer_keywords: ["GetHashAlgorithms","GetHashAlgorithms method [Security]","GetHashAlgorithms method [Security]","ICspInformations interface","ICspInformations interface [Security]","GetHashAlgorithms method","ICspInformations.GetHashAlgorithms","ICspInformations::GetHashAlgorithms","certenroll/ICspInformations::GetHashAlgorithms","security.icspinformations_gethashalgorithms_method"]
 old-location: security\icspinformations_gethashalgorithms_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 647cad18-ed2e-4f3a-92d4-28fcfe60a800
 ms.date: 12/05/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetHashAlgorithms method, ICspInformations.GetHashAlgorithms, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method

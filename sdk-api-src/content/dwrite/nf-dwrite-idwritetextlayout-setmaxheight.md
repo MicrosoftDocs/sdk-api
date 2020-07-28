@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetMaxHeight
 title: IDWriteTextLayout::SetMaxHeight (dwrite.h)
-description: Sets the layout maximum height.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetMaxHeight method","IDWriteTextLayout.SetMaxHeight","IDWriteTextLayout::SetMaxHeight","SetMaxHeight","SetMaxHeight method [Direct Write]","SetMaxHeight method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetMaxHeight","dwrite/IDWriteTextLayout::SetMaxHeight"]
+description: Sets the layout maximum height.
+helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetMaxHeight method","IDWriteTextLayout.SetMaxHeight","IDWriteTextLayout::SetMaxHeight","SetMaxHeight","SetMaxHeight method [Direct Write]","SetMaxHeight method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetMaxHeight","dwrite/IDWriteTextLayout::SetMaxHeight"]
 old-location: directwrite\IDWriteTextLayout_SetMaxHeight.htm
 tech.root: DirectWrite
 ms.assetid: 5d71a597-7b7d-402f-a2e6-b41f5cadf061

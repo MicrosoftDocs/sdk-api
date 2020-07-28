@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaPatternRelease
 title: UiaPatternRelease function (uiautomationcoreapi.h)
-description: Deletes an allocated pattern object from memory.helpviewer_keywords: ["UiaPatternRelease","UiaPatternRelease function [Windows Accessibility]","uiauto.uiauto_UiaPatternReleaseMemManMeth","uiauto_UiaPatternReleaseMemManMeth","uiautomationcoreapi/UiaPatternRelease","winauto.uiauto_UiaPatternReleaseMemManMeth"]
+description: Deletes an allocated pattern object from memory.
+helpviewer_keywords: ["UiaPatternRelease","UiaPatternRelease function [Windows Accessibility]","uiauto.uiauto_UiaPatternReleaseMemManMeth","uiauto_UiaPatternReleaseMemManMeth","uiautomationcoreapi/UiaPatternRelease","winauto.uiauto_UiaPatternReleaseMemManMeth"]
 old-location: winauto\uiauto_UiaPatternReleaseMemManMeth.htm
 tech.root: WinAuto
 ms.assetid: caa7231b-5b31-499e-b548-479501ddf016

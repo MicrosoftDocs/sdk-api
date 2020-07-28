@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.SetIndent
 title: ITextRow::SetIndent (tom.h)
-description: Sets the indent of a row.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetIndent method","ITextRow.SetIndent","ITextRow::SetIndent","SetIndent","SetIndent method [Windows Controls]","SetIndent method [Windows Controls]","ITextRow interface","controls.itextrow_setindent","tom/ITextRow::SetIndent"]
+description: Sets the indent of a row.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetIndent method","ITextRow.SetIndent","ITextRow::SetIndent","SetIndent","SetIndent method [Windows Controls]","SetIndent method [Windows Controls]","ITextRow interface","controls.itextrow_setindent","tom/ITextRow::SetIndent"]
 old-location: controls\itextrow_setindent.htm
 tech.root: Controls
 ms.assetid: 9846fbd5-c210-49c4-8abe-dfb9cb85f7ae

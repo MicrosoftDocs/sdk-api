@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResource.GetDictionary
 title: IXpsOMRemoteDictionaryResource::GetDictionary (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMDictionary interface of the remote dictionary that is associated with this resource.helpviewer_keywords: ["GetDictionary","GetDictionary method [XPS Documents and Packaging]","GetDictionary method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource interface","IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging]","GetDictionary method","IXpsOMRemoteDictionaryResource.GetDictionary","IXpsOMRemoteDictionaryResource::GetDictionary","xps.ixpsomremotedictionaryresource_getdictionary","xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary"]
+description: Gets a pointer to the IXpsOMDictionary interface of the remote dictionary that is associated with this resource.
+helpviewer_keywords: ["GetDictionary","GetDictionary method [XPS Documents and Packaging]","GetDictionary method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource interface","IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging]","GetDictionary method","IXpsOMRemoteDictionaryResource.GetDictionary","IXpsOMRemoteDictionaryResource::GetDictionary","xps.ixpsomremotedictionaryresource_getdictionary","xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary"]
 old-location: xps\ixpsomremotedictionaryresource_getdictionary.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8363aa97-b7ca-458e-84d9-d9316070a3d0
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],GetDictionary method, IXpsOMRemoteDictionaryResource.GetDictionary, IXpsOMRemoteDictionaryResource::GetDictionary, xps.ixpsomremotedictionaryresource_getdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary

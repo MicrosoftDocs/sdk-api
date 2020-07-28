@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11Module.CreateInstance
 title: ID3D11Module::CreateInstance (d3d11shader.h)
-description: Initializes an instance of a shader module that is used for resource rebinding.helpviewer_keywords: ["CreateInstance","CreateInstance method [Direct3D 11]","CreateInstance method [Direct3D 11]","ID3D11Module interface","ID3D11Module interface [Direct3D 11]","CreateInstance method","ID3D11Module.CreateInstance","ID3D11Module::CreateInstance","d3d11shader/ID3D11Module::CreateInstance","direct3d11.id3d11module_createinstance"]
+description: Initializes an instance of a shader module that is used for resource rebinding.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Direct3D 11]","CreateInstance method [Direct3D 11]","ID3D11Module interface","ID3D11Module interface [Direct3D 11]","CreateInstance method","ID3D11Module.CreateInstance","ID3D11Module::CreateInstance","d3d11shader/ID3D11Module::CreateInstance","direct3d11.id3d11module_createinstance"]
 old-location: direct3d11\id3d11module_createinstance.htm
 tech.root: direct3d11
 ms.assetid: 737A69EF-F74E-4480-98EA-31D6CCAC0F8A

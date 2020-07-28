@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.DoesSupportIndexing
 title: IWICJpegFrameDecode::DoesSupportIndexing (wincodec.h)
-description: Retrieves a value indicating whether this decoder supports indexing for efficient random access.helpviewer_keywords: ["DoesSupportIndexing","DoesSupportIndexing method [Windows Imaging Component]","DoesSupportIndexing method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","DoesSupportIndexing method","IWICJpegFrameDecode.DoesSupportIndexing","IWICJpegFrameDecode::DoesSupportIndexing","wic.iwicjpegframedecode_doessupportindexing","wincodec/IWICJpegFrameDecode::DoesSupportIndexing"]
+description: Retrieves a value indicating whether this decoder supports indexing for efficient random access.
+helpviewer_keywords: ["DoesSupportIndexing","DoesSupportIndexing method [Windows Imaging Component]","DoesSupportIndexing method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","DoesSupportIndexing method","IWICJpegFrameDecode.DoesSupportIndexing","IWICJpegFrameDecode::DoesSupportIndexing","wic.iwicjpegframedecode_doessupportindexing","wincodec/IWICJpegFrameDecode::DoesSupportIndexing"]
 old-location: wic\iwicjpegframedecode_doessupportindexing.htm
 tech.root: wic
 ms.assetid: 99486168-6BF9-40C2-B9D8-903A73AAD125

@@ -1,9 +1,10 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_FUNCTIONS
 title: CRYPT_PROVIDER_FUNCTIONS (wintrust.h)
-description: Defines the functions used by a cryptographic service provider (CSP) for WinTrust operations.helpviewer_keywords: ["*PCRYPT_PROVIDER_FUNCTIONS","CRYPT_PROVIDER_FUNCTIONS","CRYPT_PROVIDER_FUNCTIONS structure [Security]","PCRYPT_PROVIDER_FUNCTIONS","PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security]","security.crypt_provider_functions","wintrust/CRYPT_PROVIDER_FUNCTIONS","wintrust/PCRYPT_PROVIDER_FUNCTIONS"]
+description: Defines the functions used by a cryptographic service provider (CSP) for WinTrust operations.
+helpviewer_keywords: ["*PCRYPT_PROVIDER_FUNCTIONS","CRYPT_PROVIDER_FUNCTIONS","CRYPT_PROVIDER_FUNCTIONS structure [Security]","PCRYPT_PROVIDER_FUNCTIONS","PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security]","security.crypt_provider_functions","wintrust/CRYPT_PROVIDER_FUNCTIONS","wintrust/PCRYPT_PROVIDER_FUNCTIONS"]
 old-location: security\crypt_provider_functions.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2c00f8ec-e262-4df8-8984-a2702a4162bf
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS structure [Security], PCRYPT_PROVIDER_FUNCTIONS, PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security], security.crypt_provider_functions, wintrust/CRYPT_PROVIDER_FUNCTIONS, wintrust/PCRYPT_PROVIDER_FUNCTIONS'

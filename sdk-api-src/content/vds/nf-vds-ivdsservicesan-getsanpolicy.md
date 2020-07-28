@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsServiceSAN.GetSANPolicy
 title: IVdsServiceSAN::GetSANPolicy (vds.h)
-description: Gets the disk SAN policy for the operating system.helpviewer_keywords: ["GetSANPolicy","GetSANPolicy method","GetSANPolicy method","IVdsServiceSAN interface","IVdsServiceSAN interface","GetSANPolicy method","IVdsServiceSAN.GetSANPolicy","IVdsServiceSAN::GetSANPolicy","base.ivdsservicesan_getsanpolicy","vds/IVdsServiceSAN::GetSANPolicy"]
+description: Gets the disk SAN policy for the operating system.
+helpviewer_keywords: ["GetSANPolicy","GetSANPolicy method","GetSANPolicy method","IVdsServiceSAN interface","IVdsServiceSAN interface","GetSANPolicy method","IVdsServiceSAN.GetSANPolicy","IVdsServiceSAN::GetSANPolicy","base.ivdsservicesan_getsanpolicy","vds/IVdsServiceSAN::GetSANPolicy"]
 old-location: base\ivdsservicesan_getsanpolicy.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 59602d97-2fdf-4d1b-b158-e545619397e0
 ms.date: 12/05/2018
 ms.keywords: GetSANPolicy, GetSANPolicy method, GetSANPolicy method,IVdsServiceSAN interface, IVdsServiceSAN interface,GetSANPolicy method, IVdsServiceSAN.GetSANPolicy, IVdsServiceSAN::GetSANPolicy, base.ivdsservicesan_getsanpolicy, vds/IVdsServiceSAN::GetSANPolicy

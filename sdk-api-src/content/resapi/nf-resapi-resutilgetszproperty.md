@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetSzProperty
 title: ResUtilGetSzProperty function (resapi.h)
-description: Retrieves a string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_SZ_PROPERTY type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_SZ_PROPERTY","PRESUTIL_GET_SZ_PROPERTY function [Failover Cluster]","ResUtilGetSzProperty","ResUtilGetSzProperty function [Failover Cluster]","_wolf_resutilgetszproperty","mscs.resutilgetszproperty","resapi/PRESUTIL_GET_SZ_PROPERTY","resapi/ResUtilGetSzProperty"]
+description: Retrieves a string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_SZ_PROPERTY type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_SZ_PROPERTY","PRESUTIL_GET_SZ_PROPERTY function [Failover Cluster]","ResUtilGetSzProperty","ResUtilGetSzProperty function [Failover Cluster]","_wolf_resutilgetszproperty","mscs.resutilgetszproperty","resapi/PRESUTIL_GET_SZ_PROPERTY","resapi/ResUtilGetSzProperty"]
 old-location: mscs\resutilgetszproperty.htm
 tech.root: MsCS
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616

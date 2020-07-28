@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MultiplyTransform
 title: Graphics::MultiplyTransform (gdiplusgraphics.h)
-description: The Graphics::MultiplyTransform method updates this Graphics object's world transformation matrix with the product of itself and another matrix.helpviewer_keywords: ["Graphics class [GDI+]","MultiplyTransform method","Graphics.MultiplyTransform","Graphics::MultiplyTransform","MultiplyTransform","MultiplyTransform method [GDI+]","MultiplyTransform method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_","gdiplus._gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_"]
+description: The Graphics::MultiplyTransform method updates this Graphics object's world transformation matrix with the product of itself and another matrix.
+helpviewer_keywords: ["Graphics class [GDI+]","MultiplyTransform method","Graphics.MultiplyTransform","Graphics::MultiplyTransform","MultiplyTransform","MultiplyTransform method [GDI+]","MultiplyTransform method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_","gdiplus._gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\multiplytransform.htm

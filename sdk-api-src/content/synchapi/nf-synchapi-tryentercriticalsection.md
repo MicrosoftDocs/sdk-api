@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.TryEnterCriticalSection
 title: TryEnterCriticalSection function (synchapi.h)
-description: Attempts to enter a critical section without blocking. If the call is successful, the calling thread takes ownership of the critical section.helpviewer_keywords: ["TryEnterCriticalSection","TryEnterCriticalSection function","_win32_tryentercriticalsection","base.tryentercriticalsection","synchapi/TryEnterCriticalSection","winbase/TryEnterCriticalSection"]
+description: Attempts to enter a critical section without blocking. If the call is successful, the calling thread takes ownership of the critical section.
+helpviewer_keywords: ["TryEnterCriticalSection","TryEnterCriticalSection function","_win32_tryentercriticalsection","base.tryentercriticalsection","synchapi/TryEnterCriticalSection","winbase/TryEnterCriticalSection"]
 old-location: base\tryentercriticalsection.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 5225bda1-6e20-4f6b-9f9b-633c62acfdce
 ms.date: 12/05/2018
 ms.keywords: TryEnterCriticalSection, TryEnterCriticalSection function, _win32_tryentercriticalsection, base.tryentercriticalsection, synchapi/TryEnterCriticalSection, winbase/TryEnterCriticalSection

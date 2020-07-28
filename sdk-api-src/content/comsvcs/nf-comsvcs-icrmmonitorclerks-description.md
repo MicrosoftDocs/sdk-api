@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.Description
 title: ICrmMonitorClerks::Description (comsvcs.h)
-description: Retrieves the description of the CRM Compensator for the specified index.helpviewer_keywords: ["Description","Description method [COM+]","Description method [COM+]","ICrmMonitorClerks interface","ICrmMonitorClerks interface [COM+]","Description method","ICrmMonitorClerks.Description","ICrmMonitorClerks::Description","_dtc_ICrmMonitorClerks_Description","comsvcs/ICrmMonitorClerks::Description","cos.icrmmonitorclerks_description"]
+description: Retrieves the description of the CRM Compensator for the specified index.
+helpviewer_keywords: ["Description","Description method [COM+]","Description method [COM+]","ICrmMonitorClerks interface","ICrmMonitorClerks interface [COM+]","Description method","ICrmMonitorClerks.Description","ICrmMonitorClerks::Description","_dtc_ICrmMonitorClerks_Description","comsvcs/ICrmMonitorClerks::Description","cos.icrmmonitorclerks_description"]
 old-location: cos\icrmmonitorclerks_description.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3603d898-1601-419b-b3f8-3ad49f2070a0
 ms.date: 12/05/2018
 ms.keywords: Description, Description method [COM+], Description method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],Description method, ICrmMonitorClerks.Description, ICrmMonitorClerks::Description, _dtc_ICrmMonitorClerks_Description, comsvcs/ICrmMonitorClerks::Description, cos.icrmmonitorclerks_description

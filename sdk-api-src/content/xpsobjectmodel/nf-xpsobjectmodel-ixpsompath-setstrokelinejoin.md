@@ -4,7 +4,7 @@ title: IXpsOMPath::SetStrokeLineJoin (xpsobjectmodel.h)
 description: Sets the style for joining stroke lines.
 helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeLineJoin method","IXpsOMPath.SetStrokeLineJoin","IXpsOMPath::SetStrokeLineJoin","SetStrokeLineJoin","SetStrokeLineJoin method [XPS Documents and Packaging]","SetStrokeLineJoin method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokelinejoin","xpsobjectmodel/IXpsOMPath::SetStrokeLineJoin"]
 old-location: xps\ixpsompath_setstrokelinejoin.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: cd650051-ee26-4a8a-b344-2fe84fb2c2a5
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeLineJoin method, IXpsOMPath.SetStrokeLineJoin, IXpsOMPath::SetStrokeLineJoin, SetStrokeLineJoin, SetStrokeLineJoin method [XPS Documents and Packaging], SetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokelinejoin, xpsobjectmodel/IXpsOMPath::SetStrokeLineJoin

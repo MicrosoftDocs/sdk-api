@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509ExtensionKeyUsage.InitializeDecode
 title: IX509ExtensionKeyUsage::InitializeDecode (certenroll.h)
-description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.helpviewer_keywords: ["IX509ExtensionKeyUsage interface [Security]","InitializeDecode method","IX509ExtensionKeyUsage.InitializeDecode","IX509ExtensionKeyUsage::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionKeyUsage interface","certenroll/IX509ExtensionKeyUsage::InitializeDecode","security.ix509extensionkeyusage_initializedecode_method"]
+description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
+helpviewer_keywords: ["IX509ExtensionKeyUsage interface [Security]","InitializeDecode method","IX509ExtensionKeyUsage.InitializeDecode","IX509ExtensionKeyUsage::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionKeyUsage interface","certenroll/IX509ExtensionKeyUsage::InitializeDecode","security.ix509extensionkeyusage_initializedecode_method"]
 old-location: security\ix509extensionkeyusage_initializedecode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5e51a148-0a76-4f38-b92f-fd5209e0b497
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],InitializeDecode method, IX509ExtensionKeyUsage.InitializeDecode, IX509ExtensionKeyUsage::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::InitializeDecode, security.ix509extensionkeyusage_initializedecode_method

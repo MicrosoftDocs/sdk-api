@@ -4,7 +4,7 @@ title: PEER_EVENT_INCOMING_DATA (p2p.h)
 description: Points to the PEER_EVENT_INCOMING_DATA structure if one of the following peer events is triggered.
 helpviewer_keywords: ["*PPEER_EVENT_INCOMING_DATA","PEER_EVENT_INCOMING_DATA","PEER_EVENT_INCOMING_DATA structure [Peer Networking]","PPEER_EVENT_INCOMING_DATA","PPEER_EVENT_INCOMING_DATA structure pointer [Peer Networking]","p2p.peer_event_incoming_data","p2p/PPEER_EVENT_INCOMING_DATA","p2p/peer_event_incoming_data_tag"]
 old-location: p2p\peer_event_incoming_data.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 93104ca5-b3de-492c-965e-3acd12d05ea6
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_EVENT_INCOMING_DATA, PEER_EVENT_INCOMING_DATA, PEER_EVENT_INCOMING_DATA structure [Peer Networking], PPEER_EVENT_INCOMING_DATA, PPEER_EVENT_INCOMING_DATA structure pointer [Peer Networking], p2p.peer_event_incoming_data, p2p/PPEER_EVENT_INCOMING_DATA, p2p/peer_event_incoming_data_tag'

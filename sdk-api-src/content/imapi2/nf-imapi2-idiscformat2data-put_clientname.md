@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_ClientName
 title: IDiscFormat2Data::put_ClientName (imapi2.h)
-description: Sets the friendly name of the client.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_ClientName method","IDiscFormat2Data.put_ClientName","IDiscFormat2Data::put_ClientName","imapi.idiscformat2data_put_clientname","imapi2/IDiscFormat2Data::put_ClientName","put_ClientName","put_ClientName method [IMAPI]","put_ClientName method [IMAPI]","IDiscFormat2Data interface"]
+description: Sets the friendly name of the client.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_ClientName method","IDiscFormat2Data.put_ClientName","IDiscFormat2Data::put_ClientName","imapi.idiscformat2data_put_clientname","imapi2/IDiscFormat2Data::put_ClientName","put_ClientName","put_ClientName method [IMAPI]","put_ClientName method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_clientname.htm
 tech.root: imapi
 ms.assetid: 1cd4ef46-4769-4e8e-80ca-fdcd81b486f1

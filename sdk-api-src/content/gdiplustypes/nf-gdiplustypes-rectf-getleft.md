@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.RectF.GetLeft
 title: RectF::GetLeft (gdiplustypes.h)
-description: The RectF::GetLeft method gets the x-coordinate of the left edge of the rectangle.helpviewer_keywords: ["GetLeft","GetLeft method [GDI+]","GetLeft method [GDI+]","RectF class","RectF class [GDI+]","GetLeft method","RectF.GetLeft","RectF::GetLeft","_gdiplus_CLASS_RectF_GetLeft_","gdiplus._gdiplus_CLASS_RectF_GetLeft_"]
+description: The RectF::GetLeft method gets the x-coordinate of the left edge of the rectangle.
+helpviewer_keywords: ["GetLeft","GetLeft method [GDI+]","GetLeft method [GDI+]","RectF class","RectF class [GDI+]","GetLeft method","RectF.GetLeft","RectF::GetLeft","_gdiplus_CLASS_RectF_GetLeft_","gdiplus._gdiplus_CLASS_RectF_GetLeft_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetLeft_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getleft_55.htm

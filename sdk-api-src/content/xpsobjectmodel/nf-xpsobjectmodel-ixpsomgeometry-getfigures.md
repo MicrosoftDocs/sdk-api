@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetFigures
 title: IXpsOMGeometry::GetFigures (xpsobjectmodel.h)
-description: Gets a pointer to the geometry's IXpsOMGeometryFigureCollection interface, which contains the collection of figures that make up this geometry.helpviewer_keywords: ["GetFigures","GetFigures method [XPS Documents and Packaging]","GetFigures method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetFigures method","IXpsOMGeometry.GetFigures","IXpsOMGeometry::GetFigures","xps.ixpsomgeometry_getfigures","xpsobjectmodel/IXpsOMGeometry::GetFigures"]
+description: Gets a pointer to the geometry's IXpsOMGeometryFigureCollection interface, which contains the collection of figures that make up this geometry.
+helpviewer_keywords: ["GetFigures","GetFigures method [XPS Documents and Packaging]","GetFigures method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetFigures method","IXpsOMGeometry.GetFigures","IXpsOMGeometry::GetFigures","xps.ixpsomgeometry_getfigures","xpsobjectmodel/IXpsOMGeometry::GetFigures"]
 old-location: xps\ixpsomgeometry_getfigures.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c49566d6-8a37-4ad6-9b3a-52ef39b925be
 ms.date: 12/05/2018
 ms.keywords: GetFigures, GetFigures method [XPS Documents and Packaging], GetFigures method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetFigures method, IXpsOMGeometry.GetFigures, IXpsOMGeometry::GetFigures, xps.ixpsomgeometry_getfigures, xpsobjectmodel/IXpsOMGeometry::GetFigures

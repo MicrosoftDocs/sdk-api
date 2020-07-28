@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.ImpersonateLoggedOnUser
 title: ImpersonateLoggedOnUser function (securitybaseapi.h)
-description: Lets the calling thread impersonate the security context of a logged-on user. The user is represented by a token handle.helpviewer_keywords: ["ImpersonateLoggedOnUser","ImpersonateLoggedOnUser function [Security]","_win32_impersonateloggedonuser","security.impersonateloggedonuser","securitybaseapi/ImpersonateLoggedOnUser"]
+description: Lets the calling thread impersonate the security context of a logged-on user. The user is represented by a token handle.
+helpviewer_keywords: ["ImpersonateLoggedOnUser","ImpersonateLoggedOnUser function [Security]","_win32_impersonateloggedonuser","security.impersonateloggedonuser","securitybaseapi/ImpersonateLoggedOnUser"]
 old-location: security\impersonateloggedonuser.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
 ms.date: 12/05/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser

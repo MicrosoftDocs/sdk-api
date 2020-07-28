@@ -1,9 +1,10 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_BYTE_VECTOR
 title: SEC_WINNT_AUTH_BYTE_VECTOR (sspi.h)
-description: Specifies the byte offset and array length of the data in an authentication structure.helpviewer_keywords: ["*PSEC_WINNT_AUTH_BYTE_VECTOR","PSEC_WINNT_AUTH_BYTE_VECTOR","PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security]","SEC_WINNT_AUTH_BYTE_VECTOR","SEC_WINNT_AUTH_BYTE_VECTOR structure [Security]","security.sec_winnt_auth_byte_vector","sspi/PSEC_WINNT_AUTH_BYTE_VECTOR","sspi/SEC_WINNT_AUTH_BYTE_VECTOR"]
+description: Specifies the byte offset and array length of the data in an authentication structure.
+helpviewer_keywords: ["*PSEC_WINNT_AUTH_BYTE_VECTOR","PSEC_WINNT_AUTH_BYTE_VECTOR","PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security]","SEC_WINNT_AUTH_BYTE_VECTOR","SEC_WINNT_AUTH_BYTE_VECTOR structure [Security]","security.sec_winnt_auth_byte_vector","sspi/PSEC_WINNT_AUTH_BYTE_VECTOR","sspi/SEC_WINNT_AUTH_BYTE_VECTOR"]
 old-location: security\sec_winnt_auth_byte_vector.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ee511497-2b70-4c51-bcc2-7585143b4f43
 ms.date: 12/05/2018
 ms.keywords: '*PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security], SEC_WINNT_AUTH_BYTE_VECTOR, SEC_WINNT_AUTH_BYTE_VECTOR structure [Security], security.sec_winnt_auth_byte_vector, sspi/PSEC_WINNT_AUTH_BYTE_VECTOR, sspi/SEC_WINNT_AUTH_BYTE_VECTOR'

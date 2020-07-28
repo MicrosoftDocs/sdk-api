@@ -1,9 +1,10 @@
 ---
 UID: NE:mfobjects._MF_Plugin_Type
 title: MF_Plugin_Type (mfobjects.h)
-description: Specifies the object type for the IMFPluginControl interface.helpviewer_keywords: ["MF_Plugin_Type","MF_Plugin_Type enumeration [Media Foundation]","MF_Plugin_Type_MFT","MF_Plugin_Type_MFT_MatchOutputType","MF_Plugin_Type_MediaSource","MF_Plugin_Type_Other","mf.mf_plugin_type","mfobjects/","mfobjects/MF_Plugin_Type","mfobjects/MF_Plugin_Type_MFT","mfobjects/MF_Plugin_Type_MFT_MatchOutputType","mfobjects/MF_Plugin_Type_MediaSource","mfobjects/MF_Plugin_Type_Other"]
+description: Specifies the object type for the IMFPluginControl interface.
+helpviewer_keywords: ["MF_Plugin_Type","MF_Plugin_Type enumeration [Media Foundation]","MF_Plugin_Type_MFT","MF_Plugin_Type_MFT_MatchOutputType","MF_Plugin_Type_MediaSource","MF_Plugin_Type_Other","mf.mf_plugin_type","mfobjects/","mfobjects/MF_Plugin_Type","mfobjects/MF_Plugin_Type_MFT","mfobjects/MF_Plugin_Type_MFT_MatchOutputType","mfobjects/MF_Plugin_Type_MediaSource","mfobjects/MF_Plugin_Type_Other"]
 old-location: mf\mf_plugin_type.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f967cf3f-582c-457a-ba75-980feb2d9bf3
 ms.date: 12/05/2018
 ms.keywords: MF_Plugin_Type, MF_Plugin_Type enumeration [Media Foundation], MF_Plugin_Type_MFT, MF_Plugin_Type_MFT_MatchOutputType, MF_Plugin_Type_MediaSource, MF_Plugin_Type_Other, mf.mf_plugin_type, mfobjects/, mfobjects/MF_Plugin_Type, mfobjects/MF_Plugin_Type_MFT, mfobjects/MF_Plugin_Type_MFT_MatchOutputType, mfobjects/MF_Plugin_Type_MediaSource, mfobjects/MF_Plugin_Type_Other

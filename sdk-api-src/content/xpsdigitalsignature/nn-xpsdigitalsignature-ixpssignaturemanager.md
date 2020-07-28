@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureManager
 title: IXpsSignatureManager (xpsdigitalsignature.h)
-description: Manages the digital signatures and digital signature requests of an XPS document.helpviewer_keywords: ["IXpsSignatureManager","IXpsSignatureManager interface [XPS Documents and Packaging]","IXpsSignatureManager interface [XPS Documents and Packaging]","described","xps.ixpssignaturemanager","xpsdigitalsignature/IXpsSignatureManager"]
+description: Manages the digital signatures and digital signature requests of an XPS document.
+helpviewer_keywords: ["IXpsSignatureManager","IXpsSignatureManager interface [XPS Documents and Packaging]","IXpsSignatureManager interface [XPS Documents and Packaging]","described","xps.ixpssignaturemanager","xpsdigitalsignature/IXpsSignatureManager"]
 old-location: xps\ixpssignaturemanager.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 31283ebe-91f4-42be-9a9b-6fcd641dc356
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], IXpsSignatureManager interface [XPS Documents and Packaging],described, xps.ixpssignaturemanager, xpsdigitalsignature/IXpsSignatureManager

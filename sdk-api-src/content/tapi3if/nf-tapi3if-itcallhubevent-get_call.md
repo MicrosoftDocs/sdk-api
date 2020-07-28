@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCallHubEvent.get_Call
 title: ITCallHubEvent::get_Call (tapi3if.h)
-description: The get_Call method returns a pointer to the ITCallInfo interface of the call on which the event occurred.helpviewer_keywords: ["ITCallHubEvent interface [TAPI 2.2]","get_Call method","ITCallHubEvent.get_Call","ITCallHubEvent::get_Call","_tapi3_itcallhubevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITCallHubEvent interface","tapi3.itcallhubevent_get_call","tapi3if/ITCallHubEvent::get_Call"]
+description: The get_Call method returns a pointer to the ITCallInfo interface of the call on which the event occurred.
+helpviewer_keywords: ["ITCallHubEvent interface [TAPI 2.2]","get_Call method","ITCallHubEvent.get_Call","ITCallHubEvent::get_Call","_tapi3_itcallhubevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITCallHubEvent interface","tapi3.itcallhubevent_get_call","tapi3if/ITCallHubEvent::get_Call"]
 old-location: tapi3\itcallhubevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2ac47da3-f60f-41f4-99f7-031744044bd4
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_Call method, ITCallHubEvent.get_Call, ITCallHubEvent::get_Call, _tapi3_itcallhubevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_call, tapi3if/ITCallHubEvent::get_Call

@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileLocationA
 title: SetupGetSourceFileLocationA function (setupapi.h)
-description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.helpviewer_keywords: ["SetupGetSourceFileLocation","SetupGetSourceFileLocation function [Setup API]","SetupGetSourceFileLocationA","SetupGetSourceFileLocationW","_setupapi_setupgetsourcefilelocation","setup.setupgetsourcefilelocation","setupapi/SetupGetSourceFileLocation","setupapi/SetupGetSourceFileLocationA","setupapi/SetupGetSourceFileLocationW"]
+description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
+helpviewer_keywords: ["SetupGetSourceFileLocation","SetupGetSourceFileLocation function [Setup API]","SetupGetSourceFileLocationA","SetupGetSourceFileLocationW","_setupapi_setupgetsourcefilelocation","setup.setupgetsourcefilelocation","setupapi/SetupGetSourceFileLocation","setupapi/SetupGetSourceFileLocationA","setupapi/SetupGetSourceFileLocationW"]
 old-location: setup\setupgetsourcefilelocation.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW
@@ -120,6 +121,10 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupGetSourceFileLocation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

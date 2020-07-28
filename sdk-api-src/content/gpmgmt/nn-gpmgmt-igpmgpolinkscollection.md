@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMGPOLinksCollection
 title: IGPMGPOLinksCollection (gpmgmt.h)
-description: The IGPMGPOLinksCollection interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.helpviewer_keywords: ["GPMGPOLinksCollection","IGPMGPOLinksCollection","IGPMGPOLinksCollection interface [GPMC]","IGPMGPOLinksCollection interface [GPMC]","described","_win32_igpmgpolinkscollection","gpmc.igpmgpolinkscollection","gpmgmt/IGPMGPOLinksCollection"]
+description: The IGPMGPOLinksCollection interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.
+helpviewer_keywords: ["GPMGPOLinksCollection","IGPMGPOLinksCollection","IGPMGPOLinksCollection interface [GPMC]","IGPMGPOLinksCollection interface [GPMC]","described","_win32_igpmgpolinkscollection","gpmc.igpmgpolinkscollection","gpmgmt/IGPMGPOLinksCollection"]
 old-location: gpmc\igpmgpolinkscollection.htm
 tech.root: gpmc
 ms.assetid: 37753a31-0ef8-4fb9-b542-a91ae47ed417

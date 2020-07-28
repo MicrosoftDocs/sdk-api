@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_NameValuePairs
 title: IX509CertificateRequestPkcs10V3::get_NameValuePairs (certenroll.h)
-description: A collection of name/value pairs of additional certificate property values.helpviewer_keywords: ["IX509CertificateRequestPkcs10V3 interface [Security]","NameValuePairs property","IX509CertificateRequestPkcs10V3.NameValuePairs","IX509CertificateRequestPkcs10V3.get_NameValuePairs","IX509CertificateRequestPkcs10V3::NameValuePairs","IX509CertificateRequestPkcs10V3::get_NameValuePairs","NameValuePairs property [Security]","NameValuePairs property [Security]","IX509CertificateRequestPkcs10V3 interface","certenroll/IX509CertificateRequestPkcs10V3::NameValuePairs","certenroll/IX509CertificateRequestPkcs10V3::get_NameValuePairs","get_NameValuePairs","security.ix509certificaterequestpkcs10v3_namevaluepairs"]
+description: A collection of name/value pairs of additional certificate property values.
+helpviewer_keywords: ["IX509CertificateRequestPkcs10V3 interface [Security]","NameValuePairs property","IX509CertificateRequestPkcs10V3.NameValuePairs","IX509CertificateRequestPkcs10V3.get_NameValuePairs","IX509CertificateRequestPkcs10V3::NameValuePairs","IX509CertificateRequestPkcs10V3::get_NameValuePairs","NameValuePairs property [Security]","NameValuePairs property [Security]","IX509CertificateRequestPkcs10V3 interface","certenroll/IX509CertificateRequestPkcs10V3::NameValuePairs","certenroll/IX509CertificateRequestPkcs10V3::get_NameValuePairs","get_NameValuePairs","security.ix509certificaterequestpkcs10v3_namevaluepairs"]
 old-location: security\ix509certificaterequestpkcs10v3_namevaluepairs.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1049cd15-d141-4fa5-b60f-9a2fa0bb1524
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10V3 interface [Security],NameValuePairs property, IX509CertificateRequestPkcs10V3.NameValuePairs, IX509CertificateRequestPkcs10V3.get_NameValuePairs, IX509CertificateRequestPkcs10V3::NameValuePairs, IX509CertificateRequestPkcs10V3::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509CertificateRequestPkcs10V3 interface, certenroll/IX509CertificateRequestPkcs10V3::NameValuePairs, certenroll/IX509CertificateRequestPkcs10V3::get_NameValuePairs, get_NameValuePairs, security.ix509certificaterequestpkcs10v3_namevaluepairs

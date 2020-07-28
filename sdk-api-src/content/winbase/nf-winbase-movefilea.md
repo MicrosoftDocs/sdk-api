@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.MoveFileA
 title: MoveFileA function (winbase.h)
-description: Moves an existing file or a directory, including its children.helpviewer_keywords: ["MoveFile","MoveFile function [Files]","MoveFileA","MoveFileW","_win32_movefile","base.movefile","fs.movefile","rename file [Files]","winbase/MoveFile","winbase/MoveFileA","winbase/MoveFileW"]
+description: Moves an existing file or a directory, including its children.
+helpviewer_keywords: ["MoveFile","MoveFile function [Files]","MoveFileA","MoveFileW","_win32_movefile","base.movefile","fs.movefile","rename file [Files]","winbase/MoveFile","winbase/MoveFileA","winbase/MoveFileW"]
 old-location: fs\movefile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
 ms.date: 12/05/2018
 ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_movefile, base.movefile, fs.movefile, rename file [Files], winbase/MoveFile, winbase/MoveFileA, winbase/MoveFileW
@@ -191,6 +192,10 @@ SMB 3.0 does not support rename of alternate data streams on file shares with co
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines MoveFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

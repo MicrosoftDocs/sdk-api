@@ -1,9 +1,10 @@
 ---
 UID: NF:winscard.SCardAccessStartedEvent
 title: SCardAccessStartedEvent function (winscard.h)
-description: Returns an event handle when an event signals that the smart card resource manager is started.helpviewer_keywords: ["SCardAccessStartedEvent","SCardAccessStartedEvent function [Security]","_smart_scardaccessstartedevent","security.scardaccessstartedevent","winscard/SCardAccessStartedEvent"]
+description: Returns an event handle when an event signals that the smart card resource manager is started.
+helpviewer_keywords: ["SCardAccessStartedEvent","SCardAccessStartedEvent function [Security]","_smart_scardaccessstartedevent","security.scardaccessstartedevent","winscard/SCardAccessStartedEvent"]
 old-location: security\scardaccessstartedevent.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ddfab09d-5477-4c4e-883c-d3c19258c49d
 ms.date: 12/05/2018
 ms.keywords: SCardAccessStartedEvent, SCardAccessStartedEvent function [Security], _smart_scardaccessstartedevent, security.scardaccessstartedevent, winscard/SCardAccessStartedEvent

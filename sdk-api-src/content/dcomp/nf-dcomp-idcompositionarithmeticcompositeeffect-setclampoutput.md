@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetClampOutput
 title: IDCompositionArithmeticCompositeEffect::SetClampOutput (dcomp.h)
-description: Specifies whether to clamp color values before the effect passes the values to the next effect in the graph.helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetClampOutput method","IDCompositionArithmeticCompositeEffect.SetClampOutput","IDCompositionArithmeticCompositeEffect::SetClampOutput","SetClampOutput","SetClampOutput method [DirectComposition]","SetClampOutput method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput","directcomp.idcompositionarithmeticcompositeeffect_setclampoutput"]
+description: Specifies whether to clamp color values before the effect passes the values to the next effect in the graph.
+helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetClampOutput method","IDCompositionArithmeticCompositeEffect.SetClampOutput","IDCompositionArithmeticCompositeEffect::SetClampOutput","SetClampOutput","SetClampOutput method [DirectComposition]","SetClampOutput method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput","directcomp.idcompositionarithmeticcompositeeffect_setclampoutput"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setclampoutput.htm
 tech.root: directcomp
 ms.assetid: 6558E6E7-FEF3-43F0-8508-197BA1DE3D10

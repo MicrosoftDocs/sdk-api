@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcasync._RPC_CALL_LOCAL_ADDRESS_V1
 title: RPC_CALL_LOCAL_ADDRESS_V1 (rpcasync.h)
-description: Contains information about the local address on which a call was made.helpviewer_keywords: ["*PRPC_CALL_LOCAL_ADDRESS_V1","RPC_CALL_LOCAL_ADDRESS","RPC_CALL_LOCAL_ADDRESS structure [RPC]","RPC_CALL_LOCAL_ADDRESS_V1","RPC_CALL_LOCAL_ADDRESS_V1 structure [RPC]","RPC_CALL_LOCAL_ADDRESS_V1_A","RPC_CALL_LOCAL_ADDRESS_V1_W","rpc.rpc_call_local_address_v1","rpcasync/RPC_CALL_LOCAL_ADDRESS","rpcasync/RPC_CALL_LOCAL_ADDRESS_V1","rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_A","rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_W"]
+description: Contains information about the local address on which a call was made.
+helpviewer_keywords: ["*PRPC_CALL_LOCAL_ADDRESS_V1","RPC_CALL_LOCAL_ADDRESS","RPC_CALL_LOCAL_ADDRESS structure [RPC]","RPC_CALL_LOCAL_ADDRESS_V1","RPC_CALL_LOCAL_ADDRESS_V1 structure [RPC]","RPC_CALL_LOCAL_ADDRESS_V1_A","RPC_CALL_LOCAL_ADDRESS_V1_W","rpc.rpc_call_local_address_v1","rpcasync/RPC_CALL_LOCAL_ADDRESS","rpcasync/RPC_CALL_LOCAL_ADDRESS_V1","rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_A","rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_W"]
 old-location: rpc\rpc_call_local_address_v1.htm
 tech.root: Rpc
 ms.assetid: 2dda59dc-d2e5-4d98-a12a-f86557dcb1c0

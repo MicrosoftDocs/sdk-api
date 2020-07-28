@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFFinalizableMediaSink
 title: IMFFinalizableMediaSink (mfidl.h)
-description: Optionally supported by media sinks to perform required tasks before shutdown.helpviewer_keywords: ["IMFFinalizableMediaSink","IMFFinalizableMediaSink interface [Media Foundation]","IMFFinalizableMediaSink interface [Media Foundation]","described","e60c2773-f2fc-469e-a698-036390cbed16","mf.imffinalizablemediasink","mfidl/IMFFinalizableMediaSink"]
+description: Optionally supported by media sinks to perform required tasks before shutdown.
+helpviewer_keywords: ["IMFFinalizableMediaSink","IMFFinalizableMediaSink interface [Media Foundation]","IMFFinalizableMediaSink interface [Media Foundation]","described","e60c2773-f2fc-469e-a698-036390cbed16","mf.imffinalizablemediasink","mfidl/IMFFinalizableMediaSink"]
 old-location: mf\imffinalizablemediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e60c2773-f2fc-469e-a698-036390cbed16
 ms.date: 12/05/2018
 ms.keywords: IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], IMFFinalizableMediaSink interface [Media Foundation],described, e60c2773-f2fc-469e-a698-036390cbed16, mf.imffinalizablemediasink, mfidl/IMFFinalizableMediaSink

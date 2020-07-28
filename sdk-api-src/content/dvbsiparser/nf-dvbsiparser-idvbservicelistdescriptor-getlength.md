@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetLength
 title: IDvbServiceListDescriptor::GetLength (dvbsiparser.h)
-description: Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbServiceListDescriptor.GetLength","IDvbServiceListDescriptor::GetLength","dvbsiparser/IDvbServiceListDescriptor::GetLength","mstv.idvbservicelistdescriptor_getlength"]
+description: Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbServiceListDescriptor.GetLength","IDvbServiceListDescriptor::GetLength","dvbsiparser/IDvbServiceListDescriptor::GetLength","mstv.idvbservicelistdescriptor_getlength"]
 old-location: mstv\idvbservicelistdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 06c161ce-b830-4375-8ed6-19403857f433

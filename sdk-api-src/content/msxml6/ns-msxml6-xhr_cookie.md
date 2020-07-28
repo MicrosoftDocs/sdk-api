@@ -1,7 +1,8 @@
 ---
 UID: NS:msxml6.tagXHR_COOKIE
 title: XHR_COOKIE (msxml6.h)
-description: Defines a cookie that you can add to the HTTP cookie jar by calling the SetCookie method or retrieve from the HTTP cookie jar by calling the GetCookie method.helpviewer_keywords: ["PXHR_COOKIE","PXHR_COOKIE structure pointer [XMLHttpRequest2]","XHR_COOKIE","XHR_COOKIE structure [XMLHttpRequest2]","XHR_COOKIE_APPLY_P3P","XHR_COOKIE_EVALUATE_P3P","XHR_COOKIE_HTTPONLY","XHR_COOKIE_IE6","XHR_COOKIE_IS_LEGACY","XHR_COOKIE_IS_RESTRICTED","XHR_COOKIE_IS_SECURE","XHR_COOKIE_IS_SESSION","XHR_COOKIE_NON_SCRIPT","XHR_COOKIE_PROMPT_REQUIRED","XHR_COOKIE_THIRD_PARTY","ixhr2.xhr_cookie","msxml6/PXHR_COOKIE","msxml6/XHR_COOKIE","tagXHR_COOKIE"]
+description: Defines a cookie that you can add to the HTTP cookie jar by calling the SetCookie method or retrieve from the HTTP cookie jar by calling the GetCookie method.
+helpviewer_keywords: ["PXHR_COOKIE","PXHR_COOKIE structure pointer [XMLHttpRequest2]","XHR_COOKIE","XHR_COOKIE structure [XMLHttpRequest2]","XHR_COOKIE_APPLY_P3P","XHR_COOKIE_EVALUATE_P3P","XHR_COOKIE_HTTPONLY","XHR_COOKIE_IE6","XHR_COOKIE_IS_LEGACY","XHR_COOKIE_IS_RESTRICTED","XHR_COOKIE_IS_SECURE","XHR_COOKIE_IS_SESSION","XHR_COOKIE_NON_SCRIPT","XHR_COOKIE_PROMPT_REQUIRED","XHR_COOKIE_THIRD_PARTY","ixhr2.xhr_cookie","msxml6/PXHR_COOKIE","msxml6/XHR_COOKIE","tagXHR_COOKIE"]
 old-location: ixhr2\xhr_cookie.htm
 tech.root: ixhr2
 ms.assetid: 208829B0-DBCC-4C22-910D-D6826283F8A0

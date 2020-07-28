@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyShallow
 title: IWSManEx::EnumerationFlagHierarchyShallow (wsmandisp.h)
-description: Returns the value of the enumeration constant EnumerationFlagHierarchyShallow for use in the flags parameter of the IWSManSession::Enumerate method.helpviewer_keywords: ["EnumerationFlagHierarchyShallow","EnumerationFlagHierarchyShallow method [Windows Remote Management]","EnumerationFlagHierarchyShallow method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagHierarchyShallow method","IWSManEx.EnumerationFlagHierarchyShallow","IWSManEx::EnumerationFlagHierarchyShallow","winrm.iwsmanex_enumerationflaghierarchyshallow","wsmandisp/IWSManEx::EnumerationFlagHierarchyShallow"]
+description: Returns the value of the enumeration constant EnumerationFlagHierarchyShallow for use in the flags parameter of the IWSManSession::Enumerate method.
+helpviewer_keywords: ["EnumerationFlagHierarchyShallow","EnumerationFlagHierarchyShallow method [Windows Remote Management]","EnumerationFlagHierarchyShallow method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagHierarchyShallow method","IWSManEx.EnumerationFlagHierarchyShallow","IWSManEx::EnumerationFlagHierarchyShallow","winrm.iwsmanex_enumerationflaghierarchyshallow","wsmandisp/IWSManEx::EnumerationFlagHierarchyShallow"]
 old-location: winrm\iwsmanex_enumerationflaghierarchyshallow.htm
 tech.root: winrm
 ms.assetid: 590cf20d-56bc-4472-9d40-cc423bfb00df

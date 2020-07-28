@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMDecrypt
 title: DRMDecrypt function (msdrm.h)
-description: Decrypts encrypted content.helpviewer_keywords: ["DRMDecrypt","DRMDecrypt function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDecrypt","rm.drmdecrypt"]
+description: Decrypts encrypted content.
+helpviewer_keywords: ["DRMDecrypt","DRMDecrypt function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDecrypt","rm.drmdecrypt"]
 old-location: rm\drmdecrypt.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 8e0cb353-4670-4cf7-bcd8-81ebd0adfe32
 ms.date: 12/05/2018
 ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecrypt, rm.drmdecrypt

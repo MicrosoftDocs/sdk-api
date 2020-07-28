@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Item
 title: IComTrackingInfoCollection::Item (comsvcs.h)
-description: Retrieves the specified interface from a specified member of a tracking information collection.helpviewer_keywords: ["IComTrackingInfoCollection interface [COM+]","Item method","IComTrackingInfoCollection.Item","IComTrackingInfoCollection::Item","Item","Item method [COM+]","Item method [COM+]","IComTrackingInfoCollection interface","_dtc_IComTrackingInfoCollection_Item","comsvcs/IComTrackingInfoCollection::Item","cos.icomtrackinginfocollection_item"]
+description: Retrieves the specified interface from a specified member of a tracking information collection.
+helpviewer_keywords: ["IComTrackingInfoCollection interface [COM+]","Item method","IComTrackingInfoCollection.Item","IComTrackingInfoCollection::Item","Item","Item method [COM+]","Item method [COM+]","IComTrackingInfoCollection interface","_dtc_IComTrackingInfoCollection_Item","comsvcs/IComTrackingInfoCollection::Item","cos.icomtrackinginfocollection_item"]
 old-location: cos\icomtrackinginfocollection_item.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 61da742b-d8cd-48db-a9b7-c754b8963907
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Item method, IComTrackingInfoCollection.Item, IComTrackingInfoCollection::Item, Item, Item method [COM+], Item method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Item, comsvcs/IComTrackingInfoCollection::Item, cos.icomtrackinginfocollection_item

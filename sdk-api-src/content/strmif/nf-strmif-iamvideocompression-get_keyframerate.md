@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_KeyFrameRate
 title: IAMVideoCompression::get_KeyFrameRate (strmif.h)
-description: The get_KeyFrameRate method retrieves the current key-frame rate.helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","get_KeyFrameRate method","IAMVideoCompression.get_KeyFrameRate","IAMVideoCompression::get_KeyFrameRate","IAMVideoCompressionget_KeyFrameRate","dshow.iamvideocompression_get_keyframerate","get_KeyFrameRate","get_KeyFrameRate method [DirectShow]","get_KeyFrameRate method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::get_KeyFrameRate"]
+description: The get_KeyFrameRate method retrieves the current key-frame rate.
+helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","get_KeyFrameRate method","IAMVideoCompression.get_KeyFrameRate","IAMVideoCompression::get_KeyFrameRate","IAMVideoCompressionget_KeyFrameRate","dshow.iamvideocompression_get_keyframerate","get_KeyFrameRate","get_KeyFrameRate method [DirectShow]","get_KeyFrameRate method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::get_KeyFrameRate"]
 old-location: dshow\iamvideocompression_get_keyframerate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: af73cfaa-3297-44a7-96a7-8805aad057e2
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_KeyFrameRate method, IAMVideoCompression.get_KeyFrameRate, IAMVideoCompression::get_KeyFrameRate, IAMVideoCompressionget_KeyFrameRate, dshow.iamvideocompression_get_keyframerate, get_KeyFrameRate, get_KeyFrameRate method [DirectShow], get_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_KeyFrameRate

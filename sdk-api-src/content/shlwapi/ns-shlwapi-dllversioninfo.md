@@ -1,7 +1,8 @@
 ---
 UID: NS:shlwapi._DLLVERSIONINFO
 title: DLLVERSIONINFO (shlwapi.h)
-description: Receives DLL-specific version information.helpviewer_keywords: ["DLLVERSIONINFO","DLLVERSIONINFO structure [Windows Shell]","DLLVER_PLATFORM_NT","DLLVER_PLATFORM_WINDOWS","_win32_DLLVERSIONINFO_0rjh","shell.DLLVERSIONINFO_0rjh","shlwapi/DLLVERSIONINFO"]
+description: Receives DLL-specific version information.
+helpviewer_keywords: ["DLLVERSIONINFO","DLLVERSIONINFO structure [Windows Shell]","DLLVER_PLATFORM_NT","DLLVER_PLATFORM_WINDOWS","_win32_DLLVERSIONINFO_0rjh","shell.DLLVERSIONINFO_0rjh","shlwapi/DLLVERSIONINFO"]
 old-location: shell\DLLVERSIONINFO_0rjh.htm
 tech.root: shell
 ms.assetid: bc6d856c-027f-43df-9bbc-a76f560dddb0

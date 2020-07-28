@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongLongAdd
 title: ULongLongAdd function (intsafe.h)
-description: Adds two values of type SIZE_T.helpviewer_keywords: ["SIZETAdd","SIZETAdd function [Windows Shell]","ULongLongAdd","_shell_SIZETAdd","intsafe/SIZETAdd","shell.SIZETAdd","shell.SIZETAdd_1"]
+description: Adds two values of type SIZE_T.
+helpviewer_keywords: ["SIZETAdd","SIZETAdd function [Windows Shell]","ULongLongAdd","_shell_SIZETAdd","intsafe/SIZETAdd","shell.SIZETAdd","shell.SIZETAdd_1"]
 old-location: shell\SIZETAdd_1.htm
 tech.root: shell
 ms.assetid: 50acd1fa-fc4b-4e7a-8e88-71fb15eaa3c7

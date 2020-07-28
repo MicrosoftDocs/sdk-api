@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_RootURL
 title: ISearchRoot::get_RootURL (searchapi.h)
-description: Gets the URL of the starting point for this search root.helpviewer_keywords: ["ISearchRoot interface [search]","get_RootURL method","ISearchRoot.get_RootURL","ISearchRoot::get_RootURL","_search_ISearchRoot_get_RootURL","get_RootURL","get_RootURL method [search]","get_RootURL method [search]","ISearchRoot interface","search._search_ISearchRoot_get_RootURL","searchapi/ISearchRoot::get_RootURL"]
+description: Gets the URL of the starting point for this search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_RootURL method","ISearchRoot.get_RootURL","ISearchRoot::get_RootURL","_search_ISearchRoot_get_RootURL","get_RootURL","get_RootURL method [search]","get_RootURL method [search]","ISearchRoot interface","search._search_ISearchRoot_get_RootURL","searchapi/ISearchRoot::get_RootURL"]
 old-location: search\_search_ISearchRoot_get_RootURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_rooturl.htm
@@ -78,12 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the memory from the returned string.
 
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-
-
-

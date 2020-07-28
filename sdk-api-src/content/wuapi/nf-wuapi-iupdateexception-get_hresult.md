@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateException.get_HResult
 title: IUpdateException::get_HResult (wuapi.h)
-description: Gets the Windows-based HRESULT code for the search results.helpviewer_keywords: ["HResult property [Windows Update Agent]","HResult property [Windows Update Agent]","IUpdateException interface","IUpdateException interface [Windows Update Agent]","HResult property","IUpdateException.HResult","IUpdateException.get_HResult","IUpdateException::HResult","IUpdateException::get_HResult","get_HResult","wua.iupdateexception_hresult","wuapi/IUpdateException::HResult","wuapi/IUpdateException::get_HResult"]
+description: Gets the Windows-based HRESULT code for the search results.
+helpviewer_keywords: ["HResult property [Windows Update Agent]","HResult property [Windows Update Agent]","IUpdateException interface","IUpdateException interface [Windows Update Agent]","HResult property","IUpdateException.HResult","IUpdateException.get_HResult","IUpdateException::HResult","IUpdateException::get_HResult","get_HResult","wua.iupdateexception_hresult","wuapi/IUpdateException::HResult","wuapi/IUpdateException::get_HResult"]
 old-location: wua\iupdateexception_hresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 122c7945-c75d-4205-8df6-3136d388baee
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],HResult property, IUpdateException.HResult, IUpdateException.get_HResult, IUpdateException::HResult, IUpdateException::get_HResult, get_HResult, wua.iupdateexception_hresult, wuapi/IUpdateException::HResult, wuapi/IUpdateException::get_HResult

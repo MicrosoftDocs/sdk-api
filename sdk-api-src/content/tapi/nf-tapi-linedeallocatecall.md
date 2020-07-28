@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineDeallocateCall
 title: lineDeallocateCall function (tapi.h)
-description: Deallocates the specified call handle.helpviewer_keywords: ["_tapi2_linedeallocatecall","lineDeallocateCall","lineDeallocateCall function [TAPI 2.2]","tapi/lineDeallocateCall","tapi2.linedeallocatecall"]
+description: Deallocates the specified call handle.
+helpviewer_keywords: ["_tapi2_linedeallocatecall","lineDeallocateCall","lineDeallocateCall function [TAPI 2.2]","tapi/lineDeallocateCall","tapi2.linedeallocatecall"]
 old-location: tapi2\linedeallocatecall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a695ee19-e371-4126-b438-62bf52179cba
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall

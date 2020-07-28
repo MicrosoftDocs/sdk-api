@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertPropertyAutoEnroll
 title: ICertPropertyAutoEnroll (certenroll.h)
-description: Represents a certificate property that identifies a template that has been configured to enable autoenrollment of the certificate.helpviewer_keywords: ["ICertPropertyAutoEnroll","ICertPropertyAutoEnroll interface [Security]","ICertPropertyAutoEnroll interface [Security]","described","certenroll/ICertPropertyAutoEnroll","security.icertpropertyautoenroll"]
+description: Represents a certificate property that identifies a template that has been configured to enable autoenrollment of the certificate.
+helpviewer_keywords: ["ICertPropertyAutoEnroll","ICertPropertyAutoEnroll interface [Security]","ICertPropertyAutoEnroll interface [Security]","described","certenroll/ICertPropertyAutoEnroll","security.icertpropertyautoenroll"]
 old-location: security\icertpropertyautoenroll.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 25eab0e9-4980-49ad-9d3b-35ad47c20bcb
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], ICertPropertyAutoEnroll interface [Security],described, certenroll/ICertPropertyAutoEnroll, security.icertpropertyautoenroll

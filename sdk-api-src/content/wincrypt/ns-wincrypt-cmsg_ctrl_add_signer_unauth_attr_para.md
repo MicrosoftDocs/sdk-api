@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 title: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA (wincrypt.h)
-description: Used to add an unauthenticated attribute to a signer of a signed message.helpviewer_keywords: ["*PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure [Security]","PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security]","_crypto2_cmsg_ctrl_add_signer_unauth_attr_para","security.cmsg_ctrl_add_signer_unauth_attr_para","wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","wincrypt/PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"]
+description: Used to add an unauthenticated attribute to a signer of a signed message.
+helpviewer_keywords: ["*PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure [Security]","PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security]","_crypto2_cmsg_ctrl_add_signer_unauth_attr_para","security.cmsg_ctrl_add_signer_unauth_attr_para","wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA","wincrypt/PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"]
 old-location: security\cmsg_ctrl_add_signer_unauth_attr_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5e347a50-942e-4278-a9ae-ad4c30c55c6b
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _crypto2_cmsg_ctrl_add_signer_unauth_attr_para, security.cmsg_ctrl_add_signer_unauth_attr_para, wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA'

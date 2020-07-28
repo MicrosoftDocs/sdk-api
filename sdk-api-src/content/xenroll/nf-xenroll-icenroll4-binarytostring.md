@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.ICEnroll4.binaryToString
 title: ICEnroll4::binaryToString (xenroll.h)
-description: Converts a binary data BLOB to a string. This method was first defined in the ICEnroll4 interface.helpviewer_keywords: ["CEnroll object [Security]","binaryToString method","ICEnroll4 interface [Security]","binaryToString method","ICEnroll4.binaryToString","ICEnroll4::binaryToString","_xen_icenroll4_binarytostring","binaryToString","binaryToString method [Security]","binaryToString method [Security]","CEnroll object","binaryToString method [Security]","ICEnroll4 interface","security.icenroll4_binarytostring","xenroll/ICEnroll4::binaryToString"]
+description: Converts a binary data BLOB to a string. This method was first defined in the ICEnroll4 interface.
+helpviewer_keywords: ["CEnroll object [Security]","binaryToString method","ICEnroll4 interface [Security]","binaryToString method","ICEnroll4.binaryToString","ICEnroll4::binaryToString","_xen_icenroll4_binarytostring","binaryToString","binaryToString method [Security]","binaryToString method [Security]","CEnroll object","binaryToString method [Security]","ICEnroll4 interface","security.icenroll4_binarytostring","xenroll/ICEnroll4::binaryToString"]
 old-location: security\icenroll4_binarytostring.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 43358d84-ccdd-49a8-be1d-bb5e8ddd1397
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],binaryToString method, ICEnroll4 interface [Security],binaryToString method, ICEnroll4.binaryToString, ICEnroll4::binaryToString, _xen_icenroll4_binarytostring, binaryToString, binaryToString method [Security], binaryToString method [Security],CEnroll object, binaryToString method [Security],ICEnroll4 interface, security.icenroll4_binarytostring, xenroll/ICEnroll4::binaryToString

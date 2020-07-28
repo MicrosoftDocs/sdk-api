@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetStrokeJoin
 title: CustomLineCap::SetStrokeJoin (gdiplusheaders.h)
-description: The CustomLineCap::SetStrokeJoin method sets the style of line join for the stroke. The line join specifies how two lines that intersect within the GraphicsPath object that makes up the custom line cap are joined.helpviewer_keywords: ["CustomLineCap class [GDI+]","SetStrokeJoin method","CustomLineCap.SetStrokeJoin","CustomLineCap::SetStrokeJoin","SetStrokeJoin","SetStrokeJoin method [GDI+]","SetStrokeJoin method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_","gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_"]
+description: The CustomLineCap::SetStrokeJoin method sets the style of line join for the stroke. The line join specifies how two lines that intersect within the GraphicsPath object that makes up the custom line cap are joined.
+helpviewer_keywords: ["CustomLineCap class [GDI+]","SetStrokeJoin method","CustomLineCap.SetStrokeJoin","CustomLineCap::SetStrokeJoin","SetStrokeJoin","SetStrokeJoin method [GDI+]","SetStrokeJoin method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_","gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetStrokeJoin_lineJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setstrokejoin.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.put_UseExistingKeySet
 title: IEnroll::put_UseExistingKeySet (xenroll.h)
-description: The UseExistingKeySet property of IEnroll4 sets or retrieves a Boolean value that determines whether the existing keys should be used.helpviewer_keywords: ["IEnroll interface [Security]","UseExistingKeySet property","IEnroll.UseExistingKeySet","IEnroll.put_UseExistingKeySet","IEnroll::UseExistingKeySet","IEnroll::get_UseExistingKeySet","IEnroll::put_UseExistingKeySet","UseExistingKeySet property [Security]","UseExistingKeySet property [Security]","IEnroll interface","put_UseExistingKeySet","security.ienroll4_useexistingkeyset","xenroll/IEnroll::UseExistingKeySet","xenroll/IEnroll::get_UseExistingKeySet","xenroll/IEnroll::put_UseExistingKeySet"]
+description: The UseExistingKeySet property of IEnroll4 sets or retrieves a Boolean value that determines whether the existing keys should be used.
+helpviewer_keywords: ["IEnroll interface [Security]","UseExistingKeySet property","IEnroll.UseExistingKeySet","IEnroll.put_UseExistingKeySet","IEnroll::UseExistingKeySet","IEnroll::get_UseExistingKeySet","IEnroll::put_UseExistingKeySet","UseExistingKeySet property [Security]","UseExistingKeySet property [Security]","IEnroll interface","put_UseExistingKeySet","security.ienroll4_useexistingkeyset","xenroll/IEnroll::UseExistingKeySet","xenroll/IEnroll::get_UseExistingKeySet","xenroll/IEnroll::put_UseExistingKeySet"]
 old-location: security\ienroll4_useexistingkeyset.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1534ec57-71d3-4189-a94e-7bcb3c0670e1
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],UseExistingKeySet property, IEnroll.UseExistingKeySet, IEnroll.put_UseExistingKeySet, IEnroll::UseExistingKeySet, IEnroll::get_UseExistingKeySet, IEnroll::put_UseExistingKeySet, UseExistingKeySet property [Security], UseExistingKeySet property [Security],IEnroll interface, put_UseExistingKeySet, security.ienroll4_useexistingkeyset, xenroll/IEnroll::UseExistingKeySet, xenroll/IEnroll::get_UseExistingKeySet, xenroll/IEnroll::put_UseExistingKeySet

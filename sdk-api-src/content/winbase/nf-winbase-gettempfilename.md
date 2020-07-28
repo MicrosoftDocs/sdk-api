@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetTempFileName
 title: GetTempFileName function (winbase.h)
-description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
+description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
+helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
 old-location: fs\gettempfilename.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
 ms.date: 12/05/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW

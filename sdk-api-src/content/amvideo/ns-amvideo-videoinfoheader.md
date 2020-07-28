@@ -1,9 +1,10 @@
 ---
 UID: NS:amvideo.tagVIDEOINFOHEADER
 title: VIDEOINFOHEADER (amvideo.h)
-description: The VIDEOINFOHEADER structure describes the bitmap and color information for a video image.helpviewer_keywords: ["VIDEOINFOHEADER","VIDEOINFOHEADER structure [DirectShow]","VIDEOINFOHEADERStructure","amvideo/VIDEOINFOHEADER","dshow.videoinfoheader","tagVIDEOINFOHEADER"]
+description: The VIDEOINFOHEADER structure describes the bitmap and color information for a video image.
+helpviewer_keywords: ["VIDEOINFOHEADER","VIDEOINFOHEADER structure [DirectShow]","VIDEOINFOHEADERStructure","amvideo/VIDEOINFOHEADER","dshow.videoinfoheader","tagVIDEOINFOHEADER"]
 old-location: dshow\videoinfoheader.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a175592b-0dc1-4001-b52f-785407965932
 ms.date: 12/05/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER

@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_3.IDXGISwapChain2
 title: IDXGISwapChain2 (dxgi1_3.h)
-description: Extends IDXGISwapChain1 with methods to support swap back buffer scaling and lower-latency swap chains.helpviewer_keywords: ["IDXGISwapChain2","IDXGISwapChain2 interface [DXGI]","IDXGISwapChain2 interface [DXGI]","described","direct3ddxgi.idxgiswapchain2","dxgi1_3/IDXGISwapChain2"]
+description: Extends IDXGISwapChain1 with methods to support swap back buffer scaling and lower-latency swap chains.
+helpviewer_keywords: ["IDXGISwapChain2","IDXGISwapChain2 interface [DXGI]","IDXGISwapChain2 interface [DXGI]","described","direct3ddxgi.idxgiswapchain2","dxgi1_3/IDXGISwapChain2"]
 old-location: direct3ddxgi\idxgiswapchain2.htm
 tech.root: direct3ddxgi
 ms.assetid: 1E14EAF6-5EEA-4B4A-8F5F-0BC779093654

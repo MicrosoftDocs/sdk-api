@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimeAdjustment
 title: GetSystemTimeAdjustment function (sysinfoapi.h)
-description: Determines whether the system is applying periodic time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.helpviewer_keywords: ["GetSystemTimeAdjustment","GetSystemTimeAdjustment function","_win32_getsystemtimeadjustment","base.getsystemtimeadjustment","sysinfoapi/GetSystemTimeAdjustment"]
+description: Determines whether the system is applying periodic time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
+helpviewer_keywords: ["GetSystemTimeAdjustment","GetSystemTimeAdjustment function","_win32_getsystemtimeadjustment","base.getsystemtimeadjustment","sysinfoapi/GetSystemTimeAdjustment"]
 old-location: base\getsystemtimeadjustment.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 6c748726-c81d-4669-87a1-28aad0fccead
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAdjustment, GetSystemTimeAdjustment function, _win32_getsystemtimeadjustment, base.getsystemtimeadjustment, sysinfoapi/GetSystemTimeAdjustment

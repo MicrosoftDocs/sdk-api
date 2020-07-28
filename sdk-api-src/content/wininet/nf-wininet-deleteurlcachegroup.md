@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.DeleteUrlCacheGroup
 title: DeleteUrlCacheGroup function (wininet.h)
-description: Releases the specified GROUPID and any associated state in the cache index file.helpviewer_keywords: ["DeleteUrlCacheGroup","DeleteUrlCacheGroup function [WinINet]","_inet_deleteurlcachegroup_function","wininet.deleteurlcachegroup","wininet/DeleteUrlCacheGroup"]
+description: Releases the specified GROUPID and any associated state in the cache index file.
+helpviewer_keywords: ["DeleteUrlCacheGroup","DeleteUrlCacheGroup function [WinINet]","_inet_deleteurlcachegroup_function","wininet.deleteurlcachegroup","wininet/DeleteUrlCacheGroup"]
 old-location: wininet\deleteurlcachegroup.htm
 tech.root: wininet
 ms.assetid: f1ff70db-36b7-4805-8f23-e3920acf0d11

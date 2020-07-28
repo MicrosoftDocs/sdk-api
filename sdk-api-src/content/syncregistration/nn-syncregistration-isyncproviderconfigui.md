@@ -1,7 +1,8 @@
 ---
 UID: NN:syncregistration.ISyncProviderConfigUI
 title: ISyncProviderConfigUI (syncregistration.h)
-description: Represents configuration UI information used to build and register a synchronization provider.helpviewer_keywords: ["ISyncProviderConfigUI","ISyncProviderConfigUI interface [Windows Sync]","ISyncProviderConfigUI interface [Windows Sync]","described","syncregistration/ISyncProviderConfigUI","winsync.isyncproviderconfigui"]
+description: Represents configuration UI information used to build and register a synchronization provider.
+helpviewer_keywords: ["ISyncProviderConfigUI","ISyncProviderConfigUI interface [Windows Sync]","ISyncProviderConfigUI interface [Windows Sync]","described","syncregistration/ISyncProviderConfigUI","winsync.isyncproviderconfigui"]
 old-location: winsync\isyncproviderconfigui.htm
 tech.root: winsync
 ms.assetid: 27757aa1-a42d-4f66-99a8-bf66385fbec1

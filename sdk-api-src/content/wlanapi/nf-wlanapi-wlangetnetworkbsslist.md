@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanGetNetworkBssList
 title: WlanGetNetworkBssList function (wlanapi.h)
-description: Retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.helpviewer_keywords: ["WlanGetNetworkBssList","WlanGetNetworkBssList function [NativeWIFI]","dot11_BSS_type_any","dot11_BSS_type_independent","dot11_BSS_type_infrastructure","nwifi.wlangetnetworkbsslist","wlanapi/WlanGetNetworkBssList"]
+description: Retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.
+helpviewer_keywords: ["WlanGetNetworkBssList","WlanGetNetworkBssList function [NativeWIFI]","dot11_BSS_type_any","dot11_BSS_type_independent","dot11_BSS_type_infrastructure","nwifi.wlangetnetworkbsslist","wlanapi/WlanGetNetworkBssList"]
 old-location: nwifi\wlangetnetworkbsslist.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 62f51b6e-3db1-48cd-8853-0dbe522c5e82
 ms.date: 12/05/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList

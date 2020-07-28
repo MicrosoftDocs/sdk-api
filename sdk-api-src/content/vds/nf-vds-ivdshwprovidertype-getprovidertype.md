@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsHwProviderType.GetProviderType
 title: IVdsHwProviderType::GetProviderType (vds.h)
-description: Retrieves the type of the hardware provider.helpviewer_keywords: ["GetProviderType","GetProviderType method [VDS]","GetProviderType method [VDS]","IVdsHwProviderType interface","IVdsHwProviderType interface [VDS]","GetProviderType method","IVdsHwProviderType.GetProviderType","IVdsHwProviderType::GetProviderType","base.ivdshwprovidertype_getprovidertype","vds/IVdsHwProviderType::GetProviderType","vdshwprv/IVdsHwProviderType::GetProviderType"]
+description: Retrieves the type of the hardware provider.
+helpviewer_keywords: ["GetProviderType","GetProviderType method [VDS]","GetProviderType method [VDS]","IVdsHwProviderType interface","IVdsHwProviderType interface [VDS]","GetProviderType method","IVdsHwProviderType.GetProviderType","IVdsHwProviderType::GetProviderType","base.ivdshwprovidertype_getprovidertype","vds/IVdsHwProviderType::GetProviderType","vdshwprv/IVdsHwProviderType::GetProviderType"]
 old-location: base\ivdshwprovidertype_getprovidertype.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: e88fd2df-531d-46d8-a91b-9b9f8578e57b
 ms.date: 12/05/2018
 ms.keywords: GetProviderType, GetProviderType method [VDS], GetProviderType method [VDS],IVdsHwProviderType interface, IVdsHwProviderType interface [VDS],GetProviderType method, IVdsHwProviderType.GetProviderType, IVdsHwProviderType::GetProviderType, base.ivdshwprovidertype_getprovidertype, vds/IVdsHwProviderType::GetProviderType, vdshwprv/IVdsHwProviderType::GetProviderType

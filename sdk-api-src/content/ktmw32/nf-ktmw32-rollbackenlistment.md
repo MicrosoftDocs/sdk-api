@@ -4,7 +4,7 @@ title: RollbackEnlistment function (ktmw32.h)
 description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.
 helpviewer_keywords: ["RollbackEnlistment","RollbackEnlistment function [Files]","fs.rollbackenlistment","ktmw32/RollbackEnlistment"]
 old-location: fs\rollbackenlistment.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
 ms.date: 12/05/2018
 ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment

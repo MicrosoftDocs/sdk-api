@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.WaitForMultipleObjectsEx
 title: WaitForMultipleObjectsEx function (synchapi.h)
-description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.helpviewer_keywords: ["WaitForMultipleObjectsEx","WaitForMultipleObjectsEx function","_win32_waitformultipleobjectsex","base.waitformultipleobjectsex","synchapi/WaitForMultipleObjectsEx","winbase/WaitForMultipleObjectsEx"]
+description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
+helpviewer_keywords: ["WaitForMultipleObjectsEx","WaitForMultipleObjectsEx function","_win32_waitformultipleobjectsex","base.waitformultipleobjectsex","synchapi/WaitForMultipleObjectsEx","winbase/WaitForMultipleObjectsEx"]
 old-location: base\waitformultipleobjectsex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 47a167fb-4714-4353-b924-a161f367673c
 ms.date: 12/05/2018
 ms.keywords: WaitForMultipleObjectsEx, WaitForMultipleObjectsEx function, _win32_waitformultipleobjectsex, base.waitformultipleobjectsex, synchapi/WaitForMultipleObjectsEx, winbase/WaitForMultipleObjectsEx
@@ -90,6 +91,9 @@ If this parameter is <b>TRUE</b>, the function returns when the state of all obj
 
 The time-out interval, in milliseconds. If a nonzero value is specified, the function waits until the specified objects are signaled, an I/O completion routine or APC is queued, or the interval elapses. If <i>dwMilliseconds</i> is zero, the function does not enter a wait state if the criteria is not met; it always returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will return only when the specified objects are signaled or an I/O completion routine or APC is queued.
 
+<b>Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2:  </b>The <i>dwMilliseconds</i> value does include time spent in low-power states. For example, the timeout does keep counting down while the computer is asleep.
+
+<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not keep counting down while the computer is asleep.
 
 ### -param bAlertable [in]
 

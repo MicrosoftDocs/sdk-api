@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectImpl.SetGraph
 title: ID2D1EffectImpl::SetGraph (d2d1effectauthor.h)
-description: The renderer calls this method to provide the effect implementation with a way to specify its transform graph and transform graph changes.helpviewer_keywords: ["ID2D1EffectImpl interface [Direct2D]","SetGraph method","ID2D1EffectImpl.SetGraph","ID2D1EffectImpl::SetGraph","SetGraph","SetGraph method [Direct2D]","SetGraph method [Direct2D]","ID2D1EffectImpl interface","d2d1effectauthor/ID2D1EffectImpl::SetGraph","direct2d.id2d1effectimpl_setgraph"]
+description: The renderer calls this method to provide the effect implementation with a way to specify its transform graph and transform graph changes.
+helpviewer_keywords: ["ID2D1EffectImpl interface [Direct2D]","SetGraph method","ID2D1EffectImpl.SetGraph","ID2D1EffectImpl::SetGraph","SetGraph","SetGraph method [Direct2D]","SetGraph method [Direct2D]","ID2D1EffectImpl interface","d2d1effectauthor/ID2D1EffectImpl::SetGraph","direct2d.id2d1effectimpl_setgraph"]
 old-location: direct2d\id2d1effectimpl_setgraph.htm
 tech.root: Direct2D
 ms.assetid: 3255CD0D-5B73-4020-965E-2CBBEF5BA35B

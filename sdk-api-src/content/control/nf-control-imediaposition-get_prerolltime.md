@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IMediaPosition.get_PrerollTime
 title: IMediaPosition::get_PrerollTime (control.h)
-description: The get_PrerollTime method retrieves the amount of data that will be queued before the start position.helpviewer_keywords: ["IMediaPosition interface [DirectShow]","get_PrerollTime method","IMediaPosition.get_PrerollTime","IMediaPosition::get_PrerollTime","IMediaPositionget_PrerollTime","control/IMediaPosition::get_PrerollTime","dshow.imediaposition_get_prerolltime","get_PrerollTime","get_PrerollTime method [DirectShow]","get_PrerollTime method [DirectShow]","IMediaPosition interface"]
+description: The get_PrerollTime method retrieves the amount of data that will be queued before the start position.
+helpviewer_keywords: ["IMediaPosition interface [DirectShow]","get_PrerollTime method","IMediaPosition.get_PrerollTime","IMediaPosition::get_PrerollTime","IMediaPositionget_PrerollTime","control/IMediaPosition::get_PrerollTime","dshow.imediaposition_get_prerolltime","get_PrerollTime","get_PrerollTime method [DirectShow]","get_PrerollTime method [DirectShow]","IMediaPosition interface"]
 old-location: dshow\imediaposition_get_prerolltime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3cfe9ba0-0138-4847-81ab-ea1e96e2c3a8
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_PrerollTime method, IMediaPosition.get_PrerollTime, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow],IMediaPosition interface

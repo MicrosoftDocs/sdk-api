@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ResetClip
 title: Graphics::ResetClip (gdiplusgraphics.h)
-description: The Graphics::ResetClip method sets the clipping region of this Graphics object to an infinite region.helpviewer_keywords: ["Graphics class [GDI+]","ResetClip method","Graphics.ResetClip","Graphics::ResetClip","ResetClip","ResetClip method [GDI+]","ResetClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_ResetClip_","gdiplus._gdiplus_CLASS_Graphics_ResetClip_"]
+description: The Graphics::ResetClip method sets the clipping region of this Graphics object to an infinite region.
+helpviewer_keywords: ["Graphics class [GDI+]","ResetClip method","Graphics.ResetClip","Graphics::ResetClip","ResetClip","ResetClip method [GDI+]","ResetClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_ResetClip_","gdiplus._gdiplus_CLASS_Graphics_ResetClip_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ResetClip_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\resetclip.htm

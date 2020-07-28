@@ -1,9 +1,10 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorDeviceCaps
 title: IDXVAHD_Device::GetVideoProcessorDeviceCaps (dxvahd.h)
-description: Gets the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["GetVideoProcessorDeviceCaps","GetVideoProcessorDeviceCaps method [Media Foundation]","GetVideoProcessorDeviceCaps method [Media Foundation]","IDXVAHD_Device interface","IDXVAHD_Device interface [Media Foundation]","GetVideoProcessorDeviceCaps method","IDXVAHD_Device.GetVideoProcessorDeviceCaps","IDXVAHD_Device::GetVideoProcessorDeviceCaps","dxvahd/IDXVAHD_Device::GetVideoProcessorDeviceCaps","mf.idxvahd_device_getvideoprocessordevicecaps"]
+description: Gets the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+helpviewer_keywords: ["GetVideoProcessorDeviceCaps","GetVideoProcessorDeviceCaps method [Media Foundation]","GetVideoProcessorDeviceCaps method [Media Foundation]","IDXVAHD_Device interface","IDXVAHD_Device interface [Media Foundation]","GetVideoProcessorDeviceCaps method","IDXVAHD_Device.GetVideoProcessorDeviceCaps","IDXVAHD_Device::GetVideoProcessorDeviceCaps","dxvahd/IDXVAHD_Device::GetVideoProcessorDeviceCaps","mf.idxvahd_device_getvideoprocessordevicecaps"]
 old-location: mf\idxvahd_device_getvideoprocessordevicecaps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 93acad97-feee-46a5-95bf-51e560f91057
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorDeviceCaps, GetVideoProcessorDeviceCaps method [Media Foundation], GetVideoProcessorDeviceCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorDeviceCaps method, IDXVAHD_Device.GetVideoProcessorDeviceCaps, IDXVAHD_Device::GetVideoProcessorDeviceCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorDeviceCaps, mf.idxvahd_device_getvideoprocessordevicecaps

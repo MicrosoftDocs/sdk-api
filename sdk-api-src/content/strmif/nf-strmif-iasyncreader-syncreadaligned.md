@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncReadAligned
 title: IAsyncReader::SyncReadAligned (strmif.h)
-description: The SyncReadAligned method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address must be aligned; check the allocator properties for the required alignment.helpviewer_keywords: ["IAsyncReader interface [DirectShow]","SyncReadAligned method","IAsyncReader.SyncReadAligned","IAsyncReader::SyncReadAligned","IAsyncReaderSyncReadAligned","SyncReadAligned","SyncReadAligned method [DirectShow]","SyncReadAligned method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_syncreadaligned","strmif/IAsyncReader::SyncReadAligned"]
+description: The SyncReadAligned method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address must be aligned; check the allocator properties for the required alignment.
+helpviewer_keywords: ["IAsyncReader interface [DirectShow]","SyncReadAligned method","IAsyncReader.SyncReadAligned","IAsyncReader::SyncReadAligned","IAsyncReaderSyncReadAligned","SyncReadAligned","SyncReadAligned method [DirectShow]","SyncReadAligned method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_syncreadaligned","strmif/IAsyncReader::SyncReadAligned"]
 old-location: dshow\iasyncreader_syncreadaligned.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 862511f1-7580-44db-aed5-3dd8279dcc33
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncReadAligned method, IAsyncReader.SyncReadAligned, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned

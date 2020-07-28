@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorActivityMonitor.Stop
 title: IMFSensorActivityMonitor::Stop (mfidl.h)
-description: Stops the sensor activity monitor.helpviewer_keywords: ["IMFSensorActivityMonitor interface [Media Foundation]","Stop method","IMFSensorActivityMonitor.Stop","IMFSensorActivityMonitor::Stop","Stop","Stop method [Media Foundation]","Stop method [Media Foundation]","IMFSensorActivityMonitor interface","mf.imfsensoractivitymonitor_stop","mfidl/IMFSensorActivityMonitor::Stop"]
+description: Stops the sensor activity monitor.
+helpviewer_keywords: ["IMFSensorActivityMonitor interface [Media Foundation]","Stop method","IMFSensorActivityMonitor.Stop","IMFSensorActivityMonitor::Stop","Stop","Stop method [Media Foundation]","Stop method [Media Foundation]","IMFSensorActivityMonitor interface","mf.imfsensoractivitymonitor_stop","mfidl/IMFSensorActivityMonitor::Stop"]
 old-location: mf\imfsensoractivitymonitor_stop.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A40BD926-66BB-498C-B26B-BBDE0A122456
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Stop method, IMFSensorActivityMonitor.Stop, IMFSensorActivityMonitor::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_stop, mfidl/IMFSensorActivityMonitor::Stop

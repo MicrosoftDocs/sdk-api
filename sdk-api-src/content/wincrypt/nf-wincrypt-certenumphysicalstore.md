@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertEnumPhysicalStore
 title: CertEnumPhysicalStore function (wincrypt.h)
-description: The CertEnumPhysicalStore function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.helpviewer_keywords: ["CertEnumPhysicalStore","CertEnumPhysicalStore function [Security]","_crypto2_certenumphysicalstore","security.certenumphysicalstore","wincrypt/CertEnumPhysicalStore"]
+description: The CertEnumPhysicalStore function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
+helpviewer_keywords: ["CertEnumPhysicalStore","CertEnumPhysicalStore function [Security]","_crypto2_certenumphysicalstore","security.certenumphysicalstore","wincrypt/CertEnumPhysicalStore"]
 old-location: security\certenumphysicalstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
 ms.date: 12/05/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore

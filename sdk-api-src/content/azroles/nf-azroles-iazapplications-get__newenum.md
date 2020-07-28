@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplications.get__NewEnum
 title: IAzApplications::get__NewEnum (azroles.h)
-description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).helpviewer_keywords: ["AzApplications object [Security]","_NewEnum property","IAzApplications interface [Security]","_NewEnum property","IAzApplications._NewEnum","IAzApplications.get__NewEnum","IAzApplications::_NewEnum","IAzApplications::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzApplications object","_NewEnum property [Security]","IAzApplications interface","azroles/IAzApplications::_NewEnum","azroles/IAzApplications::get__NewEnum","get__NewEnum","security.iazapplications_newenum"]
+description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+helpviewer_keywords: ["AzApplications object [Security]","_NewEnum property","IAzApplications interface [Security]","_NewEnum property","IAzApplications._NewEnum","IAzApplications.get__NewEnum","IAzApplications::_NewEnum","IAzApplications::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzApplications object","_NewEnum property [Security]","IAzApplications interface","azroles/IAzApplications::_NewEnum","azroles/IAzApplications::get__NewEnum","get__NewEnum","security.iazapplications_newenum"]
 old-location: security\iazapplications_newenum.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8c01c1b4-d3e0-40c2-b0b7-524423c38c45
 ms.date: 12/05/2018
 ms.keywords: AzApplications object [Security],_NewEnum property, IAzApplications interface [Security],_NewEnum property, IAzApplications._NewEnum, IAzApplications.get__NewEnum, IAzApplications::_NewEnum, IAzApplications::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplications object, _NewEnum property [Security],IAzApplications interface, azroles/IAzApplications::_NewEnum, azroles/IAzApplications::get__NewEnum, get__NewEnum, security.iazapplications_newenum

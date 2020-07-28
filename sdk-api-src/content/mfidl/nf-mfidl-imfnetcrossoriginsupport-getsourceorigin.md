@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.GetSourceOrigin
 title: IMFNetCrossOriginSupport::GetSourceOrigin (mfidl.h)
-description: Returns the W3C origin of the HTML5 media element.helpviewer_keywords: ["GetSourceOrigin","GetSourceOrigin method [Media Foundation]","GetSourceOrigin method [Media Foundation]","IMFNetCrossOriginSupport interface","IMFNetCrossOriginSupport interface [Media Foundation]","GetSourceOrigin method","IMFNetCrossOriginSupport.GetSourceOrigin","IMFNetCrossOriginSupport::GetSourceOrigin","mf.imfnetcrossoriginsupport_getsourceorigin","mfidl/IMFNetCrossOriginSupport::GetSourceOrigin"]
+description: Returns the W3C origin of the HTML5 media element.
+helpviewer_keywords: ["GetSourceOrigin","GetSourceOrigin method [Media Foundation]","GetSourceOrigin method [Media Foundation]","IMFNetCrossOriginSupport interface","IMFNetCrossOriginSupport interface [Media Foundation]","GetSourceOrigin method","IMFNetCrossOriginSupport.GetSourceOrigin","IMFNetCrossOriginSupport::GetSourceOrigin","mf.imfnetcrossoriginsupport_getsourceorigin","mfidl/IMFNetCrossOriginSupport::GetSourceOrigin"]
 old-location: mf\imfnetcrossoriginsupport_getsourceorigin.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 84379D86-DB03-4631-9A35-EFE9811B0D33
 ms.date: 12/05/2018
 ms.keywords: GetSourceOrigin, GetSourceOrigin method [Media Foundation], GetSourceOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetSourceOrigin method, IMFNetCrossOriginSupport.GetSourceOrigin, IMFNetCrossOriginSupport::GetSourceOrigin, mf.imfnetcrossoriginsupport_getsourceorigin, mfidl/IMFNetCrossOriginSupport::GetSourceOrigin

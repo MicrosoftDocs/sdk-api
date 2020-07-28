@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputByteStream
 title: IMFCaptureRecordSink::SetOutputByteStream (mfcaptureengine.h)
-description: Specifies a byte stream that will receive the data for the recording.helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetOutputByteStream method","IMFCaptureRecordSink.SetOutputByteStream","IMFCaptureRecordSink::SetOutputByteStream","SetOutputByteStream","SetOutputByteStream method [Media Foundation]","SetOutputByteStream method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setoutputbytestream","mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream"]
+description: Specifies a byte stream that will receive the data for the recording.
+helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetOutputByteStream method","IMFCaptureRecordSink.SetOutputByteStream","IMFCaptureRecordSink::SetOutputByteStream","SetOutputByteStream","SetOutputByteStream method [Media Foundation]","SetOutputByteStream method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setoutputbytestream","mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream"]
 old-location: mf\imfcapturerecordsink_setoutputbytestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C33357C8-882A-4350-8638-46C2220FC445
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputByteStream method, IMFCaptureRecordSink.SetOutputByteStream, IMFCaptureRecordSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputbytestream, mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream

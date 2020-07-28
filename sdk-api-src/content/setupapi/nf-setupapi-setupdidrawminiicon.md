@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiDrawMiniIcon
 title: SetupDiDrawMiniIcon function (setupapi.h)
-description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.helpviewer_keywords: ["SetupDiDrawMiniIcon","SetupDiDrawMiniIcon function [Device and Driver Installation]","devinst.setupdidrawminiicon","di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml","setupapi/SetupDiDrawMiniIcon"]
+description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.
+helpviewer_keywords: ["SetupDiDrawMiniIcon","SetupDiDrawMiniIcon function [Device and Driver Installation]","devinst.setupdidrawminiicon","di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml","setupapi/SetupDiDrawMiniIcon"]
 old-location: devinst\setupdidrawminiicon.htm
 tech.root: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7

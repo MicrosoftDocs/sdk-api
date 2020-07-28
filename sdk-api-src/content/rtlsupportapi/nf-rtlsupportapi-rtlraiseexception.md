@@ -1,9 +1,10 @@
 ---
 UID: NF:rtlsupportapi.RtlRaiseException
 title: RtlRaiseException function (rtlsupportapi.h)
-description: Raises an exception.helpviewer_keywords: ["RtlRaiseException","RtlRaiseException function [Windows API]","rtlsupportapi/RtlRaiseException","winprog.rtlraiseexception"]
+description: Raises an exception.
+helpviewer_keywords: ["RtlRaiseException","RtlRaiseException function [Windows API]","rtlsupportapi/RtlRaiseException","winprog.rtlraiseexception"]
 old-location: winprog\rtlraiseexception.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 0d43418a-1c80-4f5e-a0fe-5bc3adac847c
 ms.date: 12/05/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception

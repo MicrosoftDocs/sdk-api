@@ -1,9 +1,10 @@
 ---
 UID: NS:winefs._ENCRYPTION_CERTIFICATE_HASH_LIST
 title: ENCRYPTION_CERTIFICATE_HASH_LIST (winefs.h)
-description: Contains a list of certificate hashes.helpviewer_keywords: ["*PENCRYPTION_CERTIFICATE_HASH_LIST","ENCRYPTION_CERTIFICATE_HASH_LIST","ENCRYPTION_CERTIFICATE_HASH_LIST structure [Files]","PENCRYPTION_CERTIFICATE_HASH_LIST","PENCRYPTION_CERTIFICATE_HASH_LIST structure pointer [Files]","_win32_encryption_certificate_hash_list_str","base.encryption_certificate_hash_list_str","fs.encryption_certificate_hash_list_str","winefs/ENCRYPTION_CERTIFICATE_HASH_LIST","winefs/PENCRYPTION_CERTIFICATE_HASH_LIST"]
+description: Contains a list of certificate hashes.
+helpviewer_keywords: ["*PENCRYPTION_CERTIFICATE_HASH_LIST","ENCRYPTION_CERTIFICATE_HASH_LIST","ENCRYPTION_CERTIFICATE_HASH_LIST structure [Files]","PENCRYPTION_CERTIFICATE_HASH_LIST","PENCRYPTION_CERTIFICATE_HASH_LIST structure pointer [Files]","_win32_encryption_certificate_hash_list_str","base.encryption_certificate_hash_list_str","fs.encryption_certificate_hash_list_str","winefs/ENCRYPTION_CERTIFICATE_HASH_LIST","winefs/PENCRYPTION_CERTIFICATE_HASH_LIST"]
 old-location: fs\encryption_certificate_hash_list_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 988159b3-3cb9-4a4d-9c68-ebfb309cff25
 ms.date: 12/05/2018
 ms.keywords: '*PENCRYPTION_CERTIFICATE_HASH_LIST, ENCRYPTION_CERTIFICATE_HASH_LIST, ENCRYPTION_CERTIFICATE_HASH_LIST structure [Files], PENCRYPTION_CERTIFICATE_HASH_LIST, PENCRYPTION_CERTIFICATE_HASH_LIST structure pointer [Files], _win32_encryption_certificate_hash_list_str, base.encryption_certificate_hash_list_str, fs.encryption_certificate_hash_list_str, winefs/ENCRYPTION_CERTIFICATE_HASH_LIST, winefs/PENCRYPTION_CERTIFICATE_HASH_LIST'

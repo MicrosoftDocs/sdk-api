@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._SP_UNREMOVEDEVICE_PARAMS
 title: SP_UNREMOVEDEVICE_PARAMS (setupapi.h)
-description: An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation request.helpviewer_keywords: ["*PSP_UNREMOVEDEVICE_PARAMS","PSP_UNREMOVEDEVICE_PARAMS","PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation]","SP_UNREMOVEDEVICE_PARAMS","SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation]","devinst.sp_unremovedevice_params","di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml","setupapi/PSP_UNREMOVEDEVICE_PARAMS","setupapi/SP_UNREMOVEDEVICE_PARAMS"]
+description: An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation request.
+helpviewer_keywords: ["*PSP_UNREMOVEDEVICE_PARAMS","PSP_UNREMOVEDEVICE_PARAMS","PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation]","SP_UNREMOVEDEVICE_PARAMS","SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation]","devinst.sp_unremovedevice_params","di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml","setupapi/PSP_UNREMOVEDEVICE_PARAMS","setupapi/SP_UNREMOVEDEVICE_PARAMS"]
 old-location: devinst\sp_unremovedevice_params.htm
 tech.root: devinst
 ms.assetid: 89f5e2a9-5336-421f-b781-688588695027

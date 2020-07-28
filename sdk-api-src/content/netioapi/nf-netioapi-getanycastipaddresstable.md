@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressTable
 title: GetAnycastIpAddressTable function (netioapi.h)
-description: Retrieves the anycast IP address table on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetAnycastIpAddressTable","GetAnycastIpAddressTable function [IP Helper]","iphlp.getanycastipaddresstable","netioapi/GetAnycastIpAddressTable"]
+description: Retrieves the anycast IP address table on the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetAnycastIpAddressTable","GetAnycastIpAddressTable function [IP Helper]","iphlp.getanycastipaddresstable","netioapi/GetAnycastIpAddressTable"]
 old-location: iphlp\getanycastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: 4eccae59-00be-4f9c-bb62-a507d7dad2e0

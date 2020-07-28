@@ -1,9 +1,10 @@
 ---
 UID: NS:cfapi.CF_SYNC_ROOT_STANDARD_INFO
 title: CF_SYNC_ROOT_STANDARD_INFO (cfapi.h)
-description: Standard sync root information.helpviewer_keywords: ["CF_SYNC_ROOT_STANDARD_INFO","CF_SYNC_ROOT_STANDARD_INFO structure","cfapi/CF_SYNC_ROOT_STANDARD_INFO","cloudApi.cf_sync_root_standard_info"]
+description: Standard sync root information.
+helpviewer_keywords: ["CF_SYNC_ROOT_STANDARD_INFO","CF_SYNC_ROOT_STANDARD_INFO structure","cfapi/CF_SYNC_ROOT_STANDARD_INFO","cloudApi.cf_sync_root_standard_info"]
 old-location: cloudapi\cf_sync_root_standard_info.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 17E409FB-2997-432C-977F-BEBF53068B42
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_STANDARD_INFO, CF_SYNC_ROOT_STANDARD_INFO structure, cfapi/CF_SYNC_ROOT_STANDARD_INFO, cloudApi.cf_sync_root_standard_info

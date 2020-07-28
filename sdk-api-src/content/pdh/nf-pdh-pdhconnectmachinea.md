@@ -4,7 +4,7 @@ title: PdhConnectMachineA function (pdh.h)
 description: Connects to the specified computer.
 helpviewer_keywords: ["PdhConnectMachine","PdhConnectMachine function [Perf]","PdhConnectMachineA","PdhConnectMachineW","_win32_pdhconnectmachine","base.pdhconnectmachine","pdh/PdhConnectMachine","pdh/PdhConnectMachineA","pdh/PdhConnectMachineW","perf.pdhconnectmachine"]
 old-location: perf\pdhconnectmachine.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.date: 12/05/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
@@ -122,6 +122,10 @@ However, you can use this function if you want to include more than the local co
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhConnectMachine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

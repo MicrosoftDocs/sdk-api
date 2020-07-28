@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegCreateKeyExA
 title: RegCreateKeyExA function (winreg.h)
-description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_CREATE_LINK","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyEx","RegCreateKeyEx function","RegCreateKeyExA","RegCreateKeyExW","_win32_regcreatekeyex","base.regcreatekeyex","winreg/RegCreateKeyEx","winreg/RegCreateKeyExA","winreg/RegCreateKeyExW"]
+description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
+helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_CREATE_LINK","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyEx","RegCreateKeyEx function","RegCreateKeyExA","RegCreateKeyExW","_win32_regcreatekeyex","base.regcreatekeyex","winreg/RegCreateKeyEx","winreg/RegCreateKeyExA","winreg/RegCreateKeyExW"]
 old-location: base\regcreatekeyex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW
@@ -278,6 +279,10 @@ Note that operations that access certain registry keys are redirected. For more 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegCreateKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

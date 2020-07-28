@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdxml._WSD_DATETIME
 title: WSD_DATETIME (wsdxml.h)
-description: Represents a timestamp.helpviewer_keywords: ["WSD_DATETIME","WSD_DATETIME structure","_WSD_DATETIME","ncd.wsd_datetime_struct","wsdxml/WSD_DATETIME"]
+description: Represents a timestamp.
+helpviewer_keywords: ["WSD_DATETIME","WSD_DATETIME structure","_WSD_DATETIME","ncd.wsd_datetime_struct","wsdxml/WSD_DATETIME"]
 old-location: ncd\wsd_datetime_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: ec42d69c-133a-4e76-bbbe-0e6978f4723a
 ms.date: 12/05/2018
 ms.keywords: WSD_DATETIME, WSD_DATETIME structure, _WSD_DATETIME, ncd.wsd_datetime_struct, wsdxml/WSD_DATETIME

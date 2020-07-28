@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.CanChange
 title: ITextFont::CanChange (tom.h)
-description: Determines whether the font can be changed.helpviewer_keywords: ["CanChange","CanChange method [Windows Controls]","CanChange method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","CanChange method","ITextFont.CanChange","ITextFont::CanChange","_win32_ITextFont_CanChange","_win32_ITextFont_CanChange_cpp","controls.ITextFont_CanChange","controls._win32_ITextFont_CanChange","tom/ITextFont::CanChange"]
+description: Determines whether the font can be changed.
+helpviewer_keywords: ["CanChange","CanChange method [Windows Controls]","CanChange method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","CanChange method","ITextFont.CanChange","ITextFont::CanChange","_win32_ITextFont_CanChange","_win32_ITextFont_CanChange_cpp","controls.ITextFont_CanChange","controls._win32_ITextFont_CanChange","tom/ITextFont::CanChange"]
 old-location: controls\ITextFont_CanChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontcanchange.htm

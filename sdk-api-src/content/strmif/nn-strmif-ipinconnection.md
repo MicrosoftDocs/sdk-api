@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IPinConnection
 title: IPinConnection (strmif.h)
-description: This interface provides methods for reconnecting an input pin while the filter is still running.helpviewer_keywords: ["IPinConnection","IPinConnection interface [DirectShow]","IPinConnection interface [DirectShow]","described","IPinConnectionInterface","dshow.ipinconnection","strmif/IPinConnection"]
+description: This interface provides methods for reconnecting an input pin while the filter is still running.
+helpviewer_keywords: ["IPinConnection","IPinConnection interface [DirectShow]","IPinConnection interface [DirectShow]","described","IPinConnectionInterface","dshow.ipinconnection","strmif/IPinConnection"]
 old-location: dshow\ipinconnection.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0843a01c-6f6a-4765-abca-dd562175fcee
 ms.date: 12/05/2018
 ms.keywords: IPinConnection, IPinConnection interface [DirectShow], IPinConnection interface [DirectShow],described, IPinConnectionInterface, dshow.ipinconnection, strmif/IPinConnection

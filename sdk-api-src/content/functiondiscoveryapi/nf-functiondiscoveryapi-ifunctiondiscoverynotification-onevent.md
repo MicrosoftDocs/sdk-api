@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnEvent
 title: IFunctionDiscoveryNotification::OnEvent (functiondiscoveryapi.h)
-description: Receives any add, remove, or update events during a notification.helpviewer_keywords: ["FD_EVENTID_ASYNCTHREADEXIT","FD_EVENTID_IPADDRESSCHANGE","FD_EVENTID_SEARCHCOMPLETE","FD_EVENTID_SEARCHSTART","IFunctionDiscoveryNotification interface","OnEvent method","IFunctionDiscoveryNotification.OnEvent","IFunctionDiscoveryNotification::OnEvent","OnEvent","OnEvent method","OnEvent method","IFunctionDiscoveryNotification interface","functiondiscoveryapi/IFunctionDiscoveryNotification::OnEvent","ncd.ifunctiondiscoverynotification_onevent"]
+description: Receives any add, remove, or update events during a notification.
+helpviewer_keywords: ["FD_EVENTID_ASYNCTHREADEXIT","FD_EVENTID_IPADDRESSCHANGE","FD_EVENTID_SEARCHCOMPLETE","FD_EVENTID_SEARCHSTART","IFunctionDiscoveryNotification interface","OnEvent method","IFunctionDiscoveryNotification.OnEvent","IFunctionDiscoveryNotification::OnEvent","OnEvent","OnEvent method","OnEvent method","IFunctionDiscoveryNotification interface","functiondiscoveryapi/IFunctionDiscoveryNotification::OnEvent","ncd.ifunctiondiscoverynotification_onevent"]
 old-location: ncd\ifunctiondiscoverynotification_onevent.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 4ebfdf15-ca37-4905-b842-8854a0bd276b
 ms.date: 12/05/2018
 ms.keywords: FD_EVENTID_ASYNCTHREADEXIT, FD_EVENTID_IPADDRESSCHANGE, FD_EVENTID_SEARCHCOMPLETE, FD_EVENTID_SEARCHSTART, IFunctionDiscoveryNotification interface,OnEvent method, IFunctionDiscoveryNotification.OnEvent, IFunctionDiscoveryNotification::OnEvent, OnEvent, OnEvent method, OnEvent method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnEvent, ncd.ifunctiondiscoverynotification_onevent

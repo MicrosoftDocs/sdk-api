@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._SYSTEM_CPU_SET_INFORMATION
 title: SYSTEM_CPU_SET_INFORMATION (winnt.h)
-description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.helpviewer_keywords: ["*PSYSTEM_CPU_SET_INFORMATION","PSYSTEM_CPU_SET_INFORMATION","PSYSTEM_CPU_SET_INFORMATION structure pointer","SYSTEM_CPU_SET_INFORMATION","SYSTEM_CPU_SET_INFORMATION structure","base.system_cpu_set_information","winnt/PSYSTEM_CPU_SET_INFORMATION","winnt/SYSTEM_CPU_SET_INFORMATION"]
+description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
+helpviewer_keywords: ["*PSYSTEM_CPU_SET_INFORMATION","PSYSTEM_CPU_SET_INFORMATION","PSYSTEM_CPU_SET_INFORMATION structure pointer","SYSTEM_CPU_SET_INFORMATION","SYSTEM_CPU_SET_INFORMATION structure","base.system_cpu_set_information","winnt/PSYSTEM_CPU_SET_INFORMATION","winnt/SYSTEM_CPU_SET_INFORMATION"]
 old-location: base\system_cpu_set_information.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION'

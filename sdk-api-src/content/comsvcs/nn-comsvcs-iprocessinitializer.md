@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IProcessInitializer
 title: IProcessInitializer (comsvcs.h)
-description: Provides methods that can be called whenever Dllhost.exe starts up or shuts down.helpviewer_keywords: ["IProcessInitializer","IProcessInitializer interface [COM+]","IProcessInitializer interface [COM+]","described","_cos_IProcessInitializer","comsvcs/IProcessInitializer","cos.iprocessinitializer"]
+description: Provides methods that can be called whenever Dllhost.exe starts up or shuts down.
+helpviewer_keywords: ["IProcessInitializer","IProcessInitializer interface [COM+]","IProcessInitializer interface [COM+]","described","_cos_IProcessInitializer","comsvcs/IProcessInitializer","cos.iprocessinitializer"]
 old-location: cos\iprocessinitializer.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 7c7edeb7-5bc1-4ede-8fe4-78fc7c6bdd30
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer, IProcessInitializer interface [COM+], IProcessInitializer interface [COM+],described, _cos_IProcessInitializer, comsvcs/IProcessInitializer, cos.iprocessinitializer

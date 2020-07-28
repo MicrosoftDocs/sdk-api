@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.RemoveListener
 title: IDWriteFontDownloadQueue::RemoveListener (dwrite_3.h)
-description: Unregisters a notification handler that was previously registered using AddListener.helpviewer_keywords: ["IDWriteFontDownloadQueue interface [Direct Write]","RemoveListener method","IDWriteFontDownloadQueue.RemoveListener","IDWriteFontDownloadQueue::RemoveListener","RemoveListener","RemoveListener method [Direct Write]","RemoveListener method [Direct Write]","IDWriteFontDownloadQueue interface","directwrite.idwritefontdownloadqueue_removelistener","dwrite_3/IDWriteFontDownloadQueue::RemoveListener"]
+description: Unregisters a notification handler that was previously registered using AddListener.
+helpviewer_keywords: ["IDWriteFontDownloadQueue interface [Direct Write]","RemoveListener method","IDWriteFontDownloadQueue.RemoveListener","IDWriteFontDownloadQueue::RemoveListener","RemoveListener","RemoveListener method [Direct Write]","RemoveListener method [Direct Write]","IDWriteFontDownloadQueue interface","directwrite.idwritefontdownloadqueue_removelistener","dwrite_3/IDWriteFontDownloadQueue::RemoveListener"]
 old-location: directwrite\idwritefontdownloadqueue_removelistener.htm
 tech.root: DirectWrite
 ms.assetid: e3470f17-9630-de53-d1ae-ab2a2508a069

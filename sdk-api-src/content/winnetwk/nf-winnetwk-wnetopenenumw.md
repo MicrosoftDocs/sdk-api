@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetOpenEnumW
 title: WNetOpenEnumW function (winnetwk.h)
-description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.helpviewer_keywords: ["0","RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_ALL","RESOURCEUSAGE_ATTACHED","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","RESOURCE_REMEMBERED","WNetOpenEnum","WNetOpenEnum function [Windows Networking (WNet)]","WNetOpenEnumA","WNetOpenEnumW","_win32_wnetopenenum","winnetwk/WNetOpenEnum","winnetwk/WNetOpenEnumA","winnetwk/WNetOpenEnumW","wnet.wnetopenenum"]
+description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.
+helpviewer_keywords: ["0","RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_ALL","RESOURCEUSAGE_ATTACHED","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","RESOURCE_REMEMBERED","WNetOpenEnum","WNetOpenEnum function [Windows Networking (WNet)]","WNetOpenEnumA","WNetOpenEnumW","_win32_wnetopenenum","winnetwk/WNetOpenEnum","winnetwk/WNetOpenEnumA","winnetwk/WNetOpenEnumW","wnet.wnetopenenum"]
 old-location: wnet\wnetopenenum.htm
 tech.root: WNet
 ms.assetid: d99a549a-bf27-497f-a3be-bbe2c668bf90
@@ -369,6 +370,10 @@ For a code sample that illustrates an application-defined function that enumerat
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winnetwk.h header defines WNetOpenEnum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetCustomStartCap
 title: Pen::GetCustomStartCap (gdipluspen.h)
-description: The Pen::GetCustomStartCap method gets the custom start cap currently set for this Pen object.helpviewer_keywords: ["GetCustomStartCap","GetCustomStartCap method [GDI+]","GetCustomStartCap method [GDI+]","Pen class","Pen class [GDI+]","GetCustomStartCap method","Pen.GetCustomStartCap","Pen::GetCustomStartCap","_gdiplus_CLASS_Pen_GetCustomStartCap_customCap_","gdiplus._gdiplus_CLASS_Pen_GetCustomStartCap_customCap_"]
+description: The Pen::GetCustomStartCap method gets the custom start cap currently set for this Pen object.
+helpviewer_keywords: ["GetCustomStartCap","GetCustomStartCap method [GDI+]","GetCustomStartCap method [GDI+]","Pen class","Pen class [GDI+]","GetCustomStartCap method","Pen.GetCustomStartCap","Pen::GetCustomStartCap","_gdiplus_CLASS_Pen_GetCustomStartCap_customCap_","gdiplus._gdiplus_CLASS_Pen_GetCustomStartCap_customCap_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCustomStartCap_customCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcustomstartcap.htm

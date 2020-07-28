@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_GlobalPartitionID
 title: ICOMAdminCatalog2::get_GlobalPartitionID (comadmin.h)
-description: Retrieves the identifier for the global partition.helpviewer_keywords: ["GlobalPartitionID property [COM+]","GlobalPartitionID property [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","GlobalPartitionID property","ICOMAdminCatalog2.GlobalPartitionID","ICOMAdminCatalog2.get_GlobalPartitionID","ICOMAdminCatalog2::GlobalPartitionID","ICOMAdminCatalog2::get_GlobalPartitionID","_cos_IComAdminCatalog2_get_GlobalPartitionID","comadmin/ICOMAdminCatalog2::GlobalPartitionID","comadmin/ICOMAdminCatalog2::get_GlobalPartitionID","cos.icomadmincatalog2_globalpartitionid","get_GlobalPartitionID"]
+description: Retrieves the identifier for the global partition.
+helpviewer_keywords: ["GlobalPartitionID property [COM+]","GlobalPartitionID property [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","GlobalPartitionID property","ICOMAdminCatalog2.GlobalPartitionID","ICOMAdminCatalog2.get_GlobalPartitionID","ICOMAdminCatalog2::GlobalPartitionID","ICOMAdminCatalog2::get_GlobalPartitionID","_cos_IComAdminCatalog2_get_GlobalPartitionID","comadmin/ICOMAdminCatalog2::GlobalPartitionID","comadmin/ICOMAdminCatalog2::get_GlobalPartitionID","cos.icomadmincatalog2_globalpartitionid","get_GlobalPartitionID"]
 old-location: cos\icomadmincatalog2_globalpartitionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: aa6bc5cd-ec6a-4b8d-ab85-0131e0031a4b
 ms.date: 12/05/2018
 ms.keywords: GlobalPartitionID property [COM+], GlobalPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GlobalPartitionID property, ICOMAdminCatalog2.GlobalPartitionID, ICOMAdminCatalog2.get_GlobalPartitionID, ICOMAdminCatalog2::GlobalPartitionID, ICOMAdminCatalog2::get_GlobalPartitionID, _cos_IComAdminCatalog2_get_GlobalPartitionID, comadmin/ICOMAdminCatalog2::GlobalPartitionID, comadmin/ICOMAdminCatalog2::get_GlobalPartitionID, cos.icomadmincatalog2_globalpartitionid, get_GlobalPartitionID

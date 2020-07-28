@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetNumberOfCapabilities
 title: IAMStreamConfig::GetNumberOfCapabilities (strmif.h)
-description: The GetNumberOfCapabilities method retrieves the number of format capabilities that this pin supports.helpviewer_keywords: ["GetNumberOfCapabilities","GetNumberOfCapabilities method [DirectShow]","GetNumberOfCapabilities method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetNumberOfCapabilities method","IAMStreamConfig.GetNumberOfCapabilities","IAMStreamConfig::GetNumberOfCapabilities","IAMStreamConfigGetNumberOfCapabilities","dshow.iamstreamconfig_getnumberofcapabilities","strmif/IAMStreamConfig::GetNumberOfCapabilities"]
+description: The GetNumberOfCapabilities method retrieves the number of format capabilities that this pin supports.
+helpviewer_keywords: ["GetNumberOfCapabilities","GetNumberOfCapabilities method [DirectShow]","GetNumberOfCapabilities method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetNumberOfCapabilities method","IAMStreamConfig.GetNumberOfCapabilities","IAMStreamConfig::GetNumberOfCapabilities","IAMStreamConfigGetNumberOfCapabilities","dshow.iamstreamconfig_getnumberofcapabilities","strmif/IAMStreamConfig::GetNumberOfCapabilities"]
 old-location: dshow\iamstreamconfig_getnumberofcapabilities.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetNumberOfCapabilities method, IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities

@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupQueueRenameA
 title: SetupQueueRenameA function (setupapi.h)
-description: The SetupQueueRename function places an individual file rename operation on a setup file queue.helpviewer_keywords: ["SetupQueueRename","SetupQueueRename function [Setup API]","SetupQueueRenameA","SetupQueueRenameW","_setupapi_setupqueuerename","setup.setupqueuerename","setupapi/SetupQueueRename","setupapi/SetupQueueRenameA","setupapi/SetupQueueRenameW"]
+description: The SetupQueueRename function places an individual file rename operation on a setup file queue.
+helpviewer_keywords: ["SetupQueueRename","SetupQueueRename function [Setup API]","SetupQueueRenameA","SetupQueueRenameW","_setupapi_setupqueuerename","setup.setupqueuerename","setupapi/SetupQueueRename","setupapi/SetupQueueRenameA","setupapi/SetupQueueRenameW"]
 old-location: setup\setupqueuerename.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 0b80eba9-9e71-4255-8c1b-039878682ec4
 ms.date: 12/05/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW
@@ -108,6 +109,10 @@ Because rename operations are assumed to take place on fixed media, the user wil
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupQueueRename as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

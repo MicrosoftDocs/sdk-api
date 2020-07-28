@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetNextUmsListItem
 title: GetNextUmsListItem function (winbase.h)
-description: Returns the next user-mode scheduling (UMS) thread context in a list of thread contexts.helpviewer_keywords: ["GetNextUmsListItem","GetNextUmsListItem function","base.getnextumslistitem","winbase/GetNextUmsListItem"]
+description: Returns the next user-mode scheduling (UMS) thread context in a list of thread contexts.
+helpviewer_keywords: ["GetNextUmsListItem","GetNextUmsListItem function","base.getnextumslistitem","winbase/GetNextUmsListItem"]
 old-location: base\getnextumslistitem.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
 ms.date: 12/05/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICDecompressOpen
 title: ICDecompressOpen macro (vfw.h)
-description: The ICDecompressOpen macro opens a decompressor that is compatible with the specified formats.helpviewer_keywords: ["ICDecompressOpen","ICDecompressOpen macro [Windows Multimedia]","_win32_ICDecompressOpen","multimedia.icdecompressopen","vfw/ICDecompressOpen"]
+description: The ICDecompressOpen macro opens a decompressor that is compatible with the specified formats.
+helpviewer_keywords: ["ICDecompressOpen","ICDecompressOpen macro [Windows Multimedia]","_win32_ICDecompressOpen","multimedia.icdecompressopen","vfw/ICDecompressOpen"]
 old-location: multimedia\icdecompressopen.htm
 tech.root: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetMaximumProcessorGroupCount
 title: GetMaximumProcessorGroupCount function (winbase.h)
-description: Returns the maximum number of processor groups that the system can have.helpviewer_keywords: ["GetMaximumProcessorGroupCount","GetMaximumProcessorGroupCount function","base.getmaximumprocessorgroupcount","winbase/GetMaximumProcessorGroupCount"]
+description: Returns the maximum number of processor groups that the system can have.
+helpviewer_keywords: ["GetMaximumProcessorGroupCount","GetMaximumProcessorGroupCount function","base.getmaximumprocessorgroupcount","winbase/GetMaximumProcessorGroupCount"]
 old-location: base\getmaximumprocessorgroupcount.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 7762ec89-5892-4af3-9032-bf084aef9075
 ms.date: 12/05/2018
 ms.keywords: GetMaximumProcessorGroupCount, GetMaximumProcessorGroupCount function, base.getmaximumprocessorgroupcount, winbase/GetMaximumProcessorGroupCount

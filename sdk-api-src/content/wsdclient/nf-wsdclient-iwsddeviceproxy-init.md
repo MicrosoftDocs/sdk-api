@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.Init
 title: IWSDDeviceProxy::Init (wsdclient.h)
-description: Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.helpviewer_keywords: ["IWSDDeviceProxy interface","Init method","IWSDDeviceProxy.Init","IWSDDeviceProxy::Init","Init","Init method","Init method","IWSDDeviceProxy interface","ncd.iwsddeviceproxy_init_method","wsdclient/IWSDDeviceProxy::Init"]
+description: Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.
+helpviewer_keywords: ["IWSDDeviceProxy interface","Init method","IWSDDeviceProxy.Init","IWSDDeviceProxy::Init","Init","Init method","Init method","IWSDDeviceProxy interface","ncd.iwsddeviceproxy_init_method","wsdclient/IWSDDeviceProxy::Init"]
 old-location: ncd\iwsddeviceproxy_init_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d29212c8-2f29-41cc-ae35-8376ec5f0b7a
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDeviceProxy::Init, Init, Init method, Init method,IWSDDeviceProxy interface, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init

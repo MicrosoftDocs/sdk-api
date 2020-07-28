@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultMenuLanguage
 title: IDvdControl2::SelectDefaultMenuLanguage (strmif.h)
-description: The SelectDefaultMenuLanguage method sets the default language for all menus and menu buttons.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectDefaultMenuLanguage method","IDvdControl2.SelectDefaultMenuLanguage","IDvdControl2::SelectDefaultMenuLanguage","IDvdControl2SelectDefaultMenuLanguage","SelectDefaultMenuLanguage","SelectDefaultMenuLanguage method [DirectShow]","SelectDefaultMenuLanguage method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectdefaultmenulanguage","strmif/IDvdControl2::SelectDefaultMenuLanguage"]
+description: The SelectDefaultMenuLanguage method sets the default language for all menus and menu buttons.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectDefaultMenuLanguage method","IDvdControl2.SelectDefaultMenuLanguage","IDvdControl2::SelectDefaultMenuLanguage","IDvdControl2SelectDefaultMenuLanguage","SelectDefaultMenuLanguage","SelectDefaultMenuLanguage method [DirectShow]","SelectDefaultMenuLanguage method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectdefaultmenulanguage","strmif/IDvdControl2::SelectDefaultMenuLanguage"]
 old-location: dshow\idvdcontrol2_selectdefaultmenulanguage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f45d71e5-d125-477b-8fdf-f719a6c20101
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultMenuLanguage method, IDvdControl2.SelectDefaultMenuLanguage, IDvdControl2::SelectDefaultMenuLanguage, IDvdControl2SelectDefaultMenuLanguage, SelectDefaultMenuLanguage, SelectDefaultMenuLanguage method [DirectShow], SelectDefaultMenuLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultmenulanguage, strmif/IDvdControl2::SelectDefaultMenuLanguage

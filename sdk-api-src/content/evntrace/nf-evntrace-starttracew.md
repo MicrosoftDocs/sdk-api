@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.StartTraceW
 title: StartTraceW function (evntrace.h)
-description: The StartTrace function registers and starts an event tracing session.helpviewer_keywords: ["StartTrace","StartTrace function [ETW]","StartTraceA","StartTraceW","_evt_starttrace","base.starttrace","etw.starttrace","evntrace/StartTrace","evntrace/StartTraceA","evntrace/StartTraceW"]
+description: The StartTrace function registers and starts an event tracing session.
+helpviewer_keywords: ["StartTrace","StartTrace function [ETW]","StartTraceA","StartTraceW","_evt_starttrace","base.starttrace","etw.starttrace","evntrace/StartTrace","evntrace/StartTraceA","evntrace/StartTraceW"]
 old-location: etw\starttrace.htm
 tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
@@ -307,6 +308,10 @@ For an example that uses <b>StartTrace</b>, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines StartTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

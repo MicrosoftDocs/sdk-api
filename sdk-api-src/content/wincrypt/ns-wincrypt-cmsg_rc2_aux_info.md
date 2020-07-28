@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMSG_RC2_AUX_INFO
 title: CMSG_RC2_AUX_INFO (wincrypt.h)
-description: Contains the bit length of the key for RC2 encryption algorithms.helpviewer_keywords: ["*PCMSG_RC2_AUX_INFO","CMSG_RC2_AUX_INFO","CMSG_RC2_AUX_INFO structure [Security]","PCMSG_RC2_AUX_INFO","PCMSG_RC2_AUX_INFO structure pointer [Security]","_crypto2_cmsg_rc2_aux_info","security.cmsg_rc2_aux_info","wincrypt/CMSG_RC2_AUX_INFO","wincrypt/PCMSG_RC2_AUX_INFO"]
+description: Contains the bit length of the key for RC2 encryption algorithms.
+helpviewer_keywords: ["*PCMSG_RC2_AUX_INFO","CMSG_RC2_AUX_INFO","CMSG_RC2_AUX_INFO structure [Security]","PCMSG_RC2_AUX_INFO","PCMSG_RC2_AUX_INFO structure pointer [Security]","_crypto2_cmsg_rc2_aux_info","security.cmsg_rc2_aux_info","wincrypt/CMSG_RC2_AUX_INFO","wincrypt/PCMSG_RC2_AUX_INFO"]
 old-location: security\cmsg_rc2_aux_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6d7014fa-2d0c-48de-bda5-91d19ad879f9
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO structure [Security], PCMSG_RC2_AUX_INFO, PCMSG_RC2_AUX_INFO structure pointer [Security], _crypto2_cmsg_rc2_aux_info, security.cmsg_rc2_aux_info, wincrypt/CMSG_RC2_AUX_INFO, wincrypt/PCMSG_RC2_AUX_INFO'

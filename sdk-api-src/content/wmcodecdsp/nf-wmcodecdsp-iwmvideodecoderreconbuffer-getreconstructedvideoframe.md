@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame
 title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame (wmcodecdsp.h)
-description: Note  This method is obsolete and should not be used. Retrieves the current reconstructed video frame.helpviewer_keywords: ["GetReconstructedVideoFrame","GetReconstructedVideoFrame method [Media Foundation]","GetReconstructedVideoFrame method [Media Foundation]","IWMVideoDecoderReconBuffer interface","IWMVideoDecoderReconBuffer interface [Media Foundation]","GetReconstructedVideoFrame method","IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame","IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame","codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe","mf.iwmvideodecoderreconbuffergetreconstructedvideoframe","wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame"]
+description: Note  This method is obsolete and should not be used. Retrieves the current reconstructed video frame.
+helpviewer_keywords: ["GetReconstructedVideoFrame","GetReconstructedVideoFrame method [Media Foundation]","GetReconstructedVideoFrame method [Media Foundation]","IWMVideoDecoderReconBuffer interface","IWMVideoDecoderReconBuffer interface [Media Foundation]","GetReconstructedVideoFrame method","IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame","IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame","codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe","mf.iwmvideodecoderreconbuffergetreconstructedvideoframe","wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame"]
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframe.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6e952923-2043-4b0d-b936-c570373a3544
 ms.date: 12/05/2018
 ms.keywords: GetReconstructedVideoFrame, GetReconstructedVideoFrame method [Media Foundation], GetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe, mf.iwmvideodecoderreconbuffergetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame

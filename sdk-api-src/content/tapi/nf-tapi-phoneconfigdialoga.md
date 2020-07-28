@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneConfigDialogA
 title: phoneConfigDialogA function (tapi.h)
-description: The phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box that allows the user to configure parameters related to the phone device.helpviewer_keywords: ["_tapi2_phoneconfigdialog","phoneConfigDialog","phoneConfigDialog function [TAPI 2.2]","phoneConfigDialogA","phoneConfigDialogW","tapi/phoneConfigDialog","tapi/phoneConfigDialogA","tapi/phoneConfigDialogW","tapi2.phoneconfigdialog"]
+description: The phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box that allows the user to configure parameters related to the phone device.
+helpviewer_keywords: ["_tapi2_phoneconfigdialog","phoneConfigDialog","phoneConfigDialog function [TAPI 2.2]","phoneConfigDialogA","phoneConfigDialogW","tapi/phoneConfigDialog","tapi/phoneConfigDialogA","tapi/phoneConfigDialogW","tapi2.phoneconfigdialog"]
 old-location: tapi2\phoneconfigdialog.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog function [TAPI 2.2], phoneConfigDialogA, phoneConfigDialogW, tapi/phoneConfigDialog, tapi/phoneConfigDialogA, tapi/phoneConfigDialogW, tapi2.phoneconfigdialog
@@ -97,6 +98,10 @@ The <i>lpszDeviceClass</i> parameter should be "tapi/phone", "", or <b>NULL</b> 
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines phoneConfigDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TabCtrl_GetExtendedStyle
 title: TabCtrl_GetExtendedStyle macro (commctrl.h)
-description: Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the TCM_GETEXTENDEDSTYLE message explicitly.helpviewer_keywords: ["TabCtrl_GetExtendedStyle","TabCtrl_GetExtendedStyle macro [Windows Controls]","_win32_TabCtrl_GetExtendedStyle","_win32_TabCtrl_GetExtendedStyle_cpp","commctrl/TabCtrl_GetExtendedStyle","controls.TabCtrl_GetExtendedStyle","controls._win32_TabCtrl_GetExtendedStyle"]
+description: Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the TCM_GETEXTENDEDSTYLE message explicitly.
+helpviewer_keywords: ["TabCtrl_GetExtendedStyle","TabCtrl_GetExtendedStyle macro [Windows Controls]","_win32_TabCtrl_GetExtendedStyle","_win32_TabCtrl_GetExtendedStyle_cpp","commctrl/TabCtrl_GetExtendedStyle","controls.TabCtrl_GetExtendedStyle","controls._win32_TabCtrl_GetExtendedStyle"]
 old-location: controls\TabCtrl_GetExtendedStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getextendedstyle.htm

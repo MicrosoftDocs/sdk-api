@@ -1,9 +1,10 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.GetProviderMgmtInterface
 title: IVssSnapshotMgmt::GetProviderMgmtInterface (vsmgmt.h)
-description: Returns an interface to further configure the system provider.helpviewer_keywords: ["GetProviderMgmtInterface","GetProviderMgmtInterface method [VSS]","GetProviderMgmtInterface method [VSS]","IVssSnapshotMgmt interface","IVssSnapshotMgmt interface [VSS]","GetProviderMgmtInterface method","IVssSnapshotMgmt.GetProviderMgmtInterface","IVssSnapshotMgmt::GetProviderMgmtInterface","base.ivsssnapshotmgmt_getprovidermgmtinterface","vsmgmt/IVssSnapshotMgmt::GetProviderMgmtInterface"]
+description: Returns an interface to further configure the system provider.
+helpviewer_keywords: ["GetProviderMgmtInterface","GetProviderMgmtInterface method [VSS]","GetProviderMgmtInterface method [VSS]","IVssSnapshotMgmt interface","IVssSnapshotMgmt interface [VSS]","GetProviderMgmtInterface method","IVssSnapshotMgmt.GetProviderMgmtInterface","IVssSnapshotMgmt::GetProviderMgmtInterface","base.ivsssnapshotmgmt_getprovidermgmtinterface","vsmgmt/IVssSnapshotMgmt::GetProviderMgmtInterface"]
 old-location: base\ivsssnapshotmgmt_getprovidermgmtinterface.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 814c6e2c-a5f8-4f44-b508-3a2e95bb1c54
 ms.date: 12/05/2018
 ms.keywords: GetProviderMgmtInterface, GetProviderMgmtInterface method [VSS], GetProviderMgmtInterface method [VSS],IVssSnapshotMgmt interface, IVssSnapshotMgmt interface [VSS],GetProviderMgmtInterface method, IVssSnapshotMgmt.GetProviderMgmtInterface, IVssSnapshotMgmt::GetProviderMgmtInterface, base.ivsssnapshotmgmt_getprovidermgmtinterface, vsmgmt/IVssSnapshotMgmt::GetProviderMgmtInterface

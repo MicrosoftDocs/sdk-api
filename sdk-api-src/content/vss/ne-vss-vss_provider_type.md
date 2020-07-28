@@ -1,9 +1,10 @@
 ---
 UID: NE:vss._VSS_PROVIDER_TYPE
 title: VSS_PROVIDER_TYPE (vss.h)
-description: Specifies the provider type.helpviewer_keywords: ["*PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE enumeration pointer [VSS]","VSS_PROVIDER_TYPE","VSS_PROVIDER_TYPE enumeration [VSS]","VSS_PROV_FILESHARE","VSS_PROV_HARDWARE","VSS_PROV_SOFTWARE","VSS_PROV_SYSTEM","VSS_PROV_UNKNOWN","_win32_vss_provider_type","base.vss_provider_type","vss/PVSS_PROVIDER_TYPE","vss/VSS_PROVIDER_TYPE","vss/VSS_PROV_FILESHARE","vss/VSS_PROV_HARDWARE","vss/VSS_PROV_SOFTWARE","vss/VSS_PROV_SYSTEM","vss/VSS_PROV_UNKNOWN"]
+description: Specifies the provider type.
+helpviewer_keywords: ["*PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE enumeration pointer [VSS]","VSS_PROVIDER_TYPE","VSS_PROVIDER_TYPE enumeration [VSS]","VSS_PROV_FILESHARE","VSS_PROV_HARDWARE","VSS_PROV_SOFTWARE","VSS_PROV_SYSTEM","VSS_PROV_UNKNOWN","_win32_vss_provider_type","base.vss_provider_type","vss/PVSS_PROVIDER_TYPE","vss/VSS_PROVIDER_TYPE","vss/VSS_PROV_FILESHARE","vss/VSS_PROV_HARDWARE","vss/VSS_PROV_SOFTWARE","vss/VSS_PROV_SYSTEM","vss/VSS_PROV_UNKNOWN"]
 old-location: base\vss_provider_type.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 76a85ff4-df3c-4280-a6f1-2a1cff96ccfd
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE enumeration pointer [VSS], VSS_PROVIDER_TYPE, VSS_PROVIDER_TYPE enumeration [VSS], VSS_PROV_FILESHARE, VSS_PROV_HARDWARE, VSS_PROV_SOFTWARE, VSS_PROV_SYSTEM, VSS_PROV_UNKNOWN, _win32_vss_provider_type, base.vss_provider_type, vss/PVSS_PROVIDER_TYPE, vss/VSS_PROVIDER_TYPE, vss/VSS_PROV_FILESHARE, vss/VSS_PROV_HARDWARE, vss/VSS_PROV_SOFTWARE, vss/VSS_PROV_SYSTEM, vss/VSS_PROV_UNKNOWN'

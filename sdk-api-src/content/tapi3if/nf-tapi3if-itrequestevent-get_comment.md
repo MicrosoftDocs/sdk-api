@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_Comment
 title: ITRequestEvent::get_Comment (tapi3if.h)
-description: The get_Comment method gets the comment.helpviewer_keywords: ["ITRequestEvent interface [TAPI 2.2]","get_Comment method","ITRequestEvent.get_Comment","ITRequestEvent::get_Comment","_tapi3_itrequestevent_get_comment","get_Comment","get_Comment method [TAPI 2.2]","get_Comment method [TAPI 2.2]","ITRequestEvent interface","tapi3.itrequestevent_get_comment","tapi3if/ITRequestEvent::get_Comment"]
+description: The get_Comment method gets the comment.
+helpviewer_keywords: ["ITRequestEvent interface [TAPI 2.2]","get_Comment method","ITRequestEvent.get_Comment","ITRequestEvent::get_Comment","_tapi3_itrequestevent_get_comment","get_Comment","get_Comment method [TAPI 2.2]","get_Comment method [TAPI 2.2]","ITRequestEvent interface","tapi3.itrequestevent_get_comment","tapi3if/ITRequestEvent::get_Comment"]
 old-location: tapi3\itrequestevent_get_comment.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2150d521-cbd2-457f-b3c6-97761941a442
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_Comment method, ITRequestEvent.get_Comment, ITRequestEvent::get_Comment, _tapi3_itrequestevent_get_comment, get_Comment, get_Comment method [TAPI 2.2], get_Comment method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_comment, tapi3if/ITRequestEvent::get_Comment

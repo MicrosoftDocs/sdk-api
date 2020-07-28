@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX500DistinguishedName
 title: IX500DistinguishedName (certenroll.h)
-description: Represents an X.500 distinguished name (DN).helpviewer_keywords: ["IX500DistinguishedName","IX500DistinguishedName interface [Security]","IX500DistinguishedName interface [Security]","described","certenroll/IX500DistinguishedName","security.ix500distinguishedname"]
+description: Represents an X.500 distinguished name (DN).
+helpviewer_keywords: ["IX500DistinguishedName","IX500DistinguishedName interface [Security]","IX500DistinguishedName interface [Security]","described","certenroll/IX500DistinguishedName","security.ix500distinguishedname"]
 old-location: security\ix500distinguishedname.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname

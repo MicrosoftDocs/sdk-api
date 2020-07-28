@@ -1,9 +1,10 @@
 ---
 UID: NF:winwlx.WlxNegotiate
 title: WlxNegotiate function (winwlx.h)
-description: The WlxNegotiate function must be implemented by a replacement GINA DLL. This is the first call made by Winlogon to the GINA DLL. WlxNegotiate allows the GINA to verify that it supports the installed version of Winlogon.helpviewer_keywords: ["WlxNegotiate","WlxNegotiate function [Security]","_gina_wlxnegotiate","security.wlxnegotiate","winwlx/WlxNegotiate"]
+description: The WlxNegotiate function must be implemented by a replacement GINA DLL. This is the first call made by Winlogon to the GINA DLL. WlxNegotiate allows the GINA to verify that it supports the installed version of Winlogon.
+helpviewer_keywords: ["WlxNegotiate","WlxNegotiate function [Security]","_gina_wlxnegotiate","security.wlxnegotiate","winwlx/WlxNegotiate"]
 old-location: security\wlxnegotiate.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 9e7bab30-5cc6-4c55-82e4-d888e1af59ed
 ms.date: 12/05/2018
 ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate, security.wlxnegotiate, winwlx/WlxNegotiate

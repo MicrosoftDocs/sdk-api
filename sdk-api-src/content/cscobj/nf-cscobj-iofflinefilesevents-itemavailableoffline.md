@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemAvailableOffline
 title: IOfflineFilesEvents::ItemAvailableOffline (cscobj.h)
-description: Reports that an item in the Offline Files cache is now available for offline use should the remote copy become unavailable.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemAvailableOffline method","IOfflineFilesEvents.ItemAvailableOffline","IOfflineFilesEvents::ItemAvailableOffline","ItemAvailableOffline","ItemAvailableOffline method [Offline Files]","ItemAvailableOffline method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemAvailableOffline","of.iofflinefilesevents_itemavailableoffline"]
+description: Reports that an item in the Offline Files cache is now available for offline use should the remote copy become unavailable.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemAvailableOffline method","IOfflineFilesEvents.ItemAvailableOffline","IOfflineFilesEvents::ItemAvailableOffline","ItemAvailableOffline","ItemAvailableOffline method [Offline Files]","ItemAvailableOffline method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemAvailableOffline","of.iofflinefilesevents_itemavailableoffline"]
 old-location: of\iofflinefilesevents_itemavailableoffline.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 6c629ede-00ee-4f5e-9f75-022e3c5b3957
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAvailableOffline method, IOfflineFilesEvents.ItemAvailableOffline, IOfflineFilesEvents::ItemAvailableOffline, ItemAvailableOffline, ItemAvailableOffline method [Offline Files], ItemAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAvailableOffline, of.iofflinefilesevents_itemavailableoffline

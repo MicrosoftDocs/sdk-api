@@ -1,9 +1,10 @@
 ---
 UID: NS:filehc.NAME_CACHE_CONTEXT
 title: NAME_CACHE_CONTEXT (filehc.h)
-description: Represents a name cache.helpviewer_keywords: ["*PNAME_CACHE_CONTEXT","NAME_CACHE_CONTEXT","NAME_CACHE_CONTEXT structure [Windows API]","PNAME_CACHE_CONTEXT","PNAME_CACHE_CONTEXT structure pointer [Windows API]","filehc/NAME_CACHE_CONTEXT","filehc/PNAME_CACHE_CONTEXT","winprog.name_cache_context"]
+description: Represents a name cache.
+helpviewer_keywords: ["*PNAME_CACHE_CONTEXT","NAME_CACHE_CONTEXT","NAME_CACHE_CONTEXT structure [Windows API]","PNAME_CACHE_CONTEXT","PNAME_CACHE_CONTEXT structure pointer [Windows API]","filehc/NAME_CACHE_CONTEXT","filehc/PNAME_CACHE_CONTEXT","winprog.name_cache_context"]
 old-location: winprog\name_cache_context.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 2d2a6066-b59a-418c-a726-0a1a39243988
 ms.date: 12/05/2018
 ms.keywords: '*PNAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT structure [Windows API], PNAME_CACHE_CONTEXT, PNAME_CACHE_CONTEXT structure pointer [Windows API], filehc/NAME_CACHE_CONTEXT, filehc/PNAME_CACHE_CONTEXT, winprog.name_cache_context'

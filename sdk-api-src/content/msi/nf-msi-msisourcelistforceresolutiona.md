@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionA
 title: MsiSourceListForceResolutionA function (msi.h)
-description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required.helpviewer_keywords: ["MsiSourceListForceResolution","MsiSourceListForceResolution function","MsiSourceListForceResolutionA","MsiSourceListForceResolutionW","_msi_msisourcelistforceresolution","msi/MsiSourceListForceResolution","msi/MsiSourceListForceResolutionA","msi/MsiSourceListForceResolutionW","setup.msisourcelistforceresolution"]
+description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required.
+helpviewer_keywords: ["MsiSourceListForceResolution","MsiSourceListForceResolution function","MsiSourceListForceResolutionA","MsiSourceListForceResolutionW","_msi_msisourcelistforceresolution","msi/MsiSourceListForceResolution","msi/MsiSourceListForceResolutionA","msi/MsiSourceListForceResolutionW","setup.msisourcelistforceresolution"]
 old-location: setup\msisourcelistforceresolution.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea
 ms.date: 12/05/2018
 ms.keywords: MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution
@@ -200,6 +201,10 @@ This function can  not modify a non-managed installation for any user besides th
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListForceResolution as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

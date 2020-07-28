@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.GetMouseWheelParameterInteractionContext
 title: GetMouseWheelParameterInteractionContext function (interactioncontext.h)
-description: Gets the mouse wheel state for the Interaction Context object.helpviewer_keywords: ["GetMouseWheelParameterInteractionContext","GetMouseWheelParameterInteractionContext function","input_intcontext.getmousewheelparameterinteractioncontext","interactioncontext.getmousewheelparameterinteractioncontext","interactioncontext/GetMouseWheelParameterInteractionContext"]
+description: Gets the mouse wheel state for the Interaction Context object.
+helpviewer_keywords: ["GetMouseWheelParameterInteractionContext","GetMouseWheelParameterInteractionContext function","input_intcontext.getmousewheelparameterinteractioncontext","interactioncontext.getmousewheelparameterinteractioncontext","interactioncontext/GetMouseWheelParameterInteractionContext"]
 old-location: input_intcontext\getmousewheelparameterinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 2edb742d-a5a1-4c3b-bc0f-c119a2f1c221
 ms.date: 12/05/2018
 ms.keywords: GetMouseWheelParameterInteractionContext, GetMouseWheelParameterInteractionContext function, input_intcontext.getmousewheelparameterinteractioncontext, interactioncontext.getmousewheelparameterinteractioncontext, interactioncontext/GetMouseWheelParameterInteractionContext

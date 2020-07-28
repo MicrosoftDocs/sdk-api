@@ -4,7 +4,7 @@ title: IXpsOMPath::GetStrokeDashCap (xpsobjectmodel.h)
 description: Gets the style of the end cap to be used on the stroke dash.
 helpviewer_keywords: ["GetStrokeDashCap","GetStrokeDashCap method [XPS Documents and Packaging]","GetStrokeDashCap method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeDashCap method","IXpsOMPath.GetStrokeDashCap","IXpsOMPath::GetStrokeDashCap","xps.ixpsompath_getstrokedashcap","xpsobjectmodel/IXpsOMPath::GetStrokeDashCap"]
 old-location: xps\ixpsompath_getstrokedashcap.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: afd33b39-3aeb-41eb-8747-7d1cff0aaa38
 ms.date: 12/05/2018
 ms.keywords: GetStrokeDashCap, GetStrokeDashCap method [XPS Documents and Packaging], GetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashCap method, IXpsOMPath.GetStrokeDashCap, IXpsOMPath::GetStrokeDashCap, xps.ixpsompath_getstrokedashcap, xpsobjectmodel/IXpsOMPath::GetStrokeDashCap

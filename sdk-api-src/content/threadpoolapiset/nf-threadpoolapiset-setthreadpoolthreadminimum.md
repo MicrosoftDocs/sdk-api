@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolThreadMinimum
 title: SetThreadpoolThreadMinimum function (threadpoolapiset.h)
-description: Sets the minimum number of threads that the specified thread pool must make available to process callbacks.helpviewer_keywords: ["SetThreadpoolThreadMinimum","SetThreadpoolThreadMinimum function","base.setthreadpoolthreadminimum","threadpoolapiset/SetThreadpoolThreadMinimum","winbase/SetThreadpoolThreadMinimum"]
+description: Sets the minimum number of threads that the specified thread pool must make available to process callbacks.
+helpviewer_keywords: ["SetThreadpoolThreadMinimum","SetThreadpoolThreadMinimum function","base.setthreadpoolthreadminimum","threadpoolapiset/SetThreadpoolThreadMinimum","winbase/SetThreadpoolThreadMinimum"]
 old-location: base\setthreadpoolthreadminimum.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 39ab262d-50ff-4aaa-93a8-ded2b0f72615
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolThreadMinimum, SetThreadpoolThreadMinimum function, base.setthreadpoolthreadminimum, threadpoolapiset/SetThreadpoolThreadMinimum, winbase/SetThreadpoolThreadMinimum

@@ -1,7 +1,8 @@
 ---
 UID: NF:xapobase.CXAPOBase.CXAPOBase
 title: CXAPOBase::CXAPOBase (xapobase.h)
-description: Creates an instance of the CXAPOBase class.helpviewer_keywords: ["CXAPOBase","CXAPOBase interface [XAudio2 Audio Mixing APIs]","CXAPOBase method","CXAPOBase method [XAudio2 Audio Mixing APIs]","CXAPOBase method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","CXAPOBase.CXAPOBase","CXAPOBase::CXAPOBase","xapobase/CXAPOBase::CXAPOBase","xaudio2.cxapobase_cxapobase"]
+description: Creates an instance of the CXAPOBase class.
+helpviewer_keywords: ["CXAPOBase","CXAPOBase interface [XAudio2 Audio Mixing APIs]","CXAPOBase method","CXAPOBase method [XAudio2 Audio Mixing APIs]","CXAPOBase method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","CXAPOBase.CXAPOBase","CXAPOBase::CXAPOBase","xapobase/CXAPOBase::CXAPOBase","xaudio2.cxapobase_cxapobase"]
 old-location: xaudio2\cxapobase_cxapobase.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.CXAPOBase(const XAPO_REGISTRATION_PROPERTIES)

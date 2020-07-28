@@ -4,7 +4,7 @@ title: SCESVC_ANALYSIS_INFO (scesvc.h)
 description: Contains the analysis information.
 helpviewer_keywords: ["*PSCESVC_ANALYSIS_INFO","PSCESVC_ANALYSIS_INFO","PSCESVC_ANALYSIS_INFO structure pointer [Security]","SCESVC_ANALYSIS_INFO","SCESVC_ANALYSIS_INFO structure [Security]","_config_scesvc_analysis_info","scesvc/PSCESVC_ANALYSIS_INFO","scesvc/SCESVC_ANALYSIS_INFO","security.scesvc_analysis_info"]
 old-location: security\scesvc_analysis_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
 ms.date: 12/05/2018
 ms.keywords: '*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO structure pointer [Security], SCESVC_ANALYSIS_INFO, SCESVC_ANALYSIS_INFO structure [Security], _config_scesvc_analysis_info, scesvc/PSCESVC_ANALYSIS_INFO, scesvc/SCESVC_ANALYSIS_INFO, security.scesvc_analysis_info'

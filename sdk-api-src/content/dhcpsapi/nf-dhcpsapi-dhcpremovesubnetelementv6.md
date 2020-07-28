@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveSubnetElementV6
 title: DhcpRemoveSubnetElementV6 function (dhcpsapi.h)
-description: The DhcpRemoveSubnetElementV6 function removes an element from a subnet defined on the DHCP server.helpviewer_keywords: ["DhcpRemoveSubnetElementV6","DhcpRemoveSubnetElementV6 function [DHCP]","dhcp.dhcpremovesubnetelementv6","dhcpsapi/DhcpRemoveSubnetElementV6"]
+description: The DhcpRemoveSubnetElementV6 function removes an element from a subnet defined on the DHCP server.
+helpviewer_keywords: ["DhcpRemoveSubnetElementV6","DhcpRemoveSubnetElementV6 function [DHCP]","dhcp.dhcpremovesubnetelementv6","dhcpsapi/DhcpRemoveSubnetElementV6"]
 old-location: dhcp\dhcpremovesubnetelementv6.htm
 tech.root: DHCP
 ms.assetid: 02efbce8-ac9c-4e8e-96d0-cdb556204b3d

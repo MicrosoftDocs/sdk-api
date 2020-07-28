@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageGroup
 title: WdsCliGetImageGroup function (wdsclientapi.h)
-description: Returns the name of the image group for the current image.helpviewer_keywords: ["WdsCliGetImageGroup","WdsCliGetImageGroup function [Windows Deployment Services]","wds.wdscligetimagegroup","wdsclientapi/WdsCliGetImageGroup"]
+description: Returns the name of the image group for the current image.
+helpviewer_keywords: ["WdsCliGetImageGroup","WdsCliGetImageGroup function [Windows Deployment Services]","wds.wdscligetimagegroup","wdsclientapi/WdsCliGetImageGroup"]
 old-location: wds\wdscligetimagegroup.htm
 tech.root: wds
 ms.assetid: 1588e19e-b215-4c26-ae00-6b6608b0c252

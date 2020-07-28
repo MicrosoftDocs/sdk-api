@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.LogonUserW
 title: LogonUserW function (winbase.h)
-description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.helpviewer_keywords: ["LOGON32_LOGON_BATCH","LOGON32_LOGON_INTERACTIVE","LOGON32_LOGON_NETWORK","LOGON32_LOGON_NETWORK_CLEARTEXT","LOGON32_LOGON_NEW_CREDENTIALS","LOGON32_LOGON_SERVICE","LOGON32_LOGON_UNLOCK","LOGON32_PROVIDER_DEFAULT","LOGON32_PROVIDER_WINNT40","LOGON32_PROVIDER_WINNT50","LogonUser","LogonUser function [Security]","LogonUserA","LogonUserW","_win32_logonuser","security.logonuser","winbase/LogonUser","winbase/LogonUserA","winbase/LogonUserW"]
+description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.
+helpviewer_keywords: ["LOGON32_LOGON_BATCH","LOGON32_LOGON_INTERACTIVE","LOGON32_LOGON_NETWORK","LOGON32_LOGON_NETWORK_CLEARTEXT","LOGON32_LOGON_NEW_CREDENTIALS","LOGON32_LOGON_SERVICE","LOGON32_LOGON_UNLOCK","LOGON32_PROVIDER_DEFAULT","LOGON32_PROVIDER_WINNT40","LOGON32_PROVIDER_WINNT50","LogonUser","LogonUser function [Security]","LogonUserA","LogonUserW","_win32_logonuser","security.logonuser","winbase/LogonUser","winbase/LogonUserA","winbase/LogonUserW"]
 old-location: security\logonuser.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
 ms.date: 12/05/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUser, LogonUser function [Security], LogonUserA, LogonUserW, _win32_logonuser, security.logonuser, winbase/LogonUser, winbase/LogonUserA, winbase/LogonUserW
@@ -273,6 +274,10 @@ LogonUser(L"LocalService", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines LogonUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

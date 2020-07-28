@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetLocalAddress
 title: IWSDMessageParameters::GetLocalAddress (wsdbase.h)
-description: Retrieves the generic address object representing the local address that received the message.helpviewer_keywords: ["GetLocalAddress","GetLocalAddress method","GetLocalAddress method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetLocalAddress method","IWSDMessageParameters.GetLocalAddress","IWSDMessageParameters::GetLocalAddress","ncd.iwsdmessageparameters_getlocaladdress","wsdbase/IWSDMessageParameters::GetLocalAddress"]
+description: Retrieves the generic address object representing the local address that received the message.
+helpviewer_keywords: ["GetLocalAddress","GetLocalAddress method","GetLocalAddress method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetLocalAddress method","IWSDMessageParameters.GetLocalAddress","IWSDMessageParameters::GetLocalAddress","ncd.iwsdmessageparameters_getlocaladdress","wsdbase/IWSDMessageParameters::GetLocalAddress"]
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.date: 12/05/2018
 ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress

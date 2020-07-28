@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup::SetProperty (casetup.h)
 description: Specifies a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","SetProperty method","ICertificateEnrollmentPolicyServerSetup.SetProperty","ICertificateEnrollmentPolicyServerSetup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::SetProperty","security.icertificateenrollmentpolicyserversetup_setproperty"]
 old-location: security\icertificateenrollmentpolicyserversetup_setproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],SetProperty method, ICertificateEnrollmentPolicyServerSetup.SetProperty, ICertificateEnrollmentPolicyServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::SetProperty, security.icertificateenrollmentpolicyserversetup_setproperty

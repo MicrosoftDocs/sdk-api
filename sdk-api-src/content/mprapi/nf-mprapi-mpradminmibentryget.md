@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryGet
 title: MprAdminMIBEntryGet function (mprapi.h)
-description: The MprAdminMIBEntryGet function retrieves the value of one of the variables exported by a routing protocol or router manager.helpviewer_keywords: ["MprAdminMIBEntryGet","MprAdminMIBEntryGet function [RAS]","_mpr_mpradminmibentryget","mprapi/MprAdminMIBEntryGet","rras.mpradminmibentryget"]
+description: The MprAdminMIBEntryGet function retrieves the value of one of the variables exported by a routing protocol or router manager.
+helpviewer_keywords: ["MprAdminMIBEntryGet","MprAdminMIBEntryGet function [RAS]","_mpr_mpradminmibentryget","mprapi/MprAdminMIBEntryGet","rras.mpradminmibentryget"]
 old-location: rras\mpradminmibentryget.htm
 tech.root: RRAS
 ms.assetid: 98e88364-4757-4b43-8316-6d4d9b3c2f29

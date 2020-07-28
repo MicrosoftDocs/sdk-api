@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagTOUCHINPUT
 title: TOUCHINPUT (winuser.h)
-description: Encapsulates data for touch input.helpviewer_keywords: ["*PTOUCHINPUT","PTOUCHINPUT","PTOUCHINPUT structure pointer [Windows Touch]","TOUCHINPUT","TOUCHINPUT structure [Windows Touch]","tagTOUCHINPUT","wintouch.touchinput","winuser/PTOUCHINPUT","winuser/TOUCHINPUT"]
+description: Encapsulates data for touch input.
+helpviewer_keywords: ["*PTOUCHINPUT","PTOUCHINPUT","PTOUCHINPUT structure pointer [Windows Touch]","TOUCHINPUT","TOUCHINPUT structure [Windows Touch]","tagTOUCHINPUT","wintouch.touchinput","winuser/PTOUCHINPUT","winuser/TOUCHINPUT"]
 old-location: wintouch\touchinput.htm
 tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
@@ -69,8 +70,7 @@ The y-coordinate (vertical point) of the touch input. This member is indicated i
 
 ### -field hSource
 
-A device handle for the source input device.  Each device is given a unique provider at run time by the touch input provider.
-
+A device handle for the source input device.  Each device is given a unique provider at run time by the touch input provider. See **Examples** section below.
 
 ### -field dwID
 

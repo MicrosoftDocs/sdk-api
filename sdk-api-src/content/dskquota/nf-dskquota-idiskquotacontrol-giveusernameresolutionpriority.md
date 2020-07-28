@@ -1,9 +1,10 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GiveUserNameResolutionPriority
 title: IDiskQuotaControl::GiveUserNameResolutionPriority (dskquota.h)
-description: Promotes the specified user object to the head of the queue so that it is next in line for resolution.helpviewer_keywords: ["GiveUserNameResolutionPriority","GiveUserNameResolutionPriority method [Files]","GiveUserNameResolutionPriority method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GiveUserNameResolutionPriority method","IDiskQuotaControl.GiveUserNameResolutionPriority","IDiskQuotaControl::GiveUserNameResolutionPriority","_win32_idiskquotacontrol_giveusernameresolutionpriority","base.idiskquotacontrol_giveusernameresolutionpriority","dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority","fs.idiskquotacontrol_giveusernameresolutionpriority"]
+description: Promotes the specified user object to the head of the queue so that it is next in line for resolution.
+helpviewer_keywords: ["GiveUserNameResolutionPriority","GiveUserNameResolutionPriority method [Files]","GiveUserNameResolutionPriority method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GiveUserNameResolutionPriority method","IDiskQuotaControl.GiveUserNameResolutionPriority","IDiskQuotaControl::GiveUserNameResolutionPriority","_win32_idiskquotacontrol_giveusernameresolutionpriority","base.idiskquotacontrol_giveusernameresolutionpriority","dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority","fs.idiskquotacontrol_giveusernameresolutionpriority"]
 old-location: fs\idiskquotacontrol_giveusernameresolutionpriority.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 07de4fc4-e68f-405d-bb96-14ccad37e8e8
 ms.date: 12/05/2018
 ms.keywords: GiveUserNameResolutionPriority, GiveUserNameResolutionPriority method [Files], GiveUserNameResolutionPriority method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GiveUserNameResolutionPriority method, IDiskQuotaControl.GiveUserNameResolutionPriority, IDiskQuotaControl::GiveUserNameResolutionPriority, _win32_idiskquotacontrol_giveusernameresolutionpriority, base.idiskquotacontrol_giveusernameresolutionpriority, dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority, fs.idiskquotacontrol_giveusernameresolutionpriority

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetPresentationClock
 title: IMFMediaSink::GetPresentationClock (mfidl.h)
-description: Gets the presentation clock that was set on the media sink.helpviewer_keywords: ["GetPresentationClock","GetPresentationClock method [Media Foundation]","GetPresentationClock method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetPresentationClock method","IMFMediaSink.GetPresentationClock","IMFMediaSink::GetPresentationClock","ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6","mf.imfmediasink_getpresentationclock","mfidl/IMFMediaSink::GetPresentationClock"]
+description: Gets the presentation clock that was set on the media sink.
+helpviewer_keywords: ["GetPresentationClock","GetPresentationClock method [Media Foundation]","GetPresentationClock method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetPresentationClock method","IMFMediaSink.GetPresentationClock","IMFMediaSink::GetPresentationClock","ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6","mf.imfmediasink_getpresentationclock","mfidl/IMFMediaSink::GetPresentationClock"]
 old-location: mf\imfmediasink_getpresentationclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6
 ms.date: 12/05/2018
 ms.keywords: GetPresentationClock, GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetPresentationClock method, IMFMediaSink.GetPresentationClock, IMFMediaSink::GetPresentationClock, ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6, mf.imfmediasink_getpresentationclock, mfidl/IMFMediaSink::GetPresentationClock

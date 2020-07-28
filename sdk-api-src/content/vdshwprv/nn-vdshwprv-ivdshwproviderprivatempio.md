@@ -1,9 +1,10 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivateMpio
 title: IVdsHwProviderPrivateMpio (vdshwprv.h)
-description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.helpviewer_keywords: ["IVdsHwProviderPrivateMpio","IVdsHwProviderPrivateMpio interface [VDS]","IVdsHwProviderPrivateMpio interface [VDS]","described","base.ivdshwproviderprivatempio","vdshwprv/IVdsHwProviderPrivateMpio"]
+description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
+helpviewer_keywords: ["IVdsHwProviderPrivateMpio","IVdsHwProviderPrivateMpio interface [VDS]","IVdsHwProviderPrivateMpio interface [VDS]","described","base.ivdshwproviderprivatempio","vdshwprv/IVdsHwProviderPrivateMpio"]
 old-location: base\ivdshwproviderprivatempio.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio

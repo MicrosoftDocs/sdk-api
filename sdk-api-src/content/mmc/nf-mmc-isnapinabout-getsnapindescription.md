@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinDescription
 title: ISnapinAbout::GetSnapinDescription (mmc.h)
-description: Enables the console to obtain the text for the snap-in's description box.helpviewer_keywords: ["GetSnapinDescription","GetSnapinDescription method [MMC]","GetSnapinDescription method [MMC]","ISnapinAbout interface","ISnapinAbout interface [MMC]","GetSnapinDescription method","ISnapinAbout.GetSnapinDescription","ISnapinAbout::GetSnapinDescription","_slate_isnapinabout_getsnapindescription","mmc.isnapinabout_getsnapindescription","mmc/ISnapinAbout::GetSnapinDescription"]
+description: Enables the console to obtain the text for the snap-in's description box.
+helpviewer_keywords: ["GetSnapinDescription","GetSnapinDescription method [MMC]","GetSnapinDescription method [MMC]","ISnapinAbout interface","ISnapinAbout interface [MMC]","GetSnapinDescription method","ISnapinAbout.GetSnapinDescription","ISnapinAbout::GetSnapinDescription","_slate_isnapinabout_getsnapindescription","mmc.isnapinabout_getsnapindescription","mmc/ISnapinAbout::GetSnapinDescription"]
 old-location: mmc\isnapinabout_getsnapindescription.htm
 tech.root: mmc
 ms.assetid: 9f97d504-baba-4c9a-ab0b-ef585d2fe12c

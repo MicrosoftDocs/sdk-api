@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetFileBandwidthReservation
 title: GetFileBandwidthReservation function (winbase.h)
-description: Retrieves the bandwidth reservation properties of the volume on which the specified file resides.helpviewer_keywords: ["GetFileBandwidthReservation","GetFileBandwidthReservation function [Files]","fs.getfilebandwidthreservation_func","winbase/GetFileBandwidthReservation"]
+description: Retrieves the bandwidth reservation properties of the volume on which the specified file resides.
+helpviewer_keywords: ["GetFileBandwidthReservation","GetFileBandwidthReservation function [Files]","fs.getfilebandwidthreservation_func","winbase/GetFileBandwidthReservation"]
 old-location: fs\getfilebandwidthreservation_func.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3caf38f6-e853-4057-a192-71cda4443dbd
 ms.date: 12/05/2018
 ms.keywords: GetFileBandwidthReservation, GetFileBandwidthReservation function [Files], fs.getfilebandwidthreservation_func, winbase/GetFileBandwidthReservation

@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetActiveView
 title: ITextStoreAnchor::GetActiveView (textstor.h)
-description: The ITextStoreAnchor::GetActiveView method returns a TsViewCookie data type that specifies the current active view. TSF supports only a single active view, so a given text store should always return the same TsViewCookie data type.helpviewer_keywords: ["GetActiveView","GetActiveView method [Text Services Framework]","GetActiveView method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetActiveView method","ITextStoreAnchor.GetActiveView","ITextStoreAnchor::GetActiveView","textstor/ITextStoreAnchor::GetActiveView","tsf.itextstoreanchor_getactiveview"]
+description: The ITextStoreAnchor::GetActiveView method returns a TsViewCookie data type that specifies the current active view. TSF supports only a single active view, so a given text store should always return the same TsViewCookie data type.
+helpviewer_keywords: ["GetActiveView","GetActiveView method [Text Services Framework]","GetActiveView method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetActiveView method","ITextStoreAnchor.GetActiveView","ITextStoreAnchor::GetActiveView","textstor/ITextStoreAnchor::GetActiveView","tsf.itextstoreanchor_getactiveview"]
 old-location: tsf\itextstoreanchor_getactiveview.htm
 tech.root: TSF
 ms.assetid: b1940cac-7295-41c5-bd26-8be1d1fa4da9

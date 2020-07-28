@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.linePrepareAddToConferenceA
 title: linePrepareAddToConferenceA function (tapi.h)
-description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.helpviewer_keywords: ["_tapi2_lineprepareaddtoconference","linePrepareAddToConference","linePrepareAddToConference function [TAPI 2.2]","linePrepareAddToConferenceA","linePrepareAddToConferenceW","tapi/linePrepareAddToConference","tapi/linePrepareAddToConferenceA","tapi/linePrepareAddToConferenceW","tapi2.lineprepareaddtoconference"]
+description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
+helpviewer_keywords: ["_tapi2_lineprepareaddtoconference","linePrepareAddToConference","linePrepareAddToConference function [TAPI 2.2]","linePrepareAddToConferenceA","linePrepareAddToConferenceW","tapi/linePrepareAddToConference","tapi/linePrepareAddToConferenceA","tapi/linePrepareAddToConferenceW","tapi2.lineprepareaddtoconference"]
 old-location: tapi2\lineprepareaddtoconference.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e1603b36-8bcb-4665-b711-6d2b6794c963
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineprepareaddtoconference, linePrepareAddToConference, linePrepareAddToConference function [TAPI 2.2], linePrepareAddToConferenceA, linePrepareAddToConferenceW, tapi/linePrepareAddToConference, tapi/linePrepareAddToConferenceA, tapi/linePrepareAddToConferenceW, tapi2.lineprepareaddtoconference
@@ -110,6 +111,10 @@ The consultation call can be canceled using
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines linePrepareAddToConference as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

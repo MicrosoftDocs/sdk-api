@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Commit
 title: IWICBitmapFrameEncode::Commit (wincodec.h)
-description: Commits the frame to the image.helpviewer_keywords: ["Commit","Commit method [Windows Imaging Component]","Commit method [Windows Imaging Component]","IWICBitmapFrameEncode interface","IWICBitmapFrameEncode interface [Windows Imaging Component]","Commit method","IWICBitmapFrameEncode.Commit","IWICBitmapFrameEncode::Commit","_wic_codec_iwicbitmapframeencode_commit","wic._wic_codec_iwicbitmapframeencode_commit","wincodec/IWICBitmapFrameEncode::Commit"]
+description: Commits the frame to the image.
+helpviewer_keywords: ["Commit","Commit method [Windows Imaging Component]","Commit method [Windows Imaging Component]","IWICBitmapFrameEncode interface","IWICBitmapFrameEncode interface [Windows Imaging Component]","Commit method","IWICBitmapFrameEncode.Commit","IWICBitmapFrameEncode::Commit","_wic_codec_iwicbitmapframeencode_commit","wic._wic_codec_iwicbitmapframeencode_commit","wincodec/IWICBitmapFrameEncode::Commit"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_commit.htm
 tech.root: wic
 ms.assetid: 6321fb9e-9ea8-423c-a332-9daa589af6f7

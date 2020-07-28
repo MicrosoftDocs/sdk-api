@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeRelease
 title: UiaNodeRelease function (uiautomationcoreapi.h)
-description: Deletes a node from memory.helpviewer_keywords: ["UiaNodeRelease","UiaNodeRelease function [Windows Accessibility]","uiauto.uiauto_UiaNodeReleaseMemManMeth","uiauto_UiaNodeReleaseMemManMeth","uiautomationcoreapi/UiaNodeRelease","winauto.uiauto_UiaNodeReleaseMemManMeth"]
+description: Deletes a node from memory.
+helpviewer_keywords: ["UiaNodeRelease","UiaNodeRelease function [Windows Accessibility]","uiauto.uiauto_UiaNodeReleaseMemManMeth","uiauto_UiaNodeReleaseMemManMeth","uiautomationcoreapi/UiaNodeRelease","winauto.uiauto_UiaNodeReleaseMemManMeth"]
 old-location: winauto\uiauto_UiaNodeReleaseMemManMeth.htm
 tech.root: WinAuto
 ms.assetid: dce9fd8a-b307-46b6-9e1d-ee31904e383f

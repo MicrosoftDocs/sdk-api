@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhBindInputDataSourceW
 title: PdhBindInputDataSourceW function (pdh.h)
-description: Binds one or more binary log files together for reading log data.helpviewer_keywords: ["PdhBindInputDataSource","PdhBindInputDataSource function [Perf]","PdhBindInputDataSourceA","PdhBindInputDataSourceW","_win32_pdhbindinputdatasource","base.pdhbindinputdatasource","pdh/PdhBindInputDataSource","pdh/PdhBindInputDataSourceA","pdh/PdhBindInputDataSourceW","perf.pdhbindinputdatasource"]
+description: Binds one or more binary log files together for reading log data.
+helpviewer_keywords: ["PdhBindInputDataSource","PdhBindInputDataSource function [Perf]","PdhBindInputDataSourceA","PdhBindInputDataSourceW","_win32_pdhbindinputdatasource","base.pdhbindinputdatasource","pdh/PdhBindInputDataSource","pdh/PdhBindInputDataSourceA","pdh/PdhBindInputDataSourceW","perf.pdhbindinputdatasource"]
 old-location: perf\pdhbindinputdatasource.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a
 ms.date: 12/05/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
@@ -98,6 +99,10 @@ To close the bound log files, call the <a href="https://docs.microsoft.com/windo
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhBindInputDataSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetClipGeometryLookup
 title: IXpsOMVisual::SetClipGeometryLookup (xpsobjectmodel.h)
-description: Sets the lookup key name of a shared clip geometry in a resource dictionary.helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetClipGeometryLookup method","IXpsOMVisual.SetClipGeometryLookup","IXpsOMVisual::SetClipGeometryLookup","SetClipGeometryLookup","SetClipGeometryLookup method [XPS Documents and Packaging]","SetClipGeometryLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_setclipgeometrylookup","xpsobjectmodel/IXpsOMVisual::SetClipGeometryLookup"]
+description: Sets the lookup key name of a shared clip geometry in a resource dictionary.
+helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetClipGeometryLookup method","IXpsOMVisual.SetClipGeometryLookup","IXpsOMVisual::SetClipGeometryLookup","SetClipGeometryLookup","SetClipGeometryLookup method [XPS Documents and Packaging]","SetClipGeometryLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_setclipgeometrylookup","xpsobjectmodel/IXpsOMVisual::SetClipGeometryLookup"]
 old-location: xps\ixpsomvisual_setclipgeometrylookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 3f79f1ce-e761-44f7-970c-393c83f8f2fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLookup method, IXpsOMVisual.SetClipGeometryLookup, IXpsOMVisual::SetClipGeometryLookup, SetClipGeometryLookup, SetClipGeometryLookup method [XPS Documents and Packaging], SetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLookup

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_IndexByObjectId
 title: IX509Extensions::get_IndexByObjectId (certenroll.h)
-description: Retrieves the index of an extension in the collection by object identifier (OID).helpviewer_keywords: ["IX509Extensions interface [Security]","IndexByObjectId property","IX509Extensions.IndexByObjectId","IX509Extensions.get_IndexByObjectId","IX509Extensions::IndexByObjectId","IX509Extensions::get_IndexByObjectId","IndexByObjectId property [Security]","IndexByObjectId property [Security]","IX509Extensions interface","certenroll/IX509Extensions::IndexByObjectId","certenroll/IX509Extensions::get_IndexByObjectId","get_IndexByObjectId","security.ix509extensions_indexbyobjectid_property"]
+description: Retrieves the index of an extension in the collection by object identifier (OID).
+helpviewer_keywords: ["IX509Extensions interface [Security]","IndexByObjectId property","IX509Extensions.IndexByObjectId","IX509Extensions.get_IndexByObjectId","IX509Extensions::IndexByObjectId","IX509Extensions::get_IndexByObjectId","IndexByObjectId property [Security]","IndexByObjectId property [Security]","IX509Extensions interface","certenroll/IX509Extensions::IndexByObjectId","certenroll/IX509Extensions::get_IndexByObjectId","get_IndexByObjectId","security.ix509extensions_indexbyobjectid_property"]
 old-location: security\ix509extensions_indexbyobjectid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1048c1d8-11f9-4a44-a492-0518cb1782c6
 ms.date: 12/05/2018
 ms.keywords: IX509Extensions interface [Security],IndexByObjectId property, IX509Extensions.IndexByObjectId, IX509Extensions.get_IndexByObjectId, IX509Extensions::IndexByObjectId, IX509Extensions::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],IX509Extensions interface, certenroll/IX509Extensions::IndexByObjectId, certenroll/IX509Extensions::get_IndexByObjectId, get_IndexByObjectId, security.ix509extensions_indexbyobjectid_property

@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Refresh
 title: IMtsGrp::Refresh (comsvcs.h)
-description: Updates the list of IUnknown pointers that was populated upon the creation of the object.helpviewer_keywords: ["IMtsGrp interface [COM+]","Refresh method","IMtsGrp.Refresh","IMtsGrp::Refresh","Refresh","Refresh method [COM+]","Refresh method [COM+]","IMtsGrp interface","_dtc_IMtsGrp_Refresh","comsvcs/IMtsGrp::Refresh","cos.imtsgrp_refresh"]
+description: Updates the list of IUnknown pointers that was populated upon the creation of the object.
+helpviewer_keywords: ["IMtsGrp interface [COM+]","Refresh method","IMtsGrp.Refresh","IMtsGrp::Refresh","Refresh","Refresh method [COM+]","Refresh method [COM+]","IMtsGrp interface","_dtc_IMtsGrp_Refresh","comsvcs/IMtsGrp::Refresh","cos.imtsgrp_refresh"]
 old-location: cos\imtsgrp_refresh.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 752bda5e-d3e1-4566-90c3-aaa336479670
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::Refresh, Refresh, Refresh method [COM+], Refresh method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh

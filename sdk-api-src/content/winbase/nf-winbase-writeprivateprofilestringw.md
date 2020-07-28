@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.WritePrivateProfileStringW
 title: WritePrivateProfileStringW function (winbase.h)
-description: Copies a string into the specified section of an initialization file.helpviewer_keywords: ["WritePrivateProfileString","WritePrivateProfileString function","WritePrivateProfileStringA","WritePrivateProfileStringW","_win32_writeprivateprofilestring","base.writeprivateprofilestring","winbase/WritePrivateProfileString","winbase/WritePrivateProfileStringA","winbase/WritePrivateProfileStringW"]
+description: Copies a string into the specified section of an initialization file.
+helpviewer_keywords: ["WritePrivateProfileString","WritePrivateProfileString function","WritePrivateProfileStringA","WritePrivateProfileStringW","_win32_writeprivateprofilestring","base.writeprivateprofilestring","winbase/WritePrivateProfileString","winbase/WritePrivateProfileStringA","winbase/WritePrivateProfileStringW"]
 old-location: base\writeprivateprofilestring.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
@@ -313,6 +314,10 @@ int main()
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines WritePrivateProfileString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

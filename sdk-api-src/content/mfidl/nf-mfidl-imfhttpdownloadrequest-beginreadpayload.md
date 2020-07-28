@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReadPayload
 title: IMFHttpDownloadRequest::BeginReadPayload (mfidl.h)
-description: Invoked by Microsoft Media Foundation to receive the message body of the response to a previously sent HTTP or HTTPS request.helpviewer_keywords: ["BeginReadPayload","BeginReadPayload method [Media Foundation]","BeginReadPayload method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","BeginReadPayload method","IMFHttpDownloadRequest.BeginReadPayload","IMFHttpDownloadRequest::BeginReadPayload","mf.imfhttpdownloadrequest_beginreadpayload","mfidl/IMFHttpDownloadRequest::BeginReadPayload"]
+description: Invoked by Microsoft Media Foundation to receive the message body of the response to a previously sent HTTP or HTTPS request.
+helpviewer_keywords: ["BeginReadPayload","BeginReadPayload method [Media Foundation]","BeginReadPayload method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","BeginReadPayload method","IMFHttpDownloadRequest.BeginReadPayload","IMFHttpDownloadRequest::BeginReadPayload","mf.imfhttpdownloadrequest_beginreadpayload","mfidl/IMFHttpDownloadRequest::BeginReadPayload"]
 old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
 ms.date: 12/05/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload

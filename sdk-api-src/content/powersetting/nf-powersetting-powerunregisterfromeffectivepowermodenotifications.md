@@ -1,9 +1,10 @@
 ---
 UID: NF:powersetting.PowerUnregisterFromEffectivePowerModeNotifications
 title: PowerUnregisterFromEffectivePowerModeNotifications function (powersetting.h)
-description: Unregisters from effective power mode change notifications. This function is intended to be called from cleanup code and will wait for all callbacks to complete before unregistering.helpviewer_keywords: ["PowerUnregisterFromEffectivePowerModeNotifications","PowerUnregisterFromEffectivePowerModeNotifications function","base.powerunregisterfromeffectivepowermodenotifications","powersetting/PowerUnregisterFromEffectivePowerModeNotifications"]
+description: Unregisters from effective power mode change notifications. This function is intended to be called from cleanup code and will wait for all callbacks to complete before unregistering.
+helpviewer_keywords: ["PowerUnregisterFromEffectivePowerModeNotifications","PowerUnregisterFromEffectivePowerModeNotifications function","base.powerunregisterfromeffectivepowermodenotifications","powersetting/PowerUnregisterFromEffectivePowerModeNotifications"]
 old-location: base\powerunregisterfromeffectivepowermodenotifications.htm
-tech.root: power
+tech.root: base
 ms.assetid: 6E9AB09B-B082-406C-8F2D-43BEA04C19E0
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications

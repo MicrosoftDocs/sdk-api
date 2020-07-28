@@ -1,9 +1,10 @@
 ---
 UID: NF:mscat.CryptCATAdminReleaseContext
 title: CryptCATAdminReleaseContext function (mscat.h)
-description: Releases the handle previously assigned by the CryptCATAdminAcquireContext function.helpviewer_keywords: ["CryptCATAdminReleaseContext","CryptCATAdminReleaseContext function [Security]","mscat/CryptCATAdminReleaseContext","security.cryptcatadminreleasecontext"]
+description: Releases the handle previously assigned by the CryptCATAdminAcquireContext function.
+helpviewer_keywords: ["CryptCATAdminReleaseContext","CryptCATAdminReleaseContext function [Security]","mscat/CryptCATAdminReleaseContext","security.cryptcatadminreleasecontext"]
 old-location: security\cryptcatadminreleasecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: dff253dc-c444-46be-a383-41340d634cce
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext

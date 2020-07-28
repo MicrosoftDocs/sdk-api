@@ -1,9 +1,10 @@
 ---
 UID: NF:certview.ICertView2.SetTable
 title: ICertView2::SetTable (certview.h)
-description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.helpviewer_keywords: ["CCertView object [Security]","SetTable method","CVRC_TABLE_ATTRIBUTES","CVRC_TABLE_CRL","CVRC_TABLE_EXTENSIONS","CVRC_TABLE_REQCERT","ICertView interface [Security]","SetTable method","ICertView2 interface [Security]","SetTable method","ICertView2.SetTable","ICertView2::SetTable","ICertView::SetTable","SetTable","SetTable method [Security]","SetTable method [Security]","CCertView object","SetTable method [Security]","ICertView interface","SetTable method [Security]","ICertView2 interface","_certsrv_icertview2_settable","certview/ICertView2::SetTable","certview/ICertView::SetTable","security.icertview2_settable"]
+description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.
+helpviewer_keywords: ["CCertView object [Security]","SetTable method","CVRC_TABLE_ATTRIBUTES","CVRC_TABLE_CRL","CVRC_TABLE_EXTENSIONS","CVRC_TABLE_REQCERT","ICertView interface [Security]","SetTable method","ICertView2 interface [Security]","SetTable method","ICertView2.SetTable","ICertView2::SetTable","ICertView::SetTable","SetTable","SetTable method [Security]","SetTable method [Security]","CCertView object","SetTable method [Security]","ICertView interface","SetTable method [Security]","ICertView2 interface","_certsrv_icertview2_settable","certview/ICertView2::SetTable","certview/ICertView::SetTable","security.icertview2_settable"]
 old-location: security\icertview2_settable.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 76353137-75c5-46e5-82da-33d2f8e54661
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetTable method, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, ICertView interface [Security],SetTable method, ICertView2 interface [Security],SetTable method, ICertView2.SetTable, ICertView2::SetTable, ICertView::SetTable, SetTable, SetTable method [Security], SetTable method [Security],CCertView object, SetTable method [Security],ICertView interface, SetTable method [Security],ICertView2 interface, _certsrv_icertview2_settable, certview/ICertView2::SetTable, certview/ICertView::SetTable, security.icertview2_settable

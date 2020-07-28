@@ -1,9 +1,10 @@
 ---
 UID: NF:loadperf.UnloadPerfCounterTextStringsW
 title: UnloadPerfCounterTextStringsW function (loadperf.h)
-description: Unloads performance objects and counters from the computer for the specified application.helpviewer_keywords: ["UnloadPerfCounterTextStrings","UnloadPerfCounterTextStrings function [Perf]","UnloadPerfCounterTextStringsA","UnloadPerfCounterTextStringsW","_win32_unloadperfcountertextstrings","base.unloadperfcountertextstrings","loadperf/UnloadPerfCounterTextStrings","loadperf/UnloadPerfCounterTextStringsA","loadperf/UnloadPerfCounterTextStringsW","perf.unloadperfcountertextstrings"]
+description: Unloads performance objects and counters from the computer for the specified application.
+helpviewer_keywords: ["UnloadPerfCounterTextStrings","UnloadPerfCounterTextStrings function [Perf]","UnloadPerfCounterTextStringsA","UnloadPerfCounterTextStringsW","_win32_unloadperfcountertextstrings","base.unloadperfcountertextstrings","loadperf/UnloadPerfCounterTextStrings","loadperf/UnloadPerfCounterTextStringsA","loadperf/UnloadPerfCounterTextStringsW","perf.unloadperfcountertextstrings"]
 old-location: perf\unloadperfcountertextstrings.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61
 ms.date: 12/05/2018
 ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function [Perf], UnloadPerfCounterTextStringsA, UnloadPerfCounterTextStringsW, _win32_unloadperfcountertextstrings, base.unloadperfcountertextstrings, loadperf/UnloadPerfCounterTextStrings, loadperf/UnloadPerfCounterTextStringsA, loadperf/UnloadPerfCounterTextStringsW, perf.unloadperfcountertextstrings
@@ -91,6 +92,10 @@ This function provides an API to the functionality provided by <b>Unlodctr</b> t
 
 
 
+
+
+> [!NOTE]
+> The loadperf.h header defines UnloadPerfCounterTextStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

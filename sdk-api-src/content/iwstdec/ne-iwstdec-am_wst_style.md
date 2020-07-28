@@ -1,9 +1,10 @@
 ---
 UID: NE:iwstdec._AM_WST_STYLE
 title: AM_WST_STYLE (iwstdec.h)
-description: The AM_WST_STYLE enumeration is not supported.helpviewer_keywords: ["*PAM_WST_STYLE","AM_WST_STYLE","AM_WST_STYLE","AM_WST_STYLE enumeration [DirectShow]","AM_WST_STYLEEnumeration","AM_WST_STYLE_Invers","AM_WST_STYLE_None","PAM_WST_STYLE","PAM_WST_STYLE enumeration pointer [DirectShow]","dshow.am_wst_style","iwstdec/AM_WST_STYLE","iwstdec/AM_WST_STYLE_Invers","iwstdec/AM_WST_STYLE_None","iwstdec/PAM_WST_STYLE"]
+description: The AM_WST_STYLE enumeration is not supported.
+helpviewer_keywords: ["*PAM_WST_STYLE","AM_WST_STYLE","AM_WST_STYLE","AM_WST_STYLE enumeration [DirectShow]","AM_WST_STYLEEnumeration","AM_WST_STYLE_Invers","AM_WST_STYLE_None","PAM_WST_STYLE","PAM_WST_STYLE enumeration pointer [DirectShow]","dshow.am_wst_style","iwstdec/AM_WST_STYLE","iwstdec/AM_WST_STYLE_Invers","iwstdec/AM_WST_STYLE_None","iwstdec/PAM_WST_STYLE"]
 old-location: dshow\am_wst_style.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a183d38a-ed79-4bfa-8983-52877c19c335
 ms.date: 12/05/2018
 ms.keywords: '*PAM_WST_STYLE, AM_WST_STYLE, AM_WST_STYLE , AM_WST_STYLE enumeration [DirectShow], AM_WST_STYLEEnumeration, AM_WST_STYLE_Invers, AM_WST_STYLE_None, PAM_WST_STYLE, PAM_WST_STYLE enumeration pointer [DirectShow], dshow.am_wst_style, iwstdec/AM_WST_STYLE, iwstdec/AM_WST_STYLE_Invers, iwstdec/AM_WST_STYLE_None, iwstdec/PAM_WST_STYLE'

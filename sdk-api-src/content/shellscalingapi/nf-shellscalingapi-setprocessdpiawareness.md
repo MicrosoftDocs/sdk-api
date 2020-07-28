@@ -1,7 +1,8 @@
 ---
 UID: NF:shellscalingapi.SetProcessDpiAwareness
 title: SetProcessDpiAwareness function (shellscalingapi.h)
-description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.helpviewer_keywords: ["SetProcessDpiAwareness","SetProcessDpiAwareness function [High DPI]","hidpi.setprocessdpiawareness","shellscalingapi/SetProcessDpiAwareness","winmsg.SetProcessDpiAwareness"]
+description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.
+helpviewer_keywords: ["SetProcessDpiAwareness","SetProcessDpiAwareness function [High DPI]","hidpi.setprocessdpiawareness","shellscalingapi/SetProcessDpiAwareness","winmsg.SetProcessDpiAwareness"]
 old-location: hidpi\setprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9

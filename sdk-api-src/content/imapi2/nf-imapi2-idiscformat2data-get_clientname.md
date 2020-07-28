@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ClientName
 title: IDiscFormat2Data::get_ClientName (imapi2.h)
-description: Retrieves the friendly name of the client.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_ClientName method","IDiscFormat2Data.get_ClientName","IDiscFormat2Data::get_ClientName","get_ClientName","get_ClientName method [IMAPI]","get_ClientName method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_clientname","imapi2/IDiscFormat2Data::get_ClientName"]
+description: Retrieves the friendly name of the client.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_ClientName method","IDiscFormat2Data.get_ClientName","IDiscFormat2Data::get_ClientName","get_ClientName","get_ClientName method [IMAPI]","get_ClientName method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_clientname","imapi2/IDiscFormat2Data::get_ClientName"]
 old-location: imapi\idiscformat2data_get_clientname.htm
 tech.root: imapi
 ms.assetid: faf5009a-395a-49ed-a0c7-e6bc44f17b7c

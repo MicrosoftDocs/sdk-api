@@ -4,7 +4,7 @@ title: _InlineInterlockedAdd function (winnt.h)
 description: Performs an atomic addition operation on the specified LONG values. The operation is performed with acquire memory ordering semantics.
 helpviewer_keywords: ["InterlockedAddAcquire","InterlockedAddAcquire function","_InlineInterlockedAdd","base.interlockedaddacquire","winnt/InterlockedAddAcquire"]
 old-location: base\interlockedaddacquire.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: ec1746cc-aff9-440e-b7e1-15a3d7a0fa58
 ms.date: 12/05/2018
 ms.keywords: InterlockedAddAcquire, InterlockedAddAcquire function, _InlineInterlockedAdd, base.interlockedaddacquire, winnt/InterlockedAddAcquire
@@ -83,7 +83,7 @@ The function returns the result of the operation.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions/51s265a6(v=vs.85)">_InterlockedAdd_acq</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="/previous-versions/51s265a6(v=vs.85)">_InterlockedAdd_acq</a>.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -95,11 +95,11 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedadd">InterlockedAdd</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-interlockedadd">InterlockedAdd</a>
 
 
 
@@ -107,31 +107,31 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683510(v=vs.85)">InterlockedAddAcquire64</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683510(v=vs.85)">InterlockedAddAcquire64</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972629(v=vs.85)">InterlockedAddNoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972629(v=vs.85)">InterlockedAddNoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972630(v=vs.85)">InterlockedAddNoFence64</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972630(v=vs.85)">InterlockedAddNoFence64</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683513(v=vs.85)">InterlockedAddRelease</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683513(v=vs.85)">InterlockedAddRelease</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683514(v=vs.85)">InterlockedAddRelease64</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683514(v=vs.85)">InterlockedAddRelease64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedexchangeadd">InterlockedExchangeAdd</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd">InterlockedExchangeAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

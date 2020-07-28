@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.QuerySessionBySessionId
 title: ITsSbGlobalStore::QuerySessionBySessionId (sbtsv.h)
-description: Retrieves the ITsSbSession object associated with the given session ID.helpviewer_keywords: ["ITsSbGlobalStore interface [Remote Desktop Services]","QuerySessionBySessionId method","ITsSbGlobalStore.QuerySessionBySessionId","ITsSbGlobalStore::QuerySessionBySessionId","QuerySessionBySessionId","QuerySessionBySessionId method [Remote Desktop Services]","QuerySessionBySessionId method [Remote Desktop Services]","ITsSbGlobalStore interface","sbtsv/ITsSbGlobalStore::QuerySessionBySessionId","termserv.itssbglobalstore_querysessionbysessionid"]
+description: Retrieves the ITsSbSession object associated with the given session ID.
+helpviewer_keywords: ["ITsSbGlobalStore interface [Remote Desktop Services]","QuerySessionBySessionId method","ITsSbGlobalStore.QuerySessionBySessionId","ITsSbGlobalStore::QuerySessionBySessionId","QuerySessionBySessionId","QuerySessionBySessionId method [Remote Desktop Services]","QuerySessionBySessionId method [Remote Desktop Services]","ITsSbGlobalStore interface","sbtsv/ITsSbGlobalStore::QuerySessionBySessionId","termserv.itssbglobalstore_querysessionbysessionid"]
 old-location: termserv\itssbglobalstore_querysessionbysessionid.htm
 tech.root: TermServ
 ms.assetid: d710842a-9bd5-4791-8f6e-bac2fe07c93f

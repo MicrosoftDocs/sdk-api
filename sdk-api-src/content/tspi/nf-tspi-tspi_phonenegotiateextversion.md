@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_phoneNegotiateExtVersion
 title: TSPI_phoneNegotiateExtVersion function (tspi.h)
-description: The TSPI_phoneNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.helpviewer_keywords: ["TSPI_phoneNegotiateExtVersion","TSPI_phoneNegotiateExtVersion function [TAPI 2.2]","_tspi_tspi_phonenegotiateextversion","tspi.tspi_phonenegotiateextversion","tspi/TSPI_phoneNegotiateExtVersion"]
+description: The TSPI_phoneNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
+helpviewer_keywords: ["TSPI_phoneNegotiateExtVersion","TSPI_phoneNegotiateExtVersion function [TAPI 2.2]","_tspi_tspi_phonenegotiateextversion","tspi.tspi_phonenegotiateextversion","tspi/TSPI_phoneNegotiateExtVersion"]
 old-location: tspi\tspi_phonenegotiateextversion.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneNegotiateExtVersion, TSPI_phoneNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_phonenegotiateextversion, tspi.tspi_phonenegotiateextversion, tspi/TSPI_phoneNegotiateExtVersion

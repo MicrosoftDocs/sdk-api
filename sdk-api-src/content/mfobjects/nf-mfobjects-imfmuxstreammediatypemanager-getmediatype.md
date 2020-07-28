@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetMediaType
 title: IMFMuxStreamMediaTypeManager::GetMediaType (mfobjects.h)
-description: Gets the IMFMediaType of the substream with the specified index.helpviewer_keywords: ["GetMediaType","GetMediaType method [Media Foundation]","GetMediaType method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetMediaType method","IMFMuxStreamMediaTypeManager.GetMediaType","IMFMuxStreamMediaTypeManager::GetMediaType","mf.imfmuxstreammediatypemanager_getmediatype","mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType"]
+description: Gets the IMFMediaType of the substream with the specified index.
+helpviewer_keywords: ["GetMediaType","GetMediaType method [Media Foundation]","GetMediaType method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetMediaType method","IMFMuxStreamMediaTypeManager.GetMediaType","IMFMuxStreamMediaTypeManager::GetMediaType","mf.imfmuxstreammediatypemanager_getmediatype","mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType"]
 old-location: mf\imfmuxstreammediatypemanager_getmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType

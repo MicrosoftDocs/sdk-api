@@ -1,9 +1,10 @@
 ---
 UID: NS:clfs._CLS_CONTAINER_INFORMATION
 title: CLS_CONTAINER_INFORMATION (clfs.h)
-description: Describes general information about a container.helpviewer_keywords: ["*PCLFS_CONTAINER_INFORMATION","*PCLS_CONTAINER_INFORMATION","CLFS_CONTAINER_INFORMATION","CLFS_CONTAINER_INFORMATION structure [Files]","CLS_CONTAINER_INFORMATION","ClfsContainerActive","ClfsContainerActivePendingDelete","ClfsContainerInactive","ClfsContainerInitializing","ClfsContainerPendingArchive","ClfsContainerPendingArchiveAndDelete","PCLFS_CONTAINER_INFORMATION","PCLFS_CONTAINER_INFORMATION structure pointer [Files]","PPCLFS_CONTAINER_INFORMATION","PPCLFS_CONTAINER_INFORMATION structure pointer [Files]","PPCLS_CONTAINER_INFORMATION","clfs/PCLFS_CONTAINER_INFORMATION","clfs/PPCLFS_CONTAINER_INFORMATION","clfs/_CLFS_CONTAINER_INFORMATION","fs.clfs_container_information"]
+description: Describes general information about a container.
+helpviewer_keywords: ["*PCLFS_CONTAINER_INFORMATION","*PCLS_CONTAINER_INFORMATION","CLFS_CONTAINER_INFORMATION","CLFS_CONTAINER_INFORMATION structure [Files]","CLS_CONTAINER_INFORMATION","ClfsContainerActive","ClfsContainerActivePendingDelete","ClfsContainerInactive","ClfsContainerInitializing","ClfsContainerPendingArchive","ClfsContainerPendingArchiveAndDelete","PCLFS_CONTAINER_INFORMATION","PCLFS_CONTAINER_INFORMATION structure pointer [Files]","PPCLFS_CONTAINER_INFORMATION","PPCLFS_CONTAINER_INFORMATION structure pointer [Files]","PPCLS_CONTAINER_INFORMATION","clfs/PCLFS_CONTAINER_INFORMATION","clfs/PPCLFS_CONTAINER_INFORMATION","clfs/_CLFS_CONTAINER_INFORMATION","fs.clfs_container_information"]
 old-location: fs\clfs_container_information.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 3788fac0-4e99-49e0-bba1-6a6d22299950
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Files], CLS_CONTAINER_INFORMATION, ClfsContainerActive, ClfsContainerActivePendingDelete, ClfsContainerInactive, ClfsContainerInitializing, ClfsContainerPendingArchive, ClfsContainerPendingArchiveAndDelete, PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Files], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Files], PPCLS_CONTAINER_INFORMATION, clfs/PCLFS_CONTAINER_INFORMATION, clfs/PPCLFS_CONTAINER_INFORMATION, clfs/_CLFS_CONTAINER_INFORMATION, fs.clfs_container_information'

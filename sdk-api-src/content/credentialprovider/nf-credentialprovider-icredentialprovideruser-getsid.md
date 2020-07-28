@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetSid
 title: ICredentialProviderUser::GetSid (credentialprovider.h)
-description: Retrieves the user's security identifier (SID).helpviewer_keywords: ["GetSid","GetSid method [Windows Shell]","GetSid method [Windows Shell]","ICredentialProviderUser interface","ICredentialProviderUser interface [Windows Shell]","GetSid method","ICredentialProviderUser.GetSid","ICredentialProviderUser::GetSid","credentialprovider/ICredentialProviderUser::GetSid","shell.ICredentialProviderUser_GetSid"]
+description: Retrieves the user's security identifier (SID).
+helpviewer_keywords: ["GetSid","GetSid method [Windows Shell]","GetSid method [Windows Shell]","ICredentialProviderUser interface","ICredentialProviderUser interface [Windows Shell]","GetSid method","ICredentialProviderUser.GetSid","ICredentialProviderUser::GetSid","credentialprovider/ICredentialProviderUser::GetSid","shell.ICredentialProviderUser_GetSid"]
 old-location: shell\ICredentialProviderUser_GetSid.htm
 tech.root: shell
 ms.assetid: FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48

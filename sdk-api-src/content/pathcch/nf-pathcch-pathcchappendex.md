@@ -1,7 +1,8 @@
 ---
 UID: NF:pathcch.PathCchAppendEx
 title: PathCchAppendEx function (pathcch.h)
-description: Appends one path to the end of another.This function differs from PathCchAppend in that it allows for a longer final path to be constructed.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathCchAppendEx","PathCchAppendEx function [Windows Shell]","pathcch/PathCchAppendEx","shell.PathCchAppendEx"]
+description: Appends one path to the end of another.This function differs from PathCchAppend in that it allows for a longer final path to be constructed.This function differs from PathAppend in that it accepts paths with &quot;\\&quot;, &quot;\\?\&quot; and &quot;\\?\UNC\&quot; prefixes.
+helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathCchAppendEx","PathCchAppendEx function [Windows Shell]","pathcch/PathCchAppendEx","shell.PathCchAppendEx"]
 old-location: shell\PathCchAppendEx.htm
 tech.root: shell
 ms.assetid: 5421c666-1c8a-4ae8-baba-9e6f69c877df

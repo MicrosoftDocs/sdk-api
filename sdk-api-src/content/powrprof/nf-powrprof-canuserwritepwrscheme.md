@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.CanUserWritePwrScheme
 title: CanUserWritePwrScheme function (powrprof.h)
-description: Determines whether the current user has sufficient privilege to write a power scheme.helpviewer_keywords: ["CanUserWritePwrScheme","CanUserWritePwrScheme function","_win32_canuserwritepwrscheme","base.canuserwritepwrscheme","powrprof/CanUserWritePwrScheme"]
+description: Determines whether the current user has sufficient privilege to write a power scheme.
+helpviewer_keywords: ["CanUserWritePwrScheme","CanUserWritePwrScheme function","_win32_canuserwritepwrscheme","base.canuserwritepwrscheme","powrprof/CanUserWritePwrScheme"]
 old-location: base\canuserwritepwrscheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: 3989da98-aa01-4c63-a74c-ce7ba18278c1
 ms.date: 12/05/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme

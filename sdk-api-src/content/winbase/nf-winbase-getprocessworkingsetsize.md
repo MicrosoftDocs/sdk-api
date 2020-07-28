@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetProcessWorkingSetSize
 title: GetProcessWorkingSetSize function (winbase.h)
-description: Retrieves the minimum and maximum working set sizes of the specified process.helpviewer_keywords: ["GetProcessWorkingSetSize","GetProcessWorkingSetSize function","_win32_getprocessworkingsetsize","base.getprocessworkingsetsize","winbase/GetProcessWorkingSetSize"]
+description: Retrieves the minimum and maximum working set sizes of the specified process.
+helpviewer_keywords: ["GetProcessWorkingSetSize","GetProcessWorkingSetSize function","_win32_getprocessworkingsetsize","base.getprocessworkingsetsize","winbase/GetProcessWorkingSetSize"]
 old-location: base\getprocessworkingsetsize.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 9ac2e9ae-31f4-40aa-8d23-6926fa6dec22
 ms.date: 12/05/2018
 ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32_getprocessworkingsetsize, base.getprocessworkingsetsize, winbase/GetProcessWorkingSetSize

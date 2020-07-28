@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFInvokeCallback
 title: MFInvokeCallback function (mfapi.h)
-description: Invokes a callback method to complete an asynchronous operation.helpviewer_keywords: ["28832d50-9b15-4eb0-96f9-2032d4edcaf4","MFInvokeCallback","MFInvokeCallback function [Media Foundation]","mf.mfinvokecallback","mfapi/MFInvokeCallback"]
+description: Invokes a callback method to complete an asynchronous operation.
+helpviewer_keywords: ["28832d50-9b15-4eb0-96f9-2032d4edcaf4","MFInvokeCallback","MFInvokeCallback function [Media Foundation]","mf.mfinvokecallback","mfapi/MFInvokeCallback"]
 old-location: mf\mfinvokecallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 28832d50-9b15-4eb0-96f9-2032d4edcaf4
 ms.date: 12/05/2018
 ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCallback function [Media Foundation], mf.mfinvokecallback, mfapi/MFInvokeCallback

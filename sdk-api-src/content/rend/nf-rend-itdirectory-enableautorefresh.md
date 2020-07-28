@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectory.EnableAutoRefresh
 title: ITDirectory::EnableAutoRefresh (rend.h)
-description: The EnableAutoRefresh method enables auto refresh for directory objects created after it is called. Only applies to dynamic servers.helpviewer_keywords: ["EnableAutoRefresh","EnableAutoRefresh method [TAPI 2.2]","EnableAutoRefresh method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","EnableAutoRefresh method","ITDirectory.EnableAutoRefresh","ITDirectory::EnableAutoRefresh","_tapi3_itdirectory_enableautorefresh","rend/ITDirectory::EnableAutoRefresh","tapi3.itdirectory_enableautorefresh"]
+description: The EnableAutoRefresh method enables auto refresh for directory objects created after it is called. Only applies to dynamic servers.
+helpviewer_keywords: ["EnableAutoRefresh","EnableAutoRefresh method [TAPI 2.2]","EnableAutoRefresh method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","EnableAutoRefresh method","ITDirectory.EnableAutoRefresh","ITDirectory::EnableAutoRefresh","_tapi3_itdirectory_enableautorefresh","rend/ITDirectory::EnableAutoRefresh","tapi3.itdirectory_enableautorefresh"]
 old-location: tapi3\itdirectory_enableautorefresh.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d
 ms.date: 12/05/2018
 ms.keywords: EnableAutoRefresh, EnableAutoRefresh method [TAPI 2.2], EnableAutoRefresh method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnableAutoRefresh method, ITDirectory.EnableAutoRefresh, ITDirectory::EnableAutoRefresh, _tapi3_itdirectory_enableautorefresh, rend/ITDirectory::EnableAutoRefresh, tapi3.itdirectory_enableautorefresh

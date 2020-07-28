@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite.DWRITE_WORD_WRAPPING
 title: DWRITE_WORD_WRAPPING (dwrite.h)
-description: Specifies the word wrapping to be used in a particular multiline paragraph.helpviewer_keywords: ["DWRITE_WORD_WRAPPING","DWRITE_WORD_WRAPPING enumeration [Direct Write]","DWRITE_WORD_WRAPPING_CHARACTER","DWRITE_WORD_WRAPPING_EMERGENCY_BREAK","DWRITE_WORD_WRAPPING_NO_WRAP","DWRITE_WORD_WRAPPING_WHOLE_WORD","DWRITE_WORD_WRAPPING_WRAP","directwrite.dwrite_word_wrapping","dwrite/DWRITE_WORD_WRAPPING","dwrite/DWRITE_WORD_WRAPPING_CHARACTER","dwrite/DWRITE_WORD_WRAPPING_EMERGENCY_BREAK","dwrite/DWRITE_WORD_WRAPPING_NO_WRAP","dwrite/DWRITE_WORD_WRAPPING_WHOLE_WORD","dwrite/DWRITE_WORD_WRAPPING_WRAP"]
+description: Specifies the word wrapping to be used in a particular multiline paragraph.
+helpviewer_keywords: ["DWRITE_WORD_WRAPPING","DWRITE_WORD_WRAPPING enumeration [Direct Write]","DWRITE_WORD_WRAPPING_CHARACTER","DWRITE_WORD_WRAPPING_EMERGENCY_BREAK","DWRITE_WORD_WRAPPING_NO_WRAP","DWRITE_WORD_WRAPPING_WHOLE_WORD","DWRITE_WORD_WRAPPING_WRAP","directwrite.dwrite_word_wrapping","dwrite/DWRITE_WORD_WRAPPING","dwrite/DWRITE_WORD_WRAPPING_CHARACTER","dwrite/DWRITE_WORD_WRAPPING_EMERGENCY_BREAK","dwrite/DWRITE_WORD_WRAPPING_NO_WRAP","dwrite/DWRITE_WORD_WRAPPING_WHOLE_WORD","dwrite/DWRITE_WORD_WRAPPING_WRAP"]
 old-location: directwrite\dwrite_word_wrapping.htm
 tech.root: DirectWrite
 ms.assetid: 5b0a5e15-1bbf-433e-9c7f-d7b8fa9313c2

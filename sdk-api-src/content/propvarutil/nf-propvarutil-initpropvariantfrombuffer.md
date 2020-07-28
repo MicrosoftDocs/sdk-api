@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBuffer
 title: InitPropVariantFromBuffer function (propvarutil.h)
-description: Initializes a PROPVARIANT structure using the contents of a buffer.helpviewer_keywords: ["InitPropVariantFromBuffer","InitPropVariantFromBuffer function [Windows Properties]","properties.InitPropVariantFromBuffer","propvarutil/InitPropVariantFromBuffer","shell.InitPropVariantFromBuffer","shell_InitPropVariantFromBuffer"]
+description: Initializes a PROPVARIANT structure using the contents of a buffer.
+helpviewer_keywords: ["InitPropVariantFromBuffer","InitPropVariantFromBuffer function [Windows Properties]","properties.InitPropVariantFromBuffer","propvarutil/InitPropVariantFromBuffer","shell.InitPropVariantFromBuffer","shell_InitPropVariantFromBuffer"]
 old-location: properties\InitPropVariantFromBuffer.htm
 tech.root: properties
 ms.assetid: a6780070-d8de-40f9-8163-e5306e2aa1cc

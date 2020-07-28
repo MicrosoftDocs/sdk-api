@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Remove
 title: IPolicyQualifiers::Remove (certenroll.h)
-description: Removes an object from the collection by index value.helpviewer_keywords: ["IPolicyQualifiers interface [Security]","Remove method","IPolicyQualifiers.Remove","IPolicyQualifiers::Remove","Remove","Remove method [Security]","Remove method [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::Remove","security.ipolicyqualifiers_remove_method"]
+description: Removes an object from the collection by index value.
+helpviewer_keywords: ["IPolicyQualifiers interface [Security]","Remove method","IPolicyQualifiers.Remove","IPolicyQualifiers::Remove","Remove","Remove method [Security]","Remove method [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::Remove","security.ipolicyqualifiers_remove_method"]
 old-location: security\ipolicyqualifiers_remove_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method

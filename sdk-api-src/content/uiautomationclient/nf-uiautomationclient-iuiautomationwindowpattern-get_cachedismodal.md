@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedIsModal
 title: IUIAutomationWindowPattern::get_CachedIsModal (uiautomationclient.h)
-description: Retrieves a cached value that indicates whether the window is modal.helpviewer_keywords: ["CachedIsModal property [Windows Accessibility]","CachedIsModal property [Windows Accessibility]","IUIAutomationWindowPattern interface","IUIAutomationWindowPattern interface [Windows Accessibility]","CachedIsModal property","IUIAutomationWindowPattern.CachedIsModal","IUIAutomationWindowPattern.get_CachedIsModal","IUIAutomationWindowPattern::CachedIsModal","IUIAutomationWindowPattern::get_CachedIsModal","get_CachedIsModal","uiauto.uiauto_IUIAutomationWindowPattern_CachedIsModal","uiauto_IUIAutomationWindowPattern_CachedIsModal","uiautomationclient/IUIAutomationWindowPattern::CachedIsModal","uiautomationclient/IUIAutomationWindowPattern::get_CachedIsModal","winauto.uiauto_IUIAutomationWindowPattern_CachedIsModal"]
+description: Retrieves a cached value that indicates whether the window is modal.
+helpviewer_keywords: ["CachedIsModal property [Windows Accessibility]","CachedIsModal property [Windows Accessibility]","IUIAutomationWindowPattern interface","IUIAutomationWindowPattern interface [Windows Accessibility]","CachedIsModal property","IUIAutomationWindowPattern.CachedIsModal","IUIAutomationWindowPattern.get_CachedIsModal","IUIAutomationWindowPattern::CachedIsModal","IUIAutomationWindowPattern::get_CachedIsModal","get_CachedIsModal","uiauto.uiauto_IUIAutomationWindowPattern_CachedIsModal","uiauto_IUIAutomationWindowPattern_CachedIsModal","uiautomationclient/IUIAutomationWindowPattern::CachedIsModal","uiautomationclient/IUIAutomationWindowPattern::get_CachedIsModal","winauto.uiauto_IUIAutomationWindowPattern_CachedIsModal"]
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedIsModal.htm
 tech.root: WinAuto
 ms.assetid: 0eeba231-2992-4dae-beb6-47408ebb333d

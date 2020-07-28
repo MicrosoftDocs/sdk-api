@@ -4,7 +4,7 @@ title: InitSecurityInterfaceW function (sspi.h)
 description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
 helpviewer_keywords: ["InitSecurityInterface","InitSecurityInterface function [Security]","InitSecurityInterfaceA","InitSecurityInterfaceW","_ssp_initsecurityinterface","security.initsecurityinterface","sspi/InitSecurityInterface","sspi/InitSecurityInterfaceA","sspi/InitSecurityInterfaceW"]
 old-location: security\initsecurityinterface.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
 ms.date: 12/05/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
@@ -89,4 +89,9 @@ If the function fails, the return value is <b>NULL</b>.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The sspi.h header defines InitSecurityInterface as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMemAllocatorCallbackTemp.GetFreeCount
 title: IMemAllocatorCallbackTemp::GetFreeCount (strmif.h)
-description: The GetFreeCount method returns the number of free media samples. This number equals the total number of media samples minus the number of samples that are currently held by filters.helpviewer_keywords: ["GetFreeCount","GetFreeCount method [DirectShow]","GetFreeCount method [DirectShow]","IMemAllocatorCallbackTemp interface","IMemAllocatorCallbackTemp interface [DirectShow]","GetFreeCount method","IMemAllocatorCallbackTemp.GetFreeCount","IMemAllocatorCallbackTemp::GetFreeCount","IMemAllocatorCallbackTempGetFreeCount","dshow.imemallocatorcallbacktemp_getfreecount","strmif/IMemAllocatorCallbackTemp::GetFreeCount"]
+description: The GetFreeCount method returns the number of free media samples. This number equals the total number of media samples minus the number of samples that are currently held by filters.
+helpviewer_keywords: ["GetFreeCount","GetFreeCount method [DirectShow]","GetFreeCount method [DirectShow]","IMemAllocatorCallbackTemp interface","IMemAllocatorCallbackTemp interface [DirectShow]","GetFreeCount method","IMemAllocatorCallbackTemp.GetFreeCount","IMemAllocatorCallbackTemp::GetFreeCount","IMemAllocatorCallbackTempGetFreeCount","dshow.imemallocatorcallbacktemp_getfreecount","strmif/IMemAllocatorCallbackTemp::GetFreeCount"]
 old-location: dshow\imemallocatorcallbacktemp_getfreecount.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2dd0cdb3-664a-4022-b8bb-fda759172dd6
 ms.date: 12/05/2018
 ms.keywords: GetFreeCount, GetFreeCount method [DirectShow], GetFreeCount method [DirectShow],IMemAllocatorCallbackTemp interface, IMemAllocatorCallbackTemp interface [DirectShow],GetFreeCount method, IMemAllocatorCallbackTemp.GetFreeCount, IMemAllocatorCallbackTemp::GetFreeCount, IMemAllocatorCallbackTempGetFreeCount, dshow.imemallocatorcallbacktemp_getfreecount, strmif/IMemAllocatorCallbackTemp::GetFreeCount

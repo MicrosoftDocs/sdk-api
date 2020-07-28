@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Initialize
 title: IX509EnrollmentHelper::Initialize (certenroll.h)
-description: Initializes an IX509EnrollmentHelper object.helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509EnrollmentHelper interface [Security]","Initialize method","IX509EnrollmentHelper.Initialize","IX509EnrollmentHelper::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509EnrollmentHelper interface","certenroll/IX509EnrollmentHelper::Initialize","security.ix509enrollmenthelper_initialize"]
+description: Initializes an IX509EnrollmentHelper object.
+helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509EnrollmentHelper interface [Security]","Initialize method","IX509EnrollmentHelper.Initialize","IX509EnrollmentHelper::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509EnrollmentHelper interface","certenroll/IX509EnrollmentHelper::Initialize","security.ix509enrollmenthelper_initialize"]
 old-location: security\ix509enrollmenthelper_initialize.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize

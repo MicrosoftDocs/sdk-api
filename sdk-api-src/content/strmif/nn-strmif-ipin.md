@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IPin
 title: IPin (strmif.h)
-description: This interface is exposed by all input and output pins.The filter graph manager uses this interface to connect pins and perform flushing operations.helpviewer_keywords: ["IPin","IPin interface [DirectShow]","IPin interface [DirectShow]","described","IPinInterface","dshow.ipin","strmif/IPin"]
+description: This interface is exposed by all input and output pins.The filter graph manager uses this interface to connect pins and perform flushing operations.
+helpviewer_keywords: ["IPin","IPin interface [DirectShow]","IPin interface [DirectShow]","described","IPinInterface","dshow.ipin","strmif/IPin"]
 old-location: dshow\ipin.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ad0ead4e-9f8e-4935-b220-306d665e50f4
 ms.date: 12/05/2018
 ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],described, IPinInterface, dshow.ipin, strmif/IPin

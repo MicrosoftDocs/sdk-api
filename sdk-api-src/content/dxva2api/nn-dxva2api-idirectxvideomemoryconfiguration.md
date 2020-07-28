@@ -1,9 +1,10 @@
 ---
 UID: NN:dxva2api.IDirectXVideoMemoryConfiguration
 title: IDirectXVideoMemoryConfiguration (dxva2api.h)
-description: Sets the type of video memory for uncompressed video surfaces.helpviewer_keywords: ["IDirectXVideoMemoryConfiguration","IDirectXVideoMemoryConfiguration interface [Media Foundation]","IDirectXVideoMemoryConfiguration interface [Media Foundation]","described","cc2a6180-9698-460a-9a0d-1ee9e15f197f","dxva2api/IDirectXVideoMemoryConfiguration","mf.idirectxvideomemoryconfiguration"]
+description: Sets the type of video memory for uncompressed video surfaces.
+helpviewer_keywords: ["IDirectXVideoMemoryConfiguration","IDirectXVideoMemoryConfiguration interface [Media Foundation]","IDirectXVideoMemoryConfiguration interface [Media Foundation]","described","cc2a6180-9698-460a-9a0d-1ee9e15f197f","dxva2api/IDirectXVideoMemoryConfiguration","mf.idirectxvideomemoryconfiguration"]
 old-location: mf\idirectxvideomemoryconfiguration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cc2a6180-9698-460a-9a0d-1ee9e15f197f
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration

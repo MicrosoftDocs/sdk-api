@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.GetMappedFileNameA
 title: GetMappedFileNameA function (psapi.h)
-description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file.helpviewer_keywords: ["GetMappedFileName","GetMappedFileName function [PSAPI]","GetMappedFileNameA","GetMappedFileNameW","K32GetMappedFileName","K32GetMappedFileNameA","K32GetMappedFileNameW","_win32_getmappedfilename","base.getmappedfilename","psapi.getmappedfilename","psapi/GetMappedFileName","psapi/GetMappedFileNameA","psapi/GetMappedFileNameW","psapi/K32GetMappedFileName","psapi/K32GetMappedFileNameA","psapi/K32GetMappedFileNameW"]
+description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file.
+helpviewer_keywords: ["GetMappedFileName","GetMappedFileName function [PSAPI]","GetMappedFileNameA","GetMappedFileNameW","K32GetMappedFileName","K32GetMappedFileNameA","K32GetMappedFileNameW","_win32_getmappedfilename","base.getmappedfilename","psapi.getmappedfilename","psapi/GetMappedFileName","psapi/GetMappedFileNameA","psapi/GetMappedFileNameW","psapi/K32GetMappedFileName","psapi/K32GetMappedFileNameA","psapi/K32GetMappedFileNameW"]
 old-location: psapi\getmappedfilename.htm
 tech.root: psapi
 ms.assetid: 10a2e5ab-f495-486d-8ef7-ef763716afd1
@@ -69,7 +70,7 @@ Checks whether the specified address is within a memory-mapped file in the addre
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param lpv [in]
@@ -189,6 +190,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The psapi.h header defines GetMappedFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

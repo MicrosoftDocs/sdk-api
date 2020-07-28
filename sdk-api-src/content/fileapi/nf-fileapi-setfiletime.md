@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.SetFileTime
 title: SetFileTime function (fileapi.h)
-description: Sets the date and time that the specified file or directory was created, last accessed, or last modified.helpviewer_keywords: ["SetFileTime","SetFileTime function","_win32_setfiletime","base.setfiletime","fileapi/SetFileTime","winbase/SetFileTime"]
+description: Sets the date and time that the specified file or directory was created, last accessed, or last modified.
+helpviewer_keywords: ["SetFileTime","SetFileTime function","_win32_setfiletime","base.setfiletime","fileapi/SetFileTime","winbase/SetFileTime"]
 old-location: base\setfiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 75d988e4-22a3-4084-a5f8-1fca73ccd542
 ms.date: 12/05/2018
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime

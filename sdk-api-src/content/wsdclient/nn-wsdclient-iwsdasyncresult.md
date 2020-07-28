@@ -1,9 +1,10 @@
 ---
 UID: NN:wsdclient.IWSDAsyncResult
 title: IWSDAsyncResult (wsdclient.h)
-description: Represents an asynchronous operation.helpviewer_keywords: ["IWSDAsyncResult","IWSDAsyncResult interface","IWSDAsyncResult interface","described","ncd.iwsdasyncresult","wsdclient/IWSDAsyncResult"]
+description: Represents an asynchronous operation.
+helpviewer_keywords: ["IWSDAsyncResult","IWSDAsyncResult interface","IWSDAsyncResult interface","described","ncd.iwsdasyncresult","wsdclient/IWSDAsyncResult"]
 old-location: ncd\iwsdasyncresult.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 49c5ad02-f24b-4ef9-b943-483728c0bbcd
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface,described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult

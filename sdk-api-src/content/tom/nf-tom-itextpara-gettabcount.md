@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetTabCount
 title: ITextPara::GetTabCount (tom.h)
-description: Retrieves the tab count.helpviewer_keywords: ["GetTabCount","GetTabCount method [Windows Controls]","GetTabCount method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetTabCount method","ITextPara.GetTabCount","ITextPara::GetTabCount","_win32_ITextPara_GetTabCount","_win32_ITextPara_GetTabCount_cpp","controls.ITextPara_GetTabCount","controls._win32_ITextPara_GetTabCount","tom/ITextPara::GetTabCount"]
+description: Retrieves the tab count.
+helpviewer_keywords: ["GetTabCount","GetTabCount method [Windows Controls]","GetTabCount method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetTabCount method","ITextPara.GetTabCount","ITextPara::GetTabCount","_win32_ITextPara_GetTabCount","_win32_ITextPara_GetTabCount_cpp","controls.ITextPara_GetTabCount","controls._win32_ITextPara_GetTabCount","tom/ITextPara::GetTabCount"]
 old-location: controls\ITextPara_GetTabCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettabcount.htm

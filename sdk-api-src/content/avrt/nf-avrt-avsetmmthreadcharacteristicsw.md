@@ -1,9 +1,10 @@
 ---
 UID: NF:avrt.AvSetMmThreadCharacteristicsW
 title: AvSetMmThreadCharacteristicsW function (avrt.h)
-description: Associates the calling thread with the specified task.helpviewer_keywords: ["AvSetMmThreadCharacteristics","AvSetMmThreadCharacteristics function","AvSetMmThreadCharacteristicsA","AvSetMmThreadCharacteristicsW","avrt/AvSetMmThreadCharacteristics","avrt/AvSetMmThreadCharacteristicsA","avrt/AvSetMmThreadCharacteristicsW","base.avsetmmthreadcharacteristics"]
+description: Associates the calling thread with the specified task.
+helpviewer_keywords: ["AvSetMmThreadCharacteristics","AvSetMmThreadCharacteristics function","AvSetMmThreadCharacteristicsA","AvSetMmThreadCharacteristicsW","avrt/AvSetMmThreadCharacteristics","avrt/AvSetMmThreadCharacteristicsA","avrt/AvSetMmThreadCharacteristicsW","base.avsetmmthreadcharacteristics"]
 old-location: base\avsetmmthreadcharacteristics.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
 ms.date: 12/05/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics
@@ -134,6 +135,10 @@ When the task is completed, call the <a href="https://docs.microsoft.com/windows
 
 
 
+
+
+> [!NOTE]
+> The avrt.h header defines AvSetMmThreadCharacteristics as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

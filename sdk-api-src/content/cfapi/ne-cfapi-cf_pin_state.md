@@ -1,9 +1,10 @@
 ---
 UID: NE:cfapi.CF_PIN_STATE
 title: CF_PIN_STATE (cfapi.h)
-description: Pin states of a placeholder file or directory.helpviewer_keywords: ["CF_PIN_STATE","CF_PIN_STATE enumeration","CF_PIN_STATE_EXCLUDED","CF_PIN_STATE_INHERIT","CF_PIN_STATE_PINNED","CF_PIN_STATE_UNPINNED","CF_PIN_STATE_UNSPECIFIED","cfapi/CF_PIN_STATE","cfapi/CF_PIN_STATE_EXCLUDED","cfapi/CF_PIN_STATE_INHERIT","cfapi/CF_PIN_STATE_PINNED","cfapi/CF_PIN_STATE_UNPINNED","cfapi/CF_PIN_STATE_UNSPECIFIED","cloudApi.cf_pin_state"]
+description: Pin states of a placeholder file or directory.
+helpviewer_keywords: ["CF_PIN_STATE","CF_PIN_STATE enumeration","CF_PIN_STATE_EXCLUDED","CF_PIN_STATE_INHERIT","CF_PIN_STATE_PINNED","CF_PIN_STATE_UNPINNED","CF_PIN_STATE_UNSPECIFIED","cfapi/CF_PIN_STATE","cfapi/CF_PIN_STATE_EXCLUDED","cfapi/CF_PIN_STATE_INHERIT","cfapi/CF_PIN_STATE_PINNED","cfapi/CF_PIN_STATE_UNPINNED","cfapi/CF_PIN_STATE_UNSPECIFIED","cloudApi.cf_pin_state"]
 old-location: cloudapi\cf_pin_state.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: F3074C9A-2805-47DE-9BA0-D7E02C4FF030
 ms.date: 12/05/2018
 ms.keywords: CF_PIN_STATE, CF_PIN_STATE enumeration, CF_PIN_STATE_EXCLUDED, CF_PIN_STATE_INHERIT, CF_PIN_STATE_PINNED, CF_PIN_STATE_UNPINNED, CF_PIN_STATE_UNSPECIFIED, cfapi/CF_PIN_STATE, cfapi/CF_PIN_STATE_EXCLUDED, cfapi/CF_PIN_STATE_INHERIT, cfapi/CF_PIN_STATE_PINNED, cfapi/CF_PIN_STATE_UNPINNED, cfapi/CF_PIN_STATE_UNSPECIFIED, cloudApi.cf_pin_state

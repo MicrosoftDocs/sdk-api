@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAddress.put_DoNotDisturb
 title: ITAddress::put_DoNotDisturb (tapi3if.h)
-description: The put_DoNotDisturb method sets the do not disturb status. The do not disturb feature may not be available on all addresses.helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","put_DoNotDisturb method","ITAddress.put_DoNotDisturb","ITAddress::put_DoNotDisturb","_tapi3_itaddress_put_donotdisturb","put_DoNotDisturb","put_DoNotDisturb method [TAPI 2.2]","put_DoNotDisturb method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_put_donotdisturb","tapi3if/ITAddress::put_DoNotDisturb"]
+description: The put_DoNotDisturb method sets the do not disturb status. The do not disturb feature may not be available on all addresses.
+helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","put_DoNotDisturb method","ITAddress.put_DoNotDisturb","ITAddress::put_DoNotDisturb","_tapi3_itaddress_put_donotdisturb","put_DoNotDisturb","put_DoNotDisturb method [TAPI 2.2]","put_DoNotDisturb method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_put_donotdisturb","tapi3if/ITAddress::put_DoNotDisturb"]
 old-location: tapi3\itaddress_put_donotdisturb.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 4d3071d5-055a-469d-aa17-984b8210cbea
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],put_DoNotDisturb method, ITAddress.put_DoNotDisturb, ITAddress::put_DoNotDisturb, _tapi3_itaddress_put_donotdisturb, put_DoNotDisturb, put_DoNotDisturb method [TAPI 2.2], put_DoNotDisturb method [TAPI 2.2],ITAddress interface, tapi3.itaddress_put_donotdisturb, tapi3if/ITAddress::put_DoNotDisturb

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetSymbolicLink
 title: IMFSensorActivityReport::GetSymbolicLink (mfidl.h)
-description: Gets the symbolic link for the sensor associated with the report.helpviewer_keywords: ["GetSymbolicLink","GetSymbolicLink method [Media Foundation]","GetSymbolicLink method [Media Foundation]","IMFSensorActivityReport interface","IMFSensorActivityReport interface [Media Foundation]","GetSymbolicLink method","IMFSensorActivityReport.GetSymbolicLink","IMFSensorActivityReport::GetSymbolicLink","mf.imfsensoractivityreport_getsymboliclink","mfidl/IMFSensorActivityReport::GetSymbolicLink"]
+description: Gets the symbolic link for the sensor associated with the report.
+helpviewer_keywords: ["GetSymbolicLink","GetSymbolicLink method [Media Foundation]","GetSymbolicLink method [Media Foundation]","IMFSensorActivityReport interface","IMFSensorActivityReport interface [Media Foundation]","GetSymbolicLink method","IMFSensorActivityReport.GetSymbolicLink","IMFSensorActivityReport::GetSymbolicLink","mf.imfsensoractivityreport_getsymboliclink","mfidl/IMFSensorActivityReport::GetSymbolicLink"]
 old-location: mf\imfsensoractivityreport_getsymboliclink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
 ms.date: 12/05/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink

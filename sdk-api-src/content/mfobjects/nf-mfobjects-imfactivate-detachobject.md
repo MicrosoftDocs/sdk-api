@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFActivate.DetachObject
 title: IMFActivate::DetachObject (mfobjects.h)
-description: Detaches the created object from the activation object.helpviewer_keywords: ["15216c57-f85d-4087-ad52-d35059647828","DetachObject","DetachObject method [Media Foundation]","DetachObject method [Media Foundation]","IMFActivate interface","IMFActivate interface [Media Foundation]","DetachObject method","IMFActivate.DetachObject","IMFActivate::DetachObject","mf.imfactivate_detachobject","mfobjects/IMFActivate::DetachObject"]
+description: Detaches the created object from the activation object.
+helpviewer_keywords: ["15216c57-f85d-4087-ad52-d35059647828","DetachObject","DetachObject method [Media Foundation]","DetachObject method [Media Foundation]","IMFActivate interface","IMFActivate interface [Media Foundation]","DetachObject method","IMFActivate.DetachObject","IMFActivate::DetachObject","mf.imfactivate_detachobject","mfobjects/IMFActivate::DetachObject"]
 old-location: mf\imfactivate_detachobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 15216c57-f85d-4087-ad52-d35059647828
 ms.date: 12/05/2018
 ms.keywords: 15216c57-f85d-4087-ad52-d35059647828, DetachObject, DetachObject method [Media Foundation], DetachObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],DetachObject method, IMFActivate.DetachObject, IMFActivate::DetachObject, mf.imfactivate_detachobject, mfobjects/IMFActivate::DetachObject

@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.GetFilter
 title: IAMMultiMediaStream::GetFilter (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetFilter method retrieves the Media Stream filter, which is used internally by the multimedia stream object.helpviewer_keywords: ["GetFilter","GetFilter method [DirectShow]","GetFilter method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","GetFilter method","IAMMultiMediaStream.GetFilter","IAMMultiMediaStream::GetFilter","IAMMultiMediaStreamGetFilter","amstream/IAMMultiMediaStream::GetFilter","dshow.iammultimediastream_getfilter"]
+description: Note  This interface is deprecated. New applications should not use it. The GetFilter method retrieves the Media Stream filter, which is used internally by the multimedia stream object.
+helpviewer_keywords: ["GetFilter","GetFilter method [DirectShow]","GetFilter method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","GetFilter method","IAMMultiMediaStream.GetFilter","IAMMultiMediaStream::GetFilter","IAMMultiMediaStreamGetFilter","amstream/IAMMultiMediaStream::GetFilter","dshow.iammultimediastream_getfilter"]
 old-location: dshow\iammultimediastream_getfilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7e4df9cb-4008-4615-a179-ae1e76c22337
 ms.date: 12/05/2018
 ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilter method, IAMMultiMediaStream.GetFilter, IAMMultiMediaStream::GetFilter, IAMMultiMediaStreamGetFilter, amstream/IAMMultiMediaStream::GetFilter, dshow.iammultimediastream_getfilter

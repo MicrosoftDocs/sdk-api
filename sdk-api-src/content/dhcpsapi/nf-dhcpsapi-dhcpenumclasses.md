@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumClasses
 title: DhcpEnumClasses function (dhcpsapi.h)
-description: Enumerates the user or vendor classes configured for the DHCP server.helpviewer_keywords: ["DhcpEnumClasses","DhcpEnumClasses function [DHCP]","dhcp.dhcpenumclasses","dhcpsapi/DhcpEnumClasses"]
+description: Enumerates the user or vendor classes configured for the DHCP server.
+helpviewer_keywords: ["DhcpEnumClasses","DhcpEnumClasses function [DHCP]","dhcp.dhcpenumclasses","dhcpsapi/DhcpEnumClasses"]
 old-location: dhcp\dhcpenumclasses.htm
 tech.root: DHCP
 ms.assetid: 93f37424-1a81-477e-85da-359885e94349

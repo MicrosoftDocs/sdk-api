@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.RtlPcToFileHeader
 title: RtlPcToFileHeader function (winnt.h)
-description: Retrieves the base address of the image that contains the specified PC value.helpviewer_keywords: ["RtlPcToFileHeader","RtlPcToFileHeader function","base.rtlpctofileheader","winnt/RtlPcToFileHeader"]
+description: Retrieves the base address of the image that contains the specified PC value.
+helpviewer_keywords: ["RtlPcToFileHeader","RtlPcToFileHeader function","base.rtlpctofileheader","winnt/RtlPcToFileHeader"]
 old-location: base\rtlpctofileheader.htm
 tech.root: Debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac

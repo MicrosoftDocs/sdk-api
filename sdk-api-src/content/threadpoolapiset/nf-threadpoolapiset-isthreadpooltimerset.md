@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.IsThreadpoolTimerSet
 title: IsThreadpoolTimerSet function (threadpoolapiset.h)
-description: Determines whether the specified timer object is currently set.helpviewer_keywords: ["IsThreadpoolTimerSet","IsThreadpoolTimerSet function","base.isthreadpooltimerset","threadpoolapiset/IsThreadpoolTimerSet","winbase/IsThreadpoolTimerSet"]
+description: Determines whether the specified timer object is currently set.
+helpviewer_keywords: ["IsThreadpoolTimerSet","IsThreadpoolTimerSet function","base.isthreadpooltimerset","threadpoolapiset/IsThreadpoolTimerSet","winbase/IsThreadpoolTimerSet"]
 old-location: base\isthreadpooltimerset.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: f9dee0aa-6310-4218-b207-72a24c5019e2
 ms.date: 12/05/2018
 ms.keywords: IsThreadpoolTimerSet, IsThreadpoolTimerSet function, base.isthreadpooltimerset, threadpoolapiset/IsThreadpoolTimerSet, winbase/IsThreadpoolTimerSet

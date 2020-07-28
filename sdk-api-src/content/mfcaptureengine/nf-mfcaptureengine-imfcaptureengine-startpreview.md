@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartPreview
 title: IMFCaptureEngine::StartPreview (mfcaptureengine.h)
-description: Starts preview.helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StartPreview method","IMFCaptureEngine.StartPreview","IMFCaptureEngine::StartPreview","StartPreview","StartPreview method [Media Foundation]","StartPreview method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_startpreview","mfcaptureengine/IMFCaptureEngine::StartPreview"]
+description: Starts preview.
+helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StartPreview method","IMFCaptureEngine.StartPreview","IMFCaptureEngine::StartPreview","StartPreview","StartPreview method [Media Foundation]","StartPreview method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_startpreview","mfcaptureengine/IMFCaptureEngine::StartPreview"]
 old-location: mf\imfcaptureengine_startpreview.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C5BCF990-E7F9-48E9-B082-79953F5ED27C
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartPreview method, IMFCaptureEngine.StartPreview, IMFCaptureEngine::StartPreview, StartPreview, StartPreview method [Media Foundation], StartPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startpreview, mfcaptureengine/IMFCaptureEngine::StartPreview

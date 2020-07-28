@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_UseStreamingWrite12
 title: IWriteEngine2::put_UseStreamingWrite12 (imapi2.h)
-description: Sets a value that indicates if the write operations use the WRITE12 or WRITE10 command.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_UseStreamingWrite12 method","IWriteEngine2.put_UseStreamingWrite12","IWriteEngine2::put_UseStreamingWrite12","imapi.iwriteengine2_put_usestreamingwrite12","imapi2/IWriteEngine2::put_UseStreamingWrite12","put_UseStreamingWrite12","put_UseStreamingWrite12 method [IMAPI]","put_UseStreamingWrite12 method [IMAPI]","IWriteEngine2 interface"]
+description: Sets a value that indicates if the write operations use the WRITE12 or WRITE10 command.
+helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_UseStreamingWrite12 method","IWriteEngine2.put_UseStreamingWrite12","IWriteEngine2::put_UseStreamingWrite12","imapi.iwriteengine2_put_usestreamingwrite12","imapi2/IWriteEngine2::put_UseStreamingWrite12","put_UseStreamingWrite12","put_UseStreamingWrite12 method [IMAPI]","put_UseStreamingWrite12 method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_usestreamingwrite12.htm
 tech.root: imapi
 ms.assetid: c0fa6248-c582-423d-8983-81cd56d9abdd

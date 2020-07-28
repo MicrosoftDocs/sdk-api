@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetPixelGeometry
 title: IDWriteRenderingParams::GetPixelGeometry (dwrite.h)
-description: Gets the pixel geometry of the rendering parameters object.helpviewer_keywords: ["GetPixelGeometry","GetPixelGeometry method [Direct Write]","GetPixelGeometry method [Direct Write]","IDWriteRenderingParams interface","IDWriteRenderingParams interface [Direct Write]","GetPixelGeometry method","IDWriteRenderingParams.GetPixelGeometry","IDWriteRenderingParams::GetPixelGeometry","directwrite.IDWriteRenderingParams_GetPixelGeometry","dwrite/IDWriteRenderingParams::GetPixelGeometry"]
+description: Gets the pixel geometry of the rendering parameters object.
+helpviewer_keywords: ["GetPixelGeometry","GetPixelGeometry method [Direct Write]","GetPixelGeometry method [Direct Write]","IDWriteRenderingParams interface","IDWriteRenderingParams interface [Direct Write]","GetPixelGeometry method","IDWriteRenderingParams.GetPixelGeometry","IDWriteRenderingParams::GetPixelGeometry","directwrite.IDWriteRenderingParams_GetPixelGeometry","dwrite/IDWriteRenderingParams::GetPixelGeometry"]
 old-location: directwrite\IDWriteRenderingParams_GetPixelGeometry.htm
 tech.root: DirectWrite
 ms.assetid: faa727b7-3df6-4ad5-ad1f-1c038ea585c8

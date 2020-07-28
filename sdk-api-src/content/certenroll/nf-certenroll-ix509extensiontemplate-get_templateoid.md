@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.get_TemplateOid
 title: IX509ExtensionTemplate::get_TemplateOid (certenroll.h)
-description: Retrieves the template object identifier (OID).helpviewer_keywords: ["IX509ExtensionTemplate interface [Security]","TemplateOid property","IX509ExtensionTemplate.TemplateOid","IX509ExtensionTemplate.get_TemplateOid","IX509ExtensionTemplate::TemplateOid","IX509ExtensionTemplate::get_TemplateOid","TemplateOid property [Security]","TemplateOid property [Security]","IX509ExtensionTemplate interface","certenroll/IX509ExtensionTemplate::TemplateOid","certenroll/IX509ExtensionTemplate::get_TemplateOid","get_TemplateOid","security.ix509extensiontemplate_templateoid_property"]
+description: Retrieves the template object identifier (OID).
+helpviewer_keywords: ["IX509ExtensionTemplate interface [Security]","TemplateOid property","IX509ExtensionTemplate.TemplateOid","IX509ExtensionTemplate.get_TemplateOid","IX509ExtensionTemplate::TemplateOid","IX509ExtensionTemplate::get_TemplateOid","TemplateOid property [Security]","TemplateOid property [Security]","IX509ExtensionTemplate interface","certenroll/IX509ExtensionTemplate::TemplateOid","certenroll/IX509ExtensionTemplate::get_TemplateOid","get_TemplateOid","security.ix509extensiontemplate_templateoid_property"]
 old-location: security\ix509extensiontemplate_templateoid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9106f995-4d74-464a-8ca3-aec056199ace
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],TemplateOid property, IX509ExtensionTemplate.TemplateOid, IX509ExtensionTemplate.get_TemplateOid, IX509ExtensionTemplate::TemplateOid, IX509ExtensionTemplate::get_TemplateOid, TemplateOid property [Security], TemplateOid property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::TemplateOid, certenroll/IX509ExtensionTemplate::get_TemplateOid, get_TemplateOid, security.ix509extensiontemplate_templateoid_property

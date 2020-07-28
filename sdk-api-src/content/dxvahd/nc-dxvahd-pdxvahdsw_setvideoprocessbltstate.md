@@ -1,9 +1,10 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_SetVideoProcessBltState
 title: PDXVAHDSW_SetVideoProcessBltState (dxvahd.h)
-description: Sets a state parameter for blit operations by a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.helpviewer_keywords: ["PDXVAHDSW_SetVideoProcessBltState","PDXVAHDSW_SetVideoProcessBltState callback","PDXVAHDSW_SetVideoProcessBltState callback function [Media Foundation]","dxvahd/PDXVAHDSW_SetVideoProcessBltState","mf.pdxvahdsw_setvideoprocessbltstate"]
+description: Sets a state parameter for blit operations by a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+helpviewer_keywords: ["PDXVAHDSW_SetVideoProcessBltState","PDXVAHDSW_SetVideoProcessBltState callback","PDXVAHDSW_SetVideoProcessBltState callback function [Media Foundation]","dxvahd/PDXVAHDSW_SetVideoProcessBltState","mf.pdxvahdsw_setvideoprocessbltstate"]
 old-location: mf\pdxvahdsw_setvideoprocessbltstate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 604af2f8-42e8-465c-a49f-8c6c9bcc84dd
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessBltState, PDXVAHDSW_SetVideoProcessBltState callback, PDXVAHDSW_SetVideoProcessBltState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessBltState, mf.pdxvahdsw_setvideoprocessbltstate

@@ -4,7 +4,7 @@ title: IXpsOMRadialGradientBrush::SetCenter (xpsobjectmodel.h)
 description: Sets the center point of the radial gradient region ellipse.
 helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetCenter method","IXpsOMRadialGradientBrush.SetCenter","IXpsOMRadialGradientBrush::SetCenter","SetCenter","SetCenter method [XPS Documents and Packaging]","SetCenter method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setcenter","xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter"]
 old-location: xps\ixpsomradialgradientbrush_setcenter.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7f1fd304-8495-40b3-b11f-7af9924150eb
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetCenter method, IXpsOMRadialGradientBrush.SetCenter, IXpsOMRadialGradientBrush::SetCenter, SetCenter, SetCenter method [XPS Documents and Packaging], SetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter

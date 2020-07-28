@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRMixerBitmap.GetAlphaBitmapParameters
 title: IVMRMixerBitmap::GetAlphaBitmapParameters (strmif.h)
-description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.helpviewer_keywords: ["GetAlphaBitmapParameters","GetAlphaBitmapParameters method [DirectShow]","GetAlphaBitmapParameters method [DirectShow]","IVMRMixerBitmap interface","IVMRMixerBitmap interface [DirectShow]","GetAlphaBitmapParameters method","IVMRMixerBitmap.GetAlphaBitmapParameters","IVMRMixerBitmap::GetAlphaBitmapParameters","IVMRMixerBitmapGetAlphaBitmapParameters","dshow.ivmrmixerbitmap_getalphabitmapparameters","strmif/IVMRMixerBitmap::GetAlphaBitmapParameters"]
+description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.
+helpviewer_keywords: ["GetAlphaBitmapParameters","GetAlphaBitmapParameters method [DirectShow]","GetAlphaBitmapParameters method [DirectShow]","IVMRMixerBitmap interface","IVMRMixerBitmap interface [DirectShow]","GetAlphaBitmapParameters method","IVMRMixerBitmap.GetAlphaBitmapParameters","IVMRMixerBitmap::GetAlphaBitmapParameters","IVMRMixerBitmapGetAlphaBitmapParameters","dshow.ivmrmixerbitmap_getalphabitmapparameters","strmif/IVMRMixerBitmap::GetAlphaBitmapParameters"]
 old-location: dshow\ivmrmixerbitmap_getalphabitmapparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d03cc6ad-e09b-4af7-93b7-51880465c0b6
 ms.date: 12/05/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, IVMRMixerBitmap interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap.GetAlphaBitmapParameters, IVMRMixerBitmap::GetAlphaBitmapParameters, IVMRMixerBitmapGetAlphaBitmapParameters, dshow.ivmrmixerbitmap_getalphabitmapparameters, strmif/IVMRMixerBitmap::GetAlphaBitmapParameters

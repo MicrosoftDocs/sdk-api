@@ -1,7 +1,8 @@
 ---
-UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(const GUID &)
+UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(constGUID&)
 title: TraceLoggingActivity::SetRelatedActivityId (traceloggingactivity.h)
-description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.helpviewer_keywords: ["SetRelatedActivityId","SetRelatedActivityId method","SetRelatedActivityId method","TraceLoggingActivity interface","TraceLoggingActivity interface","SetRelatedActivityId method","TraceLoggingActivity.SetRelatedActivityId","TraceLoggingActivity::SetRelatedActivityId","tracelogging.traceloggingactivity_setrelatedactivityid","traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId"]
+description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
+helpviewer_keywords: ["SetRelatedActivityId","SetRelatedActivityId method","SetRelatedActivityId method","TraceLoggingActivity interface","TraceLoggingActivity interface","SetRelatedActivityId method","TraceLoggingActivity.SetRelatedActivityId","TraceLoggingActivity::SetRelatedActivityId","tracelogging.traceloggingactivity_setrelatedactivityid","traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId"]
 old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm
 tech.root: tracelogging
 ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
@@ -49,8 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses the unique identifier of an activity to set the related activity for this <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
-
+Uses the unique identifier of an activity to set the related activity for this <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity">TraceLoggingActivity</a> object.
 
 ## -parameters
 
@@ -67,8 +67,6 @@ The unique identifier for the activity to associate with this activity.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
- 
 
- 
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity">TraceLoggingActivity</a>
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.HasOverlappedIoCompleted
 title: HasOverlappedIoCompleted macro (winbase.h)
-description: Provides a high performance test operation that can be used to poll for the completion of an outstanding I/O operation.helpviewer_keywords: ["HasOverlappedIoCompleted","HasOverlappedIoCompleted macro","_win32_hasoverlappediocompleted","base.hasoverlappediocompleted","winbase/HasOverlappedIoCompleted"]
+description: Provides a high performance test operation that can be used to poll for the completion of an outstanding I/O operation.
+helpviewer_keywords: ["HasOverlappedIoCompleted","HasOverlappedIoCompleted macro","_win32_hasoverlappediocompleted","base.hasoverlappediocompleted","winbase/HasOverlappedIoCompleted"]
 old-location: base\hasoverlappediocompleted.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 1e2a3bf0-a73e-4406-99ac-32652f7f5b25
 ms.date: 12/05/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted

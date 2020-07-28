@@ -1,7 +1,8 @@
 ---
 UID: NS:objsel._DS_SELECTION
 title: DS_SELECTION (objsel.h)
-description: The DS_SELECTION structure contains data about an object the user selected from an object picker dialog box. The DS_SELECTION_LIST structure contains an array of DS_SELECTION structures.helpviewer_keywords: ["*PDS_SELECTION","DS_SELECTION","DS_SELECTION structure [Active Directory]","PDS_SELECTION","PDS_SELECTION structure pointer [Active Directory]","_glines_ds_selection","ad.ds__selection","ad.ds_selection","objsel/DS_SELECTION","objsel/PDS_SELECTION"]
+description: The DS_SELECTION structure contains data about an object the user selected from an object picker dialog box. The DS_SELECTION_LIST structure contains an array of DS_SELECTION structures.
+helpviewer_keywords: ["*PDS_SELECTION","DS_SELECTION","DS_SELECTION structure [Active Directory]","PDS_SELECTION","PDS_SELECTION structure pointer [Active Directory]","_glines_ds_selection","ad.ds__selection","ad.ds_selection","objsel/DS_SELECTION","objsel/PDS_SELECTION"]
 old-location: ad\ds_selection.htm
 tech.root: ad
 ms.assetid: 7a587997-0423-450f-a845-bddf12b69fae

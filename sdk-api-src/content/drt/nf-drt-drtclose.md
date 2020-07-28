@@ -1,9 +1,10 @@
 ---
 UID: NF:drt.DrtClose
 title: DrtClose function (drt.h)
-description: DrtClose function closes the local instance of the DRT.helpviewer_keywords: ["DrtClose","DrtClose function [Peer Networking]","drt/DrtClose","p2p.drtclose"]
+description: DrtClose function closes the local instance of the DRT.
+helpviewer_keywords: ["DrtClose","DrtClose function [Peer Networking]","drt/DrtClose","p2p.drtclose"]
 old-location: p2p\drtclose.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 37c0a579-64be-4ed6-b1b3-852013875361
 ms.date: 12/05/2018
 ms.keywords: DrtClose, DrtClose function [Peer Networking], drt/DrtClose, p2p.drtclose

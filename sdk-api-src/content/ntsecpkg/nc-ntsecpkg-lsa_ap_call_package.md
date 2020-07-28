@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_CALL_PACKAGE
 title: LSA_AP_CALL_PACKAGE (ntsecpkg.h)
-description: Called by the Local Security Authority (LSA) when a logon application with a trusted connection to the LSA calls the LsaCallAuthenticationPackage function and specifies the authentication package's identifier.helpviewer_keywords: ["LSA_AP_CALL_PACKAGE","LSA_AP_CALL_PACKAGE callback","LsaApCallPackage","LsaApCallPackage callback function [Security]","_lsa_lsaapcallpackage","ntsecpkg/LsaApCallPackage","security.lsaapcallpackage"]
+description: Called by the Local Security Authority (LSA) when a logon application with a trusted connection to the LSA calls the LsaCallAuthenticationPackage function and specifies the authentication package's identifier.
+helpviewer_keywords: ["LSA_AP_CALL_PACKAGE","LSA_AP_CALL_PACKAGE callback","LsaApCallPackage","LsaApCallPackage callback function [Security]","_lsa_lsaapcallpackage","ntsecpkg/LsaApCallPackage","security.lsaapcallpackage"]
 old-location: security\lsaapcallpackage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: be0f9886-c0f6-4361-96c7-d16da8713fc7
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_CALL_PACKAGE, LSA_AP_CALL_PACKAGE callback, LsaApCallPackage, LsaApCallPackage callback function [Security], _lsa_lsaapcallpackage, ntsecpkg/LsaApCallPackage, security.lsaapcallpackage

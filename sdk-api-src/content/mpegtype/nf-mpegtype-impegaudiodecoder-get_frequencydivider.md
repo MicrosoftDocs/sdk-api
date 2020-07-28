@@ -1,9 +1,10 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_FrequencyDivider
 title: IMpegAudioDecoder::get_FrequencyDivider (mpegtype.h)
-description: Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, or AM Radio.helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","get_FrequencyDivider method","IMpegAudioDecoder.get_FrequencyDivider","IMpegAudioDecoder::get_FrequencyDivider","IMpegAudioDecodergetFrequencyDivider","dshow.impegaudiodecoder_get_frequencydivider","get_FrequencyDivider","get_FrequencyDivider method [DirectShow]","get_FrequencyDivider method [DirectShow]","IMpegAudioDecoder interface","mpegtype/IMpegAudioDecoder::get_FrequencyDivider"]
+description: Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, or AM Radio.
+helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","get_FrequencyDivider method","IMpegAudioDecoder.get_FrequencyDivider","IMpegAudioDecoder::get_FrequencyDivider","IMpegAudioDecodergetFrequencyDivider","dshow.impegaudiodecoder_get_frequencydivider","get_FrequencyDivider","get_FrequencyDivider method [DirectShow]","get_FrequencyDivider method [DirectShow]","IMpegAudioDecoder interface","mpegtype/IMpegAudioDecoder::get_FrequencyDivider"]
 old-location: dshow\impegaudiodecoder_get_frequencydivider.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8b9b2a3f-2495-4da3-8a09-2ba31538bdb0
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_FrequencyDivider method, IMpegAudioDecoder.get_FrequencyDivider, IMpegAudioDecoder::get_FrequencyDivider, IMpegAudioDecodergetFrequencyDivider, dshow.impegaudiodecoder_get_frequencydivider, get_FrequencyDivider, get_FrequencyDivider method [DirectShow], get_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_FrequencyDivider

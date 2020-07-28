@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsHideOnDeactivate
 title: IFullScreenVideoEx::IsHideOnDeactivate (amvideo.h)
-description: The IsHideOnDeactivate method indicates the behavior when the user switches to another application.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsHideOnDeactivate method","IFullScreenVideoEx.IsHideOnDeactivate","IFullScreenVideoEx::IsHideOnDeactivate","IFullScreenVideoIsHideOnDeactivate","IsHideOnDeactivate","IsHideOnDeactivate method [DirectShow]","IsHideOnDeactivate method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsHideOnDeactivate","dshow.ifullscreenvideoex_ishideondeactivate"]
+description: The IsHideOnDeactivate method indicates the behavior when the user switches to another application.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsHideOnDeactivate method","IFullScreenVideoEx.IsHideOnDeactivate","IFullScreenVideoEx::IsHideOnDeactivate","IFullScreenVideoIsHideOnDeactivate","IsHideOnDeactivate","IsHideOnDeactivate method [DirectShow]","IsHideOnDeactivate method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsHideOnDeactivate","dshow.ifullscreenvideoex_ishideondeactivate"]
 old-location: dshow\ifullscreenvideoex_ishideondeactivate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate

@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.RegisterUserDictionary
 title: IUserDictionariesRegistrar::RegisterUserDictionary (spellcheck.h)
-description: Registers a file to be used as a user dictionary for the current user, until unregistered.helpviewer_keywords: ["IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","RegisterUserDictionary method","IUserDictionariesRegistrar.RegisterUserDictionary","IUserDictionariesRegistrar::RegisterUserDictionary","RegisterUserDictionary","RegisterUserDictionary method [Internationalization for Windows Applications]","RegisterUserDictionary method [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface","intl.iuserdictionariesregistrar_registeruserdictionary","spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary"]
+description: Registers a file to be used as a user dictionary for the current user, until unregistered.
+helpviewer_keywords: ["IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","RegisterUserDictionary method","IUserDictionariesRegistrar.RegisterUserDictionary","IUserDictionariesRegistrar::RegisterUserDictionary","RegisterUserDictionary","RegisterUserDictionary method [Internationalization for Windows Applications]","RegisterUserDictionary method [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface","intl.iuserdictionariesregistrar_registeruserdictionary","spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary"]
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
 tech.root: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212

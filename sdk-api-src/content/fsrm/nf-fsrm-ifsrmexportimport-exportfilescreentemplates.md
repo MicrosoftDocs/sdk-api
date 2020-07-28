@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ExportFileScreenTemplates
 title: IFsrmExportImport::ExportFileScreenTemplates (fsrm.h)
-description: Exports one or more file screen templates to the specified file.helpviewer_keywords: ["ExportFileScreenTemplates","ExportFileScreenTemplates method [File Server Resource Manager]","ExportFileScreenTemplates method [File Server Resource Manager]","FsrmExportImport class","ExportFileScreenTemplates method [File Server Resource Manager]","IFsrmExportImport interface","FsrmExportImport class [File Server Resource Manager]","ExportFileScreenTemplates method","IFsrmExportImport interface [File Server Resource Manager]","ExportFileScreenTemplates method","IFsrmExportImport.ExportFileScreenTemplates","IFsrmExportImport::ExportFileScreenTemplates","fs.ifsrmexportimport_exportfilescreentemplates","fsrm.ifsrmexportimport_exportfilescreentemplates","fsrm/IFsrmExportImport::ExportFileScreenTemplates"]
+description: Exports one or more file screen templates to the specified file.
+helpviewer_keywords: ["ExportFileScreenTemplates","ExportFileScreenTemplates method [File Server Resource Manager]","ExportFileScreenTemplates method [File Server Resource Manager]","FsrmExportImport class","ExportFileScreenTemplates method [File Server Resource Manager]","IFsrmExportImport interface","FsrmExportImport class [File Server Resource Manager]","ExportFileScreenTemplates method","IFsrmExportImport interface [File Server Resource Manager]","ExportFileScreenTemplates method","IFsrmExportImport.ExportFileScreenTemplates","IFsrmExportImport::ExportFileScreenTemplates","fs.ifsrmexportimport_exportfilescreentemplates","fsrm.ifsrmexportimport_exportfilescreentemplates","fsrm/IFsrmExportImport::ExportFileScreenTemplates"]
 old-location: fsrm\ifsrmexportimport_exportfilescreentemplates.htm
 tech.root: fsrm
 ms.assetid: 5804dece-7243-4f41-a949-e663852219e8

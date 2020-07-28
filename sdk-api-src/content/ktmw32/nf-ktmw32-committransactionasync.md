@@ -1,9 +1,10 @@
 ---
 UID: NF:ktmw32.CommitTransactionAsync
 title: CommitTransactionAsync function (ktmw32.h)
-description: Requests that the specified transaction be committed.helpviewer_keywords: ["CommitTransactionAsync","CommitTransactionAsync function [Files]","fs.committransactionasync","ktmw32/CommitTransactionAsync"]
+description: Requests that the specified transaction be committed.
+helpviewer_keywords: ["CommitTransactionAsync","CommitTransactionAsync function [Files]","fs.committransactionasync","ktmw32/CommitTransactionAsync"]
 old-location: fs\committransactionasync.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: cc0f4314-e216-490b-a49a-14bb850e0762
 ms.date: 12/05/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync

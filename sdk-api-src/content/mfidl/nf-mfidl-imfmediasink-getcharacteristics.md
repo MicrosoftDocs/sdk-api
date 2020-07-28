@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetCharacteristics
 title: IMFMediaSink::GetCharacteristics (mfidl.h)
-description: Gets the characteristics of the media sink.helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Media Foundation]","GetCharacteristics method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetCharacteristics method","IMFMediaSink.GetCharacteristics","IMFMediaSink::GetCharacteristics","MEDIASINK_CANNOT_MATCH_CLOCK","MEDIASINK_CAN_PREROLL","MEDIASINK_CLOCK_REQUIRED","MEDIASINK_FIXED_STREAMS","MEDIASINK_RATELESS","MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE","a7e8e2af-8b10-47f5-8b09-a7147ace5ba1","mf.imfmediasink_getcharacteristics","mfidl/IMFMediaSink::GetCharacteristics"]
+description: Gets the characteristics of the media sink.
+helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Media Foundation]","GetCharacteristics method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetCharacteristics method","IMFMediaSink.GetCharacteristics","IMFMediaSink::GetCharacteristics","MEDIASINK_CANNOT_MATCH_CLOCK","MEDIASINK_CAN_PREROLL","MEDIASINK_CLOCK_REQUIRED","MEDIASINK_FIXED_STREAMS","MEDIASINK_RATELESS","MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE","a7e8e2af-8b10-47f5-8b09-a7147ace5ba1","mf.imfmediasink_getcharacteristics","mfidl/IMFMediaSink::GetCharacteristics"]
 old-location: mf\imfmediasink_getcharacteristics.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a7e8e2af-8b10-47f5-8b09-a7147ace5ba1
 ms.date: 12/05/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics

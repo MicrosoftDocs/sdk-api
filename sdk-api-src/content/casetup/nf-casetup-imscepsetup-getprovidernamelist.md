@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetProviderNameList
 title: IMSCEPSetup::GetProviderNameList (casetup.h)
-description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.helpviewer_keywords: ["GetProviderNameList","GetProviderNameList method [Security]","GetProviderNameList method [Security]","IMSCEPSetup interface","IMSCEPSetup interface [Security]","GetProviderNameList method","IMSCEPSetup.GetProviderNameList","IMSCEPSetup::GetProviderNameList","casetup/IMSCEPSetup::GetProviderNameList","security.imscepsetup_getprovidernamelist"]
+description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
+helpviewer_keywords: ["GetProviderNameList","GetProviderNameList method [Security]","GetProviderNameList method [Security]","IMSCEPSetup interface","IMSCEPSetup interface [Security]","GetProviderNameList method","IMSCEPSetup.GetProviderNameList","IMSCEPSetup::GetProviderNameList","casetup/IMSCEPSetup::GetProviderNameList","security.imscepsetup_getprovidernamelist"]
 old-location: security\imscepsetup_getprovidernamelist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e2b5bae3-fc85-4277-8ee9-3911dacf3302
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetProviderNameList method, IMSCEPSetup.GetProviderNameList, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist

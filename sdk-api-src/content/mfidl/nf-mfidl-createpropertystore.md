@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.CreatePropertyStore
 title: CreatePropertyStore function (mfidl.h)
-description: Creates an empty property store object.helpviewer_keywords: ["CreatePropertyStore","CreatePropertyStore function [Media Foundation]","bb0d32ef-ec16-4341-8b66-d57ebec785f9","mf.createpropertystore","mfidl/CreatePropertyStore"]
+description: Creates an empty property store object.
+helpviewer_keywords: ["CreatePropertyStore","CreatePropertyStore function [Media Foundation]","bb0d32ef-ec16-4341-8b66-d57ebec785f9","mf.createpropertystore","mfidl/CreatePropertyStore"]
 old-location: mf\createpropertystore.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore

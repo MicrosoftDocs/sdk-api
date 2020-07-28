@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneSetButtonInfoA
 title: phoneSetButtonInfoA function (tapi.h)
-description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.helpviewer_keywords: ["_tapi2_phonesetbuttoninfo","phoneSetButtonInfo","phoneSetButtonInfo function [TAPI 2.2]","phoneSetButtonInfoA","phoneSetButtonInfoW","tapi/phoneSetButtonInfo","tapi/phoneSetButtonInfoA","tapi/phoneSetButtonInfoW","tapi2.phonesetbuttoninfo"]
+description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
+helpviewer_keywords: ["_tapi2_phonesetbuttoninfo","phoneSetButtonInfo","phoneSetButtonInfo function [TAPI 2.2]","phoneSetButtonInfoA","phoneSetButtonInfoW","tapi/phoneSetButtonInfo","tapi/phoneSetButtonInfoA","tapi/phoneSetButtonInfoW","tapi2.phonesetbuttoninfo"]
 old-location: tapi2\phonesetbuttoninfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonesetbuttoninfo, phoneSetButtonInfo, phoneSetButtonInfo function [TAPI 2.2], phoneSetButtonInfoA, phoneSetButtonInfoW, tapi/phoneSetButtonInfo, tapi/phoneSetButtonInfoA, tapi/phoneSetButtonInfoW, tapi2.phonesetbuttoninfo
@@ -109,4 +110,9 @@ PHONEERR_INVALBUTTONLAMPID, PHONEERR_OPERATIONFAILED, PHONEERR_INVALPHONEHANDLE,
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The tapi.h header defines phoneSetButtonInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetParentItem
 title: IOfflineFilesItem::GetParentItem (cscobj.h)
-description: Retrieves the IOfflineFilesItem interface for the parent of the item.helpviewer_keywords: ["GetParentItem","GetParentItem method [Offline Files]","GetParentItem method [Offline Files]","IOfflineFilesItem interface","IOfflineFilesItem interface [Offline Files]","GetParentItem method","IOfflineFilesItem.GetParentItem","IOfflineFilesItem::GetParentItem","cscobj/IOfflineFilesItem::GetParentItem","of.iofflinefilesitem_getparentitem"]
+description: Retrieves the IOfflineFilesItem interface for the parent of the item.
+helpviewer_keywords: ["GetParentItem","GetParentItem method [Offline Files]","GetParentItem method [Offline Files]","IOfflineFilesItem interface","IOfflineFilesItem interface [Offline Files]","GetParentItem method","IOfflineFilesItem.GetParentItem","IOfflineFilesItem::GetParentItem","cscobj/IOfflineFilesItem::GetParentItem","of.iofflinefilesitem_getparentitem"]
 old-location: of\iofflinefilesitem_getparentitem.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
 ms.date: 12/05/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem

@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IMediaRendererFactory.CreateMediaRendererAsync
 title: IMediaRendererFactory::streaming (windows.media.streaming.h)
-description: Asynchronously creates a new instance of an object that implements the IMediaRenderer interface using the specified Unique Device Name (UDN).helpviewer_keywords: ["CreateMediaRendererAsync","CreateMediaRendererAsync method [Media Streaming API]","CreateMediaRendererAsync method [Media Streaming API]","IMediaRendererFactory interface","IMediaRendererFactory interface [Media Streaming API]","CreateMediaRendererAsync method","IMediaRendererFactory.CreateMediaRendererAsync","IMediaRendererFactory.streaming","IMediaRendererFactory::CreateMediaRendererAsync","IMediaRendererFactory::streaming","mediastreaming.imediarendererfactory_createmediarendererasync","windows/IMediaRendererFactory::CreateMediaRendererAsync"]
+description: Asynchronously creates a new instance of an object that implements the IMediaRenderer interface using the specified Unique Device Name (UDN).
+helpviewer_keywords: ["CreateMediaRendererAsync","CreateMediaRendererAsync method [Media Streaming API]","CreateMediaRendererAsync method [Media Streaming API]","IMediaRendererFactory interface","IMediaRendererFactory interface [Media Streaming API]","CreateMediaRendererAsync method","IMediaRendererFactory.CreateMediaRendererAsync","IMediaRendererFactory.streaming","IMediaRendererFactory::CreateMediaRendererAsync","IMediaRendererFactory::streaming","mediastreaming.imediarendererfactory_createmediarendererasync","windows/IMediaRendererFactory::CreateMediaRendererAsync"]
 old-location: mediastreaming\imediarendererfactory_createmediarendererasync.htm
 tech.root: mediastreaming
 ms.assetid: FD1242F8-4C2E-4027-B1DE-5FD69557684C

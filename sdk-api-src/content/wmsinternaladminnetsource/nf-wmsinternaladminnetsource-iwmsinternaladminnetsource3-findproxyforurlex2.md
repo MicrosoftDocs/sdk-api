@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.FindProxyForURLEx2
 title: IWMSInternalAdminNetSource3::FindProxyForURLEx2 (wmsinternaladminnetsource.h)
-description: The FindProxyForURLEx2 method finds a proxy server name and port to use for the user.helpviewer_keywords: ["FindProxyForURLEx2","FindProxyForURLEx2 method [windows Media Format]","FindProxyForURLEx2 method [windows Media Format]","IWMSInternalAdminNetSource3 interface","IWMSInternalAdminNetSource3 interface [windows Media Format]","FindProxyForURLEx2 method","IWMSInternalAdminNetSource3.FindProxyForURLEx2","IWMSInternalAdminNetSource3::FindProxyForURLEx2","IWMSInternalAdminNetSource3FindProxyForURLEx2","wmformat.iwmsinternaladminnetsource3_findproxyforurlex2","wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2"]
+description: The FindProxyForURLEx2 method finds a proxy server name and port to use for the user.
+helpviewer_keywords: ["FindProxyForURLEx2","FindProxyForURLEx2 method [windows Media Format]","FindProxyForURLEx2 method [windows Media Format]","IWMSInternalAdminNetSource3 interface","IWMSInternalAdminNetSource3 interface [windows Media Format]","FindProxyForURLEx2 method","IWMSInternalAdminNetSource3.FindProxyForURLEx2","IWMSInternalAdminNetSource3::FindProxyForURLEx2","IWMSInternalAdminNetSource3FindProxyForURLEx2","wmformat.iwmsinternaladminnetsource3_findproxyforurlex2","wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2"]
 old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm
 tech.root: wmformat
 ms.assetid: 03c52ed2-bf77-4013-89d6-544d048f1056

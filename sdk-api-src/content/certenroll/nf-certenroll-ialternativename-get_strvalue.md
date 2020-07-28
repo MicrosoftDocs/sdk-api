@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_StrValue
 title: IAlternativeName::get_StrValue (certenroll.h)
-description: Retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).helpviewer_keywords: ["IAlternativeName interface [Security]","StrValue property","IAlternativeName.StrValue","IAlternativeName.get_StrValue","IAlternativeName::StrValue","IAlternativeName::get_StrValue","StrValue property [Security]","StrValue property [Security]","IAlternativeName interface","certenroll/IAlternativeName::StrValue","certenroll/IAlternativeName::get_StrValue","get_StrValue","security.ialternativename_strvalue_property"]
+description: Retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).
+helpviewer_keywords: ["IAlternativeName interface [Security]","StrValue property","IAlternativeName.StrValue","IAlternativeName.get_StrValue","IAlternativeName::StrValue","IAlternativeName::get_StrValue","StrValue property [Security]","StrValue property [Security]","IAlternativeName interface","certenroll/IAlternativeName::StrValue","certenroll/IAlternativeName::get_StrValue","get_StrValue","security.ialternativename_strvalue_property"]
 old-location: security\ialternativename_strvalue_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property

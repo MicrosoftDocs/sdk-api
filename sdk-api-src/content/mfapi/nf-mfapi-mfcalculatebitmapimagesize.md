@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCalculateBitmapImageSize
 title: MFCalculateBitmapImageSize function (mfapi.h)
-description: Retrieves the image size for a video format.helpviewer_keywords: ["67d80db8-996e-4f59-82f0-efd3d4bd8ff0","MFCalculateBitmapImageSize","MFCalculateBitmapImageSize function [Media Foundation]","mf.mfcalculatebitmapimagesize","mfapi/MFCalculateBitmapImageSize"]
+description: Retrieves the image size for a video format.
+helpviewer_keywords: ["67d80db8-996e-4f59-82f0-efd3d4bd8ff0","MFCalculateBitmapImageSize","MFCalculateBitmapImageSize function [Media Foundation]","mf.mfcalculatebitmapimagesize","mfapi/MFCalculateBitmapImageSize"]
 old-location: mf\mfcalculatebitmapimagesize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0
 ms.date: 12/05/2018
 ms.keywords: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0, MFCalculateBitmapImageSize, MFCalculateBitmapImageSize function [Media Foundation], mf.mfcalculatebitmapimagesize, mfapi/MFCalculateBitmapImageSize

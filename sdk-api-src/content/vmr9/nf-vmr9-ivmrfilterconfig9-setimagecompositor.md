@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetImageCompositor
 title: IVMRFilterConfig9::SetImageCompositor (vmr9.h)
-description: The SetImageCompositor method installs an application-provided image compositor object.helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetImageCompositor method","IVMRFilterConfig9.SetImageCompositor","IVMRFilterConfig9::SetImageCompositor","IVMRFilterConfig9SetImageCompositor","SetImageCompositor","SetImageCompositor method [DirectShow]","SetImageCompositor method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setimagecompositor","vmr9/IVMRFilterConfig9::SetImageCompositor"]
+description: The SetImageCompositor method installs an application-provided image compositor object.
+helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetImageCompositor method","IVMRFilterConfig9.SetImageCompositor","IVMRFilterConfig9::SetImageCompositor","IVMRFilterConfig9SetImageCompositor","SetImageCompositor","SetImageCompositor method [DirectShow]","SetImageCompositor method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setimagecompositor","vmr9/IVMRFilterConfig9::SetImageCompositor"]
 old-location: dshow\ivmrfilterconfig9_setimagecompositor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8e4a66e8-d4ab-49e0-8773-c79b5965124b
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetImageCompositor method, IVMRFilterConfig9.SetImageCompositor, IVMRFilterConfig9::SetImageCompositor, IVMRFilterConfig9SetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setimagecompositor, vmr9/IVMRFilterConfig9::SetImageCompositor

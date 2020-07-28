@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_ARRAY_SRV
 title: D3D12_TEX2D_ARRAY_SRV (d3d12.h)
-description: Describes the subresources from an array of 2D textures to use in a shader-resource view.helpviewer_keywords: ["D3D12_TEX2D_ARRAY_SRV","D3D12_TEX2D_ARRAY_SRV structure","d3d12/D3D12_TEX2D_ARRAY_SRV","direct3d12.d3d12_tex2d_array_srv"]
+description: Describes the subresources from an array of 2D textures to use in a shader-resource view.
+helpviewer_keywords: ["D3D12_TEX2D_ARRAY_SRV","D3D12_TEX2D_ARRAY_SRV structure","d3d12/D3D12_TEX2D_ARRAY_SRV","direct3d12.d3d12_tex2d_array_srv"]
 old-location: direct3d12\d3d12_tex2d_array_srv.htm
 tech.root: direct3d12
 ms.assetid: D3854008-0BB8-4284-A89F-A13DB85BB911

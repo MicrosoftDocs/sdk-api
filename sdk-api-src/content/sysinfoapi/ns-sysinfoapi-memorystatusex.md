@@ -1,9 +1,10 @@
 ---
 UID: NS:sysinfoapi._MEMORYSTATUSEX
 title: MEMORYSTATUSEX (sysinfoapi.h)
-description: Contains information about the current state of both physical and virtual memory, including extended memory.helpviewer_keywords: ["*LPMEMORYSTATUSEX","LPMEMORYSTATUSEX","LPMEMORYSTATUSEX structure pointer","MEMORYSTATUSEX","MEMORYSTATUSEX structure","_MEMORYSTATUSEX","_win32_memorystatusex_str","base.memorystatusex_str","sysinfoapi/LPMEMORYSTATUSEX","sysinfoapi/MEMORYSTATUSEX"]
+description: Contains information about the current state of both physical and virtual memory, including extended memory.
+helpviewer_keywords: ["*LPMEMORYSTATUSEX","LPMEMORYSTATUSEX","LPMEMORYSTATUSEX structure pointer","MEMORYSTATUSEX","MEMORYSTATUSEX structure","_MEMORYSTATUSEX","_win32_memorystatusex_str","base.memorystatusex_str","sysinfoapi/LPMEMORYSTATUSEX","sysinfoapi/MEMORYSTATUSEX"]
 old-location: base\memorystatusex_str.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: ce3c7993-8b91-4bca-8be8-9d81c26b9bef
 ms.date: 12/05/2018
 ms.keywords: '*LPMEMORYSTATUSEX, LPMEMORYSTATUSEX, LPMEMORYSTATUSEX structure pointer, MEMORYSTATUSEX, MEMORYSTATUSEX structure, _MEMORYSTATUSEX, _win32_memorystatusex_str, base.memorystatusex_str, sysinfoapi/LPMEMORYSTATUSEX, sysinfoapi/MEMORYSTATUSEX'

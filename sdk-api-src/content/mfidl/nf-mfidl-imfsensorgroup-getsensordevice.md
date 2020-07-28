@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSensorDevice
 title: IMFSensorGroup::GetSensorDevice (mfidl.h)
-description: Gets the IMFSensorDevice corresponding to a device in the sensor group.helpviewer_keywords: ["GetSensorDevice","GetSensorDevice method [Media Foundation]","GetSensorDevice method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","GetSensorDevice method","IMFSensorGroup.GetSensorDevice","IMFSensorGroup::GetSensorDevice","mf.imfsensorgroup_getsensordevice","mfidl/IMFSensorGroup::GetSensorDevice"]
+description: Gets the IMFSensorDevice corresponding to a device in the sensor group.
+helpviewer_keywords: ["GetSensorDevice","GetSensorDevice method [Media Foundation]","GetSensorDevice method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","GetSensorDevice method","IMFSensorGroup.GetSensorDevice","IMFSensorGroup::GetSensorDevice","mf.imfsensorgroup_getsensordevice","mfidl/IMFSensorGroup::GetSensorDevice"]
 old-location: mf\imfsensorgroup_getsensordevice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 78924C45-9612-4B39-B9E2-C8D2DCCBED79
 ms.date: 12/05/2018
 ms.keywords: GetSensorDevice, GetSensorDevice method [Media Foundation], GetSensorDevice method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDevice method, IMFSensorGroup.GetSensorDevice, IMFSensorGroup::GetSensorDevice, mf.imfsensorgroup_getsensordevice, mfidl/IMFSensorGroup::GetSensorDevice

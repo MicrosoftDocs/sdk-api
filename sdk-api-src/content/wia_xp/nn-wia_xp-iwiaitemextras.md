@@ -1,7 +1,8 @@
 ---
 UID: NN:wia_xp.IWiaItemExtras
 title: IWiaItemExtras (wia_xp.h)
-description: The IWiaItemExtras interface provides several methods that enable applications to communicate with hardware drivers.helpviewer_keywords: ["IWiaItemExtras","IWiaItemExtras interface [WIA]","IWiaItemExtras interface [WIA]","described","_wia_IWiaItemExtras","wia._wia_IWiaItemExtras","wia_xp/IWiaItemExtras"]
+description: The IWiaItemExtras interface provides several methods that enable applications to communicate with hardware drivers.
+helpviewer_keywords: ["IWiaItemExtras","IWiaItemExtras interface [WIA]","IWiaItemExtras interface [WIA]","described","_wia_IWiaItemExtras","wia._wia_IWiaItemExtras","wia_xp/IWiaItemExtras"]
 old-location: wia\_wia_IWiaItemExtras.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\iwiaitemextras.htm

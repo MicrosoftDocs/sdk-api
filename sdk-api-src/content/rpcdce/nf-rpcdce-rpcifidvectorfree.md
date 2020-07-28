@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcIfIdVectorFree
 title: RpcIfIdVectorFree function (rpcdce.h)
-description: The RpcIfIdVectorFree function frees the vector and the interface-identification structures contained in the vector.helpviewer_keywords: ["RpcIfIdVectorFree","RpcIfIdVectorFree function [RPC]","_rpc_rpcifidvectorfree","rpc.rpcifidvectorfree","rpcdce/RpcIfIdVectorFree"]
+description: The RpcIfIdVectorFree function frees the vector and the interface-identification structures contained in the vector.
+helpviewer_keywords: ["RpcIfIdVectorFree","RpcIfIdVectorFree function [RPC]","_rpc_rpcifidvectorfree","rpc.rpcifidvectorfree","rpcdce/RpcIfIdVectorFree"]
 old-location: rpc\rpcifidvectorfree.htm
 tech.root: Rpc
 ms.assetid: 1af518a7-02db-438a-ba3f-723bd8422188

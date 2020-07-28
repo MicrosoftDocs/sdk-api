@@ -1,9 +1,10 @@
 ---
 UID: NC:winbase.PFE_IMPORT_FUNC
 title: PFE_IMPORT_FUNC (winbase.h)
-description: An application-defined callback function used with WriteEncryptedFileRaw. The system calls ImportCallback one or more times, each time to retrieve a portion of a backup file's data.helpviewer_keywords: ["ImportCallback","ImportCallback callback","ImportCallback callback function [Files]","PFE_IMPORT_FUNC","PFE_IMPORT_FUNC callback function [Files]","base.importcallback","fs.importcallback","winbase/ImportCallback","winbase/PFE_IMPORT_FUNC"]
+description: An application-defined callback function used with WriteEncryptedFileRaw. The system calls ImportCallback one or more times, each time to retrieve a portion of a backup file's data.
+helpviewer_keywords: ["ImportCallback","ImportCallback callback","ImportCallback callback function [Files]","PFE_IMPORT_FUNC","PFE_IMPORT_FUNC callback function [Files]","base.importcallback","fs.importcallback","winbase/ImportCallback","winbase/PFE_IMPORT_FUNC"]
 old-location: fs\importcallback.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4c951e44-15d8-43c8-bd3d-293a1ec9d444
 ms.date: 12/05/2018
 ms.keywords: ImportCallback, ImportCallback callback, ImportCallback callback function [Files], PFE_IMPORT_FUNC, PFE_IMPORT_FUNC callback function [Files], base.importcallback, fs.importcallback, winbase/ImportCallback, winbase/PFE_IMPORT_FUNC

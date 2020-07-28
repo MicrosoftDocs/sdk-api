@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI4FromDate
 title: VarI4FromDate function (oleauto.h)
-description: Converts a date value to a long value.helpviewer_keywords: ["VarI4FromDate","VarI4FromDate function [Automation]","_oa96_VarI4FromDate","automat.vari4fromdate","oleauto/VarI4FromDate"]
+description: Converts a date value to a long value.
+helpviewer_keywords: ["VarI4FromDate","VarI4FromDate function [Automation]","_oa96_VarI4FromDate","automat.vari4fromdate","oleauto/VarI4FromDate"]
 old-location: automat\vari4fromdate.htm
 tech.root: automat
 ms.assetid: 97ef1fb3-11c8-4889-82d4-9be4734a95ba

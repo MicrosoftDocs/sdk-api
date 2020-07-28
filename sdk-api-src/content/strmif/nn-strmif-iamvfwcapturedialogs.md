@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IAMVfwCaptureDialogs
 title: IAMVfwCaptureDialogs (strmif.h)
-description: The IAMVfwCaptureDialogs interface displays a dialog box provided by a Video for Windows (VFW) capture driver.The VFW Capture filter implements this interface.helpviewer_keywords: ["IAMVfwCaptureDialogs","IAMVfwCaptureDialogs interface [DirectShow]","IAMVfwCaptureDialogs interface [DirectShow]","described","IAMVfwCaptureDialogsInterface","dshow.iamvfwcapturedialogs","strmif/IAMVfwCaptureDialogs"]
+description: The IAMVfwCaptureDialogs interface displays a dialog box provided by a Video for Windows (VFW) capture driver.The VFW Capture filter implements this interface.
+helpviewer_keywords: ["IAMVfwCaptureDialogs","IAMVfwCaptureDialogs interface [DirectShow]","IAMVfwCaptureDialogs interface [DirectShow]","described","IAMVfwCaptureDialogsInterface","dshow.iamvfwcapturedialogs","strmif/IAMVfwCaptureDialogs"]
 old-location: dshow\iamvfwcapturedialogs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5198c80c-28f3-4b5c-9b3b-aa502bf3a384
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], IAMVfwCaptureDialogs interface [DirectShow],described, IAMVfwCaptureDialogsInterface, dshow.iamvfwcapturedialogs, strmif/IAMVfwCaptureDialogs

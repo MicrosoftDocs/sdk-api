@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_CREATESURFACEEXDATA
 title: DD_CREATESURFACEEXDATA (ddrawint.h)
-description: The DD_CREATESURFACEEXDATA structure contains information required for the driver to create a surface and associate with it a supplied texture handle.helpviewer_keywords: ["*PDD_CREATESURFACEEXDATA","DD_CREATESURFACEEXDATA","DD_CREATESURFACEEXDATA structure [Display Devices]","d3dstrct_221c1055-03a3-4b43-bef4-8b0fbd6eb45e.xml","ddrawint/DD_CREATESURFACEEXDATA","display.dd_createsurfaceexdata"]
+description: The DD_CREATESURFACEEXDATA structure contains information required for the driver to create a surface and associate with it a supplied texture handle.
+helpviewer_keywords: ["*PDD_CREATESURFACEEXDATA","DD_CREATESURFACEEXDATA","DD_CREATESURFACEEXDATA structure [Display Devices]","d3dstrct_221c1055-03a3-4b43-bef4-8b0fbd6eb45e.xml","ddrawint/DD_CREATESURFACEEXDATA","display.dd_createsurfaceexdata"]
 old-location: display\dd_createsurfaceexdata.htm
 tech.root: display
 ms.assetid: 61965d6b-7473-4121-8c85-fb677a665388

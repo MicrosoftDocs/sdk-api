@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocument
 title: IXpsOMDocument (xpsobjectmodel.h)
-description: An ordered sequence of fixed pages and document-level resources that make up the document.helpviewer_keywords: ["IXpsOMDocument","IXpsOMDocument interface [XPS Documents and Packaging]","IXpsOMDocument interface [XPS Documents and Packaging]","described","xps.ixpsomdocument","xpsobjectmodel/IXpsOMDocument"]
+description: An ordered sequence of fixed pages and document-level resources that make up the document.
+helpviewer_keywords: ["IXpsOMDocument","IXpsOMDocument interface [XPS Documents and Packaging]","IXpsOMDocument interface [XPS Documents and Packaging]","described","xps.ixpsomdocument","xpsobjectmodel/IXpsOMDocument"]
 old-location: xps\ixpsomdocument.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], IXpsOMDocument interface [XPS Documents and Packaging],described, xps.ixpsomdocument, xpsobjectmodel/IXpsOMDocument

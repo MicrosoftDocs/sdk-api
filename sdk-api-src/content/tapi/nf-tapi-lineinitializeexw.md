@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineInitializeExW
 title: lineInitializeExW function (tapi.h)
-description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.helpviewer_keywords: ["_tapi2_lineinitializeex","lineInitializeEx","lineInitializeEx function [TAPI 2.2]","lineInitializeExA","lineInitializeExW","tapi/lineInitializeEx","tapi/lineInitializeExA","tapi/lineInitializeExW","tapi2.lineinitializeex"]
+description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.
+helpviewer_keywords: ["_tapi2_lineinitializeex","lineInitializeEx","lineInitializeEx function [TAPI 2.2]","lineInitializeExA","lineInitializeExW","tapi/lineInitializeEx","tapi/lineInitializeExA","tapi/lineInitializeExW","tapi2.lineinitializeex"]
 old-location: tapi2\lineinitializeex.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineinitializeex, lineInitializeEx, lineInitializeEx function [TAPI 2.2], lineInitializeExA, lineInitializeExW, tapi/lineInitializeEx, tapi/lineInitializeExA, tapi/lineInitializeExW, tapi2.lineinitializeex
@@ -165,6 +166,10 @@ The application can refer to individual line devices by using line device identi
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineInitializeEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

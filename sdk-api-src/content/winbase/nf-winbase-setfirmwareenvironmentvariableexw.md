@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetFirmwareEnvironmentVariableExW
 title: SetFirmwareEnvironmentVariableExW function (winbase.h)
-description: Sets the value of the specified firmware environment variable and the attributes that indicate how this variable is stored and maintained.helpviewer_keywords: ["SetFirmwareEnvironmentVariableEx","SetFirmwareEnvironmentVariableEx function","SetFirmwareEnvironmentVariableExA","SetFirmwareEnvironmentVariableExW","VARIABLE_ATTRIBUTE_APPEND_WRITE","VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS","VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS","VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD","VARIABLE_ATTRIBUTE_NON_VOLATILE","VARIABLE_ATTRIBUTE_RUNTIME_ACCESS","VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS","base.setfirmwareenvironmentvariableex","winbase/SetFirmwareEnvironmentVariableEx","winbase/SetFirmwareEnvironmentVariableExA","winbase/SetFirmwareEnvironmentVariableExW"]
+description: Sets the value of the specified firmware environment variable and the attributes that indicate how this variable is stored and maintained.
+helpviewer_keywords: ["SetFirmwareEnvironmentVariableEx","SetFirmwareEnvironmentVariableEx function","SetFirmwareEnvironmentVariableExA","SetFirmwareEnvironmentVariableExW","VARIABLE_ATTRIBUTE_APPEND_WRITE","VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS","VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS","VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD","VARIABLE_ATTRIBUTE_NON_VOLATILE","VARIABLE_ATTRIBUTE_RUNTIME_ACCESS","VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS","base.setfirmwareenvironmentvariableex","winbase/SetFirmwareEnvironmentVariableEx","winbase/SetFirmwareEnvironmentVariableExA","winbase/SetFirmwareEnvironmentVariableExW"]
 old-location: base\setfirmwareenvironmentvariableex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
@@ -210,6 +211,10 @@ Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFi
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines SetFirmwareEnvironmentVariableEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

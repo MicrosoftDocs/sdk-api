@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMFontResourceCollection
 title: IXpsOMFontResourceCollection (xpsobjectmodel.h)
-description: A collection of IXpsOMFontResource interface pointers.helpviewer_keywords: ["IXpsOMFontResourceCollection","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","described","xps.ixpsomfontresourcecollection","xpsobjectmodel/IXpsOMFontResourceCollection"]
+description: A collection of IXpsOMFontResource interface pointers.
+helpviewer_keywords: ["IXpsOMFontResourceCollection","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","described","xps.ixpsomfontresourcecollection","xpsobjectmodel/IXpsOMFontResourceCollection"]
 old-location: xps\ixpsomfontresourcecollection.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 71153c4c-631b-4f7a-9dd5-8537dcaca150
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], IXpsOMFontResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomfontresourcecollection, xpsobjectmodel/IXpsOMFontResourceCollection

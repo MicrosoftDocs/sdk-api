@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.GetRotation
 title: IMFCaptureRecordSink::GetRotation (mfcaptureengine.h)
-description: Gets the rotation that is currently being applied to the recorded video stream.helpviewer_keywords: ["GetRotation","GetRotation method [Media Foundation]","GetRotation method [Media Foundation]","IMFCaptureRecordSink interface","IMFCaptureRecordSink interface [Media Foundation]","GetRotation method","IMFCaptureRecordSink.GetRotation","IMFCaptureRecordSink::GetRotation","mf.imfcapturerecordsink_getrotation","mfcaptureengine/IMFCaptureRecordSink::GetRotation"]
+description: Gets the rotation that is currently being applied to the recorded video stream.
+helpviewer_keywords: ["GetRotation","GetRotation method [Media Foundation]","GetRotation method [Media Foundation]","IMFCaptureRecordSink interface","IMFCaptureRecordSink interface [Media Foundation]","GetRotation method","IMFCaptureRecordSink.GetRotation","IMFCaptureRecordSink::GetRotation","mf.imfcapturerecordsink_getrotation","mfcaptureengine/IMFCaptureRecordSink::GetRotation"]
 old-location: mf\imfcapturerecordsink_getrotation.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E582ED9C-D7B8-4DF9-B72F-361E682DB93F
 ms.date: 12/05/2018
 ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCaptureRecordSink interface, IMFCaptureRecordSink interface [Media Foundation],GetRotation method, IMFCaptureRecordSink.GetRotation, IMFCaptureRecordSink::GetRotation, mf.imfcapturerecordsink_getrotation, mfcaptureengine/IMFCaptureRecordSink::GetRotation

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigServerGetInfoEx
 title: MprConfigServerGetInfoEx function (mprapi.h)
-description: The MprConfigServerGetInfoEx function retrieves port information for a specified server.helpviewer_keywords: ["MprConfigServerGetInfoEx","MprConfigServerGetInfoEx function [RAS]","mprapi/MprConfigServerGetInfoEx","rras.mprconfigservergetinfoex"]
+description: The MprConfigServerGetInfoEx function retrieves port information for a specified server.
+helpviewer_keywords: ["MprConfigServerGetInfoEx","MprConfigServerGetInfoEx function [RAS]","mprapi/MprConfigServerGetInfoEx","rras.mprconfigservergetinfoex"]
 old-location: rras\mprconfigservergetinfoex.htm
 tech.root: RRAS
 ms.assetid: 654d1410-b54c-4284-bf7f-f6ae6b7ef85e

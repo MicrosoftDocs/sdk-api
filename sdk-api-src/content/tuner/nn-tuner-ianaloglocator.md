@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IAnalogLocator
 title: IAnalogLocator (tuner.h)
-description: The IAnalogLocator interface provides tuning information for an analog television network.helpviewer_keywords: ["IAnalogLocator","IAnalogLocator interface [Microsoft TV Technologies]","IAnalogLocator interface [Microsoft TV Technologies]","described","IAnalogLocatorInterface","mstv.ianaloglocator","tuner/IAnalogLocator"]
+description: The IAnalogLocator interface provides tuning information for an analog television network.
+helpviewer_keywords: ["IAnalogLocator","IAnalogLocator interface [Microsoft TV Technologies]","IAnalogLocator interface [Microsoft TV Technologies]","described","IAnalogLocatorInterface","mstv.ianaloglocator","tuner/IAnalogLocator"]
 old-location: mstv\ianaloglocator.htm
 tech.root: mstv
 ms.assetid: d5ed0dcc-347d-4196-a551-88775cb1b253

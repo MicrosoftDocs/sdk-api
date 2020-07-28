@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_UseFixedUDPPort
 title: IAMNetShowConfig::get_UseFixedUDPPort (qnetwork.h)
-description: The get_UseFixedUDPPort method queries whether the filter should use the fixed UDP port.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_UseFixedUDPPort method","IAMNetShowConfig.get_UseFixedUDPPort","IAMNetShowConfig::get_UseFixedUDPPort","IAMNetShowConfigget_UseFixedUDPPort","dshow.iamnetshowconfig_get_usefixedudpport","get_UseFixedUDPPort","get_UseFixedUDPPort method [DirectShow]","get_UseFixedUDPPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_UseFixedUDPPort"]
+description: The get_UseFixedUDPPort method queries whether the filter should use the fixed UDP port.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_UseFixedUDPPort method","IAMNetShowConfig.get_UseFixedUDPPort","IAMNetShowConfig::get_UseFixedUDPPort","IAMNetShowConfigget_UseFixedUDPPort","dshow.iamnetshowconfig_get_usefixedudpport","get_UseFixedUDPPort","get_UseFixedUDPPort method [DirectShow]","get_UseFixedUDPPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_UseFixedUDPPort"]
 old-location: dshow\iamnetshowconfig_get_usefixedudpport.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0a4b1f3b-c630-4820-a9d1-0e93f295b7f7
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_UseFixedUDPPort method, IAMNetShowConfig.get_UseFixedUDPPort, IAMNetShowConfig::get_UseFixedUDPPort, IAMNetShowConfigget_UseFixedUDPPort, dshow.iamnetshowconfig_get_usefixedudpport, get_UseFixedUDPPort, get_UseFixedUDPPort method [DirectShow], get_UseFixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_UseFixedUDPPort

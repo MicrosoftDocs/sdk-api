@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.IEnumPluggableSuperclassInfo
 title: IEnumPluggableSuperclassInfo (tapi3if.h)
-description: The IEnumPluggableSuperclassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalSuperclassInfo interface. The ITTerminalSupport2::EnumeratePluggableSuperclasses method returns a pointer to IEnumPluggableSuperclassInfo.helpviewer_keywords: ["IEnumPluggableSuperclassInfo","IEnumPluggableSuperclassInfo interface [TAPI 2.2]","IEnumPluggableSuperclassInfo interface [TAPI 2.2]","described","_tapi3_ienumpluggablesuperclassinfo","tapi3.ienumpluggablesuperclassinfo","tapi3if/IEnumPluggableSuperclassInfo"]
+description: The IEnumPluggableSuperclassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalSuperclassInfo interface. The ITTerminalSupport2::EnumeratePluggableSuperclasses method returns a pointer to IEnumPluggableSuperclassInfo.
+helpviewer_keywords: ["IEnumPluggableSuperclassInfo","IEnumPluggableSuperclassInfo interface [TAPI 2.2]","IEnumPluggableSuperclassInfo interface [TAPI 2.2]","described","_tapi3_ienumpluggablesuperclassinfo","tapi3.ienumpluggablesuperclassinfo","tapi3if/IEnumPluggableSuperclassInfo"]
 old-location: tapi3\ienumpluggablesuperclassinfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 80b84976-4256-47d2-a965-3ebe89a3821a
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo, IEnumPluggableSuperclassInfo interface [TAPI 2.2], IEnumPluggableSuperclassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggablesuperclassinfo, tapi3.ienumpluggablesuperclassinfo, tapi3if/IEnumPluggableSuperclassInfo

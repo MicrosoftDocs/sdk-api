@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegEnumKeyExA
 title: RegEnumKeyExA function (winreg.h)
-description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.helpviewer_keywords: ["RegEnumKeyEx","RegEnumKeyEx function","RegEnumKeyExA","RegEnumKeyExW","_win32_regenumkeyex","base.regenumkeyex","winreg/RegEnumKeyEx","winreg/RegEnumKeyExA","winreg/RegEnumKeyExW"]
+description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
+helpviewer_keywords: ["RegEnumKeyEx","RegEnumKeyEx function","RegEnumKeyExA","RegEnumKeyExW","_win32_regenumkeyex","base.regenumkeyex","winreg/RegEnumKeyEx","winreg/RegEnumKeyExA","winreg/RegEnumKeyExW"]
 old-location: base\regenumkeyex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
 ms.date: 12/05/2018
 ms.keywords: RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW
@@ -42,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegEnumKeyEx
 - RegEnumKeyExA
@@ -165,6 +167,8 @@ While an application is using the
 
 Note that operations that access certain registry keys are redirected. For more information,  see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 #### Examples
 
@@ -174,6 +178,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegEnumKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

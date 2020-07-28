@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineHold
 title: lineHold function (tapi.h)
-description: The lineHold function places the specified call on hold.helpviewer_keywords: ["_tapi2_linehold","lineHold","lineHold function [TAPI 2.2]","tapi/lineHold","tapi2.linehold"]
+description: The lineHold function places the specified call on hold.
+helpviewer_keywords: ["_tapi2_linehold","lineHold","lineHold function [TAPI 2.2]","tapi/lineHold","tapi2.linehold"]
 old-location: tapi2\linehold.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d2fd450c-402c-4122-a785-a6b5216acfe9
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/lineHold, tapi2.linehold

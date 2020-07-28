@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetAcquisitionTime
 title: IPhotoAcquireSettings::SetAcquisitionTime (photoacquire.h)
-description: The SetAcquisitionTime method sets the acquisition time explicitly.helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetAcquisitionTime method","IPhotoAcquireSettings.SetAcquisitionTime","IPhotoAcquireSettings::SetAcquisitionTime","IPhotoAcquireSettingsSetAcquisitionTime","SetAcquisitionTime","SetAcquisitionTime method [Picture Acquisition]","SetAcquisitionTime method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetAcquisitionTime","picacq.iphotoacquiresettings_setacquisitiontime"]
+description: The SetAcquisitionTime method sets the acquisition time explicitly.
+helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetAcquisitionTime method","IPhotoAcquireSettings.SetAcquisitionTime","IPhotoAcquireSettings::SetAcquisitionTime","IPhotoAcquireSettingsSetAcquisitionTime","SetAcquisitionTime","SetAcquisitionTime method [Picture Acquisition]","SetAcquisitionTime method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetAcquisitionTime","picacq.iphotoacquiresettings_setacquisitiontime"]
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: fc43be78-f35b-4159-a15c-c21cddee6c9e
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetAcquisitionTime method, IPhotoAcquireSettings.SetAcquisitionTime, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime

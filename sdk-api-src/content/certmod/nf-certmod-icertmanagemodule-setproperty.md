@@ -1,9 +1,10 @@
 ---
 UID: NF:certmod.ICertManageModule.SetProperty
 title: ICertManageModule::SetProperty (certmod.h)
-description: Allows a module to set a property value.helpviewer_keywords: ["CCertManageModule object [Security]","SetProperty method","Copyright","Description","File Version","ICertManageModule interface [Security]","SetProperty method","ICertManageModule.SetProperty","ICertManageModule::SetProperty","Name","Product Version","SetProperty","SetProperty method [Security]","SetProperty method [Security]","CCertManageModule object","SetProperty method [Security]","ICertManageModule interface","_certsrv_icertmanagemodule_setproperty","certmod/ICertManageModule::SetProperty","security.icertmanagemodule_setproperty"]
+description: Allows a module to set a property value.
+helpviewer_keywords: ["CCertManageModule object [Security]","SetProperty method","Copyright","Description","File Version","ICertManageModule interface [Security]","SetProperty method","ICertManageModule.SetProperty","ICertManageModule::SetProperty","Name","Product Version","SetProperty","SetProperty method [Security]","SetProperty method [Security]","CCertManageModule object","SetProperty method [Security]","ICertManageModule interface","_certsrv_icertmanagemodule_setproperty","certmod/ICertManageModule::SetProperty","security.icertmanagemodule_setproperty"]
 old-location: security\icertmanagemodule_setproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
 ms.date: 12/05/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty

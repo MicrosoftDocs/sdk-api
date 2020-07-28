@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptionData
 title: ITocEntry::SetDescriptionData (wmcodecdsp.h)
-description: The SetDescriptionData method associates a caller-supplied data block with the entry.helpviewer_keywords: ["ITocEntry interface [Media Foundation]","SetDescriptionData method","ITocEntry.SetDescriptionData","ITocEntry::SetDescriptionData","SetDescriptionData","SetDescriptionData method [Media Foundation]","SetDescriptionData method [Media Foundation]","ITocEntry interface","codecapi.itocentry_setdescriptiondata","mf.itocentry_setdescriptiondata","wmcodecdsp/ITocEntry::SetDescriptionData"]
+description: The SetDescriptionData method associates a caller-supplied data block with the entry.
+helpviewer_keywords: ["ITocEntry interface [Media Foundation]","SetDescriptionData method","ITocEntry.SetDescriptionData","ITocEntry::SetDescriptionData","SetDescriptionData","SetDescriptionData method [Media Foundation]","SetDescriptionData method [Media Foundation]","ITocEntry interface","codecapi.itocentry_setdescriptiondata","mf.itocentry_setdescriptiondata","wmcodecdsp/ITocEntry::SetDescriptionData"]
 old-location: mf\itocentry_setdescriptiondata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 260d7699-cf75-4179-9f2b-bc3bc49c94e6
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData

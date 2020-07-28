@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 title: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA (wincrypt.h)
-description: Contains information on a mail list message recipient.helpviewer_keywords: ["*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA","CMSG_CTRL_MAIL_LIST_DECRYPT_PARA","CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure [Security]","PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA","PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure pointer [Security]","_crypto2_cmsg_ctrl_mail_list_decrypt_para","security.cmsg_ctrl_mail_list_decrypt_para","wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA","wincrypt/PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA"]
+description: Contains information on a mail list message recipient.
+helpviewer_keywords: ["*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA","CMSG_CTRL_MAIL_LIST_DECRYPT_PARA","CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure [Security]","PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA","PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure pointer [Security]","_crypto2_cmsg_ctrl_mail_list_decrypt_para","security.cmsg_ctrl_mail_list_decrypt_para","wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA","wincrypt/PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA"]
 old-location: security\cmsg_ctrl_mail_list_decrypt_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 30735e01-db6b-40fc-b4c8-cdc24e73defa
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure [Security], PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_mail_list_decrypt_para, security.cmsg_ctrl_mail_list_decrypt_para, wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, wincrypt/PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA'

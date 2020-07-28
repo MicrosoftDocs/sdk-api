@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IEnumFilters.Next
 title: IEnumFilters::Next (strmif.h)
-description: The Next method retrieves the specified number of filters in the enumeration sequence.helpviewer_keywords: ["IEnumFilters interface [DirectShow]","Next method","IEnumFilters.Next","IEnumFilters::Next","IEnumFiltersNext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumFilters interface","dshow.ienumfilters_next","strmif/IEnumFilters::Next"]
+description: The Next method retrieves the specified number of filters in the enumeration sequence.
+helpviewer_keywords: ["IEnumFilters interface [DirectShow]","Next method","IEnumFilters.Next","IEnumFilters::Next","IEnumFiltersNext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumFilters interface","dshow.ienumfilters_next","strmif/IEnumFilters::Next"]
 old-location: dshow\ienumfilters_next.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e376a01-d353-434c-864a-8001c8022679
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Next method, IEnumFilters.Next, IEnumFilters::Next, IEnumFiltersNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumFilters interface, dshow.ienumfilters_next, strmif/IEnumFilters::Next

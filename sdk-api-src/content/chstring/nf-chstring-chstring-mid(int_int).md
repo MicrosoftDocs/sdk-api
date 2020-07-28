@@ -1,7 +1,9 @@
 ---
 UID: NF:chstring.CHString.Mid(int,int)
 title: CHString::Mid
-description: helpviewer_keywords: ["CHString::Mid"]
+description: 
+tech.root: wmi
+helpviewer_keywords: ["CHString::Mid"]
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
 ms.date: 01/30/19
 ms.keywords: CHString::Mid

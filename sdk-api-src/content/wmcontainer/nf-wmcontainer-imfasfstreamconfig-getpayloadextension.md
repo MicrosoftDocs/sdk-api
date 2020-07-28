@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetPayloadExtension
 title: IMFASFStreamConfig::GetPayloadExtension (wmcontainer.h)
-description: Retrieves information about an existing payload extension.helpviewer_keywords: ["5b3b831c-2218-4a76-8359-7f39cab53a57","GetPayloadExtension","GetPayloadExtension method [Media Foundation]","GetPayloadExtension method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetPayloadExtension method","IMFASFStreamConfig.GetPayloadExtension","IMFASFStreamConfig::GetPayloadExtension","mf.imfasfstreamconfig_getpayloadextension","wmcontainer/IMFASFStreamConfig::GetPayloadExtension"]
+description: Retrieves information about an existing payload extension.
+helpviewer_keywords: ["5b3b831c-2218-4a76-8359-7f39cab53a57","GetPayloadExtension","GetPayloadExtension method [Media Foundation]","GetPayloadExtension method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetPayloadExtension method","IMFASFStreamConfig.GetPayloadExtension","IMFASFStreamConfig::GetPayloadExtension","mf.imfasfstreamconfig_getpayloadextension","wmcontainer/IMFASFStreamConfig::GetPayloadExtension"]
 old-location: mf\imfasfstreamconfig_getpayloadextension.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5b3b831c-2218-4a76-8359-7f39cab53a57
 ms.date: 12/05/2018
 ms.keywords: 5b3b831c-2218-4a76-8359-7f39cab53a57, GetPayloadExtension, GetPayloadExtension method [Media Foundation], GetPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetPayloadExtension method, IMFASFStreamConfig.GetPayloadExtension, IMFASFStreamConfig::GetPayloadExtension, mf.imfasfstreamconfig_getpayloadextension, wmcontainer/IMFASFStreamConfig::GetPayloadExtension

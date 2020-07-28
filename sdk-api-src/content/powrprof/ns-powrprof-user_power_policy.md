@@ -1,9 +1,10 @@
 ---
 UID: NS:powrprof._USER_POWER_POLICY
 title: USER_POWER_POLICY (powrprof.h)
-description: Contains power policy settings that are unique to each power scheme for a user.helpviewer_keywords: ["*PUSER_POWER_POLICY","PUSER_POWER_POLICY","PUSER_POWER_POLICY structure pointer","USER_POWER_POLICY","USER_POWER_POLICY structure","_win32_user_power_policy_str","base.user_power_policy_str","powrprof/PUSER_POWER_POLICY","powrprof/USER_POWER_POLICY"]
+description: Contains power policy settings that are unique to each power scheme for a user.
+helpviewer_keywords: ["*PUSER_POWER_POLICY","PUSER_POWER_POLICY","PUSER_POWER_POLICY structure pointer","USER_POWER_POLICY","USER_POWER_POLICY structure","_win32_user_power_policy_str","base.user_power_policy_str","powrprof/PUSER_POWER_POLICY","powrprof/USER_POWER_POLICY"]
 old-location: base\user_power_policy_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: 616c45f6-ec80-42d9-a485-e9e778f2b971
 ms.date: 12/05/2018
 ms.keywords: '*PUSER_POWER_POLICY, PUSER_POWER_POLICY, PUSER_POWER_POLICY structure pointer, USER_POWER_POLICY, USER_POWER_POLICY structure, _win32_user_power_policy_str, base.user_power_policy_str, powrprof/PUSER_POWER_POLICY, powrprof/USER_POWER_POLICY'

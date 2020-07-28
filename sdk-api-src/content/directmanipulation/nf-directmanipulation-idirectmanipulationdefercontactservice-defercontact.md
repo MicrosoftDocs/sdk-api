@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.DeferContact
 title: IDirectManipulationDeferContactService::DeferContact (directmanipulation.h)
-description: Specifies the amount of time to defer the execution of a call to SetContact for this pointerId.helpviewer_keywords: ["DeferContact","DeferContact method [Direct Manipulation]","DeferContact method [Direct Manipulation]","IDirectManipulationDeferContactService interface","IDirectManipulationDeferContactService interface [Direct Manipulation]","DeferContact method","IDirectManipulationDeferContactService.DeferContact","IDirectManipulationDeferContactService::DeferContact","directmanipulation.idirectmanipulationdefercontactservice_defercontact","directmanipulation/IDirectManipulationDeferContactService::DeferContact"]
+description: Specifies the amount of time to defer the execution of a call to SetContact for this pointerId.
+helpviewer_keywords: ["DeferContact","DeferContact method [Direct Manipulation]","DeferContact method [Direct Manipulation]","IDirectManipulationDeferContactService interface","IDirectManipulationDeferContactService interface [Direct Manipulation]","DeferContact method","IDirectManipulationDeferContactService.DeferContact","IDirectManipulationDeferContactService::DeferContact","directmanipulation.idirectmanipulationdefercontactservice_defercontact","directmanipulation/IDirectManipulationDeferContactService::DeferContact"]
 old-location: directmanipulation\idirectmanipulationdefercontactservice_defercontact.htm
 tech.root: directmanipulation
 ms.assetid: DEC97DD5-E43F-4541-8A80-D20EC8026493

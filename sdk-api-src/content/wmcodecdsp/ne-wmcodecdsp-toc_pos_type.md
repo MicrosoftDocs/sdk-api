@@ -1,9 +1,10 @@
 ---
 UID: NE:wmcodecdsp.TOC_POS_TYPE
 title: TOC_POS_TYPE (wmcodecdsp.h)
-description: The TOC_POS_TYPE enumeration contains members that specify the position type of a table of contents.helpviewer_keywords: ["TOC_POS_INHEADER","TOC_POS_TOPLEVELOBJECT","TOC_POS_TYPE","TOC_POS_TYPE enumeration [Media Foundation]","codecapi.toc_pos_type","mf.toc_pos_type","wmcodecdsp/TOC_POS_INHEADER","wmcodecdsp/TOC_POS_TOPLEVELOBJECT","wmcodecdsp/TOC_POS_TYPE"]
+description: The TOC_POS_TYPE enumeration contains members that specify the position type of a table of contents.
+helpviewer_keywords: ["TOC_POS_INHEADER","TOC_POS_TOPLEVELOBJECT","TOC_POS_TYPE","TOC_POS_TYPE enumeration [Media Foundation]","codecapi.toc_pos_type","mf.toc_pos_type","wmcodecdsp/TOC_POS_INHEADER","wmcodecdsp/TOC_POS_TOPLEVELOBJECT","wmcodecdsp/TOC_POS_TYPE"]
 old-location: mf\toc_pos_type.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 799059b5-9949-48af-8c54-4cb4975f8249
 ms.date: 12/05/2018
 ms.keywords: TOC_POS_INHEADER, TOC_POS_TOPLEVELOBJECT, TOC_POS_TYPE, TOC_POS_TYPE enumeration [Media Foundation], codecapi.toc_pos_type, mf.toc_pos_type, wmcodecdsp/TOC_POS_INHEADER, wmcodecdsp/TOC_POS_TOPLEVELOBJECT, wmcodecdsp/TOC_POS_TYPE

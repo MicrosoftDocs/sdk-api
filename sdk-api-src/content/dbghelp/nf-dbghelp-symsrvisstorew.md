@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSrvIsStoreW
 title: SymSrvIsStoreW function (dbghelp.h)
-description: Determines whether the specified path points to a symbol store.helpviewer_keywords: ["SymSrvIsStore","SymSrvIsStore function","SymSrvIsStoreW","base.symsrvisstore","dbghelp/SymSrvIsStore","dbghelp/SymSrvIsStoreW"]
+description: Determines whether the specified path points to a symbol store.
+helpviewer_keywords: ["SymSrvIsStore","SymSrvIsStore function","SymSrvIsStoreW","base.symsrvisstore","dbghelp/SymSrvIsStore","dbghelp/SymSrvIsStoreW"]
 old-location: base\symsrvisstore.htm
 tech.root: Debug
 ms.assetid: 7fbec886-c1b7-4d17-9813-af7812b4abb9
@@ -93,6 +94,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymSrvIsStore as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

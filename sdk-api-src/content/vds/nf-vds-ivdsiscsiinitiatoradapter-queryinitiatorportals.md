@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.QueryInitiatorPortals
 title: IVdsIscsiInitiatorAdapter::QueryInitiatorPortals (vds.h)
-description: Returns an object that enumerates the iSCSI initiator portals of the initiator adapter.helpviewer_keywords: ["IVdsIscsiInitiatorAdapter interface [VDS]","QueryInitiatorPortals method","IVdsIscsiInitiatorAdapter.QueryInitiatorPortals","IVdsIscsiInitiatorAdapter::QueryInitiatorPortals","QueryInitiatorPortals","QueryInitiatorPortals method [VDS]","QueryInitiatorPortals method [VDS]","IVdsIscsiInitiatorAdapter interface","base.ivdsiscsiinitiatoradapter_queryinitiatorportals","vds/IVdsIscsiInitiatorAdapter::QueryInitiatorPortals"]
+description: Returns an object that enumerates the iSCSI initiator portals of the initiator adapter.
+helpviewer_keywords: ["IVdsIscsiInitiatorAdapter interface [VDS]","QueryInitiatorPortals method","IVdsIscsiInitiatorAdapter.QueryInitiatorPortals","IVdsIscsiInitiatorAdapter::QueryInitiatorPortals","QueryInitiatorPortals","QueryInitiatorPortals method [VDS]","QueryInitiatorPortals method [VDS]","IVdsIscsiInitiatorAdapter interface","base.ivdsiscsiinitiatoradapter_queryinitiatorportals","vds/IVdsIscsiInitiatorAdapter::QueryInitiatorPortals"]
 old-location: base\ivdsiscsiinitiatoradapter_queryinitiatorportals.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d3c893c0-167f-46f5-92f8-aa61f5e16542
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],QueryInitiatorPortals method, IVdsIscsiInitiatorAdapter.QueryInitiatorPortals, IVdsIscsiInitiatorAdapter::QueryInitiatorPortals, QueryInitiatorPortals, QueryInitiatorPortals method [VDS], QueryInitiatorPortals method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_queryinitiatorportals, vds/IVdsIscsiInitiatorAdapter::QueryInitiatorPortals

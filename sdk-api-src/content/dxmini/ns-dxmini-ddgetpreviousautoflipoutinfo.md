@@ -1,7 +1,8 @@
 ---
 UID: NS:dxmini._DDGETPREVIOUSAUTOFLIPOUTINFO
 title: DDGETPREVIOUSAUTOFLIPOUTINFO (dxmini.h)
-description: The DDGETPREVIOUSAUTOFLIPOUTINFO structure provides the surface data.helpviewer_keywords: ["*PDDGETPREVIOUSAUTOFLIPOUTINFO","DDGETPREVIOUSAUTOFLIPOUTINFO","DDGETPREVIOUSAUTOFLIPOUTINFO structure [Display Devices]","PDDGETPREVIOUSAUTOFLIPOUTINFO","PDDGETPREVIOUSAUTOFLIPOUTINFO structure pointer [Display Devices]","Video_Structs_baf54add-b6fa-4f0b-8236-8fe6c0fc95b6.xml","display.ddgetpreviousautoflipoutinfo","dxmini/DDGETPREVIOUSAUTOFLIPOUTINFO","dxmini/PDDGETPREVIOUSAUTOFLIPOUTINFO"]
+description: The DDGETPREVIOUSAUTOFLIPOUTINFO structure provides the surface data.
+helpviewer_keywords: ["*PDDGETPREVIOUSAUTOFLIPOUTINFO","DDGETPREVIOUSAUTOFLIPOUTINFO","DDGETPREVIOUSAUTOFLIPOUTINFO structure [Display Devices]","PDDGETPREVIOUSAUTOFLIPOUTINFO","PDDGETPREVIOUSAUTOFLIPOUTINFO structure pointer [Display Devices]","Video_Structs_baf54add-b6fa-4f0b-8236-8fe6c0fc95b6.xml","display.ddgetpreviousautoflipoutinfo","dxmini/DDGETPREVIOUSAUTOFLIPOUTINFO","dxmini/PDDGETPREVIOUSAUTOFLIPOUTINFO"]
 old-location: display\ddgetpreviousautoflipoutinfo.htm
 tech.root: display
 ms.assetid: 3009425c-00ba-4be5-be81-65905abf4a2a

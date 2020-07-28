@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetContentType
 title: IOpcSignaturePartReference::GetContentType (msopc.h)
-description: Gets the content type of the referenced part.helpviewer_keywords: ["GetContentType","GetContentType method [Open Packaging Conventions]","GetContentType method [Open Packaging Conventions]","IOpcSignaturePartReference interface","IOpcSignaturePartReference interface [Open Packaging Conventions]","GetContentType method","IOpcSignaturePartReference.GetContentType","IOpcSignaturePartReference::GetContentType","msopc/IOpcSignaturePartReference::GetContentType","opc.iopcsignaturepartreference_getcontenttype"]
+description: Gets the content type of the referenced part.
+helpviewer_keywords: ["GetContentType","GetContentType method [Open Packaging Conventions]","GetContentType method [Open Packaging Conventions]","IOpcSignaturePartReference interface","IOpcSignaturePartReference interface [Open Packaging Conventions]","GetContentType method","IOpcSignaturePartReference.GetContentType","IOpcSignaturePartReference::GetContentType","msopc/IOpcSignaturePartReference::GetContentType","opc.iopcsignaturepartreference_getcontenttype"]
 old-location: opc\iopcsignaturepartreference_getcontenttype.htm
 tech.root: OPC
 ms.assetid: 1384a0ab-d2dc-49c6-b180-648e256a875d

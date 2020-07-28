@@ -1,9 +1,10 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetIEnumSecuritySettings
 title: IDot11AdHocInterface::GetIEnumSecuritySettings (adhoc.h)
-description: Gets the collection of security settings associated with this NIC.helpviewer_keywords: ["GetIEnumSecuritySettings","GetIEnumSecuritySettings method [NativeWIFI]","GetIEnumSecuritySettings method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetIEnumSecuritySettings method","IDot11AdHocInterface.GetIEnumSecuritySettings","IDot11AdHocInterface::GetIEnumSecuritySettings","adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings","nwifi.idot11adhocinterface_getienumsecuritysettings"]
+description: Gets the collection of security settings associated with this NIC.
+helpviewer_keywords: ["GetIEnumSecuritySettings","GetIEnumSecuritySettings method [NativeWIFI]","GetIEnumSecuritySettings method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetIEnumSecuritySettings method","IDot11AdHocInterface.GetIEnumSecuritySettings","IDot11AdHocInterface::GetIEnumSecuritySettings","adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings","nwifi.idot11adhocinterface_getienumsecuritysettings"]
 old-location: nwifi\idot11adhocinterface_getienumsecuritysettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e5f98222-83aa-4ba9-adc7-e7b67eb5dc0d
 ms.date: 12/05/2018
 ms.keywords: GetIEnumSecuritySettings, GetIEnumSecuritySettings method [NativeWIFI], GetIEnumSecuritySettings method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumSecuritySettings method, IDot11AdHocInterface.GetIEnumSecuritySettings, IDot11AdHocInterface::GetIEnumSecuritySettings, adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings, nwifi.idot11adhocinterface_getienumsecuritysettings

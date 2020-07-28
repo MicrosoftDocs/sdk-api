@@ -1,9 +1,10 @@
 ---
 UID: NF:certif.ICertServerExit.SetContext
 title: ICertServerExit::SetContext (certif.h)
-description: Causes the current instantiation of the interface to operate on the request referenced by Context.helpviewer_keywords: ["CCertServerExit object [Security]","SetContext method","ICertServerExit interface [Security]","SetContext method","ICertServerExit.SetContext","ICertServerExit::SetContext","SetContext","SetContext method [Security]","SetContext method [Security]","CCertServerExit object","SetContext method [Security]","ICertServerExit interface","_certsrv_icertserverexit_setcontext","certif/ICertServerExit::SetContext","security.icertserverexit_setcontext"]
+description: Causes the current instantiation of the interface to operate on the request referenced by Context.
+helpviewer_keywords: ["CCertServerExit object [Security]","SetContext method","ICertServerExit interface [Security]","SetContext method","ICertServerExit.SetContext","ICertServerExit::SetContext","SetContext","SetContext method [Security]","SetContext method [Security]","CCertServerExit object","SetContext method [Security]","ICertServerExit interface","_certsrv_icertserverexit_setcontext","certif/ICertServerExit::SetContext","security.icertserverexit_setcontext"]
 old-location: security\icertserverexit_setcontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8d317114-17bd-4b22-8e37-99db72740538
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],SetContext method, ICertServerExit interface [Security],SetContext method, ICertServerExit.SetContext, ICertServerExit::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerExit object, SetContext method [Security],ICertServerExit interface, _certsrv_icertserverexit_setcontext, certif/ICertServerExit::SetContext, security.icertserverexit_setcontext

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_RANGE
 title: D3D12_RANGE (d3d12.h)
-description: Describes a memory range.helpviewer_keywords: ["D3D12_RANGE","D3D12_RANGE structure","d3d12/D3D12_RANGE","direct3d12.d3d12_range"]
+description: Describes a memory range.
+helpviewer_keywords: ["D3D12_RANGE","D3D12_RANGE structure","d3d12/D3D12_RANGE","direct3d12.d3d12_range"]
 old-location: direct3d12\d3d12_range.htm
 tech.root: direct3d12
 ms.assetid: E8A66EC7-DB20-475D-BCD1-6C164FF39D24

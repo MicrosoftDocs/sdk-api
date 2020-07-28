@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoEnumerated
 title: IOfflineFilesSyncErrorInfo::InfoEnumerated (cscobj.h)
-description: Indicates whether information was queried for the local, remote, or original copy of the item during synchronization.helpviewer_keywords: ["IOfflineFilesSyncErrorInfo interface [Offline Files]","InfoEnumerated method","IOfflineFilesSyncErrorInfo.InfoEnumerated","IOfflineFilesSyncErrorInfo::InfoEnumerated","InfoEnumerated","InfoEnumerated method [Offline Files]","InfoEnumerated method [Offline Files]","IOfflineFilesSyncErrorInfo interface","cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated","of.iofflinefilessyncerrorinfo_infoenumerated"]
+description: Indicates whether information was queried for the local, remote, or original copy of the item during synchronization.
+helpviewer_keywords: ["IOfflineFilesSyncErrorInfo interface [Offline Files]","InfoEnumerated method","IOfflineFilesSyncErrorInfo.InfoEnumerated","IOfflineFilesSyncErrorInfo::InfoEnumerated","InfoEnumerated","InfoEnumerated method [Offline Files]","InfoEnumerated method [Offline Files]","IOfflineFilesSyncErrorInfo interface","cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated","of.iofflinefilessyncerrorinfo_infoenumerated"]
 old-location: of\iofflinefilessyncerrorinfo_infoenumerated.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: d2e8ae5b-92e7-4284-a02f-6eb3ab288376
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated method, IOfflineFilesSyncErrorInfo.InfoEnumerated, IOfflineFilesSyncErrorInfo::InfoEnumerated, InfoEnumerated, InfoEnumerated method [Offline Files], InfoEnumerated method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated, of.iofflinefilessyncerrorinfo_infoenumerated

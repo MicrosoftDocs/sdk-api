@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssComponent.SetRestoreTarget
 title: IVssComponent::SetRestoreTarget (vswriter.h)
-description: The SetRestoreTarget method sets the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.helpviewer_keywords: ["IVssComponent interface [VSS]","SetRestoreTarget method","IVssComponent.SetRestoreTarget","IVssComponent::SetRestoreTarget","SetRestoreTarget","SetRestoreTarget method [VSS]","SetRestoreTarget method [VSS]","IVssComponent interface","_win32_ivsscomponent_setrestoretarget","base.ivsscomponent_setrestoretarget","vswriter/IVssComponent::SetRestoreTarget"]
+description: The SetRestoreTarget method sets the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
+helpviewer_keywords: ["IVssComponent interface [VSS]","SetRestoreTarget method","IVssComponent.SetRestoreTarget","IVssComponent::SetRestoreTarget","SetRestoreTarget","SetRestoreTarget method [VSS]","SetRestoreTarget method [VSS]","IVssComponent interface","_win32_ivsscomponent_setrestoretarget","base.ivsscomponent_setrestoretarget","vswriter/IVssComponent::SetRestoreTarget"]
 old-location: base\ivsscomponent_setrestoretarget.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 6e8b9322-6611-4a47-aa7a-876be01d33b8
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetRestoreTarget method, IVssComponent.SetRestoreTarget, IVssComponent::SetRestoreTarget, SetRestoreTarget, SetRestoreTarget method [VSS], SetRestoreTarget method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoretarget, base.ivsscomponent_setrestoretarget, vswriter/IVssComponent::SetRestoreTarget

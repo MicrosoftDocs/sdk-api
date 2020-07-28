@@ -1,9 +1,10 @@
 ---
 UID: NF:provider.Provider.MakeLocalPath
 title: Provider::MakeLocalPath (provider.h)
-description: The MakeLocalPath method builds a full instance path from a relative path.helpviewer_keywords: ["MakeLocalPath","MakeLocalPath method [Windows Management Instrumentation]","MakeLocalPath method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","MakeLocalPath method","Provider.MakeLocalPath","Provider::MakeLocalPath","_hmm_provider_makelocalpath","provider/Provider::MakeLocalPath","wmi.provider_makelocalpath"]
+description: The MakeLocalPath method builds a full instance path from a relative path.
+helpviewer_keywords: ["MakeLocalPath","MakeLocalPath method [Windows Management Instrumentation]","MakeLocalPath method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","MakeLocalPath method","Provider.MakeLocalPath","Provider::MakeLocalPath","_hmm_provider_makelocalpath","provider/Provider::MakeLocalPath","wmi.provider_makelocalpath"]
 old-location: wmi\provider_makelocalpath.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8a2476c0-73c0-4a95-8973-e6da451116af
 ms.date: 12/05/2018
 ms.keywords: MakeLocalPath, MakeLocalPath method [Windows Management Instrumentation], MakeLocalPath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],MakeLocalPath method, Provider.MakeLocalPath, Provider::MakeLocalPath, _hmm_provider_makelocalpath, provider/Provider::MakeLocalPath, wmi.provider_makelocalpath

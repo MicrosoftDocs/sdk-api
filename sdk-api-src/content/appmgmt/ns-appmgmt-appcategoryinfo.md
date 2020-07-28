@@ -1,7 +1,8 @@
 ---
 UID: NS:appmgmt._APPCATEGORYINFO
 title: APPCATEGORYINFO (appmgmt.h)
-description: Provides application category information to Add/Remove Programs in Control Panel. The APPCATEGORYINFOLIST structure is used create a complete list of categories for an application publisher.helpviewer_keywords: ["APPCATEGORYINFO","APPCATEGORYINFO structure [Windows Shell]","_APPCATEGORYINFO","appmgmt/APPCATEGORYINFO","inet_APPCATEGORYINFO","shell.APPCATEGORYINFO"]
+description: Provides application category information to Add/Remove Programs in Control Panel. The APPCATEGORYINFOLIST structure is used create a complete list of categories for an application publisher.
+helpviewer_keywords: ["APPCATEGORYINFO","APPCATEGORYINFO structure [Windows Shell]","_APPCATEGORYINFO","appmgmt/APPCATEGORYINFO","inet_APPCATEGORYINFO","shell.APPCATEGORYINFO"]
 old-location: shell\APPCATEGORYINFO.htm
 tech.root: shell
 ms.assetid: 7a0e61cb-97f8-4ca2-a85a-889e671099d0

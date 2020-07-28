@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetPixelFormats
 title: IWICBitmapCodecInfo::GetPixelFormats (wincodec.h)
-description: Retrieves the pixel formats the codec supports.helpviewer_keywords: ["GetPixelFormats","GetPixelFormats method [Windows Imaging Component]","GetPixelFormats method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetPixelFormats method","IWICBitmapCodecInfo.GetPixelFormats","IWICBitmapCodecInfo::GetPixelFormats","_wic_codec_iwicbitmapcodecinfo_getpixelformats","wic._wic_codec_iwicbitmapcodecinfo_getpixelformats","wincodec/IWICBitmapCodecInfo::GetPixelFormats"]
+description: Retrieves the pixel formats the codec supports.
+helpviewer_keywords: ["GetPixelFormats","GetPixelFormats method [Windows Imaging Component]","GetPixelFormats method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetPixelFormats method","IWICBitmapCodecInfo.GetPixelFormats","IWICBitmapCodecInfo::GetPixelFormats","_wic_codec_iwicbitmapcodecinfo_getpixelformats","wic._wic_codec_iwicbitmapcodecinfo_getpixelformats","wincodec/IWICBitmapCodecInfo::GetPixelFormats"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getpixelformats.htm
 tech.root: wic
 ms.assetid: 2da56e46-bbbd-42d4-ba49-9dee01f6bba0

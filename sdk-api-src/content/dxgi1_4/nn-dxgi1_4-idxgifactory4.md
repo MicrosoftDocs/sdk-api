@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_4.IDXGIFactory4
 title: IDXGIFactory4 (dxgi1_4.h)
-description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.helpviewer_keywords: ["IDXGIFactory4","IDXGIFactory4 interface [DXGI]","IDXGIFactory4 interface [DXGI]","described","direct3ddxgi.idxgifactory4","dxgi1_4/IDXGIFactory4"]
+description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
+helpviewer_keywords: ["IDXGIFactory4","IDXGIFactory4 interface [DXGI]","IDXGIFactory4 interface [DXGI]","described","direct3ddxgi.idxgifactory4","dxgi1_4/IDXGIFactory4"]
 old-location: direct3ddxgi\idxgifactory4.htm
 tech.root: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021

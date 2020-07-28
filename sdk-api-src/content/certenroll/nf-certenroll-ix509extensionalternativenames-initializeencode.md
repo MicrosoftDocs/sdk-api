@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.InitializeEncode
 title: IX509ExtensionAlternativeNames::InitializeEncode (certenroll.h)
-description: Initializes the extension from an IAlternativeNames collection.helpviewer_keywords: ["IX509ExtensionAlternativeNames interface [Security]","InitializeEncode method","IX509ExtensionAlternativeNames.InitializeEncode","IX509ExtensionAlternativeNames::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionAlternativeNames interface","certenroll/IX509ExtensionAlternativeNames::InitializeEncode","security.ix509extensionalternativenames_initializeencode_method"]
+description: Initializes the extension from an IAlternativeNames collection.
+helpviewer_keywords: ["IX509ExtensionAlternativeNames interface [Security]","InitializeEncode method","IX509ExtensionAlternativeNames.InitializeEncode","IX509ExtensionAlternativeNames::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionAlternativeNames interface","certenroll/IX509ExtensionAlternativeNames::InitializeEncode","security.ix509extensionalternativenames_initializeencode_method"]
 old-location: security\ix509extensionalternativenames_initializeencode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e520b2b4-c181-4fb1-98e8-f159bd0d31b4
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeEncode method, IX509ExtensionAlternativeNames.InitializeEncode, IX509ExtensionAlternativeNames::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeEncode, security.ix509extensionalternativenames_initializeencode_method

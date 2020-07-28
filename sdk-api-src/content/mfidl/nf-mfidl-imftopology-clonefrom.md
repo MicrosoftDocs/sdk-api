@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTopology.CloneFrom
 title: IMFTopology::CloneFrom (mfidl.h)
-description: Converts this topology into a copy of another topology.helpviewer_keywords: ["CloneFrom","CloneFrom method [Media Foundation]","CloneFrom method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","CloneFrom method","IMFTopology.CloneFrom","IMFTopology::CloneFrom","b455aa57-9785-4741-bc3b-1f99cbf4e3d9","mf.imftopology_clonefrom","mfidl/IMFTopology::CloneFrom"]
+description: Converts this topology into a copy of another topology.
+helpviewer_keywords: ["CloneFrom","CloneFrom method [Media Foundation]","CloneFrom method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","CloneFrom method","IMFTopology.CloneFrom","IMFTopology::CloneFrom","b455aa57-9785-4741-bc3b-1f99cbf4e3d9","mf.imftopology_clonefrom","mfidl/IMFTopology::CloneFrom"]
 old-location: mf\imftopology_clonefrom.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b455aa57-9785-4741-bc3b-1f99cbf4e3d9
 ms.date: 12/05/2018
 ms.keywords: CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],CloneFrom method, IMFTopology.CloneFrom, IMFTopology::CloneFrom, b455aa57-9785-4741-bc3b-1f99cbf4e3d9, mf.imftopology_clonefrom, mfidl/IMFTopology::CloneFrom

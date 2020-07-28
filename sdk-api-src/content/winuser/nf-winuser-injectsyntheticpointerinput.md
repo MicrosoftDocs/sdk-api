@@ -4,7 +4,7 @@ title: InjectSyntheticPointerInput function (winuser.h)
 description: Simulates pointer input (pen or touch).
 helpviewer_keywords: ["InjectSyntheticPointerInput","InjectSyntheticPointerInput function","input_pointerdevice.injectsyntheticpointerinput","winuser/InjectSyntheticPointerInput"]
 old-location: input_pointerdevice\injectsyntheticpointerinput.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
 ms.date: 12/05/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput

@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFRemoteProxy
 title: IMFRemoteProxy (mfidl.h)
-description: Exposed by objects that act as a proxy for a remote object.helpviewer_keywords: ["46af5ba7-c362-4cfd-ae6d-b698c6403a65","IMFRemoteProxy","IMFRemoteProxy interface [Media Foundation]","IMFRemoteProxy interface [Media Foundation]","described","mf.imfremoteproxy","mfidl/IMFRemoteProxy"]
+description: Exposed by objects that act as a proxy for a remote object.
+helpviewer_keywords: ["46af5ba7-c362-4cfd-ae6d-b698c6403a65","IMFRemoteProxy","IMFRemoteProxy interface [Media Foundation]","IMFRemoteProxy interface [Media Foundation]","described","mf.imfremoteproxy","mfidl/IMFRemoteProxy"]
 old-location: mf\imfremoteproxy.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 46af5ba7-c362-4cfd-ae6d-b698c6403a65
 ms.date: 12/05/2018
 ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], IMFRemoteProxy interface [Media Foundation],described, mf.imfremoteproxy, mfidl/IMFRemoteProxy

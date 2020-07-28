@@ -1,9 +1,10 @@
 ---
 UID: NN:vidcap.IVideoProcAmp
 title: IVideoProcAmp (vidcap.h)
-description: The IVideoProcAmp interface controls the image adjustment (ProcAmp) settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.helpviewer_keywords: ["IVideoProcAmp","IVideoProcAmp interface [DirectShow]","IVideoProcAmp interface [DirectShow]","described","IVideoProcAmpInterface","dshow.ivideoprocamp","vidcap/IVideoProcAmp"]
+description: The IVideoProcAmp interface controls the image adjustment (ProcAmp) settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
+helpviewer_keywords: ["IVideoProcAmp","IVideoProcAmp interface [DirectShow]","IVideoProcAmp interface [DirectShow]","described","IVideoProcAmpInterface","dshow.ivideoprocamp","vidcap/IVideoProcAmp"]
 old-location: dshow\ivideoprocamp.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: efaef34a-688a-4c7d-b8ee-e0f52468e355
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], IVideoProcAmp interface [DirectShow],described, IVideoProcAmpInterface, dshow.ivideoprocamp, vidcap/IVideoProcAmp

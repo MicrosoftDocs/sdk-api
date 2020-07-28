@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_SymbolRate
 title: IBDA_DigitalDemodulator::get_SymbolRate (bdaiface.h)
-description: The get_SymbolRate method retrieves the symbol rate for the signal.helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","get_SymbolRate method","IBDA_DigitalDemodulator.get_SymbolRate","IBDA_DigitalDemodulator::get_SymbolRate","IBDA_DigitalDemodulatorget_SymbolRate","bdaiface/IBDA_DigitalDemodulator::get_SymbolRate","get_SymbolRate","get_SymbolRate method [Microsoft TV Technologies]","get_SymbolRate method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface","mstv.ibda_digitaldemodulator_get_symbolrate"]
+description: The get_SymbolRate method retrieves the symbol rate for the signal.
+helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","get_SymbolRate method","IBDA_DigitalDemodulator.get_SymbolRate","IBDA_DigitalDemodulator::get_SymbolRate","IBDA_DigitalDemodulatorget_SymbolRate","bdaiface/IBDA_DigitalDemodulator::get_SymbolRate","get_SymbolRate","get_SymbolRate method [Microsoft TV Technologies]","get_SymbolRate method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface","mstv.ibda_digitaldemodulator_get_symbolrate"]
 old-location: mstv\ibda_digitaldemodulator_get_symbolrate.htm
 tech.root: mstv
 ms.assetid: d3640389-2533-4e6f-bc3e-7dceef76866b

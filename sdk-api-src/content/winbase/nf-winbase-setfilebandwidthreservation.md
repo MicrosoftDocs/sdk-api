@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetFileBandwidthReservation
 title: SetFileBandwidthReservation function (winbase.h)
-description: Requests that bandwidth for the specified file stream be reserved. The reservation is specified as a number of bytes in a period of milliseconds for I/O requests on the specified file handle.helpviewer_keywords: ["SetFileBandwidthReservation","SetFileBandwidthReservation function [Files]","fs.setfilebandwidthreservation_func","winbase/SetFileBandwidthReservation"]
+description: Requests that bandwidth for the specified file stream be reserved. The reservation is specified as a number of bytes in a period of milliseconds for I/O requests on the specified file handle.
+helpviewer_keywords: ["SetFileBandwidthReservation","SetFileBandwidthReservation function [Files]","fs.setfilebandwidthreservation_func","winbase/SetFileBandwidthReservation"]
 old-location: fs\setfilebandwidthreservation_func.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
 ms.date: 12/05/2018
 ms.keywords: SetFileBandwidthReservation, SetFileBandwidthReservation function [Files], fs.setfilebandwidthreservation_func, winbase/SetFileBandwidthReservation

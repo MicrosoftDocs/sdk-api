@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.CreateLogMarshallingArea
 title: CreateLogMarshallingArea function (clfsw32.h)
-description: Creates a marshaling area for a log, and when successful it returns a marshaling context. Before creating a marshaling area, the log must have at least one container.helpviewer_keywords: ["CreateLogMarshallingArea","CreateLogMarshallingArea function [Files]","clfsw32/CreateLogMarshallingArea","fs.createlogmarshalingarea","fs.createlogmarshallingarea"]
+description: Creates a marshaling area for a log, and when successful it returns a marshaling context. Before creating a marshaling area, the log must have at least one container.
+helpviewer_keywords: ["CreateLogMarshallingArea","CreateLogMarshallingArea function [Files]","clfsw32/CreateLogMarshallingArea","fs.createlogmarshalingarea","fs.createlogmarshallingarea"]
 old-location: fs\createlogmarshallingarea.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 750c0615-bfac-402b-a590-6c9d800cf2d8
 ms.date: 12/05/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea

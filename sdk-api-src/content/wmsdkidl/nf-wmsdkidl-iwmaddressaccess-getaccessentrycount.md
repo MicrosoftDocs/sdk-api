@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.GetAccessEntryCount
 title: IWMAddressAccess::GetAccessEntryCount (wmsdkidl.h)
-description: The GetAccessEntryCount method retrieves the number of entries in the IP address access list.helpviewer_keywords: ["GetAccessEntryCount","GetAccessEntryCount method [windows Media Format]","GetAccessEntryCount method [windows Media Format]","IWMAddressAccess interface","IWMAddressAccess interface [windows Media Format]","GetAccessEntryCount method","IWMAddressAccess.GetAccessEntryCount","IWMAddressAccess::GetAccessEntryCount","IWMAddressAccessGetAccessEntryCount","wmformat.iwmaddressaccess_getaccessentrycount","wmsdkidl/IWMAddressAccess::GetAccessEntryCount"]
+description: The GetAccessEntryCount method retrieves the number of entries in the IP address access list.
+helpviewer_keywords: ["GetAccessEntryCount","GetAccessEntryCount method [windows Media Format]","GetAccessEntryCount method [windows Media Format]","IWMAddressAccess interface","IWMAddressAccess interface [windows Media Format]","GetAccessEntryCount method","IWMAddressAccess.GetAccessEntryCount","IWMAddressAccess::GetAccessEntryCount","IWMAddressAccessGetAccessEntryCount","wmformat.iwmaddressaccess_getaccessentrycount","wmsdkidl/IWMAddressAccess::GetAccessEntryCount"]
 old-location: wmformat\iwmaddressaccess_getaccessentrycount.htm
 tech.root: wmformat
 ms.assetid: 996d8a8a-887e-4e2f-b810-c57a4251f771

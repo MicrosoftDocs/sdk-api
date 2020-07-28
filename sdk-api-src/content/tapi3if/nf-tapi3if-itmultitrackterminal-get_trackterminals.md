@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.get_TrackTerminals
 title: ITMultiTrackTerminal::get_TrackTerminals (tapi3if.h)
-description: The get_TrackTerminals method creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called.helpviewer_keywords: ["ITMultiTrackTerminal interface [TAPI 2.2]","get_TrackTerminals method","ITMultiTrackTerminal.get_TrackTerminals","ITMultiTrackTerminal::get_TrackTerminals","_tapi3_itmultitrackterminal_get_trackterminals","get_TrackTerminals","get_TrackTerminals method [TAPI 2.2]","get_TrackTerminals method [TAPI 2.2]","ITMultiTrackTerminal interface","tapi3.itmultitrackterminal_get_trackterminals","tapi3if/ITMultiTrackTerminal::get_TrackTerminals"]
+description: The get_TrackTerminals method creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called.
+helpviewer_keywords: ["ITMultiTrackTerminal interface [TAPI 2.2]","get_TrackTerminals method","ITMultiTrackTerminal.get_TrackTerminals","ITMultiTrackTerminal::get_TrackTerminals","_tapi3_itmultitrackterminal_get_trackterminals","get_TrackTerminals","get_TrackTerminals method [TAPI 2.2]","get_TrackTerminals method [TAPI 2.2]","ITMultiTrackTerminal interface","tapi3.itmultitrackterminal_get_trackterminals","tapi3if/ITMultiTrackTerminal::get_TrackTerminals"]
 old-location: tapi3\itmultitrackterminal_get_trackterminals.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2bedefe8-6b84-48c0-8a7b-719d017baf24
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_TrackTerminals method, ITMultiTrackTerminal.get_TrackTerminals, ITMultiTrackTerminal::get_TrackTerminals, _tapi3_itmultitrackterminal_get_trackterminals, get_TrackTerminals, get_TrackTerminals method [TAPI 2.2], get_TrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_trackterminals, tapi3if/ITMultiTrackTerminal::get_TrackTerminals

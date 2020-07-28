@@ -1,9 +1,10 @@
 ---
 UID: NE:p2p.peer_issue_credential_flags_tag
 title: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS (p2p.h)
-description: .helpviewer_keywords: ["PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking]","PEER_GROUP_STORE_CREDENTIALS","p2p.peer_group_issue_credential_flags","p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","p2p/PEER_GROUP_STORE_CREDENTIALS"]
+description: .
+helpviewer_keywords: ["PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking]","PEER_GROUP_STORE_CREDENTIALS","p2p.peer_group_issue_credential_flags","p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","p2p/PEER_GROUP_STORE_CREDENTIALS"]
 old-location: p2p\peer_group_issue_credential_flags.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b5397627-ffd7-453c-b829-e3e04fa9894a
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking], PEER_GROUP_STORE_CREDENTIALS, p2p.peer_group_issue_credential_flags, p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, p2p/PEER_GROUP_STORE_CREDENTIALS

@@ -1,9 +1,10 @@
 ---
 UID: NE:mfidl._MFRATE_DIRECTION
 title: MFRATE_DIRECTION (mfidl.h)
-description: Specifies the direction of playback (forward or reverse).helpviewer_keywords: ["34cc861c-ab15-48f4-bb6e-736b70383546","MFRATE_DIRECTION","MFRATE_DIRECTION enumeration [Media Foundation]","MFRATE_FORWARD","MFRATE_REVERSE","mf.mfrate_direction","mfidl/MFRATE_DIRECTION","mfidl/MFRATE_FORWARD","mfidl/MFRATE_REVERSE"]
+description: Specifies the direction of playback (forward or reverse).
+helpviewer_keywords: ["34cc861c-ab15-48f4-bb6e-736b70383546","MFRATE_DIRECTION","MFRATE_DIRECTION enumeration [Media Foundation]","MFRATE_FORWARD","MFRATE_REVERSE","mf.mfrate_direction","mfidl/MFRATE_DIRECTION","mfidl/MFRATE_FORWARD","mfidl/MFRATE_REVERSE"]
 old-location: mf\mfrate_direction.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 34cc861c-ab15-48f4-bb6e-736b70383546
 ms.date: 12/05/2018
 ms.keywords: 34cc861c-ab15-48f4-bb6e-736b70383546, MFRATE_DIRECTION, MFRATE_DIRECTION enumeration [Media Foundation], MFRATE_FORWARD, MFRATE_REVERSE, mf.mfrate_direction, mfidl/MFRATE_DIRECTION, mfidl/MFRATE_FORWARD, mfidl/MFRATE_REVERSE

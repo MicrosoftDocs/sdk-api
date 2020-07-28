@@ -1,9 +1,10 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Name
 title: ITPluggableTerminalClassRegistration::put_Name (termmgr.h)
-description: The put_Name method sets the name of the terminal class being registered.helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","put_Name method","ITPluggableTerminalClassRegistration.put_Name","ITPluggableTerminalClassRegistration::put_Name","_tapi3_itpluggableterminalclassregistration_put_name","put_Name","put_Name method [TAPI 2.2]","put_Name method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_put_name","termmgr/ITPluggableTerminalClassRegistration::put_Name"]
+description: The put_Name method sets the name of the terminal class being registered.
+helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","put_Name method","ITPluggableTerminalClassRegistration.put_Name","ITPluggableTerminalClassRegistration::put_Name","_tapi3_itpluggableterminalclassregistration_put_name","put_Name","put_Name method [TAPI 2.2]","put_Name method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_put_name","termmgr/ITPluggableTerminalClassRegistration::put_Name"]
 old-location: tapi3\itpluggableterminalclassregistration_put_name.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d3d6c585-5592-4ed9-80bb-a55ff151edd1
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Name method, ITPluggableTerminalClassRegistration.put_Name, ITPluggableTerminalClassRegistration::put_Name, _tapi3_itpluggableterminalclassregistration_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_name, termmgr/ITPluggableTerminalClassRegistration::put_Name

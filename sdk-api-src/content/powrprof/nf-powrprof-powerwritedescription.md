@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.PowerWriteDescription
 title: PowerWriteDescription function (powrprof.h)
-description: Sets the description for the specified power setting, subgroup, or scheme.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteDescription","PowerWriteDescription function","base.powerwritedescription","powrprof/PowerWriteDescription"]
+description: Sets the description for the specified power setting, subgroup, or scheme.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteDescription","PowerWriteDescription function","base.powerwritedescription","powrprof/PowerWriteDescription"]
 old-location: base\powerwritedescription.htm
-tech.root: power
+tech.root: base
 ms.assetid: 42ee26ac-1a9c-4390-92e8-879b401168c7
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteDescription, PowerWriteDescription function, base.powerwritedescription, powrprof/PowerWriteDescription

@@ -1,7 +1,8 @@
 ---
 UID: NE:directml.DML_TENSOR_FLAGS
 title: DML_TENSOR_FLAGS
-description: Specifies additional options in a tensor description. Values can be bitwise OR'd together.helpviewer_keywords: ["DML_TENSOR_FLAGS","DML_TENSOR_FLAGS enumeration","DML_TENSOR_FLAG_NONE","DML_TENSOR_FLAG_OWNED_BY_DML","direct3d12.dml_tensor_flags","directml/DML_TENSOR_FLAGS","directml/DML_TENSOR_FLAG_NONE","directml/DML_TENSOR_FLAG_OWNED_BY_DML"]
+description: Specifies additional options in a tensor description. Values can be bitwise OR'd together.
+helpviewer_keywords: ["DML_TENSOR_FLAGS","DML_TENSOR_FLAGS enumeration","DML_TENSOR_FLAG_NONE","DML_TENSOR_FLAG_OWNED_BY_DML","direct3d12.dml_tensor_flags","directml/DML_TENSOR_FLAGS","directml/DML_TENSOR_FLAG_NONE","directml/DML_TENSOR_FLAG_OWNED_BY_DML"]
 old-location: direct3d12\dml_tensor_flags.htm
 tech.root: direct3d12
 ms.assetid: 61704FFD-51F8-4872-8EAA-110F64B908B3

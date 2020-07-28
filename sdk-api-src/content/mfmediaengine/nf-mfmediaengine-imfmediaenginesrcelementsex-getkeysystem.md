@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.GetKeySystem
 title: IMFMediaEngineSrcElementsEx::GetKeySystem (mfmediaengine.h)
-description: Gets the key system for the given source element index.helpviewer_keywords: ["GetKeySystem","GetKeySystem method [Media Foundation]","GetKeySystem method [Media Foundation]","IMFMediaEngineSrcElementsEx interface","IMFMediaEngineSrcElementsEx interface [Media Foundation]","GetKeySystem method","IMFMediaEngineSrcElementsEx.GetKeySystem","IMFMediaEngineSrcElementsEx::GetKeySystem","mf.imfmediaenginesrcelementsex_getkeysystem","mfmediaengine/IMFMediaEngineSrcElementsEx::GetKeySystem"]
+description: Gets the key system for the given source element index.
+helpviewer_keywords: ["GetKeySystem","GetKeySystem method [Media Foundation]","GetKeySystem method [Media Foundation]","IMFMediaEngineSrcElementsEx interface","IMFMediaEngineSrcElementsEx interface [Media Foundation]","GetKeySystem method","IMFMediaEngineSrcElementsEx.GetKeySystem","IMFMediaEngineSrcElementsEx::GetKeySystem","mf.imfmediaenginesrcelementsex_getkeysystem","mfmediaengine/IMFMediaEngineSrcElementsEx::GetKeySystem"]
 old-location: mf\imfmediaenginesrcelementsex_getkeysystem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5d8db178-a17d-4920-9eed-b2dfba9f05fc
 ms.date: 12/05/2018
 ms.keywords: GetKeySystem, GetKeySystem method [Media Foundation], GetKeySystem method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],GetKeySystem method, IMFMediaEngineSrcElementsEx.GetKeySystem, IMFMediaEngineSrcElementsEx::GetKeySystem, mf.imfmediaenginesrcelementsex_getkeysystem, mfmediaengine/IMFMediaEngineSrcElementsEx::GetKeySystem

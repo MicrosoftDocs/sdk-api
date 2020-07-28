@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPPlayerApplication
 title: IWMPPlayerApplication (wmp.h)
-description: The IWMPPlayerApplication interface provides methods for switching between a remoted Windows Media Player control and the full mode of the Player. These methods can only be used with C++ programs that embed the control in remote mode.helpviewer_keywords: ["IWMPPlayerApplication","IWMPPlayerApplication interface [Windows Media Player]","IWMPPlayerApplication interface [Windows Media Player]","described","IWMPPlayerApplicationInterface","wmp.iwmpplayerapplication","wmp/IWMPPlayerApplication"]
+description: The IWMPPlayerApplication interface provides methods for switching between a remoted Windows Media Player control and the full mode of the Player. These methods can only be used with C++ programs that embed the control in remote mode.
+helpviewer_keywords: ["IWMPPlayerApplication","IWMPPlayerApplication interface [Windows Media Player]","IWMPPlayerApplication interface [Windows Media Player]","described","IWMPPlayerApplicationInterface","wmp.iwmpplayerapplication","wmp/IWMPPlayerApplication"]
 old-location: wmp\iwmpplayerapplication.htm
 tech.root: WMP
 ms.assetid: bcdd7ea9-66b2-40e9-89a1-0fec073ccd92

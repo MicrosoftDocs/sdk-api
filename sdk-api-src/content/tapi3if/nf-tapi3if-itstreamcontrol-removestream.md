@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITStreamControl.RemoveStream
 title: ITStreamControl::RemoveStream (tapi3if.h)
-description: The RemoveStream method removes a media stream.helpviewer_keywords: ["ITStreamControl interface [TAPI 2.2]","RemoveStream method","ITStreamControl.RemoveStream","ITStreamControl::RemoveStream","RemoveStream","RemoveStream method [TAPI 2.2]","RemoveStream method [TAPI 2.2]","ITStreamControl interface","_tapi3_itstreamcontrol_removestream","tapi3.itstreamcontrol_removestream","tapi3if/ITStreamControl::RemoveStream"]
+description: The RemoveStream method removes a media stream.
+helpviewer_keywords: ["ITStreamControl interface [TAPI 2.2]","RemoveStream method","ITStreamControl.RemoveStream","ITStreamControl::RemoveStream","RemoveStream","RemoveStream method [TAPI 2.2]","RemoveStream method [TAPI 2.2]","ITStreamControl interface","_tapi3_itstreamcontrol_removestream","tapi3.itstreamcontrol_removestream","tapi3if/ITStreamControl::RemoveStream"]
 old-location: tapi3\itstreamcontrol_removestream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cd432d49-04f6-4f1f-a6a1-937658d615d6
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],RemoveStream method, ITStreamControl.RemoveStream, ITStreamControl::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],ITStreamControl interface, _tapi3_itstreamcontrol_removestream, tapi3.itstreamcontrol_removestream, tapi3if/ITStreamControl::RemoveStream

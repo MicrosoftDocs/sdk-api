@@ -1,9 +1,10 @@
 ---
 UID: NE:winnt._POWER_PLATFORM_ROLE
 title: POWER_PLATFORM_ROLE (winnt.h)
-description: Indicates the OEM's preferred power management profile.helpviewer_keywords: ["*PPOWER_PLATFORM_ROLE","POWER_PLATFORM_ROLE","POWER_PLATFORM_ROLE enumeration","PlatformRoleAppliancePC","PlatformRoleDesktop","PlatformRoleEnterpriseServer","PlatformRoleMaximum","PlatformRoleMobile","PlatformRolePerformanceServer","PlatformRoleSOHOServer","PlatformRoleSlate","PlatformRoleUnspecified","PlatformRoleWorkstation","base.power_platform_role","winnt/POWER_PLATFORM_ROLE","winnt/PlatformRoleAppliancePC","winnt/PlatformRoleDesktop","winnt/PlatformRoleEnterpriseServer","winnt/PlatformRoleMaximum","winnt/PlatformRoleMobile","winnt/PlatformRolePerformanceServer","winnt/PlatformRoleSOHOServer","winnt/PlatformRoleSlate","winnt/PlatformRoleUnspecified","winnt/PlatformRoleWorkstation"]
+description: Indicates the OEM's preferred power management profile.
+helpviewer_keywords: ["*PPOWER_PLATFORM_ROLE","POWER_PLATFORM_ROLE","POWER_PLATFORM_ROLE enumeration","PlatformRoleAppliancePC","PlatformRoleDesktop","PlatformRoleEnterpriseServer","PlatformRoleMaximum","PlatformRoleMobile","PlatformRolePerformanceServer","PlatformRoleSOHOServer","PlatformRoleSlate","PlatformRoleUnspecified","PlatformRoleWorkstation","base.power_platform_role","winnt/POWER_PLATFORM_ROLE","winnt/PlatformRoleAppliancePC","winnt/PlatformRoleDesktop","winnt/PlatformRoleEnterpriseServer","winnt/PlatformRoleMaximum","winnt/PlatformRoleMobile","winnt/PlatformRolePerformanceServer","winnt/PlatformRoleSOHOServer","winnt/PlatformRoleSlate","winnt/PlatformRoleUnspecified","winnt/PlatformRoleWorkstation"]
 old-location: base\power_platform_role.htm
-tech.root: power
+tech.root: base
 ms.assetid: ec94a0c4-8451-47a5-be48-9d5ed76c3585
 ms.date: 12/05/2018
 ms.keywords: '*PPOWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE enumeration, PlatformRoleAppliancePC, PlatformRoleDesktop, PlatformRoleEnterpriseServer, PlatformRoleMaximum, PlatformRoleMobile, PlatformRolePerformanceServer, PlatformRoleSOHOServer, PlatformRoleSlate, PlatformRoleUnspecified, PlatformRoleWorkstation, base.power_platform_role, winnt/POWER_PLATFORM_ROLE, winnt/PlatformRoleAppliancePC, winnt/PlatformRoleDesktop, winnt/PlatformRoleEnterpriseServer, winnt/PlatformRoleMaximum, winnt/PlatformRoleMobile, winnt/PlatformRolePerformanceServer, winnt/PlatformRoleSOHOServer, winnt/PlatformRoleSlate, winnt/PlatformRoleUnspecified, winnt/PlatformRoleWorkstation'

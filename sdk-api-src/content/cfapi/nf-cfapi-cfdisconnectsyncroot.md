@@ -1,9 +1,10 @@
 ---
 UID: NF:cfapi.CfDisconnectSyncRoot
 title: CfDisconnectSyncRoot function (cfapi.h)
-description: Disconnects a communication channel created by CfConnectSyncRoot.helpviewer_keywords: ["CfDisconnectSyncRoot","CfDisconnectSyncRoot function","cfapi/CfDisconnectSyncRoot","cloudApi.cfdisconnectsyncroot"]
+description: Disconnects a communication channel created by CfConnectSyncRoot.
+helpviewer_keywords: ["CfDisconnectSyncRoot","CfDisconnectSyncRoot function","cfapi/CfDisconnectSyncRoot","cloudApi.cfdisconnectsyncroot"]
 old-location: cloudapi\cfdisconnectsyncroot.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: AB09804A-257B-49A2-861E-B6E102D45182
 ms.date: 12/05/2018
 ms.keywords: CfDisconnectSyncRoot, CfDisconnectSyncRoot function, cfapi/CfDisconnectSyncRoot, cloudApi.cfdisconnectsyncroot

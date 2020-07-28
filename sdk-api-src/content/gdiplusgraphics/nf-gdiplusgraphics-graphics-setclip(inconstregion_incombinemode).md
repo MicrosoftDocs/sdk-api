@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.SetClip(IN const Region,IN CombineMode)
+UID: NF:gdiplusgraphics.Graphics.SetClip(INconstRegion,INCombineMode)
 title: Graphics::SetClip(IN const Region,IN CombineMode) (gdiplusgraphics.h)
-description: The Graphics::SetClip method updates the clipping region of this Graphics object to a region that is the combination of itself and the region specified by a Region object.helpviewer_keywords: ["Graphics class [GDI+]","SetClip method","Graphics.SetClip","Graphics.SetClip(IN const Region","IN CombineMode)","Graphics.SetClip(const Region*","CombineMode)","Graphics::SetClip","Graphics::SetClip(IN const Region","IN CombineMode)","SetClip","SetClip method [GDI+]","SetClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetClip_region_combineMode_","gdiplus._gdiplus_CLASS_Graphics_SetClip_region_combineMode_"]
+description: The Graphics::SetClip method updates the clipping region of this Graphics object to a region that is the combination of itself and the region specified by a Region object.
+helpviewer_keywords: ["Graphics class [GDI+]","SetClip method","Graphics.SetClip","Graphics.SetClip(IN const Region","IN CombineMode)","Graphics.SetClip(const Region*","CombineMode)","Graphics::SetClip","Graphics::SetClip(IN const Region","IN CombineMode)","SetClip","SetClip method [GDI+]","SetClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetClip_region_combineMode_","gdiplus._gdiplus_CLASS_Graphics_SetClip_region_combineMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetClip_region_combineMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicssetclipmethods\setclip_48region_combinemode.htm

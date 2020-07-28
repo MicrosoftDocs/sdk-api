@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_PropertyW
 title: CM_Get_Device_Interface_PropertyW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_Property function retrieves a device property that is set for a device interface.helpviewer_keywords: ["CM_Get_Device_Interface_Property","CM_Get_Device_Interface_Property function [Device and Driver Installation]","CM_Get_Device_Interface_PropertyA","CM_Get_Device_Interface_PropertyW","cfgmgr32/CM_Get_Device_Interface_Property","cfgmgr32/CM_Get_Device_Interface_PropertyA","cfgmgr32/CM_Get_Device_Interface_PropertyW","devinst.cm_get_device_interface_property"]
+description: The CM_Get_Device_Interface_Property function retrieves a device property that is set for a device interface.
+helpviewer_keywords: ["CM_Get_Device_Interface_Property","CM_Get_Device_Interface_Property function [Device and Driver Installation]","CM_Get_Device_Interface_PropertyA","CM_Get_Device_Interface_PropertyW","cfgmgr32/CM_Get_Device_Interface_Property","cfgmgr32/CM_Get_Device_Interface_PropertyA","cfgmgr32/CM_Get_Device_Interface_PropertyW","devinst.cm_get_device_interface_property"]
 old-location: devinst\cm_get_device_interface_property.htm
 tech.root: devinst
 ms.assetid: 581286BF-F20E-4766-BF0C-5D6B34032358

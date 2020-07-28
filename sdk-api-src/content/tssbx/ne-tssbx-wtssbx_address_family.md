@@ -1,7 +1,8 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0003
 title: WTSSBX_ADDRESS_FAMILY (tssbx.h)
-description: Contains values that indicate the address family of a network address that is being used for redirection.helpviewer_keywords: ["WTSSBX_ADDRESS_FAMILY","WTSSBX_ADDRESS_FAMILY enumeration [Remote Desktop Services]","WTSSBX_ADDRESS_FAMILY_AF_INET","WTSSBX_ADDRESS_FAMILY_AF_INET6","WTSSBX_ADDRESS_FAMILY_AF_IPX","WTSSBX_ADDRESS_FAMILY_AF_NETBIOS","WTSSBX_ADDRESS_FAMILY_AF_UNSPEC","termserv.wtssbx_address_family","tssbx/WTSSBX_ADDRESS_FAMILY","tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET","tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET6","tssbx/WTSSBX_ADDRESS_FAMILY_AF_IPX","tssbx/WTSSBX_ADDRESS_FAMILY_AF_NETBIOS","tssbx/WTSSBX_ADDRESS_FAMILY_AF_UNSPEC"]
+description: Contains values that indicate the address family of a network address that is being used for redirection.
+helpviewer_keywords: ["WTSSBX_ADDRESS_FAMILY","WTSSBX_ADDRESS_FAMILY enumeration [Remote Desktop Services]","WTSSBX_ADDRESS_FAMILY_AF_INET","WTSSBX_ADDRESS_FAMILY_AF_INET6","WTSSBX_ADDRESS_FAMILY_AF_IPX","WTSSBX_ADDRESS_FAMILY_AF_NETBIOS","WTSSBX_ADDRESS_FAMILY_AF_UNSPEC","termserv.wtssbx_address_family","tssbx/WTSSBX_ADDRESS_FAMILY","tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET","tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET6","tssbx/WTSSBX_ADDRESS_FAMILY_AF_IPX","tssbx/WTSSBX_ADDRESS_FAMILY_AF_NETBIOS","tssbx/WTSSBX_ADDRESS_FAMILY_AF_UNSPEC"]
 old-location: termserv\wtssbx_address_family.htm
 tech.root: TermServ
 ms.assetid: 8fe243ef-f52b-4b1a-8300-0b8a5a8a4c8d

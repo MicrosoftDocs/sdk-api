@@ -4,7 +4,7 @@ title: IComObjectPool2Events::OnObjPoolGetObject2 (comsvcs.h)
 description: Generated when a non-transactional object is obtained from the pool.
 helpviewer_keywords: ["IComObjectPool2Events interface [COM+]","OnObjPoolGetObject2 method","IComObjectPool2Events.OnObjPoolGetObject2","IComObjectPool2Events::OnObjPoolGetObject2","OnObjPoolGetObject2","OnObjPoolGetObject2 method [COM+]","OnObjPoolGetObject2 method [COM+]","IComObjectPool2Events interface","_dtc_IComObjectPool2Events_OnObjPoolGetObject2","comsvcs/IComObjectPool2Events::OnObjPoolGetObject2","cos.icomobjectpool2events_onobjpoolgetobject2"]
 old-location: cos\icomobjectpool2events_onobjpoolgetobject2.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 322540f2-7f99-41ad-b6b5-59067f350feb
 ms.date: 12/05/2018
 ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolGetObject2 method, IComObjectPool2Events.OnObjPoolGetObject2, IComObjectPool2Events::OnObjPoolGetObject2, OnObjPoolGetObject2, OnObjPoolGetObject2 method [COM+], OnObjPoolGetObject2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolGetObject2, comsvcs/IComObjectPool2Events::OnObjPoolGetObject2, cos.icomobjectpool2events_onobjpoolgetobject2

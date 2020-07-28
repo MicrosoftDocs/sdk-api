@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.IAlertDataCollector
 title: IAlertDataCollector (pla.h)
-description: Monitors performance counters and performs actions each time a counter value crosses the specified threshold.To create the alert data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method. For details on the XML that you pass to CreateDataCollectorFromXml, see Remarks.helpviewer_keywords: ["IAlertDataCollector","IAlertDataCollector interface [PLA]","IAlertDataCollector interface [PLA]","described","base.ialertdatacollector","pla.ialertdatacollector","pla/IAlertDataCollector"]
+description: Monitors performance counters and performs actions each time a counter value crosses the specified threshold.To create the alert data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method. For details on the XML that you pass to CreateDataCollectorFromXml, see Remarks.
+helpviewer_keywords: ["IAlertDataCollector","IAlertDataCollector interface [PLA]","IAlertDataCollector interface [PLA]","described","base.ialertdatacollector","pla.ialertdatacollector","pla/IAlertDataCollector"]
 old-location: pla\ialertdatacollector.htm
 tech.root: PLA
 ms.assetid: 61907979-fa4a-45da-96c5-7cd12021fbb7

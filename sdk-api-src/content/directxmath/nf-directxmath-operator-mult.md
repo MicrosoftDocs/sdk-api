@@ -1,7 +1,9 @@
 ---
 UID: NF:directxmath.operator-mult
 title: operator*
-description: Multiplies one instance of XMVECTOR by a second instance, returning the result in a third instance.helpviewer_keywords: ["operator*"]
+description: Multiplies one instance of XMVECTOR by a second instance, returning the result in a third instance.
+tech.root: dxmath
+helpviewer_keywords: ["operator*"]
 ms.assetid: 27e77bf4-0520-47bf-b2a9-884cff1b8944
 ms.date: 05/13/2019
 ms.keywords: operator*

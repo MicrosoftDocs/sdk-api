@@ -1,9 +1,10 @@
 ---
 UID: NN:wbemprov.IWbemDecoupledRegistrar
 title: IWbemDecoupledRegistrar (wbemprov.h)
-description: The IWbemDecoupledRegistrar interface associates decoupled providers with WMI. This interface allows a process-hosted provider to define the interoperability lifetime of the interface and to coexist with other providers.helpviewer_keywords: ["IWbemDecoupledRegistrar","IWbemDecoupledRegistrar interface [Windows Management Instrumentation]","IWbemDecoupledRegistrar interface [Windows Management Instrumentation]","described","_hmm_iwbemdecoupledregistrar","wbemprov/IWbemDecoupledRegistrar","wmi.iwbemdecoupledregistrar"]
+description: The IWbemDecoupledRegistrar interface associates decoupled providers with WMI. This interface allows a process-hosted provider to define the interoperability lifetime of the interface and to coexist with other providers.
+helpviewer_keywords: ["IWbemDecoupledRegistrar","IWbemDecoupledRegistrar interface [Windows Management Instrumentation]","IWbemDecoupledRegistrar interface [Windows Management Instrumentation]","described","_hmm_iwbemdecoupledregistrar","wbemprov/IWbemDecoupledRegistrar","wmi.iwbemdecoupledregistrar"]
 old-location: wmi\iwbemdecoupledregistrar.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: ec805089-aff4-4885-b650-a784ce25a7d3
 ms.date: 12/05/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], IWbemDecoupledRegistrar interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledregistrar, wbemprov/IWbemDecoupledRegistrar, wmi.iwbemdecoupledregistrar

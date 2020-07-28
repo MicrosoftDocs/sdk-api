@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnableChildSessions
 title: WTSEnableChildSessions function (wtsapi32.h)
-description: Enables or disables Child Sessions.helpviewer_keywords: ["WTSEnableChildSessions","WTSEnableChildSessions function [Remote Desktop Services]","termserv.wtsenablechildsessions","wtsapi32/WTSEnableChildSessions"]
+description: Enables or disables Child Sessions.
+helpviewer_keywords: ["WTSEnableChildSessions","WTSEnableChildSessions function [Remote Desktop Services]","termserv.wtsenablechildsessions","wtsapi32/WTSEnableChildSessions"]
 old-location: termserv\wtsenablechildsessions.htm
 tech.root: TermServ
 ms.assetid: BA995C04-9004-4A41-8E4A-8701E8C64F2E

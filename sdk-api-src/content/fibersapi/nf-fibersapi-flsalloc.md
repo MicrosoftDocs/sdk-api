@@ -1,9 +1,10 @@
 ---
 UID: NF:fibersapi.FlsAlloc
 title: FlsAlloc function
-description: Allocates a fiber local storage (FLS) index.helpviewer_keywords: ["FlsAlloc","FlsAlloc function","_win32_flsalloc","base.flsalloc","fibersapi/FlsAlloc","winbase/FlsAlloc"]
+description: Allocates a fiber local storage (FLS) index.
+helpviewer_keywords: ["FlsAlloc","FlsAlloc function","_win32_flsalloc","base.flsalloc","fibersapi/FlsAlloc","winbase/FlsAlloc"]
 old-location: base\flsalloc.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59
 ms.date: 12/05/2018
 ms.keywords: FlsAlloc, FlsAlloc function, _win32_flsalloc, base.flsalloc, fibersapi/FlsAlloc, winbase/FlsAlloc

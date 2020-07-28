@@ -1,7 +1,8 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo
 title: ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo (restrictederrorinfo.h)
-description: Retrieves the transformed restricted error info.helpviewer_keywords: ["GetTransformedRestrictedErrorInfo","GetTransformedRestrictedErrorInfo method [Windows Runtime]","GetTransformedRestrictedErrorInfo method [Windows Runtime]","ILanguageExceptionTransform interface","ILanguageExceptionTransform interface [Windows Runtime]","GetTransformedRestrictedErrorInfo method","ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo","ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo","restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo","winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo"]
+description: Retrieves the transformed restricted error info.
+helpviewer_keywords: ["GetTransformedRestrictedErrorInfo","GetTransformedRestrictedErrorInfo method [Windows Runtime]","GetTransformedRestrictedErrorInfo method [Windows Runtime]","ILanguageExceptionTransform interface","ILanguageExceptionTransform interface [Windows Runtime]","GetTransformedRestrictedErrorInfo method","ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo","ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo","restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo","winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo"]
 old-location: winrt\ilanguageexceptiontransform_gettransformedrestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: F64449FE-9562-4210-8C00-9935DE71DA07

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITSubStream.StopSubStream
 title: ITSubStream::StopSubStream (tapi3if.h)
-description: The StopSubStream method stops the substream. For additional information, see ITStream::StopStream.helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","StopSubStream method","ITSubStream.StopSubStream","ITSubStream::StopSubStream","StopSubStream","StopSubStream method [TAPI 2.2]","StopSubStream method [TAPI 2.2]","ITSubStream interface","_tapi3_itsubstream_stopsubstream","tapi3.itsubstream_stopsubstream","tapi3if/ITSubStream::StopSubStream"]
+description: The StopSubStream method stops the substream. For additional information, see ITStream::StopStream.
+helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","StopSubStream method","ITSubStream.StopSubStream","ITSubStream::StopSubStream","StopSubStream","StopSubStream method [TAPI 2.2]","StopSubStream method [TAPI 2.2]","ITSubStream interface","_tapi3_itsubstream_stopsubstream","tapi3.itsubstream_stopsubstream","tapi3if/ITSubStream::StopSubStream"]
 old-location: tapi3\itsubstream_stopsubstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fa5028f6-80eb-4076-a81c-c83b462fc27c
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.StopSubStream, ITSubStream::StopSubStream, StopSubStream, StopSubStream method [TAPI 2.2], StopSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_stopsubstream, tapi3.itsubstream_stopsubstream, tapi3if/ITSubStream::StopSubStream

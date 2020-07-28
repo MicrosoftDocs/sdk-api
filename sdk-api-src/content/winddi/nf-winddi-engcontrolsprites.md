@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngControlSprites
 title: EngControlSprites function (winddi.h)
-description: The EngControlSprites function tears down or redraws sprites on the specified WNDOBJ area.helpviewer_keywords: ["EngControlSprites","EngControlSprites function [Display Devices]","display.engcontrolsprites","gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml","winddi/EngControlSprites"]
+description: The EngControlSprites function tears down or redraws sprites on the specified WNDOBJ area.
+helpviewer_keywords: ["EngControlSprites","EngControlSprites function [Display Devices]","display.engcontrolsprites","gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml","winddi/EngControlSprites"]
 old-location: display\engcontrolsprites.htm
 tech.root: display
 ms.assetid: 8de02019-6f58-4adc-9589-fdfbf4a062aa

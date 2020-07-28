@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTopology.RemoveNode
 title: IMFTopology::RemoveNode (mfidl.h)
-description: Removes a node from the topology.helpviewer_keywords: ["0dbafd3f-315b-4135-aecd-ad46f2c19886","IMFTopology interface [Media Foundation]","RemoveNode method","IMFTopology.RemoveNode","IMFTopology::RemoveNode","RemoveNode","RemoveNode method [Media Foundation]","RemoveNode method [Media Foundation]","IMFTopology interface","mf.imftopology_removenode","mfidl/IMFTopology::RemoveNode"]
+description: Removes a node from the topology.
+helpviewer_keywords: ["0dbafd3f-315b-4135-aecd-ad46f2c19886","IMFTopology interface [Media Foundation]","RemoveNode method","IMFTopology.RemoveNode","IMFTopology::RemoveNode","RemoveNode","RemoveNode method [Media Foundation]","RemoveNode method [Media Foundation]","IMFTopology interface","mf.imftopology_removenode","mfidl/IMFTopology::RemoveNode"]
 old-location: mf\imftopology_removenode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
 ms.date: 12/05/2018
 ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media Foundation],RemoveNode method, IMFTopology.RemoveNode, IMFTopology::RemoveNode, RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation],IMFTopology interface, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode

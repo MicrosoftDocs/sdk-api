@@ -1,9 +1,10 @@
 ---
 UID: NF:processthreadsapi.OpenProcessToken
 title: OpenProcessToken function (processthreadsapi.h)
-description: Opens the access token associated with a process.helpviewer_keywords: ["OpenProcessToken","OpenProcessToken function [Security]","_win32_openprocesstoken","processthreadsapi/OpenProcessToken","security.openprocesstoken"]
+description: Opens the access token associated with a process.
+helpviewer_keywords: ["OpenProcessToken","OpenProcessToken function [Security]","_win32_openprocesstoken","processthreadsapi/OpenProcessToken","security.openprocesstoken"]
 old-location: security\openprocesstoken.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1e760ad8-7e46-4748-8c45-36ad8efe936a
 ms.date: 12/05/2018
 ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken

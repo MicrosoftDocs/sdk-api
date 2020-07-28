@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFVideoMediaType
 title: IMFVideoMediaType (mfobjects.h)
-description: Represents a description of a video format.helpviewer_keywords: ["9109b0dd-c44d-41d4-9480-1ca5c667dbd7","IMFVideoMediaType","IMFVideoMediaType interface [Media Foundation]","IMFVideoMediaType interface [Media Foundation]","described","mf.imfvideomediatype","mfobjects/IMFVideoMediaType"]
+description: Represents a description of a video format.
+helpviewer_keywords: ["9109b0dd-c44d-41d4-9480-1ca5c667dbd7","IMFVideoMediaType","IMFVideoMediaType interface [Media Foundation]","IMFVideoMediaType interface [Media Foundation]","described","mf.imfvideomediatype","mfobjects/IMFVideoMediaType"]
 old-location: mf\imfvideomediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7
 ms.date: 12/05/2018
 ms.keywords: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7, IMFVideoMediaType, IMFVideoMediaType interface [Media Foundation], IMFVideoMediaType interface [Media Foundation],described, mf.imfvideomediatype, mfobjects/IMFVideoMediaType

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.SetD3DManager
 title: IMFMediaSourceEx::SetD3DManager (mfidl.h)
-description: Sets a pointer to the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the media source.helpviewer_keywords: ["IMFMediaSourceEx interface [Media Foundation]","SetD3DManager method","IMFMediaSourceEx.SetD3DManager","IMFMediaSourceEx::SetD3DManager","SetD3DManager","SetD3DManager method [Media Foundation]","SetD3DManager method [Media Foundation]","IMFMediaSourceEx interface","mf.imfmediasourceex_setd3dmanager","mfidl/IMFMediaSourceEx::SetD3DManager"]
+description: Sets a pointer to the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the media source.
+helpviewer_keywords: ["IMFMediaSourceEx interface [Media Foundation]","SetD3DManager method","IMFMediaSourceEx.SetD3DManager","IMFMediaSourceEx::SetD3DManager","SetD3DManager","SetD3DManager method [Media Foundation]","SetD3DManager method [Media Foundation]","IMFMediaSourceEx interface","mf.imfmediasourceex_setd3dmanager","mfidl/IMFMediaSourceEx::SetD3DManager"]
 old-location: mf\imfmediasourceex_setd3dmanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9E956E68-9950-4AA1-BF43-C1DCB02393F7
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceEx interface [Media Foundation],SetD3DManager method, IMFMediaSourceEx.SetD3DManager, IMFMediaSourceEx::SetD3DManager, SetD3DManager, SetD3DManager method [Media Foundation], SetD3DManager method [Media Foundation],IMFMediaSourceEx interface, mf.imfmediasourceex_setd3dmanager, mfidl/IMFMediaSourceEx::SetD3DManager

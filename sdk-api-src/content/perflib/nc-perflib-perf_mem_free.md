@@ -4,7 +4,7 @@ title: PERF_MEM_FREE (perflib.h)
 description: Providers implement this function to provide custom memory management for PERFLIB.
 helpviewer_keywords: ["FreeMemory","FreeMemory callback function [Perf]","PERF_MEM_FREE","PERF_MEM_FREE callback","perf.freememory","perflib/FreeMemory"]
 old-location: perf\freememory.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
 ms.date: 12/05/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory

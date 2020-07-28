@@ -1,9 +1,10 @@
 ---
 UID: NN:mmstream.IStreamSample
 title: IStreamSample (mmstream.h)
-description: Note  This interface is deprecated.helpviewer_keywords: ["IStreamSample","IStreamSample interface [DirectShow]","IStreamSample interface [DirectShow]","described","IStreamSampleInterface","dshow.istreamsample","mmstream/IStreamSample"]
+description: Note  This interface is deprecated.
+helpviewer_keywords: ["IStreamSample","IStreamSample interface [DirectShow]","IStreamSample interface [DirectShow]","described","IStreamSampleInterface","dshow.istreamsample","mmstream/IStreamSample"]
 old-location: dshow\istreamsample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 57818d7d-3290-46f7-a3fd-8585cdd64ec3
 ms.date: 12/05/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample interface [DirectShow],described, IStreamSampleInterface, dshow.istreamsample, mmstream/IStreamSample

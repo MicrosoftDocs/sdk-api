@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IRegisteredTask
 title: IRegisteredTask (taskschd.h)
-description: Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.helpviewer_keywords: ["IRegisteredTask","IRegisteredTask interface [Task Scheduler]","IRegisteredTask interface [Task Scheduler]","described","taskschd.iregisteredtask","taskschd/IRegisteredTask"]
+description: Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
+helpviewer_keywords: ["IRegisteredTask","IRegisteredTask interface [Task Scheduler]","IRegisteredTask interface [Task Scheduler]","described","taskschd.iregisteredtask","taskschd/IRegisteredTask"]
 old-location: taskschd\iregisteredtask.htm
 tech.root: taskschd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447

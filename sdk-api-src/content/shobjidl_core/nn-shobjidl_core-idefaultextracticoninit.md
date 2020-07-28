@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IDefaultExtractIconInit
 title: IDefaultExtractIconInit (shobjidl_core.h)
-description: Exposes methods to set default icons associated with an object.helpviewer_keywords: ["IDefaultExtractIconInit","IDefaultExtractIconInit interface [Windows Shell]","IDefaultExtractIconInit interface [Windows Shell]","described","_shell_IDefaultExtractIconInit","shell.IDefaultExtractIconInit","shobjidl_core/IDefaultExtractIconInit"]
+description: Exposes methods to set default icons associated with an object.
+helpviewer_keywords: ["IDefaultExtractIconInit","IDefaultExtractIconInit interface [Windows Shell]","IDefaultExtractIconInit interface [Windows Shell]","described","_shell_IDefaultExtractIconInit","shell.IDefaultExtractIconInit","shobjidl_core/IDefaultExtractIconInit"]
 old-location: shell\IDefaultExtractIconInit.htm
 tech.root: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02

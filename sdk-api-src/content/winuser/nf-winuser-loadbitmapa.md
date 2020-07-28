@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadBitmapA
 title: LoadBitmapA function (winuser.h)
-description: The LoadBitmap function loads the specified bitmap resource from a module's executable file.helpviewer_keywords: ["LoadBitmap","LoadBitmap function [Windows GDI]","LoadBitmapA","LoadBitmapW","_win32_LoadBitmap","gdi.loadbitmap","winuser/LoadBitmap","winuser/LoadBitmapA","winuser/LoadBitmapW"]
+description: The LoadBitmap function loads the specified bitmap resource from a module's executable file.
+helpviewer_keywords: ["LoadBitmap","LoadBitmap function [Windows GDI]","LoadBitmapA","LoadBitmapW","_win32_LoadBitmap","gdi.loadbitmap","winuser/LoadBitmap","winuser/LoadBitmapA","winuser/LoadBitmapW"]
 old-location: gdi\loadbitmap.htm
 tech.root: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
@@ -184,6 +185,10 @@ For an example, see Example of Menu-Item Bitmaps in <a href="https://docs.micros
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadBitmap as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

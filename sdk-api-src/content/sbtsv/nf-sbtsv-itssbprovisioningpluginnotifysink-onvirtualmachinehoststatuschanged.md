@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
 title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of the host of a virtual machine is changed.helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","OnVirtualMachineHostStatusChanged method","ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged","ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged","OnVirtualMachineHostStatusChanged","OnVirtualMachineHostStatusChanged method [Remote Desktop Services]","OnVirtualMachineHostStatusChanged method [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface","sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged","termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged"]
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of the host of a virtual machine is changed.
+helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","OnVirtualMachineHostStatusChanged method","ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged","ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged","OnVirtualMachineHostStatusChanged","OnVirtualMachineHostStatusChanged method [Remote Desktop Services]","OnVirtualMachineHostStatusChanged method [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface","sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged","termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged"]
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged.htm
 tech.root: TermServ
 ms.assetid: d86e9092-42ca-4e62-8613-cdcf2f8b627d

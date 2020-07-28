@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiRecordGetInteger
 title: MsiRecordGetInteger function (msiquery.h)
-description: The MsiRecordGetInteger function returns the integer value from a record field.helpviewer_keywords: ["MsiRecordGetInteger","MsiRecordGetInteger function","_msi_msirecordgetinteger","msiquery/MsiRecordGetInteger","setup.msirecordgetinteger"]
+description: The MsiRecordGetInteger function returns the integer value from a record field.
+helpviewer_keywords: ["MsiRecordGetInteger","MsiRecordGetInteger function","_msi_msirecordgetinteger","msiquery/MsiRecordGetInteger","setup.msirecordgetinteger"]
 old-location: setup\msirecordgetinteger.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f04d4d61-ebe0-4eb1-b0e7-b94d9ef3c900
 ms.date: 12/05/2018
 ms.keywords: MsiRecordGetInteger, MsiRecordGetInteger function, _msi_msirecordgetinteger, msiquery/MsiRecordGetInteger, setup.msirecordgetinteger

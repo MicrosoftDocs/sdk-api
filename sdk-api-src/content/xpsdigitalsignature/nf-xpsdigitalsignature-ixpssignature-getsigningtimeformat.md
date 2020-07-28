@@ -4,7 +4,7 @@ title: IXpsSignature::GetSigningTimeFormat (xpsdigitalsignature.h)
 description: Gets the format of the signing time.
 helpviewer_keywords: ["GetSigningTimeFormat","GetSigningTimeFormat method [XPS Documents and Packaging]","GetSigningTimeFormat method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetSigningTimeFormat method","IXpsSignature.GetSigningTimeFormat","IXpsSignature::GetSigningTimeFormat","xps.ixpssignature_getsigningtimeformat","xpsdigitalsignature/IXpsSignature::GetSigningTimeFormat"]
 old-location: xps\ixpssignature_getsigningtimeformat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a75df35c-dd12-4217-a6f8-91401be46225
 ms.date: 12/05/2018
 ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSignature.GetSigningTimeFormat, IXpsSignature::GetSigningTimeFormat, xps.ixpssignature_getsigningtimeformat, xpsdigitalsignature/IXpsSignature::GetSigningTimeFormat

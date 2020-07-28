@@ -1,9 +1,10 @@
 ---
 UID: NF:drt.DrtRegisterKey
 title: DrtRegisterKey function (drt.h)
-description: The DrtRegisterKey function registers a key in the DRT.helpviewer_keywords: ["DrtRegisterKey","DrtRegisterKey function [Peer Networking]","drt/DrtRegisterKey","p2p.drtregisterkey"]
+description: The DrtRegisterKey function registers a key in the DRT.
+helpviewer_keywords: ["DrtRegisterKey","DrtRegisterKey function [Peer Networking]","drt/DrtRegisterKey","p2p.drtregisterkey"]
 old-location: p2p\drtregisterkey.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
 ms.date: 12/05/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey

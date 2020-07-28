@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerGetDevCapsW
 title: mixerGetDevCapsW function (mmeapi.h)
-description: The mixerGetDevCaps function queries a specified mixer device to determine its capabilities.helpviewer_keywords: ["_win32_mixerGetDevCaps","mixerGetDevCaps","mixerGetDevCaps function [Windows Multimedia]","mixerGetDevCapsA","mixerGetDevCapsW","mmeapi/mixerGetDevCaps","mmeapi/mixerGetDevCapsA","mmeapi/mixerGetDevCapsW","multimedia.mixergetdevcaps"]
+description: The mixerGetDevCaps function queries a specified mixer device to determine its capabilities.
+helpviewer_keywords: ["_win32_mixerGetDevCaps","mixerGetDevCaps","mixerGetDevCaps function [Windows Multimedia]","mixerGetDevCapsA","mixerGetDevCapsW","mmeapi/mixerGetDevCaps","mmeapi/mixerGetDevCapsA","mmeapi/mixerGetDevCapsW","multimedia.mixergetdevcaps"]
 old-location: multimedia\mixergetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: e3403be8-f3a8-4aab-8498-0556585bc4dd
@@ -141,6 +142,10 @@ This function also accepts a mixer device handle returned by the <a href="https:
 
 
 
+
+
+> [!NOTE]
+> The mmeapi.h header defines mixerGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

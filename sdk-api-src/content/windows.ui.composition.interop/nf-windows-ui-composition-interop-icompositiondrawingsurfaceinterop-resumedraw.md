@@ -1,9 +1,10 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.ResumeDraw
 title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
-description: Resumes drawing on the surface object.helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","ResumeDraw method","ICompositionDrawingSurfaceInterop.ResumeDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::ResumeDraw","ICompositionDrawingSurfaceInterop::composition","ResumeDraw","ResumeDraw method","ResumeDraw method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_resumedraw","windows/ICompositionDrawingSurfaceInterop::ResumeDraw"]
+description: Resumes drawing on the surface object.
+helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","ResumeDraw method","ICompositionDrawingSurfaceInterop.ResumeDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::ResumeDraw","ICompositionDrawingSurfaceInterop::composition","ResumeDraw","ResumeDraw method","ResumeDraw method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_resumedraw","windows/ICompositionDrawingSurfaceInterop::ResumeDraw"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resumedraw.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: 083B2EDB-2C0D-4AEB-B955-A73C47960B09
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,ResumeDraw method, ICompositionDrawingSurfaceInterop.ResumeDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::ResumeDraw, ICompositionDrawingSurfaceInterop::composition, ResumeDraw, ResumeDraw method, ResumeDraw method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_resumedraw, windows/ICompositionDrawingSurfaceInterop::ResumeDraw

@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredPackAuthenticationBufferA
 title: CredPackAuthenticationBufferA function (wincred.h)
-description: Converts a string user name and password into an authentication buffer.helpviewer_keywords: ["CRED_PACK_GENERIC_CREDENTIALS","CRED_PACK_ID_PROVIDER_CREDENTIALS","CRED_PACK_PROTECTED_CREDENTIALS","CRED_PACK_WOW_BUFFER","CredPackAuthenticationBuffer","CredPackAuthenticationBuffer function [Security]","CredPackAuthenticationBufferA","CredPackAuthenticationBufferW","security.credpackauthenticationbuffer","wincred/CredPackAuthenticationBuffer","wincred/CredPackAuthenticationBufferA","wincred/CredPackAuthenticationBufferW"]
+description: Converts a string user name and password into an authentication buffer.
+helpviewer_keywords: ["CRED_PACK_GENERIC_CREDENTIALS","CRED_PACK_ID_PROVIDER_CREDENTIALS","CRED_PACK_PROTECTED_CREDENTIALS","CRED_PACK_WOW_BUFFER","CredPackAuthenticationBuffer","CredPackAuthenticationBuffer function [Security]","CredPackAuthenticationBufferA","CredPackAuthenticationBufferW","security.credpackauthenticationbuffer","wincred/CredPackAuthenticationBuffer","wincred/CredPackAuthenticationBufferA","wincred/CredPackAuthenticationBufferW"]
 old-location: security\credpackauthenticationbuffer.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 48ffdd7a-1969-4f6a-bbc7-2826e21ea052
 ms.date: 12/05/2018
 ms.keywords: CRED_PACK_GENERIC_CREDENTIALS, CRED_PACK_ID_PROVIDER_CREDENTIALS, CRED_PACK_PROTECTED_CREDENTIALS, CRED_PACK_WOW_BUFFER, CredPackAuthenticationBuffer, CredPackAuthenticationBuffer function [Security], CredPackAuthenticationBufferA, CredPackAuthenticationBufferW, security.credpackauthenticationbuffer, wincred/CredPackAuthenticationBuffer, wincred/CredPackAuthenticationBufferA, wincred/CredPackAuthenticationBufferW
@@ -182,4 +183,9 @@ The buffer provided by <i>pPackedCredentials</i> is too small.
  
 
 
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CredPackAuthenticationBuffer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

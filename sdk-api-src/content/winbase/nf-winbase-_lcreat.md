@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase._lcreat
 title: _lcreat function (winbase.h)
-description: Creates or opens the specified file.helpviewer_keywords: ["_lcreat","_lcreat function [Windows API]","winbase/_lcreat","winprog._lcreat"]
+description: Creates or opens the specified file.
+helpviewer_keywords: ["_lcreat","_lcreat function [Windows API]","winbase/_lcreat","winprog._lcreat"]
 old-location: winprog\_lcreat.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 89e19823-c720-4bfc-95d5-18942573dd94
 ms.date: 12/05/2018
 ms.keywords: _lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat

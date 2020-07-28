@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.Present
 title: IDXGISwapChain::Present (dxgi.h)
-description: Presents a rendered image to the user.helpviewer_keywords: ["5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c","IDXGISwapChain interface [DXGI]","Present method","IDXGISwapChain.Present","IDXGISwapChain::Present","Present","Present method [DXGI]","Present method [DXGI]","IDXGISwapChain interface","direct3ddxgi.idxgiswapchain_present","dxgi/IDXGISwapChain::Present"]
+description: Presents a rendered image to the user.
+helpviewer_keywords: ["5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c","IDXGISwapChain interface [DXGI]","Present method","IDXGISwapChain.Present","IDXGISwapChain::Present","Present","Present method [DXGI]","Present method [DXGI]","IDXGISwapChain interface","direct3ddxgi.idxgiswapchain_present","dxgi/IDXGISwapChain::Present"]
 old-location: direct3ddxgi\idxgiswapchain_present.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_present.htm

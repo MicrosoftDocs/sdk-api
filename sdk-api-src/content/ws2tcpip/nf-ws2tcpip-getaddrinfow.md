@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoW
 title: GetAddrInfoW function (ws2tcpip.h)
-description: Provides protocol-independent translation from a Unicode host name to an address.helpviewer_keywords: ["GetAddrInfoW","GetAddrInfoW function [Winsock]","winsock.getaddrinfow","ws2tcpip/GetAddrInfoW"]
+description: Provides protocol-independent translation from a Unicode host name to an address.
+helpviewer_keywords: ["GetAddrInfoW","GetAddrInfoW function [Winsock]","winsock.getaddrinfow","ws2tcpip/GetAddrInfoW"]
 old-location: winsock\getaddrinfow.htm
 tech.root: WinSock
 ms.assetid: 82436a88-5b37-4758-a5c9-b60dd1cbc36c
@@ -781,6 +782,10 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 
 
+
+
+> [!NOTE]
+> The ws2tcpip.h header defines GetAddrInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

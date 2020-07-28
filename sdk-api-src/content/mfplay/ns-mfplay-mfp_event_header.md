@@ -1,9 +1,10 @@
 ---
 UID: NS:mfplay.MFP_EVENT_HEADER
 title: MFP_EVENT_HEADER (mfplay.h)
-description: Contains information that is common to every type of MFPlay event.helpviewer_keywords: ["MFP_EVENT_HEADER","MFP_EVENT_HEADER structure [Media Foundation]","mf.mfp_event_header","mfplay/MFP_EVENT_HEADER"]
+description: Contains information that is common to every type of MFPlay event.
+helpviewer_keywords: ["MFP_EVENT_HEADER","MFP_EVENT_HEADER structure [Media Foundation]","mf.mfp_event_header","mfplay/MFP_EVENT_HEADER"]
 old-location: mf\mfp_event_header.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER

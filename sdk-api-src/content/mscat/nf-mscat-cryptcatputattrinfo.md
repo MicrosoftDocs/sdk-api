@@ -4,7 +4,7 @@ title: CryptCATPutAttrInfo function (mscat.h)
 description: Allocates memory for an attribute and adds it to a catalog member.
 helpviewer_keywords: ["CRYPTCAT_ATTR_AUTHENTICATED","CRYPTCAT_ATTR_DATAASCII","CRYPTCAT_ATTR_DATABASE64","CRYPTCAT_ATTR_DATAREPLACE","CRYPTCAT_ATTR_NAMEASCII","CRYPTCAT_ATTR_NAMEOBJID","CRYPTCAT_ATTR_UNAUTHENTICATED","CryptCATPutAttrInfo","CryptCATPutAttrInfo function [Security]","mscat/CryptCATPutAttrInfo","security.cryptcatputattrinfo"]
 old-location: security\cryptcatputattrinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 13d5cdb4-2a15-4442-9e11-c3f76ca03f7e
 ms.date: 12/05/2018
 ms.keywords: CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, CryptCATPutAttrInfo, CryptCATPutAttrInfo function [Security], mscat/CryptCATPutAttrInfo, security.cryptcatputattrinfo

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetUserData
 title: IMFPMediaItem::GetUserData (mfplay.h)
-description: Gets the application-defined value stored in the media item.helpviewer_keywords: ["GetUserData","GetUserData method [Media Foundation]","GetUserData method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetUserData method","IMFPMediaItem.GetUserData","IMFPMediaItem::GetUserData","mf.imfpmediaitem_getuserdata","mfplay/IMFPMediaItem::GetUserData"]
+description: Gets the application-defined value stored in the media item.
+helpviewer_keywords: ["GetUserData","GetUserData method [Media Foundation]","GetUserData method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetUserData method","IMFPMediaItem.GetUserData","IMFPMediaItem::GetUserData","mf.imfpmediaitem_getuserdata","mfplay/IMFPMediaItem::GetUserData"]
 old-location: mf\imfpmediaitem_getuserdata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: aa99ced1-c32b-4bf5-b29a-e16eceddfed1
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [Media Foundation], GetUserData method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetUserData method, IMFPMediaItem.GetUserData, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData

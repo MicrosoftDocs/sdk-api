@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetMonitor
 title: IVMRMonitorConfig::GetMonitor (strmif.h)
-description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.helpviewer_keywords: ["GetMonitor","GetMonitor method [DirectShow]","GetMonitor method [DirectShow]","IVMRMonitorConfig interface","IVMRMonitorConfig interface [DirectShow]","GetMonitor method","IVMRMonitorConfig.GetMonitor","IVMRMonitorConfig::GetMonitor","IVMRMonitorConfigGetMonitor","dshow.ivmrmonitorconfig_getmonitor","strmif/IVMRMonitorConfig::GetMonitor"]
+description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.
+helpviewer_keywords: ["GetMonitor","GetMonitor method [DirectShow]","GetMonitor method [DirectShow]","IVMRMonitorConfig interface","IVMRMonitorConfig interface [DirectShow]","GetMonitor method","IVMRMonitorConfig.GetMonitor","IVMRMonitorConfig::GetMonitor","IVMRMonitorConfigGetMonitor","dshow.ivmrmonitorconfig_getmonitor","strmif/IVMRMonitorConfig::GetMonitor"]
 old-location: dshow\ivmrmonitorconfig_getmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8d71f1d1-4f8b-4ff8-9a4f-d25050821622
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetMonitor method, IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor

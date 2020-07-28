@@ -1,9 +1,10 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterComplete
 title: CertSrvRestoreRegisterComplete function (certbcli.h)
-description: Completes a registered Certificate Services restore operation.helpviewer_keywords: ["CertSrvRestoreRegisterComplete","CertSrvRestoreRegisterComplete function [Security]","_certsrv_certsrvrestoreregistercomplete","certbcli/CertSrvRestoreRegisterComplete","security.certsrvrestoreregistercomplete"]
+description: Completes a registered Certificate Services restore operation.
+helpviewer_keywords: ["CertSrvRestoreRegisterComplete","CertSrvRestoreRegisterComplete function [Security]","_certsrv_certsrvrestoreregistercomplete","certbcli/CertSrvRestoreRegisterComplete","security.certsrvrestoreregistercomplete"]
 old-location: security\certsrvrestoreregistercomplete.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete

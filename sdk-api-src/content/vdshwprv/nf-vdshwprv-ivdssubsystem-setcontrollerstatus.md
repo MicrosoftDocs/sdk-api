@@ -1,9 +1,10 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.SetControllerStatus
 title: IVdsSubSystem::SetControllerStatus (vdshwprv.h)
-description: Sets the status (either online or offline) of the controllers in the subsystem.helpviewer_keywords: ["IVdsSubSystem interface [VDS]","SetControllerStatus method","IVdsSubSystem.SetControllerStatus","IVdsSubSystem::SetControllerStatus","SetControllerStatus","SetControllerStatus method [VDS]","SetControllerStatus method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_setcontrollerstatus","vds/IVdsSubSystem::SetControllerStatus","vdshwprv/IVdsSubSystem::SetControllerStatus"]
+description: Sets the status (either online or offline) of the controllers in the subsystem.
+helpviewer_keywords: ["IVdsSubSystem interface [VDS]","SetControllerStatus method","IVdsSubSystem.SetControllerStatus","IVdsSubSystem::SetControllerStatus","SetControllerStatus","SetControllerStatus method [VDS]","SetControllerStatus method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_setcontrollerstatus","vds/IVdsSubSystem::SetControllerStatus","vdshwprv/IVdsSubSystem::SetControllerStatus"]
 old-location: base\ivdssubsystem_setcontrollerstatus.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 080a48a5-1c25-440a-ad3c-528cdaef40e9
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSystem.SetControllerStatus, IVdsSubSystem::SetControllerStatus, SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus

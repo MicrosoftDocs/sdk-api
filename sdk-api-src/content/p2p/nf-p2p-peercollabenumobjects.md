@@ -4,7 +4,7 @@ title: PeerCollabEnumObjects function (p2p.h)
 description: Returns the handle to an enumeration that contains the peer objects associated with a specific peer's endpoint.
 helpviewer_keywords: ["PeerCollabEnumObjects","PeerCollabEnumObjects function [Peer Networking]","p2p.peercollabenumobjects","p2p/PeerCollabEnumObjects"]
 old-location: p2p\peercollabenumobjects.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: a9ac2603-b007-4d1c-ac11-c72aeb06e663
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumObjects, PeerCollabEnumObjects function [Peer Networking], p2p.peercollabenumobjects, p2p/PeerCollabEnumObjects

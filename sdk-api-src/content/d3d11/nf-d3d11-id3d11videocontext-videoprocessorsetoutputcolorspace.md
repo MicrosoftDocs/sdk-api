@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputColorSpace
 title: ID3D11VideoContext::VideoProcessorSetOutputColorSpace (d3d11.h)
-description: Sets the output color space for the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputColorSpace method","ID3D11VideoContext.VideoProcessorSetOutputColorSpace","ID3D11VideoContext::VideoProcessorSetOutputColorSpace","VideoProcessorSetOutputColorSpace","VideoProcessorSetOutputColorSpace method [Media Foundation]","VideoProcessorSetOutputColorSpace method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputColorSpace","mf.id3d11videocontext_videoprocessorsetoutputcolorspace"]
+description: Sets the output color space for the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputColorSpace method","ID3D11VideoContext.VideoProcessorSetOutputColorSpace","ID3D11VideoContext::VideoProcessorSetOutputColorSpace","VideoProcessorSetOutputColorSpace","VideoProcessorSetOutputColorSpace method [Media Foundation]","VideoProcessorSetOutputColorSpace method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputColorSpace","mf.id3d11videocontext_videoprocessorsetoutputcolorspace"]
 old-location: mf\id3d11videocontext_videoprocessorsetoutputcolorspace.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5B4B2C26-CFC8-43BD-A889-8838DEF3582A
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputColorSpace method, ID3D11VideoContext.VideoProcessorSetOutputColorSpace, ID3D11VideoContext::VideoProcessorSetOutputColorSpace, VideoProcessorSetOutputColorSpace, VideoProcessorSetOutputColorSpace method [Media Foundation], VideoProcessorSetOutputColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputColorSpace, mf.id3d11videocontext_videoprocessorsetoutputcolorspace

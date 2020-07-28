@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetSizeOfDataModule
 title: IISDB_CDT::GetSizeOfDataModule (dvbsiparser.h)
-description: Gets the size of a data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).helpviewer_keywords: ["GetSizeOfDataModule","GetSizeOfDataModule method [Microsoft TV Technologies]","GetSizeOfDataModule method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetSizeOfDataModule method","IISDB_CDT.GetSizeOfDataModule","IISDB_CDT::GetSizeOfDataModule","dvbsiparser/IISDB_CDT::GetSizeOfDataModule","mstv.iisdb_cdt_getsizeofdatamodule"]
+description: Gets the size of a data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+helpviewer_keywords: ["GetSizeOfDataModule","GetSizeOfDataModule method [Microsoft TV Technologies]","GetSizeOfDataModule method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetSizeOfDataModule method","IISDB_CDT.GetSizeOfDataModule","IISDB_CDT::GetSizeOfDataModule","dvbsiparser/IISDB_CDT::GetSizeOfDataModule","mstv.iisdb_cdt_getsizeofdatamodule"]
 old-location: mstv\iisdb_cdt_getsizeofdatamodule.htm
 tech.root: mstv
 ms.assetid: c05a8c14-f0da-49d7-be34-1cac435a98da

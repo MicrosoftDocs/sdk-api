@@ -1,7 +1,8 @@
 ---
 UID: NS:mmc._MMC_RESTORE_VIEW
 title: MMC_RESTORE_VIEW (mmc.h)
-description: The MMC_RESTORE_VIEW structure is introduced in MMC 1.1.helpviewer_keywords: ["MMC_RESTORE_VIEW","MMC_RESTORE_VIEW structure [MMC]","_slate_mmc_restore_view","mmc.mmc_restore_view","mmc/MMC_RESTORE_VIEW"]
+description: The MMC_RESTORE_VIEW structure is introduced in MMC 1.1.
+helpviewer_keywords: ["MMC_RESTORE_VIEW","MMC_RESTORE_VIEW structure [MMC]","_slate_mmc_restore_view","mmc.mmc_restore_view","mmc/MMC_RESTORE_VIEW"]
 old-location: mmc\mmc_restore_view.htm
 tech.root: mmc
 ms.assetid: 349357e5-5d60-491f-b267-b18a52b4c927

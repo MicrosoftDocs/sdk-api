@@ -4,7 +4,7 @@ title: WSD_CONFIG_PARAM (wsdbase.h)
 description: Represents configuration parameters for creating WSDAPI objects.
 helpviewer_keywords: ["*PWSD_CONFIG_PARAM","WSD_CONFIG_PARAM","WSD_CONFIG_PARAM structure","_WSD_CONFIG_PARAM","ncd.wsd_config_param","wsdbase/WSD_CONFIG_PARAM"]
 old-location: ncd\wsd_config_param.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 58dc3e11-586e-4185-b1d0-4249b4bfb252
 ms.date: 12/05/2018
 ms.keywords: '*PWSD_CONFIG_PARAM, WSD_CONFIG_PARAM, WSD_CONFIG_PARAM structure, _WSD_CONFIG_PARAM, ncd.wsd_config_param, wsdbase/WSD_CONFIG_PARAM'

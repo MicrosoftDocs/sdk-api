@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_BaseURL
 title: IAMMediaContent::get_BaseURL (qnetwork.h)
-description: The get_BaseURL method gets a base URL for the related web content.helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_BaseURL method","IAMMediaContent.get_BaseURL","IAMMediaContent::get_BaseURL","IAMMediaContentget_BaseURL","dshow.iammediacontent_get_baseurl","get_BaseURL","get_BaseURL method [DirectShow]","get_BaseURL method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_BaseURL"]
+description: The get_BaseURL method gets a base URL for the related web content.
+helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_BaseURL method","IAMMediaContent.get_BaseURL","IAMMediaContent::get_BaseURL","IAMMediaContentget_BaseURL","dshow.iammediacontent_get_baseurl","get_BaseURL","get_BaseURL method [DirectShow]","get_BaseURL method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_BaseURL"]
 old-location: dshow\iammediacontent_get_baseurl.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0fd88d09-79bf-45c6-93b4-1f57752ed1cd
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_BaseURL method, IAMMediaContent.get_BaseURL, IAMMediaContent::get_BaseURL, IAMMediaContentget_BaseURL, dshow.iammediacontent_get_baseurl, get_BaseURL, get_BaseURL method [DirectShow], get_BaseURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_BaseURL

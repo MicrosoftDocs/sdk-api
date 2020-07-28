@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Next
 title: IEnumSearchRoots::Next (searchapi.h)
-description: Retrieves the specified number of ISearchRoot elements.helpviewer_keywords: ["IEnumSearchRoots interface [search]","Next method","IEnumSearchRoots.Next","IEnumSearchRoots::Next","Next","Next method [search]","Next method [search]","IEnumSearchRoots interface","_search_IEnumSearchRoots_Next","search._search_IEnumSearchRoots_Next","searchapi/IEnumSearchRoots::Next"]
+description: Retrieves the specified number of ISearchRoot elements.
+helpviewer_keywords: ["IEnumSearchRoots interface [search]","Next method","IEnumSearchRoots.Next","IEnumSearchRoots::Next","Next","Next method [search]","Next method [search]","IEnumSearchRoots interface","_search_IEnumSearchRoots_Next","search._search_IEnumSearchRoots_Next","searchapi/IEnumSearchRoots::Next"]
 old-location: search\_search_IEnumSearchRoots_Next.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
@@ -92,10 +93,4 @@ Returns S_OK if successful, S_FALSE if there were not enough items left in the e
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-        
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

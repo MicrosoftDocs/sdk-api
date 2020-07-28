@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.DIBSIZE
 title: DIBSIZE macro (amvideo.h)
-description: The DIBSIZE macro calculates the number of bytes required by a device-independent bitmap (DIB).helpviewer_keywords: ["DIBSIZE","DIBSIZE macro [DirectShow]","amvideo/DIBSIZE","dshow.dibsize"]
+description: The DIBSIZE macro calculates the number of bytes required by a device-independent bitmap (DIB).
+helpviewer_keywords: ["DIBSIZE","DIBSIZE macro [DirectShow]","amvideo/DIBSIZE","dshow.dibsize"]
 old-location: dshow\dibsize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a1feaa57-f403-46d0-b9a4-56e94ff2ceee
 ms.date: 12/05/2018
 ms.keywords: DIBSIZE, DIBSIZE macro [DirectShow], amvideo/DIBSIZE, dshow.dibsize

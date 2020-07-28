@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationInterpolator
 title: IUIAnimationInterpolator (uianimation.h)
-description: Defines methods for creating a custom interpolator.helpviewer_keywords: ["IUIAnimationInterpolator","IUIAnimationInterpolator interface [Windows Animation]","IUIAnimationInterpolator interface [Windows Animation]","described","uianimation.iuianimationinterpolator","uianimation/IUIAnimationInterpolator"]
+description: Defines methods for creating a custom interpolator.
+helpviewer_keywords: ["IUIAnimationInterpolator","IUIAnimationInterpolator interface [Windows Animation]","IUIAnimationInterpolator interface [Windows Animation]","described","uianimation.iuianimationinterpolator","uianimation/IUIAnimationInterpolator"]
 old-location: uianimation\iuianimationinterpolator.htm
 tech.root: UIAnimation
 ms.assetid: 8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc

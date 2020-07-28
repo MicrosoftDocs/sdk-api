@@ -1,9 +1,10 @@
 ---
 UID: NF:handleapi.CompareObjectHandles
 title: CompareObjectHandles function (handleapi.h)
-description: Compares two object handles to determine if they refer to the same underlying kernel object.helpviewer_keywords: ["CompareObjectHandles","CompareObjectHandles function","base.compareobjecthandles","handleapi/CompareObjectHandles"]
+description: Compares two object handles to determine if they refer to the same underlying kernel object.
+helpviewer_keywords: ["CompareObjectHandles","CompareObjectHandles function","base.compareobjecthandles","handleapi/CompareObjectHandles"]
 old-location: base\compareobjecthandles.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
 ms.date: 12/05/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles

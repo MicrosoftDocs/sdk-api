@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Instance
 title: MI_Instance (mi.h)
-description: This structure represents a CIM instance. This object should not be accessed directly. Instead, the MI_Instance_* functions should be used.helpviewer_keywords: ["MI_Instance","MI_Instance structure [Windows Management Infrastructure (MI)]","mi/MI_Instance","wmi._mi_instance","wmi_v2.mi_instance"]
+description: This structure represents a CIM instance. This object should not be accessed directly. Instead, the MI_Instance_* functions should be used.
+helpviewer_keywords: ["MI_Instance","MI_Instance structure [Windows Management Infrastructure (MI)]","mi/MI_Instance","wmi._mi_instance","wmi_v2.mi_instance"]
 old-location: wmi_v2\mi_instance.htm
 tech.root: wmi_v2
 ms.assetid: 3dce1817-7995-49e5-8cc0-ee9496665e5c

@@ -1,9 +1,10 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS
 title: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS (cfapi.h)
-description: Flags for fetching information about the content of a placeholder file or directory.helpviewer_keywords: ["CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS","CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration","CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE","cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS","cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE","cloudApi.cf_callback_fetch_placeholders_flags"]
+description: Flags for fetching information about the content of a placeholder file or directory.
+helpviewer_keywords: ["CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS","CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration","CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE","cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS","cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE","cloudApi.cf_callback_fetch_placeholders_flags"]
 old-location: cloudapi\cf_callback_fetch_placeholders_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: CD90EB49-8C39-49DD-8688-CBDF77B1EA92
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cloudApi.cf_callback_fetch_placeholders_flags

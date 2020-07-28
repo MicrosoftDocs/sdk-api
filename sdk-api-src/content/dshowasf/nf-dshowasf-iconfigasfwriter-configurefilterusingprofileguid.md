@@ -1,9 +1,10 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfileGuid
 title: IConfigAsfWriter::ConfigureFilterUsingProfileGuid (dshowasf.h)
-description: The ConfigureFilterUsingProfileGuid method sets a predefined system profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.helpviewer_keywords: ["ConfigureFilterUsingProfileGuid","ConfigureFilterUsingProfileGuid method [DirectShow]","ConfigureFilterUsingProfileGuid method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","ConfigureFilterUsingProfileGuid method","IConfigAsfWriter.ConfigureFilterUsingProfileGuid","IConfigAsfWriter::ConfigureFilterUsingProfileGuid","IConfigAsfWriterConfigureFilterUsingProfileGuid","dshow.iconfigasfwriter_configurefilterusingprofileguid","dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileGuid"]
+description: The ConfigureFilterUsingProfileGuid method sets a predefined system profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.
+helpviewer_keywords: ["ConfigureFilterUsingProfileGuid","ConfigureFilterUsingProfileGuid method [DirectShow]","ConfigureFilterUsingProfileGuid method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","ConfigureFilterUsingProfileGuid method","IConfigAsfWriter.ConfigureFilterUsingProfileGuid","IConfigAsfWriter::ConfigureFilterUsingProfileGuid","IConfigAsfWriterConfigureFilterUsingProfileGuid","dshow.iconfigasfwriter_configurefilterusingprofileguid","dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileGuid"]
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileguid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8cfb3b22-aa6b-42e0-bbb5-876932e8bd82
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfileGuid, ConfigureFilterUsingProfileGuid method [DirectShow], ConfigureFilterUsingProfileGuid method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileGuid method, IConfigAsfWriter.ConfigureFilterUsingProfileGuid, IConfigAsfWriter::ConfigureFilterUsingProfileGuid, IConfigAsfWriterConfigureFilterUsingProfileGuid, dshow.iconfigasfwriter_configurefilterusingprofileguid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileGuid

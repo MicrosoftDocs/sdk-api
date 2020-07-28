@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.DeleteCriticalSection
 title: DeleteCriticalSection function (synchapi.h)
-description: Releases all resources used by an unowned critical section object.helpviewer_keywords: ["DeleteCriticalSection","DeleteCriticalSection function","_win32_deletecriticalsection","base.deletecriticalsection","synchapi/DeleteCriticalSection","winbase/DeleteCriticalSection"]
+description: Releases all resources used by an unowned critical section object.
+helpviewer_keywords: ["DeleteCriticalSection","DeleteCriticalSection function","_win32_deletecriticalsection","base.deletecriticalsection","synchapi/DeleteCriticalSection","winbase/DeleteCriticalSection"]
 old-location: base\deletecriticalsection.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 97e29fc3-b155-448e-aaa9-19f0fc2d841e
 ms.date: 12/05/2018
 ms.keywords: DeleteCriticalSection, DeleteCriticalSection function, _win32_deletecriticalsection, base.deletecriticalsection, synchapi/DeleteCriticalSection, winbase/DeleteCriticalSection

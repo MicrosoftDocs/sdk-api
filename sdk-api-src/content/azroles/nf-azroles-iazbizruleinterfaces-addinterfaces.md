@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.AddInterfaces
 title: IAzBizRuleInterfaces::AddInterfaces (azroles.h)
-description: Adds the specified interfaces to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.helpviewer_keywords: ["AddInterfaces","AddInterfaces method [Security]","AddInterfaces method [Security]","IAzBizRuleInterfaces interface","IAzBizRuleInterfaces interface [Security]","AddInterfaces method","IAzBizRuleInterfaces.AddInterfaces","IAzBizRuleInterfaces::AddInterfaces","azroles/IAzBizRuleInterfaces::AddInterfaces","security.iazbizruleinterfaces_addinterfaces_method"]
+description: Adds the specified interfaces to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
+helpviewer_keywords: ["AddInterfaces","AddInterfaces method [Security]","AddInterfaces method [Security]","IAzBizRuleInterfaces interface","IAzBizRuleInterfaces interface [Security]","AddInterfaces method","IAzBizRuleInterfaces.AddInterfaces","IAzBizRuleInterfaces::AddInterfaces","azroles/IAzBizRuleInterfaces::AddInterfaces","security.iazbizruleinterfaces_addinterfaces_method"]
 old-location: security\iazbizruleinterfaces_addinterfaces_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 91822c84-4daa-4d3c-bbe2-9ceb7fc642b2
 ms.date: 12/05/2018
 ms.keywords: AddInterfaces, AddInterfaces method [Security], AddInterfaces method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterfaces method, IAzBizRuleInterfaces.AddInterfaces, IAzBizRuleInterfaces::AddInterfaces, azroles/IAzBizRuleInterfaces::AddInterfaces, security.iazbizruleinterfaces_addinterfaces_method

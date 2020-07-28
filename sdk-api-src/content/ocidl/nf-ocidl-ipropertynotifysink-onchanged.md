@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPropertyNotifySink.OnChanged
 title: IPropertyNotifySink::OnChanged (ocidl.h)
-description: Notifies a sink that a bindable property has changed.helpviewer_keywords: ["IPropertyNotifySink interface [COM]","OnChanged method","IPropertyNotifySink.OnChanged","IPropertyNotifySink::OnChanged","OnChanged","OnChanged method [COM]","OnChanged method [COM]","IPropertyNotifySink interface","_ctrl_ipropertynotifysink_onchanged","com.ipropertynotifysink_onchanged","ocidl/IPropertyNotifySink::OnChanged"]
+description: Notifies a sink that a bindable property has changed.
+helpviewer_keywords: ["IPropertyNotifySink interface [COM]","OnChanged method","IPropertyNotifySink.OnChanged","IPropertyNotifySink::OnChanged","OnChanged","OnChanged method [COM]","OnChanged method [COM]","IPropertyNotifySink interface","_ctrl_ipropertynotifysink_onchanged","com.ipropertynotifysink_onchanged","ocidl/IPropertyNotifySink::OnChanged"]
 old-location: com\ipropertynotifysink_onchanged.htm
 tech.root: com
 ms.assetid: 71ab5206-5127-45f1-a2b5-3fbcc867d678

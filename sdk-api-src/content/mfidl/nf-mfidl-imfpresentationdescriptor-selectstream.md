@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.SelectStream
 title: IMFPresentationDescriptor::SelectStream (mfidl.h)
-description: Selects a stream in the presentation.helpviewer_keywords: ["3f0eaace-9d85-4999-bb3f-34c268dfea2c","IMFPresentationDescriptor interface [Media Foundation]","SelectStream method","IMFPresentationDescriptor.SelectStream","IMFPresentationDescriptor::SelectStream","SelectStream","SelectStream method [Media Foundation]","SelectStream method [Media Foundation]","IMFPresentationDescriptor interface","mf.imfpresentationdescriptor_selectstream","mfidl/IMFPresentationDescriptor::SelectStream"]
+description: Selects a stream in the presentation.
+helpviewer_keywords: ["3f0eaace-9d85-4999-bb3f-34c268dfea2c","IMFPresentationDescriptor interface [Media Foundation]","SelectStream method","IMFPresentationDescriptor.SelectStream","IMFPresentationDescriptor::SelectStream","SelectStream","SelectStream method [Media Foundation]","SelectStream method [Media Foundation]","IMFPresentationDescriptor interface","mf.imfpresentationdescriptor_selectstream","mfidl/IMFPresentationDescriptor::SelectStream"]
 old-location: mf\imfpresentationdescriptor_selectstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3f0eaace-9d85-4999-bb3f-34c268dfea2c
 ms.date: 12/05/2018
 ms.keywords: 3f0eaace-9d85-4999-bb3f-34c268dfea2c, IMFPresentationDescriptor interface [Media Foundation],SelectStream method, IMFPresentationDescriptor.SelectStream, IMFPresentationDescriptor::SelectStream, SelectStream, SelectStream method [Media Foundation], SelectStream method [Media Foundation],IMFPresentationDescriptor interface, mf.imfpresentationdescriptor_selectstream, mfidl/IMFPresentationDescriptor::SelectStream

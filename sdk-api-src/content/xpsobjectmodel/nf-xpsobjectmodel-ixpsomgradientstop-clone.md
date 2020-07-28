@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.Clone
 title: IXpsOMGradientStop::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the IXpsOMGradientStop interface.helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMGradientStop interface","IXpsOMGradientStop interface [XPS Documents and Packaging]","Clone method","IXpsOMGradientStop.Clone","IXpsOMGradientStop::Clone","xps.ixpsomgradientstop_clone","xpsobjectmodel/IXpsOMGradientStop::Clone"]
+description: Makes a deep copy of the IXpsOMGradientStop interface.
+helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMGradientStop interface","IXpsOMGradientStop interface [XPS Documents and Packaging]","Clone method","IXpsOMGradientStop.Clone","IXpsOMGradientStop::Clone","xps.ixpsomgradientstop_clone","xpsobjectmodel/IXpsOMGradientStop::Clone"]
 old-location: xps\ixpsomgradientstop_clone.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],Clone method, IXpsOMGradientStop.Clone, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetColumn
 title: ListView_GetColumn macro (commctrl.h)
-description: Gets the attributes of a list-view control's column. You can use this macro or send the LVM_GETCOLUMN message explicitly.helpviewer_keywords: ["ListView_GetColumn","ListView_GetColumn macro [Windows Controls]","_win32_ListView_GetColumn","_win32_ListView_GetColumn_cpp","commctrl/ListView_GetColumn","controls.ListView_GetColumn","controls._win32_ListView_GetColumn"]
+description: Gets the attributes of a list-view control's column. You can use this macro or send the LVM_GETCOLUMN message explicitly.
+helpviewer_keywords: ["ListView_GetColumn","ListView_GetColumn macro [Windows Controls]","_win32_ListView_GetColumn","_win32_ListView_GetColumn_cpp","commctrl/ListView_GetColumn","controls.ListView_GetColumn","controls._win32_ListView_GetColumn"]
 old-location: controls\ListView_GetColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumn.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
 title: ICreateErrorInfo::SetHelpContext (oaidl.h)
-description: Sets the Help context identifier (ID) for the error.helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetHelpContext method","ICreateErrorInfo.SetHelpContext","ICreateErrorInfo::SetHelpContext","SetHelpContext","SetHelpContext method [Automation]","SetHelpContext method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetHelpContext","automat.icreateerrorinfo_sethelpcontext","oaidl/ICreateErrorInfo::SetHelpContext"]
+description: Sets the Help context identifier (ID) for the error.
+helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetHelpContext method","ICreateErrorInfo.SetHelpContext","ICreateErrorInfo::SetHelpContext","SetHelpContext","SetHelpContext method [Automation]","SetHelpContext method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetHelpContext","automat.icreateerrorinfo_sethelpcontext","oaidl/ICreateErrorInfo::SetHelpContext"]
 old-location: automat\icreateerrorinfo_sethelpcontext.htm
 tech.root: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213

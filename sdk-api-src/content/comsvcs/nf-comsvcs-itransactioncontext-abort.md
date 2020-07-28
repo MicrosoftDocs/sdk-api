@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ITransactionContext.Abort
 title: ITransactionContext::Abort (comsvcs.h)
-description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.helpviewer_keywords: ["Abort","Abort method [COM+]","Abort method [COM+]","ITransactionContext interface","ITransactionContext interface [COM+]","Abort method","ITransactionContext.Abort","ITransactionContext::Abort","_cos_ITransactionContext_Abort","comsvcs/ITransactionContext::Abort","cos.itransactioncontext_abort"]
+description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
+helpviewer_keywords: ["Abort","Abort method [COM+]","Abort method [COM+]","ITransactionContext interface","ITransactionContext interface [COM+]","Abort method","ITransactionContext.Abort","ITransactionContext::Abort","_cos_ITransactionContext_Abort","comsvcs/ITransactionContext::Abort","cos.itransactioncontext_abort"]
 old-location: cos\itransactioncontext_abort.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d7ea7c31-225c-4eb1-a358-21c4dab1a1da
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Abort method, ITransactionContext.Abort, ITransactionContext::Abort, _cos_ITransactionContext_Abort, comsvcs/ITransactionContext::Abort, cos.itransactioncontext_abort

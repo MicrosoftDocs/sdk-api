@@ -4,7 +4,7 @@ title: GetTempPathW function (fileapi.h)
 description: Retrieves the path of the directory designated for temporary files.
 helpviewer_keywords: ["GetTempPath","GetTempPath function [Files]","GetTempPathA","GetTempPathW","_win32_gettemppath","base.gettemppath","fileapi/GetTempPath","fileapi/GetTempPathA","fileapi/GetTempPathW","fs.gettemppath","winbase/GetTempPath","winbase/GetTempPathA","winbase/GetTempPathW"]
 old-location: fs\gettemppath.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
 ms.date: 12/05/2018
 ms.keywords: GetTempPath, GetTempPath function [Files], GetTempPathA, GetTempPathW, _win32_gettemppath, base.gettemppath, fileapi/GetTempPath, fileapi/GetTempPathA, fileapi/GetTempPathW, fs.gettemppath, winbase/GetTempPath, winbase/GetTempPathA, winbase/GetTempPathW
@@ -194,6 +194,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetTempPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

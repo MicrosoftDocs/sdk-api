@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSampler
 title: ID3D12Device::CreateSampler (d3d12.h)
-description: Create a sampler object that encapsulates sampling information for a texture.helpviewer_keywords: ["CreateSampler","CreateSampler method","CreateSampler method","ID3D12Device interface","ID3D12Device interface","CreateSampler method","ID3D12Device.CreateSampler","ID3D12Device::CreateSampler","d3d12/ID3D12Device::CreateSampler","direct3d12.id3d12device_createsampler"]
+description: Create a sampler object that encapsulates sampling information for a texture.
+helpviewer_keywords: ["CreateSampler","CreateSampler method","CreateSampler method","ID3D12Device interface","ID3D12Device interface","CreateSampler method","ID3D12Device.CreateSampler","ID3D12Device::CreateSampler","d3d12/ID3D12Device::CreateSampler","direct3d12.id3d12device_createsampler"]
 old-location: direct3d12\id3d12device_createsampler.htm
 tech.root: direct3d12
 ms.assetid: 453B2D3D-843E-4DB0-BC47-59BD9C78BFD6

@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRAWMOUSE
 title: RAWMOUSE (winuser.h)
-description: Contains information about the state of the mouse.helpviewer_keywords: ["*LPRAWMOUSE","*PRAWMOUSE","LPRAWMOUSE","LPRAWMOUSE structure pointer [Keyboard and Mouse Input]","MOUSE_ATTRIBUTES_CHANGED","MOUSE_MOVE_ABSOLUTE","MOUSE_MOVE_RELATIVE","MOUSE_VIRTUAL_DESKTOP","PRAWMOUSE","PRAWMOUSE structure pointer [Keyboard and Mouse Input]","RAWMOUSE","RAWMOUSE structure [Keyboard and Mouse Input]","RI_MOUSE_BUTTON_1_DOWN","RI_MOUSE_BUTTON_1_UP","RI_MOUSE_BUTTON_2_DOWN","RI_MOUSE_BUTTON_2_UP","RI_MOUSE_BUTTON_3_DOWN","RI_MOUSE_BUTTON_3_UP","RI_MOUSE_BUTTON_4_DOWN","RI_MOUSE_BUTTON_4_UP","RI_MOUSE_BUTTON_5_DOWN","RI_MOUSE_BUTTON_5_UP","RI_MOUSE_LEFT_BUTTON_DOWN","RI_MOUSE_LEFT_BUTTON_UP","RI_MOUSE_MIDDLE_BUTTON_DOWN","RI_MOUSE_MIDDLE_BUTTON_UP","RI_MOUSE_RIGHT_BUTTON_DOWN","RI_MOUSE_RIGHT_BUTTON_UP","RI_MOUSE_WHEEL","_win32_RAWMOUSE_str","_win32_rawmouse_str_cpp","inputdev.rawmouse","winui._win32_rawmouse_str","winuser/LPRAWMOUSE","winuser/PRAWMOUSE","winuser/RAWMOUSE"]
+description: Contains information about the state of the mouse.
+helpviewer_keywords: ["*LPRAWMOUSE","*PRAWMOUSE","LPRAWMOUSE","LPRAWMOUSE structure pointer [Keyboard and Mouse Input]","MOUSE_ATTRIBUTES_CHANGED","MOUSE_MOVE_ABSOLUTE","MOUSE_MOVE_RELATIVE","MOUSE_VIRTUAL_DESKTOP","PRAWMOUSE","PRAWMOUSE structure pointer [Keyboard and Mouse Input]","RAWMOUSE","RAWMOUSE structure [Keyboard and Mouse Input]","RI_MOUSE_BUTTON_1_DOWN","RI_MOUSE_BUTTON_1_UP","RI_MOUSE_BUTTON_2_DOWN","RI_MOUSE_BUTTON_2_UP","RI_MOUSE_BUTTON_3_DOWN","RI_MOUSE_BUTTON_3_UP","RI_MOUSE_BUTTON_4_DOWN","RI_MOUSE_BUTTON_4_UP","RI_MOUSE_BUTTON_5_DOWN","RI_MOUSE_BUTTON_5_UP","RI_MOUSE_LEFT_BUTTON_DOWN","RI_MOUSE_LEFT_BUTTON_UP","RI_MOUSE_MIDDLE_BUTTON_DOWN","RI_MOUSE_MIDDLE_BUTTON_UP","RI_MOUSE_RIGHT_BUTTON_DOWN","RI_MOUSE_RIGHT_BUTTON_UP","RI_MOUSE_WHEEL","_win32_RAWMOUSE_str","_win32_rawmouse_str_cpp","inputdev.rawmouse","winui._win32_rawmouse_str","winuser/LPRAWMOUSE","winuser/PRAWMOUSE","winuser/RAWMOUSE"]
 old-location: inputdev\rawmouse.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawmouse.htm
@@ -45,17 +46,11 @@ ms.custom: 19H1
 
 # RAWMOUSE structure
 
-
 ## -description
-
 
 Contains information about the state of the mouse. 
 
-
 ## -struct-fields
-
-
-
 
 ### -field usFlags
 
@@ -76,7 +71,6 @@ The mouse state. This member can be any reasonable combination of the following.
 </td>
 <td width="60%">
 Mouse movement data is relative to the last mouse position. For further information about mouse motion, see the following Remarks section.
-
 </td>
 </tr>
 <tr>
@@ -87,7 +81,6 @@ Mouse movement data is relative to the last mouse position. For further informat
 </td>
 <td width="60%">
 Mouse movement data is based on absolute position. For further information about mouse motion, see the following Remarks section.
-
 </td>
 </tr>
 <tr>
@@ -98,7 +91,6 @@ Mouse movement data is based on absolute position. For further information about
 </td>
 <td width="60%">
 Mouse coordinates are mapped to the virtual desktop (for a multiple monitor system). For further information about mouse motion, see the following Remarks section.
-
 </td>
 </tr>
 <tr>
@@ -109,7 +101,6 @@ Mouse coordinates are mapped to the virtual desktop (for a multiple monitor syst
 </td>
 <td width="60%">
 Mouse attributes changed; application needs to query the mouse attributes.
-
 </td>
 </tr>
 <tr>
@@ -119,19 +110,13 @@ Mouse attributes changed; application needs to query the mouse attributes.
 </dl>
 </td>
 <td width="60%">
-This mouse movement event was not coalesced. Mouse movement events can be coalescened by default.
-
+This mouse movement event was not coalesced. Mouse movement events can be coalescened by default.<br/>
 Windows XP/2000:  This value is not supported.
-
 </td>
 </tr>
 </table>
- 
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.ulButtons
 
@@ -139,11 +124,7 @@ Type: <b>ULONG</b>
 
 Reserved.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.usButtonFlags
 
@@ -164,7 +145,6 @@ The transition state of the mouse buttons. This member can be one or more of the
 </td>
 <td width="60%">
 Left button changed to down.
-
 </td>
 </tr>
 <tr>
@@ -175,7 +155,6 @@ Left button changed to down.
 </td>
 <td width="60%">
 Left button changed to up.
-
 </td>
 </tr>
 <tr>
@@ -186,7 +165,6 @@ Left button changed to up.
 </td>
 <td width="60%">
 Middle button changed to down.
-
 </td>
 </tr>
 <tr>
@@ -197,7 +175,6 @@ Middle button changed to down.
 </td>
 <td width="60%">
 Middle button changed to up.
-
 </td>
 </tr>
 <tr>
@@ -208,7 +185,6 @@ Middle button changed to up.
 </td>
 <td width="60%">
 Right button changed to down.
-
 </td>
 </tr>
 <tr>
@@ -219,7 +195,6 @@ Right button changed to down.
 </td>
 <td width="60%">
 Right button changed to up.
-
 </td>
 </tr>
 <tr>
@@ -230,7 +205,6 @@ Right button changed to up.
 </td>
 <td width="60%">
 RI_MOUSE_LEFT_BUTTON_DOWN
-
 </td>
 </tr>
 <tr>
@@ -241,7 +215,6 @@ RI_MOUSE_LEFT_BUTTON_DOWN
 </td>
 <td width="60%">
 RI_MOUSE_LEFT_BUTTON_UP
-
 </td>
 </tr>
 <tr>
@@ -252,7 +225,6 @@ RI_MOUSE_LEFT_BUTTON_UP
 </td>
 <td width="60%">
 RI_MOUSE_RIGHT_BUTTON_DOWN
-
 </td>
 </tr>
 <tr>
@@ -263,7 +235,6 @@ RI_MOUSE_RIGHT_BUTTON_DOWN
 </td>
 <td width="60%">
 RI_MOUSE_RIGHT_BUTTON_UP
-
 </td>
 </tr>
 <tr>
@@ -274,7 +245,6 @@ RI_MOUSE_RIGHT_BUTTON_UP
 </td>
 <td width="60%">
 RI_MOUSE_MIDDLE_BUTTON_DOWN
-
 </td>
 </tr>
 <tr>
@@ -285,7 +255,6 @@ RI_MOUSE_MIDDLE_BUTTON_DOWN
 </td>
 <td width="60%">
 RI_MOUSE_MIDDLE_BUTTON_UP
-
 </td>
 </tr>
 <tr>
@@ -296,7 +265,6 @@ RI_MOUSE_MIDDLE_BUTTON_UP
 </td>
 <td width="60%">
 XBUTTON1 changed to down.
-
 </td>
 </tr>
 <tr>
@@ -307,7 +275,6 @@ XBUTTON1 changed to down.
 </td>
 <td width="60%">
 XBUTTON1 changed to up.
-
 </td>
 </tr>
 <tr>
@@ -318,7 +285,6 @@ XBUTTON1 changed to up.
 </td>
 <td width="60%">
 XBUTTON2 changed to down.
-
 </td>
 </tr>
 <tr>
@@ -329,7 +295,6 @@ XBUTTON2 changed to down.
 </td>
 <td width="60%">
 XBUTTON2 changed to up.
-
 </td>
 </tr>
 <tr>
@@ -339,8 +304,8 @@ XBUTTON2 changed to up.
 </dl>
 </td>
 <td width="60%">
-Raw input comes from a mouse wheel. The wheel delta is stored in <b>usButtonData</b>.
- 
+Raw input comes from a mouse wheel. The wheel delta is stored in <b>usButtonData</b>.<br/>
+A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. For further information see the following Remarks section.
 </td>
 </tr>
 <tr>
@@ -350,25 +315,18 @@ Raw input comes from a mouse wheel. The wheel delta is stored in <b>usButtonData
 </dl>
 </td>
 <td width="60%">
-Raw input comes from a horizontal mouse wheel. The wheel delta is stored in <b>usButtonData</b>.
- 
+Raw input comes from a horizontal mouse wheel. The wheel delta is stored in <b>usButtonData</b>.<br/>
+A positive value indicates that the wheel was rotated to the right; a negative value indicates that the wheel was rotated to the left. For further information see the following Remarks section.<br/>
 Windows XP/2000:  This value is not supported.
-
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.usButtonData
 
 Type: <b>USHORT</b>
 
-If <b>usButtonFlags</b> is <b>RI_MOUSE_WHEEL</b>, this member is a signed <b>SHORT</b> value that specifies the wheel delta.
-
-The wheel rotation will be a multiple of <b>WHEEL_DELTA</b>, which is set at 120. This is the threshold for action to be taken, and one such action (for example, scrolling one increment) should occur for each delta.
-
-The delta was set to 120 to allow Microsoft or other vendors to build finer-resolution wheels (a freely-rotating wheel with no notches) to send more messages per rotation, but with a smaller value in each message. To use this feature, you can either add the incoming delta values until <b>WHEEL_DELTA</b> is reached (so for a delta-rotation you get the same response), or scroll partial lines in response to the more frequent messages. You can also choose your scroll granularity and accumulate deltas until it is reached.
+If <b>usButtonFlags</b> has <b>RI_MOUSE_WHEEL</b> or <b>RI_MOUSE_HWHEEL</b>, this member specifies the distance the wheel is rotated. For further information see the following Remarks section.
 
 ### -field ulRawButtons
 
@@ -376,20 +334,17 @@ Type: <b>ULONG</b>
 
 The raw state of the mouse buttons. The Win32 subsystem does not use this member.
 
-
 ### -field lLastX
 
 Type: <b>LONG</b>
 
 The motion in the X direction. This is signed relative motion or absolute motion, depending on the value of <b>usFlags</b>.
 
-
 ### -field lLastY
 
 Type: <b>LONG</b>
 
 The motion in the Y direction. This is signed relative motion or absolute motion, depending on the value of <b>usFlags</b>. 
-
 
 ### -field ulExtraInformation
 
@@ -408,12 +363,7 @@ If <b>MOUSE_MOVE_ABSOLUTE</b> value is specified, <b>lLastX</b> and <b>lLastY</b
 If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified in addition to <b>MOUSE_MOVE_ABSOLUTE</b>, the coordinates map to the entire virtual desktop.
 
 ```cpp
-if ((rawMouse.usFlags & MOUSE_MOVE_RELATIVE) == MOUSE_MOVE_RELATIVE)
-{
-    int relativeX = rawMouse.lLastX;
-    int relativeY = rawMouse.lLastY;
-}
-else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
 {
     bool isVirtualDesktop = (rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
 
@@ -423,9 +373,56 @@ else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
     int absoluteX = int((rawMouse.lLastX / 65535.0f) * width);
     int absoluteY = int((rawMouse.lLastY / 65535.0f) * height);
 }
+else if (rawMouse.lLastX != 0 || rawMouse.lLastY != 0)
+{
+    int relativeX = rawMouse.lLastX;
+    int relativeY = rawMouse.lLastY;
+}
 ```
 
-In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a> for details.
+In contrast to legacy [WM_MOUSEMOVE](https://docs.microsoft.com/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See [About Mouse Input](https://docs.microsoft.com/windows/win32/inputdev/about-mouse-input) for details.
+
+If mouse wheel is moved, indicated by <b>RI_MOUSE_WHEEL</b> or <b>RI_MOUSE_HWHEEL</b> in <b>usButtonFlags</b>, then <b>usButtonData</b> contains a signed <b>short</b> value that specifies the distance the wheel is rotated.
+
+The wheel rotation will be a multiple of <b>WHEEL_DELTA</b>, which is set at 120. This is the threshold for action to be taken, and one such action (for example, scrolling one increment) should occur for each delta.
+
+The delta was set to 120 to allow Microsoft or other vendors to build finer-resolution wheels (a freely-rotating wheel with no notches) to send more messages per rotation, but with a smaller value in each message. To use this feature, you can either add the incoming delta values until <b>WHEEL_DELTA</b> is reached (so for a delta-rotation you get the same response), or scroll partial lines in response to the more frequent messages. You can also choose your scroll granularity and accumulate deltas until it is reached.
+
+The application could also retrieve the current lines-to-scroll and characters-to-scroll user setting by using the [SystemParametersInfo](nf-winuser-systemparametersinfoa.md) API with <b>SPI_GETWHEELSCROLLLINES</b> or <b>SPI_GETWHEELSCROLLCHARS</b> parameter.
+
+Here is example of such wheel handling code:
+
+```cpp
+if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
+    (rawMouse.usButtonFlags & RI_MOUSE_HWHEEL) == RI_MOUSE_HWHEEL)
+{
+    static const unsigned long defaultScrollLinesPerWheelDelta = 3;
+    static const unsigned long defaultScrollCharsPerWheelDelta = 1;
+
+    float wheelDelta = (float)(short)rawMouse.usButtonData;
+    float numTicks = wheelDelta / WHEEL_DELTA;
+
+    bool isHorizontalScroll = (rawMouse.usButtonFlags & RI_MOUSE_HWHEEL) == RI_MOUSE_HWHEEL;
+    bool isScrollByPage = false;
+    float scrollDelta = numTicks;
+
+    if (isHorizontalScroll)
+    {
+        unsigned long scrollChars = defaultScrollCharsPerWheelDelta;
+        SystemParametersInfo(SPI_GETWHEELSCROLLCHARS, 0, &scrollChars, 0);
+        scrollDelta *= scrollChars;
+    }
+    else
+    {
+        unsigned long scrollLines = defaultScrollLinesPerWheelDelta;
+        SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, &scrollLines, 0);
+        if (scrollLines == WHEEL_PAGESCROLL)
+            isScrollByPage = true;
+        else
+            scrollDelta *= scrollLines;
+    }
+}
+```
 
 ## -see-also
 
@@ -435,7 +432,7 @@ In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-m
 
 [RAWINPUT](ns-winuser-rawinput.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
 
 <b>Reference</b>
 
@@ -444,3 +441,9 @@ In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-m
 [SendInput function](nf-winuser-sendinput.md)
 
 [MOUSE_INPUT_DATA structure](https://docs.microsoft.com/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data)
+
+[About Mouse Input (legacy)](https://docs.microsoft.com/windows/win32/inputdev/about-mouse-input)
+
+[Mouse Input Notifications (legacy)](https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications)
+
+[SystemParametersInfo](nf-winuser-systemparametersinfoa.md)

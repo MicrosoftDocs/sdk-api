@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_GPT
 title: DRIVE_LAYOUT_INFORMATION_GPT
-description: Contains information about a drive's GUID partition table (GPT) partitions.helpviewer_keywords: ["*PDRIVE_LAYOUT_INFORMATION_GPT","DRIVE_LAYOUT_INFORMATION_GPT","DRIVE_LAYOUT_INFORMATION_GPT structure [Files]","PDRIVE_LAYOUT_INFORMATION_GPT","PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Files]","_win32_drive_layout_information_gpt_str","base.drive_layout_information_gpt_str","fs.drive_layout_information_gpt_str","winioctl/DRIVE_LAYOUT_INFORMATION_GPT","winioctl/PDRIVE_LAYOUT_INFORMATION_GPT"]
+description: Contains information about a drive's GUID partition table (GPT) partitions.
+helpviewer_keywords: ["*PDRIVE_LAYOUT_INFORMATION_GPT","DRIVE_LAYOUT_INFORMATION_GPT","DRIVE_LAYOUT_INFORMATION_GPT structure [Files]","PDRIVE_LAYOUT_INFORMATION_GPT","PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Files]","_win32_drive_layout_information_gpt_str","base.drive_layout_information_gpt_str","fs.drive_layout_information_gpt_str","winioctl/DRIVE_LAYOUT_INFORMATION_GPT","winioctl/PDRIVE_LAYOUT_INFORMATION_GPT"]
 old-location: fs\drive_layout_information_gpt_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 763b0d64-6dcc-411c-aca1-3beea0890124
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT structure [Files], PDRIVE_LAYOUT_INFORMATION_GPT, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Files], _win32_drive_layout_information_gpt_str, base.drive_layout_information_gpt_str, fs.drive_layout_information_gpt_str, winioctl/DRIVE_LAYOUT_INFORMATION_GPT, winioctl/PDRIVE_LAYOUT_INFORMATION_GPT'

@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHQueryUserNotificationState
 title: SHQueryUserNotificationState function (shellapi.h)
-description: Checks the state of the computer for the current user to determine whether sending a notification is appropriate.helpviewer_keywords: ["SHQueryUserNotificationState","SHQueryUserNotificationState function [Windows Shell]","_shell_SHQueryUserNotificationState","shell.SHQueryUserNotificationState","shellapi/SHQueryUserNotificationState"]
+description: Checks the state of the computer for the current user to determine whether sending a notification is appropriate.
+helpviewer_keywords: ["SHQueryUserNotificationState","SHQueryUserNotificationState function [Windows Shell]","_shell_SHQueryUserNotificationState","shell.SHQueryUserNotificationState","shellapi/SHQueryUserNotificationState"]
 old-location: shell\SHQueryUserNotificationState.htm
 tech.root: shell
 ms.assetid: da6b3915-f4fe-4bab-9bae-9bff0b97b5a0

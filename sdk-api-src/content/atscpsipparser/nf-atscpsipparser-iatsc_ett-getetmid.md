@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_ETT.GetEtmId
 title: IATSC_ETT::GetEtmId (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetEtmId","GetEtmId method [Microsoft TV Technologies]","GetEtmId method [Microsoft TV Technologies]","IATSC_ETT interface","IATSC_ETT interface [Microsoft TV Technologies]","GetEtmId method","IATSC_ETT.GetEtmId","IATSC_ETT::GetEtmId","IATSC_ETTGetEtmId","atscpsipparser/IATSC_ETT::GetEtmId","mstv.iatsc_ett_getetmid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetEtmId","GetEtmId method [Microsoft TV Technologies]","GetEtmId method [Microsoft TV Technologies]","IATSC_ETT interface","IATSC_ETT interface [Microsoft TV Technologies]","GetEtmId method","IATSC_ETT.GetEtmId","IATSC_ETT::GetEtmId","IATSC_ETTGetEtmId","atscpsipparser/IATSC_ETT::GetEtmId","mstv.iatsc_ett_getetmid"]
 old-location: mstv\iatsc_ett_getetmid.htm
 tech.root: mstv
 ms.assetid: e45e6709-bb16-4644-b2d1-2ffd6d85f224

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.CreateReport
 title: IFsrmReportJob::CreateReport (fsrmreports.h)
-description: Creates a new report object of the specified type.helpviewer_keywords: ["CreateReport","CreateReport method [File Server Resource Manager]","CreateReport method [File Server Resource Manager]","IFsrmReportJob interface","IFsrmReportJob interface [File Server Resource Manager]","CreateReport method","IFsrmReportJob.CreateReport","IFsrmReportJob::CreateReport","fs.ifsrmreportjob_createreport","fsrm.ifsrmreportjob_createreport","fsrmreports/IFsrmReportJob::CreateReport"]
+description: Creates a new report object of the specified type.
+helpviewer_keywords: ["CreateReport","CreateReport method [File Server Resource Manager]","CreateReport method [File Server Resource Manager]","IFsrmReportJob interface","IFsrmReportJob interface [File Server Resource Manager]","CreateReport method","IFsrmReportJob.CreateReport","IFsrmReportJob::CreateReport","fs.ifsrmreportjob_createreport","fsrm.ifsrmreportjob_createreport","fsrmreports/IFsrmReportJob::CreateReport"]
 old-location: fsrm\ifsrmreportjob_createreport.htm
 tech.root: fsrm
 ms.assetid: 484941d1-726c-4765-8652-bcb378f277b4

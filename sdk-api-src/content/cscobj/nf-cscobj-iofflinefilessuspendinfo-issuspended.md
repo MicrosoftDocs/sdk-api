@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesSuspendInfo.IsSuspended
 title: IOfflineFilesSuspendInfo::IsSuspended (cscobj.h)
-description: Determines whether an item is suspended.helpviewer_keywords: ["IOfflineFilesSuspendInfo interface [Offline Files]","IsSuspended method","IOfflineFilesSuspendInfo.IsSuspended","IOfflineFilesSuspendInfo::IsSuspended","IsSuspended","IsSuspended method [Offline Files]","IsSuspended method [Offline Files]","IOfflineFilesSuspendInfo interface","cscobj/IOfflineFilesSuspendInfo::IsSuspended","of.iofflinefilessuspendinfo_issuspended"]
+description: Determines whether an item is suspended.
+helpviewer_keywords: ["IOfflineFilesSuspendInfo interface [Offline Files]","IsSuspended method","IOfflineFilesSuspendInfo.IsSuspended","IOfflineFilesSuspendInfo::IsSuspended","IsSuspended","IsSuspended method [Offline Files]","IsSuspended method [Offline Files]","IOfflineFilesSuspendInfo interface","cscobj/IOfflineFilesSuspendInfo::IsSuspended","of.iofflinefilessuspendinfo_issuspended"]
 old-location: of\iofflinefilessuspendinfo_issuspended.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 6f29793f-3b34-4280-b375-3739aefd74db
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended method, IOfflineFilesSuspendInfo.IsSuspended, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files],IOfflineFilesSuspendInfo interface, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended

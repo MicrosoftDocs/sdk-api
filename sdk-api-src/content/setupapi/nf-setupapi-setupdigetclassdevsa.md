@@ -1,7 +1,9 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevsA
 title: SetupDiGetClassDevsA
-description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.helpviewer_keywords: ["SetupDiGetClassDevsA"]
+description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
+tech.root: setup
+helpviewer_keywords: ["SetupDiGetClassDevsA"]
 ms.date: 4/26/2019
 ms.keywords: SetupDiGetClassDevsA
 targetos: Windows
@@ -281,6 +283,10 @@ if (DeviceInfoSet) {
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetClassDevs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

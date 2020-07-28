@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl.SetRoot
 title: IDvdControl::SetRoot (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the root directory containing the DVD-Video volume.helpviewer_keywords: ["IDvdControl interface [DirectShow]","SetRoot method","IDvdControl.SetRoot","IDvdControl::SetRoot","IDvdControlSetRoot","SetRoot","SetRoot method [DirectShow]","SetRoot method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_setroot","strmif/IDvdControl::SetRoot"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the root directory containing the DVD-Video volume.
+helpviewer_keywords: ["IDvdControl interface [DirectShow]","SetRoot method","IDvdControl.SetRoot","IDvdControl::SetRoot","IDvdControlSetRoot","SetRoot","SetRoot method [DirectShow]","SetRoot method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_setroot","strmif/IDvdControl::SetRoot"]
 old-location: dshow\idvdcontrol_setroot.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3068edc0-c052-4f44-9f62-453320af20a3
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],SetRoot method, IDvdControl.SetRoot, IDvdControl::SetRoot, IDvdControlSetRoot, SetRoot, SetRoot method [DirectShow], SetRoot method [DirectShow],IDvdControl interface, dshow.idvdcontrol_setroot, strmif/IDvdControl::SetRoot

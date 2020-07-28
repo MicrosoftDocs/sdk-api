@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFCreateStreamDescriptor
 title: MFCreateStreamDescriptor function (mfidl.h)
-description: Creates a stream descriptor.helpviewer_keywords: ["77a63d30-c03f-4339-9db3-eda60db9b194","MFCreateStreamDescriptor","MFCreateStreamDescriptor function [Media Foundation]","mf.mfcreatestreamdescriptor","mfidl/MFCreateStreamDescriptor"]
+description: Creates a stream descriptor.
+helpviewer_keywords: ["77a63d30-c03f-4339-9db3-eda60db9b194","MFCreateStreamDescriptor","MFCreateStreamDescriptor function [Media Foundation]","mf.mfcreatestreamdescriptor","mfidl/MFCreateStreamDescriptor"]
 old-location: mf\mfcreatestreamdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 77a63d30-c03f-4339-9db3-eda60db9b194
 ms.date: 12/05/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor

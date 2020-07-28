@@ -1,9 +1,10 @@
 ---
 UID: NF:evr.IMFVideoMixerControl2.SetMixingPrefs
 title: IMFVideoMixerControl2::SetMixingPrefs (evr.h)
-description: Sets the preferences for video deinterlacing.helpviewer_keywords: ["IMFVideoMixerControl2 interface [Media Foundation]","SetMixingPrefs method","IMFVideoMixerControl2.SetMixingPrefs","IMFVideoMixerControl2::SetMixingPrefs","SetMixingPrefs","SetMixingPrefs method [Media Foundation]","SetMixingPrefs method [Media Foundation]","IMFVideoMixerControl2 interface","evr/IMFVideoMixerControl2::SetMixingPrefs","mf.imfvideomixercontrol2_setmixingprefs"]
+description: Sets the preferences for video deinterlacing.
+helpviewer_keywords: ["IMFVideoMixerControl2 interface [Media Foundation]","SetMixingPrefs method","IMFVideoMixerControl2.SetMixingPrefs","IMFVideoMixerControl2::SetMixingPrefs","SetMixingPrefs","SetMixingPrefs method [Media Foundation]","SetMixingPrefs method [Media Foundation]","IMFVideoMixerControl2 interface","evr/IMFVideoMixerControl2::SetMixingPrefs","mf.imfvideomixercontrol2_setmixingprefs"]
 old-location: mf\imfvideomixercontrol2_setmixingprefs.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ae8fa85a-bdae-4fbf-b9d4-a987eb1c4c41
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2 interface [Media Foundation],SetMixingPrefs method, IMFVideoMixerControl2.SetMixingPrefs, IMFVideoMixerControl2::SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [Media Foundation], SetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, evr/IMFVideoMixerControl2::SetMixingPrefs, mf.imfvideomixercontrol2_setmixingprefs

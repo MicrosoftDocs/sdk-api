@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IHolder.TrackResource
 title: IHolder::TrackResource (comsvcs.h)
-description: Tracks the resource.helpviewer_keywords: ["IHolder interface [COM+]","TrackResource method","IHolder.TrackResource","IHolder::TrackResource","TrackResource","TrackResource method [COM+]","TrackResource method [COM+]","IHolder interface","_dtc_IHolder_TrackResource","comsvcs/IHolder::TrackResource","cos.iholder_trackresource"]
+description: Tracks the resource.
+helpviewer_keywords: ["IHolder interface [COM+]","TrackResource method","IHolder.TrackResource","IHolder::TrackResource","TrackResource","TrackResource method [COM+]","TrackResource method [COM+]","IHolder interface","_dtc_IHolder_TrackResource","comsvcs/IHolder::TrackResource","cos.iholder_trackresource"]
 old-location: cos\iholder_trackresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 8c87727a-fefd-4ef6-964c-3379d22178c2
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],TrackResource method, IHolder.TrackResource, IHolder::TrackResource, TrackResource, TrackResource method [COM+], TrackResource method [COM+],IHolder interface, _dtc_IHolder_TrackResource, comsvcs/IHolder::TrackResource, cos.iholder_trackresource

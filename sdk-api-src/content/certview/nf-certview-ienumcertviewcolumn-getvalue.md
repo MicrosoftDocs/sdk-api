@@ -1,9 +1,10 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetValue
 title: IEnumCERTVIEWCOLUMN::GetValue (certview.h)
-description: Retrieves the data value contained in the current column in the column-enumeration sequence.helpviewer_keywords: ["CV_OUT_BASE64","CV_OUT_BASE64HEADER","CV_OUT_BASE64REQUESTHEADER","CV_OUT_BASE64X509CRLHEADER","CV_OUT_BINARY","CV_OUT_HEX","CV_OUT_HEXADDR","CV_OUT_HEXASCII","CV_OUT_HEXASCIIADDR","GetValue","GetValue method [Security]","GetValue method [Security]","IEnumCERTVIEWCOLUMN interface","IEnumCERTVIEWCOLUMN interface [Security]","GetValue method","IEnumCERTVIEWCOLUMN.GetValue","IEnumCERTVIEWCOLUMN::GetValue","_certsrv_ienumcertviewcolumn_getvalue","certview/IEnumCERTVIEWCOLUMN::GetValue","security.ienumcertviewcolumn_getvalue"]
+description: Retrieves the data value contained in the current column in the column-enumeration sequence.
+helpviewer_keywords: ["CV_OUT_BASE64","CV_OUT_BASE64HEADER","CV_OUT_BASE64REQUESTHEADER","CV_OUT_BASE64X509CRLHEADER","CV_OUT_BINARY","CV_OUT_HEX","CV_OUT_HEXADDR","CV_OUT_HEXASCII","CV_OUT_HEXASCIIADDR","GetValue","GetValue method [Security]","GetValue method [Security]","IEnumCERTVIEWCOLUMN interface","IEnumCERTVIEWCOLUMN interface [Security]","GetValue method","IEnumCERTVIEWCOLUMN.GetValue","IEnumCERTVIEWCOLUMN::GetValue","_certsrv_ienumcertviewcolumn_getvalue","certview/IEnumCERTVIEWCOLUMN::GetValue","security.ienumcertviewcolumn_getvalue"]
 old-location: security\ienumcertviewcolumn_getvalue.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
 ms.date: 12/05/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetValue method, IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue

@@ -1,9 +1,10 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithObjectsAndSidW
 title: BuildTrusteeWithObjectsAndSidW function (aclapi.h)
-description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values.helpviewer_keywords: ["BuildTrusteeWithObjectsAndSid","BuildTrusteeWithObjectsAndSid function [Security]","BuildTrusteeWithObjectsAndSidA","BuildTrusteeWithObjectsAndSidW","_win32_buildtrusteewithobjectsandsid","aclapi/BuildTrusteeWithObjectsAndSid","aclapi/BuildTrusteeWithObjectsAndSidA","aclapi/BuildTrusteeWithObjectsAndSidW","security.buildtrusteewithobjectsandsid"]
+description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values.
+helpviewer_keywords: ["BuildTrusteeWithObjectsAndSid","BuildTrusteeWithObjectsAndSid function [Security]","BuildTrusteeWithObjectsAndSidA","BuildTrusteeWithObjectsAndSidW","_win32_buildtrusteewithobjectsandsid","aclapi/BuildTrusteeWithObjectsAndSid","aclapi/BuildTrusteeWithObjectsAndSidA","aclapi/BuildTrusteeWithObjectsAndSidW","security.buildtrusteewithobjectsandsid"]
 old-location: security\buildtrusteewithobjectsandsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
@@ -106,6 +107,10 @@ For more information about object-specific ACEs, see
 
 
 
+
+
+> [!NOTE]
+> The aclapi.h header defines BuildTrusteeWithObjectsAndSid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

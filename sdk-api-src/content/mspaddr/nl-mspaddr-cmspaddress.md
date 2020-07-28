@@ -1,9 +1,10 @@
 ---
 UID: NL:mspaddr.CMSPAddress
 title: CMSPAddress (mspaddr.h)
-description: The CMSPAddress class implements the MSP address object and supports the ITMSPAddress interface. This class is defined in MSPaddr.h. The following documents the class.helpviewer_keywords: ["CMSPAddress","CMSPAddress class [TAPI 2.2]","CMSPAddress class [TAPI 2.2]","described","_tapi3_cmspaddress","mspaddr/CMSPAddress","tapi3.cmspaddress"]
+description: The CMSPAddress class implements the MSP address object and supports the ITMSPAddress interface. This class is defined in MSPaddr.h. The following documents the class.
+helpviewer_keywords: ["CMSPAddress","CMSPAddress class [TAPI 2.2]","CMSPAddress class [TAPI 2.2]","described","_tapi3_cmspaddress","mspaddr/CMSPAddress","tapi3.cmspaddress"]
 old-location: tapi3\cmspaddress.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 864bf814-43dd-4d2b-a5a7-fff12520accb
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress, CMSPAddress class [TAPI 2.2], CMSPAddress class [TAPI 2.2],described, _tapi3_cmspaddress, mspaddr/CMSPAddress, tapi3.cmspaddress

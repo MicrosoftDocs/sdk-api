@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkDisp.HitTestWithRectangle
 title: IInkDisp::HitTestWithRectangle (msinkaut.h)
-description: Retrieves the strokes that are contained within a specified rectangle.helpviewer_keywords: ["401c4f62-a406-49ac-9911-91f815cde9c8","HitTestWithRectangle","HitTestWithRectangle method [Tablet PC]","HitTestWithRectangle method [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","HitTestWithRectangle method","IInkDisp.HitTestWithRectangle","IInkDisp::HitTestWithRectangle","msinkaut/IInkDisp::HitTestWithRectangle","tablet.inkdisp_hittest_rectangle__single"]
+description: Retrieves the strokes that are contained within a specified rectangle.
+helpviewer_keywords: ["401c4f62-a406-49ac-9911-91f815cde9c8","HitTestWithRectangle","HitTestWithRectangle method [Tablet PC]","HitTestWithRectangle method [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","HitTestWithRectangle method","IInkDisp.HitTestWithRectangle","IInkDisp::HitTestWithRectangle","msinkaut/IInkDisp::HitTestWithRectangle","tablet.inkdisp_hittest_rectangle__single"]
 old-location: tablet\inkdisp_hittest_rectangle__single.htm
 tech.root: tablet
 ms.assetid: 401c4f62-a406-49ac-9911-91f815cde9c8

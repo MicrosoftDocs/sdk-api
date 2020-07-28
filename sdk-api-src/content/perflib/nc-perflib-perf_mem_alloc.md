@@ -4,7 +4,7 @@ title: PERF_MEM_ALLOC (perflib.h)
 description: Providers implement this function to provide custom memory management for PERFLIB.
 helpviewer_keywords: ["AllocateMemory","AllocateMemory callback function [Perf]","PERF_MEM_ALLOC","PERF_MEM_ALLOC callback","perf.allocatememory","perflib/AllocateMemory"]
 old-location: perf\allocatememory.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 09af7e56-2174-4a82-b45b-59f4180e4aab
 ms.date: 12/05/2018
 ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, PERF_MEM_ALLOC callback, perf.allocatememory, perflib/AllocateMemory

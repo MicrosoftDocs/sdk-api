@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITILSConfig.get_Port
 title: ITILSConfig::get_Port (rend.h)
-description: The get_Port method gets the port number used to connect to the server of a given ILS directory.helpviewer_keywords: ["ITILSConfig interface [TAPI 2.2]","get_Port method","ITILSConfig.get_Port","ITILSConfig::get_Port","_tapi3_itilsconfig_get_port","get_Port","get_Port method [TAPI 2.2]","get_Port method [TAPI 2.2]","ITILSConfig interface","rend/ITILSConfig::get_Port","tapi3.itilsconfig_get_port"]
+description: The get_Port method gets the port number used to connect to the server of a given ILS directory.
+helpviewer_keywords: ["ITILSConfig interface [TAPI 2.2]","get_Port method","ITILSConfig.get_Port","ITILSConfig::get_Port","_tapi3_itilsconfig_get_port","get_Port","get_Port method [TAPI 2.2]","get_Port method [TAPI 2.2]","ITILSConfig interface","rend/ITILSConfig::get_Port","tapi3.itilsconfig_get_port"]
 old-location: tapi3\itilsconfig_get_port.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7aa0a8e7-6799-4685-92a0-c2ce610d0e06
 ms.date: 12/05/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],get_Port method, ITILSConfig.get_Port, ITILSConfig::get_Port, _tapi3_itilsconfig_get_port, get_Port, get_Port method [TAPI 2.2], get_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::get_Port, tapi3.itilsconfig_get_port

@@ -1,9 +1,10 @@
 ---
 UID: NF:mmstream.IStreamSample.SetSampleTimes
 title: IStreamSample::SetSampleTimes (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Sets the current sample's start and end times. You can call this method prior to updating the sample.helpviewer_keywords: ["IStreamSample interface [DirectShow]","SetSampleTimes method","IStreamSample.SetSampleTimes","IStreamSample::SetSampleTimes","IStreamSampleSetSampleTimes","SetSampleTimes","SetSampleTimes method [DirectShow]","SetSampleTimes method [DirectShow]","IStreamSample interface","dshow.istreamsample_setsampletimes","mmstream/IStreamSample::SetSampleTimes"]
+description: Note  This interface is deprecated. New applications should not use it. Sets the current sample's start and end times. You can call this method prior to updating the sample.
+helpviewer_keywords: ["IStreamSample interface [DirectShow]","SetSampleTimes method","IStreamSample.SetSampleTimes","IStreamSample::SetSampleTimes","IStreamSampleSetSampleTimes","SetSampleTimes","SetSampleTimes method [DirectShow]","SetSampleTimes method [DirectShow]","IStreamSample interface","dshow.istreamsample_setsampletimes","mmstream/IStreamSample::SetSampleTimes"]
 old-location: dshow\istreamsample_setsampletimes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c8d21ea2-0104-44e1-9f5b-5c0c23593e43
 ms.date: 12/05/2018
 ms.keywords: IStreamSample interface [DirectShow],SetSampleTimes method, IStreamSample.SetSampleTimes, IStreamSample::SetSampleTimes, IStreamSampleSetSampleTimes, SetSampleTimes, SetSampleTimes method [DirectShow], SetSampleTimes method [DirectShow],IStreamSample interface, dshow.istreamsample_setsampletimes, mmstream/IStreamSample::SetSampleTimes

@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Status
 title: IDataCollectorSet::get_Status (pla.h)
-description: Retrieves the status of the data collector set.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Status property","IDataCollectorSet.Status","IDataCollectorSet.get_Status","IDataCollectorSet::Status","IDataCollectorSet::get_Status","Status property [PLA]","Status property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_status","get_Status","pla.idatacollectorset_get_status","pla/IDataCollectorSet::Status","pla/IDataCollectorSet::get_Status"]
+description: Retrieves the status of the data collector set.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Status property","IDataCollectorSet.Status","IDataCollectorSet.get_Status","IDataCollectorSet::Status","IDataCollectorSet::get_Status","Status property [PLA]","Status property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_status","get_Status","pla.idatacollectorset_get_status","pla/IDataCollectorSet::Status","pla/IDataCollectorSet::get_Status"]
 old-location: pla\idatacollectorset_get_status.htm
 tech.root: PLA
 ms.assetid: d957d34d-5455-486a-bd54-28afd7e6f979

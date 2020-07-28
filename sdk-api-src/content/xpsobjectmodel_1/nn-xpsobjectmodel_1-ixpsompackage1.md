@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMPackage1
 title: IXpsOMPackage1 (xpsobjectmodel_1.h)
-description: Inherits from IXpsOMPackage.helpviewer_keywords: ["IXpsOMPackage1","IXpsOMPackage1 interface [XPS Documents and Packaging]","IXpsOMPackage1 interface [XPS Documents and Packaging]","described","xps.ixpsompackage1","xpsobjectmodel_1/IXpsOMPackage1"]
+description: Inherits from IXpsOMPackage.
+helpviewer_keywords: ["IXpsOMPackage1","IXpsOMPackage1 interface [XPS Documents and Packaging]","IXpsOMPackage1 interface [XPS Documents and Packaging]","described","xps.ixpsompackage1","xpsobjectmodel_1/IXpsOMPackage1"]
 old-location: xps\ixpsompackage1.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 455b7f0b-ade4-4e00-bd9d-836335a7982e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage1, IXpsOMPackage1 interface [XPS Documents and Packaging], IXpsOMPackage1 interface [XPS Documents and Packaging],described, xps.ixpsompackage1, xpsobjectmodel_1/IXpsOMPackage1

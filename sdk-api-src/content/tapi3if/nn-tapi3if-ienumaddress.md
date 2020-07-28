@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.IEnumAddress
 title: IEnumAddress (tapi3if.h)
-description: The IEnumAddress interface provides COM-standard enumeration methods for the ITAddress interface. The ITTAPI::EnumerateAddresses and ITAgentHandler::EnumerateUsableAddresses methods return a pointer to IEnumAddress.helpviewer_keywords: ["IEnumAddress","IEnumAddress interface [TAPI 2.2]","IEnumAddress interface [TAPI 2.2]","described","_tapi3_ienumaddress","tapi3.ienumaddress","tapi3if/IEnumAddress"]
+description: The IEnumAddress interface provides COM-standard enumeration methods for the ITAddress interface. The ITTAPI::EnumerateAddresses and ITAgentHandler::EnumerateUsableAddresses methods return a pointer to IEnumAddress.
+helpviewer_keywords: ["IEnumAddress","IEnumAddress interface [TAPI 2.2]","IEnumAddress interface [TAPI 2.2]","described","_tapi3_ienumaddress","tapi3.ienumaddress","tapi3if/IEnumAddress"]
 old-location: tapi3\ienumaddress.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: bfe9f12e-ceb7-4120-8193-70feb2bc7c85
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress, IEnumAddress interface [TAPI 2.2], IEnumAddress interface [TAPI 2.2],described, _tapi3_ienumaddress, tapi3.ienumaddress, tapi3if/IEnumAddress

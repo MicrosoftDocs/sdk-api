@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetType
 title: IDirect3DQuery9::GetType (d3d9helper.h)
-description: Gets the query type.helpviewer_keywords: ["581f12d8-a07f-3bef-8285-25360f8d6b4c","GetType","GetType method [Direct3D 9]","GetType method [Direct3D 9]","IDirect3DQuery9 interface","IDirect3DQuery9 interface [Direct3D 9]","GetType method","IDirect3DQuery9.GetType","IDirect3DQuery9::GetType","d3d9helper/IDirect3DQuery9::GetType","direct3d9.idirect3dquery9__gettype"]
+description: Gets the query type.
+helpviewer_keywords: ["581f12d8-a07f-3bef-8285-25360f8d6b4c","GetType","GetType method [Direct3D 9]","GetType method [Direct3D 9]","IDirect3DQuery9 interface","IDirect3DQuery9 interface [Direct3D 9]","GetType method","IDirect3DQuery9.GetType","IDirect3DQuery9::GetType","d3d9helper/IDirect3DQuery9::GetType","direct3d9.idirect3dquery9__gettype"]
 old-location: direct3d9\idirect3dquery9__gettype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__gettype.htm

@@ -4,7 +4,7 @@ title: IComActivityEvents::OnActivityReenter (comsvcs.h)
 description: Generated when an activity thread is reentered recursively.
 helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityReenter method","IComActivityEvents.OnActivityReenter","IComActivityEvents::OnActivityReenter","OnActivityReenter","OnActivityReenter method [COM+]","OnActivityReenter method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityReenter","comsvcs/IComActivityEvents::OnActivityReenter","cos.icomactivityevents_onactivityreenter"]
 old-location: cos\icomactivityevents_onactivityreenter.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e055caab-379c-47c5-b62a-28ce5c2a0573
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityReenter method, IComActivityEvents.OnActivityReenter, IComActivityEvents::OnActivityReenter, OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.IsUsingFastCache
 title: IWMReaderAdvanced4::IsUsingFastCache (wmsdkidl.h)
-description: The IsUsingFastCache method queries whether the reader is using Fast Cache streaming.helpviewer_keywords: ["IWMReaderAdvanced4 interface [windows Media Format]","IsUsingFastCache method","IWMReaderAdvanced4.IsUsingFastCache","IWMReaderAdvanced4::IsUsingFastCache","IWMReaderAdvanced4IsUsingFastCache","IsUsingFastCache","IsUsingFastCache method [windows Media Format]","IsUsingFastCache method [windows Media Format]","IWMReaderAdvanced4 interface","wmformat.iwmreaderadvanced4_isusingfastcache","wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache"]
+description: The IsUsingFastCache method queries whether the reader is using Fast Cache streaming.
+helpviewer_keywords: ["IWMReaderAdvanced4 interface [windows Media Format]","IsUsingFastCache method","IWMReaderAdvanced4.IsUsingFastCache","IWMReaderAdvanced4::IsUsingFastCache","IWMReaderAdvanced4IsUsingFastCache","IsUsingFastCache","IsUsingFastCache method [windows Media Format]","IsUsingFastCache method [windows Media Format]","IWMReaderAdvanced4 interface","wmformat.iwmreaderadvanced4_isusingfastcache","wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache"]
 old-location: wmformat\iwmreaderadvanced4_isusingfastcache.htm
 tech.root: wmformat
 ms.assetid: 29d8d12c-db4c-4c2c-8747-30c8a5577f43

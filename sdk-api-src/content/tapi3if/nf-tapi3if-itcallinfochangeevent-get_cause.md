@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCallInfoChangeEvent.get_Cause
 title: ITCallInfoChangeEvent::get_Cause (tapi3if.h)
-description: The get_Cause method gets a CALLINFOCHANGE_CAUSE description of the change.helpviewer_keywords: ["ITCallInfoChangeEvent interface [TAPI 2.2]","get_Cause method","ITCallInfoChangeEvent.get_Cause","ITCallInfoChangeEvent::get_Cause","_tapi3_itcallinfochangeevent_get_cause","get_Cause","get_Cause method [TAPI 2.2]","get_Cause method [TAPI 2.2]","ITCallInfoChangeEvent interface","tapi3.itcallinfochangeevent_get_cause","tapi3if/ITCallInfoChangeEvent::get_Cause"]
+description: The get_Cause method gets a CALLINFOCHANGE_CAUSE description of the change.
+helpviewer_keywords: ["ITCallInfoChangeEvent interface [TAPI 2.2]","get_Cause method","ITCallInfoChangeEvent.get_Cause","ITCallInfoChangeEvent::get_Cause","_tapi3_itcallinfochangeevent_get_cause","get_Cause","get_Cause method [TAPI 2.2]","get_Cause method [TAPI 2.2]","ITCallInfoChangeEvent interface","tapi3.itcallinfochangeevent_get_cause","tapi3if/ITCallInfoChangeEvent::get_Cause"]
 old-location: tapi3\itcallinfochangeevent_get_cause.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c49a5624-8867-46c0-acf6-5e60667fc969
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Cause method, ITCallInfoChangeEvent.get_Cause, ITCallInfoChangeEvent::get_Cause, _tapi3_itcallinfochangeevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_cause, tapi3if/ITCallInfoChangeEvent::get_Cause

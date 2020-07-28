@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif.tagDVD_KARAOKE_ASSIGNMENT
 title: DVD_KARAOKE_ASSIGNMENT (strmif.h)
-description: Defines the speaker configuration for an audio stream.helpviewer_keywords: ["DVD_Assignment_LR","DVD_Assignment_LR1","DVD_Assignment_LR12","DVD_Assignment_LRM","DVD_Assignment_LRM1","DVD_Assignment_LRM12","DVD_Assignment_reserved0","DVD_Assignment_reserved1","DVD_KARAOKE_ASSIGNMENT","DVD_KARAOKE_ASSIGNMENT","DVD_KARAOKE_ASSIGNMENT enumeration [DirectShow]","DVD_KARAOKE_ASSIGNMENTEnumeration","dshow.dvd_karaoke_assignment","strmif/DVD_Assignment_LR","strmif/DVD_Assignment_LR1","strmif/DVD_Assignment_LR12","strmif/DVD_Assignment_LRM","strmif/DVD_Assignment_LRM1","strmif/DVD_Assignment_LRM12","strmif/DVD_Assignment_reserved0","strmif/DVD_Assignment_reserved1","strmif/DVD_KARAOKE_ASSIGNMENT"]
+description: Defines the speaker configuration for an audio stream.
+helpviewer_keywords: ["DVD_Assignment_LR","DVD_Assignment_LR1","DVD_Assignment_LR12","DVD_Assignment_LRM","DVD_Assignment_LRM1","DVD_Assignment_LRM12","DVD_Assignment_reserved0","DVD_Assignment_reserved1","DVD_KARAOKE_ASSIGNMENT","DVD_KARAOKE_ASSIGNMENT","DVD_KARAOKE_ASSIGNMENT enumeration [DirectShow]","DVD_KARAOKE_ASSIGNMENTEnumeration","dshow.dvd_karaoke_assignment","strmif/DVD_Assignment_LR","strmif/DVD_Assignment_LR1","strmif/DVD_Assignment_LR12","strmif/DVD_Assignment_LRM","strmif/DVD_Assignment_LRM1","strmif/DVD_Assignment_LRM12","strmif/DVD_Assignment_reserved0","strmif/DVD_Assignment_reserved1","strmif/DVD_KARAOKE_ASSIGNMENT"]
 old-location: dshow\dvd_karaoke_assignment.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cdfd05b9-7a4a-49cc-ab50-bbe83ed9e0f0
 ms.date: 12/05/2018
 ms.keywords: DVD_Assignment_LR, DVD_Assignment_LR1, DVD_Assignment_LR12, DVD_Assignment_LRM, DVD_Assignment_LRM1, DVD_Assignment_LRM12, DVD_Assignment_reserved0, DVD_Assignment_reserved1, DVD_KARAOKE_ASSIGNMENT, DVD_KARAOKE_ASSIGNMENT , DVD_KARAOKE_ASSIGNMENT enumeration [DirectShow], DVD_KARAOKE_ASSIGNMENTEnumeration, dshow.dvd_karaoke_assignment, strmif/DVD_Assignment_LR, strmif/DVD_Assignment_LR1, strmif/DVD_Assignment_LR12, strmif/DVD_Assignment_LRM, strmif/DVD_Assignment_LRM1, strmif/DVD_Assignment_LRM12, strmif/DVD_Assignment_reserved0, strmif/DVD_Assignment_reserved1, strmif/DVD_KARAOKE_ASSIGNMENT

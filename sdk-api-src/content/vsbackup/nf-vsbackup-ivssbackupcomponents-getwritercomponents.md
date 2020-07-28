@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterComponents
 title: IVssBackupComponents::GetWriterComponents (vsbackup.h)
-description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.helpviewer_keywords: ["GetWriterComponents","GetWriterComponents method [VSS]","GetWriterComponents method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GetWriterComponents method","IVssBackupComponents.GetWriterComponents","IVssBackupComponents::GetWriterComponents","_win32_ivssbackupcomponents_getwritercomponents","base.ivssbackupcomponents_getwritercomponents","vsbackup/IVssBackupComponents::GetWriterComponents"]
+description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.
+helpviewer_keywords: ["GetWriterComponents","GetWriterComponents method [VSS]","GetWriterComponents method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GetWriterComponents method","IVssBackupComponents.GetWriterComponents","IVssBackupComponents::GetWriterComponents","_win32_ivssbackupcomponents_getwritercomponents","base.ivssbackupcomponents_getwritercomponents","vsbackup/IVssBackupComponents::GetWriterComponents"]
 old-location: base\ivssbackupcomponents_getwritercomponents.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.date: 12/05/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents

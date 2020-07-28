@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.GetSidLengthRequired
 title: GetSidLengthRequired function (securitybaseapi.h)
-description: Returns the length, in bytes, of the buffer required to store a SID with a specified number of subauthorities.helpviewer_keywords: ["GetSidLengthRequired","GetSidLengthRequired function [Security]","_win32_getsidlengthrequired","security.getsidlengthrequired","securitybaseapi/GetSidLengthRequired"]
+description: Returns the length, in bytes, of the buffer required to store a SID with a specified number of subauthorities.
+helpviewer_keywords: ["GetSidLengthRequired","GetSidLengthRequired function [Security]","_win32_getsidlengthrequired","security.getsidlengthrequired","securitybaseapi/GetSidLengthRequired"]
 old-location: security\getsidlengthrequired.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a481fb4f-20bd-4f44-a3d5-d8b8d6228339
 ms.date: 12/05/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired

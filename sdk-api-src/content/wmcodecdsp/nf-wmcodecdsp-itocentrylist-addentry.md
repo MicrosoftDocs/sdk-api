@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntry
 title: ITocEntryList::AddEntry (wmcodecdsp.h)
-description: The AddEntry method adds an individual entry to the list and assigns an index to the entry.helpviewer_keywords: ["AddEntry","AddEntry method [Media Foundation]","AddEntry method [Media Foundation]","ITocEntryList interface","ITocEntryList interface [Media Foundation]","AddEntry method","ITocEntryList.AddEntry","ITocEntryList::AddEntry","codecapi.itocentrylist_addentry","mf.itocentrylist_addentry","wmcodecdsp/ITocEntryList::AddEntry"]
+description: The AddEntry method adds an individual entry to the list and assigns an index to the entry.
+helpviewer_keywords: ["AddEntry","AddEntry method [Media Foundation]","AddEntry method [Media Foundation]","ITocEntryList interface","ITocEntryList interface [Media Foundation]","AddEntry method","ITocEntryList.AddEntry","ITocEntryList::AddEntry","codecapi.itocentrylist_addentry","mf.itocentrylist_addentry","wmcodecdsp/ITocEntryList::AddEntry"]
 old-location: mf\itocentrylist_addentry.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4ac41f10-4bb5-4d50-9f7b-7c8710476162
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntry method, ITocEntryList.AddEntry, ITocEntryList::AddEntry, codecapi.itocentrylist_addentry, mf.itocentrylist_addentry, wmcodecdsp/ITocEntryList::AddEntry

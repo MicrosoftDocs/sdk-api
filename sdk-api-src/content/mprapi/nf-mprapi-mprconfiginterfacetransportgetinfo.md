@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportGetInfo
 title: MprConfigInterfaceTransportGetInfo function (mprapi.h)
-description: The MprConfigInterfaceTransportGetInfo function retrieves the configuration information for the specified client on the specified interface.helpviewer_keywords: ["MprConfigInterfaceTransportGetInfo","MprConfigInterfaceTransportGetInfo function [RAS]","_mpr_mprconfiginterfacetransportgetinfo","mprapi/MprConfigInterfaceTransportGetInfo","rras.mprconfiginterfacetransportgetinfo"]
+description: The MprConfigInterfaceTransportGetInfo function retrieves the configuration information for the specified client on the specified interface.
+helpviewer_keywords: ["MprConfigInterfaceTransportGetInfo","MprConfigInterfaceTransportGetInfo function [RAS]","_mpr_mprconfiginterfacetransportgetinfo","mprapi/MprConfigInterfaceTransportGetInfo","rras.mprconfiginterfacetransportgetinfo"]
 old-location: rras\mprconfiginterfacetransportgetinfo.htm
 tech.root: RRAS
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4

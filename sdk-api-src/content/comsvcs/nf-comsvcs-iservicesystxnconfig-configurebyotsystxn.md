@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IServiceSysTxnConfig.ConfigureBYOTSysTxn
 title: IServiceSysTxnConfig::ConfigureBYOTSysTxn (comsvcs.h)
-description: Enables you to run the enclosed code in the scope of an existing transaction that you specify with a transaction proxy.helpviewer_keywords: ["ConfigureBYOTSysTxn","ConfigureBYOTSysTxn method [COM+]","ConfigureBYOTSysTxn method [COM+]","IServiceSysTxnConfig interface","IServiceSysTxnConfig interface [COM+]","ConfigureBYOTSysTxn method","IServiceSysTxnConfig.ConfigureBYOTSysTxn","IServiceSysTxnConfig::ConfigureBYOTSysTxn","comsvcs/IServiceSysTxnConfig::ConfigureBYOTSysTxn","cos.iservicesystxnconfig_configurebyotsystxn"]
+description: Enables you to run the enclosed code in the scope of an existing transaction that you specify with a transaction proxy.
+helpviewer_keywords: ["ConfigureBYOTSysTxn","ConfigureBYOTSysTxn method [COM+]","ConfigureBYOTSysTxn method [COM+]","IServiceSysTxnConfig interface","IServiceSysTxnConfig interface [COM+]","ConfigureBYOTSysTxn method","IServiceSysTxnConfig.ConfigureBYOTSysTxn","IServiceSysTxnConfig::ConfigureBYOTSysTxn","comsvcs/IServiceSysTxnConfig::ConfigureBYOTSysTxn","cos.iservicesystxnconfig_configurebyotsystxn"]
 old-location: cos\iservicesystxnconfig_configurebyotsystxn.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6023e756-7797-489b-96fd-9cf2d9f2cb2b
 ms.date: 12/05/2018
 ms.keywords: ConfigureBYOTSysTxn, ConfigureBYOTSysTxn method [COM+], ConfigureBYOTSysTxn method [COM+],IServiceSysTxnConfig interface, IServiceSysTxnConfig interface [COM+],ConfigureBYOTSysTxn method, IServiceSysTxnConfig.ConfigureBYOTSysTxn, IServiceSysTxnConfig::ConfigureBYOTSysTxn, comsvcs/IServiceSysTxnConfig::ConfigureBYOTSysTxn, cos.iservicesystxnconfig_configurebyotsystxn

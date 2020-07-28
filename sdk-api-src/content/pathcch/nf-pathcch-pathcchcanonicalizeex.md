@@ -1,7 +1,8 @@
 ---
 UID: NF:pathcch.PathCchCanonicalizeEx
 title: PathCchCanonicalizeEx function (pathcch.h)
-description: Simplifies a path by removing navigation elements such as &#0034;.&#0034; and &#0034;..&#0034; to produce a direct, well-formed path.This function differs from PathCchCanonicalize in that it allows for a longer final path to be constructed.This function differs from PathAllocCanonicalize in that the caller must declare the size of the returned string, which is stored on the stack.This function differs from PathCanonicalize in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_ENSURE_TRAILING_SLASH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathCchCanonicalizeEx","PathCchCanonicalizeEx function [Windows Shell]","pathcch/PathCchCanonicalizeEx","shell.PathCchCanonicalizeEx"]
+description: Simplifies a path by removing navigation elements such as &quot;.&quot; and &quot;..&quot; to produce a direct, well-formed path.This function differs from PathCchCanonicalize in that it allows for a longer final path to be constructed.This function differs from PathAllocCanonicalize in that the caller must declare the size of the returned string, which is stored on the stack.This function differs from PathCanonicalize in that it accepts paths with &quot;\\&quot;, &quot;\\?\&quot; and &quot;\\?\UNC\&quot; prefixes.
+helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_ENSURE_TRAILING_SLASH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathCchCanonicalizeEx","PathCchCanonicalizeEx function [Windows Shell]","pathcch/PathCchCanonicalizeEx","shell.PathCchCanonicalizeEx"]
 old-location: shell\PathCchCanonicalizeEx.htm
 tech.root: shell
 ms.assetid: fd7b8ce0-3c67-48fb-8e7e-521a6b438676
@@ -47,7 +48,6 @@ ms.custom: 19H1
 
 # PathCchCanonicalizeEx function
 
-
 ## -description
 
 Simplifies a path by removing navigation elements such as "." and ".." to produce a direct, well-formed path.
@@ -60,24 +60,19 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b> This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccanonicalize">PathAllocCanonicalize</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a> to prevent the possibility of a buffer overrun.</div>
 
-
 ## -parameters
-
 
 ### -param pszPathOut [out]
 
 A pointer to a buffer that, when this function returns successfully, receives the edited path string.
 
-
 ### -param cchPathOut [in]
 
 The size of the buffer pointed to by <i>pszPathOut</i>, in characters.
 
-
 ### -param pszPathIn [in]
 
 A pointer to the original path string. If this value is <b>NULL</b>, points to an empty string, or results in an empty string once the "." and ".." elements are removed, a single backslash is copied to the buffer pointed to by <i>pszPathOut</i>.
-
 
 ### -param dwFlags [in]
 
@@ -168,7 +163,6 @@ Disables the normalization of path segments that includes removing trailing dots
 </tr>
 </table>
 
-
 ## -returns
 
 If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> code, including but not limited to the following.
@@ -210,7 +204,6 @@ The function could not allocate a buffer of the neccessary size.
 </tr>
 </table>
 
-
 ## -remarks
 
 This function responds to the strings "." and ".." embedded in a path. The ".." string indicates to remove the immediately preceding path segment. The "." string indicates to skip over the next path segment. Note that the root segment of the path cannot be removed. If there are more ".." strings than there are path segments, the function returns <b>S_OK</b> and the buffer pointed to by <i>pszPathOut</i> contains a single backslash, "\".
@@ -218,6 +211,8 @@ This function responds to the strings "." and ".." embedded in a path. The ".." 
 All trailing periods are removed from the path, except when preceded by the "*" wild card character. In that case, a single period is retained after the '*' character, but all other trailing periods are removed.
 
 If the resulting path is a root drive ("x:"), a backslash is appended ("x:\").
+
+This function does not convert forward slashes (`/`) into back slashes (`\`). With untrusted input, this function by itself, cannot be used to convert paths into a form that can be compared with other paths for sub-path or identity. Callers that need that ability should convert forward to back slashes before using this function.
 
 The following examples show the effect of these strings.
 

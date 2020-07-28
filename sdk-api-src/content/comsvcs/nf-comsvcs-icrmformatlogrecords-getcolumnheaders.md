@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnHeaders
 title: ICrmFormatLogRecords::GetColumnHeaders (comsvcs.h)
-description: Retrieves the names of the fields (columns) so that they can be used as column headings when the information is presented.helpviewer_keywords: ["GetColumnHeaders","GetColumnHeaders method [COM+]","GetColumnHeaders method [COM+]","ICrmFormatLogRecords interface","ICrmFormatLogRecords interface [COM+]","GetColumnHeaders method","ICrmFormatLogRecords.GetColumnHeaders","ICrmFormatLogRecords::GetColumnHeaders","_dtc_ICrmFormatLogRecords_GetColumnHeaders","comsvcs/ICrmFormatLogRecords::GetColumnHeaders","cos.icrmformatlogrecords_getcolumnheaders"]
+description: Retrieves the names of the fields (columns) so that they can be used as column headings when the information is presented.
+helpviewer_keywords: ["GetColumnHeaders","GetColumnHeaders method [COM+]","GetColumnHeaders method [COM+]","ICrmFormatLogRecords interface","ICrmFormatLogRecords interface [COM+]","GetColumnHeaders method","ICrmFormatLogRecords.GetColumnHeaders","ICrmFormatLogRecords::GetColumnHeaders","_dtc_ICrmFormatLogRecords_GetColumnHeaders","comsvcs/ICrmFormatLogRecords::GetColumnHeaders","cos.icrmformatlogrecords_getcolumnheaders"]
 old-location: cos\icrmformatlogrecords_getcolumnheaders.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b7ca50f9-7e42-4cde-9985-0501ae34f040
 ms.date: 12/05/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [COM+], GetColumnHeaders method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnHeaders method, ICrmFormatLogRecords.GetColumnHeaders, ICrmFormatLogRecords::GetColumnHeaders, _dtc_ICrmFormatLogRecords_GetColumnHeaders, comsvcs/ICrmFormatLogRecords::GetColumnHeaders, cos.icrmformatlogrecords_getcolumnheaders

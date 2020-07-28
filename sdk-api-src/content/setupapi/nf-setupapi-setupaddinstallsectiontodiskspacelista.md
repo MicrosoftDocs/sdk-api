@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupAddInstallSectionToDiskSpaceListA
 title: SetupAddInstallSectionToDiskSpaceListA function (setupapi.h)
-description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list.helpviewer_keywords: ["SetupAddInstallSectionToDiskSpaceList","SetupAddInstallSectionToDiskSpaceList function [Setup API]","SetupAddInstallSectionToDiskSpaceListA","SetupAddInstallSectionToDiskSpaceListW","_setupapi_setupaddinstallsectiontodiskspacelist","setup.setupaddinstallsectiontodiskspacelist","setupapi/SetupAddInstallSectionToDiskSpaceList","setupapi/SetupAddInstallSectionToDiskSpaceListA","setupapi/SetupAddInstallSectionToDiskSpaceListW"]
+description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list.
+helpviewer_keywords: ["SetupAddInstallSectionToDiskSpaceList","SetupAddInstallSectionToDiskSpaceList function [Setup API]","SetupAddInstallSectionToDiskSpaceListA","SetupAddInstallSectionToDiskSpaceListW","_setupapi_setupaddinstallsectiontodiskspacelist","setup.setupaddinstallsectiontodiskspacelist","setupapi/SetupAddInstallSectionToDiskSpaceList","setupapi/SetupAddInstallSectionToDiskSpaceListA","setupapi/SetupAddInstallSectionToDiskSpaceListW"]
 old-location: setup\setupaddinstallsectiontodiskspacelist.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 322f36d7-a683-4a48-b294-393277f09e7d
 ms.date: 12/05/2018
 ms.keywords: SetupAddInstallSectionToDiskSpaceList, SetupAddInstallSectionToDiskSpaceList function [Setup API], SetupAddInstallSectionToDiskSpaceListA, SetupAddInstallSectionToDiskSpaceListW, _setupapi_setupaddinstallsectiontodiskspacelist, setup.setupaddinstallsectiontodiskspacelist, setupapi/SetupAddInstallSectionToDiskSpaceList, setupapi/SetupAddInstallSectionToDiskSpaceListA, setupapi/SetupAddInstallSectionToDiskSpaceListW
@@ -112,6 +113,10 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupAddInstallSectionToDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetResourceUriPrefix
 title: MI_OperationOptions_GetResourceUriPrefix function (mi.h)
-description: Gets the resource URI prefix being used for an operation.helpviewer_keywords: ["MI_OperationOptions_GetResourceUriPrefix","MI_OperationOptions_GetResourceUriPrefix function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetResourceUriPrefix","wmi_v2.mi_operationoptions_getresourceuriprefix"]
+description: Gets the resource URI prefix being used for an operation.
+helpviewer_keywords: ["MI_OperationOptions_GetResourceUriPrefix","MI_OperationOptions_GetResourceUriPrefix function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetResourceUriPrefix","wmi_v2.mi_operationoptions_getresourceuriprefix"]
 old-location: wmi_v2\mi_operationoptions_getresourceuriprefix.htm
 tech.root: wmi_v2
 ms.assetid: c6ef1e8c-0d80-4359-a0f4-9d25ed39eae3

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetPreferredClsid
 title: IAMPluginControl::SetPreferredClsid (strmif.h)
-description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetPreferredClsid method","IAMPluginControl.SetPreferredClsid","IAMPluginControl::SetPreferredClsid","SetPreferredClsid","SetPreferredClsid method [DirectShow]","SetPreferredClsid method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setpreferredclsid","strmif/IAMPluginControl::SetPreferredClsid"]
+description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
+helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetPreferredClsid method","IAMPluginControl.SetPreferredClsid","IAMPluginControl::SetPreferredClsid","SetPreferredClsid","SetPreferredClsid method [DirectShow]","SetPreferredClsid method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setpreferredclsid","strmif/IAMPluginControl::SetPreferredClsid"]
 old-location: dshow\iamplugincontrol_setpreferredclsid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 45702714-6b35-4863-885e-55049258a4ae
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],SetPreferredClsid method, IAMPluginControl.SetPreferredClsid, IAMPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [DirectShow], SetPreferredClsid method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setpreferredclsid, strmif/IAMPluginControl::SetPreferredClsid

@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForgetLogRecord
 title: ICrmLogControl::ForgetLogRecord (comsvcs.h)
-description: Forgets the last log record written by this instance of the interface.helpviewer_keywords: ["ForgetLogRecord","ForgetLogRecord method [COM+]","ForgetLogRecord method [COM+]","ICrmLogControl interface","ICrmLogControl interface [COM+]","ForgetLogRecord method","ICrmLogControl.ForgetLogRecord","ICrmLogControl::ForgetLogRecord","_dtc_ICrmLogControl_ForgetLogRecord","comsvcs/ICrmLogControl::ForgetLogRecord","cos.icrmlogcontrol_forgetlogrecord"]
+description: Forgets the last log record written by this instance of the interface.
+helpviewer_keywords: ["ForgetLogRecord","ForgetLogRecord method [COM+]","ForgetLogRecord method [COM+]","ICrmLogControl interface","ICrmLogControl interface [COM+]","ForgetLogRecord method","ICrmLogControl.ForgetLogRecord","ICrmLogControl::ForgetLogRecord","_dtc_ICrmLogControl_ForgetLogRecord","comsvcs/ICrmLogControl::ForgetLogRecord","cos.icrmlogcontrol_forgetlogrecord"]
 old-location: cos\icrmlogcontrol_forgetlogrecord.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
 ms.date: 12/05/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord

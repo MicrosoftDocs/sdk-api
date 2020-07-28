@@ -1,9 +1,10 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamClose
 title: NCryptStreamClose function (ncryptprotect.h)
-description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.helpviewer_keywords: ["NCryptStreamClose","NCryptStreamClose function [Security]","ncryptprotect/NCryptStreamClose","security.ncryptstreamclose"]
+description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
+helpviewer_keywords: ["NCryptStreamClose","NCryptStreamClose function [Security]","ncryptprotect/NCryptStreamClose","security.ncryptstreamclose"]
 old-location: security\ncryptstreamclose.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose

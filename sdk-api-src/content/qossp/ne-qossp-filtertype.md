@@ -1,7 +1,8 @@
 ---
 UID: NE:qossp.__unnamed_enum_0
 title: FilterType (qossp.h)
-description: The FilterType enumeration specifies the type of filter used for an RSVP FILTERSPEC.helpviewer_keywords: ["FILTERSPECV4","FILTERSPECV4_GPI","FILTERSPECV6","FILTERSPECV6_FLOW","FILTERSPECV6_GPI","FILTERSPEC_END","FilterType","FilterType enumeration [QOS]","qos.filtertype","qossp/FILTERSPECV4","qossp/FILTERSPECV4_GPI","qossp/FILTERSPECV6","qossp/FILTERSPECV6_FLOW","qossp/FILTERSPECV6_GPI","qossp/FILTERSPEC_END","qossp/FilterType"]
+description: The FilterType enumeration specifies the type of filter used for an RSVP FILTERSPEC.
+helpviewer_keywords: ["FILTERSPECV4","FILTERSPECV4_GPI","FILTERSPECV6","FILTERSPECV6_FLOW","FILTERSPECV6_GPI","FILTERSPEC_END","FilterType","FilterType enumeration [QOS]","qos.filtertype","qossp/FILTERSPECV4","qossp/FILTERSPECV4_GPI","qossp/FILTERSPECV6","qossp/FILTERSPECV6_FLOW","qossp/FILTERSPECV6_GPI","qossp/FILTERSPEC_END","qossp/FilterType"]
 old-location: qos\filtertype.htm
 tech.root: QOS
 ms.assetid: e9e961ed-80a8-4694-a11d-f6cd323ec2ff

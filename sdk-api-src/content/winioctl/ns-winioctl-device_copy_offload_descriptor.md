@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._DEVICE_COPY_OFFLOAD_DESCRIPTOR
 title: DEVICE_COPY_OFFLOAD_DESCRIPTOR
-description: Contains the copy offload capabilities for a storage device.helpviewer_keywords: ["*PDEVICE_COPY_OFFLOAD_DESCRIPTOR","DEVICE_COPY_OFFLOAD_DESCRIPTOR","DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Files]","PDEVICE_COPY_OFFLOAD_DESCRIPTOR","PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Files]","fs.device_copy_offload_descriptor","winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR","winioctl/PDEVICE_COPY_OFFLOAD_DESCRIPTOR"]
+description: Contains the copy offload capabilities for a storage device.
+helpviewer_keywords: ["*PDEVICE_COPY_OFFLOAD_DESCRIPTOR","DEVICE_COPY_OFFLOAD_DESCRIPTOR","DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Files]","PDEVICE_COPY_OFFLOAD_DESCRIPTOR","PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Files]","fs.device_copy_offload_descriptor","winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR","winioctl/PDEVICE_COPY_OFFLOAD_DESCRIPTOR"]
 old-location: fs\device_copy_offload_descriptor.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: ff100db5-f244-4d34-8b55-9b6b21b9e382
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Files], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Files], fs.device_copy_offload_descriptor, winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR, winioctl/PDEVICE_COPY_OFFLOAD_DESCRIPTOR'

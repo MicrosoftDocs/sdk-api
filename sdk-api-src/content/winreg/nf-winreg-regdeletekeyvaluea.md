@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegDeleteKeyValueA
 title: RegDeleteKeyValueA function (winreg.h)
-description: Removes the specified value from the specified registry key and subkey.helpviewer_keywords: ["RegDeleteKeyValue","RegDeleteKeyValue function","RegDeleteKeyValueA","RegDeleteKeyValueW","base.regdeletekeyvalue","winreg/RegDeleteKeyValue","winreg/RegDeleteKeyValueA","winreg/RegDeleteKeyValueW"]
+description: Removes the specified value from the specified registry key and subkey.
+helpviewer_keywords: ["RegDeleteKeyValue","RegDeleteKeyValue function","RegDeleteKeyValueA","RegDeleteKeyValueW","base.regdeletekeyvalue","winreg/RegDeleteKeyValue","winreg/RegDeleteKeyValueA","winreg/RegDeleteKeyValueW"]
 old-location: base\regdeletekeyvalue.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: a4a082c2-8cf3-41eb-87c0-a6c453821f8b
 ms.date: 12/05/2018
 ms.keywords: RegDeleteKeyValue, RegDeleteKeyValue function, RegDeleteKeyValueA, RegDeleteKeyValueW, base.regdeletekeyvalue, winreg/RegDeleteKeyValue, winreg/RegDeleteKeyValueA, winreg/RegDeleteKeyValueW
@@ -40,6 +41,7 @@ api_location:
 - API-MS-Win-Core-Registry-l1-1-1.dll
 - KernelBase.dll
 - MinKernelBase.dll
+- kernel32.dll
 api_name:
 - RegDeleteKeyValue
 - RegDeleteKeyValueA
@@ -118,6 +120,11 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
+
+> [!NOTE]
+> The winreg.h header defines RegDeleteKeyValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

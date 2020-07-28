@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._TOKEN_ORIGIN
 title: TOKEN_ORIGIN (winnt.h)
-description: Contains information about the origin of the logon session.helpviewer_keywords: ["*PTOKEN_ORIGIN","PTOKEN_ORIGIN","PTOKEN_ORIGIN structure pointer [Security]","TOKEN_ORIGIN","TOKEN_ORIGIN structure [Security]","_TOKEN_ORIGIN","security.token_origin","winnt/PTOKEN_ORIGIN","winnt/TOKEN_ORIGIN"]
+description: Contains information about the origin of the logon session.
+helpviewer_keywords: ["*PTOKEN_ORIGIN","PTOKEN_ORIGIN","PTOKEN_ORIGIN structure pointer [Security]","TOKEN_ORIGIN","TOKEN_ORIGIN structure [Security]","_TOKEN_ORIGIN","security.token_origin","winnt/PTOKEN_ORIGIN","winnt/TOKEN_ORIGIN"]
 old-location: security\token_origin.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: b613f76a-7ad1-4066-90a1-244974f10219
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Security], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Security], _TOKEN_ORIGIN, security.token_origin, winnt/PTOKEN_ORIGIN, winnt/TOKEN_ORIGIN'

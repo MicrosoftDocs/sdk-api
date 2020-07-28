@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryGetFirst
 title: MprAdminMIBEntryGetFirst function (mprapi.h)
-description: The MprAdminMIBEntryGetFirst function retrieves the first variable of some set of variables exported by a protocol or router manager. The module that services the call defines first.helpviewer_keywords: ["MprAdminMIBEntryGetFirst","MprAdminMIBEntryGetFirst function [RAS]","_mpr_mpradminmibentrygetfirst","mprapi/MprAdminMIBEntryGetFirst","rras.mpradminmibentrygetfirst"]
+description: The MprAdminMIBEntryGetFirst function retrieves the first variable of some set of variables exported by a protocol or router manager. The module that services the call defines first.
+helpviewer_keywords: ["MprAdminMIBEntryGetFirst","MprAdminMIBEntryGetFirst function [RAS]","_mpr_mpradminmibentrygetfirst","mprapi/MprAdminMIBEntryGetFirst","rras.mpradminmibentrygetfirst"]
 old-location: rras\mpradminmibentrygetfirst.htm
 tech.root: RRAS
 ms.assetid: e3c3ac47-d47c-4fd4-a064-b737bc40f190

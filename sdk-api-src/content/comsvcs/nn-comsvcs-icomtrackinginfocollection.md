@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IComTrackingInfoCollection
 title: IComTrackingInfoCollection (comsvcs.h)
-description: Retrieves information about a tracking information collection.helpviewer_keywords: ["IComTrackingInfoCollection","IComTrackingInfoCollection interface [COM+]","IComTrackingInfoCollection interface [COM+]","described","_dtc_IComTrackingInfoCollection","comsvcs/IComTrackingInfoCollection","cos.icomtrackinginfocollection"]
+description: Retrieves information about a tracking information collection.
+helpviewer_keywords: ["IComTrackingInfoCollection","IComTrackingInfoCollection interface [COM+]","IComTrackingInfoCollection interface [COM+]","described","_dtc_IComTrackingInfoCollection","comsvcs/IComTrackingInfoCollection","cos.icomtrackinginfocollection"]
 old-location: cos\icomtrackinginfocollection.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 7caa0fd3-a42c-43ea-849d-aa2c4ed1c628
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], IComTrackingInfoCollection interface [COM+],described, _dtc_IComTrackingInfoCollection, comsvcs/IComTrackingInfoCollection, cos.icomtrackinginfocollection

@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetAvailableMonitors
 title: IVMRMonitorConfig9::GetAvailableMonitors (vmr9.h)
-description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.helpviewer_keywords: ["GetAvailableMonitors","GetAvailableMonitors method [DirectShow]","GetAvailableMonitors method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetAvailableMonitors method","IVMRMonitorConfig9.GetAvailableMonitors","IVMRMonitorConfig9::GetAvailableMonitors","IVMRMonitorConfig9GetAvailableMonitors","dshow.ivmrmonitorconfig9_getavailablemonitors","vmr9/IVMRMonitorConfig9::GetAvailableMonitors"]
+description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
+helpviewer_keywords: ["GetAvailableMonitors","GetAvailableMonitors method [DirectShow]","GetAvailableMonitors method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetAvailableMonitors method","IVMRMonitorConfig9.GetAvailableMonitors","IVMRMonitorConfig9::GetAvailableMonitors","IVMRMonitorConfig9GetAvailableMonitors","dshow.ivmrmonitorconfig9_getavailablemonitors","vmr9/IVMRMonitorConfig9::GetAvailableMonitors"]
 old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cebd40c2-ea41-4ed1-87d1-37f9d427c539
 ms.date: 12/05/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors

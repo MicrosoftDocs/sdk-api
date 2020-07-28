@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IBlockingLock
 title: IBlockingLock (objidl.h)
-description: Provides a semaphore that can be used to provide temporarily exclusive access to a shared resource such as a file.helpviewer_keywords: ["IBlockingLock","IBlockingLock interface [COM]","IBlockingLock interface [COM]","described","_com_iblockinglock","com.iblockinglock","objidl/IBlockingLock"]
+description: Provides a semaphore that can be used to provide temporarily exclusive access to a shared resource such as a file.
+helpviewer_keywords: ["IBlockingLock","IBlockingLock interface [COM]","IBlockingLock interface [COM]","described","_com_iblockinglock","com.iblockinglock","objidl/IBlockingLock"]
 old-location: com\iblockinglock.htm
 tech.root: com
 ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5

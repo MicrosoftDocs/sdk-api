@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.put_ServiceID
 title: IUpdateSearcher::put_ServiceID (wuapi.h)
-description: Gets and sets a site to search when the site to search is not a Windows Update site.helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","ServiceID property","IUpdateSearcher.ServiceID","IUpdateSearcher.put_ServiceID","IUpdateSearcher::ServiceID","IUpdateSearcher::get_ServiceID","IUpdateSearcher::put_ServiceID","ServiceID property [Windows Update Agent]","ServiceID property [Windows Update Agent]","IUpdateSearcher interface","put_ServiceID","wua.iupdatesearcherserviceid","wuapi/IUpdateSearcher::ServiceID","wuapi/IUpdateSearcher::get_ServiceID","wuapi/IUpdateSearcher::put_ServiceID"]
+description: Gets and sets a site to search when the site to search is not a Windows Update site.
+helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","ServiceID property","IUpdateSearcher.ServiceID","IUpdateSearcher.put_ServiceID","IUpdateSearcher::ServiceID","IUpdateSearcher::get_ServiceID","IUpdateSearcher::put_ServiceID","ServiceID property [Windows Update Agent]","ServiceID property [Windows Update Agent]","IUpdateSearcher interface","put_ServiceID","wua.iupdatesearcherserviceid","wuapi/IUpdateSearcher::ServiceID","wuapi/IUpdateSearcher::get_ServiceID","wuapi/IUpdateSearcher::put_ServiceID"]
 old-location: wua\iupdatesearcherserviceid.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7c00d26a-9ef0-45ec-81b3-d13f91dd7d8d
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServiceID property, IUpdateSearcher.ServiceID, IUpdateSearcher.put_ServiceID, IUpdateSearcher::ServiceID, IUpdateSearcher::get_ServiceID, IUpdateSearcher::put_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateSearcher interface, put_ServiceID, wua.iupdatesearcherserviceid, wuapi/IUpdateSearcher::ServiceID, wuapi/IUpdateSearcher::get_ServiceID, wuapi/IUpdateSearcher::put_ServiceID

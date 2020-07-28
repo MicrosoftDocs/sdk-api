@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.InitializeXamlDiagnosticsEx
 title: InitializeXamlDiagnosticsEx function (xamlom.h)
-description: Initializes a Xaml Diagnostics session. This is the entry point for any debugging tool using the XAML Diagnostic APIs.helpviewer_keywords: ["InitializeXamlDiagnosticsEx","InitializeXamlDiagnosticsEx function","xaml_diagnostics.initializexamldiagnosticsex","xamlom/InitializeXamlDiagnosticsEx"]
+description: Initializes a Xaml Diagnostics session. This is the entry point for any debugging tool using the XAML Diagnostic APIs.
+helpviewer_keywords: ["InitializeXamlDiagnosticsEx","InitializeXamlDiagnosticsEx function","xaml_diagnostics.initializexamldiagnosticsex","xamlom/InitializeXamlDiagnosticsEx"]
 old-location: xaml_diagnostics\initializexamldiagnosticsex.htm
 tech.root: xaml_diagnostics
 ms.assetid: CFBCF6EC-5E42-4992-B046-B4F436A9BF04

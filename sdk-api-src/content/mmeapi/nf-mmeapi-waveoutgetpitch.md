@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.waveOutGetPitch
 title: waveOutGetPitch function (mmeapi.h)
-description: The waveOutGetPitch function retrieves the current pitch setting for the specified waveform-audio output device.helpviewer_keywords: ["_win32_waveOutGetPitch","mmeapi/waveOutGetPitch","multimedia.waveoutgetpitch","waveOutGetPitch","waveOutGetPitch function [Windows Multimedia]"]
+description: The waveOutGetPitch function retrieves the current pitch setting for the specified waveform-audio output device.
+helpviewer_keywords: ["_win32_waveOutGetPitch","mmeapi/waveOutGetPitch","multimedia.waveoutgetpitch","waveOutGetPitch","waveOutGetPitch function [Windows Multimedia]"]
 old-location: multimedia\waveoutgetpitch.htm
 tech.root: Multimedia
 ms.assetid: e4adcf3d-2d9a-4cf3-81bc-3d109c90663f

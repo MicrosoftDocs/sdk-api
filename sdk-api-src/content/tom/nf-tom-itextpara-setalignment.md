@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.SetAlignment
 title: ITextPara::SetAlignment (tom.h)
-description: Sets the paragraph alignment.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetAlignment method","ITextPara.SetAlignment","ITextPara::SetAlignment","SetAlignment","SetAlignment method [Windows Controls]","SetAlignment method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetAlignment","_win32_ITextPara_SetAlignment_cpp","controls.ITextPara_SetAlignment","controls._win32_ITextPara_SetAlignment","tom/ITextPara::SetAlignment"]
+description: Sets the paragraph alignment.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetAlignment method","ITextPara.SetAlignment","ITextPara::SetAlignment","SetAlignment","SetAlignment method [Windows Controls]","SetAlignment method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetAlignment","_win32_ITextPara_SetAlignment_cpp","controls.ITextPara_SetAlignment","controls._win32_ITextPara_SetAlignment","tom/ITextPara::SetAlignment"]
 old-location: controls\ITextPara_SetAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setalignment.htm

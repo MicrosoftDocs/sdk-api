@@ -1,9 +1,10 @@
 ---
 UID: NN:wmcontainer.IMFASFContentInfo
 title: IMFASFContentInfo (wmcontainer.h)
-description: Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification.helpviewer_keywords: ["9f490e6a-f378-45c1-a69d-985c6e884358","IMFASFContentInfo","IMFASFContentInfo interface [Media Foundation]","IMFASFContentInfo interface [Media Foundation]","described","mf.imfasfcontentinfo","wmcontainer/IMFASFContentInfo"]
+description: Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification.
+helpviewer_keywords: ["9f490e6a-f378-45c1-a69d-985c6e884358","IMFASFContentInfo","IMFASFContentInfo interface [Media Foundation]","IMFASFContentInfo interface [Media Foundation]","described","mf.imfasfcontentinfo","wmcontainer/IMFASFContentInfo"]
 old-location: mf\imfasfcontentinfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
 ms.date: 12/05/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation],described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo

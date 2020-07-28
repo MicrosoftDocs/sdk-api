@@ -4,7 +4,7 @@ title: CreateMutexW function (synchapi.h)
 description: Creates or opens a named or unnamed mutex object.
 helpviewer_keywords: ["CreateMutex","CreateMutex function","CreateMutexA","CreateMutexW","_win32_createmutex","base.createmutex","synchapi/CreateMutex","synchapi/CreateMutexA","synchapi/CreateMutexW","winbase/CreateMutex","winbase/CreateMutexA","winbase/CreateMutexW"]
 old-location: base\createmutex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.date: 12/05/2018
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
@@ -163,6 +163,10 @@ For an example that uses
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The synchapi.h header defines CreateMutex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

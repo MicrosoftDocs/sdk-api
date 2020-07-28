@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpGetUserInfoFn
 title: SpGetUserInfoFn (ntsecpkg.h)
-description: Retrieves information about a logon session.helpviewer_keywords: ["NO_LONG_NAMES","SpGetUserInfo","SpGetUserInfo callback function [Security]","SpGetUserInfoFn","SpGetUserInfoFn callback","UNDERSTANDS_LONG_NAMES","_ssp_spgetuserinfo","ntsecpkg/SpGetUserInfo","security.spgetuserinfo"]
+description: Retrieves information about a logon session.
+helpviewer_keywords: ["NO_LONG_NAMES","SpGetUserInfo","SpGetUserInfo callback function [Security]","SpGetUserInfoFn","SpGetUserInfoFn callback","UNDERSTANDS_LONG_NAMES","_ssp_spgetuserinfo","ntsecpkg/SpGetUserInfo","security.spgetuserinfo"]
 old-location: security\spgetuserinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ee37fab0-5ee5-4cc5-9fcc-5c74cb0b2b26
 ms.date: 12/05/2018
 ms.keywords: NO_LONG_NAMES, SpGetUserInfo, SpGetUserInfo callback function [Security], SpGetUserInfoFn, SpGetUserInfoFn callback, UNDERSTANDS_LONG_NAMES, _ssp_spgetuserinfo, ntsecpkg/SpGetUserInfo, security.spgetuserinfo

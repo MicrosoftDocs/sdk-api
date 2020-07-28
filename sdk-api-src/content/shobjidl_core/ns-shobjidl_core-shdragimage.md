@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl_core.SHDRAGIMAGE
 title: SHDRAGIMAGE (shobjidl_core.h)
-description: Contains the information needed to create a drag image.helpviewer_keywords: ["*LPSHDRAGIMAGE","LPSHDRAGIMAGE","LPSHDRAGIMAGE structure pointer [Windows Shell]","SHDRAGIMAGE","SHDRAGIMAGE structure [Windows Shell]","_win32_SHDRAGIMAGE_str","shell.SHDRAGIMAGE_str","shobjidl_core/LPSHDRAGIMAGE","shobjidl_core/SHDRAGIMAGE"]
+description: Contains the information needed to create a drag image.
+helpviewer_keywords: ["*LPSHDRAGIMAGE","LPSHDRAGIMAGE","LPSHDRAGIMAGE structure pointer [Windows Shell]","SHDRAGIMAGE","SHDRAGIMAGE structure [Windows Shell]","_win32_SHDRAGIMAGE_str","shell.SHDRAGIMAGE_str","shobjidl_core/LPSHDRAGIMAGE","shobjidl_core/SHDRAGIMAGE"]
 old-location: shell\SHDRAGIMAGE_str.htm
 tech.root: shell
 ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec

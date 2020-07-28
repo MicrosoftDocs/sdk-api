@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.GetLogContainerName
 title: GetLogContainerName function (clfsw32.h)
-description: Retrieves the full path name of the specified container.helpviewer_keywords: ["GetLogContainerName","GetLogContainerName function [Files]","clfsw32/GetLogContainerName","fs.getlogcontainername"]
+description: Retrieves the full path name of the specified container.
+helpviewer_keywords: ["GetLogContainerName","GetLogContainerName function [Files]","clfsw32/GetLogContainerName","fs.getlogcontainername"]
 old-location: fs\getlogcontainername.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 4ff12544-797d-48b9-9c42-4bec059e6551
 ms.date: 12/05/2018
 ms.keywords: GetLogContainerName, GetLogContainerName function [Files], clfsw32/GetLogContainerName, fs.getlogcontainername

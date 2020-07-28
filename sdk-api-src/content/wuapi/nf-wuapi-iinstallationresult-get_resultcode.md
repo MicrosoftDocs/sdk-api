@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_ResultCode
 title: IInstallationResult::get_ResultCode (wuapi.h)
-description: Gets an OperationResultCode value that specifies the result of an operation on an update.helpviewer_keywords: ["IInstallationResult interface [Windows Update Agent]","ResultCode property","IInstallationResult.ResultCode","IInstallationResult.get_ResultCode","IInstallationResult::ResultCode","IInstallationResult::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","IInstallationResult interface","get_ResultCode","wua.iinstallationresult_resultcode","wuapi/IInstallationResult::ResultCode","wuapi/IInstallationResult::get_ResultCode"]
+description: Gets an OperationResultCode value that specifies the result of an operation on an update.
+helpviewer_keywords: ["IInstallationResult interface [Windows Update Agent]","ResultCode property","IInstallationResult.ResultCode","IInstallationResult.get_ResultCode","IInstallationResult::ResultCode","IInstallationResult::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","IInstallationResult interface","get_ResultCode","wua.iinstallationresult_resultcode","wuapi/IInstallationResult::ResultCode","wuapi/IInstallationResult::get_ResultCode"]
 old-location: wua\iinstallationresult_resultcode.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 09454585-ce1e-41e9-8c8a-8a5cffb94388
 ms.date: 12/05/2018
 ms.keywords: IInstallationResult interface [Windows Update Agent],ResultCode property, IInstallationResult.ResultCode, IInstallationResult.get_ResultCode, IInstallationResult::ResultCode, IInstallationResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IInstallationResult interface, get_ResultCode, wua.iinstallationresult_resultcode, wuapi/IInstallationResult::ResultCode, wuapi/IInstallationResult::get_ResultCode

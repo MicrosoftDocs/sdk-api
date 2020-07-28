@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetLineJoin
 title: Pen::GetLineJoin (gdipluspen.h)
-description: The Pen::GetLineJoin method gets the line join style currently set for this Pen object.helpviewer_keywords: ["GetLineJoin","GetLineJoin method [GDI+]","GetLineJoin method [GDI+]","Pen class","Pen class [GDI+]","GetLineJoin method","Pen.GetLineJoin","Pen::GetLineJoin","_gdiplus_CLASS_Pen_GetLineJoin_","gdiplus._gdiplus_CLASS_Pen_GetLineJoin_"]
+description: The Pen::GetLineJoin method gets the line join style currently set for this Pen object.
+helpviewer_keywords: ["GetLineJoin","GetLineJoin method [GDI+]","GetLineJoin method [GDI+]","Pen class","Pen class [GDI+]","GetLineJoin method","Pen.GetLineJoin","Pen::GetLineJoin","_gdiplus_CLASS_Pen_GetLineJoin_","gdiplus._gdiplus_CLASS_Pen_GetLineJoin_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetLineJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlinejoin.htm

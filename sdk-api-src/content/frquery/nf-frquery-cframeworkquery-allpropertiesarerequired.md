@@ -1,9 +1,10 @@
 ---
 UID: NF:frquery.CFrameworkQuery.AllPropertiesAreRequired
 title: CFrameworkQuery::AllPropertiesAreRequired (frquery.h)
-description: The AllPropertiesAreRequired method indicates whether all of the properties for the instance are requested.helpviewer_keywords: ["AllPropertiesAreRequired","AllPropertiesAreRequired method [Windows Management Instrumentation]","AllPropertiesAreRequired method [Windows Management Instrumentation]","CFrameworkQuery interface","CFrameworkQuery interface [Windows Management Instrumentation]","AllPropertiesAreRequired method","CFrameworkQuery.AllPropertiesAreRequired","CFrameworkQuery::AllPropertiesAreRequired","_hmm_cframeworkquery_allpropertiesarerequired","frquery/CFrameworkQuery::AllPropertiesAreRequired","wmi.cframeworkquery_allpropertiesarerequired"]
+description: The AllPropertiesAreRequired method indicates whether all of the properties for the instance are requested.
+helpviewer_keywords: ["AllPropertiesAreRequired","AllPropertiesAreRequired method [Windows Management Instrumentation]","AllPropertiesAreRequired method [Windows Management Instrumentation]","CFrameworkQuery interface","CFrameworkQuery interface [Windows Management Instrumentation]","AllPropertiesAreRequired method","CFrameworkQuery.AllPropertiesAreRequired","CFrameworkQuery::AllPropertiesAreRequired","_hmm_cframeworkquery_allpropertiesarerequired","frquery/CFrameworkQuery::AllPropertiesAreRequired","wmi.cframeworkquery_allpropertiesarerequired"]
 old-location: wmi\cframeworkquery_allpropertiesarerequired.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 5c17cae5-c68b-41a3-80ca-88d56be4ab74
 ms.date: 12/05/2018
 ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation],CFrameworkQuery interface, CFrameworkQuery interface [Windows Management Instrumentation],AllPropertiesAreRequired method, CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired

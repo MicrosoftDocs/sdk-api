@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetResizerQuality
 title: IWMResizerProps::SetResizerQuality (wmcodecdsp.h)
-description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.helpviewer_keywords: ["IWMResizerProps interface [Media Foundation]","SetResizerQuality method","IWMResizerProps.SetResizerQuality","IWMResizerProps::SetResizerQuality","SetResizerQuality","SetResizerQuality method [Media Foundation]","SetResizerQuality method [Media Foundation]","IWMResizerProps interface","codecapi.iwmresizerpropssetresizerquality","mf.iwmresizerpropssetresizerquality","wmcodecdsp/IWMResizerProps::SetResizerQuality"]
+description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
+helpviewer_keywords: ["IWMResizerProps interface [Media Foundation]","SetResizerQuality method","IWMResizerProps.SetResizerQuality","IWMResizerProps::SetResizerQuality","SetResizerQuality","SetResizerQuality method [Media Foundation]","SetResizerQuality method [Media Foundation]","IWMResizerProps interface","codecapi.iwmresizerpropssetresizerquality","mf.iwmresizerpropssetresizerquality","wmcodecdsp/IWMResizerProps::SetResizerQuality"]
 old-location: mf\iwmresizerpropssetresizerquality.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 64a85094-4247-41d8-9bb6-bdaedba62c19
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetResizerQuality method, IWMResizerProps.SetResizerQuality, IWMResizerProps::SetResizerQuality, SetResizerQuality, SetResizerQuality method [Media Foundation], SetResizerQuality method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetresizerquality, mf.iwmresizerpropssetresizerquality, wmcodecdsp/IWMResizerProps::SetResizerQuality

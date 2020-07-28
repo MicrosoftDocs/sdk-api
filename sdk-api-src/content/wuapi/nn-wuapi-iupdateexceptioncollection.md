@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IUpdateExceptionCollection
 title: IUpdateExceptionCollection (wuapi.h)
-description: Represents an ordered read-only list of IUpdateException interfaces.helpviewer_keywords: ["IUpdateExceptionCollection","IUpdateExceptionCollection interface [Windows Update Agent]","IUpdateExceptionCollection interface [Windows Update Agent]","described","wua.iupdateexceptioncollection","wuapi/IUpdateExceptionCollection"]
+description: Represents an ordered read-only list of IUpdateException interfaces.
+helpviewer_keywords: ["IUpdateExceptionCollection","IUpdateExceptionCollection interface [Windows Update Agent]","IUpdateExceptionCollection interface [Windows Update Agent]","described","wua.iupdateexceptioncollection","wuapi/IUpdateExceptionCollection"]
 old-location: wua\iupdateexceptioncollection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 3f1a0290-5915-4ba4-8a59-855ab5a02e3e
 ms.date: 12/05/2018
 ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], IUpdateExceptionCollection interface [Windows Update Agent],described, wua.iupdateexceptioncollection, wuapi/IUpdateExceptionCollection

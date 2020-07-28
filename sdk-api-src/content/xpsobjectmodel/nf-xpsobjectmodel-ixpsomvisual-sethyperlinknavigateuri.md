@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetHyperlinkNavigateUri
 title: IXpsOMVisual::SetHyperlinkNavigateUri (xpsobjectmodel.h)
-description: Sets the destination URI of the visual's hyperlink.helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetHyperlinkNavigateUri method","IXpsOMVisual.SetHyperlinkNavigateUri","IXpsOMVisual::SetHyperlinkNavigateUri","SetHyperlinkNavigateUri","SetHyperlinkNavigateUri method [XPS Documents and Packaging]","SetHyperlinkNavigateUri method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_sethyperlinknavigateuri","xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri"]
+description: Sets the destination URI of the visual's hyperlink.
+helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetHyperlinkNavigateUri method","IXpsOMVisual.SetHyperlinkNavigateUri","IXpsOMVisual::SetHyperlinkNavigateUri","SetHyperlinkNavigateUri","SetHyperlinkNavigateUri method [XPS Documents and Packaging]","SetHyperlinkNavigateUri method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_sethyperlinknavigateuri","xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri"]
 old-location: xps\ixpsomvisual_sethyperlinknavigateuri.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6909d287-67c8-4f01-8523-6011932d1d34
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetHyperlinkNavigateUri method, IXpsOMVisual.SetHyperlinkNavigateUri, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_CSID
 title: IFaxOutgoingJob::get_CSID (faxcomex.h)
-description: The IFaxOutgoingJob::get_CSID property is a null-terminated string that contains the called station identifier (CSID) associated with the fax outbound job.helpviewer_keywords: ["CSID property [Fax Service]","CSID property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","CSID property","IFaxOutgoingJob.CSID","IFaxOutgoingJob.get_CSID","IFaxOutgoingJob::CSID","IFaxOutgoingJob::get_CSID","_mfax_faxoutgoingjob.csid","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp","fax._mfax_faxoutgoingjob_csid","faxcomex/IFaxOutgoingJob::CSID","faxcomex/IFaxOutgoingJob::get_CSID","get_CSID"]
+description: The IFaxOutgoingJob::get_CSID property is a null-terminated string that contains the called station identifier (CSID) associated with the fax outbound job.
+helpviewer_keywords: ["CSID property [Fax Service]","CSID property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","CSID property","IFaxOutgoingJob.CSID","IFaxOutgoingJob.get_CSID","IFaxOutgoingJob::CSID","IFaxOutgoingJob::get_CSID","_mfax_faxoutgoingjob.csid","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp","fax._mfax_faxoutgoingjob_csid","faxcomex/IFaxOutgoingJob::CSID","faxcomex/IFaxOutgoingJob::get_CSID","get_CSID"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6lus.htm

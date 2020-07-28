@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDevices.get_ItemById
 title: IFaxDevices::get_ItemById (faxcomex.h)
-description: The IFaxDevices::get_ItemById method returns a FaxDevice object from the FaxDevices collection, using its device ID.helpviewer_keywords: ["IFaxDevices interface [Fax Service]","get_ItemById method","IFaxDevices.get_ItemById","IFaxDevices::get_ItemById","_mfax_faxdevices.itembyid","fax._mfax_faxdevices_itembyid","faxcomex/IFaxDevices::get_ItemById","get_ItemById","get_ItemById method [Fax Service]","get_ItemById method [Fax Service]","IFaxDevices interface"]
+description: The IFaxDevices::get_ItemById method returns a FaxDevice object from the FaxDevices collection, using its device ID.
+helpviewer_keywords: ["IFaxDevices interface [Fax Service]","get_ItemById method","IFaxDevices.get_ItemById","IFaxDevices::get_ItemById","_mfax_faxdevices.itembyid","fax._mfax_faxdevices_itembyid","faxcomex/IFaxDevices::get_ItemById","get_ItemById","get_ItemById method [Fax Service]","get_ItemById method [Fax Service]","IFaxDevices interface"]
 old-location: fax\_mfax_faxdevices_itembyid.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm

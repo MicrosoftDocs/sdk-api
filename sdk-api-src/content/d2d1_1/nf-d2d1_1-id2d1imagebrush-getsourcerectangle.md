@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.GetSourceRectangle
 title: ID2D1ImageBrush::GetSourceRectangle (d2d1_1.h)
-description: Gets the rectangle that will be used as the bounds of the image when drawn as an image brush.helpviewer_keywords: ["GetSourceRectangle","GetSourceRectangle method [Direct2D]","GetSourceRectangle method [Direct2D]","ID2D1ImageBrush interface","ID2D1ImageBrush interface [Direct2D]","GetSourceRectangle method","ID2D1ImageBrush.GetSourceRectangle","ID2D1ImageBrush::GetSourceRectangle","d2d1_1/ID2D1ImageBrush::GetSourceRectangle","direct2d.id2d1imagebrush_getsourcerectangle"]
+description: Gets the rectangle that will be used as the bounds of the image when drawn as an image brush.
+helpviewer_keywords: ["GetSourceRectangle","GetSourceRectangle method [Direct2D]","GetSourceRectangle method [Direct2D]","ID2D1ImageBrush interface","ID2D1ImageBrush interface [Direct2D]","GetSourceRectangle method","ID2D1ImageBrush.GetSourceRectangle","ID2D1ImageBrush::GetSourceRectangle","d2d1_1/ID2D1ImageBrush::GetSourceRectangle","direct2d.id2d1imagebrush_getsourcerectangle"]
 old-location: direct2d\id2d1imagebrush_getsourcerectangle.htm
 tech.root: Direct2D
 ms.assetid: 6b1d64b9-1384-4b34-9b36-a6f56bde5920

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamCount
 title: IMFMuxStreamMediaTypeManager::GetStreamCount (mfobjects.h)
-description: Gets the count of substreams managed by the multiplexed media source.helpviewer_keywords: ["GetStreamCount","GetStreamCount method [Media Foundation]","GetStreamCount method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetStreamCount method","IMFMuxStreamMediaTypeManager.GetStreamCount","IMFMuxStreamMediaTypeManager::GetStreamCount","mf.imfmuxstreammediatypemanager_getstreamcount","mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount"]
+description: Gets the count of substreams managed by the multiplexed media source.
+helpviewer_keywords: ["GetStreamCount","GetStreamCount method [Media Foundation]","GetStreamCount method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetStreamCount method","IMFMuxStreamMediaTypeManager.GetStreamCount","IMFMuxStreamMediaTypeManager::GetStreamCount","mf.imfmuxstreammediatypemanager_getstreamcount","mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount"]
 old-location: mf\imfmuxstreammediatypemanager_getstreamcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EEEF5D71-22C4-4050-9088-8BAC554EB66E
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamMediaTypeManager.GetStreamCount, IMFMuxStreamMediaTypeManager::GetStreamCount, mf.imfmuxstreammediatypemanager_getstreamcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount

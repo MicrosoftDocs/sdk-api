@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawLine(INconstPen,INREAL,INREAL,INREAL,INREAL)
 title: Graphics::DrawLine
-description: The Graphics::DrawLine method draws a line that connects two points.helpviewer_keywords: ["Graphics::DrawLine"]
+description: The Graphics::DrawLine method draws a line that connects two points.
+tech.root: gdiplus
+helpviewer_keywords: ["Graphics::DrawLine"]
 ms.assetid: b245ba2b-4b52-40fa-b6f3-adcd25775b94
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLine

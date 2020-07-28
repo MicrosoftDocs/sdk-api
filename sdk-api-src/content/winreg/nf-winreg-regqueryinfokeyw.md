@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegQueryInfoKeyW
 title: RegQueryInfoKeyW function (winreg.h)
-description: Retrieves information about the specified registry key.helpviewer_keywords: ["RegQueryInfoKey","RegQueryInfoKey function","RegQueryInfoKeyA","RegQueryInfoKeyW","_win32_regqueryinfokey","base.regqueryinfokey","winreg/RegQueryInfoKey","winreg/RegQueryInfoKeyA","winreg/RegQueryInfoKeyW"]
+description: Retrieves information about the specified registry key.
+helpviewer_keywords: ["RegQueryInfoKey","RegQueryInfoKey function","RegQueryInfoKeyA","RegQueryInfoKeyW","_win32_regqueryinfokey","base.regqueryinfokey","winreg/RegQueryInfoKey","winreg/RegQueryInfoKeyA","winreg/RegQueryInfoKeyW"]
 old-location: base\regqueryinfokey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.date: 12/05/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
@@ -206,4 +207,9 @@ If the <i>lpClass</i> buffer is too small to receive the name of the class, the 
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winreg.h header defines RegQueryInfoKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

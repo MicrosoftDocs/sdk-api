@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFSample.CopyToBuffer
 title: IMFSample::CopyToBuffer (mfobjects.h)
-description: Copies the sample data to a buffer. This method concatenates the valid data from all of the buffers of the sample, in order.helpviewer_keywords: ["CopyToBuffer","CopyToBuffer method [Media Foundation]","CopyToBuffer method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","CopyToBuffer method","IMFSample.CopyToBuffer","IMFSample::CopyToBuffer","c8a23e0a-ed2f-449d-b834-f60f383d0b5e","mf.imfsample_copytobuffer","mfobjects/IMFSample::CopyToBuffer"]
+description: Copies the sample data to a buffer. This method concatenates the valid data from all of the buffers of the sample, in order.
+helpviewer_keywords: ["CopyToBuffer","CopyToBuffer method [Media Foundation]","CopyToBuffer method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","CopyToBuffer method","IMFSample.CopyToBuffer","IMFSample::CopyToBuffer","c8a23e0a-ed2f-449d-b834-f60f383d0b5e","mf.imfsample_copytobuffer","mfobjects/IMFSample::CopyToBuffer"]
 old-location: mf\imfsample_copytobuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c8a23e0a-ed2f-449d-b834-f60f383d0b5e
 ms.date: 12/05/2018
 ms.keywords: CopyToBuffer, CopyToBuffer method [Media Foundation], CopyToBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],CopyToBuffer method, IMFSample.CopyToBuffer, IMFSample::CopyToBuffer, c8a23e0a-ed2f-449d-b834-f60f383d0b5e, mf.imfsample_copytobuffer, mfobjects/IMFSample::CopyToBuffer

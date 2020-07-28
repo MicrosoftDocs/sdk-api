@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 title: IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTransmissionMode","GetTransmissionMode method [Microsoft TV Technologies]","GetTransmissionMode method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTransmissionMode method","IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode","IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","IDvbTerrestrialDeliverySystemDescriptorGetTransmissionMode","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","mstv.idvbterrestrialdeliverysystemdescriptor_gettransmissionmode"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTransmissionMode","GetTransmissionMode method [Microsoft TV Technologies]","GetTransmissionMode method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTransmissionMode method","IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode","IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","IDvbTerrestrialDeliverySystemDescriptorGetTransmissionMode","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","mstv.idvbterrestrialdeliverysystemdescriptor_gettransmissionmode"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm
 tech.root: mstv
 ms.assetid: d825f933-0da6-4e8e-bc28-b9e2db575a12

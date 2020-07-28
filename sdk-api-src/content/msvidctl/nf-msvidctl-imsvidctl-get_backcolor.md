@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_BackColor
 title: IMSVidCtl::get_BackColor (msvidctl.h)
-description: The get_BackColor method retrieves the background color of the Video Control.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_BackColor method","IMSVidCtl.get_BackColor","IMSVidCtl::get_BackColor","IMSVidCtlget_BackColor","get_BackColor","get_BackColor method [Microsoft TV Technologies]","get_BackColor method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_backcolor","msvidctl/IMSVidCtl::get_BackColor"]
+description: The get_BackColor method retrieves the background color of the Video Control.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_BackColor method","IMSVidCtl.get_BackColor","IMSVidCtl::get_BackColor","IMSVidCtlget_BackColor","get_BackColor","get_BackColor method [Microsoft TV Technologies]","get_BackColor method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_backcolor","msvidctl/IMSVidCtl::get_BackColor"]
 old-location: mstv\imsvidctl_get_backcolor.htm
 tech.root: mstv
 ms.assetid: 1f67f1f9-e4e1-47fc-a92d-b6dfb65e7ec9

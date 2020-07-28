@@ -1,9 +1,10 @@
 ---
 UID: NS:winuser.tagINPUT_INJECTION_VALUE
 title: INPUT_INJECTION_VALUE (winuser.h)
-description: Contains the input injection details.helpviewer_keywords: ["*PINPUT_INJECTION_VALUE","INPUT_INJECTION_VALUE","INPUT_INJECTION_VALUE structure","PINPUT_INJECTION_VALUE","PINPUT_INJECTION_VALUE structure pointer","input_pointerdevice.input_injection_value","winuser/INPUT_INJECTION_VALUE","winuser/PINPUT_INJECTION_VALUE"]
+description: Contains the input injection details.
+helpviewer_keywords: ["*PINPUT_INJECTION_VALUE","INPUT_INJECTION_VALUE","INPUT_INJECTION_VALUE structure","PINPUT_INJECTION_VALUE","PINPUT_INJECTION_VALUE structure pointer","input_pointerdevice.input_injection_value","winuser/INPUT_INJECTION_VALUE","winuser/PINPUT_INJECTION_VALUE"]
 old-location: input_pointerdevice\input_injection_value.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: 8F639719-A098-4850-933D-F84DEA412242
 ms.date: 12/05/2018
 ms.keywords: '*PINPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE structure, PINPUT_INJECTION_VALUE, PINPUT_INJECTION_VALUE structure pointer, input_pointerdevice.input_injection_value, winuser/INPUT_INJECTION_VALUE, winuser/PINPUT_INJECTION_VALUE'

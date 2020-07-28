@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetSource
 title: ICreateErrorInfo::SetSource (oaidl.h)
-description: Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetSource method","ICreateErrorInfo.SetSource","ICreateErrorInfo::SetSource","SetSource","SetSource method [Automation]","SetSource method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetSource","automat.icreateerrorinfo_setsource","oaidl/ICreateErrorInfo::SetSource"]
+description: Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.
+helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetSource method","ICreateErrorInfo.SetSource","ICreateErrorInfo::SetSource","SetSource","SetSource method [Automation]","SetSource method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetSource","automat.icreateerrorinfo_setsource","oaidl/ICreateErrorInfo::SetSource"]
 old-location: automat\icreateerrorinfo_setsource.htm
 tech.root: automat
 ms.assetid: 7f0e6349-9d31-4ab6-9a91-3822e81188e5

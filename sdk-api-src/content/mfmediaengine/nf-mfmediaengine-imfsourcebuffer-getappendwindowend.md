@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowEnd
 title: IMFSourceBuffer::GetAppendWindowEnd (mfmediaengine.h)
-description: Gets the timestamp for the end of the append window.helpviewer_keywords: ["GetAppendWindowEnd","GetAppendWindowEnd method [Media Foundation]","GetAppendWindowEnd method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","GetAppendWindowEnd method","IMFSourceBuffer.GetAppendWindowEnd","IMFSourceBuffer::GetAppendWindowEnd","mf.imfsourcebuffer_getappendwindowend","mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd"]
+description: Gets the timestamp for the end of the append window.
+helpviewer_keywords: ["GetAppendWindowEnd","GetAppendWindowEnd method [Media Foundation]","GetAppendWindowEnd method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","GetAppendWindowEnd method","IMFSourceBuffer.GetAppendWindowEnd","IMFSourceBuffer::GetAppendWindowEnd","mf.imfsourcebuffer_getappendwindowend","mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd"]
 old-location: mf\imfsourcebuffer_getappendwindowend.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ac9806ca-8529-48be-8b5a-ae0126d8554d
 ms.date: 12/05/2018
 ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowEnd method, IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd

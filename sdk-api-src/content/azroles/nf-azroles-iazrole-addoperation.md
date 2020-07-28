@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzRole.AddOperation
 title: IAzRole::AddOperation (azroles.h)
-description: Adds the IAzOperation object with the specified name to the role.helpviewer_keywords: ["AddOperation","AddOperation method [Security]","AddOperation method [Security]","AzRole object","AddOperation method [Security]","IAzRole interface","AzRole object [Security]","AddOperation method","IAzRole interface [Security]","AddOperation method","IAzRole.AddOperation","IAzRole::AddOperation","azroles/IAzRole::AddOperation","security.iazrole_addoperation"]
+description: Adds the IAzOperation object with the specified name to the role.
+helpviewer_keywords: ["AddOperation","AddOperation method [Security]","AddOperation method [Security]","AzRole object","AddOperation method [Security]","IAzRole interface","AzRole object [Security]","AddOperation method","IAzRole interface [Security]","AddOperation method","IAzRole.AddOperation","IAzRole::AddOperation","azroles/IAzRole::AddOperation","security.iazrole_addoperation"]
 old-location: security\iazrole_addoperation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
 ms.date: 12/05/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzRole object, AddOperation method [Security],IAzRole interface, AzRole object [Security],AddOperation method, IAzRole interface [Security],AddOperation method, IAzRole.AddOperation, IAzRole::AddOperation, azroles/IAzRole::AddOperation, security.iazrole_addoperation

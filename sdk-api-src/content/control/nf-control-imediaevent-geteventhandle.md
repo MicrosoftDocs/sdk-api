@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IMediaEvent.GetEventHandle
 title: IMediaEvent::GetEventHandle (control.h)
-description: The GetEventHandle method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.helpviewer_keywords: ["GetEventHandle","GetEventHandle method [DirectShow]","GetEventHandle method [DirectShow]","IMediaEvent interface","IMediaEvent interface [DirectShow]","GetEventHandle method","IMediaEvent.GetEventHandle","IMediaEvent::GetEventHandle","IMediaEventGetEventHandle","control/IMediaEvent::GetEventHandle","dshow.imediaevent_geteventhandle"]
+description: The GetEventHandle method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
+helpviewer_keywords: ["GetEventHandle","GetEventHandle method [DirectShow]","GetEventHandle method [DirectShow]","IMediaEvent interface","IMediaEvent interface [DirectShow]","GetEventHandle method","IMediaEvent.GetEventHandle","IMediaEvent::GetEventHandle","IMediaEventGetEventHandle","control/IMediaEvent::GetEventHandle","dshow.imediaevent_geteventhandle"]
 old-location: dshow\imediaevent_geteventhandle.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
 ms.date: 12/05/2018
 ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle

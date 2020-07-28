@@ -1,9 +1,10 @@
 ---
 UID: NS:mfplay.MFP_PAUSE_EVENT
 title: MFP_PAUSE_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_PAUSE event.helpviewer_keywords: ["MFP_PAUSE_EVENT","MFP_PAUSE_EVENT structure [Media Foundation]","mf.mfp_pause_event","mfplay/MFP_PAUSE_EVENT"]
+description: Event structure for the MFP_EVENT_TYPE_PAUSE event.
+helpviewer_keywords: ["MFP_PAUSE_EVENT","MFP_PAUSE_EVENT structure [Media Foundation]","mf.mfp_pause_event","mfplay/MFP_PAUSE_EVENT"]
 old-location: mf\mfp_pause_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8475dca1-2ecd-49dc-97b6-bb2823286c04
 ms.date: 12/05/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT

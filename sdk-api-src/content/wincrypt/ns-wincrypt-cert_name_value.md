@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_NAME_VALUE
 title: CERT_NAME_VALUE (wincrypt.h)
-description: Contains a relative distinguished name (RDN) attribute value.helpviewer_keywords: ["*PCERT_NAME_VALUE","CERT_NAME_VALUE","CERT_NAME_VALUE structure [Security]","PCERT_NAME_VALUE","PCERT_NAME_VALUE structure pointer [Security]","_crypto2_cert_name_value","security.cert_name_value","wincrypt/CERT_NAME_VALUE","wincrypt/PCERT_NAME_VALUE"]
+description: Contains a relative distinguished name (RDN) attribute value.
+helpviewer_keywords: ["*PCERT_NAME_VALUE","CERT_NAME_VALUE","CERT_NAME_VALUE structure [Security]","PCERT_NAME_VALUE","PCERT_NAME_VALUE structure pointer [Security]","_crypto2_cert_name_value","security.cert_name_value","wincrypt/CERT_NAME_VALUE","wincrypt/PCERT_NAME_VALUE"]
 old-location: security\cert_name_value.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Security], PCERT_NAME_VALUE, PCERT_NAME_VALUE structure pointer [Security], _crypto2_cert_name_value, security.cert_name_value, wincrypt/CERT_NAME_VALUE, wincrypt/PCERT_NAME_VALUE'

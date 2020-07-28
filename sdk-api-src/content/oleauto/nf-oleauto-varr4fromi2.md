@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR4FromI2
 title: VarR4FromI2 function (oleauto.h)
-description: Converts a short value to a float value.helpviewer_keywords: ["VarR4FromI2","VarR4FromI2 function [Automation]","_oa96_VarR4FromI2","automat.varr4fromi2","oleauto/VarR4FromI2"]
+description: Converts a short value to a float value.
+helpviewer_keywords: ["VarR4FromI2","VarR4FromI2 function [Automation]","_oa96_VarR4FromI2","automat.varr4fromi2","oleauto/VarR4FromI2"]
 old-location: automat\varr4fromi2.htm
 tech.root: automat
 ms.assetid: 0857de74-47f9-42a1-ab41-23f75fa416f0

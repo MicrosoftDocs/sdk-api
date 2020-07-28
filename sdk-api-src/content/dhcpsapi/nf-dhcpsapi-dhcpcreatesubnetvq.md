@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateSubnetVQ
 title: DhcpCreateSubnetVQ function (dhcpsapi.h)
-description: The DhcpCreateSubnetVQ function creates a new IPv4 subnet and its associated NAP state information on the DHCP server.helpviewer_keywords: ["DhcpCreateSubnetVQ","DhcpCreateSubnetVQ function [DHCP]","dhcp.dhcpcreatesubnetvq","dhcpsapi/DhcpCreateSubnetVQ"]
+description: The DhcpCreateSubnetVQ function creates a new IPv4 subnet and its associated NAP state information on the DHCP server.
+helpviewer_keywords: ["DhcpCreateSubnetVQ","DhcpCreateSubnetVQ function [DHCP]","dhcp.dhcpcreatesubnetvq","dhcpsapi/DhcpCreateSubnetVQ"]
 old-location: dhcp\dhcpcreatesubnetvq.htm
 tech.root: DHCP
 ms.assetid: 4ec8cff5-0652-4dd0-9393-7131e3be6ef8

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.AddService
 title: IUpdateServiceManager::AddService (wuapi.h)
-description: Registers a service with Windows Update Agent (WUA).helpviewer_keywords: ["AddService","AddService method [Windows Update Agent]","AddService method [Windows Update Agent]","IUpdateServiceManager interface","IUpdateServiceManager interface [Windows Update Agent]","AddService method","IUpdateServiceManager.AddService","IUpdateServiceManager::AddService","wua.iupdateservicemanager_addservice","wuapi/IUpdateServiceManager::AddService"]
+description: Registers a service with Windows Update Agent (WUA).
+helpviewer_keywords: ["AddService","AddService method [Windows Update Agent]","AddService method [Windows Update Agent]","IUpdateServiceManager interface","IUpdateServiceManager interface [Windows Update Agent]","AddService method","IUpdateServiceManager.AddService","IUpdateServiceManager::AddService","wua.iupdateservicemanager_addservice","wuapi/IUpdateServiceManager::AddService"]
 old-location: wua\iupdateservicemanager_addservice.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b4071ef7-316f-4624-bc43-79c5982c4a82
 ms.date: 12/05/2018
 ms.keywords: AddService, AddService method [Windows Update Agent], AddService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddService method, IUpdateServiceManager.AddService, IUpdateServiceManager::AddService, wua.iupdateservicemanager_addservice, wuapi/IUpdateServiceManager::AddService

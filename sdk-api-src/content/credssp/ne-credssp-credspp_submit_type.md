@@ -1,9 +1,10 @@
 ---
 UID: NE:credssp._CREDSSP_SUBMIT_TYPE
 title: CREDSPP_SUBMIT_TYPE (credssp.h)
-description: Specifies the type of credentials specified by a CREDSSP_CRED structure.helpviewer_keywords: ["CREDSPP_SUBMIT_TYPE","CREDSPP_SUBMIT_TYPE enumeration [Security]","CredsspCertificateCreds","CredsspPasswordCreds","CredsspSchannelCreds","CredsspSubmitBufferBoth","CredsspSubmitBufferBothOld","credssp/CREDSPP_SUBMIT_TYPE","credssp/CredsspCertificateCreds","credssp/CredsspPasswordCreds","credssp/CredsspSchannelCreds","credssp/CredsspSubmitBufferBoth","credssp/CredsspSubmitBufferBothOld","security.credspp_submit_type"]
+description: Specifies the type of credentials specified by a CREDSSP_CRED structure.
+helpviewer_keywords: ["CREDSPP_SUBMIT_TYPE","CREDSPP_SUBMIT_TYPE enumeration [Security]","CredsspCertificateCreds","CredsspPasswordCreds","CredsspSchannelCreds","CredsspSubmitBufferBoth","CredsspSubmitBufferBothOld","credssp/CREDSPP_SUBMIT_TYPE","credssp/CredsspCertificateCreds","credssp/CredsspPasswordCreds","credssp/CredsspSchannelCreds","credssp/CredsspSubmitBufferBoth","credssp/CredsspSubmitBufferBothOld","security.credspp_submit_type"]
 old-location: security\credspp_submit_type.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.date: 12/05/2018
 ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], CredsspCertificateCreds, CredsspPasswordCreds, CredsspSchannelCreds, CredsspSubmitBufferBoth, CredsspSubmitBufferBothOld, credssp/CREDSPP_SUBMIT_TYPE, credssp/CredsspCertificateCreds, credssp/CredsspPasswordCreds, credssp/CredsspSchannelCreds, credssp/CredsspSubmitBufferBoth, credssp/CredsspSubmitBufferBothOld, security.credspp_submit_type

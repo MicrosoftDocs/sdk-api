@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.LocalLock
 title: LocalLock function (winbase.h)
-description: Locks a local memory object and returns a pointer to the first byte of the object's memory block.helpviewer_keywords: ["LocalLock","LocalLock function","_win32_locallock","base.locallock","winbase/LocalLock"]
+description: Locks a local memory object and returns a pointer to the first byte of the object's memory block.
+helpviewer_keywords: ["LocalLock","LocalLock function","_win32_locallock","base.locallock","winbase/LocalLock"]
 old-location: base\locallock.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: a9432e28-9fbd-4a7e-8dce-fad3da04804a
 ms.date: 12/05/2018
 ms.keywords: LocalLock, LocalLock function, _win32_locallock, base.locallock, winbase/LocalLock

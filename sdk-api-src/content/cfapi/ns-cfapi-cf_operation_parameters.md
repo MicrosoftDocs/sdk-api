@@ -1,9 +1,10 @@
 ---
 UID: NS:cfapi.CF_OPERATION_PARAMETERS
 title: CF_OPERATION_PARAMETERS (cfapi.h)
-description: Parameters of an operation on a placeholder file or folder.helpviewer_keywords: ["CF_OPERATION_PARAMETERS","CF_OPERATION_PARAMETERS structure","cfapi/CF_OPERATION_PARAMETERS","cloudApi.cf_operation_parameters"]
+description: Parameters of an operation on a placeholder file or folder.
+helpviewer_keywords: ["CF_OPERATION_PARAMETERS","CF_OPERATION_PARAMETERS structure","cfapi/CF_OPERATION_PARAMETERS","cloudApi.cf_operation_parameters"]
 old-location: cloudapi\cf_operation_parameters.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 668C682E-47C2-41BC-A4F9-AA2F2B516F54
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_PARAMETERS, CF_OPERATION_PARAMETERS structure, cfapi/CF_OPERATION_PARAMETERS, cloudApi.cf_operation_parameters

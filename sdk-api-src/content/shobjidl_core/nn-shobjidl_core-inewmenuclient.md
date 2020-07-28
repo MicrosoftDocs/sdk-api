@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.INewMenuClient
 title: INewMenuClient (shobjidl_core.h)
-description: Exposes methods that allow manipulation of items in a Windows 7 menu.helpviewer_keywords: ["INewMenuClient","INewMenuClient interface [Windows Shell]","INewMenuClient interface [Windows Shell]","described","_shell_INewMenuClient","shell.INewMenuClient","shobjidl_core/INewMenuClient"]
+description: Exposes methods that allow manipulation of items in a Windows 7 menu.
+helpviewer_keywords: ["INewMenuClient","INewMenuClient interface [Windows Shell]","INewMenuClient interface [Windows Shell]","described","_shell_INewMenuClient","shell.INewMenuClient","shobjidl_core/INewMenuClient"]
 old-location: shell\INewMenuClient.htm
 tech.root: shell
 ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d

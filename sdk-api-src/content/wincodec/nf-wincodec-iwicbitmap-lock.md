@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmap.Lock
 title: IWICBitmap::Lock (wincodec.h)
-description: Provides access to a rectangular area of the bitmap.helpviewer_keywords: ["IWICBitmap interface [Windows Imaging Component]","Lock method","IWICBitmap.Lock","IWICBitmap::Lock","Lock","Lock method [Windows Imaging Component]","Lock method [Windows Imaging Component]","IWICBitmap interface","WICBitmapLockRead","WICBitmapLockWrite","_wic_codec_iwicbitmap_lock","wic._wic_codec_iwicbitmap_lock","wincodec/IWICBitmap::Lock"]
+description: Provides access to a rectangular area of the bitmap.
+helpviewer_keywords: ["IWICBitmap interface [Windows Imaging Component]","Lock method","IWICBitmap.Lock","IWICBitmap::Lock","Lock","Lock method [Windows Imaging Component]","Lock method [Windows Imaging Component]","IWICBitmap interface","WICBitmapLockRead","WICBitmapLockWrite","_wic_codec_iwicbitmap_lock","wic._wic_codec_iwicbitmap_lock","wincodec/IWICBitmap::Lock"]
 old-location: wic\_wic_codec_iwicbitmap_lock.htm
 tech.root: wic
 ms.assetid: 2ab25a00-c89c-4a2c-8e12-8ce81cc21bca

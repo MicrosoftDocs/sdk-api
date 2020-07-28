@@ -1,9 +1,10 @@
 ---
 UID: NF:ncrypt.NCryptKeyDerivation
 title: NCryptKeyDerivation function (ncrypt.h)
-description: Creates a key from another key by using the specified key derivation function.helpviewer_keywords: ["BCRYPT_CAPI_AES_FLAG","NCRYPT_SILENT_FLAG","NCryptKeyDerivation","NCryptKeyDerivation function [Security]","ncrypt/NCryptKeyDerivation","security.ncryptkeyderivation"]
+description: Creates a key from another key by using the specified key derivation function.
+helpviewer_keywords: ["BCRYPT_CAPI_AES_FLAG","NCRYPT_SILENT_FLAG","NCryptKeyDerivation","NCryptKeyDerivation function [Security]","ncrypt/NCryptKeyDerivation","security.ncryptkeyderivation"]
 old-location: security\ncryptkeyderivation.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation

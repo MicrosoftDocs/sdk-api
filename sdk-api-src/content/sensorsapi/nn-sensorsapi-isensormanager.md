@@ -1,9 +1,10 @@
 ---
 UID: NN:sensorsapi.ISensorManager
 title: ISensorManager (sensorsapi.h)
-description: Provides methods for discovering and retrieving available sensors and a method to request sensor manager events.helpviewer_keywords: ["ISensorManager","ISensorManager interface [WinSensors]","ISensorManager interface [WinSensors]","described","sensorsapi/ISensorManager","winsensors.isensormanager"]
+description: Provides methods for discovering and retrieving available sensors and a method to request sensor manager events.
+helpviewer_keywords: ["ISensorManager","ISensorManager interface [WinSensors]","ISensorManager interface [WinSensors]","described","sensorsapi/ISensorManager","winsensors.isensormanager"]
 old-location: winsensors\isensormanager.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 313742c9-58a7-4ddd-9582-a6ee276e97d0
 ms.date: 12/05/2018
 ms.keywords: ISensorManager, ISensorManager interface [WinSensors], ISensorManager interface [WinSensors],described, sensorsapi/ISensorManager, winsensors.isensormanager

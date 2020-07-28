@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DisplayName
 title: IFaxJob::get_DisplayName (faxcom.h)
-description: The IFaxJob::get_DisplayName property is a null-terminated string that contains the user-friendly name to associate with the fax job.helpviewer_keywords: ["DisplayName property [Fax Service]","DisplayName property [Fax Service]","IFaxJob interface","IFaxJob interface [Fax Service]","DisplayName property","IFaxJob.DisplayName","IFaxJob.get_DisplayName","IFaxJob::DisplayName","IFaxJob::get_DisplayName","_mfax_ifaxjob_get_displayname","fax._mfax_ifaxjob_get_displayname","fax._mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp","faxcom/IFaxJob::DisplayName","faxcom/IFaxJob::get_DisplayName","get_DisplayName"]
+description: The IFaxJob::get_DisplayName property is a null-terminated string that contains the user-friendly name to associate with the fax job.
+helpviewer_keywords: ["DisplayName property [Fax Service]","DisplayName property [Fax Service]","IFaxJob interface","IFaxJob interface [Fax Service]","DisplayName property","IFaxJob.DisplayName","IFaxJob.get_DisplayName","IFaxJob::DisplayName","IFaxJob::get_DisplayName","_mfax_ifaxjob_get_displayname","fax._mfax_ifaxjob_get_displayname","fax._mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp","faxcom/IFaxJob::DisplayName","faxcom/IFaxJob::get_DisplayName","get_DisplayName"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8b39.htm

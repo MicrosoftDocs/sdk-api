@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromMPEG1VideoInfo
 title: MFInitMediaTypeFromMPEG1VideoInfo function (mfapi.h)
-description: Initializes a media type from a DirectShow MPEG1VIDEOINFO structure.helpviewer_keywords: ["2506ae6e-a3bb-4d36-8c70-837a42cfb272","MFInitMediaTypeFromMPEG1VideoInfo","MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation]","mf.mfinitmediatypefrommpeg1videoinfo","mfapi/MFInitMediaTypeFromMPEG1VideoInfo"]
+description: Initializes a media type from a DirectShow MPEG1VIDEOINFO structure.
+helpviewer_keywords: ["2506ae6e-a3bb-4d36-8c70-837a42cfb272","MFInitMediaTypeFromMPEG1VideoInfo","MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation]","mf.mfinitmediatypefrommpeg1videoinfo","mfapi/MFInitMediaTypeFromMPEG1VideoInfo"]
 old-location: mf\mfinitmediatypefrommpeg1videoinfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2506ae6e-a3bb-4d36-8c70-837a42cfb272
 ms.date: 12/05/2018
 ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1VideoInfo, MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg1videoinfo, mfapi/MFInitMediaTypeFromMPEG1VideoInfo

@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagBITMAPINFO
 title: BITMAPINFO (wingdi.h)
-description: The BITMAPINFO structure defines the dimensions and color information for a DIB.helpviewer_keywords: ["*LPBITMAPINFO","*PBITMAPINFO","BITMAPINFO","BITMAPINFO structure [Windows GDI]","PBITMAPINFO","PBITMAPINFO structure pointer [Windows GDI]","_win32_BITMAPINFO_str","gdi.bitmapinfo","tagBITMAPINFO","wingdi/BITMAPINFO","wingdi/PBITMAPINFO"]
+description: The BITMAPINFO structure defines the dimensions and color information for a DIB.
+helpviewer_keywords: ["*LPBITMAPINFO","*PBITMAPINFO","BITMAPINFO","BITMAPINFO structure [Windows GDI]","PBITMAPINFO","PBITMAPINFO structure pointer [Windows GDI]","_win32_BITMAPINFO_str","gdi.bitmapinfo","tagBITMAPINFO","wingdi/BITMAPINFO","wingdi/PBITMAPINFO"]
 old-location: gdi\bitmapinfo.htm
 tech.root: gdi
 ms.assetid: 84cc51e8-78f3-4ee6-bc08-94feff89afb0

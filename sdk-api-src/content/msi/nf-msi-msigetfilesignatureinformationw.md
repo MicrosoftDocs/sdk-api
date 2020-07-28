@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiGetFileSignatureInformationW
 title: MsiGetFileSignatureInformationW function (msi.h)
-description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash.helpviewer_keywords: ["MSI_INVALID_HASH_IS_FATAL","MsiGetFileSignatureInformation","MsiGetFileSignatureInformation function","MsiGetFileSignatureInformationA","MsiGetFileSignatureInformationW","_msi_msigetfilesignatureinformation","msi/MsiGetFileSignatureInformation","msi/MsiGetFileSignatureInformationA","msi/MsiGetFileSignatureInformationW","setup.msigetfilesignatureinformation"]
+description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash.
+helpviewer_keywords: ["MSI_INVALID_HASH_IS_FATAL","MsiGetFileSignatureInformation","MsiGetFileSignatureInformation function","MsiGetFileSignatureInformationA","MsiGetFileSignatureInformationW","_msi_msigetfilesignatureinformation","msi/MsiGetFileSignatureInformation","msi/MsiGetFileSignatureInformationA","msi/MsiGetFileSignatureInformationW","setup.msigetfilesignatureinformation"]
 old-location: setup\msigetfilesignatureinformation.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a3f8b8ef-2d2e-4375-a2bb-08a53a94fb16
 ms.date: 12/05/2018
 ms.keywords: MSI_INVALID_HASH_IS_FATAL, MsiGetFileSignatureInformation, MsiGetFileSignatureInformation function, MsiGetFileSignatureInformationA, MsiGetFileSignatureInformationW, _msi_msigetfilesignatureinformation, msi/MsiGetFileSignatureInformation, msi/MsiGetFileSignatureInformationA, msi/MsiGetFileSignatureInformationW, setup.msigetfilesignatureinformation
@@ -288,6 +289,10 @@ Note that
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetFileSignatureInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

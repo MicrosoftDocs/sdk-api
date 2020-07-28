@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMLVFINDITEMW
 title: NMLVFINDITEMW (commctrl.h)
-description: Contains information the owner needs to find items requested by a virtual list-view control. This structure is used with the LVN_ODFINDITEM notification code.helpviewer_keywords: ["*LPNMLVFINDITEMW","NMLVFINDITEM","NMLVFINDITEM structure [Windows Controls]","NMLVFINDITEMA","NMLVFINDITEMW","PNMLVFINDITEM","PNMLVFINDITEM structure pointer [Windows Controls]","_win32_NMLVFINDITEM","_win32_NMLVFINDITEM_cpp","commctrl/NMLVFINDITEM","commctrl/NMLVFINDITEMA","commctrl/NMLVFINDITEMW","commctrl/PNMLVFINDITEM","controls.NMLVFINDITEM","controls._win32_NMLVFINDITEM"]
+description: Contains information the owner needs to find items requested by a virtual list-view control. This structure is used with the LVN_ODFINDITEM notification code.
+helpviewer_keywords: ["*LPNMLVFINDITEMW","NMLVFINDITEM","NMLVFINDITEM structure [Windows Controls]","NMLVFINDITEMA","NMLVFINDITEMW","PNMLVFINDITEM","PNMLVFINDITEM structure pointer [Windows Controls]","_win32_NMLVFINDITEM","_win32_NMLVFINDITEM_cpp","commctrl/NMLVFINDITEM","commctrl/NMLVFINDITEMA","commctrl/NMLVFINDITEMW","commctrl/PNMLVFINDITEM","controls.NMLVFINDITEM","controls._win32_NMLVFINDITEM"]
 old-location: controls\NMLVFINDITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvfinditem.htm
@@ -80,4 +81,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information necessary to perform a search. 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMLVFINDITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

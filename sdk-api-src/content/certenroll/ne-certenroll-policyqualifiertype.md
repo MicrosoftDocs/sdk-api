@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.PolicyQualifierType
 title: PolicyQualifierType (certenroll.h)
-description: Specifies the type of qualifier applied to a certificate policy.helpviewer_keywords: ["PolicyQualifierType","PolicyQualifierType enumeration [Security]","PolicyQualifierTypeUnknown","PolicyQualifierTypeUrl","PolicyQualifierTypeUserNotice","certenroll/PolicyQualifierType","certenroll/PolicyQualifierTypeUnknown","certenroll/PolicyQualifierTypeUrl","certenroll/PolicyQualifierTypeUserNotice","security.policyqualifiertype_enum"]
+description: Specifies the type of qualifier applied to a certificate policy.
+helpviewer_keywords: ["PolicyQualifierType","PolicyQualifierType enumeration [Security]","PolicyQualifierTypeUnknown","PolicyQualifierTypeUrl","PolicyQualifierTypeUserNotice","certenroll/PolicyQualifierType","certenroll/PolicyQualifierTypeUnknown","certenroll/PolicyQualifierTypeUrl","certenroll/PolicyQualifierTypeUserNotice","security.policyqualifiertype_enum"]
 old-location: security\policyqualifiertype_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 76cd1874-b80d-466e-9c7d-12cf8d310b8a
 ms.date: 12/05/2018
 ms.keywords: PolicyQualifierType, PolicyQualifierType enumeration [Security], PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/PolicyQualifierType, certenroll/PolicyQualifierTypeUnknown, certenroll/PolicyQualifierTypeUrl, certenroll/PolicyQualifierTypeUserNotice, security.policyqualifiertype_enum

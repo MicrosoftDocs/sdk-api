@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFSensorProfileCollection
 title: IMFSensorProfileCollection (mfidl.h)
-description: Contains a collection of media foundation sensor profile objects.helpviewer_keywords: ["IMFSensorProfileCollection","IMFSensorProfileCollection interface [Media Foundation]","IMFSensorProfileCollection interface [Media Foundation]","described","mf.imfsensorprofilecollection","mfidl/IMFSensorProfileCollection"]
+description: Contains a collection of media foundation sensor profile objects.
+helpviewer_keywords: ["IMFSensorProfileCollection","IMFSensorProfileCollection interface [Media Foundation]","IMFSensorProfileCollection interface [Media Foundation]","described","mf.imfsensorprofilecollection","mfidl/IMFSensorProfileCollection"]
 old-location: mf\imfsensorprofilecollection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 406EDC3F-39AD-41E0-A8AA-E4476C93F353
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], IMFSensorProfileCollection interface [Media Foundation],described, mf.imfsensorprofilecollection, mfidl/IMFSensorProfileCollection

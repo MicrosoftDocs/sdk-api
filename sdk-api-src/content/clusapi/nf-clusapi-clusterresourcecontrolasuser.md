@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterResourceControlAsUser
 title: ClusterResourceControlAsUser function (clusapi.h)
-description: Initiates an operation affecting a resource.helpviewer_keywords: ["ClusterResourceControlAsUser","ClusterResourceControlAsUser function [Failover Cluster]","clusapi/ClusterResourceControlAsUser","mscs.clusterresourcecontrolasuser"]
+description: Initiates an operation affecting a resource.
+helpviewer_keywords: ["ClusterResourceControlAsUser","ClusterResourceControlAsUser function [Failover Cluster]","clusapi/ClusterResourceControlAsUser","mscs.clusterresourcecontrolasuser"]
 old-location: mscs\clusterresourcecontrolasuser.htm
 tech.root: MsCS
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D

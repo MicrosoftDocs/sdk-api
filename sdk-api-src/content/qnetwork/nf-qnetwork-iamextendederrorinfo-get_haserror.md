@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_HasError
 title: IAMExtendedErrorInfo::get_HasError (qnetwork.h)
-description: The get_HasError method queries whether an error occurred.helpviewer_keywords: ["IAMExtendedErrorInfo interface [DirectShow]","get_HasError method","IAMExtendedErrorInfo.get_HasError","IAMExtendedErrorInfo::get_HasError","IAMExtendedErrorInfoget_HasError","dshow.iamextendederrorinfo_get_haserror","get_HasError","get_HasError method [DirectShow]","get_HasError method [DirectShow]","IAMExtendedErrorInfo interface","qnetwork/IAMExtendedErrorInfo::get_HasError"]
+description: The get_HasError method queries whether an error occurred.
+helpviewer_keywords: ["IAMExtendedErrorInfo interface [DirectShow]","get_HasError method","IAMExtendedErrorInfo.get_HasError","IAMExtendedErrorInfo::get_HasError","IAMExtendedErrorInfoget_HasError","dshow.iamextendederrorinfo_get_haserror","get_HasError","get_HasError method [DirectShow]","get_HasError method [DirectShow]","IAMExtendedErrorInfo interface","qnetwork/IAMExtendedErrorInfo::get_HasError"]
 old-location: dshow\iamextendederrorinfo_get_haserror.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError

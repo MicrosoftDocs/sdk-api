@@ -1,9 +1,10 @@
 ---
 UID: NE:comsvcs.tagCSC_Binding
 title: CSC_Binding (comsvcs.h)
-description: Indicates whether all of the work that is submitted via the activity returned from CoCreateActivity should be bound to only one single-threaded apartment (STA). This enumeration has no impact on the multithreaded apartment (MTA).helpviewer_keywords: ["CSC_BindToPoolThread","CSC_Binding","CSC_Binding enumeration [COM+]","CSC_NoBinding","_cos_CSC_Binding","comsvcs/CSC_BindToPoolThread","comsvcs/CSC_Binding","comsvcs/CSC_NoBinding","cos.csc_binding"]
+description: Indicates whether all of the work that is submitted via the activity returned from CoCreateActivity should be bound to only one single-threaded apartment (STA). This enumeration has no impact on the multithreaded apartment (MTA).
+helpviewer_keywords: ["CSC_BindToPoolThread","CSC_Binding","CSC_Binding enumeration [COM+]","CSC_NoBinding","_cos_CSC_Binding","comsvcs/CSC_BindToPoolThread","comsvcs/CSC_Binding","comsvcs/CSC_NoBinding","cos.csc_binding"]
 old-location: cos\csc_binding.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9267b4f1-96d1-4367-8114-3db43755ffed
 ms.date: 12/05/2018
 ms.keywords: CSC_BindToPoolThread, CSC_Binding, CSC_Binding enumeration [COM+], CSC_NoBinding, _cos_CSC_Binding, comsvcs/CSC_BindToPoolThread, comsvcs/CSC_Binding, comsvcs/CSC_NoBinding, cos.csc_binding

@@ -1,7 +1,8 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCP_MESSAGE
 title: PXE_DHCP_MESSAGE (wdspxe.h)
-description: The PXE_DHCP_MESSAGE structure can be used with the Windows Deployment Services PXE Server API.helpviewer_keywords: ["*PPXE_DHCP_MESSAGE","PPXE_DHCP_MESSAGE","PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services]","PXE_DHCP_MESSAGE","PXE_DHCP_MESSAGE structure [Windows Deployment Services]","wds.pxe_dhcp_message","wdspxe/PPXE_DHCP_MESSAGE","wdspxe/PXE_DHCP_MESSAGE"]
+description: The PXE_DHCP_MESSAGE structure can be used with the Windows Deployment Services PXE Server API.
+helpviewer_keywords: ["*PPXE_DHCP_MESSAGE","PPXE_DHCP_MESSAGE","PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services]","PXE_DHCP_MESSAGE","PXE_DHCP_MESSAGE structure [Windows Deployment Services]","wds.pxe_dhcp_message","wdspxe/PPXE_DHCP_MESSAGE","wdspxe/PXE_DHCP_MESSAGE"]
 old-location: wds\pxe_dhcp_message.htm
 tech.root: wds
 ms.assetid: 466906f1-9439-4c9f-91f1-28530969181c

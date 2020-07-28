@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_DataTimeout
 title: ISearchCatalogManager::get_DataTimeout (searchapi.h)
-description: Gets the data time-out value, in seconds, for data transactions between the indexer and the search filter host. This value is contained in a TIMEOUT_INFO structure.helpviewer_keywords: ["ISearchCatalogManager interface [search]","get_DataTimeout method","ISearchCatalogManager.get_DataTimeout","ISearchCatalogManager::get_DataTimeout","_search_ISearchCatalogManager_get_DataTimeout","get_DataTimeout","get_DataTimeout method [search]","get_DataTimeout method [search]","ISearchCatalogManager interface","search._search_ISearchCatalogManager_get_DataTimeout","searchapi/ISearchCatalogManager::get_DataTimeout"]
+description: Gets the data time-out value, in seconds, for data transactions between the indexer and the search filter host. This value is contained in a TIMEOUT_INFO structure.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","get_DataTimeout method","ISearchCatalogManager.get_DataTimeout","ISearchCatalogManager::get_DataTimeout","_search_ISearchCatalogManager_get_DataTimeout","get_DataTimeout","get_DataTimeout method [search]","get_DataTimeout method [search]","ISearchCatalogManager interface","search._search_ISearchCatalogManager_get_DataTimeout","searchapi/ISearchCatalogManager::get_DataTimeout"]
 old-location: search\_search_ISearchCatalogManager_get_DataTimeout.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_datatimeout.htm

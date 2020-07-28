@@ -4,7 +4,7 @@ title: IXpsOMGeometryFigure::SetStartPoint (xpsobjectmodel.h)
 description: Sets the starting point of the figure.
 helpviewer_keywords: ["IXpsOMGeometryFigure interface [XPS Documents and Packaging]","SetStartPoint method","IXpsOMGeometryFigure.SetStartPoint","IXpsOMGeometryFigure::SetStartPoint","SetStartPoint","SetStartPoint method [XPS Documents and Packaging]","SetStartPoint method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","xps.ixpsomgeometryfigure_setstartpoint","xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint"]
 old-location: xps\ixpsomgeometryfigure_setstartpoint.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMGeometryFigure.SetStartPoint, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint

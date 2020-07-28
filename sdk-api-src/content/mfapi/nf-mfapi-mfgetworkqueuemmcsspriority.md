@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFGetWorkQueueMMCSSPriority
 title: MFGetWorkQueueMMCSSPriority function (mfapi.h)
-description: Gets the relative thread priority of a work queue.helpviewer_keywords: ["MFGetWorkQueueMMCSSPriority","MFGetWorkQueueMMCSSPriority function [Media Foundation]","mf.mfgetworkqueuemmcsspriority","mfapi/MFGetWorkQueueMMCSSPriority","mfplat/MFGetWorkQueueMMCSSPriority"]
+description: Gets the relative thread priority of a work queue.
+helpviewer_keywords: ["MFGetWorkQueueMMCSSPriority","MFGetWorkQueueMMCSSPriority function [Media Foundation]","mf.mfgetworkqueuemmcsspriority","mfapi/MFGetWorkQueueMMCSSPriority","mfplat/MFGetWorkQueueMMCSSPriority"]
 old-location: mf\mfgetworkqueuemmcsspriority.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8ADF4751-3BC5-4353-9927-C7E0079D0B83
 ms.date: 12/05/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority

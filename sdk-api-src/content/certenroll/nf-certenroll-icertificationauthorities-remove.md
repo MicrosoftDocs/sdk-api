@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Remove
 title: ICertificationAuthorities::Remove (certenroll.h)
-description: Removes an ICertificationAuthority object from the collection by index number.helpviewer_keywords: ["ICertificationAuthorities interface [Security]","Remove method","ICertificationAuthorities.Remove","ICertificationAuthorities::Remove","Remove","Remove method [Security]","Remove method [Security]","ICertificationAuthorities interface","certenroll/ICertificationAuthorities::Remove","security.icertificationauthorities_remove"]
+description: Removes an ICertificationAuthority object from the collection by index number.
+helpviewer_keywords: ["ICertificationAuthorities interface [Security]","Remove method","ICertificationAuthorities.Remove","ICertificationAuthorities::Remove","Remove","Remove method [Security]","Remove method [Security]","ICertificationAuthorities interface","certenroll/ICertificationAuthorities::Remove","security.icertificationauthorities_remove"]
 old-location: security\icertificationauthorities_remove.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 97fb196f-eba0-4d73-b89b-f2eb477747fe
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities interface [Security],Remove method, ICertificationAuthorities.Remove, ICertificationAuthorities::Remove, Remove, Remove method [Security], Remove method [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::Remove, security.icertificationauthorities_remove

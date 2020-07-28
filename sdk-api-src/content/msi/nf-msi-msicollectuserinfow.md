@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiCollectUserInfoW
 title: MsiCollectUserInfoW function (msi.h)
-description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.helpviewer_keywords: ["MsiCollectUserInfo","MsiCollectUserInfo function","MsiCollectUserInfoA","MsiCollectUserInfoW","_msi_msicollectuserinfo","msi/MsiCollectUserInfo","msi/MsiCollectUserInfoA","msi/MsiCollectUserInfoW","setup.msicollectuserinfo"]
+description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.
+helpviewer_keywords: ["MsiCollectUserInfo","MsiCollectUserInfo function","MsiCollectUserInfoA","MsiCollectUserInfoW","_msi_msicollectuserinfo","msi/MsiCollectUserInfo","msi/MsiCollectUserInfoA","msi/MsiCollectUserInfoW","setup.msicollectuserinfo"]
 old-location: setup\msicollectuserinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
 ms.date: 12/05/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
@@ -146,6 +147,10 @@ The
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiCollectUserInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

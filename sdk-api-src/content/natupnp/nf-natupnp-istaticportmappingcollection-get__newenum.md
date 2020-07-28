@@ -1,7 +1,8 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.get__NewEnum
 title: IStaticPortMappingCollection::get__NewEnum (natupnp.h)
-description: The get__NewEnum method retrieves an enumerator for the static port mappings collection.helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","get__NewEnum method","IStaticPortMappingCollection.get__NewEnum","IStaticPortMappingCollection::get__NewEnum","_ics_istaticportmappingcollection_get__newenum","get__NewEnum","get__NewEnum method [ICS/ICF]","get__NewEnum method [ICS/ICF]","IStaticPortMappingCollection interface","ics.istaticportmappingcollection_get__newenum","natupnp/IStaticPortMappingCollection::get__NewEnum"]
+description: The get__NewEnum method retrieves an enumerator for the static port mappings collection.
+helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","get__NewEnum method","IStaticPortMappingCollection.get__NewEnum","IStaticPortMappingCollection::get__NewEnum","_ics_istaticportmappingcollection_get__newenum","get__NewEnum","get__NewEnum method [ICS/ICF]","get__NewEnum method [ICS/ICF]","IStaticPortMappingCollection interface","ics.istaticportmappingcollection_get__newenum","natupnp/IStaticPortMappingCollection::get__NewEnum"]
 old-location: ics\istaticportmappingcollection_get__newenum.htm
 tech.root: ics
 ms.assetid: d1a2fa98-d1f2-404c-84fb-b3dccc60031f

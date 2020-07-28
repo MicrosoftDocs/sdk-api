@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.MTSCreateActivity
 title: MTSCreateActivity function (comsvcs.h)
-description: Creates an activity in a single-threaded apartment to do synchronous or asynchronous batch work.helpviewer_keywords: ["MTSCreateActivity","MTSCreateActivity function [COM+]","_cos_MTSCreateActivity","comsvcs/MTSCreateActivity","cos.mtscreateactivity"]
+description: Creates an activity in a single-threaded apartment to do synchronous or asynchronous batch work.
+helpviewer_keywords: ["MTSCreateActivity","MTSCreateActivity function [COM+]","_cos_MTSCreateActivity","comsvcs/MTSCreateActivity","cos.mtscreateactivity"]
 old-location: cos\mtscreateactivity.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 25ae1f2e-f937-4d06-9709-ded2fc8c5777
 ms.date: 12/05/2018
 ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreateActivity, comsvcs/MTSCreateActivity, cos.mtscreateactivity

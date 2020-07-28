@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupSetProperties
 title: PeerGroupSetProperties function (p2p.h)
-description: The PeerGroupSetProperties function sets the current peer group properties. In version 1.0 of this API, only the creator of the peer group can perform this operation.helpviewer_keywords: ["PeerGroupSetProperties","PeerGroupSetProperties function [Peer Networking]","p2p.peergroupsetproperties","p2p/PeerGroupSetProperties"]
+description: The PeerGroupSetProperties function sets the current peer group properties. In version 1.0 of this API, only the creator of the peer group can perform this operation.
+helpviewer_keywords: ["PeerGroupSetProperties","PeerGroupSetProperties function [Peer Networking]","p2p.peergroupsetproperties","p2p/PeerGroupSetProperties"]
 old-location: p2p\peergroupsetproperties.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 20acf963-de8f-4bcd-a9d6-a513d516b108
 ms.date: 12/05/2018
 ms.keywords: PeerGroupSetProperties, PeerGroupSetProperties function [Peer Networking], p2p.peergroupsetproperties, p2p/PeerGroupSetProperties

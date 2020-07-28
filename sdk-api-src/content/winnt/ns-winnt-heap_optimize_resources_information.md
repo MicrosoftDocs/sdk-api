@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._HEAP_OPTIMIZE_RESOURCES_INFORMATION
 title: HEAP_OPTIMIZE_RESOURCES_INFORMATION (winnt.h)
-description: Specifies flags for a HeapOptimizeResources operation initiated with HeapSetInformation.helpviewer_keywords: ["*PHEAP_OPTIMIZE_RESOURCES_INFORMATION","HEAP_OPTIMIZE_RESOURCES_INFORMATION","HEAP_OPTIMIZE_RESOURCES_INFORMATION structure","PHEAP_OPTIMIZE_RESOURCES_INFORMATION","PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer","base.heap_optimize_resources_information","winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION","winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION"]
+description: Specifies flags for a HeapOptimizeResources operation initiated with HeapSetInformation.
+helpviewer_keywords: ["*PHEAP_OPTIMIZE_RESOURCES_INFORMATION","HEAP_OPTIMIZE_RESOURCES_INFORMATION","HEAP_OPTIMIZE_RESOURCES_INFORMATION structure","PHEAP_OPTIMIZE_RESOURCES_INFORMATION","PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer","base.heap_optimize_resources_information","winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION","winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION"]
 old-location: base\heap_optimize_resources_information.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: c801a08a-0b1a-4ffe-8ec7-c3ea8d913ec8
 ms.date: 12/05/2018
 ms.keywords: '*PHEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION structure, PHEAP_OPTIMIZE_RESOURCES_INFORMATION, PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer, base.heap_optimize_resources_information, winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION, winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION'

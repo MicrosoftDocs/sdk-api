@@ -1,9 +1,10 @@
 ---
 UID: NF:certbcli.CertSrvBackupClose
 title: CertSrvBackupClose function (certbcli.h)
-description: Closes the file opened by the CertSrvBackupOpenFile function.helpviewer_keywords: ["CertSrvBackupClose","CertSrvBackupClose function [Security]","_certsrv_certsrvbackupclose","certbcli/CertSrvBackupClose","security.certsrvbackupclose"]
+description: Closes the file opened by the CertSrvBackupOpenFile function.
+helpviewer_keywords: ["CertSrvBackupClose","CertSrvBackupClose function [Security]","_certsrv_certsrvbackupclose","certbcli/CertSrvBackupClose","security.certsrvbackupclose"]
 old-location: security\certsrvbackupclose.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose

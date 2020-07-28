@@ -1,7 +1,8 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBitmapButton
 title: ITfLangBarItemBitmapButton (ctfutb.h)
-description: The ITfLangBarItemBitmapButton interface is implemented by a language bar bitmap button provider and is used by the language bar manager to obtain information specific to a bitmap button item on the language bar.helpviewer_keywords: ["ITfLangBarItemBitmapButton","ITfLangBarItemBitmapButton interface [Text Services Framework]","ITfLangBarItemBitmapButton interface [Text Services Framework]","described","_tsf_itflangbaritembitmapbutton_ref","ctfutb/ITfLangBarItemBitmapButton","tsf.itflangbaritembitmapbutton"]
+description: The ITfLangBarItemBitmapButton interface is implemented by a language bar bitmap button provider and is used by the language bar manager to obtain information specific to a bitmap button item on the language bar.
+helpviewer_keywords: ["ITfLangBarItemBitmapButton","ITfLangBarItemBitmapButton interface [Text Services Framework]","ITfLangBarItemBitmapButton interface [Text Services Framework]","described","_tsf_itflangbaritembitmapbutton_ref","ctfutb/ITfLangBarItemBitmapButton","tsf.itflangbaritembitmapbutton"]
 old-location: tsf\itflangbaritembitmapbutton.htm
 tech.root: TSF
 ms.assetid: 29fcc913-fcc7-4321-918b-2c354dd751ff

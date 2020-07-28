@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetColorManagementVersion
 title: IWICBitmapCodecInfo::GetColorManagementVersion (wincodec.h)
-description: Retrieves the color manangement version number the codec supports.helpviewer_keywords: ["GetColorManagementVersion","GetColorManagementVersion method [Windows Imaging Component]","GetColorManagementVersion method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetColorManagementVersion method","IWICBitmapCodecInfo.GetColorManagementVersion","IWICBitmapCodecInfo::GetColorManagementVersion","_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion","wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion","wincodec/IWICBitmapCodecInfo::GetColorManagementVersion"]
+description: Retrieves the color manangement version number the codec supports.
+helpviewer_keywords: ["GetColorManagementVersion","GetColorManagementVersion method [Windows Imaging Component]","GetColorManagementVersion method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetColorManagementVersion method","IWICBitmapCodecInfo.GetColorManagementVersion","IWICBitmapCodecInfo::GetColorManagementVersion","_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion","wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion","wincodec/IWICBitmapCodecInfo::GetColorManagementVersion"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm
 tech.root: wic
 ms.assetid: 3d115306-615a-403b-95f8-3e2850928928

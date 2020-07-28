@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Item
 title: ISecurityCallersColl::get_Item (comsvcs.h)
-description: Retrieves a specified caller in the security callers collection.helpviewer_keywords: ["ISecurityCallersColl interface [COM+]","get_Item method","ISecurityCallersColl.get_Item","ISecurityCallersColl::get_Item","_cos_ISecurityCallersColl_get_Item","comsvcs/ISecurityCallersColl::get_Item","cos.isecuritycallerscoll_get_item","get_Item","get_Item method [COM+]","get_Item method [COM+]","ISecurityCallersColl interface"]
+description: Retrieves a specified caller in the security callers collection.
+helpviewer_keywords: ["ISecurityCallersColl interface [COM+]","get_Item method","ISecurityCallersColl.get_Item","ISecurityCallersColl::get_Item","_cos_ISecurityCallersColl_get_Item","comsvcs/ISecurityCallersColl::get_Item","cos.isecuritycallerscoll_get_item","get_Item","get_Item method [COM+]","get_Item method [COM+]","ISecurityCallersColl interface"]
 old-location: cos\isecuritycallerscoll_get_item.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 24473ebe-8d29-46cd-817d-48f24b03c405
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get_Item method, ISecurityCallersColl.get_Item, ISecurityCallersColl::get_Item, _cos_ISecurityCallersColl_get_Item, comsvcs/ISecurityCallersColl::get_Item, cos.isecuritycallerscoll_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityCallersColl interface

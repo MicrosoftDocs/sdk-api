@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifySessionId
 title: IWRdsProtocolConnection::NotifySessionId (wtsprotocol.h)
-description: Sends the identifier of the new session to the protocol.helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","NotifySessionId method","IWRdsProtocolConnection.NotifySessionId","IWRdsProtocolConnection::NotifySessionId","NotifySessionId","NotifySessionId method [Remote Desktop Services]","NotifySessionId method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_notifysessionid","wtsprotocol/IWRdsProtocolConnection::NotifySessionId"]
+description: Sends the identifier of the new session to the protocol.
+helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","NotifySessionId method","IWRdsProtocolConnection.NotifySessionId","IWRdsProtocolConnection::NotifySessionId","NotifySessionId","NotifySessionId method [Remote Desktop Services]","NotifySessionId method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_notifysessionid","wtsprotocol/IWRdsProtocolConnection::NotifySessionId"]
 old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm
 tech.root: TermServ
 ms.assetid: 82bf892e-5e6f-4057-ac36-00e046080c93

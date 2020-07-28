@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2spi._WSPUPCALLTABLE
 title: WSPUPCALLTABLE (ws2spi.h)
-description: Contains a table of pointers to service provider upcall functions.helpviewer_keywords: ["*LPWSPUPCALLTABLE","FAR * LPWSPUPCALLTABLE","FAR * LPWSPUPCALLTABLE structure [Winsock]","WSPUPCALLTABLE","WSPUPCALLTABLE structure [Winsock]","winsock.wspupcalltable","ws2spi/FAR * LPWSPUPCALLTABLE","ws2spi/WSPUPCALLTABLE"]
+description: Contains a table of pointers to service provider upcall functions.
+helpviewer_keywords: ["*LPWSPUPCALLTABLE","FAR * LPWSPUPCALLTABLE","FAR * LPWSPUPCALLTABLE structure [Winsock]","WSPUPCALLTABLE","WSPUPCALLTABLE structure [Winsock]","winsock.wspupcalltable","ws2spi/FAR * LPWSPUPCALLTABLE","ws2spi/WSPUPCALLTABLE"]
 old-location: winsock\wspupcalltable.htm
 tech.root: WinSock
 ms.assetid: a5abf488-3e78-4e4e-ae5f-201bf0d77fc9

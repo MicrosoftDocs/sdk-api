@@ -1,9 +1,10 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetNameChoice
 title: ICertEncodeCRLDistInfo::GetNameChoice (certenc.h)
-description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","GetNameChoice method","GetNameChoice","GetNameChoice method [Security]","GetNameChoice method [Security]","CCertEncodeCRLDistInfo object","GetNameChoice method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","GetNameChoice method","ICertEncodeCRLDistInfo.GetNameChoice","ICertEncodeCRLDistInfo::GetNameChoice","_certsrv_icertencodecrldistinfo_getnamechoice","certenc/ICertEncodeCRLDistInfo::GetNameChoice","security.icertencodecrldistinfo_getnamechoice"]
+description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.
+helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","GetNameChoice method","GetNameChoice","GetNameChoice method [Security]","GetNameChoice method [Security]","CCertEncodeCRLDistInfo object","GetNameChoice method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","GetNameChoice method","ICertEncodeCRLDistInfo.GetNameChoice","ICertEncodeCRLDistInfo::GetNameChoice","_certsrv_icertencodecrldistinfo_getnamechoice","certenc/ICertEncodeCRLDistInfo::GetNameChoice","security.icertencodecrldistinfo_getnamechoice"]
 old-location: security\icertencodecrldistinfo_getnamechoice.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeCRLDistInfo object, GetNameChoice method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameChoice method, ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice

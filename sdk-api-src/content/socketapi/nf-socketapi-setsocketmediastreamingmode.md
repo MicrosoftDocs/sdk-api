@@ -1,7 +1,8 @@
 ---
 UID: NF:socketapi.SetSocketMediaStreamingMode
 title: SetSocketMediaStreamingMode function (socketapi.h)
-description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.helpviewer_keywords: ["SetSocketMediaStreamingMode","SetSocketMediaStreamingMode function [Winsock]","socketapi/SetSocketMediaStreamingMode","winsock.setsocketmediastreamingmode"]
+description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.
+helpviewer_keywords: ["SetSocketMediaStreamingMode","SetSocketMediaStreamingMode function [Winsock]","socketapi/SetSocketMediaStreamingMode","winsock.setsocketmediastreamingmode"]
 old-location: winsock\setsocketmediastreamingmode.htm
 tech.root: WinSock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963

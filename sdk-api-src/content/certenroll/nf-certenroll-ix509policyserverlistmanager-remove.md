@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Remove
 title: IX509PolicyServerListManager::Remove (certenroll.h)
-description: Removes an IX509PolicyServerUrl object from the collection by index number.helpviewer_keywords: ["IX509PolicyServerListManager interface [Security]","Remove method","IX509PolicyServerListManager.Remove","IX509PolicyServerListManager::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509PolicyServerListManager interface","certenroll/IX509PolicyServerListManager::Remove","security.ix509policyserverlistmanager_remove"]
+description: Removes an IX509PolicyServerUrl object from the collection by index number.
+helpviewer_keywords: ["IX509PolicyServerListManager interface [Security]","Remove method","IX509PolicyServerListManager.Remove","IX509PolicyServerListManager::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509PolicyServerListManager interface","certenroll/IX509PolicyServerListManager::Remove","security.ix509policyserverlistmanager_remove"]
 old-location: security\ix509policyserverlistmanager_remove.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c2e59087-a62b-4013-9a16-fedd03b2c286
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],Remove method, IX509PolicyServerListManager.Remove, IX509PolicyServerListManager::Remove, Remove, Remove method [Security], Remove method [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::Remove, security.ix509policyserverlistmanager_remove

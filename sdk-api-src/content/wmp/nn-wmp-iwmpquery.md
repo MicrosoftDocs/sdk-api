@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPQuery
 title: IWMPQuery (wmp.h)
-description: The IWMPQuery interface represents a compound query.helpviewer_keywords: ["IWMPQuery","IWMPQuery interface [Windows Media Player]","IWMPQuery interface [Windows Media Player]","described","IWMPQueryInterface","wmp.iwmpquery","wmp/IWMPQuery"]
+description: The IWMPQuery interface represents a compound query.
+helpviewer_keywords: ["IWMPQuery","IWMPQuery interface [Windows Media Player]","IWMPQuery interface [Windows Media Player]","described","IWMPQueryInterface","wmp.iwmpquery","wmp/IWMPQuery"]
 old-location: wmp\iwmpquery.htm
 tech.root: WMP
 ms.assetid: f1f3c46f-4756-49b4-ad4f-a9097ff787f8

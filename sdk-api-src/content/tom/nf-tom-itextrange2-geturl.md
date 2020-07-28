@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.GetURL
 title: ITextRange2::GetURL (tom.h)
-description: Returns the URL text associated with a range.helpviewer_keywords: ["GetURL","GetURL method [Windows Controls]","GetURL method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetURL method","ITextRange2.GetURL","ITextRange2::GetURL","controls.itextrange2_geturl","tom/ITextRange2::GetURL"]
+description: Returns the URL text associated with a range.
+helpviewer_keywords: ["GetURL","GetURL method [Windows Controls]","GetURL method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetURL method","ITextRange2.GetURL","ITextRange2::GetURL","controls.itextrange2_geturl","tom/ITextRange2::GetURL"]
 old-location: controls\itextrange2_geturl.htm
 tech.root: Controls
 ms.assetid: 0d23f261-0b44-4532-86da-0ca40561bfe0

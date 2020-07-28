@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.QueryInstances
 title: IWbemHiPerfProvider::QueryInstances (wbemprov.h)
-description: Returns instances of the specified class using the supplied IWbemObjectSink instance.helpviewer_keywords: ["IWbemHiPerfProvider interface [Windows Management Instrumentation]","QueryInstances method","IWbemHiPerfProvider.QueryInstances","IWbemHiPerfProvider::QueryInstances","QueryInstances","QueryInstances method [Windows Management Instrumentation]","QueryInstances method [Windows Management Instrumentation]","IWbemHiPerfProvider interface","_hmm_iwbemhiperfprovider_queryinstances","wbemprov/IWbemHiPerfProvider::QueryInstances","wmi.iwbemhiperfprovider_queryinstances"]
+description: Returns instances of the specified class using the supplied IWbemObjectSink instance.
+helpviewer_keywords: ["IWbemHiPerfProvider interface [Windows Management Instrumentation]","QueryInstances method","IWbemHiPerfProvider.QueryInstances","IWbemHiPerfProvider::QueryInstances","QueryInstances","QueryInstances method [Windows Management Instrumentation]","QueryInstances method [Windows Management Instrumentation]","IWbemHiPerfProvider interface","_hmm_iwbemhiperfprovider_queryinstances","wbemprov/IWbemHiPerfProvider::QueryInstances","wmi.iwbemhiperfprovider_queryinstances"]
 old-location: wmi\iwbemhiperfprovider_queryinstances.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8962fe9d-4b3e-469b-83e7-9c3f62a24308
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],QueryInstances method, IWbemHiPerfProvider.QueryInstances, IWbemHiPerfProvider::QueryInstances, QueryInstances, QueryInstances method [Windows Management Instrumentation], QueryInstances method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_queryinstances, wbemprov/IWbemHiPerfProvider::QueryInstances, wmi.iwbemhiperfprovider_queryinstances

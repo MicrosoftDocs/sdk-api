@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpQueryContextAttributesFn
 title: SpQueryContextAttributesFn (ntsecpkg.h)
-description: Retrieves the attributes of a security context.helpviewer_keywords: ["SpQueryContextAttributes","SpQueryContextAttributes callback function [Security]","SpQueryContextAttributesFn","SpQueryContextAttributesFn callback","_ssp_spquerycontextattributes","ntsecpkg/SpQueryContextAttributes","security.spquerycontextattributes"]
+description: Retrieves the attributes of a security context.
+helpviewer_keywords: ["SpQueryContextAttributes","SpQueryContextAttributes callback function [Security]","SpQueryContextAttributesFn","SpQueryContextAttributesFn callback","_ssp_spquerycontextattributes","ntsecpkg/SpQueryContextAttributes","security.spquerycontextattributes"]
 old-location: security\spquerycontextattributes.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 720b37dd-a957-4da9-8b94-4642e515bc22
 ms.date: 12/05/2018
 ms.keywords: SpQueryContextAttributes, SpQueryContextAttributes callback function [Security], SpQueryContextAttributesFn, SpQueryContextAttributesFn callback, _ssp_spquerycontextattributes, ntsecpkg/SpQueryContextAttributes, security.spquerycontextattributes

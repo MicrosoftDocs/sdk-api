@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Copy
 title: IPortableDeviceContent::Copy (portabledeviceapi.h)
-description: The Copy method copies objects from one location on a device to another.helpviewer_keywords: ["Copy","Copy method [Windows Portable Devices SDK]","Copy method [Windows Portable Devices SDK]","IPortableDeviceContent interface","IPortableDeviceContent interface [Windows Portable Devices SDK]","Copy method","IPortableDeviceContent.Copy","IPortableDeviceContent::Copy","IPortableDeviceContentCopy","portabledeviceapi/IPortableDeviceContent::Copy","wpdsdk.iportabledevicecontent_copy"]
+description: The Copy method copies objects from one location on a device to another.
+helpviewer_keywords: ["Copy","Copy method [Windows Portable Devices SDK]","Copy method [Windows Portable Devices SDK]","IPortableDeviceContent interface","IPortableDeviceContent interface [Windows Portable Devices SDK]","Copy method","IPortableDeviceContent.Copy","IPortableDeviceContent::Copy","IPortableDeviceContentCopy","portabledeviceapi/IPortableDeviceContent::Copy","wpdsdk.iportabledevicecontent_copy"]
 old-location: wpdsdk\iportabledevicecontent_copy.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 46d6abad-457c-47d7-a83a-b5ba2b84b064
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Portable Devices SDK], Copy method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Copy method, IPortableDeviceContent.Copy, IPortableDeviceContent::Copy, IPortableDeviceContentCopy, portabledeviceapi/IPortableDeviceContent::Copy, wpdsdk.iportabledevicecontent_copy

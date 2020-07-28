@@ -1,9 +1,10 @@
 ---
 UID: NF:aclapi.GetEffectiveRightsFromAclA
 title: GetEffectiveRightsFromAclA function (aclapi.h)
-description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.helpviewer_keywords: ["GetEffectiveRightsFromAcl","GetEffectiveRightsFromAcl function [Security]","GetEffectiveRightsFromAclA","GetEffectiveRightsFromAclW","_win32_geteffectiverightsfromacl","aclapi/GetEffectiveRightsFromAcl","aclapi/GetEffectiveRightsFromAclA","aclapi/GetEffectiveRightsFromAclW","security.geteffectiverightsfromacl"]
+description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
+helpviewer_keywords: ["GetEffectiveRightsFromAcl","GetEffectiveRightsFromAcl function [Security]","GetEffectiveRightsFromAclA","GetEffectiveRightsFromAclW","_win32_geteffectiverightsfromacl","aclapi/GetEffectiveRightsFromAcl","aclapi/GetEffectiveRightsFromAclA","aclapi/GetEffectiveRightsFromAclW","security.geteffectiverightsfromacl"]
 old-location: security\geteffectiverightsfromacl.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
@@ -404,6 +405,10 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
+
+
+> [!NOTE]
+> The aclapi.h header defines GetEffectiveRightsFromAcl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

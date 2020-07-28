@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurity
 title: CreatePrivateObjectSecurity function (securitybaseapi.h)
-description: Allocates and initializes a self-relative security descriptor for a new private object. A protected server calls this function when it creates a new private object.helpviewer_keywords: ["CreatePrivateObjectSecurity","CreatePrivateObjectSecurity function [Security]","_win32_createprivateobjectsecurity","security.createprivateobjectsecurity","securitybaseapi/CreatePrivateObjectSecurity"]
+description: Allocates and initializes a self-relative security descriptor for a new private object. A protected server calls this function when it creates a new private object.
+helpviewer_keywords: ["CreatePrivateObjectSecurity","CreatePrivateObjectSecurity function [Security]","_win32_createprivateobjectsecurity","security.createprivateobjectsecurity","securitybaseapi/CreatePrivateObjectSecurity"]
 old-location: security\createprivateobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 5f4832b6-5cf5-4050-9e20-56674f2e2cb1
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateObjectSecurity, CreatePrivateObjectSecurity function [Security], _win32_createprivateobjectsecurity, security.createprivateobjectsecurity, securitybaseapi/CreatePrivateObjectSecurity

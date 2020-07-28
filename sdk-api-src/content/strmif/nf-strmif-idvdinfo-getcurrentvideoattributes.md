@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVideoAttributes
 title: IDvdInfo::GetCurrentVideoAttributes (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current video attributes for the current title or menu.helpviewer_keywords: ["GetCurrentVideoAttributes","GetCurrentVideoAttributes method [DirectShow]","GetCurrentVideoAttributes method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentVideoAttributes method","IDvdInfo.GetCurrentVideoAttributes","IDvdInfo::GetCurrentVideoAttributes","IDvdInfoGetCurrentVideoAttributes","dshow.idvdinfo_getcurrentvideoattributes","strmif/IDvdInfo::GetCurrentVideoAttributes"]
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current video attributes for the current title or menu.
+helpviewer_keywords: ["GetCurrentVideoAttributes","GetCurrentVideoAttributes method [DirectShow]","GetCurrentVideoAttributes method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentVideoAttributes method","IDvdInfo.GetCurrentVideoAttributes","IDvdInfo::GetCurrentVideoAttributes","IDvdInfoGetCurrentVideoAttributes","dshow.idvdinfo_getcurrentvideoattributes","strmif/IDvdInfo::GetCurrentVideoAttributes"]
 old-location: dshow\idvdinfo_getcurrentvideoattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7147d8f3-c038-4742-8667-2e40d7ab979a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVideoAttributes, GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVideoAttributes method, IDvdInfo.GetCurrentVideoAttributes, IDvdInfo::GetCurrentVideoAttributes, IDvdInfoGetCurrentVideoAttributes, dshow.idvdinfo_getcurrentvideoattributes, strmif/IDvdInfo::GetCurrentVideoAttributes

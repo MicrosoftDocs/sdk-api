@@ -4,7 +4,7 @@ title: IXpsOMTileBrush::SetViewport (xpsobjectmodel.h)
 description: Sets the portion of the destination geometry that is covered by a single tile.
 helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetViewport method","IXpsOMTileBrush.SetViewport","IXpsOMTileBrush::SetViewport","SetViewport","SetViewport method [XPS Documents and Packaging]","SetViewport method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_setviewport","xpsobjectmodel/IXpsOMTileBrush::SetViewport"]
 old-location: xps\ixpsomtilebrush_setviewport.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e4a60f8d-3389-4420-851c-48483acecf0a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewport method, IXpsOMTileBrush.SetViewport, IXpsOMTileBrush::SetViewport, SetViewport, SetViewport method [XPS Documents and Packaging], SetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewport, xpsobjectmodel/IXpsOMTileBrush::SetViewport

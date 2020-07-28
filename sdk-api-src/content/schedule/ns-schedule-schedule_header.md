@@ -1,7 +1,8 @@
 ---
 UID: NS:schedule._SCHEDULE_HEADER
 title: SCHEDULE_HEADER (schedule.h)
-description: Used to contain the replication schedule data for a replication source.helpviewer_keywords: ["*PSCHEDULE_HEADER","PSCHEDULE_HEADER","PSCHEDULE_HEADER structure pointer [Active Directory]","SCHEDULE_BANDWIDTH","SCHEDULE_HEADER","SCHEDULE_HEADER structure [Active Directory]","SCHEDULE_INTERVAL","SCHEDULE_PRIORITY","ad.schedule_header","schedule/PSCHEDULE_HEADER","schedule/SCHEDULE_HEADER"]
+description: Used to contain the replication schedule data for a replication source.
+helpviewer_keywords: ["*PSCHEDULE_HEADER","PSCHEDULE_HEADER","PSCHEDULE_HEADER structure pointer [Active Directory]","SCHEDULE_BANDWIDTH","SCHEDULE_HEADER","SCHEDULE_HEADER structure [Active Directory]","SCHEDULE_INTERVAL","SCHEDULE_PRIORITY","ad.schedule_header","schedule/PSCHEDULE_HEADER","schedule/SCHEDULE_HEADER"]
 old-location: ad\schedule_header.htm
 tech.root: ad
 ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b

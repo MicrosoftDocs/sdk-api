@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFAudioMediaType.GetAudioFormat
 title: IMFAudioMediaType::GetAudioFormat (mfobjects.h)
-description: GetAudioFormat is no longer available for use as of Windows 7.helpviewer_keywords: ["6a874e7b-9358-45e1-85be-7207bf46d93e","GetAudioFormat","GetAudioFormat method [Media Foundation]","GetAudioFormat method [Media Foundation]","IMFAudioMediaType interface","IMFAudioMediaType interface [Media Foundation]","GetAudioFormat method","IMFAudioMediaType.GetAudioFormat","IMFAudioMediaType::GetAudioFormat","mf.imfaudiomediatype_getaudioformat","mfobjects/IMFAudioMediaType::GetAudioFormat"]
+description: GetAudioFormat is no longer available for use as of Windows 7.
+helpviewer_keywords: ["6a874e7b-9358-45e1-85be-7207bf46d93e","GetAudioFormat","GetAudioFormat method [Media Foundation]","GetAudioFormat method [Media Foundation]","IMFAudioMediaType interface","IMFAudioMediaType interface [Media Foundation]","GetAudioFormat method","IMFAudioMediaType.GetAudioFormat","IMFAudioMediaType::GetAudioFormat","mf.imfaudiomediatype_getaudioformat","mfobjects/IMFAudioMediaType::GetAudioFormat"]
 old-location: mf\imfaudiomediatype_getaudioformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6a874e7b-9358-45e1-85be-7207bf46d93e
 ms.date: 12/05/2018
 ms.keywords: 6a874e7b-9358-45e1-85be-7207bf46d93e, GetAudioFormat, GetAudioFormat method [Media Foundation], GetAudioFormat method [Media Foundation],IMFAudioMediaType interface, IMFAudioMediaType interface [Media Foundation],GetAudioFormat method, IMFAudioMediaType.GetAudioFormat, IMFAudioMediaType::GetAudioFormat, mf.imfaudiomediatype_getaudioformat, mfobjects/IMFAudioMediaType::GetAudioFormat

@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Capabilities
 title: IPortableDeviceService::Capabilities (portabledeviceapi.h)
-description: Retrieves the service capabilities.helpviewer_keywords: ["Capabilities","Capabilities method [Windows Portable Devices SDK]","Capabilities method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","Capabilities method","IPortableDeviceService.Capabilities","IPortableDeviceService::Capabilities","portabledeviceapi/IPortableDeviceService::Capabilities","wpdsdk.iportabledeviceservice_capabilities"]
+description: Retrieves the service capabilities.
+helpviewer_keywords: ["Capabilities","Capabilities method [Windows Portable Devices SDK]","Capabilities method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","Capabilities method","IPortableDeviceService.Capabilities","IPortableDeviceService::Capabilities","portabledeviceapi/IPortableDeviceService::Capabilities","wpdsdk.iportabledeviceservice_capabilities"]
 old-location: wpdsdk\iportabledeviceservice_capabilities.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 62ef0c63-2908-458f-8e9f-eb6150441380
 ms.date: 12/05/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Capabilities method, IPortableDeviceService.Capabilities, IPortableDeviceService::Capabilities, portabledeviceapi/IPortableDeviceService::Capabilities, wpdsdk.iportabledeviceservice_capabilities

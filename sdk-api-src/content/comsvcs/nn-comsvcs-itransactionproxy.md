@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.ITransactionProxy
 title: ITransactionProxy (comsvcs.h)
-description: Provides a way for a COM+ transaction context to work with a non-DTC transaction.helpviewer_keywords: ["ITransactionProxy","ITransactionProxy interface [COM+]","ITransactionProxy interface [COM+]","described","comsvcs/ITransactionProxy","cos.itransactionproxy"]
+description: Provides a way for a COM+ transaction context to work with a non-DTC transaction.
+helpviewer_keywords: ["ITransactionProxy","ITransactionProxy interface [COM+]","ITransactionProxy interface [COM+]","described","comsvcs/ITransactionProxy","cos.itransactionproxy"]
 old-location: cos\itransactionproxy.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 58d40456-fd4f-4690-a679-3fa58b2f3cda
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], ITransactionProxy interface [COM+],described, comsvcs/ITransactionProxy, cos.itransactionproxy

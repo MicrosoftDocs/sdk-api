@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IToolbar.SetButtonState
 title: IToolbar::SetButtonState (mmc.h)
-description: Enables a snap-in to set an attribute of a button.helpviewer_keywords: ["BUTTONPRESSED","CHECKED","ENABLED","HIDDEN","INDETERMINATE","IToolbar interface [MMC]","SetButtonState method","IToolbar.SetButtonState","IToolbar::SetButtonState","SetButtonState","SetButtonState method [MMC]","SetButtonState method [MMC]","IToolbar interface","_slate_itoolbar_setbuttonstate","mmc.itoolbar_setbuttonstate","mmc/IToolbar::SetButtonState"]
+description: Enables a snap-in to set an attribute of a button.
+helpviewer_keywords: ["BUTTONPRESSED","CHECKED","ENABLED","HIDDEN","INDETERMINATE","IToolbar interface [MMC]","SetButtonState method","IToolbar.SetButtonState","IToolbar::SetButtonState","SetButtonState","SetButtonState method [MMC]","SetButtonState method [MMC]","IToolbar interface","_slate_itoolbar_setbuttonstate","mmc.itoolbar_setbuttonstate","mmc/IToolbar::SetButtonState"]
 old-location: mmc\itoolbar_setbuttonstate.htm
 tech.root: mmc
 ms.assetid: aa43fc1b-cc6d-474d-9b92-556924fb98de

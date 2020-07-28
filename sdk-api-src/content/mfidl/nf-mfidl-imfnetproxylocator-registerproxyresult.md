@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.RegisterProxyResult
 title: IMFNetProxyLocator::RegisterProxyResult (mfidl.h)
-description: Keeps a record of the success or failure of using the current proxy.helpviewer_keywords: ["2b1a55c6-7d78-47cc-9098-6504d11a4eef","IMFNetProxyLocator interface [Media Foundation]","RegisterProxyResult method","IMFNetProxyLocator.RegisterProxyResult","IMFNetProxyLocator::RegisterProxyResult","RegisterProxyResult","RegisterProxyResult method [Media Foundation]","RegisterProxyResult method [Media Foundation]","IMFNetProxyLocator interface","mf.imfnetproxylocator_registerproxyresult","mfidl/IMFNetProxyLocator::RegisterProxyResult"]
+description: Keeps a record of the success or failure of using the current proxy.
+helpviewer_keywords: ["2b1a55c6-7d78-47cc-9098-6504d11a4eef","IMFNetProxyLocator interface [Media Foundation]","RegisterProxyResult method","IMFNetProxyLocator.RegisterProxyResult","IMFNetProxyLocator::RegisterProxyResult","RegisterProxyResult","RegisterProxyResult method [Media Foundation]","RegisterProxyResult method [Media Foundation]","IMFNetProxyLocator interface","mf.imfnetproxylocator_registerproxyresult","mfidl/IMFNetProxyLocator::RegisterProxyResult"]
 old-location: mf\imfnetproxylocator_registerproxyresult.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2b1a55c6-7d78-47cc-9098-6504d11a4eef
 ms.date: 12/05/2018
 ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator interface [Media Foundation],RegisterProxyResult method, IMFNetProxyLocator.RegisterProxyResult, IMFNetProxyLocator::RegisterProxyResult, RegisterProxyResult, RegisterProxyResult method [Media Foundation], RegisterProxyResult method [Media Foundation],IMFNetProxyLocator interface, mf.imfnetproxylocator_registerproxyresult, mfidl/IMFNetProxyLocator::RegisterProxyResult

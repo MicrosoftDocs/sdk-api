@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_BYTE_RANGE
 title: HTTP_BYTE_RANGE (http.h)
-description: The HTTP_BYTE_RANGE structure is used to specify a byte range within a cached response fragment, file, or other data block.helpviewer_keywords: ["*PHTTP_BYTE_RANGE","HTTP_BYTE_RANGE","HTTP_BYTE_RANGE structure [HTTP]","PHTTP_BYTE_RANGE","PHTTP_BYTE_RANGE structure pointer [HTTP]","_http_http_byte_range","http.http_byte_range","http/HTTP_BYTE_RANGE","http/PHTTP_BYTE_RANGE"]
+description: The HTTP_BYTE_RANGE structure is used to specify a byte range within a cached response fragment, file, or other data block.
+helpviewer_keywords: ["*PHTTP_BYTE_RANGE","HTTP_BYTE_RANGE","HTTP_BYTE_RANGE structure [HTTP]","PHTTP_BYTE_RANGE","PHTTP_BYTE_RANGE structure pointer [HTTP]","_http_http_byte_range","http.http_byte_range","http/HTTP_BYTE_RANGE","http/PHTTP_BYTE_RANGE"]
 old-location: http\http_byte_range.htm
 tech.root: http
 ms.assetid: a57d23cd-1e91-401a-b242-6549b1457594

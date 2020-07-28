@@ -1,9 +1,10 @@
 ---
 UID: NN:vsprov.IVssProviderNotifications
 title: IVssProviderNotifications (vsprov.h)
-description: The IVssProviderNotifications interface manages providers registered with VSS.helpviewer_keywords: ["IVssProviderNotifications","IVssProviderNotifications interface [VSS]","IVssProviderNotifications interface [VSS]","described","base.ivssprovidernotifications","vsprov/IVssProviderNotifications"]
+description: The IVssProviderNotifications interface manages providers registered with VSS.
+helpviewer_keywords: ["IVssProviderNotifications","IVssProviderNotifications interface [VSS]","IVssProviderNotifications interface [VSS]","described","base.ivssprovidernotifications","vsprov/IVssProviderNotifications"]
 old-location: base\ivssprovidernotifications.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications

@@ -1,9 +1,10 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetIndexMode
 title: IConfigAsfWriter::GetIndexMode (dshowasf.h)
-description: The GetIndexMode method retrieves the current index mode.helpviewer_keywords: ["GetIndexMode","GetIndexMode method [DirectShow]","GetIndexMode method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","GetIndexMode method","IConfigAsfWriter.GetIndexMode","IConfigAsfWriter::GetIndexMode","IConfigAsfWriterGetIndexMode","dshow.iconfigasfwriter_getindexmode","dshowasf/IConfigAsfWriter::GetIndexMode"]
+description: The GetIndexMode method retrieves the current index mode.
+helpviewer_keywords: ["GetIndexMode","GetIndexMode method [DirectShow]","GetIndexMode method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","GetIndexMode method","IConfigAsfWriter.GetIndexMode","IConfigAsfWriter::GetIndexMode","IConfigAsfWriterGetIndexMode","dshow.iconfigasfwriter_getindexmode","dshowasf/IConfigAsfWriter::GetIndexMode"]
 old-location: dshow\iconfigasfwriter_getindexmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 70d9a2e7-2f5a-4f87-b42c-3a225c42a44b
 ms.date: 12/05/2018
 ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetIndexMode method, IConfigAsfWriter.GetIndexMode, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode

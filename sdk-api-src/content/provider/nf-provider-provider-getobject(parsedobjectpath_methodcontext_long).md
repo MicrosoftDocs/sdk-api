@@ -1,9 +1,10 @@
 ---
 UID: NF:provider.Provider.GetObject(ParsedObjectPath,MethodContext,long)
 title: Provider::GetObject(ParsedObjectPath,MethodContext,long) (provider.h)
-description: The GetObject method is called by WMI to retrieve an instance of a class.helpviewer_keywords: ["?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z","?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z","GetObject","GetObject method [Windows Management Instrumentation]","GetObject method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","GetObject method","Provider.GetObject","Provider.GetObject(ParsedObjectPath","MethodContext","long)","Provider::GetObject","Provider::GetObject(ParsedObjectPath","MethodContext","long)","_hmm_provider_getobject","provider/Provider::GetObject","wmi.provider_getobject"]
+description: The GetObject method is called by WMI to retrieve an instance of a class.
+helpviewer_keywords: ["?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z","?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z","GetObject","GetObject method [Windows Management Instrumentation]","GetObject method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","GetObject method","Provider.GetObject","Provider.GetObject(ParsedObjectPath","MethodContext","long)","Provider::GetObject","Provider::GetObject(ParsedObjectPath","MethodContext","long)","_hmm_provider_getobject","provider/Provider::GetObject","wmi.provider_getobject"]
 old-location: wmi\provider_getobject.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: c8e2633a-cbea-422c-9598-1b1b1104bbc2
 ms.date: 12/05/2018
 ms.keywords: ?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider.GetObject(ParsedObjectPath,MethodContext,long), Provider::GetObject, Provider::GetObject(ParsedObjectPath,MethodContext,long), _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject

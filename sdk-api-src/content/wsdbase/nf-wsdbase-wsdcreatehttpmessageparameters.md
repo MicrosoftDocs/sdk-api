@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.WSDCreateHttpMessageParameters
 title: WSDCreateHttpMessageParameters function (wsdbase.h)
-description: Creates an IWSDHttpMessageParameters object.helpviewer_keywords: ["WSDCreateHttpMessageParameters","WSDCreateHttpMessageParameters function","ncd.wsdcreatehttpmessageparameters","wsdbase/WSDCreateHttpMessageParameters"]
+description: Creates an IWSDHttpMessageParameters object.
+helpviewer_keywords: ["WSDCreateHttpMessageParameters","WSDCreateHttpMessageParameters function","ncd.wsdcreatehttpmessageparameters","wsdbase/WSDCreateHttpMessageParameters"]
 old-location: ncd\wsdcreatehttpmessageparameters.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 43797991-7a9c-42f8-bf64-655bde014487
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters

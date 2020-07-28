@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSelection
 title: IMFPMediaItem::SetStreamSelection (mfplay.h)
-description: Selects or deselects a stream.helpviewer_keywords: ["FALSE","IMFPMediaItem interface [Media Foundation]","SetStreamSelection method","IMFPMediaItem.SetStreamSelection","IMFPMediaItem::SetStreamSelection","SetStreamSelection","SetStreamSelection method [Media Foundation]","SetStreamSelection method [Media Foundation]","IMFPMediaItem interface","TRUE","mf.imfpmediaitem_setstreamselection","mfplay/IMFPMediaItem::SetStreamSelection"]
+description: Selects or deselects a stream.
+helpviewer_keywords: ["FALSE","IMFPMediaItem interface [Media Foundation]","SetStreamSelection method","IMFPMediaItem.SetStreamSelection","IMFPMediaItem::SetStreamSelection","SetStreamSelection","SetStreamSelection method [Media Foundation]","SetStreamSelection method [Media Foundation]","IMFPMediaItem interface","TRUE","mf.imfpmediaitem_setstreamselection","mfplay/IMFPMediaItem::SetStreamSelection"]
 old-location: mf\imfpmediaitem_setstreamselection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection

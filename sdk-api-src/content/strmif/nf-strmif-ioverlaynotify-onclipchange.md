@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnClipChange
 title: IOverlayNotify::OnClipChange (strmif.h)
-description: The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.helpviewer_keywords: ["IOverlayNotify interface [DirectShow]","OnClipChange method","IOverlayNotify.OnClipChange","IOverlayNotify::OnClipChange","IOverlayNotifyOnClipChange","OnClipChange","OnClipChange method [DirectShow]","OnClipChange method [DirectShow]","IOverlayNotify interface","dshow.ioverlaynotify_onclipchange","strmif/IOverlayNotify::OnClipChange"]
+description: The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.
+helpviewer_keywords: ["IOverlayNotify interface [DirectShow]","OnClipChange method","IOverlayNotify.OnClipChange","IOverlayNotify::OnClipChange","IOverlayNotifyOnClipChange","OnClipChange","OnClipChange method [DirectShow]","OnClipChange method [DirectShow]","IOverlayNotify interface","dshow.ioverlaynotify_onclipchange","strmif/IOverlayNotify::OnClipChange"]
 old-location: dshow\ioverlaynotify_onclipchange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d5bed27f-2918-4c1f-9340-a0d5714d911b
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnClipChange method, IOverlayNotify.OnClipChange, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange

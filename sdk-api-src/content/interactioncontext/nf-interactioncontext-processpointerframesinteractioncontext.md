@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.ProcessPointerFramesInteractionContext
 title: ProcessPointerFramesInteractionContext function (interactioncontext.h)
-description: Processes a set of pointer input frames.helpviewer_keywords: ["ProcessPointerFramesInteractionContext","ProcessPointerFramesInteractionContext function","input_intcontext.processpointerframesinteractioncontext","interactioncontext.processpointerframesinteractioncontext","interactioncontext/ProcessPointerFramesInteractionContext"]
+description: Processes a set of pointer input frames.
+helpviewer_keywords: ["ProcessPointerFramesInteractionContext","ProcessPointerFramesInteractionContext function","input_intcontext.processpointerframesinteractioncontext","interactioncontext.processpointerframesinteractioncontext","interactioncontext/ProcessPointerFramesInteractionContext"]
 old-location: input_intcontext\processpointerframesinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 87e70ebf-ff54-4a90-8b28-1cfe6dc33e94
 ms.date: 12/05/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext

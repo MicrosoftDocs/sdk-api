@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IQualityControl.SetSink
 title: IQualityControl::SetSink (strmif.h)
-description: The SetSink method sets the IQualityControl object that will receive quality messages.helpviewer_keywords: ["IQualityControl interface [DirectShow]","SetSink method","IQualityControl.SetSink","IQualityControl::SetSink","IQualityControlSetSink","SetSink","SetSink method [DirectShow]","SetSink method [DirectShow]","IQualityControl interface","dshow.iqualitycontrol_setsink","strmif/IQualityControl::SetSink"]
+description: The SetSink method sets the IQualityControl object that will receive quality messages.
+helpviewer_keywords: ["IQualityControl interface [DirectShow]","SetSink method","IQualityControl.SetSink","IQualityControl::SetSink","IQualityControlSetSink","SetSink","SetSink method [DirectShow]","SetSink method [DirectShow]","IQualityControl interface","dshow.iqualitycontrol_setsink","strmif/IQualityControl::SetSink"]
 old-location: dshow\iqualitycontrol_setsink.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f82922dc-ec33-499d-b052-a1ba38632c52
 ms.date: 12/05/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink

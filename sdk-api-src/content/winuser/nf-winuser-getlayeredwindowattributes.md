@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetLayeredWindowAttributes
 title: GetLayeredWindowAttributes function (winuser.h)
-description: Retrieves the opacity and transparency color key of a layered window.helpviewer_keywords: ["GetLayeredWindowAttributes","GetLayeredWindowAttributes function [Windows and Messages]","LWA_ALPHA","LWA_COLORKEY","_win32_GetLayeredWindowAttributes","_win32_getlayeredwindowattributes_cpp","winmsg.getlayeredwindowattributes","winui._win32_getlayeredwindowattributes","winuser/GetLayeredWindowAttributes"]
+description: Retrieves the opacity and transparency color key of a layered window.
+helpviewer_keywords: ["GetLayeredWindowAttributes","GetLayeredWindowAttributes function [Windows and Messages]","LWA_ALPHA","LWA_COLORKEY","_win32_GetLayeredWindowAttributes","_win32_getlayeredwindowattributes_cpp","winmsg.getlayeredwindowattributes","winui._win32_getlayeredwindowattributes","winuser/GetLayeredWindowAttributes"]
 old-location: winmsg\getlayeredwindowattributes.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getlayeredwindowattributes.htm

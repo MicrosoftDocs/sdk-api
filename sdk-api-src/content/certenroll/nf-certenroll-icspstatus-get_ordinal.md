@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspStatus.get_Ordinal
 title: ICspStatus::get_Ordinal (certenroll.h)
-description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.helpviewer_keywords: ["ICspStatus interface [Security]","Ordinal property","ICspStatus.Ordinal","ICspStatus.get_Ordinal","ICspStatus::Ordinal","ICspStatus::get_Ordinal","ICspStatus::put_Ordinal","Ordinal property [Security]","Ordinal property [Security]","ICspStatus interface","certenroll/ICspStatus::Ordinal","certenroll/ICspStatus::get_Ordinal","certenroll/ICspStatus::put_Ordinal","get_Ordinal","security.icspstatus_ordinal_property"]
+description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
+helpviewer_keywords: ["ICspStatus interface [Security]","Ordinal property","ICspStatus.Ordinal","ICspStatus.get_Ordinal","ICspStatus::Ordinal","ICspStatus::get_Ordinal","ICspStatus::put_Ordinal","Ordinal property [Security]","Ordinal property [Security]","ICspStatus interface","certenroll/ICspStatus::Ordinal","certenroll/ICspStatus::get_Ordinal","certenroll/ICspStatus::put_Ordinal","get_Ordinal","security.icspstatus_ordinal_property"]
 old-location: security\icspstatus_ordinal_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.get_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, get_Ordinal, security.icspstatus_ordinal_property

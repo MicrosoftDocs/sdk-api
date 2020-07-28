@@ -1,9 +1,10 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.AssociateIdentity
 title: IAssociatedIdentityProvider::AssociateIdentity (identityprovider.h)
-description: Associates an identity with a local user account.helpviewer_keywords: ["AssociateIdentity","AssociateIdentity method [Security]","AssociateIdentity method [Security]","IAssociatedIdentityProvider interface","IAssociatedIdentityProvider interface [Security]","AssociateIdentity method","IAssociatedIdentityProvider.AssociateIdentity","IAssociatedIdentityProvider::AssociateIdentity","identityprovider/IAssociatedIdentityProvider::AssociateIdentity","identitystore/IAssociatedIdentityProvider::AssociateIdentity","security.iassociatedidentityprovider_associateidentity"]
+description: Associates an identity with a local user account.
+helpviewer_keywords: ["AssociateIdentity","AssociateIdentity method [Security]","AssociateIdentity method [Security]","IAssociatedIdentityProvider interface","IAssociatedIdentityProvider interface [Security]","AssociateIdentity method","IAssociatedIdentityProvider.AssociateIdentity","IAssociatedIdentityProvider::AssociateIdentity","identityprovider/IAssociatedIdentityProvider::AssociateIdentity","identitystore/IAssociatedIdentityProvider::AssociateIdentity","security.iassociatedidentityprovider_associateidentity"]
 old-location: security\iassociatedidentityprovider_associateidentity.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2d1d1da9-c1d0-4970-aad2-928bf6a4aaf0
 ms.date: 12/05/2018
 ms.keywords: AssociateIdentity, AssociateIdentity method [Security], AssociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],AssociateIdentity method, IAssociatedIdentityProvider.AssociateIdentity, IAssociatedIdentityProvider::AssociateIdentity, identityprovider/IAssociatedIdentityProvider::AssociateIdentity, identitystore/IAssociatedIdentityProvider::AssociateIdentity, security.iassociatedidentityprovider_associateidentity

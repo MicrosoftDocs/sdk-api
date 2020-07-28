@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTask.GetProperty
 title: IAzTask::GetProperty (azroles.h)
-description: Returns the IAzTask object property with the specified property ID.helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_CHILD_CREATE","AZ_PROP_DESCRIPTION","AZ_PROP_NAME","AZ_PROP_TASK_BIZRULE","AZ_PROP_TASK_BIZRULE_LANGUAGE","AZ_PROP_TASK_IS_ROLE_DEFINITION","AZ_PROP_TASK_OPERATIONS","AZ_PROP_TASK_TASKS","AZ_PROP_WRITABLE","AzTask object [Security]","GetProperty method","GetProperty","GetProperty method [Security]","GetProperty method [Security]","AzTask object","GetProperty method [Security]","IAzTask interface","IAzTask interface [Security]","GetProperty method","IAzTask.GetProperty","IAzTask::GetProperty","azroles/IAzTask::GetProperty","security.iaztask_getproperty"]
+description: Returns the IAzTask object property with the specified property ID.
+helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_CHILD_CREATE","AZ_PROP_DESCRIPTION","AZ_PROP_NAME","AZ_PROP_TASK_BIZRULE","AZ_PROP_TASK_BIZRULE_LANGUAGE","AZ_PROP_TASK_IS_ROLE_DEFINITION","AZ_PROP_TASK_OPERATIONS","AZ_PROP_TASK_TASKS","AZ_PROP_WRITABLE","AzTask object [Security]","GetProperty method","GetProperty","GetProperty method [Security]","GetProperty method [Security]","AzTask object","GetProperty method [Security]","IAzTask interface","IAzTask interface [Security]","GetProperty method","IAzTask.GetProperty","IAzTask::GetProperty","azroles/IAzTask::GetProperty","security.iaztask_getproperty"]
 old-location: security\iaztask_getproperty.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d484f56c-3d96-48df-a0d1-1bea58e30f26
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AZ_PROP_WRITABLE, AzTask object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzTask object, GetProperty method [Security],IAzTask interface, IAzTask interface [Security],GetProperty method, IAzTask.GetProperty, IAzTask::GetProperty, azroles/IAzTask::GetProperty, security.iaztask_getproperty

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.SetMonitor
 title: IVMRMonitorConfig::SetMonitor (strmif.h)
-description: On a multi-monitor system, the SetMonitor method specifies the monitor that this instance of the VMR should use for video playback.helpviewer_keywords: ["IVMRMonitorConfig interface [DirectShow]","SetMonitor method","IVMRMonitorConfig.SetMonitor","IVMRMonitorConfig::SetMonitor","IVMRMonitorConfigSetMonitor","SetMonitor","SetMonitor method [DirectShow]","SetMonitor method [DirectShow]","IVMRMonitorConfig interface","dshow.ivmrmonitorconfig_setmonitor","strmif/IVMRMonitorConfig::SetMonitor"]
+description: On a multi-monitor system, the SetMonitor method specifies the monitor that this instance of the VMR should use for video playback.
+helpviewer_keywords: ["IVMRMonitorConfig interface [DirectShow]","SetMonitor method","IVMRMonitorConfig.SetMonitor","IVMRMonitorConfig::SetMonitor","IVMRMonitorConfigSetMonitor","SetMonitor","SetMonitor method [DirectShow]","SetMonitor method [DirectShow]","IVMRMonitorConfig interface","dshow.ivmrmonitorconfig_setmonitor","strmif/IVMRMonitorConfig::SetMonitor"]
 old-location: dshow\ivmrmonitorconfig_setmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d443592e-23d8-425c-9f88-f4f786fb19c6
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetMonitor method, IVMRMonitorConfig.SetMonitor, IVMRMonitorConfig::SetMonitor, IVMRMonitorConfigSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setmonitor, strmif/IVMRMonitorConfig::SetMonitor

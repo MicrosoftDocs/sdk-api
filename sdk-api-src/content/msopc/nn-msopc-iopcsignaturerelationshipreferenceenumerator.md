@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReferenceEnumerator
 title: IOpcSignatureRelationshipReferenceEnumerator (msopc.h)
-description: A read-only enumerator of IOpcSignatureRelationshipReference interface pointers.helpviewer_keywords: ["IOpcSignatureRelationshipReferenceEnumerator","IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReferenceEnumerator","opc.iopcsignaturerelationshipreferenceenumerator"]
+description: A read-only enumerator of IOpcSignatureRelationshipReference interface pointers.
+helpviewer_keywords: ["IOpcSignatureRelationshipReferenceEnumerator","IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReferenceEnumerator","opc.iopcsignaturerelationshipreferenceenumerator"]
 old-location: opc\iopcsignaturerelationshipreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: aa4c6e8b-1a1f-464b-885e-bee0976afafc

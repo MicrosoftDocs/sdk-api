@@ -1,9 +1,10 @@
 ---
 UID: NF:slpublic.SLGetLicenseInformation
 title: SLGetLicenseInformation function (slpublic.h)
-description: Gets the specified license information.helpviewer_keywords: ["SLGetLicenseInformation","SLGetLicenseInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_DESCRIPTION","SL_INFO_KEY_LICENSE_TYPE","SL_INFO_KEY_VERSION","security.slgetlicenseinformation","slpublic/SLGetLicenseInformation"]
+description: Gets the specified license information.
+helpviewer_keywords: ["SLGetLicenseInformation","SLGetLicenseInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_DESCRIPTION","SL_INFO_KEY_LICENSE_TYPE","SL_INFO_KEY_VERSION","security.slgetlicenseinformation","slpublic/SLGetLicenseInformation"]
 old-location: security\slgetlicenseinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: d573bf38-590c-4f8e-a465-9322cbe2b7c4
 ms.date: 12/05/2018
 ms.keywords: SLGetLicenseInformation, SLGetLicenseInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_LICENSE_TYPE, SL_INFO_KEY_VERSION, security.slgetlicenseinformation, slpublic/SLGetLicenseInformation

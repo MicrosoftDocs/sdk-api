@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneGetGain
 title: phoneGetGain function (tapi.h)
-description: The phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.helpviewer_keywords: ["_tapi2_phonegetgain","phoneGetGain","phoneGetGain function [TAPI 2.2]","tapi/phoneGetGain","tapi2.phonegetgain"]
+description: The phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
+helpviewer_keywords: ["_tapi2_phonegetgain","phoneGetGain","phoneGetGain function [TAPI 2.2]","tapi/phoneGetGain","tapi2.phonegetgain"]
 old-location: tapi2\phonegetgain.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ea6ba2f0-ff79-41b8-9165-bb250077b2dc
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetgain, phoneGetGain, phoneGetGain function [TAPI 2.2], tapi/phoneGetGain, tapi2.phonegetgain

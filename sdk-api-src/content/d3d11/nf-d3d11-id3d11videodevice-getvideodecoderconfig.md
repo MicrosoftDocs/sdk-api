@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderConfig
 title: ID3D11VideoDevice::GetVideoDecoderConfig (d3d11.h)
-description: Gets a decoder configuration that is supported by the driver.helpviewer_keywords: ["GetVideoDecoderConfig","GetVideoDecoderConfig method [Media Foundation]","GetVideoDecoderConfig method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","GetVideoDecoderConfig method","ID3D11VideoDevice.GetVideoDecoderConfig","ID3D11VideoDevice::GetVideoDecoderConfig","d3d11/ID3D11VideoDevice::GetVideoDecoderConfig","mf.id3d11videodevice_getvideodecoderconfig"]
+description: Gets a decoder configuration that is supported by the driver.
+helpviewer_keywords: ["GetVideoDecoderConfig","GetVideoDecoderConfig method [Media Foundation]","GetVideoDecoderConfig method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","GetVideoDecoderConfig method","ID3D11VideoDevice.GetVideoDecoderConfig","ID3D11VideoDevice::GetVideoDecoderConfig","d3d11/ID3D11VideoDevice::GetVideoDecoderConfig","mf.id3d11videodevice_getvideodecoderconfig"]
 old-location: mf\id3d11videodevice_getvideodecoderconfig.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EC3B23BE-0A28-41E6-A515-7801C9E0A4D9
 ms.date: 12/05/2018
 ms.keywords: GetVideoDecoderConfig, GetVideoDecoderConfig method [Media Foundation], GetVideoDecoderConfig method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderConfig method, ID3D11VideoDevice.GetVideoDecoderConfig, ID3D11VideoDevice::GetVideoDecoderConfig, d3d11/ID3D11VideoDevice::GetVideoDecoderConfig, mf.id3d11videodevice_getvideodecoderconfig

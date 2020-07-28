@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseScanLine
 title: IDirectDrawVideo::UseScanLine (amvideo.h)
-description: The UseScanLine method determines whether the renderer should check the current scan line when drawing a video.helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","UseScanLine method","IDirectDrawVideo.UseScanLine","IDirectDrawVideo::UseScanLine","IDirectDrawVideoUseScanLine","UseScanLine","UseScanLine method [DirectShow]","UseScanLine method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::UseScanLine","dshow.idirectdrawvideo_usescanline"]
+description: The UseScanLine method determines whether the renderer should check the current scan line when drawing a video.
+helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","UseScanLine method","IDirectDrawVideo.UseScanLine","IDirectDrawVideo::UseScanLine","IDirectDrawVideoUseScanLine","UseScanLine","UseScanLine method [DirectShow]","UseScanLine method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::UseScanLine","dshow.idirectdrawvideo_usescanline"]
 old-location: dshow\idirectdrawvideo_usescanline.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8378582d-ef82-47ff-a801-934c900ac328
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseScanLine method, IDirectDrawVideo.UseScanLine, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline

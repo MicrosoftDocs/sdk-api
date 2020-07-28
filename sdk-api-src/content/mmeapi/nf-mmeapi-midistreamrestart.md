@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiStreamRestart
 title: midiStreamRestart function (mmeapi.h)
-description: The midiStreamRestart function restarts a paused MIDI stream.helpviewer_keywords: ["_win32_midiStreamRestart","midiStreamRestart","midiStreamRestart function [Windows Multimedia]","mmeapi/midiStreamRestart","multimedia.midistreamrestart"]
+description: The midiStreamRestart function restarts a paused MIDI stream.
+helpviewer_keywords: ["_win32_midiStreamRestart","midiStreamRestart","midiStreamRestart function [Windows Multimedia]","mmeapi/midiStreamRestart","multimedia.midistreamrestart"]
 old-location: multimedia\midistreamrestart.htm
 tech.root: Multimedia
 ms.assetid: 8d0f31d6-957d-4266-adae-68865466a859

@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.put_CAStoreNameWStr
 title: IEnroll::put_CAStoreNameWStr (xenroll.h)
-description: The CAStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.helpviewer_keywords: ["CAStoreNameWStr property [Security]","CAStoreNameWStr property [Security]","IEnroll interface","IEnroll interface [Security]","CAStoreNameWStr property","IEnroll.CAStoreNameWStr","IEnroll.put_CAStoreNameWStr","IEnroll::CAStoreNameWStr","IEnroll::get_CAStoreNameWStr","IEnroll::put_CAStoreNameWStr","put_CAStoreNameWStr","security.ienroll4_castorenamewstr","xenroll/IEnroll::CAStoreNameWStr","xenroll/IEnroll::get_CAStoreNameWStr","xenroll/IEnroll::put_CAStoreNameWStr"]
+description: The CAStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where all non-&quot;ROOT&quot; and non-&quot;MY&quot; certificates are kept.
+helpviewer_keywords: ["CAStoreNameWStr property [Security]","CAStoreNameWStr property [Security]","IEnroll interface","IEnroll interface [Security]","CAStoreNameWStr property","IEnroll.CAStoreNameWStr","IEnroll.put_CAStoreNameWStr","IEnroll::CAStoreNameWStr","IEnroll::get_CAStoreNameWStr","IEnroll::put_CAStoreNameWStr","put_CAStoreNameWStr","security.ienroll4_castorenamewstr","xenroll/IEnroll::CAStoreNameWStr","xenroll/IEnroll::get_CAStoreNameWStr","xenroll/IEnroll::put_CAStoreNameWStr"]
 old-location: security\ienroll4_castorenamewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4c016649-a780-45c1-94a4-fb08c15c4e0f
 ms.date: 12/05/2018
 ms.keywords: CAStoreNameWStr property [Security], CAStoreNameWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreNameWStr property, IEnroll.CAStoreNameWStr, IEnroll.put_CAStoreNameWStr, IEnroll::CAStoreNameWStr, IEnroll::get_CAStoreNameWStr, IEnroll::put_CAStoreNameWStr, put_CAStoreNameWStr, security.ienroll4_castorenamewstr, xenroll/IEnroll::CAStoreNameWStr, xenroll/IEnroll::get_CAStoreNameWStr, xenroll/IEnroll::put_CAStoreNameWStr

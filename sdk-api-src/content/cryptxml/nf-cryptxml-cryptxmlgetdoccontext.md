@@ -1,9 +1,10 @@
 ---
 UID: NF:cryptxml.CryptXmlGetDocContext
 title: CryptXmlGetDocContext function (cryptxml.h)
-description: Returns the document context specified by the supplied handle.helpviewer_keywords: ["CryptXmlGetDocContext","CryptXmlGetDocContext function [Security]","cryptxml/CryptXmlGetDocContext","security.cryptxmlgetdoccontext"]
+description: Returns the document context specified by the supplied handle.
+helpviewer_keywords: ["CryptXmlGetDocContext","CryptXmlGetDocContext function [Security]","cryptxml/CryptXmlGetDocContext","security.cryptxmlgetdoccontext"]
 old-location: security\cryptxmlgetdoccontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0532c790-381c-4a91-8211-725b0fa73830
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], cryptxml/CryptXmlGetDocContext, security.cryptxmlgetdoccontext

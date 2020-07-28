@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Resize
 title: TransformPattern_Resize function (uiautomationcoreapi.h)
-description: Resizes an element on the screen.helpviewer_keywords: ["TransformPattern_Resize","TransformPattern_Resize function [Windows Accessibility]","uiauto.uiauto_TransformPattern_ResizeConPat","uiauto_TransformPattern_ResizeConPat","uiautomationcoreapi/TransformPattern_Resize","winauto.uiauto_TransformPattern_ResizeConPat"]
+description: Resizes an element on the screen.
+helpviewer_keywords: ["TransformPattern_Resize","TransformPattern_Resize function [Windows Accessibility]","uiauto.uiauto_TransformPattern_ResizeConPat","uiauto_TransformPattern_ResizeConPat","uiautomationcoreapi/TransformPattern_Resize","winauto.uiauto_TransformPattern_ResizeConPat"]
 old-location: winauto\uiauto_TransformPattern_ResizeConPat.htm
 tech.root: WinAuto
 ms.assetid: 114dfef2-7342-4ee2-89ef-7f583c568376

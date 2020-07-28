@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterControl
 title: ClusterControl function (clusapi.h)
-description: Initiates an operation that affects a cluster.helpviewer_keywords: ["ClusterControl","ClusterControl function [Failover Cluster]","_wolf_clustercontrol","clusapi/ClusterControl","mscs.clustercontrol"]
+description: Initiates an operation that affects a cluster.
+helpviewer_keywords: ["ClusterControl","ClusterControl function [Failover Cluster]","_wolf_clustercontrol","clusapi/ClusterControl","mscs.clustercontrol"]
 old-location: mscs\clustercontrol.htm
 tech.root: MsCS
 ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee

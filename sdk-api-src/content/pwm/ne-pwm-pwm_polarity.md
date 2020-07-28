@@ -1,9 +1,10 @@
 ---
 UID: NE:pwm._PWM_POLARITY
 title: PWM_POLARITY (pwm.h)
-description: Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.helpviewer_keywords: ["PWM_ACTIVE_HIGH","PWM_ACTIVE_LOW","PWM_POLARITY","PWM_POLARITY enumeration","base.pwm_polarity","pwm/PWM_ACTIVE_HIGH","pwm/PWM_ACTIVE_LOW","pwm/PWM_POLARITY"]
+description: Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.
+helpviewer_keywords: ["PWM_ACTIVE_HIGH","PWM_ACTIVE_LOW","PWM_POLARITY","PWM_POLARITY enumeration","base.pwm_polarity","pwm/PWM_ACTIVE_HIGH","pwm/PWM_ACTIVE_LOW","pwm/PWM_POLARITY"]
 old-location: base\pwm_polarity.htm
-tech.root: devio
+tech.root: base
 ms.assetid: D818E512-5E50-4CF2-AF22-1A4AB07679A6
 ms.date: 12/05/2018
 ms.keywords: PWM_ACTIVE_HIGH, PWM_ACTIVE_LOW, PWM_POLARITY, PWM_POLARITY enumeration, base.pwm_polarity, pwm/PWM_ACTIVE_HIGH, pwm/PWM_ACTIVE_LOW, pwm/PWM_POLARITY

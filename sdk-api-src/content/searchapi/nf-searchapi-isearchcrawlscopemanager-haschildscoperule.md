@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasChildScopeRule
 title: ISearchCrawlScopeManager::HasChildScopeRule (searchapi.h)
-description: Identifies whether a given URL has a child rule in scope.helpviewer_keywords: ["HasChildScopeRule","HasChildScopeRule method [search]","HasChildScopeRule method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","HasChildScopeRule method","ISearchCrawlScopeManager.HasChildScopeRule","ISearchCrawlScopeManager::HasChildScopeRule","_search_ISearchCrawlScopeManager_HasChildScopeRule","search._search_ISearchCrawlScopeManager_HasChildScopeRule","searchapi/ISearchCrawlScopeManager::HasChildScopeRule"]
+description: Identifies whether a given URL has a child rule in scope.
+helpviewer_keywords: ["HasChildScopeRule","HasChildScopeRule method [search]","HasChildScopeRule method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","HasChildScopeRule method","ISearchCrawlScopeManager.HasChildScopeRule","ISearchCrawlScopeManager::HasChildScopeRule","_search_ISearchCrawlScopeManager_HasChildScopeRule","search._search_ISearchCrawlScopeManager_HasChildScopeRule","searchapi/ISearchCrawlScopeManager::HasChildScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_HasChildScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\haschildscoperule.htm
@@ -85,9 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

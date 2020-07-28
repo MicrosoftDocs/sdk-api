@@ -1,9 +1,10 @@
 ---
 UID: NN:vds.IVdsIscsiPortalLocal
 title: IVdsIscsiPortalLocal (vds.h)
-description: Provides methods for setting local-initiator-specific IPSEC pre-shared keys on an iSCSI portal.helpviewer_keywords: ["IVdsIscsiPortalLocal","IVdsIscsiPortalLocal interface [VDS]","IVdsIscsiPortalLocal interface [VDS]","described","base.ivdsiscsiportallocal","vds/IVdsIscsiPortalLocal"]
+description: Provides methods for setting local-initiator-specific IPSEC pre-shared keys on an iSCSI portal.
+helpviewer_keywords: ["IVdsIscsiPortalLocal","IVdsIscsiPortalLocal interface [VDS]","IVdsIscsiPortalLocal interface [VDS]","described","base.ivdsiscsiportallocal","vds/IVdsIscsiPortalLocal"]
 old-location: base\ivdsiscsiportallocal.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: eec436c4-73a6-43c5-aae2-dcdd37eb5767
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal, IVdsIscsiPortalLocal interface [VDS], IVdsIscsiPortalLocal interface [VDS],described, base.ivdsiscsiportallocal, vds/IVdsIscsiPortalLocal

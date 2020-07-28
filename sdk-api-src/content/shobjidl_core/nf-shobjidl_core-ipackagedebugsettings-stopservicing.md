@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.StopServicing
 title: IPackageDebugSettings::StopServicing (shobjidl_core.h)
-description: Completes the previous servicing operation that was started by a call to the StartServicing method.helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","StopServicing method","IPackageDebugSettings.StopServicing","IPackageDebugSettings::StopServicing","StopServicing","StopServicing method [Windows Shell]","StopServicing method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_StopServicing","shobjidl_core/IPackageDebugSettings::StopServicing"]
+description: Completes the previous servicing operation that was started by a call to the StartServicing method.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","StopServicing method","IPackageDebugSettings.StopServicing","IPackageDebugSettings::StopServicing","StopServicing","StopServicing method [Windows Shell]","StopServicing method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_StopServicing","shobjidl_core/IPackageDebugSettings::StopServicing"]
 old-location: shell\IPackageDebugSettings_StopServicing.htm
 tech.root: shell
 ms.assetid: 129ea98a-e0c3-4472-918c-6d9aa4858c4b

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetNumaAvailableMemoryNode
 title: GetNumaAvailableMemoryNode function (winbase.h)
-description: Retrieves the amount of memory available in the specified node.helpviewer_keywords: ["GetNumaAvailableMemoryNode","GetNumaAvailableMemoryNode function","_win32_getnumaavailablememorynode","base.getnumaavailablememorynode","winbase/GetNumaAvailableMemoryNode"]
+description: Retrieves the amount of memory available in the specified node.
+helpviewer_keywords: ["GetNumaAvailableMemoryNode","GetNumaAvailableMemoryNode function","_win32_getnumaavailablememorynode","base.getnumaavailablememorynode","winbase/GetNumaAvailableMemoryNode"]
 old-location: base\getnumaavailablememorynode.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
 ms.date: 12/05/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode

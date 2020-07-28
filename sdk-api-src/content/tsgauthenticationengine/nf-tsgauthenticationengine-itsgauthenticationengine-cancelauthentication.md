@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.CancelAuthentication
 title: ITSGAuthenticationEngine::CancelAuthentication (tsgauthenticationengine.h)
-description: Cancels an existing authentication request.helpviewer_keywords: ["CancelAuthentication","CancelAuthentication method [Remote Desktop Services]","CancelAuthentication method [Remote Desktop Services]","ITSGAuthenticationEngine interface","ITSGAuthenticationEngine interface [Remote Desktop Services]","CancelAuthentication method","ITSGAuthenticationEngine.CancelAuthentication","ITSGAuthenticationEngine::CancelAuthentication","termserv.itsgauthenticationengine_cancelauthentication","tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication"]
+description: Cancels an existing authentication request.
+helpviewer_keywords: ["CancelAuthentication","CancelAuthentication method [Remote Desktop Services]","CancelAuthentication method [Remote Desktop Services]","ITSGAuthenticationEngine interface","ITSGAuthenticationEngine interface [Remote Desktop Services]","CancelAuthentication method","ITSGAuthenticationEngine.CancelAuthentication","ITSGAuthenticationEngine::CancelAuthentication","termserv.itsgauthenticationengine_cancelauthentication","tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication"]
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
 tech.root: TermServ
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3

@@ -1,9 +1,10 @@
 ---
 UID: NN:cscobj.IOfflineFilesServerItem
 title: IOfflineFilesServerItem (cscobj.h)
-description: Represents a server item in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesServerItem","IOfflineFilesServerItem interface [Offline Files]","IOfflineFilesServerItem interface [Offline Files]","described","cscobj/IOfflineFilesServerItem","of.iofflinefilesserveritem"]
+description: Represents a server item in the Offline Files cache.
+helpviewer_keywords: ["IOfflineFilesServerItem","IOfflineFilesServerItem interface [Offline Files]","IOfflineFilesServerItem interface [Offline Files]","described","cscobj/IOfflineFilesServerItem","of.iofflinefilesserveritem"]
 old-location: of\iofflinefilesserveritem.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 724fabf6-fb27-49c9-8f99-dc61377ac921
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesServerItem, IOfflineFilesServerItem interface [Offline Files], IOfflineFilesServerItem interface [Offline Files],described, cscobj/IOfflineFilesServerItem, of.iofflinefilesserveritem

@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PostUnInstall
 title: ICertSrvSetup::PostUnInstall (casetup.h)
-description: Is not implemented and is reserved for future use.helpviewer_keywords: ["ICertSrvSetup interface [Security]","PostUnInstall method","ICertSrvSetup.PostUnInstall","ICertSrvSetup::PostUnInstall","PostUnInstall","PostUnInstall method [Security]","PostUnInstall method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::PostUnInstall","security.icertsrvsetup_postuninstall"]
+description: Is not implemented and is reserved for future use.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","PostUnInstall method","ICertSrvSetup.PostUnInstall","ICertSrvSetup::PostUnInstall","PostUnInstall","PostUnInstall method [Security]","PostUnInstall method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::PostUnInstall","security.icertsrvsetup_postuninstall"]
 old-location: security\icertsrvsetup_postuninstall.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e5ec32ec-616c-4460-bd1c-6e70c61b5234
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],PostUnInstall method, ICertSrvSetup.PostUnInstall, ICertSrvSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.PauseClusterNode
 title: PauseClusterNode function (clusapi.h)
-description: Requests that a node temporarily suspend its cluster activity. The PCLUSAPI_PAUSE_CLUSTER_NODE type defines a pointer to this function.helpviewer_keywords: ["PCLUSAPI_PAUSE_CLUSTER_NODE","PCLUSAPI_PAUSE_CLUSTER_NODE function [Failover Cluster]","PauseClusterNode","PauseClusterNode function [Failover Cluster]","_wolf_pauseclusternode","clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE","clusapi/PauseClusterNode","mscs.pauseclusternode"]
+description: Requests that a node temporarily suspend its cluster activity. The PCLUSAPI_PAUSE_CLUSTER_NODE type defines a pointer to this function.
+helpviewer_keywords: ["PCLUSAPI_PAUSE_CLUSTER_NODE","PCLUSAPI_PAUSE_CLUSTER_NODE function [Failover Cluster]","PauseClusterNode","PauseClusterNode function [Failover Cluster]","_wolf_pauseclusternode","clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE","clusapi/PauseClusterNode","mscs.pauseclusternode"]
 old-location: mscs\pauseclusternode.htm
 tech.root: MsCS
 ms.assetid: 23b4ff74-f72f-4227-9b69-ff36fa6ed55b

@@ -1,9 +1,10 @@
 ---
 UID: NN:ddstream.IDirectDrawMediaStream
 title: IDirectDrawMediaStream (ddstream.h)
-description: Note  This interface is deprecated.helpviewer_keywords: ["IDirectDrawMediaStream","IDirectDrawMediaStream interface [DirectShow]","IDirectDrawMediaStream interface [DirectShow]","described","IDirectDrawMediaStreamInterface","ddstream/IDirectDrawMediaStream","dshow.idirectdrawmediastream"]
+description: Note  This interface is deprecated.
+helpviewer_keywords: ["IDirectDrawMediaStream","IDirectDrawMediaStream interface [DirectShow]","IDirectDrawMediaStream interface [DirectShow]","described","IDirectDrawMediaStreamInterface","ddstream/IDirectDrawMediaStream","dshow.idirectdrawmediastream"]
 old-location: dshow\idirectdrawmediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 858af0c3-9e22-45d8-ab08-307eb39a8977
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], IDirectDrawMediaStream interface [DirectShow],described, IDirectDrawMediaStreamInterface, ddstream/IDirectDrawMediaStream, dshow.idirectdrawmediastream

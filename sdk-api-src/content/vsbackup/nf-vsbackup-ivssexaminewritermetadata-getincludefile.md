@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetIncludeFile
 title: IVssExamineWriterMetadata::GetIncludeFile (vsbackup.h)
-description: Not supported.helpviewer_keywords: ["GetIncludeFile","GetIncludeFile method [VSS]","GetIncludeFile method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetIncludeFile method","IVssExamineWriterMetadata.GetIncludeFile","IVssExamineWriterMetadata::GetIncludeFile","_win32_ivssexaminewritermetadata_getincludefile","base.ivssexaminewritermetadata_getincludefile","vsbackup/IVssExamineWriterMetadata::GetIncludeFile"]
+description: Not supported.
+helpviewer_keywords: ["GetIncludeFile","GetIncludeFile method [VSS]","GetIncludeFile method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetIncludeFile method","IVssExamineWriterMetadata.GetIncludeFile","IVssExamineWriterMetadata::GetIncludeFile","_win32_ivssexaminewritermetadata_getincludefile","base.ivssexaminewritermetadata_getincludefile","vsbackup/IVssExamineWriterMetadata::GetIncludeFile"]
 old-location: base\ivssexaminewritermetadata_getincludefile.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 1a47dbe9-f27d-4f84-bccd-6c7d46e9238b
 ms.date: 12/05/2018
 ms.keywords: GetIncludeFile, GetIncludeFile method [VSS], GetIncludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIncludeFile method, IVssExamineWriterMetadata.GetIncludeFile, IVssExamineWriterMetadata::GetIncludeFile, _win32_ivssexaminewritermetadata_getincludefile, base.ivssexaminewritermetadata_getincludefile, vsbackup/IVssExamineWriterMetadata::GetIncludeFile

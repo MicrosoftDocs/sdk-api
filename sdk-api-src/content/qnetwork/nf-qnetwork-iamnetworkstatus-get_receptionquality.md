@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_ReceptionQuality
 title: IAMNetworkStatus::get_ReceptionQuality (qnetwork.h)
-description: The get_ReceptionQuality method retrieves a value indicating the reception quality.helpviewer_keywords: ["IAMNetworkStatus interface [DirectShow]","get_ReceptionQuality method","IAMNetworkStatus.get_ReceptionQuality","IAMNetworkStatus::get_ReceptionQuality","IAMNetworkStatusget_ReceptionQuality","dshow.iamnetworkstatus_get_receptionquality","get_ReceptionQuality","get_ReceptionQuality method [DirectShow]","get_ReceptionQuality method [DirectShow]","IAMNetworkStatus interface","qnetwork/IAMNetworkStatus::get_ReceptionQuality"]
+description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
+helpviewer_keywords: ["IAMNetworkStatus interface [DirectShow]","get_ReceptionQuality method","IAMNetworkStatus.get_ReceptionQuality","IAMNetworkStatus::get_ReceptionQuality","IAMNetworkStatusget_ReceptionQuality","dshow.iamnetworkstatus_get_receptionquality","get_ReceptionQuality","get_ReceptionQuality method [DirectShow]","get_ReceptionQuality method [DirectShow]","IAMNetworkStatus interface","qnetwork/IAMNetworkStatus::get_ReceptionQuality"]
 old-location: dshow\iamnetworkstatus_get_receptionquality.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality

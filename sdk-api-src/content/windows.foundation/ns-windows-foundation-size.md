@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.foundation.Size
 title: Size (windows.foundation.h)
-description: Represents an ordered pair of floating-point numbers that specify a height and width.helpviewer_keywords: ["Size","Size structure [Windows Runtime]","windows/Size","winrt.size"]
+description: Represents an ordered pair of floating-point numbers that specify a height and width.
+helpviewer_keywords: ["Size","Size structure [Windows Runtime]","windows/Size","winrt.size"]
 old-location: winrt\size.htm
 tech.root: WinRT
 ms.assetid: 8705adcb-a657-4b47-94ba-632bfb3779be

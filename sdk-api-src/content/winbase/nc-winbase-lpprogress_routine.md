@@ -1,9 +1,10 @@
 ---
 UID: NC:winbase.LPPROGRESS_ROUTINE
 title: LPPROGRESS_ROUTINE (winbase.h)
-description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.helpviewer_keywords: ["CALLBACK_CHUNK_FINISHED","CALLBACK_STREAM_SWITCH","CopyProgressRoutine","CopyProgressRoutine callback","CopyProgressRoutine callback function [Files]","LPPROGRESS_ROUTINE","LPPROGRESS_ROUTINE callback function [Files]","_win32_copyprogressroutine","base.copyprogressroutine","fs.copyprogressroutine","winbase/CopyProgressRoutine","winbase/LPPROGRESS_ROUTINE"]
+description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.
+helpviewer_keywords: ["CALLBACK_CHUNK_FINISHED","CALLBACK_STREAM_SWITCH","CopyProgressRoutine","CopyProgressRoutine callback","CopyProgressRoutine callback function [Files]","LPPROGRESS_ROUTINE","LPPROGRESS_ROUTINE callback function [Files]","_win32_copyprogressroutine","base.copyprogressroutine","fs.copyprogressroutine","winbase/CopyProgressRoutine","winbase/LPPROGRESS_ROUTINE"]
 old-location: fs\copyprogressroutine.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
 ms.date: 12/05/2018
 ms.keywords: CALLBACK_CHUNK_FINISHED, CALLBACK_STREAM_SWITCH, CopyProgressRoutine, CopyProgressRoutine callback, CopyProgressRoutine callback function [Files], LPPROGRESS_ROUTINE, LPPROGRESS_ROUTINE callback function [Files], _win32_copyprogressroutine, base.copyprogressroutine, fs.copyprogressroutine, winbase/CopyProgressRoutine, winbase/LPPROGRESS_ROUTINE

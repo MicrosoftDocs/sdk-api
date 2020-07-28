@@ -1,7 +1,9 @@
 ---
 UID: NF:directxcollision.Intersects
 title: Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, float&) method
-description: Test whether a triangle intersects with a ray.helpviewer_keywords: ["Intersects"]
+description: Test whether a triangle intersects with a ray.
+tech.root: dxmath
+helpviewer_keywords: ["Intersects"]
 ms.date: 04/22/19
 ms.keywords: Intersects
 f1_keywords:

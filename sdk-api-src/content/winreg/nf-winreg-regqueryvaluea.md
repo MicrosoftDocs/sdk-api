@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegQueryValueA
 title: RegQueryValueA function (winreg.h)
-description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.helpviewer_keywords: ["RegQueryValue","RegQueryValue function","RegQueryValueA","RegQueryValueW","_win32_regqueryvalue","base.regqueryvalue","winreg/RegQueryValue","winreg/RegQueryValueA","winreg/RegQueryValueW"]
+description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.
+helpviewer_keywords: ["RegQueryValue","RegQueryValue function","RegQueryValueA","RegQueryValueW","_win32_regqueryvalue","base.regqueryvalue","winreg/RegQueryValue","winreg/RegQueryValueA","winreg/RegQueryValueW"]
 old-location: base\regqueryvalue.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
 ms.date: 12/05/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
@@ -144,6 +145,10 @@ Note that operations that access certain registry keys are redirected. For more 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegQueryValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

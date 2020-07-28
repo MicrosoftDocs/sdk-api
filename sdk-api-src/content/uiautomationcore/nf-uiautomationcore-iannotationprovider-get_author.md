@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Author
 title: IAnnotationProvider::get_Author (uiautomationcore.h)
-description: The name of the annotation author.helpviewer_keywords: ["Author property [Windows Accessibility]","Author property [Windows Accessibility]","IAnnotationProvider interface","IAnnotationProvider interface [Windows Accessibility]","Author property","IAnnotationProvider.Author","IAnnotationProvider.get_Author","IAnnotationProvider::Author","IAnnotationProvider::get_Author","get_Author","uiautomationcore/IAnnotationProvider::Author","uiautomationcore/IAnnotationProvider::get_Author","winauto.uiauto_IAnnotationProvider_Author"]
+description: The name of the annotation author.
+helpviewer_keywords: ["Author property [Windows Accessibility]","Author property [Windows Accessibility]","IAnnotationProvider interface","IAnnotationProvider interface [Windows Accessibility]","Author property","IAnnotationProvider.Author","IAnnotationProvider.get_Author","IAnnotationProvider::Author","IAnnotationProvider::get_Author","get_Author","uiautomationcore/IAnnotationProvider::Author","uiautomationcore/IAnnotationProvider::get_Author","winauto.uiauto_IAnnotationProvider_Author"]
 old-location: winauto\uiauto_IAnnotationProvider_Author.htm
 tech.root: WinAuto
 ms.assetid: 7A5DB431-FCB8-4AE6-AA55-EC0A5DE64470

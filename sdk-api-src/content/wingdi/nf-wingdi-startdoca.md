@@ -1,9 +1,10 @@
 ---
 UID: NF:wingdi.StartDocA
 title: StartDocA function (wingdi.h)
-description: The StartDoc function starts a print job.helpviewer_keywords: ["StartDoc","StartDoc function [Windows GDI]","StartDocA","StartDocW","_win32_StartDoc","gdi.startdoc","wingdi/StartDoc","wingdi/StartDocA","wingdi/StartDocW"]
+description: The StartDoc function starts a print job.
+helpviewer_keywords: ["StartDoc","StartDoc function [Windows GDI]","StartDocA","StartDocW","_win32_StartDoc","gdi.startdoc","wingdi/StartDoc","wingdi/StartDocA","wingdi/StartDocW"]
 old-location: gdi\startdoc.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 53143463-b9fc-4378-aea9-da6c73a7cd03
 ms.date: 12/05/2018
 ms.keywords: StartDoc, StartDoc function [Windows GDI], StartDocA, StartDocW, _win32_StartDoc, gdi.startdoc, wingdi/StartDoc, wingdi/StartDocA, wingdi/StartDocW
@@ -100,6 +101,10 @@ For a sample program that uses this function, see <a href="https://docs.microsof
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines StartDoc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigTransportCreate
 title: MprConfigTransportCreate function (mprapi.h)
-description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.helpviewer_keywords: ["MprConfigTransportCreate","MprConfigTransportCreate function [RAS]","_mpr_mprconfigtransportcreate","mprapi/MprConfigTransportCreate","rras.mprconfigtransportcreate"]
+description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
+helpviewer_keywords: ["MprConfigTransportCreate","MprConfigTransportCreate function [RAS]","_mpr_mprconfigtransportcreate","mprapi/MprConfigTransportCreate","rras.mprconfigtransportcreate"]
 old-location: rras\mprconfigtransportcreate.htm
 tech.root: RRAS
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6

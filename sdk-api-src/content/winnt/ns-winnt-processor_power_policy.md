@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._PROCESSOR_POWER_POLICY
 title: PROCESSOR_POWER_POLICY (winnt.h)
-description: Contains information about processor performance control and C-states.helpviewer_keywords: ["*PPROCESSOR_POWER_POLICY","PPROCESSOR_POWER_POLICY","PPROCESSOR_POWER_POLICY structure pointer","PROCESSOR_POWER_POLICY","PROCESSOR_POWER_POLICY structure","_PROCESSOR_POWER_POLICY","_win32_processor_power_policy_str","base.processor_power_policy_str","winnt/PPROCESSOR_POWER_POLICY","winnt/PROCESSOR_POWER_POLICY"]
+description: Contains information about processor performance control and C-states.
+helpviewer_keywords: ["*PPROCESSOR_POWER_POLICY","PPROCESSOR_POWER_POLICY","PPROCESSOR_POWER_POLICY structure pointer","PROCESSOR_POWER_POLICY","PROCESSOR_POWER_POLICY structure","_PROCESSOR_POWER_POLICY","_win32_processor_power_policy_str","base.processor_power_policy_str","winnt/PPROCESSOR_POWER_POLICY","winnt/PROCESSOR_POWER_POLICY"]
 old-location: base\processor_power_policy_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY structure pointer, PROCESSOR_POWER_POLICY, PROCESSOR_POWER_POLICY structure, _PROCESSOR_POWER_POLICY, _win32_processor_power_policy_str, base.processor_power_policy_str, winnt/PPROCESSOR_POWER_POLICY, winnt/PROCESSOR_POWER_POLICY'

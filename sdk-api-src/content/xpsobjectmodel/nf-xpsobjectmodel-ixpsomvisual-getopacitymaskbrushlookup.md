@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrushLookup
 title: IXpsOMVisual::GetOpacityMaskBrushLookup (xpsobjectmodel.h)
-description: Gets the name of the lookup key of the shared opacity mask brush in a resource dictionary.helpviewer_keywords: ["GetOpacityMaskBrushLookup","GetOpacityMaskBrushLookup method [XPS Documents and Packaging]","GetOpacityMaskBrushLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetOpacityMaskBrushLookup method","IXpsOMVisual.GetOpacityMaskBrushLookup","IXpsOMVisual::GetOpacityMaskBrushLookup","xps.ixpsomvisual_getopacitymaskbrushlookup","xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLookup"]
+description: Gets the name of the lookup key of the shared opacity mask brush in a resource dictionary.
+helpviewer_keywords: ["GetOpacityMaskBrushLookup","GetOpacityMaskBrushLookup method [XPS Documents and Packaging]","GetOpacityMaskBrushLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetOpacityMaskBrushLookup method","IXpsOMVisual.GetOpacityMaskBrushLookup","IXpsOMVisual::GetOpacityMaskBrushLookup","xps.ixpsomvisual_getopacitymaskbrushlookup","xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLookup"]
 old-location: xps\ixpsomvisual_getopacitymaskbrushlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 84d4aae9-e3e3-4c82-8877-b8206d3678f0
 ms.date: 12/05/2018
 ms.keywords: GetOpacityMaskBrushLookup, GetOpacityMaskBrushLookup method [XPS Documents and Packaging], GetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLookup method, IXpsOMVisual.GetOpacityMaskBrushLookup, IXpsOMVisual::GetOpacityMaskBrushLookup, xps.ixpsomvisual_getopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLookup

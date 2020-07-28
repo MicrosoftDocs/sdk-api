@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetNextDlgGroupItem
 title: GetNextDlgGroupItem function (winuser.h)
-description: Retrieves a handle to the first control in a group of controls that precedes (or follows) the specified control in a dialog box.helpviewer_keywords: ["GetNextDlgGroupItem","GetNextDlgGroupItem function [Dialog Boxes]","_win32_GetNextDlgGroupItem","_win32_getnextdlggroupitem_cpp","dlgbox.getnextdlggroupitem","winui._win32_getnextdlggroupitem","winuser/GetNextDlgGroupItem"]
+description: Retrieves a handle to the first control in a group of controls that precedes (or follows) the specified control in a dialog box.
+helpviewer_keywords: ["GetNextDlgGroupItem","GetNextDlgGroupItem function [Dialog Boxes]","_win32_GetNextDlgGroupItem","_win32_getnextdlggroupitem_cpp","dlgbox.getnextdlggroupitem","winui._win32_getnextdlggroupitem","winuser/GetNextDlgGroupItem"]
 old-location: dlgbox\getnextdlggroupitem.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlggroupitem.htm

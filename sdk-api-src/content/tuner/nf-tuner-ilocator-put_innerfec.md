@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ILocator.put_InnerFEC
 title: ILocator::put_InnerFEC (tuner.h)
-description: The put_InnerFEC method sets the type of inner FEC to use.helpviewer_keywords: ["IDigitalLocatorput_InnerFEC","ILocator interface [Microsoft TV Technologies]","put_InnerFEC method","ILocator.put_InnerFEC","ILocator::put_InnerFEC","mstv.ilocator_put_innerfec","put_InnerFEC","put_InnerFEC method [Microsoft TV Technologies]","put_InnerFEC method [Microsoft TV Technologies]","ILocator interface","tuner/ILocator::put_InnerFEC"]
+description: The put_InnerFEC method sets the type of inner FEC to use.
+helpviewer_keywords: ["IDigitalLocatorput_InnerFEC","ILocator interface [Microsoft TV Technologies]","put_InnerFEC method","ILocator.put_InnerFEC","ILocator::put_InnerFEC","mstv.ilocator_put_innerfec","put_InnerFEC","put_InnerFEC method [Microsoft TV Technologies]","put_InnerFEC method [Microsoft TV Technologies]","ILocator interface","tuner/ILocator::put_InnerFEC"]
 old-location: mstv\ilocator_put_innerfec.htm
 tech.root: mstv
 ms.assetid: 3ba6cfdf-2095-489c-a899-4b4305758ccb

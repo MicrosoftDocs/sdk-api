@@ -1,9 +1,10 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RemoveStream
 title: CMSPCallMultiGraph::RemoveStream (mspcall.h)
-description: (Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call.helpviewer_keywords: ["CMSPCallMultiGraph interface [TAPI 2.2]","RemoveStream method","CMSPCallMultiGraph.RemoveStream","CMSPCallMultiGraph::RemoveStream","RemoveStream","RemoveStream method [TAPI 2.2]","RemoveStream method [TAPI 2.2]","CMSPCallMultiGraph interface","_tapi3_cmspcallmultigraph_removestream","mspcall/CMSPCallMultiGraph::RemoveStream","tapi3.cmspcallmultigraph_removestream"]
+description: (Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call.
+helpviewer_keywords: ["CMSPCallMultiGraph interface [TAPI 2.2]","RemoveStream method","CMSPCallMultiGraph.RemoveStream","CMSPCallMultiGraph::RemoveStream","RemoveStream","RemoveStream method [TAPI 2.2]","RemoveStream method [TAPI 2.2]","CMSPCallMultiGraph interface","_tapi3_cmspcallmultigraph_removestream","mspcall/CMSPCallMultiGraph::RemoveStream","tapi3.cmspcallmultigraph_removestream"]
 old-location: tapi3\cmspcallmultigraph_removestream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 03572d9a-f243-4423-b645-ef180704477f
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RemoveStream method, CMSPCallMultiGraph.RemoveStream, CMSPCallMultiGraph::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_removestream, mspcall/CMSPCallMultiGraph::RemoveStream, tapi3.cmspcallmultigraph_removestream

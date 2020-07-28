@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.Recognize
 title: IInkLineInfo::Recognize (msinkaut.h)
-description: Reserved.helpviewer_keywords: ["IInkLineInfo interface [Tablet PC]","Recognize method","IInkLineInfo.Recognize","IInkLineInfo::Recognize","Recognize","Recognize method [Tablet PC]","Recognize method [Tablet PC]","IInkLineInfo interface","b6a0f559-72e8-40db-ba9a-0f1b27ba6a96","msinkaut/IInkLineInfo::Recognize","tablet.iinklineinfo_recognize"]
+description: Reserved.
+helpviewer_keywords: ["IInkLineInfo interface [Tablet PC]","Recognize method","IInkLineInfo.Recognize","IInkLineInfo::Recognize","Recognize","Recognize method [Tablet PC]","Recognize method [Tablet PC]","IInkLineInfo interface","b6a0f559-72e8-40db-ba9a-0f1b27ba6a96","msinkaut/IInkLineInfo::Recognize","tablet.iinklineinfo_recognize"]
 old-location: tablet\iinklineinfo_recognize.htm
 tech.root: tablet
 ms.assetid: b6a0f559-72e8-40db-ba9a-0f1b27ba6a96

@@ -1,7 +1,8 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_2
 title: IKE_AUTHENTICATION_INFORMATION (iscsidsc.h)
-description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.helpviewer_keywords: ["*PIKE_AUTHENTICATION_INFORMATION","IKE_AUTHENTICATION_INFORMATION","IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API]","PIKE_AUTHENTICATION_INFORMATION","PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API]","iscsidisc.ike_authentication_information","iscsidsc/IKE_AUTHENTICATION_INFORMATION","iscsidsc/PIKE_AUTHENTICATION_INFORMATION"]
+description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.
+helpviewer_keywords: ["*PIKE_AUTHENTICATION_INFORMATION","IKE_AUTHENTICATION_INFORMATION","IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API]","PIKE_AUTHENTICATION_INFORMATION","PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API]","iscsidisc.ike_authentication_information","iscsidsc/IKE_AUTHENTICATION_INFORMATION","iscsidsc/PIKE_AUTHENTICATION_INFORMATION"]
 old-location: iscsidisc\ike_authentication_information.htm
 tech.root: iSCSIDisc
 ms.assetid: d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0

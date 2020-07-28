@@ -1,9 +1,10 @@
 ---
 UID: NF:interlockedapi.InterlockedPushListSListEx
 title: InterlockedPushListSListEx function (interlockedapi.h)
-description: Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the __fastcall calling convention.helpviewer_keywords: ["InterlockedPushListSListEx","InterlockedPushListSListEx function","base.interlockedpushlistslistex","interlockedapi/InterlockedPushListSListEx"]
+description: Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the __fastcall calling convention.
+helpviewer_keywords: ["InterlockedPushListSListEx","InterlockedPushListSListEx function","base.interlockedpushlistslistex","interlockedapi/InterlockedPushListSListEx"]
 old-location: base\interlockedpushlistslistex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: f4f334c6-fda8-4c5f-9177-b672c8aed6b3
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
@@ -68,13 +69,13 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param List [in, out]
 
 Pointer to an 
-<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
+<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
 
 
 ### -param ListEnd [in, out]
 
 Pointer to an 
-<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
+<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
 
 
 ### -param Count [in]
@@ -121,7 +122,7 @@ All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary;
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a>
 
 
 

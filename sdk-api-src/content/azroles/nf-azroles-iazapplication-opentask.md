@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.OpenTask
 title: IAzApplication::OpenTask (azroles.h)
-description: Opens an IAzTask object with the specified name.helpviewer_keywords: ["AzApplication object [Security]","OpenTask method","IAzApplication interface [Security]","OpenTask method","IAzApplication.OpenTask","IAzApplication::OpenTask","OpenTask","OpenTask method [Security]","OpenTask method [Security]","AzApplication object","OpenTask method [Security]","IAzApplication interface","azroles/IAzApplication::OpenTask","security.iazapplication_opentask"]
+description: Opens an IAzTask object with the specified name.
+helpviewer_keywords: ["AzApplication object [Security]","OpenTask method","IAzApplication interface [Security]","OpenTask method","IAzApplication.OpenTask","IAzApplication::OpenTask","OpenTask","OpenTask method [Security]","OpenTask method [Security]","AzApplication object","OpenTask method [Security]","IAzApplication interface","azroles/IAzApplication::OpenTask","security.iazapplication_opentask"]
 old-location: security\iazapplication_opentask.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2d34a56d-ada8-4d7d-b026-4f1abfa290ac
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenTask method, IAzApplication interface [Security],OpenTask method, IAzApplication.OpenTask, IAzApplication::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzApplication object, OpenTask method [Security],IAzApplication interface, azroles/IAzApplication::OpenTask, security.iazapplication_opentask

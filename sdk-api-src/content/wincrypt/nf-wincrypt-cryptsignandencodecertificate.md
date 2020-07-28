@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptSignAndEncodeCertificate
 title: CryptSignAndEncodeCertificate function (wincrypt.h)
-description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CryptSignAndEncodeCertificate","CryptSignAndEncodeCertificate function [Security]","X509_ASN_ENCODING","X509_CERT_CRL_TO_BE_SIGNED","X509_CERT_REQUEST_TO_BE_SIGNED","X509_CERT_TO_BE_SIGNED","X509_KEYGEN_REQUEST_TO_BE_SIGNED","_crypto2_cryptsignandencodecertificate","security.cryptsignandencodecertificate","wincrypt/CryptSignAndEncodeCertificate"]
+description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CryptSignAndEncodeCertificate","CryptSignAndEncodeCertificate function [Security]","X509_ASN_ENCODING","X509_CERT_CRL_TO_BE_SIGNED","X509_CERT_REQUEST_TO_BE_SIGNED","X509_CERT_TO_BE_SIGNED","X509_KEYGEN_REQUEST_TO_BE_SIGNED","_crypto2_cryptsignandencodecertificate","security.cryptsignandencodecertificate","wincrypt/CryptSignAndEncodeCertificate"]
 old-location: security\cryptsignandencodecertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate

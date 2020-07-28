@@ -1,9 +1,10 @@
 ---
 UID: NN:vss.IVssEnumObject
 title: IVssEnumObject (vss.h)
-description: Contains methods to iterate over and perform other operations on a list of enumerated objects.helpviewer_keywords: ["IVssEnumObject","IVssEnumObject interface [VSS]","IVssEnumObject interface [VSS]","described","_win32_ivssenumobject","base.ivssenumobject","vss/IVssEnumObject"]
+description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
+helpviewer_keywords: ["IVssEnumObject","IVssEnumObject interface [VSS]","IVssEnumObject interface [VSS]","described","_win32_ivssenumobject","base.ivssenumobject","vss/IVssEnumObject"]
 old-location: base\ivssenumobject.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject

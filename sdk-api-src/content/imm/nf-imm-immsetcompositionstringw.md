@@ -1,7 +1,8 @@
 ---
 UID: NF:imm.ImmSetCompositionStringW
 title: ImmSetCompositionStringW function (imm.h)
-description: Sets the characters, attributes, and clauses of the composition and reading strings.helpviewer_keywords: ["ImmSetCompositionString","ImmSetCompositionString function [Internationalization for Windows Applications]","ImmSetCompositionStringA","ImmSetCompositionStringW","SCS_CHANGEATTR","SCS_CHANGECLAUSE","SCS_QUERYRECONVERTSTRING","SCS_SETRECONVERTSTRING","SCS_SETSTR","_win32_ImmSetCompositionString","imm/ImmSetCompositionString","imm/ImmSetCompositionStringA","imm/ImmSetCompositionStringW","intl.immsetcompositionstring"]
+description: Sets the characters, attributes, and clauses of the composition and reading strings.
+helpviewer_keywords: ["ImmSetCompositionString","ImmSetCompositionString function [Internationalization for Windows Applications]","ImmSetCompositionStringA","ImmSetCompositionStringW","SCS_CHANGEATTR","SCS_CHANGECLAUSE","SCS_QUERYRECONVERTSTRING","SCS_SETRECONVERTSTRING","SCS_SETSTR","_win32_ImmSetCompositionString","imm/ImmSetCompositionString","imm/ImmSetCompositionStringA","imm/ImmSetCompositionStringW","intl.immsetcompositionstring"]
 old-location: intl\immsetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
@@ -180,6 +181,10 @@ When the IME completes the changes, it sends a <a href="https://docs.microsoft.c
 </ol>
 
 
+
+
+> [!NOTE]
+> The imm.h header defines ImmSetCompositionString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

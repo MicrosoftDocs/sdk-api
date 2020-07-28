@@ -1,9 +1,10 @@
 ---
 UID: NF:namespaceapi.DeleteBoundaryDescriptor
 title: DeleteBoundaryDescriptor function (namespaceapi.h)
-description: Deletes the specified boundary descriptor.helpviewer_keywords: ["DeleteBoundaryDescriptor","DeleteBoundaryDescriptor function","base.deleteboundarydescriptor","namespaceapi/DeleteBoundaryDescriptor","winbase/DeleteBoundaryDescriptor"]
+description: Deletes the specified boundary descriptor.
+helpviewer_keywords: ["DeleteBoundaryDescriptor","DeleteBoundaryDescriptor function","base.deleteboundarydescriptor","namespaceapi/DeleteBoundaryDescriptor","winbase/DeleteBoundaryDescriptor"]
 old-location: base\deleteboundarydescriptor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 759d9cd9-9ef2-4bbe-9e99-8aec87f5ba4a
 ms.date: 12/05/2018
 ms.keywords: DeleteBoundaryDescriptor, DeleteBoundaryDescriptor function, base.deleteboundarydescriptor, namespaceapi/DeleteBoundaryDescriptor, winbase/DeleteBoundaryDescriptor

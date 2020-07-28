@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_BacklightCompensation
 title: IVideoProcAmp::getRange_BacklightCompensation (vidcap.h)
-description: The getRange_BacklightCompensation method returns the range of backlight compensation settings supported by the camera.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_BacklightCompensation method","IVideoProcAmp.getRange_BacklightCompensation","IVideoProcAmp::getRange_BacklightCompensation","IVideoProcAmpgetRange_BacklightCompensation","dshow.ivideoprocamp_getrange_backlightcompensation","getRange_BacklightCompensation","getRange_BacklightCompensation method [DirectShow]","getRange_BacklightCompensation method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_BacklightCompensation"]
+description: The getRange_BacklightCompensation method returns the range of backlight compensation settings supported by the camera.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_BacklightCompensation method","IVideoProcAmp.getRange_BacklightCompensation","IVideoProcAmp::getRange_BacklightCompensation","IVideoProcAmpgetRange_BacklightCompensation","dshow.ivideoprocamp_getrange_backlightcompensation","getRange_BacklightCompensation","getRange_BacklightCompensation method [DirectShow]","getRange_BacklightCompensation method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_BacklightCompensation"]
 old-location: dshow\ivideoprocamp_getrange_backlightcompensation.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4527e7e9-372c-4883-a068-1ce53eb2256a
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_BacklightCompensation method, IVideoProcAmp.getRange_BacklightCompensation, IVideoProcAmp::getRange_BacklightCompensation, IVideoProcAmpgetRange_BacklightCompensation, dshow.ivideoprocamp_getrange_backlightcompensation, getRange_BacklightCompensation, getRange_BacklightCompensation method [DirectShow], getRange_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_BacklightCompensation

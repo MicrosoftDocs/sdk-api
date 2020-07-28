@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.EnumResources
 title: IShellItemResources::EnumResources (shobjidl_core.h)
-description: Gets a resource enumerator object.helpviewer_keywords: ["EnumResources","EnumResources method [Windows Shell]","EnumResources method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","EnumResources method","IShellItemResources.EnumResources","IShellItemResources::EnumResources","_shell_IShellItemResources_EnumResources","shell.IShellItemResources_EnumResources","shobjidl_core/IShellItemResources::EnumResources"]
+description: Gets a resource enumerator object.
+helpviewer_keywords: ["EnumResources","EnumResources method [Windows Shell]","EnumResources method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","EnumResources method","IShellItemResources.EnumResources","IShellItemResources::EnumResources","_shell_IShellItemResources_EnumResources","shell.IShellItemResources_EnumResources","shobjidl_core/IShellItemResources::EnumResources"]
 old-location: shell\IShellItemResources_EnumResources.htm
 tech.root: shell
 ms.assetid: 29ac8ac9-4bd1-470c-885a-56f860d50a70

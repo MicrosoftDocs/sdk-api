@@ -1,9 +1,10 @@
 ---
 UID: NE:wmcodecdsp.WMT_PROP_DATATYPE
 title: WMT_PROP_DATATYPE (wmcodecdsp.h)
-description: Defines the data types used for the codec and DSP properties that are accessed by using the methods of the IWMCodecProps interface.helpviewer_keywords: ["WMT_PROP_DATATYPE","WMT_PROP_DATATYPE enumeration [Media Foundation]","WMT_PROP_TYPE_BINARY","WMT_PROP_TYPE_BOOL","WMT_PROP_TYPE_DWORD","WMT_PROP_TYPE_GUID","WMT_PROP_TYPE_QWORD","WMT_PROP_TYPE_STRING","WMT_PROP_TYPE_WORD","codecapi.wmt_prop_datatypeenumeration","mf.wmt_prop_datatype","mf.wmt_prop_datatypeenumeration","wmcodecdsp/WMT_PROP_DATATYPE","wmcodecdsp/WMT_PROP_TYPE_BINARY","wmcodecdsp/WMT_PROP_TYPE_BOOL","wmcodecdsp/WMT_PROP_TYPE_DWORD","wmcodecdsp/WMT_PROP_TYPE_GUID","wmcodecdsp/WMT_PROP_TYPE_QWORD","wmcodecdsp/WMT_PROP_TYPE_STRING","wmcodecdsp/WMT_PROP_TYPE_WORD"]
+description: Defines the data types used for the codec and DSP properties that are accessed by using the methods of the IWMCodecProps interface.
+helpviewer_keywords: ["WMT_PROP_DATATYPE","WMT_PROP_DATATYPE enumeration [Media Foundation]","WMT_PROP_TYPE_BINARY","WMT_PROP_TYPE_BOOL","WMT_PROP_TYPE_DWORD","WMT_PROP_TYPE_GUID","WMT_PROP_TYPE_QWORD","WMT_PROP_TYPE_STRING","WMT_PROP_TYPE_WORD","codecapi.wmt_prop_datatypeenumeration","mf.wmt_prop_datatype","mf.wmt_prop_datatypeenumeration","wmcodecdsp/WMT_PROP_DATATYPE","wmcodecdsp/WMT_PROP_TYPE_BINARY","wmcodecdsp/WMT_PROP_TYPE_BOOL","wmcodecdsp/WMT_PROP_TYPE_DWORD","wmcodecdsp/WMT_PROP_TYPE_GUID","wmcodecdsp/WMT_PROP_TYPE_QWORD","wmcodecdsp/WMT_PROP_TYPE_STRING","wmcodecdsp/WMT_PROP_TYPE_WORD"]
 old-location: mf\wmt_prop_datatypeenumeration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3d7b2ab9-5e5a-4bc7-9d56-c17b838ded67
 ms.date: 12/05/2018
 ms.keywords: WMT_PROP_DATATYPE, WMT_PROP_DATATYPE enumeration [Media Foundation], WMT_PROP_TYPE_BINARY, WMT_PROP_TYPE_BOOL, WMT_PROP_TYPE_DWORD, WMT_PROP_TYPE_GUID, WMT_PROP_TYPE_QWORD, WMT_PROP_TYPE_STRING, WMT_PROP_TYPE_WORD, codecapi.wmt_prop_datatypeenumeration, mf.wmt_prop_datatype, mf.wmt_prop_datatypeenumeration, wmcodecdsp/WMT_PROP_DATATYPE, wmcodecdsp/WMT_PROP_TYPE_BINARY, wmcodecdsp/WMT_PROP_TYPE_BOOL, wmcodecdsp/WMT_PROP_TYPE_DWORD, wmcodecdsp/WMT_PROP_TYPE_GUID, wmcodecdsp/WMT_PROP_TYPE_QWORD, wmcodecdsp/WMT_PROP_TYPE_STRING, wmcodecdsp/WMT_PROP_TYPE_WORD

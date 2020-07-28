@@ -1,9 +1,10 @@
 ---
 UID: NN:casetup.ICertSrvSetup
 title: ICertSrvSetup (casetup.h)
-description: Defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a Certificate Services computer.helpviewer_keywords: ["ICertSrvSetup","ICertSrvSetup interface [Security]","ICertSrvSetup interface [Security]","described","casetup/ICertSrvSetup","security.icertsrvsetup"]
+description: Defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a Certificate Services computer.
+helpviewer_keywords: ["ICertSrvSetup","ICertSrvSetup interface [Security]","ICertSrvSetup interface [Security]","described","casetup/ICertSrvSetup","security.icertsrvsetup"]
 old-location: security\icertsrvsetup.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup

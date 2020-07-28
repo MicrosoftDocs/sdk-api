@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.IsNormalizedString
 title: IsNormalizedString function (winnls.h)
-description: Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.helpviewer_keywords: ["IsNormalizedString","IsNormalizedString function [Internationalization for Windows Applications]","_win32_IsNormalizedString","intl.isnormalizedstring","winnls/IsNormalizedString"]
+description: Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
+helpviewer_keywords: ["IsNormalizedString","IsNormalizedString function [Internationalization for Windows Applications]","_win32_IsNormalizedString","intl.isnormalizedstring","winnls/IsNormalizedString"]
 old-location: intl\isnormalizedstring.htm
 tech.root: Intl
 ms.assetid: 5a1d3977-9fe9-457f-b0a2-46b32bcc27db
@@ -92,7 +93,6 @@ If you need to reliably determine <b>FALSE</b> from an error condition, then it 
 
 
 ## -remarks
-
 
 
 <b>Windows XP, Windows Server 2003</b>: The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.

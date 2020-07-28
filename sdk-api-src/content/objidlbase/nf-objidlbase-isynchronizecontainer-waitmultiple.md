@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.ISynchronizeContainer.WaitMultiple
 title: ISynchronizeContainer::WaitMultiple (objidlbase.h)
-description: Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.helpviewer_keywords: ["ISynchronizeContainer interface [COM]","WaitMultiple method","ISynchronizeContainer.WaitMultiple","ISynchronizeContainer::WaitMultiple","WaitMultiple","WaitMultiple method [COM]","WaitMultiple method [COM]","ISynchronizeContainer interface","_com_isynchronizecontainer_waitmultiple","com.isynchronizecontainer_waitmultiple","objidlbase/ISynchronizeContainer::WaitMultiple"]
+description: Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.
+helpviewer_keywords: ["ISynchronizeContainer interface [COM]","WaitMultiple method","ISynchronizeContainer.WaitMultiple","ISynchronizeContainer::WaitMultiple","WaitMultiple","WaitMultiple method [COM]","WaitMultiple method [COM]","ISynchronizeContainer interface","_com_isynchronizecontainer_waitmultiple","com.isynchronizecontainer_waitmultiple","objidlbase/ISynchronizeContainer::WaitMultiple"]
 old-location: com\isynchronizecontainer_waitmultiple.htm
 tech.root: com
 ms.assetid: 2754b744-3ba8-4e60-9847-1d0eb3c24180

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsDecodeUrl
 title: WsDecodeUrl function (webservices.h)
-description: Evaluates the components of an URL to determine its &#0034;scheme&#0034;.
+description: Evaluates the components of an URL to determine its &quot;scheme&quot;.
 helpviewer_keywords: ["DWsDecodeUrl","WsDecodeUrl","WsDecodeUrl function [Web Services for Windows]","webservices/WsDecodeUrl","wsw.wsdecodeurl"]
 old-location: wsw\wsdecodeurl.htm
 tech.root: wsw

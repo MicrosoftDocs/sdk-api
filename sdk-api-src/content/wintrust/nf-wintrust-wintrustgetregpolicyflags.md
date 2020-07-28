@@ -1,9 +1,10 @@
 ---
 UID: NF:wintrust.WintrustGetRegPolicyFlags
 title: WintrustGetRegPolicyFlags function (wintrust.h)
-description: Retrieves policy flags for a policy provider.helpviewer_keywords: ["WTPF_ALLOWONLYPERTRUST","WTPF_IGNOREEXPIRATION","WTPF_IGNOREREVOCATIONONTS","WTPF_IGNOREREVOKATION","WTPF_OFFLINEOKNBU_COM","WTPF_OFFLINEOKNBU_IND","WTPF_OFFLINEOK_COM","WTPF_OFFLINEOK_IND","WTPF_TESTCANBEVALID","WTPF_TRUSTTEST","WTPF_VERIFY_V1_OFF","WintrustGetRegPolicyFlags","WintrustGetRegPolicyFlags function [Security]","security.wintrustgetregpolicyflags","wintrust/WintrustGetRegPolicyFlags"]
+description: Retrieves policy flags for a policy provider.
+helpviewer_keywords: ["WTPF_ALLOWONLYPERTRUST","WTPF_IGNOREEXPIRATION","WTPF_IGNOREREVOCATIONONTS","WTPF_IGNOREREVOKATION","WTPF_OFFLINEOKNBU_COM","WTPF_OFFLINEOKNBU_IND","WTPF_OFFLINEOK_COM","WTPF_OFFLINEOK_IND","WTPF_TESTCANBEVALID","WTPF_TRUSTTEST","WTPF_VERIFY_V1_OFF","WintrustGetRegPolicyFlags","WintrustGetRegPolicyFlags function [Security]","security.wintrustgetregpolicyflags","wintrust/WintrustGetRegPolicyFlags"]
 old-location: security\wintrustgetregpolicyflags.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f5e79ac8-9a70-4e79-ae4f-e128bd8c84de
 ms.date: 12/05/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustGetRegPolicyFlags, WintrustGetRegPolicyFlags function [Security], security.wintrustgetregpolicyflags, wintrust/WintrustGetRegPolicyFlags

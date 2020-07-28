@@ -1,7 +1,8 @@
 ---
 UID: NN:shappmgr.IPublishedApp
 title: IPublishedApp (shappmgr.h)
-description: Exposes methods that represent applications to Add/Remove Programs in Control Panel.helpviewer_keywords: ["IPublishedApp","IPublishedApp interface [Windows Shell]","IPublishedApp interface [Windows Shell]","described","inet_IPublishedApp","shappmgr/IPublishedApp","shell.IPublishedApp"]
+description: Exposes methods that represent applications to Add/Remove Programs in Control Panel.
+helpviewer_keywords: ["IPublishedApp","IPublishedApp interface [Windows Shell]","IPublishedApp interface [Windows Shell]","described","inet_IPublishedApp","shappmgr/IPublishedApp","shell.IPublishedApp"]
 old-location: shell\IPublishedApp.htm
 tech.root: shell
 ms.assetid: a5a44e74-494a-4c9b-8bf3-85c6093b2c0e

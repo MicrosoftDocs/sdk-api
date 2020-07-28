@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplate
 title: IFsrmQuotaTemplate (fsrmquota.h)
-description: Used to configure templates from which new quota objects can be derived.helpviewer_keywords: ["IFsrmQuotaTemplate","IFsrmQuotaTemplate interface [File Server Resource Manager]","IFsrmQuotaTemplate interface [File Server Resource Manager]","described","fs.ifsrmquotatemplate","fsrm.ifsrmquotatemplate","fsrm/IFsrmQuotaTemplate"]
+description: Used to configure templates from which new quota objects can be derived.
+helpviewer_keywords: ["IFsrmQuotaTemplate","IFsrmQuotaTemplate interface [File Server Resource Manager]","IFsrmQuotaTemplate interface [File Server Resource Manager]","described","fs.ifsrmquotatemplate","fsrm.ifsrmquotatemplate","fsrm/IFsrmQuotaTemplate"]
 old-location: fsrm\ifsrmquotatemplate.htm
 tech.root: fsrm
 ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca

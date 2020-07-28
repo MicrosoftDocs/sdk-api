@@ -1,9 +1,10 @@
 ---
 UID: NF:mtxdm.GetDispenserManager
 title: GetDispenserManager function (mtxdm.h)
-description: Retrieves the dispenser manager's IDispenserManager interface.helpviewer_keywords: ["GetDispenserManager","GetDispenserManager function [COM+]","_dtc_GetDispenserManager_Function","cos.getdispensermanager","mtxdm/GetDispenserManager"]
+description: Retrieves the dispenser manager's IDispenserManager interface.
+helpviewer_keywords: ["GetDispenserManager","GetDispenserManager function [COM+]","_dtc_GetDispenserManager_Function","cos.getdispensermanager","mtxdm/GetDispenserManager"]
 old-location: cos\getdispensermanager.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: db344236-a8be-49ec-91fd-dfcc0bd4412c
 ms.date: 12/05/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager

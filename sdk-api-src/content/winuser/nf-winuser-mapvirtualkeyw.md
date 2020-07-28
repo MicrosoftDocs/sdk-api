@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MapVirtualKeyW
 title: MapVirtualKeyW function (winuser.h)
-description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.helpviewer_keywords: ["MAPVK_VK_TO_CHAR","MAPVK_VK_TO_VSC","MAPVK_VSC_TO_VK","MAPVK_VSC_TO_VK_EX","MapVirtualKey","MapVirtualKey function [Keyboard and Mouse Input]","MapVirtualKeyA","MapVirtualKeyW","_win32_MapVirtualKey","_win32_mapvirtualkey_cpp","inputdev.mapvirtualkey","winui._win32_mapvirtualkey","winuser/MapVirtualKey","winuser/MapVirtualKeyA","winuser/MapVirtualKeyW"]
+description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.
+helpviewer_keywords: ["MAPVK_VK_TO_CHAR","MAPVK_VK_TO_VSC","MAPVK_VSC_TO_VK","MAPVK_VSC_TO_VK_EX","MapVirtualKey","MapVirtualKey function [Keyboard and Mouse Input]","MapVirtualKeyA","MapVirtualKeyW","_win32_MapVirtualKey","_win32_mapvirtualkey_cpp","inputdev.mapvirtualkey","winui._win32_mapvirtualkey","winuser/MapVirtualKey","winuser/MapVirtualKeyA","winuser/MapVirtualKeyW"]
 old-location: inputdev\mapvirtualkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\mapvirtualkey.htm
@@ -166,6 +167,10 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines MapVirtualKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

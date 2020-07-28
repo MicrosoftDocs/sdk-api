@@ -4,7 +4,7 @@ title: FSCTL_OPLOCK_BREAK_ACK_NO_2
 description: Responds to notification that an opportunistic lock on a file is about to be broken. Use this operation to unlock all opportunistic locks on the file but keep the file open.
 helpviewer_keywords: ["FSCTL_OPLOCK_BREAK_ACK_NO_2","FSCTL_OPLOCK_BREAK_ACK_NO_2 control","FSCTL_OPLOCK_BREAK_ACK_NO_2 control code [Files]","_win32_fsctl_oplock_break_ack_no_2","base.fsctl_oplock_break_ack_no_2","fs.fsctl_oplock_break_ack_no_2","winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2"]
 old-location: fs\fsctl_oplock_break_ack_no_2.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1624fa94-fcf4-4804-b659-84de5ccc77dc
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_ACK_NO_2, FSCTL_OPLOCK_BREAK_ACK_NO_2 control, FSCTL_OPLOCK_BREAK_ACK_NO_2 control code [Files], _win32_fsctl_oplock_break_ack_no_2, base.fsctl_oplock_break_ack_no_2, fs.fsctl_oplock_break_ack_no_2, winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2

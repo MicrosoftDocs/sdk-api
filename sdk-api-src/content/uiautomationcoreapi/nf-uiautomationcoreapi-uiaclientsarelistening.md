@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaClientsAreListening
 title: UiaClientsAreListening function (uiautomationcoreapi.h)
-description: Gets a value that indicates whether any client application is subscribed to Microsoft UI Automation events.helpviewer_keywords: ["UiaClientsAreListening","UiaClientsAreListening function [Windows Accessibility]","uiauto.uiauto_UiaClientsAreListeningFunction","uiauto_UiaClientsAreListeningFunction","uiautomationcoreapi/UiaClientsAreListening","winauto.uiauto_UiaClientsAreListeningFunction"]
+description: Gets a value that indicates whether any client application is subscribed to Microsoft UI Automation events.
+helpviewer_keywords: ["UiaClientsAreListening","UiaClientsAreListening function [Windows Accessibility]","uiauto.uiauto_UiaClientsAreListeningFunction","uiauto_UiaClientsAreListeningFunction","uiautomationcoreapi/UiaClientsAreListening","winauto.uiauto_UiaClientsAreListeningFunction"]
 old-location: winauto\uiauto_UiaClientsAreListeningFunction.htm
 tech.root: WinAuto
 ms.assetid: 66b5d6b9-b51a-4848-b6e4-bd4c73b07f18

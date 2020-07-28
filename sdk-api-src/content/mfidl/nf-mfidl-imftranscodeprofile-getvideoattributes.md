@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetVideoAttributes
 title: IMFTranscodeProfile::GetVideoAttributes (mfidl.h)
-description: Gets the video stream settings that are currently set in the transcode profile.helpviewer_keywords: ["GetVideoAttributes","GetVideoAttributes method [Media Foundation]","GetVideoAttributes method [Media Foundation]","IMFTranscodeProfile interface","IMFTranscodeProfile interface [Media Foundation]","GetVideoAttributes method","IMFTranscodeProfile.GetVideoAttributes","IMFTranscodeProfile::GetVideoAttributes","mf.imftranscodeprofile_getvideoattributes","mfidl/IMFTranscodeProfile::GetVideoAttributes"]
+description: Gets the video stream settings that are currently set in the transcode profile.
+helpviewer_keywords: ["GetVideoAttributes","GetVideoAttributes method [Media Foundation]","GetVideoAttributes method [Media Foundation]","IMFTranscodeProfile interface","IMFTranscodeProfile interface [Media Foundation]","GetVideoAttributes method","IMFTranscodeProfile.GetVideoAttributes","IMFTranscodeProfile::GetVideoAttributes","mf.imftranscodeprofile_getvideoattributes","mfidl/IMFTranscodeProfile::GetVideoAttributes"]
 old-location: mf\imftranscodeprofile_getvideoattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 734cb4d0-7017-4a30-9d0c-a6b5ce42fec6
 ms.date: 12/05/2018
 ms.keywords: GetVideoAttributes, GetVideoAttributes method [Media Foundation], GetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetVideoAttributes method, IMFTranscodeProfile.GetVideoAttributes, IMFTranscodeProfile::GetVideoAttributes, mf.imftranscodeprofile_getvideoattributes, mfidl/IMFTranscodeProfile::GetVideoAttributes

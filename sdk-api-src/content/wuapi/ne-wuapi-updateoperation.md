@@ -1,9 +1,10 @@
 ---
 UID: NE:wuapi.tagUpdateOperation
 title: UpdateOperation (wuapi.h)
-description: Defines operations that can be attempted on an update.helpviewer_keywords: ["UpdateOperation","UpdateOperation enumeration [Windows Update Agent]","uoInstallation","uoUninstallation","wua.updateoperation","wuapi/UpdateOperation","wuapi/uoInstallation","wuapi/uoUninstallation"]
+description: Defines operations that can be attempted on an update.
+helpviewer_keywords: ["UpdateOperation","UpdateOperation enumeration [Windows Update Agent]","uoInstallation","uoUninstallation","wua.updateoperation","wuapi/UpdateOperation","wuapi/uoInstallation","wuapi/uoUninstallation"]
 old-location: wua\updateoperation.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.date: 12/05/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation

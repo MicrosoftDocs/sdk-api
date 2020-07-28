@@ -4,7 +4,7 @@ title: ITPluggableTerminalEventSink::FireEvent (tapi3.h)
 description: The FireEvent method results in a message that notifies the client application of a change in the pluggable terminal.
 helpviewer_keywords: ["FireEvent","FireEvent method [TAPI 2.2]","FireEvent method [TAPI 2.2]","ITPluggableTerminalEventSink interface","ITPluggableTerminalEventSink interface [TAPI 2.2]","FireEvent method","ITPluggableTerminalEventSink.FireEvent","ITPluggableTerminalEventSink::FireEvent","_tapi3_itpluggableterminaleventsink_fireevent","msp/ITPluggableTerminalEventSink::FireEvent","tapi3.itpluggableterminaleventsink_fireevent"]
 old-location: tapi3\itpluggableterminaleventsink_fireevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 67386c32-5714-4b01-b860-25192349aa6c
 ms.date: 12/05/2018
 ms.keywords: FireEvent, FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2],ITPluggableTerminalEventSink interface, ITPluggableTerminalEventSink interface [TAPI 2.2],FireEvent method, ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent

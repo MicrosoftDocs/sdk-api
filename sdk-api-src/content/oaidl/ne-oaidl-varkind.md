@@ -1,7 +1,8 @@
 ---
 UID: NE:oaidl.tagVARKIND
 title: VARKIND (oaidl.h)
-description: Specifies the variable type.helpviewer_keywords: ["VARKIND","VARKIND enumeration [Automation]","VAR_CONST","VAR_DISPATCH","VAR_PERINSTANCE","VAR_STATIC","_oa96_VARKIND","automat.varkind","oaidl/VARKIND","oaidl/VAR_CONST","oaidl/VAR_DISPATCH","oaidl/VAR_PERINSTANCE","oaidl/VAR_STATIC"]
+description: Specifies the variable type.
+helpviewer_keywords: ["VARKIND","VARKIND enumeration [Automation]","VAR_CONST","VAR_DISPATCH","VAR_PERINSTANCE","VAR_STATIC","_oa96_VARKIND","automat.varkind","oaidl/VARKIND","oaidl/VAR_CONST","oaidl/VAR_DISPATCH","oaidl/VAR_PERINSTANCE","oaidl/VAR_STATIC"]
 old-location: automat\varkind.htm
 tech.root: automat
 ms.assetid: 8b2df767-bba1-4e0a-be63-32d45fb2be07

@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanSaveTemporaryProfile
 title: WlanSaveTemporaryProfile function (wlanapi.h)
-description: Saves a temporary profile to the profile store.helpviewer_keywords: ["WLAN_PROFILE_CONNECTION_MODE_AUTO","WLAN_PROFILE_CONNECTION_MODE_SET_BY_CLIENT","WLAN_PROFILE_USER","WlanSaveTemporaryProfile","WlanSaveTemporaryProfile function [NativeWIFI]","nwifi.wlansavetemporaryprofile","wlanapi/WlanSaveTemporaryProfile"]
+description: Saves a temporary profile to the profile store.
+helpviewer_keywords: ["WLAN_PROFILE_CONNECTION_MODE_AUTO","WLAN_PROFILE_CONNECTION_MODE_SET_BY_CLIENT","WLAN_PROFILE_USER","WlanSaveTemporaryProfile","WlanSaveTemporaryProfile function [NativeWIFI]","nwifi.wlansavetemporaryprofile","wlanapi/WlanSaveTemporaryProfile"]
 old-location: nwifi\wlansavetemporaryprofile.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e409fd30-eddd-4cc7-acb7-35af6ef51a10
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_CONNECTION_MODE_AUTO, WLAN_PROFILE_CONNECTION_MODE_SET_BY_CLIENT, WLAN_PROFILE_USER, WlanSaveTemporaryProfile, WlanSaveTemporaryProfile function [NativeWIFI], nwifi.wlansavetemporaryprofile, wlanapi/WlanSaveTemporaryProfile

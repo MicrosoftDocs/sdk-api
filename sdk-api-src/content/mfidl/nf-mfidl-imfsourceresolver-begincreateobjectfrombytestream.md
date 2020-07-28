@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.BeginCreateObjectFromByteStream
 title: IMFSourceResolver::BeginCreateObjectFromByteStream (mfidl.h)
-description: Begins an asynchronous request to create a media source from a byte stream.helpviewer_keywords: ["6e218b93-4855-40dd-96cc-c4ee02792c14","BeginCreateObjectFromByteStream","BeginCreateObjectFromByteStream method [Media Foundation]","BeginCreateObjectFromByteStream method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","BeginCreateObjectFromByteStream method","IMFSourceResolver.BeginCreateObjectFromByteStream","IMFSourceResolver::BeginCreateObjectFromByteStream","mf.imfsourceresolver_begincreateobjectfrombytestream","mfidl/IMFSourceResolver::BeginCreateObjectFromByteStream"]
+description: Begins an asynchronous request to create a media source from a byte stream.
+helpviewer_keywords: ["6e218b93-4855-40dd-96cc-c4ee02792c14","BeginCreateObjectFromByteStream","BeginCreateObjectFromByteStream method [Media Foundation]","BeginCreateObjectFromByteStream method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","BeginCreateObjectFromByteStream method","IMFSourceResolver.BeginCreateObjectFromByteStream","IMFSourceResolver::BeginCreateObjectFromByteStream","mf.imfsourceresolver_begincreateobjectfrombytestream","mfidl/IMFSourceResolver::BeginCreateObjectFromByteStream"]
 old-location: mf\imfsourceresolver_begincreateobjectfrombytestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6e218b93-4855-40dd-96cc-c4ee02792c14
 ms.date: 12/05/2018
 ms.keywords: 6e218b93-4855-40dd-96cc-c4ee02792c14, BeginCreateObjectFromByteStream, BeginCreateObjectFromByteStream method [Media Foundation], BeginCreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],BeginCreateObjectFromByteStream method, IMFSourceResolver.BeginCreateObjectFromByteStream, IMFSourceResolver::BeginCreateObjectFromByteStream, mf.imfsourceresolver_begincreateobjectfrombytestream, mfidl/IMFSourceResolver::BeginCreateObjectFromByteStream

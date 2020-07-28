@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanReasonCodeToString
 title: WlanReasonCodeToString function (wlanapi.h)
-description: Retrieves a string that describes a specified reason code.helpviewer_keywords: ["WlanReasonCodeToString","WlanReasonCodeToString function [NativeWIFI]","nwifi.wlanreasoncodetostring","wlanapi/WlanReasonCodeToString"]
+description: Retrieves a string that describes a specified reason code.
+helpviewer_keywords: ["WlanReasonCodeToString","WlanReasonCodeToString function [NativeWIFI]","nwifi.wlanreasoncodetostring","wlanapi/WlanReasonCodeToString"]
 old-location: nwifi\wlanreasoncodetostring.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2a02e2d2-91d0-4b54-ad02-a76442edcff8
 ms.date: 12/05/2018
 ms.keywords: WlanReasonCodeToString, WlanReasonCodeToString function [NativeWIFI], nwifi.wlanreasoncodetostring, wlanapi/WlanReasonCodeToString

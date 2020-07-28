@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_CspStatus
 title: IX509PrivateKey::get_CspStatus (certenroll.h)
-description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key.helpviewer_keywords: ["CspStatus property [Security]","CspStatus property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","CspStatus property","IX509PrivateKey.CspStatus","IX509PrivateKey.get_CspStatus","IX509PrivateKey::CspStatus","IX509PrivateKey::get_CspStatus","IX509PrivateKey::put_CspStatus","certenroll/IX509PrivateKey::CspStatus","certenroll/IX509PrivateKey::get_CspStatus","certenroll/IX509PrivateKey::put_CspStatus","get_CspStatus","security.ix509privatekey_cspstatus"]
+description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key.
+helpviewer_keywords: ["CspStatus property [Security]","CspStatus property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","CspStatus property","IX509PrivateKey.CspStatus","IX509PrivateKey.get_CspStatus","IX509PrivateKey::CspStatus","IX509PrivateKey::get_CspStatus","IX509PrivateKey::put_CspStatus","certenroll/IX509PrivateKey::CspStatus","certenroll/IX509PrivateKey::get_CspStatus","certenroll/IX509PrivateKey::put_CspStatus","get_CspStatus","security.ix509privatekey_cspstatus"]
 old-location: security\ix509privatekey_cspstatus.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8bf6e62d-9ecf-4eee-9652-f04d2010b4f7
 ms.date: 12/05/2018
 ms.keywords: CspStatus property [Security], CspStatus property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],CspStatus property, IX509PrivateKey.CspStatus, IX509PrivateKey.get_CspStatus, IX509PrivateKey::CspStatus, IX509PrivateKey::get_CspStatus, IX509PrivateKey::put_CspStatus, certenroll/IX509PrivateKey::CspStatus, certenroll/IX509PrivateKey::get_CspStatus, certenroll/IX509PrivateKey::put_CspStatus, get_CspStatus, security.ix509privatekey_cspstatus

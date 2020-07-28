@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.ISearchResult
 title: ISearchResult (wuapi.h)
-description: Represents the result of a search.helpviewer_keywords: ["ISearchResult","ISearchResult interface [Windows Update Agent]","ISearchResult interface [Windows Update Agent]","described","wua.isearchresult","wuapi/ISearchResult"]
+description: Represents the result of a search.
+helpviewer_keywords: ["ISearchResult","ISearchResult interface [Windows Update Agent]","ISearchResult interface [Windows Update Agent]","described","wua.isearchresult","wuapi/ISearchResult"]
 old-location: wua\isearchresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f38c5b0f-8010-4db1-802c-5005c332188b
 ms.date: 12/05/2018
 ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ISearchResult interface [Windows Update Agent],described, wua.isearchresult, wuapi/ISearchResult

@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IInstallationResult
 title: IInstallationResult (wuapi.h)
-description: Represents the result of an installation or uninstallation.helpviewer_keywords: ["IInstallationResult","IInstallationResult interface [Windows Update Agent]","IInstallationResult interface [Windows Update Agent]","described","wua.iinstallationresult","wuapi/IInstallationResult"]
+description: Represents the result of an installation or uninstallation.
+helpviewer_keywords: ["IInstallationResult","IInstallationResult interface [Windows Update Agent]","IInstallationResult interface [Windows Update Agent]","described","wua.iinstallationresult","wuapi/IInstallationResult"]
 old-location: wua\iinstallationresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
 ms.date: 12/05/2018
 ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetConnectionName
 title: IWMStreamConfig::SetConnectionName (wmsdkidl.h)
-description: The SetConnectionName method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetConnectionName method","IWMStreamConfig.SetConnectionName","IWMStreamConfig::SetConnectionName","IWMStreamConfigSetConnectionName","SetConnectionName","SetConnectionName method [windows Media Format]","SetConnectionName method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setconnectionname","wmsdkidl/IWMStreamConfig::SetConnectionName"]
+description: The SetConnectionName method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.
+helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetConnectionName method","IWMStreamConfig.SetConnectionName","IWMStreamConfig::SetConnectionName","IWMStreamConfigSetConnectionName","SetConnectionName","SetConnectionName method [windows Media Format]","SetConnectionName method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setconnectionname","wmsdkidl/IWMStreamConfig::SetConnectionName"]
 old-location: wmformat\iwmstreamconfig_setconnectionname.htm
 tech.root: wmformat
 ms.assetid: bd67e0b5-3bfa-46c1-996d-6b026c1144cb

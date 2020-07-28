@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get_Count
 title: IAzRoleAssignments::get_Count (azroles.h)
-description: Retrieves the number of IAzRoleAssignments objects in the collection.helpviewer_keywords: ["Count property [Security]","Count property [Security]","IAzRoleAssignments interface","IAzRoleAssignments interface [Security]","Count property","IAzRoleAssignments.Count","IAzRoleAssignments.get_Count","IAzRoleAssignments::Count","IAzRoleAssignments::get_Count","azroles/IAzRoleAssignments::Count","azroles/IAzRoleAssignments::get_Count","get_Count","security.iazroleassignments_count"]
+description: Retrieves the number of IAzRoleAssignments objects in the collection.
+helpviewer_keywords: ["Count property [Security]","Count property [Security]","IAzRoleAssignments interface","IAzRoleAssignments interface [Security]","Count property","IAzRoleAssignments.Count","IAzRoleAssignments.get_Count","IAzRoleAssignments::Count","IAzRoleAssignments::get_Count","azroles/IAzRoleAssignments::Count","azroles/IAzRoleAssignments::get_Count","get_Count","security.iazroleassignments_count"]
 old-location: security\iazroleassignments_count.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a137b247-ee0c-46da-8994-23ba88d207ad
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzRoleAssignments interface, IAzRoleAssignments interface [Security],Count property, IAzRoleAssignments.Count, IAzRoleAssignments.get_Count, IAzRoleAssignments::Count, IAzRoleAssignments::get_Count, azroles/IAzRoleAssignments::Count, azroles/IAzRoleAssignments::get_Count, get_Count, security.iazroleassignments_count

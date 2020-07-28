@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.CM_STATE
 title: CM_STATE (shobjidl_core.h)
-description: Specifies column state values. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.helpviewer_keywords: ["CM_STATE","CM_STATE enumeration [Windows Shell]","CM_STATE_ALWAYSVISIBLE","CM_STATE_FIXEDWIDTH","CM_STATE_NONE","CM_STATE_NOSORTBYFOLDERNESS","CM_STATE_VISIBLE","shell.CM_STATE","shell_CM_STATE","shobjidl_core/CM_STATE","shobjidl_core/CM_STATE_ALWAYSVISIBLE","shobjidl_core/CM_STATE_FIXEDWIDTH","shobjidl_core/CM_STATE_NONE","shobjidl_core/CM_STATE_NOSORTBYFOLDERNESS","shobjidl_core/CM_STATE_VISIBLE"]
+description: Specifies column state values. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
+helpviewer_keywords: ["CM_STATE","CM_STATE enumeration [Windows Shell]","CM_STATE_ALWAYSVISIBLE","CM_STATE_FIXEDWIDTH","CM_STATE_NONE","CM_STATE_NOSORTBYFOLDERNESS","CM_STATE_VISIBLE","shell.CM_STATE","shell_CM_STATE","shobjidl_core/CM_STATE","shobjidl_core/CM_STATE_ALWAYSVISIBLE","shobjidl_core/CM_STATE_FIXEDWIDTH","shobjidl_core/CM_STATE_NONE","shobjidl_core/CM_STATE_NOSORTBYFOLDERNESS","shobjidl_core/CM_STATE_VISIBLE"]
 old-location: shell\CM_STATE.htm
 tech.root: shell
 ms.assetid: a614dfdc-9535-40c4-9a17-5ab032113508

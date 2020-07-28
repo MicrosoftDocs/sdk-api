@@ -1,7 +1,8 @@
 ---
 UID: NF:intshcut.InetIsOffline
 title: InetIsOffline function (intshcut.h)
-description: Determines whether the system is connected to the Internet.helpviewer_keywords: ["InetIsOffline","InetIsOffline function [Windows Shell]","_win32_InetIsOffline","intshcut/InetIsOffline","shell.InetIsOffline"]
+description: Determines whether the system is connected to the Internet.
+helpviewer_keywords: ["InetIsOffline","InetIsOffline function [Windows Shell]","_win32_InetIsOffline","intshcut/InetIsOffline","shell.InetIsOffline"]
 old-location: shell\InetIsOffline.htm
 tech.root: shell
 ms.assetid: e0afac1c-c083-4b60-a30f-5dfc1a4b8fd3

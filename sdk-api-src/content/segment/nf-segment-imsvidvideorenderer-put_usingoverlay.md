@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_UsingOverlay
 title: IMSVidVideoRenderer::put_UsingOverlay (segment.h)
-description: The put_UsingOverlay method specifies whether the Video Mixing Renderer will use the hardware overlay.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put_UsingOverlay method","IMSVidVideoRenderer.put_UsingOverlay","IMSVidVideoRenderer::put_UsingOverlay","IMSVidVideoRendererput_UsingOverlay","mstv.imsvidvideorenderer_put_usingoverlay","put_UsingOverlay","put_UsingOverlay method [Microsoft TV Technologies]","put_UsingOverlay method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put_UsingOverlay"]
+description: The put_UsingOverlay method specifies whether the Video Mixing Renderer will use the hardware overlay.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put_UsingOverlay method","IMSVidVideoRenderer.put_UsingOverlay","IMSVidVideoRenderer::put_UsingOverlay","IMSVidVideoRendererput_UsingOverlay","mstv.imsvidvideorenderer_put_usingoverlay","put_UsingOverlay","put_UsingOverlay method [Microsoft TV Technologies]","put_UsingOverlay method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put_UsingOverlay"]
 old-location: mstv\imsvidvideorenderer_put_usingoverlay.htm
 tech.root: mstv
 ms.assetid: ee7a5c92-bdae-4b67-9b2b-5fb4ae3a8fd7

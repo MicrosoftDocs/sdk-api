@@ -1,9 +1,10 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookup.LookupService
 title: IMFTopologyServiceLookup::LookupService (evr.h)
-description: Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.helpviewer_keywords: ["IMFTopologyServiceLookup interface [Media Foundation]","LookupService method","IMFTopologyServiceLookup.LookupService","IMFTopologyServiceLookup::LookupService","LookupService","LookupService method [Media Foundation]","LookupService method [Media Foundation]","IMFTopologyServiceLookup interface","ba0dbfdf-1bab-42ba-910f-04a3f37be955","evr/IMFTopologyServiceLookup::LookupService","mf.imftopologyservicelookup_lookupservice"]
+description: Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.
+helpviewer_keywords: ["IMFTopologyServiceLookup interface [Media Foundation]","LookupService method","IMFTopologyServiceLookup.LookupService","IMFTopologyServiceLookup::LookupService","LookupService","LookupService method [Media Foundation]","LookupService method [Media Foundation]","IMFTopologyServiceLookup interface","ba0dbfdf-1bab-42ba-910f-04a3f37be955","evr/IMFTopologyServiceLookup::LookupService","mf.imftopologyservicelookup_lookupservice"]
 old-location: mf\imftopologyservicelookup_lookupservice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService method, IMFTopologyServiceLookup.LookupService, IMFTopologyServiceLookup::LookupService, LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation],IMFTopologyServiceLookup interface, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice

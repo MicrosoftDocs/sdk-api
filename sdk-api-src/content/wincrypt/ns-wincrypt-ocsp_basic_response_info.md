@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_RESPONSE_INFO
 title: OCSP_BASIC_RESPONSE_INFO (wincrypt.h)
-description: Contains a basic online certificate status protocol (OCSP) response as specified by RFC 2560.helpviewer_keywords: ["*POCSP_BASIC_RESPONSE_INFO","OCSP_BASIC_BY_KEY_RESPONDER_ID","OCSP_BASIC_BY_NAME_RESPONDER_ID","OCSP_BASIC_RESPONSE_INFO","OCSP_BASIC_RESPONSE_INFO structure [Security]","OCSP_BASIC_RESPONSE_V1","POCSP_BASIC_RESPONSE_INFO","POCSP_BASIC_RESPONSE_INFO structure pointer [Security]","security.ocsp_basic_response_info","wincrypt/OCSP_BASIC_RESPONSE_INFO","wincrypt/POCSP_BASIC_RESPONSE_INFO"]
+description: Contains a basic online certificate status protocol (OCSP) response as specified by RFC 2560.
+helpviewer_keywords: ["*POCSP_BASIC_RESPONSE_INFO","OCSP_BASIC_BY_KEY_RESPONDER_ID","OCSP_BASIC_BY_NAME_RESPONDER_ID","OCSP_BASIC_RESPONSE_INFO","OCSP_BASIC_RESPONSE_INFO structure [Security]","OCSP_BASIC_RESPONSE_V1","POCSP_BASIC_RESPONSE_INFO","POCSP_BASIC_RESPONSE_INFO structure pointer [Security]","security.ocsp_basic_response_info","wincrypt/OCSP_BASIC_RESPONSE_INFO","wincrypt/POCSP_BASIC_RESPONSE_INFO"]
 old-location: security\ocsp_basic_response_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f067bfa0-114b-4295-bbee-a963d8b64332
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_BY_KEY_RESPONDER_ID, OCSP_BASIC_BY_NAME_RESPONDER_ID, OCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_RESPONSE_INFO structure [Security], OCSP_BASIC_RESPONSE_V1, POCSP_BASIC_RESPONSE_INFO, POCSP_BASIC_RESPONSE_INFO structure pointer [Security], security.ocsp_basic_response_info, wincrypt/OCSP_BASIC_RESPONSE_INFO, wincrypt/POCSP_BASIC_RESPONSE_INFO'

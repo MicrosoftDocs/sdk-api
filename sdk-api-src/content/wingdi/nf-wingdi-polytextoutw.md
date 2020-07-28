@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.PolyTextOutW
 title: PolyTextOutW function (wingdi.h)
-description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context.helpviewer_keywords: ["PolyTextOut","PolyTextOut function [Windows GDI]","PolyTextOutA","PolyTextOutW","_win32_PolyTextOut","gdi.polytextout","wingdi/PolyTextOut","wingdi/PolyTextOutA","wingdi/PolyTextOutW"]
+description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context.
+helpviewer_keywords: ["PolyTextOut","PolyTextOut function [Windows GDI]","PolyTextOutA","PolyTextOutW","_win32_PolyTextOut","gdi.polytextout","wingdi/PolyTextOut","wingdi/PolyTextOutA","wingdi/PolyTextOutW"]
 old-location: gdi\polytextout.htm
 tech.root: gdi
 ms.assetid: 643b4f6a-843f-4795-adc8-a90223bdc246
@@ -97,6 +98,10 @@ To draw a single string of text, the application should call the <a href="https:
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines PolyTextOut as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

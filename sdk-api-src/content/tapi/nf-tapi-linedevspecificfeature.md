@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineDevSpecificFeature
 title: lineDevSpecificFeature function (tapi.h)
-description: The lineDevSpecificFeature function enables service providers to provide access to features not offered by other TAPI functions.helpviewer_keywords: ["_tapi2_linedevspecificfeature","lineDevSpecificFeature","lineDevSpecificFeature function [TAPI 2.2]","tapi/lineDevSpecificFeature","tapi2.linedevspecificfeature"]
+description: The lineDevSpecificFeature function enables service providers to provide access to features not offered by other TAPI functions.
+helpviewer_keywords: ["_tapi2_linedevspecificfeature","lineDevSpecificFeature","lineDevSpecificFeature function [TAPI 2.2]","tapi/lineDevSpecificFeature","tapi2.linedevspecificfeature"]
 old-location: tapi2\linedevspecificfeature.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8498318f-9615-4242-86e2-c57b50293b83
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedevspecificfeature, lineDevSpecificFeature, lineDevSpecificFeature function [TAPI 2.2], tapi/lineDevSpecificFeature, tapi2.linedevspecificfeature

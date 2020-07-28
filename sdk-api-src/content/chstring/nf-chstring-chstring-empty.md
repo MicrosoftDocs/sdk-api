@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.Empty
 title: CHString::Empty (chstring.h)
-description: The Empty method makes the CHString object an empty string and frees memory as appropriate.helpviewer_keywords: ["?Empty@CHString@@QAEXXZ","?Empty@CHString@@QEAAXXZ","CHString interface [Windows Management Instrumentation]","Empty method","CHString.Empty","CHString::Empty","Empty","Empty method [Windows Management Instrumentation]","Empty method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_empty","chstring/CHString::Empty","wmi.chstring_empty"]
+description: The Empty method makes the CHString object an empty string and frees memory as appropriate.
+helpviewer_keywords: ["?Empty@CHString@@QAEXXZ","?Empty@CHString@@QEAAXXZ","CHString interface [Windows Management Instrumentation]","Empty method","CHString.Empty","CHString::Empty","Empty","Empty method [Windows Management Instrumentation]","Empty method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_empty","chstring/CHString::Empty","wmi.chstring_empty"]
 old-location: wmi\chstring_empty.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 837344de-d8dd-45a8-8d43-09d926f51ff9
 ms.date: 12/05/2018
 ms.keywords: ?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],Empty method, CHString.Empty, CHString::Empty, Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty

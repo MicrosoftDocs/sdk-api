@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineNeedKeyNotify
 title: IMFMediaEngineNeedKeyNotify (mfmediaengine.h)
-description: Represents a callback to the media engine to notify key request data.helpviewer_keywords: ["IMFMediaEngineNeedKeyNotify","IMFMediaEngineNeedKeyNotify interface [Media Foundation]","IMFMediaEngineNeedKeyNotify interface [Media Foundation]","described","mf.imfmediaengineneedkeynotify","mfmediaengine/IMFMediaEngineNeedKeyNotify"]
+description: Represents a callback to the media engine to notify key request data.
+helpviewer_keywords: ["IMFMediaEngineNeedKeyNotify","IMFMediaEngineNeedKeyNotify interface [Media Foundation]","IMFMediaEngineNeedKeyNotify interface [Media Foundation]","described","mf.imfmediaengineneedkeynotify","mfmediaengine/IMFMediaEngineNeedKeyNotify"]
 old-location: mf\imfmediaengineneedkeynotify.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bbedfbe8-9389-4b4f-8d52-111c787a6268
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify, IMFMediaEngineNeedKeyNotify interface [Media Foundation], IMFMediaEngineNeedKeyNotify interface [Media Foundation],described, mf.imfmediaengineneedkeynotify, mfmediaengine/IMFMediaEngineNeedKeyNotify

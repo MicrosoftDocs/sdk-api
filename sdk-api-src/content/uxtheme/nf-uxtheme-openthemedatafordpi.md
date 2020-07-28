@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.OpenThemeDataForDpi
 title: OpenThemeDataForDpi function (uxtheme.h)
-description: A variant of OpenThemeData that opens a theme handle associated with a specific DPI.helpviewer_keywords: ["OpenThemeDataForDpi","OpenThemeDataForDpi function [High DPI]","hidpi.openthemedatafordpi","uxtheme/OpenThemeDataForDpi"]
+description: A variant of OpenThemeData that opens a theme handle associated with a specific DPI.
+helpviewer_keywords: ["OpenThemeDataForDpi","OpenThemeDataForDpi function [High DPI]","hidpi.openthemedatafordpi","uxtheme/OpenThemeDataForDpi"]
 old-location: hidpi\openthemedatafordpi.htm
 tech.root: hidpi
 ms.assetid: 40044856-82F2-47E2-AD4B-5E4F3868E7B8

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SetInBandEnabled
 title: IMFTimedText::SetInBandEnabled (mfmediaengine.h)
-description: Enables or disables inband mode.helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","SetInBandEnabled method","IMFTimedText.SetInBandEnabled","IMFTimedText::SetInBandEnabled","SetInBandEnabled","SetInBandEnabled method [Media Foundation]","SetInBandEnabled method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_setinbandenabled","mfmediaengine/IMFTimedText::SetInBandEnabled"]
+description: Enables or disables inband mode.
+helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","SetInBandEnabled method","IMFTimedText.SetInBandEnabled","IMFTimedText::SetInBandEnabled","SetInBandEnabled","SetInBandEnabled method [Media Foundation]","SetInBandEnabled method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_setinbandenabled","mfmediaengine/IMFTimedText::SetInBandEnabled"]
 old-location: mf\imftimedtext_setinbandenabled.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4AF63D30-4A91-4DFF-96B9-0A26102B93FE
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.LocalUnlock
 title: LocalUnlock function (winbase.h)
-description: Decrements the lock count associated with a memory object that was allocated with LMEM_MOVEABLE.helpviewer_keywords: ["LocalUnlock","LocalUnlock function","_win32_localunlock","base.localunlock","winbase/LocalUnlock"]
+description: Decrements the lock count associated with a memory object that was allocated with LMEM_MOVEABLE.
+helpviewer_keywords: ["LocalUnlock","LocalUnlock function","_win32_localunlock","base.localunlock","winbase/LocalUnlock"]
 old-location: base\localunlock.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: eac40b69-5fb6-4523-826d-a012f6f4e5ce
 ms.date: 12/05/2018
 ms.keywords: LocalUnlock, LocalUnlock function, _win32_localunlock, base.localunlock, winbase/LocalUnlock

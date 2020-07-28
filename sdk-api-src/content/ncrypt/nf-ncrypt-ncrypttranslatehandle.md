@@ -1,9 +1,10 @@
 ---
 UID: NF:ncrypt.NCryptTranslateHandle
 title: NCryptTranslateHandle function (ncrypt.h)
-description: Translates a CryptoAPI handle into a CNG key handle.helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","NCryptTranslateHandle","NCryptTranslateHandle function [Security]","ncrypt/NCryptTranslateHandle","security.ncrypttranslatehandle"]
+description: Translates a CryptoAPI handle into a CNG key handle.
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","NCryptTranslateHandle","NCryptTranslateHandle function [Security]","ncrypt/NCryptTranslateHandle","security.ncrypttranslatehandle"]
 old-location: security\ncrypttranslatehandle.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle

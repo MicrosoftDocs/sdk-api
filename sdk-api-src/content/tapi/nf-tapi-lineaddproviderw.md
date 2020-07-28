@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineAddProviderW
 title: lineAddProviderW function (tapi.h)
-description: The lineAddProvider function installs a new telephony service provider into the telephony system.helpviewer_keywords: ["_tapi2_lineaddprovider","lineAddProvider","lineAddProvider function [TAPI 2.2]","lineAddProviderA","lineAddProviderW","tapi/lineAddProvider","tapi/lineAddProviderA","tapi/lineAddProviderW","tapi2.lineaddprovider"]
+description: The lineAddProvider function installs a new telephony service provider into the telephony system.
+helpviewer_keywords: ["_tapi2_lineaddprovider","lineAddProvider","lineAddProvider function [TAPI 2.2]","lineAddProviderA","lineAddProviderW","tapi/lineAddProvider","tapi/lineAddProviderA","tapi/lineAddProviderW","tapi2.lineaddprovider"]
 old-location: tapi2\lineaddprovider.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider
@@ -106,6 +107,10 @@ This function copies no files—not the service provider DLL itself nor any supp
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineAddProvider as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

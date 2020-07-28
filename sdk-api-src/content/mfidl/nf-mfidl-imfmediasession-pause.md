@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Pause
 title: IMFMediaSession::Pause (mfidl.h)
-description: Pauses the Media Session.helpviewer_keywords: ["IMFMediaSession interface [Media Foundation]","Pause method","IMFMediaSession.Pause","IMFMediaSession::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaSession interface","fcc576ba-f8be-4106-a270-756b2abf52d4","mf.imfmediasession_pause","mfidl/IMFMediaSession::Pause"]
+description: Pauses the Media Session.
+helpviewer_keywords: ["IMFMediaSession interface [Media Foundation]","Pause method","IMFMediaSession.Pause","IMFMediaSession::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaSession interface","fcc576ba-f8be-4106-a270-756b2abf52d4","mf.imfmediasession_pause","mfidl/IMFMediaSession::Pause"]
 old-location: mf\imfmediasession_pause.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fcc576ba-f8be-4106-a270-756b2abf52d4
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],Pause method, IMFMediaSession.Pause, IMFMediaSession::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSession interface, fcc576ba-f8be-4106-a270-756b2abf52d4, mf.imfmediasession_pause, mfidl/IMFMediaSession::Pause

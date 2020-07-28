@@ -1,9 +1,10 @@
 ---
 UID: NF:mscat.CryptCATAdminCalcHashFromFileHandle
 title: CryptCATAdminCalcHashFromFileHandle function (mscat.h)
-description: Calculates the hash for a file.helpviewer_keywords: ["CryptCATAdminCalcHashFromFileHandle","CryptCATAdminCalcHashFromFileHandle function [Security]","mscat/CryptCATAdminCalcHashFromFileHandle","security.cryptcatadmincalchashfromfilehandle"]
+description: Calculates the hash for a file.
+helpviewer_keywords: ["CryptCATAdminCalcHashFromFileHandle","CryptCATAdminCalcHashFromFileHandle function [Security]","mscat/CryptCATAdminCalcHashFromFileHandle","security.cryptcatadmincalchashfromfilehandle"]
 old-location: security\cryptcatadmincalchashfromfilehandle.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4dc5688f-4b7a-4baf-9671-868cac7f1896
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle, CryptCATAdminCalcHashFromFileHandle function [Security], mscat/CryptCATAdminCalcHashFromFileHandle, security.cryptcatadmincalchashfromfilehandle

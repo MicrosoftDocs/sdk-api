@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.MFDeserializeAttributesFromStream
 title: MFDeserializeAttributesFromStream function (mfobjects.h)
-description: Loads attributes from a stream into an attribute store.helpviewer_keywords: ["MFDeserializeAttributesFromStream","MFDeserializeAttributesFromStream function [Media Foundation]","cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a","mf.mfdeserializeattributesfromstream","mfobjects/MFDeserializeAttributesFromStream"]
+description: Loads attributes from a stream into an attribute store.
+helpviewer_keywords: ["MFDeserializeAttributesFromStream","MFDeserializeAttributesFromStream function [Media Foundation]","cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a","mf.mfdeserializeattributesfromstream","mfobjects/MFDeserializeAttributesFromStream"]
 old-location: mf\mfdeserializeattributesfromstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a
 ms.date: 12/05/2018
 ms.keywords: MFDeserializeAttributesFromStream, MFDeserializeAttributesFromStream function [Media Foundation], cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a, mf.mfdeserializeattributesfromstream, mfobjects/MFDeserializeAttributesFromStream

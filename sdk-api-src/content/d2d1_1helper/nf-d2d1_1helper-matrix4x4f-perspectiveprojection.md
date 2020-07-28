@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.PerspectiveProjection
 title: Matrix4x4F::PerspectiveProjection (d2d1_1helper.h)
-description: A perspective transformation given a depth value.helpviewer_keywords: ["Matrix4x4F interface [Direct2D]","PerspectiveProjection method","Matrix4x4F.PerspectiveProjection","Matrix4x4F::PerspectiveProjection","PerspectiveProjection","PerspectiveProjection method [Direct2D]","PerspectiveProjection method [Direct2D]","Matrix4x4F interface","d2d1_1helper/Matrix4x4F::PerspectiveProjection","direct2d.matrix4x4f_perspectiveprojection"]
+description: A perspective transformation given a depth value.
+helpviewer_keywords: ["Matrix4x4F interface [Direct2D]","PerspectiveProjection method","Matrix4x4F.PerspectiveProjection","Matrix4x4F::PerspectiveProjection","PerspectiveProjection","PerspectiveProjection method [Direct2D]","PerspectiveProjection method [Direct2D]","Matrix4x4F interface","d2d1_1helper/Matrix4x4F::PerspectiveProjection","direct2d.matrix4x4f_perspectiveprojection"]
 old-location: direct2d\matrix4x4f_perspectiveprojection.htm
 tech.root: Direct2D
 ms.assetid: AE896E2E-752E-46D1-9281-4B3511D21468

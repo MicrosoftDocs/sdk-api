@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 title: ITAutomatedPhoneControl::get_PhoneHandlingEnabled (tapi3if.h)
-description: The get_PhoneHandlingEnabled method retrieves the current value of the PhoneHandlingEnabled property.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_PhoneHandlingEnabled method","ITAutomatedPhoneControl.get_PhoneHandlingEnabled","ITAutomatedPhoneControl::get_PhoneHandlingEnabled","_tapi3_itautomatedphonecontrol_get_phonehandlingenabled","get_PhoneHandlingEnabled","get_PhoneHandlingEnabled method [TAPI 2.2]","get_PhoneHandlingEnabled method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_phonehandlingenabled","tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled"]
+description: The get_PhoneHandlingEnabled method retrieves the current value of the PhoneHandlingEnabled property.
+helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_PhoneHandlingEnabled method","ITAutomatedPhoneControl.get_PhoneHandlingEnabled","ITAutomatedPhoneControl::get_PhoneHandlingEnabled","_tapi3_itautomatedphonecontrol_get_phonehandlingenabled","get_PhoneHandlingEnabled","get_PhoneHandlingEnabled method [TAPI 2.2]","get_PhoneHandlingEnabled method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_phonehandlingenabled","tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled"]
 old-location: tapi3\itautomatedphonecontrol_get_phonehandlingenabled.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a6174caa-6045-4b82-9b13-11b86f8cf8a8
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_PhoneHandlingEnabled method, ITAutomatedPhoneControl.get_PhoneHandlingEnabled, ITAutomatedPhoneControl::get_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_get_phonehandlingenabled, get_PhoneHandlingEnabled, get_PhoneHandlingEnabled method [TAPI 2.2], get_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled

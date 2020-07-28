@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.TermCompositionTarget
 title: IVMRImageCompositor::TermCompositionTarget (strmif.h)
-description: The TermCompositionTarget method informs the compositor that the current composition target is being replaced. Compositors should perform any necessary cleanup of the composition target in this method.helpviewer_keywords: ["IVMRImageCompositor interface [DirectShow]","TermCompositionTarget method","IVMRImageCompositor.TermCompositionTarget","IVMRImageCompositor::TermCompositionTarget","IVMRImageCompositorStopCompositing","TermCompositionTarget","TermCompositionTarget method [DirectShow]","TermCompositionTarget method [DirectShow]","IVMRImageCompositor interface","dshow.ivmrimagecompositor_termcompositiontarget","strmif/IVMRImageCompositor::TermCompositionTarget"]
+description: The TermCompositionTarget method informs the compositor that the current composition target is being replaced. Compositors should perform any necessary cleanup of the composition target in this method.
+helpviewer_keywords: ["IVMRImageCompositor interface [DirectShow]","TermCompositionTarget method","IVMRImageCompositor.TermCompositionTarget","IVMRImageCompositor::TermCompositionTarget","IVMRImageCompositorStopCompositing","TermCompositionTarget","TermCompositionTarget method [DirectShow]","TermCompositionTarget method [DirectShow]","IVMRImageCompositor interface","dshow.ivmrimagecompositor_termcompositiontarget","strmif/IVMRImageCompositor::TermCompositionTarget"]
 old-location: dshow\ivmrimagecompositor_termcompositiontarget.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a9526be0-06aa-4fe3-ba05-fbac01806ec4
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],TermCompositionTarget method, IVMRImageCompositor.TermCompositionTarget, IVMRImageCompositor::TermCompositionTarget, IVMRImageCompositorStopCompositing, TermCompositionTarget, TermCompositionTarget method [DirectShow], TermCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_termcompositiontarget, strmif/IVMRImageCompositor::TermCompositionTarget

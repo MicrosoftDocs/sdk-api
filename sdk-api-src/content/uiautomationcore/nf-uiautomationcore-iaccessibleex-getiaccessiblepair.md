@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetIAccessiblePair
 title: IAccessibleEx::GetIAccessiblePair (uiautomationcore.h)
-description: Retrieves the IAccessible interface and child ID for this item.helpviewer_keywords: ["GetIAccessiblePair","GetIAccessiblePair method [Windows Accessibility]","GetIAccessiblePair method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","GetIAccessiblePair method","IAccessibleEx.GetIAccessiblePair","IAccessibleEx::GetIAccessiblePair","uiauto.uiauto_IAccessibleEx_GetIAccessiblePair","uiauto_IAccessibleEx_GetIAccessiblePair","uiautomationcore/IAccessibleEx::GetIAccessiblePair","winauto.uiauto_IAccessibleEx_GetIAccessiblePair"]
+description: Retrieves the IAccessible interface and child ID for this item.
+helpviewer_keywords: ["GetIAccessiblePair","GetIAccessiblePair method [Windows Accessibility]","GetIAccessiblePair method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","GetIAccessiblePair method","IAccessibleEx.GetIAccessiblePair","IAccessibleEx::GetIAccessiblePair","uiauto.uiauto_IAccessibleEx_GetIAccessiblePair","uiauto_IAccessibleEx_GetIAccessiblePair","uiautomationcore/IAccessibleEx::GetIAccessiblePair","winauto.uiauto_IAccessibleEx_GetIAccessiblePair"]
 old-location: winauto\uiauto_IAccessibleEx_GetIAccessiblePair.htm
 tech.root: WinAuto
 ms.assetid: 282de8b1-67ce-42e3-9f17-dbd29374d910

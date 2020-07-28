@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_NullSigned
 title: IX509CertificateRequestPkcs10::get_NullSigned (certenroll.h)
-description: Retrieves a Boolean value that indicates whether the certificate request is null-signed.helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","NullSigned property","IX509CertificateRequestPkcs10.NullSigned","IX509CertificateRequestPkcs10.get_NullSigned","IX509CertificateRequestPkcs10::NullSigned","IX509CertificateRequestPkcs10::get_NullSigned","NullSigned property [Security]","NullSigned property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::NullSigned","certenroll/IX509CertificateRequestPkcs10::get_NullSigned","get_NullSigned","security.ix509certificaterequestpkcs10_nullsigned_property"]
+description: Retrieves a Boolean value that indicates whether the certificate request is null-signed.
+helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","NullSigned property","IX509CertificateRequestPkcs10.NullSigned","IX509CertificateRequestPkcs10.get_NullSigned","IX509CertificateRequestPkcs10::NullSigned","IX509CertificateRequestPkcs10::get_NullSigned","NullSigned property [Security]","NullSigned property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::NullSigned","certenroll/IX509CertificateRequestPkcs10::get_NullSigned","get_NullSigned","security.ix509certificaterequestpkcs10_nullsigned_property"]
 old-location: security\ix509certificaterequestpkcs10_nullsigned_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 2420f5ef-2cd7-498d-892a-2b99c524d629
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],NullSigned property, IX509CertificateRequestPkcs10.NullSigned, IX509CertificateRequestPkcs10.get_NullSigned, IX509CertificateRequestPkcs10::NullSigned, IX509CertificateRequestPkcs10::get_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::NullSigned, certenroll/IX509CertificateRequestPkcs10::get_NullSigned, get_NullSigned, security.ix509certificaterequestpkcs10_nullsigned_property

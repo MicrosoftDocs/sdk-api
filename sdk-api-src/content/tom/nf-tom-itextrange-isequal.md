@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.IsEqual
 title: ITextRange::IsEqual (tom.h)
-description: Determines whether this range has the same character positions and story as those of a specified range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","IsEqual method","ITextRange.IsEqual","ITextRange::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextRange interface","_win32_ITextRange_IsEqual","_win32_ITextRange_IsEqual_cpp","controls.ITextRange_IsEqual","controls._win32_ITextRange_IsEqual","tom/ITextRange::IsEqual"]
+description: Determines whether this range has the same character positions and story as those of a specified range.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","IsEqual method","ITextRange.IsEqual","ITextRange::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextRange interface","_win32_ITextRange_IsEqual","_win32_ITextRange_IsEqual_cpp","controls.ITextRange_IsEqual","controls._win32_ITextRange_IsEqual","tom/ITextRange::IsEqual"]
 old-location: controls\ITextRange_IsEqual.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangeisequal.htm

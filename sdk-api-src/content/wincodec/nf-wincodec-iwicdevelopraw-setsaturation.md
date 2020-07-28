@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetSaturation
 title: IWICDevelopRaw::SetSaturation (wincodec.h)
-description: Sets the saturation value of the raw image.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetSaturation method","IWICDevelopRaw.SetSaturation","IWICDevelopRaw::SetSaturation","SetSaturation","SetSaturation method [Windows Imaging Component]","SetSaturation method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setsaturation","wic._wic_codec_iwicdevelopraw_setsaturation","wincodec/IWICDevelopRaw::SetSaturation"]
+description: Sets the saturation value of the raw image.
+helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetSaturation method","IWICDevelopRaw.SetSaturation","IWICDevelopRaw::SetSaturation","SetSaturation","SetSaturation method [Windows Imaging Component]","SetSaturation method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setsaturation","wic._wic_codec_iwicdevelopraw_setsaturation","wincodec/IWICDevelopRaw::SetSaturation"]
 old-location: wic\_wic_codec_iwicdevelopraw_setsaturation.htm
 tech.root: wic
 ms.assetid: 93e9eb1c-8428-4c4d-913a-d6162430e509

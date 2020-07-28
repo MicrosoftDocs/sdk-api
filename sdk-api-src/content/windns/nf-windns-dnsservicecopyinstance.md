@@ -1,7 +1,9 @@
 ---
 UID: NF:windns.DnsServiceCopyInstance
 title: DnsServiceCopyInstance function
-description: Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.helpviewer_keywords: ["DnsServiceCopyInstance"]
+description: Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+tech.root: dns
+helpviewer_keywords: ["DnsServiceCopyInstance"]
 ms.date: 02/19/2019
 ms.keywords: DnsServiceCopyInstance
 f1_keywords:

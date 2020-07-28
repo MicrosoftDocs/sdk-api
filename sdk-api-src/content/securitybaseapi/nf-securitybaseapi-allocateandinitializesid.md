@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.AllocateAndInitializeSid
 title: AllocateAndInitializeSid function (securitybaseapi.h)
-description: Allocates and initializes a security identifier (SID) with up to eight subauthorities.helpviewer_keywords: ["AllocateAndInitializeSid","AllocateAndInitializeSid function [Security]","_win32_allocateandinitializesid","security.allocateandinitializesid","securitybaseapi/AllocateAndInitializeSid"]
+description: Allocates and initializes a security identifier (SID) with up to eight subauthorities.
+helpviewer_keywords: ["AllocateAndInitializeSid","AllocateAndInitializeSid function [Security]","_win32_allocateandinitializesid","security.allocateandinitializesid","securitybaseapi/AllocateAndInitializeSid"]
 old-location: security\allocateandinitializesid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.date: 12/05/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid

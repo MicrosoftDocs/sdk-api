@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTask2.RoleAssignments
 title: IAzTask2::RoleAssignments (azroles.h)
-description: Returns a collection of the role assignments associated with this task.helpviewer_keywords: ["IAzTask2 interface [Security]","RoleAssignments method","IAzTask2.RoleAssignments","IAzTask2::RoleAssignments","RoleAssignments","RoleAssignments method [Security]","RoleAssignments method [Security]","IAzTask2 interface","azroles/IAzTask2::RoleAssignments","security.iaztask2_roleassignments_method"]
+description: Returns a collection of the role assignments associated with this task.
+helpviewer_keywords: ["IAzTask2 interface [Security]","RoleAssignments method","IAzTask2.RoleAssignments","IAzTask2::RoleAssignments","RoleAssignments","RoleAssignments method [Security]","RoleAssignments method [Security]","IAzTask2 interface","azroles/IAzTask2::RoleAssignments","security.iaztask2_roleassignments_method"]
 old-location: security\iaztask2_roleassignments_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1c60b9e7-3d02-4dce-9c45-cf9bf9b83ace
 ms.date: 12/05/2018
 ms.keywords: IAzTask2 interface [Security],RoleAssignments method, IAzTask2.RoleAssignments, IAzTask2::RoleAssignments, RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security],IAzTask2 interface, azroles/IAzTask2::RoleAssignments, security.iaztask2_roleassignments_method

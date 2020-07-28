@@ -1,9 +1,10 @@
 ---
 UID: NF:winsafer.SaferGetLevelInformation
 title: SaferGetLevelInformation function (winsafer.h)
-description: Retrieves information about a policy level.helpviewer_keywords: ["SaferGetLevelInformation","SaferGetLevelInformation function [Security]","SaferObjectDescription","SaferObjectFriendlyName","SaferObjectLevelId","SaferObjectScopeId","_mnp_safergetlevelinformation","security.safergetlevelinformation","winsafer/SaferGetLevelInformation"]
+description: Retrieves information about a policy level.
+helpviewer_keywords: ["SaferGetLevelInformation","SaferGetLevelInformation function [Security]","SaferObjectDescription","SaferObjectFriendlyName","SaferObjectLevelId","SaferObjectScopeId","_mnp_safergetlevelinformation","security.safergetlevelinformation","winsafer/SaferGetLevelInformation"]
 old-location: security\safergetlevelinformation.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
 ms.date: 12/05/2018
 ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Security], SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, _mnp_safergetlevelinformation, security.safergetlevelinformation, winsafer/SaferGetLevelInformation

@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IAMMediaStream.SetState
 title: IAMMediaStream::SetState (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetState method sets the filter state.helpviewer_keywords: ["IAMMediaStream interface [DirectShow]","SetState method","IAMMediaStream.SetState","IAMMediaStream::SetState","IAMMediaStreamSetState","SetState","SetState method [DirectShow]","SetState method [DirectShow]","IAMMediaStream interface","amstream/IAMMediaStream::SetState","dshow.iammediastream_setstate"]
+description: Note  This interface is deprecated. New applications should not use it. The SetState method sets the filter state.
+helpviewer_keywords: ["IAMMediaStream interface [DirectShow]","SetState method","IAMMediaStream.SetState","IAMMediaStream::SetState","IAMMediaStreamSetState","SetState","SetState method [DirectShow]","SetState method [DirectShow]","IAMMediaStream interface","amstream/IAMMediaStream::SetState","dshow.iammediastream_setstate"]
 old-location: dshow\iammediastream_setstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2134c2cf-4d78-438c-8fb9-a96f87f682d9
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream interface [DirectShow],SetState method, IAMMediaStream.SetState, IAMMediaStream::SetState, IAMMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::SetState, dshow.iammediastream_setstate

@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimePreciseAsFileTime
 title: GetSystemTimePreciseAsFileTime function (sysinfoapi.h)
-description: GetSystemTimePreciseAsFileTime function retrieves the current system date and time with the highest possible level of precision (&lt;1us). The retrieved information is in Coordinated Universal Time (UTC) format.helpviewer_keywords: ["GetSystemTimePreciseAsFileTime","GetSystemTimePreciseAsFileTime function","base.getsystemtimepreciseasfiletime","sysinfoapi/GetSystemTimePreciseAsFileTime"]
+description: GetSystemTimePreciseAsFileTime function retrieves the current system date and time with the highest possible level of precision (&lt;1us). The retrieved information is in Coordinated Universal Time (UTC) format.
+helpviewer_keywords: ["GetSystemTimePreciseAsFileTime","GetSystemTimePreciseAsFileTime function","base.getsystemtimepreciseasfiletime","sysinfoapi/GetSystemTimePreciseAsFileTime"]
 old-location: base\getsystemtimepreciseasfiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 8949C2D4-AE5A-4E18-9B06-F2F13EFA8A5E
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimePreciseAsFileTime, GetSystemTimePreciseAsFileTime function, base.getsystemtimepreciseasfiletime, sysinfoapi/GetSystemTimePreciseAsFileTime

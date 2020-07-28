@@ -1,9 +1,10 @@
 ---
 UID: NC:filehc.FCACHE_RICHCREATE_CALLBACK
 title: FCACHE_RICHCREATE_CALLBACK (filehc.h)
-description: A callback function that is used to create items in the cache.helpviewer_keywords: ["FCACHE_RICHCREATE_CALLBACK","FCACHE_RICHCREATE_CALLBACK callback","FCACHE_RICHCREATE_CALLBACK callback function [Windows API]","filehc/FCACHE_RICHCREATE_CALLBACK","winprog.fcache_richcreate_callback"]
+description: A callback function that is used to create items in the cache.
+helpviewer_keywords: ["FCACHE_RICHCREATE_CALLBACK","FCACHE_RICHCREATE_CALLBACK callback","FCACHE_RICHCREATE_CALLBACK callback function [Windows API]","filehc/FCACHE_RICHCREATE_CALLBACK","winprog.fcache_richcreate_callback"]
 old-location: winprog\fcache_richcreate_callback.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0
 ms.date: 12/05/2018
 ms.keywords: FCACHE_RICHCREATE_CALLBACK, FCACHE_RICHCREATE_CALLBACK callback, FCACHE_RICHCREATE_CALLBACK callback function [Windows API], filehc/FCACHE_RICHCREATE_CALLBACK, winprog.fcache_richcreate_callback

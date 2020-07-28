@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IUpdateException
 title: IUpdateException (wuapi.h)
-description: Represents info about the aspects of search results returned in the ISearchResult object that were incomplete.helpviewer_keywords: ["IUpdateException","IUpdateException interface [Windows Update Agent]","IUpdateException interface [Windows Update Agent]","described","wua.iupdateexception","wuapi/IUpdateException"]
+description: Represents info about the aspects of search results returned in the ISearchResult object that were incomplete.
+helpviewer_keywords: ["IUpdateException","IUpdateException interface [Windows Update Agent]","IUpdateException interface [Windows Update Agent]","described","wua.iupdateexception","wuapi/IUpdateException"]
 old-location: wua\iupdateexception.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 9e7458be-b411-4395-98f2-c92308f78371
 ms.date: 12/05/2018
 ms.keywords: IUpdateException, IUpdateException interface [Windows Update Agent], IUpdateException interface [Windows Update Agent],described, wua.iupdateexception, wuapi/IUpdateException

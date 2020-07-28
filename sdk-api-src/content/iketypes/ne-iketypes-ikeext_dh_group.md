@@ -1,7 +1,8 @@
 ---
 UID: NE:iketypes.IKEEXT_DH_GROUP_
 title: IKEEXT_DH_GROUP (iketypes.h)
-description: Specifies the type of Diffie Hellman group used for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) key generation.helpviewer_keywords: ["IKEEXT_DH_ECP_256","IKEEXT_DH_ECP_384","IKEEXT_DH_GROUP","IKEEXT_DH_GROUP enumeration [Filtering]","IKEEXT_DH_GROUP_1","IKEEXT_DH_GROUP_14","IKEEXT_DH_GROUP_2","IKEEXT_DH_GROUP_2048","IKEEXT_DH_GROUP_24","IKEEXT_DH_GROUP_MAX","IKEEXT_DH_GROUP_NONE","fwp.ikeext_dh_group","iketypes/IKEEXT_DH_ECP_256","iketypes/IKEEXT_DH_ECP_384","iketypes/IKEEXT_DH_GROUP","iketypes/IKEEXT_DH_GROUP_1","iketypes/IKEEXT_DH_GROUP_14","iketypes/IKEEXT_DH_GROUP_2","iketypes/IKEEXT_DH_GROUP_2048","iketypes/IKEEXT_DH_GROUP_24","iketypes/IKEEXT_DH_GROUP_MAX","iketypes/IKEEXT_DH_GROUP_NONE"]
+description: Specifies the type of Diffie Hellman group used for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) key generation.
+helpviewer_keywords: ["IKEEXT_DH_ECP_256","IKEEXT_DH_ECP_384","IKEEXT_DH_GROUP","IKEEXT_DH_GROUP enumeration [Filtering]","IKEEXT_DH_GROUP_1","IKEEXT_DH_GROUP_14","IKEEXT_DH_GROUP_2","IKEEXT_DH_GROUP_2048","IKEEXT_DH_GROUP_24","IKEEXT_DH_GROUP_MAX","IKEEXT_DH_GROUP_NONE","fwp.ikeext_dh_group","iketypes/IKEEXT_DH_ECP_256","iketypes/IKEEXT_DH_ECP_384","iketypes/IKEEXT_DH_GROUP","iketypes/IKEEXT_DH_GROUP_1","iketypes/IKEEXT_DH_GROUP_14","iketypes/IKEEXT_DH_GROUP_2","iketypes/IKEEXT_DH_GROUP_2048","iketypes/IKEEXT_DH_GROUP_24","iketypes/IKEEXT_DH_GROUP_MAX","iketypes/IKEEXT_DH_GROUP_NONE"]
 old-location: fwp\ikeext_dh_group.htm
 tech.root: fwp
 ms.assetid: ed90c404-f713-4a0d-9698-eece1bfb7dd7

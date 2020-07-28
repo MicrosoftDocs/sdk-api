@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedMemory
 title: IUpdate::get_RecommendedMemory (wuapi.h)
-description: Gets the recommended physical memory size that should be available in your computer before you install the update. The physical memory size is specified in megabytes (MB).helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","RecommendedMemory property","IUpdate.RecommendedMemory","IUpdate.get_RecommendedMemory","IUpdate::RecommendedMemory","IUpdate::get_RecommendedMemory","RecommendedMemory property [Windows Update Agent]","RecommendedMemory property [Windows Update Agent]","IUpdate interface","get_RecommendedMemory","wua.iupdate_recommendedmemory","wuapi/IUpdate::RecommendedMemory","wuapi/IUpdate::get_RecommendedMemory"]
+description: Gets the recommended physical memory size that should be available in your computer before you install the update. The physical memory size is specified in megabytes (MB).
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","RecommendedMemory property","IUpdate.RecommendedMemory","IUpdate.get_RecommendedMemory","IUpdate::RecommendedMemory","IUpdate::get_RecommendedMemory","RecommendedMemory property [Windows Update Agent]","RecommendedMemory property [Windows Update Agent]","IUpdate interface","get_RecommendedMemory","wua.iupdate_recommendedmemory","wuapi/IUpdate::RecommendedMemory","wuapi/IUpdate::get_RecommendedMemory"]
 old-location: wua\iupdate_recommendedmemory.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 68a8341b-ba0a-4694-89c3-34fefb950bf7
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedMemory property, IUpdate.RecommendedMemory, IUpdate.get_RecommendedMemory, IUpdate::RecommendedMemory, IUpdate::get_RecommendedMemory, RecommendedMemory property [Windows Update Agent], RecommendedMemory property [Windows Update Agent],IUpdate interface, get_RecommendedMemory, wua.iupdate_recommendedmemory, wuapi/IUpdate::RecommendedMemory, wuapi/IUpdate::get_RecommendedMemory

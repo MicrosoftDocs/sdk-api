@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IBaseFilter.JoinFilterGraph
 title: IBaseFilter::JoinFilterGraph (strmif.h)
-description: The JoinFilterGraph method notifies the filter that it has joined or left the filter graph.helpviewer_keywords: ["IBaseFilter interface [DirectShow]","JoinFilterGraph method","IBaseFilter.JoinFilterGraph","IBaseFilter::JoinFilterGraph","IBaseFilterJoinFilterGraph","JoinFilterGraph","JoinFilterGraph method [DirectShow]","JoinFilterGraph method [DirectShow]","IBaseFilter interface","dshow.ibasefilter_joinfiltergraph","strmif/IBaseFilter::JoinFilterGraph"]
+description: The JoinFilterGraph method notifies the filter that it has joined or left the filter graph.
+helpviewer_keywords: ["IBaseFilter interface [DirectShow]","JoinFilterGraph method","IBaseFilter.JoinFilterGraph","IBaseFilter::JoinFilterGraph","IBaseFilterJoinFilterGraph","JoinFilterGraph","JoinFilterGraph method [DirectShow]","JoinFilterGraph method [DirectShow]","IBaseFilter interface","dshow.ibasefilter_joinfiltergraph","strmif/IBaseFilter::JoinFilterGraph"]
 old-location: dshow\ibasefilter_joinfiltergraph.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1f01c71f-5c12-4bf3-937c-740168baf776
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],JoinFilterGraph method, IBaseFilter.JoinFilterGraph, IBaseFilter::JoinFilterGraph, IBaseFilterJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IBaseFilter interface, dshow.ibasefilter_joinfiltergraph, strmif/IBaseFilter::JoinFilterGraph

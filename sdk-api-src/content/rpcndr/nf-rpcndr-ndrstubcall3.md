@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrStubCall3
 title: NdrStubCall3 function (rpcndr.h)
-description: NdrStubCall3 is not intended to be directly called by applications.helpviewer_keywords: ["NdrStubCall3","NdrStubCall3 function [RPC]","rpc.ndrstubcall3","rpcndr/NdrStubCall3"]
+description: NdrStubCall3 is not intended to be directly called by applications.
+helpviewer_keywords: ["NdrStubCall3","NdrStubCall3 function [RPC]","rpc.ndrstubcall3","rpcndr/NdrStubCall3"]
 old-location: rpc\ndrstubcall3.htm
 tech.root: Rpc
 ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4

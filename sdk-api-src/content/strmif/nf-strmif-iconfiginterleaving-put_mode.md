@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IConfigInterleaving.put_Mode
 title: IConfigInterleaving::put_Mode (strmif.h)
-description: The put_Mode method sets how audio samples and video frames are to be written to disk, by specifying quality of interleaving.helpviewer_keywords: ["IConfigInterleaving interface [DirectShow]","put_Mode method","IConfigInterleaving.put_Mode","IConfigInterleaving::put_Mode","IConfigInterleavingput_Mode","dshow.iconfiginterleaving_put_mode","put_Mode","put_Mode method [DirectShow]","put_Mode method [DirectShow]","IConfigInterleaving interface","strmif/IConfigInterleaving::put_Mode"]
+description: The put_Mode method sets how audio samples and video frames are to be written to disk, by specifying quality of interleaving.
+helpviewer_keywords: ["IConfigInterleaving interface [DirectShow]","put_Mode method","IConfigInterleaving.put_Mode","IConfigInterleaving::put_Mode","IConfigInterleavingput_Mode","dshow.iconfiginterleaving_put_mode","put_Mode","put_Mode method [DirectShow]","put_Mode method [DirectShow]","IConfigInterleaving interface","strmif/IConfigInterleaving::put_Mode"]
 old-location: dshow\iconfiginterleaving_put_mode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 62b06dc2-2e71-4a14-82e5-63e921a3c11f
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Mode method, IConfigInterleaving.put_Mode, IConfigInterleaving::put_Mode, IConfigInterleavingput_Mode, dshow.iconfiginterleaving_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Mode

@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupCreatePasswordInvitation
 title: PeerGroupCreatePasswordInvitation function (p2p.h)
-description: Returns an XML string that can be used by the specified peer to join a group with a matching password.helpviewer_keywords: ["PeerGroupCreatePasswordInvitation","PeerGroupCreatePasswordInvitation function [Peer Networking]","p2p.peergroupcreatepasswordinvitation","p2p/PeerGroupCreatePasswordInvitation"]
+description: Returns an XML string that can be used by the specified peer to join a group with a matching password.
+helpviewer_keywords: ["PeerGroupCreatePasswordInvitation","PeerGroupCreatePasswordInvitation function [Peer Networking]","p2p.peergroupcreatepasswordinvitation","p2p/PeerGroupCreatePasswordInvitation"]
 old-location: p2p\peergroupcreatepasswordinvitation.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 12d2920d-35b6-41e3-9129-1f11ce4cb5eb
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCreatePasswordInvitation, PeerGroupCreatePasswordInvitation function [Peer Networking], p2p.peergroupcreatepasswordinvitation, p2p/PeerGroupCreatePasswordInvitation

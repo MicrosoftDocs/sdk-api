@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
 title: ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters (d3d11_1.h)
-description: Allows the driver to recommend optimal output downsample parameters from the input parameters.helpviewer_keywords: ["ID3D11VideoDevice1 interface [Media Foundation]","RecommendVideoDecoderDownsampleParameters method","ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters","ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters","RecommendVideoDecoderDownsampleParameters","RecommendVideoDecoderDownsampleParameters method [Media Foundation]","RecommendVideoDecoderDownsampleParameters method [Media Foundation]","ID3D11VideoDevice1 interface","d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters","mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters"]
+description: Allows the driver to recommend optimal output downsample parameters from the input parameters.
+helpviewer_keywords: ["ID3D11VideoDevice1 interface [Media Foundation]","RecommendVideoDecoderDownsampleParameters method","ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters","ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters","RecommendVideoDecoderDownsampleParameters","RecommendVideoDecoderDownsampleParameters method [Media Foundation]","RecommendVideoDecoderDownsampleParameters method [Media Foundation]","ID3D11VideoDevice1 interface","d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters","mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters"]
 old-location: mf\id3d11videodevice1_recommendvideodecoderdownsampleparameters.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: DD1C1273-C069-4C46-933F-3450F9DDAFBD
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation],ID3D11VideoDevice1 interface, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters

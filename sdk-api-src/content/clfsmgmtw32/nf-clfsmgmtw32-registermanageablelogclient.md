@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsmgmtw32.RegisterManageableLogClient
 title: RegisterManageableLogClient function (clfsmgmtw32.h)
-description: Registers a client with the log manager. A client can specify whether to receive notifications by using callbacks, or have the notifications queued for retrieval by using ReadLogNotification.helpviewer_keywords: ["RegisterManageableLogClient","RegisterManageableLogClient function [Files]","clfsmgmtw32/RegisterManageableLogClient","fs.registermanageablelogclient"]
+description: Registers a client with the log manager. A client can specify whether to receive notifications by using callbacks, or have the notifications queued for retrieval by using ReadLogNotification.
+helpviewer_keywords: ["RegisterManageableLogClient","RegisterManageableLogClient function [Files]","clfsmgmtw32/RegisterManageableLogClient","fs.registermanageablelogclient"]
 old-location: fs\registermanageablelogclient.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: ca7969a1-e391-4e3f-96a8-5fb23c400d7e
 ms.date: 12/05/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient

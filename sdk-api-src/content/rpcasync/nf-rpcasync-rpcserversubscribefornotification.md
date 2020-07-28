@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcServerSubscribeForNotification
 title: RpcServerSubscribeForNotification function (rpcasync.h)
-description: Subscribes the server for RPC notifications.helpviewer_keywords: ["RpcServerSubscribeForNotification","RpcServerSubscribeForNotification function [RPC]","rpc.rpcserversubscribefornotification","rpcasync/RpcServerSubscribeForNotification"]
+description: Subscribes the server for RPC notifications.
+helpviewer_keywords: ["RpcServerSubscribeForNotification","RpcServerSubscribeForNotification function [RPC]","rpc.rpcserversubscribefornotification","rpcasync/RpcServerSubscribeForNotification"]
 old-location: rpc\rpcserversubscribefornotification.htm
 tech.root: Rpc
 ms.assetid: 544b1e57-7b3c-474d-8b89-d6c62f54b2c2

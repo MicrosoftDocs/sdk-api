@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventControl.GetSubscriptions
 title: IEventControl::GetSubscriptions (eventsys.h)
-description: Retrieves the collection of subscriptions associated with an event method.helpviewer_keywords: ["GetSubscriptions","GetSubscriptions method [COM+]","GetSubscriptions method [COM+]","IEventControl interface","IEventControl interface [COM+]","GetSubscriptions method","IEventControl.GetSubscriptions","IEventControl::GetSubscriptions","_cos_IEventControl_GetSubscriptions","cos.ieventcontrol_getsubscriptions","eventsys/IEventControl::GetSubscriptions"]
+description: Retrieves the collection of subscriptions associated with an event method.
+helpviewer_keywords: ["GetSubscriptions","GetSubscriptions method [COM+]","GetSubscriptions method [COM+]","IEventControl interface","IEventControl interface [COM+]","GetSubscriptions method","IEventControl.GetSubscriptions","IEventControl::GetSubscriptions","_cos_IEventControl_GetSubscriptions","cos.ieventcontrol_getsubscriptions","eventsys/IEventControl::GetSubscriptions"]
 old-location: cos\ieventcontrol_getsubscriptions.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ba39305d-8dc3-40fe-b6f6-d5c22f54a180
 ms.date: 12/05/2018
 ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions method [COM+],IEventControl interface, IEventControl interface [COM+],GetSubscriptions method, IEventControl.GetSubscriptions, IEventControl::GetSubscriptions, _cos_IEventControl_GetSubscriptions, cos.ieventcontrol_getsubscriptions, eventsys/IEventControl::GetSubscriptions

@@ -1,9 +1,10 @@
 ---
 UID: NF:bcrypt.BCryptCreateHash
 title: BCryptCreateHash function (bcrypt.h)
-description: Called to create a hash or Message Authentication Code (MAC) object.helpviewer_keywords: ["BCRYPT_HASH_REUSABLE_FLAG","BCryptCreateHash","BCryptCreateHash function [Security]","bcrypt/BCryptCreateHash","security.bcryptcreatehash_func"]
+description: Called to create a hash or Message Authentication Code (MAC) object.
+helpviewer_keywords: ["BCRYPT_HASH_REUSABLE_FLAG","BCryptCreateHash","BCryptCreateHash function [Security]","bcrypt/BCryptCreateHash","security.bcryptcreatehash_func"]
 old-location: security\bcryptcreatehash_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: deb02f67-f3d3-4542-8245-fd4982c3190b
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func

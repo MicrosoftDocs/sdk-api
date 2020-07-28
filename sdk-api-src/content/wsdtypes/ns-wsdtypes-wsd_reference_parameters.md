@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_REFERENCE_PARAMETERS
 title: WSD_REFERENCE_PARAMETERS (wsdtypes.h)
-description: Specifies opaque data that is used by an endpoint.helpviewer_keywords: ["WSD_REFERENCE_PARAMETERS","WSD_REFERENCE_PARAMETERS structure","ncd.wsd_reference_parameters_struct","wsdtypes/WSD_REFERENCE_PARAMETERS"]
+description: Specifies opaque data that is used by an endpoint.
+helpviewer_keywords: ["WSD_REFERENCE_PARAMETERS","WSD_REFERENCE_PARAMETERS structure","ncd.wsd_reference_parameters_struct","wsdtypes/WSD_REFERENCE_PARAMETERS"]
 old-location: ncd\wsd_reference_parameters_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.date: 12/05/2018
 ms.keywords: WSD_REFERENCE_PARAMETERS, WSD_REFERENCE_PARAMETERS structure, ncd.wsd_reference_parameters_struct, wsdtypes/WSD_REFERENCE_PARAMETERS

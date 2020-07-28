@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator
 title: IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator (vmr9.h)
-description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR-9 to use a custom allocator-presenter.helpviewer_keywords: ["AdviseSurfaceAllocator","AdviseSurfaceAllocator method [DirectShow]","AdviseSurfaceAllocator method [DirectShow]","IVMRSurfaceAllocatorNotify9 interface","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","AdviseSurfaceAllocator method","IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator","IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator","IVMRSurfaceAllocatorNotify9AdviseSurfaceAllocator","dshow.ivmrsurfaceallocatornotify9_advisesurfaceallocator","vmr9/IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator"]
+description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR-9 to use a custom allocator-presenter.
+helpviewer_keywords: ["AdviseSurfaceAllocator","AdviseSurfaceAllocator method [DirectShow]","AdviseSurfaceAllocator method [DirectShow]","IVMRSurfaceAllocatorNotify9 interface","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","AdviseSurfaceAllocator method","IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator","IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator","IVMRSurfaceAllocatorNotify9AdviseSurfaceAllocator","dshow.ivmrsurfaceallocatornotify9_advisesurfaceallocator","vmr9/IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator"]
 old-location: dshow\ivmrsurfaceallocatornotify9_advisesurfaceallocator.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 99f9c549-e4b1-480b-97a4-7a29c9cdb649
 ms.date: 12/05/2018
 ms.keywords: AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9AdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify9_advisesurfaceallocator, vmr9/IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator

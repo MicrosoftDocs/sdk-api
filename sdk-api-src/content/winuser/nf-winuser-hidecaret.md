@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.HideCaret
 title: HideCaret function (winuser.h)
-description: Removes the caret from the screen. Hiding a caret does not destroy its current shape or invalidate the insertion point.helpviewer_keywords: ["HideCaret","HideCaret function [Menus and Other Resources]","_win32_HideCaret","_win32_hidecaret_cpp","menurc.hidecaret","winui._win32_hidecaret","winuser/HideCaret"]
+description: Removes the caret from the screen. Hiding a caret does not destroy its current shape or invalidate the insertion point.
+helpviewer_keywords: ["HideCaret","HideCaret function [Menus and Other Resources]","_win32_HideCaret","_win32_hidecaret_cpp","menurc.hidecaret","winui._win32_hidecaret","winuser/HideCaret"]
 old-location: menurc\hidecaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\hidecaret.htm

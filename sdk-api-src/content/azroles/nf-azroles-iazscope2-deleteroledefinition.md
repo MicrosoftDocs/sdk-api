@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzScope2.DeleteRoleDefinition
 title: IAzScope2::DeleteRoleDefinition (azroles.h)
-description: Removes the specified IAzRoleDefinition object from this scope.helpviewer_keywords: ["DeleteRoleDefinition","DeleteRoleDefinition method [Security]","DeleteRoleDefinition method [Security]","IAzScope2 interface","IAzScope2 interface [Security]","DeleteRoleDefinition method","IAzScope2.DeleteRoleDefinition","IAzScope2::DeleteRoleDefinition","azroles/IAzScope2::DeleteRoleDefinition","security.iazscope2_deleteroledefinition"]
+description: Removes the specified IAzRoleDefinition object from this scope.
+helpviewer_keywords: ["DeleteRoleDefinition","DeleteRoleDefinition method [Security]","DeleteRoleDefinition method [Security]","IAzScope2 interface","IAzScope2 interface [Security]","DeleteRoleDefinition method","IAzScope2.DeleteRoleDefinition","IAzScope2::DeleteRoleDefinition","azroles/IAzScope2::DeleteRoleDefinition","security.iazscope2_deleteroledefinition"]
 old-location: security\iazscope2_deleteroledefinition.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 12eddceb-15e2-4c9a-8372-749b0eccdd79
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleDefinition method, IAzScope2.DeleteRoleDefinition, IAzScope2::DeleteRoleDefinition, azroles/IAzScope2::DeleteRoleDefinition, security.iazscope2_deleteroledefinition

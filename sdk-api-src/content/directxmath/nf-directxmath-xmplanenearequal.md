@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMPlaneNearEqual
 title: XMPlaneNearEqual function (directxmath.h)
-description: Determines whether two planes are nearly equal.helpviewer_keywords: ["Use DirectX..XMPlaneNearEqual","XMPlaneNearEqual","XMPlaneNearEqual method [DirectX Math Support APIs]","dxmath.xmplanenearequal"]
+description: Determines whether two planes are nearly equal.
+helpviewer_keywords: ["Use DirectX..XMPlaneNearEqual","XMPlaneNearEqual","XMPlaneNearEqual method [DirectX Math Support APIs]","dxmath.xmplanenearequal"]
 old-location: dxmath\xmplanenearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNearEqual(XMVECTOR,XMVECTOR,XMVECTOR)

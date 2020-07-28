@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMClockAdjust.SetClockDelta
 title: IAMClockAdjust::SetClockDelta (strmif.h)
-description: The SetClockDelta method adjusts the clock time.helpviewer_keywords: ["IAMClockAdjust interface [DirectShow]","SetClockDelta method","IAMClockAdjust.SetClockDelta","IAMClockAdjust::SetClockDelta","IAMClockAdjustSetClockDelta","SetClockDelta","SetClockDelta method [DirectShow]","SetClockDelta method [DirectShow]","IAMClockAdjust interface","dshow.iamclockadjust_setclockdelta","strmif/IAMClockAdjust::SetClockDelta"]
+description: The SetClockDelta method adjusts the clock time.
+helpviewer_keywords: ["IAMClockAdjust interface [DirectShow]","SetClockDelta method","IAMClockAdjust.SetClockDelta","IAMClockAdjust::SetClockDelta","IAMClockAdjustSetClockDelta","SetClockDelta","SetClockDelta method [DirectShow]","SetClockDelta method [DirectShow]","IAMClockAdjust interface","dshow.iamclockadjust_setclockdelta","strmif/IAMClockAdjust::SetClockDelta"]
 old-location: dshow\iamclockadjust_setclockdelta.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f9bd4e69-343f-4150-ab12-b5ce405a3ac3
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust interface [DirectShow],SetClockDelta method, IAMClockAdjust.SetClockDelta, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow],IAMClockAdjust interface, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta

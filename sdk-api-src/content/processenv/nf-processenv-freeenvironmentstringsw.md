@@ -1,9 +1,10 @@
 ---
 UID: NF:processenv.FreeEnvironmentStringsW
 title: FreeEnvironmentStringsW function (processenv.h)
-description: Frees a block of environment strings.helpviewer_keywords: ["FreeEnvironmentStrings","FreeEnvironmentStrings function","FreeEnvironmentStringsA","FreeEnvironmentStringsW","_win32_freeenvironmentstrings","base.freeenvironmentstrings","processenv/FreeEnvironmentStrings","processenv/FreeEnvironmentStringsA","processenv/FreeEnvironmentStringsW","winbase/FreeEnvironmentStrings","winbase/FreeEnvironmentStringsA","winbase/FreeEnvironmentStringsW"]
+description: Frees a block of environment strings.
+helpviewer_keywords: ["FreeEnvironmentStrings","FreeEnvironmentStrings function","FreeEnvironmentStringsA","FreeEnvironmentStringsW","_win32_freeenvironmentstrings","base.freeenvironmentstrings","processenv/FreeEnvironmentStrings","processenv/FreeEnvironmentStringsA","processenv/FreeEnvironmentStringsW","winbase/FreeEnvironmentStrings","winbase/FreeEnvironmentStringsA","winbase/FreeEnvironmentStringsW"]
 old-location: base\freeenvironmentstrings.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 8ac73f6e-4b42-4730-bf88-4b671f57b63b
 ms.date: 12/05/2018
 ms.keywords: FreeEnvironmentStrings, FreeEnvironmentStrings function, FreeEnvironmentStringsA, FreeEnvironmentStringsW, _win32_freeenvironmentstrings, base.freeenvironmentstrings, processenv/FreeEnvironmentStrings, processenv/FreeEnvironmentStringsA, processenv/FreeEnvironmentStringsW, winbase/FreeEnvironmentStrings, winbase/FreeEnvironmentStringsA, winbase/FreeEnvironmentStringsW
@@ -104,6 +105,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processenv.h header defines FreeEnvironmentStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

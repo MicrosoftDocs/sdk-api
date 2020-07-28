@@ -1,9 +1,10 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Next
 title: IEnumDot11AdHocInterfaces::Next (adhoc.h)
-description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.helpviewer_keywords: ["IEnumDot11AdHocInterfaces interface [NativeWIFI]","Next method","IEnumDot11AdHocInterfaces.Next","IEnumDot11AdHocInterfaces::Next","Next","Next method [NativeWIFI]","Next method [NativeWIFI]","IEnumDot11AdHocInterfaces interface","adhoc/IEnumDot11AdHocInterfaces::Next","nwifi.ienumdot11adhocinterfaces_next"]
+description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
+helpviewer_keywords: ["IEnumDot11AdHocInterfaces interface [NativeWIFI]","Next method","IEnumDot11AdHocInterfaces.Next","IEnumDot11AdHocInterfaces::Next","Next","Next method [NativeWIFI]","Next method [NativeWIFI]","IEnumDot11AdHocInterfaces interface","adhoc/IEnumDot11AdHocInterfaces::Next","nwifi.ienumdot11adhocinterfaces_next"]
 old-location: nwifi\ienumdot11adhocinterfaces_next.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2c20e215-a4ef-456e-ba19-0d9268279bf3
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Next method, IEnumDot11AdHocInterfaces.Next, IEnumDot11AdHocInterfaces::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Next, nwifi.ienumdot11adhocinterfaces_next

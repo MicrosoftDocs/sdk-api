@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.CreateResourceLocator
 title: IWSManEx::CreateResourceLocator (wsmandisp.h)
-description: Creates a ResourceLocator object that can be used instead of a resource URI in Session object operations such as IWSManSession.Get, IWSManSession.Put, or Session.Enumerate.helpviewer_keywords: ["CreateResourceLocator","CreateResourceLocator method [Windows Remote Management]","CreateResourceLocator method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","CreateResourceLocator method","IWSManEx.CreateResourceLocator","IWSManEx::CreateResourceLocator","winrm.iwsmanex_createresourcelocator","wsmandisp/IWSManEx::CreateResourceLocator"]
+description: Creates a ResourceLocator object that can be used instead of a resource URI in Session object operations such as IWSManSession.Get, IWSManSession.Put, or Session.Enumerate.
+helpviewer_keywords: ["CreateResourceLocator","CreateResourceLocator method [Windows Remote Management]","CreateResourceLocator method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","CreateResourceLocator method","IWSManEx.CreateResourceLocator","IWSManEx::CreateResourceLocator","winrm.iwsmanex_createresourcelocator","wsmandisp/IWSManEx::CreateResourceLocator"]
 old-location: winrm\iwsmanex_createresourcelocator.htm
 tech.root: winrm
 ms.assetid: b670865d-96d6-4b06-a9a5-ed74574a0108

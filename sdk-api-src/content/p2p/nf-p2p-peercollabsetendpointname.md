@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabSetEndpointName
 title: PeerCollabSetEndpointName function (p2p.h)
-description: Sets the name of the current endpoint used by the peer application.helpviewer_keywords: ["PeerCollabSetEndpointName","PeerCollabSetEndpointName function [Peer Networking]","p2p.peercollabsetendpointname","p2p/PeerCollabSetEndpointName"]
+description: Sets the name of the current endpoint used by the peer application.
+helpviewer_keywords: ["PeerCollabSetEndpointName","PeerCollabSetEndpointName function [Peer Networking]","p2p.peercollabsetendpointname","p2p/PeerCollabSetEndpointName"]
 old-location: p2p\peercollabsetendpointname.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9b8d0559-c70e-4b05-bd73-1eb3b2e8f9c8
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetEndpointName, PeerCollabSetEndpointName function [Peer Networking], p2p.peercollabsetendpointname, p2p/PeerCollabSetEndpointName

@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._STORAGE_WRITE_CACHE_PROPERTY
 title: STORAGE_WRITE_CACHE_PROPERTY
-description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve information about a device's write cache property.helpviewer_keywords: ["*PSTORAGE_WRITE_CACHE_PROPERTY","PSTORAGE_WRITE_CACHE_PROPERTY","PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files]","STORAGE_WRITE_CACHE_PROPERTY","STORAGE_WRITE_CACHE_PROPERTY structure [Files]","WriteCacheChangeUnknown","WriteCacheChangeable","WriteCacheDisabled","WriteCacheEnableUnknown","WriteCacheEnabled","WriteCacheNotChangeable","WriteCacheTypeNone","WriteCacheTypeUnknown","WriteCacheTypeWriteBack","WriteCacheTypeWriteThrough","WriteThroughNotSupported","WriteThroughSupported","WriteThroughUnknown","fs.storage_write_cache_property","winioctl/PSTORAGE_WRITE_CACHE_PROPERTY","winioctl/STORAGE_WRITE_CACHE_PROPERTY"]
+description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve information about a device's write cache property.
+helpviewer_keywords: ["*PSTORAGE_WRITE_CACHE_PROPERTY","PSTORAGE_WRITE_CACHE_PROPERTY","PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files]","STORAGE_WRITE_CACHE_PROPERTY","STORAGE_WRITE_CACHE_PROPERTY structure [Files]","WriteCacheChangeUnknown","WriteCacheChangeable","WriteCacheDisabled","WriteCacheEnableUnknown","WriteCacheEnabled","WriteCacheNotChangeable","WriteCacheTypeNone","WriteCacheTypeUnknown","WriteCacheTypeWriteBack","WriteCacheTypeWriteThrough","WriteThroughNotSupported","WriteThroughSupported","WriteThroughUnknown","fs.storage_write_cache_property","winioctl/PSTORAGE_WRITE_CACHE_PROPERTY","winioctl/STORAGE_WRITE_CACHE_PROPERTY"]
 old-location: fs\storage_write_cache_property.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 5248be70-229d-42e6-923a-5a6ffd5268b1
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, WriteCacheNotChangeable, WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, fs.storage_write_cache_property, winioctl/PSTORAGE_WRITE_CACHE_PROPERTY, winioctl/STORAGE_WRITE_CACHE_PROPERTY'

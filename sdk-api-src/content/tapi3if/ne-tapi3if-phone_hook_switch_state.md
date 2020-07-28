@@ -1,9 +1,10 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_STATE
 title: PHONE_HOOK_SWITCH_STATE (tapi3if.h)
-description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.helpviewer_keywords: ["PHONE_HOOK_SWITCH_STATE","PHONE_HOOK_SWITCH_STATE enumeration [TAPI 2.2]","PHSS_OFFHOOK","PHSS_OFFHOOK_MIC_ONLY","PHSS_OFFHOOK_SPEAKER_ONLY","PHSS_ONHOOK","_tapi3_phone_hook_switch_state","tapi3.phone_hook_switch_state","tapi3if/PHONE_HOOK_SWITCH_STATE","tapi3if/PHSS_OFFHOOK","tapi3if/PHSS_OFFHOOK_MIC_ONLY","tapi3if/PHSS_OFFHOOK_SPEAKER_ONLY","tapi3if/PHSS_ONHOOK"]
+description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.
+helpviewer_keywords: ["PHONE_HOOK_SWITCH_STATE","PHONE_HOOK_SWITCH_STATE enumeration [TAPI 2.2]","PHSS_OFFHOOK","PHSS_OFFHOOK_MIC_ONLY","PHSS_OFFHOOK_SPEAKER_ONLY","PHSS_ONHOOK","_tapi3_phone_hook_switch_state","tapi3.phone_hook_switch_state","tapi3if/PHONE_HOOK_SWITCH_STATE","tapi3if/PHSS_OFFHOOK","tapi3if/PHSS_OFFHOOK_MIC_ONLY","tapi3if/PHSS_OFFHOOK_SPEAKER_ONLY","tapi3if/PHSS_ONHOOK"]
 old-location: tapi3\phone_hook_switch_state.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c9501a3f-1aaa-4d58-aca1-5ef00c31d195
 ms.date: 12/05/2018
 ms.keywords: PHONE_HOOK_SWITCH_STATE, PHONE_HOOK_SWITCH_STATE enumeration [TAPI 2.2], PHSS_OFFHOOK, PHSS_OFFHOOK_MIC_ONLY, PHSS_OFFHOOK_SPEAKER_ONLY, PHSS_ONHOOK, _tapi3_phone_hook_switch_state, tapi3.phone_hook_switch_state, tapi3if/PHONE_HOOK_SWITCH_STATE, tapi3if/PHSS_OFFHOOK, tapi3if/PHSS_OFFHOOK_MIC_ONLY, tapi3if/PHSS_OFFHOOK_SPEAKER_ONLY, tapi3if/PHSS_ONHOOK

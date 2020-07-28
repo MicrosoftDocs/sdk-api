@@ -1,9 +1,10 @@
 ---
 UID: NN:wbemcli.IWbemRefresher
 title: IWbemRefresher (wbemcli.h)
-description: Provides an entry point through which refreshable objects such as enumerators or refresher objects, can be refreshed.helpviewer_keywords: ["IWbemRefresher","IWbemRefresher interface [Windows Management Instrumentation]","IWbemRefresher interface [Windows Management Instrumentation]","described","WbemRefresher","_hmm_iwbemrefresher","wbemcli/IWbemRefresher","wmi.iwbemrefresher"]
+description: Provides an entry point through which refreshable objects such as enumerators or refresher objects, can be refreshed.
+helpviewer_keywords: ["IWbemRefresher","IWbemRefresher interface [Windows Management Instrumentation]","IWbemRefresher interface [Windows Management Instrumentation]","described","WbemRefresher","_hmm_iwbemrefresher","wbemcli/IWbemRefresher","wmi.iwbemrefresher"]
 old-location: wmi\iwbemrefresher.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed
 ms.date: 12/05/2018
 ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], IWbemRefresher interface [Windows Management Instrumentation],described, WbemRefresher, _hmm_iwbemrefresher, wbemcli/IWbemRefresher, wmi.iwbemrefresher

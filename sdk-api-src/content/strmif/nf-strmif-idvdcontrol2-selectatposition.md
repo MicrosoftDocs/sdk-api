@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAtPosition
 title: IDvdControl2::SelectAtPosition (strmif.h)
-description: The SelectAtPosition method highlights the menu button under the mouse pointer position.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectAtPosition method","IDvdControl2.SelectAtPosition","IDvdControl2::SelectAtPosition","IDvdControl2SelectAtPosition","SelectAtPosition","SelectAtPosition method [DirectShow]","SelectAtPosition method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectatposition","strmif/IDvdControl2::SelectAtPosition"]
+description: The SelectAtPosition method highlights the menu button under the mouse pointer position.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectAtPosition method","IDvdControl2.SelectAtPosition","IDvdControl2::SelectAtPosition","IDvdControl2SelectAtPosition","SelectAtPosition","SelectAtPosition method [DirectShow]","SelectAtPosition method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectatposition","strmif/IDvdControl2::SelectAtPosition"]
 old-location: dshow\idvdcontrol2_selectatposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f6cb9cb4-0792-43f5-b53b-02a38ccf0398
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAtPosition method, IDvdControl2.SelectAtPosition, IDvdControl2::SelectAtPosition, IDvdControl2SelectAtPosition, SelectAtPosition, SelectAtPosition method [DirectShow], SelectAtPosition method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectatposition, strmif/IDvdControl2::SelectAtPosition

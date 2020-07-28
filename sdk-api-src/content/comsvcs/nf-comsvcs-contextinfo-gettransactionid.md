@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ContextInfo.GetTransactionId
 title: ContextInfo::GetTransactionId (comsvcs.h)
-description: Retrieves the transaction identifier associated with the object context. Objects in the same transaction share the same transaction identifier.helpviewer_keywords: ["ContextInfo interface [COM+]","GetTransactionId method","ContextInfo.GetTransactionId","ContextInfo::GetTransactionId","GetTransactionId","GetTransactionId method [COM+]","GetTransactionId method [COM+]","ContextInfo interface","_cos_ContextInfo_GetTransactionId","comsvcs/ContextInfo::GetTransactionId","cos.contextinfo_gettransactionid"]
+description: Retrieves the transaction identifier associated with the object context. Objects in the same transaction share the same transaction identifier.
+helpviewer_keywords: ["ContextInfo interface [COM+]","GetTransactionId method","ContextInfo.GetTransactionId","ContextInfo::GetTransactionId","GetTransactionId","GetTransactionId method [COM+]","GetTransactionId method [COM+]","ContextInfo interface","_cos_ContextInfo_GetTransactionId","comsvcs/ContextInfo::GetTransactionId","cos.contextinfo_gettransactionid"]
 old-location: cos\contextinfo_gettransactionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9eb77a13-14f0-4d45-a6de-4ae28d6bcac4
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],GetTransactionId method, ContextInfo.GetTransactionId, ContextInfo::GetTransactionId, GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransactionId, comsvcs/ContextInfo::GetTransactionId, cos.contextinfo_gettransactionid

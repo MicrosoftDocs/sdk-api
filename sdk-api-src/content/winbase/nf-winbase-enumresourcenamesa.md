@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.EnumResourceNamesA
 title: EnumResourceNamesA function (winbase.h)
-description: Enumerates resources of a specified type within a binary module.helpviewer_keywords: ["EnumResourceNames","EnumResourceNames function [Menus and Other Resources]","EnumResourceNamesA","EnumResourceNamesW","_win32_EnumResourceNames","_win32_enumresourcenames_cpp","menurc.enumresourcenames","winbase/EnumResourceNames","winbase/EnumResourceNamesA","winbase/EnumResourceNamesW","winui._win32_enumresourcenames"]
+description: Enumerates resources of a specified type within a binary module.
+helpviewer_keywords: ["EnumResourceNames","EnumResourceNames function [Menus and Other Resources]","EnumResourceNamesA","EnumResourceNamesW","_win32_EnumResourceNames","_win32_enumresourcenames_cpp","menurc.enumresourcenames","winbase/EnumResourceNames","winbase/EnumResourceNamesA","winbase/EnumResourceNamesW","winui._win32_enumresourcenames"]
 old-location: menurc\enumresourcenames.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
@@ -74,7 +75,7 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 Type: <b>LPCTSTR</b>
 
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>. For more information, see 
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://docs.microsoft.com/en-us/windows/win32/menurc/resource-types">Resource Types</a>. For more information, see 
 
 the Remarks section below.
 

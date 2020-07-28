@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl2.ReplayChapter
 title: IDvdControl2::ReplayChapter (strmif.h)
-description: The ReplayChapter method starts playback from the beginning of the current chapter.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","ReplayChapter method","IDvdControl2.ReplayChapter","IDvdControl2::ReplayChapter","IDvdControl2ReplayChapter","ReplayChapter","ReplayChapter method [DirectShow]","ReplayChapter method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_replaychapter","strmif/IDvdControl2::ReplayChapter"]
+description: The ReplayChapter method starts playback from the beginning of the current chapter.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","ReplayChapter method","IDvdControl2.ReplayChapter","IDvdControl2::ReplayChapter","IDvdControl2ReplayChapter","ReplayChapter","ReplayChapter method [DirectShow]","ReplayChapter method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_replaychapter","strmif/IDvdControl2::ReplayChapter"]
 old-location: dshow\idvdcontrol2_replaychapter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReplayChapter method, IDvdControl2.ReplayChapter, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter

@@ -1,9 +1,10 @@
 ---
 UID: NS:powrprof._GLOBAL_USER_POWER_POLICY
 title: GLOBAL_USER_POWER_POLICY (powrprof.h)
-description: Contains global user power policy settings that apply to all power schemes for a user.helpviewer_keywords: ["*PGLOBAL_USER_POWER_POLICY","GLOBAL_USER_POWER_POLICY","GLOBAL_USER_POWER_POLICY structure","PGLOBAL_USER_POWER_POLICY","PGLOBAL_USER_POWER_POLICY structure pointer","_win32_global_user_power_policy_str","base.global_user_power_policy_str","powrprof/GLOBAL_USER_POWER_POLICY","powrprof/PGLOBAL_USER_POWER_POLICY"]
+description: Contains global user power policy settings that apply to all power schemes for a user.
+helpviewer_keywords: ["*PGLOBAL_USER_POWER_POLICY","GLOBAL_USER_POWER_POLICY","GLOBAL_USER_POWER_POLICY structure","PGLOBAL_USER_POWER_POLICY","PGLOBAL_USER_POWER_POLICY structure pointer","_win32_global_user_power_policy_str","base.global_user_power_policy_str","powrprof/GLOBAL_USER_POWER_POLICY","powrprof/PGLOBAL_USER_POWER_POLICY"]
 old-location: base\global_user_power_policy_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: 0e89ae66-a889-4929-b028-125fcef5c89c
 ms.date: 12/05/2018
 ms.keywords: '*PGLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY structure, PGLOBAL_USER_POWER_POLICY, PGLOBAL_USER_POWER_POLICY structure pointer, _win32_global_user_power_policy_str, base.global_user_power_policy_str, powrprof/GLOBAL_USER_POWER_POLICY, powrprof/PGLOBAL_USER_POWER_POLICY'

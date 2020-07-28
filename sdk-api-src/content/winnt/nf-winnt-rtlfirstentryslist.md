@@ -1,9 +1,10 @@
 ---
 UID: NF:winnt.RtlFirstEntrySList
 title: RtlFirstEntrySList function (winnt.h)
-description: Retrieves the first entry in a singly linked list. Access to the list is synchronized on a multiprocessor system.helpviewer_keywords: ["RtlFirstEntrySList","RtlFirstEntrySList function","base.rtlfirstentryslist","winnt/RtlFirstEntrySList"]
+description: Retrieves the first entry in a singly linked list. Access to the list is synchronized on a multiprocessor system.
+helpviewer_keywords: ["RtlFirstEntrySList","RtlFirstEntrySList function","base.rtlfirstentryslist","winnt/RtlFirstEntrySList"]
 old-location: base\rtlfirstentryslist.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
 ms.date: 12/05/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList

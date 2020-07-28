@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetAtEndOfPayload
 title: IMFHttpDownloadRequest::GetAtEndOfPayload (mfidl.h)
-description: Invoked by Microsoft Media Foundation to check if it should invoke BeginReadPayload to read data from the message body of the response.helpviewer_keywords: ["GetAtEndOfPayload","GetAtEndOfPayload method [Media Foundation]","GetAtEndOfPayload method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","GetAtEndOfPayload method","IMFHttpDownloadRequest.GetAtEndOfPayload","IMFHttpDownloadRequest::GetAtEndOfPayload","mf.imfhttpdownloadrequest_getatendofpayload","mfidl/IMFHttpDownloadRequest::GetAtEndOfPayload"]
+description: Invoked by Microsoft Media Foundation to check if it should invoke BeginReadPayload to read data from the message body of the response.
+helpviewer_keywords: ["GetAtEndOfPayload","GetAtEndOfPayload method [Media Foundation]","GetAtEndOfPayload method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","GetAtEndOfPayload method","IMFHttpDownloadRequest.GetAtEndOfPayload","IMFHttpDownloadRequest::GetAtEndOfPayload","mf.imfhttpdownloadrequest_getatendofpayload","mfidl/IMFHttpDownloadRequest::GetAtEndOfPayload"]
 old-location: mf\imfhttpdownloadrequest_getatendofpayload.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2F2D65BA-4719-4633-9B2D-2CAF88F4E3DD
 ms.date: 12/05/2018
 ms.keywords: GetAtEndOfPayload, GetAtEndOfPayload method [Media Foundation], GetAtEndOfPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetAtEndOfPayload method, IMFHttpDownloadRequest.GetAtEndOfPayload, IMFHttpDownloadRequest::GetAtEndOfPayload, mf.imfhttpdownloadrequest_getatendofpayload, mfidl/IMFHttpDownloadRequest::GetAtEndOfPayload

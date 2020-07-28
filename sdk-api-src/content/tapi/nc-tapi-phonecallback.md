@@ -1,9 +1,10 @@
 ---
 UID: NC:tapi.PHONECALLBACK
 title: PHONECALLBACK (tapi.h)
-description: The phoneCallback function is a placeholder for the application-supplied function name.helpviewer_keywords: ["PHONECALLBACK","PHONECALLBACK callback function [TAPI 2.2]","_tapi2_phonecallbackfunc","phoneCallback","phoneCallback callback","tapi/PHONECALLBACK","tapi2.phonecallbackfunc"]
+description: The phoneCallback function is a placeholder for the application-supplied function name.
+helpviewer_keywords: ["PHONECALLBACK","PHONECALLBACK callback function [TAPI 2.2]","_tapi2_phonecallbackfunc","phoneCallback","phoneCallback callback","tapi/PHONECALLBACK","tapi2.phonecallbackfunc"]
 old-location: tapi2\phonecallbackfunc.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 169ac08a-7584-4d43-abb3-eb83eeb48406
 ms.date: 12/05/2018
 ms.keywords: PHONECALLBACK, PHONECALLBACK callback function [TAPI 2.2], _tapi2_phonecallbackfunc, phoneCallback, phoneCallback callback, tapi/PHONECALLBACK, tapi2.phonecallbackfunc

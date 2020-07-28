@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChapterInTitle
 title: IDvdControl2::PlayChapterInTitle (strmif.h)
-description: The PlayChapterInTitle method starts playback from the beginning of the specified chapter of the specified title.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayChapterInTitle method","IDvdControl2.PlayChapterInTitle","IDvdControl2::PlayChapterInTitle","IDvdControl2PlayChapterInTitle","PlayChapterInTitle","PlayChapterInTitle method [DirectShow]","PlayChapterInTitle method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playchapterintitle","strmif/IDvdControl2::PlayChapterInTitle"]
+description: The PlayChapterInTitle method starts playback from the beginning of the specified chapter of the specified title.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayChapterInTitle method","IDvdControl2.PlayChapterInTitle","IDvdControl2::PlayChapterInTitle","IDvdControl2PlayChapterInTitle","PlayChapterInTitle","PlayChapterInTitle method [DirectShow]","PlayChapterInTitle method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playchapterintitle","strmif/IDvdControl2::PlayChapterInTitle"]
 old-location: dshow\idvdcontrol2_playchapterintitle.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapterInTitle method, IDvdControl2.PlayChapterInTitle, IDvdControl2::PlayChapterInTitle, IDvdControl2PlayChapterInTitle, PlayChapterInTitle, PlayChapterInTitle method [DirectShow], PlayChapterInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapterintitle, strmif/IDvdControl2::PlayChapterInTitle

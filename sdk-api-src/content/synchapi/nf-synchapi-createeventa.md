@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.CreateEventA
 title: CreateEventA function (synchapi.h)
-description: Creates or opens a named or unnamed event object.helpviewer_keywords: ["CreateEvent","CreateEvent function","CreateEventA","CreateEventW","_win32_createevent","base.createevent","synchapi/CreateEvent","synchapi/CreateEventA","synchapi/CreateEventW","winbase/CreateEvent","winbase/CreateEventA","winbase/CreateEventW"]
+description: Creates or opens a named or unnamed event object.
+helpviewer_keywords: ["CreateEvent","CreateEvent function","CreateEventA","CreateEventW","_win32_createevent","base.createevent","synchapi/CreateEvent","synchapi/CreateEventA","synchapi/CreateEventW","winbase/CreateEvent","winbase/CreateEventA","winbase/CreateEventW"]
 old-location: base\createevent.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.date: 12/05/2018
 ms.keywords: CreateEvent, CreateEvent function, CreateEventA, CreateEventW, _win32_createevent, base.createevent, synchapi/CreateEvent, synchapi/CreateEventA, synchapi/CreateEventW, winbase/CreateEvent, winbase/CreateEventA, winbase/CreateEventW
@@ -191,6 +192,10 @@ For an example that uses <b>CreateEvent</b>, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The synchapi.h header defines CreateEvent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

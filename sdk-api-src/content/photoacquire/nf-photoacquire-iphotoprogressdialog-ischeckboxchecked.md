@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCheckboxChecked
 title: IPhotoProgressDialog::IsCheckboxChecked (photoacquire.h)
-description: The IsCheckboxChecked method indicates whether the check box in the progress dialog box (typically indicating whether to delete files after transfer) is selected.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","IsCheckboxChecked method","IPhotoProgressDialog.IsCheckboxChecked","IPhotoProgressDialog::IsCheckboxChecked","IPhotoProgressDialogIsCheckboxChecked","IsCheckboxChecked","IsCheckboxChecked method [Picture Acquisition]","IsCheckboxChecked method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::IsCheckboxChecked","picacq.iphotoprogressdialog_ischeckboxchecked"]
+description: The IsCheckboxChecked method indicates whether the check box in the progress dialog box (typically indicating whether to delete files after transfer) is selected.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","IsCheckboxChecked method","IPhotoProgressDialog.IsCheckboxChecked","IPhotoProgressDialog::IsCheckboxChecked","IPhotoProgressDialogIsCheckboxChecked","IsCheckboxChecked","IsCheckboxChecked method [Picture Acquisition]","IsCheckboxChecked method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::IsCheckboxChecked","picacq.iphotoprogressdialog_ischeckboxchecked"]
 old-location: picacq\iphotoprogressdialog_ischeckboxchecked.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 05810577-c23a-4f75-9cd5-0b5b6be7d181
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCheckboxChecked method, IPhotoProgressDialog.IsCheckboxChecked, IPhotoProgressDialog::IsCheckboxChecked, IPhotoProgressDialogIsCheckboxChecked, IsCheckboxChecked, IsCheckboxChecked method [Picture Acquisition], IsCheckboxChecked method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCheckboxChecked, picacq.iphotoprogressdialog_ischeckboxchecked

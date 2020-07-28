@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsAccessControlList
 title: IADsAccessControlList (iads.h)
-description: The IADsAccessControlList interface is a dual interface that manages individual access-control entries (ACEs).helpviewer_keywords: ["AccessControlList","IADsAccessControlList","IADsAccessControlList interface [ADSI]","IADsAccessControlList interface [ADSI]","described","_ds_iadsaccesscontrollist","adsi.iadsaccesscontrollist","iads/IADsAccessControlList"]
+description: The IADsAccessControlList interface is a dual interface that manages individual access-control entries (ACEs).
+helpviewer_keywords: ["AccessControlList","IADsAccessControlList","IADsAccessControlList interface [ADSI]","IADsAccessControlList interface [ADSI]","described","_ds_iadsaccesscontrollist","adsi.iadsaccesscontrollist","iads/IADsAccessControlList"]
 old-location: adsi\iadsaccesscontrollist.htm
 tech.root: adsi
 ms.assetid: de92d9cc-bc9d-4dc5-aa79-01f4d3050c35

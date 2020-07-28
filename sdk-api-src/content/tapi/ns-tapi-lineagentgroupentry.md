@@ -1,9 +1,10 @@
 ---
 UID: NS:tapi.lineagentgroupentry_tag
 title: LINEAGENTGROUPENTRY (tapi.h)
-description: The LINEAGENTGROUPENTRY structure provides information on ACD agent groups. The LINEAGENTGROUPLIST structure can contain an array of LINEAGENTGROUPENTRY structures.helpviewer_keywords: ["*LPLINEAGENTGROUPENTRY","LINEAGENTGROUPENTRY","LINEAGENTGROUPENTRY structure [TAPI 2.2]","LPLINEAGENTGROUPENTRY","LPLINEAGENTGROUPENTRY structure pointer [TAPI 2.2]","_tapi2_lineagentgroupentry_str","tapi/LINEAGENTGROUPENTRY","tapi/LPLINEAGENTGROUPENTRY","tapi2.lineagentgroupentry_str"]
+description: The LINEAGENTGROUPENTRY structure provides information on ACD agent groups. The LINEAGENTGROUPLIST structure can contain an array of LINEAGENTGROUPENTRY structures.
+helpviewer_keywords: ["*LPLINEAGENTGROUPENTRY","LINEAGENTGROUPENTRY","LINEAGENTGROUPENTRY structure [TAPI 2.2]","LPLINEAGENTGROUPENTRY","LPLINEAGENTGROUPENTRY structure pointer [TAPI 2.2]","_tapi2_lineagentgroupentry_str","tapi/LINEAGENTGROUPENTRY","tapi/LPLINEAGENTGROUPENTRY","tapi2.lineagentgroupentry_str"]
 old-location: tapi2\lineagentgroupentry_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b1814ef7-7585-4203-8eb2-6862445f9114
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY structure [TAPI 2.2], LPLINEAGENTGROUPENTRY, LPLINEAGENTGROUPENTRY structure pointer [TAPI 2.2], _tapi2_lineagentgroupentry_str, tapi/LINEAGENTGROUPENTRY, tapi/LPLINEAGENTGROUPENTRY, tapi2.lineagentgroupentry_str'

@@ -4,7 +4,7 @@ title: PFSCE_QUERY_INFO (scesvc.h)
 description: Queries service-specific information from the Security Configuration file or analysis database.
 helpviewer_keywords: ["FALSE","PFSCE_QUERY_INFO","PFSCE_QUERY_INFO callback","PFSCE_QUERY_INFO callback function [Security]","SCESVC_ANALYSIS_INFO","SCESVC_CONFIGURATION_INFO","SCE_SERVICE_ANALYSIS_INFO","SCE_SERVICE_CONFIGURATION_INFO","TRUE","_config_pfsce_query_info","scesvc/PFSCE_QUERY_INFO","security.pfsce_query_info"]
 old-location: security\pfsce_query_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: a0e4a205-46d4-47c9-97cf-66f6bec34a1b
 ms.date: 12/05/2018
 ms.keywords: FALSE, PFSCE_QUERY_INFO, PFSCE_QUERY_INFO callback, PFSCE_QUERY_INFO callback function [Security], SCESVC_ANALYSIS_INFO, SCESVC_CONFIGURATION_INFO, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, TRUE, _config_pfsce_query_info, scesvc/PFSCE_QUERY_INFO, security.pfsce_query_info

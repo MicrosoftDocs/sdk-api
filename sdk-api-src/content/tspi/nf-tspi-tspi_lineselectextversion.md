@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineSelectExtVersion
 title: TSPI_lineSelectExtVersion function (tspi.h)
-description: The TSPI_lineSelectExtVersion function selects the indicated extension version for the indicated line device. Subsequent requests operate according to that extension version.helpviewer_keywords: ["TSPI_lineSelectExtVersion","TSPI_lineSelectExtVersion function [TAPI 2.2]","_tspi_tspi_lineselectextversion","tspi.tspi_lineselectextversion","tspi/TSPI_lineSelectExtVersion"]
+description: The TSPI_lineSelectExtVersion function selects the indicated extension version for the indicated line device. Subsequent requests operate according to that extension version.
+helpviewer_keywords: ["TSPI_lineSelectExtVersion","TSPI_lineSelectExtVersion function [TAPI 2.2]","_tspi_tspi_lineselectextversion","tspi.tspi_lineselectextversion","tspi/TSPI_lineSelectExtVersion"]
 old-location: tspi\tspi_lineselectextversion.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8c083afc-2e15-4260-ba67-84125c777cbf
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSelectExtVersion, TSPI_lineSelectExtVersion function [TAPI 2.2], _tspi_tspi_lineselectextversion, tspi.tspi_lineselectextversion, tspi/TSPI_lineSelectExtVersion

@@ -1,9 +1,10 @@
 ---
 UID: NF:certbcli.CertSrvRestorePrepareW
 title: CertSrvRestorePrepareW function (certbcli.h)
-description: Prepares a Certificate Services instance for restore operations.helpviewer_keywords: ["CSRESTORE_TYPE_FULL","CertSrvRestorePrepare","CertSrvRestorePrepare function [Security]","CertSrvRestorePrepareW","_certsrv_certsrvrestoreprepare","certbcli/CertSrvRestorePrepare","certbcli/CertSrvRestorePrepareW","security.certsrvrestoreprepare"]
+description: Prepares a Certificate Services instance for restore operations.
+helpviewer_keywords: ["CSRESTORE_TYPE_FULL","CertSrvRestorePrepare","CertSrvRestorePrepare function [Security]","CertSrvRestorePrepareW","_certsrv_certsrvrestoreprepare","certbcli/CertSrvRestorePrepare","certbcli/CertSrvRestorePrepareW","security.certsrvrestoreprepare"]
 old-location: security\certsrvrestoreprepare.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
 ms.date: 12/05/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare

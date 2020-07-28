@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif._VMRDeinterlaceCaps
 title: VMRDeinterlaceCaps (strmif.h)
-description: The VMRDeinterlaceCaps structure describes the capabilities of a deinterlacing mode.helpviewer_keywords: ["VMRDeinterlaceCaps","VMRDeinterlaceCaps structure [DirectShow]","VMRDeinterlaceCapsStructure","dshow.vmrdeinterlacecaps","strmif/VMRDeinterlaceCaps"]
+description: The VMRDeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
+helpviewer_keywords: ["VMRDeinterlaceCaps","VMRDeinterlaceCaps structure [DirectShow]","VMRDeinterlaceCapsStructure","dshow.vmrdeinterlacecaps","strmif/VMRDeinterlaceCaps"]
 old-location: dshow\vmrdeinterlacecaps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e6152130-d574-4c9e-9d35-a42de709f9ae
 ms.date: 12/05/2018
 ms.keywords: VMRDeinterlaceCaps, VMRDeinterlaceCaps structure [DirectShow], VMRDeinterlaceCapsStructure, dshow.vmrdeinterlacecaps, strmif/VMRDeinterlaceCaps

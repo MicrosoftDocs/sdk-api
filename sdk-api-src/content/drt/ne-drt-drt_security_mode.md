@@ -1,9 +1,10 @@
 ---
 UID: NE:drt.drt_security_mode_tag
 title: DRT_SECURITY_MODE (drt.h)
-description: The DRT_SECURITY_MODE enumeration defines possible security modes for the DRT. The security mode is specified by a field of the DRT_SETTINGS structure.helpviewer_keywords: ["DRT_SECURE_CONFIDENTIALPAYLOAD","DRT_SECURE_MEMBERSHIP","DRT_SECURE_RESOLVE","DRT_SECURITY_MODE","DRT_SECURITY_MODE enumeration [Distributed Routing Tables]","drt/DRT_SECURE_CONFIDENTIALPAYLOAD","drt/DRT_SECURE_MEMBERSHIP","drt/DRT_SECURE_RESOLVE","drt/DRT_SECURITY_MODE","p2p.drt_security_mode"]
+description: The DRT_SECURITY_MODE enumeration defines possible security modes for the DRT. The security mode is specified by a field of the DRT_SETTINGS structure.
+helpviewer_keywords: ["DRT_SECURE_CONFIDENTIALPAYLOAD","DRT_SECURE_MEMBERSHIP","DRT_SECURE_RESOLVE","DRT_SECURITY_MODE","DRT_SECURITY_MODE enumeration [Distributed Routing Tables]","drt/DRT_SECURE_CONFIDENTIALPAYLOAD","drt/DRT_SECURE_MEMBERSHIP","drt/DRT_SECURE_RESOLVE","drt/DRT_SECURITY_MODE","p2p.drt_security_mode"]
 old-location: p2p\drt_security_mode.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 652942a3-94cd-466c-bf7c-80e87ba692c4
 ms.date: 12/05/2018
 ms.keywords: DRT_SECURE_CONFIDENTIALPAYLOAD, DRT_SECURE_MEMBERSHIP, DRT_SECURE_RESOLVE, DRT_SECURITY_MODE, DRT_SECURITY_MODE enumeration [Distributed Routing Tables], drt/DRT_SECURE_CONFIDENTIALPAYLOAD, drt/DRT_SECURE_MEMBERSHIP, drt/DRT_SECURE_RESOLVE, drt/DRT_SECURITY_MODE, p2p.drt_security_mode

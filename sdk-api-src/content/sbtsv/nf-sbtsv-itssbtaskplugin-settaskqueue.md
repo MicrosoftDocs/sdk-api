@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPlugin.SetTaskQueue
 title: ITsSbTaskPlugin::SetTaskQueue (sbtsv.h)
-description: Updates a task in the queue of a Remote Desktop Connection Broker plugin.helpviewer_keywords: ["ITsSbTaskPlugin interface [Remote Desktop Services]","SetTaskQueue method","ITsSbTaskPlugin.SetTaskQueue","ITsSbTaskPlugin::SetTaskQueue","SetTaskQueue","SetTaskQueue method [Remote Desktop Services]","SetTaskQueue method [Remote Desktop Services]","ITsSbTaskPlugin interface","sbtsv/ITsSbTaskPlugin::SetTaskQueue","termserv.itssbtaskplugin_settaskqueue"]
+description: Updates a task in the queue of a Remote Desktop Connection Broker plugin.
+helpviewer_keywords: ["ITsSbTaskPlugin interface [Remote Desktop Services]","SetTaskQueue method","ITsSbTaskPlugin.SetTaskQueue","ITsSbTaskPlugin::SetTaskQueue","SetTaskQueue","SetTaskQueue method [Remote Desktop Services]","SetTaskQueue method [Remote Desktop Services]","ITsSbTaskPlugin interface","sbtsv/ITsSbTaskPlugin::SetTaskQueue","termserv.itssbtaskplugin_settaskqueue"]
 old-location: termserv\itssbtaskplugin_settaskqueue.htm
 tech.root: TermServ
 ms.assetid: a17e4767-5311-4f9b-9d05-cd9e35f7c5e2

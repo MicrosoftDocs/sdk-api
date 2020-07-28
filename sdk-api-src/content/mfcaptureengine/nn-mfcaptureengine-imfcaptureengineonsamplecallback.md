@@ -1,9 +1,10 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback
 title: IMFCaptureEngineOnSampleCallback (mfcaptureengine.h)
-description: Callback interface to receive data from the capture engine.helpviewer_keywords: ["IMFCaptureEngineOnSampleCallback","IMFCaptureEngineOnSampleCallback interface [Media Foundation]","IMFCaptureEngineOnSampleCallback interface [Media Foundation]","described","mf.imfcaptureengineonsamplecallback","mfcaptureengine/IMFCaptureEngineOnSampleCallback"]
+description: Callback interface to receive data from the capture engine.
+helpviewer_keywords: ["IMFCaptureEngineOnSampleCallback","IMFCaptureEngineOnSampleCallback interface [Media Foundation]","IMFCaptureEngineOnSampleCallback interface [Media Foundation]","described","mf.imfcaptureengineonsamplecallback","mfcaptureengine/IMFCaptureEngineOnSampleCallback"]
 old-location: mf\imfcaptureengineonsamplecallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7C621525-CCD2-45EC-9E7A-3A774B96EA6F
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback, IMFCaptureEngineOnSampleCallback interface [Media Foundation], IMFCaptureEngineOnSampleCallback interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback, mfcaptureengine/IMFCaptureEngineOnSampleCallback

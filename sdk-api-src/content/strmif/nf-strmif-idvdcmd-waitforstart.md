@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdCmd.WaitForStart
 title: IDvdCmd::WaitForStart (strmif.h)
-description: The WaitForStart method blocks the DVD Navigator until the command associated with this object begins.helpviewer_keywords: ["IDvdCmd interface [DirectShow]","WaitForStart method","IDvdCmd.WaitForStart","IDvdCmd::WaitForStart","IDvdCmdWaitForStart","WaitForStart","WaitForStart method [DirectShow]","WaitForStart method [DirectShow]","IDvdCmd interface","dshow.idvdcmd_waitforstart","strmif/IDvdCmd::WaitForStart"]
+description: The WaitForStart method blocks the DVD Navigator until the command associated with this object begins.
+helpviewer_keywords: ["IDvdCmd interface [DirectShow]","WaitForStart method","IDvdCmd.WaitForStart","IDvdCmd::WaitForStart","IDvdCmdWaitForStart","WaitForStart","WaitForStart method [DirectShow]","WaitForStart method [DirectShow]","IDvdCmd interface","dshow.idvdcmd_waitforstart","strmif/IDvdCmd::WaitForStart"]
 old-location: dshow\idvdcmd_waitforstart.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7badcc93-b5e7-4f43-bd71-a0b9ddfb0053
 ms.date: 12/05/2018
 ms.keywords: IDvdCmd interface [DirectShow],WaitForStart method, IDvdCmd.WaitForStart, IDvdCmd::WaitForStart, IDvdCmdWaitForStart, WaitForStart, WaitForStart method [DirectShow], WaitForStart method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforstart, strmif/IDvdCmd::WaitForStart

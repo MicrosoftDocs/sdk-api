@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.put_DefaultSubChannelTypes
 title: IBPCSatelliteTuner::put_DefaultSubChannelTypes (strmif.h)
-description: Note  The IBPCSatelliteTuner interface is deprecated. Sets the default sub-channel types.helpviewer_keywords: ["IBPCSatelliteTuner interface [DirectShow]","put_DefaultSubChannelTypes method","IBPCSatelliteTuner.put_DefaultSubChannelTypes","IBPCSatelliteTuner::put_DefaultSubChannelTypes","IBPCSatelliteTunerput_DefaultSubChannelTypes","dshow.ibpcsatellitetuner_put_defaultsubchanneltypes","put_DefaultSubChannelTypes","put_DefaultSubChannelTypes method [DirectShow]","put_DefaultSubChannelTypes method [DirectShow]","IBPCSatelliteTuner interface","strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes"]
+description: Note  The IBPCSatelliteTuner interface is deprecated. Sets the default sub-channel types.
+helpviewer_keywords: ["IBPCSatelliteTuner interface [DirectShow]","put_DefaultSubChannelTypes method","IBPCSatelliteTuner.put_DefaultSubChannelTypes","IBPCSatelliteTuner::put_DefaultSubChannelTypes","IBPCSatelliteTunerput_DefaultSubChannelTypes","dshow.ibpcsatellitetuner_put_defaultsubchanneltypes","put_DefaultSubChannelTypes","put_DefaultSubChannelTypes method [DirectShow]","put_DefaultSubChannelTypes method [DirectShow]","IBPCSatelliteTuner interface","strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes"]
 old-location: dshow\ibpcsatellitetuner_put_defaultsubchanneltypes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 90f73ca0-1d9a-4161-bc86-d69cc71e88c6
 ms.date: 12/05/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],put_DefaultSubChannelTypes method, IBPCSatelliteTuner.put_DefaultSubChannelTypes, IBPCSatelliteTuner::put_DefaultSubChannelTypes, IBPCSatelliteTunerput_DefaultSubChannelTypes, dshow.ibpcsatellitetuner_put_defaultsubchanneltypes, put_DefaultSubChannelTypes, put_DefaultSubChannelTypes method [DirectShow], put_DefaultSubChannelTypes method [DirectShow],IBPCSatelliteTuner interface, strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes

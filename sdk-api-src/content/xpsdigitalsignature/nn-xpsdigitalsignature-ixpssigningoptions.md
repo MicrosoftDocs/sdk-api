@@ -4,7 +4,7 @@ title: IXpsSigningOptions (xpsdigitalsignature.h)
 description: Provides access to the individual signing options that are used by new signatures.
 helpviewer_keywords: ["IXpsSigningOptions","IXpsSigningOptions interface [XPS Documents and Packaging]","IXpsSigningOptions interface [XPS Documents and Packaging]","described","xps.ixpssigningoptions","xpsdigitalsignature/IXpsSigningOptions"]
 old-location: xps\ixpssigningoptions.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 71b9b348-1078-4f55-a071-e5e2f273f85c
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], IXpsSigningOptions interface [XPS Documents and Packaging],described, xps.ixpssigningoptions, xpsdigitalsignature/IXpsSigningOptions

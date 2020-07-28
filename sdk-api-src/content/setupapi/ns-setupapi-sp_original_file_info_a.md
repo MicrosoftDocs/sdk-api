@@ -1,9 +1,10 @@
 ---
 UID: NS:setupapi._SP_ORIGINAL_FILE_INFO_A
 title: SP_ORIGINAL_FILE_INFO_A (setupapi.h)
-description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.helpviewer_keywords: ["*PSP_ORIGINAL_FILE_INFO_A","PSP_ORIGINAL_FILE_INFO","PSP_ORIGINAL_FILE_INFO structure pointer [Setup API]","SP_ORIGINAL_FILE_INFO","SP_ORIGINAL_FILE_INFO structure [Setup API]","SP_ORIGINAL_FILE_INFO_A","_setupapi_sp_original_file_info","setup.sp_original_file_info","setupapi/PSP_ORIGINAL_FILE_INFO","setupapi/SP_ORIGINAL_FILE_INFO"]
+description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
+helpviewer_keywords: ["*PSP_ORIGINAL_FILE_INFO_A","PSP_ORIGINAL_FILE_INFO","PSP_ORIGINAL_FILE_INFO structure pointer [Setup API]","SP_ORIGINAL_FILE_INFO","SP_ORIGINAL_FILE_INFO structure [Setup API]","SP_ORIGINAL_FILE_INFO_A","_setupapi_sp_original_file_info","setup.sp_original_file_info","setupapi/PSP_ORIGINAL_FILE_INFO","setupapi/SP_ORIGINAL_FILE_INFO"]
 old-location: setup\sp_original_file_info.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 9ce09717-7f01-4044-ad6b-edd04a2445f5
 ms.date: 12/05/2018
 ms.keywords: '*PSP_ORIGINAL_FILE_INFO_A, PSP_ORIGINAL_FILE_INFO, PSP_ORIGINAL_FILE_INFO structure pointer [Setup API], SP_ORIGINAL_FILE_INFO, SP_ORIGINAL_FILE_INFO structure [Setup API], SP_ORIGINAL_FILE_INFO_A, _setupapi_sp_original_file_info, setup.sp_original_file_info, setupapi/PSP_ORIGINAL_FILE_INFO, setupapi/SP_ORIGINAL_FILE_INFO'
@@ -88,4 +89,9 @@ Catalog name of the INF file stored in array of size MAX_PATH.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SP_ORIGINAL_FILE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

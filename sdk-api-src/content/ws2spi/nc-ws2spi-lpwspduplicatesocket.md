@@ -1,7 +1,9 @@
 ---
 UID: NC:ws2spi.LPWSPDUPLICATESOCKET
 title: LPWSPDUPLICATESOCKET
-description: The LPWSPDuplicateSocket function returns a WSAPROTOCOL_INFO structure that can be used to create a new socket descriptor for a shared socket.helpviewer_keywords: ["LPWSPDUPLICATESOCKET"]
+description: The LPWSPDuplicateSocket function returns a WSAPROTOCOL_INFO structure that can be used to create a new socket descriptor for a shared socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPDUPLICATESOCKET"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPDUPLICATESOCKET
 targetos: Windows

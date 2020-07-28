@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerPnrpStartup
 title: PeerPnrpStartup function (p2p.h)
-description: Starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.helpviewer_keywords: ["PeerPnrpStartup","PeerPnrpStartup function [Peer Networking]","p2p.peerpnrpstartup","p2p/PeerPnrpStartup"]
+description: Starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.
+helpviewer_keywords: ["PeerPnrpStartup","PeerPnrpStartup function [Peer Networking]","p2p.peerpnrpstartup","p2p/PeerPnrpStartup"]
 old-location: p2p\peerpnrpstartup.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 27d8d6ab-679d-4b7b-bf90-7b0859e7e048
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpStartup, PeerPnrpStartup function [Peer Networking], p2p.peerpnrpstartup, p2p/PeerPnrpStartup

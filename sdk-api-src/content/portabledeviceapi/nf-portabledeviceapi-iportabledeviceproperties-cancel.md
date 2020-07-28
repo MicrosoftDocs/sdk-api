@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.Cancel
 title: IPortableDeviceProperties::Cancel (portabledeviceapi.h)
-description: The Cancel method cancels a pending call.helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","IPortableDeviceProperties interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceProperties.Cancel","IPortableDeviceProperties::Cancel","IPortableDevicePropertiesCancel","portabledeviceapi/IPortableDeviceProperties::Cancel","wpdsdk.iportabledeviceproperties_cancel"]
+description: The Cancel method cancels a pending call.
+helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","IPortableDeviceProperties interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceProperties.Cancel","IPortableDeviceProperties::Cancel","IPortableDevicePropertiesCancel","portabledeviceapi/IPortableDeviceProperties::Cancel","wpdsdk.iportabledeviceproperties_cancel"]
 old-location: wpdsdk\iportabledeviceproperties_cancel.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 6443e742-1296-4be4-b426-1f277406c01c
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceProperties.Cancel, IPortableDeviceProperties::Cancel, IPortableDevicePropertiesCancel, portabledeviceapi/IPortableDeviceProperties::Cancel, wpdsdk.iportabledeviceproperties_cancel

@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.BIT_MASKS_MATCH
 title: BIT_MASKS_MATCH macro (amvideo.h)
-description: The BIT_MASKS_MATCH macro compares the color masks for two VIDEOINFO structures.helpviewer_keywords: ["BIT_MASKS_MATCH","BIT_MASKS_MATCH macro [DirectShow]","amvideo/BIT_MASKS_MATCH","dshow.bit_masks_match"]
+description: The BIT_MASKS_MATCH macro compares the color masks for two VIDEOINFO structures.
+helpviewer_keywords: ["BIT_MASKS_MATCH","BIT_MASKS_MATCH macro [DirectShow]","amvideo/BIT_MASKS_MATCH","dshow.bit_masks_match"]
 old-location: dshow\bit_masks_match.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2b9d18fd-3251-4ab4-bb79-33829190f1b8
 ms.date: 12/05/2018
 ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MASKS_MATCH, dshow.bit_masks_match

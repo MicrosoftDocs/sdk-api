@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.Close
 title: IMFMediaKeySession::Close (mfmediaengine.h)
-description: Closes the media key session and must be called before the key session is released.helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFMediaKeySession interface","IMFMediaKeySession interface [Media Foundation]","Close method","IMFMediaKeySession.Close","IMFMediaKeySession::Close","mf.imfmediakeysession_close","mfmediaengine/IMFMediaKeySession::Close"]
+description: Closes the media key session and must be called before the key session is released.
+helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFMediaKeySession interface","IMFMediaKeySession interface [Media Foundation]","Close method","IMFMediaKeySession.Close","IMFMediaKeySession::Close","mf.imfmediakeysession_close","mfmediaengine/IMFMediaKeySession::Close"]
 old-location: mf\imfmediakeysession_close.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 97c6b4bd-a973-4475-a325-0373af9b54b1
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaKeySession interface, IMFMediaKeySession interface [Media Foundation],Close method, IMFMediaKeySession.Close, IMFMediaKeySession::Close, mf.imfmediakeysession_close, mfmediaengine/IMFMediaKeySession::Close

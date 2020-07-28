@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiRecordSetStringW
 title: MsiRecordSetStringW function (msiquery.h)
-description: The MsiRecordSetString function copies a string into the designated field.helpviewer_keywords: ["MsiRecordSetString","MsiRecordSetString function","MsiRecordSetStringA","MsiRecordSetStringW","_msi_msirecordsetstring","msiquery/MsiRecordSetString","msiquery/MsiRecordSetStringA","msiquery/MsiRecordSetStringW","setup.msirecordsetstring"]
+description: The MsiRecordSetString function copies a string into the designated field.
+helpviewer_keywords: ["MsiRecordSetString","MsiRecordSetString function","MsiRecordSetStringA","MsiRecordSetStringW","_msi_msirecordsetstring","msiquery/MsiRecordSetString","msiquery/MsiRecordSetStringA","msiquery/MsiRecordSetStringW","setup.msirecordsetstring"]
 old-location: setup\msirecordsetstring.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetStringA, MsiRecordSetStringW, _msi_msirecordsetstring, msiquery/MsiRecordSetString, msiquery/MsiRecordSetStringA, msiquery/MsiRecordSetStringW, setup.msirecordsetstring
@@ -96,6 +97,10 @@ To set a record string field to null, set szValue to either a null string or an 
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiRecordSetString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

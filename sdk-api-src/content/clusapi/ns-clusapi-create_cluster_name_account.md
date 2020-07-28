@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._CREATE_CLUSTER_NAME_ACCOUNT
 title: CREATE_CLUSTER_NAME_ACCOUNT (clusapi.h)
-description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.helpviewer_keywords: ["*PCREATE_CLUSTER_NAME_ACCOUNT","CREATE_CLUSTER_NAME_ACCOUNT","CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster]","PCREATE_CLUSTER_NAME_ACCOUNT","PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster]","clusapi/CREATE_CLUSTER_NAME_ACCOUNT","clusapi/PCREATE_CLUSTER_NAME_ACCOUNT","mscs.create_cluster_name_account"]
+description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.
+helpviewer_keywords: ["*PCREATE_CLUSTER_NAME_ACCOUNT","CREATE_CLUSTER_NAME_ACCOUNT","CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster]","PCREATE_CLUSTER_NAME_ACCOUNT","PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster]","clusapi/CREATE_CLUSTER_NAME_ACCOUNT","clusapi/PCREATE_CLUSTER_NAME_ACCOUNT","mscs.create_cluster_name_account"]
 old-location: mscs\create_cluster_name_account.htm
 tech.root: MsCS
 ms.assetid: 21D43B28-0B14-4A00-BDEE-B2B769BF9777

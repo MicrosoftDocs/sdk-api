@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_Subject
 title: IX509CertificateRequestPkcs10::put_Subject (certenroll.h)
-description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate.helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","Subject property","IX509CertificateRequestPkcs10.Subject","IX509CertificateRequestPkcs10.put_Subject","IX509CertificateRequestPkcs10::Subject","IX509CertificateRequestPkcs10::get_Subject","IX509CertificateRequestPkcs10::put_Subject","Subject property [Security]","Subject property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::Subject","certenroll/IX509CertificateRequestPkcs10::get_Subject","certenroll/IX509CertificateRequestPkcs10::put_Subject","put_Subject","security.ix509certificaterequestpkcs10_subject_property"]
+description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate.
+helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","Subject property","IX509CertificateRequestPkcs10.Subject","IX509CertificateRequestPkcs10.put_Subject","IX509CertificateRequestPkcs10::Subject","IX509CertificateRequestPkcs10::get_Subject","IX509CertificateRequestPkcs10::put_Subject","Subject property [Security]","Subject property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::Subject","certenroll/IX509CertificateRequestPkcs10::get_Subject","certenroll/IX509CertificateRequestPkcs10::put_Subject","put_Subject","security.ix509certificaterequestpkcs10_subject_property"]
 old-location: security\ix509certificaterequestpkcs10_subject_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7b521586-f2fc-4b2f-83ab-79f9b972f9a1
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],Subject property, IX509CertificateRequestPkcs10.Subject, IX509CertificateRequestPkcs10.put_Subject, IX509CertificateRequestPkcs10::Subject, IX509CertificateRequestPkcs10::get_Subject, IX509CertificateRequestPkcs10::put_Subject, Subject property [Security], Subject property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::Subject, certenroll/IX509CertificateRequestPkcs10::get_Subject, certenroll/IX509CertificateRequestPkcs10::put_Subject, put_Subject, security.ix509certificaterequestpkcs10_subject_property

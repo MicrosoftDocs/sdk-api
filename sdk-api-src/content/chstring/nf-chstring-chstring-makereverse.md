@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.MakeReverse
 title: CHString::MakeReverse (chstring.h)
-description: The MakeReverse method reverses the order of the characters in a CHString string.helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","MakeReverse method","CHString.MakeReverse","CHString::MakeReverse","MakeReverse","MakeReverse method [Windows Management Instrumentation]","MakeReverse method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_makereverse","chstring/CHString::MakeReverse","wmi.chstring_makereverse"]
+description: The MakeReverse method reverses the order of the characters in a CHString string.
+helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","MakeReverse method","CHString.MakeReverse","CHString::MakeReverse","MakeReverse","MakeReverse method [Windows Management Instrumentation]","MakeReverse method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_makereverse","chstring/CHString::MakeReverse","wmi.chstring_makereverse"]
 old-location: wmi\chstring_makereverse.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 129792cf-e442-4491-b921-273363809210
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],MakeReverse method, CHString.MakeReverse, CHString::MakeReverse, MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse

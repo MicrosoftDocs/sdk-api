@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_DeviceName
 title: IFaxOutgoingMessage::get_DeviceName (faxcomex.h)
-description: The IFaxOutgoingMessage::get_DeviceName property is a null-terminated string that contains the name of the device on which the fax message was transmitted.helpviewer_keywords: ["DeviceName property [Fax Service]","DeviceName property [Fax Service]","IFaxOutgoingMessage interface","IFaxOutgoingMessage interface [Fax Service]","DeviceName property","IFaxOutgoingMessage.DeviceName","IFaxOutgoingMessage.get_DeviceName","IFaxOutgoingMessage::DeviceName","IFaxOutgoingMessage::get_DeviceName","_mfax_faxoutgoingmessage.devicename","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp","fax._mfax_faxoutgoingmessage_devicename","faxcomex/IFaxOutgoingMessage::DeviceName","faxcomex/IFaxOutgoingMessage::get_DeviceName","get_DeviceName"]
+description: The IFaxOutgoingMessage::get_DeviceName property is a null-terminated string that contains the name of the device on which the fax message was transmitted.
+helpviewer_keywords: ["DeviceName property [Fax Service]","DeviceName property [Fax Service]","IFaxOutgoingMessage interface","IFaxOutgoingMessage interface [Fax Service]","DeviceName property","IFaxOutgoingMessage.DeviceName","IFaxOutgoingMessage.get_DeviceName","IFaxOutgoingMessage::DeviceName","IFaxOutgoingMessage::get_DeviceName","_mfax_faxoutgoingmessage.devicename","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp","fax._mfax_faxoutgoingmessage_devicename","faxcomex/IFaxOutgoingMessage::DeviceName","faxcomex/IFaxOutgoingMessage::get_DeviceName","get_DeviceName"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qw5.htm

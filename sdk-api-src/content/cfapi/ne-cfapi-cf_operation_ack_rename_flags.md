@@ -1,9 +1,10 @@
 ---
 UID: NE:cfapi.CF_OPERATION_ACK_RENAME_FLAGS
 title: CF_OPERATION_ACK_RENAME_FLAGS (cfapi.h)
-description: Flags for acknowledging placeholder file or directory renaming.helpviewer_keywords: ["CF_OPERATION_ACK_RENAME_FLAGS","CF_OPERATION_ACK_RENAME_FLAGS enumeration","CF_OPERATION_ACK_RENAME_FLAG_NONE","cfapi/CF_OPERATION_ACK_RENAME_FLAGS","cfapi/CF_OPERATION_ACK_RENAME_FLAG_NONE","cloudApi.cf_operation_ack_rename_flags"]
+description: Flags for acknowledging placeholder file or directory renaming.
+helpviewer_keywords: ["CF_OPERATION_ACK_RENAME_FLAGS","CF_OPERATION_ACK_RENAME_FLAGS enumeration","CF_OPERATION_ACK_RENAME_FLAG_NONE","cfapi/CF_OPERATION_ACK_RENAME_FLAGS","cfapi/CF_OPERATION_ACK_RENAME_FLAG_NONE","cloudApi.cf_operation_ack_rename_flags"]
 old-location: cloudapi\cf_operation_ack_rename_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 2EAABBAE-8737-4399-8C39-7D63B45C52B3
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_RENAME_FLAGS, CF_OPERATION_ACK_RENAME_FLAGS enumeration, CF_OPERATION_ACK_RENAME_FLAG_NONE, cfapi/CF_OPERATION_ACK_RENAME_FLAGS, cfapi/CF_OPERATION_ACK_RENAME_FLAG_NONE, cloudApi.cf_operation_ack_rename_flags

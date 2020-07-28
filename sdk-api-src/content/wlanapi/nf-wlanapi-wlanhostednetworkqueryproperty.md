@@ -4,7 +4,7 @@ title: WlanHostedNetworkQueryProperty function (wlanapi.h)
 description: Queries the current static properties of the wireless Hosted Network.
 helpviewer_keywords: ["WlanHostedNetworkQueryProperty","WlanHostedNetworkQueryProperty function [NativeWIFI]","nwifi.wlanhostednetworkqueryproperty","wlanapi/WlanHostedNetworkQueryProperty"]
 old-location: nwifi\wlanhostednetworkqueryproperty.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: bab05629-c921-4639-94db-25f77742dbd3
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQueryProperty, WlanHostedNetworkQueryProperty function [NativeWIFI], nwifi.wlanhostednetworkqueryproperty, wlanapi/WlanHostedNetworkQueryProperty

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Resource.GetHeapProperties
 title: ID3D12Resource::GetHeapProperties (d3d12.h)
-description: Retrieves the properties of the resource heap, for placed and committed resources.helpviewer_keywords: ["GetHeapProperties","GetHeapProperties method","GetHeapProperties method","ID3D12Resource interface","ID3D12Resource interface","GetHeapProperties method","ID3D12Resource.GetHeapProperties","ID3D12Resource::GetHeapProperties","d3d12/ID3D12Resource::GetHeapProperties","direct3d12.id3d12resource_getheapproperties"]
+description: Retrieves the properties of the resource heap, for placed and committed resources.
+helpviewer_keywords: ["GetHeapProperties","GetHeapProperties method","GetHeapProperties method","ID3D12Resource interface","ID3D12Resource interface","GetHeapProperties method","ID3D12Resource.GetHeapProperties","ID3D12Resource::GetHeapProperties","d3d12/ID3D12Resource::GetHeapProperties","direct3d12.id3d12resource_getheapproperties"]
 old-location: direct3d12\id3d12resource_getheapproperties.htm
 tech.root: direct3d12
 ms.assetid: 7F76986D-02F1-4E5A-B9A4-CFB021B72026

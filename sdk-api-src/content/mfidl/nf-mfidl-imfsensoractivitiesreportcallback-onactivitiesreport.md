@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReportCallback.OnActivitiesReport
 title: IMFSensorActivitiesReportCallback::OnActivitiesReport (mfidl.h)
-description: Raised by the media pipeline when a new IMFSensorActivitiesReport is available.helpviewer_keywords: ["IMFSensorActivitiesReportCallback interface [Media Foundation]","OnActivitiesReport method","IMFSensorActivitiesReportCallback.OnActivitiesReport","IMFSensorActivitiesReportCallback::OnActivitiesReport","OnActivitiesReport","OnActivitiesReport method [Media Foundation]","OnActivitiesReport method [Media Foundation]","IMFSensorActivitiesReportCallback interface","mf.imfsensoractivitiesreportcallback_onactivitiesreport","mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport"]
+description: Raised by the media pipeline when a new IMFSensorActivitiesReport is available.
+helpviewer_keywords: ["IMFSensorActivitiesReportCallback interface [Media Foundation]","OnActivitiesReport method","IMFSensorActivitiesReportCallback.OnActivitiesReport","IMFSensorActivitiesReportCallback::OnActivitiesReport","OnActivitiesReport","OnActivitiesReport method [Media Foundation]","OnActivitiesReport method [Media Foundation]","IMFSensorActivitiesReportCallback interface","mf.imfsensoractivitiesreportcallback_onactivitiesreport","mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport"]
 old-location: mf\imfsensoractivitiesreportcallback_onactivitiesreport.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B4D2332C-757F-4A2A-A12B-81BB503B02A4
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnActivitiesReport method, IMFSensorActivitiesReportCallback.OnActivitiesReport, IMFSensorActivitiesReportCallback::OnActivitiesReport, OnActivitiesReport, OnActivitiesReport method [Media Foundation], OnActivitiesReport method [Media Foundation],IMFSensorActivitiesReportCallback interface, mf.imfsensoractivitiesreportcallback_onactivitiesreport, mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport

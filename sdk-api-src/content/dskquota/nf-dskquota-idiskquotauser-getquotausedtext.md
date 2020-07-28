@@ -1,9 +1,10 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaUsedText
 title: IDiskQuotaUser::GetQuotaUsedText (dskquota.h)
-description: Retrieves the user's quota used value for the volume.helpviewer_keywords: ["GetQuotaUsedText","GetQuotaUsedText method [Files]","GetQuotaUsedText method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaUsedText method","IDiskQuotaUser.GetQuotaUsedText","IDiskQuotaUser::GetQuotaUsedText","_win32_idiskquotauser_getquotausedtext","base.idiskquotauser_getquotausedtext","dskquota/IDiskQuotaUser::GetQuotaUsedText","fs.idiskquotauser_getquotausedtext"]
+description: Retrieves the user's quota used value for the volume.
+helpviewer_keywords: ["GetQuotaUsedText","GetQuotaUsedText method [Files]","GetQuotaUsedText method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaUsedText method","IDiskQuotaUser.GetQuotaUsedText","IDiskQuotaUser::GetQuotaUsedText","_win32_idiskquotauser_getquotausedtext","base.idiskquotauser_getquotausedtext","dskquota/IDiskQuotaUser::GetQuotaUsedText","fs.idiskquotauser_getquotausedtext"]
 old-location: fs\idiskquotauser_getquotausedtext.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 401362a3-ee68-4af1-9ea5-c871c060ef33
 ms.date: 12/05/2018
 ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsedText method, IDiskQuotaUser.GetQuotaUsedText, IDiskQuotaUser::GetQuotaUsedText, _win32_idiskquotauser_getquotausedtext, base.idiskquotauser_getquotausedtext, dskquota/IDiskQuotaUser::GetQuotaUsedText, fs.idiskquotauser_getquotausedtext

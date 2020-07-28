@@ -1,7 +1,8 @@
 ---
 UID: NS:nb30._FIND_NAME_BUFFER
 title: FIND_NAME_BUFFER (nb30.h)
-description: The FIND_NAME_BUFFER structure contains information about a local network session.helpviewer_keywords: ["*PFIND_NAME_BUFFER","FIND_NAME_BUFFER","FIND_NAME_BUFFER structure [NetBIOS]","PFIND_NAME_BUFFER","PFIND_NAME_BUFFER structure pointer [NetBIOS]","nb30/FIND_NAME_BUFFER","nb30/PFIND_NAME_BUFFER","netbios.find_name_buffer"]
+description: The FIND_NAME_BUFFER structure contains information about a local network session.
+helpviewer_keywords: ["*PFIND_NAME_BUFFER","FIND_NAME_BUFFER","FIND_NAME_BUFFER structure [NetBIOS]","PFIND_NAME_BUFFER","PFIND_NAME_BUFFER structure pointer [NetBIOS]","nb30/FIND_NAME_BUFFER","nb30/PFIND_NAME_BUFFER","netbios.find_name_buffer"]
 old-location: netbios\find_name_buffer.htm
 tech.root: NetBIOS
 ms.assetid: d35cd375-6207-4019-bd3e-20dc302e9c45

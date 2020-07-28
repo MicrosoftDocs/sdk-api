@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.Initialize
 title: IMFASFIndexer::Initialize (wmcontainer.h)
-description: Initializes the indexer object.helpviewer_keywords: ["IMFASFIndexer interface [Media Foundation]","Initialize method","IMFASFIndexer.Initialize","IMFASFIndexer::Initialize","Initialize","Initialize method [Media Foundation]","Initialize method [Media Foundation]","IMFASFIndexer interface","c02931d3-7b43-43a9-9e4e-00945ba3c8d8","mf.imfasfindexer_initialize","wmcontainer/IMFASFIndexer::Initialize"]
+description: Initializes the indexer object.
+helpviewer_keywords: ["IMFASFIndexer interface [Media Foundation]","Initialize method","IMFASFIndexer.Initialize","IMFASFIndexer::Initialize","Initialize","Initialize method [Media Foundation]","Initialize method [Media Foundation]","IMFASFIndexer interface","c02931d3-7b43-43a9-9e4e-00945ba3c8d8","mf.imfasfindexer_initialize","wmcontainer/IMFASFIndexer::Initialize"]
 old-location: mf\imfasfindexer_initialize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
 ms.date: 12/05/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize

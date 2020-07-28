@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IWEInvokeCommand.InvokeCommand
 title: IWEInvokeCommand::InvokeCommand (cluadmex.h)
-description: Allows you to implement procedures that execute when users select your context menu items.helpviewer_keywords: ["IWEInvokeCommand interface [Failover Cluster]","InvokeCommand method","IWEInvokeCommand.InvokeCommand","IWEInvokeCommand::InvokeCommand","InvokeCommand","InvokeCommand method [Failover Cluster]","InvokeCommand method [Failover Cluster]","IWEInvokeCommand interface","_wolf_iweinvokecommand_invokecommand","cluadmex/IWEInvokeCommand::InvokeCommand","mscs.iweinvokecommand_invokecommand"]
+description: Allows you to implement procedures that execute when users select your context menu items.
+helpviewer_keywords: ["IWEInvokeCommand interface [Failover Cluster]","InvokeCommand method","IWEInvokeCommand.InvokeCommand","IWEInvokeCommand::InvokeCommand","InvokeCommand","InvokeCommand method [Failover Cluster]","InvokeCommand method [Failover Cluster]","IWEInvokeCommand interface","_wolf_iweinvokecommand_invokecommand","cluadmex/IWEInvokeCommand::InvokeCommand","mscs.iweinvokecommand_invokecommand"]
 old-location: mscs\iweinvokecommand_invokecommand.htm
 tech.root: MsCS
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383

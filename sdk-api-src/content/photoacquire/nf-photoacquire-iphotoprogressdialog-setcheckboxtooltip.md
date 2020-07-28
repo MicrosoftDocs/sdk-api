@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxTooltip
 title: IPhotoProgressDialog::SetCheckboxTooltip (photoacquire.h)
-description: The SetCheckboxTooltip method sets the tooltip text for the check box in the progress dialog box.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCheckboxTooltip method","IPhotoProgressDialog.SetCheckboxTooltip","IPhotoProgressDialog::SetCheckboxTooltip","IPhotoProgressDialogSetCheckboxTooltip","SetCheckboxTooltip","SetCheckboxTooltip method [Picture Acquisition]","SetCheckboxTooltip method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCheckboxTooltip","picacq.iphotoprogressdialog_setcheckboxtooltip"]
+description: The SetCheckboxTooltip method sets the tooltip text for the check box in the progress dialog box.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCheckboxTooltip method","IPhotoProgressDialog.SetCheckboxTooltip","IPhotoProgressDialog::SetCheckboxTooltip","IPhotoProgressDialogSetCheckboxTooltip","SetCheckboxTooltip","SetCheckboxTooltip method [Picture Acquisition]","SetCheckboxTooltip method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCheckboxTooltip","picacq.iphotoprogressdialog_setcheckboxtooltip"]
 old-location: picacq\iphotoprogressdialog_setcheckboxtooltip.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 88719891-9661-4766-adce-6b74cf9a87ef
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxTooltip method, IPhotoProgressDialog.SetCheckboxTooltip, IPhotoProgressDialog::SetCheckboxTooltip, IPhotoProgressDialogSetCheckboxTooltip, SetCheckboxTooltip, SetCheckboxTooltip method [Picture Acquisition], SetCheckboxTooltip method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxTooltip, picacq.iphotoprogressdialog_setcheckboxtooltip

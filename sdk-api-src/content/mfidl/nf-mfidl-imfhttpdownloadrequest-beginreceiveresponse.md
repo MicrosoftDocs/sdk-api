@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReceiveResponse
 title: IMFHttpDownloadRequest::BeginReceiveResponse (mfidl.h)
-description: Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the EndSendRequest method.helpviewer_keywords: ["BeginReceiveResponse","BeginReceiveResponse method [Media Foundation]","BeginReceiveResponse method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","BeginReceiveResponse method","IMFHttpDownloadRequest.BeginReceiveResponse","IMFHttpDownloadRequest::BeginReceiveResponse","mf.imfhttpdownloadrequest_beginreceiveresponse","mfidl/IMFHttpDownloadRequest::BeginReceiveResponse"]
+description: Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the EndSendRequest method.
+helpviewer_keywords: ["BeginReceiveResponse","BeginReceiveResponse method [Media Foundation]","BeginReceiveResponse method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","BeginReceiveResponse method","IMFHttpDownloadRequest.BeginReceiveResponse","IMFHttpDownloadRequest::BeginReceiveResponse","mf.imfhttpdownloadrequest_beginreceiveresponse","mfidl/IMFHttpDownloadRequest::BeginReceiveResponse"]
 old-location: mf\imfhttpdownloadrequest_beginreceiveresponse.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6D5DB091-426B-4E89-8657-0BDC6427B23A
 ms.date: 12/05/2018
 ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse

@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11Resource
 title: ID3D11Resource (d3d11.h)
-description: A resource interface provides common actions on all resources.helpviewer_keywords: ["ID3D11Resource","ID3D11Resource interface [Direct3D 11]","ID3D11Resource interface [Direct3D 11]","described","d3d11/ID3D11Resource","d8e977b3-ff67-b931-bf00-8a95c24e06b7","direct3d11.id3d11resource"]
+description: A resource interface provides common actions on all resources.
+helpviewer_keywords: ["ID3D11Resource","ID3D11Resource interface [Direct3D 11]","ID3D11Resource interface [Direct3D 11]","described","d3d11/ID3D11Resource","d8e977b3-ff67-b931-bf00-8a95c24e06b7","direct3d11.id3d11resource"]
 old-location: direct3d11\id3d11resource.htm
 tech.root: direct3d11
 ms.assetid: 3823ec00-cb3c-43ce-9f1a-be4e1e99d587

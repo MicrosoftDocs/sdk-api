@@ -4,7 +4,7 @@ title: CACHE_RELATIONSHIP (winnt.h)
 description: Describes cache attributes. This structure is used with the GetLogicalProcessorInformationEx function.
 helpviewer_keywords: ["*PCACHE_RELATIONSHIP","CACHE_RELATIONSHIP","CACHE_RELATIONSHIP structure","PCACHE_RELATIONSHIP","PCACHE_RELATIONSHIP structure pointer","_CACHE_RELATIONSHIP","base.cache_relationship","winnt/CACHE_RELATIONSHIP","winnt/PCACHE_RELATIONSHIP"]
 old-location: base\cache_relationship.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
 ms.date: 12/05/2018
 ms.keywords: '*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP'

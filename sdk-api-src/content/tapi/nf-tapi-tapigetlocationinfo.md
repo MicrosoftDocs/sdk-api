@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.tapiGetLocationInfo
 title: tapiGetLocationInfo function (tapi.h)
-description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.helpviewer_keywords: ["_tapi2_tapigetlocationinfo","tapi/tapiGetLocationInfo","tapi/tapiGetLocationInfoA","tapi/tapiGetLocationInfoW","tapi2.tapigetlocationinfo","tapiGetLocationInfo","tapiGetLocationInfo function [TAPI 2.2]","tapiGetLocationInfoA","tapiGetLocationInfoW"]
+description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.
+helpviewer_keywords: ["_tapi2_tapigetlocationinfo","tapi/tapiGetLocationInfo","tapi/tapiGetLocationInfoA","tapi/tapiGetLocationInfoW","tapi2.tapigetlocationinfo","tapiGetLocationInfo","tapiGetLocationInfo function [TAPI 2.2]","tapiGetLocationInfoA","tapiGetLocationInfoW"]
 old-location: tapi2\tapigetlocationinfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
 ms.date: 12/05/2018
 ms.keywords: _tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW

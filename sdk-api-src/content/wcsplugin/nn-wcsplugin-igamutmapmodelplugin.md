@@ -1,7 +1,8 @@
 ---
 UID: NN:wcsplugin.IGamutMapModelPlugIn
 title: IGamutMapModelPlugIn (wcsplugin.h)
-description: Describes the methods that are defined for the IGamutMapModelPlugIn Component Object Model (COM) interface.helpviewer_keywords: ["IGamutMapModelPlugIn","IGamutMapModelPlugIn interface [Windows Color System]","IGamutMapModelPlugIn interface [Windows Color System]","described","_color_IGamutMapModelPlugIn","wcs.igamutmapmodelplugin","wcsplugin/IGamutMapModelPlugIn"]
+description: Describes the methods that are defined for the IGamutMapModelPlugIn Component Object Model (COM) interface.
+helpviewer_keywords: ["IGamutMapModelPlugIn","IGamutMapModelPlugIn interface [Windows Color System]","IGamutMapModelPlugIn interface [Windows Color System]","described","_color_IGamutMapModelPlugIn","wcs.igamutmapmodelplugin","wcsplugin/IGamutMapModelPlugIn"]
 old-location: wcs\igamutmapmodelplugin.htm
 tech.root: WCS
 ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1

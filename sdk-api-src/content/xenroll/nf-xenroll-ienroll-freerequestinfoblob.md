@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.freeRequestInfoBlob
 title: IEnroll::freeRequestInfoBlob (xenroll.h)
-description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.helpviewer_keywords: ["IEnroll interface [Security]","freeRequestInfoBlob method","IEnroll.freeRequestInfoBlob","IEnroll::freeRequestInfoBlob","freeRequestInfoBlob","freeRequestInfoBlob method [Security]","freeRequestInfoBlob method [Security]","IEnroll interface","security.ienroll4_freerequestinfoblob","xenroll/IEnroll::freeRequestInfoBlob"]
+description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.
+helpviewer_keywords: ["IEnroll interface [Security]","freeRequestInfoBlob method","IEnroll.freeRequestInfoBlob","IEnroll::freeRequestInfoBlob","freeRequestInfoBlob","freeRequestInfoBlob method [Security]","freeRequestInfoBlob method [Security]","IEnroll interface","security.ienroll4_freerequestinfoblob","xenroll/IEnroll::freeRequestInfoBlob"]
 old-location: security\ienroll4_freerequestinfoblob.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.freeRequestInfoBlob, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security],IEnroll interface, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob

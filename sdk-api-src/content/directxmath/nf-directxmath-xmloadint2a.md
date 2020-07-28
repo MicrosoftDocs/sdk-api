@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadInt2A
 title: XMLoadInt2A function (directxmath.h)
-description: Loads 16-byte aligned data into the x and y components of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadInt2A","XMLoadInt2A","XMLoadInt2A method [DirectX Math Support APIs]","dxmath.xmloadint2a"]
+description: Loads 16-byte aligned data into the x and y components of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMLoadInt2A","XMLoadInt2A","XMLoadInt2A method [DirectX Math Support APIs]","dxmath.xmloadint2a"]
 old-location: dxmath\xmloadint2a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt2A(const VOID)

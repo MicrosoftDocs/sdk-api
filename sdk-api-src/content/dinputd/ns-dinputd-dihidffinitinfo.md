@@ -1,7 +1,8 @@
 ---
 UID: NS:dinputd.DIHIDFFINITINFO
 title: DIHIDFFINITINFO (dinputd.h)
-description: The DIHIDFFINITINFO structure is used by DirectInput to provide information to a HID force-feedback driver about the device it is being asked to control.helpviewer_keywords: ["*LPDIHIDFFINITINFO","DIHIDFFINITINFO","DIHIDFFINITINFO structure [Human Input Devices]","di_ref_2ed2499d-7d1f-4247-be74-ea356144df44.xml","dinputd/DIHIDFFINITINFO","hid.dihidffinitinfo"]
+description: The DIHIDFFINITINFO structure is used by DirectInput to provide information to a HID force-feedback driver about the device it is being asked to control.
+helpviewer_keywords: ["*LPDIHIDFFINITINFO","DIHIDFFINITINFO","DIHIDFFINITINFO structure [Human Input Devices]","di_ref_2ed2499d-7d1f-4247-be74-ea356144df44.xml","dinputd/DIHIDFFINITINFO","hid.dihidffinitinfo"]
 old-location: hid\dihidffinitinfo.htm
 tech.root: hid
 ms.assetid: 7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66

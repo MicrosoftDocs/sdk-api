@@ -4,7 +4,7 @@ title: SCH_CRED_PUBLIC_CERTCHAIN (schannel.h)
 description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.
 helpviewer_keywords: ["*PSCH_CRED_PUBLIC_CERTCHAIN","PSCH_CRED_PUBLIC_CERTCHAIN","PSCH_CRED_PUBLIC_CERTCHAIN structure pointer [Security]","SCH_CRED_PUBLIC_CERTCHAIN","SCH_CRED_PUBLIC_CERTCHAIN structure [Security]","_ssp_sch_cred_public_certchain","schannel/PSCH_CRED_PUBLIC_CERTCHAIN","schannel/SCH_CRED_PUBLIC_CERTCHAIN","security.sch_cred_public_certchain"]
 old-location: security\sch_cred_public_certchain.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b6019f43-df94-4d30-9acf-a94772901e6e
 ms.date: 12/05/2018
 ms.keywords: '*PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN structure pointer [Security], SCH_CRED_PUBLIC_CERTCHAIN, SCH_CRED_PUBLIC_CERTCHAIN structure [Security], _ssp_sch_cred_public_certchain, schannel/PSCH_CRED_PUBLIC_CERTCHAIN, schannel/SCH_CRED_PUBLIC_CERTCHAIN, security.sch_cred_public_certchain'

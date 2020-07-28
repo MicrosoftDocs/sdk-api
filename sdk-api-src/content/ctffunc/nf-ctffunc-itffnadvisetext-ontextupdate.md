@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnAdviseText.OnTextUpdate
 title: ITfFnAdviseText::OnTextUpdate (ctffunc.h)
-description: ITfFnAdviseText::OnTextUpdate methodhelpviewer_keywords: ["ITfFnAdviseText interface [Text Services Framework]","OnTextUpdate method","ITfFnAdviseText.OnTextUpdate","ITfFnAdviseText::OnTextUpdate","OnTextUpdate","OnTextUpdate method [Text Services Framework]","OnTextUpdate method [Text Services Framework]","ITfFnAdviseText interface","_tsf_itffnadvisetext_ontextupdate_ref","ctffunc/ITfFnAdviseText::OnTextUpdate","tsf.itffnadvisetext_ontextupdate"]
+description: ITfFnAdviseText::OnTextUpdate method
+helpviewer_keywords: ["ITfFnAdviseText interface [Text Services Framework]","OnTextUpdate method","ITfFnAdviseText.OnTextUpdate","ITfFnAdviseText::OnTextUpdate","OnTextUpdate","OnTextUpdate method [Text Services Framework]","OnTextUpdate method [Text Services Framework]","ITfFnAdviseText interface","_tsf_itffnadvisetext_ontextupdate_ref","ctffunc/ITfFnAdviseText::OnTextUpdate","tsf.itffnadvisetext_ontextupdate"]
 old-location: tsf\itffnadvisetext_ontextupdate.htm
 tech.root: TSF
 ms.assetid: 0b8235bd-22a6-4074-89e5-2223a20f3559

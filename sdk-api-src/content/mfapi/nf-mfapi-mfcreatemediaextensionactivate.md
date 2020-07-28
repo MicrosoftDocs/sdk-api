@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCreateMediaExtensionActivate
 title: MFCreateMediaExtensionActivate function (mfapi.h)
-description: Creates an activation object for a Windows Runtime class.helpviewer_keywords: ["MFCreateMediaExtensionActivate","MFCreateMediaExtensionActivate function [Media Foundation]","mf.mfcreatemediaextensionactivate","mf.mfcreatewinrtactivate","mfapi/MFCreateMediaExtensionActivate"]
+description: Creates an activation object for a Windows Runtime class.
+helpviewer_keywords: ["MFCreateMediaExtensionActivate","MFCreateMediaExtensionActivate function [Media Foundation]","mf.mfcreatemediaextensionactivate","mf.mfcreatewinrtactivate","mfapi/MFCreateMediaExtensionActivate"]
 old-location: mf\mfcreatemediaextensionactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3F9538F2-DB7A-4841-B61D-C59BC02718B1
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate function [Media Foundation], mf.mfcreatemediaextensionactivate, mf.mfcreatewinrtactivate, mfapi/MFCreateMediaExtensionActivate

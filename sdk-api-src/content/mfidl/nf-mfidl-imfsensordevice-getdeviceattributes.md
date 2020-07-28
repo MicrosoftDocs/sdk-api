@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceAttributes
 title: IMFSensorDevice::GetDeviceAttributes (mfidl.h)
-description: Gets the IMFAttributes for the sensor group.helpviewer_keywords: ["GetDeviceAttributes","GetDeviceAttributes method [Media Foundation]","GetDeviceAttributes method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetDeviceAttributes method","IMFSensorDevice.GetDeviceAttributes","IMFSensorDevice::GetDeviceAttributes","mf.imfsensordevice_getdeviceattributes","mfidl/IMFSensorDevice::GetDeviceAttributes"]
+description: Gets the IMFAttributes for the sensor group.
+helpviewer_keywords: ["GetDeviceAttributes","GetDeviceAttributes method [Media Foundation]","GetDeviceAttributes method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetDeviceAttributes method","IMFSensorDevice.GetDeviceAttributes","IMFSensorDevice::GetDeviceAttributes","mf.imfsensordevice_getdeviceattributes","mfidl/IMFSensorDevice::GetDeviceAttributes"]
 old-location: mf\imfsensordevice_getdeviceattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
 ms.date: 12/05/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes

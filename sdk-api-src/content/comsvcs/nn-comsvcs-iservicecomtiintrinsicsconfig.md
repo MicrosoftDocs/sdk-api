@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IServiceComTIIntrinsicsConfig
 title: IServiceComTIIntrinsicsConfig (comsvcs.h)
-description: Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.helpviewer_keywords: ["IServiceComTIIntrinsicsConfig","IServiceComTIIntrinsicsConfig interface [COM+]","IServiceComTIIntrinsicsConfig interface [COM+]","described","_cos_IServiceComTIIntrinsicsConfig","comsvcs/IServiceComTIIntrinsicsConfig","cos.iservicecomtiintrinsicsconfig"]
+description: Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
+helpviewer_keywords: ["IServiceComTIIntrinsicsConfig","IServiceComTIIntrinsicsConfig interface [COM+]","IServiceComTIIntrinsicsConfig interface [COM+]","described","_cos_IServiceComTIIntrinsicsConfig","comsvcs/IServiceComTIIntrinsicsConfig","cos.iservicecomtiintrinsicsconfig"]
 old-location: cos\iservicecomtiintrinsicsconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
 ms.date: 12/05/2018
 ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig

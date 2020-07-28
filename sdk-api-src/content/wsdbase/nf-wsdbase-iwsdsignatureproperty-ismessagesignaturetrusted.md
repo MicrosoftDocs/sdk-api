@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSignatureTrusted
 title: IWSDSignatureProperty::IsMessageSignatureTrusted (wsdbase.h)
-description: Specifies if a message signature is trusted.helpviewer_keywords: ["IWSDSignatureProperty interface","IsMessageSignatureTrusted method","IWSDSignatureProperty.IsMessageSignatureTrusted","IWSDSignatureProperty::IsMessageSignatureTrusted","IsMessageSignatureTrusted","IsMessageSignatureTrusted method","IsMessageSignatureTrusted method","IWSDSignatureProperty interface","ncd.iwsdsignatureproperty_ismessagesignaturetrusted","wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted"]
+description: Specifies if a message signature is trusted.
+helpviewer_keywords: ["IWSDSignatureProperty interface","IsMessageSignatureTrusted method","IWSDSignatureProperty.IsMessageSignatureTrusted","IWSDSignatureProperty::IsMessageSignatureTrusted","IsMessageSignatureTrusted","IsMessageSignatureTrusted method","IsMessageSignatureTrusted method","IWSDSignatureProperty interface","ncd.iwsdsignatureproperty_ismessagesignaturetrusted","wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted"]
 old-location: ncd\iwsdsignatureproperty_ismessagesignaturetrusted.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b71ddd44-4823-455c-aea7-ee2f63b423bb
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSignatureTrusted method, IWSDSignatureProperty.IsMessageSignatureTrusted, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted

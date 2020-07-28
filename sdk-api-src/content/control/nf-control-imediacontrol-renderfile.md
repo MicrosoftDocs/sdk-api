@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IMediaControl.RenderFile
 title: IMediaControl::RenderFile (control.h)
-description: The RenderFile method builds a filter graph that renders the specified file.helpviewer_keywords: ["IMediaControl interface [DirectShow]","RenderFile method","IMediaControl.RenderFile","IMediaControl::RenderFile","IMediaControlRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IMediaControl interface","control/IMediaControl::RenderFile","dshow.imediacontrol_renderfile"]
+description: The RenderFile method builds a filter graph that renders the specified file.
+helpviewer_keywords: ["IMediaControl interface [DirectShow]","RenderFile method","IMediaControl.RenderFile","IMediaControl::RenderFile","IMediaControlRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IMediaControl interface","control/IMediaControl::RenderFile","dshow.imediacontrol_renderfile"]
 old-location: dshow\imediacontrol_renderfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5dfff776-da3f-40a3-86d4-76a5099d6e6f
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],RenderFile method, IMediaControl.RenderFile, IMediaControl::RenderFile, IMediaControlRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IMediaControl interface, control/IMediaControl::RenderFile, dshow.imediacontrol_renderfile

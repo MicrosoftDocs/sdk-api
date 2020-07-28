@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFMediaStreamSourceSampleRequest
 title: IMFMediaStreamSourceSampleRequest (mfidl.h)
-description: Represents a request for a sample from a MediaStreamSource.helpviewer_keywords: ["IMFMediaStreamSourceSampleRequest","IMFMediaStreamSourceSampleRequest interface [Media Foundation]","IMFMediaStreamSourceSampleRequest interface [Media Foundation]","described","mf.imfmediastreamsourcesamplerequest","mfidl/IMFMediaStreamSourceSampleRequest"]
+description: Represents a request for a sample from a MediaStreamSource.
+helpviewer_keywords: ["IMFMediaStreamSourceSampleRequest","IMFMediaStreamSourceSampleRequest interface [Media Foundation]","IMFMediaStreamSourceSampleRequest interface [Media Foundation]","described","mf.imfmediastreamsourcesamplerequest","mfidl/IMFMediaStreamSourceSampleRequest"]
 old-location: mf\imfmediastreamsourcesamplerequest.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest, IMFMediaStreamSourceSampleRequest interface [Media Foundation], IMFMediaStreamSourceSampleRequest interface [Media Foundation],described, mf.imfmediastreamsourcesamplerequest, mfidl/IMFMediaStreamSourceSampleRequest

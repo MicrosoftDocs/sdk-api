@@ -1,7 +1,9 @@
 ---
 UID: NC:ws2spi.LPWSPSELECT
 title: LPWSPSELECT
-description: The LPWSPSelect function determines the status of one or more sockets.helpviewer_keywords: ["LPWSPSELECT"]
+description: The LPWSPSelect function determines the status of one or more sockets.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPSELECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSELECT
 targetos: Windows

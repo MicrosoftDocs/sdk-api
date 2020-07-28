@@ -1,9 +1,10 @@
 ---
 UID: NS:drt.drt_search_info_tag
 title: DRT_SEARCH_INFO (drt.h)
-description: DRT_SEARCH_INFO structure represents a search query issued with DrtStartSearch.helpviewer_keywords: ["*PDRT_SEARCH_INFO","DRT_SEARCH_INFO","DRT_SEARCH_INFO structure [Peer Networking]","PDRT_SEARCH_INFO","PDRT_SEARCH_INFO structure pointer [Peer Networking]","drt/DRT_SEARCH_INFO","drt/PDRT_SEARCH_INFO","p2p.drt_search_info"]
+description: DRT_SEARCH_INFO structure represents a search query issued with DrtStartSearch.
+helpviewer_keywords: ["*PDRT_SEARCH_INFO","DRT_SEARCH_INFO","DRT_SEARCH_INFO structure [Peer Networking]","PDRT_SEARCH_INFO","PDRT_SEARCH_INFO structure pointer [Peer Networking]","drt/DRT_SEARCH_INFO","drt/PDRT_SEARCH_INFO","p2p.drt_search_info"]
 old-location: p2p\drt_search_info.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: a3f12d8a-95ef-4168-8d2d-c317ae2c57b4
 ms.date: 12/05/2018
 ms.keywords: '*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, p2p.drt_search_info'

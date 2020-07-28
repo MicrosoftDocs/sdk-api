@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MinorVersion
 title: ICOMAdminCatalog::get_MinorVersion (comadmin.h)
-description: Retrieves the minor version number of the COMAdmin library.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","MinorVersion property","ICOMAdminCatalog.MinorVersion","ICOMAdminCatalog.get_MinorVersion","ICOMAdminCatalog::MinorVersion","ICOMAdminCatalog::get_MinorVersion","MinorVersion property [COM+]","MinorVersion property [COM+]","ICOMAdminCatalog interface","_cos_IComAdminCatalog_get_MinorVersion","comadmin/ICOMAdminCatalog::MinorVersion","comadmin/ICOMAdminCatalog::get_MinorVersion","cos.icomadmincatalog_minorversion","get_MinorVersion"]
+description: Retrieves the minor version number of the COMAdmin library.
+helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","MinorVersion property","ICOMAdminCatalog.MinorVersion","ICOMAdminCatalog.get_MinorVersion","ICOMAdminCatalog::MinorVersion","ICOMAdminCatalog::get_MinorVersion","MinorVersion property [COM+]","MinorVersion property [COM+]","ICOMAdminCatalog interface","_cos_IComAdminCatalog_get_MinorVersion","comadmin/ICOMAdminCatalog::MinorVersion","comadmin/ICOMAdminCatalog::get_MinorVersion","cos.icomadmincatalog_minorversion","get_MinorVersion"]
 old-location: cos\icomadmincatalog_minorversion.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 25053a37-f44a-4e30-97b2-081b840c4448
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MinorVersion property, ICOMAdminCatalog.MinorVersion, ICOMAdminCatalog.get_MinorVersion, ICOMAdminCatalog::MinorVersion, ICOMAdminCatalog::get_MinorVersion, MinorVersion property [COM+], MinorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MinorVersion, comadmin/ICOMAdminCatalog::MinorVersion, comadmin/ICOMAdminCatalog::get_MinorVersion, cos.icomadmincatalog_minorversion, get_MinorVersion

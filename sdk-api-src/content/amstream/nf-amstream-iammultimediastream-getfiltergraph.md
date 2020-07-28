@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.GetFilterGraph
 title: IAMMultiMediaStream::GetFilterGraph (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetFilterGraph method retrieves the Filter Graph Manager that is managed by the multimedia stream object.helpviewer_keywords: ["GetFilterGraph","GetFilterGraph method [DirectShow]","GetFilterGraph method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","GetFilterGraph method","IAMMultiMediaStream.GetFilterGraph","IAMMultiMediaStream::GetFilterGraph","IAMMultiMediaStreamGetFilterGraph","amstream/IAMMultiMediaStream::GetFilterGraph","dshow.iammultimediastream_getfiltergraph"]
+description: Note  This interface is deprecated. New applications should not use it. The GetFilterGraph method retrieves the Filter Graph Manager that is managed by the multimedia stream object.
+helpviewer_keywords: ["GetFilterGraph","GetFilterGraph method [DirectShow]","GetFilterGraph method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","GetFilterGraph method","IAMMultiMediaStream.GetFilterGraph","IAMMultiMediaStream::GetFilterGraph","IAMMultiMediaStreamGetFilterGraph","amstream/IAMMultiMediaStream::GetFilterGraph","dshow.iammultimediastream_getfiltergraph"]
 old-location: dshow\iammultimediastream_getfiltergraph.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7e772ced-d14e-45da-9e97-36579e7e3ffd
 ms.date: 12/05/2018
 ms.keywords: GetFilterGraph, GetFilterGraph method [DirectShow], GetFilterGraph method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilterGraph method, IAMMultiMediaStream.GetFilterGraph, IAMMultiMediaStream::GetFilterGraph, IAMMultiMediaStreamGetFilterGraph, amstream/IAMMultiMediaStream::GetFilterGraph, dshow.iammultimediastream_getfiltergraph

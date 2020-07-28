@@ -1,7 +1,8 @@
 ---
 UID: NS:cmdtree.tagDBCOMMANDTREE
 title: DBCOMMANDTREE (cmdtree.h)
-description: The DBCOMMANDTREE structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the Data Manipulation Operators and Data Definition Operators section of this reference.helpviewer_keywords: ["DBCOMMANDTREE","DBCOMMANDTREE structure [Indexing Service]","_idxs_DBCOMMANDTREE","cmdtree/","indexsrv.dbcommandtree","tagDBCOMMANDTREE"]
+description: The DBCOMMANDTREE structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the Data Manipulation Operators and Data Definition Operators section of this reference.
+helpviewer_keywords: ["DBCOMMANDTREE","DBCOMMANDTREE structure [Indexing Service]","_idxs_DBCOMMANDTREE","cmdtree/","indexsrv.dbcommandtree","tagDBCOMMANDTREE"]
 old-location: indexsrv\dbcommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_29lx.htm

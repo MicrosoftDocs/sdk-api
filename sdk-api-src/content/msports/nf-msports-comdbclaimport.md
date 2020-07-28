@@ -1,7 +1,8 @@
 ---
 UID: NF:msports.ComDBClaimPort
 title: ComDBClaimPort function (msports.h)
-description: ComDBClaimPort logs an unused COM port number as &#0034;in use&#0034; in the COM port database.helpviewer_keywords: ["ComDBClaimPort","ComDBClaimPort function [Serial Ports]","comdb_e636ae45-1105-4322-9429-f8bf24333432.xml","msports/ComDBClaimPort","serports.comdbclaimport"]
+description: ComDBClaimPort logs an unused COM port number as &quot;in use&quot; in the COM port database.
+helpviewer_keywords: ["ComDBClaimPort","ComDBClaimPort function [Serial Ports]","comdb_e636ae45-1105-4322-9429-f8bf24333432.xml","msports/ComDBClaimPort","serports.comdbclaimport"]
 old-location: serports\comdbclaimport.htm
 tech.root: serports
 ms.assetid: d0baa783-1039-41a4-8bb1-78c977ed62b6

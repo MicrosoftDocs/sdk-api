@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetPropertyDescriptionList
 title: IShellItemArray::GetPropertyDescriptionList (shobjidl_core.h)
-description: Gets a property description list for the items in the shell item array.helpviewer_keywords: ["GetPropertyDescriptionList","GetPropertyDescriptionList method [Windows Shell]","GetPropertyDescriptionList method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetPropertyDescriptionList method","IShellItemArray.GetPropertyDescriptionList","IShellItemArray::GetPropertyDescriptionList","_shell_IShellItemArray_GetPropertyDescriptionList","shell.IShellItemArray_GetPropertyDescriptionList","shobjidl_core/IShellItemArray::GetPropertyDescriptionList"]
+description: Gets a property description list for the items in the shell item array.
+helpviewer_keywords: ["GetPropertyDescriptionList","GetPropertyDescriptionList method [Windows Shell]","GetPropertyDescriptionList method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetPropertyDescriptionList method","IShellItemArray.GetPropertyDescriptionList","IShellItemArray::GetPropertyDescriptionList","_shell_IShellItemArray_GetPropertyDescriptionList","shell.IShellItemArray_GetPropertyDescriptionList","shobjidl_core/IShellItemArray::GetPropertyDescriptionList"]
 old-location: shell\IShellItemArray_GetPropertyDescriptionList.htm
 tech.root: shell
 ms.assetid: abedf6a4-dfad-4add-8464-571542b068cb

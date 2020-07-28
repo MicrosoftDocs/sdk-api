@@ -1,9 +1,10 @@
 ---
 UID: NC:scesvc.PFSCE_FREE_INFO
 title: PFSCE_FREE_INFO (scesvc.h)
-description: Frees the memory for buffers allocated by the Security Configuration tool set when it calls PFSCE_QUERY_INFO.helpviewer_keywords: ["PFSCE_FREE_INFO","PFSCE_FREE_INFO callback","PFSCE_FREE_INFO callback function [Security]","_config_pfsce_free_info","scesvc/PFSCE_FREE_INFO","security.pfsce_free_info"]
+description: Frees the memory for buffers allocated by the Security Configuration tool set when it calls PFSCE_QUERY_INFO.
+helpviewer_keywords: ["PFSCE_FREE_INFO","PFSCE_FREE_INFO callback","PFSCE_FREE_INFO callback function [Security]","_config_pfsce_free_info","scesvc/PFSCE_FREE_INFO","security.pfsce_free_info"]
 old-location: security\pfsce_free_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc
 ms.date: 12/05/2018
 ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback function [Security], _config_pfsce_free_info, scesvc/PFSCE_FREE_INFO, security.pfsce_free_info

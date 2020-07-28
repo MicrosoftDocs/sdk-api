@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleWriter
 title: IAppxEncryptionFactory::CreateEncryptedBundleWriter (appxpackaging.h)
-description: Creates a write-only bundle object to which encrypted Windows app packages can be added.helpviewer_keywords: ["CreateEncryptedBundleWriter","CreateEncryptedBundleWriter method [App packaging and management]","CreateEncryptedBundleWriter method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","CreateEncryptedBundleWriter method","IAppxEncryptionFactory.CreateEncryptedBundleWriter","IAppxEncryptionFactory::CreateEncryptedBundleWriter","appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter","appxpkg.iappxencryptionfactory_createencryptedbundlewriter"]
+description: Creates a write-only bundle object to which encrypted Windows app packages can be added.
+helpviewer_keywords: ["CreateEncryptedBundleWriter","CreateEncryptedBundleWriter method [App packaging and management]","CreateEncryptedBundleWriter method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","CreateEncryptedBundleWriter method","IAppxEncryptionFactory.CreateEncryptedBundleWriter","IAppxEncryptionFactory::CreateEncryptedBundleWriter","appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter","appxpkg.iappxencryptionfactory_createencryptedbundlewriter"]
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: 01FF3DF1-CCA8-49BF-9876-57A4DDA658D0

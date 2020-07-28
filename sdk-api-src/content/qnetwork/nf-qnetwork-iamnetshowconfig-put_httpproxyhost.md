@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_HTTPProxyHost
 title: IAMNetShowConfig::put_HTTPProxyHost (qnetwork.h)
-description: The put_HTTPProxyHost method specifies the address of the HTTP proxy server.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_HTTPProxyHost method","IAMNetShowConfig.put_HTTPProxyHost","IAMNetShowConfig::put_HTTPProxyHost","IAMNetShowConfigput_HTTPProxyHost","dshow.iamnetshowconfig_put_httpproxyhost","put_HTTPProxyHost","put_HTTPProxyHost method [DirectShow]","put_HTTPProxyHost method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_HTTPProxyHost"]
+description: The put_HTTPProxyHost method specifies the address of the HTTP proxy server.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_HTTPProxyHost method","IAMNetShowConfig.put_HTTPProxyHost","IAMNetShowConfig::put_HTTPProxyHost","IAMNetShowConfigput_HTTPProxyHost","dshow.iamnetshowconfig_put_httpproxyhost","put_HTTPProxyHost","put_HTTPProxyHost method [DirectShow]","put_HTTPProxyHost method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_HTTPProxyHost"]
 old-location: dshow\iamnetshowconfig_put_httpproxyhost.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3cd37fd4-3ce0-4b5c-9e2f-88c0e1845b2d
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyHost method, IAMNetShowConfig.put_HTTPProxyHost, IAMNetShowConfig::put_HTTPProxyHost, IAMNetShowConfigput_HTTPProxyHost, dshow.iamnetshowconfig_put_httpproxyhost, put_HTTPProxyHost, put_HTTPProxyHost method [DirectShow], put_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyHost

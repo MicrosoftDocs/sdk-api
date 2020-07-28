@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineSetDevConfig
 title: TSPI_lineSetDevConfig function (tspi.h)
-description: The TSPI_lineSetDevConfig function restores the configuration of a device associated one-to-one with the line device from a data structure previously obtained using TSPI_lineGetDevConfig.helpviewer_keywords: ["TSPI_lineSetDevConfig","TSPI_lineSetDevConfig function [TAPI 2.2]","_tspi_tspi_linesetdevconfig","tspi.tspi_linesetdevconfig","tspi/TSPI_lineSetDevConfig"]
+description: The TSPI_lineSetDevConfig function restores the configuration of a device associated one-to-one with the line device from a data structure previously obtained using TSPI_lineGetDevConfig.
+helpviewer_keywords: ["TSPI_lineSetDevConfig","TSPI_lineSetDevConfig function [TAPI 2.2]","_tspi_tspi_linesetdevconfig","tspi.tspi_linesetdevconfig","tspi/TSPI_lineSetDevConfig"]
 old-location: tspi\tspi_linesetdevconfig.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 41699ca8-a30d-48ab-bace-bc2b95b67e77
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetDevConfig, TSPI_lineSetDevConfig function [TAPI 2.2], _tspi_tspi_linesetdevconfig, tspi.tspi_linesetdevconfig, tspi/TSPI_lineSetDevConfig

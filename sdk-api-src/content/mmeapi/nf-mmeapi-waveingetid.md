@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.waveInGetID
 title: waveInGetID function (mmeapi.h)
-description: The waveInGetID function gets the device identifier for the given waveform-audio input device.helpviewer_keywords: ["_win32_waveInGetID","mmeapi/waveInGetID","multimedia.waveingetid","waveInGetID","waveInGetID function [Windows Multimedia]"]
+description: The waveInGetID function gets the device identifier for the given waveform-audio input device.
+helpviewer_keywords: ["_win32_waveInGetID","mmeapi/waveInGetID","multimedia.waveingetid","waveInGetID","waveInGetID function [Windows Multimedia]"]
 old-location: multimedia\waveingetid.htm
 tech.root: Multimedia
 ms.assetid: 57ca501d-3f76-4ccc-94dc-b4b5c40932e0

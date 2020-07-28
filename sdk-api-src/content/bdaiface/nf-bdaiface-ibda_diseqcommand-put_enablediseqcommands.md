@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_EnableDiseqCommands
 title: IBDA_DiseqCommand::put_EnableDiseqCommands (bdaiface.h)
-description: Enables or disables the use of Digital Satellite Equipment Control (DiSEqC) commands.helpviewer_keywords: ["IBDA_DiseqCommand interface [Microsoft TV Technologies]","put_EnableDiseqCommands method","IBDA_DiseqCommand.put_EnableDiseqCommands","IBDA_DiseqCommand::put_EnableDiseqCommands","bdaiface/IBDA_DiseqCommand::put_EnableDiseqCommands","mstv.ibda_diseqcommand_put_enablediseqcommands","put_EnableDiseqCommands","put_EnableDiseqCommands method [Microsoft TV Technologies]","put_EnableDiseqCommands method [Microsoft TV Technologies]","IBDA_DiseqCommand interface"]
+description: Enables or disables the use of Digital Satellite Equipment Control (DiSEqC) commands.
+helpviewer_keywords: ["IBDA_DiseqCommand interface [Microsoft TV Technologies]","put_EnableDiseqCommands method","IBDA_DiseqCommand.put_EnableDiseqCommands","IBDA_DiseqCommand::put_EnableDiseqCommands","bdaiface/IBDA_DiseqCommand::put_EnableDiseqCommands","mstv.ibda_diseqcommand_put_enablediseqcommands","put_EnableDiseqCommands","put_EnableDiseqCommands method [Microsoft TV Technologies]","put_EnableDiseqCommands method [Microsoft TV Technologies]","IBDA_DiseqCommand interface"]
 old-location: mstv\ibda_diseqcommand_put_enablediseqcommands.htm
 tech.root: mstv
 ms.assetid: d70f5e3c-bd5d-48cf-b4fd-e1ae2ba66f69

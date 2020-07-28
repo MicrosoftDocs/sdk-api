@@ -1,9 +1,10 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_FrequencyDivider
 title: IMpegAudioDecoder::put_FrequencyDivider (mpegtype.h)
-description: Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","put_FrequencyDivider method","IMpegAudioDecoder.put_FrequencyDivider","IMpegAudioDecoder::put_FrequencyDivider","IMpegAudioDecoderputFrequencyDivider","dshow.impegaudiodecoder_put_frequencydivider","mpegtype/IMpegAudioDecoder::put_FrequencyDivider","put_FrequencyDivider","put_FrequencyDivider method [DirectShow]","put_FrequencyDivider method [DirectShow]","IMpegAudioDecoder interface"]
+description: Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
+helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","put_FrequencyDivider method","IMpegAudioDecoder.put_FrequencyDivider","IMpegAudioDecoder::put_FrequencyDivider","IMpegAudioDecoderputFrequencyDivider","dshow.impegaudiodecoder_put_frequencydivider","mpegtype/IMpegAudioDecoder::put_FrequencyDivider","put_FrequencyDivider","put_FrequencyDivider method [DirectShow]","put_FrequencyDivider method [DirectShow]","IMpegAudioDecoder interface"]
 old-location: dshow\impegaudiodecoder_put_frequencydivider.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_FrequencyDivider method, IMpegAudioDecoder.put_FrequencyDivider, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface

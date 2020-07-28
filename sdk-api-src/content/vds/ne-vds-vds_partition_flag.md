@@ -1,9 +1,10 @@
 ---
 UID: NE:vds._VDS_PARTITION_FLAG
 title: VDS_PARTITION_FLAG (vds.h)
-description: Defines a set of valid flags for a partition.helpviewer_keywords: ["VDS_PARTITION_FLAG","VDS_PARTITION_FLAG enumeration [VDS]","VDS_PTF_SYSTEM","base.vds_partition_flag","vds/VDS_PARTITION_FLAG","vds/VDS_PTF_SYSTEM"]
+description: Defines a set of valid flags for a partition.
+helpviewer_keywords: ["VDS_PARTITION_FLAG","VDS_PARTITION_FLAG enumeration [VDS]","VDS_PTF_SYSTEM","base.vds_partition_flag","vds/VDS_PARTITION_FLAG","vds/VDS_PTF_SYSTEM"]
 old-location: base\vds_partition_flag.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d6ac5769-d0bc-4a4e-93c0-e9c83303ec4c
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_FLAG, VDS_PARTITION_FLAG enumeration [VDS], VDS_PTF_SYSTEM, base.vds_partition_flag, vds/VDS_PARTITION_FLAG, vds/VDS_PTF_SYSTEM

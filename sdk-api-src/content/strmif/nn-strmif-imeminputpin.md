@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IMemInputPin
 title: IMemInputPin (strmif.h)
-description: The IMemInputPin interface delivers media data to an input pin.helpviewer_keywords: ["IMemInputPin","IMemInputPin interface [DirectShow]","IMemInputPin interface [DirectShow]","described","IMemInputPinInterface","dshow.imeminputpin","strmif/IMemInputPin"]
+description: The IMemInputPin interface delivers media data to an input pin.
+helpviewer_keywords: ["IMemInputPin","IMemInputPin interface [DirectShow]","IMemInputPin interface [DirectShow]","described","IMemInputPinInterface","dshow.imeminputpin","strmif/IMemInputPin"]
 old-location: dshow\imeminputpin.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a4407c6f-6bb5-4274-920b-8bf7d76268bc
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin

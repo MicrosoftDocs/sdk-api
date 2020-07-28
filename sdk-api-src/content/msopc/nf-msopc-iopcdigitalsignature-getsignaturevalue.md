@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureValue
 title: IOpcDigitalSignature::GetSignatureValue (msopc.h)
-description: Gets the decoded value in the SignatureValue element of the signature markup.helpviewer_keywords: ["GetSignatureValue","GetSignatureValue method [Open Packaging Conventions]","GetSignatureValue method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSignatureValue method","IOpcDigitalSignature.GetSignatureValue","IOpcDigitalSignature::GetSignatureValue","msopc/IOpcDigitalSignature::GetSignatureValue","opc.iopcdigitalsignature_getsignaturevalue"]
+description: Gets the decoded value in the SignatureValue element of the signature markup.
+helpviewer_keywords: ["GetSignatureValue","GetSignatureValue method [Open Packaging Conventions]","GetSignatureValue method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSignatureValue method","IOpcDigitalSignature.GetSignatureValue","IOpcDigitalSignature::GetSignatureValue","msopc/IOpcDigitalSignature::GetSignatureValue","opc.iopcdigitalsignature_getsignaturevalue"]
 old-location: opc\iopcdigitalsignature_getsignaturevalue.htm
 tech.root: OPC
 ms.assetid: c918d156-ad32-4a0c-83cc-dd37fe884744

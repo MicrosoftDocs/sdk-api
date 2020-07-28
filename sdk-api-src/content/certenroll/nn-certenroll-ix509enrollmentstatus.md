@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509EnrollmentStatus
 title: IX509EnrollmentStatus (certenroll.h)
-description: The IX509EnrollmentStatus interface can be used to specify or retrieve detailed error information about a certificate enrollment transaction.helpviewer_keywords: ["IX509EnrollmentStatus","IX509EnrollmentStatus interface [Security]","IX509EnrollmentStatus interface [Security]","described","certenroll/IX509EnrollmentStatus","security.ix509enrollmentstatus"]
+description: The IX509EnrollmentStatus interface can be used to specify or retrieve detailed error information about a certificate enrollment transaction.
+helpviewer_keywords: ["IX509EnrollmentStatus","IX509EnrollmentStatus interface [Security]","IX509EnrollmentStatus interface [Security]","described","certenroll/IX509EnrollmentStatus","security.ix509enrollmentstatus"]
 old-location: security\ix509enrollmentstatus.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: fa5e3a10-7f00-46b6-b740-b72d78745bf7
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], IX509EnrollmentStatus interface [Security],described, certenroll/IX509EnrollmentStatus, security.ix509enrollmentstatus

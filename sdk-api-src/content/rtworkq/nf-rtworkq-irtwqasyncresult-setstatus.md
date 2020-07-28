@@ -1,9 +1,10 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.SetStatus
 title: IRtwqAsyncResult::SetStatus (rtworkq.h)
-description: Sets the status of the asynchronous operation.helpviewer_keywords: ["IRtwqAsyncResult interface","SetStatus method","IRtwqAsyncResult.SetStatus","IRtwqAsyncResult::SetStatus","SetStatus","SetStatus method","SetStatus method","IRtwqAsyncResult interface","base.irtwqasyncresult_setstatus","rtworkq/IRtwqAsyncResult::SetStatus"]
+description: Sets the status of the asynchronous operation.
+helpviewer_keywords: ["IRtwqAsyncResult interface","SetStatus method","IRtwqAsyncResult.SetStatus","IRtwqAsyncResult::SetStatus","SetStatus","SetStatus method","SetStatus method","IRtwqAsyncResult interface","base.irtwqasyncresult_setstatus","rtworkq/IRtwqAsyncResult::SetStatus"]
 old-location: base\irtwqasyncresult_setstatus.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 9F3A74F5-615B-40B2-8E69-145D0ECA22A9
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult interface,SetStatus method, IRtwqAsyncResult.SetStatus, IRtwqAsyncResult::SetStatus, SetStatus, SetStatus method, SetStatus method,IRtwqAsyncResult interface, base.irtwqasyncresult_setstatus, rtworkq/IRtwqAsyncResult::SetStatus

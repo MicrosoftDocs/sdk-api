@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspInformation.InitializeFromType
 title: ICspInformation::InitializeFromType (certenroll.h)
-description: Initializes the object from the default cryptographic provider.helpviewer_keywords: ["ICspInformation interface [Security]","InitializeFromType method","ICspInformation.InitializeFromType","ICspInformation::InitializeFromType","InitializeFromType","InitializeFromType method [Security]","InitializeFromType method [Security]","ICspInformation interface","certenroll/ICspInformation::InitializeFromType","security.icspinformation_initializefromtype_method"]
+description: Initializes the object from the default cryptographic provider.
+helpviewer_keywords: ["ICspInformation interface [Security]","InitializeFromType method","ICspInformation.InitializeFromType","ICspInformation::InitializeFromType","InitializeFromType","InitializeFromType method [Security]","InitializeFromType method [Security]","ICspInformation interface","certenroll/ICspInformation::InitializeFromType","security.icspinformation_initializefromtype_method"]
 old-location: security\icspinformation_initializefromtype_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 24466981-2ea2-41f5-b2db-85b5629fba7d
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICspInformation.InitializeFromType, ICspInformation::InitializeFromType, InitializeFromType, InitializeFromType method [Security], InitializeFromType method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromType, security.icspinformation_initializefromtype_method

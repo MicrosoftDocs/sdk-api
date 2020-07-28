@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1Layer
 title: ID2D1Layer (d2d1.h)
-description: Represents the backing store required to render a layer.helpviewer_keywords: ["ID2D1Layer","ID2D1Layer interface [Direct2D]","ID2D1Layer interface [Direct2D]","described","d2d1/ID2D1Layer","direct2d.ID2D1Layer"]
+description: Represents the backing store required to render a layer.
+helpviewer_keywords: ["ID2D1Layer","ID2D1Layer interface [Direct2D]","ID2D1Layer interface [Direct2D]","described","d2d1/ID2D1Layer","direct2d.ID2D1Layer"]
 old-location: direct2d\ID2D1Layer.htm
 tech.root: Direct2D
 ms.assetid: ce7b2345-f0e5-4e44-9146-b1f140bb00ca

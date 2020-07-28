@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
 title: IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame (wmcodecdsp.h)
-description: Note  This method is obsolete and should not be used. Restores the current reconstructed video frame.helpviewer_keywords: ["IWMVideoDecoderReconBuffer interface [Media Foundation]","SetReconstructedVideoFrame method","IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame","IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame","SetReconstructedVideoFrame","SetReconstructedVideoFrame method [Media Foundation]","SetReconstructedVideoFrame method [Media Foundation]","IWMVideoDecoderReconBuffer interface","codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe","mf.iwmvideodecoderreconbuffersetreconstructedvideoframe","wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame"]
+description: Note  This method is obsolete and should not be used. Restores the current reconstructed video frame.
+helpviewer_keywords: ["IWMVideoDecoderReconBuffer interface [Media Foundation]","SetReconstructedVideoFrame method","IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame","IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame","SetReconstructedVideoFrame","SetReconstructedVideoFrame method [Media Foundation]","SetReconstructedVideoFrame method [Media Foundation]","IWMVideoDecoderReconBuffer interface","codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe","mf.iwmvideodecoderreconbuffersetreconstructedvideoframe","wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame"]
 old-location: mf\iwmvideodecoderreconbuffersetreconstructedvideoframe.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: baffb56f-b2c5-464f-a2ae-1cb9677b8b83
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame

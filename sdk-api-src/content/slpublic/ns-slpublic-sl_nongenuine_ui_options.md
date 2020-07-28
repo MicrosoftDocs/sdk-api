@@ -1,9 +1,10 @@
 ---
 UID: NS:slpublic._tagSL_NONGENUINE_UI_OPTIONS
 title: SL_NONGENUINE_UI_OPTIONS (slpublic.h)
-description: Specifies an application that displays a dialog box when the SLIsGenuineLocal function indicates that an installation is not genuine.helpviewer_keywords: ["SL_NONGENUINE_UI_OPTIONS","SL_NONGENUINE_UI_OPTIONS structure [Security]","security.sl_nongenuine_ui_options","slpublic/SL_NONGENUINE_UI_OPTIONS"]
+description: Specifies an application that displays a dialog box when the SLIsGenuineLocal function indicates that an installation is not genuine.
+helpviewer_keywords: ["SL_NONGENUINE_UI_OPTIONS","SL_NONGENUINE_UI_OPTIONS structure [Security]","security.sl_nongenuine_ui_options","slpublic/SL_NONGENUINE_UI_OPTIONS"]
 old-location: security\sl_nongenuine_ui_options.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 5e793f09-1d12-4b69-8ba6-6c45421df533
 ms.date: 12/05/2018
 ms.keywords: SL_NONGENUINE_UI_OPTIONS, SL_NONGENUINE_UI_OPTIONS structure [Security], security.sl_nongenuine_ui_options, slpublic/SL_NONGENUINE_UI_OPTIONS

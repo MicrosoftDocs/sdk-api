@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsmgmtw32.DeregisterManageableLogClient
 title: DeregisterManageableLogClient function (clfsmgmtw32.h)
-description: Deregisters a client with the log manager.helpviewer_keywords: ["DeregisterManageableLogClient","DeregisterManageableLogClient function [Files]","clfsmgmtw32/DeregisterManageableLogClient","fs.deregistermanageablelogclient"]
+description: Deregisters a client with the log manager.
+helpviewer_keywords: ["DeregisterManageableLogClient","DeregisterManageableLogClient function [Files]","clfsmgmtw32/DeregisterManageableLogClient","fs.deregistermanageablelogclient"]
 old-location: fs\deregistermanageablelogclient.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 293a4856-62d4-49a3-9177-4d09a0897200
 ms.date: 12/05/2018
 ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient function [Files], clfsmgmtw32/DeregisterManageableLogClient, fs.deregistermanageablelogclient

@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsMappedView
 title: ISimilarityTraitsMappedView (msrdc.h)
-description: Provides methods that an RDC application can implement for manipulating a mapped view of a similarity traits table file.helpviewer_keywords: ["ISimilarityTraitsMappedView","ISimilarityTraitsMappedView interface [Remote Differential Compression]","ISimilarityTraitsMappedView interface [Remote Differential Compression]","described","fs.isimilaritytraitsmappedview","msrdc/ISimilarityTraitsMappedView","rdc.isimilaritytraitsmappedview"]
+description: Provides methods that an RDC application can implement for manipulating a mapped view of a similarity traits table file.
+helpviewer_keywords: ["ISimilarityTraitsMappedView","ISimilarityTraitsMappedView interface [Remote Differential Compression]","ISimilarityTraitsMappedView interface [Remote Differential Compression]","described","fs.isimilaritytraitsmappedview","msrdc/ISimilarityTraitsMappedView","rdc.isimilaritytraitsmappedview"]
 old-location: rdc\isimilaritytraitsmappedview.htm
 tech.root: rdc
 ms.assetid: 48d6d4a0-fbf1-476a-b30f-83176c51cb48

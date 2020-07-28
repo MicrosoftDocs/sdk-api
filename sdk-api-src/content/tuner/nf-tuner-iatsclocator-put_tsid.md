@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IATSCLocator.put_TSID
 title: IATSCLocator::put_TSID (tuner.h)
-description: The put_TSID method sets the transport stream ID.helpviewer_keywords: ["IATSCLocator interface [Microsoft TV Technologies]","put_TSID method","IATSCLocator.put_TSID","IATSCLocator::put_TSID","IATSCLocatorput_TSID","mstv.iatsclocator_put_tsid","put_TSID","put_TSID method [Microsoft TV Technologies]","put_TSID method [Microsoft TV Technologies]","IATSCLocator interface","tuner/IATSCLocator::put_TSID"]
+description: The put_TSID method sets the transport stream ID.
+helpviewer_keywords: ["IATSCLocator interface [Microsoft TV Technologies]","put_TSID method","IATSCLocator.put_TSID","IATSCLocator::put_TSID","IATSCLocatorput_TSID","mstv.iatsclocator_put_tsid","put_TSID","put_TSID method [Microsoft TV Technologies]","put_TSID method [Microsoft TV Technologies]","IATSCLocator interface","tuner/IATSCLocator::put_TSID"]
 old-location: mstv\iatsclocator_put_tsid.htm
 tech.root: mstv
 ms.assetid: 1864d2e7-0d4a-44b6-a9db-11f6efcd6986

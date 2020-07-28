@@ -4,7 +4,7 @@ title: InterlockedExchangeAdd64 function (winnt.h)
 description: Performs an atomic addition of two 64-bit values.
 helpviewer_keywords: ["InterlockedExchangeAdd64","InterlockedExchangeAdd64 function","base.interlockedexchangeadd64","winnt/InterlockedExchangeAdd64"]
 old-location: base\interlockedexchangeadd64.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeAdd64, InterlockedExchangeAdd64 function, base.interlockedexchangeadd64, winnt/InterlockedExchangeAdd64

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByName
 title: IWMPropertyVault::GetPropertyByName (wmsdkidl.h)
-description: The GetPropertyByName method retrieves a property from the vault by its name.helpviewer_keywords: ["GetPropertyByName","GetPropertyByName method [windows Media Format]","GetPropertyByName method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","GetPropertyByName method","IWMPropertyVault.GetPropertyByName","IWMPropertyVault::GetPropertyByName","IWMPropertyVaultGetPropertyByName","wmformat.iwmpropertyvault_getpropertybyname","wmsdkidl/IWMPropertyVault::GetPropertyByName"]
+description: The GetPropertyByName method retrieves a property from the vault by its name.
+helpviewer_keywords: ["GetPropertyByName","GetPropertyByName method [windows Media Format]","GetPropertyByName method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","GetPropertyByName method","IWMPropertyVault.GetPropertyByName","IWMPropertyVault::GetPropertyByName","IWMPropertyVaultGetPropertyByName","wmformat.iwmpropertyvault_getpropertybyname","wmsdkidl/IWMPropertyVault::GetPropertyByName"]
 old-location: wmformat\iwmpropertyvault_getpropertybyname.htm
 tech.root: wmformat
 ms.assetid: 65740366-ac0a-4d18-9f61-a79670998e6a

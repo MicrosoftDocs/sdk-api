@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.AuditQueryPerUserPolicy
 title: AuditQueryPerUserPolicy function (ntsecapi.h)
-description: Retrieves per-user audit policy in one or more audit-policy subcategories for the specified principal.helpviewer_keywords: ["AuditQueryPerUserPolicy","AuditQueryPerUserPolicy function [Security]","ntsecapi/AuditQueryPerUserPolicy","security.auditqueryperuserpolicy_func"]
+description: Retrieves per-user audit policy in one or more audit-policy subcategories for the specified principal.
+helpviewer_keywords: ["AuditQueryPerUserPolicy","AuditQueryPerUserPolicy function [Security]","ntsecapi/AuditQueryPerUserPolicy","security.auditqueryperuserpolicy_func"]
 old-location: security\auditqueryperuserpolicy_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 7d4790de-ebd6-4840-b532-7158b8d80db2
 ms.date: 12/05/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func

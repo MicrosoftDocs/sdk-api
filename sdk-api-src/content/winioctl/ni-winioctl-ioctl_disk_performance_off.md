@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE_OFF
 description: Disables the performance counters that provide disk performance information.
 helpviewer_keywords: ["IOCTL_DISK_PERFORMANCE_OFF","IOCTL_DISK_PERFORMANCE_OFF control","IOCTL_DISK_PERFORMANCE_OFF control code [Files]","base.ioctl_disk_performance_off","fs.ioctl_disk_performance_off","winioctl/IOCTL_DISK_PERFORMANCE_OFF"]
 old-location: fs\ioctl_disk_performance_off.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 68f4f6fb-a4f3-4fa5-8187-b2287a4271e8
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control, IOCTL_DISK_PERFORMANCE_OFF control code [Files], base.ioctl_disk_performance_off, fs.ioctl_disk_performance_off, winioctl/IOCTL_DISK_PERFORMANCE_OFF

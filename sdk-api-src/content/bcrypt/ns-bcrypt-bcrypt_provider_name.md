@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt._BCRYPT_PROVIDER_NAME
 title: BCRYPT_PROVIDER_NAME (bcrypt.h)
-description: Contains the name of a CNG provider.helpviewer_keywords: ["BCRYPT_PROVIDER_NAME","BCRYPT_PROVIDER_NAME structure [Security]","bcrypt/BCRYPT_PROVIDER_NAME","security.bcrypt_provider_name_struct"]
+description: Contains the name of a CNG provider.
+helpviewer_keywords: ["BCRYPT_PROVIDER_NAME","BCRYPT_PROVIDER_NAME structure [Security]","bcrypt/BCRYPT_PROVIDER_NAME","security.bcrypt_provider_name_struct"]
 old-location: security\bcrypt_provider_name_struct.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct

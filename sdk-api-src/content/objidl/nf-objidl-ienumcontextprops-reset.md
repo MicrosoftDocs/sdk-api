@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IEnumContextProps.Reset
 title: IEnumContextProps::Reset (objidl.h)
-description: Resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumContextProps interface [COM]","Reset method","IEnumContextProps.Reset","IEnumContextProps::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumContextProps interface","_com_ienumcontextprops_reset","com.ienumcontextprops_reset","objidlbase/IEnumContextProps::Reset"]
+description: Resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["IEnumContextProps interface [COM]","Reset method","IEnumContextProps.Reset","IEnumContextProps::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumContextProps interface","_com_ienumcontextprops_reset","com.ienumcontextprops_reset","objidlbase/IEnumContextProps::Reset"]
 old-location: com\ienumcontextprops_reset.htm
 tech.root: com
 ms.assetid: de6a45d2-f0f7-4233-92d2-8e59d4685557

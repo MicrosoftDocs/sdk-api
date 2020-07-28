@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmIgnoreChangedDests
 title: RtmIgnoreChangedDests function (rtmv2.h)
-description: The RtmIgnoreChangedDests function skips the next change for each destination if it has already occurred.helpviewer_keywords: ["RtmIgnoreChangedDests","RtmIgnoreChangedDests function [RAS]","_rtmv2ref_rtmignorechangeddests","rras.rtmignorechangeddests","rtmv2/RtmIgnoreChangedDests"]
+description: The RtmIgnoreChangedDests function skips the next change for each destination if it has already occurred.
+helpviewer_keywords: ["RtmIgnoreChangedDests","RtmIgnoreChangedDests function [RAS]","_rtmv2ref_rtmignorechangeddests","rras.rtmignorechangeddests","rtmv2/RtmIgnoreChangedDests"]
 old-location: rras\rtmignorechangeddests.htm
 tech.root: RRAS
 ms.assetid: 9e0b4311-deba-45d6-b1c2-a1b661f25d0f

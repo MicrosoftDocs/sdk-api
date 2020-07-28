@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFRateControl.GetRate
 title: IMFRateControl::GetRate (mfidl.h)
-description: Gets the current playback rate.helpviewer_keywords: ["GetRate","GetRate method [Media Foundation]","GetRate method [Media Foundation]","IMFRateControl interface","IMFRateControl interface [Media Foundation]","GetRate method","IMFRateControl.GetRate","IMFRateControl::GetRate","fb970d06-0f82-4e35-8e03-68044c7f12cd","mf.imfratecontrol_getrate","mfidl/IMFRateControl::GetRate"]
+description: Gets the current playback rate.
+helpviewer_keywords: ["GetRate","GetRate method [Media Foundation]","GetRate method [Media Foundation]","IMFRateControl interface","IMFRateControl interface [Media Foundation]","GetRate method","IMFRateControl.GetRate","IMFRateControl::GetRate","fb970d06-0f82-4e35-8e03-68044c7f12cd","mf.imfratecontrol_getrate","mfidl/IMFRateControl::GetRate"]
 old-location: mf\imfratecontrol_getrate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fb970d06-0f82-4e35-8e03-68044c7f12cd
 ms.date: 12/05/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFRateControl interface, IMFRateControl interface [Media Foundation],GetRate method, IMFRateControl.GetRate, IMFRateControl::GetRate, fb970d06-0f82-4e35-8e03-68044c7f12cd, mf.imfratecontrol_getrate, mfidl/IMFRateControl::GetRate

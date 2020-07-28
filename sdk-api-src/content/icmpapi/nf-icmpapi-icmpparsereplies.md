@@ -1,7 +1,8 @@
 ---
 UID: NF:icmpapi.IcmpParseReplies
 title: IcmpParseReplies function (icmpapi.h)
-description: Parses the reply buffer provided and returns the number of ICMP echo request responses found.helpviewer_keywords: ["IcmpParseReplies","IcmpParseReplies function [IP Helper]","_iphlp_icmpparsereplies","icmpapi/IcmpParseReplies","iphlp.icmpparsereplies"]
+description: Parses the reply buffer provided and returns the number of ICMP echo request responses found.
+helpviewer_keywords: ["IcmpParseReplies","IcmpParseReplies function [IP Helper]","_iphlp_icmpparsereplies","icmpapi/IcmpParseReplies","iphlp.icmpparsereplies"]
 old-location: iphlp\icmpparsereplies.htm
 tech.root: IpHlp
 ms.assetid: ec7c2a5f-5406-4350-b795-6e72fe25f62d

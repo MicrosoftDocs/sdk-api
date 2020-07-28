@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateInstaller
 title: IUpdateSession::CreateUpdateInstaller (wuapi.h)
-description: Returns an IUpdateInstaller interface for this session.helpviewer_keywords: ["CreateUpdateInstaller","CreateUpdateInstaller method [Windows Update Agent]","CreateUpdateInstaller method [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","CreateUpdateInstaller method","IUpdateSession.CreateUpdateInstaller","IUpdateSession::CreateUpdateInstaller","wua.iupdatesession_createupdateinstaller","wuapi/IUpdateSession::CreateUpdateInstaller"]
+description: Returns an IUpdateInstaller interface for this session.
+helpviewer_keywords: ["CreateUpdateInstaller","CreateUpdateInstaller method [Windows Update Agent]","CreateUpdateInstaller method [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","CreateUpdateInstaller method","IUpdateSession.CreateUpdateInstaller","IUpdateSession::CreateUpdateInstaller","wua.iupdatesession_createupdateinstaller","wuapi/IUpdateSession::CreateUpdateInstaller"]
 old-location: wua\iupdatesession_createupdateinstaller.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: e5b5f760-0d25-4506-95d3-63ff4a0b9188
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateInstaller, CreateUpdateInstaller method [Windows Update Agent], CreateUpdateInstaller method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateInstaller method, IUpdateSession.CreateUpdateInstaller, IUpdateSession::CreateUpdateInstaller, wua.iupdatesession_createupdateinstaller, wuapi/IUpdateSession::CreateUpdateInstaller

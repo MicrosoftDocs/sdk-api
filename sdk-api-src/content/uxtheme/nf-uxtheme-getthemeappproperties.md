@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeAppProperties
 title: GetThemeAppProperties function (uxtheme.h)
-description: Retrieves the property flags that control how visual styles are applied in the current application.helpviewer_keywords: ["GetThemeAppProperties","GetThemeAppProperties function [Windows Controls]","controls.GetThemeAppProperties","controls.inet_GetThemeAppProperties","inet_GetThemeAppProperties","inet_GetThemeAppProperties_cpp","uxtheme/GetThemeAppProperties"]
+description: Retrieves the property flags that control how visual styles are applied in the current application.
+helpviewer_keywords: ["GetThemeAppProperties","GetThemeAppProperties function [Windows Controls]","controls.GetThemeAppProperties","controls.inet_GetThemeAppProperties","inet_GetThemeAppProperties","inet_GetThemeAppProperties_cpp","uxtheme/GetThemeAppProperties"]
 old-location: controls\GetThemeAppProperties.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm

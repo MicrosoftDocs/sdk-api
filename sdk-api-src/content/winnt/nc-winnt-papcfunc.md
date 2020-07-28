@@ -1,9 +1,10 @@
 ---
 UID: NC:winnt.PAPCFUNC
 title: PAPCFUNC (winnt.h)
-description: An application-defined completion routine. Specify this address when calling the QueueUserAPC function.helpviewer_keywords: ["APCProc","APCProc callback","APCProc callback function","PAPCFUNC","_win32_apcproc","base.apcproc","winnt/APCProc"]
+description: An application-defined completion routine. Specify this address when calling the QueueUserAPC function.
+helpviewer_keywords: ["APCProc","APCProc callback","APCProc callback function","PAPCFUNC","_win32_apcproc","base.apcproc","winnt/APCProc"]
 old-location: base\apcproc.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 8d52ad73-0172-4d1d-b625-39629e7f5823
 ms.date: 12/05/2018
 ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _win32_apcproc, base.apcproc, winnt/APCProc

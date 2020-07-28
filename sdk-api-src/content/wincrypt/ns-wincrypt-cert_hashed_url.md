@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_HASHED_URL
 title: CERT_HASHED_URL (wincrypt.h)
-description: Contains a hashed URL.helpviewer_keywords: ["*PCERT_HASHED_URL","CERT_HASHED_URL","CERT_HASHED_URL structure [Security]","PCERT_HASHED_URL","PCERT_HASHED_URL structure pointer [Security]","security.cert_hashed_url","wincrypt/CERT_HASHED_URL","wincrypt/PCERT_HASHED_URL"]
+description: Contains a hashed URL.
+helpviewer_keywords: ["*PCERT_HASHED_URL","CERT_HASHED_URL","CERT_HASHED_URL structure [Security]","PCERT_HASHED_URL","PCERT_HASHED_URL structure pointer [Security]","security.cert_hashed_url","wincrypt/CERT_HASHED_URL","wincrypt/PCERT_HASHED_URL"]
 old-location: security\cert_hashed_url.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 961feb88-b924-4834-bc68-d87f410259f1
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_HASHED_URL, CERT_HASHED_URL, CERT_HASHED_URL structure [Security], PCERT_HASHED_URL, PCERT_HASHED_URL structure pointer [Security], security.cert_hashed_url, wincrypt/CERT_HASHED_URL, wincrypt/PCERT_HASHED_URL'

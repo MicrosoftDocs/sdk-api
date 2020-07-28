@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFMediaSink
 title: IMFMediaSink (mfidl.h)
-description: Implemented by media sink objects.helpviewer_keywords: ["103e6fd8-a18f-480a-8261-099623014659","IMFMediaSink","IMFMediaSink interface [Media Foundation]","IMFMediaSink interface [Media Foundation]","described","mf.imfmediasink","mfidl/IMFMediaSink"]
+description: Implemented by media sink objects.
+helpviewer_keywords: ["103e6fd8-a18f-480a-8261-099623014659","IMFMediaSink","IMFMediaSink interface [Media Foundation]","IMFMediaSink interface [Media Foundation]","described","mf.imfmediasink","mfidl/IMFMediaSink"]
 old-location: mf\imfmediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.date: 12/05/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink

@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiSetFeatureAttributesA
 title: MsiSetFeatureAttributesA function (msiquery.h)
-description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table.helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORLOCAL","INSTALLFEATUREATTRIBUTE_FAVORSOURCE","INSTALLFEATUREATTRIBUTE_FOLLOWPARENT","INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE","MsiSetFeatureAttributes","MsiSetFeatureAttributes function","MsiSetFeatureAttributesA","MsiSetFeatureAttributesW","_msi_msisetfeatureattributes","msiquery/MsiSetFeatureAttributes","msiquery/MsiSetFeatureAttributesA","msiquery/MsiSetFeatureAttributesW","setup.msisetfeatureattributes"]
+description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table.
+helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORLOCAL","INSTALLFEATUREATTRIBUTE_FAVORSOURCE","INSTALLFEATUREATTRIBUTE_FOLLOWPARENT","INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE","MsiSetFeatureAttributes","MsiSetFeatureAttributes function","MsiSetFeatureAttributesA","MsiSetFeatureAttributesW","_msi_msisetfeatureattributes","msiquery/MsiSetFeatureAttributes","msiquery/MsiSetFeatureAttributesA","msiquery/MsiSetFeatureAttributesW","setup.msisetfeatureattributes"]
 old-location: setup\msisetfeatureattributes.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: d8dcd6db-9792-4b34-9c78-7d11ec2d4d0f
 ms.date: 12/05/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiSetFeatureAttributes, MsiSetFeatureAttributes function, MsiSetFeatureAttributesA, MsiSetFeatureAttributesW, _msi_msisetfeatureattributes, msiquery/MsiSetFeatureAttributes, msiquery/MsiSetFeatureAttributesA, msiquery/MsiSetFeatureAttributesW, setup.msisetfeatureattributes
@@ -181,4 +182,8 @@ See
 <a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiSetFeatureAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlAsync
 title: IDeviceIoControl::DeviceIoControlAsync (deviceaccess.h)
-description: The DeviceIoControlAsync method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.helpviewer_keywords: ["DeviceIoControlAsync","DeviceIoControlAsync method [Device Access Broker API]","DeviceIoControlAsync method [Device Access Broker API]","IDeviceIoControl interface","IDeviceIoControl interface [Device Access Broker API]","DeviceIoControlAsync method","IDeviceIoControl.DeviceIoControlAsync","IDeviceIoControl::DeviceIoControlAsync","deviceaccess.ideviceiocontrol_deviceiocontrolasync","deviceaccess/IDeviceIoControl::DeviceIoControlAsync"]
+description: The DeviceIoControlAsync method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
+helpviewer_keywords: ["DeviceIoControlAsync","DeviceIoControlAsync method [Device Access Broker API]","DeviceIoControlAsync method [Device Access Broker API]","IDeviceIoControl interface","IDeviceIoControl interface [Device Access Broker API]","DeviceIoControlAsync method","IDeviceIoControl.DeviceIoControlAsync","IDeviceIoControl::DeviceIoControlAsync","deviceaccess.ideviceiocontrol_deviceiocontrolasync","deviceaccess/IDeviceIoControl::DeviceIoControlAsync"]
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolasync.htm
 tech.root: deviceaccess
 ms.assetid: 550eadd0-c03b-40b3-9f08-639085365f4b

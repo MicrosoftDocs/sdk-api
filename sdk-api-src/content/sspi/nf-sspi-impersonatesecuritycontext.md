@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.ImpersonateSecurityContext
 title: ImpersonateSecurityContext function (sspi.h)
-description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.helpviewer_keywords: ["ImpersonateSecurityContext","ImpersonateSecurityContext function [Security]","_ssp_impersonatesecuritycontext","security.impersonatesecuritycontext","sspi/ImpersonateSecurityContext"]
+description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
+helpviewer_keywords: ["ImpersonateSecurityContext","ImpersonateSecurityContext function [Security]","_ssp_impersonatesecuritycontext","security.impersonatesecuritycontext","sspi/ImpersonateSecurityContext"]
 old-location: security\impersonatesecuritycontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.date: 12/05/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext

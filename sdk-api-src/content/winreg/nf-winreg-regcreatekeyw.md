@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegCreateKeyW
 title: RegCreateKeyW function (winreg.h)
-description: Creates the specified registry key. If the key already exists in the registry, the function opens it.helpviewer_keywords: ["RegCreateKey","RegCreateKey function","RegCreateKeyA","RegCreateKeyW","_win32_regcreatekey","base.regcreatekey","winreg/RegCreateKey","winreg/RegCreateKeyA","winreg/RegCreateKeyW"]
+description: Creates the specified registry key. If the key already exists in the registry, the function opens it.
+helpviewer_keywords: ["RegCreateKey","RegCreateKey function","RegCreateKeyA","RegCreateKeyW","_win32_regcreatekey","base.regcreatekey","winreg/RegCreateKey","winreg/RegCreateKeyA","winreg/RegCreateKeyW"]
 old-location: base\regcreatekey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: cb4d30f4-e288-41e8-86e0-807c313db53d
 ms.date: 12/05/2018
 ms.keywords: RegCreateKey, RegCreateKey function, RegCreateKeyA, RegCreateKeyW, _win32_regcreatekey, base.regcreatekey, winreg/RegCreateKey, winreg/RegCreateKeyA, winreg/RegCreateKeyW
@@ -131,6 +132,10 @@ Note that this behavior will result in creation of unwanted keys if an existing 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegCreateKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDocumentSequence
 title: IXpsOMPackage::SetDocumentSequence (xpsobjectmodel.h)
-description: Sets the IXpsOMDocumentSequence interface of the XPS package.helpviewer_keywords: ["IXpsOMPackage interface [XPS Documents and Packaging]","SetDocumentSequence method","IXpsOMPackage.SetDocumentSequence","IXpsOMPackage::SetDocumentSequence","SetDocumentSequence","SetDocumentSequence method [XPS Documents and Packaging]","SetDocumentSequence method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_setdocumentsequence","xpsobjectmodel/IXpsOMPackage::SetDocumentSequence"]
+description: Sets the IXpsOMDocumentSequence interface of the XPS package.
+helpviewer_keywords: ["IXpsOMPackage interface [XPS Documents and Packaging]","SetDocumentSequence method","IXpsOMPackage.SetDocumentSequence","IXpsOMPackage::SetDocumentSequence","SetDocumentSequence","SetDocumentSequence method [XPS Documents and Packaging]","SetDocumentSequence method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_setdocumentsequence","xpsobjectmodel/IXpsOMPackage::SetDocumentSequence"]
 old-location: xps\ixpsompackage_setdocumentsequence.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: cc159b7e-7cce-4f3b-ad0d-ce7b625b61d3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSequence method, IXpsOMPackage.SetDocumentSequence, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence

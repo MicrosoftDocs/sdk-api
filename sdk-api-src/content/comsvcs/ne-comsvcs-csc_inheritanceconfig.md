@@ -1,9 +1,10 @@
 ---
 UID: NE:comsvcs.tagCSC_InheritanceConfig
 title: CSC_InheritanceConfig (comsvcs.h)
-description: Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in CServiceConfig.helpviewer_keywords: ["CSC_Ignore","CSC_Inherit","CSC_InheritanceConfig","CSC_InheritanceConfig enumeration [COM+]","_cos_csc_inheritanceconfig","comsvcs/CSC_Ignore","comsvcs/CSC_Inherit","comsvcs/CSC_InheritanceConfig","cos.csc_inheritanceconfig"]
+description: Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in CServiceConfig.
+helpviewer_keywords: ["CSC_Ignore","CSC_Inherit","CSC_InheritanceConfig","CSC_InheritanceConfig enumeration [COM+]","_cos_csc_inheritanceconfig","comsvcs/CSC_Ignore","comsvcs/CSC_Inherit","comsvcs/CSC_InheritanceConfig","cos.csc_inheritanceconfig"]
 old-location: cos\csc_inheritanceconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9bc8c4f3-d13e-46b6-9187-904b05f66f66
 ms.date: 12/05/2018
 ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConfig enumeration [COM+], _cos_csc_inheritanceconfig, comsvcs/CSC_Ignore, comsvcs/CSC_Inherit, comsvcs/CSC_InheritanceConfig, cos.csc_inheritanceconfig

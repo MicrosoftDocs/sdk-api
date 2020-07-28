@@ -1,9 +1,10 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCreateKey
 title: CryptXmlDllCreateKey (cryptxml.h)
-description: Parses the KeyValue element and creates a Cryptography API:\_Next Generation (CNG) BCrypt key handle to verify a signature.helpviewer_keywords: ["CryptXmlDllCreateKey","CryptXmlDllCreateKey callback","CryptXmlDllCreateKey callback function [Security]","cryptxml/CryptXmlDllCreateKey","security.cryptxmldllcreatekey"]
+description: Parses the KeyValue element and creates a Cryptography API:\_Next Generation (CNG) BCrypt key handle to verify a signature.
+helpviewer_keywords: ["CryptXmlDllCreateKey","CryptXmlDllCreateKey callback","CryptXmlDllCreateKey callback function [Security]","cryptxml/CryptXmlDllCreateKey","security.cryptxmldllcreatekey"]
 old-location: security\cryptxmldllcreatekey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a2c4b4b5-ccfc-4fb9-ad03-942906cf73d7
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCreateKey callback function [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey

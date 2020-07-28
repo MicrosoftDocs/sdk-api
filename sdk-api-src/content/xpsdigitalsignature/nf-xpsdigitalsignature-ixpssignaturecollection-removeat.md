@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.RemoveAt
 title: IXpsSignatureCollection::RemoveAt (xpsdigitalsignature.h)
-description: Removes and releases an IXpsSignature interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsSignatureCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsSignatureCollection.RemoveAt","IXpsSignatureCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsSignatureCollection interface","xps.ixpssignaturecollection_removeat","xpsdigitalsignature/IXpsSignatureCollection::RemoveAt"]
+description: Removes and releases an IXpsSignature interface pointer from a specified location in the collection.
+helpviewer_keywords: ["IXpsSignatureCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsSignatureCollection.RemoveAt","IXpsSignatureCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsSignatureCollection interface","xps.ixpssignaturecollection_removeat","xpsdigitalsignature/IXpsSignatureCollection::RemoveAt"]
 old-location: xps\ixpssignaturecollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 513fcb60-1c07-4748-847c-6ccc7be25fbd
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureCollection.RemoveAt, IXpsSignatureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureCollection interface, xps.ixpssignaturecollection_removeat, xpsdigitalsignature/IXpsSignatureCollection::RemoveAt

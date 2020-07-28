@@ -1,9 +1,10 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecPrivateData
 title: IWMCodecPrivateData (wmcodecdsp.h)
-description: Gets the private codec data that must be appended to the output media type. This codec data is required for properly decoding Windows Media Video content.helpviewer_keywords: ["IWMCodecPrivateData","IWMCodecPrivateData interface [Media Foundation]","IWMCodecPrivateData interface [Media Foundation]","described","codecapi.iwmcodecprivatedata","codecapi.iwmcodecprivatedatainterface","mf.iwmcodecprivatedatainterface","wmcodecdsp/IWMCodecPrivateData"]
+description: Gets the private codec data that must be appended to the output media type. This codec data is required for properly decoding Windows Media Video content.
+helpviewer_keywords: ["IWMCodecPrivateData","IWMCodecPrivateData interface [Media Foundation]","IWMCodecPrivateData interface [Media Foundation]","described","codecapi.iwmcodecprivatedata","codecapi.iwmcodecprivatedatainterface","mf.iwmcodecprivatedatainterface","wmcodecdsp/IWMCodecPrivateData"]
 old-location: mf\iwmcodecprivatedatainterface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c1216fd7-7cbd-45cf-b694-a5fd9a972fcd
 ms.date: 12/05/2018
 ms.keywords: IWMCodecPrivateData, IWMCodecPrivateData interface [Media Foundation], IWMCodecPrivateData interface [Media Foundation],described, codecapi.iwmcodecprivatedata, codecapi.iwmcodecprivatedatainterface, mf.iwmcodecprivatedatainterface, wmcodecdsp/IWMCodecPrivateData

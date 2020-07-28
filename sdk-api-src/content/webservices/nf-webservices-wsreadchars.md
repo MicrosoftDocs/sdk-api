@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadChars
 title: WsReadChars function (webservices.h)
-description: Reads a specified number of text characters from the Reader.helpviewer_keywords: ["WsReadChars","WsReadChars function [Web Services for Windows]","webservices/WsReadChars","wsw.wsreadchars"]
+description: Reads a specified number of text characters from the Reader.
+helpviewer_keywords: ["WsReadChars","WsReadChars function [Web Services for Windows]","webservices/WsReadChars","wsw.wsreadchars"]
 old-location: wsw\wsreadchars.htm
 tech.root: wsw
 ms.assetid: 3285d3f7-8ab1-42f0-b6e0-1d91aa0d576f

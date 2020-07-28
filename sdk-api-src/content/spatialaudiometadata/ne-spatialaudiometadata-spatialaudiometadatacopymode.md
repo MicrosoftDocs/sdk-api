@@ -1,7 +1,8 @@
 ---
 UID: NE:spatialaudiometadata.SpatialAudioMetadataCopyMode
 title: SpatialAudioMetadataCopyMode (spatialaudiometadata.h)
-description: Specifies the copy mode used when calling ISpatialAudioMetadataCopier::CopyMetadataForFrames.helpviewer_keywords: ["SpatialAudioMetadataCopyMode","SpatialAudioMetadataCopy_Append","SpatialAudioMetadataCopy_AppendMergeWithFirst","SpatialAudioMetadataCopy_AppendMergeWithLast","SpatialAudioMetadataCopy_Overwrite","SpatialAudioMetadataWriterCopyMode","SpatialAudioMetadataWriterCopyMode enumeration [Core Audio]","coreaudio.spatialaudiometadatacopymode","coreaudio.spatialaudiometadatawritercopymode","spatialaudiometadata/SpatialAudioMetadataCopy_Append","spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithFirst","spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithLast","spatialaudiometadata/SpatialAudioMetadataCopy_Overwrite","spatialaudiometadata/SpatialAudioMetadataWriterCopyMode"]
+description: Specifies the copy mode used when calling ISpatialAudioMetadataCopier::CopyMetadataForFrames.
+helpviewer_keywords: ["SpatialAudioMetadataCopyMode","SpatialAudioMetadataCopy_Append","SpatialAudioMetadataCopy_AppendMergeWithFirst","SpatialAudioMetadataCopy_AppendMergeWithLast","SpatialAudioMetadataCopy_Overwrite","SpatialAudioMetadataWriterCopyMode","SpatialAudioMetadataWriterCopyMode enumeration [Core Audio]","coreaudio.spatialaudiometadatacopymode","coreaudio.spatialaudiometadatawritercopymode","spatialaudiometadata/SpatialAudioMetadataCopy_Append","spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithFirst","spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithLast","spatialaudiometadata/SpatialAudioMetadataCopy_Overwrite","spatialaudiometadata/SpatialAudioMetadataWriterCopyMode"]
 old-location: coreaudio\spatialaudiometadatacopymode.htm
 tech.root: CoreAudio
 ms.assetid: 2E9C2C66-26EB-43E8-A518-25980B287542

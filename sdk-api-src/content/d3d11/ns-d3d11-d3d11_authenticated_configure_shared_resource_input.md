@@ -1,9 +1,10 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT (d3d11.h)
-description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE command.helpviewer_keywords: ["D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT","D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT","mf.d3d11_authenticated_configure_shared_resource_input"]
+description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE command.
+helpviewer_keywords: ["D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT","D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT","mf.d3d11_authenticated_configure_shared_resource_input"]
 old-location: mf\d3d11_authenticated_configure_shared_resource_input.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5AE1D03F-1853-45DA-96DC-BF1AACF6945F
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT, mf.d3d11_authenticated_configure_shared_resource_input

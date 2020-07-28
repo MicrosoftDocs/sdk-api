@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.EndCreateObject
 title: IMFSchemeHandler::EndCreateObject (mfidl.h)
-description: Completes an asynchronous request to create an object from a URL.helpviewer_keywords: ["EndCreateObject","EndCreateObject method [Media Foundation]","EndCreateObject method [Media Foundation]","IMFSchemeHandler interface","IMFSchemeHandler interface [Media Foundation]","EndCreateObject method","IMFSchemeHandler.EndCreateObject","IMFSchemeHandler::EndCreateObject","e3f88904-c30f-4d40-ac79-c83b0a06f1fa","mf.imfschemehandler_endcreateobject","mfidl/IMFSchemeHandler::EndCreateObject"]
+description: Completes an asynchronous request to create an object from a URL.
+helpviewer_keywords: ["EndCreateObject","EndCreateObject method [Media Foundation]","EndCreateObject method [Media Foundation]","IMFSchemeHandler interface","IMFSchemeHandler interface [Media Foundation]","EndCreateObject method","IMFSchemeHandler.EndCreateObject","IMFSchemeHandler::EndCreateObject","e3f88904-c30f-4d40-ac79-c83b0a06f1fa","mf.imfschemehandler_endcreateobject","mfidl/IMFSchemeHandler::EndCreateObject"]
 old-location: mf\imfschemehandler_endcreateobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e3f88904-c30f-4d40-ac79-c83b0a06f1fa
 ms.date: 12/05/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],EndCreateObject method, IMFSchemeHandler.EndCreateObject, IMFSchemeHandler::EndCreateObject, e3f88904-c30f-4d40-ac79-c83b0a06f1fa, mf.imfschemehandler_endcreateobject, mfidl/IMFSchemeHandler::EndCreateObject

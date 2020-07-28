@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetDisabled
 title: IMFPluginControl::SetDisabled (mfobjects.h)
-description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","SetDisabled method","IMFPluginControl.SetDisabled","IMFPluginControl::SetDisabled","SetDisabled","SetDisabled method [Media Foundation]","SetDisabled method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__setdisabled","mfobjects/IMFPluginControl::SetDisabled"]
+description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
+helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","SetDisabled method","IMFPluginControl.SetDisabled","IMFPluginControl::SetDisabled","SetDisabled","SetDisabled method [Media Foundation]","SetDisabled method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__setdisabled","mfobjects/IMFPluginControl::SetDisabled"]
 old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ff50e746-42f5-4fbe-a904-f83b3c691d32
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, IMFPluginControl.SetDisabled, IMFPluginControl::SetDisabled, SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled

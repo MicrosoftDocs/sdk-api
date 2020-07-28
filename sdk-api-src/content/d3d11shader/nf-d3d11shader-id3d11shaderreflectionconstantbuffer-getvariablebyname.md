@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionConstantBuffer.GetVariableByName
 title: ID3D11ShaderReflectionConstantBuffer::GetVariableByName (d3d11shader.h)
-description: Get a shader-reflection variable by name.helpviewer_keywords: ["613cfca7-07e9-dcae-c494-e5cdf1002b8c","GetVariableByName","GetVariableByName method [Direct3D 11]","GetVariableByName method [Direct3D 11]","ID3D11ShaderReflectionConstantBuffer interface","ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11]","GetVariableByName method","ID3D11ShaderReflectionConstantBuffer.GetVariableByName","ID3D11ShaderReflectionConstantBuffer::GetVariableByName","d3d11shader/ID3D11ShaderReflectionConstantBuffer::GetVariableByName","direct3d11.id3d11shaderreflectionconstantbuffer_getvariablebyname"]
+description: Get a shader-reflection variable by name.
+helpviewer_keywords: ["613cfca7-07e9-dcae-c494-e5cdf1002b8c","GetVariableByName","GetVariableByName method [Direct3D 11]","GetVariableByName method [Direct3D 11]","ID3D11ShaderReflectionConstantBuffer interface","ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11]","GetVariableByName method","ID3D11ShaderReflectionConstantBuffer.GetVariableByName","ID3D11ShaderReflectionConstantBuffer::GetVariableByName","d3d11shader/ID3D11ShaderReflectionConstantBuffer::GetVariableByName","direct3d11.id3d11shaderreflectionconstantbuffer_getvariablebyname"]
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer_getvariablebyname.htm
 tech.root: direct3d11
 ms.assetid: daa14557-0987-4498-a2f5-428497805eca

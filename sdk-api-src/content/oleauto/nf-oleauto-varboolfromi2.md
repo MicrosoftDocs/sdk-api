@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBoolFromI2
 title: VarBoolFromI2 function (oleauto.h)
-description: Converts a short value to a Boolean value.helpviewer_keywords: ["VarBoolFromI2","VarBoolFromI2 function [Automation]","_oa96_VarBoolFromI2","automat.varboolfromi2","oleauto/VarBoolFromI2"]
+description: Converts a short value to a Boolean value.
+helpviewer_keywords: ["VarBoolFromI2","VarBoolFromI2 function [Automation]","_oa96_VarBoolFromI2","automat.varboolfromi2","oleauto/VarBoolFromI2"]
 old-location: automat\varboolfromi2.htm
 tech.root: automat
 ms.assetid: 2d3ce209-add5-4609-8cb4-8affd9cc1de1

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource
 title: IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource (mfmediaengine.h)
-description: Specifies wether or not the source should be transferred.helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","ShouldTransferSource method","IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource","IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource","ShouldTransferSource","ShouldTransferSource method [Media Foundation]","ShouldTransferSource method [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface","mf.imfmediaenginesupportssourcetransfer_shouldtransfersource","mfmediaengine/IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource"]
+description: Specifies wether or not the source should be transferred.
+helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","ShouldTransferSource method","IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource","IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource","ShouldTransferSource","ShouldTransferSource method [Media Foundation]","ShouldTransferSource method [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface","mf.imfmediaenginesupportssourcetransfer_shouldtransfersource","mfmediaengine/IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource"]
 old-location: mf\imfmediaenginesupportssourcetransfer_shouldtransfersource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7409a6be-7114-42e2-b878-c68d846106c6
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],ShouldTransferSource method, IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource, IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource, ShouldTransferSource, ShouldTransferSource method [Media Foundation], ShouldTransferSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, mf.imfmediaenginesupportssourcetransfer_shouldtransfersource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource

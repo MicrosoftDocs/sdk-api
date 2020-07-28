@@ -1,9 +1,10 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Delete
 title: IPNPXAssociation::Delete (pnpxassoc.h)
-description: Removes an entry from the association database.helpviewer_keywords: ["Delete","Delete method","Delete method","IPNPXAssociation interface","IPNPXAssociation interface","Delete method","IPNPXAssociation.Delete","IPNPXAssociation::Delete","ncd.ipnpxassociation_delete","pnpxassoc/IPNPXAssociation::Delete"]
+description: Removes an entry from the association database.
+helpviewer_keywords: ["Delete","Delete method","Delete method","IPNPXAssociation interface","IPNPXAssociation interface","Delete method","IPNPXAssociation.Delete","IPNPXAssociation::Delete","ncd.ipnpxassociation_delete","pnpxassoc/IPNPXAssociation::Delete"]
 old-location: ncd\ipnpxassociation_delete.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: cc00c135-140d-4e05-9180-779917d88688
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXAssociation interface, IPNPXAssociation interface,Delete method, IPNPXAssociation.Delete, IPNPXAssociation::Delete, ncd.ipnpxassociation_delete, pnpxassoc/IPNPXAssociation::Delete

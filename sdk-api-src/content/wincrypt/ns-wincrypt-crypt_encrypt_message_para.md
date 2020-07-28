@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRYPT_ENCRYPT_MESSAGE_PARA
 title: CRYPT_ENCRYPT_MESSAGE_PARA (wincrypt.h)
-description: Contains information used to encrypt messages.helpviewer_keywords: ["*PCRYPT_ENCRYPT_MESSAGE_PARA","CRYPT_ENCRYPT_MESSAGE_PARA","CRYPT_ENCRYPT_MESSAGE_PARA structure [Security]","PCRYPT_ENCRYPT_MESSAGE_PARA","PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security]","_crypto2_crypt_encrypt_message_para","security.crypt_encrypt_message_para","wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA","wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"]
+description: Contains information used to encrypt messages.
+helpviewer_keywords: ["*PCRYPT_ENCRYPT_MESSAGE_PARA","CRYPT_ENCRYPT_MESSAGE_PARA","CRYPT_ENCRYPT_MESSAGE_PARA structure [Security]","PCRYPT_ENCRYPT_MESSAGE_PARA","PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security]","_crypto2_crypt_encrypt_message_para","security.crypt_encrypt_message_para","wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA","wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"]
 old-location: security\crypt_encrypt_message_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA'

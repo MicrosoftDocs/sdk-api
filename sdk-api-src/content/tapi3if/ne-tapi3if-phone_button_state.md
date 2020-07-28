@@ -1,9 +1,10 @@
 ---
 UID: NE:tapi3if.PHONE_BUTTON_STATE
 title: PHONE_BUTTON_STATE (tapi3if.h)
-description: The PHONE_BUTTON_STATE enum describes the state of a phone button.helpviewer_keywords: ["PBS_DOWN","PBS_UNAVAIL","PBS_UNKNOWN","PBS_UP","PHONE_BUTTON_STATE","PHONE_BUTTON_STATE enumeration [TAPI 2.2]","_tapi3_phone_button_state","tapi3.phone_button_state","tapi3if/PBS_DOWN","tapi3if/PBS_UNAVAIL","tapi3if/PBS_UNKNOWN","tapi3if/PBS_UP","tapi3if/PHONE_BUTTON_STATE"]
+description: The PHONE_BUTTON_STATE enum describes the state of a phone button.
+helpviewer_keywords: ["PBS_DOWN","PBS_UNAVAIL","PBS_UNKNOWN","PBS_UP","PHONE_BUTTON_STATE","PHONE_BUTTON_STATE enumeration [TAPI 2.2]","_tapi3_phone_button_state","tapi3.phone_button_state","tapi3if/PBS_DOWN","tapi3if/PBS_UNAVAIL","tapi3if/PBS_UNKNOWN","tapi3if/PBS_UP","tapi3if/PHONE_BUTTON_STATE"]
 old-location: tapi3\phone_button_state.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a9f7b527-9c74-45ac-9394-6f736aae1ccf
 ms.date: 12/05/2018
 ms.keywords: PBS_DOWN, PBS_UNAVAIL, PBS_UNKNOWN, PBS_UP, PHONE_BUTTON_STATE, PHONE_BUTTON_STATE enumeration [TAPI 2.2], _tapi3_phone_button_state, tapi3.phone_button_state, tapi3if/PBS_DOWN, tapi3if/PBS_UNAVAIL, tapi3if/PBS_UNKNOWN, tapi3if/PBS_UP, tapi3if/PHONE_BUTTON_STATE

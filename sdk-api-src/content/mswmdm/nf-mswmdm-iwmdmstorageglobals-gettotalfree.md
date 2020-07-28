@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetTotalFree
 title: IWMDMStorageGlobals::GetTotalFree (mswmdm.h)
-description: The GetTotalFree method retrieves the total amount of free space on the storage medium, in bytes.helpviewer_keywords: ["GetTotalFree","GetTotalFree method [windows Media Device Manager]","GetTotalFree method [windows Media Device Manager]","IWMDMStorageGlobals interface","IWMDMStorageGlobals interface [windows Media Device Manager]","GetTotalFree method","IWMDMStorageGlobals.GetTotalFree","IWMDMStorageGlobals::GetTotalFree","IWMDMStorageGlobalsGetTotalFree","mswmdm/IWMDMStorageGlobals::GetTotalFree","wmdm.iwmdmstorageglobals_gettotalfree"]
+description: The GetTotalFree method retrieves the total amount of free space on the storage medium, in bytes.
+helpviewer_keywords: ["GetTotalFree","GetTotalFree method [windows Media Device Manager]","GetTotalFree method [windows Media Device Manager]","IWMDMStorageGlobals interface","IWMDMStorageGlobals interface [windows Media Device Manager]","GetTotalFree method","IWMDMStorageGlobals.GetTotalFree","IWMDMStorageGlobals::GetTotalFree","IWMDMStorageGlobalsGetTotalFree","mswmdm/IWMDMStorageGlobals::GetTotalFree","wmdm.iwmdmstorageglobals_gettotalfree"]
 old-location: wmdm\iwmdmstorageglobals_gettotalfree.htm
 tech.root: WMDM
 ms.assetid: a97c2d92-dc54-4987-b2b4-e4de2e546a1f

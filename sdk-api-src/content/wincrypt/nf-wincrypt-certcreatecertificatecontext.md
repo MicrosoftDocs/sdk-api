@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertCreateCertificateContext
 title: CertCreateCertificateContext function (wincrypt.h)
-description: Creates a certificate context from an encoded certificate. The created context is not persisted to a certificate store. The function makes a copy of the encoded certificate within the created context.helpviewer_keywords: ["CertCreateCertificateContext","CertCreateCertificateContext function [Security]","_crypto2_certcreatecertificatecontext","security.certcreatecertificatecontext","wincrypt/CertCreateCertificateContext"]
+description: Creates a certificate context from an encoded certificate. The created context is not persisted to a certificate store. The function makes a copy of the encoded certificate within the created context.
+helpviewer_keywords: ["CertCreateCertificateContext","CertCreateCertificateContext function [Security]","_crypto2_certcreatecertificatecontext","security.certcreatecertificatecontext","wincrypt/CertCreateCertificateContext"]
 old-location: security\certcreatecertificatecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a32714c4-ee88-48a8-a40a-bbbfec0613ac
 ms.date: 12/05/2018
 ms.keywords: CertCreateCertificateContext, CertCreateCertificateContext function [Security], _crypto2_certcreatecertificatecontext, security.certcreatecertificatecontext, wincrypt/CertCreateCertificateContext

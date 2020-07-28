@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.IEnumPhone.Next
 title: IEnumPhone::Next (tapi3if.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.helpviewer_keywords: ["IEnumPhone interface [TAPI 2.2]","Next method","IEnumPhone.Next","IEnumPhone::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumPhone interface","_tapi3_ienumphone_next","tapi3.ienumphone_next","tapi3if/IEnumPhone::Next"]
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+helpviewer_keywords: ["IEnumPhone interface [TAPI 2.2]","Next method","IEnumPhone.Next","IEnumPhone::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumPhone interface","_tapi3_ienumphone_next","tapi3.ienumphone_next","tapi3if/IEnumPhone::Next"]
 old-location: tapi3\ienumphone_next.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7ea1e851-00df-4b32-ba37-c562da983102
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Next method, IEnumPhone.Next, IEnumPhone::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_next, tapi3.ienumphone_next, tapi3if/IEnumPhone::Next

@@ -1,9 +1,10 @@
 ---
 UID: NF:winnt.RtlQueryDepthSList
 title: RtlQueryDepthSList function (winnt.h)
-description: Retrieves the number of entries in the specified singly linked list.helpviewer_keywords: ["RtlQueryDepthSList","RtlQueryDepthSList function","base.rtlquerydepthslist","winnt/RtlQueryDepthSList"]
+description: Retrieves the number of entries in the specified singly linked list.
+helpviewer_keywords: ["RtlQueryDepthSList","RtlQueryDepthSList function","base.rtlquerydepthslist","winnt/RtlQueryDepthSList"]
 old-location: base\rtlquerydepthslist.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 5a73b181-e1ea-459a-b3b0-6cf16980930c
 ms.date: 12/05/2018
 ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList

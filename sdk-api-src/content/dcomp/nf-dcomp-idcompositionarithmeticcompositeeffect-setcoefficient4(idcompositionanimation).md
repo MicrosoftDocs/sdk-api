@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation) (dcomp.h)
-description: Sets the fourth coefficient for the equation used to composite the two input images.helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient4 method","IDCompositionArithmeticCompositeEffect.SetCoefficient4","IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation)","IDCompositionArithmeticCompositeEffect::SetCoefficient4","IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation)","SetCoefficient4","SetCoefficient4 method [DirectComposition]","SetCoefficient4 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4_2"]
+description: Sets the fourth coefficient for the equation used to composite the two input images.
+helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient4 method","IDCompositionArithmeticCompositeEffect.SetCoefficient4","IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation)","IDCompositionArithmeticCompositeEffect::SetCoefficient4","IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation)","SetCoefficient4","SetCoefficient4 method [DirectComposition]","SetCoefficient4 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4_2"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4_2.htm
 tech.root: directcomp
 ms.assetid: F495A5CC-4FAA-482F-83E4-C6CF887EA00F

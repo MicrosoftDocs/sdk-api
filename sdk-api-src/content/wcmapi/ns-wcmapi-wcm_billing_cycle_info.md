@@ -1,7 +1,8 @@
 ---
 UID: NS:wcmapi.WCM_BILLING_CYCLE_INFO
 title: WCM_BILLING_CYCLE_INFO (wcmapi.h)
-description: Specifies information about the billing cycle.helpviewer_keywords: ["WCM_BILLING_CYCLE_INFO","WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager]","wcm.wcm_billing_cycle_info","wcmapi/WCM_BILLING_CYCLE_INFO"]
+description: Specifies information about the billing cycle.
+helpviewer_keywords: ["WCM_BILLING_CYCLE_INFO","WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager]","wcm.wcm_billing_cycle_info","wcmapi/WCM_BILLING_CYCLE_INFO"]
 old-location: wcm\wcm_billing_cycle_info.htm
 tech.root: wcm
 ms.assetid: 5cfcdfb7-aa33-4582-ba17-e1a305b830f5

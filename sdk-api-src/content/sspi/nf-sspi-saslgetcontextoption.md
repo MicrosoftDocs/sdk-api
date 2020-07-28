@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.SaslGetContextOption
 title: SaslGetContextOption function (sspi.h)
-description: Retrieves the specified property of the specified SASL context.helpviewer_keywords: ["SASL_OPTION_AUTHZ_PROCESSING","SASL_OPTION_AUTHZ_STRING","SASL_OPTION_RECV_SIZE","SASL_OPTION_SEND_SIZE","SaslGetContextOption","SaslGetContextOption function [Security]","security.saslgetcontextoption","sspi/SaslGetContextOption"]
+description: Retrieves the specified property of the specified SASL context.
+helpviewer_keywords: ["SASL_OPTION_AUTHZ_PROCESSING","SASL_OPTION_AUTHZ_STRING","SASL_OPTION_RECV_SIZE","SASL_OPTION_SEND_SIZE","SaslGetContextOption","SaslGetContextOption function [Security]","security.saslgetcontextoption","sspi/SaslGetContextOption"]
 old-location: security\saslgetcontextoption.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c9c424d3-07e6-4ed0-9189-c932af0475d9
 ms.date: 12/05/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslGetContextOption, SaslGetContextOption function [Security], security.saslgetcontextoption, sspi/SaslGetContextOption

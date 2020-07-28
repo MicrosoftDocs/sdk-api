@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.SetGraph
 title: IESEventServiceConfiguration::SetGraph (tuner.h)
-description: Attaches an event service that implements the IESEventService interface to a filter graph. This method allows the processing of events that support the IESEvent interface from devices in the graph.helpviewer_keywords: ["IESEventServiceConfiguration interface [Microsoft TV Technologies]","SetGraph method","IESEventServiceConfiguration.SetGraph","IESEventServiceConfiguration::SetGraph","SetGraph","SetGraph method [Microsoft TV Technologies]","SetGraph method [Microsoft TV Technologies]","IESEventServiceConfiguration interface","mstv.ieseventserviceconfiguration_setgraph","tuner/IESEventServiceConfiguration::SetGraph"]
+description: Attaches an event service that implements the IESEventService interface to a filter graph. This method allows the processing of events that support the IESEvent interface from devices in the graph.
+helpviewer_keywords: ["IESEventServiceConfiguration interface [Microsoft TV Technologies]","SetGraph method","IESEventServiceConfiguration.SetGraph","IESEventServiceConfiguration::SetGraph","SetGraph","SetGraph method [Microsoft TV Technologies]","SetGraph method [Microsoft TV Technologies]","IESEventServiceConfiguration interface","mstv.ieseventserviceconfiguration_setgraph","tuner/IESEventServiceConfiguration::SetGraph"]
 old-location: mstv\ieseventserviceconfiguration_setgraph.htm
 tech.root: mstv
 ms.assetid: 0aee92b4-740a-4c5a-a64e-9de08d1c35c2

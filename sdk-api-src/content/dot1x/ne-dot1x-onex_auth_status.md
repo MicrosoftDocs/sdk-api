@@ -1,9 +1,10 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_STATUS
 title: ONEX_AUTH_STATUS (dot1x.h)
-description: Specifies the possible values for the 802.1X authentication status.helpviewer_keywords: ["ONEX_AUTH_STATUS","ONEX_AUTH_STATUS enumeration [NativeWIFI]","OneXAuthFailure","OneXAuthInProgress","OneXAuthInvalid","OneXAuthNoAuthenticatorFound","OneXAuthNotStarted","OneXAuthSuccess","PONEX_AUTH_STATUS","PONEX_AUTH_STATUS enumeration pointer [NativeWIFI]","dot1x/ONEX_AUTH_STATUS","dot1x/OneXAuthFailure","dot1x/OneXAuthInProgress","dot1x/OneXAuthInvalid","dot1x/OneXAuthNoAuthenticatorFound","dot1x/OneXAuthNotStarted","dot1x/OneXAuthSuccess","dot1x/PONEX_AUTH_STATUS","nwifi.onex_auth_status"]
+description: Specifies the possible values for the 802.1X authentication status.
+helpviewer_keywords: ["ONEX_AUTH_STATUS","ONEX_AUTH_STATUS enumeration [NativeWIFI]","OneXAuthFailure","OneXAuthInProgress","OneXAuthInvalid","OneXAuthNoAuthenticatorFound","OneXAuthNotStarted","OneXAuthSuccess","PONEX_AUTH_STATUS","PONEX_AUTH_STATUS enumeration pointer [NativeWIFI]","dot1x/ONEX_AUTH_STATUS","dot1x/OneXAuthFailure","dot1x/OneXAuthInProgress","dot1x/OneXAuthInvalid","dot1x/OneXAuthNoAuthenticatorFound","dot1x/OneXAuthNotStarted","dot1x/OneXAuthSuccess","dot1x/PONEX_AUTH_STATUS","nwifi.onex_auth_status"]
 old-location: nwifi\onex_auth_status.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 9a5c7876-2c6b-450e-95e4-2766d63b6e19
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTH_STATUS, ONEX_AUTH_STATUS enumeration [NativeWIFI], OneXAuthFailure, OneXAuthInProgress, OneXAuthInvalid, OneXAuthNoAuthenticatorFound, OneXAuthNotStarted, OneXAuthSuccess, PONEX_AUTH_STATUS, PONEX_AUTH_STATUS enumeration pointer [NativeWIFI], dot1x/ONEX_AUTH_STATUS, dot1x/OneXAuthFailure, dot1x/OneXAuthInProgress, dot1x/OneXAuthInvalid, dot1x/OneXAuthNoAuthenticatorFound, dot1x/OneXAuthNotStarted, dot1x/OneXAuthSuccess, dot1x/PONEX_AUTH_STATUS, nwifi.onex_auth_status

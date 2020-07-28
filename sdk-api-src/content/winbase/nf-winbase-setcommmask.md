@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetCommMask
 title: SetCommMask function (winbase.h)
-description: Specifies a set of events to be monitored for a communications device.helpviewer_keywords: ["EV_BREAK","EV_CTS","EV_DSR","EV_ERR","EV_RING","EV_RLSD","EV_RXCHAR","EV_RXFLAG","EV_TXEMPTY","SetCommMask","SetCommMask function","_win32_setcommmask","base.setcommmask","winbase/SetCommMask"]
+description: Specifies a set of events to be monitored for a communications device.
+helpviewer_keywords: ["EV_BREAK","EV_CTS","EV_DSR","EV_ERR","EV_RING","EV_RLSD","EV_RXCHAR","EV_RXFLAG","EV_TXEMPTY","SetCommMask","SetCommMask function","_win32_setcommmask","base.setcommmask","winbase/SetCommMask"]
 old-location: base\setcommmask.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 77c86b02-7f98-439b-9072-d5fc3ef421a1
 ms.date: 12/05/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, SetCommMask, SetCommMask function, _win32_setcommmask, base.setcommmask, winbase/SetCommMask

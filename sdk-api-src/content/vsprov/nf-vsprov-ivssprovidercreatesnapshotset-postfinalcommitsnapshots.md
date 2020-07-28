@@ -1,9 +1,10 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots (vsprov.h)
-description: Supports auto-recover shadow copies.helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PostFinalCommitSnapshots method","IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots","IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots","PostFinalCommitSnapshots","PostFinalCommitSnapshots method [VSS]","PostFinalCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_postfinalcommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots"]
+description: Supports auto-recover shadow copies.
+helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PostFinalCommitSnapshots method","IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots","IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots","PostFinalCommitSnapshots","PostFinalCommitSnapshots method [VSS]","PostFinalCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_postfinalcommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots"]
 old-location: base\ivssprovidercreatesnapshotset_postfinalcommitsnapshots.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 3b6f7e6e-f1ea-4c90-9d26-fcbe5e104e2c
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots, PostFinalCommitSnapshots, PostFinalCommitSnapshots method [VSS], PostFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postfinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots

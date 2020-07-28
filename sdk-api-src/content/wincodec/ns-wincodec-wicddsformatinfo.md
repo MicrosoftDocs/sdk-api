@@ -1,7 +1,8 @@
 ---
 UID: NS:wincodec.WICDdsFormatInfo
 title: WICDdsFormatInfo (wincodec.h)
-description: Specifies the DXGI_FORMAT and block information of a DDS format.helpviewer_keywords: ["PWICDdsFormatInfo","PWICDdsFormatInfo structure pointer [Windows Imaging Component]","WICDdsFormatInfo","WICDdsFormatInfo structure [Windows Imaging Component]","wic.wicddsformatinfo","wincodec/PWICDdsFormatInfo","wincodec/WICDdsFormatInfo"]
+description: Specifies the DXGI_FORMAT and block information of a DDS format.
+helpviewer_keywords: ["PWICDdsFormatInfo","PWICDdsFormatInfo structure pointer [Windows Imaging Component]","WICDdsFormatInfo","WICDdsFormatInfo structure [Windows Imaging Component]","wic.wicddsformatinfo","wincodec/PWICDdsFormatInfo","wincodec/WICDdsFormatInfo"]
 old-location: wic\wicddsformatinfo.htm
 tech.root: wic
 ms.assetid: C5F1DA49-EC11-4068-9DC6-D721894371F9

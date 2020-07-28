@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDT.GetRecordEITUserDefinedFlags
 title: IISDB_SDT::GetRecordEITUserDefinedFlags (dvbsiparser.h)
-description: Returns the EIT_user_defined_flags field value from a service descriptor in an Integrated Services Digital Broadcasting (ISDB) service description table (SDT).helpviewer_keywords: ["GetRecordEITUserDefinedFlags","GetRecordEITUserDefinedFlags method [Microsoft TV Technologies]","GetRecordEITUserDefinedFlags method [Microsoft TV Technologies]","IISDB_SDT interface","IISDB_SDT interface [Microsoft TV Technologies]","GetRecordEITUserDefinedFlags method","IISDB_SDT.GetRecordEITUserDefinedFlags","IISDB_SDT::GetRecordEITUserDefinedFlags","dvbsiparser/IISDB_SDT::GetRecordEITUserDefinedFlags","mstv.iisdb_sdt_getrecordeituserdefinedflags"]
+description: Returns the EIT_user_defined_flags field value from a service descriptor in an Integrated Services Digital Broadcasting (ISDB) service description table (SDT).
+helpviewer_keywords: ["GetRecordEITUserDefinedFlags","GetRecordEITUserDefinedFlags method [Microsoft TV Technologies]","GetRecordEITUserDefinedFlags method [Microsoft TV Technologies]","IISDB_SDT interface","IISDB_SDT interface [Microsoft TV Technologies]","GetRecordEITUserDefinedFlags method","IISDB_SDT.GetRecordEITUserDefinedFlags","IISDB_SDT::GetRecordEITUserDefinedFlags","dvbsiparser/IISDB_SDT::GetRecordEITUserDefinedFlags","mstv.iisdb_sdt_getrecordeituserdefinedflags"]
 old-location: mstv\iisdb_sdt_getrecordeituserdefinedflags.htm
 tech.root: mstv
 ms.assetid: c67d37e5-f258-45f5-8bc7-c539e3fa5e1a

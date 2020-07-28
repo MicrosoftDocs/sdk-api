@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorSacl
 title: GetSecurityDescriptorSacl function (securitybaseapi.h)
-description: Retrieves a pointer to the system access control list (SACL) in a specified security descriptor.helpviewer_keywords: ["GetSecurityDescriptorSacl","GetSecurityDescriptorSacl function [Security]","_win32_getsecuritydescriptorsacl","security.getsecuritydescriptorsacl","securitybaseapi/GetSecurityDescriptorSacl"]
+description: Retrieves a pointer to the system access control list (SACL) in a specified security descriptor.
+helpviewer_keywords: ["GetSecurityDescriptorSacl","GetSecurityDescriptorSacl function [Security]","_win32_getsecuritydescriptorsacl","security.getsecuritydescriptorsacl","securitybaseapi/GetSecurityDescriptorSacl"]
 old-location: security\getsecuritydescriptorsacl.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6bf59735-aaa3-4751-8c98-00cc197df4e5
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorSacl, GetSecurityDescriptorSacl function [Security], _win32_getsecuritydescriptorsacl, security.getsecuritydescriptorsacl, securitybaseapi/GetSecurityDescriptorSacl

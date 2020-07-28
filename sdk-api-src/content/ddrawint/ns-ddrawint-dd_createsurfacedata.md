@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_CREATESURFACEDATA
 title: DD_CREATESURFACEDATA (ddrawint.h)
-description: The DD_CREATESURFACEDATA structure contains information necessary to create a surface--in the case of CreateD3DBuffer, a command or vertex buffer.helpviewer_keywords: ["*PDD_CREATESURFACEDATA","DD_CREATESURFACEDATA","DD_CREATESURFACEDATA structure [Display Devices]","ddrawint/DD_CREATESURFACEDATA","ddstrcts_bd51b416-f5b7-4a68-833b-7102de67488c.xml","display.dd_createsurfacedata"]
+description: The DD_CREATESURFACEDATA structure contains information necessary to create a surface--in the case of CreateD3DBuffer, a command or vertex buffer.
+helpviewer_keywords: ["*PDD_CREATESURFACEDATA","DD_CREATESURFACEDATA","DD_CREATESURFACEDATA structure [Display Devices]","ddrawint/DD_CREATESURFACEDATA","ddstrcts_bd51b416-f5b7-4a68-833b-7102de67488c.xml","display.dd_createsurfacedata"]
 old-location: display\dd_createsurfacedata.htm
 tech.root: display
 ms.assetid: 5a3b4267-43b4-44dc-abad-cb3f3d07f30e

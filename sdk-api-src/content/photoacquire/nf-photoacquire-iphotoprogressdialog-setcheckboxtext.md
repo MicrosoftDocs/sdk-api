@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxText
 title: IPhotoProgressDialog::SetCheckboxText (photoacquire.h)
-description: The SetCheckboxText method sets the text for the check box in the progress dialog box indicating whether to delete images after transfer.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCheckboxText method","IPhotoProgressDialog.SetCheckboxText","IPhotoProgressDialog::SetCheckboxText","IPhotoProgressDialogSetCheckboxText","SetCheckboxText","SetCheckboxText method [Picture Acquisition]","SetCheckboxText method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCheckboxText","picacq.iphotoprogressdialog_setcheckboxtext"]
+description: The SetCheckboxText method sets the text for the check box in the progress dialog box indicating whether to delete images after transfer.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCheckboxText method","IPhotoProgressDialog.SetCheckboxText","IPhotoProgressDialog::SetCheckboxText","IPhotoProgressDialogSetCheckboxText","SetCheckboxText","SetCheckboxText method [Picture Acquisition]","SetCheckboxText method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCheckboxText","picacq.iphotoprogressdialog_setcheckboxtext"]
 old-location: picacq\iphotoprogressdialog_setcheckboxtext.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: db516dcd-90b4-4421-b883-2f8462b36249
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxText method, IPhotoProgressDialog.SetCheckboxText, IPhotoProgressDialog::SetCheckboxText, IPhotoProgressDialogSetCheckboxText, SetCheckboxText, SetCheckboxText method [Picture Acquisition], SetCheckboxText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxText, picacq.iphotoprogressdialog_setcheckboxtext

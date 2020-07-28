@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateStoryFragmentsResource
 title: IXpsOMObjectFactory::CreateStoryFragmentsResource (xpsobjectmodel.h)
-description: Creates an IXpsOMStoryFragmentsResource interface that provides access to the content of the resource stream of a page's StoryFragments part.helpviewer_keywords: ["CreateStoryFragmentsResource","CreateStoryFragmentsResource method [XPS Documents and Packaging]","CreateStoryFragmentsResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateStoryFragmentsResource method","IXpsOMObjectFactory.CreateStoryFragmentsResource","IXpsOMObjectFactory::CreateStoryFragmentsResource","xps.ixpsomobjectfactory_createstoryfragmentsresource","xpsobjectmodel/IXpsOMObjectFactory::CreateStoryFragmentsResource"]
+description: Creates an IXpsOMStoryFragmentsResource interface that provides access to the content of the resource stream of a page's StoryFragments part.
+helpviewer_keywords: ["CreateStoryFragmentsResource","CreateStoryFragmentsResource method [XPS Documents and Packaging]","CreateStoryFragmentsResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateStoryFragmentsResource method","IXpsOMObjectFactory.CreateStoryFragmentsResource","IXpsOMObjectFactory::CreateStoryFragmentsResource","xps.ixpsomobjectfactory_createstoryfragmentsresource","xpsobjectmodel/IXpsOMObjectFactory::CreateStoryFragmentsResource"]
 old-location: xps\ixpsomobjectfactory_createstoryfragmentsresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b0e3f538-4af9-4d86-8899-6ea4e601eaad
 ms.date: 12/05/2018
 ms.keywords: CreateStoryFragmentsResource, CreateStoryFragmentsResource method [XPS Documents and Packaging], CreateStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateStoryFragmentsResource method, IXpsOMObjectFactory.CreateStoryFragmentsResource, IXpsOMObjectFactory::CreateStoryFragmentsResource, xps.ixpsomobjectfactory_createstoryfragmentsresource, xpsobjectmodel/IXpsOMObjectFactory::CreateStoryFragmentsResource

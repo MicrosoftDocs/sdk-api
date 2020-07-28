@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetReceivePostViewSamples
 title: IWMWriterPostView::GetReceivePostViewSamples (wmsdkidl.h)
-description: The GetReceivePostViewSamples method retrieves a flag indicating whether delivery of postview samples has been turned on for the specified stream.helpviewer_keywords: ["GetReceivePostViewSamples","GetReceivePostViewSamples method [windows Media Format]","GetReceivePostViewSamples method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetReceivePostViewSamples method","IWMWriterPostView.GetReceivePostViewSamples","IWMWriterPostView::GetReceivePostViewSamples","IWMWriterPostViewGetReceivePostViewSamples","wmformat.iwmwriterpostview_getreceivepostviewsamples","wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples"]
+description: The GetReceivePostViewSamples method retrieves a flag indicating whether delivery of postview samples has been turned on for the specified stream.
+helpviewer_keywords: ["GetReceivePostViewSamples","GetReceivePostViewSamples method [windows Media Format]","GetReceivePostViewSamples method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetReceivePostViewSamples method","IWMWriterPostView.GetReceivePostViewSamples","IWMWriterPostView::GetReceivePostViewSamples","IWMWriterPostViewGetReceivePostViewSamples","wmformat.iwmwriterpostview_getreceivepostviewsamples","wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples"]
 old-location: wmformat\iwmwriterpostview_getreceivepostviewsamples.htm
 tech.root: wmformat
 ms.assetid: 93120e68-2d1c-4628-8e2e-d22a56fa98a3

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetCurrentActualFrameRate
 title: IAMVideoControl::GetCurrentActualFrameRate (strmif.h)
-description: The GetCurrentActualFrameRate method retrieves the actual frame rate, expressed as a frame duration in 100-nanosecond units.helpviewer_keywords: ["GetCurrentActualFrameRate","GetCurrentActualFrameRate method [DirectShow]","GetCurrentActualFrameRate method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetCurrentActualFrameRate method","IAMVideoControl.GetCurrentActualFrameRate","IAMVideoControl::GetCurrentActualFrameRate","IAMVideoControlGetCurrentActualFrameRate","dshow.iamvideocontrol_getcurrentactualframerate","strmif/IAMVideoControl::GetCurrentActualFrameRate"]
+description: The GetCurrentActualFrameRate method retrieves the actual frame rate, expressed as a frame duration in 100-nanosecond units.
+helpviewer_keywords: ["GetCurrentActualFrameRate","GetCurrentActualFrameRate method [DirectShow]","GetCurrentActualFrameRate method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetCurrentActualFrameRate method","IAMVideoControl.GetCurrentActualFrameRate","IAMVideoControl::GetCurrentActualFrameRate","IAMVideoControlGetCurrentActualFrameRate","dshow.iamvideocontrol_getcurrentactualframerate","strmif/IAMVideoControl::GetCurrentActualFrameRate"]
 old-location: dshow\iamvideocontrol_getcurrentactualframerate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 373cabed-af09-4d54-b4e1-0ef87727430a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentActualFrameRate, GetCurrentActualFrameRate method [DirectShow], GetCurrentActualFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetCurrentActualFrameRate method, IAMVideoControl.GetCurrentActualFrameRate, IAMVideoControl::GetCurrentActualFrameRate, IAMVideoControlGetCurrentActualFrameRate, dshow.iamvideocontrol_getcurrentactualframerate, strmif/IAMVideoControl::GetCurrentActualFrameRate

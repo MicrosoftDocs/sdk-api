@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IAMVideoCompression
 title: IAMVideoCompression (strmif.h)
-description: The IAMVideoCompression interface sets and retrieves video compression properties.helpviewer_keywords: ["IAMVideoCompression","IAMVideoCompression interface [DirectShow]","IAMVideoCompression interface [DirectShow]","described","IAMVideoCompressionInterface","dshow.iamvideocompression","strmif/IAMVideoCompression"]
+description: The IAMVideoCompression interface sets and retrieves video compression properties.
+helpviewer_keywords: ["IAMVideoCompression","IAMVideoCompression interface [DirectShow]","IAMVideoCompression interface [DirectShow]","described","IAMVideoCompressionInterface","dshow.iamvideocompression","strmif/IAMVideoCompression"]
 old-location: dshow\iamvideocompression.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6b7d8a98-35b8-442f-bf51-9e66fd03e2c9
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], IAMVideoCompression interface [DirectShow],described, IAMVideoCompressionInterface, dshow.iamvideocompression, strmif/IAMVideoCompression

@@ -4,7 +4,7 @@ title: JOBOBJECT_EXTENDED_LIMIT_INFORMATION (winnt.h)
 description: Contains basic and extended limit information for a job object.
 helpviewer_keywords: ["*PJOBOBJECT_EXTENDED_LIMIT_INFORMATION","JOBOBJECT_EXTENDED_LIMIT_INFORMATION","JOBOBJECT_EXTENDED_LIMIT_INFORMATION structure","PJOBOBJECT_EXTENDED_LIMIT_INFORMATION","PJOBOBJECT_EXTENDED_LIMIT_INFORMATION structure pointer","_JOBOBJECT_EXTENDED_LIMIT_INFORMATION","_win32_jobobject_extended_limit_information_str","base.jobobject_extended_limit_information_str","winnt/JOBOBJECT_EXTENDED_LIMIT_INFORMATION","winnt/PJOBOBJECT_EXTENDED_LIMIT_INFORMATION"]
 old-location: base\jobobject_extended_limit_information_str.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5712fd27-6489-4fdc-b69b-4fb6a7c52c02
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_EXTENDED_LIMIT_INFORMATION, JOBOBJECT_EXTENDED_LIMIT_INFORMATION, JOBOBJECT_EXTENDED_LIMIT_INFORMATION structure, PJOBOBJECT_EXTENDED_LIMIT_INFORMATION, PJOBOBJECT_EXTENDED_LIMIT_INFORMATION structure pointer, _JOBOBJECT_EXTENDED_LIMIT_INFORMATION, _win32_jobobject_extended_limit_information_str, base.jobobject_extended_limit_information_str, winnt/JOBOBJECT_EXTENDED_LIMIT_INFORMATION, winnt/PJOBOBJECT_EXTENDED_LIMIT_INFORMATION'

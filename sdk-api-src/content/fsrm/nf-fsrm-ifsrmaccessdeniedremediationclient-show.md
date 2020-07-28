@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmAccessDeniedRemediationClient.Show
 title: IFsrmAccessDeniedRemediationClient::Show (fsrm.h)
-description: Displays the Access Denied Remediation (ADR) client dialog.helpviewer_keywords: ["IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager]","Show method","IFsrmAccessDeniedRemediationClient.Show","IFsrmAccessDeniedRemediationClient::Show","Show","Show method [File Server Resource Manager]","Show method [File Server Resource Manager]","IFsrmAccessDeniedRemediationClient interface","fs.ifsrmaccessdeniedremediationclient_show","fsrm.ifsrmaccessdeniedremediationclient_show","fsrm/IFsrmAccessDeniedRemediationClient::Show"]
+description: Displays the Access Denied Remediation (ADR) client dialog.
+helpviewer_keywords: ["IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager]","Show method","IFsrmAccessDeniedRemediationClient.Show","IFsrmAccessDeniedRemediationClient::Show","Show","Show method [File Server Resource Manager]","Show method [File Server Resource Manager]","IFsrmAccessDeniedRemediationClient interface","fs.ifsrmaccessdeniedremediationclient_show","fsrm.ifsrmaccessdeniedremediationclient_show","fsrm/IFsrmAccessDeniedRemediationClient::Show"]
 old-location: fsrm\ifsrmaccessdeniedremediationclient_show.htm
 tech.root: fsrm
 ms.assetid: befebb2a-99a1-4a32-8bde-3b263d1f4459

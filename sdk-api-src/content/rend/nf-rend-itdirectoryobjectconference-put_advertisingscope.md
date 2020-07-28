@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_AdvertisingScope
 title: ITDirectoryObjectConference::put_AdvertisingScope (rend.h)
-description: The put_AdvertisingScope method sets the advertising scope.helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","put_AdvertisingScope method","ITDirectoryObjectConference.put_AdvertisingScope","ITDirectoryObjectConference::put_AdvertisingScope","_tapi3_itdirectoryobjectconference_put_advertisingscope","put_AdvertisingScope","put_AdvertisingScope method [TAPI 2.2]","put_AdvertisingScope method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::put_AdvertisingScope","tapi3.itdirectoryobjectconference_put_advertisingscope"]
+description: The put_AdvertisingScope method sets the advertising scope.
+helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","put_AdvertisingScope method","ITDirectoryObjectConference.put_AdvertisingScope","ITDirectoryObjectConference::put_AdvertisingScope","_tapi3_itdirectoryobjectconference_put_advertisingscope","put_AdvertisingScope","put_AdvertisingScope method [TAPI 2.2]","put_AdvertisingScope method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::put_AdvertisingScope","tapi3.itdirectoryobjectconference_put_advertisingscope"]
 old-location: tapi3\itdirectoryobjectconference_put_advertisingscope.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 74d7c770-e11d-4d87-acdb-821d64feed0c
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_AdvertisingScope method, ITDirectoryObjectConference.put_AdvertisingScope, ITDirectoryObjectConference::put_AdvertisingScope, _tapi3_itdirectoryobjectconference_put_advertisingscope, put_AdvertisingScope, put_AdvertisingScope method [TAPI 2.2], put_AdvertisingScope method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_AdvertisingScope, tapi3.itdirectoryobjectconference_put_advertisingscope

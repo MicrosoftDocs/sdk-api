@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxServer.RegisterInboundRoutingExtension
 title: IFaxServer::RegisterInboundRoutingExtension (faxcomex.h)
-description: The IFaxServer::RegisterInboundRoutingExtension method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.helpviewer_keywords: ["IFaxServer interface [Fax Service]","RegisterInboundRoutingExtension method","IFaxServer.RegisterInboundRoutingExtension","IFaxServer::RegisterInboundRoutingExtension","RegisterInboundRoutingExtension","RegisterInboundRoutingExtension method [Fax Service]","RegisterInboundRoutingExtension method [Fax Service]","IFaxServer interface","_mfax_faxserver.registerinboundroutingextension","fax._mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp","fax._mfax_faxserver_registerinboundroutingextension","faxcomex/IFaxServer::RegisterInboundRoutingExtension"]
+description: The IFaxServer::RegisterInboundRoutingExtension method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.
+helpviewer_keywords: ["IFaxServer interface [Fax Service]","RegisterInboundRoutingExtension method","IFaxServer.RegisterInboundRoutingExtension","IFaxServer::RegisterInboundRoutingExtension","RegisterInboundRoutingExtension","RegisterInboundRoutingExtension method [Fax Service]","RegisterInboundRoutingExtension method [Fax Service]","IFaxServer interface","_mfax_faxserver.registerinboundroutingextension","fax._mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp","fax._mfax_faxserver_registerinboundroutingextension","faxcomex/IFaxServer::RegisterInboundRoutingExtension"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9kfi.htm

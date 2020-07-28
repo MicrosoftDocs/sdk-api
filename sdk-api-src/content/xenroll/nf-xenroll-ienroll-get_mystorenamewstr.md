@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.get_MyStoreNameWStr
 title: IEnroll::get_MyStoreNameWStr (xenroll.h)
-description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.helpviewer_keywords: ["IEnroll interface [Security]","MyStoreNameWStr property","IEnroll.MyStoreNameWStr","IEnroll.get_MyStoreNameWStr","IEnroll::MyStoreNameWStr","IEnroll::get_MyStoreNameWStr","IEnroll::put_MyStoreNameWStr","MyStoreNameWStr property [Security]","MyStoreNameWStr property [Security]","IEnroll interface","get_MyStoreNameWStr","security.ienroll4_mystorenamewstr","xenroll/IEnroll::MyStoreNameWStr","xenroll/IEnroll::get_MyStoreNameWStr","xenroll/IEnroll::put_MyStoreNameWStr"]
+description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.
+helpviewer_keywords: ["IEnroll interface [Security]","MyStoreNameWStr property","IEnroll.MyStoreNameWStr","IEnroll.get_MyStoreNameWStr","IEnroll::MyStoreNameWStr","IEnroll::get_MyStoreNameWStr","IEnroll::put_MyStoreNameWStr","MyStoreNameWStr property [Security]","MyStoreNameWStr property [Security]","IEnroll interface","get_MyStoreNameWStr","security.ienroll4_mystorenamewstr","xenroll/IEnroll::MyStoreNameWStr","xenroll/IEnroll::get_MyStoreNameWStr","xenroll/IEnroll::put_MyStoreNameWStr"]
 old-location: security\ienroll4_mystorenamewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 077bc593-0071-4f41-8d07-141c9959b6ed
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll.get_MyStoreNameWStr, IEnroll::MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security],IEnroll interface, get_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr

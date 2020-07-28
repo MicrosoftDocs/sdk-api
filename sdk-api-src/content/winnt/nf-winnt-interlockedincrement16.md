@@ -1,9 +1,10 @@
 ---
 UID: NF:winnt.InterlockedIncrement16
 title: InterlockedIncrement16 function (winnt.h)
-description: Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.helpviewer_keywords: ["InterlockedIncrement16","InterlockedIncrement16 function","base.interlockedincrement16","winnt/InterlockedIncrement16"]
+description: Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
+helpviewer_keywords: ["InterlockedIncrement16","InterlockedIncrement16 function","base.interlockedincrement16","winnt/InterlockedIncrement16"]
 old-location: base\interlockedincrement16.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16

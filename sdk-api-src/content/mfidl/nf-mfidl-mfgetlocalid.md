@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFGetLocalId
 title: MFGetLocalId function (mfidl.h)
-description: Gets the local system ID.helpviewer_keywords: ["MFGetLocalId","MFGetLocalId function [Media Foundation]","mf.mfgetlocalid","mfidl/MFGetLocalId"]
+description: Gets the local system ID.
+helpviewer_keywords: ["MFGetLocalId","MFGetLocalId function [Media Foundation]","mf.mfgetlocalid","mfidl/MFGetLocalId"]
 old-location: mf\mfgetlocalid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 24EA8907-9EBF-42FF-8823-05D48E27F9EA
 ms.date: 12/05/2018
 ms.keywords: MFGetLocalId, MFGetLocalId function [Media Foundation], mf.mfgetlocalid, mfidl/MFGetLocalId

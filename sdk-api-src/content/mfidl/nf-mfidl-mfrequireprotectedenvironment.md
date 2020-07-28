@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFRequireProtectedEnvironment
 title: MFRequireProtectedEnvironment function (mfidl.h)
-description: Queries whether a media presentation requires the Protected Media Path (PMP).helpviewer_keywords: ["5129d8c0-4049-4b90-ade8-b4cd32277664","MFRequireProtectedEnvironment","MFRequireProtectedEnvironment function [Media Foundation]","mf.mfrequireprotectedenvironment","mfidl/MFRequireProtectedEnvironment"]
+description: Queries whether a media presentation requires the Protected Media Path (PMP).
+helpviewer_keywords: ["5129d8c0-4049-4b90-ade8-b4cd32277664","MFRequireProtectedEnvironment","MFRequireProtectedEnvironment function [Media Foundation]","mf.mfrequireprotectedenvironment","mfidl/MFRequireProtectedEnvironment"]
 old-location: mf\mfrequireprotectedenvironment.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5129d8c0-4049-4b90-ade8-b4cd32277664
 ms.date: 12/05/2018
 ms.keywords: 5129d8c0-4049-4b90-ade8-b4cd32277664, MFRequireProtectedEnvironment, MFRequireProtectedEnvironment function [Media Foundation], mf.mfrequireprotectedenvironment, mfidl/MFRequireProtectedEnvironment

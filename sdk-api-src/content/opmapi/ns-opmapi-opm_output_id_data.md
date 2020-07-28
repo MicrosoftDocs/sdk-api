@@ -4,7 +4,7 @@ title: OPM_OUTPUT_ID_DATA (opmapi.h)
 description: Contains the result from an OPM_GET_OUTPUT_ID status request.
 helpviewer_keywords: ["OPM_OUTPUT_ID_DATA","OPM_OUTPUT_ID_DATA structure [Media Foundation]","mf.opm_output_id_data","opmapi/OPM_OUTPUT_ID_DATA"]
 old-location: mf\opm_output_id_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3fb56b5d-470c-4ca2-bf8b-5c3761c7cf06
 ms.date: 12/05/2018
 ms.keywords: OPM_OUTPUT_ID_DATA, OPM_OUTPUT_ID_DATA structure [Media Foundation], mf.opm_output_id_data, opmapi/OPM_OUTPUT_ID_DATA

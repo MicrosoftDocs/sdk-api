@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IDownloadResult.GetUpdateResult
 title: IDownloadResult::GetUpdateResult (wuapi.h)
-description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.helpviewer_keywords: ["GetUpdateResult","GetUpdateResult method [Windows Update Agent]","GetUpdateResult method [Windows Update Agent]","IDownloadResult interface","IDownloadResult interface [Windows Update Agent]","GetUpdateResult method","IDownloadResult.GetUpdateResult","IDownloadResult::GetUpdateResult","wua.idownloadresult_getupdateresult","wuapi/IDownloadResult::GetUpdateResult"]
+description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.
+helpviewer_keywords: ["GetUpdateResult","GetUpdateResult method [Windows Update Agent]","GetUpdateResult method [Windows Update Agent]","IDownloadResult interface","IDownloadResult interface [Windows Update Agent]","GetUpdateResult method","IDownloadResult.GetUpdateResult","IDownloadResult::GetUpdateResult","wua.idownloadresult_getupdateresult","wuapi/IDownloadResult::GetUpdateResult"]
 old-location: wua\idownloadresult_getupdateresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d95ce8ad-74d7-4144-9a4b-75d69d5a9442
 ms.date: 12/05/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IDownloadResult interface, IDownloadResult interface [Windows Update Agent],GetUpdateResult method, IDownloadResult.GetUpdateResult, IDownloadResult::GetUpdateResult, wua.idownloadresult_getupdateresult, wuapi/IDownloadResult::GetUpdateResult

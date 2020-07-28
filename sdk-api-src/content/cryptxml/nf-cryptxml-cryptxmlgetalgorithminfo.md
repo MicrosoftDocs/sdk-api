@@ -1,9 +1,10 @@
 ---
 UID: NF:cryptxml.CryptXmlGetAlgorithmInfo
 title: CryptXmlGetAlgorithmInfo function (cryptxml.h)
-description: Decodes the CRYPT_XML_ALGORITHM structure and returns information about the algorithm.helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CryptXmlGetAlgorithmInfo","CryptXmlGetAlgorithmInfo function [Security]","cryptxml/CryptXmlGetAlgorithmInfo","security.cryptxmlgetalgorithminfo"]
+description: Decodes the CRYPT_XML_ALGORITHM structure and returns information about the algorithm.
+helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CryptXmlGetAlgorithmInfo","CryptXmlGetAlgorithmInfo function [Security]","cryptxml/CryptXmlGetAlgorithmInfo","security.cryptxmlgetalgorithminfo"]
 old-location: security\cryptxmlgetalgorithminfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6def15be-d88f-4e2b-b579-eea7742d77b0
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlGetAlgorithmInfo, CryptXmlGetAlgorithmInfo function [Security], cryptxml/CryptXmlGetAlgorithmInfo, security.cryptxmlgetalgorithminfo

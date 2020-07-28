@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.Wow64SuspendThread
 title: Wow64SuspendThread function (winbase.h)
-description: Suspends the specified WOW64 thread.helpviewer_keywords: ["Wow64SuspendThread","Wow64SuspendThread function","base.wow64suspendthread","winbase/Wow64SuspendThread"]
+description: Suspends the specified WOW64 thread.
+helpviewer_keywords: ["Wow64SuspendThread","Wow64SuspendThread function","base.wow64suspendthread","winbase/Wow64SuspendThread"]
 old-location: base\wow64suspendthread.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: d976675a-5400-41ac-a11d-c39a1b2dd50d
 ms.date: 12/05/2018
 ms.keywords: Wow64SuspendThread, Wow64SuspendThread function, base.wow64suspendthread, winbase/Wow64SuspendThread

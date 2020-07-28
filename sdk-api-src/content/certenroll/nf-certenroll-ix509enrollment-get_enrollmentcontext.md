@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_EnrollmentContext
 title: IX509Enrollment::get_EnrollmentContext (certenroll.h)
-description: Retrieves an enrollment context that identifies whether the certificate is intended for a computer or an end-user.helpviewer_keywords: ["EnrollmentContext property [Security]","EnrollmentContext property [Security]","IX509Enrollment interface","IX509Enrollment interface [Security]","EnrollmentContext property","IX509Enrollment.EnrollmentContext","IX509Enrollment.get_EnrollmentContext","IX509Enrollment::EnrollmentContext","IX509Enrollment::get_EnrollmentContext","certenroll/IX509Enrollment::EnrollmentContext","certenroll/IX509Enrollment::get_EnrollmentContext","get_EnrollmentContext","security.ix509enrollment_enrollmentcontext_property"]
+description: Retrieves an enrollment context that identifies whether the certificate is intended for a computer or an end-user.
+helpviewer_keywords: ["EnrollmentContext property [Security]","EnrollmentContext property [Security]","IX509Enrollment interface","IX509Enrollment interface [Security]","EnrollmentContext property","IX509Enrollment.EnrollmentContext","IX509Enrollment.get_EnrollmentContext","IX509Enrollment::EnrollmentContext","IX509Enrollment::get_EnrollmentContext","certenroll/IX509Enrollment::EnrollmentContext","certenroll/IX509Enrollment::get_EnrollmentContext","get_EnrollmentContext","security.ix509enrollment_enrollmentcontext_property"]
 old-location: security\ix509enrollment_enrollmentcontext_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 48bfe2cd-1d17-42a9-8068-b635fd220911
 ms.date: 12/05/2018
 ms.keywords: EnrollmentContext property [Security], EnrollmentContext property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],EnrollmentContext property, IX509Enrollment.EnrollmentContext, IX509Enrollment.get_EnrollmentContext, IX509Enrollment::EnrollmentContext, IX509Enrollment::get_EnrollmentContext, certenroll/IX509Enrollment::EnrollmentContext, certenroll/IX509Enrollment::get_EnrollmentContext, get_EnrollmentContext, security.ix509enrollment_enrollmentcontext_property

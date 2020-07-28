@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IAMStreamSelect
 title: IAMStreamSelect (strmif.h)
-description: The IAMStreamSelect interface selects from the available streams on a parser filter.helpviewer_keywords: ["IAMStreamSelect","IAMStreamSelect interface [DirectShow]","IAMStreamSelect interface [DirectShow]","described","IAMStreamSelectInterface","dshow.iamstreamselect","strmif/IAMStreamSelect"]
+description: The IAMStreamSelect interface selects from the available streams on a parser filter.
+helpviewer_keywords: ["IAMStreamSelect","IAMStreamSelect interface [DirectShow]","IAMStreamSelect interface [DirectShow]","described","IAMStreamSelectInterface","dshow.iamstreamselect","strmif/IAMStreamSelect"]
 old-location: dshow\iamstreamselect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a305e91e-f506-4bd1-b4d4-7361df89e158
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect

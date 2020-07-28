@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetItemCount
 title: IPhotoAcquireSource::GetItemCount (photoacquire.h)
-description: The GetItemCount method retrieves the number of items found by the InitializeItemList method.helpviewer_keywords: ["GetItemCount","GetItemCount method [Picture Acquisition]","GetItemCount method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetItemCount method","IPhotoAcquireSource.GetItemCount","IPhotoAcquireSource::GetItemCount","IPhotoAcquireSourceGetItemCount","photoacquire/IPhotoAcquireSource::GetItemCount","picacq.iphotoacquiresource_getitemcount"]
+description: The GetItemCount method retrieves the number of items found by the InitializeItemList method.
+helpviewer_keywords: ["GetItemCount","GetItemCount method [Picture Acquisition]","GetItemCount method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetItemCount method","IPhotoAcquireSource.GetItemCount","IPhotoAcquireSource::GetItemCount","IPhotoAcquireSourceGetItemCount","photoacquire/IPhotoAcquireSource::GetItemCount","picacq.iphotoacquiresource_getitemcount"]
 old-location: picacq\iphotoacquiresource_getitemcount.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: f60538f2-f1b1-40bb-8663-ed93eede433e
 ms.date: 12/05/2018
 ms.keywords: GetItemCount, GetItemCount method [Picture Acquisition], GetItemCount method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemCount method, IPhotoAcquireSource.GetItemCount, IPhotoAcquireSource::GetItemCount, IPhotoAcquireSourceGetItemCount, photoacquire/IPhotoAcquireSource::GetItemCount, picacq.iphotoacquiresource_getitemcount

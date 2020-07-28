@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTask.put_ApplicationData
 title: IAzTask::put_ApplicationData (azroles.h)
-description: The ApplicationData property of IAzTask sets or retrieves an opaque field that can be used by the application to store information.helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzTask object","ApplicationData property [Security]","IAzTask interface","AzTask object [Security]","ApplicationData property","IAzTask interface [Security]","ApplicationData property","IAzTask.ApplicationData","IAzTask.put_ApplicationData","IAzTask::ApplicationData","IAzTask::get_ApplicationData","IAzTask::put_ApplicationData","azroles/IAzTask::ApplicationData","azroles/IAzTask::get_ApplicationData","azroles/IAzTask::put_ApplicationData","put_ApplicationData","security.iaztask_applicationdata"]
+description: The ApplicationData property of IAzTask sets or retrieves an opaque field that can be used by the application to store information.
+helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzTask object","ApplicationData property [Security]","IAzTask interface","AzTask object [Security]","ApplicationData property","IAzTask interface [Security]","ApplicationData property","IAzTask.ApplicationData","IAzTask.put_ApplicationData","IAzTask::ApplicationData","IAzTask::get_ApplicationData","IAzTask::put_ApplicationData","azroles/IAzTask::ApplicationData","azroles/IAzTask::get_ApplicationData","azroles/IAzTask::put_ApplicationData","put_ApplicationData","security.iaztask_applicationdata"]
 old-location: security\iaztask_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 0a3939ee-6449-4eef-bb23-11e6d7018f04
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzTask object, ApplicationData property [Security],IAzTask interface, AzTask object [Security],ApplicationData property, IAzTask interface [Security],ApplicationData property, IAzTask.ApplicationData, IAzTask.put_ApplicationData, IAzTask::ApplicationData, IAzTask::get_ApplicationData, IAzTask::put_ApplicationData, azroles/IAzTask::ApplicationData, azroles/IAzTask::get_ApplicationData, azroles/IAzTask::put_ApplicationData, put_ApplicationData, security.iaztask_applicationdata

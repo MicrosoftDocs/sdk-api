@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntPtrAdd
 title: UIntPtrAdd function (intsafe.h)
-description: Adds two values of type UINT_PTR.helpviewer_keywords: ["UIntPtrAdd","UIntPtrAdd function [Windows Shell]","_shell_UIntPtrAdd","intsafe/UIntPtrAdd","shell.UIntPtrAdd"]
+description: Adds two values of type UINT_PTR.
+helpviewer_keywords: ["UIntPtrAdd","UIntPtrAdd function [Windows Shell]","_shell_UIntPtrAdd","intsafe/UIntPtrAdd","shell.UIntPtrAdd"]
 old-location: shell\UIntPtrAdd.htm
 tech.root: shell
 ms.assetid: 85658194-cb13-443f-8e6b-84034f7cd46b

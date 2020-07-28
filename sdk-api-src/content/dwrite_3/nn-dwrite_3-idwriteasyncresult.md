@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_3.IDWriteAsyncResult
 title: IDWriteAsyncResult (dwrite_3.h)
-description: Represents the result of an asynchronous operation. A client can use the interface to wait for the operation to complete and to get the result.helpviewer_keywords: ["IDWriteAsyncResult","IDWriteAsyncResult interface [Direct Write]","IDWriteAsyncResult interface [Direct Write]","described","directwrite.idwriteasyncresult","dwrite_3/IDWriteAsyncResult"]
+description: Represents the result of an asynchronous operation. A client can use the interface to wait for the operation to complete and to get the result.
+helpviewer_keywords: ["IDWriteAsyncResult","IDWriteAsyncResult interface [Direct Write]","IDWriteAsyncResult interface [Direct Write]","described","directwrite.idwriteasyncresult","dwrite_3/IDWriteAsyncResult"]
 old-location: directwrite\idwriteasyncresult.htm
 tech.root: DirectWrite
 ms.assetid: 8F267213-EB98-4AD9-826A-7D4E34FEB3E4

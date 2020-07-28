@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.DriverStringOptions
 title: DriverStringOptions (gdiplusenums.h)
-description: The DriverStringOptions enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.helpviewer_keywords: ["DriverStringOptions","DriverStringOptions enumeration [GDI+]","DriverStringOptionsCmapLookup","DriverStringOptionsLimitSubpixel","DriverStringOptionsRealizedAdvance","DriverStringOptionsVertical","_gdiplus_ENUM_DriverStringOptions","gdiplus._gdiplus_ENUM_DriverStringOptions","gdiplusenums/DriverStringOptions","gdiplusenums/DriverStringOptionsCmapLookup","gdiplusenums/DriverStringOptionsLimitSubpixel","gdiplusenums/DriverStringOptionsRealizedAdvance","gdiplusenums/DriverStringOptionsVertical"]
+description: The DriverStringOptions enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
+helpviewer_keywords: ["DriverStringOptions","DriverStringOptions enumeration [GDI+]","DriverStringOptionsCmapLookup","DriverStringOptionsLimitSubpixel","DriverStringOptionsRealizedAdvance","DriverStringOptionsVertical","_gdiplus_ENUM_DriverStringOptions","gdiplus._gdiplus_ENUM_DriverStringOptions","gdiplusenums/DriverStringOptions","gdiplusenums/DriverStringOptionsCmapLookup","gdiplusenums/DriverStringOptionsLimitSubpixel","gdiplusenums/DriverStringOptionsRealizedAdvance","gdiplusenums/DriverStringOptionsVertical"]
 old-location: gdiplus\_gdiplus_ENUM_DriverStringOptions.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoptions.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptGetOIDFunctionValue
 title: CryptGetOIDFunctionValue function (wincrypt.h)
-description: The CryptGetOIDFunctionValue function queries a value associated with an OID.helpviewer_keywords: ["CryptGetOIDFunctionValue","CryptGetOIDFunctionValue function [Security]","REG_DWORD","REG_EXPAND_SZ","REG_MULTI_SZ","REG_SZ","_crypto2_cryptgetoidfunctionvalue","security.cryptgetoidfunctionvalue","wincrypt/CryptGetOIDFunctionValue"]
+description: The CryptGetOIDFunctionValue function queries a value associated with an OID.
+helpviewer_keywords: ["CryptGetOIDFunctionValue","CryptGetOIDFunctionValue function [Security]","REG_DWORD","REG_EXPAND_SZ","REG_MULTI_SZ","REG_SZ","_crypto2_cryptgetoidfunctionvalue","security.cryptgetoidfunctionvalue","wincrypt/CryptGetOIDFunctionValue"]
 old-location: security\cryptgetoidfunctionvalue.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.date: 12/05/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue

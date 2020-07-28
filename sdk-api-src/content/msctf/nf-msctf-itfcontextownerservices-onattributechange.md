@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnAttributeChange
 title: ITfContextOwnerServices::OnAttributeChange (msctf.h)
-description: ITfContextOwnerServices::OnAttributeChange methodhelpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","OnAttributeChange method","ITfContextOwnerServices.OnAttributeChange","ITfContextOwnerServices::OnAttributeChange","OnAttributeChange","OnAttributeChange method [Text Services Framework]","OnAttributeChange method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_onattributechange_ref","msctf/ITfContextOwnerServices::OnAttributeChange","tsf.itfcontextownerservices_onattributechange"]
+description: ITfContextOwnerServices::OnAttributeChange method
+helpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","OnAttributeChange method","ITfContextOwnerServices.OnAttributeChange","ITfContextOwnerServices::OnAttributeChange","OnAttributeChange","OnAttributeChange method [Text Services Framework]","OnAttributeChange method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_onattributechange_ref","msctf/ITfContextOwnerServices::OnAttributeChange","tsf.itfcontextownerservices_onattributechange"]
 old-location: tsf\itfcontextownerservices_onattributechange.htm
 tech.root: TSF
 ms.assetid: 8aae92e2-ae08-4e87-88f1-ece448323866

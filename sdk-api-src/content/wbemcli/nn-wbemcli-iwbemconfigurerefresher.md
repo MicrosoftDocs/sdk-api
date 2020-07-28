@@ -1,9 +1,10 @@
 ---
 UID: NN:wbemcli.IWbemConfigureRefresher
 title: IWbemConfigureRefresher (wbemcli.h)
-description: The IWbemConfigureRefresher interface is used by client code to add enumerators, objects, and nested refreshers into a refresher.helpviewer_keywords: ["IWbemConfigureRefresher","IWbemConfigureRefresher interface [Windows Management Instrumentation]","IWbemConfigureRefresher interface [Windows Management Instrumentation]","described","_hmm_iwbemconfigurerefresher","wbemcli/IWbemConfigureRefresher","wmi.iwbemconfigurerefresher"]
+description: The IWbemConfigureRefresher interface is used by client code to add enumerators, objects, and nested refreshers into a refresher.
+helpviewer_keywords: ["IWbemConfigureRefresher","IWbemConfigureRefresher interface [Windows Management Instrumentation]","IWbemConfigureRefresher interface [Windows Management Instrumentation]","described","_hmm_iwbemconfigurerefresher","wbemcli/IWbemConfigureRefresher","wmi.iwbemconfigurerefresher"]
 old-location: wmi\iwbemconfigurerefresher.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 9dd56891-5f2f-4b0e-9f70-fd75cb9bbd43
 ms.date: 12/05/2018
 ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], IWbemConfigureRefresher interface [Windows Management Instrumentation],described, _hmm_iwbemconfigurerefresher, wbemcli/IWbemConfigureRefresher, wmi.iwbemconfigurerefresher

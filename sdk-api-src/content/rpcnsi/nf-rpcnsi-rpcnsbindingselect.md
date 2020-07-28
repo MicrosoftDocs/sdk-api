@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingSelect
 title: RpcNsBindingSelect function (rpcnsi.h)
-description: The RpcNsBindingSelect function returns a binding handle from a list of compatible binding handles.helpviewer_keywords: ["RpcNsBindingSelect","RpcNsBindingSelect function [RPC]","_rpc_rpcnsbindingselect","rpc.rpcnsbindingselect","rpcnsi/RpcNsBindingSelect"]
+description: The RpcNsBindingSelect function returns a binding handle from a list of compatible binding handles.
+helpviewer_keywords: ["RpcNsBindingSelect","RpcNsBindingSelect function [RPC]","_rpc_rpcnsbindingselect","rpc.rpcnsbindingselect","rpcnsi/RpcNsBindingSelect"]
 old-location: rpc\rpcnsbindingselect.htm
 tech.root: Rpc
 ms.assetid: 1acdd266-9ca2-43d4-b677-7c30b4dca4ee

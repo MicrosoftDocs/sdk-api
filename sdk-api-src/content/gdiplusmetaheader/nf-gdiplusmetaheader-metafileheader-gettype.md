@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetType
 title: MetafileHeader::GetType (gdiplusmetaheader.h)
-description: The MetafileHeader::GetType method gets the type of the associated metafile.helpviewer_keywords: ["GetType","GetType method [GDI+]","GetType method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetType method","MetafileHeader.GetType","MetafileHeader::GetType","_gdiplus_CLASS_MetafileHeader_GetType_","gdiplus._gdiplus_CLASS_MetafileHeader_GetType_"]
+description: The MetafileHeader::GetType method gets the type of the associated metafile.
+helpviewer_keywords: ["GetType","GetType method [GDI+]","GetType method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetType method","MetafileHeader.GetType","MetafileHeader::GetType","_gdiplus_CLASS_MetafileHeader_GetType_","gdiplus._gdiplus_CLASS_MetafileHeader_GetType_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\gettype_36.htm

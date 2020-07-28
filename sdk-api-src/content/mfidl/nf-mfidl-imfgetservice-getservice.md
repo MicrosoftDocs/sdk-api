@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFGetService.GetService
 title: IMFGetService::GetService (mfidl.h)
-description: Retrieves a service interface.helpviewer_keywords: ["4287dd1f-1718-4231-bc62-b58e0e61d688","GetService","GetService method [Media Foundation]","GetService method [Media Foundation]","IMFGetService interface","IMFGetService interface [Media Foundation]","GetService method","IMFGetService.GetService","IMFGetService::GetService","mf.imfgetservice_getservice","mfidl/IMFGetService::GetService"]
+description: Retrieves a service interface.
+helpviewer_keywords: ["4287dd1f-1718-4231-bc62-b58e0e61d688","GetService","GetService method [Media Foundation]","GetService method [Media Foundation]","IMFGetService interface","IMFGetService interface [Media Foundation]","GetService method","IMFGetService.GetService","IMFGetService::GetService","mf.imfgetservice_getservice","mfidl/IMFGetService::GetService"]
 old-location: mf\imfgetservice_getservice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4287dd1f-1718-4231-bc62-b58e0e61d688
 ms.date: 12/05/2018
 ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFGetService interface, IMFGetService interface [Media Foundation],GetService method, IMFGetService.GetService, IMFGetService::GetService, mf.imfgetservice_getservice, mfidl/IMFGetService::GetService

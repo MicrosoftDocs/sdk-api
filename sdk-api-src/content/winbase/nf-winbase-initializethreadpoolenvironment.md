@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.InitializeThreadpoolEnvironment
 title: InitializeThreadpoolEnvironment function (winbase.h)
-description: Initializes a callback environment.helpviewer_keywords: ["InitializeThreadpoolEnvironment","InitializeThreadpoolEnvironment function","base.initializethreadpoolenvironment","winbase/InitializeThreadpoolEnvironment"]
+description: Initializes a callback environment.
+helpviewer_keywords: ["InitializeThreadpoolEnvironment","InitializeThreadpoolEnvironment function","base.initializethreadpoolenvironment","winbase/InitializeThreadpoolEnvironment"]
 old-location: base\initializethreadpoolenvironment.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
 ms.date: 12/05/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment

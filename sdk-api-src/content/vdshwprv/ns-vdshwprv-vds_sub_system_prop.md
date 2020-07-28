@@ -1,9 +1,10 @@
 ---
 UID: NS:vdshwprv._VDS_SUB_SYSTEM_PROP
 title: VDS_SUB_SYSTEM_PROP (vdshwprv.h)
-description: Defines the properties of a subsystem object.helpviewer_keywords: ["*PVDS_SUB_SYSTEM_PROP","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_UNKNOWN","VDS_SUB_SYSTEM_PROP","VDS_SUB_SYSTEM_PROP structure [VDS]","base.vds_sub_system_prop","vds/_VDS_SUB_SYSTEM_PROP","vdshwprv/_VDS_SUB_SYSTEM_PROP"]
+description: Defines the properties of a subsystem object.
+helpviewer_keywords: ["*PVDS_SUB_SYSTEM_PROP","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_UNKNOWN","VDS_SUB_SYSTEM_PROP","VDS_SUB_SYSTEM_PROP structure [VDS]","base.vds_sub_system_prop","vds/_VDS_SUB_SYSTEM_PROP","vdshwprv/_VDS_SUB_SYSTEM_PROP"]
 old-location: base\vds_sub_system_prop.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 8fecb874-5c59-4f55-b528-040ff9209612
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_SUB_SYSTEM_PROP, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP, VDS_SUB_SYSTEM_PROP structure [VDS], base.vds_sub_system_prop, vds/_VDS_SUB_SYSTEM_PROP, vdshwprv/_VDS_SUB_SYSTEM_PROP'

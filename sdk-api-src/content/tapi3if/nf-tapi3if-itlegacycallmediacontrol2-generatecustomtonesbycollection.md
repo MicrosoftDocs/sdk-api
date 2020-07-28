@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection (tapi3if.h)
-description: The GenerateCustomTonesByCollection method generates the specified custom tone.helpviewer_keywords: ["GenerateCustomTonesByCollection","GenerateCustomTonesByCollection method [TAPI 2.2]","GenerateCustomTonesByCollection method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","GenerateCustomTonesByCollection method","ITLegacyCallMediaControl2.GenerateCustomTonesByCollection","ITLegacyCallMediaControl2::GenerateCustomTonesByCollection","_tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection","tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection","tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection"]
+description: The GenerateCustomTonesByCollection method generates the specified custom tone.
+helpviewer_keywords: ["GenerateCustomTonesByCollection","GenerateCustomTonesByCollection method [TAPI 2.2]","GenerateCustomTonesByCollection method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","GenerateCustomTonesByCollection method","ITLegacyCallMediaControl2.GenerateCustomTonesByCollection","ITLegacyCallMediaControl2::GenerateCustomTonesByCollection","_tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection","tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection","tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection"]
 old-location: tapi3\itlegacycallmediacontrol2_generatecustomtonesbycollection.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5115192e-68de-4779-92dc-7cf63585faae
 ms.date: 12/05/2018
 ms.keywords: GenerateCustomTonesByCollection, GenerateCustomTonesByCollection method [TAPI 2.2], GenerateCustomTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateCustomTonesByCollection method, ITLegacyCallMediaControl2.GenerateCustomTonesByCollection, ITLegacyCallMediaControl2::GenerateCustomTonesByCollection, _tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection

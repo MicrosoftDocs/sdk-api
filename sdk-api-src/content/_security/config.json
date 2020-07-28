@@ -90,8 +90,8 @@
     "secpkg.h",
     "winsafer.h",
     "slpublic.h",
-    "diagnosticdataquery",
-    "diagnosticdataquerytypes"
+    "diagnosticdataquery.h",
+    "diagnosticdataquerytypes.h"
   ],
   "displayName": "Security and Identity"
 }

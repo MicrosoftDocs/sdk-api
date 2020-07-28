@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_KEY_ENCRYPT_INFO
 title: CMSG_KEY_AGREE_KEY_ENCRYPT_INFO (wincrypt.h)
-description: Contains the encrypted key for a key agreement recipient of an enveloped message.helpviewer_keywords: ["*PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO","CMSG_KEY_AGREE_KEY_ENCRYPT_INFO","CMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure [Security]","PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO","PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure pointer [Security]","security.cmsg_key_agree_key_encrypt_info","wincrypt/CMSG_KEY_AGREE_KEY_ENCRYPT_INFO","wincrypt/PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO"]
+description: Contains the encrypted key for a key agreement recipient of an enveloped message.
+helpviewer_keywords: ["*PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO","CMSG_KEY_AGREE_KEY_ENCRYPT_INFO","CMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure [Security]","PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO","PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure pointer [Security]","security.cmsg_key_agree_key_encrypt_info","wincrypt/CMSG_KEY_AGREE_KEY_ENCRYPT_INFO","wincrypt/PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO"]
 old-location: security\cmsg_key_agree_key_encrypt_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 586d40cc-8ef6-475b-8b7b-cc1a0bdddfcb
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO, CMSG_KEY_AGREE_KEY_ENCRYPT_INFO, CMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure [Security], PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO, PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure pointer [Security], security.cmsg_key_agree_key_encrypt_info, wincrypt/CMSG_KEY_AGREE_KEY_ENCRYPT_INFO, wincrypt/PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO'

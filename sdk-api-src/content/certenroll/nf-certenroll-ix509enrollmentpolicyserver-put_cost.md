@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.put_Cost
 title: IX509EnrollmentPolicyServer::put_Cost (certenroll.h)
-description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.helpviewer_keywords: ["Cost property [Security]","Cost property [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","Cost property","IX509EnrollmentPolicyServer.Cost","IX509EnrollmentPolicyServer.put_Cost","IX509EnrollmentPolicyServer::Cost","IX509EnrollmentPolicyServer::get_Cost","IX509EnrollmentPolicyServer::put_Cost","certenroll/IX509EnrollmentPolicyServer::Cost","certenroll/IX509EnrollmentPolicyServer::get_Cost","certenroll/IX509EnrollmentPolicyServer::put_Cost","put_Cost","security.ix509enrollmentpolicyserver_cost"]
+description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
+helpviewer_keywords: ["Cost property [Security]","Cost property [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","Cost property","IX509EnrollmentPolicyServer.Cost","IX509EnrollmentPolicyServer.put_Cost","IX509EnrollmentPolicyServer::Cost","IX509EnrollmentPolicyServer::get_Cost","IX509EnrollmentPolicyServer::put_Cost","certenroll/IX509EnrollmentPolicyServer::Cost","certenroll/IX509EnrollmentPolicyServer::get_Cost","certenroll/IX509EnrollmentPolicyServer::put_Cost","put_Cost","security.ix509enrollmentpolicyserver_cost"]
 old-location: security\ix509enrollmentpolicyserver_cost.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e79bc71f-5f7b-47d7-b45b-1279d27439d2
 ms.date: 12/05/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],Cost property, IX509EnrollmentPolicyServer.Cost, IX509EnrollmentPolicyServer.put_Cost, IX509EnrollmentPolicyServer::Cost, IX509EnrollmentPolicyServer::get_Cost, IX509EnrollmentPolicyServer::put_Cost, certenroll/IX509EnrollmentPolicyServer::Cost, certenroll/IX509EnrollmentPolicyServer::get_Cost, certenroll/IX509EnrollmentPolicyServer::put_Cost, put_Cost, security.ix509enrollmentpolicyserver_cost

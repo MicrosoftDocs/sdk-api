@@ -1,7 +1,8 @@
 ---
 UID: NE:ifdef._NET_IF_MEDIA_DUPLEX_STATE
 title: NET_IF_MEDIA_DUPLEX_STATE (ifdef.h)
-description: The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the NDIS network interface duplex state.helpviewer_keywords: ["*PNET_IF_MEDIA_DUPLEX_STATE","MediaDuplexStateFull","MediaDuplexStateHalf","MediaDuplexStateUnknown","NET_IF_MEDIA_DUPLEX_STATE","NET_IF_MEDIA_DUPLEX_STATE enumeration [Network Drivers Starting with Windows Vista]","PNET_IF_MEDIA_DUPLEX_STATE","PNET_IF_MEDIA_DUPLEX_STATE enumeration pointer [Network Drivers Starting with Windows Vista]","ifdef/MediaDuplexStateFull","ifdef/MediaDuplexStateHalf","ifdef/MediaDuplexStateUnknown","ifdef/NET_IF_MEDIA_DUPLEX_STATE","ifdef/PNET_IF_MEDIA_DUPLEX_STATE","net_if_enums_ref_b609914b-6556-4d4a-b689-4bd78a995bbd.xml","netvista.net_if_media_duplex_state"]
+description: The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the NDIS network interface duplex state.
+helpviewer_keywords: ["*PNET_IF_MEDIA_DUPLEX_STATE","MediaDuplexStateFull","MediaDuplexStateHalf","MediaDuplexStateUnknown","NET_IF_MEDIA_DUPLEX_STATE","NET_IF_MEDIA_DUPLEX_STATE enumeration [Network Drivers Starting with Windows Vista]","PNET_IF_MEDIA_DUPLEX_STATE","PNET_IF_MEDIA_DUPLEX_STATE enumeration pointer [Network Drivers Starting with Windows Vista]","ifdef/MediaDuplexStateFull","ifdef/MediaDuplexStateHalf","ifdef/MediaDuplexStateUnknown","ifdef/NET_IF_MEDIA_DUPLEX_STATE","ifdef/PNET_IF_MEDIA_DUPLEX_STATE","net_if_enums_ref_b609914b-6556-4d4a-b689-4bd78a995bbd.xml","netvista.net_if_media_duplex_state"]
 old-location: netvista\net_if_media_duplex_state.htm
 tech.root: NetVista
 ms.assetid: 0bd49b84-0b73-4628-bd86-65b599f791df

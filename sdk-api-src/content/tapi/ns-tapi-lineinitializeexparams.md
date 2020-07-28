@@ -1,9 +1,10 @@
 ---
 UID: NS:tapi.lineinitializeexparams_tag
 title: LINEINITIALIZEEXPARAMS (tapi.h)
-description: The LINEINITIZALIZEEXPARAMS structure describes parameters supplied when making calls using LINEINITIALIZEEX.helpviewer_keywords: ["*LPLINEINITIALIZEEXPARAMS","LINEINITIALIZEEXPARAMS","LINEINITIALIZEEXPARAMS structure [TAPI 2.2]","LPLINEINITIALIZEEXPARAMS","LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2]","_tapi2_lineinitializeexparams_str","tapi/LINEINITIALIZEEXPARAMS","tapi/LPLINEINITIALIZEEXPARAMS","tapi2.lineinitializeexparams_str"]
+description: The LINEINITIZALIZEEXPARAMS structure describes parameters supplied when making calls using LINEINITIALIZEEX.
+helpviewer_keywords: ["*LPLINEINITIALIZEEXPARAMS","LINEINITIALIZEEXPARAMS","LINEINITIALIZEEXPARAMS structure [TAPI 2.2]","LPLINEINITIALIZEEXPARAMS","LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2]","_tapi2_lineinitializeexparams_str","tapi/LINEINITIALIZEEXPARAMS","tapi/LPLINEINITIALIZEEXPARAMS","tapi2.lineinitializeexparams_str"]
 old-location: tapi2\lineinitializeexparams_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 17fed282-6d08-4702-9ceb-9cbcc3737395
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS structure [TAPI 2.2], LPLINEINITIALIZEEXPARAMS, LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], _tapi2_lineinitializeexparams_str, tapi/LINEINITIALIZEEXPARAMS, tapi/LPLINEINITIALIZEEXPARAMS, tapi2.lineinitializeexparams_str'

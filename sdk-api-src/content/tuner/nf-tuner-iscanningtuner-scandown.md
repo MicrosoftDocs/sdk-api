@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IScanningTuner.ScanDown
 title: IScanningTuner::ScanDown (tuner.h)
-description: The ScanDown method changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.helpviewer_keywords: ["IScanningTuner interface [Microsoft TV Technologies]","ScanDown method","IScanningTuner.ScanDown","IScanningTuner::ScanDown","IScanningTunerScanDown","ScanDown","ScanDown method [Microsoft TV Technologies]","ScanDown method [Microsoft TV Technologies]","IScanningTuner interface","mstv.iscanningtuner_scandown","tuner/IScanningTuner::ScanDown"]
+description: The ScanDown method changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
+helpviewer_keywords: ["IScanningTuner interface [Microsoft TV Technologies]","ScanDown method","IScanningTuner.ScanDown","IScanningTuner::ScanDown","IScanningTunerScanDown","ScanDown","ScanDown method [Microsoft TV Technologies]","ScanDown method [Microsoft TV Technologies]","IScanningTuner interface","mstv.iscanningtuner_scandown","tuner/IScanningTuner::ScanDown"]
 old-location: mstv\iscanningtuner_scandown.htm
 tech.root: mstv
 ms.assetid: 0e9120be-9f8c-442e-8253-812b2917f902

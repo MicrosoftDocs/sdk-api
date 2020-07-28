@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMediaSample.SetActualDataLength
 title: IMediaSample::SetActualDataLength (strmif.h)
-description: The SetActualDataLength method sets the length of the valid data in the buffer.helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetActualDataLength method","IMediaSample.SetActualDataLength","IMediaSample::SetActualDataLength","IMediaSampleSetActualDataLength","SetActualDataLength","SetActualDataLength method [DirectShow]","SetActualDataLength method [DirectShow]","IMediaSample interface","dshow.imediasample_setactualdatalength","strmif/IMediaSample::SetActualDataLength"]
+description: The SetActualDataLength method sets the length of the valid data in the buffer.
+helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetActualDataLength method","IMediaSample.SetActualDataLength","IMediaSample::SetActualDataLength","IMediaSampleSetActualDataLength","SetActualDataLength","SetActualDataLength method [DirectShow]","SetActualDataLength method [DirectShow]","IMediaSample interface","dshow.imediasample_setactualdatalength","strmif/IMediaSample::SetActualDataLength"]
 old-location: dshow\imediasample_setactualdatalength.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: db8a768e-7550-4165-8f87-308ec7f2e07f
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetActualDataLength method, IMediaSample.SetActualDataLength, IMediaSample::SetActualDataLength, IMediaSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IMediaSample interface, dshow.imediasample_setactualdatalength, strmif/IMediaSample::SetActualDataLength

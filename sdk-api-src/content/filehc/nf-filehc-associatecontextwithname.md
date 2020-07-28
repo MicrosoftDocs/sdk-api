@@ -1,9 +1,10 @@
 ---
 UID: NF:filehc.AssociateContextWithName
 title: AssociateContextWithName function (filehc.h)
-description: Inserts a name into the name cache to find a specified FIO_CONTEXT structure.helpviewer_keywords: ["AssociateContextWithName","AssociateContextWithName function [Windows API]","filehc/AssociateContextWithName","winprog._associatecontextwithname"]
+description: Inserts a name into the name cache to find a specified FIO_CONTEXT structure.
+helpviewer_keywords: ["AssociateContextWithName","AssociateContextWithName function [Windows API]","filehc/AssociateContextWithName","winprog._associatecontextwithname"]
 old-location: winprog\_associatecontextwithname.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 4f4bbfda-3be0-41d3-9087-d46edd2e21a3
 ms.date: 12/05/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname

@@ -1,9 +1,10 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.Execute
 title: IDirectXVideoDecoder::Execute (dxva2api.h)
-description: Executes a decoding operation on the current frame.helpviewer_keywords: ["3c957b2f-4bba-4c39-84de-719c08e1bf78","Execute","Execute method [Media Foundation]","Execute method [Media Foundation]","IDirectXVideoDecoder interface","IDirectXVideoDecoder interface [Media Foundation]","Execute method","IDirectXVideoDecoder.Execute","IDirectXVideoDecoder::Execute","dxva2api/IDirectXVideoDecoder::Execute","mf.idirectxvideodecoder_execute"]
+description: Executes a decoding operation on the current frame.
+helpviewer_keywords: ["3c957b2f-4bba-4c39-84de-719c08e1bf78","Execute","Execute method [Media Foundation]","Execute method [Media Foundation]","IDirectXVideoDecoder interface","IDirectXVideoDecoder interface [Media Foundation]","Execute method","IDirectXVideoDecoder.Execute","IDirectXVideoDecoder::Execute","dxva2api/IDirectXVideoDecoder::Execute","mf.idirectxvideodecoder_execute"]
 old-location: mf\idirectxvideodecoder_execute.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3c957b2f-4bba-4c39-84de-719c08e1bf78
 ms.date: 12/05/2018
 ms.keywords: 3c957b2f-4bba-4c39-84de-719c08e1bf78, Execute, Execute method [Media Foundation], Execute method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],Execute method, IDirectXVideoDecoder.Execute, IDirectXVideoDecoder::Execute, dxva2api/IDirectXVideoDecoder::Execute, mf.idirectxvideodecoder_execute

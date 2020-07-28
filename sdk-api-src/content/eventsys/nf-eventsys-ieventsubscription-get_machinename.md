@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_MachineName
 title: IEventSubscription::get_MachineName (eventsys.h)
-description: The name of the computer on which the subscriber should be activated (for a persistent subscription).helpviewer_keywords: ["IEventSubscription interface [COM+]","MachineName property","IEventSubscription.MachineName","IEventSubscription.get_MachineName","IEventSubscription::MachineName","IEventSubscription::get_MachineName","IEventSubscription::put_MachineName","MachineName property [COM+]","MachineName property [COM+]","IEventSubscription interface","cos.ieventsubscription_machinename","eventsys/IEventSubscription::MachineName","eventsys/IEventSubscription::get_MachineName","eventsys/IEventSubscription::put_MachineName","get_MachineName"]
+description: The name of the computer on which the subscriber should be activated (for a persistent subscription).
+helpviewer_keywords: ["IEventSubscription interface [COM+]","MachineName property","IEventSubscription.MachineName","IEventSubscription.get_MachineName","IEventSubscription::MachineName","IEventSubscription::get_MachineName","IEventSubscription::put_MachineName","MachineName property [COM+]","MachineName property [COM+]","IEventSubscription interface","cos.ieventsubscription_machinename","eventsys/IEventSubscription::MachineName","eventsys/IEventSubscription::get_MachineName","eventsys/IEventSubscription::put_MachineName","get_MachineName"]
 old-location: cos\ieventsubscription_machinename.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b56027ac-abe6-4d13-ad3a-254a2f92ab6d
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],MachineName property, IEventSubscription.MachineName, IEventSubscription.get_MachineName, IEventSubscription::MachineName, IEventSubscription::get_MachineName, IEventSubscription::put_MachineName, MachineName property [COM+], MachineName property [COM+],IEventSubscription interface, cos.ieventsubscription_machinename, eventsys/IEventSubscription::MachineName, eventsys/IEventSubscription::get_MachineName, eventsys/IEventSubscription::put_MachineName, get_MachineName

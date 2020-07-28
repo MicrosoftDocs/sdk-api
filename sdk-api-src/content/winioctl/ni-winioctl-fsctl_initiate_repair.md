@@ -4,7 +4,7 @@ title: FSCTL_INITIATE_REPAIR
 description: Triggers the NTFS file system to start a self-healing cycle on a single file.
 helpviewer_keywords: ["FSCTL_INITIATE_REPAIR","FSCTL_INITIATE_REPAIR control","FSCTL_INITIATE_REPAIR control code [Files]","fs.fsctl_initiate_repair","winioctl/FSCTL_INITIATE_REPAIR"]
 old-location: fs\fsctl_initiate_repair.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 948f6c3e-34ac-4270-bb2f-dc2ffd111005
 ms.date: 12/05/2018
 ms.keywords: FSCTL_INITIATE_REPAIR, FSCTL_INITIATE_REPAIR control, FSCTL_INITIATE_REPAIR control code [Files], fs.fsctl_initiate_repair, winioctl/FSCTL_INITIATE_REPAIR

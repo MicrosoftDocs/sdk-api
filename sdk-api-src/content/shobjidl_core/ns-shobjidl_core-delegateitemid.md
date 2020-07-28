@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl_core.DELEGATEITEMID
 title: DELEGATEITEMID (shobjidl_core.h)
-description: Used by delegate folders in place of a standard ITEMIDLIST structure.helpviewer_keywords: ["*PDELEGATEITEMID","DELEGATEITEMID","DELEGATEITEMID structure [Windows Shell]","shell.DELEGATEITEMID","shell_DELEGATEITEMID","shobjidl_core/DELEGATEITEMID"]
+description: Used by delegate folders in place of a standard ITEMIDLIST structure.
+helpviewer_keywords: ["*PDELEGATEITEMID","DELEGATEITEMID","DELEGATEITEMID structure [Windows Shell]","shell.DELEGATEITEMID","shell_DELEGATEITEMID","shobjidl_core/DELEGATEITEMID"]
 old-location: shell\DELEGATEITEMID.htm
 tech.root: shell
 ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5

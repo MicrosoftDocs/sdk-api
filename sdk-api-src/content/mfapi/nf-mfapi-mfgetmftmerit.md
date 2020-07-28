@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFGetMFTMerit
 title: MFGetMFTMerit function (mfapi.h)
-description: Gets the merit value of a hardware codec.helpviewer_keywords: ["MFGetMFTMerit","MFGetMFTMerit function [Media Foundation]","mf.mfgetmftmerit","mfapi/MFGetMFTMerit"]
+description: Gets the merit value of a hardware codec.
+helpviewer_keywords: ["MFGetMFTMerit","MFGetMFTMerit function [Media Foundation]","mf.mfgetmftmerit","mfapi/MFGetMFTMerit"]
 old-location: mf\mfgetmftmerit.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.date: 12/05/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit

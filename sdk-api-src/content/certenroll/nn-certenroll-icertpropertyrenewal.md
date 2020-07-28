@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertPropertyRenewal
 title: ICertPropertyRenewal (certenroll.h)
-description: Represents a certificate property that contains a SHA-1 hash of the new certificate created when an existing certificate is renewed.helpviewer_keywords: ["ICertPropertyRenewal","ICertPropertyRenewal interface [Security]","ICertPropertyRenewal interface [Security]","described","certenroll/ICertPropertyRenewal","security.icertpropertyrenewal"]
+description: Represents a certificate property that contains a SHA-1 hash of the new certificate created when an existing certificate is renewed.
+helpviewer_keywords: ["ICertPropertyRenewal","ICertPropertyRenewal interface [Security]","ICertPropertyRenewal interface [Security]","described","certenroll/ICertPropertyRenewal","security.icertpropertyrenewal"]
 old-location: security\icertpropertyrenewal.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c87a391a-aec9-4b42-8084-c593ecbb0bc6
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], ICertPropertyRenewal interface [Security],described, certenroll/ICertPropertyRenewal, security.icertpropertyrenewal

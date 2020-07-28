@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.DecryptChallenge
 title: ICertificateAttestationChallenge::DecryptChallenge (certenroll.h)
-description: Decrypts the challenge from the Certificate Management over CMS (CMC) response and creates a re-encrypted response to send to the CA.helpviewer_keywords: ["DecryptChallenge","DecryptChallenge method [Security]","DecryptChallenge method [Security]","ICertificateAttestationChallenge interface","ICertificateAttestationChallenge interface [Security]","DecryptChallenge method","ICertificateAttestationChallenge.DecryptChallenge","ICertificateAttestationChallenge::DecryptChallenge","certenroll/ICertificateAttestationChallenge::DecryptChallenge","security.icertificateattestationchallenge_decryptchallenge"]
+description: Decrypts the challenge from the Certificate Management over CMS (CMC) response and creates a re-encrypted response to send to the CA.
+helpviewer_keywords: ["DecryptChallenge","DecryptChallenge method [Security]","DecryptChallenge method [Security]","ICertificateAttestationChallenge interface","ICertificateAttestationChallenge interface [Security]","DecryptChallenge method","ICertificateAttestationChallenge.DecryptChallenge","ICertificateAttestationChallenge::DecryptChallenge","certenroll/ICertificateAttestationChallenge::DecryptChallenge","security.icertificateattestationchallenge_decryptchallenge"]
 old-location: security\icertificateattestationchallenge_decryptchallenge.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
 ms.date: 12/05/2018
 ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChallenge method [Security],ICertificateAttestationChallenge interface, ICertificateAttestationChallenge interface [Security],DecryptChallenge method, ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge

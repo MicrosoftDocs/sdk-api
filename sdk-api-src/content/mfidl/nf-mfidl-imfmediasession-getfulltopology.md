@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetFullTopology
 title: IMFMediaSession::GetFullTopology (mfidl.h)
-description: Gets a topology from the Media Session.helpviewer_keywords: ["6899dbe2-a684-487f-ab56-8631b3d5a033","GetFullTopology","GetFullTopology method [Media Foundation]","GetFullTopology method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","GetFullTopology method","IMFMediaSession.GetFullTopology","IMFMediaSession::GetFullTopology","mf.imfmediasession_getfulltopology","mfidl/IMFMediaSession::GetFullTopology"]
+description: Gets a topology from the Media Session.
+helpviewer_keywords: ["6899dbe2-a684-487f-ab56-8631b3d5a033","GetFullTopology","GetFullTopology method [Media Foundation]","GetFullTopology method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","GetFullTopology method","IMFMediaSession.GetFullTopology","IMFMediaSession::GetFullTopology","mf.imfmediasession_getfulltopology","mfidl/IMFMediaSession::GetFullTopology"]
 old-location: mf\imfmediasession_getfulltopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
 ms.date: 12/05/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology

@@ -1,9 +1,10 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetBuffer
 title: IAMVideoAccelerator::GetBuffer (videoacc.h)
-description: The GetBuffer method gets a pointer to a compressed or uncompressed surface that was allocated for DirectX Video Acceleration (DXVA) decoding.helpviewer_keywords: ["GetBuffer","GetBuffer method [DirectShow]","GetBuffer method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","GetBuffer method","IAMVideoAccelerator.GetBuffer","IAMVideoAccelerator::GetBuffer","IAMVideoAcceleratorGetBuffer","dshow.iamvideoaccelerator_getbuffer","videoacc/IAMVideoAccelerator::GetBuffer"]
+description: The GetBuffer method gets a pointer to a compressed or uncompressed surface that was allocated for DirectX Video Acceleration (DXVA) decoding.
+helpviewer_keywords: ["GetBuffer","GetBuffer method [DirectShow]","GetBuffer method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","GetBuffer method","IAMVideoAccelerator.GetBuffer","IAMVideoAccelerator::GetBuffer","IAMVideoAcceleratorGetBuffer","dshow.iamvideoaccelerator_getbuffer","videoacc/IAMVideoAccelerator::GetBuffer"]
 old-location: dshow\iamvideoaccelerator_getbuffer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3385cad2-8885-4b17-83fa-f40f25b0c433
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer

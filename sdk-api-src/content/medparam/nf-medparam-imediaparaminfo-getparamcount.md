@@ -1,9 +1,10 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamCount
 title: IMediaParamInfo::GetParamCount (medparam.h)
-description: The GetParamCount method retrieves the number of parameters that the object supports.helpviewer_keywords: ["GetParamCount","GetParamCount method [DirectShow]","GetParamCount method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamCount method","IMediaParamInfo.GetParamCount","IMediaParamInfo::GetParamCount","IMediaParamInfoGetParamCount","dshow.imediaparaminfo_getparamcount","medparam/IMediaParamInfo::GetParamCount"]
+description: The GetParamCount method retrieves the number of parameters that the object supports.
+helpviewer_keywords: ["GetParamCount","GetParamCount method [DirectShow]","GetParamCount method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamCount method","IMediaParamInfo.GetParamCount","IMediaParamInfo::GetParamCount","IMediaParamInfoGetParamCount","dshow.imediaparaminfo_getparamcount","medparam/IMediaParamInfo::GetParamCount"]
 old-location: dshow\imediaparaminfo_getparamcount.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0c518b8e-d5a7-40ba-9b10-4d23d4376890
 ms.date: 12/05/2018
 ms.keywords: GetParamCount, GetParamCount method [DirectShow], GetParamCount method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamCount method, IMediaParamInfo.GetParamCount, IMediaParamInfo::GetParamCount, IMediaParamInfoGetParamCount, dshow.imediaparaminfo_getparamcount, medparam/IMediaParamInfo::GetParamCount

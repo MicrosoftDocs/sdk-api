@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetByPartName
 title: IXpsOMRemoteDictionaryResourceCollection::GetByPartName (xpsobjectmodel.h)
-description: Gets an IXpsOMRemoteDictionaryResource interface pointer from the collection by matching the interface's part name.helpviewer_keywords: ["GetByPartName","GetByPartName method [XPS Documents and Packaging]","GetByPartName method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","GetByPartName method","IXpsOMRemoteDictionaryResourceCollection.GetByPartName","IXpsOMRemoteDictionaryResourceCollection::GetByPartName","xps.ixpsomremotedictionaryresourcecollection_getbypartname","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetByPartName"]
+description: Gets an IXpsOMRemoteDictionaryResource interface pointer from the collection by matching the interface's part name.
+helpviewer_keywords: ["GetByPartName","GetByPartName method [XPS Documents and Packaging]","GetByPartName method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","GetByPartName method","IXpsOMRemoteDictionaryResourceCollection.GetByPartName","IXpsOMRemoteDictionaryResourceCollection::GetByPartName","xps.ixpsomremotedictionaryresourcecollection_getbypartname","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetByPartName"]
 old-location: xps\ixpsomremotedictionaryresourcecollection_getbypartname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e90f23d9-c161-4b3c-a6bc-0059d2dfe5b5
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMRemoteDictionaryResourceCollection.GetByPartName, IXpsOMRemoteDictionaryResourceCollection::GetByPartName, xps.ixpsomremotedictionaryresourcecollection_getbypartname, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetByPartName

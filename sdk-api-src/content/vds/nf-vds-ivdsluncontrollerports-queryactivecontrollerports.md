@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsLunControllerPorts.QueryActiveControllerPorts
 title: IVdsLunControllerPorts::QueryActiveControllerPorts (vds.h)
-description: Returns an enumeration of currently active controller ports.helpviewer_keywords: ["IVdsLunControllerPorts interface","QueryActiveControllerPorts method","IVdsLunControllerPorts.QueryActiveControllerPorts","IVdsLunControllerPorts::QueryActiveControllerPorts","QueryActiveControllerPorts","QueryActiveControllerPorts method","QueryActiveControllerPorts method","IVdsLunControllerPorts interface","base.ivdsluncontrollerports_queryactivecontrollerports","vds/IVdsLunControllerPorts::QueryActiveControllerPorts","vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts"]
+description: Returns an enumeration of currently active controller ports.
+helpviewer_keywords: ["IVdsLunControllerPorts interface","QueryActiveControllerPorts method","IVdsLunControllerPorts.QueryActiveControllerPorts","IVdsLunControllerPorts::QueryActiveControllerPorts","QueryActiveControllerPorts","QueryActiveControllerPorts method","QueryActiveControllerPorts method","IVdsLunControllerPorts interface","base.ivdsluncontrollerports_queryactivecontrollerports","vds/IVdsLunControllerPorts::QueryActiveControllerPorts","vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts"]
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
 ms.date: 12/05/2018
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts, vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts

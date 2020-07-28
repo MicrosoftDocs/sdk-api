@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFGetPluginControl
 title: MFGetPluginControl function (mfapi.h)
-description: Gets a pointer to the Microsoft Media Foundation plug-in manager.helpviewer_keywords: ["MFGetPluginControl","MFGetPluginControl function [Media Foundation]","mf.mfgetplugincontrol","mfapi/MFGetPluginControl"]
+description: Gets a pointer to the Microsoft Media Foundation plug-in manager.
+helpviewer_keywords: ["MFGetPluginControl","MFGetPluginControl function [Media Foundation]","mf.mfgetplugincontrol","mfapi/MFGetPluginControl"]
 old-location: mf\mfgetplugincontrol.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 68b25c68-806d-46c3-98f8-8f29d7c21471
 ms.date: 12/05/2018
 ms.keywords: MFGetPluginControl, MFGetPluginControl function [Media Foundation], mf.mfgetplugincontrol, mfapi/MFGetPluginControl

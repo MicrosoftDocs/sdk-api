@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxDeviceProvider
 title: IFaxDeviceProvider (faxcomex.h)
-description: The IFaxDeviceProvider interface defines a configuration object used by a fax client application to retrieve information about a fax service provider (FSP) registered with the fax service.helpviewer_keywords: ["IFaxDeviceProvider","IFaxDeviceProvider interface [Fax Service]","IFaxDeviceProvider interface [Fax Service]","described","_mfax_faxdeviceprovider_cpp","fax._mfax_faxdeviceprovider_cpp","faxcomex/IFaxDeviceProvider"]
+description: The IFaxDeviceProvider interface defines a configuration object used by a fax client application to retrieve information about a fax service provider (FSP) registered with the fax service.
+helpviewer_keywords: ["IFaxDeviceProvider","IFaxDeviceProvider interface [Fax Service]","IFaxDeviceProvider interface [Fax Service]","described","_mfax_faxdeviceprovider_cpp","fax._mfax_faxdeviceprovider_cpp","faxcomex/IFaxDeviceProvider"]
 old-location: fax\_mfax_faxdeviceprovider_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1ub6_cpp.htm

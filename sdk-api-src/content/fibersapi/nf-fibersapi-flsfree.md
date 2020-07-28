@@ -1,9 +1,10 @@
 ---
 UID: NF:fibersapi.FlsFree
 title: FlsFree function
-description: Releases a fiber local storage (FLS) index, making it available for reuse.helpviewer_keywords: ["FlsFree","FlsFree function","_win32_flsfree","base.flsfree","fibersapi/FlsFree","winbase/FlsFree"]
+description: Releases a fiber local storage (FLS) index, making it available for reuse.
+helpviewer_keywords: ["FlsFree","FlsFree function","_win32_flsfree","base.flsfree","fibersapi/FlsFree","winbase/FlsFree"]
 old-location: base\flsfree.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: ef996c6b-77d0-4b06-97a4-14773cb67146
 ms.date: 12/05/2018
 ms.keywords: FlsFree, FlsFree function, _win32_flsfree, base.flsfree, fibersapi/FlsFree, winbase/FlsFree

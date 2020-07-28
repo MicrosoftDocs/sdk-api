@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate.get_Languages
 title: IUpdate::get_Languages (wuapi.h)
-description: Gets an interface that contains the languages that are supported by the update.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Languages property","IUpdate.Languages","IUpdate.get_Languages","IUpdate::Languages","IUpdate::get_Languages","Languages property [Windows Update Agent]","Languages property [Windows Update Agent]","IUpdate interface","get_Languages","wua.iupdate_language","wuapi/IUpdate::Languages","wuapi/IUpdate::get_Languages"]
+description: Gets an interface that contains the languages that are supported by the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Languages property","IUpdate.Languages","IUpdate.get_Languages","IUpdate::Languages","IUpdate::get_Languages","Languages property [Windows Update Agent]","Languages property [Windows Update Agent]","IUpdate interface","get_Languages","wua.iupdate_language","wuapi/IUpdate::Languages","wuapi/IUpdate::get_Languages"]
 old-location: wua\iupdate_language.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 788942cc-5cfa-4ce3-bcf6-05c78a817ec8
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Languages property, IUpdate.Languages, IUpdate.get_Languages, IUpdate::Languages, IUpdate::get_Languages, Languages property [Windows Update Agent], Languages property [Windows Update Agent],IUpdate interface, get_Languages, wua.iupdate_language, wuapi/IUpdate::Languages, wuapi/IUpdate::get_Languages

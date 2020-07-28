@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetHeaderSize
 title: IMFASFContentInfo::GetHeaderSize (wmcontainer.h)
-description: Retrieves the size of the header section of an Advanced Systems Format (ASF) file.helpviewer_keywords: ["GetHeaderSize","GetHeaderSize method [Media Foundation]","GetHeaderSize method [Media Foundation]","IMFASFContentInfo interface","IMFASFContentInfo interface [Media Foundation]","GetHeaderSize method","IMFASFContentInfo.GetHeaderSize","IMFASFContentInfo::GetHeaderSize","c13ee7e6-df59-448f-80c4-04ac7c8c98ed","mf.imfasfcontentinfo_getheadersize","wmcontainer/IMFASFContentInfo::GetHeaderSize"]
+description: Retrieves the size of the header section of an Advanced Systems Format (ASF) file.
+helpviewer_keywords: ["GetHeaderSize","GetHeaderSize method [Media Foundation]","GetHeaderSize method [Media Foundation]","IMFASFContentInfo interface","IMFASFContentInfo interface [Media Foundation]","GetHeaderSize method","IMFASFContentInfo.GetHeaderSize","IMFASFContentInfo::GetHeaderSize","c13ee7e6-df59-448f-80c4-04ac7c8c98ed","mf.imfasfcontentinfo_getheadersize","wmcontainer/IMFASFContentInfo::GetHeaderSize"]
 old-location: mf\imfasfcontentinfo_getheadersize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c13ee7e6-df59-448f-80c4-04ac7c8c98ed
 ms.date: 12/05/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [Media Foundation], GetHeaderSize method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetHeaderSize method, IMFASFContentInfo.GetHeaderSize, IMFASFContentInfo::GetHeaderSize, c13ee7e6-df59-448f-80c4-04ac7c8c98ed, mf.imfasfcontentinfo_getheadersize, wmcontainer/IMFASFContentInfo::GetHeaderSize

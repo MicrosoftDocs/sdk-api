@@ -1,9 +1,10 @@
 ---
 UID: NF:authz.AuthzOpenObjectAudit
 title: AuthzOpenObjectAudit function (authz.h)
-description: Reads the system access control list (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.helpviewer_keywords: ["AuthzOpenObjectAudit","AuthzOpenObjectAudit function [Security]","_win32_authzopenobjectaudit","authz/AuthzOpenObjectAudit","security.authzopenobjectaudit"]
+description: Reads the system access control list (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.
+helpviewer_keywords: ["AuthzOpenObjectAudit","AuthzOpenObjectAudit function [Security]","_win32_authzopenobjectaudit","authz/AuthzOpenObjectAudit","security.authzopenobjectaudit"]
 old-location: security\authzopenobjectaudit.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
 ms.date: 12/05/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit

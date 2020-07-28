@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineOpenW
 title: lineOpenW function (tapi.h)
-description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.helpviewer_keywords: ["LINEMAPPER","_tapi2_lineopen","lineOpen","lineOpen function [TAPI 2.2]","lineOpenA","lineOpenW","tapi/lineOpen","tapi/lineOpenA","tapi/lineOpenW","tapi2.lineopen"]
+description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
+helpviewer_keywords: ["LINEMAPPER","_tapi2_lineopen","lineOpen","lineOpen function [TAPI 2.2]","lineOpenA","lineOpenW","tapi/lineOpen","tapi/lineOpenA","tapi/lineOpenW","tapi2.lineopen"]
 old-location: tapi2\lineopen.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
 ms.date: 12/05/2018
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
@@ -214,6 +215,10 @@ LINEMAPPER allows an application to select a line indirectly—by means of the s
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

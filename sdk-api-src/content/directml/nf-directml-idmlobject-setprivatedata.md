@@ -1,7 +1,8 @@
 ---
 UID: NF:directml.IDMLObject.SetPrivateData
 title: IDMLObject::SetPrivateData
-description: Sets application-defined data to a DirectML device object, and associates that data with an application-defined GUID.helpviewer_keywords: ["IDMLObject interface","SetPrivateData method","IDMLObject.SetPrivateData","IDMLObject::SetPrivateData","SetPrivateData","SetPrivateData method","SetPrivateData method","IDMLObject interface","direct3d12.idmlobject_setprivatedata","directml/IDMLObject::SetPrivateData"]
+description: Sets application-defined data to a DirectML device object, and associates that data with an application-defined GUID.
+helpviewer_keywords: ["IDMLObject interface","SetPrivateData method","IDMLObject.SetPrivateData","IDMLObject::SetPrivateData","SetPrivateData","SetPrivateData method","SetPrivateData method","IDMLObject interface","direct3d12.idmlobject_setprivatedata","directml/IDMLObject::SetPrivateData"]
 old-location: direct3d12\idmlobject_setprivatedata.htm
 tech.root: direct3d12
 ms.assetid: 9409CC38-63E8-4A44-9746-A075E664A4E9

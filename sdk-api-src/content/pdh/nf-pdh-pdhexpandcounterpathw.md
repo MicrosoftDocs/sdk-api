@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhExpandCounterPathW
 title: PdhExpandCounterPathW function (pdh.h)
-description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.helpviewer_keywords: ["PdhExpandCounterPath","PdhExpandCounterPath function [Perf]","PdhExpandCounterPathA","PdhExpandCounterPathW","_win32_pdhexpandcounterpath","base.pdhexpandcounterpath","pdh/PdhExpandCounterPath","pdh/PdhExpandCounterPathA","pdh/PdhExpandCounterPathW","perf.pdhexpandcounterpath"]
+description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
+helpviewer_keywords: ["PdhExpandCounterPath","PdhExpandCounterPath function [Perf]","PdhExpandCounterPathA","PdhExpandCounterPathW","_win32_pdhexpandcounterpath","base.pdhexpandcounterpath","pdh/PdhExpandCounterPath","pdh/PdhExpandCounterPathA","pdh/PdhExpandCounterPathW","perf.pdhexpandcounterpath"]
 old-location: perf\pdhexpandcounterpath.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.date: 12/05/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
@@ -241,6 +242,10 @@ Cleanup:
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhExpandCounterPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

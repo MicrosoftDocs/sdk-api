@@ -4,7 +4,7 @@ title: ControlServiceExW function (winsvc.h)
 description: Sends a control code to a service.
 helpviewer_keywords: ["ControlServiceEx","ControlServiceEx function","ControlServiceExA","ControlServiceExW","SERVICE_CONTROL_CONTINUE","SERVICE_CONTROL_INTERROGATE","SERVICE_CONTROL_NETBINDADD","SERVICE_CONTROL_NETBINDDISABLE","SERVICE_CONTROL_NETBINDENABLE","SERVICE_CONTROL_NETBINDREMOVE","SERVICE_CONTROL_PARAMCHANGE","SERVICE_CONTROL_PAUSE","SERVICE_CONTROL_STOP","base.controlserviceex","winsvc/ControlServiceEx","winsvc/ControlServiceExA","winsvc/ControlServiceExW"]
 old-location: base\controlserviceex.htm
-tech.root: Services
+tech.root: security
 ms.assetid: de249903-7545-4fb6-925a-aa647f862f93
 ms.date: 12/05/2018
 ms.keywords: ControlServiceEx, ControlServiceEx function, ControlServiceExA, ControlServiceExW, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, base.controlserviceex, winsvc/ControlServiceEx, winsvc/ControlServiceExA, winsvc/ControlServiceExW
@@ -413,6 +413,10 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines ControlServiceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSqrt
 title: XMVectorSqrt function (directxmath.h)
-description: Computes the per-component square root of a vector.helpviewer_keywords: ["Use DirectX..XMVectorSqrt","XMVectorSqrt","XMVectorSqrt method [DirectX Math Support APIs]","dxmath.xmvectorsqrt"]
+description: Computes the per-component square root of a vector.
+helpviewer_keywords: ["Use DirectX..XMVectorSqrt","XMVectorSqrt","XMVectorSqrt method [DirectX Math Support APIs]","dxmath.xmvectorsqrt"]
 old-location: dxmath\xmvectorsqrt.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSqrt(XMVECTOR)

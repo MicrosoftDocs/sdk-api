@@ -1,9 +1,10 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetCreationParameters
 title: IDirectXVideoProcessor::GetCreationParameters (dxva2api.h)
-description: Retrieves the parameters that were used to create this device.helpviewer_keywords: ["GetCreationParameters","GetCreationParameters method [Media Foundation]","GetCreationParameters method [Media Foundation]","IDirectXVideoProcessor interface","IDirectXVideoProcessor interface [Media Foundation]","GetCreationParameters method","IDirectXVideoProcessor.GetCreationParameters","IDirectXVideoProcessor::GetCreationParameters","dxva2api/IDirectXVideoProcessor::GetCreationParameters","e9ea3311-8642-4651-b9da-fbba08ec92fb","mf.idirectxvideoprocessor_getcreationparameters"]
+description: Retrieves the parameters that were used to create this device.
+helpviewer_keywords: ["GetCreationParameters","GetCreationParameters method [Media Foundation]","GetCreationParameters method [Media Foundation]","IDirectXVideoProcessor interface","IDirectXVideoProcessor interface [Media Foundation]","GetCreationParameters method","IDirectXVideoProcessor.GetCreationParameters","IDirectXVideoProcessor::GetCreationParameters","dxva2api/IDirectXVideoProcessor::GetCreationParameters","e9ea3311-8642-4651-b9da-fbba08ec92fb","mf.idirectxvideoprocessor_getcreationparameters"]
 old-location: mf\idirectxvideoprocessor_getcreationparameters.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e9ea3311-8642-4651-b9da-fbba08ec92fb
 ms.date: 12/05/2018
 ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetCreationParameters method, IDirectXVideoProcessor.GetCreationParameters, IDirectXVideoProcessor::GetCreationParameters, dxva2api/IDirectXVideoProcessor::GetCreationParameters, e9ea3311-8642-4651-b9da-fbba08ec92fb, mf.idirectxvideoprocessor_getcreationparameters

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.WMCreateSyncReader
 title: WMCreateSyncReader function (wmsdkidl.h)
-description: The WMCreateSyncReader function creates a synchronous reader object.helpviewer_keywords: ["WMCreateSyncReader","WMCreateSyncReader function [windows Media Format]","wmformat.wmcreatesyncreader","wmsdkidl/WMCreateSyncReader"]
+description: The WMCreateSyncReader function creates a synchronous reader object.
+helpviewer_keywords: ["WMCreateSyncReader","WMCreateSyncReader function [windows Media Format]","wmformat.wmcreatesyncreader","wmsdkidl/WMCreateSyncReader"]
 old-location: wmformat\wmcreatesyncreader.htm
 tech.root: wmformat
 ms.assetid: 77cb65cc-9785-4af4-9b92-245c17e5ab82

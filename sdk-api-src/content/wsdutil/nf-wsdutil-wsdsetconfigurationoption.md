@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdutil.WSDSetConfigurationOption
 title: WSDSetConfigurationOption function (wsdutil.h)
-description: Sets a WSDAPI configuration option.helpviewer_keywords: ["WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE","WSDSetConfigurationOption","WSDSetConfigurationOption function","ncd.wsdsetconfigurationoption","wsdutil/WSDSetConfigurationOption"]
+description: Sets a WSDAPI configuration option.
+helpviewer_keywords: ["WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE","WSDSetConfigurationOption","WSDSetConfigurationOption function","ncd.wsdsetconfigurationoption","wsdutil/WSDSetConfigurationOption"]
 old-location: ncd\wsdsetconfigurationoption.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, WSDSetConfigurationOption function, ncd.wsdsetconfigurationoption, wsdutil/WSDSetConfigurationOption

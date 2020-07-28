@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransformLookup
 title: IXpsOMGradientBrush::GetTransformLookup (xpsobjectmodel.h)
-description: Gets the name of the lookup key of the shared matrix transform interface that is to be used for the brush.helpviewer_keywords: ["GetTransformLookup","GetTransformLookup method [XPS Documents and Packaging]","GetTransformLookup method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetTransformLookup method","IXpsOMGradientBrush.GetTransformLookup","IXpsOMGradientBrush::GetTransformLookup","xps.ixpsomgradientbrush_gettransformlookup","xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup"]
+description: Gets the name of the lookup key of the shared matrix transform interface that is to be used for the brush.
+helpviewer_keywords: ["GetTransformLookup","GetTransformLookup method [XPS Documents and Packaging]","GetTransformLookup method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetTransformLookup method","IXpsOMGradientBrush.GetTransformLookup","IXpsOMGradientBrush::GetTransformLookup","xps.ixpsomgradientbrush_gettransformlookup","xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup"]
 old-location: xps\ixpsomgradientbrush_gettransformlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 60a91156-f9c8-4f6b-92b7-21e2fcd337fc
 ms.date: 12/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGradientBrush.GetTransformLookup, IXpsOMGradientBrush::GetTransformLookup, xps.ixpsomgradientbrush_gettransformlookup, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup

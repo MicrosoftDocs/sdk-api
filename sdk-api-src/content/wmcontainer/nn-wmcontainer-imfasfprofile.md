@@ -1,9 +1,10 @@
 ---
 UID: NN:wmcontainer.IMFASFProfile
 title: IMFASFProfile (wmcontainer.h)
-description: Manages an Advanced Systems Format (ASF) profile.helpviewer_keywords: ["IMFASFProfile","IMFASFProfile interface [Media Foundation]","IMFASFProfile interface [Media Foundation]","described","fe441c61-1be7-4fda-a2a3-bd79ecf4e54c","mf.imfasfprofile","wmcontainer/IMFASFProfile"]
+description: Manages an Advanced Systems Format (ASF) profile.
+helpviewer_keywords: ["IMFASFProfile","IMFASFProfile interface [Media Foundation]","IMFASFProfile interface [Media Foundation]","described","fe441c61-1be7-4fda-a2a3-bd79ecf4e54c","mf.imfasfprofile","wmcontainer/IMFASFProfile"]
 old-location: mf\imfasfprofile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fe441c61-1be7-4fda-a2a3-bd79ecf4e54c
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFProfile interface [Media Foundation],described, fe441c61-1be7-4fda-a2a3-bd79ecf4e54c, mf.imfasfprofile, wmcontainer/IMFASFProfile

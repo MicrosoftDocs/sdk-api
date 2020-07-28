@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_GRU_OPERATOR_DESC
 title: DML_GRU_OPERATOR_DESC
-description: Describes a DirectML deep learning operator that performs a (standard layers) one-layer gated recurrent unit (GRU) function on the input.helpviewer_keywords: ["DML_GRU_OPERATOR_DESC","DML_GRU_OPERATOR_DESC structure","direct3d12.dml_gru_operator_desc","directml/DML_GRU_OPERATOR_DESC"]
+description: Describes a DirectML deep learning operator that performs a (standard layers) one-layer gated recurrent unit (GRU) function on the input.
+helpviewer_keywords: ["DML_GRU_OPERATOR_DESC","DML_GRU_OPERATOR_DESC structure","direct3d12.dml_gru_operator_desc","directml/DML_GRU_OPERATOR_DESC"]
 old-location: direct3d12\dml_gru_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 233D9FBC-087D-42B4-84E2-2FDBD6DFF033
@@ -47,7 +48,8 @@ ms.custom: 19H1
 Describes a DirectML deep learning operator that performs a (standard layers) one-layer gated recurrent unit (GRU) function on the input. This operator uses multiple gates to perform this layer. These gates are performed multiple times in a loop dictated by the sequence length dimension and the *SequenceLengthsTensor* argument.
 
 ### Equation for the forward direction
-```cpp
+
+```
 for (t = 0; t < seq_length; t++)
 {
     $z_t = f(X_t*W_z^T + H_{t-1} * R_z^T + W_{bz} + R_{bz})$
@@ -63,7 +65,8 @@ for (t = 0; t < seq_length; t++)
 ```
 
 ### Equation for the backward direction
-```cpp
+
+```
 for (t = seq_length - 1; t >= 0; t--)
 {
     $z_t = f(X_t*W_{Bz}^T + H_{t-1} * R_{Bz}^T + W_{Bbz} + R_{Bbz})$

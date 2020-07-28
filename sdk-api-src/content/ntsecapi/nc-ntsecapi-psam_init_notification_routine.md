@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecapi.PSAM_INIT_NOTIFICATION_ROUTINE
 title: PSAM_INIT_NOTIFICATION_ROUTINE (ntsecapi.h)
-description: The InitializeChangeNotify function is implemented by a password filter DLL. This function initializes the DLL.helpviewer_keywords: ["InitializeChangeNotify","InitializeChangeNotify callback function [Security]","PSAM_INIT_NOTIFICATION_ROUTINE","PSAM_INIT_NOTIFICATION_ROUTINE callback","_pswd_initializechangenotify","ntsecapi/InitializeChangeNotify","security.initializechangenotify"]
+description: The InitializeChangeNotify function is implemented by a password filter DLL. This function initializes the DLL.
+helpviewer_keywords: ["InitializeChangeNotify","InitializeChangeNotify callback function [Security]","PSAM_INIT_NOTIFICATION_ROUTINE","PSAM_INIT_NOTIFICATION_ROUTINE callback","_pswd_initializechangenotify","ntsecapi/InitializeChangeNotify","security.initializechangenotify"]
 old-location: security\initializechangenotify.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: c503c849-65da-4514-b6d9-a95c9d75433e
 ms.date: 12/05/2018
 ms.keywords: InitializeChangeNotify, InitializeChangeNotify callback function [Security], PSAM_INIT_NOTIFICATION_ROUTINE, PSAM_INIT_NOTIFICATION_ROUTINE callback, _pswd_initializechangenotify, ntsecapi/InitializeChangeNotify, security.initializechangenotify

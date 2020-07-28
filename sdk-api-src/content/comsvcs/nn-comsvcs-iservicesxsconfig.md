@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IServiceSxsConfig
 title: IServiceSxsConfig (comsvcs.h)
-description: Configures side-by-side assemblies for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.helpviewer_keywords: ["IServiceSxSConfig","IServiceSxSConfig interface [COM+]","IServiceSxSConfig interface [COM+]","described","_cos_IServiceSxsConfig","comsvcs/IServiceSxSConfig","cos.iservicesxsconfig"]
+description: Configures side-by-side assemblies for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
+helpviewer_keywords: ["IServiceSxSConfig","IServiceSxSConfig interface [COM+]","IServiceSxSConfig interface [COM+]","described","_cos_IServiceSxsConfig","comsvcs/IServiceSxSConfig","cos.iservicesxsconfig"]
 old-location: cos\iservicesxsconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 24d4a22b-0a01-4bf2-9cc6-4a1b31897d05
 ms.date: 12/05/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig

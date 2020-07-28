@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFAttributes.DeleteAllItems
 title: IMFAttributes::DeleteAllItems (mfobjects.h)
-description: Removes all key/value pairs from the object's attribute list.helpviewer_keywords: ["8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8","DeleteAllItems","DeleteAllItems method [Media Foundation]","DeleteAllItems method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","DeleteAllItems method","IMFAttributes.DeleteAllItems","IMFAttributes::DeleteAllItems","mf.imfattributes_deleteallitems","mfobjects/IMFAttributes::DeleteAllItems"]
+description: Removes all key/value pairs from the object's attribute list.
+helpviewer_keywords: ["8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8","DeleteAllItems","DeleteAllItems method [Media Foundation]","DeleteAllItems method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","DeleteAllItems method","IMFAttributes.DeleteAllItems","IMFAttributes::DeleteAllItems","mf.imfattributes_deleteallitems","mfobjects/IMFAttributes::DeleteAllItems"]
 old-location: mf\imfattributes_deleteallitems.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8
 ms.date: 12/05/2018
 ms.keywords: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8, DeleteAllItems, DeleteAllItems method [Media Foundation], DeleteAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteAllItems method, IMFAttributes.DeleteAllItems, IMFAttributes::DeleteAllItems, mf.imfattributes_deleteallitems, mfobjects/IMFAttributes::DeleteAllItems

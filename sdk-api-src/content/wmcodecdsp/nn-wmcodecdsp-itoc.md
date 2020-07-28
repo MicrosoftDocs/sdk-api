@@ -2,9 +2,10 @@
 UID: NN:wmcodecdsp.IToc
 title: IToc (wmcodecdsp.h)
 
-description: The IToc interface represents an individual table of contents. It provides methods for adding entries to, and removing entries from the table of contents.helpviewer_keywords: ["IToc","IToc interface [Media Foundation]","IToc interface [Media Foundation]","described","codecapi.itoc","mf.itoc","wmcodecdsp/IToc"]
+description: The IToc interface represents an individual table of contents. It provides methods for adding entries to, and removing entries from the table of contents.
+helpviewer_keywords: ["IToc","IToc interface [Media Foundation]","IToc interface [Media Foundation]","described","codecapi.itoc","mf.itoc","wmcodecdsp/IToc"]
 old-location: mf\itoc.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b12d38c7-b80e-4ca8-9ac5-a116100911d0
 
 ms.date: 12/05/2018

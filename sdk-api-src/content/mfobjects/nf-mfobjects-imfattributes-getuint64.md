@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetUINT64
 title: IMFAttributes::GetUINT64 (mfobjects.h)
-description: Retrieves a UINT64 value associated with a key.helpviewer_keywords: ["GetUINT64","GetUINT64 method [Media Foundation]","GetUINT64 method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetUINT64 method","IMFAttributes.GetUINT64","IMFAttributes::GetUINT64","f3240fff-48d8-4d88-8c75-15f00bfe72ed","mf.imfattributes_getuint64","mfobjects/IMFAttributes::GetUINT64"]
+description: Retrieves a UINT64 value associated with a key.
+helpviewer_keywords: ["GetUINT64","GetUINT64 method [Media Foundation]","GetUINT64 method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetUINT64 method","IMFAttributes.GetUINT64","IMFAttributes::GetUINT64","f3240fff-48d8-4d88-8c75-15f00bfe72ed","mf.imfattributes_getuint64","mfobjects/IMFAttributes::GetUINT64"]
 old-location: mf\imfattributes_getuint64.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f3240fff-48d8-4d88-8c75-15f00bfe72ed
 ms.date: 12/05/2018
 ms.keywords: GetUINT64, GetUINT64 method [Media Foundation], GetUINT64 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT64 method, IMFAttributes.GetUINT64, IMFAttributes::GetUINT64, f3240fff-48d8-4d88-8c75-15f00bfe72ed, mf.imfattributes_getuint64, mfobjects/IMFAttributes::GetUINT64

@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineGetLineDevStatus
 title: TSPI_lineGetLineDevStatus function (tspi.h)
-description: The TSPI_lineGetLineDevStatus function queries the specified open line device for its current status. The information returned is global to all addresses on the line.helpviewer_keywords: ["TSPI_lineGetLineDevStatus","TSPI_lineGetLineDevStatus function [TAPI 2.2]","_tspi_tspi_linegetlinedevstatus","tspi.tspi_linegetlinedevstatus","tspi/TSPI_lineGetLineDevStatus"]
+description: The TSPI_lineGetLineDevStatus function queries the specified open line device for its current status. The information returned is global to all addresses on the line.
+helpviewer_keywords: ["TSPI_lineGetLineDevStatus","TSPI_lineGetLineDevStatus function [TAPI 2.2]","_tspi_tspi_linegetlinedevstatus","tspi.tspi_linegetlinedevstatus","tspi/TSPI_lineGetLineDevStatus"]
 old-location: tspi\tspi_linegetlinedevstatus.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 14f7944b-e967-4967-9fb2-e7aeb78bb045
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI 2.2], _tspi_tspi_linegetlinedevstatus, tspi.tspi_linegetlinedevstatus, tspi/TSPI_lineGetLineDevStatus

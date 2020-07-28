@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IExtendView
 title: IExtendView (mmc.h)
-description: The IExtendView interface provides information about the extended view.helpviewer_keywords: ["IExtendView","IExtendView interface [MMC]","IExtendView interface [MMC]","described","_slate_iextendview","mmc.iextendview","mmc/IExtendView"]
+description: The IExtendView interface provides information about the extended view.
+helpviewer_keywords: ["IExtendView","IExtendView interface [MMC]","IExtendView interface [MMC]","described","_slate_iextendview","mmc.iextendview","mmc/IExtendView"]
 old-location: mmc\iextendview.htm
 tech.root: mmc
 ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388

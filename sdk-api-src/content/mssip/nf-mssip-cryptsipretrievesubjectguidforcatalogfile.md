@@ -1,9 +1,10 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuidForCatalogFile
 title: CryptSIPRetrieveSubjectGuidForCatalogFile function (mssip.h)
-description: Retrieves the subject GUID associated with the specified file.helpviewer_keywords: ["CryptSIPRetrieveSubjectGuidForCatalogFile","CryptSIPRetrieveSubjectGuidForCatalogFile function [Security]","mssip/CryptSIPRetrieveSubjectGuidForCatalogFile","security.cryptsipretrievesubjectguidforcatalogfile"]
+description: Retrieves the subject GUID associated with the specified file.
+helpviewer_keywords: ["CryptSIPRetrieveSubjectGuidForCatalogFile","CryptSIPRetrieveSubjectGuidForCatalogFile function [Security]","mssip/CryptSIPRetrieveSubjectGuidForCatalogFile","security.cryptsipretrievesubjectguidforcatalogfile"]
 old-location: security\cryptsipretrievesubjectguidforcatalogfile.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7f757dc8-948c-476e-aca3-a9051e962ed4
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRetrieveSubjectGuidForCatalogFile, CryptSIPRetrieveSubjectGuidForCatalogFile function [Security], mssip/CryptSIPRetrieveSubjectGuidForCatalogFile, security.cryptsipretrievesubjectguidforcatalogfile

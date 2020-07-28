@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.NcFreeNetconProperties
 title: NcFreeNetconProperties function (netcon.h)
-description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.helpviewer_keywords: ["NcFreeNetconProperties","NcFreeNetconProperties function [ICS/ICF]","ics.ncfreenetconproperties","netcon/NcFreeNetconProperties"]
+description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.
+helpviewer_keywords: ["NcFreeNetconProperties","NcFreeNetconProperties function [ICS/ICF]","ics.ncfreenetconproperties","netcon/NcFreeNetconProperties"]
 old-location: ics\ncfreenetconproperties.htm
 tech.root: ics
 ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e

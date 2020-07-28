@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Reset
 title: IEnumMediaTypes::Reset (strmif.h)
-description: The Reset method resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumMediaTypes interface [DirectShow]","Reset method","IEnumMediaTypes.Reset","IEnumMediaTypes::Reset","IEnumMediaTypesReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumMediaTypes interface","dshow.ienummediatypes_reset","strmif/IEnumMediaTypes::Reset"]
+description: The Reset method resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["IEnumMediaTypes interface [DirectShow]","Reset method","IEnumMediaTypes.Reset","IEnumMediaTypes::Reset","IEnumMediaTypesReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumMediaTypes interface","dshow.ienummediatypes_reset","strmif/IEnumMediaTypes::Reset"]
 old-location: dshow\ienummediatypes_reset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d95d4e69-48dc-4ad1-a0e2-c5fea793b7b3
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Reset method, IEnumMediaTypes.Reset, IEnumMediaTypes::Reset, IEnumMediaTypesReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_reset, strmif/IEnumMediaTypes::Reset

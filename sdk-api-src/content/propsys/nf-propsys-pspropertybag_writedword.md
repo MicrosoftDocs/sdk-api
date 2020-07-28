@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteDWORD
 title: PSPropertyBag_WriteDWORD function (propsys.h)
-description: Sets the DWORD value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteDWORD","PSPropertyBag_WriteDWORD function [Windows Properties]","properties.PSPropertyBag_WriteDWORD","propsys/PSPropertyBag_WriteDWORD","shell.PSPropertyBag_WriteDWORD","shell_PSPropertyBag_WriteDWORD"]
+description: Sets the DWORD value of a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_WriteDWORD","PSPropertyBag_WriteDWORD function [Windows Properties]","properties.PSPropertyBag_WriteDWORD","propsys/PSPropertyBag_WriteDWORD","shell.PSPropertyBag_WriteDWORD","shell_PSPropertyBag_WriteDWORD"]
 old-location: properties\PSPropertyBag_WriteDWORD.htm
 tech.root: properties
 ms.assetid: 59142C21-032F-462c-B4A7-337483917ABC

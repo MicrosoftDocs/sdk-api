@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.ResizeBuffers
 title: IDXGISwapChain::ResizeBuffers (dxgi.h)
-description: Changes the swap chain's back buffer size, format, and number of buffers. This should be called when the application window is resized.helpviewer_keywords: ["615c7678-59c9-07b2-5960-4a5b881f779d","IDXGISwapChain interface [DXGI]","ResizeBuffers method","IDXGISwapChain.ResizeBuffers","IDXGISwapChain::ResizeBuffers","ResizeBuffers","ResizeBuffers method [DXGI]","ResizeBuffers method [DXGI]","IDXGISwapChain interface","direct3ddxgi.idxgiswapchain_resizebuffers","dxgi/IDXGISwapChain::ResizeBuffers"]
+description: Changes the swap chain's back buffer size, format, and number of buffers. This should be called when the application window is resized.
+helpviewer_keywords: ["615c7678-59c9-07b2-5960-4a5b881f779d","IDXGISwapChain interface [DXGI]","ResizeBuffers method","IDXGISwapChain.ResizeBuffers","IDXGISwapChain::ResizeBuffers","ResizeBuffers","ResizeBuffers method [DXGI]","ResizeBuffers method [DXGI]","IDXGISwapChain interface","direct3ddxgi.idxgiswapchain_resizebuffers","dxgi/IDXGISwapChain::ResizeBuffers"]
 old-location: direct3ddxgi\idxgiswapchain_resizebuffers.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizebuffers.htm

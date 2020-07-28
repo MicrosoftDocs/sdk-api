@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_SLICE_OPERATOR_DESC
 title: DML_SLICE_OPERATOR_DESC
-description: Describes a DirectML data reorganization operator that produces a slice of the input tensor along multiple axes.helpviewer_keywords: ["DML_SLICE_OPERATOR_DESC","DML_SLICE_OPERATOR_DESC structure","direct3d12.dml_slice_operator_desc","directml/DML_SLICE_OPERATOR_DESC"]
+description: Describes a DirectML data reorganization operator that produces a slice of the input tensor along multiple axes.
+helpviewer_keywords: ["DML_SLICE_OPERATOR_DESC","DML_SLICE_OPERATOR_DESC structure","direct3d12.dml_slice_operator_desc","directml/DML_SLICE_OPERATOR_DESC"]
 old-location: direct3d12\dml_slice_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 6CB9CF44-B980-42B3-A967-4095AAA088B3

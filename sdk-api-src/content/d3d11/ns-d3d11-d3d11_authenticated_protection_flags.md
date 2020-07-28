@@ -1,7 +1,9 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_PROTECTION_FLAGS
 title: D3D11_AUTHENTICATED_PROTECTION_FLAGS
-description: Specifies the protection level for video content.helpviewer_keywords: ["D3D11_AUTHENTICATED_PROTECTION_FLAGS"]
+description: Specifies the protection level for video content.
+tech.root: direct3d11
+helpviewer_keywords: ["D3D11_AUTHENTICATED_PROTECTION_FLAGS"]
 ms.assetid: 037AB541-2E68-460C-8626-7F22C6C3E425
 ms.date: 05/13/2019
 ms.keywords: D3D11_AUTHENTICATED_PROTECTION_FLAGS
