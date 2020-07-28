@@ -1,9 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshow
 title: IDesktopWallpaper::GetSlideshow (shobjidl_core.h)
-description: Gets the images that are being displayed in the desktop wallpaper slideshow.
-helpviewer_keywords: ["GetSlideshow","GetSlideshow method [Windows Shell]","GetSlideshow method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetSlideshow method","IDesktopWallpaper.GetSlideshow","IDesktopWallpaper::GetSlideshow","shell.IDesktopWallpaper_GetSlideshow","shobjidl_core/IDesktopWallpaper::GetSlideshow"]
-old-location: shell\IDesktopWallpaper_GetSlideshow.htm
+description: Gets the path to the directory where the slideshow images are stored.
+helpviewer_keywords: ["GetSlideshow","GetSlideshow method [Windows Shell]","GetSlideshow method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetSlideshow method","IDesktopWallpaper.GetSlideshow","IDesktopWallpaper::GetSlideshow","shell.IDesktopWallpaper_GetSlideshow","shobjidl_core/IDesktopWallpaper::GetSlideshow"]old-location: shell\IDesktopWallpaper_GetSlideshow.htm
 tech.root: shell
 ms.assetid: A5660D7F-C42A-4587-B319-B47441CD37AB
 ms.date: 12/05/2018
@@ -50,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the images that are being displayed in the desktop wallpaper slideshow.
+Gets the path to the directory where the slideshow images are stored.
 
 
 ## -parameters
@@ -101,7 +100,3 @@ A <b>NULL</b> pointer was provided in <i>position</i>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshow">IDesktopWallpaper::SetSlideshow</a>
- 
-
- 
-
