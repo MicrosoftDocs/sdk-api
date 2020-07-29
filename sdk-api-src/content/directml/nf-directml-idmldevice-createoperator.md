@@ -4,7 +4,7 @@ title: IDMLDevice::CreateOperator
 description: Creates a DirectML operator.
 helpviewer_keywords: ["CreateOperator","CreateOperator method","CreateOperator method","IDMLDevice interface","IDMLDevice interface","CreateOperator method","IDMLDevice.CreateOperator","IDMLDevice::CreateOperator","direct3d12.idmldevice_createoperator","directml/IDMLDevice::CreateOperator"]
 old-location: direct3d12\idmldevice_createoperator.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: BAD28B3F-6F7C-45A0-9604-0660FF367878
 ms.date: 12/5/2018
 ms.keywords: CreateOperator, CreateOperator method, CreateOperator method,IDMLDevice interface, IDMLDevice interface,CreateOperator method, IDMLDevice.CreateOperator, IDMLDevice::CreateOperator, direct3d12.idmldevice_createoperator, directml/IDMLDevice::CreateOperator

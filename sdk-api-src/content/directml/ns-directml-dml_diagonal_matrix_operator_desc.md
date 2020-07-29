@@ -2,7 +2,7 @@
 UID: NS:directml.DML_DIAGONAL_MATRIX_OPERATOR_DESC
 title: DML_DIAGONAL_MATRIX_OPERATOR_DESC
 description: Describes a DirectML math operator that generates an identity-like matrix with ones on the major diagonal and zeros everywhere else.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/31/2020
 targetos: Windows
 req.construct-type: structure

@@ -4,7 +4,7 @@ title: IDMLObject
 description: An interface from which IDMLDevice and IDMLDeviceChild inherit directly (and all other interfaces, indirectly).
 helpviewer_keywords: ["IDMLObject","IDMLObject interface","IDMLObject interface","described","direct3d12.idmlobject","directml/IDMLObject"]
 old-location: direct3d12\idmlobject.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: E41D99AF-838B-43D3-AD3F-A2F7CA85C714
 ms.date: 12/5/2018
 ms.keywords: IDMLObject, IDMLObject interface, IDMLObject interface,described, direct3d12.idmlobject, directml/IDMLObject

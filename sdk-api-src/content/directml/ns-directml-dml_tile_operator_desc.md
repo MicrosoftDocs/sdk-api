@@ -4,7 +4,7 @@ title: DML_TILE_OPERATOR_DESC
 description: Describes a DirectML data reorganization operator that constructs an output tensor by tiling the input tensor.
 helpviewer_keywords: ["DML_TILE_OPERATOR_DESC","DML_TILE_OPERATOR_DESC structure","direct3d12.dml_tile_operator_desc","directml/DML_TILE_OPERATOR_DESC"]
 old-location: direct3d12\dml_tile_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 98D39D8F-4165-4642-B139-EE7417403FCA
 ms.date: 12/5/2018
 ms.keywords: DML_TILE_OPERATOR_DESC, DML_TILE_OPERATOR_DESC structure, direct3d12.dml_tile_operator_desc, directml/DML_TILE_OPERATOR_DESC

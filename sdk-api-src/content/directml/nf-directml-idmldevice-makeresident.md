@@ -4,7 +4,7 @@ title: IDMLDevice::MakeResident
 description: Causes one or more pageable objects to become resident in GPU memory. Also see IDMLDevice::Evict.
 helpviewer_keywords: ["IDMLDevice interface","MakeResident method","IDMLDevice.MakeResident","IDMLDevice::MakeResident","MakeResident","MakeResident method","MakeResident method","IDMLDevice interface","direct3d12.idmldevice_makeresident","directml/IDMLDevice::MakeResident"]
 old-location: direct3d12\idmldevice_makeresident.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 966B23A1-5CE3-43C3-8D3B-2243C2D6322D
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice interface,MakeResident method, IDMLDevice.MakeResident, IDMLDevice::MakeResident, MakeResident, MakeResident method, MakeResident method,IDMLDevice interface, direct3d12.idmldevice_makeresident, directml/IDMLDevice::MakeResident

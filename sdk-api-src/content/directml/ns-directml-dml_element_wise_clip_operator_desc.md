@@ -4,7 +4,7 @@ title: DML_ELEMENT_WISE_CLIP_OPERATOR_DESC
 description: Describes a DirectML math operator that performs the element-wise clip function f(x) = clamp(x * scale + bias, minValue, maxValue), where the scale and bias terms are optional, and where clamp(x) = min(maxValue, max(minValue, x)).
 helpviewer_keywords: ["DML_ELEMENT_WISE_CLIP_OPERATOR_DESC","DML_ELEMENT_WISE_CLIP_OPERATOR_DESC structure","direct3d12.dml_element_wise_clip_operator_desc","directml/DML_ELEMENT_WISE_CLIP_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_clip_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 980CC8B8-A0D8-40BB-8506-ECB8F9EFAB11
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_CLIP_OPERATOR_DESC, DML_ELEMENT_WISE_CLIP_OPERATOR_DESC structure, direct3d12.dml_element_wise_clip_operator_desc, directml/DML_ELEMENT_WISE_CLIP_OPERATOR_DESC

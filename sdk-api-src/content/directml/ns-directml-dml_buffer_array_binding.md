@@ -4,7 +4,7 @@ title: DML_BUFFER_ARRAY_BINDING
 description: Specifies a resource binding that is an array of individual buffer bindings.
 helpviewer_keywords: ["DML_BUFFER_ARRAY_BINDING","DML_BUFFER_ARRAY_BINDING structure","direct3d12.dml_buffer_array_binding","directml/DML_BUFFER_ARRAY_BINDING"]
 old-location: direct3d12\dml_buffer_array_binding.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: F9634FE6-6386-4420-BC4A-EC7F140B830C
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_ARRAY_BINDING, DML_BUFFER_ARRAY_BINDING structure, direct3d12.dml_buffer_array_binding, directml/DML_BUFFER_ARRAY_BINDING

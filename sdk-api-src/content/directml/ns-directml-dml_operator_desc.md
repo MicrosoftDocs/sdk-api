@@ -4,7 +4,7 @@ title: DML_OPERATOR_DESC
 description: A generic container for an operator description. You construct DirectML operators using the parameters specified in this struct. See IDMLDevice::CreateOperator for additional details.
 helpviewer_keywords: ["DML_OPERATOR_DESC","DML_OPERATOR_DESC structure","direct3d12.dml_operator_desc","directml/DML_OPERATOR_DESC"]
 old-location: direct3d12\dml_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: F6D00361-9C08-497E-BA6B-3500376966CB
 ms.date: 12/5/2018
 ms.keywords: DML_OPERATOR_DESC, DML_OPERATOR_DESC structure, direct3d12.dml_operator_desc, directml/DML_OPERATOR_DESC

@@ -2,7 +2,7 @@
 UID: NS:directml.DML_ELEMENT_WISE_ADD1_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ADD1_OPERATOR_DESC
 description: Describes a DirectML math operator that performs the function of adding every element in *ATensor* to its corresponding element in *BTensor*, with the option for fused activation.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/30/2020
 targetos: Windows
 req.construct-type: structure

@@ -4,7 +4,7 @@ title: DML_ELEMENT_WISE_MAX_OPERATOR_DESC
 description: Describes a DirectML math reduction operator that performs a maximum function between every element in ATensor and its corresponding element in BTensor, f(a, b) = max(a, b).
 helpviewer_keywords: ["DML_ELEMENT_WISE_MAX_OPERATOR_DESC","DML_ELEMENT_WISE_MAX_OPERATOR_DESC structure","direct3d12.dml_element_wise_max_operator_desc","directml/DML_ELEMENT_WISE_MAX_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_max_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 4796B92C-6631-4198-A843-DDC07176AB72
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_MAX_OPERATOR_DESC, DML_ELEMENT_WISE_MAX_OPERATOR_DESC structure, direct3d12.dml_element_wise_max_operator_desc, directml/DML_ELEMENT_WISE_MAX_OPERATOR_DESC

@@ -4,7 +4,7 @@ title: DML_BINDING_PROPERTIES
 description: Contains information about the binding requirements of a particular compiled operator, or operator initializer. This struct is retrieved from IDMLDispatchable::GetBindingProperties.
 helpviewer_keywords: ["DML_BINDING_PROPERTIES","DML_BINDING_PROPERTIES structure","direct3d12.dml_binding_properties","directml/DML_BINDING_PROPERTIES"]
 old-location: direct3d12\dml_binding_properties.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 000A1236-A557-4DCD-8A25-23AA5CF29C2D
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_PROPERTIES, DML_BINDING_PROPERTIES structure, direct3d12.dml_binding_properties, directml/DML_BINDING_PROPERTIES

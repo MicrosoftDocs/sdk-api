@@ -4,7 +4,7 @@ title: DML_BINDING_TABLE_DESC
 description: Specifies parameters to IDMLDevice::CreateBindingTable and IDMLBindingTable::Reset.
 helpviewer_keywords: ["DML_BINDING_TABLE_DESC","DML_BINDING_TABLE_DESC structure","direct3d12.dml_binding_table_desc","directml/DML_BINDING_TABLE_DESC"]
 old-location: direct3d12\dml_binding_table_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 4ABA8CBB-C298-4F98-8156-CD81F83BB657
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_TABLE_DESC, DML_BINDING_TABLE_DESC structure, direct3d12.dml_binding_table_desc, directml/DML_BINDING_TABLE_DESC

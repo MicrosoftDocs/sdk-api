@@ -4,7 +4,7 @@ title: DML_ACTIVATION_IDENTITY_OPERATOR_DESC
 description: Describes a DirectML activation operator that performs the identity function f(x) = x. The operator effectively copies its input tensor to the output.
 helpviewer_keywords: ["DML_ACTIVATION_IDENTITY_OPERATOR_DESC","DML_ACTIVATION_IDENTITY_OPERATOR_DESC structure","direct3d12.dml_activation_identity_operator_desc","directml/DML_ACTIVATION_IDENTITY_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_identity_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 2D16A1B8-1404-4426-863A-956EC825882F
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_IDENTITY_OPERATOR_DESC, DML_ACTIVATION_IDENTITY_OPERATOR_DESC structure, direct3d12.dml_activation_identity_operator_desc, directml/DML_ACTIVATION_IDENTITY_OPERATOR_DESC

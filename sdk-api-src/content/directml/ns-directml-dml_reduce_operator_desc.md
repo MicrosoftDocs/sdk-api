@@ -4,7 +4,7 @@ title: DML_REDUCE_OPERATOR_DESC
 description: Describes a DirectML operator that performs the specified reduction function on the input.
 helpviewer_keywords: ["DML_REDUCE_OPERATOR_DESC","DML_REDUCE_OPERATOR_DESC structure","direct3d12.dml_reduce_operator_desc","directml/DML_REDUCE_OPERATOR_DESC"]
 old-location: direct3d12\dml_reduce_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 6C390A1A-7AA3-4B24-8DC7-A34E6FBE6320
 ms.date: 12/5/2018
 ms.keywords: DML_REDUCE_OPERATOR_DESC, DML_REDUCE_OPERATOR_DESC structure, direct3d12.dml_reduce_operator_desc, directml/DML_REDUCE_OPERATOR_DESC

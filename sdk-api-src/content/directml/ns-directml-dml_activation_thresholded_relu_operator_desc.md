@@ -4,7 +4,7 @@ title: DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC
 description: Describes a DirectML operator that performs a thresholded rectified linear unit (ReLU) activation function on every element in the input, f(x) = if x &gt; alpha then x else 0.
 helpviewer_keywords: ["DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC","DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC structure","direct3d12.dml_activation_thresholded_relu_operator_desc","directml/DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_thresholded_relu_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 4EF9D02C-CAF3-401A-B9A5-97501E4C636E
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC, DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC structure, direct3d12.dml_activation_thresholded_relu_operator_desc, directml/DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC

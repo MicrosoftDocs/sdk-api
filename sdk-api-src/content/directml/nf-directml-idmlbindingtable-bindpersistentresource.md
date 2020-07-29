@@ -4,7 +4,7 @@ title: IDMLBindingTable::BindPersistentResource
 description: Binds a buffer as a persistent resource. You can determine the required size of this buffer range by calling IDMLDispatchable::GetBindingProperties.
 helpviewer_keywords: ["BindPersistentResource","BindPersistentResource method","BindPersistentResource method","IDMLBindingTable interface","IDMLBindingTable interface","BindPersistentResource method","IDMLBindingTable.BindPersistentResource","IDMLBindingTable::BindPersistentResource","direct3d12.idmlbindingtable_bindpersistentresource","directml/IDMLBindingTable::BindPersistentResource"]
 old-location: direct3d12\idmlbindingtable_bindpersistentresource.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 9812B5C9-6E3E-4CAB-827F-C59A98F07F91
 ms.date: 12/5/2018
 ms.keywords: BindPersistentResource, BindPersistentResource method, BindPersistentResource method,IDMLBindingTable interface, IDMLBindingTable interface,BindPersistentResource method, IDMLBindingTable.BindPersistentResource, IDMLBindingTable::BindPersistentResource, direct3d12.idmlbindingtable_bindpersistentresource, directml/IDMLBindingTable::BindPersistentResource

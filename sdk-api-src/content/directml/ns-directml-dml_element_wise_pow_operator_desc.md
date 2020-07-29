@@ -4,7 +4,7 @@ title: DML_ELEMENT_WISE_POW_OPERATOR_DESC
 description: Describes a DirectML math operator that performs the element-wise power function f(x, exponent) = pow(x * scale + bias, exponent), where the scale and bias terms are optional.
 helpviewer_keywords: ["DML_ELEMENT_WISE_POW_OPERATOR_DESC","DML_ELEMENT_WISE_POW_OPERATOR_DESC structure","direct3d12.dml_element_wise_pow_operator_desc","directml/DML_ELEMENT_WISE_POW_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_pow_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 72AF58C4-F651-4439-8963-FA64D75A63C3
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_POW_OPERATOR_DESC, DML_ELEMENT_WISE_POW_OPERATOR_DESC structure, direct3d12.dml_element_wise_pow_operator_desc, directml/DML_ELEMENT_WISE_POW_OPERATOR_DESC

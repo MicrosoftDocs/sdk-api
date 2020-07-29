@@ -4,7 +4,7 @@ title: DML_ACTIVATION_SIGMOID_OPERATOR_DESC
 description: Describes a DirectML operator that performs a sigmoid activation function on every element in the input, f(x) = 1 / (1 + exp(-x)).
 helpviewer_keywords: ["DML_ACTIVATION_SIGMOID_OPERATOR_DESC","DML_ACTIVATION_SIGMOID_OPERATOR_DESC structure","direct3d12.dml_activation_sigmoid_operator_desc","directml/DML_ACTIVATION_SIGMOID_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_sigmoid_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: A0D8C2B8-6853-4B97-8D0D-5B93004B4DA5
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_SIGMOID_OPERATOR_DESC, DML_ACTIVATION_SIGMOID_OPERATOR_DESC structure, direct3d12.dml_activation_sigmoid_operator_desc, directml/DML_ACTIVATION_SIGMOID_OPERATOR_DESC

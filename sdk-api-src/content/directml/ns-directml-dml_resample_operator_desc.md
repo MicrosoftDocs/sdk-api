@@ -2,7 +2,7 @@
 UID: NS:directml.DML_RESAMPLE_OPERATOR_DESC
 title: DML_RESAMPLE_OPERATOR_DESC
 description: Describes a DirectML operator that resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/31/2020
 dev_langs:
 - c++

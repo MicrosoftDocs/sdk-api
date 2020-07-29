@@ -4,7 +4,7 @@ title: DML_BUFFER_BINDING
 description: Specifies a resource binding described by a range of bytes in a Direct3D 12 buffer, represented by an offset and size into an ID3D12Resource.
 helpviewer_keywords: ["DML_BUFFER_BINDING","DML_BUFFER_BINDING structure","direct3d12.dml_buffer_binding","directml/DML_BUFFER_BINDING"]
 old-location: direct3d12\dml_buffer_binding.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 05BF22D6-D660-4A80-AFE3-27D7BF2D8BDE
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_BINDING, DML_BUFFER_BINDING structure, direct3d12.dml_buffer_binding, directml/DML_BUFFER_BINDING

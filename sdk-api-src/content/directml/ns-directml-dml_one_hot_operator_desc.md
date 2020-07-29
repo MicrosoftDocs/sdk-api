@@ -2,7 +2,7 @@
 UID: NS:directml.DML_ONE_HOT_OPERATOR_DESC
 title: DML_ONE_HOT_OPERATOR_DESC
 description: Describes a DirectML operator that generates a tensor with each element filled with two values&mdash;either an 'on' or an 'off' value.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/31/2020
 dev_langs:
 - c++

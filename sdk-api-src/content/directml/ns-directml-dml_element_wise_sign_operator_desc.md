@@ -2,7 +2,7 @@
 UID: NS:directml.DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
 description: Describes a DirectML operator that performs an elementwise shrink activation function on the input.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/24/2020
 targetos: Windows
 req.construct-type: structure
