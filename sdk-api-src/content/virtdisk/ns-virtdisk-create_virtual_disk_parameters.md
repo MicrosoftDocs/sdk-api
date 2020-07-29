@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PCREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PA
 old-location: vhd\create_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 797e21ae-a4c4-48df-8124-e5c2fad22f33
-ms.date: 12/05/2018
+ms.date: 07/28/2020
 ms.keywords: '*PCREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD], CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE, CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE, CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, PCREATE_VIRTUAL_DISK_PARAMETERS, PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS, vhd.create_virtual_disk_parameters, virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS, virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS'
 f1_keywords:
 - virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS
@@ -53,6 +53,37 @@ ms.custom: 19H1
 
 Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, 
     the newly created virtual disk.
+
+## -syntax 
+
+```cpp
+typedef struct _CREATE_VIRTUAL_DISK_PARAMETERS {
+  CREATE_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      GUID      UniqueId;
+      ULONGLONG MaximumSize;
+      ULONG     BlockSizeInBytes;
+      ULONG     SectorSizeInBytes;
+      PCWSTR    ParentPath;
+      PCWSTR    SourcePath;
+    } Version1;
+    struct {
+      GUID                   UniqueId;
+      ULONGLONG              MaximumSize;
+      ULONG                  BlockSizeInBytes;
+      ULONG                  SectorSizeInBytes;
+      ULONG                  PhysicalSectorSizeInBytes;
+      PCWSTR                 ParentPath;
+      PCWSTR                 SourcePath;
+      OPEN_VIRTUAL_DISK_FLAG OpenFlags;
+      VIRTUAL_STORAGE_TYPE   ParentVirtualStorageType;
+      VIRTUAL_STORAGE_TYPE   SourceVirtualStorageType;
+      GUID                   ResiliencyGuid;
+    } Version2;
+  };
+} CREATE_VIRTUAL_DISK_PARAMETERS, *PCREATE_VIRTUAL_DISK_PARAMETERS;
+```
 
 
 ## -struct-fields
@@ -335,157 +366,6 @@ A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL
 ### -field Version2.ResiliencyGuid
 
 Resiliency <b>GUID</b> for the file.
-
-
-### -field Version3
-
- 
-
-
-### -field Version3.UniqueId
-
- 
-
-
-### -field Version3.MaximumSize
-
- 
-
-
-### -field Version3.BlockSizeInBytes
-
- 
-
-
-### -field Version3.SectorSizeInBytes
-
- 
-
-
-### -field Version3.PhysicalSectorSizeInBytes
-
- 
-
-
-### -field Version3.ParentPath
-
- 
-
-
-### -field Version3.SourcePath
-
- 
-
-
-### -field Version3.OpenFlags
-
- 
-
-
-### -field Version3.ParentVirtualStorageType
-
- 
-
-
-### -field Version3.SourceVirtualStorageType
-
- 
-
-
-### -field Version3.ResiliencyGuid
-
- 
-
-
-### -field Version3.SourceLimitPath
-
- 
-
-
-### -field Version3.BackingStorageType
-
- 
-
-
-### -field Version4
-
- 
-
-
-### -field Version4.UniqueId
-
- 
-
-
-### -field Version4.MaximumSize
-
- 
-
-
-### -field Version4.BlockSizeInBytes
-
- 
-
-
-### -field Version4.SectorSizeInBytes
-
- 
-
-
-### -field Version4.PhysicalSectorSizeInBytes
-
- 
-
-
-### -field Version4.ParentPath
-
- 
-
-
-### -field Version4.SourcePath
-
- 
-
-
-### -field Version4.OpenFlags
-
- 
-
-
-### -field Version4.ParentVirtualStorageType
-
- 
-
-
-### -field Version4.SourceVirtualStorageType
-
- 
-
-
-### -field Version4.ResiliencyGuid
-
- 
-
-
-### -field Version4.SourceLimitPath
-
- 
-
-
-### -field Version4.BackingStorageType
-
- 
-
-
-### -field Version4.PmemAddressAbstractionType
-
- 
-
-
-### -field Version4.DataAlignment
-
- 
-
 
 
 
