@@ -62,6 +62,8 @@ landingContent:
             url: _direct3d11/index.md
           - text: Direct3D 12 Graphics
             url: _direct3d12/index.md
+          - text: DirectML
+            url: _directml/index.md
           - text: DXGI
             url: _direct3ddxgi/index.md
           - text: Windows GDI
