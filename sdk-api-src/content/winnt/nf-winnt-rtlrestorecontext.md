@@ -56,6 +56,14 @@ ms.custom: 19H1
 
 Restores the context of the caller to the specified context record.
 
+## -syntax
+
+```cpp
+NTSYSAPI VOID __cdecl RtlRestoreContext(
+  PCONTEXT          ContextRecord,
+  _EXCEPTION_RECORD *ExceptionRecord
+);
+```
 
 ## -parameters
 
