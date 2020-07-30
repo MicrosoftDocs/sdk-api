@@ -204,7 +204,7 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTI
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> value that specifies the child process policy. THe policy specifies whether to allow a child process to be created.
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> value that specifies the child process policy. The policy specifies whether to allow a child process to be created.
 
 For information on the possible values for the  <b>DWORD</b> or <b>DWORD64</b> to which <i>lpValue</i> points, see Remarks.
 
