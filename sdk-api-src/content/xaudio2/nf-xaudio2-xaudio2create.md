@@ -63,12 +63,12 @@ Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https:
 If the operation is successful, returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object.
 
 
-### -param X2DEFAULT [in]
+### -param Flags [in]
 
 Flags that specify the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object. The value of this parameter must be 0.
 
 
-#### - XAudio2Processor [in]
+### -param XAudio2Processor [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use.
 
