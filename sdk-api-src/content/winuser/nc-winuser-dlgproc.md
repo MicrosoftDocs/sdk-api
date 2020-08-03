@@ -84,6 +84,7 @@ Type: <b>LPARAM</b>
 Additional message-specific information. 
 
 
+## -returns
 
 Type: <b>INT_PTR</b>
 
