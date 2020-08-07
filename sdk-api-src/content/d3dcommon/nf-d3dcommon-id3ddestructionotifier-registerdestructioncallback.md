@@ -83,6 +83,28 @@ Type: <b><a href="windows/win32/com/structure-of-com-error-codes">HRESULT</a></b
 
 If this function suceeds, it will return **S_OK**
 
+## -remarks
+
+An example of this interface being used to log the destruction of an **ID3D12Resource**
+
+```cpp
+#include <d3dcommon.h> // for ID3DDestructionNotifier
+
+ComPtr<ID3D12Resource> resource = ...;
+
+ComPtr<ID3DDestructionNotifier> notifier;
+if (SUCCEEDED(resource.As(&notifier)))
+{
+    UINT callbackId;
+    ThrowIfFailed(notifier->RegisterDestructionCallback(LogResourceReleased, nullptr, &callbackId));
+}
+
+void LogResourceReleased(void* context)
+{
+    OutputDebugString("Resource released!\n");
+}
+```
+
 ## -see-also
 
 
