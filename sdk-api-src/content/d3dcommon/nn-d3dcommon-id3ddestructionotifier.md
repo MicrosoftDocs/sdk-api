@@ -42,7 +42,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3DInclude interface
+# ID3DDestructionNotifier interface
 
 
 ## -description
@@ -51,10 +51,14 @@ ms.custom: 19H1
 <b>ID3DDestructionNotifier</b> is an interface that can be used to register for callbacks when a D3D Nano-COM object is destroyed.
 To acquire an instance of this interface, call <a href="windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)"></a> on a D3D object with the **IID** of **ID3DDestructionNotifier**.
 
+Using <b>ID3DDestructionNotifier</b> instead of <b><a href="windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">ID3D12Object::SetPrivateDataInterface</a></b> or D3D11 equivalents provides
+stronger guarantees about the order of destruction. With <b>ID3DDestructionNotifier</b>, implicit relationships, such as an <b><a href="windows/win32/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a></b> holding a reference to its underlying <b><a href="windows/win32/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a></b>, are guaranteed to be valid and for the referenced object (here, the **ID3D11Object**) to still be alive when the destruction callback is invoked. With <b><a href="windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">ID3D12Object::SetPrivateDataInterface</a></b>, the implicit references can be released before the destruction callback is invoked.
+
+It isn't safe to access the object being destructed during the callback.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DDestructionNotifier</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DInclude</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DDestructionNotifier</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DDestructionNotifier</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
