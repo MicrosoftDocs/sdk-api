@@ -47,4 +47,29 @@ You can call **RemoveDevice** to indicate to the Direct3D 12 runtime that the GP
 
 ## -remarks
 
+Because device removal triggers all fences to be signaled to `UINT64_MAX`, you can create a callback for device removal using an event.
+
+```cpp
+HANDLE deviceRemoved = CreateEventW(NULL, FALSE, FALSE, NULL);
+assert(deviceRemoved != NULL);
+_deviceFence->SetEventOnCompletion(UINT64_MAX, deviceRemoved);
+
+HANDLE waitHandle;
+RegisterWaitForSingleObject(
+  &waitHandle,
+  deviceRemoved,
+  OnDeviceRemoved,
+  _device.Get(), // Pass the device as our context
+  INFINITE, // No timeout
+  0 // No flags
+);
+
+void OnDeviceRemoved(PVOID context, BOOLEAN)
+{
+  ID3D12Device* removedDevice = (ID3D12Device*)context;
+  HRESULT removedReason = removedDevice->GetDeviceRemovedReason();
+  // Perform app-specific device removed operation, such as logging or inspecting DRED output
+}
+```
+
 ## -see-also
