@@ -64,7 +64,7 @@ Use this flag to specify the bit-block transfer (bitblt) model and to specify th
             This flag is valid for a swap chain with more than one back buffer, although, applications only have read and write access to buffer 0.
             Use this flag to enable the display driver to select the most efficient presentation technique for the swap chain.
           
-<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>
+<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
 
 <div class="alert"><b>Note</b>  There are differences between full screen exclusive and full screen UWP. If you are porting a Direct3D 11 application to UWP on a Windows PC, be aware that the use of  <b>DXGI_SWAP_EFFECT_DISCARD</b> when creating swap chains does
 not behave the same way in UWP as it does in Win32, and its use may be detrimental to GPU performance.
@@ -82,7 +82,7 @@ Use this flag to specify the bitblt model and to specify that DXGI persist the c
               Use this option to present the contents of the swap chain in order, from the first buffer (buffer 0) to the last buffer.
               This flag cannot be used with multisampling.
               
-<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>
+<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
             
 
 <div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/for-best-performance--use-dxgi-flip-model">this article</a> for more information.</div>
@@ -117,7 +117,7 @@ Use this flag to specify the flip presentation model and to specify that DXGI di
 
 This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc">DXGI_SWAP_CHAIN_DESC</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a>structures.
         
-In D3D12, only <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> are supported, and the bitblt models are not. Because of this, multisampling a back buffer is not supported in D3D12, and you must manually perform multisampling in the app using <b><a href="windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ID3D12GraphicsCommandList::ResolveSubresource</a></b> or <b><a href="windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion">ID3D12GraphicsCommandList1::ResolveSubresourceRegion</a></b
+In D3D12, only <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> are supported, and the bitblt models are not. Because of this, multisampling a back buffer is not supported in D3D12, and you must manually perform multisampling in the app using <b><a href="windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ID3D12GraphicsCommandList::ResolveSubresource</a></b> or <b><a href="windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion">ID3D12GraphicsCommandList1::ResolveSubresourceRegion</a></b>.
 
 To use multisampling with <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b>, you must perform the multisampling in a separate render target. For example, create a multisampled texture by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture2d">ID3D11Device::CreateTexture2D</a> with a filled <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a> structure (<b>BindFlags</b> member set to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_RENDER_TARGET</a> and <b>SampleDesc</b> member with multisampling parameters). Next call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrendertargetview">ID3D11Device::CreateRenderTargetView</a> to create a render-target view for the texture, and render your scene into the texture. Finally call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-resolvesubresource">ID3D11DeviceContext::ResolveSubresource</a> to resolve the multisampled texture into your non-multisampled swap chain.
         
