@@ -367,7 +367,8 @@ A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL
 
 Resiliency <b>GUID</b> for the file.
 
-
+> [!NOTE]
+> The following parameters prefaced Version3 and Version4 are intended for internal use.
 
 ## -see-also
 
