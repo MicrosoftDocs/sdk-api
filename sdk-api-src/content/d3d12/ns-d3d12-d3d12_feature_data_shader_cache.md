@@ -60,6 +60,8 @@ Describes the level of shader caching supported in the current graphics driver.
 
 ### -field SupportFlags
 
+Type: [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags)
+
 <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
 
 Indicates the level of caching supported.
