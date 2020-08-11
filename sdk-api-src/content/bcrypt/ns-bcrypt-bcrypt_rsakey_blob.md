@@ -108,7 +108,7 @@ The size, in bits, of the key.
 
 ### -field cbPublicExp
 
-The size, in bytes, of the exponent of the key.
+The size, in bytes, of the exponent of the key. As of Windows 10 version 1903, public exponents larger than (2^64 - 1) are no longer supported.
 
 
 ### -field cbModulus
