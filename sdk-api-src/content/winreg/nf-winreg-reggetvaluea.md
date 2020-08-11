@@ -93,24 +93,21 @@ This handle is returned by the
 
 ### -param lpSubKey [in, optional]
 
-The name of the registry key. This key must be a subkey of the key specified by the <i>hkey</i> parameter.
+The path of a registry key relative to the key specified by the *hkey* parameter. The registry value will be retrieved from this subkey.
 
-Key names are not case sensitive.
+The path is not case sensitive.
+
+If this parameter is **NULL** or an empty string, "", the value will be read from the key specified by *hkey* itself.
 
 
 ### -param lpValue [in, optional]
 
-The name of the registry value. 
+The name of the registry value.
 
+If this parameter is **NULL** or an empty string, "", the function retrieves the type and data for the key's unnamed or default value, if any.
+Keys do not automatically have an unnamed or default value, and unnamed values can be of any type.
 
-
-
-If this parameter is <b>NULL</b> or an empty string, "", the function retrieves the type and data for the key's unnamed or default value, if any.
-
-For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
-
-Keys do not automatically have an unnamed or default value. Unnamed values can be of any type.
+For more information, see [Registry Element Size Limits](/windows/win32/sysinfo/registry-element-size-limits).
 
 
 ### -param dwFlags [in, optional]
