@@ -91,14 +91,8 @@ You can call this method from your implementation of
     authentication requires more than 1 second, we recommend launching a separate thread to perform 
     authentication.
 
+For a sample that uses the <b>OnUserAuthenticationFailed</b> method, see the [Remote Desktop Gateway Pluggable Authentication and Authorization](https://github.com/microsoftarchive/msdn-code-gallery-community-m-r/tree/master/Remote%20Desktop%20Gateway%20Pluggable%20Authentication%20and%20Authorization%20Sample) sample.
 
-#### Examples
-
-For an example that uses the 
-     <b>OnUserAuthenticationFailed</b> method, see 
-     <a href="https://Code.MSDN.Microsoft.Com/Remote-Desktop-Gateway-517d6273">Remote Desktop Gateway Pluggable Authentication and Authorization Sample</a>.
-
-<div class="code"></div>
 
 
 
