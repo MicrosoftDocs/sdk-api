@@ -144,7 +144,7 @@ Given the device position and the performance counter at the time of the <b>GetD
 
 <ol>
 <li>Multiply the raw counter value by 10,000,000.</li>
-<li>Divide the result by the counter frequency obtained from <b>QueryPerformanceCounter</b>.</li>
+<li>Divide the result by the counter frequency obtained from <b>QueryPerformanceFrequency</b>.</li>
 </ol>
 
 
