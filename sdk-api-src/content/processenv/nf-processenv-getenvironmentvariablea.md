@@ -123,7 +123,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
+<a href="https://msdn.microsoft.com/library/ms683187(v=VS.85).aspx">GetEnvironmentStrings</a>
 
 
 
