@@ -138,7 +138,7 @@ If set, the mouse button click does not activate the other window. <b>RIDEV_CAPT
 <tr>
 <td width="40%"><a id="RIDEV_NOHOTKEYS"></a><a id="ridev_nohotkeys"></a><dl>
 <dt><b>RIDEV_NOHOTKEYS</b></dt>
-<dt>0x00000200</dt>
+<dt>0x00000300</dt>
 </dl>
 </td>
 <td width="60%">
