@@ -246,7 +246,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns
       
 
 The service control manager fills in the structure only when 
-       <b>ControlService</b> returns zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns one of the following error 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns one of the following error 
        codes: <b>NO_ERROR</b>, <b>ERROR_INVALID_SERVICE_CONTROL</b>, 
        <b>ERROR_SERVICE_CANNOT_ACCEPT_CTRL</b>, or 
        <b>ERROR_SERVICE_NOT_ACTIVE</b>. Otherwise, the structure is not filled in.
