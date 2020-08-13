@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>. 
+Sets the gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> in dB. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the gain for the <a href="https://docs.microsoft.com/windows/desktop/api/sp
 
 ### -param gain [in]
 
-The gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>. 
+The gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> in dB. 
 
 
 ## -returns
