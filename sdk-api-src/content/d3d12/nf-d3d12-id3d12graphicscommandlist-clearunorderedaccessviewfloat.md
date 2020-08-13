@@ -114,7 +114,7 @@ An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
 
-If you want to clear the UAV to a specific bit pattern, consider using <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint>ID3D12GraphicsCommandList::ClearUnorderedAccessView</a></b>.
+If you want to clear the UAV to a specific bit pattern, consider using <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint>ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint</a></b>.
           
 
 Validation failure will result in the call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
