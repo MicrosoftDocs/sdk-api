@@ -66,7 +66,7 @@ TBD
 
 
 
-#### - retVal [out]
+### -param retVal [out]
 
 Type: <b>VARIANT*</b>
 

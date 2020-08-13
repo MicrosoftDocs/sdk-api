@@ -81,7 +81,7 @@ Specifies the number of objects with associated handles in the handle table.
 
 
 
-#### - hDC [in]
+### -param hDC [in]
 
 Handle to the device context passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
 

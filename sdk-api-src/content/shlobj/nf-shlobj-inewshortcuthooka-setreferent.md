@@ -74,7 +74,7 @@ TBD
 
 
 
-#### - hWnd [in, optional]
+### -param hWnd [in, optional]
 
 Type: <b>HWND</b>
 

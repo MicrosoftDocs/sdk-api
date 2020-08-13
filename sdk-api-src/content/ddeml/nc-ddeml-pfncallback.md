@@ -99,14 +99,14 @@ Type: <b>ULONG_PTR</b>
 Transaction-specific data. For the meaning of this parameter, see the description of the transaction type. 
 
 
-#### - hconv [in]
+### -param hconv [in]
 
 Type: <b>HCONV</b>
 
 A handle to the conversation associated with the current transaction. 
 
 
-#### - hdata [in]
+### -param hdata [in]
 
 Type: <b>HDDEDATA</b>
 
