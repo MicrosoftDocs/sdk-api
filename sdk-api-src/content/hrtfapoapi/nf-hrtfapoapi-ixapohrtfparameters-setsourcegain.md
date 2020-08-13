@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the custom direct-path gain value for the current source position. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
+Sets the custom direct-path gain value for the current source position in dB. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Sets the custom direct-path gain value for the current source position. Valid on
 
 ### -param gain [in]
 
-The custom direct-path gain value for the current source position. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
+The custom direct-path gain value for the current source position in dB. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
 
 
 ## -returns
