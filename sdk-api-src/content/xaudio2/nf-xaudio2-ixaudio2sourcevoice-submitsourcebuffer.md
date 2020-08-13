@@ -71,7 +71,7 @@ TBD
 
 
 
-#### - pBufferWMA [in]
+### -param pBufferWMA [in]
 
 Pointer to an additional <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer_wma">XAUDIO2_BUFFER_WMA</a> structure used when submitting WMA data. 
 

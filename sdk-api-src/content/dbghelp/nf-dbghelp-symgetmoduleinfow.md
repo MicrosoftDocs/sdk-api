@@ -68,7 +68,7 @@ A handle to the process that was originally passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-#### - dwAddr [in]
+### -param dwAddr [in]
 
 The virtual address that is contained in one of the modules loaded by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function

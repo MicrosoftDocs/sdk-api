@@ -72,7 +72,7 @@ Type: <b><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_i
 Font property of interest.
 
 
-#### - exists [out]
+### -param exists [out]
 
 Type: <b>BOOL*</b>
 

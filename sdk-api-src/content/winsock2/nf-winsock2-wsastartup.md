@@ -61,7 +61,7 @@ The
 
 
 
-#### - wVersionRequested [in]
+### -param wVersionRequested [in]
 
 The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
 

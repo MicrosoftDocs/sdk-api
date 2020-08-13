@@ -59,7 +59,7 @@ The
 
 
 
-#### - number [in]
+### -param number [in]
 
 Protocol number, in host byte order.
 

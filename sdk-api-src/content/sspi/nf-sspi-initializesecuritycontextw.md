@@ -122,7 +122,7 @@ This parameter is optional with the Microsoft Digest SSP and can be set to <b>NU
 When using the Schannel SSP, on the first call to <b>InitializeSecurityContext (General)</b>, specify <b>NULL</b>. On future calls, specify the token received in the <i>phNewContext</i> parameter after the first call to this function.
 
 
-#### - pTargetName [in, optional]
+### -param pTargetName [in, optional]
 
 A pointer to a null-terminated string that indicates the target of the context. The string contents are <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security-package</a> specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
 

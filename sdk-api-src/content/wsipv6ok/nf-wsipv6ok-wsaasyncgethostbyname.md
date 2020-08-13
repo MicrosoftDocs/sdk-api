@@ -62,22 +62,22 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
 
 
-#### - b [in]
+### -param b [in]
 
 Message to be received when the asynchronous request completes.
 
 
-#### - c [in]
+### -param c [in]
 
 Pointer to the null-terminated name of the host.
 
 
-#### - d [out]
+### -param d [out]
 
 Pointer to the data area to receive the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> data. The data area must be larger than the size of a 
@@ -86,7 +86,7 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-#### - e [in]
+### -param e [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 

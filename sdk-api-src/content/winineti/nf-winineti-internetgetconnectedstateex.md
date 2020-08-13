@@ -144,7 +144,7 @@ Local system uses a proxy server to connect to the Internet.
 Pointer to a string value that receives the connection name.
 
 
-#### - dwNameLen [in]
+### -param dwNameLen [in]
 
 Size of the 
 <i>lpszConnectionName</i> string, in <b>TCHARs</b>.

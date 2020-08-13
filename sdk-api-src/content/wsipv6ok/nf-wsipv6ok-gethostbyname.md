@@ -68,7 +68,7 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 A pointer to the <b>null</b>-terminated name of the host to resolve.
 

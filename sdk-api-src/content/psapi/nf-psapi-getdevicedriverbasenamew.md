@@ -75,7 +75,7 @@ The load address of the device driver. This value can be retrieved using the
       function.
 
 
-#### - lpBaseName [out]
+### -param lpBaseName [out]
 
 A pointer to the buffer that receives the base name of the device driver.
 

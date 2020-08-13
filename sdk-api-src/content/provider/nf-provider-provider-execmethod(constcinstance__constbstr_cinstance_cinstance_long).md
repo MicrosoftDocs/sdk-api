@@ -65,7 +65,7 @@ The <b>ExecMethod</b> method is called by WMI to invoke a method on a class or i
 
 
 
-#### - cInstance [ref]
+### -param cInstance [ref]
 
 Key properties of the instance in question if the client called an instance method. If the client called a static method, <i>Instance</i> contains a class object.
 

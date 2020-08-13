@@ -58,7 +58,7 @@ Reads the font signature from the given font.
 
 
 
-#### - fontFace [in]
+### -param fontFace [in]
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>*</b>
 

@@ -63,7 +63,7 @@ Gets a read only pointer to the client provided structure in the first ItemID in
 A PIDL containing the data.
 
 
-#### - ppData [out]
+### -param ppData [out]
 
 When this method returns, contains the address of a read only pointer to a client provided structure.
 

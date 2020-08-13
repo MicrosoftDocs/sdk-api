@@ -70,7 +70,7 @@ TBD
 
 
 
-#### - Flags [optional]
+### -param Flags [optional]
 
 Flags controlling which voice state data should be returned. Valid values are 0 or <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>. The default value is 0. If you specify <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>, <b>GetState</b> returns only the buffer state, not the sampler state. <b>GetState</b> takes roughly one-third as much time to complete when you specify 
 <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>.
