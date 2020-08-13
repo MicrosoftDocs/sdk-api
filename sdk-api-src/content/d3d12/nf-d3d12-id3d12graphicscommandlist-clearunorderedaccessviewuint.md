@@ -60,10 +60,10 @@ A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_
 
 Type: <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> that references an initialized descriptor for the unordered-access view (UAV) that is to be cleared.
+A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> in a non-shader visible descriptor heap that references an initialized descriptor for the unordered-access view (UAV) that is to be cleared.
 
 > [!IMPORTANT]
-> This descriptor must not be in a shader-visible descriptor heap.
+> This descriptor must not be in a shader-visible descriptor heap. This is to allow drivers which implement the clear as fixed-function hardware (rather than via a dispatch) to efficiently read from the descriptor, as shader-visible heaps may be created in `WRITE_BACK` memory (similar to `D3D12_HEAP_TYPE_UPLOAD` heap types), and CPU reads from this type of memory are prohibitively slow
 
 ### -param pResource [in]
 
