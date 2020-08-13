@@ -161,6 +161,17 @@ Occurs when filled buffers are trying to flush to disk, but disk IOs are not hap
 <tr>
 <td width="40%">
 <dl>
+<dt><b>ERROR_NOACCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+      <i>UserData</i> points to an invalid memory location or the memory is not correctly aligned.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
 <dt><b>STATUS_LOG_FILE_FULL</b></dt>
 </dl>
 </td>
