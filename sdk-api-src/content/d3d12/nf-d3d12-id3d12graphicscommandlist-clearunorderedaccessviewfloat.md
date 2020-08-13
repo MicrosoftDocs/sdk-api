@@ -60,18 +60,19 @@ Sets all the elements in a unordered access view to the specified float values.
 
 ### -param ViewGPUHandleInCurrentHeap [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
-Describes the GPU descriptor handle that represents the start of the heap for the unordered-access view to clear.
-          
-
+A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a> that references an initialized descriptor for the unordered-access view that is to be cleared. This descriptor must be in a shader-visible descriptor heap, which must be set on the command list via [SetDescriptorHeaps](nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps.md).
 
 ### -param ViewCPUHandle [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-Describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
+A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> in a non-shader visible descriptor heap that references an initialized descriptor for the unordered-access view (UAV) that is to be cleared.
+
           
+> [!IMPORTANT]
+> This descriptor must not be in a shader-visible descriptor heap. This is to allow drivers which implement the clear as fixed-function hardware (rather than via a dispatch) to efficiently read from the descriptor, as shader-visible heaps may be created in `WRITE_BACK` memory (similar to `D3D12_HEAP_TYPE_UPLOAD` heap types), and CPU reads from this type of memory are prohibitively slow
 
 
 ### -param pResource [in]
@@ -112,6 +113,8 @@ An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
+
+If you want to clear the UAV to a specific bit pattern, consider using <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint>ID3D12GraphicsCommandList::ClearUnorderedAccessView</a></b>.
           
 
 Validation failure will result in the call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
