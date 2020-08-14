@@ -67,7 +67,7 @@ A descriptor identifying a connected socket.
 ### -param name [out]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure that receives the address of the peer.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that receives the address of the peer.
 
 
 ### -param namelen [in, out]
@@ -166,7 +166,7 @@ The descriptor is not a socket.
 
 
 The 
-<b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
+<b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
 <b>getpeername</b> function can be used only on a connected socket. 
 
 For datagram sockets, only the address of a peer specified in a previous 
