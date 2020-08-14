@@ -58,11 +58,6 @@ The <code>Close</code> method closes a DirectMusic "port", which is a DirectMusi
 
 
 
-
-
-#### - None
-
-
 ## -returns
 
 

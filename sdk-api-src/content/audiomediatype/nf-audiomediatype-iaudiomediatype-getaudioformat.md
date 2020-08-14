@@ -60,10 +60,6 @@ The <code>GetAudioFormat</code> method returns the <a href="/windows/win32/api/m
 
 
 
-
-#### - None
-
-
 ## -returns
 
 

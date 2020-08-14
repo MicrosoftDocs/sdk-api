@@ -58,12 +58,6 @@ The <code>UnlockForProcess</code> method releases the lock that was imposed on t
 
 
 
-
-
-
-#### - None
-
-
 ## -returns
 
 
