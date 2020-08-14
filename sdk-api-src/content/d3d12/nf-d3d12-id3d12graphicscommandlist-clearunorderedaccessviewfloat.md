@@ -71,15 +71,15 @@ Type: [in] **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource)\
 
 A pointer to the [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) interface that represents the unordered-access-view (UAV) resource to clear.
 
-### -param Values [in]
+### -param Values
 
-Type: **const FLOAT[4]**
+Type: [in] **const FLOAT[4]**
 
 A 4-component array that containing the values to fill the unordered-access-view resource with.
 
-### -param NumRects [in]
+### -param NumRects
 
-Type: **UINT**
+Type: [in] **UINT**
 
 The number of rectangles in the array that the *pRects* parameter specifies.
 
