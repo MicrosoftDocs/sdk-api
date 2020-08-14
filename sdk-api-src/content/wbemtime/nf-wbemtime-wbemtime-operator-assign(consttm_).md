@@ -67,7 +67,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTim
 
 
 
-#### - tmin [ref]
+### -param tmin [ref]
 
 <b>BSTR</b> in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
 

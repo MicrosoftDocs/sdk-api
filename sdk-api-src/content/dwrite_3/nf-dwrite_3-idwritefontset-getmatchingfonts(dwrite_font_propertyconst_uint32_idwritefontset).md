@@ -58,7 +58,7 @@ Returns a subset of fonts filtered by the given properties.
 
 
 
-#### - properties [in]
+### -param properties [in]
 
 Type: <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property">DWRITE_FONT_PROPERTY</a>*</b>
 

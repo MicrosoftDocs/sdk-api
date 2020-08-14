@@ -65,7 +65,7 @@ Releases the memory that contains the unparsed path.  Use of  this object is not
 
 
 
-#### - pOutput [in]
+### -param pOutput [in]
 
 Memory containing the unparsed path information.
 

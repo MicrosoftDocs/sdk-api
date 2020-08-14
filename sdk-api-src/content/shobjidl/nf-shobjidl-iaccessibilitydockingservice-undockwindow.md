@@ -65,7 +65,7 @@ TBD
 
 
 
-#### - hWnd [in]
+### -param hWnd [in]
 
 Specifies the window that will be undocked.
 

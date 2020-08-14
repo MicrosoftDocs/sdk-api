@@ -61,7 +61,7 @@ The <b>ldap_control_free</b> function frees an
 
 
 
-#### - Control [in]
+### -param Control [in]
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structure to free.
 

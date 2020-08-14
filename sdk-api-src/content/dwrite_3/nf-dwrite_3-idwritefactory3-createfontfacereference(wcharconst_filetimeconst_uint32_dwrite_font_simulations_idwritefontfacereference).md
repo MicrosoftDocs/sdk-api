@@ -58,7 +58,7 @@ Creates a reference to a font given a full path.
 
 
 
-#### - filePath [in]
+### -param filePath [in]
 
 Type: <b>WCHAR</b>
 
@@ -66,7 +66,7 @@ Absolute file path. Subsequent operations on the constructed object may fail
           if the user provided filePath doesn't correspond to a valid file on the disk.
 
 
-#### - lastWriteTime [in, optional]
+### -param lastWriteTime [in, optional]
 
 Type: <b>FILETIME</b>
 

@@ -80,7 +80,7 @@ Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 The position of the baseline origin, in DIPs, relative to the upper-left corner of the DIB.
 
 
-#### - worldAndDpiTransform [in, optional]
+### -param worldAndDpiTransform [in, optional]
 
 Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a></b>
 

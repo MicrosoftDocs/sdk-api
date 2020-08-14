@@ -76,12 +76,12 @@ The
 
 
 
-#### - pszName [in]
+### -param pszName [in]
 
 A pointer to a string that represents the DNS name to be examined.
 
 
-#### - Format [in]
+### -param Format [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
 

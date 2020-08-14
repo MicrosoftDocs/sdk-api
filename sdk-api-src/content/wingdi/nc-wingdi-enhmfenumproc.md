@@ -79,7 +79,7 @@ The <b>EnhMetaFileProc</b> function is an application-defined callback function 
 
 
 
-#### - hDC [in]
+### -param hDC [in]
 
 Handle to the device context passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>.
 

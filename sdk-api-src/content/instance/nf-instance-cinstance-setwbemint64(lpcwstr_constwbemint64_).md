@@ -70,7 +70,7 @@ The <b>SetWBEMINT64(LPCWSTR, const LONGLONG&amp;)</b> method sets a 64-bit integ
 Name of the 64-bit integer property that is set.
 
 
-#### - wbemint64 [ref]
+### -param wbemint64 [ref]
 
 Value assigned to the 64-bit integer property.
 

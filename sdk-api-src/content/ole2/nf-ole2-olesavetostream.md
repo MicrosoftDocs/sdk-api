@@ -63,12 +63,12 @@ Saves an object with the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-#### - pPStm [in]
+### -param pPStm [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
 
 
-#### - pStm [in]
+### -param pStm [in]
 
  Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream in which the object is to be saved.
 

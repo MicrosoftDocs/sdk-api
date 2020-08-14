@@ -59,7 +59,7 @@ Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and assoc
 
 
 
-#### - path [in]
+### -param path [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 

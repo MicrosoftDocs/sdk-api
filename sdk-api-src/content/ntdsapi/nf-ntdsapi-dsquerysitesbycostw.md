@@ -65,12 +65,12 @@ The <b>DsQuerySitesByCost</b> function gets  the communication cost between one 
 A directory service handle.
 
 
-#### - pwszFromSite [in]
+### -param pwszFromSite [in]
 
 Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
 
 
-#### - rgwszToSites [in]
+### -param rgwszToSites [in]
 
 Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 

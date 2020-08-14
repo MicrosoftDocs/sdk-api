@@ -66,7 +66,7 @@ A handle to a process. This handle must have been previously passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-#### - SymPath [in, optional]
+### -param SymPath [in, optional]
 
 The path to the symbol store.
 

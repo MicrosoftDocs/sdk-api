@@ -68,7 +68,7 @@ A handle to the process that was originally passed to the
       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-#### - dwAddr [in]
+### -param dwAddr [in]
 
 The address for which a line should be located. It is not necessary for the address to be on a line 
       boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
@@ -80,7 +80,7 @@ The address for which a line should be located. It is not necessary for the addr
 The displacement in bytes from the beginning of the line, or zero.
 
 
-#### - Line [out]
+### -param Line [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> 
       structure.

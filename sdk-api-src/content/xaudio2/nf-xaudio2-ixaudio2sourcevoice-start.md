@@ -65,12 +65,12 @@ TBD
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags that control how the voice is started. Must be 0.
 
 
-#### - OperationSet [in]
+### -param OperationSet [in]
 
 Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
 

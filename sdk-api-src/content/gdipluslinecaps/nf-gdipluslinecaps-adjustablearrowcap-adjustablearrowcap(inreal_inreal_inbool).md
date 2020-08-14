@@ -59,21 +59,21 @@ Creates an adjustable arrow line cap with the specified height and width. The ar
 
 
 
-#### - height [in]
+### -param height [in]
 
 Type: <b>REAL</b>
 
 Real number that specifies the length, in units, of the arrow from its base to its point. 
 
 
-#### - width [in]
+### -param width [in]
 
 Type: <b>REAL</b>
 
 Real number that specifies the distance, in units, between the corners of the base of the arrow. 
 
 
-#### - isFilled [in]
+### -param isFilled [in]
 
 Type: <b>BOOL</b>
 

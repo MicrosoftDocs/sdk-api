@@ -73,7 +73,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d
 Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a> interface, representing the returned vertex buffer bound to the specified data stream. 
 
 
-#### - OffsetInBytes [out]
+### -param OffsetInBytes [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 

@@ -59,14 +59,14 @@ Creates a <b>CachedBitmap::CachedBitmap</b> object based on a <a href="https://d
 
 
 
-#### - bitmap [in]
+### -param bitmap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object that contains the pixel data to be optimized. 
 
 
-#### - graphics [in]
+### -param graphics [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
 

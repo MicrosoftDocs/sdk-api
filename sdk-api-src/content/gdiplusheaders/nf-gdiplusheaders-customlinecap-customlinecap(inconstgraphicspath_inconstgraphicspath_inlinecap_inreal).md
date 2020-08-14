@@ -59,21 +59,21 @@ Creates a <b>CustomLineCap::CustomLineCap</b> object.
 
 
 
-#### - fillPath [in]
+### -param fillPath [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
 Pointer to a path. 
 
 
-#### - strokePath [in]
+### -param strokePath [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
 Pointer to a path. 
 
 
-#### - baseCap [in]
+### -param baseCap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
@@ -81,7 +81,7 @@ Optional. Element of the
 					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
 
 
-#### - baseInset [in]
+### -param baseInset [in]
 
 Type: <b>REAL</b>
 

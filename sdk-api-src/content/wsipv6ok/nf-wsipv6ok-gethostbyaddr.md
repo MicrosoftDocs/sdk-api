@@ -61,17 +61,17 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 A pointer to an address in network byte order.
 
 
-#### - b [in]
+### -param b [in]
 
 The length, in bytes, of the address.
 
 
-#### - c [in]
+### -param c [in]
 
 The type of the address, such as the AF_INET address family type (used with TCP, UDP, and other associated Internet protocols). Possible values for the address family are defined in the Winsock2.h header file. 
 

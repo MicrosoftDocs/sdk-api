@@ -70,7 +70,7 @@ The <b>GetWBEMINT64</b> method retrieves a 64-bit integer property.
 Name of the 64-bit integer property retrieved.
 
 
-#### - wbemint64 [ref]
+### -param wbemint64 [ref]
 
 Buffer to receive the 64-bit integer value.
 

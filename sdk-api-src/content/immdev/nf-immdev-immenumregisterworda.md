@@ -65,7 +65,7 @@ Enumerates the register strings having the specified reading string, style, and 
 Input locale identifier.
 
 
-#### - REGISTERWORDENUMPROCA [in]
+### -param REGISTERWORDENUMPROCA [in]
 
 Pointer to the callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>.
 

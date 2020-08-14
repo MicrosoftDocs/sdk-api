@@ -60,42 +60,42 @@ Creates an embedded object from the contents of a named file.
 
 
 
-#### - rclsid [in]
+### -param rclsid [in]
 
 This parameter is reserved and must be CLSID_NULL.
 
 
-#### - lpszFileName [in]
+### -param lpszFileName [in]
 
 Pointer to a string specifying the full path of the file from which the object should be initialized.
 
 
-#### - riid [in]
+### -param riid [in]
 
 Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface ID of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
 
 
-#### - renderopt [in]
+### -param renderopt [in]
 
 Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>lpFormatEtc</i> parameter.
 
 
-#### - lpFormatEtc [in]
+### -param lpFormatEtc [in]
 
  Depending on which of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> flags is used as the value of <i>renderopt</i>, pointer to one of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> enumeration values. Refer also to the <b>OLERENDER</b> enumeration for restrictions.
 
 
-#### - pClientSite [in]
+### -param pClientSite [in]
 
 Pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
 
 
-#### - pStg [in]
+### -param pStg [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object. This parameter cannot be <b>NULL</b>.
 
 
-#### - ppvObj [out]
+### -param ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
 

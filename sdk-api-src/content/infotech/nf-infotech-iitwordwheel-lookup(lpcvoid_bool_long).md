@@ -60,21 +60,21 @@ Looks up an entry and returns contents in a buffer.
 
 
 
-#### - lpcvPrefix [in]
+### -param lpcvPrefix [in]
 
 Entry to look up.
 
 
 
 
-#### - fExactMatch [out]
+### -param fExactMatch [out]
 
 Buffer to return entry.
 
 
 
 
-#### - plEntry [in]
+### -param plEntry [in]
 
 Buffer size in number of bytes.
 

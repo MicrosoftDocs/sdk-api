@@ -78,7 +78,7 @@ TBD
 
 
 
-#### - dwSubEntryId [in]
+### -param dwSubEntryId [in]
 
 Specifies the one-based index of the subentry.
 

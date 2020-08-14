@@ -65,7 +65,7 @@ The <b>DeleteInstance</b> method is called by WMI to delete an instance.
 
 
 
-#### - newInstance [ref]
+### -param newInstance [ref]
 
 Instance to be deleted.
 

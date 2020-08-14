@@ -71,7 +71,7 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 Pointer to a <b>null</b>-terminated string that contains the name of an existing entry from which a subentry is to be deleted.
 
 
-#### - dwSubEntryId [in]
+### -param dwSubEntryId [in]
 
 Specifies the one-based index of the subentry.
 
