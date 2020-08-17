@@ -86,7 +86,7 @@ A pointer to an address for the decoded and allocated signature parameters data 
 A pointer to an address for the allocated Unicode string that represents the CNG hash algorithm identifier extracted from the encoded signature parameters. If this function returns <b>TRUE</b>, a non-<b>NULL</b> pointer must be returned.
 
 
-#### - ppvDecodedSignPara [out, optional]
+### -param ppvDecodedSignPara [out, optional]
 
 A pointer to an address for the decoded and allocated signature parameters data structure. Returning the decoded buffer is optional.
 

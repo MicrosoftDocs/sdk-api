@@ -58,7 +58,7 @@ The <b>__WSAFDIsSet</b> function specifies whether a socket is included in a set
 
 
 
-#### - fd
+### -param fd
 
 Descriptor identifying a socket.
 

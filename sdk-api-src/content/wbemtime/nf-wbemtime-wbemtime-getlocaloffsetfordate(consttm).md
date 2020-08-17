@@ -65,7 +65,7 @@ The <b>GetLocalOffsetForDate</b> method returns the offset in minutes (+ or –)
 
 
 
-#### - tmin
+### -param tmin
 
 Pointer to a MFC <b>FILETIME</b> structure that represents the number of 100-nanosecond intervals since January 1, 1601 as a 64-bit value.
 

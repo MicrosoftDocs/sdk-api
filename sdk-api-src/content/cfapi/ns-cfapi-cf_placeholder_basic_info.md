@@ -83,14 +83,9 @@ The file ID of the sync root directory that contains the file whose placeholder 
 Length, in bytes, of the FileIdentity.
 
 
-### -field FileIdentity
-
- 
 
 
-
-
-#### - FileIdentity[1]
+### -field FileIdentity [1]
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
 

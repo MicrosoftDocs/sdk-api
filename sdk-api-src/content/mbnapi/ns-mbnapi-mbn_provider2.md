@@ -82,12 +82,12 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbn
 
 
 
-#### - SignalError
+### -field SignalError
 
 Contains the signal error rate as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror">GetSignalError</a>.
 
 
-#### - SignalStrength
+### -field SignalStrength
 
 Contains the signal quality received by the device as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength">GetSignalStrength</a>.
 

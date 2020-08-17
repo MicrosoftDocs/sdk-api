@@ -58,49 +58,49 @@ ms.custom: 19H1
 
 
 
-#### - FillMode
+### -field FillMode
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_fill_mode">D3D11_FILL_MODE</a></b>
 
 Determines the fill mode to use when rendering.
 
 
-#### - CullMode
+### -field CullMode
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cull_mode">D3D11_CULL_MODE</a></b>
 
 Indicates that triangles facing the specified direction are not drawn.
 
 
-#### - FrontCounterClockwise
+### -field FrontCounterClockwise
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether a triangle is front- or back-facing. If <b>TRUE</b>, a triangle will be considered front-facing if its vertices are counter-clockwise on the render target and considered back-facing if they are clockwise. If <b>FALSE</b>, the opposite is true.
 
 
-#### - DepthBias
+### -field DepthBias
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Depth value added to a given pixel. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
 
-#### - DepthBiasClamp
+### -field DepthBiasClamp
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Maximum depth bias of a pixel. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
 
-#### - SlopeScaledDepthBias
+### -field SlopeScaledDepthBias
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Scalar on a given pixel's slope. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
 
-#### - DepthClipEnable
+### -field DepthClipEnable
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
@@ -119,28 +119,28 @@ When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z cl
 
 
 
-#### - ScissorEnable
+### -field ScissorEnable
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether to enable scissor-rectangle culling. All pixels outside an active scissor rectangle are culled.
 
 
-#### - MultisampleEnable
+### -field MultisampleEnable
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
 
 
-#### - AntialiasedLineEnable
+### -field AntialiasedLineEnable
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether to enable line antialiasing; only applies if doing line drawing and <b>MultisampleEnable</b> is <b>FALSE</b>. For more info about this member, see Remarks.
 
 
-#### - ForcedSampleCount
+### -field ForcedSampleCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 

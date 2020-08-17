@@ -98,7 +98,7 @@ Type: <b>LPSTR</b>
 Value of type <b>LPSTR</b> that specifies the filename to import, or <b>NULL</b> to cause a FileOpen dialog box to open.
 
 
-#### - hwnd
+### -field hwnd
 
 Type: <b>HWND</b>
 

@@ -63,24 +63,14 @@ Sync root provider information.
 Status of the sync root provider.
 
 
-### -field ProviderName
-
- 
 
 
-### -field ProviderVersion
-
- 
-
-
-
-
-#### - ProviderName[CF_MAX_PROVIDER_NAME_LENGTH + 1]
+### -field ProviderName [CF_MAX_PROVIDER_NAME_LENGTH + 1]
 
 Name of the sync root provider.
 
 
-#### - ProviderVersion[CF_MAX_PROVIDER_VERSION_LENGTH + 1]
+### -field ProviderVersion [CF_MAX_PROVIDER_VERSION_LENGTH + 1]
 
 Version of the sync root provider.
 

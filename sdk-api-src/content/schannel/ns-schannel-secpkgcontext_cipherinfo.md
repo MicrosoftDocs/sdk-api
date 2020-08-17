@@ -80,14 +80,6 @@ The dw cipher suite.
 The dw base cipher suite.
 
 
-### -field szCipherSuite
-
- 
-
-
-### -field szCipher
-
- 
 
 
 ### -field dwCipherLen
@@ -100,19 +92,11 @@ The dw cipher length.
 The dw cipher block length in bytes.
 
 
-### -field szHash
-
- 
-
 
 ### -field dwHashLen
 
 The dw hash length.
 
-
-### -field szExchange
-
- 
 
 
 ### -field dwMinExchangeLen
@@ -125,37 +109,32 @@ The dw min exchange length.
 The dw max exchange length.
 
 
-### -field szCertificate
-
- 
-
-
 ### -field dwKeyType
 
 The dw key type.
 
 
-#### - szCertificate[SZ_ALG_MAX_SIZE]
+### -field szCertificate [SZ_ALG_MAX_SIZE]
 
 The sz certificate.
 
 
-#### - szCipherSuite[SZ_ALG_MAX_SIZE]
+### -field szCipherSuite [SZ_ALG_MAX_SIZE]
 
 The sz cipher suite.
 
 
-#### - szCipher[SZ_ALG_MAX_SIZE]
+### -field szCipher [SZ_ALG_MAX_SIZE]
 
 The sz cipher.
 
 
-#### - szExchange[SZ_ALG_MAX_SIZE]
+### -field szExchange [SZ_ALG_MAX_SIZE]
 
 The sz exchange.
 
 
-#### - szHash[SZ_ALG_MAX_SIZE]
+### -field szHash [SZ_ALG_MAX_SIZE]
 
 The sz hash.
 

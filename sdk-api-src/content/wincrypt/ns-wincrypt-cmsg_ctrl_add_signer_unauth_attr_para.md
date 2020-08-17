@@ -79,7 +79,7 @@ Index of the signer in the <b>rgSigners</b> array of pointers of
 
 
 
-#### - BLOB
+### -field BLOB
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the encoded unauthenticated attribute as its <b>pbData</b> member.
 

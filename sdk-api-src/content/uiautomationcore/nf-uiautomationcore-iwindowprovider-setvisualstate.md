@@ -60,7 +60,7 @@ Changes the visual state of the window. For example, minimizes or maximizes it.
 
 
 
-#### - state [in]
+### -param state [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-windowvisualstate">WindowVisualState</a></b>
 

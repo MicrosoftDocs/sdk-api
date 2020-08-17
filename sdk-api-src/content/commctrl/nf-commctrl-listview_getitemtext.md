@@ -72,7 +72,7 @@ Type: <b>int</b>
 The index of the list-view item. 
 
 
-#### - iSubItem_
+### -param iSubItem_
 
 Type: <b>int</b>
 
@@ -80,14 +80,14 @@ The index of the subitem. To retrieve the item text, set
 					<i>iSubItem</i> to zero. 
 
 
-#### - pszText_
+### -param pszText_
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the item or subitem text. 
 
 
-#### - cchTextMax_
+### -param cchTextMax_
 
 Type: <b>int</b>
 

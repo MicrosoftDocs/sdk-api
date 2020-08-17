@@ -80,7 +80,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 
 
-#### - numElements
+### -field numElements
 
 Integer that specifies the number of DHCPv4 failover relationships in <b>pRelationships.</b>
 

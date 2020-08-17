@@ -103,22 +103,22 @@ A NULL-terminated string that contains the name of the manufacturer of the devic
 A NULL-terminated string giving the provider of this driver. This is typically the name of the organization that creates the driver or INF file. <b>ProviderName</b> can be an empty string.
 
 
-#### - DriverDate
+### -field DriverDate
 
 Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
 
 
-#### - DriverVersion
+### -field DriverVersion
 
 Version of the driver. From the <b>DriverVer</b> entry in the INF file.
 
 
-##### - DriverType.SPDIT_CLASSDRIVER
+#### -field DriverType.SPDIT_CLASSDRIVER
 
 This structure represents a class driver.
 
 
-##### - DriverType.SPDIT_COMPATDRIVER
+#### -field DriverType.SPDIT_COMPATDRIVER
 
 This structure represents a compatible driver.
 

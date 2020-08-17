@@ -89,7 +89,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - channelState
+### -param channelState
 
 The callback may provide channel state through this parameter. This channel state is
                     made available to the service operation as part of <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-operation-context">WS_OPERATION_CONTEXT</a> through

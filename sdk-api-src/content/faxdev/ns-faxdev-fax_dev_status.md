@@ -225,14 +225,7 @@ Type: <b>DWORD</b>
 Specifies one of the Win32 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes [Base]</a> that the FSP should use to report an error that occurs. The FSP should set this value to NO_ERROR when it is running and after a fax job completes normally.
 
 
-### -field Reserved
-
- 
-
-
-
-
-#### - Reserved[3]
+### -field Reserved [3]
 
 Type: <b>DWORD</b>
 

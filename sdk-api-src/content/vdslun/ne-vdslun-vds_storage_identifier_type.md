@@ -100,7 +100,7 @@ The storage identifier type follows the Fibre Channel Physical and Signaling Int
 
 
 
-#### - VDSStorageIdTypeSCSINameString
+### -field VDSStorageIdTypeSCSINameString
 
 <b>VDS 1.1:  </b>The storage identifier type follows the SCSI naming convention. See SCSI Primary Commands - 3 (SPC-3) for 
         more details.

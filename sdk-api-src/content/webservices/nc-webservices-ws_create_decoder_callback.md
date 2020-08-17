@@ -93,7 +93,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - decoderContext
+### -param decoderContext
 
 Returns the decoder instance.  This value will be
                     passed to all of the decoder callbacks.

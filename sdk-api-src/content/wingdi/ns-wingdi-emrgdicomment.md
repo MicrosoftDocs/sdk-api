@@ -71,14 +71,9 @@ The base structure for all record types.
 Size of data buffer, in bytes.
 
 
-### -field Data
-
- 
 
 
-
-
-#### - Data[1]
+### -field Data [1]
 
 Application-specific data.
 

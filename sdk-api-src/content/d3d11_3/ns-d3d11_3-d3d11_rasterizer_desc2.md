@@ -58,37 +58,37 @@ Describes rasterizer state.
 
 
 
-#### - FillMode
+### -field FillMode
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_fill_mode">D3D11_FILL_MODE</a>-typed value that determines the fill mode to use when rendering.
 
 
-#### - CullMode
+### -field CullMode
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cull_mode">D3D11_CULL_MODE</a>-typed value that indicates that triangles facing the specified direction are not drawn.
 
 
-#### - FrontCounterClockwise
+### -field FrontCounterClockwise
 
 Specifies whether a triangle is front- or back-facing. If <b>TRUE</b>, a triangle will be considered front-facing if its vertices are counter-clockwise on the render target and considered back-facing if they are clockwise. If <b>FALSE</b>, the opposite is true.
 
 
-#### - DepthBias
+### -field DepthBias
 
 Depth value added to a given pixel. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
 
-#### - DepthBiasClamp
+### -field DepthBiasClamp
 
 Maximum depth bias of a pixel. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
 
-#### - SlopeScaledDepthBias
+### -field SlopeScaledDepthBias
 
 Scalar on a given pixel's slope. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
 
-#### - DepthClipEnable
+### -field DepthClipEnable
 
 Specifies whether to enable clipping based on distance.
 
@@ -105,22 +105,22 @@ When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z cl
 
 
 
-#### - ScissorEnable
+### -field ScissorEnable
 
 Specifies whether to enable scissor-rectangle culling. All pixels outside an active scissor rectangle are culled.
 
 
-#### - MultisampleEnable
+### -field MultisampleEnable
 
 Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
 
 
-#### - AntialiasedLineEnable
+### -field AntialiasedLineEnable
 
 Specifies whether to enable line antialiasing; only applies if doing line drawing and <b>MultisampleEnable</b> is <b>FALSE</b>. For more info about this member, see Remarks.
 
 
-#### - ForcedSampleCount
+### -field ForcedSampleCount
 
 The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 2, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
 
@@ -135,7 +135,7 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 </ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-depth-stencil">Configuring Depth-Stencil Functionality</a>.</div>
 <div> </div>
 
-#### - ConservativeRaster
+### -field ConservativeRaster
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_conservative_rasterization_mode">D3D11_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
 

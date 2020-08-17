@@ -91,7 +91,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - encoderContext
+### -param encoderContext
 
 Returns the encoder instance.  This value will be
                     passed to all of the encoder callbacks.

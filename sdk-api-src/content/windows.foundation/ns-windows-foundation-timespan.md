@@ -65,7 +65,7 @@ Represents a time interval.
 
 
 
-#### - Duration
+### -field Duration
 
 Type: <b>INT64</b>
 

@@ -102,7 +102,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - cert
+### -param cert
 
 The location to return the certificate.
                 

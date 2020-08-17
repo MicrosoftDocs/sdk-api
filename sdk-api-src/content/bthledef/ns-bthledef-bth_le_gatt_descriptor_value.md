@@ -213,14 +213,8 @@ The size, in bytes, of the descriptor value.
  
 
 
-### -field Data
 
- 
-
-
-
-
-#### - Data[]
+### -field Data []
 
 A pointer to the descriptor value data.
 

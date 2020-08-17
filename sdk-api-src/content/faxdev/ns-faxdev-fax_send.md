@@ -119,14 +119,9 @@ Type: <b>HCALL</b>
 Reserved; must be set to <b>NULL</b>.
 
 
-### -field Reserved
-
- 
 
 
-
-
-#### - Reserved[3]
+### -field Reserved [3]
 
 Type: <b>DWORD</b>
 

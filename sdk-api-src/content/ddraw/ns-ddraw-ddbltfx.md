@@ -269,7 +269,7 @@ Destination color key override.
 Source color key override.
 
 
-#### - DUMMYUNIONNAMEN(1)
+### -field DUMMYUNIONNAMEN(1)
 
 
 
@@ -284,7 +284,7 @@ Constant used as the z-buffer destination.
 Surface used as the z-buffer destination.
 
 
-#### - DUMMYUNIONNAMEN(2)
+### -field DUMMYUNIONNAMEN(2)
 
 
 
@@ -299,7 +299,7 @@ Constant used as the z-buffer destination.
 Surface used as the z-buffer source.
 
 
-#### - DUMMYUNIONNAMEN(3)
+### -field DUMMYUNIONNAMEN(3)
 
 
 
@@ -314,7 +314,7 @@ Constant used as the alpha channel destination.
 Surface used as the alpha channel destination.
 
 
-#### - DUMMYUNIONNAMEN(4)
+### -field DUMMYUNIONNAMEN(4)
 
 
 
@@ -329,7 +329,7 @@ Constant used as the alpha channel source.
 Surface used as the alpha channel source.
 
 
-#### - DUMMYUNIONNAMEN(5)
+### -field DUMMYUNIONNAMEN(5)
 
 
 

@@ -75,12 +75,12 @@ Contains the current track number and duration as part of the <a href="https://d
 
 
 
-#### - Track
+### -field Track
 
 The current track number as reported by DMR.  If the DMR does not have a concept of track numbers, this value will be 0.
 
 
-#### - TrackDuration
+### -field TrackDuration
 
 The duration of the current track.
 

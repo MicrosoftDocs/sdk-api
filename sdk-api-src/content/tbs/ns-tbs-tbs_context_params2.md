@@ -87,17 +87,17 @@ The version of the TBS context implementation. This must be set to 	TPM_VERSION_
 Used to access all of the  bits in one variable.
 
 
-#### - includeTpm12:1
+### -field includeTpm12:1
 
 Set to 1 if the TBS commands are to work on TPM 1.2.
 
 
-#### - includeTpm20:1
+### -field includeTpm20:1
 
 Set to 1 if the TBS commands are to work on TPM 2.0.
 
 
-#### - requestRaw:1
+### -field requestRaw:1
 
 Set to 1 to request raw content.
 

@@ -66,7 +66,7 @@ The
 Handle to the call to be transferred. The application must be an owner of this call. The call state of <i>hCall</i> must be <i>connected</i>.
 
 
-#### - lpszDestAddressW
+### -param lpszDestAddressW
 
 Pointer to a null-terminated string identifying where the call is to be transferred to. The destination address uses the standard dialable number format.
 

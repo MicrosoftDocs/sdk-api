@@ -83,7 +83,7 @@ The class of the object.
 A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
 
 
-#### - requestedClassObject [out]
+### -param requestedClassObject [out]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
 

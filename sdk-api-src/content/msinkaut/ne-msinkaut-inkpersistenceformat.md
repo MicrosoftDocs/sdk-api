@@ -83,14 +83,14 @@ This format is provided so that ink can be encoded directly in an Extensible Mar
 
 
 
-#### - IPF_Base64Gif
+### -field IPF_Base64Gif
 
 Ink is persisted by using a base64 encoded fortified.
 
 This GIF format is provided when ink is to be encoded directly in an XML or HTML file with later conversion into an image. A possible use of this would be in an XML format that is generated to contain all ink information and used as a way to generate HTML through Extensible Stylesheet Language Transformations (XSLT).
 
 
-#### - IPF_Gif
+### -field IPF_Gif
 
 Ink is persisted by using a Graphics Interchange Format (GIF) file that contains ISF as metadata that is embedded within the file.
 

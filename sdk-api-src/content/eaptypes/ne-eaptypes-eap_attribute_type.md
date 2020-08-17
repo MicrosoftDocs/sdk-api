@@ -911,7 +911,7 @@ Not used.
 
 
 
-#### - eatNASport
+### -field eatNASport
 
 Specifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. The <b>pValue</b> member  of  
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 

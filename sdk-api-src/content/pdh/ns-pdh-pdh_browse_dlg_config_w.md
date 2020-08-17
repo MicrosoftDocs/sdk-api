@@ -131,7 +131,7 @@ If this flag is <b>FALSE</b>, the list will not contain costly counters. This is
 
 
 
-#### - bShowObjectBrowser
+### -field bShowObjectBrowser
 
 If this flag is <b>TRUE</b>, the dialog lists only performance objects. When the user selects an object, the dialog returns a counter path that includes the object and wildcard characters for the instance name and counter if the object is a multiple instance object. For example, if the "Process" object is selected, the dialog returns the string "\Process(*)\*". If the object is a single instance object, the path contains a wildcard character for counter only. For example, "\System\*". You can then pass the path to <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> to retrieve a list of actual paths for the object.
 

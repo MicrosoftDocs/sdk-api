@@ -58,14 +58,10 @@ Describes a color transformation matrix that a magnifier control uses to apply a
 
 
 
-### -field transform
-
- 
 
 
 
-
-#### - transform[5][5]
+### -field transform [5] [5]
 
 Type: <b>float</b>
 

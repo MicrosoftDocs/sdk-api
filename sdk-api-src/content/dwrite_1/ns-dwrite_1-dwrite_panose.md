@@ -58,11 +58,6 @@ The <b>DWRITE_PANOSE</b> union describes typeface classification values that you
 
 
 
-### -field values
-
- 
-
-
 ### -field familyKind
 
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY</a>-typed value that specifies the typeface classification values to get.
@@ -286,7 +281,7 @@ A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_r
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_ratio">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 211 of the symbol typeface.
 
 
-#### - values[10]
+### -field values [10]
 
 A 10-byte array of typeface classification values.
 

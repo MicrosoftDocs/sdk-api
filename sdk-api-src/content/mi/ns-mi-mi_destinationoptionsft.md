@@ -65,67 +65,67 @@ TBD
 
 
 
-#### - AddCredentials
+### -field AddCredentials
 
 Used internally.
 
 
-#### - Clone
+### -field Clone
 
 Creates a copy of a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_clone">MI_DestinationOptions_Clone</a>.
 
 
-#### - Delete
+### -field Delete
 
 Deletes the destination options created by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_delete">MI_DestinationOptions_Delete</a>.
 
 
-#### - GetCredentialsAt
+### -field GetCredentialsAt
 
 Get the credentials at the specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getcredentialsat">MI_DestinationOptions_GetCredentialsAt</a>.
 
 
-#### - GetCredentialsCount
+### -field GetCredentialsCount
 
 Gets the number of previously added credentials. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getcredentialscount">MI_DestinationOptions_GetCredentialsCount</a>.
 
 
-#### - GetCredentialsPasswordAt
+### -field GetCredentialsPasswordAt
 
 Gets a credentials password based on a specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getcredentialspasswordat">MI_DestinationOptions_GetCredentialsPasswordAt</a>.
 
 
-#### - GetNumber
+### -field GetNumber
 
 Gets a previously added custom number option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getnumber">MI_DestinationOptions_GetNumber</a>.
 
 
-#### - GetOption
+### -field GetOption
 
 Gets a previously added option value based on the option name. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getoption">MI_DestinationOptions_GetOption</a>.
 
 
-#### - GetOptionAt
+### -field GetOptionAt
 
 Gets a previously added option value based on the specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getoptionat">MI_DestinationOptions_GetOptionAt</a>.
 
 
-#### - GetOptionCount
+### -field GetOptionCount
 
 Gets the number of options previously added. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getoptioncount">MI_DestinationOptions_GetOptionCount</a>.
 
 
-#### - GetString
+### -field GetString
 
 Gets a previously added custom string option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_getstring">MI_DestinationOptions_GetString</a>.
 
 
-#### - SetNumber
+### -field SetNumber
 
 Sets a custom numeric option value. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_setnumber">MI_DestinationOptions_SetNumber</a>.
 
 
-#### - SetString
+### -field SetString
 
 Sets a custom string option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_setstring">MI_DestinationOptions_SetString</a>.
 

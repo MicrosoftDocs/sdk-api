@@ -65,7 +65,7 @@ Type: <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_prop
 List of properties to filter using.
 
 
-#### - propertyCount
+### -param propertyCount
 
 Type: <b>UINT32</b>
 

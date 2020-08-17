@@ -73,7 +73,7 @@ The input index of the effect that is being considered.
 The amount of data that would be available on the input. This can be used to query this information when the data is not yet available. 
 
 
-#### - Effect
+### -field Effect
 
 The effect whose input connection is being specified.
 

@@ -72,7 +72,7 @@ Type: <b>int</b>
 The zero-based index of the list-view item. 
 
 
-#### - iSubItem_
+### -param iSubItem_
 
 Type: <b>int</b>
 
@@ -80,7 +80,7 @@ The one-based index of the subitem. To set the item label, set
 					<i>iSubItem</i> to zero. 
 
 
-#### - pszText_
+### -param pszText_
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 

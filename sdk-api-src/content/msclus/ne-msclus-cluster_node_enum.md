@@ -66,7 +66,7 @@ Describes the types of cluster objects that are enumerated by the
 Network interfaces on the node.
 
 
-#### - CLUSTER_NODE_ENUM_GROUPS
+### -field CLUSTER_NODE_ENUM_GROUPS
 
 Cluster groups on the node.
 
@@ -74,7 +74,7 @@ Cluster groups on the node.
         Windows Server 2008 R2.
 
 
-#### - CLUSTER_NODE_ENUM_PREFERRED_GROUPS
+### -field CLUSTER_NODE_ENUM_PREFERRED_GROUPS
 
 Cluster groups that list this node as their preferred owner.
 

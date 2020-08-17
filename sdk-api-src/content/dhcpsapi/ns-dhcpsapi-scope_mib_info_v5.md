@@ -79,7 +79,7 @@ The number of IP addresses in the scope that are not currently  assigned to DHCP
 The number of IP addresses in the scope that have been offered to DHCP clients but have not yet received REQUEST messages.
 
 
-#### - NumAddressesInUse
+### -field NumAddressesInUse
 
 The number of IP addresses in the scope that are currently assigned to DHCP clients.
 

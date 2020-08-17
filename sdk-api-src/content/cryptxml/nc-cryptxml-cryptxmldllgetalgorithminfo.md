@@ -72,7 +72,7 @@ A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop
 When you have finished using the memory pointed to by the <i>ppAlgInfo</i> parameter, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
-#### - ppAlgInfo [out]
+### -param ppAlgInfo [out]
 
 A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 

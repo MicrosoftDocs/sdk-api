@@ -154,7 +154,7 @@ Not used.
 Not used.
 
 
-#### - pstubVtblList
+### -field pstubVtblList
 
 Array of stub Vtables contained in the proxy DLL. Each array element contains the Vtable for each stub interface in the DLL.
 

@@ -98,7 +98,7 @@ Specifies the GUID corresponding to the major media type of the stream.
 Defines the major media type of the stream.
 
 
-#### - version
+### -field version
 
 Specifies the stream's version number.
 

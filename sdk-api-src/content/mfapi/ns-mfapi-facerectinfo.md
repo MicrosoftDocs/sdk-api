@@ -70,7 +70,7 @@ Relative coordinates on the frame that face detection is running (Q31 format).
 
 
 
-#### - ConfidenceLevel
+### -field ConfidenceLevel
 
 Confidence level of the region being a face (0 - 100).
 

@@ -71,7 +71,7 @@ TBD
 
 
 
-#### - Normalize
+### -field Normalize
 
 Parses the structure and returns the 
        <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table. See 

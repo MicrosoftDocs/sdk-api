@@ -66,7 +66,7 @@ Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_G
 Structure containing the properties of the glyph run.
 
 
-#### - measuringMode
+### -param measuringMode
 
 Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 

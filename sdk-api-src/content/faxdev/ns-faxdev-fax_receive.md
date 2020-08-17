@@ -86,14 +86,8 @@ Type: <b>LPWSTR</b>
 Pointer to a null-terminated Unicode character string that specifies the telephone number of the receiving device. The FSP will send the number to the remote sending device after the receiving device receives an inbound fax. For more information, see the following Remarks section.
 
 
-### -field Reserved
 
- 
-
-
-
-
-#### - Reserved[4]
+### -field Reserved [4]
 
 Type: <b>DWORD</b>
 

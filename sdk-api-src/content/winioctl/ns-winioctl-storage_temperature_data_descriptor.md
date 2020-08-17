@@ -92,14 +92,10 @@ Reserved for future use.
 Reserved for future use.
 
 
-### -field TemperatureInfo
-
- 
 
 
 
-
-#### - TemperatureInfo[ANYSIZE_ARRAY]
+### -field TemperatureInfo [ANYSIZE_ARRAY]
 
 Device temperature data, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
 

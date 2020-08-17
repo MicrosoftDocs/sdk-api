@@ -62,20 +62,6 @@ For a list of more functionality such as constructors and operators that are ava
 
 
 
-### -field x
-
- 
-
-
-### -field y
-
- 
-
-
-### -field z
-
- 
-
 
 ### -field v
 
@@ -100,19 +86,19 @@ TBD
 
 
 
-#### - x : 5
+### -field x : 5
 
 The 5-bit x component.
 			
 
 
-#### - y : 6
+### -field y : 6
 
 The 5-bit y component.
 			
 
 
-#### - z : 5
+### -field z : 5
 
 The 5-bit z component.
 			

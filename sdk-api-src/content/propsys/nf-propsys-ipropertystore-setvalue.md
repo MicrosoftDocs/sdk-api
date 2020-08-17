@@ -71,7 +71,7 @@ TBD
 
 
 
-#### - Key
+### -param Key
 
 A reference to the PROPERTYKEY structure that is retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. This structure contains a global unique identifier (GUID) for the property.
 

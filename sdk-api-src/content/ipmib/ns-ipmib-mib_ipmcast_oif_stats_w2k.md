@@ -79,7 +79,7 @@ Specifies the address of the next hop that corresponds to <b>dwOutIfIndex</b>. T
 For Ethernet and other broadcast interfaces, specify zero. Also specify zero for point-to-point interfaces, which are identified by only <b>dwOutIfIndex</b>.
 
 
-#### - pvDialContext
+### -field pvDialContext
 
 Type: <b>PVOID</b>
 

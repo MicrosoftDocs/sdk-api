@@ -67,12 +67,12 @@ TBD
 
 
 
-#### - Close
+### -field Close
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a>.
 
 
-#### - GetApplication
+### -field GetApplication
 
 See 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_getapplication">MI_HostedProvider_GetApplication</a>.

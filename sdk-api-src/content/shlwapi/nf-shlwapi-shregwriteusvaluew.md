@@ -192,71 +192,71 @@ Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszVa
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT (0x00000006)
+#### -param dwFlags.SHREGSET_DEFAULT (0x00000006)
 
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_FORCE_HKCU (0x00000002)
+#### -param dwFlags.SHREGSET_FORCE_HKCU (0x00000002)
 
 Write to <b>HKEY_CURRENT_USER</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM (0x00000008)
+#### -param dwFlags.SHREGSET_FORCE_HKLM (0x00000008)
 
 Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
 
 
-##### - dwFlags.SHREGSET_HKCU (0x00000001)
+#### -param dwFlags.SHREGSET_HKCU (0x00000001)
 
 Write to <b>HKEY_CURRENT_USER</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey.
 
 
-##### - dwFlags.SHREGSET_HKLM (0x00000004)
+#### -param dwFlags.SHREGSET_HKLM (0x00000004)
 
 Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey..
 
 
-##### - dwType.REG_BINARY (0x00000003)
+#### -param dwType.REG_BINARY (0x00000003)
 
 
-##### - dwType.REG_DWORD (0x00000004)
+#### -param dwType.REG_DWORD (0x00000004)
 
 
-##### - dwType.REG_DWORD_BIG_ENDIAN (0x00000005)
+#### -param dwType.REG_DWORD_BIG_ENDIAN (0x00000005)
 
 
-##### - dwType.REG_DWORD_LITTLE_ENDIAN (0x00000004)
+#### -param dwType.REG_DWORD_LITTLE_ENDIAN (0x00000004)
 
 
-##### - dwType.REG_EXPAND_SZ (0x00000002)
+#### -param dwType.REG_EXPAND_SZ (0x00000002)
 
 
-##### - dwType.REG_FULL_RESOURCE_DESCRIPTOR (0x00000009)
+#### -param dwType.REG_FULL_RESOURCE_DESCRIPTOR (0x00000009)
 
 
-##### - dwType.REG_LINK (0x00000006)
+#### -param dwType.REG_LINK (0x00000006)
 
 
-##### - dwType.REG_MULTI_SZ (0x00000007)
+#### -param dwType.REG_MULTI_SZ (0x00000007)
 
 
-##### - dwType.REG_NONE (0x00000000)
+#### -param dwType.REG_NONE (0x00000000)
 
 
-##### - dwType.REG_QWORD (0x0000000B)
+#### -param dwType.REG_QWORD (0x0000000B)
 
 
-##### - dwType.REG_QWORD_LITTLE_ENDIAN (0x0000000B)
+#### -param dwType.REG_QWORD_LITTLE_ENDIAN (0x0000000B)
 
 
-##### - dwType.REG_RESOURCE_LIST (0x00000008)
+#### -param dwType.REG_RESOURCE_LIST (0x00000008)
 
 
-##### - dwType.REG_RESOURCE_REQUIREMENTS_LIST (0x0000000A)
+#### -param dwType.REG_RESOURCE_REQUIREMENTS_LIST (0x0000000A)
 
 
-##### - dwType.REG_SZ (0x00000001)
+#### -param dwType.REG_SZ (0x00000001)
 
 
 #### - pszValue [in]

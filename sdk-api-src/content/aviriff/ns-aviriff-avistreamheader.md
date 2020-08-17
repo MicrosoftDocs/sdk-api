@@ -59,13 +59,13 @@ The <b>AVISTREAMHEADER</b> structure contains information about one stream in an
 
 
 
-#### - fcc
+### -field fcc
 
 Specifies a FOURCC code. The value must be 'strh'.
           
 
 
-#### - cb
+### -field cb
 
 Specifies the size of the structure, not including the initial 8 bytes.
           

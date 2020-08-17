@@ -116,7 +116,7 @@ The total size of the file name fields, in count of <b>WCHAR</b>s, including the
 A pointer to hold the names of the files included in the report. It is in the format: FileName001\0FileName002\0\FileName003\0\0.
 
 
-#### - CabID
+### -field CabID
 
 The cab identity value assigned by WER. Use this value to find the corresponding data in COSMOS/WER. Reports that have not uploaded successfully will not have this value.
 

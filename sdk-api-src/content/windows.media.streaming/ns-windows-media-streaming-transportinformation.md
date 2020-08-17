@@ -75,17 +75,17 @@ Contains the current values of media playback transport-related information obta
 
 
 
-#### - CurrentSpeed
+### -field CurrentSpeed
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828990(v=vs.85)">PlaySpeed</a> structure, indicating the current speed at which the DMR is playing the content, or was last playing the content.
 
 
-#### - CurrentTransportState
+### -field CurrentTransportState
 
 A value from the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/transportstate">TransportState</a> enumeration, indicating the current transport state of the DMR.
 
 
-#### - CurrentTransportStatus
+### -field CurrentTransportStatus
 
 A value from the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/transportstatus">TransportStatus</a> enumeration, indicating the current transport status reported by the DMR.
 

@@ -408,12 +408,12 @@ Pointer to a null-terminated Unicode string that represents the DHCP server poli
 
 
 
-#### - bndMsgStatus
+### -field bndMsgStatus
 
 Reserved. Do not use.
 
 
-#### - flags
+### -field flags
 
 Reserved. Do not use.
 

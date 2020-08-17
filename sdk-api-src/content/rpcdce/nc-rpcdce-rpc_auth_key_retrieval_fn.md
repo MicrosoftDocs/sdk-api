@@ -86,7 +86,7 @@ Pointer to a pointer to the authentication key returned by the user-supplied fun
 Pointer to the status returned by the acquisition function when it is called by the RPC run-time library to authenticate the client RPC request. If the status is other than RPC_S_OK, the request fails and the run-time library returns the error status to the client application.
 
 
-#### - Key
+### -param Key
 
 Pointer to a pointer to the authentication key returned by the user-supplied function.
 

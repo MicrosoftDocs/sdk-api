@@ -87,7 +87,7 @@ An array of EMI_CHANNEL_V2 instances that describe the channels exposed
                    by this device.
 
 
-#### - HardwareRevision;
+### -field HardwareRevision;
 
 A value that specifies the current revision of the device.
 

@@ -65,7 +65,7 @@ Converts a <b>BSTR</b> time interval value to a <a href="https://docs.microsoft.
 
 
 
-#### - t
+### -param t
 
 <b>BSTR</b> in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/interval-format">Interval Format</a>.
 

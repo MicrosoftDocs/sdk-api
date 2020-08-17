@@ -160,7 +160,7 @@ Specifies the number of pending <b>NCBRECV</b> commands.
 Specifies the number of pending <b>NCBSEND</b> and <b>NCBCHAINSEND</b> commands.
 
 
-#### - Remote_name
+### -field Remote_name
 
 Specifies the 16-byte NetBIOS name on the remote computer used for this session.
 

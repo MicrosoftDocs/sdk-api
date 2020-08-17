@@ -67,19 +67,19 @@ TBD
 
 
 
-#### - GetQualifier
+### -field GetQualifier
 
 Gets a named qualifier. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifier">MI_QualifierSet_GetQualifier</a>.
 
 
-#### - GetQualifierAt
+### -field GetQualifierAt
 
 Gets a qualifier at the specified index. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifierat">MI_QualifierSet_GetQualifierAt</a>.
 
 
-#### - GetQualifierCount
+### -field GetQualifierCount
 
 Gets the number of qualifiers in a qualifier set. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifiercount">MI_QualifierSet_GetQualifierCount</a>.

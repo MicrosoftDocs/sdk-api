@@ -86,14 +86,8 @@ Indicates whether the command has a read data phase, a write data phase, or no d
 Data size of <b>CommandWriteData</b>[1], in bytes.
 
 
-### -field CommandWriteData
 
- 
-
-
-
-
-#### - CommandWriteData[1]
+### -field CommandWriteData [1]
 
 Optional, first byte of data to write to the device if <b>NextPhase</b> is MTP_NEXTPHASE_WRITE_DATA.
 

@@ -77,14 +77,10 @@ Specifies the number of nodes.
 Reserved.
 
 
-### -field Node
-
- 
 
 
 
-
-#### - Node[ANYSIZE_ARRAY]
+### -field Node [ANYSIZE_ARRAY]
 
 A node as specified by a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_physical_node_data">STORAGE_PHYSICAL_NODE_DATA</a> structure.
 

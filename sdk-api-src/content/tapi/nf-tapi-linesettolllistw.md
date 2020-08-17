@@ -73,7 +73,7 @@ Application handle returned by
 Device identifier for the line device upon which the call is intended to be dialed, so that variations in dialing procedures on different lines can be applied to the translation process.
 
 
-#### - lpszAddressInW
+### -param lpszAddressInW
 
 Pointer to a <b>null</b>-terminated string containing the address from which the prefix information is to be extracted for processing. This parameter must not be <b>NULL</b>, and it must be in the canonical address format.
 

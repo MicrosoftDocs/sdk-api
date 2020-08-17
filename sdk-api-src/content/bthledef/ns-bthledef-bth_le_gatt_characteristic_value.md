@@ -73,14 +73,8 @@ The size, in bytes, of the Bluetooth LE GATT characteristic value.
  
 
 
-### -field Data
 
- 
-
-
-
-
-#### - Data[]
+### -field Data []
 
 A pointer to the Bluetooth LE GATT characteristic value data.
 

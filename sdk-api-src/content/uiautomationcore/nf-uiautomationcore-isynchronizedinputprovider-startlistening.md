@@ -60,7 +60,7 @@ Starts listening for input of the specified type.
 
 
 
-#### - inputType [in]
+### -param inputType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype">SynchronizedInputType</a></b>
 

@@ -162,7 +162,7 @@ The number of elements in the <i>Credential</i> array.
 A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 
 
-#### - Credential [out]
+### -param Credential [out]
 
 A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 

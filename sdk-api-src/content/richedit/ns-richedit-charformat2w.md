@@ -384,35 +384,35 @@ Underline color.
 
 
 
-#### - bCharSet
+### -field bCharSet
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Character set value. It can be one of the values specified for the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. To use this member, set the <b>CFM_CHARSET</b> flag in the <b>dwMask</b> member. 
 
 
-#### - bPitchAndFamily
+### -field bPitchAndFamily
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Specifies the font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. 
 
 
-#### - cbSize
+### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
 
 
-#### - crTextColor
+### -field crTextColor
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOCOLOR</b> character effect is specified. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
 
 
-#### - dwEffects
+### -field dwEffects
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
@@ -683,7 +683,7 @@ Characters are underlined.
  
 
 
-#### - dwMask
+### -field dwMask
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
@@ -1165,21 +1165,21 @@ The <b>wWeight</b> member is valid.
  
 
 
-#### - szFaceName
+### -field szFaceName
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a>[LF_FACESIZE]</b>
 
 A null-terminated character array specifying the font name. To use this member, set the <b>CFM_FACE</b> flag in the <b>dwMask</b> member. 
 
 
-#### - yHeight
+### -field yHeight
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Specifies the character height, in twips (1/1440 of an inch, or 1/20 of a printer's point). To use this member, set the <b>CFM_SIZE</b> flag in the <b>dwMask</b> member. 
 
 
-#### - yOffset
+### -field yOffset
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 

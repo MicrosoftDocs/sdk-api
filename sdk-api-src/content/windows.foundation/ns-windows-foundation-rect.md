@@ -80,28 +80,28 @@ Contains a set of four floating-point numbers that represent the location and si
 
 
 
-#### - Height
+### -field Height
 
 Type: <b>float</b>
 
 The height of the rectangle.
 
 
-#### - Width
+### -field Width
 
 Type: <b>float</b>
 
 The width of the rectangle.
 
 
-#### - X
+### -field X
 
 Type: <b>float</b>
 
 The x-coordinate of the upper-left corner of the rectangle.
 
 
-#### - Y
+### -field Y
 
 Type: <b>float</b>
 

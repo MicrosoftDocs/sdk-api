@@ -77,69 +77,40 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-s
 A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
 
 
-### -field Vendor
-
- 
-
-
-### -field Model
-
- 
-
-
-### -field FirmwareRevision
-
- 
-
-
-### -field PhysicalLocation
-
- 
-
 
 ### -field ExpanderConnected
 
 Indicates whether an expander is connected.
 
 
-### -field Reserved0
-
- 
 
 
-### -field Reserved1
-
- 
-
-
-
-
-#### - FirmwareRevision[16]
+### -field FirmwareRevision [16]
 
 Specifies the firmware revision.
 
 
-#### - Model[40]
+### -field Model [40]
 
 Specifies the adapter model.
 
 
-#### - PhysicalLocation[32]
+### -field PhysicalLocation [32]
 
 Reserved for future use.
 
 
-#### - Reserved0[3]
+### -field Reserved0 [3]
 
 Reserved.
 
 
-#### - Reserved1[3]
+### -field Reserved1 [3]
 
 Reserved.
 
 
-#### - Vendor[8]
+### -field Vendor [8]
 
 Specifies the adapter vendor.
 
