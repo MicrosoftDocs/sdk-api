@@ -45,61 +45,46 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DwmEnableBlurBehindWindow function
-
-
 ## -description
-
 
 Enables the blur effect on a specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd
 
-The handle to the window on which the blur behind data is applied.
+The handle to the window on which the blur-behind data is applied.
 
+### -param pBlurBehind
 
-### -param pBlurBehind [in]
+`[in]`
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure that provides blur behind data.
-
+A pointer to a <a href="/windows/win32/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure that provides blur-behind data.
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-<b>Starting with Windows 8 this does not result in the blur effect, due to a style change in how windows are rendered.</b>
+> [!NOTE]
+> Beginning with Windows 8, calling this function doesn't result in the blur effect, due to a style change in the way windows are rendered.
 
-Enabling blur by setting the <b>fEnable</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure to <b>TRUE</b>. This results in subsequent compositions of the window blurring the content behind it. This function should be called immediately before a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> call to ensure prompt application of the effect.
+Enable blur by setting the <b>fEnable</b> member of the <a href="/windows/win32/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure to <b>TRUE</b>. This results in subsequent compositions of the window blurring the content behind it. This function should be called immediately before a <a href="/windows/win32/api/winuser/nf-winuser-beginpaint">BeginPaint</a> call to ensure prompt application of the effect.
 
-The alpha values in the window are honored and the rendering atop the blur will use these alpha values. It is the application's responsibility to ensure that the alpha values of all pixels in the window are correct. Some Windows Graphics Device Interface (GDI) operations do not preserve alpha values, so care must be taken when presenting child windows because the alpha values they contribute are unpredictable.
+The alpha values in the window are honored, and the rendering atop the blur will use these alpha values. It's your application's responsibility to ensure that the alpha values of all pixels in the window are correct. Some Windows Graphics Device Interface (GDI) operations don't preserve alpha values, so you should take care when presenting child windows because the alpha values they contribute are unpredictable.
 
-The region specified within the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure is owned by the caller. It is the caller's responsibility to free the region, and they can do so as soon as the function call is completed.
+The region specified within the <a href="/windows/win32/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure is owned by you as the caller. It's the caller's responsibility to free the region, and you can do so as soon as the function call is completed.
 
-This function can only be called on top-level windows. An error occurs when this function is called on other window types.
+This function can be called only on top-level windows. An error occurs when this function is called on other window types.
 
-This function must be called whenver Desktop Window Manager (DWM) composition is toggled. Handle the <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification.
+This function must be called whenever Desktop Window Manager (DWM) composition is toggled. Handle the <a href="/windows/win32/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification.
 
-
-#### Examples
+## Examples
 
 The following example demonstrates how to apply the blur behind the entire window.
 
-
 ```cpp
-
 HRESULT EnableBlurBehind(HWND hwnd)
 {
    HRESULT hr = S_OK;
@@ -122,17 +107,6 @@ HRESULT EnableBlurBehind(HWND hwnd)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dwm/blur-ovw">DWM Blur Behind Overview</a>
- 
-
- 
-
+[DWM Blur Behind Overview](/windows/win32/dwm/blur-ovw)
