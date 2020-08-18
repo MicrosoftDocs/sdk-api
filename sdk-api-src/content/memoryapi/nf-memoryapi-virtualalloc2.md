@@ -353,8 +353,8 @@ Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/
 
 <b>VirtualAlloc2</b> can commit pages that are already committed, but cannot reserve pages that are already reserved.
     This means you can commit a range of pages, regardless of whether they have already been committed, and the function will not 
-    fail. However, note that committing a large number of pages that are already committed can cause the 
-    <b>VirtualAlloc2</b> call to take much longer.
+    fail. In general however, only a minimal range of mostly uncommitted pages should be specified, because committing 
+    a large number of pages that are already committed can cause the <b>VirtualAlloc2</b> call to take much longer.
 
 You can use <b>VirtualAlloc2</b> to reserve a block of pages and then make additional calls to <b>VirtualAlloc2</b> to 
     commit individual pages from the reserved block. This enables a process to reserve a range of its virtual address 
