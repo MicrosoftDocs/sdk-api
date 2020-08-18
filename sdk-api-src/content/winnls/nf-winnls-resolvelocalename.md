@@ -67,12 +67,12 @@ Finds a possible <a href="https://docs.microsoft.com/windows/desktop/Intl/locale
 
 ### -param lpNameToResolve [in, optional]
 
-Pointer to a name to resolve, for example, "en-FJ" for English (Fiji).
+Pointer to a name to resolve, for example, "en-XA" for English (Private Use).
 
 
 ### -param lpLocaleName [out, optional]
 
-Pointer to a buffer in which this function retrieves the locale name that is the match for the input name. For example, the match for the name "en-FJ" is "en-US" for English (United States).
+Pointer to a buffer in which this function retrieves the locale name that is the match for the input name. For example, the match for the name "en-XA" is "en-US" for English (United States).
 
 <div class="alert"><b>Note</b>  If the function fails, the state of the output buffer is not guaranteed to be accurate. In this case, the application should check the return value and error status set by the function to determine the correct course of action.</div>
 <div> </div>
