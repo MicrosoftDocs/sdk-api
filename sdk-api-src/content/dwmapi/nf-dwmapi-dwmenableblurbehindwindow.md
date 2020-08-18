@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-
+<b>Starting with Windows 8 this does not result in the blur effect, due to a style change in how windows are rendered.</b>
 
 Enabling blur by setting the <b>fEnable</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure to <b>TRUE</b>. This results in subsequent compositions of the window blurring the content behind it. This function should be called immediately before a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> call to ensure prompt application of the effect.
 
