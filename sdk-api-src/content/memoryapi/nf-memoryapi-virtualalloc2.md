@@ -338,7 +338,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-This API helps support high-performance games, and server applications, which have particular requirements around managing their virtual address space. For example, mapping memory on top of a previously reserved region; this is useful for implementing an automatically wrapping ring buffer. And allocating memory with specific alignment; for example, to enable your application to commit large/huge page-mapped regions on demand.
+This API provides specialized techniques for managing virtual memory in support of high-performance games and server applications. For example, placeholders allow a reserved memory range to be explicitly partitioned, overlaid, and re-mapped; this can be used to implement arbitrarily extendable regions or virtual memory ring buffers. <b>VirtualAlloc2</b> also allows for allocating memory with a specific memory-alignment.
 
 
 Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">page state</a>. The 
@@ -350,14 +350,15 @@ Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/
 <li>Reserve a region of free pages</li>
 <li>Simultaneously reserve and commit a region of free pages</li>
 </ul>
-<b>VirtualAlloc2</b> cannot reserve a reserved page. It 
-    can commit a page that is already committed. This means you can commit a range of pages, regardless of whether 
-    they have already been committed, and the function will not fail.
 
-You can use <b>VirtualAlloc2</b> to reserve a block of 
-    pages and then make additional calls to <b>VirtualAlloc2</b> 
-    to commit individual pages from the reserved block. This enables a process to reserve a range of its virtual 
-    address space without consuming physical storage until it is needed.
+<b>VirtualAlloc2</b> can commit pages that are already committed, but cannot reserve pages that are already reserved.
+    This means you can commit a range of pages, regardless of whether they have already been committed, and the function will not 
+    fail. However, note that committing a large number of pages that are already committed may cause the 
+    <b>VirtualAlloc2</b> call to take longer.
+
+You can use <b>VirtualAlloc2</b> to reserve a block of pages and then make additional calls to <b>VirtualAlloc2</b> to 
+    commit individual pages from the reserved block. This enables a process to reserve a range of its virtual address 
+    space without consuming physical storage until it is needed.
 
 If the <i>lpAddress</i> parameter is not <b>NULL</b>, the function uses 
     the <i>lpAddress</i> and <i>dwSize</i> parameters to compute the region of 
