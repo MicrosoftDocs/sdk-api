@@ -171,42 +171,42 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLOR
 Foreground color (\clcfpat).
 
 
-#### - fMergeCont:1
+### -field fMergeCont:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Merge with the previous cell (\clmrg).
 
 
-#### - fMergePrev:1
+### -field fMergePrev:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Merge with the cell above (\clvmrg).
 
 
-#### - fMergeStart:1
+### -field fMergeStart:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Start set of horizontally merged cells (\clmgf).
 
 
-#### - fMergeTop:1
+### -field fMergeTop:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Top cell for vertical merge (\clvmgf).
 
 
-#### - fVertical:1
+### -field fVertical:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Display text top to bottom, right to left (\cltxtbrlv).
 
 
-#### - nVertAlign:2
+### -field nVertAlign:2
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 

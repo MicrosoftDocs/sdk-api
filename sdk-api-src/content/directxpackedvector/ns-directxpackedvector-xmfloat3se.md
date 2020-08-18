@@ -63,25 +63,6 @@ For a list of additional functionality such as constructors and operators that a
 
 
 
-### -field xm
-
- 
-
-
-### -field ym
-
- 
-
-
-### -field zm
-
- 
-
-
-### -field e
-
- 
-
 
 ### -field v
 
@@ -106,25 +87,25 @@ TBD
 
 
 
-#### - e : 5
+### -field e : 5
 
 The 5-bit shared exponent.
 			
 
 
-#### - xm : 9
+### -field xm : 9
 
 The 9-bit x component.
 			
 
 
-#### - ym : 9
+### -field ym : 9
 
 The 9-bit y component.
 			
 
 
-#### - zm : 9
+### -field zm : 9
 
 The 9-bit z component.
 			

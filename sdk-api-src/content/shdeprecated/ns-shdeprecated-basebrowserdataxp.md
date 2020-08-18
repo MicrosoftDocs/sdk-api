@@ -357,102 +357,102 @@ Type: <b>CLSID</b>
 Type: <b>HWND</b>
 
 
-##### - _eSecureLockIcon.SECURELOCK_FIRSTSUGGEST
+#### -field _eSecureLockIcon.SECURELOCK_FIRSTSUGGEST
 
 A security encryption setting should be suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_NOCHANGE (-1)
+#### -field _eSecureLockIcon.SECURELOCK_NOCHANGE (-1)
 
 No change in security encryption status.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_FORTEZZA
+#### -field _eSecureLockIcon.SECURELOCK_SET_FORTEZZA
 
 There is Fortezza security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_MIXED
+#### -field _eSecureLockIcon.SECURELOCK_SET_MIXED
 
 There are multiple security encryption methods present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECURE128BIT
+#### -field _eSecureLockIcon.SECURELOCK_SET_SECURE128BIT
 
 There is 128-bit security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECURE40BIT
+#### -field _eSecureLockIcon.SECURELOCK_SET_SECURE40BIT
 
 There is 40-bit security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECURE56BIT
+#### -field _eSecureLockIcon.SECURELOCK_SET_SECURE56BIT
 
 There is 56-bit security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECUREUNKNOWNBIT
+#### -field _eSecureLockIcon.SECURELOCK_SET_SECUREUNKNOWNBIT
 
 The security encryption level is not known.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_UNSECURE (0)
+#### -field _eSecureLockIcon.SECURELOCK_SET_UNSECURE (0)
 
 Default. 0x0000. No security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_FORTEZZA
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_FORTEZZA
 
 Fortezza security encryption has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_MIXED
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_MIXED
 
 Mixed security encryption methods have been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE128BIT
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE128BIT
 
 128-bit security encryption has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE40BIT
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE40BIT
 
 40-bit security encryption has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE56BIT
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE56BIT
 
 56-bit security encryption has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECUREUNKNOWNBIT
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_SECUREUNKNOWNBIT
 
 Unknown security encryption method has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_UNSECURE (SECURELOCK_FIRSTSUGGEST)
+#### -field _eSecureLockIcon.SECURELOCK_SUGGEST_UNSECURE (SECURELOCK_FIRSTSUGGEST)
 
 No security encryption has been suggested.
 
 
-##### - _fIsViewMSHTML.FALSE
+#### -field _fIsViewMSHTML.FALSE
 
 The browser is hosting folder content.
 
 
-##### - _fIsViewMSHTML.TRUE
+#### -field _fIsViewMSHTML.TRUE
 
 The browser is hosting web content.
 
 
-##### - _fPrivacyImpacted.FALSE
+#### -field _fPrivacyImpacted.FALSE
 
 There is not a privacy concern with the browser's content.
 
 
-##### - _fPrivacyImpacted.TRUE
+#### -field _fPrivacyImpacted.TRUE
 
 There is a privacy concern with the browser's content.
 

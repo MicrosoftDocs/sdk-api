@@ -197,7 +197,7 @@ Type: <b>POINTER_BUTTON_CHANGE_TYPE</b>
 A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-pointer_button_change_type">POINTER_BUTTON_CHANGE_TYPE</a> enumeration that specifies the change in button state between this input and the previous input.
 
 
-#### - inputData
+### -field inputData
 
 Type: <b>INT32</b>
 

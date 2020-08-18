@@ -56,7 +56,7 @@ Type: [in, optional] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f
 
 The transform to apply to the geometry before calculating its length, or <b>NULL</b>.
 
-#### - flatteningTolerance
+### -param flatteningTolerance
 
 Type: [in] <b>FLOAT</b>
 

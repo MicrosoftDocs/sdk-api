@@ -119,11 +119,6 @@ The number of temps for each indexable temp x#[numTemps]. You can only have temp
 The number of 4x32 bit values (if any) that are in the immediate constant buffer.
 
 
-### -field PixelPosition
-
- 
-
-
 ### -field PixelCoverageMask
 
 <div class="alert"><b>Note</b>  This member is for pixel shaders only, [stampIndex].</div>
@@ -213,7 +208,7 @@ The following values are available through a call to the <a href="https://docs.m
 <li><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_register_type">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
 </ul>
 
-#### - PixelPosition[ 4 ][ 2 ]
+### -field PixelPosition [ 4 ] [ 2 ]
 
 <div class="alert"><b>Note</b>  This member is for pixel shaders only, [stampIndex][x:0,y:1].</div>
 <div> </div>

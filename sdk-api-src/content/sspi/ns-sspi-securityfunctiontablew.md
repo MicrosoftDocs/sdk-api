@@ -80,7 +80,7 @@ Version number of the table.
  
 
 
-#### - FreeCredentialsHandle
+### -field FreeCredentialsHandle
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a> function.
 

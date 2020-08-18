@@ -67,47 +67,47 @@ TBD
 
 
 
-#### - AssociatorInstances
+### -field AssociatorInstances
 
 
-#### - Close
+### -field Close
 
 
-#### - CreateInstance
+### -field CreateInstance
 
 
-#### - DeleteInstance
+### -field DeleteInstance
 
 
-#### - EnumerateClasses
+### -field EnumerateClasses
 
 
-#### - EnumerateInstances
+### -field EnumerateInstances
 
 
-#### - GetApplication
+### -field GetApplication
 
 
-#### - GetClass
+### -field GetClass
 
 
-#### - GetInstance
+### -field GetInstance
 
 
-#### - Invoke
+### -field Invoke
 
 
-#### - ModifyInstance
+### -field ModifyInstance
 
 
-#### - QueryInstances
+### -field QueryInstances
 
 
-#### - ReferenceInstances
+### -field ReferenceInstances
 
 
-#### - Subscribe
+### -field Subscribe
 
 
-#### - TestConnection
+### -field TestConnection
 

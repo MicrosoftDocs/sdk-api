@@ -165,7 +165,7 @@ File registration or unregistration failed for an unknown reason. <b>WinError</b
  
 
 
-#### - cbsize
+### -field cbsize
 
 Size of the structure, in bytes.
 

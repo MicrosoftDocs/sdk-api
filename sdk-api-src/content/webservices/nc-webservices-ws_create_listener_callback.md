@@ -102,7 +102,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - listenerInstance
+### -param listenerInstance
 
 A pointer to an allocated structure that represents
                     the listener instance.  This pointer

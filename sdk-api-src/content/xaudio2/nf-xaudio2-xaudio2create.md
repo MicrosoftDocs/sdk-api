@@ -70,10 +70,14 @@ Flags that specify the behavior of the <a href="https://docs.microsoft.com/windo
 
 ### -param XAudio2Processor [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use.
+An <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use. If multiple bits are specified, the system will create a separate worker thread for each processor.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a> default value is XAUDIO2_DEFAULT_PROCESSOR.
+
+<div class="alert"><b>Warning</b> If you specify <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_ANY_PROCESSOR</a>, the system will use all of the device's processors and, as noted above, create a worker thread for each processor.
+<div> </div>
+
 
 <div class="alert"><b>Note</b>  Specifying a processor should generally be avoided because it can interfere with the scheduler's ability to schedule threads effectively across processors. Instead, pass the XAUDIO2_DEFAULT_PROCESSOR value (see below).</div>
 <div> </div>

@@ -109,7 +109,7 @@ Pointer to the security provider specified for use. An instance of the Derived K
 Specifies the security mode that the DRT should operate under. All nodes participating in a DRT mesh must use the same security mode.
 
 
-#### - pBootStrapProvider
+### -field pBootStrapProvider
 
 Pointer to the Bootstrap Provider specified for use. An instance of the PNRP Bootstrap Provider can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>.
 

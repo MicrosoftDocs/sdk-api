@@ -62,7 +62,7 @@ Normalizes the text range by the specified text unit. The range is expanded if i
 
 
 
-#### - unit [in]
+### -param unit [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 

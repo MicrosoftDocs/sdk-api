@@ -66,12 +66,12 @@ TBD
 
 
 
-#### - GetSystemName
+### -field GetSystemName
 
 Gets the system name for the server.
 
 
-#### - GetVersion
+### -field GetVersion
 
 Gets the value of the <b>MI_VERSION</b> macro used when compiling the server.
 

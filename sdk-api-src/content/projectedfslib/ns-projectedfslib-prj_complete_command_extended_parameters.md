@@ -82,7 +82,7 @@ A new set of notifications the provider wishes to receive.
 An opaque handle to a directory entry buffer. This must be the value passed in the dirEntryBufferHandle parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback being completed.
 
 
-#### - commandType
+### -field commandType
 
 The type of command.
 

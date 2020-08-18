@@ -83,7 +83,7 @@ Set of flags that describe specific properties of the EAP method. For flag descr
 Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about the inner method.
 
 
-#### - eapType
+### -field eapType
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method.

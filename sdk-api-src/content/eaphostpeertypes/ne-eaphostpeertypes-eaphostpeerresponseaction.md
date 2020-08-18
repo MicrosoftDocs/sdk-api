@@ -96,7 +96,7 @@ The supplicant should generate no  response to the EAP authenticator request.
 
 
 
-#### - EapHostPeerResponseInvokeUI
+### -field EapHostPeerResponseInvokeUI
 
 The supplicant should invoke a user interface dialog on the client.
 

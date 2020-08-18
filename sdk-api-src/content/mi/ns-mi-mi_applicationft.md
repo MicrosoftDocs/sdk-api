@@ -67,13 +67,13 @@ TBD
 
 
 
-#### - Close
+### -field Close
 
 Deinitializes the management infrastructure. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_close">MI_Application_Close</a>.
 
 
-#### - NewDeserializer
+### -field NewDeserializer
 
 Creates a deserializer that can be used to re-create the 
        <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> or 
@@ -81,31 +81,31 @@ Creates a deserializer that can be used to re-create the
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.
 
 
-#### - NewDestinationOptions
+### -field NewDestinationOptions
 
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object. 
        See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>.
 
 
-#### - NewHostedProvider
+### -field NewHostedProvider
 
 Creates a new hosted Provider. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newhostedprovider">MI_Application_NewHostedProvider</a>.
 
 
-#### - NewInstance
+### -field NewInstance
 
 Creates an instance. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newinstance">MI_Application_NewInstance</a>.
 
 
-#### - NewOperationOptions
+### -field NewOperationOptions
 
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> object. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newoperationoptions">MI_Application_NewOperationOptions</a>.
 
 
-#### - NewSerializer
+### -field NewSerializer
 
 Creates a serializer allowing a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> or an 
        <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> to be persisted in a form that can be stored to 
@@ -113,14 +113,14 @@ Creates a serializer allowing a <a href="https://docs.microsoft.com/windows/desk
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>.
 
 
-#### - NewSession
+### -field NewSession
 
 Creates a session that allows a group of operations that go to the same destination to be grouped so they 
        can share connections. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 
-#### - NewSubscriptionDeliveryOptions
+### -field NewSubscriptionDeliveryOptions
 
 See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsubscriptiondeliveryoptions">MI_Application_NewSubscriptionDeliveryOptions</a>.

@@ -58,19 +58,19 @@ Describes a query.
 
 
 
-#### - Query
+### -field Query
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY</a>-typed value that specifies the type of query.
 
 
-#### - MiscFlags
+### -field MiscFlags
 
 A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query_misc_flag">D3D11_QUERY_MISC_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies query behavior.
 
 
 
 
-#### - ContextType
+### -field ContextType
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_context_type">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
 

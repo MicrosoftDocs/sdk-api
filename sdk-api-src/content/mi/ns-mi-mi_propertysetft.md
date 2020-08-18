@@ -67,49 +67,49 @@ TBD
 
 
 
-#### - AddElement
+### -field AddElement
 
 Adds a name to the property list. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_addelement">MI_PropertySet_AddElement</a>.
 
 
-#### - Clear
+### -field Clear
 
 Removes all names from the property list. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_clear">MI_PropertySet_Clear</a>.
 
 
-#### - Clone
+### -field Clone
 
 Creates a copy of the specified property set on the heap. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_clone">MI_PropertySet_Clone</a>.
 
 
-#### - ContainsElement
+### -field ContainsElement
 
 Determines whether the property list contains the specified property. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_containselement">MI_PropertySet_ContainsElement</a>.
 
 
-#### - Delete
+### -field Delete
 
 Deletes the specified property list that was constructed on the heap. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_delete">MI_PropertySet_Delete</a>.
 
 
-#### - Destruct
+### -field Destruct
 
 Deletes the specified property list that was constructed on the stack. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_destruct">MI_PropertySet_Destruct</a>.
 
 
-#### - GetElementAt
+### -field GetElementAt
 
 Gets the element of a property set at the specified index. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_getelementat">MI_PropertySet_GetElementAt</a>.
 
 
-#### - GetElementCount
+### -field GetElementCount
 
 Gets the number of elements in the specified property set. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_getelementcount">MI_PropertySet_GetElementCount</a>.

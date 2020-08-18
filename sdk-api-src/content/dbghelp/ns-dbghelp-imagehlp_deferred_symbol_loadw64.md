@@ -97,7 +97,7 @@ A handle to a file. This member is used with <b>CBA_DEFERRED_SYMBOL_LOAD_PARTIAL
 					
 
 
-#### - Flags
+### -field Flags
 
 This member can be one of the following values.
 
@@ -110,10 +110,10 @@ This member can be one of the following values.
 #### DSLFLAG_MISMATCHED_PDB (0x1)
 
 
-##### - Flags.DSLFLAG_MISMATCHED_DBG (0x2)
+#### -field Flags.DSLFLAG_MISMATCHED_DBG (0x2)
 
 
-##### - Flags.DSLFLAG_MISMATCHED_PDB (0x1)
+#### -field Flags.DSLFLAG_MISMATCHED_PDB (0x1)
 
 
 ## -remarks

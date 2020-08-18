@@ -123,7 +123,7 @@ TBD
 
 
 
-#### - wszProductID
+### -field wszProductID
 
 Array of type <b>WCHAR</b> that receives the product ID. This member  is not currently filled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 

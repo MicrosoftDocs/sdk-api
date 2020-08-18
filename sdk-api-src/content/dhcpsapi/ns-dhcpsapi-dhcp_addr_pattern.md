@@ -83,7 +83,7 @@ If <b>TRUE</b>, the hardware type member (<b>HWType</b>) will be matched; if <b>
 Array of BYTE values that contain the pattern or hardware address.
 
 
-#### - IsWildCard
+### -field IsWildCard
 
 If <b>TRUE</b>, <b>Pattern</b> contains a wildcard pattern; if <b>FALSE</b>, <b>Pattern</b> contains a hardware address.
 

@@ -118,7 +118,7 @@ The URL for synchronizing user settings.
 Information about the user account  that was used to join a device to Azure AD.
 
 
-#### - pszDeviceID
+### -field pszDeviceID
 
 The identifier of the device.
 

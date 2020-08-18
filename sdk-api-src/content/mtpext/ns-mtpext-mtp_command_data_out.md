@@ -81,14 +81,9 @@ Parameters of the response. <b>MTP_RESPONSE_MAX_PARAMS</b> is a defined constant
 Data size of <b>CommandReadData</b>[1], in bytes.
 
 
-### -field CommandReadData
-
- 
 
 
-
-
-#### - CommandReadData[1]
+### -field CommandReadData [1]
 
 Optional, first byte of data to read from the device if <b>MTP_COMMAND_DATA_IN.NextPhase</b> is MTP_NEXTPHASE_READ_DATA.
 

@@ -132,27 +132,27 @@ Write to <b>HKEY_LOCAL_MACHINE</b>.
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT
+#### -param dwFlags.SHREGSET_DEFAULT
 
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_FORCE_HKCU
+#### -param dwFlags.SHREGSET_FORCE_HKCU
 
 Write to <b>HKEY_CURRENT_USER</b>.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM
+#### -param dwFlags.SHREGSET_FORCE_HKLM
 
 Write to <b>HKEY_LOCAL_MACHINE</b>.
 
 
-##### - dwFlags.SHREGSET_HKCU
+#### -param dwFlags.SHREGSET_HKCU
 
 Write to <b>HKEY_CURRENT_USER</b> if empty.
 
 
-##### - dwFlags.SHREGSET_HKLM
+#### -param dwFlags.SHREGSET_HKLM
 
 Write to <b>HKEY_LOCAL_MACHINE</b> if empty.
 

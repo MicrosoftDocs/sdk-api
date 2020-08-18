@@ -154,7 +154,7 @@ Specifies the unique ID for the node that has changed.
  
 
 
-#### - ullNextConnectionID
+### -field ullNextConnectionID
 
 <b>Windows Vista or later.</b> Contains the next available node ID that the grouping or graphing APIs will attempt to connect to when a connection fails. If this member has a value of 0, no further connections will be attempted.
 

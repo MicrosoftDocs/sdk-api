@@ -78,12 +78,8 @@ Indicates saved credentials that are not target specific.
 Indicates saved credentials that are target specific.
 
 
-### -field SecPkgCredClass_Explicit
 
-
-
-
-#### - SecPkgCredClass_Explicit = 40
+### -field SecPkgCredClass_Explicit = 40
 
 Indicates credentials explicitly supplied by the user.
 

@@ -83,7 +83,7 @@ A <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider
 Pointer to an optional buffer defined by this provider. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information. This value may be set to <b>NULL</b>.
 
 
-#### - ppPluginContext [out]
+### -param ppPluginContext [out]
 
 Pointer to an optional buffer defined by this provider. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information. This value may be set to <b>NULL</b>.
 

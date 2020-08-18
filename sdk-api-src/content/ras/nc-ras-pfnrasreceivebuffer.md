@@ -86,7 +86,7 @@ Pointer to a <b>DWORD</b> variable that receives the size of the data returned i
 Handle to an event object that RAS will signal when the received data is available.
 
 
-#### - dwTimeout
+### -param dwTimeout
 
 Specifies a time-out period in milliseconds after which the custom-scripting DLL will no longer wait for the data.
 

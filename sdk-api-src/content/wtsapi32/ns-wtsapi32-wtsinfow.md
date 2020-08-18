@@ -95,7 +95,7 @@ The number of frames of RDP data sent from the server to the client since the cl
 Compressed RDP data from the client to the server.
 
 
-#### - OutgoingCompressedBytes
+### -field OutgoingCompressedBytes
 
 Compressed RDP data from the server to the client.
 

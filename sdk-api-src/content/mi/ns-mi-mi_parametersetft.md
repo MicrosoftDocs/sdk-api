@@ -65,22 +65,22 @@ TBD
 
 
 
-#### - GetMethodReturnType
+### -field GetMethodReturnType
 
 Gets the method return type and qualifier set for a specified parameter set. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getmethodreturntype">MI_ParameterSet_GetMethodReturnType</a>.
 
 
-#### - GetParameter
+### -field GetParameter
 
 Gets a method's parameter information based on a parameter name. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparameter">MI_ParameterSet_GetParameter</a>.
 
 
-#### - GetParameterAt
+### -field GetParameterAt
 
 Gets a method's parameter information at the specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparameterat">MI_ParameterSet_GetParameterAt</a>.
 
 
-#### - GetParameterCount
+### -field GetParameterCount
 
 Gets the number of parameters in a parameter set. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparametercount">MI_ParameterSet_GetParameterCount</a>.
 

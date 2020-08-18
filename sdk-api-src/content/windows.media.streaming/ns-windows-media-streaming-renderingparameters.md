@@ -70,12 +70,12 @@ Contains the current values of rendering parameters on the DMR.
 
 
 
-#### - mute
+### -field mute
 
 This value is <b>True</b> if audio is currently muted on the DMR, and is <b>False</b> otherwise.
 
 
-#### - volume
+### -field volume
 
 The current audio volume level of the device, in the range 0 to 100, or -1 if the device does not support controlling the volume level.  A value of 0 is the lowest volume and a value of 100 is the highest.
 

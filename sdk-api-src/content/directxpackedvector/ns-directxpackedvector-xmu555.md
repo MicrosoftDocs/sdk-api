@@ -65,25 +65,6 @@ For a list of additional functionality such as constructors and operators that a
 
 
 
-### -field x
-
- 
-
-
-### -field y
-
- 
-
-
-### -field z
-
- 
-
-
-### -field w
-
- 
-
 
 ### -field v
 
@@ -108,28 +89,28 @@ TBD
 
 
 
-#### - w : 1
+### -field w : 1
 
 A 1-bit integer value in the range [0,31] describing the w-coordinate of
 			    the vector.
 			
 
 
-#### - x : 5
+### -field x : 5
 
 Unsigned 5-bit integer value in the range [0,31] describing the
 			    x-coordinate of the vector.
 			
 
 
-#### - y : 5
+### -field y : 5
 
 Unsigned 5-bit integer value in the range [0,31] describing the
 			    y-coordinate of the vector.
 			
 
 
-#### - z : 5
+### -field z : 5
 
 Unsigned 5-bit integer value in the range [0,31] describing the
 			    z-coordinate of the vector.

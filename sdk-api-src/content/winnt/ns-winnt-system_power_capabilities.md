@@ -256,7 +256,7 @@ The default <a href="https://docs.microsoft.com/windows/desktop/Power/system-pow
       values.
 
 
-#### - HiberBoot
+### -field HiberBoot
 
 If this member is set to <b>TRUE</b>, the system is currently capable of performing a fast startup transition.  This setting is based on whether the machine is capable of hibernate, whether the machine currently has hibernate enabled (hiberfile exists), and the local and group policy settings for using hibernate (including the Hibernate option in the Power control panel).
 

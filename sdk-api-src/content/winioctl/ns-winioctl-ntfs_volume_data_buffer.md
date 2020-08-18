@@ -58,72 +58,72 @@ Represents volume data.  This structure is passed to the
 
 
 
-#### - VolumeSerialNumber
+### -field VolumeSerialNumber
 
 The serial number of the volume. This is a unique number assigned to the volume media by the operating system.
 
 
-#### - NumberSectors
+### -field NumberSectors
 
 The number of sectors in the specified volume.
 
 
-#### - TotalClusters
+### -field TotalClusters
 
 The number of used and free clusters in the specified volume.
 
 
-#### - FreeClusters
+### -field FreeClusters
 
 The number of free clusters in the specified volume.
 
 
-#### - TotalReserved
+### -field TotalReserved
 
 The number of reserved clusters in the specified volume.
 
 
-#### - BytesPerSector
+### -field BytesPerSector
 
 The number of bytes in a sector on the specified volume.
 
 
-#### - BytesPerCluster
+### -field BytesPerCluster
 
 The number of bytes in a cluster on the specified volume. This value is also known as the cluster factor.
 
 
-#### - BytesPerFileRecordSegment
+### -field BytesPerFileRecordSegment
 
 The number of bytes in a file record segment.
 
 
-#### - ClustersPerFileRecordSegment
+### -field ClustersPerFileRecordSegment
 
 The number of clusters in a file record segment.
 
 
-#### - MftValidDataLength
+### -field MftValidDataLength
 
 The length of the master file table, in bytes.
 
 
-#### - MftStartLcn
+### -field MftStartLcn
 
 The starting logical cluster number of the master file table.
 
 
-#### - Mft2StartLcn
+### -field Mft2StartLcn
 
 The starting logical cluster number of the master file table mirror.
 
 
-#### - MftZoneStart
+### -field MftZoneStart
 
 The starting logical cluster number of the master file table zone.
 
 
-#### - MftZoneEnd
+### -field MftZoneEnd
 
 The ending logical cluster number of the master file table zone.
 

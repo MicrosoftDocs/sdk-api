@@ -76,7 +76,7 @@ MIBE number from the IANA database.
 
 
 
-#### - attributeID
+### -field attributeID
 
 Identifier of the base attribute in which the string is to be found in the record.
 

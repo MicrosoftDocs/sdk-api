@@ -103,7 +103,7 @@ For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="
 Array of <b>DWORD</b>s that specify the size, in bytes, of corresponding elements in the <i>rgpvData</i> array.
 
 
-#### - rgpvData [in]
+### -param rgpvData [in]
 
 A pointer to an array that contains pointers to <i>pvData</i> elements corresponding the <i>rgdwPropId</i> array elements. 
 

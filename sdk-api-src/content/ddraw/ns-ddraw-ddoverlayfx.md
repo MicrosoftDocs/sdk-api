@@ -153,7 +153,7 @@ Mirror the overlay around the horizontal axis.
 Currently not used and must be set to 0.
 
 
-#### - DUMMYUNIONNAMEN(1)
+### -field DUMMYUNIONNAMEN(1)
 
 
 
@@ -168,7 +168,7 @@ Constant to use as the alpha channel for a destination.
 Address of a surface to use as the alpha channel for a destination.
 
 
-#### - DUMMYUNIONNAMEN(2)
+### -field DUMMYUNIONNAMEN(2)
 
 
 

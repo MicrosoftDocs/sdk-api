@@ -104,7 +104,7 @@ Type: <b>unsigned short</b>
 This member is reserved.
 
 
-#### - wType
+### -field wType
 
 Type: <b>unsigned short</b>
 

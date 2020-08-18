@@ -114,7 +114,7 @@ TBD
 
 
 
-#### - SecurityQOS
+### -param SecurityQOS
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 

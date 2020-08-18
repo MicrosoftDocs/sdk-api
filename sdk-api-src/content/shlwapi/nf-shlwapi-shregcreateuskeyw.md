@@ -125,27 +125,27 @@ Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is
 Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT
+#### -param dwFlags.SHREGSET_DEFAULT
 
 Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_FORCE_HKCU
+#### -param dwFlags.SHREGSET_FORCE_HKCU
 
 Create/open the key under <b>HKEY_CURRENT_USER</b>. Creates a key even if it is not empty.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM
+#### -param dwFlags.SHREGSET_FORCE_HKLM
 
 Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is not empty.
 
 
-##### - dwFlags.SHREGSET_HKCU
+#### -param dwFlags.SHREGSET_HKCU
 
 Create/open the key under <b>HKEY_CURRENT_USER</b>. Only creates a key if it is empty.
 
 
-##### - dwFlags.SHREGSET_HKLM
+#### -param dwFlags.SHREGSET_HKLM
 
 Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Only creates a key if it is empty.
 

@@ -91,9 +91,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Button style. This member can be a combination of the button style values listed in <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-control-and-button-styles">Toolbar Control and Button Styles</a>. 
 
 
-### -field bReserved
-
- 
 
 
 ### -field dwData
@@ -110,14 +107,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Zero-based index of the button string, or a pointer to a string buffer that contains text for the button. 
 
 
-#### - bReserved[2]
+### -field bReserved [2]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Reserved. 
 
 
-#### - bReserved[6]
+### -field bReserved [6]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 

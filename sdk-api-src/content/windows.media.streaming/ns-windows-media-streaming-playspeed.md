@@ -70,12 +70,12 @@ Represents a playback speed as a rational number.
 
 
 
-#### - Denominator
+### -field Denominator
 
 The <b>Numerator</b> should be divided by this value to obtain the play speed.  A value of 0 is not allowed.
 
 
-#### - Numerator
+### -field Numerator
 
 A value that when divided by the <b>Denominator</b> represents the play speed.
 

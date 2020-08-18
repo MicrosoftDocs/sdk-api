@@ -86,7 +86,7 @@ The <b>IPX_PATTERN</b> structure applies a specific pattern or corresponding mas
 
 
 
-#### - Src, Dest
+### -field Src, Dest
 
 Structure used to contain source and destination address information for traffic flow.
 

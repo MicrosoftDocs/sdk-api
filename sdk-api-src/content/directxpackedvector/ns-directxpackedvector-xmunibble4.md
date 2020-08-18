@@ -63,27 +63,6 @@ For a list of additional functionality such as constructors and operators that a
 
 
 
-
-### -field x
-
- 
-
-
-### -field y
-
- 
-
-
-### -field z
-
- 
-
-
-### -field w
-
- 
-
-
 ### -field v
 
 Unsigned short representing the 4D vector in a packed format.
@@ -107,28 +86,28 @@ TBD
 
 
 
-#### - w : 4
+### -field w : 4
 
 Unsigned 4-bit integer value in the range [0,15] describing the
 			    w-coordinate of the vector.  The 4-bit x component.
 			
 
 
-#### - x : 4
+### -field x : 4
 
 Unsigned 4-bit integer value in the range [0,15] describing the
 			    x-coordinate of the vector.  The 4-bit x component.
 			
 
 
-#### - y : 4
+### -field y : 4
 
 Unsigned 4-bit integer value in the range [0,15] describing the
 			    y-coordinate of the vector.  The 4-bit x component.
 			
 
 
-#### - z : 4
+### -field z : 4
 
 Unsigned 4-bit integer value in the range [0,15] describing the
 			    z-coordinate of the vector.  The 4-bit x component.

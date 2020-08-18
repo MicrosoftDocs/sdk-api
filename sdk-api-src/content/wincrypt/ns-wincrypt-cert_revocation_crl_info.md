@@ -83,12 +83,12 @@ A pointer to an entry in either the base CRL or the delta CRL.
 <b>TRUE</b> if <b>pCrlEntry</b> points to an entry in the delta CRL. <b>FALSE</b> if <b>pCrlEntry</b> points to an entry in the base CRL.
 
 
-#### - pBaseCRLContext
+### -field pBaseCRLContext
 
 A pointer to a base CRL context.
 
 
-#### - pDeltaCRLContext
+### -field pDeltaCRLContext
 
 A pointer to a delta CRL context.
 

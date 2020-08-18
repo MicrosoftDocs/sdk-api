@@ -131,7 +131,7 @@ An untrusted URL zone.
 Reserved for future use.
 
 
-#### - Header
+### -field Header
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure containing the structure header. The <b>dwIdentificationType</b> member of the header must be <b>SaferIdentityTypeUrlZone</b>, and the <b>cbStructSize</b> member of the header must be sizeof(SAFER_URLZONE_IDENTIFICATION).
 

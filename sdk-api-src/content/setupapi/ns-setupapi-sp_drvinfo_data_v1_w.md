@@ -108,12 +108,12 @@ A NULL-terminated string giving the provider of this driver. This is typically t
 Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
 
 
-##### - DriverType.SPDIT_CLASSDRIVER
+#### -field DriverType.SPDIT_CLASSDRIVER
 
 This structure represents a class driver.
 
 
-##### - DriverType.SPDIT_COMPATDRIVER
+#### -field DriverType.SPDIT_COMPATDRIVER
 
 This structure represents a compatible driver.
 

@@ -67,12 +67,12 @@ The <b>GetObject</b> method is called by WMI to retrieve an instance of a class.
 
 
 
-#### - pParsedObjectPath
+### -param pParsedObjectPath
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> object to be filled in by the framework provider.
 
 
-#### - pContext
+### -param pContext
 
 Bitmask of flags with information about the <b>GetObject</b> operation. This is the value specified by the client in the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> method.
 

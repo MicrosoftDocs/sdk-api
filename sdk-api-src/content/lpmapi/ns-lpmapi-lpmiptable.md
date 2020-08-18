@@ -80,7 +80,7 @@ IP address for the interface.
 IP subnet mask for the interface.
 
 
-#### - UlIfIndex
+### -field UlIfIndex
 
 SNMP index for the interface.
 

@@ -69,7 +69,7 @@ TBD
 After the <code>IPropertyStore::GetValue</code> method returns successfully, this parameter points to a <a href="https://msdn2.microsoft.com/library/aa912007.aspx">PROPVARIANT </a> structure that contains data about the property.
 
 
-#### - Key
+### -param Key
 
 A reference to the PROPERTYKEY structure that is retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
 

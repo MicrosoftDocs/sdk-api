@@ -88,15 +88,6 @@ Sync root hard linking policy.
 Status of the sync root provider.
 
 
-### -field ProviderName
-
- 
-
-
-### -field ProviderVersion
-
- 
-
 
 ### -field SyncRootIdentityLength
 
@@ -110,17 +101,17 @@ Length, in bytes, of the <i>SyncRootIdentity</i>.
 
 
 
-#### - ProviderName[CF_MAX_PROVIDER_NAME_LENGTH + 1]
+### -field ProviderName [CF_MAX_PROVIDER_NAME_LENGTH + 1]
 
 Name of the sync root.
 
 
-#### - ProviderVersion[CF_MAX_PROVIDER_VERSION_LENGTH + 1]
+### -field ProviderVersion [CF_MAX_PROVIDER_VERSION_LENGTH + 1]
 
 Version of the sync root.
 
 
-#### - SyncRootIdentity[1]
+### -field SyncRootIdentity [1]
 
 The identity of the sync root directory.
 

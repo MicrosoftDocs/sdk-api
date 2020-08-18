@@ -58,14 +58,14 @@ Returns the property values of a specific font item index.
 
 
 
-#### - listIndex
+### -param listIndex
 
 Type: <b>UINT32</b>
 
 Zero-based index of the font.
 
 
-#### - propertyId
+### -param propertyId
 
 Type: <b><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id">DWRITE_FONT_PROPERTY_ID</a></b>
 

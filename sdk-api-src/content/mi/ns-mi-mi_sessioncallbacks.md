@@ -63,12 +63,12 @@ A container for callback function pointers that handle logging and error message
 A client-specific context that is passed to all of the callbacks. This is used to correlate the callback to the associated operation.
 
 
-#### - writeError
+### -field writeError
 
 The CIM extension callback for errors. The session version of this function is informative only. The session will fail to create and will  return an error. All parameters are valid only for the lifetime of the callback.
 
 
-#### - writeMessage
+### -field writeMessage
 
 The CIM extension callback for receiving logging from the session creation. All parameters are valid only for the lifetime of the callback.
 

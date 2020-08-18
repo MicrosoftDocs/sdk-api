@@ -77,7 +77,7 @@ Returns the interface identifier of the endpoint-map element.
 Optional. Returns the binding handle from the endpoint-map element.
 
 
-#### - ObjectUuid
+### -param ObjectUuid
 
 Optional. Returns the object UUID from the endpoint-map element.
 

@@ -62,7 +62,7 @@ In the absence of specific requirements for stream naming, clients and services 
 
 
 
-#### - name
+### -field name
 
 Specifies an optional friendly name to be associated with the shell. This parameter is only functional when the client passes the  flag <b>WSMAN_FLAG_REQUESTED_API_VERSION_1_1</b> to WSManInitialize.
 

@@ -108,24 +108,15 @@ The size, in bytes, of alternate data stream information for the placeholder. If
 The offset, in bytes, from the start of the <b>PRJ_PLACEHOLDER_INFO</b> structure to the first FILE_STREAM_INFORMATION entry.
 
 
-### -field VersionInfo
-
- 
-
-
-### -field VariableData
-
- 
 
 
 
-
-#### - VariableData[1]
+### -field VariableData [1]
 
 Start of the variable-length buffer to hold EAs, a custom security descriptor, and alternate data stream information.
 
 
-#### - versionInfo
+### -field versionInfo
 
 Version information for the placeholder (see <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO)
 

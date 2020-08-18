@@ -68,7 +68,7 @@ The <b>EapCertificateCredential</b> structure contains information about the cer
 If the certificate is present on the system and strong private key protection is turned on for this certificate, this field contains the password to access the certificate.
 
 
-#### - certHash(CERTIFICATE_HASH_LENGTH)
+### -field certHash(CERTIFICATE_HASH_LENGTH)
 
 SHA1 hash of the certificate.
 

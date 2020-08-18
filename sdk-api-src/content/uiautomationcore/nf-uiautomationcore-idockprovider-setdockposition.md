@@ -60,7 +60,7 @@ Sets the docking position of this element.
 
 
 
-#### - dockPosition [in]
+### -param dockPosition [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-dockposition">DockPosition</a></b>
 

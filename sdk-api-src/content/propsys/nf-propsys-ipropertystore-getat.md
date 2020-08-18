@@ -71,7 +71,7 @@ TBD
 
 
 
-#### - pKey
+### -param pKey
 
 A pointer to a PROPERTYKEY structure and it can be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getvalue">IPropertyStore::GetValue</a> and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a>.
 

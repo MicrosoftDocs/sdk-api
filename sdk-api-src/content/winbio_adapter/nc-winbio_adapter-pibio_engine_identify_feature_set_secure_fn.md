@@ -109,7 +109,7 @@ An HMAC. See remarks section.
 Size, in bytes, of the buffer specified by the <i>Authorization</i> parameter.
 
 
-#### - Subfactor
+### -param Subfactor
 
 A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-biometric-subtype-constants">WINBIO_BIOMETRIC_SUBTYPE Constants</a> value that receives the sub-factor associated with the template in the database. See the Remarks section for more details. This value is returned only if a match is found.
 

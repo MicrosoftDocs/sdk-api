@@ -125,49 +125,49 @@ For more information, see
 
 
 
-#### - WbemAuthenticationLevelCall
+### -field WbemAuthenticationLevelCall
 
 Short name: Call
 
 Authenticates only at the beginning of each call when the server receives the request.
 
 
-#### - WbemAuthenticationLevelConnect
+### -field WbemAuthenticationLevelConnect
 
 Short name: Connect
 
 Authenticates the credentials of the client only when the client establishes a relationship with the server.
 
 
-#### - WbemAuthenticationLevelDefault
+### -field WbemAuthenticationLevelDefault
 
 Short name: Default
 
 WMI uses the default Windows Authentication setting.
 
 
-#### - WbemAuthenticationLevelNone
+### -field WbemAuthenticationLevelNone
 
 Short name: None
 
 Uses no authentication.
 
 
-#### - WbemAuthenticationLevelPkt
+### -field WbemAuthenticationLevelPkt
 
 Short name: Pkt
 
 Authenticates that all data received is from the expected client.
 
 
-#### - WbemAuthenticationLevelPktIntegrity
+### -field WbemAuthenticationLevelPktIntegrity
 
 Short name: PktIntegrity
 
 Authenticates and verifies that none of the data transferred between client and server has been modified.
 
 
-#### - WbemAuthenticationLevelPktPrivacy
+### -field WbemAuthenticationLevelPktPrivacy
 
 Short name: PktPrivacy
 

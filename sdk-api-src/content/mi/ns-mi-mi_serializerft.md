@@ -67,20 +67,20 @@ TBD
 
 
 
-#### - Close
+### -field Close
 
 Closes a serializer object and frees any internal memory associated with it. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_close">MI_Serializer_Close</a>.
 
 
-#### - SerializeClass
+### -field SerializeClass
 
 Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format 
        specified when it was created. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
 
 
-#### - SerializeInstance
+### -field SerializeInstance
 
 Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> into a buffer in the 
        format specified when the serializer was created. See 

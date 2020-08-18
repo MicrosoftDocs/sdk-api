@@ -70,7 +70,7 @@ Represents an ordered pair of floating-point x- and y-coordinates that defines a
 
 
 
-#### - X
+### -field X
 
 Type: <b>float</b>
 
@@ -79,7 +79,7 @@ The horizontal position of the point.
 
 
 
-#### - Y
+### -field Y
 
 Type: <b>float</b>
 

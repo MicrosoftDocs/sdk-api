@@ -80,7 +80,7 @@ Reserved for future use.
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
 
 
-#### - HttpResponseInfoTypeQosProperty
+### -field HttpResponseInfoTypeQosProperty
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
 

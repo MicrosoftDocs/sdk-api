@@ -67,13 +67,13 @@ TBD
 
 
 
-#### - Evaluate
+### -field Evaluate
 
 The provider calls this function to evaluate an instance against a given filter. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_evaluate">MI_Filter_Evaluate</a>.
 
 
-#### - GetExpression
+### -field GetExpression
 
 Gets the filter language and expression. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_getexpression">MI_Filter_GetExpression</a>.

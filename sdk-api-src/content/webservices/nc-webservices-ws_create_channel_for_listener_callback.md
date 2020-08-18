@@ -104,7 +104,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - channelInstance
+### -param channelInstance
 
 A pointer to an structure allocated by the callback
                     that contains the data specific to this channel instance.  This pointer
