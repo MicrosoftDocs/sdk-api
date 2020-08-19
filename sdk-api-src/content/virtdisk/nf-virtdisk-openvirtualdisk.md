@@ -6,7 +6,7 @@ helpviewer_keywords: ["OpenVirtualDisk","OpenVirtualDisk function [VHD]","vdssys
 old-location: vhd\openvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
-ms.date: 12/05/2018
+ms.date: 08/19/2020
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
 f1_keywords:
 - virtdisk/OpenVirtualDisk
@@ -132,7 +132,7 @@ If the <b>OpenVirtualDisk</b> function fails with an error
 <li>The <i>Flags</i> parameter is set to a value of 
       <code>(Flags &amp; ~(OPEN_VIRTUAL_DISK_FLAG_NO_PARENTS | OPEN_VIRTUAL_DISK_FLAG_BLANK_FILE))</code>.</li>
 <li>The <b>Version</b> member of the <i>Parameters</i> parameter is not 
-      set to <b>OPEN_VIRTUAL_DISK_VERSION_1</b>.</li>
+      set to <b>OPEN_VIRTUAL_DISK_VERSION_1</b> or <b>OPEN_VIRTUAL_DISK_VERSION_2</b>.</li>
 </ul>
 The host volume that contains the virtual disk image file cannot be compressed or EFS encrypted. This function 
     will fail with error <b>ERROR_UNSUPPORTED_COMPRESSION</b> (618) if the host volume has been 
