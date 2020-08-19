@@ -96,7 +96,7 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
     <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> function.
 
 Do not try to set the context for a running thread; the results are unpredictable. Use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64suspendthread">Wow64SuspendThread</a> function to suspend the thread 
+    <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread">Wow64SuspendThread</a> function to suspend the thread 
     before calling <b>Wow64SetThreadContext</b>.
 
 
