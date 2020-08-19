@@ -197,7 +197,11 @@ Reserved for future use.
 
 ### -field StorageAdapterSerialNumberProperty
 
+Indicates that the caller is querying for the adapter serial number. Data is returned using the [STORAGE_ADAPTER_SERIAL_NUMBER](ns-winioctl-storage_adapter_serial_number.md) structure.
+
 ### -field StorageDeviceLocationProperty
+
+Reserved for system use.
 
 ### -field StorageDeviceNumaProperty
 
@@ -207,6 +211,9 @@ Reserved for future use.
 
 ### -field StorageDeviceEnduranceProperty
 
+### -field StorageDeviceEnduranceProperty
+
+Reserved for system use.
 
 ## -remarks
 
