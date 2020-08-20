@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management.
+Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a> function.
 
 
 ## -struct-fields
