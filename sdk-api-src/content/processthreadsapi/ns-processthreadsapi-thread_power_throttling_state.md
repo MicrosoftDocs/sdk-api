@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management.
+Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management. This structure is used by the [SetThreadInformation function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation).
 
 
 ## -struct-fields
@@ -62,70 +62,24 @@ Specifies the throttling policies and how to apply them to a target thread when 
 
 The version of the <b>THREAD_POWER_THROTTLING_STATE</b> structure.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="THREAD_POWER_THROTTLING_CURRENT_VERSION"></a><a id="thread_power_throttling_current_version"></a><dl>
-<dt><b>THREAD_POWER_THROTTLING_CURRENT_VERSION</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-The current version.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| ---   | ---     |
+| THREAD_POWER_THROTTLING_CURRENT_VERSION | The current version. |
 
 ### -field ControlMask
 
 This field enables the caller to take control of the power throttling mechanism.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="THREAD_POWER_THROTTLING_EXECUTION_SPEED"></a><a id="thread_power_throttling_execution_speed"></a><dl>
-<dt><b>THREAD_POWER_THROTTLING_EXECUTION_SPEED</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-Manages the execution speed of the thread.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| ---   | ---     |
+| THREAD_POWER_THROTTLING_EXECUTION_SPEED | Manages the execution speed of the thread. |
 
 ### -field StateMask
 
 Manages the power throttling mechanism on/off state.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="THREAD_POWER_THROTTLING_EXECUTION_SPEED"></a><a id="thread_power_throttling_execution_speed"></a><dl>
-<dt><b>THREAD_POWER_THROTTLING_EXECUTION_SPEED</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-Manages the execution speed of the thread.
+| Value | Meaning |
+| ---   | ---     |
+| THREAD_POWER_THROTTLING_EXECUTION_SPEED | Manages the execution speed of the thread. |
 
-</td>
-</tr>
-</table>
- 
 
