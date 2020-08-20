@@ -170,7 +170,8 @@ SetThreadInformation(GetCurrentThread(),
                      sizeof(PowerThrottling));
 
 //
-// Let system manage all power throttling. ControlMask is set to 0 as we don’t want // to control any mechanisms.
+// Let system manage all power throttling. ControlMask is set to 0 as we don’t want 
+// to control any mechanisms.
 //
 
 PowerThrottling.ControlMask = 0;
