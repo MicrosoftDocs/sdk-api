@@ -137,7 +137,7 @@ The service pack version.
 
 ### -field DependentLoadFlags
 
- 
+The default load flags used when the operating system resolves the statically linked imports of a module. For more information, see [LoadLibraryEx](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw).
 
 
 ### -field EditList
@@ -272,11 +272,6 @@ The count of unique handlers in the table. This member is available only for x86
 
 
 
-#### - Reserved1
-
-Reserved for use by the operating system.
-
-
 ## -remarks
 
 
@@ -301,7 +296,7 @@ typedef struct {
     DWORD   ProcessHeapFlags;
     DWORD   ProcessAffinityMask;
     WORD    CSDVersion;
-    WORD    Reserved1;
+    WORD    DependentLoadFlags;
     DWORD   EditList;                   // VA
     DWORD   SecurityCookie;             // VA
     DWORD   SEHandlerTable;             // VA
