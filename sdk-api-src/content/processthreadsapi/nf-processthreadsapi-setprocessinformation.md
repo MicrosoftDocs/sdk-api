@@ -102,7 +102,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessPowerThrottling</b>, this parameter must be 
-       <code>sizeof(Process_POWER_THROTTLING_STATE)</code>.
+       <code>sizeof(PROCESS_POWER_THROTTLING_STATE)</code>.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must be 
