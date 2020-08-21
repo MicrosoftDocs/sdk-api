@@ -138,6 +138,7 @@ Memory priority helps to determine how long pages remain in the
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
     be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
+Power throttling helps balance out performance and power efficiency. It allows developer to reduce applications power usage when user doesn't require best performance. A process can control execution speed by opting in or out of throttling it. When opted in system will try to schedule process's threads to run in more power efficient way. For example system might cap CPU frequency or run process's threads on more power efficient cores. It's suggested that application opts into power throttling when it is not contributing to immediate user experience. This allows user to get a better battery life without sacrificing performance of applications that are currently in use. If application doesn't take explicit control system will use internal heuristics to balance out performance and power efficiency.
 
 #### Examples
 
