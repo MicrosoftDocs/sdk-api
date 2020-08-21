@@ -211,9 +211,13 @@ Reserved for system use.
 
 ### -field StorageDeviceEnduranceProperty
 
-### -field StorageDeviceEnduranceProperty
+### -field StorageDeviceLedStateProperty
+
+### -field StorageDeviceSelfEncryptionProperty
 
 Reserved for system use.
+
+### -field StorageFruIdProperty
 
 ## -remarks
 
