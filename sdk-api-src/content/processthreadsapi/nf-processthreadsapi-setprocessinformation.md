@@ -131,14 +131,14 @@ To help improve system performance, applications should use the
     background operations or access files and data that are not expected to be accessed again soon. For example, a 
     file indexing application might set a lower default priority for the process that performs the indexing task.
 
-Memory priority helps to determine how long pages remain in the 
+**Memory priority** helps to determine how long pages remain in the 
     <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A process's 
     memory priority determines the default priority of the physical pages that are added to the process working set by 
     the threads of that process. When the memory manager trims the working set, it trims lower priority pages before 
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
     be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
-Power throttling helps balance out performance and power efficiency. It allows developer to reduce applications power usage when user doesn't require best performance. A process can control execution speed by opting in or out of throttling it. When opted in system will try to schedule process's threads to run in more power efficient way. For example system might cap CPU frequency or run process's threads on more power efficient cores. It's suggested that application opts into power throttling when it is not contributing to immediate user experience. This allows user to get a better battery life without sacrificing performance of applications that are currently in use. If application doesn't take explicit control system will use internal heuristics to balance out performance and power efficiency.
+**ProcessPowerThrottling** enables throttling policies on a process, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a proces opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
 
 #### Examples
 
