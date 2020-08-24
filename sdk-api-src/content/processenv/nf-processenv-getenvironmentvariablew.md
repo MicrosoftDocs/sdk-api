@@ -72,7 +72,7 @@ The name of the environment variable.
 
 ### -param lpBuffer [out, optional]
 
-A pointer to a buffer that receives the contents of the specified environment variable as a null-terminated string. An environment variable has a maximum size limit of 32,767 characters, including the null-terminating character.
+A pointer to a buffer that receives the contents of the specified environment variable as a null-terminated string.
 
 
 ### -param nSize [in]
