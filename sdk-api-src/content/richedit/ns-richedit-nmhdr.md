@@ -67,7 +67,7 @@ A window handle to the control sending the message.
 
 ### -field idFrom
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An identifier of the control sending the message.
 
