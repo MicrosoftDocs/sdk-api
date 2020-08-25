@@ -72,8 +72,9 @@ The name of the environment variable. The operating system creates the environme
 
 ### -param lpValue [in, optional]
 
-The contents of the environment variable. The maximum size of a user-defined environment variable is 32,767 characters. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>.
+The contents of the environment variable. 
+
+The maximum size of a user-defined environment variable is 32,767 characters. There is no technical limitation on the size of the environment block. However, there are practical limits depending on the mechanism used to access the block. For example, a batch file cannot set a variable that is longer than the maximum command line length. For more information, see [Environment Variables](/windows/desktop/ProcThread/environment-variables).
 
 <b>Windows Server 2003 and Windows XP:  </b>The total size of the environment block for a process may not exceed 32,767 characters.
 

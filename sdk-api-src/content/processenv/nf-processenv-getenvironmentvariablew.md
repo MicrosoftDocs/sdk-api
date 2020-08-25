@@ -72,8 +72,9 @@ The name of the environment variable.
 
 ### -param lpBuffer [out, optional]
 
-A pointer to a buffer that receives the contents of the specified environment variable as a null-terminated string. An environment variable has a maximum size limit of 32,767 characters, including the null-terminating character.
+A pointer to a buffer that receives the contents of the specified environment variable as a null-terminated string.
 
+The maximum size of a user-defined environment variable is 32,767 characters. There is no technical limitation on the size of the environment block. However, there are practical limits depending on the mechanism used to access the block. For example, a batch file cannot set a variable that is longer than the maximum command line length. For more information, see [Environment Variables](/windows/desktop/ProcThread/environment-variables).
 
 ### -param nSize [in]
 
