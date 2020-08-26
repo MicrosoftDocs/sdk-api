@@ -72,6 +72,8 @@ Set this value to WDA_MONITOR to display the content only on a monitor.
 
 Set this value to WDA_NONE to remove the monitor-only affinity.
 
+Set this value to WDA_EXCLUDEFROMCAPTURE to display the content only on a monitor and excluded everywhere else. Introduced in Windows 10 Version 2004. See remarks about compatibility regarding previous versions of Windows.
+
 ## -returns
 
 Type: <b>BOOL</b>
@@ -83,6 +85,8 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 This function and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their own onscreen window content from being captured or copied through a specific set of public operating system features and APIs. However, it works only when the Desktop Window Manager(DWM) is composing the desktop. 		
 
 It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that using <b>SetWindowDisplayAffinity</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmiscompositionenabled">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
+
+Starting in Windows 10 Version 2004, WDA_EXCLUDEFROMCAPTURE is a supported value. Setting the display affinity to WDA_EXCLUDEFROMCAPTURE on previous version of Windows will behave as if WDA_MONITOR is applied.
 
 ## -see-also
 
