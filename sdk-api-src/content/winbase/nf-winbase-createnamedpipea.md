@@ -79,7 +79,7 @@ Creates an instance of a named pipe and returns a handle for subsequent pipe ope
 
 The unique pipe name. This string must have the following form:
 
-\\\\.\\pipe\\<i>pipename</i>
+\\\.\\pipe\\<i>pipename</i>
 
 The pipename part of the name can include any character other than a backslash, including numbers and special characters. The entire pipe name string can be up to 256 characters long. Pipe names are not case sensitive.
 
