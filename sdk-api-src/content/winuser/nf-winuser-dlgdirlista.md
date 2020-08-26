@@ -6,7 +6,7 @@ helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE"
 old-location: controls\DlgDirList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirlist.htm
-ms.date: 12/05/2018
+ms.date: 08/24/2020
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirList, DlgDirList function [Windows Controls], DlgDirListA, DlgDirListW, _win32_DlgDirList, _win32_DlgDirList_cpp, controls.DlgDirList, controls._win32_DlgDirList, winuser/DlgDirList, winuser/DlgDirListA, winuser/DlgDirListW
 f1_keywords:
 - winuser/DlgDirList
@@ -71,30 +71,25 @@ A handle to the dialog box that contains the list box.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-A pointer to a buffer containing a null-terminated string that specifies an absolute path, relative path, or filename. An absolute path can begin with a drive letter (for example, d:\) or a UNC name (for example, \\
-					<i>machinename</i>\
-					<i>sharename</i>). 
+A pointer to a buffer containing a null-terminated string that specifies an absolute path, relative path, or filename. An absolute path can begin with a drive letter (for example, d:\) or a UNC name (for example, \\\<i>machinename</i>\\<i>sharename</i>). 
 
 The function splits the string into a directory and a filename. The function searches the directory for names that match the filename. If the string does not specify a directory, the function searches the current directory. 
 
-If the string includes a filename, the filename must contain at least one wildcard character (? or *). If the string does not include a filename, the function behaves as if you had specified the asterisk wildcard character (*) as the filename. All names in the specified directory that match the filename and have the attributes specified by the 
-						<i>uFileType</i> parameter are added to the list box. 
+If the string includes a filename, the filename must contain at least one wildcard character (? or \*). If the string does not include a filename, the function behaves as if you had specified the asterisk wildcard character (\*) as the filename. All names in the specified directory that match the filename and have the attributes specified by the <i>uFileType</i> parameter are added to the list box. 
 
 
 ### -param nIDListBox [in]
 
 Type: <b>int</b>
 
-The identifier of a list box in the 
-					<i>hDlg</i> dialog box. If this parameter is zero, <b>DlgDirList</b> does not try to fill a list box. 
+The identifier of a list box in the <i>hDlg</i> dialog box. If this parameter is zero, <b>DlgDirList</b> does not try to fill a list box. 
 
 
 ### -param nIDStaticPath [in]
 
 Type: <b>int</b>
 
-The identifier of a static control in the 
-					<i>hDlg</i> dialog box. <b>DlgDirList</b> sets the text of this control to display the current drive and directory. This parameter can be zero if you do not want to display the current drive and directory. 
+The identifier of a static control in the <i>hDlg</i> dialog box. <b>DlgDirList</b> sets the text of this control to display the current drive and directory. This parameter can be zero if you do not want to display the current drive and directory. 
 
 
 ### -param uFileType [in]
