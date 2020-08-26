@@ -501,7 +501,7 @@ For information on security considerations in regard to using this flag, see <a 
 
 Type: <b>int</b>
 
-If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC has no effect.
+If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC will no effect - unless an MB_OK button is present. If an MB_OK button is displayed and the user presses ESC, the return value will be <b>IDOK</b>.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -698,7 +698,7 @@ int DisplayResourceNAMessageBox()
 
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="./images/MessageBox_02.png"/>
+<img alt="Message box" src="./images/messagebox_02.png"/>
 
 For another message box example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Displaying a Message Box</a>.
 
