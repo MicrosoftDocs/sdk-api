@@ -42,7 +42,7 @@ Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heap
 
 ### -field cb
 
-Address of a continuous block of memory.
+The size of this data structure, in bytes. Set this member to sizeof(HEAP_SUMMARY).
 
 ### -field cbAllocated
 
