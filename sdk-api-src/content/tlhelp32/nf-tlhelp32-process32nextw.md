@@ -76,7 +76,7 @@ A handle to the snapshot returned from a previous call to the
 ### -param lppe [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a> structure.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Returns <b>TRUE</b> if the next entry of the process list has been copied to the
 
 
 To retrieve information about the first process recorded in a snapshot, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32firstw">Process32FirstW</a> function.
 
 
 #### Examples
@@ -119,7 +119,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a>
 
 
 
@@ -127,7 +127,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32firstw">Process32FirstW</a>
 
 
 
