@@ -76,7 +76,7 @@ A handle to the snapshot returned from a previous call to the
 ### -param lppe [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a> structure. It contains process information such as the name of the executable file, the process identifier, and the process identifier of the parent process.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a> structure. It contains process information such as the name of the executable file, the process identifier, and the process identifier of the parent process.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Returns <b>TRUE</b> if the first entry of the process list has been copied to th
 
 
 The calling application must set the <b>dwSize</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a> to the size, in bytes, of the structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a> to the size, in bytes, of the structure. 
 
 
 To retrieve information about other processes recorded in the same snapshot, use the 
@@ -123,7 +123,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a>
 
 
 
@@ -131,7 +131,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32next">Process32Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32nextw">Process32NextW</a>
 
 
 
