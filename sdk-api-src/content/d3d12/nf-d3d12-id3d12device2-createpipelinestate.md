@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device2.CreatePipelineState
 title: ID3D12Device2::CreatePipelineState (d3d12.h)
-description: Creates a pipeline state object from a pipeline state stream description.helpviewer_keywords: ["CreatePipelineState","CreatePipelineState method","CreatePipelineState method","ID3D12Device2 interface","ID3D12Device2 interface","CreatePipelineState method","ID3D12Device2.CreatePipelineState","ID3D12Device2::CreatePipelineState","d3d12/ID3D12Device2::CreatePipelineState","direct3d12.id3d12device2_createpipelinestate"]
+description: Creates a pipeline state object from a pipeline state stream description.
+helpviewer_keywords: ["CreatePipelineState","CreatePipelineState method","CreatePipelineState method","ID3D12Device2 interface","ID3D12Device2 interface","CreatePipelineState method","ID3D12Device2.CreatePipelineState","ID3D12Device2::CreatePipelineState","d3d12/ID3D12Device2::CreatePipelineState","direct3d12.id3d12device2_createpipelinestate"]
 old-location: direct3d12\id3d12device2_createpipelinestate.htm
 tech.root: direct3d12
 ms.assetid: 90557451-CB7A-4F05-8BDB-B611FE034CBB
@@ -107,6 +108,7 @@ This function takes the pipeline description as a <a href="https://docs.microsof
 ## -see-also
 
 
+See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behaviour of a streaming pipeline desc.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>
