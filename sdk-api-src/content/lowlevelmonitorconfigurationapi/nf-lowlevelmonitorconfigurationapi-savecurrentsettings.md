@@ -46,6 +46,7 @@ ms.custom: 19H1
 
 # SaveCurrentSettings function
 
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
 ## -description
 

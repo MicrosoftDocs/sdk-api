@@ -46,6 +46,8 @@ ms.custom: 19H1
 
 # GetMonitorColorTemperature function
 
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
+
 
 ## -description
 

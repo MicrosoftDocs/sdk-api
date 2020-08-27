@@ -46,6 +46,7 @@ ms.custom: 19H1
 
 # SetMonitorContrast function
 
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
 ## -description
 
