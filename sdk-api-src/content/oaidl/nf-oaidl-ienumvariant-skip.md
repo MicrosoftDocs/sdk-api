@@ -33,9 +33,9 @@ topic_type:
 - APIRef
 - kbSyntax
 api_type:
-- COM
+- DllExport
 api_location:
-- oaidl.h
+- stdole.dll
 api_name:
 - IEnumVARIANT.Skip
 targetos: Windows
