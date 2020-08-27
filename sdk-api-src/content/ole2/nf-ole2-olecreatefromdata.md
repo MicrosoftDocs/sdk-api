@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateFromData
 title: OleCreateFromData function (ole2.h)
-description: Creates an embedded object from a data transfer object retrieved either from the clipboard or as part of an OLE drag-and-drop operation. It is intended to be used to implement a paste from an OLE drag-and-drop operation.helpviewer_keywords: ["OleCreateFromData","OleCreateFromData function [COM]","_ole_OleCreateFromData","com.olecreatefromdata","ole2/OleCreateFromData"]
+description: Creates an embedded object from a data transfer object retrieved either from the clipboard or as part of an OLE drag-and-drop operation. It is intended to be used to implement a paste from an OLE drag-and-drop operation.
+helpviewer_keywords: ["OleCreateFromData","OleCreateFromData function [COM]","_ole_OleCreateFromData","com.olecreatefromdata","ole2/OleCreateFromData"]
 old-location: com\olecreatefromdata.htm
 tech.root: com
 ms.assetid: aa5e997e-60d4-472d-9c81-5359c277bde3

@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC
 title: DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC
-description: Describes a DirectML operator that performs a softplus activation function on every element in the input, f(x) = ln(1 + expe(x)).helpviewer_keywords: ["DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC","DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC structure","direct3d12.dml_activation_softplus_operator_desc","directml/DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a softplus activation function on every element in the input, f(x) = ln(1 + expe(x)).
+helpviewer_keywords: ["DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC","DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC structure","direct3d12.dml_activation_softplus_operator_desc","directml/DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_softplus_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 56841C42-3C86-4118-B959-A77E616B7EC3
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC, DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC structure, direct3d12.dml_activation_softplus_operator_desc, directml/DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC

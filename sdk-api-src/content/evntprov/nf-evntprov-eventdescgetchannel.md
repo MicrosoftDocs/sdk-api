@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescGetChannel
 title: EventDescGetChannel function (evntprov.h)
-description: Retrieves the channel from the event descriptor.helpviewer_keywords: ["EventDescGetChannel","EventDescGetChannel function [ETW]","base.eventdescgetchannel_func","etw.eventdescgetchannel_func","evntprov/EventDescGetChannel"]
+description: Retrieves the channel from the event descriptor.
+helpviewer_keywords: ["EventDescGetChannel","EventDescGetChannel function [ETW]","base.eventdescgetchannel_func","etw.eventdescgetchannel_func","evntprov/EventDescGetChannel"]
 old-location: etw\eventdescgetchannel_func.htm
 tech.root: ETW
 ms.assetid: 193786ad-751e-477d-8747-a38b43292648

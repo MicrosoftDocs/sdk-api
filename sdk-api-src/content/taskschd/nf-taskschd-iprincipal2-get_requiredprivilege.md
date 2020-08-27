@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilege
 title: IPrincipal2::get_RequiredPrivilege (taskschd.h)
-description: Gets the required privilege of the task by index.helpviewer_keywords: ["IPrincipal2 interface [Task Scheduler]","RequiredPrivilege property","IPrincipal2.RequiredPrivilege","IPrincipal2.get_RequiredPrivilege","IPrincipal2::RequiredPrivilege","IPrincipal2::get_RequiredPrivilege","RequiredPrivilege property [Task Scheduler]","RequiredPrivilege property [Task Scheduler]","IPrincipal2 interface","get_RequiredPrivilege","taskschd.iprincipal2_requiredprivilege","taskschd/IPrincipal2::RequiredPrivilege","taskschd/IPrincipal2::get_RequiredPrivilege"]
+description: Gets the required privilege of the task by index.
+helpviewer_keywords: ["IPrincipal2 interface [Task Scheduler]","RequiredPrivilege property","IPrincipal2.RequiredPrivilege","IPrincipal2.get_RequiredPrivilege","IPrincipal2::RequiredPrivilege","IPrincipal2::get_RequiredPrivilege","RequiredPrivilege property [Task Scheduler]","RequiredPrivilege property [Task Scheduler]","IPrincipal2 interface","get_RequiredPrivilege","taskschd.iprincipal2_requiredprivilege","taskschd/IPrincipal2::RequiredPrivilege","taskschd/IPrincipal2::get_RequiredPrivilege"]
 old-location: taskschd\iprincipal2_requiredprivilege.htm
 tech.root: taskschd
 ms.assetid: 701ff07e-2dd1-4985-8fc4-f570749c5834

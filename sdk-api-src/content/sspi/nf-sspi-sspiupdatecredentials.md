@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.SspiUpdateCredentials
 title: SspiUpdateCredentials function (sspi.h)
-description: Updates the credentials associated with the specified context.helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SspiUpdateCredentials","SspiUpdateCredentials function [Security]","security.sspiupdatecredentials","sspi/SspiUpdateCredentials"]
+description: Updates the credentials associated with the specified context.
+helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SspiUpdateCredentials","SspiUpdateCredentials function [Security]","security.sspiupdatecredentials","sspi/SspiUpdateCredentials"]
 old-location: security\sspiupdatecredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d00dc076-f0fc-44e9-8083-75ad715cf0c7
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiUpdateCredentials, SspiUpdateCredentials function [Security], security.sspiupdatecredentials, sspi/SspiUpdateCredentials

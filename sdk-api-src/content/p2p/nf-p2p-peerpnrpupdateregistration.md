@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerPnrpUpdateRegistration
 title: PeerPnrpUpdateRegistration function (p2p.h)
-description: Updates the PNRP registration information for a name.helpviewer_keywords: ["PeerPnrpUpdateRegistration","PeerPnrpUpdateRegistration function [Peer Networking]","p2p.peerpnrpupdateregistration","p2p/PeerPnrpUpdateRegistration"]
+description: Updates the PNRP registration information for a name.
+helpviewer_keywords: ["PeerPnrpUpdateRegistration","PeerPnrpUpdateRegistration function [Peer Networking]","p2p.peerpnrpupdateregistration","p2p/PeerPnrpUpdateRegistration"]
 old-location: p2p\peerpnrpupdateregistration.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 628aa553-4a55-452b-bcca-4bb763fa6440
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_CanRequestUserInput
 title: IInstallationBehavior::get_CanRequestUserInput (wuapi.h)
-description: Gets a Boolean value thast indicates whether the installation or uninstallation of an update can prompt for user input.helpviewer_keywords: ["CanRequestUserInput property [Windows Update Agent]","CanRequestUserInput property [Windows Update Agent]","IInstallationBehavior interface","IInstallationBehavior interface [Windows Update Agent]","CanRequestUserInput property","IInstallationBehavior.CanRequestUserInput","IInstallationBehavior.get_CanRequestUserInput","IInstallationBehavior::CanRequestUserInput","IInstallationBehavior::get_CanRequestUserInput","get_CanRequestUserInput","wua.iinstallationbehavior_canrequestuserinput","wuapi/IInstallationBehavior::CanRequestUserInput","wuapi/IInstallationBehavior::get_CanRequestUserInput"]
+description: Gets a Boolean value thast indicates whether the installation or uninstallation of an update can prompt for user input.
+helpviewer_keywords: ["CanRequestUserInput property [Windows Update Agent]","CanRequestUserInput property [Windows Update Agent]","IInstallationBehavior interface","IInstallationBehavior interface [Windows Update Agent]","CanRequestUserInput property","IInstallationBehavior.CanRequestUserInput","IInstallationBehavior.get_CanRequestUserInput","IInstallationBehavior::CanRequestUserInput","IInstallationBehavior::get_CanRequestUserInput","get_CanRequestUserInput","wua.iinstallationbehavior_canrequestuserinput","wuapi/IInstallationBehavior::CanRequestUserInput","wuapi/IInstallationBehavior::get_CanRequestUserInput"]
 old-location: wua\iinstallationbehavior_canrequestuserinput.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 083fad34-e2e7-4f33-8eb2-01dba00fd985
 ms.date: 12/05/2018
 ms.keywords: CanRequestUserInput property [Windows Update Agent], CanRequestUserInput property [Windows Update Agent],IInstallationBehavior interface, IInstallationBehavior interface [Windows Update Agent],CanRequestUserInput property, IInstallationBehavior.CanRequestUserInput, IInstallationBehavior.get_CanRequestUserInput, IInstallationBehavior::CanRequestUserInput, IInstallationBehavior::get_CanRequestUserInput, get_CanRequestUserInput, wua.iinstallationbehavior_canrequestuserinput, wuapi/IInstallationBehavior::CanRequestUserInput, wuapi/IInstallationBehavior::get_CanRequestUserInput

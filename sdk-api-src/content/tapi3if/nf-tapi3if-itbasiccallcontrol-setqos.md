@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.SetQOS
 title: ITBasicCallControl::SetQOS (tapi3if.h)
-description: The SetQOS method sets the quality of service level for the call.helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","SetQOS method","ITBasicCallControl.SetQOS","ITBasicCallControl::SetQOS","SetQOS","SetQOS method [TAPI 2.2]","SetQOS method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_setqos","tapi3.itbasiccallcontrol_setqos","tapi3if/ITBasicCallControl::SetQOS"]
+description: The SetQOS method sets the quality of service level for the call.
+helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","SetQOS method","ITBasicCallControl.SetQOS","ITBasicCallControl::SetQOS","SetQOS","SetQOS method [TAPI 2.2]","SetQOS method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_setqos","tapi3.itbasiccallcontrol_setqos","tapi3if/ITBasicCallControl::SetQOS"]
 old-location: tapi3\itbasiccallcontrol_setqos.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SetQOS method, ITBasicCallControl.SetQOS, ITBasicCallControl::SetQOS, SetQOS, SetQOS method [TAPI 2.2], SetQOS method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_setqos, tapi3.itbasiccallcontrol_setqos, tapi3if/ITBasicCallControl::SetQOS

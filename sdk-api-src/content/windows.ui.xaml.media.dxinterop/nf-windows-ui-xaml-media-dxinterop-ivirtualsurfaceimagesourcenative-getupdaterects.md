@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRects
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-description: Gets the set of regions that must be updated on the shared surface.helpviewer_keywords: ["GetUpdateRects","GetUpdateRects method [Windows Runtime]","GetUpdateRects method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","GetUpdateRects method","IVirtualSurfaceImageSourceNative.GetUpdateRects","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::GetUpdateRects","IVirtualSurfaceImageSourceNative::xaml","windows/IVirtualSurfaceImageSourceNative::GetUpdateRects","winrt.ivirtualsurfaceimagesourcenative_getupdaterects"]
+description: Gets the set of regions that must be updated on the shared surface.
+helpviewer_keywords: ["GetUpdateRects","GetUpdateRects method [Windows Runtime]","GetUpdateRects method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","GetUpdateRects method","IVirtualSurfaceImageSourceNative.GetUpdateRects","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::GetUpdateRects","IVirtualSurfaceImageSourceNative::xaml","windows/IVirtualSurfaceImageSourceNative::GetUpdateRects","winrt.ivirtualsurfaceimagesourcenative_getupdaterects"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterects.htm
 tech.root: WinRT
 ms.assetid: C23F3F82-FB3B-4893-8C14-FC7D3C61D295

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetMixingPrefs
 title: IVMRMixerControl::SetMixingPrefs (strmif.h)
-description: Sets the mixing preferences for the stream.helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetMixingPrefs method","IVMRMixerControl.SetMixingPrefs","IVMRMixerControl::SetMixingPrefs","IVMRMixerControlSetOutputRect","SetMixingPrefs","SetMixingPrefs method [DirectShow]","SetMixingPrefs method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setmixingprefs","strmif/IVMRMixerControl::SetMixingPrefs"]
+description: Sets the mixing preferences for the stream.
+helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetMixingPrefs method","IVMRMixerControl.SetMixingPrefs","IVMRMixerControl::SetMixingPrefs","IVMRMixerControlSetOutputRect","SetMixingPrefs","SetMixingPrefs method [DirectShow]","SetMixingPrefs method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setmixingprefs","strmif/IVMRMixerControl::SetMixingPrefs"]
 old-location: dshow\ivmrmixercontrol_setmixingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b0bd2086-af22-4530-921d-b7c56471d142
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs

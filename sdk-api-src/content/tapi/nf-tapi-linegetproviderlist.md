@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGetProviderList
 title: lineGetProviderList function (tapi.h)
-description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.helpviewer_keywords: ["_tapi2_linegetproviderlist","lineGetProviderList","lineGetProviderList function [TAPI 2.2]","lineGetProviderListA","lineGetProviderListW","tapi/lineGetProviderList","tapi/lineGetProviderListA","tapi/lineGetProviderListW","tapi2.linegetproviderlist"]
+description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.
+helpviewer_keywords: ["_tapi2_linegetproviderlist","lineGetProviderList","lineGetProviderList function [TAPI 2.2]","lineGetProviderListA","lineGetProviderListW","tapi/lineGetProviderList","tapi/lineGetProviderListA","tapi/lineGetProviderListW","tapi2.linegetproviderlist"]
 old-location: tapi2\linegetproviderlist.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist

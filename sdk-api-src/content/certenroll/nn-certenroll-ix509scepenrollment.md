@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509SCEPEnrollment
 title: IX509SCEPEnrollment (certenroll.h)
-description: X.509 Simple Computer Enrollment Protocol Interfacehelpviewer_keywords: ["IX509SCEPEnrollment","IX509SCEPEnrollment interface [Security]","IX509SCEPEnrollment interface [Security]","described","certenroll/IX509SCEPEnrollment","security.ix509scepenrollment"]
+description: X.509 Simple Computer Enrollment Protocol Interface
+helpviewer_keywords: ["IX509SCEPEnrollment","IX509SCEPEnrollment interface [Security]","IX509SCEPEnrollment interface [Security]","described","certenroll/IX509SCEPEnrollment","security.ix509scepenrollment"]
 old-location: security\ix509scepenrollment.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: fcbac911-9e37-4994-bbb6-544b19a92749
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], IX509SCEPEnrollment interface [Security],described, certenroll/IX509SCEPEnrollment, security.ix509scepenrollment

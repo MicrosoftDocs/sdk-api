@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmCollectionState
 title: FsrmCollectionState (fsrmenums.h)
-description: Defines the possible states of a collection object.helpviewer_keywords: ["FsrmCollectionState","FsrmCollectionState enumeration [File Server Resource Manager]","FsrmCollectionState_Cancelled","FsrmCollectionState_Committing","FsrmCollectionState_Complete","FsrmCollectionState_Fetching","fs.fsrmcollectionstate","fsrm.fsrmcollectionstate","fsrmenums/FsrmCollectionState","fsrmenums/FsrmCollectionState_Cancelled","fsrmenums/FsrmCollectionState_Committing","fsrmenums/FsrmCollectionState_Complete","fsrmenums/FsrmCollectionState_Fetching"]
+description: Defines the possible states of a collection object.
+helpviewer_keywords: ["FsrmCollectionState","FsrmCollectionState enumeration [File Server Resource Manager]","FsrmCollectionState_Cancelled","FsrmCollectionState_Committing","FsrmCollectionState_Complete","FsrmCollectionState_Fetching","fs.fsrmcollectionstate","fsrm.fsrmcollectionstate","fsrmenums/FsrmCollectionState","fsrmenums/FsrmCollectionState_Cancelled","fsrmenums/FsrmCollectionState_Committing","fsrmenums/FsrmCollectionState_Complete","fsrmenums/FsrmCollectionState_Fetching"]
 old-location: fsrm\fsrmcollectionstate.htm
 tech.root: fsrm
 ms.assetid: 94d7cf83-7fa4-4fec-956d-f5b2e2c0bf68

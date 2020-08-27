@@ -1,9 +1,10 @@
 ---
 UID: NF:ime.SendIMEMessageExW
 title: SendIMEMessageExW function (ime.h)
-description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.helpviewer_keywords: ["SendIMEMessageEx","SendIMEMessageEx function [Windows API]","SendIMEMessageExA","SendIMEMessageExW","_win32_SendIMEMessageEx","ime/SendIMEMessageEx","ime/SendIMEMessageExA","ime/SendIMEMessageExW","winprog._win32_sendimemessageex","winui._win32_sendimemessageex"]
+description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
+helpviewer_keywords: ["SendIMEMessageEx","SendIMEMessageEx function [Windows API]","SendIMEMessageExA","SendIMEMessageExW","_win32_SendIMEMessageEx","ime/SendIMEMessageEx","ime/SendIMEMessageExA","ime/SendIMEMessageExW","winprog._win32_sendimemessageex","winui._win32_sendimemessageex"]
 old-location: winprog\_win32_sendimemessageex.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sendimemessageex.htm
 ms.date: 12/05/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
@@ -208,4 +209,8 @@ Characters too long.
 <b>SendIMEMessageEx</b> guarantees the action stipulated in the specifications only for IMEs that support the <b>WM_CONVERTREQUESTEX</b> message. For an IME that does not support <b>WM_CONVERTREQUESTEX</b>, <b>SendIMEMessageEx</b> sends a <b>WM_CONVERTREQUEST</b> message to the IME and returns the contents of the <b>wParam</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure. If the processing of the subfunction has not been completed normally, these functions set <b>IME_RS_ERROR</b> into <b>wParam</b>.
 
 
+
+
+> [!NOTE]
+> The ime.h header defines SendIMEMessageEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

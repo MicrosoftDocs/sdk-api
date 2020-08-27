@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarUI8FromR8
 title: VarUI8FromR8 function (oleauto.h)
-description: Converts a double value to an 8-byte unsigned integer value.helpviewer_keywords: ["VarUI8FromR8","VarUI8FromR8 function [Automation]","_oa96_VarUI8FromR8","automat.varui8fromr8","oleauto/VarUI8FromR8"]
+description: Converts a double value to an 8-byte unsigned integer value.
+helpviewer_keywords: ["VarUI8FromR8","VarUI8FromR8 function [Automation]","_oa96_VarUI8FromR8","automat.varui8fromr8","oleauto/VarUI8FromR8"]
 old-location: automat\varui8fromr8.htm
 tech.root: automat
 ms.assetid: 7f9ecdbe-090c-41c9-82ea-3157589da00f

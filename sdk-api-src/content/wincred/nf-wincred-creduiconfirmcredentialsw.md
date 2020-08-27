@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredUIConfirmCredentialsW
 title: CredUIConfirmCredentialsW function (wincred.h)
-description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.helpviewer_keywords: ["CredUIConfirmCredentials","CredUIConfirmCredentials function [Security]","CredUIConfirmCredentialsA","CredUIConfirmCredentialsW","_cred_creduiconfirmcredentials","security.creduiconfirmcredentials","wincred/CredUIConfirmCredentials","wincred/CredUIConfirmCredentialsA","wincred/CredUIConfirmCredentialsW"]
+description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
+helpviewer_keywords: ["CredUIConfirmCredentials","CredUIConfirmCredentials function [Security]","CredUIConfirmCredentialsA","CredUIConfirmCredentialsW","_cred_creduiconfirmcredentials","security.creduiconfirmcredentials","wincred/CredUIConfirmCredentials","wincred/CredUIConfirmCredentialsA","wincred/CredUIConfirmCredentialsW"]
 old-location: security\creduiconfirmcredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 67262844-75f0-4f68-90f6-63f9a6d2b0a1
 ms.date: 12/05/2018
 ms.keywords: CredUIConfirmCredentials, CredUIConfirmCredentials function [Security], CredUIConfirmCredentialsA, CredUIConfirmCredentialsW, _cred_creduiconfirmcredentials, security.creduiconfirmcredentials, wincred/CredUIConfirmCredentials, wincred/CredUIConfirmCredentialsA, wincred/CredUIConfirmCredentialsW
@@ -125,4 +126,9 @@ An attempt to confirm a waiting credential failed because the credential contain
  
 
 
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CredUIConfirmCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

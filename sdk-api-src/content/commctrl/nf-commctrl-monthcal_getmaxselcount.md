@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.MonthCal_GetMaxSelCount
 title: MonthCal_GetMaxSelCount macro (commctrl.h)
-description: Retrieves the maximum date range that can be selected in a month calendar control. You can use this macro or send the MCM_GETMAXSELCOUNT message explicitly.helpviewer_keywords: ["MonthCal_GetMaxSelCount","MonthCal_GetMaxSelCount macro [Windows Controls]","_win32_MonthCal_GetMaxSelCount","_win32_MonthCal_GetMaxSelCount_cpp","commctrl/MonthCal_GetMaxSelCount","controls.MonthCal_GetMaxSelCount","controls._win32_MonthCal_GetMaxSelCount"]
+description: Retrieves the maximum date range that can be selected in a month calendar control. You can use this macro or send the MCM_GETMAXSELCOUNT message explicitly.
+helpviewer_keywords: ["MonthCal_GetMaxSelCount","MonthCal_GetMaxSelCount macro [Windows Controls]","_win32_MonthCal_GetMaxSelCount","_win32_MonthCal_GetMaxSelCount_cpp","commctrl/MonthCal_GetMaxSelCount","controls.MonthCal_GetMaxSelCount","controls._win32_MonthCal_GetMaxSelCount"]
 old-location: controls\MonthCal_GetMaxSelCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxselcount.htm

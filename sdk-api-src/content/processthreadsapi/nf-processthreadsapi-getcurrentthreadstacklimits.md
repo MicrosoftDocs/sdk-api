@@ -1,9 +1,10 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThreadStackLimits
 title: GetCurrentThreadStackLimits function (processthreadsapi.h)
-description: Retrieves the boundaries of the stack that was allocated by the system for the current thread.helpviewer_keywords: ["GetCurrentThreadStackLimits","GetCurrentThreadStackLimits function","base.getcurrentthreadstacklimits","processthreadsapi/GetCurrentThreadStackLimits"]
+description: Retrieves the boundaries of the stack that was allocated by the system for the current thread.
+helpviewer_keywords: ["GetCurrentThreadStackLimits","GetCurrentThreadStackLimits function","base.getcurrentthreadstacklimits","processthreadsapi/GetCurrentThreadStackLimits"]
 old-location: base\getcurrentthreadstacklimits.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits

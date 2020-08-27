@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMediaSample.SetMediaTime
 title: IMediaSample::SetMediaTime (strmif.h)
-description: The SetMediaTime method sets the media times for this sample.helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetMediaTime method","IMediaSample.SetMediaTime","IMediaSample::SetMediaTime","IMediaSampleSetMediaTime","SetMediaTime","SetMediaTime method [DirectShow]","SetMediaTime method [DirectShow]","IMediaSample interface","dshow.imediasample_setmediatime","strmif/IMediaSample::SetMediaTime"]
+description: The SetMediaTime method sets the media times for this sample.
+helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetMediaTime method","IMediaSample.SetMediaTime","IMediaSample::SetMediaTime","IMediaSampleSetMediaTime","SetMediaTime","SetMediaTime method [DirectShow]","SetMediaTime method [DirectShow]","IMediaSample interface","dshow.imediasample_setmediatime","strmif/IMediaSample::SetMediaTime"]
 old-location: dshow\imediasample_setmediatime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8ae9db99-828d-4ac9-aa51-668b84d4dfab
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetMediaTime method, IMediaSample.SetMediaTime, IMediaSample::SetMediaTime, IMediaSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IMediaSample interface, dshow.imediasample_setmediatime, strmif/IMediaSample::SetMediaTime

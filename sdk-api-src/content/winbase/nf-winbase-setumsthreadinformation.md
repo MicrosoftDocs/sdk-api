@@ -4,7 +4,7 @@ title: SetUmsThreadInformation function (winbase.h)
 description: Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
 helpviewer_keywords: ["SetUmsThreadInformation","SetUmsThreadInformation function","base.setumsthreadinformation","winbase/SetUmsThreadInformation"]
 old-location: base\setumsthreadinformation.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 19f190fd-1f78-4bb6-93eb-73a5c522b44d
 ms.date: 12/05/2018
 ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.setumsthreadinformation, winbase/SetUmsThreadInformation
@@ -66,8 +66,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A UMS_THREAD_INFO_CLASS value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
-
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
 
 ### -param UmsThreadInformation [in]
 
@@ -85,7 +84,7 @@ The size of the <i>UmsThreadInformation</i> buffer, in bytes.
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -126,18 +125,11 @@ The <i>UmsThreadInfoClass</i> parameter specifies an information class that is n
 
 The <b>SetUmsThreadInformation</b> function can be used to set an application-defined context for the specified UMS worker thread. The context information can consist of anything the application might find useful to track, such as per-scheduler or per-worker thread state. The underlying structures for UMS worker threads are managed by the system and should not be modified directly. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> function can be used to retrieve other exposed information about the specified thread, such as its thread execution block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) and whether the thread is suspended or terminated. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
 
-
+The <a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> function can be used to retrieve other exposed information about the specified thread, such as its thread execution block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) and whether the thread is suspended or terminated. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
 
 
 ## -see-also
 
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>

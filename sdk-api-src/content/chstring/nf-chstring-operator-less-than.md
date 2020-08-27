@@ -1,7 +1,9 @@
 ---
 UID: NF:chstring.operator-less-than
 title: operator<
-description: helpviewer_keywords: ["operator<"]
+description: 
+tech.root: wmi
+helpviewer_keywords: ["operator<"]
 ms.assetid: bc9b4545-b2a2-48b0-b650-d048860d1386
 ms.date: 05/20/2019
 ms.keywords: operator<

@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsAsyncExecute
 title: WsAsyncExecute function (webservices.h)
-description: Helper function for implementing an asynchronous operation.helpviewer_keywords: ["WsAsyncExecute","WsAsyncExecute function [Web Services for Windows]","webservices/WsAsyncExecute","wsw.wsasyncexecute"]
+description: Helper function for implementing an asynchronous operation.
+helpviewer_keywords: ["WsAsyncExecute","WsAsyncExecute function [Web Services for Windows]","webservices/WsAsyncExecute","wsw.wsasyncexecute"]
 old-location: wsw\wsasyncexecute.htm
 tech.root: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18

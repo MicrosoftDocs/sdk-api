@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFContentProtectionDevice
 title: IMFContentProtectionDevice (mfidl.h)
-description: Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system.helpviewer_keywords: ["IMFContentProtectionDevice","IMFContentProtectionDevice interface [Media Foundation]","IMFContentProtectionDevice interface [Media Foundation]","described","mf.imfcontentprotectiondevice","mfidl/IMFContentProtectionDevice"]
+description: Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system.
+helpviewer_keywords: ["IMFContentProtectionDevice","IMFContentProtectionDevice interface [Media Foundation]","IMFContentProtectionDevice interface [Media Foundation]","described","mf.imfcontentprotectiondevice","mfidl/IMFContentProtectionDevice"]
 old-location: mf\imfcontentprotectiondevice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
 ms.date: 12/05/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice

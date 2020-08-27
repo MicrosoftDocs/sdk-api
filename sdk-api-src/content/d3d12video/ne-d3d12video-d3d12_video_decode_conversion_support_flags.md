@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS
 title: D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS
-description: Specifies whether a video decode conversion operation is supported.helpviewer_keywords: ["D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS","D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS",""]
+description: Specifies whether a video decode conversion operation is supported.
+helpviewer_keywords: ["D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS","D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS",""]
 tech.root: mf
 ms.assetid: b19f3999-9427-49bd-aa5c-38d7d79fae72
 ms.date: 05/28/2019

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11_3.D3D11_SHADER_RESOURCE_VIEW_DESC1
 title: D3D11_SHADER_RESOURCE_VIEW_DESC1 (d3d11_3.h)
-description: Describes a shader-resource view.helpviewer_keywords: ["CD3D11_SHADER_RESOURCE_VIEW_DESC1","D3D11_SHADER_RESOURCE_VIEW_DESC1","D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11]","d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1","direct3d11.d3d11_shader_resource_view_desc1"]
+description: Describes a shader-resource view.
+helpviewer_keywords: ["CD3D11_SHADER_RESOURCE_VIEW_DESC1","D3D11_SHADER_RESOURCE_VIEW_DESC1","D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11]","d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1","direct3d11.d3d11_shader_resource_view_desc1"]
 old-location: direct3d11\d3d11_shader_resource_view_desc1.htm
 tech.root: direct3d11
 ms.assetid: 051F58C1-E3F3-4205-B834-7A14FEDFED2C
@@ -57,67 +58,67 @@ Describes a shader-resource view.
 
 
 
-#### - Format
+### -field Format
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
 
 
-#### - ViewDimension
+### -field ViewDimension
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _SRV to use in the union below.
 
 
-#### - Buffer
+### -field Buffer
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_srv">D3D11_BUFFER_SRV</a> structure that views the resource as a buffer.
 
 
-#### - Texture1D
+### -field Texture1D
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_srv">D3D11_TEX1D_SRV</a> structure that views the resource as a 1D texture.
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_array_srv">D3D11_TEX1D_ARRAY_SRV</a> structure that views the resource as a 1D-texture array.
 
 
-#### - Texture2D
+### -field Texture2D
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_tex2d_srv1">D3D11_TEX2D_SRV1</a> structure that views the resource as a 2D-texture.
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_tex2d_array_srv1">D3D11_TEX2D_ARRAY_SRV1</a> structure that views the resource as a 2D-texture array.
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_srv">D3D11_TEX2DMS_SRV</a> structure that views the resource as a 2D-multisampled texture.
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_array_srv">D3D11_TEX2DMS_ARRAY_SRV</a> structure that views the resource as a 2D-multisampled-texture array.
 
 
-#### - Texture3D
+### -field Texture3D
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_srv">D3D11_TEX3D_SRV</a> structure that views the resource as a 3D texture.
 
 
-#### - TextureCube
+### -field TextureCube
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_srv">D3D11_TEXCUBE_SRV</a> structure that views the resource as a 3D-cube texture.
 
 
-#### - TextureCubeArray
+### -field TextureCubeArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_array_srv">D3D11_TEXCUBE_ARRAY_SRV</a> structure that views the resource as a 3D-cube-texture array.
 
 
-#### - BufferEx
+### -field BufferEx
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_bufferex_srv">D3D11_BUFFEREX_SRV</a> structure that views the resource as a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 

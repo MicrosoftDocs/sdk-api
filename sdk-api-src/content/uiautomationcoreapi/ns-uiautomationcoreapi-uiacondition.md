@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcoreapi.UiaCondition
 title: UiaCondition (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains information about a condition.helpviewer_keywords: ["UiaCondition","UiaCondition structure [Windows Accessibility]","uiauto.uiauto_UiaConditionStruct","uiauto_UiaConditionStruct","uiautomationcoreapi/UiaCondition","winauto.uiauto_UiaConditionStruct"]
+description: Note  This structure is deprecated.  Contains information about a condition.
+helpviewer_keywords: ["UiaCondition","UiaCondition structure [Windows Accessibility]","uiauto.uiauto_UiaConditionStruct","uiauto_UiaConditionStruct","uiautomationcoreapi/UiaCondition","winauto.uiauto_UiaConditionStruct"]
 old-location: winauto\uiauto_UiaConditionStruct.htm
 tech.root: WinAuto
 ms.assetid: 82b5db01-08c9-4518-9d33-15d7813d0c80

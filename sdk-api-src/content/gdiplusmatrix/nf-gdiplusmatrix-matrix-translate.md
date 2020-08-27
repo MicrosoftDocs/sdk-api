@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Translate
 title: Matrix::Translate (gdiplusmatrix.h)
-description: The Matrix::Translate method updates this matrix with the product of itself and a translation matrix.helpviewer_keywords: ["Matrix class [GDI+]","Translate method","Matrix.Translate","Matrix::Translate","Translate","Translate method [GDI+]","Translate method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_","gdiplus._gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_"]
+description: The Matrix::Translate method updates this matrix with the product of itself and a translation matrix.
+helpviewer_keywords: ["Matrix class [GDI+]","Translate method","Matrix.Translate","Matrix::Translate","Translate","Translate method [GDI+]","Translate method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_","gdiplus._gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\translate.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:cmdtree.tagDBCONTENT
 title: DBCONTENT (cmdtree.h)
-description: The DBCONTENT structure represents specific information required by the DBOP_content operator.helpviewer_keywords: ["DBCONTENT","DBCONTENT structure [Indexing Service]","_idxs_DBCONTENT","cmdtree/DBCONTENT","indexsrv.dbcontent","tagDBCONTENT"]
+description: The DBCONTENT structure represents specific information required by the DBOP_content operator.
+helpviewer_keywords: ["DBCONTENT","DBCONTENT structure [Indexing Service]","_idxs_DBCONTENT","cmdtree/DBCONTENT","indexsrv.dbcontent","tagDBCONTENT"]
 old-location: indexsrv\dbcontent.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_569g.htm

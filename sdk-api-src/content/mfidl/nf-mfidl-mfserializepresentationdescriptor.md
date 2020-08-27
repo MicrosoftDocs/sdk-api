@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFSerializePresentationDescriptor
 title: MFSerializePresentationDescriptor function (mfidl.h)
-description: Serializes a presentation descriptor to a byte array.helpviewer_keywords: ["MFSerializePresentationDescriptor","MFSerializePresentationDescriptor function [Media Foundation]","f39a0dc8-438e-4723-94e4-a194a0a460e3","mf.mfserializepresentationdescriptor","mfidl/MFSerializePresentationDescriptor"]
+description: Serializes a presentation descriptor to a byte array.
+helpviewer_keywords: ["MFSerializePresentationDescriptor","MFSerializePresentationDescriptor function [Media Foundation]","f39a0dc8-438e-4723-94e4-a194a0a460e3","mf.mfserializepresentationdescriptor","mfidl/MFSerializePresentationDescriptor"]
 old-location: mf\mfserializepresentationdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f39a0dc8-438e-4723-94e4-a194a0a460e3
 ms.date: 12/05/2018
 ms.keywords: MFSerializePresentationDescriptor, MFSerializePresentationDescriptor function [Media Foundation], f39a0dc8-438e-4723-94e4-a194a0a460e3, mf.mfserializepresentationdescriptor, mfidl/MFSerializePresentationDescriptor

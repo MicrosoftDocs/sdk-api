@@ -1,9 +1,10 @@
 ---
 UID: NS:usbuser._USB_PASS_THRU_PARAMETERS
 title: USB_PASS_THRU_PARAMETERS (usbuser.h)
-description: The USB_PASS_THRU_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to pass a vendor-specific command to the host controller miniport driver.helpviewer_keywords: ["*PUSB_PASS_THRU_PARAMETERS","PUSB_PASS_THRU_PARAMETERS","PUSB_PASS_THRU_PARAMETERS structure pointer [Buses]","USB_PASS_THRU_PARAMETERS","USB_PASS_THRU_PARAMETERS structure [Buses]","buses.usb_pass_thru_parameters","usbstrct_1e8e5d21-ea79-4617-80c6-4f66f149d16a.xml","usbuser/PUSB_PASS_THRU_PARAMETERS","usbuser/USB_PASS_THRU_PARAMETERS"]
+description: The USB_PASS_THRU_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to pass a vendor-specific command to the host controller miniport driver.
+helpviewer_keywords: ["*PUSB_PASS_THRU_PARAMETERS","PUSB_PASS_THRU_PARAMETERS","PUSB_PASS_THRU_PARAMETERS structure pointer [Buses]","USB_PASS_THRU_PARAMETERS","USB_PASS_THRU_PARAMETERS structure [Buses]","buses.usb_pass_thru_parameters","usbstrct_1e8e5d21-ea79-4617-80c6-4f66f149d16a.xml","usbuser/PUSB_PASS_THRU_PARAMETERS","usbuser/USB_PASS_THRU_PARAMETERS"]
 old-location: buses\usb_pass_thru_parameters.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 04a29463-af7b-44a4-aac1-20f386c7dd20
 ms.date: 12/05/2018
 ms.keywords: '*PUSB_PASS_THRU_PARAMETERS, PUSB_PASS_THRU_PARAMETERS, PUSB_PASS_THRU_PARAMETERS structure pointer [Buses], USB_PASS_THRU_PARAMETERS, USB_PASS_THRU_PARAMETERS structure [Buses], buses.usb_pass_thru_parameters, usbstrct_1e8e5d21-ea79-4617-80c6-4f66f149d16a.xml, usbuser/PUSB_PASS_THRU_PARAMETERS, usbuser/USB_PASS_THRU_PARAMETERS'

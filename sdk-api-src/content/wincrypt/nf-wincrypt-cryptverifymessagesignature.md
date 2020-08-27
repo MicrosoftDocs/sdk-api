@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptVerifyMessageSignature
 title: CryptVerifyMessageSignature function (wincrypt.h)
-description: Verifies a signed message's signature.helpviewer_keywords: ["CryptVerifyMessageSignature","CryptVerifyMessageSignature function [Security]","_crypto2_cryptverifymessagesignature","security.cryptverifymessagesignature","wincrypt/CryptVerifyMessageSignature"]
+description: Verifies a signed message's signature.
+helpviewer_keywords: ["CryptVerifyMessageSignature","CryptVerifyMessageSignature function [Security]","_crypto2_cryptverifymessagesignature","security.cryptverifymessagesignature","wincrypt/CryptVerifyMessageSignature"]
 old-location: security\cryptverifymessagesignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 03411e7a-b097-4059-a198-3d412ae40e38
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [Security], _crypto2_cryptverifymessagesignature, security.cryptverifymessagesignature, wincrypt/CryptVerifyMessageSignature

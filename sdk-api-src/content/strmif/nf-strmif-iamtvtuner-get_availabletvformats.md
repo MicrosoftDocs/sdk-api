@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_AvailableTVFormats
 title: IAMTVTuner::get_AvailableTVFormats (strmif.h)
-description: The get_AvailableTVFormats method retrieves all the analog video TV standards that the tuner supports.helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_AvailableTVFormats method","IAMTVTuner.get_AvailableTVFormats","IAMTVTuner::get_AvailableTVFormats","IAMTVTunerget_AvailableTVFormats","dshow.iamtvtuner_get_availabletvformats","get_AvailableTVFormats","get_AvailableTVFormats method [DirectShow]","get_AvailableTVFormats method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_AvailableTVFormats"]
+description: The get_AvailableTVFormats method retrieves all the analog video TV standards that the tuner supports.
+helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_AvailableTVFormats method","IAMTVTuner.get_AvailableTVFormats","IAMTVTuner::get_AvailableTVFormats","IAMTVTunerget_AvailableTVFormats","dshow.iamtvtuner_get_availabletvformats","get_AvailableTVFormats","get_AvailableTVFormats method [DirectShow]","get_AvailableTVFormats method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_AvailableTVFormats"]
 old-location: dshow\iamtvtuner_get_availabletvformats.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7b1a31d4-be05-4ab3-8ca3-b1a3f4bda03f
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_AvailableTVFormats method, IAMTVTuner.get_AvailableTVFormats, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AvailableTVFormats

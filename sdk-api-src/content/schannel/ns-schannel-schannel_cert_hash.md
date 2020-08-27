@@ -1,9 +1,10 @@
 ---
 UID: NS:schannel._SCHANNEL_CERT_HASH
 title: SCHANNEL_CERT_HASH (schannel.h)
-description: Contains the hash store data for the certificate that Schannel uses.helpviewer_keywords: ["*PSCHANNEL_CERT_HASH","PSCHANNEL_CERT_HASH","PSCHANNEL_CERT_HASH structure pointer [Security]","SCHANNEL_CERT_HASH","SCHANNEL_CERT_HASH structure [Security]","SCH_MACHINE_CERT_HASH","schannel/PSCHANNEL_CERT_HASH","schannel/SCHANNEL_CERT_HASH","security.schannel_cert_hash"]
+description: Contains the hash store data for the certificate that Schannel uses.
+helpviewer_keywords: ["*PSCHANNEL_CERT_HASH","PSCHANNEL_CERT_HASH","PSCHANNEL_CERT_HASH structure pointer [Security]","SCHANNEL_CERT_HASH","SCHANNEL_CERT_HASH structure [Security]","SCH_MACHINE_CERT_HASH","schannel/PSCHANNEL_CERT_HASH","schannel/SCHANNEL_CERT_HASH","security.schannel_cert_hash"]
 old-location: security\schannel_cert_hash.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
 ms.date: 12/05/2018
 ms.keywords: '*PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH structure pointer [Security], SCHANNEL_CERT_HASH, SCHANNEL_CERT_HASH structure [Security], SCH_MACHINE_CERT_HASH, schannel/PSCHANNEL_CERT_HASH, schannel/SCHANNEL_CERT_HASH, security.schannel_cert_hash'

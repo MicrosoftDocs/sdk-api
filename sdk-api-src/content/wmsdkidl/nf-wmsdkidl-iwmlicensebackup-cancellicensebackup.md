@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup
 title: IWMLicenseBackup::CancelLicenseBackup (wmsdkidl.h)
-description: The CancelLicenseBackup method cancels a current backup operation.helpviewer_keywords: ["CancelLicenseBackup","CancelLicenseBackup method [windows Media Format]","CancelLicenseBackup method [windows Media Format]","IWMLicenseBackup interface","IWMLicenseBackup interface [windows Media Format]","CancelLicenseBackup method","IWMLicenseBackup.CancelLicenseBackup","IWMLicenseBackup::CancelLicenseBackup","IWMLicenseBackupCancelLicenseBackup","wmformat.iwmlicensebackup_cancellicensebackup","wmsdkidl/IWMLicenseBackup::CancelLicenseBackup"]
+description: The CancelLicenseBackup method cancels a current backup operation.
+helpviewer_keywords: ["CancelLicenseBackup","CancelLicenseBackup method [windows Media Format]","CancelLicenseBackup method [windows Media Format]","IWMLicenseBackup interface","IWMLicenseBackup interface [windows Media Format]","CancelLicenseBackup method","IWMLicenseBackup.CancelLicenseBackup","IWMLicenseBackup::CancelLicenseBackup","IWMLicenseBackupCancelLicenseBackup","wmformat.iwmlicensebackup_cancellicensebackup","wmsdkidl/IWMLicenseBackup::CancelLicenseBackup"]
 old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm
 tech.root: wmformat
 ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a

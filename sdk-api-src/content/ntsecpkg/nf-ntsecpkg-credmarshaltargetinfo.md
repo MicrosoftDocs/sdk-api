@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecpkg.CredMarshalTargetInfo
 title: CredMarshalTargetInfo function (ntsecpkg.h)
-description: Serializes the specified target into an array of byte values.helpviewer_keywords: ["CredMarshalTargetInfo","CredMarshalTargetInfo function [Security]","ntsecpkg/CredMarshalTargetInfo","security.credmarshaltargetinfo"]
+description: Serializes the specified target into an array of byte values.
+helpviewer_keywords: ["CredMarshalTargetInfo","CredMarshalTargetInfo function [Security]","ntsecpkg/CredMarshalTargetInfo","security.credmarshaltargetinfo"]
 old-location: security\credmarshaltargetinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1e50a135-e8b3-4aa6-a3b0-f4b1490310e5
 ms.date: 12/05/2018
 ms.keywords: CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], ntsecpkg/CredMarshalTargetInfo, security.credmarshaltargetinfo

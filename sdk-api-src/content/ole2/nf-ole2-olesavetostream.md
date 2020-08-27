@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleSaveToStream
 title: OleSaveToStream function (ole2.h)
-description: Saves an object with the IPersistStream interface on it to the specified stream.helpviewer_keywords: ["OleSaveToStream","OleSaveToStream function [COM]","_ole_OleSaveToStream","com.olesavetostream","ole/OleSaveToStream"]
+description: Saves an object with the IPersistStream interface on it to the specified stream.
+helpviewer_keywords: ["OleSaveToStream","OleSaveToStream function [COM]","_ole_OleSaveToStream","com.olesavetostream","ole/OleSaveToStream"]
 old-location: com\olesavetostream.htm
 tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
@@ -62,12 +63,12 @@ Saves an object with the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-#### - pPStm [in]
+### -param pPStm [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
 
 
-#### - pStm [in]
+### -param pStm [in]
 
  Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream in which the object is to be saved.
 

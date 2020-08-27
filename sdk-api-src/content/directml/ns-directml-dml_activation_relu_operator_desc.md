@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ACTIVATION_RELU_OPERATOR_DESC
 title: DML_ACTIVATION_RELU_OPERATOR_DESC
-description: Describes a DirectML operator that performs a rectified linear unit (ReLU) activation function on every element in the input, f(x) = max(0, x).helpviewer_keywords: ["DML_ACTIVATION_RELU_OPERATOR_DESC","DML_ACTIVATION_RELU_OPERATOR_DESC structure","direct3d12.dml_activation_relu_operator_desc","directml/DML_ACTIVATION_RELU_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a rectified linear unit (ReLU) activation function on every element in the input, f(x) = max(0, x).
+helpviewer_keywords: ["DML_ACTIVATION_RELU_OPERATOR_DESC","DML_ACTIVATION_RELU_OPERATOR_DESC structure","direct3d12.dml_activation_relu_operator_desc","directml/DML_ACTIVATION_RELU_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_relu_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: F5D602C4-C4FF-49BE-B054-7C587B3AAE5F
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_RELU_OPERATOR_DESC, DML_ACTIVATION_RELU_OPERATOR_DESC structure, direct3d12.dml_activation_relu_operator_desc, directml/DML_ACTIVATION_RELU_OPERATOR_DESC

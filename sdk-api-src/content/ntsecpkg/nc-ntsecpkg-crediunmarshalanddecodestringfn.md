@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.CrediUnmarshalandDecodeStringFn
 title: CrediUnmarshalandDecodeStringFn (ntsecpkg.h)
-description: Transforms a marshaled string back into its original form, and decrypts the unmarshaled string.helpviewer_keywords: ["CrediUnmarshalandDecodeString","CrediUnmarshalandDecodeString callback function [Security]","CrediUnmarshalandDecodeStringFn","CrediUnmarshalandDecodeStringFn callback","ntsecpkg/CrediUnmarshalandDecodeString","security.crediunmarshalanddecodestring"]
+description: Transforms a marshaled string back into its original form, and decrypts the unmarshaled string.
+helpviewer_keywords: ["CrediUnmarshalandDecodeString","CrediUnmarshalandDecodeString callback function [Security]","CrediUnmarshalandDecodeStringFn","CrediUnmarshalandDecodeStringFn callback","ntsecpkg/CrediUnmarshalandDecodeString","security.crediunmarshalanddecodestring"]
 old-location: security\crediunmarshalanddecodestring.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 15423c8d-ea3b-4981-b059-5828555a9e89
 ms.date: 12/05/2018
 ms.keywords: CrediUnmarshalandDecodeString, CrediUnmarshalandDecodeString callback function [Security], CrediUnmarshalandDecodeStringFn, CrediUnmarshalandDecodeStringFn callback, ntsecpkg/CrediUnmarshalandDecodeString, security.crediunmarshalanddecodestring

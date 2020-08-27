@@ -1,9 +1,10 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetVideoProcessorCaps
 title: IMFVideoProcessor::GetVideoProcessorCaps (evr9.h)
-description: Retrieves the capabilities of a video processor mode.helpviewer_keywords: ["9a02aed2-8225-4416-ae54-7ed51c67a149","GetVideoProcessorCaps","GetVideoProcessorCaps method [Media Foundation]","GetVideoProcessorCaps method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetVideoProcessorCaps method","IMFVideoProcessor.GetVideoProcessorCaps","IMFVideoProcessor::GetVideoProcessorCaps","evr9/IMFVideoProcessor::GetVideoProcessorCaps","mf.imfvideoprocessor_getvideoprocessorcaps"]
+description: Retrieves the capabilities of a video processor mode.
+helpviewer_keywords: ["9a02aed2-8225-4416-ae54-7ed51c67a149","GetVideoProcessorCaps","GetVideoProcessorCaps method [Media Foundation]","GetVideoProcessorCaps method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetVideoProcessorCaps method","IMFVideoProcessor.GetVideoProcessorCaps","IMFVideoProcessor::GetVideoProcessorCaps","evr9/IMFVideoProcessor::GetVideoProcessorCaps","mf.imfvideoprocessor_getvideoprocessorcaps"]
 old-location: mf\imfvideoprocessor_getvideoprocessorcaps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9a02aed2-8225-4416-ae54-7ed51c67a149
 ms.date: 12/05/2018
 ms.keywords: 9a02aed2-8225-4416-ae54-7ed51c67a149, GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetVideoProcessorCaps method, IMFVideoProcessor.GetVideoProcessorCaps, IMFVideoProcessor::GetVideoProcessorCaps, evr9/IMFVideoProcessor::GetVideoProcessorCaps, mf.imfvideoprocessor_getvideoprocessorcaps

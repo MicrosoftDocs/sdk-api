@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaTimeRange
 title: IMFMediaTimeRange (mfmediaengine.h)
-description: Represents a list of time ranges, where each range is defined by a start and end time.helpviewer_keywords: ["IMFMediaTimeRange","IMFMediaTimeRange interface [Media Foundation]","IMFMediaTimeRange interface [Media Foundation]","described","mf.imfmediatimerange","mfmediaengine/IMFMediaTimeRange"]
+description: Represents a list of time ranges, where each range is defined by a start and end time.
+helpviewer_keywords: ["IMFMediaTimeRange","IMFMediaTimeRange interface [Media Foundation]","IMFMediaTimeRange interface [Media Foundation]","described","mf.imfmediatimerange","mfmediaengine/IMFMediaTimeRange"]
 old-location: mf\imfmediatimerange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E39646E6-66F4-4413-A84B-43039689AEE7
 ms.date: 12/05/2018
 ms.keywords: IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], IMFMediaTimeRange interface [Media Foundation],described, mf.imfmediatimerange, mfmediaengine/IMFMediaTimeRange

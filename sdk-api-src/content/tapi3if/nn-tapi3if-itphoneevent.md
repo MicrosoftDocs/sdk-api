@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITPhoneEvent
 title: ITPhoneEvent (tapi3if.h)
-description: The ITPhoneEvent interface contains methods that retrieve the description of phone events that have occurred.helpviewer_keywords: ["ITPhoneEvent","ITPhoneEvent interface [TAPI 2.2]","ITPhoneEvent interface [TAPI 2.2]","described","_tapi3_itphoneevent","tapi3.itphoneevent","tapi3if/ITPhoneEvent"]
+description: The ITPhoneEvent interface contains methods that retrieve the description of phone events that have occurred.
+helpviewer_keywords: ["ITPhoneEvent","ITPhoneEvent interface [TAPI 2.2]","ITPhoneEvent interface [TAPI 2.2]","described","_tapi3_itphoneevent","tapi3.itphoneevent","tapi3if/ITPhoneEvent"]
 old-location: tapi3\itphoneevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent

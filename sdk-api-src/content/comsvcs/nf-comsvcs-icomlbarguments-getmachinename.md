@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetMachineName
 title: ICOMLBArguments::GetMachineName (comsvcs.h)
-description: Retrieves the computer name for the load balancing server.helpviewer_keywords: ["GetMachineName","GetMachineName method [COM+]","GetMachineName method [COM+]","ICOMLBArguments interface","ICOMLBArguments interface [COM+]","GetMachineName method","ICOMLBArguments.GetMachineName","ICOMLBArguments::GetMachineName","_cos_ICOMLBArguments_GetMachineName","comsvcs/ICOMLBArguments::GetMachineName","cos.icomlbarguments_getmachinename"]
+description: Retrieves the computer name for the load balancing server.
+helpviewer_keywords: ["GetMachineName","GetMachineName method [COM+]","GetMachineName method [COM+]","ICOMLBArguments interface","ICOMLBArguments interface [COM+]","GetMachineName method","ICOMLBArguments.GetMachineName","ICOMLBArguments::GetMachineName","_cos_ICOMLBArguments_GetMachineName","comsvcs/ICOMLBArguments::GetMachineName","cos.icomlbarguments_getmachinename"]
 old-location: cos\icomlbarguments_getmachinename.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b1f6adc8-2e89-4f64-9694-2342c967a142
 ms.date: 12/05/2018
 ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetMachineName method, ICOMLBArguments.GetMachineName, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename

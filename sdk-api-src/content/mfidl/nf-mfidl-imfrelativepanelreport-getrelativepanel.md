@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Gets a value from the ACPI_PLD_PANEL enumeration indicating the location of the capture device.
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

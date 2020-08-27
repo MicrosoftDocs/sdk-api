@@ -1,7 +1,8 @@
 ---
 UID: NC:elscore.PFN_MAPPINGCALLBACKPROC
 title: PFN_MAPPINGCALLBACKPROC (elscore.h)
-description: An application-defined callback function that asynchronously processes data produced by the MappingRecognizeText function.helpviewer_keywords: ["MappingCallbackProc","MappingCallbackProc callback function [Internationalization for Windows Applications]","PFN_MAPPINGCALLBACKPROC","PFN_MAPPINGCALLBACKPROC callback","elscore/MappingCallbackProc","intl.mappingcallbackproc"]
+description: An application-defined callback function that asynchronously processes data produced by the MappingRecognizeText function.
+helpviewer_keywords: ["MappingCallbackProc","MappingCallbackProc callback function [Internationalization for Windows Applications]","PFN_MAPPINGCALLBACKPROC","PFN_MAPPINGCALLBACKPROC callback","elscore/MappingCallbackProc","intl.mappingcallbackproc"]
 old-location: intl\mappingcallbackproc.htm
 tech.root: Intl
 ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0

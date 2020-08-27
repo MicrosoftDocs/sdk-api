@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFInitVideoFormat
 title: MFInitVideoFormat function (mfapi.h)
-description: Initializes an MFVIDEOFORMAT structure for a standard video format such as DVD, analog television, or ATSC digital television.helpviewer_keywords: ["1cb47f95-cdb6-4998-9980-2f22e282df11","MFInitVideoFormat","MFInitVideoFormat function [Media Foundation]","mf.mfinitvideoformat","mfapi/MFInitVideoFormat"]
+description: Initializes an MFVIDEOFORMAT structure for a standard video format such as DVD, analog television, or ATSC digital television.
+helpviewer_keywords: ["1cb47f95-cdb6-4998-9980-2f22e282df11","MFInitVideoFormat","MFInitVideoFormat function [Media Foundation]","mf.mfinitvideoformat","mfapi/MFInitVideoFormat"]
 old-location: mf\mfinitvideoformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
 ms.date: 12/05/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat

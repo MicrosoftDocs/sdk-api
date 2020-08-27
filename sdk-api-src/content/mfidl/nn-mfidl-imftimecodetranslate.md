@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFTimecodeTranslate
 title: IMFTimecodeTranslate (mfidl.h)
-description: Converts between Society of Motion Picture and Television Engineers (SMPTE) time codes and 100-nanosecond time units.helpviewer_keywords: ["IMFTimecodeTranslate","IMFTimecodeTranslate interface [Media Foundation]","IMFTimecodeTranslate interface [Media Foundation]","described","mf.imftimecodetranslate","mfidl/IMFTimecodeTranslate"]
+description: Converts between Society of Motion Picture and Television Engineers (SMPTE) time codes and 100-nanosecond time units.
+helpviewer_keywords: ["IMFTimecodeTranslate","IMFTimecodeTranslate interface [Media Foundation]","IMFTimecodeTranslate interface [Media Foundation]","described","mf.imftimecodetranslate","mfidl/IMFTimecodeTranslate"]
 old-location: mf\imftimecodetranslate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 935ec6b3-12e6-4458-b8a1-ffeb4159d957
 ms.date: 12/05/2018
 ms.keywords: IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], IMFTimecodeTranslate interface [Media Foundation],described, mf.imftimecodetranslate, mfidl/IMFTimecodeTranslate

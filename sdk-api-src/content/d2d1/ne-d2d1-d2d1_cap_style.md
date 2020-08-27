@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_CAP_STYLE
 title: D2D1_CAP_STYLE (d2d1.h)
-description: Describes the shape at the end of a line or segment.helpviewer_keywords: ["D2D1_CAP_STYLE","D2D1_CAP_STYLE enumeration [Direct2D]","D2D1_CAP_STYLE_FLAT","D2D1_CAP_STYLE_ROUND","D2D1_CAP_STYLE_SQUARE","D2D1_CAP_STYLE_TRIANGLE","d2d1/D2D1_CAP_STYLE","d2d1/D2D1_CAP_STYLE_FLAT","d2d1/D2D1_CAP_STYLE_ROUND","d2d1/D2D1_CAP_STYLE_SQUARE","d2d1/D2D1_CAP_STYLE_TRIANGLE","direct2d.D2D1_CAP_STYLE"]
+description: Describes the shape at the end of a line or segment.
+helpviewer_keywords: ["D2D1_CAP_STYLE","D2D1_CAP_STYLE enumeration [Direct2D]","D2D1_CAP_STYLE_FLAT","D2D1_CAP_STYLE_ROUND","D2D1_CAP_STYLE_SQUARE","D2D1_CAP_STYLE_TRIANGLE","d2d1/D2D1_CAP_STYLE","d2d1/D2D1_CAP_STYLE_FLAT","d2d1/D2D1_CAP_STYLE_ROUND","d2d1/D2D1_CAP_STYLE_SQUARE","d2d1/D2D1_CAP_STYLE_TRIANGLE","direct2d.D2D1_CAP_STYLE"]
 old-location: direct2d\D2D1_CAP_STYLE.htm
 tech.root: Direct2D
 ms.assetid: acf4365e-b9df-459e-a746-016339cd09ac

@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateEmbeddingHelper
 title: OleCreateEmbeddingHelper function (ole2.h)
-description: Creates an OLE embedding helper object using application-supplied code aggregated with pieces of the OLE default object handler. This helper object can be created and used in a specific context and role, as determined by the caller.helpviewer_keywords: ["OleCreateEmbeddingHelper","OleCreateEmbeddingHelper function [COM]","_ole_OleCreateEmbeddingHelper","com.olecreateembeddinghelper","ole2/OleCreateEmbeddingHelper"]
+description: Creates an OLE embedding helper object using application-supplied code aggregated with pieces of the OLE default object handler. This helper object can be created and used in a specific context and role, as determined by the caller.
+helpviewer_keywords: ["OleCreateEmbeddingHelper","OleCreateEmbeddingHelper function [COM]","_ole_OleCreateEmbeddingHelper","com.olecreateembeddinghelper","ole2/OleCreateEmbeddingHelper"]
 old-location: com\olecreateembeddinghelper.htm
 tech.root: com
 ms.assetid: 5c67b513-0692-4e0a-beab-8b514089699c

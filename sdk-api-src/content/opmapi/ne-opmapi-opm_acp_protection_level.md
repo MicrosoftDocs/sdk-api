@@ -1,9 +1,10 @@
 ---
 UID: NE:opmapi._OPM_ACP_PROTECTION_LEVEL
 title: OPM_ACP_PROTECTION_LEVEL (opmapi.h)
-description: Specifies the protection level for Analog Copy Protection (ACP).helpviewer_keywords: ["OPM_ACP_FORCE_ULONG","OPM_ACP_LEVEL_ONE","OPM_ACP_LEVEL_THREE","OPM_ACP_LEVEL_TWO","OPM_ACP_OFF","OPM_ACP_PROTECTION_LEVEL","OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation]","mf.opm_acp_protection_level","opmapi/OPM_ACP_FORCE_ULONG","opmapi/OPM_ACP_LEVEL_ONE","opmapi/OPM_ACP_LEVEL_THREE","opmapi/OPM_ACP_LEVEL_TWO","opmapi/OPM_ACP_OFF","opmapi/OPM_ACP_PROTECTION_LEVEL"]
+description: Specifies the protection level for Analog Copy Protection (ACP).
+helpviewer_keywords: ["OPM_ACP_FORCE_ULONG","OPM_ACP_LEVEL_ONE","OPM_ACP_LEVEL_THREE","OPM_ACP_LEVEL_TWO","OPM_ACP_OFF","OPM_ACP_PROTECTION_LEVEL","OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation]","mf.opm_acp_protection_level","opmapi/OPM_ACP_FORCE_ULONG","opmapi/OPM_ACP_LEVEL_ONE","opmapi/OPM_ACP_LEVEL_THREE","opmapi/OPM_ACP_LEVEL_TWO","opmapi/OPM_ACP_OFF","opmapi/OPM_ACP_PROTECTION_LEVEL"]
 old-location: mf\opm_acp_protection_level.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f52b4ee6-1ab3-4153-86e3-5ae69fd8a958
 ms.date: 12/05/2018
 ms.keywords: OPM_ACP_FORCE_ULONG, OPM_ACP_LEVEL_ONE, OPM_ACP_LEVEL_THREE, OPM_ACP_LEVEL_TWO, OPM_ACP_OFF, OPM_ACP_PROTECTION_LEVEL, OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], mf.opm_acp_protection_level, opmapi/OPM_ACP_FORCE_ULONG, opmapi/OPM_ACP_LEVEL_ONE, opmapi/OPM_ACP_LEVEL_THREE, opmapi/OPM_ACP_LEVEL_TWO, opmapi/OPM_ACP_OFF, opmapi/OPM_ACP_PROTECTION_LEVEL

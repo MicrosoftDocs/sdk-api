@@ -1,7 +1,8 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELCLOSE
 title: VIRTUALCHANNELCLOSE (cchannel.h)
-description: Closes the client end of a virtual channel.helpviewer_keywords: ["VirtualChannelClose","VirtualChannelClose callback","VirtualChannelClose callback function [Remote Desktop Services]","_win32_virtualchannelclose","cchannel/VirtualChannelClose","termserv.virtualchannelclose"]
+description: Closes the client end of a virtual channel.
+helpviewer_keywords: ["VirtualChannelClose","VirtualChannelClose callback","VirtualChannelClose callback function [Remote Desktop Services]","_win32_virtualchannelclose","cchannel/VirtualChannelClose","termserv.virtualchannelclose"]
 old-location: termserv\virtualchannelclose.htm
 tech.root: TermServ
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1

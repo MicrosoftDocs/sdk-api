@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.ControlTraceA
 title: ControlTraceA function (evntrace.h)
-description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.helpviewer_keywords: ["ControlTrace","ControlTrace function [ETW]","ControlTraceA","ControlTraceW","EVENT_TRACE_CONTROL_FLUSH","EVENT_TRACE_CONTROL_QUERY","EVENT_TRACE_CONTROL_STOP","EVENT_TRACE_CONTROL_UPDATE","_evt_controltrace","base.controltrace","etw.controltrace","evntrace/ControlTrace","evntrace/ControlTraceA","evntrace/ControlTraceW"]
+description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
+helpviewer_keywords: ["ControlTrace","ControlTrace function [ETW]","ControlTraceA","ControlTraceW","EVENT_TRACE_CONTROL_FLUSH","EVENT_TRACE_CONTROL_QUERY","EVENT_TRACE_CONTROL_STOP","EVENT_TRACE_CONTROL_UPDATE","_evt_controltrace","base.controltrace","etw.controltrace","evntrace/ControlTrace","evntrace/ControlTraceA","evntrace/ControlTraceW"]
 old-location: etw\controltrace.htm
 tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
@@ -339,6 +340,10 @@ This function supersedes the <a href="https://docs.microsoft.com/windows/desktop
 
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines ControlTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

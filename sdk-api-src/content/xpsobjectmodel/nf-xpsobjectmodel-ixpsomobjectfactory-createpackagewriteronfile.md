@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageWriterOnFile
 title: IXpsOMObjectFactory::CreatePackageWriterOnFile (xpsobjectmodel.h)
-description: Opens a file for writing the contents of an XPS OM to an XPS package.helpviewer_keywords: ["CreatePackageWriterOnFile","CreatePackageWriterOnFile method [XPS Documents and Packaging]","CreatePackageWriterOnFile method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageWriterOnFile method","IXpsOMObjectFactory.CreatePackageWriterOnFile","IXpsOMObjectFactory::CreatePackageWriterOnFile","TRUE","xps.ixpsomobjectfactory_createpackagewriteronfile","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnFile"]
+description: Opens a file for writing the contents of an XPS OM to an XPS package.
+helpviewer_keywords: ["CreatePackageWriterOnFile","CreatePackageWriterOnFile method [XPS Documents and Packaging]","CreatePackageWriterOnFile method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageWriterOnFile method","IXpsOMObjectFactory.CreatePackageWriterOnFile","IXpsOMObjectFactory::CreatePackageWriterOnFile","TRUE","xps.ixpsomobjectfactory_createpackagewriteronfile","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnFile"]
 old-location: xps\ixpsomobjectfactory_createpackagewriteronfile.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 67d081a6-ec10-4cd3-8f77-b7653aef27a1
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnFile, CreatePackageWriterOnFile method [XPS Documents and Packaging], CreatePackageWriterOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageWriterOnFile method, IXpsOMObjectFactory.CreatePackageWriterOnFile, IXpsOMObjectFactory::CreatePackageWriterOnFile, TRUE, xps.ixpsomobjectfactory_createpackagewriteronfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnFile

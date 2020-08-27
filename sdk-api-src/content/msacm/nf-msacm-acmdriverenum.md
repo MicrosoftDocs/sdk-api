@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmDriverEnum
 title: acmDriverEnum function (msacm.h)
-description: The acmDriverEnum function enumerates the available ACM drivers, continuing until there are no more drivers or the callback function returns FALSE.helpviewer_keywords: ["_win32_acmDriverEnum","acmDriverEnum","acmDriverEnum function [Windows Multimedia]","msacm/acmDriverEnum","multimedia.acmdriverenum"]
+description: The acmDriverEnum function enumerates the available ACM drivers, continuing until there are no more drivers or the callback function returns FALSE.
+helpviewer_keywords: ["_win32_acmDriverEnum","acmDriverEnum","acmDriverEnum function [Windows Multimedia]","msacm/acmDriverEnum","multimedia.acmdriverenum"]
 old-location: multimedia\acmdriverenum.htm
 tech.root: Multimedia
 ms.assetid: 3e93284d-2810-4c8e-9619-1989d8bf788e

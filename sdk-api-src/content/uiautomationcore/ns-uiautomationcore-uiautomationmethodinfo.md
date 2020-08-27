@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcore.UIAutomationMethodInfo
 title: UIAutomationMethodInfo (uiautomationcore.h)
-description: Contains information about a method that is supported by a custom control pattern.helpviewer_keywords: ["UIAutomationMethodInfo","UIAutomationMethodInfo structure [Windows Accessibility]","uiauto.uiauto_UIAutomationMethodInfoStruct","uiauto_UIAutomationMethodInfoStruct","uiautomationcore/UIAutomationMethodInfo","winauto.uiauto_UIAutomationMethodInfoStruct"]
+description: Contains information about a method that is supported by a custom control pattern.
+helpviewer_keywords: ["UIAutomationMethodInfo","UIAutomationMethodInfo structure [Windows Accessibility]","uiauto.uiauto_UIAutomationMethodInfoStruct","uiauto_UIAutomationMethodInfoStruct","uiautomationcore/UIAutomationMethodInfo","winauto.uiauto_UIAutomationMethodInfoStruct"]
 old-location: winauto\uiauto_UIAutomationMethodInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: 33a52126-8757-44d0-91e1-758f51e3d0f8

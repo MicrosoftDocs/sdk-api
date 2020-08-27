@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Resume
 title: IPackageDebugSettings::Resume (shobjidl_core.h)
-description: Resumes the processes of the package if they are currently suspended.helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","Resume method","IPackageDebugSettings.Resume","IPackageDebugSettings::Resume","Resume","Resume method [Windows Shell]","Resume method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_Resume","shobjidl_core/IPackageDebugSettings::Resume"]
+description: Resumes the processes of the package if they are currently suspended.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","Resume method","IPackageDebugSettings.Resume","IPackageDebugSettings::Resume","Resume","Resume method [Windows Shell]","Resume method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_Resume","shobjidl_core/IPackageDebugSettings::Resume"]
 old-location: shell\IPackageDebugSettings_Resume.htm
 tech.root: shell
 ms.assetid: 2f0b3188-4c58-4ff6-983e-912131a7c934

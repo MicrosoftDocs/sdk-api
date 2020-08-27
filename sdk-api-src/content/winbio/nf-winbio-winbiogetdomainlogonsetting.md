@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioGetDomainLogonSetting
 title: WinBioGetDomainLogonSetting function (winbio.h)
-description: Retrieves a value that specifies whether users can log on to a domain by using biometric information.helpviewer_keywords: ["WINBIO_SETTING_SOURCE_DEFAULT","WINBIO_SETTING_SOURCE_INVALID","WINBIO_SETTING_SOURCE_LOCAL","WINBIO_SETTING_SOURCE_POLICY","WinBioGetDomainLogonSetting","WinBioGetDomainLogonSetting function [Windows Biometric Framework API]","secbiomet.winbiogetdomainlogonsetting","winbio/WinBioGetDomainLogonSetting"]
+description: Retrieves a value that specifies whether users can log on to a domain by using biometric information.
+helpviewer_keywords: ["WINBIO_SETTING_SOURCE_DEFAULT","WINBIO_SETTING_SOURCE_INVALID","WINBIO_SETTING_SOURCE_LOCAL","WINBIO_SETTING_SOURCE_POLICY","WinBioGetDomainLogonSetting","WinBioGetDomainLogonSetting function [Windows Biometric Framework API]","secbiomet.winbiogetdomainlogonsetting","winbio/WinBioGetDomainLogonSetting"]
 old-location: secbiomet\winbiogetdomainlogonsetting.htm
 tech.root: SecBioMet
 ms.assetid: bc09c606-654e-4871-ae2e-09fac3982e94

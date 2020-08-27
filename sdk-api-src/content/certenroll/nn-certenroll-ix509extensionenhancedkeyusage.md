@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509ExtensionEnhancedKeyUsage
 title: IX509ExtensionEnhancedKeyUsage (certenroll.h)
-description: Can be used to define a collection of object identifiers (OIDs) that identify the intended uses of the public key contained in the certificate.helpviewer_keywords: ["IX509ExtensionEnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage interface [Security]","IX509ExtensionEnhancedKeyUsage interface [Security]","described","certenroll/IX509ExtensionEnhancedKeyUsage","security.ix509extensionenhancedkeyusage"]
+description: Can be used to define a collection of object identifiers (OIDs) that identify the intended uses of the public key contained in the certificate.
+helpviewer_keywords: ["IX509ExtensionEnhancedKeyUsage","IX509ExtensionEnhancedKeyUsage interface [Security]","IX509ExtensionEnhancedKeyUsage interface [Security]","described","certenroll/IX509ExtensionEnhancedKeyUsage","security.ix509extensionenhancedkeyusage"]
 old-location: security\ix509extensionenhancedkeyusage.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0b9606d0-351c-4d2d-b876-545a9c2cf916
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage interface [Security], IX509ExtensionEnhancedKeyUsage interface [Security],described, certenroll/IX509ExtensionEnhancedKeyUsage, security.ix509extensionenhancedkeyusage

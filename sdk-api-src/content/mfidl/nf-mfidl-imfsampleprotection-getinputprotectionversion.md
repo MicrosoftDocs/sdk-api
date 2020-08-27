@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetInputProtectionVersion
 title: IMFSampleProtection::GetInputProtectionVersion (mfidl.h)
-description: Retrieves the version of sample protection that the component implements on input.helpviewer_keywords: ["26f92775-f8a0-4b85-8cfc-353349325706","GetInputProtectionVersion","GetInputProtectionVersion method [Media Foundation]","GetInputProtectionVersion method [Media Foundation]","IMFSampleProtection interface","IMFSampleProtection interface [Media Foundation]","GetInputProtectionVersion method","IMFSampleProtection.GetInputProtectionVersion","IMFSampleProtection::GetInputProtectionVersion","mf.imfsampleprotection_getinputprotectionversion","mfidl/IMFSampleProtection::GetInputProtectionVersion"]
+description: Retrieves the version of sample protection that the component implements on input.
+helpviewer_keywords: ["26f92775-f8a0-4b85-8cfc-353349325706","GetInputProtectionVersion","GetInputProtectionVersion method [Media Foundation]","GetInputProtectionVersion method [Media Foundation]","IMFSampleProtection interface","IMFSampleProtection interface [Media Foundation]","GetInputProtectionVersion method","IMFSampleProtection.GetInputProtectionVersion","IMFSampleProtection::GetInputProtectionVersion","mf.imfsampleprotection_getinputprotectionversion","mfidl/IMFSampleProtection::GetInputProtectionVersion"]
 old-location: mf\imfsampleprotection_getinputprotectionversion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 26f92775-f8a0-4b85-8cfc-353349325706
 ms.date: 12/05/2018
 ms.keywords: 26f92775-f8a0-4b85-8cfc-353349325706, GetInputProtectionVersion, GetInputProtectionVersion method [Media Foundation], GetInputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetInputProtectionVersion method, IMFSampleProtection.GetInputProtectionVersion, IMFSampleProtection::GetInputProtectionVersion, mf.imfsampleprotection_getinputprotectionversion, mfidl/IMFSampleProtection::GetInputProtectionVersion

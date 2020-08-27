@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetProcessPreferredUILanguages
 title: GetProcessPreferredUILanguages function (winnls.h)
-description: Retrieves the process preferred UI languages. For more information, see User Interface Language Management.helpviewer_keywords: ["GetProcessPreferredUILanguages","GetProcessPreferredUILanguages function [Internationalization for Windows Applications]","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","intl.getprocesspreferreduilanguages","winnls/GetProcessPreferredUILanguages"]
+description: Retrieves the process preferred UI languages. For more information, see User Interface Language Management.
+helpviewer_keywords: ["GetProcessPreferredUILanguages","GetProcessPreferredUILanguages function [Internationalization for Windows Applications]","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","intl.getprocesspreferreduilanguages","winnls/GetProcessPreferredUILanguages"]
 old-location: intl\getprocesspreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 115fd1f4-39ae-4c69-aa42-606617a989aa

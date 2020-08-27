@@ -1,9 +1,10 @@
 ---
 UID: NF:mergemod.IMsmDependency.get_Language
 title: IMsmDependency::get_Language (mergemod.h)
-description: The get_Language method retrieves the Language property of the Dependency object. This method returns the LANGID of the required module.helpviewer_keywords: ["IMsmDependency interface","get_Language method","IMsmDependency.get_Language","IMsmDependency::get_Language","_msi_get_language_function_dependency_object_","get_Language","get_Language method","get_Language method","IMsmDependency interface","mergemod/IMsmDependency::get_Language","setup.imsmdependency_get_language"]
+description: The get_Language method retrieves the Language property of the Dependency object. This method returns the LANGID of the required module.
+helpviewer_keywords: ["IMsmDependency interface","get_Language method","IMsmDependency.get_Language","IMsmDependency::get_Language","_msi_get_language_function_dependency_object_","get_Language","get_Language method","get_Language method","IMsmDependency interface","mergemod/IMsmDependency::get_Language","setup.imsmdependency_get_language"]
 old-location: setup\imsmdependency_get_language.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: eb7e224d-948e-46d6-ac1b-cd851530cc8b
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency interface,get_Language method, IMsmDependency.get_Language, IMsmDependency::get_Language, _msi_get_language_function_dependency_object_, get_Language, get_Language method, get_Language method,IMsmDependency interface, mergemod/IMsmDependency::get_Language, setup.imsmdependency_get_language

@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanSetSecuritySettings
 title: WlanSetSecuritySettings function (wlanapi.h)
-description: Sets the security settings for a configurable object.helpviewer_keywords: ["WlanSetSecuritySettings","WlanSetSecuritySettings function [NativeWIFI]","nwifi.wlansetsecuritysettings","wlanapi/WlanSetSecuritySettings"]
+description: Sets the security settings for a configurable object.
+helpviewer_keywords: ["WlanSetSecuritySettings","WlanSetSecuritySettings function [NativeWIFI]","nwifi.wlansetsecuritysettings","wlanapi/WlanSetSecuritySettings"]
 old-location: nwifi\wlansetsecuritysettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.date: 12/05/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings

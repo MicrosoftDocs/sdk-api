@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetTransaction
 title: IObjectContextInfo::GetTransaction (comsvcs.h)
-description: Retrieves a reference to the current transaction.helpviewer_keywords: ["GetTransaction","GetTransaction method [COM+]","GetTransaction method [COM+]","IObjectContextInfo interface","IObjectContextInfo interface [COM+]","GetTransaction method","IObjectContextInfo.GetTransaction","IObjectContextInfo::GetTransaction","_cos_IObjectContextInfo_GetTransaction","comsvcs/IObjectContextInfo::GetTransaction","cos.iobjectcontextinfo_gettransaction"]
+description: Retrieves a reference to the current transaction.
+helpviewer_keywords: ["GetTransaction","GetTransaction method [COM+]","GetTransaction method [COM+]","IObjectContextInfo interface","IObjectContextInfo interface [COM+]","GetTransaction method","IObjectContextInfo.GetTransaction","IObjectContextInfo::GetTransaction","_cos_IObjectContextInfo_GetTransaction","comsvcs/IObjectContextInfo::GetTransaction","cos.iobjectcontextinfo_gettransaction"]
 old-location: cos\iobjectcontextinfo_gettransaction.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e3a19d49-740a-436c-be6b-c98b5a14dc93
 ms.date: 12/05/2018
 ms.keywords: GetTransaction, GetTransaction method [COM+], GetTransaction method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransaction method, IObjectContextInfo.GetTransaction, IObjectContextInfo::GetTransaction, _cos_IObjectContextInfo_GetTransaction, comsvcs/IObjectContextInfo::GetTransaction, cos.iobjectcontextinfo_gettransaction

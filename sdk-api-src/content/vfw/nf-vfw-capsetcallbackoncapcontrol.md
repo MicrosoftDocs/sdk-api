@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capSetCallbackOnCapControl
 title: capSetCallbackOnCapControl macro (vfw.h)
-description: The capSetCallbackOnCapControl macro sets a callback function in the application giving it precise recording control. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_CAPCONTROL message.helpviewer_keywords: ["_win32_capSetCallbackOnCapControl","capSetCallbackOnCapControl","capSetCallbackOnCapControl macro [Windows Multimedia]","multimedia.capsetcallbackoncapcontrol","vfw/capSetCallbackOnCapControl"]
+description: The capSetCallbackOnCapControl macro sets a callback function in the application giving it precise recording control. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_CAPCONTROL message.
+helpviewer_keywords: ["_win32_capSetCallbackOnCapControl","capSetCallbackOnCapControl","capSetCallbackOnCapControl macro [Windows Multimedia]","multimedia.capsetcallbackoncapcontrol","vfw/capSetCallbackOnCapControl"]
 old-location: multimedia\capsetcallbackoncapcontrol.htm
 tech.root: Multimedia
 ms.assetid: 78bc83f6-06a0-4c41-92ce-932578bcb010

@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineEME
 title: IMFMediaEngineEME (mfmediaengine.h)
-description: Implemented by the media engine to add encrypted media extensions methods.helpviewer_keywords: ["IMFMediaEngineEME","IMFMediaEngineEME interface [Media Foundation]","IMFMediaEngineEME interface [Media Foundation]","described","mf.imfmediaengineeme","mfmediaengine/IMFMediaEngineEME"]
+description: Implemented by the media engine to add encrypted media extensions methods.
+helpviewer_keywords: ["IMFMediaEngineEME","IMFMediaEngineEME interface [Media Foundation]","IMFMediaEngineEME interface [Media Foundation]","described","mf.imfmediaengineeme","mfmediaengine/IMFMediaEngineEME"]
 old-location: mf\imfmediaengineeme.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d03045d5-bafe-4e65-98da-e9ea8104c169
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME, IMFMediaEngineEME interface [Media Foundation], IMFMediaEngineEME interface [Media Foundation],described, mf.imfmediaengineeme, mfmediaengine/IMFMediaEngineEME

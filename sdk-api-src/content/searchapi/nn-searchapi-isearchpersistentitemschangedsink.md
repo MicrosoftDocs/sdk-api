@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchPersistentItemsChangedSink
 title: ISearchPersistentItemsChangedSink (searchapi.h)
-description: Provides methods for passing change notifications to alert the indexer that items need to be updated.helpviewer_keywords: ["ISearchPersistentItemsChangedSink","ISearchPersistentItemsChangedSink interface [search]","ISearchPersistentItemsChangedSink interface [search]","described","_search_ISearchPersistentItemsChangedSink","search._search_ISearchPersistentItemsChangedSink","searchapi/ISearchPersistentItemsChangedSink"]
+description: Provides methods for passing change notifications to alert the indexer that items need to be updated.
+helpviewer_keywords: ["ISearchPersistentItemsChangedSink","ISearchPersistentItemsChangedSink interface [search]","ISearchPersistentItemsChangedSink interface [search]","described","_search_ISearchPersistentItemsChangedSink","search._search_ISearchPersistentItemsChangedSink","searchapi/ISearchPersistentItemsChangedSink"]
 old-location: search\_search_ISearchPersistentItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\isearchpersistentitemschangedsink.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Copy
 title: IUpdateCollection::Copy (wuapi.h)
-description: Creates a shallow read/write copy of the collection.helpviewer_keywords: ["Copy","Copy method [Windows Update Agent]","Copy method [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Copy method","IUpdateCollection.Copy","IUpdateCollection::Copy","wua.iupdatecollection_copy","wuapi/IUpdateCollection::Copy"]
+description: Creates a shallow read/write copy of the collection.
+helpviewer_keywords: ["Copy","Copy method [Windows Update Agent]","Copy method [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Copy method","IUpdateCollection.Copy","IUpdateCollection::Copy","wua.iupdatecollection_copy","wuapi/IUpdateCollection::Copy"]
 old-location: wua\iupdatecollection_copy.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 78a024a4-7aab-4bcb-bd3f-a79ef5580e1b
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Copy method, IUpdateCollection.Copy, IUpdateCollection::Copy, wua.iupdatecollection_copy, wuapi/IUpdateCollection::Copy

@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredUnPackAuthenticationBufferA
 title: CredUnPackAuthenticationBufferA function (wincred.h)
-description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.helpviewer_keywords: ["CredUnPackAuthenticationBuffer","CredUnPackAuthenticationBuffer function [Security]","CredUnPackAuthenticationBufferA","CredUnPackAuthenticationBufferW","security.credunpackauthenticationbuffer","wincred/CredUnPackAuthenticationBuffer","wincred/CredUnPackAuthenticationBufferA","wincred/CredUnPackAuthenticationBufferW"]
+description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
+helpviewer_keywords: ["CredUnPackAuthenticationBuffer","CredUnPackAuthenticationBuffer function [Security]","CredUnPackAuthenticationBufferA","CredUnPackAuthenticationBufferW","security.credunpackauthenticationbuffer","wincred/CredUnPackAuthenticationBuffer","wincred/CredUnPackAuthenticationBufferA","wincred/CredUnPackAuthenticationBufferW"]
 old-location: security\credunpackauthenticationbuffer.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.date: 12/05/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
@@ -190,4 +191,8 @@ If the authentication buffer <i>pAuthBuffer</i> represents a nonpassword credent
 
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredUnPackAuthenticationBuffer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

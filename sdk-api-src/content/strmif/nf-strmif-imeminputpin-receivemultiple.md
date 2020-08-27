@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMemInputPin.ReceiveMultiple
 title: IMemInputPin::ReceiveMultiple (strmif.h)
-description: The ReceiveMultiple method receives multiple samples in the stream.helpviewer_keywords: ["IMemInputPin interface [DirectShow]","ReceiveMultiple method","IMemInputPin.ReceiveMultiple","IMemInputPin::ReceiveMultiple","IMemInputPinReceiveMultiple","ReceiveMultiple","ReceiveMultiple method [DirectShow]","ReceiveMultiple method [DirectShow]","IMemInputPin interface","dshow.imeminputpin_receivemultiple","strmif/IMemInputPin::ReceiveMultiple"]
+description: The ReceiveMultiple method receives multiple samples in the stream.
+helpviewer_keywords: ["IMemInputPin interface [DirectShow]","ReceiveMultiple method","IMemInputPin.ReceiveMultiple","IMemInputPin::ReceiveMultiple","IMemInputPinReceiveMultiple","ReceiveMultiple","ReceiveMultiple method [DirectShow]","ReceiveMultiple method [DirectShow]","IMemInputPin interface","dshow.imeminputpin_receivemultiple","strmif/IMemInputPin::ReceiveMultiple"]
 old-location: dshow\imeminputpin_receivemultiple.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cf90a6e8-0758-4cee-887d-3ac9f7aa764d
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveMultiple method, IMemInputPin.ReceiveMultiple, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple

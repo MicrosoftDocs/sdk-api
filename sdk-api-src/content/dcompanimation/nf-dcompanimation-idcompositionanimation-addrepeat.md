@@ -1,7 +1,8 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddRepeat
 title: IDCompositionAnimation::AddRepeat (dcompanimation.h)
-description: Adds a repeat segment that causes the specified portion of an animation function to be repeated.helpviewer_keywords: ["AddRepeat","AddRepeat method [DirectComposition]","AddRepeat method [DirectComposition]","IDCompositionAnimation interface","IDCompositionAnimation interface [DirectComposition]","AddRepeat method","IDCompositionAnimation.AddRepeat","IDCompositionAnimation::AddRepeat","dcompanimation/IDCompositionAnimation::AddRepeat","directcomp.idcompositionanimation_addrepeat"]
+description: Adds a repeat segment that causes the specified portion of an animation function to be repeated.
+helpviewer_keywords: ["AddRepeat","AddRepeat method [DirectComposition]","AddRepeat method [DirectComposition]","IDCompositionAnimation interface","IDCompositionAnimation interface [DirectComposition]","AddRepeat method","IDCompositionAnimation.AddRepeat","IDCompositionAnimation::AddRepeat","dcompanimation/IDCompositionAnimation::AddRepeat","directcomp.idcompositionanimation_addrepeat"]
 old-location: directcomp\idcompositionanimation_addrepeat.htm
 tech.root: directcomp
 ms.assetid: 14179e2f-3ede-4137-baa4-074bb31e1481

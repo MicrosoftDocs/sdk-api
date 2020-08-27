@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.ItemReconnectBegin
 title: IOfflineFilesEvents2::ItemReconnectBegin (cscobj.h)
-description: Reports that the Offline Files service is beginning to attempt to reconnect all offline scopes.helpviewer_keywords: ["IOfflineFilesEvents2 interface [Offline Files]","ItemReconnectBegin method","IOfflineFilesEvents2.ItemReconnectBegin","IOfflineFilesEvents2::ItemReconnectBegin","ItemReconnectBegin","ItemReconnectBegin method [Offline Files]","ItemReconnectBegin method [Offline Files]","IOfflineFilesEvents2 interface","cscobj/IOfflineFilesEvents2::ItemReconnectBegin","of.iofflinefilesevents2_itemreconnectbegin"]
+description: Reports that the Offline Files service is beginning to attempt to reconnect all offline scopes.
+helpviewer_keywords: ["IOfflineFilesEvents2 interface [Offline Files]","ItemReconnectBegin method","IOfflineFilesEvents2.ItemReconnectBegin","IOfflineFilesEvents2::ItemReconnectBegin","ItemReconnectBegin","ItemReconnectBegin method [Offline Files]","ItemReconnectBegin method [Offline Files]","IOfflineFilesEvents2 interface","cscobj/IOfflineFilesEvents2::ItemReconnectBegin","of.iofflinefilesevents2_itemreconnectbegin"]
 old-location: of\iofflinefilesevents2_itemreconnectbegin.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 7b0d112d-17be-481a-8793-2b57506ec7b2
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectBegin method, IOfflineFilesEvents2.ItemReconnectBegin, IOfflineFilesEvents2::ItemReconnectBegin, ItemReconnectBegin, ItemReconnectBegin method [Offline Files], ItemReconnectBegin method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectBegin, of.iofflinefilesevents2_itemreconnectbegin

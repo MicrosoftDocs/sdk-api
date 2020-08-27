@@ -1,7 +1,8 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByAddr
 title: WSAAsyncGetHostByAddr macro (wsipv6ok.h)
-description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses.helpviewer_keywords: ["WSAAsyncGetHostByAddr","WSAAsyncGetHostByAddr function [Winsock]","_win32_wsaasyncgethostbyaddr_2","winsock.wsaasyncgethostbyaddr_2","wsipv6ok/WSAAsyncGetHostByAddr"]
+description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses.
+helpviewer_keywords: ["WSAAsyncGetHostByAddr","WSAAsyncGetHostByAddr function [Winsock]","_win32_wsaasyncgethostbyaddr_2","winsock.wsaasyncgethostbyaddr_2","wsipv6ok/WSAAsyncGetHostByAddr"]
 old-location: winsock\wsaasyncgethostbyaddr_2.htm
 tech.root: WinSock
 ms.assetid: 814cbb2e-8dd2-44b0-b8be-cfc5491bdc49
@@ -61,32 +62,32 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
 
 
-#### - b [in]
+### -param b [in]
 
 Message to be received when the asynchronous request completes.
 
 
-#### - c [in]
+### -param c [in]
 
 Pointer to the network address for the host. Host addresses are stored in network byte order.
 
 
-#### - d [in]
+### -param d [in]
 
 Length of the address, in bytes.
 
 
-#### - e [in]
+### -param e [in]
 
 Type of the address.
 
 
-#### - f [out]
+### -param f [out]
 
 Pointer to the data area to receive the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> data. The data area must be larger than the size of a 
@@ -95,7 +96,7 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-#### - g [in]
+### -param g [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IShellTaskScheduler
 title: IShellTaskScheduler (shobjidl_core.h)
-description: IShellTaskScheduler may be altered or unavailable.helpviewer_keywords: ["IShellTaskScheduler","IShellTaskScheduler interface [Windows Shell]","IShellTaskScheduler interface [Windows Shell]","described","_win32_IShellTaskScheduler","shell.IShellTaskScheduler","shobjidl_core/IShellTaskScheduler"]
+description: IShellTaskScheduler may be altered or unavailable.
+helpviewer_keywords: ["IShellTaskScheduler","IShellTaskScheduler interface [Windows Shell]","IShellTaskScheduler interface [Windows Shell]","described","_win32_IShellTaskScheduler","shell.IShellTaskScheduler","shobjidl_core/IShellTaskScheduler"]
 old-location: shell\IShellTaskScheduler.htm
 tech.root: shell
 ms.assetid: 4898da7b-3d63-481f-a63a-d4f2554cfc8e

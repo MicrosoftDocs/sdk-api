@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.SetVisualState
 title: IWindowProvider::SetVisualState (uiautomationcore.h)
-description: Changes the visual state of the window. For example, minimizes or maximizes it.helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","SetVisualState method","IWindowProvider.SetVisualState","IWindowProvider::SetVisualState","SetVisualState","SetVisualState method [Windows Accessibility]","SetVisualState method [Windows Accessibility]","IWindowProvider interface","uiauto.uiauto_IWindowProvider_SetVisualState","uiauto_IWindowProvider_SetVisualState","uiautomationcore/IWindowProvider::SetVisualState","winauto.uiauto_IWindowProvider_SetVisualState"]
+description: Changes the visual state of the window. For example, minimizes or maximizes it.
+helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","SetVisualState method","IWindowProvider.SetVisualState","IWindowProvider::SetVisualState","SetVisualState","SetVisualState method [Windows Accessibility]","SetVisualState method [Windows Accessibility]","IWindowProvider interface","uiauto.uiauto_IWindowProvider_SetVisualState","uiauto_IWindowProvider_SetVisualState","uiautomationcore/IWindowProvider::SetVisualState","winauto.uiauto_IWindowProvider_SetVisualState"]
 old-location: winauto\uiauto_IWindowProvider_SetVisualState.htm
 tech.root: WinAuto
 ms.assetid: 89239900-5ee4-4f3a-a398-6ceb4846caf9
@@ -59,7 +60,7 @@ Changes the visual state of the window. For example, minimizes or maximizes it.
 
 
 
-#### - state [in]
+### -param state [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-windowvisualstate">WindowVisualState</a></b>
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.SetClientSite
 title: IOleObject::SetClientSite (oleidl.h)
-description: Informs an embedded object of its display location, called a &#0034;client site,&#0034; within its container.helpviewer_keywords: ["IOleObject interface [COM]","SetClientSite method","IOleObject.SetClientSite","IOleObject::SetClientSite","SetClientSite","SetClientSite method [COM]","SetClientSite method [COM]","IOleObject interface","_ole_ioleobject_setclientsite","com.ioleobject_setclientsite","oleidl/IOleObject::SetClientSite"]
+description: Informs an embedded object of its display location, called a &quot;client site,&quot; within its container.
+helpviewer_keywords: ["IOleObject interface [COM]","SetClientSite method","IOleObject.SetClientSite","IOleObject::SetClientSite","SetClientSite","SetClientSite method [COM]","SetClientSite method [COM]","IOleObject interface","_ole_ioleobject_setclientsite","com.ioleobject_setclientsite","oleidl/IOleObject::SetClientSite"]
 old-location: com\ioleobject_setclientsite.htm
 tech.root: com
 ms.assetid: 6690b5a3-bada-496c-89cb-a9ae1fc9dfb0
@@ -94,7 +95,7 @@ An unexpected error occurred.
 
 
 
-Within a compound document, each embedded object has its own client site  â€” the place where it is displayed and through which it receives information about its storage, user interface, and other resources. <b>IOleObject::SetClientSite</b> is the only method enabling an embedded object to obtain a pointer to its client site.
+Within a compound document, each embedded object has its own client site - the place where it is displayed and through which it receives information about its storage, user interface, and other resources. <b>IOleObject::SetClientSite</b> is the only method enabling an embedded object to obtain a pointer to its client site.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 A container can notify an object of its client site either at the time the object is created or, subsequently, when the object is initialized.
@@ -139,7 +140,3 @@ Implementation consists simply of incrementing the reference count on, and stori
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
- 
-
- 
-

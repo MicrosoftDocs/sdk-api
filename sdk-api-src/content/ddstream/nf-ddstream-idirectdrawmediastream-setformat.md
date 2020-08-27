@@ -1,9 +1,10 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.SetFormat
 title: IDirectDrawMediaStream::SetFormat (ddstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Sets the format of the current media stream.helpviewer_keywords: ["IDirectDrawMediaStream interface [DirectShow]","SetFormat method","IDirectDrawMediaStream.SetFormat","IDirectDrawMediaStream::SetFormat","IDirectDrawMediaStreamSetFormat","SetFormat","SetFormat method [DirectShow]","SetFormat method [DirectShow]","IDirectDrawMediaStream interface","ddstream/IDirectDrawMediaStream::SetFormat","dshow.idirectdrawmediastream_setformat"]
+description: Note  This interface is deprecated. New applications should not use it. Sets the format of the current media stream.
+helpviewer_keywords: ["IDirectDrawMediaStream interface [DirectShow]","SetFormat method","IDirectDrawMediaStream.SetFormat","IDirectDrawMediaStream::SetFormat","IDirectDrawMediaStreamSetFormat","SetFormat","SetFormat method [DirectShow]","SetFormat method [DirectShow]","IDirectDrawMediaStream interface","ddstream/IDirectDrawMediaStream::SetFormat","dshow.idirectdrawmediastream_setformat"]
 old-location: dshow\idirectdrawmediastream_setformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 465b4f0c-40e1-4aec-be62-0b55c29fa05e
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetFormat method, IDirectDrawMediaStream.SetFormat, IDirectDrawMediaStream::SetFormat, IDirectDrawMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetFormat, dshow.idirectdrawmediastream_setformat

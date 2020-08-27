@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMoniker.IsSystemMoniker
 title: IMoniker::IsSystemMoniker (objidl.h)
-description: Determines whether this moniker is one of the system-provided moniker classes.helpviewer_keywords: ["IMoniker interface [COM]","IsSystemMoniker method","IMoniker.IsSystemMoniker","IMoniker::IsSystemMoniker","IsSystemMoniker","IsSystemMoniker method [COM]","IsSystemMoniker method [COM]","IMoniker interface","_com_imoniker_issystemmoniker","com.imoniker_issystemmoniker","objidl/IMoniker::IsSystemMoniker"]
+description: Determines whether this moniker is one of the system-provided moniker classes.
+helpviewer_keywords: ["IMoniker interface [COM]","IsSystemMoniker method","IMoniker.IsSystemMoniker","IMoniker::IsSystemMoniker","IsSystemMoniker","IsSystemMoniker method [COM]","IsSystemMoniker method [COM]","IMoniker interface","_com_imoniker_issystemmoniker","com.imoniker_issystemmoniker","objidl/IMoniker::IsSystemMoniker"]
 old-location: com\imoniker_issystemmoniker.htm
 tech.root: com
 ms.assetid: a61c0df9-786e-45e7-8b3d-f950decc596d

@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.EnumStorage
 title: IMDSPDevice::EnumStorage (mswmdm.h)
-description: The EnumStorage method retrieves a pointer to an IMDSPEnumStorage interface of an enumerator object that represents the top-level storage(s) on the device. Top-level storage for a device is the root directory of the storage medium.helpviewer_keywords: ["EnumStorage","EnumStorage method [windows Media Device Manager]","EnumStorage method [windows Media Device Manager]","IMDSPDevice interface","IMDSPDevice interface [windows Media Device Manager]","EnumStorage method","IMDSPDevice.EnumStorage","IMDSPDevice::EnumStorage","IMDSPDeviceEnumStorage","mswmdm/IMDSPDevice::EnumStorage","wmdm.imdspdevice_enumstorage"]
+description: The EnumStorage method retrieves a pointer to an IMDSPEnumStorage interface of an enumerator object that represents the top-level storage(s) on the device. Top-level storage for a device is the root directory of the storage medium.
+helpviewer_keywords: ["EnumStorage","EnumStorage method [windows Media Device Manager]","EnumStorage method [windows Media Device Manager]","IMDSPDevice interface","IMDSPDevice interface [windows Media Device Manager]","EnumStorage method","IMDSPDevice.EnumStorage","IMDSPDevice::EnumStorage","IMDSPDeviceEnumStorage","mswmdm/IMDSPDevice::EnumStorage","wmdm.imdspdevice_enumstorage"]
 old-location: wmdm\imdspdevice_enumstorage.htm
 tech.root: WMDM
 ms.assetid: bbf19979-8e09-476e-9401-443ab5e84866

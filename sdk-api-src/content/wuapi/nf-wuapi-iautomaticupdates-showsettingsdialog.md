@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.ShowSettingsDialog
 title: IAutomaticUpdates::ShowSettingsDialog (wuapi.h)
-description: Displays a dialog box that contains settings for Automatic Updates.helpviewer_keywords: ["IAutomaticUpdates interface [Windows Update Agent]","ShowSettingsDialog method","IAutomaticUpdates.ShowSettingsDialog","IAutomaticUpdates::ShowSettingsDialog","ShowSettingsDialog","ShowSettingsDialog method [Windows Update Agent]","ShowSettingsDialog method [Windows Update Agent]","IAutomaticUpdates interface","wua.iautomaticupdates_showsettingsdialog","wuapi/IAutomaticUpdates::ShowSettingsDialog"]
+description: Displays a dialog box that contains settings for Automatic Updates.
+helpviewer_keywords: ["IAutomaticUpdates interface [Windows Update Agent]","ShowSettingsDialog method","IAutomaticUpdates.ShowSettingsDialog","IAutomaticUpdates::ShowSettingsDialog","ShowSettingsDialog","ShowSettingsDialog method [Windows Update Agent]","ShowSettingsDialog method [Windows Update Agent]","IAutomaticUpdates interface","wua.iautomaticupdates_showsettingsdialog","wuapi/IAutomaticUpdates::ShowSettingsDialog"]
 old-location: wua\iautomaticupdates_showsettingsdialog.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: da153799-9414-4e8e-aed4-96e0fff9ca88
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ShowSettingsDialog method, IAutomaticUpdates.ShowSettingsDialog, IAutomaticUpdates::ShowSettingsDialog, ShowSettingsDialog, ShowSettingsDialog method [Windows Update Agent], ShowSettingsDialog method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_showsettingsdialog, wuapi/IAutomaticUpdates::ShowSettingsDialog

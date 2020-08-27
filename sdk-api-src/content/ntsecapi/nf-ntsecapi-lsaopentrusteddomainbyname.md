@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.LsaOpenTrustedDomainByName
 title: LsaOpenTrustedDomainByName function (ntsecapi.h)
-description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.helpviewer_keywords: ["LsaOpenTrustedDomainByName","LsaOpenTrustedDomainByName function [Security]","_lsa_lsaopentrusteddomainbyname","ntsecapi/LsaOpenTrustedDomainByName","security.lsaopentrusteddomainbyname"]
+description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
+helpviewer_keywords: ["LsaOpenTrustedDomainByName","LsaOpenTrustedDomainByName function [Security]","_lsa_lsaopentrusteddomainbyname","ntsecapi/LsaOpenTrustedDomainByName","security.lsaopentrusteddomainbyname"]
 old-location: security\lsaopentrusteddomainbyname.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
 ms.date: 12/05/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname

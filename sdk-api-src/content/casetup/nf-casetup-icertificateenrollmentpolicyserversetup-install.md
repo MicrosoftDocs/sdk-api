@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.Install
 title: ICertificateEnrollmentPolicyServerSetup::Install (casetup.h)
-description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","Install method","ICertificateEnrollmentPolicyServerSetup.Install","ICertificateEnrollmentPolicyServerSetup::Install","Install","Install method [Security]","Install method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::Install","security.icertificateenrollmentpolicyserversetup_install"]
+description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
+helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","Install method","ICertificateEnrollmentPolicyServerSetup.Install","ICertificateEnrollmentPolicyServerSetup::Install","Install","Install method [Security]","Install method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::Install","security.icertificateenrollmentpolicyserversetup_install"]
 old-location: security\icertificateenrollmentpolicyserversetup_install.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],Install method, ICertificateEnrollmentPolicyServerSetup.Install, ICertificateEnrollmentPolicyServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install

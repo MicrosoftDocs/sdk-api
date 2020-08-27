@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRangeArray.get_Length
 title: IUIAutomationTextRangeArray::get_Length (uiautomationclient.h)
-description: Retrieves the number of text ranges in the collection.helpviewer_keywords: ["IUIAutomationTextRangeArray interface [Windows Accessibility]","Length property","IUIAutomationTextRangeArray.Length","IUIAutomationTextRangeArray.get_Length","IUIAutomationTextRangeArray::Length","IUIAutomationTextRangeArray::get_Length","Length property [Windows Accessibility]","Length property [Windows Accessibility]","IUIAutomationTextRangeArray interface","get_Length","uiauto.uiauto_IUIAutomationTextRangeArray_Length","uiauto_IUIAutomationTextRangeArray_Length","uiautomationclient/IUIAutomationTextRangeArray::Length","uiautomationclient/IUIAutomationTextRangeArray::get_Length","winauto.uiauto_IUIAutomationTextRangeArray_Length"]
+description: Retrieves the number of text ranges in the collection.
+helpviewer_keywords: ["IUIAutomationTextRangeArray interface [Windows Accessibility]","Length property","IUIAutomationTextRangeArray.Length","IUIAutomationTextRangeArray.get_Length","IUIAutomationTextRangeArray::Length","IUIAutomationTextRangeArray::get_Length","Length property [Windows Accessibility]","Length property [Windows Accessibility]","IUIAutomationTextRangeArray interface","get_Length","uiauto.uiauto_IUIAutomationTextRangeArray_Length","uiauto_IUIAutomationTextRangeArray_Length","uiautomationclient/IUIAutomationTextRangeArray::Length","uiautomationclient/IUIAutomationTextRangeArray::get_Length","winauto.uiauto_IUIAutomationTextRangeArray_Length"]
 old-location: winauto\uiauto_IUIAutomationTextRangeArray_Length.htm
 tech.root: WinAuto
 ms.assetid: adbbff9d-dba8-4d37-8809-0e00ac39144c

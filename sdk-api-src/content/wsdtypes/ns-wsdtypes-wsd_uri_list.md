@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_URI_LIST
 title: WSD_URI_LIST (wsdtypes.h)
-description: Represents a node in a linked list of URIs.helpviewer_keywords: ["WSD_URI_LIST","WSD_URI_LIST structure","ncd.wsd_uri_list_struct","wsdtypes/WSD_URI_LIST"]
+description: Represents a node in a linked list of URIs.
+helpviewer_keywords: ["WSD_URI_LIST","WSD_URI_LIST structure","ncd.wsd_uri_list_struct","wsdtypes/WSD_URI_LIST"]
 old-location: ncd\wsd_uri_list_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 86d77741-39c3-44bd-b072-d2d4eb99e488
 ms.date: 12/05/2018
 ms.keywords: WSD_URI_LIST, WSD_URI_LIST structure, ncd.wsd_uri_list_struct, wsdtypes/WSD_URI_LIST

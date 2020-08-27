@@ -1,7 +1,8 @@
 ---
 UID: NN:propsys.IObjectWithPropertyKey
 title: IObjectWithPropertyKey (propsys.h)
-description: Exposes methods for getting and setting the property key.helpviewer_keywords: ["IObjectWithPropertyKey","IObjectWithPropertyKey interface [Windows Shell]","IObjectWithPropertyKey interface [Windows Shell]","described","_shell_IObjectWithPropertyKey","propsys/IObjectWithPropertyKey","shell.IObjectWithPropertyKey"]
+description: Exposes methods for getting and setting the property key.
+helpviewer_keywords: ["IObjectWithPropertyKey","IObjectWithPropertyKey interface [Windows Shell]","IObjectWithPropertyKey interface [Windows Shell]","described","_shell_IObjectWithPropertyKey","propsys/IObjectWithPropertyKey","shell.IObjectWithPropertyKey"]
 old-location: shell\IObjectWithPropertyKey.htm
 tech.root: shell
 ms.assetid: 238c3e39-62ba-4e97-9a15-19ad2e2d12e7

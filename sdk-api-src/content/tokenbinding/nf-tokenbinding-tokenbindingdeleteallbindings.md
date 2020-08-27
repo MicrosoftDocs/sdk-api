@@ -1,9 +1,10 @@
 ---
 UID: NF:tokenbinding.TokenBindingDeleteAllBindings
 title: TokenBindingDeleteAllBindings function (tokenbinding.h)
-description: Deletes all token binding keys that are associated with the calling user or app container.helpviewer_keywords: ["TokenBindingDeleteAllBindings","TokenBindingDeleteAllBindings function [Security]","security.tokenbindingdeleteallbindings","tokenbinding/TokenBindingDeleteAllBindings"]
+description: Deletes all token binding keys that are associated with the calling user or app container.
+helpviewer_keywords: ["TokenBindingDeleteAllBindings","TokenBindingDeleteAllBindings function [Security]","security.tokenbindingdeleteallbindings","tokenbinding/TokenBindingDeleteAllBindings"]
 old-location: security\tokenbindingdeleteallbindings.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 0446F62F-96B4-4F4B-9789-0CD12173E601
 ms.date: 12/05/2018
 ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings

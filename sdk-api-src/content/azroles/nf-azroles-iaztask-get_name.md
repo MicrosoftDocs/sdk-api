@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTask.get_Name
 title: IAzTask::get_Name (azroles.h)
-description: Sets or retrieves the name of the task.helpviewer_keywords: ["AzTask object [Security]","Name property","IAzTask interface [Security]","Name property","IAzTask.Name","IAzTask.get_Name","IAzTask::Name","IAzTask::get_Name","IAzTask::put_Name","Name property [Security]","Name property [Security]","AzTask object","Name property [Security]","IAzTask interface","azroles/IAzTask::Name","azroles/IAzTask::get_Name","azroles/IAzTask::put_Name","get_Name","security.iaztask_name"]
+description: Sets or retrieves the name of the task.
+helpviewer_keywords: ["AzTask object [Security]","Name property","IAzTask interface [Security]","Name property","IAzTask.Name","IAzTask.get_Name","IAzTask::Name","IAzTask::get_Name","IAzTask::put_Name","Name property [Security]","Name property [Security]","AzTask object","Name property [Security]","IAzTask interface","azroles/IAzTask::Name","azroles/IAzTask::get_Name","azroles/IAzTask::put_Name","get_Name","security.iaztask_name"]
 old-location: security\iaztask_name.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 135706b0-8ef9-430b-aff3-3783a62232d9
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Name property, IAzTask interface [Security],Name property, IAzTask.Name, IAzTask.get_Name, IAzTask::Name, IAzTask::get_Name, IAzTask::put_Name, Name property [Security], Name property [Security],AzTask object, Name property [Security],IAzTask interface, azroles/IAzTask::Name, azroles/IAzTask::get_Name, azroles/IAzTask::put_Name, get_Name, security.iaztask_name

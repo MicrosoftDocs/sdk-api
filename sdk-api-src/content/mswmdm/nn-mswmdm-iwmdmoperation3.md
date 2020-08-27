@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMOperation3
 title: IWMDMOperation3 (mswmdm.h)
-description: The optional, application-implemented IWMDMOperation3 interface extends IWMDMOperation by providing a new method for transferring data unencrypted for added efficiency.helpviewer_keywords: ["IWMDMOperation3","IWMDMOperation3 interface [windows Media Device Manager]","IWMDMOperation3 interface [windows Media Device Manager]","described","IWMDMOperation3Interface","mswmdm/IWMDMOperation3","wmdm.iwmdmoperation3"]
+description: The optional, application-implemented IWMDMOperation3 interface extends IWMDMOperation by providing a new method for transferring data unencrypted for added efficiency.
+helpviewer_keywords: ["IWMDMOperation3","IWMDMOperation3 interface [windows Media Device Manager]","IWMDMOperation3 interface [windows Media Device Manager]","described","IWMDMOperation3Interface","mswmdm/IWMDMOperation3","wmdm.iwmdmoperation3"]
 old-location: wmdm\iwmdmoperation3.htm
 tech.root: WMDM
 ms.assetid: 5ab4fdd2-d0bf-4e2c-b529-331ffa4c8403

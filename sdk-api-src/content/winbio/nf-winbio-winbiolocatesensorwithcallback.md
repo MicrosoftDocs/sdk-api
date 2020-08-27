@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioLocateSensorWithCallback
 title: WinBioLocateSensorWithCallback function (winbio.h)
-description: Asynchronously retrieves the ID number of the biometric unit selected interactively by a user.helpviewer_keywords: ["WinBioLocateSensorWithCallback","WinBioLocateSensorWithCallback function [Windows Biometric Framework API]","secbiomet.winbiolocatesensorwithcallback","winbio/WinBioLocateSensorWithCallback"]
+description: Asynchronously retrieves the ID number of the biometric unit selected interactively by a user.
+helpviewer_keywords: ["WinBioLocateSensorWithCallback","WinBioLocateSensorWithCallback function [Windows Biometric Framework API]","secbiomet.winbiolocatesensorwithcallback","winbio/WinBioLocateSensorWithCallback"]
 old-location: secbiomet\winbiolocatesensorwithcallback.htm
 tech.root: SecBioMet
 ms.assetid: d94db51b-67da-477a-82e6-c92da756f017

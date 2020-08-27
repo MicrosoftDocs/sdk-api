@@ -1,7 +1,8 @@
 ---
 UID: NF:lmsvc.NetServiceControl
 title: NetServiceControl function (lmsvc.h)
-description: The NetServiceControl function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.helpviewer_keywords: ["NetServiceControl","NetServiceControl function [Network Management]","_win32_netservicecontrol","lmsvc/NetServiceControl","netmgmt.netservicecontrol"]
+description: The NetServiceControl function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
+helpviewer_keywords: ["NetServiceControl","NetServiceControl function [Network Management]","_win32_netservicecontrol","lmsvc/NetServiceControl","netmgmt.netservicecontrol"]
 old-location: netmgmt\netservicecontrol.htm
 tech.root: NetMgmt
 ms.assetid: 4ea0e624-7b6e-459d-879e-f6c5998765cf

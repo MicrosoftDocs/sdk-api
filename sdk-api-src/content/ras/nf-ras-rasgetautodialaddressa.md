@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialAddressA
 title: RasGetAutodialAddressA function (ras.h)
-description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.helpviewer_keywords: ["RasGetAutodialAddress","RasGetAutodialAddress function [RAS]","RasGetAutodialAddressA","RasGetAutodialAddressW","_ras_rasgetautodialaddress","ras/RasGetAutodialAddress","ras/RasGetAutodialAddressA","ras/RasGetAutodialAddressW","rras.rasgetautodialaddress"]
+description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
+helpviewer_keywords: ["RasGetAutodialAddress","RasGetAutodialAddress function [RAS]","RasGetAutodialAddressA","RasGetAutodialAddressW","_ras_rasgetautodialaddress","ras/RasGetAutodialAddress","ras/RasGetAutodialAddressA","ras/RasGetAutodialAddressW","rras.rasgetautodialaddress"]
 old-location: rras\rasgetautodialaddress.htm
 tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150
@@ -188,6 +189,10 @@ This value is of type <b>REG_SZ</b>.
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasGetAutodialAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

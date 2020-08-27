@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegEnumValueA
 title: RegEnumValueA function (winreg.h)
-description: Enumerates the values for the specified open registry key. The function copies one indexed value name and data block for the key each time it is called.helpviewer_keywords: ["RegEnumValue","RegEnumValue function","RegEnumValueA","RegEnumValueW","_win32_regenumvalue","base.regenumvalue","winreg/RegEnumValue","winreg/RegEnumValueA","winreg/RegEnumValueW"]
+description: Enumerates the values for the specified open registry key. The function copies one indexed value name and data block for the key each time it is called.
+helpviewer_keywords: ["RegEnumValue","RegEnumValue function","RegEnumValueA","RegEnumValueW","_win32_regenumvalue","base.regenumvalue","winreg/RegEnumValue","winreg/RegEnumValueA","winreg/RegEnumValueW"]
 old-location: base\regenumvalue.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 7014ff96-c655-486f-af32-180b87281b06
 ms.date: 12/05/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW
@@ -42,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegEnumValue
 - RegEnumValueA
@@ -182,6 +184,8 @@ If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, the string may n
 To determine the maximum size of the name and data buffers, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function.
 
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 #### Examples
 
@@ -191,6 +195,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegEnumValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

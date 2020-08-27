@@ -1,9 +1,10 @@
 ---
 UID: NS:msi.tagMSIPATCHSEQUENCEINFOW
 title: MSIPATCHSEQUENCEINFOW (msi.h)
-description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.helpviewer_keywords: ["*PMSIPATCHSEQUENCEINFOW","MSIPATCHSEQUENCEINFO","MSIPATCHSEQUENCEINFO structure","MSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFOW","MSIPATCH_DATATYPE_PATCHFILE","MSIPATCH_DATATYPE_XMLBLOB","MSIPATCH_DATATYPE_XMLPATH","PMSIPATCHSEQUENCEINFO","PMSIPATCHSEQUENCEINFO structure pointer","msi/MSIPATCHSEQUENCEINFO","msi/MSIPATCHSEQUENCEINFOA","msi/MSIPATCHSEQUENCEINFOW","msi/PMSIPATCHSEQUENCEINFO","setup.msipatchsequenceinfo"]
+description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.
+helpviewer_keywords: ["*PMSIPATCHSEQUENCEINFOW","MSIPATCHSEQUENCEINFO","MSIPATCHSEQUENCEINFO structure","MSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFOW","MSIPATCH_DATATYPE_PATCHFILE","MSIPATCH_DATATYPE_XMLBLOB","MSIPATCH_DATATYPE_XMLPATH","PMSIPATCHSEQUENCEINFO","PMSIPATCHSEQUENCEINFO structure pointer","msi/MSIPATCHSEQUENCEINFO","msi/MSIPATCHSEQUENCEINFOA","msi/MSIPATCHSEQUENCEINFOW","msi/PMSIPATCHSEQUENCEINFO","setup.msipatchsequenceinfo"]
 old-location: setup\msipatchsequenceinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 75f76d85-39f6-4a2c-8b5f-1238639a2014
 ms.date: 12/05/2018
 ms.keywords: '*PMSIPATCHSEQUENCEINFOW, MSIPATCHSEQUENCEINFO, MSIPATCHSEQUENCEINFO structure, MSIPATCHSEQUENCEINFOA, MSIPATCHSEQUENCEINFOW, MSIPATCH_DATATYPE_PATCHFILE, MSIPATCH_DATATYPE_XMLBLOB, MSIPATCH_DATATYPE_XMLPATH, PMSIPATCHSEQUENCEINFO, PMSIPATCHSEQUENCEINFO structure pointer, msi/MSIPATCHSEQUENCEINFO, msi/MSIPATCHSEQUENCEINFOA, msi/MSIPATCHSEQUENCEINFOW, msi/PMSIPATCHSEQUENCEINFO, setup.msipatchsequenceinfo'
@@ -137,4 +138,9 @@ Set to ERROR_SUCCESS or the corresponding Win32 error code.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msi.h header defines MSIPATCHSEQUENCEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

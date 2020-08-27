@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.StopInteractionContext
 title: StopInteractionContext function (interactioncontext.h)
-description: Sets the interaction state to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact.helpviewer_keywords: ["StopInteractionContext","StopInteractionContext function","input_intcontext.stopinteractioncontext","interactioncontext.stopinteractioncontext","interactioncontext/StopInteractionContext"]
+description: Sets the interaction state to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact.
+helpviewer_keywords: ["StopInteractionContext","StopInteractionContext function","input_intcontext.stopinteractioncontext","interactioncontext.stopinteractioncontext","interactioncontext/StopInteractionContext"]
 old-location: input_intcontext\stopinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b
 ms.date: 12/05/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext

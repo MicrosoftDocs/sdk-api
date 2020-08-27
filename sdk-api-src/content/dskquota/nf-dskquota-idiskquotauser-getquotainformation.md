@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetQuotaInformation (dskquota.h)
 description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
 helpviewer_keywords: ["GetQuotaInformation","GetQuotaInformation method [Files]","GetQuotaInformation method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaInformation method","IDiskQuotaUser.GetQuotaInformation","IDiskQuotaUser::GetQuotaInformation","_win32_idiskquotauser_getquotainformation","base.idiskquotauser_getquotainformation","dskquota/IDiskQuotaUser::GetQuotaInformation","fs.idiskquotauser_getquotainformation"]
 old-location: fs\idiskquotauser_getquotainformation.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
 ms.date: 12/05/2018
 ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaInformation method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaInformation method, IDiskQuotaUser.GetQuotaInformation, IDiskQuotaUser::GetQuotaInformation, _win32_idiskquotauser_getquotainformation, base.idiskquotauser_getquotainformation, dskquota/IDiskQuotaUser::GetQuotaInformation, fs.idiskquotauser_getquotainformation

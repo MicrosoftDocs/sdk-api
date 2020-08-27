@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt._BCRYPT_RSAKEY_BLOB
 title: BCRYPT_RSAKEY_BLOB (bcrypt.h)
-description: Used as a header for an RSA public key or private key BLOB in memory.helpviewer_keywords: ["BCRYPT_RSAFULLPRIVATE_MAGIC","BCRYPT_RSAKEY_BLOB","BCRYPT_RSAKEY_BLOB structure [Security]","BCRYPT_RSAPRIVATE_MAGIC","BCRYPT_RSAPUBLIC_MAGIC","bcrypt/BCRYPT_RSAKEY_BLOB","security.bcrypt_rsakey_blob"]
+description: Used as a header for an RSA public key or private key BLOB in memory.
+helpviewer_keywords: ["BCRYPT_RSAFULLPRIVATE_MAGIC","BCRYPT_RSAKEY_BLOB","BCRYPT_RSAKEY_BLOB structure [Security]","BCRYPT_RSAPRIVATE_MAGIC","BCRYPT_RSAPUBLIC_MAGIC","bcrypt/BCRYPT_RSAKEY_BLOB","security.bcrypt_rsakey_blob"]
 old-location: security\bcrypt_rsakey_blob.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB structure [Security], BCRYPT_RSAPRIVATE_MAGIC, BCRYPT_RSAPUBLIC_MAGIC, bcrypt/BCRYPT_RSAKEY_BLOB, security.bcrypt_rsakey_blob
@@ -107,7 +108,7 @@ The size, in bits, of the key.
 
 ### -field cbPublicExp
 
-The size, in bytes, of the exponent of the key.
+The size, in bytes, of the exponent of the key. As of Windows 10 version 1903, public exponents larger than (2^64 - 1) are no longer supported.
 
 
 ### -field cbModulus

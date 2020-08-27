@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetTDT
 title: IDvbSiParser::GetTDT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTDT","GetTDT method [Microsoft TV Technologies]","GetTDT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetTDT method","IDvbSiParser.GetTDT","IDvbSiParser::GetTDT","IDvbSiParserGetTDT","dvbsiparser/IDvbSiParser::GetTDT","mstv.idvbsiparser_gettdt"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTDT","GetTDT method [Microsoft TV Technologies]","GetTDT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetTDT method","IDvbSiParser.GetTDT","IDvbSiParser::GetTDT","IDvbSiParserGetTDT","dvbsiparser/IDvbSiParser::GetTDT","mstv.idvbsiparser_gettdt"]
 old-location: mstv\idvbsiparser_gettdt.htm
 tech.root: mstv
 ms.assetid: 0922ccda-7bd8-480d-8cd1-64f170b7ec69

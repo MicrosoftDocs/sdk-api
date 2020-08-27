@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll2.Reset
 title: IEnroll2::Reset (xenroll.h)
-description: Returns the certificate enrollment control object to its initial state and thereby allows reuse of the control.helpviewer_keywords: ["IEnroll2 interface [Security]","Reset method","IEnroll2.Reset","IEnroll2::Reset","IEnroll3 interface [Security]","Reset method","IEnroll3::Reset","IEnroll4 interface [Security]","Reset method","IEnroll4::Reset","Reset","Reset method [Security]","Reset method [Security]","IEnroll2 interface","Reset method [Security]","IEnroll3 interface","Reset method [Security]","IEnroll4 interface","security.ienroll4_reset","xenroll/IEnroll2::Reset","xenroll/IEnroll3::Reset","xenroll/IEnroll4::Reset"]
+description: Returns the certificate enrollment control object to its initial state and thereby allows reuse of the control.
+helpviewer_keywords: ["IEnroll2 interface [Security]","Reset method","IEnroll2.Reset","IEnroll2::Reset","IEnroll3 interface [Security]","Reset method","IEnroll3::Reset","IEnroll4 interface [Security]","Reset method","IEnroll4::Reset","Reset","Reset method [Security]","Reset method [Security]","IEnroll2 interface","Reset method [Security]","IEnroll3 interface","Reset method [Security]","IEnroll4 interface","security.ienroll4_reset","xenroll/IEnroll2::Reset","xenroll/IEnroll3::Reset","xenroll/IEnroll4::Reset"]
 old-location: security\ienroll4_reset.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bc91fc89-fe90-4da1-a870-0fa21e4debbb
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],Reset method, IEnroll2.Reset, IEnroll2::Reset, IEnroll3 interface [Security],Reset method, IEnroll3::Reset, IEnroll4 interface [Security],Reset method, IEnroll4::Reset, Reset, Reset method [Security], Reset method [Security],IEnroll2 interface, Reset method [Security],IEnroll3 interface, Reset method [Security],IEnroll4 interface, security.ienroll4_reset, xenroll/IEnroll2::Reset, xenroll/IEnroll3::Reset, xenroll/IEnroll4::Reset

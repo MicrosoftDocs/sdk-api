@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_ReminderDuration
 title: IOCSPCAConfiguration::put_ReminderDuration (certadm.h)
-description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged.helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","ReminderDuration property","IOCSPCAConfiguration.ReminderDuration","IOCSPCAConfiguration.put_ReminderDuration","IOCSPCAConfiguration::ReminderDuration","IOCSPCAConfiguration::get_ReminderDuration","IOCSPCAConfiguration::put_ReminderDuration","ReminderDuration property [Security]","ReminderDuration property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::ReminderDuration","certadm/IOCSPCAConfiguration::get_ReminderDuration","certadm/IOCSPCAConfiguration::put_ReminderDuration","put_ReminderDuration","security.iocspcaconfiguration_reminderduration_method"]
+description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged.
+helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","ReminderDuration property","IOCSPCAConfiguration.ReminderDuration","IOCSPCAConfiguration.put_ReminderDuration","IOCSPCAConfiguration::ReminderDuration","IOCSPCAConfiguration::get_ReminderDuration","IOCSPCAConfiguration::put_ReminderDuration","ReminderDuration property [Security]","ReminderDuration property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::ReminderDuration","certadm/IOCSPCAConfiguration::get_ReminderDuration","certadm/IOCSPCAConfiguration::put_ReminderDuration","put_ReminderDuration","security.iocspcaconfiguration_reminderduration_method"]
 old-location: security\iocspcaconfiguration_reminderduration_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 861289e7-b2f1-433f-a896-47f4b161712e
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ReminderDuration property, IOCSPCAConfiguration.ReminderDuration, IOCSPCAConfiguration.put_ReminderDuration, IOCSPCAConfiguration::ReminderDuration, IOCSPCAConfiguration::get_ReminderDuration, IOCSPCAConfiguration::put_ReminderDuration, ReminderDuration property [Security], ReminderDuration property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ReminderDuration, certadm/IOCSPCAConfiguration::get_ReminderDuration, certadm/IOCSPCAConfiguration::put_ReminderDuration, put_ReminderDuration, security.iocspcaconfiguration_reminderduration_method

@@ -1,9 +1,10 @@
 ---
 UID: NS:mapi.__unnamed_struct_3
 title: MapiRecipDesc (mapi.h)
-description: A MapiRecipDesc structure contains information about a message sender or recipient. For Unicode support, use the MapiRecipDescW structure.helpviewer_keywords: ["*lpMapiRecipDesc","MAPI_BCC","MAPI_CC","MAPI_ORIG","MAPI_TO","MapiRecipDesc","MapiRecipDesc structure","lpMapiRecipDesc","lpMapiRecipDesc structure pointer","mapi.mapirecipdesc","mapi/MapiRecipDesc","mapi/lpMapiRecipDesc"]
+description: A MapiRecipDesc structure contains information about a message sender or recipient. For Unicode support, use the MapiRecipDescW structure.
+helpviewer_keywords: ["*lpMapiRecipDesc","MAPI_BCC","MAPI_CC","MAPI_ORIG","MAPI_TO","MapiRecipDesc","MapiRecipDesc structure","lpMapiRecipDesc","lpMapiRecipDesc structure pointer","mapi.mapirecipdesc","mapi/MapiRecipDesc","mapi/lpMapiRecipDesc"]
 old-location: mapi\mapirecipdesc.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 1457617f-de55-4875-91f5-afddee84b782
 ms.date: 12/05/2018
 ms.keywords: '*lpMapiRecipDesc, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDesc, MapiRecipDesc structure, lpMapiRecipDesc, lpMapiRecipDesc structure pointer, mapi.mapirecipdesc, mapi/MapiRecipDesc, mapi/lpMapiRecipDesc'

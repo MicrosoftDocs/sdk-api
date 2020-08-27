@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagKEYBDINPUT
 title: KEYBDINPUT (winuser.h)
-description: Contains information about a simulated keyboard event.helpviewer_keywords: ["*LPKEYBDINPUT","*PKEYBDINPUT","KEYBDINPUT","KEYBDINPUT structure [Keyboard and Mouse Input]","KEYEVENTF_EXTENDEDKEY","KEYEVENTF_KEYUP","KEYEVENTF_SCANCODE","KEYEVENTF_UNICODE","PKEYBDINPUT","PKEYBDINPUT structure pointer [Keyboard and Mouse Input]","_win32_KEYBDINPUT_str","_win32_keybdinput_str_cpp","inputdev.keybdinput","winui._win32_keybdinput_str","winuser/KEYBDINPUT","winuser/PKEYBDINPUT"]
+description: Contains information about a simulated keyboard event.
+helpviewer_keywords: ["*LPKEYBDINPUT","*PKEYBDINPUT","KEYBDINPUT","KEYBDINPUT structure [Keyboard and Mouse Input]","KEYEVENTF_EXTENDEDKEY","KEYEVENTF_KEYUP","KEYEVENTF_SCANCODE","KEYEVENTF_UNICODE","PKEYBDINPUT","PKEYBDINPUT structure pointer [Keyboard and Mouse Input]","_win32_KEYBDINPUT_str","_win32_keybdinput_str_cpp","inputdev.keybdinput","winui._win32_keybdinput_str","winuser/KEYBDINPUT","winuser/PKEYBDINPUT"]
 old-location: inputdev\keybdinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\keybdinput.htm

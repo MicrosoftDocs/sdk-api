@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupAddSectionToDiskSpaceListA
 title: SetupAddSectionToDiskSpaceListA function (setupapi.h)
-description: The SetupAddSectionToDiskSpaceList function adds to a disk-space list all the file delete or copy operations listed in a Copy Files or Delete Files section of an INF file.helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupAddSectionToDiskSpaceList","SetupAddSectionToDiskSpaceList function [Setup API]","SetupAddSectionToDiskSpaceListA","SetupAddSectionToDiskSpaceListW","_setupapi_setupaddsectiontodiskspacelist","setup.setupaddsectiontodiskspacelist","setupapi/SetupAddSectionToDiskSpaceList","setupapi/SetupAddSectionToDiskSpaceListA","setupapi/SetupAddSectionToDiskSpaceListW"]
+description: The SetupAddSectionToDiskSpaceList function adds to a disk-space list all the file delete or copy operations listed in a Copy Files or Delete Files section of an INF file.
+helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupAddSectionToDiskSpaceList","SetupAddSectionToDiskSpaceList function [Setup API]","SetupAddSectionToDiskSpaceListA","SetupAddSectionToDiskSpaceListW","_setupapi_setupaddsectiontodiskspacelist","setup.setupaddsectiontodiskspacelist","setupapi/SetupAddSectionToDiskSpaceList","setupapi/SetupAddSectionToDiskSpaceListA","setupapi/SetupAddSectionToDiskSpaceListW"]
 old-location: setup\setupaddsectiontodiskspacelist.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupAddSectionToDiskSpaceList, SetupAddSectionToDiskSpaceList function [Setup API], SetupAddSectionToDiskSpaceListA, SetupAddSectionToDiskSpaceListW, _setupapi_setupaddsectiontodiskspacelist, setup.setupaddsectiontodiskspacelist, setupapi/SetupAddSectionToDiskSpaceList, setupapi/SetupAddSectionToDiskSpaceListA, setupapi/SetupAddSectionToDiskSpaceListW
@@ -149,6 +150,10 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupAddSectionToDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

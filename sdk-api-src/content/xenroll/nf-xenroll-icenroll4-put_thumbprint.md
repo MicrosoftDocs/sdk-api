@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_ThumbPrint
 title: ICEnroll4::put_ThumbPrint (xenroll.h)
-description: Sets or retrieves a hash of the certificate data.helpviewer_keywords: ["CEnroll object [Security]","ThumbPrint property","ICEnroll4 interface [Security]","ThumbPrint property","ICEnroll4.ThumbPrint","ICEnroll4.put_ThumbPrint","ICEnroll4::ThumbPrint","ICEnroll4::get_ThumbPrint","ICEnroll4::put_ThumbPrint","ThumbPrint property [Security]","ThumbPrint property [Security]","CEnroll object","ThumbPrint property [Security]","ICEnroll4 interface","_xen_icenroll4_thumbprint","put_ThumbPrint","security.icenroll4_thumbprint","xenroll/ICEnroll4::ThumbPrint","xenroll/ICEnroll4::get_ThumbPrint","xenroll/ICEnroll4::put_ThumbPrint"]
+description: Sets or retrieves a hash of the certificate data.
+helpviewer_keywords: ["CEnroll object [Security]","ThumbPrint property","ICEnroll4 interface [Security]","ThumbPrint property","ICEnroll4.ThumbPrint","ICEnroll4.put_ThumbPrint","ICEnroll4::ThumbPrint","ICEnroll4::get_ThumbPrint","ICEnroll4::put_ThumbPrint","ThumbPrint property [Security]","ThumbPrint property [Security]","CEnroll object","ThumbPrint property [Security]","ICEnroll4 interface","_xen_icenroll4_thumbprint","put_ThumbPrint","security.icenroll4_thumbprint","xenroll/ICEnroll4::ThumbPrint","xenroll/ICEnroll4::get_ThumbPrint","xenroll/ICEnroll4::put_ThumbPrint"]
 old-location: security\icenroll4_thumbprint.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 58f027c6-fa92-40ac-b41d-89b6fba7455d
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ThumbPrint property, ICEnroll4 interface [Security],ThumbPrint property, ICEnroll4.ThumbPrint, ICEnroll4.put_ThumbPrint, ICEnroll4::ThumbPrint, ICEnroll4::get_ThumbPrint, ICEnroll4::put_ThumbPrint, ThumbPrint property [Security], ThumbPrint property [Security],CEnroll object, ThumbPrint property [Security],ICEnroll4 interface, _xen_icenroll4_thumbprint, put_ThumbPrint, security.icenroll4_thumbprint, xenroll/ICEnroll4::ThumbPrint, xenroll/ICEnroll4::get_ThumbPrint, xenroll/ICEnroll4::put_ThumbPrint

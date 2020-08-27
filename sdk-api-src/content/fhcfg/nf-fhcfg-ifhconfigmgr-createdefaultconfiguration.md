@@ -1,9 +1,10 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.CreateDefaultConfiguration
 title: IFhConfigMgr::CreateDefaultConfiguration (fhcfg.h)
-description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.helpviewer_keywords: ["CreateDefaultConfiguration","CreateDefaultConfiguration method [Windows API]","CreateDefaultConfiguration method [Windows API]","FhConfigMgr class","CreateDefaultConfiguration method [Windows API]","IFhConfigMgr interface","FhConfigMgr class [Windows API]","CreateDefaultConfiguration method","IFhConfigMgr interface [Windows API]","CreateDefaultConfiguration method","IFhConfigMgr.CreateDefaultConfiguration","IFhConfigMgr::CreateDefaultConfiguration","fhcfg/IFhConfigMgr::CreateDefaultConfiguration","winprog.ifhconfigmgr_createdefaultconfiguration"]
+description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.
+helpviewer_keywords: ["CreateDefaultConfiguration","CreateDefaultConfiguration method [Windows API]","CreateDefaultConfiguration method [Windows API]","FhConfigMgr class","CreateDefaultConfiguration method [Windows API]","IFhConfigMgr interface","FhConfigMgr class [Windows API]","CreateDefaultConfiguration method","IFhConfigMgr interface [Windows API]","CreateDefaultConfiguration method","IFhConfigMgr.CreateDefaultConfiguration","IFhConfigMgr::CreateDefaultConfiguration","fhcfg/IFhConfigMgr::CreateDefaultConfiguration","winprog.ifhconfigmgr_createdefaultconfiguration"]
 old-location: winprog\ifhconfigmgr_createdefaultconfiguration.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 70F67D8D-E449-4006-BB14-0E5E9B91D517
 ms.date: 12/05/2018
 ms.keywords: CreateDefaultConfiguration, CreateDefaultConfiguration method [Windows API], CreateDefaultConfiguration method [Windows API],FhConfigMgr class, CreateDefaultConfiguration method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],CreateDefaultConfiguration method, IFhConfigMgr interface [Windows API],CreateDefaultConfiguration method, IFhConfigMgr.CreateDefaultConfiguration, IFhConfigMgr::CreateDefaultConfiguration, fhcfg/IFhConfigMgr::CreateDefaultConfiguration, winprog.ifhconfigmgr_createdefaultconfiguration

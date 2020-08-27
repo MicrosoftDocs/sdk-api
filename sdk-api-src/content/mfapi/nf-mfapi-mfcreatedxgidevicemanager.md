@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCreateDXGIDeviceManager
 title: MFCreateDXGIDeviceManager function (mfapi.h)
-description: Creates an instance of the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.helpviewer_keywords: ["MFCreateDXGIDeviceManager","MFCreateDXGIDeviceManager function [Media Foundation]","mf.mfcreatedxgidevicemanager","mfapi/MFCreateDXGIDeviceManager"]
+description: Creates an instance of the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
+helpviewer_keywords: ["MFCreateDXGIDeviceManager","MFCreateDXGIDeviceManager function [Media Foundation]","mf.mfcreatedxgidevicemanager","mfapi/MFCreateDXGIDeviceManager"]
 old-location: mf\mfcreatedxgidevicemanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5398B6D7-1E7D-4987-A163-3360C805EE9C
 ms.date: 12/05/2018
 ms.keywords: MFCreateDXGIDeviceManager, MFCreateDXGIDeviceManager function [Media Foundation], mf.mfcreatedxgidevicemanager, mfapi/MFCreateDXGIDeviceManager

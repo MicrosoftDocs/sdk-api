@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegEnumKey
 title: ClusterRegEnumKey function (clusapi.h)
-description: Enumerates the subkeys of an open cluster database key.helpviewer_keywords: ["ClusterRegEnumKey","ClusterRegEnumKey function [Failover Cluster]","_wolf_clusterregenumkey","clusapi/ClusterRegEnumKey","mscs.clusterregenumkey"]
+description: Enumerates the subkeys of an open cluster database key.
+helpviewer_keywords: ["ClusterRegEnumKey","ClusterRegEnumKey function [Failover Cluster]","_wolf_clusterregenumkey","clusapi/ClusterRegEnumKey","mscs.clusterregenumkey"]
 old-location: mscs\clusterregenumkey.htm
 tech.root: MsCS
 ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd

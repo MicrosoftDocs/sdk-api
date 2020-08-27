@@ -1,9 +1,10 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewContext
 title: CryptUIDlgViewContext function (cryptuiapi.h)
-description: Displays a certificate, CTL, or CRL context.helpviewer_keywords: ["CERT_STORE_CERTIFICATE_CONTEXT","CERT_STORE_CRL_CONTEXT","CERT_STORE_CTL_CONTEXT","CryptUIDlgViewContext","CryptUIDlgViewContext function [Security]","_crypto2_cryptuidlgviewcontext","cryptuiapi/CryptUIDlgViewContext","security.cryptuidlgviewcontext"]
+description: Displays a certificate, CTL, or CRL context.
+helpviewer_keywords: ["CERT_STORE_CERTIFICATE_CONTEXT","CERT_STORE_CRL_CONTEXT","CERT_STORE_CTL_CONTEXT","CryptUIDlgViewContext","CryptUIDlgViewContext function [Security]","_crypto2_cryptuidlgviewcontext","cryptuiapi/CryptUIDlgViewContext","security.cryptuidlgviewcontext"]
 old-location: security\cryptuidlgviewcontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CryptUIDlgViewContext, CryptUIDlgViewContext function [Security], _crypto2_cryptuidlgviewcontext, cryptuiapi/CryptUIDlgViewContext, security.cryptuidlgviewcontext

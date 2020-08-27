@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._NTFS_STATISTICS
 title: NTFS_STATISTICS
-description: Contains statistical information from the NTFS file system.helpviewer_keywords: ["*PNTFS_STATISTICS","NTFS_STATISTICS","NTFS_STATISTICS structure [Files]","PNTFS_STATISTICS","PNTFS_STATISTICS structure pointer [Files]","base.ntfs_statistics_str","fs.ntfs_statistics_str","winioctl/NTFS_STATISTICS","winioctl/PNTFS_STATISTICS"]
+description: Contains statistical information from the NTFS file system.
+helpviewer_keywords: ["*PNTFS_STATISTICS","NTFS_STATISTICS","NTFS_STATISTICS structure [Files]","PNTFS_STATISTICS","PNTFS_STATISTICS structure pointer [Files]","base.ntfs_statistics_str","fs.ntfs_statistics_str","winioctl/NTFS_STATISTICS","winioctl/PNTFS_STATISTICS"]
 old-location: fs\ntfs_statistics_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
 ms.date: 12/05/2018
 ms.keywords: '*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS'

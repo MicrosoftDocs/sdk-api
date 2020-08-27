@@ -1,9 +1,10 @@
 ---
 UID: NS:tapi.lineagentlist_tag
 title: LINEAGENTLIST (tapi.h)
-description: The LINEAGENTLIST structure describes a list of ACD agents. This structure can contain an array of LINEAGENTENTRY structures.helpviewer_keywords: ["*LPLINEAGENTLIST","LINEAGENTLIST","LINEAGENTLIST structure [TAPI 2.2]","LPLINEAGENTLIST","LPLINEAGENTLIST structure pointer [TAPI 2.2]","_tapi2_lineagentlist","tapi/LINEAGENTLIST","tapi/LPLINEAGENTLIST","tapi2.lineagentlist"]
+description: The LINEAGENTLIST structure describes a list of ACD agents. This structure can contain an array of LINEAGENTENTRY structures.
+helpviewer_keywords: ["*LPLINEAGENTLIST","LINEAGENTLIST","LINEAGENTLIST structure [TAPI 2.2]","LPLINEAGENTLIST","LPLINEAGENTLIST structure pointer [TAPI 2.2]","_tapi2_lineagentlist","tapi/LINEAGENTLIST","tapi/LPLINEAGENTLIST","tapi2.lineagentlist"]
 old-location: tapi2\lineagentlist.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 176beb90-a9aa-4d40-9f84-e6ea9f84b5a2
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAGENTLIST, LINEAGENTLIST, LINEAGENTLIST structure [TAPI 2.2], LPLINEAGENTLIST, LPLINEAGENTLIST structure pointer [TAPI 2.2], _tapi2_lineagentlist, tapi/LINEAGENTLIST, tapi/LPLINEAGENTLIST, tapi2.lineagentlist'

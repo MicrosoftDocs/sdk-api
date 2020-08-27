@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATQUERYW
 title: NMDATETIMEFORMATQUERYW (commctrl.h)
-description: Contains information about a date and time picker (DTP) control callback field.helpviewer_keywords: ["*LPNMDATETIMEFORMATQUERYW","LPNMDATETIMEFORMATQUERY","LPNMDATETIMEFORMATQUERY structure pointer [Windows Controls]","NMDATETIMEFORMATQUERY","NMDATETIMEFORMATQUERY structure [Windows Controls]","NMDATETIMEFORMATQUERYA","NMDATETIMEFORMATQUERYW","_win32_NMDATETIMEFORMATQUERY","_win32_NMDATETIMEFORMATQUERY_cpp","commctrl/LPNMDATETIMEFORMATQUERY","commctrl/NMDATETIMEFORMATQUERY","commctrl/NMDATETIMEFORMATQUERYA","commctrl/NMDATETIMEFORMATQUERYW","controls.NMDATETIMEFORMATQUERY","controls._win32_NMDATETIMEFORMATQUERY"]
+description: Contains information about a date and time picker (DTP) control callback field.
+helpviewer_keywords: ["*LPNMDATETIMEFORMATQUERYW","LPNMDATETIMEFORMATQUERY","LPNMDATETIMEFORMATQUERY structure pointer [Windows Controls]","NMDATETIMEFORMATQUERY","NMDATETIMEFORMATQUERY structure [Windows Controls]","NMDATETIMEFORMATQUERYA","NMDATETIMEFORMATQUERYW","_win32_NMDATETIMEFORMATQUERY","_win32_NMDATETIMEFORMATQUERY_cpp","commctrl/LPNMDATETIMEFORMATQUERY","commctrl/NMDATETIMEFORMATQUERY","commctrl/NMDATETIMEFORMATQUERYA","commctrl/NMDATETIMEFORMATQUERYW","controls.NMDATETIMEFORMATQUERY","controls._win32_NMDATETIMEFORMATQUERY"]
 old-location: controls\NMDATETIMEFORMATQUERY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformatquery.htm
@@ -78,4 +79,9 @@ A pointer to a substring that defines a DTP control callback field. The substrin
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
 
 A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that must be filled with the maximum size of the text that will be displayed in the callback field. 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMDATETIMEFORMATQUERY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

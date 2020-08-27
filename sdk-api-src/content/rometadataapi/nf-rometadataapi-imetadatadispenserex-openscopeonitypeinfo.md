@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.OpenScopeOnITypeInfo
 title: IMetaDataDispenserEx::OpenScopeOnITypeInfo (rometadataapi.h)
-description: Opens the specified scope type.helpviewer_keywords: ["IMetaDataDispenserEx interface [Windows Runtime]","OpenScopeOnITypeInfo method","IMetaDataDispenserEx.OpenScopeOnITypeInfo","IMetaDataDispenserEx::OpenScopeOnITypeInfo","OpenScopeOnITypeInfo","OpenScopeOnITypeInfo method [Windows Runtime]","OpenScopeOnITypeInfo method [Windows Runtime]","IMetaDataDispenserEx interface","rometadataapi/IMetaDataDispenserEx::OpenScopeOnITypeInfo","winrt.imetadatadispenserex_openscopeonitypeinfo"]
+description: Opens the specified scope type.
+helpviewer_keywords: ["IMetaDataDispenserEx interface [Windows Runtime]","OpenScopeOnITypeInfo method","IMetaDataDispenserEx.OpenScopeOnITypeInfo","IMetaDataDispenserEx::OpenScopeOnITypeInfo","OpenScopeOnITypeInfo","OpenScopeOnITypeInfo method [Windows Runtime]","OpenScopeOnITypeInfo method [Windows Runtime]","IMetaDataDispenserEx interface","rometadataapi/IMetaDataDispenserEx::OpenScopeOnITypeInfo","winrt.imetadatadispenserex_openscopeonitypeinfo"]
 old-location: winrt\imetadatadispenserex_openscopeonitypeinfo.htm
 tech.root: WinRT
 ms.assetid: e76d295a-bce9-42c2-9a9b-a4d31741f47f

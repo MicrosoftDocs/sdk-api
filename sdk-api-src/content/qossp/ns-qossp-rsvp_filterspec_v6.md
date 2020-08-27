@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V6
 title: RSVP_FILTERSPEC_V6 (qossp.h)
-description: The RSVP_FILTERSPEC_V6 structure stores information for a FILTERSPEC on an IPv6 address.helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V6","RSVP_FILTERSPEC_V6","RSVP_FILTERSPEC_V6 structure [QOS]","qos.rsvp_filterspec_v6","qossp/RSVP_FILTERSPEC_V6"]
+description: The RSVP_FILTERSPEC_V6 structure stores information for a FILTERSPEC on an IPv6 address.
+helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V6","RSVP_FILTERSPEC_V6","RSVP_FILTERSPEC_V6 structure [QOS]","qos.rsvp_filterspec_v6","qossp/RSVP_FILTERSPEC_V6"]
 old-location: qos\rsvp_filterspec_v6.htm
 tech.root: QOS
 ms.assetid: 7e567714-1d91-4dd4-a560-2b57876c837c
@@ -72,7 +73,7 @@ IPv4 address for which the FILTERSPEC applies, expressed as an <a href="https://
 TCP port of the socket on which the FILTERSPEC applies.
 
 
-#### - Unused
+### -field Unused
 
 Reserved. Set to zero.
 

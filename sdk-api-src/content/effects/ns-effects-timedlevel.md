@@ -1,7 +1,8 @@
 ---
 UID: NS:effects.tagTimedLevel
 title: TimedLevel (effects.h)
-description: The TimedLevel structure holds data returned from the spectrum filter.helpviewer_keywords: ["TimedLevel","TimedLevel structure [Windows Media Player]","effects/TimedLevel","typedefstructtagTimedLevel","wmp.timedlevel"]
+description: The TimedLevel structure holds data returned from the spectrum filter.
+helpviewer_keywords: ["TimedLevel","TimedLevel structure [Windows Media Player]","effects/TimedLevel","typedefstructtagTimedLevel","wmp.timedlevel"]
 old-location: wmp\timedlevel.htm
 tech.root: WMP
 ms.assetid: a33d4cd1-e888-4ecd-9e6c-113febfefd99

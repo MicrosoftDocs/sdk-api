@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.Clear
 title: WBEMTimeSpan::Clear (wbemtime.h)
-description: The Clear method sets the time span to INVALID_TIME.helpviewer_keywords: ["Clear","Clear method [Windows Management Instrumentation]","Clear method [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","Clear method","WBEMTimeSpan.Clear","WBEMTimeSpan::Clear","_hmm_wbemtimespan_clear","wbemtime/WBEMTimeSpan::Clear","wmi.wbemtimespan_clear"]
+description: The Clear method sets the time span to INVALID_TIME.
+helpviewer_keywords: ["Clear","Clear method [Windows Management Instrumentation]","Clear method [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","Clear method","WBEMTimeSpan.Clear","WBEMTimeSpan::Clear","_hmm_wbemtimespan_clear","wbemtime/WBEMTimeSpan::Clear","wmi.wbemtimespan_clear"]
 old-location: wmi\wbemtimespan_clear.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8bd964ed-d815-489a-8ddf-c92970701b05
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],Clear method, WBEMTimeSpan.Clear, WBEMTimeSpan::Clear, _hmm_wbemtimespan_clear, wbemtime/WBEMTimeSpan::Clear, wmi.wbemtimespan_clear

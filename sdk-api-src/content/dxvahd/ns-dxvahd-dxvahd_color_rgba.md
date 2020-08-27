@@ -1,9 +1,10 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR_RGBA
 title: DXVAHD_COLOR_RGBA (dxvahd.h)
-description: Specifies an RGB color value.helpviewer_keywords: ["DXVAHD_COLOR_RGBA","DXVAHD_COLOR_RGBA structure [Media Foundation]","dxvahd/DXVAHD_COLOR_RGBA","mf.dxvahd_color_rgba"]
+description: Specifies an RGB color value.
+helpviewer_keywords: ["DXVAHD_COLOR_RGBA","DXVAHD_COLOR_RGBA structure [Media Foundation]","dxvahd/DXVAHD_COLOR_RGBA","mf.dxvahd_color_rgba"]
 old-location: mf\dxvahd_color_rgba.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 60a167cb-f95e-4eb5-995f-be4cceaee47d
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_COLOR_RGBA, DXVAHD_COLOR_RGBA structure [Media Foundation], dxvahd/DXVAHD_COLOR_RGBA, mf.dxvahd_color_rgba

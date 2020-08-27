@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.ICEnroll4.enumPendingRequest
 title: ICEnroll4::enumPendingRequest (xenroll.h)
-description: Enumerates pending certificate requests and retrieves a specified property from each. This method was first defined in the ICEnroll4 interface.helpviewer_keywords: ["CEnroll object [Security]","enumPendingRequest method","ICEnroll4 interface [Security]","enumPendingRequest method","ICEnroll4.enumPendingRequest","ICEnroll4::enumPendingRequest","XEPR_CADNS","XEPR_CAFRIENDLYNAME","XEPR_CANAME","XEPR_HASH","XEPR_REQUESTID","_xen_icenroll4_enumpendingrequest","enumPendingRequest","enumPendingRequest method [Security]","enumPendingRequest method [Security]","CEnroll object","enumPendingRequest method [Security]","ICEnroll4 interface","security.icenroll4_enumpendingrequest","xenroll/ICEnroll4::enumPendingRequest"]
+description: Enumerates pending certificate requests and retrieves a specified property from each. This method was first defined in the ICEnroll4 interface.
+helpviewer_keywords: ["CEnroll object [Security]","enumPendingRequest method","ICEnroll4 interface [Security]","enumPendingRequest method","ICEnroll4.enumPendingRequest","ICEnroll4::enumPendingRequest","XEPR_CADNS","XEPR_CAFRIENDLYNAME","XEPR_CANAME","XEPR_HASH","XEPR_REQUESTID","_xen_icenroll4_enumpendingrequest","enumPendingRequest","enumPendingRequest method [Security]","enumPendingRequest method [Security]","CEnroll object","enumPendingRequest method [Security]","ICEnroll4 interface","security.icenroll4_enumpendingrequest","xenroll/ICEnroll4::enumPendingRequest"]
 old-location: security\icenroll4_enumpendingrequest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 566974d1-79ec-4cbd-ae84-85e0a78edf58
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],enumPendingRequest method, ICEnroll4 interface [Security],enumPendingRequest method, ICEnroll4.enumPendingRequest, ICEnroll4::enumPendingRequest, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, _xen_icenroll4_enumpendingrequest, enumPendingRequest, enumPendingRequest method [Security], enumPendingRequest method [Security],CEnroll object, enumPendingRequest method [Security],ICEnroll4 interface, security.icenroll4_enumpendingrequest, xenroll/ICEnroll4::enumPendingRequest

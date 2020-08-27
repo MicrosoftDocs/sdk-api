@@ -4,7 +4,7 @@ title: IWbemBackupRestore::Restore (wbemcli.h)
 description: The IWbemBackupRestore::Restore method deletes the contents of the current repository and restores them with the contents of a previously specified backup.
 helpviewer_keywords: ["IWbemBackupRestore interface [Windows Management Instrumentation]","Restore method","IWbemBackupRestore.Restore","IWbemBackupRestore::Restore","Restore","Restore method [Windows Management Instrumentation]","Restore method [Windows Management Instrumentation]","IWbemBackupRestore interface","WBEM_FLAG_BACKUP_RESTORE_DEFAULT","WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN","_hmm_iwbembackuprestore_restore","wbemcli/IWbemBackupRestore::Restore","wmi.iwbembackuprestore_restore"]
 old-location: wmi\iwbembackuprestore_restore.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 73a61c69-0a78-4c38-aaec-a72b644f19b4
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestore interface [Windows Management Instrumentation],Restore method, IWbemBackupRestore.Restore, IWbemBackupRestore::Restore, Restore, Restore method [Windows Management Instrumentation], Restore method [Windows Management Instrumentation],IWbemBackupRestore interface, WBEM_FLAG_BACKUP_RESTORE_DEFAULT, WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN, _hmm_iwbembackuprestore_restore, wbemcli/IWbemBackupRestore::Restore, wmi.iwbembackuprestore_restore

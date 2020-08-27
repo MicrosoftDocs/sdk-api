@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetProxyType
 title: MI_DestinationOptions_GetProxyType function (mi.h)
-description: Gets the proxy type set by the user.helpviewer_keywords: ["MI_DESTINATIONOPTIONS_PROXY_TYPE_AUTO","MI_DESTINATIONOPTIONS_PROXY_TYPE_IE","MI_DESTINATIONOPTIONS_PROXY_TYPE_NONE","MI_DESTINATIONOPTIONS_PROXY_TYPE_WINHTTP","MI_DestinationOptions_GetProxyType","MI_DestinationOptions_GetProxyType function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetProxyType","wmi_v2.mi_destinationoptions_getproxytype"]
+description: Gets the proxy type set by the user.
+helpviewer_keywords: ["MI_DESTINATIONOPTIONS_PROXY_TYPE_AUTO","MI_DESTINATIONOPTIONS_PROXY_TYPE_IE","MI_DESTINATIONOPTIONS_PROXY_TYPE_NONE","MI_DESTINATIONOPTIONS_PROXY_TYPE_WINHTTP","MI_DestinationOptions_GetProxyType","MI_DestinationOptions_GetProxyType function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetProxyType","wmi_v2.mi_destinationoptions_getproxytype"]
 old-location: wmi_v2\mi_destinationoptions_getproxytype.htm
 tech.root: wmi_v2
 ms.assetid: d217940d-4531-4d3f-88c4-dc94e229af67

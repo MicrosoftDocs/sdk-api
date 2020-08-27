@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoRange
 title: ISyncKnowledge::ProjectOntoRange (winsync.h)
-description: Gets the knowledge for the specified range of item IDs.helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","ProjectOntoRange method","ISyncKnowledge.ProjectOntoRange","ISyncKnowledge::ProjectOntoRange","ProjectOntoRange","ProjectOntoRange method [Windows Sync]","ProjectOntoRange method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_projectontorange","winsync/ISyncKnowledge::ProjectOntoRange"]
+description: Gets the knowledge for the specified range of item IDs.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","ProjectOntoRange method","ISyncKnowledge.ProjectOntoRange","ISyncKnowledge::ProjectOntoRange","ProjectOntoRange","ProjectOntoRange method [Windows Sync]","ProjectOntoRange method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_projectontorange","winsync/ISyncKnowledge::ProjectOntoRange"]
 old-location: winsync\isyncknowledge_projectontorange.htm
 tech.root: winsync
 ms.assetid: fd82e694-088b-4695-9c5d-c9ed2a25c208

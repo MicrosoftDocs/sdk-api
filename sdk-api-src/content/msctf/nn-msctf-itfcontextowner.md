@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfContextOwner
 title: ITfContextOwner (msctf.h)
-description: The ITfContextOwner interface is implemented by an application or a text service to receive text input without having a text store. An instance of this interface is obtained when the application calls the ITfSource::AdviseSink method.helpviewer_keywords: ["ITfContextOwner","ITfContextOwner interface [Text Services Framework]","ITfContextOwner interface [Text Services Framework]","described","_tsf_itfcontextowner_ref","msctf/ITfContextOwner","tsf.itfcontextowner"]
+description: The ITfContextOwner interface is implemented by an application or a text service to receive text input without having a text store. An instance of this interface is obtained when the application calls the ITfSource::AdviseSink method.
+helpviewer_keywords: ["ITfContextOwner","ITfContextOwner interface [Text Services Framework]","ITfContextOwner interface [Text Services Framework]","described","_tsf_itfcontextowner_ref","msctf/ITfContextOwner","tsf.itfcontextowner"]
 old-location: tsf\itfcontextowner.htm
 tech.root: TSF
 ms.assetid: 630646df-dd47-4dbf-9787-f9d697ad8d7a

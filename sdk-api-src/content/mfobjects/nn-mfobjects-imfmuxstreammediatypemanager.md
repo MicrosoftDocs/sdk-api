@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamMediaTypeManager
 title: IMFMuxStreamMediaTypeManager (mfobjects.h)
-description: Enables the management of stream configurations for a multiplexed media source. A stream configuration defines a set of substreams that can be included the multiplexed output.helpviewer_keywords: ["IMFMuxStreamMediaTypeManager","IMFMuxStreamMediaTypeManager interface [Media Foundation]","IMFMuxStreamMediaTypeManager interface [Media Foundation]","described","mf.imfmuxstreammediatypemanager","mfobjects/IMFMuxStreamMediaTypeManager"]
+description: Enables the management of stream configurations for a multiplexed media source. A stream configuration defines a set of substreams that can be included the multiplexed output.
+helpviewer_keywords: ["IMFMuxStreamMediaTypeManager","IMFMuxStreamMediaTypeManager interface [Media Foundation]","IMFMuxStreamMediaTypeManager interface [Media Foundation]","described","mf.imfmuxstreammediatypemanager","mfobjects/IMFMuxStreamMediaTypeManager"]
 old-location: mf\imfmuxstreammediatypemanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], IMFMuxStreamMediaTypeManager interface [Media Foundation],described, mf.imfmuxstreammediatypemanager, mfobjects/IMFMuxStreamMediaTypeManager

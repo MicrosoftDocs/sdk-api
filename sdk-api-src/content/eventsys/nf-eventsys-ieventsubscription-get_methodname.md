@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_MethodName
 title: IEventSubscription::get_MethodName (eventsys.h)
-description: The name of the event method.helpviewer_keywords: ["IEventSubscription interface [COM+]","MethodName property","IEventSubscription.MethodName","IEventSubscription.get_MethodName","IEventSubscription::MethodName","IEventSubscription::get_MethodName","IEventSubscription::put_MethodName","MethodName property [COM+]","MethodName property [COM+]","IEventSubscription interface","cos.ieventsubscription_methodname","eventsys/IEventSubscription::MethodName","eventsys/IEventSubscription::get_MethodName","eventsys/IEventSubscription::put_MethodName","get_MethodName"]
+description: The name of the event method.
+helpviewer_keywords: ["IEventSubscription interface [COM+]","MethodName property","IEventSubscription.MethodName","IEventSubscription.get_MethodName","IEventSubscription::MethodName","IEventSubscription::get_MethodName","IEventSubscription::put_MethodName","MethodName property [COM+]","MethodName property [COM+]","IEventSubscription interface","cos.ieventsubscription_methodname","eventsys/IEventSubscription::MethodName","eventsys/IEventSubscription::get_MethodName","eventsys/IEventSubscription::put_MethodName","get_MethodName"]
 old-location: cos\ieventsubscription_methodname.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2959e1f3-5b16-40a3-abdf-7fe18be2336b
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],MethodName property, IEventSubscription.MethodName, IEventSubscription.get_MethodName, IEventSubscription::MethodName, IEventSubscription::get_MethodName, IEventSubscription::put_MethodName, MethodName property [COM+], MethodName property [COM+],IEventSubscription interface, cos.ieventsubscription_methodname, eventsys/IEventSubscription::MethodName, eventsys/IEventSubscription::get_MethodName, eventsys/IEventSubscription::put_MethodName, get_MethodName

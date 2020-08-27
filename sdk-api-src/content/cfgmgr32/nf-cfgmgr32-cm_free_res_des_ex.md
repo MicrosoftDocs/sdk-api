@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Res_Des_Ex
 title: CM_Free_Res_Des_Ex function (cfgmgr32.h)
-description: The CM_Free_Res_Des_Ex function removes a resource descriptor from a logical configuration on either a local or a remote machine.helpviewer_keywords: ["CM_Free_Res_Des_Ex","CM_Free_Res_Des_Ex function [Device and Driver Installation]","cfgmgr32/CM_Free_Res_Des_Ex","cfgmgrfn_a851124e-1673-4025-8a33-478957f83152.xml","devinst.cm_free_res_des_ex"]
+description: The CM_Free_Res_Des_Ex function removes a resource descriptor from a logical configuration on either a local or a remote machine.
+helpviewer_keywords: ["CM_Free_Res_Des_Ex","CM_Free_Res_Des_Ex function [Device and Driver Installation]","cfgmgr32/CM_Free_Res_Des_Ex","cfgmgrfn_a851124e-1673-4025-8a33-478957f83152.xml","devinst.cm_free_res_des_ex"]
 old-location: devinst\cm_free_res_des_ex.htm
 tech.root: devinst
 ms.assetid: 2c6768c2-183b-480d-96cf-0f62f33d62d1

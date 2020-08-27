@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_OperationFT
 title: MI_OperationFT (mi.h)
-description: A support structure used in the MI_Operation structure. Use the functions with the name prefix &#0034;MI_Operation_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_OperationFT","MI_OperationFT structure [Windows Management Infrastructure (MI)]","mi/MI_OperationFT","wmi_v2.mi_operationft"]
+description: A support structure used in the MI_Operation structure. Use the functions with the name prefix &quot;MI_Operation_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_OperationFT","MI_OperationFT structure [Windows Management Infrastructure (MI)]","mi/MI_OperationFT","wmi_v2.mi_operationft"]
 old-location: wmi_v2\mi_operationft.htm
 tech.root: wmi_v2
 ms.assetid: 925cd972-61fc-466d-a2a6-e315ef3fc499
@@ -66,37 +67,37 @@ TBD
 
 
 
-#### - Cancel
+### -field Cancel
 
 Cancels a running operation. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
 
 
-#### - Close
+### -field Close
 
 Closes an operation handle. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
 
 
-#### - GetClass
+### -field GetClass
 
 Closes an operation handle. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
 
 
-#### - GetIndication
+### -field GetIndication
 
 Get the synchronous results from a subscription. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getindication">MI_Operation_GetIndication</a>.
 
 
-#### - GetInstance
+### -field GetInstance
 
 Gets a synchronous result for an instance operation. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>.
 
 
-#### - GetSession
+### -field GetSession
 
 Gets the session associated with an operation. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getsession">MI_Operation_GetSession</a>.

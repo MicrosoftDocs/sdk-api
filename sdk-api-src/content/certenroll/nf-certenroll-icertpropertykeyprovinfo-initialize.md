@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertPropertyKeyProvInfo.Initialize
 title: ICertPropertyKeyProvInfo::Initialize (certenroll.h)
-description: Initializes the object from a private key.helpviewer_keywords: ["ICertPropertyKeyProvInfo interface [Security]","Initialize method","ICertPropertyKeyProvInfo.Initialize","ICertPropertyKeyProvInfo::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyKeyProvInfo interface","certenroll/ICertPropertyKeyProvInfo::Initialize","security.icertpropertykeyprovinfo_initialize_method"]
+description: Initializes the object from a private key.
+helpviewer_keywords: ["ICertPropertyKeyProvInfo interface [Security]","Initialize method","ICertPropertyKeyProvInfo.Initialize","ICertPropertyKeyProvInfo::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyKeyProvInfo interface","certenroll/ICertPropertyKeyProvInfo::Initialize","security.icertpropertykeyprovinfo_initialize_method"]
 old-location: security\icertpropertykeyprovinfo_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: bc317b7b-c4d8-480b-9de7-3324e30898b8
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],Initialize method, ICertPropertyKeyProvInfo.Initialize, ICertPropertyKeyProvInfo::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::Initialize, security.icertpropertykeyprovinfo_initialize_method

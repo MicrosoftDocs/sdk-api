@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.AddMediaStream
 title: IMediaStreamFilter::AddMediaStream (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method connects a media stream object to the underlying filter graph.helpviewer_keywords: ["AddMediaStream","AddMediaStream method [DirectShow]","AddMediaStream method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","AddMediaStream method","IMediaStreamFilter.AddMediaStream","IMediaStreamFilter::AddMediaStream","IMediaStreamFilterAddMediaStream","amstream/IMediaStreamFilter::AddMediaStream","dshow.imediastreamfilter_addmediastream"]
+description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method connects a media stream object to the underlying filter graph.
+helpviewer_keywords: ["AddMediaStream","AddMediaStream method [DirectShow]","AddMediaStream method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","AddMediaStream method","IMediaStreamFilter.AddMediaStream","IMediaStreamFilter::AddMediaStream","IMediaStreamFilterAddMediaStream","amstream/IMediaStreamFilter::AddMediaStream","dshow.imediastreamfilter_addmediastream"]
 old-location: dshow\imediastreamfilter_addmediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e4fdc28-3117-4b9d-a914-ddb70aa5125d
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],AddMediaStream method, IMediaStreamFilter.AddMediaStream, IMediaStreamFilter::AddMediaStream, IMediaStreamFilterAddMediaStream, amstream/IMediaStreamFilter::AddMediaStream, dshow.imediastreamfilter_addmediastream

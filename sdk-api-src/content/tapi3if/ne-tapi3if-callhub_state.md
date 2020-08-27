@@ -1,9 +1,10 @@
 ---
 UID: NE:tapi3if.CALLHUB_STATE
 title: CALLHUB_STATE (tapi3if.h)
-description: The CALLHUB_STATE enum is a state indicator returned by the ITCallHub::get_State method.helpviewer_keywords: ["CALLHUB_STATE","CALLHUB_STATE enumeration [TAPI 2.2]","CHS_ACTIVE","CHS_IDLE","_tapi3_callhub_state","tapi3.callhub_state","tapi3if/CALLHUB_STATE","tapi3if/CHS_ACTIVE","tapi3if/CHS_IDLE"]
+description: The CALLHUB_STATE enum is a state indicator returned by the ITCallHub::get_State method.
+helpviewer_keywords: ["CALLHUB_STATE","CALLHUB_STATE enumeration [TAPI 2.2]","CHS_ACTIVE","CHS_IDLE","_tapi3_callhub_state","tapi3.callhub_state","tapi3if/CALLHUB_STATE","tapi3if/CHS_ACTIVE","tapi3if/CHS_IDLE"]
 old-location: tapi3\callhub_state.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8ddfe1f5-2f4a-4b41-83ce-858a669afc31
 ms.date: 12/05/2018
 ms.keywords: CALLHUB_STATE, CALLHUB_STATE enumeration [TAPI 2.2], CHS_ACTIVE, CHS_IDLE, _tapi3_callhub_state, tapi3.callhub_state, tapi3if/CALLHUB_STATE, tapi3if/CHS_ACTIVE, tapi3if/CHS_IDLE

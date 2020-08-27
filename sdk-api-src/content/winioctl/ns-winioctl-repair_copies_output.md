@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_OUTPUT
 title: REPAIR_COPIES_OUTPUT
-description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.helpviewer_keywords: ["*PREPAIR_COPIES_OUTPUT","PREPAIR_COPIES_OUTPUT","PREPAIR_COPIES_OUTPUT structure pointer [Files]","REPAIR_COPIES_OUTPUT","REPAIR_COPIES_OUTPUT structure [Files]","fs.repair_copies_output","winioctl/PREPAIR_COPIES_OUTPUT","winioctl/REPAIR_COPIES_OUTPUT"]
+description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.
+helpviewer_keywords: ["*PREPAIR_COPIES_OUTPUT","PREPAIR_COPIES_OUTPUT","PREPAIR_COPIES_OUTPUT structure pointer [Files]","REPAIR_COPIES_OUTPUT","REPAIR_COPIES_OUTPUT structure [Files]","fs.repair_copies_output","winioctl/PREPAIR_COPIES_OUTPUT","winioctl/REPAIR_COPIES_OUTPUT"]
 old-location: fs\repair_copies_output.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a3da7779-92e7-40bf-a889-dd2013e942ab
 ms.date: 12/05/2018
 ms.keywords: '*PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT structure pointer [Files], REPAIR_COPIES_OUTPUT, REPAIR_COPIES_OUTPUT structure [Files], fs.repair_copies_output, winioctl/PREPAIR_COPIES_OUTPUT, winioctl/REPAIR_COPIES_OUTPUT'

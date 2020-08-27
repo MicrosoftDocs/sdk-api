@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IUpdateIdentity
 title: IUpdateIdentity (wuapi.h)
-description: Represents the unique identifier of an update.helpviewer_keywords: ["IUpdateIdentity","IUpdateIdentity interface [Windows Update Agent]","IUpdateIdentity interface [Windows Update Agent]","described","wua.iupdateidentity","wuapi/IUpdateIdentity"]
+description: Represents the unique identifier of an update.
+helpviewer_keywords: ["IUpdateIdentity","IUpdateIdentity interface [Windows Update Agent]","IUpdateIdentity interface [Windows Update Agent]","described","wua.iupdateidentity","wuapi/IUpdateIdentity"]
 old-location: wua\iupdateidentity.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2086a120-3a9a-48c9-bf8a-ec86624f960c
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity, IUpdateIdentity interface [Windows Update Agent], IUpdateIdentity interface [Windows Update Agent],described, wua.iupdateidentity, wuapi/IUpdateIdentity

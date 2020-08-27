@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollector.get_FileNameFormat
 title: IDataCollector::get_FileNameFormat (pla.h)
-description: Retrieves or sets flags that describe how to decorate the file name.helpviewer_keywords: ["FileNameFormat property [PLA]","FileNameFormat property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileNameFormat property","IDataCollector.FileNameFormat","IDataCollector.get_FileNameFormat","IDataCollector::FileNameFormat","IDataCollector::get_FileNameFormat","IDataCollector::put_FileNameFormat","base.idatacollector_filenameformat","get_FileNameFormat","pla.idatacollector_filenameformat","pla/IDataCollector::FileNameFormat","pla/IDataCollector::get_FileNameFormat","pla/IDataCollector::put_FileNameFormat"]
+description: Retrieves or sets flags that describe how to decorate the file name.
+helpviewer_keywords: ["FileNameFormat property [PLA]","FileNameFormat property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileNameFormat property","IDataCollector.FileNameFormat","IDataCollector.get_FileNameFormat","IDataCollector::FileNameFormat","IDataCollector::get_FileNameFormat","IDataCollector::put_FileNameFormat","base.idatacollector_filenameformat","get_FileNameFormat","pla.idatacollector_filenameformat","pla/IDataCollector::FileNameFormat","pla/IDataCollector::get_FileNameFormat","pla/IDataCollector::put_FileNameFormat"]
 old-location: pla\idatacollector_filenameformat.htm
 tech.root: PLA
 ms.assetid: 3a7744a6-feb3-4aea-856d-8496aecc0176

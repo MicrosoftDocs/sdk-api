@@ -1,9 +1,10 @@
 ---
 UID: NS:winsvc._SERVICE_PRESHUTDOWN_INFO
 title: SERVICE_PRESHUTDOWN_INFO (winsvc.h)
-description: Contains preshutdown settings.helpviewer_keywords: ["*LPSERVICE_PRESHUTDOWN_INFO","LPSERVICE_PRESHUTDOWN_INFO","LPSERVICE_PRESHUTDOWN_INFO structure pointer","SERVICE_PRESHUTDOWN_INFO","SERVICE_PRESHUTDOWN_INFO structure","base.service_preshutdown_info","winsvc/LPSERVICE_PRESHUTDOWN_INFO","winsvc/SERVICE_PRESHUTDOWN_INFO"]
+description: Contains preshutdown settings.
+helpviewer_keywords: ["*LPSERVICE_PRESHUTDOWN_INFO","LPSERVICE_PRESHUTDOWN_INFO","LPSERVICE_PRESHUTDOWN_INFO structure pointer","SERVICE_PRESHUTDOWN_INFO","SERVICE_PRESHUTDOWN_INFO structure","base.service_preshutdown_info","winsvc/LPSERVICE_PRESHUTDOWN_INFO","winsvc/SERVICE_PRESHUTDOWN_INFO"]
 old-location: base\service_preshutdown_info.htm
-tech.root: Services
+tech.root: security
 ms.assetid: b9d2362c-e4d7-4072-88c2-5294b3838095
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO structure pointer, SERVICE_PRESHUTDOWN_INFO, SERVICE_PRESHUTDOWN_INFO structure, base.service_preshutdown_info, winsvc/LPSERVICE_PRESHUTDOWN_INFO, winsvc/SERVICE_PRESHUTDOWN_INFO'

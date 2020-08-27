@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMU565
 title: XMU565 (directxpackedvector.h)
-description: A 3D vector with x- and z- components represented as 5-bit unsigned integer values, and the y- component as a 6-bit unsigned integer value.helpviewer_keywords: ["XMU565","XMU565 structure [DirectX Math Support APIs]","directxpackedvector/XMU565","dxmath.xmu565"]
+description: A 3D vector with x- and z- components represented as 5-bit unsigned integer values, and the y- component as a 6-bit unsigned integer value.
+helpviewer_keywords: ["XMU565","XMU565 structure [DirectX Math Support APIs]","directxpackedvector/XMU565","dxmath.xmu565"]
 old-location: dxmath\xmu565.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU565
@@ -61,20 +62,6 @@ For a list of more functionality such as constructors and operators that are ava
 
 
 
-### -field x
-
- 
-
-
-### -field y
-
- 
-
-
-### -field z
-
- 
-
 
 ### -field v
 
@@ -99,19 +86,19 @@ TBD
 
 
 
-#### - x : 5
+### -field x : 5
 
 The 5-bit x component.
 			
 
 
-#### - y : 6
+### -field y : 6
 
 The 5-bit y component.
 			
 
 
-#### - z : 5
+### -field z : 5
 
 The 5-bit z component.
 			

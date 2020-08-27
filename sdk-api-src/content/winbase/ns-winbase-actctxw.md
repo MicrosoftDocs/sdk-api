@@ -1,9 +1,10 @@
 ---
 UID: NS:winbase.tagACTCTXW
 title: ACTCTXW (winbase.h)
-description: The ACTCTX structure is used by the CreateActCtx function to create the activation context.helpviewer_keywords: ["*PACTCTXW","ACTCTX","ACTCTX structure [Side-by-side Assemblies]","ACTCTXW","ACTCTX_FLAG_APPLICATION_NAME_VALID","ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID","ACTCTX_FLAG_HMODULE_VALID","ACTCTX_FLAG_LANGID_VALID","ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID","ACTCTX_FLAG_RESOURCE_NAME_VALID","ACTCTX_FLAG_SET_PROCESS_DEFAULT","PACTCTX","PACTCTX structure pointer [Side-by-side Assemblies]","_win32_actctx_str","setup.actctx_str","tagACTCTXA","tagACTCTXW","winbase/ACTCTX","winbase/ACTCTXW","winbase/PACTCTX"]
+description: The ACTCTX structure is used by the CreateActCtx function to create the activation context.
+helpviewer_keywords: ["*PACTCTXW","ACTCTX","ACTCTX structure [Side-by-side Assemblies]","ACTCTXW","ACTCTX_FLAG_APPLICATION_NAME_VALID","ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID","ACTCTX_FLAG_HMODULE_VALID","ACTCTX_FLAG_LANGID_VALID","ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID","ACTCTX_FLAG_RESOURCE_NAME_VALID","ACTCTX_FLAG_SET_PROCESS_DEFAULT","PACTCTX","PACTCTX structure pointer [Side-by-side Assemblies]","_win32_actctx_str","setup.actctx_str","tagACTCTXA","tagACTCTXW","winbase/ACTCTX","winbase/ACTCTXW","winbase/PACTCTX"]
 old-location: setup\actctx_str.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: b6f97f25-1834-44f7-86b7-33339481ba60
 ms.date: 12/05/2018
 ms.keywords: '*PACTCTXW, ACTCTX, ACTCTX structure [Side-by-side Assemblies], ACTCTXW, ACTCTX_FLAG_APPLICATION_NAME_VALID, ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID, ACTCTX_FLAG_HMODULE_VALID, ACTCTX_FLAG_LANGID_VALID, ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID, ACTCTX_FLAG_RESOURCE_NAME_VALID, ACTCTX_FLAG_SET_PROCESS_DEFAULT, PACTCTX, PACTCTX structure pointer [Side-by-side Assemblies], _win32_actctx_str, setup.actctx_str, tagACTCTXA, tagACTCTXW, winbase/ACTCTX, winbase/ACTCTXW, winbase/PACTCTX'
@@ -225,6 +226,10 @@ The values of <b>lpApplicationName</b> and <b>lpAssemblyDirectory</b> are not se
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines ACTCTX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

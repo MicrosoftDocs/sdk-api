@@ -4,7 +4,7 @@ title: FSCTL_DELETE_USN_JOURNAL
 description: Deletes the update sequence number (USN) change journal on a volume, or waits for notification of change journal deletion.
 helpviewer_keywords: ["FSCTL_DELETE_USN_JOURNAL","FSCTL_DELETE_USN_JOURNAL control","FSCTL_DELETE_USN_JOURNAL control code [Files]","_win32_fsctl_delete_usn_journal","base.fsctl_delete_usn_journal","fs.fsctl_delete_usn_journal","winioctl/FSCTL_DELETE_USN_JOURNAL"]
 old-location: fs\fsctl_delete_usn_journal.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6c85464d-019b-4923-9acf-152b4ee8c31b
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DELETE_USN_JOURNAL, FSCTL_DELETE_USN_JOURNAL control, FSCTL_DELETE_USN_JOURNAL control code [Files], _win32_fsctl_delete_usn_journal, base.fsctl_delete_usn_journal, fs.fsctl_delete_usn_journal, winioctl/FSCTL_DELETE_USN_JOURNAL

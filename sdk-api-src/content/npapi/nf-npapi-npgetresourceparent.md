@@ -1,9 +1,10 @@
 ---
 UID: NF:npapi.NPGetResourceParent
 title: NPGetResourceParent function (npapi.h)
-description: Retrieves the parent of a specified network resource in the browse hierarchy.helpviewer_keywords: ["NPGetResourceParent","NPGetResourceParent function [Security]","_mnp_npgetresourceparent","npapi/NPGetResourceParent","security.npgetresourceparent"]
+description: Retrieves the parent of a specified network resource in the browse hierarchy.
+helpviewer_keywords: ["NPGetResourceParent","NPGetResourceParent function [Security]","_mnp_npgetresourceparent","npapi/NPGetResourceParent","security.npgetresourceparent"]
 old-location: security\npgetresourceparent.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 48add326-7182-426a-b7b6-d56f4bfcfb2b
 ms.date: 12/05/2018
 ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_npgetresourceparent, npapi/NPGetResourceParent, security.npgetresourceparent

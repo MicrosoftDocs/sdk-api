@@ -1,9 +1,10 @@
 ---
 UID: NE:p2p.peer_record_change_type_tag
 title: PEER_RECORD_CHANGE_TYPE (p2p.h)
-description: The PEER_RECORD_CHANGE_TYPE enumeration specifies the changes that can occur to a record.helpviewer_keywords: ["PEER_RECORD_ADDED","PEER_RECORD_CHANGE_TYPE","PEER_RECORD_CHANGE_TYPE enumeration [Peer Networking]","PEER_RECORD_DELETED","PEER_RECORD_EXPIRED","PEER_RECORD_UPDATED","p2p.peer_record_change_type","p2p/PEER_RECORD_ADDED","p2p/PEER_RECORD_CHANGE_TYPE","p2p/PEER_RECORD_DELETED","p2p/PEER_RECORD_EXPIRED","p2p/PEER_RECORD_UPDATED"]
+description: The PEER_RECORD_CHANGE_TYPE enumeration specifies the changes that can occur to a record.
+helpviewer_keywords: ["PEER_RECORD_ADDED","PEER_RECORD_CHANGE_TYPE","PEER_RECORD_CHANGE_TYPE enumeration [Peer Networking]","PEER_RECORD_DELETED","PEER_RECORD_EXPIRED","PEER_RECORD_UPDATED","p2p.peer_record_change_type","p2p/PEER_RECORD_ADDED","p2p/PEER_RECORD_CHANGE_TYPE","p2p/PEER_RECORD_DELETED","p2p/PEER_RECORD_EXPIRED","p2p/PEER_RECORD_UPDATED"]
 old-location: p2p\peer_record_change_type.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d2451b45-eb42-4401-ab1d-505a41e25822
 ms.date: 12/05/2018
 ms.keywords: PEER_RECORD_ADDED, PEER_RECORD_CHANGE_TYPE, PEER_RECORD_CHANGE_TYPE enumeration [Peer Networking], PEER_RECORD_DELETED, PEER_RECORD_EXPIRED, PEER_RECORD_UPDATED, p2p.peer_record_change_type, p2p/PEER_RECORD_ADDED, p2p/PEER_RECORD_CHANGE_TYPE, p2p/PEER_RECORD_DELETED, p2p/PEER_RECORD_EXPIRED, p2p/PEER_RECORD_UPDATED

@@ -4,7 +4,7 @@ title: IXpsOMDashCollection::Append (xpsobjectmodel.h)
 description: Appends an XPS_DASH structure to the end of the collection.
 helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMDashCollection interface","IXpsOMDashCollection interface [XPS Documents and Packaging]","Append method","IXpsOMDashCollection.Append","IXpsOMDashCollection::Append","xps.ixpsomdashcollection_append","xpsobjectmodel/IXpsOMDashCollection::Append"]
 old-location: xps\ixpsomdashcollection_append.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e8d2baf5-e36e-4363-bde6-1731c97e702f
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],Append method, IXpsOMDashCollection.Append, IXpsOMDashCollection::Append, xps.ixpsomdashcollection_append, xpsobjectmodel/IXpsOMDashCollection::Append

@@ -1,9 +1,10 @@
 ---
 UID: NF:bcrypt.BCryptEnumRegisteredProviders
 title: BCryptEnumRegisteredProviders function (bcrypt.h)
-description: Retrieves information about the registered providers.helpviewer_keywords: ["BCryptEnumRegisteredProviders","BCryptEnumRegisteredProviders function [Security]","bcrypt/BCryptEnumRegisteredProviders","security.bcryptenumregisteredproviders"]
+description: Retrieves information about the registered providers.
+helpviewer_keywords: ["BCryptEnumRegisteredProviders","BCryptEnumRegisteredProviders function [Security]","bcrypt/BCryptEnumRegisteredProviders","security.bcryptenumregisteredproviders"]
 old-location: security\bcryptenumregisteredproviders.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: a01adfec-dbe0-4817-af97-63163760fafc
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumRegisteredProviders, BCryptEnumRegisteredProviders function [Security], bcrypt/BCryptEnumRegisteredProviders, security.bcryptenumregisteredproviders

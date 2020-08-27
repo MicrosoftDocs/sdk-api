@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministratorName
 title: IAzApplication::AddPolicyAdministratorName (azroles.h)
-description: Adds the specified account name to the list of principals that act as policy administrators.helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName method [Security]","AddPolicyAdministratorName method [Security]","AzApplication object","AddPolicyAdministratorName method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyAdministratorName method","IAzApplication interface [Security]","AddPolicyAdministratorName method","IAzApplication.AddPolicyAdministratorName","IAzApplication::AddPolicyAdministratorName","azroles/IAzApplication::AddPolicyAdministratorName","security.iazapplication_addpolicyadministratorname"]
+description: Adds the specified account name to the list of principals that act as policy administrators.
+helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName method [Security]","AddPolicyAdministratorName method [Security]","AzApplication object","AddPolicyAdministratorName method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyAdministratorName method","IAzApplication interface [Security]","AddPolicyAdministratorName method","IAzApplication.AddPolicyAdministratorName","IAzApplication::AddPolicyAdministratorName","azroles/IAzApplication::AddPolicyAdministratorName","security.iazapplication_addpolicyadministratorname"]
 old-location: security\iazapplication_addpolicyadministratorname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzApplication object, AddPolicyAdministratorName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministratorName method, IAzApplication interface [Security],AddPolicyAdministratorName method, IAzApplication.AddPolicyAdministratorName, IAzApplication::AddPolicyAdministratorName, azroles/IAzApplication::AddPolicyAdministratorName, security.iazapplication_addpolicyadministratorname

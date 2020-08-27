@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GlobalAlloc
 title: GlobalAlloc function (winbase.h)
-description: Allocates the specified number of bytes from the heap.helpviewer_keywords: ["GHND","GMEM_FIXED","GMEM_MOVEABLE","GMEM_ZEROINIT","GPTR","GlobalAlloc","GlobalAlloc function","_win32_globalalloc","base.globalalloc","winbase/GlobalAlloc"]
+description: Allocates the specified number of bytes from the heap.
+helpviewer_keywords: ["GHND","GMEM_FIXED","GMEM_MOVEABLE","GMEM_ZEROINIT","GPTR","GlobalAlloc","GlobalAlloc function","_win32_globalalloc","base.globalalloc","winbase/GlobalAlloc"]
 old-location: base\globalalloc.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
 ms.date: 12/05/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc

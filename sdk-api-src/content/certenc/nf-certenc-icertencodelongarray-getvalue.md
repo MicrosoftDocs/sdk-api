@@ -1,9 +1,10 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.GetValue
 title: ICertEncodeLongArray::GetValue (certenc.h)
-description: Returns the specified Long value from the Long array.helpviewer_keywords: ["CCertEncodeLongArray object [Security]","GetValue method","GetValue","GetValue method [Security]","GetValue method [Security]","CCertEncodeLongArray object","GetValue method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","GetValue method","ICertEncodeLongArray.GetValue","ICertEncodeLongArray::GetValue","_certsrv_icertencodelongarray_getvalue","certenc/ICertEncodeLongArray::GetValue","security.icertencodelongarray_getvalue"]
+description: Returns the specified Long value from the Long array.
+helpviewer_keywords: ["CCertEncodeLongArray object [Security]","GetValue method","GetValue","GetValue method [Security]","GetValue method [Security]","CCertEncodeLongArray object","GetValue method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","GetValue method","ICertEncodeLongArray.GetValue","ICertEncodeLongArray::GetValue","_certsrv_icertencodelongarray_getvalue","certenc/ICertEncodeLongArray::GetValue","security.icertencodelongarray_getvalue"]
 old-location: security\icertencodelongarray_getvalue.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0a7c1d6b-8fe7-4cc0-8cbd-2831dd3a178b
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeLongArray object, GetValue method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],GetValue method, ICertEncodeLongArray.GetValue, ICertEncodeLongArray::GetValue, _certsrv_icertencodelongarray_getvalue, certenc/ICertEncodeLongArray::GetValue, security.icertencodelongarray_getvalue

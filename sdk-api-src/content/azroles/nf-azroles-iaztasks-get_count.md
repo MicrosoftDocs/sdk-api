@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTasks.get_Count
 title: IAzTasks::get_Count (azroles.h)
-description: Retrieves the number of IAzTask objects in the collection.helpviewer_keywords: ["AzTasks object [Security]","Count property","Count property [Security]","Count property [Security]","AzTasks object","Count property [Security]","IAzTasks interface","IAzTasks interface [Security]","Count property","IAzTasks.Count","IAzTasks.get_Count","IAzTasks::Count","IAzTasks::get_Count","azroles/IAzTasks::Count","azroles/IAzTasks::get_Count","get_Count","security.iaztasks_count"]
+description: Retrieves the number of IAzTask objects in the collection.
+helpviewer_keywords: ["AzTasks object [Security]","Count property","Count property [Security]","Count property [Security]","AzTasks object","Count property [Security]","IAzTasks interface","IAzTasks interface [Security]","Count property","IAzTasks.Count","IAzTasks.get_Count","IAzTasks::Count","IAzTasks::get_Count","azroles/IAzTasks::Count","azroles/IAzTasks::get_Count","get_Count","security.iaztasks_count"]
 old-location: security\iaztasks_count.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 505768ce-27a3-4f36-aeea-081cf8e45d14
 ms.date: 12/05/2018
 ms.keywords: AzTasks object [Security],Count property, Count property [Security], Count property [Security],AzTasks object, Count property [Security],IAzTasks interface, IAzTasks interface [Security],Count property, IAzTasks.Count, IAzTasks.get_Count, IAzTasks::Count, IAzTasks::get_Count, azroles/IAzTasks::Count, azroles/IAzTasks::get_Count, get_Count, security.iaztasks_count

@@ -1,9 +1,10 @@
 ---
 UID: NF:aclui.EditSecurityAdvanced
 title: EditSecurityAdvanced function (aclui.h)
-description: Extends the EditSecurity function to include the security page type when displaying the property sheet that contains a basic security property page.helpviewer_keywords: ["EditSecurityAdvanced","EditSecurityAdvanced function [Security]","aclui/EditSecurityAdvanced","security.editsecurityadvanced"]
+description: Extends the EditSecurity function to include the security page type when displaying the property sheet that contains a basic security property page.
+helpviewer_keywords: ["EditSecurityAdvanced","EditSecurityAdvanced function [Security]","aclui/EditSecurityAdvanced","security.editsecurityadvanced"]
 old-location: security\editsecurityadvanced.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: E451BBB9-4E01-4A8F-9ACD-750351F16453
 ms.date: 12/05/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced

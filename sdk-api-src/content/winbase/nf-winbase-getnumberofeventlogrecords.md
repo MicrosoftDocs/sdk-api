@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetNumberOfEventLogRecords
 title: GetNumberOfEventLogRecords function (winbase.h)
-description: Retrieves the number of records in the specified event log.helpviewer_keywords: ["GetNumberOfEventLogRecords","GetNumberOfEventLogRecords function","_win32_getnumberofeventlogrecords","base.getnumberofeventlogrecords","winbase/GetNumberOfEventLogRecords"]
+description: Retrieves the number of records in the specified event log.
+helpviewer_keywords: ["GetNumberOfEventLogRecords","GetNumberOfEventLogRecords function","_win32_getnumberofeventlogrecords","base.getnumberofeventlogrecords","winbase/GetNumberOfEventLogRecords"]
 old-location: base\getnumberofeventlogrecords.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: 80cc8735-26a2-4ad3-a111-28f2c0c52e98
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _win32_getnumberofeventlogrecords, base.getnumberofeventlogrecords, winbase/GetNumberOfEventLogRecords

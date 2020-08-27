@@ -1,9 +1,10 @@
 ---
 UID: NF:wingdi.StartPage
 title: StartPage function (wingdi.h)
-description: The StartPage function prepares the printer driver to accept data.helpviewer_keywords: ["StartPage","StartPage function [Windows GDI]","_win32_StartPage","gdi.startpage","wingdi/StartPage"]
+description: The StartPage function prepares the printer driver to accept data.
+helpviewer_keywords: ["StartPage","StartPage function [Windows GDI]","_win32_StartPage","gdi.startpage","wingdi/StartPage"]
 old-location: gdi\startpage.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76
 ms.date: 12/05/2018
 ms.keywords: StartPage, StartPage function [Windows GDI], _win32_StartPage, gdi.startpage, wingdi/StartPage

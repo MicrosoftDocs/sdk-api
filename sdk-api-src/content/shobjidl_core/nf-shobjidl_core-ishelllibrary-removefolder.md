@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.RemoveFolder
 title: IShellLibrary::RemoveFolder (shobjidl_core.h)
-description: Removes a folder from the library.helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","RemoveFolder method","IShellLibrary.RemoveFolder","IShellLibrary::RemoveFolder","RemoveFolder","RemoveFolder method [Windows Shell]","RemoveFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_RemoveFolder","shell.IShellLibrary_RemoveFolder","shobjidl_core/IShellLibrary::RemoveFolder"]
+description: Removes a folder from the library.
+helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","RemoveFolder method","IShellLibrary.RemoveFolder","IShellLibrary::RemoveFolder","RemoveFolder","RemoveFolder method [Windows Shell]","RemoveFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_RemoveFolder","shell.IShellLibrary_RemoveFolder","shobjidl_core/IShellLibrary::RemoveFolder"]
 old-location: shell\IShellLibrary_RemoveFolder.htm
 tech.root: shell
 ms.assetid: 2ba2c504-e96c-4b56-b2f2-196c0b74c9eb

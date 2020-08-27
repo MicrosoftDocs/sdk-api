@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorNotifyEx
 title: IMFVideoSampleAllocatorNotifyEx (mfidl.h)
-description: The callback for the IMFVideoSampleAllocatorCallback interface.helpviewer_keywords: ["IMFVideoSampleAllocatorNotifyEx","IMFVideoSampleAllocatorNotifyEx interface [Media Foundation]","IMFVideoSampleAllocatorNotifyEx interface [Media Foundation]","described","mf.imfvideosampleallocatornotifyex","mfidl/IMFVideoSampleAllocatorNotifyEx"]
+description: The callback for the IMFVideoSampleAllocatorCallback interface.
+helpviewer_keywords: ["IMFVideoSampleAllocatorNotifyEx","IMFVideoSampleAllocatorNotifyEx interface [Media Foundation]","IMFVideoSampleAllocatorNotifyEx interface [Media Foundation]","described","mf.imfvideosampleallocatornotifyex","mfidl/IMFVideoSampleAllocatorNotifyEx"]
 old-location: mf\imfvideosampleallocatornotifyex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5B3EA486-A45F-4C7B-8E36-80C9C2FD64F2
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation], IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],described, mf.imfvideosampleallocatornotifyex, mfidl/IMFVideoSampleAllocatorNotifyEx

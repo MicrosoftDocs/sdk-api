@@ -1,7 +1,8 @@
 ---
 UID: NC:commctrl.PFNLVGROUPCOMPARE
 title: PFNLVGROUPCOMPARE (commctrl.h)
-description: The LVGroupCompare function is an application-defined callback function used with the LVM_INSERTGROUPSORTED and LVM_SORTGROUPS messages.helpviewer_keywords: ["LVGroupCompare","PFNLVGROUPCOMPARE","PFNLVGROUPCOMPARE callback","PFNLVGROUPCOMPARE callback function [Windows Controls]","_win32_LVGroupCompare","_win32_LVGroupCompare_cpp","commctrl/PFNLVGROUPCOMPARE","controls.LVGroupCompare","controls._win32_LVGroupCompare"]
+description: The LVGroupCompare function is an application-defined callback function used with the LVM_INSERTGROUPSORTED and LVM_SORTGROUPS messages.
+helpviewer_keywords: ["LVGroupCompare","PFNLVGROUPCOMPARE","PFNLVGROUPCOMPARE callback","PFNLVGROUPCOMPARE callback function [Windows Controls]","_win32_LVGroupCompare","_win32_LVGroupCompare_cpp","commctrl/PFNLVGROUPCOMPARE","controls.LVGroupCompare","controls._win32_LVGroupCompare"]
 old-location: controls\LVGroupCompare.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\callbackfunctions\lvgroupcompare.htm

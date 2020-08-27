@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.SpawnDerivedClass
 title: IWbemClassObject::SpawnDerivedClass (wbemcli.h)
-description: Use the IWbemClassObject::SpawnDerivedClass method to create a newly derived class object from the current object.helpviewer_keywords: ["IWbemClassObject interface [Windows Management Instrumentation]","SpawnDerivedClass method","IWbemClassObject.SpawnDerivedClass","IWbemClassObject::SpawnDerivedClass","SpawnDerivedClass","SpawnDerivedClass method [Windows Management Instrumentation]","SpawnDerivedClass method [Windows Management Instrumentation]","IWbemClassObject interface","_hmm_iwbemclassobject_spawnderivedclass","wbemcli/IWbemClassObject::SpawnDerivedClass","wmi.iwbemclassobject_spawnderivedclass"]
+description: Use the IWbemClassObject::SpawnDerivedClass method to create a newly derived class object from the current object.
+helpviewer_keywords: ["IWbemClassObject interface [Windows Management Instrumentation]","SpawnDerivedClass method","IWbemClassObject.SpawnDerivedClass","IWbemClassObject::SpawnDerivedClass","SpawnDerivedClass","SpawnDerivedClass method [Windows Management Instrumentation]","SpawnDerivedClass method [Windows Management Instrumentation]","IWbemClassObject interface","_hmm_iwbemclassobject_spawnderivedclass","wbemcli/IWbemClassObject::SpawnDerivedClass","wmi.iwbemclassobject_spawnderivedclass"]
 old-location: wmi\iwbemclassobject_spawnderivedclass.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 9b27c984-2261-4263-a32e-977aba5e3f06
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],SpawnDerivedClass method, IWbemClassObject.SpawnDerivedClass, IWbemClassObject::SpawnDerivedClass, SpawnDerivedClass, SpawnDerivedClass method [Windows Management Instrumentation], SpawnDerivedClass method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_spawnderivedclass, wbemcli/IWbemClassObject::SpawnDerivedClass, wmi.iwbemclassobject_spawnderivedclass

@@ -1,7 +1,8 @@
 ---
 UID: NE:taskschd._TASK_INSTANCES_POLICY
 title: TASK_INSTANCES_POLICY (taskschd.h)
-description: Defines how the Task Scheduler handles existing instances of the task when it starts a new instance of the task.helpviewer_keywords: ["TASK_INSTANCES_IGNORE_NEW","TASK_INSTANCES_PARALLEL","TASK_INSTANCES_POLICY","TASK_INSTANCES_POLICY enumeration [Task Scheduler]","TASK_INSTANCES_QUEUE","TASK_INSTANCES_STOP_EXISTING","taskschd.task_instances_policy","taskschd/TASK_INSTANCES_IGNORE_NEW","taskschd/TASK_INSTANCES_PARALLEL","taskschd/TASK_INSTANCES_POLICY","taskschd/TASK_INSTANCES_QUEUE","taskschd/TASK_INSTANCES_STOP_EXISTING"]
+description: Defines how the Task Scheduler handles existing instances of the task when it starts a new instance of the task.
+helpviewer_keywords: ["TASK_INSTANCES_IGNORE_NEW","TASK_INSTANCES_PARALLEL","TASK_INSTANCES_POLICY","TASK_INSTANCES_POLICY enumeration [Task Scheduler]","TASK_INSTANCES_QUEUE","TASK_INSTANCES_STOP_EXISTING","taskschd.task_instances_policy","taskschd/TASK_INSTANCES_IGNORE_NEW","taskschd/TASK_INSTANCES_PARALLEL","taskschd/TASK_INSTANCES_POLICY","taskschd/TASK_INSTANCES_QUEUE","taskschd/TASK_INSTANCES_STOP_EXISTING"]
 old-location: taskschd\task_instances_policy.htm
 tech.root: taskschd
 ms.assetid: 38d92951-546e-47e6-bc03-5ef4f317a814

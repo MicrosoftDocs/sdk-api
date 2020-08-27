@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupCloseLog
 title: SetupCloseLog function (setupapi.h)
-description: The SetupCloseLog function closes the log files.helpviewer_keywords: ["SetupCloseLog","SetupCloseLog function [Setup API]","_setupapi_setupcloselog","setup.setupcloselog","setupapi/SetupCloseLog"]
+description: The SetupCloseLog function closes the log files.
+helpviewer_keywords: ["SetupCloseLog","SetupCloseLog function [Setup API]","_setupapi_setupcloselog","setup.setupcloselog","setupapi/SetupCloseLog"]
 old-location: setup\setupcloselog.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 659e7922-205c-4da2-90ed-aa7d7625af87
 ms.date: 12/05/2018
 ms.keywords: SetupCloseLog, SetupCloseLog function [Setup API], _setupapi_setupcloselog, setup.setupcloselog, setupapi/SetupCloseLog

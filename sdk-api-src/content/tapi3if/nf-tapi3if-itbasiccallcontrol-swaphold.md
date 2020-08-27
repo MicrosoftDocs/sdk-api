@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.SwapHold
 title: ITBasicCallControl::SwapHold (tapi3if.h)
-description: The SwapHold method swaps the call (which is active) with the specified call on hold.helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","SwapHold method","ITBasicCallControl.SwapHold","ITBasicCallControl::SwapHold","SwapHold","SwapHold method [TAPI 2.2]","SwapHold method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_swaphold","tapi3.itbasiccallcontrol_swaphold","tapi3if/ITBasicCallControl::SwapHold"]
+description: The SwapHold method swaps the call (which is active) with the specified call on hold.
+helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","SwapHold method","ITBasicCallControl.SwapHold","ITBasicCallControl::SwapHold","SwapHold","SwapHold method [TAPI 2.2]","SwapHold method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_swaphold","tapi3.itbasiccallcontrol_swaphold","tapi3if/ITBasicCallControl::SwapHold"]
 old-location: tapi3\itbasiccallcontrol_swaphold.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 372e8ca9-53fb-4ec0-aae8-52f85523b7c4
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SwapHold method, ITBasicCallControl.SwapHold, ITBasicCallControl::SwapHold, SwapHold, SwapHold method [TAPI 2.2], SwapHold method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_swaphold, tapi3.itbasiccallcontrol_swaphold, tapi3if/ITBasicCallControl::SwapHold

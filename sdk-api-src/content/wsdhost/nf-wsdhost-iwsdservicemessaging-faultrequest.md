@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.FaultRequest
 title: IWSDServiceMessaging::FaultRequest (wsdhost.h)
-description: Sends a fault matching a given request context.helpviewer_keywords: ["FaultRequest","FaultRequest method","FaultRequest method","IWSDServiceMessaging interface","IWSDServiceMessaging interface","FaultRequest method","IWSDServiceMessaging.FaultRequest","IWSDServiceMessaging::FaultRequest","ncd.iwsdservicemessaging_faultrequest","wsdhost/IWSDServiceMessaging::FaultRequest"]
+description: Sends a fault matching a given request context.
+helpviewer_keywords: ["FaultRequest","FaultRequest method","FaultRequest method","IWSDServiceMessaging interface","IWSDServiceMessaging interface","FaultRequest method","IWSDServiceMessaging.FaultRequest","IWSDServiceMessaging::FaultRequest","ncd.iwsdservicemessaging_faultrequest","wsdhost/IWSDServiceMessaging::FaultRequest"]
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
 ms.date: 12/05/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest

@@ -4,7 +4,7 @@ title: IXpsSigningOptions::SetFlags (xpsdigitalsignature.h)
 description: Sets the XPS_SIGN_FLAGS value that specifies the signing flags to use for this signature.
 helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetFlags method","IXpsSigningOptions.SetFlags","IXpsSigningOptions::SetFlags","SetFlags","SetFlags method [XPS Documents and Packaging]","SetFlags method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setflags","xpsdigitalsignature/IXpsSigningOptions::SetFlags"]
 old-location: xps\ixpssigningoptions_setflags.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 59467fd5-c462-4827-a4f8-e152df981ace
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetFlags method, IXpsSigningOptions.SetFlags, IXpsSigningOptions::SetFlags, SetFlags, SetFlags method [XPS Documents and Packaging], SetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setflags, xpsdigitalsignature/IXpsSigningOptions::SetFlags

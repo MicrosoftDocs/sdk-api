@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITDigitGenerationEvent.get_GenerationTermination
 title: ITDigitGenerationEvent::get_GenerationTermination (tapi3if.h)
-description: The get_GenerationTermination method gets the digit or digits that indicate the end of the generated digit series.helpviewer_keywords: ["ITDigitGenerationEvent interface [TAPI 2.2]","get_GenerationTermination method","ITDigitGenerationEvent.get_GenerationTermination","ITDigitGenerationEvent::get_GenerationTermination","_tapi3_itdigitgenerationevent_get_generationtermination","get_GenerationTermination","get_GenerationTermination method [TAPI 2.2]","get_GenerationTermination method [TAPI 2.2]","ITDigitGenerationEvent interface","tapi3.itdigitgenerationevent_get_generationtermination","tapi3if/ITDigitGenerationEvent::get_GenerationTermination"]
+description: The get_GenerationTermination method gets the digit or digits that indicate the end of the generated digit series.
+helpviewer_keywords: ["ITDigitGenerationEvent interface [TAPI 2.2]","get_GenerationTermination method","ITDigitGenerationEvent.get_GenerationTermination","ITDigitGenerationEvent::get_GenerationTermination","_tapi3_itdigitgenerationevent_get_generationtermination","get_GenerationTermination","get_GenerationTermination method [TAPI 2.2]","get_GenerationTermination method [TAPI 2.2]","ITDigitGenerationEvent interface","tapi3.itdigitgenerationevent_get_generationtermination","tapi3if/ITDigitGenerationEvent::get_GenerationTermination"]
 old-location: tapi3\itdigitgenerationevent_get_generationtermination.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 70e8c932-a157-455e-b340-d7e4eb19823c
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_GenerationTermination method, ITDigitGenerationEvent.get_GenerationTermination, ITDigitGenerationEvent::get_GenerationTermination, _tapi3_itdigitgenerationevent_get_generationtermination, get_GenerationTermination, get_GenerationTermination method [TAPI 2.2], get_GenerationTermination method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_generationtermination, tapi3if/ITDigitGenerationEvent::get_GenerationTermination

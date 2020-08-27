@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_UPDATE
 title: PDD_VPORTCB_UPDATE (ddrawint.h)
-description: The DdVideoPortUpdate callback function starts and stops the VPE object, and modifies the VPE object data stream.helpviewer_keywords: ["DdVideoPortUpdate","DdVideoPortUpdate callback function [Display Devices]","PDD_VPORTCB_UPDATE","PDD_VPORTCB_UPDATE callback","ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml","ddrawint/DdVideoPortUpdate","display.ddvideoportupdate"]
+description: The DdVideoPortUpdate callback function starts and stops the VPE object, and modifies the VPE object data stream.
+helpviewer_keywords: ["DdVideoPortUpdate","DdVideoPortUpdate callback function [Display Devices]","PDD_VPORTCB_UPDATE","PDD_VPORTCB_UPDATE callback","ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml","ddrawint/DdVideoPortUpdate","display.ddvideoportupdate"]
 old-location: display\ddvideoportupdate.htm
 tech.root: display
 ms.assetid: 50a55a89-bae0-4a65-96ef-3e9903f45a0c

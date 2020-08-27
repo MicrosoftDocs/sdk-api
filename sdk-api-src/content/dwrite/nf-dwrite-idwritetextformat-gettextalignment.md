@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTextAlignment
 title: IDWriteTextFormat::GetTextAlignment (dwrite.h)
-description: Gets the alignment option of text relative to the layout box's leading and trailing edge.helpviewer_keywords: ["GetTextAlignment","GetTextAlignment method [Direct Write]","GetTextAlignment method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetTextAlignment method","IDWriteTextFormat.GetTextAlignment","IDWriteTextFormat::GetTextAlignment","directwrite.IDWriteTextFormat_GetTextAlignment","dwrite/IDWriteTextFormat::GetTextAlignment"]
+description: Gets the alignment option of text relative to the layout box's leading and trailing edge.
+helpviewer_keywords: ["GetTextAlignment","GetTextAlignment method [Direct Write]","GetTextAlignment method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetTextAlignment method","IDWriteTextFormat.GetTextAlignment","IDWriteTextFormat::GetTextAlignment","directwrite.IDWriteTextFormat_GetTextAlignment","dwrite/IDWriteTextFormat::GetTextAlignment"]
 old-location: directwrite\IDWriteTextFormat_GetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 0b6d58d8-2ddb-4e60-95ac-27a1aeec7602

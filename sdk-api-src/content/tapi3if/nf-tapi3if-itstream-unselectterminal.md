@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITStream.UnselectTerminal
 title: ITStream::UnselectTerminal (tapi3if.h)
-description: The UnselectTerminal method unselects the terminal from the stream and stops streaming for this stream.helpviewer_keywords: ["ITStream interface [TAPI 2.2]","UnselectTerminal method","ITStream.UnselectTerminal","ITStream::UnselectTerminal","UnselectTerminal","UnselectTerminal method [TAPI 2.2]","UnselectTerminal method [TAPI 2.2]","ITStream interface","_tapi3_itstream_unselectterminal","tapi3.itstream_unselectterminal","tapi3if/ITStream::UnselectTerminal"]
+description: The UnselectTerminal method unselects the terminal from the stream and stops streaming for this stream.
+helpviewer_keywords: ["ITStream interface [TAPI 2.2]","UnselectTerminal method","ITStream.UnselectTerminal","ITStream::UnselectTerminal","UnselectTerminal","UnselectTerminal method [TAPI 2.2]","UnselectTerminal method [TAPI 2.2]","ITStream interface","_tapi3_itstream_unselectterminal","tapi3.itstream_unselectterminal","tapi3if/ITStream::UnselectTerminal"]
 old-location: tapi3\itstream_unselectterminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ad16ea41-0c02-4bba-bfd9-267b56c481e1
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],UnselectTerminal method, ITStream.UnselectTerminal, ITStream::UnselectTerminal, UnselectTerminal, UnselectTerminal method [TAPI 2.2], UnselectTerminal method [TAPI 2.2],ITStream interface, _tapi3_itstream_unselectterminal, tapi3.itstream_unselectterminal, tapi3if/ITStream::UnselectTerminal

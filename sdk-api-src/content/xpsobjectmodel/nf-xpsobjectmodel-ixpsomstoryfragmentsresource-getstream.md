@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetStream
 title: IXpsOMStoryFragmentsResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMStoryFragmentsResource.GetStream","IXpsOMStoryFragmentsResource::GetStream","xps.ixpsomstoryfragmentsresource_getstream","xpsobjectmodel/IXpsOMStoryFragmentsResource::GetStream"]
+description: Gets a new, read-only copy of the stream that is associated with this resource.
+helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMStoryFragmentsResource.GetStream","IXpsOMStoryFragmentsResource::GetStream","xps.ixpsomstoryfragmentsresource_getstream","xpsobjectmodel/IXpsOMStoryFragmentsResource::GetStream"]
 old-location: xps\ixpsomstoryfragmentsresource_getstream.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c119f1c6-59c0-41b2-b79d-5de9a62c146a
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],GetStream method, IXpsOMStoryFragmentsResource.GetStream, IXpsOMStoryFragmentsResource::GetStream, xps.ixpsomstoryfragmentsresource_getstream, xpsobjectmodel/IXpsOMStoryFragmentsResource::GetStream

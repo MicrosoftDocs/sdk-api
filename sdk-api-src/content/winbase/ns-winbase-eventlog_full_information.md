@@ -1,9 +1,10 @@
 ---
 UID: NS:winbase._EVENTLOG_FULL_INFORMATION
 title: EVENTLOG_FULL_INFORMATION (winbase.h)
-description: Indicates whether the event log is full.helpviewer_keywords: ["*LPEVENTLOG_FULL_INFORMATION","EVENTLOG_FULL_INFORMATION","EVENTLOG_FULL_INFORMATION structure","LPEVENTLOG_FULL_INFORMATION","LPEVENTLOG_FULL_INFORMATION structure pointer","_EVENTLOG_FULL_INFORMATION","_win32_eventlog_full_information_str","base.eventlog_full_information_str","winbase/EVENTLOG_FULL_INFORMATION","winbase/LPEVENTLOG_FULL_INFORMATION"]
+description: Indicates whether the event log is full.
+helpviewer_keywords: ["*LPEVENTLOG_FULL_INFORMATION","EVENTLOG_FULL_INFORMATION","EVENTLOG_FULL_INFORMATION structure","LPEVENTLOG_FULL_INFORMATION","LPEVENTLOG_FULL_INFORMATION structure pointer","_EVENTLOG_FULL_INFORMATION","_win32_eventlog_full_information_str","base.eventlog_full_information_str","winbase/EVENTLOG_FULL_INFORMATION","winbase/LPEVENTLOG_FULL_INFORMATION"]
 old-location: base\eventlog_full_information_str.htm
-tech.root: EventLog
+tech.root: base
 ms.assetid: 3ca41d6b-51a6-4226-89be-ab2c37628289
 ms.date: 12/05/2018
 ms.keywords: '*LPEVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION structure, LPEVENTLOG_FULL_INFORMATION, LPEVENTLOG_FULL_INFORMATION structure pointer, _EVENTLOG_FULL_INFORMATION, _win32_eventlog_full_information_str, base.eventlog_full_information_str, winbase/EVENTLOG_FULL_INFORMATION, winbase/LPEVENTLOG_FULL_INFORMATION'

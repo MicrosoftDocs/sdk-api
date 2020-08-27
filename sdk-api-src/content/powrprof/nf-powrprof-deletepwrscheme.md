@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.DeletePwrScheme
 title: DeletePwrScheme function (powrprof.h)
-description: Deletes the specified power scheme.helpviewer_keywords: ["DeletePwrScheme","DeletePwrScheme function","_win32_deletepwrscheme","base.deletepwrscheme","powrprof/DeletePwrScheme"]
+description: Deletes the specified power scheme.
+helpviewer_keywords: ["DeletePwrScheme","DeletePwrScheme function","_win32_deletepwrscheme","base.deletepwrscheme","powrprof/DeletePwrScheme"]
 old-location: base\deletepwrscheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: c9513835-00c4-4260-a8b6-d947539c9dd1
 ms.date: 12/05/2018
 ms.keywords: DeletePwrScheme, DeletePwrScheme function, _win32_deletepwrscheme, base.deletepwrscheme, powrprof/DeletePwrScheme

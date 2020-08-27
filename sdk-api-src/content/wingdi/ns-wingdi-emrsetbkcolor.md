@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRSETTEXTCOLOR
 title: EMRSETBKCOLOR (wingdi.h)
-description: The EMRSETBKCOLOR and EMRSETTEXTCOLOR structures contain members for the SetBkColor and SetTextColor enhanced metafile records.helpviewer_keywords: ["*PEMRSETBKCOLOR","*PEMRSETTEXTCOLOR","EMRSETBKCOLOR","EMRSETBKCOLOR structure [Windows GDI]","EMRSETBKCOLOR","EMRSETTEXTCOLOR","EMRSETBKCOLOR","EMRSETTEXTCOLOR structure [Windows GDI]","EMRSETTEXTCOLOR","EMRSETTEXTCOLOR structure [Windows GDI]","PEMRSETBKCOLOR","PEMRSETBKCOLOR structure pointer [Windows GDI]","PEMRSETTEXTCOLOR","PEMRSETTEXTCOLOR structure pointer [Windows GDI]","_win32_EMRSETBKCOLOR_str","gdi.emrsetbkcolor__emrsettextcolor","wingdi/EMRSETBKCOLOR","EMRSETTEXTCOLOR","wingdi/EMRSETTEXTCOLOR","wingdi/PEMRSETBKCOLOR","wingdi/PEMRSETTEXTCOLOR"]
+description: The EMRSETBKCOLOR and EMRSETTEXTCOLOR structures contain members for the SetBkColor and SetTextColor enhanced metafile records.
+helpviewer_keywords: ["*PEMRSETBKCOLOR","*PEMRSETTEXTCOLOR","EMRSETBKCOLOR","EMRSETBKCOLOR structure [Windows GDI]","EMRSETBKCOLOR","EMRSETTEXTCOLOR","EMRSETBKCOLOR","EMRSETTEXTCOLOR structure [Windows GDI]","EMRSETTEXTCOLOR","EMRSETTEXTCOLOR structure [Windows GDI]","PEMRSETBKCOLOR","PEMRSETBKCOLOR structure pointer [Windows GDI]","PEMRSETTEXTCOLOR","PEMRSETTEXTCOLOR structure pointer [Windows GDI]","_win32_EMRSETBKCOLOR_str","gdi.emrsetbkcolor__emrsettextcolor","wingdi/EMRSETBKCOLOR","EMRSETTEXTCOLOR","wingdi/EMRSETTEXTCOLOR","wingdi/PEMRSETBKCOLOR","wingdi/PEMRSETTEXTCOLOR"]
 old-location: gdi\emrsetbkcolor__emrsettextcolor.htm
 tech.root: gdi
 ms.assetid: 9916fc79-cac0-4c46-8fa5-aeca3b7f2cf0

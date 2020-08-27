@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertPropertyArchived.get_Archived
 title: ICertPropertyArchived::get_Archived (certenroll.h)
-description: Retrieves a Boolean value that specifies whether the certificate has been archived.helpviewer_keywords: ["Archived property [Security]","Archived property [Security]","ICertPropertyArchived interface","ICertPropertyArchived interface [Security]","Archived property","ICertPropertyArchived.Archived","ICertPropertyArchived.get_Archived","ICertPropertyArchived::Archived","ICertPropertyArchived::get_Archived","certenroll/ICertPropertyArchived::Archived","certenroll/ICertPropertyArchived::get_Archived","get_Archived","security.icertpropertyarchived_archived_property"]
+description: Retrieves a Boolean value that specifies whether the certificate has been archived.
+helpviewer_keywords: ["Archived property [Security]","Archived property [Security]","ICertPropertyArchived interface","ICertPropertyArchived interface [Security]","Archived property","ICertPropertyArchived.Archived","ICertPropertyArchived.get_Archived","ICertPropertyArchived::Archived","ICertPropertyArchived::get_Archived","certenroll/ICertPropertyArchived::Archived","certenroll/ICertPropertyArchived::get_Archived","get_Archived","security.icertpropertyarchived_archived_property"]
 old-location: security\icertpropertyarchived_archived_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4
 ms.date: 12/05/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property

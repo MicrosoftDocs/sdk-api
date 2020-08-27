@@ -1,7 +1,8 @@
 ---
 UID: NS:ddraw._DDPIXELFORMAT
 title: DDPIXELFORMAT (ddraw.h)
-description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.helpviewer_keywords: ["*LPDDPIXELFORMAT","DDPF_ALPHA","DDPF_ALPHAPIXELS","DDPF_ALPHAPREMULT","DDPF_BUMPDUDV","DDPF_BUMPLUMINANCE","DDPF_COMPRESSED","DDPF_D3DFORMAT","DDPF_FOURCC","DDPF_LUMINANCE","DDPF_PALETTEINDEXED1","DDPF_PALETTEINDEXED2","DDPF_PALETTEINDEXED4","DDPF_PALETTEINDEXED8","DDPF_PALETTEINDEXEDTO8","DDPF_RGB","DDPF_RGBTOYUV","DDPF_STENCILBUFFER","DDPF_YUV","DDPF_ZBUFFER","DDPF_ZPIXELS","DDPIXELFORMAT","DDPIXELFORMAT structure [DirectDraw]","LPDDPIXELFORMAT","LPDDPIXELFORMAT structure pointer [DirectDraw]","ddraw/DDPIXELFORMAT","ddraw/LPDDPIXELFORMAT","directdraw.ddpixelformat"]
+description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.
+helpviewer_keywords: ["*LPDDPIXELFORMAT","DDPF_ALPHA","DDPF_ALPHAPIXELS","DDPF_ALPHAPREMULT","DDPF_BUMPDUDV","DDPF_BUMPLUMINANCE","DDPF_COMPRESSED","DDPF_D3DFORMAT","DDPF_FOURCC","DDPF_LUMINANCE","DDPF_PALETTEINDEXED1","DDPF_PALETTEINDEXED2","DDPF_PALETTEINDEXED4","DDPF_PALETTEINDEXED8","DDPF_PALETTEINDEXEDTO8","DDPF_RGB","DDPF_RGBTOYUV","DDPF_STENCILBUFFER","DDPF_YUV","DDPF_ZBUFFER","DDPF_ZPIXELS","DDPIXELFORMAT","DDPIXELFORMAT structure [DirectDraw]","LPDDPIXELFORMAT","LPDDPIXELFORMAT structure pointer [DirectDraw]","ddraw/DDPIXELFORMAT","ddraw/LPDDPIXELFORMAT","directdraw.ddpixelformat"]
 old-location: directdraw\ddpixelformat.htm
 tech.root: directdraw
 ms.assetid: 17c531cb-7e65-482a-b3de-494874c1dd92
@@ -346,7 +347,7 @@ A FourCC code.
 
 
 
-#### - DUMMYUNIONNAMEN(1)
+### -field DUMMYUNIONNAMEN(1)
 
 
 
@@ -392,7 +393,7 @@ Total bump-map bits per pixel in a bump-map surface.
 Bits per pixel of private driver formats. Only valid in texture format list and if DDPF_D3DFORMAT is set.
 
 
-#### - DUMMYUNIONNAMEN(2)
+### -field DUMMYUNIONNAMEN(2)
 
 
 
@@ -432,7 +433,7 @@ Mask for bump-map U-delta bits.
 Flags that specify the operations that can be performed on surfaces with the DDPF_D3DFORMAT pixel format. The flags are defined in Ddrawi.h.
 
 
-#### - DUMMYUNIONNAMEN(3)
+### -field DUMMYUNIONNAMEN(3)
 
 
 
@@ -477,7 +478,7 @@ A 16-bit mask for full-screen (flip) mode multisampling.
 A 16-bit mask for windowed (bit-block transfer) mode multisampling.
 
 
-#### - DUMMYUNIONNAMEN(4)
+### -field DUMMYUNIONNAMEN(4)
 
 
 
@@ -504,7 +505,7 @@ Mask for stencil bits within each z-buffer pixel.
 Mask for luminance in a bump-map pixel.
 
 
-#### - DUMMYUNIONNAMEN(5)
+### -field DUMMYUNIONNAMEN(5)
 
 
 

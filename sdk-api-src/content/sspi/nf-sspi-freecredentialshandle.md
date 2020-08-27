@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.FreeCredentialsHandle
 title: FreeCredentialsHandle function (sspi.h)
-description: Notifies the security system that the credentials are no longer needed.helpviewer_keywords: ["FreeCredentialsHandle","FreeCredentialsHandle function [Security]","_ssp_freecredentialshandle","security.freecredentialshandle","sspi/FreeCredentialsHandle"]
+description: Notifies the security system that the credentials are no longer needed.
+helpviewer_keywords: ["FreeCredentialsHandle","FreeCredentialsHandle function [Security]","_ssp_freecredentialshandle","security.freecredentialshandle","sspi/FreeCredentialsHandle"]
 old-location: security\freecredentialshandle.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.date: 12/05/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle

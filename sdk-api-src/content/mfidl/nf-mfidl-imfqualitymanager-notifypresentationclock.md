@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyPresentationClock
 title: IMFQualityManager::NotifyPresentationClock (mfidl.h)
-description: Called when the Media Session selects a presentation clock.helpviewer_keywords: ["IMFQualityManager interface [Media Foundation]","NotifyPresentationClock method","IMFQualityManager.NotifyPresentationClock","IMFQualityManager::NotifyPresentationClock","NotifyPresentationClock","NotifyPresentationClock method [Media Foundation]","NotifyPresentationClock method [Media Foundation]","IMFQualityManager interface","b358d98e-7b02-4c58-b556-cfa15436e435","mf.imfqualitymanager_notifypresentationclock","mfidl/IMFQualityManager::NotifyPresentationClock"]
+description: Called when the Media Session selects a presentation clock.
+helpviewer_keywords: ["IMFQualityManager interface [Media Foundation]","NotifyPresentationClock method","IMFQualityManager.NotifyPresentationClock","IMFQualityManager::NotifyPresentationClock","NotifyPresentationClock","NotifyPresentationClock method [Media Foundation]","NotifyPresentationClock method [Media Foundation]","IMFQualityManager interface","b358d98e-7b02-4c58-b556-cfa15436e435","mf.imfqualitymanager_notifypresentationclock","mfidl/IMFQualityManager::NotifyPresentationClock"]
 old-location: mf\imfqualitymanager_notifypresentationclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b358d98e-7b02-4c58-b556-cfa15436e435
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyPresentationClock method, IMFQualityManager.NotifyPresentationClock, IMFQualityManager::NotifyPresentationClock, NotifyPresentationClock, NotifyPresentationClock method [Media Foundation], NotifyPresentationClock method [Media Foundation],IMFQualityManager interface, b358d98e-7b02-4c58-b556-cfa15436e435, mf.imfqualitymanager_notifypresentationclock, mfidl/IMFQualityManager::NotifyPresentationClock

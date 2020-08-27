@@ -1,9 +1,10 @@
 ---
 UID: NS:vmr9._VMR9AllocationInfo
 title: VMR9AllocationInfo (vmr9.h)
-description: The VMR9AllocationInfo structure describes the Direct3D surfaces that a VMR-9 Allocator-Presenter object should allocate.helpviewer_keywords: ["VMR9AllocationInfo","VMR9AllocationInfo structure [DirectShow]","VMR9AllocationInfoStructure","dshow.vmr9allocationinfo","vmr9/VMR9AllocationInfo"]
+description: The VMR9AllocationInfo structure describes the Direct3D surfaces that a VMR-9 Allocator-Presenter object should allocate.
+helpviewer_keywords: ["VMR9AllocationInfo","VMR9AllocationInfo structure [DirectShow]","VMR9AllocationInfoStructure","dshow.vmr9allocationinfo","vmr9/VMR9AllocationInfo"]
 old-location: dshow\vmr9allocationinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d263b004-30e6-4dff-9df2-f4ca492f09f7
 ms.date: 12/05/2018
 ms.keywords: VMR9AllocationInfo, VMR9AllocationInfo structure [DirectShow], VMR9AllocationInfoStructure, dshow.vmr9allocationinfo, vmr9/VMR9AllocationInfo

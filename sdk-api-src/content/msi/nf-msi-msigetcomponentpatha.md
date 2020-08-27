@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiGetComponentPathA
 title: MsiGetComponentPathA function (msi.h)
-description: The MsiGetComponentPath function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_USERS","MsiGetComponentPath","MsiGetComponentPath function","MsiGetComponentPathA","MsiGetComponentPathW","_msi_msigetcomponentpath","msi/MsiGetComponentPath","msi/MsiGetComponentPathA","msi/MsiGetComponentPathW","setup.msigetcomponentpath"]
+description: The MsiGetComponentPath function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
+helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_USERS","MsiGetComponentPath","MsiGetComponentPath function","MsiGetComponentPathA","MsiGetComponentPathW","_msi_msigetcomponentpath","msi/MsiGetComponentPath","msi/MsiGetComponentPathA","msi/MsiGetComponentPathW","setup.msigetcomponentpath"]
 old-location: setup\msigetcomponentpath.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 957fd25c-8db6-4f2e-a705-1e8c3b3de6c1
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MsiGetComponentPath, MsiGetComponentPath function, MsiGetComponentPathA, MsiGetComponentPathW, _msi_msigetcomponentpath, msi/MsiGetComponentPath, msi/MsiGetComponentPathA, msi/MsiGetComponentPathW, setup.msigetcomponentpath
@@ -269,6 +270,10 @@ The feature is not published. The application should have determined this earlie
 </ul>
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetComponentPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

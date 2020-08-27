@@ -19,7 +19,6 @@ To develop Direct3D 12 Graphics, you need these headers:
  * [d3d12.h](../d3d12/index.md)
  * [d3d12sdklayers.h](../d3d12sdklayers/index.md)
  * [d3d12shader.h](../d3d12shader/index.md)
- * [directml.h](../directml/index.md)
  * [windows.graphics.holographic.interop.h](../windows.graphics.holographic.interop/index.md)
  
 For programming guidance for this technology, see:

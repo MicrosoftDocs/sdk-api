@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.INDEXTOOVERLAYMASK
 title: INDEXTOOVERLAYMASK macro (commctrl.h)
-description: Prepares the index of an overlay mask so that the ImageList_Draw function can use it.helpviewer_keywords: ["INDEXTOOVERLAYMASK","INDEXTOOVERLAYMASK macro [Windows Controls]","_win32_INDEXTOOVERLAYMASK","_win32_INDEXTOOVERLAYMASK_cpp","commctrl/INDEXTOOVERLAYMASK","controls.INDEXTOOVERLAYMASK","controls._win32_INDEXTOOVERLAYMASK"]
+description: Prepares the index of an overlay mask so that the ImageList_Draw function can use it.
+helpviewer_keywords: ["INDEXTOOVERLAYMASK","INDEXTOOVERLAYMASK macro [Windows Controls]","_win32_INDEXTOOVERLAYMASK","_win32_INDEXTOOVERLAYMASK_cpp","commctrl/INDEXTOOVERLAYMASK","controls.INDEXTOOVERLAYMASK","controls._win32_INDEXTOOVERLAYMASK"]
 old-location: controls\INDEXTOOVERLAYMASK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm

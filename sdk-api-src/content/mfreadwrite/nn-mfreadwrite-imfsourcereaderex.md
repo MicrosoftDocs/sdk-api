@@ -1,9 +1,10 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderEx
 title: IMFSourceReaderEx (mfreadwrite.h)
-description: Extends the IMFSourceReader interface.helpviewer_keywords: ["IMFSourceReaderEx","IMFSourceReaderEx interface [Media Foundation]","IMFSourceReaderEx interface [Media Foundation]","described","mf.imfsourcereaderex","mfreadwrite/IMFSourceReaderEx"]
+description: Extends the IMFSourceReader interface.
+helpviewer_keywords: ["IMFSourceReaderEx","IMFSourceReaderEx interface [Media Foundation]","IMFSourceReaderEx interface [Media Foundation]","described","mf.imfsourcereaderex","mfreadwrite/IMFSourceReaderEx"]
 old-location: mf\imfsourcereaderex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 59888F9B-C464-4045-AA77-03EE16E2B598
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], IMFSourceReaderEx interface [Media Foundation],described, mf.imfsourcereaderex, mfreadwrite/IMFSourceReaderEx

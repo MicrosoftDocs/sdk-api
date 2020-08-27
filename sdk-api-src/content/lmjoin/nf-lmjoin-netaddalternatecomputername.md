@@ -1,7 +1,8 @@
 ---
 UID: NF:lmjoin.NetAddAlternateComputerName
 title: NetAddAlternateComputerName function (lmjoin.h)
-description: Adds an alternate name for the specified computer.helpviewer_keywords: ["NetAddAlternateComputerName","NetAddAlternateComputerName function [Network Management]","lmjoin/NetAddAlternateComputerName","netmgmt.netaddalternatecomputername"]
+description: Adds an alternate name for the specified computer.
+helpviewer_keywords: ["NetAddAlternateComputerName","NetAddAlternateComputerName function [Network Management]","lmjoin/NetAddAlternateComputerName","netmgmt.netaddalternatecomputername"]
 old-location: netmgmt\netaddalternatecomputername.htm
 tech.root: NetMgmt
 ms.assetid: 710865c6-e327-439c-931d-de8674d69233

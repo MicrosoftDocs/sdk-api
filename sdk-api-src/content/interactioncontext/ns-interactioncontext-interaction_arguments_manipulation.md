@@ -1,9 +1,10 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_MANIPULATION
 title: INTERACTION_ARGUMENTS_MANIPULATION (interactioncontext.h)
-description: Defines the state of a manipulation.helpviewer_keywords: ["INTERACTION_ARGUMENTS_MANIPULATION","INTERACTION_ARGUMENTS_MANIPULATION structure","input_intcontext.interaction_arguments_manipulation","interactioncontext.interaction_arguments_manipulation","interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION"]
+description: Defines the state of a manipulation.
+helpviewer_keywords: ["INTERACTION_ARGUMENTS_MANIPULATION","INTERACTION_ARGUMENTS_MANIPULATION structure","input_intcontext.interaction_arguments_manipulation","interactioncontext.interaction_arguments_manipulation","interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION"]
 old-location: input_intcontext\interaction_arguments_manipulation.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 8ef21f5a-51ae-4923-a5b4-0ee18bca563f
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_MANIPULATION, INTERACTION_ARGUMENTS_MANIPULATION structure, input_intcontext.interaction_arguments_manipulation, interactioncontext.interaction_arguments_manipulation, interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION

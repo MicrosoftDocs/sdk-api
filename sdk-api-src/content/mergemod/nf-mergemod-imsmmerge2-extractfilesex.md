@@ -1,9 +1,10 @@
 ---
 UID: NF:mergemod.IMsmMerge2.ExtractFilesEx
 title: IMsmMerge2::ExtractFilesEx (mergemod.h)
-description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.helpviewer_keywords: ["ExtractFilesEx","ExtractFilesEx method","ExtractFilesEx method","IMsmMerge2 interface","IMsmMerge2 interface","ExtractFilesEx method","IMsmMerge2.ExtractFilesEx","IMsmMerge2::ExtractFilesEx","_msi_extractfilesex_function","mergemod/IMsmMerge2::ExtractFilesEx","setup.imsmmerge2_extractfilesex"]
+description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.
+helpviewer_keywords: ["ExtractFilesEx","ExtractFilesEx method","ExtractFilesEx method","IMsmMerge2 interface","IMsmMerge2 interface","ExtractFilesEx method","IMsmMerge2.ExtractFilesEx","IMsmMerge2::ExtractFilesEx","_msi_extractfilesex_function","mergemod/IMsmMerge2::ExtractFilesEx","setup.imsmmerge2_extractfilesex"]
 old-location: setup\imsmmerge2_extractfilesex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 0ba6adc9-a08f-47a6-b8a8-1624bd856511
 ms.date: 12/05/2018
 ms.keywords: ExtractFilesEx, ExtractFilesEx method, ExtractFilesEx method,IMsmMerge2 interface, IMsmMerge2 interface,ExtractFilesEx method, IMsmMerge2.ExtractFilesEx, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex

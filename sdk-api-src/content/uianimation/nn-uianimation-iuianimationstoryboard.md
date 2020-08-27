@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboard
 title: IUIAnimationStoryboard (uianimation.h)
-description: Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.helpviewer_keywords: ["IUIAnimationStoryboard","IUIAnimationStoryboard interface [Windows Animation]","IUIAnimationStoryboard interface [Windows Animation]","described","uianimation.iuianimationstoryboard","uianimation/IUIAnimationStoryboard"]
+description: Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.
+helpviewer_keywords: ["IUIAnimationStoryboard","IUIAnimationStoryboard interface [Windows Animation]","IUIAnimationStoryboard interface [Windows Animation]","described","uianimation.iuianimationstoryboard","uianimation/IUIAnimationStoryboard"]
 old-location: uianimation\iuianimationstoryboard.htm
 tech.root: UIAnimation
 ms.assetid: 6b30b660-dfa4-410f-a8de-58ea5c9a104d

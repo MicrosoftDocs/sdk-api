@@ -1,7 +1,8 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingThreadActivity
 title: TraceLoggingThreadActivity (traceloggingactivity.h)
-description: Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity class","TraceLoggingThreadActivity class","described","tracelogging.traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity"]
+description: Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.
+helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity class","TraceLoggingThreadActivity class","described","tracelogging.traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity"]
 old-location: tracelogging\traceloggingthreadactivity.htm
 tech.root: tracelogging
 ms.assetid: 7666A28B-42B2-473F-852F-BD3F6CAA6AC7

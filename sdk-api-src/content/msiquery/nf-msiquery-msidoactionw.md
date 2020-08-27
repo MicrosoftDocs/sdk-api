@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiDoActionW
 title: MsiDoActionW function (msiquery.h)
-description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.helpviewer_keywords: ["MsiDoAction","MsiDoAction function","MsiDoActionA","MsiDoActionW","_msi_msidoaction","msiquery/MsiDoAction","msiquery/MsiDoActionA","msiquery/MsiDoActionW","setup.msidoaction"]
+description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
+helpviewer_keywords: ["MsiDoAction","MsiDoAction function","MsiDoActionA","MsiDoActionW","_msi_msidoaction","msiquery/MsiDoAction","msiquery/MsiDoActionA","msiquery/MsiDoActionW","setup.msidoaction"]
 old-location: setup\msidoaction.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.date: 12/05/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
@@ -100,6 +101,10 @@ Actions that update the system, such as the
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiDoAction as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

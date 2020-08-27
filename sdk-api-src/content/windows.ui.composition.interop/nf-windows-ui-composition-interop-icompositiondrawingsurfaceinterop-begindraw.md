@@ -1,9 +1,10 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.BeginDraw
 title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
-description: Initiates drawing on the surface.helpviewer_keywords: ["BeginDraw","BeginDraw method","BeginDraw method","ICompositionDrawingSurfaceInterop interface","ICompositionDrawingSurfaceInterop interface","BeginDraw method","ICompositionDrawingSurfaceInterop.BeginDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::BeginDraw","ICompositionDrawingSurfaceInterop::composition","w_ui_comp.icompositiondrawingsurfaceinterop_begindraw","windows/ICompositionDrawingSurfaceInterop::BeginDraw"]
+description: Initiates drawing on the surface.
+helpviewer_keywords: ["BeginDraw","BeginDraw method","BeginDraw method","ICompositionDrawingSurfaceInterop interface","ICompositionDrawingSurfaceInterop interface","BeginDraw method","ICompositionDrawingSurfaceInterop.BeginDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::BeginDraw","ICompositionDrawingSurfaceInterop::composition","w_ui_comp.icompositiondrawingsurfaceinterop_begindraw","windows/ICompositionDrawingSurfaceInterop::BeginDraw"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_begindraw.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: 01273B2A-0305-4F1E-8461-7956EDD651A7
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method, BeginDraw method,ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,BeginDraw method, ICompositionDrawingSurfaceInterop.BeginDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::BeginDraw, ICompositionDrawingSurfaceInterop::composition, w_ui_comp.icompositiondrawingsurfaceinterop_begindraw, windows/ICompositionDrawingSurfaceInterop::BeginDraw

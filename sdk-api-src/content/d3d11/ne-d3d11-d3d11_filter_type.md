@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d11.D3D11_FILTER_TYPE
 title: D3D11_FILTER_TYPE (d3d11.h)
-description: Types of magnification or minification sampler filters.helpviewer_keywords: ["63c13b99-0d2a-c3b3-f07f-5f244586124a","D3D11_FILTER_TYPE","D3D11_FILTER_TYPE enumeration [Direct3D 11]","D3D11_FILTER_TYPE_LINEAR","D3D11_FILTER_TYPE_POINT","d3d11/D3D11_FILTER_TYPE","d3d11/D3D11_FILTER_TYPE_LINEAR","d3d11/D3D11_FILTER_TYPE_POINT","direct3d11.d3d11_filter_type"]
+description: Types of magnification or minification sampler filters.
+helpviewer_keywords: ["63c13b99-0d2a-c3b3-f07f-5f244586124a","D3D11_FILTER_TYPE","D3D11_FILTER_TYPE enumeration [Direct3D 11]","D3D11_FILTER_TYPE_LINEAR","D3D11_FILTER_TYPE_POINT","d3d11/D3D11_FILTER_TYPE","d3d11/D3D11_FILTER_TYPE_LINEAR","d3d11/D3D11_FILTER_TYPE_POINT","direct3d11.d3d11_filter_type"]
 old-location: direct3d11\d3d11_filter_type.htm
 tech.root: direct3d11
 ms.assetid: 294ab4b3-a5fc-4b87-ae87-bf41752132b8

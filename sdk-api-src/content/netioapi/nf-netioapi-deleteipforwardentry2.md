@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.DeleteIpForwardEntry2
 title: DeleteIpForwardEntry2 function (netioapi.h)
-description: Deletes an IP route entry on the local computer.helpviewer_keywords: ["DeleteIpForwardEntry2","DeleteIpForwardEntry2 function [IP Helper]","iphlp.deleteipforwardentry2","netioapi/DeleteIpForwardEntry2"]
+description: Deletes an IP route entry on the local computer.
+helpviewer_keywords: ["DeleteIpForwardEntry2","DeleteIpForwardEntry2 function [IP Helper]","iphlp.deleteipforwardentry2","netioapi/DeleteIpForwardEntry2"]
 old-location: iphlp\deleteipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: 68d5a5a5-21cf-4337-8a35-7f847f5e2138

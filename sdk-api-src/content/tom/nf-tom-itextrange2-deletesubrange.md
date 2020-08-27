@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.DeleteSubrange
 title: ITextRange2::DeleteSubrange (tom.h)
-description: Deletes a subrange from a range.helpviewer_keywords: ["DeleteSubrange","DeleteSubrange method [Windows Controls]","DeleteSubrange method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","DeleteSubrange method","ITextRange2.DeleteSubrange","ITextRange2::DeleteSubrange","controls.itextrange2_deletesubrange","tom/ITextRange2::DeleteSubrange"]
+description: Deletes a subrange from a range.
+helpviewer_keywords: ["DeleteSubrange","DeleteSubrange method [Windows Controls]","DeleteSubrange method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","DeleteSubrange method","ITextRange2.DeleteSubrange","ITextRange2::DeleteSubrange","controls.itextrange2_deletesubrange","tom/ITextRange2::DeleteSubrange"]
 old-location: controls\itextrange2_deletesubrange.htm
 tech.root: Controls
 ms.assetid: ad75725d-ad92-45fc-a0a9-3227bfb99284

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFNetCredential.SetPassword
 title: IMFNetCredential::SetPassword (mfidl.h)
-description: Sets the password.helpviewer_keywords: ["7de58b57-83fe-4c3a-9029-e9be556c84c9","IMFNetCredential interface [Media Foundation]","SetPassword method","IMFNetCredential.SetPassword","IMFNetCredential::SetPassword","SetPassword","SetPassword method [Media Foundation]","SetPassword method [Media Foundation]","IMFNetCredential interface","mf.imfnetcredential_setpassword","mfidl/IMFNetCredential::SetPassword"]
+description: Sets the password.
+helpviewer_keywords: ["7de58b57-83fe-4c3a-9029-e9be556c84c9","IMFNetCredential interface [Media Foundation]","SetPassword method","IMFNetCredential.SetPassword","IMFNetCredential::SetPassword","SetPassword","SetPassword method [Media Foundation]","SetPassword method [Media Foundation]","IMFNetCredential interface","mf.imfnetcredential_setpassword","mfidl/IMFNetCredential::SetPassword"]
 old-location: mf\imfnetcredential_setpassword.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7de58b57-83fe-4c3a-9029-e9be556c84c9
 ms.date: 12/05/2018
 ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential interface [Media Foundation],SetPassword method, IMFNetCredential.SetPassword, IMFNetCredential::SetPassword, SetPassword, SetPassword method [Media Foundation], SetPassword method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_setpassword, mfidl/IMFNetCredential::SetPassword

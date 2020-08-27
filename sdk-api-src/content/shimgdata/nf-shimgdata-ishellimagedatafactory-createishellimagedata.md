@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateIShellImageData
 title: IShellImageDataFactory::CreateIShellImageData (shimgdata.h)
-description: Creates an instance of the IShellImageData interface.helpviewer_keywords: ["CreateIShellImageData","CreateIShellImageData method [Windows Shell]","CreateIShellImageData method [Windows Shell]","IShellImageDataFactory interface","IShellImageDataFactory interface [Windows Shell]","CreateIShellImageData method","IShellImageDataFactory.CreateIShellImageData","IShellImageDataFactory::CreateIShellImageData","_shell_IShellImageDataFactory_CreateIShellImageData","shell.IShellImageDataFactory_CreateIShellImageData","shimgdata/IShellImageDataFactory::CreateIShellImageData"]
+description: Creates an instance of the IShellImageData interface.
+helpviewer_keywords: ["CreateIShellImageData","CreateIShellImageData method [Windows Shell]","CreateIShellImageData method [Windows Shell]","IShellImageDataFactory interface","IShellImageDataFactory interface [Windows Shell]","CreateIShellImageData method","IShellImageDataFactory.CreateIShellImageData","IShellImageDataFactory::CreateIShellImageData","_shell_IShellImageDataFactory_CreateIShellImageData","shell.IShellImageDataFactory_CreateIShellImageData","shimgdata/IShellImageDataFactory::CreateIShellImageData"]
 old-location: shell\IShellImageDataFactory_CreateIShellImageData.htm
 tech.root: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b

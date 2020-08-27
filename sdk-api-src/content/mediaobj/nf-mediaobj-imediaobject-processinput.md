@@ -1,9 +1,10 @@
 ---
 UID: NF:mediaobj.IMediaObject.ProcessInput
 title: IMediaObject::ProcessInput (mediaobj.h)
-description: The ProcessInput method delivers a buffer to the specified input stream.helpviewer_keywords: ["IMediaObject interface [DirectShow]","ProcessInput method","IMediaObject.ProcessInput","IMediaObject::ProcessInput","IMediaObjectProcessInput","ProcessInput","ProcessInput method [DirectShow]","ProcessInput method [DirectShow]","IMediaObject interface","dshow.imediaobject_processinput","mediaobj/IMediaObject::ProcessInput"]
+description: The ProcessInput method delivers a buffer to the specified input stream.
+helpviewer_keywords: ["IMediaObject interface [DirectShow]","ProcessInput method","IMediaObject.ProcessInput","IMediaObject::ProcessInput","IMediaObjectProcessInput","ProcessInput","ProcessInput method [DirectShow]","ProcessInput method [DirectShow]","IMediaObject interface","dshow.imediaobject_processinput","mediaobj/IMediaObject::ProcessInput"]
 old-location: dshow\imediaobject_processinput.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f52e9586-f65d-418f-8c1a-c97c0a81d253
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],ProcessInput method, IMediaObject.ProcessInput, IMediaObject::ProcessInput, IMediaObjectProcessInput, ProcessInput, ProcessInput method [DirectShow], ProcessInput method [DirectShow],IMediaObject interface, dshow.imediaobject_processinput, mediaobj/IMediaObject::ProcessInput

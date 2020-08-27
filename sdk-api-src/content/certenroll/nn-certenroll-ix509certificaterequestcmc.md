@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCmc
 title: IX509CertificateRequestCmc (certenroll.h)
-description: Represents a CMC (Certificate Management Message over CMS) certificate request.helpviewer_keywords: ["IX509CertificateRequestCmc","IX509CertificateRequestCmc interface [Security]","IX509CertificateRequestCmc interface [Security]","described","certenroll/IX509CertificateRequestCmc","security.ix509certificaterequestcmc"]
+description: Represents a CMC (Certificate Management Message over CMS) certificate request.
+helpviewer_keywords: ["IX509CertificateRequestCmc","IX509CertificateRequestCmc interface [Security]","IX509CertificateRequestCmc interface [Security]","described","certenroll/IX509CertificateRequestCmc","security.ix509certificaterequestcmc"]
 old-location: security\ix509certificaterequestcmc.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 77059388-c442-4db5-ab27-1db25e2f63b9
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], IX509CertificateRequestCmc interface [Security],described, certenroll/IX509CertificateRequestCmc, security.ix509certificaterequestcmc

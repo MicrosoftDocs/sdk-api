@@ -1,9 +1,10 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerA
 title: RegisterServiceCtrlHandlerA function (winsvc.h)
-description: Registers a function to handle service control requests.helpviewer_keywords: ["RegisterServiceCtrlHandler","RegisterServiceCtrlHandler function","RegisterServiceCtrlHandlerA","RegisterServiceCtrlHandlerW","_win32_registerservicectrlhandler","base.registerservicectrlhandler","winsvc/RegisterServiceCtrlHandler","winsvc/RegisterServiceCtrlHandlerA","winsvc/RegisterServiceCtrlHandlerW"]
+description: Registers a function to handle service control requests.
+helpviewer_keywords: ["RegisterServiceCtrlHandler","RegisterServiceCtrlHandler function","RegisterServiceCtrlHandlerA","RegisterServiceCtrlHandlerW","_win32_registerservicectrlhandler","base.registerservicectrlhandler","winsvc/RegisterServiceCtrlHandler","winsvc/RegisterServiceCtrlHandlerA","winsvc/RegisterServiceCtrlHandlerW"]
 old-location: base\registerservicectrlhandler.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 31ec28fe-8774-48fc-91ba-6fa43108e2cc
 ms.date: 12/05/2018
 ms.keywords: RegisterServiceCtrlHandler, RegisterServiceCtrlHandler function, RegisterServiceCtrlHandlerA, RegisterServiceCtrlHandlerW, _win32_registerservicectrlhandler, base.registerservicectrlhandler, winsvc/RegisterServiceCtrlHandler, winsvc/RegisterServiceCtrlHandlerA, winsvc/RegisterServiceCtrlHandlerW
@@ -156,6 +157,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines RegisterServiceCtrlHandler as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

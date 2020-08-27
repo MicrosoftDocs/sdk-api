@@ -4,7 +4,7 @@ title: WinHttpOpenRequest function (winhttp.h)
 description: The WinHttpOpenRequest function creates an HTTP request handle.
 helpviewer_keywords: ["WINHTTP_FLAG_BYPASS_PROXY_CACHE","WINHTTP_FLAG_ESCAPE_DISABLE","WINHTTP_FLAG_ESCAPE_DISABLE_QUERY","WINHTTP_FLAG_ESCAPE_PERCENT","WINHTTP_FLAG_NULL_CODEPAGE","WINHTTP_FLAG_REFRESH","WINHTTP_FLAG_SECURE","WinHttpOpenRequest","WinHttpOpenRequest function [WinHTTP]","http.winhttpopenrequest","winhttp.winhttpopenrequest_function","winhttp/WinHttpOpenRequest"]
 old-location: http\winhttpopenrequest.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 9ecd035d-1abf-48ca-baf2-d9754f912c60
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_FLAG_BYPASS_PROXY_CACHE, WINHTTP_FLAG_ESCAPE_DISABLE, WINHTTP_FLAG_ESCAPE_DISABLE_QUERY, WINHTTP_FLAG_ESCAPE_PERCENT, WINHTTP_FLAG_NULL_CODEPAGE, WINHTTP_FLAG_REFRESH, WINHTTP_FLAG_SECURE, WinHttpOpenRequest, WinHttpOpenRequest function [WinHTTP], http.winhttpopenrequest, winhttp.winhttpopenrequest_function, winhttp/WinHttpOpenRequest
@@ -90,13 +90,13 @@ Pointer to a string that specifies the URL of the document from which the URL in
 
 ### -param ppwszAcceptTypes [in]
 
+
 Pointer to a <b>null</b>-terminated array of string pointers that specifies media types accepted by the client. If this parameter is set to <b>WINHTTP_DEFAULT_ACCEPT_TYPES</b>, no types are accepted by the client. Typically, servers handle a lack of accepted types as indication that the client accepts only documents of type "text/*"; that is, only text documents—no pictures or other binary files. For a list of valid media types, see Media Types defined by IANA at http://www.iana.org/assignments/media-types/.
 
 
 ### -param dwFlags [in]
 
 Unsigned long integer value that contains the Internet flag values. This can be one or more of the following values: 
-                
 
 <table>
 <tr>

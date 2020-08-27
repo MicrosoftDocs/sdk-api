@@ -1,7 +1,8 @@
 ---
 UID: NL:xapobase.CXAPOParametersBase
 title: CXAPOParametersBase (xapobase.h)
-description: Default implementation of the IXAPOParameters interface.helpviewer_keywords: ["CXAPOParametersBase","CXAPOParametersBase class [XAudio2 Audio Mixing APIs]","CXAPOParametersBase class [XAudio2 Audio Mixing APIs]","described","xapobase/CXAPOParametersBase","xaudio2.cxapoparametersbase"]
+description: Default implementation of the IXAPOParameters interface.
+helpviewer_keywords: ["CXAPOParametersBase","CXAPOParametersBase class [XAudio2 Audio Mixing APIs]","CXAPOParametersBase class [XAudio2 Audio Mixing APIs]","described","xapobase/CXAPOParametersBase","xaudio2.cxapoparametersbase"]
 old-location: xaudio2\cxapoparametersbase.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase

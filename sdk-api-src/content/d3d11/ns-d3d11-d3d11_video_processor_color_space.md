@@ -1,9 +1,10 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_COLOR_SPACE
 title: D3D11_VIDEO_PROCESSOR_COLOR_SPACE (d3d11.h)
-description: Specifies the color space for video processing.helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_COLOR_SPACE","D3D11_VIDEO_PROCESSOR_COLOR_SPACE structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_COLOR_SPACE","mf.d3d11_video_processor_color_space"]
+description: Specifies the color space for video processing.
+helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_COLOR_SPACE","D3D11_VIDEO_PROCESSOR_COLOR_SPACE structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_COLOR_SPACE","mf.d3d11_video_processor_color_space"]
 old-location: mf\d3d11_video_processor_color_space.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D5F36CFC-ED36-47F3-A07A-9B163F904D74
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_VIDEO_PROCESSOR_COLOR_SPACE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_COLOR_SPACE, mf.d3d11_video_processor_color_space

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Button_GetNoteLength
 title: Button_GetNoteLength macro (commctrl.h)
-description: Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the BCM_GETNOTELENGTH message explicitly.helpviewer_keywords: ["Button_GetNoteLength","Button_GetNoteLength macro [Windows Controls]","_shell_Button_GetNoteLength","_shell_Button_GetNoteLength_cpp","commctrl/Button_GetNoteLength","controls.Button_GetNoteLength","controls._shell_Button_GetNoteLength"]
+description: Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the BCM_GETNOTELENGTH message explicitly.
+helpviewer_keywords: ["Button_GetNoteLength","Button_GetNoteLength macro [Windows Controls]","_shell_Button_GetNoteLength","_shell_Button_GetNoteLength_cpp","commctrl/Button_GetNoteLength","controls.Button_GetNoteLength","controls._shell_Button_GetNoteLength"]
 old-location: controls\Button_GetNoteLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnotelength.htm

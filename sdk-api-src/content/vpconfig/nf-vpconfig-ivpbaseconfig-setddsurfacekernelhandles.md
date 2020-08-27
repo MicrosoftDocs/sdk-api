@@ -1,9 +1,10 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetDDSurfaceKernelHandles
 title: IVPBaseConfig::SetDDSurfaceKernelHandles (vpconfig.h)
-description: The SetDDSurfaceKernelHandles method specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetDDSurfaceKernelHandles method","IVPBaseConfig.SetDDSurfaceKernelHandles","IVPBaseConfig::SetDDSurfaceKernelHandles","IVPBaseConfigSetDDSurfaceKernelHandle","SetDDSurfaceKernelHandles","SetDDSurfaceKernelHandles method [DirectShow]","SetDDSurfaceKernelHandles method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setddsurfacekernelhandles","vpconfig/IVPBaseConfig::SetDDSurfaceKernelHandles"]
+description: The SetDDSurfaceKernelHandles method specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.
+helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetDDSurfaceKernelHandles method","IVPBaseConfig.SetDDSurfaceKernelHandles","IVPBaseConfig::SetDDSurfaceKernelHandles","IVPBaseConfigSetDDSurfaceKernelHandle","SetDDSurfaceKernelHandles","SetDDSurfaceKernelHandles method [DirectShow]","SetDDSurfaceKernelHandles method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setddsurfacekernelhandles","vpconfig/IVPBaseConfig::SetDDSurfaceKernelHandles"]
 old-location: dshow\ivpbaseconfig_setddsurfacekernelhandles.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e180f731-a540-4754-93ff-232ad4502c6f
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetDDSurfaceKernelHandles method, IVPBaseConfig.SetDDSurfaceKernelHandles, IVPBaseConfig::SetDDSurfaceKernelHandles, IVPBaseConfigSetDDSurfaceKernelHandle, SetDDSurfaceKernelHandles, SetDDSurfaceKernelHandles method [DirectShow], SetDDSurfaceKernelHandles method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setddsurfacekernelhandles, vpconfig/IVPBaseConfig::SetDDSurfaceKernelHandles

@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.DeleteAce
 title: DeleteAce function (securitybaseapi.h)
-description: Deletes an access control entry (ACE) from an access control list (ACL).helpviewer_keywords: ["DeleteAce","DeleteAce function [Security]","_win32_deleteace","security.deleteace","securitybaseapi/DeleteAce"]
+description: Deletes an access control entry (ACE) from an access control list (ACL).
+helpviewer_keywords: ["DeleteAce","DeleteAce function [Security]","_win32_deleteace","security.deleteace","securitybaseapi/DeleteAce"]
 old-location: security\deleteace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 02ce45ad-3d51-4548-848e-a62bf4bf72a8
 ms.date: 12/05/2018
 ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, security.deleteace, securitybaseapi/DeleteAce

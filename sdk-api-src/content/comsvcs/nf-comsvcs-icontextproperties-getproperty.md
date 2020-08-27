@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IContextProperties.GetProperty
 title: IContextProperties::GetProperty (comsvcs.h)
-description: Retrieves a context object property.helpviewer_keywords: ["GetProperty","GetProperty method [COM+]","GetProperty method [COM+]","IContextProperties interface","IContextProperties interface [COM+]","GetProperty method","IContextProperties.GetProperty","IContextProperties::GetProperty","_cos_IContextProperties_GetProperty","comsvcs/IContextProperties::GetProperty","cos.icontextproperties_getproperty"]
+description: Retrieves a context object property.
+helpviewer_keywords: ["GetProperty","GetProperty method [COM+]","GetProperty method [COM+]","IContextProperties interface","IContextProperties interface [COM+]","GetProperty method","IContextProperties.GetProperty","IContextProperties::GetProperty","_cos_IContextProperties_GetProperty","comsvcs/IContextProperties::GetProperty","cos.icontextproperties_getproperty"]
 old-location: cos\icontextproperties_getproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: dc7748b4-5cf4-41c6-af7d-82b2478b084c
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IContextProperties interface, IContextProperties interface [COM+],GetProperty method, IContextProperties.GetProperty, IContextProperties::GetProperty, _cos_IContextProperties_GetProperty, comsvcs/IContextProperties::GetProperty, cos.icontextproperties_getproperty

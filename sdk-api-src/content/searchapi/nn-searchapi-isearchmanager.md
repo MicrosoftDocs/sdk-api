@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchManager
 title: ISearchManager (searchapi.h)
-description: Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.helpviewer_keywords: ["ISearchManager","ISearchManager interface [search]","ISearchManager interface [search]","described","_search_ISearchManager","search._search_ISearchManager","searchapi/ISearchManager"]
+description: Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
+helpviewer_keywords: ["ISearchManager","ISearchManager interface [search]","ISearchManager interface [search]","described","_search_ISearchManager","search._search_ISearchManager","searchapi/ISearchManager"]
 old-location: search\_search_ISearchManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm
@@ -197,8 +198,7 @@ Stores information in the indexer that determines how the indexer will work and 
 ## -remarks
 
 
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
+For a sample that demonstrates ways to specify which files to re-index and how, see the [ReindexMatchingUrls](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/ReindexMatchingUrls) sample.
 
 
 

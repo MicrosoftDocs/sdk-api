@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsValid
 title: IWMRegisteredDevice::IsValid (wmsdkidl.h)
-description: The IsValid method retrieves the validation status of the device.helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","IsValid method","IWMRegisteredDevice.IsValid","IWMRegisteredDevice::IsValid","IWMRegisteredDeviceIsValid","IsValid","IsValid method [windows Media Format]","IsValid method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_isvalid","wmsdkidl/IWMRegisteredDevice::IsValid"]
+description: The IsValid method retrieves the validation status of the device.
+helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","IsValid method","IWMRegisteredDevice.IsValid","IWMRegisteredDevice::IsValid","IWMRegisteredDeviceIsValid","IsValid","IsValid method [windows Media Format]","IsValid method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_isvalid","wmsdkidl/IWMRegisteredDevice::IsValid"]
 old-location: wmformat\iwmregistereddevice_isvalid.htm
 tech.root: wmformat
 ms.assetid: ce09e6ad-10c0-4cdd-8dee-4faacd958f2b

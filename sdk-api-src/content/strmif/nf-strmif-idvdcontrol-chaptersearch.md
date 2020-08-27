@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterSearch
 title: IDvdControl::ChapterSearch (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified chapter within the same title.helpviewer_keywords: ["ChapterSearch","ChapterSearch method [DirectShow]","ChapterSearch method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","ChapterSearch method","IDvdControl.ChapterSearch","IDvdControl::ChapterSearch","IDvdControlChapterSearch","dshow.idvdcontrol_chaptersearch","strmif/IDvdControl::ChapterSearch"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified chapter within the same title.
+helpviewer_keywords: ["ChapterSearch","ChapterSearch method [DirectShow]","ChapterSearch method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","ChapterSearch method","IDvdControl.ChapterSearch","IDvdControl::ChapterSearch","IDvdControlChapterSearch","dshow.idvdcontrol_chaptersearch","strmif/IDvdControl::ChapterSearch"]
 old-location: dshow\idvdcontrol_chaptersearch.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1389df65-e269-4c2b-b276-a29da33fe515
 ms.date: 12/05/2018
 ms.keywords: ChapterSearch, ChapterSearch method [DirectShow], ChapterSearch method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterSearch method, IDvdControl.ChapterSearch, IDvdControl::ChapterSearch, IDvdControlChapterSearch, dshow.idvdcontrol_chaptersearch, strmif/IDvdControl::ChapterSearch

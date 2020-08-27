@@ -1,9 +1,10 @@
 ---
 UID: NS:wmcodecdsp._TOC_ENTRY_DESCRIPTOR
 title: TOC_ENTRY_DESCRIPTOR (wmcodecdsp.h)
-description: The TOC_ENTRY_DESCRIPTOR structure holds descriptive information for an entry in a table of contents.helpviewer_keywords: ["TOC_ENTRY_DESCRIPTOR","TOC_ENTRY_DESCRIPTOR structure [Media Foundation]","codecapi.toc_entry_descriptor","mf.toc_entry_descriptor","wmcodecdsp/TOC_ENTRY_DESCRIPTOR"]
+description: The TOC_ENTRY_DESCRIPTOR structure holds descriptive information for an entry in a table of contents.
+helpviewer_keywords: ["TOC_ENTRY_DESCRIPTOR","TOC_ENTRY_DESCRIPTOR structure [Media Foundation]","codecapi.toc_entry_descriptor","mf.toc_entry_descriptor","wmcodecdsp/TOC_ENTRY_DESCRIPTOR"]
 old-location: mf\toc_entry_descriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 05e9bf59-5dd8-410f-8e42-25bfb555dd40
 ms.date: 12/05/2018
 ms.keywords: TOC_ENTRY_DESCRIPTOR, TOC_ENTRY_DESCRIPTOR structure [Media Foundation], codecapi.toc_entry_descriptor, mf.toc_entry_descriptor, wmcodecdsp/TOC_ENTRY_DESCRIPTOR

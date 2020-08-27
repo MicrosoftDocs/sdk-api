@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IVideoWindow.IsCursorHidden
 title: IVideoWindow::IsCursorHidden (control.h)
-description: The IsCursorHidden method queries whether the cursor is hidden.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","IsCursorHidden method","IVideoWindow.IsCursorHidden","IVideoWindow::IsCursorHidden","IVideoWindowIsCursorHidden","IsCursorHidden","IsCursorHidden method [DirectShow]","IsCursorHidden method [DirectShow]","IVideoWindow interface","control/IVideoWindow::IsCursorHidden","dshow.ivideowindow_iscursorhidden"]
+description: The IsCursorHidden method queries whether the cursor is hidden.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","IsCursorHidden method","IVideoWindow.IsCursorHidden","IVideoWindow::IsCursorHidden","IVideoWindowIsCursorHidden","IsCursorHidden","IsCursorHidden method [DirectShow]","IsCursorHidden method [DirectShow]","IVideoWindow interface","control/IVideoWindow::IsCursorHidden","dshow.ivideowindow_iscursorhidden"]
 old-location: dshow\ivideowindow_iscursorhidden.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 240040d8-433e-4398-a20a-66cc5a27bdae
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],IsCursorHidden method, IVideoWindow.IsCursorHidden, IVideoWindow::IsCursorHidden, IVideoWindowIsCursorHidden, IsCursorHidden, IsCursorHidden method [DirectShow], IsCursorHidden method [DirectShow],IVideoWindow interface, control/IVideoWindow::IsCursorHidden, dshow.ivideowindow_iscursorhidden

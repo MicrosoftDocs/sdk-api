@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.LoadParameterSet
 title: IWICDevelopRaw::LoadParameterSet (wincodec.h)
-description: Sets the desired WICRawParameterSet option.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","LoadParameterSet method","IWICDevelopRaw.LoadParameterSet","IWICDevelopRaw::LoadParameterSet","LoadParameterSet","LoadParameterSet method [Windows Imaging Component]","LoadParameterSet method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_loadparameterset","wic._wic_codec_iwicdevelopraw_loadparameterset","wincodec/IWICDevelopRaw::LoadParameterSet"]
+description: Sets the desired WICRawParameterSet option.
+helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","LoadParameterSet method","IWICDevelopRaw.LoadParameterSet","IWICDevelopRaw::LoadParameterSet","LoadParameterSet","LoadParameterSet method [Windows Imaging Component]","LoadParameterSet method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_loadparameterset","wic._wic_codec_iwicdevelopraw_loadparameterset","wincodec/IWICDevelopRaw::LoadParameterSet"]
 old-location: wic\_wic_codec_iwicdevelopraw_loadparameterset.htm
 tech.root: wic
 ms.assetid: c3882d90-5772-4b10-8fcc-8d16f5004a05

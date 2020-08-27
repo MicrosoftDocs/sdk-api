@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMScalarCosEst
 title: XMScalarCosEst function (directxmath.h)
-description: Estimates the cosine of a radian angle.helpviewer_keywords: ["Use DirectX..XMScalarCosEst","XMScalarCosEst","XMScalarCosEst method [DirectX Math Support APIs]","dxmath.xmscalarcosest"]
+description: Estimates the cosine of a radian angle.
+helpviewer_keywords: ["Use DirectX..XMScalarCosEst","XMScalarCosEst","XMScalarCosEst method [DirectX Math Support APIs]","dxmath.xmscalarcosest"]
 old-location: dxmath\xmscalarcosest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarCosEst(float)

@@ -95,7 +95,5 @@ The following procedure describes how to register for notifications.<ol>
 
 Notifications can be terminated by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> on the connection point returned in step 2.
 
-For sample code that registers COM notifications, see the Client section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.
 
-
-
+For sample code that registers COM notifications, see the Client section of the <a href="https://docs.microsoft.com/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.

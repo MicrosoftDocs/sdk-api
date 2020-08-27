@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAddress2.EnumeratePhones
 title: ITAddress2::EnumeratePhones (tapi3if.h)
-description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices that can be used with this address.helpviewer_keywords: ["EnumeratePhones","EnumeratePhones method [TAPI 2.2]","EnumeratePhones method [TAPI 2.2]","ITAddress2 interface","ITAddress2 interface [TAPI 2.2]","EnumeratePhones method","ITAddress2.EnumeratePhones","ITAddress2::EnumeratePhones","_tapi3_itaddress2_enumeratephones","tapi3.itaddress2_enumeratephones","tapi3if/ITAddress2::EnumeratePhones"]
+description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices that can be used with this address.
+helpviewer_keywords: ["EnumeratePhones","EnumeratePhones method [TAPI 2.2]","EnumeratePhones method [TAPI 2.2]","ITAddress2 interface","ITAddress2 interface [TAPI 2.2]","EnumeratePhones method","ITAddress2.EnumeratePhones","ITAddress2::EnumeratePhones","_tapi3_itaddress2_enumeratephones","tapi3.itaddress2_enumeratephones","tapi3if/ITAddress2::EnumeratePhones"]
 old-location: tapi3\itaddress2_enumeratephones.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 674a9c35-8949-4935-9fa2-800fced6b57b
 ms.date: 12/05/2018
 ms.keywords: EnumeratePhones, EnumeratePhones method [TAPI 2.2], EnumeratePhones method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],EnumeratePhones method, ITAddress2.EnumeratePhones, ITAddress2::EnumeratePhones, _tapi3_itaddress2_enumeratephones, tapi3.itaddress2_enumeratephones, tapi3if/ITAddress2::EnumeratePhones

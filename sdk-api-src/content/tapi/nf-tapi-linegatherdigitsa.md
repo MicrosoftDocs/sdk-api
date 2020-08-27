@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGatherDigitsA
 title: lineGatherDigitsA function (tapi.h)
-description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.helpviewer_keywords: ["_tapi2_linegatherdigits","lineGatherDigits","lineGatherDigits function [TAPI 2.2]","lineGatherDigitsA","lineGatherDigitsW","tapi/lineGatherDigits","tapi/lineGatherDigitsA","tapi/lineGatherDigitsW","tapi2.linegatherdigits"]
+description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
+helpviewer_keywords: ["_tapi2_linegatherdigits","lineGatherDigits","lineGatherDigits function [TAPI 2.2]","lineGatherDigitsA","lineGatherDigitsW","tapi/lineGatherDigits","tapi/lineGatherDigitsA","tapi/lineGatherDigitsW","tapi2.linegatherdigits"]
 old-location: tapi2\linegatherdigits.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits
@@ -152,6 +153,10 @@ If the
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineGatherDigits as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

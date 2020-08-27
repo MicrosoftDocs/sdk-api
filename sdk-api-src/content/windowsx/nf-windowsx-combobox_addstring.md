@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_AddString
 title: ComboBox_AddString macro (windowsx.h)
-description: Adds a string to a list in a combo box.helpviewer_keywords: ["ComboBox_AddString","ComboBox_AddString macro [Windows Controls]","_win32_ComboBox_AddString","_win32_ComboBox_AddString_cpp","controls.ComboBox_AddString","controls._win32_ComboBox_AddString","windowsx/ComboBox_AddString"]
+description: Adds a string to a list in a combo box.
+helpviewer_keywords: ["ComboBox_AddString","ComboBox_AddString macro [Windows Controls]","_win32_ComboBox_AddString","_win32_ComboBox_AddString_cpp","controls.ComboBox_AddString","controls._win32_ComboBox_AddString","windowsx/ComboBox_AddString"]
 old-location: controls\ComboBox_AddString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_addstring.htm

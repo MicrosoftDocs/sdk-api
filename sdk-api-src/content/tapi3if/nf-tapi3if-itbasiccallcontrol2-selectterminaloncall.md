@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.SelectTerminalOnCall
 title: ITBasicCallControl2::SelectTerminalOnCall (tapi3if.h)
-description: The SelectTerminalOnCall method selects the terminal onto the call.helpviewer_keywords: ["ITBasicCallControl2 interface [TAPI 2.2]","SelectTerminalOnCall method","ITBasicCallControl2.SelectTerminalOnCall","ITBasicCallControl2::SelectTerminalOnCall","SelectTerminalOnCall","SelectTerminalOnCall method [TAPI 2.2]","SelectTerminalOnCall method [TAPI 2.2]","ITBasicCallControl2 interface","_tapi3_itbasiccallcontrol2_selectterminaloncall","tapi3.itbasiccallcontrol2_selectterminaloncall","tapi3if/ITBasicCallControl2::SelectTerminalOnCall"]
+description: The SelectTerminalOnCall method selects the terminal onto the call.
+helpviewer_keywords: ["ITBasicCallControl2 interface [TAPI 2.2]","SelectTerminalOnCall method","ITBasicCallControl2.SelectTerminalOnCall","ITBasicCallControl2::SelectTerminalOnCall","SelectTerminalOnCall","SelectTerminalOnCall method [TAPI 2.2]","SelectTerminalOnCall method [TAPI 2.2]","ITBasicCallControl2 interface","_tapi3_itbasiccallcontrol2_selectterminaloncall","tapi3.itbasiccallcontrol2_selectterminaloncall","tapi3if/ITBasicCallControl2::SelectTerminalOnCall"]
 old-location: tapi3\itbasiccallcontrol2_selectterminaloncall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 87117ec1-0d61-4edb-8ed6-0d029a77e1a5
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],SelectTerminalOnCall method, ITBasicCallControl2.SelectTerminalOnCall, ITBasicCallControl2::SelectTerminalOnCall, SelectTerminalOnCall, SelectTerminalOnCall method [TAPI 2.2], SelectTerminalOnCall method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_selectterminaloncall, tapi3.itbasiccallcontrol2_selectterminaloncall, tapi3if/ITBasicCallControl2::SelectTerminalOnCall

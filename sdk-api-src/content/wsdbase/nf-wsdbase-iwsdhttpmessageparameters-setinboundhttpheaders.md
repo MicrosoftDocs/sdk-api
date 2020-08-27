@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetInboundHttpHeaders
 title: IWSDHttpMessageParameters::SetInboundHttpHeaders (wsdbase.h)
-description: Sets the HTTP headers used for inbound SOAP-over-HTTP transmissions.helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetInboundHttpHeaders method","IWSDHttpMessageParameters.SetInboundHttpHeaders","IWSDHttpMessageParameters::SetInboundHttpHeaders","SetInboundHttpHeaders","SetInboundHttpHeaders method","SetInboundHttpHeaders method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setinboundhttpheaders","wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders"]
+description: Sets the HTTP headers used for inbound SOAP-over-HTTP transmissions.
+helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetInboundHttpHeaders method","IWSDHttpMessageParameters.SetInboundHttpHeaders","IWSDHttpMessageParameters::SetInboundHttpHeaders","SetInboundHttpHeaders","SetInboundHttpHeaders method","SetInboundHttpHeaders method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setinboundhttpheaders","wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders"]
 old-location: ncd\iwsdhttpmessageparameters_setinboundhttpheaders.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fd680016-1e6f-4d15-b1ca-cd2b6b210a71
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, IWSDHttpMessageParameters.SetInboundHttpHeaders, IWSDHttpMessageParameters::SetInboundHttpHeaders, SetInboundHttpHeaders, SetInboundHttpHeaders method, SetInboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders

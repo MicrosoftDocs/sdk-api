@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE_MATCHES
 title: WSD_PROBE_MATCHES (wsdtypes.h)
-description: Represents a ProbeMatches message.helpviewer_keywords: ["WSD_PROBE_MATCHES","WSD_PROBE_MATCHES structure","ncd.wsd_probe_matches_struct","wsdtypes/WSD_PROBE_MATCHES"]
+description: Represents a ProbeMatches message.
+helpviewer_keywords: ["WSD_PROBE_MATCHES","WSD_PROBE_MATCHES structure","ncd.wsd_probe_matches_struct","wsdtypes/WSD_PROBE_MATCHES"]
 old-location: ncd\wsd_probe_matches_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 41bf8dc2-903a-43d4-b63d-a34242d47288
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCHES, WSD_PROBE_MATCHES structure, ncd.wsd_probe_matches_struct, wsdtypes/WSD_PROBE_MATCHES

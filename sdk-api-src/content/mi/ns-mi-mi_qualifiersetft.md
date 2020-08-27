@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_QualifierSetFT
 title: MI_QualifierSetFT (mi.h)
-description: A support structure used in the MI_QualifierSet structure. Use the functions with the name prefix &#0034;MI_QualifierSet_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_QualifierSetFT","MI_QualifierSetFT structure [Windows Management Infrastructure (MI)]","mi/MI_QualifierSetFT","wmi_v2.mi_qualifiersetft"]
+description: A support structure used in the MI_QualifierSet structure. Use the functions with the name prefix &quot;MI_QualifierSet_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_QualifierSetFT","MI_QualifierSetFT structure [Windows Management Infrastructure (MI)]","mi/MI_QualifierSetFT","wmi_v2.mi_qualifiersetft"]
 old-location: wmi_v2\mi_qualifiersetft.htm
 tech.root: wmi_v2
 ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
@@ -66,19 +67,19 @@ TBD
 
 
 
-#### - GetQualifier
+### -field GetQualifier
 
 Gets a named qualifier. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifier">MI_QualifierSet_GetQualifier</a>.
 
 
-#### - GetQualifierAt
+### -field GetQualifierAt
 
 Gets a qualifier at the specified index. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifierat">MI_QualifierSet_GetQualifierAt</a>.
 
 
-#### - GetQualifierCount
+### -field GetQualifierCount
 
 Gets the number of qualifiers in a qualifier set. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifiercount">MI_QualifierSet_GetQualifierCount</a>.

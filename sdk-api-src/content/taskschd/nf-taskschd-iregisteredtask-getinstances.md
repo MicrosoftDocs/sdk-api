@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetInstances
 title: IRegisteredTask::GetInstances (taskschd.h)
-description: Returns all instances of the currently running registered task.helpviewer_keywords: ["GetInstances","GetInstances method [Task Scheduler]","GetInstances method [Task Scheduler]","IRegisteredTask interface","IRegisteredTask interface [Task Scheduler]","GetInstances method","IRegisteredTask.GetInstances","IRegisteredTask::GetInstances","taskschd.iregisteredtask_getinstances","taskschd/IRegisteredTask::GetInstances"]
+description: Returns all instances of the currently running registered task.
+helpviewer_keywords: ["GetInstances","GetInstances method [Task Scheduler]","GetInstances method [Task Scheduler]","IRegisteredTask interface","IRegisteredTask interface [Task Scheduler]","GetInstances method","IRegisteredTask.GetInstances","IRegisteredTask::GetInstances","taskschd.iregisteredtask_getinstances","taskschd/IRegisteredTask::GetInstances"]
 old-location: taskschd\iregisteredtask_getinstances.htm
 tech.root: taskschd
 ms.assetid: 4634851e-e868-4915-a7da-32a39f405974

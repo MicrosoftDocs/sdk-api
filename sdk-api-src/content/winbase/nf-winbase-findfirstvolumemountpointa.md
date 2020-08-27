@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.FindFirstVolumeMountPointA
 title: FindFirstVolumeMountPointA function (winbase.h)
-description: Retrieves the name of a mounted folder on the specified volume.helpviewer_keywords: ["FindFirstVolumeMountPoint","FindFirstVolumeMountPoint function [Files]","FindFirstVolumeMountPointA","FindFirstVolumeMountPointW","_win32_findfirstvolumemountpoint","base.findfirstvolumemountpoint","fs.findfirstvolumemountpoint","winbase/FindFirstVolumeMountPoint","winbase/FindFirstVolumeMountPointA","winbase/FindFirstVolumeMountPointW"]
+description: Retrieves the name of a mounted folder on the specified volume.
+helpviewer_keywords: ["FindFirstVolumeMountPoint","FindFirstVolumeMountPoint function [Files]","FindFirstVolumeMountPointA","FindFirstVolumeMountPointW","_win32_findfirstvolumemountpoint","base.findfirstvolumemountpoint","fs.findfirstvolumemountpoint","winbase/FindFirstVolumeMountPoint","winbase/FindFirstVolumeMountPointA","winbase/FindFirstVolumeMountPointW"]
 old-location: fs\findfirstvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
@@ -185,6 +186,10 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines FindFirstVolumeMountPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

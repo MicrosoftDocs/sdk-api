@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetIconLocation
 title: IAssocHandler::GetIconLocation (shobjidl_core.h)
-description: Retrieves the location of the icon associated with the application.helpviewer_keywords: ["GetIconLocation","GetIconLocation method [Windows Shell]","GetIconLocation method [Windows Shell]","IAssocHandler interface","IAssocHandler interface [Windows Shell]","GetIconLocation method","IAssocHandler.GetIconLocation","IAssocHandler::GetIconLocation","_shell_IAssocHandler_GetIconLocation","shell.IAssocHandler_GetIconLocation","shobjidl_core/IAssocHandler::GetIconLocation"]
+description: Retrieves the location of the icon associated with the application.
+helpviewer_keywords: ["GetIconLocation","GetIconLocation method [Windows Shell]","GetIconLocation method [Windows Shell]","IAssocHandler interface","IAssocHandler interface [Windows Shell]","GetIconLocation method","IAssocHandler.GetIconLocation","IAssocHandler::GetIconLocation","_shell_IAssocHandler_GetIconLocation","shell.IAssocHandler_GetIconLocation","shobjidl_core/IAssocHandler::GetIconLocation"]
 old-location: shell\IAssocHandler_GetIconLocation.htm
 tech.root: shell
 ms.assetid: 4b883c2c-6845-4e53-b41b-83c09091ee53

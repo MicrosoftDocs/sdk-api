@@ -1,9 +1,10 @@
 ---
 UID: NF:instance.CInstance.IsNull
 title: CInstance::IsNull (instance.h)
-description: The IsNull method determines if the value of a particular property is NULL.helpviewer_keywords: ["?IsNull@CInstance@@QBE_NPBG@Z","?IsNull@CInstance@@QEBA_NPEBG@Z","CInstance interface [Windows Management Instrumentation]","IsNull method","CInstance.IsNull","CInstance::IsNull","IsNull","IsNull method [Windows Management Instrumentation]","IsNull method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_isnull","instance/CInstance::IsNull","wmi.cinstance_isnull"]
+description: The IsNull method determines if the value of a particular property is NULL.
+helpviewer_keywords: ["?IsNull@CInstance@@QBE_NPBG@Z","?IsNull@CInstance@@QEBA_NPEBG@Z","CInstance interface [Windows Management Instrumentation]","IsNull method","CInstance.IsNull","CInstance::IsNull","IsNull","IsNull method [Windows Management Instrumentation]","IsNull method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_isnull","instance/CInstance::IsNull","wmi.cinstance_isnull"]
 old-location: wmi\cinstance_isnull.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 54d0135f-f387-43f5-ab5a-aa134141d3b0
 ms.date: 12/05/2018
 ms.keywords: ?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance interface [Windows Management Instrumentation],IsNull method, CInstance.IsNull, CInstance::IsNull, IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull

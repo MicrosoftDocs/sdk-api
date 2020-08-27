@@ -1,9 +1,10 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.Delete
 title: ITPluggableTerminalClassRegistration::Delete (termmgr.h)
-description: The Delete method deletes the terminal class from the registry.helpviewer_keywords: ["Delete","Delete method [TAPI 2.2]","Delete method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","ITPluggableTerminalClassRegistration interface [TAPI 2.2]","Delete method","ITPluggableTerminalClassRegistration.Delete","ITPluggableTerminalClassRegistration::Delete","_tapi3_itpluggableterminalclassregistration_delete","tapi3.itpluggableterminalclassregistration_delete","termmgr/ITPluggableTerminalClassRegistration::Delete"]
+description: The Delete method deletes the terminal class from the registry.
+helpviewer_keywords: ["Delete","Delete method [TAPI 2.2]","Delete method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","ITPluggableTerminalClassRegistration interface [TAPI 2.2]","Delete method","ITPluggableTerminalClassRegistration.Delete","ITPluggableTerminalClassRegistration::Delete","_tapi3_itpluggableterminalclassregistration_delete","tapi3.itpluggableterminalclassregistration_delete","termmgr/ITPluggableTerminalClassRegistration::Delete"]
 old-location: tapi3\itpluggableterminalclassregistration_delete.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ddc0e33a-d7f4-4380-b53b-e368f7646cbf
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, ITPluggableTerminalClassRegistration interface [TAPI 2.2],Delete method, ITPluggableTerminalClassRegistration.Delete, ITPluggableTerminalClassRegistration::Delete, _tapi3_itpluggableterminalclassregistration_delete, tapi3.itpluggableterminalclassregistration_delete, termmgr/ITPluggableTerminalClassRegistration::Delete

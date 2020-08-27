@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetKerning
 title: ITextFont::GetKerning (tom.h)
-description: Gets the minimum font size at which kerning occurs.helpviewer_keywords: ["GetKerning","GetKerning method [Windows Controls]","GetKerning method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetKerning method","ITextFont.GetKerning","ITextFont::GetKerning","_win32_ITextFont_GetKerning","_win32_ITextFont_GetKerning_cpp","controls.ITextFont_GetKerning","controls._win32_ITextFont_GetKerning","tom/ITextFont::GetKerning"]
+description: Gets the minimum font size at which kerning occurs.
+helpviewer_keywords: ["GetKerning","GetKerning method [Windows Controls]","GetKerning method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetKerning method","ITextFont.GetKerning","ITextFont::GetKerning","_win32_ITextFont_GetKerning","_win32_ITextFont_GetKerning_cpp","controls.ITextFont_GetKerning","controls._win32_ITextFont_GetKerning","tom/ITextFont::GetKerning"]
 old-location: controls\ITextFont_GetKerning.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkerning.htm

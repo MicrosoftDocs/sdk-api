@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_DOMAIN_SHADER_TRACE_DESC
 title: D3D11_DOMAIN_SHADER_TRACE_DESC (d3d11shadertracing.h)
-description: Describes an instance of a domain shader to trace.helpviewer_keywords: ["D3D11_DOMAIN_SHADER_TRACE_DESC","D3D11_DOMAIN_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_DOMAIN_SHADER_TRACE_DESC","direct3d11.d3d11_domain_shader_trace_desc"]
+description: Describes an instance of a domain shader to trace.
+helpviewer_keywords: ["D3D11_DOMAIN_SHADER_TRACE_DESC","D3D11_DOMAIN_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_DOMAIN_SHADER_TRACE_DESC","direct3d11.d3d11_domain_shader_trace_desc"]
 old-location: direct3d11\d3d11_domain_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: A513A751-06BB-4298-82A5-BBBF6DCEBD1F

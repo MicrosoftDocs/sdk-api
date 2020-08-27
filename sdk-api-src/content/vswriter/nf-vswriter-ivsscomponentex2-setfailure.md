@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssComponentEx2.SetFailure
 title: IVssComponentEx2::SetFailure (vswriter.h)
-description: VSS writers call this method to report errors at the component level.helpviewer_keywords: ["IVssComponentEx2 interface","SetFailure method","IVssComponentEx2.SetFailure","IVssComponentEx2::SetFailure","S_OK","SetFailure","SetFailure method","SetFailure method","IVssComponentEx2 interface","VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT","VSS_E_WRITERERROR_NONRETRYABLE","VSS_E_WRITERERROR_OUTOFRESOURCES","VSS_E_WRITERERROR_RETRYABLE","VSS_E_WRITERERROR_TIMEOUT","base.ivsscomponentex2_setfailure","vswriter/IVssComponentEx2::SetFailure"]
+description: VSS writers call this method to report errors at the component level.
+helpviewer_keywords: ["IVssComponentEx2 interface","SetFailure method","IVssComponentEx2.SetFailure","IVssComponentEx2::SetFailure","S_OK","SetFailure","SetFailure method","SetFailure method","IVssComponentEx2 interface","VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT","VSS_E_WRITERERROR_NONRETRYABLE","VSS_E_WRITERERROR_OUTOFRESOURCES","VSS_E_WRITERERROR_RETRYABLE","VSS_E_WRITERERROR_TIMEOUT","base.ivsscomponentex2_setfailure","vswriter/IVssComponentEx2::SetFailure"]
 old-location: base\ivsscomponentex2_setfailure.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetFailure, IVssComponentEx2::SetFailure, S_OK, SetFailure, SetFailure method, SetFailure method,IVssComponentEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.ivsscomponentex2_setfailure, vswriter/IVssComponentEx2::SetFailure

@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoAvailable
 title: IOfflineFilesSyncErrorInfo::InfoAvailable (cscobj.h)
-description: Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.helpviewer_keywords: ["IOfflineFilesSyncErrorInfo interface [Offline Files]","InfoAvailable method","IOfflineFilesSyncErrorInfo.InfoAvailable","IOfflineFilesSyncErrorInfo::InfoAvailable","InfoAvailable","InfoAvailable method [Offline Files]","InfoAvailable method [Offline Files]","IOfflineFilesSyncErrorInfo interface","cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable","of.iofflinefilessyncerrorinfo_infoavailable"]
+description: Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
+helpviewer_keywords: ["IOfflineFilesSyncErrorInfo interface [Offline Files]","InfoAvailable method","IOfflineFilesSyncErrorInfo.InfoAvailable","IOfflineFilesSyncErrorInfo::InfoAvailable","InfoAvailable","InfoAvailable method [Offline Files]","InfoAvailable method [Offline Files]","IOfflineFilesSyncErrorInfo interface","cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable","of.iofflinefilessyncerrorinfo_infoavailable"]
 old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: f4a491fb-445b-4a90-9131-e0e5964154fa
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoAvailable method, IOfflineFilesSyncErrorInfo.InfoAvailable, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable

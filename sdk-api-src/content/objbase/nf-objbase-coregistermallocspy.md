@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoRegisterMallocSpy
 title: CoRegisterMallocSpy function (objbase.h)
-description: Registers an implementation of the IMallocSpy interface, thereafter requiring OLE to call its wrapper methods around every call to the corresponding IMalloc method.helpviewer_keywords: ["CoRegisterMallocSpy","CoRegisterMallocSpy function [COM]","_com_CoRegisterMallocSpy","com.coregistermallocspy","objbase/CoRegisterMallocSpy"]
+description: Registers an implementation of the IMallocSpy interface, thereafter requiring OLE to call its wrapper methods around every call to the corresponding IMalloc method.
+helpviewer_keywords: ["CoRegisterMallocSpy","CoRegisterMallocSpy function [COM]","_com_CoRegisterMallocSpy","com.coregistermallocspy","objbase/CoRegisterMallocSpy"]
 old-location: com\coregistermallocspy.htm
 tech.root: com
 ms.assetid: 28623c1f-e158-4cc5-8c7f-c13d7a65aa76

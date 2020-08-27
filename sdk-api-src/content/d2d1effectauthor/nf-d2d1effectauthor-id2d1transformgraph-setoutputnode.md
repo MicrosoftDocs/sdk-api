@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.SetOutputNode
 title: ID2D1TransformGraph::SetOutputNode (d2d1effectauthor.h)
-description: Sets the output node for the transform graph.helpviewer_keywords: ["ID2D1TransformGraph interface [Direct2D]","SetOutputNode method","ID2D1TransformGraph.SetOutputNode","ID2D1TransformGraph::SetOutputNode","SetOutputNode","SetOutputNode method [Direct2D]","SetOutputNode method [Direct2D]","ID2D1TransformGraph interface","d2d1effectauthor/ID2D1TransformGraph::SetOutputNode","direct2d.id2d1transformgraph_setoutputnode"]
+description: Sets the output node for the transform graph.
+helpviewer_keywords: ["ID2D1TransformGraph interface [Direct2D]","SetOutputNode method","ID2D1TransformGraph.SetOutputNode","ID2D1TransformGraph::SetOutputNode","SetOutputNode","SetOutputNode method [Direct2D]","SetOutputNode method [Direct2D]","ID2D1TransformGraph interface","d2d1effectauthor/ID2D1TransformGraph::SetOutputNode","direct2d.id2d1transformgraph_setoutputnode"]
 old-location: direct2d\id2d1transformgraph_setoutputnode.htm
 tech.root: Direct2D
 ms.assetid: 46C92F32-6D1B-49B8-B44A-F5415E670D9C

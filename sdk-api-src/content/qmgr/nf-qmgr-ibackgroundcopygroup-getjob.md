@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetJob
 title: IBackgroundCopyGroup::GetJob (qmgr.h)
-description: Use the GetJob method to retrieve a job from the group.helpviewer_keywords: ["GetJob","GetJob method [BITS]","GetJob method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","GetJob method","IBackgroundCopyGroup.GetJob","IBackgroundCopyGroup::GetJob","bits.ibackgroundcopygroup_getjob","qmgr/IBackgroundCopyGroup::GetJob"]
+description: Use the GetJob method to retrieve a job from the group.
+helpviewer_keywords: ["GetJob","GetJob method [BITS]","GetJob method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","GetJob method","IBackgroundCopyGroup.GetJob","IBackgroundCopyGroup::GetJob","bits.ibackgroundcopygroup_getjob","qmgr/IBackgroundCopyGroup::GetJob"]
 old-location: bits\ibackgroundcopygroup_getjob.htm
 tech.root: Bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39

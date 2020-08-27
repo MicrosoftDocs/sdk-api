@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMDuplicatePubHandle
 title: DRMDuplicatePubHandle function (msdrm.h)
-description: Makes a copy of a DRMPUBHANDLE.helpviewer_keywords: ["DRMDuplicatePubHandle","DRMDuplicatePubHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDuplicatePubHandle","rm.drmduplicatepubhandle"]
+description: Makes a copy of a DRMPUBHANDLE.
+helpviewer_keywords: ["DRMDuplicatePubHandle","DRMDuplicatePubHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDuplicatePubHandle","rm.drmduplicatepubhandle"]
 old-location: rm\drmduplicatepubhandle.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 6bf94d17-ce09-492e-9b47-88cd54719d3e
 ms.date: 12/05/2018
 ms.keywords: DRMDuplicatePubHandle, DRMDuplicatePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicatePubHandle, rm.drmduplicatepubhandle

@@ -1,7 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorRADIUSSharedSecret
 title: SetIScsiInitiatorRADIUSSharedSecret function (iscsidsc.h)
-description: SetIscsiInitiatorRADIUSSharedSecret function establishes the Remote Authentication Dial-In User Service (RADIUS) shared secret.helpviewer_keywords: ["SetIScsiInitiatorRADIUSSharedSecret","SetIscsiInitiatorRADIUSSharedSecret","SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API]","iscsidisc.setiscsiinitiatorradiussharedsecret","iscsidsc/SetIscsiInitiatorRADIUSSharedSecret"]
+description: SetIscsiInitiatorRADIUSSharedSecret function establishes the Remote Authentication Dial-In User Service (RADIUS) shared secret.
+helpviewer_keywords: ["SetIScsiInitiatorRADIUSSharedSecret","SetIscsiInitiatorRADIUSSharedSecret","SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API]","iscsidisc.setiscsiinitiatorradiussharedsecret","iscsidsc/SetIscsiInitiatorRADIUSSharedSecret"]
 old-location: iscsidisc\setiscsiinitiatorradiussharedsecret.htm
 tech.root: iSCSIDisc
 ms.assetid: a723256f-adde-4bf2-aab7-152693fa9a21

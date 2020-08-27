@@ -1,9 +1,10 @@
 ---
 UID: NF:winwlx.WlxDisplayStatusMessage
 title: WlxDisplayStatusMessage function (winwlx.h)
-description: Winlogon calls this function when the GINA DLL should display a message.helpviewer_keywords: ["WlxDisplayStatusMessage","WlxDisplayStatusMessage function [Security]","_gina_wlxdisplaystatusmessage","security.wlxdisplaystatusmessage","winwlx/WlxDisplayStatusMessage"]
+description: Winlogon calls this function when the GINA DLL should display a message.
+helpviewer_keywords: ["WlxDisplayStatusMessage","WlxDisplayStatusMessage function [Security]","_gina_wlxdisplaystatusmessage","security.wlxdisplaystatusmessage","winwlx/WlxDisplayStatusMessage"]
 old-location: security\wlxdisplaystatusmessage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 07df61ff-f5fa-44ab-b3ca-ed7f4338e471
 ms.date: 12/05/2018
 ms.keywords: WlxDisplayStatusMessage, WlxDisplayStatusMessage function [Security], _gina_wlxdisplaystatusmessage, security.wlxdisplaystatusmessage, winwlx/WlxDisplayStatusMessage

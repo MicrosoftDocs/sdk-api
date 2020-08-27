@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetOutputDPI
 title: IMILBitmapEffectRenderContext::SetOutputDPI (mileffects.h)
-description: Sets the output dots per inch (dpi).helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetOutputDPI method","IMILBitmapEffectRenderContext.SetOutputDPI","IMILBitmapEffectRenderContext::SetOutputDPI","SetOutputDPI","SetOutputDPI method [WPF Bitmap Effects]","SetOutputDPI method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setoutputdpi","mileffects/IMILBitmapEffectRenderContext::SetOutputDPI","wibe._wibe_imilbitmapeffectrendercontext_setoutputdpi"]
+description: Sets the output dots per inch (dpi).
+helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetOutputDPI method","IMILBitmapEffectRenderContext.SetOutputDPI","IMILBitmapEffectRenderContext::SetOutputDPI","SetOutputDPI","SetOutputDPI method [WPF Bitmap Effects]","SetOutputDPI method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setoutputdpi","mileffects/IMILBitmapEffectRenderContext::SetOutputDPI","wibe._wibe_imilbitmapeffectrendercontext_setoutputdpi"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setoutputdpi.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setoutputdpi.htm

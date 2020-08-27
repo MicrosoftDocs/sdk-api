@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_3.ID2D1Ink
 title: ID2D1Ink (d2d1_3.h)
-description: Represents a single continuous stroke of variable-width ink, as defined by a series of Bezier segments and widths.helpviewer_keywords: ["ID2D1Ink","ID2D1Ink interface [Direct2D]","ID2D1Ink interface [Direct2D]","described","d2d1_3/ID2D1Ink","direct2d.id2d1ink"]
+description: Represents a single continuous stroke of variable-width ink, as defined by a series of Bezier segments and widths.
+helpviewer_keywords: ["ID2D1Ink","ID2D1Ink interface [Direct2D]","ID2D1Ink interface [Direct2D]","described","d2d1_3/ID2D1Ink","direct2d.id2d1ink"]
 old-location: direct2d\id2d1ink.htm
 tech.root: Direct2D
 ms.assetid: 4B6DD4C2-8E91-4AEA-AFB5-21B4FD13F75A

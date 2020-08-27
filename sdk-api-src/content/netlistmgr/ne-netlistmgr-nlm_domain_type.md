@@ -1,7 +1,8 @@
 ---
 UID: NE:netlistmgr.NLM_DOMAIN_TYPE
 title: NLM_DOMAIN_TYPE (netlistmgr.h)
-description: The NLM_DOMAIN_TYPE enumeration is a set of flags that specify the domain type of a network.helpviewer_keywords: ["NLM_DOMAIN_TYPE","NLM_DOMAIN_TYPE enumeration [Network Awareness]","NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED","NLM_DOMAIN_TYPE_DOMAIN_NETWORK","NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK","netlistmgr/NLM_DOMAIN_TYPE","netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED","netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_NETWORK","netlistmgr/NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK","nla.nlm_domain_type"]
+description: The NLM_DOMAIN_TYPE enumeration is a set of flags that specify the domain type of a network.
+helpviewer_keywords: ["NLM_DOMAIN_TYPE","NLM_DOMAIN_TYPE enumeration [Network Awareness]","NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED","NLM_DOMAIN_TYPE_DOMAIN_NETWORK","NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK","netlistmgr/NLM_DOMAIN_TYPE","netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED","netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_NETWORK","netlistmgr/NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK","nla.nlm_domain_type"]
 old-location: nla\nlm_domain_type.htm
 tech.root: nla
 ms.assetid: fd1bc50a-c8d3-4594-870e-3bbb5c6ea1da

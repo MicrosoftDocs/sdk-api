@@ -1,9 +1,10 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_PROPERTY
 title: POINTER_DEVICE_PROPERTY (winuser.h)
-description: Contains pointer-based device properties (Human Interface Device (HID) global items that correspond to HID usages).helpviewer_keywords: ["POINTER_DEVICE_PROPERTY","POINTER_DEVICE_PROPERTY structure","input_pointerdevice.pointer_device_property","tagPOINTER_DEVICE_PROPERTY","unifiedinputstack.pointer_device_property","winuser/POINTER_DEVICE_PROPERTY"]
+description: Contains pointer-based device properties (Human Interface Device (HID) global items that correspond to HID usages).
+helpviewer_keywords: ["POINTER_DEVICE_PROPERTY","POINTER_DEVICE_PROPERTY structure","input_pointerdevice.pointer_device_property","tagPOINTER_DEVICE_PROPERTY","unifiedinputstack.pointer_device_property","winuser/POINTER_DEVICE_PROPERTY"]
 old-location: input_pointerdevice\pointer_device_property.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: 2c96379e-7c9f-440c-a98b-bda38bacd33f
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_PROPERTY, POINTER_DEVICE_PROPERTY structure, input_pointerdevice.pointer_device_property, tagPOINTER_DEVICE_PROPERTY, unifiedinputstack.pointer_device_property, winuser/POINTER_DEVICE_PROPERTY

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_GetSelectedCount
 title: TreeView_GetSelectedCount macro (commctrl.h)
-description: TreeView_GetSelectedCount macrohelpviewer_keywords: ["TreeView_GetSelectedCount","TreeView_GetSelectedCount macro [Windows Controls]","_shell_TreeView_GetSelectedCount","_shell_TreeView_GetSelectedCount_cpp","commctrl/TreeView_GetSelectedCount","controls.TreeView_GetSelectedCount","controls._shell_TreeView_GetSelectedCount"]
+description: TreeView_GetSelectedCount macro
+helpviewer_keywords: ["TreeView_GetSelectedCount","TreeView_GetSelectedCount macro [Windows Controls]","_shell_TreeView_GetSelectedCount","_shell_TreeView_GetSelectedCount_cpp","commctrl/TreeView_GetSelectedCount","controls.TreeView_GetSelectedCount","controls._shell_TreeView_GetSelectedCount"]
 old-location: controls\TreeView_GetSelectedCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm

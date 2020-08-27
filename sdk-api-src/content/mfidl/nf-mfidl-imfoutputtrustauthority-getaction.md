@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.GetAction
 title: IMFOutputTrustAuthority::GetAction (mfidl.h)
-description: Retrieves the action that is performed by this output trust authority (OTA).helpviewer_keywords: ["5a109e18-a6e2-4f8c-a656-b27112935452","GetAction","GetAction method [Media Foundation]","GetAction method [Media Foundation]","IMFOutputTrustAuthority interface","IMFOutputTrustAuthority interface [Media Foundation]","GetAction method","IMFOutputTrustAuthority.GetAction","IMFOutputTrustAuthority::GetAction","mf.imfoutputtrustauthority_getaction","mfidl/IMFOutputTrustAuthority::GetAction"]
+description: Retrieves the action that is performed by this output trust authority (OTA).
+helpviewer_keywords: ["5a109e18-a6e2-4f8c-a656-b27112935452","GetAction","GetAction method [Media Foundation]","GetAction method [Media Foundation]","IMFOutputTrustAuthority interface","IMFOutputTrustAuthority interface [Media Foundation]","GetAction method","IMFOutputTrustAuthority.GetAction","IMFOutputTrustAuthority::GetAction","mf.imfoutputtrustauthority_getaction","mfidl/IMFOutputTrustAuthority::GetAction"]
 old-location: mf\imfoutputtrustauthority_getaction.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5a109e18-a6e2-4f8c-a656-b27112935452
 ms.date: 12/05/2018
 ms.keywords: 5a109e18-a6e2-4f8c-a656-b27112935452, GetAction, GetAction method [Media Foundation], GetAction method [Media Foundation],IMFOutputTrustAuthority interface, IMFOutputTrustAuthority interface [Media Foundation],GetAction method, IMFOutputTrustAuthority.GetAction, IMFOutputTrustAuthority::GetAction, mf.imfoutputtrustauthority_getaction, mfidl/IMFOutputTrustAuthority::GetAction

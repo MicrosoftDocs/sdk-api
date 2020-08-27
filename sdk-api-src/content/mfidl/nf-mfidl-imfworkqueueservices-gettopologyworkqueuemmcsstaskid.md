@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId
 title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId (mfidl.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier for a specified branch of the current topology.helpviewer_keywords: ["0d519b96-428f-4cad-affc-2e94cdf28ae7","GetTopologyWorkQueueMMCSSTaskId","GetTopologyWorkQueueMMCSSTaskId method [Media Foundation]","GetTopologyWorkQueueMMCSSTaskId method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","GetTopologyWorkQueueMMCSSTaskId method","IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId","IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId","mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid","mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId"]
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier for a specified branch of the current topology.
+helpviewer_keywords: ["0d519b96-428f-4cad-affc-2e94cdf28ae7","GetTopologyWorkQueueMMCSSTaskId","GetTopologyWorkQueueMMCSSTaskId method [Media Foundation]","GetTopologyWorkQueueMMCSSTaskId method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","GetTopologyWorkQueueMMCSSTaskId method","IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId","IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId","mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid","mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId"]
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcsstaskid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0d519b96-428f-4cad-affc-2e94cdf28ae7
 ms.date: 12/05/2018
 ms.keywords: 0d519b96-428f-4cad-affc-2e94cdf28ae7, GetTopologyWorkQueueMMCSSTaskId, GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSTaskId method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId, mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId

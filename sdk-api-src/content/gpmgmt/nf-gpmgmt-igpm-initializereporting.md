@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPM.InitializeReporting
 title: IGPM::InitializeReporting (gpmgmt.h)
-description: The InitializeReporting method sets the location to search for .adm files. This method initializes reporting in an asynchronous manner.helpviewer_keywords: ["GPM object [GPMC]","InitializeReporting method","IGPM interface [GPMC]","InitializeReporting method","IGPM.InitializeReporting","IGPM::InitializeReporting","InitializeReporting","InitializeReporting method [GPMC]","InitializeReporting method [GPMC]","GPM object","InitializeReporting method [GPMC]","IGPM interface","gpmc.igpm_initializereporting","gpmgmt/IGPM::InitializeReporting"]
+description: The InitializeReporting method sets the location to search for .adm files. This method initializes reporting in an asynchronous manner.
+helpviewer_keywords: ["GPM object [GPMC]","InitializeReporting method","IGPM interface [GPMC]","InitializeReporting method","IGPM.InitializeReporting","IGPM::InitializeReporting","InitializeReporting","InitializeReporting method [GPMC]","InitializeReporting method [GPMC]","GPM object","InitializeReporting method [GPMC]","IGPM interface","gpmc.igpm_initializereporting","gpmgmt/IGPM::InitializeReporting"]
 old-location: gpmc\igpm_initializereporting.htm
 tech.root: gpmc
 ms.assetid: 6e9f6ac5-d6d7-4360-b722-0b22e2391d20

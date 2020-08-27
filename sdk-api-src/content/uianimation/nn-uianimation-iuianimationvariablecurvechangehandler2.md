@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableCurveChangeHandler2
 title: IUIAnimationVariableCurveChangeHandler2 (uianimation.h)
-description: Defines a method for handling animation curve update events.helpviewer_keywords: ["IUIAnimationVariableCurveChangeHandler2","IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation]","IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation]","described","uianimation.iuianimationvariablecurvechangehandler2","uianimation/IUIAnimationVariableCurveChangeHandler2"]
+description: Defines a method for handling animation curve update events.
+helpviewer_keywords: ["IUIAnimationVariableCurveChangeHandler2","IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation]","IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation]","described","uianimation.iuianimationvariablecurvechangehandler2","uianimation/IUIAnimationVariableCurveChangeHandler2"]
 old-location: uianimation\iuianimationvariablecurvechangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314

@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.EnterCriticalSection
 title: EnterCriticalSection function (synchapi.h)
-description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.helpviewer_keywords: ["EnterCriticalSection","EnterCriticalSection function","_win32_entercriticalsection","base.entercriticalsection","synchapi/EnterCriticalSection","winbase/EnterCriticalSection"]
+description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
+helpviewer_keywords: ["EnterCriticalSection","EnterCriticalSection function","_win32_entercriticalsection","base.entercriticalsection","synchapi/EnterCriticalSection","winbase/EnterCriticalSection"]
 old-location: base\entercriticalsection.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
 ms.date: 12/05/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
@@ -75,8 +76,7 @@ A pointer to the critical section object.
 
 This function does not return a value.
 
-This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>\<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
-
+This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
 
 
 
@@ -150,7 +150,3 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
- 
-
- 
-

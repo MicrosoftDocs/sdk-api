@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectAttributes
 title: IWMDMOperation::GetObjectAttributes (mswmdm.h)
-description: The GetObjectAttributes method allows the application to specify attributes for an object being written to a device. Windows Media Device Manager calls this method before a file is written to the device in order to learn the file's attributes.helpviewer_keywords: ["GetObjectAttributes","GetObjectAttributes method [windows Media Device Manager]","GetObjectAttributes method [windows Media Device Manager]","IWMDMOperation interface","IWMDMOperation interface [windows Media Device Manager]","GetObjectAttributes method","IWMDMOperation.GetObjectAttributes","IWMDMOperation::GetObjectAttributes","IWMDMOperationGetObjectAttributes","mswmdm/IWMDMOperation::GetObjectAttributes","wmdm.iwmdmoperation_getobjectattributes"]
+description: The GetObjectAttributes method allows the application to specify attributes for an object being written to a device. Windows Media Device Manager calls this method before a file is written to the device in order to learn the file's attributes.
+helpviewer_keywords: ["GetObjectAttributes","GetObjectAttributes method [windows Media Device Manager]","GetObjectAttributes method [windows Media Device Manager]","IWMDMOperation interface","IWMDMOperation interface [windows Media Device Manager]","GetObjectAttributes method","IWMDMOperation.GetObjectAttributes","IWMDMOperation::GetObjectAttributes","IWMDMOperationGetObjectAttributes","mswmdm/IWMDMOperation::GetObjectAttributes","wmdm.iwmdmoperation_getobjectattributes"]
 old-location: wmdm\iwmdmoperation_getobjectattributes.htm
 tech.root: WMDM
 ms.assetid: 4e1f4300-057d-40df-8e5c-75765f9ce337

@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IDistributorNotify
 title: IDistributorNotify (strmif.h)
-description: The IDistributorNotify interface enables a plug-in distributor to be notified when the filter graph changes.Applications never use this interface.helpviewer_keywords: ["IDistributorNotify","IDistributorNotify interface [DirectShow]","IDistributorNotify interface [DirectShow]","described","IDistributorNotifyInterface","dshow.idistributornotify","strmif/IDistributorNotify"]
+description: The IDistributorNotify interface enables a plug-in distributor to be notified when the filter graph changes.Applications never use this interface.
+helpviewer_keywords: ["IDistributorNotify","IDistributorNotify interface [DirectShow]","IDistributorNotify interface [DirectShow]","described","IDistributorNotifyInterface","dshow.idistributornotify","strmif/IDistributorNotify"]
 old-location: dshow\idistributornotify.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c7c9ee95-9d68-45c5-a3ca-8d6071782851
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow],described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify

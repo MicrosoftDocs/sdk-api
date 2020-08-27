@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.get_ApplicationGroups
 title: IAzApplication::get_ApplicationGroups (azroles.h)
-description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.helpviewer_keywords: ["ApplicationGroups property [Security]","ApplicationGroups property [Security]","AzApplication object","ApplicationGroups property [Security]","IAzApplication interface","AzApplication object [Security]","ApplicationGroups property","IAzApplication interface [Security]","ApplicationGroups property","IAzApplication.ApplicationGroups","IAzApplication.get_ApplicationGroups","IAzApplication::ApplicationGroups","IAzApplication::get_ApplicationGroups","azroles/IAzApplication::ApplicationGroups","azroles/IAzApplication::get_ApplicationGroups","get_ApplicationGroups","security.iazapplication_applicationgroups"]
+description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
+helpviewer_keywords: ["ApplicationGroups property [Security]","ApplicationGroups property [Security]","AzApplication object","ApplicationGroups property [Security]","IAzApplication interface","AzApplication object [Security]","ApplicationGroups property","IAzApplication interface [Security]","ApplicationGroups property","IAzApplication.ApplicationGroups","IAzApplication.get_ApplicationGroups","IAzApplication::ApplicationGroups","IAzApplication::get_ApplicationGroups","azroles/IAzApplication::ApplicationGroups","azroles/IAzApplication::get_ApplicationGroups","get_ApplicationGroups","security.iazapplication_applicationgroups"]
 old-location: security\iazapplication_applicationgroups.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 163d07cc-ce45-4e41-b9f2-79c7d360b899
 ms.date: 12/05/2018
 ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzApplication object, ApplicationGroups property [Security],IAzApplication interface, AzApplication object [Security],ApplicationGroups property, IAzApplication interface [Security],ApplicationGroups property, IAzApplication.ApplicationGroups, IAzApplication.get_ApplicationGroups, IAzApplication::ApplicationGroups, IAzApplication::get_ApplicationGroups, azroles/IAzApplication::ApplicationGroups, azroles/IAzApplication::get_ApplicationGroups, get_ApplicationGroups, security.iazapplication_applicationgroups

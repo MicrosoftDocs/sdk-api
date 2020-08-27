@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFContentDecryptorContext.InitializeHardwareKey
 title: IMFContentDecryptorContext::InitializeHardwareKey (mfidl.h)
-description: Allows the display driver to return IHV-specific information used when initializing a new hardware key.helpviewer_keywords: ["IMFContentDecryptorContext interface [Media Foundation]","InitializeHardwareKey method","IMFContentDecryptorContext.InitializeHardwareKey","IMFContentDecryptorContext::InitializeHardwareKey","InitializeHardwareKey","InitializeHardwareKey method [Media Foundation]","InitializeHardwareKey method [Media Foundation]","IMFContentDecryptorContext interface","mf.imfcontentdecryptorcontext_initializehardwarekey","mfidl/IMFContentDecryptorContext::InitializeHardwareKey"]
+description: Allows the display driver to return IHV-specific information used when initializing a new hardware key.
+helpviewer_keywords: ["IMFContentDecryptorContext interface [Media Foundation]","InitializeHardwareKey method","IMFContentDecryptorContext.InitializeHardwareKey","IMFContentDecryptorContext::InitializeHardwareKey","InitializeHardwareKey","InitializeHardwareKey method [Media Foundation]","InitializeHardwareKey method [Media Foundation]","IMFContentDecryptorContext interface","mf.imfcontentdecryptorcontext_initializehardwarekey","mfidl/IMFContentDecryptorContext::InitializeHardwareKey"]
 old-location: mf\imfcontentdecryptorcontext_initializehardwarekey.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E1F12329-9BA5-4765-8C4A-1678C5F9E5F8
 ms.date: 12/05/2018
 ms.keywords: IMFContentDecryptorContext interface [Media Foundation],InitializeHardwareKey method, IMFContentDecryptorContext.InitializeHardwareKey, IMFContentDecryptorContext::InitializeHardwareKey, InitializeHardwareKey, InitializeHardwareKey method [Media Foundation], InitializeHardwareKey method [Media Foundation],IMFContentDecryptorContext interface, mf.imfcontentdecryptorcontext_initializehardwarekey, mfidl/IMFContentDecryptorContext::InitializeHardwareKey

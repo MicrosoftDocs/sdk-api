@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_AvgBytesPerSec
 title: ITScriptableAudioFormat::put_AvgBytesPerSec (tapi3if.h)
-description: The put_AvgBytesPerSec method sets the nAvgBytesPerSec member in the WAVEFORMATEX structure.helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","put_AvgBytesPerSec method","ITScriptableAudioFormat.put_AvgBytesPerSec","ITScriptableAudioFormat::put_AvgBytesPerSec","_tapi3_itscriptableaudioformat_put_avgbytespersec","put_AvgBytesPerSec","put_AvgBytesPerSec method [TAPI 2.2]","put_AvgBytesPerSec method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_put_avgbytespersec","tapi3if/ITScriptableAudioFormat::put_AvgBytesPerSec"]
+description: The put_AvgBytesPerSec method sets the nAvgBytesPerSec member in the WAVEFORMATEX structure.
+helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","put_AvgBytesPerSec method","ITScriptableAudioFormat.put_AvgBytesPerSec","ITScriptableAudioFormat::put_AvgBytesPerSec","_tapi3_itscriptableaudioformat_put_avgbytespersec","put_AvgBytesPerSec","put_AvgBytesPerSec method [TAPI 2.2]","put_AvgBytesPerSec method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_put_avgbytespersec","tapi3if/ITScriptableAudioFormat::put_AvgBytesPerSec"]
 old-location: tapi3\itscriptableaudioformat_put_avgbytespersec.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ca1b67b3-2dd0-47c1-9e91-ae94b6d78cc4
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_AvgBytesPerSec method, ITScriptableAudioFormat.put_AvgBytesPerSec, ITScriptableAudioFormat::put_AvgBytesPerSec, _tapi3_itscriptableaudioformat_put_avgbytespersec, put_AvgBytesPerSec, put_AvgBytesPerSec method [TAPI 2.2], put_AvgBytesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_avgbytespersec, tapi3if/ITScriptableAudioFormat::put_AvgBytesPerSec

@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhGetFormattedCounterValue
 title: PdhGetFormattedCounterValue function (pdh.h)
-description: Computes a displayable value for the specified counter.helpviewer_keywords: ["PDH_FMT_1000","PDH_FMT_DOUBLE","PDH_FMT_LARGE","PDH_FMT_LONG","PDH_FMT_NOCAP100","PDH_FMT_NOSCALE","PdhGetFormattedCounterValue","PdhGetFormattedCounterValue function [Perf]","_win32_pdhgetformattedcountervalue","base.pdhgetformattedcountervalue","pdh/PdhGetFormattedCounterValue","perf.pdhgetformattedcountervalue"]
+description: Computes a displayable value for the specified counter.
+helpviewer_keywords: ["PDH_FMT_1000","PDH_FMT_DOUBLE","PDH_FMT_LARGE","PDH_FMT_LONG","PDH_FMT_NOCAP100","PDH_FMT_NOSCALE","PdhGetFormattedCounterValue","PdhGetFormattedCounterValue function [Perf]","_win32_pdhgetformattedcountervalue","base.pdhgetformattedcountervalue","pdh/PdhGetFormattedCounterValue","perf.pdhgetformattedcountervalue"]
 old-location: perf\pdhgetformattedcountervalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: cd104b26-1498-4f95-a411-97d868b43836
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterValue, PdhGetFormattedCounterValue function [Perf], _win32_pdhgetformattedcountervalue, base.pdhgetformattedcountervalue, pdh/PdhGetFormattedCounterValue, perf.pdhgetformattedcountervalue

@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictItems
 title: ISyncMgrConflictItems (syncmgr.h)
-description: Exposes methods that get conflict item data and item count.helpviewer_keywords: ["ISyncMgrConflictItems","ISyncMgrConflictItems interface [Windows Shell]","ISyncMgrConflictItems interface [Windows Shell]","described","_shell_ISyncMgrConflictItems","shell.ISyncMgrConflictItems","syncmgr/ISyncMgrConflictItems"]
+description: Exposes methods that get conflict item data and item count.
+helpviewer_keywords: ["ISyncMgrConflictItems","ISyncMgrConflictItems interface [Windows Shell]","ISyncMgrConflictItems interface [Windows Shell]","described","_shell_ISyncMgrConflictItems","shell.ISyncMgrConflictItems","syncmgr/ISyncMgrConflictItems"]
 old-location: shell\ISyncMgrConflictItems.htm
 tech.root: shell
 ms.assetid: 1dea310d-137b-4180-99c9-e40cd4fa3a98

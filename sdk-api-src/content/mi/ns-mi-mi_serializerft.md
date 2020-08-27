@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_SerializerFT
 title: MI_SerializerFT (mi.h)
-description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Serializer_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_SerializerFT","MI_SerializerFT structure [Windows Management Infrastructure (MI)]","mi/MI_SerializerFT","wmi_v2.mi_serializerft"]
+description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &quot;MI_Serializer_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_SerializerFT","MI_SerializerFT structure [Windows Management Infrastructure (MI)]","mi/MI_SerializerFT","wmi_v2.mi_serializerft"]
 old-location: wmi_v2\mi_serializerft.htm
 tech.root: wmi_v2
 ms.assetid: bf97fff0-0a3d-4326-90a4-c329a06d5741
@@ -66,20 +67,20 @@ TBD
 
 
 
-#### - Close
+### -field Close
 
 Closes a serializer object and frees any internal memory associated with it. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_close">MI_Serializer_Close</a>.
 
 
-#### - SerializeClass
+### -field SerializeClass
 
 Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format 
        specified when it was created. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
 
 
-#### - SerializeInstance
+### -field SerializeInstance
 
 Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> into a buffer in the 
        format specified when the serializer was created. See 

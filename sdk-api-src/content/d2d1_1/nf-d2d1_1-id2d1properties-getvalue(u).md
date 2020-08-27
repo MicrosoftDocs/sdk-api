@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValue(U)
 title: ID2D1Properties::GetValue(U,) (d2d1_1.h)
-description: Gets the value of the property by index. This is a template overload. See Remarks.helpviewer_keywords: ["GetValue","GetValue method [Direct2D]","GetValue method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValue method","ID2D1Properties.GetValue","ID2D1Properties.GetValue(U",")","ID2D1Properties::GetValue","ID2D1Properties::GetValue(U)","ID2D1Properties::GetValue(U",")","d2d1_1/ID2D1Properties::GetValue","direct2d.id2d1properties_getvalue5"]
+description: Gets the value of the property by index. This is a template overload. See Remarks.
+helpviewer_keywords: ["GetValue","GetValue method [Direct2D]","GetValue method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValue method","ID2D1Properties.GetValue","ID2D1Properties.GetValue(U",")","ID2D1Properties::GetValue","ID2D1Properties::GetValue(U)","ID2D1Properties::GetValue(U",")","d2d1_1/ID2D1Properties::GetValue","direct2d.id2d1properties_getvalue5"]
 old-location: direct2d\id2d1properties_getvalue5.htm
 tech.root: Direct2D
 ms.assetid: 90E54C63-B584-4844-85B7-BCCF766D90E3

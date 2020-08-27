@@ -4,7 +4,7 @@ title: DML_MAX_POOLING_OPERATOR_DESC
 description: Describes a DirectML operator that performs a max pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths), y = max(x1 + x2 + … x_pool_size).
 helpviewer_keywords: ["DML_MAX_POOLING_OPERATOR_DESC","DML_MAX_POOLING_OPERATOR_DESC structure","direct3d12.dml_max_pooling_operator_desc","directml/DML_MAX_POOLING_OPERATOR_DESC"]
 old-location: direct3d12\dml_max_pooling_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: DC500008-619C-425F-A2C4-DE17B984E4F7
 ms.date: 12/5/2018
 ms.keywords: DML_MAX_POOLING_OPERATOR_DESC, DML_MAX_POOLING_OPERATOR_DESC structure, direct3d12.dml_max_pooling_operator_desc, directml/DML_MAX_POOLING_OPERATOR_DESC

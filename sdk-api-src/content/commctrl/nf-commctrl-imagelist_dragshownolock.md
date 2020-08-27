@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_DragShowNolock
 title: ImageList_DragShowNolock function (commctrl.h)
-description: Shows or hides the image being dragged.helpviewer_keywords: ["ImageList_DragShowNolock","ImageList_DragShowNolock function [Windows Controls]","_win32_ImageList_DragShowNolock","_win32_ImageList_DragShowNolock_cpp","commctrl/ImageList_DragShowNolock","controls.ImageList_DragShowNolock","controls._win32_ImageList_DragShowNolock"]
+description: Shows or hides the image being dragged.
+helpviewer_keywords: ["ImageList_DragShowNolock","ImageList_DragShowNolock function [Windows Controls]","_win32_ImageList_DragShowNolock","_win32_ImageList_DragShowNolock_cpp","commctrl/ImageList_DragShowNolock","controls.ImageList_DragShowNolock","controls._win32_ImageList_DragShowNolock"]
 old-location: controls\ImageList_DragShowNolock.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragshownolock.htm

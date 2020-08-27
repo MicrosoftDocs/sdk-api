@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredGetSessionTypes
 title: CredGetSessionTypes function (wincred.h)
-description: The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.helpviewer_keywords: ["CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_NONE","CRED_PERSIST_SESSION","CredGetSessionTypes","CredGetSessionTypes function [Security]","_cred_credgetsessiontypes","security.credgetsessiontypes","wincred/CredGetSessionTypes"]
+description: The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.
+helpviewer_keywords: ["CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_NONE","CRED_PERSIST_SESSION","CredGetSessionTypes","CredGetSessionTypes function [Security]","_cred_credgetsessiontypes","security.credgetsessiontypes","wincred/CredGetSessionTypes"]
 old-location: security\credgetsessiontypes.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 70f8d5e0-235b-4330-8add-566b41c91c17
 ms.date: 12/05/2018
 ms.keywords: CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_NONE, CRED_PERSIST_SESSION, CredGetSessionTypes, CredGetSessionTypes function [Security], _cred_credgetsessiontypes, security.credgetsessiontypes, wincred/CredGetSessionTypes

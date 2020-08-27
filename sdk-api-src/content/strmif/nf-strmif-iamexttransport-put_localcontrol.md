@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_LocalControl
 title: IAMExtTransport::put_LocalControl (strmif.h)
-description: The put_LocalControl method switches the device between local and remote control.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_LocalControl method","IAMExtTransport.put_LocalControl","IAMExtTransport::put_LocalControl","IAMExtTransportput_LocalControl","dshow.iamexttransport_put_localcontrol","put_LocalControl","put_LocalControl method [DirectShow]","put_LocalControl method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_LocalControl"]
+description: The put_LocalControl method switches the device between local and remote control.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_LocalControl method","IAMExtTransport.put_LocalControl","IAMExtTransport::put_LocalControl","IAMExtTransportput_LocalControl","dshow.iamexttransport_put_localcontrol","put_LocalControl","put_LocalControl method [DirectShow]","put_LocalControl method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_LocalControl"]
 old-location: dshow\iamexttransport_put_localcontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1ac75eb7-4b4c-402b-8e4e-f94488eccec1
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_LocalControl method, IAMExtTransport.put_LocalControl, IAMExtTransport::put_LocalControl, IAMExtTransportput_LocalControl, dshow.iamexttransport_put_localcontrol, put_LocalControl, put_LocalControl method [DirectShow], put_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_LocalControl

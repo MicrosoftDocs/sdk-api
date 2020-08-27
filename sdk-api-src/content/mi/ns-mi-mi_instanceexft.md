@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_InstanceExFT
 title: MI_InstanceExFT (mi.h)
-description: Extends the MI_InstanceFT structure.helpviewer_keywords: ["MI_InstanceExFT","MI_InstanceExFT structure [Windows Management Infrastructure (MI)]","mi/MI_Instance_ExFT","wmi_v2.mi_instanceexft"]
+description: Extends the MI_InstanceFT structure.
+helpviewer_keywords: ["MI_InstanceExFT","MI_InstanceExFT structure [Windows Management Infrastructure (MI)]","mi/MI_Instance_ExFT","wmi_v2.mi_instanceexft"]
 old-location: wmi_v2\mi_instanceexft.htm
 tech.root: wmi_v2
 ms.assetid: E703D978-7B4B-4AB4-AB69-C9489F5AD58B
@@ -70,7 +71,7 @@ TBD
 
 
 
-#### - Normalize
+### -field Normalize
 
 Parses the structure and returns the 
        <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table. See 

@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddDelegatedPolicyUserName
 title: IAzAuthorizationStore::AddDelegatedPolicyUserName (azroles.h)
-description: Adds the specified account name to the list of principals that act as delegated policy users.helpviewer_keywords: ["AddDelegatedPolicyUserName","AddDelegatedPolicyUserName method [Security]","AddDelegatedPolicyUserName method [Security]","AzAuthorizationStore object","AddDelegatedPolicyUserName method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddDelegatedPolicyUserName method","IAzAuthorizationStore interface [Security]","AddDelegatedPolicyUserName method","IAzAuthorizationStore.AddDelegatedPolicyUserName","IAzAuthorizationStore::AddDelegatedPolicyUserName","azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName","security.azauthorizationstore_adddelegatedpolicyusername"]
+description: Adds the specified account name to the list of principals that act as delegated policy users.
+helpviewer_keywords: ["AddDelegatedPolicyUserName","AddDelegatedPolicyUserName method [Security]","AddDelegatedPolicyUserName method [Security]","AzAuthorizationStore object","AddDelegatedPolicyUserName method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddDelegatedPolicyUserName method","IAzAuthorizationStore interface [Security]","AddDelegatedPolicyUserName method","IAzAuthorizationStore.AddDelegatedPolicyUserName","IAzAuthorizationStore::AddDelegatedPolicyUserName","azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName","security.azauthorizationstore_adddelegatedpolicyusername"]
 old-location: security\azauthorizationstore_adddelegatedpolicyusername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 9eeb4670-a3be-46dd-83b4-4ab12a311fe3
 ms.date: 12/05/2018
 ms.keywords: AddDelegatedPolicyUserName, AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security],AzAuthorizationStore object, AddDelegatedPolicyUserName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUserName method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUserName method, IAzAuthorizationStore.AddDelegatedPolicyUserName, IAzAuthorizationStore::AddDelegatedPolicyUserName, azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName, security.azauthorizationstore_adddelegatedpolicyusername

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IFolderViewOptions
 title: IFolderViewOptions (shobjidl.h)
-description: Exposes methods that allow control of folder view options specific to the Windows 7 and later views.helpviewer_keywords: ["IFolderViewOptions","IFolderViewOptions interface [Windows Shell]","IFolderViewOptions interface [Windows Shell]","described","_shell_IFolderViewOptions","shell.IFolderViewOptions","shobjidl/IFolderViewOptions"]
+description: Exposes methods that allow control of folder view options specific to the Windows 7 and later views.
+helpviewer_keywords: ["IFolderViewOptions","IFolderViewOptions interface [Windows Shell]","IFolderViewOptions interface [Windows Shell]","described","_shell_IFolderViewOptions","shell.IFolderViewOptions","shobjidl/IFolderViewOptions"]
 old-location: shell\IFolderViewOptions.htm
 tech.root: shell
 ms.assetid: 4831e62c-45e4-435d-b926-0e140cbfb6fc

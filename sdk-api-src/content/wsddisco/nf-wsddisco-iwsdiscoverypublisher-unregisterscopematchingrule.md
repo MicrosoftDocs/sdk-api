@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule (wsddisco.h)
-description: Removes support for a custom scope matching rule.helpviewer_keywords: ["IWSDiscoveryPublisher interface","UnRegisterScopeMatchingRule method","IWSDiscoveryPublisher.UnRegisterScopeMatchingRule","IWSDiscoveryPublisher::UnRegisterScopeMatchingRule","UnRegisterScopeMatchingRule","UnRegisterScopeMatchingRule method","UnRegisterScopeMatchingRule method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method","wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule"]
+description: Removes support for a custom scope matching rule.
+helpviewer_keywords: ["IWSDiscoveryPublisher interface","UnRegisterScopeMatchingRule method","IWSDiscoveryPublisher.UnRegisterScopeMatchingRule","IWSDiscoveryPublisher::UnRegisterScopeMatchingRule","UnRegisterScopeMatchingRule","UnRegisterScopeMatchingRule method","UnRegisterScopeMatchingRule method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method","wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule"]
 old-location: ncd\iwsdiscoverypublisher_unregisterscopematchingrule_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 82af2ea1-8415-45f7-ab05-805a66689482
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher.UnRegisterScopeMatchingRule, IWSDiscoveryPublisher::UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule method, UnRegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule

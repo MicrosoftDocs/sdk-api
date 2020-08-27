@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.SetLogArchiveMode
 title: SetLogArchiveMode function (clfsw32.h)
-description: Enables or disables log archive support for a specified log.helpviewer_keywords: ["CLFS_LOG_ARCHIVE_MODE","ClfsLogArchiveDisabled","ClfsLogArchiveEnabled","SetLogArchiveMode","SetLogArchiveMode function [Files]","clfsw32/SetLogArchiveMode","fs.setlogarchivemode"]
+description: Enables or disables log archive support for a specified log.
+helpviewer_keywords: ["CLFS_LOG_ARCHIVE_MODE","ClfsLogArchiveDisabled","ClfsLogArchiveEnabled","SetLogArchiveMode","SetLogArchiveMode function [Files]","clfsw32/SetLogArchiveMode","fs.setlogarchivemode"]
 old-location: fs\setlogarchivemode.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
 ms.date: 12/05/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode

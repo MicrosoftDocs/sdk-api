@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRSurface.IsSurfaceLocked
 title: IVMRSurface::IsSurfaceLocked (strmif.h)
-description: The IsSurfaceLocked method indicates whether the DirectDraw surface attached to this media sample is locked.helpviewer_keywords: ["IVMRSurface interface [DirectShow]","IsSurfaceLocked method","IVMRSurface.IsSurfaceLocked","IVMRSurface::IsSurfaceLocked","IVMRSurfaceIsSurfaceLocked","IsSurfaceLocked","IsSurfaceLocked method [DirectShow]","IsSurfaceLocked method [DirectShow]","IVMRSurface interface","dshow.ivmrsurface_issurfacelocked","strmif/IVMRSurface::IsSurfaceLocked"]
+description: The IsSurfaceLocked method indicates whether the DirectDraw surface attached to this media sample is locked.
+helpviewer_keywords: ["IVMRSurface interface [DirectShow]","IsSurfaceLocked method","IVMRSurface.IsSurfaceLocked","IVMRSurface::IsSurfaceLocked","IVMRSurfaceIsSurfaceLocked","IsSurfaceLocked","IsSurfaceLocked method [DirectShow]","IsSurfaceLocked method [DirectShow]","IVMRSurface interface","dshow.ivmrsurface_issurfacelocked","strmif/IVMRSurface::IsSurfaceLocked"]
 old-location: dshow\ivmrsurface_issurfacelocked.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 690194c2-2f40-414f-9130-f2f9c44fe71e
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],IsSurfaceLocked method, IVMRSurface.IsSurfaceLocked, IVMRSurface::IsSurfaceLocked, IVMRSurfaceIsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_issurfacelocked, strmif/IVMRSurface::IsSurfaceLocked

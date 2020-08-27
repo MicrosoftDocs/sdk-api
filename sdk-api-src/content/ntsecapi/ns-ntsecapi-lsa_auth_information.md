@@ -4,7 +4,7 @@ title: LSA_AUTH_INFORMATION (ntsecapi.h)
 description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.
 helpviewer_keywords: ["*PLSA_AUTH_INFORMATION","LSA_AUTH_INFORMATION","LSA_AUTH_INFORMATION structure [Security]","PLSA_AUTH_INFORMATION","PLSA_AUTH_INFORMATION structure pointer [Security]","TRUST_AUTH_TYPE_CLEAR","TRUST_AUTH_TYPE_NONE","TRUST_AUTH_TYPE_NT4OWF","TRUST_AUTH_TYPE_VERSION","_LSA_AUTH_INFORMATION","_lsa_lsa_auth_information","ntsecapi/LSA_AUTH_INFORMATION","ntsecapi/PLSA_AUTH_INFORMATION","security.lsa_auth_information"]
 old-location: security\lsa_auth_information.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 61c17831-4a82-4766-b5af-e97a6d467462
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION structure [Security], PLSA_AUTH_INFORMATION, PLSA_AUTH_INFORMATION structure pointer [Security], TRUST_AUTH_TYPE_CLEAR, TRUST_AUTH_TYPE_NONE, TRUST_AUTH_TYPE_NT4OWF, TRUST_AUTH_TYPE_VERSION, _LSA_AUTH_INFORMATION, _lsa_lsa_auth_information, ntsecapi/LSA_AUTH_INFORMATION, ntsecapi/PLSA_AUTH_INFORMATION, security.lsa_auth_information'

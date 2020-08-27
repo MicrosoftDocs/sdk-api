@@ -1,7 +1,8 @@
 ---
 UID: NE:xapo.XAPO_BUFFER_FLAGS
 title: XAPO_BUFFER_FLAGS (xapo.h)
-description: Describes the contents of a stream buffer.helpviewer_keywords: ["XAPO_BUFFER_FLAGS","XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mixing APIs]","XAPO_BUFFER_SILENT","XAPO_BUFFER_VALID","xapo/XAPO_BUFFER_FLAGS","xapo/XAPO_BUFFER_SILENT","xapo/XAPO_BUFFER_VALID","xaudio2.xapo_buffer_flags"]
+description: Describes the contents of a stream buffer.
+helpviewer_keywords: ["XAPO_BUFFER_FLAGS","XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mixing APIs]","XAPO_BUFFER_SILENT","XAPO_BUFFER_VALID","xapo/XAPO_BUFFER_FLAGS","xapo/XAPO_BUFFER_SILENT","xapo/XAPO_BUFFER_VALID","xaudio2.xapo_buffer_flags"]
 old-location: xaudio2\xapo_buffer_flags.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_BUFFER_FLAGS

@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_HighLowSwitchFrequency
 title: IBDA_LNBInfo::put_HighLowSwitchFrequency (bdaiface.h)
-description: The put_HighLowSwitchFrequency method specifies the frequency of the high-low switch.helpviewer_keywords: ["IBDA_LNBInfo interface [Microsoft TV Technologies]","put_HighLowSwitchFrequency method","IBDA_LNBInfo.put_HighLowSwitchFrequency","IBDA_LNBInfo::put_HighLowSwitchFrequency","IBDA_LNBInfoput_HighLowSwitchFrequency","bdaiface/IBDA_LNBInfo::put_HighLowSwitchFrequency","mstv.ibda_lnbinfo_put_highlowswitchfrequency","put_HighLowSwitchFrequency","put_HighLowSwitchFrequency method [Microsoft TV Technologies]","put_HighLowSwitchFrequency method [Microsoft TV Technologies]","IBDA_LNBInfo interface"]
+description: The put_HighLowSwitchFrequency method specifies the frequency of the high-low switch.
+helpviewer_keywords: ["IBDA_LNBInfo interface [Microsoft TV Technologies]","put_HighLowSwitchFrequency method","IBDA_LNBInfo.put_HighLowSwitchFrequency","IBDA_LNBInfo::put_HighLowSwitchFrequency","IBDA_LNBInfoput_HighLowSwitchFrequency","bdaiface/IBDA_LNBInfo::put_HighLowSwitchFrequency","mstv.ibda_lnbinfo_put_highlowswitchfrequency","put_HighLowSwitchFrequency","put_HighLowSwitchFrequency method [Microsoft TV Technologies]","put_HighLowSwitchFrequency method [Microsoft TV Technologies]","IBDA_LNBInfo interface"]
 old-location: mstv\ibda_lnbinfo_put_highlowswitchfrequency.htm
 tech.root: mstv
 ms.assetid: 3edde05f-1cdb-4648-a34b-ba95e4fcff12

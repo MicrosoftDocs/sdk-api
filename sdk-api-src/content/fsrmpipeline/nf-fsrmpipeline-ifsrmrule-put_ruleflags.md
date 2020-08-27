@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_RuleFlags
 title: IFsrmRule::put_RuleFlags (fsrmpipeline.h)
-description: The flags that define the state of the rule.helpviewer_keywords: ["IFsrmRule interface [File Server Resource Manager]","RuleFlags property","IFsrmRule.RuleFlags","IFsrmRule.put_RuleFlags","IFsrmRule::RuleFlags","IFsrmRule::get_RuleFlags","IFsrmRule::put_RuleFlags","RuleFlags property [File Server Resource Manager]","RuleFlags property [File Server Resource Manager]","IFsrmRule interface","fs.ifsrmrule_ruleflags","fsrm.ifsrmrule_ruleflags","fsrmpipeline/IFsrmRule::RuleFlags","fsrmpipeline/IFsrmRule::get_RuleFlags","fsrmpipeline/IFsrmRule::put_RuleFlags","put_RuleFlags"]
+description: The flags that define the state of the rule.
+helpviewer_keywords: ["IFsrmRule interface [File Server Resource Manager]","RuleFlags property","IFsrmRule.RuleFlags","IFsrmRule.put_RuleFlags","IFsrmRule::RuleFlags","IFsrmRule::get_RuleFlags","IFsrmRule::put_RuleFlags","RuleFlags property [File Server Resource Manager]","RuleFlags property [File Server Resource Manager]","IFsrmRule interface","fs.ifsrmrule_ruleflags","fsrm.ifsrmrule_ruleflags","fsrmpipeline/IFsrmRule::RuleFlags","fsrmpipeline/IFsrmRule::get_RuleFlags","fsrmpipeline/IFsrmRule::put_RuleFlags","put_RuleFlags"]
 old-location: fsrm\ifsrmrule_ruleflags.htm
 tech.root: fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f

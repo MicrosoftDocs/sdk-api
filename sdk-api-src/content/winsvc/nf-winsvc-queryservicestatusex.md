@@ -1,9 +1,10 @@
 ---
 UID: NF:winsvc.QueryServiceStatusEx
 title: QueryServiceStatusEx function (winsvc.h)
-description: Retrieves the current status of the specified service based on the specified information level.helpviewer_keywords: ["QueryServiceStatusEx","QueryServiceStatusEx function","_win32_queryservicestatusex","base.queryservicestatusex","winsvc/QueryServiceStatusEx"]
+description: Retrieves the current status of the specified service based on the specified information level.
+helpviewer_keywords: ["QueryServiceStatusEx","QueryServiceStatusEx function","_win32_queryservicestatusex","base.queryservicestatusex","winsvc/QueryServiceStatusEx"]
 old-location: base\queryservicestatusex.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 3fe02245-97b1-49f3-8f35-2dcd6f221547
 ms.date: 12/05/2018
 ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryservicestatusex, base.queryservicestatusex, winsvc/QueryServiceStatusEx

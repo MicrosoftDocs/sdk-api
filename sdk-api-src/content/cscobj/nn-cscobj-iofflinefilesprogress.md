@@ -1,9 +1,10 @@
 ---
 UID: NN:cscobj.IOfflineFilesProgress
 title: IOfflineFilesProgress (cscobj.h)
-description: Used to report progress back to callers of lengthy Offline Files operations.helpviewer_keywords: ["IOfflineFilesProgress","IOfflineFilesProgress interface [Offline Files]","IOfflineFilesProgress interface [Offline Files]","described","cscobj/IOfflineFilesProgress","of.iofflinefilesprogress"]
+description: Used to report progress back to callers of lengthy Offline Files operations.
+helpviewer_keywords: ["IOfflineFilesProgress","IOfflineFilesProgress interface [Offline Files]","IOfflineFilesProgress interface [Offline Files]","described","cscobj/IOfflineFilesProgress","of.iofflinefilesprogress"]
 old-location: of\iofflinefilesprogress.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: b568a8c6-119b-486e-94e3-fe4e54a395bb
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files],described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress

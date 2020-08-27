@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.PackSize
 title: PackSize function (mfapi.h)
-description: Packs a UINT32 width value and a UINT32 height value into a UINT64 value that represents a size.helpviewer_keywords: ["PackSize","PackSize function [Media Foundation]","mf.packsize","mfapi/PackSize"]
+description: Packs a UINT32 width value and a UINT32 height value into a UINT64 value that represents a size.
+helpviewer_keywords: ["PackSize","PackSize function [Media Foundation]","mf.packsize","mfapi/PackSize"]
 old-location: mf\packsize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F3DCEEA5-2D88-49FC-87DB-DEB0AE48E984
 ms.date: 12/05/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize

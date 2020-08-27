@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineNotify.EventNotify
 title: IMFMediaEngineNotify::EventNotify (mfmediaengine.h)
-description: Notifies the application when a playback event occurs.helpviewer_keywords: ["EventNotify","EventNotify method [Media Foundation]","EventNotify method [Media Foundation]","IMFMediaEngineNotify interface","IMFMediaEngineNotify interface [Media Foundation]","EventNotify method","IMFMediaEngineNotify.EventNotify","IMFMediaEngineNotify::EventNotify","mf.imfmediaenginenotify_eventnotify","mfmediaengine/IMFMediaEngineNotify::EventNotify"]
+description: Notifies the application when a playback event occurs.
+helpviewer_keywords: ["EventNotify","EventNotify method [Media Foundation]","EventNotify method [Media Foundation]","IMFMediaEngineNotify interface","IMFMediaEngineNotify interface [Media Foundation]","EventNotify method","IMFMediaEngineNotify.EventNotify","IMFMediaEngineNotify::EventNotify","mf.imfmediaenginenotify_eventnotify","mfmediaengine/IMFMediaEngineNotify::EventNotify"]
 old-location: mf\imfmediaenginenotify_eventnotify.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F6B9E025-53C4-4459-9EC4-EA228065FAD3
 ms.date: 12/05/2018
 ms.keywords: EventNotify, EventNotify method [Media Foundation], EventNotify method [Media Foundation],IMFMediaEngineNotify interface, IMFMediaEngineNotify interface [Media Foundation],EventNotify method, IMFMediaEngineNotify.EventNotify, IMFMediaEngineNotify::EventNotify, mf.imfmediaenginenotify_eventnotify, mfmediaengine/IMFMediaEngineNotify::EventNotify

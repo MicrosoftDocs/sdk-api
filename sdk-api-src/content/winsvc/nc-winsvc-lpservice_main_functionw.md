@@ -1,9 +1,10 @@
 ---
 UID: NC:winsvc.LPSERVICE_MAIN_FUNCTIONW
 title: LPSERVICE_MAIN_FUNCTIONW (winsvc.h)
-description: The entry point for a service.helpviewer_keywords: ["LPSERVICE_MAIN_FUNCTION","LPSERVICE_MAIN_FUNCTION callback","LPSERVICE_MAIN_FUNCTION callback function","LPSERVICE_MAIN_FUNCTIONA","LPSERVICE_MAIN_FUNCTIONW","ServiceMain","_win32_servicemain","base.servicemain","winsvc/LPSERVICE_MAIN_FUNCTION","winsvc/LPSERVICE_MAIN_FUNCTIONA","winsvc/LPSERVICE_MAIN_FUNCTIONW"]
+description: The entry point for a service.
+helpviewer_keywords: ["LPSERVICE_MAIN_FUNCTION","LPSERVICE_MAIN_FUNCTION callback","LPSERVICE_MAIN_FUNCTION callback function","LPSERVICE_MAIN_FUNCTIONA","LPSERVICE_MAIN_FUNCTIONW","ServiceMain","_win32_servicemain","base.servicemain","winsvc/LPSERVICE_MAIN_FUNCTION","winsvc/LPSERVICE_MAIN_FUNCTIONA","winsvc/LPSERVICE_MAIN_FUNCTIONW"]
 old-location: base\servicemain.htm
-tech.root: Services
+tech.root: security
 ms.assetid: d7f3235e-91bd-4107-a30c-4a8f9a6c731e
 ms.date: 12/05/2018
 ms.keywords: LPSERVICE_MAIN_FUNCTION, LPSERVICE_MAIN_FUNCTION callback, LPSERVICE_MAIN_FUNCTION callback function, LPSERVICE_MAIN_FUNCTIONA, LPSERVICE_MAIN_FUNCTIONW, ServiceMain, _win32_servicemain, base.servicemain, winsvc/LPSERVICE_MAIN_FUNCTION, winsvc/LPSERVICE_MAIN_FUNCTIONA, winsvc/LPSERVICE_MAIN_FUNCTIONW
@@ -62,29 +63,17 @@ The <b>LPSERVICE_MAIN_FUNCTION</b> type defines a pointer to this callback funct
 
 
 
-### -param dwNumServicesArgs
+### -param dwNumServicesArgs [in]
 
+The number of arguments in the <i>lpServiceArgVectors</i> array.
 
-### -param *lpServiceArgVectors
+### -param lpServiceArgVectors [in]
 
+The null-terminated argument strings passed to the service by the call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function that started the service. If there are no arguments, this parameter can be NULL. Otherwise, the first argument (lpServiceArgVectors[0]) is the name of the service, followed by any additional arguments (lpServiceArgVectors[1] through lpServiceArgVectors[dwNumServicesArgs-1]).
 
+If the user starts a manual service using the Services snap-in from the Control Panel, the strings for the <i>lpServiceArgVectors</i> parameter come from the properties dialog box for the service (from the Services snap-in, right-click the service entry, click <b>Properties</b>, and enter the parameters in <b>Start parameters</b>.)
 
-
-
-
-
-
-#### - dwArgc [in]
-
-The number of arguments in the <i>lpszArgv</i> array.
-
-
-#### - lpszArgv [in]
-
-The null-terminated argument strings passed to the service by the call to  the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function that started the service. If there are no arguments, this parameter can be NULL. Otherwise, the first argument (lpszArgv[0]) is the name of the service, followed by any additional arguments (lpszArgv[1] through lpszArgv[dwArgc-1]).
-
-If the user starts a manual service using the Services snap-in from the Control Panel, the strings for the <i>lpszArgv</i> parameter come from the properties dialog box for the service (from the Services snap-in, right-click the service entry, click <b>Properties</b>, and enter the parameters in <b>Start parameters</b>.)
 
 
 ## -remarks
@@ -127,7 +116,8 @@ For an example, see
 
 <div class="code"></div>
 
-
+> [!NOTE]
+> The winsvc.h header defines LPSERVICE_MAIN_FUNCTION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -166,4 +156,5 @@ For an example, see
  
 
  
+
 

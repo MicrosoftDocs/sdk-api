@@ -1,7 +1,8 @@
 ---
-UID: NF:dwrite_3.IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F)
+UID: NF:dwrite_3.IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUNconst,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIXconst,D2D1_POINT_2F)
 title: IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F) (dwrite_3.h)
-description: Converts glyph run placements to glyph origins.helpviewer_keywords: ["ComputeGlyphOrigins","ComputeGlyphOrigins method [Direct Write]","ComputeGlyphOrigins method [Direct Write]","IDWriteFactory4 interface","IDWriteFactory4 interface [Direct Write]","ComputeGlyphOrigins method","IDWriteFactory4.ComputeGlyphOrigins","IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const","DWRITE_MEASURING_MODE","D2D1_POINT_2F","DWRITE_MATRIX const","D2D1_POINT_2F)","IDWriteFactory4::ComputeGlyphOrigins","IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const","DWRITE_MEASURING_MODE","D2D1_POINT_2F","DWRITE_MATRIX const","D2D1_POINT_2F)","directwrite.idwritefactory4_computeglyphorigins","dwrite_3/IDWriteFactory4::ComputeGlyphOrigins"]
+description: Converts glyph run placements to glyph origins.
+helpviewer_keywords: ["ComputeGlyphOrigins","ComputeGlyphOrigins method [Direct Write]","ComputeGlyphOrigins method [Direct Write]","IDWriteFactory4 interface","IDWriteFactory4 interface [Direct Write]","ComputeGlyphOrigins method","IDWriteFactory4.ComputeGlyphOrigins","IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const","DWRITE_MEASURING_MODE","D2D1_POINT_2F","DWRITE_MATRIX const","D2D1_POINT_2F)","IDWriteFactory4::ComputeGlyphOrigins","IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const","DWRITE_MEASURING_MODE","D2D1_POINT_2F","DWRITE_MATRIX const","D2D1_POINT_2F)","directwrite.idwritefactory4_computeglyphorigins","dwrite_3/IDWriteFactory4::ComputeGlyphOrigins"]
 old-location: directwrite\idwritefactory4_computeglyphorigins.htm
 tech.root: DirectWrite
 ms.assetid: 0AA609E2-28C3-4D0C-A627-0648FB0D126A
@@ -65,7 +66,7 @@ Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_G
 Structure containing the properties of the glyph run.
 
 
-#### - measuringMode
+### -param measuringMode
 
 Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
@@ -79,7 +80,7 @@ Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 The position of the baseline origin, in DIPs, relative to the upper-left corner of the DIB.
 
 
-#### - worldAndDpiTransform [in, optional]
+### -param worldAndDpiTransform [in, optional]
 
 Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a></b>
 

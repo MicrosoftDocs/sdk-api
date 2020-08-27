@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ChangeClipboardChain
 title: ChangeClipboardChain function (winuser.h)
-description: Removes a specified window from the chain of clipboard viewers.helpviewer_keywords: ["ChangeClipboardChain","ChangeClipboardChain function [Data Exchange]","_win32_ChangeClipboardChain","_win32_changeclipboardchain_cpp","dataxchg.changeclipboardchain","winui._win32_changeclipboardchain","winuser/ChangeClipboardChain"]
+description: Removes a specified window from the chain of clipboard viewers.
+helpviewer_keywords: ["ChangeClipboardChain","ChangeClipboardChain function [Data Exchange]","_win32_ChangeClipboardChain","_win32_changeclipboardchain_cpp","dataxchg.changeclipboardchain","winui._win32_changeclipboardchain","winuser/ChangeClipboardChain"]
 old-location: dataxchg\changeclipboardchain.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm

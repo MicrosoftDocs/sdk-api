@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_TVFormat
 title: IAMAnalogVideoEncoder::get_TVFormat (strmif.h)
-description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_TVFormat method retrieves the analog video standard that the encoder is currently set to (NTSC/M, PAL/B, SECAM/K1, and so on).helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","get_TVFormat method","IAMAnalogVideoEncoder.get_TVFormat","IAMAnalogVideoEncoder::get_TVFormat","IAMAnalogVideoEncoderget_TVFormat","dshow.iamanalogvideoencoder_get_tvformat","get_TVFormat","get_TVFormat method [DirectShow]","get_TVFormat method [DirectShow]","IAMAnalogVideoEncoder interface","strmif/IAMAnalogVideoEncoder::get_TVFormat"]
+description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_TVFormat method retrieves the analog video standard that the encoder is currently set to (NTSC/M, PAL/B, SECAM/K1, and so on).
+helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","get_TVFormat method","IAMAnalogVideoEncoder.get_TVFormat","IAMAnalogVideoEncoder::get_TVFormat","IAMAnalogVideoEncoderget_TVFormat","dshow.iamanalogvideoencoder_get_tvformat","get_TVFormat","get_TVFormat method [DirectShow]","get_TVFormat method [DirectShow]","IAMAnalogVideoEncoder interface","strmif/IAMAnalogVideoEncoder::get_TVFormat"]
 old-location: dshow\iamanalogvideoencoder_get_tvformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5a88e2e7-508b-448b-ac1d-50a50b4bb79a
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoEncoder.get_TVFormat, IAMAnalogVideoEncoder::get_TVFormat, IAMAnalogVideoEncoderget_TVFormat, dshow.iamanalogvideoencoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_TVFormat

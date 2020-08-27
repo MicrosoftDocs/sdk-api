@@ -4,7 +4,7 @@ title: IOCTL_DISK_FORMAT_TRACKS_EX
 description: Formats a specified, contiguous set of tracks on a floppy disk.
 helpviewer_keywords: ["IOCTL_DISK_FORMAT_TRACKS_EX","IOCTL_DISK_FORMAT_TRACKS_EX control","IOCTL_DISK_FORMAT_TRACKS_EX control code [Files]","_win32_ioctl_disk_format_tracks_ex","base.ioctl_disk_format_tracks_ex","fs.ioctl_disk_format_tracks_ex","winioctl/IOCTL_DISK_FORMAT_TRACKS_EX"]
 old-location: fs\ioctl_disk_format_tracks_ex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 50ca069e-efc5-46d8-bf8f-ff44e1593a76
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS_EX, IOCTL_DISK_FORMAT_TRACKS_EX control, IOCTL_DISK_FORMAT_TRACKS_EX control code [Files], _win32_ioctl_disk_format_tracks_ex, base.ioctl_disk_format_tracks_ex, fs.ioctl_disk_format_tracks_ex, winioctl/IOCTL_DISK_FORMAT_TRACKS_EX

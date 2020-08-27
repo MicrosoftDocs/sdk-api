@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerEnumIdentities
 title: PeerEnumIdentities function (p2p.h)
-description: The PeerEnumIdentities function creates and returns a peer enumeration handle used to enumerate all the peer identities that belong to a specific user.helpviewer_keywords: ["PeerEnumIdentities","PeerEnumIdentities function [Peer Networking]","p2p.peerenumidentities","p2p/PeerEnumIdentities"]
+description: The PeerEnumIdentities function creates and returns a peer enumeration handle used to enumerate all the peer identities that belong to a specific user.
+helpviewer_keywords: ["PeerEnumIdentities","PeerEnumIdentities function [Peer Networking]","p2p.peerenumidentities","p2p/PeerEnumIdentities"]
 old-location: p2p\peerenumidentities.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 91f18185-0292-41a3-8aff-8b345cab5e82
 ms.date: 12/05/2018
 ms.keywords: PeerEnumIdentities, PeerEnumIdentities function [Peer Networking], p2p.peerenumidentities, p2p/PeerEnumIdentities

@@ -4,7 +4,7 @@ title: ICertSrvSetup::SetCADistinguishedName (casetup.h)
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
 helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetCADistinguishedName method","ICertSrvSetup.SetCADistinguishedName","ICertSrvSetup::SetCADistinguishedName","SetCADistinguishedName","SetCADistinguishedName method [Security]","SetCADistinguishedName method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetCADistinguishedName","security.icertsrvsetup_setcadistinguishedname"]
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname

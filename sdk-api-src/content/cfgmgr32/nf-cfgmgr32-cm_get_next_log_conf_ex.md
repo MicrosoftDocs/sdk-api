@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Next_Log_Conf_Ex
 title: CM_Get_Next_Log_Conf_Ex function (cfgmgr32.h)
-description: The CM_Get_Next_Log_Conf_Ex function obtains the next logical configuration associated with a specific device instance on a local or a remote machine.helpviewer_keywords: ["CM_Get_Next_Log_Conf_Ex","CM_Get_Next_Log_Conf_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_Next_Log_Conf_Ex","cfgmgrfn_99fe9088-8c83-4fd5-854a-40f92c412d0f.xml","devinst.cm_get_next_log_conf_ex"]
+description: The CM_Get_Next_Log_Conf_Ex function obtains the next logical configuration associated with a specific device instance on a local or a remote machine.
+helpviewer_keywords: ["CM_Get_Next_Log_Conf_Ex","CM_Get_Next_Log_Conf_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_Next_Log_Conf_Ex","cfgmgrfn_99fe9088-8c83-4fd5-854a-40f92c412d0f.xml","devinst.cm_get_next_log_conf_ex"]
 old-location: devinst\cm_get_next_log_conf_ex.htm
 tech.root: devinst
 ms.assetid: 590baeb8-9234-4895-a05b-1917b2ee0155

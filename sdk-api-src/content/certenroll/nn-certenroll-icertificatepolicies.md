@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertificatePolicies
 title: ICertificatePolicies (certenroll.h)
-description: Contains methods and properties that enable you to manage a collection of ICertificatePolicy objects.helpviewer_keywords: ["ICertificatePolicies","ICertificatePolicies interface [Security]","ICertificatePolicies interface [Security]","described","certenroll/ICertificatePolicies","security.icertificatepolicies"]
+description: Contains methods and properties that enable you to manage a collection of ICertificatePolicy objects.
+helpviewer_keywords: ["ICertificatePolicies","ICertificatePolicies interface [Security]","ICertificatePolicies interface [Security]","described","certenroll/ICertificatePolicies","security.icertificatepolicies"]
 old-location: security\icertificatepolicies.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 2503adcb-0b73-42ef-98cf-a2b906e34ef7
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ICertificatePolicies interface [Security],described, certenroll/ICertificatePolicies, security.icertificatepolicies

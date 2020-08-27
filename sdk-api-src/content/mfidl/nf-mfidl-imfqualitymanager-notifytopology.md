@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyTopology
 title: IMFQualityManager::NotifyTopology (mfidl.h)
-description: Called when the Media Session is about to start playing a new topology.helpviewer_keywords: ["5ff6d923-4a83-401a-a0de-0b1a732c31a5","IMFQualityManager interface [Media Foundation]","NotifyTopology method","IMFQualityManager.NotifyTopology","IMFQualityManager::NotifyTopology","NotifyTopology","NotifyTopology method [Media Foundation]","NotifyTopology method [Media Foundation]","IMFQualityManager interface","mf.imfqualitymanager_notifytopology","mfidl/IMFQualityManager::NotifyTopology"]
+description: Called when the Media Session is about to start playing a new topology.
+helpviewer_keywords: ["5ff6d923-4a83-401a-a0de-0b1a732c31a5","IMFQualityManager interface [Media Foundation]","NotifyTopology method","IMFQualityManager.NotifyTopology","IMFQualityManager::NotifyTopology","NotifyTopology","NotifyTopology method [Media Foundation]","NotifyTopology method [Media Foundation]","IMFQualityManager interface","mf.imfqualitymanager_notifytopology","mfidl/IMFQualityManager::NotifyTopology"]
 old-location: mf\imfqualitymanager_notifytopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5ff6d923-4a83-401a-a0de-0b1a732c31a5
 ms.date: 12/05/2018
 ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager interface [Media Foundation],NotifyTopology method, IMFQualityManager.NotifyTopology, IMFQualityManager::NotifyTopology, NotifyTopology, NotifyTopology method [Media Foundation], NotifyTopology method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifytopology, mfidl/IMFQualityManager::NotifyTopology

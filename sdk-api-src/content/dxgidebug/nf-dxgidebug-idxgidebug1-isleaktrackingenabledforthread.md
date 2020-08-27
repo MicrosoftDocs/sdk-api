@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.IsLeakTrackingEnabledForThread
 title: IDXGIDebug1::IsLeakTrackingEnabledForThread (dxgidebug.h)
-description: Gets a value indicating whether leak tracking is turned on for the current thread.helpviewer_keywords: ["IDXGIDebug1 interface [DXGI]","IsLeakTrackingEnabledForThread method","IDXGIDebug1.IsLeakTrackingEnabledForThread","IDXGIDebug1::IsLeakTrackingEnabledForThread","IsLeakTrackingEnabledForThread","IsLeakTrackingEnabledForThread method [DXGI]","IsLeakTrackingEnabledForThread method [DXGI]","IDXGIDebug1 interface","direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread","dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread"]
+description: Gets a value indicating whether leak tracking is turned on for the current thread.
+helpviewer_keywords: ["IDXGIDebug1 interface [DXGI]","IsLeakTrackingEnabledForThread method","IDXGIDebug1.IsLeakTrackingEnabledForThread","IDXGIDebug1::IsLeakTrackingEnabledForThread","IsLeakTrackingEnabledForThread","IsLeakTrackingEnabledForThread method [DXGI]","IsLeakTrackingEnabledForThread method [DXGI]","IDXGIDebug1 interface","direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread","dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread"]
 old-location: direct3ddxgi\idxgidebug1_isleaktrackingenabledforthread.htm
 tech.root: direct3ddxgi
 ms.assetid: ACC57DDE-F019-415F-AAFA-E56ACE4F4197

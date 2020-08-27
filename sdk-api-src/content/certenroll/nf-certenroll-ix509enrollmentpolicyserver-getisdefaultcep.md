@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetIsDefaultCEP
 title: IX509EnrollmentPolicyServer::GetIsDefaultCEP (certenroll.h)
-description: Retrieves a Boolean value that specifies whether this is the default certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetIsDefaultCEP","GetIsDefaultCEP method [Security]","GetIsDefaultCEP method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetIsDefaultCEP method","IX509EnrollmentPolicyServer.GetIsDefaultCEP","IX509EnrollmentPolicyServer::GetIsDefaultCEP","certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP","security.ix509enrollmentpolicyserver_getisdefaultcep"]
+description: Retrieves a Boolean value that specifies whether this is the default certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["GetIsDefaultCEP","GetIsDefaultCEP method [Security]","GetIsDefaultCEP method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetIsDefaultCEP method","IX509EnrollmentPolicyServer.GetIsDefaultCEP","IX509EnrollmentPolicyServer::GetIsDefaultCEP","certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP","security.ix509enrollmentpolicyserver_getisdefaultcep"]
 old-location: security\ix509enrollmentpolicyserver_getisdefaultcep.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9c84993b-5d08-45c1-8139-458b047028aa
 ms.date: 12/05/2018
 ms.keywords: GetIsDefaultCEP, GetIsDefaultCEP method [Security], GetIsDefaultCEP method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetIsDefaultCEP method, IX509EnrollmentPolicyServer.GetIsDefaultCEP, IX509EnrollmentPolicyServer::GetIsDefaultCEP, certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP, security.ix509enrollmentpolicyserver_getisdefaultcep

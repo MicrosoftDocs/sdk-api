@@ -1,9 +1,10 @@
 ---
 UID: NE:mfapi._MFVideo3DSampleFormat
 title: MFVideo3DSampleFormat (mfapi.h)
-description: Specifies how a 3D video frame is stored in a media sample.helpviewer_keywords: ["MFSampleExtension_3DVideo_MultiView","MFSampleExtension_3DVideo_Packed","MFVideo3DSampleFormat","MFVideo3DSampleFormat enumeration [Media Foundation]","mf.mfvideo3dsampleformat","mfapi/MFSampleExtension_3DVideo_MultiView","mfapi/MFSampleExtension_3DVideo_Packed","mfapi/MFVideo3DSampleFormat"]
+description: Specifies how a 3D video frame is stored in a media sample.
+helpviewer_keywords: ["MFSampleExtension_3DVideo_MultiView","MFSampleExtension_3DVideo_Packed","MFVideo3DSampleFormat","MFVideo3DSampleFormat enumeration [Media Foundation]","mf.mfvideo3dsampleformat","mfapi/MFSampleExtension_3DVideo_MultiView","mfapi/MFSampleExtension_3DVideo_Packed","mfapi/MFVideo3DSampleFormat"]
 old-location: mf\mfvideo3dsampleformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4EC788EC-85C9-41B2-A105-3B6EA040F2B7
 ms.date: 12/05/2018
 ms.keywords: MFSampleExtension_3DVideo_MultiView, MFSampleExtension_3DVideo_Packed, MFVideo3DSampleFormat, MFVideo3DSampleFormat enumeration [Media Foundation], mf.mfvideo3dsampleformat, mfapi/MFSampleExtension_3DVideo_MultiView, mfapi/MFSampleExtension_3DVideo_Packed, mfapi/MFVideo3DSampleFormat

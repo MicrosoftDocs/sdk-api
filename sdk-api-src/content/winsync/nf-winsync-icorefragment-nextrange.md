@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ICoreFragment.NextRange
 title: ICoreFragment::NextRange (winsync.h)
-description: Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.helpviewer_keywords: ["ICoreFragment interface [Windows Sync]","NextRange method","ICoreFragment.NextRange","ICoreFragment::NextRange","NextRange","NextRange method [Windows Sync]","NextRange method [Windows Sync]","ICoreFragment interface","winsync.icorefragment_nextrange","winsync/ICoreFragment::NextRange"]
+description: Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.
+helpviewer_keywords: ["ICoreFragment interface [Windows Sync]","NextRange method","ICoreFragment.NextRange","ICoreFragment::NextRange","NextRange","NextRange method [Windows Sync]","NextRange method [Windows Sync]","ICoreFragment interface","winsync.icorefragment_nextrange","winsync/ICoreFragment::NextRange"]
 old-location: winsync\icorefragment_nextrange.htm
 tech.root: winsync
 ms.assetid: 25cfd4f5-2ff1-47eb-8cc0-17e17efa4ec2

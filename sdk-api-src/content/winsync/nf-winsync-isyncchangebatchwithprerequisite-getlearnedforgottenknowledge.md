@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge
 title: ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge (winsync.h)
-description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.helpviewer_keywords: ["GetLearnedForgottenKnowledge","GetLearnedForgottenKnowledge method [Windows Sync]","GetLearnedForgottenKnowledge method [Windows Sync]","ISyncChangeBatchWithPrerequisite interface","ISyncChangeBatchWithPrerequisite interface [Windows Sync]","GetLearnedForgottenKnowledge method","ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge","ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge","winsync.isyncchangebatchwithprerequisite_getlearnedforgottenknowledge","winsync/ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge"]
+description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.
+helpviewer_keywords: ["GetLearnedForgottenKnowledge","GetLearnedForgottenKnowledge method [Windows Sync]","GetLearnedForgottenKnowledge method [Windows Sync]","ISyncChangeBatchWithPrerequisite interface","ISyncChangeBatchWithPrerequisite interface [Windows Sync]","GetLearnedForgottenKnowledge method","ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge","ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge","winsync.isyncchangebatchwithprerequisite_getlearnedforgottenknowledge","winsync/ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge"]
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 4e7a9f72-7d5e-4ef8-824a-d7623b71cfb5

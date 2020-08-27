@@ -1,9 +1,10 @@
 ---
 UID: NS:wmiutils.tag_SWbemAssocQueryInf
 title: SWbemAssocQueryInf (wmiutils.h)
-description: Contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_ASSOC_QUERY analysis type.helpviewer_keywords: ["SWbemAssocQueryInf","SWbemAssocQueryInf structure [Windows Management Instrumentation]","WMIQ_ASSOCQ_ASSOCCLASS","WMIQ_ASSOCQ_ASSOCIATORS","WMIQ_ASSOCQ_CLASSDEFONLY","WMIQ_ASSOCQ_CLASSREFSONLY","WMIQ_ASSOCQ_KEYSONLY","WMIQ_ASSOCQ_REFERENCES","WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER","WMIQ_ASSOCQ_REQUIREDQUALIFIER","WMIQ_ASSOCQ_RESULTCLASS","WMIQ_ASSOCQ_RESULTROLE","WMIQ_ASSOCQ_ROLE","WMIQ_ASSOCQ_SCHEMAONLY","wmi.swbemassocqueryinf","wmiutils/SWbemAssocQueryInf"]
+description: Contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_ASSOC_QUERY analysis type.
+helpviewer_keywords: ["SWbemAssocQueryInf","SWbemAssocQueryInf structure [Windows Management Instrumentation]","WMIQ_ASSOCQ_ASSOCCLASS","WMIQ_ASSOCQ_ASSOCIATORS","WMIQ_ASSOCQ_CLASSDEFONLY","WMIQ_ASSOCQ_CLASSREFSONLY","WMIQ_ASSOCQ_KEYSONLY","WMIQ_ASSOCQ_REFERENCES","WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER","WMIQ_ASSOCQ_REQUIREDQUALIFIER","WMIQ_ASSOCQ_RESULTCLASS","WMIQ_ASSOCQ_RESULTROLE","WMIQ_ASSOCQ_ROLE","WMIQ_ASSOCQ_SCHEMAONLY","wmi.swbemassocqueryinf","wmiutils/SWbemAssocQueryInf"]
 old-location: wmi\swbemassocqueryinf.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8312b324-a698-4957-bd76-3129398e4886
 ms.date: 12/05/2018
 ms.keywords: SWbemAssocQueryInf, SWbemAssocQueryInf structure [Windows Management Instrumentation], WMIQ_ASSOCQ_ASSOCCLASS, WMIQ_ASSOCQ_ASSOCIATORS, WMIQ_ASSOCQ_CLASSDEFONLY, WMIQ_ASSOCQ_CLASSREFSONLY, WMIQ_ASSOCQ_KEYSONLY, WMIQ_ASSOCQ_REFERENCES, WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER, WMIQ_ASSOCQ_REQUIREDQUALIFIER, WMIQ_ASSOCQ_RESULTCLASS, WMIQ_ASSOCQ_RESULTROLE, WMIQ_ASSOCQ_ROLE, WMIQ_ASSOCQ_SCHEMAONLY, wmi.swbemassocqueryinf, wmiutils/SWbemAssocQueryInf

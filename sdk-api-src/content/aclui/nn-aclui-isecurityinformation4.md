@@ -1,9 +1,10 @@
 ---
 UID: NN:aclui.ISecurityInformation4
 title: ISecurityInformation4 (aclui.h)
-description: Enables the access control editor (ACE) to obtain the share's security descriptor to initialize the share page.helpviewer_keywords: ["ISecurityInformation4","ISecurityInformation4 interface [Security]","ISecurityInformation4 interface [Security]","described","aclui/ISecurityInformation4","security.isecurityinformation4"]
+description: Enables the access control editor (ACE) to obtain the share's security descriptor to initialize the share page.
+helpviewer_keywords: ["ISecurityInformation4","ISecurityInformation4 interface [Security]","ISecurityInformation4 interface [Security]","described","aclui/ISecurityInformation4","security.isecurityinformation4"]
 old-location: security\isecurityinformation4.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: F7AD3612-5D66-49DB-81EF-040849D32CB4
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation4, ISecurityInformation4 interface [Security], ISecurityInformation4 interface [Security],described, aclui/ISecurityInformation4, security.isecurityinformation4

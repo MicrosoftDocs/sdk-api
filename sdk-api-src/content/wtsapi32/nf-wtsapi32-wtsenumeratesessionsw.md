@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsW
 title: WTSEnumerateSessionsW function (wtsapi32.h)
-description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["WTSEnumerateSessions","WTSEnumerateSessions function [Remote Desktop Services]","WTSEnumerateSessionsA","WTSEnumerateSessionsW","_win32_wtsenumeratesessions","termserv.wtsenumeratesessions","wtsapi32/WTSEnumerateSessions","wtsapi32/WTSEnumerateSessionsA","wtsapi32/WTSEnumerateSessionsW"]
+description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server.
+helpviewer_keywords: ["WTSEnumerateSessions","WTSEnumerateSessions function [Remote Desktop Services]","WTSEnumerateSessionsA","WTSEnumerateSessionsW","_win32_wtsenumeratesessions","termserv.wtsenumeratesessions","wtsapi32/WTSEnumerateSessions","wtsapi32/WTSEnumerateSessionsA","wtsapi32/WTSEnumerateSessionsW"]
 old-location: termserv\wtsenumeratesessions.htm
 tech.root: TermServ
 ms.assetid: 6f9dd7d4-48dc-411c-85f1-cd1239d1e106
@@ -118,6 +119,10 @@ For more information, and an extended example on how to use this function, see t
 
 
 
+
+
+> [!NOTE]
+> The wtsapi32.h header defines WTSEnumerateSessions as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

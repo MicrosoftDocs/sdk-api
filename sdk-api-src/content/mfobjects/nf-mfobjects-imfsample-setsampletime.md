@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleTime
 title: IMFSample::SetSampleTime (mfobjects.h)
-description: Sets the presentation time of the sample.helpviewer_keywords: ["59d32002-2f5c-4a94-bd09-fd5a2c005ffc","IMFSample interface [Media Foundation]","SetSampleTime method","IMFSample.SetSampleTime","IMFSample::SetSampleTime","SetSampleTime","SetSampleTime method [Media Foundation]","SetSampleTime method [Media Foundation]","IMFSample interface","mf.imfsample_setsampletime","mfobjects/IMFSample::SetSampleTime"]
+description: Sets the presentation time of the sample.
+helpviewer_keywords: ["59d32002-2f5c-4a94-bd09-fd5a2c005ffc","IMFSample interface [Media Foundation]","SetSampleTime method","IMFSample.SetSampleTime","IMFSample::SetSampleTime","SetSampleTime","SetSampleTime method [Media Foundation]","SetSampleTime method [Media Foundation]","IMFSample interface","mf.imfsample_setsampletime","mfobjects/IMFSample::SetSampleTime"]
 old-location: mf\imfsample_setsampletime.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
 ms.date: 12/05/2018
 ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample interface [Media Foundation],SetSampleTime method, IMFSample.SetSampleTime, IMFSample::SetSampleTime, SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation],IMFSample interface, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime

@@ -1,7 +1,8 @@
 ---
 UID: NS:nb30._SESSION_BUFFER
 title: SESSION_BUFFER (nb30.h)
-description: The SESSION_BUFFER structure contains information about a local network session. One or more SESSION_BUFFER structures follows a SESSION_HEADER structure when an application specifies the NCBSSTAT command in the ncb_command member of the NCB structure.helpviewer_keywords: ["*PSESSION_BUFFER","CALL_PENDING","HANGUP_COMPLETE","HANGUP_PENDING","LISTEN_OUTSTANDING","PSESSION_BUFFER","PSESSION_BUFFER structure pointer [NetBIOS]","SESSION_ABORTED","SESSION_BUFFER","SESSION_BUFFER structure [NetBIOS]","SESSION_ESTABLISHED","nb30/PSESSION_BUFFER","nb30/SESSION_BUFFER","netbios.session_buffer"]
+description: The SESSION_BUFFER structure contains information about a local network session. One or more SESSION_BUFFER structures follows a SESSION_HEADER structure when an application specifies the NCBSSTAT command in the ncb_command member of the NCB structure.
+helpviewer_keywords: ["*PSESSION_BUFFER","CALL_PENDING","HANGUP_COMPLETE","HANGUP_PENDING","LISTEN_OUTSTANDING","PSESSION_BUFFER","PSESSION_BUFFER structure pointer [NetBIOS]","SESSION_ABORTED","SESSION_BUFFER","SESSION_BUFFER structure [NetBIOS]","SESSION_ESTABLISHED","nb30/PSESSION_BUFFER","nb30/SESSION_BUFFER","netbios.session_buffer"]
 old-location: netbios\session_buffer.htm
 tech.root: NetBIOS
 ms.assetid: 29352074-3dff-430f-82fb-6f7fd0b2966a
@@ -159,7 +160,7 @@ Specifies the number of pending <b>NCBRECV</b> commands.
 Specifies the number of pending <b>NCBSEND</b> and <b>NCBCHAINSEND</b> commands.
 
 
-#### - Remote_name
+### -field Remote_name
 
 Specifies the 16-byte NetBIOS name on the remote computer used for this session.
 

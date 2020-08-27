@@ -1,9 +1,10 @@
 ---
 UID: NS:tapi.linemediacontroltone_tag
 title: LINEMEDIACONTROLTONE (tapi.h)
-description: The LINEMEDIACONTROLTONE structure describes a media action to be executed when a tone has been detected. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.helpviewer_keywords: ["*LPLINEMEDIACONTROLTONE","LINEMEDIACONTROLTONE","LINEMEDIACONTROLTONE structure [TAPI 2.2]","LPLINEMEDIACONTROLTONE","LPLINEMEDIACONTROLTONE structure pointer [TAPI 2.2]","_tapi2_linemediacontroltone_str","tapi/LINEMEDIACONTROLTONE","tapi/LPLINEMEDIACONTROLTONE","tapi2.linemediacontroltone_str"]
+description: The LINEMEDIACONTROLTONE structure describes a media action to be executed when a tone has been detected. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
+helpviewer_keywords: ["*LPLINEMEDIACONTROLTONE","LINEMEDIACONTROLTONE","LINEMEDIACONTROLTONE structure [TAPI 2.2]","LPLINEMEDIACONTROLTONE","LPLINEMEDIACONTROLTONE structure pointer [TAPI 2.2]","_tapi2_linemediacontroltone_str","tapi/LINEMEDIACONTROLTONE","tapi/LPLINEMEDIACONTROLTONE","tapi2.linemediacontroltone_str"]
 old-location: tapi2\linemediacontroltone_str.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0513d580-aaf1-412c-adbf-9342b74025ee
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE structure [TAPI 2.2], LPLINEMEDIACONTROLTONE, LPLINEMEDIACONTROLTONE structure pointer [TAPI 2.2], _tapi2_linemediacontroltone_str, tapi/LINEMEDIACONTROLTONE, tapi/LPLINEMEDIACONTROLTONE, tapi2.linemediacontroltone_str'

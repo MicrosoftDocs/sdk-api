@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathFindSuffixArrayA
 title: PathFindSuffixArrayA function (shlwapi.h)
-description: Determines whether a given file name has one of a list of suffixes.helpviewer_keywords: ["PathFindSuffixArray","PathFindSuffixArray function [Windows Shell]","PathFindSuffixArrayA","PathFindSuffixArrayW","_win32_PathFindSuffixArray","shell.PathFindSuffixArray","shlwapi/PathFindSuffixArray","shlwapi/PathFindSuffixArrayA","shlwapi/PathFindSuffixArrayW"]
+description: Determines whether a given file name has one of a list of suffixes.
+helpviewer_keywords: ["PathFindSuffixArray","PathFindSuffixArray function [Windows Shell]","PathFindSuffixArrayA","PathFindSuffixArrayW","_win32_PathFindSuffixArray","shell.PathFindSuffixArray","shlwapi/PathFindSuffixArray","shlwapi/PathFindSuffixArrayA","shlwapi/PathFindSuffixArrayW"]
 old-location: shell\PathFindSuffixArray.htm
 tech.root: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0
@@ -101,4 +102,8 @@ Returns a pointer to a string with the matching suffix if successful, or <b>NULL
 This function uses a case-sensitive comparison. The suffix must match exactly.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathFindSuffixArray as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

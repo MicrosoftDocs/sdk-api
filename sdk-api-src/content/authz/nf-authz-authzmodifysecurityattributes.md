@@ -1,9 +1,10 @@
 ---
 UID: NF:authz.AuthzModifySecurityAttributes
 title: AuthzModifySecurityAttributes function (authz.h)
-description: Modifies the security attribute information in the specified client context.helpviewer_keywords: ["AuthzModifySecurityAttributes","AuthzModifySecurityAttributes function [Security]","authz/AuthzModifySecurityAttributes","security.authzmodifysecurityattributes"]
+description: Modifies the security attribute information in the specified client context.
+helpviewer_keywords: ["AuthzModifySecurityAttributes","AuthzModifySecurityAttributes function [Security]","authz/AuthzModifySecurityAttributes","security.authzmodifysecurityattributes"]
 old-location: security\authzmodifysecurityattributes.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.date: 12/05/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes

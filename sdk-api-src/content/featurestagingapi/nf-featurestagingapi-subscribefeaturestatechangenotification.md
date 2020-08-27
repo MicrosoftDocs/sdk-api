@@ -1,9 +1,10 @@
 ---
 UID: NF:featurestagingapi.SubscribeFeatureStateChangeNotification
 title: SubscribeFeatureStateChangeNotification function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.helpviewer_keywords: ["SubscribeFeatureStateChangeNotification","SubscribeFeatureStateChangeNotification function [Windows API]","featurestagingapi/SubscribeFeatureStateChangeNotification","winprog.subscribefeaturestatechangenotification"]
+description: This function is intended for infrastructure use only.
+helpviewer_keywords: ["SubscribeFeatureStateChangeNotification","SubscribeFeatureStateChangeNotification function [Windows API]","featurestagingapi/SubscribeFeatureStateChangeNotification","winprog.subscribefeaturestatechangenotification"]
 old-location: winprog\subscribefeaturestatechangenotification.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 92FABC45-752D-4265-AA21-6A13A15CB64B
 ms.date: 12/05/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification

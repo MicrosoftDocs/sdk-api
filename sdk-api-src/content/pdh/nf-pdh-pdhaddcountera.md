@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhAddCounterA
 title: PdhAddCounterA function (pdh.h)
-description: Adds the specified counter to the query.helpviewer_keywords: ["PdhAddCounter","PdhAddCounter function [Perf]","PdhAddCounterA","PdhAddCounterW","_win32_pdhaddcounter","base.pdhaddcounter","pdh/PdhAddCounter","pdh/PdhAddCounterA","pdh/PdhAddCounterW","perf.pdhaddcounter"]
+description: Adds the specified counter to the query.
+helpviewer_keywords: ["PdhAddCounter","PdhAddCounter function [Perf]","PdhAddCounterA","PdhAddCounterW","_win32_pdhaddcounter","base.pdhaddcounter","pdh/PdhAddCounter","pdh/PdhAddCounterA","pdh/PdhAddCounterW","perf.pdhaddcounter"]
 old-location: perf\pdhaddcounter.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: b8b9a332-ce28-46d4-92e2-91f9f6c24da5
 ms.date: 12/05/2018
 ms.keywords: PdhAddCounter, PdhAddCounter function [Perf], PdhAddCounterA, PdhAddCounterW, _win32_pdhaddcounter, base.pdhaddcounter, pdh/PdhAddCounter, pdh/PdhAddCounterA, pdh/PdhAddCounterW, perf.pdhaddcounter
@@ -225,6 +226,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhAddCounter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

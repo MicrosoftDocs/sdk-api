@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSolidColorBrush
 title: IXpsOMSolidColorBrush (xpsobjectmodel.h)
-description: A single-color brush.helpviewer_keywords: ["IXpsOMSolidColorBrush","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","described","xps.ixpsomsolidcolorbrush","xpsobjectmodel/IXpsOMSolidColorBrush"]
+description: A single-color brush.
+helpviewer_keywords: ["IXpsOMSolidColorBrush","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","described","xps.ixpsomsolidcolorbrush","xpsobjectmodel/IXpsOMSolidColorBrush"]
 old-location: xps\ixpsomsolidcolorbrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 26580a25-09d1-4a9b-85c3-aa8ddcc97867
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documents and Packaging], IXpsOMSolidColorBrush interface [XPS Documents and Packaging],described, xps.ixpsomsolidcolorbrush, xpsobjectmodel/IXpsOMSolidColorBrush

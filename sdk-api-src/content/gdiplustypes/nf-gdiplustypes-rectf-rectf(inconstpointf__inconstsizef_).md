@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplustypes.RectF.RectF(IN const PointF &,IN const SizeF &)
+UID: NF:gdiplustypes.RectF.RectF(INconstPointF&,INconstSizeF&)
 title: RectF::RectF(IN const PointF &,IN const SizeF &) (gdiplustypes.h)
-description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.helpviewer_keywords: ["RectF","RectF class [GDI+]","RectF constructor","RectF constructor [GDI+]","RectF constructor [GDI+]","RectF class","RectF.RectF","RectF.RectF()","RectF.RectF(IN const PointF &","IN const SizeF &)","RectF::RectF","RectF::RectF(IN const PointF &","IN const SizeF &)","_gdiplus_CLASS_RectF_RectF_","gdiplus._gdiplus_CLASS_RectF_RectF_"]
+description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.
+helpviewer_keywords: ["RectF","RectF class [GDI+]","RectF constructor","RectF constructor [GDI+]","RectF constructor [GDI+]","RectF class","RectF.RectF","RectF.RectF()","RectF.RectF(IN const PointF &","IN const SizeF &)","RectF::RectF","RectF::RectF(IN const PointF &","IN const SizeF &)","_gdiplus_CLASS_RectF_RectF_","gdiplus._gdiplus_CLASS_RectF_RectF_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_42.htm

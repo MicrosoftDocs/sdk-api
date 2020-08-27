@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.PrivilegeCheck
 title: PrivilegeCheck function (securitybaseapi.h)
-description: Determines whether a specified set of privileges are enabled in an access token.helpviewer_keywords: ["PrivilegeCheck","PrivilegeCheck function [Security]","_win32_privilegecheck","security.privilegecheck","securitybaseapi/PrivilegeCheck"]
+description: Determines whether a specified set of privileges are enabled in an access token.
+helpviewer_keywords: ["PrivilegeCheck","PrivilegeCheck function [Security]","_win32_privilegecheck","security.privilegecheck","securitybaseapi/PrivilegeCheck"]
 old-location: security\privilegecheck.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a73d934a-1abf-4e60-bf0a-6c4629f28f7a
 ms.date: 12/05/2018
 ms.keywords: PrivilegeCheck, PrivilegeCheck function [Security], _win32_privilegecheck, security.privilegecheck, securitybaseapi/PrivilegeCheck

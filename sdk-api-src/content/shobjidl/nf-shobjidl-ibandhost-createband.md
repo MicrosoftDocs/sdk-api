@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IBandHost.CreateBand
 title: IBandHost::CreateBand (shobjidl.h)
-description: Creates a specified band.helpviewer_keywords: ["CreateBand","CreateBand method [Windows Shell]","CreateBand method [Windows Shell]","IBandHost interface","IBandHost interface [Windows Shell]","CreateBand method","IBandHost.CreateBand","IBandHost::CreateBand","_shell_IBandHost_CreateBand","shell.IBandHost_CreateBand","shobjidl/IBandHost::CreateBand"]
+description: Creates a specified band.
+helpviewer_keywords: ["CreateBand","CreateBand method [Windows Shell]","CreateBand method [Windows Shell]","IBandHost interface","IBandHost interface [Windows Shell]","CreateBand method","IBandHost.CreateBand","IBandHost::CreateBand","_shell_IBandHost_CreateBand","shell.IBandHost_CreateBand","shobjidl/IBandHost::CreateBand"]
 old-location: shell\IBandHost_CreateBand.htm
 tech.root: shell
 ms.assetid: 7edf8d46-f925-4c4f-99b1-e792dce69222

@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._PUBKEYVER3
 title: DHPUBKEY_VER3 (wincrypt.h)
-description: Contains information specific to the particular public key contained in the key BLOB.helpviewer_keywords: ["DHPUBKEY_VER3","DHPUBKEY_VER3 structure [Security]","DSSPUBKEY_VER3","_PUBKEYVER3","_crypto2_dhpubkey_ver3","security.dhpubkey_ver3","wincrypt/DHPUBKEY_VER3"]
+description: Contains information specific to the particular public key contained in the key BLOB.
+helpviewer_keywords: ["DHPUBKEY_VER3","DHPUBKEY_VER3 structure [Security]","DSSPUBKEY_VER3","_PUBKEYVER3","_crypto2_dhpubkey_ver3","security.dhpubkey_ver3","wincrypt/DHPUBKEY_VER3"]
 old-location: security\dhpubkey_ver3.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 02f702dd-be9d-4a9a-a3af-4db1802386b0
 ms.date: 12/05/2018
 ms.keywords: DHPUBKEY_VER3, DHPUBKEY_VER3 structure [Security], DSSPUBKEY_VER3, _PUBKEYVER3, _crypto2_dhpubkey_ver3, security.dhpubkey_ver3, wincrypt/DHPUBKEY_VER3

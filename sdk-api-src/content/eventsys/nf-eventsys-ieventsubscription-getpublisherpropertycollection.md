@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherPropertyCollection
 title: IEventSubscription::GetPublisherPropertyCollection (eventsys.h)
-description: Retrieves a collection of properties and values stored in the publisher property bag.helpviewer_keywords: ["GetPublisherPropertyCollection","GetPublisherPropertyCollection method [COM+]","GetPublisherPropertyCollection method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetPublisherPropertyCollection method","IEventSubscription.GetPublisherPropertyCollection","IEventSubscription::GetPublisherPropertyCollection","_cos_IEventSubscription_GetPublisherPropertyCollection","cos.ieventsubscription_getpublisherpropertycollection","eventsys/IEventSubscription::GetPublisherPropertyCollection"]
+description: Retrieves a collection of properties and values stored in the publisher property bag.
+helpviewer_keywords: ["GetPublisherPropertyCollection","GetPublisherPropertyCollection method [COM+]","GetPublisherPropertyCollection method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetPublisherPropertyCollection method","IEventSubscription.GetPublisherPropertyCollection","IEventSubscription::GetPublisherPropertyCollection","_cos_IEventSubscription_GetPublisherPropertyCollection","cos.ieventsubscription_getpublisherpropertycollection","eventsys/IEventSubscription::GetPublisherPropertyCollection"]
 old-location: cos\ieventsubscription_getpublisherpropertycollection.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d59b46bc-cfc4-400b-8b91-6d0f68f8d9b3
 ms.date: 12/05/2018
 ms.keywords: GetPublisherPropertyCollection, GetPublisherPropertyCollection method [COM+], GetPublisherPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherPropertyCollection method, IEventSubscription.GetPublisherPropertyCollection, IEventSubscription::GetPublisherPropertyCollection, _cos_IEventSubscription_GetPublisherPropertyCollection, cos.ieventsubscription_getpublisherpropertycollection, eventsys/IEventSubscription::GetPublisherPropertyCollection

@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpLsaModeInitializeFn
 title: SpLsaModeInitializeFn (ntsecpkg.h)
-description: Provides the LSA with pointers to the functions implemented by each security package in the SSP/AP DLL.helpviewer_keywords: ["SpLsaModeInitialize","SpLsaModeInitialize callback function [Security]","SpLsaModeInitializeFn","SpLsaModeInitializeFn callback","_ssp_splsamodeinitialize","ntsecpkg/SpLsaModeInitialize","security.splsamodeinitialize"]
+description: Provides the LSA with pointers to the functions implemented by each security package in the SSP/AP DLL.
+helpviewer_keywords: ["SpLsaModeInitialize","SpLsaModeInitialize callback function [Security]","SpLsaModeInitializeFn","SpLsaModeInitializeFn callback","_ssp_splsamodeinitialize","ntsecpkg/SpLsaModeInitialize","security.splsamodeinitialize"]
 old-location: security\splsamodeinitialize.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1ef3770b-197f-4d5b-9933-b7f6f63e5627
 ms.date: 12/05/2018
 ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize callback function [Security], SpLsaModeInitializeFn, SpLsaModeInitializeFn callback, _ssp_splsamodeinitialize, ntsecpkg/SpLsaModeInitialize, security.splsamodeinitialize

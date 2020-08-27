@@ -1,9 +1,10 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_VALUE
 title: CRYPT_XML_KEY_VALUE (cryptxml.h)
-description: Contains a single public key that may be useful in validating the signature.helpviewer_keywords: ["CRYPT_XML_KEY_VALUE","CRYPT_XML_KEY_VALUE structure [Security]","CRYPT_XML_KEY_VALUE_TYPE_CUSTOM","CRYPT_XML_KEY_VALUE_TYPE_DSA","CRYPT_XML_KEY_VALUE_TYPE_ECDSA","CRYPT_XML_KEY_VALUE_TYPE_RSA","cryptxml/CRYPT_XML_KEY_VALUE","security.crypt_xml_key_value"]
+description: Contains a single public key that may be useful in validating the signature.
+helpviewer_keywords: ["CRYPT_XML_KEY_VALUE","CRYPT_XML_KEY_VALUE structure [Security]","CRYPT_XML_KEY_VALUE_TYPE_CUSTOM","CRYPT_XML_KEY_VALUE_TYPE_DSA","CRYPT_XML_KEY_VALUE_TYPE_ECDSA","CRYPT_XML_KEY_VALUE_TYPE_RSA","cryptxml/CRYPT_XML_KEY_VALUE","security.crypt_xml_key_value"]
 old-location: security\crypt_xml_key_value.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7aadd268-41bc-4ba3-babb-2ca7b13f378b
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_VALUE, CRYPT_XML_KEY_VALUE structure [Security], CRYPT_XML_KEY_VALUE_TYPE_CUSTOM, CRYPT_XML_KEY_VALUE_TYPE_DSA, CRYPT_XML_KEY_VALUE_TYPE_ECDSA, CRYPT_XML_KEY_VALUE_TYPE_RSA, cryptxml/CRYPT_XML_KEY_VALUE, security.crypt_xml_key_value

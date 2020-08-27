@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlockCollection.GetCount
 title: IXpsSignatureBlockCollection::GetCount (xpsdigitalsignature.h)
-description: Gets the number of IXpsSignatureBlock interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsSignatureBlockCollection interface","IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","GetCount method","IXpsSignatureBlockCollection.GetCount","IXpsSignatureBlockCollection::GetCount","xps.ixpssignatureblockcollection_getcount","xpsdigitalsignature/IXpsSignatureBlockCollection::GetCount"]
+description: Gets the number of IXpsSignatureBlock interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsSignatureBlockCollection interface","IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","GetCount method","IXpsSignatureBlockCollection.GetCount","IXpsSignatureBlockCollection::GetCount","xps.ixpssignatureblockcollection_getcount","xpsdigitalsignature/IXpsSignatureBlockCollection::GetCount"]
 old-location: xps\ixpssignatureblockcollection_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d748e974-7350-44cd-9599-111f402d20e2
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, IXpsSignatureBlockCollection interface [XPS Documents and Packaging],GetCount method, IXpsSignatureBlockCollection.GetCount, IXpsSignatureBlockCollection::GetCount, xps.ixpssignatureblockcollection_getcount, xpsdigitalsignature/IXpsSignatureBlockCollection::GetCount

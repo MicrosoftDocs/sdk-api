@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.GetResultPropertyList
 title: GetResultPropertyList function (recapis.h)
-description: Retrieves a list of properties the recognizer can return for a result range.helpviewer_keywords: ["GetResultPropertyList","GetResultPropertyList function [Tablet PC]","e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65","recapis/GetResultPropertyList","tablet.getresultpropertylist"]
+description: Retrieves a list of properties the recognizer can return for a result range.
+helpviewer_keywords: ["GetResultPropertyList","GetResultPropertyList function [Tablet PC]","e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65","recapis/GetResultPropertyList","tablet.getresultpropertylist"]
 old-location: tablet\getresultpropertylist.htm
 tech.root: tablet
 ms.assetid: e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65

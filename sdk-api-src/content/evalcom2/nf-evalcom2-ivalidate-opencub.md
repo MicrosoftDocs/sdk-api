@@ -1,9 +1,10 @@
 ---
 UID: NF:evalcom2.IValidate.OpenCUB
 title: IValidate::OpenCUB (evalcom2.h)
-description: The OpenCUB method opens an Internal Consistency Evaluator (ICE) file that is to be used for validation.helpviewer_keywords: ["IValidate interface","OpenCUB method","IValidate.OpenCUB","IValidate::OpenCUB","OpenCUB","OpenCUB method","OpenCUB method","IValidate interface","evalcom2/IValidate::OpenCUB","setup.ivalidate_opencub"]
+description: The OpenCUB method opens an Internal Consistency Evaluator (ICE) file that is to be used for validation.
+helpviewer_keywords: ["IValidate interface","OpenCUB method","IValidate.OpenCUB","IValidate::OpenCUB","OpenCUB","OpenCUB method","OpenCUB method","IValidate interface","evalcom2/IValidate::OpenCUB","setup.ivalidate_opencub"]
 old-location: setup\ivalidate_opencub.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: cadf3c6e-6fbb-4d46-b9a8-4f2508f1e8bc
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,OpenCUB method, IValidate.OpenCUB, IValidate::OpenCUB, OpenCUB, OpenCUB method, OpenCUB method,IValidate interface, evalcom2/IValidate::OpenCUB, setup.ivalidate_opencub

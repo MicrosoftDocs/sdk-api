@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFNetCredential
 title: IMFNetCredential (mfidl.h)
-description: Sets and retrieves user-name and password information for authentication purposes.helpviewer_keywords: ["IMFNetCredential","IMFNetCredential interface [Media Foundation]","IMFNetCredential interface [Media Foundation]","described","d202e7bc-9ce0-4861-8552-5a4d599b1661","mf.imfnetcredential","mfidl/IMFNetCredential"]
+description: Sets and retrieves user-name and password information for authentication purposes.
+helpviewer_keywords: ["IMFNetCredential","IMFNetCredential interface [Media Foundation]","IMFNetCredential interface [Media Foundation]","described","d202e7bc-9ce0-4861-8552-5a4d599b1661","mf.imfnetcredential","mfidl/IMFNetCredential"]
 old-location: mf\imfnetcredential.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d202e7bc-9ce0-4861-8552-5a4d599b1661
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential

@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.NextAsync
 title: IEnumWbemClassObject::NextAsync (wbemcli.h)
-description: Use the NextAsync method when a controlled asynchronous retrieval of objects to a sink is required.helpviewer_keywords: ["IEnumWbemClassObject interface [Windows Management Instrumentation]","NextAsync method","IEnumWbemClassObject.NextAsync","IEnumWbemClassObject::NextAsync","NextAsync","NextAsync method [Windows Management Instrumentation]","NextAsync method [Windows Management Instrumentation]","IEnumWbemClassObject interface","_hmm_ienumwbemclassobject_nextasync","wbemcli/IEnumWbemClassObject::NextAsync","wmi.ienumwbemclassobject_nextasync"]
+description: Use the NextAsync method when a controlled asynchronous retrieval of objects to a sink is required.
+helpviewer_keywords: ["IEnumWbemClassObject interface [Windows Management Instrumentation]","NextAsync method","IEnumWbemClassObject.NextAsync","IEnumWbemClassObject::NextAsync","NextAsync","NextAsync method [Windows Management Instrumentation]","NextAsync method [Windows Management Instrumentation]","IEnumWbemClassObject interface","_hmm_ienumwbemclassobject_nextasync","wbemcli/IEnumWbemClassObject::NextAsync","wmi.ienumwbemclassobject_nextasync"]
 old-location: wmi\ienumwbemclassobject_nextasync.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 1ff82982-a2d7-4618-8488-9e4b7628012d
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],NextAsync method, IEnumWbemClassObject.NextAsync, IEnumWbemClassObject::NextAsync, NextAsync, NextAsync method [Windows Management Instrumentation], NextAsync method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_nextasync, wbemcli/IEnumWbemClassObject::NextAsync, wmi.ienumwbemclassobject_nextasync

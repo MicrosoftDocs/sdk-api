@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._FORMAT_EX_PARAMETERS
 title: FORMAT_EX_PARAMETERS
-description: Contains information used in formatting a contiguous set of disk tracks. It is used by the IOCTL_DISK_FORMAT_TRACKS_EX control code.helpviewer_keywords: ["*PFORMAT_EX_PARAMETERS","FORMAT_EX_PARAMETERS","FORMAT_EX_PARAMETERS structure [Files]","PFORMAT_EX_PARAMETERS","PFORMAT_EX_PARAMETERS structure pointer [Files]","_win32_format_ex_parameters_str","base.format_ex_parameters_str","fs.format_ex_parameters_str","winioctl/FORMAT_EX_PARAMETERS","winioctl/PFORMAT_EX_PARAMETERS"]
+description: Contains information used in formatting a contiguous set of disk tracks. It is used by the IOCTL_DISK_FORMAT_TRACKS_EX control code.
+helpviewer_keywords: ["*PFORMAT_EX_PARAMETERS","FORMAT_EX_PARAMETERS","FORMAT_EX_PARAMETERS structure [Files]","PFORMAT_EX_PARAMETERS","PFORMAT_EX_PARAMETERS structure pointer [Files]","_win32_format_ex_parameters_str","base.format_ex_parameters_str","fs.format_ex_parameters_str","winioctl/FORMAT_EX_PARAMETERS","winioctl/PFORMAT_EX_PARAMETERS"]
 old-location: fs\format_ex_parameters_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e508106c-a77a-476f-ba71-ea8f9a2d94d6
 ms.date: 12/05/2018
 ms.keywords: '*PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Files], PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Files], _win32_format_ex_parameters_str, base.format_ex_parameters_str, fs.format_ex_parameters_str, winioctl/FORMAT_EX_PARAMETERS, winioctl/PFORMAT_EX_PARAMETERS'

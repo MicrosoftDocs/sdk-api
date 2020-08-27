@@ -1,9 +1,10 @@
 ---
 UID: NC:winbase.PFE_EXPORT_FUNC
 title: PFE_EXPORT_FUNC (winbase.h)
-description: An application-defined callback function used with ReadEncryptedFileRaw.helpviewer_keywords: ["ExportCallback","ExportCallback callback","ExportCallback callback function [Files]","PFE_EXPORT_FUNC","PFE_EXPORT_FUNC callback function [Files]","base.exportcallback","fs.exportcallback","winbase/ExportCallback","winbase/PFE_EXPORT_FUNC"]
+description: An application-defined callback function used with ReadEncryptedFileRaw.
+helpviewer_keywords: ["ExportCallback","ExportCallback callback","ExportCallback callback function [Files]","PFE_EXPORT_FUNC","PFE_EXPORT_FUNC callback function [Files]","base.exportcallback","fs.exportcallback","winbase/ExportCallback","winbase/PFE_EXPORT_FUNC"]
 old-location: fs\exportcallback.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
 ms.date: 12/05/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC

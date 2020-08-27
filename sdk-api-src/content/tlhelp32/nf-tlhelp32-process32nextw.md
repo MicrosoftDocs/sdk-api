@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Process32NextW
 title: Process32NextW function (tlhelp32.h)
-description: Retrieves information about the next process recorded in a system snapshot.helpviewer_keywords: ["Process32Next","Process32Next function [ToolHelp]","Process32NextW","_win32_process32next","base.process32next","tlhelp32/Process32Next","tlhelp32/Process32NextW","toolhelp.process32next"]
+description: Retrieves information about the next process recorded in a system snapshot.
+helpviewer_keywords: ["Process32Next","Process32Next function [ToolHelp]","Process32NextW","_win32_process32next","base.process32next","tlhelp32/Process32Next","tlhelp32/Process32NextW","toolhelp.process32next"]
 old-location: toolhelp\process32next.htm
 tech.root: ToolHelp
 ms.assetid: 843a95fd-27ae-4215-83d0-82fc402b82b6
@@ -75,7 +76,7 @@ A handle to the snapshot returned from a previous call to the
 ### -param lppe [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a> structure.
 
 
 ## -returns
@@ -93,7 +94,7 @@ Returns <b>TRUE</b> if the next entry of the process list has been copied to the
 
 
 To retrieve information about the first process recorded in a snapshot, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32firstw">Process32FirstW</a> function.
 
 
 #### Examples
@@ -105,6 +106,10 @@ For an example, see
 
 
 
+
+> [!NOTE]
+> The tlhelp32.h header defines Process32Next as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -114,7 +119,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a>
 
 
 
@@ -122,7 +127,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32firstw">Process32FirstW</a>
 
 
 

@@ -1,9 +1,10 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_3
 title: DSAFIPSVERSION_ENUM (bcrypt.h)
-description: Contains FIPS version information.helpviewer_keywords: ["DSAFIPSVERSION_ENUM","DSAFIPSVERSION_ENUM enumeration [Security]","DSA_FIPS186_2","DSA_FIPS186_3","bcrypt/DSAFIPSVERSION_ENUM","bcrypt/DSA_FIPS186_2","bcrypt/DSA_FIPS186_3","security.dsafipsversion_enum"]
+description: Contains FIPS version information.
+helpviewer_keywords: ["DSAFIPSVERSION_ENUM","DSAFIPSVERSION_ENUM enumeration [Security]","DSA_FIPS186_2","DSA_FIPS186_3","bcrypt/DSAFIPSVERSION_ENUM","bcrypt/DSA_FIPS186_2","bcrypt/DSA_FIPS186_3","security.dsafipsversion_enum"]
 old-location: security\dsafipsversion_enum.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 6797D7C0-3451-464E-9261-61217ADAB9C1
 ms.date: 12/05/2018
 ms.keywords: DSAFIPSVERSION_ENUM, DSAFIPSVERSION_ENUM enumeration [Security], DSA_FIPS186_2, DSA_FIPS186_3, bcrypt/DSAFIPSVERSION_ENUM, bcrypt/DSA_FIPS186_2, bcrypt/DSA_FIPS186_3, security.dsafipsversion_enum

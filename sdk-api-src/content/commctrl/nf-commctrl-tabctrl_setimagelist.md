@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TabCtrl_SetImageList
 title: TabCtrl_SetImageList macro (commctrl.h)
-description: Assigns an image list to a tab control. You can use this macro or send the TCM_SETIMAGELIST message explicitly.helpviewer_keywords: ["TabCtrl_SetImageList","TabCtrl_SetImageList macro [Windows Controls]","_win32_TabCtrl_SetImageList","_win32_TabCtrl_SetImageList_cpp","commctrl/TabCtrl_SetImageList","controls.TabCtrl_SetImageList","controls._win32_TabCtrl_SetImageList"]
+description: Assigns an image list to a tab control. You can use this macro or send the TCM_SETIMAGELIST message explicitly.
+helpviewer_keywords: ["TabCtrl_SetImageList","TabCtrl_SetImageList macro [Windows Controls]","_win32_TabCtrl_SetImageList","_win32_TabCtrl_SetImageList_cpp","commctrl/TabCtrl_SetImageList","controls.TabCtrl_SetImageList","controls._win32_TabCtrl_SetImageList"]
 old-location: controls\TabCtrl_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setimagelist.htm

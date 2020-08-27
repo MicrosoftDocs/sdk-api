@@ -1,7 +1,8 @@
 ---
 UID: NF:wabapi.IWABObject.Backup
 title: IWABObject::Backup (wabapi.h)
-description: This method is not implemented.helpviewer_keywords: ["Backup","Backup method [Windows Address Book]","Backup method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","Backup method","IWABObject.Backup","IWABObject::Backup","_wab_IWABObject_Backup","wab._wab_IWABObject_Backup","wabapi/IWABObject::Backup"]
+description: This method is not implemented.
+helpviewer_keywords: ["Backup","Backup method [Windows Address Book]","Backup method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","Backup method","IWABObject.Backup","IWABObject::Backup","_wab_IWABObject_Backup","wab._wab_IWABObject_Backup","wabapi/IWABObject::Backup"]
 old-location: wab\_wab_IWABObject_Backup.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\backup.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolListenerCallback
 title: IWTSProtocolListenerCallback (wtsprotocol.h)
-description: IWTSProtocolListenerCallback is no longer available. Instead, use IWRdsProtocolListenerCallback.helpviewer_keywords: ["IWTSProtocolListenerCallback","IWTSProtocolListenerCallback interface [Remote Desktop Services]","IWTSProtocolListenerCallback interface [Remote Desktop Services]","described","termserv.iwtsprotocollistenercallback","wtsprotocol/IWTSProtocolListenerCallback"]
+description: IWTSProtocolListenerCallback is no longer available. Instead, use IWRdsProtocolListenerCallback.
+helpviewer_keywords: ["IWTSProtocolListenerCallback","IWTSProtocolListenerCallback interface [Remote Desktop Services]","IWTSProtocolListenerCallback interface [Remote Desktop Services]","described","termserv.iwtsprotocollistenercallback","wtsprotocol/IWTSProtocolListenerCallback"]
 old-location: termserv\iwtsprotocollistenercallback.htm
 tech.root: TermServ
 ms.assetid: 607fcb85-4602-4651-b246-3e32c8868e47

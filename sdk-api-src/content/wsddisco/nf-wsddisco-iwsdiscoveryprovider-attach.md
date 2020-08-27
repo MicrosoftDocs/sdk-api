@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Attach
 title: IWSDiscoveryProvider::Attach (wsddisco.h)
-description: Attaches a callback interface to the discovery provider.helpviewer_keywords: ["Attach","Attach method","Attach method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","Attach method","IWSDiscoveryProvider.Attach","IWSDiscoveryProvider::Attach","ncd.iwsdiscoveryprovider_attach_method","wsddisco/IWSDiscoveryProvider::Attach"]
+description: Attaches a callback interface to the discovery provider.
+helpviewer_keywords: ["Attach","Attach method","Attach method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","Attach method","IWSDiscoveryProvider.Attach","IWSDiscoveryProvider::Attach","ncd.iwsdiscoveryprovider_attach_method","wsddisco/IWSDiscoveryProvider::Attach"]
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach

@@ -5,6 +5,7 @@ ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
 description: \**NotificationHookProc** is the signature of the notification hook function that [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns in a [**GdiplusStartupOutput**](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput) structure.
+tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

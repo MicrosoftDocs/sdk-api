@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellView.TranslateAccelerator
 title: IShellView::TranslateAccelerator (shobjidl_core.h)
-description: Translates keyboard shortcut (accelerator) key strokes when a namespace extension's view has the focus.helpviewer_keywords: ["IShellView interface [Windows Shell]","TranslateAccelerator method","IShellView.TranslateAccelerator","IShellView::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [Windows Shell]","TranslateAccelerator method [Windows Shell]","IShellView interface","_win32_IShellView_TranslateAccelerator","shell.IShellView_TranslateAccelerator","shobjidl_core/IShellView::TranslateAccelerator"]
+description: Translates keyboard shortcut (accelerator) key strokes when a namespace extension's view has the focus.
+helpviewer_keywords: ["IShellView interface [Windows Shell]","TranslateAccelerator method","IShellView.TranslateAccelerator","IShellView::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [Windows Shell]","TranslateAccelerator method [Windows Shell]","IShellView interface","_win32_IShellView_TranslateAccelerator","shell.IShellView_TranslateAccelerator","shobjidl_core/IShellView::TranslateAccelerator"]
 old-location: shell\IShellView_TranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 425a281e-2d34-4bb3-92b9-05ae4cf70a9f

@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.LeaveCriticalSectionWhenCallbackReturns
 title: LeaveCriticalSectionWhenCallbackReturns function (threadpoolapiset.h)
-description: Specifies the critical section that the thread pool will release when the current callback completes.helpviewer_keywords: ["LeaveCriticalSectionWhenCallbackReturns","LeaveCriticalSectionWhenCallbackReturns function","base.leavecriticalsectionwhencallbackreturns","threadpoolapiset/LeaveCriticalSectionWhenCallbackReturns","winbase/LeaveCriticalSectionWhenCallbackReturns"]
+description: Specifies the critical section that the thread pool will release when the current callback completes.
+helpviewer_keywords: ["LeaveCriticalSectionWhenCallbackReturns","LeaveCriticalSectionWhenCallbackReturns function","base.leavecriticalsectionwhencallbackreturns","threadpoolapiset/LeaveCriticalSectionWhenCallbackReturns","winbase/LeaveCriticalSectionWhenCallbackReturns"]
 old-location: base\leavecriticalsectionwhencallbackreturns.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 43ce27ee-207c-4317-9771-d82f1f4edda2
 ms.date: 12/05/2018
 ms.keywords: LeaveCriticalSectionWhenCallbackReturns, LeaveCriticalSectionWhenCallbackReturns function, base.leavecriticalsectionwhencallbackreturns, threadpoolapiset/LeaveCriticalSectionWhenCallbackReturns, winbase/LeaveCriticalSectionWhenCallbackReturns

@@ -1,9 +1,10 @@
 ---
 UID: NF:winusb.WinUsb_Free
 title: WinUsb_Free function (winusb.h)
-description: The WinUsb_Free function releases all of the resources that WinUsb_Initialize allocated. This is a synchronous operation.helpviewer_keywords: ["WinUsb_Free","WinUsb_Free function [Buses]","buses.winusb_free","winusb/WinUsb_Free","winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml"]
+description: The WinUsb_Free function releases all of the resources that WinUsb_Initialize allocated. This is a synchronous operation.
+helpviewer_keywords: ["WinUsb_Free","WinUsb_Free function [Buses]","buses.winusb_free","winusb/WinUsb_Free","winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml"]
 old-location: buses\winusb_free.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 0f453364-fb2b-4b29-a96d-37c1d0d22608
 ms.date: 12/05/2018
 ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winusb/WinUsb_Free, winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml

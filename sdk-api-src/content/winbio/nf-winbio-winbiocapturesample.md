@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioCaptureSample
 title: WinBioCaptureSample function (winbio.h)
-description: Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.helpviewer_keywords: ["WINBIO_DATA_FLAG_INTEGRITY","WINBIO_DATA_FLAG_INTERMEDIATE","WINBIO_DATA_FLAG_PRIVACY","WINBIO_DATA_FLAG_PROCESSED","WINBIO_DATA_FLAG_RAW","WINBIO_DATA_FLAG_SIGNED","WinBioCaptureSample","WinBioCaptureSample function [Windows Biometric Framework API]","secbiomet.winbiocapturesample","winbio/WinBioCaptureSample"]
+description: Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.
+helpviewer_keywords: ["WINBIO_DATA_FLAG_INTEGRITY","WINBIO_DATA_FLAG_INTERMEDIATE","WINBIO_DATA_FLAG_PRIVACY","WINBIO_DATA_FLAG_PROCESSED","WINBIO_DATA_FLAG_RAW","WINBIO_DATA_FLAG_SIGNED","WinBioCaptureSample","WinBioCaptureSample function [Windows Biometric Framework API]","secbiomet.winbiocapturesample","winbio/WinBioCaptureSample"]
 old-location: secbiomet\winbiocapturesample.htm
 tech.root: SecBioMet
 ms.assetid: 365dcefb-3382-4b62-b47d-919e2d3f56f1

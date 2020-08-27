@@ -1,7 +1,8 @@
 ---
 UID: NF:processsnapshot.PssWalkSnapshot
 title: PssWalkSnapshot function (processsnapshot.h)
-description: Returns information from the current walk position and advanced the walk marker to the next position.helpviewer_keywords: ["PssWalkSnapshot","PssWalkSnapshot function","proc_snap.psswalksnapshot","processsnapshot/PssWalkSnapshot"]
+description: Returns information from the current walk position and advanced the walk marker to the next position.
+helpviewer_keywords: ["PssWalkSnapshot","PssWalkSnapshot function","proc_snap.psswalksnapshot","processsnapshot/PssWalkSnapshot"]
 old-location: proc_snap\psswalksnapshot.htm
 tech.root: proc_snap
 ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0

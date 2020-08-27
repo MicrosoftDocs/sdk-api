@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromBlock
 title: IProgressItems::ProgressItemFromBlock (imapi2fs.h)
-description: Retrieves a progress item based on the specified block number.helpviewer_keywords: ["IProgressItems interface [IMAPI]","ProgressItemFromBlock method","IProgressItems.ProgressItemFromBlock","IProgressItems::ProgressItemFromBlock","ProgressItemFromBlock","ProgressItemFromBlock method [IMAPI]","ProgressItemFromBlock method [IMAPI]","IProgressItems interface","imapi.iprogressitems_progressitemfromblock","imapi2fs/IProgressItems::ProgressItemFromBlock"]
+description: Retrieves a progress item based on the specified block number.
+helpviewer_keywords: ["IProgressItems interface [IMAPI]","ProgressItemFromBlock method","IProgressItems.ProgressItemFromBlock","IProgressItems::ProgressItemFromBlock","ProgressItemFromBlock","ProgressItemFromBlock method [IMAPI]","ProgressItemFromBlock method [IMAPI]","IProgressItems interface","imapi.iprogressitems_progressitemfromblock","imapi2fs/IProgressItems::ProgressItemFromBlock"]
 old-location: imapi\iprogressitems_progressitemfromblock.htm
 tech.root: imapi
 ms.assetid: 2b37cf63-24be-42ff-a439-157703db9604

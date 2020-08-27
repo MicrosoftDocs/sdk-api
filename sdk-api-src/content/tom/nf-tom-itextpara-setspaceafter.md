@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceAfter
 title: ITextPara::SetSpaceAfter (tom.h)
-description: Sets the amount of space that follows a paragraph.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetSpaceAfter method","ITextPara.SetSpaceAfter","ITextPara::SetSpaceAfter","SetSpaceAfter","SetSpaceAfter method [Windows Controls]","SetSpaceAfter method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetSpaceAfter","_win32_ITextPara_SetSpaceAfter_cpp","controls.ITextPara_SetSpaceAfter","controls._win32_ITextPara_SetSpaceAfter","tom/ITextPara::SetSpaceAfter"]
+description: Sets the amount of space that follows a paragraph.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetSpaceAfter method","ITextPara.SetSpaceAfter","ITextPara::SetSpaceAfter","SetSpaceAfter","SetSpaceAfter method [Windows Controls]","SetSpaceAfter method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetSpaceAfter","_win32_ITextPara_SetSpaceAfter_cpp","controls.ITextPara_SetSpaceAfter","controls._win32_ITextPara_SetSpaceAfter","tom/ITextPara::SetSpaceAfter"]
 old-location: controls\ITextPara_SetSpaceAfter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspaceafter.htm

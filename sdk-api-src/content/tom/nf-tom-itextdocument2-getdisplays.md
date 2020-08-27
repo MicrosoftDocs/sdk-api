@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.GetDisplays
 title: ITextDocument2::GetDisplays (tom.h)
-description: Gets the displays collection for this Text Object Model (TOM) engine instance.helpviewer_keywords: ["GetDisplays","GetDisplays method [Windows Controls]","GetDisplays method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetDisplays method","ITextDocument2.GetDisplays","ITextDocument2::GetDisplays","controls.itextdocument2_getdisplays","tom/ITextDocument2::GetDisplays"]
+description: Gets the displays collection for this Text Object Model (TOM) engine instance.
+helpviewer_keywords: ["GetDisplays","GetDisplays method [Windows Controls]","GetDisplays method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetDisplays method","ITextDocument2.GetDisplays","ITextDocument2::GetDisplays","controls.itextdocument2_getdisplays","tom/ITextDocument2::GetDisplays"]
 old-location: controls\itextdocument2_getdisplays.htm
 tech.root: Controls
 ms.assetid: 8f610b45-9c17-4b20-82e0-fa78169360cc

@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.DeleteSecurityContext
 title: DeleteSecurityContext function (sspi.h)
-description: Deletes the local data structures associated with the specified security context initiated by a previous call to the InitializeSecurityContext (General) function or the AcceptSecurityContext (General) function.helpviewer_keywords: ["DeleteSecurityContext","DeleteSecurityContext function [Security]","_ssp_deletesecuritycontext","security.deletesecuritycontext","sspi/DeleteSecurityContext"]
+description: Deletes the local data structures associated with the specified security context initiated by a previous call to the InitializeSecurityContext (General) function or the AcceptSecurityContext (General) function.
+helpviewer_keywords: ["DeleteSecurityContext","DeleteSecurityContext function [Security]","_ssp_deletesecuritycontext","security.deletesecuritycontext","sspi/DeleteSecurityContext"]
 old-location: security\deletesecuritycontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
 ms.date: 12/05/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext

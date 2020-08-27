@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemovePublisherProperty
 title: IEventSubscription::RemovePublisherProperty (eventsys.h)
-description: Removes a property and its value from the property bag that defines publisher context.helpviewer_keywords: ["IEventSubscription interface [COM+]","RemovePublisherProperty method","IEventSubscription.RemovePublisherProperty","IEventSubscription::RemovePublisherProperty","RemovePublisherProperty","RemovePublisherProperty method [COM+]","RemovePublisherProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_RemovePublisherProperty","cos.ieventsubscription_removepublisherproperty","eventsys/IEventSubscription::RemovePublisherProperty"]
+description: Removes a property and its value from the property bag that defines publisher context.
+helpviewer_keywords: ["IEventSubscription interface [COM+]","RemovePublisherProperty method","IEventSubscription.RemovePublisherProperty","IEventSubscription::RemovePublisherProperty","RemovePublisherProperty","RemovePublisherProperty method [COM+]","RemovePublisherProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_RemovePublisherProperty","cos.ieventsubscription_removepublisherproperty","eventsys/IEventSubscription::RemovePublisherProperty"]
 old-location: cos\ieventsubscription_removepublisherproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3893e605-dd01-47d3-bb7d-095964433ef9
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],RemovePublisherProperty method, IEventSubscription.RemovePublisherProperty, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty

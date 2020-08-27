@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL)
+UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(INconstGraphicsPath,INconstGraphicsPath,INLineCap,INREAL)
 title: CustomLineCap::CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL) (gdiplusheaders.h)
-description: Creates a CustomLineCap::CustomLineCap object.helpviewer_keywords: ["CustomLineCap","CustomLineCap class [GDI+]","CustomLineCap constructor","CustomLineCap constructor [GDI+]","CustomLineCap constructor [GDI+]","CustomLineCap class","CustomLineCap.CustomLineCap","CustomLineCap.CustomLineCap(IN const GraphicsPath","IN const GraphicsPath","IN LineCap","IN REAL)","CustomLineCap::CustomLineCap","CustomLineCap::CustomLineCap(IN const GraphicsPath","IN const GraphicsPath","IN LineCap","IN REAL)","_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_","gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_"]
+description: Creates a CustomLineCap::CustomLineCap object.
+helpviewer_keywords: ["CustomLineCap","CustomLineCap class [GDI+]","CustomLineCap constructor","CustomLineCap constructor [GDI+]","CustomLineCap constructor [GDI+]","CustomLineCap class","CustomLineCap.CustomLineCap","CustomLineCap.CustomLineCap(IN const GraphicsPath","IN const GraphicsPath","IN LineCap","IN REAL)","CustomLineCap::CustomLineCap","CustomLineCap::CustomLineCap(IN const GraphicsPath","IN const GraphicsPath","IN LineCap","IN REAL)","_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_","gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecap_29fillpath_strokepath_basecap_baseinset.htm
@@ -58,21 +59,21 @@ Creates a <b>CustomLineCap::CustomLineCap</b> object.
 
 
 
-#### - fillPath [in]
+### -param fillPath [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
 Pointer to a path. 
 
 
-#### - strokePath [in]
+### -param strokePath [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
 Pointer to a path. 
 
 
-#### - baseCap [in]
+### -param baseCap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
@@ -80,7 +81,7 @@ Optional. Element of the
 					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
 
 
-#### - baseInset [in]
+### -param baseInset [in]
 
 Type: <b>REAL</b>
 

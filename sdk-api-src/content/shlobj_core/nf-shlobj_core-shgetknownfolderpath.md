@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderPath
 title: SHGetKnownFolderPath function (shlobj_core.h)
-description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.helpviewer_keywords: ["SHGetKnownFolderPath","SHGetKnownFolderPath function [Windows Shell]","_shell_SHGetKnownFolderPath","shell.SHGetKnownFolderPath","shlobj_core/SHGetKnownFolderPath"]
+description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.
+helpviewer_keywords: ["SHGetKnownFolderPath","SHGetKnownFolderPath function [Windows Shell]","_shell_SHGetKnownFolderPath","shell.SHGetKnownFolderPath","shlobj_core/SHGetKnownFolderPath"]
 old-location: shell\SHGetKnownFolderPath.htm
 tech.root: shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29

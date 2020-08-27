@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.EndGetCredentials
 title: IMFNetCredentialManager::EndGetCredentials (mfidl.h)
-description: Completes an asynchronous request to retrieve the user's credentials.helpviewer_keywords: ["99914ded-1b9a-4373-9974-e1d1b1abd4e2","EndGetCredentials","EndGetCredentials method [Media Foundation]","EndGetCredentials method [Media Foundation]","IMFNetCredentialManager interface","IMFNetCredentialManager interface [Media Foundation]","EndGetCredentials method","IMFNetCredentialManager.EndGetCredentials","IMFNetCredentialManager::EndGetCredentials","mf.imfnetcredentialmanager_endgetcredentials","mfidl/IMFNetCredentialManager::EndGetCredentials"]
+description: Completes an asynchronous request to retrieve the user's credentials.
+helpviewer_keywords: ["99914ded-1b9a-4373-9974-e1d1b1abd4e2","EndGetCredentials","EndGetCredentials method [Media Foundation]","EndGetCredentials method [Media Foundation]","IMFNetCredentialManager interface","IMFNetCredentialManager interface [Media Foundation]","EndGetCredentials method","IMFNetCredentialManager.EndGetCredentials","IMFNetCredentialManager::EndGetCredentials","mf.imfnetcredentialmanager_endgetcredentials","mfidl/IMFNetCredentialManager::EndGetCredentials"]
 old-location: mf\imfnetcredentialmanager_endgetcredentials.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 99914ded-1b9a-4373-9974-e1d1b1abd4e2
 ms.date: 12/05/2018
 ms.keywords: 99914ded-1b9a-4373-9974-e1d1b1abd4e2, EndGetCredentials, EndGetCredentials method [Media Foundation], EndGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],EndGetCredentials method, IMFNetCredentialManager.EndGetCredentials, IMFNetCredentialManager::EndGetCredentials, mf.imfnetcredentialmanager_endgetcredentials, mfidl/IMFNetCredentialManager::EndGetCredentials

@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC
 title: DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the function of subtracting every element in BTensor from its corresponding element in ATensor, f(a, b) = a - b.helpviewer_keywords: ["DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC","DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC structure","direct3d12.dml_element_wise_subtract_operator_desc","directml/DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC"]
+description: Describes a DirectML math operator that performs the function of subtracting every element in BTensor from its corresponding element in ATensor, f(a, b) = a - b.
+helpviewer_keywords: ["DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC","DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC structure","direct3d12.dml_element_wise_subtract_operator_desc","directml/DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_subtract_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 705180C4-E262-4DA1-B697-BE57178F1E2C
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC, DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC structure, direct3d12.dml_element_wise_subtract_operator_desc, directml/DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.D3D10DisassembleEffect
 title: D3D10DisassembleEffect function (d3d10effect.h)
-description: This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble10Effect.helpviewer_keywords: ["10ff0da2-3f88-22ec-7841-61c27051dfa6","D3D10DisassembleEffect","D3D10DisassembleEffect function [Direct3D 10]","d3d10effect/D3D10DisassembleEffect","direct3d10.d3d10disassembleeffect"]
+description: This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble10Effect.
+helpviewer_keywords: ["10ff0da2-3f88-22ec-7841-61c27051dfa6","D3D10DisassembleEffect","D3D10DisassembleEffect function [Direct3D 10]","d3d10effect/D3D10DisassembleEffect","direct3d10.d3d10disassembleeffect"]
 old-location: direct3d10\d3d10disassembleeffect.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10disassembleeffect.htm

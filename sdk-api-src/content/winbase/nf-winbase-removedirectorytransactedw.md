@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.RemoveDirectoryTransactedW
 title: RemoveDirectoryTransactedW function (winbase.h)
-description: Deletes an existing empty directory as a transacted operation.helpviewer_keywords: ["RemoveDirectoryTransacted","RemoveDirectoryTransacted function [Files]","RemoveDirectoryTransactedA","RemoveDirectoryTransactedW","fs.removedirectorytransacted","winbase/RemoveDirectoryTransacted","winbase/RemoveDirectoryTransactedA","winbase/RemoveDirectoryTransactedW"]
+description: Deletes an existing empty directory as a transacted operation.
+helpviewer_keywords: ["RemoveDirectoryTransacted","RemoveDirectoryTransacted function [Files]","RemoveDirectoryTransactedA","RemoveDirectoryTransactedW","fs.removedirectorytransacted","winbase/RemoveDirectoryTransacted","winbase/RemoveDirectoryTransactedA","winbase/RemoveDirectoryTransactedW"]
 old-location: fs\removedirectorytransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e8600166-62dc-4398-9e16-43b07f7f0b89
 ms.date: 12/05/2018
 ms.keywords: RemoveDirectoryTransacted, RemoveDirectoryTransacted function [Files], RemoveDirectoryTransactedA, RemoveDirectoryTransactedW, fs.removedirectorytransacted, winbase/RemoveDirectoryTransacted, winbase/RemoveDirectoryTransactedA, winbase/RemoveDirectoryTransactedW
@@ -180,6 +181,10 @@ SMB 3.0 does not support TxF
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines RemoveDirectoryTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11_3.D3D11_TEXTURE3D_DESC1
 title: D3D11_TEXTURE3D_DESC1 (d3d11_3.h)
-description: Describes a 3D texture.helpviewer_keywords: ["CD3D11_TEXTURE3D_DESC1","D3D11_TEXTURE3D_DESC1","D3D11_TEXTURE3D_DESC1 structure [Direct3D 11]","d3d11_3/D3D11_TEXTURE3D_DESC1","direct3d11.d3d11_texture3d_desc1"]
+description: Describes a 3D texture.
+helpviewer_keywords: ["CD3D11_TEXTURE3D_DESC1","D3D11_TEXTURE3D_DESC1","D3D11_TEXTURE3D_DESC1 structure [Direct3D 11]","d3d11_3/D3D11_TEXTURE3D_DESC1","direct3d11.d3d11_texture3d_desc1"]
 old-location: direct3d11\d3d11_texture3d_desc1.htm
 tech.root: direct3d11
 ms.assetid: DC20371E-6675-4AAC-A7F6-DC523BB8DBF6
@@ -57,52 +58,52 @@ Describes a 3D texture.
 
 
 
-#### - Width
+### -field Width
 
 Texture width (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
-#### - Height
+### -field Height
 
 Texture height (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
-#### - Depth
+### -field Depth
 
 Texture depth (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
-#### - MipLevels
+### -field MipLevels
 
 The maximum number of mipmap levels in the texture. See the remarks in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_srv">D3D11_TEX1D_SRV</a>. Use 1 for a multisampled texture; or 0 to generate a full set of subtextures.
 
 
-#### - Format
+### -field Format
 
 Texture format (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>).
 
 
-#### - Usage
+### -field Usage
 
 Value that identifies how the texture is to be read from and written to. The most common value is D3D11_USAGE_DEFAULT; see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE</a> for all possible values.
 
 
-#### - BindFlags
+### -field BindFlags
 
 Flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a logical OR.
 
 
-#### - CPUAccessFlags
+### -field CPUAccessFlags
 
 Flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) to specify the types of CPU access allowed. Use 0 if CPU access is not required. These flags can be combined with a logical OR.
 
 
-#### - MiscFlags
+### -field MiscFlags
 
 Flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) that identify other, less common resource options. Use 0 if none of these flags apply. These flags can be combined with a logical OR.
 
 
-#### - TextureLayout
+### -field TextureLayout
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_texture_layout">D3D11_TEXTURE_LAYOUT</a>-typed value that identifies the layout of the texture.
 

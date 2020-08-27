@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawBezier(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawBezier(INconstPen,INREAL,INREAL,INREAL,INREAL,INREAL,INREAL,INREAL,INREAL)
 title: Graphics::DrawBezier
-description: The Graphics::DrawBezier method draws a Bezier spline.helpviewer_keywords: ["Graphics::DrawBezier"]
+description: The Graphics::DrawBezier method draws a Bezier spline.
+tech.root: gdiplus
+helpviewer_keywords: ["Graphics::DrawBezier"]
 ms.assetid: 8cc50b20-3c78-4462-bee5-f7fce4815bc1
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBezier

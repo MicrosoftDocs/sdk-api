@@ -1,9 +1,10 @@
 ---
 UID: NF:featurestagingapi.GetFeatureEnabledState
 title: GetFeatureEnabledState function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.helpviewer_keywords: ["GetFeatureEnabledState","GetFeatureEnabledState function [Windows API]","featurestagingapi/GetFeatureEnabledState","winprog.getfeatureenabledstate"]
+description: This function is intended for infrastructure use only.
+helpviewer_keywords: ["GetFeatureEnabledState","GetFeatureEnabledState function [Windows API]","featurestagingapi/GetFeatureEnabledState","winprog.getfeatureenabledstate"]
 old-location: winprog\getfeatureenabledstate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.date: 12/05/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate

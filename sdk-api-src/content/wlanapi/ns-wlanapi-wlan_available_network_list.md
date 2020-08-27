@@ -1,9 +1,10 @@
 ---
 UID: NS:wlanapi._WLAN_AVAILABLE_NETWORK_LIST
 title: WLAN_AVAILABLE_NETWORK_LIST (wlanapi.h)
-description: Contains an array of information about available networks.helpviewer_keywords: ["*PWLAN_AVAILABLE_NETWORK_LIST","PWLAN_AVAILABLE_NETWORK_LIST","PWLAN_AVAILABLE_NETWORK_LIST structure pointer [NativeWIFI]","WLAN_AVAILABLE_NETWORK_LIST","WLAN_AVAILABLE_NETWORK_LIST structure [NativeWIFI]","nwifi.wlan_available_network_list","nwifi.wlan_visible_network_list","wlanapi/PWLAN_AVAILABLE_NETWORK_LIST","wlanapi/WLAN_AVAILABLE_NETWORK_LIST"]
+description: Contains an array of information about available networks.
+helpviewer_keywords: ["*PWLAN_AVAILABLE_NETWORK_LIST","PWLAN_AVAILABLE_NETWORK_LIST","PWLAN_AVAILABLE_NETWORK_LIST structure pointer [NativeWIFI]","WLAN_AVAILABLE_NETWORK_LIST","WLAN_AVAILABLE_NETWORK_LIST structure [NativeWIFI]","nwifi.wlan_available_network_list","nwifi.wlan_visible_network_list","wlanapi/PWLAN_AVAILABLE_NETWORK_LIST","wlanapi/WLAN_AVAILABLE_NETWORK_LIST"]
 old-location: nwifi\wlan_available_network_list.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 0ac508b2-9117-423d-89d3-982f070c70e2
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK_LIST, WLAN_AVAILABLE_NETWORK_LIST structure [NativeWIFI], nwifi.wlan_available_network_list, nwifi.wlan_visible_network_list, wlanapi/PWLAN_AVAILABLE_NETWORK_LIST, wlanapi/WLAN_AVAILABLE_NETWORK_LIST'

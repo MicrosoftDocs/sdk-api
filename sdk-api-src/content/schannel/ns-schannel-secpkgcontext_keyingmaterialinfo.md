@@ -1,9 +1,10 @@
 ---
 UID: NS:schannel._SecPkgContext_KeyingMaterialInfo
 title: SecPkgContext_KeyingMaterialInfo (schannel.h)
-description: The SecPkgContext_KeyingMaterialInfo structure contains information about the exportable keying material in a security context.helpviewer_keywords: ["*PSecPkgContext_KeyingMaterialInfo","PSecPkgContext_KeyingMaterialInfo","PSecPkgContext_KeyingMaterialInfo structure pointer [Security]","SecPkgContext_KeyingMaterialInfo","SecPkgContext_KeyingMaterialInfo structure [Security]","SecPkgContext_KeyingMaterialInfoA","SecPkgContext_KeyingMaterialInfoW","_SecPkgContext_KeyingMaterialInfo","security.secpkgcontext_keyingmaterialinfo","sspi/PSecPkgContext_KeyingMaterialInfo","sspi/SecPkgContext_KeyingMaterialInfo","sspi/SecPkgContext_KeyingMaterialInfoA","sspi/SecPkgContext_KeyingMaterialInfoW"]
+description: The SecPkgContext_KeyingMaterialInfo structure contains information about the exportable keying material in a security context.
+helpviewer_keywords: ["*PSecPkgContext_KeyingMaterialInfo","PSecPkgContext_KeyingMaterialInfo","PSecPkgContext_KeyingMaterialInfo structure pointer [Security]","SecPkgContext_KeyingMaterialInfo","SecPkgContext_KeyingMaterialInfo structure [Security]","SecPkgContext_KeyingMaterialInfoA","SecPkgContext_KeyingMaterialInfoW","_SecPkgContext_KeyingMaterialInfo","security.secpkgcontext_keyingmaterialinfo","sspi/PSecPkgContext_KeyingMaterialInfo","sspi/SecPkgContext_KeyingMaterialInfo","sspi/SecPkgContext_KeyingMaterialInfoA","sspi/SecPkgContext_KeyingMaterialInfoW"]
 old-location: security\secpkgcontext_keyingmaterialinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 51EE7027-01FA-4D2F-9FB8-EEF7C1479600
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialInfo structure pointer [Security], SecPkgContext_KeyingMaterialInfo, SecPkgContext_KeyingMaterialInfo structure [Security], SecPkgContext_KeyingMaterialInfoA, SecPkgContext_KeyingMaterialInfoW, _SecPkgContext_KeyingMaterialInfo, security.secpkgcontext_keyingmaterialinfo, sspi/PSecPkgContext_KeyingMaterialInfo, sspi/SecPkgContext_KeyingMaterialInfo, sspi/SecPkgContext_KeyingMaterialInfoA, sspi/SecPkgContext_KeyingMaterialInfoW'

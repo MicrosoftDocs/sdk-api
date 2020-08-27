@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_CONTEXT
 title: CERT_CHAIN_CONTEXT (wincrypt.h)
-description: Contains an array of simple certificate chains and a trust status structure that indicates summary validity data on all of the connected simple chains.helpviewer_keywords: ["*PCERT_CHAIN_CONTEXT","CERT_CHAIN_CONTEXT","CERT_CHAIN_CONTEXT structure [Security]","PCERT_CHAIN_CONTEXT","PCERT_CHAIN_CONTEXT structure pointer [Security]","_crypto2_cert_chain_context","security.cert_chain_context","wincrypt/CERT_CHAIN_CONTEXT","wincrypt/PCERT_CHAIN_CONTEXT"]
+description: Contains an array of simple certificate chains and a trust status structure that indicates summary validity data on all of the connected simple chains.
+helpviewer_keywords: ["*PCERT_CHAIN_CONTEXT","CERT_CHAIN_CONTEXT","CERT_CHAIN_CONTEXT structure [Security]","PCERT_CHAIN_CONTEXT","PCERT_CHAIN_CONTEXT structure pointer [Security]","_crypto2_cert_chain_context","security.cert_chain_context","wincrypt/CERT_CHAIN_CONTEXT","wincrypt/PCERT_CHAIN_CONTEXT"]
 old-location: security\cert_chain_context.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 609311f4-9cd6-4945-9f93-7266b3fc4a74
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT structure [Security], PCERT_CHAIN_CONTEXT, PCERT_CHAIN_CONTEXT structure pointer [Security], _crypto2_cert_chain_context, security.cert_chain_context, wincrypt/CERT_CHAIN_CONTEXT, wincrypt/PCERT_CHAIN_CONTEXT'

@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.AccessCheckByTypeResultList
 title: AccessCheckByTypeResultList function (securitybaseapi.h)
-description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.helpviewer_keywords: ["AccessCheckByTypeResultList","AccessCheckByTypeResultList function [Security]","_win32_accesscheckbytyperesultlist","security.accesscheckbytyperesultlist","securitybaseapi/AccessCheckByTypeResultList"]
+description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
+helpviewer_keywords: ["AccessCheckByTypeResultList","AccessCheckByTypeResultList function [Security]","_win32_accesscheckbytyperesultlist","security.accesscheckbytyperesultlist","securitybaseapi/AccessCheckByTypeResultList"]
 old-location: security\accesscheckbytyperesultlist.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList

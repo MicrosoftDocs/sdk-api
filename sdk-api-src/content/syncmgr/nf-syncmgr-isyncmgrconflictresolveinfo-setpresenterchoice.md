@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetPresenterChoice
 title: ISyncMgrConflictResolveInfo::SetPresenterChoice (syncmgr.h)
-description: Sets what kind of choice was made about a sync manager conflict resolution and whether to apply the choice to all subsequent conflicts in the set.helpviewer_keywords: ["ISyncMgrConflictResolveInfo interface [Windows Shell]","SetPresenterChoice method","ISyncMgrConflictResolveInfo.SetPresenterChoice","ISyncMgrConflictResolveInfo::SetPresenterChoice","SetPresenterChoice","SetPresenterChoice method [Windows Shell]","SetPresenterChoice method [Windows Shell]","ISyncMgrConflictResolveInfo interface","_shell_ISyncMgrConflictResolveInfo_SetPresenterChoice","shell.ISyncMgrConflictResolveInfo_SetPresenterChoice","syncmgr/ISyncMgrConflictResolveInfo::SetPresenterChoice"]
+description: Sets what kind of choice was made about a sync manager conflict resolution and whether to apply the choice to all subsequent conflicts in the set.
+helpviewer_keywords: ["ISyncMgrConflictResolveInfo interface [Windows Shell]","SetPresenterChoice method","ISyncMgrConflictResolveInfo.SetPresenterChoice","ISyncMgrConflictResolveInfo::SetPresenterChoice","SetPresenterChoice","SetPresenterChoice method [Windows Shell]","SetPresenterChoice method [Windows Shell]","ISyncMgrConflictResolveInfo interface","_shell_ISyncMgrConflictResolveInfo_SetPresenterChoice","shell.ISyncMgrConflictResolveInfo_SetPresenterChoice","syncmgr/ISyncMgrConflictResolveInfo::SetPresenterChoice"]
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterChoice.htm
 tech.root: shell
 ms.assetid: 5f4bfe69-1ff3-4d21-9c27-f5d8ecfc8371

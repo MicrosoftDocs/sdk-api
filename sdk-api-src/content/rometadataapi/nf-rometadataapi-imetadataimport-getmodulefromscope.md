@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleFromScope
 title: IMetaDataImport::GetModuleFromScope (rometadataapi.h)
-description: Gets a metadata token for the module referenced in the current metadata scope.helpviewer_keywords: ["GetModuleFromScope","GetModuleFromScope method [Windows Runtime]","GetModuleFromScope method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetModuleFromScope method","IMetaDataImport.GetModuleFromScope","IMetaDataImport::GetModuleFromScope","rometadataapi/IMetaDataImport::GetModuleFromScope","winrt.imetadataimport_getmodulefromscope"]
+description: Gets a metadata token for the module referenced in the current metadata scope.
+helpviewer_keywords: ["GetModuleFromScope","GetModuleFromScope method [Windows Runtime]","GetModuleFromScope method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetModuleFromScope method","IMetaDataImport.GetModuleFromScope","IMetaDataImport::GetModuleFromScope","rometadataapi/IMetaDataImport::GetModuleFromScope","winrt.imetadataimport_getmodulefromscope"]
 old-location: winrt\imetadataimport_getmodulefromscope.htm
 tech.root: WinRT
 ms.assetid: 4ad7248d-7266-4a14-b499-05bda7f60e01

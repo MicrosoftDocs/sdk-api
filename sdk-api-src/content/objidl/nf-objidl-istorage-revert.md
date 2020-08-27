@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IStorage.Revert
 title: IStorage::Revert (objidl.h)
-description: The Revert method discards all changes that have been made to the storage object since the last commit operation.helpviewer_keywords: ["IStorage interface [Structured Storage]","Revert method","IStorage.Revert","IStorage::Revert","Revert","Revert method [Structured Storage]","Revert method [Structured Storage]","IStorage interface","_stg_istorage_revert","objidl/IStorage::Revert","stg.istorage_revert"]
+description: The Revert method discards all changes that have been made to the storage object since the last commit operation.
+helpviewer_keywords: ["IStorage interface [Structured Storage]","Revert method","IStorage.Revert","IStorage::Revert","Revert","Revert method [Structured Storage]","Revert method [Structured Storage]","IStorage interface","_stg_istorage_revert","objidl/IStorage::Revert","stg.istorage_revert"]
 old-location: stg\istorage_revert.htm
 tech.root: Stg
 ms.assetid: d1b7626e-bad1-47b5-8bcd-3da3b05c53c4

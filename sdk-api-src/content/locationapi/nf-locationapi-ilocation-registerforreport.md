@@ -1,9 +1,10 @@
 ---
 UID: NF:locationapi.ILocation.RegisterForReport
 title: ILocation::RegisterForReport (locationapi.h)
-description: Requests location report events.helpviewer_keywords: ["ILocation interface [WinLocation]","RegisterForReport method","ILocation.RegisterForReport","ILocation::RegisterForReport","RegisterForReport","RegisterForReport method [WinLocation]","RegisterForReport method [WinLocation]","ILocation interface","WinLocation_COM_Ref.ilocation_registerforreport","locationapi/ILocation::RegisterForReport"]
+description: Requests location report events.
+helpviewer_keywords: ["ILocation interface [WinLocation]","RegisterForReport method","ILocation.RegisterForReport","ILocation::RegisterForReport","RegisterForReport","RegisterForReport method [WinLocation]","RegisterForReport method [WinLocation]","ILocation interface","WinLocation_COM_Ref.ilocation_registerforreport","locationapi/ILocation::RegisterForReport"]
 old-location: winlocation_com_ref\ilocation_registerforreport.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 1aca3e5b-20cb-4fa9-b28d-7d992601df96
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],RegisterForReport method, ILocation.RegisterForReport, ILocation::RegisterForReport, RegisterForReport, RegisterForReport method [WinLocation], RegisterForReport method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_registerforreport, locationapi/ILocation::RegisterForReport

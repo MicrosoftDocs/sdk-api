@@ -4,7 +4,7 @@ title: POLICY_MODIFICATION_INFO (ntsecapi.h)
 description: The POLICY_MODIFICATION_INFO structure is used to query information about the creation time and last modification of the LSA database.
 helpviewer_keywords: ["*PPOLICY_MODIFICATION_INFO","POLICY_MODIFICATION_INFO","POLICY_MODIFICATION_INFO structure [Security]","PPOLICY_MODIFICATION_INFO","PPOLICY_MODIFICATION_INFO structure pointer [Security]","_POLICY_MODIFICATION_INFO","_lsa_policy_modification_info","ntsecapi/POLICY_MODIFICATION_INFO","ntsecapi/PPOLICY_MODIFICATION_INFO","security.policy_modification_info"]
 old-location: security\policy_modification_info.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO structure [Security], PPOLICY_MODIFICATION_INFO, PPOLICY_MODIFICATION_INFO structure pointer [Security], _POLICY_MODIFICATION_INFO, _lsa_policy_modification_info, ntsecapi/POLICY_MODIFICATION_INFO, ntsecapi/PPOLICY_MODIFICATION_INFO, security.policy_modification_info'

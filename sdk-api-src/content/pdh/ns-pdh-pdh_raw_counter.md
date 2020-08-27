@@ -1,9 +1,10 @@
 ---
 UID: NS:pdh._PDH_RAW_COUNTER
 title: PDH_RAW_COUNTER (pdh.h)
-description: The PDH_RAW_COUNTER structure returns the data as it was collected from the counter provider. No translation, formatting, or other interpretation is performed on the data.helpviewer_keywords: ["*PPDH_RAW_COUNTER","PDH_RAW_COUNTER","PDH_RAW_COUNTER structure [Perf]","PPDH_RAW_COUNTER","PPDH_RAW_COUNTER structure pointer [Perf]","_win32_pdh_raw_counter_str","base.pdh_raw_counter_str","pdh/PDH_RAW_COUNTER","pdh/PPDH_RAW_COUNTER","perf.pdh_raw_counter_str"]
+description: The PDH_RAW_COUNTER structure returns the data as it was collected from the counter provider. No translation, formatting, or other interpretation is performed on the data.
+helpviewer_keywords: ["*PPDH_RAW_COUNTER","PDH_RAW_COUNTER","PDH_RAW_COUNTER structure [Perf]","PPDH_RAW_COUNTER","PPDH_RAW_COUNTER structure pointer [Perf]","_win32_pdh_raw_counter_str","base.pdh_raw_counter_str","pdh/PDH_RAW_COUNTER","pdh/PPDH_RAW_COUNTER","perf.pdh_raw_counter_str"]
 old-location: perf\pdh_raw_counter_str.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 237a3c82-0ab4-45cb-bd93-2f308178c573
 ms.date: 12/05/2018
 ms.keywords: '*PPDH_RAW_COUNTER, PDH_RAW_COUNTER, PDH_RAW_COUNTER structure [Perf], PPDH_RAW_COUNTER, PPDH_RAW_COUNTER structure pointer [Perf], _win32_pdh_raw_counter_str, base.pdh_raw_counter_str, pdh/PDH_RAW_COUNTER, pdh/PPDH_RAW_COUNTER, perf.pdh_raw_counter_str'

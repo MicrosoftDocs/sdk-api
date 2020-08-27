@@ -1,9 +1,10 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithSidW
 title: BuildTrusteeWithSidW function (aclapi.h)
-description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.helpviewer_keywords: ["BuildTrusteeWithSid","BuildTrusteeWithSid function [Security]","BuildTrusteeWithSidA","BuildTrusteeWithSidW","MultipleTrusteeOperation","TrusteeForm","TrusteeType","_win32_buildtrusteewithsid","aclapi/BuildTrusteeWithSid","aclapi/BuildTrusteeWithSidA","aclapi/BuildTrusteeWithSidW","pMultipleTrustee","security.buildtrusteewithsid"]
+description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
+helpviewer_keywords: ["BuildTrusteeWithSid","BuildTrusteeWithSid function [Security]","BuildTrusteeWithSidA","BuildTrusteeWithSidW","MultipleTrusteeOperation","TrusteeForm","TrusteeType","_win32_buildtrusteewithsid","aclapi/BuildTrusteeWithSid","aclapi/BuildTrusteeWithSidA","aclapi/BuildTrusteeWithSidW","pMultipleTrustee","security.buildtrusteewithsid"]
 old-location: security\buildtrusteewithsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
@@ -156,4 +157,9 @@ TRUSTEE_IS_UNKNOWN
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The aclapi.h header defines BuildTrusteeWithSid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

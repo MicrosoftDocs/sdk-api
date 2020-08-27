@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.TerminateLogArchive
 title: TerminateLogArchive function (clfsw32.h)
-description: Deallocates system resources that are allocated originally for a log archive context by PrepareLogArchive.helpviewer_keywords: ["TerminateLogArchive","TerminateLogArchive function [Files]","clfsw32/TerminateLogArchive","fs.terminatelogarchive"]
+description: Deallocates system resources that are allocated originally for a log archive context by PrepareLogArchive.
+helpviewer_keywords: ["TerminateLogArchive","TerminateLogArchive function [Files]","clfsw32/TerminateLogArchive","fs.terminatelogarchive"]
 old-location: fs\terminatelogarchive.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 885356e1-f7c4-4f3f-98c3-fb9b1d339e22
 ms.date: 12/05/2018
 ms.keywords: TerminateLogArchive, TerminateLogArchive function [Files], clfsw32/TerminateLogArchive, fs.terminatelogarchive

@@ -4,7 +4,7 @@ title: ISensor::GetState (sensorsapi.h)
 description: Retrieves the current operational state of the sensor.
 helpviewer_keywords: ["GetState","GetState method","GetState method","ISensor interface","ISensor interface","GetState method","ISensor.GetState","ISensor::GetState","sensorsapi/ISensor::GetState","winsensors_com_ref.isensor_getstate"]
 old-location: winsensors_com_ref\isensor_getstate.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate

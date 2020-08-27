@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetCurrentStoryboard
 title: IUIAnimationVariable::GetCurrentStoryboard (uianimation.h)
-description: Gets the storyboard that is currently animating the animation variable.helpviewer_keywords: ["GetCurrentStoryboard","GetCurrentStoryboard method [Windows Animation]","GetCurrentStoryboard method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetCurrentStoryboard method","IUIAnimationVariable.GetCurrentStoryboard","IUIAnimationVariable::GetCurrentStoryboard","uianimation.iuianimationvariable_getcurrentstoryboard","uianimation/IUIAnimationVariable::GetCurrentStoryboard"]
+description: Gets the storyboard that is currently animating the animation variable.
+helpviewer_keywords: ["GetCurrentStoryboard","GetCurrentStoryboard method [Windows Animation]","GetCurrentStoryboard method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetCurrentStoryboard method","IUIAnimationVariable.GetCurrentStoryboard","IUIAnimationVariable::GetCurrentStoryboard","uianimation.iuianimationvariable_getcurrentstoryboard","uianimation/IUIAnimationVariable::GetCurrentStoryboard"]
 old-location: uianimation\iuianimationvariable_getcurrentstoryboard.htm
 tech.root: UIAnimation
 ms.assetid: 56042549-d6f6-4eed-8079-c1b14acbe160

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Valid
 title: ICspInformation::get_Valid (certenroll.h)
-description: Retrieves a Boolean value that specifies whether the provider is installed on the client computer.helpviewer_keywords: ["ICspInformation interface [Security]","Valid property","ICspInformation.Valid","ICspInformation.get_Valid","ICspInformation::Valid","ICspInformation::get_Valid","Valid property [Security]","Valid property [Security]","ICspInformation interface","certenroll/ICspInformation::Valid","certenroll/ICspInformation::get_Valid","get_Valid","security.icspinformation_valid_property"]
+description: Retrieves a Boolean value that specifies whether the provider is installed on the client computer.
+helpviewer_keywords: ["ICspInformation interface [Security]","Valid property","ICspInformation.Valid","ICspInformation.get_Valid","ICspInformation::Valid","ICspInformation::get_Valid","Valid property [Security]","Valid property [Security]","ICspInformation interface","certenroll/ICspInformation::Valid","certenroll/ICspInformation::get_Valid","get_Valid","security.icspinformation_valid_property"]
 old-location: security\icspinformation_valid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 507896b0-598c-4a2d-854e-d4d266fdfaf7
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Valid property, ICspInformation.Valid, ICspInformation.get_Valid, ICspInformation::Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security],ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid, security.icspinformation_valid_property

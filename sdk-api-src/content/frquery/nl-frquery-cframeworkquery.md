@@ -1,9 +1,10 @@
 ---
 UID: NL:frquery.CFrameworkQuery
 title: CFrameworkQuery (frquery.h)
-description: The CFrameworkQuery class is used to parse and manipulate a query. It contains methods that return specific property values and methods that test the query to determine the particular properties that are included.helpviewer_keywords: ["CFrameworkQuery","CFrameworkQuery class [Windows Management Instrumentation]","CFrameworkQuery class [Windows Management Instrumentation]","described","_hmm_cframeworkquery","frquery/CFrameworkQuery","wmi.cframeworkquery"]
+description: The CFrameworkQuery class is used to parse and manipulate a query. It contains methods that return specific property values and methods that test the query to determine the particular properties that are included.
+helpviewer_keywords: ["CFrameworkQuery","CFrameworkQuery class [Windows Management Instrumentation]","CFrameworkQuery class [Windows Management Instrumentation]","described","_hmm_cframeworkquery","frquery/CFrameworkQuery","wmi.cframeworkquery"]
 old-location: wmi\cframeworkquery.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery

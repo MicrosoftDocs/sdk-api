@@ -1,9 +1,10 @@
 ---
 UID: NF:winhttp.WinHttpWriteData
 title: WinHttpWriteData function (winhttp.h)
-description: The WinHttpWriteData function writes request data to an HTTP server.helpviewer_keywords: ["WinHttpWriteData","WinHttpWriteData function [WinHTTP]","http.winhttpwritedata","winhttp.winhttpwritedata_function","winhttp/WinHttpWriteData"]
+description: The WinHttpWriteData function writes request data to an HTTP server.
+helpviewer_keywords: ["WinHttpWriteData","WinHttpWriteData function [WinHTTP]","http.winhttpwritedata","winhttp.winhttpwritedata_function","winhttp/WinHttpWriteData"]
 old-location: http\winhttpwritedata.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
 ms.date: 12/05/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData

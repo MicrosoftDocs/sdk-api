@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchByType
 title: IWSDiscoveryProvider::SearchByType (wsddisco.h)
-description: Initializes a search for WS-Discovery hosts by device type.helpviewer_keywords: ["IWSDiscoveryProvider interface","SearchByType method","IWSDiscoveryProvider.SearchByType","IWSDiscoveryProvider::SearchByType","SearchByType","SearchByType method","SearchByType method","IWSDiscoveryProvider interface","ncd.iwsdiscoveryprovider_searchbytype_method","wsddisco/IWSDiscoveryProvider::SearchByType"]
+description: Initializes a search for WS-Discovery hosts by device type.
+helpviewer_keywords: ["IWSDiscoveryProvider interface","SearchByType method","IWSDiscoveryProvider.SearchByType","IWSDiscoveryProvider::SearchByType","SearchByType","SearchByType method","SearchByType method","IWSDiscoveryProvider interface","ncd.iwsdiscoveryprovider_searchbytype_method","wsddisco/IWSDiscoveryProvider::SearchByType"]
 old-location: ncd\iwsdiscoveryprovider_searchbytype_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: bb1f2822-4d5d-4156-99e3-5a4528474953
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByType method, IWSDiscoveryProvider.SearchByType, IWSDiscoveryProvider::SearchByType, SearchByType, SearchByType method, SearchByType method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbytype_method, wsddisco/IWSDiscoveryProvider::SearchByType

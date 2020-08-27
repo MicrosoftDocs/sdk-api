@@ -1,7 +1,8 @@
 ---
 UID: NE:richedit.tagTextMode
 title: TEXTMODE (richedit.h)
-description: Indicates the text mode of a rich edit control. The EM_SETTEXTMODE and EM_GETTEXTMODE messages use this enumeration type.helpviewer_keywords: ["TEXTMODE","TEXTMODE enumeration [Windows Controls]","TM_MULTICODEPAGE","TM_MULTILEVELUNDO","TM_PLAINTEXT","TM_RICHTEXT","TM_SINGLECODEPAGE","TM_SINGLELEVELUNDO","_win32_TEXTMODE_str","_win32_TEXTMODE_str_cpp","controls.TEXTMODE","controls._win32_TEXTMODE_str","richedit/TEXTMODE","richedit/TM_MULTICODEPAGE","richedit/TM_MULTILEVELUNDO","richedit/TM_PLAINTEXT","richedit/TM_RICHTEXT","richedit/TM_SINGLECODEPAGE","richedit/TM_SINGLELEVELUNDO"]
+description: Indicates the text mode of a rich edit control. The EM_SETTEXTMODE and EM_GETTEXTMODE messages use this enumeration type.
+helpviewer_keywords: ["TEXTMODE","TEXTMODE enumeration [Windows Controls]","TM_MULTICODEPAGE","TM_MULTILEVELUNDO","TM_PLAINTEXT","TM_RICHTEXT","TM_SINGLECODEPAGE","TM_SINGLELEVELUNDO","_win32_TEXTMODE_str","_win32_TEXTMODE_str_cpp","controls.TEXTMODE","controls._win32_TEXTMODE_str","richedit/TEXTMODE","richedit/TM_MULTICODEPAGE","richedit/TM_MULTILEVELUNDO","richedit/TM_PLAINTEXT","richedit/TM_RICHTEXT","richedit/TM_SINGLECODEPAGE","richedit/TM_SINGLELEVELUNDO"]
 old-location: controls\TEXTMODE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\textmode.htm

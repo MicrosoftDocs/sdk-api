@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Close
 title: ISpatialAudioMetadataCopier::Close (spatialaudiometadata.h)
-description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.helpviewer_keywords: ["Close","Close method [Core Audio]","Close method [Core Audio]","ISpatialAudioMetadataCopier interface","ISpatialAudioMetadataCopier interface [Core Audio]","Close method","ISpatialAudioMetadataCopier.Close","ISpatialAudioMetadataCopier::Close","coreaudio.ispatialaudiometadatacopier_close","spatialaudiometadata/ISpatialAudioMetadataCopier::Close"]
+description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
+helpviewer_keywords: ["Close","Close method [Core Audio]","Close method [Core Audio]","ISpatialAudioMetadataCopier interface","ISpatialAudioMetadataCopier interface [Core Audio]","Close method","ISpatialAudioMetadataCopier.Close","ISpatialAudioMetadataCopier::Close","coreaudio.ispatialaudiometadatacopier_close","spatialaudiometadata/ISpatialAudioMetadataCopier::Close"]
 old-location: coreaudio\ispatialaudiometadatacopier_close.htm
 tech.root: CoreAudio
 ms.assetid: 891AFF53-7CAB-49FA-A8D2-CAEEB91E860F

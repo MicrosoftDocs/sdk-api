@@ -1,9 +1,10 @@
 ---
 UID: NF:chstring.CHString.FormatV
 title: CHString::FormatV (chstring.h)
-description: The FormatV method writes a formatted string and a variable list of arguments to a CHString string.helpviewer_keywords: ["?FormatV@CHString@@QAEXPBGPAD@Z","?FormatV@CHString@@QEAAXPEBGPEAD@Z","CHString interface [Windows Management Instrumentation]","FormatV method","CHString.FormatV","CHString::FormatV","FormatV","FormatV method [Windows Management Instrumentation]","FormatV method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_formatv","chstring/CHString::FormatV","wmi.chstring_formatv"]
+description: The FormatV method writes a formatted string and a variable list of arguments to a CHString string.
+helpviewer_keywords: ["?FormatV@CHString@@QAEXPBGPAD@Z","?FormatV@CHString@@QEAAXPEBGPEAD@Z","CHString interface [Windows Management Instrumentation]","FormatV method","CHString.FormatV","CHString::FormatV","FormatV","FormatV method [Windows Management Instrumentation]","FormatV method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_formatv","chstring/CHString::FormatV","wmi.chstring_formatv"]
 old-location: wmi\chstring_formatv.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 55488cf0-0098-4d5b-b451-a5d56f30ed65
 ms.date: 12/05/2018
 ms.keywords: ?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@Z, CHString interface [Windows Management Instrumentation],FormatV method, CHString.FormatV, CHString::FormatV, FormatV, FormatV method [Windows Management Instrumentation], FormatV method [Windows Management Instrumentation],CHString interface, _hmm_chstring_formatv, chstring/CHString::FormatV, wmi.chstring_formatv

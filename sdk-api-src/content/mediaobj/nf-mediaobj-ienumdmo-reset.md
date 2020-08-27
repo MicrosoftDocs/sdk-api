@@ -1,9 +1,10 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Reset
 title: IEnumDMO::Reset (mediaobj.h)
-description: The Reset method resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumDMO interface [DirectShow]","Reset method","IEnumDMO.Reset","IEnumDMO::Reset","IEnumDMOReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumDMO interface","dshow.ienumdmo_reset","mediaobj/IEnumDMO::Reset"]
+description: The Reset method resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["IEnumDMO interface [DirectShow]","Reset method","IEnumDMO.Reset","IEnumDMO::Reset","IEnumDMOReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumDMO interface","dshow.ienumdmo_reset","mediaobj/IEnumDMO::Reset"]
 old-location: dshow\ienumdmo_reset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1a910c70-7f41-43d5-a677-c299b5181638
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO interface [DirectShow],Reset method, IEnumDMO.Reset, IEnumDMO::Reset, IEnumDMOReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumDMO interface, dshow.ienumdmo_reset, mediaobj/IEnumDMO::Reset

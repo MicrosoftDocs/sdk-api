@@ -4,7 +4,7 @@ title: IXpsOMObjectFactory::CreateFontResource (xpsobjectmodel.h)
 description: Creates an IXpsOMFontResource interface, which provides an IStream interface to the font resource.
 helpviewer_keywords: ["CreateFontResource","CreateFontResource method [XPS Documents and Packaging]","CreateFontResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateFontResource method","IXpsOMObjectFactory.CreateFontResource","IXpsOMObjectFactory::CreateFontResource","TRUE","xps.ixpsomobjectfactory_createfontresource","xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource"]
 old-location: xps\ixpsomobjectfactory_createfontresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 9893716b-5004-4886-9bed-49a447e97f42
 ms.date: 12/05/2018
 ms.keywords: CreateFontResource, CreateFontResource method [XPS Documents and Packaging], CreateFontResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateFontResource method, IXpsOMObjectFactory.CreateFontResource, IXpsOMObjectFactory::CreateFontResource, TRUE, xps.ixpsomobjectfactory_createfontresource, xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource

@@ -4,7 +4,7 @@ title: QueryUmsThreadInformation function (winbase.h)
 description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.
 helpviewer_keywords: ["QueryUmsThreadInformation","QueryUmsThreadInformation function","base.queryumsthreadinformation","winbase/QueryUmsThreadInformation"]
 old-location: base\queryumsthreadinformation.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.date: 12/05/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
@@ -68,7 +68,6 @@ A pointer to a UMS thread context.
 
 A UMS_THREAD_INFO_CLASS value that specifies the kind of information to retrieve. 
 
-
 ### -param UmsThreadInformation [out]
 
 A pointer to a buffer to receive the specified information. The required size of this buffer depends on the specified information class.
@@ -94,7 +93,7 @@ A pointer to a ULONG variable. On output, this parameter receives the number of 
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -132,8 +131,7 @@ The specified information class is not supported.
 ## -remarks
 
 
-
-The <b>QueryUmsThreadInformation</b> function retrieves information about the specified UMS worker thread such as its application-defined context, its thread execution block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>), and whether the thread is suspended or terminated. 
+The <b>QueryUmsThreadInformation</b> function retrieves information about the specified UMS worker thread such as its application-defined context, its thread execution block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>), and whether the thread is suspended or terminated. 
 
 The underlying structures for UMS worker threads are managed by the system. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
 
@@ -143,9 +141,9 @@ The underlying structures for UMS worker threads are managed by the system. Info
 ## -see-also
 
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
+ 

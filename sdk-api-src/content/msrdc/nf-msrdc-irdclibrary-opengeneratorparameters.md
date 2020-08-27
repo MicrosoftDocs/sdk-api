@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcLibrary.OpenGeneratorParameters
 title: IRdcLibrary::OpenGeneratorParameters (msrdc.h)
-description: Opens an existing serialized parameter block and returns an IRdcGeneratorParameters interface pointer initialized with the data.helpviewer_keywords: ["IRdcLibrary interface [Remote Differential Compression]","OpenGeneratorParameters method","IRdcLibrary.OpenGeneratorParameters","IRdcLibrary::OpenGeneratorParameters","OpenGeneratorParameters","OpenGeneratorParameters method [Remote Differential Compression]","OpenGeneratorParameters method [Remote Differential Compression]","IRdcLibrary interface","fs.irdclibrary_opengeneratorparameters","msrdc/IRdcLibrary::OpenGeneratorParameters","rdc.irdclibrary_opengeneratorparameters"]
+description: Opens an existing serialized parameter block and returns an IRdcGeneratorParameters interface pointer initialized with the data.
+helpviewer_keywords: ["IRdcLibrary interface [Remote Differential Compression]","OpenGeneratorParameters method","IRdcLibrary.OpenGeneratorParameters","IRdcLibrary::OpenGeneratorParameters","OpenGeneratorParameters","OpenGeneratorParameters method [Remote Differential Compression]","OpenGeneratorParameters method [Remote Differential Compression]","IRdcLibrary interface","fs.irdclibrary_opengeneratorparameters","msrdc/IRdcLibrary::OpenGeneratorParameters","rdc.irdclibrary_opengeneratorparameters"]
 old-location: rdc\irdclibrary_opengeneratorparameters.htm
 tech.root: rdc
 ms.assetid: 6fbced31-a230-44d4-a9ee-bb3e15df2563

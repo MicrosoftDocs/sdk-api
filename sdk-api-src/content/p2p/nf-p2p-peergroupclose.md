@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupClose
 title: PeerGroupClose function (p2p.h)
-description: The PeerGroupClose function invalidates the peer group handle obtained by a previous call to the PeerGroupCreate, PeerGroupJoin, or PeerGroupOpen function.helpviewer_keywords: ["PeerGroupClose","PeerGroupClose function [Peer Networking]","p2p.peergroupclose","p2p/PeerGroupClose"]
+description: The PeerGroupClose function invalidates the peer group handle obtained by a previous call to the PeerGroupCreate, PeerGroupJoin, or PeerGroupOpen function.
+helpviewer_keywords: ["PeerGroupClose","PeerGroupClose function [Peer Networking]","p2p.peergroupclose","p2p/PeerGroupClose"]
 old-location: p2p\peergroupclose.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 4438e6c1-8c25-4656-bac5-dda43421ee43
 ms.date: 12/05/2018
 ms.keywords: PeerGroupClose, PeerGroupClose function [Peer Networking], p2p.peergroupclose, p2p/PeerGroupClose

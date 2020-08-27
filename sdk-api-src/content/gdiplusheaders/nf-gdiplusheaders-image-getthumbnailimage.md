@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetThumbnailImage
 title: Image::GetThumbnailImage (gdiplusheaders.h)
-description: The Image::GetThumbnailImage method gets a thumbnail image from this Image object.helpviewer_keywords: ["GetThumbnailImage","GetThumbnailImage method [GDI+]","GetThumbnailImage method [GDI+]","Image class","Image class [GDI+]","GetThumbnailImage method","Image.GetThumbnailImage","Image::GetThumbnailImage","_gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_","gdiplus._gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_"]
+description: The Image::GetThumbnailImage method gets a thumbnail image from this Image object.
+helpviewer_keywords: ["GetThumbnailImage","GetThumbnailImage method [GDI+]","GetThumbnailImage method [GDI+]","Image class","Image class [GDI+]","GetThumbnailImage method","Image.GetThumbnailImage","Image::GetThumbnailImage","_gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_","gdiplus._gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getthumbnailimage.htm

@@ -2,7 +2,7 @@
 UID: NS:directml.DML_SCATTER_OPERATOR_DESC
 title: DML_SCATTER_OPERATOR_DESC
 description: Describes a DirectML operator that copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/31/2020
 dev_langs:
 - c++

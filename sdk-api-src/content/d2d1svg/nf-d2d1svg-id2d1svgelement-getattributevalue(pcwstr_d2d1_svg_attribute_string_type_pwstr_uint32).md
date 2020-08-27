@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_STRING_TYPE,PWSTR,UINT32)
 title: ID2D1SvgElement::GetAttributeValue (d2d1svg.h)
-description: Gets an attribute of this element as a string.helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","D2D1_SVG_ATTRIBUTE_STRING_TYPE","PWSTR","UINT32)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue"]
+description: Gets an attribute of this element as a string.
+helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","D2D1_SVG_ATTRIBUTE_STRING_TYPE","PWSTR","UINT32)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue"]
 old-location: direct2d\id2d1svgelement_getattributevalue.htm
 tech.root: Direct2D
 ms.assetid: 3C05DC2D-6B45-4979-8BBC-CD437068B92A
@@ -64,7 +65,7 @@ Type: <b>PCWSTR</b>
 The name of the attribute.
 
 
-#### - type
+### - type
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_string_type">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
 
@@ -78,7 +79,7 @@ Type: <b>PWSTR</b>
 The value of the attribute.
 
 
-#### - valueCount
+### - valueCount
 
 Type: <b>UINT32</b>
 

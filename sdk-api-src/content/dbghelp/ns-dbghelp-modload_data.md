@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._MODLOAD_DATA
 title: MODLOAD_DATA (dbghelp.h)
-description: Contains module data.helpviewer_keywords: ["*PMODLOAD_DATA","DBHHEADER_CVMISC","DBHHEADER_DEBUGDIRS","MODLOAD_DATA","MODLOAD_DATA structure","PMODLOAD_DATA","PMODLOAD_DATA structure pointer","_MODLOAD_DATA","_win32_modload_data_str","base.modload_data_str","dbghelp/MODLOAD_DATA","dbghelp/PMODLOAD_DATA"]
+description: Contains module data.
+helpviewer_keywords: ["*PMODLOAD_DATA","DBHHEADER_CVMISC","DBHHEADER_DEBUGDIRS","MODLOAD_DATA","MODLOAD_DATA structure","PMODLOAD_DATA","PMODLOAD_DATA structure pointer","_MODLOAD_DATA","_win32_modload_data_str","base.modload_data_str","dbghelp/MODLOAD_DATA","dbghelp/PMODLOAD_DATA"]
 old-location: base\modload_data_str.htm
 tech.root: Debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e

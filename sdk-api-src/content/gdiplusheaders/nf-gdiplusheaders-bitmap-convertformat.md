@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.ConvertFormat
 title: Bitmap::ConvertFormat (gdiplusheaders.h)
-description: The Bitmap::ConvertFormat method converts a bitmap to a specified pixel format. The original pixel data in the bitmap is replaced by the new pixel data.helpviewer_keywords: ["Bitmap class [GDI+]","ConvertFormat method","Bitmap.ConvertFormat","Bitmap::ConvertFormat","ConvertFormat","ConvertFormat method [GDI+]","ConvertFormat method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_ConvertFormat_","gdiplus._gdiplus_CLASS_Bitmap_ConvertFormat_"]
+description: The Bitmap::ConvertFormat method converts a bitmap to a specified pixel format. The original pixel data in the bitmap is replaced by the new pixel data.
+helpviewer_keywords: ["Bitmap class [GDI+]","ConvertFormat method","Bitmap.ConvertFormat","Bitmap::ConvertFormat","ConvertFormat","ConvertFormat method [GDI+]","ConvertFormat method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_ConvertFormat_","gdiplus._gdiplus_CLASS_Bitmap_ConvertFormat_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_ConvertFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\convertformat.htm

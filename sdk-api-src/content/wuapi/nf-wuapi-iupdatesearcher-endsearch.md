@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EndSearch
 title: IUpdateSearcher::EndSearch (wuapi.h)
-description: Completes an asynchronous search for updates.helpviewer_keywords: ["EndSearch","EndSearch method [Windows Update Agent]","EndSearch method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","EndSearch method","IUpdateSearcher.EndSearch","IUpdateSearcher::EndSearch","wua.iupdatesearcherendsearch","wuapi/IUpdateSearcher::EndSearch"]
+description: Completes an asynchronous search for updates.
+helpviewer_keywords: ["EndSearch","EndSearch method [Windows Update Agent]","EndSearch method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","EndSearch method","IUpdateSearcher.EndSearch","IUpdateSearcher::EndSearch","wua.iupdatesearcherendsearch","wuapi/IUpdateSearcher::EndSearch"]
 old-location: wua\iupdatesearcherendsearch.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.date: 12/05/2018
 ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EndSearch method, IUpdateSearcher.EndSearch, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch

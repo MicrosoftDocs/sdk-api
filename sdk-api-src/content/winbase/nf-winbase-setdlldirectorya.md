@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetDllDirectoryA
 title: SetDllDirectoryA function (winbase.h)
-description: Adds a directory to the search path used to locate DLLs for the application.helpviewer_keywords: ["SetDllDirectory","SetDllDirectory function","SetDllDirectoryA","SetDllDirectoryW","base.setdlldirectory","winbase/SetDllDirectory","winbase/SetDllDirectoryA","winbase/SetDllDirectoryW"]
+description: Adds a directory to the search path used to locate DLLs for the application.
+helpviewer_keywords: ["SetDllDirectory","SetDllDirectory function","SetDllDirectoryA","SetDllDirectoryW","base.setdlldirectory","winbase/SetDllDirectory","winbase/SetDllDirectoryA","winbase/SetDllDirectoryW"]
 old-location: base\setdlldirectory.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
 ms.date: 12/05/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
@@ -92,6 +93,9 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> functions. It also effectively disables safe DLL search mode while the specified directory is in the search path. 
 
+> [!NOTE]
+> For Win32 processes that are **not** running a packaged or protected process, calling this function will also affect the DLL search order of the children processes started from the process that has called the function.
+
 After calling 
 <b>SetDllDirectory</b>, the standard DLL search path is:
 
@@ -117,6 +121,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0502
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines SetDllDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

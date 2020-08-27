@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetGraphicsPath
 title: PathGradientBrush::GetGraphicsPath (gdipluspath.h)
-description: The PathGradientBrush::GetGraphicsPath method is not implemented in Windows GDI+ version 1.0.helpviewer_keywords: ["GetGraphicsPath","GetGraphicsPath method [GDI+]","GetGraphicsPath method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetGraphicsPath method","PathGradientBrush.GetGraphicsPath","PathGradientBrush::GetGraphicsPath","_gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_"]
+description: The PathGradientBrush::GetGraphicsPath method is not implemented in Windows GDI+ version 1.0.
+helpviewer_keywords: ["GetGraphicsPath","GetGraphicsPath method [GDI+]","GetGraphicsPath method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetGraphicsPath method","PathGradientBrush.GetGraphicsPath","PathGradientBrush::GetGraphicsPath","_gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetGraphicsPath_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgraphicspath.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMLanguageList
 title: IWMLanguageList (wmsdkidl.h)
-description: The IWMLanguageList interface manages a list of languages supported by an ASF file.helpviewer_keywords: ["IWMLanguageList","IWMLanguageList interface [windows Media Format]","IWMLanguageList interface [windows Media Format]","described","IWMLanguageListInterface","wmformat.iwmlanguagelist","wmsdkidl/IWMLanguageList"]
+description: The IWMLanguageList interface manages a list of languages supported by an ASF file.
+helpviewer_keywords: ["IWMLanguageList","IWMLanguageList interface [windows Media Format]","IWMLanguageList interface [windows Media Format]","described","IWMLanguageListInterface","wmformat.iwmlanguagelist","wmsdkidl/IWMLanguageList"]
 old-location: wmformat\iwmlanguagelist.htm
 tech.root: wmformat
 ms.assetid: 63ef282c-d1ab-4ce9-a56b-209407c7839b

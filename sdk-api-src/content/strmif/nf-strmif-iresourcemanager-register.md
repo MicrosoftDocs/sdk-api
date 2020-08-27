@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IResourceManager.Register
 title: IResourceManager::Register (strmif.h)
-description: The Register method registers a single named resource with the resource manager.helpviewer_keywords: ["IResourceManager interface [DirectShow]","Register method","IResourceManager.Register","IResourceManager::Register","IResourceManagerRegister","Register","Register method [DirectShow]","Register method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_register","strmif/IResourceManager::Register"]
+description: The Register method registers a single named resource with the resource manager.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","Register method","IResourceManager.Register","IResourceManager::Register","IResourceManagerRegister","Register","Register method [DirectShow]","Register method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_register","strmif/IResourceManager::Register"]
 old-location: dshow\iresourcemanager_register.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 23fa6830-144b-479f-8a8e-b637d82f51d1
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceManager.Register, IResourceManager::Register, IResourceManagerRegister, Register, Register method [DirectShow], Register method [DirectShow],IResourceManager interface, dshow.iresourcemanager_register, strmif/IResourceManager::Register

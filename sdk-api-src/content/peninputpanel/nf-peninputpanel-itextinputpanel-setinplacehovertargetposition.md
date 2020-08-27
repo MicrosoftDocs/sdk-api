@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceHoverTargetPosition
 title: ITextInputPanel::SetInPlaceHoverTargetPosition (peninputpanel.h)
-description: Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.helpviewer_keywords: ["1f007a76-8499-4128-8525-0498ddeb7300","ITextInputPanel interface [Tablet PC]","SetInPlaceHoverTargetPosition method","ITextInputPanel.SetInPlaceHoverTargetPosition","ITextInputPanel::SetInPlaceHoverTargetPosition","SetInPlaceHoverTargetPosition","SetInPlaceHoverTargetPosition method [Tablet PC]","SetInPlaceHoverTargetPosition method [Tablet PC]","ITextInputPanel interface","peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition","tablet.itextinputpanel_setinplacehovertargetposition"]
+description: Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.
+helpviewer_keywords: ["1f007a76-8499-4128-8525-0498ddeb7300","ITextInputPanel interface [Tablet PC]","SetInPlaceHoverTargetPosition method","ITextInputPanel.SetInPlaceHoverTargetPosition","ITextInputPanel::SetInPlaceHoverTargetPosition","SetInPlaceHoverTargetPosition","SetInPlaceHoverTargetPosition method [Tablet PC]","SetInPlaceHoverTargetPosition method [Tablet PC]","ITextInputPanel interface","peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition","tablet.itextinputpanel_setinplacehovertargetposition"]
 old-location: tablet\itextinputpanel_setinplacehovertargetposition.htm
 tech.root: tablet
 ms.assetid: 1f007a76-8499-4128-8525-0498ddeb7300

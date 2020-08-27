@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkTransactedA
 title: CreateSymbolicLinkTransactedA function (winbase.h)
-description: Creates a symbolic link as a transacted operation.helpviewer_keywords: ["CreateSymbolicLinkTransacted","CreateSymbolicLinkTransacted function [Files]","CreateSymbolicLinkTransactedA","CreateSymbolicLinkTransactedW","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclinktransacted","winbase/CreateSymbolicLinkTransacted","winbase/CreateSymbolicLinkTransactedA","winbase/CreateSymbolicLinkTransactedW"]
+description: Creates a symbolic link as a transacted operation.
+helpviewer_keywords: ["CreateSymbolicLinkTransacted","CreateSymbolicLinkTransacted function [Files]","CreateSymbolicLinkTransactedA","CreateSymbolicLinkTransactedW","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclinktransacted","winbase/CreateSymbolicLinkTransacted","winbase/CreateSymbolicLinkTransactedA","winbase/CreateSymbolicLinkTransactedW"]
 old-location: fs\createsymboliclinktransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e440b940-129b-4638-a0b5-8f516687c74e
 ms.date: 12/05/2018
 ms.keywords: CreateSymbolicLinkTransacted, CreateSymbolicLinkTransacted function [Files], CreateSymbolicLinkTransactedA, CreateSymbolicLinkTransactedW, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclinktransacted, winbase/CreateSymbolicLinkTransacted, winbase/CreateSymbolicLinkTransactedA, winbase/CreateSymbolicLinkTransactedW
@@ -223,6 +224,10 @@ SMB 3.0 does not support TxF.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CreateSymbolicLinkTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

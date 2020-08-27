@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.AddDeviceDlg
 title: IWiaDevMgr::AddDeviceDlg (wia_xp.h)
-description: This method is not implemented.helpviewer_keywords: ["AddDeviceDlg","AddDeviceDlg method [WIA]","AddDeviceDlg method [WIA]","IWiaDevMgr interface","IWiaDevMgr interface [WIA]","AddDeviceDlg method","IWiaDevMgr.AddDeviceDlg","IWiaDevMgr::AddDeviceDlg","_wia_IWiaDevMgr_AddDeviceDlg","wia._wia_IWiaDevMgr_AddDeviceDlg","wia_xp/IWiaDevMgr::AddDeviceDlg"]
+description: This method is not implemented.
+helpviewer_keywords: ["AddDeviceDlg","AddDeviceDlg method [WIA]","AddDeviceDlg method [WIA]","IWiaDevMgr interface","IWiaDevMgr interface [WIA]","AddDeviceDlg method","IWiaDevMgr.AddDeviceDlg","IWiaDevMgr::AddDeviceDlg","_wia_IWiaDevMgr_AddDeviceDlg","wia._wia_IWiaDevMgr_AddDeviceDlg","wia_xp/IWiaDevMgr::AddDeviceDlg"]
 old-location: wia\_wia_IWiaDevMgr_AddDeviceDlg.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\adddevicedlg.htm

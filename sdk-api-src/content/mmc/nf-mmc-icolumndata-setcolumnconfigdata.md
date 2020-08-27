@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IColumnData.SetColumnConfigData
 title: IColumnData::SetColumnConfigData (mmc.h)
-description: The IColumnData::SetColumnConfigData method enables a snap-in to set the persisted width, order, and hidden status of columns in a column set.helpviewer_keywords: ["IColumnData interface [MMC]","SetColumnConfigData method","IColumnData.SetColumnConfigData","IColumnData::SetColumnConfigData","SetColumnConfigData","SetColumnConfigData method [MMC]","SetColumnConfigData method [MMC]","IColumnData interface","_slate_icolumndata_setcolumnconfigdata","mmc.icolumndata_setcolumnconfigdata","mmc/IColumnData::SetColumnConfigData"]
+description: The IColumnData::SetColumnConfigData method enables a snap-in to set the persisted width, order, and hidden status of columns in a column set.
+helpviewer_keywords: ["IColumnData interface [MMC]","SetColumnConfigData method","IColumnData.SetColumnConfigData","IColumnData::SetColumnConfigData","SetColumnConfigData","SetColumnConfigData method [MMC]","SetColumnConfigData method [MMC]","IColumnData interface","_slate_icolumndata_setcolumnconfigdata","mmc.icolumndata_setcolumnconfigdata","mmc/IColumnData::SetColumnConfigData"]
 old-location: mmc\icolumndata_setcolumnconfigdata.htm
 tech.root: mmc
 ms.assetid: 2f6727bd-b7ba-4e91-9dce-53605b0b6fe1

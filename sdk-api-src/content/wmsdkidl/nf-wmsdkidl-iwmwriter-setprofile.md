@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetProfile
 title: IWMWriter::SetProfile (wmsdkidl.h)
-description: The SetProfile method specifies the profile to use for the current writing task.helpviewer_keywords: ["IWMWriter interface [windows Media Format]","SetProfile method","IWMWriter.SetProfile","IWMWriter::SetProfile","IWMWriterSetProfile","SetProfile","SetProfile method [windows Media Format]","SetProfile method [windows Media Format]","IWMWriter interface","wmformat.iwmwriter_setprofile","wmsdkidl/IWMWriter::SetProfile"]
+description: The SetProfile method specifies the profile to use for the current writing task.
+helpviewer_keywords: ["IWMWriter interface [windows Media Format]","SetProfile method","IWMWriter.SetProfile","IWMWriter::SetProfile","IWMWriterSetProfile","SetProfile","SetProfile method [windows Media Format]","SetProfile method [windows Media Format]","IWMWriter interface","wmformat.iwmwriter_setprofile","wmsdkidl/IWMWriter::SetProfile"]
 old-location: wmformat\iwmwriter_setprofile.htm
 tech.root: wmformat
 ms.assetid: 1a931896-c102-4b3b-a5a3-b3ef85b276b9

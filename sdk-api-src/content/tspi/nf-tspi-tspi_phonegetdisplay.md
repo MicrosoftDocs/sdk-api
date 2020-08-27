@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_phoneGetDisplay
 title: TSPI_phoneGetDisplay function (tspi.h)
-description: The TSPI_phoneGetDisplay function returns the current contents of the specified phone display.helpviewer_keywords: ["TSPI_phoneGetDisplay","TSPI_phoneGetDisplay function [TAPI 2.2]","_tspi_tspi_phonegetdisplay","tspi.tspi_phonegetdisplay","tspi/TSPI_phoneGetDisplay"]
+description: The TSPI_phoneGetDisplay function returns the current contents of the specified phone display.
+helpviewer_keywords: ["TSPI_phoneGetDisplay","TSPI_phoneGetDisplay function [TAPI 2.2]","_tspi_tspi_phonegetdisplay","tspi.tspi_phonegetdisplay","tspi/TSPI_phoneGetDisplay"]
 old-location: tspi\tspi_phonegetdisplay.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: dff5fdc5-a627-4282-85d3-2a7ceaf063ed
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetDisplay, TSPI_phoneGetDisplay function [TAPI 2.2], _tspi_tspi_phonegetdisplay, tspi.tspi_phonegetdisplay, tspi/TSPI_phoneGetDisplay

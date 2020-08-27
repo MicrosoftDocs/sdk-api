@@ -1,9 +1,10 @@
 ---
 UID: NN:tpmvscmgr.ITpmVirtualSmartCardManager
 title: ITpmVirtualSmartCardManager (tpmvscmgr.h)
-description: Manages the TPM virtual smart cards.helpviewer_keywords: ["ITpmVirtualSmartCardManager","ITpmVirtualSmartCardManager interface [Security]","ITpmVirtualSmartCardManager interface [Security]","described","security.itpmvirtualsmartcardmanager","tpmvscmgr/ITpmVirtualSmartCardManager"]
+description: Manages the TPM virtual smart cards.
+helpviewer_keywords: ["ITpmVirtualSmartCardManager","ITpmVirtualSmartCardManager interface [Security]","ITpmVirtualSmartCardManager interface [Security]","described","security.itpmvirtualsmartcardmanager","tpmvscmgr/ITpmVirtualSmartCardManager"]
 old-location: security\itpmvirtualsmartcardmanager.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager

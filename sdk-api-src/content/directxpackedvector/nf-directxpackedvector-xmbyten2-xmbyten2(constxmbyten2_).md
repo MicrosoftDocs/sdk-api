@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(const XMBYTEN2 &)
+UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(constXMBYTEN2&)
 title: XMBYTEN2::XMBYTEN2(const XMBYTEN2 &) (directxpackedvector.h)
-description: A constructor for XMBYTEN2.helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2()","XMBYTEN2.XMBYTEN2(const XMBYTEN2 &)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(const XMBYTEN2 &)","dxmath.xmbyten2_ctor_1"]
+description: A constructor for XMBYTEN2.
+helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2()","XMBYTEN2.XMBYTEN2(const XMBYTEN2 &)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(const XMBYTEN2 &)","dxmath.xmbyten2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 05/06/2019

@@ -4,7 +4,7 @@ title: FSCTL_SET_INTEGRITY_INFORMATION
 description: Retrieves the integrity status of a file or directory on a ReFS volume.
 helpviewer_keywords: ["FSCTL_SET_INTEGRITY_INFORMATION","FSCTL_SET_INTEGRITY_INFORMATION control","FSCTL_SET_INTEGRITY_INFORMATION control code [Files]","fs.fsctl_set_integrity_information","winioctl/FSCTL_SET_INTEGRITY_INFORMATION"]
 old-location: fs\fsctl_set_integrity_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: bd5be96d-6fdc-4fad-9d01-81b913a5b653
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_INTEGRITY_INFORMATION, FSCTL_SET_INTEGRITY_INFORMATION control, FSCTL_SET_INTEGRITY_INFORMATION control code [Files], fs.fsctl_set_integrity_information, winioctl/FSCTL_SET_INTEGRITY_INFORMATION

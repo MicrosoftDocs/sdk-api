@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixAffineTransformation
 title: XMMatrixAffineTransformation function (directxmath.h)
-description: Builds an affine transformation matrix.helpviewer_keywords: ["Use DirectX..XMMatrixAffineTransformation","XMMatrixAffineTransformation","XMMatrixAffineTransformation method [DirectX Math Support APIs]","dxmath.xmmatrixaffinetransformation"]
+description: Builds an affine transformation matrix.
+helpviewer_keywords: ["Use DirectX..XMMatrixAffineTransformation","XMMatrixAffineTransformation","XMMatrixAffineTransformation method [DirectX Math Support APIs]","dxmath.xmmatrixaffinetransformation"]
 old-location: dxmath\xmmatrixaffinetransformation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixAffineTransformation(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

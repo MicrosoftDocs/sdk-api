@@ -1,7 +1,8 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.ParametersChanged
 title: CXAPOParametersBase::ParametersChanged (xapobase.h)
-description: Indicates if IXAPOParameters::SetParameters has been called since the last processing pass.helpviewer_keywords: ["CXAPOParametersBase interface [XAudio2 Audio Mixing APIs]","ParametersChanged method","CXAPOParametersBase.ParametersChanged","CXAPOParametersBase::ParametersChanged","ParametersChanged","ParametersChanged method [XAudio2 Audio Mixing APIs]","ParametersChanged method [XAudio2 Audio Mixing APIs]","CXAPOParametersBase interface","xapobase/CXAPOParametersBase::ParametersChanged","xaudio2.cxapoparametersbase_parameterschanged"]
+description: Indicates if IXAPOParameters::SetParameters has been called since the last processing pass.
+helpviewer_keywords: ["CXAPOParametersBase interface [XAudio2 Audio Mixing APIs]","ParametersChanged method","CXAPOParametersBase.ParametersChanged","CXAPOParametersBase::ParametersChanged","ParametersChanged","ParametersChanged method [XAudio2 Audio Mixing APIs]","ParametersChanged method [XAudio2 Audio Mixing APIs]","CXAPOParametersBase interface","xapobase/CXAPOParametersBase::ParametersChanged","xaudio2.cxapoparametersbase_parameterschanged"]
 old-location: xaudio2\cxapoparametersbase_parameterschanged.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.ParametersChanged

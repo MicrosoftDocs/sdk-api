@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMHeaderInfo
 title: IWMHeaderInfo (wmsdkidl.h)
-description: The IWMHeaderInfo interface sets and retrieves information in the header section of an ASF file.helpviewer_keywords: ["IWMHeaderInfo","IWMHeaderInfo interface [windows Media Format]","IWMHeaderInfo interface [windows Media Format]","described","IWMHeaderInfoInterface","wmformat.iwmheaderinfo","wmsdkidl/IWMHeaderInfo"]
+description: The IWMHeaderInfo interface sets and retrieves information in the header section of an ASF file.
+helpviewer_keywords: ["IWMHeaderInfo","IWMHeaderInfo interface [windows Media Format]","IWMHeaderInfo interface [windows Media Format]","described","IWMHeaderInfoInterface","wmformat.iwmheaderinfo","wmsdkidl/IWMHeaderInfo"]
 old-location: wmformat\iwmheaderinfo.htm
 tech.root: wmformat
 ms.assetid: 649f9a73-c70a-4524-b577-366ade969f2f

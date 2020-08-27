@@ -1,7 +1,8 @@
 ---
-UID: NF:dwrite_3.IDWriteFactory3.CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
+UID: NF:dwrite_3.IDWriteFactory3.CreateFontFaceReference(WCHARconst,FILETIMEconst,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
 title: IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference) (dwrite_3.h)
-description: Creates a reference to a font given a full path.helpviewer_keywords: ["CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontFaceReference method","IDWriteFactory3.CreateFontFaceReference","IDWriteFactory3.CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","IDWriteFactory3::CreateFontFaceReference","IDWriteFactory3::CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","directwrite.idwritefactory3_createfontfacereference","dwrite_3/IDWriteFactory3::CreateFontFaceReference"]
+description: Creates a reference to a font given a full path.
+helpviewer_keywords: ["CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontFaceReference method","IDWriteFactory3.CreateFontFaceReference","IDWriteFactory3.CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","IDWriteFactory3::CreateFontFaceReference","IDWriteFactory3::CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","directwrite.idwritefactory3_createfontfacereference","dwrite_3/IDWriteFactory3::CreateFontFaceReference"]
 old-location: directwrite\idwritefactory3_createfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 3ae2150b-af56-65f5-fe38-7ecea16cf0b8
@@ -57,7 +58,7 @@ Creates a reference to a font given a full path.
 
 
 
-#### - filePath [in]
+### -param filePath [in]
 
 Type: <b>WCHAR</b>
 
@@ -65,7 +66,7 @@ Absolute file path. Subsequent operations on the constructed object may fail
           if the user provided filePath doesn't correspond to a valid file on the disk.
 
 
-#### - lastWriteTime [in, optional]
+### -param lastWriteTime [in, optional]
 
 Type: <b>FILETIME</b>
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:avrt.AvQuerySystemResponsiveness
 title: AvQuerySystemResponsiveness function (avrt.h)
-description: Retrieves the system responsiveness setting used by the multimedia class scheduler service.helpviewer_keywords: ["AvQuerySystemResponsiveness","AvQuerySystemResponsiveness function","avrt/AvQuerySystemResponsiveness","base.avquerysystemresponsiveness"]
+description: Retrieves the system responsiveness setting used by the multimedia class scheduler service.
+helpviewer_keywords: ["AvQuerySystemResponsiveness","AvQuerySystemResponsiveness function","avrt/AvQuerySystemResponsiveness","base.avquerysystemresponsiveness"]
 old-location: base\avquerysystemresponsiveness.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 87184232-9f58-4a59-87e9-fdd081a7dc5c
 ms.date: 12/05/2018
 ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, avrt/AvQuerySystemResponsiveness, base.avquerysystemresponsiveness

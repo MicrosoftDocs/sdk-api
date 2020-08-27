@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.GetLocaleID
 title: IPropertyPageSite::GetLocaleID (ocidl.h)
-description: Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.helpviewer_keywords: ["GetLocaleID","GetLocaleID method [COM]","GetLocaleID method [COM]","IPropertyPageSite interface","IPropertyPageSite interface [COM]","GetLocaleID method","IPropertyPageSite.GetLocaleID","IPropertyPageSite::GetLocaleID","_ctrl_ipropertypagesite_getlocaleid","com.ipropertypagesite_getlocaleid","ocidl/IPropertyPageSite::GetLocaleID"]
+description: Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.
+helpviewer_keywords: ["GetLocaleID","GetLocaleID method [COM]","GetLocaleID method [COM]","IPropertyPageSite interface","IPropertyPageSite interface [COM]","GetLocaleID method","IPropertyPageSite.GetLocaleID","IPropertyPageSite::GetLocaleID","_ctrl_ipropertypagesite_getlocaleid","com.ipropertypagesite_getlocaleid","ocidl/IPropertyPageSite::GetLocaleID"]
 old-location: com\ipropertypagesite_getlocaleid.htm
 tech.root: com
 ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66

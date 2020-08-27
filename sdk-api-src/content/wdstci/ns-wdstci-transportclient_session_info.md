@@ -1,7 +1,8 @@
 ---
 UID: NS:wdstci._TRANSPORTCLIENT_SESSION_INFO
 title: TRANSPORTCLIENT_SESSION_INFO (wdstci.h)
-description: This structure is used by the PFN_WdsTransportClientSessionStartEx callback function.helpviewer_keywords: ["*PTRANSPORTCLIENT_SESSION_INFO","PTRANSPORTCLIENT_SESSION_INFO","PTRANSPORTCLIENT_SESSION_INFO structure pointer [Windows Deployment Services]","TRANSPORTCLIENT_SESSION_INFO","TRANSPORTCLIENT_SESSION_INFO structure [Windows Deployment Services]","wds.transportclient_session_info","wdstci/PTRANSPORTCLIENT_SESSION_INFO","wdstci/TRANSPORTCLIENT_SESSION_INFO"]
+description: This structure is used by the PFN_WdsTransportClientSessionStartEx callback function.
+helpviewer_keywords: ["*PTRANSPORTCLIENT_SESSION_INFO","PTRANSPORTCLIENT_SESSION_INFO","PTRANSPORTCLIENT_SESSION_INFO structure pointer [Windows Deployment Services]","TRANSPORTCLIENT_SESSION_INFO","TRANSPORTCLIENT_SESSION_INFO structure [Windows Deployment Services]","wds.transportclient_session_info","wdstci/PTRANSPORTCLIENT_SESSION_INFO","wdstci/TRANSPORTCLIENT_SESSION_INFO"]
 old-location: wds\transportclient_session_info.htm
 tech.root: wds
 ms.assetid: 21c96849-e122-4c4b-9d12-9f1c24908ac2

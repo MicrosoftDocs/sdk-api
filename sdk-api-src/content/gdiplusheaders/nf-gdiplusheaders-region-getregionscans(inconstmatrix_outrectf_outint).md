@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusheaders.Region.GetRegionScans(IN const Matrix,OUT RectF,OUT INT)
+UID: NF:gdiplusheaders.Region.GetRegionScans(INconstMatrix,OUTRectF,OUTINT)
 title: Region::GetRegionScans
-description: The Region::GetRegionScans method gets an array of rectangles that approximate this region.helpviewer_keywords: ["Region::GetRegionScans"]
+description: The Region::GetRegionScans method gets an array of rectangles that approximate this region.
+tech.root: gdiplus
+helpviewer_keywords: ["Region::GetRegionScans"]
 ms.assetid: 0bfb4eed-80f8-4a98-a264-1f47c60f58b8
 ms.date: 05/20/2019
 ms.keywords: Region::GetRegionScans

@@ -1,9 +1,10 @@
 ---
 UID: NF:winsvc.GetServiceDisplayNameA
 title: GetServiceDisplayNameA function (winsvc.h)
-description: Retrieves the display name of the specified service.helpviewer_keywords: ["GetServiceDisplayName","GetServiceDisplayName function","GetServiceDisplayNameA","GetServiceDisplayNameW","_win32_getservicedisplayname","base.getservicedisplayname","winsvc/GetServiceDisplayName","winsvc/GetServiceDisplayNameA","winsvc/GetServiceDisplayNameW"]
+description: Retrieves the display name of the specified service.
+helpviewer_keywords: ["GetServiceDisplayName","GetServiceDisplayName function","GetServiceDisplayNameA","GetServiceDisplayNameW","_win32_getservicedisplayname","base.getservicedisplayname","winsvc/GetServiceDisplayName","winsvc/GetServiceDisplayNameA","winsvc/GetServiceDisplayNameW"]
 old-location: base\getservicedisplayname.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
 ms.date: 12/05/2018
 ms.keywords: GetServiceDisplayName, GetServiceDisplayName function, GetServiceDisplayNameA, GetServiceDisplayNameW, _win32_getservicedisplayname, base.getservicedisplayname, winsvc/GetServiceDisplayName, winsvc/GetServiceDisplayNameA, winsvc/GetServiceDisplayNameW
@@ -52,28 +53,20 @@ ms.custom: 19H1
 
 # GetServiceDisplayNameA function
 
-
 ## -description
-
 
 Retrieves the display name of the specified service.
 
-
 ## -parameters
-
-
-
 
 ### -param hSCManager [in]
 
 A handle to the service control manager database, as returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function.
 
-
 ### -param lpServiceName [in]
 
 The service name. This name is the same as the service's registry key name. It is best to choose a name that is less than 256 characters.
-
 
 ### -param lpDisplayName [out, optional]
 
@@ -89,55 +82,32 @@ The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>pa
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
 
-
 ### -param lpcchBuffer [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by <i>lpDisplayName</i>, in <b>TCHARs</b>. 
-
 
 On output, this variable receives the size of the service's display name, in characters, excluding the null-terminating character.
 
 If the buffer pointed to by <i>lpDisplayName</i> is too small to contain the display name, the function does not store it. When the function returns, <i>lpcchBuffer</i> contains the size of the service's display name, excluding the null-terminating character.
 
-
 ## -returns
-
-
 
 If the functions succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 There are two names for a service: the service name and the display name. The service name is the name of the service's key in the registry. The display name is a user-friendly name that appears in the Services control panel application, and is used with the <b>NET START</b> command. To map the service name to the display name, use the 
 <b>GetServiceDisplayName</b> function. To map the display name to the service name, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-getservicekeynamea">GetServiceKeyName</a> function.
 
-
-
+> [!NOTE]
+> The winsvc.h header defines GetServiceDisplayName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-getservicekeynamea">GetServiceKeyName</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
- 
-
- 
-

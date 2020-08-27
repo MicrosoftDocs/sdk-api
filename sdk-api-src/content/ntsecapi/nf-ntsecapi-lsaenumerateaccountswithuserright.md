@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateAccountsWithUserRight
 title: LsaEnumerateAccountsWithUserRight function (ntsecapi.h)
-description: Returns the accounts in the database of a Local Security Authority (LSA) Policy object that hold a specified privilege.helpviewer_keywords: ["LsaEnumerateAccountsWithUserRight","LsaEnumerateAccountsWithUserRight function [Security]","_lsa_lsaenumerateaccountswithuserright","ntsecapi/LsaEnumerateAccountsWithUserRight","security.lsaenumerateaccountswithuserright"]
+description: Returns the accounts in the database of a Local Security Authority (LSA) Policy object that hold a specified privilege.
+helpviewer_keywords: ["LsaEnumerateAccountsWithUserRight","LsaEnumerateAccountsWithUserRight function [Security]","_lsa_lsaenumerateaccountswithuserright","ntsecapi/LsaEnumerateAccountsWithUserRight","security.lsaenumerateaccountswithuserright"]
 old-location: security\lsaenumerateaccountswithuserright.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright

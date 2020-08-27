@@ -4,7 +4,7 @@ title: PEER_EVENT_CONNECTION_CHANGE_DATA (p2p.h)
 description: Points to the PEER_EVENT_CONNECTION_CHANGE_DATA structure if one of the following peer events is triggered.
 helpviewer_keywords: ["*PPEER_EVENT_CONNECTION_CHANGE_DATA","PEER_CONNECTED","PEER_CONNECTION_FAILED","PEER_DISCONNECTED","PEER_EVENT_CONNECTION_CHANGE_DATA","PEER_EVENT_CONNECTION_CHANGE_DATA structure [Peer Networking]","PPEER_EVENT_CONNECTION_CHANGE_DATA","PPEER_EVENT_CONNECTION_CHANGE_DATA structure pointer [Peer Networking]","p2p.peer_event_connection_change_data","p2p/PPEER_EVENT_CONNECTION_CHANGE_DATA","p2p/peer_event_connection_change_data_tag"]
 old-location: p2p\peer_event_connection_change_data.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 0d73432c-c1e5-4fa9-a812-377b22a47440
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_EVENT_CONNECTION_CHANGE_DATA, PEER_CONNECTED, PEER_CONNECTION_FAILED, PEER_DISCONNECTED, PEER_EVENT_CONNECTION_CHANGE_DATA, PEER_EVENT_CONNECTION_CHANGE_DATA structure [Peer Networking], PPEER_EVENT_CONNECTION_CHANGE_DATA, PPEER_EVENT_CONNECTION_CHANGE_DATA structure pointer [Peer Networking], p2p.peer_event_connection_change_data, p2p/PPEER_EVENT_CONNECTION_CHANGE_DATA, p2p/peer_event_connection_change_data_tag'
@@ -154,7 +154,7 @@ Specifies the unique ID for the node that has changed.
  
 
 
-#### - ullNextConnectionID
+### -field ullNextConnectionID
 
 <b>Windows Vista or later.</b> Contains the next available node ID that the grouping or graphing APIs will attempt to connect to when a connection fails. If this member has a value of 0, no further connections will be attempted.
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CreateNamedPipeA
 title: CreateNamedPipeA function (winbase.h)
-description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.helpviewer_keywords: ["ACCESS_SYSTEM_SECURITY","CreateNamedPipe","CreateNamedPipe function","CreateNamedPipeA","CreateNamedPipeW","FILE_FLAG_FIRST_PIPE_INSTANCE","FILE_FLAG_OVERLAPPED","FILE_FLAG_WRITE_THROUGH","PIPE_ACCEPT_REMOTE_CLIENTS","PIPE_ACCESS_DUPLEX","PIPE_ACCESS_INBOUND","PIPE_ACCESS_OUTBOUND","PIPE_NOWAIT","PIPE_READMODE_BYTE","PIPE_READMODE_MESSAGE","PIPE_REJECT_REMOTE_CLIENTS","PIPE_TYPE_BYTE","PIPE_TYPE_MESSAGE","PIPE_WAIT","WRITE_DAC","WRITE_OWNER","_win32_createnamedpipe","base.createnamedpipe","winbase/CreateNamedPipe","winbase/CreateNamedPipeA","winbase/CreateNamedPipeW"]
+description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.
+helpviewer_keywords: ["ACCESS_SYSTEM_SECURITY","CreateNamedPipe","CreateNamedPipe function","CreateNamedPipeA","CreateNamedPipeW","FILE_FLAG_FIRST_PIPE_INSTANCE","FILE_FLAG_OVERLAPPED","FILE_FLAG_WRITE_THROUGH","PIPE_ACCEPT_REMOTE_CLIENTS","PIPE_ACCESS_DUPLEX","PIPE_ACCESS_INBOUND","PIPE_ACCESS_OUTBOUND","PIPE_NOWAIT","PIPE_READMODE_BYTE","PIPE_READMODE_MESSAGE","PIPE_REJECT_REMOTE_CLIENTS","PIPE_TYPE_BYTE","PIPE_TYPE_MESSAGE","PIPE_WAIT","WRITE_DAC","WRITE_OWNER","_win32_createnamedpipe","base.createnamedpipe","winbase/CreateNamedPipe","winbase/CreateNamedPipeA","winbase/CreateNamedPipeW"]
 old-location: base\createnamedpipe.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 00d79639-3f14-4964-90f3-9462a23e68df
 ms.date: 12/05/2018
 ms.keywords: ACCESS_SYSTEM_SECURITY, CreateNamedPipe, CreateNamedPipe function, CreateNamedPipeA, CreateNamedPipeW, FILE_FLAG_FIRST_PIPE_INSTANCE, FILE_FLAG_OVERLAPPED, FILE_FLAG_WRITE_THROUGH, PIPE_ACCEPT_REMOTE_CLIENTS, PIPE_ACCESS_DUPLEX, PIPE_ACCESS_INBOUND, PIPE_ACCESS_OUTBOUND, PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_REJECT_REMOTE_CLIENTS, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, PIPE_WAIT, WRITE_DAC, WRITE_OWNER, _win32_createnamedpipe, base.createnamedpipe, winbase/CreateNamedPipe, winbase/CreateNamedPipeA, winbase/CreateNamedPipeW
@@ -78,7 +79,7 @@ Creates an instance of a named pipe and returns a handle for subsequent pipe ope
 
 The unique pipe name. This string must have the following form:
 
-\\\\.\\pipe\\<i>pipename</i>
+\\\.\\pipe\\<i>pipename</i>
 
 The pipename part of the name can include any character other than a backslash, including numbers and special characters. The entire pipe name string can be up to 256 characters long. Pipe names are not case sensitive.
 

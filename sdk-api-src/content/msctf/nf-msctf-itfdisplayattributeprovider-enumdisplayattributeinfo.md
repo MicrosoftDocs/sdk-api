@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
 title: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo (msctf.h)
-description: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo methodhelpviewer_keywords: ["EnumDisplayAttributeInfo","EnumDisplayAttributeInfo method [Text Services Framework]","EnumDisplayAttributeInfo method [Text Services Framework]","ITfDisplayAttributeProvider interface","ITfDisplayAttributeProvider interface [Text Services Framework]","EnumDisplayAttributeInfo method","ITfDisplayAttributeProvider.EnumDisplayAttributeInfo","ITfDisplayAttributeProvider::EnumDisplayAttributeInfo","_tsf_itfdisplayattributeprovider_enumdisplayattributeinfo_ref","msctf/ITfDisplayAttributeProvider::EnumDisplayAttributeInfo","tsf.itfdisplayattributeprovider_enumdisplayattributeinfo"]
+description: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo method
+helpviewer_keywords: ["EnumDisplayAttributeInfo","EnumDisplayAttributeInfo method [Text Services Framework]","EnumDisplayAttributeInfo method [Text Services Framework]","ITfDisplayAttributeProvider interface","ITfDisplayAttributeProvider interface [Text Services Framework]","EnumDisplayAttributeInfo method","ITfDisplayAttributeProvider.EnumDisplayAttributeInfo","ITfDisplayAttributeProvider::EnumDisplayAttributeInfo","_tsf_itfdisplayattributeprovider_enumdisplayattributeinfo_ref","msctf/ITfDisplayAttributeProvider::EnumDisplayAttributeInfo","tsf.itfdisplayattributeprovider_enumdisplayattributeinfo"]
 old-location: tsf\itfdisplayattributeprovider_enumdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: 1a19de91-ad79-4c75-956b-5f5de6700cbe

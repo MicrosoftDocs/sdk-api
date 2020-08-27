@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_PROPERTY_FLAGS
 title: HTTP_PROPERTY_FLAGS (http.h)
-description: Used by the property configuration structures to enable or disable a property on a configuration object when setting property configurations.helpviewer_keywords: ["*PHTTP_PROPERTY_FLAGS","*PHTTP_PROPERTY_FLAGS structure [HTTP]","HTTP_PROPERTY_FLAGS","HTTP_PROPERTY_FLAGS structure [HTTP]","http.http_property_flags","http/*PHTTP_PROPERTY_FLAGS","http/HTTP_PROPERTY_FLAGS"]
+description: Used by the property configuration structures to enable or disable a property on a configuration object when setting property configurations.
+helpviewer_keywords: ["*PHTTP_PROPERTY_FLAGS","*PHTTP_PROPERTY_FLAGS structure [HTTP]","HTTP_PROPERTY_FLAGS","HTTP_PROPERTY_FLAGS structure [HTTP]","http.http_property_flags","http/*PHTTP_PROPERTY_FLAGS","http/HTTP_PROPERTY_FLAGS"]
 old-location: http\http_property_flags.htm
 tech.root: http
 ms.assetid: cafa3b04-ac8b-4269-bfa9-fe8e9ab65936
@@ -66,7 +67,7 @@ When the configuration structure is used to query property configurations, this 
 
 
 
-#### - Present:1
+### -field Present:1
 
 The <b>Present</b> flag enables or disables a property, or determines whether the property is present on the configuration object.
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroup
 title: CloseThreadpoolCleanupGroup function (threadpoolapiset.h)
-description: Closes the specified cleanup group.helpviewer_keywords: ["CloseThreadpoolCleanupGroup","CloseThreadpoolCleanupGroup function","base.closethreadpoolcleanupgroup","threadpoolapiset/CloseThreadpoolCleanupGroup","winbase/CloseThreadpoolCleanupGroup"]
+description: Closes the specified cleanup group.
+helpviewer_keywords: ["CloseThreadpoolCleanupGroup","CloseThreadpoolCleanupGroup function","base.closethreadpoolcleanupgroup","threadpoolapiset/CloseThreadpoolCleanupGroup","winbase/CloseThreadpoolCleanupGroup"]
 old-location: base\closethreadpoolcleanupgroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: e38e4d99-63f2-4bac-8675-cf0f3aa149a7
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolCleanupGroup, CloseThreadpoolCleanupGroup function, base.closethreadpoolcleanupgroup, threadpoolapiset/CloseThreadpoolCleanupGroup, winbase/CloseThreadpoolCleanupGroup

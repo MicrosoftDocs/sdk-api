@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_InsertGroupSorted
 title: ListView_InsertGroupSorted macro (commctrl.h)
-description: Inserts a group into an ordered list of groups. You can use this macro or send the LVM_INSERTGROUPSORTED message explicitly.helpviewer_keywords: ["ListView_InsertGroupSorted","ListView_InsertGroupSorted macro [Windows Controls]","_win32_ListView_InsertGroupSorted","_win32_ListView_InsertGroupSorted_cpp","commctrl/ListView_InsertGroupSorted","controls.ListView_InsertGroupSorted","controls._win32_ListView_InsertGroupSorted"]
+description: Inserts a group into an ordered list of groups. You can use this macro or send the LVM_INSERTGROUPSORTED message explicitly.
+helpviewer_keywords: ["ListView_InsertGroupSorted","ListView_InsertGroupSorted macro [Windows Controls]","_win32_ListView_InsertGroupSorted","_win32_ListView_InsertGroupSorted_cpp","commctrl/ListView_InsertGroupSorted","controls.ListView_InsertGroupSorted","controls._win32_ListView_InsertGroupSorted"]
 old-location: controls\ListView_InsertGroupSorted.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroupsorted.htm

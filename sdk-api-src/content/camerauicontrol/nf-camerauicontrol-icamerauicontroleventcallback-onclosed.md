@@ -1,9 +1,10 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnClosed
 title: ICameraUIControlEventCallback::OnClosed (camerauicontrol.h)
-description: Occurs when the camera UI control is closed.helpviewer_keywords: ["ICameraUIControlEventCallback interface [Windows API]","OnClosed method","ICameraUIControlEventCallback.OnClosed","ICameraUIControlEventCallback::OnClosed","OnClosed","OnClosed method [Windows API]","OnClosed method [Windows API]","ICameraUIControlEventCallback interface","camerauicontrol/ICameraUIControlEventCallback::OnClosed","winprog.icamerauicontroleventcallback_onclosed"]
+description: Occurs when the camera UI control is closed.
+helpviewer_keywords: ["ICameraUIControlEventCallback interface [Windows API]","OnClosed method","ICameraUIControlEventCallback.OnClosed","ICameraUIControlEventCallback::OnClosed","OnClosed","OnClosed method [Windows API]","OnClosed method [Windows API]","ICameraUIControlEventCallback interface","camerauicontrol/ICameraUIControlEventCallback::OnClosed","winprog.icamerauicontroleventcallback_onclosed"]
 old-location: winprog\icamerauicontroleventcallback_onclosed.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 5d9237bc-38bb-4c14-8485-edec7c739150
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnClosed method, ICameraUIControlEventCallback.OnClosed, ICameraUIControlEventCallback::OnClosed, OnClosed, OnClosed method [Windows API], OnClosed method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnClosed, winprog.icamerauicontroleventcallback_onclosed

@@ -1,7 +1,8 @@
 ---
 UID: NE:mobsync._tagSYNCMGRINVOKEFLAGS
 title: SYNCMGRINVOKEFLAGS (mobsync.h)
-description: The SYNCMGRINVOKEFLAGS enumeration value specifies how the Sync Manager is to be invoked in the ISyncMgrSynchronizeInvoke::UpdateItems method.helpviewer_keywords: ["SYNCMGRINVOKEFLAGS","SYNCMGRINVOKEFLAGS enumeration [Windows Shell]","SYNCMGRINVOKE_MINIMIZED","SYNCMGRINVOKE_STARTSYNC","mobsync/SYNCMGRINVOKEFLAGS","mobsync/SYNCMGRINVOKE_MINIMIZED","mobsync/SYNCMGRINVOKE_STARTSYNC","shell.syncmgr_syncmgrinvokeflags","syncmgr.syncmgrinvokeflags"]
+description: The SYNCMGRINVOKEFLAGS enumeration value specifies how the Sync Manager is to be invoked in the ISyncMgrSynchronizeInvoke::UpdateItems method.
+helpviewer_keywords: ["SYNCMGRINVOKEFLAGS","SYNCMGRINVOKEFLAGS enumeration [Windows Shell]","SYNCMGRINVOKE_MINIMIZED","SYNCMGRINVOKE_STARTSYNC","mobsync/SYNCMGRINVOKEFLAGS","mobsync/SYNCMGRINVOKE_MINIMIZED","mobsync/SYNCMGRINVOKE_STARTSYNC","shell.syncmgr_syncmgrinvokeflags","syncmgr.syncmgrinvokeflags"]
 old-location: shell\syncmgr_syncmgrinvokeflags.htm
 tech.root: shell
 ms.assetid: 6526e048-b7a8-4822-afd7-30f04a3039eb

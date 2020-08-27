@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetAllIpsecSecurity
 title: IVdsServiceIscsi::SetAllIpsecSecurity (vds.h)
-description: Not supported.helpviewer_keywords: ["IVdsServiceIscsi interface [VDS]","SetAllIpsecSecurity method","IVdsServiceIscsi.SetAllIpsecSecurity","IVdsServiceIscsi::SetAllIpsecSecurity","SetAllIpsecSecurity","SetAllIpsecSecurity method [VDS]","SetAllIpsecSecurity method [VDS]","IVdsServiceIscsi interface","base.ivdsserviceiscsi_setallipsecsecurity","vds/IVdsServiceIscsi::SetAllIpsecSecurity"]
+description: Not supported.
+helpviewer_keywords: ["IVdsServiceIscsi interface [VDS]","SetAllIpsecSecurity method","IVdsServiceIscsi.SetAllIpsecSecurity","IVdsServiceIscsi::SetAllIpsecSecurity","SetAllIpsecSecurity","SetAllIpsecSecurity method [VDS]","SetAllIpsecSecurity method [VDS]","IVdsServiceIscsi interface","base.ivdsserviceiscsi_setallipsecsecurity","vds/IVdsServiceIscsi::SetAllIpsecSecurity"]
 old-location: base\ivdsserviceiscsi_setallipsecsecurity.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d76be416-c5e2-4b53-a1ff-0a27418c151e
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecSecurity method, IVdsServiceIscsi.SetAllIpsecSecurity, IVdsServiceIscsi::SetAllIpsecSecurity, SetAllIpsecSecurity, SetAllIpsecSecurity method [VDS], SetAllIpsecSecurity method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsecsecurity, vds/IVdsServiceIscsi::SetAllIpsecSecurity

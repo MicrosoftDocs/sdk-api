@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleDraw
 title: OleDraw function (ole2.h)
-description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.helpviewer_keywords: ["OleDraw","OleDraw function [COM]","_ole_OleDraw","com.oledraw","ole/OleDraw"]
+description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
+helpviewer_keywords: ["OleDraw","OleDraw function [COM]","_ole_OleDraw","com.oledraw","ole/OleDraw"]
 old-location: com\oledraw.htm
 tech.root: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
@@ -59,22 +60,22 @@ Enables drawing objects more easily. You can use it instead of calling <a href="
 
 
 
-#### - pUnknown [in]
+### -param pUnknown [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the view object that is to be drawn.
 
 
-#### - dwAspect [in]
+### -param dwAspect [in]
 
 How the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration.
 
 
-#### - hdcDraw [in]
+### -param hdcDraw [in]
 
 Device context on which to draw. Cannot be a metafile device context.
 
 
-#### - lprcBounds [in]
+### -param lprcBounds [in]
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a> structure and passed to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>.
 

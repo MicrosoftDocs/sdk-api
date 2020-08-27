@@ -1,9 +1,10 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_UNLOCK_LOGON
 title: KERB_CERTIFICATE_UNLOCK_LOGON (ntsecapi.h)
-description: Contains information used to unlock a workstation that has been locked during an interactive smart card logon session.helpviewer_keywords: ["*PKERB_CERTIFICATE_UNLOCK_LOGON","KERB_CERTIFICATE_UNLOCK_LOGON","KERB_CERTIFICATE_UNLOCK_LOGON structure [Security]","PKERB_CERTIFICATE_UNLOCK_LOGON","PKERB_CERTIFICATE_UNLOCK_LOGON structure pointer [Security]","ntsecapi/KERB_CERTIFICATE_UNLOCK_LOGON","ntsecapi/PKERB_CERTIFICATE_UNLOCK_LOGON","security.kerb_certificate_unlock_logon"]
+description: Contains information used to unlock a workstation that has been locked during an interactive smart card logon session.
+helpviewer_keywords: ["*PKERB_CERTIFICATE_UNLOCK_LOGON","KERB_CERTIFICATE_UNLOCK_LOGON","KERB_CERTIFICATE_UNLOCK_LOGON structure [Security]","PKERB_CERTIFICATE_UNLOCK_LOGON","PKERB_CERTIFICATE_UNLOCK_LOGON structure pointer [Security]","ntsecapi/KERB_CERTIFICATE_UNLOCK_LOGON","ntsecapi/PKERB_CERTIFICATE_UNLOCK_LOGON","security.kerb_certificate_unlock_logon"]
 old-location: security\kerb_certificate_unlock_logon.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 04e058b0-9a05-4ed7-9d4a-1c8c003d8077
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CERTIFICATE_UNLOCK_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON structure [Security], PKERB_CERTIFICATE_UNLOCK_LOGON, PKERB_CERTIFICATE_UNLOCK_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_UNLOCK_LOGON, ntsecapi/PKERB_CERTIFICATE_UNLOCK_LOGON, security.kerb_certificate_unlock_logon'

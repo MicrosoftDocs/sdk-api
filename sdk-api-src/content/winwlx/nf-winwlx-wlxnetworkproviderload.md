@@ -1,9 +1,10 @@
 ---
 UID: NF:winwlx.WlxNetworkProviderLoad
 title: WlxNetworkProviderLoad function (winwlx.h)
-description: Winlogon calls this function to collect valid authentication and identification information.helpviewer_keywords: ["WlxNetworkProviderLoad","WlxNetworkProviderLoad function [Security]","_gina_wlxnetworkproviderload","security.wlxnetworkproviderload","winwlx/WlxNetworkProviderLoad"]
+description: Winlogon calls this function to collect valid authentication and identification information.
+helpviewer_keywords: ["WlxNetworkProviderLoad","WlxNetworkProviderLoad function [Security]","_gina_wlxnetworkproviderload","security.wlxnetworkproviderload","winwlx/WlxNetworkProviderLoad"]
 old-location: security\wlxnetworkproviderload.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d9a39211-f876-46d8-9a7c-c6bb3ba9edfe
 ms.date: 12/05/2018
 ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security], _gina_wlxnetworkproviderload, security.wlxnetworkproviderload, winwlx/WlxNetworkProviderLoad

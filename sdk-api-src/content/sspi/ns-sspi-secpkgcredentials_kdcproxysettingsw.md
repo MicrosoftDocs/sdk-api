@@ -1,9 +1,10 @@
 ---
 UID: NS:sspi._SecPkgCredentials_KdcProxySettingsW
 title: SecPkgCredentials_KdcProxySettingsW (sspi.h)
-description: Specifies the Kerberos proxy settings for the credentials.helpviewer_keywords: ["*PSecPkgCredentials_KdcProxySettingsW","PSecPkgCredentials_KdcProxySettings","PSecPkgCredentials_KdcProxySettings structure pointer [Security]","SecPkgCredentials_KdcProxySettings","SecPkgCredentials_KdcProxySettings structure [Security]","SecPkgCredentials_KdcProxySettingsW","security.secpkgcredentials_kdcproxysettings","sspi/PSecPkgCredentials_KdcProxySettings","sspi/SecPkgCredentials_KdcProxySettings","sspi/SecPkgCredentials_KdcProxySettingsW"]
+description: Specifies the Kerberos proxy settings for the credentials.
+helpviewer_keywords: ["*PSecPkgCredentials_KdcProxySettingsW","PSecPkgCredentials_KdcProxySettings","PSecPkgCredentials_KdcProxySettings structure pointer [Security]","SecPkgCredentials_KdcProxySettings","SecPkgCredentials_KdcProxySettings structure [Security]","SecPkgCredentials_KdcProxySettingsW","security.secpkgcredentials_kdcproxysettings","sspi/PSecPkgCredentials_KdcProxySettings","sspi/SecPkgCredentials_KdcProxySettings","sspi/SecPkgCredentials_KdcProxySettingsW"]
 old-location: security\secpkgcredentials_kdcproxysettings.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 42BC75B8-6392-4FD4-95BC-266B3AFDDC62
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgCredentials_KdcProxySettingsW, PSecPkgCredentials_KdcProxySettings, PSecPkgCredentials_KdcProxySettings structure pointer [Security], SecPkgCredentials_KdcProxySettings, SecPkgCredentials_KdcProxySettings structure [Security], SecPkgCredentials_KdcProxySettingsW, security.secpkgcredentials_kdcproxysettings, sspi/PSecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettingsW'

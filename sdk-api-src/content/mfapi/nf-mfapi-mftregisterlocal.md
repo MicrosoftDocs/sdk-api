@@ -4,7 +4,7 @@ title: MFTRegisterLocal function (mfapi.h)
 description: Registers a Media Foundation transform (MFT) in the caller's process.
 helpviewer_keywords: ["MFTRegisterLocal","MFTRegisterLocal function [Media Foundation]","mf.mftregisterlocal","mfapi/MFTRegisterLocal"]
 old-location: mf\mftregisterlocal.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 802f7083-e224-4e5c-8a35-3e93da0cbd91
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocal, MFTRegisterLocal function [Media Foundation], mf.mftregisterlocal, mfapi/MFTRegisterLocal

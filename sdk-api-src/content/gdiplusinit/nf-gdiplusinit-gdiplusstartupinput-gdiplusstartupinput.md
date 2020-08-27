@@ -5,6 +5,7 @@ ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
 description: Constructor for the [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput) structure.
+tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

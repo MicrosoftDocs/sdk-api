@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.AddLanguageByRFC1766String
 title: IWMLanguageList::AddLanguageByRFC1766String (wmsdkidl.h)
-description: The AddLanguageByRFC1766String method adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.helpviewer_keywords: ["AddLanguageByRFC1766String","AddLanguageByRFC1766String method [windows Media Format]","AddLanguageByRFC1766String method [windows Media Format]","IWMLanguageList interface","IWMLanguageList interface [windows Media Format]","AddLanguageByRFC1766String method","IWMLanguageList.AddLanguageByRFC1766String","IWMLanguageList::AddLanguageByRFC1766String","IWMLanguageListAddLanguageByRFC1766String","wmformat.iwmlanguagelist_addlanguagebyrfc1766string","wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String"]
+description: The AddLanguageByRFC1766String method adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
+helpviewer_keywords: ["AddLanguageByRFC1766String","AddLanguageByRFC1766String method [windows Media Format]","AddLanguageByRFC1766String method [windows Media Format]","IWMLanguageList interface","IWMLanguageList interface [windows Media Format]","AddLanguageByRFC1766String method","IWMLanguageList.AddLanguageByRFC1766String","IWMLanguageList::AddLanguageByRFC1766String","IWMLanguageListAddLanguageByRFC1766String","wmformat.iwmlanguagelist_addlanguagebyrfc1766string","wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String"]
 old-location: wmformat\iwmlanguagelist_addlanguagebyrfc1766string.htm
 tech.root: wmformat
 ms.assetid: 3aec575c-8e04-4252-8863-1a458e56dcef

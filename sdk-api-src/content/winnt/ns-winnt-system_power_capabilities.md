@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt.__unnamed_struct_26
 title: SYSTEM_POWER_CAPABILITIES (winnt.h)
-description: Contains information about the power capabilities of the system.helpviewer_keywords: ["*PSYSTEM_POWER_CAPABILITIES","PSYSTEM_POWER_CAPABILITIES","PSYSTEM_POWER_CAPABILITIES structure pointer","SYSTEM_POWER_CAPABILITIES","SYSTEM_POWER_CAPABILITIES structure","_win32_system_power_capabilities_str","base.system_power_capabilities_str","winnt/PSYSTEM_POWER_CAPABILITIES","winnt/SYSTEM_POWER_CAPABILITIES"]
+description: Contains information about the power capabilities of the system.
+helpviewer_keywords: ["*PSYSTEM_POWER_CAPABILITIES","PSYSTEM_POWER_CAPABILITIES","PSYSTEM_POWER_CAPABILITIES structure pointer","SYSTEM_POWER_CAPABILITIES","SYSTEM_POWER_CAPABILITIES structure","_win32_system_power_capabilities_str","base.system_power_capabilities_str","winnt/PSYSTEM_POWER_CAPABILITIES","winnt/SYSTEM_POWER_CAPABILITIES"]
 old-location: base\system_power_capabilities_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: aa0af56e-59b3-4d0d-b356-a4046d8754ef
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES structure pointer, SYSTEM_POWER_CAPABILITIES, SYSTEM_POWER_CAPABILITIES structure, _win32_system_power_capabilities_str, base.system_power_capabilities_str, winnt/PSYSTEM_POWER_CAPABILITIES, winnt/SYSTEM_POWER_CAPABILITIES'
@@ -255,7 +256,7 @@ The default <a href="https://docs.microsoft.com/windows/desktop/Power/system-pow
       values.
 
 
-#### - HiberBoot
+### -field HiberBoot
 
 If this member is set to <b>TRUE</b>, the system is currently capable of performing a fast startup transition.  This setting is based on whether the machine is capable of hibernate, whether the machine currently has hibernate enabled (hiberfile exists), and the local and group policy settings for using hibernate (including the Hibernate option in the Power control panel).
 

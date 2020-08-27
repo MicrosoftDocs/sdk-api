@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_NAME_LIST
 title: WSD_NAME_LIST (wsdtypes.h)
-description: Represents a node in a single-linked list of XML name structures.helpviewer_keywords: ["WSD_NAME_LIST","WSD_NAME_LIST structure","ncd.wsd_name_list_struct","wsdtypes/WSD_NAME_LIST"]
+description: Represents a node in a single-linked list of XML name structures.
+helpviewer_keywords: ["WSD_NAME_LIST","WSD_NAME_LIST structure","ncd.wsd_name_list_struct","wsdtypes/WSD_NAME_LIST"]
 old-location: ncd\wsd_name_list_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: f573365d-100f-4df9-b1af-a484680436eb
 ms.date: 12/05/2018
 ms.keywords: WSD_NAME_LIST, WSD_NAME_LIST structure, ncd.wsd_name_list_struct, wsdtypes/WSD_NAME_LIST

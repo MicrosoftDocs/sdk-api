@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._CancelPendingView
 title: IBrowserService2::_CancelPendingView (shdeprecated.h)
-description: Deprecated. Enables a derived class to request that the base class cancel any pending views.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_CancelPendingView method","IBrowserService2._CancelPendingView","IBrowserService2::_CancelPendingView","_CancelPendingView","_CancelPendingView method [Windows Shell]","_CancelPendingView method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_CancelPendingView","shell.IBrowserService2__CancelPendingView","zone_IBrowserService2__CancelPendingView"]
+description: Deprecated. Enables a derived class to request that the base class cancel any pending views.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_CancelPendingView method","IBrowserService2._CancelPendingView","IBrowserService2::_CancelPendingView","_CancelPendingView","_CancelPendingView method [Windows Shell]","_CancelPendingView method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_CancelPendingView","shell.IBrowserService2__CancelPendingView","zone_IBrowserService2__CancelPendingView"]
 old-location: shell\IBrowserService2__CancelPendingView.htm
 tech.root: shell
 ms.assetid: 70f1c3b7-be10-44e1-b119-cdae23dde1c1

@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegGetValueA
 title: RegGetValueA function (winreg.h)
-description: Retrieves the type and data for the specified registry value.helpviewer_keywords: ["RRF_NOEXPAND","RRF_RT_ANY","RRF_RT_DWORD","RRF_RT_QWORD","RRF_RT_REG_BINARY","RRF_RT_REG_DWORD","RRF_RT_REG_EXPAND_SZ","RRF_RT_REG_MULTI_SZ","RRF_RT_REG_NONE","RRF_RT_REG_QWORD","RRF_RT_REG_SZ","RRF_SUBKEY_WOW6432KEY","RRF_SUBKEY_WOW6464KEY","RRF_ZEROONFAILURE","RegGetValue","RegGetValue function","RegGetValueA","RegGetValueW","base.reggetvalue","winreg/RegGetValue","winreg/RegGetValueA","winreg/RegGetValueW"]
+description: Retrieves the type and data for the specified registry value.
+helpviewer_keywords: ["RRF_NOEXPAND","RRF_RT_ANY","RRF_RT_DWORD","RRF_RT_QWORD","RRF_RT_REG_BINARY","RRF_RT_REG_DWORD","RRF_RT_REG_EXPAND_SZ","RRF_RT_REG_MULTI_SZ","RRF_RT_REG_NONE","RRF_RT_REG_QWORD","RRF_RT_REG_SZ","RRF_SUBKEY_WOW6432KEY","RRF_SUBKEY_WOW6464KEY","RRF_ZEROONFAILURE","RegGetValue","RegGetValue function","RegGetValueA","RegGetValueW","base.reggetvalue","winreg/RegGetValue","winreg/RegGetValueA","winreg/RegGetValueW"]
 old-location: base\reggetvalue.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
 ms.date: 12/05/2018
 ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BINARY, RRF_RT_REG_DWORD, RRF_RT_REG_EXPAND_SZ, RRF_RT_REG_MULTI_SZ, RRF_RT_REG_NONE, RRF_RT_REG_QWORD, RRF_RT_REG_SZ, RRF_SUBKEY_WOW6432KEY, RRF_SUBKEY_WOW6464KEY, RRF_ZEROONFAILURE, RegGetValue, RegGetValue function, RegGetValueA, RegGetValueW, base.reggetvalue, winreg/RegGetValue, winreg/RegGetValueA, winreg/RegGetValueW
@@ -92,24 +93,21 @@ This handle is returned by the
 
 ### -param lpSubKey [in, optional]
 
-The name of the registry key. This key must be a subkey of the key specified by the <i>hkey</i> parameter.
+The path of a registry key relative to the key specified by the *hkey* parameter. The registry value will be retrieved from this subkey.
 
-Key names are not case sensitive.
+The path is not case sensitive.
+
+If this parameter is **NULL** or an empty string, "", the value will be read from the key specified by *hkey* itself.
 
 
 ### -param lpValue [in, optional]
 
-The name of the registry value. 
+The name of the registry value.
 
+If this parameter is **NULL** or an empty string, "", the function retrieves the type and data for the key's unnamed or default value, if any.
+Keys do not automatically have an unnamed or default value, and unnamed values can be of any type.
 
-
-
-If this parameter is <b>NULL</b> or an empty string, "", the function retrieves the type and data for the key's unnamed or default value, if any.
-
-For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
-
-Keys do not automatically have an unnamed or default value. Unnamed values can be of any type.
+For more information, see [Registry Element Size Limits](/windows/win32/sysinfo/registry-element-size-limits).
 
 
 ### -param dwFlags [in, optional]
@@ -364,6 +362,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegGetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

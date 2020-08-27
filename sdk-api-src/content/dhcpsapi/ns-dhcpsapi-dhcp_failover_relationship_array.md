@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_RELATIONSHIP_ARRAY
 title: DHCP_FAILOVER_RELATIONSHIP_ARRAY (dhcpsapi.h)
-description: The DHCP_FAILOVER_RELATIONSHIP_ARRAY structure defines an array of DHCPv4 failover relationships between partner servers.helpviewer_keywords: ["*LPDHCP_FAILOVER_RELATIONSHIP_ARRAY","DHCP_FAILOVER_RELATIONSHIP_ARRAY","DHCP_FAILOVER_RELATIONSHIP_ARRAY structure [DHCP]","LPDHCP_FAILOVER_RELATIONSHIP_ARRAY","LPDHCP_FAILOVER_RELATIONSHIP_ARRAY structure pointer [DHCP]","dhcp.dhcp_failover_relationship_array","dhcpsapi/DHCP_FAILOVER_RELATIONSHIP_ARRAY","dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP_ARRAY"]
+description: The DHCP_FAILOVER_RELATIONSHIP_ARRAY structure defines an array of DHCPv4 failover relationships between partner servers.
+helpviewer_keywords: ["*LPDHCP_FAILOVER_RELATIONSHIP_ARRAY","DHCP_FAILOVER_RELATIONSHIP_ARRAY","DHCP_FAILOVER_RELATIONSHIP_ARRAY structure [DHCP]","LPDHCP_FAILOVER_RELATIONSHIP_ARRAY","LPDHCP_FAILOVER_RELATIONSHIP_ARRAY structure pointer [DHCP]","dhcp.dhcp_failover_relationship_array","dhcpsapi/DHCP_FAILOVER_RELATIONSHIP_ARRAY","dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP_ARRAY"]
 old-location: dhcp\dhcp_failover_relationship_array.htm
 tech.root: DHCP
 ms.assetid: A4C951F9-D5C6-4210-B77D-DBBD6FF2766C
@@ -79,7 +80,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 
 
-#### - numElements
+### -field numElements
 
 Integer that specifies the number of DHCPv4 failover relationships in <b>pRelationships.</b>
 

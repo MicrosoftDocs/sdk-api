@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.FreeAddrInfoW
 title: FreeAddrInfoW function (ws2tcpip.h)
-description: Frees address information that the GetAddrInfoW function dynamically allocates in addrinfoW structures.helpviewer_keywords: ["FreeAddrInfoW","FreeAddrInfoW function [Winsock]","winsock.freeaddrinfow","ws2tcpip/FreeAddrInfoW"]
+description: Frees address information that the GetAddrInfoW function dynamically allocates in addrinfoW structures.
+helpviewer_keywords: ["FreeAddrInfoW","FreeAddrInfoW function [Winsock]","winsock.freeaddrinfow","ws2tcpip/FreeAddrInfoW"]
 old-location: winsock\freeaddrinfow.htm
 tech.root: WinSock
 ms.assetid: 0a2a226c-2068-4538-b499-04cfbfd65b8a
@@ -92,6 +93,10 @@ Macros in the Winsock header file define a mixed-case function name of <b>FreeAd
 
 
 
+
+
+> [!NOTE]
+> The ws2tcpip.h header defines FreeAddrInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

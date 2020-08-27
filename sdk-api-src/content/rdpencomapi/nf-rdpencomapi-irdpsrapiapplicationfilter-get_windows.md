@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Windows
 title: IRDPSRAPIApplicationFilter::get_Windows (rdpencomapi.h)
-description: The list of sharable windows.helpviewer_keywords: ["IRDPSRAPIApplicationFilter interface [RDP]","Windows property","IRDPSRAPIApplicationFilter.Windows","IRDPSRAPIApplicationFilter.get_Windows","IRDPSRAPIApplicationFilter::Windows","IRDPSRAPIApplicationFilter::get_Windows","RDPSRAPIApplicationFilter object [RDP]","Windows property","Windows property [RDP]","Windows property [RDP]","IRDPSRAPIApplicationFilter interface","Windows property [RDP]","RDPSRAPIApplicationFilter object","get_Windows","rdp.irdpsrapiapplicationfilter_windows","rdpencomapi/IRDPSRAPIApplicationFilter::Windows","rdpencomapi/IRDPSRAPIApplicationFilter::get_Windows"]
+description: The list of sharable windows.
+helpviewer_keywords: ["IRDPSRAPIApplicationFilter interface [RDP]","Windows property","IRDPSRAPIApplicationFilter.Windows","IRDPSRAPIApplicationFilter.get_Windows","IRDPSRAPIApplicationFilter::Windows","IRDPSRAPIApplicationFilter::get_Windows","RDPSRAPIApplicationFilter object [RDP]","Windows property","Windows property [RDP]","Windows property [RDP]","IRDPSRAPIApplicationFilter interface","Windows property [RDP]","RDPSRAPIApplicationFilter object","get_Windows","rdp.irdpsrapiapplicationfilter_windows","rdpencomapi/IRDPSRAPIApplicationFilter::Windows","rdpencomapi/IRDPSRAPIApplicationFilter::get_Windows"]
 old-location: rdp\irdpsrapiapplicationfilter_windows.htm
 tech.root: rdp
 ms.assetid: cc964964-0f3a-410c-b1f4-426abd9c1a22

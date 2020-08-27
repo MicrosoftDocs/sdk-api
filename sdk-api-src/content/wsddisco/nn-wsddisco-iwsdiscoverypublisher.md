@@ -1,9 +1,10 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryPublisher
 title: IWSDiscoveryPublisher (wsddisco.h)
-description: Provides methods for announcing hosts and managing incoming queries to hosts.helpviewer_keywords: ["IWSDiscoveryPublisher","IWSDiscoveryPublisher interface","IWSDiscoveryPublisher interface","described","ncd.iwsdiscoverypublisher","wsddisco/IWSDiscoveryPublisher"]
+description: Provides methods for announcing hosts and managing incoming queries to hosts.
+helpviewer_keywords: ["IWSDiscoveryPublisher","IWSDiscoveryPublisher interface","IWSDiscoveryPublisher interface","described","ncd.iwsdiscoverypublisher","wsddisco/IWSDiscoveryPublisher"]
 old-location: ncd\iwsdiscoverypublisher.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher

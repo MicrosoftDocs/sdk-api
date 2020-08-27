@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.CheckVideoDecoderDownsampling
 title: ID3D11VideoDevice1::CheckVideoDecoderDownsampling (d3d11_1.h)
-description: Indicates whether the video decoder supports downsampling with the specified input format, and whether real-time downsampling is supported.helpviewer_keywords: ["CheckVideoDecoderDownsampling","CheckVideoDecoderDownsampling method [Media Foundation]","CheckVideoDecoderDownsampling method [Media Foundation]","ID3D11VideoDevice1 interface","ID3D11VideoDevice1 interface [Media Foundation]","CheckVideoDecoderDownsampling method","ID3D11VideoDevice1.CheckVideoDecoderDownsampling","ID3D11VideoDevice1::CheckVideoDecoderDownsampling","d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling","mf.id3d11videodevice1_checkvideodecoderdownsampling"]
+description: Indicates whether the video decoder supports downsampling with the specified input format, and whether real-time downsampling is supported.
+helpviewer_keywords: ["CheckVideoDecoderDownsampling","CheckVideoDecoderDownsampling method [Media Foundation]","CheckVideoDecoderDownsampling method [Media Foundation]","ID3D11VideoDevice1 interface","ID3D11VideoDevice1 interface [Media Foundation]","CheckVideoDecoderDownsampling method","ID3D11VideoDevice1.CheckVideoDecoderDownsampling","ID3D11VideoDevice1::CheckVideoDecoderDownsampling","d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling","mf.id3d11videodevice1_checkvideodecoderdownsampling"]
 old-location: mf\id3d11videodevice1_checkvideodecoderdownsampling.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EB05C2F7-AC7A-42BD-A661-5101641A920C
 ms.date: 12/05/2018
 ms.keywords: CheckVideoDecoderDownsampling, CheckVideoDecoderDownsampling method [Media Foundation], CheckVideoDecoderDownsampling method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],CheckVideoDecoderDownsampling method, ID3D11VideoDevice1.CheckVideoDecoderDownsampling, ID3D11VideoDevice1::CheckVideoDecoderDownsampling, d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling, mf.id3d11videodevice1_checkvideodecoderdownsampling

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddRectangles(IN const Rect,INT)
+UID: NF:gdipluspath.GraphicsPath.AddRectangles(INconstRect,INT)
 title: GraphicsPath::AddRectangles(IN const Rect,INT) (gdipluspath.h)
-description: The GraphicsPath::AddRectangles method adds a sequence of rectangles to this pathhelpviewer_keywords: ["AddRectangles","AddRectangles method [GDI+]","AddRectangles method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddRectangles method","GraphicsPath.AddRectangles","GraphicsPath.AddRectangles(IN const Rect","INT)","GraphicsPath.AddRectangles(const Rect*","INT)","GraphicsPath::AddRectangles","GraphicsPath::AddRectangles(IN const Rect","INT)","_gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_","gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_"]
+description: The GraphicsPath::AddRectangles method adds a sequence of rectangles to this path
+helpviewer_keywords: ["AddRectangles","AddRectangles method [GDI+]","AddRectangles method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddRectangles method","GraphicsPath.AddRectangles","GraphicsPath.AddRectangles(IN const Rect","INT)","GraphicsPath.AddRectangles(const Rect*","INT)","GraphicsPath::AddRectangles","GraphicsPath::AddRectangles(IN const Rect","INT)","_gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_","gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods\addrectangles.htm

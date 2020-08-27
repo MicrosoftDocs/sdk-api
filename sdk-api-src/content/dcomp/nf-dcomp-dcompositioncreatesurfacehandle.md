@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.DCompositionCreateSurfaceHandle
 title: DCompositionCreateSurfaceHandle function (dcomp.h)
-description: Creates a new composition surface object that can be bound to a Microsoft DirectX swap chain or swap buffer and associated with a visual.helpviewer_keywords: ["COMPOSITIONSURFACE_ALL_ACCESS","COMPOSITIONSURFACE_READ","COMPOSITIONSURFACE_WRITE","DCompositionCreateSurfaceHandle","DCompositionCreateSurfaceHandle function [DirectComposition]","dcomp/DCompositionCreateSurfaceHandle","directcomp.dcompositioncreatesurfacehandle"]
+description: Creates a new composition surface object that can be bound to a Microsoft DirectX swap chain or swap buffer and associated with a visual.
+helpviewer_keywords: ["COMPOSITIONSURFACE_ALL_ACCESS","COMPOSITIONSURFACE_READ","COMPOSITIONSURFACE_WRITE","DCompositionCreateSurfaceHandle","DCompositionCreateSurfaceHandle function [DirectComposition]","dcomp/DCompositionCreateSurfaceHandle","directcomp.dcompositioncreatesurfacehandle"]
 old-location: directcomp\dcompositioncreatesurfacehandle.htm
 tech.root: directcomp
 ms.assetid: 550BA10B-D582-4A57-A69D-3EFFC7313D8F

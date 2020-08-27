@@ -1,9 +1,10 @@
 ---
 UID: NC:mapi.MAPISAVEMAIL
 title: MAPISAVEMAIL (mapi.h)
-description: The MAPISaveMail function saves a message into the message store.helpviewer_keywords: ["MAPISaveMail","MAPISaveMail callback","MAPISaveMail callback function","MAPI_LOGON_UI","MAPI_LONG_MSGID","MAPI_NEW_SESSION","mapi.mapisavemail","mapi/MAPISaveMail"]
+description: The MAPISaveMail function saves a message into the message store.
+helpviewer_keywords: ["MAPISaveMail","MAPISaveMail callback","MAPISaveMail callback function","MAPI_LOGON_UI","MAPI_LONG_MSGID","MAPI_NEW_SESSION","mapi.mapisavemail","mapi/MAPISaveMail"]
 old-location: mapi\mapisavemail.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 995bf2cd-6ee6-46a3-a6d9-f28dc42e0e78
 ms.date: 12/05/2018
 ms.keywords: MAPISaveMail, MAPISaveMail callback, MAPISaveMail callback function, MAPI_LOGON_UI, MAPI_LONG_MSGID, MAPI_NEW_SESSION, mapi.mapisavemail, mapi/MAPISaveMail

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.Alloc
 title: IAMDevMemoryAllocator::Alloc (strmif.h)
-description: Note  The IAMDevMemoryAllocator interface is deprecated. Allocates a memory buffer.helpviewer_keywords: ["Alloc","Alloc method [DirectShow]","Alloc method [DirectShow]","IAMDevMemoryAllocator interface","IAMDevMemoryAllocator interface [DirectShow]","Alloc method","IAMDevMemoryAllocator.Alloc","IAMDevMemoryAllocator::Alloc","IAMDevMemoryAllocatorAlloc","dshow.iamdevmemoryallocator_alloc","strmif/IAMDevMemoryAllocator::Alloc"]
+description: Note  The IAMDevMemoryAllocator interface is deprecated. Allocates a memory buffer.
+helpviewer_keywords: ["Alloc","Alloc method [DirectShow]","Alloc method [DirectShow]","IAMDevMemoryAllocator interface","IAMDevMemoryAllocator interface [DirectShow]","Alloc method","IAMDevMemoryAllocator.Alloc","IAMDevMemoryAllocator::Alloc","IAMDevMemoryAllocatorAlloc","dshow.iamdevmemoryallocator_alloc","strmif/IAMDevMemoryAllocator::Alloc"]
 old-location: dshow\iamdevmemoryallocator_alloc.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: de5f7755-fd96-4016-9cab-b98721080e14
 ms.date: 12/05/2018
 ms.keywords: Alloc, Alloc method [DirectShow], Alloc method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Alloc method, IAMDevMemoryAllocator.Alloc, IAMDevMemoryAllocator::Alloc, IAMDevMemoryAllocatorAlloc, dshow.iamdevmemoryallocator_alloc, strmif/IAMDevMemoryAllocator::Alloc

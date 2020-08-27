@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFAttributes.DeleteItem
 title: IMFAttributes::DeleteItem (mfobjects.h)
-description: Removes a key/value pair from the object's attribute list.helpviewer_keywords: ["DeleteItem","DeleteItem method [Media Foundation]","DeleteItem method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","DeleteItem method","IMFAttributes.DeleteItem","IMFAttributes::DeleteItem","ac72e6e4-f930-4de6-92a2-f15e5f9e5d74","mf.imfattributes_deleteitem","mfobjects/IMFAttributes::DeleteItem"]
+description: Removes a key/value pair from the object's attribute list.
+helpviewer_keywords: ["DeleteItem","DeleteItem method [Media Foundation]","DeleteItem method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","DeleteItem method","IMFAttributes.DeleteItem","IMFAttributes::DeleteItem","ac72e6e4-f930-4de6-92a2-f15e5f9e5d74","mf.imfattributes_deleteitem","mfobjects/IMFAttributes::DeleteItem"]
 old-location: mf\imfattributes_deleteitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ac72e6e4-f930-4de6-92a2-f15e5f9e5d74
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [Media Foundation], DeleteItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteItem method, IMFAttributes.DeleteItem, IMFAttributes::DeleteItem, ac72e6e4-f930-4de6-92a2-f15e5f9e5d74, mf.imfattributes_deleteitem, mfobjects/IMFAttributes::DeleteItem

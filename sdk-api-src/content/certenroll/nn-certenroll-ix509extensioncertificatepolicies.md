@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509ExtensionCertificatePolicies
 title: IX509ExtensionCertificatePolicies (certenroll.h)
-description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.helpviewer_keywords: ["IX509ExtensionCertificatePolicies","IX509ExtensionCertificatePolicies interface [Security]","IX509ExtensionCertificatePolicies interface [Security]","described","certenroll/IX509ExtensionCertificatePolicies","security.ix509extensioncertificatepolicies"]
+description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.
+helpviewer_keywords: ["IX509ExtensionCertificatePolicies","IX509ExtensionCertificatePolicies interface [Security]","IX509ExtensionCertificatePolicies interface [Security]","described","certenroll/IX509ExtensionCertificatePolicies","security.ix509extensioncertificatepolicies"]
 old-location: security\ix509extensioncertificatepolicies.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionCertificatePolicies, IX509ExtensionCertificatePolicies interface [Security], IX509ExtensionCertificatePolicies interface [Security],described, certenroll/IX509ExtensionCertificatePolicies, security.ix509extensioncertificatepolicies

@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ISendMethodEvents.SendMethodCall
 title: ISendMethodEvents::SendMethodCall (comsvcs.h)
-description: Generated when a method is called through a component interface.helpviewer_keywords: ["ISendMethodEvents interface [COM+]","SendMethodCall method","ISendMethodEvents.SendMethodCall","ISendMethodEvents::SendMethodCall","SendMethodCall","SendMethodCall method [COM+]","SendMethodCall method [COM+]","ISendMethodEvents interface","_cos_ISendMethodEvents_SendMethodCall","comsvcs/ISendMethodEvents::SendMethodCall","cos.isendmethodevents_sendmethodcall"]
+description: Generated when a method is called through a component interface.
+helpviewer_keywords: ["ISendMethodEvents interface [COM+]","SendMethodCall method","ISendMethodEvents.SendMethodCall","ISendMethodEvents::SendMethodCall","SendMethodCall","SendMethodCall method [COM+]","SendMethodCall method [COM+]","ISendMethodEvents interface","_cos_ISendMethodEvents_SendMethodCall","comsvcs/ISendMethodEvents::SendMethodCall","cos.isendmethodevents_sendmethodcall"]
 old-location: cos\isendmethodevents_sendmethodcall.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 730466c8-440c-42ee-899f-0d93007fbf8d
 ms.date: 12/05/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodCall method, ISendMethodEvents.SendMethodCall, ISendMethodEvents::SendMethodCall, SendMethodCall, SendMethodCall method [COM+], SendMethodCall method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodCall, comsvcs/ISendMethodEvents::SendMethodCall, cos.isendmethodevents_sendmethodcall

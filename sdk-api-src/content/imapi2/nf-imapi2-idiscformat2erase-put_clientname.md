@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_ClientName
 title: IDiscFormat2Erase::put_ClientName (imapi2.h)
-description: Sets the friendly name of the client.helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","put_ClientName method","IDiscFormat2Erase.put_ClientName","IDiscFormat2Erase::put_ClientName","imapi.idiscformat2erase_put_clientname","imapi2/IDiscFormat2Erase::put_ClientName","put_ClientName","put_ClientName method [IMAPI]","put_ClientName method [IMAPI]","IDiscFormat2Erase interface"]
+description: Sets the friendly name of the client.
+helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","put_ClientName method","IDiscFormat2Erase.put_ClientName","IDiscFormat2Erase::put_ClientName","imapi.idiscformat2erase_put_clientname","imapi2/IDiscFormat2Erase::put_ClientName","put_ClientName","put_ClientName method [IMAPI]","put_ClientName method [IMAPI]","IDiscFormat2Erase interface"]
 old-location: imapi\idiscformat2erase_put_clientname.htm
 tech.root: imapi
 ms.assetid: 641395b1-724b-42d1-b230-a4d6f3844077

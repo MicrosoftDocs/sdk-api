@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFScheduleWorkItemEx
 title: MFScheduleWorkItemEx function (mfapi.h)
-description: Schedules an asynchronous operation to be completed after a specified interval.helpviewer_keywords: ["MFScheduleWorkItemEx","MFScheduleWorkItemEx function [Media Foundation]","b698cae1-4f3b-4649-b6f7-583f223eb90c","mf.mfscheduleworkitemex","mfapi/MFScheduleWorkItemEx"]
+description: Schedules an asynchronous operation to be completed after a specified interval.
+helpviewer_keywords: ["MFScheduleWorkItemEx","MFScheduleWorkItemEx function [Media Foundation]","b698cae1-4f3b-4649-b6f7-583f223eb90c","mf.mfscheduleworkitemex","mfapi/MFScheduleWorkItemEx"]
 old-location: mf\mfscheduleworkitemex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b698cae1-4f3b-4649-b6f7-583f223eb90c
 ms.date: 12/05/2018
 ms.keywords: MFScheduleWorkItemEx, MFScheduleWorkItemEx function [Media Foundation], b698cae1-4f3b-4649-b6f7-583f223eb90c, mf.mfscheduleworkitemex, mfapi/MFScheduleWorkItemEx

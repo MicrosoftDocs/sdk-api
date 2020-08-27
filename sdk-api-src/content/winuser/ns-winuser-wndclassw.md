@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagWNDCLASSW
 title: WNDCLASSW (winuser.h)
-description: Contains the window class attributes that are registered by the RegisterClass function.helpviewer_keywords: ["*LPWNDCLASSW","*NPWNDCLASSW","*PWNDCLASSW","PWNDCLASS","PWNDCLASS structure pointer [Windows and Messages]","WNDCLASS","WNDCLASS structure [Windows and Messages]","WNDCLASSA","WNDCLASSW","_win32_WNDCLASS_str","_win32_wndclass_str_cpp","winmsg.wndclass","winui._win32_wndclass_str","winuser/PWNDCLASS","winuser/WNDCLASS","winuser/WNDCLASSA","winuser/WNDCLASSW"]
+description: Contains the window class attributes that are registered by the RegisterClass function.
+helpviewer_keywords: ["*LPWNDCLASSW","*NPWNDCLASSW","*PWNDCLASSW","PWNDCLASS","PWNDCLASS structure pointer [Windows and Messages]","WNDCLASS","WNDCLASS structure [Windows and Messages]","WNDCLASSA","WNDCLASSW","_win32_WNDCLASS_str","_win32_wndclass_str_cpp","winmsg.wndclass","winui._win32_wndclass_str","winuser/PWNDCLASS","winuser/WNDCLASS","winuser/WNDCLASSA","winuser/WNDCLASSW"]
 old-location: winmsg\wndclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclass.htm
@@ -232,4 +233,9 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines WNDCLASS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

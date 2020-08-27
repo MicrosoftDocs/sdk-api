@@ -4,7 +4,7 @@ title: CryptCATCatalogInfoFromContext function (mscat.h)
 description: Retrieves catalog information from a specified catalog context.
 helpviewer_keywords: ["CryptCATCatalogInfoFromContext","CryptCATCatalogInfoFromContext function [Security]","mscat/CryptCATCatalogInfoFromContext","security.cryptcatcataloginfofromcontext"]
 old-location: security\cryptcatcataloginfofromcontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7
 ms.date: 12/05/2018
 ms.keywords: CryptCATCatalogInfoFromContext, CryptCATCatalogInfoFromContext function [Security], mscat/CryptCATCatalogInfoFromContext, security.cryptcatcataloginfofromcontext

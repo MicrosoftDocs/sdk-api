@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionExW
 title: MsiSourceListForceResolutionExW function (msi.h)
-description: The MsiSourceListForceResolutionEx function removes the registration of the property called &#0034;LastUsedSource&#0034;.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListForceResolutionEx","MsiSourceListForceResolutionEx function","MsiSourceListForceResolutionExA","MsiSourceListForceResolutionExW","msi/MsiSourceListForceResolutionEx","msi/MsiSourceListForceResolutionExA","msi/MsiSourceListForceResolutionExW","setup.msisourcelistforceresolutionex"]
+description: The MsiSourceListForceResolutionEx function removes the registration of the property called &quot;LastUsedSource&quot;.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListForceResolutionEx","MsiSourceListForceResolutionEx function","MsiSourceListForceResolutionExA","MsiSourceListForceResolutionExW","msi/MsiSourceListForceResolutionEx","msi/MsiSourceListForceResolutionExA","msi/MsiSourceListForceResolutionExW","setup.msisourcelistforceresolutionex"]
 old-location: setup\msisourcelistforceresolutionex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 8eb140bb-79c4-454a-9004-71905e430811
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListForceResolutionEx, MsiSourceListForceResolutionEx function, MsiSourceListForceResolutionExA, MsiSourceListForceResolutionExW, msi/MsiSourceListForceResolutionEx, msi/MsiSourceListForceResolutionExA, msi/MsiSourceListForceResolutionExW, setup.msisourcelistforceresolutionex
@@ -267,6 +268,10 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListForceResolutionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

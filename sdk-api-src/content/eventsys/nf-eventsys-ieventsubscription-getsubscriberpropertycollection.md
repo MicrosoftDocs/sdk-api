@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetSubscriberPropertyCollection
 title: IEventSubscription::GetSubscriberPropertyCollection (eventsys.h)
-description: Retrieves a collection of properties and values stored in the subscriber property bag.helpviewer_keywords: ["GetSubscriberPropertyCollection","GetSubscriberPropertyCollection method [COM+]","GetSubscriberPropertyCollection method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetSubscriberPropertyCollection method","IEventSubscription.GetSubscriberPropertyCollection","IEventSubscription::GetSubscriberPropertyCollection","_cos_IEventSubscription_GetSubscriberPropertyCollection","cos.ieventsubscription_getsubscriberpropertycollection","eventsys/IEventSubscription::GetSubscriberPropertyCollection"]
+description: Retrieves a collection of properties and values stored in the subscriber property bag.
+helpviewer_keywords: ["GetSubscriberPropertyCollection","GetSubscriberPropertyCollection method [COM+]","GetSubscriberPropertyCollection method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetSubscriberPropertyCollection method","IEventSubscription.GetSubscriberPropertyCollection","IEventSubscription::GetSubscriberPropertyCollection","_cos_IEventSubscription_GetSubscriberPropertyCollection","cos.ieventsubscription_getsubscriberpropertycollection","eventsys/IEventSubscription::GetSubscriberPropertyCollection"]
 old-location: cos\ieventsubscription_getsubscriberpropertycollection.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 33d00424-a285-4953-aa96-be30d3e7da17
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberPropertyCollection, GetSubscriberPropertyCollection method [COM+], GetSubscriberPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberPropertyCollection method, IEventSubscription.GetSubscriberPropertyCollection, IEventSubscription::GetSubscriberPropertyCollection, _cos_IEventSubscription_GetSubscriberPropertyCollection, cos.ieventsubscription_getsubscriberpropertycollection, eventsys/IEventSubscription::GetSubscriberPropertyCollection

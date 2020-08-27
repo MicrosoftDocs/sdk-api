@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_PID
 title: IMPEG2Component::get_PID (tuner.h)
-description: The get_PID method returns the packet identifier (PID) for this substream.helpviewer_keywords: ["IMPEG2Component interface [Microsoft TV Technologies]","get_PID method","IMPEG2Component.get_PID","IMPEG2Component::get_PID","IMPEG2Componentget_PID","get_PID","get_PID method [Microsoft TV Technologies]","get_PID method [Microsoft TV Technologies]","IMPEG2Component interface","mstv.impeg2component_get_pid","tuner/IMPEG2Component::get_PID"]
+description: The get_PID method returns the packet identifier (PID) for this substream.
+helpviewer_keywords: ["IMPEG2Component interface [Microsoft TV Technologies]","get_PID method","IMPEG2Component.get_PID","IMPEG2Component::get_PID","IMPEG2Componentget_PID","get_PID","get_PID method [Microsoft TV Technologies]","get_PID method [Microsoft TV Technologies]","IMPEG2Component interface","mstv.impeg2component_get_pid","tuner/IMPEG2Component::get_PID"]
 old-location: mstv\impeg2component_get_pid.htm
 tech.root: mstv
 ms.assetid: 7d6b0b2f-fe48-4fc5-bb3b-639bb8ee2df8

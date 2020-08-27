@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMFLOAT3SE
 title: XMFLOAT3SE (directxpackedvector.h)
-description: Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE structure [DirectX Math Support APIs]","directxpackedvector/XMFLOAT3SE","dxmath.xmfloat3se"]
+description: Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.
+helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE structure [DirectX Math Support APIs]","directxpackedvector/XMFLOAT3SE","dxmath.xmfloat3se"]
 old-location: dxmath\xmfloat3se.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3SE
@@ -62,25 +63,6 @@ For a list of additional functionality such as constructors and operators that a
 
 
 
-### -field xm
-
- 
-
-
-### -field ym
-
- 
-
-
-### -field zm
-
- 
-
-
-### -field e
-
- 
-
 
 ### -field v
 
@@ -105,25 +87,25 @@ TBD
 
 
 
-#### - e : 5
+### -field e : 5
 
 The 5-bit shared exponent.
 			
 
 
-#### - xm : 9
+### -field xm : 9
 
 The 9-bit x component.
 			
 
 
-#### - ym : 9
+### -field ym : 9
 
 The 9-bit y component.
 			
 
 
-#### - zm : 9
+### -field zm : 9
 
 The 9-bit z component.
 			

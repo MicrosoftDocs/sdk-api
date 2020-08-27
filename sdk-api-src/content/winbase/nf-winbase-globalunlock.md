@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GlobalUnlock
 title: GlobalUnlock function (winbase.h)
-description: Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE.helpviewer_keywords: ["GlobalUnlock","GlobalUnlock function","_win32_globalunlock","base.globalunlock","winbase/GlobalUnlock"]
+description: Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE.
+helpviewer_keywords: ["GlobalUnlock","GlobalUnlock function","_win32_globalunlock","base.globalunlock","winbase/GlobalUnlock"]
 old-location: base\globalunlock.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 580a2873-7f06-47a1-acf5-c2b3c96e15e7
 ms.date: 12/05/2018
 ms.keywords: GlobalUnlock, GlobalUnlock function, _win32_globalunlock, base.globalunlock, winbase/GlobalUnlock

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DefSubclassProc
 title: DefSubclassProc function (commctrl.h)
-description: Calls the next handler in a window's subclass chain. The last handler in the subclass chain calls the original window procedure for the window.helpviewer_keywords: ["DefSubclassProc","DefSubclassProc function [Windows Shell]","commctrl/DefSubclassProc","inet_DefSubclassProc","shell.DefSubclassProc"]
+description: Calls the next handler in a window's subclass chain. The last handler in the subclass chain calls the original window procedure for the window.
+helpviewer_keywords: ["DefSubclassProc","DefSubclassProc function [Windows Shell]","commctrl/DefSubclassProc","inet_DefSubclassProc","shell.DefSubclassProc"]
 old-location: shell\DefSubclassProc.htm
 tech.root: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a

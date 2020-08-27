@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList1.AssertResourceState
 title: ID3D12DebugCommandList1::AssertResourceState (d3d12sdklayers.h)
-description: Validates that the given state matches the state of the subresource, assuming the state of the given subresource is known during recording of a command list (e.g.helpviewer_keywords: ["AssertResourceState","AssertResourceState method","AssertResourceState method","ID3D12DebugCommandList1 interface","ID3D12DebugCommandList1 interface","AssertResourceState method","ID3D12DebugCommandList1.AssertResourceState","ID3D12DebugCommandList1::AssertResourceState","d3d12sdklayers/ID3D12DebugCommandList1::AssertResourceState","direct3d12.id3d12debugcommandlist1_assertresourcestate"]
+description: Validates that the given state matches the state of the subresource, assuming the state of the given subresource is known during recording of a command list (e.g.
+helpviewer_keywords: ["AssertResourceState","AssertResourceState method","AssertResourceState method","ID3D12DebugCommandList1 interface","ID3D12DebugCommandList1 interface","AssertResourceState method","ID3D12DebugCommandList1.AssertResourceState","ID3D12DebugCommandList1::AssertResourceState","d3d12sdklayers/ID3D12DebugCommandList1::AssertResourceState","direct3d12.id3d12debugcommandlist1_assertresourcestate"]
 old-location: direct3d12\id3d12debugcommandlist1_assertresourcestate.htm
 tech.root: direct3d12
 ms.assetid: DB036A55-D677-4288-B165-5441BA457492

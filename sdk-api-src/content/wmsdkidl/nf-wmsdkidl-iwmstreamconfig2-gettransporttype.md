@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetTransportType
 title: IWMStreamConfig2::GetTransportType (wmsdkidl.h)
-description: The GetTransportType method retrieves the type of data communication protocol (reliable or unreliable) used for the stream.helpviewer_keywords: ["GetTransportType","GetTransportType method [windows Media Format]","GetTransportType method [windows Media Format]","IWMStreamConfig2 interface","IWMStreamConfig2 interface [windows Media Format]","GetTransportType method","IWMStreamConfig2.GetTransportType","IWMStreamConfig2::GetTransportType","IWMStreamConfig2GetTransportType","wmformat.iwmstreamconfig2_gettransporttype","wmsdkidl/IWMStreamConfig2::GetTransportType"]
+description: The GetTransportType method retrieves the type of data communication protocol (reliable or unreliable) used for the stream.
+helpviewer_keywords: ["GetTransportType","GetTransportType method [windows Media Format]","GetTransportType method [windows Media Format]","IWMStreamConfig2 interface","IWMStreamConfig2 interface [windows Media Format]","GetTransportType method","IWMStreamConfig2.GetTransportType","IWMStreamConfig2::GetTransportType","IWMStreamConfig2GetTransportType","wmformat.iwmstreamconfig2_gettransporttype","wmsdkidl/IWMStreamConfig2::GetTransportType"]
 old-location: wmformat\iwmstreamconfig2_gettransporttype.htm
 tech.root: wmformat
 ms.assetid: dfe7b285-8d1d-4b71-a839-1c73d76e6444

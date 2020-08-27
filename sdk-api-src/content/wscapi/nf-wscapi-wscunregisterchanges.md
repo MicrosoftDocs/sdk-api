@@ -1,9 +1,10 @@
 ---
 UID: NF:wscapi.WscUnRegisterChanges
 title: WscUnRegisterChanges function (wscapi.h)
-description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.helpviewer_keywords: ["WscUnRegisterChanges","WscUnRegisterChanges function [Windows API]","winprog.wscunregisterchanges","wscapi/WscUnRegisterChanges"]
+description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.
+helpviewer_keywords: ["WscUnRegisterChanges","WscUnRegisterChanges function [Windows API]","winprog.wscunregisterchanges","wscapi/WscUnRegisterChanges"]
 old-location: winprog\wscunregisterchanges.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
 ms.date: 12/05/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges

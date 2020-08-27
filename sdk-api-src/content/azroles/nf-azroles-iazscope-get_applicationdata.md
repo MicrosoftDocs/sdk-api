@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzScope.get_ApplicationData
 title: IAzScope::get_ApplicationData (azroles.h)
-description: The ApplicationData property of IAzScope sets or retrieves an opaque field that can be used by the application to store information.helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzScope object","ApplicationData property [Security]","IAzScope interface","AzScope object [Security]","ApplicationData property","IAzScope interface [Security]","ApplicationData property","IAzScope.ApplicationData","IAzScope.get_ApplicationData","IAzScope::ApplicationData","IAzScope::get_ApplicationData","IAzScope::put_ApplicationData","azroles/IAzScope::ApplicationData","azroles/IAzScope::get_ApplicationData","azroles/IAzScope::put_ApplicationData","get_ApplicationData","security.iazscope_applicationdata"]
+description: The ApplicationData property of IAzScope sets or retrieves an opaque field that can be used by the application to store information.
+helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzScope object","ApplicationData property [Security]","IAzScope interface","AzScope object [Security]","ApplicationData property","IAzScope interface [Security]","ApplicationData property","IAzScope.ApplicationData","IAzScope.get_ApplicationData","IAzScope::ApplicationData","IAzScope::get_ApplicationData","IAzScope::put_ApplicationData","azroles/IAzScope::ApplicationData","azroles/IAzScope::get_ApplicationData","azroles/IAzScope::put_ApplicationData","get_ApplicationData","security.iazscope_applicationdata"]
 old-location: security\iazscope_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c54aaadb-0c4a-43f9-ac50-413ed190b365
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzScope object, ApplicationData property [Security],IAzScope interface, AzScope object [Security],ApplicationData property, IAzScope interface [Security],ApplicationData property, IAzScope.ApplicationData, IAzScope.get_ApplicationData, IAzScope::ApplicationData, IAzScope::get_ApplicationData, IAzScope::put_ApplicationData, azroles/IAzScope::ApplicationData, azroles/IAzScope::get_ApplicationData, azroles/IAzScope::put_ApplicationData, get_ApplicationData, security.iazscope_applicationdata

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMediaEventSink.Notify
 title: IMediaEventSink::Notify (strmif.h)
-description: The Notify method notifies the Filter Graph Manager of an event.helpviewer_keywords: ["IMediaEventSink interface [DirectShow]","Notify method","IMediaEventSink.Notify","IMediaEventSink::Notify","IMediaEventSinkNotify","Notify","Notify method [DirectShow]","Notify method [DirectShow]","IMediaEventSink interface","dshow.imediaeventsink_notify","strmif/IMediaEventSink::Notify"]
+description: The Notify method notifies the Filter Graph Manager of an event.
+helpviewer_keywords: ["IMediaEventSink interface [DirectShow]","Notify method","IMediaEventSink.Notify","IMediaEventSink::Notify","IMediaEventSinkNotify","Notify","Notify method [DirectShow]","Notify method [DirectShow]","IMediaEventSink interface","dshow.imediaeventsink_notify","strmif/IMediaEventSink::Notify"]
 old-location: dshow\imediaeventsink_notify.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 331f8d58-c7c6-40dd-88ca-5678c7b8c8f1
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink interface [DirectShow],Notify method, IMediaEventSink.Notify, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IMediaEventSink interface, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify

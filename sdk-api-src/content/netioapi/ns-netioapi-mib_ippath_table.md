@@ -1,7 +1,8 @@
 ---
 UID: NS:netioapi._MIB_IPPATH_TABLE
 title: MIB_IPPATH_TABLE (netioapi.h)
-description: Contains a table of IP path entries.helpviewer_keywords: ["*PMIB_IPPATH_TABLE","MIB_IPPATH_TABLE","MIB_IPPATH_TABLE structure [MIB]","PMIB_IPPATH_TABLE","PMIB_IPPATH_TABLE structure pointer [MIB]","_MIB_IPPATH_TABLE","mib.mib_ippath_table","netioapi/MIB_IPPATH_TABLE","netioapi/PMIB_IPPATH_TABLE"]
+description: Contains a table of IP path entries.
+helpviewer_keywords: ["*PMIB_IPPATH_TABLE","MIB_IPPATH_TABLE","MIB_IPPATH_TABLE structure [MIB]","PMIB_IPPATH_TABLE","PMIB_IPPATH_TABLE structure pointer [MIB]","_MIB_IPPATH_TABLE","mib.mib_ippath_table","netioapi/MIB_IPPATH_TABLE","netioapi/PMIB_IPPATH_TABLE"]
 old-location: mib\mib_ippath_table.htm
 tech.root: MIB
 ms.assetid: f18aff3c-a7b5-40fa-9308-5bd8821c77e2

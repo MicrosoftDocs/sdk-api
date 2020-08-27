@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.ParkIndirect
 title: ITBasicCallControl::ParkIndirect (tapi3if.h)
-description: The ParkIndirect method parks the call and returns the parked address.helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","ParkIndirect method","ITBasicCallControl.ParkIndirect","ITBasicCallControl::ParkIndirect","ParkIndirect","ParkIndirect method [TAPI 2.2]","ParkIndirect method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_parkindirect","tapi3.itbasiccallcontrol_parkindirect","tapi3if/ITBasicCallControl::ParkIndirect"]
+description: The ParkIndirect method parks the call and returns the parked address.
+helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","ParkIndirect method","ITBasicCallControl.ParkIndirect","ITBasicCallControl::ParkIndirect","ParkIndirect","ParkIndirect method [TAPI 2.2]","ParkIndirect method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_parkindirect","tapi3.itbasiccallcontrol_parkindirect","tapi3if/ITBasicCallControl::ParkIndirect"]
 old-location: tapi3\itbasiccallcontrol_parkindirect.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 661ad11c-b653-4b70-9553-59d484527c29
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkIndirect method, ITBasicCallControl.ParkIndirect, ITBasicCallControl::ParkIndirect, ParkIndirect, ParkIndirect method [TAPI 2.2], ParkIndirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkindirect, tapi3.itbasiccallcontrol_parkindirect, tapi3if/ITBasicCallControl::ParkIndirect

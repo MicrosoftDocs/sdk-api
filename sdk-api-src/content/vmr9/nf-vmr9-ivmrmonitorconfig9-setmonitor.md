@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.SetMonitor
 title: IVMRMonitorConfig9::SetMonitor (vmr9.h)
-description: On a multi-monitor system, the SetMonitor method specifies the monitor that the VMR should use when it creates the Direct3D device.helpviewer_keywords: ["IVMRMonitorConfig9 interface [DirectShow]","SetMonitor method","IVMRMonitorConfig9.SetMonitor","IVMRMonitorConfig9::SetMonitor","IVMRMonitorConfig9SetMonitor","SetMonitor","SetMonitor method [DirectShow]","SetMonitor method [DirectShow]","IVMRMonitorConfig9 interface","dshow.ivmrmonitorconfig9_setmonitor","vmr9/IVMRMonitorConfig9::SetMonitor"]
+description: On a multi-monitor system, the SetMonitor method specifies the monitor that the VMR should use when it creates the Direct3D device.
+helpviewer_keywords: ["IVMRMonitorConfig9 interface [DirectShow]","SetMonitor method","IVMRMonitorConfig9.SetMonitor","IVMRMonitorConfig9::SetMonitor","IVMRMonitorConfig9SetMonitor","SetMonitor","SetMonitor method [DirectShow]","SetMonitor method [DirectShow]","IVMRMonitorConfig9 interface","dshow.ivmrmonitorconfig9_setmonitor","vmr9/IVMRMonitorConfig9::SetMonitor"]
 old-location: dshow\ivmrmonitorconfig9_setmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 21b0db95-3b70-4d9a-b533-393e89e106ae
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetMonitor method, IVMRMonitorConfig9.SetMonitor, IVMRMonitorConfig9::SetMonitor, IVMRMonitorConfig9SetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig9 interface, dshow.ivmrmonitorconfig9_setmonitor, vmr9/IVMRMonitorConfig9::SetMonitor

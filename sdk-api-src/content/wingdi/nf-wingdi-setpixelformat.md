@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetPixelFormat
 title: SetPixelFormat function (wingdi.h)
-description: The SetPixelFormat function sets the pixel format of the specified device context to the format specified by the iPixelFormat index.helpviewer_keywords: ["SetPixelFormat","SetPixelFormat function [OpenGL]","_ogl_SetPixelFormat","opengl.setpixelformat","wingdi/SetPixelFormat"]
+description: The SetPixelFormat function sets the pixel format of the specified device context to the format specified by the iPixelFormat index.
+helpviewer_keywords: ["SetPixelFormat","SetPixelFormat function [OpenGL]","_ogl_SetPixelFormat","opengl.setpixelformat","wingdi/SetPixelFormat"]
 old-location: opengl\setpixelformat.htm
 tech.root: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e

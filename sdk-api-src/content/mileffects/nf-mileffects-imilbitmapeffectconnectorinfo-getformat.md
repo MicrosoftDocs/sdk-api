@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetFormat
 title: IMILBitmapEffectConnectorInfo::GetFormat (mileffects.h)
-description: Retrieves the pixel format for the given pin.helpviewer_keywords: ["GetFormat","GetFormat method [WPF Bitmap Effects]","GetFormat method [WPF Bitmap Effects]","IMILBitmapEffectConnectorInfo interface","IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects]","GetFormat method","IMILBitmapEffectConnectorInfo.GetFormat","IMILBitmapEffectConnectorInfo::GetFormat","_wibe_imilbitmapeffectconnectorinfo_getformat","mileffects/IMILBitmapEffectConnectorInfo::GetFormat","wibe._wibe_imilbitmapeffectconnectorinfo_getformat"]
+description: Retrieves the pixel format for the given pin.
+helpviewer_keywords: ["GetFormat","GetFormat method [WPF Bitmap Effects]","GetFormat method [WPF Bitmap Effects]","IMILBitmapEffectConnectorInfo interface","IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects]","GetFormat method","IMILBitmapEffectConnectorInfo.GetFormat","IMILBitmapEffectConnectorInfo::GetFormat","_wibe_imilbitmapeffectconnectorinfo_getformat","mileffects/IMILBitmapEffectConnectorInfo::GetFormat","wibe._wibe_imilbitmapeffectconnectorinfo_getformat"]
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getformat.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getformat.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.AlignReservedLog
 title: AlignReservedLog function (clfsw32.h)
-description: Calculates the sector-aligned reservation size for a set of reserved records.helpviewer_keywords: ["AlignReservedLog","AlignReservedLog function [Files]","clfsw32/AlignReservedLog","fs.alignreservedlog"]
+description: Calculates the sector-aligned reservation size for a set of reserved records.
+helpviewer_keywords: ["AlignReservedLog","AlignReservedLog function [Files]","clfsw32/AlignReservedLog","fs.alignreservedlog"]
 old-location: fs\alignreservedlog.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 1ac8ecc7-a937-40cb-8a8b-8b168d9fce61
 ms.date: 12/05/2018
 ms.keywords: AlignReservedLog, AlignReservedLog function [Files], clfsw32/AlignReservedLog, fs.alignreservedlog

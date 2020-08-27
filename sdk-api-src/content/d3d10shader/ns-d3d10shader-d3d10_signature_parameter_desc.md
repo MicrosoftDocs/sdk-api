@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10shader._D3D10_SIGNATURE_PARAMETER_DESC
 title: D3D10_SIGNATURE_PARAMETER_DESC (d3d10shader.h)
-description: Describes a shader signature.helpviewer_keywords: ["D3D10_SIGNATURE_PARAMETER_DESC","D3D10_SIGNATURE_PARAMETER_DESC structure [Direct3D 10]","d3d10shader/D3D10_SIGNATURE_PARAMETER_DESC","direct3d10.d3d10_signature_parameter_desc","eb24f675-ae7b-325f-955c-48e49ab65308"]
+description: Describes a shader signature.
+helpviewer_keywords: ["D3D10_SIGNATURE_PARAMETER_DESC","D3D10_SIGNATURE_PARAMETER_DESC structure [Direct3D 10]","d3d10shader/D3D10_SIGNATURE_PARAMETER_DESC","direct3d10.d3d10_signature_parameter_desc","eb24f675-ae7b-325f-955c-48e49ab65308"]
 old-location: direct3d10\d3d10_signature_parameter_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_signature_parameter_desc.htm

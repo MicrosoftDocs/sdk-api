@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.INetSharingPrivateConnectionCollection
 title: INetSharingPrivateConnectionCollection (netcon.h)
-description: The INetSharingPrivateConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate private connections.helpviewer_keywords: ["INetSharingPrivateConnectionCollection","INetSharingPrivateConnectionCollection interface [ICS/ICF]","INetSharingPrivateConnectionCollection interface [ICS/ICF]","described","_ics_inetsharingprivateconnectioncollection","ics.inetsharingprivateconnectioncollection","netcon/INetSharingPrivateConnectionCollection"]
+description: The INetSharingPrivateConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate private connections.
+helpviewer_keywords: ["INetSharingPrivateConnectionCollection","INetSharingPrivateConnectionCollection interface [ICS/ICF]","INetSharingPrivateConnectionCollection interface [ICS/ICF]","described","_ics_inetsharingprivateconnectioncollection","ics.inetsharingprivateconnectioncollection","netcon/INetSharingPrivateConnectionCollection"]
 old-location: ics\inetsharingprivateconnectioncollection.htm
 tech.root: ics
 ms.assetid: 6e850e7b-841a-4f14-bab2-4a5a67dcb360

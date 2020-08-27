@@ -1,7 +1,8 @@
 ---
 UID: NE:ctfutb.__MIDL_ITfLangBarItemBalloon_0001
 title: TfLBBalloonStyle (ctfutb.h)
-description: Elements of the TfLBBalloonStyle enumeration are used to specify a language bar balloon style.helpviewer_keywords: ["TF_LB_BALLOON_MISS","TF_LB_BALLOON_RECO","TF_LB_BALLOON_SHOW","TfLBBalloonStyle","TfLBBalloonStyle enumeration [Text Services Framework]","_tsf_tflbballoonstyle_ref","ctfutb/TF_LB_BALLOON_MISS","ctfutb/TF_LB_BALLOON_RECO","ctfutb/TF_LB_BALLOON_SHOW","ctfutb/TfLBBalloonStyle","tsf.tflbballoonstyle"]
+description: Elements of the TfLBBalloonStyle enumeration are used to specify a language bar balloon style.
+helpviewer_keywords: ["TF_LB_BALLOON_MISS","TF_LB_BALLOON_RECO","TF_LB_BALLOON_SHOW","TfLBBalloonStyle","TfLBBalloonStyle enumeration [Text Services Framework]","_tsf_tflbballoonstyle_ref","ctfutb/TF_LB_BALLOON_MISS","ctfutb/TF_LB_BALLOON_RECO","ctfutb/TF_LB_BALLOON_SHOW","ctfutb/TfLBBalloonStyle","tsf.tflbballoonstyle"]
 old-location: tsf\tflbballoonstyle.htm
 tech.root: TSF
 ms.assetid: c79eb490-b950-4d49-bdf9-821f3706446d

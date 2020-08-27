@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertRetrieveLogoOrBiometricInfo
 title: CertRetrieveLogoOrBiometricInfo function (wincrypt.h)
-description: Performs a URL retrieval of logo or biometric information specified in either the szOID_LOGOTYPE_EXT or szOID_BIOMETRIC_EXT certificate extension.helpviewer_keywords: ["CERT_RETRIEVE_BIOMETRIC_PICTURE_TYPE","CERT_RETRIEVE_BIOMETRIC_SIGNATURE_TYPE","CERT_RETRIEVE_COMMUNITY_LOGO","CERT_RETRIEVE_ISSUER_LOGO","CERT_RETRIEVE_SUBJECT_LOGO","CertRetrieveLogoOrBiometricInfo","CertRetrieveLogoOrBiometricInfo function [Security]","security.certretrievelogoorbiometricinfo","wincrypt/CertRetrieveLogoOrBiometricInfo"]
+description: Performs a URL retrieval of logo or biometric information specified in either the szOID_LOGOTYPE_EXT or szOID_BIOMETRIC_EXT certificate extension.
+helpviewer_keywords: ["CERT_RETRIEVE_BIOMETRIC_PICTURE_TYPE","CERT_RETRIEVE_BIOMETRIC_SIGNATURE_TYPE","CERT_RETRIEVE_COMMUNITY_LOGO","CERT_RETRIEVE_ISSUER_LOGO","CERT_RETRIEVE_SUBJECT_LOGO","CertRetrieveLogoOrBiometricInfo","CertRetrieveLogoOrBiometricInfo function [Security]","security.certretrievelogoorbiometricinfo","wincrypt/CertRetrieveLogoOrBiometricInfo"]
 old-location: security\certretrievelogoorbiometricinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 35813928-728e-40b7-b627-817d3094eeb1
 ms.date: 12/05/2018
 ms.keywords: CERT_RETRIEVE_BIOMETRIC_PICTURE_TYPE, CERT_RETRIEVE_BIOMETRIC_SIGNATURE_TYPE, CERT_RETRIEVE_COMMUNITY_LOGO, CERT_RETRIEVE_ISSUER_LOGO, CERT_RETRIEVE_SUBJECT_LOGO, CertRetrieveLogoOrBiometricInfo, CertRetrieveLogoOrBiometricInfo function [Security], security.certretrievelogoorbiometricinfo, wincrypt/CertRetrieveLogoOrBiometricInfo

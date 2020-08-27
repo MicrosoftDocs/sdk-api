@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ScrollWindow
 title: ScrollWindow function (winuser.h)
-description: The ScrollWindow function scrolls the contents of the specified window's client area.helpviewer_keywords: ["ScrollWindow","ScrollWindow function [Windows Controls]","_win32_ScrollWindow","_win32_ScrollWindow_cpp","controls.ScrollWindow","controls._win32_ScrollWindow","winuser/ScrollWindow"]
+description: The ScrollWindow function scrolls the contents of the specified window's client area.
+helpviewer_keywords: ["ScrollWindow","ScrollWindow function [Windows Controls]","_win32_ScrollWindow","_win32_ScrollWindow_cpp","controls.ScrollWindow","controls._win32_ScrollWindow","winuser/ScrollWindow"]
 old-location: controls\ScrollWindow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindow.htm

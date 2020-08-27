@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.put_UseArchive
 title: IFaxIncomingArchive::put_UseArchive (faxcomex.h)
-description: The UseArchive property is a Boolean value that indicates whether the fax service archives inbound fax messages.helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","UseArchive property","IFaxIncomingArchive.UseArchive","IFaxIncomingArchive.get_UseArchive","IFaxIncomingArchive.put_UseArchive","IFaxIncomingArchive::UseArchive","IFaxIncomingArchive::get_UseArchive","IFaxIncomingArchive::put_UseArchive","UseArchive property [Fax Service]","UseArchive property [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.usearchive","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp","fax._mfax_faxincomingarchive_usearchive","faxcomex/IFaxIncomingArchive::UseArchive","faxcomex/IFaxIncomingArchive::get_UseArchive","faxcomex/IFaxIncomingArchive::put_UseArchive","put_UseArchive"]
+description: The UseArchive property is a Boolean value that indicates whether the fax service archives inbound fax messages.
+helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","UseArchive property","IFaxIncomingArchive.UseArchive","IFaxIncomingArchive.get_UseArchive","IFaxIncomingArchive.put_UseArchive","IFaxIncomingArchive::UseArchive","IFaxIncomingArchive::get_UseArchive","IFaxIncomingArchive::put_UseArchive","UseArchive property [Fax Service]","UseArchive property [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.usearchive","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp","fax._mfax_faxincomingarchive_usearchive","faxcomex/IFaxIncomingArchive::UseArchive","faxcomex/IFaxIncomingArchive::get_UseArchive","faxcomex/IFaxIncomingArchive::put_UseArchive","put_UseArchive"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9e5h.htm

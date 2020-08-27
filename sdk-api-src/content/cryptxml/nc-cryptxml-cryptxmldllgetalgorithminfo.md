@@ -1,9 +1,10 @@
 ---
 UID: NC:cryptxml.CryptXmlDllGetAlgorithmInfo
 title: CryptXmlDllGetAlgorithmInfo (cryptxml.h)
-description: Decodes the XML algorithm and returns information about the algorithm.helpviewer_keywords: ["CryptXmlDllGetAlgorithmInfo","CryptXmlDllGetAlgorithmInfo callback","CryptXmlDllGetAlgorithmInfo callback function [Security]","cryptxml/CryptXmlDllGetAlgorithmInfo","security.cryptxmldllgetalgorithminfo"]
+description: Decodes the XML algorithm and returns information about the algorithm.
+helpviewer_keywords: ["CryptXmlDllGetAlgorithmInfo","CryptXmlDllGetAlgorithmInfo callback","CryptXmlDllGetAlgorithmInfo callback function [Security]","cryptxml/CryptXmlDllGetAlgorithmInfo","security.cryptxmldllgetalgorithminfo"]
 old-location: security\cryptxmldllgetalgorithminfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 36af2809-0dbb-4024-926c-7054b734e97c
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllGetAlgorithmInfo, CryptXmlDllGetAlgorithmInfo callback, CryptXmlDllGetAlgorithmInfo callback function [Security], cryptxml/CryptXmlDllGetAlgorithmInfo, security.cryptxmldllgetalgorithminfo
@@ -71,7 +72,7 @@ A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop
 When you have finished using the memory pointed to by the <i>ppAlgInfo</i> parameter, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
-#### - ppAlgInfo [out]
+### -param ppAlgInfo [out]
 
 A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 

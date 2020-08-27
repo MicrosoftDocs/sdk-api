@@ -4,7 +4,7 @@ title: PerfStartProviderEx function (perflib.h)
 description: Registers the provider.
 helpviewer_keywords: ["PerfStartProviderEx","PerfStartProviderEx function [Perf]","perf.perfstartproviderex","perflib/PerfStartProviderEx"]
 old-location: perf\perfstartproviderex.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 9f3aefbf-0836-46fc-8a53-858c3c94cef9
 ms.date: 12/05/2018
 ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perfstartproviderex, perflib/PerfStartProviderEx

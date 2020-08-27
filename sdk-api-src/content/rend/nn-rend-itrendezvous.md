@@ -1,9 +1,10 @@
 ---
 UID: NN:rend.ITRendezvous
 title: ITRendezvous (rend.h)
-description: The ITRendezvous interface is the main interface for the Rendezvous control. An application calls the COM CoCreateInstance function on this interface to create the Rendezvous object.helpviewer_keywords: ["ITRendezvous","ITRendezvous interface [TAPI 2.2]","ITRendezvous interface [TAPI 2.2]","described","_tapi3_itrendezvous","rend/ITRendezvous","tapi3.itrendezvous"]
+description: The ITRendezvous interface is the main interface for the Rendezvous control. An application calls the COM CoCreateInstance function on this interface to create the Rendezvous object.
+helpviewer_keywords: ["ITRendezvous","ITRendezvous interface [TAPI 2.2]","ITRendezvous interface [TAPI 2.2]","described","_tapi3_itrendezvous","rend/ITRendezvous","tapi3.itrendezvous"]
 old-location: tapi3\itrendezvous.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
 ms.date: 12/05/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous

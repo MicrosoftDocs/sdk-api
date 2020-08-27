@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.SetHorizonSize
 title: IRdcGeneratorFilterMaxParameters::SetHorizonSize (msrdc.h)
-description: Sets the horizon size&#8212;the length over which the FilterMax generator looks for local maxima.helpviewer_keywords: ["IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","SetHorizonSize method","IRdcGeneratorFilterMaxParameters.SetHorizonSize","IRdcGeneratorFilterMaxParameters::SetHorizonSize","SetHorizonSize","SetHorizonSize method [Remote Differential Compression]","SetHorizonSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","fs.irdcgeneratorfiltermaxparameters_sethorizonsize","msrdc/IRdcGeneratorFilterMaxParameters::SetHorizonSize","rdc.irdcgeneratorfiltermaxparameters_sethorizonsize"]
+description: Sets the horizon size—the length over which the FilterMax generator looks for local maxima.
+helpviewer_keywords: ["IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","SetHorizonSize method","IRdcGeneratorFilterMaxParameters.SetHorizonSize","IRdcGeneratorFilterMaxParameters::SetHorizonSize","SetHorizonSize","SetHorizonSize method [Remote Differential Compression]","SetHorizonSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","fs.irdcgeneratorfiltermaxparameters_sethorizonsize","msrdc/IRdcGeneratorFilterMaxParameters::SetHorizonSize","rdc.irdcgeneratorfiltermaxparameters_sethorizonsize"]
 old-location: rdc\irdcgeneratorfiltermaxparameters_sethorizonsize.htm
 tech.root: rdc
 ms.assetid: becd1edd-d06d-4328-8a7a-678f893bad3a

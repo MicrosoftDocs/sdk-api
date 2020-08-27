@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetItemText
 title: ListView_SetItemText macro (commctrl.h)
-description: Changes the text of a list-view item or subitem. You can use this macro or send the LVM_SETITEMTEXT message explicitly.helpviewer_keywords: ["ListView_SetItemText","ListView_SetItemText macro [Windows Controls]","_win32_ListView_SetItemText","_win32_ListView_SetItemText_cpp","commctrl/ListView_SetItemText","controls.ListView_SetItemText","controls._win32_ListView_SetItemText"]
+description: Changes the text of a list-view item or subitem. You can use this macro or send the LVM_SETITEMTEXT message explicitly.
+helpviewer_keywords: ["ListView_SetItemText","ListView_SetItemText macro [Windows Controls]","_win32_ListView_SetItemText","_win32_ListView_SetItemText_cpp","commctrl/ListView_SetItemText","controls.ListView_SetItemText","controls._win32_ListView_SetItemText"]
 old-location: controls\ListView_SetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemtext.htm
@@ -71,7 +72,7 @@ Type: <b>int</b>
 The zero-based index of the list-view item. 
 
 
-#### - iSubItem_
+### -param iSubItem_
 
 Type: <b>int</b>
 
@@ -79,7 +80,7 @@ The one-based index of the subitem. To set the item label, set
 					<i>iSubItem</i> to zero. 
 
 
-#### - pszText_
+### -param pszText_
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 

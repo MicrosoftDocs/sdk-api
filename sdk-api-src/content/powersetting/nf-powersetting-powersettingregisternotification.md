@@ -1,9 +1,10 @@
 ---
 UID: NF:powersetting.PowerSettingRegisterNotification
 title: PowerSettingRegisterNotification function (powersetting.h)
-description: Registers to receive notification when a power setting changes.helpviewer_keywords: ["DEVICE_NOTIFY_CALLBACK","DEVICE_NOTIFY_SERVICE_HANDLE","PowerSettingRegisterNotification","PowerSettingRegisterNotification function","base.powersettingregisternotification","powersetting/PowerSettingRegisterNotification","powrprof/PowerSettingRegisterNotification"]
+description: Registers to receive notification when a power setting changes.
+helpviewer_keywords: ["DEVICE_NOTIFY_CALLBACK","DEVICE_NOTIFY_SERVICE_HANDLE","PowerSettingRegisterNotification","PowerSettingRegisterNotification function","base.powersettingregisternotification","powersetting/PowerSettingRegisterNotification","powrprof/PowerSettingRegisterNotification"]
 old-location: base\powersettingregisternotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: 0fbca717-2367-4407-8094-3eb2b717b59c
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification

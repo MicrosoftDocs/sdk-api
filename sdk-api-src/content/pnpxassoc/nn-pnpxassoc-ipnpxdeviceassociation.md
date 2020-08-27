@@ -1,9 +1,10 @@
 ---
 UID: NN:pnpxassoc.IPNPXDeviceAssociation
 title: IPNPXDeviceAssociation (pnpxassoc.h)
-description: Defines methods to manage the association database entries for PnP-X devices. These methods send notifications when the corresponding PnP devnode changes.helpviewer_keywords: ["IPNPXDeviceAssociation","IPNPXDeviceAssociation interface","IPNPXDeviceAssociation interface","described","ncd.ipnpxdeviceassociation","pnpxassoc/IPNPXDeviceAssociation"]
+description: Defines methods to manage the association database entries for PnP-X devices. These methods send notifications when the corresponding PnP devnode changes.
+helpviewer_keywords: ["IPNPXDeviceAssociation","IPNPXDeviceAssociation interface","IPNPXDeviceAssociation interface","described","ncd.ipnpxdeviceassociation","pnpxassoc/IPNPXDeviceAssociation"]
 old-location: ncd\ipnpxdeviceassociation.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 52669dec-2fd7-4f3e-b322-e93d9da5984d
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation

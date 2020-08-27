@@ -1,9 +1,10 @@
 ---
 UID: NN:mediaobj.IMediaBuffer
 title: IMediaBuffer (mediaobj.h)
-description: The IMediaBuffer interface provides methods for manipulating a data buffer. Buffers passed to the IMediaObject::ProcessInput and ProcessOutput methods must implement this interface.helpviewer_keywords: ["IMediaBuffer","IMediaBuffer interface [DirectShow]","IMediaBuffer interface [DirectShow]","described","IMediaBufferInterface","dshow.imediabuffer","mediaobj/IMediaBuffer"]
+description: The IMediaBuffer interface provides methods for manipulating a data buffer. Buffers passed to the IMediaObject::ProcessInput and ProcessOutput methods must implement this interface.
+helpviewer_keywords: ["IMediaBuffer","IMediaBuffer interface [DirectShow]","IMediaBuffer interface [DirectShow]","described","IMediaBufferInterface","dshow.imediabuffer","mediaobj/IMediaBuffer"]
 old-location: dshow\imediabuffer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
 ms.date: 12/05/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer

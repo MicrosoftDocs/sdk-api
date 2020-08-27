@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetPointer
 title: IAMMediaTypeSample::SetPointer (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetPointer method sets the pointer to the media sample's memory buffer.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetPointer method","IAMMediaTypeSample.SetPointer","IAMMediaTypeSample::SetPointer","IAMMediaTypeSampleSetPointer","SetPointer","SetPointer method [DirectShow]","SetPointer method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetPointer","dshow.iammediatypesample_setpointer"]
+description: Note  This interface is deprecated. New applications should not use it. The SetPointer method sets the pointer to the media sample's memory buffer.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetPointer method","IAMMediaTypeSample.SetPointer","IAMMediaTypeSample::SetPointer","IAMMediaTypeSampleSetPointer","SetPointer","SetPointer method [DirectShow]","SetPointer method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetPointer","dshow.iammediatypesample_setpointer"]
 old-location: dshow\iammediatypesample_setpointer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fc7a04c5-3542-41e0-8abc-bb7b40bff2c9
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetPointer method, IAMMediaTypeSample.SetPointer, IAMMediaTypeSample::SetPointer, IAMMediaTypeSampleSetPointer, SetPointer, SetPointer method [DirectShow], SetPointer method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetPointer, dshow.iammediatypesample_setpointer

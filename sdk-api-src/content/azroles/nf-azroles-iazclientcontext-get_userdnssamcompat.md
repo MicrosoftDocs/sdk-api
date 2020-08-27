@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDnsSamCompat
 title: IAzClientContext::get_UserDnsSamCompat (azroles.h)
-description: Retrieves the name of the current client in a DNS format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).helpviewer_keywords: ["AzClientContext object [Security]","UserDnsSamCompat property","IAzClientContext interface [Security]","UserDnsSamCompat property","IAzClientContext.UserDnsSamCompat","IAzClientContext.get_UserDnsSamCompat","IAzClientContext::UserDnsSamCompat","IAzClientContext::get_UserDnsSamCompat","UserDnsSamCompat property [Security]","UserDnsSamCompat property [Security]","AzClientContext object","UserDnsSamCompat property [Security]","IAzClientContext interface","azroles/IAzClientContext::UserDnsSamCompat","azroles/IAzClientContext::get_UserDnsSamCompat","get_UserDnsSamCompat","security.iazclientcontext_userdnssamcompat"]
+description: Retrieves the name of the current client in a DNS format compatible with Windows Security Account Manager (SAM).
+helpviewer_keywords: ["AzClientContext object [Security]","UserDnsSamCompat property","IAzClientContext interface [Security]","UserDnsSamCompat property","IAzClientContext.UserDnsSamCompat","IAzClientContext.get_UserDnsSamCompat","IAzClientContext::UserDnsSamCompat","IAzClientContext::get_UserDnsSamCompat","UserDnsSamCompat property [Security]","UserDnsSamCompat property [Security]","AzClientContext object","UserDnsSamCompat property [Security]","IAzClientContext interface","azroles/IAzClientContext::UserDnsSamCompat","azroles/IAzClientContext::get_UserDnsSamCompat","get_UserDnsSamCompat","security.iazclientcontext_userdnssamcompat"]
 old-location: security\iazclientcontext_userdnssamcompat.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8f2739cd-3add-4a3c-9c00-8b23d2cec068
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserDnsSamCompat property, IAzClientContext interface [Security],UserDnsSamCompat property, IAzClientContext.UserDnsSamCompat, IAzClientContext.get_UserDnsSamCompat, IAzClientContext::UserDnsSamCompat, IAzClientContext::get_UserDnsSamCompat, UserDnsSamCompat property [Security], UserDnsSamCompat property [Security],AzClientContext object, UserDnsSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDnsSamCompat, azroles/IAzClientContext::get_UserDnsSamCompat, get_UserDnsSamCompat, security.iazclientcontext_userdnssamcompat

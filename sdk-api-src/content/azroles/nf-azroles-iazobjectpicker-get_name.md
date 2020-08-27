@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzObjectPicker.get_Name
 title: IAzObjectPicker::get_Name (azroles.h)
-description: Gets the name of the IAzObjectPicker object.helpviewer_keywords: ["IAzObjectPicker interface [Security]","Name property","IAzObjectPicker.Name","IAzObjectPicker.get_Name","IAzObjectPicker::Name","IAzObjectPicker::get_Name","Name property [Security]","Name property [Security]","IAzObjectPicker interface","azroles/IAzObjectPicker::Name","azroles/IAzObjectPicker::get_Name","get_Name","security.iazobjectpicker_name_method"]
+description: Gets the name of the IAzObjectPicker object.
+helpviewer_keywords: ["IAzObjectPicker interface [Security]","Name property","IAzObjectPicker.Name","IAzObjectPicker.get_Name","IAzObjectPicker::Name","IAzObjectPicker::get_Name","Name property [Security]","Name property [Security]","IAzObjectPicker interface","azroles/IAzObjectPicker::Name","azroles/IAzObjectPicker::get_Name","get_Name","security.iazobjectpicker_name_method"]
 old-location: security\iazobjectpicker_name_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
 ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker interface [Security],Name property, IAzObjectPicker.Name, IAzObjectPicker.get_Name, IAzObjectPicker::Name, IAzObjectPicker::get_Name, Name property [Security], Name property [Security],IAzObjectPicker interface, azroles/IAzObjectPicker::Name, azroles/IAzObjectPicker::get_Name, get_Name, security.iazobjectpicker_name_method

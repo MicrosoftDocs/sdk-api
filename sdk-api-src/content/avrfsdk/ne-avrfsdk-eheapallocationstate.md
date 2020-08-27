@@ -1,9 +1,10 @@
 ---
 UID: NE:avrfsdk.eHeapAllocationState
 title: eHeapAllocationState (avrfsdk.h)
-description: Specifies the current heap allocation state.helpviewer_keywords: ["HeapFullPageHeap","HeapMetadata","HeapStateMask","avrfsdk/HeapFullPageHeap","avrfsdk/HeapMetadata","avrfsdk/HeapStateMask","avrfsdk/eHeapAllocationState","base.eheapallocationstate","eHeapAllocationState","eHeapAllocationState enumeration [Windows API]","winprog.eheapallocationstate"]
+description: Specifies the current heap allocation state.
+helpviewer_keywords: ["HeapFullPageHeap","HeapMetadata","HeapStateMask","avrfsdk/HeapFullPageHeap","avrfsdk/HeapMetadata","avrfsdk/HeapStateMask","avrfsdk/eHeapAllocationState","base.eheapallocationstate","eHeapAllocationState","eHeapAllocationState enumeration [Windows API]","winprog.eheapallocationstate"]
 old-location: winprog\eheapallocationstate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: c91b169d-fee5-46ad-a589-3b52436d779c
 ms.date: 12/05/2018
 ms.keywords: HeapFullPageHeap, HeapMetadata, HeapStateMask, avrfsdk/HeapFullPageHeap, avrfsdk/HeapMetadata, avrfsdk/HeapStateMask, avrfsdk/eHeapAllocationState, base.eheapallocationstate, eHeapAllocationState, eHeapAllocationState enumeration [Windows API], winprog.eheapallocationstate

@@ -1,9 +1,10 @@
 ---
 UID: NF:mmstream.IStreamSample.Update
 title: IStreamSample::Update (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Performs a synchronous or an asynchronous update on the current sample.helpviewer_keywords: ["IStreamSample interface [DirectShow]","Update method","IStreamSample.Update","IStreamSample::Update","IStreamSampleUpdate","Update","Update method [DirectShow]","Update method [DirectShow]","IStreamSample interface","dshow.istreamsample_update","mmstream/IStreamSample::Update"]
+description: Note  This interface is deprecated. New applications should not use it. Performs a synchronous or an asynchronous update on the current sample.
+helpviewer_keywords: ["IStreamSample interface [DirectShow]","Update method","IStreamSample.Update","IStreamSample::Update","IStreamSampleUpdate","Update","Update method [DirectShow]","Update method [DirectShow]","IStreamSample interface","dshow.istreamsample_update","mmstream/IStreamSample::Update"]
 old-location: dshow\istreamsample_update.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5f56e3f9-443b-4d67-bfed-3210e691ad4b
 ms.date: 12/05/2018
 ms.keywords: IStreamSample interface [DirectShow],Update method, IStreamSample.Update, IStreamSample::Update, IStreamSampleUpdate, Update, Update method [DirectShow], Update method [DirectShow],IStreamSample interface, dshow.istreamsample_update, mmstream/IStreamSample::Update

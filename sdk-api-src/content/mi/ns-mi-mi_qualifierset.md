@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_QualifierSet
 title: MI_QualifierSet (mi.h)
-description: Allows the developer to view the qualifiers of a class definition.helpviewer_keywords: ["MI_QualifierSet","MI_QualifierSet structure [Windows Management Infrastructure (MI)]","mi/MI_QualifierSet","wmi_v2.mi_qualifierset"]
+description: Allows the developer to view the qualifiers of a class definition.
+helpviewer_keywords: ["MI_QualifierSet","MI_QualifierSet structure [Windows Management Infrastructure (MI)]","mi/MI_QualifierSet","wmi_v2.mi_qualifierset"]
 old-location: wmi_v2\mi_qualifierset.htm
 tech.root: wmi_v2
 ms.assetid: 6c374d19-c433-4c70-a644-e53a401f96dd

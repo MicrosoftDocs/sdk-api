@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaStream.GetStreamDescriptor
 title: IMFMediaStream::GetStreamDescriptor (mfidl.h)
-description: Retrieves a stream descriptor for this media stream.helpviewer_keywords: ["574eacfb-3acd-4b47-9c25-3a67aae01178","GetStreamDescriptor","GetStreamDescriptor method [Media Foundation]","GetStreamDescriptor method [Media Foundation]","IMFMediaStream interface","IMFMediaStream interface [Media Foundation]","GetStreamDescriptor method","IMFMediaStream.GetStreamDescriptor","IMFMediaStream::GetStreamDescriptor","mf.imfmediastream_getstreamdescriptor","mfidl/IMFMediaStream::GetStreamDescriptor"]
+description: Retrieves a stream descriptor for this media stream.
+helpviewer_keywords: ["574eacfb-3acd-4b47-9c25-3a67aae01178","GetStreamDescriptor","GetStreamDescriptor method [Media Foundation]","GetStreamDescriptor method [Media Foundation]","IMFMediaStream interface","IMFMediaStream interface [Media Foundation]","GetStreamDescriptor method","IMFMediaStream.GetStreamDescriptor","IMFMediaStream::GetStreamDescriptor","mf.imfmediastream_getstreamdescriptor","mfidl/IMFMediaStream::GetStreamDescriptor"]
 old-location: mf\imfmediastream_getstreamdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 574eacfb-3acd-4b47-9c25-3a67aae01178
 ms.date: 12/05/2018
 ms.keywords: 574eacfb-3acd-4b47-9c25-3a67aae01178, GetStreamDescriptor, GetStreamDescriptor method [Media Foundation], GetStreamDescriptor method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetStreamDescriptor method, IMFMediaStream.GetStreamDescriptor, IMFMediaStream::GetStreamDescriptor, mf.imfmediastream_getstreamdescriptor, mfidl/IMFMediaStream::GetStreamDescriptor

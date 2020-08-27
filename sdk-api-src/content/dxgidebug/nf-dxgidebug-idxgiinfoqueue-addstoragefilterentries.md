@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddStorageFilterEntries
 title: IDXGIInfoQueue::AddStorageFilterEntries (dxgidebug.h)
-description: Adds storage filters to the top of the storage-filter stack.helpviewer_keywords: ["AddStorageFilterEntries","AddStorageFilterEntries method [DXGI]","AddStorageFilterEntries method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","AddStorageFilterEntries method","IDXGIInfoQueue.AddStorageFilterEntries","IDXGIInfoQueue::AddStorageFilterEntries","direct3ddxgi.idxgiinfoqueue_addstoragefilterentries","dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries"]
+description: Adds storage filters to the top of the storage-filter stack.
+helpviewer_keywords: ["AddStorageFilterEntries","AddStorageFilterEntries method [DXGI]","AddStorageFilterEntries method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","AddStorageFilterEntries method","IDXGIInfoQueue.AddStorageFilterEntries","IDXGIInfoQueue::AddStorageFilterEntries","direct3ddxgi.idxgiinfoqueue_addstoragefilterentries","dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries"]
 old-location: direct3ddxgi\idxgiinfoqueue_addstoragefilterentries.htm
 tech.root: direct3ddxgi
 ms.assetid: 34FC5AE3-7B72-4480-ACFA-53C7FB5425DA

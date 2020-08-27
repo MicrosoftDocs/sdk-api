@@ -1,9 +1,10 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorTransferMatrix
 title: eAVEncVideoColorTransferMatrix (codecapi.h)
-description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the AVEncVideoInputColorTransferMatrix and AVEncVideoOutputColorTransferMatrix properties.helpviewer_keywords: ["codecapi/eAVEncVideoColorTransferMatrix","codecapi/eAVEncVideoColorTransferMatrix_BT601","codecapi/eAVEncVideoColorTransferMatrix_BT709","codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M","codecapi/eAVEncVideoColorTransferMatrix_SameAsSource","dshow.eavencvideocolortransfermatrix","eAVEncVideoColorTransferMatrix","eAVEncVideoColorTransferMatrix enumeration [DirectShow]","eAVEncVideoColorTransferMatrixEnumeration","eAVEncVideoColorTransferMatrix_BT601","eAVEncVideoColorTransferMatrix_BT709","eAVEncVideoColorTransferMatrix_SMPTE240M","eAVEncVideoColorTransferMatrix_SameAsSource"]
+description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the AVEncVideoInputColorTransferMatrix and AVEncVideoOutputColorTransferMatrix properties.
+helpviewer_keywords: ["codecapi/eAVEncVideoColorTransferMatrix","codecapi/eAVEncVideoColorTransferMatrix_BT601","codecapi/eAVEncVideoColorTransferMatrix_BT709","codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M","codecapi/eAVEncVideoColorTransferMatrix_SameAsSource","dshow.eavencvideocolortransfermatrix","eAVEncVideoColorTransferMatrix","eAVEncVideoColorTransferMatrix enumeration [DirectShow]","eAVEncVideoColorTransferMatrixEnumeration","eAVEncVideoColorTransferMatrix_BT601","eAVEncVideoColorTransferMatrix_BT709","eAVEncVideoColorTransferMatrix_SMPTE240M","eAVEncVideoColorTransferMatrix_SameAsSource"]
 old-location: dshow\eavencvideocolortransfermatrix.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6912cc24-9c67-4c52-9cb7-3decbb4ba8ac
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoColorTransferMatrix, codecapi/eAVEncVideoColorTransferMatrix_BT601, codecapi/eAVEncVideoColorTransferMatrix_BT709, codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M, codecapi/eAVEncVideoColorTransferMatrix_SameAsSource, dshow.eavencvideocolortransfermatrix, eAVEncVideoColorTransferMatrix, eAVEncVideoColorTransferMatrix enumeration [DirectShow], eAVEncVideoColorTransferMatrixEnumeration, eAVEncVideoColorTransferMatrix_BT601, eAVEncVideoColorTransferMatrix_BT709, eAVEncVideoColorTransferMatrix_SMPTE240M, eAVEncVideoColorTransferMatrix_SameAsSource

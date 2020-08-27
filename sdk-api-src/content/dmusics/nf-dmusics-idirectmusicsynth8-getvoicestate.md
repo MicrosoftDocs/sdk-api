@@ -1,7 +1,8 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.GetVoiceState
 title: IDirectMusicSynth8::GetVoiceState (dmusics.h)
-description: GetVoiceState is unsupported and may be altered or unavailable in the future.helpviewer_keywords: ["GetVoiceState","GetVoiceState method [Audio Devices]","GetVoiceState method [Audio Devices]","IDirectMusicSynth8 interface","IDirectMusicSynth8 interface [Audio Devices]","GetVoiceState method","IDirectMusicSynth8.GetVoiceState","IDirectMusicSynth8::GetVoiceState","audio.idirectmusicsynth8_getvoicestate","dmusics/IDirectMusicSynth8::GetVoiceState"]
+description: GetVoiceState is unsupported and may be altered or unavailable in the future.
+helpviewer_keywords: ["GetVoiceState","GetVoiceState method [Audio Devices]","GetVoiceState method [Audio Devices]","IDirectMusicSynth8 interface","IDirectMusicSynth8 interface [Audio Devices]","GetVoiceState method","IDirectMusicSynth8.GetVoiceState","IDirectMusicSynth8::GetVoiceState","audio.idirectmusicsynth8_getvoicestate","dmusics/IDirectMusicSynth8::GetVoiceState"]
 old-location: audio\idirectmusicsynth8_getvoicestate.htm
 tech.root: audio
 ms.assetid: DA4D5330-78DD-4D6D-8B58-CDD977C3159F

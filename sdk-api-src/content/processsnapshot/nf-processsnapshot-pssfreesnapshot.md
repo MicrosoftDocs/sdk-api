@@ -1,7 +1,8 @@
 ---
 UID: NF:processsnapshot.PssFreeSnapshot
 title: PssFreeSnapshot function (processsnapshot.h)
-description: Frees a snapshot.helpviewer_keywords: ["PssFreeSnapshot","PssFreeSnapshot function","proc_snap.pssfreesnapshot","processsnapshot/PssFreeSnapshot"]
+description: Frees a snapshot.
+helpviewer_keywords: ["PssFreeSnapshot","PssFreeSnapshot function","proc_snap.pssfreesnapshot","processsnapshot/PssFreeSnapshot"]
 old-location: proc_snap\pssfreesnapshot.htm
 tech.root: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6

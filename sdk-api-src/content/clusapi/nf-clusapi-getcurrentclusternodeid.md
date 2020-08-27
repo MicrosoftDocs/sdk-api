@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.GetCurrentClusterNodeId
 title: GetCurrentClusterNodeId macro (clusapi.h)
-description: Returns the unique identifier of the current cluster node.helpviewer_keywords: ["GetCurrentClusterNodeId","GetCurrentClusterNodeId macro [Failover Cluster]","clusapi/GetCurrentClusterNodeId","mscs.getcurrentclusternodeid"]
+description: Returns the unique identifier of the current cluster node.
+helpviewer_keywords: ["GetCurrentClusterNodeId","GetCurrentClusterNodeId macro [Failover Cluster]","clusapi/GetCurrentClusterNodeId","mscs.getcurrentclusternodeid"]
 old-location: mscs\getcurrentclusternodeid.htm
 tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
@@ -58,13 +59,13 @@ Returns the unique identifier of the current cluster
 
 
 
-#### - _lpszNodeId_ [out]
+### -param _lpszNodeId_ [out]
 
 This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
        the terminating <b>NULL</b> character.
 
 
-#### - _lpcchName_ [in, out]
+### -param _lpcchName_ [in, out]
 
 On input, pointer to the count of characters in the buffer pointed to by the 
        <i>lpszNodeId</i> parameter, including the <b>NULL</b> terminator. On 

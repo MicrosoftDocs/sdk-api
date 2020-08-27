@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._REASSIGN_BLOCKS_EX
 title: REASSIGN_BLOCKS_EX
-description: Contains disk block reassignment data.helpviewer_keywords: ["*PREASSIGN_BLOCKS_EX","PREASSIGN_BLOCKS_EX","PREASSIGN_BLOCKS_EX structure pointer [Files]","REASSIGN_BLOCKS_EX","REASSIGN_BLOCKS_EX structure [Files]","base.reassign_blocks_ex","fs.reassign_blocks_ex","winioctl/PREASSIGN_BLOCKS_EX","winioctl/REASSIGN_BLOCKS_EX"]
+description: Contains disk block reassignment data.
+helpviewer_keywords: ["*PREASSIGN_BLOCKS_EX","PREASSIGN_BLOCKS_EX","PREASSIGN_BLOCKS_EX structure pointer [Files]","REASSIGN_BLOCKS_EX","REASSIGN_BLOCKS_EX structure [Files]","base.reassign_blocks_ex","fs.reassign_blocks_ex","winioctl/PREASSIGN_BLOCKS_EX","winioctl/REASSIGN_BLOCKS_EX"]
 old-location: fs\reassign_blocks_ex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 48036bdc-3588-41a6-9dbb-4606bdfcb683
 ms.date: 12/05/2018
 ms.keywords: '*PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Files], REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Files], base.reassign_blocks_ex, fs.reassign_blocks_ex, winioctl/PREASSIGN_BLOCKS_EX, winioctl/REASSIGN_BLOCKS_EX'

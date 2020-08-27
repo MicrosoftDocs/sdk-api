@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemprov.IWbemUnboundObjectSink.IndicateToConsumer
 title: IWbemUnboundObjectSink::IndicateToConsumer (wbemprov.h)
-description: Called by WMI to actually deliver events to a consumer.helpviewer_keywords: ["IWbemUnboundObjectSink interface [Windows Management Instrumentation]","IndicateToConsumer method","IWbemUnboundObjectSink.IndicateToConsumer","IWbemUnboundObjectSink::IndicateToConsumer","IndicateToConsumer","IndicateToConsumer method [Windows Management Instrumentation]","IndicateToConsumer method [Windows Management Instrumentation]","IWbemUnboundObjectSink interface","_hmm_iwbemunboundobjectsink_indicatetoconsumer","wbemprov/IWbemUnboundObjectSink::IndicateToConsumer","wmi.iwbemunboundobjectsink_indicatetoconsumer"]
+description: Called by WMI to actually deliver events to a consumer.
+helpviewer_keywords: ["IWbemUnboundObjectSink interface [Windows Management Instrumentation]","IndicateToConsumer method","IWbemUnboundObjectSink.IndicateToConsumer","IWbemUnboundObjectSink::IndicateToConsumer","IndicateToConsumer","IndicateToConsumer method [Windows Management Instrumentation]","IndicateToConsumer method [Windows Management Instrumentation]","IWbemUnboundObjectSink interface","_hmm_iwbemunboundobjectsink_indicatetoconsumer","wbemprov/IWbemUnboundObjectSink::IndicateToConsumer","wmi.iwbemunboundobjectsink_indicatetoconsumer"]
 old-location: wmi\iwbemunboundobjectsink_indicatetoconsumer.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 70fe9976-cfa9-442d-93a4-12293e80d1fa
 ms.date: 12/05/2018
 ms.keywords: IWbemUnboundObjectSink interface [Windows Management Instrumentation],IndicateToConsumer method, IWbemUnboundObjectSink.IndicateToConsumer, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation],IWbemUnboundObjectSink interface, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer

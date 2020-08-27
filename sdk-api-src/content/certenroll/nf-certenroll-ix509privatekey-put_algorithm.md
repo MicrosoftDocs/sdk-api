@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Algorithm
 title: IX509PrivateKey::put_Algorithm (certenroll.h)
-description: Specifies or retrieves an object identifier (OID) for the public key algorithm.helpviewer_keywords: ["Algorithm property [Security]","Algorithm property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Algorithm property","IX509PrivateKey.Algorithm","IX509PrivateKey.put_Algorithm","IX509PrivateKey::Algorithm","IX509PrivateKey::get_Algorithm","IX509PrivateKey::put_Algorithm","certenroll/IX509PrivateKey::Algorithm","certenroll/IX509PrivateKey::get_Algorithm","certenroll/IX509PrivateKey::put_Algorithm","put_Algorithm","security.ix509privatekey_algorithm"]
+description: Specifies or retrieves an object identifier (OID) for the public key algorithm.
+helpviewer_keywords: ["Algorithm property [Security]","Algorithm property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Algorithm property","IX509PrivateKey.Algorithm","IX509PrivateKey.put_Algorithm","IX509PrivateKey::Algorithm","IX509PrivateKey::get_Algorithm","IX509PrivateKey::put_Algorithm","certenroll/IX509PrivateKey::Algorithm","certenroll/IX509PrivateKey::get_Algorithm","certenroll/IX509PrivateKey::put_Algorithm","put_Algorithm","security.ix509privatekey_algorithm"]
 old-location: security\ix509privatekey_algorithm.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 40d2eae1-733a-4e5b-bb15-71301d73f438
 ms.date: 12/05/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Algorithm property, IX509PrivateKey.Algorithm, IX509PrivateKey.put_Algorithm, IX509PrivateKey::Algorithm, IX509PrivateKey::get_Algorithm, IX509PrivateKey::put_Algorithm, certenroll/IX509PrivateKey::Algorithm, certenroll/IX509PrivateKey::get_Algorithm, certenroll/IX509PrivateKey::put_Algorithm, put_Algorithm, security.ix509privatekey_algorithm

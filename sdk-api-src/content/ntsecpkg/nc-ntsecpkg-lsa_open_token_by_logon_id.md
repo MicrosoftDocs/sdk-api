@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.LSA_OPEN_TOKEN_BY_LOGON_ID
 title: LSA_OPEN_TOKEN_BY_LOGON_ID (ntsecpkg.h)
-description: Opens the user access token associated with the specified user logon.helpviewer_keywords: ["LSA_OPEN_TOKEN_BY_LOGON_ID","LSA_OPEN_TOKEN_BY_LOGON_ID callback","OpenTokenByLogonId","OpenTokenByLogonId callback function [Security]","ntsecpkg/OpenTokenByLogonId","security.opentokenbylogonid"]
+description: Opens the user access token associated with the specified user logon.
+helpviewer_keywords: ["LSA_OPEN_TOKEN_BY_LOGON_ID","LSA_OPEN_TOKEN_BY_LOGON_ID callback","OpenTokenByLogonId","OpenTokenByLogonId callback function [Security]","ntsecpkg/OpenTokenByLogonId","security.opentokenbylogonid"]
 old-location: security\opentokenbylogonid.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3cd3e4fe-7548-44f9-ab04-01b30bdf3bd9
 ms.date: 12/05/2018
 ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, LSA_OPEN_TOKEN_BY_LOGON_ID callback, OpenTokenByLogonId, OpenTokenByLogonId callback function [Security], ntsecpkg/OpenTokenByLogonId, security.opentokenbylogonid

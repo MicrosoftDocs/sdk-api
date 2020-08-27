@@ -1,9 +1,10 @@
 ---
 UID: NS:setupapi._SP_INF_INFORMATION
 title: SP_INF_INFORMATION (setupapi.h)
-description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.helpviewer_keywords: ["*PSP_INF_INFORMATION","INF_STYLE_NONE","INF_STYLE_OLDNT","INF_STYLE_WIN4","PSP_INF_INFORMATION","PSP_INF_INFORMATION structure pointer [Setup API]","SP_INF_INFORMATION","SP_INF_INFORMATION structure [Setup API]","_setupapi_sp_inf_information_str","setup.sp_inf_information_str","setupapi/PSP_INF_INFORMATION","setupapi/SP_INF_INFORMATION"]
+description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.
+helpviewer_keywords: ["*PSP_INF_INFORMATION","INF_STYLE_NONE","INF_STYLE_OLDNT","INF_STYLE_WIN4","PSP_INF_INFORMATION","PSP_INF_INFORMATION structure pointer [Setup API]","SP_INF_INFORMATION","SP_INF_INFORMATION structure [Setup API]","_setupapi_sp_inf_information_str","setup.sp_inf_information_str","setupapi/PSP_INF_INFORMATION","setupapi/SP_INF_INFORMATION"]
 old-location: setup\sp_inf_information_str.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 1fb08456-bc84-41a1-9f02-8fb499801831
 ms.date: 12/05/2018
 ms.keywords: '*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_WIN4, PSP_INF_INFORMATION, PSP_INF_INFORMATION structure pointer [Setup API], SP_INF_INFORMATION, SP_INF_INFORMATION structure [Setup API], _setupapi_sp_inf_information_str, setup.sp_inf_information_str, setupapi/PSP_INF_INFORMATION, setupapi/SP_INF_INFORMATION'

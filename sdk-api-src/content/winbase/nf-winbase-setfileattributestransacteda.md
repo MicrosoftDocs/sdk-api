@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetFileAttributesTransactedA
 title: SetFileAttributesTransactedA function (winbase.h)
-description: Sets the attributes for a file or directory as a transacted operation.helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributesTransacted","SetFileAttributesTransacted function [Files]","SetFileAttributesTransactedA","SetFileAttributesTransactedW","fs.setfileattributestransacted","winbase/SetFileAttributesTransacted","winbase/SetFileAttributesTransactedA","winbase/SetFileAttributesTransactedW"]
+description: Sets the attributes for a file or directory as a transacted operation.
+helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributesTransacted","SetFileAttributesTransacted function [Files]","SetFileAttributesTransactedA","SetFileAttributesTransactedW","fs.setfileattributestransacted","winbase/SetFileAttributesTransacted","winbase/SetFileAttributesTransactedA","winbase/SetFileAttributesTransactedW"]
 old-location: fs\setfileattributestransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, SetFileAttributesTransacted, SetFileAttributesTransacted function [Files], SetFileAttributesTransactedA, SetFileAttributesTransactedW, fs.setfileattributestransacted, winbase/SetFileAttributesTransacted, winbase/SetFileAttributesTransactedA, winbase/SetFileAttributesTransactedW
@@ -309,6 +310,10 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines SetFileAttributesTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

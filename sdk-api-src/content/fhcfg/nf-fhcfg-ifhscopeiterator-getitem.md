@@ -1,9 +1,10 @@
 ---
 UID: NF:fhcfg.IFhScopeIterator.GetItem
 title: IFhScopeIterator::GetItem (fhcfg.h)
-description: Retrieves the current item in an inclusion or exclusion list.helpviewer_keywords: ["GetItem","GetItem method [Windows API]","GetItem method [Windows API]","IFhScopeIterator interface","IFhScopeIterator interface [Windows API]","GetItem method","IFhScopeIterator.GetItem","IFhScopeIterator::GetItem","fhcfg/IFhScopeIterator::GetItem","winprog.ifhscopeiterator_getitem"]
+description: Retrieves the current item in an inclusion or exclusion list.
+helpviewer_keywords: ["GetItem","GetItem method [Windows API]","GetItem method [Windows API]","IFhScopeIterator interface","IFhScopeIterator interface [Windows API]","GetItem method","IFhScopeIterator.GetItem","IFhScopeIterator::GetItem","fhcfg/IFhScopeIterator::GetItem","winprog.ifhscopeiterator_getitem"]
 old-location: winprog\ifhscopeiterator_getitem.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: EB732725-497C-4D58-A05C-373732054BE5
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows API], GetItem method [Windows API],IFhScopeIterator interface, IFhScopeIterator interface [Windows API],GetItem method, IFhScopeIterator.GetItem, IFhScopeIterator::GetItem, fhcfg/IFhScopeIterator::GetItem, winprog.ifhscopeiterator_getitem

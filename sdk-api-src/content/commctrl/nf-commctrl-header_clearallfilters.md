@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Header_ClearAllFilters
 title: Header_ClearAllFilters macro (commctrl.h)
-description: Clears all of the filters for a given header control. You can use this macro or send the HDM_CLEARFILTER message explicitly.helpviewer_keywords: ["Header_ClearAllFilters","Header_ClearAllFilters macro [Windows Controls]","_win32_Header_ClearAllFilters","_win32_Header_ClearAllFilters_cpp","commctrl/Header_ClearAllFilters","controls.Header_ClearAllFilters","controls._win32_Header_ClearAllFilters"]
+description: Clears all of the filters for a given header control. You can use this macro or send the HDM_CLEARFILTER message explicitly.
+helpviewer_keywords: ["Header_ClearAllFilters","Header_ClearAllFilters macro [Windows Controls]","_win32_Header_ClearAllFilters","_win32_Header_ClearAllFilters_cpp","commctrl/Header_ClearAllFilters","controls.Header_ClearAllFilters","controls._win32_Header_ClearAllFilters"]
 old-location: controls\Header_ClearAllFilters.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearallfilters.htm

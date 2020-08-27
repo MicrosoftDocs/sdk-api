@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3D11SurfaceFromDXGISurface
 title: CreateDirect3D11SurfaceFromDXGISurface function
-description: Creates an instance of IDirect3DSurface from an IDXGISurface.helpviewer_keywords: ["81213ad6-5736-1d54-c0a6-628697437568","CreateDirect3D11SurfaceFromDXGISurface","CreateDirect3D11SurfaceFromDXGISurface function [Direct3D 11]","windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface","direct3d11.createdirect3d11surfacefromdxgisurface"]
+description: Creates an instance of IDirect3DSurface from an IDXGISurface.
+helpviewer_keywords: ["81213ad6-5736-1d54-c0a6-628697437568","CreateDirect3D11SurfaceFromDXGISurface","CreateDirect3D11SurfaceFromDXGISurface function [Direct3D 11]","windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface","direct3d11.createdirect3d11surfacefromdxgisurface"]
 tech.root: winrt
 ms.assetid: 81213ad6-5736-1d54-c0a6-628697437568
 ms.date: 05/13/2019
@@ -68,7 +69,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## -remarks
 
-While we recommend [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index), if you're using C++/CX then you should call [CreateDirect3DSurface](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) instead of **CreateDirect3D11DeviceFromDXGIDevice**. If you're using WRL then **CreateDirect3D11DeviceFromDXGIDevice** can be used as shown in this code example.
+While we recommend [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index), if you're using C++/CX then you should call [CreateDirect3DSurface](https://docs.microsoft.com/en-us/windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface) instead of **CreateDirect3D11DeviceFromDXGIDevice**. If you're using WRL then **CreateDirect3D11DeviceFromDXGIDevice** can be used as shown in this code example.
 
 ```cpp
 using namespace Microsoft::WRL;

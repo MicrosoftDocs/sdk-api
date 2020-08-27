@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRYPT_RSAES_OAEP_PARAMETERS
 title: CRYPT_RSAES_OAEP_PARAMETERS (wincrypt.h)
-description: Contains the parameters for an RSAES-OAEP key encryption.helpviewer_keywords: ["*PCRYPT_RSAES_OAEP_PARAMETERS","CRYPT_RSAES_OAEP_PARAMETERS","CRYPT_RSAES_OAEP_PARAMETERS structure [Security]","PCRYPT_RSAES_OAEP_PARAMETERS","PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security]","security.crypt_rsaes_oaep_parameters","wincrypt/CRYPT_RSAES_OAEP_PARAMETERS","wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"]
+description: Contains the parameters for an RSAES-OAEP key encryption.
+helpviewer_keywords: ["*PCRYPT_RSAES_OAEP_PARAMETERS","CRYPT_RSAES_OAEP_PARAMETERS","CRYPT_RSAES_OAEP_PARAMETERS structure [Security]","PCRYPT_RSAES_OAEP_PARAMETERS","PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security]","security.crypt_rsaes_oaep_parameters","wincrypt/CRYPT_RSAES_OAEP_PARAMETERS","wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"]
 old-location: security\crypt_rsaes_oaep_parameters.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ebcd25a2-2547-4949-85fd-be5f6c5bfcd2
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS structure [Security], PCRYPT_RSAES_OAEP_PARAMETERS, PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security], security.crypt_rsaes_oaep_parameters, wincrypt/CRYPT_RSAES_OAEP_PARAMETERS, wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS'

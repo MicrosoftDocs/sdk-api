@@ -1,9 +1,10 @@
 ---
 UID: NS:winbase._FILE_IO_PRIORITY_HINT_INFO
 title: FILE_IO_PRIORITY_HINT_INFO (winbase.h)
-description: Specifies the priority hint for a file I/O operation.helpviewer_keywords: ["*PFILE_IO_PRIORITY_HINT_INFO","FILE_IO_PRIORITY_HINT_INFO","FILE_IO_PRIORITY_HINT_INFO structure [Files]","PFILE_IO_PRIORITY_HINT_INFO","PFILE_IO_PRIORITY_HINT_INFO structure pointer [Files]","_FILE_IO_PRIORITY_HINT_INFO","fs.file_io_priority_hint_info","winbase/FILE_IO_PRIORITY_HINT_INFO","winbase/PFILE_IO_PRIORITY_HINT_INFO"]
+description: Specifies the priority hint for a file I/O operation.
+helpviewer_keywords: ["*PFILE_IO_PRIORITY_HINT_INFO","FILE_IO_PRIORITY_HINT_INFO","FILE_IO_PRIORITY_HINT_INFO structure [Files]","PFILE_IO_PRIORITY_HINT_INFO","PFILE_IO_PRIORITY_HINT_INFO structure pointer [Files]","_FILE_IO_PRIORITY_HINT_INFO","fs.file_io_priority_hint_info","winbase/FILE_IO_PRIORITY_HINT_INFO","winbase/PFILE_IO_PRIORITY_HINT_INFO"]
 old-location: fs\file_io_priority_hint_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a142b8fd-b71c-4449-a8c6-fb23715d1576
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO structure [Files], PFILE_IO_PRIORITY_HINT_INFO, PFILE_IO_PRIORITY_HINT_INFO structure pointer [Files], _FILE_IO_PRIORITY_HINT_INFO, fs.file_io_priority_hint_info, winbase/FILE_IO_PRIORITY_HINT_INFO, winbase/PFILE_IO_PRIORITY_HINT_INFO'

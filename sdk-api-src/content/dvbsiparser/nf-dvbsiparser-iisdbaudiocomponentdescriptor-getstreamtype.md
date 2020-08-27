@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetStreamType
 title: IIsdbAudioComponentDescriptor::GetStreamType (dvbsiparser.h)
-description: Gets a code that indicates the stream type from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.helpviewer_keywords: ["GetStreamType","GetStreamType method [Microsoft TV Technologies]","GetStreamType method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetStreamType method","IIsdbAudioComponentDescriptor.GetStreamType","IIsdbAudioComponentDescriptor::GetStreamType","dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamType","mstv.iisdbaudiocomponentdescriptor_getstreamtype"]
+description: Gets a code that indicates the stream type from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
+helpviewer_keywords: ["GetStreamType","GetStreamType method [Microsoft TV Technologies]","GetStreamType method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetStreamType method","IIsdbAudioComponentDescriptor.GetStreamType","IIsdbAudioComponentDescriptor::GetStreamType","dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamType","mstv.iisdbaudiocomponentdescriptor_getstreamtype"]
 old-location: mstv\iisdbaudiocomponentdescriptor_getstreamtype.htm
 tech.root: mstv
 ms.assetid: 73c7a8c8-7098-43e8-ac90-c29586e9856c

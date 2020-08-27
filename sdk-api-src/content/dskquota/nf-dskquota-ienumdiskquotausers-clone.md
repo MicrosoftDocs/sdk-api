@@ -1,9 +1,10 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Clone
 title: IEnumDiskQuotaUsers::Clone (dskquota.h)
-description: Creates another enumerator of user quota entries that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [Files]","Clone method [Files]","IEnumDiskQuotaUsers interface","IEnumDiskQuotaUsers interface [Files]","Clone method","IEnumDiskQuotaUsers.Clone","IEnumDiskQuotaUsers::Clone","_win32_ienumdiskquotausers_clone","base.ienumdiskquotausers_clone","dskquota/IEnumDiskQuotaUsers::Clone","fs.ienumdiskquotausers_clone"]
+description: Creates another enumerator of user quota entries that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [Files]","Clone method [Files]","IEnumDiskQuotaUsers interface","IEnumDiskQuotaUsers interface [Files]","Clone method","IEnumDiskQuotaUsers.Clone","IEnumDiskQuotaUsers::Clone","_win32_ienumdiskquotausers_clone","base.ienumdiskquotausers_clone","dskquota/IEnumDiskQuotaUsers::Clone","fs.ienumdiskquotausers_clone"]
 old-location: fs\ienumdiskquotausers_clone.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1c01b2d5-5419-4694-819f-fe6ef6e1636b
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Files], Clone method [Files],IEnumDiskQuotaUsers interface, IEnumDiskQuotaUsers interface [Files],Clone method, IEnumDiskQuotaUsers.Clone, IEnumDiskQuotaUsers::Clone, _win32_ienumdiskquotausers_clone, base.ienumdiskquotausers_clone, dskquota/IEnumDiskQuotaUsers::Clone, fs.ienumdiskquotausers_clone

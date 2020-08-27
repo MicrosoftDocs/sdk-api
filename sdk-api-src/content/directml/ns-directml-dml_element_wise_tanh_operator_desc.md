@@ -2,7 +2,7 @@
 UID: NS:directml.DML_ELEMENT_WISE_TANH_OPERATOR_DESC
 title: DML_ELEMENT_WISE_TANH_OPERATOR_DESC
 description: Describes a DirectML trigonometric operator that performs the element-wise inverse hyperbolic tangent function f(x) = tanh(x) * scale + bias, where the scale and bias terms are optional.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/30/2020
 targetos: Windows
 req.construct-type: structure

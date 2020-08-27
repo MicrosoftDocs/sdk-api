@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif._AMRESCTL_RESERVEFLAGS
 title: "_AMRESCTL_RESERVEFLAGS (strmif.h)"
-description: Specifies whether to increment or decrement the number of resources currently being reserved.helpviewer_keywords: ["AMRESCTL_RESERVEFLAGS","AMRESCTL_RESERVEFLAGSEnumeration","AMRESCTL_RESERVEFLAGS_RESERVE","AMRESCTL_RESERVEFLAGS_UNRESERVE","_AMRESCTL_RESERVEFLAGS","_AMRESCTL_RESERVEFLAGS enumeration [DirectShow]","dshow.amresctl_reserveflags","strmif/AMRESCTL_RESERVEFLAGS_RESERVE","strmif/AMRESCTL_RESERVEFLAGS_UNRESERVE","strmif/_AMRESCTL_RESERVEFLAGS"]
+description: Specifies whether to increment or decrement the number of resources currently being reserved.
+helpviewer_keywords: ["AMRESCTL_RESERVEFLAGS","AMRESCTL_RESERVEFLAGSEnumeration","AMRESCTL_RESERVEFLAGS_RESERVE","AMRESCTL_RESERVEFLAGS_UNRESERVE","_AMRESCTL_RESERVEFLAGS","_AMRESCTL_RESERVEFLAGS enumeration [DirectShow]","dshow.amresctl_reserveflags","strmif/AMRESCTL_RESERVEFLAGS_RESERVE","strmif/AMRESCTL_RESERVEFLAGS_UNRESERVE","strmif/_AMRESCTL_RESERVEFLAGS"]
 old-location: dshow\amresctl_reserveflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 528c4e2e-2045-45a1-b502-75e103745c93
 ms.date: 12/05/2018
 ms.keywords: AMRESCTL_RESERVEFLAGS, AMRESCTL_RESERVEFLAGSEnumeration, AMRESCTL_RESERVEFLAGS_RESERVE, AMRESCTL_RESERVEFLAGS_UNRESERVE, _AMRESCTL_RESERVEFLAGS, _AMRESCTL_RESERVEFLAGS enumeration [DirectShow], dshow.amresctl_reserveflags, strmif/AMRESCTL_RESERVEFLAGS_RESERVE, strmif/AMRESCTL_RESERVEFLAGS_UNRESERVE, strmif/_AMRESCTL_RESERVEFLAGS

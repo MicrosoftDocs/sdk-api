@@ -4,7 +4,7 @@ title: CreateSemaphoreA function (winbase.h)
 description: Creates or opens a named or unnamed semaphore object.
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreA function","CreateSemaphoreW","base.createsemaphorea","winbase/CreateSemaphoreA","winbase/CreateSemaphoreW"]
 old-location: base\createsemaphorea.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 829C8CC6-3E2C-480A-9F36-41EB93CA8536
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base.createsemaphorea, winbase/CreateSemaphoreA, winbase/CreateSemaphoreW

@@ -1,7 +1,8 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetGuidValue
 title: IUPnPRemoteEndpointInfo::GetGuidValue (upnphost.h)
-description: The GetGuidValue method currently is not supported.helpviewer_keywords: ["GetGuidValue","GetGuidValue method [UPnP APIs]","GetGuidValue method [UPnP APIs]","IUPnPRemoteEndpointInfo interface","IUPnPRemoteEndpointInfo interface [UPnP APIs]","GetGuidValue method","IUPnPRemoteEndpointInfo.GetGuidValue","IUPnPRemoteEndpointInfo::GetGuidValue","upnp.iupnpremoteendpointinfo_getguidvalue","upnphost/IUPnPRemoteEndpointInfo::GetGuidValue"]
+description: The GetGuidValue method currently is not supported.
+helpviewer_keywords: ["GetGuidValue","GetGuidValue method [UPnP APIs]","GetGuidValue method [UPnP APIs]","IUPnPRemoteEndpointInfo interface","IUPnPRemoteEndpointInfo interface [UPnP APIs]","GetGuidValue method","IUPnPRemoteEndpointInfo.GetGuidValue","IUPnPRemoteEndpointInfo::GetGuidValue","upnp.iupnpremoteendpointinfo_getguidvalue","upnphost/IUPnPRemoteEndpointInfo::GetGuidValue"]
 old-location: upnp\iupnpremoteendpointinfo_getguidvalue.htm
 tech.root: upnp
 ms.assetid: 4cbfaa8c-80f1-49c6-91aa-17764559da8b

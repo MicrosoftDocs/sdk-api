@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICryptAttributes.AddRange
 title: ICryptAttributes::AddRange (certenroll.h)
-description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.helpviewer_keywords: ["AddRange","AddRange method [Security]","AddRange method [Security]","ICryptAttributes interface","ICryptAttributes interface [Security]","AddRange method","ICryptAttributes.AddRange","ICryptAttributes::AddRange","certenroll/ICryptAttributes::AddRange","security.icryptattributes_addrange_method"]
+description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.
+helpviewer_keywords: ["AddRange","AddRange method [Security]","AddRange method [Security]","ICryptAttributes interface","ICryptAttributes interface [Security]","AddRange method","ICryptAttributes.AddRange","ICryptAttributes::AddRange","certenroll/ICryptAttributes::AddRange","security.icryptattributes_addrange_method"]
 old-location: security\icryptattributes_addrange_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method

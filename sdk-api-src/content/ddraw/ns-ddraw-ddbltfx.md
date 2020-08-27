@@ -1,7 +1,8 @@
 ---
 UID: NS:ddraw._DDBLTFX
 title: DDBLTFX (ddraw.h)
-description: The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the IDirectDrawSurface7::Blt method. This structure is also part of the DDBLTBATCH structure that is used with the IDirectDrawSurface7::BltBatch method.helpviewer_keywords: ["*LPDDBLTFX","DDBLTFX","DDBLTFX structure [DirectDraw]","DDBLTFX_ARITHSTRETCHY","DDBLTFX_MIRRORLEFTRIGHT","DDBLTFX_MIRRORUPDOWN","DDBLTFX_NOTEARING","DDBLTFX_ROTATE180","DDBLTFX_ROTATE270","DDBLTFX_ROTATE90","DDBLTFX_ZBUFFERBASEDEST","DDBLTFX_ZBUFFERRANGE","LPDDBLTFX","LPDDBLTFX structure pointer [DirectDraw]","ddraw/DDBLTFX","ddraw/LPDDBLTFX","directdraw.ddbltfx"]
+description: The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the IDirectDrawSurface7::Blt method. This structure is also part of the DDBLTBATCH structure that is used with the IDirectDrawSurface7::BltBatch method.
+helpviewer_keywords: ["*LPDDBLTFX","DDBLTFX","DDBLTFX structure [DirectDraw]","DDBLTFX_ARITHSTRETCHY","DDBLTFX_MIRRORLEFTRIGHT","DDBLTFX_MIRRORUPDOWN","DDBLTFX_NOTEARING","DDBLTFX_ROTATE180","DDBLTFX_ROTATE270","DDBLTFX_ROTATE90","DDBLTFX_ZBUFFERBASEDEST","DDBLTFX_ZBUFFERRANGE","LPDDBLTFX","LPDDBLTFX structure pointer [DirectDraw]","ddraw/DDBLTFX","ddraw/LPDDBLTFX","directdraw.ddbltfx"]
 old-location: directdraw\ddbltfx.htm
 tech.root: directdraw
 ms.assetid: a542434f-61d3-4c73-a087-ffb83a509c67
@@ -268,7 +269,7 @@ Destination color key override.
 Source color key override.
 
 
-#### - DUMMYUNIONNAMEN(1)
+### -field DUMMYUNIONNAMEN(1)
 
 
 
@@ -283,7 +284,7 @@ Constant used as the z-buffer destination.
 Surface used as the z-buffer destination.
 
 
-#### - DUMMYUNIONNAMEN(2)
+### -field DUMMYUNIONNAMEN(2)
 
 
 
@@ -298,7 +299,7 @@ Constant used as the z-buffer destination.
 Surface used as the z-buffer source.
 
 
-#### - DUMMYUNIONNAMEN(3)
+### -field DUMMYUNIONNAMEN(3)
 
 
 
@@ -313,7 +314,7 @@ Constant used as the alpha channel destination.
 Surface used as the alpha channel destination.
 
 
-#### - DUMMYUNIONNAMEN(4)
+### -field DUMMYUNIONNAMEN(4)
 
 
 
@@ -328,7 +329,7 @@ Constant used as the alpha channel source.
 Surface used as the alpha channel source.
 
 
-#### - DUMMYUNIONNAMEN(5)
+### -field DUMMYUNIONNAMEN(5)
 
 
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetUrlFlags
 title: ICertPropertyEnrollmentPolicyServer::GetUrlFlags (certenroll.h)
-description: Retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetUrlFlags","GetUrlFlags method [Security]","GetUrlFlags method [Security]","ICertPropertyEnrollmentPolicyServer interface","ICertPropertyEnrollmentPolicyServer interface [Security]","GetUrlFlags method","ICertPropertyEnrollmentPolicyServer.GetUrlFlags","ICertPropertyEnrollmentPolicyServer::GetUrlFlags","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","PsfLocationGroupPolicy","PsfLocationRegistry","PsfNone","PsfUseClientId","certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags","security.icertpropertyenrollmentpolicyserver_geturlflags"]
+description: Retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["GetUrlFlags","GetUrlFlags method [Security]","GetUrlFlags method [Security]","ICertPropertyEnrollmentPolicyServer interface","ICertPropertyEnrollmentPolicyServer interface [Security]","GetUrlFlags method","ICertPropertyEnrollmentPolicyServer.GetUrlFlags","ICertPropertyEnrollmentPolicyServer::GetUrlFlags","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","PsfLocationGroupPolicy","PsfLocationRegistry","PsfNone","PsfUseClientId","certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags","security.icertpropertyenrollmentpolicyserver_geturlflags"]
 old-location: security\icertpropertyenrollmentpolicyserver_geturlflags.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.date: 12/05/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags

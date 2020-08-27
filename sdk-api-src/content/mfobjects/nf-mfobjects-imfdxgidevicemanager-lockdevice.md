@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.LockDevice
 title: IMFDXGIDeviceManager::LockDevice (mfobjects.h)
-description: Gives the caller exclusive access to the Microsoft Direct3D device.helpviewer_keywords: ["IMFDXGIDeviceManager interface [Media Foundation]","LockDevice method","IMFDXGIDeviceManager.LockDevice","IMFDXGIDeviceManager::LockDevice","LockDevice","LockDevice method [Media Foundation]","LockDevice method [Media Foundation]","IMFDXGIDeviceManager interface","mf.imfdxgidevicemanager_lockdevice","mfobjects/IMFDXGIDeviceManager::LockDevice"]
+description: Gives the caller exclusive access to the Microsoft Direct3D device.
+helpviewer_keywords: ["IMFDXGIDeviceManager interface [Media Foundation]","LockDevice method","IMFDXGIDeviceManager.LockDevice","IMFDXGIDeviceManager::LockDevice","LockDevice","LockDevice method [Media Foundation]","LockDevice method [Media Foundation]","IMFDXGIDeviceManager interface","mf.imfdxgidevicemanager_lockdevice","mfobjects/IMFDXGIDeviceManager::LockDevice"]
 old-location: mf\imfdxgidevicemanager_lockdevice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EFB458D5-40A9-4729-9C22-B66FE76D5680
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],LockDevice method, IMFDXGIDeviceManager.LockDevice, IMFDXGIDeviceManager::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_lockdevice, mfobjects/IMFDXGIDeviceManager::LockDevice

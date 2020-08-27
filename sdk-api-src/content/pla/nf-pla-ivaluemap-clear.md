@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IValueMap.Clear
 title: IValueMap::Clear (pla.h)
-description: Removes all items from the collectionhelpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","IValueMap interface","IValueMap interface [PLA]","Clear method","IValueMap.Clear","IValueMap::Clear","base.ivaluemap_clear","pla.ivaluemap_clear","pla/IValueMap::Clear"]
+description: Removes all items from the collection
+helpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","IValueMap interface","IValueMap interface [PLA]","Clear method","IValueMap.Clear","IValueMap::Clear","base.ivaluemap_clear","pla.ivaluemap_clear","pla/IValueMap::Clear"]
 old-location: pla\ivaluemap_clear.htm
 tech.root: PLA
 ms.assetid: 41c80954-efc2-47ff-87e2-f33d7123cb40

@@ -4,7 +4,7 @@ title: IXpsOMPath::GetStrokeStartLineCap (xpsobjectmodel.h)
 description: Gets the style of the line cap at the start of the stroke line.
 helpviewer_keywords: ["GetStrokeStartLineCap","GetStrokeStartLineCap method [XPS Documents and Packaging]","GetStrokeStartLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeStartLineCap method","IXpsOMPath.GetStrokeStartLineCap","IXpsOMPath::GetStrokeStartLineCap","xps.ixpsompath_getstrokestartlinecap","xpsobjectmodel/IXpsOMPath::GetStrokeStartLineCap"]
 old-location: xps\ixpsompath_getstrokestartlinecap.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 66286aca-3b94-4ded-9180-1e07599986db
 ms.date: 12/05/2018
 ms.keywords: GetStrokeStartLineCap, GetStrokeStartLineCap method [XPS Documents and Packaging], GetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeStartLineCap method, IXpsOMPath.GetStrokeStartLineCap, IXpsOMPath::GetStrokeStartLineCap, xps.ixpsompath_getstrokestartlinecap, xpsobjectmodel/IXpsOMPath::GetStrokeStartLineCap

@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.ConvertIpv4MaskToLength
 title: ConvertIpv4MaskToLength function (netioapi.h)
-description: Converts an IPv4 subnet mask to an IPv4 prefix length.helpviewer_keywords: ["ConvertIpv4MaskToLength","ConvertIpv4MaskToLength function [IP Helper]","iphlp.convertipv4masktolength","netioapi/ConvertIpv4MaskToLength"]
+description: Converts an IPv4 subnet mask to an IPv4 prefix length.
+helpviewer_keywords: ["ConvertIpv4MaskToLength","ConvertIpv4MaskToLength function [IP Helper]","iphlp.convertipv4masktolength","netioapi/ConvertIpv4MaskToLength"]
 old-location: iphlp\convertipv4masktolength.htm
 tech.root: IpHlp
 ms.assetid: 63a3c558-24e0-41ef-9417-a3b6b2075977
@@ -99,9 +100,7 @@ One of the parameters was invalid. This error is returned if the <i>Mask</i> par
 
 ## -remarks
 
-
-
-The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vistaand later.
+The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vista and later.
 
 
 
@@ -112,7 +111,4 @@ The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vistaand la
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertlengthtoipv4mask">ConvertLengthToIpv4Mask</a>
- 
-
- 
 

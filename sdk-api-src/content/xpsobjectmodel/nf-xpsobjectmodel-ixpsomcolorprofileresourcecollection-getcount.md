@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetCount
 title: IXpsOMColorProfileResourceCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of IXpsOMColorProfileResource interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMColorProfileResourceCollection.GetCount","IXpsOMColorProfileResourceCollection::GetCount","xps.ixpsomcolorprofileresourcecollection_getcount","xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount"]
+description: Gets the number of IXpsOMColorProfileResource interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMColorProfileResourceCollection.GetCount","IXpsOMColorProfileResourceCollection::GetCount","xps.ixpsomcolorprofileresourcecollection_getcount","xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount"]
 old-location: xps\ixpsomcolorprofileresourcecollection_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 798ac7ed-1221-4985-b325-d588133ad59c
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount

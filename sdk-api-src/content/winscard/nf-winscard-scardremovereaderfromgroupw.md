@@ -1,9 +1,10 @@
 ---
 UID: NF:winscard.SCardRemoveReaderFromGroupW
 title: SCardRemoveReaderFromGroupW function (winscard.h)
-description: Removes a reader from an existing reader group. This function has no effect on the reader.helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardRemoveReaderFromGroup","SCardRemoveReaderFromGroup function [Security]","SCardRemoveReaderFromGroupA","SCardRemoveReaderFromGroupW","_smart_scardremovereaderfromgroup","security.scardremovereaderfromgroup","winscard/SCardRemoveReaderFromGroup","winscard/SCardRemoveReaderFromGroupA","winscard/SCardRemoveReaderFromGroupW"]
+description: Removes a reader from an existing reader group. This function has no effect on the reader.
+helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardRemoveReaderFromGroup","SCardRemoveReaderFromGroup function [Security]","SCardRemoveReaderFromGroupA","SCardRemoveReaderFromGroupW","_smart_scardremovereaderfromgroup","security.scardremovereaderfromgroup","winscard/SCardRemoveReaderFromGroup","winscard/SCardRemoveReaderFromGroupA","winscard/SCardRemoveReaderFromGroupW"]
 old-location: security\scardremovereaderfromgroup.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardRemoveReaderFromGroup, SCardRemoveReaderFromGroup function [Security], SCardRemoveReaderFromGroupA, SCardRemoveReaderFromGroupW, _smart_scardremovereaderfromgroup, security.scardremovereaderfromgroup, winscard/SCardRemoveReaderFromGroup, winscard/SCardRemoveReaderFromGroupA, winscard/SCardRemoveReaderFromGroupW
@@ -201,6 +202,10 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 
+
+
+> [!NOTE]
+> The winscard.h header defines SCardRemoveReaderFromGroup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

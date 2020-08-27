@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.UndockWindow
 title: IAccessibilityDockingService::UndockWindow (shobjidl.h)
-description: Undocks the specified window handle if it is currently docked.helpviewer_keywords: ["IAccessibilityDockingService interface [COM]","UndockWindow method","IAccessibilityDockingService.UndockWindow","IAccessibilityDockingService::UndockWindow","UndockWindow","UndockWindow method [COM]","UndockWindow method [COM]","IAccessibilityDockingService interface","com.iaccessibilitydockingservice_undockwindow","shobjidl/IAccessibilityDockingService::UndockWindow"]
+description: Undocks the specified window handle if it is currently docked.
+helpviewer_keywords: ["IAccessibilityDockingService interface [COM]","UndockWindow method","IAccessibilityDockingService.UndockWindow","IAccessibilityDockingService::UndockWindow","UndockWindow","UndockWindow method [COM]","UndockWindow method [COM]","IAccessibilityDockingService interface","com.iaccessibilitydockingservice_undockwindow","shobjidl/IAccessibilityDockingService::UndockWindow"]
 old-location: com\iaccessibilitydockingservice_undockwindow.htm
 tech.root: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
@@ -64,7 +65,7 @@ TBD
 
 
 
-#### - hWnd [in]
+### -param hWnd [in]
 
 Specifies the window that will be undocked.
 

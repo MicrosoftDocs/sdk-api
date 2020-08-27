@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITRendezvous.CreateDirectoryObject
 title: ITRendezvous::CreateDirectoryObject (rend.h)
-description: The CreateDirectoryObject method creates a new ITDirectoryObject object.helpviewer_keywords: ["CreateDirectoryObject","CreateDirectoryObject method [TAPI 2.2]","CreateDirectoryObject method [TAPI 2.2]","ITRendezvous interface","ITRendezvous interface [TAPI 2.2]","CreateDirectoryObject method","ITRendezvous.CreateDirectoryObject","ITRendezvous::CreateDirectoryObject","_tapi3_itrendezvous_createdirectoryobject","rend/ITRendezvous::CreateDirectoryObject","tapi3.itrendezvous_createdirectoryobject"]
+description: The CreateDirectoryObject method creates a new ITDirectoryObject object.
+helpviewer_keywords: ["CreateDirectoryObject","CreateDirectoryObject method [TAPI 2.2]","CreateDirectoryObject method [TAPI 2.2]","ITRendezvous interface","ITRendezvous interface [TAPI 2.2]","CreateDirectoryObject method","ITRendezvous.CreateDirectoryObject","ITRendezvous::CreateDirectoryObject","_tapi3_itrendezvous_createdirectoryobject","rend/ITRendezvous::CreateDirectoryObject","tapi3.itrendezvous_createdirectoryobject"]
 old-location: tapi3\itrendezvous_createdirectoryobject.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e3ad77cf-9112-4561-896c-2eba7e07eb19
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryObject, CreateDirectoryObject method [TAPI 2.2], CreateDirectoryObject method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectoryObject method, ITRendezvous.CreateDirectoryObject, ITRendezvous::CreateDirectoryObject, _tapi3_itrendezvous_createdirectoryobject, rend/ITRendezvous::CreateDirectoryObject, tapi3.itrendezvous_createdirectoryobject

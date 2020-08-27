@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRYPT_PRIVATE_KEY_INFO
 title: CRYPT_PRIVATE_KEY_INFO (wincrypt.h)
-description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCShelpviewer_keywords: ["*PCRYPT_PRIVATE_KEY_INFO","CRYPT_PRIVATE_KEY_INFO","CRYPT_PRIVATE_KEY_INFO structure [Security]","PCRYPT_PRIVATE_KEY_INFO","PCRYPT_PRIVATE_KEY_INFO structure pointer [Security]","security.crypt_private_key_info","wincrypt/CRYPT_PRIVATE_KEY_INFO","wincrypt/PCRYPT_PRIVATE_KEY_INFO"]
+description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCS
+helpviewer_keywords: ["*PCRYPT_PRIVATE_KEY_INFO","CRYPT_PRIVATE_KEY_INFO","CRYPT_PRIVATE_KEY_INFO structure [Security]","PCRYPT_PRIVATE_KEY_INFO","PCRYPT_PRIVATE_KEY_INFO structure pointer [Security]","security.crypt_private_key_info","wincrypt/CRYPT_PRIVATE_KEY_INFO","wincrypt/PCRYPT_PRIVATE_KEY_INFO"]
 old-location: security\crypt_private_key_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 63a5d1c2-88b3-45fa-94d3-2179cb8802c9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO structure [Security], PCRYPT_PRIVATE_KEY_INFO, PCRYPT_PRIVATE_KEY_INFO structure pointer [Security], security.crypt_private_key_info, wincrypt/CRYPT_PRIVATE_KEY_INFO, wincrypt/PCRYPT_PRIVATE_KEY_INFO'

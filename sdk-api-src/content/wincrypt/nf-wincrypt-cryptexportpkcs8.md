@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptExportPKCS8
 title: CryptExportPKCS8 function (wincrypt.h)
-description: Exports the private key in PKCShelpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CryptExportPKCS8","CryptExportPKCS8 function [Security]","security.cryptexportpkcs8","wincrypt/CryptExportPKCS8"]
+description: Exports the private key in PKCS
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CryptExportPKCS8","CryptExportPKCS8 function [Security]","security.cryptexportpkcs8","wincrypt/CryptExportPKCS8"]
 old-location: security\cryptexportpkcs8.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: defd0b23-d9c2-4b28-a6a6-1be7487ae656
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8

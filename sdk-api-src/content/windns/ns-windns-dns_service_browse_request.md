@@ -1,7 +1,9 @@
 ---
 UID: NS:windns._DNS_SERVICE_BROWSE_REQUEST
 title: DNS_SERVICE_BROWSE_REQUEST structure
-description: Contains the query parameters used in a call to [DnsServiceBrowse](nf-windns-dnsservicebrowse.md).helpviewer_keywords: ["_DNS_SERVICE_BROWSE_REQUEST","DNS_SERVICE_BROWSE_REQUEST"]
+description: Contains the query parameters used in a call to [DnsServiceBrowse](nf-windns-dnsservicebrowse.md).
+tech.root: dns
+helpviewer_keywords: ["_DNS_SERVICE_BROWSE_REQUEST","DNS_SERVICE_BROWSE_REQUEST"]
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_BROWSE_REQUEST, DNS_SERVICE_BROWSE_REQUEST
 f1_keywords:

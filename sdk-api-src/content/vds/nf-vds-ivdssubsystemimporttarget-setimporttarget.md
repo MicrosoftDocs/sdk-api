@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsSubSystemImportTarget.SetImportTarget
 title: IVdsSubSystemImportTarget::SetImportTarget (vds.h)
-description: Sets the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.helpviewer_keywords: ["IVdsSubSystemImportTarget interface [VDS]","SetImportTarget method","IVdsSubSystemImportTarget.SetImportTarget","IVdsSubSystemImportTarget::SetImportTarget","SetImportTarget","SetImportTarget method [VDS]","SetImportTarget method [VDS]","IVdsSubSystemImportTarget interface","base.ivdssubsystemimporttarget_setimporttarget","vds/IVdsSubSystemImportTarget::SetImportTarget"]
+description: Sets the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.
+helpviewer_keywords: ["IVdsSubSystemImportTarget interface [VDS]","SetImportTarget method","IVdsSubSystemImportTarget.SetImportTarget","IVdsSubSystemImportTarget::SetImportTarget","SetImportTarget","SetImportTarget method [VDS]","SetImportTarget method [VDS]","IVdsSubSystemImportTarget interface","base.ivdssubsystemimporttarget_setimporttarget","vds/IVdsSubSystemImportTarget::SetImportTarget"]
 old-location: base\ivdssubsystemimporttarget_setimporttarget.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 96770760-a9af-46be-8e63-be8a86ec81ab
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget interface [VDS],SetImportTarget method, IVdsSubSystemImportTarget.SetImportTarget, IVdsSubSystemImportTarget::SetImportTarget, SetImportTarget, SetImportTarget method [VDS], SetImportTarget method [VDS],IVdsSubSystemImportTarget interface, base.ivdssubsystemimporttarget_setimporttarget, vds/IVdsSubSystemImportTarget::SetImportTarget

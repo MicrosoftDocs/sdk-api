@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetLineFromAddrW64
 title: SymGetLineFromAddrW64 function (dbghelp.h)
-description: Locates the source line for the specified address.helpviewer_keywords: ["SymGetLineFromAddr","SymGetLineFromAddr function","SymGetLineFromAddr64","SymGetLineFromAddr64 function","SymGetLineFromAddrW64","_win32_symgetlinefromaddr64","base.symgetlinefromaddr64","dbghelp/SymGetLineFromAddr","dbghelp/SymGetLineFromAddr64","dbghelp/SymGetLineFromAddrW64"]
+description: Locates the source line for the specified address.
+helpviewer_keywords: ["SymGetLineFromAddr","SymGetLineFromAddr function","SymGetLineFromAddr64","SymGetLineFromAddr64 function","SymGetLineFromAddrW64","_win32_symgetlinefromaddr64","base.symgetlinefromaddr64","dbghelp/SymGetLineFromAddr","dbghelp/SymGetLineFromAddr64","dbghelp/SymGetLineFromAddrW64"]
 old-location: base\symgetlinefromaddr64.htm
 tech.root: Debug
 ms.assetid: a1dad8e0-cd85-41f7-b0e3-e359be94c0ac
@@ -67,7 +68,7 @@ A handle to the process that was originally passed to the
       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-#### - dwAddr [in]
+### -param dwAddr [in]
 
 The address for which a line should be located. It is not necessary for the address to be on a line 
       boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
@@ -79,7 +80,7 @@ The address for which a line should be located. It is not necessary for the addr
 The displacement in bytes from the beginning of the line, or zero.
 
 
-#### - Line [out]
+### -param Line [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> 
       structure.

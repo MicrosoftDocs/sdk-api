@@ -1,7 +1,9 @@
 ---
 UID: NC:ws2spi.LPWSPCONNECT
 title: LPWSPCONNECT
-description: The LPWSPConnect function establishes a connection to a peer, exchanges connect data, and specifies needed quality of service based on the supplied flow specification.helpviewer_keywords: ["LPWSPCONNECT"]
+description: The LPWSPConnect function establishes a connection to a peer, exchanges connect data, and specifies needed quality of service based on the supplied flow specification.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPCONNECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPCONNECT
 targetos: Windows

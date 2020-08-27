@@ -1,7 +1,8 @@
 ---
 UID: NN:msaatext.IVersionInfo
 title: IVersionInfo (msaatext.h)
-description: Exposes methods that supply version information for accessible elements.helpviewer_keywords: ["IVersionInfo","IVersionInfo interface [Windows Accessibility]","IVersionInfo interface [Windows Accessibility]","described","msaa.iversioninfo","msaatext/IVersionInfo","winauto.iversioninfo"]
+description: Exposes methods that supply version information for accessible elements.
+helpviewer_keywords: ["IVersionInfo","IVersionInfo interface [Windows Accessibility]","IVersionInfo interface [Windows Accessibility]","described","msaa.iversioninfo","msaatext/IVersionInfo","winauto.iversioninfo"]
 old-location: winauto\iversioninfo.htm
 tech.root: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07

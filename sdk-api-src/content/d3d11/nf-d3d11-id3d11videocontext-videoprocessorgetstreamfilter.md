@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamFilter
 title: ID3D11VideoContext::VideoProcessorGetStreamFilter (d3d11.h)
-description: Gets the image filter settings for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamFilter method","ID3D11VideoContext.VideoProcessorGetStreamFilter","ID3D11VideoContext::VideoProcessorGetStreamFilter","VideoProcessorGetStreamFilter","VideoProcessorGetStreamFilter method [Media Foundation]","VideoProcessorGetStreamFilter method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamFilter","mf.id3d11videocontext_videoprocessorgetstreamfilter"]
+description: Gets the image filter settings for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamFilter method","ID3D11VideoContext.VideoProcessorGetStreamFilter","ID3D11VideoContext::VideoProcessorGetStreamFilter","VideoProcessorGetStreamFilter","VideoProcessorGetStreamFilter method [Media Foundation]","VideoProcessorGetStreamFilter method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamFilter","mf.id3d11videocontext_videoprocessorgetstreamfilter"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamfilter.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E18146E9-FBF4-4A1E-AC6C-7500CDA9DC59
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamFilter method, ID3D11VideoContext.VideoProcessorGetStreamFilter, ID3D11VideoContext::VideoProcessorGetStreamFilter, VideoProcessorGetStreamFilter, VideoProcessorGetStreamFilter method [Media Foundation], VideoProcessorGetStreamFilter method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFilter, mf.id3d11videocontext_videoprocessorgetstreamfilter

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMBCHOTITEM
 title: NMBCHOTITEM (commctrl.h)
-description: Contains information about the movement of the mouse over a button control.helpviewer_keywords: ["*LPNMBCHOTITEM","HICF_ENTERING","HICF_LEAVING","LPNMBCHOTITEM","LPNMBCHOTITEM structure pointer [Windows Controls]","NMBCHOTITEM","NMBCHOTITEM structure [Windows Controls]","_win32_NMBCHOTITEM_str","_win32_NMBCHOTITEM_str_cpp","commctrl/LPNMBCHOTITEM","commctrl/NMBCHOTITEM","controls.NMBCHOTITEM","controls._win32_NMBCHOTITEM_str"]
+description: Contains information about the movement of the mouse over a button control.
+helpviewer_keywords: ["*LPNMBCHOTITEM","HICF_ENTERING","HICF_LEAVING","LPNMBCHOTITEM","LPNMBCHOTITEM structure pointer [Windows Controls]","NMBCHOTITEM","NMBCHOTITEM structure [Windows Controls]","_win32_NMBCHOTITEM_str","_win32_NMBCHOTITEM_str_cpp","commctrl/LPNMBCHOTITEM","commctrl/NMBCHOTITEM","controls.NMBCHOTITEM","controls._win32_NMBCHOTITEM_str"]
 old-location: controls\NMBCHOTITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbchotitem.htm

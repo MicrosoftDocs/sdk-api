@@ -1,9 +1,10 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_1
 title: NETLOGON_INFO_1 (lmaccess.h)
-description: Defines a level-1 control query response from a domain controller.helpviewer_keywords: ["*PNETLOGON_INFO_1","NETLOGON_DNS_UPDATE_FAILURE","NETLOGON_FULL_SYNC_REPLICATION","NETLOGON_HAS_IP","NETLOGON_HAS_TIMESERV","NETLOGON_INFO_1","NETLOGON_INFO_1 structure [Windows API]","NETLOGON_REDO_NEEDED","NETLOGON_REPLICATION_IN_PROGRESS","NETLOGON_REPLICATION_NEEDED","PNETLOGON_INFO_1","PNETLOGON_INFO_1 structure pointer [Windows API]","lmaccess/NETLOGON_INFO_1","lmaccess/PNETLOGON_INFO_1","winprog.netlogon_info_1"]
+description: Defines a level-1 control query response from a domain controller.
+helpviewer_keywords: ["*PNETLOGON_INFO_1","NETLOGON_DNS_UPDATE_FAILURE","NETLOGON_FULL_SYNC_REPLICATION","NETLOGON_HAS_IP","NETLOGON_HAS_TIMESERV","NETLOGON_INFO_1","NETLOGON_INFO_1 structure [Windows API]","NETLOGON_REDO_NEEDED","NETLOGON_REPLICATION_IN_PROGRESS","NETLOGON_REPLICATION_NEEDED","PNETLOGON_INFO_1","PNETLOGON_INFO_1 structure pointer [Windows API]","lmaccess/NETLOGON_INFO_1","lmaccess/PNETLOGON_INFO_1","winprog.netlogon_info_1"]
 old-location: winprog\netlogon_info_1.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 053e937a-c7a9-4b8f-9312-32c82b705c08
 ms.date: 12/05/2018
 ms.keywords: '*PNETLOGON_INFO_1, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_1, NETLOGON_INFO_1 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_1, PNETLOGON_INFO_1 structure pointer [Windows API], lmaccess/NETLOGON_INFO_1, lmaccess/PNETLOGON_INFO_1, winprog.netlogon_info_1'

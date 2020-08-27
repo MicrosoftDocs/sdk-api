@@ -1,9 +1,10 @@
 ---
 UID: NC:winwlx.PWLX_CHANGE_PASSWORD_NOTIFY_EX
 title: PWLX_CHANGE_PASSWORD_NOTIFY_EX (winwlx.h)
-description: Called by GINA to tell a specific network provider (or all network providers) that a password has changed.helpviewer_keywords: ["PWLX_CHANGE_PASSWORD_NOTIFY_EX","PWLX_CHANGE_PASSWORD_NOTIFY_EX callback","WlxChangePasswordNotifyEx","WlxChangePasswordNotifyEx callback function [Security]","_gina_wlxchangepasswordnotifyex","security.wlxchangepasswordnotifyex","winwlx/WlxChangePasswordNotifyEx"]
+description: Called by GINA to tell a specific network provider (or all network providers) that a password has changed.
+helpviewer_keywords: ["PWLX_CHANGE_PASSWORD_NOTIFY_EX","PWLX_CHANGE_PASSWORD_NOTIFY_EX callback","WlxChangePasswordNotifyEx","WlxChangePasswordNotifyEx callback function [Security]","_gina_wlxchangepasswordnotifyex","security.wlxchangepasswordnotifyex","winwlx/WlxChangePasswordNotifyEx"]
 old-location: security\wlxchangepasswordnotifyex.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2381bf3e-37d3-460a-acb2-e2d59cd7d847
 ms.date: 12/05/2018
 ms.keywords: PWLX_CHANGE_PASSWORD_NOTIFY_EX, PWLX_CHANGE_PASSWORD_NOTIFY_EX callback, WlxChangePasswordNotifyEx, WlxChangePasswordNotifyEx callback function [Security], _gina_wlxchangepasswordnotifyex, security.wlxchangepasswordnotifyex, winwlx/WlxChangePasswordNotifyEx

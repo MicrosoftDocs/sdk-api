@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ISharedProperty.put_Value
 title: ISharedProperty::put_Value (comsvcs.h)
-description: Sets the value of a shared property.helpviewer_keywords: ["ISharedProperty interface [COM+]","put_Value method","ISharedProperty.put_Value","ISharedProperty::put_Value","_cos_ISharedProperty_put_Value","comsvcs/ISharedProperty::put_Value","cos.isharedproperty_put_value","put_Value","put_Value method [COM+]","put_Value method [COM+]","ISharedProperty interface"]
+description: Sets the value of a shared property.
+helpviewer_keywords: ["ISharedProperty interface [COM+]","put_Value method","ISharedProperty.put_Value","ISharedProperty::put_Value","_cos_ISharedProperty_put_Value","comsvcs/ISharedProperty::put_Value","cos.isharedproperty_put_value","put_Value","put_Value method [COM+]","put_Value method [COM+]","ISharedProperty interface"]
 old-location: cos\isharedproperty_put_value.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d193990c-a804-41aa-81d7-75aced274f73
 ms.date: 12/05/2018
 ms.keywords: ISharedProperty interface [COM+],put_Value method, ISharedProperty.put_Value, ISharedProperty::put_Value, _cos_ISharedProperty_put_Value, comsvcs/ISharedProperty::put_Value, cos.isharedproperty_put_value, put_Value, put_Value method [COM+], put_Value method [COM+],ISharedProperty interface

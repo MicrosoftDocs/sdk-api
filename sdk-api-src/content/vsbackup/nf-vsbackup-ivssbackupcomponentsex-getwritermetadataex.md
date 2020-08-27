@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx.GetWriterMetadataEx
 title: IVssBackupComponentsEx::GetWriterMetadataEx (vsbackup.h)
-description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.helpviewer_keywords: ["GetWriterMetadataEx","GetWriterMetadataEx method [VSS]","GetWriterMetadataEx method [VSS]","IVssBackupComponentsEx interface","IVssBackupComponentsEx interface [VSS]","GetWriterMetadataEx method","IVssBackupComponentsEx.GetWriterMetadataEx","IVssBackupComponentsEx::GetWriterMetadataEx","base.ivssbackupcomponentsex_getwritermetadataex","vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx"]
+description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.
+helpviewer_keywords: ["GetWriterMetadataEx","GetWriterMetadataEx method [VSS]","GetWriterMetadataEx method [VSS]","IVssBackupComponentsEx interface","IVssBackupComponentsEx interface [VSS]","GetWriterMetadataEx method","IVssBackupComponentsEx.GetWriterMetadataEx","IVssBackupComponentsEx::GetWriterMetadataEx","base.ivssbackupcomponentsex_getwritermetadataex","vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx"]
 old-location: base\ivssbackupcomponentsex_getwritermetadataex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 19a31627-54e0-4b0d-87cf-ac18b3049310
 ms.date: 12/05/2018
 ms.keywords: GetWriterMetadataEx, GetWriterMetadataEx method [VSS], GetWriterMetadataEx method [VSS],IVssBackupComponentsEx interface, IVssBackupComponentsEx interface [VSS],GetWriterMetadataEx method, IVssBackupComponentsEx.GetWriterMetadataEx, IVssBackupComponentsEx::GetWriterMetadataEx, base.ivssbackupcomponentsex_getwritermetadataex, vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx

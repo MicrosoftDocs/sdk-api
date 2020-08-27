@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetLocalFileHeaderSize
 title: IAppxBlockMapFile::GetLocalFileHeaderSize (appxpackaging.h)
-description: Retrieves the size of the zip local file header of the associated zip file item.helpviewer_keywords: ["GetLocalFileHeaderSize","GetLocalFileHeaderSize method [App packaging and management]","GetLocalFileHeaderSize method [App packaging and management]","IAppxBlockMapFile interface","IAppxBlockMapFile interface [App packaging and management]","GetLocalFileHeaderSize method","IAppxBlockMapFile.GetLocalFileHeaderSize","IAppxBlockMapFile::GetLocalFileHeaderSize","appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize","appxpkg.iappxblockmapfile_getlocalfileheadersize"]
+description: Retrieves the size of the zip local file header of the associated zip file item.
+helpviewer_keywords: ["GetLocalFileHeaderSize","GetLocalFileHeaderSize method [App packaging and management]","GetLocalFileHeaderSize method [App packaging and management]","IAppxBlockMapFile interface","IAppxBlockMapFile interface [App packaging and management]","GetLocalFileHeaderSize method","IAppxBlockMapFile.GetLocalFileHeaderSize","IAppxBlockMapFile::GetLocalFileHeaderSize","appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize","appxpkg.iappxblockmapfile_getlocalfileheadersize"]
 old-location: appxpkg\iappxblockmapfile_getlocalfileheadersize.htm
 tech.root: appxpkg
 ms.assetid: 2BBABACF-089B-4711-B384-627E921B044A

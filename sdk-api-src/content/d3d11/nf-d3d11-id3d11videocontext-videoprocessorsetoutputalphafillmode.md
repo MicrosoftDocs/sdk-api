@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode
 title: ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode (d3d11.h)
-description: Sets the alpha fill mode for data that the video processor writes to the render target.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputAlphaFillMode method","ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode","ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode","VideoProcessorSetOutputAlphaFillMode","VideoProcessorSetOutputAlphaFillMode method [Media Foundation]","VideoProcessorSetOutputAlphaFillMode method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode","mf.id3d11videocontext_videoprocessorsetoutputalphafillmode"]
+description: Sets the alpha fill mode for data that the video processor writes to the render target.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputAlphaFillMode method","ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode","ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode","VideoProcessorSetOutputAlphaFillMode","VideoProcessorSetOutputAlphaFillMode method [Media Foundation]","VideoProcessorSetOutputAlphaFillMode method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode","mf.id3d11videocontext_videoprocessorsetoutputalphafillmode"]
 old-location: mf\id3d11videocontext_videoprocessorsetoutputalphafillmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 898604FA-B857-4D84-AA0D-3BC517F75A36
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputAlphaFillMode method, ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode, ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode, VideoProcessorSetOutputAlphaFillMode, VideoProcessorSetOutputAlphaFillMode method [Media Foundation], VideoProcessorSetOutputAlphaFillMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorsetoutputalphafillmode

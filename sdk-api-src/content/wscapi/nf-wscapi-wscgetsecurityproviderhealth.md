@@ -1,9 +1,10 @@
 ---
 UID: NF:wscapi.WscGetSecurityProviderHealth
 title: WscGetSecurityProviderHealth function (wscapi.h)
-description: Gets the aggregate health state of the security provider categories represented by the specified WSC_SECURITY_PROVIDER enumeration values.helpviewer_keywords: ["WscGetSecurityProviderHealth","WscGetSecurityProviderHealth function [Windows API]","winprog.wscgetsecurityproviderhealth","wscapi/WscGetSecurityProviderHealth"]
+description: Gets the aggregate health state of the security provider categories represented by the specified WSC_SECURITY_PROVIDER enumeration values.
+helpviewer_keywords: ["WscGetSecurityProviderHealth","WscGetSecurityProviderHealth function [Windows API]","winprog.wscgetsecurityproviderhealth","wscapi/WscGetSecurityProviderHealth"]
 old-location: winprog\wscgetsecurityproviderhealth.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 1193eba3-a01b-4ee3-a83d-25dcdbc15de0
 ms.date: 12/05/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth

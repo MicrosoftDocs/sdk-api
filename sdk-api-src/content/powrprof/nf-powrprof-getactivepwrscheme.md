@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.GetActivePwrScheme
 title: GetActivePwrScheme function (powrprof.h)
-description: Retrieves the index of the active power scheme.helpviewer_keywords: ["GetActivePwrScheme","GetActivePwrScheme function","_win32_getactivepwrscheme","base.getactivepwrscheme","powrprof/GetActivePwrScheme"]
+description: Retrieves the index of the active power scheme.
+helpviewer_keywords: ["GetActivePwrScheme","GetActivePwrScheme function","_win32_getactivepwrscheme","base.getactivepwrscheme","powrprof/GetActivePwrScheme"]
 old-location: base\getactivepwrscheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: 2a321372-40ff-4292-8b66-db3f794e5f53
 ms.date: 12/05/2018
 ms.keywords: GetActivePwrScheme, GetActivePwrScheme function, _win32_getactivepwrscheme, base.getactivepwrscheme, powrprof/GetActivePwrScheme

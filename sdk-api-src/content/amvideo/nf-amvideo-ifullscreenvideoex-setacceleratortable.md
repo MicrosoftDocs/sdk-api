@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetAcceleratorTable
 title: IFullScreenVideoEx::SetAcceleratorTable (amvideo.h)
-description: The SetAcceleratorTable method specifies an accelerator table that will be used to translate keyboard messages. The Full Screen Renderer filter does not support this method.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetAcceleratorTable method","IFullScreenVideoEx.SetAcceleratorTable","IFullScreenVideoEx::SetAcceleratorTable","IFullScreenVideoExSetAcceleratorTable","SetAcceleratorTable","SetAcceleratorTable method [DirectShow]","SetAcceleratorTable method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetAcceleratorTable","dshow.ifullscreenvideoex_setacceleratortable"]
+description: The SetAcceleratorTable method specifies an accelerator table that will be used to translate keyboard messages. The Full Screen Renderer filter does not support this method.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetAcceleratorTable method","IFullScreenVideoEx.SetAcceleratorTable","IFullScreenVideoEx::SetAcceleratorTable","IFullScreenVideoExSetAcceleratorTable","SetAcceleratorTable","SetAcceleratorTable method [DirectShow]","SetAcceleratorTable method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetAcceleratorTable","dshow.ifullscreenvideoex_setacceleratortable"]
 old-location: dshow\ifullscreenvideoex_setacceleratortable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: aff393e8-e0a5-418d-8706-3fde96dbcfd9
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetAcceleratorTable method, IFullScreenVideoEx.SetAcceleratorTable, IFullScreenVideoEx::SetAcceleratorTable, IFullScreenVideoExSetAcceleratorTable, SetAcceleratorTable, SetAcceleratorTable method [DirectShow], SetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetAcceleratorTable, dshow.ifullscreenvideoex_setacceleratortable

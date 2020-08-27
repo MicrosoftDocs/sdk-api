@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemSink.OnUpdate
 title: ITfLangBarItemSink::OnUpdate (ctfutb.h)
-description: ITfLangBarItemSink::OnUpdate methodhelpviewer_keywords: ["ITfLangBarItemSink interface [Text Services Framework]","OnUpdate method","ITfLangBarItemSink.OnUpdate","ITfLangBarItemSink::OnUpdate","OnUpdate","OnUpdate method [Text Services Framework]","OnUpdate method [Text Services Framework]","ITfLangBarItemSink interface","_tsf_itflangbaritemsink_onupdate_ref","ctfutb/ITfLangBarItemSink::OnUpdate","tsf.itflangbaritemsink_onupdate"]
+description: ITfLangBarItemSink::OnUpdate method
+helpviewer_keywords: ["ITfLangBarItemSink interface [Text Services Framework]","OnUpdate method","ITfLangBarItemSink.OnUpdate","ITfLangBarItemSink::OnUpdate","OnUpdate","OnUpdate method [Text Services Framework]","OnUpdate method [Text Services Framework]","ITfLangBarItemSink interface","_tsf_itflangbaritemsink_onupdate_ref","ctfutb/ITfLangBarItemSink::OnUpdate","tsf.itflangbaritemsink_onupdate"]
 old-location: tsf\itflangbaritemsink_onupdate.htm
 tech.root: TSF
 ms.assetid: f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7

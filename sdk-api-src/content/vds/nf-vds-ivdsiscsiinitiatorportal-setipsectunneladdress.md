@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress
 title: IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress (vds.h)
-description: Not supported.This method is reserved for future use.helpviewer_keywords: ["IVdsIscsiInitiatorPortal interface [VDS]","SetIpsecTunnelAddress method","IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress","IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress","SetIpsecTunnelAddress","SetIpsecTunnelAddress method [VDS]","SetIpsecTunnelAddress method [VDS]","IVdsIscsiInitiatorPortal interface","base.ivdsiscsiinitiatorportal_setipsectunneladdress","vds/IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress"]
+description: Not supported.This method is reserved for future use.
+helpviewer_keywords: ["IVdsIscsiInitiatorPortal interface [VDS]","SetIpsecTunnelAddress method","IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress","IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress","SetIpsecTunnelAddress","SetIpsecTunnelAddress method [VDS]","SetIpsecTunnelAddress method [VDS]","IVdsIscsiInitiatorPortal interface","base.ivdsiscsiinitiatorportal_setipsectunneladdress","vds/IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress"]
 old-location: base\ivdsiscsiinitiatorportal_setipsectunneladdress.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 40fd4eb5-afe1-4947-81b2-df44c273efe1
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress, IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiInitiatorPortal interface, base.ivdsiscsiinitiatorportal_setipsectunneladdress, vds/IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress

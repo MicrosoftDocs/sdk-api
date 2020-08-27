@@ -1,9 +1,10 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureUsage
 title: RecordFeatureUsage function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.helpviewer_keywords: ["RecordFeatureUsage","RecordFeatureUsage function [Windows API]","featurestagingapi/RecordFeatureUsage","winprog.recordfeatureusage"]
+description: This function is intended for infrastructure use only.
+helpviewer_keywords: ["RecordFeatureUsage","RecordFeatureUsage function [Windows API]","featurestagingapi/RecordFeatureUsage","winprog.recordfeatureusage"]
 old-location: winprog\recordfeatureusage.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage

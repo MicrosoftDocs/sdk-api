@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll4.SetPrivateKeyArchiveCertificate
 title: IEnroll4::SetPrivateKeyArchiveCertificate (xenroll.h)
-description: The SetPrivateKeyArchiveCertificate method specifies the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.helpviewer_keywords: ["IEnroll4 interface [Security]","SetPrivateKeyArchiveCertificate method","IEnroll4.SetPrivateKeyArchiveCertificate","IEnroll4::SetPrivateKeyArchiveCertificate","SetPrivateKeyArchiveCertificate","SetPrivateKeyArchiveCertificate method [Security]","SetPrivateKeyArchiveCertificate method [Security]","IEnroll4 interface","security.ienroll4_setprivatekeyarchivecertificate","xenroll/IEnroll4::SetPrivateKeyArchiveCertificate"]
+description: The SetPrivateKeyArchiveCertificate method specifies the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
+helpviewer_keywords: ["IEnroll4 interface [Security]","SetPrivateKeyArchiveCertificate method","IEnroll4.SetPrivateKeyArchiveCertificate","IEnroll4::SetPrivateKeyArchiveCertificate","SetPrivateKeyArchiveCertificate","SetPrivateKeyArchiveCertificate method [Security]","SetPrivateKeyArchiveCertificate method [Security]","IEnroll4 interface","security.ienroll4_setprivatekeyarchivecertificate","xenroll/IEnroll4::SetPrivateKeyArchiveCertificate"]
 old-location: security\ienroll4_setprivatekeyarchivecertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e37a8055-4074-425b-8f88-69b898855824
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],SetPrivateKeyArchiveCertificate method, IEnroll4.SetPrivateKeyArchiveCertificate, IEnroll4::SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate method [Security], SetPrivateKeyArchiveCertificate method [Security],IEnroll4 interface, security.ienroll4_setprivatekeyarchivecertificate, xenroll/IEnroll4::SetPrivateKeyArchiveCertificate

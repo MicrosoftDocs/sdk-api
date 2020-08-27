@@ -1,9 +1,10 @@
 ---
 UID: NN:vds.IVdsIscsiInitiatorAdapter
 title: IVdsIscsiInitiatorAdapter (vds.h)
-description: Provides methods to query and interact with iSCSI initiator adapters on the local system.helpviewer_keywords: ["IVdsIscsiInitiatorAdapter","IVdsIscsiInitiatorAdapter interface [VDS]","IVdsIscsiInitiatorAdapter interface [VDS]","described","base.ivdsiscsiinitiatoradapter","vds/IVdsIscsiInitiatorAdapter"]
+description: Provides methods to query and interact with iSCSI initiator adapters on the local system.
+helpviewer_keywords: ["IVdsIscsiInitiatorAdapter","IVdsIscsiInitiatorAdapter interface [VDS]","IVdsIscsiInitiatorAdapter interface [VDS]","described","base.ivdsiscsiinitiatoradapter","vds/IVdsIscsiInitiatorAdapter"]
 old-location: base\ivdsiscsiinitiatoradapter.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 3f911878-28c6-41db-ae9c-81e282aabf9d
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], IVdsIscsiInitiatorAdapter interface [VDS],described, base.ivdsiscsiinitiatoradapter, vds/IVdsIscsiInitiatorAdapter

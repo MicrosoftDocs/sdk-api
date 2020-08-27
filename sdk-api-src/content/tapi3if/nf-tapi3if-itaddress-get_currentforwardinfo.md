@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAddress.get_CurrentForwardInfo
 title: ITAddress::get_CurrentForwardInfo (tapi3if.h)
-description: The get_CurrentForwardInfo method gets a pointer to the current forwarding information object.helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","get_CurrentForwardInfo method","ITAddress.get_CurrentForwardInfo","ITAddress::get_CurrentForwardInfo","_tapi3_itaddress_get_currentforwardinfo","get_CurrentForwardInfo","get_CurrentForwardInfo method [TAPI 2.2]","get_CurrentForwardInfo method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_get_currentforwardinfo","tapi3if/ITAddress::get_CurrentForwardInfo"]
+description: The get_CurrentForwardInfo method gets a pointer to the current forwarding information object.
+helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","get_CurrentForwardInfo method","ITAddress.get_CurrentForwardInfo","ITAddress::get_CurrentForwardInfo","_tapi3_itaddress_get_currentforwardinfo","get_CurrentForwardInfo","get_CurrentForwardInfo method [TAPI 2.2]","get_CurrentForwardInfo method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_get_currentforwardinfo","tapi3if/ITAddress::get_CurrentForwardInfo"]
 old-location: tapi3\itaddress_get_currentforwardinfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7817ac03-d9fc-4042-ae7d-350ee6cbef53
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_CurrentForwardInfo method, ITAddress.get_CurrentForwardInfo, ITAddress::get_CurrentForwardInfo, _tapi3_itaddress_get_currentforwardinfo, get_CurrentForwardInfo, get_CurrentForwardInfo method [TAPI 2.2], get_CurrentForwardInfo method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_currentforwardinfo, tapi3if/ITAddress::get_CurrentForwardInfo

@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.CredReadDomainCredentialsFn
 title: CredReadDomainCredentialsFn (ntsecpkg.h)
-description: Reads a domain credential from the Credential Manager.helpviewer_keywords: ["CREDP_FLAGS_CLEAR_PASSWORD","CREDP_FLAGS_DONT_CACHE_TI","CREDP_FLAGS_IN_PROCESS","CREDP_FLAGS_TRUSTED_CALLER","CREDP_FLAGS_USER_ENCRYPTED_PASSWORD","CREDP_FLAGS_USE_MIDL_HEAP","CredReadDomainCredentialsFn","CredReadDomainCredentialsFn callback","CrediReadDomainCredentials","CrediReadDomainCredentials callback function [Security]","ntsecpkg/CrediReadDomainCredentials","security.credireaddomaincredentials"]
+description: Reads a domain credential from the Credential Manager.
+helpviewer_keywords: ["CREDP_FLAGS_CLEAR_PASSWORD","CREDP_FLAGS_DONT_CACHE_TI","CREDP_FLAGS_IN_PROCESS","CREDP_FLAGS_TRUSTED_CALLER","CREDP_FLAGS_USER_ENCRYPTED_PASSWORD","CREDP_FLAGS_USE_MIDL_HEAP","CredReadDomainCredentialsFn","CredReadDomainCredentialsFn callback","CrediReadDomainCredentials","CrediReadDomainCredentials callback function [Security]","ntsecpkg/CrediReadDomainCredentials","security.credireaddomaincredentials"]
 old-location: security\credireaddomaincredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: fa5c92be-c74b-4143-8526-b60c25461b8c
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadDomainCredentialsFn, CredReadDomainCredentialsFn callback, CrediReadDomainCredentials, CrediReadDomainCredentials callback function [Security], ntsecpkg/CrediReadDomainCredentials, security.credireaddomaincredentials
@@ -161,7 +162,7 @@ The number of elements in the <i>Credential</i> array.
 A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 
 
-#### - Credential [out]
+### -param Credential [out]
 
 A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 

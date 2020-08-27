@@ -1,7 +1,8 @@
 ---
 UID: NF:immdev.ImmEscapeA
 title: ImmEscapeA function (immdev.h)
-description: Accesses capabilities of particular IMEs that are not available through other IME API functions. This function is used mainly for country-specific operations.helpviewer_keywords: ["ImmEscape","ImmEscape function [Internationalization for Windows Applications]","ImmEscapeA","ImmEscapeW","_win32_ImmEscape","imm/ImmEscape","imm/ImmEscapeA","imm/ImmEscapeW","intl.immescape"]
+description: Accesses capabilities of particular IMEs that are not available through other IME API functions. This function is used mainly for country-specific operations.
+helpviewer_keywords: ["ImmEscape","ImmEscape function [Internationalization for Windows Applications]","ImmEscapeA","ImmEscapeW","_win32_ImmEscape","imm/ImmEscape","imm/ImmEscapeA","imm/ImmEscapeW","intl.immescape"]
 old-location: intl\immescape.htm
 tech.root: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
@@ -109,6 +110,10 @@ LRESULT lRet = ImmEscape(hKL,
 
 
 
+
+
+> [!NOTE]
+> The immdev.h header defines ImmEscape as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

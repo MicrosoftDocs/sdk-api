@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetMute
 title: IAudioEndpointVolume::GetMute (endpointvolume.h)
-description: The GetMute method gets the muting state of the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","IAudioEndpointVolume interface","IAudioEndpointVolume interface [Core Audio]","GetMute method","IAudioEndpointVolume.GetMute","IAudioEndpointVolume::GetMute","IAudioEndpointVolumeGetMute","coreaudio.iaudioendpointvolume_getmute","endpointvolume/IAudioEndpointVolume::GetMute"]
+description: The GetMute method gets the muting state of the audio stream that enters or leaves the audio endpoint device.
+helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","IAudioEndpointVolume interface","IAudioEndpointVolume interface [Core Audio]","GetMute method","IAudioEndpointVolume.GetMute","IAudioEndpointVolume::GetMute","IAudioEndpointVolumeGetMute","coreaudio.iaudioendpointvolume_getmute","endpointvolume/IAudioEndpointVolume::GetMute"]
 old-location: coreaudio\iaudioendpointvolume_getmute.htm
 tech.root: CoreAudio
 ms.assetid: bb7cbb42-74cd-4951-92b1-a76ca42e5d3a

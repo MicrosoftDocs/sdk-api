@@ -1,9 +1,10 @@
 ---
 UID: NF:lzexpand.LZCopy
 title: LZCopy function (lzexpand.h)
-description: Copies a source file to a destination file.helpviewer_keywords: ["LZCopy","LZCopy function [Files]","_win32_lzcopy","base.lzcopy","fs.lzcopy","lzexpand/LZCopy"]
+description: Copies a source file to a destination file.
+helpviewer_keywords: ["LZCopy","LZCopy function [Files]","_win32_lzcopy","base.lzcopy","fs.lzcopy","lzexpand/LZCopy"]
 old-location: fs\lzcopy.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
 ms.date: 12/05/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy

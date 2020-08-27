@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmFilterUnsubscribeChanges0
 title: FwpmFilterUnsubscribeChanges0 function (fwpmu.h)
-description: Is used to cancel a filter change subscription and stop receiving change notifications.helpviewer_keywords: ["FwpmFilterUnsubscribeChanges0","FwpmFilterUnsubscribeChanges0 function [Filtering]","fwp.fwpmfilterunsubscribechanges0_func","fwpmu/FwpmFilterUnsubscribeChanges0"]
+description: Is used to cancel a filter change subscription and stop receiving change notifications.
+helpviewer_keywords: ["FwpmFilterUnsubscribeChanges0","FwpmFilterUnsubscribeChanges0 function [Filtering]","fwp.fwpmfilterunsubscribechanges0_func","fwpmu/FwpmFilterUnsubscribeChanges0"]
 old-location: fwp\fwpmfilterunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: a7e78b38-9d24-4883-83a7-f4ecdf7ffb4c

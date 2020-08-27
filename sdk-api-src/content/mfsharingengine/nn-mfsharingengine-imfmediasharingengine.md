@@ -1,9 +1,10 @@
 ---
 UID: NN:mfsharingengine.IMFMediaSharingEngine
 title: IMFMediaSharingEngine (mfsharingengine.h)
-description: Enables media sharing.helpviewer_keywords: ["IMFMediaSharingEngine","IMFMediaSharingEngine interface [Media Foundation]","IMFMediaSharingEngine interface [Media Foundation]","described","mf.imfmediasharingengine","mfsharingengine/IMFMediaSharingEngine"]
+description: Enables media sharing.
+helpviewer_keywords: ["IMFMediaSharingEngine","IMFMediaSharingEngine interface [Media Foundation]","IMFMediaSharingEngine interface [Media Foundation]","described","mf.imfmediasharingengine","mfsharingengine/IMFMediaSharingEngine"]
 old-location: mf\imfmediasharingengine.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D56612FC-840A-41EE-B162-7AF16ED3D975
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSharingEngine, IMFMediaSharingEngine interface [Media Foundation], IMFMediaSharingEngine interface [Media Foundation],described, mf.imfmediasharingengine, mfsharingengine/IMFMediaSharingEngine

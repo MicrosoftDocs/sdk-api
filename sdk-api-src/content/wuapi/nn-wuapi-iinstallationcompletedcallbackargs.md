@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IInstallationCompletedCallbackArgs
 title: IInstallationCompletedCallbackArgs (wuapi.h)
-description: Contains information about the completion of an installation and acts as a parameter to the IInstallationCompletedCallback delegate. The download and installation of the update is asynchronous.helpviewer_keywords: ["IInstallationCompletedCallbackArgs","IInstallationCompletedCallbackArgs interface [Windows Update Agent]","IInstallationCompletedCallbackArgs interface [Windows Update Agent]","described","wua.iinstallationcompletedcallbackargs","wuapi/IInstallationCompletedCallbackArgs"]
+description: Contains information about the completion of an installation and acts as a parameter to the IInstallationCompletedCallback delegate. The download and installation of the update is asynchronous.
+helpviewer_keywords: ["IInstallationCompletedCallbackArgs","IInstallationCompletedCallbackArgs interface [Windows Update Agent]","IInstallationCompletedCallbackArgs interface [Windows Update Agent]","described","wua.iinstallationcompletedcallbackargs","wuapi/IInstallationCompletedCallbackArgs"]
 old-location: wua\iinstallationcompletedcallbackargs.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 89499136-ae6e-48ff-ad33-6247c8659f82
 ms.date: 12/05/2018
 ms.keywords: IInstallationCompletedCallbackArgs, IInstallationCompletedCallbackArgs interface [Windows Update Agent], IInstallationCompletedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationcompletedcallbackargs, wuapi/IInstallationCompletedCallbackArgs

@@ -1,9 +1,10 @@
 ---
 UID: NF:securityappcontainer.GetAppContainerNamedObjectPath
 title: GetAppContainerNamedObjectPath function (securityappcontainer.h)
-description: Retrieves the named object path for the app container.helpviewer_keywords: ["GetAppContainerNamedObjectPath","GetAppContainerNamedObjectPath function [Security]","security.getappcontainernamedobjectpath","securityappcontainer/GetAppContainerNamedObjectPath"]
+description: Retrieves the named object path for the app container.
+helpviewer_keywords: ["GetAppContainerNamedObjectPath","GetAppContainerNamedObjectPath function [Security]","security.getappcontainernamedobjectpath","securityappcontainer/GetAppContainerNamedObjectPath"]
 old-location: security\getappcontainernamedobjectpath.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 466CE2DA-332E-4AA7-A0EB-868A646C0979
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath function [Security], security.getappcontainernamedobjectpath, securityappcontainer/GetAppContainerNamedObjectPath

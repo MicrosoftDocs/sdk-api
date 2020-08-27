@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFDXGIDeviceManagerSource.GetManager
 title: IMFDXGIDeviceManagerSource::GetManager (mfidl.h)
-description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.helpviewer_keywords: ["GetManager","GetManager method [Media Foundation]","GetManager method [Media Foundation]","IMFDXGIDeviceManagerSource interface","IMFDXGIDeviceManagerSource interface [Media Foundation]","GetManager method","IMFDXGIDeviceManagerSource.GetManager","IMFDXGIDeviceManagerSource::GetManager","mf.imfdxgidevicemanagersource_getmanager","mfidl/IMFDXGIDeviceManagerSource::GetManager"]
+description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
+helpviewer_keywords: ["GetManager","GetManager method [Media Foundation]","GetManager method [Media Foundation]","IMFDXGIDeviceManagerSource interface","IMFDXGIDeviceManagerSource interface [Media Foundation]","GetManager method","IMFDXGIDeviceManagerSource.GetManager","IMFDXGIDeviceManagerSource::GetManager","mf.imfdxgidevicemanagersource_getmanager","mfidl/IMFDXGIDeviceManagerSource::GetManager"]
 old-location: mf\imfdxgidevicemanagersource_getmanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 809e89e4-3ed5-4dba-82dc-4ec217b8ef38
 ms.date: 12/05/2018
 ms.keywords: GetManager, GetManager method [Media Foundation], GetManager method [Media Foundation],IMFDXGIDeviceManagerSource interface, IMFDXGIDeviceManagerSource interface [Media Foundation],GetManager method, IMFDXGIDeviceManagerSource.GetManager, IMFDXGIDeviceManagerSource::GetManager, mf.imfdxgidevicemanagersource_getmanager, mfidl/IMFDXGIDeviceManagerSource::GetManager

@@ -1,9 +1,10 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_ALPHA_DATA
 title: DXVAHD_STREAM_STATE_ALPHA_DATA (dxvahd.h)
-description: Specifies the planar alpha value for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_STREAM_STATE_ALPHA_DATA","DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA","mf.dxvahd_stream_state_alpha_data"]
+description: Specifies the planar alpha value for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_ALPHA_DATA","DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA","mf.dxvahd_stream_state_alpha_data"]
 old-location: mf\dxvahd_stream_state_alpha_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 51135d6e-4f97-44d9-b1d5-f7d2095ee6f1
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_ALPHA_DATA, DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA, mf.dxvahd_stream_state_alpha_data

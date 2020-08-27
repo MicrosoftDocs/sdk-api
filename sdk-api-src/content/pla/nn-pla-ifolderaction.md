@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.IFolderAction
 title: IFolderAction (pla.h)
-description: Specifies the actions that the data manager is to take on each folder under the data collector set's root path if both conditions (age and size) are met. To get this interface, call the IFolderActionCollection::CreateFolderAction method.helpviewer_keywords: ["IFolderAction","IFolderAction interface [PLA]","IFolderAction interface [PLA]","described","base.ifolderaction","pla.ifolderaction","pla/IFolderAction"]
+description: Specifies the actions that the data manager is to take on each folder under the data collector set's root path if both conditions (age and size) are met. To get this interface, call the IFolderActionCollection::CreateFolderAction method.
+helpviewer_keywords: ["IFolderAction","IFolderAction interface [PLA]","IFolderAction interface [PLA]","described","base.ifolderaction","pla.ifolderaction","pla/IFolderAction"]
 old-location: pla\ifolderaction.htm
 tech.root: PLA
 ms.assetid: a3942d5f-9ec4-4461-84f9-f2fae3971e23

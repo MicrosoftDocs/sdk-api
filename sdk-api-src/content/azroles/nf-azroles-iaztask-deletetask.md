@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzTask.DeleteTask
 title: IAzTask::DeleteTask (azroles.h)
-description: Removes the IAzTask object with the specified name from the task.helpviewer_keywords: ["AzTask object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzTask object","DeleteTask method [Security]","IAzTask interface","IAzTask interface [Security]","DeleteTask method","IAzTask.DeleteTask","IAzTask::DeleteTask","azroles/IAzTask::DeleteTask","security.iaztask_deletetask"]
+description: Removes the IAzTask object with the specified name from the task.
+helpviewer_keywords: ["AzTask object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzTask object","DeleteTask method [Security]","IAzTask interface","IAzTask interface [Security]","DeleteTask method","IAzTask.DeleteTask","IAzTask::DeleteTask","azroles/IAzTask::DeleteTask","security.iaztask_deletetask"]
 old-location: security\iaztask_deletetask.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1e1288ff-d67b-4180-bfd0-63b81df8f99b
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzTask object, DeleteTask method [Security],IAzTask interface, IAzTask interface [Security],DeleteTask method, IAzTask.DeleteTask, IAzTask::DeleteTask, azroles/IAzTask::DeleteTask, security.iaztask_deletetask

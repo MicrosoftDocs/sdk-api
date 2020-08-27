@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromSubtype
 title: MFCreateVideoMediaTypeFromSubtype function (mfapi.h)
-description: Creates a partial video media type with a specified subtype.helpviewer_keywords: ["3ae58096-fe11-4cc8-9887-2e13f56a958d","MFCreateVideoMediaTypeFromSubtype","MFCreateVideoMediaTypeFromSubtype function [Media Foundation]","mf.mfcreatevideomediatypefromsubtype","mfapi/MFCreateVideoMediaTypeFromSubtype"]
+description: Creates a partial video media type with a specified subtype.
+helpviewer_keywords: ["3ae58096-fe11-4cc8-9887-2e13f56a958d","MFCreateVideoMediaTypeFromSubtype","MFCreateVideoMediaTypeFromSubtype function [Media Foundation]","mf.mfcreatevideomediatypefromsubtype","mfapi/MFCreateVideoMediaTypeFromSubtype"]
 old-location: mf\mfcreatevideomediatypefromsubtype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3ae58096-fe11-4cc8-9887-2e13f56a958d
 ms.date: 12/05/2018
 ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSubtype, MFCreateVideoMediaTypeFromSubtype function [Media Foundation], mf.mfcreatevideomediatypefromsubtype, mfapi/MFCreateVideoMediaTypeFromSubtype

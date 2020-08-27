@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.UpdateVideo
 title: IMFPMediaPlayer::UpdateVideo (mfplay.h)
-description: Updates the video frame.helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","UpdateVideo method","IMFPMediaPlayer.UpdateVideo","IMFPMediaPlayer::UpdateVideo","UpdateVideo","UpdateVideo method [Media Foundation]","UpdateVideo method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_updatevideo","mfplay/IMFPMediaPlayer::UpdateVideo"]
+description: Updates the video frame.
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","UpdateVideo method","IMFPMediaPlayer.UpdateVideo","IMFPMediaPlayer::UpdateVideo","UpdateVideo","UpdateVideo method [Media Foundation]","UpdateVideo method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_updatevideo","mfplay/IMFPMediaPlayer::UpdateVideo"]
 old-location: mf\imfpmediaplayer_updatevideo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo

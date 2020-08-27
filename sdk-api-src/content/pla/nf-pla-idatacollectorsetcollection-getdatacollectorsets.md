@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.GetDataCollectorSets
 title: IDataCollectorSetCollection::GetDataCollectorSets (pla.h)
-description: Populates the data collector set collection.helpviewer_keywords: ["GetDataCollectorSets","GetDataCollectorSets method [PLA]","GetDataCollectorSets method [PLA]","IDataCollectorSetCollection interface","IDataCollectorSetCollection interface [PLA]","GetDataCollectorSets method","IDataCollectorSetCollection.GetDataCollectorSets","IDataCollectorSetCollection::GetDataCollectorSets","base.idatacollectorsetcollection_getdatacollectorsets","pla.idatacollectorsetcollection_getdatacollectorsets","pla/IDataCollectorSetCollection::GetDataCollectorSets"]
+description: Populates the data collector set collection.
+helpviewer_keywords: ["GetDataCollectorSets","GetDataCollectorSets method [PLA]","GetDataCollectorSets method [PLA]","IDataCollectorSetCollection interface","IDataCollectorSetCollection interface [PLA]","GetDataCollectorSets method","IDataCollectorSetCollection.GetDataCollectorSets","IDataCollectorSetCollection::GetDataCollectorSets","base.idatacollectorsetcollection_getdatacollectorsets","pla.idatacollectorsetcollection_getdatacollectorsets","pla/IDataCollectorSetCollection::GetDataCollectorSets"]
 old-location: pla\idatacollectorsetcollection_getdatacollectorsets.htm
 tech.root: PLA
 ms.assetid: 190c96ad-6193-4f74-906f-180575e6e418

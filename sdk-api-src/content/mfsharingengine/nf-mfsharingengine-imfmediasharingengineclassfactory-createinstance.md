@@ -1,9 +1,10 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngineClassFactory.CreateInstance
 title: IMFMediaSharingEngineClassFactory::CreateInstance (mfsharingengine.h)
-description: Creates an instance of the IMFMediaSharingEngine.helpviewer_keywords: ["CreateInstance","CreateInstance method [Media Foundation]","CreateInstance method [Media Foundation]","IMFMediaSharingEngineClassFactory interface","IMFMediaSharingEngineClassFactory interface [Media Foundation]","CreateInstance method","IMFMediaSharingEngineClassFactory.CreateInstance","IMFMediaSharingEngineClassFactory::CreateInstance","mf.imfmediasharingengineclassfactory_createinstance","mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance"]
+description: Creates an instance of the IMFMediaSharingEngine.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Media Foundation]","CreateInstance method [Media Foundation]","IMFMediaSharingEngineClassFactory interface","IMFMediaSharingEngineClassFactory interface [Media Foundation]","CreateInstance method","IMFMediaSharingEngineClassFactory.CreateInstance","IMFMediaSharingEngineClassFactory::CreateInstance","mf.imfmediasharingengineclassfactory_createinstance","mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance"]
 old-location: mf\imfmediasharingengineclassfactory_createinstance.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance

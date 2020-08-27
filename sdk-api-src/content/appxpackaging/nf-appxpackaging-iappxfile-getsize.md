@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetSize
 title: IAppxFile::GetSize (appxpackaging.h)
-description: Retrieves the uncompressed size of the file.helpviewer_keywords: ["GetSize","GetSize method [App packaging and management]","GetSize method [App packaging and management]","IAppxFile interface","IAppxFile interface [App packaging and management]","GetSize method","IAppxFile.GetSize","IAppxFile::GetSize","appxpackaging/IAppxFile::GetSize","appxpkg.iappxfile_getsize"]
+description: Retrieves the uncompressed size of the file.
+helpviewer_keywords: ["GetSize","GetSize method [App packaging and management]","GetSize method [App packaging and management]","IAppxFile interface","IAppxFile interface [App packaging and management]","GetSize method","IAppxFile.GetSize","IAppxFile::GetSize","appxpackaging/IAppxFile::GetSize","appxpkg.iappxfile_getsize"]
 old-location: appxpkg\iappxfile_getsize.htm
 tech.root: appxpkg
 ms.assetid: 73353CE0-98F8-4A8C-A259-A07C125B9EE9

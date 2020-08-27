@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IEventClass2.put_AllowInprocActivation
 title: IEventClass2::put_AllowInprocActivation (eventsys.h)
-description: Indicates whether the event class can be activated in-process.helpviewer_keywords: ["AllowInprocActivation property [COM+]","AllowInprocActivation property [COM+]","IEventClass2 interface","IEventClass2 interface [COM+]","AllowInprocActivation property","IEventClass2.AllowInprocActivation","IEventClass2.put_AllowInprocActivation","IEventClass2::AllowInprocActivation","IEventClass2::get_AllowInprocActivation","IEventClass2::put_AllowInprocActivation","_cos_IEventClass2_get_AllowInprocActivation","_cos_IEventClass2_put_AllowInprocActivation","cos.ieventclass2_allowinprocactivation","eventsys/IEventClass2::AllowInprocActivation","eventsys/IEventClass2::get_AllowInprocActivation","eventsys/IEventClass2::put_AllowInprocActivation","put_AllowInprocActivation"]
+description: Indicates whether the event class can be activated in-process.
+helpviewer_keywords: ["AllowInprocActivation property [COM+]","AllowInprocActivation property [COM+]","IEventClass2 interface","IEventClass2 interface [COM+]","AllowInprocActivation property","IEventClass2.AllowInprocActivation","IEventClass2.put_AllowInprocActivation","IEventClass2::AllowInprocActivation","IEventClass2::get_AllowInprocActivation","IEventClass2::put_AllowInprocActivation","_cos_IEventClass2_get_AllowInprocActivation","_cos_IEventClass2_put_AllowInprocActivation","cos.ieventclass2_allowinprocactivation","eventsys/IEventClass2::AllowInprocActivation","eventsys/IEventClass2::get_AllowInprocActivation","eventsys/IEventClass2::put_AllowInprocActivation","put_AllowInprocActivation"]
 old-location: cos\ieventclass2_allowinprocactivation.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ac043e5c-4f63-4f01-bc60-8c7a6bd08640
 ms.date: 12/05/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IEventClass2 interface, IEventClass2 interface [COM+],AllowInprocActivation property, IEventClass2.AllowInprocActivation, IEventClass2.put_AllowInprocActivation, IEventClass2::AllowInprocActivation, IEventClass2::get_AllowInprocActivation, IEventClass2::put_AllowInprocActivation, _cos_IEventClass2_get_AllowInprocActivation, _cos_IEventClass2_put_AllowInprocActivation, cos.ieventclass2_allowinprocactivation, eventsys/IEventClass2::AllowInprocActivation, eventsys/IEventClass2::get_AllowInprocActivation, eventsys/IEventClass2::put_AllowInprocActivation, put_AllowInprocActivation

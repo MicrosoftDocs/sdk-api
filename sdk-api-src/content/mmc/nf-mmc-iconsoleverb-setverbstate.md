@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsoleVerb.SetVerbState
 title: IConsoleVerb::SetVerbState (mmc.h)
-description: The SetVerbState method enables a snap-in to set a given verb's button state.helpviewer_keywords: ["IConsoleVerb interface [MMC]","SetVerbState method","IConsoleVerb.SetVerbState","IConsoleVerb::SetVerbState","SetVerbState","SetVerbState method [MMC]","SetVerbState method [MMC]","IConsoleVerb interface","_slate_iconsoleverb_setverbstate","mmc.iconsoleverb_setverbstate","mmc/IConsoleVerb::SetVerbState"]
+description: The SetVerbState method enables a snap-in to set a given verb's button state.
+helpviewer_keywords: ["IConsoleVerb interface [MMC]","SetVerbState method","IConsoleVerb.SetVerbState","IConsoleVerb::SetVerbState","SetVerbState","SetVerbState method [MMC]","SetVerbState method [MMC]","IConsoleVerb interface","_slate_iconsoleverb_setverbstate","mmc.iconsoleverb_setverbstate","mmc/IConsoleVerb::SetVerbState"]
 old-location: mmc\iconsoleverb_setverbstate.htm
 tech.root: mmc
 ms.assetid: 55cf5f73-a113-430e-be16-d7a88abe15b6

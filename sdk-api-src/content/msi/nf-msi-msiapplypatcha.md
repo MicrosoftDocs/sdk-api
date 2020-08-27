@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiApplyPatchA
 title: MsiApplyPatchA function (msi.h)
-description: For each product listed by the patch package as eligible to receive the patch, the MsiApplyPatch function invokes an installation and sets the PATCH property to the path of the patch package.helpviewer_keywords: ["INSTALLTYPE_DEFAULT","INSTALLTYPE_NETWORK_IMAGE","INSTALLTYPE_SINGLE_INSTANCE","MsiApplyPatch","MsiApplyPatch function","MsiApplyPatchA","MsiApplyPatchW","_msi_msiapplypatch","msi/MsiApplyPatch","msi/MsiApplyPatchA","msi/MsiApplyPatchW","setup.msiapplypatch"]
+description: For each product listed by the patch package as eligible to receive the patch, the MsiApplyPatch function invokes an installation and sets the PATCH property to the path of the patch package.
+helpviewer_keywords: ["INSTALLTYPE_DEFAULT","INSTALLTYPE_NETWORK_IMAGE","INSTALLTYPE_SINGLE_INSTANCE","MsiApplyPatch","MsiApplyPatch function","MsiApplyPatchA","MsiApplyPatchW","_msi_msiapplypatch","msi/MsiApplyPatch","msi/MsiApplyPatchA","msi/MsiApplyPatchW","setup.msiapplypatch"]
 old-location: setup\msiapplypatch.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f
 ms.date: 12/05/2018
 ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_INSTANCE, MsiApplyPatch, MsiApplyPatch function, MsiApplyPatchA, MsiApplyPatchW, _msi_msiapplypatch, msi/MsiApplyPatch, msi/MsiApplyPatchA, msi/MsiApplyPatchW, setup.msiapplypatch
@@ -218,6 +219,10 @@ Because the list delimiter for transforms, sources, and patches is a semicolon, 
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiApplyPatch as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

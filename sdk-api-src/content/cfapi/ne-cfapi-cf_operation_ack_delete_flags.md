@@ -1,9 +1,10 @@
 ---
 UID: NE:cfapi.CF_OPERATION_ACK_DELETE_FLAGS
 title: CF_OPERATION_ACK_DELETE_FLAGS (cfapi.h)
-description: Flags to acknowledge the deletion of a placeholder file or directory.helpviewer_keywords: ["CF_OPERATION_ACK_DELETE_FLAGS","CF_OPERATION_ACK_DELETE_FLAGS enumeration","CF_OPERATION_ACK_DELETE_FLAG_NONE","cfapi/CF_OPERATION_ACK_DELETE_FLAGS","cfapi/CF_OPERATION_ACK_DELETE_FLAG_NONE","cloudApi.cf_operation_ack_delete_flags"]
+description: Flags to acknowledge the deletion of a placeholder file or directory.
+helpviewer_keywords: ["CF_OPERATION_ACK_DELETE_FLAGS","CF_OPERATION_ACK_DELETE_FLAGS enumeration","CF_OPERATION_ACK_DELETE_FLAG_NONE","cfapi/CF_OPERATION_ACK_DELETE_FLAGS","cfapi/CF_OPERATION_ACK_DELETE_FLAG_NONE","cloudApi.cf_operation_ack_delete_flags"]
 old-location: cloudapi\cf_operation_ack_delete_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 407B7035-09A0-43BC-AC07-2CC0973DDBCC
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_DELETE_FLAGS, CF_OPERATION_ACK_DELETE_FLAGS enumeration, CF_OPERATION_ACK_DELETE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DELETE_FLAGS, cfapi/CF_OPERATION_ACK_DELETE_FLAG_NONE, cloudApi.cf_operation_ack_delete_flags

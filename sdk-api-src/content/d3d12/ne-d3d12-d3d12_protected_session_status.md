@@ -1,7 +1,9 @@
 ---
 UID: NE:d3d12.D3D12_PROTECTED_SESSION_STATUS
 title: D3D12_PROTECTED_SESSION_STATUS
-description: Defines constants that specify protected session status.helpviewer_keywords: ["D3D12_PROTECTED_SESSION_STATUS"]
+description: Defines constants that specify protected session status.
+tech.root: direct3d12
+helpviewer_keywords: ["D3D12_PROTECTED_SESSION_STATUS"]
 ms.date: 08/13/2019
 ms.keywords: D3D12_PROTECTED_SESSION_STATUS
 f1_keywords:

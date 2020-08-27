@@ -4,7 +4,7 @@ title: MFTGetInfo function (mfapi.h)
 description: Gets information from the registry about a Media Foundation transform (MFT).
 helpviewer_keywords: ["MFTGetInfo","MFTGetInfo function [Media Foundation]","d1bac1c7-3f9b-46b7-bdf7-c32983c648ee","mf.mftgetinfo","mfapi/MFTGetInfo"]
 old-location: mf\mftgetinfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
 ms.date: 12/05/2018
 ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-46b7-bdf7-c32983c648ee, mf.mftgetinfo, mfapi/MFTGetInfo

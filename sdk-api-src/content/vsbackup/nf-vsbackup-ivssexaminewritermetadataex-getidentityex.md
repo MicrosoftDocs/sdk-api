@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx.GetIdentityEx
 title: IVssExamineWriterMetadataEx::GetIdentityEx (vsbackup.h)
-description: The GetIdentityEx method obtains the writer instance name and other basic information about a specific writer instance.helpviewer_keywords: ["GetIdentityEx","GetIdentityEx method [VSS]","GetIdentityEx method [VSS]","IVssExamineWriterMetadataEx interface","IVssExamineWriterMetadataEx interface [VSS]","GetIdentityEx method","IVssExamineWriterMetadataEx.GetIdentityEx","IVssExamineWriterMetadataEx::GetIdentityEx","base.ivssexaminewritermetadataex_getidentityex","vsbackup/IVssExamineWriterMetadataEx::GetIdentityEx"]
+description: The GetIdentityEx method obtains the writer instance name and other basic information about a specific writer instance.
+helpviewer_keywords: ["GetIdentityEx","GetIdentityEx method [VSS]","GetIdentityEx method [VSS]","IVssExamineWriterMetadataEx interface","IVssExamineWriterMetadataEx interface [VSS]","GetIdentityEx method","IVssExamineWriterMetadataEx.GetIdentityEx","IVssExamineWriterMetadataEx::GetIdentityEx","base.ivssexaminewritermetadataex_getidentityex","vsbackup/IVssExamineWriterMetadataEx::GetIdentityEx"]
 old-location: base\ivssexaminewritermetadataex_getidentityex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: f36cfa0e-b51e-488b-89b1-99544e2883d9
 ms.date: 12/05/2018
 ms.keywords: GetIdentityEx, GetIdentityEx method [VSS], GetIdentityEx method [VSS],IVssExamineWriterMetadataEx interface, IVssExamineWriterMetadataEx interface [VSS],GetIdentityEx method, IVssExamineWriterMetadataEx.GetIdentityEx, IVssExamineWriterMetadataEx::GetIdentityEx, base.ivssexaminewritermetadataex_getidentityex, vsbackup/IVssExamineWriterMetadataEx::GetIdentityEx

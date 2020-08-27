@@ -1,7 +1,8 @@
 ---
 UID: NF:unknwn.IClassFactory.CreateInstance
 title: IClassFactory::CreateInstance
-description: Creates an uninitialized object.helpviewer_keywords: ["CreateInstance","CreateInstance method [COM]","CreateInstance method [COM]","IClassFactory interface","IClassFactory interface [COM]","CreateInstance method","IClassFactory.CreateInstance","IClassFactory::CreateInstance","_com_iclassfactory_createinstance","com.iclassfactory_createinstance","unknwn/IClassFactory::CreateInstance"]
+description: Creates an uninitialized object.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [COM]","CreateInstance method [COM]","IClassFactory interface","IClassFactory interface [COM]","CreateInstance method","IClassFactory.CreateInstance","IClassFactory::CreateInstance","_com_iclassfactory_createinstance","com.iclassfactory_createinstance","unknwn/IClassFactory::CreateInstance"]
 old-location: com\iclassfactory_createinstance.htm
 tech.root: com
 ms.assetid: 45d34150-9e0b-4a76-a784-c81434ec73b8
@@ -111,7 +112,7 @@ A COM server's implementation of <b>CreateInstance</b> must return a reference t
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface is always on a class object. The <b>CreateInstance</b> method creates an uninitialized object of the class identified with the specified CLSID. When an object is created in this way, the CLSID must be registered in the system registry with the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> function.
 
-The <i>pUnkOuter</i> parameter indicates whether the object is being created as part of an aggregate. Object definitions are not required to support aggregation â€” they must be specifically designed and implemented to support it.
+The <i>pUnkOuter</i> parameter indicates whether the object is being created as part of an aggregate. Object definitions are not required to support aggregation - they must be specifically designed and implemented to support it.
 
 The <i>riid</i> parameter specifies the IID (interface identifier) of the interface through which you will communicate with the new object. If <i>pUnkOuter</i> is non-<b>NULL</b> (indicating aggregation), the value of the riid parameter must be IID_IUnknown. If the object is not part of an aggregate, riid often specifies the interface though which the object will be initialized.
 

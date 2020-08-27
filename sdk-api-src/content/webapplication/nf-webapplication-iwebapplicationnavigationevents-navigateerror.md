@@ -1,9 +1,10 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateError
 title: IWebApplicationNavigationEvents::NavigateError (webapplication.h)
-description: Fired when a binding error occurs (window or frameset element).helpviewer_keywords: ["IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","NavigateError method","IWebApplicationNavigationEvents.NavigateError","IWebApplicationNavigationEvents::NavigateError","NavigateError","NavigateError method [Debugging Windows Store apps]","NavigateError method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","debug.iwebapplicationnavigationevents_navigateerror","webapplication/IWebApplicationNavigationEvents::NavigateError"]
+description: Fired when a binding error occurs (window or frameset element).
+helpviewer_keywords: ["IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","NavigateError method","IWebApplicationNavigationEvents.NavigateError","IWebApplicationNavigationEvents::NavigateError","NavigateError","NavigateError method [Debugging Windows Store apps]","NavigateError method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","debug.iwebapplicationnavigationevents_navigateerror","webapplication/IWebApplicationNavigationEvents::NavigateError"]
 old-location: debug\iwebapplicationnavigationevents_navigateerror.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: 1c6e34e8-e14f-4b6c-ad83-140a7141cf64
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateError method, IWebApplicationNavigationEvents.NavigateError, IWebApplicationNavigationEvents::NavigateError, NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError

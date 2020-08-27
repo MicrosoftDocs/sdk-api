@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineSetupTransfer
 title: TSPI_lineSetupTransfer function (tspi.h)
-description: The TSPI_lineSetupTransfer function initiates a transfer of the call specified by hdCall. It establishes a consultation call, lphdConsultCall, on which the party can be dialed that can become the destination of the transfer.helpviewer_keywords: ["TSPI_lineSetupTransfer","TSPI_lineSetupTransfer function [TAPI 2.2]","_tspi_tspi_linesetuptransfer","tspi.tspi_linesetuptransfer","tspi/TSPI_lineSetupTransfer"]
+description: The TSPI_lineSetupTransfer function initiates a transfer of the call specified by hdCall. It establishes a consultation call, lphdConsultCall, on which the party can be dialed that can become the destination of the transfer.
+helpviewer_keywords: ["TSPI_lineSetupTransfer","TSPI_lineSetupTransfer function [TAPI 2.2]","_tspi_tspi_linesetuptransfer","tspi.tspi_linesetuptransfer","tspi/TSPI_lineSetupTransfer"]
 old-location: tspi\tspi_linesetuptransfer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0cd95e53-62d5-4318-961a-1136646fd222
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetupTransfer, TSPI_lineSetupTransfer function [TAPI 2.2], _tspi_tspi_linesetuptransfer, tspi.tspi_linesetuptransfer, tspi/TSPI_lineSetupTransfer

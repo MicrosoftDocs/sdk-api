@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SERVICE_CONTRACT
 title: WS_SERVICE_CONTRACT (webservices.h)
-description: Specifies a service contract on an endpoint.helpviewer_keywords: ["WS_SERVICE_CONTRACT","WS_SERVICE_CONTRACT structure [Web Services for Windows]","webservices/WS_SERVICE_CONTRACT","wsw.ws_service_contract"]
+description: Specifies a service contract on an endpoint.
+helpviewer_keywords: ["WS_SERVICE_CONTRACT","WS_SERVICE_CONTRACT structure [Web Services for Windows]","webservices/WS_SERVICE_CONTRACT","wsw.ws_service_contract"]
 old-location: wsw\ws_service_contract.htm
 tech.root: wsw
 ms.assetid: 77bd8c1e-0596-44d7-be99-356d052ee6c1

@@ -4,7 +4,7 @@ title: CryptCATGetMemberInfo function (mscat.h)
 description: Retrieves member information from the catalog's PKCS
 helpviewer_keywords: ["CryptCATGetMemberInfo","CryptCATGetMemberInfo function [Security]","mscat/CryptCATGetMemberInfo","security.cryptcatgetmemberinfo"]
 old-location: security\cryptcatgetmemberinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ff265232-f57e-4ab0-ba07-05e6d6745ae3
 ms.date: 12/05/2018
 ms.keywords: CryptCATGetMemberInfo, CryptCATGetMemberInfo function [Security], mscat/CryptCATGetMemberInfo, security.cryptcatgetmemberinfo

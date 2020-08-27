@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IAction
 title: IAction (taskschd.h)
-description: Provides the common properties inherited by all action objects.helpviewer_keywords: ["IAction","IAction interface [Task Scheduler]","IAction interface [Task Scheduler]","described","taskschd.iaction","taskschd/IAction"]
+description: Provides the common properties inherited by all action objects.
+helpviewer_keywords: ["IAction","IAction interface [Task Scheduler]","IAction interface [Task Scheduler]","described","taskschd.iaction","taskschd/IAction"]
 old-location: taskschd\iaction.htm
 tech.root: taskschd
 ms.assetid: 50d60cf0-642a-43fe-9163-51740e75fa8d

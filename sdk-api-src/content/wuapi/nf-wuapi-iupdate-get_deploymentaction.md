@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeploymentAction
 title: IUpdate::get_DeploymentAction (wuapi.h)
-description: Gets the action for which the update is deployed.helpviewer_keywords: ["DeploymentAction property [Windows Update Agent]","DeploymentAction property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","DeploymentAction property","IUpdate.DeploymentAction","IUpdate.get_DeploymentAction","IUpdate::DeploymentAction","IUpdate::get_DeploymentAction","get_DeploymentAction","wua.iupdate_deploymentaction","wuapi/IUpdate::DeploymentAction","wuapi/IUpdate::get_DeploymentAction"]
+description: Gets the action for which the update is deployed.
+helpviewer_keywords: ["DeploymentAction property [Windows Update Agent]","DeploymentAction property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","DeploymentAction property","IUpdate.DeploymentAction","IUpdate.get_DeploymentAction","IUpdate::DeploymentAction","IUpdate::get_DeploymentAction","get_DeploymentAction","wua.iupdate_deploymentaction","wuapi/IUpdate::DeploymentAction","wuapi/IUpdate::get_DeploymentAction"]
 old-location: wua\iupdate_deploymentaction.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 52bdde0e-6b00-4bc9-8ad6-8bae5b01b7f3
 ms.date: 12/05/2018
 ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeploymentAction property, IUpdate.DeploymentAction, IUpdate.get_DeploymentAction, IUpdate::DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction

@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IPinFlowControl
 title: IPinFlowControl (strmif.h)
-description: Blocks data flow from an active output pin.helpviewer_keywords: ["IPinFlowControl","IPinFlowControl interface [DirectShow]","IPinFlowControl interface [DirectShow]","described","IPinFlowControlInterface","dshow.ipinflowcontrol","strmif/IPinFlowControl"]
+description: Blocks data flow from an active output pin.
+helpviewer_keywords: ["IPinFlowControl","IPinFlowControl interface [DirectShow]","IPinFlowControl interface [DirectShow]","described","IPinFlowControlInterface","dshow.ipinflowcontrol","strmif/IPinFlowControl"]
 old-location: dshow\ipinflowcontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 27e607d9-85f0-4e17-b8e7-6df729288acd
 ms.date: 12/05/2018
 ms.keywords: IPinFlowControl, IPinFlowControl interface [DirectShow], IPinFlowControl interface [DirectShow],described, IPinFlowControlInterface, dshow.ipinflowcontrol, strmif/IPinFlowControl

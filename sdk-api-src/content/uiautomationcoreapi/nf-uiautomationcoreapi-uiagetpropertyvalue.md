@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetPropertyValue
 title: UiaGetPropertyValue function (uiautomationcoreapi.h)
-description: Retrieves the value of a UI Automation property.helpviewer_keywords: ["UiaGetPropertyValue","UiaGetPropertyValue function [Windows Accessibility]","uiauto.uiauto_UiaGetPropertyValueAutoMeth","uiauto_UiaGetPropertyValueAutoMeth","uiautomationcoreapi/UiaGetPropertyValue","winauto.uiauto_UiaGetPropertyValueAutoMeth"]
+description: Retrieves the value of a UI Automation property.
+helpviewer_keywords: ["UiaGetPropertyValue","UiaGetPropertyValue function [Windows Accessibility]","uiauto.uiauto_UiaGetPropertyValueAutoMeth","uiauto_UiaGetPropertyValueAutoMeth","uiautomationcoreapi/UiaGetPropertyValue","winauto.uiauto_UiaGetPropertyValueAutoMeth"]
 old-location: winauto\uiauto_UiaGetPropertyValueAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 17d5450c-0894-412f-a8d1-44ea0364a606

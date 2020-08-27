@@ -1,9 +1,10 @@
 ---
 UID: NN:vds.IVdsSubSystemNaming
 title: IVdsSubSystemNaming (vds.h)
-description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.helpviewer_keywords: ["IVdsSubSystemNaming","IVdsSubSystemNaming interface [VDS]","IVdsSubSystemNaming interface [VDS]","described","base.ivdssubsystemnaming","vds/IVdsSubSystemNaming","vdshwprv/IVdsSubSystemNaming"]
+description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
+helpviewer_keywords: ["IVdsSubSystemNaming","IVdsSubSystemNaming interface [VDS]","IVdsSubSystemNaming interface [VDS]","described","base.ivdssubsystemnaming","vds/IVdsSubSystemNaming","vdshwprv/IVdsSubSystemNaming"]
 old-location: base\ivdssubsystemnaming.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming

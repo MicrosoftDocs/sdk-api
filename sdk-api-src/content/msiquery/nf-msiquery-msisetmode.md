@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiSetMode
 title: MsiSetMode function (msiquery.h)
-description: The MsiSetMode function sets an internal engine Boolean state.helpviewer_keywords: ["MSIRUNMODE_REBOOTATEND","MSIRUNMODE_REBOOTNOW","MsiSetMode","MsiSetMode function","_msi_msisetmode","msiquery/MsiSetMode","setup.msisetmode"]
+description: The MsiSetMode function sets an internal engine Boolean state.
+helpviewer_keywords: ["MSIRUNMODE_REBOOTATEND","MSIRUNMODE_REBOOTNOW","MsiSetMode","MsiSetMode function","_msi_msisetmode","msiquery/MsiSetMode","setup.msisetmode"]
 old-location: setup\msisetmode.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.date: 12/05/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode

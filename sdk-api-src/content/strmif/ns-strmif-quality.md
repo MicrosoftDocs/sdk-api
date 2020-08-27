@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.tagQuality
 title: Quality (strmif.h)
-description: The Quality structure describes a quality message by indicating Flood or Famine in the renderer and specifying the percentage of frames to drop or add to optimize the renderer's performance.helpviewer_keywords: ["Quality","Quality structure [DirectShow]","QualityStructure","dshow.quality","strmif/Quality"]
+description: The Quality structure describes a quality message by indicating Flood or Famine in the renderer and specifying the percentage of frames to drop or add to optimize the renderer's performance.
+helpviewer_keywords: ["Quality","Quality structure [DirectShow]","QualityStructure","dshow.quality","strmif/Quality"]
 old-location: dshow\quality.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2ab7fcde-0e44-4d60-acf5-3638efbe15f7
 ms.date: 12/05/2018
 ms.keywords: Quality, Quality structure [DirectShow], QualityStructure, dshow.quality, strmif/Quality

@@ -1,9 +1,10 @@
 ---
 UID: NE:iwscapi._WSC_SECURITY_SIGNATURE_STATUS
 title: WSC_SECURITY_SIGNATURE_STATUS (iwscapi.h)
-description: Reports the current version status of the security product to Windows Security Center.helpviewer_keywords: ["WSC_SECURITY_PRODUCT_OUT_OF_DATE","WSC_SECURITY_PRODUCT_UP_TO_DATE","WSC_SECURITY_SIGNATURE_STATUS","WSC_SECURITY_SIGNATURE_STATUS enumeration [Windows API]","iwscapi/WSC_SECURITY_PRODUCT_OUT_OF_DATE","iwscapi/WSC_SECURITY_PRODUCT_UP_TO_DATE","iwscapi/WSC_SECURITY_SIGNATURE_STATUS","winprog.wsc_security_signature_status"]
+description: Reports the current version status of the security product to Windows Security Center.
+helpviewer_keywords: ["WSC_SECURITY_PRODUCT_OUT_OF_DATE","WSC_SECURITY_PRODUCT_UP_TO_DATE","WSC_SECURITY_SIGNATURE_STATUS","WSC_SECURITY_SIGNATURE_STATUS enumeration [Windows API]","iwscapi/WSC_SECURITY_PRODUCT_OUT_OF_DATE","iwscapi/WSC_SECURITY_PRODUCT_UP_TO_DATE","iwscapi/WSC_SECURITY_SIGNATURE_STATUS","winprog.wsc_security_signature_status"]
 old-location: winprog\wsc_security_signature_status.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 1D09F5C6-F5A4-40A5-836B-25709E3017B9
 ms.date: 12/05/2018
 ms.keywords: WSC_SECURITY_PRODUCT_OUT_OF_DATE, WSC_SECURITY_PRODUCT_UP_TO_DATE, WSC_SECURITY_SIGNATURE_STATUS, WSC_SECURITY_SIGNATURE_STATUS enumeration [Windows API], iwscapi/WSC_SECURITY_PRODUCT_OUT_OF_DATE, iwscapi/WSC_SECURITY_PRODUCT_UP_TO_DATE, iwscapi/WSC_SECURITY_SIGNATURE_STATUS, winprog.wsc_security_signature_status

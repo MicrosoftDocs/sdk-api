@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertAddRefServerOcspResponse
 title: CertAddRefServerOcspResponse function (wincrypt.h)
-description: Increments the reference count for an HCERT_SERVER_OCSP_RESPONSE handle.helpviewer_keywords: ["CertAddRefServerOcspResponse","CertAddRefServerOcspResponse function [Security]","security.certaddrefserverocspresponse","wincrypt/CertAddRefServerOcspResponse"]
+description: Increments the reference count for an HCERT_SERVER_OCSP_RESPONSE handle.
+helpviewer_keywords: ["CertAddRefServerOcspResponse","CertAddRefServerOcspResponse function [Security]","security.certaddrefserverocspresponse","wincrypt/CertAddRefServerOcspResponse"]
 old-location: security\certaddrefserverocspresponse.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6ccc0e85-1fa0-480c-a5b4-b21ba811e5d0
 ms.date: 12/05/2018
 ms.keywords: CertAddRefServerOcspResponse, CertAddRefServerOcspResponse function [Security], security.certaddrefserverocspresponse, wincrypt/CertAddRefServerOcspResponse

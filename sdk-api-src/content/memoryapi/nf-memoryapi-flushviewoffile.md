@@ -1,9 +1,10 @@
 ---
 UID: NF:memoryapi.FlushViewOfFile
 title: FlushViewOfFile function (memoryapi.h)
-description: Writes to the disk a byte range within a mapped view of a file.helpviewer_keywords: ["FlushViewOfFile","FlushViewOfFile function","_win32_flushviewoffile","base.flushviewoffile","fs.flushviewoffile","winbase/FlushViewOfFile"]
+description: Writes to the disk a byte range within a mapped view of a file.
+helpviewer_keywords: ["FlushViewOfFile","FlushViewOfFile function","_win32_flushviewoffile","base.flushviewoffile","fs.flushviewoffile","winbase/FlushViewOfFile"]
 old-location: base\flushviewoffile.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 994fef62-77cf-4c99-be54-b4aff35a10f2
 ms.date: 12/05/2018
 ms.keywords: FlushViewOfFile, FlushViewOfFile function, _win32_flushviewoffile, base.flushviewoffile, fs.flushviewoffile, winbase/FlushViewOfFile

@@ -1,9 +1,10 @@
 ---
 UID: NE:keycredmgr.KeyCredentialManagerOperationType
 title: KeyCredentialManagerOperationType (keycredmgr.h)
-description: These are the operational enum values that are passed to KeyCredentialManagerShowUIOperation.helpviewer_keywords: ["KeyCredentialManagerOperationType","KeyCredentialManagerOperationType enumeration [Security]","KeyCredentialManagerPinChange","KeyCredentialManagerPinReset","KeyCredentialManagerProvisioning","keycredmgr/KeyCredentialManagerOperationType","keycredmgr/KeyCredentialManagerPinChange","keycredmgr/KeyCredentialManagerPinReset","keycredmgr/KeyCredentialManagerProvisioning","security.keycredentialmanageroperationtype"]
+description: These are the operational enum values that are passed to KeyCredentialManagerShowUIOperation.
+helpviewer_keywords: ["KeyCredentialManagerOperationType","KeyCredentialManagerOperationType enumeration [Security]","KeyCredentialManagerPinChange","KeyCredentialManagerPinReset","KeyCredentialManagerProvisioning","keycredmgr/KeyCredentialManagerOperationType","keycredmgr/KeyCredentialManagerPinChange","keycredmgr/KeyCredentialManagerPinReset","keycredmgr/KeyCredentialManagerProvisioning","security.keycredentialmanageroperationtype"]
 old-location: security\keycredentialmanageroperationtype.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 871DA6A2-0033-4863-B37E-C75ADD512C3A
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerOperationType, KeyCredentialManagerOperationType enumeration [Security], KeyCredentialManagerPinChange, KeyCredentialManagerPinReset, KeyCredentialManagerProvisioning, keycredmgr/KeyCredentialManagerOperationType, keycredmgr/KeyCredentialManagerPinChange, keycredmgr/KeyCredentialManagerPinReset, keycredmgr/KeyCredentialManagerProvisioning, security.keycredentialmanageroperationtype

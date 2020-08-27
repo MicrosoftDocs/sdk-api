@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_LastAccessedTime
 title: IFsiItem::get_LastAccessedTime (imapi2fs.h)
-description: Retrieves the date and time the directory or file item was last accessed in the file system image.helpviewer_keywords: ["IFsiItem interface [IMAPI]","get_LastAccessedTime method","IFsiItem.get_LastAccessedTime","IFsiItem::get_LastAccessedTime","get_LastAccessedTime","get_LastAccessedTime method [IMAPI]","get_LastAccessedTime method [IMAPI]","IFsiItem interface","imapi.ifsiitem_get_lastaccessedtime","imapi2fs/IFsiItem::get_LastAccessedTime"]
+description: Retrieves the date and time the directory or file item was last accessed in the file system image.
+helpviewer_keywords: ["IFsiItem interface [IMAPI]","get_LastAccessedTime method","IFsiItem.get_LastAccessedTime","IFsiItem::get_LastAccessedTime","get_LastAccessedTime","get_LastAccessedTime method [IMAPI]","get_LastAccessedTime method [IMAPI]","IFsiItem interface","imapi.ifsiitem_get_lastaccessedtime","imapi2fs/IFsiItem::get_LastAccessedTime"]
 old-location: imapi\ifsiitem_get_lastaccessedtime.htm
 tech.root: imapi
 ms.assetid: e12f4c62-2dc8-4155-9cd7-0dea982d7b5a

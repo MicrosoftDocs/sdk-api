@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SendDlgItemMessageW
 title: SendDlgItemMessageW function (winuser.h)
-description: Sends a message to the specified control in a dialog box.helpviewer_keywords: ["SendDlgItemMessage","SendDlgItemMessage function [Dialog Boxes]","SendDlgItemMessageA","SendDlgItemMessageW","_win32_SendDlgItemMessage","_win32_senddlgitemmessage_cpp","dlgbox.senddlgitemmessage","winui._win32_senddlgitemmessage","winuser/SendDlgItemMessage","winuser/SendDlgItemMessageA","winuser/SendDlgItemMessageW"]
+description: Sends a message to the specified control in a dialog box.
+helpviewer_keywords: ["SendDlgItemMessage","SendDlgItemMessage function [Dialog Boxes]","SendDlgItemMessageA","SendDlgItemMessageW","_win32_SendDlgItemMessage","_win32_senddlgitemmessage_cpp","dlgbox.senddlgitemmessage","winui._win32_senddlgitemmessage","winuser/SendDlgItemMessage","winuser/SendDlgItemMessageA","winuser/SendDlgItemMessageW"]
 old-location: dlgbox\senddlgitemmessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm
@@ -126,6 +127,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SendDlgItemMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

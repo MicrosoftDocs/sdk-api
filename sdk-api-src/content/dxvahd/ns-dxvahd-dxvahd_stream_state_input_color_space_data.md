@@ -1,9 +1,10 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 title: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA (dxvahd.h)
-description: Specifies the color space for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.helpviewer_keywords: ["DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA","DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA","mf.dxvahd_stream_state_input_color_space_data"]
+description: Specifies the color space for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA","DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA","mf.dxvahd_stream_state_input_color_space_data"]
 old-location: mf\dxvahd_stream_state_input_color_space_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 54b53e4d-990b-4496-aae6-039f443337ae
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, mf.dxvahd_stream_state_input_color_space_data

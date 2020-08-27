@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_TiltRelative
 title: ICameraControl::getRange_TiltRelative (vidcap.h)
-description: The getRange_TiltRelative method returns the range of relative tilt angles supported by the camera. The relative tilt is expressed as a number of steps, where the size of each step depends on the camera model.helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_TiltRelative method","ICameraControl.getRange_TiltRelative","ICameraControl::getRange_TiltRelative","ICameraControlgetRange_TiltRelative","dshow.icameracontrol_getrange_tiltrelative","getRange_TiltRelative","getRange_TiltRelative method [DirectShow]","getRange_TiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_TiltRelative"]
+description: The getRange_TiltRelative method returns the range of relative tilt angles supported by the camera. The relative tilt is expressed as a number of steps, where the size of each step depends on the camera model.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_TiltRelative method","ICameraControl.getRange_TiltRelative","ICameraControl::getRange_TiltRelative","ICameraControlgetRange_TiltRelative","dshow.icameracontrol_getrange_tiltrelative","getRange_TiltRelative","getRange_TiltRelative method [DirectShow]","getRange_TiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_TiltRelative"]
 old-location: dshow\icameracontrol_getrange_tiltrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8b78e961-8b05-4339-ad66-49f2d892d4dc
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_TiltRelative method, ICameraControl.getRange_TiltRelative, ICameraControl::getRange_TiltRelative, ICameraControlgetRange_TiltRelative, dshow.icameracontrol_getrange_tiltrelative, getRange_TiltRelative, getRange_TiltRelative method [DirectShow], getRange_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_TiltRelative

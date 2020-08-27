@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.WindowFromAccessibleObject
 title: WindowFromAccessibleObject function (oleacc.h)
-description: Retrieves the window handle that corresponds to a particular instance of an IAccessible interface.helpviewer_keywords: ["WindowFromAccessibleObject","WindowFromAccessibleObject function [Windows Accessibility]","_msaa_WindowFromAccessibleObject","msaa.windowfromaccessibleobject","oleacc/WindowFromAccessibleObject","winauto.windowfromaccessibleobject"]
+description: Retrieves the window handle that corresponds to a particular instance of an IAccessible interface.
+helpviewer_keywords: ["WindowFromAccessibleObject","WindowFromAccessibleObject function [Windows Accessibility]","_msaa_WindowFromAccessibleObject","msaa.windowfromaccessibleobject","oleacc/WindowFromAccessibleObject","winauto.windowfromaccessibleobject"]
 old-location: winauto\windowfromaccessibleobject.htm
 tech.root: WinAuto
 ms.assetid: b3a3d3dd-ef84-4323-ab6d-6331d8389f11

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragOver
 title: INameSpaceTreeControlDropHandler::OnDragOver (shobjidl.h)
-description: Called on drag over to set drag effect, as specified.helpviewer_keywords: ["INameSpaceTreeControlDropHandler interface [Windows Shell]","OnDragOver method","INameSpaceTreeControlDropHandler.OnDragOver","INameSpaceTreeControlDropHandler::OnDragOver","OnDragOver","OnDragOver method [Windows Shell]","OnDragOver method [Windows Shell]","INameSpaceTreeControlDropHandler interface","_shell_INameSpaceTreeControlDropHandler_OnDragOver","shell.INameSpaceTreeControlDropHandler_OnDragOver","shobjidl/INameSpaceTreeControlDropHandler::OnDragOver"]
+description: Called on drag over to set drag effect, as specified.
+helpviewer_keywords: ["INameSpaceTreeControlDropHandler interface [Windows Shell]","OnDragOver method","INameSpaceTreeControlDropHandler.OnDragOver","INameSpaceTreeControlDropHandler::OnDragOver","OnDragOver","OnDragOver method [Windows Shell]","OnDragOver method [Windows Shell]","INameSpaceTreeControlDropHandler interface","_shell_INameSpaceTreeControlDropHandler_OnDragOver","shell.INameSpaceTreeControlDropHandler_OnDragOver","shobjidl/INameSpaceTreeControlDropHandler::OnDragOver"]
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragOver.htm
 tech.root: shell
 ms.assetid: 9875bd38-9f1d-479f-bd8a-8deb07aa9b53

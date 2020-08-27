@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransform
 title: IXpsOMVisual::GetTransform (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the visual's resolved matrix transform.helpviewer_keywords: ["GetTransform","GetTransform method [XPS Documents and Packaging]","GetTransform method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetTransform method","IXpsOMVisual.GetTransform","IXpsOMVisual::GetTransform","xps.ixpsomvisual_gettransform","xpsobjectmodel/IXpsOMVisual::GetTransform"]
+description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the visual's resolved matrix transform.
+helpviewer_keywords: ["GetTransform","GetTransform method [XPS Documents and Packaging]","GetTransform method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetTransform method","IXpsOMVisual.GetTransform","IXpsOMVisual::GetTransform","xps.ixpsomvisual_gettransform","xpsobjectmodel/IXpsOMVisual::GetTransform"]
 old-location: xps\ixpsomvisual_gettransform.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 966916c9-8b63-468b-80fb-0c4863ff893a
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransform method, IXpsOMVisual.GetTransform, IXpsOMVisual::GetTransform, xps.ixpsomvisual_gettransform, xpsobjectmodel/IXpsOMVisual::GetTransform

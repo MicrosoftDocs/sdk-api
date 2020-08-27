@@ -1,9 +1,10 @@
 ---
 UID: NS:slpublic._tagSL_AD_ACTIVATION_INFO
 title: SL_AD_ACTIVATION_INFO (slpublic.h)
-description: Specifies information used for the retail or Active Directory phone activation of a license.helpviewer_keywords: ["PSL_AD_ACTIVATION_INFO","PSL_AD_ACTIVATION_INFO structure pointer [Security]","SL_AD_ACTIVATION_INFO","SL_AD_ACTIVATION_INFO structure [Security]","security.sl_ad_activation_info","slpublic/PSL_AD_ACTIVATION_INFO","slpublic/SL_AD_ACTIVATION_INFO"]
+description: Specifies information used for the retail or Active Directory phone activation of a license.
+helpviewer_keywords: ["PSL_AD_ACTIVATION_INFO","PSL_AD_ACTIVATION_INFO structure pointer [Security]","SL_AD_ACTIVATION_INFO","SL_AD_ACTIVATION_INFO structure [Security]","security.sl_ad_activation_info","slpublic/PSL_AD_ACTIVATION_INFO","slpublic/SL_AD_ACTIVATION_INFO"]
 old-location: security\sl_ad_activation_info.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 17012938-3E59-47DA-A046-8264CC3F06AF
 ms.date: 12/05/2018
 ms.keywords: PSL_AD_ACTIVATION_INFO, PSL_AD_ACTIVATION_INFO structure pointer [Security], SL_AD_ACTIVATION_INFO, SL_AD_ACTIVATION_INFO structure [Security], security.sl_ad_activation_info, slpublic/PSL_AD_ACTIVATION_INFO, slpublic/SL_AD_ACTIVATION_INFO

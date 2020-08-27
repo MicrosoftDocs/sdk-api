@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagFaceRectInfo
 title: FaceRectInfo (mfapi.h)
-description: The FaceRectInfo structure describes the blob format for the MF_CAPTURE_METADATA_FACEROIS attribute.helpviewer_keywords: ["FaceRectInfo","FaceRectInfo structure [Streaming Media Devices]","mfapi/FaceRectInfo","stream.facerectinfo"]
+description: The FaceRectInfo structure describes the blob format for the MF_CAPTURE_METADATA_FACEROIS attribute.
+helpviewer_keywords: ["FaceRectInfo","FaceRectInfo structure [Streaming Media Devices]","mfapi/FaceRectInfo","stream.facerectinfo"]
 old-location: stream\facerectinfo.htm
 tech.root: stream
 ms.assetid: 63F31CDC-CB44-4ED8-BDA0-89F7DCF77965
@@ -69,7 +70,7 @@ Relative coordinates on the frame that face detection is running (Q31 format).
 
 
 
-#### - ConfidenceLevel
+### -field ConfidenceLevel
 
 Confidence level of the region being a face (0 - 100).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingAttribute
 title: IMSVidStreamBufferRecordingControl::get_RecordingAttribute (segment.h)
-description: The get_RecordingAttribute method retrieves the stream buffer Recording object that is controlled by this interface.helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","get_RecordingAttribute method","IMSVidStreamBufferRecordingControl.get_RecordingAttribute","IMSVidStreamBufferRecordingControl::get_RecordingAttribute","IMSVidStreamBufferRecordingControlget_RecordingAttribute","get_RecordingAttribute","get_RecordingAttribute method [Microsoft TV Technologies]","get_RecordingAttribute method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","mstv.imsvidstreambufferrecordingcontrol_get_recordingattribute","segment/IMSVidStreamBufferRecordingControl::get_RecordingAttribute"]
+description: The get_RecordingAttribute method retrieves the stream buffer Recording object that is controlled by this interface.
+helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","get_RecordingAttribute method","IMSVidStreamBufferRecordingControl.get_RecordingAttribute","IMSVidStreamBufferRecordingControl::get_RecordingAttribute","IMSVidStreamBufferRecordingControlget_RecordingAttribute","get_RecordingAttribute","get_RecordingAttribute method [Microsoft TV Technologies]","get_RecordingAttribute method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","mstv.imsvidstreambufferrecordingcontrol_get_recordingattribute","segment/IMSVidStreamBufferRecordingControl::get_RecordingAttribute"]
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingattribute.htm
 tech.root: mstv
 ms.assetid: 259d0ca0-0566-443c-aa73-a28c304b9d1d

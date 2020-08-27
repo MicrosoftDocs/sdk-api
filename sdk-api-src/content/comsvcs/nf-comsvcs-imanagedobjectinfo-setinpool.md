@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetInPool
 title: IManagedObjectInfo::SetInPool (comsvcs.h)
-description: Sets whether the managed object belongs to the COM+ object pool.helpviewer_keywords: ["IManagedObjectInfo interface [COM+]","SetInPool method","IManagedObjectInfo.SetInPool","IManagedObjectInfo::SetInPool","SetInPool","SetInPool method [COM+]","SetInPool method [COM+]","IManagedObjectInfo interface","_cos_IManagedObjectInfo_SetInPool","comsvcs/IManagedObjectInfo::SetInPool","cos.imanagedobjectinfo_setinpool"]
+description: Sets whether the managed object belongs to the COM+ object pool.
+helpviewer_keywords: ["IManagedObjectInfo interface [COM+]","SetInPool method","IManagedObjectInfo.SetInPool","IManagedObjectInfo::SetInPool","SetInPool","SetInPool method [COM+]","SetInPool method [COM+]","IManagedObjectInfo interface","_cos_IManagedObjectInfo_SetInPool","comsvcs/IManagedObjectInfo::SetInPool","cos.imanagedobjectinfo_setinpool"]
 old-location: cos\imanagedobjectinfo_setinpool.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: fef3842f-acf7-4aff-801d-17343633be8c
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetInPool method, IManagedObjectInfo.SetInPool, IManagedObjectInfo::SetInPool, SetInPool, SetInPool method [COM+], SetInPool method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetInPool, comsvcs/IManagedObjectInfo::SetInPool, cos.imanagedobjectinfo_setinpool

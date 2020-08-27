@@ -1,9 +1,10 @@
 ---
 UID: NE:winuser.tagPOINTER_DEVICE_CURSOR_TYPE
 title: POINTER_DEVICE_CURSOR_TYPE (winuser.h)
-description: Identifies the pointer device cursor types.helpviewer_keywords: ["POINTER_DEVICE_CURSOR_TYPE","POINTER_DEVICE_CURSOR_TYPE enumeration","POINTER_DEVICE_CURSOR_TYPE_ERASER","POINTER_DEVICE_CURSOR_TYPE_MAX","POINTER_DEVICE_CURSOR_TYPE_TIP","POINTER_DEVICE_CURSOR_TYPE_UNKNOWN","input_pointerdevice.pointer_device_cursor_type","unifiedinputstack.pointer_device_cursor_type","winuser/POINTER_DEVICE_CURSOR_TYPE","winuser/POINTER_DEVICE_CURSOR_TYPE_ERASER","winuser/POINTER_DEVICE_CURSOR_TYPE_MAX","winuser/POINTER_DEVICE_CURSOR_TYPE_TIP","winuser/POINTER_DEVICE_CURSOR_TYPE_UNKNOWN"]
+description: Identifies the pointer device cursor types.
+helpviewer_keywords: ["POINTER_DEVICE_CURSOR_TYPE","POINTER_DEVICE_CURSOR_TYPE enumeration","POINTER_DEVICE_CURSOR_TYPE_ERASER","POINTER_DEVICE_CURSOR_TYPE_MAX","POINTER_DEVICE_CURSOR_TYPE_TIP","POINTER_DEVICE_CURSOR_TYPE_UNKNOWN","input_pointerdevice.pointer_device_cursor_type","unifiedinputstack.pointer_device_cursor_type","winuser/POINTER_DEVICE_CURSOR_TYPE","winuser/POINTER_DEVICE_CURSOR_TYPE_ERASER","winuser/POINTER_DEVICE_CURSOR_TYPE_MAX","winuser/POINTER_DEVICE_CURSOR_TYPE_TIP","winuser/POINTER_DEVICE_CURSOR_TYPE_UNKNOWN"]
 old-location: input_pointerdevice\pointer_device_cursor_type.htm
-tech.root: Input_PointerDevice
+tech.root: controls
 ms.assetid: ebd5c0c6-a949-42f1-976e-96d143b1a0d7
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_CURSOR_TYPE, POINTER_DEVICE_CURSOR_TYPE enumeration, POINTER_DEVICE_CURSOR_TYPE_ERASER, POINTER_DEVICE_CURSOR_TYPE_MAX, POINTER_DEVICE_CURSOR_TYPE_TIP, POINTER_DEVICE_CURSOR_TYPE_UNKNOWN, input_pointerdevice.pointer_device_cursor_type, unifiedinputstack.pointer_device_cursor_type, winuser/POINTER_DEVICE_CURSOR_TYPE, winuser/POINTER_DEVICE_CURSOR_TYPE_ERASER, winuser/POINTER_DEVICE_CURSOR_TYPE_MAX, winuser/POINTER_DEVICE_CURSOR_TYPE_TIP, winuser/POINTER_DEVICE_CURSOR_TYPE_UNKNOWN

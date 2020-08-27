@@ -1,7 +1,8 @@
 ---
 UID: NC:userenv.PFNSTATUSMESSAGECALLBACK
 title: PFNSTATUSMESSAGECALLBACK (userenv.h)
-description: The StatusMessageCallback function is an application-defined callback function used to display status messages when applying policy.helpviewer_keywords: ["PFNSTATUSMESSAGECALLBACK","PFNSTATUSMESSAGECALLBACK callback","PFNSTATUSMESSAGECALLBACK callback function [Group Policy]","StatusMessageCallback","_win32_statusmessagecallback","policy.statusmessagecallback","userenv/PFNSTATUSMESSAGECALLBACK"]
+description: The StatusMessageCallback function is an application-defined callback function used to display status messages when applying policy.
+helpviewer_keywords: ["PFNSTATUSMESSAGECALLBACK","PFNSTATUSMESSAGECALLBACK callback","PFNSTATUSMESSAGECALLBACK callback function [Group Policy]","StatusMessageCallback","_win32_statusmessagecallback","policy.statusmessagecallback","userenv/PFNSTATUSMESSAGECALLBACK"]
 old-location: policy\statusmessagecallback.htm
 tech.root: Policy
 ms.assetid: 9eec6204-49b5-49fd-8db4-5c1777eb7c85

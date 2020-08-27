@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.GetCount
 title: IXpsOMDocumentCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of IXpsOMDocument interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMDocumentCollection.GetCount","IXpsOMDocumentCollection::GetCount","xps.ixpsomdocumentcollection_getcount","xpsobjectmodel/IXpsOMDocumentCollection::GetCount"]
+description: Gets the number of IXpsOMDocument interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMDocumentCollection.GetCount","IXpsOMDocumentCollection::GetCount","xps.ixpsomdocumentcollection_getcount","xpsobjectmodel/IXpsOMDocumentCollection::GetCount"]
 old-location: xps\ixpsomdocumentcollection_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 92ca1a4f-7fc8-4dd5-b594-6097e0ab2203
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, IXpsOMDocumentCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMDocumentCollection.GetCount, IXpsOMDocumentCollection::GetCount, xps.ixpsomdocumentcollection_getcount, xpsobjectmodel/IXpsOMDocumentCollection::GetCount

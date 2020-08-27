@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanSetProfilePosition
 title: WlanSetProfilePosition function (wlanapi.h)
-description: Sets the position of a single, specified profile in the preference list.helpviewer_keywords: ["WlanSetProfilePosition","WlanSetProfilePosition function [NativeWIFI]","nwifi.wlansetprofileposition","wlanapi/WlanSetProfilePosition"]
+description: Sets the position of a single, specified profile in the preference list.
+helpviewer_keywords: ["WlanSetProfilePosition","WlanSetProfilePosition function [NativeWIFI]","nwifi.wlansetprofileposition","wlanapi/WlanSetProfilePosition"]
 old-location: nwifi\wlansetprofileposition.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition

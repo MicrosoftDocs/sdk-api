@@ -1,7 +1,8 @@
 ---
 UID: NE:hrtfapoapi.HrtfDirectivityType
 title: HrtfDirectivityType (hrtfapoapi.h)
-description: Indicates one of several stock directivity patterns.helpviewer_keywords: ["Cardioid","Cone","HrtfDirectivityType","HrtfDirectivityType enumeration [XAudio2 Audio Mixing APIs]","OmniDirectional","hrtfapoapi/ Cardioid","hrtfapoapi/ OmniDirectional","hrtfapoapi/Cone","hrtfapoapi/HrtfDirectivityType","xaudio2.hrtfdirectivitytype"]
+description: Indicates one of several stock directivity patterns.
+helpviewer_keywords: ["Cardioid","Cone","HrtfDirectivityType","HrtfDirectivityType enumeration [XAudio2 Audio Mixing APIs]","OmniDirectional","hrtfapoapi/ Cardioid","hrtfapoapi/ OmniDirectional","hrtfapoapi/Cone","hrtfapoapi/HrtfDirectivityType","xaudio2.hrtfdirectivitytype"]
 old-location: xaudio2\hrtfdirectivitytype.htm
 tech.root: xaudio2
 ms.assetid: 7E094590-993D-4DA2-9955-A07E23B2604E

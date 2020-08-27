@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetFlags
 title: IMFSensorDevice::GetFlags (mfidl.h)
-description: Gets the flags set for the sensor device. This method is reserved for future use.helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetFlags method","IMFSensorDevice.GetFlags","IMFSensorDevice::GetFlags","mf.imfsensordevice_getflags","mfidl/IMFSensorDevice::GetFlags"]
+description: Gets the flags set for the sensor device. This method is reserved for future use.
+helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetFlags method","IMFSensorDevice.GetFlags","IMFSensorDevice::GetFlags","mf.imfsensordevice_getflags","mfidl/IMFSensorDevice::GetFlags"]
 old-location: mf\imfsensordevice_getflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 802649EE-7A24-429A-92DB-775A215BCD79
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetFlags method, IMFSensorDevice.GetFlags, IMFSensorDevice::GetFlags, mf.imfsensordevice_getflags, mfidl/IMFSensorDevice::GetFlags

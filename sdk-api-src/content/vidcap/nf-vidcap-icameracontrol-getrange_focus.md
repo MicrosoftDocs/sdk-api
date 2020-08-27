@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Focus
 title: ICameraControl::getRange_Focus (vidcap.h)
-description: The getRange_Focus method returns the range of focal distances supported by the camera.helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_Focus method","ICameraControl.getRange_Focus","ICameraControl::getRange_Focus","ICameraControlgetRange_Focus","dshow.icameracontrol_getrange_focus","getRange_Focus","getRange_Focus method [DirectShow]","getRange_Focus method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_Focus"]
+description: The getRange_Focus method returns the range of focal distances supported by the camera.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_Focus method","ICameraControl.getRange_Focus","ICameraControl::getRange_Focus","ICameraControlgetRange_Focus","dshow.icameracontrol_getrange_focus","getRange_Focus","getRange_Focus method [DirectShow]","getRange_Focus method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_Focus"]
 old-location: dshow\icameracontrol_getrange_focus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f2da5473-82c3-4719-bba6-04a1793a98eb
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Focus method, ICameraControl.getRange_Focus, ICameraControl::getRange_Focus, ICameraControlgetRange_Focus, dshow.icameracontrol_getrange_focus, getRange_Focus, getRange_Focus method [DirectShow], getRange_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Focus

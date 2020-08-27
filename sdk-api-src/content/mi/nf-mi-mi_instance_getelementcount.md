@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Instance_GetElementCount
 title: MI_Instance_GetElementCount function (mi.h)
-description: Gets the number of elements in an instance.helpviewer_keywords: ["MI_Instance_GetElementCount","MI_Instance_GetElementCount function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetElementCount","wmi_v2.mi_instance_getelementcount"]
+description: Gets the number of elements in an instance.
+helpviewer_keywords: ["MI_Instance_GetElementCount","MI_Instance_GetElementCount function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetElementCount","wmi_v2.mi_instance_getelementcount"]
 old-location: wmi_v2\mi_instance_getelementcount.htm
 tech.root: wmi_v2
 ms.assetid: a378bde1-c164-4905-82f8-f771f8da60ba

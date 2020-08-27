@@ -1,9 +1,10 @@
 ---
 UID: NF:bcrypt.BCryptSignHash
 title: BCryptSignHash function (bcrypt.h)
-description: Creates a signature of a hash value.helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","BCryptSignHash","BCryptSignHash function [Security]","bcrypt/BCryptSignHash","security.bcryptsignhash_func"]
+description: Creates a signature of a hash value.
+helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","BCryptSignHash","BCryptSignHash function [Security]","bcrypt/BCryptSignHash","security.bcryptsignhash_func"]
 old-location: security\bcryptsignhash_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: f402ea9e-89ae-4ccc-9591-aa2328287c0e
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash function [Security], bcrypt/BCryptSignHash, security.bcryptsignhash_func

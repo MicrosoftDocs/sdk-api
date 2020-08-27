@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetBufferedPaintTargetDC
 title: GetBufferedPaintTargetDC function (uxtheme.h)
-description: Retrieves the target device context (DC).helpviewer_keywords: ["GetBufferedPaintTargetDC","GetBufferedPaintTargetDC function [Windows Controls]","_shell_GetBufferedPaintTargetDC","_shell_GetBufferedPaintTargetDC_cpp","controls.GetBufferedPaintTargetDC","controls._shell_GetBufferedPaintTargetDC","uxtheme/GetBufferedPaintTargetDC"]
+description: Retrieves the target device context (DC).
+helpviewer_keywords: ["GetBufferedPaintTargetDC","GetBufferedPaintTargetDC function [Windows Controls]","_shell_GetBufferedPaintTargetDC","_shell_GetBufferedPaintTargetDC_cpp","controls.GetBufferedPaintTargetDC","controls._shell_GetBufferedPaintTargetDC","uxtheme/GetBufferedPaintTargetDC"]
 old-location: controls\GetBufferedPaintTargetDC.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpainttargetdc.htm

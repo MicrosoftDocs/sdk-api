@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.tagCOLORKEY
 title: COLORKEY (strmif.h)
-description: The COLORKEY structure communicates color key information between the renderer and another filter.helpviewer_keywords: ["COLORKEY","COLORKEY structure [DirectShow]","COLORKEYStructure","dshow.colorkey","strmif/COLORKEY"]
+description: The COLORKEY structure communicates color key information between the renderer and another filter.
+helpviewer_keywords: ["COLORKEY","COLORKEY structure [DirectShow]","COLORKEYStructure","dshow.colorkey","strmif/COLORKEY"]
 old-location: dshow\colorkey.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1563488a-e4e5-472d-b665-5bbcb13fad1a
 ms.date: 12/05/2018
 ms.keywords: COLORKEY, COLORKEY structure [DirectShow], COLORKEYStructure, dshow.colorkey, strmif/COLORKEY

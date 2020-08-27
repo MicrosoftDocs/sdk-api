@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif.VMRDeinterlacePrefs
 title: VMRDeinterlacePrefs (strmif.h)
-description: The VMRDeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 7 (VMR-7) uses if the method set by the application cannot be used.helpviewer_keywords: ["DeinterlacePref_BOB","DeinterlacePref_Mask","DeinterlacePref_NextBest","DeinterlacePref_Weave","VMRDeinterlacePrefs","VMRDeinterlacePrefs enumeration [DirectShow]","VMRDeinterlacePrefsEnumeration","dshow.vmrdeinterlaceprefs","strmif/DeinterlacePref_BOB","strmif/DeinterlacePref_Mask","strmif/DeinterlacePref_NextBest","strmif/DeinterlacePref_Weave","strmif/VMRDeinterlacePrefs"]
+description: The VMRDeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 7 (VMR-7) uses if the method set by the application cannot be used.
+helpviewer_keywords: ["DeinterlacePref_BOB","DeinterlacePref_Mask","DeinterlacePref_NextBest","DeinterlacePref_Weave","VMRDeinterlacePrefs","VMRDeinterlacePrefs enumeration [DirectShow]","VMRDeinterlacePrefsEnumeration","dshow.vmrdeinterlaceprefs","strmif/DeinterlacePref_BOB","strmif/DeinterlacePref_Mask","strmif/DeinterlacePref_NextBest","strmif/DeinterlacePref_Weave","strmif/VMRDeinterlacePrefs"]
 old-location: dshow\vmrdeinterlaceprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3f88abac-fc57-4f31-9a4c-cf0f7317d6f8
 ms.date: 12/05/2018
 ms.keywords: DeinterlacePref_BOB, DeinterlacePref_Mask, DeinterlacePref_NextBest, DeinterlacePref_Weave, VMRDeinterlacePrefs, VMRDeinterlacePrefs enumeration [DirectShow], VMRDeinterlacePrefsEnumeration, dshow.vmrdeinterlaceprefs, strmif/DeinterlacePref_BOB, strmif/DeinterlacePref_Mask, strmif/DeinterlacePref_NextBest, strmif/DeinterlacePref_Weave, strmif/VMRDeinterlacePrefs

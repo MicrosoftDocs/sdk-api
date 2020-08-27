@@ -4,7 +4,7 @@ title: CryptSIPRemoveSignedDataMsg function (mssip.h)
 description: Removes a specified Authenticode signature.
 helpviewer_keywords: ["CryptSIPRemoveSignedDataMsg","CryptSIPRemoveSignedDataMsg function [Security]","mssip/CryptSIPRemoveSignedDataMsg","security.cryptsipremovesigneddatamsg"]
 old-location: security\cryptsipremovesigneddatamsg.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [Security], mssip/CryptSIPRemoveSignedDataMsg, security.cryptsipremovesigneddatamsg

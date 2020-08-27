@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndSaveDialog
 title: MCIWndSaveDialog macro (vfw.h)
-description: The MCIWndSaveDialog macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the MCI_SAVE command.helpviewer_keywords: ["MCIWndSaveDialog","MCIWndSaveDialog macro [Windows Multimedia]","_win32_MCIWndSaveDialog","multimedia.mciwndsavedialog","vfw/MCIWndSaveDialog"]
+description: The MCIWndSaveDialog macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the MCI_SAVE command.
+helpviewer_keywords: ["MCIWndSaveDialog","MCIWndSaveDialog macro [Windows Multimedia]","_win32_MCIWndSaveDialog","multimedia.mciwndsavedialog","vfw/MCIWndSaveDialog"]
 old-location: multimedia\mciwndsavedialog.htm
 tech.root: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac

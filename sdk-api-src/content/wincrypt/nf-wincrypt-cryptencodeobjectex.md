@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptEncodeObjectEx
 title: CryptEncodeObjectEx function (wincrypt.h)
-description: Encodes a structure of the type indicated by the value of the lpszStructType parameter.helpviewer_keywords: ["CRYPT_ENCODE_ALLOC_FLAG","CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG","CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG","CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG","CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG","CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG","CryptEncodeObjectEx","CryptEncodeObjectEx function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","_crypto2_cryptencodeobjectex","security.cryptencodeobjectex","wincrypt/CryptEncodeObjectEx"]
+description: Encodes a structure of the type indicated by the value of the lpszStructType parameter.
+helpviewer_keywords: ["CRYPT_ENCODE_ALLOC_FLAG","CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG","CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG","CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG","CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG","CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG","CryptEncodeObjectEx","CryptEncodeObjectEx function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","_crypto2_cryptencodeobjectex","security.cryptencodeobjectex","wincrypt/CryptEncodeObjectEx"]
 old-location: security\cryptencodeobjectex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 45134db8-059b-43d3-90c2-9b6cc970fca0
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx

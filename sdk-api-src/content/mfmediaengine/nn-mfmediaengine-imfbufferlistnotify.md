@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFBufferListNotify
 title: IMFBufferListNotify (mfmediaengine.h)
-description: Enables IMFSourceBufferList object to notify its clients of important state changes.helpviewer_keywords: ["IMFBufferListNotify","IMFBufferListNotify interface [Media Foundation]","IMFBufferListNotify interface [Media Foundation]","described","mf.imfbufferlistnotify","mfmediaengine/IMFBufferListNotify"]
+description: Enables IMFSourceBufferList object to notify its clients of important state changes.
+helpviewer_keywords: ["IMFBufferListNotify","IMFBufferListNotify interface [Media Foundation]","IMFBufferListNotify interface [Media Foundation]","described","mf.imfbufferlistnotify","mfmediaengine/IMFBufferListNotify"]
 old-location: mf\imfbufferlistnotify.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify

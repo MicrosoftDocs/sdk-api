@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetAdditionalRestores
 title: IVssBackupComponents::SetAdditionalRestores (vsbackup.h)
-description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetAdditionalRestores method","IVssBackupComponents.SetAdditionalRestores","IVssBackupComponents::SetAdditionalRestores","SetAdditionalRestores","SetAdditionalRestores method [VSS]","SetAdditionalRestores method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setadditionalrestores","base.ivssbackupcomponents_setadditionalrestores","vsbackup/IVssBackupComponents::SetAdditionalRestores"]
+description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetAdditionalRestores method","IVssBackupComponents.SetAdditionalRestores","IVssBackupComponents::SetAdditionalRestores","SetAdditionalRestores","SetAdditionalRestores method [VSS]","SetAdditionalRestores method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setadditionalrestores","base.ivssbackupcomponents_setadditionalrestores","vsbackup/IVssBackupComponents::SetAdditionalRestores"]
 old-location: base\ivssbackupcomponents_setadditionalrestores.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetAdditionalRestores method, IVssBackupComponents.SetAdditionalRestores, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores

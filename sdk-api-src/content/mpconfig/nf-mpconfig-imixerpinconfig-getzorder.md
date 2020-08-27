@@ -1,9 +1,10 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetZOrder
 title: IMixerPinConfig::GetZOrder (mpconfig.h)
-description: The GetZOrder method retrieves the z-order of a particular video stream.helpviewer_keywords: ["GetZOrder","GetZOrder method [DirectShow]","GetZOrder method [DirectShow]","IMixerPinConfig interface","IMixerPinConfig interface [DirectShow]","GetZOrder method","IMixerPinConfig.GetZOrder","IMixerPinConfig::GetZOrder","IMixerPinConfigGetZOrder","dshow.imixerpinconfig_getzorder","mpconfig/IMixerPinConfig::GetZOrder"]
+description: The GetZOrder method retrieves the z-order of a particular video stream.
+helpviewer_keywords: ["GetZOrder","GetZOrder method [DirectShow]","GetZOrder method [DirectShow]","IMixerPinConfig interface","IMixerPinConfig interface [DirectShow]","GetZOrder method","IMixerPinConfig.GetZOrder","IMixerPinConfig::GetZOrder","IMixerPinConfigGetZOrder","dshow.imixerpinconfig_getzorder","mpconfig/IMixerPinConfig::GetZOrder"]
 old-location: dshow\imixerpinconfig_getzorder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5089a2b3-2973-4761-82f6-f6af3ac9f560
 ms.date: 12/05/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetZOrder method, IMixerPinConfig.GetZOrder, IMixerPinConfig::GetZOrder, IMixerPinConfigGetZOrder, dshow.imixerpinconfig_getzorder, mpconfig/IMixerPinConfig::GetZOrder

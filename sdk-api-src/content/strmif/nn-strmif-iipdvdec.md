@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IIPDVDec
 title: IIPDVDec (strmif.h)
-description: The IIPDVDec interface provides methods for setting and retrieving properties on the DV Video Decoder filter.helpviewer_keywords: ["IIPDVDec","IIPDVDec interface [DirectShow]","IIPDVDec interface [DirectShow]","described","IIPDVDecInterface","dshow.iipdvdec","strmif/IIPDVDec"]
+description: The IIPDVDec interface provides methods for setting and retrieving properties on the DV Video Decoder filter.
+helpviewer_keywords: ["IIPDVDec","IIPDVDec interface [DirectShow]","IIPDVDec interface [DirectShow]","described","IIPDVDecInterface","dshow.iipdvdec","strmif/IIPDVDec"]
 old-location: dshow\iipdvdec.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
 ms.date: 12/05/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec

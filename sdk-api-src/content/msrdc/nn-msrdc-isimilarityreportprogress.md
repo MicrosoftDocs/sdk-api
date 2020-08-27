@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.ISimilarityReportProgress
 title: ISimilarityReportProgress (msrdc.h)
-description: Defines a method for RDC to report the current completion percentage of a similarity operation.helpviewer_keywords: ["ISimilarityReportProgress","ISimilarityReportProgress interface [Remote Differential Compression]","ISimilarityReportProgress interface [Remote Differential Compression]","described","fs.isimilarityreportprogress","msrdc/ISimilarityReportProgress","rdc.isimilarityreportprogress"]
+description: Defines a method for RDC to report the current completion percentage of a similarity operation.
+helpviewer_keywords: ["ISimilarityReportProgress","ISimilarityReportProgress interface [Remote Differential Compression]","ISimilarityReportProgress interface [Remote Differential Compression]","described","fs.isimilarityreportprogress","msrdc/ISimilarityReportProgress","rdc.isimilarityreportprogress"]
 old-location: rdc\isimilarityreportprogress.htm
 tech.root: rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf

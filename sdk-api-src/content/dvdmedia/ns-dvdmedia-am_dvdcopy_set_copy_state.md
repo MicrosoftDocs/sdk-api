@@ -1,9 +1,10 @@
 ---
 UID: NS:dvdmedia.AM_DVDCOPY_SET_COPY_STATE
 title: AM_DVDCOPY_SET_COPY_STATE (dvdmedia.h)
-description: Specifies the copy protection state of the filter.helpviewer_keywords: ["*PAM_DVDCOPY_SET_COPY_STATE","AM_DVDCOPY_SET_COPY_STATE","AM_DVDCOPY_SET_COPY_STATE structure [DirectShow]","PAM_DVDCOPY_SET_COPY_STATE","PAM_DVDCOPY_SET_COPY_STATE structure pointer [DirectShow]","dshow.am_dvdcopy_set_copy_state","dvdmedia/AM_DVDCOPY_SET_COPY_STATE","dvdmedia/PAM_DVDCOPY_SET_COPY_STATE"]
+description: Specifies the copy protection state of the filter.
+helpviewer_keywords: ["*PAM_DVDCOPY_SET_COPY_STATE","AM_DVDCOPY_SET_COPY_STATE","AM_DVDCOPY_SET_COPY_STATE structure [DirectShow]","PAM_DVDCOPY_SET_COPY_STATE","PAM_DVDCOPY_SET_COPY_STATE structure pointer [DirectShow]","dshow.am_dvdcopy_set_copy_state","dvdmedia/AM_DVDCOPY_SET_COPY_STATE","dvdmedia/PAM_DVDCOPY_SET_COPY_STATE"]
 old-location: dshow\am_dvdcopy_set_copy_state.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0ad15402-096c-4967-bebc-10652535e502
 ms.date: 12/05/2018
 ms.keywords: '*PAM_DVDCOPY_SET_COPY_STATE, AM_DVDCOPY_SET_COPY_STATE, AM_DVDCOPY_SET_COPY_STATE structure [DirectShow], PAM_DVDCOPY_SET_COPY_STATE, PAM_DVDCOPY_SET_COPY_STATE structure pointer [DirectShow], dshow.am_dvdcopy_set_copy_state, dvdmedia/AM_DVDCOPY_SET_COPY_STATE, dvdmedia/PAM_DVDCOPY_SET_COPY_STATE'

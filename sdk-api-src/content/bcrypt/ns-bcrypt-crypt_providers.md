@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDERS
 title: CRYPT_PROVIDERS (bcrypt.h)
-description: Contains information about the registered CNG providers.helpviewer_keywords: ["*PCRYPT_PROVIDERS","CRYPT_PROVIDERS","CRYPT_PROVIDERS structure [Security]","PCRYPT_PROVIDERS","PCRYPT_PROVIDERS structure pointer [Security]","bcrypt/CRYPT_PROVIDERS","bcrypt/PCRYPT_PROVIDERS","security.crypt_providers"]
+description: Contains information about the registered CNG providers.
+helpviewer_keywords: ["*PCRYPT_PROVIDERS","CRYPT_PROVIDERS","CRYPT_PROVIDERS structure [Security]","PCRYPT_PROVIDERS","PCRYPT_PROVIDERS structure pointer [Security]","bcrypt/CRYPT_PROVIDERS","bcrypt/PCRYPT_PROVIDERS","security.crypt_providers"]
 old-location: security\crypt_providers.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: aef0e173-d3df-466e-ac2a-c686cae5edc9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDERS, CRYPT_PROVIDERS, CRYPT_PROVIDERS structure [Security], PCRYPT_PROVIDERS, PCRYPT_PROVIDERS structure pointer [Security], bcrypt/CRYPT_PROVIDERS, bcrypt/PCRYPT_PROVIDERS, security.crypt_providers'

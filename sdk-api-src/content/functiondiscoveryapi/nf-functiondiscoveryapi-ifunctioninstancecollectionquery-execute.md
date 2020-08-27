@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.Execute
 title: IFunctionInstanceCollectionQuery::Execute (functiondiscoveryapi.h)
-description: Performs the query defined by IFunctionDiscovery::CreateInstanceCollectionQuery.helpviewer_keywords: ["Execute","Execute method","Execute method","IFunctionInstanceCollectionQuery interface","IFunctionInstanceCollectionQuery interface","Execute method","IFunctionInstanceCollectionQuery.Execute","IFunctionInstanceCollectionQuery::Execute","functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute","ncd.ifunctioninstancecollectionquery_execute_method"]
+description: Performs the query defined by IFunctionDiscovery::CreateInstanceCollectionQuery.
+helpviewer_keywords: ["Execute","Execute method","Execute method","IFunctionInstanceCollectionQuery interface","IFunctionInstanceCollectionQuery interface","Execute method","IFunctionInstanceCollectionQuery.Execute","IFunctionInstanceCollectionQuery::Execute","functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute","ncd.ifunctioninstancecollectionquery_execute_method"]
 old-location: ncd\ifunctioninstancecollectionquery_execute_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: b924d066-87d7-499b-b006-a10e219e11fd
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,Execute method, IFunctionInstanceCollectionQuery.Execute, IFunctionInstanceCollectionQuery::Execute, functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute, ncd.ifunctioninstancecollectionquery_execute_method

@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFByteStreamBuffering
 title: IMFByteStreamBuffering (mfidl.h)
-description: Controls how a byte stream buffers data from a network.helpviewer_keywords: ["IMFByteStreamBuffering","IMFByteStreamBuffering interface [Media Foundation]","IMFByteStreamBuffering interface [Media Foundation]","described","bbf9cdb1-5ec7-498a-aa59-85c24779547e","mf.imfbytestreambuffering","mfidl/IMFByteStreamBuffering"]
+description: Controls how a byte stream buffers data from a network.
+helpviewer_keywords: ["IMFByteStreamBuffering","IMFByteStreamBuffering interface [Media Foundation]","IMFByteStreamBuffering interface [Media Foundation]","described","bbf9cdb1-5ec7-498a-aa59-85c24779547e","mf.imfbytestreambuffering","mfidl/IMFByteStreamBuffering"]
 old-location: mf\imfbytestreambuffering.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bbf9cdb1-5ec7-498a-aa59-85c24779547e
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], IMFByteStreamBuffering interface [Media Foundation],described, bbf9cdb1-5ec7-498a-aa59-85c24779547e, mf.imfbytestreambuffering, mfidl/IMFByteStreamBuffering

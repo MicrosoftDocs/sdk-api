@@ -4,7 +4,7 @@ title: lineSetCallQualityOfService function (tapi.h)
 description: The lineSetCallQualityOfService function allows the application to attempt to change the quality of service parameters (reserved capacity and performance guarantees) for an existing call.
 helpviewer_keywords: ["_tapi2_linesetcallqualityofservice","lineSetCallQualityOfService","lineSetCallQualityOfService function [TAPI 2.2]","tapi/lineSetCallQualityOfService","tapi2.linesetcallqualityofservice"]
 old-location: tapi2\linesetcallqualityofservice.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6a977dab-70f6-4462-a94f-78acdec7decf
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetcallqualityofservice, lineSetCallQualityOfService, lineSetCallQualityOfService function [TAPI 2.2], tapi/lineSetCallQualityOfService, tapi2.linesetcallqualityofservice

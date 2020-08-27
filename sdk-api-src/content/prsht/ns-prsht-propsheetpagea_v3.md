@@ -1,7 +1,8 @@
 ---
 UID: NS:prsht._PROPSHEETPAGEA_V3
 title: PROPSHEETPAGEA_V3 (prsht.h)
-description: Defines a page in a property sheet.helpviewer_keywords: ["*LPPROPSHEETPAGEA_V3","LPPROPSHEETPAGE","LPPROPSHEETPAGE structure pointer [Windows Controls]","PROPSHEETPAGE","PROPSHEETPAGE structure [Windows Controls]","PROPSHEETPAGEA","PROPSHEETPAGEA_LATEST","PROPSHEETPAGEA_V3","PROPSHEETPAGEW","PSP_DEFAULT","PSP_DLGINDIRECT","PSP_HASHELP","PSP_HIDEHEADER","PSP_PREMATURE","PSP_RTLREADING","PSP_USECALLBACK","PSP_USEFUSIONCONTEXT","PSP_USEHEADERSUBTITLE","PSP_USEHEADERTITLE","PSP_USEHICON","PSP_USEICONID","PSP_USEREFPARENT","PSP_USETITLE","_win32_PROPSHEETPAGE_str","_win32_PROPSHEETPAGE_str_cpp","controls.PROPSHEETPAGE","controls._win32_PROPSHEETPAGE_str","prsht/LPPROPSHEETPAGE","prsht/PROPSHEETPAGE","prsht/PROPSHEETPAGEA","prsht/PROPSHEETPAGEW"]
+description: Defines a page in a property sheet.
+helpviewer_keywords: ["*LPPROPSHEETPAGEA_V3","LPPROPSHEETPAGE","LPPROPSHEETPAGE structure pointer [Windows Controls]","PROPSHEETPAGE","PROPSHEETPAGE structure [Windows Controls]","PROPSHEETPAGEA","PROPSHEETPAGEA_LATEST","PROPSHEETPAGEA_V3","PROPSHEETPAGEW","PSP_DEFAULT","PSP_DLGINDIRECT","PSP_HASHELP","PSP_HIDEHEADER","PSP_PREMATURE","PSP_RTLREADING","PSP_USECALLBACK","PSP_USEFUSIONCONTEXT","PSP_USEHEADERSUBTITLE","PSP_USEHEADERTITLE","PSP_USEHICON","PSP_USEICONID","PSP_USEREFPARENT","PSP_USETITLE","_win32_PROPSHEETPAGE_str","_win32_PROPSHEETPAGE_str_cpp","controls.PROPSHEETPAGE","controls._win32_PROPSHEETPAGE_str","prsht/LPPROPSHEETPAGE","prsht/PROPSHEETPAGE","prsht/PROPSHEETPAGEA","prsht/PROPSHEETPAGEW"]
 old-location: controls\PROPSHEETPAGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
@@ -91,7 +92,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 <div class="alert"><b>Note</b>  This member is ignored when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
-#### - hActCtx
+### -field hActCtx
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
 

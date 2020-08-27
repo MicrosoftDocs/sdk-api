@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordFreeCAMode
 title: IDVB_EIT::GetRecordFreeCAMode (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordFreeCAMode","GetRecordFreeCAMode method [Microsoft TV Technologies]","GetRecordFreeCAMode method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetRecordFreeCAMode method","IDVB_EIT.GetRecordFreeCAMode","IDVB_EIT::GetRecordFreeCAMode","IDVB_EITGetRecordFreeCAMode","dvbsiparser/IDVB_EIT::GetRecordFreeCAMode","mstv.idvb_eit_getrecordfreecamode"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordFreeCAMode","GetRecordFreeCAMode method [Microsoft TV Technologies]","GetRecordFreeCAMode method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetRecordFreeCAMode method","IDVB_EIT.GetRecordFreeCAMode","IDVB_EIT::GetRecordFreeCAMode","IDVB_EITGetRecordFreeCAMode","dvbsiparser/IDVB_EIT::GetRecordFreeCAMode","mstv.idvb_eit_getrecordfreecamode"]
 old-location: mstv\idvb_eit_getrecordfreecamode.htm
 tech.root: mstv
 ms.assetid: d154772c-3e7c-49f8-90d1-4ff1be01e4d0

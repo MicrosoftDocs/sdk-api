@@ -1,9 +1,10 @@
 ---
 UID: NC:certenroll.ImportPFXToProvider
 title: ImportPFXToProvider (certenroll.h)
-description: Imports a PFX certificate.helpviewer_keywords: ["ImportPFXToProvider","(FNIMPORTPFXTOPROVIDER)","(FNIMPORTPFXTOPROVIDER) callback function [Security]","FNIMPORTPFXTOPROVIDER callback","certenroll/(FNIMPORTPFXTOPROVIDER)","fnimportpfxtoprovider","security.fnimportpfxtoprovider","wincrypt/(FNIMPORTPFXTOPROVIDER)"]
+description: Imports a PFX certificate.
+helpviewer_keywords: ["ImportPFXToProvider","(FNIMPORTPFXTOPROVIDER)","(FNIMPORTPFXTOPROVIDER) callback function [Security]","FNIMPORTPFXTOPROVIDER callback","certenroll/(FNIMPORTPFXTOPROVIDER)","fnimportpfxtoprovider","security.fnimportpfxtoprovider","wincrypt/(FNIMPORTPFXTOPROVIDER)"]
 old-location: security\fnimportpfxtoprovider.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: D5F4A318-4572-4563-85B0-7F3532833DE4
 ms.date: 12/05/2018
 ms.keywords: ImportPFXToProvider, (FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)
@@ -119,7 +120,7 @@ Pointer to DWORD that receives  the number of certificates successfully imported
 Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
 
 
-#### - prgpCertOut [out, optional]
+### -param prgpCertOut [out, optional]
 
 Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
 

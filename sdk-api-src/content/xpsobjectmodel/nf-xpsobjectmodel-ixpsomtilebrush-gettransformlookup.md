@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransformLookup
 title: IXpsOMTileBrush::GetTransformLookup (xpsobjectmodel.h)
-description: Gets the lookup key that identifies the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the brush.helpviewer_keywords: ["GetTransformLookup","GetTransformLookup method [XPS Documents and Packaging]","GetTransformLookup method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetTransformLookup method","IXpsOMTileBrush.GetTransformLookup","IXpsOMTileBrush::GetTransformLookup","xps.ixpsomtilebrush_gettransformlookup","xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup"]
+description: Gets the lookup key that identifies the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the brush.
+helpviewer_keywords: ["GetTransformLookup","GetTransformLookup method [XPS Documents and Packaging]","GetTransformLookup method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetTransformLookup method","IXpsOMTileBrush.GetTransformLookup","IXpsOMTileBrush::GetTransformLookup","xps.ixpsomtilebrush_gettransformlookup","xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup"]
 old-location: xps\ixpsomtilebrush_gettransformlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: bebed09b-7af7-4da1-aaa3-e8e2a45f2717
 ms.date: 12/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMTileBrush.GetTransformLookup, IXpsOMTileBrush::GetTransformLookup, xps.ixpsomtilebrush_gettransformlookup, xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup

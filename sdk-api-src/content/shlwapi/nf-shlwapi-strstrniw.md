@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrStrNIW
 title: StrStrNIW function (shlwapi.h)
-description: Finds the first occurrence of a substring within a string. The comparison is case-insensitive.helpviewer_keywords: ["StrStrNIW","StrStrNIW function [Windows Shell]","_shell_StrStrNIW","shell.StrStrNIW","shlwapi/StrStrNIW"]
+description: Finds the first occurrence of a substring within a string. The comparison is case-insensitive.
+helpviewer_keywords: ["StrStrNIW","StrStrNIW function [Windows Shell]","_shell_StrStrNIW","shell.StrStrNIW","shlwapi/StrStrNIW"]
 old-location: shell\StrStrNIW.htm
 tech.root: shell
 ms.assetid: 743f74f6-a0a6-4c03-b3bf-7f819bbc665f

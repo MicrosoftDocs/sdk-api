@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.UnlockFileEx
 title: UnlockFileEx function (fileapi.h)
-description: Unlocks a region in the specified file. This function can operate either synchronously or asynchronously.helpviewer_keywords: ["UnlockFileEx","UnlockFileEx function [Files]","_win32_unlockfileex","base.unlockfileex","fileapi/UnlockFileEx","fs.unlockfileex","winbase/UnlockFileEx"]
+description: Unlocks a region in the specified file. This function can operate either synchronously or asynchronously.
+helpviewer_keywords: ["UnlockFileEx","UnlockFileEx function [Files]","_win32_unlockfileex","base.unlockfileex","fileapi/UnlockFileEx","fs.unlockfileex","winbase/UnlockFileEx"]
 old-location: fs\unlockfileex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
 ms.date: 12/05/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx

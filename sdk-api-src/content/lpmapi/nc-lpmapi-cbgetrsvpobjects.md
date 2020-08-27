@@ -1,7 +1,8 @@
 ---
 UID: NC:lpmapi.CBGETRSVPOBJECTS
 title: CBGETRSVPOBJECTS (lpmapi.h)
-description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.helpviewer_keywords: ["CBGETRSVPOBJECTS","CBGETRSVPOBJECTS callback function [QOS]","_gqos_cbpgetrsvpobjects","cbGetRsvpObjects","cbGetRsvpObjects callback","cbGetRsvpObjects callback function [QOS]","lpmapi/cbGetRsvpObjects","qos.cbgetrsvpobjects","qos.cbpgetrsvpobjects"]
+description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.
+helpviewer_keywords: ["CBGETRSVPOBJECTS","CBGETRSVPOBJECTS callback function [QOS]","_gqos_cbpgetrsvpobjects","cbGetRsvpObjects","cbGetRsvpObjects callback","cbGetRsvpObjects callback function [QOS]","lpmapi/cbGetRsvpObjects","qos.cbgetrsvpobjects","qos.cbpgetrsvpobjects"]
 old-location: qos\cbgetrsvpobjects.htm
 tech.root: QOS
 ms.assetid: baedb3e9-7768-4666-8bd7-78dd1d0eb0de
@@ -105,7 +106,7 @@ Array of pointers to policy data object. The buffer containing the policy data o
 If no policy data objects are being returned, <i>LpmError</i> must be set to LPM_OK, <i>RsvpObjectsCount</i> must be set to zero, and *<i>RsvpObjects</i> must be set to null.
 
 
-#### - ppRsvpObjects [in]
+### -param ppRsvpObjects [in]
 
 Array of pointers to policy data object. The buffer containing the policy data objects should be allocated using the <b>MemoryAllocator</b> function supplied within the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 

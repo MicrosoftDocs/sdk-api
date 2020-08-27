@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpIW
 title: StrCmpIW function (shlwapi.h)
-description: Compares two strings to determine if they are the same. The comparison is not case-sensitive.helpviewer_keywords: ["StrCmpI","StrCmpI function [Windows Shell]","StrCmpIW","_win32_StrCmpI","shell.StrCmpI","shlwapi/StrCmpI","shlwapi/StrCmpIW"]
+description: Compares two strings to determine if they are the same. The comparison is not case-sensitive.
+helpviewer_keywords: ["StrCmpI","StrCmpI function [Windows Shell]","StrCmpIW","_win32_StrCmpI","shell.StrCmpI","shlwapi/StrCmpI","shlwapi/StrCmpIW"]
 old-location: shell\StrCmpI.htm
 tech.root: shell
 ms.assetid: d059b6bd-8f03-4273-aa7a-b8b07f84d268

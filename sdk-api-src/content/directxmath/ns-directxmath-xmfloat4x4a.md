@@ -1,7 +1,9 @@
 ---
 UID: NS:directxmath.XMFLOAT4X4A
 title: XMFLOAT4X4A
-description: Describes an XMFLOAT4X4 structure aligned on a 16-byte boundary.helpviewer_keywords: ["XMFLOAT4X4A"]
+description: Describes an XMFLOAT4X4 structure aligned on a 16-byte boundary.
+tech.root: dxmath
+helpviewer_keywords: ["XMFLOAT4X4A"]
 ms.assetid: 30563f47-6990-4d94-a587-5c64a389762f
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT4X4A

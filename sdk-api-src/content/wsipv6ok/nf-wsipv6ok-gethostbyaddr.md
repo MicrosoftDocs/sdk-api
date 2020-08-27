@@ -1,7 +1,8 @@
 ---
 UID: NF:wsipv6ok.gethostbyaddr
 title: gethostbyaddr macro (wsipv6ok.h)
-description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.helpviewer_keywords: ["AF_INET","AF_INET6","AF_NETBIOS","_win32_gethostbyaddr_2","gethostbyaddr","gethostbyaddr function [Winsock]","winsock.gethostbyaddr_2","wsipv6ok/gethostbyaddr"]
+description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_NETBIOS","_win32_gethostbyaddr_2","gethostbyaddr","gethostbyaddr function [Winsock]","winsock.gethostbyaddr_2","wsipv6ok/gethostbyaddr"]
 old-location: winsock\gethostbyaddr_2.htm
 tech.root: WinSock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
@@ -60,17 +61,17 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 A pointer to an address in network byte order.
 
 
-#### - b [in]
+### -param b [in]
 
 The length, in bytes, of the address.
 
 
-#### - c [in]
+### -param c [in]
 
 The type of the address, such as the AF_INET address family type (used with TCP, UDP, and other associated Internet protocols). Possible values for the address family are defined in the Winsock2.h header file. 
 

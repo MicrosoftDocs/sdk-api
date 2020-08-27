@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_phoneSetButtonInfo
 title: TSPI_phoneSetButtonInfo function (tspi.h)
-description: The TSPI_phoneSetButtonInfo function sets information about the specified button on the specified phone.helpviewer_keywords: ["TSPI_phoneSetButtonInfo","TSPI_phoneSetButtonInfo function [TAPI 2.2]","_tspi_tspi_phonesetbuttoninfo","tspi.tspi_phonesetbuttoninfo","tspi/TSPI_phoneSetButtonInfo"]
+description: The TSPI_phoneSetButtonInfo function sets information about the specified button on the specified phone.
+helpviewer_keywords: ["TSPI_phoneSetButtonInfo","TSPI_phoneSetButtonInfo function [TAPI 2.2]","_tspi_tspi_phonesetbuttoninfo","tspi.tspi_phonesetbuttoninfo","tspi/TSPI_phoneSetButtonInfo"]
 old-location: tspi\tspi_phonesetbuttoninfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 33b01ac2-cbfd-4697-b242-a7a8f5d1b256
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetButtonInfo, TSPI_phoneSetButtonInfo function [TAPI 2.2], _tspi_tspi_phonesetbuttoninfo, tspi.tspi_phonesetbuttoninfo, tspi/TSPI_phoneSetButtonInfo

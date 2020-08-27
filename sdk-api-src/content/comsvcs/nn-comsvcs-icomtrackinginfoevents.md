@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IComTrackingInfoEvents
 title: IComTrackingInfoEvents (comsvcs.h)
-description: Notifies the subscriber when the tracking information for a collection changes.helpviewer_keywords: ["IComTrackingInfoEvents","IComTrackingInfoEvents interface [COM+]","IComTrackingInfoEvents interface [COM+]","described","_dtc_IComTrackingInfoEvents","comsvcs/IComTrackingInfoEvents","cos.icomtrackinginfoevents"]
+description: Notifies the subscriber when the tracking information for a collection changes.
+helpviewer_keywords: ["IComTrackingInfoEvents","IComTrackingInfoEvents interface [COM+]","IComTrackingInfoEvents interface [COM+]","described","_dtc_IComTrackingInfoEvents","comsvcs/IComTrackingInfoEvents","cos.icomtrackinginfoevents"]
 old-location: cos\icomtrackinginfoevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: bed709ca-5083-4073-a9f9-2b7b7f14cf87
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoEvents, IComTrackingInfoEvents interface [COM+], IComTrackingInfoEvents interface [COM+],described, _dtc_IComTrackingInfoEvents, comsvcs/IComTrackingInfoEvents, cos.icomtrackinginfoevents

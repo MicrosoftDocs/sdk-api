@@ -1,9 +1,10 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateComplete
 title: IWebApplicationNavigationEvents::NavigateComplete (webapplication.h)
-description: Fired when the document being navigated to becomes visible and enters the navigation stack.helpviewer_keywords: ["IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","NavigateComplete method","IWebApplicationNavigationEvents.NavigateComplete","IWebApplicationNavigationEvents::NavigateComplete","NavigateComplete","NavigateComplete method [Debugging Windows Store apps]","NavigateComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","debug.iwebapplicationnavigationevents_navigatecomplete","webapplication/IWebApplicationNavigationEvents::NavigateComplete"]
+description: Fired when the document being navigated to becomes visible and enters the navigation stack.
+helpviewer_keywords: ["IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","NavigateComplete method","IWebApplicationNavigationEvents.NavigateComplete","IWebApplicationNavigationEvents::NavigateComplete","NavigateComplete","NavigateComplete method [Debugging Windows Store apps]","NavigateComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","debug.iwebapplicationnavigationevents_navigatecomplete","webapplication/IWebApplicationNavigationEvents::NavigateComplete"]
 old-location: debug\iwebapplicationnavigationevents_navigatecomplete.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: 51a80227-69ec-4f12-8d19-d2b932fbbfc0
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateComplete method, IWebApplicationNavigationEvents.NavigateComplete, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete

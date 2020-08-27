@@ -1,9 +1,10 @@
 ---
 UID: NF:icwcfg.SetShellNext
 title: SetShellNext function (icwcfg.h)
-description: Sets the ShellNext registry key with the specified value.helpviewer_keywords: ["SetShellNext","SetShellNext function [Windows API]","icwcfg/SetShellNext","winprog.setshellnext"]
+description: Sets the ShellNext registry key with the specified value.
+helpviewer_keywords: ["SetShellNext","SetShellNext function [Windows API]","icwcfg/SetShellNext","winprog.setshellnext"]
 old-location: winprog\setshellnext.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
 ms.date: 12/05/2018
 ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext

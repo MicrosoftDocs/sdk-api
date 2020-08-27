@@ -1,9 +1,10 @@
 ---
 UID: NL:vswriter.IVssCreateWriterMetadataEx
 title: IVssCreateWriterMetadataEx (vswriter.h)
-description: The IVssCreateWriterMetadataEx interface is a C++ (not COM) interface that defines a method to report any file sets that will be explicitly excluded when a shadow copy is created.helpviewer_keywords: ["IVssCreateWriterMetadataEx","IVssCreateWriterMetadataEx interface","IVssCreateWriterMetadataEx interface","described","base.ivsscreatewritermetadataex","vswriter/IVssCreateWriterMetadataEx"]
+description: The IVssCreateWriterMetadataEx interface is a C++ (not COM) interface that defines a method to report any file sets that will be explicitly excluded when a shadow copy is created.
+helpviewer_keywords: ["IVssCreateWriterMetadataEx","IVssCreateWriterMetadataEx interface","IVssCreateWriterMetadataEx interface","described","base.ivsscreatewritermetadataex","vswriter/IVssCreateWriterMetadataEx"]
 old-location: base\ivsscreatewritermetadataex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: eec0a7ef-ad7c-4fb6-a101-573c2d0943c2
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,described, base.ivsscreatewritermetadataex, vswriter/IVssCreateWriterMetadataEx

@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.PowerReadPossibleDescription
 title: PowerReadPossibleDescription function (powrprof.h)
-description: Retrieves the description for one of the possible choices of a power setting value.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadPossibleDescription","PowerReadPossibleDescription function","base.powerreadpossibledescription","powrprof/PowerReadPossibleDescription"]
+description: Retrieves the description for one of the possible choices of a power setting value.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadPossibleDescription","PowerReadPossibleDescription function","base.powerreadpossibledescription","powrprof/PowerReadPossibleDescription"]
 old-location: base\powerreadpossibledescription.htm
-tech.root: power
+tech.root: base
 ms.assetid: e803dc6b-706a-49fc-8c8d-ba9b0ccf8491
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadPossibleDescription, PowerReadPossibleDescription function, base.powerreadpossibledescription, powrprof/PowerReadPossibleDescription

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_RebootRequired
 title: IInstallationResult::get_RebootRequired (wuapi.h)
-description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.helpviewer_keywords: ["IInstallationResult interface [Windows Update Agent]","RebootRequired property","IInstallationResult.RebootRequired","IInstallationResult.get_RebootRequired","IInstallationResult::RebootRequired","IInstallationResult::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IInstallationResult interface","get_RebootRequired","wua.iinstallationresult_rebootrequired","wuapi/IInstallationResult::RebootRequired","wuapi/IInstallationResult::get_RebootRequired"]
+description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.
+helpviewer_keywords: ["IInstallationResult interface [Windows Update Agent]","RebootRequired property","IInstallationResult.RebootRequired","IInstallationResult.get_RebootRequired","IInstallationResult::RebootRequired","IInstallationResult::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IInstallationResult interface","get_RebootRequired","wua.iinstallationresult_rebootrequired","wuapi/IInstallationResult::RebootRequired","wuapi/IInstallationResult::get_RebootRequired"]
 old-location: wua\iinstallationresult_rebootrequired.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7a865933-53f7-4d3e-88cf-088acedeed02
 ms.date: 12/05/2018
 ms.keywords: IInstallationResult interface [Windows Update Agent],RebootRequired property, IInstallationResult.RebootRequired, IInstallationResult.get_RebootRequired, IInstallationResult::RebootRequired, IInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IInstallationResult interface, get_RebootRequired, wua.iinstallationresult_rebootrequired, wuapi/IInstallationResult::RebootRequired, wuapi/IInstallationResult::get_RebootRequired

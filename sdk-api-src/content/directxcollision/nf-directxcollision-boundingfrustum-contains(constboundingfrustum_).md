@@ -1,7 +1,8 @@
 ---
-UID: NF:directxcollision.BoundingFrustum.Contains(const BoundingFrustum &)
+UID: NF:directxcollision.BoundingFrustum.Contains(constBoundingFrustum&)
 title: BoundingFrustum::Contains(const BoundingFrustum &)
-description: Tests whether the BoundingFrustum contains the specified BoundingFrustum.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Contains method","BoundingFrustum.Contains","BoundingFrustum.Contains(const BoundingFrustum &)","BoundingFrustum.Contains(const BoundingFrustum&)","BoundingFrustum::Contains","BoundingFrustum::Contains(const BoundingFrustum &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_contains_1"]
+description: Tests whether the BoundingFrustum contains the specified BoundingFrustum.
+helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Contains method","BoundingFrustum.Contains","BoundingFrustum.Contains(const BoundingFrustum &)","BoundingFrustum.Contains(const BoundingFrustum&)","BoundingFrustum::Contains","BoundingFrustum::Contains(const BoundingFrustum &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_contains_1"]
 old-location: dxmath\boundingfrustum_contains_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Contains(BoundingFrustum)

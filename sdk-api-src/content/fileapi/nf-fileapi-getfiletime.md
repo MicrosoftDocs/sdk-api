@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.GetFileTime
 title: GetFileTime function (fileapi.h)
-description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.helpviewer_keywords: ["GetFileTime","GetFileTime function","_win32_getfiletime","base.getfiletime","fileapi/GetFileTime","winbase/GetFileTime"]
+description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
+helpviewer_keywords: ["GetFileTime","GetFileTime function","_win32_getfiletime","base.getfiletime","fileapi/GetFileTime","winbase/GetFileTime"]
 old-location: base\getfiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.date: 12/05/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime

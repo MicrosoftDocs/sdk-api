@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGetAddressStatus
 title: lineGetAddressStatus function (tapi.h)
-description: The lineGetAddressStatus function allows an application to query the specified address for its current status.helpviewer_keywords: ["_tapi2_linegetaddressstatus","lineGetAddressStatus","lineGetAddressStatus function [TAPI 2.2]","lineGetAddressStatusA","lineGetAddressStatusW","tapi/lineGetAddressStatus","tapi/lineGetAddressStatusA","tapi/lineGetAddressStatusW","tapi2.linegetaddressstatus"]
+description: The lineGetAddressStatus function allows an application to query the specified address for its current status.
+helpviewer_keywords: ["_tapi2_linegetaddressstatus","lineGetAddressStatus","lineGetAddressStatus function [TAPI 2.2]","lineGetAddressStatusA","lineGetAddressStatusW","tapi/lineGetAddressStatus","tapi/lineGetAddressStatusA","tapi/lineGetAddressStatusW","tapi2.linegetaddressstatus"]
 old-location: tapi2\linegetaddressstatus.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus

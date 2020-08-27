@@ -4,7 +4,7 @@ title: IComObjectConstructionEvents::OnObjectConstruct (comsvcs.h)
 description: Generated when a constructed object is created.
 helpviewer_keywords: ["IComObjectConstructionEvents interface [COM+]","OnObjectConstruct method","IComObjectConstructionEvents.OnObjectConstruct","IComObjectConstructionEvents::OnObjectConstruct","OnObjectConstruct","OnObjectConstruct method [COM+]","OnObjectConstruct method [COM+]","IComObjectConstructionEvents interface","_dtc_IComObjectConstructionEvents_OnObjectConstruct","comsvcs/IComObjectConstructionEvents::OnObjectConstruct","cos.icomobjectconstructionevents_onobjectconstruct"]
 old-location: cos\icomobjectconstructionevents_onobjectconstruct.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 8a90e561-79a0-4490-bbc8-f376e4278ab9
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents interface [COM+],OnObjectConstruct method, IComObjectConstructionEvents.OnObjectConstruct, IComObjectConstructionEvents::OnObjectConstruct, OnObjectConstruct, OnObjectConstruct method [COM+], OnObjectConstruct method [COM+],IComObjectConstructionEvents interface, _dtc_IComObjectConstructionEvents_OnObjectConstruct, comsvcs/IComObjectConstructionEvents::OnObjectConstruct, cos.icomobjectconstructionevents_onobjectconstruct

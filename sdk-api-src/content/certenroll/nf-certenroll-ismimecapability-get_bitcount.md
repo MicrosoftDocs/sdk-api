@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ISmimeCapability.get_BitCount
 title: ISmimeCapability::get_BitCount (certenroll.h)
-description: Retrieves the length, in bits, of the encryption key.helpviewer_keywords: ["BitCount property [Security]","BitCount property [Security]","ISmimeCapability interface","ISmimeCapability interface [Security]","BitCount property","ISmimeCapability.BitCount","ISmimeCapability.get_BitCount","ISmimeCapability::BitCount","ISmimeCapability::get_BitCount","certenroll/ISmimeCapability::BitCount","certenroll/ISmimeCapability::get_BitCount","get_BitCount","security.ismimecapability_bitcount_property"]
+description: Retrieves the length, in bits, of the encryption key.
+helpviewer_keywords: ["BitCount property [Security]","BitCount property [Security]","ISmimeCapability interface","ISmimeCapability interface [Security]","BitCount property","ISmimeCapability.BitCount","ISmimeCapability.get_BitCount","ISmimeCapability::BitCount","ISmimeCapability::get_BitCount","certenroll/ISmimeCapability::BitCount","certenroll/ISmimeCapability::get_BitCount","get_BitCount","security.ismimecapability_bitcount_property"]
 old-location: security\ismimecapability_bitcount_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 582f5d85-9045-4c6f-a4c0-869e6f9e9b9e
 ms.date: 12/05/2018
 ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCapability interface, ISmimeCapability interface [Security],BitCount property, ISmimeCapability.BitCount, ISmimeCapability.get_BitCount, ISmimeCapability::BitCount, ISmimeCapability::get_BitCount, certenroll/ISmimeCapability::BitCount, certenroll/ISmimeCapability::get_BitCount, get_BitCount, security.ismimecapability_bitcount_property

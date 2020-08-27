@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetDrawingEffect
 title: IDWriteTextLayout::SetDrawingEffect (dwrite.h)
-description: Sets the application-defined drawing effect.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetDrawingEffect method","IDWriteTextLayout.SetDrawingEffect","IDWriteTextLayout::SetDrawingEffect","SetDrawingEffect","SetDrawingEffect method [Direct Write]","SetDrawingEffect method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetDrawingEffect","dwrite/IDWriteTextLayout::SetDrawingEffect"]
+description: Sets the application-defined drawing effect.
+helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetDrawingEffect method","IDWriteTextLayout.SetDrawingEffect","IDWriteTextLayout::SetDrawingEffect","SetDrawingEffect","SetDrawingEffect method [Direct Write]","SetDrawingEffect method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetDrawingEffect","dwrite/IDWriteTextLayout::SetDrawingEffect"]
 old-location: directwrite\IDWriteTextLayout_SetDrawingEffect.htm
 tech.root: DirectWrite
 ms.assetid: d3269f8e-c1bc-4e84-92cb-a8899a0268ff

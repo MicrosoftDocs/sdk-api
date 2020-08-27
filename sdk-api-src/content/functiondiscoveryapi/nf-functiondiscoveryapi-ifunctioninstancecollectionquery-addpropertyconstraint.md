@@ -4,7 +4,7 @@ title: IFunctionInstanceCollectionQuery::AddPropertyConstraint (functiondiscover
 description: Adds a property constraint to the query.
 helpviewer_keywords: ["AddPropertyConstraint","AddPropertyConstraint method","AddPropertyConstraint method","IFunctionInstanceCollectionQuery interface","IFunctionInstanceCollectionQuery interface","AddPropertyConstraint method","IFunctionInstanceCollectionQuery.AddPropertyConstraint","IFunctionInstanceCollectionQuery::AddPropertyConstraint","functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint","ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method"]
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
 ms.date: 12/05/2018
 ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddPropertyConstraint method, IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method

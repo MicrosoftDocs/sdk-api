@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstanceQueryService
 title: IFunctionDiscoveryProvider::InstanceQueryService (functiondiscoveryprovider.h)
-description: Creates a provider-specific COM object for the function instance.helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstanceQueryService method","IFunctionDiscoveryProvider.InstanceQueryService","IFunctionDiscoveryProvider::InstanceQueryService","InstanceQueryService","InstanceQueryService method","InstanceQueryService method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceQueryService","ncd.ifunctiondiscoveryprovider_instancequeryservice_method"]
+description: Creates a provider-specific COM object for the function instance.
+helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstanceQueryService method","IFunctionDiscoveryProvider.InstanceQueryService","IFunctionDiscoveryProvider::InstanceQueryService","InstanceQueryService","InstanceQueryService method","InstanceQueryService method","IFunctionDiscoveryProvider interface","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceQueryService","ncd.ifunctiondiscoveryprovider_instancequeryservice_method"]
 old-location: ncd\ifunctiondiscoveryprovider_instancequeryservice_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 8fb955dd-f396-4473-a1c1-b0d83e2b4b07
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceQueryService method, IFunctionDiscoveryProvider.InstanceQueryService, IFunctionDiscoveryProvider::InstanceQueryService, InstanceQueryService, InstanceQueryService method, InstanceQueryService method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceQueryService, ncd.ifunctiondiscoveryprovider_instancequeryservice_method

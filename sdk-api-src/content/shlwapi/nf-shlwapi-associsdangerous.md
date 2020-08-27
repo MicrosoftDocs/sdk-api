@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.AssocIsDangerous
 title: AssocIsDangerous function (shlwapi.h)
-description: Determines whether a file type is considered a potential security risk.helpviewer_keywords: ["AssocIsDangerous","AssocIsDangerous function [Windows Shell]","_shell_AssocIsDangerous","shell.AssocIsDangerous","shlwapi/AssocIsDangerous"]
+description: Determines whether a file type is considered a potential security risk.
+helpviewer_keywords: ["AssocIsDangerous","AssocIsDangerous function [Windows Shell]","_shell_AssocIsDangerous","shell.AssocIsDangerous","shlwapi/AssocIsDangerous"]
 old-location: shell\AssocIsDangerous.htm
 tech.root: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890

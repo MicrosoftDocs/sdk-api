@@ -5,6 +5,7 @@ ms.date: 11/26/2019
 ms.topic: language-reference
 targetos: Windows
 description: Allows the caller to specify the IMFContentEnabler interface that shall be used by the Content Decryption Module (CDM).
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

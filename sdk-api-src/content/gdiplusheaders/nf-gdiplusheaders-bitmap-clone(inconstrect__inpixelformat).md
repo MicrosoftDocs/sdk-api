@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Clone(IN const Rect &,IN PixelFormat)
+UID: NF:gdiplusheaders.Bitmap.Clone(INconstRect&,INPixelFormat)
 title: Bitmap::Clone
-description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap.helpviewer_keywords: ["Bitmap::Clone"]
+description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap.
+tech.root: gdiplus
+helpviewer_keywords: ["Bitmap::Clone"]
 ms.assetid: 68c03673-ad3c-43b7-a21d-23192de7ad19
 ms.date: 05/20/2019
 ms.keywords: Bitmap::Clone

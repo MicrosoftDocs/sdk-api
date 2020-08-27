@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.EqualDomainSid
 title: EqualDomainSid function (securitybaseapi.h)
-description: Determines whether two SIDs are from the same domain.helpviewer_keywords: ["EqualDomainSid","EqualDomainSid function [Security]","_win32_equaldomainsid","security.equaldomainsid","securitybaseapi/EqualDomainSid"]
+description: Determines whether two SIDs are from the same domain.
+helpviewer_keywords: ["EqualDomainSid","EqualDomainSid function [Security]","_win32_equaldomainsid","security.equaldomainsid","securitybaseapi/EqualDomainSid"]
 old-location: security\equaldomainsid.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a7eea3bd-33e0-427c-b023-07851c192eb2
 ms.date: 12/05/2018
 ms.keywords: EqualDomainSid, EqualDomainSid function [Security], _win32_equaldomainsid, security.equaldomainsid, securitybaseapi/EqualDomainSid

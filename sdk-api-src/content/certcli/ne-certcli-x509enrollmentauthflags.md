@@ -1,9 +1,10 @@
 ---
 UID: NE:certcli.X509EnrollmentAuthFlags
 title: X509EnrollmentAuthFlags (certcli.h)
-description: Specifies the authentication type.helpviewer_keywords: ["X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthNone","X509AuthUsername","X509EnrollmentAuthFlags","X509EnrollmentAuthFlags enumeration [Security]","certcli/X509AuthAnonymous","certcli/X509AuthCertificate","certcli/X509AuthKerberos","certcli/X509AuthNone","certcli/X509AuthUsername","certcli/X509EnrollmentAuthFlags","security.x509enrollmentauthflags"]
+description: Specifies the authentication type.
+helpviewer_keywords: ["X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthNone","X509AuthUsername","X509EnrollmentAuthFlags","X509EnrollmentAuthFlags enumeration [Security]","certcli/X509AuthAnonymous","certcli/X509AuthCertificate","certcli/X509AuthKerberos","certcli/X509AuthNone","certcli/X509AuthUsername","certcli/X509EnrollmentAuthFlags","security.x509enrollmentauthflags"]
 old-location: security\x509enrollmentauthflags.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 84a7e6e3-dfbb-4c27-af63-e521103e1b00
 ms.date: 12/05/2018
 ms.keywords: X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthNone, X509AuthUsername, X509EnrollmentAuthFlags, X509EnrollmentAuthFlags enumeration [Security], certcli/X509AuthAnonymous, certcli/X509AuthCertificate, certcli/X509AuthKerberos, certcli/X509AuthNone, certcli/X509AuthUsername, certcli/X509EnrollmentAuthFlags, security.x509enrollmentauthflags

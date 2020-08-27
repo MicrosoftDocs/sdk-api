@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IMediaPosition.get_StopTime
 title: IMediaPosition::get_StopTime (control.h)
-description: The get_StopTime method retrieves the time at which the playback will stop, relative to the duration of the stream.helpviewer_keywords: ["IMediaPosition interface [DirectShow]","get_StopTime method","IMediaPosition.get_StopTime","IMediaPosition::get_StopTime","IMediaPositionget_StopTime","control/IMediaPosition::get_StopTime","dshow.imediaposition_get_stoptime","get_StopTime","get_StopTime method [DirectShow]","get_StopTime method [DirectShow]","IMediaPosition interface"]
+description: The get_StopTime method retrieves the time at which the playback will stop, relative to the duration of the stream.
+helpviewer_keywords: ["IMediaPosition interface [DirectShow]","get_StopTime method","IMediaPosition.get_StopTime","IMediaPosition::get_StopTime","IMediaPositionget_StopTime","control/IMediaPosition::get_StopTime","dshow.imediaposition_get_stoptime","get_StopTime","get_StopTime method [DirectShow]","get_StopTime method [DirectShow]","IMediaPosition interface"]
 old-location: dshow\imediaposition_get_stoptime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6139ebb2-fad8-4394-9a5f-4753ca9fb143
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_StopTime method, IMediaPosition.get_StopTime, IMediaPosition::get_StopTime, IMediaPositionget_StopTime, control/IMediaPosition::get_StopTime, dshow.imediaposition_get_stoptime, get_StopTime, get_StopTime method [DirectShow], get_StopTime method [DirectShow],IMediaPosition interface

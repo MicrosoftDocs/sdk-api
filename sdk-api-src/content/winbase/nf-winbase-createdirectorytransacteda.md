@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CreateDirectoryTransactedA
 title: CreateDirectoryTransactedA function (winbase.h)
-description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.helpviewer_keywords: ["CreateDirectoryTransacted","CreateDirectoryTransacted function [Files]","CreateDirectoryTransactedA","CreateDirectoryTransactedW","fs.createdirectorytransacted","winbase/CreateDirectoryTransacted","winbase/CreateDirectoryTransactedA","winbase/CreateDirectoryTransactedW"]
+description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
+helpviewer_keywords: ["CreateDirectoryTransacted","CreateDirectoryTransacted function [Files]","CreateDirectoryTransactedA","CreateDirectoryTransactedW","fs.createdirectorytransacted","winbase/CreateDirectoryTransacted","winbase/CreateDirectoryTransactedA","winbase/CreateDirectoryTransactedW"]
 old-location: fs\createdirectorytransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
@@ -257,6 +258,10 @@ SMB 3.0 does not support TxF.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CreateDirectoryTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

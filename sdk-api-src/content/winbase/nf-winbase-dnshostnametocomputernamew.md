@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.DnsHostnameToComputerNameW
 title: DnsHostnameToComputerNameW function (winbase.h)
-description: Converts a DNS-style host name to a NetBIOS-style computer name.helpviewer_keywords: ["DnsHostnameToComputerName","DnsHostnameToComputerName function","DnsHostnameToComputerNameA","DnsHostnameToComputerNameW","_win32_dnshostnametocomputername","base.dnshostnametocomputername","winbase/DnsHostnameToComputerName","winbase/DnsHostnameToComputerNameA","winbase/DnsHostnameToComputerNameW"]
+description: Converts a DNS-style host name to a NetBIOS-style computer name.
+helpviewer_keywords: ["DnsHostnameToComputerName","DnsHostnameToComputerName function","DnsHostnameToComputerNameA","DnsHostnameToComputerNameW","_win32_dnshostnametocomputername","base.dnshostnametocomputername","winbase/DnsHostnameToComputerName","winbase/DnsHostnameToComputerNameA","winbase/DnsHostnameToComputerNameW"]
 old-location: base\dnshostnametocomputername.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: d5646fe6-9112-42cd-ace9-00dd1b590ecb
 ms.date: 12/05/2018
 ms.keywords: DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW
@@ -129,6 +130,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines DnsHostnameToComputerName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

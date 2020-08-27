@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.GetDescription
 title: IOleUndoUnit::GetDescription (ocidl.h)
-description: Retrieves a description of the undo unit that can be used in the undo or redo user interface.helpviewer_keywords: ["GetDescription","GetDescription method [COM]","GetDescription method [COM]","IOleUndoUnit interface","IOleUndoUnit interface [COM]","GetDescription method","IOleUndoUnit.GetDescription","IOleUndoUnit::GetDescription","_ole_ioleundounit_getdescription","com.ioleundounit_getdescription","ocidl/IOleUndoUnit::GetDescription"]
+description: Retrieves a description of the undo unit that can be used in the undo or redo user interface.
+helpviewer_keywords: ["GetDescription","GetDescription method [COM]","GetDescription method [COM]","IOleUndoUnit interface","IOleUndoUnit interface [COM]","GetDescription method","IOleUndoUnit.GetDescription","IOleUndoUnit::GetDescription","_ole_ioleundounit_getdescription","com.ioleundounit_getdescription","ocidl/IOleUndoUnit::GetDescription"]
 old-location: com\ioleundounit_getdescription.htm
 tech.root: com
 ms.assetid: 8fd9c49c-a8f3-4a4a-b501-211a107c1305

@@ -1,7 +1,8 @@
 ---
 UID: NF:mdmregistration.RegisterDeviceWithManagementUsingAADCredentials
 title: RegisterDeviceWithManagementUsingAADCredentials function (mdmregistration.h)
-description: Registers a device with a MDM service, using Azure Active Directory (AAD) credentials.helpviewer_keywords: ["RegisterDeviceWithManagementUsingAADCredentials","RegisterDeviceWithManagementUsingAADCredentials function [MDM Registration]","mdmreg.registerdevicewithmanagementusingaadcredentials","mdmregistration/RegisterDeviceWithManagementUsingAADCredentials"]
+description: Registers a device with a MDM service, using Azure Active Directory (AAD) credentials.
+helpviewer_keywords: ["RegisterDeviceWithManagementUsingAADCredentials","RegisterDeviceWithManagementUsingAADCredentials function [MDM Registration]","mdmreg.registerdevicewithmanagementusingaadcredentials","mdmregistration/RegisterDeviceWithManagementUsingAADCredentials"]
 old-location: mdmreg\registerdevicewithmanagementusingaadcredentials.htm
 tech.root: MDMReg
 ms.assetid: 709E464A-C9EC-41EF-AC80-EF0BC35E0905

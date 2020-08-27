@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkCount
 title: IMFMediaSink::GetStreamSinkCount (mfidl.h)
-description: Gets the number of stream sinks on this media sink.helpviewer_keywords: ["GetStreamSinkCount","GetStreamSinkCount method [Media Foundation]","GetStreamSinkCount method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetStreamSinkCount method","IMFMediaSink.GetStreamSinkCount","IMFMediaSink::GetStreamSinkCount","bf4b5713-586c-4b12-80a1-4452eec63e32","mf.imfmediasink_getstreamsinkcount","mfidl/IMFMediaSink::GetStreamSinkCount"]
+description: Gets the number of stream sinks on this media sink.
+helpviewer_keywords: ["GetStreamSinkCount","GetStreamSinkCount method [Media Foundation]","GetStreamSinkCount method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetStreamSinkCount method","IMFMediaSink.GetStreamSinkCount","IMFMediaSink::GetStreamSinkCount","bf4b5713-586c-4b12-80a1-4452eec63e32","mf.imfmediasink_getstreamsinkcount","mfidl/IMFMediaSink::GetStreamSinkCount"]
 old-location: mf\imfmediasink_getstreamsinkcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bf4b5713-586c-4b12-80a1-4452eec63e32
 ms.date: 12/05/2018
 ms.keywords: GetStreamSinkCount, GetStreamSinkCount method [Media Foundation], GetStreamSinkCount method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkCount method, IMFMediaSink.GetStreamSinkCount, IMFMediaSink::GetStreamSinkCount, bf4b5713-586c-4b12-80a1-4452eec63e32, mf.imfmediasink_getstreamsinkcount, mfidl/IMFMediaSink::GetStreamSinkCount

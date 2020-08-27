@@ -4,7 +4,7 @@ title: IAMTimecodeGenerator::SetTimecode (strmif.h)
 description: The SetTimecode method sets the timecode, userbit value, or both.
 helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","SetTimecode method","IAMTimecodeGenerator.SetTimecode","IAMTimecodeGenerator::SetTimecode","IAMTimecodeGeneratorSetTimecode","SetTimecode","SetTimecode method [DirectShow]","SetTimecode method [DirectShow]","IAMTimecodeGenerator interface","dshow.iamtimecodegenerator_settimecode","strmif/IAMTimecodeGenerator::SetTimecode"]
 old-location: dshow\iamtimecodegenerator_settimecode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6da4b7e0-e6cd-4555-b5a3-e5f0f20ff070
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTimecode method, IAMTimecodeGenerator.SetTimecode, IAMTimecodeGenerator::SetTimecode, IAMTimecodeGeneratorSetTimecode, SetTimecode, SetTimecode method [DirectShow], SetTimecode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settimecode, strmif/IAMTimecodeGenerator::SetTimecode
@@ -64,7 +64,7 @@ The <code>SetTimecode</code> method sets the timecode, userbit value, or both.
 
 ### -param pTimecodeSample [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns
@@ -88,18 +88,13 @@ To set only timecode, set userbit value to <b>NULL</b>, and vice versa. If gener
 ## -see-also
 
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">IAMTimecodeGenerator::GetTimecode</a>
- 
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
- 
+
+
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">IAMTimecodeGenerator::GetTimecode</a>
 

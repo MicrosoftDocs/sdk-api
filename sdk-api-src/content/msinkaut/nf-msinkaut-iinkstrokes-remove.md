@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Remove
 title: IInkStrokes::Remove (msinkaut.h)
-description: Removes an IInkStrokeDisp object from a InkStrokes collection.helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","Remove method","IInkStrokes.Remove","IInkStrokes::Remove","Remove","Remove method [Tablet PC]","Remove method [Tablet PC]","IInkStrokes interface","ce7a7842-c7c8-4f73-8f68-05b22c2199de","msinkaut/IInkStrokes::Remove","tablet.inkstrokes_remove"]
+description: Removes an IInkStrokeDisp object from a InkStrokes collection.
+helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","Remove method","IInkStrokes.Remove","IInkStrokes::Remove","Remove","Remove method [Tablet PC]","Remove method [Tablet PC]","IInkStrokes interface","ce7a7842-c7c8-4f73-8f68-05b22c2199de","msinkaut/IInkStrokes::Remove","tablet.inkstrokes_remove"]
 old-location: tablet\inkstrokes_remove.htm
 tech.root: tablet
 ms.assetid: ce7a7842-c7c8-4f73-8f68-05b22c2199de

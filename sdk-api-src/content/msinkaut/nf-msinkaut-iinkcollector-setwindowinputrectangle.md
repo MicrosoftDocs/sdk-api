@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetWindowInputRectangle
 title: IInkCollector::SetWindowInputRectangle (msinkaut.h)
-description: Sets the window rectangle, in pixels, within which ink is drawn.helpviewer_keywords: ["IInkCollector interface [Tablet PC]","SetWindowInputRectangle method","IInkCollector.SetWindowInputRectangle","IInkCollector::SetWindowInputRectangle","SetWindowInputRectangle","SetWindowInputRectangle method [Tablet PC]","SetWindowInputRectangle method [Tablet PC]","IInkCollector interface","b46139db-0473-4cd3-8f1b-d303f3430470","msinkaut/IInkCollector::SetWindowInputRectangle","tablet.inkcollector_setwindowinputrectangle"]
+description: Sets the window rectangle, in pixels, within which ink is drawn.
+helpviewer_keywords: ["IInkCollector interface [Tablet PC]","SetWindowInputRectangle method","IInkCollector.SetWindowInputRectangle","IInkCollector::SetWindowInputRectangle","SetWindowInputRectangle","SetWindowInputRectangle method [Tablet PC]","SetWindowInputRectangle method [Tablet PC]","IInkCollector interface","b46139db-0473-4cd3-8f1b-d303f3430470","msinkaut/IInkCollector::SetWindowInputRectangle","tablet.inkcollector_setwindowinputrectangle"]
 old-location: tablet\inkcollector_setwindowinputrectangle.htm
 tech.root: tablet
 ms.assetid: b46139db-0473-4cd3-8f1b-d303f3430470

@@ -1,9 +1,10 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.EnumMediaStreams
 title: IMultiMediaStream::EnumMediaStreams (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream object, specified by index.helpviewer_keywords: ["EnumMediaStreams","EnumMediaStreams method [DirectShow]","EnumMediaStreams method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","EnumMediaStreams method","IMultiMediaStream.EnumMediaStreams","IMultiMediaStream::EnumMediaStreams","IMultiMediaStreamEnumMediaStreams","dshow.imultimediastream_enummediastreams","mmstream/IMultiMediaStream::EnumMediaStreams"]
+description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream object, specified by index.
+helpviewer_keywords: ["EnumMediaStreams","EnumMediaStreams method [DirectShow]","EnumMediaStreams method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","EnumMediaStreams method","IMultiMediaStream.EnumMediaStreams","IMultiMediaStream::EnumMediaStreams","IMultiMediaStreamEnumMediaStreams","dshow.imultimediastream_enummediastreams","mmstream/IMultiMediaStream::EnumMediaStreams"]
 old-location: dshow\imultimediastream_enummediastreams.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2fb51794-83ac-44c5-b388-d7b945870324
 ms.date: 12/05/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],EnumMediaStreams method, IMultiMediaStream.EnumMediaStreams, IMultiMediaStream::EnumMediaStreams, IMultiMediaStreamEnumMediaStreams, dshow.imultimediastream_enummediastreams, mmstream/IMultiMediaStream::EnumMediaStreams

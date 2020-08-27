@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageWriterOnStream
 title: IXpsOMObjectFactory::CreatePackageWriterOnStream (xpsobjectmodel.h)
-description: Opens a stream for writing the contents of an XPS OM to an XPS package.helpviewer_keywords: ["CreatePackageWriterOnStream","CreatePackageWriterOnStream method [XPS Documents and Packaging]","CreatePackageWriterOnStream method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageWriterOnStream method","IXpsOMObjectFactory.CreatePackageWriterOnStream","IXpsOMObjectFactory::CreatePackageWriterOnStream","TRUE","xps.ixpsomobjectfactory_createpackagewriteronstream","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnStream"]
+description: Opens a stream for writing the contents of an XPS OM to an XPS package.
+helpviewer_keywords: ["CreatePackageWriterOnStream","CreatePackageWriterOnStream method [XPS Documents and Packaging]","CreatePackageWriterOnStream method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageWriterOnStream method","IXpsOMObjectFactory.CreatePackageWriterOnStream","IXpsOMObjectFactory::CreatePackageWriterOnStream","TRUE","xps.ixpsomobjectfactory_createpackagewriteronstream","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnStream"]
 old-location: xps\ixpsomobjectfactory_createpackagewriteronstream.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 77f432e3-7b6a-426f-8673-06dbf3038443
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnStream, CreatePackageWriterOnStream method [XPS Documents and Packaging], CreatePackageWriterOnStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageWriterOnStream method, IXpsOMObjectFactory.CreatePackageWriterOnStream, IXpsOMObjectFactory::CreatePackageWriterOnStream, TRUE, xps.ixpsomobjectfactory_createpackagewriteronstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnStream

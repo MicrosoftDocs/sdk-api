@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertGetEnhancedKeyUsage
 title: CertGetEnhancedKeyUsage function (wincrypt.h)
-description: Returns information from the enhanced key usage (EKU) extension or the EKU extended property of a certificate.helpviewer_keywords: ["CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG","CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG","CertGetEnhancedKeyUsage","CertGetEnhancedKeyUsage function [Security]","_crypto2_certgetenhancedkeyusage","security.certgetenhancedkeyusage","wincrypt/CertGetEnhancedKeyUsage"]
+description: Returns information from the enhanced key usage (EKU) extension or the EKU extended property of a certificate.
+helpviewer_keywords: ["CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG","CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG","CertGetEnhancedKeyUsage","CertGetEnhancedKeyUsage function [Security]","_crypto2_certgetenhancedkeyusage","security.certgetenhancedkeyusage","wincrypt/CertGetEnhancedKeyUsage"]
 old-location: security\certgetenhancedkeyusage.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
 ms.date: 12/05/2018
 ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG, CertGetEnhancedKeyUsage, CertGetEnhancedKeyUsage function [Security], _crypto2_certgetenhancedkeyusage, security.certgetenhancedkeyusage, wincrypt/CertGetEnhancedKeyUsage

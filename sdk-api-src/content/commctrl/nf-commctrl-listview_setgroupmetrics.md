@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetGroupMetrics
 title: ListView_SetGroupMetrics macro (commctrl.h)
-description: Sets information about the display of groups. You can use this macro or send the LVM_SETGROUPMETRICS message explicitly.helpviewer_keywords: ["ListView_SetGroupMetrics","ListView_SetGroupMetrics macro [Windows Controls]","_win32_ListView_SetGroupMetrics","_win32_ListView_SetGroupMetrics_cpp","commctrl/ListView_SetGroupMetrics","controls.ListView_SetGroupMetrics","controls._win32_ListView_SetGroupMetrics"]
+description: Sets information about the display of groups. You can use this macro or send the LVM_SETGROUPMETRICS message explicitly.
+helpviewer_keywords: ["ListView_SetGroupMetrics","ListView_SetGroupMetrics macro [Windows Controls]","_win32_ListView_SetGroupMetrics","_win32_ListView_SetGroupMetrics_cpp","commctrl/ListView_SetGroupMetrics","controls.ListView_SetGroupMetrics","controls._win32_ListView_SetGroupMetrics"]
 old-location: controls\ListView_SetGroupMetrics.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupmetrics.htm

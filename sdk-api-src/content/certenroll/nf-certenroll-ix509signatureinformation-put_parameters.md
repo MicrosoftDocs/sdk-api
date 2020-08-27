@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_Parameters
 title: IX509SignatureInformation::put_Parameters (certenroll.h)
-description: Retrieves a byte array that contains the parameters associated with the signature algorithm.helpviewer_keywords: ["IX509SignatureInformation interface [Security]","Parameters property","IX509SignatureInformation.Parameters","IX509SignatureInformation.put_Parameters","IX509SignatureInformation::Parameters","IX509SignatureInformation::get_Parameters","IX509SignatureInformation::put_Parameters","Parameters property [Security]","Parameters property [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::Parameters","certenroll/IX509SignatureInformation::get_Parameters","certenroll/IX509SignatureInformation::put_Parameters","put_Parameters","security.ix509signatureinformation_parameters_property"]
+description: Retrieves a byte array that contains the parameters associated with the signature algorithm.
+helpviewer_keywords: ["IX509SignatureInformation interface [Security]","Parameters property","IX509SignatureInformation.Parameters","IX509SignatureInformation.put_Parameters","IX509SignatureInformation::Parameters","IX509SignatureInformation::get_Parameters","IX509SignatureInformation::put_Parameters","Parameters property [Security]","Parameters property [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::Parameters","certenroll/IX509SignatureInformation::get_Parameters","certenroll/IX509SignatureInformation::put_Parameters","put_Parameters","security.ix509signatureinformation_parameters_property"]
 old-location: security\ix509signatureinformation_parameters_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: cb5675d5-cf06-4407-a7fd-b703a56cacba
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],Parameters property, IX509SignatureInformation.Parameters, IX509SignatureInformation.put_Parameters, IX509SignatureInformation::Parameters, IX509SignatureInformation::get_Parameters, IX509SignatureInformation::put_Parameters, Parameters property [Security], Parameters property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::Parameters, certenroll/IX509SignatureInformation::get_Parameters, certenroll/IX509SignatureInformation::put_Parameters, put_Parameters, security.ix509signatureinformation_parameters_property

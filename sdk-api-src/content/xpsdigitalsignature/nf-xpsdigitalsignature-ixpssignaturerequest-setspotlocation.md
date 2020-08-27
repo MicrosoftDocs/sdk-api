@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetSpotLocation
 title: IXpsSignatureRequest::SetSpotLocation (xpsdigitalsignature.h)
-description: Specifies the page and the location on the page where the visible digital signature or the digital signature request will be displayed.helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetSpotLocation method","IXpsSignatureRequest.SetSpotLocation","IXpsSignatureRequest::SetSpotLocation","SetSpotLocation","SetSpotLocation method [XPS Documents and Packaging]","SetSpotLocation method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setspotlocation","xpsdigitalsignature/IXpsSignatureRequest::SetSpotLocation"]
+description: Specifies the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
+helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetSpotLocation method","IXpsSignatureRequest.SetSpotLocation","IXpsSignatureRequest::SetSpotLocation","SetSpotLocation","SetSpotLocation method [XPS Documents and Packaging]","SetSpotLocation method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setspotlocation","xpsdigitalsignature/IXpsSignatureRequest::SetSpotLocation"]
 old-location: xps\ixpssignaturerequest_setspotlocation.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 44ee13dd-ceea-4cd3-8c9e-4300c0c304ab
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSpotLocation method, IXpsSignatureRequest.SetSpotLocation, IXpsSignatureRequest::SetSpotLocation, SetSpotLocation, SetSpotLocation method [XPS Documents and Packaging], SetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setspotlocation, xpsdigitalsignature/IXpsSignatureRequest::SetSpotLocation

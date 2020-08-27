@@ -1,9 +1,10 @@
 ---
 UID: NS:vds._VDS_DRIVE_LETTER_PROP
 title: VDS_DRIVE_LETTER_PROP (vds.h)
-description: Defines the properties of a drive letter.helpviewer_keywords: ["*PVDS_DRIVE_LETTER_PROP","PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE","PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS]","VDS_DRIVE_LETTER_PROP","VDS_DRIVE_LETTER_PROP structure [VDS]","base.vds_drive_letter_prop","vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE","vds/_VDS_DRIVE_LETTER_PROP"]
+description: Defines the properties of a drive letter.
+helpviewer_keywords: ["*PVDS_DRIVE_LETTER_PROP","PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE","PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS]","VDS_DRIVE_LETTER_PROP","VDS_DRIVE_LETTER_PROP structure [VDS]","base.vds_drive_letter_prop","vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE","vds/_VDS_DRIVE_LETTER_PROP"]
 old-location: base\vds_drive_letter_prop.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: b944e29a-85b0-4cab-b804-1a09a19caddb
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS], VDS_DRIVE_LETTER_PROP, VDS_DRIVE_LETTER_PROP structure [VDS], base.vds_drive_letter_prop, vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, vds/_VDS_DRIVE_LETTER_PROP'

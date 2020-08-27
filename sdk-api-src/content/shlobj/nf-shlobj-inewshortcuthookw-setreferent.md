@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.SetReferent
 title: INewShortcutHookW::SetReferent (shlobj.h)
-description: Sets the referent of the shortcut object.helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetReferent method","INewShortcutHook::SetReferent","INewShortcutHookA","INewShortcutHookA interface [Windows Shell]","SetReferent method","INewShortcutHookA::SetReferent","INewShortcutHookW","INewShortcutHookW interface [Windows Shell]","SetReferent method","INewShortcutHookW.SetReferent","INewShortcutHookW::SetReferent","SetReferent","SetReferent method [Windows Shell]","SetReferent method [Windows Shell]","INewShortcutHook interface","SetReferent method [Windows Shell]","INewShortcutHookA interface","SetReferent method [Windows Shell]","INewShortcutHookW interface","_win32_INewShortcutHook_SetReferent","shell.INewShortcutHook_SetReferent","shlobj/INewShortcutHook::SetReferent","shlobj/INewShortcutHookA::SetReferent","shlobj/INewShortcutHookW::SetReferent"]
+description: Sets the referent of the shortcut object.
+helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetReferent method","INewShortcutHook::SetReferent","INewShortcutHookA","INewShortcutHookA interface [Windows Shell]","SetReferent method","INewShortcutHookA::SetReferent","INewShortcutHookW","INewShortcutHookW interface [Windows Shell]","SetReferent method","INewShortcutHookW.SetReferent","INewShortcutHookW::SetReferent","SetReferent","SetReferent method [Windows Shell]","SetReferent method [Windows Shell]","INewShortcutHook interface","SetReferent method [Windows Shell]","INewShortcutHookA interface","SetReferent method [Windows Shell]","INewShortcutHookW interface","_win32_INewShortcutHook_SetReferent","shell.INewShortcutHook_SetReferent","shlobj/INewShortcutHook::SetReferent","shlobj/INewShortcutHookA::SetReferent","shlobj/INewShortcutHookW::SetReferent"]
 old-location: shell\INewShortcutHook_SetReferent.htm
 tech.root: shell
 ms.assetid: 402d305e-1657-45c2-9f0d-04703c8d6e5c
@@ -73,7 +74,7 @@ TBD
 
 
 
-#### - hWnd [in, optional]
+### -param hWnd [in, optional]
 
 Type: <b>HWND</b>
 

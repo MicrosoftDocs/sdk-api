@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusheaders.Bitmap
 title: Bitmap (gdiplusheaders.h)
-description: The Bitmap class inherits from the Image class.helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap class [GDI+]","described","_gdiplus_CLASS_Bitmap_Class","gdiplus._gdiplus_CLASS_Bitmap_Class","gdiplusheaders/Bitmap"]
+description: The Bitmap class inherits from the Image class.
+helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap class [GDI+]","described","_gdiplus_CLASS_Bitmap_Class","gdiplus._gdiplus_CLASS_Bitmap_Class","gdiplusheaders/Bitmap"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmap.htm

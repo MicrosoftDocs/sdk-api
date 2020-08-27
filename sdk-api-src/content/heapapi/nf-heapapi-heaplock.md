@@ -4,7 +4,7 @@ title: HeapLock function (heapapi.h)
 description: Attempts to acquire the critical section object, or lock, that is associated with a specified heap.
 helpviewer_keywords: ["HeapLock","HeapLock function","_win32_heaplock","base.heaplock","heapapi/HeapLock","winbase/HeapLock"]
 old-location: base\heaplock.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
 ms.date: 12/05/2018
 ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateException.get_Message
 title: IUpdateException::get_Message (wuapi.h)
-description: Gets a message that describes the search results.helpviewer_keywords: ["IUpdateException interface [Windows Update Agent]","Message property","IUpdateException.Message","IUpdateException.get_Message","IUpdateException::Message","IUpdateException::get_Message","Message property [Windows Update Agent]","Message property [Windows Update Agent]","IUpdateException interface","get_Message","wua.iupdateexception_message","wuapi/IUpdateException::Message","wuapi/IUpdateException::get_Message"]
+description: Gets a message that describes the search results.
+helpviewer_keywords: ["IUpdateException interface [Windows Update Agent]","Message property","IUpdateException.Message","IUpdateException.get_Message","IUpdateException::Message","IUpdateException::get_Message","Message property [Windows Update Agent]","Message property [Windows Update Agent]","IUpdateException interface","get_Message","wua.iupdateexception_message","wuapi/IUpdateException::Message","wuapi/IUpdateException::get_Message"]
 old-location: wua\iupdateexception_message.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 29dc3787-d646-4ebf-9a0e-c4fc42c39846
 ms.date: 12/05/2018
 ms.keywords: IUpdateException interface [Windows Update Agent],Message property, IUpdateException.Message, IUpdateException.get_Message, IUpdateException::Message, IUpdateException::get_Message, Message property [Windows Update Agent], Message property [Windows Update Agent],IUpdateException interface, get_Message, wua.iupdateexception_message, wuapi/IUpdateException::Message, wuapi/IUpdateException::get_Message

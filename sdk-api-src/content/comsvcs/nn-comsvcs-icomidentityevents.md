@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IComIdentityEvents
 title: IComIdentityEvents (comsvcs.h)
-description: Notifies the subscriber about an activity that is part of an Internet Information Services (IIS) Active Server Pages (ASP) page. For example, if a COM+ object is invoked in an ASP page, the user would be notified of this activity.helpviewer_keywords: ["IComIdentityEvents","IComIdentityEvents interface [COM+]","IComIdentityEvents interface [COM+]","described","_dtc_IComIdentityEvents","comsvcs/IComIdentityEvents","cos.icomidentityevents"]
+description: Notifies the subscriber about an activity that is part of an Internet Information Services (IIS) Active Server Pages (ASP) page. For example, if a COM+ object is invoked in an ASP page, the user would be notified of this activity.
+helpviewer_keywords: ["IComIdentityEvents","IComIdentityEvents interface [COM+]","IComIdentityEvents interface [COM+]","described","_dtc_IComIdentityEvents","comsvcs/IComIdentityEvents","cos.icomidentityevents"]
 old-location: cos\icomidentityevents.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f064a5cd-c84d-4b80-96fc-1036af333901
 ms.date: 12/05/2018
 ms.keywords: IComIdentityEvents, IComIdentityEvents interface [COM+], IComIdentityEvents interface [COM+],described, _dtc_IComIdentityEvents, comsvcs/IComIdentityEvents, cos.icomidentityevents

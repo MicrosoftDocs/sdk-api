@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddComponentDependency
 title: IVssCreateExpressWriterMetadata::AddComponentDependency (vswriter.h)
-description: Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.helpviewer_keywords: ["AddComponentDependency","AddComponentDependency method","AddComponentDependency method","IVssCreateExpressWriterMetadata interface","IVssCreateExpressWriterMetadata interface","AddComponentDependency method","IVssCreateExpressWriterMetadata.AddComponentDependency","IVssCreateExpressWriterMetadata::AddComponentDependency","base.ivsscreateexpresswritermetadata_addcomponentdependency","vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency"]
+description: Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
+helpviewer_keywords: ["AddComponentDependency","AddComponentDependency method","AddComponentDependency method","IVssCreateExpressWriterMetadata interface","IVssCreateExpressWriterMetadata interface","AddComponentDependency method","IVssCreateExpressWriterMetadata.AddComponentDependency","IVssCreateExpressWriterMetadata::AddComponentDependency","base.ivsscreateexpresswritermetadata_addcomponentdependency","vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency"]
 old-location: base\ivsscreateexpresswritermetadata_addcomponentdependency.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 1d7e28de-8bb7-4ab4-bcdd-554d47007233
 ms.date: 12/05/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponentDependency method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponentDependency method, IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency

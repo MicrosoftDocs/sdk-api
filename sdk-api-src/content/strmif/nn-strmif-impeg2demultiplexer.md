@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IMpeg2Demultiplexer
 title: IMpeg2Demultiplexer (strmif.h)
-description: This interface is implemented on the MPEG-2 Demultiplexer filter (Demux) and is used in both program stream mode and transport stream mode.helpviewer_keywords: ["IMpeg2Demultiplexer","IMpeg2Demultiplexer interface [DirectShow]","IMpeg2Demultiplexer interface [DirectShow]","described","IMpeg2DemultiplexerInterface","dshow.impeg2demultiplexer","strmif/IMpeg2Demultiplexer"]
+description: This interface is implemented on the MPEG-2 Demultiplexer filter (Demux) and is used in both program stream mode and transport stream mode.
+helpviewer_keywords: ["IMpeg2Demultiplexer","IMpeg2Demultiplexer interface [DirectShow]","IMpeg2Demultiplexer interface [DirectShow]","described","IMpeg2DemultiplexerInterface","dshow.impeg2demultiplexer","strmif/IMpeg2Demultiplexer"]
 old-location: dshow\impeg2demultiplexer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e9242b96-0fc3-428e-b7ee-91a4f5e67305
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], IMpeg2Demultiplexer interface [DirectShow],described, IMpeg2DemultiplexerInterface, dshow.impeg2demultiplexer, strmif/IMpeg2Demultiplexer

@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IDataObject
 title: IDataObject (objidl.h)
-description: Enables data transfer and notification of changes in data.helpviewer_keywords: ["IDataObject","IDataObject interface [COM]","IDataObject interface [COM]","described","_ole_idataobject","com.idataobject","objidl/IDataObject"]
+description: Enables data transfer and notification of changes in data.
+helpviewer_keywords: ["IDataObject","IDataObject interface [COM]","IDataObject interface [COM]","described","_ole_idataobject","com.idataobject","objidl/IDataObject"]
 old-location: com\idataobject.htm
 tech.root: com
 ms.assetid: 8a002deb-2727-456c-8078-a9b0d5893ed4

@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt.__BCRYPT_KEY_LENGTHS_STRUCT
 title: BCRYPT_KEY_LENGTHS_STRUCT (bcrypt.h)
-description: Defines the range of key sizes that are supported by the provider.helpviewer_keywords: ["BCRYPT_AUTH_TAG_LENGTHS_STRUCT","BCRYPT_AUTH_TAG_LENGTHS_STRUCT structure [Security]","BCRYPT_KEY_LENGTHS_STRUCT","BCRYPT_KEY_LENGTHS_STRUCT structure [Security]","bcrypt/BCRYPT_AUTH_TAG_LENGTHS_STRUCT","bcrypt/BCRYPT_KEY_LENGTHS_STRUCT","security.bcrypt_key_lengths_struct"]
+description: Defines the range of key sizes that are supported by the provider.
+helpviewer_keywords: ["BCRYPT_AUTH_TAG_LENGTHS_STRUCT","BCRYPT_AUTH_TAG_LENGTHS_STRUCT structure [Security]","BCRYPT_KEY_LENGTHS_STRUCT","BCRYPT_KEY_LENGTHS_STRUCT structure [Security]","bcrypt/BCRYPT_AUTH_TAG_LENGTHS_STRUCT","bcrypt/BCRYPT_KEY_LENGTHS_STRUCT","security.bcrypt_key_lengths_struct"]
 old-location: security\bcrypt_key_lengths_struct.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 0ce50187-6376-4e14-aaa8-ecc401c7a973
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_AUTH_TAG_LENGTHS_STRUCT, BCRYPT_AUTH_TAG_LENGTHS_STRUCT structure [Security], BCRYPT_KEY_LENGTHS_STRUCT, BCRYPT_KEY_LENGTHS_STRUCT structure [Security], bcrypt/BCRYPT_AUTH_TAG_LENGTHS_STRUCT, bcrypt/BCRYPT_KEY_LENGTHS_STRUCT, security.bcrypt_key_lengths_struct

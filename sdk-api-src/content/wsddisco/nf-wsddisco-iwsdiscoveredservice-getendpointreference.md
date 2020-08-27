@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetEndpointReference
 title: IWSDiscoveredService::GetEndpointReference (wsddisco.h)
-description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.helpviewer_keywords: ["GetEndpointReference","GetEndpointReference method","GetEndpointReference method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetEndpointReference method","IWSDiscoveredService.GetEndpointReference","IWSDiscoveredService::GetEndpointReference","ncd.iwsdiscoveredservice_getendpointreference","wsddisco/IWSDiscoveredService::GetEndpointReference"]
+description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.
+helpviewer_keywords: ["GetEndpointReference","GetEndpointReference method","GetEndpointReference method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetEndpointReference method","IWSDiscoveredService.GetEndpointReference","IWSDiscoveredService::GetEndpointReference","ncd.iwsdiscoveredservice_getendpointreference","wsddisco/IWSDiscoveredService::GetEndpointReference"]
 old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.date: 12/05/2018
 ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointReference method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetEndpointReference method, IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference

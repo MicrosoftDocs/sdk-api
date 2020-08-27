@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._GET_LENGTH_INFORMATION
 title: GET_LENGTH_INFORMATION
-description: Contains disk, volume, or partition length information used by the IOCTL_DISK_GET_LENGTH_INFO control code.helpviewer_keywords: ["*PGET_LENGTH_INFORMATION","GET_LENGTH_INFORMATION","GET_LENGTH_INFORMATION structure [Files]","_win32_get_length_information_str","base.get_length_information_str","fs.get_length_information_str","winioctl/GET_LENGTH_INFORMATION"]
+description: Contains disk, volume, or partition length information used by the IOCTL_DISK_GET_LENGTH_INFO control code.
+helpviewer_keywords: ["*PGET_LENGTH_INFORMATION","GET_LENGTH_INFORMATION","GET_LENGTH_INFORMATION structure [Files]","_win32_get_length_information_str","base.get_length_information_str","fs.get_length_information_str","winioctl/GET_LENGTH_INFORMATION"]
 old-location: fs\get_length_information_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a0d2a5bc-32e0-47d6-a4f0-84bd7f6bb746
 ms.date: 12/05/2018
 ms.keywords: '*PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION structure [Files], _win32_get_length_information_str, base.get_length_information_str, fs.get_length_information_str, winioctl/GET_LENGTH_INFORMATION'

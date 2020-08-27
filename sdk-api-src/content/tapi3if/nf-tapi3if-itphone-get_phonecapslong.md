@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PhoneCapsLong
 title: ITPhone::get_PhoneCapsLong (tapi3if.h)
-description: The get_PhoneCapsLong method gets a DWORD capability of the phone, based on the PHONECAPS_LONG enum passed in. The application does not have to call ITPhone::Open before executing this method.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_PhoneCapsLong method","ITPhone.get_PhoneCapsLong","ITPhone::get_PhoneCapsLong","_tapi3_itphone_get_phonecapslong","get_PhoneCapsLong","get_PhoneCapsLong method [TAPI 2.2]","get_PhoneCapsLong method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_phonecapslong","tapi3if/ITPhone::get_PhoneCapsLong"]
+description: The get_PhoneCapsLong method gets a DWORD capability of the phone, based on the PHONECAPS_LONG enum passed in. The application does not have to call ITPhone::Open before executing this method.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_PhoneCapsLong method","ITPhone.get_PhoneCapsLong","ITPhone::get_PhoneCapsLong","_tapi3_itphone_get_phonecapslong","get_PhoneCapsLong","get_PhoneCapsLong method [TAPI 2.2]","get_PhoneCapsLong method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_phonecapslong","tapi3if/ITPhone::get_PhoneCapsLong"]
 old-location: tapi3\itphone_get_phonecapslong.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9d7804a7-616b-4efc-9f3b-6d7b1fda1bf6
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsLong method, ITPhone.get_PhoneCapsLong, ITPhone::get_PhoneCapsLong, _tapi3_itphone_get_phonecapslong, get_PhoneCapsLong, get_PhoneCapsLong method [TAPI 2.2], get_PhoneCapsLong method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapslong, tapi3if/ITPhone::get_PhoneCapsLong

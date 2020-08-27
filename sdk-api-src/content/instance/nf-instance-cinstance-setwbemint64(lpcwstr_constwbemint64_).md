@@ -1,9 +1,10 @@
 ---
-UID: NF:instance.CInstance.SetWBEMINT64(LPCWSTR,const WBEMINT64 &)
+UID: NF:instance.CInstance.SetWBEMINT64(LPCWSTR,constWBEMINT64&)
 title: CInstance::SetWBEMINT64 (instance.h)
-description: The SetWBEMINT64(LPCWSTR, const LONGLONG&) method sets a 64-bit integer value.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetWBEMINT64 method","CInstance.SetWBEMINT64","CInstance::SetWBEMINT64","CInstance::SetWBEMINT64(LPCWSTR","const LONGLONG&)","SetWBEMINT64","SetWBEMINT64 method [Windows Management Instrumentation]","SetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::SetWBEMINT64","wmi.cinstance_setwbemint64_lpcwstr__const_longlong_"]
+description: The SetWBEMINT64(LPCWSTR, const LONGLONG&) method sets a 64-bit integer value.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetWBEMINT64 method","CInstance.SetWBEMINT64","CInstance::SetWBEMINT64","CInstance::SetWBEMINT64(LPCWSTR","const LONGLONG&)","SetWBEMINT64","SetWBEMINT64 method [Windows Management Instrumentation]","SetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::SetWBEMINT64","wmi.cinstance_setwbemint64_lpcwstr__const_longlong_"]
 old-location: wmi\cinstance_setwbemint64_lpcwstr__const_longlong_.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: dd06ecb9-0a7f-4487-8143-80418d28f3bb
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetWBEMINT64 method, CInstance.SetWBEMINT64, CInstance::SetWBEMINT64, CInstance::SetWBEMINT64(LPCWSTR,const LONGLONG&), SetWBEMINT64, SetWBEMINT64 method [Windows Management Instrumentation], SetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetWBEMINT64, wmi.cinstance_setwbemint64_lpcwstr__const_longlong_
@@ -69,7 +70,7 @@ The <b>SetWBEMINT64(LPCWSTR, const LONGLONG&amp;)</b> method sets a 64-bit integ
 Name of the 64-bit integer property that is set.
 
 
-#### - wbemint64 [ref]
+### -param wbemint64 [ref]
 
 Value assigned to the 64-bit integer property.
 

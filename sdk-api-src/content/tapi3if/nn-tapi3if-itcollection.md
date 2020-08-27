@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITCollection
 title: ITCollection (tapi3if.h)
-description: The ITCollection interface allows Automation client applications, such as those written in Visual Basic, to retrieve collection information.helpviewer_keywords: ["ITCollection","ITCollection interface [TAPI 2.2]","ITCollection interface [TAPI 2.2]","described","_tapi3_itcollection","tapi3.itcollection","tapi3if/ITCollection"]
+description: The ITCollection interface allows Automation client applications, such as those written in Visual Basic, to retrieve collection information.
+helpviewer_keywords: ["ITCollection","ITCollection interface [TAPI 2.2]","ITCollection interface [TAPI 2.2]","described","_tapi3_itcollection","tapi3.itcollection","tapi3if/ITCollection"]
 old-location: tapi3\itcollection.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2286678a-68b9-4f4a-b36b-7fdf8cdad6a6
 ms.date: 12/05/2018
 ms.keywords: ITCollection, ITCollection interface [TAPI 2.2], ITCollection interface [TAPI 2.2],described, _tapi3_itcollection, tapi3.itcollection, tapi3if/ITCollection

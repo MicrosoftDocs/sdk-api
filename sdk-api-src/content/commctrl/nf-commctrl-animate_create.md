@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Animate_Create
 title: Animate_Create macro (commctrl.h)
-description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.helpviewer_keywords: ["Animate_Create","Animate_Create macro [Windows Controls]","_win32_Animate_Create","_win32_Animate_Create_cpp","commctrl/Animate_Create","controls.Animate_Create","controls._win32_Animate_Create"]
+description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
+helpviewer_keywords: ["Animate_Create","Animate_Create macro [Windows Controls]","_win32_Animate_Create","_win32_Animate_Create_cpp","commctrl/Animate_Create","controls.Animate_Create","controls._win32_Animate_Create"]
 old-location: controls\Animate_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm

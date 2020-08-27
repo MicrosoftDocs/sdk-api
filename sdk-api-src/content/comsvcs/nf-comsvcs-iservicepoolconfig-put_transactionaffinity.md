@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_TransactionAffinity
 title: IServicePoolConfig::put_TransactionAffinity (comsvcs.h)
-description: Sets whether objects involved in transactions are held until the transaction completes.helpviewer_keywords: ["IServicePoolConfig interface [COM+]","put_TransactionAffinity method","IServicePoolConfig.put_TransactionAffinity","IServicePoolConfig::put_TransactionAffinity","comsvcs/IServicePoolConfig::put_TransactionAffinity","cos.iservicepoolconfig_put_transactionaffinity","put_TransactionAffinity","put_TransactionAffinity method [COM+]","put_TransactionAffinity method [COM+]","IServicePoolConfig interface"]
+description: Sets whether objects involved in transactions are held until the transaction completes.
+helpviewer_keywords: ["IServicePoolConfig interface [COM+]","put_TransactionAffinity method","IServicePoolConfig.put_TransactionAffinity","IServicePoolConfig::put_TransactionAffinity","comsvcs/IServicePoolConfig::put_TransactionAffinity","cos.iservicepoolconfig_put_transactionaffinity","put_TransactionAffinity","put_TransactionAffinity method [COM+]","put_TransactionAffinity method [COM+]","IServicePoolConfig interface"]
 old-location: cos\iservicepoolconfig_put_transactionaffinity.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2f69bae2-560d-455b-b1b4-922c2fb4563a
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_TransactionAffinity method, IServicePoolConfig.put_TransactionAffinity, IServicePoolConfig::put_TransactionAffinity, comsvcs/IServicePoolConfig::put_TransactionAffinity, cos.iservicepoolconfig_put_transactionaffinity, put_TransactionAffinity, put_TransactionAffinity method [COM+], put_TransactionAffinity method [COM+],IServicePoolConfig interface

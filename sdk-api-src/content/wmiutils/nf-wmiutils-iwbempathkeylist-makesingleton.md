@@ -1,9 +1,10 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.MakeSingleton
 title: IWbemPathKeyList::MakeSingleton (wmiutils.h)
-description: The IWbemPathKeyList::MakeSingleton method governs whether or not a key is singleton.helpviewer_keywords: ["IWbemPathKeyList interface [Windows Management Instrumentation]","MakeSingleton method","IWbemPathKeyList.MakeSingleton","IWbemPathKeyList::MakeSingleton","MakeSingleton","MakeSingleton method [Windows Management Instrumentation]","MakeSingleton method [Windows Management Instrumentation]","IWbemPathKeyList interface","_hmm_iwbempathkeylist_makesingleton","wmi.iwbempathkeylist_makesingleton","wmiutils/IWbemPathKeyList::MakeSingleton"]
+description: The IWbemPathKeyList::MakeSingleton method governs whether or not a key is singleton.
+helpviewer_keywords: ["IWbemPathKeyList interface [Windows Management Instrumentation]","MakeSingleton method","IWbemPathKeyList.MakeSingleton","IWbemPathKeyList::MakeSingleton","MakeSingleton","MakeSingleton method [Windows Management Instrumentation]","MakeSingleton method [Windows Management Instrumentation]","IWbemPathKeyList interface","_hmm_iwbempathkeylist_makesingleton","wmi.iwbempathkeylist_makesingleton","wmiutils/IWbemPathKeyList::MakeSingleton"]
 old-location: wmi\iwbempathkeylist_makesingleton.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 6dd7fd31-126c-4702-8e43-3e6b08912b30
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],MakeSingleton method, IWbemPathKeyList.MakeSingleton, IWbemPathKeyList::MakeSingleton, MakeSingleton, MakeSingleton method [Windows Management Instrumentation], MakeSingleton method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_makesingleton, wmi.iwbempathkeylist_makesingleton, wmiutils/IWbemPathKeyList::MakeSingleton

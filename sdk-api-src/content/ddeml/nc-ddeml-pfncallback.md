@@ -1,7 +1,8 @@
 ---
 UID: NC:ddeml.PFNCALLBACK
 title: PFNCALLBACK (ddeml.h)
-description: An application-defined callback function used with the Dynamic Data Exchange Management Library (DDEML) functions.helpviewer_keywords: ["PFNCALLBACK","PFNCALLBACK callback","PFNCALLBACK callback function [Data Exchange]","XCLASS_BOOL","XCLASS_DATA","XCLASS_FLAGS","XCLASS_NOTIFICATION","_win32_DdeCallback","_win32_ddecallback_cpp","dataxchg.ddecallback","ddeml/PFNCALLBACK","winui._win32_ddecallback"]
+description: An application-defined callback function used with the Dynamic Data Exchange Management Library (DDEML) functions.
+helpviewer_keywords: ["PFNCALLBACK","PFNCALLBACK callback","PFNCALLBACK callback function [Data Exchange]","XCLASS_BOOL","XCLASS_DATA","XCLASS_FLAGS","XCLASS_NOTIFICATION","_win32_DdeCallback","_win32_ddecallback_cpp","dataxchg.ddecallback","ddeml/PFNCALLBACK","winui._win32_ddecallback"]
 old-location: dataxchg\ddecallback.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecallback.htm
@@ -98,14 +99,14 @@ Type: <b>ULONG_PTR</b>
 Transaction-specific data. For the meaning of this parameter, see the description of the transaction type. 
 
 
-#### - hconv [in]
+### -param hconv [in]
 
 Type: <b>HCONV</b>
 
 A handle to the conversation associated with the current transaction. 
 
 
-#### - hdata [in]
+### -param hdata [in]
 
 Type: <b>HDDEDATA</b>
 

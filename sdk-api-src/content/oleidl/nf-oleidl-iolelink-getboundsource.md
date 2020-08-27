@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleLink.GetBoundSource
 title: IOleLink::GetBoundSource (oleidl.h)
-description: Retrieves a pointer to the link source if the connection is active.helpviewer_keywords: ["GetBoundSource","GetBoundSource method [COM]","GetBoundSource method [COM]","IOleLink interface","IOleLink interface [COM]","GetBoundSource method","IOleLink.GetBoundSource","IOleLink::GetBoundSource","_ole_iolelink_getboundsource","com.iolelink_getboundsource","oleidl/IOleLink::GetBoundSource"]
+description: Retrieves a pointer to the link source if the connection is active.
+helpviewer_keywords: ["GetBoundSource","GetBoundSource method [COM]","GetBoundSource method [COM]","IOleLink interface","IOleLink interface [COM]","GetBoundSource method","IOleLink.GetBoundSource","IOleLink::GetBoundSource","_ole_iolelink_getboundsource","com.iolelink_getboundsource","oleidl/IOleLink::GetBoundSource"]
 old-location: com\iolelink_getboundsource.htm
 tech.root: com
 ms.assetid: 37d24337-eacc-453a-9a90-043ec9b35e9c

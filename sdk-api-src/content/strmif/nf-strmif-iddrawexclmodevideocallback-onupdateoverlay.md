@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateOverlay
 title: IDDrawExclModeVideoCallback::OnUpdateOverlay (strmif.h)
-description: The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.helpviewer_keywords: ["IDDrawExclModeVideoCallback interface [DirectShow]","OnUpdateOverlay method","IDDrawExclModeVideoCallback.OnUpdateOverlay","IDDrawExclModeVideoCallback::OnUpdateOverlay","IDDrawExclModeVideoCallbackOnUpdateOverlay","OnUpdateOverlay","OnUpdateOverlay method [DirectShow]","OnUpdateOverlay method [DirectShow]","IDDrawExclModeVideoCallback interface","dshow.iddrawexclmodevideocallback_onupdateoverlay","strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay"]
+description: The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.
+helpviewer_keywords: ["IDDrawExclModeVideoCallback interface [DirectShow]","OnUpdateOverlay method","IDDrawExclModeVideoCallback.OnUpdateOverlay","IDDrawExclModeVideoCallback::OnUpdateOverlay","IDDrawExclModeVideoCallbackOnUpdateOverlay","OnUpdateOverlay","OnUpdateOverlay method [DirectShow]","OnUpdateOverlay method [DirectShow]","IDDrawExclModeVideoCallback interface","dshow.iddrawexclmodevideocallback_onupdateoverlay","strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay"]
 old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay

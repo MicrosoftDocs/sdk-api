@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFCreateSensorGroup
 title: MFCreateSensorGroup function (mfidl.h)
-description: Creates an instance of the IMFSensorGroup interface based on the provided symbolic link name.helpviewer_keywords: ["MFCreateSensorGroup","MFCreateSensorGroup function [Media Foundation]","mf.mfcreatesensorgroup","mfidl/MFCreateSensorGroup"]
+description: Creates an instance of the IMFSensorGroup interface based on the provided symbolic link name.
+helpviewer_keywords: ["MFCreateSensorGroup","MFCreateSensorGroup function [Media Foundation]","mf.mfcreatesensorgroup","mfidl/MFCreateSensorGroup"]
 old-location: mf\mfcreatesensorgroup.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup

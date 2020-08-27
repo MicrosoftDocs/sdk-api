@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IInstallationProgressChangedCallbackArgs
 title: IInstallationProgressChangedCallbackArgs (wuapi.h)
-description: Contains information about the change in the progress of an asynchronous installation or uninstallation at the time the callback was made.helpviewer_keywords: ["IInstallationProgressChangedCallbackArgs","IInstallationProgressChangedCallbackArgs interface [Windows Update Agent]","IInstallationProgressChangedCallbackArgs interface [Windows Update Agent]","described","wua.iinstallationprogresschangedcallbackargs","wuapi/IInstallationProgressChangedCallbackArgs"]
+description: Contains information about the change in the progress of an asynchronous installation or uninstallation at the time the callback was made.
+helpviewer_keywords: ["IInstallationProgressChangedCallbackArgs","IInstallationProgressChangedCallbackArgs interface [Windows Update Agent]","IInstallationProgressChangedCallbackArgs interface [Windows Update Agent]","described","wua.iinstallationprogresschangedcallbackargs","wuapi/IInstallationProgressChangedCallbackArgs"]
 old-location: wua\iinstallationprogresschangedcallbackargs.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 9175bcaf-8015-466d-ae0c-7ba685bdf192
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs, IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallbackargs, wuapi/IInstallationProgressChangedCallbackArgs

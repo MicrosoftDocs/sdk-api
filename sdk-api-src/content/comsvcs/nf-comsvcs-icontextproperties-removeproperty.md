@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IContextProperties.RemoveProperty
 title: IContextProperties::RemoveProperty (comsvcs.h)
-description: Removes a context object property.helpviewer_keywords: ["IContextProperties interface [COM+]","RemoveProperty method","IContextProperties.RemoveProperty","IContextProperties::RemoveProperty","RemoveProperty","RemoveProperty method [COM+]","RemoveProperty method [COM+]","IContextProperties interface","_cos_IContextProperties_RemoveProperty","comsvcs/IContextProperties::RemoveProperty","cos.icontextproperties_removeproperty"]
+description: Removes a context object property.
+helpviewer_keywords: ["IContextProperties interface [COM+]","RemoveProperty method","IContextProperties.RemoveProperty","IContextProperties::RemoveProperty","RemoveProperty","RemoveProperty method [COM+]","RemoveProperty method [COM+]","IContextProperties interface","_cos_IContextProperties_RemoveProperty","comsvcs/IContextProperties::RemoveProperty","cos.icontextproperties_removeproperty"]
 old-location: cos\icontextproperties_removeproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 112c9e08-de15-4e46-934a-5e57a1a52adc
 ms.date: 12/05/2018
 ms.keywords: IContextProperties interface [COM+],RemoveProperty method, IContextProperties.RemoveProperty, IContextProperties::RemoveProperty, RemoveProperty, RemoveProperty method [COM+], RemoveProperty method [COM+],IContextProperties interface, _cos_IContextProperties_RemoveProperty, comsvcs/IContextProperties::RemoveProperty, cos.icontextproperties_removeproperty

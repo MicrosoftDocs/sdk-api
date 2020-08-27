@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingMode
 title: IVMRFilterConfig9::SetRenderingMode (vmr9.h)
-description: The SetRenderingMode method sets the rendering mode used by the VMR.helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetRenderingMode method","IVMRFilterConfig9.SetRenderingMode","IVMRFilterConfig9::SetRenderingMode","IVMRFilterConfig9SetRenderingMode","SetRenderingMode","SetRenderingMode method [DirectShow]","SetRenderingMode method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setrenderingmode","vmr9/IVMRFilterConfig9::SetRenderingMode"]
+description: The SetRenderingMode method sets the rendering mode used by the VMR.
+helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetRenderingMode method","IVMRFilterConfig9.SetRenderingMode","IVMRFilterConfig9::SetRenderingMode","IVMRFilterConfig9SetRenderingMode","SetRenderingMode","SetRenderingMode method [DirectShow]","SetRenderingMode method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setrenderingmode","vmr9/IVMRFilterConfig9::SetRenderingMode"]
 old-location: dshow\ivmrfilterconfig9_setrenderingmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d7a27d7c-5cd4-4a20-ba15-7056d502e3e3
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingMode method, IVMRFilterConfig9.SetRenderingMode, IVMRFilterConfig9::SetRenderingMode, IVMRFilterConfig9SetRenderingMode, SetRenderingMode, SetRenderingMode method [DirectShow], SetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setrenderingmode, vmr9/IVMRFilterConfig9::SetRenderingMode

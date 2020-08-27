@@ -1,9 +1,10 @@
 ---
 UID: NS:dvdmedia._DVD_REGION
 title: DVD_REGION (dvdmedia.h)
-description: Identifies the DVD region as reported by the local system components.helpviewer_keywords: ["*PDVD_REGION","DVD_REGION","DVD_REGION structure [DirectShow]","DVD_REGIONStructure","PDVD_REGION","PDVD_REGION structure pointer [DirectShow]","dshow.dvd_region","dvdmedia/DVD_REGION","dvdmedia/PDVD_REGION"]
+description: Identifies the DVD region as reported by the local system components.
+helpviewer_keywords: ["*PDVD_REGION","DVD_REGION","DVD_REGION structure [DirectShow]","DVD_REGIONStructure","PDVD_REGION","PDVD_REGION structure pointer [DirectShow]","dshow.dvd_region","dvdmedia/DVD_REGION","dvdmedia/PDVD_REGION"]
 old-location: dshow\dvd_region.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2a555f98-5037-4a99-a1b7-bea36527309b
 ms.date: 12/05/2018
 ms.keywords: '*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_REGIONStructure, PDVD_REGION, PDVD_REGION structure pointer [DirectShow], dshow.dvd_region, dvdmedia/DVD_REGION, dvdmedia/PDVD_REGION'

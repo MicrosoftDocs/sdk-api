@@ -1,9 +1,10 @@
 ---
 UID: NS:mfplay.MFP_RATE_SET_EVENT
 title: MFP_RATE_SET_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_RATE_SET event.helpviewer_keywords: ["MFP_RATE_SET_EVENT","MFP_RATE_SET_EVENT structure [Media Foundation]","mf.mfp_rate_set_event","mfplay/MFP_RATE_SET_EVENT"]
+description: Event structure for the MFP_EVENT_TYPE_RATE_SET event.
+helpviewer_keywords: ["MFP_RATE_SET_EVENT","MFP_RATE_SET_EVENT structure [Media Foundation]","mf.mfp_rate_set_event","mfplay/MFP_RATE_SET_EVENT"]
 old-location: mf\mfp_rate_set_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 19e3bcb0-340a-46dc-bfda-62890ec9a8ae
 ms.date: 12/05/2018
 ms.keywords: MFP_RATE_SET_EVENT, MFP_RATE_SET_EVENT structure [Media Foundation], mf.mfp_rate_set_event, mfplay/MFP_RATE_SET_EVENT

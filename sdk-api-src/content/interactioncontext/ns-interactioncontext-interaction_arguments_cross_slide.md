@@ -1,9 +1,10 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_CROSS_SLIDE
 title: INTERACTION_ARGUMENTS_CROSS_SLIDE (interactioncontext.h)
-description: Defines the state of the cross-slide interaction.helpviewer_keywords: ["INTERACTION_ARGUMENTS_CROSS_SLIDE","INTERACTION_ARGUMENTS_CROSS_SLIDE structure","input_intcontext.interaction_arguments_cross_slide","interactioncontext.interaction_arguments_cross_slide","interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE"]
+description: Defines the state of the cross-slide interaction.
+helpviewer_keywords: ["INTERACTION_ARGUMENTS_CROSS_SLIDE","INTERACTION_ARGUMENTS_CROSS_SLIDE structure","input_intcontext.interaction_arguments_cross_slide","interactioncontext.interaction_arguments_cross_slide","interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE"]
 old-location: input_intcontext\interaction_arguments_cross_slide.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 365b0bed-888e-4e9c-ad13-254a241b9de9
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_CROSS_SLIDE, INTERACTION_ARGUMENTS_CROSS_SLIDE structure, input_intcontext.interaction_arguments_cross_slide, interactioncontext.interaction_arguments_cross_slide, interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE

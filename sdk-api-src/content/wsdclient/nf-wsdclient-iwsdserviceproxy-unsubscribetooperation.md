@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.UnsubscribeToOperation
 title: IWSDServiceProxy::UnsubscribeToOperation (wsdclient.h)
-description: Cancels a subscription to a notification or solicit/response event.helpviewer_keywords: ["IWSDServiceProxy interface","UnsubscribeToOperation method","IWSDServiceProxy.UnsubscribeToOperation","IWSDServiceProxy::UnsubscribeToOperation","UnsubscribeToOperation","UnsubscribeToOperation method","UnsubscribeToOperation method","IWSDServiceProxy interface","ncd.iwsdserviceproxy_unsubscribetooperation_method","wsdclient/IWSDServiceProxy::UnsubscribeToOperation"]
+description: Cancels a subscription to a notification or solicit/response event.
+helpviewer_keywords: ["IWSDServiceProxy interface","UnsubscribeToOperation method","IWSDServiceProxy.UnsubscribeToOperation","IWSDServiceProxy::UnsubscribeToOperation","UnsubscribeToOperation","UnsubscribeToOperation method","UnsubscribeToOperation method","IWSDServiceProxy interface","ncd.iwsdserviceproxy_unsubscribetooperation_method","wsdclient/IWSDServiceProxy::UnsubscribeToOperation"]
 old-location: ncd\iwsdserviceproxy_unsubscribetooperation_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b306239c-95a4-4a1d-990c-193237bad275
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy interface,UnsubscribeToOperation method, IWSDServiceProxy.UnsubscribeToOperation, IWSDServiceProxy::UnsubscribeToOperation, UnsubscribeToOperation, UnsubscribeToOperation method, UnsubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_unsubscribetooperation_method, wsdclient/IWSDServiceProxy::UnsubscribeToOperation

@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadRECTL
 title: PSPropertyBag_ReadRECTL function (propsys.h)
-description: Retrieves the coordinates of a rectangle stored in a property contained in a specified property bag.helpviewer_keywords: ["PSPropertyBag_ReadRECTL","PSPropertyBag_ReadRECTL function [Windows Properties]","properties.PSPropertyBag_ReadRECTL","propsys/PSPropertyBag_ReadRECTL","shell.PSPropertyBag_ReadRECTL","shell_PSPropertyBag_ReadRECTL"]
+description: Retrieves the coordinates of a rectangle stored in a property contained in a specified property bag.
+helpviewer_keywords: ["PSPropertyBag_ReadRECTL","PSPropertyBag_ReadRECTL function [Windows Properties]","properties.PSPropertyBag_ReadRECTL","propsys/PSPropertyBag_ReadRECTL","shell.PSPropertyBag_ReadRECTL","shell_PSPropertyBag_ReadRECTL"]
 old-location: properties\PSPropertyBag_ReadRECTL.htm
 tech.root: properties
 ms.assetid: 4DAABF63-7CBA-4361-9E58-7072869CFDEC

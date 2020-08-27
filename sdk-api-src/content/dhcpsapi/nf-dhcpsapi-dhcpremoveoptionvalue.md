@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionValue
 title: DhcpRemoveOptionValue function (dhcpsapi.h)
-description: Removes the option value for a specific option on the DHCP4 server for the default user class and vendor class, for the specified scope.helpviewer_keywords: ["DhcpRemoveOptionValue","DhcpRemoveOptionValue function [DHCP]","dhcp.dhcpremoveoptionvalue","dhcpsapi/DhcpRemoveOptionValue"]
+description: Removes the option value for a specific option on the DHCP4 server for the default user class and vendor class, for the specified scope.
+helpviewer_keywords: ["DhcpRemoveOptionValue","DhcpRemoveOptionValue function [DHCP]","dhcp.dhcpremoveoptionvalue","dhcpsapi/DhcpRemoveOptionValue"]
 old-location: dhcp\dhcpremoveoptionvalue.htm
 tech.root: DHCP
 ms.assetid: e370760c-d392-4e2e-a95c-7213ce593f77

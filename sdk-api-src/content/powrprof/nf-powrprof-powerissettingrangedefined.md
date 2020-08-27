@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.PowerIsSettingRangeDefined
 title: PowerIsSettingRangeDefined function (powrprof.h)
-description: Queries whether the specified power setting represents a range of possible values.helpviewer_keywords: ["PowerIsSettingRangeDefined","PowerIsSettingRangeDefined function","base.powerissettingrangedefined","powrprof/PowerIsSettingRangeDefined"]
+description: Queries whether the specified power setting represents a range of possible values.
+helpviewer_keywords: ["PowerIsSettingRangeDefined","PowerIsSettingRangeDefined function","base.powerissettingrangedefined","powrprof/PowerIsSettingRangeDefined"]
 old-location: base\powerissettingrangedefined.htm
-tech.root: power
+tech.root: base
 ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
 ms.date: 12/05/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined

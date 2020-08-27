@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.LayerParameters1
 title: LayerParameters1 function (d2d1_1helper.h)
-description: Returns a D2D1_LAYER_PARAMETERS1 struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.helpviewer_keywords: ["LayerParameters1","LayerParameters1 function [Direct2D]","d2d1_1helper/LayerParameters1","direct2d.layerparameters1"]
+description: Returns a D2D1_LAYER_PARAMETERS1 struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
+helpviewer_keywords: ["LayerParameters1","LayerParameters1 function [Direct2D]","d2d1_1helper/LayerParameters1","direct2d.layerparameters1"]
 old-location: direct2d\layerparameters1.htm
 tech.root: Direct2D
 ms.assetid: 8E882B23-CD6C-4CEB-9297-837B4E278BB7

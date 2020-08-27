@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IAMFilterGraphCallback
 title: IAMFilterGraphCallback (strmif.h)
-description: The IAMFilterGraphCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.helpviewer_keywords: ["IAMFilterGraphCallback","IAMFilterGraphCallback interface [DirectShow]","IAMFilterGraphCallback interface [DirectShow]","described","IAMFilterGraphCallbackInterface","dshow.iamfiltergraphcallback","strmif/IAMFilterGraphCallback"]
+description: The IAMFilterGraphCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
+helpviewer_keywords: ["IAMFilterGraphCallback","IAMFilterGraphCallback interface [DirectShow]","IAMFilterGraphCallback interface [DirectShow]","described","IAMFilterGraphCallbackInterface","dshow.iamfiltergraphcallback","strmif/IAMFilterGraphCallback"]
 old-location: dshow\iamfiltergraphcallback.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 064acc6a-ba2f-4394-a3bf-a9b70e30e07e
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback, IAMFilterGraphCallback interface [DirectShow], IAMFilterGraphCallback interface [DirectShow],described, IAMFilterGraphCallbackInterface, dshow.iamfiltergraphcallback, strmif/IAMFilterGraphCallback

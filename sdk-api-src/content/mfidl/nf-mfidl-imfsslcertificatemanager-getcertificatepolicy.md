@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.GetCertificatePolicy
 title: IMFSSLCertificateManager::GetCertificatePolicy (mfidl.h)
-description: Indicates whether the server SSL certificate must be verified by the caller, Media Foundation, or the IMFSSLCertificateManager implementation class.helpviewer_keywords: ["GetCertificatePolicy","GetCertificatePolicy method [Media Foundation]","GetCertificatePolicy method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","GetCertificatePolicy method","IMFSSLCertificateManager.GetCertificatePolicy","IMFSSLCertificateManager::GetCertificatePolicy","mf.imfsslcertificatemanager_getcertificatepolicy","mfidl/IMFSSLCertificateManager::GetCertificatePolicy"]
+description: Indicates whether the server SSL certificate must be verified by the caller, Media Foundation, or the IMFSSLCertificateManager implementation class.
+helpviewer_keywords: ["GetCertificatePolicy","GetCertificatePolicy method [Media Foundation]","GetCertificatePolicy method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","GetCertificatePolicy method","IMFSSLCertificateManager.GetCertificatePolicy","IMFSSLCertificateManager::GetCertificatePolicy","mf.imfsslcertificatemanager_getcertificatepolicy","mfidl/IMFSSLCertificateManager::GetCertificatePolicy"]
 old-location: mf\imfsslcertificatemanager_getcertificatepolicy.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 343f86ca-0036-4324-b3ca-4dba8fbc26a8
 ms.date: 12/05/2018
 ms.keywords: GetCertificatePolicy, GetCertificatePolicy method [Media Foundation], GetCertificatePolicy method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetCertificatePolicy method, IMFSSLCertificateManager.GetCertificatePolicy, IMFSSLCertificateManager::GetCertificatePolicy, mf.imfsslcertificatemanager_getcertificatepolicy, mfidl/IMFSSLCertificateManager::GetCertificatePolicy

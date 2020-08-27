@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetAlpha
 title: IVMRMixerControl9::GetAlpha (vmr9.h)
-description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.helpviewer_keywords: ["GetAlpha","GetAlpha method [DirectShow]","GetAlpha method [DirectShow]","IVMRMixerControl9 interface","IVMRMixerControl9 interface [DirectShow]","GetAlpha method","IVMRMixerControl9.GetAlpha","IVMRMixerControl9::GetAlpha","IVMRMixerControl9GetAlpha","dshow.ivmrmixercontrol9_getalpha","vmr9/IVMRMixerControl9::GetAlpha"]
+description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
+helpviewer_keywords: ["GetAlpha","GetAlpha method [DirectShow]","GetAlpha method [DirectShow]","IVMRMixerControl9 interface","IVMRMixerControl9 interface [DirectShow]","GetAlpha method","IVMRMixerControl9.GetAlpha","IVMRMixerControl9::GetAlpha","IVMRMixerControl9GetAlpha","dshow.ivmrmixercontrol9_getalpha","vmr9/IVMRMixerControl9::GetAlpha"]
 old-location: dshow\ivmrmixercontrol9_getalpha.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0806f27c-4728-4492-a2ac-26067b7c0aaa
 ms.date: 12/05/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetAlpha method, IVMRMixerControl9.GetAlpha, IVMRMixerControl9::GetAlpha, IVMRMixerControl9GetAlpha, dshow.ivmrmixercontrol9_getalpha, vmr9/IVMRMixerControl9::GetAlpha

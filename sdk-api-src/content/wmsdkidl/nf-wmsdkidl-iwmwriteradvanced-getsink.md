@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSink
 title: IWMWriterAdvanced::GetSink (wmsdkidl.h)
-description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.helpviewer_keywords: ["GetSink","GetSink method [windows Media Format]","GetSink method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetSink method","IWMWriterAdvanced.GetSink","IWMWriterAdvanced::GetSink","IWMWriterAdvancedGetSink","wmformat.iwmwriteradvanced_getsink","wmsdkidl/IWMWriterAdvanced::GetSink"]
+description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.
+helpviewer_keywords: ["GetSink","GetSink method [windows Media Format]","GetSink method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetSink method","IWMWriterAdvanced.GetSink","IWMWriterAdvanced::GetSink","IWMWriterAdvancedGetSink","wmformat.iwmwriteradvanced_getsink","wmsdkidl/IWMWriterAdvanced::GetSink"]
 old-location: wmformat\iwmwriteradvanced_getsink.htm
 tech.root: wmformat
 ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61

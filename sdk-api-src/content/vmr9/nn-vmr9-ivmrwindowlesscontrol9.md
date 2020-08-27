@@ -1,9 +1,10 @@
 ---
 UID: NN:vmr9.IVMRWindowlessControl9
 title: IVMRWindowlessControl9 (vmr9.h)
-description: The IVMRWindowlessControl9 interface controls how the Video Mixing Renderer Filter 9 (VMR-9) renders a video stream within a container window.helpviewer_keywords: ["IVMRWindowlessControl9","IVMRWindowlessControl9 interface [DirectShow]","IVMRWindowlessControl9 interface [DirectShow]","described","IVMRWindowlessControl9Interface","dshow.ivmrwindowlesscontrol9","vmr9/IVMRWindowlessControl9"]
+description: The IVMRWindowlessControl9 interface controls how the Video Mixing Renderer Filter 9 (VMR-9) renders a video stream within a container window.
+helpviewer_keywords: ["IVMRWindowlessControl9","IVMRWindowlessControl9 interface [DirectShow]","IVMRWindowlessControl9 interface [DirectShow]","described","IVMRWindowlessControl9Interface","dshow.ivmrwindowlesscontrol9","vmr9/IVMRWindowlessControl9"]
 old-location: dshow\ivmrwindowlesscontrol9.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9db99c31-65b5-4ff1-9c0d-22140a3687e8
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], IVMRWindowlessControl9 interface [DirectShow],described, IVMRWindowlessControl9Interface, dshow.ivmrwindowlesscontrol9, vmr9/IVMRWindowlessControl9

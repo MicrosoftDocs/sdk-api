@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.operator-assign
 title: XMHALF4::operator-assign (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMHALF4 to the current instance of XMHALF4.helpviewer_keywords: ["DirectX::PackedVector.XMHALF4.operator =","DirectX::PackedVector::XMHALF4::operator =","XMHALF4 structure [DirectX Math Support APIs]","operator = method","XMHALF4.operator =","XMHALF4.operator-assign","XMHALF4.operator=","XMHALF4::operator-assign","XMHALF4::operator=","dxmath.xmhalf4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMHALF4 structure","operator="]
+description: Assigns the vector component data from one instance of XMHALF4 to the current instance of XMHALF4.
+helpviewer_keywords: ["DirectX::PackedVector.XMHALF4.operator =","DirectX::PackedVector::XMHALF4::operator =","XMHALF4 structure [DirectX Math Support APIs]","operator = method","XMHALF4.operator =","XMHALF4.operator-assign","XMHALF4.operator=","XMHALF4::operator-assign","XMHALF4::operator=","dxmath.xmhalf4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMHALF4 structure","operator="]
 old-location: dxmath\xmhalf4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.operator = (const XMHALF4)

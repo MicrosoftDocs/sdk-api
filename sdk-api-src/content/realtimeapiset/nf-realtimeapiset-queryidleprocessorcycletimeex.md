@@ -1,9 +1,10 @@
 ---
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTimeEx
 title: QueryIdleProcessorCycleTimeEx function (realtimeapiset.h)
-description: Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.helpviewer_keywords: ["QueryIdleProcessorCycleTimeEx","QueryIdleProcessorCycleTimeEx function","base.queryidleprocessorcycletimeex","realtimeapiset/QueryIdleProcessorCycleTimeEx","winbase/QueryIdleProcessorCycleTimeEx"]
+description: Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.
+helpviewer_keywords: ["QueryIdleProcessorCycleTimeEx","QueryIdleProcessorCycleTimeEx function","base.queryidleprocessorcycletimeex","realtimeapiset/QueryIdleProcessorCycleTimeEx","winbase/QueryIdleProcessorCycleTimeEx"]
 old-location: base\queryidleprocessorcycletimeex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 4bf05e40-96d1-4c01-b3a8-8a45934b38c6
 ms.date: 12/05/2018
 ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx function, base.queryidleprocessorcycletimeex, realtimeapiset/QueryIdleProcessorCycleTimeEx, winbase/QueryIdleProcessorCycleTimeEx

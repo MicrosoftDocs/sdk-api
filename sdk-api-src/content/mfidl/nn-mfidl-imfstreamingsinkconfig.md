@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFStreamingSinkConfig
 title: IMFStreamingSinkConfig (mfidl.h)
-description: Passes configuration information to the media sinks that are used for streaming the content.helpviewer_keywords: ["IMFStreamingSinkConfig","IMFStreamingSinkConfig interface [Media Foundation]","IMFStreamingSinkConfig interface [Media Foundation]","described","mf.imfstreamingsinkconfig","mfidl/IMFStreamingSinkConfig"]
+description: Passes configuration information to the media sinks that are used for streaming the content.
+helpviewer_keywords: ["IMFStreamingSinkConfig","IMFStreamingSinkConfig interface [Media Foundation]","IMFStreamingSinkConfig interface [Media Foundation]","described","mf.imfstreamingsinkconfig","mfidl/IMFStreamingSinkConfig"]
 old-location: mf\imfstreamingsinkconfig.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
 ms.date: 12/05/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig

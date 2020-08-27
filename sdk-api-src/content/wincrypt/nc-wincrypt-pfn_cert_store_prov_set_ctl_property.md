@@ -1,9 +1,10 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 title: PFN_CERT_STORE_PROV_SET_CTL_PROPERTY (wincrypt.h)
-description: The CertStoreProvSetCTLProperty callback function determines whether a property can be set on a CTL.helpviewer_keywords: ["CertStoreProvSetCTLProperty","PFN_CERT_STORE_PROV_SET_CTL_PROPERTY","PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback","PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security]","_crypto2_certstoreprovsetctlproperty","security.certstoreprovsetctlproperty","wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY"]
+description: The CertStoreProvSetCTLProperty callback function determines whether a property can be set on a CTL.
+helpviewer_keywords: ["CertStoreProvSetCTLProperty","PFN_CERT_STORE_PROV_SET_CTL_PROPERTY","PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback","PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security]","_crypto2_certstoreprovsetctlproperty","security.certstoreprovsetctlproperty","wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY"]
 old-location: security\certstoreprovsetctlproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d062c875-b8c1-454f-8a0d-2ada74e5028d
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvSetCTLProperty, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY

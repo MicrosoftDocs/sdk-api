@@ -1,9 +1,10 @@
 ---
 UID: NF:peerdist.PeerDistServerOpenContentInformation
 title: PeerDistServerOpenContentInformation function (peerdist.h)
-description: PeerDistServerOpenContentInformation function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.helpviewer_keywords: ["PeerDistServerOpenContentInformation","PeerDistServerOpenContentInformation function [Peer Networking]","p2p.peerdistserveropencontentinformation","peerdist/PeerDistServerOpenContentInformation"]
+description: PeerDistServerOpenContentInformation function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.
+helpviewer_keywords: ["PeerDistServerOpenContentInformation","PeerDistServerOpenContentInformation function [Peer Networking]","p2p.peerdistserveropencontentinformation","peerdist/PeerDistServerOpenContentInformation"]
 old-location: p2p\peerdistserveropencontentinformation.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 17b07141-2786-4192-ba7b-f3210c10aad4
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformation, PeerDistServerOpenContentInformation function [Peer Networking], p2p.peerdistserveropencontentinformation, peerdist/PeerDistServerOpenContentInformation

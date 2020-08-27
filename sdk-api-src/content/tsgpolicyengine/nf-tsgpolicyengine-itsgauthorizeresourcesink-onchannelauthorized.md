@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeResourceSink.OnChannelAuthorized
 title: ITSGAuthorizeResourceSink::OnChannelAuthorized (tsgpolicyengine.h)
-description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.helpviewer_keywords: ["ITSGAuthorizeResourceSink interface [Remote Desktop Services]","OnChannelAuthorized method","ITSGAuthorizeResourceSink.OnChannelAuthorized","ITSGAuthorizeResourceSink::OnChannelAuthorized","OnChannelAuthorized","OnChannelAuthorized method [Remote Desktop Services]","OnChannelAuthorized method [Remote Desktop Services]","ITSGAuthorizeResourceSink interface","termserv.itsgauthorizeresourcesink_onchannelauthorized","tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized"]
+description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
+helpviewer_keywords: ["ITSGAuthorizeResourceSink interface [Remote Desktop Services]","OnChannelAuthorized method","ITSGAuthorizeResourceSink.OnChannelAuthorized","ITSGAuthorizeResourceSink::OnChannelAuthorized","OnChannelAuthorized","OnChannelAuthorized method [Remote Desktop Services]","OnChannelAuthorized method [Remote Desktop Services]","ITSGAuthorizeResourceSink interface","termserv.itsgauthorizeresourcesink_onchannelauthorized","tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized"]
 old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm
 tech.root: TermServ
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29
@@ -111,13 +112,8 @@ You can call this method from your implementation of
     authentication.
 
 
-#### Examples
+For a sample that uses the <b>OnChannelAuthorized</b> method, see the [Remote Desktop Gateway Pluggable Authentication and Authorization](https://github.com/microsoftarchive/msdn-code-gallery-community-m-r/tree/master/Remote%20Desktop%20Gateway%20Pluggable%20Authentication%20and%20Authorization%20Sample) sample.
 
-For an example that uses the 
-     <b>OnChannelAuthorized</b> method, see 
-     <a href="https://Code.MSDN.Microsoft.Com/Remote-Desktop-Gateway-517d6273">Remote Desktop Gateway Pluggable Authentication and Authorization Sample</a>.
-
-<div class="code"></div>
 
 
 

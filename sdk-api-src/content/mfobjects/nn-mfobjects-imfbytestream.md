@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFByteStream
 title: IMFByteStream (mfobjects.h)
-description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.helpviewer_keywords: ["690035b7-2855-4714-938f-f8250ec70d24","IMFByteStream","IMFByteStream interface [Media Foundation]","IMFByteStream interface [Media Foundation]","described","mf.imfbytestream","mfobjects/IMFByteStream"]
+description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.
+helpviewer_keywords: ["690035b7-2855-4714-938f-f8250ec70d24","IMFByteStream","IMFByteStream interface [Media Foundation]","IMFByteStream interface [Media Foundation]","described","mf.imfbytestream","mfobjects/IMFByteStream"]
 old-location: mf\imfbytestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 690035b7-2855-4714-938f-f8250ec70d24
 ms.date: 12/05/2018
 ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream interface [Media Foundation], IMFByteStream interface [Media Foundation],described, mf.imfbytestream, mfobjects/IMFByteStream

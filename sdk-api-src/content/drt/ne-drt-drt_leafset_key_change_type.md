@@ -1,9 +1,10 @@
 ---
 UID: NE:drt.drt_leafset_key_change_type_tag
 title: DRT_LEAFSET_KEY_CHANGE_TYPE (drt.h)
-description: The DRT_LEAFSET_KEY_CHANGE_TYPE enumeration defines the set of changes that can occur on nodes in the leaf set of a locally registered key.helpviewer_keywords: ["DRT_LEAFSET_KEY_ADDED","DRT_LEAFSET_KEY_CHANGE_TYPE","DRT_LEAFSET_KEY_CHANGE_TYPE enumeration [Peer Networking]","DRT_LEAFSET_KEY_DELETED","drt/DRT_LEAFSET_KEY_ADDED","drt/DRT_LEAFSET_KEY_CHANGE_TYPE","drt/DRT_LEAFSET_KEY_DELETED","p2p.drt_leafset_key_change_type"]
+description: The DRT_LEAFSET_KEY_CHANGE_TYPE enumeration defines the set of changes that can occur on nodes in the leaf set of a locally registered key.
+helpviewer_keywords: ["DRT_LEAFSET_KEY_ADDED","DRT_LEAFSET_KEY_CHANGE_TYPE","DRT_LEAFSET_KEY_CHANGE_TYPE enumeration [Peer Networking]","DRT_LEAFSET_KEY_DELETED","drt/DRT_LEAFSET_KEY_ADDED","drt/DRT_LEAFSET_KEY_CHANGE_TYPE","drt/DRT_LEAFSET_KEY_DELETED","p2p.drt_leafset_key_change_type"]
 old-location: p2p\drt_leafset_key_change_type.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f4990710-7278-461f-a82e-94cd548eab35
 ms.date: 12/05/2018
 ms.keywords: DRT_LEAFSET_KEY_ADDED, DRT_LEAFSET_KEY_CHANGE_TYPE, DRT_LEAFSET_KEY_CHANGE_TYPE enumeration [Peer Networking], DRT_LEAFSET_KEY_DELETED, drt/DRT_LEAFSET_KEY_ADDED, drt/DRT_LEAFSET_KEY_CHANGE_TYPE, drt/DRT_LEAFSET_KEY_DELETED, p2p.drt_leafset_key_change_type

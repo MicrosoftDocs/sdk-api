@@ -1,9 +1,10 @@
 ---
 UID: NE:p2p.peer_connection_status_tag
 title: PEER_CONNECTION_STATUS (p2p.h)
-description: The PEER_CONNECTION_STATUS enumeration specifies the status of a peer direct or neighbor connection.helpviewer_keywords: ["PEER_CONNECTED","PEER_CONNECTION_FAILED","PEER_CONNECTION_STATUS","PEER_CONNECTION_STATUS enumeration [Peer Networking]","PEER_DISCONNECTED","p2p.peer_connection_status","p2p/PEER_CONNECTED","p2p/PEER_CONNECTION_FAILED","p2p/PEER_CONNECTION_STATUS","p2p/PEER_DISCONNECTED"]
+description: The PEER_CONNECTION_STATUS enumeration specifies the status of a peer direct or neighbor connection.
+helpviewer_keywords: ["PEER_CONNECTED","PEER_CONNECTION_FAILED","PEER_CONNECTION_STATUS","PEER_CONNECTION_STATUS enumeration [Peer Networking]","PEER_DISCONNECTED","p2p.peer_connection_status","p2p/PEER_CONNECTED","p2p/PEER_CONNECTION_FAILED","p2p/PEER_CONNECTION_STATUS","p2p/PEER_DISCONNECTED"]
 old-location: p2p\peer_connection_status.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 42095744-bcbf-433f-b631-2281f079d2fd
 ms.date: 12/05/2018
 ms.keywords: PEER_CONNECTED, PEER_CONNECTION_FAILED, PEER_CONNECTION_STATUS, PEER_CONNECTION_STATUS enumeration [Peer Networking], PEER_DISCONNECTED, p2p.peer_connection_status, p2p/PEER_CONNECTED, p2p/PEER_CONNECTION_FAILED, p2p/PEER_CONNECTION_STATUS, p2p/PEER_DISCONNECTED

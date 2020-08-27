@@ -1,9 +1,10 @@
 ---
 UID: NF:memoryapi.CreateFileMappingFromApp
 title: CreateFileMappingFromApp function (memoryapi.h)
-description: Creates or opens a named or unnamed file mapping object for a specified file from a Windows Store app.helpviewer_keywords: ["CreateFileMappingFromApp","CreateFileMappingFromApp function","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","base.createfilemappingfromapp","memoryapi/CreateFileMappingFromApp"]
+description: Creates or opens a named or unnamed file mapping object for a specified file from a Windows Store app.
+helpviewer_keywords: ["CreateFileMappingFromApp","CreateFileMappingFromApp function","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","base.createfilemappingfromapp","memoryapi/CreateFileMappingFromApp"]
 old-location: base\createfilemappingfromapp.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3
 ms.date: 12/05/2018
 ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp

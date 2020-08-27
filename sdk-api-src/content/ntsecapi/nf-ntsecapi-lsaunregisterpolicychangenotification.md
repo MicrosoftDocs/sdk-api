@@ -4,7 +4,7 @@ title: LsaUnregisterPolicyChangeNotification function (ntsecapi.h)
 description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.
 helpviewer_keywords: ["LsaUnregisterPolicyChangeNotification","LsaUnregisterPolicyChangeNotification function [Security]","PolicyNotifyAccountDomainInformation","PolicyNotifyAuditEventsInformation","PolicyNotifyDnsDomainInformation","PolicyNotifyDomainEfsInformation","PolicyNotifyDomainKerberosTicketInformation","PolicyNotifyServerRoleInformation","_lsa_lsaunregisterpolicychangenotification","ntsecapi/LsaUnregisterPolicyChangeNotification","security.lsaunregisterpolicychangenotification"]
 old-location: security\lsaunregisterpolicychangenotification.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
 ms.date: 12/05/2018
 ms.keywords: LsaUnregisterPolicyChangeNotification, LsaUnregisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaunregisterpolicychangenotification, ntsecapi/LsaUnregisterPolicyChangeNotification, security.lsaunregisterpolicychangenotification

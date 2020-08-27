@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPM2.InitializeReportingEx
 title: IGPM2::InitializeReportingEx (gpmgmt.h)
-description: Sets the location to search for .adm files and the reporting option to determine whether to include comments in the report. This method initializes reporting in an asynchronous manner.helpviewer_keywords: ["IGPM2 interface [GPMC]","InitializeReportingEx method","IGPM2.InitializeReportingEx","IGPM2::InitializeReportingEx","InitializeReportingEx","InitializeReportingEx method [GPMC]","InitializeReportingEx method [GPMC]","IGPM2 interface","gpmc.igpm2_initializereportingex","gpmgmt/IGPM2::InitializeReportingEx"]
+description: Sets the location to search for .adm files and the reporting option to determine whether to include comments in the report. This method initializes reporting in an asynchronous manner.
+helpviewer_keywords: ["IGPM2 interface [GPMC]","InitializeReportingEx method","IGPM2.InitializeReportingEx","IGPM2::InitializeReportingEx","InitializeReportingEx","InitializeReportingEx method [GPMC]","InitializeReportingEx method [GPMC]","IGPM2 interface","gpmc.igpm2_initializereportingex","gpmgmt/IGPM2::InitializeReportingEx"]
 old-location: gpmc\igpm2_initializereportingex.htm
 tech.root: gpmc
 ms.assetid: 3de74745-d9b3-47a7-8ba7-08b4e57d2ab7

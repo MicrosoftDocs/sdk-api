@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMemAllocator.Commit
 title: IMemAllocator::Commit (strmif.h)
-description: The Commit method allocates the buffer memory.helpviewer_keywords: ["Commit","Commit method [DirectShow]","Commit method [DirectShow]","IMemAllocator interface","IMemAllocator interface [DirectShow]","Commit method","IMemAllocator.Commit","IMemAllocator::Commit","IMemAllocatorCommit","dshow.imemallocator_commit","strmif/IMemAllocator::Commit"]
+description: The Commit method allocates the buffer memory.
+helpviewer_keywords: ["Commit","Commit method [DirectShow]","Commit method [DirectShow]","IMemAllocator interface","IMemAllocator interface [DirectShow]","Commit method","IMemAllocator.Commit","IMemAllocator::Commit","IMemAllocatorCommit","dshow.imemallocator_commit","strmif/IMemAllocator::Commit"]
 old-location: dshow\imemallocator_commit.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 34db4c1f-5642-4495-a572-9a78b1ee7b7e
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [DirectShow], Commit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Commit method, IMemAllocator.Commit, IMemAllocator::Commit, IMemAllocatorCommit, dshow.imemallocator_commit, strmif/IMemAllocator::Commit

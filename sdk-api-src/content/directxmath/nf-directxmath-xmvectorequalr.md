@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorEqualR
 title: XMVectorEqualR function (directxmath.h)
-description: Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as XMComparisonAllTrue.helpviewer_keywords: ["Use DirectX..XMVectorEqualR","XMVectorEqualR","XMVectorEqualR method [DirectX Math Support APIs]","dxmath.xmvectorequalr"]
+description: Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as XMComparisonAllTrue.
+helpviewer_keywords: ["Use DirectX..XMVectorEqualR","XMVectorEqualR","XMVectorEqualR method [DirectX Math Support APIs]","dxmath.xmvectorequalr"]
 old-location: dxmath\xmvectorequalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqualR(uint32_t@,XMVECTOR,XMVECTOR)

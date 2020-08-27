@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-less-than
 title: WBEMTimeSpan::operator-less-than (wbemtime.h)
-description: Compares two WBEMTimeSpan objects using a less than comparison operator.helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator< method","WBEMTimeSpan.operator-less-than","WBEMTimeSpan.operator<","WBEMTimeSpan::operator-less-than","WBEMTimeSpan::operator<","operator<","operator< method [Windows Management Instrumentation]","operator< method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator<","wmi.wbemtimespan_comparison_operators_lessthan"]
+description: Compares two WBEMTimeSpan objects using a less than comparison operator.
+helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator< method","WBEMTimeSpan.operator-less-than","WBEMTimeSpan.operator<","WBEMTimeSpan::operator-less-than","WBEMTimeSpan::operator<","operator<","operator< method [Windows Management Instrumentation]","operator< method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator<","wmi.wbemtimespan_comparison_operators_lessthan"]
 old-location: wmi\wbemtimespan_comparison_operators_lessthan.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: c26d360f-32e7-4cbd-ad39-0997590a8d32
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator< method, WBEMTimeSpan.operator-less-than, WBEMTimeSpan.operator<, WBEMTimeSpan::operator-less-than, WBEMTimeSpan::operator<, operator<, operator< method [Windows Management Instrumentation], operator< method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator<, wmi.wbemtimespan_comparison_operators_lessthan

@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartHandlerSync
 title: ISyncMgrControl::StartHandlerSync (syncmgr.h)
-description: Initiates the synchronization of all items managed by a particular handler.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","StartHandlerSync method","ISyncMgrControl.StartHandlerSync","ISyncMgrControl::StartHandlerSync","StartHandlerSync","StartHandlerSync method [Windows Shell]","StartHandlerSync method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_StartHandlerSync","shell.ISyncMgrControl_StartHandlerSync","syncmgr/ISyncMgrControl::StartHandlerSync"]
+description: Initiates the synchronization of all items managed by a particular handler.
+helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","StartHandlerSync method","ISyncMgrControl.StartHandlerSync","ISyncMgrControl::StartHandlerSync","StartHandlerSync","StartHandlerSync method [Windows Shell]","StartHandlerSync method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_StartHandlerSync","shell.ISyncMgrControl_StartHandlerSync","syncmgr/ISyncMgrControl::StartHandlerSync"]
 old-location: shell\ISyncMgrControl_StartHandlerSync.htm
 tech.root: shell
 ms.assetid: ab0e6634-d30a-4f56-94ff-3b032c789cec

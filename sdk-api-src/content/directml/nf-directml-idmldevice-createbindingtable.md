@@ -1,9 +1,10 @@
 ---
 UID: NF:directml.IDMLDevice.CreateBindingTable
 title: IDMLDevice::CreateBindingTable
-description: Creates a binding table, which is an object that can be used to bind resources (such as tensors) to the pipeline.helpviewer_keywords: ["CreateBindingTable","CreateBindingTable method","CreateBindingTable method","IDMLDevice interface","IDMLDevice interface","CreateBindingTable method","IDMLDevice.CreateBindingTable","IDMLDevice::CreateBindingTable","direct3d12.idmldevice_createbindingtable","directml/IDMLDevice::CreateBindingTable"]
+description: Creates a binding table, which is an object that can be used to bind resources (such as tensors) to the pipeline.
+helpviewer_keywords: ["CreateBindingTable","CreateBindingTable method","CreateBindingTable method","IDMLDevice interface","IDMLDevice interface","CreateBindingTable method","IDMLDevice.CreateBindingTable","IDMLDevice::CreateBindingTable","direct3d12.idmldevice_createbindingtable","directml/IDMLDevice::CreateBindingTable"]
 old-location: direct3d12\idmldevice_createbindingtable.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 04E981C1-833C-4359-A30F-A2727DD015BC
 ms.date: 12/5/2018
 ms.keywords: CreateBindingTable, CreateBindingTable method, CreateBindingTable method,IDMLDevice interface, IDMLDevice interface,CreateBindingTable method, IDMLDevice.CreateBindingTable, IDMLDevice::CreateBindingTable, direct3d12.idmldevice_createbindingtable, directml/IDMLDevice::CreateBindingTable

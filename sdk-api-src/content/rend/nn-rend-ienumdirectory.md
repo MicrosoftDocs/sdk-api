@@ -1,9 +1,10 @@
 ---
 UID: NN:rend.IEnumDirectory
 title: IEnumDirectory (rend.h)
-description: The IEnumDirectory interface provides COM-standard enumeration methods for the ITDirectory interface. The ITRendezvous::EnumerateDefaultDirectories method returns a pointer to IEnumDirectory.helpviewer_keywords: ["IEnumDirectory","IEnumDirectory interface [TAPI 2.2]","IEnumDirectory interface [TAPI 2.2]","described","_tapi3_ienumdirectory","rend/IEnumDirectory","tapi3.ienumdirectory"]
+description: The IEnumDirectory interface provides COM-standard enumeration methods for the ITDirectory interface. The ITRendezvous::EnumerateDefaultDirectories method returns a pointer to IEnumDirectory.
+helpviewer_keywords: ["IEnumDirectory","IEnumDirectory interface [TAPI 2.2]","IEnumDirectory interface [TAPI 2.2]","described","_tapi3_ienumdirectory","rend/IEnumDirectory","tapi3.ienumdirectory"]
 old-location: tapi3\ienumdirectory.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9c1e83c5-c718-4a3b-916d-e844a8377a29
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectory, IEnumDirectory interface [TAPI 2.2], IEnumDirectory interface [TAPI 2.2],described, _tapi3_ienumdirectory, rend/IEnumDirectory, tapi3.ienumdirectory

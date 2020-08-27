@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.CreateOperation
 title: IAzApplication::CreateOperation (azroles.h)
-description: Creates an IAzOperation object with the specified name.helpviewer_keywords: ["AzApplication object [Security]","CreateOperation method","CreateOperation","CreateOperation method [Security]","CreateOperation method [Security]","AzApplication object","CreateOperation method [Security]","IAzApplication interface","IAzApplication interface [Security]","CreateOperation method","IAzApplication.CreateOperation","IAzApplication::CreateOperation","azroles/IAzApplication::CreateOperation","security.iazapplication_createoperation"]
+description: Creates an IAzOperation object with the specified name.
+helpviewer_keywords: ["AzApplication object [Security]","CreateOperation method","CreateOperation","CreateOperation method [Security]","CreateOperation method [Security]","AzApplication object","CreateOperation method [Security]","IAzApplication interface","IAzApplication interface [Security]","CreateOperation method","IAzApplication.CreateOperation","IAzApplication::CreateOperation","azroles/IAzApplication::CreateOperation","security.iazapplication_createoperation"]
 old-location: security\iazapplication_createoperation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateOperation method, CreateOperation, CreateOperation method [Security], CreateOperation method [Security],AzApplication object, CreateOperation method [Security],IAzApplication interface, IAzApplication interface [Security],CreateOperation method, IAzApplication.CreateOperation, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation

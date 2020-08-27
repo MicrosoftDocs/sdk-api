@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ConstSint32A
 title: MI_ConstSint32A (mi.h)
-description: Represents an array of MI_Sint32 types.helpviewer_keywords: ["MI_ConstSint32A","MI_ConstSint32A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstSint32A","wmi._mi_constsint32a","wmi_v2.mi_constsint32a"]
+description: Represents an array of MI_Sint32 types.
+helpviewer_keywords: ["MI_ConstSint32A","MI_ConstSint32A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstSint32A","wmi._mi_constsint32a","wmi_v2.mi_constsint32a"]
 old-location: wmi_v2\mi_constsint32a.htm
 tech.root: wmi_v2
 ms.assetid: 659ac277-cb7d-4617-8ad3-262cc5a5bf85

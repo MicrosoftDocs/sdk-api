@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob
 title: IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob (certenroll.h)
-description: Retrieves a string that contains a hash of the encrypted private key.helpviewer_keywords: ["EncryptedKeyHashBlob property [Security]","EncryptedKeyHashBlob property [Security]","IX509AttributeArchiveKeyHash interface","IX509AttributeArchiveKeyHash interface [Security]","EncryptedKeyHashBlob property","IX509AttributeArchiveKeyHash.EncryptedKeyHashBlob","IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob","IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob","IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob","certenroll/IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob","certenroll/IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob","get_EncryptedKeyHashBlob","security.ix509attributearchivekeyhash_encryptedkeyhashblob_property"]
+description: Retrieves a string that contains a hash of the encrypted private key.
+helpviewer_keywords: ["EncryptedKeyHashBlob property [Security]","EncryptedKeyHashBlob property [Security]","IX509AttributeArchiveKeyHash interface","IX509AttributeArchiveKeyHash interface [Security]","EncryptedKeyHashBlob property","IX509AttributeArchiveKeyHash.EncryptedKeyHashBlob","IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob","IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob","IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob","certenroll/IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob","certenroll/IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob","get_EncryptedKeyHashBlob","security.ix509attributearchivekeyhash_encryptedkeyhashblob_property"]
 old-location: security\ix509attributearchivekeyhash_encryptedkeyhashblob_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ff75aaf8-1544-465b-af0d-620ca6984249
 ms.date: 12/05/2018
 ms.keywords: EncryptedKeyHashBlob property [Security], EncryptedKeyHashBlob property [Security],IX509AttributeArchiveKeyHash interface, IX509AttributeArchiveKeyHash interface [Security],EncryptedKeyHashBlob property, IX509AttributeArchiveKeyHash.EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob, certenroll/IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob, certenroll/IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob, get_EncryptedKeyHashBlob, security.ix509attributearchivekeyhash_encryptedkeyhashblob_property

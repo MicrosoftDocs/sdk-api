@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorAndCInt
 title: XMVectorAndCInt function (directxmath.h)
-description: Computes the logical AND of one vector with the negation of a second vector, treating each component as an unsigned integer.helpviewer_keywords: ["Use DirectX..XMVectorAndCInt","XMVectorAndCInt","XMVectorAndCInt method [DirectX Math Support APIs]","dxmath.xmvectorandcint"]
+description: Computes the logical AND of one vector with the negation of a second vector, treating each component as an unsigned integer.
+helpviewer_keywords: ["Use DirectX..XMVectorAndCInt","XMVectorAndCInt","XMVectorAndCInt method [DirectX Math Support APIs]","dxmath.xmvectorandcint"]
 old-location: dxmath\xmvectorandcint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorAndCInt(XMVECTOR,XMVECTOR)

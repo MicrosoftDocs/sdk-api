@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.Unlock
 title: IMFMediaBuffer::Unlock (mfobjects.h)
-description: Unlocks a buffer that was previously locked. Call this method once for every call to IMFMediaBuffer::Lock.helpviewer_keywords: ["3ca53321-5533-45f0-b415-6a16f780ec54","IMFMediaBuffer interface [Media Foundation]","Unlock method","IMFMediaBuffer.Unlock","IMFMediaBuffer::Unlock","Unlock","Unlock method [Media Foundation]","Unlock method [Media Foundation]","IMFMediaBuffer interface","mf.imfmediabuffer_unlock","mfobjects/IMFMediaBuffer::Unlock"]
+description: Unlocks a buffer that was previously locked. Call this method once for every call to IMFMediaBuffer::Lock.
+helpviewer_keywords: ["3ca53321-5533-45f0-b415-6a16f780ec54","IMFMediaBuffer interface [Media Foundation]","Unlock method","IMFMediaBuffer.Unlock","IMFMediaBuffer::Unlock","Unlock","Unlock method [Media Foundation]","Unlock method [Media Foundation]","IMFMediaBuffer interface","mf.imfmediabuffer_unlock","mfobjects/IMFMediaBuffer::Unlock"]
 old-location: mf\imfmediabuffer_unlock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3ca53321-5533-45f0-b415-6a16f780ec54
 ms.date: 12/05/2018
 ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer interface [Media Foundation],Unlock method, IMFMediaBuffer.Unlock, IMFMediaBuffer::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_unlock, mfobjects/IMFMediaBuffer::Unlock

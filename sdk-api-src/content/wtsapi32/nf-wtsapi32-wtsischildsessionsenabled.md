@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSIsChildSessionsEnabled
 title: WTSIsChildSessionsEnabled function (wtsapi32.h)
-description: Determines whether child sessions are enabled.helpviewer_keywords: ["WTSIsChildSessionsEnabled","WTSIsChildSessionsEnabled function [Remote Desktop Services]","termserv.wtsischildsessionsenabled","wtsapi32/WTSIsChildSessionsEnabled"]
+description: Determines whether child sessions are enabled.
+helpviewer_keywords: ["WTSIsChildSessionsEnabled","WTSIsChildSessionsEnabled function [Remote Desktop Services]","termserv.wtsischildsessionsenabled","wtsapi32/WTSIsChildSessionsEnabled"]
 old-location: termserv\wtsischildsessionsenabled.htm
 tech.root: TermServ
 ms.assetid: 814828A8-1FFB-4ED2-A695-11C87723D5BB

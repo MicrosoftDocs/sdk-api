@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Application_NewSubscriptionDeliveryOptions
 title: MI_Application_NewSubscriptionDeliveryOptions function (mi.h)
-description: Creates an MI_SubscriptionDeliveryOptions object that represents the configuration needed to carry out subscribe operations over certain protocols.helpviewer_keywords: ["MI_Application_NewSubscriptionDeliveryOptions","MI_Application_NewSubscriptionDeliveryOptions function [Windows Management Infrastructure (MI)]","mi/MI_Application_NewSubscriptionDeliveryOptions","wmi_v2.mi_application_newsubscriptiondeliveryoptions"]
+description: Creates an MI_SubscriptionDeliveryOptions object that represents the configuration needed to carry out subscribe operations over certain protocols.
+helpviewer_keywords: ["MI_Application_NewSubscriptionDeliveryOptions","MI_Application_NewSubscriptionDeliveryOptions function [Windows Management Infrastructure (MI)]","mi/MI_Application_NewSubscriptionDeliveryOptions","wmi_v2.mi_application_newsubscriptiondeliveryoptions"]
 old-location: wmi_v2\mi_application_newsubscriptiondeliveryoptions.htm
 tech.root: wmi_v2
 ms.assetid: ac84ec09-7d91-42fc-8271-3e0e54bbb788

@@ -1,9 +1,10 @@
 ---
 UID: NF:ddrawgdi.DdGetDxHandle
 title: DdGetDxHandle function (ddrawgdi.h)
-description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.helpviewer_keywords: ["DdGetDxHandle","DdGetDxHandle function [Windows API]","GdiEntry14","_dxgkernel_ddgetdxhandle","ddrawgdi/DdGetDxHandle","ddrawgdi/GdiEntry14","winprog._dxgkernel_ddgetdxhandle","winui._dxgkernel_ddgetdxhandle"]
+description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
+helpviewer_keywords: ["DdGetDxHandle","DdGetDxHandle function [Windows API]","GdiEntry14","_dxgkernel_ddgetdxhandle","ddrawgdi/DdGetDxHandle","ddrawgdi/GdiEntry14","winprog._dxgkernel_ddgetdxhandle","winui._dxgkernel_ddgetdxhandle"]
 old-location: winprog\_dxgkernel_ddgetdxhandle.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdxhandle.htm
 ms.date: 12/05/2018
 ms.keywords: DdGetDxHandle, DdGetDxHandle function [Windows API], GdiEntry14, _dxgkernel_ddgetdxhandle, ddrawgdi/DdGetDxHandle, ddrawgdi/GdiEntry14, winprog._dxgkernel_ddgetdxhandle, winui._dxgkernel_ddgetdxhandle

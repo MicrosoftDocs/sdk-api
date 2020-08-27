@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_TickCount
 title: ITDigitsGatheredEvent::get_TickCount (tapi3if.h)
-description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which digit-gathering completed.helpviewer_keywords: ["ITDigitsGatheredEvent interface [TAPI 2.2]","get_TickCount method","ITDigitsGatheredEvent.get_TickCount","ITDigitsGatheredEvent::get_TickCount","_tapi3_itdigitsgatheredevent_get_tickcount","get_TickCount","get_TickCount method [TAPI 2.2]","get_TickCount method [TAPI 2.2]","ITDigitsGatheredEvent interface","tapi3.itdigitsgatheredevent_get_tickcount","tapi3if/ITDigitsGatheredEvent::get_TickCount"]
+description: The get_TickCount method gets the &quot;tick count&quot; (the number of milliseconds since Windows started) at which digit-gathering completed.
+helpviewer_keywords: ["ITDigitsGatheredEvent interface [TAPI 2.2]","get_TickCount method","ITDigitsGatheredEvent.get_TickCount","ITDigitsGatheredEvent::get_TickCount","_tapi3_itdigitsgatheredevent_get_tickcount","get_TickCount","get_TickCount method [TAPI 2.2]","get_TickCount method [TAPI 2.2]","ITDigitsGatheredEvent interface","tapi3.itdigitsgatheredevent_get_tickcount","tapi3if/ITDigitsGatheredEvent::get_TickCount"]
 old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6e5fbed0-f132-418f-aa71-36d0e673affa
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_TickCount method, ITDigitsGatheredEvent.get_TickCount, ITDigitsGatheredEvent::get_TickCount, _tapi3_itdigitsgatheredevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_tickcount, tapi3if/ITDigitsGatheredEvent::get_TickCount

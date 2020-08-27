@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Flatten
 title: GraphicsPath::Flatten (gdipluspath.h)
-description: The GraphicsPath::Flatten method applies a transformation to this path and converts each curve in the path to a sequence of connected lines.helpviewer_keywords: ["Flatten","Flatten method [GDI+]","Flatten method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","Flatten method","GraphicsPath.Flatten","GraphicsPath::Flatten","_gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_","gdiplus._gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_"]
+description: The GraphicsPath::Flatten method applies a transformation to this path and converts each curve in the path to a sequence of connected lines.
+helpviewer_keywords: ["Flatten","Flatten method [GDI+]","Flatten method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","Flatten method","GraphicsPath.Flatten","GraphicsPath::Flatten","_gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_","gdiplus._gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\flatten.htm

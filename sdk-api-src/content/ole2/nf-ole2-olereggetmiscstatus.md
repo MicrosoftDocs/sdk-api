@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleRegGetMiscStatus
 title: OleRegGetMiscStatus function (ole2.h)
-description: Returns miscellaneous information about the presentation and behaviors supported by the specified CLSID from the registry.helpviewer_keywords: ["OleRegGetMiscStatus","OleRegGetMiscStatus function [COM]","_com_OleRegGetMiscStatus","com.olereggetmiscstatus","ole2/OleRegGetMiscStatus"]
+description: Returns miscellaneous information about the presentation and behaviors supported by the specified CLSID from the registry.
+helpviewer_keywords: ["OleRegGetMiscStatus","OleRegGetMiscStatus function [COM]","_com_OleRegGetMiscStatus","com.olereggetmiscstatus","ole2/OleRegGetMiscStatus"]
 old-location: com\olereggetmiscstatus.htm
 tech.root: com
 ms.assetid: 3166955f-4f7a-4904-a7fb-ebdfb8e56baf

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.IsBadWritePtr
 title: IsBadWritePtr function (winbase.h)
-description: Verifies that the calling process has write access to the specified range of memory.helpviewer_keywords: ["IsBadWritePtr","IsBadWritePtr function","_win32_isbadwriteptr","base.isbadwriteptr","winbase/IsBadWritePtr"]
+description: Verifies that the calling process has write access to the specified range of memory.
+helpviewer_keywords: ["IsBadWritePtr","IsBadWritePtr function","_win32_isbadwriteptr","base.isbadwriteptr","winbase/IsBadWritePtr"]
 old-location: base\isbadwriteptr.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 2b353a8e-45cf-4108-9522-bcbde9c71ec4
 ms.date: 12/05/2018
 ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.isbadwriteptr, winbase/IsBadWritePtr

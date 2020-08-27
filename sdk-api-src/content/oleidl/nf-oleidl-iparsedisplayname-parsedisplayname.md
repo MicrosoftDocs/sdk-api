@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IParseDisplayName.ParseDisplayName
 title: IParseDisplayName::ParseDisplayName (oleidl.h)
-description: Parses the specified display name and creates a corresponding moniker.helpviewer_keywords: ["IParseDisplayName interface [COM]","ParseDisplayName method","IParseDisplayName.ParseDisplayName","IParseDisplayName::ParseDisplayName","ParseDisplayName","ParseDisplayName method [COM]","ParseDisplayName method [COM]","IParseDisplayName interface","_com_iparsedisplayname_parsedisplayname","com.iparsedisplayname_parsedisplayname","oleidl/IParseDisplayName::ParseDisplayName"]
+description: Parses the specified display name and creates a corresponding moniker.
+helpviewer_keywords: ["IParseDisplayName interface [COM]","ParseDisplayName method","IParseDisplayName.ParseDisplayName","IParseDisplayName::ParseDisplayName","ParseDisplayName","ParseDisplayName method [COM]","ParseDisplayName method [COM]","IParseDisplayName interface","_com_iparsedisplayname_parsedisplayname","com.iparsedisplayname_parsedisplayname","oleidl/IParseDisplayName::ParseDisplayName"]
 old-location: com\iparsedisplayname_parsedisplayname.htm
 tech.root: com
 ms.assetid: bf18320c-1ff3-4280-bd67-70f6c2998285

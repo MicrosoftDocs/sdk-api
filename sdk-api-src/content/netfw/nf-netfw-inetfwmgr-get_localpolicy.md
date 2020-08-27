@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwMgr.get_LocalPolicy
 title: INetFwMgr::get_LocalPolicy (netfw.h)
-description: Retrieves the local firewall policy.helpviewer_keywords: ["INetFwMgr interface [ICS/ICF]","LocalPolicy property","INetFwMgr.LocalPolicy","INetFwMgr.get_LocalPolicy","INetFwMgr::LocalPolicy","INetFwMgr::get_LocalPolicy","LocalPolicy property [ICS/ICF]","LocalPolicy property [ICS/ICF]","INetFwMgr interface","get_LocalPolicy","ics.inetfwmgr_localpolicy","netfw/INetFwMgr::LocalPolicy","netfw/INetFwMgr::get_LocalPolicy"]
+description: Retrieves the local firewall policy.
+helpviewer_keywords: ["INetFwMgr interface [ICS/ICF]","LocalPolicy property","INetFwMgr.LocalPolicy","INetFwMgr.get_LocalPolicy","INetFwMgr::LocalPolicy","INetFwMgr::get_LocalPolicy","LocalPolicy property [ICS/ICF]","LocalPolicy property [ICS/ICF]","INetFwMgr interface","get_LocalPolicy","ics.inetfwmgr_localpolicy","netfw/INetFwMgr::LocalPolicy","netfw/INetFwMgr::get_LocalPolicy"]
 old-location: ics\inetfwmgr_localpolicy.htm
 tech.root: ics
 ms.assetid: ec32c591-d677-4251-90c8-1bd4fa516245

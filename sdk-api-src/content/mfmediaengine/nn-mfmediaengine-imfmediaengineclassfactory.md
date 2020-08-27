@@ -4,7 +4,7 @@ title: IMFMediaEngineClassFactory (mfmediaengine.h)
 description: Creates an instance of the Media Engine.
 helpviewer_keywords: ["IMFMediaEngineClassFactory","IMFMediaEngineClassFactory interface [Media Foundation]","IMFMediaEngineClassFactory interface [Media Foundation]","described","mf.imfmediaengineclassfactory","mfmediaengine/IMFMediaEngineClassFactory"]
 old-location: mf\imfmediaengineclassfactory.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], IMFMediaEngineClassFactory interface [Media Foundation],described, mf.imfmediaengineclassfactory, mfmediaengine/IMFMediaEngineClassFactory

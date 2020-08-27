@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFSaveJob
 title: IMFSaveJob (mfidl.h)
-description: Persists media data from a source byte stream to an application-provided byte stream.helpviewer_keywords: ["0f38fa60-ed04-40c4-9bb0-b6e196cd9586","IMFSaveJob","IMFSaveJob interface [Media Foundation]","IMFSaveJob interface [Media Foundation]","described","mf.imfsavejob","mfidl/IMFSaveJob"]
+description: Persists media data from a source byte stream to an application-provided byte stream.
+helpviewer_keywords: ["0f38fa60-ed04-40c4-9bb0-b6e196cd9586","IMFSaveJob","IMFSaveJob interface [Media Foundation]","IMFSaveJob interface [Media Foundation]","described","mf.imfsavejob","mfidl/IMFSaveJob"]
 old-location: mf\imfsavejob.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0f38fa60-ed04-40c4-9bb0-b6e196cd9586
 ms.date: 12/05/2018
 ms.keywords: 0f38fa60-ed04-40c4-9bb0-b6e196cd9586, IMFSaveJob, IMFSaveJob interface [Media Foundation], IMFSaveJob interface [Media Foundation],described, mf.imfsavejob, mfidl/IMFSaveJob

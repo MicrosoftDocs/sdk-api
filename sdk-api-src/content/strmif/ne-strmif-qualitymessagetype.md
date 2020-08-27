@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif.tagQualityMessageType
 title: QualityMessageType (strmif.h)
-description: Describes a quality message type.helpviewer_keywords: ["Famine","Flood","QualityMessageType","QualityMessageType enumeration [DirectShow]","QualityMessageTypeEnumeration","dshow.qualitymessagetype","strmif/Famine","strmif/Flood","strmif/QualityMessageType"]
+description: Describes a quality message type.
+helpviewer_keywords: ["Famine","Flood","QualityMessageType","QualityMessageType enumeration [DirectShow]","QualityMessageTypeEnumeration","dshow.qualitymessagetype","strmif/Famine","strmif/Flood","strmif/QualityMessageType"]
 old-location: dshow\qualitymessagetype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 54a2239d-bf37-499d-b8c4-f797c1b46933
 ms.date: 12/05/2018
 ms.keywords: Famine, Flood, QualityMessageType, QualityMessageType enumeration [DirectShow], QualityMessageTypeEnumeration, dshow.qualitymessagetype, strmif/Famine, strmif/Flood, strmif/QualityMessageType

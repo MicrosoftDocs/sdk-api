@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.ISearchCompletedCallback
 title: ISearchCompletedCallback (wuapi.h)
-description: Contains a method that handles the notification about the completion of an asynchronous search operation.helpviewer_keywords: ["ISearchCompletedCallback","ISearchCompletedCallback interface [Windows Update Agent]","ISearchCompletedCallback interface [Windows Update Agent]","described","wua.isearchcompletedcallback","wuapi/ISearchCompletedCallback"]
+description: Contains a method that handles the notification about the completion of an asynchronous search operation.
+helpviewer_keywords: ["ISearchCompletedCallback","ISearchCompletedCallback interface [Windows Update Agent]","ISearchCompletedCallback interface [Windows Update Agent]","described","wua.isearchcompletedcallback","wuapi/ISearchCompletedCallback"]
 old-location: wua\isearchcompletedcallback.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f228808d-7f7e-4107-a4b6-4bac5b48d1b4
 ms.date: 12/05/2018
 ms.keywords: ISearchCompletedCallback, ISearchCompletedCallback interface [Windows Update Agent], ISearchCompletedCallback interface [Windows Update Agent],described, wua.isearchcompletedcallback, wuapi/ISearchCompletedCallback

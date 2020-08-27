@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContext.SetSelection
 title: ITfContext::SetSelection (msctf.h)
-description: ITfContext::SetSelection methodhelpviewer_keywords: ["ITfContext interface [Text Services Framework]","SetSelection method","ITfContext.SetSelection","ITfContext::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_setselection_ref","msctf/ITfContext::SetSelection","tsf.itfcontext_setselection"]
+description: ITfContext::SetSelection method
+helpviewer_keywords: ["ITfContext interface [Text Services Framework]","SetSelection method","ITfContext.SetSelection","ITfContext::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_setselection_ref","msctf/ITfContext::SetSelection","tsf.itfcontext_setselection"]
 old-location: tsf\itfcontext_setselection.htm
 tech.root: TSF
 ms.assetid: 1cf50b5e-6ec2-4649-9acc-743a2e3d8096

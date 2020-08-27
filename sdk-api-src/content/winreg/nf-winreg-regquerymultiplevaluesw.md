@@ -4,7 +4,7 @@ title: RegQueryMultipleValuesW function (winreg.h)
 description: Retrieves the type and data for a list of value names associated with an open registry key.
 helpviewer_keywords: ["RegQueryMultipleValues","RegQueryMultipleValues function","RegQueryMultipleValuesA","RegQueryMultipleValuesW","_win32_regquerymultiplevalues","base.regquerymultiplevalues","winreg/RegQueryMultipleValues","winreg/RegQueryMultipleValuesA","winreg/RegQueryMultipleValuesW"]
 old-location: base\regquerymultiplevalues.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
 ms.date: 12/05/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
@@ -182,6 +182,10 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegQueryMultipleValues as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

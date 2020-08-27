@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._ROOT_INFO_LUID
 title: ROOT_INFO_LUID (wincrypt.h)
-description: Contains a locally unique identifier (LUID) for Cryptographic Smart Card Root Information.helpviewer_keywords: ["*PROOT_INFO_LUID","PROOT_INFO_LUID","PROOT_INFO_LUID structure pointer [Security]","ROOT_INFO_LUID","ROOT_INFO_LUID structure [Security]","security.root_info_luid","wincrypt/PROOT_INFO_LUID","wincrypt/ROOT_INFO_LUID"]
+description: Contains a locally unique identifier (LUID) for Cryptographic Smart Card Root Information.
+helpviewer_keywords: ["*PROOT_INFO_LUID","PROOT_INFO_LUID","PROOT_INFO_LUID structure pointer [Security]","ROOT_INFO_LUID","ROOT_INFO_LUID structure [Security]","security.root_info_luid","wincrypt/PROOT_INFO_LUID","wincrypt/ROOT_INFO_LUID"]
 old-location: security\root_info_luid.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5b61bbdd-a00a-4985-8066-574f9bff0079
 ms.date: 12/05/2018
 ms.keywords: '*PROOT_INFO_LUID, PROOT_INFO_LUID, PROOT_INFO_LUID structure pointer [Security], ROOT_INFO_LUID, ROOT_INFO_LUID structure [Security], security.root_info_luid, wincrypt/PROOT_INFO_LUID, wincrypt/ROOT_INFO_LUID'

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoString
 title: ITCallInfo::put_CallInfoString (tapi3if.h)
-description: The put_CallInfoString method sets call information items described by a string, such as the displayable address.helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","put_CallInfoString method","ITCallInfo.put_CallInfoString","ITCallInfo::put_CallInfoString","_tapi3_itcallinfo_put_callinfostring","put_CallInfoString","put_CallInfoString method [TAPI 2.2]","put_CallInfoString method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_put_callinfostring","tapi3if/ITCallInfo::put_CallInfoString"]
+description: The put_CallInfoString method sets call information items described by a string, such as the displayable address.
+helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","put_CallInfoString method","ITCallInfo.put_CallInfoString","ITCallInfo::put_CallInfoString","_tapi3_itcallinfo_put_callinfostring","put_CallInfoString","put_CallInfoString method [TAPI 2.2]","put_CallInfoString method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_put_callinfostring","tapi3if/ITCallInfo::put_CallInfoString"]
 old-location: tapi3\itcallinfo_put_callinfostring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d22f1afb-e036-40d0-9a7f-61d8d24d2376
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoString method, ITCallInfo.put_CallInfoString, ITCallInfo::put_CallInfoString, _tapi3_itcallinfo_put_callinfostring, put_CallInfoString, put_CallInfoString method [TAPI 2.2], put_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfostring, tapi3if/ITCallInfo::put_CallInfoString

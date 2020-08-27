@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneNegotiateExtVersion
 title: phoneNegotiateExtVersion function (tapi.h)
-description: The phoneNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support extensions.helpviewer_keywords: ["_tapi2_phonenegotiateextversion","phoneNegotiateExtVersion","phoneNegotiateExtVersion function [TAPI 2.2]","tapi/phoneNegotiateExtVersion","tapi2.phonenegotiateextversion"]
+description: The phoneNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support extensions.
+helpviewer_keywords: ["_tapi2_phonenegotiateextversion","phoneNegotiateExtVersion","phoneNegotiateExtVersion function [TAPI 2.2]","tapi/phoneNegotiateExtVersion","tapi2.phonenegotiateextversion"]
 old-location: tapi2\phonenegotiateextversion.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f62aa1da-7256-400a-998d-4c24d01989ec
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonenegotiateextversion, phoneNegotiateExtVersion, phoneNegotiateExtVersion function [TAPI 2.2], tapi/phoneNegotiateExtVersion, tapi2.phonenegotiateextversion

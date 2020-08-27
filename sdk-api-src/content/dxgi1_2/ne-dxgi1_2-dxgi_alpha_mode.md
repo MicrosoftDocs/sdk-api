@@ -1,7 +1,8 @@
 ---
 UID: NE:dxgi1_2.DXGI_ALPHA_MODE
 title: DXGI_ALPHA_MODE (dxgi1_2.h)
-description: Identifies the alpha value, transparency behavior, of a surface.helpviewer_keywords: ["DXGI_ALPHA_MODE","DXGI_ALPHA_MODE enumeration [DXGI]","DXGI_ALPHA_MODE_FORCE_DWORD","DXGI_ALPHA_MODE_IGNORE","DXGI_ALPHA_MODE_PREMULTIPLIED","DXGI_ALPHA_MODE_STRAIGHT","DXGI_ALPHA_MODE_UNSPECIFIED","direct3ddxgi.dxgi_alpha_mode","dxgi1_2/DXGI_ALPHA_MODE","dxgi1_2/DXGI_ALPHA_MODE_FORCE_DWORD","dxgi1_2/DXGI_ALPHA_MODE_IGNORE","dxgi1_2/DXGI_ALPHA_MODE_PREMULTIPLIED","dxgi1_2/DXGI_ALPHA_MODE_STRAIGHT","dxgi1_2/DXGI_ALPHA_MODE_UNSPECIFIED"]
+description: Identifies the alpha value, transparency behavior, of a surface.
+helpviewer_keywords: ["DXGI_ALPHA_MODE","DXGI_ALPHA_MODE enumeration [DXGI]","DXGI_ALPHA_MODE_FORCE_DWORD","DXGI_ALPHA_MODE_IGNORE","DXGI_ALPHA_MODE_PREMULTIPLIED","DXGI_ALPHA_MODE_STRAIGHT","DXGI_ALPHA_MODE_UNSPECIFIED","direct3ddxgi.dxgi_alpha_mode","dxgi1_2/DXGI_ALPHA_MODE","dxgi1_2/DXGI_ALPHA_MODE_FORCE_DWORD","dxgi1_2/DXGI_ALPHA_MODE_IGNORE","dxgi1_2/DXGI_ALPHA_MODE_PREMULTIPLIED","dxgi1_2/DXGI_ALPHA_MODE_STRAIGHT","dxgi1_2/DXGI_ALPHA_MODE_UNSPECIFIED"]
 old-location: direct3ddxgi\dxgi_alpha_mode.htm
 tech.root: direct3ddxgi
 ms.assetid: DD3D1E49-06D2-4FB9-A41B-86453D8E566F

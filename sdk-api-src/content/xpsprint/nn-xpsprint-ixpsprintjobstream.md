@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsprint.IXpsPrintJobStream
 title: IXpsPrintJobStream (xpsprint.h)
-description: A write-only stream interface into which an application writes print job data.helpviewer_keywords: ["IXpsPrintJobStream","IXpsPrintJobStream interface [Windows GDI]","IXpsPrintJobStream interface [Windows GDI]","described","gdi.ixpsprintjobstream","xpsprint/IXpsPrintJobStream"]
+description: A write-only stream interface into which an application writes print job data.
+helpviewer_keywords: ["IXpsPrintJobStream","IXpsPrintJobStream interface [Windows GDI]","IXpsPrintJobStream interface [Windows GDI]","described","gdi.ixpsprintjobstream","xpsprint/IXpsPrintJobStream"]
 old-location: gdi\ixpsprintjobstream.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a7855015-32db-48ff-8f8d-3d84d2843fde
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream

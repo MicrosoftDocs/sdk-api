@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyProcessInput
 title: IMFQualityManager::NotifyProcessInput (mfidl.h)
-description: Called when the media processor is about to deliver an input sample to a pipeline component.helpviewer_keywords: ["IMFQualityManager interface [Media Foundation]","NotifyProcessInput method","IMFQualityManager.NotifyProcessInput","IMFQualityManager::NotifyProcessInput","NotifyProcessInput","NotifyProcessInput method [Media Foundation]","NotifyProcessInput method [Media Foundation]","IMFQualityManager interface","c6e35d03-ca83-4078-bcc1-b9c1d988de01","mf.imfqualitymanager_notifyprocessinput","mfidl/IMFQualityManager::NotifyProcessInput"]
+description: Called when the media processor is about to deliver an input sample to a pipeline component.
+helpviewer_keywords: ["IMFQualityManager interface [Media Foundation]","NotifyProcessInput method","IMFQualityManager.NotifyProcessInput","IMFQualityManager::NotifyProcessInput","NotifyProcessInput","NotifyProcessInput method [Media Foundation]","NotifyProcessInput method [Media Foundation]","IMFQualityManager interface","c6e35d03-ca83-4078-bcc1-b9c1d988de01","mf.imfqualitymanager_notifyprocessinput","mfidl/IMFQualityManager::NotifyProcessInput"]
 old-location: mf\imfqualitymanager_notifyprocessinput.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c6e35d03-ca83-4078-bcc1-b9c1d988de01
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyProcessInput method, IMFQualityManager.NotifyProcessInput, IMFQualityManager::NotifyProcessInput, NotifyProcessInput, NotifyProcessInput method [Media Foundation], NotifyProcessInput method [Media Foundation],IMFQualityManager interface, c6e35d03-ca83-4078-bcc1-b9c1d988de01, mf.imfqualitymanager_notifyprocessinput, mfidl/IMFQualityManager::NotifyProcessInput

@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.LSA_CLIENT_CALLBACK
 title: LSA_CLIENT_CALLBACK (ntsecpkg.h)
-description: Allows a Local Security Authority (LSA)-mode security package to call back to its user-mode package and invoke a function in its DLL there.helpviewer_keywords: ["ClientCallback","ClientCallback callback function [Security]","LSA_CLIENT_CALLBACK","LSA_CLIENT_CALLBACK callback","_ssp_clientcallback","ntsecpkg/ClientCallback","security.clientcallback"]
+description: Allows a Local Security Authority (LSA)-mode security package to call back to its user-mode package and invoke a function in its DLL there.
+helpviewer_keywords: ["ClientCallback","ClientCallback callback function [Security]","LSA_CLIENT_CALLBACK","LSA_CLIENT_CALLBACK callback","_ssp_clientcallback","ntsecpkg/ClientCallback","security.clientcallback"]
 old-location: security\clientcallback.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d818a7b5-15c8-4d25-a8de-050926f34a9d
 ms.date: 12/05/2018
 ms.keywords: ClientCallback, ClientCallback callback function [Security], LSA_CLIENT_CALLBACK, LSA_CLIENT_CALLBACK callback, _ssp_clientcallback, ntsecpkg/ClientCallback, security.clientcallback

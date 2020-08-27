@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbGenericNotifySink
 title: ITsSbGenericNotifySink (sbtsv.h)
-description: Exposes methods that reports completion to and gets wait time from the Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["ITsSbGenericNotifySink","ITsSbGenericNotifySink interface [Remote Desktop Services]","ITsSbGenericNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbGenericNotifySink","termserv.itssbgenericnotifysink"]
+description: Exposes methods that reports completion to and gets wait time from the Remote Desktop Connection Broker (RD Connection Broker).
+helpviewer_keywords: ["ITsSbGenericNotifySink","ITsSbGenericNotifySink interface [Remote Desktop Services]","ITsSbGenericNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbGenericNotifySink","termserv.itssbgenericnotifysink"]
 old-location: termserv\itssbgenericnotifysink.htm
 tech.root: TermServ
 ms.assetid: 03a895ef-6c67-4537-bc1c-838b65ae3487

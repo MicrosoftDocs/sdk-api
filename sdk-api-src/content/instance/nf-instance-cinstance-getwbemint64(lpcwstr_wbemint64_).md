@@ -1,9 +1,10 @@
 ---
-UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64 &)
+UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64&)
 title: CInstance::GetWBEMINT64 (instance.h)
-description: The GetWBEMINT64 method retrieves a 64-bit integer property.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetWBEMINT64 method","CInstance.GetWBEMINT64","CInstance::GetWBEMINT64","CInstance::GetWBEMINT64(LPCWSTR","LONGLONG&)","GetWBEMINT64","GetWBEMINT64 method [Windows Management Instrumentation]","GetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::GetWBEMINT64","wmi.cinstance_getwbemint64_lpcwstr__longlong__"]
+description: The GetWBEMINT64 method retrieves a 64-bit integer property.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetWBEMINT64 method","CInstance.GetWBEMINT64","CInstance::GetWBEMINT64","CInstance::GetWBEMINT64(LPCWSTR","LONGLONG&)","GetWBEMINT64","GetWBEMINT64 method [Windows Management Instrumentation]","GetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::GetWBEMINT64","wmi.cinstance_getwbemint64_lpcwstr__longlong__"]
 old-location: wmi\cinstance_getwbemint64_lpcwstr__longlong__.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__
@@ -69,7 +70,7 @@ The <b>GetWBEMINT64</b> method retrieves a 64-bit integer property.
 Name of the 64-bit integer property retrieved.
 
 
-#### - wbemint64 [ref]
+### -param wbemint64 [ref]
 
 Buffer to receive the 64-bit integer value.
 

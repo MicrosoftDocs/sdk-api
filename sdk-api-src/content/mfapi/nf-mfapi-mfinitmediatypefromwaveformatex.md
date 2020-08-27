@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromWaveFormatEx
 title: MFInitMediaTypeFromWaveFormatEx function (mfapi.h)
-description: Initializes a media type from a WAVEFORMATEX structure.helpviewer_keywords: ["91a201a6-06cf-4445-ad62-fdabb3848d51","MFInitMediaTypeFromWaveFormatEx","MFInitMediaTypeFromWaveFormatEx function [Media Foundation]","mf.mfinitmediatypefromwaveformatex","mfapi/MFInitMediaTypeFromWaveFormatEx"]
+description: Initializes a media type from a WAVEFORMATEX structure.
+helpviewer_keywords: ["91a201a6-06cf-4445-ad62-fdabb3848d51","MFInitMediaTypeFromWaveFormatEx","MFInitMediaTypeFromWaveFormatEx function [Media Foundation]","mf.mfinitmediatypefromwaveformatex","mfapi/MFInitMediaTypeFromWaveFormatEx"]
 old-location: mf\mfinitmediatypefromwaveformatex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 91a201a6-06cf-4445-ad62-fdabb3848d51
 ms.date: 12/05/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx

@@ -1,9 +1,10 @@
 ---
 UID: NF:objbase.CoInstall
 title: CoInstall function (objbase.h)
-description: Installs the requested COM server application.helpviewer_keywords: ["CoInstall","CoInstall function [Windows API]","objbase/CoInstall","winprog.coinstall"]
+description: Installs the requested COM server application.
+helpviewer_keywords: ["CoInstall","CoInstall function [Windows API]","objbase/CoInstall","winprog.coinstall"]
 old-location: winprog\coinstall.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 92b290a5-0923-42fc-8231-1decca26adc1
 ms.date: 12/05/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall

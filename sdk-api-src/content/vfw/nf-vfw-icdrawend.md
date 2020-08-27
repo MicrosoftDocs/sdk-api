@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICDrawEnd
 title: ICDrawEnd macro (vfw.h)
-description: The ICDrawEnd macro notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can use this macro or explicitly call the ICM_DRAW_END message.helpviewer_keywords: ["ICDrawEnd","ICDrawEnd macro [Windows Multimedia]","_win32_ICDrawEnd","multimedia.icdrawend","vfw/ICDrawEnd"]
+description: The ICDrawEnd macro notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can use this macro or explicitly call the ICM_DRAW_END message.
+helpviewer_keywords: ["ICDrawEnd","ICDrawEnd macro [Windows Multimedia]","_win32_ICDrawEnd","multimedia.icdrawend","vfw/ICDrawEnd"]
 old-location: multimedia\icdrawend.htm
 tech.root: Multimedia
 ms.assetid: efcb1913-edaf-454c-a317-c14349805a81

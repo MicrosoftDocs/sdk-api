@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMBrush
 title: IXpsOMBrush (xpsobjectmodel.h)
-description: Defines objects that are used to paint graphical objects. Classes that derive from IXpsOMBrush describe how the area is painted.helpviewer_keywords: ["IXpsOMBrush","IXpsOMBrush interface [XPS Documents and Packaging]","IXpsOMBrush interface [XPS Documents and Packaging]","described","xps.ixpsombrush","xpsobjectmodel/IXpsOMBrush"]
+description: Defines objects that are used to paint graphical objects. Classes that derive from IXpsOMBrush describe how the area is painted.
+helpviewer_keywords: ["IXpsOMBrush","IXpsOMBrush interface [XPS Documents and Packaging]","IXpsOMBrush interface [XPS Documents and Packaging]","described","xps.ixpsombrush","xpsobjectmodel/IXpsOMBrush"]
 old-location: xps\ixpsombrush.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 43cb56db-e09e-47cb-b50b-7827131659fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], IXpsOMBrush interface [XPS Documents and Packaging],described, xps.ixpsombrush, xpsobjectmodel/IXpsOMBrush

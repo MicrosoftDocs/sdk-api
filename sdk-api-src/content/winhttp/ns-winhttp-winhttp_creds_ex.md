@@ -1,9 +1,10 @@
 ---
 UID: NS:winhttp.tagWINHTTP_CREDS_EX
 title: WINHTTP_CREDS_EX (winhttp.h)
-description: Contains user credential information used for server and proxy authentication.helpviewer_keywords: ["*PWINHTTP_CREDS_EX","INHTTP_AUTH_SCHEME_DIGEST","PWINHTTP_CREDS_EX","PWINHTTP_CREDS_EX structure pointer [HTTP]","WINHTTP_AUTH_SCHEME_BASIC","WINHTTP_AUTH_SCHEME_NEGOTIATE","WINHTTP_AUTH_SCHEME_NTLM","WINHTTP_CREDS_EX","WINHTTP_CREDS_EX structure [HTTP]","http.winhttp_creds_ex","winhttp/PWINHTTP_CREDS_EX","winhttp/WINHTTP_CREDS_EX"]
+description: Contains user credential information used for server and proxy authentication.
+helpviewer_keywords: ["*PWINHTTP_CREDS_EX","INHTTP_AUTH_SCHEME_DIGEST","PWINHTTP_CREDS_EX","PWINHTTP_CREDS_EX structure pointer [HTTP]","WINHTTP_AUTH_SCHEME_BASIC","WINHTTP_AUTH_SCHEME_NEGOTIATE","WINHTTP_AUTH_SCHEME_NTLM","WINHTTP_CREDS_EX","WINHTTP_CREDS_EX structure [HTTP]","http.winhttp_creds_ex","winhttp/PWINHTTP_CREDS_EX","winhttp/WINHTTP_CREDS_EX"]
 old-location: http\winhttp_creds_ex.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad
 ms.date: 12/05/2018
 ms.keywords: '*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, PWINHTTP_CREDS_EX structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS_EX, WINHTTP_CREDS_EX structure [HTTP], http.winhttp_creds_ex, winhttp/PWINHTTP_CREDS_EX, winhttp/WINHTTP_CREDS_EX'

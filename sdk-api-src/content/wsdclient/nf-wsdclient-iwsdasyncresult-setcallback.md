@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetCallback
 title: IWSDAsyncResult::SetCallback (wsdclient.h)
-description: Specifies a callback interface to call when the asynchronous operation has completed.helpviewer_keywords: ["IWSDAsyncResult interface","SetCallback method","IWSDAsyncResult.SetCallback","IWSDAsyncResult::SetCallback","SetCallback","SetCallback method","SetCallback method","IWSDAsyncResult interface","ncd.iwsdasyncresult_setcallback","wsdclient/IWSDAsyncResult::SetCallback"]
+description: Specifies a callback interface to call when the asynchronous operation has completed.
+helpviewer_keywords: ["IWSDAsyncResult interface","SetCallback method","IWSDAsyncResult.SetCallback","IWSDAsyncResult::SetCallback","SetCallback","SetCallback method","SetCallback method","IWSDAsyncResult interface","ncd.iwsdasyncresult_setcallback","wsdclient/IWSDAsyncResult::SetCallback"]
 old-location: ncd\iwsdasyncresult_setcallback.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback

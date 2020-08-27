@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerInqIf
 title: RpcServerInqIf function (rpcdce.h)
-description: The RpcServerInqIf function returns the manager entry-point vector (EPV) registered for an interface.helpviewer_keywords: ["RpcServerInqIf","RpcServerInqIf function [RPC]","_rpc_rpcserverinqif","rpc.rpcserverinqif","rpcdce/RpcServerInqIf"]
+description: The RpcServerInqIf function returns the manager entry-point vector (EPV) registered for an interface.
+helpviewer_keywords: ["RpcServerInqIf","RpcServerInqIf function [RPC]","_rpc_rpcserverinqif","rpc.rpcserverinqif","rpcdce/RpcServerInqIf"]
 old-location: rpc\rpcserverinqif.htm
 tech.root: Rpc
 ms.assetid: 4c5f86a5-7867-4d5a-a255-5c0c57c7fe0a

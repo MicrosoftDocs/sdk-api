@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocalFileSize
 title: IDWriteRemoteFontFileStream::GetLocalFileSize (dwrite_3.h)
-description: GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full file size returned by GetFileSize.helpviewer_keywords: ["GetLocalFileSize","GetLocalFileSize method [Direct Write]","GetLocalFileSize method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","GetLocalFileSize method","IDWriteRemoteFontFileStream.GetLocalFileSize","IDWriteRemoteFontFileStream::GetLocalFileSize","directwrite.idwriteremotefontfilestream_getlocalfilesize","dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize"]
+description: GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full file size returned by GetFileSize.
+helpviewer_keywords: ["GetLocalFileSize","GetLocalFileSize method [Direct Write]","GetLocalFileSize method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","GetLocalFileSize method","IDWriteRemoteFontFileStream.GetLocalFileSize","IDWriteRemoteFontFileStream::GetLocalFileSize","directwrite.idwriteremotefontfilestream_getlocalfilesize","dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize"]
 old-location: directwrite\idwriteremotefontfilestream_getlocalfilesize.htm
 tech.root: DirectWrite
 ms.assetid: 06FB14D5-19F6-48D3-AEA9-3D622219EF2A

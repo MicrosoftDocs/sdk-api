@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAddressEvent.get_Address
 title: ITAddressEvent::get_Address (tapi3if.h)
-description: The get_Address method gets a pointer to the ITAddress object involved in an event.helpviewer_keywords: ["ITAddressEvent interface [TAPI 2.2]","get_Address method","ITAddressEvent.get_Address","ITAddressEvent::get_Address","_tapi3_itaddressevent_get_address","get_Address","get_Address method [TAPI 2.2]","get_Address method [TAPI 2.2]","ITAddressEvent interface","tapi3.itaddressevent_get_address","tapi3if/ITAddressEvent::get_Address"]
+description: The get_Address method gets a pointer to the ITAddress object involved in an event.
+helpviewer_keywords: ["ITAddressEvent interface [TAPI 2.2]","get_Address method","ITAddressEvent.get_Address","ITAddressEvent::get_Address","_tapi3_itaddressevent_get_address","get_Address","get_Address method [TAPI 2.2]","get_Address method [TAPI 2.2]","ITAddressEvent interface","tapi3.itaddressevent_get_address","tapi3if/ITAddressEvent::get_Address"]
 old-location: tapi3\itaddressevent_get_address.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5616205a-922d-4d86-8a8d-89672288563a
 ms.date: 12/05/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Address method, ITAddressEvent.get_Address, ITAddressEvent::get_Address, _tapi3_itaddressevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_address, tapi3if/ITAddressEvent::get_Address

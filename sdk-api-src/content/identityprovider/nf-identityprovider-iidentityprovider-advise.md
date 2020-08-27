@@ -1,9 +1,10 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Advise
 title: IIdentityProvider::Advise (identityprovider.h)
-description: Allows a calling application to specify the list of identity events for which the application is to be notified.helpviewer_keywords: ["Advise","Advise method [Security]","Advise method [Security]","IIdentityProvider interface","IDENTITY_ASSOCIATED","IDENTITY_CREATED","IDENTITY_DELETED","IDENTITY_DISASSOCIATED","IDENTITY_IMPORTED","IDENTITY_PROPCHANGE","IIdentityProvider interface [Security]","Advise method","IIdentityProvider.Advise","IIdentityProvider::Advise","identityprovider/IIdentityProvider::Advise","security.iidentityprovider_advise"]
+description: Allows a calling application to specify the list of identity events for which the application is to be notified.
+helpviewer_keywords: ["Advise","Advise method [Security]","Advise method [Security]","IIdentityProvider interface","IDENTITY_ASSOCIATED","IDENTITY_CREATED","IDENTITY_DELETED","IDENTITY_DISASSOCIATED","IDENTITY_IMPORTED","IDENTITY_PROPCHANGE","IIdentityProvider interface [Security]","Advise method","IIdentityProvider.Advise","IIdentityProvider::Advise","identityprovider/IIdentityProvider::Advise","security.iidentityprovider_advise"]
 old-location: security\iidentityprovider_advise.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: fcac9d30-64ed-4746-aacc-ee659c2b2642
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Security], Advise method [Security],IIdentityProvider interface, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider interface [Security],Advise method, IIdentityProvider.Advise, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMPlaneDotCoord
 title: XMPlaneDotCoord function (directxmath.h)
-description: Calculates the dot product between an input plane and a 3D vector.helpviewer_keywords: ["Use DirectX..XMPlaneDotCoord","XMPlaneDotCoord","XMPlaneDotCoord method [DirectX Math Support APIs]","dxmath.xmplanedotcoord"]
+description: Calculates the dot product between an input plane and a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMPlaneDotCoord","XMPlaneDotCoord","XMPlaneDotCoord method [DirectX Math Support APIs]","dxmath.xmplanedotcoord"]
 old-location: dxmath\xmplanedotcoord.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDotCoord(XMVECTOR,XMVECTOR)

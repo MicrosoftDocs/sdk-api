@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegWriteUSValueW
 title: SHRegWriteUSValueW function (shlwapi.h)
-description: Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).helpviewer_keywords: ["REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_DWORD_LITTLE_ENDIAN","REG_EXPAND_SZ","REG_FULL_RESOURCE_DESCRIPTOR","REG_LINK","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_QWORD_LITTLE_ENDIAN","REG_RESOURCE_LIST","REG_RESOURCE_REQUIREMENTS_LIST","REG_SZ","SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegWriteUSValue","SHRegWriteUSValue function [Windows Shell]","SHRegWriteUSValueA","SHRegWriteUSValueW","_win32_SHRegWriteUSValue","shell.SHRegWriteUSValue","shlwapi/SHRegWriteUSValue","shlwapi/SHRegWriteUSValueA","shlwapi/SHRegWriteUSValueW"]
+description: Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+helpviewer_keywords: ["REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_DWORD_LITTLE_ENDIAN","REG_EXPAND_SZ","REG_FULL_RESOURCE_DESCRIPTOR","REG_LINK","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_QWORD_LITTLE_ENDIAN","REG_RESOURCE_LIST","REG_RESOURCE_REQUIREMENTS_LIST","REG_SZ","SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegWriteUSValue","SHRegWriteUSValue function [Windows Shell]","SHRegWriteUSValueA","SHRegWriteUSValueW","_win32_SHRegWriteUSValue","shell.SHRegWriteUSValue","shlwapi/SHRegWriteUSValue","shlwapi/SHRegWriteUSValueA","shlwapi/SHRegWriteUSValueW"]
 old-location: shell\SHRegWriteUSValue.htm
 tech.root: shell
 ms.assetid: f94569c6-415b-4263-bab4-8a5baca47901
@@ -191,71 +192,71 @@ Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszVa
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT (0x00000006)
+#### -param dwFlags.SHREGSET_DEFAULT (0x00000006)
 
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_FORCE_HKCU (0x00000002)
+#### -param dwFlags.SHREGSET_FORCE_HKCU (0x00000002)
 
 Write to <b>HKEY_CURRENT_USER</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM (0x00000008)
+#### -param dwFlags.SHREGSET_FORCE_HKLM (0x00000008)
 
 Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
 
 
-##### - dwFlags.SHREGSET_HKCU (0x00000001)
+#### -param dwFlags.SHREGSET_HKCU (0x00000001)
 
 Write to <b>HKEY_CURRENT_USER</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey.
 
 
-##### - dwFlags.SHREGSET_HKLM (0x00000004)
+#### -param dwFlags.SHREGSET_HKLM (0x00000004)
 
 Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey..
 
 
-##### - dwType.REG_BINARY (0x00000003)
+#### -param dwType.REG_BINARY (0x00000003)
 
 
-##### - dwType.REG_DWORD (0x00000004)
+#### -param dwType.REG_DWORD (0x00000004)
 
 
-##### - dwType.REG_DWORD_BIG_ENDIAN (0x00000005)
+#### -param dwType.REG_DWORD_BIG_ENDIAN (0x00000005)
 
 
-##### - dwType.REG_DWORD_LITTLE_ENDIAN (0x00000004)
+#### -param dwType.REG_DWORD_LITTLE_ENDIAN (0x00000004)
 
 
-##### - dwType.REG_EXPAND_SZ (0x00000002)
+#### -param dwType.REG_EXPAND_SZ (0x00000002)
 
 
-##### - dwType.REG_FULL_RESOURCE_DESCRIPTOR (0x00000009)
+#### -param dwType.REG_FULL_RESOURCE_DESCRIPTOR (0x00000009)
 
 
-##### - dwType.REG_LINK (0x00000006)
+#### -param dwType.REG_LINK (0x00000006)
 
 
-##### - dwType.REG_MULTI_SZ (0x00000007)
+#### -param dwType.REG_MULTI_SZ (0x00000007)
 
 
-##### - dwType.REG_NONE (0x00000000)
+#### -param dwType.REG_NONE (0x00000000)
 
 
-##### - dwType.REG_QWORD (0x0000000B)
+#### -param dwType.REG_QWORD (0x0000000B)
 
 
-##### - dwType.REG_QWORD_LITTLE_ENDIAN (0x0000000B)
+#### -param dwType.REG_QWORD_LITTLE_ENDIAN (0x0000000B)
 
 
-##### - dwType.REG_RESOURCE_LIST (0x00000008)
+#### -param dwType.REG_RESOURCE_LIST (0x00000008)
 
 
-##### - dwType.REG_RESOURCE_REQUIREMENTS_LIST (0x0000000A)
+#### -param dwType.REG_RESOURCE_REQUIREMENTS_LIST (0x0000000A)
 
 
-##### - dwType.REG_SZ (0x00000001)
+#### -param dwType.REG_SZ (0x00000001)
 
 
 #### - pszValue [in]
@@ -292,6 +293,10 @@ If you need to write more than one value on the same key, multiple calls to <b>S
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHRegWriteUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

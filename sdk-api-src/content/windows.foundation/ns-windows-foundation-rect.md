@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.foundation.Rect
 title: Rect (windows.foundation.h)
-description: Contains a set of four floating-point numbers that represent the location and size of a rectangle.helpviewer_keywords: ["Rect","Rect structure [Windows Runtime]","windows/Rect","winrt.rect"]
+description: Contains a set of four floating-point numbers that represent the location and size of a rectangle.
+helpviewer_keywords: ["Rect","Rect structure [Windows Runtime]","windows/Rect","winrt.rect"]
 old-location: winrt\rect.htm
 tech.root: WinRT
 ms.assetid: 420daab1-71e7-4610-b454-a49a64061f97
@@ -79,28 +80,28 @@ Contains a set of four floating-point numbers that represent the location and si
 
 
 
-#### - Height
+### -field Height
 
 Type: <b>float</b>
 
 The height of the rectangle.
 
 
-#### - Width
+### -field Width
 
 Type: <b>float</b>
 
 The width of the rectangle.
 
 
-#### - X
+### -field X
 
 Type: <b>float</b>
 
 The x-coordinate of the upper-left corner of the rectangle.
 
 
-#### - Y
+### -field Y
 
 Type: <b>float</b>
 

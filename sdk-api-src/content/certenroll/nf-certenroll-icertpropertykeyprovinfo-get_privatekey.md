@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertPropertyKeyProvInfo.get_PrivateKey
 title: ICertPropertyKeyProvInfo::get_PrivateKey (certenroll.h)
-description: Retrieves the private key associated with the certificate.helpviewer_keywords: ["ICertPropertyKeyProvInfo interface [Security]","PrivateKey property","ICertPropertyKeyProvInfo.PrivateKey","ICertPropertyKeyProvInfo.get_PrivateKey","ICertPropertyKeyProvInfo::PrivateKey","ICertPropertyKeyProvInfo::get_PrivateKey","PrivateKey property [Security]","PrivateKey property [Security]","ICertPropertyKeyProvInfo interface","certenroll/ICertPropertyKeyProvInfo::PrivateKey","certenroll/ICertPropertyKeyProvInfo::get_PrivateKey","get_PrivateKey","security.icertpropertykeyprovinfo_privatekey_property"]
+description: Retrieves the private key associated with the certificate.
+helpviewer_keywords: ["ICertPropertyKeyProvInfo interface [Security]","PrivateKey property","ICertPropertyKeyProvInfo.PrivateKey","ICertPropertyKeyProvInfo.get_PrivateKey","ICertPropertyKeyProvInfo::PrivateKey","ICertPropertyKeyProvInfo::get_PrivateKey","PrivateKey property [Security]","PrivateKey property [Security]","ICertPropertyKeyProvInfo interface","certenroll/ICertPropertyKeyProvInfo::PrivateKey","certenroll/ICertPropertyKeyProvInfo::get_PrivateKey","get_PrivateKey","security.icertpropertykeyprovinfo_privatekey_property"]
 old-location: security\icertpropertykeyprovinfo_privatekey_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 24cc6dea-fb29-4533-8f6c-3f273c5b94c3
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],PrivateKey property, ICertPropertyKeyProvInfo.PrivateKey, ICertPropertyKeyProvInfo.get_PrivateKey, ICertPropertyKeyProvInfo::PrivateKey, ICertPropertyKeyProvInfo::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::PrivateKey, certenroll/ICertPropertyKeyProvInfo::get_PrivateKey, get_PrivateKey, security.icertpropertykeyprovinfo_privatekey_property

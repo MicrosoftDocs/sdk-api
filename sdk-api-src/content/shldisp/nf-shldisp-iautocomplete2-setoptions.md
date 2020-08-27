@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IAutoComplete2.SetOptions
 title: IAutoComplete2::SetOptions (shldisp.h)
-description: Sets the current autocomplete options.helpviewer_keywords: ["IAutoComplete2 interface [Windows Shell]","SetOptions method","IAutoComplete2.SetOptions","IAutoComplete2::SetOptions","SetOptions","SetOptions method [Windows Shell]","SetOptions method [Windows Shell]","IAutoComplete2 interface","_win32_IAutoComplete2_SetOptions","shell.IAutoComplete2_SetOptions","shldisp/IAutoComplete2::SetOptions"]
+description: Sets the current autocomplete options.
+helpviewer_keywords: ["IAutoComplete2 interface [Windows Shell]","SetOptions method","IAutoComplete2.SetOptions","IAutoComplete2::SetOptions","SetOptions","SetOptions method [Windows Shell]","SetOptions method [Windows Shell]","IAutoComplete2 interface","_win32_IAutoComplete2_SetOptions","shell.IAutoComplete2_SetOptions","shldisp/IAutoComplete2::SetOptions"]
 old-location: shell\IAutoComplete2_SetOptions.htm
 tech.root: shell
 ms.assetid: d3562845-fc28-4726-a520-29720f9924fc

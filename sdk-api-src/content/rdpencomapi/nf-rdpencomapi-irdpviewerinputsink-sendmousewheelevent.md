@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseWheelEvent
 title: IRDPViewerInputSink::SendMouseWheelEvent (rdpencomapi.h)
-description: Sends a mouse wheel event message.helpviewer_keywords: ["IRDPViewerInputSink interface [RDP]","SendMouseWheelEvent method","IRDPViewerInputSink.SendMouseWheelEvent","IRDPViewerInputSink::SendMouseWheelEvent","SendMouseWheelEvent","SendMouseWheelEvent method [RDP]","SendMouseWheelEvent method [RDP]","IRDPViewerInputSink interface","rdp.irdpviewerinputsink_sendmousewheelevent","rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent"]
+description: Sends a mouse wheel event message.
+helpviewer_keywords: ["IRDPViewerInputSink interface [RDP]","SendMouseWheelEvent method","IRDPViewerInputSink.SendMouseWheelEvent","IRDPViewerInputSink::SendMouseWheelEvent","SendMouseWheelEvent","SendMouseWheelEvent method [RDP]","SendMouseWheelEvent method [RDP]","IRDPViewerInputSink interface","rdp.irdpviewerinputsink_sendmousewheelevent","rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent"]
 old-location: rdp\irdpviewerinputsink_sendmousewheelevent.htm
 tech.root: rdp
 ms.assetid: CEC54C27-F49E-4B41-A18D-69F0414955A1

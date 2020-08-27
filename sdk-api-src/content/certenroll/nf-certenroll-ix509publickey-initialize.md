@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PublicKey.Initialize
 title: IX509PublicKey::Initialize (certenroll.h)
-description: Initializes the object from a public key algorithm object identifier (OID) and from byte arrays that contain a public key and the associated parameters, if any.helpviewer_keywords: ["IX509PublicKey interface [Security]","Initialize method","IX509PublicKey.Initialize","IX509PublicKey::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509PublicKey interface","certenroll/IX509PublicKey::Initialize","security.ix509publickey_initialize_method"]
+description: Initializes the object from a public key algorithm object identifier (OID) and from byte arrays that contain a public key and the associated parameters, if any.
+helpviewer_keywords: ["IX509PublicKey interface [Security]","Initialize method","IX509PublicKey.Initialize","IX509PublicKey::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509PublicKey interface","certenroll/IX509PublicKey::Initialize","security.ix509publickey_initialize_method"]
 old-location: security\ix509publickey_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b6db46b2-95f5-4ba9-829d-97bf83fd9806
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],Initialize method, IX509PublicKey.Initialize, IX509PublicKey::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Initialize, security.ix509publickey_initialize_method

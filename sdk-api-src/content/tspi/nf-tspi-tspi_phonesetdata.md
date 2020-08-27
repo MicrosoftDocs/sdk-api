@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_phoneSetData
 title: TSPI_phoneSetData function (tspi.h)
-description: The TSPI_phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.helpviewer_keywords: ["TSPI_phoneSetData","TSPI_phoneSetData function [TAPI 2.2]","_tspi_tspi_phonesetdata","tspi.tspi_phonesetdata","tspi/TSPI_phoneSetData"]
+description: The TSPI_phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.
+helpviewer_keywords: ["TSPI_phoneSetData","TSPI_phoneSetData function [TAPI 2.2]","_tspi_tspi_phonesetdata","tspi.tspi_phonesetdata","tspi/TSPI_phoneSetData"]
 old-location: tspi\tspi_phonesetdata.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c4861878-639b-45a5-aff8-3f1fd1a2e153
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetData, TSPI_phoneSetData function [TAPI 2.2], _tspi_tspi_phonesetdata, tspi.tspi_phonesetdata, tspi/TSPI_phoneSetData

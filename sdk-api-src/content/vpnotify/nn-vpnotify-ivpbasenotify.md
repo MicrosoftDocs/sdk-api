@@ -1,9 +1,10 @@
 ---
 UID: NN:vpnotify.IVPBaseNotify
 title: IVPBaseNotify (vpnotify.h)
-description: Enables the Overlay Mixer to control the properties of a hardware device such as a decoder that uses a video port. The IVPNotify interface derives from this interface.Applications should never use this interface.helpviewer_keywords: ["IVPBaseNotify","IVPBaseNotify interface [DirectShow]","IVPBaseNotify interface [DirectShow]","described","IVPBaseNotifyInterface","dshow.ivpbasenotify","vpnotify/IVPBaseNotify"]
+description: Enables the Overlay Mixer to control the properties of a hardware device such as a decoder that uses a video port. The IVPNotify interface derives from this interface.Applications should never use this interface.
+helpviewer_keywords: ["IVPBaseNotify","IVPBaseNotify interface [DirectShow]","IVPBaseNotify interface [DirectShow]","described","IVPBaseNotifyInterface","dshow.ivpbasenotify","vpnotify/IVPBaseNotify"]
 old-location: dshow\ivpbasenotify.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c72bd662-366c-4102-9ad9-9e4c59096ede
 ms.date: 12/05/2018
 ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], IVPBaseNotify interface [DirectShow],described, IVPBaseNotifyInterface, dshow.ivpbasenotify, vpnotify/IVPBaseNotify

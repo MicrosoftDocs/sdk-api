@@ -1,9 +1,10 @@
 ---
 UID: NF:memoryapi.VirtualLock
 title: VirtualLock function (memoryapi.h)
-description: Locks the specified region of the process's virtual address space into physical memory, ensuring that subsequent access to the region will not incur a page fault.helpviewer_keywords: ["VirtualLock","VirtualLock function","_win32_virtuallock","base.virtuallock","winbase/VirtualLock"]
+description: Locks the specified region of the process's virtual address space into physical memory, ensuring that subsequent access to the region will not incur a page fault.
+helpviewer_keywords: ["VirtualLock","VirtualLock function","_win32_virtuallock","base.virtuallock","winbase/VirtualLock"]
 old-location: base\virtuallock.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 414c4704-36f2-40f9-a69a-9d53ab354c30
 ms.date: 12/05/2018
 ms.keywords: VirtualLock, VirtualLock function, _win32_virtuallock, base.virtuallock, winbase/VirtualLock

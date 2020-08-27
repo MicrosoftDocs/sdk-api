@@ -1,7 +1,8 @@
 ---
 UID: NF:lmserver.NetServerTransportEnum
 title: NetServerTransportEnum function (lmserver.h)
-description: The NetServerTransportEnum function supplies information about transport protocols that are managed by the server.helpviewer_keywords: ["0","1","NetServerTransportEnum","NetServerTransportEnum function [Network Management]","_win32_netservertransportenum","lmserver/NetServerTransportEnum","netmgmt.netservertransportenum"]
+description: The NetServerTransportEnum function supplies information about transport protocols that are managed by the server.
+helpviewer_keywords: ["0","1","NetServerTransportEnum","NetServerTransportEnum function [Network Management]","_win32_netservertransportenum","lmserver/NetServerTransportEnum","netmgmt.netservertransportenum"]
 old-location: netmgmt\netservertransportenum.htm
 tech.root: NetMgmt
 ms.assetid: db42ac44-d70d-4b89-882a-6ac83fd611fd
@@ -127,7 +128,7 @@ Pointer to a value that receives the count of elements actually enumerated.
 Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. Note that applications should consider this value only as a hint.
 
 
-#### - resume_handle [in, out]
+### -param resume_handle [in, out]
 
 Pointer to a value that contains a resume handle which is used to continue an existing server transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, no resume handle is stored.
 

@@ -5,6 +5,7 @@ ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
 description: \**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput).
+tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

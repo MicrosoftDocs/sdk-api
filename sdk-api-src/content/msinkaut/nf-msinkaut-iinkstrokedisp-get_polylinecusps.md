@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PolylineCusps
 title: IInkStrokeDisp::get_PolylineCusps (msinkaut.h)
-description: Gets an array that contains the indices of the cusps of the IInkStrokeDisp object.helpviewer_keywords: ["67ae7265-4416-4eef-8a8f-85f3a5751200","IInkStrokeDisp interface [Tablet PC]","PolylineCusps property","IInkStrokeDisp.PolylineCusps","IInkStrokeDisp.get_PolylineCusps","IInkStrokeDisp::PolylineCusps","IInkStrokeDisp::get_PolylineCusps","PolylineCusps property [Tablet PC]","PolylineCusps property [Tablet PC]","IInkStrokeDisp interface","get_PolylineCusps","msinkaut/IInkStrokeDisp::PolylineCusps","msinkaut/IInkStrokeDisp::get_PolylineCusps","tablet.iinkstrokedisp_polylinecusps"]
+description: Gets an array that contains the indices of the cusps of the IInkStrokeDisp object.
+helpviewer_keywords: ["67ae7265-4416-4eef-8a8f-85f3a5751200","IInkStrokeDisp interface [Tablet PC]","PolylineCusps property","IInkStrokeDisp.PolylineCusps","IInkStrokeDisp.get_PolylineCusps","IInkStrokeDisp::PolylineCusps","IInkStrokeDisp::get_PolylineCusps","PolylineCusps property [Tablet PC]","PolylineCusps property [Tablet PC]","IInkStrokeDisp interface","get_PolylineCusps","msinkaut/IInkStrokeDisp::PolylineCusps","msinkaut/IInkStrokeDisp::get_PolylineCusps","tablet.iinkstrokedisp_polylinecusps"]
 old-location: tablet\iinkstrokedisp_polylinecusps.htm
 tech.root: tablet
 ms.assetid: 67ae7265-4416-4eef-8a8f-85f3a5751200

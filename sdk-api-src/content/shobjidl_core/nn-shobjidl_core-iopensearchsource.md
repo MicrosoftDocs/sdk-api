@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IOpenSearchSource
 title: IOpenSearchSource (shobjidl_core.h)
-description: Exposes a method to get search results from a custom client-side OpenSearch data source.helpviewer_keywords: ["IOpenSearchSource","IOpenSearchSource interface [Windows Shell]","IOpenSearchSource interface [Windows Shell]","described","_shell_IOpenSearchSource","shell.IOpenSearchSource","shobjidl_core/IOpenSearchSource"]
+description: Exposes a method to get search results from a custom client-side OpenSearch data source.
+helpviewer_keywords: ["IOpenSearchSource","IOpenSearchSource interface [Windows Shell]","IOpenSearchSource interface [Windows Shell]","described","_shell_IOpenSearchSource","shell.IOpenSearchSource","shobjidl_core/IOpenSearchSource"]
 old-location: shell\IOpenSearchSource.htm
 tech.root: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3

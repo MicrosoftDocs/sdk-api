@@ -1,7 +1,8 @@
 ---
 UID: NF:filter.IFilter.GetText
 title: IFilter::GetText (filter.h)
-description: Retrieves text (text-type properties) from the current chunk, which must have a CHUNKSTATE enumeration value of CHUNK_TEXT.helpviewer_keywords: ["GetText","GetText method [Indexing Service]","GetText method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetText method","IFilter.GetText","IFilter::GetText","_idxs_IFilter_GetText","filter/IFilter::GetText","indexsrv.ifilter_gettext"]
+description: Retrieves text (text-type properties) from the current chunk, which must have a CHUNKSTATE enumeration value of CHUNK_TEXT.
+helpviewer_keywords: ["GetText","GetText method [Indexing Service]","GetText method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetText method","IFilter.GetText","IFilter::GetText","_idxs_IFilter_GetText","filter/IFilter::GetText","indexsrv.ifilter_gettext"]
 old-location: indexsrv\ifilter_gettext.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm

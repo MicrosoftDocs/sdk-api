@@ -1,9 +1,10 @@
 ---
 UID: NN:vds.IVdsServiceSAN
 title: IVdsServiceSAN (vds.h)
-description: Provides methods for managing disk online and offline SAN policy for the operating system.helpviewer_keywords: ["IVdsServiceSAN","IVdsServiceSAN interface","IVdsServiceSAN interface","described","base.ivdsservicesan","vds/IVdsServiceSAN"]
+description: Provides methods for managing disk online and offline SAN policy for the operating system.
+helpviewer_keywords: ["IVdsServiceSAN","IVdsServiceSAN interface","IVdsServiceSAN interface","described","base.ivdsservicesan","vds/IVdsServiceSAN"]
 old-location: base\ivdsservicesan.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 675e9ea8-06b6-4832-9311-17361e4781d4
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceSAN, IVdsServiceSAN interface, IVdsServiceSAN interface,described, base.ivdsservicesan, vds/IVdsServiceSAN

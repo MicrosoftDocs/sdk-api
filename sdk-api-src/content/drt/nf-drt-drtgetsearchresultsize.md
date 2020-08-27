@@ -1,9 +1,10 @@
 ---
 UID: NF:drt.DrtGetSearchResultSize
 title: DrtGetSearchResultSize function (drt.h)
-description: DrtGetSearchResultSize function returns the size of the next available search result.helpviewer_keywords: ["DrtGetSearchResultSize","DrtGetSearchResultSize function [Peer Networking]","drt/DrtGetSearchResultSize","p2p.drtgetsearchresultsize"]
+description: DrtGetSearchResultSize function returns the size of the next available search result.
+helpviewer_keywords: ["DrtGetSearchResultSize","DrtGetSearchResultSize function [Peer Networking]","drt/DrtGetSearchResultSize","p2p.drtgetsearchresultsize"]
 old-location: p2p\drtgetsearchresultsize.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: ef17c42e-4cf9-4b5c-b6ef-430500fddff2
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize

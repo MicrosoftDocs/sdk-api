@@ -1,9 +1,10 @@
 ---
 UID: NF:ddrawgdi.DdAttachSurface
 title: DdAttachSurface function (ddrawgdi.h)
-description: The DdAttachSurface function attaches two kernel-mode surface representations. GdiEntry11 is defined as an alias for this function.helpviewer_keywords: ["DdAttachSurface","DdAttachSurface function [Windows API]","GdiEntry11","_dxgkernel_ddattachsurface","ddrawgdi/DdAttachSurface","ddrawgdi/GdiEntry11","winprog._dxgkernel_ddattachsurface","winui._dxgkernel_ddattachsurface"]
+description: The DdAttachSurface function attaches two kernel-mode surface representations. GdiEntry11 is defined as an alias for this function.
+helpviewer_keywords: ["DdAttachSurface","DdAttachSurface function [Windows API]","GdiEntry11","_dxgkernel_ddattachsurface","ddrawgdi/DdAttachSurface","ddrawgdi/GdiEntry11","winprog._dxgkernel_ddattachsurface","winui._dxgkernel_ddattachsurface"]
 old-location: winprog\_dxgkernel_ddattachsurface.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddattachsurface.htm
 ms.date: 12/05/2018
 ms.keywords: DdAttachSurface, DdAttachSurface function [Windows API], GdiEntry11, _dxgkernel_ddattachsurface, ddrawgdi/DdAttachSurface, ddrawgdi/GdiEntry11, winprog._dxgkernel_ddattachsurface, winui._dxgkernel_ddattachsurface

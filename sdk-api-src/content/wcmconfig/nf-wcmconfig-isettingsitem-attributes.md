@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Attributes
 title: ISettingsItem::Attributes (wcmconfig.h)
-description: Gets the dictionary of attributes.helpviewer_keywords: ["Attributes","Attributes method [SMI]","Attributes method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","Attributes method","ISettingsItem.Attributes","ISettingsItem::Attributes","smi.isettingsitem_attributes","wcmconfig/ISettingsItem::Attributes"]
+description: Gets the dictionary of attributes.
+helpviewer_keywords: ["Attributes","Attributes method [SMI]","Attributes method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","Attributes method","ISettingsItem.Attributes","ISettingsItem::Attributes","smi.isettingsitem_attributes","wcmconfig/ISettingsItem::Attributes"]
 old-location: smi\isettingsitem_attributes.htm
 tech.root: SMI
 ms.assetid: 7a6751f2-0934-4329-9ab2-9ae9802bc33e

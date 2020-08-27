@@ -1,9 +1,10 @@
 ---
 UID: NN:camerauicontrol.ICameraUIControlEventCallback
 title: ICameraUIControlEventCallback (camerauicontrol.h)
-description: Callback interface for receiving events from the camera user interface control.helpviewer_keywords: ["ICameraUIControlEventCallback","ICameraUIControlEventCallback interface [Windows API]","ICameraUIControlEventCallback interface [Windows API]","described","camerauicontrol/ICameraUIControlEventCallback","winprog.icamerauicontroleventcallback"]
+description: Callback interface for receiving events from the camera user interface control.
+helpviewer_keywords: ["ICameraUIControlEventCallback","ICameraUIControlEventCallback interface [Windows API]","ICameraUIControlEventCallback interface [Windows API]","described","camerauicontrol/ICameraUIControlEventCallback","winprog.icamerauicontroleventcallback"]
 old-location: winprog\icamerauicontroleventcallback.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: f870557e-0e01-4f5c-81be-c709e397e5fd
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], ICameraUIControlEventCallback interface [Windows API],described, camerauicontrol/ICameraUIControlEventCallback, winprog.icamerauicontroleventcallback

@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DRIDRMService.GetPairingStatus
 title: IBDA_DRIDRMService::GetPairingStatus (bdaiface.h)
-description: The GetPairingStatus method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA).helpviewer_keywords: ["""Green"",""Orange"",""Red"","GetPairingStatus","GetPairingStatus method [DirectShow]","GetPairingStatus method [DirectShow]","IBDA_DRIDRMService interface","IBDA_DRIDRMService interface [DirectShow]","GetPairingStatus method","IBDA_DRIDRMService.GetPairingStatus","IBDA_DRIDRMService::GetPairingStatus","bdaiface/IBDA_DRIDRMService::GetPairingStatus","mstv.ibda_dridrmservice_getpairingstatus""]
+description: The GetPairingStatus method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA).
+helpviewer_keywords: ["""Green"",""Orange"",""Red"","GetPairingStatus","GetPairingStatus method [DirectShow]","GetPairingStatus method [DirectShow]","IBDA_DRIDRMService interface","IBDA_DRIDRMService interface [DirectShow]","GetPairingStatus method","IBDA_DRIDRMService.GetPairingStatus","IBDA_DRIDRMService::GetPairingStatus","bdaiface/IBDA_DRIDRMService::GetPairingStatus","mstv.ibda_dridrmservice_getpairingstatus""]
 old-location: mstv\ibda_dridrmservice_getpairingstatus.htm
 tech.root: mstv
 ms.assetid: 01918e99-17e6-4c24-bb85-ba71cf68cf09

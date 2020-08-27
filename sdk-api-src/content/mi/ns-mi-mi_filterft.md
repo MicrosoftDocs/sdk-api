@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_FilterFT
 title: MI_FilterFT (mi.h)
-description: A support structure used in the MI_Filter structure. Use the functions with the name prefix &#0034;MI_Filter_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_FilterFT","MI_FilterFT structure [Windows Management Infrastructure (MI)]","mi/MI_FilterFT","wmi_v2.mi_filterft"]
+description: A support structure used in the MI_Filter structure. Use the functions with the name prefix &quot;MI_Filter_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_FilterFT","MI_FilterFT structure [Windows Management Infrastructure (MI)]","mi/MI_FilterFT","wmi_v2.mi_filterft"]
 old-location: wmi_v2\mi_filterft.htm
 tech.root: wmi_v2
 ms.assetid: f090b05e-e99b-47aa-8458-8e2cf9031ac7
@@ -66,13 +67,13 @@ TBD
 
 
 
-#### - Evaluate
+### -field Evaluate
 
 The provider calls this function to evaluate an instance against a given filter. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_evaluate">MI_Filter_Evaluate</a>.
 
 
-#### - GetExpression
+### -field GetExpression
 
 Gets the filter language and expression. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_getexpression">MI_Filter_GetExpression</a>.

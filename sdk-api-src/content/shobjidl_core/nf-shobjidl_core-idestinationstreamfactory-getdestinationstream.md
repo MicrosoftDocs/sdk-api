@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDestinationStreamFactory.GetDestinationStream
 title: IDestinationStreamFactory::GetDestinationStream (shobjidl_core.h)
-description: Gets an empty stream that receives the new version of the file being copied.helpviewer_keywords: ["GetDestinationStream","GetDestinationStream method [Windows Shell]","GetDestinationStream method [Windows Shell]","IDestinationStreamFactory interface","IDestinationStreamFactory interface [Windows Shell]","GetDestinationStream method","IDestinationStreamFactory.GetDestinationStream","IDestinationStreamFactory::GetDestinationStream","shell.IDestinationStreamFactory_GetDestinationStream","shell_IDestinationStreamFactory_GetDestinationStream","shobjidl_core/IDestinationStreamFactory::GetDestinationStream"]
+description: Gets an empty stream that receives the new version of the file being copied.
+helpviewer_keywords: ["GetDestinationStream","GetDestinationStream method [Windows Shell]","GetDestinationStream method [Windows Shell]","IDestinationStreamFactory interface","IDestinationStreamFactory interface [Windows Shell]","GetDestinationStream method","IDestinationStreamFactory.GetDestinationStream","IDestinationStreamFactory::GetDestinationStream","shell.IDestinationStreamFactory_GetDestinationStream","shell_IDestinationStreamFactory_GetDestinationStream","shobjidl_core/IDestinationStreamFactory::GetDestinationStream"]
 old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm
 tech.root: shell
 ms.assetid: 4903a3a1-12b7-4094-aac8-6e8525998c3c

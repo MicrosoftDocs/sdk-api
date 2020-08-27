@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.InitializeItemList
 title: IPhotoAcquireSource::InitializeItemList (photoacquire.h)
-description: The InitializeItemList method enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.helpviewer_keywords: ["IPhotoAcquireSource interface [Picture Acquisition]","InitializeItemList method","IPhotoAcquireSource.InitializeItemList","IPhotoAcquireSource::InitializeItemList","IPhotoAcquireSourceInitializeItemList","InitializeItemList","InitializeItemList method [Picture Acquisition]","InitializeItemList method [Picture Acquisition]","IPhotoAcquireSource interface","photoacquire/IPhotoAcquireSource::InitializeItemList","picacq.iphotoacquiresource_initializeitemlist"]
+description: The InitializeItemList method enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.
+helpviewer_keywords: ["IPhotoAcquireSource interface [Picture Acquisition]","InitializeItemList method","IPhotoAcquireSource.InitializeItemList","IPhotoAcquireSource::InitializeItemList","IPhotoAcquireSourceInitializeItemList","InitializeItemList","InitializeItemList method [Picture Acquisition]","InitializeItemList method [Picture Acquisition]","IPhotoAcquireSource interface","photoacquire/IPhotoAcquireSource::InitializeItemList","picacq.iphotoacquiresource_initializeitemlist"]
 old-location: picacq\iphotoacquiresource_initializeitemlist.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 1e0ebbc7-888d-4044-8257-47c1719cf7fc
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist

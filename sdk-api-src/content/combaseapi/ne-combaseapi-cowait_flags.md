@@ -1,7 +1,8 @@
 ---
 UID: NE:combaseapi.tagCOWAIT_FLAGS
 title: COWAIT_FLAGS (combaseapi.h)
-description: Specifies the behavior of the CoWaitForMultipleHandles function.helpviewer_keywords: ["COWAIT_ALERTABLE","COWAIT_DEFAULT","COWAIT_DISPATCH_CALLS","COWAIT_DISPATCH_WINDOW_MESSAGES","COWAIT_FLAGS","COWAIT_FLAGS enumeration [COM]","COWAIT_INPUTAVAILABLE","COWAIT_WAITALL","_com_COWAIT_FLAGS","com.cowait_flags","combaseapi/COWAIT_ALERTABLE","combaseapi/COWAIT_DEFAULT","combaseapi/COWAIT_DISPATCH_CALLS","combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES","combaseapi/COWAIT_FLAGS","combaseapi/COWAIT_INPUTAVAILABLE","combaseapi/COWAIT_WAITALL"]
+description: Specifies the behavior of the CoWaitForMultipleHandles function.
+helpviewer_keywords: ["COWAIT_ALERTABLE","COWAIT_DEFAULT","COWAIT_DISPATCH_CALLS","COWAIT_DISPATCH_WINDOW_MESSAGES","COWAIT_FLAGS","COWAIT_FLAGS enumeration [COM]","COWAIT_INPUTAVAILABLE","COWAIT_WAITALL","_com_COWAIT_FLAGS","com.cowait_flags","combaseapi/COWAIT_ALERTABLE","combaseapi/COWAIT_DEFAULT","combaseapi/COWAIT_DISPATCH_CALLS","combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES","combaseapi/COWAIT_FLAGS","combaseapi/COWAIT_INPUTAVAILABLE","combaseapi/COWAIT_WAITALL"]
 old-location: com\cowait_flags.htm
 tech.root: com
 ms.assetid: e6f8300c-f74b-4383-8ee5-519a0ed0b358

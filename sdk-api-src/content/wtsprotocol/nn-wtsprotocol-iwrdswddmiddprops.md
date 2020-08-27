@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWRdsWddmIddProps
 title: IWRdsWddmIddProps (wtsprotocol.h)
-description: This interface allows a custom IDD driver to be loaded in a remote session.helpviewer_keywords: ["IWRdsWddmIddProps","IWRdsWddmIddProps interface [Remote Desktop Services]","IWRdsWddmIddProps interface [Remote Desktop Services]","described","termserv.iwrdswddmiddprops","wtsprotocol/IWRdsWddmIddProps"]
+description: This interface allows a custom IDD driver to be loaded in a remote session.
+helpviewer_keywords: ["IWRdsWddmIddProps","IWRdsWddmIddProps interface [Remote Desktop Services]","IWRdsWddmIddProps interface [Remote Desktop Services]","described","termserv.iwrdswddmiddprops","wtsprotocol/IWRdsWddmIddProps"]
 old-location: termserv\iwrdswddmiddprops.htm
 tech.root: TermServ
 ms.assetid: 9473E754-D158-40E7-9E76-D8EA5A4BE86E

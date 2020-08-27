@@ -1,9 +1,10 @@
 ---
 UID: NS:sspi._SECURITY_INTEGER
 title: SECURITY_INTEGER (sspi.h)
-description: SECURITY_INTEGER is a structure that holds a numeric value. It is used in defining other types.helpviewer_keywords: ["*PSECURITY_INTEGER","*PTimeStamp","SECURITY_INTEGER","SECURITY_INTEGER structure [Security]","TimeStamp","_ssp_security_integer","security.security_integer","sspi/SECURITY_INTEGER"]
+description: SECURITY_INTEGER is a structure that holds a numeric value. It is used in defining other types.
+helpviewer_keywords: ["*PSECURITY_INTEGER","*PTimeStamp","SECURITY_INTEGER","SECURITY_INTEGER structure [Security]","TimeStamp","_ssp_security_integer","security.security_integer","sspi/SECURITY_INTEGER"]
 old-location: security\security_integer.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 51805230-afcb-490c-8c3d-1a533f3a58f0
 ms.date: 12/05/2018
 ms.keywords: '*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGER structure [Security], TimeStamp, _ssp_security_integer, security.security_integer, sspi/SECURITY_INTEGER'

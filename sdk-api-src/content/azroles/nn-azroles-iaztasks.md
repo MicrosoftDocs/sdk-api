@@ -1,9 +1,10 @@
 ---
 UID: NN:azroles.IAzTasks
 title: IAzTasks (azroles.h)
-description: Represents a collection of IAzTask objects.helpviewer_keywords: ["IAzTasks","IAzTasks interface [Security]","IAzTasks interface [Security]","described","azroles/IAzTasks","security.iaztasks"]
+description: Represents a collection of IAzTask objects.
+helpviewer_keywords: ["IAzTasks","IAzTasks interface [Security]","IAzTasks interface [Security]","described","azroles/IAzTasks","security.iaztasks"]
 old-location: security\iaztasks.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.date: 12/05/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks

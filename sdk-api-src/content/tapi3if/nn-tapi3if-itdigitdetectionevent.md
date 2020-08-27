@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITDigitDetectionEvent
 title: ITDigitDetectionEvent (tapi3if.h)
-description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.helpviewer_keywords: ["ITDigitDetectionEvent","ITDigitDetectionEvent interface [TAPI 2.2]","ITDigitDetectionEvent interface [TAPI 2.2]","described","_tapi3_itdigitdetectionevent","tapi3.itdigitdetectionevent","tapi3if/ITDigitDetectionEvent"]
+description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.
+helpviewer_keywords: ["ITDigitDetectionEvent","ITDigitDetectionEvent interface [TAPI 2.2]","ITDigitDetectionEvent interface [TAPI 2.2]","described","_tapi3_itdigitdetectionevent","tapi3.itdigitdetectionevent","tapi3if/ITDigitDetectionEvent"]
 old-location: tapi3\itdigitdetectionevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent

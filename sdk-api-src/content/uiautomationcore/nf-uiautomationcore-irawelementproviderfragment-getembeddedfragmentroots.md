@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.GetEmbeddedFragmentRoots
 title: IRawElementProviderFragment::GetEmbeddedFragmentRoots (uiautomationcore.h)
-description: Retrieves an array of root fragments that are embedded in the Microsoft UI Automation tree rooted at the current element.helpviewer_keywords: ["GetEmbeddedFragmentRoots","GetEmbeddedFragmentRoots method [Windows Accessibility]","GetEmbeddedFragmentRoots method [Windows Accessibility]","IRawElementProviderFragment interface","IRawElementProviderFragment interface [Windows Accessibility]","GetEmbeddedFragmentRoots method","IRawElementProviderFragment.GetEmbeddedFragmentRoots","IRawElementProviderFragment::GetEmbeddedFragmentRoots","uiauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots","uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots","uiautomationcore/IRawElementProviderFragment::GetEmbeddedFragmentRoots","winauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots"]
+description: Retrieves an array of root fragments that are embedded in the Microsoft UI Automation tree rooted at the current element.
+helpviewer_keywords: ["GetEmbeddedFragmentRoots","GetEmbeddedFragmentRoots method [Windows Accessibility]","GetEmbeddedFragmentRoots method [Windows Accessibility]","IRawElementProviderFragment interface","IRawElementProviderFragment interface [Windows Accessibility]","GetEmbeddedFragmentRoots method","IRawElementProviderFragment.GetEmbeddedFragmentRoots","IRawElementProviderFragment::GetEmbeddedFragmentRoots","uiauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots","uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots","uiautomationcore/IRawElementProviderFragment::GetEmbeddedFragmentRoots","winauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots"]
 old-location: winauto\uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots.htm
 tech.root: WinAuto
 ms.assetid: 3e64956d-5ab3-46b6-87db-4b0770c8f89a

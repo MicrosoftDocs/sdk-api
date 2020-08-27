@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHLoadInProc
 title: SHLoadInProc function (shlobj_core.h)
-description: Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later:\_This function has been disabled and returns E_NOTIMPL.helpviewer_keywords: ["SHLoadInProc","SHLoadInProc function [Windows Shell]","_win32_SHLoadInProc","shell.SHLoadInProc","shlobj_core/SHLoadInProc"]
+description: Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later:\_This function has been disabled and returns E_NOTIMPL.
+helpviewer_keywords: ["SHLoadInProc","SHLoadInProc function [Windows Shell]","_win32_SHLoadInProc","shell.SHLoadInProc","shlobj_core/SHLoadInProc"]
 old-location: shell\SHLoadInProc.htm
 tech.root: shell
 ms.assetid: 307b99d9-2d0a-47c5-8a10-dfdc0a408942

@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetFileSecurityA
 title: GetFileSecurityA function (winbase.h)
-description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges.helpviewer_keywords: ["GetFileSecurity","GetFileSecurity function [Security]","GetFileSecurityA","GetFileSecurityW","_win32_getfilesecurity","security.getfilesecurity","winbase/GetFileSecurity","winbase/GetFileSecurityA","winbase/GetFileSecurityW"]
+description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges.
+helpviewer_keywords: ["GetFileSecurity","GetFileSecurity function [Security]","GetFileSecurityA","GetFileSecurityW","_win32_getfilesecurity","security.getfilesecurity","winbase/GetFileSecurity","winbase/GetFileSecurityA","winbase/GetFileSecurityW"]
 old-location: security\getfilesecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4043b76b-76b9-4111-8a29-a808b2412be0
 ms.date: 12/05/2018
 ms.keywords: GetFileSecurity, GetFileSecurity function [Security], GetFileSecurityA, GetFileSecurityW, _win32_getfilesecurity, security.getfilesecurity, winbase/GetFileSecurity, winbase/GetFileSecurityA, winbase/GetFileSecurityW

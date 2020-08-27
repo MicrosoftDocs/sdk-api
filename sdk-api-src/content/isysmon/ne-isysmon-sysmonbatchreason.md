@@ -1,7 +1,8 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0003
 title: SysmonBatchReason (isysmon.h)
-description: Defines the reason for locking the System Monitor.helpviewer_keywords: ["SysmonBatchAddCounters","SysmonBatchAddFiles","SysmonBatchNone","SysmonBatchReason","SysmonBatchReason enumeration [SysMon]","isysmon/SysmonBatchAddCounters","isysmon/SysmonBatchAddFiles","isysmon/SysmonBatchNone","isysmon/SysmonBatchReason","sysmon.sysmonbatchreason"]
+description: Defines the reason for locking the System Monitor.
+helpviewer_keywords: ["SysmonBatchAddCounters","SysmonBatchAddFiles","SysmonBatchNone","SysmonBatchReason","SysmonBatchReason enumeration [SysMon]","isysmon/SysmonBatchAddCounters","isysmon/SysmonBatchAddFiles","isysmon/SysmonBatchNone","isysmon/SysmonBatchReason","sysmon.sysmonbatchreason"]
 old-location: sysmon\sysmonbatchreason.htm
 tech.root: SysMon
 ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3
@@ -71,19 +72,19 @@ Defines the reason for locking the System Monitor.
 
 
 
-#### - SysmonBatchAddCounters
+### -field SysmonBatchAddCounters
 
 Prevents the System Monitor from sampling the counter immediately when you use <a href="https://docs.microsoft.com/windows/desktop/SysMon/counters-add">ICounters.Add</a> to add a counter to the 
 collection.
 
 
-#### - SysmonBatchAddFiles
+### -field SysmonBatchAddFiles
 
 Prevents the System Monitor from sampling the file immediately when you use <a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-logfiles-add">ILogFiles.Add</a> to add a log file to the 
 collection.
 
 
-#### - SysmonBatchNone
+### -field SysmonBatchNone
 
 Use to free all locks. Typically, you call <a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-batchinglock">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluscolor.Color.GetR
 title: Color::GetR (gdipluscolor.h)
-description: The Color::GetR method gets the red component of this Color object.helpviewer_keywords: ["Color class [GDI+]","GetR method","Color.GetR","Color::GetR","GetR","GetR method [GDI+]","GetR method [GDI+]","Color class","_gdiplus_CLASS_Color_GetR_","gdiplus._gdiplus_CLASS_Color_GetR_"]
+description: The Color::GetR method gets the red component of this Color object.
+helpviewer_keywords: ["Color class [GDI+]","GetR method","Color.GetR","Color::GetR","GetR","GetR method [GDI+]","GetR method [GDI+]","Color class","_gdiplus_CLASS_Color_GetR_","gdiplus._gdiplus_CLASS_Color_GetR_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_GetR_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getr.htm

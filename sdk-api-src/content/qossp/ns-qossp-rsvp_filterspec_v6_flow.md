@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V6_FLOW
 title: RSVP_FILTERSPEC_V6_FLOW (qossp.h)
-description: The RSVP_FILTERSPEC_V6_FLOW structure provides flow label information for an IPv6 FILTERSPEC.helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V6_FLOW","*LPRSVP_FILTERSPEC_V6_FLOW structure [QOS]","RSVP_FILTERSPEC_V6_FLOW","RSVP_FILTERSPEC_V6_FLOW structure [QOS]","qos.rsvp_filterspec_v6_flow","qossp/*LPRSVP_FILTERSPEC_V6_FLOW","qossp/RSVP_FILTERSPEC_V6_FLOW"]
+description: The RSVP_FILTERSPEC_V6_FLOW structure provides flow label information for an IPv6 FILTERSPEC.
+helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V6_FLOW","*LPRSVP_FILTERSPEC_V6_FLOW structure [QOS]","RSVP_FILTERSPEC_V6_FLOW","RSVP_FILTERSPEC_V6_FLOW structure [QOS]","qos.rsvp_filterspec_v6_flow","qossp/*LPRSVP_FILTERSPEC_V6_FLOW","qossp/RSVP_FILTERSPEC_V6_FLOW"]
 old-location: qos\rsvp_filterspec_v6_flow.htm
 tech.root: QOS
 ms.assetid: 5bca12be-5bc4-40b2-bc72-52cf0297821b
@@ -72,7 +73,7 @@ IPv4 address for which the FILTERSPEC flow label applies, expressed as an <a hre
 Label for the flow.
 
 
-#### - Unused
+### -field Unused
 
 Reserved. Do not use.
 

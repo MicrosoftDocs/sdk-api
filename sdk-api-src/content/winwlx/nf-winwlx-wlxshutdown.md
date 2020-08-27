@@ -1,9 +1,10 @@
 ---
 UID: NF:winwlx.WlxShutdown
 title: WlxShutdown function (winwlx.h)
-description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.helpviewer_keywords: ["WLX_SAS_ACTION_SHUTDOWN","WLX_SAS_ACTION_SHUTDOWN_POWER_OFF","WLX_SAS_ACTION_SHUTDOWN_REBOOT","WlxShutdown","WlxShutdown function [Security]","_gina_wlxshutdown","security.wlxshutdown","winwlx/WlxShutdown"]
+description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.
+helpviewer_keywords: ["WLX_SAS_ACTION_SHUTDOWN","WLX_SAS_ACTION_SHUTDOWN_POWER_OFF","WLX_SAS_ACTION_SHUTDOWN_REBOOT","WlxShutdown","WlxShutdown function [Security]","_gina_wlxshutdown","security.wlxshutdown","winwlx/WlxShutdown"]
 old-location: security\wlxshutdown.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: dab8a93d-a0fe-4a29-9a29-ad64627050b7
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS_ACTION_SHUTDOWN_REBOOT, WlxShutdown, WlxShutdown function [Security], _gina_wlxshutdown, security.wlxshutdown, winwlx/WlxShutdown

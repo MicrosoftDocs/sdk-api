@@ -1,7 +1,8 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByName
 title: WSAAsyncGetHostByName macro (wsipv6ok.h)
-description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.helpviewer_keywords: ["WSAAsyncGetHostByName","WSAAsyncGetHostByName function [Winsock]","_win32_wsaasyncgethostbyname_2","winsock.wsaasyncgethostbyname_2","wsipv6ok/WSAAsyncGetHostByName"]
+description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
+helpviewer_keywords: ["WSAAsyncGetHostByName","WSAAsyncGetHostByName function [Winsock]","_win32_wsaasyncgethostbyname_2","winsock.wsaasyncgethostbyname_2","wsipv6ok/WSAAsyncGetHostByName"]
 old-location: winsock\wsaasyncgethostbyname_2.htm
 tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
@@ -61,22 +62,22 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
 
 
-#### - b [in]
+### -param b [in]
 
 Message to be received when the asynchronous request completes.
 
 
-#### - c [in]
+### -param c [in]
 
 Pointer to the null-terminated name of the host.
 
 
-#### - d [out]
+### -param d [out]
 
 Pointer to the data area to receive the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> data. The data area must be larger than the size of a 
@@ -85,7 +86,7 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-#### - e [in]
+### -param e [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 

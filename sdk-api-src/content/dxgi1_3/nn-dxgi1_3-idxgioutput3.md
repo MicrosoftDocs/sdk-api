@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_3.IDXGIOutput3
 title: IDXGIOutput3 (dxgi1_3.h)
-description: Represents an adapter output (such as a monitor). The IDXGIOutput3 interface exposes a method to check for overlay support.helpviewer_keywords: ["IDXGIOutput3","IDXGIOutput3 interface [DXGI]","IDXGIOutput3 interface [DXGI]","described","direct3ddxgi.idxgioutput3","dxgi1_3/IDXGIOutput3"]
+description: Represents an adapter output (such as a monitor). The IDXGIOutput3 interface exposes a method to check for overlay support.
+helpviewer_keywords: ["IDXGIOutput3","IDXGIOutput3 interface [DXGI]","IDXGIOutput3 interface [DXGI]","described","direct3ddxgi.idxgioutput3","dxgi1_3/IDXGIOutput3"]
 old-location: direct3ddxgi\idxgioutput3.htm
 tech.root: direct3ddxgi
 ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920

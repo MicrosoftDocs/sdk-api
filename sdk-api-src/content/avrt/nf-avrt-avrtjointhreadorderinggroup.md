@@ -1,9 +1,10 @@
 ---
 UID: NF:avrt.AvRtJoinThreadOrderingGroup
 title: AvRtJoinThreadOrderingGroup function (avrt.h)
-description: Joins client threads to a thread ordering group.helpviewer_keywords: ["AvRtJoinThreadOrderingGroup","AvRtJoinThreadOrderingGroup function","avrt/AvRtJoinThreadOrderingGroup","base.avrtjointhreadorderinggroup"]
+description: Joins client threads to a thread ordering group.
+helpviewer_keywords: ["AvRtJoinThreadOrderingGroup","AvRtJoinThreadOrderingGroup function","avrt/AvRtJoinThreadOrderingGroup","base.avrtjointhreadorderinggroup"]
 old-location: base\avrtjointhreadorderinggroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 76e70f91-750e-49c8-8ddf-e8eddd150aa4
 ms.date: 12/05/2018
 ms.keywords: AvRtJoinThreadOrderingGroup, AvRtJoinThreadOrderingGroup function, avrt/AvRtJoinThreadOrderingGroup, base.avrtjointhreadorderinggroup

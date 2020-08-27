@@ -1,9 +1,10 @@
 ---
 UID: NE:wuapi.tagAutoSelectionMode
 title: AutoSelectionMode (wuapi.h)
-description: Defines the types of logic that is used to determine whether a particular update will be automatically selected when the user views available updates in the Windows Update user interface.helpviewer_keywords: ["AutoSelectionMode","AutoSelectionMode enumeration [Windows Update Agent]","asAlwaysAutoSelect","asAutoSelectIfDownloaded","asLetWindowsUpdateDecide","asNeverAutoSelect","wua.autoselectionmode","wuapi/AutoSelectionMode","wuapi/asAlwaysAutoSelect","wuapi/asAutoSelectIfDownloaded","wuapi/asLetWindowsUpdateDecide","wuapi/asNeverAutoSelect"]
+description: Defines the types of logic that is used to determine whether a particular update will be automatically selected when the user views available updates in the Windows Update user interface.
+helpviewer_keywords: ["AutoSelectionMode","AutoSelectionMode enumeration [Windows Update Agent]","asAlwaysAutoSelect","asAutoSelectIfDownloaded","asLetWindowsUpdateDecide","asNeverAutoSelect","wua.autoselectionmode","wuapi/AutoSelectionMode","wuapi/asAlwaysAutoSelect","wuapi/asAutoSelectIfDownloaded","wuapi/asLetWindowsUpdateDecide","wuapi/asNeverAutoSelect"]
 old-location: wua\autoselectionmode.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 847fd8a3-eb00-43f7-a89f-579cd79d0620
 ms.date: 12/05/2018
 ms.keywords: AutoSelectionMode, AutoSelectionMode enumeration [Windows Update Agent], asAlwaysAutoSelect, asAutoSelectIfDownloaded, asLetWindowsUpdateDecide, asNeverAutoSelect, wua.autoselectionmode, wuapi/AutoSelectionMode, wuapi/asAlwaysAutoSelect, wuapi/asAutoSelectIfDownloaded, wuapi/asLetWindowsUpdateDecide, wuapi/asNeverAutoSelect

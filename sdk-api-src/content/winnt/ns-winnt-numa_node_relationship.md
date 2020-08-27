@@ -4,7 +4,7 @@ title: NUMA_NODE_RELATIONSHIP (winnt.h)
 description: Represents information about a NUMA node in a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 helpviewer_keywords: ["*PNUMA_NODE_RELATIONSHIP","NUMA_NODE_RELATIONSHIP","NUMA_NODE_RELATIONSHIP structure","PNUMA_NODE_RELATIONSHIP","PNUMA_NODE_RELATIONSHIP structure pointer","_NUMA_NODE_RELATIONSHIP","base.numa_node_relationship","winnt/NUMA_NODE_RELATIONSHIP","winnt/PNUMA_NODE_RELATIONSHIP"]
 old-location: base\numa_node_relationship.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: a4e4c994-c4af-4b4f-8684-6037bcba35a9
 ms.date: 12/05/2018
 ms.keywords: '*PNUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP structure, PNUMA_NODE_RELATIONSHIP, PNUMA_NODE_RELATIONSHIP structure pointer, _NUMA_NODE_RELATIONSHIP, base.numa_node_relationship, winnt/NUMA_NODE_RELATIONSHIP, winnt/PNUMA_NODE_RELATIONSHIP'

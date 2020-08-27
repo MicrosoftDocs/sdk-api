@@ -4,7 +4,7 @@ title: UpdateProcThreadAttribute function (processthreadsapi.h)
 description: Updates the specified attribute in a list of attributes for process and thread creation.
 helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
 old-location: base\updateprocthreadattribute.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.date: 12/05/2018
 ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
@@ -204,7 +204,7 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTI
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> value that specifies the child process policy. THe policy specifies whether to allow a child process to be created.
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> value that specifies the child process policy. The policy specifies whether to allow a child process to be created.
 
 For information on the possible values for the  <b>DWORD</b> or <b>DWORD64</b> to which <i>lpValue</i> points, see Remarks.
 

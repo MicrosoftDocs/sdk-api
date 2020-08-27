@@ -1,7 +1,8 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_WINS_SERVER_ADDRESS_LH
 title: IP_ADAPTER_WINS_SERVER_ADDRESS_LH (iptypes.h)
-description: Stores a single Windows Internet Name Service (WINS) server address in a linked list of WINS server addresses for a particular adapter.helpviewer_keywords: ["*PIP_ADAPTER_WINS_SERVER_ADDRESS","*PIP_ADAPTER_WINS_SERVER_ADDRESS_LH","IP_ADAPTER_WINS_SERVER_ADDRESS","IP_ADAPTER_WINS_SERVER_ADDRESS structure [IP Helper]","IP_ADAPTER_WINS_SERVER_ADDRESS_LH","PIP_ADAPTER_WINS_SERVER_ADDRESS","PIP_ADAPTER_WINS_SERVER_ADDRESS structure pointer [IP Helper]","iphlp.ip_adapter_wins_server_address","iptypes/IP_ADAPTER_WINS_SERVER_ADDRESS","iptypes/PIP_ADAPTER_WINS_SERVER_ADDRESS"]
+description: Stores a single Windows Internet Name Service (WINS) server address in a linked list of WINS server addresses for a particular adapter.
+helpviewer_keywords: ["*PIP_ADAPTER_WINS_SERVER_ADDRESS","*PIP_ADAPTER_WINS_SERVER_ADDRESS_LH","IP_ADAPTER_WINS_SERVER_ADDRESS","IP_ADAPTER_WINS_SERVER_ADDRESS structure [IP Helper]","IP_ADAPTER_WINS_SERVER_ADDRESS_LH","PIP_ADAPTER_WINS_SERVER_ADDRESS","PIP_ADAPTER_WINS_SERVER_ADDRESS structure pointer [IP Helper]","iphlp.ip_adapter_wins_server_address","iptypes/IP_ADAPTER_WINS_SERVER_ADDRESS","iptypes/PIP_ADAPTER_WINS_SERVER_ADDRESS"]
 old-location: iphlp\ip_adapter_wins_server_address.htm
 tech.root: IpHlp
 ms.assetid: AF9A40C4-63DB-4830-A689-1DFE4DC2CAB7

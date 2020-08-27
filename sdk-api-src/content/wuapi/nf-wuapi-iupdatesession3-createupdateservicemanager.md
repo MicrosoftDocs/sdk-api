@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSession3.CreateUpdateServiceManager
 title: IUpdateSession3::CreateUpdateServiceManager (wuapi.h)
-description: Returns a pointer to an IUpdateServiceManager2 interface for the session.helpviewer_keywords: ["CreateUpdateServiceManager","CreateUpdateServiceManager method [Windows Update Agent]","CreateUpdateServiceManager method [Windows Update Agent]","IUpdateSession3 interface","IUpdateSession3 interface [Windows Update Agent]","CreateUpdateServiceManager method","IUpdateSession3.CreateUpdateServiceManager","IUpdateSession3::CreateUpdateServiceManager","wua.iupdatesession3_createupdateservicemanager","wuapi/IUpdateSession3::CreateUpdateServiceManager"]
+description: Returns a pointer to an IUpdateServiceManager2 interface for the session.
+helpviewer_keywords: ["CreateUpdateServiceManager","CreateUpdateServiceManager method [Windows Update Agent]","CreateUpdateServiceManager method [Windows Update Agent]","IUpdateSession3 interface","IUpdateSession3 interface [Windows Update Agent]","CreateUpdateServiceManager method","IUpdateSession3.CreateUpdateServiceManager","IUpdateSession3::CreateUpdateServiceManager","wua.iupdatesession3_createupdateservicemanager","wuapi/IUpdateSession3::CreateUpdateServiceManager"]
 old-location: wua\iupdatesession3_createupdateservicemanager.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 79d8f489-5375-48e2-a40d-d6f38f4843aa
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateServiceManager, CreateUpdateServiceManager method [Windows Update Agent], CreateUpdateServiceManager method [Windows Update Agent],IUpdateSession3 interface, IUpdateSession3 interface [Windows Update Agent],CreateUpdateServiceManager method, IUpdateSession3.CreateUpdateServiceManager, IUpdateSession3::CreateUpdateServiceManager, wua.iupdatesession3_createupdateservicemanager, wuapi/IUpdateSession3::CreateUpdateServiceManager

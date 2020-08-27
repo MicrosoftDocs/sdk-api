@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.RemovePointerInteractionContext
 title: RemovePointerInteractionContext function (interactioncontext.h)
-description: Remove the specified pointer from the set of pointers processed by the Interaction Context object.helpviewer_keywords: ["RemovePointerInteractionContext","RemovePointerInteractionContext function","input_intcontext.removepointerinteractioncontext","interactioncontext.removepointerinteractioncontext","interactioncontext/RemovePointerInteractionContext"]
+description: Remove the specified pointer from the set of pointers processed by the Interaction Context object.
+helpviewer_keywords: ["RemovePointerInteractionContext","RemovePointerInteractionContext function","input_intcontext.removepointerinteractioncontext","interactioncontext.removepointerinteractioncontext","interactioncontext/RemovePointerInteractionContext"]
 old-location: input_intcontext\removepointerinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: d17f329b-f633-4aec-806f-3643206fce29
 ms.date: 12/05/2018
 ms.keywords: RemovePointerInteractionContext, RemovePointerInteractionContext function, input_intcontext.removepointerinteractioncontext, interactioncontext.removepointerinteractioncontext, interactioncontext/RemovePointerInteractionContext

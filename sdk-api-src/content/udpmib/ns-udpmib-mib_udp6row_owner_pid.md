@@ -1,7 +1,8 @@
 ---
 UID: NS:udpmib._MIB_UDP6ROW_OWNER_PID
 title: MIB_UDP6ROW_OWNER_PID (udpmib.h)
-description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. The entry also includes the process ID (PID) that issued the call to the bind function for the UDP endpoint.helpviewer_keywords: ["*PMIB_UDP6ROW_OWNER_PID","MIB_UDP6ROW_OWNER_PID","MIB_UDP6ROW_OWNER_PID structure [MIB]","PMIB_UDP6ROW_OWNER_PID","PMIB_UDP6ROW_OWNER_PID structure pointer [MIB]","iprtrmib/MIB_UDP6ROW_OWNER_PID","iprtrmib/PMIB_UDP6ROW_OWNER_PID","mib.mib_udp6row_owner_pid","udpmib/MIB_UDP6ROW_OWNER_PID","udpmib/PMIB_UDP6ROW_OWNER_PID"]
+description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. The entry also includes the process ID (PID) that issued the call to the bind function for the UDP endpoint.
+helpviewer_keywords: ["*PMIB_UDP6ROW_OWNER_PID","MIB_UDP6ROW_OWNER_PID","MIB_UDP6ROW_OWNER_PID structure [MIB]","PMIB_UDP6ROW_OWNER_PID","PMIB_UDP6ROW_OWNER_PID structure pointer [MIB]","iprtrmib/MIB_UDP6ROW_OWNER_PID","iprtrmib/PMIB_UDP6ROW_OWNER_PID","mib.mib_udp6row_owner_pid","udpmib/MIB_UDP6ROW_OWNER_PID","udpmib/PMIB_UDP6ROW_OWNER_PID"]
 old-location: mib\mib_udp6row_owner_pid.htm
 tech.root: MIB
 ms.assetid: d3d02485-381b-4058-b4b9-0a2c9c365f43

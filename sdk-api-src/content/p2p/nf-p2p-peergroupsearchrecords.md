@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupSearchRecords
 title: PeerGroupSearchRecords function (p2p.h)
-description: The PeerGroupSearchRecords function searches the local peer group database for records that match the supplied criteria.helpviewer_keywords: ["PeerGroupSearchRecords","PeerGroupSearchRecords function [Peer Networking]","p2p.peergroupsearchrecords","p2p/PeerGroupSearchRecords"]
+description: The PeerGroupSearchRecords function searches the local peer group database for records that match the supplied criteria.
+helpviewer_keywords: ["PeerGroupSearchRecords","PeerGroupSearchRecords function [Peer Networking]","p2p.peergroupsearchrecords","p2p/PeerGroupSearchRecords"]
 old-location: p2p\peergroupsearchrecords.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 7df13041-e802-47b6-8b44-14837c513936
 ms.date: 12/05/2018
 ms.keywords: PeerGroupSearchRecords, PeerGroupSearchRecords function [Peer Networking], p2p.peergroupsearchrecords, p2p/PeerGroupSearchRecords

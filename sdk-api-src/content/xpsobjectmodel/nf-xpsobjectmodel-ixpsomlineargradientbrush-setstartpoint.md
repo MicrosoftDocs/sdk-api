@@ -4,7 +4,7 @@ title: IXpsOMLinearGradientBrush::SetStartPoint (xpsobjectmodel.h)
 description: Sets the start point of the gradient.
 helpviewer_keywords: ["IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","SetStartPoint method","IXpsOMLinearGradientBrush.SetStartPoint","IXpsOMLinearGradientBrush::SetStartPoint","SetStartPoint","SetStartPoint method [XPS Documents and Packaging]","SetStartPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","xps.ixpsomlineargradientbrush_setstartpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint"]
 old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f2e40d75-c0de-4cba-850d-0c8c328e2950
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMLinearGradientBrush.SetStartPoint, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint

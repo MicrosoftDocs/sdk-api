@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.GetRenderTarget
 title: ID3D10EffectRenderTargetViewVariable::GetRenderTarget (d3d10effect.h)
-description: Get a render-target.helpviewer_keywords: ["94ac5a07-8cf2-ac5f-171b-1912d521416d","GetRenderTarget","GetRenderTarget method [Direct3D 10]","GetRenderTarget method [Direct3D 10]","ID3D10EffectRenderTargetViewVariable interface","ID3D10EffectRenderTargetViewVariable interface [Direct3D 10]","GetRenderTarget method","ID3D10EffectRenderTargetViewVariable.GetRenderTarget","ID3D10EffectRenderTargetViewVariable::GetRenderTarget","d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTarget","direct3d10.id3d10effectrendertargetviewvariable_getrendertarget"]
+description: Get a render-target.
+helpviewer_keywords: ["94ac5a07-8cf2-ac5f-171b-1912d521416d","GetRenderTarget","GetRenderTarget method [Direct3D 10]","GetRenderTarget method [Direct3D 10]","ID3D10EffectRenderTargetViewVariable interface","ID3D10EffectRenderTargetViewVariable interface [Direct3D 10]","GetRenderTarget method","ID3D10EffectRenderTargetViewVariable.GetRenderTarget","ID3D10EffectRenderTargetViewVariable::GetRenderTarget","d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTarget","direct3d10.id3d10effectrendertargetviewvariable_getrendertarget"]
 old-location: direct3d10\id3d10effectrendertargetviewvariable_getrendertarget.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_getrendertarget.htm

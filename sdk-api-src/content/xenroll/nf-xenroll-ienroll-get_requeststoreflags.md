@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.IEnroll.get_RequestStoreFlags
 title: IEnroll::get_RequestStoreFlags (xenroll.h)
-description: The RequestStoreFlags property of IEnroll4 sets or retrieves the registry location used for the request store.helpviewer_keywords: ["IEnroll interface [Security]","RequestStoreFlags property","IEnroll.RequestStoreFlags","IEnroll.get_RequestStoreFlags","IEnroll::RequestStoreFlags","IEnroll::get_RequestStoreFlags","IEnroll::put_RequestStoreFlags","RequestStoreFlags property [Security]","RequestStoreFlags property [Security]","IEnroll interface","get_RequestStoreFlags","security.ienroll4_requeststoreflags","xenroll/IEnroll::RequestStoreFlags","xenroll/IEnroll::get_RequestStoreFlags","xenroll/IEnroll::put_RequestStoreFlags"]
+description: The RequestStoreFlags property of IEnroll4 sets or retrieves the registry location used for the request store.
+helpviewer_keywords: ["IEnroll interface [Security]","RequestStoreFlags property","IEnroll.RequestStoreFlags","IEnroll.get_RequestStoreFlags","IEnroll::RequestStoreFlags","IEnroll::get_RequestStoreFlags","IEnroll::put_RequestStoreFlags","RequestStoreFlags property [Security]","RequestStoreFlags property [Security]","IEnroll interface","get_RequestStoreFlags","security.ienroll4_requeststoreflags","xenroll/IEnroll::RequestStoreFlags","xenroll/IEnroll::get_RequestStoreFlags","xenroll/IEnroll::put_RequestStoreFlags"]
 old-location: security\ienroll4_requeststoreflags.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 95ed42ed-04ff-482c-954c-a6c9dd9ccd4c
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RequestStoreFlags property, IEnroll.RequestStoreFlags, IEnroll.get_RequestStoreFlags, IEnroll::RequestStoreFlags, IEnroll::get_RequestStoreFlags, IEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],IEnroll interface, get_RequestStoreFlags, security.ienroll4_requeststoreflags, xenroll/IEnroll::RequestStoreFlags, xenroll/IEnroll::get_RequestStoreFlags, xenroll/IEnroll::put_RequestStoreFlags

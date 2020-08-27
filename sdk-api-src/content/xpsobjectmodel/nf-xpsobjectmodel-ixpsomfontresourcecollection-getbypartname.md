@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetByPartName
 title: IXpsOMFontResourceCollection::GetByPartName (xpsobjectmodel.h)
-description: Gets an IXpsOMFontResource interface pointer from the collection by matching the interface's part name.helpviewer_keywords: ["GetByPartName","GetByPartName method [XPS Documents and Packaging]","GetByPartName method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","GetByPartName method","IXpsOMFontResourceCollection.GetByPartName","IXpsOMFontResourceCollection::GetByPartName","xps.ixpsomfontresourcecollection_getbypartname","xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName"]
+description: Gets an IXpsOMFontResource interface pointer from the collection by matching the interface's part name.
+helpviewer_keywords: ["GetByPartName","GetByPartName method [XPS Documents and Packaging]","GetByPartName method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","GetByPartName method","IXpsOMFontResourceCollection.GetByPartName","IXpsOMFontResourceCollection::GetByPartName","xps.ixpsomfontresourcecollection_getbypartname","xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName"]
 old-location: xps\ixpsomfontresourcecollection_getbypartname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f40830ec-e77b-4c47-9041-b0df5becf9fa
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMFontResourceCollection.GetByPartName, IXpsOMFontResourceCollection::GetByPartName, xps.ixpsomfontresourcecollection_getbypartname, xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName

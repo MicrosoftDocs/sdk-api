@@ -1,9 +1,10 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 title: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA (dxvahd.h)
-description: Specifies the output color space for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA","DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA","mf.dxvahd_blt_state_output_color_space_data"]
+description: Specifies the output color space for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA","DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA","mf.dxvahd_blt_state_output_color_space_data"]
 old-location: mf\dxvahd_blt_state_output_color_space_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, mf.dxvahd_blt_state_output_color_space_data

@@ -1,9 +1,10 @@
 ---
 UID: NF:heapapi.HeapFree
 title: HeapFree function (heapapi.h)
-description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.helpviewer_keywords: ["HEAP_NO_SERIALIZE","HeapFree","HeapFree function","_win32_heapfree","base.heapfree","heapapi/HeapFree","winbase/HeapFree"]
+description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
+helpviewer_keywords: ["HEAP_NO_SERIALIZE","HeapFree","HeapFree function","_win32_heapfree","base.heapfree","heapapi/HeapFree","winbase/HeapFree"]
 old-location: base\heapfree.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree

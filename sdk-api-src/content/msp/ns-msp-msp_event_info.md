@@ -4,7 +4,7 @@ title: MSP_EVENT_INFO (msp.h)
 description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
 helpviewer_keywords: ["MSP_EVENT_INFO","MSP_EVENT_INFO structure [TAPI 2.2]","__MIDL___MIDL_itf_tapi3_0000_0018_0005","_tapi3_msp_event_info","msp/MSP_EVENT_INFO","tapi3.msp_event_info"]
 old-location: tapi3\msp_event_info.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
 ms.date: 12/05/2018
 ms.keywords: MSP_EVENT_INFO, MSP_EVENT_INFO structure [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0005, _tapi3_msp_event_info, msp/MSP_EVENT_INFO, tapi3.msp_event_info

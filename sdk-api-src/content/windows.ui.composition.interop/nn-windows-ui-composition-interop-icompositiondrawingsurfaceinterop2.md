@@ -3,7 +3,7 @@ UID: NN:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop2
 title: interop::ICompositionDrawingSurfaceInterop2
 description: A native interoperation interface that allows you to read back the contents of a composition drawing surface (or a composition virtual drawing surface).
 ms.date: 01/07/2020
-tech.root: w_ui_comp
+tech.root: winrt
 ms.topic: language-reference
 f1_keywords:
  - windows/interop::ICompositionDrawingSurfaceInterop2

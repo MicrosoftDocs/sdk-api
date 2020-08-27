@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceDeactivateEx
 title: IOleInPlaceSiteEx::OnInPlaceDeactivateEx (ocidl.h)
-description: Notifies the container if the object needs to be redrawn upon deactivation.helpviewer_keywords: ["IOleInPlaceSiteEx interface [COM]","OnInPlaceDeactivateEx method","IOleInPlaceSiteEx.OnInPlaceDeactivateEx","IOleInPlaceSiteEx::OnInPlaceDeactivateEx","IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx","OnInPlaceDeactivateEx","OnInPlaceDeactivateEx method [COM]","OnInPlaceDeactivateEx method [COM]","IOleInPlaceSiteEx interface","_ole_ioleinplacesiteex_oninplacedeactivateex","com.ioleinplacesiteex_oninplacedeactivateex","ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx"]
+description: Notifies the container if the object needs to be redrawn upon deactivation.
+helpviewer_keywords: ["IOleInPlaceSiteEx interface [COM]","OnInPlaceDeactivateEx method","IOleInPlaceSiteEx.OnInPlaceDeactivateEx","IOleInPlaceSiteEx::OnInPlaceDeactivateEx","IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx","OnInPlaceDeactivateEx","OnInPlaceDeactivateEx method [COM]","OnInPlaceDeactivateEx method [COM]","IOleInPlaceSiteEx interface","_ole_ioleinplacesiteex_oninplacedeactivateex","com.ioleinplacesiteex_oninplacedeactivateex","ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx"]
 old-location: com\ioleinplacesiteex_oninplacedeactivateex.htm
 tech.root: com
 ms.assetid: c3c68b46-adca-4f8d-86c2-075b72f7c656

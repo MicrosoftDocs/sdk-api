@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.AddPropertyItem
 title: IAzApplication::AddPropertyItem (azroles.h)
-description: Adds the specified principal to the specified list of principals.helpviewer_keywords: ["AZ_PROP_DELEGATED_POLICY_USERS","AZ_PROP_DELEGATED_POLICY_USERS_NAME","AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzApplication object","AddPropertyItem method [Security]","IAzApplication interface","AzApplication object [Security]","AddPropertyItem method","IAzApplication interface [Security]","AddPropertyItem method","IAzApplication.AddPropertyItem","IAzApplication::AddPropertyItem","azroles/IAzApplication::AddPropertyItem","security.iazapplication_addpropertyitem"]
+description: Adds the specified principal to the specified list of principals.
+helpviewer_keywords: ["AZ_PROP_DELEGATED_POLICY_USERS","AZ_PROP_DELEGATED_POLICY_USERS_NAME","AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzApplication object","AddPropertyItem method [Security]","IAzApplication interface","AzApplication object [Security]","AddPropertyItem method","IAzApplication interface [Security]","AddPropertyItem method","IAzApplication.AddPropertyItem","IAzApplication::AddPropertyItem","azroles/IAzApplication::AddPropertyItem","security.iazapplication_addpropertyitem"]
 old-location: security\iazapplication_addpropertyitem.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 183fcf59-94c1-4359-b3de-285ff6b085a6
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzApplication object, AddPropertyItem method [Security],IAzApplication interface, AzApplication object [Security],AddPropertyItem method, IAzApplication interface [Security],AddPropertyItem method, IAzApplication.AddPropertyItem, IAzApplication::AddPropertyItem, azroles/IAzApplication::AddPropertyItem, security.iazapplication_addpropertyitem

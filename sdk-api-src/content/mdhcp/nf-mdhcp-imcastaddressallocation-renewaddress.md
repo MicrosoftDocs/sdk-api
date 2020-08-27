@@ -1,9 +1,10 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.RenewAddress
 title: IMcastAddressAllocation::RenewAddress (mdhcp.h)
-description: The RenewAddress method renews an address lease. Call CreateLeaseInfo to specify the parameters of the renewal request, and then call this method to make the request.helpviewer_keywords: ["IMcastAddressAllocation interface [TAPI 2.2]","RenewAddress method","IMcastAddressAllocation.RenewAddress","IMcastAddressAllocation::RenewAddress","RenewAddress","RenewAddress method [TAPI 2.2]","RenewAddress method [TAPI 2.2]","IMcastAddressAllocation interface","_tapi3_imcastaddressallocation_renewaddress","mdhcp/IMcastAddressAllocation::RenewAddress","tapi3.imcastaddressallocation_renewaddress"]
+description: The RenewAddress method renews an address lease. Call CreateLeaseInfo to specify the parameters of the renewal request, and then call this method to make the request.
+helpviewer_keywords: ["IMcastAddressAllocation interface [TAPI 2.2]","RenewAddress method","IMcastAddressAllocation.RenewAddress","IMcastAddressAllocation::RenewAddress","RenewAddress","RenewAddress method [TAPI 2.2]","RenewAddress method [TAPI 2.2]","IMcastAddressAllocation interface","_tapi3_imcastaddressallocation_renewaddress","mdhcp/IMcastAddressAllocation::RenewAddress","tapi3.imcastaddressallocation_renewaddress"]
 old-location: tapi3\imcastaddressallocation_renewaddress.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9f52d1e9-61d9-4f67-b180-c1844b4eb7f1
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RenewAddress method, IMcastAddressAllocation.RenewAddress, IMcastAddressAllocation::RenewAddress, RenewAddress, RenewAddress method [TAPI 2.2], RenewAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_renewaddress, mdhcp/IMcastAddressAllocation::RenewAddress, tapi3.imcastaddressallocation_renewaddress

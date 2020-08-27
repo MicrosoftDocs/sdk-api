@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.lpmiptable
 title: LPMIPTABLE (lpmapi.h)
-description: The LPMIPTABLE structure contains IP information, including the SNMP index, IP address, and subnet mask for each interface. The LPMIPTABLE structure is supplied as an argument for the Lpm_IpAddressTable function.helpviewer_keywords: ["LPMIPTABLE","LPMIPTABLE structure [QOS]","_gqos_lpmiptable","lpmapi/LPMIPTABLE","qos.lpmiptable"]
+description: The LPMIPTABLE structure contains IP information, including the SNMP index, IP address, and subnet mask for each interface. The LPMIPTABLE structure is supplied as an argument for the Lpm_IpAddressTable function.
+helpviewer_keywords: ["LPMIPTABLE","LPMIPTABLE structure [QOS]","_gqos_lpmiptable","lpmapi/LPMIPTABLE","qos.lpmiptable"]
 old-location: qos\lpmiptable.htm
 tech.root: QOS
 ms.assetid: cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f
@@ -79,7 +80,7 @@ IP address for the interface.
 IP subnet mask for the interface.
 
 
-#### - UlIfIndex
+### -field UlIfIndex
 
 SNMP index for the interface.
 

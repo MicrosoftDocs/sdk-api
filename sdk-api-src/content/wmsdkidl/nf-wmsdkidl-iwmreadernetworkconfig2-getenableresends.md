@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableResends
 title: IWMReaderNetworkConfig2::GetEnableResends (wmsdkidl.h)
-description: The GetEnableResends method ascertains whether resending is enabled.helpviewer_keywords: ["GetEnableResends","GetEnableResends method [windows Media Format]","GetEnableResends method [windows Media Format]","IWMReaderNetworkConfig2 interface","IWMReaderNetworkConfig2 interface [windows Media Format]","GetEnableResends method","IWMReaderNetworkConfig2.GetEnableResends","IWMReaderNetworkConfig2::GetEnableResends","IWMReaderNetworkConfig2GetEnableResends","wmformat.iwmreadernetworkconfig2_getenableresends","wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends"]
+description: The GetEnableResends method ascertains whether resending is enabled.
+helpviewer_keywords: ["GetEnableResends","GetEnableResends method [windows Media Format]","GetEnableResends method [windows Media Format]","IWMReaderNetworkConfig2 interface","IWMReaderNetworkConfig2 interface [windows Media Format]","GetEnableResends method","IWMReaderNetworkConfig2.GetEnableResends","IWMReaderNetworkConfig2::GetEnableResends","IWMReaderNetworkConfig2GetEnableResends","wmformat.iwmreadernetworkconfig2_getenableresends","wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends"]
 old-location: wmformat\iwmreadernetworkconfig2_getenableresends.htm
 tech.root: wmformat
 ms.assetid: d39d42c3-7d00-4fb6-8979-2b65d00ac636

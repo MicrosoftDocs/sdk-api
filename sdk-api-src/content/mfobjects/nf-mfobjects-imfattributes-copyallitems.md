@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CopyAllItems
 title: IMFAttributes::CopyAllItems (mfobjects.h)
-description: Copies all of the attributes from this object into another attribute store.helpviewer_keywords: ["111b55bc-fb8e-45b5-a709-703acd23c4be","CopyAllItems","CopyAllItems method [Media Foundation]","CopyAllItems method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","CopyAllItems method","IMFAttributes.CopyAllItems","IMFAttributes::CopyAllItems","mf.imfattributes_copyallitems","mfobjects/IMFAttributes::CopyAllItems"]
+description: Copies all of the attributes from this object into another attribute store.
+helpviewer_keywords: ["111b55bc-fb8e-45b5-a709-703acd23c4be","CopyAllItems","CopyAllItems method [Media Foundation]","CopyAllItems method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","CopyAllItems method","IMFAttributes.CopyAllItems","IMFAttributes::CopyAllItems","mf.imfattributes_copyallitems","mfobjects/IMFAttributes::CopyAllItems"]
 old-location: mf\imfattributes_copyallitems.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
 ms.date: 12/05/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CopyAllItems method, IMFAttributes.CopyAllItems, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems

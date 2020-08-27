@@ -1,9 +1,10 @@
 ---
 UID: NC:timeprov.AlertSamplesAvailFunc
 title: AlertSamplesAvailFunc (timeprov.h)
-description: Notifies the system that there are new time samples available.helpviewer_keywords: ["AlertSamplesAvailFunc","AlertSamplesAvailFunc callback","AlertSamplesAvailFunc callback function","_win32_alertsamplesavail","base.alertsamplesavail","timeprov/AlertSamplesAvailFunc"]
+description: Notifies the system that there are new time samples available.
+helpviewer_keywords: ["AlertSamplesAvailFunc","AlertSamplesAvailFunc callback","AlertSamplesAvailFunc callback function","_win32_alertsamplesavail","base.alertsamplesavail","timeprov/AlertSamplesAvailFunc"]
 old-location: base\alertsamplesavail.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f90da019-072e-46c9-8e05-0321a9960968
 ms.date: 12/05/2018
 ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamplesAvailFunc callback function, _win32_alertsamplesavail, base.alertsamplesavail, timeprov/AlertSamplesAvailFunc

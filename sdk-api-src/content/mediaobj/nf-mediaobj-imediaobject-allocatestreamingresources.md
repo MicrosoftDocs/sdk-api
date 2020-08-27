@@ -1,9 +1,10 @@
 ---
 UID: NF:mediaobj.IMediaObject.AllocateStreamingResources
 title: IMediaObject::AllocateStreamingResources (mediaobj.h)
-description: The AllocateStreamingResources method allocates any resources needed by the DMO. Calling this method is always optional.helpviewer_keywords: ["AllocateStreamingResources","AllocateStreamingResources method [DirectShow]","AllocateStreamingResources method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","AllocateStreamingResources method","IMediaObject.AllocateStreamingResources","IMediaObject::AllocateStreamingResources","IMediaObjectAllocateStreamingResources","dshow.imediaobject_allocatestreamingresources","mediaobj/IMediaObject::AllocateStreamingResources"]
+description: The AllocateStreamingResources method allocates any resources needed by the DMO. Calling this method is always optional.
+helpviewer_keywords: ["AllocateStreamingResources","AllocateStreamingResources method [DirectShow]","AllocateStreamingResources method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","AllocateStreamingResources method","IMediaObject.AllocateStreamingResources","IMediaObject::AllocateStreamingResources","IMediaObjectAllocateStreamingResources","dshow.imediaobject_allocatestreamingresources","mediaobj/IMediaObject::AllocateStreamingResources"]
 old-location: dshow\imediaobject_allocatestreamingresources.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cd608bf2-50a5-4037-aeb5-c5c380c3d6df
 ms.date: 12/05/2018
 ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],AllocateStreamingResources method, IMediaObject.AllocateStreamingResources, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources

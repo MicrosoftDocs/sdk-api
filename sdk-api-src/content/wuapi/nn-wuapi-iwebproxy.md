@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IWebProxy
 title: IWebProxy (wuapi.h)
-description: Contains the HTTP proxy settings.helpviewer_keywords: ["IWebProxy","IWebProxy interface [Windows Update Agent]","IWebProxy interface [Windows Update Agent]","described","wua.iwebproxy","wuapi/IWebProxy"]
+description: Contains the HTTP proxy settings.
+helpviewer_keywords: ["IWebProxy","IWebProxy interface [Windows Update Agent]","IWebProxy interface [Windows Update Agent]","described","wua.iwebproxy","wuapi/IWebProxy"]
 old-location: wua\iwebproxy.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
 ms.date: 12/05/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy

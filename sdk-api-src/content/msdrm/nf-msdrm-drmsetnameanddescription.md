@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMSetNameAndDescription
 title: DRMSetNameAndDescription function (msdrm.h)
-description: Allows an application to specify names and descriptions of the license in multiple (human) languages.helpviewer_keywords: ["DRMSetNameAndDescription","DRMSetNameAndDescription function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMSetNameAndDescription","rm.drmsetnameanddescription"]
+description: Allows an application to specify names and descriptions of the license in multiple (human) languages.
+helpviewer_keywords: ["DRMSetNameAndDescription","DRMSetNameAndDescription function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMSetNameAndDescription","rm.drmsetnameanddescription"]
 old-location: rm\drmsetnameanddescription.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: c5dc8aa8-f45b-4b8a-bd83-0661db424303
 ms.date: 12/05/2018
 ms.keywords: DRMSetNameAndDescription, DRMSetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetNameAndDescription, rm.drmsetnameanddescription

@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IStreamPseudoRandomBased
 title: IStreamPseudoRandomBased (imapi2.h)
-description: Use this interface to generate a read-only data stream whose data is initialized with pseudo-random data (not cryptographically safe). You must call the SetSize method to set the requested size of the stream.helpviewer_keywords: ["IStreamPseudoRandomBased","IStreamPseudoRandomBased interface [IMAPI]","IStreamPseudoRandomBased interface [IMAPI]","described","imapi.istreampseudorandombased","imapi2/IStreamPseudoRandomBased"]
+description: Use this interface to generate a read-only data stream whose data is initialized with pseudo-random data (not cryptographically safe). You must call the SetSize method to set the requested size of the stream.
+helpviewer_keywords: ["IStreamPseudoRandomBased","IStreamPseudoRandomBased interface [IMAPI]","IStreamPseudoRandomBased interface [IMAPI]","described","imapi.istreampseudorandombased","imapi2/IStreamPseudoRandomBased"]
 old-location: imapi\istreampseudorandombased.htm
 tech.root: imapi
 ms.assetid: 7630b8ac-41f9-4cc7-95e7-4172a876673f

@@ -1,9 +1,10 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageStatusEvent
 title: IPrintDocumentPackageStatusEvent (documenttarget.h)
-description: Represents the progress of the print job.helpviewer_keywords: ["IPrintDocumentPackageStatusEvent","IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging]","IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging]","described","documenttarget/IPrintDocumentPackageStatusEvent","xps.iprintdocumentpackagestatusevent"]
+description: Represents the progress of the print job.
+helpviewer_keywords: ["IPrintDocumentPackageStatusEvent","IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging]","IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging]","described","documenttarget/IPrintDocumentPackageStatusEvent","xps.iprintdocumentpackagestatusevent"]
 old-location: xps\iprintdocumentpackagestatusevent.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: A2178E6A-04AD-4024-A083-5C76A5F60743
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent, IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging], IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageStatusEvent, xps.iprintdocumentpackagestatusevent

@@ -1,9 +1,10 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.SetState
 title: IMultiMediaStream::SetState (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetState method runs or stops the multimedia stream object.helpviewer_keywords: ["IMultiMediaStream interface [DirectShow]","SetState method","IMultiMediaStream.SetState","IMultiMediaStream::SetState","IMultiMediaStreamSetState","SetState","SetState method [DirectShow]","SetState method [DirectShow]","IMultiMediaStream interface","dshow.imultimediastream_setstate","mmstream/IMultiMediaStream::SetState"]
+description: Note  This interface is deprecated. New applications should not use it. The SetState method runs or stops the multimedia stream object.
+helpviewer_keywords: ["IMultiMediaStream interface [DirectShow]","SetState method","IMultiMediaStream.SetState","IMultiMediaStream::SetState","IMultiMediaStreamSetState","SetState","SetState method [DirectShow]","SetState method [DirectShow]","IMultiMediaStream interface","dshow.imultimediastream_setstate","mmstream/IMultiMediaStream::SetState"]
 old-location: dshow\imultimediastream_setstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState

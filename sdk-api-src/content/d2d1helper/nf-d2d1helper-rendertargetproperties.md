@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.RenderTargetProperties
 title: RenderTargetProperties function (d2d1helper.h)
-description: Creates a D2D1_RENDER_TARGET_PROPERTIES structure.helpviewer_keywords: ["RenderTargetProperties","RenderTargetProperties function [Direct2D]","d2d1helper/RenderTargetProperties","direct2d.rendertargetproperties"]
+description: Creates a D2D1_RENDER_TARGET_PROPERTIES structure.
+helpviewer_keywords: ["RenderTargetProperties","RenderTargetProperties function [Direct2D]","d2d1helper/RenderTargetProperties","direct2d.rendertargetproperties"]
 old-location: direct2d\rendertargetproperties.htm
 tech.root: Direct2D
 ms.assetid: d384ff93-220f-4714-a76a-b8b495496d79

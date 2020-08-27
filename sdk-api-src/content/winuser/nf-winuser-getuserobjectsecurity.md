@@ -1,9 +1,10 @@
 ---
 UID: NF:winuser.GetUserObjectSecurity
 title: GetUserObjectSecurity function (winuser.h)
-description: Retrieves security information for the specified user object.helpviewer_keywords: ["GetUserObjectSecurity","GetUserObjectSecurity function [Security]","_win32_getuserobjectsecurity","security.getuserobjectsecurity","winuser/GetUserObjectSecurity"]
+description: Retrieves security information for the specified user object.
+helpviewer_keywords: ["GetUserObjectSecurity","GetUserObjectSecurity function [Security]","_win32_getuserobjectsecurity","security.getuserobjectsecurity","winuser/GetUserObjectSecurity"]
 old-location: security\getuserobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 998c2520-7833-4efd-a794-b13b528f0485
 ms.date: 12/05/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity

@@ -1,9 +1,10 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DualMode
 title: IMpegAudioDecoder::put_DualMode (mpegtype.h)
-description: Specifies the channel to be decoded.helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","put_DualMode method","IMpegAudioDecoder.put_DualMode","IMpegAudioDecoder::put_DualMode","IMpegAudioDecoderputDualMode","dshow.impegaudiodecoder_put_dualmode","mpegtype/IMpegAudioDecoder::put_DualMode","put_DualMode","put_DualMode method [DirectShow]","put_DualMode method [DirectShow]","IMpegAudioDecoder interface"]
+description: Specifies the channel to be decoded.
+helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","put_DualMode method","IMpegAudioDecoder.put_DualMode","IMpegAudioDecoder::put_DualMode","IMpegAudioDecoderputDualMode","dshow.impegaudiodecoder_put_dualmode","mpegtype/IMpegAudioDecoder::put_DualMode","put_DualMode","put_DualMode method [DirectShow]","put_DualMode method [DirectShow]","IMpegAudioDecoder interface"]
 old-location: dshow\impegaudiodecoder_put_dualmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface

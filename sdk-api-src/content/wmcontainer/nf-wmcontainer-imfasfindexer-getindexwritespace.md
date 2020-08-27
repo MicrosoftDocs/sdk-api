@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexWriteSpace
 title: IMFASFIndexer::GetIndexWriteSpace (wmcontainer.h)
-description: Retrieves the size, in bytes, of the buffer required to store the completed index.helpviewer_keywords: ["8d62a357-e46e-4431-943f-334ae11c8b31","GetIndexWriteSpace","GetIndexWriteSpace method [Media Foundation]","GetIndexWriteSpace method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetIndexWriteSpace method","IMFASFIndexer.GetIndexWriteSpace","IMFASFIndexer::GetIndexWriteSpace","mf.imfasfindexer_getindexwritespace","wmcontainer/IMFASFIndexer::GetIndexWriteSpace"]
+description: Retrieves the size, in bytes, of the buffer required to store the completed index.
+helpviewer_keywords: ["8d62a357-e46e-4431-943f-334ae11c8b31","GetIndexWriteSpace","GetIndexWriteSpace method [Media Foundation]","GetIndexWriteSpace method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetIndexWriteSpace method","IMFASFIndexer.GetIndexWriteSpace","IMFASFIndexer::GetIndexWriteSpace","mf.imfasfindexer_getindexwritespace","wmcontainer/IMFASFIndexer::GetIndexWriteSpace"]
 old-location: mf\imfasfindexer_getindexwritespace.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8d62a357-e46e-4431-943f-334ae11c8b31
 ms.date: 12/05/2018
 ms.keywords: 8d62a357-e46e-4431-943f-334ae11c8b31, GetIndexWriteSpace, GetIndexWriteSpace method [Media Foundation], GetIndexWriteSpace method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexWriteSpace method, IMFASFIndexer.GetIndexWriteSpace, IMFASFIndexer::GetIndexWriteSpace, mf.imfasfindexer_getindexwritespace, wmcontainer/IMFASFIndexer::GetIndexWriteSpace

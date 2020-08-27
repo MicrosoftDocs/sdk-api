@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetVisuals
 title: IXpsOMPage::GetVisuals (xpsobjectmodel.h)
-description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the page's visual objects.helpviewer_keywords: ["GetVisuals","GetVisuals method [XPS Documents and Packaging]","GetVisuals method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetVisuals method","IXpsOMPage.GetVisuals","IXpsOMPage::GetVisuals","xps.ixpsompage_getvisuals","xpsobjectmodel/IXpsOMPage::GetVisuals"]
+description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the page's visual objects.
+helpviewer_keywords: ["GetVisuals","GetVisuals method [XPS Documents and Packaging]","GetVisuals method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetVisuals method","IXpsOMPage.GetVisuals","IXpsOMPage::GetVisuals","xps.ixpsompage_getvisuals","xpsobjectmodel/IXpsOMPage::GetVisuals"]
 old-location: xps\ixpsompage_getvisuals.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8181513f-2a5d-4b43-aa40-7f886a8af7f7
 ms.date: 12/05/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals

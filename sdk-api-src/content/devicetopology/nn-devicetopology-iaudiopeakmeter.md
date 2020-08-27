@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioPeakMeter
 title: IAudioPeakMeter (devicetopology.h)
-description: The IAudioPeakMeter interface provides access to a hardware peak-meter control.helpviewer_keywords: ["IAudioPeakMeter","IAudioPeakMeter interface [Core Audio]","IAudioPeakMeter interface [Core Audio]","described","coreaudio.iaudiopeakmeter","devicetopology/IAudioPeakMeter"]
+description: The IAudioPeakMeter interface provides access to a hardware peak-meter control.
+helpviewer_keywords: ["IAudioPeakMeter","IAudioPeakMeter interface [Core Audio]","IAudioPeakMeter interface [Core Audio]","described","coreaudio.iaudiopeakmeter","devicetopology/IAudioPeakMeter"]
 old-location: coreaudio\iaudiopeakmeter.htm
 tech.root: CoreAudio
 ms.assetid: 524d83ff-4303-448c-a070-58d17dec03ba

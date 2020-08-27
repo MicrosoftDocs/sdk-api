@@ -120,7 +120,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eaptype
 
 
 
-#### - dwSizeOfConnectionData
+### -field dwSizeOfConnectionData
 
 The size, in bytes, of <b>pConnectionData</b>.
 

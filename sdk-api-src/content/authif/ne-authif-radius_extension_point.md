@@ -1,7 +1,8 @@
 ---
 UID: NE:authif._RADIUS_EXTENSION_POINT
 title: RADIUS_EXTENSION_POINT (authif.h)
-description: The RADIUS_EXTENSION_POINT enumeration type enumerates the possible points in the RADIUS request process when the RadiusExtensionProcess2 function can be called.helpviewer_keywords: ["RADIUS_EXTENSION_POINT","RADIUS_EXTENSION_POINT enumeration [Network Policy Server]","_ias_radius_extension_point","authif/RADIUS_EXTENSION_POINT","authif/repAuthentication","authif/repAuthorization","ias.radius_extension_point","nps.IAS_radius_extension_point","repAuthentication","repAuthorization"]
+description: The RADIUS_EXTENSION_POINT enumeration type enumerates the possible points in the RADIUS request process when the RadiusExtensionProcess2 function can be called.
+helpviewer_keywords: ["RADIUS_EXTENSION_POINT","RADIUS_EXTENSION_POINT enumeration [Network Policy Server]","_ias_radius_extension_point","authif/RADIUS_EXTENSION_POINT","authif/repAuthentication","authif/repAuthorization","ias.radius_extension_point","nps.IAS_radius_extension_point","repAuthentication","repAuthorization"]
 old-location: nps\IAS_radius_extension_point.htm
 tech.root: Nps
 ms.assetid: 0e7f4d48-01b5-45a8-bf72-27b557ae8da7

@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.GetMediaStream
 title: IMediaStreamFilter::GetMediaStream (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetMediaStream method retrieves a media stream, specified by purpose ID.helpviewer_keywords: ["GetMediaStream","GetMediaStream method [DirectShow]","GetMediaStream method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","GetMediaStream method","IMediaStreamFilter.GetMediaStream","IMediaStreamFilter::GetMediaStream","IMediaStreamFilterGetMediaStream","amstream/IMediaStreamFilter::GetMediaStream","dshow.imediastreamfilter_getmediastream"]
+description: Note  This interface is deprecated. New applications should not use it. The GetMediaStream method retrieves a media stream, specified by purpose ID.
+helpviewer_keywords: ["GetMediaStream","GetMediaStream method [DirectShow]","GetMediaStream method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","GetMediaStream method","IMediaStreamFilter.GetMediaStream","IMediaStreamFilter::GetMediaStream","IMediaStreamFilterGetMediaStream","amstream/IMediaStreamFilter::GetMediaStream","dshow.imediastreamfilter_getmediastream"]
 old-location: dshow\imediastreamfilter_getmediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 27ef63cf-36a4-4d35-bd38-3c51b1343ee1
 ms.date: 12/05/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetMediaStream method, IMediaStreamFilter.GetMediaStream, IMediaStreamFilter::GetMediaStream, IMediaStreamFilterGetMediaStream, amstream/IMediaStreamFilter::GetMediaStream, dshow.imediastreamfilter_getmediastream

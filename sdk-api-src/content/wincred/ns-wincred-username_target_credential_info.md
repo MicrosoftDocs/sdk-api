@@ -1,9 +1,10 @@
 ---
 UID: NS:wincred._USERNAME_TARGET_CREDENTIAL_INFO
 title: USERNAME_TARGET_CREDENTIAL_INFO (wincred.h)
-description: The USERNAME_TARGET_CREDENTIAL_INFO structure contains a reference to a credential.helpviewer_keywords: ["*PUSERNAME_TARGET_CREDENTIAL_INFO","PUSERNAME_TARGET_CREDENTIAL_INFO","PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security]","USERNAME_TARGET_CREDENTIAL_INFO","USERNAME_TARGET_CREDENTIAL_INFO structure [Security]","_cred_username_target_credential_info","security.username_target_credential_info","wincred/PUSERNAME_TARGET_CREDENTIAL_INFO","wincred/USERNAME_TARGET_CREDENTIAL_INFO"]
+description: The USERNAME_TARGET_CREDENTIAL_INFO structure contains a reference to a credential.
+helpviewer_keywords: ["*PUSERNAME_TARGET_CREDENTIAL_INFO","PUSERNAME_TARGET_CREDENTIAL_INFO","PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security]","USERNAME_TARGET_CREDENTIAL_INFO","USERNAME_TARGET_CREDENTIAL_INFO structure [Security]","_cred_username_target_credential_info","security.username_target_credential_info","wincred/PUSERNAME_TARGET_CREDENTIAL_INFO","wincred/USERNAME_TARGET_CREDENTIAL_INFO"]
 old-location: security\username_target_credential_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1cb56a85-fafd-4471-b0e9-660ac0dc0219
 ms.date: 12/05/2018
 ms.keywords: '*PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security], USERNAME_TARGET_CREDENTIAL_INFO, USERNAME_TARGET_CREDENTIAL_INFO structure [Security], _cred_username_target_credential_info, security.username_target_credential_info, wincred/PUSERNAME_TARGET_CREDENTIAL_INFO, wincred/USERNAME_TARGET_CREDENTIAL_INFO'

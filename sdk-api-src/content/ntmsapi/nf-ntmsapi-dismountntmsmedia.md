@@ -1,9 +1,10 @@
 ---
 UID: NF:ntmsapi.DismountNtmsMedia
 title: DismountNtmsMedia function (ntmsapi.h)
-description: The DismountNtmsMedia function queues a command to move the specified media in a drive to its storage. This function should be paired with the MountNtmsMedia function.helpviewer_keywords: ["DismountNtmsMedia","DismountNtmsMedia function [Files]","NTMS_DISMOUNT_DEFERRED","NTMS_DISMOUNT_IMMEDIATE","_zaw_dismountntmsmedia","base.dismountntmsmedia","fs.dismountntmsmedia","ntmsapi/DismountNtmsMedia"]
+description: The DismountNtmsMedia function queues a command to move the specified media in a drive to its storage. This function should be paired with the MountNtmsMedia function.
+helpviewer_keywords: ["DismountNtmsMedia","DismountNtmsMedia function [Files]","NTMS_DISMOUNT_DEFERRED","NTMS_DISMOUNT_IMMEDIATE","_zaw_dismountntmsmedia","base.dismountntmsmedia","fs.dismountntmsmedia","ntmsapi/DismountNtmsMedia"]
 old-location: fs\dismountntmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 95336487-ca50-4003-a155-eb70173f8604
 ms.date: 12/05/2018
 ms.keywords: DismountNtmsMedia, DismountNtmsMedia function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_dismountntmsmedia, base.dismountntmsmedia, fs.dismountntmsmedia, ntmsapi/DismountNtmsMedia

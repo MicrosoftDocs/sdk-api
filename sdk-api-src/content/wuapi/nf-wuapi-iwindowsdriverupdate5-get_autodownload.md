@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate5.get_AutoDownload
 title: IWindowsDriverUpdate5::get_AutoDownload (wuapi.h)
-description: Gets an AutoDownloadMode value that indicates the automatic download mode of update.helpviewer_keywords: ["AutoDownload property [Windows Update Agent]","AutoDownload property [Windows Update Agent]","IWindowsDriverUpdate5 interface","IWindowsDriverUpdate5 interface [Windows Update Agent]","AutoDownload property","IWindowsDriverUpdate5.AutoDownload","IWindowsDriverUpdate5.get_AutoDownload","IWindowsDriverUpdate5::AutoDownload","IWindowsDriverUpdate5::get_AutoDownload","get_AutoDownload","wua.iwindowsdriverupdate5_autodownload","wuapi/IWindowsDriverUpdate5::AutoDownload","wuapi/IWindowsDriverUpdate5::get_AutoDownload"]
+description: Gets an AutoDownloadMode value that indicates the automatic download mode of update.
+helpviewer_keywords: ["AutoDownload property [Windows Update Agent]","AutoDownload property [Windows Update Agent]","IWindowsDriverUpdate5 interface","IWindowsDriverUpdate5 interface [Windows Update Agent]","AutoDownload property","IWindowsDriverUpdate5.AutoDownload","IWindowsDriverUpdate5.get_AutoDownload","IWindowsDriverUpdate5::AutoDownload","IWindowsDriverUpdate5::get_AutoDownload","get_AutoDownload","wua.iwindowsdriverupdate5_autodownload","wuapi/IWindowsDriverUpdate5::AutoDownload","wuapi/IWindowsDriverUpdate5::get_AutoDownload"]
 old-location: wua\iwindowsdriverupdate5_autodownload.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 598829d2-35a3-48ac-836c-138fd766b22e
 ms.date: 12/05/2018
 ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property [Windows Update Agent],IWindowsDriverUpdate5 interface, IWindowsDriverUpdate5 interface [Windows Update Agent],AutoDownload property, IWindowsDriverUpdate5.AutoDownload, IWindowsDriverUpdate5.get_AutoDownload, IWindowsDriverUpdate5::AutoDownload, IWindowsDriverUpdate5::get_AutoDownload, get_AutoDownload, wua.iwindowsdriverupdate5_autodownload, wuapi/IWindowsDriverUpdate5::AutoDownload, wuapi/IWindowsDriverUpdate5::get_AutoDownload

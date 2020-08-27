@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CompareItem
 title: IMFAttributes::CompareItem (mfobjects.h)
-description: Queries whether a stored attribute value equals to a specified PROPVARIANT.helpviewer_keywords: ["CompareItem","CompareItem method [Media Foundation]","CompareItem method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","CompareItem method","IMFAttributes.CompareItem","IMFAttributes::CompareItem","f0a6073b-fce6-4a1f-b7d1-ef6543e7648f","mf.imfattributes_compareitem","mfobjects/IMFAttributes::CompareItem"]
+description: Queries whether a stored attribute value equals to a specified PROPVARIANT.
+helpviewer_keywords: ["CompareItem","CompareItem method [Media Foundation]","CompareItem method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","CompareItem method","IMFAttributes.CompareItem","IMFAttributes::CompareItem","f0a6073b-fce6-4a1f-b7d1-ef6543e7648f","mf.imfattributes_compareitem","mfobjects/IMFAttributes::CompareItem"]
 old-location: mf\imfattributes_compareitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f0a6073b-fce6-4a1f-b7d1-ef6543e7648f
 ms.date: 12/05/2018
 ms.keywords: CompareItem, CompareItem method [Media Foundation], CompareItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CompareItem method, IMFAttributes.CompareItem, IMFAttributes::CompareItem, f0a6073b-fce6-4a1f-b7d1-ef6543e7648f, mf.imfattributes_compareitem, mfobjects/IMFAttributes::CompareItem

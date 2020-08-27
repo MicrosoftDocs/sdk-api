@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
 title: IMFPMediaItem::GetStreamSelection (mfplay.h)
-description: Queries whether a stream is selected to play.helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStreamSelection method","IMFPMediaItem.GetStreamSelection","IMFPMediaItem::GetStreamSelection","TRUE","mf.imfpmediaitem_getstreamselection","mfplay/IMFPMediaItem::GetStreamSelection"]
+description: Queries whether a stream is selected to play.
+helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStreamSelection method","IMFPMediaItem.GetStreamSelection","IMFPMediaItem::GetStreamSelection","TRUE","mf.imfpmediaitem_getstreamselection","mfplay/IMFPMediaItem::GetStreamSelection"]
 old-location: mf\imfpmediaitem_getstreamselection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 808de13b-123f-4b9c-b2e6-6c0a6f4339fc
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamSelection method, IMFPMediaItem.GetStreamSelection, IMFPMediaItem::GetStreamSelection, TRUE, mf.imfpmediaitem_getstreamselection, mfplay/IMFPMediaItem::GetStreamSelection

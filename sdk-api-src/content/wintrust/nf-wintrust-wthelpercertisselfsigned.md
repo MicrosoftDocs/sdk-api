@@ -1,9 +1,10 @@
 ---
 UID: NF:wintrust.WTHelperCertIsSelfSigned
 title: WTHelperCertIsSelfSigned function (wintrust.h)
-description: Checks whether a certificate is self-signed.helpviewer_keywords: ["WTHelperCertIsSelfSigned","WTHelperCertIsSelfSigned function [Security]","security.wthelpercertisselfsigned","wintrust/WTHelperCertIsSelfSigned"]
+description: Checks whether a certificate is self-signed.
+helpviewer_keywords: ["WTHelperCertIsSelfSigned","WTHelperCertIsSelfSigned function [Security]","security.wthelpercertisselfsigned","wintrust/WTHelperCertIsSelfSigned"]
 old-location: security\wthelpercertisselfsigned.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 456b8c8c-6ca3-469a-a415-e72109696bf5
 ms.date: 12/05/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned

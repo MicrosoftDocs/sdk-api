@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_NAME_CONSTRAINTS_INFO
 title: CERT_NAME_CONSTRAINTS_INFO (wincrypt.h)
-description: The CERT_NAME_CONSTRAINTS_INFO structure contains information about certificates that are specifically permitted or excluded from trust.helpviewer_keywords: ["*PCERT_NAME_CONSTRAINTS_INFO","CERT_NAME_CONSTRAINTS_INFO","CERT_NAME_CONSTRAINTS_INFO structure [Security]","PCERT_NAME_CONSTRAINTS_INFO","PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security]","_crypto2_cert_name_constraints_info","security.cert_name_constraints_info","wincrypt/CERT_NAME_CONSTRAINTS_INFO","wincrypt/PCERT_NAME_CONSTRAINTS_INFO"]
+description: The CERT_NAME_CONSTRAINTS_INFO structure contains information about certificates that are specifically permitted or excluded from trust.
+helpviewer_keywords: ["*PCERT_NAME_CONSTRAINTS_INFO","CERT_NAME_CONSTRAINTS_INFO","CERT_NAME_CONSTRAINTS_INFO structure [Security]","PCERT_NAME_CONSTRAINTS_INFO","PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security]","_crypto2_cert_name_constraints_info","security.cert_name_constraints_info","wincrypt/CERT_NAME_CONSTRAINTS_INFO","wincrypt/PCERT_NAME_CONSTRAINTS_INFO"]
 old-location: security\cert_name_constraints_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 16a57c4b-905f-40c0-b298-71f0534bfa5a
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO structure [Security], PCERT_NAME_CONSTRAINTS_INFO, PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security], _crypto2_cert_name_constraints_info, security.cert_name_constraints_info, wincrypt/CERT_NAME_CONSTRAINTS_INFO, wincrypt/PCERT_NAME_CONSTRAINTS_INFO'

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplate.get_Property
 title: IX509CertificateTemplate::get_Property (certenroll.h)
-description: Retrieves a template property value.helpviewer_keywords: ["IX509CertificateTemplate interface [Security]","Property property","IX509CertificateTemplate.Property","IX509CertificateTemplate.get_Property","IX509CertificateTemplate::Property","IX509CertificateTemplate::get_Property","Property property [Security]","Property property [Security]","IX509CertificateTemplate interface","certenroll/IX509CertificateTemplate::Property","certenroll/IX509CertificateTemplate::get_Property","get_Property","security.ix509certificatetemplate_property"]
+description: Retrieves a template property value.
+helpviewer_keywords: ["IX509CertificateTemplate interface [Security]","Property property","IX509CertificateTemplate.Property","IX509CertificateTemplate.get_Property","IX509CertificateTemplate::Property","IX509CertificateTemplate::get_Property","Property property [Security]","Property property [Security]","IX509CertificateTemplate interface","certenroll/IX509CertificateTemplate::Property","certenroll/IX509CertificateTemplate::get_Property","get_Property","security.ix509certificatetemplate_property"]
 old-location: security\ix509certificatetemplate_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 4588891e-7be4-482a-bbad-c23759b06b1b
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplate interface [Security],Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate.get_Property, IX509CertificateTemplate::Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security],IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property, security.ix509certificatetemplate_property

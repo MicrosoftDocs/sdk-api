@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetError
 title: IMFMediaEngine::GetError (mfmediaengine.h)
-description: Gets the most recent error status.helpviewer_keywords: ["GetError","GetError method [Media Foundation]","GetError method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetError method","IMFMediaEngine.GetError","IMFMediaEngine::GetError","mf.imfmediaengine_geterror","mfmediaengine/IMFMediaEngine::GetError"]
+description: Gets the most recent error status.
+helpviewer_keywords: ["GetError","GetError method [Media Foundation]","GetError method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetError method","IMFMediaEngine.GetError","IMFMediaEngine::GetError","mf.imfmediaengine_geterror","mfmediaengine/IMFMediaEngine::GetError"]
 old-location: mf\imfmediaengine_geterror.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F8A51AF8-8D73-47BC-ADA2-7F5108587873
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [Media Foundation], GetError method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetError method, IMFMediaEngine.GetError, IMFMediaEngine::GetError, mf.imfmediaengine_geterror, mfmediaengine/IMFMediaEngine::GetError

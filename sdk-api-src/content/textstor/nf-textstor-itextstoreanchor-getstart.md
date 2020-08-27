@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetStart
 title: ITextStoreAnchor::GetStart (textstor.h)
-description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.helpviewer_keywords: ["GetStart","GetStart method [Text Services Framework]","GetStart method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetStart method","ITextStoreAnchor.GetStart","ITextStoreAnchor::GetStart","textstor/ITextStoreAnchor::GetStart","tsf.itextstoreanchor_getstart"]
+description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.
+helpviewer_keywords: ["GetStart","GetStart method [Text Services Framework]","GetStart method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetStart method","ITextStoreAnchor.GetStart","ITextStoreAnchor::GetStart","textstor/ITextStoreAnchor::GetStart","tsf.itextstoreanchor_getstart"]
 old-location: tsf\itextstoreanchor_getstart.htm
 tech.root: TSF
 ms.assetid: 431ca3b0-920b-4a4e-b475-32175555a789

@@ -1,7 +1,8 @@
 ---
 UID: NC:dxmini.PDX_TRANSFER
 title: PDX_TRANSFER (dxmini.h)
-description: The DxTransfer callback function informs the driver to bus master data from a surface to the buffer specified in the memory descriptor list (MDL).helpviewer_keywords: ["DxTransfer","DxTransfer callback function [Display Devices]","PDX_TRANSFER","PDX_TRANSFER callback","VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml","display.dxtransfer","dxmini/DxTransfer"]
+description: The DxTransfer callback function informs the driver to bus master data from a surface to the buffer specified in the memory descriptor list (MDL).
+helpviewer_keywords: ["DxTransfer","DxTransfer callback function [Display Devices]","PDX_TRANSFER","PDX_TRANSFER callback","VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml","display.dxtransfer","dxmini/DxTransfer"]
 old-location: display\dxtransfer.htm
 tech.root: display
 ms.assetid: 62e1a5f6-9777-4acf-a531-b3554eaf89a6

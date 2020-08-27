@@ -1,9 +1,10 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceManager
 title: IPortableDeviceServiceManager (portabledeviceapi.h)
-description: Retrieves the device associated with a service and the list of services found on a device.helpviewer_keywords: ["IPortableDeviceServiceManager","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceServiceManager","wpdsdk.iportabledeviceservicemanager"]
+description: Retrieves the device associated with a service and the list of services found on a device.
+helpviewer_keywords: ["IPortableDeviceServiceManager","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceServiceManager","wpdsdk.iportabledeviceservicemanager"]
 old-location: wpdsdk\iportabledeviceservicemanager.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 8df23343-26f0-4fb0-90b9-e8b75bcadffa
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], IPortableDeviceServiceManager interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceManager, wpdsdk.iportabledeviceservicemanager

@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IAMClockAdjust
 title: IAMClockAdjust (strmif.h)
-description: The IAMClockAdjust interface adjusts the reference clock. The System Reference Clock exposes this interface.helpviewer_keywords: ["IAMClockAdjust","IAMClockAdjust interface [DirectShow]","IAMClockAdjust interface [DirectShow]","described","IAMClockAdjustInterface","dshow.iamclockadjust","strmif/IAMClockAdjust"]
+description: The IAMClockAdjust interface adjusts the reference clock. The System Reference Clock exposes this interface.
+helpviewer_keywords: ["IAMClockAdjust","IAMClockAdjust interface [DirectShow]","IAMClockAdjust interface [DirectShow]","described","IAMClockAdjustInterface","dshow.iamclockadjust","strmif/IAMClockAdjust"]
 old-location: dshow\iamclockadjust.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e24105a5-711a-498a-a07c-842307602613
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], IAMClockAdjust interface [DirectShow],described, IAMClockAdjustInterface, dshow.iamclockadjust, strmif/IAMClockAdjust

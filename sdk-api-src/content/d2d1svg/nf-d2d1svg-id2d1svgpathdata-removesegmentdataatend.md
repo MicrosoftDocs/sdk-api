@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.RemoveSegmentDataAtEnd
 title: ID2D1SvgPathData::RemoveSegmentDataAtEnd (d2d1svg.h)
-description: Removes data from the end of the segment data array.helpviewer_keywords: ["ID2D1SvgPathData interface [Direct2D]","RemoveSegmentDataAtEnd method","ID2D1SvgPathData.RemoveSegmentDataAtEnd","ID2D1SvgPathData::RemoveSegmentDataAtEnd","RemoveSegmentDataAtEnd","RemoveSegmentDataAtEnd method [Direct2D]","RemoveSegmentDataAtEnd method [Direct2D]","ID2D1SvgPathData interface","d2d1svg/ID2D1SvgPathData::RemoveSegmentDataAtEnd","direct2d.id2d1svgpathdata_removesegmentdataatend"]
+description: Removes data from the end of the segment data array.
+helpviewer_keywords: ["ID2D1SvgPathData interface [Direct2D]","RemoveSegmentDataAtEnd method","ID2D1SvgPathData.RemoveSegmentDataAtEnd","ID2D1SvgPathData::RemoveSegmentDataAtEnd","RemoveSegmentDataAtEnd","RemoveSegmentDataAtEnd method [Direct2D]","RemoveSegmentDataAtEnd method [Direct2D]","ID2D1SvgPathData interface","d2d1svg/ID2D1SvgPathData::RemoveSegmentDataAtEnd","direct2d.id2d1svgpathdata_removesegmentdataatend"]
 old-location: direct2d\id2d1svgpathdata_removesegmentdataatend.htm
 tech.root: Direct2D
 ms.assetid: 549531A1-099D-477E-8D77-CF90BD75FAB8

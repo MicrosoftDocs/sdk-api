@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._ACL_SIZE_INFORMATION
 title: ACL_SIZE_INFORMATION (winnt.h)
-description: Contains information about the size of an ACL structure.helpviewer_keywords: ["*PACL_SIZE_INFORMATION","ACL_SIZE_INFORMATION","ACL_SIZE_INFORMATION structure [Security]","PACL_SIZE_INFORMATION","PACL_SIZE_INFORMATION structure pointer [Security]","_ACL_SIZE_INFORMATION","_win32_acl_size_information_str","security.acl_size_information","winnt/ACL_SIZE_INFORMATION","winnt/PACL_SIZE_INFORMATION"]
+description: Contains information about the size of an ACL structure.
+helpviewer_keywords: ["*PACL_SIZE_INFORMATION","ACL_SIZE_INFORMATION","ACL_SIZE_INFORMATION structure [Security]","PACL_SIZE_INFORMATION","PACL_SIZE_INFORMATION structure pointer [Security]","_ACL_SIZE_INFORMATION","_win32_acl_size_information_str","security.acl_size_information","winnt/ACL_SIZE_INFORMATION","winnt/PACL_SIZE_INFORMATION"]
 old-location: security\acl_size_information.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 05034096-211d-4ee3-a686-dfebfa167814
 ms.date: 12/05/2018
 ms.keywords: '*PACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION structure [Security], PACL_SIZE_INFORMATION, PACL_SIZE_INFORMATION structure pointer [Security], _ACL_SIZE_INFORMATION, _win32_acl_size_information_str, security.acl_size_information, winnt/ACL_SIZE_INFORMATION, winnt/PACL_SIZE_INFORMATION'

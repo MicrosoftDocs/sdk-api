@@ -1,7 +1,8 @@
 ---
 UID: NN:proofofpossessioncookieinfo.IProofOfPossessionCookieInfoManager
 title: IProofOfPossessionCookieInfoManager (proofofpossessioncookieinfo.h)
-description: Supports the creation of proof of possession cookies.helpviewer_keywords: ["IProofOfPossessionCookieInfoManager","IProofOfPossessionCookieInfoManager interface [WinINet]","IProofOfPossessionCookieInfoManager interface [WinINet]","described","proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager","wininet.iproofofpossessioncookieinfomanager"]
+description: Supports the creation of proof of possession cookies.
+helpviewer_keywords: ["IProofOfPossessionCookieInfoManager","IProofOfPossessionCookieInfoManager interface [WinINet]","IProofOfPossessionCookieInfoManager interface [WinINet]","described","proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager","wininet.iproofofpossessioncookieinfomanager"]
 old-location: wininet\iproofofpossessioncookieinfomanager.htm
 tech.root: wininet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a

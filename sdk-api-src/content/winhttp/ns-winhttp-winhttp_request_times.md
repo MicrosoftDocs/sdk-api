@@ -1,9 +1,10 @@
 ---
 UID: NS:winhttp._WINHTTP_REQUEST_TIMES
 title: WINHTTP_REQUEST_TIMES (winhttp.h)
-description: The WINHTTP_REQUEST_TIMES structure contains a variety of timing information for an HTTP request.helpviewer_keywords: ["*PWINHTTP_REQUEST_TIMES","WINHTTP_REQUEST_TIMES","WINHTTP_REQUEST_TIMES structure [HTTP]","http.winhttp_request_times","winhttp/WINHTTP_REQUEST_TIMES","WINHTTP_OPTION_REQUEST_TIMES"]
+description: The WINHTTP_REQUEST_TIMES structure contains a variety of timing information for an HTTP request.
+helpviewer_keywords: ["*PWINHTTP_REQUEST_TIMES","WINHTTP_REQUEST_TIMES","WINHTTP_REQUEST_TIMES structure [HTTP]","http.winhttp_request_times","winhttp/WINHTTP_REQUEST_TIMES","WINHTTP_OPTION_REQUEST_TIMES"]
 old-location:
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 4d30cd0a-88ea-4d03-951d-be50c017efd3
 ms.date: 02/25/2020
 ms.keywords: '*PWINHTTP_REQUEST_TIMES, WINHTTP_REQUEST_TIMES, WINHTTP_REQUEST_TIMES structure [HTTP], http.winhttp_request_times, winhttp/WINHTTP_REQUEST_TIMES, WINHTTP_OPTION_REQUEST_TIMES'

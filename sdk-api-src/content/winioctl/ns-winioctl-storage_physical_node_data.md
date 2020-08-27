@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_NODE_DATA
 title: STORAGE_PHYSICAL_NODE_DATA
-description: Specifies the physical device data of a storage node.helpviewer_keywords: ["*PSTORAGE_PHYSICAL_NODE_DATA","PSTORAGE_PHYSICAL_NODE_DATA","PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Files]","STORAGE_PHYSICAL_NODE_DATA","STORAGE_PHYSICAL_NODE_DATA structure [Files]","fs.storage_physical_node_data","winioctl/PSTORAGE_PHYSICAL_NODE_DATA","winioctl/STORAGE_PHYSICAL_NODE_DATA"]
+description: Specifies the physical device data of a storage node.
+helpviewer_keywords: ["*PSTORAGE_PHYSICAL_NODE_DATA","PSTORAGE_PHYSICAL_NODE_DATA","PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Files]","STORAGE_PHYSICAL_NODE_DATA","STORAGE_PHYSICAL_NODE_DATA structure [Files]","fs.storage_physical_node_data","winioctl/PSTORAGE_PHYSICAL_NODE_DATA","winioctl/STORAGE_PHYSICAL_NODE_DATA"]
 old-location: fs\storage_physical_node_data.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 66B5C1F8-A741-4CAD-B717-CB91B0D5655F
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Files], STORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Files], fs.storage_physical_node_data, winioctl/PSTORAGE_PHYSICAL_NODE_DATA, winioctl/STORAGE_PHYSICAL_NODE_DATA'
@@ -91,14 +92,8 @@ The data length of the storage device in the storage node,  in units of kilobyte
 The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_physical_device_data">STORAGE_PHYSICAL_DEVICE_DATA</a>.
 
 
-### -field Reserved
 
- 
-
-
-
-
-#### - Reserved[3]
+### -field Reserved [3]
 
 Specifies if the storage adapter is reserved.
 

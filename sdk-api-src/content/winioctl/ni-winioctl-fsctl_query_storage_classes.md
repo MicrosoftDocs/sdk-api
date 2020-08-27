@@ -4,7 +4,7 @@ title: FSCTL_QUERY_STORAGE_CLASSES
 description: Retrieves the storage tiers defined for a volume that supports data tiering.
 helpviewer_keywords: ["FSCTL_QUERY_STORAGE_CLASSES","FSCTL_QUERY_STORAGE_CLASSES control","FSCTL_QUERY_STORAGE_CLASSES control code [Files]","fs.fsctl_query_storage_classes","winioctl/FSCTL_QUERY_STORAGE_CLASSES"]
 old-location: fs\fsctl_query_storage_classes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: E624CBB4-F788-4FC9-B134-8C4562F21E44
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_STORAGE_CLASSES, FSCTL_QUERY_STORAGE_CLASSES control, FSCTL_QUERY_STORAGE_CLASSES control code [Files], fs.fsctl_query_storage_classes, winioctl/FSCTL_QUERY_STORAGE_CLASSES

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetConfigurationData
 title: IMFOutputSchema::GetConfigurationData (mfidl.h)
-description: Returns configuration data for the output protection system. The configuration data is used to enable or disable the protection system, and to set the protection levels.helpviewer_keywords: ["26730d2d-8ebc-441b-a262-db0c8fe7e75a","GetConfigurationData","GetConfigurationData method [Media Foundation]","GetConfigurationData method [Media Foundation]","IMFOutputSchema interface","IMFOutputSchema interface [Media Foundation]","GetConfigurationData method","IMFOutputSchema.GetConfigurationData","IMFOutputSchema::GetConfigurationData","mf.imfoutputschema_getconfigurationdata","mfidl/IMFOutputSchema::GetConfigurationData"]
+description: Returns configuration data for the output protection system. The configuration data is used to enable or disable the protection system, and to set the protection levels.
+helpviewer_keywords: ["26730d2d-8ebc-441b-a262-db0c8fe7e75a","GetConfigurationData","GetConfigurationData method [Media Foundation]","GetConfigurationData method [Media Foundation]","IMFOutputSchema interface","IMFOutputSchema interface [Media Foundation]","GetConfigurationData method","IMFOutputSchema.GetConfigurationData","IMFOutputSchema::GetConfigurationData","mf.imfoutputschema_getconfigurationdata","mfidl/IMFOutputSchema::GetConfigurationData"]
 old-location: mf\imfoutputschema_getconfigurationdata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 26730d2d-8ebc-441b-a262-db0c8fe7e75a
 ms.date: 12/05/2018
 ms.keywords: 26730d2d-8ebc-441b-a262-db0c8fe7e75a, GetConfigurationData, GetConfigurationData method [Media Foundation], GetConfigurationData method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetConfigurationData method, IMFOutputSchema.GetConfigurationData, IMFOutputSchema::GetConfigurationData, mf.imfoutputschema_getconfigurationdata, mfidl/IMFOutputSchema::GetConfigurationData

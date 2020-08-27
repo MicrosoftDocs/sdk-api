@@ -1,9 +1,10 @@
 ---
 UID: NS:timeprov.SetProviderStatusInfo
 title: SetProviderStatusInfo (timeprov.h)
-description: A structure that is used by the SetProviderStatusFunc function.helpviewer_keywords: ["SetProviderStatusInfo","SetProviderStatusInfo structure","TPC_Error","TPS_Running","_win32_setproviderstatusinfo_str","base.setproviderstatusinfo_str","timeprov/SetProviderStatusInfo"]
+description: A structure that is used by the SetProviderStatusFunc function.
+helpviewer_keywords: ["SetProviderStatusInfo","SetProviderStatusInfo structure","TPC_Error","TPS_Running","_win32_setproviderstatusinfo_str","base.setproviderstatusinfo_str","timeprov/SetProviderStatusInfo"]
 old-location: base\setproviderstatusinfo_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 8e0a79ba-f76a-435a-9b0b-c3a2d9c390da
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo

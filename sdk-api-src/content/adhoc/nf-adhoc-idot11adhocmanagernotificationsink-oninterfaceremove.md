@@ -1,9 +1,10 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 title: IDot11AdHocManagerNotificationSink::OnInterfaceRemove (adhoc.h)
-description: Notifies the client that a network interface card (NIC) has become inactive.helpviewer_keywords: ["IDot11AdHocManagerNotificationSink interface [NativeWIFI]","OnInterfaceRemove method","IDot11AdHocManagerNotificationSink.OnInterfaceRemove","IDot11AdHocManagerNotificationSink::OnInterfaceRemove","OnInterfaceRemove","OnInterfaceRemove method [NativeWIFI]","OnInterfaceRemove method [NativeWIFI]","IDot11AdHocManagerNotificationSink interface","adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove","nwifi.idot11adhocmanagernotificationsink_oninterfaceremove"]
+description: Notifies the client that a network interface card (NIC) has become inactive.
+helpviewer_keywords: ["IDot11AdHocManagerNotificationSink interface [NativeWIFI]","OnInterfaceRemove method","IDot11AdHocManagerNotificationSink.OnInterfaceRemove","IDot11AdHocManagerNotificationSink::OnInterfaceRemove","OnInterfaceRemove","OnInterfaceRemove method [NativeWIFI]","OnInterfaceRemove method [NativeWIFI]","IDot11AdHocManagerNotificationSink interface","adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove","nwifi.idot11adhocmanagernotificationsink_oninterfaceremove"]
 old-location: nwifi\idot11adhocmanagernotificationsink_oninterfaceremove.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: ac62c211-9886-4c09-8867-32ce9763c2fc
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnInterfaceRemove method, IDot11AdHocManagerNotificationSink.OnInterfaceRemove, IDot11AdHocManagerNotificationSink::OnInterfaceRemove, OnInterfaceRemove, OnInterfaceRemove method [NativeWIFI], OnInterfaceRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove, nwifi.idot11adhocmanagernotificationsink_oninterfaceremove

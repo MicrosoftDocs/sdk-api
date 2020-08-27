@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IResourceConsumer
 title: IResourceConsumer (strmif.h)
-description: The IResourceConsumer interface provides a callback mechanism for objects using the IResourceManager interface.An object must implement IResourceConsumer if it uses the IResourceManager interface to request resources from the filter graph manager.helpviewer_keywords: ["IResourceConsumer","IResourceConsumer interface [DirectShow]","IResourceConsumer interface [DirectShow]","described","IResourceConsumerInterface","dshow.iresourceconsumer","strmif/IResourceConsumer"]
+description: The IResourceConsumer interface provides a callback mechanism for objects using the IResourceManager interface.An object must implement IResourceConsumer if it uses the IResourceManager interface to request resources from the filter graph manager.
+helpviewer_keywords: ["IResourceConsumer","IResourceConsumer interface [DirectShow]","IResourceConsumer interface [DirectShow]","described","IResourceConsumerInterface","dshow.iresourceconsumer","strmif/IResourceConsumer"]
 old-location: dshow\iresourceconsumer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8
 ms.date: 12/05/2018
 ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], IResourceConsumer interface [DirectShow],described, IResourceConsumerInterface, dshow.iresourceconsumer, strmif/IResourceConsumer

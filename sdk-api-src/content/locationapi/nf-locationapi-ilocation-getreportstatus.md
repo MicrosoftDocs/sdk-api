@@ -1,9 +1,10 @@
 ---
 UID: NF:locationapi.ILocation.GetReportStatus
 title: ILocation::GetReportStatus (locationapi.h)
-description: Retrieves the status for the specified report type.helpviewer_keywords: ["GetReportStatus","GetReportStatus method [WinLocation]","GetReportStatus method [WinLocation]","ILocation interface","ILocation interface [WinLocation]","GetReportStatus method","ILocation.GetReportStatus","ILocation::GetReportStatus","WinLocation_COM_Ref.ilocation_getreportstatus","locationapi/ILocation::GetReportStatus"]
+description: Retrieves the status for the specified report type.
+helpviewer_keywords: ["GetReportStatus","GetReportStatus method [WinLocation]","GetReportStatus method [WinLocation]","ILocation interface","ILocation interface [WinLocation]","GetReportStatus method","ILocation.GetReportStatus","ILocation::GetReportStatus","WinLocation_COM_Ref.ilocation_getreportstatus","locationapi/ILocation::GetReportStatus"]
 old-location: winlocation_com_ref\ilocation_getreportstatus.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 9b7c72cc-fa09-44b2-97be-f200fab7b31d
 ms.date: 12/05/2018
 ms.keywords: GetReportStatus, GetReportStatus method [WinLocation], GetReportStatus method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportStatus method, ILocation.GetReportStatus, ILocation::GetReportStatus, WinLocation_COM_Ref.ilocation_getreportstatus, locationapi/ILocation::GetReportStatus

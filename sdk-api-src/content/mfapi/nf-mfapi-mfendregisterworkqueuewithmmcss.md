@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFEndRegisterWorkQueueWithMMCSS
 title: MFEndRegisterWorkQueueWithMMCSS function (mfapi.h)
-description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.helpviewer_keywords: ["42d71e1a-a538-45d3-bbf4-1835db15bff9","MFEndRegisterWorkQueueWithMMCSS","MFEndRegisterWorkQueueWithMMCSS function [Media Foundation]","mf.mfendregisterworkqueuewithmmcss","mfapi/MFEndRegisterWorkQueueWithMMCSS"]
+description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+helpviewer_keywords: ["42d71e1a-a538-45d3-bbf4-1835db15bff9","MFEndRegisterWorkQueueWithMMCSS","MFEndRegisterWorkQueueWithMMCSS function [Media Foundation]","mf.mfendregisterworkqueuewithmmcss","mfapi/MFEndRegisterWorkQueueWithMMCSS"]
 old-location: mf\mfendregisterworkqueuewithmmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 42d71e1a-a538-45d3-bbf4-1835db15bff9
 ms.date: 12/05/2018
 ms.keywords: 42d71e1a-a538-45d3-bbf4-1835db15bff9, MFEndRegisterWorkQueueWithMMCSS, MFEndRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfendregisterworkqueuewithmmcss, mfapi/MFEndRegisterWorkQueueWithMMCSS

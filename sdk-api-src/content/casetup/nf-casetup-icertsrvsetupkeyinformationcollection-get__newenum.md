@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get__NewEnum
 title: ICertSrvSetupKeyInformationCollection::get__NewEnum (casetup.h)
-description: Gets an enumerator for the information set.helpviewer_keywords: ["ICertSrvSetupKeyInformationCollection interface [Security]","_NewEnum property","ICertSrvSetupKeyInformationCollection._NewEnum","ICertSrvSetupKeyInformationCollection.get__NewEnum","ICertSrvSetupKeyInformationCollection::_NewEnum","ICertSrvSetupKeyInformationCollection::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICertSrvSetupKeyInformationCollection interface","casetup/ICertSrvSetupKeyInformationCollection::_NewEnum","casetup/ICertSrvSetupKeyInformationCollection::get__NewEnum","get__NewEnum","security.icertsrvsetupkeyinformationcollection__newenum"]
+description: Gets an enumerator for the information set.
+helpviewer_keywords: ["ICertSrvSetupKeyInformationCollection interface [Security]","_NewEnum property","ICertSrvSetupKeyInformationCollection._NewEnum","ICertSrvSetupKeyInformationCollection.get__NewEnum","ICertSrvSetupKeyInformationCollection::_NewEnum","ICertSrvSetupKeyInformationCollection::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICertSrvSetupKeyInformationCollection interface","casetup/ICertSrvSetupKeyInformationCollection::_NewEnum","casetup/ICertSrvSetupKeyInformationCollection::get__NewEnum","get__NewEnum","security.icertsrvsetupkeyinformationcollection__newenum"]
 old-location: security\icertsrvsetupkeyinformationcollection__newenum.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 80a34341-176d-4040-bc60-79ce81b917b2
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],_NewEnum property, ICertSrvSetupKeyInformationCollection._NewEnum, ICertSrvSetupKeyInformationCollection.get__NewEnum, ICertSrvSetupKeyInformationCollection::_NewEnum, ICertSrvSetupKeyInformationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::_NewEnum, casetup/ICertSrvSetupKeyInformationCollection::get__NewEnum, get__NewEnum, security.icertsrvsetupkeyinformationcollection__newenum

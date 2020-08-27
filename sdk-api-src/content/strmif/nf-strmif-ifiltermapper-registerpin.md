@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterPin
 title: IFilterMapper::RegisterPin (strmif.h)
-description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Records the details of the pin in the registry.helpviewer_keywords: ["IFilterMapper interface [DirectShow]","RegisterPin method","IFilterMapper.RegisterPin","IFilterMapper::RegisterPin","IFilterMapperRegisterPin","RegisterPin","RegisterPin method [DirectShow]","RegisterPin method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_registerpin","strmif/IFilterMapper::RegisterPin"]
+description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Records the details of the pin in the registry.
+helpviewer_keywords: ["IFilterMapper interface [DirectShow]","RegisterPin method","IFilterMapper.RegisterPin","IFilterMapper::RegisterPin","IFilterMapperRegisterPin","RegisterPin","RegisterPin method [DirectShow]","RegisterPin method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_registerpin","strmif/IFilterMapper::RegisterPin"]
 old-location: dshow\ifiltermapper_registerpin.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9fd0072f-e63f-41e2-b8f1-821c3c0e0f4e
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterPin method, IFilterMapper.RegisterPin, IFilterMapper::RegisterPin, IFilterMapperRegisterPin, RegisterPin, RegisterPin method [DirectShow], RegisterPin method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerpin, strmif/IFilterMapper::RegisterPin

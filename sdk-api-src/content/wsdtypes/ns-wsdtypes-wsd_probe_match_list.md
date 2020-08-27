@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE_MATCH_LIST
 title: WSD_PROBE_MATCH_LIST (wsdtypes.h)
-description: Represents a node in a single-linked list of ProbeMatch message structures.helpviewer_keywords: ["WSD_PROBE_MATCH_LIST","WSD_PROBE_MATCH_LIST structure","ncd.wsd_probe_match_list_struct","wsdtypes/WSD_PROBE_MATCH_LIST"]
+description: Represents a node in a single-linked list of ProbeMatch message structures.
+helpviewer_keywords: ["WSD_PROBE_MATCH_LIST","WSD_PROBE_MATCH_LIST structure","ncd.wsd_probe_match_list_struct","wsdtypes/WSD_PROBE_MATCH_LIST"]
 old-location: ncd\wsd_probe_match_list_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b7922300-1dc7-487f-b703-736cb0393f17
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCH_LIST, WSD_PROBE_MATCH_LIST structure, ncd.wsd_probe_match_list_struct, wsdtypes/WSD_PROBE_MATCH_LIST

@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IntersectClip(IN const RectF &)
+UID: NF:gdiplusgraphics.Graphics.IntersectClip(INconstRectF&)
 title: Graphics::IntersectClip
-description: The Graphics::IntersectClip method updates the clipping region of this Graphics object.helpviewer_keywords: ["Graphics::IntersectClip"]
+description: The Graphics::IntersectClip method updates the clipping region of this Graphics object.
+tech.root: gdiplus
+helpviewer_keywords: ["Graphics::IntersectClip"]
 ms.assetid: 9aa49ff6-adce-4495-9af2-719ad029f751
 ms.date: 05/13/2019
 ms.keywords: Graphics::IntersectClip

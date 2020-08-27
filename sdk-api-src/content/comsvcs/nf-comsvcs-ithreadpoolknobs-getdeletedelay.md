@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetDeleteDelay
 title: IThreadPoolKnobs::GetDeleteDelay (comsvcs.h)
-description: Retrieves the number of milliseconds a pooled thread can idle before being destroyed.helpviewer_keywords: ["GetDeleteDelay","GetDeleteDelay method [COM+]","GetDeleteDelay method [COM+]","IThreadPoolKnobs interface","IThreadPoolKnobs interface [COM+]","GetDeleteDelay method","IThreadPoolKnobs.GetDeleteDelay","IThreadPoolKnobs::GetDeleteDelay","_cos_IThreadPoolKnobs_GetDeleteDelay","comsvcs/IThreadPoolKnobs::GetDeleteDelay","cos.ithreadpoolknobs_getdeletedelay"]
+description: Retrieves the number of milliseconds a pooled thread can idle before being destroyed.
+helpviewer_keywords: ["GetDeleteDelay","GetDeleteDelay method [COM+]","GetDeleteDelay method [COM+]","IThreadPoolKnobs interface","IThreadPoolKnobs interface [COM+]","GetDeleteDelay method","IThreadPoolKnobs.GetDeleteDelay","IThreadPoolKnobs::GetDeleteDelay","_cos_IThreadPoolKnobs_GetDeleteDelay","comsvcs/IThreadPoolKnobs::GetDeleteDelay","cos.ithreadpoolknobs_getdeletedelay"]
 old-location: cos\ithreadpoolknobs_getdeletedelay.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 93404c39-b4f8-4247-a437-fd373b0b68fe
 ms.date: 12/05/2018
 ms.keywords: GetDeleteDelay, GetDeleteDelay method [COM+], GetDeleteDelay method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetDeleteDelay method, IThreadPoolKnobs.GetDeleteDelay, IThreadPoolKnobs::GetDeleteDelay, _cos_IThreadPoolKnobs_GetDeleteDelay, comsvcs/IThreadPoolKnobs::GetDeleteDelay, cos.ithreadpoolknobs_getdeletedelay

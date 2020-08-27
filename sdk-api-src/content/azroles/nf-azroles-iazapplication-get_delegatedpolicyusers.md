@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication.get_DelegatedPolicyUsers
 title: IAzApplication::get_DelegatedPolicyUsers (azroles.h)
-description: Retrieves the security identifiers (SIDs), in text form, of principals that act as delegated policy users.helpviewer_keywords: ["AzApplication object [Security]","DelegatedPolicyUsers property","DelegatedPolicyUsers property [Security]","DelegatedPolicyUsers property [Security]","AzApplication object","DelegatedPolicyUsers property [Security]","IAzApplication interface","IAzApplication interface [Security]","DelegatedPolicyUsers property","IAzApplication.DelegatedPolicyUsers","IAzApplication.get_DelegatedPolicyUsers","IAzApplication::DelegatedPolicyUsers","IAzApplication::get_DelegatedPolicyUsers","azroles/IAzApplication::DelegatedPolicyUsers","azroles/IAzApplication::get_DelegatedPolicyUsers","get_DelegatedPolicyUsers","security.iazapplication_delegatedpolicyusers"]
+description: Retrieves the security identifiers (SIDs), in text form, of principals that act as delegated policy users.
+helpviewer_keywords: ["AzApplication object [Security]","DelegatedPolicyUsers property","DelegatedPolicyUsers property [Security]","DelegatedPolicyUsers property [Security]","AzApplication object","DelegatedPolicyUsers property [Security]","IAzApplication interface","IAzApplication interface [Security]","DelegatedPolicyUsers property","IAzApplication.DelegatedPolicyUsers","IAzApplication.get_DelegatedPolicyUsers","IAzApplication::DelegatedPolicyUsers","IAzApplication::get_DelegatedPolicyUsers","azroles/IAzApplication::DelegatedPolicyUsers","azroles/IAzApplication::get_DelegatedPolicyUsers","get_DelegatedPolicyUsers","security.iazapplication_delegatedpolicyusers"]
 old-location: security\iazapplication_delegatedpolicyusers.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: b20e1d5c-b07e-4f75-8b63-38036b07b24d
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzApplication object, DelegatedPolicyUsers property [Security],IAzApplication interface, IAzApplication interface [Security],DelegatedPolicyUsers property, IAzApplication.DelegatedPolicyUsers, IAzApplication.get_DelegatedPolicyUsers, IAzApplication::DelegatedPolicyUsers, IAzApplication::get_DelegatedPolicyUsers, azroles/IAzApplication::DelegatedPolicyUsers, azroles/IAzApplication::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.iazapplication_delegatedpolicyusers

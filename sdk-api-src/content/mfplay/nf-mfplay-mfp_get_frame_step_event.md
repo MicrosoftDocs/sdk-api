@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.MFP_GET_FRAME_STEP_EVENT
 title: MFP_GET_FRAME_STEP_EVENT macro (mfplay.h)
-description: Casts an MFP_EVENT_HEADER pointer to an MFP_FRAME_STEP_EVENT pointer.helpviewer_keywords: ["MFP_GET_FRAME_STEP_EVENT","MFP_GET_FRAME_STEP_EVENT macro [Media Foundation]","mf.mfp_get_frame_step_event","mfplay/MFP_GET_FRAME_STEP_EVENT"]
+description: Casts an MFP_EVENT_HEADER pointer to an MFP_FRAME_STEP_EVENT pointer.
+helpviewer_keywords: ["MFP_GET_FRAME_STEP_EVENT","MFP_GET_FRAME_STEP_EVENT macro [Media Foundation]","mf.mfp_get_frame_step_event","mfplay/MFP_GET_FRAME_STEP_EVENT"]
 old-location: mf\mfp_get_frame_step_event.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3ddb2d5e-d9ef-4bfd-892e-d59f430f818a
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_FRAME_STEP_EVENT, MFP_GET_FRAME_STEP_EVENT macro [Media Foundation], mf.mfp_get_frame_step_event, mfplay/MFP_GET_FRAME_STEP_EVENT

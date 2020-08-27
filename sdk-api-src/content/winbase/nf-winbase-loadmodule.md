@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.LoadModule
 title: LoadModule function (winbase.h)
-description: Loads and executes an application or creates a new instance of an existing application.helpviewer_keywords: ["LOADPARMS32","LoadModule","LoadModule function","_win32_loadmodule","base.loadmodule","winbase/LoadModule"]
+description: Loads and executes an application or creates a new instance of an existing application.
+helpviewer_keywords: ["LOADPARMS32","LoadModule","LoadModule function","_win32_loadmodule","base.loadmodule","winbase/LoadModule"]
 old-location: base\loadmodule.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: 80571b80-851a-4272-bfa6-d26e217e714a
 ms.date: 12/05/2018
 ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, base.loadmodule, winbase/LoadModule

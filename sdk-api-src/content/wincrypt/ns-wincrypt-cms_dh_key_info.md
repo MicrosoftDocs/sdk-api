@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CMS_DH_KEY_INFO
 title: CMS_DH_KEY_INFO (wincrypt.h)
-description: Used with the KP_CMS_DH_KEY_INFO parameter in the CryptSetKeyParam function to contain Diffie-Hellman key information.helpviewer_keywords: ["*PCMS_DH_KEY_INFO","CMS_DH_KEY_INFO","CMS_DH_KEY_INFO structure [Security]","PCMS_DH_KEY_INFO","PCMS_DH_KEY_INFO structure pointer [Security]","security.cms_dh_key_info","wincrypt/CMS_DH_KEY_INFO","wincrypt/PCMS_DH_KEY_INFO"]
+description: Used with the KP_CMS_DH_KEY_INFO parameter in the CryptSetKeyParam function to contain Diffie-Hellman key information.
+helpviewer_keywords: ["*PCMS_DH_KEY_INFO","CMS_DH_KEY_INFO","CMS_DH_KEY_INFO structure [Security]","PCMS_DH_KEY_INFO","PCMS_DH_KEY_INFO structure pointer [Security]","security.cms_dh_key_info","wincrypt/CMS_DH_KEY_INFO","wincrypt/PCMS_DH_KEY_INFO"]
 old-location: security\cms_dh_key_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ecfd8a63-95f9-4026-b31b-671ea58b683f
 ms.date: 12/05/2018
 ms.keywords: '*PCMS_DH_KEY_INFO, CMS_DH_KEY_INFO, CMS_DH_KEY_INFO structure [Security], PCMS_DH_KEY_INFO, PCMS_DH_KEY_INFO structure pointer [Security], security.cms_dh_key_info, wincrypt/CMS_DH_KEY_INFO, wincrypt/PCMS_DH_KEY_INFO'

@@ -1,7 +1,8 @@
 ---
 UID: NC:wingdi.MFENUMPROC
 title: MFENUMPROC (wingdi.h)
-description: The EnumMetaFileProc function is an application-defined callback function that processes Windows-format metafile records.helpviewer_keywords: ["MFENUMPROC","MFENUMPROC callback","MFENUMPROC callback function [Windows GDI]","_win32_EnumMetaFileProc","gdi.enummetafileproc","wingdi/MFENUMPROC"]
+description: The EnumMetaFileProc function is an application-defined callback function that processes Windows-format metafile records.
+helpviewer_keywords: ["MFENUMPROC","MFENUMPROC callback","MFENUMPROC callback function [Windows GDI]","_win32_EnumMetaFileProc","gdi.enummetafileproc","wingdi/MFENUMPROC"]
 old-location: gdi\enummetafileproc.htm
 tech.root: gdi
 ms.assetid: ebef5a3f-0dd7-49df-a07d-c55c5e8c868c
@@ -80,7 +81,7 @@ Specifies the number of objects with associated handles in the handle table.
 
 
 
-#### - hDC [in]
+### -param hDC [in]
 
 Handle to the device context passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IImageInformation.get_AltText
 title: IImageInformation::get_AltText (wuapi.h)
-description: Gets the alternate text for the image.helpviewer_keywords: ["AltText property [Windows Update Agent]","AltText property [Windows Update Agent]","IImageInformation interface","IImageInformation interface [Windows Update Agent]","AltText property","IImageInformation.AltText","IImageInformation.get_AltText","IImageInformation::AltText","IImageInformation::get_AltText","get_AltText","wua.iimageinformation_alttext","wuapi/IImageInformation::AltText","wuapi/IImageInformation::get_AltText"]
+description: Gets the alternate text for the image.
+helpviewer_keywords: ["AltText property [Windows Update Agent]","AltText property [Windows Update Agent]","IImageInformation interface","IImageInformation interface [Windows Update Agent]","AltText property","IImageInformation.AltText","IImageInformation.get_AltText","IImageInformation::AltText","IImageInformation::get_AltText","get_AltText","wua.iimageinformation_alttext","wuapi/IImageInformation::AltText","wuapi/IImageInformation::get_AltText"]
 old-location: wua\iimageinformation_alttext.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b64f1d4f-6f37-4728-b2e5-f9c408d9909e
 ms.date: 12/05/2018
 ms.keywords: AltText property [Windows Update Agent], AltText property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],AltText property, IImageInformation.AltText, IImageInformation.get_AltText, IImageInformation::AltText, IImageInformation::get_AltText, get_AltText, wua.iimageinformation_alttext, wuapi/IImageInformation::AltText, wuapi/IImageInformation::get_AltText

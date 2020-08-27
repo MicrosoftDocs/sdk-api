@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.DWriteCreateFactory
 title: DWriteCreateFactory function (dwrite.h)
-description: Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.helpviewer_keywords: ["DWriteCreateFactory","DWriteCreateFactory function [Direct Write]","directwrite.dwritecreatefactory","dwrite/DWriteCreateFactory"]
+description: Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.
+helpviewer_keywords: ["DWriteCreateFactory","DWriteCreateFactory function [Direct Write]","directwrite.dwritecreatefactory","dwrite/DWriteCreateFactory"]
 old-location: directwrite\dwritecreatefactory.htm
 tech.root: DirectWrite
 ms.assetid: c74c0906-0a5c-4ab8-87cf-a195566e1d9e

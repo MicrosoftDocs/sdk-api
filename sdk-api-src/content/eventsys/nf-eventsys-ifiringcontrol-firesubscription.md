@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IFiringControl.FireSubscription
 title: IFiringControl::FireSubscription (eventsys.h)
-description: Fires an event to a single subscriber.helpviewer_keywords: ["FireSubscription","FireSubscription method [COM+]","FireSubscription method [COM+]","IFiringControl interface","IFiringControl interface [COM+]","FireSubscription method","IFiringControl.FireSubscription","IFiringControl::FireSubscription","_cos_IFiringControl_FireSubscriptio","cos.ifiringcontrol_firesubscription","eventsys/IFiringControl::FireSubscription"]
+description: Fires an event to a single subscriber.
+helpviewer_keywords: ["FireSubscription","FireSubscription method [COM+]","FireSubscription method [COM+]","IFiringControl interface","IFiringControl interface [COM+]","FireSubscription method","IFiringControl.FireSubscription","IFiringControl::FireSubscription","_cos_IFiringControl_FireSubscriptio","cos.ifiringcontrol_firesubscription","eventsys/IFiringControl::FireSubscription"]
 old-location: cos\ifiringcontrol_firesubscription.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 64aaa99c-70e0-4a96-ab16-2f5b5666d1c4
 ms.date: 12/05/2018
 ms.keywords: FireSubscription, FireSubscription method [COM+], FireSubscription method [COM+],IFiringControl interface, IFiringControl interface [COM+],FireSubscription method, IFiringControl.FireSubscription, IFiringControl::FireSubscription, _cos_IFiringControl_FireSubscriptio, cos.ifiringcontrol_firesubscription, eventsys/IFiringControl::FireSubscription

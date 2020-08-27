@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspStatuses.Add
 title: ICspStatuses::Add (certenroll.h)
-description: Adds an ICspStatus object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICspStatuses interface","ICspStatuses interface [Security]","Add method","ICspStatuses.Add","ICspStatuses::Add","certenroll/ICspStatuses::Add","security.icspstatuses_add_method"]
+description: Adds an ICspStatus object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICspStatuses interface","ICspStatuses interface [Security]","Add method","ICspStatuses.Add","ICspStatuses::Add","certenroll/ICspStatuses::Add","security.icspstatuses_add_method"]
 old-location: security\icspstatuses_add_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: f8238071-f2e4-4533-b9bc-a86cea8086a5
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspStatuses interface, ICspStatuses interface [Security],Add method, ICspStatuses.Add, ICspStatuses::Add, certenroll/ICspStatuses::Add, security.icspstatuses_add_method

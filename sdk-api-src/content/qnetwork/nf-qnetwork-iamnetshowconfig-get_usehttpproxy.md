@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_UseHTTPProxy
 title: IAMNetShowConfig::get_UseHTTPProxy (qnetwork.h)
-description: The get_UseHTTPProxy method queries whether the filter should use the HTTP proxy server.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_UseHTTPProxy method","IAMNetShowConfig.get_UseHTTPProxy","IAMNetShowConfig::get_UseHTTPProxy","IAMNetShowConfigget_UseHTTPProxy","dshow.iamnetshowconfig_get_usehttpproxy","get_UseHTTPProxy","get_UseHTTPProxy method [DirectShow]","get_UseHTTPProxy method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_UseHTTPProxy"]
+description: The get_UseHTTPProxy method queries whether the filter should use the HTTP proxy server.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_UseHTTPProxy method","IAMNetShowConfig.get_UseHTTPProxy","IAMNetShowConfig::get_UseHTTPProxy","IAMNetShowConfigget_UseHTTPProxy","dshow.iamnetshowconfig_get_usehttpproxy","get_UseHTTPProxy","get_UseHTTPProxy method [DirectShow]","get_UseHTTPProxy method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_UseHTTPProxy"]
 old-location: dshow\iamnetshowconfig_get_usehttpproxy.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4d51676a-bf14-408c-bc8b-331ce11fc237
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_UseHTTPProxy method, IAMNetShowConfig.get_UseHTTPProxy, IAMNetShowConfig::get_UseHTTPProxy, IAMNetShowConfigget_UseHTTPProxy, dshow.iamnetshowconfig_get_usehttpproxy, get_UseHTTPProxy, get_UseHTTPProxy method [DirectShow], get_UseHTTPProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_UseHTTPProxy

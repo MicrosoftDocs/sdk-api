@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxShowCaret
 title: ITextHost::TxShowCaret (textserv.h)
-description: Shows or hides the caret at the caret position in the text host window.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxShowCaret method","ITextHost.TxShowCaret","ITextHost::TxShowCaret","TxShowCaret","TxShowCaret method [Windows Controls]","TxShowCaret method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxShowCaret","_win32_ITextHost_TxShowCaret_cpp","controls.ITextHost_TxShowCaret","controls._win32_ITextHost_TxShowCaret","textserv/ITextHost::TxShowCaret"]
+description: Shows or hides the caret at the caret position in the text host window.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxShowCaret method","ITextHost.TxShowCaret","ITextHost::TxShowCaret","TxShowCaret","TxShowCaret method [Windows Controls]","TxShowCaret method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxShowCaret","_win32_ITextHost_TxShowCaret_cpp","controls.ITextHost_TxShowCaret","controls._win32_ITextHost_TxShowCaret","textserv/ITextHost::TxShowCaret"]
 old-location: controls\ITextHost_TxShowCaret.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowcaret.htm

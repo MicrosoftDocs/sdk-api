@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Operation_GetInstance
 title: MI_Operation_GetInstance function (mi.h)
-description: Gets a synchronous result for an instance operation.helpviewer_keywords: ["MI_Operation_GetInstance","MI_Operation_GetInstance function [Windows Management Infrastructure (MI)]","mi/MI_Operation_GetInstance","wmi_v2.mi_operation_getinstance"]
+description: Gets a synchronous result for an instance operation.
+helpviewer_keywords: ["MI_Operation_GetInstance","MI_Operation_GetInstance function [Windows Management Infrastructure (MI)]","mi/MI_Operation_GetInstance","wmi_v2.mi_operation_getinstance"]
 old-location: wmi_v2\mi_operation_getinstance.htm
 tech.root: wmi_v2
 ms.assetid: 25c2d3fa-276d-4506-a044-4057c8cdc863

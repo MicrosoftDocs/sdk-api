@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceRelogger.Inject
 title: ITraceRelogger::Inject (relogger.h)
-description: Injects a non-system-generated event into the event stream being written to the output trace logfile.helpviewer_keywords: ["ITraceRelogger interface [ETW]","Inject method","ITraceRelogger.Inject","ITraceRelogger::Inject","Inject","Inject method [ETW]","Inject method [ETW]","ITraceRelogger interface","etw.itracerelogger_inject","relogger/ITraceRelogger::Inject"]
+description: Injects a non-system-generated event into the event stream being written to the output trace logfile.
+helpviewer_keywords: ["ITraceRelogger interface [ETW]","Inject method","ITraceRelogger.Inject","ITraceRelogger::Inject","Inject","Inject method [ETW]","Inject method [ETW]","ITraceRelogger interface","etw.itracerelogger_inject","relogger/ITraceRelogger::Inject"]
 old-location: etw\itracerelogger_inject.htm
 tech.root: ETW
 ms.assetid: c9d19ad9-182d-469e-b783-2061b7150933

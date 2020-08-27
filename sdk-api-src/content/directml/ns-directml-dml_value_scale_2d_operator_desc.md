@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_VALUE_SCALE_2D_OPERATOR_DESC
 title: DML_VALUE_SCALE_2D_OPERATOR_DESC
-description: Describes a DirectML operator that performs an element-wise scale-and-bias function on the values in the input tensor.helpviewer_keywords: ["DML_VALUE_SCALE_2D_OPERATOR_DESC","DML_VALUE_SCALE_2D_OPERATOR_DESC structure","direct3d12.dml_value_scale_2d_operator_desc","directml/DML_VALUE_SCALE_2D_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs an element-wise scale-and-bias function on the values in the input tensor.
+helpviewer_keywords: ["DML_VALUE_SCALE_2D_OPERATOR_DESC","DML_VALUE_SCALE_2D_OPERATOR_DESC structure","direct3d12.dml_value_scale_2d_operator_desc","directml/DML_VALUE_SCALE_2D_OPERATOR_DESC"]
 old-location: direct3d12\dml_value_scale_2d_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 205124C7-9296-4D13-9EC9-55B03D4E0595
 ms.date: 12/5/2018
 ms.keywords: DML_VALUE_SCALE_2D_OPERATOR_DESC, DML_VALUE_SCALE_2D_OPERATOR_DESC structure, direct3d12.dml_value_scale_2d_operator_desc, directml/DML_VALUE_SCALE_2D_OPERATOR_DESC

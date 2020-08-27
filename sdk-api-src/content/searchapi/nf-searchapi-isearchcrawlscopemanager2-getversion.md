@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager2.GetVersion
 title: ISearchCrawlScopeManager2::GetVersion (searchapi.h)
-description: Causes file mapping to be mapped into the address space of the calling process, and informs clients if the state of the Crawl Scope Manager (CSM) has changed.helpviewer_keywords: ["GetVersion","GetVersion method [search]","GetVersion method [search]","ISearchCrawlScopeManager2 interface","ISearchCrawlScopeManager2 interface [search]","GetVersion method","ISearchCrawlScopeManager2.GetVersion","ISearchCrawlScopeManager2::GetVersion","_search_ISearchCrawlScopeManager2_GetVersion","search._search_ISearchCrawlScopeManager2_GetVersion","searchapi/ISearchCrawlScopeManager2::GetVersion"]
+description: Causes file mapping to be mapped into the address space of the calling process, and informs clients if the state of the Crawl Scope Manager (CSM) has changed.
+helpviewer_keywords: ["GetVersion","GetVersion method [search]","GetVersion method [search]","ISearchCrawlScopeManager2 interface","ISearchCrawlScopeManager2 interface [search]","GetVersion method","ISearchCrawlScopeManager2.GetVersion","ISearchCrawlScopeManager2::GetVersion","_search_ISearchCrawlScopeManager2_GetVersion","search._search_ISearchCrawlScopeManager2_GetVersion","searchapi/ISearchCrawlScopeManager2::GetVersion"]
 old-location: search\_search_ISearchCrawlScopeManager2_GetVersion.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\getversion.htm
@@ -96,7 +97,4 @@ The version number that is retrieved is always current, and changes as the state
 </ul>
 The client must perform these steps when finished using the memory mapped file, to prevent memory leaks.
 
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_Size
 title: IFaxJobStatus::get_Size (faxcomex.h)
-description: The Size property is a value that indicates the number of bytes of the Tagged Image File Format Class F (TIFF Class F) file received so far for the fax job.helpviewer_keywords: ["IFaxJobStatus interface [Fax Service]","Size property","IFaxJobStatus.Size","IFaxJobStatus.get_Size","IFaxJobStatus::Size","IFaxJobStatus::get_Size","Size property [Fax Service]","Size property [Fax Service]","IFaxJobStatus interface","_mfax_faxjobstatus.size","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp","fax._mfax_faxjobstatus_size","faxcomex/IFaxJobStatus::Size","faxcomex/IFaxJobStatus::get_Size","get_Size"]
+description: The Size property is a value that indicates the number of bytes of the Tagged Image File Format Class F (TIFF Class F) file received so far for the fax job.
+helpviewer_keywords: ["IFaxJobStatus interface [Fax Service]","Size property","IFaxJobStatus.Size","IFaxJobStatus.get_Size","IFaxJobStatus::Size","IFaxJobStatus::get_Size","Size property [Fax Service]","Size property [Fax Service]","IFaxJobStatus interface","_mfax_faxjobstatus.size","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp","fax._mfax_faxjobstatus_size","faxcomex/IFaxJobStatus::Size","faxcomex/IFaxJobStatus::get_Size","get_Size"]
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4ew5.htm

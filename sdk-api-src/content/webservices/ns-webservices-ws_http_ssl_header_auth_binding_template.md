@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE
 title: WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE (webservices.h)
-description: Username/password security template information to be filled in by application. Associated with WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE_TYPE.helpviewer_keywords: ["WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE","WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE","wsw.ws_http_ssl_header_auth_binding_template"]
+description: Username/password security template information to be filled in by application. Associated with WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE_TYPE.
+helpviewer_keywords: ["WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE","WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE","wsw.ws_http_ssl_header_auth_binding_template"]
 old-location: wsw\ws_http_ssl_header_auth_binding_template.htm
 tech.root: wsw
 ms.assetid: d0d21156-7059-4053-bffd-3163ac559dbd

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl._TBBUTTON
 title: TBBUTTON (commctrl.h)
-description: Contains information about a button in a toolbar.helpviewer_keywords: ["*LPTBBUTTON","*PTBBUTTON","LPTBBUTTON","LPTBBUTTON structure pointer [Windows Controls]","PTBBUTTON","PTBBUTTON structure pointer [Windows Controls]","TBBUTTON","TBBUTTON structure [Windows Controls]","_win32_TBBUTTON","_win32_TBBUTTON_cpp","commctrl/LPTBBUTTON","commctrl/PTBBUTTON","commctrl/TBBUTTON","controls.TBBUTTON","controls._win32_TBBUTTON"]
+description: Contains information about a button in a toolbar.
+helpviewer_keywords: ["*LPTBBUTTON","*PTBBUTTON","LPTBBUTTON","LPTBBUTTON structure pointer [Windows Controls]","PTBBUTTON","PTBBUTTON structure pointer [Windows Controls]","TBBUTTON","TBBUTTON structure [Windows Controls]","_win32_TBBUTTON","_win32_TBBUTTON_cpp","commctrl/LPTBBUTTON","commctrl/PTBBUTTON","commctrl/TBBUTTON","controls.TBBUTTON","controls._win32_TBBUTTON"]
 old-location: controls\TBBUTTON.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbutton.htm
@@ -90,9 +91,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Button style. This member can be a combination of the button style values listed in <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-control-and-button-styles">Toolbar Control and Button Styles</a>. 
 
 
-### -field bReserved
-
- 
 
 
 ### -field dwData
@@ -109,14 +107,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Zero-based index of the button string, or a pointer to a string buffer that contains text for the button. 
 
 
-#### - bReserved[2]
+### -field bReserved [2]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Reserved. 
 
 
-#### - bReserved[6]
+### -field bReserved [6]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 

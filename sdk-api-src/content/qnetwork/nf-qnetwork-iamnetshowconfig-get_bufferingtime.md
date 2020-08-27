@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_BufferingTime
 title: IAMNetShowConfig::get_BufferingTime (qnetwork.h)
-description: The get_BufferingTime method retrieves the buffering time.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_BufferingTime method","IAMNetShowConfig.get_BufferingTime","IAMNetShowConfig::get_BufferingTime","IAMNetShowConfigget_BufferingTime","dshow.iamnetshowconfig_get_bufferingtime","get_BufferingTime","get_BufferingTime method [DirectShow]","get_BufferingTime method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_BufferingTime"]
+description: The get_BufferingTime method retrieves the buffering time.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_BufferingTime method","IAMNetShowConfig.get_BufferingTime","IAMNetShowConfig::get_BufferingTime","IAMNetShowConfigget_BufferingTime","dshow.iamnetshowconfig_get_bufferingtime","get_BufferingTime","get_BufferingTime method [DirectShow]","get_BufferingTime method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_BufferingTime"]
 old-location: dshow\iamnetshowconfig_get_bufferingtime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8594f8dd-9545-4e6d-b1d7-9a278dcb4129
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_BufferingTime method, IAMNetShowConfig.get_BufferingTime, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_BufferingTime

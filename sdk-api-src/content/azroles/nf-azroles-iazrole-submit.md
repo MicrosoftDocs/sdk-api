@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzRole.Submit
 title: IAzRole::Submit (azroles.h)
-description: Persists changes made to the IAzRole object.helpviewer_keywords: ["AzRole object [Security]","Submit method","IAzRole interface [Security]","Submit method","IAzRole.Submit","IAzRole::Submit","Submit","Submit method [Security]","Submit method [Security]","AzRole object","Submit method [Security]","IAzRole interface","azroles/IAzRole::Submit","security.iazrole_submit"]
+description: Persists changes made to the IAzRole object.
+helpviewer_keywords: ["AzRole object [Security]","Submit method","IAzRole interface [Security]","Submit method","IAzRole.Submit","IAzRole::Submit","Submit","Submit method [Security]","Submit method [Security]","AzRole object","Submit method [Security]","IAzRole interface","azroles/IAzRole::Submit","security.iazrole_submit"]
 old-location: security\iazrole_submit.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 97f2018a-92f0-4ebb-85f1-78c140003d8f
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Submit method, IAzRole interface [Security],Submit method, IAzRole.Submit, IAzRole::Submit, Submit, Submit method [Security], Submit method [Security],AzRole object, Submit method [Security],IAzRole interface, azroles/IAzRole::Submit, security.iazrole_submit

@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.NetTransportArrived
 title: IOfflineFilesEvents::NetTransportArrived (cscobj.h)
-description: Reports that the Offline Files feature has detected the arrival of a network transport.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","NetTransportArrived method","IOfflineFilesEvents.NetTransportArrived","IOfflineFilesEvents::NetTransportArrived","NetTransportArrived","NetTransportArrived method [Offline Files]","NetTransportArrived method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::NetTransportArrived","of.iofflinefilesevents_nettransportarrived"]
+description: Reports that the Offline Files feature has detected the arrival of a network transport.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","NetTransportArrived method","IOfflineFilesEvents.NetTransportArrived","IOfflineFilesEvents::NetTransportArrived","NetTransportArrived","NetTransportArrived method [Offline Files]","NetTransportArrived method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::NetTransportArrived","of.iofflinefilesevents_nettransportarrived"]
 old-location: of\iofflinefilesevents_nettransportarrived.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: ac44010b-b14f-41d7-89f7-6f7822ed2a5d
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived

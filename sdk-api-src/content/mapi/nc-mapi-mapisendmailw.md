@@ -1,9 +1,10 @@
 ---
 UID: NC:mapi.MAPISENDMAILW
 title: MAPISENDMAILW (mapi.h)
-description: Sends a Unicode message. This function replaces the ANSI function MAPISendMail.helpviewer_keywords: ["MAPISendMailW","MAPISendMailW callback","MAPISendMailW callback function","MAPI_DIALOG","MAPI_DIALOG_MODELESS","MAPI_FORCE_UNICODE","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapisendmailw","mapi/MAPISendMailW"]
+description: Sends a Unicode message. This function replaces the ANSI function MAPISendMail.
+helpviewer_keywords: ["MAPISendMailW","MAPISendMailW callback","MAPISendMailW callback function","MAPI_DIALOG","MAPI_DIALOG_MODELESS","MAPI_FORCE_UNICODE","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapisendmailw","mapi/MAPISendMailW"]
 old-location: mapi\mapisendmailw.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailW, MAPISendMailW callback, MAPISendMailW callback function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailw, mapi/MAPISendMailW

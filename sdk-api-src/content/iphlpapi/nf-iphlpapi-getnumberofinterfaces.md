@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetNumberOfInterfaces
 title: GetNumberOfInterfaces function (iphlpapi.h)
-description: The GetNumberOfInterfaces functions retrieves the number of interfaces on the local computer.helpviewer_keywords: ["GetNumberOfInterfaces","GetNumberOfInterfaces function [IP Helper]","_iphlp_getnumberofinterfaces","iphlp.getnumberofinterfaces","iphlpapi/GetNumberOfInterfaces"]
+description: The GetNumberOfInterfaces functions retrieves the number of interfaces on the local computer.
+helpviewer_keywords: ["GetNumberOfInterfaces","GetNumberOfInterfaces function [IP Helper]","_iphlp_getnumberofinterfaces","iphlp.getnumberofinterfaces","iphlpapi/GetNumberOfInterfaces"]
 old-location: iphlp\getnumberofinterfaces.htm
 tech.root: IpHlp
 ms.assetid: 655d63eb-455a-4a5e-97e2-7b7588eee4d9

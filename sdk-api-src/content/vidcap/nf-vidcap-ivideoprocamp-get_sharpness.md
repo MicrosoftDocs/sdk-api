@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Sharpness
 title: IVideoProcAmp::get_Sharpness (vidcap.h)
-description: The get_Sharpness method returns the camera's sharpness setting.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_Sharpness method","IVideoProcAmp.get_Sharpness","IVideoProcAmp::get_Sharpness","IVideoProcAmpget_Sharpness","dshow.ivideoprocamp_get_sharpness","get_Sharpness","get_Sharpness method [DirectShow]","get_Sharpness method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_Sharpness"]
+description: The get_Sharpness method returns the camera's sharpness setting.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_Sharpness method","IVideoProcAmp.get_Sharpness","IVideoProcAmp::get_Sharpness","IVideoProcAmpget_Sharpness","dshow.ivideoprocamp_get_sharpness","get_Sharpness","get_Sharpness method [DirectShow]","get_Sharpness method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_Sharpness"]
 old-location: dshow\ivideoprocamp_get_sharpness.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 12cb9934-4cef-4356-9b59-6b4e6caca573
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Sharpness method, IVideoProcAmp.get_Sharpness, IVideoProcAmp::get_Sharpness, IVideoProcAmpget_Sharpness, dshow.ivideoprocamp_get_sharpness, get_Sharpness, get_Sharpness method [DirectShow], get_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Sharpness

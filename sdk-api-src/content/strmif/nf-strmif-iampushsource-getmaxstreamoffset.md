@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMPushSource.GetMaxStreamOffset
 title: IAMPushSource::GetMaxStreamOffset (strmif.h)
-description: The GetMaxStreamOffset method retrieves the maximum stream offset the filter can support.helpviewer_keywords: ["GetMaxStreamOffset","GetMaxStreamOffset method [DirectShow]","GetMaxStreamOffset method [DirectShow]","IAMPushSource interface","IAMPushSource interface [DirectShow]","GetMaxStreamOffset method","IAMPushSource.GetMaxStreamOffset","IAMPushSource::GetMaxStreamOffset","IAMPushSourceGetMaxStreamOffset","dshow.iampushsource_getmaxstreamoffset","strmif/IAMPushSource::GetMaxStreamOffset"]
+description: The GetMaxStreamOffset method retrieves the maximum stream offset the filter can support.
+helpviewer_keywords: ["GetMaxStreamOffset","GetMaxStreamOffset method [DirectShow]","GetMaxStreamOffset method [DirectShow]","IAMPushSource interface","IAMPushSource interface [DirectShow]","GetMaxStreamOffset method","IAMPushSource.GetMaxStreamOffset","IAMPushSource::GetMaxStreamOffset","IAMPushSourceGetMaxStreamOffset","dshow.iampushsource_getmaxstreamoffset","strmif/IAMPushSource::GetMaxStreamOffset"]
 old-location: dshow\iampushsource_getmaxstreamoffset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 503ec642-0a86-47b9-b453-08ab90346630
 ms.date: 12/05/2018
 ms.keywords: GetMaxStreamOffset, GetMaxStreamOffset method [DirectShow], GetMaxStreamOffset method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetMaxStreamOffset method, IAMPushSource.GetMaxStreamOffset, IAMPushSource::GetMaxStreamOffset, IAMPushSourceGetMaxStreamOffset, dshow.iampushsource_getmaxstreamoffset, strmif/IAMPushSource::GetMaxStreamOffset

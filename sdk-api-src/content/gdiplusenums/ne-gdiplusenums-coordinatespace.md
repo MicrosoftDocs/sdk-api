@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.CoordinateSpace
 title: CoordinateSpace (gdiplusenums.h)
-description: The CoordinateSpace enumeration specifies coordinate spaces.helpviewer_keywords: ["CoordinateSpace","CoordinateSpace enumeration [GDI+]","CoordinateSpaceDevice","CoordinateSpacePage","CoordinateSpaceWorld","_gdiplus_ENUM_CoordinateSpace","gdiplus._gdiplus_ENUM_CoordinateSpace","gdiplusenums/CoordinateSpace","gdiplusenums/CoordinateSpaceDevice","gdiplusenums/CoordinateSpacePage","gdiplusenums/CoordinateSpaceWorld"]
+description: The CoordinateSpace enumeration specifies coordinate spaces.
+helpviewer_keywords: ["CoordinateSpace","CoordinateSpace enumeration [GDI+]","CoordinateSpaceDevice","CoordinateSpacePage","CoordinateSpaceWorld","_gdiplus_ENUM_CoordinateSpace","gdiplus._gdiplus_ENUM_CoordinateSpace","gdiplusenums/CoordinateSpace","gdiplusenums/CoordinateSpaceDevice","gdiplusenums/CoordinateSpacePage","gdiplusenums/CoordinateSpaceWorld"]
 old-location: gdiplus\_gdiplus_ENUM_CoordinateSpace.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coordinatespace.htm

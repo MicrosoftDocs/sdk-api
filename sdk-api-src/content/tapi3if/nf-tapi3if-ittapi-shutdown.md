@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITTAPI.Shutdown
 title: ITTAPI::Shutdown (tapi3if.h)
-description: The Shutdown method shuts down a TAPI session.helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","Shutdown method","ITTAPI.Shutdown","ITTAPI::Shutdown","Shutdown","Shutdown method [TAPI 2.2]","Shutdown method [TAPI 2.2]","ITTAPI interface","_tapi3_ittapi_shutdown","tapi3.ittapi_shutdown","tapi3if/ITTAPI::Shutdown"]
+description: The Shutdown method shuts down a TAPI session.
+helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","Shutdown method","ITTAPI.Shutdown","ITTAPI::Shutdown","Shutdown","Shutdown method [TAPI 2.2]","Shutdown method [TAPI 2.2]","ITTAPI interface","_tapi3_ittapi_shutdown","tapi3.ittapi_shutdown","tapi3if/ITTAPI::Shutdown"]
 old-location: tapi3\ittapi_shutdown.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 64abb427-d41a-4670-a01c-095c678de6ff
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Shutdown method, ITTAPI.Shutdown, ITTAPI::Shutdown, Shutdown, Shutdown method [TAPI 2.2], Shutdown method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_shutdown, tapi3.ittapi_shutdown, tapi3if/ITTAPI::Shutdown

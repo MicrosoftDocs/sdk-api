@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupOpenFileQueue
 title: SetupOpenFileQueue function (setupapi.h)
-description: The SetupOpenFileQueue function creates a setup file queue.helpviewer_keywords: ["SetupOpenFileQueue","SetupOpenFileQueue function [Setup API]","_setupapi_setupopenfilequeue","setup.setupopenfilequeue","setupapi/SetupOpenFileQueue"]
+description: The SetupOpenFileQueue function creates a setup file queue.
+helpviewer_keywords: ["SetupOpenFileQueue","SetupOpenFileQueue function [Setup API]","_setupapi_setupopenfilequeue","setup.setupopenfilequeue","setupapi/SetupOpenFileQueue"]
 old-location: setup\setupopenfilequeue.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 36950f18-80ae-46b7-9f9f-bd5307d72a3b
 ms.date: 12/05/2018
 ms.keywords: SetupOpenFileQueue, SetupOpenFileQueue function [Setup API], _setupapi_setupopenfilequeue, setup.setupopenfilequeue, setupapi/SetupOpenFileQueue

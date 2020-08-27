@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PanTilt
 title: ICameraControl::put_PanTilt (vidcap.h)
-description: The put_PanTilt method sets the camera's pan and tilt angles.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_PanTilt method","ICameraControl.put_PanTilt","ICameraControl::put_PanTilt","ICameraControlput_PanTilt","dshow.icameracontrol_put_pantilt","put_PanTilt","put_PanTilt method [DirectShow]","put_PanTilt method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_PanTilt"]
+description: The put_PanTilt method sets the camera's pan and tilt angles.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_PanTilt method","ICameraControl.put_PanTilt","ICameraControl::put_PanTilt","ICameraControlput_PanTilt","dshow.icameracontrol_put_pantilt","put_PanTilt","put_PanTilt method [DirectShow]","put_PanTilt method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_PanTilt"]
 old-location: dshow\icameracontrol_put_pantilt.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d9aa052a-72f9-4a17-bebe-809f43264481
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanTilt method, ICameraControl.put_PanTilt, ICameraControl::put_PanTilt, ICameraControlput_PanTilt, dshow.icameracontrol_put_pantilt, put_PanTilt, put_PanTilt method [DirectShow], put_PanTilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanTilt

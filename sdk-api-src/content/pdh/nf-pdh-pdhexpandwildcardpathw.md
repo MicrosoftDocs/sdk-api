@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathW
 title: PdhExpandWildCardPathW function (pdh.h)
-description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function.helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPath","PdhExpandWildCardPath function [Perf]","PdhExpandWildCardPathA","PdhExpandWildCardPathW","_win32_pdhexpandwildcardpath","base.pdhexpandwildcardpath","pdh/PdhExpandWildCardPath","pdh/PdhExpandWildCardPathA","pdh/PdhExpandWildCardPathW","perf.pdhexpandwildcardpath"]
+description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function.
+helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPath","PdhExpandWildCardPath function [Perf]","PdhExpandWildCardPathA","PdhExpandWildCardPathW","_win32_pdhexpandwildcardpath","base.pdhexpandwildcardpath","pdh/PdhExpandWildCardPath","pdh/PdhExpandWildCardPathA","pdh/PdhExpandWildCardPathW","perf.pdhexpandwildcardpath"]
 old-location: perf\pdhexpandwildcardpath.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 415da310-de56-4d58-8959-231426867526
 ms.date: 12/05/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPath, PdhExpandWildCardPath function [Perf], PdhExpandWildCardPathA, PdhExpandWildCardPathW, _win32_pdhexpandwildcardpath, base.pdhexpandwildcardpath, pdh/PdhExpandWildCardPath, pdh/PdhExpandWildCardPathA, pdh/PdhExpandWildCardPathW, perf.pdhexpandwildcardpath
@@ -248,6 +249,10 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhExpandWildCardPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

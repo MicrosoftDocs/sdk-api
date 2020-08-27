@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandler
 title: IPreviewHandler (shobjidl_core.h)
-description: Exposes methods for the display of rich previews.helpviewer_keywords: ["IPreviewHandler","IPreviewHandler interface [Windows Shell]","IPreviewHandler interface [Windows Shell]","described","_shell_IPreviewHandler","shell.IPreviewHandler","shobjidl_core/IPreviewHandler"]
+description: Exposes methods for the display of rich previews.
+helpviewer_keywords: ["IPreviewHandler","IPreviewHandler interface [Windows Shell]","IPreviewHandler interface [Windows Shell]","described","_shell_IPreviewHandler","shell.IPreviewHandler","shobjidl_core/IPreviewHandler"]
 old-location: shell\IPreviewHandler.htm
 tech.root: shell
 ms.assetid: a4e6507c-10b1-4c21-9359-92ba635a2a2c

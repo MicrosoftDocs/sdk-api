@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_PlaybackSpeed
 title: IAMExtendedSeeking::get_PlaybackSpeed (qnetwork.h)
-description: The get_PlaybackSpeed method retrieves the playback speed.helpviewer_keywords: ["IAMExtendedSeeking interface [DirectShow]","get_PlaybackSpeed method","IAMExtendedSeeking.get_PlaybackSpeed","IAMExtendedSeeking::get_PlaybackSpeed","IAMExtendedSeekingget_PlaybackSpeed","dshow.iamextendedseeking_get_playbackspeed","get_PlaybackSpeed","get_PlaybackSpeed method [DirectShow]","get_PlaybackSpeed method [DirectShow]","IAMExtendedSeeking interface","qnetwork/IAMExtendedSeeking::get_PlaybackSpeed"]
+description: The get_PlaybackSpeed method retrieves the playback speed.
+helpviewer_keywords: ["IAMExtendedSeeking interface [DirectShow]","get_PlaybackSpeed method","IAMExtendedSeeking.get_PlaybackSpeed","IAMExtendedSeeking::get_PlaybackSpeed","IAMExtendedSeekingget_PlaybackSpeed","dshow.iamextendedseeking_get_playbackspeed","get_PlaybackSpeed","get_PlaybackSpeed method [DirectShow]","get_PlaybackSpeed method [DirectShow]","IAMExtendedSeeking interface","qnetwork/IAMExtendedSeeking::get_PlaybackSpeed"]
 old-location: dshow\iamextendedseeking_get_playbackspeed.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a92309fb-185a-4d6c-81c2-9613634c7170
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_PlaybackSpeed method, IAMExtendedSeeking.get_PlaybackSpeed, IAMExtendedSeeking::get_PlaybackSpeed, IAMExtendedSeekingget_PlaybackSpeed, dshow.iamextendedseeking_get_playbackspeed, get_PlaybackSpeed, get_PlaybackSpeed method [DirectShow], get_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_PlaybackSpeed

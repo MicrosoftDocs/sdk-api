@@ -1,9 +1,10 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
 title: IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx (vsmgmt.h)
-description: Updates the shadow copy storage area maximum size for a certain volume. This may not have an immediate effect. If the bVolatile parameter is FALSE, the change continues even if the computer is rebooted.helpviewer_keywords: ["ChangeDiffAreaMaximumSizeEx","ChangeDiffAreaMaximumSizeEx method","ChangeDiffAreaMaximumSizeEx method","IVssDifferentialSoftwareSnapshotMgmt2 interface","IVssDifferentialSoftwareSnapshotMgmt2 interface","ChangeDiffAreaMaximumSizeEx method","IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx","IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx","base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx"]
+description: Updates the shadow copy storage area maximum size for a certain volume. This may not have an immediate effect. If the bVolatile parameter is FALSE, the change continues even if the computer is rebooted.
+helpviewer_keywords: ["ChangeDiffAreaMaximumSizeEx","ChangeDiffAreaMaximumSizeEx method","ChangeDiffAreaMaximumSizeEx method","IVssDifferentialSoftwareSnapshotMgmt2 interface","IVssDifferentialSoftwareSnapshotMgmt2 interface","ChangeDiffAreaMaximumSizeEx method","IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx","IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx","base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9ba621d5-32ec-4512-a18f-dbdadbd3ff09
 ms.date: 12/05/2018
 ms.keywords: ChangeDiffAreaMaximumSizeEx, ChangeDiffAreaMaximumSizeEx method, ChangeDiffAreaMaximumSizeEx method,IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,ChangeDiffAreaMaximumSizeEx method, IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx, IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx, base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509ExtensionSubjectKeyIdentifier.InitializeEncode
 title: IX509ExtensionSubjectKeyIdentifier::InitializeEncode (certenroll.h)
-description: Initializes the extension from a byte array that contains the key identifier.helpviewer_keywords: ["IX509ExtensionSubjectKeyIdentifier interface [Security]","InitializeEncode method","IX509ExtensionSubjectKeyIdentifier.InitializeEncode","IX509ExtensionSubjectKeyIdentifier::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionSubjectKeyIdentifier interface","certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode","security.ix509extensionsubjectkeyidentifier_initializeencode_method"]
+description: Initializes the extension from a byte array that contains the key identifier.
+helpviewer_keywords: ["IX509ExtensionSubjectKeyIdentifier interface [Security]","InitializeEncode method","IX509ExtensionSubjectKeyIdentifier.InitializeEncode","IX509ExtensionSubjectKeyIdentifier::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509ExtensionSubjectKeyIdentifier interface","certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode","security.ix509extensionsubjectkeyidentifier_initializeencode_method"]
 old-location: security\ix509extensionsubjectkeyidentifier_initializeencode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0faf3567-3908-473e-9f5c-392991ea668c
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeEncode method, IX509ExtensionSubjectKeyIdentifier.InitializeEncode, IX509ExtensionSubjectKeyIdentifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode, security.ix509extensionsubjectkeyidentifier_initializeencode_method

@@ -1,9 +1,10 @@
 ---
 UID: NS:vds._VDS_PARTITION_PROP
 title: VDS_PARTITION_PROP (vds.h)
-description: Defines the properties of a partition.helpviewer_keywords: ["VDS_PARTITION_PROP","VDS_PARTITION_PROP structure [VDS]","base.vds_partition_prop","vds/_VDS_PARTITION_PROP"]
+description: Defines the properties of a partition.
+helpviewer_keywords: ["VDS_PARTITION_PROP","VDS_PARTITION_PROP structure [VDS]","base.vds_partition_prop","vds/_VDS_PARTITION_PROP"]
 old-location: base\vds_partition_prop.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], base.vds_partition_prop, vds/_VDS_PARTITION_PROP

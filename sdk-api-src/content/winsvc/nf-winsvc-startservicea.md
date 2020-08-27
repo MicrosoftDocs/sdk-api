@@ -1,9 +1,10 @@
 ---
 UID: NF:winsvc.StartServiceA
 title: StartServiceA function (winsvc.h)
-description: Starts a service.helpviewer_keywords: ["StartService","StartService function","StartServiceA","StartServiceW","_win32_startservice","base.startservice","winsvc/StartService","winsvc/StartServiceA","winsvc/StartServiceW"]
+description: Starts a service.
+helpviewer_keywords: ["StartService","StartService function","StartServiceA","StartServiceW","_win32_startservice","base.startservice","winsvc/StartService","winsvc/StartServiceA","winsvc/StartServiceW"]
 old-location: base\startservice.htm
-tech.root: Services
+tech.root: security
 ms.assetid: f185a878-e1c3-4fe5-8ec9-c5296d27f985
 ms.date: 12/05/2018
 ms.keywords: StartService, StartService function, StartServiceA, StartServiceW, _win32_startservice, base.startservice, winsvc/StartService, winsvc/StartServiceA, winsvc/StartServiceW
@@ -279,6 +280,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines StartService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

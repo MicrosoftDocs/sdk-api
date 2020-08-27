@@ -4,7 +4,7 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE (wincrypt.h)
 description: Initializes the provider.
 helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security]","security.pfn_crypt_object_locator_provider_initialize","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE"]
 old-location: security\pfn_crypt_object_locator_provider_initialize.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
@@ -83,7 +83,7 @@ A <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider
 Pointer to an optional buffer defined by this provider. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information. This value may be set to <b>NULL</b>.
 
 
-#### - ppPluginContext [out]
+### -param ppPluginContext [out]
 
 Pointer to an optional buffer defined by this provider. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information. This value may be set to <b>NULL</b>.
 

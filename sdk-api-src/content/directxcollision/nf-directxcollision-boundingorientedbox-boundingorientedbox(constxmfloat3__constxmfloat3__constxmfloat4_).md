@@ -1,7 +1,8 @@
 ---
-UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
+UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(constXMFLOAT3&,constXMFLOAT3&,constXMFLOAT4&)
 title: BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
-description: Creates an instance of BoundingOrientedBox.helpviewer_keywords: ["BoundingOrientedBox","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox interface","BoundingOrientedBox interface [DirectX Math Support APIs]","BoundingOrientedBox constructor","BoundingOrientedBox.BoundingOrientedBox","BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &","const XMFLOAT3 &","const XMFLOAT4 &)","BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3&","const XMFLOAT3&","const XMFLOAT4&)","BoundingOrientedBox::BoundingOrientedBox","BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &","const XMFLOAT3 &","const XMFLOAT4 &)","dxmath.boundingorientedbox_ctor_1"]
+description: Creates an instance of BoundingOrientedBox.
+helpviewer_keywords: ["BoundingOrientedBox","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox interface","BoundingOrientedBox interface [DirectX Math Support APIs]","BoundingOrientedBox constructor","BoundingOrientedBox.BoundingOrientedBox","BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &","const XMFLOAT3 &","const XMFLOAT4 &)","BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3&","const XMFLOAT3&","const XMFLOAT4&)","BoundingOrientedBox::BoundingOrientedBox","BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &","const XMFLOAT3 &","const XMFLOAT4 &)","dxmath.boundingorientedbox_ctor_1"]
 old-location: dxmath\boundingorientedbox_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor(XMFLOAT3,XMFLOAT3,XMFLOAT4)

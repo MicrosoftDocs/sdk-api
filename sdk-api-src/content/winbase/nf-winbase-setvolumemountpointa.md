@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetVolumeMountPointA
 title: SetVolumeMountPointA function (winbase.h)
-description: Associates a volume with a drive letter or a directory on another volume.helpviewer_keywords: ["SetVolumeMountPoint","SetVolumeMountPoint function [Files]","SetVolumeMountPointA","SetVolumeMountPointW","_win32_setvolumemountpoint","base.setvolumemountpoint","fs.setvolumemountpoint","winbase/SetVolumeMountPoint","winbase/SetVolumeMountPointA","winbase/SetVolumeMountPointW"]
+description: Associates a volume with a drive letter or a directory on another volume.
+helpviewer_keywords: ["SetVolumeMountPoint","SetVolumeMountPoint function [Files]","SetVolumeMountPointA","SetVolumeMountPointW","_win32_setvolumemountpoint","base.setvolumemountpoint","fs.setvolumemountpoint","winbase/SetVolumeMountPoint","winbase/SetVolumeMountPointA","winbase/SetVolumeMountPointW"]
 old-location: fs\setvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
 ms.date: 12/05/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
@@ -179,6 +180,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines SetVolumeMountPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

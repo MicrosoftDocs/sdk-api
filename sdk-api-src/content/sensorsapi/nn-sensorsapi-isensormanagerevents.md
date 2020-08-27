@@ -1,9 +1,10 @@
 ---
 UID: NN:sensorsapi.ISensorManagerEvents
 title: ISensorManagerEvents (sensorsapi.h)
-description: The callback interface for receiving sensor manager events.helpviewer_keywords: ["ISensorManagerEvents","ISensorManagerEvents interface [WinSensors]","ISensorManagerEvents interface [WinSensors]","described","sensorsapi/ISensorManagerEvents","winsensors.isensormanagerevents"]
+description: The callback interface for receiving sensor manager events.
+helpviewer_keywords: ["ISensorManagerEvents","ISensorManagerEvents interface [WinSensors]","ISensorManagerEvents interface [WinSensors]","described","sensorsapi/ISensorManagerEvents","winsensors.isensormanagerevents"]
 old-location: winsensors\isensormanagerevents.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: b111a717-00c0-47cb-be6a-3050d54cd2ec
 ms.date: 12/05/2018
 ms.keywords: ISensorManagerEvents, ISensorManagerEvents interface [WinSensors], ISensorManagerEvents interface [WinSensors],described, sensorsapi/ISensorManagerEvents, winsensors.isensormanagerevents

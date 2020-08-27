@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetEventParameterAttributes
 title: IPortableDeviceServiceCapabilities::GetEventParameterAttributes (portabledeviceapi.h)
-description: Retrieves the attributes of an event parameter.helpviewer_keywords: ["GetEventParameterAttributes","GetEventParameterAttributes method [Windows Portable Devices SDK]","GetEventParameterAttributes method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetEventParameterAttributes method","IPortableDeviceServiceCapabilities.GetEventParameterAttributes","IPortableDeviceServiceCapabilities::GetEventParameterAttributes","portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventParameterAttributes","wpdsdk.iportabledeviceservicecapabilities_geteventparameterattributes"]
+description: Retrieves the attributes of an event parameter.
+helpviewer_keywords: ["GetEventParameterAttributes","GetEventParameterAttributes method [Windows Portable Devices SDK]","GetEventParameterAttributes method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetEventParameterAttributes method","IPortableDeviceServiceCapabilities.GetEventParameterAttributes","IPortableDeviceServiceCapabilities::GetEventParameterAttributes","portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventParameterAttributes","wpdsdk.iportabledeviceservicecapabilities_geteventparameterattributes"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_geteventparameterattributes.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: f842dc94-440f-4488-80e3-b10bf72e6269
 ms.date: 12/05/2018
 ms.keywords: GetEventParameterAttributes, GetEventParameterAttributes method [Windows Portable Devices SDK], GetEventParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventParameterAttributes method, IPortableDeviceServiceCapabilities.GetEventParameterAttributes, IPortableDeviceServiceCapabilities::GetEventParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventparameterattributes

@@ -1,7 +1,8 @@
 ---
 UID: NF:iscsidsc.LogoutIScsiTarget
 title: LogoutIScsiTarget function (iscsidsc.h)
-description: The LogoutIscsiTarget routine closes the specified login session.helpviewer_keywords: ["LogoutIScsiTarget","LogoutIscsiTarget","LogoutIscsiTarget function [iSCSI Discovery Library API]","iscsidisc.logoutiscsitarget","iscsidsc/LogoutIscsiTarget"]
+description: The LogoutIscsiTarget routine closes the specified login session.
+helpviewer_keywords: ["LogoutIScsiTarget","LogoutIscsiTarget","LogoutIscsiTarget function [iSCSI Discovery Library API]","iscsidisc.logoutiscsitarget","iscsidsc/LogoutIscsiTarget"]
 old-location: iscsidisc\logoutiscsitarget.htm
 tech.root: iSCSIDisc
 ms.assetid: c49ad2e2-3f06-48e7-bf38-6074f9a6bcad

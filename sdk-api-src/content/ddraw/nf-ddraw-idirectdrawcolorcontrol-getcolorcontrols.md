@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.GetColorControls
 title: IDirectDrawColorControl::GetColorControls (ddraw.h)
-description: Retrieves the current color-control settings that are associated with an overlay or a primary surface.helpviewer_keywords: ["GetColorControls","GetColorControls method [DirectDraw]","GetColorControls method [DirectDraw]","IDirectDrawColorControl interface","IDirectDrawColorControl interface [DirectDraw]","GetColorControls method","IDirectDrawColorControl.GetColorControls","IDirectDrawColorControl::GetColorControls","ddraw/IDirectDrawColorControl::GetColorControls","directdraw.idirectdrawcolorcontrol_getcolorcontrols"]
+description: Retrieves the current color-control settings that are associated with an overlay or a primary surface.
+helpviewer_keywords: ["GetColorControls","GetColorControls method [DirectDraw]","GetColorControls method [DirectDraw]","IDirectDrawColorControl interface","IDirectDrawColorControl interface [DirectDraw]","GetColorControls method","IDirectDrawColorControl.GetColorControls","IDirectDrawColorControl::GetColorControls","ddraw/IDirectDrawColorControl::GetColorControls","directdraw.idirectdrawcolorcontrol_getcolorcontrols"]
 old-location: directdraw\idirectdrawcolorcontrol_getcolorcontrols.htm
 tech.root: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.GetMaximumSupportedFeatureLevel
 title: ID2D1EffectContext::GetMaximumSupportedFeatureLevel (d2d1effectauthor.h)
-description: This indicates the maximum feature level from the provided list which is supported by the device.helpviewer_keywords: ["GetMaximumSupportedFeatureLevel","GetMaximumSupportedFeatureLevel method [Direct2D]","GetMaximumSupportedFeatureLevel method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","GetMaximumSupportedFeatureLevel method","ID2D1EffectContext.GetMaximumSupportedFeatureLevel","ID2D1EffectContext::GetMaximumSupportedFeatureLevel","d2d1effectauthor/ID2D1EffectContext::GetMaximumSupportedFeatureLevel","direct2d.id2d1contextinternal_getfeaturelevel"]
+description: This indicates the maximum feature level from the provided list which is supported by the device.
+helpviewer_keywords: ["GetMaximumSupportedFeatureLevel","GetMaximumSupportedFeatureLevel method [Direct2D]","GetMaximumSupportedFeatureLevel method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","GetMaximumSupportedFeatureLevel method","ID2D1EffectContext.GetMaximumSupportedFeatureLevel","ID2D1EffectContext::GetMaximumSupportedFeatureLevel","d2d1effectauthor/ID2D1EffectContext::GetMaximumSupportedFeatureLevel","direct2d.id2d1contextinternal_getfeaturelevel"]
 old-location: direct2d\id2d1contextinternal_getfeaturelevel.htm
 tech.root: Direct2D
 ms.assetid: BDB553F8-C19D-46FC-A3CF-7E525DA81CE2

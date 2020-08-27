@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegCreateUSKeyW
 title: SHRegCreateUSKeyW function (shlwapi.h)
-description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegCreateUSKey","SHRegCreateUSKey function [Windows Shell]","SHRegCreateUSKeyA","SHRegCreateUSKeyW","_win32_SHRegCreateUSKey","shell.SHRegCreateUSKey","shlwapi/SHRegCreateUSKey","shlwapi/SHRegCreateUSKeyA","shlwapi/SHRegCreateUSKeyW"]
+description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegCreateUSKey","SHRegCreateUSKey function [Windows Shell]","SHRegCreateUSKeyA","SHRegCreateUSKeyW","_win32_SHRegCreateUSKey","shell.SHRegCreateUSKey","shlwapi/SHRegCreateUSKey","shlwapi/SHRegCreateUSKeyA","shlwapi/SHRegCreateUSKeyW"]
 old-location: shell\SHRegCreateUSKey.htm
 tech.root: shell
 ms.assetid: 10e3e31e-bff6-4260-95fa-2d750de16ab3
@@ -124,27 +125,27 @@ Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is
 Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT
+#### -param dwFlags.SHREGSET_DEFAULT
 
 Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_FORCE_HKCU
+#### -param dwFlags.SHREGSET_FORCE_HKCU
 
 Create/open the key under <b>HKEY_CURRENT_USER</b>. Creates a key even if it is not empty.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM
+#### -param dwFlags.SHREGSET_FORCE_HKLM
 
 Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is not empty.
 
 
-##### - dwFlags.SHREGSET_HKCU
+#### -param dwFlags.SHREGSET_HKCU
 
 Create/open the key under <b>HKEY_CURRENT_USER</b>. Only creates a key if it is empty.
 
 
-##### - dwFlags.SHREGSET_HKLM
+#### -param dwFlags.SHREGSET_HKLM
 
 Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Only creates a key if it is empty.
 
@@ -174,4 +175,8 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 If you want to write values to the new key, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea">SHRegWriteUSValue</a> to write each value, passing the <b>HUSKEY</b> handle that is returned through <i>phNewUSKey</i>. When you have finished, close the user-specific registry key with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregcloseuskey">SHRegCloseUSKey</a>.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHRegCreateUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

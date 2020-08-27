@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.tagDVD_SubpictureAttributes
 title: DVD_SubpictureAttributes (strmif.h)
-description: The DVD_SubpictureAttributes structure contains information about the DVD subpicture. The IDvdInfo2::GetSubpictureAttributes method fills in a DVD_SubpictureAttributes structure for a specified stream.helpviewer_keywords: ["DVD_SubpictureAttributes","DVD_SubpictureAttributes structure [DirectShow]","DVD_SubpictureAttributesStructure","dshow.dvd_subpictureattributes","strmif/DVD_SubpictureAttributes"]
+description: The DVD_SubpictureAttributes structure contains information about the DVD subpicture. The IDvdInfo2::GetSubpictureAttributes method fills in a DVD_SubpictureAttributes structure for a specified stream.
+helpviewer_keywords: ["DVD_SubpictureAttributes","DVD_SubpictureAttributes structure [DirectShow]","DVD_SubpictureAttributesStructure","dshow.dvd_subpictureattributes","strmif/DVD_SubpictureAttributes"]
 old-location: dshow\dvd_subpictureattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 55ddfa21-5600-4aa9-b554-7ff7f3c05b91
 ms.date: 12/05/2018
 ms.keywords: DVD_SubpictureAttributes, DVD_SubpictureAttributes structure [DirectShow], DVD_SubpictureAttributesStructure, dshow.dvd_subpictureattributes, strmif/DVD_SubpictureAttributes

@@ -2,6 +2,7 @@
 UID: NF:winsvc.GetServiceDirectory
 title: GetServiceDirectory
 description: Returns a path for a per-service filesystem location for a service to read and/or write state to.
+tech.root: security
 ms.date: 4/26/2019
 ms.keywords: GetServiceDirectory
 ms.topic: language-reference
@@ -68,7 +69,7 @@ Returns ERROR_SUCCESS when all operations complete successfully and the NULL-ter
 
 ## -remarks
 
-For **ServiceRegistryStatePersistent**, the security of the directory is set to only provide write access to the local system account and the service SID. Ensure service SIDs are enabled for any service that calls this API. For more information, see [SERVICE_SID_INFO](/windows/win32/api/winsvc/ns-winsvc-service_sid_info).
+For **ServiceDirectoryPersistentState**, the security of the directory is set to only provide write access to the local system account and the service SID. Ensure service SIDs are enabled for any service that calls this API. For more information, see [SERVICE_SID_INFO](/windows/win32/api/winsvc/ns-winsvc-service_sid_info).
 
 All service state directories are deleted by the service control manager once the service is uninstalled.
 

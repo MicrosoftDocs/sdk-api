@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._LUID_AND_ATTRIBUTES
 title: LUID_AND_ATTRIBUTES (winnt.h)
-description: Represents a locally unique identifier (LUID) and its attributes.helpviewer_keywords: ["*PLUID_AND_ATTRIBUTES","LUID_AND_ATTRIBUTES","LUID_AND_ATTRIBUTES structure [Security]","PLUID_AND_ATTRIBUTES","PLUID_AND_ATTRIBUTES structure pointer [Security]","_LUID_AND_ATTRIBUTES","_win32_luid_and_attributes_str","security.luid_and_attributes","winnt/LUID_AND_ATTRIBUTES","winnt/PLUID_AND_ATTRIBUTES"]
+description: Represents a locally unique identifier (LUID) and its attributes.
+helpviewer_keywords: ["*PLUID_AND_ATTRIBUTES","LUID_AND_ATTRIBUTES","LUID_AND_ATTRIBUTES structure [Security]","PLUID_AND_ATTRIBUTES","PLUID_AND_ATTRIBUTES structure pointer [Security]","_LUID_AND_ATTRIBUTES","_win32_luid_and_attributes_str","security.luid_and_attributes","winnt/LUID_AND_ATTRIBUTES","winnt/PLUID_AND_ATTRIBUTES"]
 old-location: security\luid_and_attributes.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f337b561-4b67-42a0-b8de-06f546bafb26
 ms.date: 12/05/2018
 ms.keywords: '*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES structure [Security], PLUID_AND_ATTRIBUTES, PLUID_AND_ATTRIBUTES structure pointer [Security], _LUID_AND_ATTRIBUTES, _win32_luid_and_attributes_str, security.luid_and_attributes, winnt/LUID_AND_ATTRIBUTES, winnt/PLUID_AND_ATTRIBUTES'

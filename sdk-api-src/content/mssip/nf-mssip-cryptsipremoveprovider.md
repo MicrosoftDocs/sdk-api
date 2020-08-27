@@ -1,9 +1,10 @@
 ---
 UID: NF:mssip.CryptSIPRemoveProvider
 title: CryptSIPRemoveProvider function (mssip.h)
-description: Removes registry details of a Subject Interface Package (SIP) DLL file added by a previous call to the CryptSIPAddProvider function.helpviewer_keywords: ["CryptSIPRemoveProvider","CryptSIPRemoveProvider function [Security]","mssip/CryptSIPRemoveProvider","security.cryptsipremoveprovider"]
+description: Removes registry details of a Subject Interface Package (SIP) DLL file added by a previous call to the CryptSIPAddProvider function.
+helpviewer_keywords: ["CryptSIPRemoveProvider","CryptSIPRemoveProvider function [Security]","mssip/CryptSIPRemoveProvider","security.cryptsipremoveprovider"]
 old-location: security\cryptsipremoveprovider.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0a269956-b2c7-414a-b002-7cec0d52bfd6
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRemoveProvider, CryptSIPRemoveProvider function [Security], mssip/CryptSIPRemoveProvider, security.cryptsipremoveprovider

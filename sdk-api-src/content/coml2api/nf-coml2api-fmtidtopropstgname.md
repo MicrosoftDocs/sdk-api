@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.FmtIdToPropStgName
 title: FmtIdToPropStgName function (coml2api.h)
-description: Converts a property set format identifier (FMTID) to its storage or stream name.helpviewer_keywords: ["FmtIdToPropStgName","FmtIdToPropStgName function [Structured Storage]","_stg_fmtidtopropstgname","coml2api/FmtIdToPropStgName","stg.fmtidtopropstgname"]
+description: Converts a property set format identifier (FMTID) to its storage or stream name.
+helpviewer_keywords: ["FmtIdToPropStgName","FmtIdToPropStgName function [Structured Storage]","_stg_fmtidtopropstgname","coml2api/FmtIdToPropStgName","stg.fmtidtopropstgname"]
 old-location: stg\fmtidtopropstgname.htm
 tech.root: Stg
 ms.assetid: 044f8883-bbd2-4cd3-b9dc-739ecb711bdd

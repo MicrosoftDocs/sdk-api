@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.ColorCurve
 title: ColorCurve (gdipluseffects.h)
-description: The ColorCurve class encompasses eight separate adjustments:\_exposure, density, contrast, highlight, shadow, midtone, white saturation, and black saturation.helpviewer_keywords: ["ColorCurve","ColorCurve class [GDI+]","ColorCurve class [GDI+]","described","_gdiplus_CLASS_ColorCurve_Class","gdiplus._gdiplus_CLASS_ColorCurve_Class","gdipluseffects/ColorCurve"]
+description: The ColorCurve class encompasses eight separate adjustments:\_exposure, density, contrast, highlight, shadow, midtone, white saturation, and black saturation.
+helpviewer_keywords: ["ColorCurve","ColorCurve class [GDI+]","ColorCurve class [GDI+]","described","_gdiplus_CLASS_ColorCurve_Class","gdiplus._gdiplus_CLASS_ColorCurve_Class","gdipluseffects/ColorCurve"]
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurve.htm

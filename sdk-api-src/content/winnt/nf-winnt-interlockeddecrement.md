@@ -1,9 +1,10 @@
 ---
 UID: NF:winnt.InterlockedDecrement
 title: InterlockedDecrement function (winnt.h)
-description: Decrements (decreases by one) the value of the specified 32-bit variable as an atomic operation.helpviewer_keywords: ["InterlockedDecrement","InterlockedDecrement function","_win32_interlockeddecrement","base.interlockeddecrement","winnt/InterlockedDecrement"]
+description: Decrements (decreases by one) the value of the specified 32-bit variable as an atomic operation.
+helpviewer_keywords: ["InterlockedDecrement","InterlockedDecrement function","_win32_interlockeddecrement","base.interlockeddecrement","winnt/InterlockedDecrement"]
 old-location: base\interlockeddecrement.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3
 ms.date: 12/05/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement function, _win32_interlockeddecrement, base.interlockeddecrement, winnt/InterlockedDecrement

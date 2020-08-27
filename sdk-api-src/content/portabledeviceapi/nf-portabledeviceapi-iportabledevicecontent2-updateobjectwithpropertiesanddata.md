@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
 title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData (portabledeviceapi.h)
-description: Updates an object by using properties and data found on the device.helpviewer_keywords: ["IPortableDeviceContent2 interface [Windows Portable Devices SDK]","UpdateObjectWithPropertiesAndData method","IPortableDeviceContent2.UpdateObjectWithPropertiesAndData","IPortableDeviceContent2::UpdateObjectWithPropertiesAndData","UpdateObjectWithPropertiesAndData","UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK]","UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK]","IPortableDeviceContent2 interface","portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData","wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata"]
+description: Updates an object by using properties and data found on the device.
+helpviewer_keywords: ["IPortableDeviceContent2 interface [Windows Portable Devices SDK]","UpdateObjectWithPropertiesAndData method","IPortableDeviceContent2.UpdateObjectWithPropertiesAndData","IPortableDeviceContent2::UpdateObjectWithPropertiesAndData","UpdateObjectWithPropertiesAndData","UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK]","UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK]","IPortableDeviceContent2 interface","portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData","wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata"]
 old-location: wpdsdk\iportabledevicecontent2_updateobjectwithpropertiesanddata.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 43b8cf90-1c3f-43c2-a11f-cc4aef10bcf5
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent2 interface [Windows Portable Devices SDK],UpdateObjectWithPropertiesAndData method, IPortableDeviceContent2.UpdateObjectWithPropertiesAndData, IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK], UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent2 interface, portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata

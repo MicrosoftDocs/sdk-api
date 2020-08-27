@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CreateBoundaryDescriptorA
 title: CreateBoundaryDescriptorA function (winbase.h)
-description: Creates a boundary descriptor.helpviewer_keywords: ["CreateBoundaryDescriptor","CreateBoundaryDescriptor function","CreateBoundaryDescriptorA","CreateBoundaryDescriptorW","base.createboundarydescriptor","winbase/CreateBoundaryDescriptor","winbase/CreateBoundaryDescriptorA","winbase/CreateBoundaryDescriptorW"]
+description: Creates a boundary descriptor.
+helpviewer_keywords: ["CreateBoundaryDescriptor","CreateBoundaryDescriptor function","CreateBoundaryDescriptorA","CreateBoundaryDescriptorW","base.createboundarydescriptor","winbase/CreateBoundaryDescriptor","winbase/CreateBoundaryDescriptorA","winbase/CreateBoundaryDescriptorW"]
 old-location: base\createboundarydescriptor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: c7789e90-8dfb-47ee-a0b2-906520982d84
 ms.date: 12/05/2018
 ms.keywords: CreateBoundaryDescriptor, CreateBoundaryDescriptor function, CreateBoundaryDescriptorA, CreateBoundaryDescriptorW, base.createboundarydescriptor, winbase/CreateBoundaryDescriptor, winbase/CreateBoundaryDescriptorA, winbase/CreateBoundaryDescriptorW

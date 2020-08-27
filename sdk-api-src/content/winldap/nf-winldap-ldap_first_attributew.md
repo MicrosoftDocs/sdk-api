@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_first_attributeW
 title: ldap_first_attributeW function (winldap.h)
-description: Returns the first attribute.helpviewer_keywords: ["_ldap_ldap_first_attribute","ldap.ldap__first__attribute","ldap.ldap_first_attribute","ldap_first_attribute","ldap_first_attribute function [LDAP]","ldap_first_attributeA","ldap_first_attributeW","winldap/ldap_first_attribute","winldap/ldap_first_attributeA","winldap/ldap_first_attributeW"]
+description: Returns the first attribute.
+helpviewer_keywords: ["_ldap_ldap_first_attribute","ldap.ldap__first__attribute","ldap.ldap_first_attribute","ldap_first_attribute","ldap_first_attribute function [LDAP]","ldap_first_attributeA","ldap_first_attributeW","winldap/ldap_first_attribute","winldap/ldap_first_attributeA","winldap/ldap_first_attributeW"]
 old-location: ldap\ldap_first_attribute.htm
 tech.root: ldap
 ms.assetid: 2a654ef4-519f-41a7-943e-3befe5c932e8
@@ -111,6 +112,10 @@ Both
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_first_attribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

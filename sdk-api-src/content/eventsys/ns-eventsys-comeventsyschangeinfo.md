@@ -1,9 +1,10 @@
 ---
 UID: NS:eventsys.__MIDL___MIDL_itf_eventsys_0000_0009_0001
 title: COMEVENTSYSCHANGEINFO (eventsys.h)
-description: Represents a system event structure, which contains the partition and application ID from which an event originated.helpviewer_keywords: ["COMEVENTSYSCHANGEINFO","COMEVENTSYSCHANGEINFO structure [COM+]","_cos_COMEVENTSYSCHANGEINFO","cos.comeventsyschangeinfo","eventsys/COMEVENTSYSCHANGEINFO"]
+description: Represents a system event structure, which contains the partition and application ID from which an event originated.
+helpviewer_keywords: ["COMEVENTSYSCHANGEINFO","COMEVENTSYSCHANGEINFO structure [COM+]","_cos_COMEVENTSYSCHANGEINFO","cos.comeventsyschangeinfo","eventsys/COMEVENTSYSCHANGEINFO"]
 old-location: cos\comeventsyschangeinfo.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
 ms.date: 12/05/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO

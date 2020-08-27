@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Reset
 title: IEnumTfUIElements::Reset (msctf.h)
-description: The IEnumTfUIElements::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.helpviewer_keywords: ["IEnumTfUIElements interface [Text Services Framework]","Reset method","IEnumTfUIElements.Reset","IEnumTfUIElements::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfUIElements interface","msctf/IEnumTfUIElements::Reset","tsf.ienumtfuielements_reset"]
+description: The IEnumTfUIElements::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
+helpviewer_keywords: ["IEnumTfUIElements interface [Text Services Framework]","Reset method","IEnumTfUIElements.Reset","IEnumTfUIElements::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfUIElements interface","msctf/IEnumTfUIElements::Reset","tsf.ienumtfuielements_reset"]
 old-location: tsf\ienumtfuielements_reset.htm
 tech.root: TSF
 ms.assetid: a87b067f-251c-47d1-b57a-32e6524adc57

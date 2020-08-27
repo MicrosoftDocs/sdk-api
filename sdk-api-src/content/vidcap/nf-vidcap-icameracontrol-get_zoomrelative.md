@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ZoomRelative
 title: ICameraControl::get_ZoomRelative (vidcap.h)
-description: The get_ZoomRelative method returns the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_ZoomRelative method","ICameraControl.get_ZoomRelative","ICameraControl::get_ZoomRelative","ICameraControlget_ZoomRelative","dshow.icameracontrol_get_zoomrelative","get_ZoomRelative","get_ZoomRelative method [DirectShow]","get_ZoomRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_ZoomRelative"]
+description: The get_ZoomRelative method returns the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_ZoomRelative method","ICameraControl.get_ZoomRelative","ICameraControl::get_ZoomRelative","ICameraControlget_ZoomRelative","dshow.icameracontrol_get_zoomrelative","get_ZoomRelative","get_ZoomRelative method [DirectShow]","get_ZoomRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_ZoomRelative"]
 old-location: dshow\icameracontrol_get_zoomrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c1926541-d7c7-4a16-bbe7-0d93dec89c67
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ZoomRelative method, ICameraControl.get_ZoomRelative, ICameraControl::get_ZoomRelative, ICameraControlget_ZoomRelative, dshow.icameracontrol_get_zoomrelative, get_ZoomRelative, get_ZoomRelative method [DirectShow], get_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ZoomRelative

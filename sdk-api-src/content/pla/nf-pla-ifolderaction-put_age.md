@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IFolderAction.put_Age
 title: IFolderAction::put_Age (pla.h)
-description: Retrieves or sets the interval to wait between applying the actions.helpviewer_keywords: ["Age property [PLA]","Age property [PLA]","IFolderAction interface","IFolderAction interface [PLA]","Age property","IFolderAction.Age","IFolderAction.put_Age","IFolderAction::Age","IFolderAction::get_Age","IFolderAction::put_Age","base.ifolderaction_age","pla.ifolderaction_age","pla/IFolderAction::Age","pla/IFolderAction::get_Age","pla/IFolderAction::put_Age","put_Age"]
+description: Retrieves or sets the interval to wait between applying the actions.
+helpviewer_keywords: ["Age property [PLA]","Age property [PLA]","IFolderAction interface","IFolderAction interface [PLA]","Age property","IFolderAction.Age","IFolderAction.put_Age","IFolderAction::Age","IFolderAction::get_Age","IFolderAction::put_Age","base.ifolderaction_age","pla.ifolderaction_age","pla/IFolderAction::Age","pla/IFolderAction::get_Age","pla/IFolderAction::put_Age","put_Age"]
 old-location: pla\ifolderaction_age.htm
 tech.root: PLA
 ms.assetid: 5f664ee8-895e-4235-a119-9dc10ababffe

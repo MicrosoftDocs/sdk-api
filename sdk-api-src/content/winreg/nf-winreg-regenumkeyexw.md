@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegEnumKeyExW
 title: RegEnumKeyExW function (winreg.h)
-description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.helpviewer_keywords: ["RegEnumKeyEx","RegEnumKeyEx function","RegEnumKeyExA","RegEnumKeyExW","_win32_regenumkeyex","base.regenumkeyex","winreg/RegEnumKeyEx","winreg/RegEnumKeyExA","winreg/RegEnumKeyExW"]
+description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
+helpviewer_keywords: ["RegEnumKeyEx","RegEnumKeyEx function","RegEnumKeyExA","RegEnumKeyExW","_win32_regenumkeyex","base.regenumkeyex","winreg/RegEnumKeyEx","winreg/RegEnumKeyExA","winreg/RegEnumKeyExW"]
 old-location: base\regenumkeyex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
 ms.date: 12/05/2018
 ms.keywords: RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW
@@ -174,6 +175,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegEnumKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

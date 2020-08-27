@@ -1,9 +1,10 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetProperties
 title: IVdsLunPlex::GetProperties (vdshwprv.h)
-description: Returns the properties of the LUN plex.helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsLunPlex interface","IVdsLunPlex interface [VDS]","GetProperties method","IVdsLunPlex.GetProperties","IVdsLunPlex::GetProperties","base.ivdslunplex_getproperties","vds/IVdsLunPlex::GetProperties","vdshwprv/IVdsLunPlex::GetProperties"]
+description: Returns the properties of the LUN plex.
+helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsLunPlex interface","IVdsLunPlex interface [VDS]","GetProperties method","IVdsLunPlex.GetProperties","IVdsLunPlex::GetProperties","base.ivdslunplex_getproperties","vds/IVdsLunPlex::GetProperties","vdshwprv/IVdsLunPlex::GetProperties"]
 old-location: base\ivdslunplex_getproperties.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: ded24edd-fa6a-48f3-a448-690078f034bb
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties

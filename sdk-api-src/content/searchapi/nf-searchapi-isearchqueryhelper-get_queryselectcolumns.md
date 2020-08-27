@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySelectColumns
 title: ISearchQueryHelper::get_QuerySelectColumns (searchapi.h)
-description: Gets the columns (or properties) requested in the SELECT statement of the query.helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QuerySelectColumns method","ISearchQueryHelper.get_QuerySelectColumns","ISearchQueryHelper::get_QuerySelectColumns","_search_ISearchQueryHelper_get_QuerySelectColumns","get_QuerySelectColumns","get_QuerySelectColumns method [search]","get_QuerySelectColumns method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QuerySelectColumns","searchapi/ISearchQueryHelper::get_QuerySelectColumns"]
+description: Gets the columns (or properties) requested in the SELECT statement of the query.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QuerySelectColumns method","ISearchQueryHelper.get_QuerySelectColumns","ISearchQueryHelper::get_QuerySelectColumns","_search_ISearchQueryHelper_get_QuerySelectColumns","get_QuerySelectColumns","get_QuerySelectColumns method [search]","get_QuerySelectColumns method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QuerySelectColumns","searchapi/ISearchQueryHelper::get_QuerySelectColumns"]
 old-location: search\_search_ISearchQueryHelper_get_QuerySelectColumns.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_queryselectcolumns.htm
@@ -81,10 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Items are represented in the property store as a row. Each row contains a number of columns that represent properties for that row or object. Not all items will have a value for a particular property. Properties must be in the property store to be subject to a select operation.
 
-The DSearch code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
-
-
-
+Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
 

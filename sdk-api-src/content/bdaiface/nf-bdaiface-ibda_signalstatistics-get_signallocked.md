@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalLocked
 title: IBDA_SignalStatistics::get_SignalLocked (bdaiface.h)
-description: The get_SignalLocked method retrieves a Boolean value indicating whether the signal is locked.helpviewer_keywords: ["IBDA_SignalStatistics interface [Microsoft TV Technologies]","get_SignalLocked method","IBDA_SignalStatistics.get_SignalLocked","IBDA_SignalStatistics::get_SignalLocked","IBDA_SignalStatisticsget_SignalLocked","bdaiface/IBDA_SignalStatistics::get_SignalLocked","get_SignalLocked","get_SignalLocked method [Microsoft TV Technologies]","get_SignalLocked method [Microsoft TV Technologies]","IBDA_SignalStatistics interface","mstv.ibda_signalstatistics_get_signallocked"]
+description: The get_SignalLocked method retrieves a Boolean value indicating whether the signal is locked.
+helpviewer_keywords: ["IBDA_SignalStatistics interface [Microsoft TV Technologies]","get_SignalLocked method","IBDA_SignalStatistics.get_SignalLocked","IBDA_SignalStatistics::get_SignalLocked","IBDA_SignalStatisticsget_SignalLocked","bdaiface/IBDA_SignalStatistics::get_SignalLocked","get_SignalLocked","get_SignalLocked method [Microsoft TV Technologies]","get_SignalLocked method [Microsoft TV Technologies]","IBDA_SignalStatistics interface","mstv.ibda_signalstatistics_get_signallocked"]
 old-location: mstv\ibda_signalstatistics_get_signallocked.htm
 tech.root: mstv
 ms.assetid: 2a67ff4b-1abc-43c4-b171-f9af90c5aaf7

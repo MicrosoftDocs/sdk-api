@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MessageBoxExW
 title: MessageBoxExW function (winuser.h)
-description: Creates, displays, and operates a message box.helpviewer_keywords: ["MessageBoxEx","MessageBoxEx function [Dialog Boxes]","MessageBoxExA","MessageBoxExW","_win32_MessageBoxEx","_win32_messageboxex_cpp","dlgbox.messageboxex","winui._win32_messageboxex","winuser/MessageBoxEx","winuser/MessageBoxExA","winuser/MessageBoxExW"]
+description: Creates, displays, and operates a message box.
+helpviewer_keywords: ["MessageBoxEx","MessageBoxEx function [Dialog Boxes]","MessageBoxExA","MessageBoxExW","_win32_MessageBoxEx","_win32_messageboxex_cpp","dlgbox.messageboxex","winui._win32_messageboxex","winuser/MessageBoxEx","winuser/MessageBoxExA","winuser/MessageBoxExW"]
 old-location: dlgbox\messageboxex.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm
@@ -106,7 +107,7 @@ To specify a language other than the current language, use the <a href="https://
 
 Type: <b>int</b>
 
-If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC has no effect. 
+If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC will no effect - unless an MB_OK button is present. If an MB_OK button is displayed and the user presses ESC, the return value will be <b>IDOK</b>.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
@@ -241,6 +242,10 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines MessageBoxEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

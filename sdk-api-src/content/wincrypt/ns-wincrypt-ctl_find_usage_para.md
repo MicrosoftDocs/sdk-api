@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CTL_FIND_USAGE_PARA
 title: CTL_FIND_USAGE_PARA (wincrypt.h)
-description: A member of the CTL_FIND_SUBJECT_PARA structure and it is used by CertFindCTLInStore.helpviewer_keywords: ["*PCTL_FIND_USAGE_PARA","CTL_FIND_USAGE_PARA","CTL_FIND_USAGE_PARA structure [Security]","PCTL_FIND_USAGE_PARA","PCTL_FIND_USAGE_PARA structure pointer [Security]","_crypto2_ctl_find_usage_para","security.ctl_find_usage_para","wincrypt/CTL_FIND_USAGE_PARA","wincrypt/PCTL_FIND_USAGE_PARA"]
+description: A member of the CTL_FIND_SUBJECT_PARA structure and it is used by CertFindCTLInStore.
+helpviewer_keywords: ["*PCTL_FIND_USAGE_PARA","CTL_FIND_USAGE_PARA","CTL_FIND_USAGE_PARA structure [Security]","PCTL_FIND_USAGE_PARA","PCTL_FIND_USAGE_PARA structure pointer [Security]","_crypto2_ctl_find_usage_para","security.ctl_find_usage_para","wincrypt/CTL_FIND_USAGE_PARA","wincrypt/PCTL_FIND_USAGE_PARA"]
 old-location: security\ctl_find_usage_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bb6a7013-19ec-4263-b7a2-33c79c2b5feb
 ms.date: 12/05/2018
 ms.keywords: '*PCTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA structure [Security], PCTL_FIND_USAGE_PARA, PCTL_FIND_USAGE_PARA structure pointer [Security], _crypto2_ctl_find_usage_para, security.ctl_find_usage_para, wincrypt/CTL_FIND_USAGE_PARA, wincrypt/PCTL_FIND_USAGE_PARA'

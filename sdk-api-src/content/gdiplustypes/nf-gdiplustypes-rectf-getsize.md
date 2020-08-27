@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.RectF.GetSize
 title: RectF::GetSize (gdiplustypes.h)
-description: The RectF::GetSize method gets the width and height of this rectangle.helpviewer_keywords: ["GetSize","GetSize method [GDI+]","GetSize method [GDI+]","RectF class","RectF class [GDI+]","GetSize method","RectF.GetSize","RectF::GetSize","_gdiplus_CLASS_RectF_GetSize_size_","gdiplus._gdiplus_CLASS_RectF_GetSize_size_"]
+description: The RectF::GetSize method gets the width and height of this rectangle.
+helpviewer_keywords: ["GetSize","GetSize method [GDI+]","GetSize method [GDI+]","RectF class","RectF class [GDI+]","GetSize method","RectF.GetSize","RectF::GetSize","_gdiplus_CLASS_RectF_GetSize_size_","gdiplus._gdiplus_CLASS_RectF_GetSize_size_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetSize_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getsize_61size.htm

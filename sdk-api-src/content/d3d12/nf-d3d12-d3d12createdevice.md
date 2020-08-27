@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.D3D12CreateDevice
 title: D3D12CreateDevice function (d3d12.h)
-description: Creates a device that represents the display adapter.helpviewer_keywords: ["D3D12CreateDevice","D3D12CreateDevice function","d3d12/D3D12CreateDevice","direct3d12.d3d12createdevice"]
+description: Creates a device that represents the display adapter.
+helpviewer_keywords: ["D3D12CreateDevice","D3D12CreateDevice function","d3d12/D3D12CreateDevice","direct3d12.d3d12createdevice"]
 old-location: direct3d12\d3d12createdevice.htm
 tech.root: direct3d12
 ms.assetid: F403D730-CBD4-4AE0-86F6-8CE122E82CB4
@@ -92,7 +93,7 @@ The globally unique identifier (<b>GUID</b>) for the device interface.
 
 Type: <b><b>void</b>**</b>
 
-A pointer to a memory block that receives a pointer to the device.
+A pointer to a memory block that receives a pointer to the device. Pass **NULL** to test if device creation would succeed, but to not actually create the device. If **NULL** is passed and device creation would succeed, **S_FALSE** is returned.
           
 
 
@@ -107,7 +108,7 @@ This method can return one of the <a href="https://docs.microsoft.com/windows/de
 
 Possible return values include those documented for <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters">IDXGIFactory::EnumAdapters</a>.
           
-
+If **ppDevice** is **NULL** and the function succeeds, **S_FALSE** is returned, rather than **S_OK**.
 
 
 

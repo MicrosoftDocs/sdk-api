@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.ProcessBufferedPacketsInteractionContext
 title: ProcessBufferedPacketsInteractionContext function (interactioncontext.h)
-description: Process buffered packets at the end of a pointer input frame.helpviewer_keywords: ["ProcessBufferedPacketsInteractionContext","ProcessBufferedPacketsInteractionContext function","input_intcontext.processbufferedpacketsinteractioncontext","interactioncontext.processbufferedpacketsinteractioncontext","interactioncontext/ProcessBufferedPacketsInteractionContext"]
+description: Process buffered packets at the end of a pointer input frame.
+helpviewer_keywords: ["ProcessBufferedPacketsInteractionContext","ProcessBufferedPacketsInteractionContext function","input_intcontext.processbufferedpacketsinteractioncontext","interactioncontext.processbufferedpacketsinteractioncontext","interactioncontext/ProcessBufferedPacketsInteractionContext"]
 old-location: input_intcontext\processbufferedpacketsinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 52bbeae9-70ab-403c-a035-de2acc2e0599
 ms.date: 12/05/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext

@@ -1,9 +1,10 @@
 ---
 UID: NF:tokenbinding.TokenBindingVerifyMessage
 title: TokenBindingVerifyMessage function (tokenbinding.h)
-description: Validates the token binding message and verifies the token bindings that the message contains.helpviewer_keywords: ["TokenBindingVerifyMessage","TokenBindingVerifyMessage function [Security]","security.tokenbindingverifymessage","tokenbinding/TokenBindingVerifyMessage"]
+description: Validates the token binding message and verifies the token bindings that the message contains.
+helpviewer_keywords: ["TokenBindingVerifyMessage","TokenBindingVerifyMessage function [Security]","security.tokenbindingverifymessage","tokenbinding/TokenBindingVerifyMessage"]
 old-location: security\tokenbindingverifymessage.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
 ms.date: 12/05/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage

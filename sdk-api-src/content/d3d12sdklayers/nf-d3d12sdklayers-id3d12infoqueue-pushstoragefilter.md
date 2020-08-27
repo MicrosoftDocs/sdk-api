@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushStorageFilter
 title: ID3D12InfoQueue::PushStorageFilter (d3d12sdklayers.h)
-description: Push a storage filter onto the storage-filter stack.helpviewer_keywords: ["ID3D12InfoQueue interface","PushStorageFilter method","ID3D12InfoQueue.PushStorageFilter","ID3D12InfoQueue::PushStorageFilter","PushStorageFilter","PushStorageFilter method","PushStorageFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter","direct3d12.id3d12infoqueue_pushstoragefilter"]
+description: Push a storage filter onto the storage-filter stack.
+helpviewer_keywords: ["ID3D12InfoQueue interface","PushStorageFilter method","ID3D12InfoQueue.PushStorageFilter","ID3D12InfoQueue::PushStorageFilter","PushStorageFilter","PushStorageFilter method","PushStorageFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter","direct3d12.id3d12infoqueue_pushstoragefilter"]
 old-location: direct3d12\id3d12infoqueue_pushstoragefilter.htm
 tech.root: direct3d12
 ms.assetid: F6443483-3983-44E0-B728-F5357966388A

@@ -1,9 +1,10 @@
 ---
 UID: NS:schannel._SecPkgContext_ConnectionInfo
 title: SecPkgContext_ConnectionInfo (schannel.h)
-description: The SecPkgContext_ConnectionInfo structure contains protocol and cipher information. This structure is used by the InitializeSecurityContext (Schannel) function.This attribute is supported only by the Schannel security support provider (SSP).helpviewer_keywords: ["*PSecPkgContext_ConnectionInfo","0 (Zero)","CALG_3DES","CALG_AES_128","CALG_AES_256","CALG_DES","CALG_DH_EPHEM","CALG_MD5","CALG_RC2","CALG_RC4","CALG_RSA_KEYX","CALG_SHA","PSecPkgContext_ConnectionInfo","PSecPkgContext_ConnectionInfo structure pointer [Security]","SP_PROT_PCT1_CLIENT","SP_PROT_PCT1_SERVER","SP_PROT_SSL2_CLIENT","SP_PROT_SSL2_SERVER","SP_PROT_SSL3_CLIENT","SP_PROT_SSL3_SERVER","SP_PROT_TLS1_1_CLIENT","SP_PROT_TLS1_1_SERVER","SP_PROT_TLS1_2_CLIENT","SP_PROT_TLS1_2_SERVER","SP_PROT_TLS1_CLIENT","SP_PROT_TLS1_SERVER","SecPkgContext_ConnectionInfo","SecPkgContext_ConnectionInfo structure [Security]","_ssp_secpkgcontext_connectioninfo","schannel/PSecPkgContext_ConnectionInfo","schannel/SecPkgContext_ConnectionInfo","security.secpkgcontext_connectioninfo"]
+description: The SecPkgContext_ConnectionInfo structure contains protocol and cipher information. This structure is used by the InitializeSecurityContext (Schannel) function.This attribute is supported only by the Schannel security support provider (SSP).
+helpviewer_keywords: ["*PSecPkgContext_ConnectionInfo","0 (Zero)","CALG_3DES","CALG_AES_128","CALG_AES_256","CALG_DES","CALG_DH_EPHEM","CALG_MD5","CALG_RC2","CALG_RC4","CALG_RSA_KEYX","CALG_SHA","PSecPkgContext_ConnectionInfo","PSecPkgContext_ConnectionInfo structure pointer [Security]","SP_PROT_PCT1_CLIENT","SP_PROT_PCT1_SERVER","SP_PROT_SSL2_CLIENT","SP_PROT_SSL2_SERVER","SP_PROT_SSL3_CLIENT","SP_PROT_SSL3_SERVER","SP_PROT_TLS1_1_CLIENT","SP_PROT_TLS1_1_SERVER","SP_PROT_TLS1_2_CLIENT","SP_PROT_TLS1_2_SERVER","SP_PROT_TLS1_CLIENT","SP_PROT_TLS1_SERVER","SecPkgContext_ConnectionInfo","SecPkgContext_ConnectionInfo structure [Security]","_ssp_secpkgcontext_connectioninfo","schannel/PSecPkgContext_ConnectionInfo","schannel/SecPkgContext_ConnectionInfo","security.secpkgcontext_connectioninfo"]
 old-location: security\secpkgcontext_connectioninfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 5380c03b-d2c5-4a0d-96a1-c39305b9c9ac
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_ConnectionInfo, 0 (Zero), CALG_3DES, CALG_AES_128, CALG_AES_256, CALG_DES, CALG_DH_EPHEM, CALG_MD5, CALG_RC2, CALG_RC4, CALG_RSA_KEYX, CALG_SHA, PSecPkgContext_ConnectionInfo, PSecPkgContext_ConnectionInfo structure pointer [Security], SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, SecPkgContext_ConnectionInfo, SecPkgContext_ConnectionInfo structure [Security], _ssp_secpkgcontext_connectioninfo, schannel/PSecPkgContext_ConnectionInfo, schannel/SecPkgContext_ConnectionInfo, security.secpkgcontext_connectioninfo'
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>SecPkgContext_ConnectionInfo</b> structure contains protocol and cipher information. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function.
+<a href="https://docs.microsoft.com/en-us/windows/win32/secauthn/initializesecuritycontext--schannel">InitializeSecurityContext (Schannel)</a> function.
 
 This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 

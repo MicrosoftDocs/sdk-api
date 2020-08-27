@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMPushSource.SetMaxStreamOffset
 title: IAMPushSource::SetMaxStreamOffset (strmif.h)
-description: The SetMaxStreamOffset method specifies the stream offset that will be allowed in the filter graph.helpviewer_keywords: ["IAMPushSource interface [DirectShow]","SetMaxStreamOffset method","IAMPushSource.SetMaxStreamOffset","IAMPushSource::SetMaxStreamOffset","IAMPushSourceSetMaxStreamOffset","SetMaxStreamOffset","SetMaxStreamOffset method [DirectShow]","SetMaxStreamOffset method [DirectShow]","IAMPushSource interface","dshow.iampushsource_setmaxstreamoffset","strmif/IAMPushSource::SetMaxStreamOffset"]
+description: The SetMaxStreamOffset method specifies the stream offset that will be allowed in the filter graph.
+helpviewer_keywords: ["IAMPushSource interface [DirectShow]","SetMaxStreamOffset method","IAMPushSource.SetMaxStreamOffset","IAMPushSource::SetMaxStreamOffset","IAMPushSourceSetMaxStreamOffset","SetMaxStreamOffset","SetMaxStreamOffset method [DirectShow]","SetMaxStreamOffset method [DirectShow]","IAMPushSource interface","dshow.iampushsource_setmaxstreamoffset","strmif/IAMPushSource::SetMaxStreamOffset"]
 old-location: dshow\iampushsource_setmaxstreamoffset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bbe0aa06-f680-4637-beb3-b94139ee0d54
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetMaxStreamOffset method, IAMPushSource.SetMaxStreamOffset, IAMPushSource::SetMaxStreamOffset, IAMPushSourceSetMaxStreamOffset, SetMaxStreamOffset, SetMaxStreamOffset method [DirectShow], SetMaxStreamOffset method [DirectShow],IAMPushSource interface, dshow.iampushsource_setmaxstreamoffset, strmif/IAMPushSource::SetMaxStreamOffset

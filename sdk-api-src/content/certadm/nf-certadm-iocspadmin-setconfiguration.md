@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetConfiguration
 title: IOCSPAdmin::SetConfiguration (certadm.h)
-description: Updates a responder service with configuration changes.helpviewer_keywords: ["IOCSPAdmin interface [Security]","SetConfiguration method","IOCSPAdmin.SetConfiguration","IOCSPAdmin::SetConfiguration","SetConfiguration","SetConfiguration method [Security]","SetConfiguration method [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::SetConfiguration","security.iocspadmin_setconfiguration_method"]
+description: Updates a responder service with configuration changes.
+helpviewer_keywords: ["IOCSPAdmin interface [Security]","SetConfiguration method","IOCSPAdmin.SetConfiguration","IOCSPAdmin::SetConfiguration","SetConfiguration","SetConfiguration method [Security]","SetConfiguration method [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::SetConfiguration","security.iocspadmin_setconfiguration_method"]
 old-location: security\iocspadmin_setconfiguration_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method

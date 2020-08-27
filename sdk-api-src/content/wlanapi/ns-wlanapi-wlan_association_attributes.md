@@ -1,9 +1,10 @@
 ---
 UID: NS:wlanapi._WLAN_ASSOCIATION_ATTRIBUTES
 title: WLAN_ASSOCIATION_ATTRIBUTES (wlanapi.h)
-description: Contains association attributes for a connection.helpviewer_keywords: ["*PWLAN_ASSOCIATION_ATTRIBUTES","PWLAN_ASSOCIATION_ATTRIBUTES","PWLAN_ASSOCIATION_ATTRIBUTES structure pointer [NativeWIFI]","WLAN_ASSOCIATION_ATTRIBUTES","WLAN_ASSOCIATION_ATTRIBUTES structure [NativeWIFI]","nwifi.wlan_association_attributes","wlanapi/PWLAN_ASSOCIATION_ATTRIBUTES","wlanapi/WLAN_ASSOCIATION_ATTRIBUTES"]
+description: Contains association attributes for a connection.
+helpviewer_keywords: ["*PWLAN_ASSOCIATION_ATTRIBUTES","PWLAN_ASSOCIATION_ATTRIBUTES","PWLAN_ASSOCIATION_ATTRIBUTES structure pointer [NativeWIFI]","WLAN_ASSOCIATION_ATTRIBUTES","WLAN_ASSOCIATION_ATTRIBUTES structure [NativeWIFI]","nwifi.wlan_association_attributes","wlanapi/PWLAN_ASSOCIATION_ATTRIBUTES","wlanapi/WLAN_ASSOCIATION_ATTRIBUTES"]
 old-location: nwifi\wlan_association_attributes.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: f7d3d106-54a9-4bdf-bccf-216cac938995
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_ASSOCIATION_ATTRIBUTES, PWLAN_ASSOCIATION_ATTRIBUTES, PWLAN_ASSOCIATION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_ASSOCIATION_ATTRIBUTES, WLAN_ASSOCIATION_ATTRIBUTES structure [NativeWIFI], nwifi.wlan_association_attributes, wlanapi/PWLAN_ASSOCIATION_ATTRIBUTES, wlanapi/WLAN_ASSOCIATION_ATTRIBUTES'

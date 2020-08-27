@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwProfile.get_FirewallEnabled
 title: INetFwProfile::get_FirewallEnabled (netfw.h)
-description: Indicates whether the firewall is enabled.helpviewer_keywords: ["FirewallEnabled property [ICS/ICF]","FirewallEnabled property [ICS/ICF]","INetFwProfile interface","INetFwProfile interface [ICS/ICF]","FirewallEnabled property","INetFwProfile.FirewallEnabled","INetFwProfile.get_FirewallEnabled","INetFwProfile::FirewallEnabled","INetFwProfile::get_FirewallEnabled","INetFwProfile::put_FirewallEnabled","get_FirewallEnabled","ics.inetfwprofile_firewallenabled","netfw/INetFwProfile::FirewallEnabled","netfw/INetFwProfile::get_FirewallEnabled","netfw/INetFwProfile::put_FirewallEnabled"]
+description: Indicates whether the firewall is enabled.
+helpviewer_keywords: ["FirewallEnabled property [ICS/ICF]","FirewallEnabled property [ICS/ICF]","INetFwProfile interface","INetFwProfile interface [ICS/ICF]","FirewallEnabled property","INetFwProfile.FirewallEnabled","INetFwProfile.get_FirewallEnabled","INetFwProfile::FirewallEnabled","INetFwProfile::get_FirewallEnabled","INetFwProfile::put_FirewallEnabled","get_FirewallEnabled","ics.inetfwprofile_firewallenabled","netfw/INetFwProfile::FirewallEnabled","netfw/INetFwProfile::get_FirewallEnabled","netfw/INetFwProfile::put_FirewallEnabled"]
 old-location: ics\inetfwprofile_firewallenabled.htm
 tech.root: ics
 ms.assetid: cde6327d-e3ae-418f-9e8c-76288c120ca0

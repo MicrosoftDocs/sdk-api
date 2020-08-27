@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanSetProfileEapUserData
 title: WlanSetProfileEapUserData function (wlanapi.h)
-description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by raw EAP data.helpviewer_keywords: ["WLAN_SET_EAPHOST_DATA_ALL_USERS","WlanSetProfileEapUserData","WlanSetProfileEapUserData function [NativeWIFI]","nwifi.wlansetprofileeapuserdata","wlanapi/WlanSetProfileEapUserData"]
+description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by raw EAP data.
+helpviewer_keywords: ["WLAN_SET_EAPHOST_DATA_ALL_USERS","WlanSetProfileEapUserData","WlanSetProfileEapUserData function [NativeWIFI]","nwifi.wlansetprofileeapuserdata","wlanapi/WlanSetProfileEapUserData"]
 old-location: nwifi\wlansetprofileeapuserdata.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2bef0f2f-165d-446a-afa8-735658048152
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapUserData, WlanSetProfileEapUserData function [NativeWIFI], nwifi.wlansetprofileeapuserdata, wlanapi/WlanSetProfileEapUserData
@@ -204,7 +205,7 @@ The request is not supported.
 
 This value is returned when profile settings do not permit storage of user data. This can occur when single signon (SSO) is enabled  or when the request was to delete the stored credentials for this profile (the <i>pbEapUserData</i> parameter was <b>NULL</b>, the  <i>dwFlags</i> parameter contains <b>WLAN_SET_EAPHOST_DATA_ALL_USERS</b>,   and the <i>dwEapUserDataSize</i> parameter is 0). 
 
-On Windows 7, Windows Server 2008 R2 ,  and later, this value is returned if the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a> function was called on a profile that uses a method other than 802.1X for authentication. 
+On Windows 10, Windows Server 2016 ,  and later, this value is returned if the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a> function was called on a profile that uses a method other than 802.1X for authentication. 
 
 This value is also returned if this function was called from a Windows XP with SP3 or Wireless LAN API for Windows XP with SP2 client.
 

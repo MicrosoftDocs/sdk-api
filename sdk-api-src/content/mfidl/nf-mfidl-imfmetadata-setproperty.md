@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMetadata.SetProperty
 title: IMFMetadata::SetProperty (mfidl.h)
-description: Sets the value of a metadata property.helpviewer_keywords: ["416a7fba-506c-405d-a230-7e8a1c801209","IMFMetadata interface [Media Foundation]","SetProperty method","IMFMetadata.SetProperty","IMFMetadata::SetProperty","SetProperty","SetProperty method [Media Foundation]","SetProperty method [Media Foundation]","IMFMetadata interface","mf.imfmetadata_setproperty","mfidl/IMFMetadata::SetProperty"]
+description: Sets the value of a metadata property.
+helpviewer_keywords: ["416a7fba-506c-405d-a230-7e8a1c801209","IMFMetadata interface [Media Foundation]","SetProperty method","IMFMetadata.SetProperty","IMFMetadata::SetProperty","SetProperty","SetProperty method [Media Foundation]","SetProperty method [Media Foundation]","IMFMetadata interface","mf.imfmetadata_setproperty","mfidl/IMFMetadata::SetProperty"]
 old-location: mf\imfmetadata_setproperty.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 416a7fba-506c-405d-a230-7e8a1c801209
 ms.date: 12/05/2018
 ms.keywords: 416a7fba-506c-405d-a230-7e8a1c801209, IMFMetadata interface [Media Foundation],SetProperty method, IMFMetadata.SetProperty, IMFMetadata::SetProperty, SetProperty, SetProperty method [Media Foundation], SetProperty method [Media Foundation],IMFMetadata interface, mf.imfmetadata_setproperty, mfidl/IMFMetadata::SetProperty

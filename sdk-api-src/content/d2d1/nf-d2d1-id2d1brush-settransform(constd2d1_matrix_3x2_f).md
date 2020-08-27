@@ -1,7 +1,8 @@
 ---
-UID: NF:d2d1.ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)
+UID: NF:d2d1.ID2D1Brush.SetTransform(constD2D1_MATRIX_3X2_F)
 title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F) (d2d1.h)
-description: Sets the transformation applied to the brush.helpviewer_keywords: ["ID2D1Brush interface [Direct2D]","SetTransform method","ID2D1Brush.SetTransform","ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F*)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1Brush interface","d2d1/ID2D1Brush::SetTransform","direct2d.ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F"]
+description: Sets the transformation applied to the brush.
+helpviewer_keywords: ["ID2D1Brush interface [Direct2D]","SetTransform method","ID2D1Brush.SetTransform","ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F*)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1Brush interface","d2d1/ID2D1Brush::SetTransform","direct2d.ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F"]
 old-location: direct2d\ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
 ms.assetid: ef9fdd4f-6338-498e-bbed-5fc676fc53b3

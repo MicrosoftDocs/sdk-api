@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredUIParseUserNameA
 title: CredUIParseUserNameA function (wincred.h)
-description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.helpviewer_keywords: ["CredUIParseUserName","CredUIParseUserName function [Security]","CredUIParseUserNameA","CredUIParseUserNameW","_cred_creduiparseusername","security.creduiparseusername","wincred/CredUIParseUserName","wincred/CredUIParseUserNameA","wincred/CredUIParseUserNameW"]
+description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
+helpviewer_keywords: ["CredUIParseUserName","CredUIParseUserName function [Security]","CredUIParseUserNameA","CredUIParseUserNameW","_cred_creduiparseusername","security.creduiparseusername","wincred/CredUIParseUserName","wincred/CredUIParseUserNameA","wincred/CredUIParseUserNameW"]
 old-location: security\creduiparseusername.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.date: 12/05/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
@@ -168,6 +169,10 @@ The entire string is returned in the <i>User</i> parameter. The <i>Domain</i> pa
 </ul>
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredUIParseUserName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

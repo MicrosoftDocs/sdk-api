@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStartStopPosition
 title: IMFPMediaItem::SetStartStopPosition (mfplay.h)
-description: Sets the start and stop time for the media item.helpviewer_keywords: ["IMFPMediaItem interface [Media Foundation]","SetStartStopPosition method","IMFPMediaItem.SetStartStopPosition","IMFPMediaItem::SetStartStopPosition","SetStartStopPosition","SetStartStopPosition method [Media Foundation]","SetStartStopPosition method [Media Foundation]","IMFPMediaItem interface","mf.imfpmediaitem_setstartstopposition","mfplay/IMFPMediaItem::SetStartStopPosition"]
+description: Sets the start and stop time for the media item.
+helpviewer_keywords: ["IMFPMediaItem interface [Media Foundation]","SetStartStopPosition method","IMFPMediaItem.SetStartStopPosition","IMFPMediaItem::SetStartStopPosition","SetStartStopPosition","SetStartStopPosition method [Media Foundation]","SetStartStopPosition method [Media Foundation]","IMFPMediaItem interface","mf.imfpmediaitem_setstartstopposition","mfplay/IMFPMediaItem::SetStartStopPosition"]
 old-location: mf\imfpmediaitem_setstartstopposition.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStartStopPosition method, IMFPMediaItem.SetStartStopPosition, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition

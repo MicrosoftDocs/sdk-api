@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.Compress
 title: Compress function (compressapi.h)
-description: Takes a block of information and compresses it.helpviewer_keywords: ["Compress","Compress function [Compression API]","cmpapi.compress","compressapi/Compress"]
+description: Takes a block of information and compresses it.
+helpviewer_keywords: ["Compress","Compress function [Compression API]","cmpapi.compress","compressapi/Compress"]
 old-location: cmpapi\compress.htm
 tech.root: cmpapi
 ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
@@ -14,8 +15,8 @@ dev_langs:
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

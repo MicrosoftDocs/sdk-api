@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter2.Close
 title: IAppxPackageWriter2::Close (appxpackaging.h)
-description: Closes the package writer object's output stream.helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxPackageWriter2 interface","IAppxPackageWriter2 interface [App packaging and management]","Close method","IAppxPackageWriter2.Close","IAppxPackageWriter2::Close","appxpackaging/IAppxPackageWriter2::Close","appxpkg.iappxpackagewriter2_close"]
+description: Closes the package writer object's output stream.
+helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxPackageWriter2 interface","IAppxPackageWriter2 interface [App packaging and management]","Close method","IAppxPackageWriter2.Close","IAppxPackageWriter2::Close","appxpackaging/IAppxPackageWriter2::Close","appxpkg.iappxpackagewriter2_close"]
 old-location: appxpkg\iappxpackagewriter2_close.htm
 tech.root: appxpkg
 ms.assetid: C972B7D0-9E78-4E17-AA64-C33631A57A8F

@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.DeleteFileW
 title: DeleteFileW function (fileapi.h)
-description: Deletes an existing file.helpviewer_keywords: ["DeleteFile","DeleteFile function [Files]","DeleteFileA","DeleteFileW","_win32_deletefile","base.deletefile","fileapi/DeleteFile","fileapi/DeleteFileA","fileapi/DeleteFileW","fs.deletefile","winbase/DeleteFile","winbase/DeleteFileA","winbase/DeleteFileW"]
+description: Deletes an existing file.
+helpviewer_keywords: ["DeleteFile","DeleteFile function [Files]","DeleteFileA","DeleteFileW","_win32_deletefile","base.deletefile","fileapi/DeleteFile","fileapi/DeleteFileA","fileapi/DeleteFileW","fs.deletefile","winbase/DeleteFile","winbase/DeleteFileA","winbase/DeleteFileW"]
 old-location: fs\deletefile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
 ms.date: 12/05/2018
 ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, _win32_deletefile, base.deletefile, fileapi/DeleteFile, fileapi/DeleteFileA, fileapi/DeleteFileW, fs.deletefile, winbase/DeleteFile, winbase/DeleteFileA, winbase/DeleteFileW
@@ -209,6 +210,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines DeleteFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

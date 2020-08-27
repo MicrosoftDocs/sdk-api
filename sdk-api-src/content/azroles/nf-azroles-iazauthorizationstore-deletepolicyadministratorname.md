@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyAdministratorName
 title: IAzAuthorizationStore::DeletePolicyAdministratorName (azroles.h)
-description: Removes the specified account name from the list of principals that act as policy administrators.helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyAdministratorName method","DeletePolicyAdministratorName","DeletePolicyAdministratorName method [Security]","DeletePolicyAdministratorName method [Security]","AzAuthorizationStore object","DeletePolicyAdministratorName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyAdministratorName method","IAzAuthorizationStore.DeletePolicyAdministratorName","IAzAuthorizationStore::DeletePolicyAdministratorName","azroles/IAzAuthorizationStore::DeletePolicyAdministratorName","security.azauthorizationstore_deletepolicyadministratorname"]
+description: Removes the specified account name from the list of principals that act as policy administrators.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyAdministratorName method","DeletePolicyAdministratorName","DeletePolicyAdministratorName method [Security]","DeletePolicyAdministratorName method [Security]","AzAuthorizationStore object","DeletePolicyAdministratorName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyAdministratorName method","IAzAuthorizationStore.DeletePolicyAdministratorName","IAzAuthorizationStore::DeletePolicyAdministratorName","azroles/IAzAuthorizationStore::DeletePolicyAdministratorName","security.azauthorizationstore_deletepolicyadministratorname"]
 old-location: security\azauthorizationstore_deletepolicyadministratorname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 28be14c8-9e39-4410-a08c-b52bb63d0ce4
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzAuthorizationStore object, DeletePolicyAdministratorName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministratorName method, IAzAuthorizationStore.DeletePolicyAdministratorName, IAzAuthorizationStore::DeletePolicyAdministratorName, azroles/IAzAuthorizationStore::DeletePolicyAdministratorName, security.azauthorizationstore_deletepolicyadministratorname

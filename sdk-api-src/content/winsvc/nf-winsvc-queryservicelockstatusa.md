@@ -1,9 +1,10 @@
 ---
 UID: NF:winsvc.QueryServiceLockStatusA
 title: QueryServiceLockStatusA function (winsvc.h)
-description: Retrieves the lock status of the specified service control manager database.helpviewer_keywords: ["QueryServiceLockStatus","QueryServiceLockStatus function","QueryServiceLockStatusA","QueryServiceLockStatusW","_win32_queryservicelockstatus","base.queryservicelockstatus","winsvc/QueryServiceLockStatus","winsvc/QueryServiceLockStatusA","winsvc/QueryServiceLockStatusW"]
+description: Retrieves the lock status of the specified service control manager database.
+helpviewer_keywords: ["QueryServiceLockStatus","QueryServiceLockStatus function","QueryServiceLockStatusA","QueryServiceLockStatusW","_win32_queryservicelockstatus","base.queryservicelockstatus","winsvc/QueryServiceLockStatus","winsvc/QueryServiceLockStatusA","winsvc/QueryServiceLockStatusW"]
 old-location: base\queryservicelockstatus.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 5139d31b-65f1-41ba-852a-91eab1dc366e
 ms.date: 12/05/2018
 ms.keywords: QueryServiceLockStatus, QueryServiceLockStatus function, QueryServiceLockStatusA, QueryServiceLockStatusW, _win32_queryservicelockstatus, base.queryservicelockstatus, winsvc/QueryServiceLockStatus, winsvc/QueryServiceLockStatusA, winsvc/QueryServiceLockStatusW
@@ -153,6 +154,10 @@ A process calls the
 
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines QueryServiceLockStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

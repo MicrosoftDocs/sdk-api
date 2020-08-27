@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.DeleteClusterGroup
 title: DeleteClusterGroup function (clusapi.h)
-description: Removes an offline and empty group from a cluster.helpviewer_keywords: ["DeleteClusterGroup","DeleteClusterGroup function [Failover Cluster]","PCLUSAPI_DELETE_CLUSTER_GROUP","PCLUSAPI_DELETE_CLUSTER_GROUP function [Failover Cluster]","_wolf_deleteclustergroup","clusapi/DeleteClusterGroup","clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP","mscs.deleteclustergroup"]
+description: Removes an offline and empty group from a cluster.
+helpviewer_keywords: ["DeleteClusterGroup","DeleteClusterGroup function [Failover Cluster]","PCLUSAPI_DELETE_CLUSTER_GROUP","PCLUSAPI_DELETE_CLUSTER_GROUP function [Failover Cluster]","_wolf_deleteclustergroup","clusapi/DeleteClusterGroup","clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP","mscs.deleteclustergroup"]
 old-location: mscs\deleteclustergroup.htm
 tech.root: MsCS
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4

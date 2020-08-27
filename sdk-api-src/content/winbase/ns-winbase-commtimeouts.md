@@ -1,9 +1,10 @@
 ---
 UID: NS:winbase._COMMTIMEOUTS
 title: COMMTIMEOUTS (winbase.h)
-description: Contains the time-out parameters for a communications device.helpviewer_keywords: ["*LPCOMMTIMEOUTS","COMMTIMEOUTS","COMMTIMEOUTS structure","LPCOMMTIMEOUTS","LPCOMMTIMEOUTS structure pointer","_COMMTIMEOUTS","_win32_commtimeouts_str","base.commtimeouts_str","winbase/COMMTIMEOUTS","winbase/LPCOMMTIMEOUTS"]
+description: Contains the time-out parameters for a communications device.
+helpviewer_keywords: ["*LPCOMMTIMEOUTS","COMMTIMEOUTS","COMMTIMEOUTS structure","LPCOMMTIMEOUTS","LPCOMMTIMEOUTS structure pointer","_COMMTIMEOUTS","_win32_commtimeouts_str","base.commtimeouts_str","winbase/COMMTIMEOUTS","winbase/LPCOMMTIMEOUTS"]
 old-location: base\commtimeouts_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 259aa110-b2c3-4583-a3f9-805a42025a81
 ms.date: 12/05/2018
 ms.keywords: '*LPCOMMTIMEOUTS, COMMTIMEOUTS, COMMTIMEOUTS structure, LPCOMMTIMEOUTS, LPCOMMTIMEOUTS structure pointer, _COMMTIMEOUTS, _win32_commtimeouts_str, base.commtimeouts_str, winbase/COMMTIMEOUTS, winbase/LPCOMMTIMEOUTS'

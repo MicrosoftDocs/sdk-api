@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.media.streaming.RenderingParameters
 title: RenderingParameters (windows.media.streaming.h)
-description: Contains the current values of rendering parameters on the DMR.helpviewer_keywords: ["RenderingParameters","RenderingParameters structure [Media Streaming API]","mediastreaming.renderingparameters","windows/RenderingParameters"]
+description: Contains the current values of rendering parameters on the DMR.
+helpviewer_keywords: ["RenderingParameters","RenderingParameters structure [Media Streaming API]","mediastreaming.renderingparameters","windows/RenderingParameters"]
 old-location: mediastreaming\renderingparameters.htm
 tech.root: mediastreaming
 ms.assetid: d5a558e1-75c3-4276-a6e7-4b688f871031
@@ -69,12 +70,12 @@ Contains the current values of rendering parameters on the DMR.
 
 
 
-#### - mute
+### -field mute
 
 This value is <b>True</b> if audio is currently muted on the DMR, and is <b>False</b> otherwise.
 
 
-#### - volume
+### -field volume
 
 The current audio volume level of the device, in the range 0 to 100, or -1 if the device does not support controlling the volume level.  A value of 0 is the lowest volume and a value of 100 is the highest.
 

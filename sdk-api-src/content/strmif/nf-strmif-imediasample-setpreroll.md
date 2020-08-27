@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMediaSample.SetPreroll
 title: IMediaSample::SetPreroll (strmif.h)
-description: The SetPreroll method specifies whether this sample is a preroll sample.helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetPreroll method","IMediaSample.SetPreroll","IMediaSample::SetPreroll","IMediaSampleSetPreroll","SetPreroll","SetPreroll method [DirectShow]","SetPreroll method [DirectShow]","IMediaSample interface","dshow.imediasample_setpreroll","strmif/IMediaSample::SetPreroll"]
+description: The SetPreroll method specifies whether this sample is a preroll sample.
+helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetPreroll method","IMediaSample.SetPreroll","IMediaSample::SetPreroll","IMediaSampleSetPreroll","SetPreroll","SetPreroll method [DirectShow]","SetPreroll method [DirectShow]","IMediaSample interface","dshow.imediasample_setpreroll","strmif/IMediaSample::SetPreroll"]
 old-location: dshow\imediasample_setpreroll.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a92f2774-19ac-4630-ad66-2299336d1338
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetPreroll method, IMediaSample.SetPreroll, IMediaSample::SetPreroll, IMediaSampleSetPreroll, SetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_setpreroll, strmif/IMediaSample::SetPreroll

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSAStartup
 title: WSAStartup function (winsock2.h)
-description: Initiates use of the Winsock DLL by a process.helpviewer_keywords: ["WSAStartup","WSAStartup function [Winsock]","_win32_wsastartup_2","winsock.wsastartup_2","winsock/WSAStartup"]
+description: Initiates use of the Winsock DLL by a process.
+helpviewer_keywords: ["WSAStartup","WSAStartup function [Winsock]","_win32_wsastartup_2","winsock.wsastartup_2","winsock/WSAStartup"]
 old-location: winsock\wsastartup_2.htm
 tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
@@ -60,7 +61,7 @@ The
 
 
 
-#### - wVersionRequested [in]
+### -param wVersionRequested [in]
 
 The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
 

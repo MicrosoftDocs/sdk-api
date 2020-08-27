@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumSignatures
 title: IMetaDataImport::EnumSignatures (rometadataapi.h)
-description: Enumerates Signature tokens representing stand-alone signatures in the current scope.helpviewer_keywords: ["EnumSignatures","EnumSignatures method [Windows Runtime]","EnumSignatures method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumSignatures method","IMetaDataImport.EnumSignatures","IMetaDataImport::EnumSignatures","rometadataapi/IMetaDataImport::EnumSignatures","winrt.imetadataimport_enumsignatures"]
+description: Enumerates Signature tokens representing stand-alone signatures in the current scope.
+helpviewer_keywords: ["EnumSignatures","EnumSignatures method [Windows Runtime]","EnumSignatures method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumSignatures method","IMetaDataImport.EnumSignatures","IMetaDataImport::EnumSignatures","rometadataapi/IMetaDataImport::EnumSignatures","winrt.imetadataimport_enumsignatures"]
 old-location: winrt\imetadataimport_enumsignatures.htm
 tech.root: WinRT
 ms.assetid: 311cfa18-6eb5-4872-9a46-3c8dcf901f4f

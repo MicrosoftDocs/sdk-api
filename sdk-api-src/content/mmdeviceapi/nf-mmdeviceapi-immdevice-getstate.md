@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.GetState
 title: IMMDevice::GetState (mmdeviceapi.h)
-description: The GetState method retrieves the current device state.helpviewer_keywords: ["GetState","GetState method [Core Audio]","GetState method [Core Audio]","IMMDevice interface","IMMDevice interface [Core Audio]","GetState method","IMMDevice.GetState","IMMDevice::GetState","IMMDeviceGetState","coreaudio.immdevice_getstate","mmdeviceapi/IMMDevice::GetState"]
+description: The GetState method retrieves the current device state.
+helpviewer_keywords: ["GetState","GetState method [Core Audio]","GetState method [Core Audio]","IMMDevice interface","IMMDevice interface [Core Audio]","GetState method","IMMDevice.GetState","IMMDevice::GetState","IMMDeviceGetState","coreaudio.immdevice_getstate","mmdeviceapi/IMMDevice::GetState"]
 old-location: coreaudio\immdevice_getstate.htm
 tech.root: CoreAudio
 ms.assetid: 9b50773b-241c-4a32-8ab6-85adb3f885e1

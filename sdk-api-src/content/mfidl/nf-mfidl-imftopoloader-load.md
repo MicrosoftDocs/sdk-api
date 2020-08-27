@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTopoLoader.Load
 title: IMFTopoLoader::Load (mfidl.h)
-description: Creates a fully loaded topology from the input partial topology.helpviewer_keywords: ["02ce47db-54a1-456a-a763-c62039aea2c9","IMFTopoLoader interface [Media Foundation]","Load method","IMFTopoLoader.Load","IMFTopoLoader::Load","Load","Load method [Media Foundation]","Load method [Media Foundation]","IMFTopoLoader interface","mf.imftopoloader_load","mfidl/IMFTopoLoader::Load"]
+description: Creates a fully loaded topology from the input partial topology.
+helpviewer_keywords: ["02ce47db-54a1-456a-a763-c62039aea2c9","IMFTopoLoader interface [Media Foundation]","Load method","IMFTopoLoader.Load","IMFTopoLoader::Load","Load","Load method [Media Foundation]","Load method [Media Foundation]","IMFTopoLoader interface","mf.imftopoloader_load","mfidl/IMFTopoLoader::Load"]
 old-location: mf\imftopoloader_load.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
 ms.date: 12/05/2018
 ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load

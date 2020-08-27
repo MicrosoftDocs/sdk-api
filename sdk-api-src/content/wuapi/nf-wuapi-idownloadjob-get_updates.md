@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IDownloadJob.get_Updates
 title: IDownloadJob::get_Updates (wuapi.h)
-description: Gets an interface that contains a read-only collection of the updates that are specified in a download.helpviewer_keywords: ["IDownloadJob interface [Windows Update Agent]","Updates property","IDownloadJob.Updates","IDownloadJob.get_Updates","IDownloadJob::Updates","IDownloadJob::get_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IDownloadJob interface","get_Updates","wua.idownloadjob_updates","wuapi/IDownloadJob::Updates","wuapi/IDownloadJob::get_Updates"]
+description: Gets an interface that contains a read-only collection of the updates that are specified in a download.
+helpviewer_keywords: ["IDownloadJob interface [Windows Update Agent]","Updates property","IDownloadJob.Updates","IDownloadJob.get_Updates","IDownloadJob::Updates","IDownloadJob::get_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IDownloadJob interface","get_Updates","wua.idownloadjob_updates","wuapi/IDownloadJob::Updates","wuapi/IDownloadJob::get_Updates"]
 old-location: wua\idownloadjob_updates.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 43ceffc8-f045-4cac-976a-2357ab0d1283
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],Updates property, IDownloadJob.Updates, IDownloadJob.get_Updates, IDownloadJob::Updates, IDownloadJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IDownloadJob interface, get_Updates, wua.idownloadjob_updates, wuapi/IDownloadJob::Updates, wuapi/IDownloadJob::get_Updates

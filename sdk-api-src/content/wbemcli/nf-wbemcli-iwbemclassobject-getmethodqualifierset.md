@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodQualifierSet
 title: IWbemClassObject::GetMethodQualifierSet (wbemcli.h)
-description: The IWbemClassObject::GetMethodQualifierSet is used to retrieve the qualifier set for a particular method.helpviewer_keywords: ["GetMethodQualifierSet","GetMethodQualifierSet method [Windows Management Instrumentation]","GetMethodQualifierSet method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetMethodQualifierSet method","IWbemClassObject.GetMethodQualifierSet","IWbemClassObject::GetMethodQualifierSet","_hmm_iwbemclassobject_getmethodqualifierset","wbemcli/IWbemClassObject::GetMethodQualifierSet","wmi.iwbemclassobject_getmethodqualifierset"]
+description: The IWbemClassObject::GetMethodQualifierSet is used to retrieve the qualifier set for a particular method.
+helpviewer_keywords: ["GetMethodQualifierSet","GetMethodQualifierSet method [Windows Management Instrumentation]","GetMethodQualifierSet method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetMethodQualifierSet method","IWbemClassObject.GetMethodQualifierSet","IWbemClassObject::GetMethodQualifierSet","_hmm_iwbemclassobject_getmethodqualifierset","wbemcli/IWbemClassObject::GetMethodQualifierSet","wmi.iwbemclassobject_getmethodqualifierset"]
 old-location: wmi\iwbemclassobject_getmethodqualifierset.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: ba328f43-b08a-4b09-8aff-d7075cb6d419
 ms.date: 12/05/2018
 ms.keywords: GetMethodQualifierSet, GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodQualifierSet method, IWbemClassObject.GetMethodQualifierSet, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentCount
 title: IXpsOMGeometryFigure::GetSegmentCount (xpsobjectmodel.h)
-description: Gets the number of segments in the figure.helpviewer_keywords: ["GetSegmentCount","GetSegmentCount method [XPS Documents and Packaging]","GetSegmentCount method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentCount method","IXpsOMGeometryFigure.GetSegmentCount","IXpsOMGeometryFigure::GetSegmentCount","xps.ixpsomgeometryfigure_getsegmentcount","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount"]
+description: Gets the number of segments in the figure.
+helpviewer_keywords: ["GetSegmentCount","GetSegmentCount method [XPS Documents and Packaging]","GetSegmentCount method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentCount method","IXpsOMGeometryFigure.GetSegmentCount","IXpsOMGeometryFigure::GetSegmentCount","xps.ixpsomgeometryfigure_getsegmentcount","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount"]
 old-location: xps\ixpsomgeometryfigure_getsegmentcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 17b302c0-31e3-460b-9771-3f293c94447a
 ms.date: 12/05/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [XPS Documents and Packaging], GetSegmentCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentCount method, IXpsOMGeometryFigure.GetSegmentCount, IXpsOMGeometryFigure::GetSegmentCount, xps.ixpsomgeometryfigure_getsegmentcount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount

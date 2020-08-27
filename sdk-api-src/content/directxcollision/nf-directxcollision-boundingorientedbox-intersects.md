@@ -1,7 +1,9 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Intersects
 title: BoundingOrientedBox::Intersects
-description: Tests the BoundingOrientedBox for intersection with a BoundingSphere.helpviewer_keywords: ["BoundingOrientedBox::Intersects"]
+description: Tests the BoundingOrientedBox for intersection with a BoundingSphere.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingOrientedBox::Intersects"]
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Intersects
 f1_keywords:

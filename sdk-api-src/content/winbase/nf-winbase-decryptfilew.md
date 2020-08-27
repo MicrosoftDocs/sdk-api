@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.DecryptFileW
 title: DecryptFileW function (winbase.h)
-description: Decrypts an encrypted file or directory.helpviewer_keywords: ["DecryptFile","DecryptFile function [Files]","DecryptFileA","DecryptFileW","_win32_decryptfile","base.decryptfile","fs.decryptfile","winbase/DecryptFile","winbase/DecryptFileA","winbase/DecryptFileW"]
+description: Decrypts an encrypted file or directory.
+helpviewer_keywords: ["DecryptFile","DecryptFile function [Files]","DecryptFileA","DecryptFileW","_win32_decryptfile","base.decryptfile","fs.decryptfile","winbase/DecryptFile","winbase/DecryptFileA","winbase/DecryptFileW"]
 old-location: fs\decryptfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.date: 12/05/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
@@ -160,6 +161,10 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines DecryptFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

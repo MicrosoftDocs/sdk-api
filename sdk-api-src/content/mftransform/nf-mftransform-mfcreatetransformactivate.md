@@ -1,9 +1,10 @@
 ---
 UID: NF:mftransform.MFCreateTransformActivate
 title: MFCreateTransformActivate function (mftransform.h)
-description: Creates a generic activation object for Media Foundation transforms (MFTs).helpviewer_keywords: ["MFCreateTransformActivate","MFCreateTransformActivate function [Media Foundation]","mf.mfcreatetransformactivate","mftransform/MFCreateTransformActivate"]
+description: Creates a generic activation object for Media Foundation transforms (MFTs).
+helpviewer_keywords: ["MFCreateTransformActivate","MFCreateTransformActivate function [Media Foundation]","mf.mfcreatetransformactivate","mftransform/MFCreateTransformActivate"]
 old-location: mf\mfcreatetransformactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 845c7114-756b-4d0f-a92e-9c6e2eba7c94
 ms.date: 12/05/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate

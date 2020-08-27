@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataClient
 title: ISpatialAudioMetadataClient (spatialaudiometadata.h)
-description: Provides a class factory for creating ISpatialAudioMetadataItems, ISpatialAudioMetadataWriter, ISpatialAudioMetadataReader, and ISpatialAudioMetadataCopier objects.helpviewer_keywords: ["ISpatialAudioMetadataClient","ISpatialAudioMetadataClient interface [Core Audio]","ISpatialAudioMetadataClient interface [Core Audio]","described","coreaudio.ispatialaudiometadataclient","spatialaudiometadata/ISpatialAudioMetadataClient"]
+description: Provides a class factory for creating ISpatialAudioMetadataItems, ISpatialAudioMetadataWriter, ISpatialAudioMetadataReader, and ISpatialAudioMetadataCopier objects.
+helpviewer_keywords: ["ISpatialAudioMetadataClient","ISpatialAudioMetadataClient interface [Core Audio]","ISpatialAudioMetadataClient interface [Core Audio]","described","coreaudio.ispatialaudiometadataclient","spatialaudiometadata/ISpatialAudioMetadataClient"]
 old-location: coreaudio\ispatialaudiometadataclient.htm
 tech.root: CoreAudio
 ms.assetid: 42EDD4D2-3DAA-4F8F-A71C-7EDFEBBCB3FB

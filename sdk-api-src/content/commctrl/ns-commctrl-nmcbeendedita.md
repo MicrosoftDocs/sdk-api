@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.__unnamed_struct_14
 title: NMCBEENDEDITA (commctrl.h)
-description: Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the CBEN_ENDEDIT notification code.helpviewer_keywords: ["*LPNMCBEENDEDITA","*PNMCBEENDEDITA","CBENF_DROPDOWN","CBENF_ESCAPE","CBENF_KILLFOCUS","CBENF_RETURN","NMCBEENDEDIT","NMCBEENDEDIT structure [Windows Controls]","NMCBEENDEDITA","NMCBEENDEDITW","PNMCBEENDEDIT","PNMCBEENDEDIT structure pointer [Windows Controls]","_win32_NMCBEENDEDIT","_win32_NMCBEENDEDIT_cpp","commctrl/NMCBEENDEDIT","commctrl/NMCBEENDEDITA","commctrl/NMCBEENDEDITW","commctrl/PNMCBEENDEDIT","controls.NMCBEENDEDIT","controls._win32_NMCBEENDEDIT"]
+description: Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the CBEN_ENDEDIT notification code.
+helpviewer_keywords: ["*LPNMCBEENDEDITA","*PNMCBEENDEDITA","CBENF_DROPDOWN","CBENF_ESCAPE","CBENF_KILLFOCUS","CBENF_RETURN","NMCBEENDEDIT","NMCBEENDEDIT structure [Windows Controls]","NMCBEENDEDITA","NMCBEENDEDITW","PNMCBEENDEDIT","PNMCBEENDEDIT structure pointer [Windows Controls]","_win32_NMCBEENDEDIT","_win32_NMCBEENDEDIT_cpp","commctrl/NMCBEENDEDIT","commctrl/NMCBEENDEDITA","commctrl/NMCBEENDEDITW","commctrl/PNMCBEENDEDIT","controls.NMCBEENDEDIT","controls._win32_NMCBEENDEDIT"]
 old-location: controls\NMCBEENDEDIT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbeendedit.htm
@@ -140,4 +141,9 @@ The user completed the edit operation by pressing ENTER.
 </tr>
 </table>
  
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMCBEENDEDIT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

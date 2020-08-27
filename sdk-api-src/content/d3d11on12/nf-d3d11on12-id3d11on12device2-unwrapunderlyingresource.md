@@ -2,6 +2,7 @@
 UID: NF:d3d11on12.ID3D11On12Device2.UnwrapUnderlyingResource
 title: ID3D11On12Device2::UnwrapUnderlyingResource
 description: Unwraps a Direct3D 11 resource object, and retrieves it as a Direct3D 12 resource object.
+tech.root: direct3d12
 ms.date: 01/22/2020
 targetos: Windows
 req.assembly: 

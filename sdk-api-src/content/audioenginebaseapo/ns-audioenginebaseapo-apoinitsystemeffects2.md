@@ -1,7 +1,8 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects2
 title: APOInitSystemEffects2 (audioenginebaseapo.h)
-description: The APOInitSystemEffects2 structure was introduced with Windows 8.1, to make it possible to provide additional initialization context to the audio processing object (APO) for initialization.helpviewer_keywords: ["APOInitSystemEffects2","APOInitSystemEffects2 structure [Audio Devices]","PAPOInitSystemEffects2","PAPOInitSystemEffects2 structure pointer [Audio Devices]","audio.apoinitsystemeffects2","audioenginebaseapo/APOInitSystemEffects2","audioenginebaseapo/PAPOInitSystemEffects2"]
+description: The APOInitSystemEffects2 structure was introduced with Windows 8.1, to make it possible to provide additional initialization context to the audio processing object (APO) for initialization.
+helpviewer_keywords: ["APOInitSystemEffects2","APOInitSystemEffects2 structure [Audio Devices]","PAPOInitSystemEffects2","PAPOInitSystemEffects2 structure pointer [Audio Devices]","audio.apoinitsystemeffects2","audioenginebaseapo/APOInitSystemEffects2","audioenginebaseapo/PAPOInitSystemEffects2"]
 old-location: audio\apoinitsystemeffects2.htm
 tech.root: audio
 ms.assetid: 87E59FCE-1965-4B23-B1F5-F54FEDD5A83E
@@ -80,7 +81,7 @@ Reserved for future use.
 
 ### -field pDeviceCollection
 
-A pointer to an IMMDeviceCollection object.
+A pointer to an IMMDeviceCollection object. The last item in the *pDeviceCollection* is always the [IMMDevice](/windows/win32/api/mmdeviceapi/nn-mmdeviceapi-immdevice) representing the audio endpoint. 
 
 
 ### -field nSoftwareIoDeviceInCollection

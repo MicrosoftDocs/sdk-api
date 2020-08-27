@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiDatabaseMergeA
 title: MsiDatabaseMergeA function (msiquery.h)
-description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.helpviewer_keywords: ["MsiDatabaseMerge","MsiDatabaseMerge function","MsiDatabaseMergeA","MsiDatabaseMergeW","_msi_msidatabasemerge","msiquery/MsiDatabaseMerge","msiquery/MsiDatabaseMergeA","msiquery/MsiDatabaseMergeW","setup.msidatabasemerge"]
+description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
+helpviewer_keywords: ["MsiDatabaseMerge","MsiDatabaseMerge function","MsiDatabaseMergeA","MsiDatabaseMergeW","_msi_msidatabasemerge","msiquery/MsiDatabaseMerge","msiquery/MsiDatabaseMergeA","msiquery/MsiDatabaseMergeW","setup.msidatabasemerge"]
 old-location: setup\msidatabasemerge.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
@@ -203,6 +204,10 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiDatabaseMerge as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

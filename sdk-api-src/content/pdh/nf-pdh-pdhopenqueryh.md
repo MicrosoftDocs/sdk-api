@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhOpenQueryH
 title: PdhOpenQueryH function (pdh.h)
-description: Creates a new query that is used to manage the collection of performance data. This function is identical to the PdhOpenQuery function, except that it supports the use of handles to data sources.helpviewer_keywords: ["PdhOpenQueryH","PdhOpenQueryH function [Perf]","_win32_pdhopenqueryh","base.pdhopenqueryh","pdh/PdhOpenQueryH","perf.pdhopenqueryh"]
+description: Creates a new query that is used to manage the collection of performance data. This function is identical to the PdhOpenQuery function, except that it supports the use of handles to data sources.
+helpviewer_keywords: ["PdhOpenQueryH","PdhOpenQueryH function [Perf]","_win32_pdhopenqueryh","base.pdhopenqueryh","pdh/PdhOpenQueryH","perf.pdhopenqueryh"]
 old-location: perf\pdhopenqueryh.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 068c55da-d7e0-4111-91c8-a2bbd676f99d
 ms.date: 12/05/2018
 ms.keywords: PdhOpenQueryH, PdhOpenQueryH function [Perf], _win32_pdhopenqueryh, base.pdhopenqueryh, pdh/PdhOpenQueryH, perf.pdhopenqueryh

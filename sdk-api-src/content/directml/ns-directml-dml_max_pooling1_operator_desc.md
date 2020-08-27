@@ -2,7 +2,7 @@
 UID: NS:directml.DML_MAX_POOLING1_OPERATOR_DESC
 title: DML_MAX_POOLING1_OPERATOR_DESC
 description: Describes a DirectML operator that performs a max pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths).
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/31/2020
 dev_langs:
 - c++

@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiGetFeatureValidStatesW
 title: MsiGetFeatureValidStatesW function (msiquery.h)
-description: The MsiGetFeatureValidStates function returns a valid installation state.helpviewer_keywords: ["16","2","32","4","8","MsiGetFeatureValidStates","MsiGetFeatureValidStates function","MsiGetFeatureValidStatesA","MsiGetFeatureValidStatesW","_msi_msigetfeaturevalidstates","msiquery/MsiGetFeatureValidStates","msiquery/MsiGetFeatureValidStatesA","msiquery/MsiGetFeatureValidStatesW","setup.msigetfeaturevalidstates"]
+description: The MsiGetFeatureValidStates function returns a valid installation state.
+helpviewer_keywords: ["16","2","32","4","8","MsiGetFeatureValidStates","MsiGetFeatureValidStates function","MsiGetFeatureValidStatesA","MsiGetFeatureValidStatesW","_msi_msigetfeaturevalidstates","msiquery/MsiGetFeatureValidStates","msiquery/MsiGetFeatureValidStatesA","msiquery/MsiGetFeatureValidStatesW","setup.msigetfeaturevalidstates"]
 old-location: setup\msigetfeaturevalidstates.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.date: 12/05/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
@@ -181,6 +182,10 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiGetFeatureValidStates as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

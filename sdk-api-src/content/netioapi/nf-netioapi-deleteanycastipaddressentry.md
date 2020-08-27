@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.DeleteAnycastIpAddressEntry
 title: DeleteAnycastIpAddressEntry function (netioapi.h)
-description: Deletes an existing anycast IP address entry on the local computer.helpviewer_keywords: ["DeleteAnycastIpAddressEntry","DeleteAnycastIpAddressEntry function [IP Helper]","iphlp.deleteanycastipaddressentry","netioapi/DeleteAnycastIpAddressEntry"]
+description: Deletes an existing anycast IP address entry on the local computer.
+helpviewer_keywords: ["DeleteAnycastIpAddressEntry","DeleteAnycastIpAddressEntry function [IP Helper]","iphlp.deleteanycastipaddressentry","netioapi/DeleteAnycastIpAddressEntry"]
 old-location: iphlp\deleteanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305

@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateMasteringVoice
 title: IXAudio2::CreateMasteringVoice (xaudio2.h)
-description: Creates and configures a mastering voice.helpviewer_keywords: ["CreateMasteringVoice","CreateMasteringVoice method [XAudio2 Audio Mixing APIs]","CreateMasteringVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateMasteringVoice method","IXAudio2.CreateMasteringVoice","IXAudio2::CreateMasteringVoice","xaudio2.ixaudio2_interface_createmasteringvoice","xaudio2/IXAudio2::CreateMasteringVoice"]
+description: Creates and configures a mastering voice.
+helpviewer_keywords: ["CreateMasteringVoice","CreateMasteringVoice method [XAudio2 Audio Mixing APIs]","CreateMasteringVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateMasteringVoice method","IXAudio2.CreateMasteringVoice","IXAudio2::CreateMasteringVoice","xaudio2.ixaudio2_interface_createmasteringvoice","xaudio2/IXAudio2::CreateMasteringVoice"]
 old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAudio2MasteringVoice@,UINT32,UINT32,UINT32,LPCWSTR,const XAUDIO2_EFFECT_CHAIN,AUDIO_STREAM_CATEGORY)
@@ -69,12 +70,12 @@ TBD
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
  Flags that specify the behavior of the mastering voice. Must be 0.
 
 
-#### - InputChannels [in]
+### -param InputChannels [in]
 
 Number of channels the mastering voice expects in its input audio. 
 <i>InputChannels</i> must be less than or equal to XAUDIO2_MAX_AUDIO_CHANNELS.
@@ -86,7 +87,7 @@ You can set <i>InputChannels</i> to XAUDIO2_DEFAULT_CHANNELS, which causes XAudi
 
 
 
-#### - InputSampleRate [in]
+### -param InputSampleRate [in]
 
 Sample rate of the input audio data of the mastering voice. This rate must be a multiple of XAUDIO2_QUANTUM_DENOMINATOR. 
 <i>InputSampleRate</i> must be between XAUDIO2_MIN_SAMPLE_RATE and XAUDIO2_MAX_SAMPLE_RATE.
@@ -107,17 +108,17 @@ Flags
 
 
 
-#### - StreamCategory [in, optional]
+### -param StreamCategory [in, optional]
 
 The audio stream category to use for this mastering voice.
 
 
-#### - pEffectChain [in, optional]
+### -param pEffectChain [in, optional]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain">XAUDIO2_EFFECT_CHAIN</a> structure that describes an effect chain to use in the mastering voice, or NULL to use no effects.
 
 
-#### - szDeviceId [in]
+### -param szDeviceId [in]
 
 Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
 

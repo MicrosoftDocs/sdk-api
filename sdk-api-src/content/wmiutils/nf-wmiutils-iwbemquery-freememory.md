@@ -1,9 +1,10 @@
 ---
 UID: NF:wmiutils.IWbemQuery.FreeMemory
 title: IWbemQuery::FreeMemory (wmiutils.h)
-description: The IWbemQuery::FreeMemory method frees the memory that the parser returns to a caller in a previous call to GetAnalysis.helpviewer_keywords: ["FreeMemory","FreeMemory method [Windows Management Instrumentation]","FreeMemory method [Windows Management Instrumentation]","IWbemQuery interface","IWbemQuery interface [Windows Management Instrumentation]","FreeMemory method","IWbemQuery.FreeMemory","IWbemQuery::FreeMemory","_hmm_iwbemquery_freememory","wmi.iwbemquery_freememory","wmiutils/IWbemQuery::FreeMemory"]
+description: The IWbemQuery::FreeMemory method frees the memory that the parser returns to a caller in a previous call to GetAnalysis.
+helpviewer_keywords: ["FreeMemory","FreeMemory method [Windows Management Instrumentation]","FreeMemory method [Windows Management Instrumentation]","IWbemQuery interface","IWbemQuery interface [Windows Management Instrumentation]","FreeMemory method","IWbemQuery.FreeMemory","IWbemQuery::FreeMemory","_hmm_iwbemquery_freememory","wmi.iwbemquery_freememory","wmiutils/IWbemQuery::FreeMemory"]
 old-location: wmi\iwbemquery_freememory.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: fbc4329d-73b8-4104-b3e0-e6dc12938b4f
 ms.date: 12/05/2018
 ms.keywords: FreeMemory, FreeMemory method [Windows Management Instrumentation], FreeMemory method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],FreeMemory method, IWbemQuery.FreeMemory, IWbemQuery::FreeMemory, _hmm_iwbemquery_freememory, wmi.iwbemquery_freememory, wmiutils/IWbemQuery::FreeMemory

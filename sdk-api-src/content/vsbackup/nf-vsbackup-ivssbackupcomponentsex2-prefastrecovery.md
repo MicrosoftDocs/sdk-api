@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.PreFastRecovery
 title: IVssBackupComponentsEx2::PreFastRecovery (vsbackup.h)
-description: This method is reserved for future use.helpviewer_keywords: ["IVssBackupComponentsEx2 interface","PreFastRecovery method","IVssBackupComponentsEx2.PreFastRecovery","IVssBackupComponentsEx2::PreFastRecovery","PreFastRecovery","PreFastRecovery method","PreFastRecovery method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_prefastrecovery","vsbackup/IVssBackupComponentsEx2::PreFastRecovery"]
+description: This method is reserved for future use.
+helpviewer_keywords: ["IVssBackupComponentsEx2 interface","PreFastRecovery method","IVssBackupComponentsEx2.PreFastRecovery","IVssBackupComponentsEx2::PreFastRecovery","PreFastRecovery","PreFastRecovery method","PreFastRecovery method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_prefastrecovery","vsbackup/IVssBackupComponentsEx2::PreFastRecovery"]
 old-location: base\ivssbackupcomponentsex2_prefastrecovery.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ba06e324-0f17-4184-bc53-dcb82fb49292
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,PreFastRecovery method, IVssBackupComponentsEx2.PreFastRecovery, IVssBackupComponentsEx2::PreFastRecovery, PreFastRecovery, PreFastRecovery method, PreFastRecovery method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_prefastrecovery, vsbackup/IVssBackupComponentsEx2::PreFastRecovery

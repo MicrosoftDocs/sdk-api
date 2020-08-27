@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_ASYNC_STATE
 title: WS_ASYNC_STATE (webservices.h)
-description: Used by WsAsyncExecute to manage the state of an asynchronous operation.helpviewer_keywords: ["WS_ASYNC_STATE","WS_ASYNC_STATE structure [Web Services for Windows]","webservices/WS_ASYNC_STATE","wsw.ws_async_state"]
+description: Used by WsAsyncExecute to manage the state of an asynchronous operation.
+helpviewer_keywords: ["WS_ASYNC_STATE","WS_ASYNC_STATE structure [Web Services for Windows]","webservices/WS_ASYNC_STATE","wsw.ws_async_state"]
 old-location: wsw\ws_async_state.htm
 tech.root: wsw
 ms.assetid: ca7f14a9-bee8-46ed-a082-7e64a41f7493

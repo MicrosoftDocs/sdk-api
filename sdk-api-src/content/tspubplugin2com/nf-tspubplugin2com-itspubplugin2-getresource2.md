@@ -1,7 +1,8 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2
 title: ItsPubPlugin2::GetResource2 (tspubplugin2com.h)
-description: This method is reserved and should always return E_NOTIMPL.helpviewer_keywords: ["GetResource2","GetResource2 method [Remote Desktop Services]","GetResource2 method [Remote Desktop Services]","ItsPubPlugin2 interface","ItsPubPlugin2 interface [Remote Desktop Services]","GetResource2 method","ItsPubPlugin2.GetResource2","ItsPubPlugin2::GetResource2","termserv.itspubplugin2_getresource2","tspubplugin2com/ItsPubPlugin2::GetResource2"]
+description: This method is reserved and should always return E_NOTIMPL.
+helpviewer_keywords: ["GetResource2","GetResource2 method [Remote Desktop Services]","GetResource2 method [Remote Desktop Services]","ItsPubPlugin2 interface","ItsPubPlugin2 interface [Remote Desktop Services]","GetResource2 method","ItsPubPlugin2.GetResource2","ItsPubPlugin2::GetResource2","termserv.itspubplugin2_getresource2","tspubplugin2com/ItsPubPlugin2::GetResource2"]
 old-location: termserv\itspubplugin2_getresource2.htm
 tech.root: TermServ
 ms.assetid: 8edb3f28-0796-478e-bf0a-b157e1e12dc2

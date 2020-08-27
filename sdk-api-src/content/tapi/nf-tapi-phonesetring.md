@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneSetRing
 title: phoneSetRing function (tapi.h)
-description: The phoneSetRing function rings the specified open phone device using the specified ring mode and volume.helpviewer_keywords: ["_tapi2_phonesetring","phoneSetRing","phoneSetRing function [TAPI 2.2]","tapi/phoneSetRing","tapi2.phonesetring"]
+description: The phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
+helpviewer_keywords: ["_tapi2_phonesetring","phoneSetRing","phoneSetRing function [TAPI 2.2]","tapi/phoneSetRing","tapi2.phonesetring"]
 old-location: tapi2\phonesetring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 14aca99e-e190-4c48-95f2-0b2a3ba3de3f
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonesetring, phoneSetRing, phoneSetRing function [TAPI 2.2], tapi/phoneSetRing, tapi2.phonesetring

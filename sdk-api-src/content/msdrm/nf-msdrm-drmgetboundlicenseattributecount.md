@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseAttributeCount
 title: DRMGetBoundLicenseAttributeCount function (msdrm.h)
-description: Retrieves the number of occurrences of an attribute in a license.helpviewer_keywords: ["DRMGetBoundLicenseAttributeCount","DRMGetBoundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetBoundLicenseAttributeCount","rm.drmgetboundlicenseattributecount"]
+description: Retrieves the number of occurrences of an attribute in a license.
+helpviewer_keywords: ["DRMGetBoundLicenseAttributeCount","DRMGetBoundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetBoundLicenseAttributeCount","rm.drmgetboundlicenseattributecount"]
 old-location: rm\drmgetboundlicenseattributecount.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 5b3814f5-bab7-4b46-a38b-54406cb8cae0
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseAttributeCount, DRMGetBoundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttributeCount, rm.drmgetboundlicenseattributecount

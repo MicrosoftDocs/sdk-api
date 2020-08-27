@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteLocalFontFileLoader
 title: IDWriteLocalFontFileLoader (dwrite.h)
-description: A built-in implementation of the IDWriteFontFileLoader interface, that operates on local font files and exposes local font file information from the font file reference key.helpviewer_keywords: ["IDWriteLocalFontFileLoader","IDWriteLocalFontFileLoader interface [Direct Write]","IDWriteLocalFontFileLoader interface [Direct Write]","described","directwrite.idwritelocalfontfileloader","dwrite/IDWriteLocalFontFileLoader"]
+description: A built-in implementation of the IDWriteFontFileLoader interface, that operates on local font files and exposes local font file information from the font file reference key.
+helpviewer_keywords: ["IDWriteLocalFontFileLoader","IDWriteLocalFontFileLoader interface [Direct Write]","IDWriteLocalFontFileLoader interface [Direct Write]","described","directwrite.idwritelocalfontfileloader","dwrite/IDWriteLocalFontFileLoader"]
 old-location: directwrite\idwritelocalfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: acb777c8-24c6-452e-8f58-8fb2ad8c0b6c

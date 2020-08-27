@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSecurity
 title: IOCSPAdmin::GetSecurity (certadm.h)
-description: Gets security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.helpviewer_keywords: ["GetSecurity","GetSecurity method [Security]","GetSecurity method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetSecurity method","IOCSPAdmin.GetSecurity","IOCSPAdmin::GetSecurity","certadm/IOCSPAdmin::GetSecurity","security.iocspadmin_getsecurity"]
+description: Gets security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
+helpviewer_keywords: ["GetSecurity","GetSecurity method [Security]","GetSecurity method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetSecurity method","IOCSPAdmin.GetSecurity","IOCSPAdmin::GetSecurity","certadm/IOCSPAdmin::GetSecurity","security.iocspadmin_getsecurity"]
 old-location: security\iocspadmin_getsecurity.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0859ea85-66b2-45af-9559-c81e6a766cfc
 ms.date: 12/05/2018
 ms.keywords: GetSecurity, GetSecurity method [Security], GetSecurity method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSecurity method, IOCSPAdmin.GetSecurity, IOCSPAdmin::GetSecurity, certadm/IOCSPAdmin::GetSecurity, security.iocspadmin_getsecurity

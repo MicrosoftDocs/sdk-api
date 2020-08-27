@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.FindCloseChangeNotification
 title: FindCloseChangeNotification function (fileapi.h)
-description: Stops change notification handle monitoring.helpviewer_keywords: ["FindCloseChangeNotification","FindCloseChangeNotification function [Files]","_win32_findclosechangenotification","base.findclosechangenotification","fileapi/FindCloseChangeNotification","fs.findclosechangenotification","winbase/FindCloseChangeNotification"]
+description: Stops change notification handle monitoring.
+helpviewer_keywords: ["FindCloseChangeNotification","FindCloseChangeNotification function [Files]","_win32_findclosechangenotification","base.findclosechangenotification","fileapi/FindCloseChangeNotification","fs.findclosechangenotification","winbase/FindCloseChangeNotification"]
 old-location: fs\findclosechangenotification.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 17ca915c-3891-41f0-8816-6ac31c957afe
 ms.date: 12/05/2018
 ms.keywords: FindCloseChangeNotification, FindCloseChangeNotification function [Files], _win32_findclosechangenotification, base.findclosechangenotification, fileapi/FindCloseChangeNotification, fs.findclosechangenotification, winbase/FindCloseChangeNotification

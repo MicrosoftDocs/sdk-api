@@ -1,9 +1,10 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetSize
 title: TRefPointerCollection::GetSize (refptrco.h)
-description: The GetSize method returns how many items are in the list.helpviewer_keywords: ["GetSize","GetSize method [Windows Management Instrumentation]","GetSize method [Windows Management Instrumentation]","TRefPointerCollection interface","TRefPointerCollection interface [Windows Management Instrumentation]","GetSize method","TRefPointerCollection.GetSize","TRefPointerCollection::GetSize","_hmm_trefpointercollection_getsize","refptrco/TRefPointerCollection::GetSize","wmi.trefpointercollection_getsize"]
+description: The GetSize method returns how many items are in the list.
+helpviewer_keywords: ["GetSize","GetSize method [Windows Management Instrumentation]","GetSize method [Windows Management Instrumentation]","TRefPointerCollection interface","TRefPointerCollection interface [Windows Management Instrumentation]","GetSize method","TRefPointerCollection.GetSize","TRefPointerCollection::GetSize","_hmm_trefpointercollection_getsize","refptrco/TRefPointerCollection::GetSize","wmi.trefpointercollection_getsize"]
 old-location: wmi\trefpointercollection_getsize.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize

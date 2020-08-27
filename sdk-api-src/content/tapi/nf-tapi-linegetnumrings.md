@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGetNumRings
 title: lineGetNumRings function (tapi.h)
-description: The lineGetNumRings function determines the number of rings an incoming call on the given address should ring prior to answering the call.helpviewer_keywords: ["_tapi2_linegetnumrings","lineGetNumRings","lineGetNumRings function [TAPI 2.2]","tapi/lineGetNumRings","tapi2.linegetnumrings"]
+description: The lineGetNumRings function determines the number of rings an incoming call on the given address should ring prior to answering the call.
+helpviewer_keywords: ["_tapi2_linegetnumrings","lineGetNumRings","lineGetNumRings function [TAPI 2.2]","tapi/lineGetNumRings","tapi2.linegetnumrings"]
 old-location: tapi2\linegetnumrings.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7aee6396-6045-4e7b-9df9-3729159ea4b2
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetnumrings, lineGetNumRings, lineGetNumRings function [TAPI 2.2], tapi/lineGetNumRings, tapi2.linegetnumrings

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPackage1.WriteToStream1
 title: IXpsOMPackage1::WriteToStream1 (xpsobjectmodel_1.h)
-description: Writes an XPS OM to a stream as an XPS package of a specified type.helpviewer_keywords: ["IXpsOMPackage1 interface [XPS Documents and Packaging]","WriteToStream1 method","IXpsOMPackage1.WriteToStream1","IXpsOMPackage1::WriteToStream1","WriteToStream1","WriteToStream1 method [XPS Documents and Packaging]","WriteToStream1 method [XPS Documents and Packaging]","IXpsOMPackage1 interface","xps.ixpsompackage1_writetostream1","xpsobjectmodel_1/IXpsOMPackage1::WriteToStream1"]
+description: Writes an XPS OM to a stream as an XPS package of a specified type.
+helpviewer_keywords: ["IXpsOMPackage1 interface [XPS Documents and Packaging]","WriteToStream1 method","IXpsOMPackage1.WriteToStream1","IXpsOMPackage1::WriteToStream1","WriteToStream1","WriteToStream1 method [XPS Documents and Packaging]","WriteToStream1 method [XPS Documents and Packaging]","IXpsOMPackage1 interface","xps.ixpsompackage1_writetostream1","xpsobjectmodel_1/IXpsOMPackage1::WriteToStream1"]
 old-location: xps\ixpsompackage1_writetostream1.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7f430aa1-1570-44d6-9aec-a4b2fb55f2dc
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage1 interface [XPS Documents and Packaging],WriteToStream1 method, IXpsOMPackage1.WriteToStream1, IXpsOMPackage1::WriteToStream1, WriteToStream1, WriteToStream1 method [XPS Documents and Packaging], WriteToStream1 method [XPS Documents and Packaging],IXpsOMPackage1 interface, xps.ixpsompackage1_writetostream1, xpsobjectmodel_1/IXpsOMPackage1::WriteToStream1

@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3DDevice
 title: CreateDirect3DDevice
-description: Creates an instance of [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) from an [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice).helpviewer_keywords: ["interop::CreateDirect3DDevice"]
+description: Creates an instance of [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) from an [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice).
+helpviewer_keywords: ["interop::CreateDirect3DDevice"]
 tech.root: winrt
 ms.assetid: 0eaed3be-e3d8-b431-68cc-e4e1baf5c6fe
 ms.date: 05/13/2019

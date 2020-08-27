@@ -1,7 +1,8 @@
 ---
 UID: NS:projectedfslib.PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 title: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS (projectedfslib.h)
-description: Specifies parameters required for completing certain callbacks.helpviewer_keywords: ["PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS","PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure","ProjFS.prj_complete_command_extended_parameters","projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"]
+description: Specifies parameters required for completing certain callbacks.
+helpviewer_keywords: ["PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS","PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure","ProjFS.prj_complete_command_extended_parameters","projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"]
 old-location: projfs\prj_complete_command_extended_parameters.htm
 tech.root: ProjFS
 ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011
@@ -81,7 +82,7 @@ A new set of notifications the provider wishes to receive.
 An opaque handle to a directory entry buffer. This must be the value passed in the dirEntryBufferHandle parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback being completed.
 
 
-#### - commandType
+### -field commandType
 
 The type of command.
 

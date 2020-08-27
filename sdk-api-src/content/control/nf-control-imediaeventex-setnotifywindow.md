@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyWindow
 title: IMediaEventEx::SetNotifyWindow (control.h)
-description: The SetNotifyWindow method registers a window to process event notifications.helpviewer_keywords: ["IMediaEventEx interface [DirectShow]","SetNotifyWindow method","IMediaEventEx.SetNotifyWindow","IMediaEventEx::SetNotifyWindow","IMediaEventExSetNotifyWindow","SetNotifyWindow","SetNotifyWindow method [DirectShow]","SetNotifyWindow method [DirectShow]","IMediaEventEx interface","control/IMediaEventEx::SetNotifyWindow","dshow.imediaeventex_setnotifywindow"]
+description: The SetNotifyWindow method registers a window to process event notifications.
+helpviewer_keywords: ["IMediaEventEx interface [DirectShow]","SetNotifyWindow method","IMediaEventEx.SetNotifyWindow","IMediaEventEx::SetNotifyWindow","IMediaEventExSetNotifyWindow","SetNotifyWindow","SetNotifyWindow method [DirectShow]","SetNotifyWindow method [DirectShow]","IMediaEventEx interface","control/IMediaEventEx::SetNotifyWindow","dshow.imediaeventex_setnotifywindow"]
 old-location: dshow\imediaeventex_setnotifywindow.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3e582c79-b8c7-40be-97fd-75d5b7965570
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyWindow method, IMediaEventEx.SetNotifyWindow, IMediaEventEx::SetNotifyWindow, IMediaEventExSetNotifyWindow, SetNotifyWindow, SetNotifyWindow method [DirectShow], SetNotifyWindow method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyWindow, dshow.imediaeventex_setnotifywindow

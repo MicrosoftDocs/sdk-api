@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineRedirect
 title: lineRedirect function (tapi.h)
-description: The lineRedirect function redirects the specified offering call to the specified destination address.helpviewer_keywords: ["_tapi2_lineredirect","lineRedirect","lineRedirect function [TAPI 2.2]","lineRedirectA","lineRedirectW","tapi/lineRedirect","tapi/lineRedirectA","tapi/lineRedirectW","tapi2.lineredirect"]
+description: The lineRedirect function redirects the specified offering call to the specified destination address.
+helpviewer_keywords: ["_tapi2_lineredirect","lineRedirect","lineRedirect function [TAPI 2.2]","lineRedirectA","lineRedirectW","tapi/lineRedirect","tapi/lineRedirectA","tapi/lineRedirectW","tapi2.lineredirect"]
 old-location: tapi2\lineredirect.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 014465af-26a7-451e-9d32-2e020d1043b0
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineredirect, lineRedirect, lineRedirect function [TAPI 2.2], lineRedirectA, lineRedirectW, tapi/lineRedirect, tapi/lineRedirectA, tapi/lineRedirectW, tapi2.lineredirect

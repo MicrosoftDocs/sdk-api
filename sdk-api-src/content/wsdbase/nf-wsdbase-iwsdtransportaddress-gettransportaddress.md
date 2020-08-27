@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddress
 title: IWSDTransportAddress::GetTransportAddress (wsdbase.h)
-description: Gets a pointer to a string representation of the address object.helpviewer_keywords: ["GetTransportAddress","GetTransportAddress method","GetTransportAddress method","IWSDTransportAddress interface","IWSDTransportAddress interface","GetTransportAddress method","IWSDTransportAddress.GetTransportAddress","IWSDTransportAddress::GetTransportAddress","ncd.iwsdtransportaddress_gettransportaddress","wsdbase/IWSDTransportAddress::GetTransportAddress"]
+description: Gets a pointer to a string representation of the address object.
+helpviewer_keywords: ["GetTransportAddress","GetTransportAddress method","GetTransportAddress method","IWSDTransportAddress interface","IWSDTransportAddress interface","GetTransportAddress method","IWSDTransportAddress.GetTransportAddress","IWSDTransportAddress::GetTransportAddress","ncd.iwsdtransportaddress_gettransportaddress","wsdbase/IWSDTransportAddress::GetTransportAddress"]
 old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
 ms.date: 12/05/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress

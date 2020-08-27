@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.CompositeImage
 title: IVMRImageCompositor::CompositeImage (strmif.h)
-description: The CompositeImage method composites the current frames available in each input stream.helpviewer_keywords: ["CompositeImage","CompositeImage method [DirectShow]","CompositeImage method [DirectShow]","IVMRImageCompositor interface","IVMRImageCompositor interface [DirectShow]","CompositeImage method","IVMRImageCompositor.CompositeImage","IVMRImageCompositor::CompositeImage","IVMRImageCompositorCompositeImage","dshow.ivmrimagecompositor_compositeimage","strmif/IVMRImageCompositor::CompositeImage"]
+description: The CompositeImage method composites the current frames available in each input stream.
+helpviewer_keywords: ["CompositeImage","CompositeImage method [DirectShow]","CompositeImage method [DirectShow]","IVMRImageCompositor interface","IVMRImageCompositor interface [DirectShow]","CompositeImage method","IVMRImageCompositor.CompositeImage","IVMRImageCompositor::CompositeImage","IVMRImageCompositorCompositeImage","dshow.ivmrimagecompositor_compositeimage","strmif/IVMRImageCompositor::CompositeImage"]
 old-location: dshow\ivmrimagecompositor_compositeimage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5af73543-d391-404a-9797-8fbb3f24879c
 ms.date: 12/05/2018
 ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor interface, IVMRImageCompositor interface [DirectShow],CompositeImage method, IVMRImageCompositor.CompositeImage, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage

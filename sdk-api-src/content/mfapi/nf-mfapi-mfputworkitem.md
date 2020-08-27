@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFPutWorkItem
 title: MFPutWorkItem function (mfapi.h)
-description: Puts an asynchronous operation on a work queue.helpviewer_keywords: ["MFPutWorkItem","MFPutWorkItem function [Media Foundation]","b0233589-2a55-4803-9dcb-85d757734dee","mf.mfputworkitem","mfapi/MFPutWorkItem"]
+description: Puts an asynchronous operation on a work queue.
+helpviewer_keywords: ["MFPutWorkItem","MFPutWorkItem function [Media Foundation]","b0233589-2a55-4803-9dcb-85d757734dee","mf.mfputworkitem","mfapi/MFPutWorkItem"]
 old-location: mf\mfputworkitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b0233589-2a55-4803-9dcb-85d757734dee
 ms.date: 12/05/2018
 ms.keywords: MFPutWorkItem, MFPutWorkItem function [Media Foundation], b0233589-2a55-4803-9dcb-85d757734dee, mf.mfputworkitem, mfapi/MFPutWorkItem

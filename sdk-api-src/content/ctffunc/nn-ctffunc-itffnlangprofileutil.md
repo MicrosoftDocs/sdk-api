@@ -1,7 +1,8 @@
 ---
 UID: NN:ctffunc.ITfFnLangProfileUtil
 title: ITfFnLangProfileUtil (ctffunc.h)
-description: The ITfFnLangProfileUtil interface is implemented by the speech text service and used to provide utility methods for the speech text service.helpviewer_keywords: ["ITfFnLangProfileUtil","ITfFnLangProfileUtil interface [Text Services Framework]","ITfFnLangProfileUtil interface [Text Services Framework]","described","_tsf_itffnlangprofileutil_ref","ctffunc/ITfFnLangProfileUtil","tsf.itffnlangprofileutil"]
+description: The ITfFnLangProfileUtil interface is implemented by the speech text service and used to provide utility methods for the speech text service.
+helpviewer_keywords: ["ITfFnLangProfileUtil","ITfFnLangProfileUtil interface [Text Services Framework]","ITfFnLangProfileUtil interface [Text Services Framework]","described","_tsf_itffnlangprofileutil_ref","ctffunc/ITfFnLangProfileUtil","tsf.itffnlangprofileutil"]
 old-location: tsf\itffnlangprofileutil.htm
 tech.root: TSF
 ms.assetid: 42dd534d-9786-4276-b227-fee2d58806b7

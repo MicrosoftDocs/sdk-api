@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDraw7.StartModeTest
 title: IDirectDraw7::StartModeTest (ddraw.h)
-description: Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination.helpviewer_keywords: ["IDirectDraw7 interface [DirectDraw]","StartModeTest method","IDirectDraw7.StartModeTest","IDirectDraw7::StartModeTest","StartModeTest","StartModeTest method [DirectDraw]","StartModeTest method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::StartModeTest","directdraw.idirectdraw7_startmodetest"]
+description: Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination.
+helpviewer_keywords: ["IDirectDraw7 interface [DirectDraw]","StartModeTest method","IDirectDraw7.StartModeTest","IDirectDraw7::StartModeTest","StartModeTest","StartModeTest method [DirectDraw]","StartModeTest method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::StartModeTest","directdraw.idirectdraw7_startmodetest"]
 old-location: directdraw\idirectdraw7_startmodetest.htm
 tech.root: directdraw
 ms.assetid: b669e3c7-b34b-4919-9a3e-0349288360ba

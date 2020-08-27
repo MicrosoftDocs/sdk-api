@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_RevisionNumber
 title: IUpdateIdentity::get_RevisionNumber (wuapi.h)
-description: Gets the revision number of an update.helpviewer_keywords: ["IUpdateIdentity interface [Windows Update Agent]","RevisionNumber property","IUpdateIdentity.RevisionNumber","IUpdateIdentity.get_RevisionNumber","IUpdateIdentity::RevisionNumber","IUpdateIdentity::get_RevisionNumber","RevisionNumber property [Windows Update Agent]","RevisionNumber property [Windows Update Agent]","IUpdateIdentity interface","get_RevisionNumber","wua.iupdateidentity_revisionnumber","wuapi/IUpdateIdentity::RevisionNumber","wuapi/IUpdateIdentity::get_RevisionNumber"]
+description: Gets the revision number of an update.
+helpviewer_keywords: ["IUpdateIdentity interface [Windows Update Agent]","RevisionNumber property","IUpdateIdentity.RevisionNumber","IUpdateIdentity.get_RevisionNumber","IUpdateIdentity::RevisionNumber","IUpdateIdentity::get_RevisionNumber","RevisionNumber property [Windows Update Agent]","RevisionNumber property [Windows Update Agent]","IUpdateIdentity interface","get_RevisionNumber","wua.iupdateidentity_revisionnumber","wuapi/IUpdateIdentity::RevisionNumber","wuapi/IUpdateIdentity::get_RevisionNumber"]
 old-location: wua\iupdateidentity_revisionnumber.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 1d95a83f-52d9-49d1-a604-087aef449e9a
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity interface [Windows Update Agent],RevisionNumber property, IUpdateIdentity.RevisionNumber, IUpdateIdentity.get_RevisionNumber, IUpdateIdentity::RevisionNumber, IUpdateIdentity::get_RevisionNumber, RevisionNumber property [Windows Update Agent], RevisionNumber property [Windows Update Agent],IUpdateIdentity interface, get_RevisionNumber, wua.iupdateidentity_revisionnumber, wuapi/IUpdateIdentity::RevisionNumber, wuapi/IUpdateIdentity::get_RevisionNumber

@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetOriginalSize
 title: IImageList2::GetOriginalSize (commoncontrols.h)
-description: Gets the original size of a specified image.helpviewer_keywords: ["GetOriginalSize","GetOriginalSize method [Windows Controls]","GetOriginalSize method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","GetOriginalSize method","IImageList2.GetOriginalSize","IImageList2::GetOriginalSize","ILGOS_ALWAYS","ILGOS_FROMSTANDBY","_shell_IImageList2_GetOriginalSize","_shell_IImageList2_GetOriginalSize_cpp","commoncontrols/IImageList2::GetOriginalSize","controls.IImageList2_GetOriginalSize","controls._shell_IImageList2_GetOriginalSize"]
+description: Gets the original size of a specified image.
+helpviewer_keywords: ["GetOriginalSize","GetOriginalSize method [Windows Controls]","GetOriginalSize method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","GetOriginalSize method","IImageList2.GetOriginalSize","IImageList2::GetOriginalSize","ILGOS_ALWAYS","ILGOS_FROMSTANDBY","_shell_IImageList2_GetOriginalSize","_shell_IImageList2_GetOriginalSize_cpp","commoncontrols/IImageList2::GetOriginalSize","controls.IImageList2_GetOriginalSize","controls._shell_IImageList2_GetOriginalSize"]
 old-location: controls\IImageList2_GetOriginalSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getoriginalsize.htm

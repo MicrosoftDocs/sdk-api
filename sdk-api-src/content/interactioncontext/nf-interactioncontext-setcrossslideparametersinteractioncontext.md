@@ -1,9 +1,10 @@
 ---
 UID: NF:interactioncontext.SetCrossSlideParametersInteractionContext
 title: SetCrossSlideParametersInteractionContext function (interactioncontext.h)
-description: Configures the cross-slide interaction.helpviewer_keywords: ["SetCrossSlideParametersInteractionContext","SetCrossSlideParametersInteractionContext function","input_intcontext.setcrossslideparametersinteractioncontext","interactioncontext.setcrossslideparametersinteractioncontext","interactioncontext/SetCrossSlideParametersInteractionContext"]
+description: Configures the cross-slide interaction.
+helpviewer_keywords: ["SetCrossSlideParametersInteractionContext","SetCrossSlideParametersInteractionContext function","input_intcontext.setcrossslideparametersinteractioncontext","interactioncontext.setcrossslideparametersinteractioncontext","interactioncontext/SetCrossSlideParametersInteractionContext"]
 old-location: input_intcontext\setcrossslideparametersinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: b4d9459a-7b07-4316-bf5c-628de08de7dc
 ms.date: 12/05/2018
 ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersInteractionContext function, input_intcontext.setcrossslideparametersinteractioncontext, interactioncontext.setcrossslideparametersinteractioncontext, interactioncontext/SetCrossSlideParametersInteractionContext

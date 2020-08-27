@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_BASIC_CONSTRAINTS2_INFO
 title: CERT_BASIC_CONSTRAINTS2_INFO (wincrypt.h)
-description: The CERT_BASIC_CONSTRAINTS2_INFO structure contains information indicating whether the certified subject can act as a CA or an end entity. If the subject can act as a CA, a certification path length constraint can also be specified.helpviewer_keywords: ["*PCERT_BASIC_CONSTRAINTS2_INFO","CERT_BASIC_CONSTRAINTS2_INFO","CERT_BASIC_CONSTRAINTS2_INFO structure [Security]","PCERT_BASIC_CONSTRAINTS2_INFO","PCERT_BASIC_CONSTRAINTS2_INFO structure pointer [Security]","_crypto2_cert_basic_constraints2_info","security.cert_basic_constraints2_info","wincrypt/CERT_BASIC_CONSTRAINTS2_INFO","wincrypt/PCERT_BASIC_CONSTRAINTS2_INFO"]
+description: The CERT_BASIC_CONSTRAINTS2_INFO structure contains information indicating whether the certified subject can act as a CA or an end entity. If the subject can act as a CA, a certification path length constraint can also be specified.
+helpviewer_keywords: ["*PCERT_BASIC_CONSTRAINTS2_INFO","CERT_BASIC_CONSTRAINTS2_INFO","CERT_BASIC_CONSTRAINTS2_INFO structure [Security]","PCERT_BASIC_CONSTRAINTS2_INFO","PCERT_BASIC_CONSTRAINTS2_INFO structure pointer [Security]","_crypto2_cert_basic_constraints2_info","security.cert_basic_constraints2_info","wincrypt/CERT_BASIC_CONSTRAINTS2_INFO","wincrypt/PCERT_BASIC_CONSTRAINTS2_INFO"]
 old-location: security\cert_basic_constraints2_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bbeeb18b-c5d7-4490-8edc-4af19b37ab3f
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_BASIC_CONSTRAINTS2_INFO, CERT_BASIC_CONSTRAINTS2_INFO, CERT_BASIC_CONSTRAINTS2_INFO structure [Security], PCERT_BASIC_CONSTRAINTS2_INFO, PCERT_BASIC_CONSTRAINTS2_INFO structure pointer [Security], _crypto2_cert_basic_constraints2_info, security.cert_basic_constraints2_info, wincrypt/CERT_BASIC_CONSTRAINTS2_INFO, wincrypt/PCERT_BASIC_CONSTRAINTS2_INFO'

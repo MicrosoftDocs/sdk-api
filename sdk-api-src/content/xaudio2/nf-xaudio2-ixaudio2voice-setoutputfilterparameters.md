@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetOutputFilterParameters
 title: IXAudio2Voice::SetOutputFilterParameters (xaudio2.h)
-description: Sets the filter parameters on one of this voice's sends.helpviewer_keywords: ["IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","SetOutputFilterParameters method","IXAudio2Voice.SetOutputFilterParameters","IXAudio2Voice::SetOutputFilterParameters","SetOutputFilterParameters","SetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","SetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","xaudio2.ixaudio2voice_interface_setoutputfilterparameters","xaudio2/IXAudio2Voice::SetOutputFilterParameters"]
+description: Sets the filter parameters on one of this voice's sends.
+helpviewer_keywords: ["IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","SetOutputFilterParameters method","IXAudio2Voice.SetOutputFilterParameters","IXAudio2Voice::SetOutputFilterParameters","SetOutputFilterParameters","SetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","SetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","xaudio2.ixaudio2voice_interface_setoutputfilterparameters","xaudio2/IXAudio2Voice::SetOutputFilterParameters"]
 old-location: xaudio2\ixaudio2voice_interface_setoutputfilterparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputFilterParameters(IXAudio2Voice,XAUDIO2_FILTER_PARAMETERS,UINT32)
@@ -75,7 +76,7 @@ TBD
 
 
 
-#### - OperationSet [in]
+### -param OperationSet [in]
 
 Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
 

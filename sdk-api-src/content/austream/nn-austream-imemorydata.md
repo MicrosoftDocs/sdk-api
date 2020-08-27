@@ -1,9 +1,10 @@
 ---
 UID: NN:austream.IMemoryData
 title: IMemoryData (austream.h)
-description: Note  This interface is deprecated.helpviewer_keywords: ["IMemoryData","IMemoryData interface [DirectShow]","IMemoryData interface [DirectShow]","described","IMemoryDataInterface","austream/IMemoryData","dshow.imemorydata"]
+description: Note  This interface is deprecated.
+helpviewer_keywords: ["IMemoryData","IMemoryData interface [DirectShow]","IMemoryData interface [DirectShow]","described","IMemoryDataInterface","austream/IMemoryData","dshow.imemorydata"]
 old-location: dshow\imemorydata.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
 ms.date: 12/05/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata

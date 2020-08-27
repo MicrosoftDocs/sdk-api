@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreator
 title: IXpsOMCoreProperties::GetCreator (xpsobjectmodel.h)
-description: Gets the creator property.helpviewer_keywords: ["GetCreator","GetCreator method [XPS Documents and Packaging]","GetCreator method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetCreator method","IXpsOMCoreProperties.GetCreator","IXpsOMCoreProperties::GetCreator","xps.ixpsomcoreproperties_getcreator","xpsobjectmodel/IXpsOMCoreProperties::GetCreator"]
+description: Gets the creator property.
+helpviewer_keywords: ["GetCreator","GetCreator method [XPS Documents and Packaging]","GetCreator method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetCreator method","IXpsOMCoreProperties.GetCreator","IXpsOMCoreProperties::GetCreator","xps.ixpsomcoreproperties_getcreator","xpsobjectmodel/IXpsOMCoreProperties::GetCreator"]
 old-location: xps\ixpsomcoreproperties_getcreator.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 35d7a3ad-e1f7-49bf-ad30-d577cc9d4731
 ms.date: 12/05/2018
 ms.keywords: GetCreator, GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreator method, IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator

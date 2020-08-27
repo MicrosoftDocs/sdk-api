@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetLength
 title: IMFMediaEngineSrcElements::GetLength (mfmediaengine.h)
-description: Gets the number of source elements in the list.helpviewer_keywords: ["GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetLength method","IMFMediaEngineSrcElements.GetLength","IMFMediaEngineSrcElements::GetLength","mf.imfmediaenginesrcelements_getlength","mfmediaengine/IMFMediaEngineSrcElements::GetLength"]
+description: Gets the number of source elements in the list.
+helpviewer_keywords: ["GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetLength method","IMFMediaEngineSrcElements.GetLength","IMFMediaEngineSrcElements::GetLength","mf.imfmediaenginesrcelements_getlength","mfmediaengine/IMFMediaEngineSrcElements::GetLength"]
 old-location: mf\imfmediaenginesrcelements_getlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 212883A5-5613-4BCC-8713-9CD5E6480136
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetLength method, IMFMediaEngineSrcElements.GetLength, IMFMediaEngineSrcElements::GetLength, mf.imfmediaenginesrcelements_getlength, mfmediaengine/IMFMediaEngineSrcElements::GetLength

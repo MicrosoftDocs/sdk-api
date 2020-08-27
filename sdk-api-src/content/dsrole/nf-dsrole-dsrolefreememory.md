@@ -1,7 +1,8 @@
 ---
 UID: NF:dsrole.DsRoleFreeMemory
 title: DsRoleFreeMemory function (dsrole.h)
-description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.helpviewer_keywords: ["DsRoleFreeMemory","DsRoleFreeMemory function [Active Directory]","_glines_dsrolefreememory","ad.dsrolefreememory","dsrole/DsRoleFreeMemory"]
+description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.
+helpviewer_keywords: ["DsRoleFreeMemory","DsRoleFreeMemory function [Active Directory]","_glines_dsrolefreememory","ad.dsrolefreememory","dsrole/DsRoleFreeMemory"]
 old-location: ad\dsrolefreememory.htm
 tech.root: ad
 ms.assetid: 5560dfec-2134-4e02-9c87-26d246cd5841

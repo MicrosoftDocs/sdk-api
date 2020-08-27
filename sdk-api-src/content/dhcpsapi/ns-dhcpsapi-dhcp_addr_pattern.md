@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_ADDR_PATTERN
 title: DHCP_ADDR_PATTERN (dhcpsapi.h)
-description: Contains the information regarding the link-layer address/pattern.helpviewer_keywords: ["*LPDHCP_ADDR_PATTERN","DHCP_ADDR_PATTERN","DHCP_ADDR_PATTERN structure [DHCP]","PDHCP_ADDR_PATTERN","PDHCP_ADDR_PATTERN structure pointer [DHCP]","dhcp.dhcp_addr_pattern","dhcpsapi/DHCP_ADDR_PATTERN","dhcpsapi/PDHCP_ADDR_PATTERN"]
+description: Contains the information regarding the link-layer address/pattern.
+helpviewer_keywords: ["*LPDHCP_ADDR_PATTERN","DHCP_ADDR_PATTERN","DHCP_ADDR_PATTERN structure [DHCP]","PDHCP_ADDR_PATTERN","PDHCP_ADDR_PATTERN structure pointer [DHCP]","dhcp.dhcp_addr_pattern","dhcpsapi/DHCP_ADDR_PATTERN","dhcpsapi/PDHCP_ADDR_PATTERN"]
 old-location: dhcp\dhcp_addr_pattern.htm
 tech.root: DHCP
 ms.assetid: 8c645b03-9859-48e9-8974-2dbdc9cfcac6
@@ -82,7 +83,7 @@ If <b>TRUE</b>, the hardware type member (<b>HWType</b>) will be matched; if <b>
 Array of BYTE values that contain the pattern or hardware address.
 
 
-#### - IsWildCard
+### -field IsWildCard
 
 If <b>TRUE</b>, <b>Pattern</b> contains a wildcard pattern; if <b>FALSE</b>, <b>Pattern</b> contains a hardware address.
 

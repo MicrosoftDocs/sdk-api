@@ -1,9 +1,10 @@
 ---
 UID: NE:mfidl._MFNetCredentialRequirements
 title: MFNetCredentialRequirements (mfidl.h)
-description: Specifies how the credential manager should obtain user credentials.helpviewer_keywords: ["9257d1d7-7ccb-4172-82f0-3694ebb9d487","MFNetCredentialRequirements","MFNetCredentialRequirements enumeration [Media Foundation]","REQUIRE_PROMPT","REQUIRE_SAVE_SELECTED","mf.mfnetcredentialrequirements","mfidl/MFNetCredentialRequirements","mfidl/REQUIRE_PROMPT","mfidl/REQUIRE_SAVE_SELECTED"]
+description: Specifies how the credential manager should obtain user credentials.
+helpviewer_keywords: ["9257d1d7-7ccb-4172-82f0-3694ebb9d487","MFNetCredentialRequirements","MFNetCredentialRequirements enumeration [Media Foundation]","REQUIRE_PROMPT","REQUIRE_SAVE_SELECTED","mf.mfnetcredentialrequirements","mfidl/MFNetCredentialRequirements","mfidl/REQUIRE_PROMPT","mfidl/REQUIRE_SAVE_SELECTED"]
 old-location: mf\mfnetcredentialrequirements.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9257d1d7-7ccb-4172-82f0-3694ebb9d487
 ms.date: 12/05/2018
 ms.keywords: 9257d1d7-7ccb-4172-82f0-3694ebb9d487, MFNetCredentialRequirements, MFNetCredentialRequirements enumeration [Media Foundation], REQUIRE_PROMPT, REQUIRE_SAVE_SELECTED, mf.mfnetcredentialrequirements, mfidl/MFNetCredentialRequirements, mfidl/REQUIRE_PROMPT, mfidl/REQUIRE_SAVE_SELECTED

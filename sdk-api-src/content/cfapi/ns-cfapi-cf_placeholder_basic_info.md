@@ -1,9 +1,10 @@
 ---
 UID: NS:cfapi.CF_PLACEHOLDER_BASIC_INFO
 title: CF_PLACEHOLDER_BASIC_INFO (cfapi.h)
-description: Basic placeholder information.helpviewer_keywords: ["CF_PLACEHOLDER_BASIC_INFO","CF_PLACEHOLDER_BASIC_INFO structure","cfapi/CF_PLACEHOLDER_BASIC_INFO","cloudApi.cf_placeholder_basic_info"]
+description: Basic placeholder information.
+helpviewer_keywords: ["CF_PLACEHOLDER_BASIC_INFO","CF_PLACEHOLDER_BASIC_INFO structure","cfapi/CF_PLACEHOLDER_BASIC_INFO","cloudApi.cf_placeholder_basic_info"]
 old-location: cloudapi\cf_placeholder_basic_info.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 77367235-342D-4BBC-B910-FE798E14B588
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_BASIC_INFO, CF_PLACEHOLDER_BASIC_INFO structure, cfapi/CF_PLACEHOLDER_BASIC_INFO, cloudApi.cf_placeholder_basic_info
@@ -82,14 +83,9 @@ The file ID of the sync root directory that contains the file whose placeholder 
 Length, in bytes, of the FileIdentity.
 
 
-### -field FileIdentity
-
- 
 
 
-
-
-#### - FileIdentity[1]
+### -field FileIdentity [1]
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
 

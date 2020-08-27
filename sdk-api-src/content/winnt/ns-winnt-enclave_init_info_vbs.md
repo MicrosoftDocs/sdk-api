@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._ENCLAVE_INIT_INFO_VBS
 title: ENCLAVE_INIT_INFO_VBS (winnt.h)
-description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.helpviewer_keywords: ["*PENCLAVE_INIT_INFO_VBS","ENCLAVE_INIT_INFO_VBS","ENCLAVE_INIT_INFO_VBS structure","PENCLAVE_INIT_INFO_VBS","PENCLAVE_INIT_INFO_VBS structure pointer","base.enclave_init_info_vbs","winnt/ENCLAVE_INIT_INFO_VBS","winnt/PENCLAVE_INIT_INFO_VBS"]
+description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
+helpviewer_keywords: ["*PENCLAVE_INIT_INFO_VBS","ENCLAVE_INIT_INFO_VBS","ENCLAVE_INIT_INFO_VBS structure","PENCLAVE_INIT_INFO_VBS","PENCLAVE_INIT_INFO_VBS structure pointer","base.enclave_init_info_vbs","winnt/ENCLAVE_INIT_INFO_VBS","winnt/PENCLAVE_INIT_INFO_VBS"]
 old-location: base\enclave_init_info_vbs.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 93DA44C6-6776-4682-84C2-347192669C77
 ms.date: 12/05/2018
 ms.keywords: '*PENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS structure, PENCLAVE_INIT_INFO_VBS, PENCLAVE_INIT_INFO_VBS structure pointer, base.enclave_init_info_vbs, winnt/ENCLAVE_INIT_INFO_VBS, winnt/PENCLAVE_INIT_INFO_VBS'

@@ -1,9 +1,10 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_PARAMETERS
 title: CF_CALLBACK_PARAMETERS (cfapi.h)
-description: Contains callback specific parameters such as file offset, length, flags, etc.helpviewer_keywords: ["CF_CALLBACK_PARAMETERS","CF_CALLBACK_PARAMETERS structure","cfapi/CF_CALLBACK_PARAMETERS","cloudApi.cf_callback_parameters"]
+description: Contains callback specific parameters such as file offset, length, flags, etc.
+helpviewer_keywords: ["CF_CALLBACK_PARAMETERS","CF_CALLBACK_PARAMETERS structure","cfapi/CF_CALLBACK_PARAMETERS","cloudApi.cf_callback_parameters"]
 old-location: cloudapi\cf_callback_parameters.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: FA403E9E-5EFA-4285-9619-614DB0044FFB
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_PARAMETERS, CF_CALLBACK_PARAMETERS structure, cfapi/CF_CALLBACK_PARAMETERS, cloudApi.cf_callback_parameters

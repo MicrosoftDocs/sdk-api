@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioGetEnrolledFactors
 title: WinBioGetEnrolledFactors function (winbio.h)
-description: Gets information about the biometric enrollments that the specified user has on the computer.helpviewer_keywords: ["WinBioGetEnrolledFactors","WinBioGetEnrolledFactors function [Windows Biometric Framework API]","secbiomet.winbiogetenrolledfactors","winbio/WinBioGetEnrolledFactors"]
+description: Gets information about the biometric enrollments that the specified user has on the computer.
+helpviewer_keywords: ["WinBioGetEnrolledFactors","WinBioGetEnrolledFactors function [Windows Biometric Framework API]","secbiomet.winbiogetenrolledfactors","winbio/WinBioGetEnrolledFactors"]
 old-location: secbiomet\winbiogetenrolledfactors.htm
 tech.root: SecBioMet
 ms.assetid: 25DCB7FC-6971-4EFD-A686-E994F4345D2B

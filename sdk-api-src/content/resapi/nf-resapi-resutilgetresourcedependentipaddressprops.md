@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependentIPAddressProps
 title: ResUtilGetResourceDependentIPAddressProps function (resapi.h)
-description: Retrieves the private properties of the first IP Address dependency found for a specified resource. The PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS","PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS function [Failover Cluster]","ResUtilGetResourceDependentIPAddressProps","ResUtilGetResourceDependentIPAddressProps function [Failover Cluster]","_wolf_resutilgetresourcedependentipaddressprops","mscs.resutilgetresourcedependentipaddressprops","resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS","resapi/ResUtilGetResourceDependentIPAddressProps"]
+description: Retrieves the private properties of the first IP Address dependency found for a specified resource. The PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS","PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS function [Failover Cluster]","ResUtilGetResourceDependentIPAddressProps","ResUtilGetResourceDependentIPAddressProps function [Failover Cluster]","_wolf_resutilgetresourcedependentipaddressprops","mscs.resutilgetresourcedependentipaddressprops","resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS","resapi/ResUtilGetResourceDependentIPAddressProps"]
 old-location: mscs\resutilgetresourcedependentipaddressprops.htm
 tech.root: MsCS
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0

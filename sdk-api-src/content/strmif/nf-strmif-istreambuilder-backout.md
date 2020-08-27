@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IStreamBuilder.Backout
 title: IStreamBuilder::Backout (strmif.h)
-description: The Backout method undoes steps taken in the IStreamBuilder::Render method. This includes disconnecting and removing any filters that were added inside Render.helpviewer_keywords: ["Backout","Backout method [DirectShow]","Backout method [DirectShow]","IStreamBuilder interface","IStreamBuilder interface [DirectShow]","Backout method","IStreamBuilder.Backout","IStreamBuilder::Backout","IStreamBuilderBackout","dshow.istreambuilder_backout","strmif/IStreamBuilder::Backout"]
+description: The Backout method undoes steps taken in the IStreamBuilder::Render method. This includes disconnecting and removing any filters that were added inside Render.
+helpviewer_keywords: ["Backout","Backout method [DirectShow]","Backout method [DirectShow]","IStreamBuilder interface","IStreamBuilder interface [DirectShow]","Backout method","IStreamBuilder.Backout","IStreamBuilder::Backout","IStreamBuilderBackout","dshow.istreambuilder_backout","strmif/IStreamBuilder::Backout"]
 old-location: dshow\istreambuilder_backout.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b8f895a7-7f71-4c0d-af9d-e2b0ed433172
 ms.date: 12/05/2018
 ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFUnlockWorkQueue
 title: MFUnlockWorkQueue function (mfapi.h)
-description: Unlocks a work queue.helpviewer_keywords: ["MFUnlockWorkQueue","MFUnlockWorkQueue function [Media Foundation]","bbc22fa7-b4d7-47b2-b065-099fbb2ed092","mf.mfunlockworkqueue","mfapi/MFUnlockWorkQueue"]
+description: Unlocks a work queue.
+helpviewer_keywords: ["MFUnlockWorkQueue","MFUnlockWorkQueue function [Media Foundation]","bbc22fa7-b4d7-47b2-b065-099fbb2ed092","mf.mfunlockworkqueue","mfapi/MFUnlockWorkQueue"]
 old-location: mf\mfunlockworkqueue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bbc22fa7-b4d7-47b2-b065-099fbb2ed092
 ms.date: 12/05/2018
 ms.keywords: MFUnlockWorkQueue, MFUnlockWorkQueue function [Media Foundation], bbc22fa7-b4d7-47b2-b065-099fbb2ed092, mf.mfunlockworkqueue, mfapi/MFUnlockWorkQueue

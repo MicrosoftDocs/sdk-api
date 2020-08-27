@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Existing
 title: IX509PrivateKey::put_Existing (certenroll.h)
-description: Specifies or retrieves a Boolean value that indicates whether the private key has been created or imported.helpviewer_keywords: ["Existing property [Security]","Existing property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Existing property","IX509PrivateKey.Existing","IX509PrivateKey.put_Existing","IX509PrivateKey::Existing","IX509PrivateKey::get_Existing","IX509PrivateKey::put_Existing","certenroll/IX509PrivateKey::Existing","certenroll/IX509PrivateKey::get_Existing","certenroll/IX509PrivateKey::put_Existing","put_Existing","security.ix509privatekey_existing_property"]
+description: Specifies or retrieves a Boolean value that indicates whether the private key has been created or imported.
+helpviewer_keywords: ["Existing property [Security]","Existing property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Existing property","IX509PrivateKey.Existing","IX509PrivateKey.put_Existing","IX509PrivateKey::Existing","IX509PrivateKey::get_Existing","IX509PrivateKey::put_Existing","certenroll/IX509PrivateKey::Existing","certenroll/IX509PrivateKey::get_Existing","certenroll/IX509PrivateKey::put_Existing","put_Existing","security.ix509privatekey_existing_property"]
 old-location: security\ix509privatekey_existing_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0ef32207-1fb0-49a2-95cf-353f907f3fc6
 ms.date: 12/05/2018
 ms.keywords: Existing property [Security], Existing property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Existing property, IX509PrivateKey.Existing, IX509PrivateKey.put_Existing, IX509PrivateKey::Existing, IX509PrivateKey::get_Existing, IX509PrivateKey::put_Existing, certenroll/IX509PrivateKey::Existing, certenroll/IX509PrivateKey::get_Existing, certenroll/IX509PrivateKey::put_Existing, put_Existing, security.ix509privatekey_existing_property

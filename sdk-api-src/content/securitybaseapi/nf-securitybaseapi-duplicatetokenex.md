@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.DuplicateTokenEx
 title: DuplicateTokenEx function (securitybaseapi.h)
-description: Creates a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.helpviewer_keywords: ["DuplicateTokenEx","DuplicateTokenEx function [Security]","TokenImpersonation","TokenPrimary","_win32_duplicatetokenex","security.duplicatetokenex","securitybaseapi/DuplicateTokenEx"]
+description: Creates a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
+helpviewer_keywords: ["DuplicateTokenEx","DuplicateTokenEx function [Security]","TokenImpersonation","TokenPrimary","_win32_duplicatetokenex","security.duplicatetokenex","securitybaseapi/DuplicateTokenEx"]
 old-location: security\duplicatetokenex.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 96b13826-0ac7-4d70-9c21-eeb343f6b823
 ms.date: 12/05/2018
 ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpersonation, TokenPrimary, _win32_duplicatetokenex, security.duplicatetokenex, securitybaseapi/DuplicateTokenEx

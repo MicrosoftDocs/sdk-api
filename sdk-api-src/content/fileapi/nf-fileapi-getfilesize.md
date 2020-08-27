@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.GetFileSize
 title: GetFileSize function (fileapi.h)
-description: Retrieves the size of the specified file, in bytes.helpviewer_keywords: ["GetFileSize","GetFileSize function [Files]","_win32_getfilesize","base.getfilesize","fileapi/GetFileSize","fs.getfilesize","winbase/GetFileSize"]
+description: Retrieves the size of the specified file, in bytes.
+helpviewer_keywords: ["GetFileSize","GetFileSize function [Files]","_win32_getfilesize","base.getfilesize","fileapi/GetFileSize","fs.getfilesize","winbase/GetFileSize"]
 old-location: fs\getfilesize.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize function [Files], _win32_getfilesize, base.getfilesize, fileapi/GetFileSize, fs.getfilesize, winbase/GetFileSize

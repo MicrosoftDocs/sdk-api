@@ -1,9 +1,10 @@
 ---
 UID: NF:directml.IDMLOperatorInitializer.Reset
 title: IDMLOperatorInitializer::Reset
-description: Resets the initializer to handle initialization of a new set of operators.helpviewer_keywords: ["IDMLOperatorInitializer interface","Reset method","IDMLOperatorInitializer.Reset","IDMLOperatorInitializer::Reset","Reset","Reset method","Reset method","IDMLOperatorInitializer interface","direct3d12.idmloperatorinitializer_reset","directml/IDMLOperatorInitializer::Reset"]
+description: Resets the initializer to handle initialization of a new set of operators.
+helpviewer_keywords: ["IDMLOperatorInitializer interface","Reset method","IDMLOperatorInitializer.Reset","IDMLOperatorInitializer::Reset","Reset","Reset method","Reset method","IDMLOperatorInitializer interface","direct3d12.idmloperatorinitializer_reset","directml/IDMLOperatorInitializer::Reset"]
 old-location: direct3d12\idmloperatorinitializer_reset.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 4C402D7D-C235-4807-BA84-44CC8FEE84F1
 ms.date: 12/5/2018
 ms.keywords: IDMLOperatorInitializer interface,Reset method, IDMLOperatorInitializer.Reset, IDMLOperatorInitializer::Reset, Reset, Reset method, Reset method,IDMLOperatorInitializer interface, direct3d12.idmloperatorinitializer_reset, directml/IDMLOperatorInitializer::Reset

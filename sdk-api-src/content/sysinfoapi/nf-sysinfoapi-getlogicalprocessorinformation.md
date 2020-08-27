@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.GetLogicalProcessorInformation
 title: GetLogicalProcessorInformation function (sysinfoapi.h)
-description: Retrieves information about logical processors and related hardware.helpviewer_keywords: ["GetLogicalProcessorInformation","GetLogicalProcessorInformation function","base.getlogicalprocessorinformation","sysinfoapi/GetLogicalProcessorInformation"]
+description: Retrieves information about logical processors and related hardware.
+helpviewer_keywords: ["GetLogicalProcessorInformation","GetLogicalProcessorInformation function","base.getlogicalprocessorinformation","sysinfoapi/GetLogicalProcessorInformation"]
 old-location: base\getlogicalprocessorinformation.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 904d2d35-f419-4e8f-a689-f39ed926644c
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation

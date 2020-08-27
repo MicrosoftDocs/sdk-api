@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertEnumCRLsInStore
 title: CertEnumCRLsInStore function (wincrypt.h)
-description: The CertEnumCRLsInStore function retrieves the first or next certificate revocation list (CRL) context in a certificate store. Used in a loop, this function can retrieve in sequence all CRL contexts in a certificate store.helpviewer_keywords: ["CertEnumCRLsInStore","CertEnumCRLsInStore function [Security]","_crypto2_certenumcrlsinstore","security.certenumcrlsinstore","wincrypt/CertEnumCRLsInStore"]
+description: The CertEnumCRLsInStore function retrieves the first or next certificate revocation list (CRL) context in a certificate store. Used in a loop, this function can retrieve in sequence all CRL contexts in a certificate store.
+helpviewer_keywords: ["CertEnumCRLsInStore","CertEnumCRLsInStore function [Security]","_crypto2_certenumcrlsinstore","security.certenumcrlsinstore","wincrypt/CertEnumCRLsInStore"]
 old-location: security\certenumcrlsinstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: fc25ca04-8520-4053-9591-afc81c88670c
 ms.date: 12/05/2018
 ms.keywords: CertEnumCRLsInStore, CertEnumCRLsInStore function [Security], _crypto2_certenumcrlsinstore, security.certenumcrlsinstore, wincrypt/CertEnumCRLsInStore

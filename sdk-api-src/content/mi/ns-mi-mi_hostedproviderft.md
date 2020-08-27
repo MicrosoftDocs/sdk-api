@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_HostedProviderFT
 title: MI_HostedProviderFT (mi.h)
-description: A support structure used in the MI_HostedProvider structure. Use the functions with the name prefix &#0034;MI_HostedProvider_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_HostedProviderFT","MI_HostedProviderFT structure [Windows Management Infrastructure (MI)]","mi/MI_HostedProviderFT","wmi_v2.mi_hostedproviderft"]
+description: A support structure used in the MI_HostedProvider structure. Use the functions with the name prefix &quot;MI_HostedProvider_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_HostedProviderFT","MI_HostedProviderFT structure [Windows Management Infrastructure (MI)]","mi/MI_HostedProviderFT","wmi_v2.mi_hostedproviderft"]
 old-location: wmi_v2\mi_hostedproviderft.htm
 tech.root: wmi_v2
 ms.assetid: 148c4f5a-277a-41fa-b801-34884fbf3225
@@ -66,12 +67,12 @@ TBD
 
 
 
-#### - Close
+### -field Close
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a>.
 
 
-#### - GetApplication
+### -field GetApplication
 
 See 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_getapplication">MI_HostedProvider_GetApplication</a>.

@@ -1,9 +1,10 @@
 ---
-UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG &)
+UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG&)
 title: CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &) (instance.h)
-description: The GetWBEMINT64 method retrieves a 64-bit integer property.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetWBEMINT64 method","CInstance.GetWBEMINT64","CInstance.GetWBEMINT64(LPCWSTR","ULONGLONG &)","CInstance::GetWBEMINT64","CInstance::GetWBEMINT64(LPCWSTR","LONGLONG&)","CInstance::GetWBEMINT64(LPCWSTR","ULONGLONG &)","GetWBEMINT64","GetWBEMINT64 method [Windows Management Instrumentation]","GetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::GetWBEMINT64","wmi.cinstance_getwbemint64_lpcwstr__longlong__"]
+description: The GetWBEMINT64 method retrieves a 64-bit integer property.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetWBEMINT64 method","CInstance.GetWBEMINT64","CInstance.GetWBEMINT64(LPCWSTR","ULONGLONG &)","CInstance::GetWBEMINT64","CInstance::GetWBEMINT64(LPCWSTR","LONGLONG&)","CInstance::GetWBEMINT64(LPCWSTR","ULONGLONG &)","GetWBEMINT64","GetWBEMINT64 method [Windows Management Instrumentation]","GetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::GetWBEMINT64","wmi.cinstance_getwbemint64_lpcwstr__longlong__"]
 old-location: wmi\cinstance_getwbemint64_lpcwstr__longlong__.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__

@@ -1,9 +1,10 @@
 ---
 UID: NN:mfsharingengine.IPlayToControlWithCapabilities
 title: IPlayToControlWithCapabilities (mfsharingengine.h)
-description: Provides functionality for the IPlayToSource to determine the capabilities of the content.helpviewer_keywords: ["IPlayToControlWithCapabilities","IPlayToControlWithCapabilities interface [Media Foundation]","IPlayToControlWithCapabilities interface [Media Foundation]","described","mf.iplaytocontrolwithcapabilities","mfsharingengine/IPlayToControlWithCapabilities"]
+description: Provides functionality for the IPlayToSource to determine the capabilities of the content.
+helpviewer_keywords: ["IPlayToControlWithCapabilities","IPlayToControlWithCapabilities interface [Media Foundation]","IPlayToControlWithCapabilities interface [Media Foundation]","described","mf.iplaytocontrolwithcapabilities","mfsharingengine/IPlayToControlWithCapabilities"]
 old-location: mf\iplaytocontrolwithcapabilities.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
 ms.date: 12/05/2018
 ms.keywords: IPlayToControlWithCapabilities, IPlayToControlWithCapabilities interface [Media Foundation], IPlayToControlWithCapabilities interface [Media Foundation],described, mf.iplaytocontrolwithcapabilities, mfsharingengine/IPlayToControlWithCapabilities

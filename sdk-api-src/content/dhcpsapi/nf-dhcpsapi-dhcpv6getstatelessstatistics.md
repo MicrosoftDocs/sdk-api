@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV6GetStatelessStatistics
 title: DhcpV6GetStatelessStatistics function (dhcpsapi.h)
-description: Retrieves the stateless server IPv6 subnet statistics.helpviewer_keywords: ["DhcpV6GetStatelessStatistics","DhcpV6GetStatelessStatistics function [DHCP]","dhcp.dhcpv6getstatelessstatistics","dhcpsapi/DhcpV6GetStatelessStatistics"]
+description: Retrieves the stateless server IPv6 subnet statistics.
+helpviewer_keywords: ["DhcpV6GetStatelessStatistics","DhcpV6GetStatelessStatistics function [DHCP]","dhcp.dhcpv6getstatelessstatistics","dhcpsapi/DhcpV6GetStatelessStatistics"]
 old-location: dhcp\dhcpv6getstatelessstatistics.htm
 tech.root: DHCP
 ms.assetid: 4f6ba79c-5ab5-4d89-907d-83bdddbd09a2

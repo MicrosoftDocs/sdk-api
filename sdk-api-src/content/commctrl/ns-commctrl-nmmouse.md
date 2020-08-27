@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMMOUSE
 title: NMMOUSE (commctrl.h)
-description: Contains information used with mouse notification messages.helpviewer_keywords: ["*LPNMMOUSE","LPNMMOUSE","LPNMMOUSE structure pointer [Windows Controls]","NMCLICK","NMMOUSE","NMMOUSE structure [Windows Controls]","_win32_NMMOUSE","_win32_NMMOUSE_cpp","commctrl/LPNMMOUSE","commctrl/NMMOUSE","controls.NMMOUSE","controls._win32_NMMOUSE"]
+description: Contains information used with mouse notification messages.
+helpviewer_keywords: ["*LPNMMOUSE","LPNMMOUSE","LPNMMOUSE structure pointer [Windows Controls]","NMCLICK","NMMOUSE","NMMOUSE structure [Windows Controls]","_win32_NMMOUSE","_win32_NMMOUSE_cpp","commctrl/LPNMMOUSE","commctrl/NMMOUSE","controls.NMMOUSE","controls._win32_NMMOUSE"]
 old-location: controls\NMMOUSE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmmouse.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetComponentVersionCount
 title: ICOMAdminCatalog2::GetComponentVersionCount (comadmin.h)
-description: Retrieves the number of partitions in which a specified component is installed.helpviewer_keywords: ["GetComponentVersionCount","GetComponentVersionCount method [COM+]","GetComponentVersionCount method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","GetComponentVersionCount method","ICOMAdminCatalog2.GetComponentVersionCount","ICOMAdminCatalog2::GetComponentVersionCount","_cos_icomadmincatalog2_GetComponentVersionCount","comadmin/ICOMAdminCatalog2::GetComponentVersionCount","cos.icomadmincatalog2_getcomponentversioncount"]
+description: Retrieves the number of partitions in which a specified component is installed.
+helpviewer_keywords: ["GetComponentVersionCount","GetComponentVersionCount method [COM+]","GetComponentVersionCount method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","GetComponentVersionCount method","ICOMAdminCatalog2.GetComponentVersionCount","ICOMAdminCatalog2::GetComponentVersionCount","_cos_icomadmincatalog2_GetComponentVersionCount","comadmin/ICOMAdminCatalog2::GetComponentVersionCount","cos.icomadmincatalog2_getcomponentversioncount"]
 old-location: cos\icomadmincatalog2_getcomponentversioncount.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5bbae408-3dbe-4f8f-92db-9ea1b8abd9ce
 ms.date: 12/05/2018
 ms.keywords: GetComponentVersionCount, GetComponentVersionCount method [COM+], GetComponentVersionCount method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetComponentVersionCount method, ICOMAdminCatalog2.GetComponentVersionCount, ICOMAdminCatalog2::GetComponentVersionCount, _cos_icomadmincatalog2_GetComponentVersionCount, comadmin/ICOMAdminCatalog2::GetComponentVersionCount, cos.icomadmincatalog2_getcomponentversioncount

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.ShowDialog
 title: IAMVfwCompressDialogs::ShowDialog (strmif.h)
-description: The ShowDialog method displays the specified dialog box.helpviewer_keywords: ["IAMVfwCompressDialogs interface [DirectShow]","ShowDialog method","IAMVfwCompressDialogs.ShowDialog","IAMVfwCompressDialogs::ShowDialog","IAMVfwCompressDialogsShowDialog","ShowDialog","ShowDialog method [DirectShow]","ShowDialog method [DirectShow]","IAMVfwCompressDialogs interface","dshow.iamvfwcompressdialogs_showdialog","strmif/IAMVfwCompressDialogs::ShowDialog"]
+description: The ShowDialog method displays the specified dialog box.
+helpviewer_keywords: ["IAMVfwCompressDialogs interface [DirectShow]","ShowDialog method","IAMVfwCompressDialogs.ShowDialog","IAMVfwCompressDialogs::ShowDialog","IAMVfwCompressDialogsShowDialog","ShowDialog","ShowDialog method [DirectShow]","ShowDialog method [DirectShow]","IAMVfwCompressDialogs interface","dshow.iamvfwcompressdialogs_showdialog","strmif/IAMVfwCompressDialogs::ShowDialog"]
 old-location: dshow\iamvfwcompressdialogs_showdialog.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4826bd47-0091-4a74-b88d-72a5b0f1c5ac
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAMVfwCompressDialogs.ShowDialog, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog

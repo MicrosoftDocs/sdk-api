@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.SspiValidateAuthIdentity
 title: SspiValidateAuthIdentity function (sspi.h)
-description: Indicates whether the specified identity structure is valid.helpviewer_keywords: ["SspiValidateAuthIdentity","SspiValidateAuthIdentity function [Security]","security.sspivalidateauthidentity","sspi/SspiValidateAuthIdentity"]
+description: Indicates whether the specified identity structure is valid.
+helpviewer_keywords: ["SspiValidateAuthIdentity","SspiValidateAuthIdentity function [Security]","security.sspivalidateauthidentity","sspi/SspiValidateAuthIdentity"]
 old-location: security\sspivalidateauthidentity.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
 ms.date: 12/05/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity

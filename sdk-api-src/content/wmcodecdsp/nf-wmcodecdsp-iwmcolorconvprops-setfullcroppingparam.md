@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetFullCroppingParam
 title: IWMColorConvProps::SetFullCroppingParam (wmcodecdsp.h)
-description: Sets the source and destination rectangles.helpviewer_keywords: ["IWMColorConvProps interface [Media Foundation]","SetFullCroppingParam method","IWMColorConvProps.SetFullCroppingParam","IWMColorConvProps::SetFullCroppingParam","SetFullCroppingParam","SetFullCroppingParam method [Media Foundation]","SetFullCroppingParam method [Media Foundation]","IWMColorConvProps interface","codecapi.iwmcolorconvpropssetfullcroppingparam","mf.iwmcolorconvpropssetfullcroppingparam","wmcodecdsp/IWMColorConvProps::SetFullCroppingParam"]
+description: Sets the source and destination rectangles.
+helpviewer_keywords: ["IWMColorConvProps interface [Media Foundation]","SetFullCroppingParam method","IWMColorConvProps.SetFullCroppingParam","IWMColorConvProps::SetFullCroppingParam","SetFullCroppingParam","SetFullCroppingParam method [Media Foundation]","SetFullCroppingParam method [Media Foundation]","IWMColorConvProps interface","codecapi.iwmcolorconvpropssetfullcroppingparam","mf.iwmcolorconvpropssetfullcroppingparam","wmcodecdsp/IWMColorConvProps::SetFullCroppingParam"]
 old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/IWMColorConvProps::SetFullCroppingParam

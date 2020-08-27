@@ -1,9 +1,10 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetDrawBackgroundMode
 title: IAMLine21Decoder::GetDrawBackgroundMode (il21dec.h)
-description: The GetDrawBackgroundMode method indicates whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.helpviewer_keywords: ["GetDrawBackgroundMode","GetDrawBackgroundMode method [DirectShow]","GetDrawBackgroundMode method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetDrawBackgroundMode method","IAMLine21Decoder.GetDrawBackgroundMode","IAMLine21Decoder::GetDrawBackgroundMode","IAMLine21DecoderGetDrawBackgroundMode","dshow.iamline21decoder_getdrawbackgroundmode","il21dec/IAMLine21Decoder::GetDrawBackgroundMode"]
+description: The GetDrawBackgroundMode method indicates whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
+helpviewer_keywords: ["GetDrawBackgroundMode","GetDrawBackgroundMode method [DirectShow]","GetDrawBackgroundMode method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetDrawBackgroundMode method","IAMLine21Decoder.GetDrawBackgroundMode","IAMLine21Decoder::GetDrawBackgroundMode","IAMLine21DecoderGetDrawBackgroundMode","dshow.iamline21decoder_getdrawbackgroundmode","il21dec/IAMLine21Decoder::GetDrawBackgroundMode"]
 old-location: dshow\iamline21decoder_getdrawbackgroundmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 817a47d6-39c4-4186-81d0-ad822814f0ee
 ms.date: 12/05/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetDrawBackgroundMode method, IAMLine21Decoder.GetDrawBackgroundMode, IAMLine21Decoder::GetDrawBackgroundMode, IAMLine21DecoderGetDrawBackgroundMode, dshow.iamline21decoder_getdrawbackgroundmode, il21dec/IAMLine21Decoder::GetDrawBackgroundMode

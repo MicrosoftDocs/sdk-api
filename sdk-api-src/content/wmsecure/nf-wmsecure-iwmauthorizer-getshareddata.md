@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetSharedData
 title: IWMAuthorizer::GetSharedData (wmsecure.h)
-description: Retrieves shared data for the specified certificate.helpviewer_keywords: ["GetSharedData","GetSharedData method [windows Media Format]","GetSharedData method [windows Media Format]","IWMAuthorizer interface","IWMAuthorizer interface [windows Media Format]","GetSharedData method","IWMAuthorizer.GetSharedData","IWMAuthorizer::GetSharedData","wmformat.iwmauthorizer_getshareddata","wmsecure/IWMAuthorizer::GetSharedData"]
+description: Retrieves shared data for the specified certificate.
+helpviewer_keywords: ["GetSharedData","GetSharedData method [windows Media Format]","GetSharedData method [windows Media Format]","IWMAuthorizer interface","IWMAuthorizer interface [windows Media Format]","GetSharedData method","IWMAuthorizer.GetSharedData","IWMAuthorizer::GetSharedData","wmformat.iwmauthorizer_getshareddata","wmsecure/IWMAuthorizer::GetSharedData"]
 old-location: wmformat\iwmauthorizer_getshareddata.htm
 tech.root: wmformat
 ms.assetid: 575df33a-b29e-43eb-84c2-6f9875f26196

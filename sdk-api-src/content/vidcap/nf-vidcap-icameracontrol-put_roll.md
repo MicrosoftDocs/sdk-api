@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Roll
 title: ICameraControl::put_Roll (vidcap.h)
-description: The put_Roll method sets the camera's roll angle.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Roll method","ICameraControl.put_Roll","ICameraControl::put_Roll","ICameraControlput_Roll","dshow.icameracontrol_put_roll","put_Roll","put_Roll method [DirectShow]","put_Roll method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Roll"]
+description: The put_Roll method sets the camera's roll angle.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Roll method","ICameraControl.put_Roll","ICameraControl::put_Roll","ICameraControlput_Roll","dshow.icameracontrol_put_roll","put_Roll","put_Roll method [DirectShow]","put_Roll method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Roll"]
 old-location: dshow\icameracontrol_put_roll.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f74c7acc-e141-4238-bcbe-7890646e706c
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Roll method, ICameraControl.put_Roll, ICameraControl::put_Roll, ICameraControlput_Roll, dshow.icameracontrol_put_roll, put_Roll, put_Roll method [DirectShow], put_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Roll

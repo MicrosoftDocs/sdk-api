@@ -1,9 +1,10 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFO_MBR
 title: VDS_PARTITION_INFO_MBR (vds.h)
-description: Defines the details of a master boot record (MBR) partition.helpviewer_keywords: ["VDS_PARTITION_INFO_MBR","VDS_PARTITION_INFO_MBR structure [VDS]","base.vds_partition_info_mbr","vds/_VDS_PARTITION_INFO_MBR"]
+description: Defines the details of a master boot record (MBR) partition.
+helpviewer_keywords: ["VDS_PARTITION_INFO_MBR","VDS_PARTITION_INFO_MBR structure [VDS]","base.vds_partition_info_mbr","vds/_VDS_PARTITION_INFO_MBR"]
 old-location: base\vds_partition_info_mbr.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR

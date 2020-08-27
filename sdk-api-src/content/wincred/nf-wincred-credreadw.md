@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredReadW
 title: CredReadW function (wincred.h)
-description: Reads a credential from the user's credential set.helpviewer_keywords: ["CredRead","CredRead function [Security]","CredReadA","CredReadW","_cred_credread","security.credread","wincred/CredRead","wincred/CredReadA","wincred/CredReadW"]
+description: Reads a credential from the user's credential set.
+helpviewer_keywords: ["CredRead","CredRead function [Security]","CredReadA","CredReadW","_cred_credread","security.credread","wincred/CredRead","wincred/CredReadA","wincred/CredReadW"]
 old-location: security\credread.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3222de7b-5290-4e82-a382-b2db6afc78cc
 ms.date: 12/05/2018
 ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred_credread, security.credread, wincred/CredRead, wincred/CredReadA, wincred/CredReadW
@@ -121,4 +122,8 @@ A flag that is not valid was specified for the <i>Flags</i> parameter.
 If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function can return only one credential of the specified type.
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredRead as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

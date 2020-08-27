@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputConstriction
 title: ID3D11VideoContext::VideoProcessorSetOutputConstriction (d3d11.h)
-description: Sets the amount of downsampling to perform on the output.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputConstriction method","ID3D11VideoContext.VideoProcessorSetOutputConstriction","ID3D11VideoContext::VideoProcessorSetOutputConstriction","VideoProcessorSetOutputConstriction","VideoProcessorSetOutputConstriction method [Media Foundation]","VideoProcessorSetOutputConstriction method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction","mf.id3d11videocontext_videoprocessorsetoutputconstriction"]
+description: Sets the amount of downsampling to perform on the output.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputConstriction method","ID3D11VideoContext.VideoProcessorSetOutputConstriction","ID3D11VideoContext::VideoProcessorSetOutputConstriction","VideoProcessorSetOutputConstriction","VideoProcessorSetOutputConstriction method [Media Foundation]","VideoProcessorSetOutputConstriction method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction","mf.id3d11videocontext_videoprocessorsetoutputconstriction"]
 old-location: mf\id3d11videocontext_videoprocessorsetoutputconstriction.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EA61A4B8-0853-4F17-B634-70A896DCF5F7
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputConstriction method, ID3D11VideoContext.VideoProcessorSetOutputConstriction, ID3D11VideoContext::VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction method [Media Foundation], VideoProcessorSetOutputConstriction method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction, mf.id3d11videocontext_videoprocessorsetoutputconstriction

@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_ACCEPT_CHANNEL_CALLBACK
 title: WS_ACCEPT_CHANNEL_CALLBACK (webservices.h)
-description: Handles the WsAcceptChannel call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_ACCEPT_CHANNEL_CALLBACK","WS_ACCEPT_CHANNEL_CALLBACK callback","WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_ACCEPT_CHANNEL_CALLBACK","wsw.ws_accept_channel_callback"]
+description: Handles the WsAcceptChannel call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_ACCEPT_CHANNEL_CALLBACK","WS_ACCEPT_CHANNEL_CALLBACK callback","WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_ACCEPT_CHANNEL_CALLBACK","wsw.ws_accept_channel_callback"]
 old-location: wsw\ws_accept_channel_callback.htm
 tech.root: wsw
 ms.assetid: 2c7f36cf-ee7d-4de0-8599-ccfd066cca7e

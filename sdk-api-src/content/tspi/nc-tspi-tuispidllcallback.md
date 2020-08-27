@@ -1,9 +1,10 @@
 ---
 UID: NC:tspi.TUISPIDLLCALLBACK
 title: TUISPIDLLCALLBACK (tspi.h)
-description: The DllCallbackProc function is called by the UI DLL to send a private parameter block to the service provider.helpviewer_keywords: ["DllCallbackProc","DllCallbackProc callback function [TAPI 2.2]","TUISPIDLLCALLBACK","TUISPIDLLCALLBACK callback","_tspi_tuispidllcallback","tspi.dllcallbackproc","tspi.tuispidllcallback","tspi/DllCallbackProc"]
+description: The DllCallbackProc function is called by the UI DLL to send a private parameter block to the service provider.
+helpviewer_keywords: ["DllCallbackProc","DllCallbackProc callback function [TAPI 2.2]","TUISPIDLLCALLBACK","TUISPIDLLCALLBACK callback","_tspi_tuispidllcallback","tspi.dllcallbackproc","tspi.tuispidllcallback","tspi/DllCallbackProc"]
 old-location: tspi\dllcallbackproc.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2f4ec748-26ff-49c5-bd88-6c6e64e5bc89
 ms.date: 12/05/2018
 ms.keywords: DllCallbackProc, DllCallbackProc callback function [TAPI 2.2], TUISPIDLLCALLBACK, TUISPIDLLCALLBACK callback, _tspi_tuispidllcallback, tspi.dllcallbackproc, tspi.tuispidllcallback, tspi/DllCallbackProc

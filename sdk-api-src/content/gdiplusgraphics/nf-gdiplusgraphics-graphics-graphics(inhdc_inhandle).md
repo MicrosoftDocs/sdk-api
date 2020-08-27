@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.Graphics(IN HDC,IN HANDLE)
+UID: NF:gdiplusgraphics.Graphics.Graphics(INHDC,INHANDLE)
 title: Graphics::Graphics(IN HDC,IN HANDLE) (gdiplusgraphics.h)
-description: Creates a Graphics::Graphics object that is associated with a specified device context and a specified device.helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(HDC","HANDLE)","Graphics.Graphics(IN HDC","IN HANDLE)","Graphics::Graphics","Graphics::Graphics(IN HDC","IN HANDLE)","_gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_","gdiplus._gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_"]
+description: Creates a Graphics::Graphics object that is associated with a specified device context and a specified device.
+helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(HDC","HANDLE)","Graphics.Graphics(IN HDC","IN HANDLE)","Graphics::Graphics","Graphics::Graphics(IN HDC","IN HANDLE)","_gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_","gdiplus._gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_73hdc_hdevice.htm

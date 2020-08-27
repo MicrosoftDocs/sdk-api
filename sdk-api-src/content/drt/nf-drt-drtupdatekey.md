@@ -1,9 +1,10 @@
 ---
 UID: NF:drt.DrtUpdateKey
 title: DrtUpdateKey function (drt.h)
-description: DrtUpdateKey function updates the application data associated with a registered key.helpviewer_keywords: ["DrtUpdateKey","DrtUpdateKey function [Distributed Routing Tables]","drt/DrtUpdateKey","p2p.drtupdatekey"]
+description: DrtUpdateKey function updates the application data associated with a registered key.
+helpviewer_keywords: ["DrtUpdateKey","DrtUpdateKey function [Distributed Routing Tables]","drt/DrtUpdateKey","p2p.drtupdatekey"]
 old-location: p2p\drtupdatekey.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
 ms.date: 12/05/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey

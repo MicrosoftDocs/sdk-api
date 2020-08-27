@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IMultiInterfacePublisherFilter.Initialize
 title: IMultiInterfacePublisherFilter::Initialize (eventsys.h)
-description: Associates an event class with a publisher filter.helpviewer_keywords: ["IMultiInterfacePublisherFilter interface [COM+]","Initialize method","IMultiInterfacePublisherFilter.Initialize","IMultiInterfacePublisherFilter::Initialize","Initialize","Initialize method [COM+]","Initialize method [COM+]","IMultiInterfacePublisherFilter interface","_cos_IMultiInterfacePublisherFilter_Initialize","cos.imultiinterfacepublisherfilter_initialize","eventsys/IMultiInterfacePublisherFilter::Initialize"]
+description: Associates an event class with a publisher filter.
+helpviewer_keywords: ["IMultiInterfacePublisherFilter interface [COM+]","Initialize method","IMultiInterfacePublisherFilter.Initialize","IMultiInterfacePublisherFilter::Initialize","Initialize","Initialize method [COM+]","Initialize method [COM+]","IMultiInterfacePublisherFilter interface","_cos_IMultiInterfacePublisherFilter_Initialize","cos.imultiinterfacepublisherfilter_initialize","eventsys/IMultiInterfacePublisherFilter::Initialize"]
 old-location: cos\imultiinterfacepublisherfilter_initialize.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, IMultiInterfacePublisherFilter.Initialize, IMultiInterfacePublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IMultiInterfacePublisherFilter interface, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize

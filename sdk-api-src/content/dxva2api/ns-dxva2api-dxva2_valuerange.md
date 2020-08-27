@@ -1,9 +1,10 @@
 ---
 UID: NS:dxva2api._DXVA2_ValueRange
 title: DXVA2_ValueRange (dxva2api.h)
-description: Defines the range of supported values for a DirectX Video Acceleration (DXVA) operation.helpviewer_keywords: ["DXVA2_ValueRange","DXVA2_ValueRange structure [Media Foundation]","dxva2api/DXVA2_ValueRange","e01328bb-9069-4874-aa35-b3c9bc1c6094","mf.dxva2_valuerange"]
+description: Defines the range of supported values for a DirectX Video Acceleration (DXVA) operation.
+helpviewer_keywords: ["DXVA2_ValueRange","DXVA2_ValueRange structure [Media Foundation]","dxva2api/DXVA2_ValueRange","e01328bb-9069-4874-aa35-b3c9bc1c6094","mf.dxva2_valuerange"]
 old-location: mf\dxva2_valuerange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e01328bb-9069-4874-aa35-b3c9bc1c6094
 ms.date: 12/05/2018
 ms.keywords: DXVA2_ValueRange, DXVA2_ValueRange structure [Media Foundation], dxva2api/DXVA2_ValueRange, e01328bb-9069-4874-aa35-b3c9bc1c6094, mf.dxva2_valuerange

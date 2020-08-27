@@ -1,9 +1,10 @@
 ---
 UID: NN:winsxs.IAssemblyName
 title: IAssemblyName (winsxs.h)
-description: The IAssemblyName interface represents a side-by-side assembly name.helpviewer_keywords: ["IAssemblyName","IAssemblyName interface [Side-by-side Assemblies]","IAssemblyName interface [Side-by-side Assemblies]","described","setup.iassemblyname","winsxs/IAssemblyName"]
+description: The IAssemblyName interface represents a side-by-side assembly name.
+helpviewer_keywords: ["IAssemblyName","IAssemblyName interface [Side-by-side Assemblies]","IAssemblyName interface [Side-by-side Assemblies]","described","setup.iassemblyname","winsxs/IAssemblyName"]
 old-location: setup\iassemblyname.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName

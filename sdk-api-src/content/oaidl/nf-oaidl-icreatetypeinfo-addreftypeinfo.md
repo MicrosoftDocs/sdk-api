@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddRefTypeInfo
 title: ICreateTypeInfo::AddRefTypeInfo (oaidl.h)
-description: Adds a type description to those referenced by the type description being created.helpviewer_keywords: ["AddRefTypeInfo","AddRefTypeInfo method [Automation]","AddRefTypeInfo method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddRefTypeInfo method","ICreateTypeInfo.AddRefTypeInfo","ICreateTypeInfo::AddRefTypeInfo","_oa96_ICreateTypeInfo_AddRefTypeInfo","automat.icreatetypeinfo_addreftypeinfo","oaidl/ICreateTypeInfo::AddRefTypeInfo"]
+description: Adds a type description to those referenced by the type description being created.
+helpviewer_keywords: ["AddRefTypeInfo","AddRefTypeInfo method [Automation]","AddRefTypeInfo method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddRefTypeInfo method","ICreateTypeInfo.AddRefTypeInfo","ICreateTypeInfo::AddRefTypeInfo","_oa96_ICreateTypeInfo_AddRefTypeInfo","automat.icreatetypeinfo_addreftypeinfo","oaidl/ICreateTypeInfo::AddRefTypeInfo"]
 old-location: automat\icreatetypeinfo_addreftypeinfo.htm
 tech.root: automat
 ms.assetid: cb7f41f1-81a6-406f-916f-d1d1a8c093b5

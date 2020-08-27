@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_RELATIONSHIP
 title: DHCP_FAILOVER_RELATIONSHIP (dhcpsapi.h)
-description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.helpviewer_keywords: ["*LPDHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP structure [DHCP]","LPDHCP_FAILOVER_RELATIONSHIP","LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP]","dhcp.dhcp_failover_relationship","dhcpsapi/DHCP_FAILOVER_RELATIONSHIP","dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"]
+description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.
+helpviewer_keywords: ["*LPDHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP structure [DHCP]","LPDHCP_FAILOVER_RELATIONSHIP","LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP]","dhcp.dhcp_failover_relationship","dhcpsapi/DHCP_FAILOVER_RELATIONSHIP","dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"]
 old-location: dhcp\dhcp_failover_relationship.htm
 tech.root: DHCP
 ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122
@@ -129,72 +130,72 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi
 
 
 
-#### - mclt
+### -field mclt
 
 A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT is the maximum time that one server can extend a lease for a client beyond the lease time known by the partner server.
 
 
-#### - mode
+### -field mode
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_failover_mode">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
 
 
-#### - percentage
+### -field percentage
 
 Value that specifies the ratio of the client load shared by the primary server in the failover relationship.
 
 
-#### - prevState
+### -field prevState
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
 
 
-#### - primaryServer
+### -field primaryServer
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
 
 
-#### - primaryServerName
+### -field primaryServerName
 
 Pointer to a null-terminated Unicode string that represents the primary server hostname.
 
 
-#### - relationshipName
+### -field relationshipName
 
 Pointer to a null-terminated Unicode string that represents the unique failover relationship name.
 
 
-#### - safePeriod
+### -field safePeriod
 
 The time, in seconds, a server will wait before transitioning from the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
 
 
-#### - secondaryServer
+### -field secondaryServer
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
 
 
-#### - secondaryServerName
+### -field secondaryServerName
 
 Pointer to a null-terminated Unicode string that represents the secondary server hostname.
 
 
-#### - serverType
+### -field serverType
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_failover_server">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
 
 
-#### - sharedSecret
+### -field sharedSecret
 
 A pointer to a null-terminated Unicode string that represents the shared secret key associated with the failover relationship.
 
 
-#### - state
+### -field state
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">FSM_STATE</a> enumeration that specifies the state of the failover relationship.

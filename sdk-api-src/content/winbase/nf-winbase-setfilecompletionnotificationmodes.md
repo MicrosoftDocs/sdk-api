@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.SetFileCompletionNotificationModes
 title: SetFileCompletionNotificationModes function (winbase.h)
-description: Sets the notification modes for a file handle, allowing you to specify how completion notifications work for the specified file.helpviewer_keywords: ["FILE_SKIP_COMPLETION_PORT_ON_SUCCESS","FILE_SKIP_SET_EVENT_ON_HANDLE","SetFileCompletionNotificationModes","SetFileCompletionNotificationModes function [Files]","fs.setfilecompletionnotificationmodes_func","winbase/SetFileCompletionNotificationModes"]
+description: Sets the notification modes for a file handle, allowing you to specify how completion notifications work for the specified file.
+helpviewer_keywords: ["FILE_SKIP_COMPLETION_PORT_ON_SUCCESS","FILE_SKIP_SET_EVENT_ON_HANDLE","SetFileCompletionNotificationModes","SetFileCompletionNotificationModes function [Files]","fs.setfilecompletionnotificationmodes_func","winbase/SetFileCompletionNotificationModes"]
 old-location: fs\setfilecompletionnotificationmodes_func.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 23796484-ee47-4f80-856d-5a5d5635547c
 ms.date: 12/05/2018
 ms.keywords: FILE_SKIP_COMPLETION_PORT_ON_SUCCESS, FILE_SKIP_SET_EVENT_ON_HANDLE, SetFileCompletionNotificationModes, SetFileCompletionNotificationModes function [Files], fs.setfilecompletionnotificationmodes_func, winbase/SetFileCompletionNotificationModes

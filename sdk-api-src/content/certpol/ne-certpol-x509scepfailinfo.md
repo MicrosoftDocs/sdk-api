@@ -1,9 +1,10 @@
 ---
 UID: NE:certpol.X509SCEPFailInfo
 title: X509SCEPFailInfo (certpol.h)
-description: Describes the nature of an SCEP certificate enrollment failure.helpviewer_keywords: ["SCEPFailBadAlgorithm","SCEPFailBadCertId","SCEPFailBadMessageCheck","SCEPFailBadRequest","SCEPFailBadTime","X509SCEPFailInfo","X509SCEPFailInfo enumeration [Security]","certpol/SCEPFailBadAlgorithm","certpol/SCEPFailBadCertId","certpol/SCEPFailBadMessageCheck","certpol/SCEPFailBadRequest","certpol/SCEPFailBadTime","certpol/X509SCEPFailInfo","security.x509scepfailinfo"]
+description: Describes the nature of an SCEP certificate enrollment failure.
+helpviewer_keywords: ["SCEPFailBadAlgorithm","SCEPFailBadCertId","SCEPFailBadMessageCheck","SCEPFailBadRequest","SCEPFailBadTime","X509SCEPFailInfo","X509SCEPFailInfo enumeration [Security]","certpol/SCEPFailBadAlgorithm","certpol/SCEPFailBadCertId","certpol/SCEPFailBadMessageCheck","certpol/SCEPFailBadRequest","certpol/SCEPFailBadTime","certpol/X509SCEPFailInfo","security.x509scepfailinfo"]
 old-location: security\x509scepfailinfo.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: A2C314FB-A348-41CE-9736-2BDE05F7E70E
 ms.date: 12/05/2018
 ms.keywords: SCEPFailBadAlgorithm, SCEPFailBadCertId, SCEPFailBadMessageCheck, SCEPFailBadRequest, SCEPFailBadTime, X509SCEPFailInfo, X509SCEPFailInfo enumeration [Security], certpol/SCEPFailBadAlgorithm, certpol/SCEPFailBadCertId, certpol/SCEPFailBadMessageCheck, certpol/SCEPFailBadRequest, certpol/SCEPFailBadTime, certpol/X509SCEPFailInfo, security.x509scepfailinfo

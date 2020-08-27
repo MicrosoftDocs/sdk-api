@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSplatConstantInt
 title: XMVectorSplatConstantInt function (directxmath.h)
-description: Creates a vector with identical integer components.helpviewer_keywords: ["Use DirectX..XMVectorSplatConstantInt","XMVectorSplatConstantInt","XMVectorSplatConstantInt method [DirectX Math Support APIs]","dxmath.xmvectorsplatconstantint"]
+description: Creates a vector with identical integer components.
+helpviewer_keywords: ["Use DirectX..XMVectorSplatConstantInt","XMVectorSplatConstantInt","XMVectorSplatConstantInt method [DirectX Math Support APIs]","dxmath.xmvectorsplatconstantint"]
 old-location: dxmath\xmvectorsplatconstantint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatConstantInt(uint32_t)

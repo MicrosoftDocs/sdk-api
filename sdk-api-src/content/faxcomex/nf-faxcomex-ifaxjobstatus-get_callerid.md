@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_CallerId
 title: IFaxJobStatus::get_CallerId (faxcomex.h)
-description: The CallerId property is a null-terminated string that identifies the calling device associated with the fax job.helpviewer_keywords: ["CallerId property [Fax Service]","CallerId property [Fax Service]","IFaxJobStatus interface","IFaxJobStatus interface [Fax Service]","CallerId property","IFaxJobStatus.CallerId","IFaxJobStatus.get_CallerId","IFaxJobStatus::CallerId","IFaxJobStatus::get_CallerId","_mfax_faxjobstatus.callerid","fax._mfax_faxjobstatus_callerid","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp","faxcomex/IFaxJobStatus::CallerId","faxcomex/IFaxJobStatus::get_CallerId","get_CallerId"]
+description: The CallerId property is a null-terminated string that identifies the calling device associated with the fax job.
+helpviewer_keywords: ["CallerId property [Fax Service]","CallerId property [Fax Service]","IFaxJobStatus interface","IFaxJobStatus interface [Fax Service]","CallerId property","IFaxJobStatus.CallerId","IFaxJobStatus.get_CallerId","IFaxJobStatus::CallerId","IFaxJobStatus::get_CallerId","_mfax_faxjobstatus.callerid","fax._mfax_faxjobstatus_callerid","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp","faxcomex/IFaxJobStatus::CallerId","faxcomex/IFaxJobStatus::get_CallerId","get_CallerId"]
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7p9g.htm

@@ -2,12 +2,13 @@
 UID: NF:winuser.GetGuiResources
 title: GetGuiResources (winuser.h)
 old-location: base\getguiresources.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 55fbb7e8-79b4-4011-b522-25ea5a928b86
 ms.date: 11/4/2019
 ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_PEAK, GetGuiResources, GetGuiResources function, _win32_getguiresources, base.getguiresources, winuser/GetGuiResources
 targetos: Windows
-description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.helpviewer_keywords: ["GR_GDIOBJECTS","GR_GDIOBJECTS_PEAK","GR_USEROBJECTS","GR_USEROBJECTS_PEAK","GetGuiResources","GetGuiResources function","_win32_getguiresources","base.getguiresources","winuser/GetGuiResources"]
+description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
+helpviewer_keywords: ["GR_GDIOBJECTS","GR_GDIOBJECTS_PEAK","GR_USEROBJECTS","GR_USEROBJECTS_PEAK","GetGuiResources","GetGuiResources function","_win32_getguiresources","base.getguiresources","winuser/GetGuiResources"]
 f1_keywords:
 - winuser/GetGuiResources
 req.assembly: 

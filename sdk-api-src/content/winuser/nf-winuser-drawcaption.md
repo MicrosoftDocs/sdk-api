@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DrawCaption
 title: DrawCaption function (winuser.h)
-description: The DrawCaption function draws a window caption.helpviewer_keywords: ["DC_ACTIVE","DC_BUTTONS","DC_GRADIENT","DC_ICON","DC_INBUTTON","DC_SMALLCAP","DC_TEXT","DrawCaption","DrawCaption function [Windows GDI]","_win32_DrawCaption","gdi.drawcaption","winuser/DrawCaption"]
+description: The DrawCaption function draws a window caption.
+helpviewer_keywords: ["DC_ACTIVE","DC_BUTTONS","DC_GRADIENT","DC_ICON","DC_INBUTTON","DC_SMALLCAP","DC_TEXT","DrawCaption","DrawCaption function [Windows GDI]","_win32_DrawCaption","gdi.drawcaption","winuser/DrawCaption"]
 old-location: gdi\drawcaption.htm
 tech.root: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622

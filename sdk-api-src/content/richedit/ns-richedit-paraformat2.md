@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit.PARAFORMAT2
 title: PARAFORMAT2 (richedit.h)
-description: Contains information about paragraph formatting attributes in a rich edit control.helpviewer_keywords: ["0","1","10","11","12","13","14","15","16","2","3","32","4","5","6","64","7","8","9","PARAFORMAT2","PARAFORMAT2 structure [Windows Controls]","PFA_CENTER","PFA_FULL_INTERWORD","PFA_JUSTIFY","PFA_LEFT","PFA_RIGHT","PFE_DONOTHYPHEN","PFE_KEEP","PFE_KEEPNEXT","PFE_NOLINENUMBER","PFE_NOWIDOWCONTROL","PFE_PAGEBREAKBEFORE","PFE_RTLPARA","PFE_SIDEBYSIDE","PFE_TABLE","PFE_TABLEROWDELIMITER","PFM_ALIGNMENT","PFM_ALL","PFM_ALL2","PFM_BORDER","PFM_DONOTHYPHEN","PFM_EFFECTS","PFM_KEEP","PFM_KEEPNEXT","PFM_LINESPACING","PFM_NOLINENUMBER","PFM_NOWIDOWCONTROL","PFM_NUMBERING","PFM_NUMBERINGSTART","PFM_NUMBERINGSTYLE","PFM_NUMBERINGTAB","PFM_OFFSET","PFM_OFFSETINDENT","PFM_OUTLINELEVEL","PFM_PAGEBREAKBEFORE","PFM_RIGHTINDENT","PFM_RTLPARA","PFM_SHADING","PFM_SIDEBYSIDE","PFM_SPACEAFTER","PFM_SPACEBEFORE","PFM_STARTINDENT","PFM_STYLE","PFM_TABLE","PFM_TABLEROWDELIMITER","PFM_TABSTOPS","PFNS_NEWNUMBER","PFNS_NONUMBER","PFNS_PAREN","PFNS_PARENS","PFNS_PERIOD","PFNS_PLAIN","PFN_ARABIC","PFN_BULLET","PFN_LCLETTER","PFN_LCROMAN","PFN_UCLETTER","PFN_UCROMAN","_win32_PARAFORMAT2_str","_win32_PARAFORMAT2_str_cpp","controls.PARAFORMAT2","controls._win32_PARAFORMAT2_str","richedit/PARAFORMAT2","zero"]
+description: Contains information about paragraph formatting attributes in a rich edit control.
+helpviewer_keywords: ["0","1","10","11","12","13","14","15","16","2","3","32","4","5","6","64","7","8","9","PARAFORMAT2","PARAFORMAT2 structure [Windows Controls]","PFA_CENTER","PFA_FULL_INTERWORD","PFA_JUSTIFY","PFA_LEFT","PFA_RIGHT","PFE_DONOTHYPHEN","PFE_KEEP","PFE_KEEPNEXT","PFE_NOLINENUMBER","PFE_NOWIDOWCONTROL","PFE_PAGEBREAKBEFORE","PFE_RTLPARA","PFE_SIDEBYSIDE","PFE_TABLE","PFE_TABLEROWDELIMITER","PFM_ALIGNMENT","PFM_ALL","PFM_ALL2","PFM_BORDER","PFM_DONOTHYPHEN","PFM_EFFECTS","PFM_KEEP","PFM_KEEPNEXT","PFM_LINESPACING","PFM_NOLINENUMBER","PFM_NOWIDOWCONTROL","PFM_NUMBERING","PFM_NUMBERINGSTART","PFM_NUMBERINGSTYLE","PFM_NUMBERINGTAB","PFM_OFFSET","PFM_OFFSETINDENT","PFM_OUTLINELEVEL","PFM_PAGEBREAKBEFORE","PFM_RIGHTINDENT","PFM_RTLPARA","PFM_SHADING","PFM_SIDEBYSIDE","PFM_SPACEAFTER","PFM_SPACEBEFORE","PFM_STARTINDENT","PFM_STYLE","PFM_TABLE","PFM_TABLEROWDELIMITER","PFM_TABSTOPS","PFNS_NEWNUMBER","PFNS_NONUMBER","PFNS_PAREN","PFNS_PARENS","PFNS_PERIOD","PFNS_PLAIN","PFN_ARABIC","PFN_BULLET","PFN_LCLETTER","PFN_LCROMAN","PFN_UCLETTER","PFN_UCROMAN","_win32_PARAFORMAT2_str","_win32_PARAFORMAT2_str_cpp","controls.PARAFORMAT2","controls._win32_PARAFORMAT2_str","richedit/PARAFORMAT2","zero"]
 old-location: controls\PARAFORMAT2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat2.htm
@@ -1033,7 +1034,7 @@ Light gray
 
 
 
-#### - cTabCount
+### -field cTabCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
@@ -1041,14 +1042,14 @@ Number of tab stops defined in the
 					<b>rgxTabs</b> array.
 
 
-#### - cbSize
+### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
 
 
-#### - dwMask
+### -field dwMask
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
@@ -1383,28 +1384,28 @@ The PFE_TABLEROWDELIMITER value is valid.
  
 
 
-#### - dxOffset
+### -field dxOffset
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the second and subsequent lines, relative to the indentation of the first line, in twips. The first line is indented if this member is negative or outdented if this member is positive. To use this member, set the PFM_OFFSET flag in the <b>dwMask</b> member. 
 
 
-#### - dxRightIndent
+### -field dxRightIndent
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the right side of the paragraph, relative to the right margin, in twips. To use this member, set the PFM_RIGHTINDENT flag in the <b>dwMask</b> member. 
 
 
-#### - dxStartIndent
+### -field dxStartIndent
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the paragraph's first line, in twips. The indentation of subsequent lines depends on the <b>dxOffset</b> member. To use the <b>dxStartIndent</b> member, set the PFM_STARTINDENT or PFM_OFFSETINDENT flag in the <b>dwMask</b> member. If you are setting the indentation, use the PFM_STARTINDENT flag to specify an absolute indentation from the left margin; or use the PFM_OFFSETINDENT flag to specify an indentation relative to the paragraph's current indentation. Use either flag to retrieve the current indentation. 
 
 
-#### - rgxTabs
+### -field rgxTabs
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
@@ -1551,7 +1552,7 @@ Double line leader
  
 
 
-#### - wAlignment
+### -field wAlignment
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
@@ -1617,7 +1618,7 @@ Paragraphs are justified by expanding the blanks alone.
  
 
 
-#### - wEffects
+### -field wEffects
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
@@ -1740,7 +1741,7 @@ The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+00
  
 
 
-#### - wNumbering
+### -field wNumbering
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 

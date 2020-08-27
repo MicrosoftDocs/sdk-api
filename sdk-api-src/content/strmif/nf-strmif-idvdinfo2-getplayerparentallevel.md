@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetPlayerParentalLevel
 title: IDvdInfo2::GetPlayerParentalLevel (strmif.h)
-description: The GetPlayerParentalLevel method retrieves the current parental level and ISO 3166 country/region code settings for the DVD Navigator.helpviewer_keywords: ["GetPlayerParentalLevel","GetPlayerParentalLevel method [DirectShow]","GetPlayerParentalLevel method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetPlayerParentalLevel method","IDvdInfo2.GetPlayerParentalLevel","IDvdInfo2::GetPlayerParentalLevel","IDvdInfo2GetPlayerParentalLevel","dshow.idvdinfo2_getplayerparentallevel","strmif/IDvdInfo2::GetPlayerParentalLevel"]
+description: The GetPlayerParentalLevel method retrieves the current parental level and ISO 3166 country/region code settings for the DVD Navigator.
+helpviewer_keywords: ["GetPlayerParentalLevel","GetPlayerParentalLevel method [DirectShow]","GetPlayerParentalLevel method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetPlayerParentalLevel method","IDvdInfo2.GetPlayerParentalLevel","IDvdInfo2::GetPlayerParentalLevel","IDvdInfo2GetPlayerParentalLevel","dshow.idvdinfo2_getplayerparentallevel","strmif/IDvdInfo2::GetPlayerParentalLevel"]
 old-location: dshow\idvdinfo2_getplayerparentallevel.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7ae9b79a-1a2e-4679-9ead-6892491a1af3
 ms.date: 12/05/2018
 ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo2.GetPlayerParentalLevel, IDvdInfo2::GetPlayerParentalLevel, IDvdInfo2GetPlayerParentalLevel, dshow.idvdinfo2_getplayerparentallevel, strmif/IDvdInfo2::GetPlayerParentalLevel

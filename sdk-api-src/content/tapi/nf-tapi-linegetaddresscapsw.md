@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGetAddressCapsW
 title: lineGetAddressCapsW function (tapi.h)
-description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.helpviewer_keywords: ["_tapi2_linegetaddresscaps","lineGetAddressCaps","lineGetAddressCaps function [TAPI 2.2]","lineGetAddressCapsA","lineGetAddressCapsW","tapi/lineGetAddressCaps","tapi/lineGetAddressCapsA","tapi/lineGetAddressCapsW","tapi2.linegetaddresscaps"]
+description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
+helpviewer_keywords: ["_tapi2_linegetaddresscaps","lineGetAddressCaps","lineGetAddressCaps function [TAPI 2.2]","lineGetAddressCapsA","lineGetAddressCapsW","tapi/lineGetAddressCaps","tapi/lineGetAddressCapsA","tapi/lineGetAddressCapsW","tapi2.linegetaddresscaps"]
 old-location: tapi2\linegetaddresscaps.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 08cdea8a-5b36-428c-b90f-8741ae5f3205
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetaddresscaps, lineGetAddressCaps, lineGetAddressCaps function [TAPI 2.2], lineGetAddressCapsA, lineGetAddressCapsW, tapi/lineGetAddressCaps, tapi/lineGetAddressCapsA, tapi/lineGetAddressCapsW, tapi2.linegetaddresscaps
@@ -120,6 +121,10 @@ Valid address identifiers range from zero to one less than the number of address
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineGetAddressCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

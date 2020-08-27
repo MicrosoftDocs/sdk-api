@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewalFailed
 title: IWSDEventingStatus::SubscriptionRenewalFailed (wsdclient.h)
-description: Called when the subscription for the specified event action could not be renewed.helpviewer_keywords: ["IWSDEventingStatus interface","SubscriptionRenewalFailed method","IWSDEventingStatus.SubscriptionRenewalFailed","IWSDEventingStatus::SubscriptionRenewalFailed","SubscriptionRenewalFailed","SubscriptionRenewalFailed method","SubscriptionRenewalFailed method","IWSDEventingStatus interface","ncd.iwsdeventingstatus_subscriptionrenewalfailed","wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed"]
+description: Called when the subscription for the specified event action could not be renewed.
+helpviewer_keywords: ["IWSDEventingStatus interface","SubscriptionRenewalFailed method","IWSDEventingStatus.SubscriptionRenewalFailed","IWSDEventingStatus::SubscriptionRenewalFailed","SubscriptionRenewalFailed","SubscriptionRenewalFailed method","SubscriptionRenewalFailed method","IWSDEventingStatus interface","ncd.iwsdeventingstatus_subscriptionrenewalfailed","wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed"]
 old-location: ncd\iwsdeventingstatus_subscriptionrenewalfailed.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d76bb6ae-bb4d-4226-be0d-4fd37b0212a9
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSDEventingStatus.SubscriptionRenewalFailed, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed

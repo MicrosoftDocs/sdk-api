@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHBindToFolderIDListParent
 title: SHBindToFolderIDListParent function (shlobj_core.h)
-description: Given a Shell namespace item specified in the form of a folder, and an item identifier list relative to that folder, this function binds to the parent of the namespace item and optionally returns a pointer to the final component of the item identifier list.helpviewer_keywords: ["SHBindToFolderIDListParent","SHBindToFolderIDListParent function [Windows Shell]","_shell_SHBindToFolderIDListParent","shell.SHBindToFolderIDListParent","shlobj_core/SHBindToFolderIDListParent"]
+description: Given a Shell namespace item specified in the form of a folder, and an item identifier list relative to that folder, this function binds to the parent of the namespace item and optionally returns a pointer to the final component of the item identifier list.
+helpviewer_keywords: ["SHBindToFolderIDListParent","SHBindToFolderIDListParent function [Windows Shell]","_shell_SHBindToFolderIDListParent","shell.SHBindToFolderIDListParent","shlobj_core/SHBindToFolderIDListParent"]
 old-location: shell\SHBindToFolderIDListParent.htm
 tech.root: shell
 ms.assetid: 72a79d1b-15ed-475e-9ebd-03345579a06a

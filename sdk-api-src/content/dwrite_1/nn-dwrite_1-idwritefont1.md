@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_1.IDWriteFont1
 title: IDWriteFont1 (dwrite_1.h)
-description: Represents a physical font in a font collection.helpviewer_keywords: ["IDWriteFont1","IDWriteFont1 interface [Direct Write]","IDWriteFont1 interface [Direct Write]","described","directwrite.idwritefont1","dwrite_1/IDWriteFont1"]
+description: Represents a physical font in a font collection.
+helpviewer_keywords: ["IDWriteFont1","IDWriteFont1 interface [Direct Write]","IDWriteFont1 interface [Direct Write]","described","directwrite.idwritefont1","dwrite_1/IDWriteFont1"]
 old-location: directwrite\idwritefont1.htm
 tech.root: DirectWrite
 ms.assetid: 50165292-8C5F-4FD2-A16B-9B8D9DB72F98

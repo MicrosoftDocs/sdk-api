@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Next
 title: IProviderQueryConstraintCollection::Next (functiondiscoveryprovider.h)
-description: Gets the name and value of the next query constraint in the collection.helpviewer_keywords: ["IProviderQueryConstraintCollection interface","Next method","IProviderQueryConstraintCollection.Next","IProviderQueryConstraintCollection::Next","Next","Next method","Next method","IProviderQueryConstraintCollection interface","functiondiscoveryprovider/IProviderQueryConstraintCollection::Next","ncd.iproviderqueryconstraintcollection_next"]
+description: Gets the name and value of the next query constraint in the collection.
+helpviewer_keywords: ["IProviderQueryConstraintCollection interface","Next method","IProviderQueryConstraintCollection.Next","IProviderQueryConstraintCollection::Next","Next","Next method","Next method","IProviderQueryConstraintCollection interface","functiondiscoveryprovider/IProviderQueryConstraintCollection::Next","ncd.iproviderqueryconstraintcollection_next"]
 old-location: ncd\iproviderqueryconstraintcollection_next.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 5dd03e98-5367-4434-aa68-be36cb7aaf24
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Next method, IProviderQueryConstraintCollection.Next, IProviderQueryConstraintCollection::Next, Next, Next method, Next method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Next, ncd.iproviderqueryconstraintcollection_next

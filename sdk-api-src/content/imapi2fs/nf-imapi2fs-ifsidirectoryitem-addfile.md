@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddFile
 title: IFsiDirectoryItem::AddFile (imapi2fs.h)
-description: Adds a file to the file system image.helpviewer_keywords: ["AddFile","AddFile method [IMAPI]","AddFile method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddFile method","IFsiDirectoryItem.AddFile","IFsiDirectoryItem::AddFile","imapi.ifsidirectoryitem_addfile","imapi2fs/IFsiDirectoryItem::AddFile"]
+description: Adds a file to the file system image.
+helpviewer_keywords: ["AddFile","AddFile method [IMAPI]","AddFile method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddFile method","IFsiDirectoryItem.AddFile","IFsiDirectoryItem::AddFile","imapi.ifsidirectoryitem_addfile","imapi2fs/IFsiDirectoryItem::AddFile"]
 old-location: imapi\ifsidirectoryitem_addfile.htm
 tech.root: imapi
 ms.assetid: 82f62372-3c79-4bf5-a723-cd09a5444ffc

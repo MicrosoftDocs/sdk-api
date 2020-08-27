@@ -1,7 +1,8 @@
 ---
 UID: NC:rpcdce.RPC_AUTH_KEY_RETRIEVAL_FN
 title: RPC_AUTH_KEY_RETRIEVAL_FN (rpcdce.h)
-description: The RPC_AUTH_KEY_RETRIEVAL_FN function is a prototype for a function that specifies the address of a server-application-provided routine returning encryption keys.helpviewer_keywords: ["RPC_AUTH_KEY_RETRIEVAL_FN","RPC_AUTH_KEY_RETRIEVAL_FN callback","RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC]","RpcAuthKeyRetrievalFn","_rpc_rpc_auth_key_retrieval_fn","rpc.rpc_auth_key_retrieval_fn","rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"]
+description: The RPC_AUTH_KEY_RETRIEVAL_FN function is a prototype for a function that specifies the address of a server-application-provided routine returning encryption keys.
+helpviewer_keywords: ["RPC_AUTH_KEY_RETRIEVAL_FN","RPC_AUTH_KEY_RETRIEVAL_FN callback","RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC]","RpcAuthKeyRetrievalFn","_rpc_rpc_auth_key_retrieval_fn","rpc.rpc_auth_key_retrieval_fn","rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"]
 old-location: rpc\rpc_auth_key_retrieval_fn.htm
 tech.root: Rpc
 ms.assetid: 643ce467-5df9-4b1a-a149-cf301865d47a
@@ -85,7 +86,7 @@ Pointer to a pointer to the authentication key returned by the user-supplied fun
 Pointer to the status returned by the acquisition function when it is called by the RPC run-time library to authenticate the client RPC request. If the status is other than RPC_S_OK, the request fails and the run-time library returns the error status to the client application.
 
 
-#### - Key
+### -param Key
 
 Pointer to a pointer to the authentication key returned by the user-supplied function.
 

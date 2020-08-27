@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate.get_InstallationBehavior
 title: IUpdate::get_InstallationBehavior (wuapi.h)
-description: Gets an interface that contains the installation options of the update.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","InstallationBehavior property","IUpdate.InstallationBehavior","IUpdate.get_InstallationBehavior","IUpdate::InstallationBehavior","IUpdate::get_InstallationBehavior","InstallationBehavior property [Windows Update Agent]","InstallationBehavior property [Windows Update Agent]","IUpdate interface","get_InstallationBehavior","wua.iupdate_installationbehavior","wuapi/IUpdate::InstallationBehavior","wuapi/IUpdate::get_InstallationBehavior"]
+description: Gets an interface that contains the installation options of the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","InstallationBehavior property","IUpdate.InstallationBehavior","IUpdate.get_InstallationBehavior","IUpdate::InstallationBehavior","IUpdate::get_InstallationBehavior","InstallationBehavior property [Windows Update Agent]","InstallationBehavior property [Windows Update Agent]","IUpdate interface","get_InstallationBehavior","wua.iupdate_installationbehavior","wuapi/IUpdate::InstallationBehavior","wuapi/IUpdate::get_InstallationBehavior"]
 old-location: wua\iupdate_installationbehavior.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f02e5ebc-a8ea-496b-a79e-52644b98e75d
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],InstallationBehavior property, IUpdate.InstallationBehavior, IUpdate.get_InstallationBehavior, IUpdate::InstallationBehavior, IUpdate::get_InstallationBehavior, InstallationBehavior property [Windows Update Agent], InstallationBehavior property [Windows Update Agent],IUpdate interface, get_InstallationBehavior, wua.iupdate_installationbehavior, wuapi/IUpdate::InstallationBehavior, wuapi/IUpdate::get_InstallationBehavior

@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt._BCRYPT_ALGORITHM_IDENTIFIER
 title: BCRYPT_ALGORITHM_IDENTIFIER (bcrypt.h)
-description: Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.helpviewer_keywords: ["BCRYPT_ALGORITHM_IDENTIFIER","BCRYPT_ALGORITHM_IDENTIFIER structure [Security]","bcrypt/BCRYPT_ALGORITHM_IDENTIFIER","security.bcrypt_algorithm_identifier_struct"]
+description: Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.
+helpviewer_keywords: ["BCRYPT_ALGORITHM_IDENTIFIER","BCRYPT_ALGORITHM_IDENTIFIER structure [Security]","bcrypt/BCRYPT_ALGORITHM_IDENTIFIER","security.bcrypt_algorithm_identifier_struct"]
 old-location: security\bcrypt_algorithm_identifier_struct.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct

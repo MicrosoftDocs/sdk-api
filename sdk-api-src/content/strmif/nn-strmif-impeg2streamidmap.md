@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IMPEG2StreamIdMap
 title: IMPEG2StreamIdMap (strmif.h)
-description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in program stream mode only.helpviewer_keywords: ["IMPEG2StreamIdMap","IMPEG2StreamIdMap interface [DirectShow]","IMPEG2StreamIdMap interface [DirectShow]","described","IMPEG2StreamIdMapInterface","dshow.impeg2streamidmap","strmif/IMPEG2StreamIdMap"]
+description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in program stream mode only.
+helpviewer_keywords: ["IMPEG2StreamIdMap","IMPEG2StreamIdMap interface [DirectShow]","IMPEG2StreamIdMap interface [DirectShow]","described","IMPEG2StreamIdMapInterface","dshow.impeg2streamidmap","strmif/IMPEG2StreamIdMap"]
 old-location: dshow\impeg2streamidmap.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 714c6b0e-3885-4026-8a83-06b37cc97d7c
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2StreamIdMap interface [DirectShow],described, IMPEG2StreamIdMapInterface, dshow.impeg2streamidmap, strmif/IMPEG2StreamIdMap

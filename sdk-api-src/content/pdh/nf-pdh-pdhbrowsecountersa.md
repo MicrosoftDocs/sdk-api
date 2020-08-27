@@ -4,7 +4,7 @@ title: PdhBrowseCountersA function (pdh.h)
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
 helpviewer_keywords: ["PdhBrowseCounters","PdhBrowseCounters function [Perf]","PdhBrowseCountersA","PdhBrowseCountersW","_win32_pdhbrowsecounters","base.pdhbrowsecounters","pdh/PdhBrowseCounters","pdh/PdhBrowseCountersA","pdh/PdhBrowseCountersW","perf.pdhbrowsecounters"]
 old-location: perf\pdhbrowsecounters.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 4e9e4b20-a573-4f6d-97e8-63bcc675032b
 ms.date: 12/05/2018
 ms.keywords: PdhBrowseCounters, PdhBrowseCounters function [Perf], PdhBrowseCountersA, PdhBrowseCountersW, _win32_pdhbrowsecounters, base.pdhbrowsecounters, pdh/PdhBrowseCounters, pdh/PdhBrowseCountersA, pdh/PdhBrowseCountersW, perf.pdhbrowsecounters
@@ -102,6 +102,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhBrowseCounters as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

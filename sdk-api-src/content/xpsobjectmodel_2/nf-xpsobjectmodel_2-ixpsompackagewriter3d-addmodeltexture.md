@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsOMPackageWriter3D.AddModelTexture
 title: IXpsOMPackageWriter3D::AddModelTexture (xpsobjectmodel_2.h)
-description: Creates a new 3D model texture from the specified texture part and stream.helpviewer_keywords: ["AddModelTexture","AddModelTexture method [XPS Documents and Packaging]","AddModelTexture method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","AddModelTexture method","IXpsOMPackageWriter3D.AddModelTexture","IXpsOMPackageWriter3D::AddModelTexture","xps.ixpsompackagewriter3d_addmodeltexture","xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture"]
+description: Creates a new 3D model texture from the specified texture part and stream.
+helpviewer_keywords: ["AddModelTexture","AddModelTexture method [XPS Documents and Packaging]","AddModelTexture method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","AddModelTexture method","IXpsOMPackageWriter3D.AddModelTexture","IXpsOMPackageWriter3D::AddModelTexture","xps.ixpsompackagewriter3d_addmodeltexture","xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture"]
 old-location: xps\ixpsompackagewriter3d_addmodeltexture.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 76FC9938-914C-4328-BE71-DC898241D9EA
 ms.date: 12/05/2018
 ms.keywords: AddModelTexture, AddModelTexture method [XPS Documents and Packaging], AddModelTexture method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddModelTexture method, IXpsOMPackageWriter3D.AddModelTexture, IXpsOMPackageWriter3D::AddModelTexture, xps.ixpsompackagewriter3d_addmodeltexture, xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture

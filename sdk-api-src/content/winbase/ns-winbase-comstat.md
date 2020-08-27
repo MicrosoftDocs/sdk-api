@@ -1,9 +1,10 @@
 ---
 UID: NS:winbase._COMSTAT
 title: COMSTAT (winbase.h)
-description: Contains information about a communications device.helpviewer_keywords: ["*LPCOMSTAT","COMSTAT","COMSTAT structure","LPCOMSTAT","LPCOMSTAT structure pointer","_COMSTAT","_win32_comstat_str","base.comstat_str","winbase/COMSTAT","winbase/LPCOMSTAT"]
+description: Contains information about a communications device.
+helpviewer_keywords: ["*LPCOMSTAT","COMSTAT","COMSTAT structure","LPCOMSTAT","LPCOMSTAT structure pointer","_COMSTAT","_win32_comstat_str","base.comstat_str","winbase/COMSTAT","winbase/LPCOMSTAT"]
 old-location: base\comstat_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
 ms.date: 12/05/2018
 ms.keywords: '*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT'

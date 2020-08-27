@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_LANGUAGEPROFILE
 title: TF_LANGUAGEPROFILE (msctf.h)
-description: The TF_LANGUAGEPROFILE structure contains information about a language profile.helpviewer_keywords: ["TF_LANGUAGEPROFILE","TF_LANGUAGEPROFILE structure [Text Services Framework]","_tsf_tf_languageprofile_ref","msctf/TF_LANGUAGEPROFILE","tsf.tf_languageprofile"]
+description: The TF_LANGUAGEPROFILE structure contains information about a language profile.
+helpviewer_keywords: ["TF_LANGUAGEPROFILE","TF_LANGUAGEPROFILE structure [Text Services Framework]","_tsf_tf_languageprofile_ref","msctf/TF_LANGUAGEPROFILE","tsf.tf_languageprofile"]
 old-location: tsf\tf_languageprofile.htm
 tech.root: TSF
 ms.assetid: f9dbd701-d893-409b-b033-3e37d12ccaa7

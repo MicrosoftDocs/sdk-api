@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetPAT
 title: IDvbSiParser::GetPAT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetPAT","GetPAT method [Microsoft TV Technologies]","GetPAT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetPAT method","IDvbSiParser.GetPAT","IDvbSiParser::GetPAT","IDvbSiParserGetPAT","dvbsiparser/IDvbSiParser::GetPAT","mstv.idvbsiparser_getpat"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetPAT","GetPAT method [Microsoft TV Technologies]","GetPAT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetPAT method","IDvbSiParser.GetPAT","IDvbSiParser::GetPAT","IDvbSiParserGetPAT","dvbsiparser/IDvbSiParser::GetPAT","mstv.idvbsiparser_getpat"]
 old-location: mstv\idvbsiparser_getpat.htm
 tech.root: mstv
 ms.assetid: 09413d56-e735-4ecf-a505-7d9e2c31d190

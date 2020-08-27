@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcdcep._RPC_MESSAGE
 title: RPC_MESSAGE (rpcdcep.h)
-description: The RPC_MESSAGE structure contains information shared between NDR and the rest of the RPC or OLE runtime.helpviewer_keywords: ["*PRPC_MESSAGE","PRPC_MESSAGE","PRPC_MESSAGE structure pointer [RPC]","RPC_MESSAGE","RPC_MESSAGE structure [RPC]","_RPC_MESSAGE","rpc.rpc_message","rpcdcep/PRPC_MESSAGE","rpcdcep/RPC_MESSAGE"]
+description: The RPC_MESSAGE structure contains information shared between NDR and the rest of the RPC or OLE runtime.
+helpviewer_keywords: ["*PRPC_MESSAGE","PRPC_MESSAGE","PRPC_MESSAGE structure pointer [RPC]","RPC_MESSAGE","RPC_MESSAGE structure [RPC]","_RPC_MESSAGE","rpc.rpc_message","rpcdcep/PRPC_MESSAGE","rpcdcep/RPC_MESSAGE"]
 old-location: rpc\rpc_message.htm
 tech.root: Rpc
 ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e

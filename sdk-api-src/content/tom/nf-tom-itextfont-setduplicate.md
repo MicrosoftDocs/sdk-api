@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetDuplicate
 title: ITextFont::SetDuplicate (tom.h)
-description: Sets the character formatting by copying another text font object.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetDuplicate method","ITextFont.SetDuplicate","ITextFont::SetDuplicate","SetDuplicate","SetDuplicate method [Windows Controls]","SetDuplicate method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetDuplicate","_win32_ITextFont_SetDuplicate_cpp","controls.ITextFont_SetDuplicate","controls._win32_ITextFont_SetDuplicate","tom/ITextFont::SetDuplicate"]
+description: Sets the character formatting by copying another text font object.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetDuplicate method","ITextFont.SetDuplicate","ITextFont::SetDuplicate","SetDuplicate","SetDuplicate method [Windows Controls]","SetDuplicate method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetDuplicate","_win32_ITextFont_SetDuplicate_cpp","controls.ITextFont_SetDuplicate","controls._win32_ITextFont_SetDuplicate","tom/ITextFont::SetDuplicate"]
 old-location: controls\ITextFont_SetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetduplicate.htm

@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpAddCredentialsFn
 title: SpAddCredentialsFn (ntsecpkg.h)
-description: Used to add credentials for a security principal.helpviewer_keywords: ["SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","SpAddCredentials","SpAddCredentials callback function [Security]","SpAddCredentialsFn","SpAddCredentialsFn callback","_ssp_spaddcredentials","ntsecpkg/SpAddCredentials","security.spaddcredentials"]
+description: Used to add credentials for a security principal.
+helpviewer_keywords: ["SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","SpAddCredentials","SpAddCredentials callback function [Security]","SpAddCredentialsFn","SpAddCredentialsFn callback","_ssp_spaddcredentials","ntsecpkg/SpAddCredentials","security.spaddcredentials"]
 old-location: security\spaddcredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 27377afa-4e54-4c6b-8e84-a8810bc01139
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAddCredentials, SpAddCredentials callback function [Security], SpAddCredentialsFn, SpAddCredentialsFn callback, _ssp_spaddcredentials, ntsecpkg/SpAddCredentials, security.spaddcredentials

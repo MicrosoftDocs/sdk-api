@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Size.Equals
 title: Size::Equals (gdiplustypes.h)
-description: The Size::Equals method determines whether two Size objects are equal.helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Size class","Size class [GDI+]","Equals method","Size.Equals","Size::Equals","_gdiplus_CLASS_Size_Equals_sz_","gdiplus._gdiplus_CLASS_Size_Equals_sz_"]
+description: The Size::Equals method determines whether two Size objects are equal.
+helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Size class","Size class [GDI+]","Equals method","Size.Equals","Size::Equals","_gdiplus_CLASS_Size_Equals_sz_","gdiplus._gdiplus_CLASS_Size_Equals_sz_"]
 old-location: gdiplus\_gdiplus_CLASS_Size_Equals_sz_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\equals_53sz.htm

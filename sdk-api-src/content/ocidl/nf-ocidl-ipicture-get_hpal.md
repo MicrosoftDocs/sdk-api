@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPicture.get_hPal
 title: IPicture::get_hPal (ocidl.h)
-description: Retrieves a copy of the palette currently used by the picture object.helpviewer_keywords: ["IPicture interface [COM]","get_hPal method","IPicture.get_hPal","IPicture::get_hPal","_ctrl_ipicture_get_hpal","com.ipicture_get_hpal","get_hPal","get_hPal method [COM]","get_hPal method [COM]","IPicture interface","ocidl/IPicture::get_hPal"]
+description: Retrieves a copy of the palette currently used by the picture object.
+helpviewer_keywords: ["IPicture interface [COM]","get_hPal method","IPicture.get_hPal","IPicture::get_hPal","_ctrl_ipicture_get_hpal","com.ipicture_get_hpal","get_hPal","get_hPal method [COM]","get_hPal method [COM]","IPicture interface","ocidl/IPicture::get_hPal"]
 old-location: com\ipicture_get_hpal.htm
 tech.root: com
 ms.assetid: 84887cb7-05b0-44cc-9772-117a598c1b94

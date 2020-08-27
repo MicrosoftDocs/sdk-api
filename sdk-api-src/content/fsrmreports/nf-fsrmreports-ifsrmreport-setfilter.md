@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.SetFilter
 title: IFsrmReport::SetFilter (fsrmreports.h)
-description: Sets the current value of the specified report filter.helpviewer_keywords: ["IFsrmReport interface [File Server Resource Manager]","SetFilter method","IFsrmReport.SetFilter","IFsrmReport::SetFilter","SetFilter","SetFilter method [File Server Resource Manager]","SetFilter method [File Server Resource Manager]","IFsrmReport interface","fs.ifsrmreport_setfilter","fsrm.ifsrmreport_setfilter","fsrmreports/IFsrmReport::SetFilter"]
+description: Sets the current value of the specified report filter.
+helpviewer_keywords: ["IFsrmReport interface [File Server Resource Manager]","SetFilter method","IFsrmReport.SetFilter","IFsrmReport::SetFilter","SetFilter","SetFilter method [File Server Resource Manager]","SetFilter method [File Server Resource Manager]","IFsrmReport interface","fs.ifsrmreport_setfilter","fsrm.ifsrmreport_setfilter","fsrmreports/IFsrmReport::SetFilter"]
 old-location: fsrm\ifsrmreport_setfilter.htm
 tech.root: fsrm
 ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c

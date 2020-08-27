@@ -1,9 +1,10 @@
 ---
 UID: NF:ncrypt.NCryptEnumKeys
 title: NCryptEnumKeys function (ncrypt.h)
-description: Obtains the names of the keys that are stored by the provider.helpviewer_keywords: ["NCRYPT_MACHINE_KEY_FLAG","NCRYPT_SILENT_FLAG","NCryptEnumKeys","NCryptEnumKeys function [Security]","ncrypt/NCryptEnumKeys","security.ncryptenumkeys_func"]
+description: Obtains the names of the keys that are stored by the provider.
+helpviewer_keywords: ["NCRYPT_MACHINE_KEY_FLAG","NCRYPT_SILENT_FLAG","NCryptEnumKeys","NCryptEnumKeys function [Security]","ncrypt/NCryptEnumKeys","security.ncryptenumkeys_func"]
 old-location: security\ncryptenumkeys_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func

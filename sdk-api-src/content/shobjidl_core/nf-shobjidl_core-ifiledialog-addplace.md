@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.AddPlace
 title: IFileDialog::AddPlace (shobjidl_core.h)
-description: Adds a folder to the list of places available for the user to open or save items.helpviewer_keywords: ["AddPlace","AddPlace method [Windows Shell]","AddPlace method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","AddPlace method","IFileDialog.AddPlace","IFileDialog::AddPlace","shell.IFileDialog_AddPlace","shell_IFileDialog_AddPlace","shobjidl_core/IFileDialog::AddPlace"]
+description: Adds a folder to the list of places available for the user to open or save items.
+helpviewer_keywords: ["AddPlace","AddPlace method [Windows Shell]","AddPlace method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","AddPlace method","IFileDialog.AddPlace","IFileDialog::AddPlace","shell.IFileDialog_AddPlace","shell_IFileDialog_AddPlace","shobjidl_core/IFileDialog::AddPlace"]
 old-location: shell\IFileDialog_AddPlace.htm
 tech.root: shell
 ms.assetid: 2196e73f-4e0f-4213-b0a2-13a047486f40

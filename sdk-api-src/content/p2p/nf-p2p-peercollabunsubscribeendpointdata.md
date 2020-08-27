@@ -4,7 +4,7 @@ title: PeerCollabUnsubscribeEndpointData function (p2p.h)
 description: Removes a subscription to an endpoint created with PeerCollabSubscribeEndpointData.
 helpviewer_keywords: ["PeerCollabUnsubscribeEndpointData","PeerCollabUnsubscribeEndpointData function [Peer Networking]","p2p.peercollabunsubscribeendpointdata","p2p/PeerCollabUnsubscribeEndpointData"]
 old-location: p2p\peercollabunsubscribeendpointdata.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: af07c7f5-bce2-4479-ad2a-8e501cfb6710
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnsubscribeEndpointData, PeerCollabUnsubscribeEndpointData function [Peer Networking], p2p.peercollabunsubscribeendpointdata, p2p/PeerCollabUnsubscribeEndpointData

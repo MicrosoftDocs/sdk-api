@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySessionNotify.KeyError
 title: IMFMediaKeySessionNotify::KeyError (mfmediaengine.h)
-description: Notifies the application that an error occurred while processing the key.helpviewer_keywords: ["IMFMediaKeySessionNotify interface [Media Foundation]","KeyError method","IMFMediaKeySessionNotify.KeyError","IMFMediaKeySessionNotify::KeyError","KeyError","KeyError method [Media Foundation]","KeyError method [Media Foundation]","IMFMediaKeySessionNotify interface","mf.imfmediakeysessionnotify_keyerror","mfmediaengine/IMFMediaKeySessionNotify::KeyError"]
+description: Notifies the application that an error occurred while processing the key.
+helpviewer_keywords: ["IMFMediaKeySessionNotify interface [Media Foundation]","KeyError method","IMFMediaKeySessionNotify.KeyError","IMFMediaKeySessionNotify::KeyError","KeyError","KeyError method [Media Foundation]","KeyError method [Media Foundation]","IMFMediaKeySessionNotify interface","mf.imfmediakeysessionnotify_keyerror","mfmediaengine/IMFMediaKeySessionNotify::KeyError"]
 old-location: mf\imfmediakeysessionnotify_keyerror.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e437b46a-8b25-42c4-b307-b6962b60b452
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyError method, IMFMediaKeySessionNotify.KeyError, IMFMediaKeySessionNotify::KeyError, KeyError, KeyError method [Media Foundation], KeyError method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyerror, mfmediaengine/IMFMediaKeySessionNotify::KeyError

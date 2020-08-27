@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetUdpTable
 title: GetUdpTable function (iphlpapi.h)
-description: Retrieves the IPv4 User Datagram Protocol (UDP) listener table.helpviewer_keywords: ["GetUdpTable","GetUdpTable function [IP Helper]","_iphlp_getudptable","iphlp.getudptable","iphlpapi/GetUdpTable"]
+description: Retrieves the IPv4 User Datagram Protocol (UDP) listener table.
+helpviewer_keywords: ["GetUdpTable","GetUdpTable function [IP Helper]","_iphlp_getudptable","iphlp.getudptable","iphlpapi/GetUdpTable"]
 old-location: iphlp\getudptable.htm
 tech.root: IpHlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e

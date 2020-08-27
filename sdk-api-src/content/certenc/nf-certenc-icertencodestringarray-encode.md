@@ -1,9 +1,10 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Encode
 title: ICertEncodeStringArray::Encode (certenc.h)
-description: Returns an ASN.1-encoded string of the string array stored in this object.helpviewer_keywords: ["CCertEncodeStringArray object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeStringArray object","Encode method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","Encode method","ICertEncodeStringArray.Encode","ICertEncodeStringArray::Encode","_certsrv_icertencodestringarray_encode","certenc/ICertEncodeStringArray::Encode","security.icertencodestringarray_encode"]
+description: Returns an ASN.1-encoded string of the string array stored in this object.
+helpviewer_keywords: ["CCertEncodeStringArray object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeStringArray object","Encode method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","Encode method","ICertEncodeStringArray.Encode","ICertEncodeStringArray::Encode","_certsrv_icertencodestringarray_encode","certenc/ICertEncodeStringArray::Encode","security.icertencodestringarray_encode"]
 old-location: security\icertencodestringarray_encode.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d8fc51ea-4d83-402a-a4ac-ce55d385905c
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeStringArray object, Encode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Encode method, ICertEncodeStringArray.Encode, ICertEncodeStringArray::Encode, _certsrv_icertencodestringarray_encode, certenc/ICertEncodeStringArray::Encode, security.icertencodestringarray_encode

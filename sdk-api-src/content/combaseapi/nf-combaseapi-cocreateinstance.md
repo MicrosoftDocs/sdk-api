@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoCreateInstance
 title: CoCreateInstance function (combaseapi.h)
-description: Creates a single uninitialized object of the class associated with a specified CLSID.helpviewer_keywords: ["CoCreateInstance","CoCreateInstance function [COM]","_com_CoCreateInstance","com.cocreateinstance","combaseapi/CoCreateInstance"]
+description: Creates a single uninitialized object of the class associated with a specified CLSID.
+helpviewer_keywords: ["CoCreateInstance","CoCreateInstance function [COM]","_com_CoCreateInstance","com.cocreateinstance","combaseapi/CoCreateInstance"]
 old-location: com\cocreateinstance.htm
 tech.root: com
 ms.assetid: 7295a55b-12c7-4ed0-a7a4-9ecee16afdec

@@ -1,9 +1,10 @@
 ---
 UID: NF:cryptxml.CryptXmlEncode
 title: CryptXmlEncode function (cryptxml.h)
-description: Encodes signature data by using the supplied XML writer callback function.helpviewer_keywords: ["CryptXmlEncode","CryptXmlEncode function [Security]","cryptxml/CryptXmlEncode","security.cryptxmlencode"]
+description: Encodes signature data by using the supplied XML writer callback function.
+helpviewer_keywords: ["CryptXmlEncode","CryptXmlEncode function [Security]","cryptxml/CryptXmlEncode","security.cryptxmlencode"]
 old-location: security\cryptxmlencode.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: fb0cd00c-f410-486e-8910-41c0463f6a74
 ms.date: 12/05/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode

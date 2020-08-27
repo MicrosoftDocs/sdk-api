@@ -4,7 +4,7 @@ title: VSS_MGMT_OBJECT_TYPE (vsmgmt.h)
 description: Discriminant for the VSS_MGMT_OBJECT_UNION union within the VSS_MGMT_OBJECT_PROP structure.
 helpviewer_keywords: ["*PVSS_MGMT_OBJECT_TYPE","PVSS_MGMT_OBJECT_TYPE","PVSS_MGMT_OBJECT_TYPE enumeration pointer [VSS]","VSS_MGMT_OBJECT_DIFF_AREA","VSS_MGMT_OBJECT_DIFF_VOLUME","VSS_MGMT_OBJECT_TYPE","VSS_MGMT_OBJECT_TYPE enumeration [VSS]","VSS_MGMT_OBJECT_UNKNOWN","VSS_MGMT_OBJECT_VOLUME","base.vss_mgmt_object_type","vsmgmt/PVSS_MGMT_OBJECT_TYPE","vsmgmt/VSS_MGMT_OBJECT_DIFF_AREA","vsmgmt/VSS_MGMT_OBJECT_DIFF_VOLUME","vsmgmt/VSS_MGMT_OBJECT_TYPE","vsmgmt/VSS_MGMT_OBJECT_UNKNOWN","vsmgmt/VSS_MGMT_OBJECT_VOLUME"]
 old-location: base\vss_mgmt_object_type.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ea28ff2c-6603-4193-9d5f-b41fffe28a90
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE enumeration pointer [VSS], VSS_MGMT_OBJECT_DIFF_AREA, VSS_MGMT_OBJECT_DIFF_VOLUME, VSS_MGMT_OBJECT_TYPE, VSS_MGMT_OBJECT_TYPE enumeration [VSS], VSS_MGMT_OBJECT_UNKNOWN, VSS_MGMT_OBJECT_VOLUME, base.vss_mgmt_object_type, vsmgmt/PVSS_MGMT_OBJECT_TYPE, vsmgmt/VSS_MGMT_OBJECT_DIFF_AREA, vsmgmt/VSS_MGMT_OBJECT_DIFF_VOLUME, vsmgmt/VSS_MGMT_OBJECT_TYPE, vsmgmt/VSS_MGMT_OBJECT_UNKNOWN, vsmgmt/VSS_MGMT_OBJECT_VOLUME'
@@ -51,8 +51,9 @@ ms.custom: 19H1
 
 
 The <b>VSS_MGMT_OBJECT_TYPE</b> enumeration type is a 
-    discriminant for the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> 
-    union within the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> 
+
+    discriminant for the <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> 
+    union within the <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> 
     structure.
 
 
@@ -87,12 +88,8 @@ The object is an association between a volume to be shadow copied and a volume t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a>
+<a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>
- 
-
- 
-
+<a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>

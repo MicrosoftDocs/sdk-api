@@ -1,7 +1,8 @@
 ---
 UID: NS:ddraw._DDOVERLAYFX
 title: DDOVERLAYFX (ddraw.h)
-description: The DDOVERLAYFX structure passes overlay information to the IDirectDrawSurface7::UpdateOverlay method.helpviewer_keywords: ["*LPDDOVERLAYFX","DDOVERFX_ARITHSTRETCHY","DDOVERFX_MIRRORLEFTRIGHT","DDOVERFX_MIRRORUPDOWN","DDOVERLAYFX","DDOVERLAYFX structure [DirectDraw]","LPDDOVERLAYFX","LPDDOVERLAYFX structure pointer [DirectDraw]","ddraw/DDOVERLAYFX","ddraw/LPDDOVERLAYFX","directdraw.ddoverlayfx"]
+description: The DDOVERLAYFX structure passes overlay information to the IDirectDrawSurface7::UpdateOverlay method.
+helpviewer_keywords: ["*LPDDOVERLAYFX","DDOVERFX_ARITHSTRETCHY","DDOVERFX_MIRRORLEFTRIGHT","DDOVERFX_MIRRORUPDOWN","DDOVERLAYFX","DDOVERLAYFX structure [DirectDraw]","LPDDOVERLAYFX","LPDDOVERLAYFX structure pointer [DirectDraw]","ddraw/DDOVERLAYFX","ddraw/LPDDOVERLAYFX","directdraw.ddoverlayfx"]
 old-location: directdraw\ddoverlayfx.htm
 tech.root: directdraw
 ms.assetid: 83b56211-0483-4e22-90b4-83ac5eaaa2f4
@@ -152,7 +153,7 @@ Mirror the overlay around the horizontal axis.
 Currently not used and must be set to 0.
 
 
-#### - DUMMYUNIONNAMEN(1)
+### -field DUMMYUNIONNAMEN(1)
 
 
 
@@ -167,7 +168,7 @@ Constant to use as the alpha channel for a destination.
 Address of a surface to use as the alpha channel for a destination.
 
 
-#### - DUMMYUNIONNAMEN(2)
+### -field DUMMYUNIONNAMEN(2)
 
 
 

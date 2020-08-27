@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnHomeProviderAvailable
 title: IMbnInterfaceEvents::OnHomeProviderAvailable (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate that home provider information for the device is available.helpviewer_keywords: ["IMbnInterfaceEvents interface [Microsoft Broadband Networks]","OnHomeProviderAvailable method","IMbnInterfaceEvents.OnHomeProviderAvailable","IMbnInterfaceEvents::OnHomeProviderAvailable","OnHomeProviderAvailable","OnHomeProviderAvailable method [Microsoft Broadband Networks]","OnHomeProviderAvailable method [Microsoft Broadband Networks]","IMbnInterfaceEvents interface","mbn.imbninterfaceevents_onhomeprovideravailable","mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable"]
+description: This notification method is called by the Mobile Broadband service to indicate that home provider information for the device is available.
+helpviewer_keywords: ["IMbnInterfaceEvents interface [Microsoft Broadband Networks]","OnHomeProviderAvailable method","IMbnInterfaceEvents.OnHomeProviderAvailable","IMbnInterfaceEvents::OnHomeProviderAvailable","OnHomeProviderAvailable","OnHomeProviderAvailable method [Microsoft Broadband Networks]","OnHomeProviderAvailable method [Microsoft Broadband Networks]","IMbnInterfaceEvents interface","mbn.imbninterfaceevents_onhomeprovideravailable","mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable"]
 old-location: mbn\imbninterfaceevents_onhomeprovideravailable.htm
 tech.root: mbn
 ms.assetid: 4da50033-d55c-4878-b05c-cbc43c156da0

@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsVolumeMF.QueryAccessPaths
 title: IVdsVolumeMF::QueryAccessPaths (vds.h)
-description: Returns a list of access paths and a drive letter, if one exists, for the current volume.helpviewer_keywords: ["IVdsVolumeMF interface [VDS]","QueryAccessPaths method","IVdsVolumeMF.QueryAccessPaths","IVdsVolumeMF::QueryAccessPaths","QueryAccessPaths","QueryAccessPaths method [VDS]","QueryAccessPaths method [VDS]","IVdsVolumeMF interface","base.ivdsvolumemf_queryaccesspaths","vds/IVdsVolumeMF::QueryAccessPaths"]
+description: Returns a list of access paths and a drive letter, if one exists, for the current volume.
+helpviewer_keywords: ["IVdsVolumeMF interface [VDS]","QueryAccessPaths method","IVdsVolumeMF.QueryAccessPaths","IVdsVolumeMF::QueryAccessPaths","QueryAccessPaths","QueryAccessPaths method [VDS]","QueryAccessPaths method [VDS]","IVdsVolumeMF interface","base.ivdsvolumemf_queryaccesspaths","vds/IVdsVolumeMF::QueryAccessPaths"]
 old-location: base\ivdsvolumemf_queryaccesspaths.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 7d541245-c189-4abe-ac72-2928c7aeed95
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryAccessPaths method, IVdsVolumeMF.QueryAccessPaths, IVdsVolumeMF::QueryAccessPaths, QueryAccessPaths, QueryAccessPaths method [VDS], QueryAccessPaths method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryaccesspaths, vds/IVdsVolumeMF::QueryAccessPaths

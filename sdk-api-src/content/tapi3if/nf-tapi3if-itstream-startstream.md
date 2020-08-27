@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITStream.StartStream
 title: ITStream::StartStream (tapi3if.h)
-description: The StartStream method starts the stream.helpviewer_keywords: ["ITStream interface [TAPI 2.2]","StartStream method","ITStream.StartStream","ITStream::StartStream","StartStream","StartStream method [TAPI 2.2]","StartStream method [TAPI 2.2]","ITStream interface","_tapi3_itstream_startstream","tapi3.itstream_startstream","tapi3if/ITStream::StartStream"]
+description: The StartStream method starts the stream.
+helpviewer_keywords: ["ITStream interface [TAPI 2.2]","StartStream method","ITStream.StartStream","ITStream::StartStream","StartStream","StartStream method [TAPI 2.2]","StartStream method [TAPI 2.2]","ITStream interface","_tapi3_itstream_startstream","tapi3.itstream_startstream","tapi3if/ITStream::StartStream"]
 old-location: tapi3\itstream_startstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 23553f00-5ce5-465e-b455-8bf2d73dae9d
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],StartStream method, ITStream.StartStream, ITStream::StartStream, StartStream, StartStream method [TAPI 2.2], StartStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_startstream, tapi3.itstream_startstream, tapi3if/ITStream::StartStream

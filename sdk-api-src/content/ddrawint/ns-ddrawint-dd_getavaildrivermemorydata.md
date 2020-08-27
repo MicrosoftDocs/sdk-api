@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_GETAVAILDRIVERMEMORYDATA
 title: DD_GETAVAILDRIVERMEMORYDATA (ddrawint.h)
-description: The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the driver to query and return the amount of free memory.helpviewer_keywords: ["*PDD_GETAVAILDRIVERMEMORYDATA","DD_GETAVAILDRIVERMEMORYDATA","DD_GETAVAILDRIVERMEMORYDATA structure [Display Devices]","ddrawint/DD_GETAVAILDRIVERMEMORYDATA","ddstrcts_874c0a25-9513-44fa-bbfc-a480c918a835.xml","display.dd_getavaildrivermemorydata"]
+description: The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the driver to query and return the amount of free memory.
+helpviewer_keywords: ["*PDD_GETAVAILDRIVERMEMORYDATA","DD_GETAVAILDRIVERMEMORYDATA","DD_GETAVAILDRIVERMEMORYDATA structure [Display Devices]","ddrawint/DD_GETAVAILDRIVERMEMORYDATA","ddstrcts_874c0a25-9513-44fa-bbfc-a480c918a835.xml","display.dd_getavaildrivermemorydata"]
 old-location: display\dd_getavaildrivermemorydata.htm
 tech.root: display
 ms.assetid: 4e344c43-55ae-49fc-94ef-390c399d5d0b

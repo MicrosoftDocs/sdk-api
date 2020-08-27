@@ -1,9 +1,10 @@
 ---
 UID: NF:processthreadsapi.GetThreadIOPendingFlag
 title: GetThreadIOPendingFlag function (processthreadsapi.h)
-description: Determines whether a specified thread has any I/O requests pending.helpviewer_keywords: ["GetThreadIOPendingFlag","GetThreadIOPendingFlag function","base.getthreadiopendingflag","processthreadsapi/GetThreadIOPendingFlag"]
+description: Determines whether a specified thread has any I/O requests pending.
+helpviewer_keywords: ["GetThreadIOPendingFlag","GetThreadIOPendingFlag function","base.getthreadiopendingflag","processthreadsapi/GetThreadIOPendingFlag"]
 old-location: base\getthreadiopendingflag.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 5502f735-38f5-44a4-908d-1b421ee66aec
 ms.date: 12/05/2018
 ms.keywords: GetThreadIOPendingFlag, GetThreadIOPendingFlag function, base.getthreadiopendingflag, processthreadsapi/GetThreadIOPendingFlag

@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRYPT_URL_INFO
 title: CRYPT_URL_INFO (wincrypt.h)
-description: Contains information about groupings of URLs.helpviewer_keywords: ["*PCRYPT_URL_INFO","CRYPT_URL_INFO","CRYPT_URL_INFO structure [Security]","PCRYPT_URL_INFO","PCRYPT_URL_INFO structure pointer [Security]","_crypto2_crypt_url_info","security.crypt_url_info","wincrypt/CRYPT_URL_INFO","wincrypt/PCRYPT_URL_INFO"]
+description: Contains information about groupings of URLs.
+helpviewer_keywords: ["*PCRYPT_URL_INFO","CRYPT_URL_INFO","CRYPT_URL_INFO structure [Security]","PCRYPT_URL_INFO","PCRYPT_URL_INFO structure pointer [Security]","_crypto2_crypt_url_info","security.crypt_url_info","wincrypt/CRYPT_URL_INFO","wincrypt/PCRYPT_URL_INFO"]
 old-location: security\crypt_url_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 58289a66-6580-468c-b001-5da08cf6d4a9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_URL_INFO, CRYPT_URL_INFO, CRYPT_URL_INFO structure [Security], PCRYPT_URL_INFO, PCRYPT_URL_INFO structure pointer [Security], _crypto2_crypt_url_info, security.crypt_url_info, wincrypt/CRYPT_URL_INFO, wincrypt/PCRYPT_URL_INFO'

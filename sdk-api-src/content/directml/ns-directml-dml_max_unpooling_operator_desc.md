@@ -2,7 +2,7 @@
 UID: NS:directml.DML_MAX_UNPOOLING_OPERATOR_DESC
 title: DML_MAX_UNPOOLING_OPERATOR_DESC
 description: Describes a DirectML operator that fills the output tensor of the given shape (either explicit, or the input shape plus padding) with zeros, then writes each value from the input tensor into the output tensor at the element offset from the corresponding indices array.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/31/2020
 dev_langs:
 - c++

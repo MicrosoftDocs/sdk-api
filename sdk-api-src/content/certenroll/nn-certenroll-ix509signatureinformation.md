@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509SignatureInformation
 title: IX509SignatureInformation (certenroll.h)
-description: Represents information used to sign a certificate request.helpviewer_keywords: ["IX509SignatureInformation","IX509SignatureInformation interface [Security]","IX509SignatureInformation interface [Security]","described","certenroll/IX509SignatureInformation","security.ix509signatureinformation"]
+description: Represents information used to sign a certificate request.
+helpviewer_keywords: ["IX509SignatureInformation","IX509SignatureInformation interface [Security]","IX509SignatureInformation interface [Security]","described","certenroll/IX509SignatureInformation","security.ix509signatureinformation"]
 old-location: security\ix509signatureinformation.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 25774ccb-8e76-443d-89da-177d6e77c019
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], IX509SignatureInformation interface [Security],described, certenroll/IX509SignatureInformation, security.ix509signatureinformation

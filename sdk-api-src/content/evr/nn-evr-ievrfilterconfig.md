@@ -1,9 +1,10 @@
 ---
 UID: NN:evr.IEVRFilterConfig
 title: IEVRFilterConfig (evr.h)
-description: Sets the number of input pins on the DirectShow Enhanced Video Renderer (EVR) filter.helpviewer_keywords: ["13086d85-3dbf-4e9f-b065-d95e16412832","IEVRFilterConfig","IEVRFilterConfig interface [Media Foundation]","IEVRFilterConfig interface [Media Foundation]","described","evr/IEVRFilterConfig","mf.ievrfilterconfig"]
+description: Sets the number of input pins on the DirectShow Enhanced Video Renderer (EVR) filter.
+helpviewer_keywords: ["13086d85-3dbf-4e9f-b065-d95e16412832","IEVRFilterConfig","IEVRFilterConfig interface [Media Foundation]","IEVRFilterConfig interface [Media Foundation]","described","evr/IEVRFilterConfig","mf.ievrfilterconfig"]
 old-location: mf\ievrfilterconfig.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 13086d85-3dbf-4e9f-b065-d95e16412832
 ms.date: 12/05/2018
 ms.keywords: 13086d85-3dbf-4e9f-b065-d95e16412832, IEVRFilterConfig, IEVRFilterConfig interface [Media Foundation], IEVRFilterConfig interface [Media Foundation],described, evr/IEVRFilterConfig, mf.ievrfilterconfig

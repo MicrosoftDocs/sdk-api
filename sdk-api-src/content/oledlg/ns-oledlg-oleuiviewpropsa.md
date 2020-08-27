@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUIVIEWPROPSA
 title: OLEUIVIEWPROPSA (oledlg.h)
-description: Contains information that is used to initialize the View tab of the Object properties dialog box.helpviewer_keywords: ["*LPOLEUIVIEWPROPSA","*POLEUIVIEWPROPSA","LPOLEUIVIEWPROPS","LPOLEUIVIEWPROPS structure pointer [COM]","OLEUIVIEWPROPS","OLEUIVIEWPROPS structure [COM]","OLEUIVIEWPROPSA","OLEUIVIEWPROPSW","POLEUIVIEWPROPS","POLEUIVIEWPROPS structure pointer [COM]","VPF_DISABLERELATIVE","VPF_DISABLESCALE","VPF_SELECTRELATIVE","_ole_OLEUIVIEWPROPS","com.oleuiviewprops_struct","oledlg/LPOLEUIVIEWPROPS","oledlg/OLEUIVIEWPROPS","oledlg/OLEUIVIEWPROPSA","oledlg/OLEUIVIEWPROPSW","oledlg/POLEUIVIEWPROPS"]
+description: Contains information that is used to initialize the View tab of the Object properties dialog box.
+helpviewer_keywords: ["*LPOLEUIVIEWPROPSA","*POLEUIVIEWPROPSA","LPOLEUIVIEWPROPS","LPOLEUIVIEWPROPS structure pointer [COM]","OLEUIVIEWPROPS","OLEUIVIEWPROPS structure [COM]","OLEUIVIEWPROPSA","OLEUIVIEWPROPSW","POLEUIVIEWPROPS","POLEUIVIEWPROPS structure pointer [COM]","VPF_DISABLERELATIVE","VPF_DISABLESCALE","VPF_SELECTRELATIVE","_ole_OLEUIVIEWPROPS","com.oleuiviewprops_struct","oledlg/LPOLEUIVIEWPROPS","oledlg/OLEUIVIEWPROPS","oledlg/OLEUIVIEWPROPSA","oledlg/OLEUIVIEWPROPSW","oledlg/POLEUIVIEWPROPS"]
 old-location: com\oleuiviewprops_struct.htm
 tech.root: com
 ms.assetid: e45565c5-185e-4143-a5c2-d0b273b5086e
@@ -152,4 +153,9 @@ Maximum value for the scale range.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The oledlg.h header defines OLEUIVIEWPROPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

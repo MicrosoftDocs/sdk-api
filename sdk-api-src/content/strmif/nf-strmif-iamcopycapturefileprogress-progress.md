@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMCopyCaptureFileProgress.Progress
 title: IAMCopyCaptureFileProgress::Progress (strmif.h)
-description: The Progress method is called periodically by the ICaptureGraphBuilder2::CopyCaptureFile method while it copies the file.helpviewer_keywords: ["IAMCopyCaptureFileProgress interface [DirectShow]","Progress method","IAMCopyCaptureFileProgress.Progress","IAMCopyCaptureFileProgress::Progress","IAMCopyCaptureFileProgressProgress","Progress","Progress method [DirectShow]","Progress method [DirectShow]","IAMCopyCaptureFileProgress interface","dshow.iamcopycapturefileprogress_progress","strmif/IAMCopyCaptureFileProgress::Progress"]
+description: The Progress method is called periodically by the ICaptureGraphBuilder2::CopyCaptureFile method while it copies the file.
+helpviewer_keywords: ["IAMCopyCaptureFileProgress interface [DirectShow]","Progress method","IAMCopyCaptureFileProgress.Progress","IAMCopyCaptureFileProgress::Progress","IAMCopyCaptureFileProgressProgress","Progress","Progress method [DirectShow]","Progress method [DirectShow]","IAMCopyCaptureFileProgress interface","dshow.iamcopycapturefileprogress_progress","strmif/IAMCopyCaptureFileProgress::Progress"]
 old-location: dshow\iamcopycapturefileprogress_progress.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
 ms.date: 12/05/2018
 ms.keywords: IAMCopyCaptureFileProgress interface [DirectShow],Progress method, IAMCopyCaptureFileProgress.Progress, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress, Progress method [DirectShow], Progress method [DirectShow],IAMCopyCaptureFileProgress interface, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress

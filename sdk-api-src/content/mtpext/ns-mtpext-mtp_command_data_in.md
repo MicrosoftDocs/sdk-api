@@ -1,7 +1,8 @@
 ---
 UID: NS:mtpext._MTP_COMMAND_DATA_IN
 title: MTP_COMMAND_DATA_IN (mtpext.h)
-description: The MTP_COMMAND_DATA_IN structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the IWMDMDevice3::DeviceIoControl method.helpviewer_keywords: ["*PMTP_COMMAND_DATA_IN","MTP_COMMAND_DATA_IN","MTP_COMMAND_DATA_IN structure [windows Media Device Manager]","PMTP_COMMAND_DATA_IN","PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager]","mtpext/MTP_COMMAND_DATA_IN","mtpext/PMTP_COMMAND_DATA_IN","wmdm.mtp_command_data_in"]
+description: The MTP_COMMAND_DATA_IN structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the IWMDMDevice3::DeviceIoControl method.
+helpviewer_keywords: ["*PMTP_COMMAND_DATA_IN","MTP_COMMAND_DATA_IN","MTP_COMMAND_DATA_IN structure [windows Media Device Manager]","PMTP_COMMAND_DATA_IN","PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager]","mtpext/MTP_COMMAND_DATA_IN","mtpext/PMTP_COMMAND_DATA_IN","wmdm.mtp_command_data_in"]
 old-location: wmdm\mtp_command_data_in.htm
 tech.root: WMDM
 ms.assetid: a7a6871b-3d53-4134-9877-398c532b489f
@@ -85,14 +86,8 @@ Indicates whether the command has a read data phase, a write data phase, or no d
 Data size of <b>CommandWriteData</b>[1], in bytes.
 
 
-### -field CommandWriteData
 
- 
-
-
-
-
-#### - CommandWriteData[1]
+### -field CommandWriteData [1]
 
 Optional, first byte of data to write to the device if <b>NextPhase</b> is MTP_NEXTPHASE_WRITE_DATA.
 

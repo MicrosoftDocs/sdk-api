@@ -1,7 +1,8 @@
 ---
 UID: NN:vfw.IAVIStreaming
 title: IAVIStreaming (vfw.h)
-description: The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_helpviewer_keywords: ["IAVIStreaming","IAVIStreaming interface [Windows Multimedia]","IAVIStreaming interface [Windows Multimedia]","described","_win32_IAVIStreaming","multimedia.iavistreaming","vfw/IAVIStreaming"]
+description: The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
+helpviewer_keywords: ["IAVIStreaming","IAVIStreaming interface [Windows Multimedia]","IAVIStreaming interface [Windows Multimedia]","described","_win32_IAVIStreaming","multimedia.iavistreaming","vfw/IAVIStreaming"]
 The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavistreaming.htm
 tech.root: Multimedia

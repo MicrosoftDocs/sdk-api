@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IGraphBuilder.ShouldOperationContinue
 title: IGraphBuilder::ShouldOperationContinue (strmif.h)
-description: The ShouldOperationContinue method queries whether the current operation should continue.helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","ShouldOperationContinue method","IGraphBuilder.ShouldOperationContinue","IGraphBuilder::ShouldOperationContinue","IGraphBuilderShouldOperationContinue","ShouldOperationContinue","ShouldOperationContinue method [DirectShow]","ShouldOperationContinue method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_shouldoperationcontinue","strmif/IGraphBuilder::ShouldOperationContinue"]
+description: The ShouldOperationContinue method queries whether the current operation should continue.
+helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","ShouldOperationContinue method","IGraphBuilder.ShouldOperationContinue","IGraphBuilder::ShouldOperationContinue","IGraphBuilderShouldOperationContinue","ShouldOperationContinue","ShouldOperationContinue method [DirectShow]","ShouldOperationContinue method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_shouldoperationcontinue","strmif/IGraphBuilder::ShouldOperationContinue"]
 old-location: dshow\igraphbuilder_shouldoperationcontinue.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0d862a41-6896-40a5-8bfc-129b15dfc671
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],ShouldOperationContinue method, IGraphBuilder.ShouldOperationContinue, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue

@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.GetVolumePathNamesForVolumeNameW
 title: GetVolumePathNamesForVolumeNameW function (fileapi.h)
-description: Retrieves a list of drive letters and mounted folder paths for the specified volume.helpviewer_keywords: ["GetVolumePathNamesForVolumeName","GetVolumePathNamesForVolumeName function [Files]","GetVolumePathNamesForVolumeNameA","GetVolumePathNamesForVolumeNameW","_win32_getvolumepathnamesforvolumename","base.getvolumepathnamesforvolumename","fileapi/GetVolumePathNamesForVolumeName","fileapi/GetVolumePathNamesForVolumeNameA","fileapi/GetVolumePathNamesForVolumeNameW","fs.getvolumepathnamesforvolumename","winbase/GetVolumePathNamesForVolumeName","winbase/GetVolumePathNamesForVolumeNameA","winbase/GetVolumePathNamesForVolumeNameW"]
+description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
+helpviewer_keywords: ["GetVolumePathNamesForVolumeName","GetVolumePathNamesForVolumeName function [Files]","GetVolumePathNamesForVolumeNameA","GetVolumePathNamesForVolumeNameW","_win32_getvolumepathnamesforvolumename","base.getvolumepathnamesforvolumename","fileapi/GetVolumePathNamesForVolumeName","fileapi/GetVolumePathNamesForVolumeNameA","fileapi/GetVolumePathNamesForVolumeNameW","fs.getvolumepathnamesforvolumename","winbase/GetVolumePathNamesForVolumeName","winbase/GetVolumePathNamesForVolumeNameA","winbase/GetVolumePathNamesForVolumeNameW"]
 old-location: fs\getvolumepathnamesforvolumename.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 067904c1-d3e1-4cfd-ac63-6ef32d9a2513
 ms.date: 12/05/2018
 ms.keywords: GetVolumePathNamesForVolumeName, GetVolumePathNamesForVolumeName function [Files], GetVolumePathNamesForVolumeNameA, GetVolumePathNamesForVolumeNameW, _win32_getvolumepathnamesforvolumename, base.getvolumepathnamesforvolumename, fileapi/GetVolumePathNamesForVolumeName, fileapi/GetVolumePathNamesForVolumeNameA, fileapi/GetVolumePathNamesForVolumeNameW, fs.getvolumepathnamesforvolumename, winbase/GetVolumePathNamesForVolumeName, winbase/GetVolumePathNamesForVolumeNameA, winbase/GetVolumePathNamesForVolumeNameW

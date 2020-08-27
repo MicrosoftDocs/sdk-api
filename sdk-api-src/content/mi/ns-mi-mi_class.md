@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Class
 title: MI_Class (mi.h)
-description: Represents the schema of an instance.helpviewer_keywords: ["MI_Class","MI_Class structure [Windows Management Infrastructure (MI)]","mi/MI_Class","wmi._mi_class","wmi_v2.mi_class"]
+description: Represents the schema of an instance.
+helpviewer_keywords: ["MI_Class","MI_Class structure [Windows Management Infrastructure (MI)]","mi/MI_Class","wmi._mi_class","wmi_v2.mi_class"]
 old-location: wmi_v2\mi_class.htm
 tech.root: wmi_v2
 ms.assetid: 7f02e0fa-9e58-455d-9cf4-1d1244c44422

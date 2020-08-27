@@ -1,7 +1,8 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SACGetProtocols
 title: CSecureChannelServer::SACGetProtocols (scserver.h)
-description: The SACGetProtocols method reports the protocols supported by a component.helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","SACGetProtocols method","CSecureChannelServer.SACGetProtocols","CSecureChannelServer::SACGetProtocols","CSecureChannelServerSACGetProtocols","SACGetProtocols","SACGetProtocols method [windows Media Device Manager]","SACGetProtocols method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::SACGetProtocols","wmdm.csecurechannelserver_sacgetprotocols"]
+description: The SACGetProtocols method reports the protocols supported by a component.
+helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","SACGetProtocols method","CSecureChannelServer.SACGetProtocols","CSecureChannelServer::SACGetProtocols","CSecureChannelServerSACGetProtocols","SACGetProtocols","SACGetProtocols method [windows Media Device Manager]","SACGetProtocols method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::SACGetProtocols","wmdm.csecurechannelserver_sacgetprotocols"]
 old-location: wmdm\csecurechannelserver_sacgetprotocols.htm
 tech.root: WMDM
 ms.assetid: 42878774-9c8b-4d80-a17e-6682da4d34ab

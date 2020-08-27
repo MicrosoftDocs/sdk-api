@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateTransferPercent
 title: IPhotoAcquireProgressCB::UpdateTransferPercent (photoacquire.h)
-description: The UpdateTransferPercent method provides extended functionality when the percentage of items transferred changes. The application provides the implementation of the UpdateTransferPercent method.helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","UpdateTransferPercent method","IPhotoAcquireProgressCB.UpdateTransferPercent","IPhotoAcquireProgressCB::UpdateTransferPercent","IPhotoAcquireProgressCBUpdateTransferPercent","UpdateTransferPercent","UpdateTransferPercent method [Picture Acquisition]","UpdateTransferPercent method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::UpdateTransferPercent","picacq.iphotoacquireprogresscb_updatetransferpercent"]
+description: The UpdateTransferPercent method provides extended functionality when the percentage of items transferred changes. The application provides the implementation of the UpdateTransferPercent method.
+helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","UpdateTransferPercent method","IPhotoAcquireProgressCB.UpdateTransferPercent","IPhotoAcquireProgressCB::UpdateTransferPercent","IPhotoAcquireProgressCBUpdateTransferPercent","UpdateTransferPercent","UpdateTransferPercent method [Picture Acquisition]","UpdateTransferPercent method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::UpdateTransferPercent","picacq.iphotoacquireprogresscb_updatetransferpercent"]
 old-location: picacq\iphotoacquireprogresscb_updatetransferpercent.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: a868663d-f926-4b29-9e1f-7df4ec36687b
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateTransferPercent method, IPhotoAcquireProgressCB.UpdateTransferPercent, IPhotoAcquireProgressCB::UpdateTransferPercent, IPhotoAcquireProgressCBUpdateTransferPercent, UpdateTransferPercent, UpdateTransferPercent method [Picture Acquisition], UpdateTransferPercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateTransferPercent, picacq.iphotoacquireprogresscb_updatetransferpercent

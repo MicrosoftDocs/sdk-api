@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.RegisterTypeLib
 title: RegisterTypeLib function (oleauto.h)
-description: Adds information about a type library to the system registry.helpviewer_keywords: ["RegisterTypeLib","RegisterTypeLib function [Automation]","_oa96_RegisterTypeLib","automat.registertypelib","oleauto/RegisterTypeLib"]
+description: Adds information about a type library to the system registry.
+helpviewer_keywords: ["RegisterTypeLib","RegisterTypeLib function [Automation]","_oa96_RegisterTypeLib","automat.registertypelib","oleauto/RegisterTypeLib"]
 old-location: automat\registertypelib.htm
 tech.root: automat
 ms.assetid: d0559a57-b1a4-4036-97ed-024d775cb595

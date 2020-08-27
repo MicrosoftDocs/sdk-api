@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_MOUSE
 title: RID_DEVICE_INFO_MOUSE (winuser.h)
-description: Defines the raw input data coming from the specified mouse.helpviewer_keywords: ["*PRID_DEVICE_INFO_MOUSE","PRID_DEVICE_INFO_MOUSE","PRID_DEVICE_INFO_MOUSE structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO_MOUSE","RID_DEVICE_INFO_MOUSE structure [Keyboard and Mouse Input]","_win32_RID_DEVICE_INFO_MOUSE_str","_win32_rid_device_info_mouse_str_cpp","inputdev.rid_device_info_mouse","winui._win32_rid_device_info_mouse_str","winuser/PRID_DEVICE_INFO_MOUSE","winuser/RID_DEVICE_INFO_MOUSE"]
+description: Defines the raw input data coming from the specified mouse.
+helpviewer_keywords: ["*PRID_DEVICE_INFO_MOUSE","PRID_DEVICE_INFO_MOUSE","PRID_DEVICE_INFO_MOUSE structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO_MOUSE","RID_DEVICE_INFO_MOUSE structure [Keyboard and Mouse Input]","_win32_RID_DEVICE_INFO_MOUSE_str","_win32_rid_device_info_mouse_str_cpp","inputdev.rid_device_info_mouse","winui._win32_rid_device_info_mouse_str","winuser/PRID_DEVICE_INFO_MOUSE","winuser/RID_DEVICE_INFO_MOUSE"]
 old-location: inputdev\rid_device_info_mouse.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info_mouse.htm

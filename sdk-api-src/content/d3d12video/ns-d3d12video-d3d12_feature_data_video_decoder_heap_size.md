@@ -2,6 +2,7 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
 title: D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
 description: Describes the allocation size of a video decoder heap.
+tech.root: mf
 helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE"]
 ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE

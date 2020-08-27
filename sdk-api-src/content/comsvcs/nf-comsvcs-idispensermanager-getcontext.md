@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IDispenserManager.GetContext
 title: IDispenserManager::GetContext (comsvcs.h)
-description: Determines the current context.helpviewer_keywords: ["GetContext","GetContext method [COM+]","GetContext method [COM+]","IDispenserManager interface","IDispenserManager interface [COM+]","GetContext method","IDispenserManager.GetContext","IDispenserManager::GetContext","_dtc_IDispenserManager_GetContext","comsvcs/IDispenserManager::GetContext","cos.idispensermanager_getcontext"]
+description: Determines the current context.
+helpviewer_keywords: ["GetContext","GetContext method [COM+]","GetContext method [COM+]","IDispenserManager interface","IDispenserManager interface [COM+]","GetContext method","IDispenserManager.GetContext","IDispenserManager::GetContext","_dtc_IDispenserManager_GetContext","comsvcs/IDispenserManager::GetContext","cos.idispensermanager_getcontext"]
 old-location: cos\idispensermanager_getcontext.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext

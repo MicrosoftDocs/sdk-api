@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.Button_SetText
 title: Button_SetText macro (windowsx.h)
-description: Sets the text of a button.helpviewer_keywords: ["Button_SetText","Button_SetText macro [Windows Controls]","_win32_Button_SetText","_win32_Button_SetText_cpp","controls.Button_SetText","controls._win32_Button_SetText","windowsx/Button_SetText"]
+description: Sets the text of a button.
+helpviewer_keywords: ["Button_SetText","Button_SetText macro [Windows Controls]","_win32_Button_SetText","_win32_Button_SetText_cpp","controls.Button_SetText","controls._win32_Button_SetText","windowsx/Button_SetText"]
 old-location: controls\Button_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settext.htm

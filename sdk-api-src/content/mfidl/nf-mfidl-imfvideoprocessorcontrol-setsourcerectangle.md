@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetSourceRectangle
 title: IMFVideoProcessorControl::SetSourceRectangle (mfidl.h)
-description: Sets the source rectangle.helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetSourceRectangle method","IMFVideoProcessorControl.SetSourceRectangle","IMFVideoProcessorControl::SetSourceRectangle","SetSourceRectangle","SetSourceRectangle method [Media Foundation]","SetSourceRectangle method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setsourcerectangle","mfidl/IMFVideoProcessorControl::SetSourceRectangle"]
+description: Sets the source rectangle.
+helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetSourceRectangle method","IMFVideoProcessorControl.SetSourceRectangle","IMFVideoProcessorControl::SetSourceRectangle","SetSourceRectangle","SetSourceRectangle method [Media Foundation]","SetSourceRectangle method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setsourcerectangle","mfidl/IMFVideoProcessorControl::SetSourceRectangle"]
 old-location: mf\imfvideoprocessorcontrol_setsourcerectangle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0A4E74BB-6F98-4610-9F47-5BD1E58B8589
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetSourceRectangle method, IMFVideoProcessorControl.SetSourceRectangle, IMFVideoProcessorControl::SetSourceRectangle, SetSourceRectangle, SetSourceRectangle method [Media Foundation], SetSourceRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setsourcerectangle, mfidl/IMFVideoProcessorControl::SetSourceRectangle

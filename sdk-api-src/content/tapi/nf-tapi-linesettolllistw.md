@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineSetTollListW
 title: lineSetTollListW function (tapi.h)
-description: The lineSetTollList function manipulates the toll list.helpviewer_keywords: ["_tapi2_linesettolllist","lineSetTollList","lineSetTollList function [TAPI 2.2]","lineSetTollListA","lineSetTollListW","tapi/lineSetTollList","tapi/lineSetTollListA","tapi/lineSetTollListW","tapi2.linesettolllist"]
+description: The lineSetTollList function manipulates the toll list.
+helpviewer_keywords: ["_tapi2_linesettolllist","lineSetTollList","lineSetTollList function [TAPI 2.2]","lineSetTollListA","lineSetTollListW","tapi/lineSetTollList","tapi/lineSetTollListA","tapi/lineSetTollListW","tapi2.linesettolllist"]
 old-location: tapi2\linesettolllist.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist
@@ -72,7 +73,7 @@ Application handle returned by
 Device identifier for the line device upon which the call is intended to be dialed, so that variations in dialing procedures on different lines can be applied to the translation process.
 
 
-#### - lpszAddressInW
+### -param lpszAddressInW
 
 Pointer to a <b>null</b>-terminated string containing the address from which the prefix information is to be extracted for processing. This parameter must not be <b>NULL</b>, and it must be in the canonical address format.
 
@@ -111,4 +112,9 @@ LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INVALAPPHANDLE, LINEERR_NOMEM, LI
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The tapi.h header defines lineSetTollList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

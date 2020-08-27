@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR8FromDisp
 title: VarR8FromDisp function (oleauto.h)
-description: Converts the default property of an IDispatch instance to a double value.helpviewer_keywords: ["VarR8FromDisp","VarR8FromDisp function [Automation]","_oa96_VarR8FromDisp","automat.varr8fromdisp","oleauto/VarR8FromDisp"]
+description: Converts the default property of an IDispatch instance to a double value.
+helpviewer_keywords: ["VarR8FromDisp","VarR8FromDisp function [Automation]","_oa96_VarR8FromDisp","automat.varr8fromdisp","oleauto/VarR8FromDisp"]
 old-location: automat\varr8fromdisp.htm
 tech.root: automat
 ms.assetid: d342ef5a-eb5f-431a-9ea2-f6361836c92e

@@ -1,7 +1,8 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetVendorExtension
 title: IWCNDevice::SetVendorExtension (wcndevice.h)
-description: The IWCNDevice::SetVendorExtension method queues a vendor extension for use in the pending session. This function may only be called prior to IWCNDevice::Connect.helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetVendorExtension method","IWCNDevice.SetVendorExtension","IWCNDevice::SetVendorExtension","SetVendorExtension","SetVendorExtension method [Windows Connect Now]","SetVendorExtension method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_setvendorextension","wcndevice/IWCNDevice::SetVendorExtension"]
+description: The IWCNDevice::SetVendorExtension method queues a vendor extension for use in the pending session. This function may only be called prior to IWCNDevice::Connect.
+helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetVendorExtension method","IWCNDevice.SetVendorExtension","IWCNDevice::SetVendorExtension","SetVendorExtension","SetVendorExtension method [Windows Connect Now]","SetVendorExtension method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_setvendorextension","wcndevice/IWCNDevice::SetVendorExtension"]
 old-location: wcn\iwcndevice_setvendorextension.htm
 tech.root: wcn
 ms.assetid: ed96b9bc-4f4e-48bb-9c1d-8a0ababe0b26

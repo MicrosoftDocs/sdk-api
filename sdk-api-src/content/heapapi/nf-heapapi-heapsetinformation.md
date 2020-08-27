@@ -1,9 +1,10 @@
 ---
 UID: NF:heapapi.HeapSetInformation
 title: HeapSetInformation function (heapapi.h)
-description: Enables features for a specified heap.helpviewer_keywords: ["HeapCompatibilityInformation","HeapEnableTerminationOnCorruption","HeapOptimizeResources","HeapSetInformation","HeapSetInformation function","_win32_heapsetinformation","base.heapsetinformation","heapapi/HeapSetInformation","winbase/HeapSetInformation"]
+description: Enables features for a specified heap.
+helpviewer_keywords: ["HeapCompatibilityInformation","HeapEnableTerminationOnCorruption","HeapOptimizeResources","HeapSetInformation","HeapSetInformation function","_win32_heapsetinformation","base.heapsetinformation","heapapi/HeapSetInformation","winbase/HeapSetInformation"]
 old-location: base\heapsetinformation.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation

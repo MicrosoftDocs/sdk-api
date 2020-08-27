@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetComputerNameA
 title: GetComputerNameA function (winbase.h)
-description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.helpviewer_keywords: ["GetComputerName","GetComputerName function","GetComputerNameA","GetComputerNameW","_win32_getcomputername","base.getcomputername","winbase/GetComputerName","winbase/GetComputerNameA","winbase/GetComputerNameW"]
+description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
+helpviewer_keywords: ["GetComputerName","GetComputerName function","GetComputerNameA","GetComputerNameW","_win32_getcomputername","base.getcomputername","winbase/GetComputerName","winbase/GetComputerNameA","winbase/GetComputerNameW"]
 old-location: base\getcomputername.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1
 ms.date: 12/05/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
@@ -120,6 +121,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetComputerName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

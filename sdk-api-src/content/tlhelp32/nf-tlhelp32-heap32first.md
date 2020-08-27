@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Heap32First
 title: Heap32First function (tlhelp32.h)
-description: Retrieves information about the first block of a heap that has been allocated by a process.helpviewer_keywords: ["Heap32First","Heap32First function [ToolHelp]","_win32_heap32first","base.heap32first","tlhelp32/Heap32First","toolhelp.heap32first"]
+description: Retrieves information about the first block of a heap that has been allocated by a process.
+helpviewer_keywords: ["Heap32First","Heap32First function [ToolHelp]","_win32_heap32first","base.heap32first","tlhelp32/Heap32First","toolhelp.heap32first"]
 old-location: toolhelp\heap32first.htm
 tech.root: ToolHelp
 ms.assetid: 79d01e3a-b11b-46b5-99d0-b445000288a7

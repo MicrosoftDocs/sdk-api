@@ -1,9 +1,10 @@
 ---
 UID: NS:wingdi.tagBITMAPINFOHEADER
 title: BITMAPINFOHEADER (wingdi.h)
-description: The BITMAPINFOHEADER structure contains information about the dimensions and color format of a device-independent bitmap (DIB).helpviewer_keywords: ["*LPBITMAPINFOHEADER","*PBITMAPINFOHEADER","BITMAPINFOHEADER","BITMAPINFOHEADER structure [DirectShow]","BITMAPINFOHEADERStructure","BI_BITFIELDS","BI_RGB","dshow.bitmapinfoheader","tagBITMAPINFOHEADER","wingdi/BITMAPINFOHEADER"]
+description: The BITMAPINFOHEADER structure contains information about the dimensions and color format of a device-independent bitmap (DIB).
+helpviewer_keywords: ["*LPBITMAPINFOHEADER","*PBITMAPINFOHEADER","BITMAPINFOHEADER","BITMAPINFOHEADER structure [DirectShow]","BITMAPINFOHEADERStructure","BI_BITFIELDS","BI_RGB","dshow.bitmapinfoheader","tagBITMAPINFOHEADER","wingdi/BITMAPINFOHEADER"]
 old-location: dshow\bitmapinfoheader.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 153c08a8-d32c-4e9d-9da9-b915eb172327
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPINFOHEADER, *PBITMAPINFOHEADER, BITMAPINFOHEADER, BITMAPINFOHEADER structure [DirectShow], BITMAPINFOHEADERStructure, BI_BITFIELDS, BI_RGB, dshow.bitmapinfoheader, tagBITMAPINFOHEADER, wingdi/BITMAPINFOHEADER'

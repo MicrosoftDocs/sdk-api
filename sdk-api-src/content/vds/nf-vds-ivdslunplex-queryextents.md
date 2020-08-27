@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsLunPlex.QueryExtents
 title: IVdsLunPlex::QueryExtents (vds.h)
-description: Returns an array of the drive extents that contribute to the plex.helpviewer_keywords: ["IVdsLunPlex interface [VDS]","QueryExtents method","IVdsLunPlex.QueryExtents","IVdsLunPlex::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsLunPlex interface","base.ivdslunplex_queryextents","vds/IVdsLunPlex::QueryExtents","vdshwprv/IVdsLunPlex::QueryExtents"]
+description: Returns an array of the drive extents that contribute to the plex.
+helpviewer_keywords: ["IVdsLunPlex interface [VDS]","QueryExtents method","IVdsLunPlex.QueryExtents","IVdsLunPlex::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsLunPlex interface","base.ivdslunplex_queryextents","vds/IVdsLunPlex::QueryExtents","vdshwprv/IVdsLunPlex::QueryExtents"]
 old-location: base\ivdslunplex_queryextents.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: e9ed5bdd-c696-47cc-84c8-266b230f7970
 ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryExtents method, IVdsLunPlex.QueryExtents, IVdsLunPlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryextents, vds/IVdsLunPlex::QueryExtents, vdshwprv/IVdsLunPlex::QueryExtents

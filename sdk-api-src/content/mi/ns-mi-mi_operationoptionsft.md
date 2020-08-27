@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_OperationOptionsFT
 title: MI_OperationOptionsFT (mi.h)
-description: A support structure used in the MI_OperationOptions structure. Use the functions with the name prefix &#0034;MI_OperationOptions_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_OperationOptionsFT","MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)]","mi/MI_OperationOptionsFT","wmi_v2.mi_operationoptionsft"]
+description: A support structure used in the MI_OperationOptions structure. Use the functions with the name prefix &quot;MI_OperationOptions_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_OperationOptionsFT","MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)]","mi/MI_OperationOptionsFT","wmi_v2.mi_operationoptionsft"]
 old-location: wmi_v2\mi_operationoptionsft.htm
 tech.root: wmi_v2
 ms.assetid: ed84d3bc-2cb0-4052-902d-96a3ab3a3ba4
@@ -64,57 +65,57 @@ TBD
 
 
 
-#### - Clone
+### -field Clone
 
 Creates a copy of a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_clone">MI_OperationOptions_Clone</a>.
 
 
-#### - Delete
+### -field Delete
 
 Deletes an option and its associated memory. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a>.
 
 
-#### - GetEnabledChannels
+### -field GetEnabledChannels
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getenabledchannels">MI_OperationOptions_GetEnabledChannels</a>.
 
 
-#### - GetNumber
+### -field GetNumber
 
 Gets a previously added custom number option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getnumber">MI_OperationOptions_GetNumber</a>.
 
 
-#### - GetOption
+### -field GetOption
 
 Gets a previously added option value based on the option name. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getoption">MI_OperationOptions_GetOption</a>.
 
 
-#### - GetOptionAt
+### -field GetOptionAt
 
 Gets a previously added option value based on the specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getoptionat">MI_OperationOptions_GetOptionAt</a>.
 
 
-#### - GetOptionCount
+### -field GetOptionCount
 
 Gets the number of options previously added. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getoptioncount">MI_OperationOptions_GetOptionCount</a>.
 
 
-#### - GetString
+### -field GetString
 
 Gets a custom string option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getstring">MI_OperationOptions_GetString</a>.
 
 
-#### - SetCustomOption
+### -field SetCustomOption
 
 Sets a custom option for the operation. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_setcustomoption">MI_OperationOptions_SetCustomOption</a>.
 
 
-#### - SetNumber
+### -field SetNumber
 
 Sets a custom number option value. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_setnumber">MI_OperationOptions_SetNumber</a>.
 
 
-#### - SetString
+### -field SetString
 
 Sets a custom string option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_setstring">MI_OperationOptions_SetString</a>.
 

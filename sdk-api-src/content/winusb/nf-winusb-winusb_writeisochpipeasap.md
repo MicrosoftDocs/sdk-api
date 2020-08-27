@@ -1,9 +1,10 @@
 ---
 UID: NF:winusb.WinUsb_WriteIsochPipeAsap
 title: WinUsb_WriteIsochPipeAsap function (winusb.h)
-description: The WinUsb_WriteIsochPipeAsap submits a request for writing the contents of a buffer to an isochronous OUT endpoint.helpviewer_keywords: ["WinUsb_WriteIsochPipeAsap","WinUsb_WriteIsochPipeAsap function [Buses]","buses.winusb_writeisochpipeasap","winusb/WinUsb_WriteIsochPipeAsap"]
+description: The WinUsb_WriteIsochPipeAsap submits a request for writing the contents of a buffer to an isochronous OUT endpoint.
+helpviewer_keywords: ["WinUsb_WriteIsochPipeAsap","WinUsb_WriteIsochPipeAsap function [Buses]","buses.winusb_writeisochpipeasap","winusb/WinUsb_WriteIsochPipeAsap"]
 old-location: buses\winusb_writeisochpipeasap.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: CC8776DF-9DC6-4B75-A4CE-EAC644EABABA
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap function [Buses], buses.winusb_writeisochpipeasap, winusb/WinUsb_WriteIsochPipeAsap

@@ -1,9 +1,10 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 title: IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority (vsmgmt.h)
-description: This method is reserved for future use.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt2 interface","SetSnapshotPriority method","IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority","IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority","SetSnapshotPriority","SetSnapshotPriority method","SetSnapshotPriority method","IVssDifferentialSoftwareSnapshotMgmt2 interface","base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority"]
+description: This method is reserved for future use.
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt2 interface","SetSnapshotPriority method","IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority","IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority","SetSnapshotPriority","SetSnapshotPriority method","SetSnapshotPriority method","IVssDifferentialSoftwareSnapshotMgmt2 interface","base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 4b98d4d8-5b32-4be5-8e80-852305731a7e
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority method, IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority, IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority, SetSnapshotPriority, SetSnapshotPriority method, SetSnapshotPriority method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority

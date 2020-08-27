@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_FTSET_INFO
 title: CLUSPROP_FTSET_INFO (clusapi.h)
-description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.helpviewer_keywords: ["*PCLUSPROP_FTSET_INFO","CLUSPROP_FTSET_INFO","CLUSPROP_FTSET_INFO structure [Failover Cluster]","PCLUSPROP_FTSET_INFO","PCLUSPROP_FTSET_INFO structure pointer [Failover Cluster]","clusapi/CLUSPROP_FTSET_INFO","clusapi/PCLUSPROP_FTSET_INFO","mscs.clusprop_ftset_info"]
+description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.
+helpviewer_keywords: ["*PCLUSPROP_FTSET_INFO","CLUSPROP_FTSET_INFO","CLUSPROP_FTSET_INFO structure [Failover Cluster]","PCLUSPROP_FTSET_INFO","PCLUSPROP_FTSET_INFO structure pointer [Failover Cluster]","clusapi/CLUSPROP_FTSET_INFO","clusapi/PCLUSPROP_FTSET_INFO","mscs.clusprop_ftset_info"]
 old-location: mscs\clusprop_ftset_info.htm
 tech.root: MsCS
 ms.assetid: 0BD016A6-B635-4514-886A-8CD136D3F715

@@ -1,9 +1,10 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetStaticTerminals
 title: CMSPAddress::GetStaticTerminals (mspaddr.h)
-description: The GetStaticTerminals method is called by our wrapper methods ( get_StaticTerminals and EnumerateStaticTerminals) to get an array of static terminals that can be used on this address.helpviewer_keywords: ["CMSPAddress interface [TAPI 2.2]","GetStaticTerminals method","CMSPAddress.GetStaticTerminals","CMSPAddress::GetStaticTerminals","GetStaticTerminals","GetStaticTerminals method [TAPI 2.2]","GetStaticTerminals method [TAPI 2.2]","CMSPAddress interface","_tapi3_cmspaddress_getstaticterminals","mspaddr/CMSPAddress::GetStaticTerminals","tapi3.cmspaddress_getstaticterminals"]
+description: The GetStaticTerminals method is called by our wrapper methods ( get_StaticTerminals and EnumerateStaticTerminals) to get an array of static terminals that can be used on this address.
+helpviewer_keywords: ["CMSPAddress interface [TAPI 2.2]","GetStaticTerminals method","CMSPAddress.GetStaticTerminals","CMSPAddress::GetStaticTerminals","GetStaticTerminals","GetStaticTerminals method [TAPI 2.2]","GetStaticTerminals method [TAPI 2.2]","CMSPAddress interface","_tapi3_cmspaddress_getstaticterminals","mspaddr/CMSPAddress::GetStaticTerminals","tapi3.cmspaddress_getstaticterminals"]
 old-location: tapi3\cmspaddress_getstaticterminals.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 8fffc00d-a783-47bc-a081-fe2116060da0
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetStaticTerminals method, CMSPAddress.GetStaticTerminals, CMSPAddress::GetStaticTerminals, GetStaticTerminals, GetStaticTerminals method [TAPI 2.2], GetStaticTerminals method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getstaticterminals, mspaddr/CMSPAddress::GetStaticTerminals, tapi3.cmspaddress_getstaticterminals

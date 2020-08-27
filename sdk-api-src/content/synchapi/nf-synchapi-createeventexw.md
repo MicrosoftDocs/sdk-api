@@ -1,9 +1,10 @@
 ---
 UID: NF:synchapi.CreateEventExW
 title: CreateEventExW function (synchapi.h)
-description: Creates or opens a named or unnamed event object and returns a handle to the object.helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET","CREATE_EVENT_MANUAL_RESET","CreateEventEx","CreateEventEx function","CreateEventExA","CreateEventExW","base.createeventex","synchapi/CreateEventEx","synchapi/CreateEventExA","synchapi/CreateEventExW","winbase/CreateEventEx","winbase/CreateEventExA","winbase/CreateEventExW"]
+description: Creates or opens a named or unnamed event object and returns a handle to the object.
+helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET","CREATE_EVENT_MANUAL_RESET","CreateEventEx","CreateEventEx function","CreateEventExA","CreateEventExW","base.createeventex","synchapi/CreateEventEx","synchapi/CreateEventExA","synchapi/CreateEventExW","winbase/CreateEventEx","winbase/CreateEventExA","winbase/CreateEventExW"]
 old-location: base\createeventex.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.date: 12/05/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
@@ -206,6 +207,10 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 
 
+
+
+> [!NOTE]
+> The synchapi.h header defines CreateEventEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,9 +1,10 @@
 ---
 UID: NE:wbemdisp.WbemAuthenticationLevelEnum
 title: WbemAuthenticationLevelEnum (wbemdisp.h)
-description: Define the security authentication levels.helpviewer_keywords: ["WbemAuthenticationLevelCall","WbemAuthenticationLevelConnect","WbemAuthenticationLevelDefault","WbemAuthenticationLevelEnum","WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation]","WbemAuthenticationLevelNone","WbemAuthenticationLevelPkt","WbemAuthenticationLevelPktIntegrity","WbemAuthenticationLevelPktPrivacy","_hmm_wbemauthenticationlevelenum","wbemdisp/WbemAuthenticationLevelCall","wbemdisp/WbemAuthenticationLevelConnect","wbemdisp/WbemAuthenticationLevelDefault","wbemdisp/WbemAuthenticationLevelEnum","wbemdisp/WbemAuthenticationLevelNone","wbemdisp/WbemAuthenticationLevelPkt","wbemdisp/WbemAuthenticationLevelPktIntegrity","wbemdisp/WbemAuthenticationLevelPktPrivacy","wmi.wbemauthenticationlevelenum"]
+description: Define the security authentication levels.
+helpviewer_keywords: ["WbemAuthenticationLevelCall","WbemAuthenticationLevelConnect","WbemAuthenticationLevelDefault","WbemAuthenticationLevelEnum","WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation]","WbemAuthenticationLevelNone","WbemAuthenticationLevelPkt","WbemAuthenticationLevelPktIntegrity","WbemAuthenticationLevelPktPrivacy","_hmm_wbemauthenticationlevelenum","wbemdisp/WbemAuthenticationLevelCall","wbemdisp/WbemAuthenticationLevelConnect","wbemdisp/WbemAuthenticationLevelDefault","wbemdisp/WbemAuthenticationLevelEnum","wbemdisp/WbemAuthenticationLevelNone","wbemdisp/WbemAuthenticationLevelPkt","wbemdisp/WbemAuthenticationLevelPktIntegrity","wbemdisp/WbemAuthenticationLevelPktPrivacy","wmi.wbemauthenticationlevelenum"]
 old-location: wmi\wbemauthenticationlevelenum.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.date: 12/05/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
@@ -124,49 +125,49 @@ For more information, see
 
 
 
-#### - WbemAuthenticationLevelCall
+### -field WbemAuthenticationLevelCall
 
 Short name: Call
 
 Authenticates only at the beginning of each call when the server receives the request.
 
 
-#### - WbemAuthenticationLevelConnect
+### -field WbemAuthenticationLevelConnect
 
 Short name: Connect
 
 Authenticates the credentials of the client only when the client establishes a relationship with the server.
 
 
-#### - WbemAuthenticationLevelDefault
+### -field WbemAuthenticationLevelDefault
 
 Short name: Default
 
 WMI uses the default Windows Authentication setting.
 
 
-#### - WbemAuthenticationLevelNone
+### -field WbemAuthenticationLevelNone
 
 Short name: None
 
 Uses no authentication.
 
 
-#### - WbemAuthenticationLevelPkt
+### -field WbemAuthenticationLevelPkt
 
 Short name: Pkt
 
 Authenticates that all data received is from the expected client.
 
 
-#### - WbemAuthenticationLevelPktIntegrity
+### -field WbemAuthenticationLevelPktIntegrity
 
 Short name: PktIntegrity
 
 Authenticates and verifies that none of the data transferred between client and server has been modified.
 
 
-#### - WbemAuthenticationLevelPktPrivacy
+### -field WbemAuthenticationLevelPktPrivacy
 
 Short name: PktPrivacy
 

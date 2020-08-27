@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get_Item
 title: ICertSrvSetupKeyInformationCollection::get_Item (casetup.h)
-description: Gets an ICertSrvSetupKeyInformation object that is identified by index in the collection.helpviewer_keywords: ["ICertSrvSetupKeyInformationCollection interface [Security]","Item property","ICertSrvSetupKeyInformationCollection.Item","ICertSrvSetupKeyInformationCollection.get_Item","ICertSrvSetupKeyInformationCollection::Item","ICertSrvSetupKeyInformationCollection::get_Item","Item property [Security]","Item property [Security]","ICertSrvSetupKeyInformationCollection interface","casetup/ICertSrvSetupKeyInformationCollection::Item","casetup/ICertSrvSetupKeyInformationCollection::get_Item","get_Item","security.icertsrvsetupkeyinformationcollection_item"]
+description: Gets an ICertSrvSetupKeyInformation object that is identified by index in the collection.
+helpviewer_keywords: ["ICertSrvSetupKeyInformationCollection interface [Security]","Item property","ICertSrvSetupKeyInformationCollection.Item","ICertSrvSetupKeyInformationCollection.get_Item","ICertSrvSetupKeyInformationCollection::Item","ICertSrvSetupKeyInformationCollection::get_Item","Item property [Security]","Item property [Security]","ICertSrvSetupKeyInformationCollection interface","casetup/ICertSrvSetupKeyInformationCollection::Item","casetup/ICertSrvSetupKeyInformationCollection::get_Item","get_Item","security.icertsrvsetupkeyinformationcollection_item"]
 old-location: security\icertsrvsetupkeyinformationcollection_item.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2ae3d695-4dfe-4c72-8e66-64dce88c2bb2
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],Item property, ICertSrvSetupKeyInformationCollection.Item, ICertSrvSetupKeyInformationCollection.get_Item, ICertSrvSetupKeyInformationCollection::Item, ICertSrvSetupKeyInformationCollection::get_Item, Item property [Security], Item property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::Item, casetup/ICertSrvSetupKeyInformationCollection::get_Item, get_Item, security.icertsrvsetupkeyinformationcollection_item

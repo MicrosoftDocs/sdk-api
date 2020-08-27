@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Terminal
 title: ITCallMediaEvent::get_Terminal (tapi3if.h)
-description: The get_Terminal method gets the terminal associated with the event.helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Terminal method","ITCallMediaEvent.get_Terminal","ITCallMediaEvent::get_Terminal","_tapi3_itcallmediaevent_get_terminal","get_Terminal","get_Terminal method [TAPI 2.2]","get_Terminal method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_terminal","tapi3if/ITCallMediaEvent::get_Terminal"]
+description: The get_Terminal method gets the terminal associated with the event.
+helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Terminal method","ITCallMediaEvent.get_Terminal","ITCallMediaEvent::get_Terminal","_tapi3_itcallmediaevent_get_terminal","get_Terminal","get_Terminal method [TAPI 2.2]","get_Terminal method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_terminal","tapi3if/ITCallMediaEvent::get_Terminal"]
 old-location: tapi3\itcallmediaevent_get_terminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 49fa442a-d4b0-4f51-b14a-c7819e06dcef
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Terminal method, ITCallMediaEvent.get_Terminal, ITCallMediaEvent::get_Terminal, _tapi3_itcallmediaevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_terminal, tapi3if/ITCallMediaEvent::get_Terminal

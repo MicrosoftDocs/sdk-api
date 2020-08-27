@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransformLocal
 title: IXpsOMTileBrush::GetTransformLocal (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared resolved matrix transform for the brush.helpviewer_keywords: ["GetTransformLocal","GetTransformLocal method [XPS Documents and Packaging]","GetTransformLocal method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetTransformLocal method","IXpsOMTileBrush.GetTransformLocal","IXpsOMTileBrush::GetTransformLocal","xps.ixpsomtilebrush_gettransformlocal","xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal"]
+description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared resolved matrix transform for the brush.
+helpviewer_keywords: ["GetTransformLocal","GetTransformLocal method [XPS Documents and Packaging]","GetTransformLocal method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetTransformLocal method","IXpsOMTileBrush.GetTransformLocal","IXpsOMTileBrush::GetTransformLocal","xps.ixpsomtilebrush_gettransformlocal","xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal"]
 old-location: xps\ixpsomtilebrush_gettransformlocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e06661dd-387c-46c4-8c37-f4e101d3c536
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal

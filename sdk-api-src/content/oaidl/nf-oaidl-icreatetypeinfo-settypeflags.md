@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeFlags
 title: ICreateTypeInfo::SetTypeFlags (oaidl.h)
-description: Sets type flags of the type description being created.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetTypeFlags method","ICreateTypeInfo.SetTypeFlags","ICreateTypeInfo::SetTypeFlags","SetTypeFlags","SetTypeFlags method [Automation]","SetTypeFlags method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetTypeFlags","automat.icreatetypeinfo_settypeflags","oaidl/ICreateTypeInfo::SetTypeFlags"]
+description: Sets type flags of the type description being created.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetTypeFlags method","ICreateTypeInfo.SetTypeFlags","ICreateTypeInfo::SetTypeFlags","SetTypeFlags","SetTypeFlags method [Automation]","SetTypeFlags method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetTypeFlags","automat.icreatetypeinfo_settypeflags","oaidl/ICreateTypeInfo::SetTypeFlags"]
 old-location: automat\icreatetypeinfo_settypeflags.htm
 tech.root: automat
 ms.assetid: 7dfc1673-6242-4beb-978f-85f2000fab8e

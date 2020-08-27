@@ -4,7 +4,7 @@ title: PFN_CMSG_EXPORT_KEY_TRANS (wincrypt.h)
 description: Encrypts and exports the content encryption key for a key transport recipient of an enveloped message.
 helpviewer_keywords: ["PFN_CMSG_EXPORT_KEY_TRANS","PFN_CMSG_EXPORT_KEY_TRANS callback","PFN_CMSG_EXPORT_KEY_TRANS callback function [Security]","security.pfn_cmsg_export_key_trans","wincrypt/PFN_CMSG_EXPORT_KEY_TRANS"]
 old-location: security\pfn_cmsg_export_key_trans.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bbb976df-5c8d-4d5e-ba92-7c534bba59de
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_TRANS, PFN_CMSG_EXPORT_KEY_TRANS callback, PFN_CMSG_EXPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_export_key_trans, wincrypt/PFN_CMSG_EXPORT_KEY_TRANS

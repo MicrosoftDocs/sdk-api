@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptRegisterOIDFunction
 title: CryptRegisterOIDFunction function (wincrypt.h)
-description: Registers a DLL that contains the function to be called for the specified encoding type, function name, and object identifier (OID).helpviewer_keywords: ["CryptRegisterOIDFunction","CryptRegisterOIDFunction function [Security]","_crypto2_cryptregisteroidfunction","security.cryptregisteroidfunction","wincrypt/CryptRegisterOIDFunction"]
+description: Registers a DLL that contains the function to be called for the specified encoding type, function name, and object identifier (OID).
+helpviewer_keywords: ["CryptRegisterOIDFunction","CryptRegisterOIDFunction function [Security]","_crypto2_cryptregisteroidfunction","security.cryptregisteroidfunction","wincrypt/CryptRegisterOIDFunction"]
 old-location: security\cryptregisteroidfunction.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction

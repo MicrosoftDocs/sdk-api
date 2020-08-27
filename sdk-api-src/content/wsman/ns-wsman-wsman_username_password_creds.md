@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_USERNAME_PASSWORD_CREDS
 title: WSMAN_USERNAME_PASSWORD_CREDS (wsman.h)
-description: Defines the credentials used for authentication.helpviewer_keywords: ["WSMAN_USERNAME_PASSWORD_CREDS","WSMAN_USERNAME_PASSWORD_CREDS structure [Windows Remote Management]","winrm.wsman_username_password_creds","wsman/WSMAN_USERNAME_PASSWORD_CREDS"]
+description: Defines the credentials used for authentication.
+helpviewer_keywords: ["WSMAN_USERNAME_PASSWORD_CREDS","WSMAN_USERNAME_PASSWORD_CREDS structure [Windows Remote Management]","winrm.wsman_username_password_creds","wsman/WSMAN_USERNAME_PASSWORD_CREDS"]
 old-location: winrm\wsman_username_password_creds.htm
 tech.root: winrm
 ms.assetid: 5cb2b52f-85a7-4760-9f0d-b515fad86d33

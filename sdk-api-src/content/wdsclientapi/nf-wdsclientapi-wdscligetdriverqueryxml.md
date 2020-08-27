@@ -73,6 +73,3 @@ A pointer to a pointer to a string that receives the generated WDS driver query 
 
 
 If the function succeeds, the return is <b>S_OK</b>.
-
-
-

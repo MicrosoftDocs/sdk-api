@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_MODULEW64
 title: IMAGEHLP_MODULEW64 (dbghelp.h)
-description: Contains module information.helpviewer_keywords: ["*PIMAGEHLP_MODULEW64","IMAGEHLP_MODULE","IMAGEHLP_MODULE structure","IMAGEHLP_MODULE64","IMAGEHLP_MODULE64 structure","IMAGEHLP_MODULEW64","PIMAGEHLP_MODULE64","PIMAGEHLP_MODULE64 structure pointer","SymCoff","SymCv","SymDeferred","SymDia","SymExport","SymNone","SymPdb","SymSym","SymVirtual","_IMAGEHLP_MODULE64","_win32_imagehlp_module64_str","base.imagehlp_module64_str","dbghelp/IMAGEHLP_MODULE64","dbghelp/IMAGEHLP_MODULEW64","dbghelp/PIMAGEHLP_MODULE64"]
+description: Contains module information.
+helpviewer_keywords: ["*PIMAGEHLP_MODULEW64","IMAGEHLP_MODULE","IMAGEHLP_MODULE structure","IMAGEHLP_MODULE64","IMAGEHLP_MODULE64 structure","IMAGEHLP_MODULEW64","PIMAGEHLP_MODULE64","PIMAGEHLP_MODULE64 structure pointer","SymCoff","SymCv","SymDeferred","SymDia","SymExport","SymNone","SymPdb","SymSym","SymVirtual","_IMAGEHLP_MODULE64","_win32_imagehlp_module64_str","base.imagehlp_module64_str","dbghelp/IMAGEHLP_MODULE64","dbghelp/IMAGEHLP_MODULEW64","dbghelp/PIMAGEHLP_MODULE64"]
 old-location: base\imagehlp_module64_str.htm
 tech.root: Debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
@@ -210,69 +211,69 @@ The image name. The name may or may not contain a full path.
 The full path and file name of the file from which symbols were loaded.
 
 
-#### - LoadedPdbName
+### -field LoadedPdbName
 
 The full path and file name of the .pdb file.
 
 
-#### - CVSig
+### -field CVSig
 
 The signature of the CV record in the debug directories.
 
 
-#### - CVData
+### -field CVData
 
 The contents of the CV record.
 
 
-#### - PdbSig
+### -field PdbSig
 
 The PDB signature.
 
 
-#### - PdbSig70
+### -field PdbSig70
 
 The PDB signature (Visual C/C++ 7.0 and later)
 
 
-#### - PdbAge
+### -field PdbAge
 
 The DBI age of PDB.
 
 
-#### - PdbUnmatched
+### -field PdbUnmatched
 
 A value that indicates whether the loaded PDB is unmatched.
 
 
-#### - DbgUnmatched
+### -field DbgUnmatched
 
 A value that indicates whether the loaded DBG is unmatched.
 
 
-#### - LineNumbers
+### -field LineNumbers
 
 A value that indicates whether line number information is available.
 
 
-#### - GlobalSymbols
+### -field GlobalSymbols
 
 A value that indicates whether symbol information is available.
 
 
-#### - TypeInfo
+### -field TypeInfo
 
 A value that indicates whether type information is available.
 
 
-#### - SourceIndexed
+### -field SourceIndexed
 
 A value that indicates whether the .pdb supports the source server.
 
 <b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
 
 
-#### - Publics
+### -field Publics
 
 A value that indicates whether the module contains public symbols.
 

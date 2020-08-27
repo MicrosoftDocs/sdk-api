@@ -1,9 +1,10 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 title: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT (pwm.h)
-description: Contains the effective output signal period of the Pulse Width Modulation (PWM) controller.helpviewer_keywords: ["PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT","PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure","base.pwm_controller_set_desired_period_output","pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT"]
+description: Contains the effective output signal period of the Pulse Width Modulation (PWM) controller.
+helpviewer_keywords: ["PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT","PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure","base.pwm_controller_set_desired_period_output","pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT"]
 old-location: base\pwm_controller_set_desired_period_output.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 15B438F8-C265-4D95-8806-D7DDBFF62973
 ms.date: 12/05/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure, base.pwm_controller_set_desired_period_output, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT

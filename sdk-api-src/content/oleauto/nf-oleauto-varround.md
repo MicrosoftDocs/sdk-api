@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarRound
 title: VarRound function (oleauto.h)
-description: Rounds a variant to the specified number of decimal places.helpviewer_keywords: ["VarRound","VarRound function [Automation]","_oa96_VarRound","automat.varround","oleauto/VarRound"]
+description: Rounds a variant to the specified number of decimal places.
+helpviewer_keywords: ["VarRound","VarRound function [Automation]","_oa96_VarRound","automat.varround","oleauto/VarRound"]
 old-location: automat\varround.htm
 tech.root: automat
 ms.assetid: 7713f477-f6a3-456d-a442-a78750542b03

@@ -1,7 +1,8 @@
 ---
 UID: NN:tspubplugin2com.ItsPubPlugin2
 title: ItsPubPlugin2 (tspubplugin2com.h)
-description: Specifies methods that provide information about resources available to users of RemoteApp and Desktop Connections.helpviewer_keywords: ["ItsPubPlugin2","ItsPubPlugin2 interface [Remote Desktop Services]","ItsPubPlugin2 interface [Remote Desktop Services]","described","termserv.itspubplugin2","tspubplugin2com/ItsPubPlugin2"]
+description: Specifies methods that provide information about resources available to users of RemoteApp and Desktop Connections.
+helpviewer_keywords: ["ItsPubPlugin2","ItsPubPlugin2 interface [Remote Desktop Services]","ItsPubPlugin2 interface [Remote Desktop Services]","described","termserv.itspubplugin2","tspubplugin2com/ItsPubPlugin2"]
 old-location: termserv\itspubplugin2.htm
 tech.root: TermServ
 ms.assetid: 1ef27b3a-b897-4757-803d-d3a18959895c

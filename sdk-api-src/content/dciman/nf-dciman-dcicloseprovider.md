@@ -1,9 +1,10 @@
 ---
 UID: NF:dciman.DCICloseProvider
 title: DCICloseProvider function (dciman.h)
-description: Closes a device context of a display.helpviewer_keywords: ["DCICloseProvider","DCICloseProvider function [Windows API]","_dciman_dcicloseprovider","dciman/DCICloseProvider","winprog._dciman_dcicloseprovider","winui._dciman_dcicloseprovider"]
+description: Closes a device context of a display.
+helpviewer_keywords: ["DCICloseProvider","DCICloseProvider function [Windows API]","_dciman_dcicloseprovider","dciman/DCICloseProvider","winprog._dciman_dcicloseprovider","winui._dciman_dcicloseprovider"]
 old-location: winprog\_dciman_dcicloseprovider.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcicloseprovider.htm
 ms.date: 12/05/2018
 ms.keywords: DCICloseProvider, DCICloseProvider function [Windows API], _dciman_dcicloseprovider, dciman/DCICloseProvider, winprog._dciman_dcicloseprovider, winui._dciman_dcicloseprovider

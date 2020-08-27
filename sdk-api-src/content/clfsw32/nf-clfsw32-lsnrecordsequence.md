@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.LsnRecordSequence
 title: LsnRecordSequence function (clfsw32.h)
-description: Retrieves the record sequence number that is contained in a specified LSN.helpviewer_keywords: ["LsnRecordSequence","LsnRecordSequence function [Files]","clfsw32/LsnRecordSequence","fs.lsnrecordsequence"]
+description: Retrieves the record sequence number that is contained in a specified LSN.
+helpviewer_keywords: ["LsnRecordSequence","LsnRecordSequence function [Files]","clfsw32/LsnRecordSequence","fs.lsnrecordsequence"]
 old-location: fs\lsnrecordsequence.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 90aa2df8-328d-404c-a145-ad500a6e611a
 ms.date: 12/05/2018
 ms.keywords: LsnRecordSequence, LsnRecordSequence function [Files], clfsw32/LsnRecordSequence, fs.lsnrecordsequence

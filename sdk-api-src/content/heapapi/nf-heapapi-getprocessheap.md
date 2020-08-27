@@ -1,9 +1,10 @@
 ---
 UID: NF:heapapi.GetProcessHeap
 title: GetProcessHeap function (heapapi.h)
-description: Retrieves a handle to the default heap of the calling process.helpviewer_keywords: ["GetProcessHeap","GetProcessHeap function","_win32_getprocessheap","base.getprocessheap","heapapi/GetProcessHeap","winbase/GetProcessHeap"]
+description: Retrieves a handle to the default heap of the calling process.
+helpviewer_keywords: ["GetProcessHeap","GetProcessHeap function","_win32_getprocessheap","base.getprocessheap","heapapi/GetProcessHeap","winbase/GetProcessHeap"]
 old-location: base\getprocessheap.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: ecd716b2-df48-4914-9de4-47d8ad8ff9a2
 ms.date: 12/05/2018
 ms.keywords: GetProcessHeap, GetProcessHeap function, _win32_getprocessheap, base.getprocessheap, heapapi/GetProcessHeap, winbase/GetProcessHeap

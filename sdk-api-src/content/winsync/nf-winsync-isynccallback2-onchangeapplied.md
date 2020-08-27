@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeApplied
 title: ISyncCallback2::OnChangeApplied (winsync.h)
-description: Occurs after a change is successfully applied.helpviewer_keywords: ["ISyncCallback2 interface [Windows Sync]","OnChangeApplied method","ISyncCallback2.OnChangeApplied","ISyncCallback2::OnChangeApplied","OnChangeApplied","OnChangeApplied method [Windows Sync]","OnChangeApplied method [Windows Sync]","ISyncCallback2 interface","winsync.isynccallback2_onchangeapplied","winsync/ISyncCallback2::OnChangeApplied"]
+description: Occurs after a change is successfully applied.
+helpviewer_keywords: ["ISyncCallback2 interface [Windows Sync]","OnChangeApplied method","ISyncCallback2.OnChangeApplied","ISyncCallback2::OnChangeApplied","OnChangeApplied","OnChangeApplied method [Windows Sync]","OnChangeApplied method [Windows Sync]","ISyncCallback2 interface","winsync.isynccallback2_onchangeapplied","winsync/ISyncCallback2::OnChangeApplied"]
 old-location: winsync\isynccallback2_onchangeapplied.htm
 tech.root: winsync
 ms.assetid: 3397ca51-583b-4051-892b-68f505d85ccd

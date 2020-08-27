@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.RemoveAt
 title: IXpsOMImageResourceCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and releases an IXpsOMImageResource interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMImageResourceCollection.RemoveAt","IXpsOMImageResourceCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","xps.ixpsomimageresourcecollection_removeat","xpsobjectmodel/IXpsOMImageResourceCollection::RemoveAt"]
+description: Removes and releases an IXpsOMImageResource interface pointer from a specified location in the collection.
+helpviewer_keywords: ["IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMImageResourceCollection.RemoveAt","IXpsOMImageResourceCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","xps.ixpsomimageresourcecollection_removeat","xpsobjectmodel/IXpsOMImageResourceCollection::RemoveAt"]
 old-location: xps\ixpsomimageresourcecollection_removeat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 29945211-d204-4da9-a77d-20598060750f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMImageResourceCollection.RemoveAt, IXpsOMImageResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_removeat, xpsobjectmodel/IXpsOMImageResourceCollection::RemoveAt

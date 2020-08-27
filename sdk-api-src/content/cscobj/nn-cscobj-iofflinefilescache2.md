@@ -1,9 +1,10 @@
 ---
 UID: NN:cscobj.IOfflineFilesCache2
 title: IOfflineFilesCache2 (cscobj.h)
-description: Implements the RenameItemEx method.helpviewer_keywords: ["IOfflineFilesCache2","IOfflineFilesCache2 interface [Offline Files]","IOfflineFilesCache2 interface [Offline Files]","described","cscobj/IOfflineFilesCache2","of.iofflinefilescache2"]
+description: Implements the RenameItemEx method.
+helpviewer_keywords: ["IOfflineFilesCache2","IOfflineFilesCache2 interface [Offline Files]","IOfflineFilesCache2 interface [Offline Files]","described","cscobj/IOfflineFilesCache2","of.iofflinefilescache2"]
 old-location: of\iofflinefilescache2.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: B4E2C2B0-AA6B-4657-8711-E5057720AF15
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2, IOfflineFilesCache2 interface [Offline Files], IOfflineFilesCache2 interface [Offline Files],described, cscobj/IOfflineFilesCache2, of.iofflinefilescache2

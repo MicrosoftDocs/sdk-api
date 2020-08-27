@@ -1,9 +1,10 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_OBJECT
 title: CRYPT_XML_OBJECT (cryptxml.h)
-description: Describes an Object element in the signature.helpviewer_keywords: ["*PCRYPT_XML_OBJECT","CRYPT_XML_OBJECT","CRYPT_XML_OBJECT structure [Security]","PCRYPT_XML_OBJECT","PCRYPT_XML_OBJECT structure pointer [Security]","cryptxml/CRYPT_XML_OBJECT","cryptxml/PCRYPT_XML_OBJECT","security.crypt_xml_object"]
+description: Describes an Object element in the signature.
+helpviewer_keywords: ["*PCRYPT_XML_OBJECT","CRYPT_XML_OBJECT","CRYPT_XML_OBJECT structure [Security]","PCRYPT_XML_OBJECT","PCRYPT_XML_OBJECT structure pointer [Security]","cryptxml/CRYPT_XML_OBJECT","cryptxml/PCRYPT_XML_OBJECT","security.crypt_xml_object"]
 old-location: security\crypt_xml_object.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b151efb2-8801-451a-83ec-e9045c2e0b81
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [Security], PCRYPT_XML_OBJECT, PCRYPT_XML_OBJECT structure pointer [Security], cryptxml/CRYPT_XML_OBJECT, cryptxml/PCRYPT_XML_OBJECT, security.crypt_xml_object'

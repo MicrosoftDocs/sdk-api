@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12PipelineLibrary
 title: ID3D12PipelineLibrary (d3d12.h)
-description: Manages a pipeline library, in particular loading and retrieving individual PSOs.helpviewer_keywords: ["ID3D12PipelineLibrary","ID3D12PipelineLibrary interface","ID3D12PipelineLibrary interface","described","d3d12/ID3D12PipelineLibrary","direct3d12.id3d12pipelinelibrary"]
+description: Manages a pipeline library, in particular loading and retrieving individual PSOs.
+helpviewer_keywords: ["ID3D12PipelineLibrary","ID3D12PipelineLibrary interface","ID3D12PipelineLibrary interface","described","d3d12/ID3D12PipelineLibrary","direct3d12.id3d12pipelinelibrary"]
 old-location: direct3d12\id3d12pipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC

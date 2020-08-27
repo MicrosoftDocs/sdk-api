@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdbase.IWSDHttpAuthParameters.GetAuthType
 title: IWSDHttpAuthParameters::GetAuthType (wsdbase.h)
-description: GetAuthType method retrieves the HTTP authentication scheme used during the authentication of the client.helpviewer_keywords: ["GetAuthType","GetAuthType method","GetAuthType method","IWSDHttpAuthParameters interface","IWSDHttpAuthParameters interface","GetAuthType method","IWSDHttpAuthParameters.GetAuthType","IWSDHttpAuthParameters::GetAuthType","WSD_SECURITY_HTTP_AUTH_SCHEME_NEGOTIATE","WSD_SECURITY_HTTP_AUTH_SCHEME_NTLM","ncd.iwsdhttpauthparameters_getauthtype","wsdbase/IWSDHttpAuthParameters::GetAuthType"]
+description: GetAuthType method retrieves the HTTP authentication scheme used during the authentication of the client.
+helpviewer_keywords: ["GetAuthType","GetAuthType method","GetAuthType method","IWSDHttpAuthParameters interface","IWSDHttpAuthParameters interface","GetAuthType method","IWSDHttpAuthParameters.GetAuthType","IWSDHttpAuthParameters::GetAuthType","WSD_SECURITY_HTTP_AUTH_SCHEME_NEGOTIATE","WSD_SECURITY_HTTP_AUTH_SCHEME_NTLM","ncd.iwsdhttpauthparameters_getauthtype","wsdbase/IWSDHttpAuthParameters::GetAuthType"]
 old-location: ncd\iwsdhttpauthparameters_getauthtype.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: F5D218DD-474B-4562-8877-D159394AF365
 ms.date: 12/05/2018
 ms.keywords: GetAuthType, GetAuthType method, GetAuthType method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetAuthType method, IWSDHttpAuthParameters.GetAuthType, IWSDHttpAuthParameters::GetAuthType, WSD_SECURITY_HTTP_AUTH_SCHEME_NEGOTIATE, WSD_SECURITY_HTTP_AUTH_SCHEME_NTLM, ncd.iwsdhttpauthparameters_getauthtype, wsdbase/IWSDHttpAuthParameters::GetAuthType

@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-Using the information from <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>, an application can create an RPMB frame to perform one of the following actions:
+Using the information from <a href="/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>, an application can create an RPMB frame to perform one of the following actions:
 •	Program Authentication Key
 •	Query RPMB Write Counter
 •	Authenticated Write
@@ -86,4 +86,3 @@ The type of request or response.
 ## -remarks
 
 ## -see-also
-

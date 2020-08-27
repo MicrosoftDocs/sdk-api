@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetAffineMatrix
 title: IMILBitmapEffectPrimitive::GetAffineMatrix (mileffects.h)
-description: Retrieves the affine transormation matrix for the effect.helpviewer_keywords: ["GetAffineMatrix","GetAffineMatrix method [WPF Bitmap Effects]","GetAffineMatrix method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","GetAffineMatrix method","IMILBitmapEffectPrimitive.GetAffineMatrix","IMILBitmapEffectPrimitive::GetAffineMatrix","_wibe_imilbitmapeffectprimitive_getaffinematrix","mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix","wibe._wibe_imilbitmapeffectprimitive_getaffinematrix"]
+description: Retrieves the affine transormation matrix for the effect.
+helpviewer_keywords: ["GetAffineMatrix","GetAffineMatrix method [WPF Bitmap Effects]","GetAffineMatrix method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","GetAffineMatrix method","IMILBitmapEffectPrimitive.GetAffineMatrix","IMILBitmapEffectPrimitive::GetAffineMatrix","_wibe_imilbitmapeffectprimitive_getaffinematrix","mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix","wibe._wibe_imilbitmapeffectprimitive_getaffinematrix"]
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getaffinematrix.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getaffinematrix.htm

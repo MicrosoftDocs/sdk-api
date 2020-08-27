@@ -1,9 +1,10 @@
 ---
 UID: NN:directml.IDMLDebugDevice
 title: IDMLDebugDevice
-description: Controls the DirectML debug layers.helpviewer_keywords: ["IDMLDebugDevice","IDMLDebugDevice interface","IDMLDebugDevice interface","described","direct3d12.idmldebugdevice","directml/IDMLDebugDevice"]
+description: Controls the DirectML debug layers.
+helpviewer_keywords: ["IDMLDebugDevice","IDMLDebugDevice interface","IDMLDebugDevice interface","described","direct3d12.idmldebugdevice","directml/IDMLDebugDevice"]
 old-location: direct3d12\idmldebugdevice.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 6602B70E-19EA-4C3D-B01C-16EC4830AB7F
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice, IDMLDebugDevice interface, IDMLDebugDevice interface,described, direct3d12.idmldebugdevice, directml/IDMLDebugDevice

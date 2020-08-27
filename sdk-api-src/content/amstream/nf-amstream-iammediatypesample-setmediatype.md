@@ -1,9 +1,10 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetMediaType
 title: IAMMediaTypeSample::SetMediaType (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetMediaType method sets the media type for the sample.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetMediaType method","IAMMediaTypeSample.SetMediaType","IAMMediaTypeSample::SetMediaType","IAMMediaTypeSampleSetMediaType","SetMediaType","SetMediaType method [DirectShow]","SetMediaType method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetMediaType","dshow.iammediatypesample_setmediatype"]
+description: Note  This interface is deprecated. New applications should not use it. The SetMediaType method sets the media type for the sample.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetMediaType method","IAMMediaTypeSample.SetMediaType","IAMMediaTypeSample::SetMediaType","IAMMediaTypeSampleSetMediaType","SetMediaType","SetMediaType method [DirectShow]","SetMediaType method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetMediaType","dshow.iammediatypesample_setmediatype"]
 old-location: dshow\iammediatypesample_setmediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 13c065b4-9a46-42bd-aef9-dd2a87a355df
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaType method, IAMMediaTypeSample.SetMediaType, IAMMediaTypeSample::SetMediaType, IAMMediaTypeSampleSetMediaType, SetMediaType, SetMediaType method [DirectShow], SetMediaType method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetMediaType, dshow.iammediatypesample_setmediatype

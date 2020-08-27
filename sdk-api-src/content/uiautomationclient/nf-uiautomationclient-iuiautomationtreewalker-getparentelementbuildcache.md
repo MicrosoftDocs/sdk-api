@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetParentElementBuildCache
 title: IUIAutomationTreeWalker::GetParentElementBuildCache (uiautomationclient.h)
-description: Retrieves the parent element of the specified UI Automation element, and caches properties and control patterns.helpviewer_keywords: ["GetParentElementBuildCache","GetParentElementBuildCache method [Windows Accessibility]","GetParentElementBuildCache method [Windows Accessibility]","IUIAutomationTreeWalker interface","IUIAutomationTreeWalker interface [Windows Accessibility]","GetParentElementBuildCache method","IUIAutomationTreeWalker.GetParentElementBuildCache","IUIAutomationTreeWalker::GetParentElementBuildCache","uiauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache","uiauto_IUIAutomationTreeWalker_GetParentBuildCache","uiautomationclient/IUIAutomationTreeWalker::GetParentElementBuildCache","winauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache"]
+description: Retrieves the parent element of the specified UI Automation element, and caches properties and control patterns.
+helpviewer_keywords: ["GetParentElementBuildCache","GetParentElementBuildCache method [Windows Accessibility]","GetParentElementBuildCache method [Windows Accessibility]","IUIAutomationTreeWalker interface","IUIAutomationTreeWalker interface [Windows Accessibility]","GetParentElementBuildCache method","IUIAutomationTreeWalker.GetParentElementBuildCache","IUIAutomationTreeWalker::GetParentElementBuildCache","uiauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache","uiauto_IUIAutomationTreeWalker_GetParentBuildCache","uiautomationclient/IUIAutomationTreeWalker::GetParentElementBuildCache","winauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache"]
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetParentBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 1a1d9805-bcd7-4c5d-ac61-138ac75a523e

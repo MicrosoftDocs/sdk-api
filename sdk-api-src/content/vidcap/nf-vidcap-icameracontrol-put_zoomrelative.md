@@ -1,9 +1,10 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ZoomRelative
 title: ICameraControl::put_ZoomRelative (vidcap.h)
-description: The put_ZoomRelative method sets the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_ZoomRelative method","ICameraControl.put_ZoomRelative","ICameraControl::put_ZoomRelative","ICameraControlput_ZoomRelative","dshow.icameracontrol_put_zoomrelative","put_ZoomRelative","put_ZoomRelative method [DirectShow]","put_ZoomRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_ZoomRelative"]
+description: The put_ZoomRelative method sets the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_ZoomRelative method","ICameraControl.put_ZoomRelative","ICameraControl::put_ZoomRelative","ICameraControlput_ZoomRelative","dshow.icameracontrol_put_zoomrelative","put_ZoomRelative","put_ZoomRelative method [DirectShow]","put_ZoomRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_ZoomRelative"]
 old-location: dshow\icameracontrol_put_zoomrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 815f92c3-bfab-47d5-86dd-f9b2321d20eb
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ZoomRelative method, ICameraControl.put_ZoomRelative, ICameraControl::put_ZoomRelative, ICameraControlput_ZoomRelative, dshow.icameracontrol_put_zoomrelative, put_ZoomRelative, put_ZoomRelative method [DirectShow], put_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ZoomRelative

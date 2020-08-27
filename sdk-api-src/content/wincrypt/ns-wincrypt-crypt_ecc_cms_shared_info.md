@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CRYPT_ECC_CMS_SHARED_INFO
 title: CRYPT_ECC_CMS_SHARED_INFO (wincrypt.h)
-description: Represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type.helpviewer_keywords: ["*PCRYPT_ECC_CMS_SHARED_INFO","CRYPT_ECC_CMS_SHARED_INFO","CRYPT_ECC_CMS_SHARED_INFO structure [Security]","CRYPT_ECC_CMS_SHARED_INFO_SUPPPUBINFO_BYTE_LENGTH","PCRYPT_ECC_CMS_SHARED_INFO","PCRYPT_ECC_CMS_SHARED_INFO structure pointer [Security]","security.crypt_ecc_cms_shared_info","wincrypt/CRYPT_ECC_CMS_SHARED_INFO","wincrypt/PCRYPT_ECC_CMS_SHARED_INFO"]
+description: Represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type.
+helpviewer_keywords: ["*PCRYPT_ECC_CMS_SHARED_INFO","CRYPT_ECC_CMS_SHARED_INFO","CRYPT_ECC_CMS_SHARED_INFO structure [Security]","CRYPT_ECC_CMS_SHARED_INFO_SUPPPUBINFO_BYTE_LENGTH","PCRYPT_ECC_CMS_SHARED_INFO","PCRYPT_ECC_CMS_SHARED_INFO structure pointer [Security]","security.crypt_ecc_cms_shared_info","wincrypt/CRYPT_ECC_CMS_SHARED_INFO","wincrypt/PCRYPT_ECC_CMS_SHARED_INFO"]
 old-location: security\crypt_ecc_cms_shared_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 858dbf61-5c4f-4bd6-b47c-0a1379119693
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO structure [Security], CRYPT_ECC_CMS_SHARED_INFO_SUPPPUBINFO_BYTE_LENGTH, PCRYPT_ECC_CMS_SHARED_INFO, PCRYPT_ECC_CMS_SHARED_INFO structure pointer [Security], security.crypt_ecc_cms_shared_info, wincrypt/CRYPT_ECC_CMS_SHARED_INFO, wincrypt/PCRYPT_ECC_CMS_SHARED_INFO'

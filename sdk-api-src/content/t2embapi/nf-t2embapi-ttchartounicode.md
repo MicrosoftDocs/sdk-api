@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTCharToUnicode
 title: TTCharToUnicode function (t2embapi.h)
-description: Converts an array of 8-bit character code values to 16-bit Unicode values.helpviewer_keywords: ["TTCharToUnicode","TTCharToUnicode function [Windows GDI]","_win32_BytesToUnicode","gdi.ttchartounicode","t2embapi/TTCharToUnicode"]
+description: Converts an array of 8-bit character code values to 16-bit Unicode values.
+helpviewer_keywords: ["TTCharToUnicode","TTCharToUnicode function [Windows GDI]","_win32_BytesToUnicode","gdi.ttchartounicode","t2embapi/TTCharToUnicode"]
 old-location: gdi\ttchartounicode.htm
 tech.root: gdi
 ms.assetid: b5ed9429-31fa-4f78-8fc3-aeb5cb1540d1

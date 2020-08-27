@@ -1,9 +1,10 @@
 ---
 UID: NF:locationapi.IDefaultLocation.SetReport
 title: IDefaultLocation::SetReport (locationapi.h)
-description: Sets the default location.helpviewer_keywords: ["IDefaultLocation interface [WinLocation]","SetReport method","IDefaultLocation.SetReport","IDefaultLocation::SetReport","SetReport","SetReport method [WinLocation]","SetReport method [WinLocation]","IDefaultLocation interface","WinLocation_COM_Ref.idefaultlocation_setreport","locationapi/IDefaultLocation::SetReport"]
+description: Sets the default location.
+helpviewer_keywords: ["IDefaultLocation interface [WinLocation]","SetReport method","IDefaultLocation.SetReport","IDefaultLocation::SetReport","SetReport","SetReport method [WinLocation]","SetReport method [WinLocation]","IDefaultLocation interface","WinLocation_COM_Ref.idefaultlocation_setreport","locationapi/IDefaultLocation::SetReport"]
 old-location: winlocation_com_ref\idefaultlocation_setreport.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 50355f93-e609-44d5-925a-2de7af1e0564
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation interface [WinLocation],SetReport method, IDefaultLocation.SetReport, IDefaultLocation::SetReport, SetReport, SetReport method [WinLocation], SetReport method [WinLocation],IDefaultLocation interface, WinLocation_COM_Ref.idefaultlocation_setreport, locationapi/IDefaultLocation::SetReport

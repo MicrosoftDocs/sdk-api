@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_NonMembers
 title: IAzApplicationGroup::get_NonMembers (azroles.h)
-description: Retrieves the security identifiers (SIDs), in text form, of accounts that are refused membership in the application group.helpviewer_keywords: ["AzApplicationGroup object [Security]","NonMembers property","IAzApplicationGroup interface [Security]","NonMembers property","IAzApplicationGroup.NonMembers","IAzApplicationGroup.get_NonMembers","IAzApplicationGroup::NonMembers","IAzApplicationGroup::get_NonMembers","NonMembers property [Security]","NonMembers property [Security]","AzApplicationGroup object","NonMembers property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::NonMembers","azroles/IAzApplicationGroup::get_NonMembers","get_NonMembers","security.iazapplicationgroup_nonmembers"]
+description: Retrieves the security identifiers (SIDs), in text form, of accounts that are refused membership in the application group.
+helpviewer_keywords: ["AzApplicationGroup object [Security]","NonMembers property","IAzApplicationGroup interface [Security]","NonMembers property","IAzApplicationGroup.NonMembers","IAzApplicationGroup.get_NonMembers","IAzApplicationGroup::NonMembers","IAzApplicationGroup::get_NonMembers","NonMembers property [Security]","NonMembers property [Security]","AzApplicationGroup object","NonMembers property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::NonMembers","azroles/IAzApplicationGroup::get_NonMembers","get_NonMembers","security.iazapplicationgroup_nonmembers"]
 old-location: security\iazapplicationgroup_nonmembers.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 43bdd205-4750-4ff6-8063-8de2c5962b09
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],NonMembers property, IAzApplicationGroup interface [Security],NonMembers property, IAzApplicationGroup.NonMembers, IAzApplicationGroup.get_NonMembers, IAzApplicationGroup::NonMembers, IAzApplicationGroup::get_NonMembers, NonMembers property [Security], NonMembers property [Security],AzApplicationGroup object, NonMembers property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::NonMembers, azroles/IAzApplicationGroup::get_NonMembers, get_NonMembers, security.iazapplicationgroup_nonmembers

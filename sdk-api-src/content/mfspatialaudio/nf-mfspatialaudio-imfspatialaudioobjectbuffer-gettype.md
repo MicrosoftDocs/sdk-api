@@ -1,9 +1,10 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetType
 title: IMFSpatialAudioObjectBuffer::GetType (mfspatialaudio.h)
-description: Gets the type of the spatial audio object represented by the buffer. If SetType has not been called previously, this method returns the default value of AudioObjectType_None.helpviewer_keywords: ["GetType","GetType method [Media Foundation]","GetType method [Media Foundation]","IMFSpatialAudioObjectBuffer interface","IMFSpatialAudioObjectBuffer interface [Media Foundation]","GetType method","IMFSpatialAudioObjectBuffer.GetType","IMFSpatialAudioObjectBuffer::GetType","mf.imfspatialaudioobjectbuffer_gettype","mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType"]
+description: Gets the type of the spatial audio object represented by the buffer. If SetType has not been called previously, this method returns the default value of AudioObjectType_None.
+helpviewer_keywords: ["GetType","GetType method [Media Foundation]","GetType method [Media Foundation]","IMFSpatialAudioObjectBuffer interface","IMFSpatialAudioObjectBuffer interface [Media Foundation]","GetType method","IMFSpatialAudioObjectBuffer.GetType","IMFSpatialAudioObjectBuffer::GetType","mf.imfspatialaudioobjectbuffer_gettype","mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType"]
 old-location: mf\imfspatialaudioobjectbuffer_gettype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: CF0285D2-E56B-44A5-B7E0-3227213D9523
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetType method, IMFSpatialAudioObjectBuffer.GetType, IMFSpatialAudioObjectBuffer::GetType, mf.imfspatialaudioobjectbuffer_gettype, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType

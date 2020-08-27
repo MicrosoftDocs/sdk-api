@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CreateHardLinkA
 title: CreateHardLinkA function (winbase.h)
-description: Establishes a hard link between an existing file and a new file.helpviewer_keywords: ["CreateHardLink","CreateHardLink function [Files]","CreateHardLinkA","CreateHardLinkW","_win32_createhardlink","base.createhardlink","fs.createhardlink","winbase/CreateHardLink","winbase/CreateHardLinkA","winbase/CreateHardLinkW"]
+description: Establishes a hard link between an existing file and a new file.
+helpviewer_keywords: ["CreateHardLink","CreateHardLink function [Files]","CreateHardLinkA","CreateHardLinkW","_win32_createhardlink","base.createhardlink","fs.createhardlink","winbase/CreateHardLink","winbase/CreateHardLinkA","winbase/CreateHardLinkW"]
 old-location: fs\createhardlink.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
 ms.date: 12/05/2018
 ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW
@@ -89,7 +90,7 @@ This parameter may include the path cannot specify the name of a directory.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateHardLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpSecurityAttributes
@@ -236,6 +237,10 @@ The following code snippet shows you how to call
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines CreateHardLink as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -262,7 +267,3 @@ The following code snippet shows you how to call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
- 
-
- 
-

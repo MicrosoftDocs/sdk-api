@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_AvailableTVFormats
 title: IAMAnalogVideoDecoder::get_AvailableTVFormats (strmif.h)
-description: The get_AvailableTVFormats method retrieves the analog video formats that the decoder supports.helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","get_AvailableTVFormats method","IAMAnalogVideoDecoder.get_AvailableTVFormats","IAMAnalogVideoDecoder::get_AvailableTVFormats","IAMAnalogVideoDecoderget_AvailableTVFormats","dshow.iamanalogvideodecoder_get_availabletvformats","get_AvailableTVFormats","get_AvailableTVFormats method [DirectShow]","get_AvailableTVFormats method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::get_AvailableTVFormats"]
+description: The get_AvailableTVFormats method retrieves the analog video formats that the decoder supports.
+helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","get_AvailableTVFormats method","IAMAnalogVideoDecoder.get_AvailableTVFormats","IAMAnalogVideoDecoder::get_AvailableTVFormats","IAMAnalogVideoDecoderget_AvailableTVFormats","dshow.iamanalogvideodecoder_get_availabletvformats","get_AvailableTVFormats","get_AvailableTVFormats method [DirectShow]","get_AvailableTVFormats method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::get_AvailableTVFormats"]
 old-location: dshow\iamanalogvideodecoder_get_availabletvformats.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 651f902f-de27-4185-b368-ce2cbf12cfae
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_AvailableTVFormats method, IAMAnalogVideoDecoder.get_AvailableTVFormats, IAMAnalogVideoDecoder::get_AvailableTVFormats, IAMAnalogVideoDecoderget_AvailableTVFormats, dshow.iamanalogvideodecoder_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_AvailableTVFormats

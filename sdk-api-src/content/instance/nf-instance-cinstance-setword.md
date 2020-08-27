@@ -1,9 +1,10 @@
 ---
 UID: NF:instance.CInstance.SetWORD
 title: CInstance::SetWORD (instance.h)
-description: The SetWORD method sets a WORD property.helpviewer_keywords: ["?SetWORD@CInstance@@QAE_NPBGG@Z","?SetWORD@CInstance@@QEAA_NPEBGG@Z","CInstance interface [Windows Management Instrumentation]","SetWORD method","CInstance.SetWORD","CInstance::SetWORD","SetWORD","SetWORD method [Windows Management Instrumentation]","SetWORD method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setword","instance/CInstance::SetWORD","wmi.cinstance_setword"]
+description: The SetWORD method sets a WORD property.
+helpviewer_keywords: ["?SetWORD@CInstance@@QAE_NPBGG@Z","?SetWORD@CInstance@@QEAA_NPEBGG@Z","CInstance interface [Windows Management Instrumentation]","SetWORD method","CInstance.SetWORD","CInstance::SetWORD","SetWORD","SetWORD method [Windows Management Instrumentation]","SetWORD method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setword","instance/CInstance::SetWORD","wmi.cinstance_setword"]
 old-location: wmi\cinstance_setword.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: e58b98d9-56c2-4e92-90ee-c9ff4fae9f8f
 ms.date: 12/05/2018
 ms.keywords: ?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance interface [Windows Management Instrumentation],SetWORD method, CInstance.SetWORD, CInstance::SetWORD, SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword

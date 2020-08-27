@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Count
 title: IMtsEventInfo::get_Count (comsvcs.h)
-description: Retrieves the number of data values from the object.helpviewer_keywords: ["IMtsEventInfo interface [COM+]","get_Count method","IMtsEventInfo.get_Count","IMtsEventInfo::get_Count","_dtc_IMtsEventInfo_Count","comsvcs/IMtsEventInfo::get_Count","cos.imtseventinfo_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","IMtsEventInfo interface"]
+description: Retrieves the number of data values from the object.
+helpviewer_keywords: ["IMtsEventInfo interface [COM+]","get_Count method","IMtsEventInfo.get_Count","IMtsEventInfo::get_Count","_dtc_IMtsEventInfo_Count","comsvcs/IMtsEventInfo::get_Count","cos.imtseventinfo_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","IMtsEventInfo interface"]
 old-location: cos\imtseventinfo_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f92c93eb-841a-4bc8-9c02-644c30daccad
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Count method, IMtsEventInfo.get_Count, IMtsEventInfo::get_Count, _dtc_IMtsEventInfo_Count, comsvcs/IMtsEventInfo::get_Count, cos.imtseventinfo_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsEventInfo interface

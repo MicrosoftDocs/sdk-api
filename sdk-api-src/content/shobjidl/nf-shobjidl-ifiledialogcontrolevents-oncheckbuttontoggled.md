@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnCheckButtonToggled
 title: IFileDialogControlEvents::OnCheckButtonToggled (shobjidl.h)
-description: Called when the user changes the state of a check button (check box).helpviewer_keywords: ["IFileDialogControlEvents interface [Windows Shell]","OnCheckButtonToggled method","IFileDialogControlEvents.OnCheckButtonToggled","IFileDialogControlEvents::OnCheckButtonToggled","OnCheckButtonToggled","OnCheckButtonToggled method [Windows Shell]","OnCheckButtonToggled method [Windows Shell]","IFileDialogControlEvents interface","shell.IFileDialogControlEvents_OnCheckButtonToggled","shell_IFileDialogControlEvents_OnCheckButtonToggled","shobjidl/IFileDialogControlEvents::OnCheckButtonToggled"]
+description: Called when the user changes the state of a check button (check box).
+helpviewer_keywords: ["IFileDialogControlEvents interface [Windows Shell]","OnCheckButtonToggled method","IFileDialogControlEvents.OnCheckButtonToggled","IFileDialogControlEvents::OnCheckButtonToggled","OnCheckButtonToggled","OnCheckButtonToggled method [Windows Shell]","OnCheckButtonToggled method [Windows Shell]","IFileDialogControlEvents interface","shell.IFileDialogControlEvents_OnCheckButtonToggled","shell_IFileDialogControlEvents_OnCheckButtonToggled","shobjidl/IFileDialogControlEvents::OnCheckButtonToggled"]
 old-location: shell\IFileDialogControlEvents_OnCheckButtonToggled.htm
 tech.root: shell
 ms.assetid: 97e6cb2a-1ffc-43ca-abb6-f1b259e8fcd2

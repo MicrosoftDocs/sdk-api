@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartItemDelete
 title: IPhotoAcquireProgressCB::StartItemDelete (photoacquire.h)
-description: The StartItemDelete method provides extended functionality each time the deletion of an individual item from the device begins. The application provides the implementation of the StartItemDelete method.helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartItemDelete method","IPhotoAcquireProgressCB.StartItemDelete","IPhotoAcquireProgressCB::StartItemDelete","IPhotoAcquireProgressCBStartItemDelete","StartItemDelete","StartItemDelete method [Picture Acquisition]","StartItemDelete method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartItemDelete","picacq.iphotoacquireprogresscb_startitemdelete"]
+description: The StartItemDelete method provides extended functionality each time the deletion of an individual item from the device begins. The application provides the implementation of the StartItemDelete method.
+helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartItemDelete method","IPhotoAcquireProgressCB.StartItemDelete","IPhotoAcquireProgressCB::StartItemDelete","IPhotoAcquireProgressCBStartItemDelete","StartItemDelete","StartItemDelete method [Picture Acquisition]","StartItemDelete method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartItemDelete","picacq.iphotoacquireprogresscb_startitemdelete"]
 old-location: picacq\iphotoacquireprogresscb_startitemdelete.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 0f4ab29d-ea9c-410d-94ab-4c4d8ed76b4d
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartItemDelete method, IPhotoAcquireProgressCB.StartItemDelete, IPhotoAcquireProgressCB::StartItemDelete, IPhotoAcquireProgressCBStartItemDelete, StartItemDelete, StartItemDelete method [Picture Acquisition], StartItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartItemDelete, picacq.iphotoacquireprogresscb_startitemdelete

@@ -1,9 +1,10 @@
 ---
 UID: NS:wlanapi._WLAN_RAW_DATA_LIST
 title: WLAN_RAW_DATA_LIST (wlanapi.h)
-description: Contains raw data in the form of an array of data blobs that are used by some Native Wifi functions.helpviewer_keywords: ["*PWLAN_RAW_DATA_LIST","PWLAN_RAW_DATA_LIST","PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI]","WLAN_RAW_DATA_LIST","WLAN_RAW_DATA_LIST structure [NativeWIFI]","nwifi.dot11_psd_ie_data_list","wlanapi/PWLAN_RAW_DATA_LIST","wlanapi/WLAN_RAW_DATA_LIST"]
+description: Contains raw data in the form of an array of data blobs that are used by some Native Wifi functions.
+helpviewer_keywords: ["*PWLAN_RAW_DATA_LIST","PWLAN_RAW_DATA_LIST","PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI]","WLAN_RAW_DATA_LIST","WLAN_RAW_DATA_LIST structure [NativeWIFI]","nwifi.dot11_psd_ie_data_list","wlanapi/PWLAN_RAW_DATA_LIST","wlanapi/WLAN_RAW_DATA_LIST"]
 old-location: nwifi\dot11_psd_ie_data_list.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST'

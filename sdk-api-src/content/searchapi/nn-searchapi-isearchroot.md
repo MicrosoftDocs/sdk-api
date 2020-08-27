@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchRoot
 title: ISearchRoot (searchapi.h)
-description: Provides methods for manipulating a search root. Changes to property members are applied to any URL that falls under the search root. A URL falls under a search root if it matches the search root URL or is a hierarchical child of that URL.helpviewer_keywords: ["ISearchRoot","ISearchRoot interface [search]","ISearchRoot interface [search]","described","_search_ISearchRoot","search._search_ISearchRoot","searchapi/ISearchRoot"]
+description: Provides methods for manipulating a search root. Changes to property members are applied to any URL that falls under the search root. A URL falls under a search root if it matches the search root URL or is a hierarchical child of that URL.
+helpviewer_keywords: ["ISearchRoot","ISearchRoot interface [search]","ISearchRoot interface [search]","described","_search_ISearchRoot","search._search_ISearchRoot","searchapi/ISearchRoot"]
 old-location: search\_search_ISearchRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\isearchroot.htm
@@ -272,10 +273,7 @@ Sets a value that indicates whether this search root should be indexed only by n
 
 ## -remarks
 
-
-
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
-options for Crawl Scope Manager (CSM) indexing operations.
+For a sample that demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations, see the [CrawlScopeCommandLine](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/CrawlScopeCommandLine) sample.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_RESPONSE_INFO_TYPE
 title: HTTP_RESPONSE_INFO_TYPE (http.h)
-description: The HTTP_RESPONSE_INFO_TYPE enumeration defines the type of information contained in the HTTP_RESPONSE_INFO structure.This enumeration is used in the HTTP_RESPONSE_INFO structure.helpviewer_keywords: ["*PHTTP_RESPONSE_INFO_TYPE","*PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP]","HTTP_RESPONSE_INFO_TYPE","HTTP_RESPONSE_INFO_TYPE enumeration [HTTP]","HttpResponseInfoTypeAuthenticationProperty","HttpResponseInfoTypeChannelBind","HttpResponseInfoTypeMultipleKnownHeaders","HttpResponseInfoTypeQosProperty","PHTTP_RESPONSE_INFO_TYPE","http.http_response_info_type","http/*PHTTP_RESPONSE_INFO_TYPE","http/HTTP_RESPONSE_INFO_TYPE","http/HttpResponseInfoTypeAuthenticationProperty","http/HttpResponseInfoTypeChannelBind","http/HttpResponseInfoTypeMultipleKnownHeaders","http/HttpResponseInfoTypeQosProperty"]
+description: The HTTP_RESPONSE_INFO_TYPE enumeration defines the type of information contained in the HTTP_RESPONSE_INFO structure.This enumeration is used in the HTTP_RESPONSE_INFO structure.
+helpviewer_keywords: ["*PHTTP_RESPONSE_INFO_TYPE","*PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP]","HTTP_RESPONSE_INFO_TYPE","HTTP_RESPONSE_INFO_TYPE enumeration [HTTP]","HttpResponseInfoTypeAuthenticationProperty","HttpResponseInfoTypeChannelBind","HttpResponseInfoTypeMultipleKnownHeaders","HttpResponseInfoTypeQosProperty","PHTTP_RESPONSE_INFO_TYPE","http.http_response_info_type","http/*PHTTP_RESPONSE_INFO_TYPE","http/HTTP_RESPONSE_INFO_TYPE","http/HttpResponseInfoTypeAuthenticationProperty","http/HttpResponseInfoTypeChannelBind","http/HttpResponseInfoTypeMultipleKnownHeaders","http/HttpResponseInfoTypeQosProperty"]
 old-location: http\http_response_info_type.htm
 tech.root: http
 ms.assetid: 2f85e8dd-1693-4a54-a38f-9b70b2a46361
@@ -79,7 +80,7 @@ Reserved for future use.
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
 
 
-#### - HttpResponseInfoTypeQosProperty
+### -field HttpResponseInfoTypeQosProperty
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.AccessCheck
 title: AccessCheck function (securitybaseapi.h)
-description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.helpviewer_keywords: ["AccessCheck","AccessCheck function [Security]","_win32_accesscheck","security.accesscheck","securitybaseapi/AccessCheck"]
+description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
+helpviewer_keywords: ["AccessCheck","AccessCheck function [Security]","_win32_accesscheck","security.accesscheck","securitybaseapi/AccessCheck"]
 old-location: security\accesscheck.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d9fd2e44-5782-40c9-a1cf-1788ca7afc50
 ms.date: 12/05/2018
 ms.keywords: AccessCheck, AccessCheck function [Security], _win32_accesscheck, security.accesscheck, securitybaseapi/AccessCheck

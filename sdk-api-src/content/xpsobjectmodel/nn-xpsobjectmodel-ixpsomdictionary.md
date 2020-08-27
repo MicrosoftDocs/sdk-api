@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDictionary
 title: IXpsOMDictionary (xpsobjectmodel.h)
-description: The dictionary is used by an XPS package to share resources.helpviewer_keywords: ["IXpsOMDictionary","IXpsOMDictionary interface [XPS Documents and Packaging]","IXpsOMDictionary interface [XPS Documents and Packaging]","described","xps.ixpsomdictionary","xpsobjectmodel/IXpsOMDictionary"]
+description: The dictionary is used by an XPS package to share resources.
+helpviewer_keywords: ["IXpsOMDictionary","IXpsOMDictionary interface [XPS Documents and Packaging]","IXpsOMDictionary interface [XPS Documents and Packaging]","described","xps.ixpsomdictionary","xpsobjectmodel/IXpsOMDictionary"]
 old-location: xps\ixpsomdictionary.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f887e3d3-973c-4267-a785-6bc190c13082
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], IXpsOMDictionary interface [XPS Documents and Packaging],described, xps.ixpsomdictionary, xpsobjectmodel/IXpsOMDictionary

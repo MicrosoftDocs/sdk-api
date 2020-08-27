@@ -1,9 +1,10 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetAt
 title: IProviderProperties::GetAt (functiondiscoveryprovider.h)
-description: Gets the property key at the specified index.helpviewer_keywords: ["GetAt","GetAt method","GetAt method","IProviderProperties interface","IProviderProperties interface","GetAt method","IProviderProperties.GetAt","IProviderProperties::GetAt","functiondiscoveryprovider/IProviderProperties::GetAt","ncd.iproviderproperties_getat_method"]
+description: Gets the property key at the specified index.
+helpviewer_keywords: ["GetAt","GetAt method","GetAt method","IProviderProperties interface","IProviderProperties interface","GetAt method","IProviderProperties.GetAt","IProviderProperties::GetAt","functiondiscoveryprovider/IProviderProperties::GetAt","ncd.iproviderproperties_getat_method"]
 old-location: ncd\iproviderproperties_getat_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IProviderProperties interface,GetAt method, IProviderProperties.GetAt, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method

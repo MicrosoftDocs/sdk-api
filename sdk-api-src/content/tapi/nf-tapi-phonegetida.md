@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneGetIDA
 title: phoneGetIDA function (tapi.h)
-description: The phoneGetID function returns a device identifier for the given device class associated with the specified phone device.helpviewer_keywords: ["_tapi2_phonegetid","phoneGetID","phoneGetID function [TAPI 2.2]","phoneGetIDA","phoneGetIDW","tapi/phoneGetID","tapi/phoneGetIDA","tapi/phoneGetIDW","tapi2.phonegetid"]
+description: The phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
+helpviewer_keywords: ["_tapi2_phonegetid","phoneGetID","phoneGetID function [TAPI 2.2]","phoneGetIDA","phoneGetIDW","tapi/phoneGetID","tapi/phoneGetIDA","tapi/phoneGetIDW","tapi2.phonegetid"]
 old-location: tapi2\phonegetid.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6a9c90ca-7a9e-43de-8075-240185658538
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetid, phoneGetID, phoneGetID function [TAPI 2.2], phoneGetIDA, phoneGetIDW, tapi/phoneGetID, tapi/phoneGetIDA, tapi/phoneGetIDW, tapi2.phonegetid
@@ -101,6 +102,10 @@ A vendor that defines a device-specific media type also needs to define the corr
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines phoneGetID as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

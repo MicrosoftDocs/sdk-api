@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1017
 title: SERVER_INFO_1017 (lmserver.h)
-description: The SERVER_INFO_1017 structure contains the network announce rate associated with the specified server.helpviewer_keywords: ["*LPSERVER_INFO_1017","*PSERVER_INFO_1017","LPSERVER_INFO_1017","LPSERVER_INFO_1017 structure pointer [Network Management]","PSERVER_INFO_1017","PSERVER_INFO_1017 structure pointer [Network Management]","SERVER_INFO_1017","SERVER_INFO_1017 structure [Network Management]","_win32_server_info_1017_str","lmserver/LPSERVER_INFO_1017","lmserver/PSERVER_INFO_1017","lmserver/SERVER_INFO_1017","netmgmt.server_info_1017_str"]
+description: The SERVER_INFO_1017 structure contains the network announce rate associated with the specified server.
+helpviewer_keywords: ["*LPSERVER_INFO_1017","*PSERVER_INFO_1017","LPSERVER_INFO_1017","LPSERVER_INFO_1017 structure pointer [Network Management]","PSERVER_INFO_1017","PSERVER_INFO_1017 structure pointer [Network Management]","SERVER_INFO_1017","SERVER_INFO_1017 structure [Network Management]","_win32_server_info_1017_str","lmserver/LPSERVER_INFO_1017","lmserver/PSERVER_INFO_1017","lmserver/SERVER_INFO_1017","netmgmt.server_info_1017_str"]
 old-location: netmgmt\server_info_1017_str.htm
 tech.root: NetMgmt
 ms.assetid: ad169dd2-6469-499d-b6be-53d99a92148f

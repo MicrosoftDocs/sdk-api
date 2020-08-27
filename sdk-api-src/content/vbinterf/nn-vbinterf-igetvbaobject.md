@@ -1,7 +1,8 @@
 ---
 UID: NN:vbinterf.IGetVBAObject
 title: IGetVBAObject (vbinterf.h)
-description: Gets access to the IVBFormat interface.helpviewer_keywords: ["IGetVBAObject","IGetVBAObject interface [COM]","IGetVBAObject interface [COM]","described","_com_IGetVBAObject","com.igetvbaobject","vbinterf/IGetVBAObject"]
+description: Gets access to the IVBFormat interface.
+helpviewer_keywords: ["IGetVBAObject","IGetVBAObject interface [COM]","IGetVBAObject interface [COM]","described","_com_IGetVBAObject","com.igetvbaobject","vbinterf/IGetVBAObject"]
 old-location: com\igetvbaobject.htm
 tech.root: com
 ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe

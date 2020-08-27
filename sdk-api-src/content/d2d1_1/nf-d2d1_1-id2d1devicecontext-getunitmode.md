@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetUnitMode
 title: ID2D1DeviceContext::GetUnitMode (d2d1_1.h)
-description: Gets the mode that is being used to interpret values by the device context.helpviewer_keywords: ["GetUnitMode","GetUnitMode method [Direct2D]","GetUnitMode method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetUnitMode method","ID2D1DeviceContext.GetUnitMode","ID2D1DeviceContext::GetUnitMode","d2d1_1/ID2D1DeviceContext::GetUnitMode","direct2d.id2d1devicecontext_getunitmode"]
+description: Gets the mode that is being used to interpret values by the device context.
+helpviewer_keywords: ["GetUnitMode","GetUnitMode method [Direct2D]","GetUnitMode method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetUnitMode method","ID2D1DeviceContext.GetUnitMode","ID2D1DeviceContext::GetUnitMode","d2d1_1/ID2D1DeviceContext::GetUnitMode","direct2d.id2d1devicecontext_getunitmode"]
 old-location: direct2d\id2d1devicecontext_getunitmode.htm
 tech.root: Direct2D
 ms.assetid: d1c6476d-151b-4f2a-9aae-726de219567c

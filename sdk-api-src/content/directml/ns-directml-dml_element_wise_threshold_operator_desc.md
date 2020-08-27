@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC
 title: DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the element-wise threshold function f(x) = max(x * scale + bias, min), where the scale and bias terms are optional. The threshold of x with respect to min is the larger of the two values.helpviewer_keywords: ["DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC","DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC structure","direct3d12.dml_element_wise_threshold_operator_desc","directml/DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC"]
+description: Describes a DirectML math operator that performs the element-wise threshold function f(x) = max(x * scale + bias, min), where the scale and bias terms are optional. The threshold of x with respect to min is the larger of the two values.
+helpviewer_keywords: ["DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC","DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC structure","direct3d12.dml_element_wise_threshold_operator_desc","directml/DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_threshold_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 6CAF4C67-EC85-4C6E-8D0E-277B04780F47
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC, DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC structure, direct3d12.dml_element_wise_threshold_operator_desc, directml/DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC

@@ -1,9 +1,10 @@
 ---
 UID: NF:vpnotify.IVPNotify.SetDeinterlaceMode
 title: IVPNotify::SetDeinterlaceMode (vpnotify.h)
-description: Sets the mode (such as bob or weave).helpviewer_keywords: ["IVPNotify interface [DirectShow]","SetDeinterlaceMode method","IVPNotify.SetDeinterlaceMode","IVPNotify::SetDeinterlaceMode","IVPNotifySetDeinterlaceMode","SetDeinterlaceMode","SetDeinterlaceMode method [DirectShow]","SetDeinterlaceMode method [DirectShow]","IVPNotify interface","dshow.ivpnotify_setdeinterlacemode","vpnotify/IVPNotify::SetDeinterlaceMode"]
+description: Sets the mode (such as bob or weave).
+helpviewer_keywords: ["IVPNotify interface [DirectShow]","SetDeinterlaceMode method","IVPNotify.SetDeinterlaceMode","IVPNotify::SetDeinterlaceMode","IVPNotifySetDeinterlaceMode","SetDeinterlaceMode","SetDeinterlaceMode method [DirectShow]","SetDeinterlaceMode method [DirectShow]","IVPNotify interface","dshow.ivpnotify_setdeinterlacemode","vpnotify/IVPNotify::SetDeinterlaceMode"]
 old-location: dshow\ivpnotify_setdeinterlacemode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 41984fb1-7276-4232-b19a-d251c9fcd699
 ms.date: 12/05/2018
 ms.keywords: IVPNotify interface [DirectShow],SetDeinterlaceMode method, IVPNotify.SetDeinterlaceMode, IVPNotify::SetDeinterlaceMode, IVPNotifySetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVPNotify interface, dshow.ivpnotify_setdeinterlacemode, vpnotify/IVPNotify::SetDeinterlaceMode

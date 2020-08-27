@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertVerifyTimeValidity
 title: CertVerifyTimeValidity function (wincrypt.h)
-description: The CertVerifyTimeValidity function verifies the time validity of a certificate.helpviewer_keywords: ["CertVerifyTimeValidity","CertVerifyTimeValidity function [Security]","_crypto2_certverifytimevalidity","security.certverifytimevalidity","wincrypt/CertVerifyTimeValidity"]
+description: The CertVerifyTimeValidity function verifies the time validity of a certificate.
+helpviewer_keywords: ["CertVerifyTimeValidity","CertVerifyTimeValidity function [Security]","_crypto2_certverifytimevalidity","security.certverifytimevalidity","wincrypt/CertVerifyTimeValidity"]
 old-location: security\certverifytimevalidity.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9ccf9230-e998-4f82-9db0-6cbaa1c36850
 ms.date: 12/05/2018
 ms.keywords: CertVerifyTimeValidity, CertVerifyTimeValidity function [Security], _crypto2_certverifytimevalidity, security.certverifytimevalidity, wincrypt/CertVerifyTimeValidity

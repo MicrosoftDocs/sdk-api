@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetCallback
 title: IImageList2::GetCallback (commoncontrols.h)
-description: Gets an image list callback object.helpviewer_keywords: ["GetCallback","GetCallback method [Windows Controls]","GetCallback method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","GetCallback method","IImageList2.GetCallback","IImageList2::GetCallback","_shell_IImageList2_GetCallback","_shell_IImageList2_GetCallback_cpp","commoncontrols/IImageList2::GetCallback","controls.IImageList2_GetCallback","controls._shell_IImageList2_GetCallback"]
+description: Gets an image list callback object.
+helpviewer_keywords: ["GetCallback","GetCallback method [Windows Controls]","GetCallback method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","GetCallback method","IImageList2.GetCallback","IImageList2::GetCallback","_shell_IImageList2_GetCallback","_shell_IImageList2_GetCallback_cpp","commoncontrols/IImageList2::GetCallback","controls.IImageList2_GetCallback","controls._shell_IImageList2_GetCallback"]
 old-location: controls\IImageList2_GetCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getcallback.htm

@@ -4,7 +4,7 @@ title: WlanSetProfileEapXmlUserData function (wlanapi.h)
 description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by an XML string.
 helpviewer_keywords: ["WLAN_SET_EAPHOST_DATA_ALL_USERS","WlanSetProfileEapXmlUserData","WlanSetProfileEapXmlUserData function [NativeWIFI]","nwifi.wlansetprofileeapxmluserdata","wlanapi/WlanSetProfileEapXmlUserData"]
 old-location: nwifi\wlansetprofileeapxmluserdata.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: c34c39c0-8200-438a-8353-238225aea5cb
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapXmlUserData, WlanSetProfileEapXmlUserData function [NativeWIFI], nwifi.wlansetprofileeapxmluserdata, wlanapi/WlanSetProfileEapXmlUserData
@@ -244,7 +244,7 @@ The <i>eapType</i> parameter is an  <a href="https://docs.microsoft.com/windows/
 
 For more information on the allocation of EAP method types, see section 6.2 of <a href="http://tools.ietf.org/html/rfc3748">RFC 3748</a> published by the IETF.
 
-On Windows 7, Windows Server 2008 R2,  and later, the  <b>WlanSetProfileEapXmlUserData</b> function is enhanced. EAP user credentials can be set for all users of  a profile if the <i>dwFlags</i> parameter contains <b>WLAN_SET_EAPHOST_DATA_ALL_USERS</b>. 
+On Windows 10, Windows Server 2016,  and later, the  <b>WlanSetProfileEapXmlUserData</b> function is enhanced. EAP user credentials can be set for all users of  a profile if the <i>dwFlags</i> parameter contains <b>WLAN_SET_EAPHOST_DATA_ALL_USERS</b>. 
 
 All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
 

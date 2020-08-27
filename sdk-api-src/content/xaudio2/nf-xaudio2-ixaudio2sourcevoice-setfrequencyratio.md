@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetFrequencyRatio
 title: IXAudio2SourceVoice::SetFrequencyRatio (xaudio2.h)
-description: Sets the frequency adjustment ratio of the voice.helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","SetFrequencyRatio method","IXAudio2SourceVoice.SetFrequencyRatio","IXAudio2SourceVoice::SetFrequencyRatio","SetFrequencyRatio","SetFrequencyRatio method [XAudio2 Audio Mixing APIs]","SetFrequencyRatio method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio","xaudio2/IXAudio2SourceVoice::SetFrequencyRatio"]
+description: Sets the frequency adjustment ratio of the voice.
+helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","SetFrequencyRatio method","IXAudio2SourceVoice.SetFrequencyRatio","IXAudio2SourceVoice::SetFrequencyRatio","SetFrequencyRatio","SetFrequencyRatio method [XAudio2 Audio Mixing APIs]","SetFrequencyRatio method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio","xaudio2/IXAudio2SourceVoice::SetFrequencyRatio"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_setfrequencyratio.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetFrequencyRatio(float,UINT32)
@@ -69,7 +70,7 @@ TBD
 
 
 
-#### - OperationSet [in]
+### -param OperationSet [in]
 
 Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information. 
 

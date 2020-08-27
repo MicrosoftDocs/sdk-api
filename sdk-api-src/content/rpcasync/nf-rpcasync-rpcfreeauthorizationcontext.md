@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcFreeAuthorizationContext
 title: RpcFreeAuthorizationContext function (rpcasync.h)
-description: The RpcFreeAuthorizationContext function frees an Authz context obtained by a previous call to the RpcGetAuthorizationContextForClient function.helpviewer_keywords: ["RpcFreeAuthorizationContext","RpcFreeAuthorizationContext function [RPC]","_rpc_rpcfreeauthorizationcontext","rpc.rpcfreeauthorizationcontext","rpcasync/RpcFreeAuthorizationContext"]
+description: The RpcFreeAuthorizationContext function frees an Authz context obtained by a previous call to the RpcGetAuthorizationContextForClient function.
+helpviewer_keywords: ["RpcFreeAuthorizationContext","RpcFreeAuthorizationContext function [RPC]","_rpc_rpcfreeauthorizationcontext","rpc.rpcfreeauthorizationcontext","rpcasync/RpcFreeAuthorizationContext"]
 old-location: rpc\rpcfreeauthorizationcontext.htm
 tech.root: Rpc
 ms.assetid: ad6117e1-3244-42dd-b513-d5b2c28e8e10

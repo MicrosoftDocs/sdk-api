@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.CheckMemory
 title: IAMDevMemoryAllocator::CheckMemory (strmif.h)
-description: Note  The IAMDevMemoryAllocator interface is deprecated. Tests whether the specific instance (device) of the allocator allocated a memory pointer.helpviewer_keywords: ["CheckMemory","CheckMemory method [DirectShow]","CheckMemory method [DirectShow]","IAMDevMemoryAllocator interface","IAMDevMemoryAllocator interface [DirectShow]","CheckMemory method","IAMDevMemoryAllocator.CheckMemory","IAMDevMemoryAllocator::CheckMemory","IAMDevMemoryAllocatorCheckMemory","dshow.iamdevmemoryallocator_checkmemory","strmif/IAMDevMemoryAllocator::CheckMemory"]
+description: Note  The IAMDevMemoryAllocator interface is deprecated. Tests whether the specific instance (device) of the allocator allocated a memory pointer.
+helpviewer_keywords: ["CheckMemory","CheckMemory method [DirectShow]","CheckMemory method [DirectShow]","IAMDevMemoryAllocator interface","IAMDevMemoryAllocator interface [DirectShow]","CheckMemory method","IAMDevMemoryAllocator.CheckMemory","IAMDevMemoryAllocator::CheckMemory","IAMDevMemoryAllocatorCheckMemory","dshow.iamdevmemoryallocator_checkmemory","strmif/IAMDevMemoryAllocator::CheckMemory"]
 old-location: dshow\iamdevmemoryallocator_checkmemory.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d51be809-4a97-4098-9ef3-8ed6603f26c0
 ms.date: 12/05/2018
 ms.keywords: CheckMemory, CheckMemory method [DirectShow], CheckMemory method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],CheckMemory method, IAMDevMemoryAllocator.CheckMemory, IAMDevMemoryAllocator::CheckMemory, IAMDevMemoryAllocatorCheckMemory, dshow.iamdevmemoryallocator_checkmemory, strmif/IAMDevMemoryAllocator::CheckMemory

@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Url
 title: ITDirectoryObjectConference::get_Url (rend.h)
-description: The get_Url method gets a URL.helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Url method","ITDirectoryObjectConference.get_Url","ITDirectoryObjectConference::get_Url","_tapi3_itdirectoryobjectconference_get_url","get_Url","get_Url method [TAPI 2.2]","get_Url method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Url","tapi3.itdirectoryobjectconference_get_url"]
+description: The get_Url method gets a URL.
+helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Url method","ITDirectoryObjectConference.get_Url","ITDirectoryObjectConference::get_Url","_tapi3_itdirectoryobjectconference_get_url","get_Url","get_Url method [TAPI 2.2]","get_Url method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Url","tapi3.itdirectoryobjectconference_get_url"]
 old-location: tapi3\itdirectoryobjectconference_get_url.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a3ea4bfc-dcb6-46a1-83da-2d897487c2c1
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Url method, ITDirectoryObjectConference.get_Url, ITDirectoryObjectConference::get_Url, _tapi3_itdirectoryobjectconference_get_url, get_Url, get_Url method [TAPI 2.2], get_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Url, tapi3.itdirectoryobjectconference_get_url

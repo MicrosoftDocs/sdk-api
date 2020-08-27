@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
 title: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK (webservices.h)
-description: Handles the WsCreateChannelForListener call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK","WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback","WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK","wsw.ws_create_channel_for_listener_callback"]
+description: Handles the WsCreateChannelForListener call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK","WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback","WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK","wsw.ws_create_channel_for_listener_callback"]
 old-location: wsw\ws_create_channel_for_listener_callback.htm
 tech.root: wsw
 ms.assetid: e5644452-8f58-45de-8dc2-878bbb05fcf3
@@ -103,7 +104,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - channelInstance
+### -param channelInstance
 
 A pointer to an structure allocated by the callback
                     that contains the data specific to this channel instance.  This pointer

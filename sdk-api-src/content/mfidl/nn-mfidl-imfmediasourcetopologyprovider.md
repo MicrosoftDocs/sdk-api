@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFMediaSourceTopologyProvider
 title: IMFMediaSourceTopologyProvider (mfidl.h)
-description: Enables an application to get a topology from the sequencer source.helpviewer_keywords: ["7c08fb54-6a78-4b6d-aae7-4b3a823eb880","IMFMediaSourceTopologyProvider","IMFMediaSourceTopologyProvider interface [Media Foundation]","IMFMediaSourceTopologyProvider interface [Media Foundation]","described","mf.imfmediasourcetopologyprovider","mfidl/IMFMediaSourceTopologyProvider"]
+description: Enables an application to get a topology from the sequencer source.
+helpviewer_keywords: ["7c08fb54-6a78-4b6d-aae7-4b3a823eb880","IMFMediaSourceTopologyProvider","IMFMediaSourceTopologyProvider interface [Media Foundation]","IMFMediaSourceTopologyProvider interface [Media Foundation]","described","mf.imfmediasourcetopologyprovider","mfidl/IMFMediaSourceTopologyProvider"]
 old-location: mf\imfmediasourcetopologyprovider.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880
 ms.date: 12/05/2018
 ms.keywords: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], IMFMediaSourceTopologyProvider interface [Media Foundation],described, mf.imfmediasourcetopologyprovider, mfidl/IMFMediaSourceTopologyProvider

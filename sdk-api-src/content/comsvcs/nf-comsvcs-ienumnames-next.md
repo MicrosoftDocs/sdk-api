@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IEnumNames.Next
 title: IEnumNames::Next (comsvcs.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumNames interface [COM+]","Next method","IEnumNames.Next","IEnumNames::Next","Next","Next method [COM+]","Next method [COM+]","IEnumNames interface","_cos_IEnumNames_Next","comsvcs/IEnumNames::Next","cos.ienumnames_next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumNames interface [COM+]","Next method","IEnumNames.Next","IEnumNames::Next","Next","Next method [COM+]","Next method [COM+]","IEnumNames interface","_cos_IEnumNames_Next","comsvcs/IEnumNames::Next","cos.ienumnames_next"]
 old-location: cos\ienumnames_next.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: fa20453f-f170-442d-a927-6872ca75dbed
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Next method, IEnumNames.Next, IEnumNames::Next, Next, Next method [COM+], Next method [COM+],IEnumNames interface, _cos_IEnumNames_Next, comsvcs/IEnumNames::Next, cos.ienumnames_next

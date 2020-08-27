@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorMergeXY
 title: XMVectorMergeXY function (directxmath.h)
-description: Creates a new vector by combining the x and y-components of two vectors.helpviewer_keywords: ["Use DirectX..XMVectorMergeXY","XMVectorMergeXY","XMVectorMergeXY method [DirectX Math Support APIs]","dxmath.xmvectormergexy"]
+description: Creates a new vector by combining the x and y-components of two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorMergeXY","XMVectorMergeXY","XMVectorMergeXY method [DirectX Math Support APIs]","dxmath.xmvectormergexy"]
 old-location: dxmath\xmvectormergexy.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorMergeXY(XMVECTOR,XMVECTOR)

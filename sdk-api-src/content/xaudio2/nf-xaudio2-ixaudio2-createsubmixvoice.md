@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateSubmixVoice
 title: IXAudio2::CreateSubmixVoice (xaudio2.h)
-description: Creates and configures a submix voice.helpviewer_keywords: ["CreateSubmixVoice","CreateSubmixVoice method [XAudio2 Audio Mixing APIs]","CreateSubmixVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateSubmixVoice method","IXAudio2.CreateSubmixVoice","IXAudio2::CreateSubmixVoice","xaudio2.ixaudio2_interface_createsubmixvoice","xaudio2/IXAudio2::CreateSubmixVoice"]
+description: Creates and configures a submix voice.
+helpviewer_keywords: ["CreateSubmixVoice","CreateSubmixVoice method [XAudio2 Audio Mixing APIs]","CreateSubmixVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateSubmixVoice method","IXAudio2.CreateSubmixVoice","IXAudio2::CreateSubmixVoice","xaudio2.ixaudio2_interface_createsubmixvoice","xaudio2/IXAudio2::CreateSubmixVoice"]
 old-location: xaudio2\ixaudio2_interface_createsubmixvoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSubmixVoice(IXAudio2SubmixVoice@,UINT32,UINT32,UINT32,UINT32,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
@@ -81,7 +82,7 @@ TBD
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags that specify the behavior of the submix voice. It can be 0 or the following:
 
@@ -98,18 +99,18 @@ Flags that specify the behavior of the submix voice. It can be 0 or the followin
  
 
 
-#### - ProcessingStage [in]
+### -param ProcessingStage [in]
 
 An arbitrary number that specifies when this voice is processed with respect to other submix voices, if the XAudio2 engine is running other submix voices. The voice is processed after all other voices that include a smaller <i>ProcessingStage</i> value and before all other voices that include a larger <i>ProcessingStage</i> value. Voices that include the same <i>ProcessingStage</i> value are processed in any order. A submix voice cannot send to another submix voice with a lower or equal <i>ProcessingStage</i> value. This prevents audio being lost due to a submix cycle. 
 
 
 
-#### - pEffectChain [in, optional]
+### -param pEffectChain [in, optional]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the submix voice. 
 
 
-#### - pSendList [in, optional]
+### -param pSendList [in, optional]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the submix voice. If <i>pSendList</i> is NULL, the send list will default to a single output to the first mastering voice created.
 

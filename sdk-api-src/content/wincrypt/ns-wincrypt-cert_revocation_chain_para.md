@@ -4,7 +4,7 @@ title: CERT_REVOCATION_CHAIN_PARA (wincrypt.h)
 description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.
 helpviewer_keywords: ["*PCERT_REVOCATION_CHAIN_PARA","CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT","CERT_REVOCATION_CHAIN_PARA","CERT_REVOCATION_CHAIN_PARA structure [Security]","PCERT_REVOCATION_CHAIN_PARA","PCERT_REVOCATION_CHAIN_PARA structure pointer [Security]","security.cert_revocation_chain_para","wincrypt/CERT_REVOCATION_CHAIN_PARA","wincrypt/PCERT_REVOCATION_CHAIN_PARA"]
 old-location: security\cert_revocation_chain_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9cdcc81a-aef1-4a1e-94f8-7aa461225dae
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_REVOCATION_CHAIN_PARA, CERT_REVOCATION_CHAIN_PARA structure [Security], PCERT_REVOCATION_CHAIN_PARA, PCERT_REVOCATION_CHAIN_PARA structure pointer [Security], security.cert_revocation_chain_para, wincrypt/CERT_REVOCATION_CHAIN_PARA, wincrypt/PCERT_REVOCATION_CHAIN_PARA'

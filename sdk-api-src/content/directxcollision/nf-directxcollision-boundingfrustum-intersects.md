@@ -1,7 +1,9 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects
 title: BoundingFrustum::Intersects
-description: Test the BoundingFrustum for intersection with a BoundingSphere.helpviewer_keywords: ["BoundingFrustum::Intersects"]
+description: Test the BoundingFrustum for intersection with a BoundingSphere.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingFrustum::Intersects"]
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Intersects
 f1_keywords:

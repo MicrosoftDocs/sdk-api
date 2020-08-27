@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndCondition
 title: IUIAutomation::CreateAndCondition (uiautomationclient.h)
-description: Creates a condition that selects elements that match both of two conditions.helpviewer_keywords: ["CreateAndCondition","CreateAndCondition method [Windows Accessibility]","CreateAndCondition method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateAndCondition method","IUIAutomation.CreateAndCondition","IUIAutomation::CreateAndCondition","uiauto.uiauto_IUIAutomation_CreateAndCondition","uiauto_IUIAutomation_CreateAndCondition","uiautomationclient/IUIAutomation::CreateAndCondition","winauto.uiauto_IUIAutomation_CreateAndCondition"]
+description: Creates a condition that selects elements that match both of two conditions.
+helpviewer_keywords: ["CreateAndCondition","CreateAndCondition method [Windows Accessibility]","CreateAndCondition method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateAndCondition method","IUIAutomation.CreateAndCondition","IUIAutomation::CreateAndCondition","uiauto.uiauto_IUIAutomation_CreateAndCondition","uiauto_IUIAutomation_CreateAndCondition","uiautomationclient/IUIAutomation::CreateAndCondition","winauto.uiauto_IUIAutomation_CreateAndCondition"]
 old-location: winauto\uiauto_IUIAutomation_CreateAndCondition.htm
 tech.root: WinAuto
 ms.assetid: 066476b4-586c-477c-82ee-de2f2074d63b

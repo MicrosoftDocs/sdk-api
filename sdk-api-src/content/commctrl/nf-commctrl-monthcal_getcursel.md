@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.MonthCal_GetCurSel
 title: MonthCal_GetCurSel macro (commctrl.h)
-description: Retrieves the currently selected date. You can use this macro or send the MCM_GETCURSEL message explicitly.helpviewer_keywords: ["MonthCal_GetCurSel","MonthCal_GetCurSel macro [Windows Controls]","_win32_MonthCal_GetCurSel","_win32_MonthCal_GetCurSel_cpp","commctrl/MonthCal_GetCurSel","controls.MonthCal_GetCurSel","controls._win32_MonthCal_GetCurSel"]
+description: Retrieves the currently selected date. You can use this macro or send the MCM_GETCURSEL message explicitly.
+helpviewer_keywords: ["MonthCal_GetCurSel","MonthCal_GetCurSel macro [Windows Controls]","_win32_MonthCal_GetCurSel","_win32_MonthCal_GetCurSel_cpp","commctrl/MonthCal_GetCurSel","controls.MonthCal_GetCurSel","controls._win32_MonthCal_GetCurSel"]
 old-location: controls\MonthCal_GetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineSecureCall
 title: lineSecureCall function (tapi.h)
-description: The lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.helpviewer_keywords: ["_tapi2_linesecurecall","lineSecureCall","lineSecureCall function [TAPI 2.2]","tapi/lineSecureCall","tapi2.linesecurecall"]
+description: The lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
+helpviewer_keywords: ["_tapi2_linesecurecall","lineSecureCall","lineSecureCall function [TAPI 2.2]","tapi/lineSecureCall","tapi2.linesecurecall"]
 old-location: tapi2\linesecurecall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b12a5734-0638-4bb0-8f25-ca27d28e528b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesecurecall, lineSecureCall, lineSecureCall function [TAPI 2.2], tapi/lineSecureCall, tapi2.linesecurecall

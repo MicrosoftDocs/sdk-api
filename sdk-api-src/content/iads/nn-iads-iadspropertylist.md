@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsPropertyList
 title: IADsPropertyList (iads.h)
-description: The IADsPropertyList interface is used to modify, read, and update a list of property entries in the property cache of an object.helpviewer_keywords: ["IADsPropertyList","IADsPropertyList interface [ADSI]","IADsPropertyList interface [ADSI]","described","_ds_iadspropertylist","adsi.iadspropertylist","iads/IADsPropertyList"]
+description: The IADsPropertyList interface is used to modify, read, and update a list of property entries in the property cache of an object.
+helpviewer_keywords: ["IADsPropertyList","IADsPropertyList interface [ADSI]","IADsPropertyList interface [ADSI]","described","_ds_iadspropertylist","adsi.iadspropertylist","iads/IADsPropertyList"]
 old-location: adsi\iadspropertylist.htm
 tech.root: adsi
 ms.assetid: 70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2

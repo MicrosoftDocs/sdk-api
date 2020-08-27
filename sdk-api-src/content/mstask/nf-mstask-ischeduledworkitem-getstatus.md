@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetStatus
 title: IScheduledWorkItem::GetStatus (mstask.h)
-description: Retrieves the status of the work item.helpviewer_keywords: ["GetStatus","GetStatus method [Task Scheduler]","GetStatus method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetStatus method","IScheduledWorkItem.GetStatus","IScheduledWorkItem::GetStatus","_msb_ischeduledworkitem_getstatus","mstask/IScheduledWorkItem::GetStatus","taskschd.ischeduledworkitem_getstatus"]
+description: Retrieves the status of the work item.
+helpviewer_keywords: ["GetStatus","GetStatus method [Task Scheduler]","GetStatus method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetStatus method","IScheduledWorkItem.GetStatus","IScheduledWorkItem::GetStatus","_msb_ischeduledworkitem_getstatus","mstask/IScheduledWorkItem::GetStatus","taskschd.ischeduledworkitem_getstatus"]
 old-location: taskschd\ischeduledworkitem_getstatus.htm
 tech.root: taskschd
 ms.assetid: fb0bc52c-ae50-4c14-864d-099f2903adfb

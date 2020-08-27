@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdate.get_LastDeploymentChangeTime
 title: IUpdate::get_LastDeploymentChangeTime (wuapi.h)
-description: Gets the last published date of the update, in Coordinated Universal Time (UTC) date and time, on the server that deploys the update.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","LastDeploymentChangeTime property","IUpdate.LastDeploymentChangeTime","IUpdate.get_LastDeploymentChangeTime","IUpdate::LastDeploymentChangeTime","IUpdate::get_LastDeploymentChangeTime","LastDeploymentChangeTime property [Windows Update Agent]","LastDeploymentChangeTime property [Windows Update Agent]","IUpdate interface","get_LastDeploymentChangeTime","wua.iupdate_lastdeploymentchangetime","wuapi/IUpdate::LastDeploymentChangeTime","wuapi/IUpdate::get_LastDeploymentChangeTime"]
+description: Gets the last published date of the update, in Coordinated Universal Time (UTC) date and time, on the server that deploys the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","LastDeploymentChangeTime property","IUpdate.LastDeploymentChangeTime","IUpdate.get_LastDeploymentChangeTime","IUpdate::LastDeploymentChangeTime","IUpdate::get_LastDeploymentChangeTime","LastDeploymentChangeTime property [Windows Update Agent]","LastDeploymentChangeTime property [Windows Update Agent]","IUpdate interface","get_LastDeploymentChangeTime","wua.iupdate_lastdeploymentchangetime","wuapi/IUpdate::LastDeploymentChangeTime","wuapi/IUpdate::get_LastDeploymentChangeTime"]
 old-location: wua\iupdate_lastdeploymentchangetime.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 5190ed29-5737-4100-b67c-1333bde28102
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],LastDeploymentChangeTime property, IUpdate.LastDeploymentChangeTime, IUpdate.get_LastDeploymentChangeTime, IUpdate::LastDeploymentChangeTime, IUpdate::get_LastDeploymentChangeTime, LastDeploymentChangeTime property [Windows Update Agent], LastDeploymentChangeTime property [Windows Update Agent],IUpdate interface, get_LastDeploymentChangeTime, wua.iupdate_lastdeploymentchangetime, wuapi/IUpdate::LastDeploymentChangeTime, wuapi/IUpdate::get_LastDeploymentChangeTime

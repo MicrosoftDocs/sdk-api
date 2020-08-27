@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.GetForwardType2
 title: ITForwardInformation2::GetForwardType2 (tapi3if.h)
-description: The GetForwardType2 method gets the current forwarding mode, specified by caller address.helpviewer_keywords: ["GetForwardType2","GetForwardType2 method [TAPI 2.2]","GetForwardType2 method [TAPI 2.2]","ITForwardInformation2 interface","ITForwardInformation2 interface [TAPI 2.2]","GetForwardType2 method","ITForwardInformation2.GetForwardType2","ITForwardInformation2::GetForwardType2","_tapi3_itforwardinformation2_getforwardtype2","tapi3.itforwardinformation2_getforwardtype2","tapi3if/ITForwardInformation2::GetForwardType2"]
+description: The GetForwardType2 method gets the current forwarding mode, specified by caller address.
+helpviewer_keywords: ["GetForwardType2","GetForwardType2 method [TAPI 2.2]","GetForwardType2 method [TAPI 2.2]","ITForwardInformation2 interface","ITForwardInformation2 interface [TAPI 2.2]","GetForwardType2 method","ITForwardInformation2.GetForwardType2","ITForwardInformation2::GetForwardType2","_tapi3_itforwardinformation2_getforwardtype2","tapi3.itforwardinformation2_getforwardtype2","tapi3if/ITForwardInformation2::GetForwardType2"]
 old-location: tapi3\itforwardinformation2_getforwardtype2.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c3142217-d3fa-4e0b-ad3b-65a0557ce951
 ms.date: 12/05/2018
 ms.keywords: GetForwardType2, GetForwardType2 method [TAPI 2.2], GetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, ITForwardInformation2 interface [TAPI 2.2],GetForwardType2 method, ITForwardInformation2.GetForwardType2, ITForwardInformation2::GetForwardType2, _tapi3_itforwardinformation2_getforwardtype2, tapi3.itforwardinformation2_getforwardtype2, tapi3if/ITForwardInformation2::GetForwardType2

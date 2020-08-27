@@ -4,7 +4,7 @@ title: FSCTL_FILESYSTEM_GET_STATISTICS
 description: Retrieves the information from various file system performance counters.
 helpviewer_keywords: ["FSCTL_FILESYSTEM_GET_STATISTICS","FSCTL_FILESYSTEM_GET_STATISTICS control","FSCTL_FILESYSTEM_GET_STATISTICS control code [Files]","base.fsctl_filesystem_get_statistics","fs.fsctl_filesystem_get_statistics","winioctl/FSCTL_FILESYSTEM_GET_STATISTICS"]
 old-location: fs\fsctl_filesystem_get_statistics.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d975d32c-1290-4397-8c05-6c515af4c450
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FILESYSTEM_GET_STATISTICS, FSCTL_FILESYSTEM_GET_STATISTICS control, FSCTL_FILESYSTEM_GET_STATISTICS control code [Files], base.fsctl_filesystem_get_statistics, fs.fsctl_filesystem_get_statistics, winioctl/FSCTL_FILESYSTEM_GET_STATISTICS

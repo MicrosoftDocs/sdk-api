@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.CloseAndResetLogFile
 title: CloseAndResetLogFile function (clfsw32.h)
-description: Resets the log file and then shuts the log.helpviewer_keywords: ["CloseAndResetLogFile","CloseAndResetLogFile function [Files]","clfsw32/CloseAndResetLogFile","fs.closeandresetlogfile"]
+description: Resets the log file and then shuts the log.
+helpviewer_keywords: ["CloseAndResetLogFile","CloseAndResetLogFile function [Files]","clfsw32/CloseAndResetLogFile","fs.closeandresetlogfile"]
 old-location: fs\closeandresetlogfile.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 333b2de0-f472-43f7-ae57-5cefa7ab6746
 ms.date: 12/05/2018
 ms.keywords: CloseAndResetLogFile, CloseAndResetLogFile function [Files], clfsw32/CloseAndResetLogFile, fs.closeandresetlogfile

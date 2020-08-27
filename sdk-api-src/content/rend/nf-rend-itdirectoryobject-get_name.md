@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_Name
 title: ITDirectoryObject::get_Name (rend.h)
-description: The get_Name method gets the name of the directory object.helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_Name method","ITDirectoryObject.get_Name","ITDirectoryObject::get_Name","_tapi3_itdirectoryobject_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_Name","tapi3.itdirectoryobject_get_name"]
+description: The get_Name method gets the name of the directory object.
+helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_Name method","ITDirectoryObject.get_Name","ITDirectoryObject::get_Name","_tapi3_itdirectoryobject_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_Name","tapi3.itdirectoryobject_get_name"]
 old-location: tapi3\itdirectoryobject_get_name.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b24c1e69-5ba1-4597-86fb-2233707a1acf
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_Name method, ITDirectoryObject.get_Name, ITDirectoryObject::get_Name, _tapi3_itdirectoryobject_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_Name, tapi3.itdirectoryobject_get_name

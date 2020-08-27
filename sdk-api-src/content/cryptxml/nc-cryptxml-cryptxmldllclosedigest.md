@@ -1,9 +1,10 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCloseDigest
 title: CryptXmlDllCloseDigest (cryptxml.h)
-description: Frees the CRYPT_XML_DIGEST allocated by the CryptXmlDllCreateDigest function.helpviewer_keywords: ["CryptXmlDllCloseDigest","CryptXmlDllCloseDigest callback","CryptXmlDllCloseDigest callback function [Security]","cryptxml/CryptXmlDllCloseDigest","security.cryptxmldllclosedigest"]
+description: Frees the CRYPT_XML_DIGEST allocated by the CryptXmlDllCreateDigest function.
+helpviewer_keywords: ["CryptXmlDllCloseDigest","CryptXmlDllCloseDigest callback","CryptXmlDllCloseDigest callback function [Security]","cryptxml/CryptXmlDllCloseDigest","security.cryptxmldllclosedigest"]
 old-location: security\cryptxmldllclosedigest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 97f720b9-f937-4469-abe9-62bf35ebdd7a
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDllCloseDigest callback function [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest

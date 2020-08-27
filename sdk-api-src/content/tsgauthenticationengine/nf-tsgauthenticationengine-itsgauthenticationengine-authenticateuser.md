@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.AuthenticateUser
 title: ITSGAuthenticationEngine::AuthenticateUser (tsgauthenticationengine.h)
-description: Authenticates a user.helpviewer_keywords: ["AuthenticateUser","AuthenticateUser method [Remote Desktop Services]","AuthenticateUser method [Remote Desktop Services]","ITSGAuthenticationEngine interface","ITSGAuthenticationEngine interface [Remote Desktop Services]","AuthenticateUser method","ITSGAuthenticationEngine.AuthenticateUser","ITSGAuthenticationEngine::AuthenticateUser","termserv.itsgauthenticationengine_authenticateuser","tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser"]
+description: Authenticates a user.
+helpviewer_keywords: ["AuthenticateUser","AuthenticateUser method [Remote Desktop Services]","AuthenticateUser method [Remote Desktop Services]","ITSGAuthenticationEngine interface","ITSGAuthenticationEngine interface [Remote Desktop Services]","AuthenticateUser method","ITSGAuthenticationEngine.AuthenticateUser","ITSGAuthenticationEngine::AuthenticateUser","termserv.itsgauthenticationengine_authenticateuser","tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser"]
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
 tech.root: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
@@ -110,15 +111,7 @@ If this method returns <b>S_OK</b>, RD Gateway waits for the authentication
     <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface. If any 
     other value is returned, RD Gateway immediately denies the  connection request.
 
-
-#### Examples
-
-For an example that uses the 
-     <b>AuthenticateUser</b> method, 
-     see 
-     <a href="https://Code.MSDN.Microsoft.Com/Remote-Desktop-Gateway-517d6273">Remote Desktop Gateway Pluggable Authentication and Authorization Sample</a>.
-
-<div class="code"></div>
+For a sample that uses the <b>AuthenticateUser</b> method, see the [Remote Desktop Gateway Pluggable Authentication and Authorization](https://github.com/microsoftarchive/msdn-code-gallery-community-m-r/tree/master/Remote%20Desktop%20Gateway%20Pluggable%20Authentication%20and%20Authorization%20Sample) sample.
 
 
 

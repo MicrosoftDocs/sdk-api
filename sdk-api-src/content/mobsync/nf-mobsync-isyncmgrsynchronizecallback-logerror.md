@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.LogError
 title: ISyncMgrSynchronizeCallback::LogError (mobsync.h)
-description: Called by a registered application to log information, warning, or an error message into the error tab on the synchronization manager status dialog box.helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","LogError method","ISyncMgrSynchronizeCallback.LogError","ISyncMgrSynchronizeCallback::LogError","LogError","LogError method [Windows Shell]","LogError method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::LogError","shell.syncmgr_isyncmgrsynchronizecallback_logerror","syncmgr.isyncmgrsynchronizecallback_logerror"]
+description: Called by a registered application to log information, warning, or an error message into the error tab on the synchronization manager status dialog box.
+helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","LogError method","ISyncMgrSynchronizeCallback.LogError","ISyncMgrSynchronizeCallback::LogError","LogError","LogError method [Windows Shell]","LogError method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::LogError","shell.syncmgr_isyncmgrsynchronizecallback_logerror","syncmgr.isyncmgrsynchronizecallback_logerror"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_logerror.htm
 tech.root: shell
 ms.assetid: 7c25ef21-9815-41ad-bcc0-b41a62dc0fe5

@@ -4,7 +4,7 @@ title: FSCTL_SHRINK_VOLUME
 description: Signals that the volume is to be prepared to perform the shrink operation, the shrink operation is to be committed, or the shrink operation is to be terminated.
 helpviewer_keywords: ["FSCTL_SHRINK_VOLUME","FSCTL_SHRINK_VOLUME control","FSCTL_SHRINK_VOLUME control code [Files]","fs.fsctl_shrink_volume","winioctl/FSCTL_SHRINK_VOLUME"]
 old-location: fs\fsctl_shrink_volume.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: cf545417-f933-4054-bed4-e6adbf822f9c
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SHRINK_VOLUME, FSCTL_SHRINK_VOLUME control, FSCTL_SHRINK_VOLUME control code [Files], fs.fsctl_shrink_volume, winioctl/FSCTL_SHRINK_VOLUME

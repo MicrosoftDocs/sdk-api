@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ClientApplicationID
 title: IUpdateHistoryEntry::get_ClientApplicationID (wuapi.h)
-description: Gets the identifier of the client application that processed an update.helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateHistoryEntry interface","IUpdateHistoryEntry interface [Windows Update Agent]","ClientApplicationID property","IUpdateHistoryEntry.ClientApplicationID","IUpdateHistoryEntry.get_ClientApplicationID","IUpdateHistoryEntry::ClientApplicationID","IUpdateHistoryEntry::get_ClientApplicationID","get_ClientApplicationID","wua.iupdatehistoryentry_clientapplicationid","wuapi/IUpdateHistoryEntry::ClientApplicationID","wuapi/IUpdateHistoryEntry::get_ClientApplicationID"]
+description: Gets the identifier of the client application that processed an update.
+helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateHistoryEntry interface","IUpdateHistoryEntry interface [Windows Update Agent]","ClientApplicationID property","IUpdateHistoryEntry.ClientApplicationID","IUpdateHistoryEntry.get_ClientApplicationID","IUpdateHistoryEntry::ClientApplicationID","IUpdateHistoryEntry::get_ClientApplicationID","get_ClientApplicationID","wua.iupdatehistoryentry_clientapplicationid","wuapi/IUpdateHistoryEntry::ClientApplicationID","wuapi/IUpdateHistoryEntry::get_ClientApplicationID"]
 old-location: wua\iupdatehistoryentry_clientapplicationid.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7c2a209f-10e8-4158-8201-a062f86b5fdd
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],ClientApplicationID property, IUpdateHistoryEntry.ClientApplicationID, IUpdateHistoryEntry.get_ClientApplicationID, IUpdateHistoryEntry::ClientApplicationID, IUpdateHistoryEntry::get_ClientApplicationID, get_ClientApplicationID, wua.iupdatehistoryentry_clientapplicationid, wuapi/IUpdateHistoryEntry::ClientApplicationID, wuapi/IUpdateHistoryEntry::get_ClientApplicationID

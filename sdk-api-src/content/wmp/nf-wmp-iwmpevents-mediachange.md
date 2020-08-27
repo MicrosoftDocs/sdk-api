@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaChange
 title: IWMPEvents::MediaChange (wmp.h)
-description: The MediaChange event occurs when a media item changes.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaChange method","IWMPEvents.MediaChange","IWMPEvents::MediaChange","IWMPEventsMediaChange","MediaChange","MediaChange method [Windows Media Player]","MediaChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediachange","wmp/IWMPEvents::MediaChange"]
+description: The MediaChange event occurs when a media item changes.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaChange method","IWMPEvents.MediaChange","IWMPEvents::MediaChange","IWMPEventsMediaChange","MediaChange","MediaChange method [Windows Media Player]","MediaChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediachange","wmp/IWMPEvents::MediaChange"]
 old-location: wmp\iwmpevents_iwmpevents__mediachange.htm
 tech.root: WMP
 ms.assetid: 385fb52c-62d2-482d-bc9f-94dbf693a27c

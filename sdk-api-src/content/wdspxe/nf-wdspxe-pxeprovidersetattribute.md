@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeProviderSetAttribute
 title: PxeProviderSetAttribute function (wdspxe.h)
-description: Specifies attributes for the provider.helpviewer_keywords: ["PXE_PROV_ATTR_FILTER","PXE_PROV_ATTR_FILTER_IPV6","PXE_PROV_ATTR_IPV6_CAPABLE","PXE_PROV_FILTER_ALL","PXE_PROV_FILTER_DHCP_ONLY","PXE_PROV_FILTER_PXE_ONLY","PxeProviderSetAttribute","PxeProviderSetAttribute function [Windows Deployment Services]","wds.pxeprovidersetattribute","wdspxe/PxeProviderSetAttribute"]
+description: Specifies attributes for the provider.
+helpviewer_keywords: ["PXE_PROV_ATTR_FILTER","PXE_PROV_ATTR_FILTER_IPV6","PXE_PROV_ATTR_IPV6_CAPABLE","PXE_PROV_FILTER_ALL","PXE_PROV_FILTER_DHCP_ONLY","PXE_PROV_FILTER_PXE_ONLY","PxeProviderSetAttribute","PxeProviderSetAttribute function [Windows Deployment Services]","wds.pxeprovidersetattribute","wdspxe/PxeProviderSetAttribute"]
 old-location: wds\pxeprovidersetattribute.htm
 tech.root: wds
 ms.assetid: 01f7b50b-966b-4ff9-b933-851eaf1f1411

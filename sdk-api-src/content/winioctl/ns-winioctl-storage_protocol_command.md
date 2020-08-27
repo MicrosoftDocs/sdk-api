@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._STORAGE_PROTOCOL_COMMAND
 title: STORAGE_PROTOCOL_COMMAND
-description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).helpviewer_keywords: ["*PSTORAGE_PROTOCOL_COMMAND","PSTORAGE_PROTOCOL_COMMAND","PSTORAGE_PROTOCOL_COMMAND structure pointer [Files]","STORAGE_PROTOCOL_COMMAND","STORAGE_PROTOCOL_COMMAND structure [Files]","fs.storage_protocol_command","winioctl/PSTORAGE_PROTOCOL_COMMAND","winioctl/STORAGE_PROTOCOL_COMMAND"]
+description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
+helpviewer_keywords: ["*PSTORAGE_PROTOCOL_COMMAND","PSTORAGE_PROTOCOL_COMMAND","PSTORAGE_PROTOCOL_COMMAND structure pointer [Files]","STORAGE_PROTOCOL_COMMAND","STORAGE_PROTOCOL_COMMAND structure [Files]","fs.storage_protocol_command","winioctl/PSTORAGE_PROTOCOL_COMMAND","winioctl/STORAGE_PROTOCOL_COMMAND"]
 old-location: fs\storage_protocol_command.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: A2F61F18-A5DE-41D5-95D6-E341009484FF
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Files], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Files], fs.storage_protocol_command, winioctl/PSTORAGE_PROTOCOL_COMMAND, winioctl/STORAGE_PROTOCOL_COMMAND'
@@ -202,14 +203,11 @@ The return data. This is optionally set. Some protocols such as NVMe, may return
 Reserved for future use.
 
 
-### -field Command
-
- 
 
 
 
 
-#### - Command[ANYSIZE_ARRAY]
+### -field Command [ANYSIZE_ARRAY]
 
 The vendor-specific command that is to be passed-through to the device. 
 

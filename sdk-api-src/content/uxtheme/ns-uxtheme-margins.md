@@ -1,7 +1,8 @@
 ---
 UID: NS:uxtheme._MARGINS
 title: MARGINS (uxtheme.h)
-description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.helpviewer_keywords: ["*PMARGINS","MARGINS","MARGINS structure [Windows Controls]","PMARGINS","PMARGINS structure pointer [Windows Controls]","controls.MARGINS","controls.inet_MARGINS","inet_MARGINS","inet_MARGINS_cpp","uxtheme/MARGINS","uxtheme/PMARGINS"]
+description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
+helpviewer_keywords: ["*PMARGINS","MARGINS","MARGINS structure [Windows Controls]","PMARGINS","PMARGINS structure pointer [Windows Controls]","controls.MARGINS","controls.inet_MARGINS","inet_MARGINS","inet_MARGINS_cpp","uxtheme/MARGINS","uxtheme/PMARGINS"]
 old-location: controls\MARGINS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm

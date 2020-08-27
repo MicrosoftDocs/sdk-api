@@ -1,9 +1,10 @@
 ---
 UID: NF:directml.IDMLDevice.CreateOperatorInitializer
 title: IDMLDevice::CreateOperatorInitializer
-description: Creates an object that can be used to initialize compiled operators.helpviewer_keywords: ["CreateOperatorInitializer","CreateOperatorInitializer method","CreateOperatorInitializer method","IDMLDevice interface","IDMLDevice interface","CreateOperatorInitializer method","IDMLDevice.CreateOperatorInitializer","IDMLDevice::CreateOperatorInitializer","direct3d12.idmldevice_createoperatorinitializer","directml/IDMLDevice::CreateOperatorInitializer"]
+description: Creates an object that can be used to initialize compiled operators.
+helpviewer_keywords: ["CreateOperatorInitializer","CreateOperatorInitializer method","CreateOperatorInitializer method","IDMLDevice interface","IDMLDevice interface","CreateOperatorInitializer method","IDMLDevice.CreateOperatorInitializer","IDMLDevice::CreateOperatorInitializer","direct3d12.idmldevice_createoperatorinitializer","directml/IDMLDevice::CreateOperatorInitializer"]
 old-location: direct3d12\idmldevice_createoperatorinitializer.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: B7047026-F176-494E-90A5-2C6085A5D027
 ms.date: 12/5/2018
 ms.keywords: CreateOperatorInitializer, CreateOperatorInitializer method, CreateOperatorInitializer method,IDMLDevice interface, IDMLDevice interface,CreateOperatorInitializer method, IDMLDevice.CreateOperatorInitializer, IDMLDevice::CreateOperatorInitializer, direct3d12.idmldevice_createoperatorinitializer, directml/IDMLDevice::CreateOperatorInitializer

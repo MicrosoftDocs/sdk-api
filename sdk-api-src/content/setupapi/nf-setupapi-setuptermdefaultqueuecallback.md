@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupTermDefaultQueueCallback
 title: SetupTermDefaultQueueCallback function (setupapi.h)
-description: The SetupTermDefaultQueueCallback function is called after a queue has finished committing. It frees resources allocated by previous calls to SetupInitDefaultQueueCallback or SetupInitDefaultQueueCallbackEx.helpviewer_keywords: ["SetupTermDefaultQueueCallback","SetupTermDefaultQueueCallback function [Setup API]","_setupapi_setuptermdefaultqueuecallback","setup.setuptermdefaultqueuecallback","setupapi/SetupTermDefaultQueueCallback"]
+description: The SetupTermDefaultQueueCallback function is called after a queue has finished committing. It frees resources allocated by previous calls to SetupInitDefaultQueueCallback or SetupInitDefaultQueueCallbackEx.
+helpviewer_keywords: ["SetupTermDefaultQueueCallback","SetupTermDefaultQueueCallback function [Setup API]","_setupapi_setuptermdefaultqueuecallback","setup.setuptermdefaultqueuecallback","setupapi/SetupTermDefaultQueueCallback"]
 old-location: setup\setuptermdefaultqueuecallback.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: de99ee40-9fbb-42e2-b070-d1c25b238135
 ms.date: 12/05/2018
 ms.keywords: SetupTermDefaultQueueCallback, SetupTermDefaultQueueCallback function [Setup API], _setupapi_setuptermdefaultqueuecallback, setup.setuptermdefaultqueuecallback, setupapi/SetupTermDefaultQueueCallback

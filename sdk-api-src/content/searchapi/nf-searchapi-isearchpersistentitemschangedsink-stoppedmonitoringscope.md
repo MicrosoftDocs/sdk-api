@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StoppedMonitoringScope
 title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope (searchapi.h)
-description: Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.helpviewer_keywords: ["ISearchPersistentItemsChangedSink interface [search]","StoppedMonitoringScope method","ISearchPersistentItemsChangedSink.StoppedMonitoringScope","ISearchPersistentItemsChangedSink::StoppedMonitoringScope","StoppedMonitoringScope","StoppedMonitoringScope method [search]","StoppedMonitoringScope method [search]","ISearchPersistentItemsChangedSink interface","_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope","search._search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope","searchapi/ISearchPersistentItemsChangedSink::StoppedMonitoringScope"]
+description: Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.
+helpviewer_keywords: ["ISearchPersistentItemsChangedSink interface [search]","StoppedMonitoringScope method","ISearchPersistentItemsChangedSink.StoppedMonitoringScope","ISearchPersistentItemsChangedSink::StoppedMonitoringScope","StoppedMonitoringScope","StoppedMonitoringScope method [search]","StoppedMonitoringScope method [search]","ISearchPersistentItemsChangedSink interface","_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope","search._search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope","searchapi/ISearchPersistentItemsChangedSink::StoppedMonitoringScope"]
 old-location: search\_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\stoppedmonitoringscope.htm

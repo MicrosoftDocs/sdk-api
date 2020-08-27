@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MessageBoxW
 title: MessageBoxW function (winuser.h)
-description: Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked.helpviewer_keywords: ["MB_ABORTRETRYIGNORE","MB_APPLMODAL","MB_CANCELTRYCONTINUE","MB_DEFAULT_DESKTOP_ONLY","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_DEFBUTTON4","MB_HELP","MB_ICONASTERISK","MB_ICONERROR","MB_ICONEXCLAMATION","MB_ICONHAND","MB_ICONINFORMATION","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONWARNING","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_RIGHT","MB_RTLREADING","MB_SERVICE_NOTIFICATION","MB_SETFOREGROUND","MB_SYSTEMMODAL","MB_TASKMODAL","MB_TOPMOST","MB_YESNO","MB_YESNOCANCEL","MessageBox","MessageBox function [Dialog Boxes]","MessageBoxA","MessageBoxW","_win32_MessageBox","_win32_messagebox_cpp","dlgbox.messagebox","winui._win32_messagebox","winuser/MessageBox","winuser/MessageBoxA","winuser/MessageBoxW"]
+description: Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked.
+helpviewer_keywords: ["MB_ABORTRETRYIGNORE","MB_APPLMODAL","MB_CANCELTRYCONTINUE","MB_DEFAULT_DESKTOP_ONLY","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_DEFBUTTON4","MB_HELP","MB_ICONASTERISK","MB_ICONERROR","MB_ICONEXCLAMATION","MB_ICONHAND","MB_ICONINFORMATION","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONWARNING","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_RIGHT","MB_RTLREADING","MB_SERVICE_NOTIFICATION","MB_SETFOREGROUND","MB_SYSTEMMODAL","MB_TASKMODAL","MB_TOPMOST","MB_YESNO","MB_YESNOCANCEL","MessageBox","MessageBox function [Dialog Boxes]","MessageBoxA","MessageBoxW","_win32_MessageBox","_win32_messagebox_cpp","dlgbox.messagebox","winui._win32_messagebox","winuser/MessageBox","winuser/MessageBoxA","winuser/MessageBoxW"]
 old-location: dlgbox\messagebox.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messagebox.htm
@@ -500,7 +501,7 @@ For information on security considerations in regard to using this flag, see <a 
 
 Type: <b>int</b>
 
-If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC has no effect.
+If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC will no effect - unless an MB_OK button is present. If an MB_OK button is displayed and the user presses ESC, the return value will be <b>IDOK</b>.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -697,12 +698,16 @@ int DisplayResourceNAMessageBox()
 
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="./images/MessageBox_02.png"/>
+<img alt="Message box" src="./images/messagebox_02.png"/>
 
 For another message box example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Displaying a Message Box</a>.
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines MessageBox as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

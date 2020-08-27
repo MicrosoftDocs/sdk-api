@@ -1,9 +1,10 @@
 ---
 UID: NS:sspi._SecPkgCredentials_Cert
 title: SecPkgCredentials_Cert (sspi.h)
-description: Specifies the certificate credentials. The QueryCredentialsAttributes function uses this structure.helpviewer_keywords: ["*PSecPkgCredentials_Cert","PSecPkgCredentials_Cert","PSecPkgCredentials_Cert structure pointer [Security]","SecPkgCredentials_Cert","SecPkgCredentials_Cert structure [Security]","security.secpkgcredentials_cert","sspi/PSecPkgCredentials_Cert","sspi/SecPkgCredentials_Cert"]
+description: Specifies the certificate credentials. The QueryCredentialsAttributes function uses this structure.
+helpviewer_keywords: ["*PSecPkgCredentials_Cert","PSecPkgCredentials_Cert","PSecPkgCredentials_Cert structure pointer [Security]","SecPkgCredentials_Cert","SecPkgCredentials_Cert structure [Security]","security.secpkgcredentials_cert","sspi/PSecPkgCredentials_Cert","sspi/SecPkgCredentials_Cert"]
 old-location: security\secpkgcredentials_cert.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 9EEE6E98-D45C-4929-9C9C-F344972D186F
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgCredentials_Cert, PSecPkgCredentials_Cert, PSecPkgCredentials_Cert structure pointer [Security], SecPkgCredentials_Cert, SecPkgCredentials_Cert structure [Security], security.secpkgcredentials_cert, sspi/PSecPkgCredentials_Cert, sspi/SecPkgCredentials_Cert'

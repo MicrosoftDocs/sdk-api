@@ -1,9 +1,10 @@
 ---
 UID: NS:avifmt.__unnamed_struct_3
 title: AVIPALCHANGE (avifmt.h)
-description: The AVIPALCHANGE structure defines a palette change in an AVI file.helpviewer_keywords: ["AVIPALCHANGE","AVIPALCHANGE structure [DirectShow]","AVIPALCHANGEStructure","_AVIPALchange","avifmt/AVIPALCHANGE","dshow.avipalchange"]
+description: The AVIPALCHANGE structure defines a palette change in an AVI file.
+helpviewer_keywords: ["AVIPALCHANGE","AVIPALCHANGE structure [DirectShow]","AVIPALCHANGEStructure","_AVIPALchange","avifmt/AVIPALCHANGE","dshow.avipalchange"]
 old-location: dshow\avipalchange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f8f38fe0-f506-4cf8-9a6d-381cf46b51a4
 ms.date: 12/05/2018
 ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStructure, _AVIPALchange, avifmt/AVIPALCHANGE, dshow.avipalchange

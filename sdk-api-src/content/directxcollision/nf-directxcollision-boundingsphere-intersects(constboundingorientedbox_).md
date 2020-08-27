@@ -1,7 +1,8 @@
 ---
-UID: NF:directxcollision.BoundingSphere.Intersects(const BoundingOrientedBox &)
+UID: NF:directxcollision.BoundingSphere.Intersects(constBoundingOrientedBox&)
 title: BoundingSphere::Intersects(const BoundingOrientedBox &)
-description: Test the BoundingSphere for intersection with a BoundingOrientedBox.helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Intersects method","BoundingSphere.Intersects","BoundingSphere.Intersects(const BoundingOrientedBox &)","BoundingSphere.Intersects(const BoundingOrientedBox&)","BoundingSphere::Intersects","BoundingSphere::Intersects(const BoundingOrientedBox &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_intersects_5"]
+description: Test the BoundingSphere for intersection with a BoundingOrientedBox.
+helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Intersects method","BoundingSphere.Intersects","BoundingSphere.Intersects(const BoundingOrientedBox &)","BoundingSphere.Intersects(const BoundingOrientedBox&)","BoundingSphere::Intersects","BoundingSphere::Intersects(const BoundingOrientedBox &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_intersects_5"]
 old-location: dxmath\boundingsphere_intersects_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Intersects(BoundingOrientedBox)

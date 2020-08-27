@@ -1,9 +1,10 @@
 ---
 UID: NE:mfobjects._MF2DBuffer_LockFlags
 title: MF2DBuffer_LockFlags (mfobjects.h)
-description: Contains flags for the IMF2DBuffer2::Lock2DSize method.helpviewer_keywords: ["MF2DBuffer_LockFlags","MF2DBuffer_LockFlags enumeration [Media Foundation]","MF2DBuffer_LockFlags_ForceDWORD","MF2DBuffer_LockFlags_LockTypeMask","MF2DBuffer_LockFlags_Read","MF2DBuffer_LockFlags_ReadWrite","MF2DBuffer_LockFlags_Write","mf.mf2dbuffer_lockflags","mfobjects/MF2DBuffer_LockFlags","mfobjects/MF2DBuffer_LockFlags_ForceDWORD","mfobjects/MF2DBuffer_LockFlags_LockTypeMask","mfobjects/MF2DBuffer_LockFlags_Read","mfobjects/MF2DBuffer_LockFlags_ReadWrite","mfobjects/MF2DBuffer_LockFlags_Write"]
+description: Contains flags for the IMF2DBuffer2::Lock2DSize method.
+helpviewer_keywords: ["MF2DBuffer_LockFlags","MF2DBuffer_LockFlags enumeration [Media Foundation]","MF2DBuffer_LockFlags_ForceDWORD","MF2DBuffer_LockFlags_LockTypeMask","MF2DBuffer_LockFlags_Read","MF2DBuffer_LockFlags_ReadWrite","MF2DBuffer_LockFlags_Write","mf.mf2dbuffer_lockflags","mfobjects/MF2DBuffer_LockFlags","mfobjects/MF2DBuffer_LockFlags_ForceDWORD","mfobjects/MF2DBuffer_LockFlags_LockTypeMask","mfobjects/MF2DBuffer_LockFlags_Read","mfobjects/MF2DBuffer_LockFlags_ReadWrite","mfobjects/MF2DBuffer_LockFlags_Write"]
 old-location: mf\mf2dbuffer_lockflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 298E3FBE-1902-4AA1-9CC8-5B8D65A48ECF
 ms.date: 12/05/2018
 ms.keywords: MF2DBuffer_LockFlags, MF2DBuffer_LockFlags enumeration [Media Foundation], MF2DBuffer_LockFlags_ForceDWORD, MF2DBuffer_LockFlags_LockTypeMask, MF2DBuffer_LockFlags_Read, MF2DBuffer_LockFlags_ReadWrite, MF2DBuffer_LockFlags_Write, mf.mf2dbuffer_lockflags, mfobjects/MF2DBuffer_LockFlags, mfobjects/MF2DBuffer_LockFlags_ForceDWORD, mfobjects/MF2DBuffer_LockFlags_LockTypeMask, mfobjects/MF2DBuffer_LockFlags_Read, mfobjects/MF2DBuffer_LockFlags_ReadWrite, mfobjects/MF2DBuffer_LockFlags_Write

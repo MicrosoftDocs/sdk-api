@@ -4,7 +4,7 @@ title: IMFSensorStream (mfidl.h)
 description: .
 helpviewer_keywords: ["IMFSensorStream","IMFSensorStream interface [Media Foundation]","IMFSensorStream interface [Media Foundation]","described","mf.imfsensorstream","mfidl/IMFSensorStream"]
 old-location: mf\imfsensorstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84
 ms.date: 12/05/2018
 ms.keywords: IMFSensorStream, IMFSensorStream interface [Media Foundation], IMFSensorStream interface [Media Foundation],described, mf.imfsensorstream, mfidl/IMFSensorStream

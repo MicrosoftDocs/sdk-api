@@ -1,9 +1,10 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Type
 title: IMsmConfigurableItem::get_Type (mergemod.h)
-description: The get_Type method retrieves the Type property of the ConfigurableItem object.helpviewer_keywords: ["IMsmConfigurableItem interface","get_Type method","IMsmConfigurableItem.get_Type","IMsmConfigurableItem::get_Type","_msi_get_type_function_configurableitem_object_","get_Type","get_Type method","get_Type method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Type","setup.imsmconfigurableitem_get_type"]
+description: The get_Type method retrieves the Type property of the ConfigurableItem object.
+helpviewer_keywords: ["IMsmConfigurableItem interface","get_Type method","IMsmConfigurableItem.get_Type","IMsmConfigurableItem::get_Type","_msi_get_type_function_configurableitem_object_","get_Type","get_Type method","get_Type method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Type","setup.imsmconfigurableitem_get_type"]
 old-location: setup\imsmconfigurableitem_get_type.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Type method, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, _msi_get_type_function_configurableitem_object_, get_Type, get_Type method, get_Type method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Type, setup.imsmconfigurableitem_get_type

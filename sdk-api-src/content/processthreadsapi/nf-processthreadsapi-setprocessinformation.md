@@ -4,7 +4,7 @@ title: SetProcessInformation function (processthreadsapi.h)
 description: Sets information for the specified process.
 helpviewer_keywords: ["SetProcessInformation","SetProcessInformation function","base.setprocessinformation","processthreadsapi/SetProcessInformation"]
 old-location: base\setprocessinformation.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
@@ -102,7 +102,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessPowerThrottling</b>, this parameter must be 
-       <code>sizeof(Process_POWER_THROTTLING_STATE)</code>.
+       <code>sizeof(PROCESS_POWER_THROTTLING_STATE)</code>.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must be 
@@ -131,13 +131,14 @@ To help improve system performance, applications should use the
     background operations or access files and data that are not expected to be accessed again soon. For example, a 
     file indexing application might set a lower default priority for the process that performs the indexing task.
 
-Memory priority helps to determine how long pages remain in the 
+**Memory priority** helps to determine how long pages remain in the 
     <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A process's 
     memory priority determines the default priority of the physical pages that are added to the process working set by 
     the threads of that process. When the memory manager trims the working set, it trims lower priority pages before 
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
     be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
+**ProcessPowerThrottling** enables throttling policies on a process, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a proces opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
 
 #### Examples
 
@@ -202,7 +203,8 @@ SetProcessInformation(GetCurrentProcess(),
                       sizeof(PowerThrottling));
 
 //
-// Let system manage all power throttling. ControlMask is set to 0 as we don’t want // to control any mechanisms.
+// Let system manage all power throttling. ControlMask is set to 0 as we don’t want 
+// to control any mechanisms.
 //
 
 PowerThrottling.ControlMask = 0;

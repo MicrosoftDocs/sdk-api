@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IRelationship.Destination
 title: IRelationship::Destination (structuredquery.h)
-description: Retrieves the destination IEntity object of the relationship. The destination of a relationshipo corresponds to the type of a property.helpviewer_keywords: ["Destination","Destination method [search]","Destination method [search]","IRelationship interface","IRelationship interface [search]","Destination method","IRelationship.Destination","IRelationship::Destination","_search_IRelationship_Destination","search._search_IRelationship_Destination","structuredquery/IRelationship::Destination"]
+description: Retrieves the destination IEntity object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+helpviewer_keywords: ["Destination","Destination method [search]","Destination method [search]","IRelationship interface","IRelationship interface [search]","Destination method","IRelationship.Destination","IRelationship::Destination","_search_IRelationship_Destination","search._search_IRelationship_Destination","structuredquery/IRelationship::Destination"]
 old-location: search\_search_IRelationship_Destination.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\destination.htm

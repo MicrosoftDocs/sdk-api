@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.GetTempFileNameW
 title: GetTempFileNameW function (fileapi.h)
-description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
+description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
+helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
 old-location: fs\gettempfilename.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
 ms.date: 12/05/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
@@ -260,6 +261,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetTempFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

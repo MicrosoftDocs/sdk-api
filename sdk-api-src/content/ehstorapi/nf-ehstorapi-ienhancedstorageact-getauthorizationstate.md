@@ -1,7 +1,8 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetAuthorizationState
 title: IEnhancedStorageACT::GetAuthorizationState (ehstorapi.h)
-description: Returns the current authorization state of the ACT.helpviewer_keywords: ["GetAuthorizationState","GetAuthorizationState method [Enhanced Storage]","GetAuthorizationState method [Enhanced Storage]","IEnhancedStorageACT interface","IEnhancedStorageACT interface [Enhanced Storage]","GetAuthorizationState method","IEnhancedStorageACT.GetAuthorizationState","IEnhancedStorageACT::GetAuthorizationState","ehstorapi/IEnhancedStorageACT::GetAuthorizationState","enstor.ienhancedstorageact_getauthorizationstate"]
+description: Returns the current authorization state of the ACT.
+helpviewer_keywords: ["GetAuthorizationState","GetAuthorizationState method [Enhanced Storage]","GetAuthorizationState method [Enhanced Storage]","IEnhancedStorageACT interface","IEnhancedStorageACT interface [Enhanced Storage]","GetAuthorizationState method","IEnhancedStorageACT.GetAuthorizationState","IEnhancedStorageACT::GetAuthorizationState","ehstorapi/IEnhancedStorageACT::GetAuthorizationState","enstor.ienhancedstorageact_getauthorizationstate"]
 old-location: enstor\ienhancedstorageact_getauthorizationstate.htm
 tech.root: enstor
 ms.assetid: 79615cae-cdd1-43bc-9954-108084ea692b

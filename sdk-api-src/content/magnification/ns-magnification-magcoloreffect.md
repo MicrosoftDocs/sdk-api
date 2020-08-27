@@ -1,7 +1,8 @@
 ---
 UID: NS:magnification.tagMAGCOLOREFFECT
 title: MAGCOLOREFFECT (magnification.h)
-description: Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.helpviewer_keywords: ["*PMAGCOLOREFFECT","MAGCOLOREFFECT","MAGCOLOREFFECT structure [Magnification API]","PMAGCOLOREFFECT","PMAGCOLOREFFECT structure pointer [Magnification API]","magapi.magapi_magcoloreffect","magapi_magcoloreffect","magnification/MAGCOLOREFFECT","magnification/PMAGCOLOREFFECT"]
+description: Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.
+helpviewer_keywords: ["*PMAGCOLOREFFECT","MAGCOLOREFFECT","MAGCOLOREFFECT structure [Magnification API]","PMAGCOLOREFFECT","PMAGCOLOREFFECT structure pointer [Magnification API]","magapi.magapi_magcoloreffect","magapi_magcoloreffect","magnification/MAGCOLOREFFECT","magnification/PMAGCOLOREFFECT"]
 old-location: magapi\magapi_magcoloreffect.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
@@ -57,14 +58,10 @@ Describes a color transformation matrix that a magnifier control uses to apply a
 
 
 
-### -field transform
-
- 
 
 
 
-
-#### - transform[5][5]
+### -field transform [5] [5]
 
 Type: <b>float</b>
 

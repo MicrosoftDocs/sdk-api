@@ -1,9 +1,10 @@
 ---
 UID: NS:ntmsapi._NTMS_CHANGERINFORMATIONW
 title: NTMS_CHANGERINFORMATIONW (ntmsapi.h)
-description: The NTMS_CHANGERINFORMATION structure defines properties specific to a robotic changer object.helpviewer_keywords: ["NTMS_CHANGERINFORMATION","NTMS_CHANGERINFORMATION structure [Files]","NTMS_CHANGERINFORMATIONA","NTMS_CHANGERINFORMATIONW","_NTMS_CHANGERINFORMATIONA","_NTMS_CHANGERINFORMATIONW","_zaw_ntms_changerinformation","base.ntms_changerinformation","fs.ntms_changerinformation","ntmsapi/NTMS_CHANGERINFORMATION"]
+description: The NTMS_CHANGERINFORMATION structure defines properties specific to a robotic changer object.
+helpviewer_keywords: ["NTMS_CHANGERINFORMATION","NTMS_CHANGERINFORMATION structure [Files]","NTMS_CHANGERINFORMATIONA","NTMS_CHANGERINFORMATIONW","_NTMS_CHANGERINFORMATIONA","_NTMS_CHANGERINFORMATIONW","_zaw_ntms_changerinformation","base.ntms_changerinformation","fs.ntms_changerinformation","ntmsapi/NTMS_CHANGERINFORMATION"]
 old-location: fs\ntms_changerinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 2aa9fccf-dea3-4fa3-9fbf-6d83770c3893
 ms.date: 12/05/2018
 ms.keywords: NTMS_CHANGERINFORMATION, NTMS_CHANGERINFORMATION structure [Files], NTMS_CHANGERINFORMATIONA, NTMS_CHANGERINFORMATIONW, _NTMS_CHANGERINFORMATIONA, _NTMS_CHANGERINFORMATIONW, _zaw_ntms_changerinformation, base.ntms_changerinformation, fs.ntms_changerinformation, ntmsapi/NTMS_CHANGERINFORMATION
@@ -122,6 +123,10 @@ The
 
 
 
+
+
+> [!NOTE]
+> The ntmsapi.h header defines NTMS_CHANGERINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

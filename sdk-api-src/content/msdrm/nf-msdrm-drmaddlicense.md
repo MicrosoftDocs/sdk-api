@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMAddLicense
 title: DRMAddLicense function (msdrm.h)
-description: Adds an end-user license to the temporary or permanent license store.helpviewer_keywords: ["DRMAddLicense","DRMAddLicense function [Active Directory Rights Management Services SDK 1.0]","DRM_ADD_LICENSE_NOPERSIST","DRM_ADD_LICENSE_PERSIST","msdrm/DRMAddLicense","rm.drmaddlicense"]
+description: Adds an end-user license to the temporary or permanent license store.
+helpviewer_keywords: ["DRMAddLicense","DRMAddLicense function [Active Directory Rights Management Services SDK 1.0]","DRM_ADD_LICENSE_NOPERSIST","DRM_ADD_LICENSE_PERSIST","msdrm/DRMAddLicense","rm.drmaddlicense"]
 old-location: rm\drmaddlicense.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: d91a017c-7dc2-42d7-a8d3-9e0c83d05ea2
 ms.date: 12/05/2018
 ms.keywords: DRMAddLicense, DRMAddLicense function [Active Directory Rights Management Services SDK 1.0], DRM_ADD_LICENSE_NOPERSIST, DRM_ADD_LICENSE_PERSIST, msdrm/DRMAddLicense, rm.drmaddlicense

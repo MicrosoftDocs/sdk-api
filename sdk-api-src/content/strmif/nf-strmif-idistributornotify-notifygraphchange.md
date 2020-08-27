@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDistributorNotify.NotifyGraphChange
 title: IDistributorNotify::NotifyGraphChange (strmif.h)
-description: The NotifyGraphChange method is called when the set of filters in the filter graph changes or any pin connections change.helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","NotifyGraphChange method","IDistributorNotify.NotifyGraphChange","IDistributorNotify::NotifyGraphChange","IDistributorNotifyNotifyGraphChange","NotifyGraphChange","NotifyGraphChange method [DirectShow]","NotifyGraphChange method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_notifygraphchange","strmif/IDistributorNotify::NotifyGraphChange"]
+description: The NotifyGraphChange method is called when the set of filters in the filter graph changes or any pin connections change.
+helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","NotifyGraphChange method","IDistributorNotify.NotifyGraphChange","IDistributorNotify::NotifyGraphChange","IDistributorNotifyNotifyGraphChange","NotifyGraphChange","NotifyGraphChange method [DirectShow]","NotifyGraphChange method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_notifygraphchange","strmif/IDistributorNotify::NotifyGraphChange"]
 old-location: dshow\idistributornotify_notifygraphchange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5f77f674-643a-450a-9589-16866d6cf680
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],NotifyGraphChange method, IDistributorNotify.NotifyGraphChange, IDistributorNotify::NotifyGraphChange, IDistributorNotifyNotifyGraphChange, NotifyGraphChange, NotifyGraphChange method [DirectShow], NotifyGraphChange method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_notifygraphchange, strmif/IDistributorNotify::NotifyGraphChange

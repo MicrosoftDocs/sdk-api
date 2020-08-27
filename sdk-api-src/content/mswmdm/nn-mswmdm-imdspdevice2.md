@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IMDSPDevice2
 title: IMDSPDevice2 (mswmdm.h)
-description: The IMDSPDevice2 interface extends IMDSPDevice by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.helpviewer_keywords: ["IMDSPDevice2","IMDSPDevice2 interface [windows Media Device Manager]","IMDSPDevice2 interface [windows Media Device Manager]","described","IMDSPDevice2Interface","mswmdm/IMDSPDevice2","wmdm.imdspdevice2"]
+description: The IMDSPDevice2 interface extends IMDSPDevice by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
+helpviewer_keywords: ["IMDSPDevice2","IMDSPDevice2 interface [windows Media Device Manager]","IMDSPDevice2 interface [windows Media Device Manager]","described","IMDSPDevice2Interface","mswmdm/IMDSPDevice2","wmdm.imdspdevice2"]
 old-location: wmdm\imdspdevice2.htm
 tech.root: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e

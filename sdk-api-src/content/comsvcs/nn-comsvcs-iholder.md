@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IHolder
 title: IHolder (comsvcs.h)
-description: Allocates or frees resources for an installed Resource Dispenser.helpviewer_keywords: ["IHolder","IHolder interface [COM+]","IHolder interface [COM+]","described","_dtc_IHolder_Interface","comsvcs/IHolder","cos.iholder"]
+description: Allocates or frees resources for an installed Resource Dispenser.
+helpviewer_keywords: ["IHolder","IHolder interface [COM+]","IHolder interface [COM+]","described","_dtc_IHolder_Interface","comsvcs/IHolder","cos.iholder"]
 old-location: cos\iholder.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
 ms.date: 12/05/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder

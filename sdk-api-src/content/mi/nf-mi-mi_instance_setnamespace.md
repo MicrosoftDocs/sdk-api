@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Instance_SetNameSpace
 title: MI_Instance_SetNameSpace function (mi.h)
-description: Sets the namespace name of the specified instance.helpviewer_keywords: ["MI_Instance_SetNameSpace","MI_Instance_SetNameSpace function [Windows Management Infrastructure (MI)]","mi/MI_Instance_SetNameSpace","wmi_v2.mi_instance_setnamespace"]
+description: Sets the namespace name of the specified instance.
+helpviewer_keywords: ["MI_Instance_SetNameSpace","MI_Instance_SetNameSpace function [Windows Management Infrastructure (MI)]","mi/MI_Instance_SetNameSpace","wmi_v2.mi_instance_setnamespace"]
 old-location: wmi_v2\mi_instance_setnamespace.htm
 tech.root: wmi_v2
 ms.assetid: edf17b80-698b-43f3-9e03-5435638d3209

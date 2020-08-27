@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Process32FirstW
 title: Process32FirstW function (tlhelp32.h)
-description: Retrieves information about the first process encountered in a system snapshot.helpviewer_keywords: ["Process32First","Process32First function [ToolHelp]","Process32FirstW","_win32_process32first","base.process32first","tlhelp32/Process32First","tlhelp32/Process32FirstW","toolhelp.process32first"]
+description: Retrieves information about the first process encountered in a system snapshot.
+helpviewer_keywords: ["Process32First","Process32First function [ToolHelp]","Process32FirstW","_win32_process32first","base.process32first","tlhelp32/Process32First","tlhelp32/Process32FirstW","toolhelp.process32first"]
 old-location: toolhelp\process32first.htm
 tech.root: ToolHelp
 ms.assetid: 097790e8-30c2-4b00-9256-fa26e2ceb893
@@ -75,7 +76,7 @@ A handle to the snapshot returned from a previous call to the
 ### -param lppe [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a> structure. It contains process information such as the name of the executable file, the process identifier, and the process identifier of the parent process.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a> structure. It contains process information such as the name of the executable file, the process identifier, and the process identifier of the parent process.
 
 
 ## -returns
@@ -93,7 +94,7 @@ Returns <b>TRUE</b> if the first entry of the process list has been copied to th
 
 
 The calling application must set the <b>dwSize</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a> to the size, in bytes, of the structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a> to the size, in bytes, of the structure. 
 
 
 To retrieve information about other processes recorded in the same snapshot, use the 
@@ -109,6 +110,10 @@ For an example, see
 
 
 
+
+> [!NOTE]
+> The tlhelp32.h header defines Process32First as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -118,7 +123,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32">PROCESSENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-processentry32w">PROCESSENTRY32W</a>
 
 
 
@@ -126,7 +131,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32next">Process32Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32nextw">Process32NextW</a>
 
 
 

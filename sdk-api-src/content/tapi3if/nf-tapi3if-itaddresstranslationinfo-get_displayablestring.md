@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DisplayableString
 title: ITAddressTranslationInfo::get_DisplayableString (tapi3if.h)
-description: The get_DisplayableString method gets a string that contains a displayable version of the dialable number.helpviewer_keywords: ["ITAddressTranslationInfo interface [TAPI 2.2]","get_DisplayableString method","ITAddressTranslationInfo.get_DisplayableString","ITAddressTranslationInfo::get_DisplayableString","_tapi3_itaddresstranslationinfo_get_displayablestring","get_DisplayableString","get_DisplayableString method [TAPI 2.2]","get_DisplayableString method [TAPI 2.2]","ITAddressTranslationInfo interface","tapi3.itaddresstranslationinfo_get_displayablestring","tapi3if/ITAddressTranslationInfo::get_DisplayableString"]
+description: The get_DisplayableString method gets a string that contains a displayable version of the dialable number.
+helpviewer_keywords: ["ITAddressTranslationInfo interface [TAPI 2.2]","get_DisplayableString method","ITAddressTranslationInfo.get_DisplayableString","ITAddressTranslationInfo::get_DisplayableString","_tapi3_itaddresstranslationinfo_get_displayablestring","get_DisplayableString","get_DisplayableString method [TAPI 2.2]","get_DisplayableString method [TAPI 2.2]","ITAddressTranslationInfo interface","tapi3.itaddresstranslationinfo_get_displayablestring","tapi3if/ITAddressTranslationInfo::get_DisplayableString"]
 old-location: tapi3\itaddresstranslationinfo_get_displayablestring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c88474ee-5a7e-4966-8dc2-5f839069b2d2
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DisplayableString method, ITAddressTranslationInfo.get_DisplayableString, ITAddressTranslationInfo::get_DisplayableString, _tapi3_itaddresstranslationinfo_get_displayablestring, get_DisplayableString, get_DisplayableString method [TAPI 2.2], get_DisplayableString method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_displayablestring, tapi3if/ITAddressTranslationInfo::get_DisplayableString

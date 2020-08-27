@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhCleanupPayloadEventFilterDescriptor
 title: TdhCleanupPayloadEventFilterDescriptor function (tdh.h)
-description: Frees the aggregated structure of payload filters created using the TdhAggregatePayloadFilters function.helpviewer_keywords: ["TdhCleanupPayloadEventFilterDescriptor","TdhCleanupPayloadEventFilterDescriptor function [ETW]","etw.tdhcleanuppayloadeventfilterdescriptor","tdh/TdhCleanupPayloadEventFilterDescriptor"]
+description: Frees the aggregated structure of payload filters created using the TdhAggregatePayloadFilters function.
+helpviewer_keywords: ["TdhCleanupPayloadEventFilterDescriptor","TdhCleanupPayloadEventFilterDescriptor function [ETW]","etw.tdhcleanuppayloadeventfilterdescriptor","tdh/TdhCleanupPayloadEventFilterDescriptor"]
 old-location: etw\tdhcleanuppayloadeventfilterdescriptor.htm
 tech.root: ETW
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853

@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._SCOPE_MIB_INFO_V5
 title: SCOPE_MIB_INFO_V5 (dhcpsapi.h)
-description: Contains information about a specific DHCP scope.helpviewer_keywords: ["*LPSCOPE_MIB_INFO_V5","LPSCOPE_MIB_INFO_V5","LPSCOPE_MIB_INFO_V5 structure pointer [DHCP]","SCOPE_MIB_INFO_V5","SCOPE_MIB_INFO_V5 structure [DHCP]","dhcp.scope_mib_info_v5","dhcpsapi/LPSCOPE_MIB_INFO_V5","dhcpsapi/SCOPE_MIB_INFO_V5"]
+description: Contains information about a specific DHCP scope.
+helpviewer_keywords: ["*LPSCOPE_MIB_INFO_V5","LPSCOPE_MIB_INFO_V5","LPSCOPE_MIB_INFO_V5 structure pointer [DHCP]","SCOPE_MIB_INFO_V5","SCOPE_MIB_INFO_V5 structure [DHCP]","dhcp.scope_mib_info_v5","dhcpsapi/LPSCOPE_MIB_INFO_V5","dhcpsapi/SCOPE_MIB_INFO_V5"]
 old-location: dhcp\scope_mib_info_v5.htm
 tech.root: DHCP
 ms.assetid: 5144d83e-f21e-4f68-bf33-c7245b31da01
@@ -78,7 +79,7 @@ The number of IP addresses in the scope that are not currently  assigned to DHCP
 The number of IP addresses in the scope that have been offered to DHCP clients but have not yet received REQUEST messages.
 
 
-#### - NumAddressesInUse
+### -field NumAddressesInUse
 
 The number of IP addresses in the scope that are currently assigned to DHCP clients.
 

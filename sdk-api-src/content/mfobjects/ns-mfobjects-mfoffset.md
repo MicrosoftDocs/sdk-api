@@ -1,9 +1,10 @@
 ---
 UID: NS:mfobjects._MFOffset
 title: MFOffset (mfobjects.h)
-description: Specifies an offset as a fixed-point real number.helpviewer_keywords: ["MFOffset","MFOffset structure [Media Foundation]","e93539fe-3e4a-4b34-8d6a-b3f300a70ffc","mf.mfoffset","mfobjects/MFOffset"]
+description: Specifies an offset as a fixed-point real number.
+helpviewer_keywords: ["MFOffset","MFOffset structure [Media Foundation]","e93539fe-3e4a-4b34-8d6a-b3f300a70ffc","mf.mfoffset","mfobjects/MFOffset"]
 old-location: mf\mfoffset.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.date: 12/05/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset

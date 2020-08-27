@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.ICertificationAuthorities
 title: ICertificationAuthorities (certenroll.h)
-description: The ICertificationAuthorities interface defines the following methods and properties that manage a collection of ICertificationAuthority objects.helpviewer_keywords: ["ICertificationAuthorities","ICertificationAuthorities interface [Security]","ICertificationAuthorities interface [Security]","described","certenroll/ICertificationAuthorities","security.icertificationauthorities"]
+description: The ICertificationAuthorities interface defines the following methods and properties that manage a collection of ICertificationAuthority objects.
+helpviewer_keywords: ["ICertificationAuthorities","ICertificationAuthorities interface [Security]","ICertificationAuthorities interface [Security]","described","certenroll/ICertificationAuthorities","security.icertificationauthorities"]
 old-location: security\icertificationauthorities.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security],described, certenroll/ICertificationAuthorities, security.icertificationauthorities

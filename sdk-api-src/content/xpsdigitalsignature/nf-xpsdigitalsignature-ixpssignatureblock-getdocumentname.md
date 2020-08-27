@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentName
 title: IXpsSignatureBlock::GetDocumentName (xpsdigitalsignature.h)
-description: Gets a pointer to the IOpcPartUri interface that contains the URI of the document part.helpviewer_keywords: ["GetDocumentName","GetDocumentName method [XPS Documents and Packaging]","GetDocumentName method [XPS Documents and Packaging]","IXpsSignatureBlock interface","IXpsSignatureBlock interface [XPS Documents and Packaging]","GetDocumentName method","IXpsSignatureBlock.GetDocumentName","IXpsSignatureBlock::GetDocumentName","xps.ixpssignatureblock_getdocumentname","xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName"]
+description: Gets a pointer to the IOpcPartUri interface that contains the URI of the document part.
+helpviewer_keywords: ["GetDocumentName","GetDocumentName method [XPS Documents and Packaging]","GetDocumentName method [XPS Documents and Packaging]","IXpsSignatureBlock interface","IXpsSignatureBlock interface [XPS Documents and Packaging]","GetDocumentName method","IXpsSignatureBlock.GetDocumentName","IXpsSignatureBlock::GetDocumentName","xps.ixpssignatureblock_getdocumentname","xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName"]
 old-location: xps\ixpssignatureblock_getdocumentname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
 ms.date: 12/05/2018
 ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName

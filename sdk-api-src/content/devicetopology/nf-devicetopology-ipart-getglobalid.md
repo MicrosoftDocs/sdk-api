@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.GetGlobalId
 title: IPart::GetGlobalId (devicetopology.h)
-description: The GetGlobalId method gets the global ID of this part.helpviewer_keywords: ["GetGlobalId","GetGlobalId method [Core Audio]","GetGlobalId method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetGlobalId method","IPart.GetGlobalId","IPart::GetGlobalId","IPartGetGlobalId","coreaudio.ipart_getglobalid","devicetopology/IPart::GetGlobalId"]
+description: The GetGlobalId method gets the global ID of this part.
+helpviewer_keywords: ["GetGlobalId","GetGlobalId method [Core Audio]","GetGlobalId method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetGlobalId method","IPart.GetGlobalId","IPart::GetGlobalId","IPartGetGlobalId","coreaudio.ipart_getglobalid","devicetopology/IPart::GetGlobalId"]
 old-location: coreaudio\ipart_getglobalid.htm
 tech.root: CoreAudio
 ms.assetid: 07825373-3ab2-42d3-8c4b-4eaf2c45eb95

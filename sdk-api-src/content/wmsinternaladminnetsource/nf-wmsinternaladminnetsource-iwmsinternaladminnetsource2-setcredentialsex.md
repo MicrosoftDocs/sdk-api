@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.SetCredentialsEx
 title: IWMSInternalAdminNetSource2::SetCredentialsEx (wmsinternaladminnetsource.h)
-description: The SetCredentialsEx method adds a password to the cache.helpviewer_keywords: ["IWMSInternalAdminNetSource2 interface [windows Media Format]","SetCredentialsEx method","IWMSInternalAdminNetSource2.SetCredentialsEx","IWMSInternalAdminNetSource2::SetCredentialsEx","IWMSInternalAdminNetSource2SetCredentialsEx","SetCredentialsEx","SetCredentialsEx method [windows Media Format]","SetCredentialsEx method [windows Media Format]","IWMSInternalAdminNetSource2 interface","wmformat.iwmsinternaladminnetsource2_setcredentialsex","wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx"]
+description: The SetCredentialsEx method adds a password to the cache.
+helpviewer_keywords: ["IWMSInternalAdminNetSource2 interface [windows Media Format]","SetCredentialsEx method","IWMSInternalAdminNetSource2.SetCredentialsEx","IWMSInternalAdminNetSource2::SetCredentialsEx","IWMSInternalAdminNetSource2SetCredentialsEx","SetCredentialsEx","SetCredentialsEx method [windows Media Format]","SetCredentialsEx method [windows Media Format]","IWMSInternalAdminNetSource2 interface","wmformat.iwmsinternaladminnetsource2_setcredentialsex","wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx"]
 old-location: wmformat\iwmsinternaladminnetsource2_setcredentialsex.htm
 tech.root: wmformat
 ms.assetid: ca45626e-3f4d-415d-a4d1-90ce0177bd10

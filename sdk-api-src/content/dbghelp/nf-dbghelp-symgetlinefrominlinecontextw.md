@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetLineFromInlineContextW
 title: SymGetLineFromInlineContextW function (dbghelp.h)
-description: Locates the source line for the specified inline context.helpviewer_keywords: ["SymGetLineFromInlineContext","SymGetLineFromInlineContext function","SymGetLineFromInlineContextW","base.symgetlinefrominlinecontext","dbghelp/SymGetLineFromInlineContext","dbghelp/SymGetLineFromInlineContextW"]
+description: Locates the source line for the specified inline context.
+helpviewer_keywords: ["SymGetLineFromInlineContext","SymGetLineFromInlineContext function","SymGetLineFromInlineContextW","base.symgetlinefrominlinecontext","dbghelp/SymGetLineFromInlineContext","dbghelp/SymGetLineFromInlineContextW"]
 old-location: base\symgetlinefrominlinecontext.htm
 tech.root: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
@@ -65,7 +66,7 @@ A handle to the process that was originally passed to the
       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-#### - dwAddr [in]
+### -param dwAddr [in]
 
 The address for which a line should be located. It is not necessary for the address to be on a line 
       boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
@@ -87,7 +88,7 @@ The base address of the module.
 The displacement in bytes from the beginning of the line, or zero.
 
 
-#### - Line [out]
+### -param Line [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> 
       structure.
@@ -140,4 +141,8 @@ SymGetLineFromInlineContextW(
  #define SymGetLineFromInlineContext SymGetLineFromInlineContextW
 #endif</code></pre>
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymGetLineFromInlineContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

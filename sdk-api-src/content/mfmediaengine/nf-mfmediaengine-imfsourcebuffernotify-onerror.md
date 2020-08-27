@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnError
 title: IMFSourceBufferNotify::OnError (mfmediaengine.h)
-description: Used to indicate that an error has occurred with the source buffer.helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnError method","IMFSourceBufferNotify.OnError","IMFSourceBufferNotify::OnError","OnError","OnError method [Media Foundation]","OnError method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onerror","mfmediaengine/IMFSourceBufferNotify::OnError"]
+description: Used to indicate that an error has occurred with the source buffer.
+helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnError method","IMFSourceBufferNotify.OnError","IMFSourceBufferNotify::OnError","OnError","OnError method [Media Foundation]","OnError method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onerror","mfmediaengine/IMFSourceBufferNotify::OnError"]
 old-location: mf\imfsourcebuffernotify_onerror.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError

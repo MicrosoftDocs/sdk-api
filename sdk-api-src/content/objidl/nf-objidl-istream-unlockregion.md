@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IStream.UnlockRegion
 title: IStream::UnlockRegion (objidl.h)
-description: The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.helpviewer_keywords: ["IStream interface [Structured Storage]","UnlockRegion method","IStream.UnlockRegion","IStream::UnlockRegion","UnlockRegion","UnlockRegion method [Structured Storage]","UnlockRegion method [Structured Storage]","IStream interface","_stg_istream_unlockregion","objidl/IStream::UnlockRegion","stg.istream_unlockregion"]
+description: The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.
+helpviewer_keywords: ["IStream interface [Structured Storage]","UnlockRegion method","IStream.UnlockRegion","IStream::UnlockRegion","UnlockRegion","UnlockRegion method [Structured Storage]","UnlockRegion method [Structured Storage]","IStream interface","_stg_istream_unlockregion","objidl/IStream::UnlockRegion","stg.istream_unlockregion"]
 old-location: stg\istream_unlockregion.htm
 tech.root: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec

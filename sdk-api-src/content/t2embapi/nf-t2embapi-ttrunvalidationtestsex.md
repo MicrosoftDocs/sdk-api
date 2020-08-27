@@ -92,8 +92,6 @@ This function was supported in Windows XP and earlier, but is no longer supporte
 Effective font validation can be performed by a tool, such as Font Validator, that is capable of performing thorough validation of all parts of the font file. Please see <a href="http://www.microsoft.com/typography/FontValidator.aspx">http://www.microsoft.com/typography/FontValidator.aspx</a> for information on the Font Validator tool.
 
 
-
-
 ## -see-also
 
 

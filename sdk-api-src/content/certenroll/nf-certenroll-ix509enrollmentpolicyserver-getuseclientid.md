@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetUseClientId
 title: IX509EnrollmentPolicyServer::GetUseClientId (certenroll.h)
-description: Retrieves a value that specifies whether the ClientId attribute is set in the policy server flags of the certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetUseClientId","GetUseClientId method [Security]","GetUseClientId method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetUseClientId method","IX509EnrollmentPolicyServer.GetUseClientId","IX509EnrollmentPolicyServer::GetUseClientId","certenroll/IX509EnrollmentPolicyServer::GetUseClientId","security.ix509enrollmentpolicyserver_getuseclientid"]
+description: Retrieves a value that specifies whether the ClientId attribute is set in the policy server flags of the certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["GetUseClientId","GetUseClientId method [Security]","GetUseClientId method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetUseClientId method","IX509EnrollmentPolicyServer.GetUseClientId","IX509EnrollmentPolicyServer::GetUseClientId","certenroll/IX509EnrollmentPolicyServer::GetUseClientId","security.ix509enrollmentpolicyserver_getuseclientid"]
 old-location: security\ix509enrollmentpolicyserver_getuseclientid.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5fd74752-60bb-4bdb-973d-76d4ab0ae4c4
 ms.date: 12/05/2018
 ms.keywords: GetUseClientId, GetUseClientId method [Security], GetUseClientId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetUseClientId method, IX509EnrollmentPolicyServer.GetUseClientId, IX509EnrollmentPolicyServer::GetUseClientId, certenroll/IX509EnrollmentPolicyServer::GetUseClientId, security.ix509enrollmentpolicyserver_getuseclientid

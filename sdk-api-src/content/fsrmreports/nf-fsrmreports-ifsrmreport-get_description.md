@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Description
 title: IFsrmReport::get_Description (fsrmreports.h)
-description: Retrieves or sets the description of the report.helpviewer_keywords: ["Description property [File Server Resource Manager]","Description property [File Server Resource Manager]","IFsrmReport interface","IFsrmReport interface [File Server Resource Manager]","Description property","IFsrmReport.Description","IFsrmReport.get_Description","IFsrmReport::Description","IFsrmReport::get_Description","IFsrmReport::put_Description","fs.ifsrmreport_description","fsrm.ifsrmreport_description","fsrmreports/IFsrmReport::Description","fsrmreports/IFsrmReport::get_Description","fsrmreports/IFsrmReport::put_Description","get_Description"]
+description: Retrieves or sets the description of the report.
+helpviewer_keywords: ["Description property [File Server Resource Manager]","Description property [File Server Resource Manager]","IFsrmReport interface","IFsrmReport interface [File Server Resource Manager]","Description property","IFsrmReport.Description","IFsrmReport.get_Description","IFsrmReport::Description","IFsrmReport::get_Description","IFsrmReport::put_Description","fs.ifsrmreport_description","fsrm.ifsrmreport_description","fsrmreports/IFsrmReport::Description","fsrmreports/IFsrmReport::get_Description","fsrmreports/IFsrmReport::put_Description","get_Description"]
 old-location: fsrm\ifsrmreport_description.htm
 tech.root: fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484

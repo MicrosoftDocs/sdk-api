@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultDestinationPosition
 title: IBasicVideo::SetDefaultDestinationPosition (control.h)
-description: The SetDefaultDestinationPosition method reverts to the default destination rectangle. After this method is called, the video renderer uses the entire window for playback.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetDefaultDestinationPosition method","IBasicVideo.SetDefaultDestinationPosition","IBasicVideo::SetDefaultDestinationPosition","IBasicVideoSetDefaultDestinationPosition","SetDefaultDestinationPosition","SetDefaultDestinationPosition method [DirectShow]","SetDefaultDestinationPosition method [DirectShow]","IBasicVideo interface","control/IBasicVideo::SetDefaultDestinationPosition","dshow.ibasicvideo_setdefaultdestinationposition"]
+description: The SetDefaultDestinationPosition method reverts to the default destination rectangle. After this method is called, the video renderer uses the entire window for playback.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetDefaultDestinationPosition method","IBasicVideo.SetDefaultDestinationPosition","IBasicVideo::SetDefaultDestinationPosition","IBasicVideoSetDefaultDestinationPosition","SetDefaultDestinationPosition","SetDefaultDestinationPosition method [DirectShow]","SetDefaultDestinationPosition method [DirectShow]","IBasicVideo interface","control/IBasicVideo::SetDefaultDestinationPosition","dshow.ibasicvideo_setdefaultdestinationposition"]
 old-location: dshow\ibasicvideo_setdefaultdestinationposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 82ee1be5-4a58-4104-a8a5-3c3926e2f1d2
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultDestinationPosition method, IBasicVideo.SetDefaultDestinationPosition, IBasicVideo::SetDefaultDestinationPosition, IBasicVideoSetDefaultDestinationPosition, SetDefaultDestinationPosition, SetDefaultDestinationPosition method [DirectShow], SetDefaultDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultDestinationPosition, dshow.ibasicvideo_setdefaultdestinationposition

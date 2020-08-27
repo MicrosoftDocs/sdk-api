@@ -1,9 +1,10 @@
 ---
 UID: NN:evr9.IEVRVideoStreamControl
 title: IEVRVideoStreamControl (evr9.h)
-description: This interface is not supported.helpviewer_keywords: ["IEVRVideoStreamControl","IEVRVideoStreamControl interface [Media Foundation]","IEVRVideoStreamControl interface [Media Foundation]","described","ea7b0dd2-2eff-4a37-826b-6f87fbea5785","evr9/IEVRVideoStreamControl","mf.ievrvideostreamcontrol"]
+description: This interface is not supported.
+helpviewer_keywords: ["IEVRVideoStreamControl","IEVRVideoStreamControl interface [Media Foundation]","IEVRVideoStreamControl interface [Media Foundation]","described","ea7b0dd2-2eff-4a37-826b-6f87fbea5785","evr9/IEVRVideoStreamControl","mf.ievrvideostreamcontrol"]
 old-location: mf\ievrvideostreamcontrol.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ea7b0dd2-2eff-4a37-826b-6f87fbea5785
 ms.date: 12/05/2018
 ms.keywords: IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Foundation], IEVRVideoStreamControl interface [Media Foundation],described, ea7b0dd2-2eff-4a37-826b-6f87fbea5785, evr9/IEVRVideoStreamControl, mf.ievrvideostreamcontrol

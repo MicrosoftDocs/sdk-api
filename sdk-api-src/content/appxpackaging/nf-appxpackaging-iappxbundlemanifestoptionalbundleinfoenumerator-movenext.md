@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext
 title: IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext (appxpackaging.h)
-description: Advances the position of the enumerator to the next set of optional bundle information.helpviewer_keywords: ["IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","MoveNext method","IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext","IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxBundleManifestOptionalBundleInfoEnumerator interface","appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext","appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_movenext"]
+description: Advances the position of the enumerator to the next set of optional bundle information.
+helpviewer_keywords: ["IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","MoveNext method","IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext","IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxBundleManifestOptionalBundleInfoEnumerator interface","appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext","appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_movenext"]
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: 4A157CF1-8254-47FF-886A-77C15BDCDA76

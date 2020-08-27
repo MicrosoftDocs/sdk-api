@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetAt
 title: IXpsOMRemoteDictionaryResourceCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMRemoteDictionaryResourceCollection.GetAt","IXpsOMRemoteDictionaryResourceCollection::GetAt","xps.ixpsomremotedictionaryresourcecollection_getat","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetAt"]
+description: Gets an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.
+helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMRemoteDictionaryResourceCollection.GetAt","IXpsOMRemoteDictionaryResourceCollection::GetAt","xps.ixpsomremotedictionaryresourcecollection_getat","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetAt"]
 old-location: xps\ixpsomremotedictionaryresourcecollection_getat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: a8130a0b-ac58-479d-b72c-2136c7d29c7f
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMRemoteDictionaryResourceCollection.GetAt, IXpsOMRemoteDictionaryResourceCollection::GetAt, xps.ixpsomremotedictionaryresourcecollection_getat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetAt

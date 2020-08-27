@@ -1,9 +1,10 @@
 ---
 UID: NS:interactioncontext.CROSS_SLIDE_PARAMETER
 title: CROSS_SLIDE_PARAMETER (interactioncontext.h)
-description: Defines the cross-slide threshold and its distance threshold.helpviewer_keywords: ["CROSS_SLIDE_PARAMETER","CROSS_SLIDE_PARAMETER structure","input_intcontext.cross_slide_parameter","interactioncontext.cross_slide_parameter","interactioncontext/CROSS_SLIDE_PARAMETER"]
+description: Defines the cross-slide threshold and its distance threshold.
+helpviewer_keywords: ["CROSS_SLIDE_PARAMETER","CROSS_SLIDE_PARAMETER structure","input_intcontext.cross_slide_parameter","interactioncontext.cross_slide_parameter","interactioncontext/CROSS_SLIDE_PARAMETER"]
 old-location: input_intcontext\cross_slide_parameter.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 3871f24e-34a4-4524-801d-4d60cf6165d9
 ms.date: 12/05/2018
 ms.keywords: CROSS_SLIDE_PARAMETER, CROSS_SLIDE_PARAMETER structure, input_intcontext.cross_slide_parameter, interactioncontext.cross_slide_parameter, interactioncontext/CROSS_SLIDE_PARAMETER

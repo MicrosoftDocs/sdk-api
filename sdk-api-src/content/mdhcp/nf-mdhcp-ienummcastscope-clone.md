@@ -1,9 +1,10 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Clone
 title: IEnumMcastScope::Clone (mdhcp.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumMcastScope interface","IEnumMcastScope interface [TAPI 2.2]","Clone method","IEnumMcastScope.Clone","IEnumMcastScope::Clone","_tapi3_ienummcastscope_clone","mdhcp/IEnumMcastScope::Clone","tapi3.ienummcastscope_clone"]
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumMcastScope interface","IEnumMcastScope interface [TAPI 2.2]","Clone method","IEnumMcastScope.Clone","IEnumMcastScope::Clone","_tapi3_ienummcastscope_clone","mdhcp/IEnumMcastScope::Clone","tapi3.ienummcastscope_clone"]
 old-location: tapi3\ienummcastscope_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone

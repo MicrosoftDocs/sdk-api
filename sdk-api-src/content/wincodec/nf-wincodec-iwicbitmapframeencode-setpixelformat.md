@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetPixelFormat
 title: IWICBitmapFrameEncode::SetPixelFormat (wincodec.h)
-description: Requests that the encoder use the specified pixel format.helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","SetPixelFormat method","IWICBitmapFrameEncode.SetPixelFormat","IWICBitmapFrameEncode::SetPixelFormat","SetPixelFormat","SetPixelFormat method [Windows Imaging Component]","SetPixelFormat method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_setpixelformat","wic._wic_codec_iwicbitmapframeencode_setpixelformat","wincodec/IWICBitmapFrameEncode::SetPixelFormat"]
+description: Requests that the encoder use the specified pixel format.
+helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","SetPixelFormat method","IWICBitmapFrameEncode.SetPixelFormat","IWICBitmapFrameEncode::SetPixelFormat","SetPixelFormat","SetPixelFormat method [Windows Imaging Component]","SetPixelFormat method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_setpixelformat","wic._wic_codec_iwicbitmapframeencode_setpixelformat","wincodec/IWICBitmapFrameEncode::SetPixelFormat"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_setpixelformat.htm
 tech.root: wic
 ms.assetid: 9327b5dd-18a3-40c6-8bb4-245fcc7fb582

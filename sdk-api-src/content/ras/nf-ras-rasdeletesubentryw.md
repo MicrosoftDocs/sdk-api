@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasDeleteSubEntryW
 title: RasDeleteSubEntryW function (ras.h)
-description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.helpviewer_keywords: ["RasDeleteSubEntry","RasDeleteSubEntry function [RAS]","RasDeleteSubEntryA","RasDeleteSubEntryW","_ras_rasdeletesubentry","ras/RasDeleteSubEntry","ras/RasDeleteSubEntryA","ras/RasDeleteSubEntryW","rras.rasdeletesubentry"]
+description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.
+helpviewer_keywords: ["RasDeleteSubEntry","RasDeleteSubEntry function [RAS]","RasDeleteSubEntryA","RasDeleteSubEntryW","_ras_rasdeletesubentry","ras/RasDeleteSubEntry","ras/RasDeleteSubEntryA","ras/RasDeleteSubEntryW","rras.rasdeletesubentry"]
 old-location: rras\rasdeletesubentry.htm
 tech.root: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
@@ -70,7 +71,7 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 Pointer to a <b>null</b>-terminated string that contains the name of an existing entry from which a subentry is to be deleted.
 
 
-#### - dwSubEntryId [in]
+### -param dwSubEntryId [in]
 
 Specifies the one-based index of the subentry.
 
@@ -103,4 +104,9 @@ If the function fails, the return value is one of the following error codes or a
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ras.h header defines RasDeleteSubEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

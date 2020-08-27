@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CreateMailslotW
 title: CreateMailslotW function (winbase.h)
-description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.helpviewer_keywords: ["CreateMailslot","CreateMailslot function","CreateMailslotA","CreateMailslotW","MAILSLOT_WAIT_FOREVER","_win32_createmailslot","base.createmailslot","winbase/CreateMailslot","winbase/CreateMailslotA","winbase/CreateMailslotW"]
+description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
+helpviewer_keywords: ["CreateMailslot","CreateMailslot function","CreateMailslotA","CreateMailslotW","MAILSLOT_WAIT_FOREVER","_win32_createmailslot","base.createmailslot","winbase/CreateMailslot","winbase/CreateMailslotA","winbase/CreateMailslotW"]
 old-location: base\createmailslot.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
 ms.date: 12/05/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
@@ -192,6 +193,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CreateMailslot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

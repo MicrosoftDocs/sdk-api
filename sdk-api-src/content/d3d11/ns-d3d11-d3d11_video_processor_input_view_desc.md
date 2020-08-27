@@ -1,9 +1,10 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC
 title: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC (d3d11.h)
-description: Describes a video processor input view.helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC","D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC","mf.d3d11_video_processor_input_view_desc"]
+description: Describes a video processor input view.
+helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC","D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC","mf.d3d11_video_processor_input_view_desc"]
 old-location: mf\d3d11_video_processor_input_view_desc.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 69EDF918-355A-4277-9F7E-C08CF65E5418
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, mf.d3d11_video_processor_input_view_desc

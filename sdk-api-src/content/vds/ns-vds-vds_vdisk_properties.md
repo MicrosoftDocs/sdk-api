@@ -4,7 +4,7 @@ title: VDS_VDISK_PROPERTIES (vds.h)
 description: Defines the properties of a virtual disk.
 helpviewer_keywords: ["*PVDS_VDISK_PROPERTIES","PVDS_VDISK_PROPERTIES","PVDS_VDISK_PROPERTIES structure pointer","VDS_VDISK_PROPERTIES","VDS_VDISK_PROPERTIES structure","base.vds_vdisk_properties","vds/PVDS_VDISK_PROPERTIES","vds/VDS_VDISK_PROPERTIES"]
 old-location: base\vds_vdisk_properties.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: e4cdab29-2bb7-4754-9ac8-d6f088910b0d
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES structure pointer, VDS_VDISK_PROPERTIES, VDS_VDISK_PROPERTIES structure, base.vds_vdisk_properties, vds/PVDS_VDISK_PROPERTIES, vds/VDS_VDISK_PROPERTIES'

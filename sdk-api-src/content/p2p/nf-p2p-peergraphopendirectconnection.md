@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGraphOpenDirectConnection
 title: PeerGraphOpenDirectConnection function (p2p.h)
-description: The PeerGraphOpenDirectConnection function allows an application to establish a direct connection with a node in a peer graph.helpviewer_keywords: ["PeerGraphOpenDirectConnection","PeerGraphOpenDirectConnection function [Peer Networking]","p2p.peergraphopendirectconnection","p2p/PeerGraphOpenDirectConnection"]
+description: The PeerGraphOpenDirectConnection function allows an application to establish a direct connection with a node in a peer graph.
+helpviewer_keywords: ["PeerGraphOpenDirectConnection","PeerGraphOpenDirectConnection function [Peer Networking]","p2p.peergraphopendirectconnection","p2p/PeerGraphOpenDirectConnection"]
 old-location: p2p\peergraphopendirectconnection.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 0625a2f6-7e16-43c7-8c03-1f0ddeda426f
 ms.date: 12/05/2018
 ms.keywords: PeerGraphOpenDirectConnection, PeerGraphOpenDirectConnection function [Peer Networking], p2p.peergraphopendirectconnection, p2p/PeerGraphOpenDirectConnection

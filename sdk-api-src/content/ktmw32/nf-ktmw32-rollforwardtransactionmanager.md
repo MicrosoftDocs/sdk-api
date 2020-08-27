@@ -1,9 +1,10 @@
 ---
 UID: NF:ktmw32.RollforwardTransactionManager
 title: RollforwardTransactionManager function (ktmw32.h)
-description: Recovers information only to the specified virtual clock value.helpviewer_keywords: ["RollforwardTransactionManager","RollforwardTransactionManager function [Files]","fs.rollforwardtransactionmanager","ktmw32/RollforwardTransactionManager"]
+description: Recovers information only to the specified virtual clock value.
+helpviewer_keywords: ["RollforwardTransactionManager","RollforwardTransactionManager function [Files]","fs.rollforwardtransactionmanager","ktmw32/RollforwardTransactionManager"]
 old-location: fs\rollforwardtransactionmanager.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 13492b74-8707-46bb-93f1-59c3c5ceab6d
 ms.date: 12/05/2018
 ms.keywords: RollforwardTransactionManager, RollforwardTransactionManager function [Files], fs.rollforwardtransactionmanager, ktmw32/RollforwardTransactionManager

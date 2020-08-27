@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiGetFeatureCostA
 title: MsiGetFeatureCostA function (msiquery.h)
-description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","INSTALLSTATE_UNKNOWN","MSICOSTTREE_CHILDREN","MSICOSTTREE_PARENTS","MSICOSTTREE_SELFONLY","MsiGetFeatureCost","MsiGetFeatureCost function","MsiGetFeatureCostA","MsiGetFeatureCostW","_msi_msigetfeaturecost","msiquery/MsiGetFeatureCost","msiquery/MsiGetFeatureCostA","msiquery/MsiGetFeatureCostW","setup.msigetfeaturecost"]
+description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
+helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","INSTALLSTATE_UNKNOWN","MSICOSTTREE_CHILDREN","MSICOSTTREE_PARENTS","MSICOSTTREE_SELFONLY","MsiGetFeatureCost","MsiGetFeatureCost function","MsiGetFeatureCostA","MsiGetFeatureCostW","_msi_msigetfeaturecost","msiquery/MsiGetFeatureCost","msiquery/MsiGetFeatureCostA","msiquery/MsiGetFeatureCostW","setup.msigetfeaturecost"]
 old-location: setup\msigetfeaturecost.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MSICOSTTREE_CHILDREN, MSICOSTTREE_PARENTS, MSICOSTTREE_SELFONLY, MsiGetFeatureCost, MsiGetFeatureCost function, MsiGetFeatureCostA, MsiGetFeatureCostW, _msi_msigetfeaturecost, msiquery/MsiGetFeatureCost, msiquery/MsiGetFeatureCostA, msiquery/MsiGetFeatureCostW, setup.msigetfeaturecost
@@ -240,6 +241,10 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiGetFeatureCost as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

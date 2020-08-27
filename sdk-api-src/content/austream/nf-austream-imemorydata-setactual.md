@@ -1,9 +1,10 @@
 ---
 UID: NF:austream.IMemoryData.SetActual
 title: IMemoryData::SetActual (austream.h)
-description: Note  This interface is deprecated. New applications should not use it. Sets the amount of audio data currently in the object.helpviewer_keywords: ["IMemoryData interface [DirectShow]","SetActual method","IMemoryData.SetActual","IMemoryData::SetActual","IMemoryDataSetActual","SetActual","SetActual method [DirectShow]","SetActual method [DirectShow]","IMemoryData interface","austream/IMemoryData::SetActual","dshow.imemorydata_setactual"]
+description: Note  This interface is deprecated. New applications should not use it. Sets the amount of audio data currently in the object.
+helpviewer_keywords: ["IMemoryData interface [DirectShow]","SetActual method","IMemoryData.SetActual","IMemoryData::SetActual","IMemoryDataSetActual","SetActual","SetActual method [DirectShow]","SetActual method [DirectShow]","IMemoryData interface","austream/IMemoryData::SetActual","dshow.imemorydata_setactual"]
 old-location: dshow\imemorydata_setactual.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 22d9c24b-deb0-429a-ad9c-f6d286c7cdeb
 ms.date: 12/05/2018
 ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.SetActual, IMemoryData::SetActual, IMemoryDataSetActual, SetActual, SetActual method [DirectShow], SetActual method [DirectShow],IMemoryData interface, austream/IMemoryData::SetActual, dshow.imemorydata_setactual

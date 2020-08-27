@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi1_2.DXGI_PRESENT_PARAMETERS
 title: DXGI_PRESENT_PARAMETERS (dxgi1_2.h)
-description: Describes information about present that helps the operating system optimize presentation.helpviewer_keywords: ["DXGI_PRESENT_PARAMETERS","DXGI_PRESENT_PARAMETERS structure [DXGI]","direct3ddxgi.dxgi_present_parameters","dxgi1_2/DXGI_PRESENT_PARAMETERS"]
+description: Describes information about present that helps the operating system optimize presentation.
+helpviewer_keywords: ["DXGI_PRESENT_PARAMETERS","DXGI_PRESENT_PARAMETERS structure [DXGI]","direct3ddxgi.dxgi_present_parameters","dxgi1_2/DXGI_PRESENT_PARAMETERS"]
 old-location: direct3ddxgi\dxgi_present_parameters.htm
 tech.root: direct3ddxgi
 ms.assetid: C2C69457-5415-4CAA-901B-A3A8591C6CB0

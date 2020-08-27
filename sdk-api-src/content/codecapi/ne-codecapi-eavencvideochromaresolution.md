@@ -1,9 +1,10 @@
 ---
 UID: NE:codecapi.eAVEncVideoChromaResolution
 title: eAVEncVideoChromaResolution (codecapi.h)
-description: Specifies chroma resolution. This enumeration is used with the AVEncVideoInputChromaResolution and AVEncVideoOutputChromaResolution properties.helpviewer_keywords: ["codecapi/eAVEncVideoChromaResolution","codecapi/eAVEncVideoChromaResolution_411","codecapi/eAVEncVideoChromaResolution_420","codecapi/eAVEncVideoChromaResolution_422","codecapi/eAVEncVideoChromaResolution_444","codecapi/eAVEncVideoChromaResolution_SameAsSource","dshow.eavencvideochromaresolution","eAVEncVideoChromaResolution","eAVEncVideoChromaResolution enumeration [DirectShow]","eAVEncVideoChromaResolutionEnumeration","eAVEncVideoChromaResolution_411","eAVEncVideoChromaResolution_420","eAVEncVideoChromaResolution_422","eAVEncVideoChromaResolution_444","eAVEncVideoChromaResolution_SameAsSource"]
+description: Specifies chroma resolution. This enumeration is used with the AVEncVideoInputChromaResolution and AVEncVideoOutputChromaResolution properties.
+helpviewer_keywords: ["codecapi/eAVEncVideoChromaResolution","codecapi/eAVEncVideoChromaResolution_411","codecapi/eAVEncVideoChromaResolution_420","codecapi/eAVEncVideoChromaResolution_422","codecapi/eAVEncVideoChromaResolution_444","codecapi/eAVEncVideoChromaResolution_SameAsSource","dshow.eavencvideochromaresolution","eAVEncVideoChromaResolution","eAVEncVideoChromaResolution enumeration [DirectShow]","eAVEncVideoChromaResolutionEnumeration","eAVEncVideoChromaResolution_411","eAVEncVideoChromaResolution_420","eAVEncVideoChromaResolution_422","eAVEncVideoChromaResolution_444","eAVEncVideoChromaResolution_SameAsSource"]
 old-location: dshow\eavencvideochromaresolution.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 63ac09a9-23bb-4d82-9699-541552e1ec90
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoChromaResolution, codecapi/eAVEncVideoChromaResolution_411, codecapi/eAVEncVideoChromaResolution_420, codecapi/eAVEncVideoChromaResolution_422, codecapi/eAVEncVideoChromaResolution_444, codecapi/eAVEncVideoChromaResolution_SameAsSource, dshow.eavencvideochromaresolution, eAVEncVideoChromaResolution, eAVEncVideoChromaResolution enumeration [DirectShow], eAVEncVideoChromaResolutionEnumeration, eAVEncVideoChromaResolution_411, eAVEncVideoChromaResolution_420, eAVEncVideoChromaResolution_422, eAVEncVideoChromaResolution_444, eAVEncVideoChromaResolution_SameAsSource

@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineAccept
 title: TSPI_lineAccept function (tspi.h)
-description: The TSPI_lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.helpviewer_keywords: ["TSPI_lineAccept","TSPI_lineAccept function [TAPI 2.2]","_tspi_tspi_lineaccept","tspi.tspi_lineaccept","tspi/TSPI_lineAccept"]
+description: The TSPI_lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
+helpviewer_keywords: ["TSPI_lineAccept","TSPI_lineAccept function [TAPI 2.2]","_tspi_tspi_lineaccept","tspi.tspi_lineaccept","tspi/TSPI_lineAccept"]
 old-location: tspi\tspi_lineaccept.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2690992b-b155-4ae9-816a-e5fafaffa033
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAccept, TSPI_lineAccept function [TAPI 2.2], _tspi_tspi_lineaccept, tspi.tspi_lineaccept, tspi/TSPI_lineAccept

@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITPhone
 title: ITPhone (tapi3if.h)
-description: The ITPhone interface is the main interface for the new Phone objects in the TAPI 3.1 object model.helpviewer_keywords: ["ITPhone","ITPhone interface [TAPI 2.2]","ITPhone interface [TAPI 2.2]","described","_tapi3_itphone","tapi3.itphone","tapi3if/ITPhone"]
+description: The ITPhone interface is the main interface for the new Phone objects in the TAPI 3.1 object model.
+helpviewer_keywords: ["ITPhone","ITPhone interface [TAPI 2.2]","ITPhone interface [TAPI 2.2]","described","_tapi3_itphone","tapi3.itphone","tapi3if/ITPhone"]
 old-location: tapi3\itphone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 94dff33c-67a1-4df8-9ef5-2b6524438f6f
 ms.date: 12/05/2018
 ms.keywords: ITPhone, ITPhone interface [TAPI 2.2], ITPhone interface [TAPI 2.2],described, _tapi3_itphone, tapi3.itphone, tapi3if/ITPhone

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngGetPrinterDataFileName
 title: EngGetPrinterDataFileName function (winddi.h)
-description: The EngGetPrinterDataFileName function retrieves the string name of the printer's data file.helpviewer_keywords: ["EngGetPrinterDataFileName","EngGetPrinterDataFileName function [Display Devices]","display.enggetprinterdatafilename","gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml","winddi/EngGetPrinterDataFileName"]
+description: The EngGetPrinterDataFileName function retrieves the string name of the printer's data file.
+helpviewer_keywords: ["EngGetPrinterDataFileName","EngGetPrinterDataFileName function [Display Devices]","display.enggetprinterdatafilename","gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml","winddi/EngGetPrinterDataFileName"]
 old-location: display\enggetprinterdatafilename.htm
 tech.root: display
 ms.assetid: bfc698d9-a340-49a5-97fb-0dae92ab6f2d

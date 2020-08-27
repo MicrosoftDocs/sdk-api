@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetUniversalNameW
 title: WNetGetUniversalNameW function (winnetwk.h)
-description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.helpviewer_keywords: ["REMOTE_NAME_INFO_LEVEL","UNIVERSAL_NAME_INFO_LEVEL","WNetGetUniversalName","WNetGetUniversalName function [Windows Networking (WNet)]","WNetGetUniversalNameA","WNetGetUniversalNameW","_win32_wnetgetuniversalname","winnetwk/WNetGetUniversalName","winnetwk/WNetGetUniversalNameA","winnetwk/WNetGetUniversalNameW","wnet.wnetgetuniversalname"]
+description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
+helpviewer_keywords: ["REMOTE_NAME_INFO_LEVEL","UNIVERSAL_NAME_INFO_LEVEL","WNetGetUniversalName","WNetGetUniversalName function [Windows Networking (WNet)]","WNetGetUniversalNameA","WNetGetUniversalNameW","_win32_wnetgetuniversalname","winnetwk/WNetGetUniversalName","winnetwk/WNetGetUniversalNameA","winnetwk/WNetGetUniversalNameW","wnet.wnetgetuniversalname"]
 old-location: wnet\wnetgetuniversalname.htm
 tech.root: WNet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
@@ -337,6 +338,10 @@ int wmain(int argc, wchar_t * argv[])
 
 
 
+
+
+> [!NOTE]
+> The winnetwk.h header defines WNetGetUniversalName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

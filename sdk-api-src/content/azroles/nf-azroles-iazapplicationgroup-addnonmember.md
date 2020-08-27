@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMember
 title: IAzApplicationGroup::AddNonMember (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of accounts that are refused membership in the application group.helpviewer_keywords: ["AddNonMember","AddNonMember method [Security]","AddNonMember method [Security]","AzApplicationGroup object","AddNonMember method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddNonMember method","IAzApplicationGroup interface [Security]","AddNonMember method","IAzApplicationGroup.AddNonMember","IAzApplicationGroup::AddNonMember","azroles/IAzApplicationGroup::AddNonMember","security.iazapplicationgroup_addnonmember"]
+description: Adds the specified security identifier (SID) in text form to the list of accounts that are refused membership in the application group.
+helpviewer_keywords: ["AddNonMember","AddNonMember method [Security]","AddNonMember method [Security]","AzApplicationGroup object","AddNonMember method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddNonMember method","IAzApplicationGroup interface [Security]","AddNonMember method","IAzApplicationGroup.AddNonMember","IAzApplicationGroup::AddNonMember","azroles/IAzApplicationGroup::AddNonMember","security.iazapplicationgroup_addnonmember"]
 old-location: security\iazapplicationgroup_addnonmember.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a61f0b97-cd8a-40e5-b2ef-8eb48359fead
 ms.date: 12/05/2018
 ms.keywords: AddNonMember, AddNonMember method [Security], AddNonMember method [Security],AzApplicationGroup object, AddNonMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMember method, IAzApplicationGroup interface [Security],AddNonMember method, IAzApplicationGroup.AddNonMember, IAzApplicationGroup::AddNonMember, azroles/IAzApplicationGroup::AddNonMember, security.iazapplicationgroup_addnonmember

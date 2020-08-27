@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.CloseDecompressor
 title: CloseDecompressor function (compressapi.h)
-description: Call to close an open DECOMPRESSOR_HANDLE.helpviewer_keywords: ["CloseDecompressor","CloseDecompressor function [Compression API]","cmpapi.closedecompressor","compressapi/CloseDecompressor"]
+description: Call to close an open DECOMPRESSOR_HANDLE.
+helpviewer_keywords: ["CloseDecompressor","CloseDecompressor function [Compression API]","cmpapi.closedecompressor","compressapi/CloseDecompressor"]
 old-location: cmpapi\closedecompressor.htm
 tech.root: cmpapi
 ms.assetid: bcc4b342-9b84-43c6-aac0-c8f8ea5089c8
@@ -14,8 +15,8 @@ dev_langs:
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

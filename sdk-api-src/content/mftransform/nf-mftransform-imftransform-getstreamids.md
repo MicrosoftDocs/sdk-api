@@ -1,9 +1,10 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamIDs
 title: IMFTransform::GetStreamIDs (mftransform.h)
-description: Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).helpviewer_keywords: ["0715c78e-de92-439d-a4f3-078e19f78a8e","GetStreamIDs","GetStreamIDs method [Media Foundation]","GetStreamIDs method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetStreamIDs method","IMFTransform.GetStreamIDs","IMFTransform::GetStreamIDs","mf.imftransform_getstreamids","mftransform/IMFTransform::GetStreamIDs"]
+description: Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
+helpviewer_keywords: ["0715c78e-de92-439d-a4f3-078e19f78a8e","GetStreamIDs","GetStreamIDs method [Media Foundation]","GetStreamIDs method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetStreamIDs method","IMFTransform.GetStreamIDs","IMFTransform::GetStreamIDs","mf.imftransform_getstreamids","mftransform/IMFTransform::GetStreamIDs"]
 old-location: mf\imftransform_getstreamids.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0715c78e-de92-439d-a4f3-078e19f78a8e
 ms.date: 12/05/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs

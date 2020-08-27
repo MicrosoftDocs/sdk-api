@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationVirtualizedItemPattern
 title: IUIAutomationVirtualizedItemPattern (uiautomationclient.h)
-description: Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.helpviewer_keywords: ["IUIAutomationVirtualizedItemPattern","IUIAutomationVirtualizedItemPattern interface [Windows Accessibility]","IUIAutomationVirtualizedItemPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationVirtualizedItemPattern","uiauto_IUIAutomationVirtualizedItemPattern","uiautomationclient/IUIAutomationVirtualizedItemPattern","winauto.uiauto_IUIAutomationVirtualizedItemPattern"]
+description: Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
+helpviewer_keywords: ["IUIAutomationVirtualizedItemPattern","IUIAutomationVirtualizedItemPattern interface [Windows Accessibility]","IUIAutomationVirtualizedItemPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationVirtualizedItemPattern","uiauto_IUIAutomationVirtualizedItemPattern","uiautomationclient/IUIAutomationVirtualizedItemPattern","winauto.uiauto_IUIAutomationVirtualizedItemPattern"]
 old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern.htm
 tech.root: WinAuto
 ms.assetid: 48f066f3-c78c-47a2-9668-ab79b1438130

@@ -1,9 +1,10 @@
 ---
 UID: NN:wmcodecdsp.ITocCollection
 title: ITocCollection (wmcodecdsp.h)
-description: The ITocCollection represents a collection of tables of contents. It provides methods for adding, retrieving, and removing, tables of contents from the collection.helpviewer_keywords: ["ITocCollection","ITocCollection interface [Media Foundation]","ITocCollection interface [Media Foundation]","described","codecapi.itoccollection","mf.itoccollection","wmcodecdsp/ITocCollection"]
+description: The ITocCollection represents a collection of tables of contents. It provides methods for adding, retrieving, and removing, tables of contents from the collection.
+helpviewer_keywords: ["ITocCollection","ITocCollection interface [Media Foundation]","ITocCollection interface [Media Foundation]","described","codecapi.itoccollection","mf.itoccollection","wmcodecdsp/ITocCollection"]
 old-location: mf\itoccollection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.date: 12/05/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection

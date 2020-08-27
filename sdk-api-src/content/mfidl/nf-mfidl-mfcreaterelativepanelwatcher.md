@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Creates a new instance of the **IMFRelativePanelWatcher** interface
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -27,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - mfidl.h
+ - mfsensorgroup.dll
 api_name:
  - MFCreateRelativePanelWatcher
 f1_keywords:

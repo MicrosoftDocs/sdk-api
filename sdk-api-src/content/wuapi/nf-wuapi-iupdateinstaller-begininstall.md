@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.BeginInstall
 title: IUpdateInstaller::BeginInstall (wuapi.h)
-description: Starts an asynchronous installation of the updates.helpviewer_keywords: ["BeginInstall","BeginInstall method [Windows Update Agent]","BeginInstall method [Windows Update Agent]","IUpdateInstaller interface","IUpdateInstaller interface [Windows Update Agent]","BeginInstall method","IUpdateInstaller.BeginInstall","IUpdateInstaller::BeginInstall","wua.iupdateinstaller_begininstall","wuapi/IUpdateInstaller::BeginInstall"]
+description: Starts an asynchronous installation of the updates.
+helpviewer_keywords: ["BeginInstall","BeginInstall method [Windows Update Agent]","BeginInstall method [Windows Update Agent]","IUpdateInstaller interface","IUpdateInstaller interface [Windows Update Agent]","BeginInstall method","IUpdateInstaller.BeginInstall","IUpdateInstaller::BeginInstall","wua.iupdateinstaller_begininstall","wuapi/IUpdateInstaller::BeginInstall"]
 old-location: wua\iupdateinstaller_begininstall.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 756ad613-bc6b-48fb-a079-c192aa98ccfe
 ms.date: 12/05/2018
 ms.keywords: BeginInstall, BeginInstall method [Windows Update Agent], BeginInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginInstall method, IUpdateInstaller.BeginInstall, IUpdateInstaller::BeginInstall, wua.iupdateinstaller_begininstall, wuapi/IUpdateInstaller::BeginInstall

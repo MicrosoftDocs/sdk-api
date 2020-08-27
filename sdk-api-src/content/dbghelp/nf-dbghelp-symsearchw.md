@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSearchW
 title: SymSearchW function (dbghelp.h)
-description: Searches for PDB symbols that meet the specified criteria.helpviewer_keywords: ["SYMSEARCH_ALLITEMS","SYMSEARCH_GLOBALSONLY","SYMSEARCH_MASKOBJS","SYMSEARCH_RECURSE","SymSearch","SymSearch function","SymSearchW","base.symsearch","dbghelp/SymSearch","dbghelp/SymSearchW"]
+description: Searches for PDB symbols that meet the specified criteria.
+helpviewer_keywords: ["SYMSEARCH_ALLITEMS","SYMSEARCH_GLOBALSONLY","SYMSEARCH_MASKOBJS","SYMSEARCH_RECURSE","SymSearch","SymSearch function","SymSearchW","base.symsearch","dbghelp/SymSearch","dbghelp/SymSearchW"]
 old-location: base\symsearch.htm
 tech.root: Debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
@@ -184,6 +185,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymSearch as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

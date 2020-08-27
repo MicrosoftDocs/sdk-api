@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetApplicationId
 title: ContextInfo2::GetApplicationId (comsvcs.h)
-description: Retrieves the GUID of the application of the current object context.helpviewer_keywords: ["ContextInfo2 interface [COM+]","GetApplicationId method","ContextInfo2.GetApplicationId","ContextInfo2::GetApplicationId","GetApplicationId","GetApplicationId method [COM+]","GetApplicationId method [COM+]","ContextInfo2 interface","_cos_ContextInfo2_GetApplicationId","comsvcs/ContextInfo2::GetApplicationId","cos.contextinfo2_getapplicationid"]
+description: Retrieves the GUID of the application of the current object context.
+helpviewer_keywords: ["ContextInfo2 interface [COM+]","GetApplicationId method","ContextInfo2.GetApplicationId","ContextInfo2::GetApplicationId","GetApplicationId","GetApplicationId method [COM+]","GetApplicationId method [COM+]","ContextInfo2 interface","_cos_ContextInfo2_GetApplicationId","comsvcs/ContextInfo2::GetApplicationId","cos.contextinfo2_getapplicationid"]
 old-location: cos\contextinfo2_getapplicationid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9fc5cffe-a532-4084-8b6c-9812a5b117b2
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2 interface [COM+],GetApplicationId method, ContextInfo2.GetApplicationId, ContextInfo2::GetApplicationId, GetApplicationId, GetApplicationId method [COM+], GetApplicationId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationId, comsvcs/ContextInfo2::GetApplicationId, cos.contextinfo2_getapplicationid

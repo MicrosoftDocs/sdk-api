@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfThreadMgr.IsThreadFocus
 title: ITfThreadMgr::IsThreadFocus (msctf.h)
-description: ITfThreadMgr::IsThreadFocus methodhelpviewer_keywords: ["ITfThreadMgr interface [Text Services Framework]","IsThreadFocus method","ITfThreadMgr.IsThreadFocus","ITfThreadMgr::IsThreadFocus","IsThreadFocus","IsThreadFocus method [Text Services Framework]","IsThreadFocus method [Text Services Framework]","ITfThreadMgr interface","_tsf_itfthreadmgr_isthreadfocus_ref","msctf/ITfThreadMgr::IsThreadFocus","tsf.itfthreadmgr_isthreadfocus"]
+description: ITfThreadMgr::IsThreadFocus method
+helpviewer_keywords: ["ITfThreadMgr interface [Text Services Framework]","IsThreadFocus method","ITfThreadMgr.IsThreadFocus","ITfThreadMgr::IsThreadFocus","IsThreadFocus","IsThreadFocus method [Text Services Framework]","IsThreadFocus method [Text Services Framework]","ITfThreadMgr interface","_tsf_itfthreadmgr_isthreadfocus_ref","msctf/ITfThreadMgr::IsThreadFocus","tsf.itfthreadmgr_isthreadfocus"]
 old-location: tsf\itfthreadmgr_isthreadfocus.htm
 tech.root: TSF
 ms.assetid: fa753a4d-4f78-45e0-b711-c294adbb307a

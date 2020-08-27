@@ -1,7 +1,8 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_4X3_F
 title: D2D_MATRIX_4X3_F (dcommon.h)
-description: Describes a 4-by-3 floating point matrix.helpviewer_keywords: ["D2D_MATRIX_4X3_F","D2D_MATRIX_4X3_F structure [Direct2D]","dcommon/D2D_MATRIX_4X3_F","direct2d.d2d_matrix_4x3_f"]
+description: Describes a 4-by-3 floating point matrix.
+helpviewer_keywords: ["D2D_MATRIX_4X3_F","D2D_MATRIX_4X3_F structure [Direct2D]","dcommon/D2D_MATRIX_4X3_F","direct2d.d2d_matrix_4x3_f"]
 old-location: direct2d\d2d_matrix_4x3_f.htm
 tech.root: Direct2D
 ms.assetid: 2CCAB3EE-EEF2-4C36-8F8E-23B93A45B1FF
@@ -122,22 +123,22 @@ Describes a 4-by-3 floating point matrix.
 A 4-by-3 floating point array that describes the matrix.
 
 
-#### - _11, _12, _13
+### -field _11, _12, _13
 
  The values in the first row and first, second, and third columns of the matrix.
 
 
-#### - _21, _22, _23
+### -field _21, _22, _23
 
 The values in the second row and first, second, and third columns of the matrix.
 
 
-#### - _31, _32, _33
+### -field _31, _32, _33
 
 The values in the third row and first, second, and third columns of the matrix.
 
 
-#### - _41, _42, _43
+### -field _41, _42, _43
 
 The value in the fourth row and first, second, and third columns of the matrix.
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxFile
 title: IAppxFile (appxpackaging.h)
-description: Retrieves information about a payload or footprint file in a package.helpviewer_keywords: ["IAppxFile","IAppxFile interface [App packaging and management]","IAppxFile interface [App packaging and management]","described","appxpackaging/IAppxFile","appxpkg.iappxfile"]
+description: Retrieves information about a payload or footprint file in a package.
+helpviewer_keywords: ["IAppxFile","IAppxFile interface [App packaging and management]","IAppxFile interface [App packaging and management]","described","appxpackaging/IAppxFile","appxpkg.iappxfile"]
 old-location: appxpkg\iappxfile.htm
 tech.root: appxpkg
 ms.assetid: DB09452D-725C-46EA-B74C-92C5E596BEF8

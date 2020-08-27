@@ -1,9 +1,10 @@
 ---
 UID: NS:ntsecpkg._SECPKG_GSS_INFO
 title: SECPKG_GSS_INFO (ntsecpkg.h)
-description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.helpviewer_keywords: ["*PSECPKG_GSS_INFO","PSECPKG_GSS_INFO","PSECPKG_GSS_INFO structure pointer [Security]","SECPKG_GSS_INFO","SECPKG_GSS_INFO structure [Security]","_ssp_secpkg_gss_info","ntsecpkg/PSECPKG_GSS_INFO","ntsecpkg/SECPKG_GSS_INFO","security.secpkg_gss_info"]
+description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.
+helpviewer_keywords: ["*PSECPKG_GSS_INFO","PSECPKG_GSS_INFO","PSECPKG_GSS_INFO structure pointer [Security]","SECPKG_GSS_INFO","SECPKG_GSS_INFO structure [Security]","_ssp_secpkg_gss_info","ntsecpkg/PSECPKG_GSS_INFO","ntsecpkg/SECPKG_GSS_INFO","security.secpkg_gss_info"]
 old-location: security\secpkg_gss_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a2df73ee-6c95-40d9-b1cb-9eaddb4100d6
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info'

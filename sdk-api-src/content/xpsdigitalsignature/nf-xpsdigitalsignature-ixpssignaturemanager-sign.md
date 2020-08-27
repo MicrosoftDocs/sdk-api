@@ -4,7 +4,7 @@ title: IXpsSignatureManager::Sign (xpsdigitalsignature.h)
 description: Signs the contents of an XPS package as specified by the signing options and returns the resulting digital signature.
 helpviewer_keywords: ["IXpsSignatureManager interface [XPS Documents and Packaging]","Sign method","IXpsSignatureManager.Sign","IXpsSignatureManager::Sign","Sign","Sign method [XPS Documents and Packaging]","Sign method [XPS Documents and Packaging]","IXpsSignatureManager interface","xps.ixpssignaturemanager_sign","xpsdigitalsignature/IXpsSignatureManager::Sign"]
 old-location: xps\ixpssignaturemanager_sign.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 82a57ca8-edc7-4248-92d1-8092f6dce4f8
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign method, IXpsSignatureManager.Sign, IXpsSignatureManager::Sign, Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign

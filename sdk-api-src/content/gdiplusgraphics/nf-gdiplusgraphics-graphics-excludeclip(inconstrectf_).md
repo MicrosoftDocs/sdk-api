@@ -1,7 +1,9 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.ExcludeClip(IN const RectF &)
+UID: NF:gdiplusgraphics.Graphics.ExcludeClip(INconstRectF&)
 title: Graphics::ExcludeClip
-description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle.helpviewer_keywords: ["Graphics::ExcludeClip"]
+description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+tech.root: gdiplus
+helpviewer_keywords: ["Graphics::ExcludeClip"]
 ms.assetid: 3123dbf3-ea4c-4597-abe8-7fb97ec669f5
 ms.date: 05/13/2019
 ms.keywords: Graphics::ExcludeClip

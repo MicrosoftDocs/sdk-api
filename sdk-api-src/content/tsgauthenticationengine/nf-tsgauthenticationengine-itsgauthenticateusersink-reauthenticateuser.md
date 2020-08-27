@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
 title: ITSGAuthenticateUserSink::ReauthenticateUser (tsgauthenticationengine.h)
-description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.helpviewer_keywords: ["ITSGAuthenticateUserSink interface [Remote Desktop Services]","ReauthenticateUser method","ITSGAuthenticateUserSink.ReauthenticateUser","ITSGAuthenticateUserSink::ReauthenticateUser","ReauthenticateUser","ReauthenticateUser method [Remote Desktop Services]","ReauthenticateUser method [Remote Desktop Services]","ITSGAuthenticateUserSink interface","termserv.itsgauthenticateusersink_reauthenticateuser","tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser"]
+description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
+helpviewer_keywords: ["ITSGAuthenticateUserSink interface [Remote Desktop Services]","ReauthenticateUser method","ITSGAuthenticateUserSink.ReauthenticateUser","ITSGAuthenticateUserSink::ReauthenticateUser","ReauthenticateUser","ReauthenticateUser method [Remote Desktop Services]","ReauthenticateUser method [Remote Desktop Services]","ITSGAuthenticateUserSink interface","termserv.itsgauthenticateusersink_reauthenticateuser","tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser"]
 old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
 tech.root: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
@@ -84,13 +85,8 @@ When this method is called, RD Gateway silently attempts to reauthenticate and 
     periodically reauthenticate the user as needed.
 
 
-#### Examples
+For a sample that uses the <b>ReauthenticateUser</b> method, see the [Remote Desktop Gateway Pluggable Authentication and Authorization](https://github.com/microsoftarchive/msdn-code-gallery-community-m-r/tree/master/Remote%20Desktop%20Gateway%20Pluggable%20Authentication%20and%20Authorization%20Sample) sample.
 
-For an example that uses the 
-     <b>ReauthenticateUser</b> method, see 
-     <a href="https://Code.MSDN.Microsoft.Com/Remote-Desktop-Gateway-517d6273">Remote Desktop Gateway Pluggable Authentication and Authorization Sample</a>.
-
-<div class="code"></div>
 
 
 

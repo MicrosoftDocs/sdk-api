@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HTTP_IS_NULL_ID
 title: HTTP_IS_NULL_ID macro (http.h)
-description: Determines if the HTTP_OPAQUE_ID is NULL.helpviewer_keywords: ["HTTP_IS_NULL_ID","HTTP_IS_NULL_ID macro [HTTP]","http.http_is_null_id","http/HTTP_IS_NULL_ID"]
+description: Determines if the HTTP_OPAQUE_ID is NULL.
+helpviewer_keywords: ["HTTP_IS_NULL_ID","HTTP_IS_NULL_ID macro [HTTP]","http.http_is_null_id","http/HTTP_IS_NULL_ID"]
 old-location: http\http_is_null_id.htm
 tech.root: http
 ms.assetid: 8a73585a-e531-4c5d-9ed3-9e6e1fef93ac

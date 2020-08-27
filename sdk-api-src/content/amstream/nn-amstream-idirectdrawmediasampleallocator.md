@@ -1,9 +1,10 @@
 ---
 UID: NN:amstream.IDirectDrawMediaSampleAllocator
 title: IDirectDrawMediaSampleAllocator (amstream.h)
-description: The IDirectDrawMediaSampleAllocator interface allocates samples that contain DirectDraw surfaces.The Overlay Mixer filter's input pin creates an allocator that implements this interface.helpviewer_keywords: ["IDirectDrawMediaSampleAllocator","IDirectDrawMediaSampleAllocator interface [DirectShow]","IDirectDrawMediaSampleAllocator interface [DirectShow]","described","IDirectDrawMediaSampleAllocatorInterface","amstream/IDirectDrawMediaSampleAllocator","dshow.idirectdrawmediasampleallocator"]
+description: The IDirectDrawMediaSampleAllocator interface allocates samples that contain DirectDraw surfaces.The Overlay Mixer filter's input pin creates an allocator that implements this interface.
+helpviewer_keywords: ["IDirectDrawMediaSampleAllocator","IDirectDrawMediaSampleAllocator interface [DirectShow]","IDirectDrawMediaSampleAllocator interface [DirectShow]","described","IDirectDrawMediaSampleAllocatorInterface","amstream/IDirectDrawMediaSampleAllocator","dshow.idirectdrawmediasampleallocator"]
 old-location: dshow\idirectdrawmediasampleallocator.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 35fd81ce-058a-4caf-b1de-f669be586f33
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], IDirectDrawMediaSampleAllocator interface [DirectShow],described, IDirectDrawMediaSampleAllocatorInterface, amstream/IDirectDrawMediaSampleAllocator, dshow.idirectdrawmediasampleallocator

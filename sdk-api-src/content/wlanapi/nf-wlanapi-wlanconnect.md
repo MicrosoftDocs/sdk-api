@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanConnect
 title: WlanConnect function (wlanapi.h)
-description: Attempts to connect to a specific network.helpviewer_keywords: ["WlanConnect","WlanConnect function [NativeWIFI]","nwifi.wlanconnect","wlanapi/WlanConnect"]
+description: Attempts to connect to a specific network.
+helpviewer_keywords: ["WlanConnect","WlanConnect function [NativeWIFI]","nwifi.wlanconnect","wlanapi/WlanConnect"]
 old-location: nwifi\wlanconnect.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 24ab2024-e786-454f-860f-cf2431f001bb
 ms.date: 12/05/2018
 ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, wlanapi/WlanConnect

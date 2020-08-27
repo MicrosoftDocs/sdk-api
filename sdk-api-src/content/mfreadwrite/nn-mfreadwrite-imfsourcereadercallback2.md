@@ -1,9 +1,10 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderCallback2
 title: IMFSourceReaderCallback2 (mfreadwrite.h)
-description: Extends the IMFSourceReaderCallback interface.helpviewer_keywords: ["IMFSourceReaderCallback2","IMFSourceReaderCallback2 interface [Media Foundation]","IMFSourceReaderCallback2 interface [Media Foundation]","described","mf.imfsourcereadercallback2","mfreadwrite/IMFSourceReaderCallback2"]
+description: Extends the IMFSourceReaderCallback interface.
+helpviewer_keywords: ["IMFSourceReaderCallback2","IMFSourceReaderCallback2 interface [Media Foundation]","IMFSourceReaderCallback2 interface [Media Foundation]","described","mf.imfsourcereadercallback2","mfreadwrite/IMFSourceReaderCallback2"]
 old-location: mf\imfsourcereadercallback2.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D0EC7FE9-74C3-4A7C-A5F3-798A3D6EF2CC
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], IMFSourceReaderCallback2 interface [Media Foundation],described, mf.imfsourcereadercallback2, mfreadwrite/IMFSourceReaderCallback2

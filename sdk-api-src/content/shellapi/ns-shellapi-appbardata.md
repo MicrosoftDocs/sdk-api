@@ -1,7 +1,8 @@
 ---
 UID: NS:shellapi._AppBarData
 title: APPBARDATA (shellapi.h)
-description: Contains information about a system appbar message.helpviewer_keywords: ["*PAPPBARDATA","ABE_BOTTOM","ABE_LEFT","ABE_RIGHT","ABE_TOP","APPBARDATA","APPBARDATA structure [Windows Shell]","PAPPBARDATA","PAPPBARDATA structure pointer [Windows Shell]","_win32_APPBARDATA","shell.APPBARDATA","shellapi/APPBARDATA","shellapi/PAPPBARDATA"]
+description: Contains information about a system appbar message.
+helpviewer_keywords: ["*PAPPBARDATA","ABE_BOTTOM","ABE_LEFT","ABE_RIGHT","ABE_TOP","APPBARDATA","APPBARDATA structure [Windows Shell]","PAPPBARDATA","PAPPBARDATA structure pointer [Windows Shell]","_win32_APPBARDATA","shell.APPBARDATA","shellapi/APPBARDATA","shellapi/PAPPBARDATA"]
 old-location: shell\APPBARDATA.htm
 tech.root: shell
 ms.assetid: cf86fe15-4beb-49b7-b73e-2ad61cedc3f8

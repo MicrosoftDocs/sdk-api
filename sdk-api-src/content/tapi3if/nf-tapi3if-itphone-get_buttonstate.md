@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonState
 title: ITPhone::get_ButtonState (tapi3if.h)
-description: The get_ButtonState method retrieves the button state associated with a particular button.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_ButtonState method","ITPhone.get_ButtonState","ITPhone::get_ButtonState","_tapi3_itphone_get_buttonstate","get_ButtonState","get_ButtonState method [TAPI 2.2]","get_ButtonState method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_buttonstate","tapi3if/ITPhone::get_ButtonState"]
+description: The get_ButtonState method retrieves the button state associated with a particular button.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_ButtonState method","ITPhone.get_ButtonState","ITPhone::get_ButtonState","_tapi3_itphone_get_buttonstate","get_ButtonState","get_ButtonState method [TAPI 2.2]","get_ButtonState method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_buttonstate","tapi3if/ITPhone::get_ButtonState"]
 old-location: tapi3\itphone_get_buttonstate.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f14e0593-0f03-4119-b80a-12d32b68aa99
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonState method, ITPhone.get_ButtonState, ITPhone::get_ButtonState, _tapi3_itphone_get_buttonstate, get_ButtonState, get_ButtonState method [TAPI 2.2], get_ButtonState method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonstate, tapi3if/ITPhone::get_ButtonState

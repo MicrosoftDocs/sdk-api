@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetLocalGroupDelMember
 title: NetLocalGroupDelMember function (lmaccess.h)
-description: The NetLocalGroupDelMember function is obsolete. You should use the NetLocalGroupDelMembers function instead.helpviewer_keywords: ["NetLocalGroupDelMember","NetLocalGroupDelMember function [Network Management]","_win32_netlocalgroupdelmember","lmaccess/NetLocalGroupDelMember","netmgmt.netlocalgroupdelmember"]
+description: The NetLocalGroupDelMember function is obsolete. You should use the NetLocalGroupDelMembers function instead.
+helpviewer_keywords: ["NetLocalGroupDelMember","NetLocalGroupDelMember function [Network Management]","_win32_netlocalgroupdelmember","lmaccess/NetLocalGroupDelMember","netmgmt.netlocalgroupdelmember"]
 old-location: netmgmt\netlocalgroupdelmember.htm
 tech.root: NetMgmt
 ms.assetid: 4a231da6-904e-4b49-9855-03e004a0b695

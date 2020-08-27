@@ -1,9 +1,10 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputCurrentType
 title: IMFTransform::GetOutputCurrentType (mftransform.h)
-description: Gets the current media type for an output stream on this Media Foundation transform (MFT).helpviewer_keywords: ["433c1918-4b87-40b1-a32b-db5cdd74d769","GetOutputCurrentType","GetOutputCurrentType method [Media Foundation]","GetOutputCurrentType method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputCurrentType method","IMFTransform.GetOutputCurrentType","IMFTransform::GetOutputCurrentType","mf.imftransform_getoutputcurrenttype","mftransform/IMFTransform::GetOutputCurrentType"]
+description: Gets the current media type for an output stream on this Media Foundation transform (MFT).
+helpviewer_keywords: ["433c1918-4b87-40b1-a32b-db5cdd74d769","GetOutputCurrentType","GetOutputCurrentType method [Media Foundation]","GetOutputCurrentType method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputCurrentType method","IMFTransform.GetOutputCurrentType","IMFTransform::GetOutputCurrentType","mf.imftransform_getoutputcurrenttype","mftransform/IMFTransform::GetOutputCurrentType"]
 old-location: mf\imftransform_getoutputcurrenttype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 433c1918-4b87-40b1-a32b-db5cdd74d769
 ms.date: 12/05/2018
 ms.keywords: 433c1918-4b87-40b1-a32b-db5cdd74d769, GetOutputCurrentType, GetOutputCurrentType method [Media Foundation], GetOutputCurrentType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputCurrentType method, IMFTransform.GetOutputCurrentType, IMFTransform::GetOutputCurrentType, mf.imftransform_getoutputcurrenttype, mftransform/IMFTransform::GetOutputCurrentType

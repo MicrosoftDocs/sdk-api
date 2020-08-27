@@ -1,9 +1,10 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.get_HWND
 title: IWebApplicationHost::get_HWND (webapplication.h)
-description: Gets the handle of the current WWAHost window.helpviewer_keywords: ["HWND property [Debugging Windows Store apps]","HWND property [Debugging Windows Store apps]","IWebApplicationHost interface","IWebApplicationHost interface [Debugging Windows Store apps]","HWND property","IWebApplicationHost.HWND","IWebApplicationHost.get_HWND","IWebApplicationHost::HWND","IWebApplicationHost::get_HWND","debug.iwebapplicationhost_hwnd","get_HWND","webapplication/IWebApplicationHost::HWND","webapplication/IWebApplicationHost::get_HWND"]
+description: Gets the handle of the current WWAHost window.
+helpviewer_keywords: ["HWND property [Debugging Windows Store apps]","HWND property [Debugging Windows Store apps]","IWebApplicationHost interface","IWebApplicationHost interface [Debugging Windows Store apps]","HWND property","IWebApplicationHost.HWND","IWebApplicationHost.get_HWND","IWebApplicationHost::HWND","IWebApplicationHost::get_HWND","debug.iwebapplicationhost_hwnd","get_HWND","webapplication/IWebApplicationHost::HWND","webapplication/IWebApplicationHost::get_HWND"]
 old-location: debug\iwebapplicationhost_hwnd.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: 7c013f82-6d1f-494d-9f7a-77c7ff72f0d4
 ms.date: 12/05/2018
 ms.keywords: HWND property [Debugging Windows Store apps], HWND property [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],HWND property, IWebApplicationHost.HWND, IWebApplicationHost.get_HWND, IWebApplicationHost::HWND, IWebApplicationHost::get_HWND, debug.iwebapplicationhost_hwnd, get_HWND, webapplication/IWebApplicationHost::HWND, webapplication/IWebApplicationHost::get_HWND

@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Thread32First
 title: Thread32First function (tlhelp32.h)
-description: Retrieves information about the first thread of any process encountered in a system snapshot.helpviewer_keywords: ["Thread32First","Thread32First function [ToolHelp]","_win32_thread32first","base.thread32first","tlhelp32/Thread32First","toolhelp.thread32first"]
+description: Retrieves information about the first thread of any process encountered in a system snapshot.
+helpviewer_keywords: ["Thread32First","Thread32First function [ToolHelp]","_win32_thread32first","base.thread32first","tlhelp32/Thread32First","toolhelp.thread32first"]
 old-location: toolhelp\thread32first.htm
 tech.root: ToolHelp
 ms.assetid: d4cb7a19-850e-43b5-bda5-91be48382d2a

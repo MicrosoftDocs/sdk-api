@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetwork.GetTimeCreatedAndConnected
 title: INetwork::GetTimeCreatedAndConnected (netlistmgr.h)
-description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.helpviewer_keywords: ["GetTimeCreatedAndConnected","GetTimeCreatedAndConnected method [Network Awareness]","GetTimeCreatedAndConnected method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetTimeCreatedAndConnected method","INetwork.GetTimeCreatedAndConnected","INetwork::GetTimeCreatedAndConnected","netlistmgr/INetwork::GetTimeCreatedAndConnected","nla.inetwork_gettimecreatedandconnected"]
+description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.
+helpviewer_keywords: ["GetTimeCreatedAndConnected","GetTimeCreatedAndConnected method [Network Awareness]","GetTimeCreatedAndConnected method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetTimeCreatedAndConnected method","INetwork.GetTimeCreatedAndConnected","INetwork::GetTimeCreatedAndConnected","netlistmgr/INetwork::GetTimeCreatedAndConnected","nla.inetwork_gettimecreatedandconnected"]
 old-location: nla\inetwork_gettimecreatedandconnected.htm
 tech.root: nla
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67

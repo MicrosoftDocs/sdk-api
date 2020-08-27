@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITFileTrack
 title: ITFileTrack (tapi3if.h)
-description: The ITFileTrack interface exposes methods that allow an application to get and set information concerning file terminal tracks. The ITFileTerminalEvent::get_Track method creates the ITFileTrack interface.helpviewer_keywords: ["ITFileTrack","ITFileTrack interface [TAPI 2.2]","ITFileTrack interface [TAPI 2.2]","described","_tapi3_itfiletrack","tapi3.itfiletrack","tapi3if/ITFileTrack"]
+description: The ITFileTrack interface exposes methods that allow an application to get and set information concerning file terminal tracks. The ITFileTerminalEvent::get_Track method creates the ITFileTrack interface.
+helpviewer_keywords: ["ITFileTrack","ITFileTrack interface [TAPI 2.2]","ITFileTrack interface [TAPI 2.2]","described","_tapi3_itfiletrack","tapi3.itfiletrack","tapi3if/ITFileTrack"]
 old-location: tapi3\itfiletrack.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 590ca1ea-e058-4238-b01c-249fddd3c87d
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack, ITFileTrack interface [TAPI 2.2], ITFileTrack interface [TAPI 2.2],described, _tapi3_itfiletrack, tapi3.itfiletrack, tapi3if/ITFileTrack

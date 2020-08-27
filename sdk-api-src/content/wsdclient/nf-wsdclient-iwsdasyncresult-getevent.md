@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEvent
 title: IWSDAsyncResult::GetEvent (wsdclient.h)
-description: Retrieves a WSD_EVENT structure that contains the result of the event.helpviewer_keywords: ["GetEvent","GetEvent method","GetEvent method","IWSDAsyncResult interface","IWSDAsyncResult interface","GetEvent method","IWSDAsyncResult.GetEvent","IWSDAsyncResult::GetEvent","ncd.iwsdasyncresult_getevent_method","wsdclient/IWSDAsyncResult::GetEvent"]
+description: Retrieves a WSD_EVENT structure that contains the result of the event.
+helpviewer_keywords: ["GetEvent","GetEvent method","GetEvent method","IWSDAsyncResult interface","IWSDAsyncResult interface","GetEvent method","IWSDAsyncResult.GetEvent","IWSDAsyncResult::GetEvent","ncd.iwsdasyncresult_getevent_method","wsdclient/IWSDAsyncResult::GetEvent"]
 old-location: ncd\iwsdasyncresult_getevent_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: de201c8b-9052-42f9-b95d-3b65cf0c86a3
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent

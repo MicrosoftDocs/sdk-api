@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.MFCreateASFIndexerByteStream
 title: MFCreateASFIndexerByteStream function (wmcontainer.h)
-description: Creates a byte stream to access the index in an ASF stream.helpviewer_keywords: ["MFCreateASFIndexerByteStream","MFCreateASFIndexerByteStream function [Media Foundation]","edcce9d4-9296-4b39-8e58-58ae602c250f","mf.mfcreateasfindexerbytestream","wmcontainer/MFCreateASFIndexerByteStream"]
+description: Creates a byte stream to access the index in an ASF stream.
+helpviewer_keywords: ["MFCreateASFIndexerByteStream","MFCreateASFIndexerByteStream function [Media Foundation]","edcce9d4-9296-4b39-8e58-58ae602c250f","mf.mfcreateasfindexerbytestream","wmcontainer/MFCreateASFIndexerByteStream"]
 old-location: mf\mfcreateasfindexerbytestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: edcce9d4-9296-4b39-8e58-58ae602c250f
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFIndexerByteStream, MFCreateASFIndexerByteStream function [Media Foundation], edcce9d4-9296-4b39-8e58-58ae602c250f, mf.mfcreateasfindexerbytestream, wmcontainer/MFCreateASFIndexerByteStream

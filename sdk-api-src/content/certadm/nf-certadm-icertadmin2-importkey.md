@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.ICertAdmin2.ImportKey
 title: ICertAdmin2::ImportKey (certadm.h)
-description: Adds an encrypted key set to an item in the Certificate Services database. The key set is encrypted to one or several key recovery agent (KRA) certificates.helpviewer_keywords: ["CR_IN_BASE64","CR_IN_BASE64HEADER","CR_IN_BINARY","ICertAdmin2 interface [Security]","ImportKey method","ICertAdmin2.ImportKey","ICertAdmin2::ImportKey","IKF_OVERWRITE","ImportKey","ImportKey method [Security]","ImportKey method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::ImportKey","security.icertadmin2_importkey"]
+description: Adds an encrypted key set to an item in the Certificate Services database. The key set is encrypted to one or several key recovery agent (KRA) certificates.
+helpviewer_keywords: ["CR_IN_BASE64","CR_IN_BASE64HEADER","CR_IN_BINARY","ICertAdmin2 interface [Security]","ImportKey method","ICertAdmin2.ImportKey","ICertAdmin2::ImportKey","IKF_OVERWRITE","ImportKey","ImportKey method [Security]","ImportKey method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::ImportKey","security.icertadmin2_importkey"]
 old-location: security\icertadmin2_importkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d71f20d7-5b27-41e5-adc1-6f0ae4160210
 ms.date: 12/05/2018
 ms.keywords: CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin2 interface [Security],ImportKey method, ICertAdmin2.ImportKey, ICertAdmin2::ImportKey, IKF_OVERWRITE, ImportKey, ImportKey method [Security], ImportKey method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportKey, security.icertadmin2_importkey

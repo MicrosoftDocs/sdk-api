@@ -1,9 +1,10 @@
 ---
 UID: NN:certadm.IOCSPCAConfiguration
 title: IOCSPCAConfiguration (certadm.h)
-description: Represents a set of definitions that enable an Online Certificate Status Protocol (OCSP) service to respond to a certificate status request for a specific certification authority (CA).helpviewer_keywords: ["IOCSPCAConfiguration","IOCSPCAConfiguration interface [Security]","IOCSPCAConfiguration interface [Security]","described","certadm/IOCSPCAConfiguration","security.iocspcaconfiguration"]
+description: Represents a set of definitions that enable an Online Certificate Status Protocol (OCSP) service to respond to a certificate status request for a specific certification authority (CA).
+helpviewer_keywords: ["IOCSPCAConfiguration","IOCSPCAConfiguration interface [Security]","IOCSPCAConfiguration interface [Security]","described","certadm/IOCSPCAConfiguration","security.iocspcaconfiguration"]
 old-location: security\iocspcaconfiguration.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 57900e1e-9c51-4c1b-aa42-634b6c3a9999
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], IOCSPCAConfiguration interface [Security],described, certadm/IOCSPCAConfiguration, security.iocspcaconfiguration

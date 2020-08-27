@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ProviderName
 title: IX509PrivateKey::put_ProviderName (certenroll.h)
-description: Specifies or retrieves the name of the cryptographic provider.helpviewer_keywords: ["IX509PrivateKey interface [Security]","ProviderName property","IX509PrivateKey.ProviderName","IX509PrivateKey.put_ProviderName","IX509PrivateKey::ProviderName","IX509PrivateKey::get_ProviderName","IX509PrivateKey::put_ProviderName","ProviderName property [Security]","ProviderName property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::ProviderName","certenroll/IX509PrivateKey::get_ProviderName","certenroll/IX509PrivateKey::put_ProviderName","put_ProviderName","security.ix509privatekey_providername"]
+description: Specifies or retrieves the name of the cryptographic provider.
+helpviewer_keywords: ["IX509PrivateKey interface [Security]","ProviderName property","IX509PrivateKey.ProviderName","IX509PrivateKey.put_ProviderName","IX509PrivateKey::ProviderName","IX509PrivateKey::get_ProviderName","IX509PrivateKey::put_ProviderName","ProviderName property [Security]","ProviderName property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::ProviderName","certenroll/IX509PrivateKey::get_ProviderName","certenroll/IX509PrivateKey::put_ProviderName","put_ProviderName","security.ix509privatekey_providername"]
 old-location: security\ix509privatekey_providername.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 42a348ae-9946-4d76-a035-14990d823449
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderName property, IX509PrivateKey.ProviderName, IX509PrivateKey.put_ProviderName, IX509PrivateKey::ProviderName, IX509PrivateKey::get_ProviderName, IX509PrivateKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderName, certenroll/IX509PrivateKey::get_ProviderName, certenroll/IX509PrivateKey::put_ProviderName, put_ProviderName, security.ix509privatekey_providername

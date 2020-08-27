@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLocal
 title: IXpsOMVisual::SetTransformLocal (xpsobjectmodel.h)
-description: Sets the local, unshared matrix transform.helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMVisual.SetTransformLocal","IXpsOMVisual::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_settransformlocal","xpsobjectmodel/IXpsOMVisual::SetTransformLocal"]
+description: Sets the local, unshared matrix transform.
+helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMVisual.SetTransformLocal","IXpsOMVisual::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_settransformlocal","xpsobjectmodel/IXpsOMVisual::SetTransformLocal"]
 old-location: xps\ixpsomvisual_settransformlocal.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMVisual.SetTransformLocal, IXpsOMVisual::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlocal, xpsobjectmodel/IXpsOMVisual::SetTransformLocal

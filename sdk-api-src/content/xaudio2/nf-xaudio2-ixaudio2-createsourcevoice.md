@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateSourceVoice
 title: IXAudio2::CreateSourceVoice (xaudio2.h)
-description: Creates and configures a source voice.helpviewer_keywords: ["CreateSourceVoice","CreateSourceVoice method [XAudio2 Audio Mixing APIs]","CreateSourceVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateSourceVoice method","IXAudio2.CreateSourceVoice","IXAudio2::CreateSourceVoice","xaudio2.ixaudio2_interface_createsourcevoice","xaudio2/IXAudio2::CreateSourceVoice"]
+description: Creates and configures a source voice.
+helpviewer_keywords: ["CreateSourceVoice","CreateSourceVoice method [XAudio2 Audio Mixing APIs]","CreateSourceVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateSourceVoice method","IXAudio2.CreateSourceVoice","IXAudio2::CreateSourceVoice","xaudio2.ixaudio2_interface_createsourcevoice","xaudio2/IXAudio2::CreateSourceVoice"]
 old-location: xaudio2\ixaudio2_interface_createsourcevoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSourceVoice(IXAudio2SourceVoice@,const WAVEFORMATEX,UINT32,float,IXAudio2VoiceCallback,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
@@ -145,7 +146,7 @@ TBD
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags that specify the behavior of the source voice. A flag can be 0 or a combination of one or more of the following:
 
@@ -175,7 +176,7 @@ Flags that specify the behavior of the source voice. A flag can be 0 or a combin
 <div class="alert"><b>Note</b>  The XAUDIO2_VOICE_MUSIC flag is not supported on Windows.</div>
 <div> </div>
 
-#### - MaxFrequencyRatio [in]
+### -param MaxFrequencyRatio [in]
 
 Highest allowable frequency ratio that can be set on this voice. The value for this argument must be between XAUDIO2_MIN_FREQ_RATIO and XAUDIO2_MAX_FREQ_RATIO. Subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio">IXAudio2SourceVoice::SetFrequencyRatio</a> are clamped between XAUDIO2_MIN_FREQ_RATIO and <b>MaxFrequencyRatio</b>. 
 The maximum value for this argument is defined as XAUDIO2_MAX_FREQ_RATIO, which allows pitch to be raised by up to 10 octaves.
@@ -203,17 +204,17 @@ If <i>MaxFrequencyRatio</i> is less than 1.0, the voice will use that ratio imme
 
 
 
-#### - pCallback [in, optional]
+### -param pCallback [in, optional]
 
 Pointer to a client-provided callback interface, <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback">IXAudio2VoiceCallback</a>.
 
 
-#### - pEffectChain [in, optional]
+### -param pEffectChain [in, optional]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the source voice.
 
 
-#### - pSendList [in, out]
+### -param pSendList [in, out]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the source voice. If pSendList is NULL, the send list defaults to a single output to the first mastering voice created.
 

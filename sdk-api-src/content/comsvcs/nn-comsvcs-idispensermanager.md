@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IDispenserManager
 title: IDispenserManager (comsvcs.h)
-description: Connects to the dispenser manager.helpviewer_keywords: ["IDispenserManager","IDispenserManager interface [COM+]","IDispenserManager interface [COM+]","described","_dtc_IDispenserManager_Interface","comsvcs/IDispenserManager","cos.idispensermanager"]
+description: Connects to the dispenser manager.
+helpviewer_keywords: ["IDispenserManager","IDispenserManager interface [COM+]","IDispenserManager interface [COM+]","described","_dtc_IDispenserManager_Interface","comsvcs/IDispenserManager","cos.idispensermanager"]
 old-location: cos\idispensermanager.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: a0465d78-f8b7-4934-9dc6-c8f0ead04bf1
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], IDispenserManager interface [COM+],described, _dtc_IDispenserManager_Interface, comsvcs/IDispenserManager, cos.idispensermanager

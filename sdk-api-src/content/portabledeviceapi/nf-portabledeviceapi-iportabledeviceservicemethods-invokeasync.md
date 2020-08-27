@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.InvokeAsync
 title: IPortableDeviceServiceMethods::InvokeAsync (portabledeviceapi.h)
-description: Asynchronously invokes a method.helpviewer_keywords: ["IPortableDeviceServiceMethods interface [Windows Portable Devices SDK]","InvokeAsync method","IPortableDeviceServiceMethods.InvokeAsync","IPortableDeviceServiceMethods::InvokeAsync","InvokeAsync","InvokeAsync method [Windows Portable Devices SDK]","InvokeAsync method [Windows Portable Devices SDK]","IPortableDeviceServiceMethods interface","portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync","wpdsdk.iportabledeviceservicemethods_invokeasync"]
+description: Asynchronously invokes a method.
+helpviewer_keywords: ["IPortableDeviceServiceMethods interface [Windows Portable Devices SDK]","InvokeAsync method","IPortableDeviceServiceMethods.InvokeAsync","IPortableDeviceServiceMethods::InvokeAsync","InvokeAsync","InvokeAsync method [Windows Portable Devices SDK]","InvokeAsync method [Windows Portable Devices SDK]","IPortableDeviceServiceMethods interface","portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync","wpdsdk.iportabledeviceservicemethods_invokeasync"]
 old-location: wpdsdk\iportabledeviceservicemethods_invokeasync.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 0acf416c-4d59-4eb5-b1ce-aef848b54949
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],InvokeAsync method, IPortableDeviceServiceMethods.InvokeAsync, IPortableDeviceServiceMethods::InvokeAsync, InvokeAsync, InvokeAsync method [Windows Portable Devices SDK], InvokeAsync method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync, wpdsdk.iportabledeviceservicemethods_invokeasync

@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnA
 title: DsBindWithSpnA function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.helpviewer_keywords: ["DsBindWithSpn","DsBindWithSpn function [Active Directory]","DsBindWithSpnA","DsBindWithSpnW","_glines_dsbindwithspn","ad.dsbindwithspn","ntdsapi/DsBindWithSpn","ntdsapi/DsBindWithSpnA","ntdsapi/DsBindWithSpnW"]
+description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
+helpviewer_keywords: ["DsBindWithSpn","DsBindWithSpn function [Active Directory]","DsBindWithSpnA","DsBindWithSpnW","_glines_dsbindwithspn","ad.dsbindwithspn","ntdsapi/DsBindWithSpn","ntdsapi/DsBindWithSpnA","ntdsapi/DsBindWithSpnW"]
 old-location: ad\dsbindwithspn.htm
 tech.root: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
@@ -122,4 +123,9 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ntdsapi.h header defines DsBindWithSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

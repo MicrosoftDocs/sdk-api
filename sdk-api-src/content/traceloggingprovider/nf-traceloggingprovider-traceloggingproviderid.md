@@ -54,4 +54,3 @@ The GUID of the provider ID specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](/w
 ## -remarks
 
 ## -see-also
-

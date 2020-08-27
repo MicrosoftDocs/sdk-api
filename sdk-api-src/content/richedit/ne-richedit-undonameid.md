@@ -1,7 +1,8 @@
 ---
 UID: NE:richedit._undonameid
 title: UNDONAMEID (richedit.h)
-description: Contains values that indicate types of rich edit control actions that can be undone or redone. The EM_GETREDONAME and EM_GETUNDONAME messages use this enumeration type to return a value.helpviewer_keywords: ["UID_AUTOTABLE","UID_CUT","UID_DELETE","UID_DRAGDROP","UID_PASTE","UID_TYPING","UID_UNKNOWN","UNDONAMEID","UNDONAMEID enumeration [Windows Controls]","_win32_UNDONAMEID_str","_win32_UNDONAMEID_str_cpp","controls.UNDONAMEID","controls._win32_UNDONAMEID_str","richedit/UID_AUTOTABLE","richedit/UID_CUT","richedit/UID_DELETE","richedit/UID_DRAGDROP","richedit/UID_PASTE","richedit/UID_TYPING","richedit/UID_UNKNOWN","richedit/UNDONAMEID"]
+description: Contains values that indicate types of rich edit control actions that can be undone or redone. The EM_GETREDONAME and EM_GETUNDONAME messages use this enumeration type to return a value.
+helpviewer_keywords: ["UID_AUTOTABLE","UID_CUT","UID_DELETE","UID_DRAGDROP","UID_PASTE","UID_TYPING","UID_UNKNOWN","UNDONAMEID","UNDONAMEID enumeration [Windows Controls]","_win32_UNDONAMEID_str","_win32_UNDONAMEID_str_cpp","controls.UNDONAMEID","controls._win32_UNDONAMEID_str","richedit/UID_AUTOTABLE","richedit/UID_CUT","richedit/UID_DELETE","richedit/UID_DRAGDROP","richedit/UID_PASTE","richedit/UID_TYPING","richedit/UID_UNKNOWN","richedit/UNDONAMEID"]
 old-location: controls\UNDONAMEID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\undonameid.htm

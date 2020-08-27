@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetBuffered
 title: IMFMediaEngine::GetBuffered (mfmediaengine.h)
-description: Queries how much resource data the media engine has buffered.helpviewer_keywords: ["GetBuffered","GetBuffered method [Media Foundation]","GetBuffered method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetBuffered method","IMFMediaEngine.GetBuffered","IMFMediaEngine::GetBuffered","mf.imfmediaengine_getbuffered","mfmediaengine/IMFMediaEngine::GetBuffered"]
+description: Queries how much resource data the media engine has buffered.
+helpviewer_keywords: ["GetBuffered","GetBuffered method [Media Foundation]","GetBuffered method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetBuffered method","IMFMediaEngine.GetBuffered","IMFMediaEngine::GetBuffered","mf.imfmediaengine_getbuffered","mfmediaengine/IMFMediaEngine::GetBuffered"]
 old-location: mf\imfmediaengine_getbuffered.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 38DABEE7-04AF-4542-AF4D-7988C824EA11
 ms.date: 12/05/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetBuffered method, IMFMediaEngine.GetBuffered, IMFMediaEngine::GetBuffered, mf.imfmediaengine_getbuffered, mfmediaengine/IMFMediaEngine::GetBuffered

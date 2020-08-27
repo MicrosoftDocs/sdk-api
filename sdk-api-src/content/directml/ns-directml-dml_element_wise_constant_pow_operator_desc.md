@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC
 title: DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC
-description: Describes a DirectML operator that performs the element-wise constant power function f(x) = pow(x * scale + bias, exponent), where the scale and bias terms are optional. The power function raises every element in the input to the power of the exponent.helpviewer_keywords: ["DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC","DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC structure","direct3d12.dml_element_wise_constant_pow_operator_desc","directml/DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs the element-wise constant power function f(x) = pow(x * scale + bias, exponent), where the scale and bias terms are optional. The power function raises every element in the input to the power of the exponent.
+helpviewer_keywords: ["DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC","DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC structure","direct3d12.dml_element_wise_constant_pow_operator_desc","directml/DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_constant_pow_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: A9E4FD02-7819-4805-91B1-80E82CF94B6B
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC, DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC structure, direct3d12.dml_element_wise_constant_pow_operator_desc, directml/DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC

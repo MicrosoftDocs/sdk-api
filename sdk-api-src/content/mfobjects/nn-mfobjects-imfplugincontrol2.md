@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFPluginControl2
 title: IMFPluginControl2 (mfobjects.h)
-description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.helpviewer_keywords: ["IMFPluginControl2","IMFPluginControl2 interface [Media Foundation]","IMFPluginControl2 interface [Media Foundation]","described","mf.imfplugincontrol2","mfobjects/IMFPluginControl2"]
+description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
+helpviewer_keywords: ["IMFPluginControl2","IMFPluginControl2 interface [Media Foundation]","IMFPluginControl2 interface [Media Foundation]","described","mf.imfplugincontrol2","mfobjects/IMFPluginControl2"]
 old-location: mf\imfplugincontrol2.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 15BD57FC-7CEF-45DC-AF94-3E54A3A9477A
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl2, IMFPluginControl2 interface [Media Foundation], IMFPluginControl2 interface [Media Foundation],described, mf.imfplugincontrol2, mfobjects/IMFPluginControl2

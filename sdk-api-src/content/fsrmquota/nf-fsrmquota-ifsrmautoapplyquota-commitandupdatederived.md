@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.CommitAndUpdateDerived
 title: IFsrmAutoApplyQuota::CommitAndUpdateDerived (fsrmquota.h)
-description: Saves the quota and then applies any changes to the derived quotas.helpviewer_keywords: ["CommitAndUpdateDerived","CommitAndUpdateDerived method [File Server Resource Manager]","CommitAndUpdateDerived method [File Server Resource Manager]","IFsrmAutoApplyQuota interface","IFsrmAutoApplyQuota interface [File Server Resource Manager]","CommitAndUpdateDerived method","IFsrmAutoApplyQuota.CommitAndUpdateDerived","IFsrmAutoApplyQuota::CommitAndUpdateDerived","fs.ifsrmautoapplyquota_commitandupdatederived","fsrm.ifsrmautoapplyquota_commitandupdatederived","fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived"]
+description: Saves the quota and then applies any changes to the derived quotas.
+helpviewer_keywords: ["CommitAndUpdateDerived","CommitAndUpdateDerived method [File Server Resource Manager]","CommitAndUpdateDerived method [File Server Resource Manager]","IFsrmAutoApplyQuota interface","IFsrmAutoApplyQuota interface [File Server Resource Manager]","CommitAndUpdateDerived method","IFsrmAutoApplyQuota.CommitAndUpdateDerived","IFsrmAutoApplyQuota::CommitAndUpdateDerived","fs.ifsrmautoapplyquota_commitandupdatederived","fsrm.ifsrmautoapplyquota_commitandupdatederived","fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived"]
 old-location: fsrm\ifsrmautoapplyquota_commitandupdatederived.htm
 tech.root: fsrm
 ms.assetid: f988b78d-214a-4f4f-81d4-d7f59fecb02a

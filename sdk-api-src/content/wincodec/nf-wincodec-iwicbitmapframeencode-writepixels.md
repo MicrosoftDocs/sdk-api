@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WritePixels
 title: IWICBitmapFrameEncode::WritePixels (wincodec.h)
-description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","WritePixels method","IWICBitmapFrameEncode.WritePixels","IWICBitmapFrameEncode::WritePixels","WritePixels","WritePixels method [Windows Imaging Component]","WritePixels method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_writepixels","wic._wic_codec_iwicbitmapframeencode_writepixels","wincodec/IWICBitmapFrameEncode::WritePixels"]
+description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.
+helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","WritePixels method","IWICBitmapFrameEncode.WritePixels","IWICBitmapFrameEncode::WritePixels","WritePixels","WritePixels method [Windows Imaging Component]","WritePixels method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_writepixels","wic._wic_codec_iwicbitmapframeencode_writepixels","wincodec/IWICBitmapFrameEncode::WritePixels"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm
 tech.root: wic
 ms.assetid: 6b430fe0-5230-47dc-95c0-aeabd138cefe

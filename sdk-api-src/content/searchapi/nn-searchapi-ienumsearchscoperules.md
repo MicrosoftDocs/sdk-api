@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.IEnumSearchScopeRules
 title: IEnumSearchScopeRules (searchapi.h)
-description: Enumerates scope rules.helpviewer_keywords: ["IEnumSearchScopeRules","IEnumSearchScopeRules interface [search]","IEnumSearchScopeRules interface [search]","described","_search_IEnumSearchScopeRules","search._search_IEnumSearchScopeRules","searchapi/IEnumSearchScopeRules"]
+description: Enumerates scope rules.
+helpviewer_keywords: ["IEnumSearchScopeRules","IEnumSearchScopeRules interface [search]","IEnumSearchScopeRules interface [search]","described","_search_IEnumSearchScopeRules","search._search_IEnumSearchScopeRules","searchapi/IEnumSearchScopeRules"]
 old-location: search\_search_IEnumSearchScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\ienumsearchscoperules.htm
@@ -109,9 +110,7 @@ Skips the specified number of elements.
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+For a sample that demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations, see the [CrawlScopeCommandLine](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/CrawlScopeCommandLine) sample.
       
 
 

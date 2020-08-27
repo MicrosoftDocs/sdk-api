@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_BUFFER_TENSOR_DESC
 title: DML_BUFFER_TENSOR_DESC
-description: Describes a tensor that will be stored in a Direct3D 12 buffer resource.helpviewer_keywords: ["DML_BUFFER_TENSOR_DESC","DML_BUFFER_TENSOR_DESC structure","direct3d12.dml_buffer_tensor_desc","directml/DML_BUFFER_TENSOR_DESC"]
+description: Describes a tensor that will be stored in a Direct3D 12 buffer resource.
+helpviewer_keywords: ["DML_BUFFER_TENSOR_DESC","DML_BUFFER_TENSOR_DESC structure","direct3d12.dml_buffer_tensor_desc","directml/DML_BUFFER_TENSOR_DESC"]
 old-location: direct3d12\dml_buffer_tensor_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC

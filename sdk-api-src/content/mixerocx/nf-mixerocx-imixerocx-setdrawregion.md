@@ -1,9 +1,10 @@
 ---
 UID: NF:mixerocx.IMixerOCX.SetDrawRegion
 title: IMixerOCX::SetDrawRegion (mixerocx.h)
-description: The SetDrawRegion method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.helpviewer_keywords: ["IMixerOCX interface [DirectShow]","SetDrawRegion method","IMixerOCX.SetDrawRegion","IMixerOCX::SetDrawRegion","IMixerOCXSetDrawRegion","SetDrawRegion","SetDrawRegion method [DirectShow]","SetDrawRegion method [DirectShow]","IMixerOCX interface","dshow.imixerocx_setdrawregion","mixerocx/IMixerOCX::SetDrawRegion"]
+description: The SetDrawRegion method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
+helpviewer_keywords: ["IMixerOCX interface [DirectShow]","SetDrawRegion method","IMixerOCX.SetDrawRegion","IMixerOCX::SetDrawRegion","IMixerOCXSetDrawRegion","SetDrawRegion","SetDrawRegion method [DirectShow]","SetDrawRegion method [DirectShow]","IMixerOCX interface","dshow.imixerocx_setdrawregion","mixerocx/IMixerOCX::SetDrawRegion"]
 old-location: dshow\imixerocx_setdrawregion.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6f1a9b00-4a35-4772-a185-59b2bc9b9398
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],SetDrawRegion method, IMixerOCX.SetDrawRegion, IMixerOCX::SetDrawRegion, IMixerOCXSetDrawRegion, SetDrawRegion, SetDrawRegion method [DirectShow], SetDrawRegion method [DirectShow],IMixerOCX interface, dshow.imixerocx_setdrawregion, mixerocx/IMixerOCX::SetDrawRegion

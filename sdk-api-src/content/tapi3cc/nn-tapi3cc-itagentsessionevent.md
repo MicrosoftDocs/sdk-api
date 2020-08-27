@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3cc.ITAgentSessionEvent
 title: ITAgentSessionEvent (tapi3cc.h)
-description: The ITAgentSessionEvent interface contains methods that retrieve the description of agent session events.helpviewer_keywords: ["ITAgentSessionEvent","ITAgentSessionEvent interface [TAPI 2.2]","ITAgentSessionEvent interface [TAPI 2.2]","described","_tapi3_itagentsessionevent","tapi3.itagentsessionevent","tapi3cc/ITAgentSessionEvent"]
+description: The ITAgentSessionEvent interface contains methods that retrieve the description of agent session events.
+helpviewer_keywords: ["ITAgentSessionEvent","ITAgentSessionEvent interface [TAPI 2.2]","ITAgentSessionEvent interface [TAPI 2.2]","described","_tapi3_itagentsessionevent","tapi3.itagentsessionevent","tapi3cc/ITAgentSessionEvent"]
 old-location: tapi3\itagentsessionevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 70d37d06-b1a6-4f7e-bfe5-731d1b4cd66b
 ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent, ITAgentSessionEvent interface [TAPI 2.2], ITAgentSessionEvent interface [TAPI 2.2],described, _tapi3_itagentsessionevent, tapi3.itagentsessionevent, tapi3cc/ITAgentSessionEvent

@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.EnumerateDeviceServices
 title: IMbnDeviceServicesContext::EnumerateDeviceServices (mbnapi.h)
-description: Gets the list of supported device services by the Mobile Broadband device.helpviewer_keywords: ["EnumerateDeviceServices","EnumerateDeviceServices method [Microsoft Broadband Networks]","EnumerateDeviceServices method [Microsoft Broadband Networks]","IMbnDeviceServicesContext interface","IMbnDeviceServicesContext interface [Microsoft Broadband Networks]","EnumerateDeviceServices method","IMbnDeviceServicesContext.EnumerateDeviceServices","IMbnDeviceServicesContext::EnumerateDeviceServices","mbn.imbndeviceservicescontext_enumeratedeviceservices","mbnapi/IMbnDeviceServicesContext::EnumerateDeviceServices"]
+description: Gets the list of supported device services by the Mobile Broadband device.
+helpviewer_keywords: ["EnumerateDeviceServices","EnumerateDeviceServices method [Microsoft Broadband Networks]","EnumerateDeviceServices method [Microsoft Broadband Networks]","IMbnDeviceServicesContext interface","IMbnDeviceServicesContext interface [Microsoft Broadband Networks]","EnumerateDeviceServices method","IMbnDeviceServicesContext.EnumerateDeviceServices","IMbnDeviceServicesContext::EnumerateDeviceServices","mbn.imbndeviceservicescontext_enumeratedeviceservices","mbnapi/IMbnDeviceServicesContext::EnumerateDeviceServices"]
 old-location: mbn\imbndeviceservicescontext_enumeratedeviceservices.htm
 tech.root: mbn
 ms.assetid: 90CB9B2E-16CA-48A0-AF16-937D816718D6

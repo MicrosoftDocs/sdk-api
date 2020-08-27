@@ -6,7 +6,6 @@
     "d3d12sdklayers.h",
     "d3d12shader.h",
     "d3dx12.h",
-    "directml.h",
     "windows.graphics.holographic.interop.h"
   ],
   "displayName": "Direct3D 12 Graphics"

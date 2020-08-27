@@ -1,9 +1,10 @@
 ---
 UID: NS:winwlx._WLX_PROFILE_V2_0
 title: WLX_PROFILE_V2_0 (winwlx.h)
-description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.helpviewer_keywords: ["*PWLX_PROFILE_V2_0","PWLX_PROFILE_V2_0","PWLX_PROFILE_V2_0 structure pointer [Security]","WLX_PROFILE_V2_0","WLX_PROFILE_V2_0 structure [Security]","_gina_wlx_profile_v2_0","security.wlx_profile_v2_0","winwlx/PWLX_PROFILE_V2_0","winwlx/WLX_PROFILE_V2_0"]
+description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
+helpviewer_keywords: ["*PWLX_PROFILE_V2_0","PWLX_PROFILE_V2_0","PWLX_PROFILE_V2_0 structure pointer [Security]","WLX_PROFILE_V2_0","WLX_PROFILE_V2_0 structure [Security]","_gina_wlx_profile_v2_0","security.wlx_profile_v2_0","winwlx/PWLX_PROFILE_V2_0","winwlx/WLX_PROFILE_V2_0"]
 old-location: security\wlx_profile_v2_0.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 6ecec95f-e663-4fb3-b2d4-82984f31cb62
 ms.date: 12/05/2018
 ms.keywords: '*PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0 structure pointer [Security], WLX_PROFILE_V2_0, WLX_PROFILE_V2_0 structure [Security], _gina_wlx_profile_v2_0, security.wlx_profile_v2_0, winwlx/PWLX_PROFILE_V2_0, winwlx/WLX_PROFILE_V2_0'

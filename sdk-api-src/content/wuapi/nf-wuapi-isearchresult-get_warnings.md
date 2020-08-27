@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.ISearchResult.get_Warnings
 title: ISearchResult::get_Warnings (wuapi.h)
-description: Gets a collection of the warnings that result from a search.helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","Warnings property","ISearchResult.Warnings","ISearchResult.get_Warnings","ISearchResult::Warnings","ISearchResult::get_Warnings","Warnings property [Windows Update Agent]","Warnings property [Windows Update Agent]","ISearchResult interface","get_Warnings","wua.isearchresult_warnings","wuapi/ISearchResult::Warnings","wuapi/ISearchResult::get_Warnings"]
+description: Gets a collection of the warnings that result from a search.
+helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","Warnings property","ISearchResult.Warnings","ISearchResult.get_Warnings","ISearchResult::Warnings","ISearchResult::get_Warnings","Warnings property [Windows Update Agent]","Warnings property [Windows Update Agent]","ISearchResult interface","get_Warnings","wua.isearchresult_warnings","wuapi/ISearchResult::Warnings","wuapi/ISearchResult::get_Warnings"]
 old-location: wua\isearchresult_warnings.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a341676e-75b3-46e5-8c55-b070147d4277
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Warnings property, ISearchResult.Warnings, ISearchResult.get_Warnings, ISearchResult::Warnings, ISearchResult::get_Warnings, Warnings property [Windows Update Agent], Warnings property [Windows Update Agent],ISearchResult interface, get_Warnings, wua.isearchresult_warnings, wuapi/ISearchResult::Warnings, wuapi/ISearchResult::get_Warnings

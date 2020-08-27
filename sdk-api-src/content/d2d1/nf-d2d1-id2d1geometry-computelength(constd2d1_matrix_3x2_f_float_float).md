@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F,FLOAT,FLOAT)
+UID: NF:d2d1.ID2D1Geometry.ComputeLength(constD2D1_MATRIX_3X2_F,FLOAT,FLOAT)
 title: ID2D1Geometry::ComputeLength (d2d1.h)
 description: Calculates the length of the geometry as though each segment were unrolled into a line.
 helpviewer_keywords: ["ComputeLength","ComputeLength method [Direct2D]","ComputeLength method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","ComputeLength method","ID2D1Geometry.ComputeLength","ID2D1Geometry::ComputeLength","ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F","FLOAT","FLOAT)","d2d1/ID2D1Geometry::ComputeLength","direct2d.ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT"]
@@ -56,7 +56,7 @@ Type: [in, optional] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f
 
 The transform to apply to the geometry before calculating its length, or <b>NULL</b>.
 
-#### - flatteningTolerance
+### -param flatteningTolerance
 
 Type: [in] <b>FLOAT</b>
 

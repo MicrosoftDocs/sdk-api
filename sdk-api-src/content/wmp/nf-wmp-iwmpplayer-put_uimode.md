@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_uiMode
 title: IWMPPlayer::put_uiMode (wmp.h)
-description: The put_uiMode method specifies a value indicating which controls are shown in the user interface.helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","put_uiMode method","IWMPPlayer.put_uiMode","IWMPPlayer::put_uiMode","IWMPPlayerput_uiMode","put_uiMode","put_uiMode method [Windows Media Player]","put_uiMode method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_put_uimode","wmp/IWMPPlayer::put_uiMode"]
+description: The put_uiMode method specifies a value indicating which controls are shown in the user interface.
+helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","put_uiMode method","IWMPPlayer.put_uiMode","IWMPPlayer::put_uiMode","IWMPPlayerput_uiMode","put_uiMode","put_uiMode method [Windows Media Player]","put_uiMode method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_put_uimode","wmp/IWMPPlayer::put_uiMode"]
 old-location: wmp\iwmpplayer_put_uimode.htm
 tech.root: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6

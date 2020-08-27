@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteProperty
 title: IContactProperties::DeleteProperty (icontact.h)
-description: Deletes the value at a specified property. Property modification and version data can still be enumerated with IContactPropertyCollection.helpviewer_keywords: ["DeleteProperty","DeleteProperty method [Windows Contacts]","DeleteProperty method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","DeleteProperty method","IContactProperties.DeleteProperty","IContactProperties::DeleteProperty","_wincontacts_IContactProperties_DeleteProperty","icontact/IContactProperties::DeleteProperty","wincontacts._wincontacts_IContactProperties_DeleteProperty"]
+description: Deletes the value at a specified property. Property modification and version data can still be enumerated with IContactPropertyCollection.
+helpviewer_keywords: ["DeleteProperty","DeleteProperty method [Windows Contacts]","DeleteProperty method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","DeleteProperty method","IContactProperties.DeleteProperty","IContactProperties::DeleteProperty","_wincontacts_IContactProperties_DeleteProperty","icontact/IContactProperties::DeleteProperty","wincontacts._wincontacts_IContactProperties_DeleteProperty"]
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteProperty.htm
 tech.root: wincontacts
 ms.assetid: 74ed72da-e82c-4257-9d16-c5204a88c9bf

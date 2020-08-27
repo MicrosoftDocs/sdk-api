@@ -1,9 +1,10 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReader
 title: IMFSourceReader (mfreadwrite.h)
-description: Implemented by the Microsoft Media Foundation source reader object.helpviewer_keywords: ["IMFSourceReader","IMFSourceReader interface [Media Foundation]","IMFSourceReader interface [Media Foundation]","described","mf.imfsourcereader","mfreadwrite/IMFSourceReader"]
+description: Implemented by the Microsoft Media Foundation source reader object.
+helpviewer_keywords: ["IMFSourceReader","IMFSourceReader interface [Media Foundation]","IMFSourceReader interface [Media Foundation]","described","mf.imfsourcereader","mfreadwrite/IMFSourceReader"]
 old-location: mf\imfsourcereader.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7d3cc314-6b9e-437c-afda-ee1965a12721
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], IMFSourceReader interface [Media Foundation],described, mf.imfsourcereader, mfreadwrite/IMFSourceReader

@@ -1,9 +1,10 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsKeepPixelAspectRatio
 title: IFullScreenVideoEx::IsKeepPixelAspectRatio (amvideo.h)
-description: The IsKeepPixelAspectRatio method queries whether the pixel aspect ratio is maintained. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsKeepPixelAspectRatio method","IFullScreenVideoEx.IsKeepPixelAspectRatio","IFullScreenVideoEx::IsKeepPixelAspectRatio","IFullScreenVideoExIsKeepPixelAspectRatio","IsKeepPixelAspectRatio","IsKeepPixelAspectRatio method [DirectShow]","IsKeepPixelAspectRatio method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio","dshow.ifullscreenvideoex_iskeeppixelaspectratio"]
+description: The IsKeepPixelAspectRatio method queries whether the pixel aspect ratio is maintained. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsKeepPixelAspectRatio method","IFullScreenVideoEx.IsKeepPixelAspectRatio","IFullScreenVideoEx::IsKeepPixelAspectRatio","IFullScreenVideoExIsKeepPixelAspectRatio","IsKeepPixelAspectRatio","IsKeepPixelAspectRatio method [DirectShow]","IsKeepPixelAspectRatio method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio","dshow.ifullscreenvideoex_iskeeppixelaspectratio"]
 old-location: dshow\ifullscreenvideoex_iskeeppixelaspectratio.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3f3b55d9-b504-42a3-b60a-65073d1e1447
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsKeepPixelAspectRatio method, IFullScreenVideoEx.IsKeepPixelAspectRatio, IFullScreenVideoEx::IsKeepPixelAspectRatio, IFullScreenVideoExIsKeepPixelAspectRatio, IsKeepPixelAspectRatio, IsKeepPixelAspectRatio method [DirectShow], IsKeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio, dshow.ifullscreenvideoex_iskeeppixelaspectratio

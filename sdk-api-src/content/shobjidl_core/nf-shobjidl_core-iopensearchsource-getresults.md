@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IOpenSearchSource.GetResults
 title: IOpenSearchSource::GetResults (shobjidl_core.h)
-description: Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.helpviewer_keywords: ["GetResults","GetResults method [Windows Shell]","GetResults method [Windows Shell]","IOpenSearchSource interface","IOpenSearchSource interface [Windows Shell]","GetResults method","IOpenSearchSource.GetResults","IOpenSearchSource::GetResults","_shell_IOpenSearchSource_GetResults","shell.IOpenSearchSource_GetResults","shobjidl_core/IOpenSearchSource::GetResults"]
+description: Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
+helpviewer_keywords: ["GetResults","GetResults method [Windows Shell]","GetResults method [Windows Shell]","IOpenSearchSource interface","IOpenSearchSource interface [Windows Shell]","GetResults method","IOpenSearchSource.GetResults","IOpenSearchSource::GetResults","_shell_IOpenSearchSource_GetResults","shell.IOpenSearchSource_GetResults","shobjidl_core/IOpenSearchSource::GetResults"]
 old-location: shell\IOpenSearchSource_GetResults.htm
 tech.root: shell
 ms.assetid: 4fc16c04-cfb6-4f50-8325-bd3fc0b8f557

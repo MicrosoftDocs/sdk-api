@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.ZoomByUnit
 title: ITransformProvider2::ZoomByUnit (uiautomationcore.h)
-description: Zooms the viewport of the control by the specified logical unit.helpviewer_keywords: ["ITransformProvider2 interface [Windows Accessibility]","ZoomByUnit method","ITransformProvider2.ZoomByUnit","ITransformProvider2::ZoomByUnit","ZoomByUnit","ZoomByUnit method [Windows Accessibility]","ZoomByUnit method [Windows Accessibility]","ITransformProvider2 interface","uiautomationcore/ITransformProvider2::ZoomByUnit","winauto.uiauto_itransformprovider2_zoombyunit"]
+description: Zooms the viewport of the control by the specified logical unit.
+helpviewer_keywords: ["ITransformProvider2 interface [Windows Accessibility]","ZoomByUnit method","ITransformProvider2.ZoomByUnit","ITransformProvider2::ZoomByUnit","ZoomByUnit","ZoomByUnit method [Windows Accessibility]","ZoomByUnit method [Windows Accessibility]","ITransformProvider2 interface","uiautomationcore/ITransformProvider2::ZoomByUnit","winauto.uiauto_itransformprovider2_zoombyunit"]
 old-location: winauto\uiauto_itransformprovider2_zoombyunit.htm
 tech.root: WinAuto
 ms.assetid: FB75D568-A1E4-4B39-A0FE-FE42E79C93B2
@@ -59,7 +60,7 @@ Zooms the viewport of the control by the specified logical unit.
 
 
 
-#### - zoomUnit
+### -param zoomUnit
 
 The logical unit by which to increase or decrease the zoom of the viewport.
 

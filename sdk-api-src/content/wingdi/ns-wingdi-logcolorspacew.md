@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagLOGCOLORSPACEW
 title: LOGCOLORSPACEW (wingdi.h)
-description: The LOGCOLORSPACE structure contains information that defines a logical color space.helpviewer_keywords: ["*LPLOGCOLORSPACEW","LOGCOLORSPACE","LOGCOLORSPACE structure [Windows Color System]","LOGCOLORSPACEW","LPLOGCOLORSPACE","LPLOGCOLORSPACE structure pointer [Windows Color System]","_color_LOGCOLORSPACE_str","wcs.logcolorspace","wingdi/LOGCOLORSPACE","wingdi/LPLOGCOLORSPACE"]
+description: The LOGCOLORSPACE structure contains information that defines a logical color space.
+helpviewer_keywords: ["*LPLOGCOLORSPACEW","LOGCOLORSPACE","LOGCOLORSPACE structure [Windows Color System]","LOGCOLORSPACEW","LPLOGCOLORSPACE","LPLOGCOLORSPACE structure pointer [Windows Color System]","_color_LOGCOLORSPACE_str","wcs.logcolorspace","wingdi/LOGCOLORSPACE","wingdi/LPLOGCOLORSPACE"]
 old-location: wcs\logcolorspace.htm
 tech.root: WCS
 ms.assetid: b08aec07-6ac0-47be-8dc9-d604d94dedde
@@ -192,6 +193,10 @@ If the lcsCSType member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines LOGCOLORSPACE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

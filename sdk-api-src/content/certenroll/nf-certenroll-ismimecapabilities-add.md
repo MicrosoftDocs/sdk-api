@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Add
 title: ISmimeCapabilities::Add (certenroll.h)
-description: Adds an ISmimeCapability object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","Add method","ISmimeCapabilities.Add","ISmimeCapabilities::Add","certenroll/ISmimeCapabilities::Add","security.ismimecapabilities_add_method"]
+description: Adds an ISmimeCapability object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","Add method","ISmimeCapabilities.Add","ISmimeCapabilities::Add","certenroll/ISmimeCapabilities::Add","security.ismimecapabilities_add_method"]
 old-location: security\ismimecapabilities_add_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8ad35758-0dc1-4887-aea7-b8ead537cab2
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Add method, ISmimeCapabilities.Add, ISmimeCapabilities::Add, certenroll/ISmimeCapabilities::Add, security.ismimecapabilities_add_method

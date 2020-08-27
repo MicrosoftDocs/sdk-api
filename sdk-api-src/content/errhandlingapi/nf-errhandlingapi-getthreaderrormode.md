@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.GetThreadErrorMode
 title: GetThreadErrorMode function (errhandlingapi.h)
-description: Retrieves the error mode for the calling thread.helpviewer_keywords: ["GetThreadErrorMode","GetThreadErrorMode function","base.getthreaderrormode","errhandlingapi/GetThreadErrorMode"]
+description: Retrieves the error mode for the calling thread.
+helpviewer_keywords: ["GetThreadErrorMode","GetThreadErrorMode function","base.getthreaderrormode","errhandlingapi/GetThreadErrorMode"]
 old-location: base\getthreaderrormode.htm
 tech.root: Debug
 ms.assetid: 246d838a-ba16-4ba4-8cd3-f25dfc7d2f23

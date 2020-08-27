@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.CreateLunInStoragePool
 title: IVdsHwProviderStoragePools::CreateLunInStoragePool (vds.h)
-description: Creates a LUN in a storage pool.helpviewer_keywords: ["CreateLunInStoragePool","CreateLunInStoragePool method","CreateLunInStoragePool method","IVdsHwProviderStoragePools interface","IVdsHwProviderStoragePools interface","CreateLunInStoragePool method","IVdsHwProviderStoragePools.CreateLunInStoragePool","IVdsHwProviderStoragePools::CreateLunInStoragePool","base.ivdshwproviderstoragepools_createluninstoragepool","vds/IVdsHwProviderStoragePools::CreateLunInStoragePool","vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool"]
+description: Creates a LUN in a storage pool.
+helpviewer_keywords: ["CreateLunInStoragePool","CreateLunInStoragePool method","CreateLunInStoragePool method","IVdsHwProviderStoragePools interface","IVdsHwProviderStoragePools interface","CreateLunInStoragePool method","IVdsHwProviderStoragePools.CreateLunInStoragePool","IVdsHwProviderStoragePools::CreateLunInStoragePool","base.ivdshwproviderstoragepools_createluninstoragepool","vds/IVdsHwProviderStoragePools::CreateLunInStoragePool","vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool"]
 old-location: base\ivdshwproviderstoragepools_createluninstoragepool.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 17377671-1a30-4aeb-bc89-3c1e3823d3fe
 ms.date: 12/05/2018
 ms.keywords: CreateLunInStoragePool, CreateLunInStoragePool method, CreateLunInStoragePool method,IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,CreateLunInStoragePool method, IVdsHwProviderStoragePools.CreateLunInStoragePool, IVdsHwProviderStoragePools::CreateLunInStoragePool, base.ivdshwproviderstoragepools_createluninstoragepool, vds/IVdsHwProviderStoragePools::CreateLunInStoragePool, vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool

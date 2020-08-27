@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetFolders
 title: IShellLibrary::GetFolders (shobjidl_core.h)
-description: Gets the set of child folders that are contained in the library.helpviewer_keywords: ["GetFolders","GetFolders method [Windows Shell]","GetFolders method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetFolders method","IShellLibrary.GetFolders","IShellLibrary::GetFolders","LFF_ALLITEMS","LFF_FORCEFILESYSTEM","LFF_STORAGEITEMS","_shell_IShellLibrary_GetFolders","shell.IShellLibrary_GetFolders","shobjidl_core/IShellLibrary::GetFolders"]
+description: Gets the set of child folders that are contained in the library.
+helpviewer_keywords: ["GetFolders","GetFolders method [Windows Shell]","GetFolders method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetFolders method","IShellLibrary.GetFolders","IShellLibrary::GetFolders","LFF_ALLITEMS","LFF_FORCEFILESYSTEM","LFF_STORAGEITEMS","_shell_IShellLibrary_GetFolders","shell.IShellLibrary_GetFolders","shobjidl_core/IShellLibrary::GetFolders"]
 old-location: shell\IShellLibrary_GetFolders.htm
 tech.root: shell
 ms.assetid: 19abc4f9-5123-4dd9-9606-21b52e28854b

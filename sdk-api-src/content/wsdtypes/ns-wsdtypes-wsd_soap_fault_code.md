@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_FAULT_CODE
 title: WSD_SOAP_FAULT_CODE (wsdtypes.h)
-description: Represents a generated SOAP fault code.helpviewer_keywords: ["WSD_SOAP_FAULT_CODE","WSD_SOAP_FAULT_CODE structure","ncd.wsd_soap_fault_code_struct","wsdtypes/WSD_SOAP_FAULT_CODE"]
+description: Represents a generated SOAP fault code.
+helpviewer_keywords: ["WSD_SOAP_FAULT_CODE","WSD_SOAP_FAULT_CODE structure","ncd.wsd_soap_fault_code_struct","wsdtypes/WSD_SOAP_FAULT_CODE"]
 old-location: ncd\wsd_soap_fault_code_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b71f4bcc-d125-4091-a491-1a5a2aea2310
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_FAULT_CODE, WSD_SOAP_FAULT_CODE structure, ncd.wsd_soap_fault_code_struct, wsdtypes/WSD_SOAP_FAULT_CODE

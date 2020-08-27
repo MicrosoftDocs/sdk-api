@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt._BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
 title: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT (bcrypt.h)
-description: The BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure contains information to determine the size of the pbHashObject buffer for the BCryptCreateMultiHash function.helpviewer_keywords: ["BCRYPT_MULTI_OBJECT_LENGTH_STRUCT","BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure [Security]","bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT","security.bcrypt_multi_object_length_struct"]
+description: The BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure contains information to determine the size of the pbHashObject buffer for the BCryptCreateMultiHash function.
+helpviewer_keywords: ["BCRYPT_MULTI_OBJECT_LENGTH_STRUCT","BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure [Security]","bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT","security.bcrypt_multi_object_length_struct"]
 old-location: security\bcrypt_multi_object_length_struct.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: CA85EA5A-4FAD-4896-BAD3-1D4C1CBD4735
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure [Security], bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, security.bcrypt_multi_object_length_struct

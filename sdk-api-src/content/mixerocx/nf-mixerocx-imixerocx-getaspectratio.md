@@ -1,9 +1,10 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetAspectRatio
 title: IMixerOCX::GetAspectRatio (mixerocx.h)
-description: The GetAspectRatio method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.).helpviewer_keywords: ["GetAspectRatio","GetAspectRatio method [DirectShow]","GetAspectRatio method [DirectShow]","IMixerOCX interface","IMixerOCX interface [DirectShow]","GetAspectRatio method","IMixerOCX.GetAspectRatio","IMixerOCX::GetAspectRatio","IMixerOCXGetAspectRatio","dshow.imixerocx_getaspectratio","mixerocx/IMixerOCX::GetAspectRatio"]
+description: The GetAspectRatio method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.).
+helpviewer_keywords: ["GetAspectRatio","GetAspectRatio method [DirectShow]","GetAspectRatio method [DirectShow]","IMixerOCX interface","IMixerOCX interface [DirectShow]","GetAspectRatio method","IMixerOCX.GetAspectRatio","IMixerOCX::GetAspectRatio","IMixerOCXGetAspectRatio","dshow.imixerocx_getaspectratio","mixerocx/IMixerOCX::GetAspectRatio"]
 old-location: dshow\imixerocx_getaspectratio.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6143ba3c-6472-47d3-b3ca-55c06ca8da0e
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetAspectRatio method, IMixerOCX.GetAspectRatio, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio

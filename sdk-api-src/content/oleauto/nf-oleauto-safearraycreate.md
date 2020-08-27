@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayCreate
 title: SafeArrayCreate function (oleauto.h)
-description: Creates a new array descriptor, allocates and initializes the data for the array, and returns a pointer to the new array descriptor.helpviewer_keywords: ["SafeArrayCreate","SafeArrayCreate function [Automation]","_oa96_SafeArrayCreate","automat.safearraycreate","oleauto/SafeArrayCreate"]
+description: Creates a new array descriptor, allocates and initializes the data for the array, and returns a pointer to the new array descriptor.
+helpviewer_keywords: ["SafeArrayCreate","SafeArrayCreate function [Automation]","_oa96_SafeArrayCreate","automat.safearraycreate","oleauto/SafeArrayCreate"]
 old-location: automat\safearraycreate.htm
 tech.root: automat
 ms.assetid: 5b94f1a2-a558-473f-85dd-9545c0464cc7

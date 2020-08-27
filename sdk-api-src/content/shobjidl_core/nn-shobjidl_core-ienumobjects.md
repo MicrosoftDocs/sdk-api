@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IEnumObjects
 title: IEnumObjects (shobjidl_core.h)
-description: Exposes methods to enumerate unknown objects.helpviewer_keywords: ["IEnumObjects","IEnumObjects interface [Windows Shell]","IEnumObjects interface [Windows Shell]","described","_shell_IEnumObjects","shell.IEnumObjects","shobjidl_core/IEnumObjects"]
+description: Exposes methods to enumerate unknown objects.
+helpviewer_keywords: ["IEnumObjects","IEnumObjects interface [Windows Shell]","IEnumObjects interface [Windows Shell]","described","_shell_IEnumObjects","shell.IEnumObjects","shobjidl_core/IEnumObjects"]
 old-location: shell\IEnumObjects.htm
 tech.root: shell
 ms.assetid: 914f2a4d-a67a-45d9-96ee-d8cae7d08e3c

@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._CREATE_DISK_MBR
 title: CREATE_DISK_MBR
-description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize master boot record (MBR) disks.helpviewer_keywords: ["*PCREATE_DISK_MBR","CREATE_DISK_MBR","CREATE_DISK_MBR structure [Files]","PCREATE_DISK_MBR","PCREATE_DISK_MBR structure pointer [Files]","_win32_create_disk_mbr_str","base.create_disk_mbr_str","fs.create_disk_mbr_str","winioctl/CREATE_DISK_MBR","winioctl/PCREATE_DISK_MBR"]
+description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize master boot record (MBR) disks.
+helpviewer_keywords: ["*PCREATE_DISK_MBR","CREATE_DISK_MBR","CREATE_DISK_MBR structure [Files]","PCREATE_DISK_MBR","PCREATE_DISK_MBR structure pointer [Files]","_win32_create_disk_mbr_str","base.create_disk_mbr_str","fs.create_disk_mbr_str","winioctl/CREATE_DISK_MBR","winioctl/PCREATE_DISK_MBR"]
 old-location: fs\create_disk_mbr_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6b475622-371d-4097-9de1-6ef31af76322
 ms.date: 12/05/2018
 ms.keywords: '*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Files], PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Files], _win32_create_disk_mbr_str, base.create_disk_mbr_str, fs.create_disk_mbr_str, winioctl/CREATE_DISK_MBR, winioctl/PCREATE_DISK_MBR'

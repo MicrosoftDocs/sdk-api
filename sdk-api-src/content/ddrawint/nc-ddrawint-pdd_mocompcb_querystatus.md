@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_QUERYSTATUS
 title: PDD_MOCOMPCB_QUERYSTATUS (ddrawint.h)
-description: The DdMoCompQueryStatus callback function queries the status of the most recent rendering operation to the specified surface.helpviewer_keywords: ["DdMoCompQueryStatus","DdMoCompQueryStatus callback function [Display Devices]","PDD_MOCOMPCB_QUERYSTATUS","PDD_MOCOMPCB_QUERYSTATUS callback","ddfncs_8610d619-2c4f-41b4-8b28-4451019063b7.xml","ddrawint/DdMoCompQueryStatus","display.ddmocompquerystatus"]
+description: The DdMoCompQueryStatus callback function queries the status of the most recent rendering operation to the specified surface.
+helpviewer_keywords: ["DdMoCompQueryStatus","DdMoCompQueryStatus callback function [Display Devices]","PDD_MOCOMPCB_QUERYSTATUS","PDD_MOCOMPCB_QUERYSTATUS callback","ddfncs_8610d619-2c4f-41b4-8b28-4451019063b7.xml","ddrawint/DdMoCompQueryStatus","display.ddmocompquerystatus"]
 old-location: display\ddmocompquerystatus.htm
 tech.root: display
 ms.assetid: af62d169-665a-43d2-ac0c-cc8ce6ce42d0

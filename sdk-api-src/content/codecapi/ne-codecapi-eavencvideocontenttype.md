@@ -1,9 +1,10 @@
 ---
 UID: NE:codecapi.eAVEncVideoContentType
 title: eAVEncVideoContentType (codecapi.h)
-description: Specifies the type of video content.helpviewer_keywords: ["codecapi/eAVEncVideoContentType","codecapi/eAVEncVideoContentType_FixedCameraAngle","codecapi/eAVEncVideoContentType_Unknown","eAVEncVideoContentType","eAVEncVideoContentType enumeration [Media Foundation]","eAVEncVideoContentType_FixedCameraAngle","eAVEncVideoContentType_Unknown","mf.eavencvideocontenttype"]
+description: Specifies the type of video content.
+helpviewer_keywords: ["codecapi/eAVEncVideoContentType","codecapi/eAVEncVideoContentType_FixedCameraAngle","codecapi/eAVEncVideoContentType_Unknown","eAVEncVideoContentType","eAVEncVideoContentType enumeration [Media Foundation]","eAVEncVideoContentType_FixedCameraAngle","eAVEncVideoContentType_Unknown","mf.eavencvideocontenttype"]
 old-location: mf\eavencvideocontenttype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 24670733-18F8-489A-AE43-E59F444F8340
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoContentType, codecapi/eAVEncVideoContentType_FixedCameraAngle, codecapi/eAVEncVideoContentType_Unknown, eAVEncVideoContentType, eAVEncVideoContentType enumeration [Media Foundation], eAVEncVideoContentType_FixedCameraAngle, eAVEncVideoContentType_Unknown, mf.eavencvideocontenttype

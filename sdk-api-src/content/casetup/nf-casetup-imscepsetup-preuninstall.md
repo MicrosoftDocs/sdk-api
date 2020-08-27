@@ -1,9 +1,10 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PreUnInstall
 title: IMSCEPSetup::PreUnInstall (casetup.h)
-description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.helpviewer_keywords: ["IMSCEPSetup interface [Security]","PreUnInstall method","IMSCEPSetup.PreUnInstall","IMSCEPSetup::PreUnInstall","PreUnInstall","PreUnInstall method [Security]","PreUnInstall method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::PreUnInstall","security.imscepsetup_preuninstall"]
+description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
+helpviewer_keywords: ["IMSCEPSetup interface [Security]","PreUnInstall method","IMSCEPSetup.PreUnInstall","IMSCEPSetup::PreUnInstall","PreUnInstall","PreUnInstall method [Security]","PreUnInstall method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::PreUnInstall","security.imscepsetup_preuninstall"]
 old-location: security\imscepsetup_preuninstall.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall

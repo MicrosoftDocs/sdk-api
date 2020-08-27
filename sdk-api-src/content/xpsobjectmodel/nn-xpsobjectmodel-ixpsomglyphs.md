@@ -4,7 +4,7 @@ title: IXpsOMGlyphs (xpsobjectmodel.h)
 description: Describes the text that appears on a page.
 helpviewer_keywords: ["IXpsOMGlyphs","IXpsOMGlyphs interface [XPS Documents and Packaging]","IXpsOMGlyphs interface [XPS Documents and Packaging]","described","xps.ixpsomglyphs","xpsobjectmodel/IXpsOMGlyphs"]
 old-location: xps\ixpsomglyphs.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6d2cda65-c719-46f2-97c9-8aee7b5f84b9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], IXpsOMGlyphs interface [XPS Documents and Packaging],described, xps.ixpsomglyphs, xpsobjectmodel/IXpsOMGlyphs

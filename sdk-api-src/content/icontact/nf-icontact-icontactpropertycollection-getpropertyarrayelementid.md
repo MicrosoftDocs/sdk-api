@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyArrayElementID
 title: IContactPropertyCollection::GetPropertyArrayElementID (icontact.h)
-description: Retrieves the unique ID for a given element in a property array.helpviewer_keywords: ["GetPropertyArrayElementID","GetPropertyArrayElementID method [Windows Contacts]","GetPropertyArrayElementID method [Windows Contacts]","IContactPropertyCollection interface","IContactPropertyCollection interface [Windows Contacts]","GetPropertyArrayElementID method","IContactPropertyCollection.GetPropertyArrayElementID","IContactPropertyCollection::GetPropertyArrayElementID","_wincontacts_IContactPropertyCollection_GetPropertyArrayElementID","icontact/IContactPropertyCollection::GetPropertyArrayElementID","wincontacts._wincontacts_IContactPropertyCollection_GetPropertyArrayElementID"]
+description: Retrieves the unique ID for a given element in a property array.
+helpviewer_keywords: ["GetPropertyArrayElementID","GetPropertyArrayElementID method [Windows Contacts]","GetPropertyArrayElementID method [Windows Contacts]","IContactPropertyCollection interface","IContactPropertyCollection interface [Windows Contacts]","GetPropertyArrayElementID method","IContactPropertyCollection.GetPropertyArrayElementID","IContactPropertyCollection::GetPropertyArrayElementID","_wincontacts_IContactPropertyCollection_GetPropertyArrayElementID","icontact/IContactPropertyCollection::GetPropertyArrayElementID","wincontacts._wincontacts_IContactPropertyCollection_GetPropertyArrayElementID"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyArrayElementID.htm
 tech.root: wincontacts
 ms.assetid: bfd860d6-cd67-4f97-afc4-1e2e7c8f57ca

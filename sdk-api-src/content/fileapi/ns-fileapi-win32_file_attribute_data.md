@@ -1,9 +1,10 @@
 ---
 UID: NS:fileapi._WIN32_FILE_ATTRIBUTE_DATA
 title: WIN32_FILE_ATTRIBUTE_DATA (fileapi.h)
-description: Contains attribute information for a file or directory.helpviewer_keywords: ["*LPWIN32_FILE_ATTRIBUTE_DATA","LPWIN32_FILE_ATTRIBUTE_DATA","LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files]","WIN32_FILE_ATTRIBUTE_DATA","WIN32_FILE_ATTRIBUTE_DATA structure [Files]","_win32_win32_file_attribute_data_str","base.win32_file_attribute_data_str","fileapi/LPWIN32_FILE_ATTRIBUTE_DATA","fileapi/WIN32_FILE_ATTRIBUTE_DATA","fs.win32_file_attribute_data_str"]
+description: Contains attribute information for a file or directory.
+helpviewer_keywords: ["*LPWIN32_FILE_ATTRIBUTE_DATA","LPWIN32_FILE_ATTRIBUTE_DATA","LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files]","WIN32_FILE_ATTRIBUTE_DATA","WIN32_FILE_ATTRIBUTE_DATA structure [Files]","_win32_win32_file_attribute_data_str","base.win32_file_attribute_data_str","fileapi/LPWIN32_FILE_ATTRIBUTE_DATA","fileapi/WIN32_FILE_ATTRIBUTE_DATA","fs.win32_file_attribute_data_str"]
 old-location: fs\win32_file_attribute_data_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
 ms.date: 12/05/2018
 ms.keywords: '*LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files], WIN32_FILE_ATTRIBUTE_DATA, WIN32_FILE_ATTRIBUTE_DATA structure [Files], _win32_win32_file_attribute_data_str, base.win32_file_attribute_data_str, fileapi/LPWIN32_FILE_ATTRIBUTE_DATA, fileapi/WIN32_FILE_ATTRIBUTE_DATA, fs.win32_file_attribute_data_str'

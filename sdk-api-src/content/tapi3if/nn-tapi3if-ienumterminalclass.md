@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.IEnumTerminalClass
 title: IEnumTerminalClass (tapi3if.h)
-description: The IEnumTerminalClass interface provides COM-standard enumeration methods to discover and use the dynamic terminal classes that are available. The ITTerminalSupport::EnumerateDynamicTerminalClasses method returns a pointer to this interface.helpviewer_keywords: ["IEnumTerminalClass","IEnumTerminalClass interface [TAPI 2.2]","IEnumTerminalClass interface [TAPI 2.2]","described","_tapi3_ienumterminalclass","tapi3.ienumterminalclass","tapi3if/IEnumTerminalClass"]
+description: The IEnumTerminalClass interface provides COM-standard enumeration methods to discover and use the dynamic terminal classes that are available. The ITTerminalSupport::EnumerateDynamicTerminalClasses method returns a pointer to this interface.
+helpviewer_keywords: ["IEnumTerminalClass","IEnumTerminalClass interface [TAPI 2.2]","IEnumTerminalClass interface [TAPI 2.2]","described","_tapi3_ienumterminalclass","tapi3.ienumterminalclass","tapi3if/IEnumTerminalClass"]
 old-location: tapi3\ienumterminalclass.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass, IEnumTerminalClass interface [TAPI 2.2], IEnumTerminalClass interface [TAPI 2.2],described, _tapi3_ienumterminalclass, tapi3.ienumterminalclass, tapi3if/IEnumTerminalClass

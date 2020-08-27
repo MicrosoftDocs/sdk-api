@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IFilterGraph.AddFilter
 title: IFilterGraph::AddFilter (strmif.h)
-description: The AddFilter method adds a filter to the graph.helpviewer_keywords: ["AddFilter","AddFilter method [DirectShow]","AddFilter method [DirectShow]","IFilterGraph interface","IFilterGraph interface [DirectShow]","AddFilter method","IFilterGraph.AddFilter","IFilterGraph::AddFilter","IFilterGraphAddFilter","dshow.ifiltergraph_addfilter","strmif/IFilterGraph::AddFilter"]
+description: The AddFilter method adds a filter to the graph.
+helpviewer_keywords: ["AddFilter","AddFilter method [DirectShow]","AddFilter method [DirectShow]","IFilterGraph interface","IFilterGraph interface [DirectShow]","AddFilter method","IFilterGraph.AddFilter","IFilterGraph::AddFilter","IFilterGraphAddFilter","dshow.ifiltergraph_addfilter","strmif/IFilterGraph::AddFilter"]
 old-location: dshow\ifiltergraph_addfilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8f837917-015f-427f-b234-b0ccbcf943eb
 ms.date: 12/05/2018
 ms.keywords: AddFilter, AddFilter method [DirectShow], AddFilter method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],AddFilter method, IFilterGraph.AddFilter, IFilterGraph::AddFilter, IFilterGraphAddFilter, dshow.ifiltergraph_addfilter, strmif/IFilterGraph::AddFilter

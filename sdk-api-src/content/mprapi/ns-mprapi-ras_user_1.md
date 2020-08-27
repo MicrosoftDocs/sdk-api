@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._RAS_USER_1
 title: RAS_USER_1 (mprapi.h)
-description: The RAS_USER_1 structure contains information for a particular Remote Access Service user. The RAS_USER_1 structure is similar to the RAS_USER_0 structure, except that RAS_USER_1 supports an additional member, bfPrivilege2.helpviewer_keywords: ["*PRAS_USER_1","PRAS_USER_1","PRAS_USER_1 structure pointer [RAS]","RASPRIV2_DialinPolicy","RASPRIV_AdminSetCallback","RASPRIV_CallerSetCallback","RASPRIV_DialinPrivilege","RASPRIV_NoCallback","RAS_USER_1","RAS_USER_1 structure [RAS]","_mpr_ras_user_1","mprapi/PRAS_USER_1","mprapi/RAS_USER_1","rras.ras_user_1"]
+description: The RAS_USER_1 structure contains information for a particular Remote Access Service user. The RAS_USER_1 structure is similar to the RAS_USER_0 structure, except that RAS_USER_1 supports an additional member, bfPrivilege2.
+helpviewer_keywords: ["*PRAS_USER_1","PRAS_USER_1","PRAS_USER_1 structure pointer [RAS]","RASPRIV2_DialinPolicy","RASPRIV_AdminSetCallback","RASPRIV_CallerSetCallback","RASPRIV_DialinPrivilege","RASPRIV_NoCallback","RAS_USER_1","RAS_USER_1 structure [RAS]","_mpr_ras_user_1","mprapi/PRAS_USER_1","mprapi/RAS_USER_1","rras.ras_user_1"]
 old-location: rras\ras_user_1.htm
 tech.root: RRAS
 ms.assetid: 4699346e-0ed0-4091-a8d5-8a12cd6bfbcf

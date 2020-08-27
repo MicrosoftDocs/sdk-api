@@ -4,7 +4,7 @@ title: IXpsOMPath::GetStrokeMiterLimit (xpsobjectmodel.h)
 description: Gets the miter limit value that is set for the stroke.
 helpviewer_keywords: ["GetStrokeMiterLimit","GetStrokeMiterLimit method [XPS Documents and Packaging]","GetStrokeMiterLimit method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeMiterLimit method","IXpsOMPath.GetStrokeMiterLimit","IXpsOMPath::GetStrokeMiterLimit","xps.ixpsompath_getstrokemiterlimit","xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit"]
 old-location: xps\ixpsompath_getstrokemiterlimit.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4271c7ff-636c-4ab0-b83f-90c769baf74c
 ms.date: 12/05/2018
 ms.keywords: GetStrokeMiterLimit, GetStrokeMiterLimit method [XPS Documents and Packaging], GetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeMiterLimit method, IXpsOMPath.GetStrokeMiterLimit, IXpsOMPath::GetStrokeMiterLimit, xps.ixpsompath_getstrokemiterlimit, xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit

@@ -1,9 +1,10 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderRangeInfo
 title: CfGetPlaceholderRangeInfo function (cfapi.h)
-description: Gets range information about a placeholder file or folder.helpviewer_keywords: ["CfGetPlaceholderRangeInfo","CfGetPlaceholderRangeInfo function","cfapi/CfGetPlaceholderRangeInfo","cloudApi.cfgetplaceholderrangeinfo"]
+description: Gets range information about a placeholder file or folder.
+helpviewer_keywords: ["CfGetPlaceholderRangeInfo","CfGetPlaceholderRangeInfo function","cfapi/CfGetPlaceholderRangeInfo","cloudApi.cfgetplaceholderrangeinfo"]
 old-location: cloudapi\cfgetplaceholderrangeinfo.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: B7FE94BC-DC59-407D-85A6-9657E38975AB
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo

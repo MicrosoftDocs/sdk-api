@@ -1,9 +1,10 @@
 ---
 UID: NF:winreg.RegReplaceKeyW
 title: RegReplaceKeyW function (winreg.h)
-description: Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.helpviewer_keywords: ["RegReplaceKey","RegReplaceKey function","RegReplaceKeyA","RegReplaceKeyW","_win32_regreplacekey","base.regreplacekey","winreg/RegReplaceKey","winreg/RegReplaceKeyA","winreg/RegReplaceKeyW"]
+description: Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.
+helpviewer_keywords: ["RegReplaceKey","RegReplaceKey function","RegReplaceKeyA","RegReplaceKeyW","_win32_regreplacekey","base.regreplacekey","winreg/RegReplaceKey","winreg/RegReplaceKeyA","winreg/RegReplaceKeyW"]
 old-location: base\regreplacekey.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
 ms.date: 12/05/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
@@ -133,6 +134,10 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegReplaceKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

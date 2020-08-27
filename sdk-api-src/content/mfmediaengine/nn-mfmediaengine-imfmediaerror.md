@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaError
 title: IMFMediaError (mfmediaengine.h)
-description: Provides the current error status for the Media Engine.helpviewer_keywords: ["IMFMediaError","IMFMediaError interface [Media Foundation]","IMFMediaError interface [Media Foundation]","described","mf.imfmediaerror","mfmediaengine/IMFMediaError"]
+description: Provides the current error status for the Media Engine.
+helpviewer_keywords: ["IMFMediaError","IMFMediaError interface [Media Foundation]","IMFMediaError interface [Media Foundation]","described","mf.imfmediaerror","mfmediaengine/IMFMediaError"]
 old-location: mf\imfmediaerror.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 08F161FE-C0E5-44EE-923E-646ADA534C42
 ms.date: 12/05/2018
 ms.keywords: IMFMediaError, IMFMediaError interface [Media Foundation], IMFMediaError interface [Media Foundation],described, mf.imfmediaerror, mfmediaengine/IMFMediaError

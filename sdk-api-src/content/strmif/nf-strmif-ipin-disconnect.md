@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IPin.Disconnect
 title: IPin::Disconnect (strmif.h)
-description: The Disconnect method breaks the current pin connection.helpviewer_keywords: ["Disconnect","Disconnect method [DirectShow]","Disconnect method [DirectShow]","IPin interface","IPin interface [DirectShow]","Disconnect method","IPin.Disconnect","IPin::Disconnect","IPinDisconnect","dshow.ipin_disconnect","strmif/IPin::Disconnect"]
+description: The Disconnect method breaks the current pin connection.
+helpviewer_keywords: ["Disconnect","Disconnect method [DirectShow]","Disconnect method [DirectShow]","IPin interface","IPin interface [DirectShow]","Disconnect method","IPin.Disconnect","IPin::Disconnect","IPinDisconnect","dshow.ipin_disconnect","strmif/IPin::Disconnect"]
 old-location: dshow\ipin_disconnect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 46e1e99c-848b-4936-b6bf-4ef1703a1f42
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IPin interface, IPin interface [DirectShow],Disconnect method, IPin.Disconnect, IPin::Disconnect, IPinDisconnect, dshow.ipin_disconnect, strmif/IPin::Disconnect

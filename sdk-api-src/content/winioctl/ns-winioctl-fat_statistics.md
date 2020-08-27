@@ -1,9 +1,10 @@
 ---
 UID: NS:winioctl._FAT_STATISTICS
 title: FAT_STATISTICS
-description: Contains statistical information from the FAT file system.helpviewer_keywords: ["*PFAT_STATISTICS","FAT_STATISTICS","FAT_STATISTICS structure [Files]","PFAT_STATISTICS","PFAT_STATISTICS structure pointer [Files]","base.fat_statistics_str","fs.fat_statistics_str","winioctl/FAT_STATISTICS","winioctl/PFAT_STATISTICS"]
+description: Contains statistical information from the FAT file system.
+helpviewer_keywords: ["*PFAT_STATISTICS","FAT_STATISTICS","FAT_STATISTICS structure [Files]","PFAT_STATISTICS","PFAT_STATISTICS structure pointer [Files]","base.fat_statistics_str","fs.fat_statistics_str","winioctl/FAT_STATISTICS","winioctl/PFAT_STATISTICS"]
 old-location: fs\fat_statistics_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 98d293e8-e708-48f5-99b1-603f27e6ef16
 ms.date: 12/05/2018
 ms.keywords: '*PFAT_STATISTICS, FAT_STATISTICS, FAT_STATISTICS structure [Files], PFAT_STATISTICS, PFAT_STATISTICS structure pointer [Files], base.fat_statistics_str, fs.fat_statistics_str, winioctl/FAT_STATISTICS, winioctl/PFAT_STATISTICS'

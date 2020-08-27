@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMediaFilter.Pause
 title: IMediaFilter::Pause (strmif.h)
-description: The Pause method pauses the filter.helpviewer_keywords: ["IBaseFilter interface [DirectShow]","Pause method","IBaseFilter::Pause","IMediaFilter interface [DirectShow]","Pause method","IMediaFilter.Pause","IMediaFilter::Pause","IMediaFilterPause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IBaseFilter interface","Pause method [DirectShow]","IMediaFilter interface","dshow.imediafilter_pause","strmif/IBaseFilter::Pause","strmif/IMediaFilter::Pause"]
+description: The Pause method pauses the filter.
+helpviewer_keywords: ["IBaseFilter interface [DirectShow]","Pause method","IBaseFilter::Pause","IMediaFilter interface [DirectShow]","Pause method","IMediaFilter.Pause","IMediaFilter::Pause","IMediaFilterPause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IBaseFilter interface","Pause method [DirectShow]","IMediaFilter interface","dshow.imediafilter_pause","strmif/IBaseFilter::Pause","strmif/IMediaFilter::Pause"]
 old-location: dshow\imediafilter_pause.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0dbd79be-8f44-4bac-b117-03e6316693f8
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],Pause method, IBaseFilter::Pause, IMediaFilter interface [DirectShow],Pause method, IMediaFilter.Pause, IMediaFilter::Pause, IMediaFilterPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IBaseFilter interface, Pause method [DirectShow],IMediaFilter interface, dshow.imediafilter_pause, strmif/IBaseFilter::Pause, strmif/IMediaFilter::Pause

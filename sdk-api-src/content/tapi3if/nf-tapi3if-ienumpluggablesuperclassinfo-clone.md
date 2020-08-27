@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.IEnumPluggableSuperclassInfo.Clone
 title: IEnumPluggableSuperclassInfo::Clone (tapi3if.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumPluggableSuperclassInfo interface","IEnumPluggableSuperclassInfo interface [TAPI 2.2]","Clone method","IEnumPluggableSuperclassInfo.Clone","IEnumPluggableSuperclassInfo::Clone","_tapi3_ienumpluggablesuperclassinfo_clone","tapi3.ienumpluggablesuperclassinfo_clone","tapi3if/IEnumPluggableSuperclassInfo::Clone"]
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumPluggableSuperclassInfo interface","IEnumPluggableSuperclassInfo interface [TAPI 2.2]","Clone method","IEnumPluggableSuperclassInfo.Clone","IEnumPluggableSuperclassInfo::Clone","_tapi3_ienumpluggablesuperclassinfo_clone","tapi3.ienumpluggablesuperclassinfo_clone","tapi3if/IEnumPluggableSuperclassInfo::Clone"]
 old-location: tapi3\ienumpluggablesuperclassinfo_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ec56cac7-451b-4866-85cd-8a2dea12d1f5
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, IEnumPluggableSuperclassInfo interface [TAPI 2.2],Clone method, IEnumPluggableSuperclassInfo.Clone, IEnumPluggableSuperclassInfo::Clone, _tapi3_ienumpluggablesuperclassinfo_clone, tapi3.ienumpluggablesuperclassinfo_clone, tapi3if/IEnumPluggableSuperclassInfo::Clone

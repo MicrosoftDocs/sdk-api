@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IResourceManager
 title: IResourceManager (strmif.h)
-description: The IResourceManager interface resolves contentions for system resources.The filter graph manager exposes this interface.helpviewer_keywords: ["IResourceManager","IResourceManager interface [DirectShow]","IResourceManager interface [DirectShow]","described","IResourceManagerInterface","dshow.iresourcemanager","strmif/IResourceManager"]
+description: The IResourceManager interface resolves contentions for system resources.The filter graph manager exposes this interface.
+helpviewer_keywords: ["IResourceManager","IResourceManager interface [DirectShow]","IResourceManager interface [DirectShow]","described","IResourceManagerInterface","dshow.iresourcemanager","strmif/IResourceManager"]
 old-location: dshow\iresourcemanager.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8cbe908e-5675-4134-81e7-2c5c31b0ffc5
 ms.date: 12/05/2018
 ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourceManager interface [DirectShow],described, IResourceManagerInterface, dshow.iresourcemanager, strmif/IResourceManager

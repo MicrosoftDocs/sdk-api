@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFMediaStreamSourceSampleRequest.SetSample
 title: IMFMediaStreamSourceSampleRequest::SetSample (mfidl.h)
-description: Sets the sample for the media stream source.helpviewer_keywords: ["IMFMediaStreamSourceSampleRequest interface [Media Foundation]","SetSample method","IMFMediaStreamSourceSampleRequest.SetSample","IMFMediaStreamSourceSampleRequest::SetSample","SetSample","SetSample method [Media Foundation]","SetSample method [Media Foundation]","IMFMediaStreamSourceSampleRequest interface","mf.imfmediastreamsourcesamplerequest_setsample","mfidl/IMFMediaStreamSourceSampleRequest::SetSample"]
+description: Sets the sample for the media stream source.
+helpviewer_keywords: ["IMFMediaStreamSourceSampleRequest interface [Media Foundation]","SetSample method","IMFMediaStreamSourceSampleRequest.SetSample","IMFMediaStreamSourceSampleRequest::SetSample","SetSample","SetSample method [Media Foundation]","SetSample method [Media Foundation]","IMFMediaStreamSourceSampleRequest interface","mf.imfmediastreamsourcesamplerequest_setsample","mfidl/IMFMediaStreamSourceSampleRequest::SetSample"]
 old-location: mf\imfmediastreamsourcesamplerequest_setsample.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest interface [Media Foundation],SetSample method, IMFMediaStreamSourceSampleRequest.SetSample, IMFMediaStreamSourceSampleRequest::SetSample, SetSample, SetSample method [Media Foundation], SetSample method [Media Foundation],IMFMediaStreamSourceSampleRequest interface, mf.imfmediastreamsourcesamplerequest_setsample, mfidl/IMFMediaStreamSourceSampleRequest::SetSample

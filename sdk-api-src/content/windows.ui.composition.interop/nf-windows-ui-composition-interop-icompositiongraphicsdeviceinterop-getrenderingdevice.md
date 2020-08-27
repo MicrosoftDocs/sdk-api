@@ -1,9 +1,10 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop.GetRenderingDevice
 title: ICompositionGraphicsDeviceInterop::composition (windows.ui.composition.interop.h)
-description: Gets the rendering device.helpviewer_keywords: ["GetRenderingDevice","GetRenderingDevice method","GetRenderingDevice method","ICompositionGraphicsDeviceInterop interface","ICompositionGraphicsDeviceInterop interface","GetRenderingDevice method","ICompositionGraphicsDeviceInterop.GetRenderingDevice","ICompositionGraphicsDeviceInterop.composition","ICompositionGraphicsDeviceInterop::GetRenderingDevice","ICompositionGraphicsDeviceInterop::composition","w_ui_comp.icompositiongraphicsdeviceinterop_getrenderingdevice","windows/ICompositionGraphicsDeviceInterop::GetRenderingDevice"]
+description: Gets the rendering device.
+helpviewer_keywords: ["GetRenderingDevice","GetRenderingDevice method","GetRenderingDevice method","ICompositionGraphicsDeviceInterop interface","ICompositionGraphicsDeviceInterop interface","GetRenderingDevice method","ICompositionGraphicsDeviceInterop.GetRenderingDevice","ICompositionGraphicsDeviceInterop.composition","ICompositionGraphicsDeviceInterop::GetRenderingDevice","ICompositionGraphicsDeviceInterop::composition","w_ui_comp.icompositiongraphicsdeviceinterop_getrenderingdevice","windows/ICompositionGraphicsDeviceInterop::GetRenderingDevice"]
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop_getrenderingdevice.htm
-tech.root: w_ui_comp
+tech.root: winrt
 ms.assetid: CAA67D15-CE6B-4097-834C-83727F0A6339
 ms.date: 12/05/2018
 ms.keywords: GetRenderingDevice, GetRenderingDevice method, GetRenderingDevice method,ICompositionGraphicsDeviceInterop interface, ICompositionGraphicsDeviceInterop interface,GetRenderingDevice method, ICompositionGraphicsDeviceInterop.GetRenderingDevice, ICompositionGraphicsDeviceInterop.composition, ICompositionGraphicsDeviceInterop::GetRenderingDevice, ICompositionGraphicsDeviceInterop::composition, w_ui_comp.icompositiongraphicsdeviceinterop_getrenderingdevice, windows/ICompositionGraphicsDeviceInterop::GetRenderingDevice

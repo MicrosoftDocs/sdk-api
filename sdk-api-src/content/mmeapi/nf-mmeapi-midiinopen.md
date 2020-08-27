@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiInOpen
 title: midiInOpen function (mmeapi.h)
-description: The midiInOpen function opens a specified MIDI input device.helpviewer_keywords: ["_win32_midiInOpen","midiInOpen","midiInOpen function [Windows Multimedia]","mmeapi/midiInOpen","multimedia.midiinopen"]
+description: The midiInOpen function opens a specified MIDI input device.
+helpviewer_keywords: ["_win32_midiInOpen","midiInOpen","midiInOpen function [Windows Multimedia]","mmeapi/midiInOpen","multimedia.midiinopen"]
 old-location: multimedia\midiinopen.htm
 tech.root: Multimedia
 ms.assetid: 230deaef-9473-426f-a0eb-14e259600e68

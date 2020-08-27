@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptionValuesV6
 title: DhcpEnumOptionValuesV6 function (dhcpsapi.h)
-description: The DhcpEnumOptionValuesV6 function returns an enumerated list of option values (the option data and the associated ID number) for a specific scope within a given class.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpEnumOptionValuesV6","DhcpEnumOptionValuesV6 function [DHCP]","dhcp.dhcpenumoptionvaluesv6","dhcpsapi/DhcpEnumOptionValuesV6"]
+description: The DhcpEnumOptionValuesV6 function returns an enumerated list of option values (the option data and the associated ID number) for a specific scope within a given class.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpEnumOptionValuesV6","DhcpEnumOptionValuesV6 function [DHCP]","dhcp.dhcpenumoptionvaluesv6","dhcpsapi/DhcpEnumOptionValuesV6"]
 old-location: dhcp\dhcpenumoptionvaluesv6.htm
 tech.root: DHCP
 ms.assetid: c63c8e41-5ca6-4989-9674-9c5c0f516af7

@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectMatrixVariable
 title: ID3D10EffectMatrixVariable (d3d10effect.h)
-description: A matrix-variable interface accesses a matrix.helpviewer_keywords: ["04e04746-d9a8-5507-39e7-6dbc6cf434c2","ID3D10EffectMatrixVariable","ID3D10EffectMatrixVariable interface [Direct3D 10]","ID3D10EffectMatrixVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectMatrixVariable","direct3d10.id3d10effectmatrixvariable"]
+description: A matrix-variable interface accesses a matrix.
+helpviewer_keywords: ["04e04746-d9a8-5507-39e7-6dbc6cf434c2","ID3D10EffectMatrixVariable","ID3D10EffectMatrixVariable interface [Direct3D 10]","ID3D10EffectMatrixVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectMatrixVariable","direct3d10.id3d10effectmatrixvariable"]
 old-location: direct3d10\id3d10effectmatrixvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.SetStream
 title: IMFASFProfile::SetStream (wmcontainer.h)
-description: Adds a stream to the profile or reconfigures an existing stream.helpviewer_keywords: ["IMFASFProfile interface [Media Foundation]","SetStream method","IMFASFProfile.SetStream","IMFASFProfile::SetStream","SetStream","SetStream method [Media Foundation]","SetStream method [Media Foundation]","IMFASFProfile interface","c2272260-74ab-42ff-bff3-d6c6d5b322f3","mf.imfasfprofile_setstream","wmcontainer/IMFASFProfile::SetStream"]
+description: Adds a stream to the profile or reconfigures an existing stream.
+helpviewer_keywords: ["IMFASFProfile interface [Media Foundation]","SetStream method","IMFASFProfile.SetStream","IMFASFProfile::SetStream","SetStream","SetStream method [Media Foundation]","SetStream method [Media Foundation]","IMFASFProfile interface","c2272260-74ab-42ff-bff3-d6c6d5b322f3","mf.imfasfprofile_setstream","wmcontainer/IMFASFProfile::SetStream"]
 old-location: mf\imfasfprofile_setstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c2272260-74ab-42ff-bff3-d6c6d5b322f3
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],SetStream method, IMFASFProfile.SetStream, IMFASFProfile::SetStream, SetStream, SetStream method [Media Foundation], SetStream method [Media Foundation],IMFASFProfile interface, c2272260-74ab-42ff-bff3-d6c6d5b322f3, mf.imfasfprofile_setstream, wmcontainer/IMFASFProfile::SetStream

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetVersion
 title: MetafileHeader::GetVersion (gdiplusmetaheader.h)
-description: The MetafileHeader::GetVersion method gets the version of the metafile.helpviewer_keywords: ["GetVersion","GetVersion method [GDI+]","GetVersion method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetVersion method","MetafileHeader.GetVersion","MetafileHeader::GetVersion","_gdiplus_CLASS_MetafileHeader_GetVersion_","gdiplus._gdiplus_CLASS_MetafileHeader_GetVersion_"]
+description: The MetafileHeader::GetVersion method gets the version of the metafile.
+helpviewer_keywords: ["GetVersion","GetVersion method [GDI+]","GetVersion method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetVersion method","MetafileHeader.GetVersion","MetafileHeader::GetVersion","_gdiplus_CLASS_MetafileHeader_GetVersion_","gdiplus._gdiplus_CLASS_MetafileHeader_GetVersion_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetVersion_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getversion.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.PFXIsPFXBlob
 title: PFXIsPFXBlob function (wincrypt.h)
-description: The PFXIsPFXBlob function attempts to decode the outer layer of a BLOB as a PFX packet.helpviewer_keywords: ["PFXIsPFXBlob","PFXIsPFXBlob function [Security]","_crypto2_pfxispfxblob","security.pfxispfxblob","wincrypt/PFXIsPFXBlob"]
+description: The PFXIsPFXBlob function attempts to decode the outer layer of a BLOB as a PFX packet.
+helpviewer_keywords: ["PFXIsPFXBlob","PFXIsPFXBlob function [Security]","_crypto2_pfxispfxblob","security.pfxispfxblob","wincrypt/PFXIsPFXBlob"]
 old-location: security\pfxispfxblob.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 28984407-0a28-48e1-9d67-37a6e9db7601
 ms.date: 12/05/2018
 ms.keywords: PFXIsPFXBlob, PFXIsPFXBlob function [Security], _crypto2_pfxispfxblob, security.pfxispfxblob, wincrypt/PFXIsPFXBlob

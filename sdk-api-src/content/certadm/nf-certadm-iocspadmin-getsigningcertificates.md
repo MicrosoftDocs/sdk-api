@@ -1,9 +1,10 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSigningCertificates
 title: IOCSPAdmin::GetSigningCertificates (certadm.h)
-description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.helpviewer_keywords: ["GetSigningCertificates","GetSigningCertificates method [Security]","GetSigningCertificates method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetSigningCertificates method","IOCSPAdmin.GetSigningCertificates","IOCSPAdmin::GetSigningCertificates","certadm/IOCSPAdmin::GetSigningCertificates","security.iocspadmin_getsigningcertificates"]
+description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.
+helpviewer_keywords: ["GetSigningCertificates","GetSigningCertificates method [Security]","GetSigningCertificates method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetSigningCertificates method","IOCSPAdmin.GetSigningCertificates","IOCSPAdmin::GetSigningCertificates","certadm/IOCSPAdmin::GetSigningCertificates","security.iocspadmin_getsigningcertificates"]
 old-location: security\iocspadmin_getsigningcertificates.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.date: 12/05/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates

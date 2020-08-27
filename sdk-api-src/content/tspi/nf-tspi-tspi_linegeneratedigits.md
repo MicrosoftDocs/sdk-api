@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineGenerateDigits
 title: TSPI_lineGenerateDigits function (tspi.h)
-description: The TSPI_lineGenerateDigits function initiates the generation of the specified digits on the specified call as in-band tones using the specified signaling mode.helpviewer_keywords: ["TSPI_lineGenerateDigits","TSPI_lineGenerateDigits function [TAPI 2.2]","_tspi_tspi_linegeneratedigits","tspi.tspi_linegeneratedigits","tspi/TSPI_lineGenerateDigits"]
+description: The TSPI_lineGenerateDigits function initiates the generation of the specified digits on the specified call as in-band tones using the specified signaling mode.
+helpviewer_keywords: ["TSPI_lineGenerateDigits","TSPI_lineGenerateDigits function [TAPI 2.2]","_tspi_tspi_linegeneratedigits","tspi.tspi_linegeneratedigits","tspi/TSPI_lineGenerateDigits"]
 old-location: tspi\tspi_linegeneratedigits.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: af16a4aa-1682-432b-827f-ae42289d5b99
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGenerateDigits, TSPI_lineGenerateDigits function [TAPI 2.2], _tspi_tspi_linegeneratedigits, tspi.tspi_linegeneratedigits, tspi/TSPI_lineGenerateDigits

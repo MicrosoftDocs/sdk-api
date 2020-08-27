@@ -1,7 +1,8 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0006
 title: InPlaceDirection (peninputpanel.h)
-description: Specifies the preferred direction of the In-Place Input Panel relative to the text entry field.helpviewer_keywords: ["798ad6d8-de1c-49dc-87a1-86bb4f73603a","InPlaceDirection","InPlaceDirection enumeration [Tablet PC]","InPlaceDirection_Auto","InPlaceDirection_Bottom","InPlaceDirection_Top","peninputpanel/InPlaceDirection","peninputpanel/InPlaceDirection_Auto","peninputpanel/InPlaceDirection_Bottom","peninputpanel/InPlaceDirection_Top","tablet.inplacedirection"]
+description: Specifies the preferred direction of the In-Place Input Panel relative to the text entry field.
+helpviewer_keywords: ["798ad6d8-de1c-49dc-87a1-86bb4f73603a","InPlaceDirection","InPlaceDirection enumeration [Tablet PC]","InPlaceDirection_Auto","InPlaceDirection_Bottom","InPlaceDirection_Top","peninputpanel/InPlaceDirection","peninputpanel/InPlaceDirection_Auto","peninputpanel/InPlaceDirection_Bottom","peninputpanel/InPlaceDirection_Top","tablet.inplacedirection"]
 old-location: tablet\inplacedirection.htm
 tech.root: tablet
 ms.assetid: 798ad6d8-de1c-49dc-87a1-86bb4f73603a

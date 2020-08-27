@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.SetCompressorInformation
 title: SetCompressorInformation function (compressapi.h)
-description: Sets information in a compressor for a particular compression algorithm.helpviewer_keywords: ["SetCompressorInformation","SetCompressorInformation function [Compression API]","cmpapi.setcompressorinformation","compressapi/SetCompressorInformation"]
+description: Sets information in a compressor for a particular compression algorithm.
+helpviewer_keywords: ["SetCompressorInformation","SetCompressorInformation function [Compression API]","cmpapi.setcompressorinformation","compressapi/SetCompressorInformation"]
 old-location: cmpapi\setcompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b
@@ -14,8 +15,8 @@ dev_langs:
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElementsEx
 title: IMFMediaEngineSrcElementsEx (mfmediaengine.h)
-description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.helpviewer_keywords: ["IMFMediaEngineSrcElementsEx","IMFMediaEngineSrcElementsEx interface [Media Foundation]","IMFMediaEngineSrcElementsEx interface [Media Foundation]","described","mf.imfmediaenginesrcelementsex","mfmediaengine/IMFMediaEngineSrcElementsEx"]
+description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.
+helpviewer_keywords: ["IMFMediaEngineSrcElementsEx","IMFMediaEngineSrcElementsEx interface [Media Foundation]","IMFMediaEngineSrcElementsEx interface [Media Foundation]","described","mf.imfmediaenginesrcelementsex","mfmediaengine/IMFMediaEngineSrcElementsEx"]
 old-location: mf\imfmediaenginesrcelementsex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IEnumComponents.Skip
 title: IEnumComponents::Skip (tuner.h)
-description: The Skip method skips the specified element in the collection without retrieving it.helpviewer_keywords: ["IEnumComponents interface [Microsoft TV Technologies]","Skip method","IEnumComponents.Skip","IEnumComponents::Skip","IEnumComponentsSkip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","IEnumComponents interface","mstv.ienumcomponents_skip","tuner/IEnumComponents::Skip"]
+description: The Skip method skips the specified element in the collection without retrieving it.
+helpviewer_keywords: ["IEnumComponents interface [Microsoft TV Technologies]","Skip method","IEnumComponents.Skip","IEnumComponents::Skip","IEnumComponentsSkip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","IEnumComponents interface","mstv.ienumcomponents_skip","tuner/IEnumComponents::Skip"]
 old-location: mstv\ienumcomponents_skip.htm
 tech.root: mstv
 ms.assetid: f63eca00-c47c-4b9f-8f7a-7080c23653ce

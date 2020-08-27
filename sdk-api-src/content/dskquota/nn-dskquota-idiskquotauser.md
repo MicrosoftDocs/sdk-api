@@ -1,9 +1,10 @@
 ---
 UID: NN:dskquota.IDiskQuotaUser
 title: IDiskQuotaUser (dskquota.h)
-description: Represents a single user quota entry in the volume quota information file.helpviewer_keywords: ["IDiskQuotaUser","IDiskQuotaUser interface [Files]","IDiskQuotaUser interface [Files]","described","_win32_idiskquotauser","base.idiskquotauser","dskquota/IDiskQuotaUser","fs.idiskquotauser"]
+description: Represents a single user quota entry in the volume quota information file.
+helpviewer_keywords: ["IDiskQuotaUser","IDiskQuotaUser interface [Files]","IDiskQuotaUser interface [Files]","described","_win32_idiskquotauser","base.idiskquotauser","dskquota/IDiskQuotaUser","fs.idiskquotauser"]
 old-location: fs\idiskquotauser.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 27edbebc-35b4-4f6a-87cc-d8a99782f405
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser, IDiskQuotaUser interface [Files], IDiskQuotaUser interface [Files],described, _win32_idiskquotauser, base.idiskquotauser, dskquota/IDiskQuotaUser, fs.idiskquotauser

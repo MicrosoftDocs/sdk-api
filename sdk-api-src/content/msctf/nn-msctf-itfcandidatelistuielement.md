@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfCandidateListUIElement
 title: ITfCandidateListUIElement (msctf.h)
-description: The ITfCandidateListUIElement interface is implemented by a text service that has the candidate list UI.helpviewer_keywords: ["ITfCandidateListUIElement","ITfCandidateListUIElement interface [Text Services Framework]","ITfCandidateListUIElement interface [Text Services Framework]","described","_tsf_itfcandidatelistuielement_ref","msctf/ITfCandidateListUIElement","tsf.itfcandidatelistuielement"]
+description: The ITfCandidateListUIElement interface is implemented by a text service that has the candidate list UI.
+helpviewer_keywords: ["ITfCandidateListUIElement","ITfCandidateListUIElement interface [Text Services Framework]","ITfCandidateListUIElement interface [Text Services Framework]","described","_tsf_itfcandidatelistuielement_ref","msctf/ITfCandidateListUIElement","tsf.itfcandidatelistuielement"]
 old-location: tsf\itfcandidatelistuielement.htm
 tech.root: TSF
 ms.assetid: 1f39aa06-3c94-4959-b857-ca61498d5b5c

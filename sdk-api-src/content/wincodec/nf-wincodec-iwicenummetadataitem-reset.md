@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Reset
 title: IWICEnumMetadataItem::Reset (wincodec.h)
-description: Resets the current position to the beginning of the enumeration.helpviewer_keywords: ["IWICEnumMetadataItem interface [Windows Imaging Component]","Reset method","IWICEnumMetadataItem.Reset","IWICEnumMetadataItem::Reset","Reset","Reset method [Windows Imaging Component]","Reset method [Windows Imaging Component]","IWICEnumMetadataItem interface","_wic_codec_iwicenummetadataitem_reset","wic._wic_codec_iwicenummetadataitem_reset","wincodec/IWICEnumMetadataItem::Reset"]
+description: Resets the current position to the beginning of the enumeration.
+helpviewer_keywords: ["IWICEnumMetadataItem interface [Windows Imaging Component]","Reset method","IWICEnumMetadataItem.Reset","IWICEnumMetadataItem::Reset","Reset","Reset method [Windows Imaging Component]","Reset method [Windows Imaging Component]","IWICEnumMetadataItem interface","_wic_codec_iwicenummetadataitem_reset","wic._wic_codec_iwicenummetadataitem_reset","wincodec/IWICEnumMetadataItem::Reset"]
 old-location: wic\_wic_codec_iwicenummetadataitem_reset.htm
 tech.root: wic
 ms.assetid: d462445a-efe7-4d79-a712-b8c7dd9ac7c1

@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IConnectionPoint.Unadvise
 title: IConnectionPoint::Unadvise (ocidl.h)
-description: Terminates an advisory connection previously established between a connection point object and a client's sink.helpviewer_keywords: ["IConnectionPoint interface [COM]","Unadvise method","IConnectionPoint.Unadvise","IConnectionPoint::Unadvise","Unadvise","Unadvise method [COM]","Unadvise method [COM]","IConnectionPoint interface","_com_iconnectionpoint_unadvise","com.iconnectionpoint_unadvise","ocidl/IConnectionPoint::Unadvise"]
+description: Terminates an advisory connection previously established between a connection point object and a client's sink.
+helpviewer_keywords: ["IConnectionPoint interface [COM]","Unadvise method","IConnectionPoint.Unadvise","IConnectionPoint::Unadvise","Unadvise","Unadvise method [COM]","Unadvise method [COM]","IConnectionPoint interface","_com_iconnectionpoint_unadvise","com.iconnectionpoint_unadvise","ocidl/IConnectionPoint::Unadvise"]
 old-location: com\iconnectionpoint_unadvise.htm
 tech.root: com
 ms.assetid: 71641bad-2fd1-4d94-a6d0-116f5687a95b

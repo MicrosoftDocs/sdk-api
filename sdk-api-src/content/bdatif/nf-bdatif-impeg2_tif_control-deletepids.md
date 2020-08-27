@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.DeletePIDs
 title: IMPEG2_TIF_CONTROL::DeletePIDs (bdatif.h)
-description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.helpviewer_keywords: ["DeletePIDs","DeletePIDs method [Microsoft TV Technologies]","DeletePIDs method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","DeletePIDs method","IMPEG2_TIF_CONTROL.DeletePIDs","IMPEG2_TIF_CONTROL::DeletePIDs","IMPEG2_TIF_CONTROLDeletePIDs","bdatif/IMPEG2_TIF_CONTROL::DeletePIDs","mstv.impeg2_tif_control_deletepids"]
+description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.
+helpviewer_keywords: ["DeletePIDs","DeletePIDs method [Microsoft TV Technologies]","DeletePIDs method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","DeletePIDs method","IMPEG2_TIF_CONTROL.DeletePIDs","IMPEG2_TIF_CONTROL::DeletePIDs","IMPEG2_TIF_CONTROLDeletePIDs","bdatif/IMPEG2_TIF_CONTROL::DeletePIDs","mstv.impeg2_tif_control_deletepids"]
 old-location: mstv\impeg2_tif_control_deletepids.htm
 tech.root: mstv
 ms.assetid: d5188e30-6980-482f-a690-494855d6aeea

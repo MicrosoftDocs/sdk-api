@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsRasterizer
 title: ID3D10EffectVariable::AsRasterizer (d3d10effect.h)
-description: Get a rasterizer variable.helpviewer_keywords: ["0306e054-b8c5-9b23-2bcb-82e72a683879","AsRasterizer","AsRasterizer method [Direct3D 10]","AsRasterizer method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","AsRasterizer method","ID3D10EffectVariable.AsRasterizer","ID3D10EffectVariable::AsRasterizer","d3d10effect/ID3D10EffectVariable::AsRasterizer","direct3d10.id3d10effectvariable_asrasterizer"]
+description: Get a rasterizer variable.
+helpviewer_keywords: ["0306e054-b8c5-9b23-2bcb-82e72a683879","AsRasterizer","AsRasterizer method [Direct3D 10]","AsRasterizer method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","AsRasterizer method","ID3D10EffectVariable.AsRasterizer","ID3D10EffectVariable::AsRasterizer","d3d10effect/ID3D10EffectVariable::AsRasterizer","direct3d10.id3d10effectvariable_asrasterizer"]
 old-location: direct3d10\id3d10effectvariable_asrasterizer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asrasterizer.htm

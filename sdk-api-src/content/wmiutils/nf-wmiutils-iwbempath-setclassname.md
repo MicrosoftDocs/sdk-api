@@ -1,9 +1,10 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetClassName
 title: IWbemPath::SetClassName (wmiutils.h)
-description: The IWbemPath::SetClassName method sets the class name portion of the path.helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","SetClassName method","IWbemPath.SetClassName","IWbemPath::SetClassName","SetClassName","SetClassName method [Windows Management Instrumentation]","SetClassName method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_setclassname","wmi.iwbempath_setclassname","wmiutils/IWbemPath::SetClassName"]
+description: The IWbemPath::SetClassName method sets the class name portion of the path.
+helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","SetClassName method","IWbemPath.SetClassName","IWbemPath::SetClassName","SetClassName","SetClassName method [Windows Management Instrumentation]","SetClassName method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_setclassname","wmi.iwbempath_setclassname","wmiutils/IWbemPath::SetClassName"]
 old-location: wmi\iwbempath_setclassname.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 77c51bb7-2868-4d9f-b48c-60b152e18cac
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetClassName method, IWbemPath.SetClassName, IWbemPath::SetClassName, SetClassName, SetClassName method [Windows Management Instrumentation], SetClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setclassname, wmi.iwbempath_setclassname, wmiutils/IWbemPath::SetClassName

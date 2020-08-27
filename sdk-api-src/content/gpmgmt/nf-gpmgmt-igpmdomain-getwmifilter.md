@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetWMIFilter
 title: IGPMDomain::GetWMIFilter (gpmgmt.h)
-description: Retrieves a GPMWMIFilter object for the specified path.helpviewer_keywords: ["GPMDomain object [GPMC]","GetWMIFilter method","GetWMIFilter","GetWMIFilter method [GPMC]","GetWMIFilter method [GPMC]","GPMDomain object","GetWMIFilter method [GPMC]","IGPMDomain interface","IGPMDomain interface [GPMC]","GetWMIFilter method","IGPMDomain.GetWMIFilter","IGPMDomain::GetWMIFilter","_win32_igpmdomain_getwmifilter","gpmc.igpmdomain_getwmifilter","gpmgmt/IGPMDomain::GetWMIFilter"]
+description: Retrieves a GPMWMIFilter object for the specified path.
+helpviewer_keywords: ["GPMDomain object [GPMC]","GetWMIFilter method","GetWMIFilter","GetWMIFilter method [GPMC]","GetWMIFilter method [GPMC]","GPMDomain object","GetWMIFilter method [GPMC]","IGPMDomain interface","IGPMDomain interface [GPMC]","GetWMIFilter method","IGPMDomain.GetWMIFilter","IGPMDomain::GetWMIFilter","_win32_igpmdomain_getwmifilter","gpmc.igpmdomain_getwmifilter","gpmgmt/IGPMDomain::GetWMIFilter"]
 old-location: gpmc\igpmdomain_getwmifilter.htm
 tech.root: gpmc
 ms.assetid: 093fba1a-69b3-4045-891a-de9c6a78e166

@@ -1,7 +1,8 @@
 ---
 UID: NE:rpcasync._RPC_NOTIFICATION_TYPES
 title: RPC_NOTIFICATION_TYPES (rpcasync.h)
-description: The RPC_NOTIFICATION_TYPES enumerated type contains values that specify the method of asynchronous notification that a client program will use.helpviewer_keywords: ["RPC_NOTIFICATION_TYPES","RPC_NOTIFICATION_TYPES enumeration [RPC]","RpcNotificationTypeApc","RpcNotificationTypeCallback","RpcNotificationTypeEvent","RpcNotificationTypeHwnd","RpcNotificationTypeIoc","RpcNotificationTypeNone","_rpc_rpc_notification_types","rpc.rpc_notification_types","rpcasync/RPC_NOTIFICATION_TYPES","rpcasync/RpcNotificationTypeApc","rpcasync/RpcNotificationTypeCallback","rpcasync/RpcNotificationTypeEvent","rpcasync/RpcNotificationTypeHwnd","rpcasync/RpcNotificationTypeIoc","rpcasync/RpcNotificationTypeNone"]
+description: The RPC_NOTIFICATION_TYPES enumerated type contains values that specify the method of asynchronous notification that a client program will use.
+helpviewer_keywords: ["RPC_NOTIFICATION_TYPES","RPC_NOTIFICATION_TYPES enumeration [RPC]","RpcNotificationTypeApc","RpcNotificationTypeCallback","RpcNotificationTypeEvent","RpcNotificationTypeHwnd","RpcNotificationTypeIoc","RpcNotificationTypeNone","_rpc_rpc_notification_types","rpc.rpc_notification_types","rpcasync/RPC_NOTIFICATION_TYPES","rpcasync/RpcNotificationTypeApc","rpcasync/RpcNotificationTypeCallback","rpcasync/RpcNotificationTypeEvent","rpcasync/RpcNotificationTypeHwnd","rpcasync/RpcNotificationTypeIoc","rpcasync/RpcNotificationTypeNone"]
 old-location: rpc\rpc_notification_types.htm
 tech.root: Rpc
 ms.assetid: 3c6fcba5-ea74-47ee-8fb9-6393d1ea62fc

@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.ISharedPropertyGroupManager
 title: ISharedPropertyGroupManager (comsvcs.h)
-description: Used to create shared property groups and to obtain access to existing shared property groups.helpviewer_keywords: ["ISharedPropertyGroupManager","ISharedPropertyGroupManager interface [COM+]","ISharedPropertyGroupManager interface [COM+]","described","_cos_ISharedPropertyGroupManager","comsvcs/ISharedPropertyGroupManager","cos.isharedpropertygroupmanager"]
+description: Used to create shared property groups and to obtain access to existing shared property groups.
+helpviewer_keywords: ["ISharedPropertyGroupManager","ISharedPropertyGroupManager interface [COM+]","ISharedPropertyGroupManager interface [COM+]","described","_cos_ISharedPropertyGroupManager","comsvcs/ISharedPropertyGroupManager","cos.isharedpropertygroupmanager"]
 old-location: cos\isharedpropertygroupmanager.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 71c0a1de-5ea5-4496-b0e9-56d0cc8129a9
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], ISharedPropertyGroupManager interface [COM+],described, _cos_ISharedPropertyGroupManager, comsvcs/ISharedPropertyGroupManager, cos.isharedpropertygroupmanager

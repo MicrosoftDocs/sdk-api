@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.UnselectCall
 title: ITAutomatedPhoneControl::UnselectCall (tapi3if.h)
-description: The UnselectCall method removes the specified call from this phone object, releasing the phone object's reference to the call object.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","UnselectCall method","ITAutomatedPhoneControl.UnselectCall","ITAutomatedPhoneControl::UnselectCall","UnselectCall","UnselectCall method [TAPI 2.2]","UnselectCall method [TAPI 2.2]","ITAutomatedPhoneControl interface","_tapi3_itautomatedphonecontrol_unselectcall","tapi3.itautomatedphonecontrol_unselectcall","tapi3if/ITAutomatedPhoneControl::UnselectCall"]
+description: The UnselectCall method removes the specified call from this phone object, releasing the phone object's reference to the call object.
+helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","UnselectCall method","ITAutomatedPhoneControl.UnselectCall","ITAutomatedPhoneControl::UnselectCall","UnselectCall","UnselectCall method [TAPI 2.2]","UnselectCall method [TAPI 2.2]","ITAutomatedPhoneControl interface","_tapi3_itautomatedphonecontrol_unselectcall","tapi3.itautomatedphonecontrol_unselectcall","tapi3if/ITAutomatedPhoneControl::UnselectCall"]
 old-location: tapi3\itautomatedphonecontrol_unselectcall.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3c2a9899-add7-4c09-b32e-11061fc2c5a5
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],UnselectCall method, ITAutomatedPhoneControl.UnselectCall, ITAutomatedPhoneControl::UnselectCall, UnselectCall, UnselectCall method [TAPI 2.2], UnselectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_unselectcall, tapi3.itautomatedphonecontrol_unselectcall, tapi3if/ITAutomatedPhoneControl::UnselectCall

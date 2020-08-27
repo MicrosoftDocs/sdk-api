@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.BeginGetMetadata
 title: IWSDServiceProxy::BeginGetMetadata (wsdclient.h)
-description: Initiates an asynchronous metadata exchange request with the remote service.helpviewer_keywords: ["BeginGetMetadata","BeginGetMetadata method","BeginGetMetadata method","IWSDServiceProxy interface","IWSDServiceProxy interface","BeginGetMetadata method","IWSDServiceProxy.BeginGetMetadata","IWSDServiceProxy::BeginGetMetadata","ncd.iwsdserviceproxy_begingetmetadata","wsdclient/IWSDServiceProxy::BeginGetMetadata"]
+description: Initiates an asynchronous metadata exchange request with the remote service.
+helpviewer_keywords: ["BeginGetMetadata","BeginGetMetadata method","BeginGetMetadata method","IWSDServiceProxy interface","IWSDServiceProxy interface","BeginGetMetadata method","IWSDServiceProxy.BeginGetMetadata","IWSDServiceProxy::BeginGetMetadata","ncd.iwsdserviceproxy_begingetmetadata","wsdclient/IWSDServiceProxy::BeginGetMetadata"]
 old-location: ncd\iwsdserviceproxy_begingetmetadata.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
 ms.date: 12/05/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,BeginGetMetadata method, IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata

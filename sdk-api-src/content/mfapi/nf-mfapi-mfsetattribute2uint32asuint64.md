@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFSetAttribute2UINT32asUINT64
 title: MFSetAttribute2UINT32asUINT64 function (mfapi.h)
-description: Packs two UINT32 values into a UINT64 attribute value.helpviewer_keywords: ["MFSetAttribute2UINT32asUINT64","MFSetAttribute2UINT32asUINT64 function [Media Foundation]","mf.mfsetattribute2uint32asuint64","mfobjects/MFSetAttribute2UINT32asUINT64"]
+description: Packs two UINT32 values into a UINT64 attribute value.
+helpviewer_keywords: ["MFSetAttribute2UINT32asUINT64","MFSetAttribute2UINT32asUINT64 function [Media Foundation]","mf.mfsetattribute2uint32asuint64","mfobjects/MFSetAttribute2UINT32asUINT64"]
 old-location: mf\mfsetattribute2uint32asuint64.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a9c64e49-e249-49ce-8d58-109a7f247fe9
 ms.date: 12/05/2018
 ms.keywords: MFSetAttribute2UINT32asUINT64, MFSetAttribute2UINT32asUINT64 function [Media Foundation], mf.mfsetattribute2uint32asuint64, mfobjects/MFSetAttribute2UINT32asUINT64

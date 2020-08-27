@@ -1,9 +1,10 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSClass
 title: RtwqGetWorkQueueMMCSSClass function (rtworkq.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.helpviewer_keywords: ["RtwqGetWorkQueueMMCSSClass","RtwqGetWorkQueueMMCSSClass function","base.rtwqgetworkqueuemmcssclass","rtworkq/RtwqGetWorkQueueMMCSSClass"]
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
+helpviewer_keywords: ["RtwqGetWorkQueueMMCSSClass","RtwqGetWorkQueueMMCSSClass function","base.rtwqgetworkqueuemmcssclass","rtworkq/RtwqGetWorkQueueMMCSSClass"]
 old-location: base\rtwqgetworkqueuemmcssclass.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1fea099d-33cd-4edd-aa6c-026a0e3478e3
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, base.rtwqgetworkqueuemmcssclass, rtworkq/RtwqGetWorkQueueMMCSSClass

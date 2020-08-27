@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupConnectByAddress
 title: PeerGroupConnectByAddress function (p2p.h)
-description: Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.helpviewer_keywords: ["PeerGroupConnectByAddress","PeerGroupConnectByAddress function [Peer Networking]","p2p.peergroupconnectbyaddress","p2p/PeerGroupConnectByAddress"]
+description: Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.
+helpviewer_keywords: ["PeerGroupConnectByAddress","PeerGroupConnectByAddress function [Peer Networking]","p2p.peergroupconnectbyaddress","p2p/PeerGroupConnectByAddress"]
 old-location: p2p\peergroupconnectbyaddress.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress

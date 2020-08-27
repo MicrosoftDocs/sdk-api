@@ -1,9 +1,10 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
 title: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA (dxvahd.h)
-description: Specifies the source rectangle for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_STREAM_STATE_SOURCE_RECT_DATA","DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation]","FALSE","TRUE","dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA","mf.dxvahd_stream_state_source_rect_data"]
+description: Specifies the source rectangle for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_SOURCE_RECT_DATA","DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation]","FALSE","TRUE","dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA","mf.dxvahd_stream_state_source_rect_data"]
 old-location: mf\dxvahd_stream_state_source_rect_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 51f2cfe6-722b-4273-abf6-e1b8fdec9808
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, mf.dxvahd_stream_state_source_rect_data

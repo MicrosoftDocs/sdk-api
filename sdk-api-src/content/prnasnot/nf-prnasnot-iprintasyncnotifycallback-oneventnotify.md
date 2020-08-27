@@ -1,9 +1,10 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.OnEventNotify
 title: IPrintAsyncNotifyCallback::OnEventNotify (prnasnot.h)
-description: Alerts a listener that a notification is available on a specified channel. This method is called by the print system.helpviewer_keywords: ["IPrintAsyncNotifyCallback interface [Windows GDI]","OnEventNotify method","IPrintAsyncNotifyCallback.OnEventNotify","IPrintAsyncNotifyCallback::OnEventNotify","OnEventNotify","OnEventNotify method [Windows GDI]","OnEventNotify method [Windows GDI]","IPrintAsyncNotifyCallback interface","_win32_IPrintAsyncNotifyCallback_OnEventNotify","gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify","prnasnot/IPrintAsyncNotifyCallback::OnEventNotify"]
+description: Alerts a listener that a notification is available on a specified channel. This method is called by the print system.
+helpviewer_keywords: ["IPrintAsyncNotifyCallback interface [Windows GDI]","OnEventNotify method","IPrintAsyncNotifyCallback.OnEventNotify","IPrintAsyncNotifyCallback::OnEventNotify","OnEventNotify","OnEventNotify method [Windows GDI]","OnEventNotify method [Windows GDI]","IPrintAsyncNotifyCallback interface","_win32_IPrintAsyncNotifyCallback_OnEventNotify","gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify","prnasnot/IPrintAsyncNotifyCallback::OnEventNotify"]
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify

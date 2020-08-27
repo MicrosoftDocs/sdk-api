@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorATan
 title: XMVectorATan function (directxmath.h)
-description: Computes the arctangent of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorATan","XMVectorATan","XMVectorATan method [DirectX Math Support APIs]","dxmath.xmvectoratan"]
+description: Computes the arctangent of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorATan","XMVectorATan","XMVectorATan method [DirectX Math Support APIs]","dxmath.xmvectoratan"]
 old-location: dxmath\xmvectoratan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATan(XMVECTOR)

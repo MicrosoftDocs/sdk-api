@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_5.IDXGISwapChain4.SetHDRMetaData
 title: IDXGISwapChain4::SetHDRMetaData (dxgi1_5.h)
-description: This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.helpviewer_keywords: ["IDXGISwapChain4 interface [DXGI]","SetHDRMetaData method","IDXGISwapChain4.SetHDRMetaData","IDXGISwapChain4::SetHDRMetaData","SetHDRMetaData","SetHDRMetaData method [DXGI]","SetHDRMetaData method [DXGI]","IDXGISwapChain4 interface","direct3ddxgi.idxgiswapchain4_sethdrmetadata","dxgi1_5/IDXGISwapChain4::SetHDRMetaData"]
+description: This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.
+helpviewer_keywords: ["IDXGISwapChain4 interface [DXGI]","SetHDRMetaData method","IDXGISwapChain4.SetHDRMetaData","IDXGISwapChain4::SetHDRMetaData","SetHDRMetaData","SetHDRMetaData method [DXGI]","SetHDRMetaData method [DXGI]","IDXGISwapChain4 interface","direct3ddxgi.idxgiswapchain4_sethdrmetadata","dxgi1_5/IDXGISwapChain4::SetHDRMetaData"]
 old-location: direct3ddxgi\idxgiswapchain4_sethdrmetadata.htm
 tech.root: direct3ddxgi
 ms.assetid: 03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB

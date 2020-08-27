@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphMappingCount
 title: IXpsOMGlyphsEditor::GetGlyphMappingCount (xpsobjectmodel.h)
-description: Gets the number of glyph mappings.helpviewer_keywords: ["GetGlyphMappingCount","GetGlyphMappingCount method [XPS Documents and Packaging]","GetGlyphMappingCount method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetGlyphMappingCount method","IXpsOMGlyphsEditor.GetGlyphMappingCount","IXpsOMGlyphsEditor::GetGlyphMappingCount","xps.ixpsomglyphseditor_getglyphmappingcount","xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount"]
+description: Gets the number of glyph mappings.
+helpviewer_keywords: ["GetGlyphMappingCount","GetGlyphMappingCount method [XPS Documents and Packaging]","GetGlyphMappingCount method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetGlyphMappingCount method","IXpsOMGlyphsEditor.GetGlyphMappingCount","IXpsOMGlyphsEditor::GetGlyphMappingCount","xps.ixpsomglyphseditor_getglyphmappingcount","xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount"]
 old-location: xps\ixpsomglyphseditor_getglyphmappingcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 06aa2546-c1d1-47d6-9d3d-94d13310e42b
 ms.date: 12/05/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphsEditor.GetGlyphMappingCount, IXpsOMGlyphsEditor::GetGlyphMappingCount, xps.ixpsomglyphseditor_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount

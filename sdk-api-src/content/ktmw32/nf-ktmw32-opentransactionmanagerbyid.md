@@ -1,9 +1,10 @@
 ---
 UID: NF:ktmw32.OpenTransactionManagerById
 title: OpenTransactionManagerById function (ktmw32.h)
-description: Opens an existing transaction manager.helpviewer_keywords: ["OpenTransactionManagerById","OpenTransactionManagerById function [Files]","fs.opentransactionmanagerbyid","ktmw32/OpenTransactionManagerById"]
+description: Opens an existing transaction manager.
+helpviewer_keywords: ["OpenTransactionManagerById","OpenTransactionManagerById function [Files]","fs.opentransactionmanagerbyid","ktmw32/OpenTransactionManagerById"]
 old-location: fs\opentransactionmanagerbyid.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 4724383d-8ecf-40cb-8159-15a6d5ddfd1b
 ms.date: 12/05/2018
 ms.keywords: OpenTransactionManagerById, OpenTransactionManagerById function [Files], fs.opentransactionmanagerbyid, ktmw32/OpenTransactionManagerById

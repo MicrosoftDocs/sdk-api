@@ -1,9 +1,10 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetStateNoAddRef
 title: IRtwqAsyncResult::GetStateNoAddRef (rtworkq.h)
-description: Returns the state object specified by the caller in the asynchronous Begin method, without incrementing the object's reference count.helpviewer_keywords: ["GetStateNoAddRef","GetStateNoAddRef method","GetStateNoAddRef method","IRtwqAsyncResult interface","IRtwqAsyncResult interface","GetStateNoAddRef method","IRtwqAsyncResult.GetStateNoAddRef","IRtwqAsyncResult::GetStateNoAddRef","base.irtwqasyncresult_getstatenoaddref","rtworkq/IRtwqAsyncResult::GetStateNoAddRef"]
+description: Returns the state object specified by the caller in the asynchronous Begin method, without incrementing the object's reference count.
+helpviewer_keywords: ["GetStateNoAddRef","GetStateNoAddRef method","GetStateNoAddRef method","IRtwqAsyncResult interface","IRtwqAsyncResult interface","GetStateNoAddRef method","IRtwqAsyncResult.GetStateNoAddRef","IRtwqAsyncResult::GetStateNoAddRef","base.irtwqasyncresult_getstatenoaddref","rtworkq/IRtwqAsyncResult::GetStateNoAddRef"]
 old-location: base\irtwqasyncresult_getstatenoaddref.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: DF41E4E7-015C-469A-A94F-16F06445B804
 ms.date: 12/05/2018
 ms.keywords: GetStateNoAddRef, GetStateNoAddRef method, GetStateNoAddRef method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStateNoAddRef method, IRtwqAsyncResult.GetStateNoAddRef, IRtwqAsyncResult::GetStateNoAddRef, base.irtwqasyncresult_getstatenoaddref, rtworkq/IRtwqAsyncResult::GetStateNoAddRef

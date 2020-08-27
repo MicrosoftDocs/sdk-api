@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetObjectW
 title: GetObjectW function (wingdi.h)
-description: The GetObject function retrieves information for the specified graphics object.helpviewer_keywords: ["GetObject","GetObject function [Windows GDI]","GetObjectA","GetObjectW","HBITMAP","HBITMAP returned from a call to CreateDIBSection","HBRUSH","HFONT","HPALETTE","HPEN","HPEN returned from a call to ExtCreatePen","_win32_GetObject","gdi.getobject","wingdi/GetObject","wingdi/GetObjectA","wingdi/GetObjectW"]
+description: The GetObject function retrieves information for the specified graphics object.
+helpviewer_keywords: ["GetObject","GetObject function [Windows GDI]","GetObjectA","GetObjectW","HBITMAP","HBITMAP returned from a call to CreateDIBSection","HBRUSH","HFONT","HPALETTE","HPEN","HPEN returned from a call to ExtCreatePen","_win32_GetObject","gdi.getobject","wingdi/GetObject","wingdi/GetObjectA","wingdi/GetObjectW"]
 old-location: gdi\getobject.htm
 tech.root: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
@@ -208,6 +209,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/stor
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GetObject as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

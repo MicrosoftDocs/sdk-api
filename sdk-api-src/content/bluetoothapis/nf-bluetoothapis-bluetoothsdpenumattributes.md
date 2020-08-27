@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpEnumAttributes
 title: BluetoothSdpEnumAttributes function (bluetoothapis.h)
-description: The BluetoothSdpEnumAttributes function enumerates through the SDP record stream, and calls the callback function for each attribute in the record.helpviewer_keywords: ["BluetoothSdpEnumAttributes","BluetoothSdpEnumAttributes function [Bluetooth]","bluetooth.bluetoothsdpenumattributes","bluetoothapis/BluetoothSdpEnumAttributes"]
+description: The BluetoothSdpEnumAttributes function enumerates through the SDP record stream, and calls the callback function for each attribute in the record.
+helpviewer_keywords: ["BluetoothSdpEnumAttributes","BluetoothSdpEnumAttributes function [Bluetooth]","bluetooth.bluetoothsdpenumattributes","bluetoothapis/BluetoothSdpEnumAttributes"]
 old-location: bluetooth\bluetoothsdpenumattributes.htm
 tech.root: bluetooth
 ms.assetid: 3113db03-a32f-47ad-a442-3769f41ee8e7

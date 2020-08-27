@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetDeviceIcon
 title: IWMDMDevice::GetDeviceIcon (mswmdm.h)
-description: The GetDeviceIcon method retrieves a handle to the icon that the device manufacturer wants to display when the device is connected.helpviewer_keywords: ["GetDeviceIcon","GetDeviceIcon method [windows Media Device Manager]","GetDeviceIcon method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetDeviceIcon method","IWMDMDevice.GetDeviceIcon","IWMDMDevice::GetDeviceIcon","IWMDMDeviceGetDeviceIcon","mswmdm/IWMDMDevice::GetDeviceIcon","wmdm.iwmdmdevice_getdeviceicon"]
+description: The GetDeviceIcon method retrieves a handle to the icon that the device manufacturer wants to display when the device is connected.
+helpviewer_keywords: ["GetDeviceIcon","GetDeviceIcon method [windows Media Device Manager]","GetDeviceIcon method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetDeviceIcon method","IWMDMDevice.GetDeviceIcon","IWMDMDevice::GetDeviceIcon","IWMDMDeviceGetDeviceIcon","mswmdm/IWMDMDevice::GetDeviceIcon","wmdm.iwmdmdevice_getdeviceicon"]
 old-location: wmdm\iwmdmdevice_getdeviceicon.htm
 tech.root: WMDM
 ms.assetid: 55da3443-ad5b-469d-a493-0e2e8ea21f0c

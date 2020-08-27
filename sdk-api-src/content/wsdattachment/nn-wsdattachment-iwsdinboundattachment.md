@@ -1,9 +1,10 @@
 ---
 UID: NN:wsdattachment.IWSDInboundAttachment
 title: IWSDInboundAttachment (wsdattachment.h)
-description: Allows applications to read MIME-encoded attachment data from an incoming message.helpviewer_keywords: ["IWSDInboundAttachment","IWSDInboundAttachment interface","IWSDInboundAttachment interface","described","ncd.iwsdinboundattachment","wsdattachment/IWSDInboundAttachment"]
+description: Allows applications to read MIME-encoded attachment data from an incoming message.
+helpviewer_keywords: ["IWSDInboundAttachment","IWSDInboundAttachment interface","IWSDInboundAttachment interface","described","ncd.iwsdinboundattachment","wsdattachment/IWSDInboundAttachment"]
 old-location: ncd\iwsdinboundattachment.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment

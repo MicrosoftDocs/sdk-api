@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxServer.GetPorts
 title: IFaxServer::GetPorts (faxcom.h)
-description: The GetPorts method creates and initializes a FaxPorts object for a specified FaxServer object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.helpviewer_keywords: ["GetPorts","GetPorts method [Fax Service]","GetPorts method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","GetPorts method","IFaxServer.GetPorts","IFaxServer::GetPorts","_mfax_ifaxserver_getports","fax._mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp","fax._mfax_ifaxserver_getports","faxcom/IFaxServer::GetPorts"]
+description: The GetPorts method creates and initializes a FaxPorts object for a specified FaxServer object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
+helpviewer_keywords: ["GetPorts","GetPorts method [Fax Service]","GetPorts method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","GetPorts method","IFaxServer.GetPorts","IFaxServer::GetPorts","_mfax_ifaxserver_getports","fax._mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp","fax._mfax_ifaxserver_getports","faxcom/IFaxServer::GetPorts"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9apf.htm
@@ -65,7 +66,7 @@ TBD
 
 
 
-#### - retVal [out]
+### -param retVal [out]
 
 Type: <b>VARIANT*</b>
 

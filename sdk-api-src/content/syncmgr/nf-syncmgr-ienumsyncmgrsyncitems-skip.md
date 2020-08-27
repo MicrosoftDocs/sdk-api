@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Skip
 title: IEnumSyncMgrSyncItems::Skip (syncmgr.h)
-description: Skips forward in the enumeration the specified number of items.helpviewer_keywords: ["IEnumSyncMgrSyncItems interface [Windows Shell]","Skip method","IEnumSyncMgrSyncItems.Skip","IEnumSyncMgrSyncItems::Skip","Skip","Skip method [Windows Shell]","Skip method [Windows Shell]","IEnumSyncMgrSyncItems interface","_shell_IEnumSyncMgrSyncItems_Skip","shell.IEnumSyncMgrSyncItems_Skip","syncmgr/IEnumSyncMgrSyncItems::Skip"]
+description: Skips forward in the enumeration the specified number of items.
+helpviewer_keywords: ["IEnumSyncMgrSyncItems interface [Windows Shell]","Skip method","IEnumSyncMgrSyncItems.Skip","IEnumSyncMgrSyncItems::Skip","Skip","Skip method [Windows Shell]","Skip method [Windows Shell]","IEnumSyncMgrSyncItems interface","_shell_IEnumSyncMgrSyncItems_Skip","shell.IEnumSyncMgrSyncItems_Skip","syncmgr/IEnumSyncMgrSyncItems::Skip"]
 old-location: shell\IEnumSyncMgrSyncItems_Skip.htm
 tech.root: shell
 ms.assetid: a07038de-84dc-4371-b72f-c835efd73ffc

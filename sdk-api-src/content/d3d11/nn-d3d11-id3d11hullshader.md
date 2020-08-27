@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11HullShader
 title: ID3D11HullShader (d3d11.h)
-description: A hull-shader interface manages an executable program (a hull shader) that controls the hull-shader stage.helpviewer_keywords: ["47a9bf26-6dd1-87f4-4259-36e6163908d8","ID3D11HullShader","ID3D11HullShader interface [Direct3D 11]","ID3D11HullShader interface [Direct3D 11]","described","d3d11/ID3D11HullShader","direct3d11.id3d11hullshader"]
+description: A hull-shader interface manages an executable program (a hull shader) that controls the hull-shader stage.
+helpviewer_keywords: ["47a9bf26-6dd1-87f4-4259-36e6163908d8","ID3D11HullShader","ID3D11HullShader interface [Direct3D 11]","ID3D11HullShader interface [Direct3D 11]","described","d3d11/ID3D11HullShader","direct3d11.id3d11hullshader"]
 old-location: direct3d11\id3d11hullshader.htm
 tech.root: direct3d11
 ms.assetid: 3459f533-e2ac-4b0e-bfdd-d9dae704f418

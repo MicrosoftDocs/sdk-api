@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvGradientFill
 title: DrvGradientFill function (winddi.h)
-description: The DrvGradientFill function shades the specified primitives.helpviewer_keywords: ["DrvGradientFill","DrvGradientFill function [Display Devices]","ddifncs_23385260-cc1d-4871-8aad-b6618e3d5f52.xml","display.drvgradientfill","winddi/DrvGradientFill"]
+description: The DrvGradientFill function shades the specified primitives.
+helpviewer_keywords: ["DrvGradientFill","DrvGradientFill function [Display Devices]","ddifncs_23385260-cc1d-4871-8aad-b6618e3d5f52.xml","display.drvgradientfill","winddi/DrvGradientFill"]
 old-location: display\drvgradientfill.htm
 tech.root: display
 ms.assetid: c8a51b5f-5509-4801-8432-c4d895cefbda

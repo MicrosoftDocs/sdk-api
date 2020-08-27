@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetQueryDisplayInformation
 title: NetQueryDisplayInformation function (lmaccess.h)
-description: The NetQueryDisplayInformation function returns user account, computer, or group account information. Call this function to quickly enumerate account information for display in user interfaces.helpviewer_keywords: ["1","2","3","NetQueryDisplayInformation","NetQueryDisplayInformation function [Network Management]","_win32_netquerydisplayinformation","lmaccess/NetQueryDisplayInformation","netmgmt.netquerydisplayinformation"]
+description: The NetQueryDisplayInformation function returns user account, computer, or group account information. Call this function to quickly enumerate account information for display in user interfaces.
+helpviewer_keywords: ["1","2","3","NetQueryDisplayInformation","NetQueryDisplayInformation function [Network Management]","_win32_netquerydisplayinformation","lmaccess/NetQueryDisplayInformation","netmgmt.netquerydisplayinformation"]
 old-location: netmgmt\netquerydisplayinformation.htm
 tech.root: NetMgmt
 ms.assetid: 049f1ea3-4d23-4b35-8b08-7256859aed45

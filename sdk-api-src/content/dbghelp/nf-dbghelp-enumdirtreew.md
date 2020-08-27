@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.EnumDirTreeW
 title: EnumDirTreeW function (dbghelp.h)
-description: Enumerates all occurrences of the specified file in the specified directory tree.helpviewer_keywords: ["EnumDirTree","EnumDirTree function","EnumDirTreeW","_win32_enumdirtree","base.enumdirtree","dbghelp/EnumDirTree","dbghelp/EnumDirTreeW"]
+description: Enumerates all occurrences of the specified file in the specified directory tree.
+helpviewer_keywords: ["EnumDirTree","EnumDirTree function","EnumDirTreeW","_win32_enumdirtree","base.enumdirtree","dbghelp/EnumDirTree","dbghelp/EnumDirTreeW"]
 old-location: base\enumdirtree.htm
 tech.root: Debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
@@ -120,6 +121,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines EnumDirTree as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

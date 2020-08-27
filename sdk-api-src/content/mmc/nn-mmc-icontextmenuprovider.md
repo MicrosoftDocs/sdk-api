@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IContextMenuProvider
 title: IContextMenuProvider (mmc.h)
-description: The IContextMenuProvider interface implements methods that create new context menus, for the purpose of adding items to those menus, to enable extensions to extend those menus, and to display the resulting context menus.helpviewer_keywords: ["IContextMenuProvider","IContextMenuProvider interface [MMC]","IContextMenuProvider interface [MMC]","described","_slate_icontextmenuprovider","mmc.icontextmenuprovider","mmc/IContextMenuProvider"]
+description: The IContextMenuProvider interface implements methods that create new context menus, for the purpose of adding items to those menus, to enable extensions to extend those menus, and to display the resulting context menus.
+helpviewer_keywords: ["IContextMenuProvider","IContextMenuProvider interface [MMC]","IContextMenuProvider interface [MMC]","described","_slate_icontextmenuprovider","mmc.icontextmenuprovider","mmc/IContextMenuProvider"]
 old-location: mmc\icontextmenuprovider.htm
 tech.root: mmc
 ms.assetid: 3f9a5945-9b34-41fe-9c91-c782eb7eb739

@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.SetFlags
 title: IMFASFMultiplexer::SetFlags (wmcontainer.h)
-description: Sets multiplexer options.helpviewer_keywords: ["IMFASFMultiplexer interface [Media Foundation]","SetFlags method","IMFASFMultiplexer.SetFlags","IMFASFMultiplexer::SetFlags","SetFlags","SetFlags method [Media Foundation]","SetFlags method [Media Foundation]","IMFASFMultiplexer interface","dac4f9b0-e83a-4e99-9a4a-ec1154c929a7","mf.imfasfmultiplexer_setflags","wmcontainer/IMFASFMultiplexer::SetFlags"]
+description: Sets multiplexer options.
+helpviewer_keywords: ["IMFASFMultiplexer interface [Media Foundation]","SetFlags method","IMFASFMultiplexer.SetFlags","IMFASFMultiplexer::SetFlags","SetFlags","SetFlags method [Media Foundation]","SetFlags method [Media Foundation]","IMFASFMultiplexer interface","dac4f9b0-e83a-4e99-9a4a-ec1154c929a7","mf.imfasfmultiplexer_setflags","wmcontainer/IMFASFMultiplexer::SetFlags"]
 old-location: mf\imfasfmultiplexer_setflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dac4f9b0-e83a-4e99-9a4a-ec1154c929a7
 ms.date: 12/05/2018
 ms.keywords: IMFASFMultiplexer interface [Media Foundation],SetFlags method, IMFASFMultiplexer.SetFlags, IMFASFMultiplexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFMultiplexer interface, dac4f9b0-e83a-4e99-9a4a-ec1154c929a7, mf.imfasfmultiplexer_setflags, wmcontainer/IMFASFMultiplexer::SetFlags

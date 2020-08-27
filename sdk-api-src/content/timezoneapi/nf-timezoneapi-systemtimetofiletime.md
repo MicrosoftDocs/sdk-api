@@ -1,9 +1,10 @@
 ---
 UID: NF:timezoneapi.SystemTimeToFileTime
 title: SystemTimeToFileTime function (timezoneapi.h)
-description: Converts a system time to file time format. System time is based on Coordinated Universal Time (UTC).helpviewer_keywords: ["SystemTimeToFileTime","SystemTimeToFileTime function","_win32_systemtimetofiletime","base.systemtimetofiletime","timezoneapi/SystemTimeToFileTime"]
+description: Converts a system time to file time format. System time is based on Coordinated Universal Time (UTC).
+helpviewer_keywords: ["SystemTimeToFileTime","SystemTimeToFileTime function","_win32_systemtimetofiletime","base.systemtimetofiletime","timezoneapi/SystemTimeToFileTime"]
 old-location: base\systemtimetofiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: d19594bc-8238-4a8f-882d-5b9019ef4880
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToFileTime, SystemTimeToFileTime function, _win32_systemtimetofiletime, base.systemtimetofiletime, timezoneapi/SystemTimeToFileTime

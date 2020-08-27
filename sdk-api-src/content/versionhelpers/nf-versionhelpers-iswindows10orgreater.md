@@ -1,9 +1,10 @@
 ---
 UID: NF:versionhelpers.IsWindows10OrGreater
 title: IsWindows10OrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the Windows 10 version.helpviewer_keywords: ["IsWindows10OrGreater","IsWindows10OrGreater function","base.iswindows10orgreater","versionhelpers/IsWindows10OrGreater"]
+description: Indicates if the current OS version matches, or is greater than, the Windows 10 version.
+helpviewer_keywords: ["IsWindows10OrGreater","IsWindows10OrGreater function","base.iswindows10orgreater","versionhelpers/IsWindows10OrGreater"]
 old-location: base\iswindows10orgreater.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
 ms.date: 12/05/2018
 ms.keywords: IsWindows10OrGreater, IsWindows10OrGreater function, base.iswindows10orgreater, versionhelpers/IsWindows10OrGreater

@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_InsertItemData
 title: ListBox_InsertItemData macro (windowsx.h)
-description: Inserts item data to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.helpviewer_keywords: ["ListBox_InsertItemData","ListBox_InsertItemData macro [Windows Controls]","_win32_ListBox_InsertItemData","_win32_ListBox_InsertItemData_cpp","controls.ListBox_InsertItemData","controls._win32_ListBox_InsertItemData","windowsx/ListBox_InsertItemData"]
+description: Inserts item data to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
+helpviewer_keywords: ["ListBox_InsertItemData","ListBox_InsertItemData macro [Windows Controls]","_win32_ListBox_InsertItemData","_win32_ListBox_InsertItemData_cpp","controls.ListBox_InsertItemData","controls._win32_ListBox_InsertItemData","windowsx/ListBox_InsertItemData"]
 old-location: controls\ListBox_InsertItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertitemdata.htm

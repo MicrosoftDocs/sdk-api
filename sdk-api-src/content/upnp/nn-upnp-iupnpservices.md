@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPServices
 title: IUPnPServices (upnp.h)
-description: The IUPnPServices interface enumerates a collection of services.helpviewer_keywords: ["IUPnPServices","IUPnPServices interface [UPnP APIs]","IUPnPServices interface [UPnP APIs]","described","_upnp_iupnpservices","upnp.iupnpservices","upnp/IUPnPServices"]
+description: The IUPnPServices interface enumerates a collection of services.
+helpviewer_keywords: ["IUPnPServices","IUPnPServices interface [UPnP APIs]","IUPnPServices interface [UPnP APIs]","described","_upnp_iupnpservices","upnp.iupnpservices","upnp/IUPnPServices"]
 old-location: upnp\iupnpservices.htm
 tech.root: upnp
 ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c

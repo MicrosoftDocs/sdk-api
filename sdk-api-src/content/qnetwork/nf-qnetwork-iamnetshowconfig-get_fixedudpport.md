@@ -1,9 +1,10 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_FixedUDPPort
 title: IAMNetShowConfig::get_FixedUDPPort (qnetwork.h)
-description: The get_FixedUDPPort method gets the fixed UDP port number.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_FixedUDPPort method","IAMNetShowConfig.get_FixedUDPPort","IAMNetShowConfig::get_FixedUDPPort","IAMNetShowConfigget_FixedUDPPort","dshow.iamnetshowconfig_get_fixedudpport","get_FixedUDPPort","get_FixedUDPPort method [DirectShow]","get_FixedUDPPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_FixedUDPPort"]
+description: The get_FixedUDPPort method gets the fixed UDP port number.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_FixedUDPPort method","IAMNetShowConfig.get_FixedUDPPort","IAMNetShowConfig::get_FixedUDPPort","IAMNetShowConfigget_FixedUDPPort","dshow.iamnetshowconfig_get_fixedudpport","get_FixedUDPPort","get_FixedUDPPort method [DirectShow]","get_FixedUDPPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_FixedUDPPort"]
 old-location: dshow\iamnetshowconfig_get_fixedudpport.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0890d29b-540a-45ce-a5f0-04a2db517135
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_FixedUDPPort method, IAMNetShowConfig.get_FixedUDPPort, IAMNetShowConfig::get_FixedUDPPort, IAMNetShowConfigget_FixedUDPPort, dshow.iamnetshowconfig_get_fixedudpport, get_FixedUDPPort, get_FixedUDPPort method [DirectShow], get_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_FixedUDPPort

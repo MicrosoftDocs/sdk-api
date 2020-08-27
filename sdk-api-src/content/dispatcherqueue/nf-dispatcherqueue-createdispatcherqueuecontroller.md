@@ -1,9 +1,10 @@
 ---
 UID: NF:dispatcherqueue.CreateDispatcherQueueController
 title: CreateDispatcherQueueController function (dispatcherqueue.h)
-description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.helpviewer_keywords: ["CreateDispatcherQueueController","CreateDispatcherQueueController function","base.createdispatcherqueuecontroller","dispatcherqueue/CreateDispatcherQueueController"]
+description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
+helpviewer_keywords: ["CreateDispatcherQueueController","CreateDispatcherQueueController function","base.createdispatcherqueuecontroller","dispatcherqueue/CreateDispatcherQueueController"]
 old-location: base\createdispatcherqueuecontroller.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
 ms.date: 12/05/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController

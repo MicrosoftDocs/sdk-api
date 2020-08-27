@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.Decompress
 title: Decompress function (compressapi.h)
-description: Takes a block of compressed information and decompresses it.helpviewer_keywords: ["Decompress","Decompress function [Compression API]","cmpapi.decompress","compressapi/Decompress"]
+description: Takes a block of compressed information and decompresses it.
+helpviewer_keywords: ["Decompress","Decompress function [Compression API]","cmpapi.decompress","compressapi/Decompress"]
 old-location: cmpapi\decompress.htm
 tech.root: cmpapi
 ms.assetid: 654b88c7-14f2-43d4-8850-675ea303b439
@@ -14,8 +15,8 @@ dev_langs:
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

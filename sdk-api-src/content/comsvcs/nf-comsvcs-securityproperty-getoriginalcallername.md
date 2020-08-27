@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetOriginalCallerName
 title: SecurityProperty::GetOriginalCallerName (comsvcs.h)
-description: Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.helpviewer_keywords: ["GetOriginalCallerName","GetOriginalCallerName method [COM+]","GetOriginalCallerName method [COM+]","SecurityProperty interface","SecurityProperty interface [COM+]","GetOriginalCallerName method","SecurityProperty.GetOriginalCallerName","SecurityProperty::GetOriginalCallerName","_cos_SecurityProperty_GetOriginalCallerName","comsvcs/SecurityProperty::GetOriginalCallerName","cos.securityproperty_getoriginalcallername"]
+description: Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.
+helpviewer_keywords: ["GetOriginalCallerName","GetOriginalCallerName method [COM+]","GetOriginalCallerName method [COM+]","SecurityProperty interface","SecurityProperty interface [COM+]","GetOriginalCallerName method","SecurityProperty.GetOriginalCallerName","SecurityProperty::GetOriginalCallerName","_cos_SecurityProperty_GetOriginalCallerName","comsvcs/SecurityProperty::GetOriginalCallerName","cos.securityproperty_getoriginalcallername"]
 old-location: cos\securityproperty_getoriginalcallername.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ca57950c-3079-42bd-a832-9b7753c61a39
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCallerName method, SecurityProperty.GetOriginalCallerName, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername

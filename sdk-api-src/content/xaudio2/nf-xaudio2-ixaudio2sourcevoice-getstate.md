@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.GetState
 title: IXAudio2SourceVoice::GetState (xaudio2.h)
-description: Returns the voice's current cursor position data.helpviewer_keywords: ["GetState","GetState method [XAudio2 Audio Mixing APIs]","GetState method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","GetState method","IXAudio2SourceVoice.GetState","IXAudio2SourceVoice::GetState","xaudio2.ixaudio2sourcevoice_interface_getstate","xaudio2/IXAudio2SourceVoice::GetState"]
+description: Returns the voice's current cursor position data.
+helpviewer_keywords: ["GetState","GetState method [XAudio2 Audio Mixing APIs]","GetState method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","GetState method","IXAudio2SourceVoice.GetState","IXAudio2SourceVoice::GetState","xaudio2.ixaudio2sourcevoice_interface_getstate","xaudio2/IXAudio2SourceVoice::GetState"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_getstate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.GetState(XAUDIO2_VOICE_STATE,UINT32)
@@ -69,7 +70,7 @@ TBD
 
 
 
-#### - Flags [optional]
+### -param Flags [optional]
 
 Flags controlling which voice state data should be returned. Valid values are 0 or <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>. The default value is 0. If you specify <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>, <b>GetState</b> returns only the buffer state, not the sampler state. <b>GetState</b> takes roughly one-third as much time to complete when you specify 
 <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>.

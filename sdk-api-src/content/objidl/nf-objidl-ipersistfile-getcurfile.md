@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IPersistFile.GetCurFile
 title: IPersistFile::GetCurFile (objidl.h)
-description: Retrieves the current name of the file associated with the object. If there is no current working file, this method retrieves the default save prompt for the object.helpviewer_keywords: ["GetCurFile","GetCurFile method [COM]","GetCurFile method [COM]","IPersistFile interface","IPersistFile interface [COM]","GetCurFile method","IPersistFile.GetCurFile","IPersistFile::GetCurFile","_com_ipersistfile_getcurfile","com.ipersistfile_getcurfile","objidl/IPersistFile::GetCurFile"]
+description: Retrieves the current name of the file associated with the object. If there is no current working file, this method retrieves the default save prompt for the object.
+helpviewer_keywords: ["GetCurFile","GetCurFile method [COM]","GetCurFile method [COM]","IPersistFile interface","IPersistFile interface [COM]","GetCurFile method","IPersistFile.GetCurFile","IPersistFile::GetCurFile","_com_ipersistfile_getcurfile","com.ipersistfile_getcurfile","objidl/IPersistFile::GetCurFile"]
 old-location: com\ipersistfile_getcurfile.htm
 tech.root: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRenderSurface
 title: IMFCapturePreviewSink::SetRenderSurface (mfcaptureengine.h)
-description: Specifies a Microsoft DirectComposition visual for preview.helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetRenderSurface method","IMFCapturePreviewSink.SetRenderSurface","IMFCapturePreviewSink::SetRenderSurface","SetRenderSurface","SetRenderSurface method [Media Foundation]","SetRenderSurface method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setrendersurface","mfcaptureengine/IMFCapturePreviewSink::SetRenderSurface"]
+description: Specifies a Microsoft DirectComposition visual for preview.
+helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetRenderSurface method","IMFCapturePreviewSink.SetRenderSurface","IMFCapturePreviewSink::SetRenderSurface","SetRenderSurface","SetRenderSurface method [Media Foundation]","SetRenderSurface method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setrendersurface","mfcaptureengine/IMFCapturePreviewSink::SetRenderSurface"]
 old-location: mf\imfcapturepreviewsink_setrendersurface.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: AC50EB86-A39D-4ACA-9582-A8DB0232E056
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderSurface method, IMFCapturePreviewSink.SetRenderSurface, IMFCapturePreviewSink::SetRenderSurface, SetRenderSurface, SetRenderSurface method [Media Foundation], SetRenderSurface method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrendersurface, mfcaptureengine/IMFCapturePreviewSink::SetRenderSurface

@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Start
 title: IXAudio2SourceVoice::Start (xaudio2.h)
-description: Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","Start method","IXAudio2SourceVoice.Start","IXAudio2SourceVoice::Start","Start","Start method [XAudio2 Audio Mixing APIs]","Start method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_start","xaudio2/IXAudio2SourceVoice::Start"]
+description: Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.
+helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","Start method","IXAudio2SourceVoice.Start","IXAudio2SourceVoice::Start","Start","Start method [XAudio2 Audio Mixing APIs]","Start method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_start","xaudio2/IXAudio2SourceVoice::Start"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_start.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Start(UINT32,UINT32)
@@ -64,12 +65,12 @@ TBD
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags that control how the voice is started. Must be 0.
 
 
-#### - OperationSet [in]
+### -param OperationSet [in]
 
 Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
 

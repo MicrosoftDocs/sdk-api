@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetContentProtectionManager
 title: IMFMediaEngineProtectedContent::SetContentProtectionManager (mfmediaengine.h)
-description: Sets the content protection manager (CPM).helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","SetContentProtectionManager method","IMFMediaEngineProtectedContent.SetContentProtectionManager","IMFMediaEngineProtectedContent::SetContentProtectionManager","SetContentProtectionManager","SetContentProtectionManager method [Media Foundation]","SetContentProtectionManager method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_setcontentprotectionmanager","mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager"]
+description: Sets the content protection manager (CPM).
+helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","SetContentProtectionManager method","IMFMediaEngineProtectedContent.SetContentProtectionManager","IMFMediaEngineProtectedContent::SetContentProtectionManager","SetContentProtectionManager","SetContentProtectionManager method [Media Foundation]","SetContentProtectionManager method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_setcontentprotectionmanager","mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager"]
 old-location: mf\imfmediaengineprotectedcontent_setcontentprotectionmanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8F150CB5-43AB-4709-A254-636440113642
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager

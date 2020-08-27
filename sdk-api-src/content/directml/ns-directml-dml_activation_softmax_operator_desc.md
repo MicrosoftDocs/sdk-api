@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ACTIVATION_SOFTMAX_OPERATOR_DESC
 title: DML_ACTIVATION_SOFTMAX_OPERATOR_DESC
-description: Describes a DirectML operator that performs a softmax activation function on the input, f(x_i) = expe(x_i) / sum(expe(X)) = exp(x_i - max(X)) / sum(expe(x - max(X))).helpviewer_keywords: ["DML_ACTIVATION_SOFTMAX_OPERATOR_DESC","DML_ACTIVATION_SOFTMAX_OPERATOR_DESC structure","direct3d12.dml_activation_softmax_operator_desc","directml/DML_ACTIVATION_SOFTMAX_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a softmax activation function on the input, f(x_i) = expe(x_i) / sum(expe(X)) = exp(x_i - max(X)) / sum(expe(x - max(X))).
+helpviewer_keywords: ["DML_ACTIVATION_SOFTMAX_OPERATOR_DESC","DML_ACTIVATION_SOFTMAX_OPERATOR_DESC structure","direct3d12.dml_activation_softmax_operator_desc","directml/DML_ACTIVATION_SOFTMAX_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_softmax_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 93B799D1-E98B-42A1-87E5-F2B84721D98C
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_SOFTMAX_OPERATOR_DESC, DML_ACTIVATION_SOFTMAX_OPERATOR_DESC structure, direct3d12.dml_activation_softmax_operator_desc, directml/DML_ACTIVATION_SOFTMAX_OPERATOR_DESC

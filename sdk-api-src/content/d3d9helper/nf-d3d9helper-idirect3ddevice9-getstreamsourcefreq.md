@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetStreamSourceFreq
 title: IDirect3DDevice9::GetStreamSourceFreq (d3d9helper.h)
-description: Gets the stream source frequency divider value.helpviewer_keywords: ["5a7d1b69-c1ef-f38d-2536-b01c718bd9b6","GetStreamSourceFreq","GetStreamSourceFreq method [Direct3D 9]","GetStreamSourceFreq method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetStreamSourceFreq method","IDirect3DDevice9.GetStreamSourceFreq","IDirect3DDevice9::GetStreamSourceFreq","d3d9helper/IDirect3DDevice9::GetStreamSourceFreq","direct3d9.idirect3ddevice9__getstreamsourcefreq"]
+description: Gets the stream source frequency divider value.
+helpviewer_keywords: ["5a7d1b69-c1ef-f38d-2536-b01c718bd9b6","GetStreamSourceFreq","GetStreamSourceFreq method [Direct3D 9]","GetStreamSourceFreq method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetStreamSourceFreq method","IDirect3DDevice9.GetStreamSourceFreq","IDirect3DDevice9::GetStreamSourceFreq","d3d9helper/IDirect3DDevice9::GetStreamSourceFreq","direct3d9.idirect3ddevice9__getstreamsourcefreq"]
 old-location: direct3d9\idirect3ddevice9__getstreamsourcefreq.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getstreamsourcefreq.htm
@@ -65,7 +66,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Stream source number.
 
 
-#### - Divider [out]
+### -param Divider [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 

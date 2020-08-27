@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetACPFromPoint
 title: ITextStoreACP::GetACPFromPoint (textstor.h)
-description: The ITextStoreACP::GetACPFromPoint method converts a point in screen coordinates to an application character position.helpviewer_keywords: ["GXFPF_NEAREST","GXFPF_ROUND_NEAREST","GetACPFromPoint","GetACPFromPoint method [Text Services Framework]","GetACPFromPoint method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetACPFromPoint method","ITextStoreACP.GetACPFromPoint","ITextStoreACP::GetACPFromPoint","_tsf_itextstoreacp_getacpfrompoint_ref","textstor/ITextStoreACP::GetACPFromPoint","tsf.itextstoreacp_getacpfrompoint"]
+description: The ITextStoreACP::GetACPFromPoint method converts a point in screen coordinates to an application character position.
+helpviewer_keywords: ["GXFPF_NEAREST","GXFPF_ROUND_NEAREST","GetACPFromPoint","GetACPFromPoint method [Text Services Framework]","GetACPFromPoint method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetACPFromPoint method","ITextStoreACP.GetACPFromPoint","ITextStoreACP::GetACPFromPoint","_tsf_itextstoreacp_getacpfrompoint_ref","textstor/ITextStoreACP::GetACPFromPoint","tsf.itextstoreacp_getacpfrompoint"]
 old-location: tsf\itextstoreacp_getacpfrompoint.htm
 tech.root: TSF
 ms.assetid: b6489391-a19e-405a-a129-f68054088860

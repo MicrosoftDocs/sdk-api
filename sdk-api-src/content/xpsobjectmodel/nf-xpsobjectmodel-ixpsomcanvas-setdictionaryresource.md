@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryResource
 title: IXpsOMCanvas::SetDictionaryResource (xpsobjectmodel.h)
-description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the remote dictionary resource.helpviewer_keywords: ["IXpsOMCanvas interface [XPS Documents and Packaging]","SetDictionaryResource method","IXpsOMCanvas.SetDictionaryResource","IXpsOMCanvas::SetDictionaryResource","SetDictionaryResource","SetDictionaryResource method [XPS Documents and Packaging]","SetDictionaryResource method [XPS Documents and Packaging]","IXpsOMCanvas interface","xps.ixpsomcanvas_setdictionaryresource","xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource"]
+description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the remote dictionary resource.
+helpviewer_keywords: ["IXpsOMCanvas interface [XPS Documents and Packaging]","SetDictionaryResource method","IXpsOMCanvas.SetDictionaryResource","IXpsOMCanvas::SetDictionaryResource","SetDictionaryResource","SetDictionaryResource method [XPS Documents and Packaging]","SetDictionaryResource method [XPS Documents and Packaging]","IXpsOMCanvas interface","xps.ixpsomcanvas_setdictionaryresource","xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource"]
 old-location: xps\ixpsomcanvas_setdictionaryresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8f6a80e9-fa66-45fa-bee9-c80a64a4593f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMCanvas.SetDictionaryResource, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource

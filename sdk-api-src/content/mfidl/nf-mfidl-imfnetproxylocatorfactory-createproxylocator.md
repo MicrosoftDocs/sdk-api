@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocatorFactory.CreateProxyLocator
 title: IMFNetProxyLocatorFactory::CreateProxyLocator (mfidl.h)
-description: Creates an IMFNetProxyLocator interface proxy locator object based on the protocol name.helpviewer_keywords: ["0bdc03a8-a01d-453b-92b9-b39d8028b314","CreateProxyLocator","CreateProxyLocator method [Media Foundation]","CreateProxyLocator method [Media Foundation]","IMFNetProxyLocatorFactory interface","IMFNetProxyLocatorFactory interface [Media Foundation]","CreateProxyLocator method","IMFNetProxyLocatorFactory.CreateProxyLocator","IMFNetProxyLocatorFactory::CreateProxyLocator","mf.imfnetproxylocatorfactory_createproxylocator","mfidl/IMFNetProxyLocatorFactory::CreateProxyLocator"]
+description: Creates an IMFNetProxyLocator interface proxy locator object based on the protocol name.
+helpviewer_keywords: ["0bdc03a8-a01d-453b-92b9-b39d8028b314","CreateProxyLocator","CreateProxyLocator method [Media Foundation]","CreateProxyLocator method [Media Foundation]","IMFNetProxyLocatorFactory interface","IMFNetProxyLocatorFactory interface [Media Foundation]","CreateProxyLocator method","IMFNetProxyLocatorFactory.CreateProxyLocator","IMFNetProxyLocatorFactory::CreateProxyLocator","mf.imfnetproxylocatorfactory_createproxylocator","mfidl/IMFNetProxyLocatorFactory::CreateProxyLocator"]
 old-location: mf\imfnetproxylocatorfactory_createproxylocator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0bdc03a8-a01d-453b-92b9-b39d8028b314
 ms.date: 12/05/2018
 ms.keywords: 0bdc03a8-a01d-453b-92b9-b39d8028b314, CreateProxyLocator, CreateProxyLocator method [Media Foundation], CreateProxyLocator method [Media Foundation],IMFNetProxyLocatorFactory interface, IMFNetProxyLocatorFactory interface [Media Foundation],CreateProxyLocator method, IMFNetProxyLocatorFactory.CreateProxyLocator, IMFNetProxyLocatorFactory::CreateProxyLocator, mf.imfnetproxylocatorfactory_createproxylocator, mfidl/IMFNetProxyLocatorFactory::CreateProxyLocator

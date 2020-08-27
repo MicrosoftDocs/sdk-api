@@ -1,9 +1,10 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_CODING
 title: DVD_SUBPICTURE_CODING (strmif.h)
-description: Indicates what kind of content the subpicture stream contains.helpviewer_keywords: ["DVD_SPCoding_Extended","DVD_SPCoding_Other","DVD_SPCoding_RunLength","DVD_SUBPICTURE_CODING","DVD_SUBPICTURE_CODING","DVD_SUBPICTURE_CODING enumeration [DirectShow]","DVD_SUBPICTURE_CODINGEnumeration","dshow.dvd_subpicture_coding","strmif/DVD_SPCoding_Extended","strmif/DVD_SPCoding_Other","strmif/DVD_SPCoding_RunLength","strmif/DVD_SUBPICTURE_CODING"]
+description: Indicates what kind of content the subpicture stream contains.
+helpviewer_keywords: ["DVD_SPCoding_Extended","DVD_SPCoding_Other","DVD_SPCoding_RunLength","DVD_SUBPICTURE_CODING","DVD_SUBPICTURE_CODING","DVD_SUBPICTURE_CODING enumeration [DirectShow]","DVD_SUBPICTURE_CODINGEnumeration","dshow.dvd_subpicture_coding","strmif/DVD_SPCoding_Extended","strmif/DVD_SPCoding_Other","strmif/DVD_SPCoding_RunLength","strmif/DVD_SUBPICTURE_CODING"]
 old-location: dshow\dvd_subpicture_coding.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 46f45dfb-9be7-4222-b6fb-ea95b60323cd
 ms.date: 12/05/2018
 ms.keywords: DVD_SPCoding_Extended, DVD_SPCoding_Other, DVD_SPCoding_RunLength, DVD_SUBPICTURE_CODING, DVD_SUBPICTURE_CODING , DVD_SUBPICTURE_CODING enumeration [DirectShow], DVD_SUBPICTURE_CODINGEnumeration, dshow.dvd_subpicture_coding, strmif/DVD_SPCoding_Extended, strmif/DVD_SPCoding_Other, strmif/DVD_SPCoding_RunLength, strmif/DVD_SUBPICTURE_CODING

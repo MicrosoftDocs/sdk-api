@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceSetCustomInfoEx
 title: MprConfigInterfaceSetCustomInfoEx function (mprapi.h)
-description: Sets the custom IKEv2 policy configuration for the specified interface.helpviewer_keywords: ["MprConfigInterfaceSetCustomInfoEx","MprConfigInterfaceSetCustomInfoEx function [RAS]","mprapi/MprConfigInterfaceSetCustomInfoEx","rras.mprconfiginterfacesetcustominfoex"]
+description: Sets the custom IKEv2 policy configuration for the specified interface.
+helpviewer_keywords: ["MprConfigInterfaceSetCustomInfoEx","MprConfigInterfaceSetCustomInfoEx function [RAS]","mprapi/MprConfigInterfaceSetCustomInfoEx","rras.mprconfiginterfacesetcustominfoex"]
 old-location: rras\mprconfiginterfacesetcustominfoex.htm
 tech.root: RRAS
 ms.assetid: fff18156-ba94-45b7-86c2-a604823a9b08

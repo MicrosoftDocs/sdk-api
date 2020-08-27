@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.Query
 title: IVssBackupComponents::Query (vsbackup.h)
-description: The Query method queries providers on the system and/or the completed shadow copies in the system that reside in the current context. The method can be called only during backup operations.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","Query method","IVssBackupComponents.Query","IVssBackupComponents::Query","Query","Query method [VSS]","Query method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_query","base.ivssbackupcomponents_query","vsbackup/IVssBackupComponents::Query"]
+description: The Query method queries providers on the system and/or the completed shadow copies in the system that reside in the current context. The method can be called only during backup operations.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","Query method","IVssBackupComponents.Query","IVssBackupComponents::Query","Query","Query method [VSS]","Query method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_query","base.ivssbackupcomponents_query","vsbackup/IVssBackupComponents::Query"]
 old-location: base\ivssbackupcomponents_query.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 3f79bf84-c7b9-4291-ae3b-7061fe3199e9
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query

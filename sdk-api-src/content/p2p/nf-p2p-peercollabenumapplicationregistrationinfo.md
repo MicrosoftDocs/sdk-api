@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabEnumApplicationRegistrationInfo
 title: PeerCollabEnumApplicationRegistrationInfo function (p2p.h)
-description: Obtains the enumeration handle used to retrieve peer application information.helpviewer_keywords: ["PeerCollabEnumApplicationRegistrationInfo","PeerCollabEnumApplicationRegistrationInfo function [Peer Networking]","p2p.peercollabenumapplicationregistrationinfo","p2p/PeerCollabEnumApplicationRegistrationInfo"]
+description: Obtains the enumeration handle used to retrieve peer application information.
+helpviewer_keywords: ["PeerCollabEnumApplicationRegistrationInfo","PeerCollabEnumApplicationRegistrationInfo function [Peer Networking]","p2p.peercollabenumapplicationregistrationinfo","p2p/PeerCollabEnumApplicationRegistrationInfo"]
 old-location: p2p\peercollabenumapplicationregistrationinfo.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 635af767-a4b5-4c48-9966-35c1a629db5d
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumApplicationRegistrationInfo, PeerCollabEnumApplicationRegistrationInfo function [Peer Networking], p2p.peercollabenumapplicationregistrationinfo, p2p/PeerCollabEnumApplicationRegistrationInfo

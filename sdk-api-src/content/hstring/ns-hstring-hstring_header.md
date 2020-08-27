@@ -1,7 +1,8 @@
 ---
 UID: NS:hstring.HSTRING_HEADER
 title: HSTRING_HEADER (hstring.h)
-description: Represents a header for an HSTRING.helpviewer_keywords: ["HSTRING_HEADER","HSTRING_HEADER structure [Windows Runtime]","hstring/HSTRING_HEADER","winrt.hstring_header"]
+description: Represents a header for an HSTRING.
+helpviewer_keywords: ["HSTRING_HEADER","HSTRING_HEADER structure [Windows Runtime]","hstring/HSTRING_HEADER","winrt.hstring_header"]
 old-location: winrt\hstring_header.htm
 tech.root: WinRT
 ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B

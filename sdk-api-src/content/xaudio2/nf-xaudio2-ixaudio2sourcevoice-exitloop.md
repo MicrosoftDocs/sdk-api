@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.ExitLoop
 title: IXAudio2SourceVoice::ExitLoop (xaudio2.h)
-description: Stops looping the voice when it reaches the end of the current loop region.helpviewer_keywords: ["ExitLoop","ExitLoop method [XAudio2 Audio Mixing APIs]","ExitLoop method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","ExitLoop method","IXAudio2SourceVoice.ExitLoop","IXAudio2SourceVoice::ExitLoop","xaudio2.ixaudio2sourcevoice_interface_exitloop","xaudio2/IXAudio2SourceVoice::ExitLoop"]
+description: Stops looping the voice when it reaches the end of the current loop region.
+helpviewer_keywords: ["ExitLoop","ExitLoop method [XAudio2 Audio Mixing APIs]","ExitLoop method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","ExitLoop method","IXAudio2SourceVoice.ExitLoop","IXAudio2SourceVoice::ExitLoop","xaudio2.ixaudio2sourcevoice_interface_exitloop","xaudio2/IXAudio2SourceVoice::ExitLoop"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_exitloop.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.ExitLoop(UINT32)

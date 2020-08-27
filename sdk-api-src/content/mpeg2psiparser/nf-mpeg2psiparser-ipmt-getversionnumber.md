@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetVersionNumber
 title: IPMT::GetVersionNumber (mpeg2psiparser.h)
-description: The GetVersionNumber method returns the version number for the PMT.helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetVersionNumber method","IPMT.GetVersionNumber","IPMT::GetVersionNumber","IPMTGetVersionNumber","mpeg2psiparser/IPMT::GetVersionNumber","mstv.ipmt_getversionnumber"]
+description: The GetVersionNumber method returns the version number for the PMT.
+helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetVersionNumber method","IPMT.GetVersionNumber","IPMT::GetVersionNumber","IPMTGetVersionNumber","mpeg2psiparser/IPMT::GetVersionNumber","mstv.ipmt_getversionnumber"]
 old-location: mstv\ipmt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 00385ea4-27a9-47f4-91af-22fa82d83668

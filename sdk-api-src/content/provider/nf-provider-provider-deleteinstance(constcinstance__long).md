@@ -1,9 +1,10 @@
 ---
-UID: NF:provider.Provider.DeleteInstance(const CInstance &,long)
+UID: NF:provider.Provider.DeleteInstance(constCInstance&,long)
 title: Provider::DeleteInstance (provider.h)
-description: The DeleteInstance method is called by WMI to delete an instance.helpviewer_keywords: ["DeleteInstance","DeleteInstance method [Windows Management Instrumentation]","DeleteInstance method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","DeleteInstance method","Provider.DeleteInstance","Provider::DeleteInstance","_hmm_provider_deleteinstance","provider/Provider::DeleteInstance","wmi.provider_deleteinstance"]
+description: The DeleteInstance method is called by WMI to delete an instance.
+helpviewer_keywords: ["DeleteInstance","DeleteInstance method [Windows Management Instrumentation]","DeleteInstance method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","DeleteInstance method","Provider.DeleteInstance","Provider::DeleteInstance","_hmm_provider_deleteinstance","provider/Provider::DeleteInstance","wmi.provider_deleteinstance"]
 old-location: wmi\provider_deleteinstance.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 469d2481-95ea-4d17-b0ef-095ced9c8319
 ms.date: 12/05/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],DeleteInstance method, Provider.DeleteInstance, Provider::DeleteInstance, _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
@@ -64,7 +65,7 @@ The <b>DeleteInstance</b> method is called by WMI to delete an instance.
 
 
 
-#### - newInstance [ref]
+### -param newInstance [ref]
 
 Instance to be deleted.
 

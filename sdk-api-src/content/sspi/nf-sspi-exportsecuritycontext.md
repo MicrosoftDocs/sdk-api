@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.ExportSecurityContext
 title: ExportSecurityContext function (sspi.h)
-description: The ExportSecurityContext function creates a serialized representation of a security context that can later be imported into a different process by calling ImportSecurityContext.helpviewer_keywords: ["ExportSecurityContext","ExportSecurityContext function [Security]","SECPKG_CONTEXT_EXPORT_DELETE_OLD","SECPKG_CONTEXT_EXPORT_RESET_NEW","SECPKG_CONTEXT_EXPORT_TO_KERNEL","_ssp_exportsecuritycontext","security.exportsecuritycontext","sspi/ExportSecurityContext"]
+description: The ExportSecurityContext function creates a serialized representation of a security context that can later be imported into a different process by calling ImportSecurityContext.
+helpviewer_keywords: ["ExportSecurityContext","ExportSecurityContext function [Security]","SECPKG_CONTEXT_EXPORT_DELETE_OLD","SECPKG_CONTEXT_EXPORT_RESET_NEW","SECPKG_CONTEXT_EXPORT_TO_KERNEL","_ssp_exportsecuritycontext","security.exportsecuritycontext","sspi/ExportSecurityContext"]
 old-location: security\exportsecuritycontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4ebc7f37-b948-4c78-973f-0a74e55c7ee2
 ms.date: 12/05/2018
 ms.keywords: ExportSecurityContext, ExportSecurityContext function [Security], SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SECPKG_CONTEXT_EXPORT_TO_KERNEL, _ssp_exportsecuritycontext, security.exportsecuritycontext, sspi/ExportSecurityContext

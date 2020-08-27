@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_USAGE_MATCH
 title: CERT_USAGE_MATCH (wincrypt.h)
-description: Provides criteria for identifying issuer certificates to be used to build a certificate chain.helpviewer_keywords: ["*PCERT_USAGE_MATCH","CERT_USAGE_MATCH","CERT_USAGE_MATCH structure [Security]","PCERT_USAGE_MATCH","PCERT_USAGE_MATCH structure pointer [Security]","USAGE_MATCH_TYPE_AND","USAGE_MATCH_TYPE_OR","_crypto2_cert_usage_match","security.cert_usage_match","wincrypt/CERT_USAGE_MATCH","wincrypt/PCERT_USAGE_MATCH"]
+description: Provides criteria for identifying issuer certificates to be used to build a certificate chain.
+helpviewer_keywords: ["*PCERT_USAGE_MATCH","CERT_USAGE_MATCH","CERT_USAGE_MATCH structure [Security]","PCERT_USAGE_MATCH","PCERT_USAGE_MATCH structure pointer [Security]","USAGE_MATCH_TYPE_AND","USAGE_MATCH_TYPE_OR","_crypto2_cert_usage_match","security.cert_usage_match","wincrypt/CERT_USAGE_MATCH","wincrypt/PCERT_USAGE_MATCH"]
 old-location: security\cert_usage_match.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6154f1f7-4293-4b8e-91ab-9f57bb6f5743
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_USAGE_MATCH, CERT_USAGE_MATCH, CERT_USAGE_MATCH structure [Security], PCERT_USAGE_MATCH, PCERT_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _crypto2_cert_usage_match, security.cert_usage_match, wincrypt/CERT_USAGE_MATCH, wincrypt/PCERT_USAGE_MATCH'

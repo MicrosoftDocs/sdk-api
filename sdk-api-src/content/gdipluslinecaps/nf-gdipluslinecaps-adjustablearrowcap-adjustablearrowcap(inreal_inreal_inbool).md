@@ -1,7 +1,8 @@
 ---
-UID: NF:gdipluslinecaps.AdjustableArrowCap.AdjustableArrowCap(IN REAL,IN REAL,IN BOOL)
+UID: NF:gdipluslinecaps.AdjustableArrowCap.AdjustableArrowCap(INREAL,INREAL,INBOOL)
 title: AdjustableArrowCap::AdjustableArrowCap(IN REAL,IN REAL,IN BOOL) (gdipluslinecaps.h)
-description: Creates an adjustable arrow line cap with the specified height and width. The arrow line cap can be filled or nonfilled. The middle inset defaults to zero.helpviewer_keywords: ["AdjustableArrowCap","AdjustableArrowCap class [GDI+]","AdjustableArrowCap constructor","AdjustableArrowCap constructor [GDI+]","AdjustableArrowCap constructor [GDI+]","AdjustableArrowCap class","AdjustableArrowCap.AdjustableArrowCap","AdjustableArrowCap.AdjustableArrowCap(IN REAL","IN REAL","IN BOOL)","AdjustableArrowCap::AdjustableArrowCap","AdjustableArrowCap::AdjustableArrowCap(IN REAL","IN REAL","IN BOOL)","_gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_"]
+description: Creates an adjustable arrow line cap with the specified height and width. The arrow line cap can be filled or nonfilled. The middle inset defaults to zero.
+helpviewer_keywords: ["AdjustableArrowCap","AdjustableArrowCap class [GDI+]","AdjustableArrowCap constructor","AdjustableArrowCap constructor [GDI+]","AdjustableArrowCap constructor [GDI+]","AdjustableArrowCap class","AdjustableArrowCap.AdjustableArrowCap","AdjustableArrowCap.AdjustableArrowCap(IN REAL","IN REAL","IN BOOL)","AdjustableArrowCap::AdjustableArrowCap","AdjustableArrowCap::AdjustableArrowCap(IN REAL","IN REAL","IN BOOL)","_gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcap_91height_width_isfilled.htm
@@ -58,21 +59,21 @@ Creates an adjustable arrow line cap with the specified height and width. The ar
 
 
 
-#### - height [in]
+### -param height [in]
 
 Type: <b>REAL</b>
 
 Real number that specifies the length, in units, of the arrow from its base to its point. 
 
 
-#### - width [in]
+### -param width [in]
 
 Type: <b>REAL</b>
 
 Real number that specifies the distance, in units, between the corners of the base of the arrow. 
 
 
-#### - isFilled [in]
+### -param isFilled [in]
 
 Type: <b>BOOL</b>
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:certbcli.CertSrvBackupRead
 title: CertSrvBackupRead function (certbcli.h)
-description: Reads bytes from a Certificate Services file.helpviewer_keywords: ["CertSrvBackupRead","CertSrvBackupRead function [Security]","_certsrv_certsrvbackupread","certbcli/CertSrvBackupRead","security.certsrvbackupread"]
+description: Reads bytes from a Certificate Services file.
+helpviewer_keywords: ["CertSrvBackupRead","CertSrvBackupRead function [Security]","_certsrv_certsrvbackupread","certbcli/CertSrvBackupRead","security.certsrvbackupread"]
 old-location: security\certsrvbackupread.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread

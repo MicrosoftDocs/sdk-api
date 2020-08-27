@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorAddAngles
 title: XMVectorAddAngles function (directxmath.h)
-description: Adds two vectors representing angles.helpviewer_keywords: ["Use DirectX..XMVectorAddAngles","XMVectorAddAngles","XMVectorAddAngles method [DirectX Math Support APIs]","dxmath.xmvectoraddangles"]
+description: Adds two vectors representing angles.
+helpviewer_keywords: ["Use DirectX..XMVectorAddAngles","XMVectorAddAngles","XMVectorAddAngles method [DirectX Math Support APIs]","dxmath.xmvectoraddangles"]
 old-location: dxmath\xmvectoraddangles.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorAddAngles(XMVECTOR,XMVECTOR)

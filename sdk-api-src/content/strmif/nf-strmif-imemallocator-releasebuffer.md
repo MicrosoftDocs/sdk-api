@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMemAllocator.ReleaseBuffer
 title: IMemAllocator::ReleaseBuffer (strmif.h)
-description: The ReleaseBuffer method releases a media sample.helpviewer_keywords: ["IMemAllocator interface [DirectShow]","ReleaseBuffer method","IMemAllocator.ReleaseBuffer","IMemAllocator::ReleaseBuffer","IMemAllocatorReleaseBuffer","ReleaseBuffer","ReleaseBuffer method [DirectShow]","ReleaseBuffer method [DirectShow]","IMemAllocator interface","dshow.imemallocator_releasebuffer","strmif/IMemAllocator::ReleaseBuffer"]
+description: The ReleaseBuffer method releases a media sample.
+helpviewer_keywords: ["IMemAllocator interface [DirectShow]","ReleaseBuffer method","IMemAllocator.ReleaseBuffer","IMemAllocator::ReleaseBuffer","IMemAllocatorReleaseBuffer","ReleaseBuffer","ReleaseBuffer method [DirectShow]","ReleaseBuffer method [DirectShow]","IMemAllocator interface","dshow.imemallocator_releasebuffer","strmif/IMemAllocator::ReleaseBuffer"]
 old-location: dshow\imemallocator_releasebuffer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 96e02a28-af92-41a7-8251-c4ab15190651
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator interface [DirectShow],ReleaseBuffer method, IMemAllocator.ReleaseBuffer, IMemAllocator::ReleaseBuffer, IMemAllocatorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IMemAllocator interface, dshow.imemallocator_releasebuffer, strmif/IMemAllocator::ReleaseBuffer

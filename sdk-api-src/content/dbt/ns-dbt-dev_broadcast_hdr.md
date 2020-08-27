@@ -4,7 +4,7 @@ title: DEV_BROADCAST_HDR (dbt.h)
 description: Serves as a standard header for information related to a device event reported through the WM_DEVICECHANGE message.
 helpviewer_keywords: ["DBT_DEVTYP_DEVICEINTERFACE","DBT_DEVTYP_HANDLE","DBT_DEVTYP_OEM","DBT_DEVTYP_PORT","DBT_DEVTYP_VOLUME","DEV_BROADCAST_HDR","DEV_BROADCAST_HDR structure","PDEV_BROADCAST_HDR","PDEV_BROADCAST_HDR structure pointer","_win32_dev_broadcast_hdr_str","base.dev_broadcast_hdr_str","dbt/DEV_BROADCAST_HDR","dbt/PDEV_BROADCAST_HDR"]
 old-location: base\dev_broadcast_hdr_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 4fc81fcb-b9fe-4016-b639-a43845af2c5f
 ms.date: 12/05/2018
 ms.keywords: DBT_DEVTYP_DEVICEINTERFACE, DBT_DEVTYP_HANDLE, DBT_DEVTYP_OEM, DBT_DEVTYP_PORT, DBT_DEVTYP_VOLUME, DEV_BROADCAST_HDR, DEV_BROADCAST_HDR structure, PDEV_BROADCAST_HDR, PDEV_BROADCAST_HDR structure pointer, _win32_dev_broadcast_hdr_str, base.dev_broadcast_hdr_str, dbt/DEV_BROADCAST_HDR, dbt/PDEV_BROADCAST_HDR

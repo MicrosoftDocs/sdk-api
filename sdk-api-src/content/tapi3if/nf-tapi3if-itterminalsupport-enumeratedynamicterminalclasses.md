@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.EnumerateDynamicTerminalClasses
 title: ITTerminalSupport::EnumerateDynamicTerminalClasses (tapi3if.h)
-description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.helpviewer_keywords: ["EnumerateDynamicTerminalClasses","EnumerateDynamicTerminalClasses method [TAPI 2.2]","EnumerateDynamicTerminalClasses method [TAPI 2.2]","ITTerminalSupport interface","ITTerminalSupport interface [TAPI 2.2]","EnumerateDynamicTerminalClasses method","ITTerminalSupport.EnumerateDynamicTerminalClasses","ITTerminalSupport::EnumerateDynamicTerminalClasses","_tapi3_itterminalsupport_enumeratedynamicterminalclasses","tapi3.itterminalsupport_enumeratedynamicterminalclasses","tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses"]
+description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.
+helpviewer_keywords: ["EnumerateDynamicTerminalClasses","EnumerateDynamicTerminalClasses method [TAPI 2.2]","EnumerateDynamicTerminalClasses method [TAPI 2.2]","ITTerminalSupport interface","ITTerminalSupport interface [TAPI 2.2]","EnumerateDynamicTerminalClasses method","ITTerminalSupport.EnumerateDynamicTerminalClasses","ITTerminalSupport::EnumerateDynamicTerminalClasses","_tapi3_itterminalsupport_enumeratedynamicterminalclasses","tapi3.itterminalsupport_enumeratedynamicterminalclasses","tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses"]
 old-location: tapi3\itterminalsupport_enumeratedynamicterminalclasses.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1dcb9163-306b-42fc-afb4-41b33d7e2d40
 ms.date: 12/05/2018
 ms.keywords: EnumerateDynamicTerminalClasses, EnumerateDynamicTerminalClasses method [TAPI 2.2], EnumerateDynamicTerminalClasses method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateDynamicTerminalClasses method, ITTerminalSupport.EnumerateDynamicTerminalClasses, ITTerminalSupport::EnumerateDynamicTerminalClasses, _tapi3_itterminalsupport_enumeratedynamicterminalclasses, tapi3.itterminalsupport_enumeratedynamicterminalclasses, tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses

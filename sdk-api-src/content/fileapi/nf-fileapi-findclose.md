@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.FindClose
 title: FindClose function (fileapi.h)
-description: Closes a file search handle opened by the FindFirstFile, FindFirstFileEx, FindFirstFileNameW, FindFirstFileNameTransactedW, FindFirstFileTransacted, FindFirstStreamTransactedW, or FindFirstStreamW functions.helpviewer_keywords: ["FindClose","FindClose function [Files]","_win32_findclose","base.findclose","fileapi/FindClose","fs.findclose","winbase/FindClose"]
+description: Closes a file search handle opened by the FindFirstFile, FindFirstFileEx, FindFirstFileNameW, FindFirstFileNameTransactedW, FindFirstFileTransacted, FindFirstStreamTransactedW, or FindFirstStreamW functions.
+helpviewer_keywords: ["FindClose","FindClose function [Files]","_win32_findclose","base.findclose","fileapi/FindClose","fs.findclose","winbase/FindClose"]
 old-location: fs\findclose.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 64b3bc49-1e0e-4572-9d9f-936c45f5b01c
 ms.date: 12/05/2018
 ms.keywords: FindClose, FindClose function [Files], _win32_findclose, base.findclose, fileapi/FindClose, fs.findclose, winbase/FindClose

@@ -1,9 +1,10 @@
 ---
 UID: NN:comsvcs.IObjectContextActivity
 title: IObjectContextActivity (comsvcs.h)
-description: Retrieves the activity identifier associated with the current object context.helpviewer_keywords: ["IObjectContextActivity","IObjectContextActivity interface [COM+]","IObjectContextActivity interface [COM+]","described","_cos_IObjectContextActivity","comsvcs/IObjectContextActivity","cos.iobjectcontextactivity"]
+description: Retrieves the activity identifier associated with the current object context.
+helpviewer_keywords: ["IObjectContextActivity","IObjectContextActivity interface [COM+]","IObjectContextActivity interface [COM+]","described","_cos_IObjectContextActivity","comsvcs/IObjectContextActivity","cos.iobjectcontextactivity"]
 old-location: cos\iobjectcontextactivity.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
 ms.date: 12/05/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity

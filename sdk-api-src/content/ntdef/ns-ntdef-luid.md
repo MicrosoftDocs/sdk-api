@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdef._LUID
 title: LUID (ntdef.h)
-description: The LUID structure is an opaque structure that specifies an identifier that is guaranteed to be unique on the local machine. For more information, see the reference page for LUID in the Microsoft Windows SDK documentation.helpviewer_keywords: ["*PLUID","LUID","LUID structure [Kernel-Mode Driver Architecture]","PLUID","PLUID structure pointer [Kernel-Mode Driver Architecture]","kernel.luid","kstruct_c_0aa22a8e-19fe-40b3-96b1-9aed87ac58c3.xml","ntdef/PLUID","ntdef/SINGLE_LIST_ENTRY"]
+description: The LUID structure is an opaque structure that specifies an identifier that is guaranteed to be unique on the local machine. For more information, see the reference page for LUID in the Microsoft Windows SDK documentation.
+helpviewer_keywords: ["*PLUID","LUID","LUID structure [Kernel-Mode Driver Architecture]","PLUID","PLUID structure pointer [Kernel-Mode Driver Architecture]","kernel.luid","kstruct_c_0aa22a8e-19fe-40b3-96b1-9aed87ac58c3.xml","ntdef/PLUID","ntdef/SINGLE_LIST_ENTRY"]
 old-location: kernel\luid.htm
 tech.root: Kernel
 ms.assetid: 974536eb-5cb3-4056-9c43-c6df170f6bf7

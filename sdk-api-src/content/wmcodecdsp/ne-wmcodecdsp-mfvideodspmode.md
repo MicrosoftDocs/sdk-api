@@ -1,9 +1,10 @@
 ---
 UID: NE:wmcodecdsp._MFVideoDSPMode
 title: MFVideoDSPMode (wmcodecdsp.h)
-description: Specifies the processing mode of the Video Stabilization MFT.helpviewer_keywords: ["MFVideoDSPMode","MFVideoDSPMode enumeration [Media Foundation]","MFVideoDSPMode_Passthrough","MFVideoDSPMode_Stabilization","mf.mfvideodspmode","wmcodecdsp/MFVideoDSPMode","wmcodecdsp/MFVideoDSPMode_Passthrough","wmcodecdsp/MFVideoDSPMode_Stabilization"]
+description: Specifies the processing mode of the Video Stabilization MFT.
+helpviewer_keywords: ["MFVideoDSPMode","MFVideoDSPMode enumeration [Media Foundation]","MFVideoDSPMode_Passthrough","MFVideoDSPMode_Stabilization","mf.mfvideodspmode","wmcodecdsp/MFVideoDSPMode","wmcodecdsp/MFVideoDSPMode_Passthrough","wmcodecdsp/MFVideoDSPMode_Stabilization"]
 old-location: mf\mfvideodspmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 24A5190B-6839-4CA1-ADBF-CDBF9B47C6AF
 ms.date: 12/05/2018
 ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVideoDSPMode_Passthrough, MFVideoDSPMode_Stabilization, mf.mfvideodspmode, wmcodecdsp/MFVideoDSPMode, wmcodecdsp/MFVideoDSPMode_Passthrough, wmcodecdsp/MFVideoDSPMode_Stabilization

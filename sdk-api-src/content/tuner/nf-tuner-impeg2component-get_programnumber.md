@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_ProgramNumber
 title: IMPEG2Component::get_ProgramNumber (tuner.h)
-description: The get_ProgramNumber method returns the program number for this substream.helpviewer_keywords: ["IMPEG2Component interface [Microsoft TV Technologies]","get_ProgramNumber method","IMPEG2Component.get_ProgramNumber","IMPEG2Component::get_ProgramNumber","IMPEG2Componentget_ProgramNumber","get_ProgramNumber","get_ProgramNumber method [Microsoft TV Technologies]","get_ProgramNumber method [Microsoft TV Technologies]","IMPEG2Component interface","mstv.impeg2component_get_programnumber","tuner/IMPEG2Component::get_ProgramNumber"]
+description: The get_ProgramNumber method returns the program number for this substream.
+helpviewer_keywords: ["IMPEG2Component interface [Microsoft TV Technologies]","get_ProgramNumber method","IMPEG2Component.get_ProgramNumber","IMPEG2Component::get_ProgramNumber","IMPEG2Componentget_ProgramNumber","get_ProgramNumber","get_ProgramNumber method [Microsoft TV Technologies]","get_ProgramNumber method [Microsoft TV Technologies]","IMPEG2Component interface","mstv.impeg2component_get_programnumber","tuner/IMPEG2Component::get_ProgramNumber"]
 old-location: mstv\impeg2component_get_programnumber.htm
 tech.root: mstv
 ms.assetid: a501c65d-26cf-44f4-b134-2a1080095eaa

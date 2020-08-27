@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_GatherTermination
 title: ITDigitsGatheredEvent::get_GatherTermination (tapi3if.h)
-description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.helpviewer_keywords: ["ITDigitsGatheredEvent interface [TAPI 2.2]","get_GatherTermination method","ITDigitsGatheredEvent.get_GatherTermination","ITDigitsGatheredEvent::get_GatherTermination","_tapi3_itdigitsgatheredevent_get_gathertermination","get_GatherTermination","get_GatherTermination method [TAPI 2.2]","get_GatherTermination method [TAPI 2.2]","ITDigitsGatheredEvent interface","tapi3.itdigitsgatheredevent_get_gathertermination","tapi3if/ITDigitsGatheredEvent::get_GatherTermination"]
+description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
+helpviewer_keywords: ["ITDigitsGatheredEvent interface [TAPI 2.2]","get_GatherTermination method","ITDigitsGatheredEvent.get_GatherTermination","ITDigitsGatheredEvent::get_GatherTermination","_tapi3_itdigitsgatheredevent_get_gathertermination","get_GatherTermination","get_GatherTermination method [TAPI 2.2]","get_GatherTermination method [TAPI 2.2]","ITDigitsGatheredEvent interface","tapi3.itdigitsgatheredevent_get_gathertermination","tapi3if/ITDigitsGatheredEvent::get_GatherTermination"]
 old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination

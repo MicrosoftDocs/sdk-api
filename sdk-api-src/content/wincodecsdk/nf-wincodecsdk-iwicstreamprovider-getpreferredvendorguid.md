@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPreferredVendorGUID
 title: IWICStreamProvider::GetPreferredVendorGUID (wincodecsdk.h)
-description: Gets the preferred vendor GUID.helpviewer_keywords: ["GetPreferredVendorGUID","GetPreferredVendorGUID method [Windows Imaging Component]","GetPreferredVendorGUID method [Windows Imaging Component]","IWICStreamProvider interface","IWICStreamProvider interface [Windows Imaging Component]","GetPreferredVendorGUID method","IWICStreamProvider.GetPreferredVendorGUID","IWICStreamProvider::GetPreferredVendorGUID","_wic_codec_iwicstreamprovider_getpreferredvendorguid","wic._wic_codec_iwicstreamprovider_getpreferredvendorguid","wincodecsdk/IWICStreamProvider::GetPreferredVendorGUID"]
+description: Gets the preferred vendor GUID.
+helpviewer_keywords: ["GetPreferredVendorGUID","GetPreferredVendorGUID method [Windows Imaging Component]","GetPreferredVendorGUID method [Windows Imaging Component]","IWICStreamProvider interface","IWICStreamProvider interface [Windows Imaging Component]","GetPreferredVendorGUID method","IWICStreamProvider.GetPreferredVendorGUID","IWICStreamProvider::GetPreferredVendorGUID","_wic_codec_iwicstreamprovider_getpreferredvendorguid","wic._wic_codec_iwicstreamprovider_getpreferredvendorguid","wincodecsdk/IWICStreamProvider::GetPreferredVendorGUID"]
 old-location: wic\_wic_codec_iwicstreamprovider_getpreferredvendorguid.htm
 tech.root: wic
 ms.assetid: fb88bc8d-4f92-4645-9d11-ee9200f11aaf

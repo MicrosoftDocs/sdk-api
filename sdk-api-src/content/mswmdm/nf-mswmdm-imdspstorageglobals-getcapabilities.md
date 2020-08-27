@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetCapabilities
 title: IMDSPStorageGlobals::GetCapabilities (mswmdm.h)
-description: The GetCapabilities method retrieves the capabilities of the storage medium that an instance of this interface is associated with.helpviewer_keywords: ["GetCapabilities","GetCapabilities method [windows Media Device Manager]","GetCapabilities method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetCapabilities method","IMDSPStorageGlobals.GetCapabilities","IMDSPStorageGlobals::GetCapabilities","IMDSPStorageGlobalsGetCapabilities","mswmdm/IMDSPStorageGlobals::GetCapabilities","wmdm.imdspstorageglobals_getcapabilities"]
+description: The GetCapabilities method retrieves the capabilities of the storage medium that an instance of this interface is associated with.
+helpviewer_keywords: ["GetCapabilities","GetCapabilities method [windows Media Device Manager]","GetCapabilities method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetCapabilities method","IMDSPStorageGlobals.GetCapabilities","IMDSPStorageGlobals::GetCapabilities","IMDSPStorageGlobalsGetCapabilities","mswmdm/IMDSPStorageGlobals::GetCapabilities","wmdm.imdspstorageglobals_getcapabilities"]
 old-location: wmdm\imdspstorageglobals_getcapabilities.htm
 tech.root: WMDM
 ms.assetid: 83204c04-503d-4687-8a4d-3c95a6def8d1

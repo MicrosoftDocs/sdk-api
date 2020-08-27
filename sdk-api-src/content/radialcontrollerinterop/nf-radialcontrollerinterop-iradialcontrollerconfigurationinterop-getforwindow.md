@@ -1,9 +1,10 @@
 ---
 UID: NF:radialcontrollerinterop.IRadialControllerConfigurationInterop.GetForWindow
 title: IRadialControllerConfigurationInterop::GetForWindow (radialcontrollerinterop.h)
-description: Retrieves a RadialControllerConfiguration object bound to the active application.helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","IRadialControllerConfigurationInterop interface","IRadialControllerConfigurationInterop interface","GetForWindow method","IRadialControllerConfigurationInterop.GetForWindow","IRadialControllerConfigurationInterop::GetForWindow","Input_Radial.iradialcontrollerconfigurationinterop_getforwindow","radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow"]
+description: Retrieves a RadialControllerConfiguration object bound to the active application.
+helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","IRadialControllerConfigurationInterop interface","IRadialControllerConfigurationInterop interface","GetForWindow method","IRadialControllerConfigurationInterop.GetForWindow","IRadialControllerConfigurationInterop::GetForWindow","Input_Radial.iradialcontrollerconfigurationinterop_getforwindow","radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow"]
 old-location: input_radial\iradialcontrollerconfigurationinterop_getforwindow.htm
-tech.root: Input_Radial
+tech.root: input_radial
 ms.assetid: f2182f3a-82a8-40be-b331-673a181f4070
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,GetForWindow method, IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow

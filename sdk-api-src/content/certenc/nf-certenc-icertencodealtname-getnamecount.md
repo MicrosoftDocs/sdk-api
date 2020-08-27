@@ -1,9 +1,10 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameCount
 title: ICertEncodeAltName::GetNameCount (certenc.h)
-description: Returns the number of names in the alternate name array.helpviewer_keywords: ["CCertEncodeAltName object [Security]","GetNameCount method","GetNameCount","GetNameCount method [Security]","GetNameCount method [Security]","CCertEncodeAltName object","GetNameCount method [Security]","ICertEncodeAltName interface","ICertEncodeAltName interface [Security]","GetNameCount method","ICertEncodeAltName.GetNameCount","ICertEncodeAltName::GetNameCount","_certsrv_icertencodealtname_getnamecount","certenc/ICertEncodeAltName::GetNameCount","security.icertencodealtname_getnamecount"]
+description: Returns the number of names in the alternate name array.
+helpviewer_keywords: ["CCertEncodeAltName object [Security]","GetNameCount method","GetNameCount","GetNameCount method [Security]","GetNameCount method [Security]","CCertEncodeAltName object","GetNameCount method [Security]","ICertEncodeAltName interface","ICertEncodeAltName interface [Security]","GetNameCount method","ICertEncodeAltName.GetNameCount","ICertEncodeAltName::GetNameCount","_certsrv_icertencodealtname_getnamecount","certenc/ICertEncodeAltName::GetNameCount","security.icertencodealtname_getnamecount"]
 old-location: security\icertencodealtname_getnamecount.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3f5e5c5d-e21b-452b-837c-5b44daa884b8
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeAltName object, GetNameCount method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameCount method, ICertEncodeAltName.GetNameCount, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount

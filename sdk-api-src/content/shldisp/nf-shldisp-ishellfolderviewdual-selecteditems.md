@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.SelectedItems
 title: IShellFolderViewDual::SelectedItems (shldisp.h)
-description: Gets a FolderItems object that represents all of the selected items in the view.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","SelectedItems method","IShellFolderViewDual.SelectedItems","IShellFolderViewDual::SelectedItems","SelectedItems","SelectedItems method [Windows Shell]","SelectedItems method [Windows Shell]","IShellFolderViewDual interface","_shell_IShellFolderViewDual_SelectedItems","shell.IShellFolderViewDual_SelectedItems","shldisp/IShellFolderViewDual::SelectedItems"]
+description: Gets a FolderItems object that represents all of the selected items in the view.
+helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","SelectedItems method","IShellFolderViewDual.SelectedItems","IShellFolderViewDual::SelectedItems","SelectedItems","SelectedItems method [Windows Shell]","SelectedItems method [Windows Shell]","IShellFolderViewDual interface","_shell_IShellFolderViewDual_SelectedItems","shell.IShellFolderViewDual_SelectedItems","shldisp/IShellFolderViewDual::SelectedItems"]
 old-location: shell\IShellFolderViewDual_SelectedItems.htm
 tech.root: shell
 ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921

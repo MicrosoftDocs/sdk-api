@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.tagDVD_PLAYBACK_LOCATION
 title: DVD_PLAYBACK_LOCATION (strmif.h)
-description: The DVD_PLAYBACK_LOCATION structure indicates DVD playback location.helpviewer_keywords: ["DVD_PLAYBACK_LOCATION","DVD_PLAYBACK_LOCATION structure [DirectShow]","DVD_PLAYBACK_LOCATIONStructure","dshow.dvd_playback_location","strmif/DVD_PLAYBACK_LOCATION"]
+description: The DVD_PLAYBACK_LOCATION structure indicates DVD playback location.
+helpviewer_keywords: ["DVD_PLAYBACK_LOCATION","DVD_PLAYBACK_LOCATION structure [DirectShow]","DVD_PLAYBACK_LOCATIONStructure","dshow.dvd_playback_location","strmif/DVD_PLAYBACK_LOCATION"]
 old-location: dshow\dvd_playback_location.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1085bd1b-ec61-49ca-9c9e-fb090d2a3533
 ms.date: 12/05/2018
 ms.keywords: DVD_PLAYBACK_LOCATION, DVD_PLAYBACK_LOCATION structure [DirectShow], DVD_PLAYBACK_LOCATIONStructure, dshow.dvd_playback_location, strmif/DVD_PLAYBACK_LOCATION

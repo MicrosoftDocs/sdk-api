@@ -1,7 +1,8 @@
 ---
 UID: NF:roerrorapi.RoFailFastWithErrorContext
 title: RoFailFastWithErrorContext function
-description: Raises a non-continuable exception in the current process.helpviewer_keywords: ["RoFailFastWithErrorContext","RoFailFastWithErrorContext function [Windows Runtime]","roerrorapi/RoFailFastWithErrorContext","winrt.rofailfastwitherrorcontext"]
+description: Raises a non-continuable exception in the current process.
+helpviewer_keywords: ["RoFailFastWithErrorContext","RoFailFastWithErrorContext function [Windows Runtime]","roerrorapi/RoFailFastWithErrorContext","winrt.rofailfastwitherrorcontext"]
 old-location: winrt\rofailfastwitherrorcontext.htm
 tech.root: WinRT
 ms.assetid: 1BD47795-1B5E-42A4-B88F-7DE5160668E7

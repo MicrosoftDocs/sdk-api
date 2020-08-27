@@ -1,9 +1,10 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessStreamStatePrivate
 title: PDXVAHDSW_GetVideoProcessStreamStatePrivate (dxvahd.h)
-description: Gets a private stream state from a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessStreamStatePrivate","PDXVAHDSW_GetVideoProcessStreamStatePrivate callback","PDXVAHDSW_GetVideoProcessStreamStatePrivate callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate","mf.pdxvahdsw_getvideoprocessstreamstateprivate"]
+description: Gets a private stream state from a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessStreamStatePrivate","PDXVAHDSW_GetVideoProcessStreamStatePrivate callback","PDXVAHDSW_GetVideoProcessStreamStatePrivate callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate","mf.pdxvahdsw_getvideoprocessstreamstateprivate"]
 old-location: mf\pdxvahdsw_getvideoprocessstreamstateprivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: db751314-8c3c-4969-87c4-0b2b2201ce20
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessStreamStatePrivate, PDXVAHDSW_GetVideoProcessStreamStatePrivate callback, PDXVAHDSW_GetVideoProcessStreamStatePrivate callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate, mf.pdxvahdsw_getvideoprocessstreamstateprivate

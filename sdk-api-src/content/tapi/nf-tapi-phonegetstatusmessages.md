@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.phoneGetStatusMessages
 title: phoneGetStatusMessages function (tapi.h)
-description: The phoneGetStatusMessages function returns which phone-state changes on the specified phone device generate a callback to the application.helpviewer_keywords: ["_tapi2_phonegetstatusmessages","phoneGetStatusMessages","phoneGetStatusMessages function [TAPI 2.2]","tapi/phoneGetStatusMessages","tapi2.phonegetstatusmessages"]
+description: The phoneGetStatusMessages function returns which phone-state changes on the specified phone device generate a callback to the application.
+helpviewer_keywords: ["_tapi2_phonegetstatusmessages","phoneGetStatusMessages","phoneGetStatusMessages function [TAPI 2.2]","tapi/phoneGetStatusMessages","tapi2.phonegetstatusmessages"]
 old-location: tapi2\phonegetstatusmessages.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3ee182cf-20e2-4745-9aee-d5de8b44c1b4
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetstatusmessages, phoneGetStatusMessages, phoneGetStatusMessages function [TAPI 2.2], tapi/phoneGetStatusMessages, tapi2.phonegetstatusmessages

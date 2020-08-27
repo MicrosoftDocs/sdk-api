@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentRotationTypeIsPureCAV
 title: IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV (imapi2.h)
-description: Retrieves the current rotational-speed control used by the recorder.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_CurrentRotationTypeIsPureCAV method","IDiscFormat2RawCD.get_CurrentRotationTypeIsPureCAV","IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV","get_CurrentRotationTypeIsPureCAV","get_CurrentRotationTypeIsPureCAV method [IMAPI]","get_CurrentRotationTypeIsPureCAV method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_currentrotationtypeispurecav","imapi2/IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV"]
+description: Retrieves the current rotational-speed control used by the recorder.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_CurrentRotationTypeIsPureCAV method","IDiscFormat2RawCD.get_CurrentRotationTypeIsPureCAV","IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV","get_CurrentRotationTypeIsPureCAV","get_CurrentRotationTypeIsPureCAV method [IMAPI]","get_CurrentRotationTypeIsPureCAV method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_currentrotationtypeispurecav","imapi2/IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV"]
 old-location: imapi\idiscformat2rawcd_get_currentrotationtypeispurecav.htm
 tech.root: imapi
 ms.assetid: ca3ab4e3-e87c-4081-bb65-c1d8c3f1ff37

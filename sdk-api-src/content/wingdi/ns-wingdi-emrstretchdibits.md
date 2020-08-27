@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRSTRETCHDIBITS
 title: EMRSTRETCHDIBITS (wingdi.h)
-description: The EMRSTRETCHDIBITS structure contains members for the StretchDIBits enhanced metafile record.helpviewer_keywords: ["*PEMRSTRETCHDIBITS","EMRSTRETCHDIBITS","EMRSTRETCHDIBITS structure [Windows GDI]","PEMRSTRETCHDIBITS","PEMRSTRETCHDIBITS structure pointer [Windows GDI]","_win32_EMRSTRETCHDIBITS_str","gdi.emrstretchdibits","wingdi/EMRSTRETCHDIBITS","wingdi/PEMRSTRETCHDIBITS"]
+description: The EMRSTRETCHDIBITS structure contains members for the StretchDIBits enhanced metafile record.
+helpviewer_keywords: ["*PEMRSTRETCHDIBITS","EMRSTRETCHDIBITS","EMRSTRETCHDIBITS structure [Windows GDI]","PEMRSTRETCHDIBITS","PEMRSTRETCHDIBITS structure pointer [Windows GDI]","_win32_EMRSTRETCHDIBITS_str","gdi.emrstretchdibits","wingdi/EMRSTRETCHDIBITS","wingdi/PEMRSTRETCHDIBITS"]
 old-location: gdi\emrstretchdibits.htm
 tech.root: gdi
 ms.assetid: aa104ffa-44ed-41f6-a1a7-23bbab68e16c

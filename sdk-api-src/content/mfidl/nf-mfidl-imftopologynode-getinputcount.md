@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInputCount
 title: IMFTopologyNode::GetInputCount (mfidl.h)
-description: Retrieves the number of input streams that currently exist on this node.helpviewer_keywords: ["84c079da-5de6-4c33-b0c7-5ffd017d5513","GetInputCount","GetInputCount method [Media Foundation]","GetInputCount method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetInputCount method","IMFTopologyNode.GetInputCount","IMFTopologyNode::GetInputCount","mf.imftopologynode_getinputcount","mfidl/IMFTopologyNode::GetInputCount"]
+description: Retrieves the number of input streams that currently exist on this node.
+helpviewer_keywords: ["84c079da-5de6-4c33-b0c7-5ffd017d5513","GetInputCount","GetInputCount method [Media Foundation]","GetInputCount method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetInputCount method","IMFTopologyNode.GetInputCount","IMFTopologyNode::GetInputCount","mf.imftopologynode_getinputcount","mfidl/IMFTopologyNode::GetInputCount"]
 old-location: mf\imftopologynode_getinputcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 84c079da-5de6-4c33-b0c7-5ffd017d5513
 ms.date: 12/05/2018
 ms.keywords: 84c079da-5de6-4c33-b0c7-5ffd017d5513, GetInputCount, GetInputCount method [Media Foundation], GetInputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInputCount method, IMFTopologyNode.GetInputCount, IMFTopologyNode::GetInputCount, mf.imftopologynode_getinputcount, mfidl/IMFTopologyNode::GetInputCount

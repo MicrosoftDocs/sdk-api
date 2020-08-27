@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_InsertItem
 title: TreeView_InsertItem macro (commctrl.h)
-description: Inserts a new item in a tree-view control. You can use this macro or send the TVM_INSERTITEM message explicitly.helpviewer_keywords: ["TreeView_InsertItem","TreeView_InsertItem macro [Windows Controls]","_win32_TreeView_InsertItem","_win32_TreeView_InsertItem_cpp","commctrl/TreeView_InsertItem","controls.TreeView_InsertItem","controls._win32_TreeView_InsertItem"]
+description: Inserts a new item in a tree-view control. You can use this macro or send the TVM_INSERTITEM message explicitly.
+helpviewer_keywords: ["TreeView_InsertItem","TreeView_InsertItem macro [Windows Controls]","_win32_TreeView_InsertItem","_win32_TreeView_InsertItem_cpp","commctrl/TreeView_InsertItem","controls.TreeView_InsertItem","controls._win32_TreeView_InsertItem"]
 old-location: controls\TreeView_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_insertitem.htm

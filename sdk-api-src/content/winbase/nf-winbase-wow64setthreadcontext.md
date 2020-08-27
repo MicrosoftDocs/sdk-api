@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.Wow64SetThreadContext
 title: Wow64SetThreadContext function (winbase.h)
-description: Sets the context of the specified WOW64 thread.helpviewer_keywords: ["Wow64SetThreadContext","Wow64SetThreadContext function","base.wow64setthreadcontext","winbase/Wow64SetThreadContext"]
+description: Sets the context of the specified WOW64 thread.
+helpviewer_keywords: ["Wow64SetThreadContext","Wow64SetThreadContext function","base.wow64setthreadcontext","winbase/Wow64SetThreadContext"]
 old-location: base\wow64setthreadcontext.htm
 tech.root: Debug
 ms.assetid: 4119c945-b654-4634-a88b-e41bc762018a
@@ -95,7 +96,7 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
     <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> function.
 
 Do not try to set the context for a running thread; the results are unpredictable. Use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64suspendthread">Wow64SuspendThread</a> function to suspend the thread 
+    <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread">Wow64SuspendThread</a> function to suspend the thread 
     before calling <b>Wow64SetThreadContext</b>.
 
 

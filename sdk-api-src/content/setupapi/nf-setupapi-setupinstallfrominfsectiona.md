@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionA
 title: SetupInstallFromInfSectionA function (setupapi.h)
-description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
+description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
+helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
 old-location: setup\setupinstallfrominfsection.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
@@ -392,6 +393,10 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupInstallFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

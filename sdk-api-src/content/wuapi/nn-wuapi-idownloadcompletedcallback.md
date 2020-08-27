@@ -1,9 +1,10 @@
 ---
 UID: NN:wuapi.IDownloadCompletedCallback
 title: IDownloadCompletedCallback (wuapi.h)
-description: Provides the callback that is used when an asynchronous download is completed.helpviewer_keywords: ["IDownloadCompletedCallback","IDownloadCompletedCallback interface [Windows Update Agent]","IDownloadCompletedCallback interface [Windows Update Agent]","described","wua.idownloadcompletedcallback","wuapi/IDownloadCompletedCallback"]
+description: Provides the callback that is used when an asynchronous download is completed.
+helpviewer_keywords: ["IDownloadCompletedCallback","IDownloadCompletedCallback interface [Windows Update Agent]","IDownloadCompletedCallback interface [Windows Update Agent]","described","wua.idownloadcompletedcallback","wuapi/IDownloadCompletedCallback"]
 old-location: wua\idownloadcompletedcallback.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ad1c3075-21d9-409f-9677-fbf6d0c50313
 ms.date: 12/05/2018
 ms.keywords: IDownloadCompletedCallback, IDownloadCompletedCallback interface [Windows Update Agent], IDownloadCompletedCallback interface [Windows Update Agent],described, wua.idownloadcompletedcallback, wuapi/IDownloadCompletedCallback

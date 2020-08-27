@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._TOKEN_APPCONTAINER_INFORMATION
 title: TOKEN_APPCONTAINER_INFORMATION (winnt.h)
-description: Specifies all the information in a token that is necessary for an app container.helpviewer_keywords: ["*PTOKEN_APPCONTAINER_INFORMATION","PTOKEN_APPCONTAINER_INFORMATION","PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security]","TOKEN_APPCONTAINER_INFORMATION","TOKEN_APPCONTAINER_INFORMATION structure [Security]","_TOKEN_APPCONTAINER_INFORMATION","security.token_appcontainer_information","winnt/PTOKEN_APPCONTAINER_INFORMATION","winnt/TOKEN_APPCONTAINER_INFORMATION"]
+description: Specifies all the information in a token that is necessary for an app container.
+helpviewer_keywords: ["*PTOKEN_APPCONTAINER_INFORMATION","PTOKEN_APPCONTAINER_INFORMATION","PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security]","TOKEN_APPCONTAINER_INFORMATION","TOKEN_APPCONTAINER_INFORMATION structure [Security]","_TOKEN_APPCONTAINER_INFORMATION","security.token_appcontainer_information","winnt/PTOKEN_APPCONTAINER_INFORMATION","winnt/TOKEN_APPCONTAINER_INFORMATION"]
 old-location: security\token_appcontainer_information.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6038C7E9-AED6-49D2-8D96-907E973A64B1
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security], TOKEN_APPCONTAINER_INFORMATION, TOKEN_APPCONTAINER_INFORMATION structure [Security], _TOKEN_APPCONTAINER_INFORMATION, security.token_appcontainer_information, winnt/PTOKEN_APPCONTAINER_INFORMATION, winnt/TOKEN_APPCONTAINER_INFORMATION'

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFGetTopoNodeCurrentType
 title: MFGetTopoNodeCurrentType function (mfidl.h)
-description: Gets the media type for a stream associated with a topology node.helpviewer_keywords: ["MFGetTopoNodeCurrentType","MFGetTopoNodeCurrentType function [Media Foundation]","mf.mfgettoponodecurrenttype","mfidl/MFGetTopoNodeCurrentType"]
+description: Gets the media type for a stream associated with a topology node.
+helpviewer_keywords: ["MFGetTopoNodeCurrentType","MFGetTopoNodeCurrentType function [Media Foundation]","mf.mfgettoponodecurrenttype","mfidl/MFGetTopoNodeCurrentType"]
 old-location: mf\mfgettoponodecurrenttype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2405c6f6-1a3c-42d1-8ec9-4728f522ce42
 ms.date: 12/05/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType

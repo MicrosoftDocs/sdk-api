@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ILoadChangeContext.SetRecoverableErrorOnChange
 title: ILoadChangeContext::SetRecoverableErrorOnChange (winsync.h)
-description: Indicates a recoverable error on this change has occurred.helpviewer_keywords: ["ILoadChangeContext interface [Windows Sync]","SetRecoverableErrorOnChange method","ILoadChangeContext.SetRecoverableErrorOnChange","ILoadChangeContext::SetRecoverableErrorOnChange","SetRecoverableErrorOnChange","SetRecoverableErrorOnChange method [Windows Sync]","SetRecoverableErrorOnChange method [Windows Sync]","ILoadChangeContext interface","winsync.iloadchangecontext_setrecoverableerroronchange","winsync/ILoadChangeContext::SetRecoverableErrorOnChange"]
+description: Indicates a recoverable error on this change has occurred.
+helpviewer_keywords: ["ILoadChangeContext interface [Windows Sync]","SetRecoverableErrorOnChange method","ILoadChangeContext.SetRecoverableErrorOnChange","ILoadChangeContext::SetRecoverableErrorOnChange","SetRecoverableErrorOnChange","SetRecoverableErrorOnChange method [Windows Sync]","SetRecoverableErrorOnChange method [Windows Sync]","ILoadChangeContext interface","winsync.iloadchangecontext_setrecoverableerroronchange","winsync/ILoadChangeContext::SetRecoverableErrorOnChange"]
 old-location: winsync\iloadchangecontext_setrecoverableerroronchange.htm
 tech.root: winsync
 ms.assetid: 9e557889-a4f6-4e05-99ce-bb05013dc4cd

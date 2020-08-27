@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetUnicastIpAddressEntry
 title: GetUnicastIpAddressEntry function (netioapi.h)
-description: Retrieves information for an existing unicast IP address entry on the local computer.helpviewer_keywords: ["GetUnicastIpAddressEntry","GetUnicastIpAddressEntry function [IP Helper]","iphlp.getunicastipaddressentry","netioapi/GetUnicastIpAddressEntry"]
+description: Retrieves information for an existing unicast IP address entry on the local computer.
+helpviewer_keywords: ["GetUnicastIpAddressEntry","GetUnicastIpAddressEntry function [IP Helper]","iphlp.getunicastipaddressentry","netioapi/GetUnicastIpAddressEntry"]
 old-location: iphlp\getunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c

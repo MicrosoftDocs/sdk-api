@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AddChild
 title: IVisualTreeService::AddChild (xamlom.h)
-description: Adds a child element to the collection at the specified index.helpviewer_keywords: ["AddChild","AddChild method","AddChild method","IVisualTreeService interface","IVisualTreeService interface","AddChild method","IVisualTreeService.AddChild","IVisualTreeService::AddChild","xaml_diagnostics.ivisualtreeservice_addchild","xamlom/IVisualTreeService::AddChild"]
+description: Adds a child element to the collection at the specified index.
+helpviewer_keywords: ["AddChild","AddChild method","AddChild method","IVisualTreeService interface","IVisualTreeService interface","AddChild method","IVisualTreeService.AddChild","IVisualTreeService::AddChild","xaml_diagnostics.ivisualtreeservice_addchild","xamlom/IVisualTreeService::AddChild"]
 old-location: xaml_diagnostics\ivisualtreeservice_addchild.htm
 tech.root: xaml_diagnostics
 ms.assetid: 0F3BFACA-0B4C-4CC5-A48B-BD3921728612

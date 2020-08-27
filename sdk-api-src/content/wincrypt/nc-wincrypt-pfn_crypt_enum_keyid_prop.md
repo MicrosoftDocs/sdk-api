@@ -1,9 +1,10 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_KEYID_PROP
 title: PFN_CRYPT_ENUM_KEYID_PROP (wincrypt.h)
-description: The CRYPT_ENUM_KEYID_PROP callback function is used with the CryptEnumKeyIdentifierProperties function.helpviewer_keywords: ["CRYPT_ENUM_KEYID_PROP","CRYPT_ENUM_KEYID_PROP callback function [Security]","PFN_CRYPT_ENUM_KEYID_PROP","PFN_CRYPT_ENUM_KEYID_PROP callback","security.crypt_enum_keyid_prop","wincrypt/CRYPT_ENUM_KEYID_PROP"]
+description: The CRYPT_ENUM_KEYID_PROP callback function is used with the CryptEnumKeyIdentifierProperties function.
+helpviewer_keywords: ["CRYPT_ENUM_KEYID_PROP","CRYPT_ENUM_KEYID_PROP callback function [Security]","PFN_CRYPT_ENUM_KEYID_PROP","PFN_CRYPT_ENUM_KEYID_PROP callback","security.crypt_enum_keyid_prop","wincrypt/CRYPT_ENUM_KEYID_PROP"]
 old-location: security\crypt_enum_keyid_prop.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c4461b79-d216-4d4a-bd5d-9260ec897c14
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENUM_KEYID_PROP, CRYPT_ENUM_KEYID_PROP callback function [Security], PFN_CRYPT_ENUM_KEYID_PROP, PFN_CRYPT_ENUM_KEYID_PROP callback, security.crypt_enum_keyid_prop, wincrypt/CRYPT_ENUM_KEYID_PROP
@@ -102,7 +103,7 @@ For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="
 Array of <b>DWORD</b>s that specify the size, in bytes, of corresponding elements in the <i>rgpvData</i> array.
 
 
-#### - rgpvData [in]
+### -param rgpvData [in]
 
 A pointer to an array that contains pointers to <i>pvData</i> elements corresponding the <i>rgdwPropId</i> array elements. 
 

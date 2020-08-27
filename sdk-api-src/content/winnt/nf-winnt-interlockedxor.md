@@ -1,9 +1,10 @@
 ---
 UID: NF:winnt.InterlockedXor
 title: InterlockedXor function (winnt.h)
-description: Performs an atomic XOR operation on the specified LONG values.helpviewer_keywords: ["InterlockedXor","InterlockedXor function","base.interlockedxor","winnt/InterlockedXor"]
+description: Performs an atomic XOR operation on the specified LONG values.
+helpviewer_keywords: ["InterlockedXor","InterlockedXor function","base.interlockedxor","winnt/InterlockedXor"]
 old-location: base\interlockedxor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winnt/InterlockedXor

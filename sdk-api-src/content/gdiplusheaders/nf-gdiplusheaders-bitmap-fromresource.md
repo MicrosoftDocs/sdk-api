@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromResource
 title: Bitmap::FromResource (gdiplusheaders.h)
-description: The Bitmap::FromResource method creates a Bitmap object based on an application or DLL instance handle and the name of a bitmap resource.helpviewer_keywords: ["Bitmap class [GDI+]","FromResource method","Bitmap.FromResource","Bitmap::FromResource","FromResource","FromResource method [GDI+]","FromResource method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_","gdiplus._gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_"]
+description: The Bitmap::FromResource method creates a Bitmap object based on an application or DLL instance handle and the name of a bitmap resource.
+helpviewer_keywords: ["Bitmap class [GDI+]","FromResource method","Bitmap.FromResource","Bitmap::FromResource","FromResource","FromResource method [GDI+]","FromResource method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_","gdiplus._gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromresource.htm

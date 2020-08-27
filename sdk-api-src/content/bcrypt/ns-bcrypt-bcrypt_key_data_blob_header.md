@@ -1,9 +1,10 @@
 ---
 UID: NS:bcrypt._BCRYPT_KEY_DATA_BLOB_HEADER
 title: BCRYPT_KEY_DATA_BLOB_HEADER (bcrypt.h)
-description: Used to contain information about a key data BLOB.helpviewer_keywords: ["*PBCRYPT_KEY_DATA_BLOB_HEADER","BCRYPT_KEY_DATA_BLOB_HEADER","BCRYPT_KEY_DATA_BLOB_HEADER structure [Security]","BCRYPT_KEY_DATA_BLOB_MAGIC","BCRYPT_KEY_DATA_BLOB_VERSION1","PBCRYPT_KEY_DATA_BLOB_HEADER","PBCRYPT_KEY_DATA_BLOB_HEADER structure pointer [Security]","bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER","bcrypt/PBCRYPT_KEY_DATA_BLOB_HEADER","security.bcrypt_key_data_blob_header"]
+description: Used to contain information about a key data BLOB.
+helpviewer_keywords: ["*PBCRYPT_KEY_DATA_BLOB_HEADER","BCRYPT_KEY_DATA_BLOB_HEADER","BCRYPT_KEY_DATA_BLOB_HEADER structure [Security]","BCRYPT_KEY_DATA_BLOB_MAGIC","BCRYPT_KEY_DATA_BLOB_VERSION1","PBCRYPT_KEY_DATA_BLOB_HEADER","PBCRYPT_KEY_DATA_BLOB_HEADER structure pointer [Security]","bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER","bcrypt/PBCRYPT_KEY_DATA_BLOB_HEADER","security.bcrypt_key_data_blob_header"]
 old-location: security\bcrypt_key_data_blob_header.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 054bba02-c73a-496d-b619-749c3f4e8ad9
 ms.date: 12/05/2018
 ms.keywords: '*PBCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER structure [Security], BCRYPT_KEY_DATA_BLOB_MAGIC, BCRYPT_KEY_DATA_BLOB_VERSION1, PBCRYPT_KEY_DATA_BLOB_HEADER, PBCRYPT_KEY_DATA_BLOB_HEADER structure pointer [Security], bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER, bcrypt/PBCRYPT_KEY_DATA_BLOB_HEADER, security.bcrypt_key_data_blob_header'

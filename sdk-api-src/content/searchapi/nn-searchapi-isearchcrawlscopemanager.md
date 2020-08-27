@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchCrawlScopeManager
 title: ISearchCrawlScopeManager (searchapi.h)
-description: Provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.helpviewer_keywords: ["ISearchCrawlScopeManager","ISearchCrawlScopeManager interface [search]","ISearchCrawlScopeManager interface [search]","described","_search_ISearchCrawlScopeManager","search._search_ISearchCrawlScopeManager","searchapi/ISearchCrawlScopeManager"]
+description: Provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.
+helpviewer_keywords: ["ISearchCrawlScopeManager","ISearchCrawlScopeManager interface [search]","ISearchCrawlScopeManager interface [search]","described","_search_ISearchCrawlScopeManager","search._search_ISearchCrawlScopeManager","searchapi/ISearchCrawlScopeManager"]
 old-location: search\_search_ISearchCrawlScopeManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\isearchcrawlscopemanager.htm
@@ -226,9 +227,7 @@ Commits all changes to the search engine.
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+For a sample that demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations, see the [CrawlScopeCommandLine](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/CrawlScopeCommandLine) sample.
       
 
 

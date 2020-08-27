@@ -1,9 +1,10 @@
 ---
 UID: NN:certenroll.IX509AttributeArchiveKey
 title: IX509AttributeArchiveKey (certenroll.h)
-description: Represents an attribute that contains an encrypted private key to be archived by a certification authority.helpviewer_keywords: ["IX509AttributeArchiveKey","IX509AttributeArchiveKey interface [Security]","IX509AttributeArchiveKey interface [Security]","described","certenroll/IX509AttributeArchiveKey","security.ix509attributearchivekey"]
+description: Represents an attribute that contains an encrypted private key to be archived by a certification authority.
+helpviewer_keywords: ["IX509AttributeArchiveKey","IX509AttributeArchiveKey interface [Security]","IX509AttributeArchiveKey interface [Security]","described","certenroll/IX509AttributeArchiveKey","security.ix509attributearchivekey"]
 old-location: security\ix509attributearchivekey.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey

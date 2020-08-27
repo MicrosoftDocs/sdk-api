@@ -1,9 +1,10 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.CommitCreatedNetwork
 title: IDot11AdHocManager::CommitCreatedNetwork (adhoc.h)
-description: Initializes a created network and optionally commits the network's profile to the profile store.helpviewer_keywords: ["CommitCreatedNetwork","CommitCreatedNetwork method [NativeWIFI]","CommitCreatedNetwork method [NativeWIFI]","IDot11AdHocManager interface","IDot11AdHocManager interface [NativeWIFI]","CommitCreatedNetwork method","IDot11AdHocManager.CommitCreatedNetwork","IDot11AdHocManager::CommitCreatedNetwork","adhoc/IDot11AdHocManager::CommitCreatedNetwork","nwifi.idot11adhocmanager_commitcreatednetwork"]
+description: Initializes a created network and optionally commits the network's profile to the profile store.
+helpviewer_keywords: ["CommitCreatedNetwork","CommitCreatedNetwork method [NativeWIFI]","CommitCreatedNetwork method [NativeWIFI]","IDot11AdHocManager interface","IDot11AdHocManager interface [NativeWIFI]","CommitCreatedNetwork method","IDot11AdHocManager.CommitCreatedNetwork","IDot11AdHocManager::CommitCreatedNetwork","adhoc/IDot11AdHocManager::CommitCreatedNetwork","nwifi.idot11adhocmanager_commitcreatednetwork"]
 old-location: nwifi\idot11adhocmanager_commitcreatednetwork.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 45beb340-1c19-4b91-8e5c-8849e690e988
 ms.date: 12/05/2018
 ms.keywords: CommitCreatedNetwork, CommitCreatedNetwork method [NativeWIFI], CommitCreatedNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],CommitCreatedNetwork method, IDot11AdHocManager.CommitCreatedNetwork, IDot11AdHocManager::CommitCreatedNetwork, adhoc/IDot11AdHocManager::CommitCreatedNetwork, nwifi.idot11adhocmanager_commitcreatednetwork

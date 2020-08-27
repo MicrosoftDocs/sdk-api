@@ -1,9 +1,10 @@
 ---
 UID: NS:vds._VDS_DISK_PROP2
 title: VDS_DISK_PROP2 (vds.h)
-description: Defines the properties of a disk object. This structure is identical to the VDS_DISK_PROP structure, except that it also includes the location path and, if the disk is offline, the reason why it is offline.helpviewer_keywords: ["*PVDS_DISK_PROP2","PVDS_DISK_PROP2","PVDS_DISK_PROP2 structure pointer","VDS_DISK_PROP2","VDS_DISK_PROP2 structure","VDS_H_FAILED","VDS_H_FAILING","VDS_H_HEALTHY","VDS_H_UNKNOWN","base.vds_disk_prop2","vds/PVDS_DISK_PROP2","vds/VDS_DISK_PROP2"]
+description: Defines the properties of a disk object. This structure is identical to the VDS_DISK_PROP structure, except that it also includes the location path and, if the disk is offline, the reason why it is offline.
+helpviewer_keywords: ["*PVDS_DISK_PROP2","PVDS_DISK_PROP2","PVDS_DISK_PROP2 structure pointer","VDS_DISK_PROP2","VDS_DISK_PROP2 structure","VDS_H_FAILED","VDS_H_FAILING","VDS_H_HEALTHY","VDS_H_UNKNOWN","base.vds_disk_prop2","vds/PVDS_DISK_PROP2","vds/VDS_DISK_PROP2"]
 old-location: base\vds_disk_prop2.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f51c2937-4b70-44fb-b626-1df072e2622a
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_DISK_PROP2, PVDS_DISK_PROP2, PVDS_DISK_PROP2 structure pointer, VDS_DISK_PROP2, VDS_DISK_PROP2 structure, VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, base.vds_disk_prop2, vds/PVDS_DISK_PROP2, vds/VDS_DISK_PROP2'

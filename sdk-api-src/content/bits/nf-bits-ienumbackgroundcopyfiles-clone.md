@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Clone
 title: IEnumBackgroundCopyFiles::Clone (bits.h)
-description: Creates another IEnumBackgroundCopyFiles enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [BITS]","Clone method [BITS]","IEnumBackgroundCopyFiles interface","IEnumBackgroundCopyFiles interface [BITS]","Clone method","IEnumBackgroundCopyFiles.Clone","IEnumBackgroundCopyFiles::Clone","_drz_ienumbackgroundcopyfiles_clone","bits.ienumbackgroundcopyfiles_clone","bits/IEnumBackgroundCopyFiles::Clone"]
+description: Creates another IEnumBackgroundCopyFiles enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [BITS]","Clone method [BITS]","IEnumBackgroundCopyFiles interface","IEnumBackgroundCopyFiles interface [BITS]","Clone method","IEnumBackgroundCopyFiles.Clone","IEnumBackgroundCopyFiles::Clone","_drz_ienumbackgroundcopyfiles_clone","bits.ienumbackgroundcopyfiles_clone","bits/IEnumBackgroundCopyFiles::Clone"]
 old-location: bits\ienumbackgroundcopyfiles_clone.htm
 tech.root: Bits
 ms.assetid: ea2d2f76-7cd9-4e48-8a2c-3dd367afdee7

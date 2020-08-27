@@ -6,7 +6,7 @@ helpviewer_keywords: ["*POPEN_VIRTUAL_DISK_PARAMETERS","OPEN_VIRTUAL_DISK_PARAME
 old-location: vhd\open_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: ad67bc3e-a0fe-4198-9307-819577abef7f
-ms.date: 12/05/2018
+ms.date: 08/19/2020
 ms.keywords: '*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD], OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT, OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, POPEN_VIRTUAL_DISK_PARAMETERS, POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/POPEN_VIRTUAL_DISK_PARAMETERS, vhd.open_virtual_disk_parameters, virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS, virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS'
 f1_keywords:
 - virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS
@@ -52,6 +52,24 @@ ms.custom: 19H1
 
 
 Contains virtual disk open request parameters.
+
+## -syntax
+
+```cpp
+typedef struct _OPEN_VIRTUAL_DISK_PARAMETERS {
+  OPEN_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      ULONG RWDepth;
+    } Version1;
+    struct {
+      BOOL GetInfoOnly;
+      BOOL ReadOnly;
+      GUID ResiliencyGuid;
+    } Version2;
+  };
+} OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS;
+```
 
 
 ## -struct-fields
@@ -175,31 +193,8 @@ If <b>TRUE</b>, indicates the file backing store is to be opened as read-only.
 Resiliency <b>GUID</b> to specify when opening files.
 
 
-### -field Version3
-
- 
-
-
-### -field Version3.GetInfoOnly
-
- 
-
-
-### -field Version3.ReadOnly
-
- 
-
-
-### -field Version3.ResiliencyGuid
-
- 
-
-
-### -field Version3.SnapshotId
-
- 
-
-
+> [!NOTE]
+> The following parameters prefaced Version3 are intended for internal use.
 
 
 ## -see-also

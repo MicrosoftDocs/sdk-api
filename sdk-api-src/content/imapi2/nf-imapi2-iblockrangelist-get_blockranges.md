@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IBlockRangeList.get_BlockRanges
 title: IBlockRangeList::get_BlockRanges (imapi2.h)
-description: Returns the list of sector ranges in the form of a safe array of variants of type VT_Dispatch.helpviewer_keywords: ["IBlockRangeList interface [IMAPI]","get_BlockRanges method","IBlockRangeList.get_BlockRanges","IBlockRangeList::get_BlockRanges","get_BlockRanges","get_BlockRanges method [IMAPI]","get_BlockRanges method [IMAPI]","IBlockRangeList interface","imapi.iblockrangelist_get_blockranges","imapi2/IBlockRangeList::get_BlockRanges"]
+description: Returns the list of sector ranges in the form of a safe array of variants of type VT_Dispatch.
+helpviewer_keywords: ["IBlockRangeList interface [IMAPI]","get_BlockRanges method","IBlockRangeList.get_BlockRanges","IBlockRangeList::get_BlockRanges","get_BlockRanges","get_BlockRanges method [IMAPI]","get_BlockRanges method [IMAPI]","IBlockRangeList interface","imapi.iblockrangelist_get_blockranges","imapi2/IBlockRangeList::get_BlockRanges"]
 old-location: imapi\iblockrangelist_get_blockranges.htm
 tech.root: imapi
 ms.assetid: b9c7e4ee-0fb2-4a15-8277-8db82a4f3afe

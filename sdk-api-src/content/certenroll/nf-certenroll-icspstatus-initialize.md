@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICspStatus.Initialize
 title: ICspStatus::Initialize (certenroll.h)
-description: Initializes the object from a cryptographic provider and an associated algorithm.helpviewer_keywords: ["ICspStatus interface [Security]","Initialize method","ICspStatus.Initialize","ICspStatus::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICspStatus interface","certenroll/ICspStatus::Initialize","security.icspstatus_initialize"]
+description: Initializes the object from a cryptographic provider and an associated algorithm.
+helpviewer_keywords: ["ICspStatus interface [Security]","Initialize method","ICspStatus.Initialize","ICspStatus::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICspStatus interface","certenroll/ICspStatus::Initialize","security.icspstatus_initialize"]
 old-location: security\icspstatus_initialize.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize

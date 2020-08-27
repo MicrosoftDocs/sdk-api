@@ -1,7 +1,8 @@
 ---
 UID: NN:infotech.IITResultSet
 title: IITResultSet (infotech.h)
-description: Use this interface in run-time applications to initialize, build, and obtain information about result sets.helpviewer_keywords: ["IITResultSet","IITResultSet interface [HTML Help Workshop]","IITResultSet interface [HTML Help Workshop]","described","htmlhelp.iitresultset","infotech/IITResultSet","refIITResultSetInterface"]
+description: Use this interface in run-time applications to initialize, build, and obtain information about result sets.
+helpviewer_keywords: ["IITResultSet","IITResultSet interface [HTML Help Workshop]","IITResultSet interface [HTML Help Workshop]","described","htmlhelp.iitresultset","infotech/IITResultSet","refIITResultSetInterface"]
 old-location: htmlhelp\iitresultset.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm

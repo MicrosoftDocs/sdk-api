@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.GetNamedPipeClientComputerNameA
 title: GetNamedPipeClientComputerNameA function (winbase.h)
-description: Retrieves the client computer name for the specified named pipe.helpviewer_keywords: ["GetNamedPipeClientComputerName","GetNamedPipeClientComputerName function","GetNamedPipeClientComputerNameA","GetNamedPipeClientComputerNameW","base.getnamedpipeclientcomputername","winbase/GetNamedPipeClientComputerName","winbase/GetNamedPipeClientComputerNameA","winbase/GetNamedPipeClientComputerNameW"]
+description: Retrieves the client computer name for the specified named pipe.
+helpviewer_keywords: ["GetNamedPipeClientComputerName","GetNamedPipeClientComputerName function","GetNamedPipeClientComputerNameA","GetNamedPipeClientComputerNameW","base.getnamedpipeclientcomputername","winbase/GetNamedPipeClientComputerName","winbase/GetNamedPipeClientComputerNameA","winbase/GetNamedPipeClientComputerNameW"]
 old-location: base\getnamedpipeclientcomputername.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 8daa97fe-0ef7-4ada-a99c-aff487ad27e5
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW

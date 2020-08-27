@@ -1,9 +1,10 @@
 ---
 UID: NF:winsafer.SaferiIsExecutableFileType
 title: SaferiIsExecutableFileType function (winsafer.h)
-description: Determines whether a specified file is an executable file.helpviewer_keywords: ["SaferiIsExecutableFileType","SaferiIsExecutableFileType function [Security]","security.saferiisexecutablefiletype","winsafer/SaferiIsExecutableFileType"]
+description: Determines whether a specified file is an executable file.
+helpviewer_keywords: ["SaferiIsExecutableFileType","SaferiIsExecutableFileType function [Security]","security.saferiisexecutablefiletype","winsafer/SaferiIsExecutableFileType"]
 old-location: security\saferiisexecutablefiletype.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
 ms.date: 12/05/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType

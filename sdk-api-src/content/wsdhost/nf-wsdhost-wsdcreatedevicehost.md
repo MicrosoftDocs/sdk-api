@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdhost.WSDCreateDeviceHost
 title: WSDCreateDeviceHost function (wsdhost.h)
-description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.helpviewer_keywords: ["WSDCreateDeviceHost","WSDCreateDeviceHost function","ncd.wsdcreatedevicehost","wsdhost/WSDCreateDeviceHost"]
+description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
+helpviewer_keywords: ["WSDCreateDeviceHost","WSDCreateDeviceHost function","ncd.wsdcreatedevicehost","wsdhost/WSDCreateDeviceHost"]
 old-location: ncd\wsdcreatedevicehost.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: dbe7ccd0-494d-4f6c-90f6-e729839d7008
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost

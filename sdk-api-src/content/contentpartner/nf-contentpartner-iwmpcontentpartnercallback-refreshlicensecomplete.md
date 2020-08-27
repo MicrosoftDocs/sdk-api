@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.RefreshLicenseComplete
 title: IWMPContentPartnerCallback::RefreshLicenseComplete (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","RefreshLicenseComplete method","IWMPContentPartnerCallback.RefreshLicenseComplete","IWMPContentPartnerCallback::RefreshLicenseComplete","IWMPContentPartnerCallbackRefreshLicenseComplete","RefreshLicenseComplete","RefreshLicenseComplete method [Windows Media Player]","RefreshLicenseComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::RefreshLicenseComplete","wmp.iwmpcontentpartnercallback_refreshlicensecomplete"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","RefreshLicenseComplete method","IWMPContentPartnerCallback.RefreshLicenseComplete","IWMPContentPartnerCallback::RefreshLicenseComplete","IWMPContentPartnerCallbackRefreshLicenseComplete","RefreshLicenseComplete","RefreshLicenseComplete method [Windows Media Player]","RefreshLicenseComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::RefreshLicenseComplete","wmp.iwmpcontentpartnercallback_refreshlicensecomplete"]
 old-location: wmp\iwmpcontentpartnercallback_refreshlicensecomplete.htm
 tech.root: WMP
 ms.assetid: 426941d9-8d10-4c30-bf2d-cae3f48b51c6

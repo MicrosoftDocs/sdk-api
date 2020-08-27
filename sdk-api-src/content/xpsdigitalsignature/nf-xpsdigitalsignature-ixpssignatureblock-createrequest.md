@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.CreateRequest
 title: IXpsSignatureBlock::CreateRequest (xpsdigitalsignature.h)
-description: Creates a new IXpsSignatureRequest interface and adds it to the signature block.helpviewer_keywords: ["CreateRequest","CreateRequest method [XPS Documents and Packaging]","CreateRequest method [XPS Documents and Packaging]","IXpsSignatureBlock interface","IXpsSignatureBlock interface [XPS Documents and Packaging]","CreateRequest method","IXpsSignatureBlock.CreateRequest","IXpsSignatureBlock::CreateRequest","xps.ixpssignatureblock_createrequest","xpsdigitalsignature/IXpsSignatureBlock::CreateRequest"]
+description: Creates a new IXpsSignatureRequest interface and adds it to the signature block.
+helpviewer_keywords: ["CreateRequest","CreateRequest method [XPS Documents and Packaging]","CreateRequest method [XPS Documents and Packaging]","IXpsSignatureBlock interface","IXpsSignatureBlock interface [XPS Documents and Packaging]","CreateRequest method","IXpsSignatureBlock.CreateRequest","IXpsSignatureBlock::CreateRequest","xps.ixpssignatureblock_createrequest","xpsdigitalsignature/IXpsSignatureBlock::CreateRequest"]
 old-location: xps\ixpssignatureblock_createrequest.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 73b9e0b4-a650-4886-bafb-828a659b8446
 ms.date: 12/05/2018
 ms.keywords: CreateRequest, CreateRequest method [XPS Documents and Packaging], CreateRequest method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],CreateRequest method, IXpsSignatureBlock.CreateRequest, IXpsSignatureBlock::CreateRequest, xps.ixpssignatureblock_createrequest, xpsdigitalsignature/IXpsSignatureBlock::CreateRequest

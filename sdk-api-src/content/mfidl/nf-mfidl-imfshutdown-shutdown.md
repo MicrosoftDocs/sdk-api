@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFShutdown.Shutdown
 title: IMFShutdown::Shutdown (mfidl.h)
-description: Shuts down a Media Foundation object and releases all resources associated with the object.helpviewer_keywords: ["9e7824d2-0f76-4c4c-98c5-ba51cd297de7","IMFShutdown interface [Media Foundation]","Shutdown method","IMFShutdown.Shutdown","IMFShutdown::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFShutdown interface","mf.imfshutdown_shutdown","mfidl/IMFShutdown::Shutdown"]
+description: Shuts down a Media Foundation object and releases all resources associated with the object.
+helpviewer_keywords: ["9e7824d2-0f76-4c4c-98c5-ba51cd297de7","IMFShutdown interface [Media Foundation]","Shutdown method","IMFShutdown.Shutdown","IMFShutdown::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFShutdown interface","mf.imfshutdown_shutdown","mfidl/IMFShutdown::Shutdown"]
 old-location: mf\imfshutdown_shutdown.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7
 ms.date: 12/05/2018
 ms.keywords: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7, IMFShutdown interface [Media Foundation],Shutdown method, IMFShutdown.Shutdown, IMFShutdown::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFShutdown interface, mf.imfshutdown_shutdown, mfidl/IMFShutdown::Shutdown

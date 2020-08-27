@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Settings
 title: ITaskDefinition::put_Settings (taskschd.h)
-description: Gets or sets the settings that define how the Task Scheduler service performs the task.helpviewer_keywords: ["ITaskDefinition interface [Task Scheduler]","Settings property","ITaskDefinition.Settings","ITaskDefinition.put_Settings","ITaskDefinition::Settings","ITaskDefinition::get_Settings","ITaskDefinition::put_Settings","Settings property [Task Scheduler]","Settings property [Task Scheduler]","ITaskDefinition interface","put_Settings","taskschd.itaskdefinition_settings","taskschd/ITaskDefinition::Settings","taskschd/ITaskDefinition::get_Settings","taskschd/ITaskDefinition::put_Settings"]
+description: Gets or sets the settings that define how the Task Scheduler service performs the task.
+helpviewer_keywords: ["ITaskDefinition interface [Task Scheduler]","Settings property","ITaskDefinition.Settings","ITaskDefinition.put_Settings","ITaskDefinition::Settings","ITaskDefinition::get_Settings","ITaskDefinition::put_Settings","Settings property [Task Scheduler]","Settings property [Task Scheduler]","ITaskDefinition interface","put_Settings","taskschd.itaskdefinition_settings","taskschd/ITaskDefinition::Settings","taskschd/ITaskDefinition::get_Settings","taskschd/ITaskDefinition::put_Settings"]
 old-location: taskschd\itaskdefinition_settings.htm
 tech.root: taskschd
 ms.assetid: ecf768bd-5f07-4a9b-881c-e5306769f96e

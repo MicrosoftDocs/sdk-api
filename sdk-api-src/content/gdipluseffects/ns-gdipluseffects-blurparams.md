@@ -1,7 +1,8 @@
 ---
 UID: NS:gdipluseffects.BlurParams
 title: BlurParams (gdipluseffects.h)
-description: A BlurParams structure contains members that specify the nature of a Gaussian blur.helpviewer_keywords: ["BlurParams","BlurParams structure [GDI+]","_gdiplus_STRUC_BlurParams","gdiplus._gdiplus_STRUC_BlurParams","gdipluseffects/BlurParams"]
+description: A BlurParams structure contains members that specify the nature of a Gaussian blur.
+helpviewer_keywords: ["BlurParams","BlurParams structure [GDI+]","_gdiplus_STRUC_BlurParams","gdiplus._gdiplus_STRUC_BlurParams","gdipluseffects/BlurParams"]
 old-location: gdiplus\_gdiplus_STRUC_BlurParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\blurparams.htm

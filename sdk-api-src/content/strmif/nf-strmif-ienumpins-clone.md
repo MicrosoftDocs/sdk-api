@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IEnumPins.Clone
 title: IEnumPins::Clone (strmif.h)
-description: The Clone method makes a copy of the enumerator with the same enumeration state.helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumPins interface","IEnumPins interface [DirectShow]","Clone method","IEnumPins.Clone","IEnumPins::Clone","IEnumPinsClone","dshow.ienumpins_clone","strmif/IEnumPins::Clone"]
+description: The Clone method makes a copy of the enumerator with the same enumeration state.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumPins interface","IEnumPins interface [DirectShow]","Clone method","IEnumPins.Clone","IEnumPins::Clone","IEnumPinsClone","dshow.ienumpins_clone","strmif/IEnumPins::Clone"]
 old-location: dshow\ienumpins_clone.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 946bb08e-6866-46b3-b2d7-de2ab6c5e608
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPins interface, IEnumPins interface [DirectShow],Clone method, IEnumPins.Clone, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone

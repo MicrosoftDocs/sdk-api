@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionSurface
 title: IDCompositionSurface (dcomp.h)
-description: Represents a physical bitmap that can be associated with a visual for composition in a visual tree. This interface can also be used to update the bitmap contents.helpviewer_keywords: ["IDCompositionSurface","IDCompositionSurface interface [DirectComposition]","IDCompositionSurface interface [DirectComposition]","described","dcomp/IDCompositionSurface","directcomp.idcompositionsurface"]
+description: Represents a physical bitmap that can be associated with a visual for composition in a visual tree. This interface can also be used to update the bitmap contents.
+helpviewer_keywords: ["IDCompositionSurface","IDCompositionSurface interface [DirectComposition]","IDCompositionSurface interface [DirectComposition]","described","dcomp/IDCompositionSurface","directcomp.idcompositionsurface"]
 old-location: directcomp\idcompositionsurface.htm
 tech.root: directcomp
 ms.assetid: E271B4DC-5F09-426A-A5D3-43A48F30CB24

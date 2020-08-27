@@ -1,9 +1,10 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCaptureInitializationSettings
 title: IAdvancedMediaCaptureInitializationSettings (mfmediacapture.h)
-description: Provides initialization settings for advanced media capture.helpviewer_keywords: ["IAdvancedMediaCaptureInitializationSettings","IAdvancedMediaCaptureInitializationSettings interface [Media Foundation]","IAdvancedMediaCaptureInitializationSettings interface [Media Foundation]","described","mf.iadvancedmediacaptureInitializationsettings","mfmediacapture/IAdvancedMediaCaptureInitializationSettings"]
+description: Provides initialization settings for advanced media capture.
+helpviewer_keywords: ["IAdvancedMediaCaptureInitializationSettings","IAdvancedMediaCaptureInitializationSettings interface [Media Foundation]","IAdvancedMediaCaptureInitializationSettings interface [Media Foundation]","described","mf.iadvancedmediacaptureInitializationsettings","mfmediacapture/IAdvancedMediaCaptureInitializationSettings"]
 old-location: mf\iadvancedmediacaptureInitializationsettings.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings

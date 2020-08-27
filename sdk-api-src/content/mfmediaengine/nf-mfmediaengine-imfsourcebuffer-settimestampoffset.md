@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.SetTimeStampOffset
 title: IMFSourceBuffer::SetTimeStampOffset (mfmediaengine.h)
-description: Sets the timestamp offset for media segments appended to the IMFSourceBuffer.helpviewer_keywords: ["IMFSourceBuffer interface [Media Foundation]","SetTimeStampOffset method","IMFSourceBuffer.SetTimeStampOffset","IMFSourceBuffer::SetTimeStampOffset","SetTimeStampOffset","SetTimeStampOffset method [Media Foundation]","SetTimeStampOffset method [Media Foundation]","IMFSourceBuffer interface","mf.imfsourcebuffer_settimestampoffset","mfmediaengine/IMFSourceBuffer::SetTimeStampOffset"]
+description: Sets the timestamp offset for media segments appended to the IMFSourceBuffer.
+helpviewer_keywords: ["IMFSourceBuffer interface [Media Foundation]","SetTimeStampOffset method","IMFSourceBuffer.SetTimeStampOffset","IMFSourceBuffer::SetTimeStampOffset","SetTimeStampOffset","SetTimeStampOffset method [Media Foundation]","SetTimeStampOffset method [Media Foundation]","IMFSourceBuffer interface","mf.imfsourcebuffer_settimestampoffset","mfmediaengine/IMFSourceBuffer::SetTimeStampOffset"]
 old-location: mf\imfsourcebuffer_settimestampoffset.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: db905149-f6f2-445e-87bb-6705a1a078eb
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetTimeStampOffset method, IMFSourceBuffer.SetTimeStampOffset, IMFSourceBuffer::SetTimeStampOffset, SetTimeStampOffset, SetTimeStampOffset method [Media Foundation], SetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_settimestampoffset, mfmediaengine/IMFSourceBuffer::SetTimeStampOffset

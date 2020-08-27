@@ -1,7 +1,8 @@
 ---
 UID: NN:sensevts.ISensLogon2
 title: ISensLogon2 (sensevts.h)
-description: The ISensLogon2 interface handles logon events fired by SENS.helpviewer_keywords: ["ISensLogon2","ISensLogon2 interface [SENS]","ISensLogon2 interface [SENS]","described","_zaw_isenslogon2","sens.isenslogon2","sensevts/ISensLogon2","syncmgr.isenslogon2"]
+description: The ISensLogon2 interface handles logon events fired by SENS.
+helpviewer_keywords: ["ISensLogon2","ISensLogon2 interface [SENS]","ISensLogon2 interface [SENS]","described","_zaw_isenslogon2","sens.isenslogon2","sensevts/ISensLogon2","syncmgr.isenslogon2"]
 old-location: sens\isenslogon2.htm
 tech.root: Sens
 ms.assetid: be61b5b9-d4f1-40ea-a734-7b02c06e41e8

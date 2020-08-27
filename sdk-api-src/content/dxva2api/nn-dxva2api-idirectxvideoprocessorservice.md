@@ -1,9 +1,10 @@
 ---
 UID: NN:dxva2api.IDirectXVideoProcessorService
 title: IDirectXVideoProcessorService (dxva2api.h)
-description: Provides access to DirectX Video Acceleration (DXVA) video processing services.helpviewer_keywords: ["IDirectXVideoProcessorService","IDirectXVideoProcessorService interface [Media Foundation]","IDirectXVideoProcessorService interface [Media Foundation]","described","dxva2api/IDirectXVideoProcessorService","fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688","mf.idirectxvideoprocessorservice"]
+description: Provides access to DirectX Video Acceleration (DXVA) video processing services.
+helpviewer_keywords: ["IDirectXVideoProcessorService","IDirectXVideoProcessorService interface [Media Foundation]","IDirectXVideoProcessorService interface [Media Foundation]","described","dxva2api/IDirectXVideoProcessorService","fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688","mf.idirectxvideoprocessorservice"]
 old-location: mf\idirectxvideoprocessorservice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation],described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice

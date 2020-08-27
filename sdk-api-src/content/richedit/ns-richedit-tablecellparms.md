@@ -49,9 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the attributes of cells in a table row. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification. 
-
 
 
 ## -struct-fields
@@ -101,7 +99,6 @@ The width of a cell (\cellx).
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Shading in .01% (\clshdng). This controls the amount of pattern foreground color (<b>crForePat</b>) and pattern background color (<b>crBackPat</b>) that is used to create the cell background color. If <b>wShading</b> is 0, the cell background is <b>crBackPat</b>. If it's 10000, the cell background is <b>crForePat</b>. Values of <b>wShading</b> in between are mixtures of the two pattern colors. 
-
 
 
 ### -field dxBrdrLeft
@@ -174,42 +171,42 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLOR
 Foreground color (\clcfpat).
 
 
-#### - fMergeCont:1
+### -field fMergeCont:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Merge with the previous cell (\clmrg).
 
 
-#### - fMergePrev:1
+### -field fMergePrev:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Merge with the cell above (\clvmrg).
 
 
-#### - fMergeStart:1
+### -field fMergeStart:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Start set of horizontally merged cells (\clmgf).
 
 
-#### - fMergeTop:1
+### -field fMergeTop:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Top cell for vertical merge (\clvmgf).
 
 
-#### - fVertical:1
+### -field fVertical:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Display text top to bottom, right to left (\cltxtbrlv).
 
 
-#### - nVertAlign:2
+### -field nVertAlign:2
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 

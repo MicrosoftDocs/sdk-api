@@ -1,9 +1,10 @@
 ---
 UID: NF:processenv.GetEnvironmentVariableW
 title: GetEnvironmentVariableW function (processenv.h)
-description: Retrieves the contents of the specified variable from the environment block of the calling process.helpviewer_keywords: ["GetEnvironmentVariable","GetEnvironmentVariable function","GetEnvironmentVariableA","GetEnvironmentVariableW","_win32_getenvironmentvariable","base.getenvironmentvariable","processenv/GetEnvironmentVariable","processenv/GetEnvironmentVariableA","processenv/GetEnvironmentVariableW","winbase/GetEnvironmentVariable","winbase/GetEnvironmentVariableA","winbase/GetEnvironmentVariableW"]
+description: Retrieves the contents of the specified variable from the environment block of the calling process.
+helpviewer_keywords: ["GetEnvironmentVariable","GetEnvironmentVariable function","GetEnvironmentVariableA","GetEnvironmentVariableW","_win32_getenvironmentvariable","base.getenvironmentvariable","processenv/GetEnvironmentVariable","processenv/GetEnvironmentVariableA","processenv/GetEnvironmentVariableW","winbase/GetEnvironmentVariable","winbase/GetEnvironmentVariableA","winbase/GetEnvironmentVariableW"]
 old-location: base\getenvironmentvariable.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1d4cc328-12e6-4aae-9f58-58675116ad54
 ms.date: 12/05/2018
 ms.keywords: GetEnvironmentVariable, GetEnvironmentVariable function, GetEnvironmentVariableA, GetEnvironmentVariableW, _win32_getenvironmentvariable, base.getenvironmentvariable, processenv/GetEnvironmentVariable, processenv/GetEnvironmentVariableA, processenv/GetEnvironmentVariableW, winbase/GetEnvironmentVariable, winbase/GetEnvironmentVariableA, winbase/GetEnvironmentVariableW
@@ -71,8 +72,9 @@ The name of the environment variable.
 
 ### -param lpBuffer [out, optional]
 
-A pointer to a buffer that receives the contents of the specified environment variable as a null-terminated string. An environment variable has a maximum size limit of 32,767 characters, including the null-terminating character.
+A pointer to a buffer that receives the contents of the specified environment variable as a null-terminated string.
 
+The maximum size of a user-defined environment variable is 32,767 characters. There is no technical limitation on the size of the environment block. However, there are practical limits depending on the mechanism used to access the block. For example, a batch file cannot set a variable that is longer than the maximum command line length. For more information, see [Environment Variables](/windows/desktop/ProcThread/environment-variables).
 
 ### -param nSize [in]
 
@@ -108,6 +110,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processenv.h header defines GetEnvironmentVariable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

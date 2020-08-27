@@ -1,9 +1,10 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Unassociate
 title: IPNPXAssociation::Unassociate (pnpxassoc.h)
-description: Marks an association database entry as unassociated.helpviewer_keywords: ["IPNPXAssociation interface","Unassociate method","IPNPXAssociation.Unassociate","IPNPXAssociation::Unassociate","Unassociate","Unassociate method","Unassociate method","IPNPXAssociation interface","ncd.ipnpxassociation_unassociate","pnpxassoc/IPNPXAssociation::Unassociate"]
+description: Marks an association database entry as unassociated.
+helpviewer_keywords: ["IPNPXAssociation interface","Unassociate method","IPNPXAssociation.Unassociate","IPNPXAssociation::Unassociate","Unassociate","Unassociate method","Unassociate method","IPNPXAssociation interface","ncd.ipnpxassociation_unassociate","pnpxassoc/IPNPXAssociation::Unassociate"]
 old-location: ncd\ipnpxassociation_unassociate.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 92f0cc10-03a0-498f-acd1-4b03302aa33b
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation interface,Unassociate method, IPNPXAssociation.Unassociate, IPNPXAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXAssociation interface, ncd.ipnpxassociation_unassociate, pnpxassoc/IPNPXAssociation::Unassociate

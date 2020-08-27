@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.IsOk
 title: WBEMTimeSpan::IsOk (wbemtime.h)
-description: The IsOk method indicates whether the WBEMTimeSpan object represents a valid time span.helpviewer_keywords: ["IsOk","IsOk method [Windows Management Instrumentation]","IsOk method [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","IsOk method","WBEMTimeSpan.IsOk","WBEMTimeSpan::IsOk","_hmm_wbemtimespan_isok","wbemtime/WBEMTimeSpan::IsOk","wmi.wbemtimespan_isok"]
+description: The IsOk method indicates whether the WBEMTimeSpan object represents a valid time span.
+helpviewer_keywords: ["IsOk","IsOk method [Windows Management Instrumentation]","IsOk method [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","IsOk method","WBEMTimeSpan.IsOk","WBEMTimeSpan::IsOk","_hmm_wbemtimespan_isok","wbemtime/WBEMTimeSpan::IsOk","wmi.wbemtimespan_isok"]
 old-location: wmi\wbemtimespan_isok.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 855b4c2f-5379-4dd9-9638-072e256e955a
 ms.date: 12/05/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],IsOk method, WBEMTimeSpan.IsOk, WBEMTimeSpan::IsOk, _hmm_wbemtimespan_isok, wbemtime/WBEMTimeSpan::IsOk, wmi.wbemtimespan_isok

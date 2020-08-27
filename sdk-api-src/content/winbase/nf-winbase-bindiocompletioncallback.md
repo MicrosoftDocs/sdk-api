@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.BindIoCompletionCallback
 title: BindIoCompletionCallback function (winbase.h)
-description: Associates the I/O completion port owned by the thread pool with the specified file handle. On completion of an I/O request involving this file, a non-I/O worker thread will execute the specified callback function.helpviewer_keywords: ["BindIoCompletionCallback","BindIoCompletionCallback function","_win32_bindiocompletioncallback","base.bindiocompletioncallback","winbase/BindIoCompletionCallback"]
+description: Associates the I/O completion port owned by the thread pool with the specified file handle. On completion of an I/O request involving this file, a non-I/O worker thread will execute the specified callback function.
+helpviewer_keywords: ["BindIoCompletionCallback","BindIoCompletionCallback function","_win32_bindiocompletioncallback","base.bindiocompletioncallback","winbase/BindIoCompletionCallback"]
 old-location: base\bindiocompletioncallback.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 2eb18e84-6d6b-4b11-8e8f-6110fa44b7f9
 ms.date: 12/05/2018
 ms.keywords: BindIoCompletionCallback, BindIoCompletionCallback function, _win32_bindiocompletioncallback, base.bindiocompletioncallback, winbase/BindIoCompletionCallback

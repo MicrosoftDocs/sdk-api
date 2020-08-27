@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.IPerformanceCounterDataCollector
 title: IPerformanceCounterDataCollector (pla.h)
-description: Specifies the performance counters to query and the log file to which the counter data is written.To create this data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method.helpviewer_keywords: ["IPerformanceCounterDataCollector","IPerformanceCounterDataCollector interface [PLA]","IPerformanceCounterDataCollector interface [PLA]","described","base.iperformancecounterdatacollector","pla.iperformancecounterdatacollector","pla/IPerformanceCounterDataCollector"]
+description: Specifies the performance counters to query and the log file to which the counter data is written.To create this data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method.
+helpviewer_keywords: ["IPerformanceCounterDataCollector","IPerformanceCounterDataCollector interface [PLA]","IPerformanceCounterDataCollector interface [PLA]","described","base.iperformancecounterdatacollector","pla.iperformancecounterdatacollector","pla/IPerformanceCounterDataCollector"]
 old-location: pla\iperformancecounterdatacollector.htm
 tech.root: PLA
 ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0

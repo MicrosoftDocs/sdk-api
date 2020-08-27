@@ -1,7 +1,8 @@
 ---
 UID: NL:shidfact.CItemIDFactory
 title: CItemIDFactory (shidfact.h)
-description: Exposes methods for interacting with Shell data sources.helpviewer_keywords: ["CItemIDFactory","CItemIDFactory class [Windows Shell]","CItemIDFactory class [Windows Shell]","described","shell.citemidfactory","shidfact/CItemIDFactory"]
+description: Exposes methods for interacting with Shell data sources.
+helpviewer_keywords: ["CItemIDFactory","CItemIDFactory class [Windows Shell]","CItemIDFactory class [Windows Shell]","described","shell.citemidfactory","shidfact/CItemIDFactory"]
 old-location: shell\citemidfactory.htm
 tech.root: shell
 ms.assetid: 8C13F1AF-3328-40B8-B5F8-6CDF753A7FA7

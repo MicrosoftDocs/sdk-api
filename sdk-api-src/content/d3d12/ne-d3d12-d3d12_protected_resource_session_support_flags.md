@@ -1,7 +1,9 @@
 ---
 UID: NE:d3d12.D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS
 title: D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS
-description: Defines constants that specify protected resource session support.helpviewer_keywords: ["D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS"]
+description: Defines constants that specify protected resource session support.
+tech.root: direct3d12
+helpviewer_keywords: ["D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS
 f1_keywords:

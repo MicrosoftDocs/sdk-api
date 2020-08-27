@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation3.RemoveTextEditTextChangedEventHandler
 title: IUIAutomation3::RemoveTextEditTextChangedEventHandler (uiautomationclient.h)
-description: Removes a programmatic text-edit event handler.helpviewer_keywords: ["IUIAutomation3 interface [Windows Accessibility]","RemoveTextEditTextChangedEventHandler method","IUIAutomation3.RemoveTextEditTextChangedEventHandler","IUIAutomation3::RemoveTextEditTextChangedEventHandler","RemoveTextEditTextChangedEventHandler","RemoveTextEditTextChangedEventHandler method [Windows Accessibility]","RemoveTextEditTextChangedEventHandler method [Windows Accessibility]","IUIAutomation3 interface","uiautomationclient/IUIAutomation3::RemoveTextEditTextChangedEventHandler","winauto.uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler"]
+description: Removes a programmatic text-edit event handler.
+helpviewer_keywords: ["IUIAutomation3 interface [Windows Accessibility]","RemoveTextEditTextChangedEventHandler method","IUIAutomation3.RemoveTextEditTextChangedEventHandler","IUIAutomation3::RemoveTextEditTextChangedEventHandler","RemoveTextEditTextChangedEventHandler","RemoveTextEditTextChangedEventHandler method [Windows Accessibility]","RemoveTextEditTextChangedEventHandler method [Windows Accessibility]","IUIAutomation3 interface","uiautomationclient/IUIAutomation3::RemoveTextEditTextChangedEventHandler","winauto.uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: CCB8C8FC-B0CF-2C3D-64B5-9CCF1BB64058

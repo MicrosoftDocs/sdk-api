@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDvdControl.AngleChange
 title: IDvdControl::AngleChange (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the new display angle.helpviewer_keywords: ["AngleChange","AngleChange method [DirectShow]","AngleChange method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","AngleChange method","IDvdControl.AngleChange","IDvdControl::AngleChange","IDvdControlAngleChange","dshow.idvdcontrol_anglechange","strmif/IDvdControl::AngleChange"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the new display angle.
+helpviewer_keywords: ["AngleChange","AngleChange method [DirectShow]","AngleChange method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","AngleChange method","IDvdControl.AngleChange","IDvdControl::AngleChange","IDvdControlAngleChange","dshow.idvdcontrol_anglechange","strmif/IDvdControl::AngleChange"]
 old-location: dshow\idvdcontrol_anglechange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4a91f05d-1ded-4ecb-8850-5ee7faad134d
 ms.date: 12/05/2018
 ms.keywords: AngleChange, AngleChange method [DirectShow], AngleChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AngleChange method, IDvdControl.AngleChange, IDvdControl::AngleChange, IDvdControlAngleChange, dshow.idvdcontrol_anglechange, strmif/IDvdControl::AngleChange

@@ -4,7 +4,7 @@ title: CreateProcessWithLogonW function (winbase.h)
 description: Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 helpviewer_keywords: ["CREATE_DEFAULT_ERROR_MODE","CREATE_NEW_CONSOLE","CREATE_NEW_PROCESS_GROUP","CREATE_SEPARATE_WOW_VDM","CREATE_SUSPENDED","CREATE_UNICODE_ENVIRONMENT","CreateProcessWithLogonW","CreateProcessWithLogonW function","LOGON_NETCREDENTIALS_ONLY","LOGON_WITH_PROFILE","_win32_createprocesswithlogonw","base.createprocesswithlogonw","winbase/CreateProcessWithLogonW"]
 old-location: base\createprocesswithlogonw.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
 ms.date: 12/05/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithLogonW, CreateProcessWithLogonW function, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, _win32_createprocesswithlogonw, base.createprocesswithlogonw, winbase/CreateProcessWithLogonW
@@ -184,7 +184,7 @@ If <i>lpApplicationName</i> is <b>NULL</b>, the first white space–delimited to
 <li>The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched.</li>
 <li>The Windows directory. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/axe/shellexecute">ShellExecute</a> function.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://docs.microsoft.com/windows/win32/api/shellapi/nf-shellapi-shellexecutew">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 

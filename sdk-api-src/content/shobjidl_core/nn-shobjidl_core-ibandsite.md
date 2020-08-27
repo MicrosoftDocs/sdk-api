@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IBandSite
 title: IBandSite (shobjidl_core.h)
-description: Exposes methods that control band objects.helpviewer_keywords: ["IBandSite","IBandSite interface [Windows Shell]","IBandSite interface [Windows Shell]","described","_win32_IBandSite","shell.IBandSite","shobjidl_core/IBandSite"]
+description: Exposes methods that control band objects.
+helpviewer_keywords: ["IBandSite","IBandSite interface [Windows Shell]","IBandSite interface [Windows Shell]","described","_win32_IBandSite","shell.IBandSite","shobjidl_core/IBandSite"]
 old-location: shell\IBandSite.htm
 tech.root: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827

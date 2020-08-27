@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetKeywords
 title: IXpsOMCoreProperties::SetKeywords (xpsobjectmodel.h)
-description: Sets the keywords property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetKeywords method","IXpsOMCoreProperties.SetKeywords","IXpsOMCoreProperties::SetKeywords","SetKeywords","SetKeywords method [XPS Documents and Packaging]","SetKeywords method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setkeywords","xpsobjectmodel/IXpsOMCoreProperties::SetKeywords"]
+description: Sets the keywords property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetKeywords method","IXpsOMCoreProperties.SetKeywords","IXpsOMCoreProperties::SetKeywords","SetKeywords","SetKeywords method [XPS Documents and Packaging]","SetKeywords method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setkeywords","xpsobjectmodel/IXpsOMCoreProperties::SetKeywords"]
 old-location: xps\ixpsomcoreproperties_setkeywords.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: d96a85d2-dfbf-4589-9c3f-7505715ec6ce
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetKeywords method, IXpsOMCoreProperties.SetKeywords, IXpsOMCoreProperties::SetKeywords, SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords

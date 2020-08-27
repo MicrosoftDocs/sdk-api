@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGroupCreate
 title: PeerGroupCreate function (p2p.h)
-description: The PeerGroupCreate function creates a new peer group.helpviewer_keywords: ["PeerGroupCreate","PeerGroupCreate function [Peer Networking]","p2p.peergroupcreate","p2p/PeerGroupCreate"]
+description: The PeerGroupCreate function creates a new peer group.
+helpviewer_keywords: ["PeerGroupCreate","PeerGroupCreate function [Peer Networking]","p2p.peergroupcreate","p2p/PeerGroupCreate"]
 old-location: p2p\peergroupcreate.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b85d87c6-28b7-49f8-865c-9d246f89367e
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate

@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_LP_POOLING_OPERATOR_DESC
 title: DML_LP_POOLING_OPERATOR_DESC
-description: Describes a DirectML operator that performs an Lp pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths), y = (x1^p + x2^p + ... + xn^p) ^ (1/p) where X -&gt; Y reduced for each kernel.helpviewer_keywords: ["DML_LP_POOLING_OPERATOR_DESC","DML_LP_POOLING_OPERATOR_DESC structure","direct3d12.dml_lp_pooling_operator_desc","directml/DML_LP_POOLING_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs an Lp pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths), y = (x1^p + x2^p + ... + xn^p) ^ (1/p) where X -&gt; Y reduced for each kernel.
+helpviewer_keywords: ["DML_LP_POOLING_OPERATOR_DESC","DML_LP_POOLING_OPERATOR_DESC structure","direct3d12.dml_lp_pooling_operator_desc","directml/DML_LP_POOLING_OPERATOR_DESC"]
 old-location: direct3d12\dml_lp_pooling_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: A1E3AC75-F611-42BD-938E-F5BA0BC8282F
 ms.date: 12/5/2018
 ms.keywords: DML_LP_POOLING_OPERATOR_DESC, DML_LP_POOLING_OPERATOR_DESC structure, direct3d12.dml_lp_pooling_operator_desc, directml/DML_LP_POOLING_OPERATOR_DESC

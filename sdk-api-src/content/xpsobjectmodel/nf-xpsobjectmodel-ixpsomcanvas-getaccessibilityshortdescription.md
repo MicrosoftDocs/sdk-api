@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetAccessibilityShortDescription
 title: IXpsOMCanvas::GetAccessibilityShortDescription (xpsobjectmodel.h)
-description: Gets a short textual description of the object's contents.helpviewer_keywords: ["GetAccessibilityShortDescription","GetAccessibilityShortDescription method [XPS Documents and Packaging]","GetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetAccessibilityShortDescription method","IXpsOMCanvas.GetAccessibilityShortDescription","IXpsOMCanvas::GetAccessibilityShortDescription","xps.ixpsomcanvas_getaccessibilityshortdescription","xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription"]
+description: Gets a short textual description of the object's contents.
+helpviewer_keywords: ["GetAccessibilityShortDescription","GetAccessibilityShortDescription method [XPS Documents and Packaging]","GetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetAccessibilityShortDescription method","IXpsOMCanvas.GetAccessibilityShortDescription","IXpsOMCanvas::GetAccessibilityShortDescription","xps.ixpsomcanvas_getaccessibilityshortdescription","xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription"]
 old-location: xps\ixpsomcanvas_getaccessibilityshortdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c07f394d-b10f-45c1-b8b7-cd466507967b
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMCanvas.GetAccessibilityShortDescription, IXpsOMCanvas::GetAccessibilityShortDescription, xps.ixpsomcanvas_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription

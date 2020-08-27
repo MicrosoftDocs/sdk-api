@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverCreateRelationship
 title: DhcpV4FailoverCreateRelationship function (dhcpsapi.h)
-description: Creates a new DHCPv4 failover relationship between two servers.helpviewer_keywords: ["DhcpV4FailoverCreateRelationship","DhcpV4FailoverCreateRelationship function [DHCP]","dhcp.dhcpv4failovercreaterelationship","dhcpsapi/DhcpV4FailoverCreateRelationship"]
+description: Creates a new DHCPv4 failover relationship between two servers.
+helpviewer_keywords: ["DhcpV4FailoverCreateRelationship","DhcpV4FailoverCreateRelationship function [DHCP]","dhcp.dhcpv4failovercreaterelationship","dhcpsapi/DhcpV4FailoverCreateRelationship"]
 old-location: dhcp\dhcpv4failovercreaterelationship.htm
 tech.root: DHCP
 ms.assetid: 6e360dd4-b4a0-4652-8754-17c3c284271c

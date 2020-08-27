@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.Lock2D
 title: IMF2DBuffer::Lock2D (mfobjects.h)
-description: Gives the caller access to the memory in the buffer.helpviewer_keywords: ["887a7394-9fe0-473a-825b-f095b01626c4","IMF2DBuffer interface [Media Foundation]","Lock2D method","IMF2DBuffer.Lock2D","IMF2DBuffer::Lock2D","Lock2D","Lock2D method [Media Foundation]","Lock2D method [Media Foundation]","IMF2DBuffer interface","mf.imf2dbuffer_lock2d","mfobjects/IMF2DBuffer::Lock2D"]
+description: Gives the caller access to the memory in the buffer.
+helpviewer_keywords: ["887a7394-9fe0-473a-825b-f095b01626c4","IMF2DBuffer interface [Media Foundation]","Lock2D method","IMF2DBuffer.Lock2D","IMF2DBuffer::Lock2D","Lock2D","Lock2D method [Media Foundation]","Lock2D method [Media Foundation]","IMF2DBuffer interface","mf.imf2dbuffer_lock2d","mfobjects/IMF2DBuffer::Lock2D"]
 old-location: mf\imf2dbuffer_lock2d.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 887a7394-9fe0-473a-825b-f095b01626c4
 ms.date: 12/05/2018
 ms.keywords: 887a7394-9fe0-473a-825b-f095b01626c4, IMF2DBuffer interface [Media Foundation],Lock2D method, IMF2DBuffer.Lock2D, IMF2DBuffer::Lock2D, Lock2D, Lock2D method [Media Foundation], Lock2D method [Media Foundation],IMF2DBuffer interface, mf.imf2dbuffer_lock2d, mfobjects/IMF2DBuffer::Lock2D

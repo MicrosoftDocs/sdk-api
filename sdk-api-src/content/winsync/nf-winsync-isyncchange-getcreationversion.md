@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChange.GetCreationVersion
 title: ISyncChange::GetCreationVersion (winsync.h)
-description: Gets the creation version of the changed item.helpviewer_keywords: ["GetCreationVersion","GetCreationVersion method [Windows Sync]","GetCreationVersion method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetCreationVersion method","ISyncChange.GetCreationVersion","ISyncChange::GetCreationVersion","winsync.isyncchange_getcreationversion","winsync/ISyncChange::GetCreationVersion"]
+description: Gets the creation version of the changed item.
+helpviewer_keywords: ["GetCreationVersion","GetCreationVersion method [Windows Sync]","GetCreationVersion method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetCreationVersion method","ISyncChange.GetCreationVersion","ISyncChange::GetCreationVersion","winsync.isyncchange_getcreationversion","winsync/ISyncChange::GetCreationVersion"]
 old-location: winsync\isyncchange_getcreationversion.htm
 tech.root: winsync
 ms.assetid: 2c795cbe-b587-42ef-9200-b7d0d972e7c7

@@ -1,9 +1,10 @@
 ---
 UID: NF:processenv.GetEnvironmentStrings
 title: GetEnvironmentStrings function (processenv.h)
-description: Retrieves the environment variables for the current process.helpviewer_keywords: ["GetEnvironmentStrings","GetEnvironmentStrings function","GetEnvironmentStringsA","GetEnvironmentStringsW","_win32_getenvironmentstrings","base.getenvironmentstrings","processenv/GetEnvironmentStrings","processenv/GetEnvironmentStringsA","processenv/GetEnvironmentStringsW","winbase/GetEnvironmentStrings","winbase/GetEnvironmentStringsA","winbase/GetEnvironmentStringsW"]
+description: Retrieves the environment variables for the current process.
+helpviewer_keywords: ["GetEnvironmentStrings","GetEnvironmentStrings function","GetEnvironmentStringsA","GetEnvironmentStringsW","_win32_getenvironmentstrings","base.getenvironmentstrings","processenv/GetEnvironmentStrings","processenv/GetEnvironmentStringsA","processenv/GetEnvironmentStringsW","winbase/GetEnvironmentStrings","winbase/GetEnvironmentStringsA","winbase/GetEnvironmentStringsW"]
 old-location: base\getenvironmentstrings.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: fb431d83-f3e7-4f2a-bad9-81259681c1f4
 ms.date: 12/05/2018
 ms.keywords: GetEnvironmentStrings, GetEnvironmentStrings function, GetEnvironmentStringsA, GetEnvironmentStringsW, _win32_getenvironmentstrings, base.getenvironmentstrings, processenv/GetEnvironmentStrings, processenv/GetEnvironmentStringsA, processenv/GetEnvironmentStringsW, winbase/GetEnvironmentStrings, winbase/GetEnvironmentStringsA, winbase/GetEnvironmentStringsW
@@ -84,14 +85,16 @@ If the function fails, the return value is NULL.
 The 
 <b>GetEnvironmentStrings</b> function returns a pointer to a block of memory that contains the environment variables of the calling process (both the system and the user environment variables). Each environment block contains the environment variables in the following format:
 
-<i>Var1</i>
-<i>Value1</i>
-<i>Var2</i>
-<i>Value2</i>
-<i>Var3</i>
-<i>Value3</i>
-<i>VarN</i>
-<i>ValueN</i>
+Each environment block contains the environment variables in the following format:
+
+*Var1*=*Value1*\0<br/>
+*Var2*=*Value2*\0<br/>
+*Var3*=*Value3*\0<br/>
+...<br/>
+*VarN*=*ValueN*\0\0
+
+The name of an environment variable cannot include an equal sign (=).
+
 Treat this memory as read-only; do not modify it directly. To add or change an environment variable, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.

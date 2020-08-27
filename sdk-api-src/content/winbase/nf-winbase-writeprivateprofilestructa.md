@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.WritePrivateProfileStructA
 title: WritePrivateProfileStructA function (winbase.h)
-description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.helpviewer_keywords: ["WritePrivateProfileStruct","WritePrivateProfileStruct function","WritePrivateProfileStructA","WritePrivateProfileStructW","_win32_writeprivateprofilestruct","base.writeprivateprofilestruct","winbase/WritePrivateProfileStruct","winbase/WritePrivateProfileStructA","winbase/WritePrivateProfileStructW"]
+description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
+helpviewer_keywords: ["WritePrivateProfileStruct","WritePrivateProfileStruct function","WritePrivateProfileStructA","WritePrivateProfileStructW","_win32_writeprivateprofilestruct","base.writeprivateprofilestruct","winbase/WritePrivateProfileStruct","winbase/WritePrivateProfileStructA","winbase/WritePrivateProfileStructW"]
 old-location: base\writeprivateprofilestruct.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileStruct, WritePrivateProfileStruct function, WritePrivateProfileStructA, WritePrivateProfileStructW, _win32_writeprivateprofilestruct, base.writeprivateprofilestruct, winbase/WritePrivateProfileStruct, winbase/WritePrivateProfileStructA, winbase/WritePrivateProfileStructW
@@ -153,6 +154,10 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines WritePrivateProfileStruct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

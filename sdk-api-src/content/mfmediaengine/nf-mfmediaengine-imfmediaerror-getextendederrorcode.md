@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetExtendedErrorCode
 title: IMFMediaError::GetExtendedErrorCode (mfmediaengine.h)
-description: Gets the extended error code.helpviewer_keywords: ["GetExtendedErrorCode","GetExtendedErrorCode method [Media Foundation]","GetExtendedErrorCode method [Media Foundation]","IMFMediaError interface","IMFMediaError interface [Media Foundation]","GetExtendedErrorCode method","IMFMediaError.GetExtendedErrorCode","IMFMediaError::GetExtendedErrorCode","mf.imfmediaerror_getextendederrorcode","mfmediaengine/IMFMediaError::GetExtendedErrorCode"]
+description: Gets the extended error code.
+helpviewer_keywords: ["GetExtendedErrorCode","GetExtendedErrorCode method [Media Foundation]","GetExtendedErrorCode method [Media Foundation]","IMFMediaError interface","IMFMediaError interface [Media Foundation]","GetExtendedErrorCode method","IMFMediaError.GetExtendedErrorCode","IMFMediaError::GetExtendedErrorCode","mf.imfmediaerror_getextendederrorcode","mfmediaengine/IMFMediaError::GetExtendedErrorCode"]
 old-location: mf\imfmediaerror_getextendederrorcode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 73B414F2-F17E-418E-9F8B-A7C378F80090
 ms.date: 12/05/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetExtendedErrorCode method, IMFMediaError.GetExtendedErrorCode, IMFMediaError::GetExtendedErrorCode, mf.imfmediaerror_getextendederrorcode, mfmediaengine/IMFMediaError::GetExtendedErrorCode

@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
-description: Specifies flags for video processing input streams.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS","D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS",""]
+description: Specifies flags for video processing input streams.
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS","D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS",""]
 tech.root: mf
 ms.assetid: d27ae6b9-c5e2-4f46-a76c-2f91bb8b9ba7
 ms.date: 05/28/2019

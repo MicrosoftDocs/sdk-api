@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetGain
 title: ISpatialAudioObjectForHrtf::SetGain (spatialaudiohrtf.h)
-description: Sets the gain for the ISpatialAudioObjectForHrtf.helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetGain method","ISpatialAudioObjectForHrtf.SetGain","ISpatialAudioObjectForHrtf::SetGain","SetGain","SetGain method [Core Audio]","SetGain method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setgain","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain"]
+description: Sets the gain for the ISpatialAudioObjectForHrtf.
+helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetGain method","ISpatialAudioObjectForHrtf.SetGain","ISpatialAudioObjectForHrtf::SetGain","SetGain","SetGain method [Core Audio]","SetGain method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setgain","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain"]
 old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm
 tech.root: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>. 
+Sets the gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> in dB. 
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Sets the gain for the <a href="https://docs.microsoft.com/windows/desktop/api/sp
 
 ### -param gain [in]
 
-The gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>. 
+The gain for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> in dB. 
 
 
 ## -returns

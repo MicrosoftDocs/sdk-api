@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._SYSTEM_AUDIT_CALLBACK_ACE
 title: SYSTEM_AUDIT_CALLBACK_ACE (winnt.h)
-description: The SYSTEM_AUDIT_CALLBACK_ACE structure defines an access control entry for the system access control list that specifies what types of access cause system-level notifications.helpviewer_keywords: ["*PSYSTEM_AUDIT_CALLBACK_ACE","PACCESS_AUDIT_CALLBACK_ACE","PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security]","SYSTEM_AUDIT_CALLBACK_ACE","SYSTEM_AUDIT_CALLBACK_ACE structure [Security]","_SYSTEM_AUDIT_CALLBACK_ACE","security.system_audit_callback_ace","winnt/PACCESS_AUDIT_CALLBACK_ACE","winnt/SYSTEM_AUDIT_CALLBACK_ACE"]
+description: The SYSTEM_AUDIT_CALLBACK_ACE structure defines an access control entry for the system access control list that specifies what types of access cause system-level notifications.
+helpviewer_keywords: ["*PSYSTEM_AUDIT_CALLBACK_ACE","PACCESS_AUDIT_CALLBACK_ACE","PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security]","SYSTEM_AUDIT_CALLBACK_ACE","SYSTEM_AUDIT_CALLBACK_ACE structure [Security]","_SYSTEM_AUDIT_CALLBACK_ACE","security.system_audit_callback_ace","winnt/PACCESS_AUDIT_CALLBACK_ACE","winnt/SYSTEM_AUDIT_CALLBACK_ACE"]
 old-location: security\system_audit_callback_ace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4d1799b0-3e55-48d7-94ff-c0094945adea
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_ACE, SYSTEM_AUDIT_CALLBACK_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_ACE, security.system_audit_callback_ace, winnt/PACCESS_AUDIT_CALLBACK_ACE, winnt/SYSTEM_AUDIT_CALLBACK_ACE'

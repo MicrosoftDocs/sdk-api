@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpExportSecurityContextFn
 title: SpExportSecurityContextFn (ntsecpkg.h)
-description: Exports a security context to another process.helpviewer_keywords: ["SECPKG_CONTEXT_EXPORT_DELETE_OLD","SECPKG_CONTEXT_EXPORT_RESET_NEW","SpExportSecurityContext","SpExportSecurityContext callback function [Security]","SpExportSecurityContextFn","SpExportSecurityContextFn callback","_ssp_spexportsecuritycontext","ntsecpkg/SpExportSecurityContext","security.spexportsecuritycontext"]
+description: Exports a security context to another process.
+helpviewer_keywords: ["SECPKG_CONTEXT_EXPORT_DELETE_OLD","SECPKG_CONTEXT_EXPORT_RESET_NEW","SpExportSecurityContext","SpExportSecurityContext callback function [Security]","SpExportSecurityContextFn","SpExportSecurityContextFn callback","_ssp_spexportsecuritycontext","ntsecpkg/SpExportSecurityContext","security.spexportsecuritycontext"]
 old-location: security\spexportsecuritycontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 0c8cafb3-aaf5-4937-91dc-e534bb6e4caf
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SpExportSecurityContext, SpExportSecurityContext callback function [Security], SpExportSecurityContextFn, SpExportSecurityContextFn callback, _ssp_spexportsecuritycontext, ntsecpkg/SpExportSecurityContext, security.spexportsecuritycontext

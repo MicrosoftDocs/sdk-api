@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchCrawlScopeManager2
 title: ISearchCrawlScopeManager2 (searchapi.h)
-description: Extends the functionality of the ISearchCrawlScopeManager interface.helpviewer_keywords: ["ISearchCrawlScopeManager2","ISearchCrawlScopeManager2 interface [search]","ISearchCrawlScopeManager2 interface [search]","described","_search_ISearchCrawlScopeManager2","search._search_ISearchCrawlScopeManager2","searchapi/ISearchCrawlScopeManager2"]
+description: Extends the functionality of the ISearchCrawlScopeManager interface.
+helpviewer_keywords: ["ISearchCrawlScopeManager2","ISearchCrawlScopeManager2 interface [search]","ISearchCrawlScopeManager2 interface [search]","described","_search_ISearchCrawlScopeManager2","search._search_ISearchCrawlScopeManager2","searchapi/ISearchCrawlScopeManager2"]
 old-location: search\_search_ISearchCrawlScopeManager2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\isearchcrawlscopemanager2.htm
@@ -81,11 +82,7 @@ Causes file mapping to be mapped into the address space of the calling process, 
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
+For a sample that demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations, see the [CrawlScopeCommandLine](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/CrawlScopeCommandLine) sample.
 
 
 ## -see-also

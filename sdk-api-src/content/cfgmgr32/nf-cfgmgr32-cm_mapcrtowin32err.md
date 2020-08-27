@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_MapCrToWin32Err
 title: CM_MapCrToWin32Err function (cfgmgr32.h)
-description: Converts a specified CONFIGRET code to its equivalent system error code.helpviewer_keywords: ["CM_MapCrToWin32Err","CM_MapCrToWin32Err function [Device and Driver Installation]","cfgmgr32/CM_MapCrToWin32Err","devinst.cm_mapcrtowin32err"]
+description: Converts a specified CONFIGRET code to its equivalent system error code.
+helpviewer_keywords: ["CM_MapCrToWin32Err","CM_MapCrToWin32Err function [Device and Driver Installation]","cfgmgr32/CM_MapCrToWin32Err","devinst.cm_mapcrtowin32err"]
 old-location: devinst\cm_mapcrtowin32err.htm
 tech.root: devinst
 ms.assetid: 7FC862D9-124D-413A-9082-F524E172FBDC

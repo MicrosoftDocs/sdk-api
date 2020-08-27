@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UpdateIdentity
 title: IUpdateHistoryEntry::get_UpdateIdentity (wuapi.h)
-description: Gets the IUpdateIdentity interface that contains the identity of the update.helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","UpdateIdentity property","IUpdateHistoryEntry.UpdateIdentity","IUpdateHistoryEntry.get_UpdateIdentity","IUpdateHistoryEntry::UpdateIdentity","IUpdateHistoryEntry::get_UpdateIdentity","UpdateIdentity property [Windows Update Agent]","UpdateIdentity property [Windows Update Agent]","IUpdateHistoryEntry interface","get_UpdateIdentity","wua.iupdatehistoryentry_updateidentity","wuapi/IUpdateHistoryEntry::UpdateIdentity","wuapi/IUpdateHistoryEntry::get_UpdateIdentity"]
+description: Gets the IUpdateIdentity interface that contains the identity of the update.
+helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","UpdateIdentity property","IUpdateHistoryEntry.UpdateIdentity","IUpdateHistoryEntry.get_UpdateIdentity","IUpdateHistoryEntry::UpdateIdentity","IUpdateHistoryEntry::get_UpdateIdentity","UpdateIdentity property [Windows Update Agent]","UpdateIdentity property [Windows Update Agent]","IUpdateHistoryEntry interface","get_UpdateIdentity","wua.iupdatehistoryentry_updateidentity","wuapi/IUpdateHistoryEntry::UpdateIdentity","wuapi/IUpdateHistoryEntry::get_UpdateIdentity"]
 old-location: wua\iupdatehistoryentry_updateidentity.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 428206f9-4812-4a9a-8b8f-8a22db401c19
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UpdateIdentity property, IUpdateHistoryEntry.UpdateIdentity, IUpdateHistoryEntry.get_UpdateIdentity, IUpdateHistoryEntry::UpdateIdentity, IUpdateHistoryEntry::get_UpdateIdentity, UpdateIdentity property [Windows Update Agent], UpdateIdentity property [Windows Update Agent],IUpdateHistoryEntry interface, get_UpdateIdentity, wua.iupdatehistoryentry_updateidentity, wuapi/IUpdateHistoryEntry::UpdateIdentity, wuapi/IUpdateHistoryEntry::get_UpdateIdentity

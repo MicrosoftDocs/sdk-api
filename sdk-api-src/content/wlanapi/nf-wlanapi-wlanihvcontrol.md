@@ -4,7 +4,7 @@ title: WlanIhvControl function (wlanapi.h)
 description: Provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
 helpviewer_keywords: ["WlanIhvControl","WlanIhvControl function [NativeWIFI]","nwifi.wlanihvcontrol","wlanapi/WlanIhvControl"]
 old-location: nwifi\wlanihvcontrol.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
 ms.date: 12/05/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl

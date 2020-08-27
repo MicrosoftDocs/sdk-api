@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.SetFileApisToANSI
 title: SetFileApisToANSI function (fileapi.h)
-description: Causes the file I/O functions to use the ANSI character set code page for the current process.helpviewer_keywords: ["SetFileApisToANSI","SetFileApisToANSI function [Files]","_win32_setfileapistoansi","base.setfileapistoansi","fileapi/SetFileApisToANSI","fs.setfileapistoansi"]
+description: Causes the file I/O functions to use the ANSI character set code page for the current process.
+helpviewer_keywords: ["SetFileApisToANSI","SetFileApisToANSI function [Files]","_win32_setfileapistoansi","base.setfileapistoansi","fileapi/SetFileApisToANSI","fs.setfileapistoansi"]
 old-location: fs\setfileapistoansi.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi

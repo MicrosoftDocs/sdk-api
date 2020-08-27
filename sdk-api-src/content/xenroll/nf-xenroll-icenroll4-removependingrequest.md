@@ -1,9 +1,10 @@
 ---
 UID: NF:xenroll.ICEnroll4.removePendingRequest
 title: ICEnroll4::removePendingRequest (xenroll.h)
-description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.helpviewer_keywords: ["CEnroll object [Security]","removePendingRequest method","ICEnroll4 interface [Security]","removePendingRequest method","ICEnroll4.removePendingRequest","ICEnroll4::removePendingRequest","_xen_icenroll4_removependingrequest","removePendingRequest","removePendingRequest method [Security]","removePendingRequest method [Security]","CEnroll object","removePendingRequest method [Security]","ICEnroll4 interface","security.icenroll4_removependingrequest","xenroll/ICEnroll4::removePendingRequest"]
+description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.
+helpviewer_keywords: ["CEnroll object [Security]","removePendingRequest method","ICEnroll4 interface [Security]","removePendingRequest method","ICEnroll4.removePendingRequest","ICEnroll4::removePendingRequest","_xen_icenroll4_removependingrequest","removePendingRequest","removePendingRequest method [Security]","removePendingRequest method [Security]","CEnroll object","removePendingRequest method [Security]","ICEnroll4 interface","security.icenroll4_removependingrequest","xenroll/ICEnroll4::removePendingRequest"]
 old-location: security\icenroll4_removependingrequest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 22ddd7f8-b2c0-4b9a-a2b3-c2cb470d0502
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],removePendingRequest method, ICEnroll4 interface [Security],removePendingRequest method, ICEnroll4.removePendingRequest, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest, removePendingRequest method [Security], removePendingRequest method [Security],CEnroll object, removePendingRequest method [Security],ICEnroll4 interface, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest

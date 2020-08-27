@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.DestroyPrivateObjectSecurity
 title: DestroyPrivateObjectSecurity function (securitybaseapi.h)
-description: Deletes a private object's security descriptor.helpviewer_keywords: ["DestroyPrivateObjectSecurity","DestroyPrivateObjectSecurity function [Security]","_win32_destroyprivateobjectsecurity","security.destroyprivateobjectsecurity","securitybaseapi/DestroyPrivateObjectSecurity"]
+description: Deletes a private object's security descriptor.
+helpviewer_keywords: ["DestroyPrivateObjectSecurity","DestroyPrivateObjectSecurity function [Security]","_win32_destroyprivateobjectsecurity","security.destroyprivateobjectsecurity","securitybaseapi/DestroyPrivateObjectSecurity"]
 old-location: security\destroyprivateobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4ef10852-8229-41de-a4d7-d2845e4c92ce
 ms.date: 12/05/2018
 ms.keywords: DestroyPrivateObjectSecurity, DestroyPrivateObjectSecurity function [Security], _win32_destroyprivateobjectsecurity, security.destroyprivateobjectsecurity, securitybaseapi/DestroyPrivateObjectSecurity

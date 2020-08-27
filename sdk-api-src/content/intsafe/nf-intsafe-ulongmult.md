@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongMult
 title: ULongMult function (intsafe.h)
-description: Multiplies one value of type ULONG by another.helpviewer_keywords: ["DWordMult","ULongMult","ULongMult function [Windows Shell]","_shell_ULongMult","intsafe/ULongMult","shell.ULongMult"]
+description: Multiplies one value of type ULONG by another.
+helpviewer_keywords: ["DWordMult","ULongMult","ULongMult function [Windows Shell]","_shell_ULongMult","intsafe/ULongMult","shell.ULongMult"]
 old-location: shell\ULongMult.htm
 tech.root: shell
 ms.assetid: 79710ade-498d-4cd7-ae6e-552a8e787193

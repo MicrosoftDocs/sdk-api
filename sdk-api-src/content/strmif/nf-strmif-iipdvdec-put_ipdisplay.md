@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IIPDVDec.put_IPDisplay
 title: IIPDVDec::put_IPDisplay (strmif.h)
-description: The put_IPDisplay method sets the decoding resolution.helpviewer_keywords: ["IIPDVDec interface [DirectShow]","put_IPDisplay method","IIPDVDec.put_IPDisplay","IIPDVDec::put_IPDisplay","IIPDVDecput_IPDisplay","dshow.iipdvdec_put_ipdisplay","put_IPDisplay","put_IPDisplay method [DirectShow]","put_IPDisplay method [DirectShow]","IIPDVDec interface","strmif/IIPDVDec::put_IPDisplay"]
+description: The put_IPDisplay method sets the decoding resolution.
+helpviewer_keywords: ["IIPDVDec interface [DirectShow]","put_IPDisplay method","IIPDVDec.put_IPDisplay","IIPDVDec::put_IPDisplay","IIPDVDecput_IPDisplay","dshow.iipdvdec_put_ipdisplay","put_IPDisplay","put_IPDisplay method [DirectShow]","put_IPDisplay method [DirectShow]","IIPDVDec interface","strmif/IIPDVDec::put_IPDisplay"]
 old-location: dshow\iipdvdec_put_ipdisplay.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c89970f8-b515-409b-af75-b1af65a8f94e
 ms.date: 12/05/2018
 ms.keywords: IIPDVDec interface [DirectShow],put_IPDisplay method, IIPDVDec.put_IPDisplay, IIPDVDec::put_IPDisplay, IIPDVDecput_IPDisplay, dshow.iipdvdec_put_ipdisplay, put_IPDisplay, put_IPDisplay method [DirectShow], put_IPDisplay method [DirectShow],IIPDVDec interface, strmif/IIPDVDec::put_IPDisplay

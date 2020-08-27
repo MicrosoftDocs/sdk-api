@@ -1,7 +1,8 @@
 ---
 UID: NS:cloneviewhelper.tagSources
 title: Sources (cloneviewhelper.h)
-description: The Sources structure contains a Video Present Network (VidPN) topology.helpviewer_keywords: ["Sources","Sources structure [Display Devices]","TMM_Ref_e15dfa1e-b8f8-464e-b683-c968113fbf64.xml","cloneviewhelper/Sources","display.sources"]
+description: The Sources structure contains a Video Present Network (VidPN) topology.
+helpviewer_keywords: ["Sources","Sources structure [Display Devices]","TMM_Ref_e15dfa1e-b8f8-464e-b683-c968113fbf64.xml","cloneviewhelper/Sources","display.sources"]
 old-location: display\sources.htm
 tech.root: display
 ms.assetid: 5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2

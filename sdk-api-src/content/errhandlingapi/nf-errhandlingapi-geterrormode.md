@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.GetErrorMode
 title: GetErrorMode function (errhandlingapi.h)
-description: Retrieves the error mode for the current process.helpviewer_keywords: ["GetErrorMode","GetErrorMode function","base.geterrormode","errhandlingapi/GetErrorMode"]
+description: Retrieves the error mode for the current process.
+helpviewer_keywords: ["GetErrorMode","GetErrorMode function","base.geterrormode","errhandlingapi/GetErrorMode"]
 old-location: base\geterrormode.htm
 tech.root: Debug
 ms.assetid: 7673e4ab-bfc8-4c47-b40a-0ae1b4ec5506

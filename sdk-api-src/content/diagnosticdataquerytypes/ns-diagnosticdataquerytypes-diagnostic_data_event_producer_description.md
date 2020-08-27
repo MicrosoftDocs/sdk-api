@@ -5,6 +5,7 @@ ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
 ms.topic: language-reference
 description: A resource that represents a producer. A Producer is an OS component, application or service that emits events. For example, “Microsoft Edge” is the Producer ID for the Microsoft Edge browser.
+tech.root: security
 targetos: Windows
 product: Windows
 req.construct-type: structure

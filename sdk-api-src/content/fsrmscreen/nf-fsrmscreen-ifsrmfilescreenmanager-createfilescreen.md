@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreen
 title: IFsrmFileScreenManager::CreateFileScreen (fsrmscreen.h)
-description: Creates a file screen object.helpviewer_keywords: ["CreateFileScreen","CreateFileScreen method [File Server Resource Manager]","CreateFileScreen method [File Server Resource Manager]","FsrmFileScreenManager class","CreateFileScreen method [File Server Resource Manager]","IFsrmFileScreenManager interface","FsrmFileScreenManager class [File Server Resource Manager]","CreateFileScreen method","IFsrmFileScreenManager interface [File Server Resource Manager]","CreateFileScreen method","IFsrmFileScreenManager.CreateFileScreen","IFsrmFileScreenManager::CreateFileScreen","fs.ifsrmfilescreenmanager_createfilescreen","fsrm.ifsrmfilescreenmanager_createfilescreen","fsrmscreen/IFsrmFileScreenManager::CreateFileScreen"]
+description: Creates a file screen object.
+helpviewer_keywords: ["CreateFileScreen","CreateFileScreen method [File Server Resource Manager]","CreateFileScreen method [File Server Resource Manager]","FsrmFileScreenManager class","CreateFileScreen method [File Server Resource Manager]","IFsrmFileScreenManager interface","FsrmFileScreenManager class [File Server Resource Manager]","CreateFileScreen method","IFsrmFileScreenManager interface [File Server Resource Manager]","CreateFileScreen method","IFsrmFileScreenManager.CreateFileScreen","IFsrmFileScreenManager::CreateFileScreen","fs.ifsrmfilescreenmanager_createfilescreen","fsrm.ifsrmfilescreenmanager_createfilescreen","fsrmscreen/IFsrmFileScreenManager::CreateFileScreen"]
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreen.htm
 tech.root: fsrm
 ms.assetid: 5e35c647-2b5a-486b-b8c5-0bc25bd313ad

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmMarkDestForChangeNotification
 title: RtmMarkDestForChangeNotification function (rtmv2.h)
-description: The RtmMarkDestForChangeNotification function marks a destination for a client.helpviewer_keywords: ["RtmMarkDestForChangeNotification","RtmMarkDestForChangeNotification function [RAS]","_rtmv2ref_rtmmarkdestforchangenotification","rras.rtmmarkdestforchangenotification","rtmv2/RtmMarkDestForChangeNotification"]
+description: The RtmMarkDestForChangeNotification function marks a destination for a client.
+helpviewer_keywords: ["RtmMarkDestForChangeNotification","RtmMarkDestForChangeNotification function [RAS]","_rtmv2ref_rtmmarkdestforchangenotification","rras.rtmmarkdestforchangenotification","rtmv2/RtmMarkDestForChangeNotification"]
 old-location: rras\rtmmarkdestforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b7db8664-2775-4f96-8e5b-5062a8abcfe0

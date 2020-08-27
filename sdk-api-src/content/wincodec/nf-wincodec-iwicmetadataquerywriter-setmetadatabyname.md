@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.SetMetadataByName
 title: IWICMetadataQueryWriter::SetMetadataByName (wincodec.h)
-description: Sets a metadata item to a specific location.helpviewer_keywords: ["IWICMetadataQueryWriter interface [Windows Imaging Component]","SetMetadataByName method","IWICMetadataQueryWriter.SetMetadataByName","IWICMetadataQueryWriter::SetMetadataByName","SetMetadataByName","SetMetadataByName method [Windows Imaging Component]","SetMetadataByName method [Windows Imaging Component]","IWICMetadataQueryWriter interface","_wic_codec_iwicmetadataquerywriter_setmetadatabyname","wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname","wincodec/IWICMetadataQueryWriter::SetMetadataByName"]
+description: Sets a metadata item to a specific location.
+helpviewer_keywords: ["IWICMetadataQueryWriter interface [Windows Imaging Component]","SetMetadataByName method","IWICMetadataQueryWriter.SetMetadataByName","IWICMetadataQueryWriter::SetMetadataByName","SetMetadataByName","SetMetadataByName method [Windows Imaging Component]","SetMetadataByName method [Windows Imaging Component]","IWICMetadataQueryWriter interface","_wic_codec_iwicmetadataquerywriter_setmetadatabyname","wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname","wincodec/IWICMetadataQueryWriter::SetMetadataByName"]
 old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm
 tech.root: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2

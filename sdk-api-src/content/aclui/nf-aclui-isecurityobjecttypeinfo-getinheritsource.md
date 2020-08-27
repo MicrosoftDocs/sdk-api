@@ -1,9 +1,10 @@
 ---
 UID: NF:aclui.ISecurityObjectTypeInfo.GetInheritSource
 title: ISecurityObjectTypeInfo::GetInheritSource (aclui.h)
-description: The ISecurityObjectTypeInfo::GetInheritSource method provides a means of determining the source of inherited access control entries in discretionary access control lists and system access control lists.helpviewer_keywords: ["GetInheritSource","GetInheritSource method [Security]","GetInheritSource method [Security]","ISecurityObjectTypeInfo interface","ISecurityObjectTypeInfo interface [Security]","GetInheritSource method","ISecurityObjectTypeInfo.GetInheritSource","ISecurityObjectTypeInfo::GetInheritSource","aclui/ISecurityObjectTypeInfo::GetInheritSource","security.isecurityobjecttypeinfo_getinheritsource"]
+description: The ISecurityObjectTypeInfo::GetInheritSource method provides a means of determining the source of inherited access control entries in discretionary access control lists and system access control lists.
+helpviewer_keywords: ["GetInheritSource","GetInheritSource method [Security]","GetInheritSource method [Security]","ISecurityObjectTypeInfo interface","ISecurityObjectTypeInfo interface [Security]","GetInheritSource method","ISecurityObjectTypeInfo.GetInheritSource","ISecurityObjectTypeInfo::GetInheritSource","aclui/ISecurityObjectTypeInfo::GetInheritSource","security.isecurityobjecttypeinfo_getinheritsource"]
 old-location: security\isecurityobjecttypeinfo_getinheritsource.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e058ca98-08dc-4a3f-9521-adcc5990eae7
 ms.date: 12/05/2018
 ms.keywords: GetInheritSource, GetInheritSource method [Security], GetInheritSource method [Security],ISecurityObjectTypeInfo interface, ISecurityObjectTypeInfo interface [Security],GetInheritSource method, ISecurityObjectTypeInfo.GetInheritSource, ISecurityObjectTypeInfo::GetInheritSource, aclui/ISecurityObjectTypeInfo::GetInheritSource, security.isecurityobjecttypeinfo_getinheritsource

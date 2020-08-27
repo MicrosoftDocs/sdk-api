@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateDownloader
 title: IUpdateSession::CreateUpdateDownloader (wuapi.h)
-description: Returns an IUpdateDownloader interface for this session.helpviewer_keywords: ["CreateUpdateDownloader","CreateUpdateDownloader method [Windows Update Agent]","CreateUpdateDownloader method [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","CreateUpdateDownloader method","IUpdateSession.CreateUpdateDownloader","IUpdateSession::CreateUpdateDownloader","wua.iupdatesession_createupdatedownloader","wuapi/IUpdateSession::CreateUpdateDownloader"]
+description: Returns an IUpdateDownloader interface for this session.
+helpviewer_keywords: ["CreateUpdateDownloader","CreateUpdateDownloader method [Windows Update Agent]","CreateUpdateDownloader method [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","CreateUpdateDownloader method","IUpdateSession.CreateUpdateDownloader","IUpdateSession::CreateUpdateDownloader","wua.iupdatesession_createupdatedownloader","wuapi/IUpdateSession::CreateUpdateDownloader"]
 old-location: wua\iupdatesession_createupdatedownloader.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 9d410114-2327-489c-84b6-c3f5367008c2
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateDownloader, CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateDownloader method, IUpdateSession.CreateUpdateDownloader, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader

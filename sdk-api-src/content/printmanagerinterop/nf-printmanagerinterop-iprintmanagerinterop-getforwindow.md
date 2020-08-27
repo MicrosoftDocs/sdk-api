@@ -1,7 +1,8 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.GetForWindow
 title: IPrintManagerInterop::GetForWindow (printmanagerinterop.h)
-description: Gets the PrintManager instance for the specified window.helpviewer_keywords: ["GetForWindow","GetForWindow method [Windows Runtime]","GetForWindow method [Windows Runtime]","IPrintManagerInterop interface","IPrintManagerInterop interface [Windows Runtime]","GetForWindow method","IPrintManagerInterop.GetForWindow","IPrintManagerInterop::GetForWindow","printmanagerinterop/IPrintManagerInterop::GetForWindow","winrt.iprintmanagerinterop_getforwindow"]
+description: Gets the PrintManager instance for the specified window.
+helpviewer_keywords: ["GetForWindow","GetForWindow method [Windows Runtime]","GetForWindow method [Windows Runtime]","IPrintManagerInterop interface","IPrintManagerInterop interface [Windows Runtime]","GetForWindow method","IPrintManagerInterop.GetForWindow","IPrintManagerInterop::GetForWindow","printmanagerinterop/IPrintManagerInterop::GetForWindow","winrt.iprintmanagerinterop_getforwindow"]
 old-location: winrt\iprintmanagerinterop_getforwindow.htm
 tech.root: WinRT
 ms.assetid: 8cbf37b6-6756-4399-aa6b-01eb63c8c6db

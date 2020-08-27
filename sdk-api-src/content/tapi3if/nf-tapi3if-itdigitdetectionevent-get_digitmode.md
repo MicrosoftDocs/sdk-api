@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_DigitMode
 title: ITDigitDetectionEvent::get_DigitMode (tapi3if.h)
-description: The get_DigitMode method gets the indicator of the line digit mode, such as LINEDIGITMODE_DTMF.helpviewer_keywords: ["ITDigitDetectionEvent interface [TAPI 2.2]","get_DigitMode method","ITDigitDetectionEvent.get_DigitMode","ITDigitDetectionEvent::get_DigitMode","_tapi3_itdigitdetectionevent_get_digitmode","get_DigitMode","get_DigitMode method [TAPI 2.2]","get_DigitMode method [TAPI 2.2]","ITDigitDetectionEvent interface","tapi3.itdigitdetectionevent_get_digitmode","tapi3if/ITDigitDetectionEvent::get_DigitMode"]
+description: The get_DigitMode method gets the indicator of the line digit mode, such as LINEDIGITMODE_DTMF.
+helpviewer_keywords: ["ITDigitDetectionEvent interface [TAPI 2.2]","get_DigitMode method","ITDigitDetectionEvent.get_DigitMode","ITDigitDetectionEvent::get_DigitMode","_tapi3_itdigitdetectionevent_get_digitmode","get_DigitMode","get_DigitMode method [TAPI 2.2]","get_DigitMode method [TAPI 2.2]","ITDigitDetectionEvent interface","tapi3.itdigitdetectionevent_get_digitmode","tapi3if/ITDigitDetectionEvent::get_DigitMode"]
 old-location: tapi3\itdigitdetectionevent_get_digitmode.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7eeda641-9155-4628-b4b2-2d427a255d7c
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_DigitMode method, ITDigitDetectionEvent.get_DigitMode, ITDigitDetectionEvent::get_DigitMode, _tapi3_itdigitdetectionevent_get_digitmode, get_DigitMode, get_DigitMode method [TAPI 2.2], get_DigitMode method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_digitmode, tapi3if/ITDigitDetectionEvent::get_DigitMode

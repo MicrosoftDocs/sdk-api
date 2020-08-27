@@ -76,12 +76,12 @@ The
 
 
 
-#### - pName1 [in]
+### -param pName1 [in]
 
 A pointer to a string that represents the first DNS name of the comparison pair.
 
 
-#### - pName2 [in]
+### -param pName2 [in]
 
 A pointer to a string that represents the second DNS name of the comparison pair.
 

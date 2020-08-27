@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateInstantaneousTransition
 title: IUIAnimationTransitionLibrary::CreateInstantaneousTransition (uianimation.h)
-description: Creates an instantaneous transition.helpviewer_keywords: ["CreateInstantaneousTransition","CreateInstantaneousTransition method [Windows Animation]","CreateInstantaneousTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateInstantaneousTransition method","IUIAnimationTransitionLibrary.CreateInstantaneousTransition","IUIAnimationTransitionLibrary::CreateInstantaneousTransition","uianimation.iuianimationtransitionlibrary_createinstantaneoustransition","uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition"]
+description: Creates an instantaneous transition.
+helpviewer_keywords: ["CreateInstantaneousTransition","CreateInstantaneousTransition method [Windows Animation]","CreateInstantaneousTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateInstantaneousTransition method","IUIAnimationTransitionLibrary.CreateInstantaneousTransition","IUIAnimationTransitionLibrary::CreateInstantaneousTransition","uianimation.iuianimationtransitionlibrary_createinstantaneoustransition","uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition"]
 old-location: uianimation\iuianimationtransitionlibrary_createinstantaneoustransition.htm
 tech.root: UIAnimation
 ms.assetid: 70db1315-df4a-472e-8d79-61bf93980337

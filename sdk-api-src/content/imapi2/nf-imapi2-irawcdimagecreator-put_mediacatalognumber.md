@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_MediaCatalogNumber
 title: IRawCDImageCreator::put_MediaCatalogNumber (imapi2.h)
-description: Retrieves the Media Catalog Number (MCN) for the entire audio disc.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","put_MediaCatalogNumber method","IRawCDImageCreator.put_MediaCatalogNumber","IRawCDImageCreator::put_MediaCatalogNumber","imapi.irawcdimagecreator_put_mediacatalognumber","imapi2/IRawCDImageCreator::put_MediaCatalogNumber","put_MediaCatalogNumber","put_MediaCatalogNumber method [IMAPI]","put_MediaCatalogNumber method [IMAPI]","IRawCDImageCreator interface"]
+description: Retrieves the Media Catalog Number (MCN) for the entire audio disc.
+helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","put_MediaCatalogNumber method","IRawCDImageCreator.put_MediaCatalogNumber","IRawCDImageCreator::put_MediaCatalogNumber","imapi.irawcdimagecreator_put_mediacatalognumber","imapi2/IRawCDImageCreator::put_MediaCatalogNumber","put_MediaCatalogNumber","put_MediaCatalogNumber method [IMAPI]","put_MediaCatalogNumber method [IMAPI]","IRawCDImageCreator interface"]
 old-location: imapi\irawcdimagecreator_put_mediacatalognumber.htm
 tech.root: imapi
 ms.assetid: 0ba2eaac-3bbc-4625-9c5d-1f1d23bbfa66

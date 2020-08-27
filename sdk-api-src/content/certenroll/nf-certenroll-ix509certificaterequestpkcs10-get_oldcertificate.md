@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_OldCertificate
 title: IX509CertificateRequestPkcs10::get_OldCertificate (certenroll.h)
-description: Retrieves the certificate passed to the InitializeFromCertificate method.helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","OldCertificate property","IX509CertificateRequestPkcs10.OldCertificate","IX509CertificateRequestPkcs10.get_OldCertificate","IX509CertificateRequestPkcs10::OldCertificate","IX509CertificateRequestPkcs10::get_OldCertificate","OldCertificate property [Security]","OldCertificate property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::OldCertificate","certenroll/IX509CertificateRequestPkcs10::get_OldCertificate","get_OldCertificate","security.ix509certificaterequestpkcs10_oldcertificate_property"]
+description: Retrieves the certificate passed to the InitializeFromCertificate method.
+helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","OldCertificate property","IX509CertificateRequestPkcs10.OldCertificate","IX509CertificateRequestPkcs10.get_OldCertificate","IX509CertificateRequestPkcs10::OldCertificate","IX509CertificateRequestPkcs10::get_OldCertificate","OldCertificate property [Security]","OldCertificate property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::OldCertificate","certenroll/IX509CertificateRequestPkcs10::get_OldCertificate","get_OldCertificate","security.ix509certificaterequestpkcs10_oldcertificate_property"]
 old-location: security\ix509certificaterequestpkcs10_oldcertificate_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8bb15b5c-e642-477d-bcec-772748e336ef
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],OldCertificate property, IX509CertificateRequestPkcs10.OldCertificate, IX509CertificateRequestPkcs10.get_OldCertificate, IX509CertificateRequestPkcs10::OldCertificate, IX509CertificateRequestPkcs10::get_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::OldCertificate, certenroll/IX509CertificateRequestPkcs10::get_OldCertificate, get_OldCertificate, security.ix509certificaterequestpkcs10_oldcertificate_property

@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetCurrentThemeName
 title: GetCurrentThemeName function (uxtheme.h)
-description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.helpviewer_keywords: ["GetCurrentThemeName","GetCurrentThemeName function [Windows Controls]","controls.GetCurrentThemeName","controls.inet_GetCurrentThemeName","inet_GetCurrentThemeName","inet_GetCurrentThemeName_cpp","uxtheme/GetCurrentThemeName"]
+description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.
+helpviewer_keywords: ["GetCurrentThemeName","GetCurrentThemeName function [Windows Controls]","controls.GetCurrentThemeName","controls.inet_GetCurrentThemeName","inet_GetCurrentThemeName","inet_GetCurrentThemeName_cpp","uxtheme/GetCurrentThemeName"]
 old-location: controls\GetCurrentThemeName.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getcurrentthemename.htm

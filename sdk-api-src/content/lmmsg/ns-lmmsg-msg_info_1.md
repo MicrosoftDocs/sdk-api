@@ -1,7 +1,8 @@
 ---
 UID: NS:lmmsg._MSG_INFO_1
 title: MSG_INFO_1 (lmmsg.h)
-description: The MSG_INFO_1 structure specifies a message alias. This structure exists only for compatibility. Message forwarding is not supported.helpviewer_keywords: ["*LPMSG_INFO_1","*PMSG_INFO_1","LPMSG_INFO_1","LPMSG_INFO_1 structure pointer [Network Management]","MSG_INFO_1","MSG_INFO_1 structure [Network Management]","PMSG_INFO_1","PMSG_INFO_1 structure pointer [Network Management]","_win32_msg_info_1_str","lmmsg/LPMSG_INFO_1","lmmsg/MSG_INFO_1","lmmsg/PMSG_INFO_1","netmgmt.msg_info_1_str"]
+description: The MSG_INFO_1 structure specifies a message alias. This structure exists only for compatibility. Message forwarding is not supported.
+helpviewer_keywords: ["*LPMSG_INFO_1","*PMSG_INFO_1","LPMSG_INFO_1","LPMSG_INFO_1 structure pointer [Network Management]","MSG_INFO_1","MSG_INFO_1 structure [Network Management]","PMSG_INFO_1","PMSG_INFO_1 structure pointer [Network Management]","_win32_msg_info_1_str","lmmsg/LPMSG_INFO_1","lmmsg/MSG_INFO_1","lmmsg/PMSG_INFO_1","netmgmt.msg_info_1_str"]
 old-location: netmgmt\msg_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: 6abb2622-6fa4-460a-b300-feaf548ba648

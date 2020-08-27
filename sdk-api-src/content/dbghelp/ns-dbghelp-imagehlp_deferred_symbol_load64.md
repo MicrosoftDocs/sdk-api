@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_DEFERRED_SYMBOL_LOAD64
 title: IMAGEHLP_DEFERRED_SYMBOL_LOAD64 (dbghelp.h)
-description: Contains information about a deferred symbol load.helpviewer_keywords: ["*PIMAGEHLP_DEFERRED_SYMBOL_LOAD64","DSLFLAG_MISMATCHED_DBG","DSLFLAG_MISMATCHED_PDB","IMAGEHLP_DEFERRED_SYMBOL_LOAD","IMAGEHLP_DEFERRED_SYMBOL_LOAD structure","IMAGEHLP_DEFERRED_SYMBOL_LOAD64","IMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure","IMAGEHLP_DEFERRED_SYMBOL_LOADW64","PIMAGEHLP_DEFERRED_SYMBOL_LOAD64","PIMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure pointer","_IMAGEHLP_DEFERRED_SYMBOL_LOAD64","_win32_imagehlp_deferred_symbol_load64_str","base.imagehlp_deferred_symbol_load64_str","dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOAD64","dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOADW64","dbghelp/PIMAGEHLP_DEFERRED_SYMBOL_LOAD64"]
+description: Contains information about a deferred symbol load.
+helpviewer_keywords: ["*PIMAGEHLP_DEFERRED_SYMBOL_LOAD64","DSLFLAG_MISMATCHED_DBG","DSLFLAG_MISMATCHED_PDB","IMAGEHLP_DEFERRED_SYMBOL_LOAD","IMAGEHLP_DEFERRED_SYMBOL_LOAD structure","IMAGEHLP_DEFERRED_SYMBOL_LOAD64","IMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure","IMAGEHLP_DEFERRED_SYMBOL_LOADW64","PIMAGEHLP_DEFERRED_SYMBOL_LOAD64","PIMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure pointer","_IMAGEHLP_DEFERRED_SYMBOL_LOAD64","_win32_imagehlp_deferred_symbol_load64_str","base.imagehlp_deferred_symbol_load64_str","dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOAD64","dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOADW64","dbghelp/PIMAGEHLP_DEFERRED_SYMBOL_LOAD64"]
 old-location: base\imagehlp_deferred_symbol_load64_str.htm
 tech.root: Debug
 ms.assetid: 151c47dd-df4a-44c9-ad9f-1ffc80dd81e9
@@ -96,7 +97,7 @@ A handle to a file. This member is used with <b>CBA_DEFERRED_SYMBOL_LOAD_PARTIAL
 					
 
 
-#### - Flags
+### -field Flags
 
 This member can be one of the following values.
 
@@ -109,10 +110,10 @@ This member can be one of the following values.
 #### DSLFLAG_MISMATCHED_PDB (0x1)
 
 
-##### - Flags.DSLFLAG_MISMATCHED_DBG (0x2)
+#### -field Flags.DSLFLAG_MISMATCHED_DBG (0x2)
 
 
-##### - Flags.DSLFLAG_MISMATCHED_PDB (0x1)
+#### -field Flags.DSLFLAG_MISMATCHED_PDB (0x1)
 
 
 ## -remarks

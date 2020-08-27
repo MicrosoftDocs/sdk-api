@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredReadDomainCredentialsA
 title: CredReadDomainCredentialsA function (wincred.h)
-description: Reads the domain credentials from the user's credential set.helpviewer_keywords: ["CredReadDomainCredentials","CredReadDomainCredentials function [Security]","CredReadDomainCredentialsA","CredReadDomainCredentialsW","_cred_credreaddomaincredentials","security.credreaddomaincredentials","wincred/CredReadDomainCredentials","wincred/CredReadDomainCredentialsA","wincred/CredReadDomainCredentialsW"]
+description: Reads the domain credentials from the user's credential set.
+helpviewer_keywords: ["CredReadDomainCredentials","CredReadDomainCredentials function [Security]","CredReadDomainCredentialsA","CredReadDomainCredentialsW","_cred_credreaddomaincredentials","security.credreaddomaincredentials","wincred/CredReadDomainCredentials","wincred/CredReadDomainCredentialsA","wincred/CredReadDomainCredentialsW"]
 old-location: security\credreaddomaincredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.date: 12/05/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
@@ -166,4 +167,8 @@ If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.co
 This function can return multiple credentials of this type, but <b>CRED_TYPE_DOMAIN_EXTENDED</b> cannot be mixed with other types in the <b>CredTypes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure specified by the <i>TargetInfo</i> parameter.
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredReadDomainCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

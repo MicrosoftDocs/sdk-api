@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.LANGIDFROMLCID
 title: LANGIDFROMLCID macro (winnt.h)
-description: Retrieves a language identifier from a locale identifier.helpviewer_keywords: ["LANGIDFROMLCID","LANGIDFROMLCID macro [Internationalization for Windows Applications]","_win32_LANGIDFROMLCID","intl.langidfromlcid","winnt/LANGIDFROMLCID"]
+description: Retrieves a language identifier from a locale identifier.
+helpviewer_keywords: ["LANGIDFROMLCID","LANGIDFROMLCID macro [Internationalization for Windows Applications]","_win32_LANGIDFROMLCID","intl.langidfromlcid","winnt/LANGIDFROMLCID"]
 old-location: intl\langidfromlcid.htm
 tech.root: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084

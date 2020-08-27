@@ -1,9 +1,10 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetAltitudeError
 title: ILatLongReport::GetAltitudeError (locationapi.h)
-description: Retrieves the altitude error, in meters.helpviewer_keywords: ["GetAltitudeError","GetAltitudeError method [WinLocation]","GetAltitudeError method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetAltitudeError method","ILatLongReport.GetAltitudeError","ILatLongReport::GetAltitudeError","WinLocation_COM_Ref.ilatlongreport_getaltitudeerror","locationapi/ILatLongReport::GetAltitudeError"]
+description: Retrieves the altitude error, in meters.
+helpviewer_keywords: ["GetAltitudeError","GetAltitudeError method [WinLocation]","GetAltitudeError method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetAltitudeError method","ILatLongReport.GetAltitudeError","ILatLongReport::GetAltitudeError","WinLocation_COM_Ref.ilatlongreport_getaltitudeerror","locationapi/ILatLongReport::GetAltitudeError"]
 old-location: winlocation_com_ref\ilatlongreport_getaltitudeerror.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 313aefda-785c-43ce-a71c-cacfd929e27e
 ms.date: 12/05/2018
 ms.keywords: GetAltitudeError, GetAltitudeError method [WinLocation], GetAltitudeError method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitudeError method, ILatLongReport.GetAltitudeError, ILatLongReport::GetAltitudeError, WinLocation_COM_Ref.ilatlongreport_getaltitudeerror, locationapi/ILatLongReport::GetAltitudeError

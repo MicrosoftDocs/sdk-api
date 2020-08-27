@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetStreamConfiguration
 title: IMFMuxStreamSampleManager::GetStreamConfiguration (mfobjects.h)
-description: Gets the active stream configuration for the media source, which defines the set of substreams that are included the multiplexed output.helpviewer_keywords: ["GetStreamConfiguration","GetStreamConfiguration method [Media Foundation]","GetStreamConfiguration method [Media Foundation]","IMFMuxStreamSampleManager interface","IMFMuxStreamSampleManager interface [Media Foundation]","GetStreamConfiguration method","IMFMuxStreamSampleManager.GetStreamConfiguration","IMFMuxStreamSampleManager::GetStreamConfiguration","mf.imfmuxstreamsamplemanager_getstreamconfiguration","mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration"]
+description: Gets the active stream configuration for the media source, which defines the set of substreams that are included the multiplexed output.
+helpviewer_keywords: ["GetStreamConfiguration","GetStreamConfiguration method [Media Foundation]","GetStreamConfiguration method [Media Foundation]","IMFMuxStreamSampleManager interface","IMFMuxStreamSampleManager interface [Media Foundation]","GetStreamConfiguration method","IMFMuxStreamSampleManager.GetStreamConfiguration","IMFMuxStreamSampleManager::GetStreamConfiguration","mf.imfmuxstreamsamplemanager_getstreamconfiguration","mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration"]
 old-location: mf\imfmuxstreamsamplemanager_getstreamconfiguration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4EC64809-4647-4AEE-98ED-2EB6CC0329DB
 ms.date: 12/05/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamSampleManager.GetStreamConfiguration, IMFMuxStreamSampleManager::GetStreamConfiguration, mf.imfmuxstreamsamplemanager_getstreamconfiguration, mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration

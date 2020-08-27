@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.InitializeSecurityContextW
 title: InitializeSecurityContextW function (sspi.h)
-description: Initiates the client side, outbound security context from a credential handle.helpviewer_keywords: ["Digest","ISC_REQ_ALLOCATE_MEMORY","ISC_REQ_CONFIDENTIALITY","ISC_REQ_CONNECTION","ISC_REQ_DELEGATE","ISC_REQ_EXTENDED_ERROR","ISC_REQ_HTTP","ISC_REQ_INTEGRITY","ISC_REQ_MANUAL_CRED_VALIDATION","ISC_REQ_MUTUAL_AUTH","ISC_REQ_NO_INTEGRITY","ISC_REQ_REPLAY_DETECT","ISC_REQ_SEQUENCE_DETECT","ISC_REQ_STREAM","ISC_REQ_USE_SESSION_KEY","ISC_REQ_USE_SUPPLIED_CREDS","InitializeSecurityContext","InitializeSecurityContext (General)","InitializeSecurityContext function [Security]","InitializeSecurityContextA","InitializeSecurityContextW","Kerberos or Negotiate","NTLM","Schannel/SSL","_ssp_initializesecuritycontext","security.initializesecuritycontext","security.initializesecuritycontext__general_","sspi/InitializeSecurityContext","sspi/InitializeSecurityContextA","sspi/InitializeSecurityContextW"]
+description: Initiates the client side, outbound security context from a credential handle.
+helpviewer_keywords: ["Digest","ISC_REQ_ALLOCATE_MEMORY","ISC_REQ_CONFIDENTIALITY","ISC_REQ_CONNECTION","ISC_REQ_DELEGATE","ISC_REQ_EXTENDED_ERROR","ISC_REQ_HTTP","ISC_REQ_INTEGRITY","ISC_REQ_MANUAL_CRED_VALIDATION","ISC_REQ_MUTUAL_AUTH","ISC_REQ_NO_INTEGRITY","ISC_REQ_REPLAY_DETECT","ISC_REQ_SEQUENCE_DETECT","ISC_REQ_STREAM","ISC_REQ_USE_SESSION_KEY","ISC_REQ_USE_SUPPLIED_CREDS","InitializeSecurityContext","InitializeSecurityContext (General)","InitializeSecurityContext function [Security]","InitializeSecurityContextA","InitializeSecurityContextW","Kerberos or Negotiate","NTLM","Schannel/SSL","_ssp_initializesecuritycontext","security.initializesecuritycontext","security.initializesecuritycontext__general_","sspi/InitializeSecurityContext","sspi/InitializeSecurityContextA","sspi/InitializeSecurityContextW"]
 old-location: security\initializesecuritycontext__general_.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 ms.date: 12/05/2018
 ms.keywords: Digest, ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_HTTP, ISC_REQ_INTEGRITY, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_NO_INTEGRITY, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (General), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, Kerberos or Negotiate, NTLM, Schannel/SSL, _ssp_initializesecuritycontext, security.initializesecuritycontext, security.initializesecuritycontext__general_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
@@ -121,7 +122,7 @@ This parameter is optional with the Microsoft Digest SSP and can be set to <b>NU
 When using the Schannel SSP, on the first call to <b>InitializeSecurityContext (General)</b>, specify <b>NULL</b>. On future calls, specify the token received in the <i>phNewContext</i> parameter after the first call to this function.
 
 
-#### - pTargetName [in, optional]
+### -param pTargetName [in, optional]
 
 A pointer to a null-terminated string that indicates the target of the context. The string contents are <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security-package</a> specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
 
@@ -689,6 +690,10 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 
 
+
+
+> [!NOTE]
+> The sspi.h header defines InitializeSecurityContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

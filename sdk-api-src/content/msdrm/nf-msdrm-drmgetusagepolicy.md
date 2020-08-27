@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMGetUsagePolicy
 title: DRMGetUsagePolicy function (msdrm.h)
-description: Gets a usage policy that requires, or denies, access to content based on application name, version, or other application characteristics.helpviewer_keywords: ["DRMGetUsagePolicy","DRMGetUsagePolicy function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUsagePolicy","rm.drmgetusagepolicy"]
+description: Gets a usage policy that requires, or denies, access to content based on application name, version, or other application characteristics.
+helpviewer_keywords: ["DRMGetUsagePolicy","DRMGetUsagePolicy function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUsagePolicy","rm.drmgetusagepolicy"]
 old-location: rm\drmgetusagepolicy.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 135ed2d0-17a9-46a2-9495-4102115f7bad
 ms.date: 12/05/2018
 ms.keywords: DRMGetUsagePolicy, DRMGetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsagePolicy, rm.drmgetusagepolicy

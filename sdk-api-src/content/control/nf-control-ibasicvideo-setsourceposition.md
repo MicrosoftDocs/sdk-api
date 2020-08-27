@@ -1,9 +1,10 @@
 ---
 UID: NF:control.IBasicVideo.SetSourcePosition
 title: IBasicVideo::SetSourcePosition (control.h)
-description: The SetSourcePosition method sets the source rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetSourcePosition method","IBasicVideo.SetSourcePosition","IBasicVideo::SetSourcePosition","IBasicVideoSetSourcePosition","SetSourcePosition","SetSourcePosition method [DirectShow]","SetSourcePosition method [DirectShow]","IBasicVideo interface","control/IBasicVideo::SetSourcePosition","dshow.ibasicvideo_setsourceposition"]
+description: The SetSourcePosition method sets the source rectangle.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetSourcePosition method","IBasicVideo.SetSourcePosition","IBasicVideo::SetSourcePosition","IBasicVideoSetSourcePosition","SetSourcePosition","SetSourcePosition method [DirectShow]","SetSourcePosition method [DirectShow]","IBasicVideo interface","control/IBasicVideo::SetSourcePosition","dshow.ibasicvideo_setsourceposition"]
 old-location: dshow\ibasicvideo_setsourceposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: afe78775-f2b0-4d10-a702-f0329fe79c6d
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition

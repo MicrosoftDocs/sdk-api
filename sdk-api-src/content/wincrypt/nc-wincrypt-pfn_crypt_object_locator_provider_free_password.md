@@ -4,7 +4,7 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD (wincrypt.h)
 description: Releases the password used to encrypt a personal information exchange (PFX) byte array.
 helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD callback function [Security]","security.pfn_crypt_object_locator_provider_free_password","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD"]
 old-location: security\pfn_crypt_object_locator_provider_free_password.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: C05D5024-9A67-4EA8-9F61-D31AF3AE8545
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD callback function [Security], security.pfn_crypt_object_locator_provider_free_password, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD

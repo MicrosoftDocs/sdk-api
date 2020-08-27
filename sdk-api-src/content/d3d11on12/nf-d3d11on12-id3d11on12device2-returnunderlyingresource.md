@@ -2,6 +2,7 @@
 UID: NF:d3d11on12.ID3D11On12Device2.ReturnUnderlyingResource
 title: ID3D11On12Device2::ReturnUnderlyingResource
 description: With this method, you can return a Direct3D 11 resource object to Direct3D11On12, and indicate when the resource will be ready to consume.
+tech.root: direct3d12
 ms.date: 01/22/2020
 targetos: Windows
 req.assembly: 

@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Description
 title: ITDirectoryObjectConference::get_Description (rend.h)
-description: The get_Description method gets the description of the conference.helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Description method","ITDirectoryObjectConference.get_Description","ITDirectoryObjectConference::get_Description","_tapi3_itdirectoryobjectconference_get_description","get_Description","get_Description method [TAPI 2.2]","get_Description method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Description","tapi3.itdirectoryobjectconference_get_description"]
+description: The get_Description method gets the description of the conference.
+helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Description method","ITDirectoryObjectConference.get_Description","ITDirectoryObjectConference::get_Description","_tapi3_itdirectoryobjectconference_get_description","get_Description","get_Description method [TAPI 2.2]","get_Description method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Description","tapi3.itdirectoryobjectconference_get_description"]
 old-location: tapi3\itdirectoryobjectconference_get_description.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f90defa9-5e70-4168-9a07-ccb520bd5a1f
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Description method, ITDirectoryObjectConference.get_Description, ITDirectoryObjectConference::get_Description, _tapi3_itdirectoryobjectconference_get_description, get_Description, get_Description method [TAPI 2.2], get_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Description, tapi3.itdirectoryobjectconference_get_description

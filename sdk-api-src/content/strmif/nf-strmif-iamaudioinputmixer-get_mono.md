@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Mono
 title: IAMAudioInputMixer::get_Mono (strmif.h)
-description: The get_Mono method queries whether all channels are combined into a mono signal.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Mono method","IAMAudioInputMixer.get_Mono","IAMAudioInputMixer::get_Mono","IAMAudioInputMixerget_Mono","dshow.iamaudioinputmixer_get_mono","get_Mono","get_Mono method [DirectShow]","get_Mono method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Mono"]
+description: The get_Mono method queries whether all channels are combined into a mono signal.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Mono method","IAMAudioInputMixer.get_Mono","IAMAudioInputMixer::get_Mono","IAMAudioInputMixerget_Mono","dshow.iamaudioinputmixer_get_mono","get_Mono","get_Mono method [DirectShow]","get_Mono method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Mono"]
 old-location: dshow\iamaudioinputmixer_get_mono.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0c0ce59d-6083-4af2-856b-41a1c9d83295
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Mono method, IAMAudioInputMixer.get_Mono, IAMAudioInputMixer::get_Mono, IAMAudioInputMixerget_Mono, dshow.iamaudioinputmixer_get_mono, get_Mono, get_Mono method [DirectShow], get_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Mono

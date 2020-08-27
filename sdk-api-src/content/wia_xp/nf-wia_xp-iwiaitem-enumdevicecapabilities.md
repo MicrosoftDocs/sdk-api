@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumDeviceCapabilities
 title: IWiaItem::EnumDeviceCapabilities (wia_xp.h)
-description: The IWiaItem::EnumDeviceCapabilities method creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) device supports.helpviewer_keywords: ["EnumDeviceCapabilities","EnumDeviceCapabilities method [WIA]","EnumDeviceCapabilities method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","EnumDeviceCapabilities method","IWiaItem.EnumDeviceCapabilities","IWiaItem::EnumDeviceCapabilities","_wia_IWiaItem_EnumDeviceCapabilities","wia._wia_IWiaItem_EnumDeviceCapabilities","wia_xp/IWiaItem::EnumDeviceCapabilities"]
+description: The IWiaItem::EnumDeviceCapabilities method creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) device supports.
+helpviewer_keywords: ["EnumDeviceCapabilities","EnumDeviceCapabilities method [WIA]","EnumDeviceCapabilities method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","EnumDeviceCapabilities method","IWiaItem.EnumDeviceCapabilities","IWiaItem::EnumDeviceCapabilities","_wia_IWiaItem_EnumDeviceCapabilities","wia._wia_IWiaItem_EnumDeviceCapabilities","wia_xp/IWiaItem::EnumDeviceCapabilities"]
 old-location: wia\_wia_IWiaItem_EnumDeviceCapabilities.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumdevicecapabilities.htm

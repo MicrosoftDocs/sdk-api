@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.MFCreateContentDecryptorContext
 title: MFCreateContentDecryptorContext function (mfidl.h)
-description: Creates an IMFContentDecryptorContext interface for the specified media protection system.helpviewer_keywords: ["MFCreateContentDecryptorContext","MFCreateContentDecryptorContext function [Media Foundation]","mf.mfcreatecontentdecryptorcontext","mfidl/MFCreateContentDecryptorContext"]
+description: Creates an IMFContentDecryptorContext interface for the specified media protection system.
+helpviewer_keywords: ["MFCreateContentDecryptorContext","MFCreateContentDecryptorContext function [Media Foundation]","mf.mfcreatecontentdecryptorcontext","mfidl/MFCreateContentDecryptorContext"]
 old-location: mf\mfcreatecontentdecryptorcontext.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext

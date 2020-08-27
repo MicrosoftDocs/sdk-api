@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetLength
 title: IMFMediaTimeRange::GetLength (mfmediaengine.h)
-description: Gets the number of time ranges contained in the object.helpviewer_keywords: ["GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","GetLength method","IMFMediaTimeRange.GetLength","IMFMediaTimeRange::GetLength","mf.imfmediatimerange_getlength","mfmediaengine/IMFMediaTimeRange::GetLength"]
+description: Gets the number of time ranges contained in the object.
+helpviewer_keywords: ["GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","GetLength method","IMFMediaTimeRange.GetLength","IMFMediaTimeRange::GetLength","mf.imfmediatimerange_getlength","mfmediaengine/IMFMediaTimeRange::GetLength"]
 old-location: mf\imfmediatimerange_getlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0865A667-A09E-4F42-A420-4A155AD34394
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetLength method, IMFMediaTimeRange.GetLength, IMFMediaTimeRange::GetLength, mf.imfmediatimerange_getlength, mfmediaengine/IMFMediaTimeRange::GetLength

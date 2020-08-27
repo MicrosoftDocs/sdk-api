@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.foundation.TimeSpan
 title: TimeSpan (windows.foundation.h)
-description: Represents a time interval.helpviewer_keywords: ["TimeSpan","TimeSpan structure [Windows Runtime]","windows/TimeSpan","winrt.timespan"]
+description: Represents a time interval.
+helpviewer_keywords: ["TimeSpan","TimeSpan structure [Windows Runtime]","windows/TimeSpan","winrt.timespan"]
 old-location: winrt\timespan.htm
 tech.root: WinRT
 ms.assetid: fbc6ecc2-6372-4b15-9532-3cd68a72e7b4
@@ -64,7 +65,7 @@ Represents a time interval.
 
 
 
-#### - Duration
+### -field Duration
 
 Type: <b>INT64</b>
 

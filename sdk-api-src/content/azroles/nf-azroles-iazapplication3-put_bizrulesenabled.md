@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplication3.put_BizRulesEnabled
 title: IAzApplication3::put_BizRulesEnabled (azroles.h)
-description: Gets or sets a value that indicates whether business rules are enabled for this application.helpviewer_keywords: ["BizRulesEnabled property [Security]","BizRulesEnabled property [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","BizRulesEnabled property","IAzApplication3.BizRulesEnabled","IAzApplication3.put_BizRulesEnabled","IAzApplication3::BizRulesEnabled","IAzApplication3::get_BizRulesEnabled","IAzApplication3::put_BizRulesEnabled","azroles/IAzApplication3::BizRulesEnabled","azroles/IAzApplication3::get_BizRulesEnabled","azroles/IAzApplication3::put_BizRulesEnabled","put_BizRulesEnabled","security.iazapplication3_bizrulesenabled"]
+description: Gets or sets a value that indicates whether business rules are enabled for this application.
+helpviewer_keywords: ["BizRulesEnabled property [Security]","BizRulesEnabled property [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","BizRulesEnabled property","IAzApplication3.BizRulesEnabled","IAzApplication3.put_BizRulesEnabled","IAzApplication3::BizRulesEnabled","IAzApplication3::get_BizRulesEnabled","IAzApplication3::put_BizRulesEnabled","azroles/IAzApplication3::BizRulesEnabled","azroles/IAzApplication3::get_BizRulesEnabled","azroles/IAzApplication3::put_BizRulesEnabled","put_BizRulesEnabled","security.iazapplication3_bizrulesenabled"]
 old-location: security\iazapplication3_bizrulesenabled.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 92303a5d-a705-4003-890e-e75886451c18
 ms.date: 12/05/2018
 ms.keywords: BizRulesEnabled property [Security], BizRulesEnabled property [Security],IAzApplication3 interface, IAzApplication3 interface [Security],BizRulesEnabled property, IAzApplication3.BizRulesEnabled, IAzApplication3.put_BizRulesEnabled, IAzApplication3::BizRulesEnabled, IAzApplication3::get_BizRulesEnabled, IAzApplication3::put_BizRulesEnabled, azroles/IAzApplication3::BizRulesEnabled, azroles/IAzApplication3::get_BizRulesEnabled, azroles/IAzApplication3::put_BizRulesEnabled, put_BizRulesEnabled, security.iazapplication3_bizrulesenabled

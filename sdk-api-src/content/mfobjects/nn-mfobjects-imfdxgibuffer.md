@@ -1,9 +1,10 @@
 ---
 UID: NN:mfobjects.IMFDXGIBuffer
 title: IMFDXGIBuffer (mfobjects.h)
-description: Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI)surface.helpviewer_keywords: ["IMFDXGIBuffer","IMFDXGIBuffer interface [Media Foundation]","IMFDXGIBuffer interface [Media Foundation]","described","mf.imfdxgibuffer","mfobjects/IMFDXGIBuffer"]
+description: Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (DXGI)surface.
+helpviewer_keywords: ["IMFDXGIBuffer","IMFDXGIBuffer interface [Media Foundation]","IMFDXGIBuffer interface [Media Foundation]","described","mf.imfdxgibuffer","mfobjects/IMFDXGIBuffer"]
 old-location: mf\imfdxgibuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 796D7755-275D-4A0B-A34F-5D34DCEC8AC7
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], IMFDXGIBuffer interface [Media Foundation],described, mf.imfdxgibuffer, mfobjects/IMFDXGIBuffer

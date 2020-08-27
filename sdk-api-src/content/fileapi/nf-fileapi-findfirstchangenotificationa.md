@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.FindFirstChangeNotificationA
 title: FindFirstChangeNotificationA function (fileapi.h)
-description: Creates a change notification handle and sets up initial change notification filter conditions.helpviewer_keywords: ["FILE_NOTIFY_CHANGE_ATTRIBUTES","FILE_NOTIFY_CHANGE_DIR_NAME","FILE_NOTIFY_CHANGE_FILE_NAME","FILE_NOTIFY_CHANGE_LAST_WRITE","FILE_NOTIFY_CHANGE_SECURITY","FILE_NOTIFY_CHANGE_SIZE","FindFirstChangeNotification","FindFirstChangeNotification function [Files]","FindFirstChangeNotificationA","FindFirstChangeNotificationW","_win32_findfirstchangenotification","base.findfirstchangenotification","fileapi/FindFirstChangeNotification","fileapi/FindFirstChangeNotificationA","fileapi/FindFirstChangeNotificationW","fs.findfirstchangenotification","winbase/FindFirstChangeNotification","winbase/FindFirstChangeNotificationA","winbase/FindFirstChangeNotificationW"]
+description: Creates a change notification handle and sets up initial change notification filter conditions.
+helpviewer_keywords: ["FILE_NOTIFY_CHANGE_ATTRIBUTES","FILE_NOTIFY_CHANGE_DIR_NAME","FILE_NOTIFY_CHANGE_FILE_NAME","FILE_NOTIFY_CHANGE_LAST_WRITE","FILE_NOTIFY_CHANGE_SECURITY","FILE_NOTIFY_CHANGE_SIZE","FindFirstChangeNotification","FindFirstChangeNotification function [Files]","FindFirstChangeNotificationA","FindFirstChangeNotificationW","_win32_findfirstchangenotification","base.findfirstchangenotification","fileapi/FindFirstChangeNotification","fileapi/FindFirstChangeNotificationA","fileapi/FindFirstChangeNotificationW","fs.findfirstchangenotification","winbase/FindFirstChangeNotification","winbase/FindFirstChangeNotificationA","winbase/FindFirstChangeNotificationW"]
 old-location: fs\findfirstchangenotification.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: dde4dd17-0f8c-41b5-8685-4e4c6b3def3c
 ms.date: 12/05/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, FindFirstChangeNotification, FindFirstChangeNotification function [Files], FindFirstChangeNotificationA, FindFirstChangeNotificationW, _win32_findfirstchangenotification, base.findfirstchangenotification, fileapi/FindFirstChangeNotification, fileapi/FindFirstChangeNotificationA, fileapi/FindFirstChangeNotificationW, fs.findfirstchangenotification, winbase/FindFirstChangeNotification, winbase/FindFirstChangeNotificationA, winbase/FindFirstChangeNotificationW
@@ -266,6 +267,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines FindFirstChangeNotification as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

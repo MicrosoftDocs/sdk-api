@@ -1,9 +1,10 @@
 ---
 UID: NN:directml.IDMLOperatorInitializer
 title: IDMLOperatorInitializer
-description: Represents a specialized object whose purpose is to initialize compiled operators. To create an instance of this object, call IDMLDevice::CreateOperatorInitializer.helpviewer_keywords: ["IDMLOperatorInitializer","IDMLOperatorInitializer interface","IDMLOperatorInitializer interface","described","direct3d12.idmloperatorinitializer","directml/IDMLOperatorInitializer"]
+description: Represents a specialized object whose purpose is to initialize compiled operators. To create an instance of this object, call IDMLDevice::CreateOperatorInitializer.
+helpviewer_keywords: ["IDMLOperatorInitializer","IDMLOperatorInitializer interface","IDMLOperatorInitializer interface","described","direct3d12.idmloperatorinitializer","directml/IDMLOperatorInitializer"]
 old-location: direct3d12\idmloperatorinitializer.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 86DB9277-ECA6-4D0C-82A5-88D7E9674AC7
 ms.date: 12/5/2018
 ms.keywords: IDMLOperatorInitializer, IDMLOperatorInitializer interface, IDMLOperatorInitializer interface,described, direct3d12.idmloperatorinitializer, directml/IDMLOperatorInitializer

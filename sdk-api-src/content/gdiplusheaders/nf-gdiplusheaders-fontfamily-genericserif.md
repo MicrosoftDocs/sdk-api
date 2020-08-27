@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericSerif
 title: FontFamily::GenericSerif (gdiplusheaders.h)
-description: The FontFamily::GenericSerif method gets a FontFamily object that represents a generic serif typeface.helpviewer_keywords: ["FontFamily class [GDI+]","GenericSerif method","FontFamily.GenericSerif","FontFamily::GenericSerif","GenericSerif","GenericSerif method [GDI+]","GenericSerif method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GenericSerif_","gdiplus._gdiplus_CLASS_FontFamily_GenericSerif_"]
+description: The FontFamily::GenericSerif method gets a FontFamily object that represents a generic serif typeface.
+helpviewer_keywords: ["FontFamily class [GDI+]","GenericSerif method","FontFamily.GenericSerif","FontFamily::GenericSerif","GenericSerif","GenericSerif method [GDI+]","GenericSerif method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GenericSerif_","gdiplus._gdiplus_CLASS_FontFamily_GenericSerif_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericSerif_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericserif.htm

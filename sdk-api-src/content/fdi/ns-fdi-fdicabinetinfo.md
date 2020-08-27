@@ -1,9 +1,10 @@
 ---
 UID: NS:fdi.__unnamed_struct_0
 title: FDICABINETINFO (fdi.h)
-description: The FDICABINETINFO structure contains details about a particular cabinet file.helpviewer_keywords: ["*PFDICABINETINFO","FDICABINETINFO","FDICABINETINFO FAR *PFDICABINETINFO","FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API]","FDICABINETINFO structure [Windows API]","fdi/FDICABINETINFO","winprog.fdicabinetinfo"]
+description: The FDICABINETINFO structure contains details about a particular cabinet file.
+helpviewer_keywords: ["*PFDICABINETINFO","FDICABINETINFO","FDICABINETINFO FAR *PFDICABINETINFO","FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API]","FDICABINETINFO structure [Windows API]","fdi/FDICABINETINFO","winprog.fdicabinetinfo"]
 old-location: winprog\fdicabinetinfo.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
 ms.date: 12/05/2018
 ms.keywords: '*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo'

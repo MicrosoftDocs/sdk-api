@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2ipdef._SOCKADDR_INET
 title: SOCKADDR_INET (ws2ipdef.h)
-description: Contains an IPv4, an IPv6 address, or an address family.helpviewer_keywords: ["*PSOCKADDR_INET","AF_INET","AF_INET6","AF_UNSPEC","PSOCKADDR_INET","PSOCKADDR_INET union pointer [IP Helper]","SOCKADDR_INET","SOCKADDR_INET union [IP Helper]","iphlp.sockaddr_inet","ws2ipdef/PSOCKADDR_INET","ws2ipdef/SOCKADDR_INET"]
+description: Contains an IPv4, an IPv6 address, or an address family.
+helpviewer_keywords: ["*PSOCKADDR_INET","AF_INET","AF_INET6","AF_UNSPEC","PSOCKADDR_INET","PSOCKADDR_INET union pointer [IP Helper]","SOCKADDR_INET","SOCKADDR_INET union [IP Helper]","iphlp.sockaddr_inet","ws2ipdef/PSOCKADDR_INET","ws2ipdef/SOCKADDR_INET"]
 old-location: iphlp\sockaddr_inet.htm
 tech.root: IpHlp
 ms.assetid: 7278dcb4-65c6-4aea-a474-cb7fae4d7672

@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement7
 title: IUIAutomationElement7 (uiautomationclient.h)
-description: Extends the IUIAutomationElement6 interface.helpviewer_keywords: ["IUIAutomationElement7","IUIAutomationElement7 interface [Windows Accessibility]","IUIAutomationElement7 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement7","winauto.uiauto_IUIAutomationElement7"]
+description: Extends the IUIAutomationElement6 interface.
+helpviewer_keywords: ["IUIAutomationElement7","IUIAutomationElement7 interface [Windows Accessibility]","IUIAutomationElement7 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement7","winauto.uiauto_IUIAutomationElement7"]
 old-location: winauto\uiauto_IUIAutomationElement7.htm
 tech.root: WinAuto
 ms.assetid: 62B3D170-C3B3-48B8-92F8-3DF02F5D4082

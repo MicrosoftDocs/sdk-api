@@ -1,9 +1,10 @@
 ---
 UID: NE:iwstdec._AM_WST_LEVEL
 title: AM_WST_LEVEL (iwstdec.h)
-description: The AM_WST_LEVEL enumeration is not supported.helpviewer_keywords: ["*PAM_WST_LEVEL","AM_WST_LEVEL","AM_WST_LEVEL","AM_WST_LEVEL enumeration [DirectShow]","AM_WST_LEVELEnumeration","AM_WST_LEVEL_1_5","PAM_WST_LEVEL","PAM_WST_LEVEL enumeration pointer [DirectShow]","dshow.am_wst_level","iwstdec/AM_WST_LEVEL","iwstdec/AM_WST_LEVEL_1_5","iwstdec/PAM_WST_LEVEL"]
+description: The AM_WST_LEVEL enumeration is not supported.
+helpviewer_keywords: ["*PAM_WST_LEVEL","AM_WST_LEVEL","AM_WST_LEVEL","AM_WST_LEVEL enumeration [DirectShow]","AM_WST_LEVELEnumeration","AM_WST_LEVEL_1_5","PAM_WST_LEVEL","PAM_WST_LEVEL enumeration pointer [DirectShow]","dshow.am_wst_level","iwstdec/AM_WST_LEVEL","iwstdec/AM_WST_LEVEL_1_5","iwstdec/PAM_WST_LEVEL"]
 old-location: dshow\am_wst_level.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e9186beb-5496-49c3-a76c-febb38b5b344
 ms.date: 12/05/2018
 ms.keywords: '*PAM_WST_LEVEL, AM_WST_LEVEL, AM_WST_LEVEL , AM_WST_LEVEL enumeration [DirectShow], AM_WST_LEVELEnumeration, AM_WST_LEVEL_1_5, PAM_WST_LEVEL, PAM_WST_LEVEL enumeration pointer [DirectShow], dshow.am_wst_level, iwstdec/AM_WST_LEVEL, iwstdec/AM_WST_LEVEL_1_5, iwstdec/PAM_WST_LEVEL'

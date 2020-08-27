@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetTheme
 title: IVisualProperties::SetTheme (shobjidl.h)
-description: Sets the specified theme.helpviewer_keywords: ["IVisualProperties interface [Windows Shell]","SetTheme method","IVisualProperties.SetTheme","IVisualProperties::SetTheme","SetTheme","SetTheme method [Windows Shell]","SetTheme method [Windows Shell]","IVisualProperties interface","_shell_IVisualProperties_SetTheme","shell.IVisualProperties_SetTheme","shobjidl/IVisualProperties::SetTheme"]
+description: Sets the specified theme.
+helpviewer_keywords: ["IVisualProperties interface [Windows Shell]","SetTheme method","IVisualProperties.SetTheme","IVisualProperties::SetTheme","SetTheme","SetTheme method [Windows Shell]","SetTheme method [Windows Shell]","IVisualProperties interface","_shell_IVisualProperties_SetTheme","shell.IVisualProperties_SetTheme","shobjidl/IVisualProperties::SetTheme"]
 old-location: shell\IVisualProperties_SetTheme.htm
 tech.root: shell
 ms.assetid: 0be91bde-ef05-4d64-9f94-91b9020586cb

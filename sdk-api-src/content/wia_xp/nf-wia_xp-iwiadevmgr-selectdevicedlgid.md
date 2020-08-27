@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.SelectDeviceDlgID
 title: IWiaDevMgr::SelectDeviceDlgID (wia_xp.h)
-description: The IWiaDevMgr::SelectDeviceDlgID method displays a dialog box that enables the user to select a hardware device for image acquisition.helpviewer_keywords: ["IWiaDevMgr interface [WIA]","SelectDeviceDlgID method","IWiaDevMgr.SelectDeviceDlgID","IWiaDevMgr::SelectDeviceDlgID","SelectDeviceDlgID","SelectDeviceDlgID method [WIA]","SelectDeviceDlgID method [WIA]","IWiaDevMgr interface","_wia_IWiaDevMgr_SelectDeviceDlgID","wia._wia_IWiaDevMgr_SelectDeviceDlgID","wia_xp/IWiaDevMgr::SelectDeviceDlgID"]
+description: The IWiaDevMgr::SelectDeviceDlgID method displays a dialog box that enables the user to select a hardware device for image acquisition.
+helpviewer_keywords: ["IWiaDevMgr interface [WIA]","SelectDeviceDlgID method","IWiaDevMgr.SelectDeviceDlgID","IWiaDevMgr::SelectDeviceDlgID","SelectDeviceDlgID","SelectDeviceDlgID method [WIA]","SelectDeviceDlgID method [WIA]","IWiaDevMgr interface","_wia_IWiaDevMgr_SelectDeviceDlgID","wia._wia_IWiaDevMgr_SelectDeviceDlgID","wia_xp/IWiaDevMgr::SelectDeviceDlgID"]
 old-location: wia\_wia_IWiaDevMgr_SelectDeviceDlgID.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlgid.htm

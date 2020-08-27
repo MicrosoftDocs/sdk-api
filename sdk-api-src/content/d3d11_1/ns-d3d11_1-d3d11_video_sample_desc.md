@@ -1,9 +1,10 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_SAMPLE_DESC
 title: D3D11_VIDEO_SAMPLE_DESC (d3d11_1.h)
-description: Describes a video sample.helpviewer_keywords: ["D3D11_VIDEO_SAMPLE_DESC","D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation]","d3d11_1/D3D11_VIDEO_SAMPLE_DESC","mf.d3d11_video_sample_desc"]
+description: Describes a video sample.
+helpviewer_keywords: ["D3D11_VIDEO_SAMPLE_DESC","D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation]","d3d11_1/D3D11_VIDEO_SAMPLE_DESC","mf.d3d11_video_sample_desc"]
 old-location: mf\d3d11_video_sample_desc.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3B6BF76A-6566-4C58-AD26-5B13E6D040CA
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_SAMPLE_DESC, D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation], d3d11_1/D3D11_VIDEO_SAMPLE_DESC, mf.d3d11_video_sample_desc

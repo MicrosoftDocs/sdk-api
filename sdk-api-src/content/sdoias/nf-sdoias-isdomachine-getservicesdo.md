@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetServiceSDO
 title: ISdoMachine::GetServiceSDO (sdoias.h)
-description: The GetServiceSDO method retrieves a Server Data Object (SDO) for the specified service.helpviewer_keywords: ["IAS","RemoteAccess","GetServiceSDO","GetServiceSDO method [Network Policy Server]","GetServiceSDO method [Network Policy Server]","ISdoMachine interface","GetServiceSDO method [Network Policy Server]","SdoMachine object","ISdoMachine interface [Network Policy Server]","GetServiceSDO method","ISdoMachine.GetServiceSDO","ISdoMachine::GetServiceSDO","SdoMachine object [Network Policy Server]","GetServiceSDO method","_sdo_isdomachine_getservicesdo","nps.SDO_isdomachine_getservicesdo","sdo.isdomachine_getservicesdo","sdoias/ISdoMachine::GetServiceSDO"]
+description: The GetServiceSDO method retrieves a Server Data Object (SDO) for the specified service.
+helpviewer_keywords: ["IAS","RemoteAccess","GetServiceSDO","GetServiceSDO method [Network Policy Server]","GetServiceSDO method [Network Policy Server]","ISdoMachine interface","GetServiceSDO method [Network Policy Server]","SdoMachine object","ISdoMachine interface [Network Policy Server]","GetServiceSDO method","ISdoMachine.GetServiceSDO","ISdoMachine::GetServiceSDO","SdoMachine object [Network Policy Server]","GetServiceSDO method","_sdo_isdomachine_getservicesdo","nps.SDO_isdomachine_getservicesdo","sdo.isdomachine_getservicesdo","sdoias/ISdoMachine::GetServiceSDO"]
 old-location: nps\SDO_isdomachine_getservicesdo.htm
 tech.root: Nps
 ms.assetid: 265f034a-78be-4792-958e-80ad7a71d1a7

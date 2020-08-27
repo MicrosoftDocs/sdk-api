@@ -1,9 +1,10 @@
 ---
 UID: NF:memoryapi.UnregisterBadMemoryNotification
 title: UnregisterBadMemoryNotification function (memoryapi.h)
-description: Closes the specified bad memory notification handle.helpviewer_keywords: ["UnregisterBadMemoryNotification","UnregisterBadMemoryNotification function","base.unregisterbadmemorynotification","winbase/UnregisterBadMemoryNotification"]
+description: Closes the specified bad memory notification handle.
+helpviewer_keywords: ["UnregisterBadMemoryNotification","UnregisterBadMemoryNotification function","base.unregisterbadmemorynotification","winbase/UnregisterBadMemoryNotification"]
 old-location: base\unregisterbadmemorynotification.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 8c1246fe-341a-4b21-922d-ec8a9c82a6df
 ms.date: 12/05/2018
 ms.keywords: UnregisterBadMemoryNotification, UnregisterBadMemoryNotification function, base.unregisterbadmemorynotification, winbase/UnregisterBadMemoryNotification

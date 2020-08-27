@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.BeginContainer(IN const RectF &,IN const RectF &,IN Unit)
+UID: NF:gdiplusgraphics.Graphics.BeginContainer(INconstRectF&,INconstRectF&,INUnit)
 title: Graphics::BeginContainer (gdiplusgraphics.h)
-description: The Graphics::BeginContainer method begins a new graphics container.helpviewer_keywords: ["BeginContainer","BeginContainer method [GDI+]","BeginContainer method [GDI+]","Graphics class","Graphics class [GDI+]","BeginContainer method","Graphics.BeginContainer","Graphics.BeginContainer()","Graphics::BeginContainer","_gdiplus_CLASS_Graphics_BeginContainer_","gdiplus._gdiplus_CLASS_Graphics_BeginContainer_"]
+description: The Graphics::BeginContainer method begins a new graphics container.
+helpviewer_keywords: ["BeginContainer","BeginContainer method [GDI+]","BeginContainer method [GDI+]","Graphics class","Graphics class [GDI+]","BeginContainer method","Graphics.BeginContainer","Graphics.BeginContainer()","Graphics::BeginContainer","_gdiplus_CLASS_Graphics_BeginContainer_","gdiplus._gdiplus_CLASS_Graphics_BeginContainer_"]
 old-location: 
 tech.root: gdiplus
 ms.assetid: b8b956a7-98dd-41b9-bd1e-2391985613c1

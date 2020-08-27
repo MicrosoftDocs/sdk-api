@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddAppNonMember
 title: IAzApplicationGroup::AddAppNonMember (azroles.h)
-description: Adds the specified IAzApplicationGroup object to the list of application groups that are refused membership in this application group.helpviewer_keywords: ["AddAppNonMember","AddAppNonMember method [Security]","AddAppNonMember method [Security]","AzApplicationGroup object","AddAppNonMember method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddAppNonMember method","IAzApplicationGroup interface [Security]","AddAppNonMember method","IAzApplicationGroup.AddAppNonMember","IAzApplicationGroup::AddAppNonMember","azroles/IAzApplicationGroup::AddAppNonMember","security.iazapplicationgroup_addappnonmember"]
+description: Adds the specified IAzApplicationGroup object to the list of application groups that are refused membership in this application group.
+helpviewer_keywords: ["AddAppNonMember","AddAppNonMember method [Security]","AddAppNonMember method [Security]","AzApplicationGroup object","AddAppNonMember method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddAppNonMember method","IAzApplicationGroup interface [Security]","AddAppNonMember method","IAzApplicationGroup.AddAppNonMember","IAzApplicationGroup::AddAppNonMember","azroles/IAzApplicationGroup::AddAppNonMember","security.iazapplicationgroup_addappnonmember"]
 old-location: security\iazapplicationgroup_addappnonmember.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 31b8538f-afe1-4fd3-bf6f-6f3f0641fc2a
 ms.date: 12/05/2018
 ms.keywords: AddAppNonMember, AddAppNonMember method [Security], AddAppNonMember method [Security],AzApplicationGroup object, AddAppNonMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddAppNonMember method, IAzApplicationGroup interface [Security],AddAppNonMember method, IAzApplicationGroup.AddAppNonMember, IAzApplicationGroup::AddAppNonMember, azroles/IAzApplicationGroup::AddAppNonMember, security.iazapplicationgroup_addappnonmember

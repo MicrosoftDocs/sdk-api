@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ICoreFragment.GetRangeCount
 title: ICoreFragment::GetRangeCount (winsync.h)
-description: Gets the number of ranges that are contained in this knowledge fragment.helpviewer_keywords: ["GetRangeCount","GetRangeCount method [Windows Sync]","GetRangeCount method [Windows Sync]","ICoreFragment interface","ICoreFragment interface [Windows Sync]","GetRangeCount method","ICoreFragment.GetRangeCount","ICoreFragment::GetRangeCount","winsync.icorefragment_getrangecount","winsync/ICoreFragment::GetRangeCount"]
+description: Gets the number of ranges that are contained in this knowledge fragment.
+helpviewer_keywords: ["GetRangeCount","GetRangeCount method [Windows Sync]","GetRangeCount method [Windows Sync]","ICoreFragment interface","ICoreFragment interface [Windows Sync]","GetRangeCount method","ICoreFragment.GetRangeCount","ICoreFragment::GetRangeCount","winsync.icorefragment_getrangecount","winsync/ICoreFragment::GetRangeCount"]
 old-location: winsync\icorefragment_getrangecount.htm
 tech.root: winsync
 ms.assetid: 8eb33224-f017-4f3b-bbf9-14d388d0868f

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Pause
 title: IMFPMediaPlayer::Pause (mfplay.h)
-description: Pauses playback.helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","Pause method","IMFPMediaPlayer.Pause","IMFPMediaPlayer::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_pause","mfplay/IMFPMediaPlayer::Pause"]
+description: Pauses playback.
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","Pause method","IMFPMediaPlayer.Pause","IMFPMediaPlayer::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_pause","mfplay/IMFPMediaPlayer::Pause"]
 old-location: mf\imfpmediaplayer_pause.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f6bf6896-6ed6-4135-a01d-f875bfdc72f4
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Pause method, IMFPMediaPlayer.Pause, IMFPMediaPlayer::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_pause, mfplay/IMFPMediaPlayer::Pause

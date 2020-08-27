@@ -1,9 +1,10 @@
 ---
 UID: NF:directml.IDMLDispatchable.GetBindingProperties
 title: IDMLDispatchable::GetBindingProperties
-description: Retrieves the binding properties for a dispatchable object (an operator initializer, or a compiled operator).helpviewer_keywords: ["GetBindingProperties","GetBindingProperties method","GetBindingProperties method","IDMLDispatchable interface","IDMLDispatchable interface","GetBindingProperties method","IDMLDispatchable.GetBindingProperties","IDMLDispatchable::GetBindingProperties","direct3d12.idmldispatchable_getbindingproperties","directml/IDMLDispatchable::GetBindingProperties"]
+description: Retrieves the binding properties for a dispatchable object (an operator initializer, or a compiled operator).
+helpviewer_keywords: ["GetBindingProperties","GetBindingProperties method","GetBindingProperties method","IDMLDispatchable interface","IDMLDispatchable interface","GetBindingProperties method","IDMLDispatchable.GetBindingProperties","IDMLDispatchable::GetBindingProperties","direct3d12.idmldispatchable_getbindingproperties","directml/IDMLDispatchable::GetBindingProperties"]
 old-location: direct3d12\idmldispatchable_getbindingproperties.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 537C84C0-55BD-494D-812A-728D73B93061
 ms.date: 12/5/2018
 ms.keywords: GetBindingProperties, GetBindingProperties method, GetBindingProperties method,IDMLDispatchable interface, IDMLDispatchable interface,GetBindingProperties method, IDMLDispatchable.GetBindingProperties, IDMLDispatchable::GetBindingProperties, direct3d12.idmldispatchable_getbindingproperties, directml/IDMLDispatchable::GetBindingProperties

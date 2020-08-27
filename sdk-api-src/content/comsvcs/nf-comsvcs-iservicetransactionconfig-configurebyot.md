@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfig.ConfigureBYOT
 title: IServiceTransactionConfig::ConfigureBYOT (comsvcs.h)
-description: Enables you to configure the transaction that you use when you bring your own transaction.helpviewer_keywords: ["ConfigureBYOT","ConfigureBYOT method [COM+]","ConfigureBYOT method [COM+]","IServiceTransactionConfig interface","IServiceTransactionConfig interface [COM+]","ConfigureBYOT method","IServiceTransactionConfig.ConfigureBYOT","IServiceTransactionConfig::ConfigureBYOT","_cos_IServiceTransactionConfig_ConfigureBYOT","comsvcs/IServiceTransactionConfig::ConfigureBYOT","cos.iservicetransactionconfig_configurebyot"]
+description: Enables you to configure the transaction that you use when you bring your own transaction.
+helpviewer_keywords: ["ConfigureBYOT","ConfigureBYOT method [COM+]","ConfigureBYOT method [COM+]","IServiceTransactionConfig interface","IServiceTransactionConfig interface [COM+]","ConfigureBYOT method","IServiceTransactionConfig.ConfigureBYOT","IServiceTransactionConfig::ConfigureBYOT","_cos_IServiceTransactionConfig_ConfigureBYOT","comsvcs/IServiceTransactionConfig::ConfigureBYOT","cos.iservicetransactionconfig_configurebyot"]
 old-location: cos\iservicetransactionconfig_configurebyot.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: be4fa727-962e-4254-8615-58f6ced15fc3
 ms.date: 12/05/2018
 ms.keywords: ConfigureBYOT, ConfigureBYOT method [COM+], ConfigureBYOT method [COM+],IServiceTransactionConfig interface, IServiceTransactionConfig interface [COM+],ConfigureBYOT method, IServiceTransactionConfig.ConfigureBYOT, IServiceTransactionConfig::ConfigureBYOT, _cos_IServiceTransactionConfig_ConfigureBYOT, comsvcs/IServiceTransactionConfig::ConfigureBYOT, cos.iservicetransactionconfig_configurebyot

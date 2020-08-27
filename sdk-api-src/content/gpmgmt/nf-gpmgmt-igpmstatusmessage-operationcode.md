@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.OperationCode
 title: IGPMStatusMessage::OperationCode (gpmgmt.h)
-description: Returns a code related to the GPMC operation.helpviewer_keywords: ["GPMStatusMessage class [GPMC]","OperationCode method","IGPMStatusMessage interface [GPMC]","OperationCode method","IGPMStatusMessage.OperationCode","IGPMStatusMessage::OperationCode","OperationCode","OperationCode method [GPMC]","OperationCode method [GPMC]","GPMStatusMessage class","OperationCode method [GPMC]","IGPMStatusMessage interface","_win32_igpmstatusmessage_operationcode","gpmc.igpmstatusmessage_operationcode","gpmgmt/IGPMStatusMessage::OperationCode"]
+description: Returns a code related to the GPMC operation.
+helpviewer_keywords: ["GPMStatusMessage class [GPMC]","OperationCode method","IGPMStatusMessage interface [GPMC]","OperationCode method","IGPMStatusMessage.OperationCode","IGPMStatusMessage::OperationCode","OperationCode","OperationCode method [GPMC]","OperationCode method [GPMC]","GPMStatusMessage class","OperationCode method [GPMC]","IGPMStatusMessage interface","_win32_igpmstatusmessage_operationcode","gpmc.igpmstatusmessage_operationcode","gpmgmt/IGPMStatusMessage::OperationCode"]
 old-location: gpmc\igpmstatusmessage_operationcode.htm
 tech.root: gpmc
 ms.assetid: f99dc90a-fabe-40fb-8289-36501a68b11d

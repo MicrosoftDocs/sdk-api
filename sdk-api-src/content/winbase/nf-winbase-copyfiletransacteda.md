@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.CopyFileTransactedA
 title: CopyFileTransactedA function (winbase.h)
-description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.helpviewer_keywords: ["COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileTransacted","CopyFileTransacted function [Files]","CopyFileTransactedA","CopyFileTransactedW","fs.copyfiletransacted","winbase/CopyFileTransacted","winbase/CopyFileTransactedA","winbase/CopyFileTransactedW"]
+description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
+helpviewer_keywords: ["COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileTransacted","CopyFileTransacted function [Files]","CopyFileTransactedA","CopyFileTransactedW","fs.copyfiletransacted","winbase/CopyFileTransacted","winbase/CopyFileTransactedA","winbase/CopyFileTransactedW"]
 old-location: fs\copyfiletransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileTransacted, CopyFileTransacted function [Files], CopyFileTransactedA, CopyFileTransactedW, fs.copyfiletransacted, winbase/CopyFileTransacted, winbase/CopyFileTransactedA, winbase/CopyFileTransactedW
@@ -318,6 +319,10 @@ Note that SMB 3.0 does not support TxF.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CopyFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:vds.IVdsVolume.Shrink
 title: IVdsVolume::Shrink (vds.h)
-description: Reduces the size of the volume and all plexes, and returns the released extents to free space.helpviewer_keywords: ["IVdsVolume interface [VDS]","Shrink method","IVdsVolume.Shrink","IVdsVolume::Shrink","Shrink","Shrink method [VDS]","Shrink method [VDS]","IVdsVolume interface","base.ivdsvolume_shrink","vds/IVdsVolume::Shrink"]
+description: Reduces the size of the volume and all plexes, and returns the released extents to free space.
+helpviewer_keywords: ["IVdsVolume interface [VDS]","Shrink method","IVdsVolume.Shrink","IVdsVolume::Shrink","Shrink","Shrink method [VDS]","Shrink method [VDS]","IVdsVolume interface","base.ivdsvolume_shrink","vds/IVdsVolume::Shrink"]
 old-location: base\ivdsvolume_shrink.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],Shrink method, IVdsVolume.Shrink, IVdsVolume::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsVolume interface, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink

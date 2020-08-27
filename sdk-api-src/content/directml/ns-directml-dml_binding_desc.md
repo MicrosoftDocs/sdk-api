@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_BINDING_DESC
 title: DML_BINDING_DESC
-description: Contains the description of a binding so that you can add it to the binding table via a call to one of the IDMLBindingTable methods.helpviewer_keywords: ["DML_BINDING_DESC","DML_BINDING_DESC structure","direct3d12.dml_binding_desc","directml/DML_BINDING_DESC"]
+description: Contains the description of a binding so that you can add it to the binding table via a call to one of the IDMLBindingTable methods.
+helpviewer_keywords: ["DML_BINDING_DESC","DML_BINDING_DESC structure","direct3d12.dml_binding_desc","directml/DML_BINDING_DESC"]
 old-location: direct3d12\dml_binding_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 80362AF6-148B-4C2E-8210-BC559BF58D12
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_DESC, DML_BINDING_DESC structure, direct3d12.dml_binding_desc, directml/DML_BINDING_DESC

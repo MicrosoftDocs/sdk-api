@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPClosedCaption2
 title: IWMPClosedCaption2 (wmp.h)
-description: The IWMPClosedCaption2 interface provides closed captioning methods that supplement the IWMPClosedCaption interface.helpviewer_keywords: ["IWMPClosedCaption2","IWMPClosedCaption2 interface [Windows Media Player]","IWMPClosedCaption2 interface [Windows Media Player]","described","IWMPClosedCaption2Interface","wmp.iwmpclosedcaption2","wmp/IWMPClosedCaption2"]
+description: The IWMPClosedCaption2 interface provides closed captioning methods that supplement the IWMPClosedCaption interface.
+helpviewer_keywords: ["IWMPClosedCaption2","IWMPClosedCaption2 interface [Windows Media Player]","IWMPClosedCaption2 interface [Windows Media Player]","described","IWMPClosedCaption2Interface","wmp.iwmpclosedcaption2","wmp/IWMPClosedCaption2"]
 old-location: wmp\iwmpclosedcaption2.htm
 tech.root: WMP
 ms.assetid: 21067ac1-d29e-4f1b-b123-34b24929369a

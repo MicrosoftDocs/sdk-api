@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliAuthorizeSession
 title: WdsCliAuthorizeSession function (wdsclientapi.h)
-description: Converts a session with a WDS server into an authenticated session.helpviewer_keywords: ["WdsCliAuthorizeSession","WdsCliAuthorizeSession function [Windows Deployment Services]","wds.wdscliauthorizesession","wdsclientapi/WdsCliAuthorizeSession"]
+description: Converts a session with a WDS server into an authenticated session.
+helpviewer_keywords: ["WdsCliAuthorizeSession","WdsCliAuthorizeSession function [Windows Deployment Services]","wds.wdscliauthorizesession","wdsclientapi/WdsCliAuthorizeSession"]
 old-location: wds\wdscliauthorizesession.htm
 tech.root: wds
 ms.assetid: 88e95fa8-1a83-4ef9-b486-c8086cb08116

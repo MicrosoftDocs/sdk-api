@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsClosed
 title: IXpsOMGeometryFigure::GetIsClosed (xpsobjectmodel.h)
-description: Gets a value that indicates whether the figure is closed.helpviewer_keywords: ["FALSE","GetIsClosed","GetIsClosed method [XPS Documents and Packaging]","GetIsClosed method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetIsClosed method","IXpsOMGeometryFigure.GetIsClosed","IXpsOMGeometryFigure::GetIsClosed","TRUE","xps.ixpsomgeometryfigure_getisclosed","xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed"]
+description: Gets a value that indicates whether the figure is closed.
+helpviewer_keywords: ["FALSE","GetIsClosed","GetIsClosed method [XPS Documents and Packaging]","GetIsClosed method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetIsClosed method","IXpsOMGeometryFigure.GetIsClosed","IXpsOMGeometryFigure::GetIsClosed","TRUE","xps.ixpsomgeometryfigure_getisclosed","xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed"]
 old-location: xps\ixpsomgeometryfigure_getisclosed.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f7ab38b8-b378-4804-9d07-4644161b1450
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsClosed, GetIsClosed method [XPS Documents and Packaging], GetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsClosed method, IXpsOMGeometryFigure.GetIsClosed, IXpsOMGeometryFigure::GetIsClosed, TRUE, xps.ixpsomgeometryfigure_getisclosed, xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed

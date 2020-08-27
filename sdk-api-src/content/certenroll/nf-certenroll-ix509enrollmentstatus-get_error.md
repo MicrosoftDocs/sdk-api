@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Error
 title: IX509EnrollmentStatus::get_Error (certenroll.h)
-description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.helpviewer_keywords: ["Error property [Security]","Error property [Security]","IX509EnrollmentStatus interface","IX509EnrollmentStatus interface [Security]","Error property","IX509EnrollmentStatus.Error","IX509EnrollmentStatus.get_Error","IX509EnrollmentStatus::Error","IX509EnrollmentStatus::get_Error","IX509EnrollmentStatus::put_Error","certenroll/IX509EnrollmentStatus::Error","certenroll/IX509EnrollmentStatus::get_Error","certenroll/IX509EnrollmentStatus::put_Error","get_Error","security.ix509enrollmentstatus_error_property"]
+description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
+helpviewer_keywords: ["Error property [Security]","Error property [Security]","IX509EnrollmentStatus interface","IX509EnrollmentStatus interface [Security]","Error property","IX509EnrollmentStatus.Error","IX509EnrollmentStatus.get_Error","IX509EnrollmentStatus::Error","IX509EnrollmentStatus::get_Error","IX509EnrollmentStatus::put_Error","certenroll/IX509EnrollmentStatus::Error","certenroll/IX509EnrollmentStatus::get_Error","certenroll/IX509EnrollmentStatus::put_Error","get_Error","security.ix509enrollmentstatus_error_property"]
 old-location: security\ix509enrollmentstatus_error_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 397ed934-5ec8-4653-ada4-e966f68cbbf2
 ms.date: 12/05/2018
 ms.keywords: Error property [Security], Error property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Error property, IX509EnrollmentStatus.Error, IX509EnrollmentStatus.get_Error, IX509EnrollmentStatus::Error, IX509EnrollmentStatus::get_Error, IX509EnrollmentStatus::put_Error, certenroll/IX509EnrollmentStatus::Error, certenroll/IX509EnrollmentStatus::get_Error, certenroll/IX509EnrollmentStatus::put_Error, get_Error, security.ix509enrollmentstatus_error_property

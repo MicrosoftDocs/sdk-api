@@ -1,9 +1,10 @@
 ---
 UID: NS:schannel._SCHANNEL_SESSION_TOKEN
 title: SCHANNEL_SESSION_TOKEN (schannel.h)
-description: Specifies whether reconnections are enabled for an authentication session created by calling either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.helpviewer_keywords: ["PSCHANNEL_SESSION_TOKEN","PSCHANNEL_SESSION_TOKEN structure pointer [Security]","SCHANNEL_SESSION_TOKEN","SCHANNEL_SESSION_TOKEN structure [Security]","SSL_SESSION_DISABLE_RECONNECTS","SSL_SESSION_ENABLE_RECONNECTS","schannel/PSCHANNEL_SESSION_TOKEN","schannel/SCHANNEL_SESSION_TOKEN","security.schannel_session_token"]
+description: Specifies whether reconnections are enabled for an authentication session created by calling either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
+helpviewer_keywords: ["PSCHANNEL_SESSION_TOKEN","PSCHANNEL_SESSION_TOKEN structure pointer [Security]","SCHANNEL_SESSION_TOKEN","SCHANNEL_SESSION_TOKEN structure [Security]","SSL_SESSION_DISABLE_RECONNECTS","SSL_SESSION_ENABLE_RECONNECTS","schannel/PSCHANNEL_SESSION_TOKEN","schannel/SCHANNEL_SESSION_TOKEN","security.schannel_session_token"]
 old-location: security\schannel_session_token.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3c8f5380-eead-4495-8dff-a9561a787930
 ms.date: 12/05/2018
 ms.keywords: PSCHANNEL_SESSION_TOKEN, PSCHANNEL_SESSION_TOKEN structure pointer [Security], SCHANNEL_SESSION_TOKEN, SCHANNEL_SESSION_TOKEN structure [Security], SSL_SESSION_DISABLE_RECONNECTS, SSL_SESSION_ENABLE_RECONNECTS, schannel/PSCHANNEL_SESSION_TOKEN, schannel/SCHANNEL_SESSION_TOKEN, security.schannel_session_token

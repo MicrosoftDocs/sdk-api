@@ -1,9 +1,10 @@
 ---
 UID: NF:fibersapi.IsThreadAFiber
 title: IsThreadAFiber function
-description: Determines whether the current thread is a fiber.helpviewer_keywords: ["IsThreadAFiber","IsThreadAFiber function","base.isthreadafiber","fibersapi/IsThreadAFiber","winbase/IsThreadAFiber"]
+description: Determines whether the current thread is a fiber.
+helpviewer_keywords: ["IsThreadAFiber","IsThreadAFiber function","base.isthreadafiber","fibersapi/IsThreadAFiber","winbase/IsThreadAFiber"]
 old-location: base\isthreadafiber.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 0d591343-84eb-410d-815b-b42850d3f2e1
 ms.date: 12/05/2018
 ms.keywords: IsThreadAFiber, IsThreadAFiber function, base.isthreadafiber, fibersapi/IsThreadAFiber, winbase/IsThreadAFiber

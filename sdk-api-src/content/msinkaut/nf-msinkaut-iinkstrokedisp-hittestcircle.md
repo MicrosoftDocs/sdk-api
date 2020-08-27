@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.HitTestCircle
 title: IInkStrokeDisp::HitTestCircle (msinkaut.h)
-description: Determines whether a stroke is either completely inside or intersected by a given circle.helpviewer_keywords: ["HitTestCircle","HitTestCircle method [Tablet PC]","HitTestCircle method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","HitTestCircle method","IInkStrokeDisp.HitTestCircle","IInkStrokeDisp::HitTestCircle","b87a1bc0-b17b-419b-947e-48746f4903e8","msinkaut/IInkStrokeDisp::HitTestCircle","tablet.iinkstrokedisp_hittestcircle"]
+description: Determines whether a stroke is either completely inside or intersected by a given circle.
+helpviewer_keywords: ["HitTestCircle","HitTestCircle method [Tablet PC]","HitTestCircle method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","HitTestCircle method","IInkStrokeDisp.HitTestCircle","IInkStrokeDisp::HitTestCircle","b87a1bc0-b17b-419b-947e-48746f4903e8","msinkaut/IInkStrokeDisp::HitTestCircle","tablet.iinkstrokedisp_hittestcircle"]
 old-location: tablet\iinkstrokedisp_hittestcircle.htm
 tech.root: tablet
 ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8

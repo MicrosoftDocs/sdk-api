@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFRemovePeriodicCallback
 title: MFRemovePeriodicCallback function (mfapi.h)
-description: Cancels a callback function that was set by the MFAddPeriodicCallback function.helpviewer_keywords: ["MFRemovePeriodicCallback","MFRemovePeriodicCallback function [Media Foundation]","e70cdad3-c330-4368-8ef8-d616157b5e72","mf.mfremoveperiodiccallback","mfapi/MFRemovePeriodicCallback"]
+description: Cancels a callback function that was set by the MFAddPeriodicCallback function.
+helpviewer_keywords: ["MFRemovePeriodicCallback","MFRemovePeriodicCallback function [Media Foundation]","e70cdad3-c330-4368-8ef8-d616157b5e72","mf.mfremoveperiodiccallback","mfapi/MFRemovePeriodicCallback"]
 old-location: mf\mfremoveperiodiccallback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e70cdad3-c330-4368-8ef8-d616157b5e72
 ms.date: 12/05/2018
 ms.keywords: MFRemovePeriodicCallback, MFRemovePeriodicCallback function [Media Foundation], e70cdad3-c330-4368-8ef8-d616157b5e72, mf.mfremoveperiodiccallback, mfapi/MFRemovePeriodicCallback

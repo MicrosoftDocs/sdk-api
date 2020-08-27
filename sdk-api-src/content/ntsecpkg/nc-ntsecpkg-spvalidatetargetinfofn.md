@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpValidateTargetInfoFn
 title: SpValidateTargetInfoFn (ntsecpkg.h)
-description: Validates that the specified SECPKG_TARGETINFO structure represents a valid target.helpviewer_keywords: ["SpValidateTargetInfoFn","SpValidateTargetInfoFn callback","SpValidateTargetInfoFn callback function [Security]","ntsecpkg/SpValidateTargetInfoFn","security.spvalidatetargetinfofn"]
+description: Validates that the specified SECPKG_TARGETINFO structure represents a valid target.
+helpviewer_keywords: ["SpValidateTargetInfoFn","SpValidateTargetInfoFn callback","SpValidateTargetInfoFn callback function [Security]","ntsecpkg/SpValidateTargetInfoFn","security.spvalidatetargetinfofn"]
 old-location: security\spvalidatetargetinfofn.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 01d1b74a-14d9-40cd-bcca-a031f5fc9cbb
 ms.date: 12/05/2018
 ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn callback, SpValidateTargetInfoFn callback function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn

@@ -1,9 +1,10 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SignalEvent
 title: IWSDDeviceHost::SignalEvent (wsdhost.h)
-description: Notifies all subscribed clients that an event has occurred.helpviewer_keywords: ["IWSDDeviceHost interface","SignalEvent method","IWSDDeviceHost.SignalEvent","IWSDDeviceHost::SignalEvent","SignalEvent","SignalEvent method","SignalEvent method","IWSDDeviceHost interface","ncd.iwsddevicehost_signalevent_method","wsdhost/IWSDDeviceHost::SignalEvent"]
+description: Notifies all subscribed clients that an event has occurred.
+helpviewer_keywords: ["IWSDDeviceHost interface","SignalEvent method","IWSDDeviceHost.SignalEvent","IWSDDeviceHost::SignalEvent","SignalEvent","SignalEvent method","SignalEvent method","IWSDDeviceHost interface","ncd.iwsddevicehost_signalevent_method","wsdhost/IWSDDeviceHost::SignalEvent"]
 old-location: ncd\iwsddevicehost_signalevent_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: c4cba7f0-6f08-43d7-b255-d3dfb1b5287d
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalEvent, IWSDDeviceHost::SignalEvent, SignalEvent, SignalEvent method, SignalEvent method,IWSDDeviceHost interface, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent

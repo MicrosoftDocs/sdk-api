@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupQueryInfFileInformationA
 title: SetupQueryInfFileInformationA function (setupapi.h)
-description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer.helpviewer_keywords: ["SetupQueryInfFileInformation","SetupQueryInfFileInformation function [Setup API]","SetupQueryInfFileInformationA","SetupQueryInfFileInformationW","_setupapi_setupqueryinffileinformation","setup.setupqueryinffileinformation","setupapi/SetupQueryInfFileInformation","setupapi/SetupQueryInfFileInformationA","setupapi/SetupQueryInfFileInformationW"]
+description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer.
+helpviewer_keywords: ["SetupQueryInfFileInformation","SetupQueryInfFileInformation function [Setup API]","SetupQueryInfFileInformationA","SetupQueryInfFileInformationW","_setupapi_setupqueryinffileinformation","setup.setupqueryinffileinformation","setupapi/SetupQueryInfFileInformation","setupapi/SetupQueryInfFileInformationA","setupapi/SetupQueryInfFileInformationW"]
 old-location: setup\setupqueryinffileinformation.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 36f1824d-f71e-462a-a233-0240e76de3d2
 ms.date: 12/05/2018
 ms.keywords: SetupQueryInfFileInformation, SetupQueryInfFileInformation function [Setup API], SetupQueryInfFileInformationA, SetupQueryInfFileInformationW, _setupapi_setupqueryinffileinformation, setup.setupqueryinffileinformation, setupapi/SetupQueryInfFileInformation, setupapi/SetupQueryInfFileInformationA, setupapi/SetupQueryInfFileInformationW
@@ -112,6 +113,10 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupQueryInfFileInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

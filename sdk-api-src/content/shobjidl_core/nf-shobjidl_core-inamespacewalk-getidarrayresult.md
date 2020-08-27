@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.GetIDArrayResult
 title: INamespaceWalk::GetIDArrayResult (shobjidl_core.h)
-description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.helpviewer_keywords: ["GetIDArrayResult","GetIDArrayResult method [Windows Shell]","GetIDArrayResult method [Windows Shell]","INamespaceWalk interface","INamespaceWalk interface [Windows Shell]","GetIDArrayResult method","INamespaceWalk.GetIDArrayResult","INamespaceWalk::GetIDArrayResult","_win32_INamespaceWalk_GetIDArrayResult","shell.INamespaceWalk_GetIDArrayResult","shobjidl_core/INamespaceWalk::GetIDArrayResult"]
+description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.
+helpviewer_keywords: ["GetIDArrayResult","GetIDArrayResult method [Windows Shell]","GetIDArrayResult method [Windows Shell]","INamespaceWalk interface","INamespaceWalk interface [Windows Shell]","GetIDArrayResult method","INamespaceWalk.GetIDArrayResult","INamespaceWalk::GetIDArrayResult","_win32_INamespaceWalk_GetIDArrayResult","shell.INamespaceWalk_GetIDArrayResult","shobjidl_core/INamespaceWalk::GetIDArrayResult"]
 old-location: shell\INamespaceWalk_GetIDArrayResult.htm
 tech.root: shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3

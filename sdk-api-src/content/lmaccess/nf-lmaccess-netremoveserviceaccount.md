@@ -1,9 +1,10 @@
 ---
 UID: NF:lmaccess.NetRemoveServiceAccount
 title: NetRemoveServiceAccount function (lmaccess.h)
-description: Deletes the specified service account from the Active Directory database if the account is a standalone managed service account (sMSA).helpviewer_keywords: ["NetRemoveServiceAccount","NetRemoveServiceAccount function [Security]","SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY","lmaccess/NetRemoveServiceAccount","security.netremoveserviceaccount"]
+description: Deletes the specified service account from the Active Directory database if the account is a standalone managed service account (sMSA).
+helpviewer_keywords: ["NetRemoveServiceAccount","NetRemoveServiceAccount function [Security]","SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY","lmaccess/NetRemoveServiceAccount","security.netremoveserviceaccount"]
 old-location: security\netremoveserviceaccount.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: f67745b7-bdfd-44bc-83e0-2ad24b78e137
 ms.date: 12/05/2018
 ms.keywords: NetRemoveServiceAccount, NetRemoveServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY, lmaccess/NetRemoveServiceAccount, security.netremoveserviceaccount

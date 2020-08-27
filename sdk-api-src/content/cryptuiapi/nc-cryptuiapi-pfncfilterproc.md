@@ -1,9 +1,10 @@
 ---
 UID: NC:cryptuiapi.PFNCFILTERPROC
 title: PFNCFILTERPROC (cryptuiapi.h)
-description: An application-defined callback function that filters the certificates that appear in the digital signature wizard that are displayed by the CryptUIWizDigitalSign function.helpviewer_keywords: ["PFNCFILTERPROC","PFNCFILTERPROC callback","PFNCFILTERPROC callback function [Security]","cryptuiapi/PFNCFILTERPROC","security.pfncfilterproc"]
+description: An application-defined callback function that filters the certificates that appear in the digital signature wizard that are displayed by the CryptUIWizDigitalSign function.
+helpviewer_keywords: ["PFNCFILTERPROC","PFNCFILTERPROC callback","PFNCFILTERPROC callback function [Security]","cryptuiapi/PFNCFILTERPROC","security.pfncfilterproc"]
 old-location: security\pfncfilterproc.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ced0f35c-7e22-4d19-8352-0bfa37ff1a4b
 ms.date: 12/05/2018
 ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc

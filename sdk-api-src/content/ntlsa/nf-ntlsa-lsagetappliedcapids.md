@@ -1,9 +1,10 @@
 ---
 UID: NF:ntlsa.LsaGetAppliedCAPIDs
 title: LsaGetAppliedCAPIDs function (ntlsa.h)
-description: Returns an array of central access policies (CAPs) identifiers (CAPIDs) of all the CAPs applied on a specific computer.helpviewer_keywords: ["LsaGetAppliedCAPIDs","LsaGetAppliedCAPIDs function [Security]","ntlsa/LsaGetAppliedCAPIDs","security.lsagetappliedcapids"]
+description: Returns an array of central access policies (CAPs) identifiers (CAPIDs) of all the CAPs applied on a specific computer.
+helpviewer_keywords: ["LsaGetAppliedCAPIDs","LsaGetAppliedCAPIDs function [Security]","ntlsa/LsaGetAppliedCAPIDs","security.lsagetappliedcapids"]
 old-location: security\lsagetappliedcapids.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: DF10F5CE-BBF5-4CA8-919B-F59B7775C983
 ms.date: 12/05/2018
 ms.keywords: LsaGetAppliedCAPIDs, LsaGetAppliedCAPIDs function [Security], ntlsa/LsaGetAppliedCAPIDs, security.lsagetappliedcapids

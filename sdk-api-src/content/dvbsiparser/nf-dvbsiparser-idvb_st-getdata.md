@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_ST.GetData
 title: IDVB_ST::GetData (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetData","GetData method [Microsoft TV Technologies]","GetData method [Microsoft TV Technologies]","IDVB_ST interface","IDVB_ST interface [Microsoft TV Technologies]","GetData method","IDVB_ST.GetData","IDVB_ST::GetData","IDVB_STGetData","dvbsiparser/IDVB_ST::GetData","mstv.idvb_st_getdata"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetData","GetData method [Microsoft TV Technologies]","GetData method [Microsoft TV Technologies]","IDVB_ST interface","IDVB_ST interface [Microsoft TV Technologies]","GetData method","IDVB_ST.GetData","IDVB_ST::GetData","IDVB_STGetData","dvbsiparser/IDVB_ST::GetData","mstv.idvb_st_getdata"]
 old-location: mstv\idvb_st_getdata.htm
 tech.root: mstv
 ms.assetid: 3afdafad-462c-4fad-a9c6-ec820bedf31a

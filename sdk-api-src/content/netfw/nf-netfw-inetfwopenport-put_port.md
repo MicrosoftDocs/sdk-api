@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Port
 title: INetFwOpenPort::put_Port (netfw.h)
-description: Specifiess the host-ordered port number for this port.helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Port property","INetFwOpenPort.Port","INetFwOpenPort.put_Port","INetFwOpenPort::Port","INetFwOpenPort::get_Port","INetFwOpenPort::put_Port","Port property [ICS/ICF]","Port property [ICS/ICF]","INetFwOpenPort interface","ics.inetfwopenport_port","netfw/INetFwOpenPort::Port","netfw/INetFwOpenPort::get_Port","netfw/INetFwOpenPort::put_Port","put_Port"]
+description: Specifiess the host-ordered port number for this port.
+helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Port property","INetFwOpenPort.Port","INetFwOpenPort.put_Port","INetFwOpenPort::Port","INetFwOpenPort::get_Port","INetFwOpenPort::put_Port","Port property [ICS/ICF]","Port property [ICS/ICF]","INetFwOpenPort interface","ics.inetfwopenport_port","netfw/INetFwOpenPort::Port","netfw/INetFwOpenPort::get_Port","netfw/INetFwOpenPort::put_Port","put_Port"]
 old-location: ics\inetfwopenport_port.htm
 tech.root: ics
 ms.assetid: 6e179f11-76c3-4403-9b42-2faad56629ed

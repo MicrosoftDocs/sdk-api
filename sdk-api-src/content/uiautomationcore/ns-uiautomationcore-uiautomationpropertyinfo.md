@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPropertyInfo
 title: UIAutomationPropertyInfo (uiautomationcore.h)
-description: Contains information about a custom property.helpviewer_keywords: ["UIAutomationPropertyInfo","UIAutomationPropertyInfo structure [Windows Accessibility]","uiauto.uiauto_UIAutomationPropertyInfoStruct","uiauto_UIAutomationPropertyInfoStruct","uiautomationcore/UIAutomationPropertyInfo","winauto.uiauto_UIAutomationPropertyInfoStruct"]
+description: Contains information about a custom property.
+helpviewer_keywords: ["UIAutomationPropertyInfo","UIAutomationPropertyInfo structure [Windows Accessibility]","uiauto.uiauto_UIAutomationPropertyInfoStruct","uiauto_UIAutomationPropertyInfoStruct","uiautomationcore/UIAutomationPropertyInfo","winauto.uiauto_UIAutomationPropertyInfoStruct"]
 old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f

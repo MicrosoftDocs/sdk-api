@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ServerSelection
 title: IUpdateSearcher::get_ServerSelection (wuapi.h)
-description: Gets and sets a ServerSelection value that indicates the server to search for updates.helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","ServerSelection property","IUpdateSearcher.ServerSelection","IUpdateSearcher.get_ServerSelection","IUpdateSearcher::ServerSelection","IUpdateSearcher::get_ServerSelection","IUpdateSearcher::put_ServerSelection","ServerSelection property [Windows Update Agent]","ServerSelection property [Windows Update Agent]","IUpdateSearcher interface","get_ServerSelection","wua.iupdatesearcherserverselection","wuapi/IUpdateSearcher::ServerSelection","wuapi/IUpdateSearcher::get_ServerSelection","wuapi/IUpdateSearcher::put_ServerSelection"]
+description: Gets and sets a ServerSelection value that indicates the server to search for updates.
+helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","ServerSelection property","IUpdateSearcher.ServerSelection","IUpdateSearcher.get_ServerSelection","IUpdateSearcher::ServerSelection","IUpdateSearcher::get_ServerSelection","IUpdateSearcher::put_ServerSelection","ServerSelection property [Windows Update Agent]","ServerSelection property [Windows Update Agent]","IUpdateSearcher interface","get_ServerSelection","wua.iupdatesearcherserverselection","wuapi/IUpdateSearcher::ServerSelection","wuapi/IUpdateSearcher::get_ServerSelection","wuapi/IUpdateSearcher::put_ServerSelection"]
 old-location: wua\iupdatesearcherserverselection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b514545a-d983-491b-9a28-540bd5c4c128
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServerSelection property, IUpdateSearcher.ServerSelection, IUpdateSearcher.get_ServerSelection, IUpdateSearcher::ServerSelection, IUpdateSearcher::get_ServerSelection, IUpdateSearcher::put_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateSearcher interface, get_ServerSelection, wua.iupdatesearcherserverselection, wuapi/IUpdateSearcher::ServerSelection, wuapi/IUpdateSearcher::get_ServerSelection, wuapi/IUpdateSearcher::put_ServerSelection

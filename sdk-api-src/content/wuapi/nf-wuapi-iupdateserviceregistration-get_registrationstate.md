@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_RegistrationState
 title: IUpdateServiceRegistration::get_RegistrationState (wuapi.h)
-description: Gets an UpdateServiceRegistrationState value that indicates the current state of the service registration.helpviewer_keywords: ["IUpdateServiceRegistration interface [Windows Update Agent]","RegistrationState property","IUpdateServiceRegistration.RegistrationState","IUpdateServiceRegistration.get_RegistrationState","IUpdateServiceRegistration::RegistrationState","IUpdateServiceRegistration::get_RegistrationState","RegistrationState property [Windows Update Agent]","RegistrationState property [Windows Update Agent]","IUpdateServiceRegistration interface","get_RegistrationState","wua.iupdateserviceregistration_registrationstate","wuapi/IUpdateServiceRegistration::RegistrationState","wuapi/IUpdateServiceRegistration::get_RegistrationState"]
+description: Gets an UpdateServiceRegistrationState value that indicates the current state of the service registration.
+helpviewer_keywords: ["IUpdateServiceRegistration interface [Windows Update Agent]","RegistrationState property","IUpdateServiceRegistration.RegistrationState","IUpdateServiceRegistration.get_RegistrationState","IUpdateServiceRegistration::RegistrationState","IUpdateServiceRegistration::get_RegistrationState","RegistrationState property [Windows Update Agent]","RegistrationState property [Windows Update Agent]","IUpdateServiceRegistration interface","get_RegistrationState","wua.iupdateserviceregistration_registrationstate","wuapi/IUpdateServiceRegistration::RegistrationState","wuapi/IUpdateServiceRegistration::get_RegistrationState"]
 old-location: wua\iupdateserviceregistration_registrationstate.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 4998546e-ec2c-4147-8c6f-5e232e4ec1a6
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],RegistrationState property, IUpdateServiceRegistration.RegistrationState, IUpdateServiceRegistration.get_RegistrationState, IUpdateServiceRegistration::RegistrationState, IUpdateServiceRegistration::get_RegistrationState, RegistrationState property [Windows Update Agent], RegistrationState property [Windows Update Agent],IUpdateServiceRegistration interface, get_RegistrationState, wua.iupdateserviceregistration_registrationstate, wuapi/IUpdateServiceRegistration::RegistrationState, wuapi/IUpdateServiceRegistration::get_RegistrationState

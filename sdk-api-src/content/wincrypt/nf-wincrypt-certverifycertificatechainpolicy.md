@@ -4,7 +4,7 @@ title: CertVerifyCertificateChainPolicy function (wincrypt.h)
 description: Checks a certificate chain to verify its validity, including its compliance with any specified validity policy criteria.
 helpviewer_keywords: ["CERT_CHAIN_POLICY_AUTHENTICODE","CERT_CHAIN_POLICY_AUTHENTICODE_TS","CERT_CHAIN_POLICY_BASE","CERT_CHAIN_POLICY_BASIC_CONSTRAINTS","CERT_CHAIN_POLICY_EV","CERT_CHAIN_POLICY_MICROSOFT_ROOT","CERT_CHAIN_POLICY_NT_AUTH","CERT_CHAIN_POLICY_SSL","CERT_CHAIN_POLICY_SSL_F12","CertVerifyCertificateChainPolicy","CertVerifyCertificateChainPolicy function [Security]","_crypto2_certverifycertificatechainpolicy","security.certverifycertificatechainpolicy","wincrypt/CertVerifyCertificateChainPolicy"]
 old-location: security\certverifycertificatechainpolicy.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 19c37f77-1072-4740-b244-764b816a2a1f
 ms.date: 12/05/2018
 ms.keywords: CERT_CHAIN_POLICY_AUTHENTICODE, CERT_CHAIN_POLICY_AUTHENTICODE_TS, CERT_CHAIN_POLICY_BASE, CERT_CHAIN_POLICY_BASIC_CONSTRAINTS, CERT_CHAIN_POLICY_EV, CERT_CHAIN_POLICY_MICROSOFT_ROOT, CERT_CHAIN_POLICY_NT_AUTH, CERT_CHAIN_POLICY_SSL, CERT_CHAIN_POLICY_SSL_F12, CertVerifyCertificateChainPolicy, CertVerifyCertificateChainPolicy function [Security], _crypto2_certverifycertificatechainpolicy, security.certverifycertificatechainpolicy, wincrypt/CertVerifyCertificateChainPolicy
@@ -161,7 +161,7 @@ Implements the Windows NT Authentication chain policy, which consists of three 
 <td width="60%">
 Checks the last element of the first simple chain for a Microsoft root public key. If that element does not contain a Microsoft root public key, the <b>dwError</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure pointed to by the <i>pPolicyStatus</i> parameter is set to <b>CERT_E_UNTRUSTEDROOT</b>.
 
-The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyStatus</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_CHECK_APPLICATION_ROOT_FLAG</b> flag, which causes this function to also check for the Microsoft application root "Microsoft Root Certificate Authority 2011".
+The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyStatus</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_CHECK_APPLICATION_ROOT_FLAG</b> flag, which causes this function to instead check for the Microsoft application root "Microsoft Root Certificate Authority 2011".
 
 The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_para">CERT_CHAIN_POLICY_PARA</a> structure pointed to by the <i>pPolicyPara</i> parameter can contain the <b>MICROSOFT_ROOT_CERT_CHAIN_POLICY_ENABLE_TEST_ROOT_FLAG</b> flag, which causes this function to also check for the Microsoft test roots.
 

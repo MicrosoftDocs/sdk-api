@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinType
 title: IMbnPin::get_PinType (mbnapi.h)
-description: The PIN type.helpviewer_keywords: ["IMbnPin interface [Microsoft Broadband Networks]","PinType property","IMbnPin.PinType","IMbnPin.get_PinType","IMbnPin::PinType","IMbnPin::get_PinType","PinType property [Microsoft Broadband Networks]","PinType property [Microsoft Broadband Networks]","IMbnPin interface","get_PinType","mbn.imbnpin_pintype","mbnapi/IMbnPin::PinType","mbnapi/IMbnPin::get_PinType"]
+description: The PIN type.
+helpviewer_keywords: ["IMbnPin interface [Microsoft Broadband Networks]","PinType property","IMbnPin.PinType","IMbnPin.get_PinType","IMbnPin::PinType","IMbnPin::get_PinType","PinType property [Microsoft Broadband Networks]","PinType property [Microsoft Broadband Networks]","IMbnPin interface","get_PinType","mbn.imbnpin_pintype","mbnapi/IMbnPin::PinType","mbnapi/IMbnPin::get_PinType"]
 old-location: mbn\imbnpin_pintype.htm
 tech.root: mbn
 ms.assetid: b80d552f-1900-4590-baa5-2fcdb9b32950

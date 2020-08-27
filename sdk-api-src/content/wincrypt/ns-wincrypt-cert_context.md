@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_CONTEXT
 title: CERT_CONTEXT (wincrypt.h)
-description: Contains both the encoded and decoded representations of a certificate.helpviewer_keywords: ["*PCERT_CONTEXT","CERT_CONTEXT","CERT_CONTEXT structure [Security]","PCCERT_CONTEXT","PCCERT_CONTEXT structure pointer [Security]","PCERT_CONTEXT","PCERT_CONTEXT structure pointer [Security]","_crypto2_cert_context","security.cert_context","wincrypt/CERT_CONTEXT","wincrypt/PCCERT_CONTEXT","wincrypt/PCERT_CONTEXT"]
+description: Contains both the encoded and decoded representations of a certificate.
+helpviewer_keywords: ["*PCERT_CONTEXT","CERT_CONTEXT","CERT_CONTEXT structure [Security]","PCCERT_CONTEXT","PCCERT_CONTEXT structure pointer [Security]","PCERT_CONTEXT","PCERT_CONTEXT structure pointer [Security]","_crypto2_cert_context","security.cert_context","wincrypt/CERT_CONTEXT","wincrypt/PCCERT_CONTEXT","wincrypt/PCERT_CONTEXT"]
 old-location: security\cert_context.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f0a3200e-6541-423d-a4a3-595a31026eea
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CONTEXT, CERT_CONTEXT, CERT_CONTEXT structure [Security], PCCERT_CONTEXT, PCCERT_CONTEXT structure pointer [Security], PCERT_CONTEXT, PCERT_CONTEXT structure pointer [Security], _crypto2_cert_context, security.cert_context, wincrypt/CERT_CONTEXT, wincrypt/PCCERT_CONTEXT, wincrypt/PCERT_CONTEXT'

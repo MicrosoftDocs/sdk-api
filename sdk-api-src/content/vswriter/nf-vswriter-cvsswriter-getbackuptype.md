@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.CVssWriter.GetBackupType
 title: CVssWriter::GetBackupType (vswriter.h)
-description: The GetBackupType method indicates the type of backup to be performed.helpviewer_keywords: ["CVssWriter interface [VSS]","GetBackupType method","CVssWriter.GetBackupType","CVssWriter::GetBackupType","GetBackupType","GetBackupType method [VSS]","GetBackupType method [VSS]","CVssWriter interface","_win32_cvsswriter_getbackuptype","base.cvsswriter_getbackuptype","vswriter/CVssWriter::GetBackupType"]
+description: The GetBackupType method indicates the type of backup to be performed.
+helpviewer_keywords: ["CVssWriter interface [VSS]","GetBackupType method","CVssWriter.GetBackupType","CVssWriter::GetBackupType","GetBackupType","GetBackupType method [VSS]","GetBackupType method [VSS]","CVssWriter interface","_win32_cvsswriter_getbackuptype","base.cvsswriter_getbackuptype","vswriter/CVssWriter::GetBackupType"]
 old-location: base\cvsswriter_getbackuptype.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b8f78552-27b5-4d64-9d35-baf1c636b526
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetBackupType method, CVssWriter.GetBackupType, CVssWriter::GetBackupType, GetBackupType, GetBackupType method [VSS], GetBackupType method [VSS],CVssWriter interface, _win32_cvsswriter_getbackuptype, base.cvsswriter_getbackuptype, vswriter/CVssWriter::GetBackupType

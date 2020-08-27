@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.get_Count
 title: IFaxRecipients::get_Count (faxcomex.h)
-description: The IFaxRecipients::get_Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.helpviewer_keywords: ["Count property [Fax Service]","Count property [Fax Service]","IFaxRecipients interface","IFaxRecipients interface [Fax Service]","Count property","IFaxRecipients.Count","IFaxRecipients.get_Count","IFaxRecipients::Count","IFaxRecipients::get_Count","_mfax_faxrecipients.count","fax._mfax_faxrecipients_count","fax._mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp","faxcomex/IFaxRecipients::Count","faxcomex/IFaxRecipients::get_Count","get_Count"]
+description: The IFaxRecipients::get_Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.
+helpviewer_keywords: ["Count property [Fax Service]","Count property [Fax Service]","IFaxRecipients interface","IFaxRecipients interface [Fax Service]","Count property","IFaxRecipients.Count","IFaxRecipients.get_Count","IFaxRecipients::Count","IFaxRecipients::get_Count","_mfax_faxrecipients.count","fax._mfax_faxrecipients_count","fax._mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp","faxcomex/IFaxRecipients::Count","faxcomex/IFaxRecipients::get_Count","get_Count"]
 old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2cc4.htm

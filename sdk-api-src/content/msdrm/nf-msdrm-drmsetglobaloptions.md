@@ -1,9 +1,10 @@
 ---
 UID: NF:msdrm.DRMSetGlobalOptions
 title: DRMSetGlobalOptions function (msdrm.h)
-description: Sets the transport protocol to a specified value and optionally specifies whether the server lockbox is used.helpviewer_keywords: ["DRMSetGlobalOptions","DRMSetGlobalOptions function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMSetGlobalOptions","rm.drmsetglobaloptions"]
+description: Sets the transport protocol to a specified value and optionally specifies whether the server lockbox is used.
+helpviewer_keywords: ["DRMSetGlobalOptions","DRMSetGlobalOptions function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMSetGlobalOptions","rm.drmsetglobaloptions"]
 old-location: rm\drmsetglobaloptions.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: fff0d503-e342-4f50-810c-bda4e9e14ad7
 ms.date: 12/05/2018
 ms.keywords: DRMSetGlobalOptions, DRMSetGlobalOptions function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetGlobalOptions, rm.drmsetglobaloptions

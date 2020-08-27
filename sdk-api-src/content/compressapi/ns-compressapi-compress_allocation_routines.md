@@ -1,7 +1,8 @@
 ---
 UID: NS:compressapi._COMPRESS_ALLOCATION_ROUTINES
 title: COMPRESS_ALLOCATION_ROUTINES (compressapi.h)
-description: A structure containing optional memory allocation and deallocation routines.helpviewer_keywords: ["*PCOMPRESS_ALLOCATION_ROUTINES","COMPRESS_ALLOCATION_ROUTINES","COMPRESS_ALLOCATION_ROUTINES structure [Compression API]","PCOMPRESS_ALLOCATION_ROUTINES","PCOMPRESS_ALLOCATION_ROUTINES structure pointer [Compression API]","cmpapi.compress_allocation_routines","compressapi/COMPRESS_ALLOCATION_ROUTINES","compressapi/PCOMPRESS_ALLOCATION_ROUTINES"]
+description: A structure containing optional memory allocation and deallocation routines.
+helpviewer_keywords: ["*PCOMPRESS_ALLOCATION_ROUTINES","COMPRESS_ALLOCATION_ROUTINES","COMPRESS_ALLOCATION_ROUTINES structure [Compression API]","PCOMPRESS_ALLOCATION_ROUTINES","PCOMPRESS_ALLOCATION_ROUTINES structure pointer [Compression API]","cmpapi.compress_allocation_routines","compressapi/COMPRESS_ALLOCATION_ROUTINES","compressapi/PCOMPRESS_ALLOCATION_ROUTINES"]
 old-location: cmpapi\compress_allocation_routines.htm
 tech.root: cmpapi
 ms.assetid: 91f541c8-36b9-4ec2-ae37-0b41aa6fd623
@@ -14,8 +15,8 @@ dev_langs:
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

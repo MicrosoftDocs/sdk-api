@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10.D3D10_BUFFER_RTV
 title: D3D10_BUFFER_RTV (d3d10.h)
-description: Specifies the elements from a buffer resource to use in a render-target view.helpviewer_keywords: ["4eb8f5a5-bb65-b551-7e42-ac051b09f97c","D3D10_BUFFER_RTV","D3D10_BUFFER_RTV structure [Direct3D 10]","d3d10/D3D10_BUFFER_RTV","direct3d10.d3d10_buffer_rtv"]
+description: Specifies the elements from a buffer resource to use in a render-target view.
+helpviewer_keywords: ["4eb8f5a5-bb65-b551-7e42-ac051b09f97c","D3D10_BUFFER_RTV","D3D10_BUFFER_RTV structure [Direct3D 10]","d3d10/D3D10_BUFFER_RTV","direct3d10.d3d10_buffer_rtv"]
 old-location: direct3d10\d3d10_buffer_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_buffer_rtv.htm

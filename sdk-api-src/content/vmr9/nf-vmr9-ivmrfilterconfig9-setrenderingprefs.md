@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingPrefs
 title: IVMRFilterConfig9::SetRenderingPrefs (vmr9.h)
-description: The SetRenderingPrefs method sets various application preferences related to video rendering.helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetRenderingPrefs method","IVMRFilterConfig9.SetRenderingPrefs","IVMRFilterConfig9::SetRenderingPrefs","IVMRFilterConfig9SetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setrenderingprefs","vmr9/IVMRFilterConfig9::SetRenderingPrefs"]
+description: The SetRenderingPrefs method sets various application preferences related to video rendering.
+helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetRenderingPrefs method","IVMRFilterConfig9.SetRenderingPrefs","IVMRFilterConfig9::SetRenderingPrefs","IVMRFilterConfig9SetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setrenderingprefs","vmr9/IVMRFilterConfig9::SetRenderingPrefs"]
 old-location: dshow\ivmrfilterconfig9_setrenderingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ce274528-c759-4b43-80c7-0ba1e1275b7d
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingPrefs method, IVMRFilterConfig9.SetRenderingPrefs, IVMRFilterConfig9::SetRenderingPrefs, IVMRFilterConfig9SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setrenderingprefs, vmr9/IVMRFilterConfig9::SetRenderingPrefs

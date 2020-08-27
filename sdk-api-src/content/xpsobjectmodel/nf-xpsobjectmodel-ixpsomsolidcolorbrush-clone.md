@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.Clone
 title: IXpsOMSolidColorBrush::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","Clone method","IXpsOMSolidColorBrush.Clone","IXpsOMSolidColorBrush::Clone","xps.ixpsomsolidcolorbrush_clone","xpsobjectmodel/IXpsOMSolidColorBrush::Clone"]
+description: Makes a deep copy of the interface.
+helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","Clone method","IXpsOMSolidColorBrush.Clone","IXpsOMSolidColorBrush::Clone","xps.ixpsomsolidcolorbrush_clone","xpsobjectmodel/IXpsOMSolidColorBrush::Clone"]
 old-location: xps\ixpsomsolidcolorbrush_clone.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7f25d5cf-b53d-4e86-ae61-1d0c9afc6236
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],Clone method, IXpsOMSolidColorBrush.Clone, IXpsOMSolidColorBrush::Clone, xps.ixpsomsolidcolorbrush_clone, xpsobjectmodel/IXpsOMSolidColorBrush::Clone

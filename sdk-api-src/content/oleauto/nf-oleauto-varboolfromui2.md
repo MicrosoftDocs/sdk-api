@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBoolFromUI2
 title: VarBoolFromUI2 function (oleauto.h)
-description: Converts an unsigned short value to a Boolean value.helpviewer_keywords: ["VarBoolFromUI2","VarBoolFromUI2 function [Automation]","_oa96_VarBoolFromUI2","automat.varboolfromui2","oleauto/VarBoolFromUI2"]
+description: Converts an unsigned short value to a Boolean value.
+helpviewer_keywords: ["VarBoolFromUI2","VarBoolFromUI2 function [Automation]","_oa96_VarBoolFromUI2","automat.varboolfromui2","oleauto/VarBoolFromUI2"]
 old-location: automat\varboolfromui2.htm
 tech.root: automat
 ms.assetid: 2ee04e9d-0a6b-4fc7-b572-51e943aa1daf

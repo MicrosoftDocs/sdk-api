@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfoVQ
 title: DhcpSetClientInfoVQ function (dhcpsapi.h)
-description: Sets or modifies an existing DHCP client lease record in the DHCP server record database.helpviewer_keywords: ["DhcpSetClientInfoVQ","DhcpSetClientInfoVQ function [DHCP]","dhcp.dhcpsetclientinfovq","dhcpsapi/DhcpSetClientInfoVQ"]
+description: Sets or modifies an existing DHCP client lease record in the DHCP server record database.
+helpviewer_keywords: ["DhcpSetClientInfoVQ","DhcpSetClientInfoVQ function [DHCP]","dhcp.dhcpsetclientinfovq","dhcpsapi/DhcpSetClientInfoVQ"]
 old-location: dhcp\dhcpsetclientinfovq.htm
 tech.root: DHCP
 ms.assetid: c12ae8f5-8629-494f-905c-cbae57dcf3f1

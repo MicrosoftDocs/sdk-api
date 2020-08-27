@@ -1,7 +1,8 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDeferContactService
 title: IDirectManipulationDeferContactService (directmanipulation.h)
-description: Represents a service for managing associations between a contact and a viewport.helpviewer_keywords: ["IDirectManipulationDeferContactService","IDirectManipulationDeferContactService interface [Direct Manipulation]","IDirectManipulationDeferContactService interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationdefercontactservice","directmanipulation/IDirectManipulationDeferContactService"]
+description: Represents a service for managing associations between a contact and a viewport.
+helpviewer_keywords: ["IDirectManipulationDeferContactService","IDirectManipulationDeferContactService interface [Direct Manipulation]","IDirectManipulationDeferContactService interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationdefercontactservice","directmanipulation/IDirectManipulationDeferContactService"]
 old-location: directmanipulation\idirectmanipulationdefercontactservice.htm
 tech.root: directmanipulation
 ms.assetid: 6063352F-39FF-4E8F-B836-3DA0A02BE523

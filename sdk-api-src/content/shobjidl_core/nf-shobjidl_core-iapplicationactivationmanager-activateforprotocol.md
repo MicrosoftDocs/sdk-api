@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateForProtocol
 title: IApplicationActivationManager::ActivateForProtocol (shobjidl_core.h)
-description: Activates the specified Windows Store app for the protocol contract (Windows.Protocol).helpviewer_keywords: ["ActivateForProtocol","ActivateForProtocol method [Windows Shell]","ActivateForProtocol method [Windows Shell]","IApplicationActivationManager interface","IApplicationActivationManager interface [Windows Shell]","ActivateForProtocol method","IApplicationActivationManager.ActivateForProtocol","IApplicationActivationManager::ActivateForProtocol","shell.IApplicationActivationManager_ActivateForProtocol","shobjidl_core/IApplicationActivationManager::ActivateForProtocol"]
+description: Activates the specified Windows Store app for the protocol contract (Windows.Protocol).
+helpviewer_keywords: ["ActivateForProtocol","ActivateForProtocol method [Windows Shell]","ActivateForProtocol method [Windows Shell]","IApplicationActivationManager interface","IApplicationActivationManager interface [Windows Shell]","ActivateForProtocol method","IApplicationActivationManager.ActivateForProtocol","IApplicationActivationManager::ActivateForProtocol","shell.IApplicationActivationManager_ActivateForProtocol","shobjidl_core/IApplicationActivationManager::ActivateForProtocol"]
 old-location: shell\IApplicationActivationManager_ActivateForProtocol.htm
 tech.root: shell
 ms.assetid: A37E140A-5369-4abe-A9E9-8BD2E4492082

@@ -1,9 +1,10 @@
 ---
 UID: NC:ntsecpkg.SpUpdateCredentialsFn
 title: SpUpdateCredentialsFn (ntsecpkg.h)
-description: Updates the credentials associated with the specified context.helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SpUpdateCredentialsFn","SpUpdateCredentialsFn callback","SpUpdateCredentialsFn callback function [Security]","ntsecpkg/SpUpdateCredentialsFn","security.spupdatecredentialsfn"]
+description: Updates the credentials associated with the specified context.
+helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SpUpdateCredentialsFn","SpUpdateCredentialsFn callback","SpUpdateCredentialsFn callback function [Security]","ntsecpkg/SpUpdateCredentialsFn","security.spupdatecredentialsfn"]
 old-location: security\spupdatecredentialsfn.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 56aba12e-a335-4d16-81b0-7ab521f872e7
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpUpdateCredentialsFn, SpUpdateCredentialsFn callback, SpUpdateCredentialsFn callback function [Security], ntsecpkg/SpUpdateCredentialsFn, security.spupdatecredentialsfn

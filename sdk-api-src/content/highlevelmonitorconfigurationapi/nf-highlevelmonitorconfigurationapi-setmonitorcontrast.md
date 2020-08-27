@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorContrast
 title: SetMonitorContrast function (highlevelmonitorconfigurationapi.h)
-description: Sets a monitor's contrast value.helpviewer_keywords: ["SetMonitorContrast","SetMonitorContrast function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorContrast","monitor.setmonitorcontrast"]
+description: Sets a monitor's contrast value.
+helpviewer_keywords: ["SetMonitorContrast","SetMonitorContrast function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorContrast","monitor.setmonitorcontrast"]
 old-location: monitor\setmonitorcontrast.htm
 tech.root: Monitor
 ms.assetid: 7957702b-0ca2-4aaa-bae7-2518d2628f64

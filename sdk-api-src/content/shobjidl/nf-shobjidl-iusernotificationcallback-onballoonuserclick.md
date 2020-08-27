@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnBalloonUserClick
 title: IUserNotificationCallback::OnBalloonUserClick (shobjidl.h)
-description: Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.helpviewer_keywords: ["IUserNotificationCallback interface [Windows Shell]","OnBalloonUserClick method","IUserNotificationCallback.OnBalloonUserClick","IUserNotificationCallback::OnBalloonUserClick","OnBalloonUserClick","OnBalloonUserClick method [Windows Shell]","OnBalloonUserClick method [Windows Shell]","IUserNotificationCallback interface","_shell_IUserNotificationCallback_OnBalloonUserClick","shell.IUserNotificationCallback_OnBalloonUserClick","shobjidl/IUserNotificationCallback::OnBalloonUserClick"]
+description: Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
+helpviewer_keywords: ["IUserNotificationCallback interface [Windows Shell]","OnBalloonUserClick method","IUserNotificationCallback.OnBalloonUserClick","IUserNotificationCallback::OnBalloonUserClick","OnBalloonUserClick","OnBalloonUserClick method [Windows Shell]","OnBalloonUserClick method [Windows Shell]","IUserNotificationCallback interface","_shell_IUserNotificationCallback_OnBalloonUserClick","shell.IUserNotificationCallback_OnBalloonUserClick","shobjidl/IUserNotificationCallback::OnBalloonUserClick"]
 old-location: shell\IUserNotificationCallback_OnBalloonUserClick.htm
 tech.root: shell
 ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.IsClosed
 title: IXpsOMPackageWriter::IsClosed (xpsobjectmodel.h)
-description: Gets the status of the IXpsOMPackageWriter interface.helpviewer_keywords: ["FALSE","IXpsOMPackageWriter interface [XPS Documents and Packaging]","IsClosed method","IXpsOMPackageWriter.IsClosed","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","IsClosed method","IXpsOMPackageWriter3D::IsClosed","IXpsOMPackageWriter::IsClosed","IsClosed","IsClosed method [XPS Documents and Packaging]","IsClosed method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","IsClosed method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","TRUE","xps.ixpsompackagewriter_isclosed","xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed","xpsobjectmodel/IXpsOMPackageWriter::IsClosed"]
+description: Gets the status of the IXpsOMPackageWriter interface.
+helpviewer_keywords: ["FALSE","IXpsOMPackageWriter interface [XPS Documents and Packaging]","IsClosed method","IXpsOMPackageWriter.IsClosed","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","IsClosed method","IXpsOMPackageWriter3D::IsClosed","IXpsOMPackageWriter::IsClosed","IsClosed","IsClosed method [XPS Documents and Packaging]","IsClosed method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","IsClosed method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","TRUE","xps.ixpsompackagewriter_isclosed","xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed","xpsobjectmodel/IXpsOMPackageWriter::IsClosed"]
 old-location: xps\ixpsompackagewriter_isclosed.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7f782432-3d36-466c-b265-9da99d97565e
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackageWriter interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter.IsClosed, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter3D::IsClosed, IXpsOMPackageWriter::IsClosed, IsClosed, IsClosed method [XPS Documents and Packaging], IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter interface, IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, TRUE, xps.ixpsompackagewriter_isclosed, xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed, xpsobjectmodel/IXpsOMPackageWriter::IsClosed

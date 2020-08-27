@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiNotifySidChangeW
 title: MsiNotifySidChangeW function (msi.h)
-description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.helpviewer_keywords: ["MsiNotifySidChange","MsiNotifySidChange function","MsiNotifySidChangeA","MsiNotifySidChangeW","msi/MsiNotifySidChange","msi/MsiNotifySidChangeA","msi/MsiNotifySidChangeW","setup.msinotifysidchange"]
+description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.
+helpviewer_keywords: ["MsiNotifySidChange","MsiNotifySidChange function","MsiNotifySidChangeA","MsiNotifySidChangeW","msi/MsiNotifySidChange","msi/MsiNotifySidChangeA","msi/MsiNotifySidChangeW","setup.msinotifysidchange"]
 old-location: setup\msinotifysidchange.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.date: 12/05/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
@@ -138,6 +139,10 @@ Internal failure during execution.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiNotifySidChange as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

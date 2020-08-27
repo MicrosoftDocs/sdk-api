@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToFile
 title: IXpsOMPackage::WriteToFile (xpsobjectmodel.h)
-description: Writes the XPS package to a specified file.helpviewer_keywords: ["FALSE","IXpsOMPackage interface [XPS Documents and Packaging]","WriteToFile method","IXpsOMPackage.WriteToFile","IXpsOMPackage::WriteToFile","TRUE","WriteToFile","WriteToFile method [XPS Documents and Packaging]","WriteToFile method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_writetofile","xpsobjectmodel/IXpsOMPackage::WriteToFile"]
+description: Writes the XPS package to a specified file.
+helpviewer_keywords: ["FALSE","IXpsOMPackage interface [XPS Documents and Packaging]","WriteToFile method","IXpsOMPackage.WriteToFile","IXpsOMPackage::WriteToFile","TRUE","WriteToFile","WriteToFile method [XPS Documents and Packaging]","WriteToFile method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_writetofile","xpsobjectmodel/IXpsOMPackage::WriteToFile"]
 old-location: xps\ixpsompackage_writetofile.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 89accde7-989e-4a87-b96e-e47cc6c6954a
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToFile method, IXpsOMPackage.WriteToFile, IXpsOMPackage::WriteToFile, TRUE, WriteToFile, WriteToFile method [XPS Documents and Packaging], WriteToFile method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetofile, xpsobjectmodel/IXpsOMPackage::WriteToFile

@@ -4,7 +4,7 @@ title: FSCTL_TXFS_CREATE_MINIVERSION
 description: Creates a new miniversion for the specified file. Miniversions allow you to refer to a snapshot of the file during a transaction. Miniversions are discarded when a transaction is committed or rolled back.
 helpviewer_keywords: ["FSCTL_TXFS_CREATE_MINIVERSION","FSCTL_TXFS_CREATE_MINIVERSION control","FSCTL_TXFS_CREATE_MINIVERSION control code [Files]","fs.fsctl_txfs_create_miniversion","winioctl/FSCTL_TXFS_CREATE_MINIVERSION"]
 old-location: fs\fsctl_txfs_create_miniversion.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3d12b149-ab34-46c4-89fc-8ddc12a81fa0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_CREATE_MINIVERSION, FSCTL_TXFS_CREATE_MINIVERSION control, FSCTL_TXFS_CREATE_MINIVERSION control code [Files], fs.fsctl_txfs_create_miniversion, winioctl/FSCTL_TXFS_CREATE_MINIVERSION

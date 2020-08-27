@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.DeleteCredentialsEx
 title: IWMSInternalAdminNetSource2::DeleteCredentialsEx (wmsinternaladminnetsource.h)
-description: The DeleteCredentialsEx method removes a password from the cache.helpviewer_keywords: ["DeleteCredentialsEx","DeleteCredentialsEx method [windows Media Format]","DeleteCredentialsEx method [windows Media Format]","IWMSInternalAdminNetSource2 interface","IWMSInternalAdminNetSource2 interface [windows Media Format]","DeleteCredentialsEx method","IWMSInternalAdminNetSource2.DeleteCredentialsEx","IWMSInternalAdminNetSource2::DeleteCredentialsEx","IWMSInternalAdminNetSource2DeleteCredentialsEx","wmformat.iwmsinternaladminnetsource2_deletecredentialsex","wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx"]
+description: The DeleteCredentialsEx method removes a password from the cache.
+helpviewer_keywords: ["DeleteCredentialsEx","DeleteCredentialsEx method [windows Media Format]","DeleteCredentialsEx method [windows Media Format]","IWMSInternalAdminNetSource2 interface","IWMSInternalAdminNetSource2 interface [windows Media Format]","DeleteCredentialsEx method","IWMSInternalAdminNetSource2.DeleteCredentialsEx","IWMSInternalAdminNetSource2::DeleteCredentialsEx","IWMSInternalAdminNetSource2DeleteCredentialsEx","wmformat.iwmsinternaladminnetsource2_deletecredentialsex","wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx"]
 old-location: wmformat\iwmsinternaladminnetsource2_deletecredentialsex.htm
 tech.root: wmformat
 ms.assetid: 06d82f1d-b965-40fb-8a79-904ba5af7191

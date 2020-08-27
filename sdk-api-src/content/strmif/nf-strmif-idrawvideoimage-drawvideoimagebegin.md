@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageBegin
 title: IDrawVideoImage::DrawVideoImageBegin (strmif.h)
-description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageBegin method turns off DirectDraw in preparation for a call to the DrawVideoImageDraw method.helpviewer_keywords: ["DrawVideoImageBegin","DrawVideoImageBegin method [DirectShow]","DrawVideoImageBegin method [DirectShow]","IDrawVideoImage interface","IDrawVideoImage interface [DirectShow]","DrawVideoImageBegin method","IDrawVideoImage.DrawVideoImageBegin","IDrawVideoImage::DrawVideoImageBegin","IDrawVideoImageDrawVideoImageBegin","dshow.idrawvideoimage_drawvideoimagebegin","strmif/IDrawVideoImage::DrawVideoImageBegin"]
+description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageBegin method turns off DirectDraw in preparation for a call to the DrawVideoImageDraw method.
+helpviewer_keywords: ["DrawVideoImageBegin","DrawVideoImageBegin method [DirectShow]","DrawVideoImageBegin method [DirectShow]","IDrawVideoImage interface","IDrawVideoImage interface [DirectShow]","DrawVideoImageBegin method","IDrawVideoImage.DrawVideoImageBegin","IDrawVideoImage::DrawVideoImageBegin","IDrawVideoImageDrawVideoImageBegin","dshow.idrawvideoimage_drawvideoimagebegin","strmif/IDrawVideoImage::DrawVideoImageBegin"]
 old-location: dshow\idrawvideoimage_drawvideoimagebegin.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a39125b3-15b1-428d-aa64-c1b2bccf616a
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageBegin, DrawVideoImageBegin method [DirectShow], DrawVideoImageBegin method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageBegin method, IDrawVideoImage.DrawVideoImageBegin, IDrawVideoImage::DrawVideoImageBegin, IDrawVideoImageDrawVideoImageBegin, dshow.idrawvideoimage_drawvideoimagebegin, strmif/IDrawVideoImage::DrawVideoImageBegin

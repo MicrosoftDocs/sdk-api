@@ -1,9 +1,10 @@
 ---
 UID: NF:sspi.SspiIsPromptingNeeded
 title: SspiIsPromptingNeeded function (sspi.h)
-description: Indicates whether an error returned after a call to either the InitializeSecurityContext or the AcceptSecurityContext function requires an additional call to the SspiPromptForCredentials function.helpviewer_keywords: ["SspiIsPromptingNeeded","SspiIsPromptingNeeded function [Security]","security.sspiispromptingneeded","sspi/SspiIsPromptingNeeded"]
+description: Indicates whether an error returned after a call to either the InitializeSecurityContext or the AcceptSecurityContext function requires an additional call to the SspiPromptForCredentials function.
+helpviewer_keywords: ["SspiIsPromptingNeeded","SspiIsPromptingNeeded function [Security]","security.sspiispromptingneeded","sspi/SspiIsPromptingNeeded"]
 old-location: security\sspiispromptingneeded.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: aaafcf49-df28-45e9-8c06-e57863a2e300
 ms.date: 12/05/2018
 ms.keywords: SspiIsPromptingNeeded, SspiIsPromptingNeeded function [Security], security.sspiispromptingneeded, sspi/SspiIsPromptingNeeded

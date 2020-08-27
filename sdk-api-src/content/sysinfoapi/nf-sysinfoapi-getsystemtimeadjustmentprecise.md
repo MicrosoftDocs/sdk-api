@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimeAdjustmentPrecise
 title: GetSystemTimeAdjustmentPrecise function (sysinfoapi.h)
-description: Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.helpviewer_keywords: ["GetSystemTimeAdjustmentPrecise","GetSystemTimeAdjustmentPrecise function","base.getsystemtimeadjustmentprecise","sysinfoapi/GetSystemTimeAdjustmentPrecise"]
+description: Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
+helpviewer_keywords: ["GetSystemTimeAdjustmentPrecise","GetSystemTimeAdjustmentPrecise function","base.getsystemtimeadjustmentprecise","sysinfoapi/GetSystemTimeAdjustmentPrecise"]
 old-location: base\getsystemtimeadjustmentprecise.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 95EEE23D-01D8-49E1-BA64-49C07E8B1619
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAdjustmentPrecise, GetSystemTimeAdjustmentPrecise function, base.getsystemtimeadjustmentprecise, sysinfoapi/GetSystemTimeAdjustmentPrecise

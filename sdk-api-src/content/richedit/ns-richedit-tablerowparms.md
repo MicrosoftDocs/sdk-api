@@ -49,9 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the attributes of rows in a table. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification. 
-
 
 
 ## -struct-fields
@@ -159,42 +157,42 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 The index of the cell to insert or delete (<a href="https://docs.microsoft.com/windows/desktop/Controls/em-settableparms">EM_SETTABLEPARMS</a> only).
 
 
-#### - fIdentCells:1
+### -field fIdentCells:1
 
 Type: <b>DWORD</b>
 
  Indent cells.
 
 
-#### - fKeep:1
+### -field fKeep:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Keep rows together (\trkeep).
 
 
-#### - fKeepFollow:1
+### -field fKeepFollow:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Keep the row on the same page as the following row (\trkeepfollow).
 
 
-#### - fRTL:1
+### -field fRTL:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Display cells in right-to-left order (\rtlrow).
 
 
-#### - fWrap:1
+### -field fWrap:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Wrap text to the right or left, depending on <b>bAlignment</b>(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
 
 
-#### - nAlignment:3
+### -field nAlignment:3
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 

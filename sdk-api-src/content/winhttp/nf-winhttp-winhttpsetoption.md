@@ -1,9 +1,10 @@
 ---
 UID: NF:winhttp.WinHttpSetOption
 title: WinHttpSetOption function (winhttp.h)
-description: The WinHttpSetOption function sets an Internet option.helpviewer_keywords: ["WinHttpSetOption","WinHttpSetOption function [WinHTTP]","http.winhttpsetoption","winhttp.winhttpsetoption_function","winhttp/WinHttpSetOption"]
+description: The WinHttpSetOption function sets an Internet option.
+helpviewer_keywords: ["WinHttpSetOption","WinHttpSetOption function [WinHTTP]","http.winhttpsetoption","winhttp.winhttpsetoption_function","winhttp/WinHttpSetOption"]
 old-location: http\winhttpsetoption.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: bcf1da09-5787-4d2a-82ae-6965e27fa477
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption

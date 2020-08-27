@@ -1,9 +1,10 @@
 ---
 UID: NF:npapi.NPGetUser
 title: NPGetUser function (npapi.h)
-description: Retrieves the value of the current default user name or the user name used to establish a network connection.helpviewer_keywords: ["NPGetUser","NPGetUser function [Security]","_mnp_npgetuser","npapi/NPGetUser","security.npgetuser"]
+description: Retrieves the value of the current default user name or the user name used to establish a network connection.
+helpviewer_keywords: ["NPGetUser","NPGetUser function [Security]","_mnp_npgetuser","npapi/NPGetUser","security.npgetuser"]
 old-location: security\npgetuser.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 15fdf8fa-417c-4c1e-803e-6345cb4216e0
 ms.date: 12/05/2018
 ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPGetUser, security.npgetuser

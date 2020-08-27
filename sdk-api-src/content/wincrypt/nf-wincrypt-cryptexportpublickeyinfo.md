@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptExportPublicKeyInfo
 title: CryptExportPublicKeyInfo function (wincrypt.h)
-description: The CryptExportPublicKeyInfo function exports the public key information associated with the corresponding private key of the provider. For an updated version of this function, see CryptExportPublicKeyInfoEx.helpviewer_keywords: ["CryptExportPublicKeyInfo","CryptExportPublicKeyInfo function [Security]","_crypto2_cryptexportpublickeyinfo","security.cryptexportpublickeyinfo","wincrypt/CryptExportPublicKeyInfo"]
+description: The CryptExportPublicKeyInfo function exports the public key information associated with the corresponding private key of the provider. For an updated version of this function, see CryptExportPublicKeyInfoEx.
+helpviewer_keywords: ["CryptExportPublicKeyInfo","CryptExportPublicKeyInfo function [Security]","_crypto2_cryptexportpublickeyinfo","security.cryptexportpublickeyinfo","wincrypt/CryptExportPublicKeyInfo"]
 old-location: security\cryptexportpublickeyinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ad43a991-aaf5-4272-abab-0a981112e5e4
 ms.date: 12/05/2018
 ms.keywords: CryptExportPublicKeyInfo, CryptExportPublicKeyInfo function [Security], _crypto2_cryptexportpublickeyinfo, security.cryptexportpublickeyinfo, wincrypt/CryptExportPublicKeyInfo

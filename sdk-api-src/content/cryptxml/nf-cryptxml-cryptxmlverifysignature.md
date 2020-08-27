@@ -1,9 +1,10 @@
 ---
 UID: NF:cryptxml.CryptXmlVerifySignature
 title: CryptXmlVerifySignature function (cryptxml.h)
-description: Performs a cryptographic signature validation of a SignedInfo element.helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CryptXmlVerifySignature","CryptXmlVerifySignature function [Security]","cryptxml/CryptXmlVerifySignature","security.cryptxmlverifysignature"]
+description: Performs a cryptographic signature validation of a SignedInfo element.
+helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CryptXmlVerifySignature","CryptXmlVerifySignature function [Security]","cryptxml/CryptXmlVerifySignature","security.cryptxmlverifysignature"]
 old-location: security\cryptxmlverifysignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1f8776dc-d91a-4be9-90bf-7d36d587ffb2
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXmlVerifySignature function [Security], cryptxml/CryptXmlVerifySignature, security.cryptxmlverifysignature

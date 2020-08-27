@@ -1,9 +1,10 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesNotificationLevel
 title: AutomaticUpdatesNotificationLevel (wuapi.h)
-description: Defines the possible ways in which elevated users are notified about Automatic Updates events.helpviewer_keywords: ["AutomaticUpdatesNotificationLevel","AutomaticUpdatesNotificationLevel enumeration [Windows Update Agent]","aunlDisabled","aunlNotConfigured","aunlNotifyBeforeDownload","aunlNotifyBeforeInstallation","aunlScheduledInstallation","wua.automaticupdatesnotificationlevel","wuapi/AutomaticUpdatesNotificationLevel","wuapi/aunlDisabled","wuapi/aunlNotConfigured","wuapi/aunlNotifyBeforeDownload","wuapi/aunlNotifyBeforeInstallation","wuapi/aunlScheduledInstallation"]
+description: Defines the possible ways in which elevated users are notified about Automatic Updates events.
+helpviewer_keywords: ["AutomaticUpdatesNotificationLevel","AutomaticUpdatesNotificationLevel enumeration [Windows Update Agent]","aunlDisabled","aunlNotConfigured","aunlNotifyBeforeDownload","aunlNotifyBeforeInstallation","aunlScheduledInstallation","wua.automaticupdatesnotificationlevel","wuapi/AutomaticUpdatesNotificationLevel","wuapi/aunlDisabled","wuapi/aunlNotConfigured","wuapi/aunlNotifyBeforeDownload","wuapi/aunlNotifyBeforeInstallation","wuapi/aunlScheduledInstallation"]
 old-location: wua\automaticupdatesnotificationlevel.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a326400b-d6df-4947-8ab8-126d357834c3
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesNotificationLevel, AutomaticUpdatesNotificationLevel enumeration [Windows Update Agent], aunlDisabled, aunlNotConfigured, aunlNotifyBeforeDownload, aunlNotifyBeforeInstallation, aunlScheduledInstallation, wua.automaticupdatesnotificationlevel, wuapi/AutomaticUpdatesNotificationLevel, wuapi/aunlDisabled, wuapi/aunlNotConfigured, wuapi/aunlNotifyBeforeDownload, wuapi/aunlNotifyBeforeInstallation, wuapi/aunlScheduledInstallation

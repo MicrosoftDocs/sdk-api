@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHValidateUNC
 title: SHValidateUNC function (shlobj_core.h)
-description: SHValidateUNC may be altered or unavailable.helpviewer_keywords: ["SHValidateUNC","SHValidateUNC function [Windows Shell]","VALIDATEUNC_CONNECT","VALIDATEUNC_NOUI","VALIDATEUNC_PERSIST","VALIDATEUNC_PRINT","VALIDATEUNC_VALID","_win32_SHValidateUNC","shell.SHValidateUNC","shlobj_core/SHValidateUNC"]
+description: SHValidateUNC may be altered or unavailable.
+helpviewer_keywords: ["SHValidateUNC","SHValidateUNC function [Windows Shell]","VALIDATEUNC_CONNECT","VALIDATEUNC_NOUI","VALIDATEUNC_PERSIST","VALIDATEUNC_PRINT","VALIDATEUNC_VALID","_win32_SHValidateUNC","shell.SHValidateUNC","shlobj_core/SHValidateUNC"]
 old-location: shell\SHValidateUNC.htm
 tech.root: shell
 ms.assetid: 42394650-5571-4165-84f1-19a26fb4a1b8

@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IOverlayNotify
 title: IOverlayNotify (strmif.h)
-description: The IOverlayNotify interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window.helpviewer_keywords: ["IOverlayNotify","IOverlayNotify interface [DirectShow]","IOverlayNotify interface [DirectShow]","described","IOverlayNotifyInterface","dshow.ioverlaynotify","strmif/IOverlayNotify"]
+description: The IOverlayNotify interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window.
+helpviewer_keywords: ["IOverlayNotify","IOverlayNotify interface [DirectShow]","IOverlayNotify interface [DirectShow]","described","IOverlayNotifyInterface","dshow.ioverlaynotify","strmif/IOverlayNotify"]
 old-location: dshow\ioverlaynotify.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify

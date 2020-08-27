@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMemAllocator.Decommit
 title: IMemAllocator::Decommit (strmif.h)
-description: The Decommit method releases the buffer memory.helpviewer_keywords: ["Decommit","Decommit method [DirectShow]","Decommit method [DirectShow]","IMemAllocator interface","IMemAllocator interface [DirectShow]","Decommit method","IMemAllocator.Decommit","IMemAllocator::Decommit","IMemAllocatorDecommit","dshow.imemallocator_decommit","strmif/IMemAllocator::Decommit"]
+description: The Decommit method releases the buffer memory.
+helpviewer_keywords: ["Decommit","Decommit method [DirectShow]","Decommit method [DirectShow]","IMemAllocator interface","IMemAllocator interface [DirectShow]","Decommit method","IMemAllocator.Decommit","IMemAllocator::Decommit","IMemAllocatorDecommit","dshow.imemallocator_decommit","strmif/IMemAllocator::Decommit"]
 old-location: dshow\imemallocator_decommit.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2c1211c1-e047-4240-b85a-9be0a9290d31
 ms.date: 12/05/2018
 ms.keywords: Decommit, Decommit method [DirectShow], Decommit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Decommit method, IMemAllocator.Decommit, IMemAllocator::Decommit, IMemAllocatorDecommit, dshow.imemallocator_decommit, strmif/IMemAllocator::Decommit

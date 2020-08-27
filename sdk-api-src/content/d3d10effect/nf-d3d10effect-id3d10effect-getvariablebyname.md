@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableByName
 title: ID3D10Effect::GetVariableByName (d3d10effect.h)
-description: Get a variable by name.helpviewer_keywords: ["GetVariableByName","GetVariableByName method [Direct3D 10]","GetVariableByName method [Direct3D 10]","ID3D10Effect interface","ID3D10Effect interface [Direct3D 10]","GetVariableByName method","ID3D10Effect.GetVariableByName","ID3D10Effect::GetVariableByName","c08eacd5-3abc-89d5-a465-058f2f195794","d3d10effect/ID3D10Effect::GetVariableByName","direct3d10.id3d10effect_getvariablebyname"]
+description: Get a variable by name.
+helpviewer_keywords: ["GetVariableByName","GetVariableByName method [Direct3D 10]","GetVariableByName method [Direct3D 10]","ID3D10Effect interface","ID3D10Effect interface [Direct3D 10]","GetVariableByName method","ID3D10Effect.GetVariableByName","ID3D10Effect::GetVariableByName","c08eacd5-3abc-89d5-a465-058f2f195794","d3d10effect/ID3D10Effect::GetVariableByName","direct3d10.id3d10effect_getvariablebyname"]
 old-location: direct3d10\id3d10effect_getvariablebyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebyname.htm

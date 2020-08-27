@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetVideoClippingWindow
 title: IVMRWindowlessControl9::SetVideoClippingWindow (vmr9.h)
-description: The SetVideoClippingWindow method specifies the container window that video should be clipped to.helpviewer_keywords: ["IVMRWindowlessControl9 interface [DirectShow]","SetVideoClippingWindow method","IVMRWindowlessControl9.SetVideoClippingWindow","IVMRWindowlessControl9::SetVideoClippingWindow","IVMRWindowlessControl9SetVideoClippingWindow","SetVideoClippingWindow","SetVideoClippingWindow method [DirectShow]","SetVideoClippingWindow method [DirectShow]","IVMRWindowlessControl9 interface","dshow.ivmrwindowlesscontrol9_setvideoclippingwindow","vmr9/IVMRWindowlessControl9::SetVideoClippingWindow"]
+description: The SetVideoClippingWindow method specifies the container window that video should be clipped to.
+helpviewer_keywords: ["IVMRWindowlessControl9 interface [DirectShow]","SetVideoClippingWindow method","IVMRWindowlessControl9.SetVideoClippingWindow","IVMRWindowlessControl9::SetVideoClippingWindow","IVMRWindowlessControl9SetVideoClippingWindow","SetVideoClippingWindow","SetVideoClippingWindow method [DirectShow]","SetVideoClippingWindow method [DirectShow]","IVMRWindowlessControl9 interface","dshow.ivmrwindowlesscontrol9_setvideoclippingwindow","vmr9/IVMRWindowlessControl9::SetVideoClippingWindow"]
 old-location: dshow\ivmrwindowlesscontrol9_setvideoclippingwindow.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 426476cd-a7e9-42ef-9d1b-5bbf921557ed
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoClippingWindow method, IVMRWindowlessControl9.SetVideoClippingWindow, IVMRWindowlessControl9::SetVideoClippingWindow, IVMRWindowlessControl9SetVideoClippingWindow, SetVideoClippingWindow, SetVideoClippingWindow method [DirectShow], SetVideoClippingWindow method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setvideoclippingwindow, vmr9/IVMRWindowlessControl9::SetVideoClippingWindow

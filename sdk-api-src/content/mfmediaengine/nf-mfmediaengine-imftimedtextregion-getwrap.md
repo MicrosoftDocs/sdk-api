@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWrap
 title: IMFTimedTextRegion::GetWrap (mfmediaengine.h)
-description: Determines whether the word wrap feature is enabled in the region.helpviewer_keywords: ["GetWrap","GetWrap method [Media Foundation]","GetWrap method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetWrap method","IMFTimedTextRegion.GetWrap","IMFTimedTextRegion::GetWrap","mf.imftimedtextregion_getwrap","mfmediaengine/IMFTimedTextRegion::GetWrap"]
+description: Determines whether the word wrap feature is enabled in the region.
+helpviewer_keywords: ["GetWrap","GetWrap method [Media Foundation]","GetWrap method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetWrap method","IMFTimedTextRegion.GetWrap","IMFTimedTextRegion::GetWrap","mf.imftimedtextregion_getwrap","mfmediaengine/IMFTimedTextRegion::GetWrap"]
 old-location: mf\imftimedtextregion_getwrap.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 634B686C-A083-4F11-9330-4BD22D93A066
 ms.date: 12/05/2018
 ms.keywords: GetWrap, GetWrap method [Media Foundation], GetWrap method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWrap method, IMFTimedTextRegion.GetWrap, IMFTimedTextRegion::GetWrap, mf.imftimedtextregion_getwrap, mfmediaengine/IMFTimedTextRegion::GetWrap

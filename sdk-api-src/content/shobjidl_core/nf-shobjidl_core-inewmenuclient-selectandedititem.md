@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.SelectAndEditItem
 title: INewMenuClient::SelectAndEditItem (shobjidl_core.h)
-description: INewMenuClient::SelectAndEditItem methodhelpviewer_keywords: ["INewMenuClient interface [Windows Shell]","SelectAndEditItem method","INewMenuClient.SelectAndEditItem","INewMenuClient::SelectAndEditItem","NMCSAEI_EDIT","NMCSAEI_SELECT","SelectAndEditItem","SelectAndEditItem method [Windows Shell]","SelectAndEditItem method [Windows Shell]","INewMenuClient interface","_shell_INewMenuClient_SelectAndEditItem","shell.INewMenuClient_SelectAndEditItem","shobjidl_core/INewMenuClient::SelectAndEditItem"]
+description: INewMenuClient::SelectAndEditItem method
+helpviewer_keywords: ["INewMenuClient interface [Windows Shell]","SelectAndEditItem method","INewMenuClient.SelectAndEditItem","INewMenuClient::SelectAndEditItem","NMCSAEI_EDIT","NMCSAEI_SELECT","SelectAndEditItem","SelectAndEditItem method [Windows Shell]","SelectAndEditItem method [Windows Shell]","INewMenuClient interface","_shell_INewMenuClient_SelectAndEditItem","shell.INewMenuClient_SelectAndEditItem","shobjidl_core/INewMenuClient::SelectAndEditItem"]
 old-location: shell\INewMenuClient_SelectAndEditItem.htm
 tech.root: shell
 ms.assetid: f731e69f-8ff0-42ff-96f8-04236f53d962

@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.GetTickCount
 title: GetTickCount function (sysinfoapi.h)
-description: Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.helpviewer_keywords: ["GetTickCount","GetTickCount function","_win32_gettickcount","base.gettickcount","sysinfoapi/GetTickCount"]
+description: Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.
+helpviewer_keywords: ["GetTickCount","GetTickCount function","_win32_gettickcount","base.gettickcount","sysinfoapi/GetTickCount"]
 old-location: base\gettickcount.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 22201c82-a49a-4972-9f49-6baf6d23a1ea
 ms.date: 12/05/2018
 ms.keywords: GetTickCount, GetTickCount function, _win32_gettickcount, base.gettickcount, sysinfoapi/GetTickCount

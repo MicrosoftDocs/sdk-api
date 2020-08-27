@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathFindOnPathA
 title: PathFindOnPathA function (shlwapi.h)
-description: Searches for a file.helpviewer_keywords: ["PathFindOnPath","PathFindOnPath function [Windows Shell]","PathFindOnPathA","PathFindOnPathW","_win32_PathFindOnPath","shell.PathFindOnPath","shlwapi/PathFindOnPath","shlwapi/PathFindOnPathA","shlwapi/PathFindOnPathW"]
+description: Searches for a file.
+helpviewer_keywords: ["PathFindOnPath","PathFindOnPath function [Windows Shell]","PathFindOnPathA","PathFindOnPathW","_win32_PathFindOnPath","shell.PathFindOnPath","shlwapi/PathFindOnPath","shlwapi/PathFindOnPathA","shlwapi/PathFindOnPathW"]
 old-location: shell\PathFindOnPath.htm
 tech.root: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
@@ -94,4 +95,8 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 <b>PathFindOnPath</b> searches for the file specified by <i>pszFile</i>. If no directories are specified in <i>ppszOtherDirs</i>, it attempts to find the file by searching standard directories such as System32 and the directories specified in the PATH environment variable. To expedite the process or enable <b>PathFindOnPath</b> to search a wider range of directories, use the <i>ppszOtherDirs</i> parameter to specify one or more directories to be searched first. If more than one file has the name specified by <i>pszFile</i>, <b>PathFindOnPath</b> returns the first instance it finds.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathFindOnPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

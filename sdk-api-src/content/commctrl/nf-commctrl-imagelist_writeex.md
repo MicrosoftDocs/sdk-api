@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_WriteEx
 title: ImageList_WriteEx function (commctrl.h)
-description: Writes an image list to a stream.helpviewer_keywords: ["ILP_DOWNLEVEL","ILP_NORMAL","ImageList_WriteEx","ImageList_WriteEx function [Windows Controls]","_win32_ImageList_WriteEx","_win32_ImageList_WriteEx_cpp","commctrl/ImageList_WriteEx","controls.ImageList_WriteEx","controls._win32_ImageList_WriteEx"]
+description: Writes an image list to a stream.
+helpviewer_keywords: ["ILP_DOWNLEVEL","ILP_NORMAL","ImageList_WriteEx","ImageList_WriteEx function [Windows Controls]","_win32_ImageList_WriteEx","_win32_ImageList_WriteEx_cpp","commctrl/ImageList_WriteEx","controls.ImageList_WriteEx","controls._win32_ImageList_WriteEx"]
 old-location: controls\ImageList_WriteEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_writeex.htm

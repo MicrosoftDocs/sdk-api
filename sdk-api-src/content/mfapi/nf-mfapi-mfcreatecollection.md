@@ -1,9 +1,10 @@
 ---
 UID: NF:mfapi.MFCreateCollection
 title: MFCreateCollection function (mfapi.h)
-description: Creates an empty collection object.helpviewer_keywords: ["6a7bf7b6-62f1-4eac-9849-39021ee50f42","MFCreateCollection","MFCreateCollection function [Media Foundation]","mf.mfcreatecollection","mfapi/MFCreateCollection"]
+description: Creates an empty collection object.
+helpviewer_keywords: ["6a7bf7b6-62f1-4eac-9849-39021ee50f42","MFCreateCollection","MFCreateCollection function [Media Foundation]","mf.mfcreatecollection","mfapi/MFCreateCollection"]
 old-location: mf\mfcreatecollection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6a7bf7b6-62f1-4eac-9849-39021ee50f42
 ms.date: 12/05/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection

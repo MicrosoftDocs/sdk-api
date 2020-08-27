@@ -1,7 +1,8 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateModelOutputs
 title: IWinMLModel::EnumerateModelOutputs (winml.h)
-description: Enumerates the WinML model outputs.helpviewer_keywords: ["EnumerateModelOutputs","EnumerateModelOutputs method","EnumerateModelOutputs method","IWinMLModel interface","IWinMLModel interface","EnumerateModelOutputs method","IWinMLModel.EnumerateModelOutputs","IWinMLModel::EnumerateModelOutputs","MachineLearning.iwinmlmodel_enumeratemodeloutputs","winml/IWinMLModel::EnumerateModelOutputs"]
+description: Enumerates the WinML model outputs.
+helpviewer_keywords: ["EnumerateModelOutputs","EnumerateModelOutputs method","EnumerateModelOutputs method","IWinMLModel interface","IWinMLModel interface","EnumerateModelOutputs method","IWinMLModel.EnumerateModelOutputs","IWinMLModel::EnumerateModelOutputs","MachineLearning.iwinmlmodel_enumeratemodeloutputs","winml/IWinMLModel::EnumerateModelOutputs"]
 old-location: machinelearning\iwinmlmodel_enumeratemodeloutputs.htm
 tech.root: MachineLearning
 ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B

@@ -1,9 +1,10 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.UnmapPID
 title: IMPEG2PIDMap::UnmapPID (bdaiface.h)
-description: The UnmapPID method unmaps one or more PIDs.helpviewer_keywords: ["IMPEG2PIDMap interface [DirectShow]","UnmapPID method","IMPEG2PIDMap.UnmapPID","IMPEG2PIDMap::UnmapPID","IMPEG2PIDMapUnmapPID","UnmapPID","UnmapPID method [DirectShow]","UnmapPID method [DirectShow]","IMPEG2PIDMap interface","bdaiface/IMPEG2PIDMap::UnmapPID","dshow.impeg2pidmap_unmappid"]
+description: The UnmapPID method unmaps one or more PIDs.
+helpviewer_keywords: ["IMPEG2PIDMap interface [DirectShow]","UnmapPID method","IMPEG2PIDMap.UnmapPID","IMPEG2PIDMap::UnmapPID","IMPEG2PIDMapUnmapPID","UnmapPID","UnmapPID method [DirectShow]","UnmapPID method [DirectShow]","IMPEG2PIDMap interface","bdaiface/IMPEG2PIDMap::UnmapPID","dshow.impeg2pidmap_unmappid"]
 old-location: dshow\impeg2pidmap_unmappid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1ad866c7-672e-4f96-a384-bbf78a78b8f5
 ms.date: 12/05/2018
 ms.keywords: IMPEG2PIDMap interface [DirectShow],UnmapPID method, IMPEG2PIDMap.UnmapPID, IMPEG2PIDMap::UnmapPID, IMPEG2PIDMapUnmapPID, UnmapPID, UnmapPID method [DirectShow], UnmapPID method [DirectShow],IMPEG2PIDMap interface, bdaiface/IMPEG2PIDMap::UnmapPID, dshow.impeg2pidmap_unmappid

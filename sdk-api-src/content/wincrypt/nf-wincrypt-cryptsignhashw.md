@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptSignHashW
 title: CryptSignHashW function (wincrypt.h)
-description: Signs data.helpviewer_keywords: ["CRYPT_NOHASHOID","CRYPT_TYPE2_FORMAT","CRYPT_X931_FORMAT","CryptSignHash","CryptSignHash function [Security]","CryptSignHashA","CryptSignHashW","_crypto2_cryptsignhash","security.cryptsignhash","wincrypt/CryptSignHash","wincrypt/CryptSignHashA","wincrypt/CryptSignHashW"]
+description: Signs data.
+helpviewer_keywords: ["CRYPT_NOHASHOID","CRYPT_TYPE2_FORMAT","CRYPT_X931_FORMAT","CryptSignHash","CryptSignHash function [Security]","CryptSignHashA","CryptSignHashW","_crypto2_cryptsignhash","security.cryptsignhash","wincrypt/CryptSignHash","wincrypt/CryptSignHashA","wincrypt/CryptSignHashW"]
 old-location: security\cryptsignhash.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
@@ -409,6 +410,10 @@ For a complete example including the  context for this code, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CryptSignHash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

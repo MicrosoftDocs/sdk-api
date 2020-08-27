@@ -1,7 +1,8 @@
 ---
 UID: NS:xapo.XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS
 title: XAPO_LOCKFORPROCESS_PARAMETERS (xapo.h)
-description: Defines stream buffer parameters that remain constant while an XAPO is locked. Used with the IXAPO::LockForProcess method.helpviewer_keywords: ["XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS","XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs]","XAPO_LOCKFORPROCESS_PARAMETERS","XAPO_LOCKFORPROCESS_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapo/XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS","xaudio2.xapo_lockforprocess_buffer_parameters"]
+description: Defines stream buffer parameters that remain constant while an XAPO is locked. Used with the IXAPO::LockForProcess method.
+helpviewer_keywords: ["XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS","XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs]","XAPO_LOCKFORPROCESS_PARAMETERS","XAPO_LOCKFORPROCESS_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapo/XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS","xaudio2.xapo_lockforprocess_buffer_parameters"]
 old-location: xaudio2\xapo_lockforprocess_buffer_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_LOCKFORPROCESS_PARAMETERS

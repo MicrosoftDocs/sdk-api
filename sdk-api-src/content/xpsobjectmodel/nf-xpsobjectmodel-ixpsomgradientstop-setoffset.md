@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetOffset
 title: IXpsOMGradientStop::SetOffset (xpsobjectmodel.h)
-description: Sets the offset location of the gradient stop.helpviewer_keywords: ["IXpsOMGradientStop interface [XPS Documents and Packaging]","SetOffset method","IXpsOMGradientStop.SetOffset","IXpsOMGradientStop::SetOffset","SetOffset","SetOffset method [XPS Documents and Packaging]","SetOffset method [XPS Documents and Packaging]","IXpsOMGradientStop interface","xps.ixpsomgradientstop_setoffset","xpsobjectmodel/IXpsOMGradientStop::SetOffset"]
+description: Sets the offset location of the gradient stop.
+helpviewer_keywords: ["IXpsOMGradientStop interface [XPS Documents and Packaging]","SetOffset method","IXpsOMGradientStop.SetOffset","IXpsOMGradientStop::SetOffset","SetOffset","SetOffset method [XPS Documents and Packaging]","SetOffset method [XPS Documents and Packaging]","IXpsOMGradientStop interface","xps.ixpsomgradientstop_setoffset","xpsobjectmodel/IXpsOMGradientStop::SetOffset"]
 old-location: xps\ixpsomgradientstop_setoffset.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8c1932b0-386b-4779-a4e4-e239e42e1d16
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetOffset method, IXpsOMGradientStop.SetOffset, IXpsOMGradientStop::SetOffset, SetOffset, SetOffset method [XPS Documents and Packaging], SetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setoffset, xpsobjectmodel/IXpsOMGradientStop::SetOffset

@@ -1,9 +1,10 @@
 ---
 UID: NF:memoryapi.ResetWriteWatch
 title: ResetWriteWatch function (memoryapi.h)
-description: Resets the write-tracking state for a region of virtual memory. Subsequent calls to the GetWriteWatch function only report pages that are written to since the reset operation.helpviewer_keywords: ["ResetWriteWatch","ResetWriteWatch function","_win32_resetwritewatch","base.resetwritewatch","winbase/ResetWriteWatch"]
+description: Resets the write-tracking state for a region of virtual memory. Subsequent calls to the GetWriteWatch function only report pages that are written to since the reset operation.
+helpviewer_keywords: ["ResetWriteWatch","ResetWriteWatch function","_win32_resetwritewatch","base.resetwritewatch","winbase/ResetWriteWatch"]
 old-location: base\resetwritewatch.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: afbc5a58-01e2-4f32-bc47-351fe846e4a5
 ms.date: 12/05/2018
 ms.keywords: ResetWriteWatch, ResetWriteWatch function, _win32_resetwritewatch, base.resetwritewatch, winbase/ResetWriteWatch

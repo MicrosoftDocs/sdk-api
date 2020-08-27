@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleWindow.GetWindow
 title: IOleWindow::GetWindow (oleidl.h)
-description: Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).helpviewer_keywords: ["GetWindow","GetWindow method [COM]","GetWindow method [COM]","IOleWindow interface","IOleWindow interface [COM]","GetWindow method","IOleWindow.GetWindow","IOleWindow::GetWindow","_ole_iolewindow_getwindow","com.iolewindow_getwindow","oleidl/IOleWindow::GetWindow"]
+description: Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).
+helpviewer_keywords: ["GetWindow","GetWindow method [COM]","GetWindow method [COM]","IOleWindow interface","IOleWindow interface [COM]","GetWindow method","IOleWindow.GetWindow","IOleWindow::GetWindow","_ole_iolewindow_getwindow","com.iolewindow_getwindow","oleidl/IOleWindow::GetWindow"]
 old-location: com\iolewindow_getwindow.htm
 tech.root: com
 ms.assetid: 833adc81-be58-44a1-88f1-9aa28808e67b

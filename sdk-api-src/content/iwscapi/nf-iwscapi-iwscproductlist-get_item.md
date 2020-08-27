@@ -1,9 +1,10 @@
 ---
 UID: NF:iwscapi.IWSCProductList.get_Item
 title: IWSCProductList::get_Item (iwscapi.h)
-description: Returns one of the types of providers on the computer.helpviewer_keywords: ["IWSCProductList interface [Windows API]","get_Item method","IWSCProductList.get_Item","IWSCProductList::get_Item","get_Item","get_Item method [Windows API]","get_Item method [Windows API]","IWSCProductList interface","iwscapi/IWSCProductList::get_Item","winprog.iwscproductlist_item"]
+description: Returns one of the types of providers on the computer.
+helpviewer_keywords: ["IWSCProductList interface [Windows API]","get_Item method","IWSCProductList.get_Item","IWSCProductList::get_Item","get_Item","get_Item method [Windows API]","get_Item method [Windows API]","IWSCProductList interface","iwscapi/IWSCProductList::get_Item","winprog.iwscproductlist_item"]
 old-location: winprog\iwscproductlist_item.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 041F45EF-BE1E-4C37-9BD7-ED9F45587ADA
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Item method, IWSCProductList.get_Item, IWSCProductList::get_Item, get_Item, get_Item method [Windows API], get_Item method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Item, winprog.iwscproductlist_item

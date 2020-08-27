@@ -1,7 +1,8 @@
 ---
 UID: NN:workspaceax.IWorkspaceResTypeRegistry
 title: IWorkspaceResTypeRegistry (workspaceax.h)
-description: Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime.helpviewer_keywords: ["IWorkspaceResTypeRegistry","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","described","termserv.iworkspacerestyperegistry","workspaceax/IWorkspaceResTypeRegistry"]
+description: Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime.
+helpviewer_keywords: ["IWorkspaceResTypeRegistry","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","described","termserv.iworkspacerestyperegistry","workspaceax/IWorkspaceResTypeRegistry"]
 old-location: termserv\iworkspacerestyperegistry.htm
 tech.root: TermServ
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad

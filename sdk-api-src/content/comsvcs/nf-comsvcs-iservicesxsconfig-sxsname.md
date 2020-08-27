@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsName
 title: IServiceSxsConfig::SxsName (comsvcs.h)
-description: Sets the file name of the side-by-side assembly for the enclosed work.helpviewer_keywords: ["IServiceSxsConfig interface [COM+]","SxsName method","IServiceSxsConfig.SxsName","IServiceSxsConfig::SxsName","SxsName","SxsName method [COM+]","SxsName method [COM+]","IServiceSxsConfig interface","_cos_IServiceSxsConfig_SxsName","comsvcs/IServiceSxsConfig::SxsName","cos.iservicesxsconfig_sxsname"]
+description: Sets the file name of the side-by-side assembly for the enclosed work.
+helpviewer_keywords: ["IServiceSxsConfig interface [COM+]","SxsName method","IServiceSxsConfig.SxsName","IServiceSxsConfig::SxsName","SxsName","SxsName method [COM+]","SxsName method [COM+]","IServiceSxsConfig interface","_cos_IServiceSxsConfig_SxsName","comsvcs/IServiceSxsConfig::SxsName","cos.iservicesxsconfig_sxsname"]
 old-location: cos\iservicesxsconfig_sxsname.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 622632ba-1287-4303-a9dd-4fb870e43786
 ms.date: 12/05/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsName method, IServiceSxsConfig.SxsName, IServiceSxsConfig::SxsName, SxsName, SxsName method [COM+], SxsName method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsName, comsvcs/IServiceSxsConfig::SxsName, cos.iservicesxsconfig_sxsname

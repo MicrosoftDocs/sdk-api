@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_1.IDWriteBitmapRenderTarget1.GetTextAntialiasMode
 title: IDWriteBitmapRenderTarget1::GetTextAntialiasMode (dwrite_1.h)
-description: Gets the current text antialiasing mode of the bitmap render target.helpviewer_keywords: ["GetTextAntialiasMode","GetTextAntialiasMode method [Direct Write]","GetTextAntialiasMode method [Direct Write]","IDWriteBitmapRenderTarget1 interface","IDWriteBitmapRenderTarget1 interface [Direct Write]","GetTextAntialiasMode method","IDWriteBitmapRenderTarget1.GetTextAntialiasMode","IDWriteBitmapRenderTarget1::GetTextAntialiasMode","directwrite.idwritebitmaprendertarget1_gettextantialiasmode","dwrite_1/IDWriteBitmapRenderTarget1::GetTextAntialiasMode"]
+description: Gets the current text antialiasing mode of the bitmap render target.
+helpviewer_keywords: ["GetTextAntialiasMode","GetTextAntialiasMode method [Direct Write]","GetTextAntialiasMode method [Direct Write]","IDWriteBitmapRenderTarget1 interface","IDWriteBitmapRenderTarget1 interface [Direct Write]","GetTextAntialiasMode method","IDWriteBitmapRenderTarget1.GetTextAntialiasMode","IDWriteBitmapRenderTarget1::GetTextAntialiasMode","directwrite.idwritebitmaprendertarget1_gettextantialiasmode","dwrite_1/IDWriteBitmapRenderTarget1::GetTextAntialiasMode"]
 old-location: directwrite\idwritebitmaprendertarget1_gettextantialiasmode.htm
 tech.root: DirectWrite
 ms.assetid: C58E06D8-40CB-488E-BAF3-81A7183564C6

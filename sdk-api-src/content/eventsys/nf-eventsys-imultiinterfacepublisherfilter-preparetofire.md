@@ -1,9 +1,10 @@
 ---
 UID: NF:eventsys.IMultiInterfacePublisherFilter.PrepareToFire
 title: IMultiInterfacePublisherFilter::PrepareToFire (eventsys.h)
-description: Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.helpviewer_keywords: ["IMultiInterfacePublisherFilter interface [COM+]","PrepareToFire method","IMultiInterfacePublisherFilter.PrepareToFire","IMultiInterfacePublisherFilter::PrepareToFire","PrepareToFire","PrepareToFire method [COM+]","PrepareToFire method [COM+]","IMultiInterfacePublisherFilter interface","_cos_MultiInterfacePublisherFilter_PrepareToFire","cos.imultiinterfacepublisherfilter_preparetofire","eventsys/IMultiInterfacePublisherFilter::PrepareToFire"]
+description: Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
+helpviewer_keywords: ["IMultiInterfacePublisherFilter interface [COM+]","PrepareToFire method","IMultiInterfacePublisherFilter.PrepareToFire","IMultiInterfacePublisherFilter::PrepareToFire","PrepareToFire","PrepareToFire method [COM+]","PrepareToFire method [COM+]","IMultiInterfacePublisherFilter interface","_cos_MultiInterfacePublisherFilter_PrepareToFire","cos.imultiinterfacepublisherfilter_preparetofire","eventsys/IMultiInterfacePublisherFilter::PrepareToFire"]
 old-location: cos\imultiinterfacepublisherfilter_preparetofire.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: a9257017-a9e7-4a0a-9dee-55493a659bda
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],PrepareToFire method, IMultiInterfacePublisherFilter.PrepareToFire, IMultiInterfacePublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IMultiInterfacePublisherFilter interface, _cos_MultiInterfacePublisherFilter_PrepareToFire, cos.imultiinterfacepublisherfilter_preparetofire, eventsys/IMultiInterfacePublisherFilter::PrepareToFire

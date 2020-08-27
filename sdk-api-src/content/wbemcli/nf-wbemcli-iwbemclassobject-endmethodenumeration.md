@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.EndMethodEnumeration
 title: IWbemClassObject::EndMethodEnumeration (wbemcli.h)
-description: The IWbemClassObject::EndMethodEnumeration method is used to terminate a method enumeration sequence started with IWbemClassObject::BeginMethodEnumeration.helpviewer_keywords: ["EndMethodEnumeration","EndMethodEnumeration method [Windows Management Instrumentation]","EndMethodEnumeration method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","EndMethodEnumeration method","IWbemClassObject.EndMethodEnumeration","IWbemClassObject::EndMethodEnumeration","_hmm_iwbemclassobject_endmethodenumeration","wbemcli/IWbemClassObject::EndMethodEnumeration","wmi.iwbemclassobject_endmethodenumeration"]
+description: The IWbemClassObject::EndMethodEnumeration method is used to terminate a method enumeration sequence started with IWbemClassObject::BeginMethodEnumeration.
+helpviewer_keywords: ["EndMethodEnumeration","EndMethodEnumeration method [Windows Management Instrumentation]","EndMethodEnumeration method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","EndMethodEnumeration method","IWbemClassObject.EndMethodEnumeration","IWbemClassObject::EndMethodEnumeration","_hmm_iwbemclassobject_endmethodenumeration","wbemcli/IWbemClassObject::EndMethodEnumeration","wmi.iwbemclassobject_endmethodenumeration"]
 old-location: wmi\iwbemclassobject_endmethodenumeration.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 7a6de467-65f7-4873-a2dd-9c52c138b1d2
 ms.date: 12/05/2018
 ms.keywords: EndMethodEnumeration, EndMethodEnumeration method [Windows Management Instrumentation], EndMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndMethodEnumeration method, IWbemClassObject.EndMethodEnumeration, IWbemClassObject::EndMethodEnumeration, _hmm_iwbemclassobject_endmethodenumeration, wbemcli/IWbemClassObject::EndMethodEnumeration, wmi.iwbemclassobject_endmethodenumeration

@@ -1,9 +1,10 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
 title: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to notify GenericUSBFn.sys to activate the Universal Serial Bus (USB). Once activated, the bus is prepared to process bus events and handle traffic.helpviewer_keywords: ["IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS","IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control","IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control code [Buses]","buses.ioctl_genericusbfn_activate_usb_bus","genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS"]
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to notify GenericUSBFn.sys to activate the Universal Serial Bus (USB). Once activated, the bus is prepared to process bus events and handle traffic.
+helpviewer_keywords: ["IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS","IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control","IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control code [Buses]","buses.ioctl_genericusbfn_activate_usb_bus","genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS"]
 old-location: buses\ioctl_genericusbfn_activate_usb_bus.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: A8CE2698-B2EF-409A-8251-7419F76D47BC
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_activate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS

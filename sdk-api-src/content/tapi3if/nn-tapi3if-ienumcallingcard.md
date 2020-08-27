@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.IEnumCallingCard
 title: IEnumCallingCard (tapi3if.h)
-description: The IEnumCallingCard interface provides COM-standard enumeration methods for the ITCallingCard interface. The ITAddressTranslation::EnumerateCallingCards method returns a pointer to IEnumCallingCard.helpviewer_keywords: ["IEnumCallingCard","IEnumCallingCard interface [TAPI 2.2]","IEnumCallingCard interface [TAPI 2.2]","described","_tapi3_ienumcallingcard","tapi3.ienumcallingcard","tapi3if/IEnumCallingCard"]
+description: The IEnumCallingCard interface provides COM-standard enumeration methods for the ITCallingCard interface. The ITAddressTranslation::EnumerateCallingCards method returns a pointer to IEnumCallingCard.
+helpviewer_keywords: ["IEnumCallingCard","IEnumCallingCard interface [TAPI 2.2]","IEnumCallingCard interface [TAPI 2.2]","described","_tapi3_ienumcallingcard","tapi3.ienumcallingcard","tapi3if/IEnumCallingCard"]
 old-location: tapi3\ienumcallingcard.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d2eed88b-9a01-4205-a35d-92a24e07a1e2
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard, IEnumCallingCard interface [TAPI 2.2], IEnumCallingCard interface [TAPI 2.2],described, _tapi3_ienumcallingcard, tapi3.ienumcallingcard, tapi3if/IEnumCallingCard

@@ -1,9 +1,10 @@
 ---
 UID: NS:vptype._AMVPDATAINFO
 title: AMVPDATAINFO (vptype.h)
-description: The AMVPDATAINFO structure specifies the data-specific characteristics of the VP input stream.helpviewer_keywords: ["*LPAMVPDATAINFO","AMVPDATAINFO","AMVPDATAINFO structure [DirectShow]","AMVPDATAINFOStructure","LPAMVPDATAINFO","LPAMVPDATAINFO structure pointer [DirectShow]","dshow.amvpdatainfo","vptype/AMVPDATAINFO","vptype/LPAMVPDATAINFO"]
+description: The AMVPDATAINFO structure specifies the data-specific characteristics of the VP input stream.
+helpviewer_keywords: ["*LPAMVPDATAINFO","AMVPDATAINFO","AMVPDATAINFO structure [DirectShow]","AMVPDATAINFOStructure","LPAMVPDATAINFO","LPAMVPDATAINFO structure pointer [DirectShow]","dshow.amvpdatainfo","vptype/AMVPDATAINFO","vptype/LPAMVPDATAINFO"]
 old-location: dshow\amvpdatainfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO'

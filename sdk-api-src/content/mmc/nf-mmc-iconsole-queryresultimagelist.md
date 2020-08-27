@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsole.QueryResultImageList
 title: IConsole::QueryResultImageList (mmc.h)
-description: Retrieves the console-provided result-view image list. This image list should be used only if the snap-in is using the default list view.helpviewer_keywords: ["IConsole interface [MMC]","QueryResultImageList method","IConsole.QueryResultImageList","IConsole::QueryResultImageList","QueryResultImageList","QueryResultImageList method [MMC]","QueryResultImageList method [MMC]","IConsole interface","mmc.iconsole_queryresultimagelist","mmc/IConsole::QueryResultImageList"]
+description: Retrieves the console-provided result-view image list. This image list should be used only if the snap-in is using the default list view.
+helpviewer_keywords: ["IConsole interface [MMC]","QueryResultImageList method","IConsole.QueryResultImageList","IConsole::QueryResultImageList","QueryResultImageList","QueryResultImageList method [MMC]","QueryResultImageList method [MMC]","IConsole interface","mmc.iconsole_queryresultimagelist","mmc/IConsole::QueryResultImageList"]
 old-location: mmc\iconsole_queryresultimagelist.htm
 tech.root: mmc
 ms.assetid: 86F2A9ED-4023-4425-8C0A-7593660C623C

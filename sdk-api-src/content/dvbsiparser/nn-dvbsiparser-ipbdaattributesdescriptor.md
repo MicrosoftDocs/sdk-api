@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IPBDAAttributesDescriptor
 title: IPBDAAttributesDescriptor (dvbsiparser.h)
-description: Implements methods that get data from anattributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["IPBDAAttributesDescriptor","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IPBDAAttributesDescriptor","mstv.ipbdaattributesdescriptor"]
+description: Implements methods that get data from anattributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
+helpviewer_keywords: ["IPBDAAttributesDescriptor","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IPBDAAttributesDescriptor","mstv.ipbdaattributesdescriptor"]
 old-location: mstv\ipbdaattributesdescriptor.htm
 tech.root: mstv
 ms.assetid: 489348b7-0f10-4a49-a7d4-10a1ed478aa8

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommandProvider
 title: IExplorerCommandProvider (shobjidl_core.h)
-description: Exposes methods to create Explorer commands and command enumerators.helpviewer_keywords: ["IExplorerCommandProvider","IExplorerCommandProvider interface [Windows Shell]","IExplorerCommandProvider interface [Windows Shell]","described","_shell_IExplorerCommandProvider","shell.IExplorerCommandProvider","shobjidl_core/IExplorerCommandProvider"]
+description: Exposes methods to create Explorer commands and command enumerators.
+helpviewer_keywords: ["IExplorerCommandProvider","IExplorerCommandProvider interface [Windows Shell]","IExplorerCommandProvider interface [Windows Shell]","described","_shell_IExplorerCommandProvider","shell.IExplorerCommandProvider","shobjidl_core/IExplorerCommandProvider"]
 old-location: shell\IExplorerCommandProvider.htm
 tech.root: shell
 ms.assetid: f39ea1f7-28ba-4a5e-ac19-bcfc6052fdeb

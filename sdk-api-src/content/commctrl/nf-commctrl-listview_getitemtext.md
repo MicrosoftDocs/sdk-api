@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetItemText
 title: ListView_GetItemText macro (commctrl.h)
-description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.helpviewer_keywords: ["ListView_GetItemText","ListView_GetItemText macro [Windows Controls]","_win32_ListView_GetItemText","_win32_ListView_GetItemText_cpp","commctrl/ListView_GetItemText","controls.ListView_GetItemText","controls._win32_ListView_GetItemText"]
+description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.
+helpviewer_keywords: ["ListView_GetItemText","ListView_GetItemText macro [Windows Controls]","_win32_ListView_GetItemText","_win32_ListView_GetItemText_cpp","commctrl/ListView_GetItemText","controls.ListView_GetItemText","controls._win32_ListView_GetItemText"]
 old-location: controls\ListView_GetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
@@ -71,7 +72,7 @@ Type: <b>int</b>
 The index of the list-view item. 
 
 
-#### - iSubItem_
+### -param iSubItem_
 
 Type: <b>int</b>
 
@@ -79,14 +80,14 @@ The index of the subitem. To retrieve the item text, set
 					<i>iSubItem</i> to zero. 
 
 
-#### - pszText_
+### -param pszText_
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the item or subitem text. 
 
 
-#### - cchTextMax_
+### -param cchTextMax_
 
 Type: <b>int</b>
 

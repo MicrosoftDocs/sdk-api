@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeResource
 title: ITSGPolicyEngine::AuthorizeResource (tsgpolicyengine.h)
-description: Determines which resources the specified connection is authorized to connect to.helpviewer_keywords: ["AuthorizeResource","AuthorizeResource method [Remote Desktop Services]","AuthorizeResource method [Remote Desktop Services]","ITSGPolicyEngine interface","ITSGPolicyEngine interface [Remote Desktop Services]","AuthorizeResource method","ITSGPolicyEngine.AuthorizeResource","ITSGPolicyEngine::AuthorizeResource","termserv.itsgpolicyengine_authorizeresource","tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource"]
+description: Determines which resources the specified connection is authorized to connect to.
+helpviewer_keywords: ["AuthorizeResource","AuthorizeResource method [Remote Desktop Services]","AuthorizeResource method [Remote Desktop Services]","ITSGPolicyEngine interface","ITSGPolicyEngine interface [Remote Desktop Services]","AuthorizeResource method","ITSGPolicyEngine.AuthorizeResource","ITSGPolicyEngine::AuthorizeResource","termserv.itsgpolicyengine_authorizeresource","tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource"]
 old-location: termserv\itsgpolicyengine_authorizeresource.htm
 tech.root: TermServ
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5
@@ -141,13 +142,7 @@ If authorization requires more than 1 second, we recommend starting a separate t
     authorization.
 
 
-#### Examples
-
-For an example that uses the 
-     <b>AuthorizeResource</b> method, see 
-     <a href="https://Code.MSDN.Microsoft.Com/Remote-Desktop-Gateway-517d6273">Remote Desktop Gateway Pluggable Authentication and Authorization Sample</a>.
-
-<div class="code"></div>
+For a sample that uses the <b>AuthorizeResource</b> method, see the [Remote Desktop Gateway Pluggable Authentication and Authorization](https://github.com/microsoftarchive/msdn-code-gallery-community-m-r/tree/master/Remote%20Desktop%20Gateway%20Pluggable%20Authentication%20and%20Authorization%20Sample) sample.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsInspectString
 title: WindowsInspectString function (winstring.h)
-description: Provides a way to for debuggers to display the value of an Windows Runtime&#160;HSTRING in another address space, remotely, or from a dump.
+description: Provides a way to for debuggers to display the value of an Windows Runtime HSTRING in another address space, remotely, or from a dump.
 helpviewer_keywords: ["WindowsInspectString","WindowsInspectString function [Windows Runtime]","winrt.windowsinspectstring","winstring/WindowsInspectString"]
 old-location: winrt\windowsinspectstring.htm
 tech.root: WinRT

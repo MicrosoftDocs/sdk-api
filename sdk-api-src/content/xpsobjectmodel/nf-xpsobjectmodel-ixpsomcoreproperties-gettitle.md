@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetTitle
 title: IXpsOMCoreProperties::GetTitle (xpsobjectmodel.h)
-description: Gets the title property.helpviewer_keywords: ["GetTitle","GetTitle method [XPS Documents and Packaging]","GetTitle method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetTitle method","IXpsOMCoreProperties.GetTitle","IXpsOMCoreProperties::GetTitle","xps.ixpsomcoreproperties_gettitle","xpsobjectmodel/IXpsOMCoreProperties::GetTitle"]
+description: Gets the title property.
+helpviewer_keywords: ["GetTitle","GetTitle method [XPS Documents and Packaging]","GetTitle method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetTitle method","IXpsOMCoreProperties.GetTitle","IXpsOMCoreProperties::GetTitle","xps.ixpsomcoreproperties_gettitle","xpsobjectmodel/IXpsOMCoreProperties::GetTitle"]
 old-location: xps\ixpsomcoreproperties_gettitle.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 32551dd2-2d6e-4aaa-864b-4c922a90fc27
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetTitle method, IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle

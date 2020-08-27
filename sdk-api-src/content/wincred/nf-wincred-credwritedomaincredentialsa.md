@@ -1,9 +1,10 @@
 ---
 UID: NF:wincred.CredWriteDomainCredentialsA
 title: CredWriteDomainCredentialsA function (wincred.h)
-description: Writes domain credentials to the user's credential set.helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB","CredWriteDomainCredentials","CredWriteDomainCredentials function [Security]","CredWriteDomainCredentialsA","CredWriteDomainCredentialsW","_cred_credwritedomaincredentials","security.credwritedomaincredentials","wincred/CredWriteDomainCredentials","wincred/CredWriteDomainCredentialsA","wincred/CredWriteDomainCredentialsW"]
+description: Writes domain credentials to the user's credential set.
+helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB","CredWriteDomainCredentials","CredWriteDomainCredentials function [Security]","CredWriteDomainCredentialsA","CredWriteDomainCredentialsW","_cred_credwritedomaincredentials","security.credwritedomaincredentials","wincred/CredWriteDomainCredentials","wincred/CredWriteDomainCredentialsA","wincred/CredWriteDomainCredentialsW"]
 old-location: security\credwritedomaincredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 6b54c14f-a736-4fb0-b4e4-97765a792a5e
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWriteDomainCredentials function [Security], CredWriteDomainCredentialsA, CredWriteDomainCredentialsW, _cred_credwritedomaincredentials, security.credwritedomaincredentials, wincred/CredWriteDomainCredentials, wincred/CredWriteDomainCredentialsA, wincred/CredWriteDomainCredentialsW
@@ -222,4 +223,8 @@ When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential<
 If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name.
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredWriteDomainCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetDictionarySDO
 title: ISdoMachine::GetDictionarySDO (sdoias.h)
-description: The GetDictionarySDO method retrieves an interface for an attribute-dictionary SDO.helpviewer_keywords: ["GetDictionarySDO","GetDictionarySDO method [Network Policy Server]","GetDictionarySDO method [Network Policy Server]","ISdoMachine interface","GetDictionarySDO method [Network Policy Server]","SdoMachine object","ISdoMachine interface [Network Policy Server]","GetDictionarySDO method","ISdoMachine.GetDictionarySDO","ISdoMachine::GetDictionarySDO","SdoMachine object [Network Policy Server]","GetDictionarySDO method","_sdo_isdomachine_getdictionarysdo","nps.SDO_isdomachine_getdictionarysdo","sdo.isdomachine_getdictionarysdo","sdoias/ISdoMachine::GetDictionarySDO"]
+description: The GetDictionarySDO method retrieves an interface for an attribute-dictionary SDO.
+helpviewer_keywords: ["GetDictionarySDO","GetDictionarySDO method [Network Policy Server]","GetDictionarySDO method [Network Policy Server]","ISdoMachine interface","GetDictionarySDO method [Network Policy Server]","SdoMachine object","ISdoMachine interface [Network Policy Server]","GetDictionarySDO method","ISdoMachine.GetDictionarySDO","ISdoMachine::GetDictionarySDO","SdoMachine object [Network Policy Server]","GetDictionarySDO method","_sdo_isdomachine_getdictionarysdo","nps.SDO_isdomachine_getdictionarysdo","sdo.isdomachine_getdictionarysdo","sdoias/ISdoMachine::GetDictionarySDO"]
 old-location: nps\SDO_isdomachine_getdictionarysdo.htm
 tech.root: Nps
 ms.assetid: 172444be-b2a2-4060-af92-b0c63f0ffe6b

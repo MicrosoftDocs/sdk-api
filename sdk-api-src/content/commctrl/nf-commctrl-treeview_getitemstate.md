@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_GetItemState
 title: TreeView_GetItemState macro (commctrl.h)
-description: Retrieves some or all of a tree-view item's state attributes. You can use this macro or send the TVM_GETITEMSTATE message explicitly.helpviewer_keywords: ["TreeView_GetItemState","TreeView_GetItemState macro [Windows Controls]","_win32_TreeView_GetItemState","_win32_TreeView_GetItemState_cpp","commctrl/TreeView_GetItemState","controls.TreeView_GetItemState","controls._win32_TreeView_GetItemState"]
+description: Retrieves some or all of a tree-view item's state attributes. You can use this macro or send the TVM_GETITEMSTATE message explicitly.
+helpviewer_keywords: ["TreeView_GetItemState","TreeView_GetItemState macro [Windows Controls]","_win32_TreeView_GetItemState","_win32_TreeView_GetItemState_cpp","commctrl/TreeView_GetItemState","controls.TreeView_GetItemState","controls._win32_TreeView_GetItemState"]
 old-location: controls\TreeView_GetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemstate.htm

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallInfoLong
 title: ITCallInfo::get_CallInfoLong (tapi3if.h)
-description: The get_CallInfoLong method gets call information items described by a long, such as the bearer mode.helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","get_CallInfoLong method","ITCallInfo.get_CallInfoLong","ITCallInfo::get_CallInfoLong","_tapi3_itcallinfo_get_callinfolong","get_CallInfoLong","get_CallInfoLong method [TAPI 2.2]","get_CallInfoLong method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_get_callinfolong","tapi3if/ITCallInfo::get_CallInfoLong"]
+description: The get_CallInfoLong method gets call information items described by a long, such as the bearer mode.
+helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","get_CallInfoLong method","ITCallInfo.get_CallInfoLong","ITCallInfo::get_CallInfoLong","_tapi3_itcallinfo_get_callinfolong","get_CallInfoLong","get_CallInfoLong method [TAPI 2.2]","get_CallInfoLong method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_get_callinfolong","tapi3if/ITCallInfo::get_CallInfoLong"]
 old-location: tapi3\itcallinfo_get_callinfolong.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0c00e672-7bad-4a44-a76a-efd222f763d7
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoLong method, ITCallInfo.get_CallInfoLong, ITCallInfo::get_CallInfoLong, _tapi3_itcallinfo_get_callinfolong, get_CallInfoLong, get_CallInfoLong method [TAPI 2.2], get_CallInfoLong method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfolong, tapi3if/ITCallInfo::get_CallInfoLong

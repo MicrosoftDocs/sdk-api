@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.put_BlockUnrated
 title: IMSVidStreamBufferSource::put_BlockUnrated (segment.h)
-description: The put_BlockUnrated method specifies whether to block unrated content.helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","put_BlockUnrated method","IMSVidStreamBufferSource.put_BlockUnrated","IMSVidStreamBufferSource::put_BlockUnrated","IMSVidStreamBufferSourceput_BlockUnrated","mstv.imsvidstreambuffersource_put_blockunrated","put_BlockUnrated","put_BlockUnrated method [Microsoft TV Technologies]","put_BlockUnrated method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","segment/IMSVidStreamBufferSource::put_BlockUnrated"]
+description: The put_BlockUnrated method specifies whether to block unrated content.
+helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","put_BlockUnrated method","IMSVidStreamBufferSource.put_BlockUnrated","IMSVidStreamBufferSource::put_BlockUnrated","IMSVidStreamBufferSourceput_BlockUnrated","mstv.imsvidstreambuffersource_put_blockunrated","put_BlockUnrated","put_BlockUnrated method [Microsoft TV Technologies]","put_BlockUnrated method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","segment/IMSVidStreamBufferSource::put_BlockUnrated"]
 old-location: mstv\imsvidstreambuffersource_put_blockunrated.htm
 tech.root: mstv
 ms.assetid: 9dd59b87-708b-4003-9575-54a02b97c272

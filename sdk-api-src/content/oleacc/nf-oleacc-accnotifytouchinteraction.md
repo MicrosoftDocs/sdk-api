@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.AccNotifyTouchInteraction
 title: AccNotifyTouchInteraction function (oleacc.h)
-description: Allows an assistive technology (AT) application to notify the system that it is interacting with UI through a Windows Automation API (such as Microsoft UI Automation) as a result of a touch gesture from the user.helpviewer_keywords: ["AccNotifyTouchInteraction","AccNotifyTouchInteraction function [Windows Accessibility]","oleacc/AccNotifyTouchInteraction","winauto.accnotifytouchinteraction"]
+description: Allows an assistive technology (AT) application to notify the system that it is interacting with UI through a Windows Automation API (such as Microsoft UI Automation) as a result of a touch gesture from the user.
+helpviewer_keywords: ["AccNotifyTouchInteraction","AccNotifyTouchInteraction function [Windows Accessibility]","oleacc/AccNotifyTouchInteraction","winauto.accnotifytouchinteraction"]
 old-location: winauto\accnotifytouchinteraction.htm
 tech.root: WinAuto
 ms.assetid: CB533913-95A7-45D5-B0D3-E931E4F73B2E

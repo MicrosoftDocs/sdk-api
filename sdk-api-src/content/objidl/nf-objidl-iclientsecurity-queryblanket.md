@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IClientSecurity.QueryBlanket
 title: IClientSecurity::QueryBlanket (objidl.h)
-description: Retrieves authentication information the client uses to make calls on the specified proxy.helpviewer_keywords: ["IClientSecurity interface [COM]","QueryBlanket method","IClientSecurity.QueryBlanket","IClientSecurity::QueryBlanket","QueryBlanket","QueryBlanket method [COM]","QueryBlanket method [COM]","IClientSecurity interface","_com_iclientsecurity_queryblanket","com.iclientsecurity_queryblanket","objidlbase/IClientSecurity::QueryBlanket"]
+description: Retrieves authentication information the client uses to make calls on the specified proxy.
+helpviewer_keywords: ["IClientSecurity interface [COM]","QueryBlanket method","IClientSecurity.QueryBlanket","IClientSecurity::QueryBlanket","QueryBlanket","QueryBlanket method [COM]","QueryBlanket method [COM]","IClientSecurity interface","_com_iclientsecurity_queryblanket","com.iclientsecurity_queryblanket","objidlbase/IClientSecurity::QueryBlanket"]
 old-location: com\iclientsecurity_queryblanket.htm
 tech.root: com
 ms.assetid: 8761bb58-9f28-4fe6-bf24-2687608ec5e8

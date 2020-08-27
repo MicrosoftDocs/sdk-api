@@ -1,9 +1,10 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.StartInitialization
 title: IOPMVideoOutput::StartInitialization (opmapi.h)
-description: Begins the initialization sequence for an Output Protection Manager (OPM) session.helpviewer_keywords: ["IOPMVideoOutput interface [Media Foundation]","StartInitialization method","IOPMVideoOutput.StartInitialization","IOPMVideoOutput::StartInitialization","StartInitialization","StartInitialization method [Media Foundation]","StartInitialization method [Media Foundation]","IOPMVideoOutput interface","mf.iopmvideooutput_iopmvideooutput__startinitialization","opmapi/IOPMVideoOutput::StartInitialization"]
+description: Begins the initialization sequence for an Output Protection Manager (OPM) session.
+helpviewer_keywords: ["IOPMVideoOutput interface [Media Foundation]","StartInitialization method","IOPMVideoOutput.StartInitialization","IOPMVideoOutput::StartInitialization","StartInitialization","StartInitialization method [Media Foundation]","StartInitialization method [Media Foundation]","IOPMVideoOutput interface","mf.iopmvideooutput_iopmvideooutput__startinitialization","opmapi/IOPMVideoOutput::StartInitialization"]
 old-location: mf\iopmvideooutput_iopmvideooutput__startinitialization.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
 ms.date: 12/05/2018
 ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization

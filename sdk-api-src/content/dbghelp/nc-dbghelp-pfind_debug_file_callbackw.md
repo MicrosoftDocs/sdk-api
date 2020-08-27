@@ -1,7 +1,8 @@
 ---
 UID: NC:dbghelp.PFIND_DEBUG_FILE_CALLBACKW
 title: PFIND_DEBUG_FILE_CALLBACKW (dbghelp.h)
-description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.helpviewer_keywords: ["FindDebugInfoFileProc","FindDebugInfoFileProc callback","FindDebugInfoFileProc callback function","PFIND_DEBUG_FILE_CALLBACK","PFIND_DEBUG_FILE_CALLBACKW","_win32_finddebuginfofileproc","base.finddebuginfofileproc","dbghelp/FindDebugInfoFileProc"]
+description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.
+helpviewer_keywords: ["FindDebugInfoFileProc","FindDebugInfoFileProc callback","FindDebugInfoFileProc callback function","PFIND_DEBUG_FILE_CALLBACK","PFIND_DEBUG_FILE_CALLBACKW","_win32_finddebuginfofileproc","base.finddebuginfofileproc","dbghelp/FindDebugInfoFileProc"]
 old-location: base\finddebuginfofileproc.htm
 tech.root: Debug
 ms.assetid: c7ccc66a-7897-4430-8874-a4ba66a5cce7
@@ -96,6 +97,10 @@ One way to verify the symbol file is to compare its timestamp to the timestamp i
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines PFIND_DEBUG_FILE_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

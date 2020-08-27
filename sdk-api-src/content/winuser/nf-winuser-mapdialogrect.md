@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MapDialogRect
 title: MapDialogRect function (winuser.h)
-description: Converts the specified dialog box units to screen units (pixels).helpviewer_keywords: ["MapDialogRect","MapDialogRect function [Dialog Boxes]","_win32_MapDialogRect","_win32_mapdialogrect_cpp","dlgbox.mapdialogrect","winui._win32_mapdialogrect","winuser/MapDialogRect"]
+description: Converts the specified dialog box units to screen units (pixels).
+helpviewer_keywords: ["MapDialogRect","MapDialogRect function [Dialog Boxes]","_win32_MapDialogRect","_win32_mapdialogrect_cpp","dlgbox.mapdialogrect","winui._win32_mapdialogrect","winuser/MapDialogRect"]
 old-location: dlgbox\mapdialogrect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\mapdialogrect.htm

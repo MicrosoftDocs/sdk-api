@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.DeleteVirtualDiskMetadata
 title: DeleteVirtualDiskMetadata function (virtdisk.h)
-description: Deletes metadata from a virtual disk.helpviewer_keywords: ["DeleteVirtualDiskMetadata","DeleteVirtualDiskMetadata function [Virtual Storage]","virtdisk/DeleteVirtualDiskMetadata","vstor.deletevirtualdiskmetadata"]
+description: Deletes metadata from a virtual disk.
+helpviewer_keywords: ["DeleteVirtualDiskMetadata","DeleteVirtualDiskMetadata function [Virtual Storage]","virtdisk/DeleteVirtualDiskMetadata","vstor.deletevirtualdiskmetadata"]
 old-location: vstor\deletevirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 16fbb793-84a9-4dac-a85e-0f4f50ae8e35

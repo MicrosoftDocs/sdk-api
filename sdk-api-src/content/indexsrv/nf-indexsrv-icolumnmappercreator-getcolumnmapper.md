@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IColumnMapperCreator.GetColumnMapper
 title: IColumnMapperCreator::GetColumnMapper (indexsrv.h)
-description: Retrieves a column mapper object.helpviewer_keywords: ["GetColumnMapper","GetColumnMapper method [search]","GetColumnMapper method [search]","IColumnMapperCreator interface","IColumnMapperCreator interface [search]","GetColumnMapper method","IColumnMapperCreator.GetColumnMapper","IColumnMapperCreator::GetColumnMapper","indexsrv/IColumnMapperCreator::GetColumnMapper","search.icolumnmappercreator_getcolumnmapper"]
+description: Retrieves a column mapper object.
+helpviewer_keywords: ["GetColumnMapper","GetColumnMapper method [search]","GetColumnMapper method [search]","IColumnMapperCreator interface","IColumnMapperCreator interface [search]","GetColumnMapper method","IColumnMapperCreator.GetColumnMapper","IColumnMapperCreator::GetColumnMapper","indexsrv/IColumnMapperCreator::GetColumnMapper","search.icolumnmappercreator_getcolumnmapper"]
 old-location: search\icolumnmappercreator_getcolumnmapper.htm
 tech.root: search
 ms.assetid: DFFB27B0-EB82-41A4-A7EE-82495023DD2D

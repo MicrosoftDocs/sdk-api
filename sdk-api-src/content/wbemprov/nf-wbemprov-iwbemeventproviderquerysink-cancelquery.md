@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemprov.IWbemEventProviderQuerySink.CancelQuery
 title: IWbemEventProviderQuerySink::CancelQuery (wbemprov.h)
-description: Call the IWbemEventProviderQuerySink::CancelQuery method whenever a logical event consumer cancels a relevant event query filter with Windows Management.helpviewer_keywords: ["CancelQuery","CancelQuery method [Windows Management Instrumentation]","CancelQuery method [Windows Management Instrumentation]","IWbemEventProviderQuerySink interface","IWbemEventProviderQuerySink interface [Windows Management Instrumentation]","CancelQuery method","IWbemEventProviderQuerySink.CancelQuery","IWbemEventProviderQuerySink::CancelQuery","_hmm_iwbemeventproviderquerysink_cancelquery","wbemprov/IWbemEventProviderQuerySink::CancelQuery","wmi.iwbemeventproviderquerysink_cancelquery"]
+description: Call the IWbemEventProviderQuerySink::CancelQuery method whenever a logical event consumer cancels a relevant event query filter with Windows Management.
+helpviewer_keywords: ["CancelQuery","CancelQuery method [Windows Management Instrumentation]","CancelQuery method [Windows Management Instrumentation]","IWbemEventProviderQuerySink interface","IWbemEventProviderQuerySink interface [Windows Management Instrumentation]","CancelQuery method","IWbemEventProviderQuerySink.CancelQuery","IWbemEventProviderQuerySink::CancelQuery","_hmm_iwbemeventproviderquerysink_cancelquery","wbemprov/IWbemEventProviderQuerySink::CancelQuery","wmi.iwbemeventproviderquerysink_cancelquery"]
 old-location: wmi\iwbemeventproviderquerysink_cancelquery.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e
 ms.date: 12/05/2018
 ms.keywords: CancelQuery, CancelQuery method [Windows Management Instrumentation], CancelQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, IWbemEventProviderQuerySink interface [Windows Management Instrumentation],CancelQuery method, IWbemEventProviderQuerySink.CancelQuery, IWbemEventProviderQuerySink::CancelQuery, _hmm_iwbemeventproviderquerysink_cancelquery, wbemprov/IWbemEventProviderQuerySink::CancelQuery, wmi.iwbemeventproviderquerysink_cancelquery

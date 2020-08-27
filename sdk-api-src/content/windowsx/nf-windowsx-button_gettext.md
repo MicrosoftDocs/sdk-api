@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.Button_GetText
 title: Button_GetText macro (windowsx.h)
-description: Gets the text of a button.helpviewer_keywords: ["Button_GetText","Button_GetText macro [Windows Controls]","_win32_Button_GetText","_win32_Button_GetText_cpp","controls.Button_GetText","controls._win32_Button_GetText","windowsx/Button_GetText"]
+description: Gets the text of a button.
+helpviewer_keywords: ["Button_GetText","Button_GetText macro [Windows Controls]","_win32_Button_GetText","_win32_Button_GetText_cpp","controls.Button_GetText","controls._win32_Button_GetText","windowsx/Button_GetText"]
 old-location: controls\Button_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettext.htm

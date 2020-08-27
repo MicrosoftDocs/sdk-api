@@ -1,9 +1,10 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_TotalBytesDownloaded
 title: IDownloadProgress::get_TotalBytesDownloaded (wuapi.h)
-description: Gets a string that specifies the total amount of data that has been downloaded, in bytes.helpviewer_keywords: ["IDownloadProgress interface [Windows Update Agent]","TotalBytesDownloaded property","IDownloadProgress.TotalBytesDownloaded","IDownloadProgress.get_TotalBytesDownloaded","IDownloadProgress::TotalBytesDownloaded","IDownloadProgress::get_TotalBytesDownloaded","TotalBytesDownloaded property [Windows Update Agent]","TotalBytesDownloaded property [Windows Update Agent]","IDownloadProgress interface","get_TotalBytesDownloaded","wua.idownloadprogress_totalbytesdownloaded","wuapi/IDownloadProgress::TotalBytesDownloaded","wuapi/IDownloadProgress::get_TotalBytesDownloaded"]
+description: Gets a string that specifies the total amount of data that has been downloaded, in bytes.
+helpviewer_keywords: ["IDownloadProgress interface [Windows Update Agent]","TotalBytesDownloaded property","IDownloadProgress.TotalBytesDownloaded","IDownloadProgress.get_TotalBytesDownloaded","IDownloadProgress::TotalBytesDownloaded","IDownloadProgress::get_TotalBytesDownloaded","TotalBytesDownloaded property [Windows Update Agent]","TotalBytesDownloaded property [Windows Update Agent]","IDownloadProgress interface","get_TotalBytesDownloaded","wua.idownloadprogress_totalbytesdownloaded","wuapi/IDownloadProgress::TotalBytesDownloaded","wuapi/IDownloadProgress::get_TotalBytesDownloaded"]
 old-location: wua\idownloadprogress_totalbytesdownloaded.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 83d8f7d2-e06d-461a-be45-ebbb448b2480
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesDownloaded property, IDownloadProgress.TotalBytesDownloaded, IDownloadProgress.get_TotalBytesDownloaded, IDownloadProgress::TotalBytesDownloaded, IDownloadProgress::get_TotalBytesDownloaded, TotalBytesDownloaded property [Windows Update Agent], TotalBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesDownloaded, wua.idownloadprogress_totalbytesdownloaded, wuapi/IDownloadProgress::TotalBytesDownloaded, wuapi/IDownloadProgress::get_TotalBytesDownloaded

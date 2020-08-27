@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.GetSystemInfo
 title: GetSystemInfo function (sysinfoapi.h)
-description: Retrieves information about the current system.helpviewer_keywords: ["GetSystemInfo","GetSystemInfo function","_win32_getsysteminfo","base.getsysteminfo","sysinfoapi/GetSystemInfo"]
+description: Retrieves information about the current system.
+helpviewer_keywords: ["GetSystemInfo","GetSystemInfo function","_win32_getsysteminfo","base.getsysteminfo","sysinfoapi/GetSystemInfo"]
 old-location: base\getsysteminfo.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f6d745af-729a-494e-90b4-19fe7d97c7af
 ms.date: 12/05/2018
 ms.keywords: GetSystemInfo, GetSystemInfo function, _win32_getsysteminfo, base.getsysteminfo, sysinfoapi/GetSystemInfo

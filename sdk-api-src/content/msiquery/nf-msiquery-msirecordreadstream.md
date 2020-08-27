@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiRecordReadStream
 title: MsiRecordReadStream function (msiquery.h)
-description: The MsiRecordReadStream function reads bytes from a record stream field into a buffer.helpviewer_keywords: ["MsiRecordReadStream","MsiRecordReadStream function","_msi_msirecordreadstream","msiquery/MsiRecordReadStream","setup.msirecordreadstream"]
+description: The MsiRecordReadStream function reads bytes from a record stream field into a buffer.
+helpviewer_keywords: ["MsiRecordReadStream","MsiRecordReadStream function","_msi_msirecordreadstream","msiquery/MsiRecordReadStream","setup.msirecordreadstream"]
 old-location: setup\msirecordreadstream.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a7ff84f0-15d2-4fb2-98c7-8fb8d2f14004
 ms.date: 12/05/2018
 ms.keywords: MsiRecordReadStream, MsiRecordReadStream function, _msi_msirecordreadstream, msiquery/MsiRecordReadStream, setup.msirecordreadstream

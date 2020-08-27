@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.GetSignatureAlgorithm
 title: IX509SignatureInformation::GetSignatureAlgorithm (certenroll.h)
-description: Retrieves the signing algorithm object identifier (OID).helpviewer_keywords: ["GetSignatureAlgorithm","GetSignatureAlgorithm method [Security]","GetSignatureAlgorithm method [Security]","IX509SignatureInformation interface","IX509SignatureInformation interface [Security]","GetSignatureAlgorithm method","IX509SignatureInformation.GetSignatureAlgorithm","IX509SignatureInformation::GetSignatureAlgorithm","certenroll/IX509SignatureInformation::GetSignatureAlgorithm","security.ix509signatureinformation_getsignaturealgorithm_method"]
+description: Retrieves the signing algorithm object identifier (OID).
+helpviewer_keywords: ["GetSignatureAlgorithm","GetSignatureAlgorithm method [Security]","GetSignatureAlgorithm method [Security]","IX509SignatureInformation interface","IX509SignatureInformation interface [Security]","GetSignatureAlgorithm method","IX509SignatureInformation.GetSignatureAlgorithm","IX509SignatureInformation::GetSignatureAlgorithm","certenroll/IX509SignatureInformation::GetSignatureAlgorithm","security.ix509signatureinformation_getsignaturealgorithm_method"]
 old-location: security\ix509signatureinformation_getsignaturealgorithm_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e5b43e74-d802-43ff-bdf2-96ab475c31e7
 ms.date: 12/05/2018
 ms.keywords: GetSignatureAlgorithm, GetSignatureAlgorithm method [Security], GetSignatureAlgorithm method [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],GetSignatureAlgorithm method, IX509SignatureInformation.GetSignatureAlgorithm, IX509SignatureInformation::GetSignatureAlgorithm, certenroll/IX509SignatureInformation::GetSignatureAlgorithm, security.ix509signatureinformation_getsignaturealgorithm_method

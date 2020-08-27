@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.UpdateCommands
 title: ID2D1SvgPathData::UpdateCommands (d2d1svg.h)
-description: Updates the commands array. Existing commands not updated by this method are preserved. The array is resized larger if necessary to accomodate the new commands.helpviewer_keywords: ["ID2D1SvgPathData interface [Direct2D]","UpdateCommands method","ID2D1SvgPathData.UpdateCommands","ID2D1SvgPathData::UpdateCommands","UpdateCommands","UpdateCommands method [Direct2D]","UpdateCommands method [Direct2D]","ID2D1SvgPathData interface","d2d1svg/ID2D1SvgPathData::UpdateCommands","direct2d.id2d1svgpathdata_updatecommands"]
+description: Updates the commands array. Existing commands not updated by this method are preserved. The array is resized larger if necessary to accomodate the new commands.
+helpviewer_keywords: ["ID2D1SvgPathData interface [Direct2D]","UpdateCommands method","ID2D1SvgPathData.UpdateCommands","ID2D1SvgPathData::UpdateCommands","UpdateCommands","UpdateCommands method [Direct2D]","UpdateCommands method [Direct2D]","ID2D1SvgPathData interface","d2d1svg/ID2D1SvgPathData::UpdateCommands","direct2d.id2d1svgpathdata_updatecommands"]
 old-location: direct2d\id2d1svgpathdata_updatecommands.htm
 tech.root: Direct2D
 ms.assetid: B6A6BC06-01C4-47D0-BC3C-7E0CE1A926F4

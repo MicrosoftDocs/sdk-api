@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_GAMMA
 title: D2D1_GAMMA (d2d1.h)
-description: Specifies which gamma is used for interpolation.helpviewer_keywords: ["D2D1_GAMMA","D2D1_GAMMA enumeration [Direct2D]","D2D1_GAMMA_1_0","D2D1_GAMMA_2_2","d2d1/D2D1_GAMMA","d2d1/D2D1_GAMMA_1_0","d2d1/D2D1_GAMMA_2_2","direct2d.D2D1_GAMMA"]
+description: Specifies which gamma is used for interpolation.
+helpviewer_keywords: ["D2D1_GAMMA","D2D1_GAMMA enumeration [Direct2D]","D2D1_GAMMA_1_0","D2D1_GAMMA_2_2","d2d1/D2D1_GAMMA","d2d1/D2D1_GAMMA_1_0","d2d1/D2D1_GAMMA_2_2","direct2d.D2D1_GAMMA"]
 old-location: direct2d\D2D1_GAMMA.htm
 tech.root: Direct2D
 ms.assetid: c84c66c6-5f4a-41de-938c-76a409145971

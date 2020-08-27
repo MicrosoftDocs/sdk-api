@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaType
 title: IMediaSample::GetMediaType (strmif.h)
-description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample.helpviewer_keywords: ["GetMediaType","GetMediaType method [DirectShow]","GetMediaType method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetMediaType method","IMediaSample.GetMediaType","IMediaSample::GetMediaType","IMediaSampleGetMediaType","dshow.imediasample_getmediatype","strmif/IMediaSample::GetMediaType"]
+description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample.
+helpviewer_keywords: ["GetMediaType","GetMediaType method [DirectShow]","GetMediaType method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetMediaType method","IMediaSample.GetMediaType","IMediaSample::GetMediaType","IMediaSampleGetMediaType","dshow.imediasample_getmediatype","strmif/IMediaSample::GetMediaType"]
 old-location: dshow\imediasample_getmediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaType method, IMediaSample.GetMediaType, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType

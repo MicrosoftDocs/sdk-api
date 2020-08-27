@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottom(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetBottom(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the Bottom property of a clip rectangle.helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetBottom method","IDCompositionRectangleClip.SetBottom","IDCompositionRectangleClip.SetBottom(IDCompositionAnimation)","IDCompositionRectangleClip::SetBottom","IDCompositionRectangleClip::SetBottom(IDCompositionAnimation)","IDCompositionRectangleClip::SetBottom(IDCompositionAnimation*)","SetBottom","SetBottom method [DirectComposition]","SetBottom method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetBottom","directcomp.idcompositionrectangleclip_setbottom_idcompositionanimation"]
+description: Animates the value of the Bottom property of a clip rectangle.
+helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetBottom method","IDCompositionRectangleClip.SetBottom","IDCompositionRectangleClip.SetBottom(IDCompositionAnimation)","IDCompositionRectangleClip::SetBottom","IDCompositionRectangleClip::SetBottom(IDCompositionAnimation)","IDCompositionRectangleClip::SetBottom(IDCompositionAnimation*)","SetBottom","SetBottom method [DirectComposition]","SetBottom method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetBottom","directcomp.idcompositionrectangleclip_setbottom_idcompositionanimation"]
 old-location: directcomp\idcompositionrectangleclip_setbottom_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: C8236E96-125E-4F8C-B85D-AF3ADDF0A825

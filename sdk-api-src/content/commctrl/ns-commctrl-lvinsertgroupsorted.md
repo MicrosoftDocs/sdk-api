@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLVINSERTGROUPSORTED
 title: LVINSERTGROUPSORTED (commctrl.h)
-description: Used to sort groups. It is used with LVM_INSERTGROUPSORTED.helpviewer_keywords: ["*PLVINSERTGROUPSORTED","LVINSERTGROUPSORTED","LVINSERTGROUPSORTED structure [Windows Controls]","PLVINSERTGROUPSORTED","PLVINSERTGROUPSORTED structure pointer [Windows Controls]","commctrl/LVINSERTGROUPSORTED","commctrl/PLVINSERTGROUPSORTED","controls.LVINSERTGROUPSORTED","controls.inet_LVINSERTGROUPSORTED","inet_LVINSERTGROUPSORTED","inet_LVINSERTGROUPSORTED_cpp"]
+description: Used to sort groups. It is used with LVM_INSERTGROUPSORTED.
+helpviewer_keywords: ["*PLVINSERTGROUPSORTED","LVINSERTGROUPSORTED","LVINSERTGROUPSORTED structure [Windows Controls]","PLVINSERTGROUPSORTED","PLVINSERTGROUPSORTED structure pointer [Windows Controls]","commctrl/LVINSERTGROUPSORTED","commctrl/PLVINSERTGROUPSORTED","controls.LVINSERTGROUPSORTED","controls.inet_LVINSERTGROUPSORTED","inet_LVINSERTGROUPSORTED","inet_LVINSERTGROUPSORTED_cpp"]
 old-location: controls\LVINSERTGROUPSORTED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertgroupsorted.htm

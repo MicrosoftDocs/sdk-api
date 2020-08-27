@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2.StartEngine
 title: IXAudio2::StartEngine (xaudio2.h)
-description: Starts the audio processing thread.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","StartEngine method","IXAudio2.StartEngine","IXAudio2::StartEngine","StartEngine","StartEngine method [XAudio2 Audio Mixing APIs]","StartEngine method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_startengine","xaudio2/IXAudio2::StartEngine"]
+description: Starts the audio processing thread.
+helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","StartEngine method","IXAudio2.StartEngine","IXAudio2::StartEngine","StartEngine","StartEngine method [XAudio2 Audio Mixing APIs]","StartEngine method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_startengine","xaudio2/IXAudio2::StartEngine"]
 old-location: xaudio2\ixaudio2_interface_startengine.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.StartEngine

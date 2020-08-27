@@ -1,9 +1,10 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateGeneralFlag
 title: X509CertificateTemplateGeneralFlag (certenroll.h)
-description: Contains use and modification information about templates and associated certificates.helpviewer_keywords: ["GeneralCA","GeneralCrossCA","GeneralDefault","GeneralDonotPersist","GeneralMachineType","GeneralModified","X509CertificateTemplateGeneralFlag","X509CertificateTemplateGeneralFlag enumeration [Security]","certenroll/GeneralCA","certenroll/GeneralCrossCA","certenroll/GeneralDefault","certenroll/GeneralDonotPersist","certenroll/GeneralMachineType","certenroll/GeneralModified","certenroll/X509CertificateTemplateGeneralFlag","security.x509certificatetemplategeneralflag"]
+description: Contains use and modification information about templates and associated certificates.
+helpviewer_keywords: ["GeneralCA","GeneralCrossCA","GeneralDefault","GeneralDonotPersist","GeneralMachineType","GeneralModified","X509CertificateTemplateGeneralFlag","X509CertificateTemplateGeneralFlag enumeration [Security]","certenroll/GeneralCA","certenroll/GeneralCrossCA","certenroll/GeneralDefault","certenroll/GeneralDonotPersist","certenroll/GeneralMachineType","certenroll/GeneralModified","certenroll/X509CertificateTemplateGeneralFlag","security.x509certificatetemplategeneralflag"]
 old-location: security\x509certificatetemplategeneralflag.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0211dd53-39b7-49fb-8acd-e4d02a226904
 ms.date: 12/05/2018
 ms.keywords: GeneralCA, GeneralCrossCA, GeneralDefault, GeneralDonotPersist, GeneralMachineType, GeneralModified, X509CertificateTemplateGeneralFlag, X509CertificateTemplateGeneralFlag enumeration [Security], certenroll/GeneralCA, certenroll/GeneralCrossCA, certenroll/GeneralDefault, certenroll/GeneralDonotPersist, certenroll/GeneralMachineType, certenroll/GeneralModified, certenroll/X509CertificateTemplateGeneralFlag, security.x509certificatetemplategeneralflag

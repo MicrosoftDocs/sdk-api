@@ -4,7 +4,7 @@ title: FSCTL_READ_FILE_USN_DATA
 description: Retrieves the update sequence number (USN) change-journal information for the specified file or directory.
 helpviewer_keywords: ["FSCTL_READ_FILE_USN_DATA","FSCTL_READ_FILE_USN_DATA control","FSCTL_READ_FILE_USN_DATA control code [Files]","base.fsctl_read_file_usn_data","fs.fsctl_read_file_usn_data","winioctl/FSCTL_READ_FILE_USN_DATA"]
 old-location: fs\fsctl_read_file_usn_data.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 22c797c8-87c8-4d45-b163-4573e6ed17e1
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FILE_USN_DATA, FSCTL_READ_FILE_USN_DATA control, FSCTL_READ_FILE_USN_DATA control code [Files], base.fsctl_read_file_usn_data, fs.fsctl_read_file_usn_data, winioctl/FSCTL_READ_FILE_USN_DATA

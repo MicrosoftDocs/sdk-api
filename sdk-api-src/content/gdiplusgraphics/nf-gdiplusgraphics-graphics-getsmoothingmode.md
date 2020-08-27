@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetSmoothingMode
 title: Graphics::GetSmoothingMode (gdiplusgraphics.h)
-description: The Graphics::GetSmoothingMode method determines whether smoothing (antialiasing) is applied to the Graphics object.helpviewer_keywords: ["GetSmoothingMode","GetSmoothingMode method [GDI+]","GetSmoothingMode method [GDI+]","Graphics class","Graphics class [GDI+]","GetSmoothingMode method","Graphics.GetSmoothingMode","Graphics::GetSmoothingMode","_gdiplus_CLASS_Graphics_GetSmoothingMode_","gdiplus._gdiplus_CLASS_Graphics_GetSmoothingMode_"]
+description: The Graphics::GetSmoothingMode method determines whether smoothing (antialiasing) is applied to the Graphics object.
+helpviewer_keywords: ["GetSmoothingMode","GetSmoothingMode method [GDI+]","GetSmoothingMode method [GDI+]","Graphics class","Graphics class [GDI+]","GetSmoothingMode method","Graphics.GetSmoothingMode","Graphics::GetSmoothingMode","_gdiplus_CLASS_Graphics_GetSmoothingMode_","gdiplus._gdiplus_CLASS_Graphics_GetSmoothingMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetSmoothingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getsmoothingmode.htm

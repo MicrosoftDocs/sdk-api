@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_ACTION0_
 title: FWPM_ACTION0 (fwpmtypes.h)
-description: Specifies the action taken if all the filter conditions are true.helpviewer_keywords: ["FWPM_ACTION0","FWPM_ACTION0 structure [Filtering]","FWP_ACTION_BLOCK","FWP_ACTION_CALLOUT_INSPECTION","FWP_ACTION_CALLOUT_TERMINATING","FWP_ACTION_CALLOUT_UNKNOWN","FWP_ACTION_PERMIT","fwp.fwpm_action0_struct","fwpmtypes/FWPM_ACTION0"]
+description: Specifies the action taken if all the filter conditions are true.
+helpviewer_keywords: ["FWPM_ACTION0","FWPM_ACTION0 structure [Filtering]","FWP_ACTION_BLOCK","FWP_ACTION_CALLOUT_INSPECTION","FWP_ACTION_CALLOUT_TERMINATING","FWP_ACTION_CALLOUT_UNKNOWN","FWP_ACTION_PERMIT","fwp.fwpm_action0_struct","fwpmtypes/FWPM_ACTION0"]
 old-location: fwp\fwpm_action0_struct.htm
 tech.root: fwp
 ms.assetid: 070e1324-d41d-4001-bf26-97465bf87f98

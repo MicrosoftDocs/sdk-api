@@ -1,7 +1,8 @@
 ---
 UID: NS:mtpext._MTP_COMMAND_DATA_OUT
 title: MTP_COMMAND_DATA_OUT (mtpext.h)
-description: The MTP_COMMAND_DATA_OUT structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to IWMDMDevice3::DeviceIoControl.helpviewer_keywords: ["*PMTP_COMMAND_DATA_OUT","MTP_COMMAND_DATA_OUT","MTP_COMMAND_DATA_OUT structure [windows Media Device Manager]","PMTP_COMMAND_DATA_OUT","PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager]","mtpext/MTP_COMMAND_DATA_OUT","mtpext/PMTP_COMMAND_DATA_OUT","wmdm.mtp_command_data_out"]
+description: The MTP_COMMAND_DATA_OUT structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to IWMDMDevice3::DeviceIoControl.
+helpviewer_keywords: ["*PMTP_COMMAND_DATA_OUT","MTP_COMMAND_DATA_OUT","MTP_COMMAND_DATA_OUT structure [windows Media Device Manager]","PMTP_COMMAND_DATA_OUT","PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager]","mtpext/MTP_COMMAND_DATA_OUT","mtpext/PMTP_COMMAND_DATA_OUT","wmdm.mtp_command_data_out"]
 old-location: wmdm\mtp_command_data_out.htm
 tech.root: WMDM
 ms.assetid: ddaf49c8-99df-4e21-a633-82e08691f088
@@ -80,14 +81,9 @@ Parameters of the response. <b>MTP_RESPONSE_MAX_PARAMS</b> is a defined constant
 Data size of <b>CommandReadData</b>[1], in bytes.
 
 
-### -field CommandReadData
-
- 
 
 
-
-
-#### - CommandReadData[1]
+### -field CommandReadData [1]
 
 Optional, first byte of data to read from the device if <b>MTP_COMMAND_DATA_IN.NextPhase</b> is MTP_NEXTPHASE_READ_DATA.
 

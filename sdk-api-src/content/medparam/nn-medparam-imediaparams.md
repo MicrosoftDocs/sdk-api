@@ -1,9 +1,10 @@
 ---
 UID: NN:medparam.IMediaParams
 title: IMediaParams (medparam.h)
-description: The IMediaParams interface sets and retrieves envelope-following parameters on an object.helpviewer_keywords: ["IMediaParams","IMediaParams interface [DirectShow]","IMediaParams interface [DirectShow]","described","IMediaParamsInterface","dshow.imediaparams","medparam/IMediaParams"]
+description: The IMediaParams interface sets and retrieves envelope-following parameters on an object.
+helpviewer_keywords: ["IMediaParams","IMediaParams interface [DirectShow]","IMediaParams interface [DirectShow]","described","IMediaParamsInterface","dshow.imediaparams","medparam/IMediaParams"]
 old-location: dshow\imediaparams.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
 ms.date: 12/05/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams

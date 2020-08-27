@@ -1,9 +1,10 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMCoreProperties
 title: IXpsOMCoreProperties (xpsobjectmodel.h)
-description: This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.helpviewer_keywords: ["IXpsOMCoreProperties","IXpsOMCoreProperties interface [XPS Documents and Packaging]","IXpsOMCoreProperties interface [XPS Documents and Packaging]","described","xps.ixpsomcoreproperties","xpsobjectmodel/IXpsOMCoreProperties"]
+description: This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.
+helpviewer_keywords: ["IXpsOMCoreProperties","IXpsOMCoreProperties interface [XPS Documents and Packaging]","IXpsOMCoreProperties interface [XPS Documents and Packaging]","described","xps.ixpsomcoreproperties","xpsobjectmodel/IXpsOMCoreProperties"]
 old-location: xps\ixpsomcoreproperties.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 705ec9c7-5aa9-4fc5-ad2c-441cb545d056
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties

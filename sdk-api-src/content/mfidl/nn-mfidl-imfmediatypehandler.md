@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFMediaTypeHandler
 title: IMFMediaTypeHandler (mfidl.h)
-description: Gets and sets media types on an object, such as a media source or media sink.helpviewer_keywords: ["5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36","IMFMediaTypeHandler","IMFMediaTypeHandler interface [Media Foundation]","IMFMediaTypeHandler interface [Media Foundation]","described","mf.imfmediatypehandler","mfidl/IMFMediaTypeHandler"]
+description: Gets and sets media types on an object, such as a media source or media sink.
+helpviewer_keywords: ["5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36","IMFMediaTypeHandler","IMFMediaTypeHandler interface [Media Foundation]","IMFMediaTypeHandler interface [Media Foundation]","described","mf.imfmediatypehandler","mfidl/IMFMediaTypeHandler"]
 old-location: mf\imfmediatypehandler.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36
 ms.date: 12/05/2018
 ms.keywords: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], IMFMediaTypeHandler interface [Media Foundation],described, mf.imfmediatypehandler, mfidl/IMFMediaTypeHandler

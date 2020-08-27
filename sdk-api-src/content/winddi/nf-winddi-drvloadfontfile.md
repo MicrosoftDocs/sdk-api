@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvLoadFontFile
 title: DrvLoadFontFile function (winddi.h)
-description: The DrvLoadFontFile function receives information from GDI relating to loading and mapping font files.helpviewer_keywords: ["DrvLoadFontFile","DrvLoadFontFile function [Display Devices]","ddifncs_42238b28-ad71-4df8-b572-4ffd7ca2d3c1.xml","display.drvloadfontfile","winddi/DrvLoadFontFile"]
+description: The DrvLoadFontFile function receives information from GDI relating to loading and mapping font files.
+helpviewer_keywords: ["DrvLoadFontFile","DrvLoadFontFile function [Display Devices]","ddifncs_42238b28-ad71-4df8-b572-4ffd7ca2d3c1.xml","display.drvloadfontfile","winddi/DrvLoadFontFile"]
 old-location: display\drvloadfontfile.htm
 tech.root: display
 ms.assetid: d9bcf8f8-40bc-48dc-85b7-67773c8a4ded

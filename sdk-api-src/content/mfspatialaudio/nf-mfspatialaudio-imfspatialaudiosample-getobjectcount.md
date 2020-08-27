@@ -1,9 +1,10 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetObjectCount
 title: IMFSpatialAudioSample::GetObjectCount (mfspatialaudio.h)
-description: Gets the count of spatial audio objects, represented by IMFSpatialAudioObjectBuffer objects, in the sample.helpviewer_keywords: ["GetObjectCount","GetObjectCount method [Media Foundation]","GetObjectCount method [Media Foundation]","IMFSpatialAudioSample interface","IMFSpatialAudioSample interface [Media Foundation]","GetObjectCount method","IMFSpatialAudioSample.GetObjectCount","IMFSpatialAudioSample::GetObjectCount","mf.imfspatialaudiosample_getobjectcount","mfspatialaudio/IMFSpatialAudioSample::GetObjectCount"]
+description: Gets the count of spatial audio objects, represented by IMFSpatialAudioObjectBuffer objects, in the sample.
+helpviewer_keywords: ["GetObjectCount","GetObjectCount method [Media Foundation]","GetObjectCount method [Media Foundation]","IMFSpatialAudioSample interface","IMFSpatialAudioSample interface [Media Foundation]","GetObjectCount method","IMFSpatialAudioSample.GetObjectCount","IMFSpatialAudioSample::GetObjectCount","mf.imfspatialaudiosample_getobjectcount","mfspatialaudio/IMFSpatialAudioSample::GetObjectCount"]
 old-location: mf\imfspatialaudiosample_getobjectcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D386E482-4C5A-4F8A-801F-EA1AD4C9157C
 ms.date: 12/05/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Media Foundation], GetObjectCount method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetObjectCount method, IMFSpatialAudioSample.GetObjectCount, IMFSpatialAudioSample::GetObjectCount, mf.imfspatialaudiosample_getobjectcount, mfspatialaudio/IMFSpatialAudioSample::GetObjectCount

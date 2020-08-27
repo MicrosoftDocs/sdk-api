@@ -1,9 +1,10 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.AddEffect
 title: IMFCaptureSource::AddEffect (mfcaptureengine.h)
-description: Adds an effect to a capture stream.helpviewer_keywords: ["AddEffect","AddEffect method [Media Foundation]","AddEffect method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","AddEffect method","IMFCaptureSource.AddEffect","IMFCaptureSource::AddEffect","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","mf.imfcapturesource_addeffect","mfcaptureengine/IMFCaptureSource::AddEffect"]
+description: Adds an effect to a capture stream.
+helpviewer_keywords: ["AddEffect","AddEffect method [Media Foundation]","AddEffect method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","AddEffect method","IMFCaptureSource.AddEffect","IMFCaptureSource::AddEffect","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","mf.imfcapturesource_addeffect","mfcaptureengine/IMFCaptureSource::AddEffect"]
 old-location: mf\imfcapturesource_addeffect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C108360D-0B8C-4539-9D78-A5559100086E
 ms.date: 12/05/2018
 ms.keywords: AddEffect, AddEffect method [Media Foundation], AddEffect method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],AddEffect method, IMFCaptureSource.AddEffect, IMFCaptureSource::AddEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_addeffect, mfcaptureengine/IMFCaptureSource::AddEffect

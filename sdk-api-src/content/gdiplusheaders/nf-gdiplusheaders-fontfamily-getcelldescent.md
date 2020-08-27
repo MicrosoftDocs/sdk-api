@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetCellDescent
 title: FontFamily::GetCellDescent (gdiplusheaders.h)
-description: The FontFamily::GetCellDescent method gets the cell descent, in design units, of this font family for the specified style or style combination.helpviewer_keywords: ["FontFamily class [GDI+]","GetCellDescent method","FontFamily.GetCellDescent","FontFamily::GetCellDescent","GetCellDescent","GetCellDescent method [GDI+]","GetCellDescent method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetCellDescent_style_","gdiplus._gdiplus_CLASS_FontFamily_GetCellDescent_style_"]
+description: The FontFamily::GetCellDescent method gets the cell descent, in design units, of this font family for the specified style or style combination.
+helpviewer_keywords: ["FontFamily class [GDI+]","GetCellDescent method","FontFamily.GetCellDescent","FontFamily::GetCellDescent","GetCellDescent","GetCellDescent method [GDI+]","GetCellDescent method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetCellDescent_style_","gdiplus._gdiplus_CLASS_FontFamily_GetCellDescent_style_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetCellDescent_style_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getcelldescent.htm

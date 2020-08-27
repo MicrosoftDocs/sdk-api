@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_Description
 title: IWdsTransportContentProvider::get_Description (wdstptmgmt.h)
-description: Retrieves the description of the content provider.helpviewer_keywords: ["Description property [Windows Deployment Services]","Description property [Windows Deployment Services]","IWdsTransportContentProvider interface","IWdsTransportContentProvider interface [Windows Deployment Services]","Description property","IWdsTransportContentProvider.Description","IWdsTransportContentProvider.get_Description","IWdsTransportContentProvider::Description","IWdsTransportContentProvider::get_Description","get_Description","wds.iwdstransportcontentprovider_description","wdstptmgmt/IWdsTransportContentProvider::Description","wdstptmgmt/IWdsTransportContentProvider::get_Description"]
+description: Retrieves the description of the content provider.
+helpviewer_keywords: ["Description property [Windows Deployment Services]","Description property [Windows Deployment Services]","IWdsTransportContentProvider interface","IWdsTransportContentProvider interface [Windows Deployment Services]","Description property","IWdsTransportContentProvider.Description","IWdsTransportContentProvider.get_Description","IWdsTransportContentProvider::Description","IWdsTransportContentProvider::get_Description","get_Description","wds.iwdstransportcontentprovider_description","wdstptmgmt/IWdsTransportContentProvider::Description","wdstptmgmt/IWdsTransportContentProvider::get_Description"]
 old-location: wds\iwdstransportcontentprovider_description.htm
 tech.root: wds
 ms.assetid: 02574C7A-2607-4303-90C4-6FCC29AB22C2

@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClock2.GetDevicePosition
 title: IAudioClock2::GetDevicePosition (audioclient.h)
-description: The GetDevicePosition method gets the current device position, in frames, directly from the hardware.helpviewer_keywords: ["GetDevicePosition","GetDevicePosition method [Core Audio]","GetDevicePosition method [Core Audio]","IAudioClock2 interface","IAudioClock2 interface [Core Audio]","GetDevicePosition method","IAudioClock2.GetDevicePosition","IAudioClock2::GetDevicePosition","audioclient/IAudioClock2::GetDevicePosition","coreaudio.iaudioclock2_getdeviceposition"]
+description: The GetDevicePosition method gets the current device position, in frames, directly from the hardware.
+helpviewer_keywords: ["GetDevicePosition","GetDevicePosition method [Core Audio]","GetDevicePosition method [Core Audio]","IAudioClock2 interface","IAudioClock2 interface [Core Audio]","GetDevicePosition method","IAudioClock2.GetDevicePosition","IAudioClock2::GetDevicePosition","audioclient/IAudioClock2::GetDevicePosition","coreaudio.iaudioclock2_getdeviceposition"]
 old-location: coreaudio\iaudioclock2_getdeviceposition.htm
 tech.root: CoreAudio
 ms.assetid: 2767056d-59dc-4f6e-b0f7-e37b3fed9581
@@ -143,7 +144,7 @@ Given the device position and the performance counter at the time of the <b>GetD
 
 <ol>
 <li>Multiply the raw counter value by 10,000,000.</li>
-<li>Divide the result by the counter frequency obtained from <b>QueryPerformanceCounter</b>.</li>
+<li>Divide the result by the counter frequency obtained from <b>QueryPerformanceFrequency</b>.</li>
 </ol>
 
 

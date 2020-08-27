@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerCollabSetObject
 title: PeerCollabSetObject function (p2p.h)
-description: Creates or updates a peer data object used in a peer collaboration network.helpviewer_keywords: ["PeerCollabSetObject","PeerCollabSetObject function [Peer Networking]","p2p.peercollabsetobject","p2p/PeerCollabSetObject"]
+description: Creates or updates a peer data object used in a peer collaboration network.
+helpviewer_keywords: ["PeerCollabSetObject","PeerCollabSetObject function [Peer Networking]","p2p.peercollabsetobject","p2p/PeerCollabSetObject"]
 old-location: p2p\peercollabsetobject.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject

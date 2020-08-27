@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.LsaSetTrustedDomainInfoByName
 title: LsaSetTrustedDomainInfoByName function (ntsecapi.h)
-description: The LsaSetTrustedDomainInfoByName function sets values for a TrustedDomain object.helpviewer_keywords: ["LsaSetTrustedDomainInfoByName","LsaSetTrustedDomainInfoByName function [Security]","TrustedDomainAuthInformation","TrustedDomainFullInformation","TrustedDomainInformationEx","TrustedPosixInformation","_lsa_lsasettrusteddomaininfobyname","ntsecapi/LsaSetTrustedDomainInfoByName","security.lsasettrusteddomaininfobyname"]
+description: The LsaSetTrustedDomainInfoByName function sets values for a TrustedDomain object.
+helpviewer_keywords: ["LsaSetTrustedDomainInfoByName","LsaSetTrustedDomainInfoByName function [Security]","TrustedDomainAuthInformation","TrustedDomainFullInformation","TrustedDomainInformationEx","TrustedPosixInformation","_lsa_lsasettrusteddomaininfobyname","ntsecapi/LsaSetTrustedDomainInfoByName","security.lsasettrusteddomaininfobyname"]
 old-location: security\lsasettrusteddomaininfobyname.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
 ms.date: 12/05/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname

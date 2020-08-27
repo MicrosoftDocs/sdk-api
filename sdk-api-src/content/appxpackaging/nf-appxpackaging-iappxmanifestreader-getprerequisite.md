@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPrerequisite
 title: IAppxManifestReader::GetPrerequisite (appxpackaging.h)
-description: Gets the specified prerequisite as defined in the package manifest.helpviewer_keywords: ["GetPrerequisite","GetPrerequisite method [App packaging and management]","GetPrerequisite method [App packaging and management]","IAppxManifestReader interface","IAppxManifestReader interface [App packaging and management]","GetPrerequisite method","IAppxManifestReader.GetPrerequisite","IAppxManifestReader::GetPrerequisite","appxpackaging/IAppxManifestReader::GetPrerequisite","appxpkg.iappxmanifestreader_getprerequisite"]
+description: Gets the specified prerequisite as defined in the package manifest.
+helpviewer_keywords: ["GetPrerequisite","GetPrerequisite method [App packaging and management]","GetPrerequisite method [App packaging and management]","IAppxManifestReader interface","IAppxManifestReader interface [App packaging and management]","GetPrerequisite method","IAppxManifestReader.GetPrerequisite","IAppxManifestReader::GetPrerequisite","appxpackaging/IAppxManifestReader::GetPrerequisite","appxpkg.iappxmanifestreader_getprerequisite"]
 old-location: appxpkg\iappxmanifestreader_getprerequisite.htm
 tech.root: appxpkg
 ms.assetid: 1CF44513-AA07-4591-9134-A156A538C8F1

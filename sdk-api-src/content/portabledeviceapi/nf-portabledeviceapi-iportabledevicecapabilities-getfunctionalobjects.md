@@ -1,9 +1,10 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFunctionalObjects
 title: IPortableDeviceCapabilities::GetFunctionalObjects (portabledeviceapi.h)
-description: The GetFunctionalObjects method retrieves all functional objects that match a specified category on the device.helpviewer_keywords: ["GetFunctionalObjects","GetFunctionalObjects method [Windows Portable Devices SDK]","GetFunctionalObjects method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetFunctionalObjects method","IPortableDeviceCapabilities.GetFunctionalObjects","IPortableDeviceCapabilities::GetFunctionalObjects","IPortableDeviceCapabilitiesGetFunctionalObjects","portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects","wpdsdk.iportabledevicecapabilities_getfunctionalobjects"]
+description: The GetFunctionalObjects method retrieves all functional objects that match a specified category on the device.
+helpviewer_keywords: ["GetFunctionalObjects","GetFunctionalObjects method [Windows Portable Devices SDK]","GetFunctionalObjects method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetFunctionalObjects method","IPortableDeviceCapabilities.GetFunctionalObjects","IPortableDeviceCapabilities::GetFunctionalObjects","IPortableDeviceCapabilitiesGetFunctionalObjects","portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects","wpdsdk.iportabledevicecapabilities_getfunctionalobjects"]
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalobjects.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 46657e4d-c2fe-42bf-9a3d-5075d4f3ee91
 ms.date: 12/05/2018
 ms.keywords: GetFunctionalObjects, GetFunctionalObjects method [Windows Portable Devices SDK], GetFunctionalObjects method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalObjects method, IPortableDeviceCapabilities.GetFunctionalObjects, IPortableDeviceCapabilities::GetFunctionalObjects, IPortableDeviceCapabilitiesGetFunctionalObjects, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects, wpdsdk.iportabledevicecapabilities_getfunctionalobjects

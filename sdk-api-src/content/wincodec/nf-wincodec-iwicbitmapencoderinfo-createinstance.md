@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoderInfo.CreateInstance
 title: IWICBitmapEncoderInfo::CreateInstance (wincodec.h)
-description: Creates a new IWICBitmapEncoder instance.helpviewer_keywords: ["CreateInstance","CreateInstance method [Windows Imaging Component]","CreateInstance method [Windows Imaging Component]","IWICBitmapEncoderInfo interface","IWICBitmapEncoderInfo interface [Windows Imaging Component]","CreateInstance method","IWICBitmapEncoderInfo.CreateInstance","IWICBitmapEncoderInfo::CreateInstance","_wic_codec_iwicbitmapencoderinfo_createinstance","wic._wic_codec_iwicbitmapencoderinfo_createinstance","wincodec/IWICBitmapEncoderInfo::CreateInstance"]
+description: Creates a new IWICBitmapEncoder instance.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Windows Imaging Component]","CreateInstance method [Windows Imaging Component]","IWICBitmapEncoderInfo interface","IWICBitmapEncoderInfo interface [Windows Imaging Component]","CreateInstance method","IWICBitmapEncoderInfo.CreateInstance","IWICBitmapEncoderInfo::CreateInstance","_wic_codec_iwicbitmapencoderinfo_createinstance","wic._wic_codec_iwicbitmapencoderinfo_createinstance","wincodec/IWICBitmapEncoderInfo::CreateInstance"]
 old-location: wic\_wic_codec_iwicbitmapencoderinfo_createinstance.htm
 tech.root: wic
 ms.assetid: 333663d2-9b71-44ee-bf58-f6f283666b78

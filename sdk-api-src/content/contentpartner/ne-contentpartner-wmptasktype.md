@@ -1,7 +1,8 @@
 ---
 UID: NE:contentpartner.WMPTaskType
 title: WMPTaskType (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTaskType enumeration represents Windows Media Player task panes.helpviewer_keywords: ["WMPTaskType","WMPTaskType enumeration [Windows Media Player]","contentpartner/WMPTaskType","contentpartner/wmpttBrowse","contentpartner/wmpttBurn","contentpartner/wmpttCurrent","contentpartner/wmpttSync","enumeration [Windows Media Player]","wmp.wmptasktype","wmpttBrowse","wmpttBurn","wmpttCurrent","wmpttSync"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTaskType enumeration represents Windows Media Player task panes.
+helpviewer_keywords: ["WMPTaskType","WMPTaskType enumeration [Windows Media Player]","contentpartner/WMPTaskType","contentpartner/wmpttBrowse","contentpartner/wmpttBurn","contentpartner/wmpttCurrent","contentpartner/wmpttSync","enumeration [Windows Media Player]","wmp.wmptasktype","wmpttBrowse","wmpttBurn","wmpttCurrent","wmpttSync"]
 old-location: wmp\wmptasktype.htm
 tech.root: WMP
 ms.assetid: 7abc17b1-5ce7-4741-9a6a-d5a444046418

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.Remove
 title: IFsrmMutableCollection::Remove (fsrm.h)
-description: Removes the specified object from the collection using an index value.helpviewer_keywords: ["IFsrmMutableCollection interface [File Server Resource Manager]","Remove method","IFsrmMutableCollection.Remove","IFsrmMutableCollection::Remove","Remove","Remove method [File Server Resource Manager]","Remove method [File Server Resource Manager]","IFsrmMutableCollection interface","fs.ifsrmmutablecollection_remove","fsrm.ifsrmmutablecollection_remove","fsrm/IFsrmMutableCollection::Remove"]
+description: Removes the specified object from the collection using an index value.
+helpviewer_keywords: ["IFsrmMutableCollection interface [File Server Resource Manager]","Remove method","IFsrmMutableCollection.Remove","IFsrmMutableCollection::Remove","Remove","Remove method [File Server Resource Manager]","Remove method [File Server Resource Manager]","IFsrmMutableCollection interface","fs.ifsrmmutablecollection_remove","fsrm.ifsrmmutablecollection_remove","fsrm/IFsrmMutableCollection::Remove"]
 old-location: fsrm\ifsrmmutablecollection_remove.htm
 tech.root: fsrm
 ms.assetid: 2d28bfc7-82d4-4c74-bac9-f9ef9111279f

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromMediaSink
 title: MFCreateSinkWriterFromMediaSink function (mfreadwrite.h)
-description: Creates the sink writer from a media sink.helpviewer_keywords: ["MFCreateSinkWriterFromMediaSink","MFCreateSinkWriterFromMediaSink function [Media Foundation]","mf.mfcreatesinkwriterfrommediasink","mfreadwrite/MFCreateSinkWriterFromMediaSink"]
+description: Creates the sink writer from a media sink.
+helpviewer_keywords: ["MFCreateSinkWriterFromMediaSink","MFCreateSinkWriterFromMediaSink function [Media Foundation]","mf.mfcreatesinkwriterfrommediasink","mfreadwrite/MFCreateSinkWriterFromMediaSink"]
 old-location: mf\mfcreatesinkwriterfrommediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 77bd81fe-bcbd-4bcd-9d3a-dd9fe6154337
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromMediaSink, MFCreateSinkWriterFromMediaSink function [Media Foundation], mf.mfcreatesinkwriterfrommediasink, mfreadwrite/MFCreateSinkWriterFromMediaSink

@@ -1,7 +1,8 @@
 ---
 UID: NS:eaptypes._EapCertificateCredential
 title: EapCertificateCredential (eaptypes.h)
-description: Contains information about the certificate that the EAP method uses for authentication.helpviewer_keywords: ["EapCertificateCredential","EapCertificateCredential structure [EAPHost]","eaphost.eapcertificatecredential","eaptypes/EapCertificateCredential"]
+description: Contains information about the certificate that the EAP method uses for authentication.
+helpviewer_keywords: ["EapCertificateCredential","EapCertificateCredential structure [EAPHost]","eaphost.eapcertificatecredential","eaptypes/EapCertificateCredential"]
 old-location: eaphost\eapcertificatecredential.htm
 tech.root: eaphost
 ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1
@@ -67,7 +68,7 @@ The <b>EapCertificateCredential</b> structure contains information about the cer
 If the certificate is present on the system and strong private key protection is turned on for this certificate, this field contains the password to access the certificate.
 
 
-#### - certHash(CERTIFICATE_HASH_LENGTH)
+### -field certHash(CERTIFICATE_HASH_LENGTH)
 
 SHA1 hash of the certificate.
 

@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_PackageGuid
 title: IMtsEvents::get_PackageGuid (comsvcs.h)
-description: Retrieves the globally unique identifier (GUID) for the package in which the event occurred.helpviewer_keywords: ["IMtsEvents interface [COM+]","get_PackageGuid method","IMtsEvents.get_PackageGuid","IMtsEvents::get_PackageGuid","_dtc_IMtsEvents_PackageGuid","comsvcs/IMtsEvents::get_PackageGuid","cos.imtsevents_get_packageguid","get_PackageGuid","get_PackageGuid method [COM+]","get_PackageGuid method [COM+]","IMtsEvents interface"]
+description: Retrieves the globally unique identifier (GUID) for the package in which the event occurred.
+helpviewer_keywords: ["IMtsEvents interface [COM+]","get_PackageGuid method","IMtsEvents.get_PackageGuid","IMtsEvents::get_PackageGuid","_dtc_IMtsEvents_PackageGuid","comsvcs/IMtsEvents::get_PackageGuid","cos.imtsevents_get_packageguid","get_PackageGuid","get_PackageGuid method [COM+]","get_PackageGuid method [COM+]","IMtsEvents interface"]
 old-location: cos\imtsevents_get_packageguid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 7afd68f7-8aba-4c0f-a262-9a0ea861e063
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents interface [COM+],get_PackageGuid method, IMtsEvents.get_PackageGuid, IMtsEvents::get_PackageGuid, _dtc_IMtsEvents_PackageGuid, comsvcs/IMtsEvents::get_PackageGuid, cos.imtsevents_get_packageguid, get_PackageGuid, get_PackageGuid method [COM+], get_PackageGuid method [COM+],IMtsEvents interface

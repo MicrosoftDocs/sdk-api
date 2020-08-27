@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetSourceVarFromToken
 title: SymGetSourceVarFromToken function (dbghelp.h)
-description: Retrieves the value associated with the specified variable name from the Source Server token.helpviewer_keywords: ["SymGetSourceVarFromToken","SymGetSourceVarFromToken function","SymGetSourceVarFromTokenW","base.symgetsourcevarfromtoken","dbghelp/SymGetSourceVarFromToken","dbghelp/SymGetSourceVarFromTokenW"]
+description: Retrieves the value associated with the specified variable name from the Source Server token.
+helpviewer_keywords: ["SymGetSourceVarFromToken","SymGetSourceVarFromToken function","SymGetSourceVarFromTokenW","base.symgetsourcevarfromtoken","dbghelp/SymGetSourceVarFromToken","dbghelp/SymGetSourceVarFromTokenW"]
 old-location: base\symgetsourcevarfromtoken.htm
 tech.root: Debug
 ms.assetid: 05e9005a-aef3-44a3-a73b-21830799a3d5

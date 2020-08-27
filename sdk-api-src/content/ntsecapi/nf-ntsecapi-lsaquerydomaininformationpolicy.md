@@ -1,9 +1,10 @@
 ---
 UID: NF:ntsecapi.LsaQueryDomainInformationPolicy
 title: LsaQueryDomainInformationPolicy function (ntsecapi.h)
-description: Retrieves domain information from the Policyobject.helpviewer_keywords: ["LsaQueryDomainInformationPolicy","LsaQueryDomainInformationPolicy function [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/LsaQueryDomainInformationPolicy","security.lsaquerydomaininformationpolicy","security.lsaquerydomaininformationpolicy_"]
+description: Retrieves domain information from the Policyobject.
+helpviewer_keywords: ["LsaQueryDomainInformationPolicy","LsaQueryDomainInformationPolicy function [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/LsaQueryDomainInformationPolicy","security.lsaquerydomaininformationpolicy","security.lsaquerydomaininformationpolicy_"]
 old-location: security\lsaquerydomaininformationpolicy.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 39a511d7-46fc-4d12-ba43-771f6db2a33b
 ms.date: 12/05/2018
 ms.keywords: LsaQueryDomainInformationPolicy, LsaQueryDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaQueryDomainInformationPolicy, security.lsaquerydomaininformationpolicy, security.lsaquerydomaininformationpolicy_

@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.ReadPreviousLogRestartArea
 title: ReadPreviousLogRestartArea function (clfsw32.h)
-description: Reads the previous log restart area that is relative to the current restart record specified in the read context, pvReadContext. This read context is the one previously created by a call to ReadLogRestartArea.helpviewer_keywords: ["ReadPreviousLogRestartArea","ReadPreviousLogRestartArea function [Files]","clfsw32/ReadPreviousLogRestartArea","fs.readpreviouslogrestartarea"]
+description: Reads the previous log restart area that is relative to the current restart record specified in the read context, pvReadContext. This read context is the one previously created by a call to ReadLogRestartArea.
+helpviewer_keywords: ["ReadPreviousLogRestartArea","ReadPreviousLogRestartArea function [Files]","clfsw32/ReadPreviousLogRestartArea","fs.readpreviouslogrestartarea"]
 old-location: fs\readpreviouslogrestartarea.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: f304dbb7-7d5c-403c-9418-60947cc4c3a1
 ms.date: 12/05/2018
 ms.keywords: ReadPreviousLogRestartArea, ReadPreviousLogRestartArea function [Files], clfsw32/ReadPreviousLogRestartArea, fs.readpreviouslogrestartarea

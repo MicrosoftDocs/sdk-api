@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineAddToConference
 title: TSPI_lineAddToConference function (tspi.h)
-description: The TSPI_lineAddToConference function adds the call specified by hdConsultCall to the conference call specified by hdConfCall.helpviewer_keywords: ["TSPI_lineAddToConference","TSPI_lineAddToConference function [TAPI 2.2]","_tspi_tspi_lineaddtoconference","tspi.tspi_lineaddtoconference","tspi/TSPI_lineAddToConference"]
+description: The TSPI_lineAddToConference function adds the call specified by hdConsultCall to the conference call specified by hdConfCall.
+helpviewer_keywords: ["TSPI_lineAddToConference","TSPI_lineAddToConference function [TAPI 2.2]","_tspi_tspi_lineaddtoconference","tspi.tspi_lineaddtoconference","tspi/TSPI_lineAddToConference"]
 old-location: tspi\tspi_lineaddtoconference.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6e3e3e1a-3a05-4464-9ead-abd647b3a721
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAddToConference, TSPI_lineAddToConference function [TAPI 2.2], _tspi_tspi_lineaddtoconference, tspi.tspi_lineaddtoconference, tspi/TSPI_lineAddToConference

@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SetState
 title: IAMVfwCompressDialogs::SetState (strmif.h)
-description: The SetState method sets configuration for the VCM codec.helpviewer_keywords: ["IAMVfwCompressDialogs interface [DirectShow]","SetState method","IAMVfwCompressDialogs.SetState","IAMVfwCompressDialogs::SetState","IAMVfwCompressDialogsSetState","SetState","SetState method [DirectShow]","SetState method [DirectShow]","IAMVfwCompressDialogs interface","dshow.iamvfwcompressdialogs_setstate","strmif/IAMVfwCompressDialogs::SetState"]
+description: The SetState method sets configuration for the VCM codec.
+helpviewer_keywords: ["IAMVfwCompressDialogs interface [DirectShow]","SetState method","IAMVfwCompressDialogs.SetState","IAMVfwCompressDialogs::SetState","IAMVfwCompressDialogsSetState","SetState","SetState method [DirectShow]","SetState method [DirectShow]","IAMVfwCompressDialogs interface","dshow.iamvfwcompressdialogs_setstate","strmif/IAMVfwCompressDialogs::SetState"]
 old-location: dshow\iamvfwcompressdialogs_setstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9b27bbaa-4e2f-4567-a6fc-62fb3f5f31a8
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SetState method, IAMVfwCompressDialogs.SetState, IAMVfwCompressDialogs::SetState, IAMVfwCompressDialogsSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_setstate, strmif/IAMVfwCompressDialogs::SetState

@@ -1,9 +1,10 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoPersist
 title: MsiSummaryInfoPersist function (msiquery.h)
-description: The MsiSummaryInfoPersist function writes changed summary information back to the summary information stream.helpviewer_keywords: ["MsiSummaryInfoPersist","MsiSummaryInfoPersist function","_msi_msisummaryinfopersist","msiquery/MsiSummaryInfoPersist","setup.msisummaryinfopersist"]
+description: The MsiSummaryInfoPersist function writes changed summary information back to the summary information stream.
+helpviewer_keywords: ["MsiSummaryInfoPersist","MsiSummaryInfoPersist function","_msi_msisummaryinfopersist","msiquery/MsiSummaryInfoPersist","setup.msisummaryinfopersist"]
 old-location: setup\msisummaryinfopersist.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist

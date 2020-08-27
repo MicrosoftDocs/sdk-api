@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_MIB_INFO_V5
 title: DHCP_MIB_INFO_V5 (dhcpsapi.h)
-description: Contains statistical information about a DHCP server.helpviewer_keywords: ["*LPDHCP_MIB_INFO_V5","DHCP_MIB_INFO_V5","DHCP_MIB_INFO_V5 structure [DHCP]","LPDHCP_MIB_INFO_V5","LPDHCP_MIB_INFO_V5 structure pointer [DHCP]","dhcp.dhcp_mib_info_v5","dhcpsapi/DHCP_MIB_INFO_V5","dhcpsapi/LPDHCP_MIB_INFO_V5"]
+description: Contains statistical information about a DHCP server.
+helpviewer_keywords: ["*LPDHCP_MIB_INFO_V5","DHCP_MIB_INFO_V5","DHCP_MIB_INFO_V5 structure [DHCP]","LPDHCP_MIB_INFO_V5","LPDHCP_MIB_INFO_V5 structure pointer [DHCP]","dhcp.dhcp_mib_info_v5","dhcpsapi/DHCP_MIB_INFO_V5","dhcpsapi/LPDHCP_MIB_INFO_V5"]
 old-location: dhcp\dhcp_mib_info_v5.htm
 tech.root: DHCP
 ms.assetid: 5081ebce-d3b9-4548-8d80-23d994bce7ab

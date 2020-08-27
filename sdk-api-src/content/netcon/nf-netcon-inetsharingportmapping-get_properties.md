@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.get_Properties
 title: INetSharingPortMapping::get_Properties (netcon.h)
-description: The get_Properties method retrieves the properties for a port mapping.helpviewer_keywords: ["INetSharingPortMapping interface [ICS/ICF]","get_Properties method","INetSharingPortMapping.get_Properties","INetSharingPortMapping::get_Properties","_ics_inetsharingportmapping_get_properties","get_Properties","get_Properties method [ICS/ICF]","get_Properties method [ICS/ICF]","INetSharingPortMapping interface","ics.inetsharingportmapping_get_properties","netcon/INetSharingPortMapping::get_Properties"]
+description: The get_Properties method retrieves the properties for a port mapping.
+helpviewer_keywords: ["INetSharingPortMapping interface [ICS/ICF]","get_Properties method","INetSharingPortMapping.get_Properties","INetSharingPortMapping::get_Properties","_ics_inetsharingportmapping_get_properties","get_Properties","get_Properties method [ICS/ICF]","get_Properties method [ICS/ICF]","INetSharingPortMapping interface","ics.inetsharingportmapping_get_properties","netcon/INetSharingPortMapping::get_Properties"]
 old-location: ics\inetsharingportmapping_get_properties.htm
 tech.root: ics
 ms.assetid: 3cfc27a4-fe43-4e47-b857-7c80e8ee0dd5

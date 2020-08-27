@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateOrCondition
 title: IUIAutomation::CreateOrCondition (uiautomationclient.h)
-description: Creates a combination of two conditions where a match exists if either of the conditions is true.helpviewer_keywords: ["CreateOrCondition","CreateOrCondition method [Windows Accessibility]","CreateOrCondition method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateOrCondition method","IUIAutomation.CreateOrCondition","IUIAutomation::CreateOrCondition","uiauto.uiauto_IUIAutomation_CreateOrCondition","uiauto_IUIAutomation_CreateOrCondition","uiautomationclient/IUIAutomation::CreateOrCondition","winauto.uiauto_IUIAutomation_CreateOrCondition"]
+description: Creates a combination of two conditions where a match exists if either of the conditions is true.
+helpviewer_keywords: ["CreateOrCondition","CreateOrCondition method [Windows Accessibility]","CreateOrCondition method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateOrCondition method","IUIAutomation.CreateOrCondition","IUIAutomation::CreateOrCondition","uiauto.uiauto_IUIAutomation_CreateOrCondition","uiauto_IUIAutomation_CreateOrCondition","uiautomationclient/IUIAutomation::CreateOrCondition","winauto.uiauto_IUIAutomation_CreateOrCondition"]
 old-location: winauto\uiauto_IUIAutomation_CreateOrCondition.htm
 tech.root: WinAuto
 ms.assetid: 17e83b94-21f0-44b6-87be-3fc44b0dc5a0

@@ -1,9 +1,10 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryAllocatedLuns
 title: IVdsStoragePool::QueryAllocatedLuns (vdshwprv.h)
-description: Returns an object that enumerates the allocated LUNs for a storage pool.helpviewer_keywords: ["IVdsStoragePool interface","QueryAllocatedLuns method","IVdsStoragePool.QueryAllocatedLuns","IVdsStoragePool::QueryAllocatedLuns","QueryAllocatedLuns","QueryAllocatedLuns method","QueryAllocatedLuns method","IVdsStoragePool interface","base.ivdsstoragepool_queryallocatedluns","vds/IVdsStoragePool::QueryAllocatedLuns","vdshwprv/IVdsStoragePool::QueryAllocatedLuns"]
+description: Returns an object that enumerates the allocated LUNs for a storage pool.
+helpviewer_keywords: ["IVdsStoragePool interface","QueryAllocatedLuns method","IVdsStoragePool.QueryAllocatedLuns","IVdsStoragePool::QueryAllocatedLuns","QueryAllocatedLuns","QueryAllocatedLuns method","QueryAllocatedLuns method","IVdsStoragePool interface","base.ivdsstoragepool_queryallocatedluns","vds/IVdsStoragePool::QueryAllocatedLuns","vdshwprv/IVdsStoragePool::QueryAllocatedLuns"]
 old-location: base\ivdsstoragepool_queryallocatedluns.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 348472ac-1b8b-4943-9b80-813616861e01
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns

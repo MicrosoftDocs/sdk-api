@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMDEC4.operator-assign(XMDEC4 &&)
+UID: NF:directxpackedvector.XMDEC4.operator-assign(XMDEC4&&)
 title: XMDEC4::operator-assign(XMDEC4 &&) (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMDEC4 to the current instance of XMDEC4.helpviewer_keywords: ["XMDEC4 structure [DirectX Math Support APIs]","operator = method","XMDEC4.operator =(const XMDEC4&)","XMDEC4.operator-assign(XMDEC4 &&)","XMDEC4.operator=","XMDEC4::operator-assign(XMDEC4 &&)","XMDEC4::operator=","dxmath.xmdec4_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMDEC4 structure","operator="]
+description: Assigns the vector component data from one instance of XMDEC4 to the current instance of XMDEC4.
+helpviewer_keywords: ["XMDEC4 structure [DirectX Math Support APIs]","operator = method","XMDEC4.operator =(const XMDEC4&)","XMDEC4.operator-assign(XMDEC4 &&)","XMDEC4.operator=","XMDEC4::operator-assign(XMDEC4 &&)","XMDEC4::operator=","dxmath.xmdec4_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMDEC4 structure","operator="]
 old-location: dxmath\xmdec4_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.operator = (const XMDEC4)

@@ -1,9 +1,10 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-add-assign
 title: WBEMTime::operator-add-assign (wbemtime.h)
-description: The WBEMTime class add-and-assign (+=) operator has been overloaded to increment an object's time by a time span.helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator+= method","WBEMTime.operator+=","WBEMTime.operator-add-assign","WBEMTime::operator+=","WBEMTime::operator-add-assign","_hmm_wbemtime_operator_plus_equal","operator+=","operator+= method [Windows Management Instrumentation]","operator+= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator+=","wmi.wbemtime_operator_plus_equal"]
+description: The WBEMTime class add-and-assign (+=) operator has been overloaded to increment an object's time by a time span.
+helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator+= method","WBEMTime.operator+=","WBEMTime.operator-add-assign","WBEMTime::operator+=","WBEMTime::operator-add-assign","_hmm_wbemtime_operator_plus_equal","operator+=","operator+= method [Windows Management Instrumentation]","operator+= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator+=","wmi.wbemtime_operator_plus_equal"]
 old-location: wmi\wbemtime_operator_plus_equal.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: fedfce44-1da2-4443-8634-e341ffae999a
 ms.date: 12/05/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator+= method, WBEMTime.operator+=, WBEMTime.operator-add-assign, WBEMTime::operator+=, WBEMTime::operator-add-assign, _hmm_wbemtime_operator_plus_equal, operator+=, operator+= method [Windows Management Instrumentation], operator+= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator+=, wmi.wbemtime_operator_plus_equal

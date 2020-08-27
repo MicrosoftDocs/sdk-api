@@ -1,9 +1,10 @@
 ---
 UID: NF:securitybaseapi.SetAclInformation
 title: SetAclInformation function (securitybaseapi.h)
-description: Sets information about an access control list (ACL).helpviewer_keywords: ["SetAclInformation","SetAclInformation function [Security]","_win32_setaclinformation","security.setaclinformation","securitybaseapi/SetAclInformation"]
+description: Sets information about an access control list (ACL).
+helpviewer_keywords: ["SetAclInformation","SetAclInformation function [Security]","_win32_setaclinformation","security.setaclinformation","securitybaseapi/SetAclInformation"]
 old-location: security\setaclinformation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: bb4dd7f9-2f15-4a27-89c9-1675f4fb8d92
 ms.date: 12/05/2018
 ms.keywords: SetAclInformation, SetAclInformation function [Security], _win32_setaclinformation, security.setaclinformation, securitybaseapi/SetAclInformation

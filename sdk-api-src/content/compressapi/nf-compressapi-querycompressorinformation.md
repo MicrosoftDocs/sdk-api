@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.QueryCompressorInformation
 title: QueryCompressorInformation function (compressapi.h)
-description: Queries a compressor for information for a particular compression algorithm.helpviewer_keywords: ["QueryCompressorInformation","QueryCompressorInformation function [Compression API]","cmpapi.querycompressorinformation","compressapi/QueryCompressorInformation"]
+description: Queries a compressor for information for a particular compression algorithm.
+helpviewer_keywords: ["QueryCompressorInformation","QueryCompressorInformation function [Compression API]","cmpapi.querycompressorinformation","compressapi/QueryCompressorInformation"]
 old-location: cmpapi\querycompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: 90b2ef29-c488-4d32-a315-312b25a0e585
@@ -14,8 +15,8 @@ dev_langs:
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetTotalDataBlocks
 title: IJolietDiscMaster::GetTotalDataBlocks (imapi.h)
-description: Retrieves the total number of blocks available for staging a Joliet data disc.helpviewer_keywords: ["GetTotalDataBlocks","GetTotalDataBlocks method [IMAPI]","GetTotalDataBlocks method [IMAPI]","IJolietDiscMaster interface","IJolietDiscMaster interface [IMAPI]","GetTotalDataBlocks method","IJolietDiscMaster.GetTotalDataBlocks","IJolietDiscMaster::GetTotalDataBlocks","_win32_ijolietdiscmaster_gettotaldatablocks","base.ijolietdiscmaster_gettotaldatablocks","imapi.ijolietdiscmaster_gettotaldatablocks","imapi/IJolietDiscMaster::GetTotalDataBlocks"]
+description: Retrieves the total number of blocks available for staging a Joliet data disc.
+helpviewer_keywords: ["GetTotalDataBlocks","GetTotalDataBlocks method [IMAPI]","GetTotalDataBlocks method [IMAPI]","IJolietDiscMaster interface","IJolietDiscMaster interface [IMAPI]","GetTotalDataBlocks method","IJolietDiscMaster.GetTotalDataBlocks","IJolietDiscMaster::GetTotalDataBlocks","_win32_ijolietdiscmaster_gettotaldatablocks","base.ijolietdiscmaster_gettotaldatablocks","imapi.ijolietdiscmaster_gettotaldatablocks","imapi/IJolietDiscMaster::GetTotalDataBlocks"]
 old-location: imapi\ijolietdiscmaster_gettotaldatablocks.htm
 tech.root: imapi
 ms.assetid: fa5df4de-eecc-406b-a38d-939e7b631fc8

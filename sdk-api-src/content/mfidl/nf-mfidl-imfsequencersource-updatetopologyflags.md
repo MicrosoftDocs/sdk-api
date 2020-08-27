@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.UpdateTopologyFlags
 title: IMFSequencerSource::UpdateTopologyFlags (mfidl.h)
-description: Updates the flags for a topology in the queue.helpviewer_keywords: ["IMFSequencerSource interface [Media Foundation]","UpdateTopologyFlags method","IMFSequencerSource.UpdateTopologyFlags","IMFSequencerSource::UpdateTopologyFlags","UpdateTopologyFlags","UpdateTopologyFlags method [Media Foundation]","UpdateTopologyFlags method [Media Foundation]","IMFSequencerSource interface","ee71b574-0456-4091-bbb0-da5c57a7506e","mf.imfsequencersource_updatetopologyflags","mfidl/IMFSequencerSource::UpdateTopologyFlags"]
+description: Updates the flags for a topology in the queue.
+helpviewer_keywords: ["IMFSequencerSource interface [Media Foundation]","UpdateTopologyFlags method","IMFSequencerSource.UpdateTopologyFlags","IMFSequencerSource::UpdateTopologyFlags","UpdateTopologyFlags","UpdateTopologyFlags method [Media Foundation]","UpdateTopologyFlags method [Media Foundation]","IMFSequencerSource interface","ee71b574-0456-4091-bbb0-da5c57a7506e","mf.imfsequencersource_updatetopologyflags","mfidl/IMFSequencerSource::UpdateTopologyFlags"]
 old-location: mf\imfsequencersource_updatetopologyflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ee71b574-0456-4091-bbb0-da5c57a7506e
 ms.date: 12/05/2018
 ms.keywords: IMFSequencerSource interface [Media Foundation],UpdateTopologyFlags method, IMFSequencerSource.UpdateTopologyFlags, IMFSequencerSource::UpdateTopologyFlags, UpdateTopologyFlags, UpdateTopologyFlags method [Media Foundation], UpdateTopologyFlags method [Media Foundation],IMFSequencerSource interface, ee71b574-0456-4091-bbb0-da5c57a7506e, mf.imfsequencersource_updatetopologyflags, mfidl/IMFSequencerSource::UpdateTopologyFlags

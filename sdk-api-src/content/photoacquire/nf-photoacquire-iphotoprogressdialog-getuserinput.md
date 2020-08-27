@@ -1,9 +1,10 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.GetUserInput
 title: IPhotoProgressDialog::GetUserInput (photoacquire.h)
-description: Retrieves descriptive information entered by the user, such as the tag name of the images to store.helpviewer_keywords: ["GetUserInput","GetUserInput method [Picture Acquisition]","GetUserInput method [Picture Acquisition]","IPhotoProgressDialog interface","IPhotoProgressDialog interface [Picture Acquisition]","GetUserInput method","IPhotoProgressDialog.GetUserInput","IPhotoProgressDialog::GetUserInput","IPhotoProgressDialogGetUserInput","photoacquire/IPhotoProgressDialog::GetUserInput","picacq.iphotoprogressdialog_getuserinput"]
+description: Retrieves descriptive information entered by the user, such as the tag name of the images to store.
+helpviewer_keywords: ["GetUserInput","GetUserInput method [Picture Acquisition]","GetUserInput method [Picture Acquisition]","IPhotoProgressDialog interface","IPhotoProgressDialog interface [Picture Acquisition]","GetUserInput method","IPhotoProgressDialog.GetUserInput","IPhotoProgressDialog::GetUserInput","IPhotoProgressDialogGetUserInput","photoacquire/IPhotoProgressDialog::GetUserInput","picacq.iphotoprogressdialog_getuserinput"]
 old-location: picacq\iphotoprogressdialog_getuserinput.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 1f797e68-f87d-4f90-853b-60c6c9309f58
 ms.date: 12/05/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetUserInput method, IPhotoProgressDialog.GetUserInput, IPhotoProgressDialog::GetUserInput, IPhotoProgressDialogGetUserInput, photoacquire/IPhotoProgressDialog::GetUserInput, picacq.iphotoprogressdialog_getuserinput

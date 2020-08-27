@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleLoadFromStream
 title: OleLoadFromStream function (ole2.h)
-description: Loads an object from the stream.helpviewer_keywords: ["OleLoadFromStream","OleLoadFromStream function [COM]","_ole_OleLoadFromStream","com.oleloadfromstream","ole/OleLoadFromStream"]
+description: Loads an object from the stream.
+helpviewer_keywords: ["OleLoadFromStream","OleLoadFromStream function [COM]","_ole_OleLoadFromStream","com.oleloadfromstream","ole/OleLoadFromStream"]
 old-location: com\oleloadfromstream.htm
 tech.root: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
@@ -58,17 +59,17 @@ Loads an object from the stream.
 
 
 
-#### - pStm [in]
+### -param pStm [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream from which the object is to be loaded.
 
 
-#### - iidInterface [in]
+### -param iidInterface [in]
 
 Interface identifier (IID) the caller wants to use to communicate with the object after it is loaded.
 
 
-#### - ppvObj [out]
+### -param ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly loaded object.
 

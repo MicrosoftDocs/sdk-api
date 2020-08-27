@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.InitializeEncode
 title: IX509AttributeClientId::InitializeEncode (certenroll.h)
-description: Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.helpviewer_keywords: ["IX509AttributeClientId interface [Security]","InitializeEncode method","IX509AttributeClientId.InitializeEncode","IX509AttributeClientId::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::InitializeEncode","security.ix509attributeclientid_initializeencode_method"]
+description: Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.
+helpviewer_keywords: ["IX509AttributeClientId interface [Security]","InitializeEncode method","IX509AttributeClientId.InitializeEncode","IX509AttributeClientId::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::InitializeEncode","security.ix509attributeclientid_initializeencode_method"]
 old-location: security\ix509attributeclientid_initializeencode_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6a0e5b6f-0522-4c60-9ea1-7a5c2722cebd
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId interface [Security],InitializeEncode method, IX509AttributeClientId.InitializeEncode, IX509AttributeClientId::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method

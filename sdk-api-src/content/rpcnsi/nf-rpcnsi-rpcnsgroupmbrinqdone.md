@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqDone
 title: RpcNsGroupMbrInqDone function (rpcnsi.h)
-description: The RpcNsGroupMbrInqDone function deletes the inquiry context for a group.helpviewer_keywords: ["RpcNsGroupMbrInqDone","RpcNsGroupMbrInqDone function [RPC]","_rpc_rpcnsgroupmbrinqdone","rpc.rpcnsgroupmbrinqdone","rpcnsi/RpcNsGroupMbrInqDone"]
+description: The RpcNsGroupMbrInqDone function deletes the inquiry context for a group.
+helpviewer_keywords: ["RpcNsGroupMbrInqDone","RpcNsGroupMbrInqDone function [RPC]","_rpc_rpcnsgroupmbrinqdone","rpc.rpcnsgroupmbrinqdone","rpcnsi/RpcNsGroupMbrInqDone"]
 old-location: rpc\rpcnsgroupmbrinqdone.htm
 tech.root: Rpc
 ms.assetid: fe40be4d-1468-429a-aa20-694467076bde

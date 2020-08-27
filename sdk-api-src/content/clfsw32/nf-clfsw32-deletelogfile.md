@@ -1,9 +1,10 @@
 ---
 UID: NF:clfsw32.DeleteLogFile
 title: DeleteLogFile function (clfsw32.h)
-description: Marks a log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.helpviewer_keywords: ["DeleteLogFile","DeleteLogFile function [Files]","clfsw32/DeleteLogFile","fs.deletelogfile"]
+description: Marks a log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.
+helpviewer_keywords: ["DeleteLogFile","DeleteLogFile function [Files]","clfsw32/DeleteLogFile","fs.deletelogfile"]
 old-location: fs\deletelogfile.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: a7dd8efc-b572-4591-9e46-1cd5105d4ca2
 ms.date: 12/05/2018
 ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFile, fs.deletelogfile

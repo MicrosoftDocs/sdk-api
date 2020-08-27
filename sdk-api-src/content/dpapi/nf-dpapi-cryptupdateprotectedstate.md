@@ -1,9 +1,10 @@
 ---
 UID: NF:dpapi.CryptUpdateProtectedState
 title: CryptUpdateProtectedState function (dpapi.h)
-description: Migrates the current user's master keys after the user's security identifier (SID) has changed.helpviewer_keywords: ["CryptUpdateProtectedState","CryptUpdateProtectedState function [Security]","dpapi/CryptUpdateProtectedState","security.cryptupdateprotectedstate","wincrypt/CryptUpdateProtectedState"]
+description: Migrates the current user's master keys after the user's security identifier (SID) has changed.
+helpviewer_keywords: ["CryptUpdateProtectedState","CryptUpdateProtectedState function [Security]","dpapi/CryptUpdateProtectedState","security.cryptupdateprotectedstate","wincrypt/CryptUpdateProtectedState"]
 old-location: security\cryptupdateprotectedstate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: f32e8fcd-6b5b-4a43-b3f9-77e17c84deca
 ms.date: 12/05/2018
 ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Security], dpapi/CryptUpdateProtectedState, security.cryptupdateprotectedstate, wincrypt/CryptUpdateProtectedState

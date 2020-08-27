@@ -1,9 +1,10 @@
 ---
 UID: NE:dvdmedia.AM_MPEG2Level
 title: AM_MPEG2Level (dvdmedia.h)
-description: Indicates an MPEG-2 video level as specified in the MPEG-2 video standard (ISO13818-2).helpviewer_keywords: ["AM_MPEG2Level","AM_MPEG2Level enumeration [DirectShow]","AM_MPEG2Level_High","AM_MPEG2Level_High1440","AM_MPEG2Level_Low","AM_MPEG2Level_Main","MPEG2LevelEnumeration","dshow.am_mpeg2level","dvdmedia/AM_MPEG2Level","dvdmedia/AM_MPEG2Level_High","dvdmedia/AM_MPEG2Level_High1440","dvdmedia/AM_MPEG2Level_Low","dvdmedia/AM_MPEG2Level_Main"]
+description: Indicates an MPEG-2 video level as specified in the MPEG-2 video standard (ISO13818-2).
+helpviewer_keywords: ["AM_MPEG2Level","AM_MPEG2Level enumeration [DirectShow]","AM_MPEG2Level_High","AM_MPEG2Level_High1440","AM_MPEG2Level_Low","AM_MPEG2Level_Main","MPEG2LevelEnumeration","dshow.am_mpeg2level","dvdmedia/AM_MPEG2Level","dvdmedia/AM_MPEG2Level_High","dvdmedia/AM_MPEG2Level_High1440","dvdmedia/AM_MPEG2Level_Low","dvdmedia/AM_MPEG2Level_Main"]
 old-location: dshow\am_mpeg2level.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 78446b44-7b83-4266-a591-5f70a0542c20
 ms.date: 12/05/2018
 ms.keywords: AM_MPEG2Level, AM_MPEG2Level enumeration [DirectShow], AM_MPEG2Level_High, AM_MPEG2Level_High1440, AM_MPEG2Level_Low, AM_MPEG2Level_Main, MPEG2LevelEnumeration, dshow.am_mpeg2level, dvdmedia/AM_MPEG2Level, dvdmedia/AM_MPEG2Level_High, dvdmedia/AM_MPEG2Level_High1440, dvdmedia/AM_MPEG2Level_Low, dvdmedia/AM_MPEG2Level_Main

@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateCount
 title: IX509EndorsementKey::GetCertificateCount (certenroll.h)
-description: Gets the count of the endorsement certificates in the key storage provider.helpviewer_keywords: ["GetCertificateCount","GetCertificateCount method [Security]","GetCertificateCount method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","GetCertificateCount method","IX509EndorsementKey.GetCertificateCount","IX509EndorsementKey::GetCertificateCount","certenroll/IX509EndorsementKey::GetCertificateCount","security.ix509endorsementkey_getcertificatecount"]
+description: Gets the count of the endorsement certificates in the key storage provider.
+helpviewer_keywords: ["GetCertificateCount","GetCertificateCount method [Security]","GetCertificateCount method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","GetCertificateCount method","IX509EndorsementKey.GetCertificateCount","IX509EndorsementKey::GetCertificateCount","certenroll/IX509EndorsementKey::GetCertificateCount","security.ix509endorsementkey_getcertificatecount"]
 old-location: security\ix509endorsementkey_getcertificatecount.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 1a8ae8f9-c4df-4701-845d-7f9a42593d57
 ms.date: 12/05/2018
 ms.keywords: GetCertificateCount, GetCertificateCount method [Security], GetCertificateCount method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateCount method, IX509EndorsementKey.GetCertificateCount, IX509EndorsementKey::GetCertificateCount, certenroll/IX509EndorsementKey::GetCertificateCount, security.ix509endorsementkey_getcertificatecount

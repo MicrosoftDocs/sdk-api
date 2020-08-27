@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptVerifyDetachedMessageSignature
 title: CryptVerifyDetachedMessageSignature function (wincrypt.h)
-description: The CryptVerifyDetachedMessageSignature function verifies a signed message containing a detached signature or signatures.helpviewer_keywords: ["CryptVerifyDetachedMessageSignature","CryptVerifyDetachedMessageSignature function [Security]","_crypto2_cryptverifydetachedmessagesignature","security.cryptverifydetachedmessagesignature","wincrypt/CryptVerifyDetachedMessageSignature"]
+description: The CryptVerifyDetachedMessageSignature function verifies a signed message containing a detached signature or signatures.
+helpviewer_keywords: ["CryptVerifyDetachedMessageSignature","CryptVerifyDetachedMessageSignature function [Security]","_crypto2_cryptverifydetachedmessagesignature","security.cryptverifydetachedmessagesignature","wincrypt/CryptVerifyDetachedMessageSignature"]
 old-location: security\cryptverifydetachedmessagesignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature

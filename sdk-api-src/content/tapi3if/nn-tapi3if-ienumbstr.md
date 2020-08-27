@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.IEnumBstr
 title: IEnumBstr (tapi3if.h)
-description: The IEnumBstr interface provides COM-standard methods to enumerate BSTR strings.helpviewer_keywords: ["IEnumBstr","IEnumBstr interface [TAPI 2.2]","IEnumBstr interface [TAPI 2.2]","described","_tapi3_ienumbstr","tapi3.ienumbstr","tapi3if/IEnumBstr"]
+description: The IEnumBstr interface provides COM-standard methods to enumerate BSTR strings.
+helpviewer_keywords: ["IEnumBstr","IEnumBstr interface [TAPI 2.2]","IEnumBstr interface [TAPI 2.2]","described","_tapi3_ienumbstr","tapi3.ienumbstr","tapi3if/IEnumBstr"]
 old-location: tapi3\ienumbstr.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0e87ec06-7f3a-410c-9d54-7a67991e089c
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr, IEnumBstr interface [TAPI 2.2], IEnumBstr interface [TAPI 2.2],described, _tapi3_ienumbstr, tapi3.ienumbstr, tapi3if/IEnumBstr

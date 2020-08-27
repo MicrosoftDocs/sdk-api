@@ -1,9 +1,10 @@
 ---
 UID: NF:sfc.SfcIsFileProtected
 title: SfcIsFileProtected function (sfc.h)
-description: Determines whether the specified file is protected.helpviewer_keywords: ["SfcIsFileProtected","SfcIsFileProtected function [Setup API]","_win32_sfcisfileprotected","setup.sfcisfileprotected","sfc/SfcIsFileProtected"]
+description: Determines whether the specified file is protected.
+helpviewer_keywords: ["SfcIsFileProtected","SfcIsFileProtected function [Setup API]","_win32_sfcisfileprotected","setup.sfcisfileprotected","sfc/SfcIsFileProtected"]
 old-location: setup\sfcisfileprotected.htm
-tech.root: wfp
+tech.root: setup
 ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
 ms.date: 12/05/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected

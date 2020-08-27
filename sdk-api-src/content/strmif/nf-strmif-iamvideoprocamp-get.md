@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.Get
 title: IAMVideoProcAmp::Get (strmif.h)
-description: The Get method gets the current setting of a video property.helpviewer_keywords: ["Get","Get method [DirectShow]","Get method [DirectShow]","IAMVideoProcAmp interface","IAMVideoProcAmp interface [DirectShow]","Get method","IAMVideoProcAmp.Get","IAMVideoProcAmp::Get","IAMVideoProcAmpGet","dshow.iamvideoprocamp_get","strmif/IAMVideoProcAmp::Get"]
+description: The Get method gets the current setting of a video property.
+helpviewer_keywords: ["Get","Get method [DirectShow]","Get method [DirectShow]","IAMVideoProcAmp interface","IAMVideoProcAmp interface [DirectShow]","Get method","IAMVideoProcAmp.Get","IAMVideoProcAmp::Get","IAMVideoProcAmpGet","dshow.iamvideoprocamp_get","strmif/IAMVideoProcAmp::Get"]
 old-location: dshow\iamvideoprocamp_get.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8924383e-23e1-4732-9eff-dc7c8d0e361a
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],Get method, IAMVideoProcAmp.Get, IAMVideoProcAmp::Get, IAMVideoProcAmpGet, dshow.iamvideoprocamp_get, strmif/IAMVideoProcAmp::Get

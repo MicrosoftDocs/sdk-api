@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.Clone
 title: IMFASFStreamConfig::Clone (wmcontainer.h)
-description: Creates a copy of the Advanced Systems Format (ASF) stream configuration object.helpviewer_keywords: ["Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","Clone method","IMFASFStreamConfig.Clone","IMFASFStreamConfig::Clone","c87d658f-6569-464b-a9d0-487d44f76cc0","mf.imfasfstreamconfig_clone","wmcontainer/IMFASFStreamConfig::Clone"]
+description: Creates a copy of the Advanced Systems Format (ASF) stream configuration object.
+helpviewer_keywords: ["Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","Clone method","IMFASFStreamConfig.Clone","IMFASFStreamConfig::Clone","c87d658f-6569-464b-a9d0-487d44f76cc0","mf.imfasfstreamconfig_clone","wmcontainer/IMFASFStreamConfig::Clone"]
 old-location: mf\imfasfstreamconfig_clone.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c87d658f-6569-464b-a9d0-487d44f76cc0
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],Clone method, IMFASFStreamConfig.Clone, IMFASFStreamConfig::Clone, c87d658f-6569-464b-a9d0-487d44f76cc0, mf.imfasfstreamconfig_clone, wmcontainer/IMFASFStreamConfig::Clone

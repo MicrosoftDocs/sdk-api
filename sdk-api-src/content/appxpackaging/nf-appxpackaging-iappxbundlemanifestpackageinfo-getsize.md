@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetSize
 title: IAppxBundleManifestPackageInfo::GetSize (appxpackaging.h)
-description: Retrieves the size of the package, in bytes.helpviewer_keywords: ["GetSize","GetSize method [App packaging and management]","GetSize method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetSize method","IAppxBundleManifestPackageInfo.GetSize","IAppxBundleManifestPackageInfo::GetSize","appxpackaging/IAppxBundleManifestPackageInfo::GetSize","appxpkg.iappxbundlemanifestpackageinfo_getsize"]
+description: Retrieves the size of the package, in bytes.
+helpviewer_keywords: ["GetSize","GetSize method [App packaging and management]","GetSize method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetSize method","IAppxBundleManifestPackageInfo.GetSize","IAppxBundleManifestPackageInfo::GetSize","appxpackaging/IAppxBundleManifestPackageInfo::GetSize","appxpkg.iappxbundlemanifestpackageinfo_getsize"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getsize.htm
 tech.root: appxpkg
 ms.assetid: BA9BB378-D9AF-4D96-88B0-219A5545397A

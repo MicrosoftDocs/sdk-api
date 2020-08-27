@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument.New
 title: ITextDocument::New (tom.h)
-description: Opens a new document.helpviewer_keywords: ["ITextDocument interface [Windows Controls]","New method","ITextDocument.New","ITextDocument::New","New","New method [Windows Controls]","New method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_New","_win32_ITextDocument_New_cpp","controls.ITextDocument_New","controls._win32_ITextDocument_New","tom/ITextDocument::New"]
+description: Opens a new document.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","New method","ITextDocument.New","ITextDocument::New","New","New method [Windows Controls]","New method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_New","_win32_ITextDocument_New_cpp","controls.ITextDocument_New","controls._win32_ITextDocument_New","tom/ITextDocument::New"]
 old-location: controls\ITextDocument_New.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\new.htm

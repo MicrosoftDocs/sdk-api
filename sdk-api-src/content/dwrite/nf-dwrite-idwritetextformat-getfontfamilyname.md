@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontFamilyName
 title: IDWriteTextFormat::GetFontFamilyName (dwrite.h)
-description: Gets a copy of the font family name.helpviewer_keywords: ["GetFontFamilyName","GetFontFamilyName method [Direct Write]","GetFontFamilyName method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontFamilyName method","IDWriteTextFormat.GetFontFamilyName","IDWriteTextFormat::GetFontFamilyName","directwrite.IDWriteTextFormat_GetFontFamilyName","dwrite/IDWriteTextFormat::GetFontFamilyName"]
+description: Gets a copy of the font family name.
+helpviewer_keywords: ["GetFontFamilyName","GetFontFamilyName method [Direct Write]","GetFontFamilyName method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontFamilyName method","IDWriteTextFormat.GetFontFamilyName","IDWriteTextFormat::GetFontFamilyName","directwrite.IDWriteTextFormat_GetFontFamilyName","dwrite/IDWriteTextFormat::GetFontFamilyName"]
 old-location: directwrite\IDWriteTextFormat_GetFontFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: 44d294bf-ec0f-4c75-b10a-2f3e4883b58a

@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetModuleInfoW
 title: SymGetModuleInfoW function (dbghelp.h)
-description: Retrieves the module information of the specified module.helpviewer_keywords: ["SymGetModuleInfo","SymGetModuleInfo function","SymGetModuleInfo64","SymGetModuleInfo64 function","SymGetModuleInfoW","SymGetModuleInfoW64","_win32_symgetmoduleinfo64","base.symgetmoduleinfo64","dbghelp/SymGetModuleInfo","dbghelp/SymGetModuleInfo64","dbghelp/SymGetModuleInfoW","dbghelp/SymGetModuleInfoW64"]
+description: Retrieves the module information of the specified module.
+helpviewer_keywords: ["SymGetModuleInfo","SymGetModuleInfo function","SymGetModuleInfo64","SymGetModuleInfo64 function","SymGetModuleInfoW","SymGetModuleInfoW64","_win32_symgetmoduleinfo64","base.symgetmoduleinfo64","dbghelp/SymGetModuleInfo","dbghelp/SymGetModuleInfo64","dbghelp/SymGetModuleInfoW","dbghelp/SymGetModuleInfoW64"]
 old-location: base\symgetmoduleinfo64.htm
 tech.root: Debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
@@ -67,7 +68,7 @@ A handle to the process that was originally passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-#### - dwAddr [in]
+### -param dwAddr [in]
 
 The virtual address that is contained in one of the modules loaded by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function

@@ -1,7 +1,8 @@
 ---
 UID: NE:ctffunc.__MIDL_ITfCandidateList_0001
 title: TfCandidateResult (ctffunc.h)
-description: Elements of the TfCandidateResult enumeration are used with the ITfCandidateList::SetResult method to specify the result of a reconversion operation performed on a given candidate string.helpviewer_keywords: ["CAND_CANCELED","CAND_FINALIZED","CAND_SELECTED","TfCandidateResult","TfCandidateResult enumeration [Text Services Framework]","_tsf_tfcandidateresult_ref","ctffunc/CAND_CANCELED","ctffunc/CAND_FINALIZED","ctffunc/CAND_SELECTED","ctffunc/TfCandidateResult","tsf.tfcandidateresult"]
+description: Elements of the TfCandidateResult enumeration are used with the ITfCandidateList::SetResult method to specify the result of a reconversion operation performed on a given candidate string.
+helpviewer_keywords: ["CAND_CANCELED","CAND_FINALIZED","CAND_SELECTED","TfCandidateResult","TfCandidateResult enumeration [Text Services Framework]","_tsf_tfcandidateresult_ref","ctffunc/CAND_CANCELED","ctffunc/CAND_FINALIZED","ctffunc/CAND_SELECTED","ctffunc/TfCandidateResult","tsf.tfcandidateresult"]
 old-location: tsf\tfcandidateresult.htm
 tech.root: TSF
 ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e

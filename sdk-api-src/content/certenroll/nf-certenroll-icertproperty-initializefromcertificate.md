@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeFromCertificate
 title: ICertProperty::InitializeFromCertificate (certenroll.h)
-description: Initializes the object by using a property value associated with an existing certificate.helpviewer_keywords: ["ICertProperty interface [Security]","InitializeFromCertificate method","ICertProperty.InitializeFromCertificate","ICertProperty::InitializeFromCertificate","InitializeFromCertificate","InitializeFromCertificate method [Security]","InitializeFromCertificate method [Security]","ICertProperty interface","certenroll/ICertProperty::InitializeFromCertificate","security.icertproperty_initializefromcertificate_method"]
+description: Initializes the object by using a property value associated with an existing certificate.
+helpviewer_keywords: ["ICertProperty interface [Security]","InitializeFromCertificate method","ICertProperty.InitializeFromCertificate","ICertProperty::InitializeFromCertificate","InitializeFromCertificate","InitializeFromCertificate method [Security]","InitializeFromCertificate method [Security]","ICertProperty interface","certenroll/ICertProperty::InitializeFromCertificate","security.icertproperty_initializefromcertificate_method"]
 old-location: security\icertproperty_initializefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method

@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetAnyDCName
 title: IADsADSystemInfo::GetAnyDCName (iads.h)
-description: Retrieves the DNS name of a domain controller in the local computer's domain.helpviewer_keywords: ["GetAnyDCName","GetAnyDCName method [ADSI]","GetAnyDCName method [ADSI]","IADsADSystemInfo interface","IADsADSystemInfo interface [ADSI]","GetAnyDCName method","IADsADSystemInfo.GetAnyDCName","IADsADSystemInfo::GetAnyDCName","_ds_iadsadsysteminfo_getanydcname","adsi.iadsadsysteminfo__getanydcname","adsi.iadsadsysteminfo_getanydcname","iads/IADsADSystemInfo::GetAnyDCName"]
+description: Retrieves the DNS name of a domain controller in the local computer's domain.
+helpviewer_keywords: ["GetAnyDCName","GetAnyDCName method [ADSI]","GetAnyDCName method [ADSI]","IADsADSystemInfo interface","IADsADSystemInfo interface [ADSI]","GetAnyDCName method","IADsADSystemInfo.GetAnyDCName","IADsADSystemInfo::GetAnyDCName","_ds_iadsadsysteminfo_getanydcname","adsi.iadsadsysteminfo__getanydcname","adsi.iadsadsysteminfo_getanydcname","iads/IADsADSystemInfo::GetAnyDCName"]
 old-location: adsi\iadsadsysteminfo_getanydcname.htm
 tech.root: adsi
 ms.assetid: 02bc092a-f5ef-4f9d-b9a6-e03aba784d66

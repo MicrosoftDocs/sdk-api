@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace,FONTSIGNATURE)
 title: IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace,FONTSIGNATURE) (dwrite_3.h)
-description: Reads the font signature from the given font.helpviewer_keywords: ["GetFontSignature","GetFontSignature method [Direct Write]","GetFontSignature method [Direct Write]","IDWriteGdiInterop1 interface","IDWriteGdiInterop1 interface [Direct Write]","GetFontSignature method","IDWriteGdiInterop1.GetFontSignature","IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace","FONTSIGNATURE)","IDWriteGdiInterop1::GetFontSignature","IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace","FONTSIGNATURE)","directwrite.idwritegdiinterop1_getfontsignature","dwrite_3/IDWriteGdiInterop1::GetFontSignature"]
+description: Reads the font signature from the given font.
+helpviewer_keywords: ["GetFontSignature","GetFontSignature method [Direct Write]","GetFontSignature method [Direct Write]","IDWriteGdiInterop1 interface","IDWriteGdiInterop1 interface [Direct Write]","GetFontSignature method","IDWriteGdiInterop1.GetFontSignature","IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace","FONTSIGNATURE)","IDWriteGdiInterop1::GetFontSignature","IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace","FONTSIGNATURE)","directwrite.idwritegdiinterop1_getfontsignature","dwrite_3/IDWriteGdiInterop1::GetFontSignature"]
 old-location: directwrite\idwritegdiinterop1_getfontsignature.htm
 tech.root: DirectWrite
 ms.assetid: 205EC8E6-233B-4ADB-B6B5-E052CF75277A
@@ -57,7 +58,7 @@ Reads the font signature from the given font.
 
 
 
-#### - fontFace [in]
+### -param fontFace [in]
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>*</b>
 

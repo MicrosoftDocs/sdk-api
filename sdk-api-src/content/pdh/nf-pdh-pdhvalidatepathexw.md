@@ -1,9 +1,10 @@
 ---
 UID: NF:pdh.PdhValidatePathExW
 title: PdhValidatePathExW function (pdh.h)
-description: Validates that the specified counter is present on the computer or in the log file.helpviewer_keywords: ["PdhValidatePathEx","PdhValidatePathEx function [Perf]","PdhValidatePathExA","PdhValidatePathExW","pdh/PdhValidatePathEx","pdh/PdhValidatePathExA","pdh/PdhValidatePathExW","perf.pdhvalidatepathex"]
+description: Validates that the specified counter is present on the computer or in the log file.
+helpviewer_keywords: ["PdhValidatePathEx","PdhValidatePathEx function [Perf]","PdhValidatePathExA","PdhValidatePathExW","pdh/PdhValidatePathEx","pdh/PdhValidatePathExA","pdh/PdhValidatePathExW","perf.pdhvalidatepathex"]
 old-location: perf\pdhvalidatepathex.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
@@ -173,4 +174,9 @@ The function is unable to allocate a required temporary buffer.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The pdh.h header defines PdhValidatePathEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

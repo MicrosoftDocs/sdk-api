@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnRenderingTooSlow
 title: IUIAnimationTimerEventHandler::OnRenderingTooSlow (uianimation.h)
-description: Handles events that occur when the rendering frame rate for an animation falls below a minimum desirable frame rate.helpviewer_keywords: ["IUIAnimationTimerEventHandler interface [Windows Animation]","OnRenderingTooSlow method","IUIAnimationTimerEventHandler.OnRenderingTooSlow","IUIAnimationTimerEventHandler::OnRenderingTooSlow","OnRenderingTooSlow","OnRenderingTooSlow method [Windows Animation]","OnRenderingTooSlow method [Windows Animation]","IUIAnimationTimerEventHandler interface","uianimation.iuianimationtimereventhandler_onrenderingtooslow","uianimation/IUIAnimationTimerEventHandler::OnRenderingTooSlow"]
+description: Handles events that occur when the rendering frame rate for an animation falls below a minimum desirable frame rate.
+helpviewer_keywords: ["IUIAnimationTimerEventHandler interface [Windows Animation]","OnRenderingTooSlow method","IUIAnimationTimerEventHandler.OnRenderingTooSlow","IUIAnimationTimerEventHandler::OnRenderingTooSlow","OnRenderingTooSlow","OnRenderingTooSlow method [Windows Animation]","OnRenderingTooSlow method [Windows Animation]","IUIAnimationTimerEventHandler interface","uianimation.iuianimationtimereventhandler_onrenderingtooslow","uianimation/IUIAnimationTimerEventHandler::OnRenderingTooSlow"]
 old-location: uianimation\iuianimationtimereventhandler_onrenderingtooslow.htm
 tech.root: UIAnimation
 ms.assetid: 79986646-2d82-41a3-bff7-b2f0492c7a1b

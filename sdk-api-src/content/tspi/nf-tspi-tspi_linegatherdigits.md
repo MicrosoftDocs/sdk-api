@@ -1,9 +1,10 @@
 ---
 UID: NF:tspi.TSPI_lineGatherDigits
 title: TSPI_lineGatherDigits function (tspi.h)
-description: The TSPI_lineGatherDigits function initiates the buffered gathering of digits on the specified call. TAPI specifies a buffer in which to place the digits and the maximum number of digits to be collected.helpviewer_keywords: ["LINEDIGITMODE_DTMF","LINEDIGITMODE_PULSE","TSPI_lineGatherDigits","TSPI_lineGatherDigits function [TAPI 2.2]","_tspi_tspi_linegatherdigits","tspi.tspi_linegatherdigits","tspi/TSPI_lineGatherDigits"]
+description: The TSPI_lineGatherDigits function initiates the buffered gathering of digits on the specified call. TAPI specifies a buffer in which to place the digits and the maximum number of digits to be collected.
+helpviewer_keywords: ["LINEDIGITMODE_DTMF","LINEDIGITMODE_PULSE","TSPI_lineGatherDigits","TSPI_lineGatherDigits function [TAPI 2.2]","_tspi_tspi_linegatherdigits","tspi.tspi_linegatherdigits","tspi/TSPI_lineGatherDigits"]
 old-location: tspi\tspi_linegatherdigits.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a
 ms.date: 12/05/2018
 ms.keywords: LINEDIGITMODE_DTMF, LINEDIGITMODE_PULSE, TSPI_lineGatherDigits, TSPI_lineGatherDigits function [TAPI 2.2], _tspi_tspi_linegatherdigits, tspi.tspi_linegatherdigits, tspi/TSPI_lineGatherDigits

@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ISettingsEngine
 title: ISettingsEngine (wcmconfig.h)
-description: The central interface for opening namespaces and controlling how they are opened.helpviewer_keywords: ["ISettingsEngine","ISettingsEngine interface [SMI]","ISettingsEngine interface [SMI]","described","smi.isettingsengine","wcmconfig/ISettingsEngine"]
+description: The central interface for opening namespaces and controlling how they are opened.
+helpviewer_keywords: ["ISettingsEngine","ISettingsEngine interface [SMI]","ISettingsEngine interface [SMI]","described","smi.isettingsengine","wcmconfig/ISettingsEngine"]
 old-location: smi\isettingsengine.htm
 tech.root: SMI
 ms.assetid: ba816a00-e238-4dbd-a09a-ad4e191d9c4e

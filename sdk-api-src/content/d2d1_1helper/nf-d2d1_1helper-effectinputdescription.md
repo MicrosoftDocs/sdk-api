@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.EffectInputDescription
 title: EffectInputDescription function (d2d1_1helper.h)
-description: Creates a D2D1_EFFECT_INPUT_DESCRIPTION structure.helpviewer_keywords: ["EffectInputDescription","EffectInputDescription function [Direct2D]","d2d1_1helper/EffectInputDescription","direct2d.effectinputdescription"]
+description: Creates a D2D1_EFFECT_INPUT_DESCRIPTION structure.
+helpviewer_keywords: ["EffectInputDescription","EffectInputDescription function [Direct2D]","d2d1_1helper/EffectInputDescription","direct2d.effectinputdescription"]
 old-location: direct2d\effectinputdescription.htm
 tech.root: Direct2D
 ms.assetid: 3246476C-4110-43EC-88A3-55682A141383

@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionBlendEffect
 title: IDCompositionBlendEffect (dcomp.h)
-description: The Blend Effect is used to combine 2 images.helpviewer_keywords: ["IDCompositionBlendEffect","IDCompositionBlendEffect interface [DirectComposition]","IDCompositionBlendEffect interface [DirectComposition]","described","dcomp/IDCompositionBlendEffect","directcomp.idcompositionblendeffect"]
+description: The Blend Effect is used to combine 2 images.
+helpviewer_keywords: ["IDCompositionBlendEffect","IDCompositionBlendEffect interface [DirectComposition]","IDCompositionBlendEffect interface [DirectComposition]","described","dcomp/IDCompositionBlendEffect","directcomp.idcompositionblendeffect"]
 old-location: directcomp\idcompositionblendeffect.htm
 tech.root: directcomp
 ms.assetid: F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2

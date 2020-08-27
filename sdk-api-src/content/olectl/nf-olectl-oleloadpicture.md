@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.OleLoadPicture
 title: OleLoadPicture function (olectl.h)
-description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect with NULL as the first parameter, followed by a call to IPersistStream::Load.helpviewer_keywords: ["OleLoadPicture","OleLoadPicture function [COM]","_ole_OleLoadPicture","com.oleloadpicture","olectl/OleLoadPicture"]
+description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect with NULL as the first parameter, followed by a call to IPersistStream::Load.
+helpviewer_keywords: ["OleLoadPicture","OleLoadPicture function [COM]","_ole_OleLoadPicture","com.oleloadpicture","olectl/OleLoadPicture"]
 old-location: com\oleloadpicture.htm
 tech.root: com
 ms.assetid: de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyFile2.GetFileRanges
 title: IBackgroundCopyFile2::GetFileRanges (bits2_0.h)
-description: Retrieves the ranges that you want to download from the remote file.helpviewer_keywords: ["GetFileRanges","GetFileRanges method [BITS]","GetFileRanges method [BITS]","IBackgroundCopyFile2 interface","IBackgroundCopyFile2 interface [BITS]","GetFileRanges method","IBackgroundCopyFile2.GetFileRanges","IBackgroundCopyFile2::GetFileRanges","bits.ibackgroundcopyfile2_getfileranges","bits2_0/IBackgroundCopyFile2::GetFileRanges"]
+description: Retrieves the ranges that you want to download from the remote file.
+helpviewer_keywords: ["GetFileRanges","GetFileRanges method [BITS]","GetFileRanges method [BITS]","IBackgroundCopyFile2 interface","IBackgroundCopyFile2 interface [BITS]","GetFileRanges method","IBackgroundCopyFile2.GetFileRanges","IBackgroundCopyFile2::GetFileRanges","bits.ibackgroundcopyfile2_getfileranges","bits2_0/IBackgroundCopyFile2::GetFileRanges"]
 old-location: bits\ibackgroundcopyfile2_getfileranges.htm
 tech.root: Bits
 ms.assetid: 2e0ea08e-5f97-45c9-9280-ce6c4dce7a17

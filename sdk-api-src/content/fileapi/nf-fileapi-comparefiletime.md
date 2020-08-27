@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.CompareFileTime
 title: CompareFileTime function (fileapi.h)
-description: Compares two file times.helpviewer_keywords: ["CompareFileTime","CompareFileTime function","_win32_comparefiletime","base.comparefiletime","fileapi/CompareFileTime","winbase/CompareFileTime"]
+description: Compares two file times.
+helpviewer_keywords: ["CompareFileTime","CompareFileTime function","_win32_comparefiletime","base.comparefiletime","fileapi/CompareFileTime","winbase/CompareFileTime"]
 old-location: base\comparefiletime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 38161826-3a43-42a3-a49d-415b5f7451c5
 ms.date: 12/05/2018
 ms.keywords: CompareFileTime, CompareFileTime function, _win32_comparefiletime, base.comparefiletime, fileapi/CompareFileTime, winbase/CompareFileTime

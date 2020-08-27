@@ -1,9 +1,10 @@
 ---
 UID: NF:secext.GetComputerObjectNameA
 title: GetComputerObjectNameA function (secext.h)
-description: Retrieves the local computer's name in a specified format.helpviewer_keywords: ["GetComputerObjectName","GetComputerObjectName function","GetComputerObjectNameA","GetComputerObjectNameW","_win32_getcomputerobjectname","base.getcomputerobjectname","secext/GetComputerObjectName","secext/GetComputerObjectNameA","secext/GetComputerObjectNameW"]
+description: Retrieves the local computer's name in a specified format.
+helpviewer_keywords: ["GetComputerObjectName","GetComputerObjectName function","GetComputerObjectNameA","GetComputerObjectNameW","_win32_getcomputerobjectname","base.getcomputerobjectname","secext/GetComputerObjectName","secext/GetComputerObjectNameA","secext/GetComputerObjectNameW"]
 old-location: base\getcomputerobjectname.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
 ms.date: 12/05/2018
 ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
@@ -112,4 +113,9 @@ If the function fails, the return value is zero. To get extended error informati
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The secext.h header defines GetComputerObjectName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

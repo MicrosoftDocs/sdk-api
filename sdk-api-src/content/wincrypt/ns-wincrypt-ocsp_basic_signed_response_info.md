@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_SIGNED_RESPONSE_INFO
 title: OCSP_BASIC_SIGNED_RESPONSE_INFO (wincrypt.h)
-description: Contains a basic online certificate status protocol (OCSP) response with a signature.helpviewer_keywords: ["*POCSP_BASIC_SIGNED_RESPONSE_INFO","OCSP_BASIC_SIGNED_RESPONSE_INFO","OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security]","POCSP_BASIC_SIGNED_RESPONSE_INFO","POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security]","security.ocsp_basic_signed_response_info","wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO","wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO"]
+description: Contains a basic online certificate status protocol (OCSP) response with a signature.
+helpviewer_keywords: ["*POCSP_BASIC_SIGNED_RESPONSE_INFO","OCSP_BASIC_SIGNED_RESPONSE_INFO","OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security]","POCSP_BASIC_SIGNED_RESPONSE_INFO","POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security]","security.ocsp_basic_signed_response_info","wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO","wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO"]
 old-location: security\ocsp_basic_signed_response_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4b88a946-030f-490a-b46a-c42507e1268d
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security], POCSP_BASIC_SIGNED_RESPONSE_INFO, POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security], security.ocsp_basic_signed_response_info, wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO, wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO'

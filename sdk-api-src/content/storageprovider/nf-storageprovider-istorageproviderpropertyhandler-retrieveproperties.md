@@ -1,7 +1,8 @@
 ---
 UID: NF:storageprovider.IStorageProviderPropertyHandler.RetrieveProperties
 title: IStorageProviderPropertyHandler::RetrieveProperties (storageprovider.h)
-description: Gets the properties managed by the sync engine.helpviewer_keywords: ["IStorageProviderPropertyHandler interface [Windows Shell]","RetrieveProperties method","IStorageProviderPropertyHandler.RetrieveProperties","IStorageProviderPropertyHandler::RetrieveProperties","RetrieveProperties","RetrieveProperties method [Windows Shell]","RetrieveProperties method [Windows Shell]","IStorageProviderPropertyHandler interface","shell.istorageproviderpropertyhandler_retrieveproperties","storageprovider/IStorageProviderPropertyHandler::RetrieveProperties"]
+description: Gets the properties managed by the sync engine.
+helpviewer_keywords: ["IStorageProviderPropertyHandler interface [Windows Shell]","RetrieveProperties method","IStorageProviderPropertyHandler.RetrieveProperties","IStorageProviderPropertyHandler::RetrieveProperties","RetrieveProperties","RetrieveProperties method [Windows Shell]","RetrieveProperties method [Windows Shell]","IStorageProviderPropertyHandler interface","shell.istorageproviderpropertyhandler_retrieveproperties","storageprovider/IStorageProviderPropertyHandler::RetrieveProperties"]
 old-location: shell\istorageproviderpropertyhandler_retrieveproperties.htm
 tech.root: shell
 ms.assetid: C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7

@@ -1,7 +1,8 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetXML
 title: ITfInputScope::GetXML (inputscope.h)
-description: ITfInputScope::GetXML methodhelpviewer_keywords: ["GetXML","GetXML method [Text Services Framework]","GetXML method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetXML method","ITfInputScope.GetXML","ITfInputScope::GetXML","inputscope/ITfInputScope::GetXML","tsf.itfinputscope_getXML","tsf.itfinputscope_xml"]
+description: ITfInputScope::GetXML method
+helpviewer_keywords: ["GetXML","GetXML method [Text Services Framework]","GetXML method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetXML method","ITfInputScope.GetXML","ITfInputScope::GetXML","inputscope/ITfInputScope::GetXML","tsf.itfinputscope_getXML","tsf.itfinputscope_xml"]
 old-location: tsf\itfinputscope_getXML.htm
 tech.root: TSF
 ms.assetid: 7e7a2780-6080-4f9a-b036-bc8f6258bcb5

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPControls.previous
 title: IWMPControls::previous (wmp.h)
-description: The previous method sets the previous item in the playlist as the current item.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","previous method","IWMPControls.previous","IWMPControls::previous","IWMPControlsprevious","previous","previous method [Windows Media Player]","previous method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_previous","wmp/IWMPControls::previous"]
+description: The previous method sets the previous item in the playlist as the current item.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","previous method","IWMPControls.previous","IWMPControls::previous","IWMPControlsprevious","previous","previous method [Windows Media Player]","previous method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_previous","wmp/IWMPControls::previous"]
 old-location: wmp\iwmpcontrols_previous.htm
 tech.root: WMP
 ms.assetid: e26eca59-1e2d-4a1f-b133-e337a934014b

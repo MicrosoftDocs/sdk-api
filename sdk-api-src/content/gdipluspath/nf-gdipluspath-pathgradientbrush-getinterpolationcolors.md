@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetInterpolationColors
 title: PathGradientBrush::GetInterpolationColors (gdipluspath.h)
-description: The PathGradientBrush::GetInterpolationColors method gets the preset colors and blend positions currently specified for this path gradient brush.helpviewer_keywords: ["GetInterpolationColors","GetInterpolationColors method [GDI+]","GetInterpolationColors method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetInterpolationColors method","PathGradientBrush.GetInterpolationColors","PathGradientBrush::GetInterpolationColors","_gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_"]
+description: The PathGradientBrush::GetInterpolationColors method gets the preset colors and blend positions currently specified for this path gradient brush.
+helpviewer_keywords: ["GetInterpolationColors","GetInterpolationColors method [GDI+]","GetInterpolationColors method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetInterpolationColors method","PathGradientBrush.GetInterpolationColors","PathGradientBrush::GetInterpolationColors","_gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getinterpolationcolors_50presetcolors_blendpositions_count.htm

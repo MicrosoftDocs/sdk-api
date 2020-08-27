@@ -1,9 +1,10 @@
 ---
 UID: NS:wsdtypes._WSD_OPERATION
 title: WSD_OPERATION (wsdtypes.h)
-description: Describes an operation as defined by WSDL in terms of one or two messages.helpviewer_keywords: ["WSD_OPERATION","WSD_OPERATION structure","ncd.wsd_operation_struct","wsdtypes/WSD_OPERATION"]
+description: Describes an operation as defined by WSDL in terms of one or two messages.
+helpviewer_keywords: ["WSD_OPERATION","WSD_OPERATION structure","ncd.wsd_operation_struct","wsdtypes/WSD_OPERATION"]
 old-location: ncd\wsd_operation_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
 ms.date: 12/05/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION

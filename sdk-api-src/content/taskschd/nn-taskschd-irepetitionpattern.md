@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IRepetitionPattern
 title: IRepetitionPattern (taskschd.h)
-description: Defines how often the task is run and how long the repetition pattern is repeated after the task is started.helpviewer_keywords: ["IRepetitionPattern","IRepetitionPattern interface [Task Scheduler]","IRepetitionPattern interface [Task Scheduler]","described","repetition pattern [Task Scheduler]","interface","taskschd.irepetitionpattern","taskschd/IRepetitionPattern","triggers [Task Scheduler]","repetition pattern interface"]
+description: Defines how often the task is run and how long the repetition pattern is repeated after the task is started.
+helpviewer_keywords: ["IRepetitionPattern","IRepetitionPattern interface [Task Scheduler]","IRepetitionPattern interface [Task Scheduler]","described","repetition pattern [Task Scheduler]","interface","taskschd.irepetitionpattern","taskschd/IRepetitionPattern","triggers [Task Scheduler]","repetition pattern interface"]
 old-location: taskschd\irepetitionpattern.htm
 tech.root: taskschd
 ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef

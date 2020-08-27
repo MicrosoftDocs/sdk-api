@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10effect._D3D10_STATE_BLOCK_MASK
 title: D3D10_STATE_BLOCK_MASK (d3d10effect.h)
-description: Indicates the device state.helpviewer_keywords: ["D3D10_STATE_BLOCK_MASK","D3D10_STATE_BLOCK_MASK structure [Direct3D 10]","bf81f800-b1fd-0774-8da5-ae9bd9fc43d4","d3d10effect/D3D10_STATE_BLOCK_MASK","direct3d10.d3d10_state_block_mask"]
+description: Indicates the device state.
+helpviewer_keywords: ["D3D10_STATE_BLOCK_MASK","D3D10_STATE_BLOCK_MASK structure [Direct3D 10]","bf81f800-b1fd-0774-8da5-ae9bd9fc43d4","d3d10effect/D3D10_STATE_BLOCK_MASK","direct3d10.d3d10_state_block_mask"]
 old-location: direct3d10\d3d10_state_block_mask.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_state_block_mask.htm
@@ -64,41 +65,12 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Boolean value indicating whether to save the vertex shader state.
 
 
-### -field VSSamplers
-
- 
-
-
-### -field VSShaderResources
-
- 
-
-
-### -field VSConstantBuffers
-
- 
-
-
 ### -field GS
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Boolean value indicating whether to save the geometry shader state.
 
-
-### -field GSSamplers
-
- 
-
-
-### -field GSShaderResources
-
- 
-
-
-### -field GSConstantBuffers
-
- 
 
 
 ### -field PS
@@ -108,24 +80,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Boolean value indicating whether to save the pixel shader state.
 
 
-### -field PSSamplers
 
- 
-
-
-### -field PSShaderResources
-
- 
-
-
-### -field PSConstantBuffers
-
- 
-
-
-### -field IAVertexBuffers
-
- 
 
 
 ### -field IAIndexBuffer
@@ -205,70 +160,70 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Boolean value indicating whether to save the predication state.
 
 
-#### - GSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
+### -field GSConstantBuffers [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of geometry-shader constant buffers. The array is a multi-byte bitmask where each bit represents one buffer slot.
 
 
-#### - GSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
+### -field GSSamplers [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of geometry-shader samplers. The array is a multi-byte bitmask where each bit represents one sampler slot.
 
 
-#### - GSShaderResources[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
+### -field GSShaderResources [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of geometry-shader resources. The array is a multi-byte bitmask where each bit represents one resource slot.
 
 
-#### - IAVertexBuffers[D3D10_BYTES_FROM_BITS(D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT)]
+### -field IAVertexBuffers [D3D10_BYTES_FROM_BITS(D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of vertex buffers. The array is a multi-byte bitmask where each bit represents one resource slot.
 
 
-#### - PSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
+### -field PSConstantBuffers [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of pixel-shader constant buffers. The array is a multi-byte bitmask where each bit represents one constant buffer slot.
 
 
-#### - PSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
+### -field PSSamplers [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of pixel-shader samplers. The array is a multi-byte bitmask where each bit represents one sampler slot.
 
 
-#### - PSShaderResources[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
+### -field PSShaderResources [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of pixel-shader resources. The array is a multi-byte bitmask where each bit represents one resource slot.
 
 
-#### - VSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
+### -field VSConstantBuffers [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of vertex-shader constant buffers. The array is a multi-byte bitmask where each bit represents one constant buffer slot.
 
 
-#### - VSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
+### -field VSSamplers [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Array of vertex-shader samplers.  The array is a multi-byte bitmask where each bit represents one sampler slot.
 
 
-#### - VSShaderResources[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
+### -field VSShaderResources [D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 

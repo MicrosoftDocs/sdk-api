@@ -1,9 +1,10 @@
 ---
 UID: NF:azroles.IAzScope2.OpenRoleDefinition
 title: IAzScope2::OpenRoleDefinition (azroles.h)
-description: Opens an IAzRoleDefinition object with the specified name in this scope.helpviewer_keywords: ["IAzScope2 interface [Security]","OpenRoleDefinition method","IAzScope2.OpenRoleDefinition","IAzScope2::OpenRoleDefinition","OpenRoleDefinition","OpenRoleDefinition method [Security]","OpenRoleDefinition method [Security]","IAzScope2 interface","azroles/IAzScope2::OpenRoleDefinition","security.iazscope2_openroledefinition"]
+description: Opens an IAzRoleDefinition object with the specified name in this scope.
+helpviewer_keywords: ["IAzScope2 interface [Security]","OpenRoleDefinition method","IAzScope2.OpenRoleDefinition","IAzScope2::OpenRoleDefinition","OpenRoleDefinition","OpenRoleDefinition method [Security]","OpenRoleDefinition method [Security]","IAzScope2 interface","azroles/IAzScope2::OpenRoleDefinition","security.iazscope2_openroledefinition"]
 old-location: security\iazscope2_openroledefinition.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 58b792aa-1432-4b23-8d7a-33606741bf27
 ms.date: 12/05/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleDefinition method, IAzScope2.OpenRoleDefinition, IAzScope2::OpenRoleDefinition, OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleDefinition, security.iazscope2_openroledefinition

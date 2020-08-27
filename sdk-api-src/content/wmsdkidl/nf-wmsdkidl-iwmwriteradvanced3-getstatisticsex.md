@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.GetStatisticsEx
 title: IWMWriterAdvanced3::GetStatisticsEx (wmsdkidl.h)
-description: The GetStatisticsEx method retrieves extended statistics for the writer.helpviewer_keywords: ["GetStatisticsEx","GetStatisticsEx method [windows Media Format]","GetStatisticsEx method [windows Media Format]","IWMWriterAdvanced3 interface","IWMWriterAdvanced3 interface [windows Media Format]","GetStatisticsEx method","IWMWriterAdvanced3.GetStatisticsEx","IWMWriterAdvanced3::GetStatisticsEx","IWMWriterAdvanced3GetStatisticsEx","wmformat.iwmwriteradvanced3_getstatisticsex","wmsdkidl/IWMWriterAdvanced3::GetStatisticsEx"]
+description: The GetStatisticsEx method retrieves extended statistics for the writer.
+helpviewer_keywords: ["GetStatisticsEx","GetStatisticsEx method [windows Media Format]","GetStatisticsEx method [windows Media Format]","IWMWriterAdvanced3 interface","IWMWriterAdvanced3 interface [windows Media Format]","GetStatisticsEx method","IWMWriterAdvanced3.GetStatisticsEx","IWMWriterAdvanced3::GetStatisticsEx","IWMWriterAdvanced3GetStatisticsEx","wmformat.iwmwriteradvanced3_getstatisticsex","wmsdkidl/IWMWriterAdvanced3::GetStatisticsEx"]
 old-location: wmformat\iwmwriteradvanced3_getstatisticsex.htm
 tech.root: wmformat
 ms.assetid: 3ea41491-409c-42b7-a4b2-f0d7c222c299

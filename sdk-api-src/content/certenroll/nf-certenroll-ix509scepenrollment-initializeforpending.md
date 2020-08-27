@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.InitializeForPending
 title: IX509SCEPEnrollment::InitializeForPending (certenroll.h)
-description: Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","InitializeForPending method","IX509SCEPEnrollment.InitializeForPending","IX509SCEPEnrollment::InitializeForPending","InitializeForPending","InitializeForPending method [Security]","InitializeForPending method [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::InitializeForPending","security.ix509scepenrollment_initializeforpending"]
+description: Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
+helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","InitializeForPending method","IX509SCEPEnrollment.InitializeForPending","IX509SCEPEnrollment::InitializeForPending","InitializeForPending","InitializeForPending method [Security]","InitializeForPending method [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::InitializeForPending","security.ix509scepenrollment_initializeforpending"]
 old-location: security\ix509scepenrollment_initializeforpending.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6b6f9e9d-5316-4928-861a-22497e1f5c00
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],InitializeForPending method, IX509SCEPEnrollment.InitializeForPending, IX509SCEPEnrollment::InitializeForPending, InitializeForPending, InitializeForPending method [Security], InitializeForPending method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::InitializeForPending, security.ix509scepenrollment_initializeforpending

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.QueryPathOfRegTypeLib
 title: QueryPathOfRegTypeLib function (oleauto.h)
-description: Retrieves the path of a registered type library.helpviewer_keywords: ["QueryPathOfRegTypeLib","QueryPathOfRegTypeLib function [Automation]","_oa96_QueryPathOfRegTypeLib","automat.querypathofregtypelib","oleauto/QueryPathOfRegTypeLib"]
+description: Retrieves the path of a registered type library.
+helpviewer_keywords: ["QueryPathOfRegTypeLib","QueryPathOfRegTypeLib function [Automation]","_oa96_QueryPathOfRegTypeLib","automat.querypathofregtypelib","oleauto/QueryPathOfRegTypeLib"]
 old-location: automat\querypathofregtypelib.htm
 tech.root: automat
 ms.assetid: a71dc182-2fbf-48bd-9c9a-c662b9b0a6ec

@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLookup
 title: IXpsOMPath::GetStrokeBrushLookup (xpsobjectmodel.h)
-description: Gets the lookup key of the brush that is stored in a resource dictionary and is to be used as the stroke brush for the path.helpviewer_keywords: ["GetStrokeBrushLookup","GetStrokeBrushLookup method [XPS Documents and Packaging]","GetStrokeBrushLookup method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeBrushLookup method","IXpsOMPath.GetStrokeBrushLookup","IXpsOMPath::GetStrokeBrushLookup","xps.ixpsompath_getstrokebrushlookup","xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup"]
+description: Gets the lookup key of the brush that is stored in a resource dictionary and is to be used as the stroke brush for the path.
+helpviewer_keywords: ["GetStrokeBrushLookup","GetStrokeBrushLookup method [XPS Documents and Packaging]","GetStrokeBrushLookup method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeBrushLookup method","IXpsOMPath.GetStrokeBrushLookup","IXpsOMPath::GetStrokeBrushLookup","xps.ixpsompath_getstrokebrushlookup","xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup"]
 old-location: xps\ixpsompath_getstrokebrushlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: af70b6a3-203a-4189-b44d-763539e0302a
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLookup method, IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup

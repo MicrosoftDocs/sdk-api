@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_LongestTimeToAnswer
 title: ITAgentSession::get_LongestTimeToAnswer (tapi3cc.h)
-description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_LongestTimeToAnswer method","ITAgentSession.get_LongestTimeToAnswer","ITAgentSession::get_LongestTimeToAnswer","_tapi3_itagentsession_get_longesttimetoanswer","get_LongestTimeToAnswer","get_LongestTimeToAnswer method [TAPI 2.2]","get_LongestTimeToAnswer method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_longesttimetoanswer","tapi3cc/ITAgentSession::get_LongestTimeToAnswer"]
+description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.
+helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_LongestTimeToAnswer method","ITAgentSession.get_LongestTimeToAnswer","ITAgentSession::get_LongestTimeToAnswer","_tapi3_itagentsession_get_longesttimetoanswer","get_LongestTimeToAnswer","get_LongestTimeToAnswer method [TAPI 2.2]","get_LongestTimeToAnswer method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_longesttimetoanswer","tapi3cc/ITAgentSession::get_LongestTimeToAnswer"]
 old-location: tapi3\itagentsession_get_longesttimetoanswer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: aca11b6d-7656-4162-9bf7-1b8ffaa487de
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_LongestTimeToAnswer method, ITAgentSession.get_LongestTimeToAnswer, ITAgentSession::get_LongestTimeToAnswer, _tapi3_itagentsession_get_longesttimetoanswer, get_LongestTimeToAnswer, get_LongestTimeToAnswer method [TAPI 2.2], get_LongestTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_longesttimetoanswer, tapi3cc/ITAgentSession::get_LongestTimeToAnswer

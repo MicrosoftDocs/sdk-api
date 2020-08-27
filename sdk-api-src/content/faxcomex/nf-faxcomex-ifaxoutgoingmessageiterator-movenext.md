@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.MoveNext
 title: IFaxOutgoingMessageIterator::MoveNext (faxcomex.h)
-description: The IFaxOutgoingMessageIterator::MoveNext method moves the archive cursor to the next fax message in the outbound archive.helpviewer_keywords: ["IFaxOutgoingMessageIterator interface [Fax Service]","MoveNext method","IFaxOutgoingMessageIterator.MoveNext","IFaxOutgoingMessageIterator::MoveNext","MoveNext","MoveNext method [Fax Service]","MoveNext method [Fax Service]","IFaxOutgoingMessageIterator interface","_mfax_faxoutgoingmessageiterator.movenext","fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_movenext_cpp","fax._mfax_faxoutgoingmessageiterator_movenext","faxcomex/IFaxOutgoingMessageIterator::MoveNext"]
+description: The IFaxOutgoingMessageIterator::MoveNext method moves the archive cursor to the next fax message in the outbound archive.
+helpviewer_keywords: ["IFaxOutgoingMessageIterator interface [Fax Service]","MoveNext method","IFaxOutgoingMessageIterator.MoveNext","IFaxOutgoingMessageIterator::MoveNext","MoveNext","MoveNext method [Fax Service]","MoveNext method [Fax Service]","IFaxOutgoingMessageIterator interface","_mfax_faxoutgoingmessageiterator.movenext","fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_movenext_cpp","fax._mfax_faxoutgoingmessageiterator_movenext","faxcomex/IFaxOutgoingMessageIterator::MoveNext"]
 old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_movenext_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5b04.htm

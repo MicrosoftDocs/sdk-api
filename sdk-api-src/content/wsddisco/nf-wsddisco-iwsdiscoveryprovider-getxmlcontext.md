@@ -1,9 +1,10 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.GetXMLContext
 title: IWSDiscoveryProvider::GetXMLContext (wsddisco.h)
-description: Gets the XML context associated with this provider.helpviewer_keywords: ["GetXMLContext","GetXMLContext method","GetXMLContext method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","GetXMLContext method","IWSDiscoveryProvider.GetXMLContext","IWSDiscoveryProvider::GetXMLContext","ncd.iwsdiscoveryprovider_getxmlcontext","wsddisco/IWSDiscoveryProvider::GetXMLContext"]
+description: Gets the XML context associated with this provider.
+helpviewer_keywords: ["GetXMLContext","GetXMLContext method","GetXMLContext method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","GetXMLContext method","IWSDiscoveryProvider.GetXMLContext","IWSDiscoveryProvider::GetXMLContext","ncd.iwsdiscoveryprovider_getxmlcontext","wsddisco/IWSDiscoveryProvider::GetXMLContext"]
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
 ms.date: 12/05/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,GetXMLContext method, IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext

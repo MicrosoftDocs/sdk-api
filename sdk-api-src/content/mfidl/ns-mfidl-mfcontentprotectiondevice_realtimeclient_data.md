@@ -1,9 +1,10 @@
 ---
 UID: NS:mfidl._MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 title: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA (mfidl.h)
-description: Advises the secure processor of the Multimedia Class Scheduler service (MMCSS) parameters so that real-time tasks can be scheduled at the expected priority.helpviewer_keywords: ["MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA","MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA structure [Media Foundation]","mf.mfcontentprotectiondevice_realtimeclient_data","mfidl/MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA"]
+description: Advises the secure processor of the Multimedia Class Scheduler service (MMCSS) parameters so that real-time tasks can be scheduled at the expected priority.
+helpviewer_keywords: ["MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA","MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA structure [Media Foundation]","mf.mfcontentprotectiondevice_realtimeclient_data","mfidl/MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA"]
 old-location: mf\mfcontentprotectiondevice_realtimeclient_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E0A98B31-13D4-4281-AFFB-A3DA664CE876
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA, MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_realtimeclient_data, mfidl/MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA

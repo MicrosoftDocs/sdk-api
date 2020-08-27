@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplustypes.SizeF.SizeF(IN REAL,IN REAL)
+UID: NF:gdiplustypes.SizeF.SizeF(INREAL,INREAL)
 title: SizeF::SizeF(IN REAL,IN REAL) (gdiplustypes.h)
-description: Creates a SizeF object and initializes its Width and Height data members.helpviewer_keywords: ["SizeF","SizeF class [GDI+]","SizeF constructor","SizeF constructor [GDI+]","SizeF constructor [GDI+]","SizeF class","SizeF.SizeF","SizeF.SizeF(IN REAL","IN REAL)","SizeF.SizeF(REAL","REAL)","SizeF::SizeF","SizeF::SizeF(IN REAL","IN REAL)","_gdiplus_CLASS_SizeF_SizeF_width_height_","gdiplus._gdiplus_CLASS_SizeF_SizeF_width_height_"]
+description: Creates a SizeF object and initializes its Width and Height data members.
+helpviewer_keywords: ["SizeF","SizeF class [GDI+]","SizeF constructor","SizeF constructor [GDI+]","SizeF constructor [GDI+]","SizeF class","SizeF.SizeF","SizeF.SizeF(IN REAL","IN REAL)","SizeF.SizeF(REAL","REAL)","SizeF::SizeF","SizeF::SizeF(IN REAL","IN REAL)","_gdiplus_CLASS_SizeF_SizeF_width_height_","gdiplus._gdiplus_CLASS_SizeF_SizeF_width_height_"]
 old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_61width_height.htm

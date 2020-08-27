@@ -1,9 +1,10 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetDefaultMonitor
 title: IVMRMonitorConfig9::GetDefaultMonitor (vmr9.h)
-description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.helpviewer_keywords: ["GetDefaultMonitor","GetDefaultMonitor method [DirectShow]","GetDefaultMonitor method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetDefaultMonitor method","IVMRMonitorConfig9.GetDefaultMonitor","IVMRMonitorConfig9::GetDefaultMonitor","IVMRMonitorConfig9GetDefaultMonitor","dshow.ivmrmonitorconfig9_getdefaultmonitor","vmr9/IVMRMonitorConfig9::GetDefaultMonitor"]
+description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
+helpviewer_keywords: ["GetDefaultMonitor","GetDefaultMonitor method [DirectShow]","GetDefaultMonitor method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetDefaultMonitor method","IVMRMonitorConfig9.GetDefaultMonitor","IVMRMonitorConfig9::GetDefaultMonitor","IVMRMonitorConfig9GetDefaultMonitor","dshow.ivmrmonitorconfig9_getdefaultmonitor","vmr9/IVMRMonitorConfig9::GetDefaultMonitor"]
 old-location: dshow\ivmrmonitorconfig9_getdefaultmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a5d5bf77-5261-42eb-b79b-d72dfb2d9f21
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig9.GetDefaultMonitor, IVMRMonitorConfig9::GetDefaultMonitor, IVMRMonitorConfig9GetDefaultMonitor, dshow.ivmrmonitorconfig9_getdefaultmonitor, vmr9/IVMRMonitorConfig9::GetDefaultMonitor

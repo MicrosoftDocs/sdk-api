@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.media.streaming.TrackInformation
 title: TrackInformation (windows.media.streaming.h)
-description: Contains the current track number and duration as part of the PositionInformation obtained from the DMR.helpviewer_keywords: ["TrackInformation","TrackInformation structure [Media Streaming API]","mediastreaming.trackinformation","windows/TrackInformation"]
+description: Contains the current track number and duration as part of the PositionInformation obtained from the DMR.
+helpviewer_keywords: ["TrackInformation","TrackInformation structure [Media Streaming API]","mediastreaming.trackinformation","windows/TrackInformation"]
 old-location: mediastreaming\trackinformation.htm
 tech.root: mediastreaming
 ms.assetid: 47398d9f-9462-49c1-a02c-985212a07363
@@ -74,12 +75,12 @@ Contains the current track number and duration as part of the <a href="https://d
 
 
 
-#### - Track
+### -field Track
 
 The current track number as reported by DMR.  If the DMR does not have a concept of track numbers, this value will be 0.
 
 
-#### - TrackDuration
+### -field TrackDuration
 
 The duration of the current track.
 

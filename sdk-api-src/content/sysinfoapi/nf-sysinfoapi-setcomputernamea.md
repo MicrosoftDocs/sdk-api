@@ -1,9 +1,10 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameA
 title: SetComputerNameA function (sysinfoapi.h)
-description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer.helpviewer_keywords: ["SetComputerName","SetComputerName function","SetComputerNameA","SetComputerNameW","_win32_setcomputername","base.setcomputername","sysinfoapi/SetComputerName","sysinfoapi/SetComputerNameA","sysinfoapi/SetComputerNameW"]
+description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer.
+helpviewer_keywords: ["SetComputerName","SetComputerName function","SetComputerNameA","SetComputerNameW","_win32_setcomputername","base.setcomputername","sysinfoapi/SetComputerName","sysinfoapi/SetComputerNameA","sysinfoapi/SetComputerNameW"]
 old-location: base\setcomputername.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: ff64fde2-d1b5-4211-b8c4-4823a5469e04
 ms.date: 12/05/2018
 ms.keywords: SetComputerName, SetComputerName function, SetComputerNameA, SetComputerNameW, _win32_setcomputername, base.setcomputername, sysinfoapi/SetComputerName, sysinfoapi/SetComputerNameA, sysinfoapi/SetComputerNameW
@@ -98,6 +99,10 @@ Applications using this function must have administrator rights.
 
 
 
+
+
+> [!NOTE]
+> The sysinfoapi.h header defines SetComputerName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

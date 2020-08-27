@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 description: The IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code communicates attribute information to the volume manager and storage system device.
 helpviewer_keywords: ["IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES","IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control","IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code","base.ioctl_storage_manage_data_set_attributes","winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"]
 old-location: base\ioctl_storage_manage_data_set_attributes.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 48e797ec-dad2-4a9e-9ccd-aaa65ece8da4
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code, base.ioctl_storage_manage_data_set_attributes, winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES

@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.BeginBufferedPaint
 title: BeginBufferedPaint function (uxtheme.h)
-description: Begins a buffered paint operation.helpviewer_keywords: ["BeginBufferedPaint","BeginBufferedPaint function [Windows Controls]","_shell_BeginBufferedPaint","_shell_BeginBufferedPaint_cpp","controls.BeginBufferedPaint","controls._shell_BeginBufferedPaint","uxtheme/BeginBufferedPaint"]
+description: Begins a buffered paint operation.
+helpviewer_keywords: ["BeginBufferedPaint","BeginBufferedPaint function [Windows Controls]","_shell_BeginBufferedPaint","_shell_BeginBufferedPaint_cpp","controls.BeginBufferedPaint","controls._shell_BeginBufferedPaint","uxtheme/BeginBufferedPaint"]
 old-location: controls\BeginBufferedPaint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedpaint.htm

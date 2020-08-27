@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.PutResource
 title: ITransactionResourcePool::PutResource (comsvcs.h)
-description: Adds an object to the list of pooled objects.helpviewer_keywords: ["ITransactionResourcePool interface [COM+]","PutResource method","ITransactionResourcePool.PutResource","ITransactionResourcePool::PutResource","PutResource","PutResource method [COM+]","PutResource method [COM+]","ITransactionResourcePool interface","_cos_ITransactionResourcePool_PutResource","comsvcs/ITransactionResourcePool::PutResource","cos.itransactionresourcepool_putresource"]
+description: Adds an object to the list of pooled objects.
+helpviewer_keywords: ["ITransactionResourcePool interface [COM+]","PutResource method","ITransactionResourcePool.PutResource","ITransactionResourcePool::PutResource","PutResource","PutResource method [COM+]","PutResource method [COM+]","ITransactionResourcePool interface","_cos_ITransactionResourcePool_PutResource","comsvcs/ITransactionResourcePool::PutResource","cos.itransactionresourcepool_putresource"]
 old-location: cos\itransactionresourcepool_putresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6e05f075-0fa8-4605-9f68-3ef7fc9f0132
 ms.date: 12/05/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource

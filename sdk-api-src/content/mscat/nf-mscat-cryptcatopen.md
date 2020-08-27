@@ -1,9 +1,10 @@
 ---
 UID: NF:mscat.CryptCATOpen
 title: CryptCATOpen function (mscat.h)
-description: Opens a catalog and returns a context handle to the open catalog.helpviewer_keywords: ["CRYPTCAT_OPEN_ALWAYS","CRYPTCAT_OPEN_CREATENEW","CRYPTCAT_VERSION_1","CRYPTCAT_VERSION_2","CryptCATOpen","CryptCATOpen function [Security]","mscat/CryptCATOpen","security.cryptcatopen"]
+description: Opens a catalog and returns a context handle to the open catalog.
+helpviewer_keywords: ["CRYPTCAT_OPEN_ALWAYS","CRYPTCAT_OPEN_CREATENEW","CRYPTCAT_VERSION_1","CRYPTCAT_VERSION_2","CryptCATOpen","CryptCATOpen function [Security]","mscat/CryptCATOpen","security.cryptcatopen"]
 old-location: security\cryptcatopen.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e81f3a3d-d5b7-4266-838d-b83e331c8594
 ms.date: 12/05/2018
 ms.keywords: CRYPTCAT_OPEN_ALWAYS, CRYPTCAT_OPEN_CREATENEW, CRYPTCAT_VERSION_1, CRYPTCAT_VERSION_2, CryptCATOpen, CryptCATOpen function [Security], mscat/CryptCATOpen, security.cryptcatopen
@@ -90,6 +91,73 @@ Opens the file, if it exists, or creates a new file, if needed.
 </td>
 <td width="60%">
 A new catalog file is created. If a previously created file exists, it is overwritten.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="CRYPTCAT_OPEN_EXISTING"></a><a id="cryptcat_open_existing"></a><dl>
+<dt><b>CRYPTCAT_OPEN_EXISTING</b></dt>
+</dl>
+</td>
+<td width="60%">
+An existing catalog file is opened.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="CRYPTCAT_OPEN_EXCLUDE_PAGE_HASHES"></a><a id="cryptcat_open_exclude_page_hashes"></a><dl>
+<dt><b>CRYPTCAT_OPEN_EXCLUDE_PAGE_HASHES</b></dt>
+</dl>
+</td>
+<td width="60%">
+An existing catalog file is opened. Exclude page hashes in SPC_INDIRECT_DATA.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="CRYPTCAT_OPEN_INCLUDE_PAGE_HASHES"></a><a id="cryptcat_open_include_page_hashes"></a><dl>
+<dt><b>CRYPTCAT_OPEN_INCLUDE_PAGE_HASHES</b></dt>
+</dl>
+</td>
+<td width="60%">
+An existing catalog file is opened. Include page hashes in SPC_INDIRECT_DATA.
+The above CRYPTCAT_OPEN_EXCLUDE_PAGE_HASHES takes precedence if also set.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="CRYPTCAT_OPEN_VERIFYSIGHASH"></a><a id="cryptcat_open_verifysighash"></a><dl>
+<dt><b>CRYPTCAT_OPEN_VERIFYSIGHASH</b></dt>
+</dl>
+</td>
+<td width="60%">
+An existing catalog file is opened. Verifies the signature, not the certificates.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="CRYPTCAT_OPEN_NO_CONTENT_HCRYPTMSG"></a><a id="cryptcat_open_no_content_hcryptmsg"></a><dl>
+<dt><b>CRYPTCAT_OPEN_NO_CONTENT_HCRYPTMSG</b></dt>
+</dl>
+</td>
+<td width="60%">
+An existing catalog file is opened. Does CryptMsgDecode without content.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="CRYPTCAT_OPEN_SORTED"></a><a id="cryptcat_open_sorted"></a><dl>
+<dt><b>CRYPTCAT_OPEN_SORTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+An existing catalog file is opened. Does CertCreateContext(CERT_CREATE_CONTEXT_SORTED_FLAG).
 
 </td>
 </tr>

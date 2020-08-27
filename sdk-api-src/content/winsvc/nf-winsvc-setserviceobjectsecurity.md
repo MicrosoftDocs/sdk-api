@@ -1,9 +1,10 @@
 ---
 UID: NF:winsvc.SetServiceObjectSecurity
 title: SetServiceObjectSecurity function (winsvc.h)
-description: Sets the security descriptor of a service object.helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","SetServiceObjectSecurity","SetServiceObjectSecurity function [Security]","_win32_setserviceobjectsecurity","security.setserviceobjectsecurity","winsvc/SetServiceObjectSecurity"]
+description: Sets the security descriptor of a service object.
+helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","SetServiceObjectSecurity","SetServiceObjectSecurity function [Security]","_win32_setserviceobjectsecurity","security.setserviceobjectsecurity","winsvc/SetServiceObjectSecurity"]
 old-location: security\setserviceobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 39481d9a-79d5-4bbf-8480-4095a34dddb6
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetServiceObjectSecurity, SetServiceObjectSecurity function [Security], _win32_setserviceobjectsecurity, security.setserviceobjectsecurity, winsvc/SetServiceObjectSecurity

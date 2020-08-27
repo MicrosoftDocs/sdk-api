@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CryptSignCertificate
 title: CryptSignCertificate function (wincrypt.h)
-description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.helpviewer_keywords: ["CryptSignCertificate","CryptSignCertificate function [Security]","_crypto2_cryptsigncertificate","security.cryptsigncertificate","wincrypt/CryptSignCertificate"]
+description: The CryptSignCertificate function signs the &quot;to be signed&quot; information in the encoded signed content.
+helpviewer_keywords: ["CryptSignCertificate","CryptSignCertificate function [Security]","_crypto2_cryptsigncertificate","security.cryptsigncertificate","wincrypt/CryptSignCertificate"]
 old-location: security\cryptsigncertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
 ms.date: 12/05/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate

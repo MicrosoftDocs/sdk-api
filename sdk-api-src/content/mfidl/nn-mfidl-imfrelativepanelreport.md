@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: This interface is used to retrieve the current relative panel location for a display region.
+tech.root: mf
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

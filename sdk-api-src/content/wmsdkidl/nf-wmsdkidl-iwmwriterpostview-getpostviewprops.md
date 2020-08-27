@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewProps
 title: IWMWriterPostView::GetPostViewProps (wmsdkidl.h)
-description: The GetPostViewProps method retrieves the properties for the specified output stream.helpviewer_keywords: ["GetPostViewProps","GetPostViewProps method [windows Media Format]","GetPostViewProps method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetPostViewProps method","IWMWriterPostView.GetPostViewProps","IWMWriterPostView::GetPostViewProps","IWMWriterPostViewGetPostViewProps","wmformat.iwmwriterpostview_getpostviewprops","wmsdkidl/IWMWriterPostView::GetPostViewProps"]
+description: The GetPostViewProps method retrieves the properties for the specified output stream.
+helpviewer_keywords: ["GetPostViewProps","GetPostViewProps method [windows Media Format]","GetPostViewProps method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetPostViewProps method","IWMWriterPostView.GetPostViewProps","IWMWriterPostView::GetPostViewProps","IWMWriterPostViewGetPostViewProps","wmformat.iwmwriterpostview_getpostviewprops","wmsdkidl/IWMWriterPostView::GetPostViewProps"]
 old-location: wmformat\iwmwriterpostview_getpostviewprops.htm
 tech.root: wmformat
 ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e

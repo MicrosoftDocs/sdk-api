@@ -4,7 +4,7 @@ title: lineGenerateDigitsA function (tapi.h)
 description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
 helpviewer_keywords: ["_tapi2_linegeneratedigits","lineGenerateDigits","lineGenerateDigits function [TAPI 2.2]","lineGenerateDigitsA","lineGenerateDigitsW","tapi/lineGenerateDigits","tapi/lineGenerateDigitsA","tapi/lineGenerateDigitsW","tapi2.linegeneratedigits"]
 old-location: tapi2\linegeneratedigits.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits
@@ -124,6 +124,10 @@ Depending on the service provider and hardware, the application can monitor the 
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineGenerateDigits as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

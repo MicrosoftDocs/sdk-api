@@ -1,9 +1,10 @@
 ---
 UID: NS:wlanapi._WLAN_BSS_ENTRY
 title: WLAN_BSS_ENTRY (wlanapi.h)
-description: Contains information about a basic service set (BSS).helpviewer_keywords: ["*PWLAN_BSS_ENTRY","CF Poll Request","CF-Pollable","ESS","IBSS","PWLAN_BSS_ENTRY","PWLAN_BSS_ENTRY structure pointer [NativeWIFI]","Privacy","WLAN_BSS_ENTRY","WLAN_BSS_ENTRY structure [NativeWIFI]","dot11_BSS_type_independent","dot11_BSS_type_infrastructure","nwifi.wlan_bss_entry","wlanapi/PWLAN_BSS_ENTRY","wlanapi/WLAN_BSS_ENTRY"]
+description: Contains information about a basic service set (BSS).
+helpviewer_keywords: ["*PWLAN_BSS_ENTRY","CF Poll Request","CF-Pollable","ESS","IBSS","PWLAN_BSS_ENTRY","PWLAN_BSS_ENTRY structure pointer [NativeWIFI]","Privacy","WLAN_BSS_ENTRY","WLAN_BSS_ENTRY structure [NativeWIFI]","dot11_BSS_type_independent","dot11_BSS_type_infrastructure","nwifi.wlan_bss_entry","wlanapi/PWLAN_BSS_ENTRY","wlanapi/WLAN_BSS_ENTRY"]
 old-location: nwifi\wlan_bss_entry.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 25a76128-13d9-47dd-9c73-1fbf06a908be
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_BSS_ENTRY, CF Poll Request, CF-Pollable, ESS, IBSS, PWLAN_BSS_ENTRY, PWLAN_BSS_ENTRY structure pointer [NativeWIFI], Privacy, WLAN_BSS_ENTRY, WLAN_BSS_ENTRY structure [NativeWIFI], dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlan_bss_entry, wlanapi/PWLAN_BSS_ENTRY, wlanapi/WLAN_BSS_ENTRY'

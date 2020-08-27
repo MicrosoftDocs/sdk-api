@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.InsertAt
 title: IXpsOMFontResourceCollection::InsertAt (xpsobjectmodel.h)
-description: Inserts an IXpsOMFontResource interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMFontResourceCollection.InsertAt","IXpsOMFontResourceCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","xps.ixpsomfontresourcecollection_insertat","xpsobjectmodel/IXpsOMFontResourceCollection::InsertAt"]
+description: Inserts an IXpsOMFontResource interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMFontResourceCollection.InsertAt","IXpsOMFontResourceCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","xps.ixpsomfontresourcecollection_insertat","xpsobjectmodel/IXpsOMFontResourceCollection::InsertAt"]
 old-location: xps\ixpsomfontresourcecollection_insertat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 39400f6a-10b1-48f8-ae53-cd27bf7c2e1a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMFontResourceCollection.InsertAt, IXpsOMFontResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_insertat, xpsobjectmodel/IXpsOMFontResourceCollection::InsertAt

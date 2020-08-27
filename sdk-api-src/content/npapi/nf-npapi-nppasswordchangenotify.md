@@ -1,9 +1,10 @@
 ---
 UID: NF:npapi.NPPasswordChangeNotify
 title: NPPasswordChangeNotify function (npapi.h)
-description: MPR calls this function to notify the credential manager of a password change event.helpviewer_keywords: ["NPPasswordChangeNotify","NPPasswordChangeNotify function [Security]","SvcCtl","WN_NT_PASSWORD_CHANGED","WN_VALID_LOGON_ACCOUNT","WinSta_0","_mnp_nppasswordchangenotify","npapi/NPPasswordChangeNotify","security.nppasswordchangenotify"]
+description: MPR calls this function to notify the credential manager of a password change event.
+helpviewer_keywords: ["NPPasswordChangeNotify","NPPasswordChangeNotify function [Security]","SvcCtl","WN_NT_PASSWORD_CHANGED","WN_VALID_LOGON_ACCOUNT","WinSta_0","_mnp_nppasswordchangenotify","npapi/NPPasswordChangeNotify","security.nppasswordchangenotify"]
 old-location: security\nppasswordchangenotify.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
 ms.date: 12/05/2018
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify

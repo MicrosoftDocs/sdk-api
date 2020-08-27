@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._OCSP_REQUEST_INFO
 title: OCSP_REQUEST_INFO (wincrypt.h)
-description: Contains information for an online certificate status protocol (OCSP) request as specified by RFC 2560.helpviewer_keywords: ["*POCSP_REQUEST_INFO","OCSP_REQUEST_INFO","OCSP_REQUEST_INFO structure [Security]","OCSP_REQUEST_V1","POCSP_REQUEST_INFO","POCSP_REQUEST_INFO structure pointer [Security]","security.ocsp_request_info","wincrypt/OCSP_REQUEST_INFO","wincrypt/POCSP_REQUEST_INFO"]
+description: Contains information for an online certificate status protocol (OCSP) request as specified by RFC 2560.
+helpviewer_keywords: ["*POCSP_REQUEST_INFO","OCSP_REQUEST_INFO","OCSP_REQUEST_INFO structure [Security]","OCSP_REQUEST_V1","POCSP_REQUEST_INFO","POCSP_REQUEST_INFO structure pointer [Security]","security.ocsp_request_info","wincrypt/OCSP_REQUEST_INFO","wincrypt/POCSP_REQUEST_INFO"]
 old-location: security\ocsp_request_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ec939c3b-f155-45f2-b507-6c2e6069a868
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_REQUEST_INFO, OCSP_REQUEST_INFO, OCSP_REQUEST_INFO structure [Security], OCSP_REQUEST_V1, POCSP_REQUEST_INFO, POCSP_REQUEST_INFO structure pointer [Security], security.ocsp_request_info, wincrypt/OCSP_REQUEST_INFO, wincrypt/POCSP_REQUEST_INFO'

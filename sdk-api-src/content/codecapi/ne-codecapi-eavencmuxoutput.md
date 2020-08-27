@@ -1,9 +1,10 @@
 ---
 UID: NE:codecapi.eAVEncMuxOutput
 title: eAVEncMuxOutput (codecapi.h)
-description: Specifies the type of output stream produced by a multiplexer. This enumeration is used with the AVEncMuxOutputStreamType property.helpviewer_keywords: ["codecapi/eAVEncMuxOutput","codecapi/eAVEncMuxOutputAuto","codecapi/eAVEncMuxOutputPS","codecapi/eAVEncMuxOutputTS","dshow.eavencmuxoutput","eAVEncMuxOutput","eAVEncMuxOutput enumeration [DirectShow]","eAVEncMuxOutputAuto","eAVEncMuxOutputPS","eAVEncMuxOutputTS"]
+description: Specifies the type of output stream produced by a multiplexer. This enumeration is used with the AVEncMuxOutputStreamType property.
+helpviewer_keywords: ["codecapi/eAVEncMuxOutput","codecapi/eAVEncMuxOutputAuto","codecapi/eAVEncMuxOutputPS","codecapi/eAVEncMuxOutputTS","dshow.eavencmuxoutput","eAVEncMuxOutput","eAVEncMuxOutput enumeration [DirectShow]","eAVEncMuxOutputAuto","eAVEncMuxOutputPS","eAVEncMuxOutputTS"]
 old-location: dshow\eavencmuxoutput.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2020192d-0db1-41e0-b03f-d5a7dbc85106
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMuxOutput, codecapi/eAVEncMuxOutputAuto, codecapi/eAVEncMuxOutputPS, codecapi/eAVEncMuxOutputTS, dshow.eavencmuxoutput, eAVEncMuxOutput, eAVEncMuxOutput enumeration [DirectShow], eAVEncMuxOutputAuto, eAVEncMuxOutputPS, eAVEncMuxOutputTS

@@ -1,9 +1,10 @@
 ---
 UID: NS:amva._tag_AMVACompBufferInfo
 title: AMVACompBufferInfo (amva.h)
-description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.helpviewer_keywords: ["*LPAMVACompBufferInfo","AMVACompBufferInfo","AMVACompBufferInfo structure [DirectShow]","AMVACompBufferInfoStructure","LPAMVACompBufferInfo","LPAMVACompBufferInfo structure pointer [DirectShow]","amva/AMVACompBufferInfo","amva/LPAMVACompBufferInfo","dshow.amvacompbufferinfo"]
+description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.
+helpviewer_keywords: ["*LPAMVACompBufferInfo","AMVACompBufferInfo","AMVACompBufferInfo structure [DirectShow]","AMVACompBufferInfoStructure","LPAMVACompBufferInfo","LPAMVACompBufferInfo structure pointer [DirectShow]","amva/AMVACompBufferInfo","amva/LPAMVACompBufferInfo","dshow.amvacompbufferinfo"]
 old-location: dshow\amvacompbufferinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo'

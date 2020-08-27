@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinderCallback
 title: IUPnPDeviceFinderCallback (upnp.h)
-description: The IUPnPDeviceFinderCallback interface allows the UPnP framework to communicate the results of an asynchronous search to an application.helpviewer_keywords: ["IUPnPDeviceFinderCallback","IUPnPDeviceFinderCallback interface [UPnP APIs]","IUPnPDeviceFinderCallback interface [UPnP APIs]","described","_upnp_iupnpdevicefindercallback","upnp.iupnpdevicefindercallback","upnp/IUPnPDeviceFinderCallback"]
+description: The IUPnPDeviceFinderCallback interface allows the UPnP framework to communicate the results of an asynchronous search to an application.
+helpviewer_keywords: ["IUPnPDeviceFinderCallback","IUPnPDeviceFinderCallback interface [UPnP APIs]","IUPnPDeviceFinderCallback interface [UPnP APIs]","described","_upnp_iupnpdevicefindercallback","upnp.iupnpdevicefindercallback","upnp/IUPnPDeviceFinderCallback"]
 old-location: upnp\iupnpdevicefindercallback.htm
 tech.root: upnp
 ms.assetid: 02f1220b-d400-469e-8a28-64871f7fcbe2

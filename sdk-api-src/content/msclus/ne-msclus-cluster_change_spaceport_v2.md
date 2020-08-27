@@ -1,7 +1,8 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_SPACEPORT_V2
 title: CLUSTER_CHANGE_SPACEPORT_V2 (msclus.h)
-description: TBD.helpviewer_keywords: ["CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","CLUSTER_CHANGE_SPACEPORT_V2","CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster]","clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","clusapi/CLUSTER_CHANGE_SPACEPORT_V2","msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","msclus/CLUSTER_CHANGE_SPACEPORT_V2","mscs.cluster_change_spaceport_v2"]
+description: TBD.
+helpviewer_keywords: ["CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","CLUSTER_CHANGE_SPACEPORT_V2","CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster]","clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","clusapi/CLUSTER_CHANGE_SPACEPORT_V2","msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","msclus/CLUSTER_CHANGE_SPACEPORT_V2","mscs.cluster_change_spaceport_v2"]
 old-location: mscs\cluster_change_spaceport_v2.htm
 tech.root: MsCS
 ms.assetid: CB4E924B-50E5-4637-8D1C-2A195EF67966

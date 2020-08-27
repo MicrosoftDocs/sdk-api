@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.IEnumBstr.Clone
 title: IEnumBstr::Clone (tapi3if.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumBstr interface","IEnumBstr interface [TAPI 2.2]","Clone method","IEnumBstr.Clone","IEnumBstr::Clone","_tapi3_ienumbstr_clone","tapi3.ienumbstr_clone","tapi3if/IEnumBstr::Clone"]
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumBstr interface","IEnumBstr interface [TAPI 2.2]","Clone method","IEnumBstr.Clone","IEnumBstr::Clone","_tapi3_ienumbstr_clone","tapi3.ienumbstr_clone","tapi3if/IEnumBstr::Clone"]
 old-location: tapi3\ienumbstr_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 17376fb1-05cc-4ca4-85ab-d578a48f03d1
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumBstr interface, IEnumBstr interface [TAPI 2.2],Clone method, IEnumBstr.Clone, IEnumBstr::Clone, _tapi3_ienumbstr_clone, tapi3.ienumbstr_clone, tapi3if/IEnumBstr::Clone

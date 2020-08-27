@@ -4,7 +4,7 @@ title: IMFMediaKeys::Shutdown (mfmediaengine.h)
 description: 
 helpviewer_keywords: ["IMFMediaKeys interface [Media Foundation]","Shutdown method","IMFMediaKeys.Shutdown","IMFMediaKeys::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFMediaKeys interface","mf.imfmediakeys_shutdown","mfmediaengine/IMFMediaKeys::Shutdown"]
 old-location: mf\imfmediakeys_shutdown.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 464b598c-5fa7-40af-83ba-8619fbd84b04
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],Shutdown method, IMFMediaKeys.Shutdown, IMFMediaKeys::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_shutdown, mfmediaengine/IMFMediaKeys::Shutdown

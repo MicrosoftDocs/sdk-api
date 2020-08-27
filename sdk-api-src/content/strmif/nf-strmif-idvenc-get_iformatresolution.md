@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IDVEnc.get_IFormatResolution
 title: IDVEnc::get_IFormatResolution (strmif.h)
-description: The get_IFormatResolution method retrieves the encoding resolution.helpviewer_keywords: ["IDVEnc interface [DirectShow]","get_IFormatResolution method","IDVEnc.get_IFormatResolution","IDVEnc::get_IFormatResolution","IDVEncget_IFormatResolution","dshow.idvenc_get_iformatresolution","get_IFormatResolution","get_IFormatResolution method [DirectShow]","get_IFormatResolution method [DirectShow]","IDVEnc interface","strmif/IDVEnc::get_IFormatResolution"]
+description: The get_IFormatResolution method retrieves the encoding resolution.
+helpviewer_keywords: ["IDVEnc interface [DirectShow]","get_IFormatResolution method","IDVEnc.get_IFormatResolution","IDVEnc::get_IFormatResolution","IDVEncget_IFormatResolution","dshow.idvenc_get_iformatresolution","get_IFormatResolution","get_IFormatResolution method [DirectShow]","get_IFormatResolution method [DirectShow]","IDVEnc interface","strmif/IDVEnc::get_IFormatResolution"]
 old-location: dshow\idvenc_get_iformatresolution.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5921e19a-d500-4799-88a0-ff2f67bd81af
 ms.date: 12/05/2018
 ms.keywords: IDVEnc interface [DirectShow],get_IFormatResolution method, IDVEnc.get_IFormatResolution, IDVEnc::get_IFormatResolution, IDVEncget_IFormatResolution, dshow.idvenc_get_iformatresolution, get_IFormatResolution, get_IFormatResolution method [DirectShow], get_IFormatResolution method [DirectShow],IDVEnc interface, strmif/IDVEnc::get_IFormatResolution

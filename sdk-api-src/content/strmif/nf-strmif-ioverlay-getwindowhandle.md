@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IOverlay.GetWindowHandle
 title: IOverlay::GetWindowHandle (strmif.h)
-description: The GetWindowHandle method retrieves the current window handle.helpviewer_keywords: ["GetWindowHandle","GetWindowHandle method [DirectShow]","GetWindowHandle method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","GetWindowHandle method","IOverlay.GetWindowHandle","IOverlay::GetWindowHandle","IOverlayGetWindowHandle","dshow.ioverlay_getwindowhandle","strmif/IOverlay::GetWindowHandle"]
+description: The GetWindowHandle method retrieves the current window handle.
+helpviewer_keywords: ["GetWindowHandle","GetWindowHandle method [DirectShow]","GetWindowHandle method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","GetWindowHandle method","IOverlay.GetWindowHandle","IOverlay::GetWindowHandle","IOverlayGetWindowHandle","dshow.ioverlay_getwindowhandle","strmif/IOverlay::GetWindowHandle"]
 old-location: dshow\ioverlay_getwindowhandle.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f2d4cc53-ab0a-4c15-9818-3f312a13d4e1
 ms.date: 12/05/2018
 ms.keywords: GetWindowHandle, GetWindowHandle method [DirectShow], GetWindowHandle method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetWindowHandle method, IOverlay.GetWindowHandle, IOverlay::GetWindowHandle, IOverlayGetWindowHandle, dshow.ioverlay_getwindowhandle, strmif/IOverlay::GetWindowHandle

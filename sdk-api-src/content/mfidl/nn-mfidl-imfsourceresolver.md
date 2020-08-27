@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFSourceResolver
 title: IMFSourceResolver (mfidl.h)
-description: Creates a media source from a URL or a byte stream.helpviewer_keywords: ["079c61c5-7a29-4411-840e-9349190726ac","IMFSourceResolver","IMFSourceResolver interface [Media Foundation]","IMFSourceResolver interface [Media Foundation]","described","mf.imfsourceresolver","mfidl/IMFSourceResolver"]
+description: Creates a media source from a URL or a byte stream.
+helpviewer_keywords: ["079c61c5-7a29-4411-840e-9349190726ac","IMFSourceResolver","IMFSourceResolver interface [Media Foundation]","IMFSourceResolver interface [Media Foundation]","described","mf.imfsourceresolver","mfidl/IMFSourceResolver"]
 old-location: mf\imfsourceresolver.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 079c61c5-7a29-4411-840e-9349190726ac
 ms.date: 12/05/2018
 ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver

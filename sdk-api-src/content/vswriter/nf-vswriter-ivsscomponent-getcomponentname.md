@@ -1,9 +1,10 @@
 ---
 UID: NF:vswriter.IVssComponent.GetComponentName
 title: IVssComponent::GetComponentName (vswriter.h)
-description: The GetComponentName method returns the logical name of this component.helpviewer_keywords: ["GetComponentName","GetComponentName method [VSS]","GetComponentName method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetComponentName method","IVssComponent.GetComponentName","IVssComponent::GetComponentName","_win32_ivsscomponent_getcomponentname","base.ivsscomponent_getcomponentname","vswriter/IVssComponent::GetComponentName"]
+description: The GetComponentName method returns the logical name of this component.
+helpviewer_keywords: ["GetComponentName","GetComponentName method [VSS]","GetComponentName method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetComponentName method","IVssComponent.GetComponentName","IVssComponent::GetComponentName","_win32_ivsscomponent_getcomponentname","base.ivsscomponent_getcomponentname","vswriter/IVssComponent::GetComponentName"]
 old-location: base\ivsscomponent_getcomponentname.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.date: 12/05/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName

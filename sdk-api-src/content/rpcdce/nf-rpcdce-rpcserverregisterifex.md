@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIfEx
 title: RpcServerRegisterIfEx function (rpcdce.h)
-description: The RpcServerRegisterIfEx function registers an interface with the RPC run-time library.helpviewer_keywords: ["RpcServerRegisterIfEx","RpcServerRegisterIfEx function [RPC]","_rpc_rpcserverregisterifex","rpc.rpcserverregisterifex","rpcdce/RpcServerRegisterIfEx"]
+description: The RpcServerRegisterIfEx function registers an interface with the RPC run-time library.
+helpviewer_keywords: ["RpcServerRegisterIfEx","RpcServerRegisterIfEx function [RPC]","_rpc_rpcserverregisterifex","rpc.rpcserverregisterifex","rpcdce/RpcServerRegisterIfEx"]
 old-location: rpc\rpcserverregisterifex.htm
 tech.root: Rpc
 ms.assetid: 1666bc0a-72bf-40da-b054-c10b477c4367

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_HostDepth
 title: ISearchRoot::get_HostDepth (searchapi.h)
-description: Gets a value that indicates how far into a host tree to crawl when indexing.helpviewer_keywords: ["ISearchRoot interface [search]","get_HostDepth method","ISearchRoot.get_HostDepth","ISearchRoot::get_HostDepth","_search_ISearchRoot_get_HostDepth","get_HostDepth","get_HostDepth method [search]","get_HostDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_HostDepth","searchapi/ISearchRoot::get_HostDepth"]
+description: Gets a value that indicates how far into a host tree to crawl when indexing.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_HostDepth method","ISearchRoot.get_HostDepth","ISearchRoot::get_HostDepth","_search_ISearchRoot_get_HostDepth","get_HostDepth","get_HostDepth method [search]","get_HostDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_HostDepth","searchapi/ISearchRoot::get_HostDepth"]
 old-location: search\_search_ISearchRoot_get_HostDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_hostdepth.htm
@@ -79,10 +80,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-
-
-

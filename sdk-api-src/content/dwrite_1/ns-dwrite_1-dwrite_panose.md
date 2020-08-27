@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite_1.DWRITE_PANOSE
 title: DWRITE_PANOSE (dwrite_1.h)
-description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.helpviewer_keywords: ["DWRITE_PANOSE","DWRITE_PANOSE union [Direct Write]","directwrite.dwrite_panose","dwrite_1/DWRITE_PANOSE"]
+description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.
+helpviewer_keywords: ["DWRITE_PANOSE","DWRITE_PANOSE union [Direct Write]","directwrite.dwrite_panose","dwrite_1/DWRITE_PANOSE"]
 old-location: directwrite\dwrite_panose.htm
 tech.root: DirectWrite
 ms.assetid: B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A
@@ -55,11 +56,6 @@ The <b>DWRITE_PANOSE</b> union describes typeface classification values that you
 ## -struct-fields
 
 
-
-
-### -field values
-
- 
 
 
 ### -field familyKind
@@ -285,7 +281,7 @@ A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_r
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_ratio">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 211 of the symbol typeface.
 
 
-#### - values[10]
+### -field values [10]
 
 A 10-byte array of typeface classification values.
 

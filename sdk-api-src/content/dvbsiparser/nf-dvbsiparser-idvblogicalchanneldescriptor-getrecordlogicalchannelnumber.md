@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 title: IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber (dvbsiparser.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .helpviewer_keywords: ["GetRecordLogicalChannelNumber","GetRecordLogicalChannelNumber method [DirectShow]","GetRecordLogicalChannelNumber method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetRecordLogicalChannelNumber method","IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber","dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber"]
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
+helpviewer_keywords: ["GetRecordLogicalChannelNumber","GetRecordLogicalChannelNumber method [DirectShow]","GetRecordLogicalChannelNumber method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetRecordLogicalChannelNumber method","IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber","dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber"]
 old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.htm
 tech.root: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019

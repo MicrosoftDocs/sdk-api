@@ -1,9 +1,10 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStream
 title: IMFASFProfile::CreateStream (wmcontainer.h)
-description: Creates an Advanced Systems Format (ASF) stream configuration object.helpviewer_keywords: ["3da52c1a-24c0-456b-a9e8-57b5467eda2a","CreateStream","CreateStream method [Media Foundation]","CreateStream method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","CreateStream method","IMFASFProfile.CreateStream","IMFASFProfile::CreateStream","mf.imfasfprofile_createstream","wmcontainer/IMFASFProfile::CreateStream"]
+description: Creates an Advanced Systems Format (ASF) stream configuration object.
+helpviewer_keywords: ["3da52c1a-24c0-456b-a9e8-57b5467eda2a","CreateStream","CreateStream method [Media Foundation]","CreateStream method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","CreateStream method","IMFASFProfile.CreateStream","IMFASFProfile::CreateStream","mf.imfasfprofile_createstream","wmcontainer/IMFASFProfile::CreateStream"]
 old-location: mf\imfasfprofile_createstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3da52c1a-24c0-456b-a9e8-57b5467eda2a
 ms.date: 12/05/2018
 ms.keywords: 3da52c1a-24c0-456b-a9e8-57b5467eda2a, CreateStream, CreateStream method [Media Foundation], CreateStream method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStream method, IMFASFProfile.CreateStream, IMFASFProfile::CreateStream, mf.imfasfprofile_createstream, wmcontainer/IMFASFProfile::CreateStream

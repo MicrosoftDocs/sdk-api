@@ -1,9 +1,10 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetPartitionId
 title: ContextInfo2::GetPartitionId (comsvcs.h)
-description: Retrieves the GUID of the COM+ partition of the current object context.helpviewer_keywords: ["ContextInfo2 interface [COM+]","GetPartitionId method","ContextInfo2.GetPartitionId","ContextInfo2::GetPartitionId","GetPartitionId","GetPartitionId method [COM+]","GetPartitionId method [COM+]","ContextInfo2 interface","_cos_ContextInfo2_GetPartitionId","comsvcs/ContextInfo2::GetPartitionId","cos.contextinfo2_getpartitionid"]
+description: Retrieves the GUID of the COM+ partition of the current object context.
+helpviewer_keywords: ["ContextInfo2 interface [COM+]","GetPartitionId method","ContextInfo2.GetPartitionId","ContextInfo2::GetPartitionId","GetPartitionId","GetPartitionId method [COM+]","GetPartitionId method [COM+]","ContextInfo2 interface","_cos_ContextInfo2_GetPartitionId","comsvcs/ContextInfo2::GetPartitionId","cos.contextinfo2_getpartitionid"]
 old-location: cos\contextinfo2_getpartitionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b4cda75d-a4f3-404e-965a-9c1487946ee1
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2 interface [COM+],GetPartitionId method, ContextInfo2.GetPartitionId, ContextInfo2::GetPartitionId, GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetPartitionId, comsvcs/ContextInfo2::GetPartitionId, cos.contextinfo2_getpartitionid

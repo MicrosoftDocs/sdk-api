@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetCueTimeOffset
 title: IMFTimedText::GetCueTimeOffset (mfmediaengine.h)
-description: Gets the offset to the cue time.helpviewer_keywords: ["GetCueTimeOffset","GetCueTimeOffset method [Media Foundation]","GetCueTimeOffset method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","GetCueTimeOffset method","IMFTimedText.GetCueTimeOffset","IMFTimedText::GetCueTimeOffset","mf.imftimedtext_getcuetimeoffset","mfmediaengine/IMFTimedText::GetCueTimeOffset"]
+description: Gets the offset to the cue time.
+helpviewer_keywords: ["GetCueTimeOffset","GetCueTimeOffset method [Media Foundation]","GetCueTimeOffset method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","GetCueTimeOffset method","IMFTimedText.GetCueTimeOffset","IMFTimedText::GetCueTimeOffset","mf.imftimedtext_getcuetimeoffset","mfmediaengine/IMFTimedText::GetCueTimeOffset"]
 old-location: mf\imftimedtext_getcuetimeoffset.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E7619B18-6253-41CF-9D4D-F7944A8E5DDE
 ms.date: 12/05/2018
 ms.keywords: GetCueTimeOffset, GetCueTimeOffset method [Media Foundation], GetCueTimeOffset method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetCueTimeOffset method, IMFTimedText.GetCueTimeOffset, IMFTimedText::GetCueTimeOffset, mf.imftimedtext_getcuetimeoffset, mfmediaengine/IMFTimedText::GetCueTimeOffset

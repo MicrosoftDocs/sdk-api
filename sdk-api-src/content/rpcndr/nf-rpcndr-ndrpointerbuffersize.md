@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrPointerBufferSize
 title: NdrPointerBufferSize function (rpcndr.h)
-description: The NdrPointerBufferSize function computes the needed buffer size, in bytes, for a top-level pointer to anything.helpviewer_keywords: ["NdrPointerBufferSize","NdrPointerBufferSize function [RPC]","rpc.ndrpointerbuffersize","rpcndr/NdrPointerBufferSize"]
+description: The NdrPointerBufferSize function computes the needed buffer size, in bytes, for a top-level pointer to anything.
+helpviewer_keywords: ["NdrPointerBufferSize","NdrPointerBufferSize function [RPC]","rpc.ndrpointerbuffersize","rpcndr/NdrPointerBufferSize"]
 old-location: rpc\ndrpointerbuffersize.htm
 tech.root: Rpc
 ms.assetid: fbab3c13-d696-430c-b3f5-7cb187678c33

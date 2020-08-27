@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.ADsBuildEnumerator
 title: ADsBuildEnumerator function (adshlp.h)
-description: The ADsBuildEnumerator function creates an enumerator object for the specified ADSI container object.helpviewer_keywords: ["ADsBuildEnumerator","ADsBuildEnumerator function [ADSI]","_ds_adsbuildenumerator","adshlp/ADsBuildEnumerator","adsi.adsbuildenumerator"]
+description: The ADsBuildEnumerator function creates an enumerator object for the specified ADSI container object.
+helpviewer_keywords: ["ADsBuildEnumerator","ADsBuildEnumerator function [ADSI]","_ds_adsbuildenumerator","adshlp/ADsBuildEnumerator","adsi.adsbuildenumerator"]
 old-location: adsi\adsbuildenumerator.htm
 tech.root: adsi
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1

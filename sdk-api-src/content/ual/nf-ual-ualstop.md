@@ -1,7 +1,8 @@
 ---
 UID: NF:ual.UalStop
 title: UalStop function (ual.h)
-description: Stops a User Access Logging (UAL) session.helpviewer_keywords: ["UalStop","UalStop function [User Access Logging]","ual.ualstop","ual/UalStop"]
+description: Stops a User Access Logging (UAL) session.
+helpviewer_keywords: ["UalStop","UalStop function [User Access Logging]","ual.ualstop","ual/UalStop"]
 old-location: ual\ualstop.htm
 tech.root: ual
 ms.assetid: 142A0C96-2D53-4C31-9847-D6D5313C841E

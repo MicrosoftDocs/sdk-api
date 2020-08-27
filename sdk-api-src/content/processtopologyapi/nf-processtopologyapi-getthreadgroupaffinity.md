@@ -1,9 +1,10 @@
 ---
 UID: NF:processtopologyapi.GetThreadGroupAffinity
 title: GetThreadGroupAffinity function (processtopologyapi.h)
-description: Retrieves the processor group affinity of the specified thread.helpviewer_keywords: ["GetThreadGroupAffinity","GetThreadGroupAffinity function","base.getthreadgroupaffinity","processtopologyapi/GetThreadGroupAffinity","winbase/GetThreadGroupAffinity"]
+description: Retrieves the processor group affinity of the specified thread.
+helpviewer_keywords: ["GetThreadGroupAffinity","GetThreadGroupAffinity function","base.getthreadgroupaffinity","processtopologyapi/GetThreadGroupAffinity","winbase/GetThreadGroupAffinity"]
 old-location: base\getthreadgroupaffinity.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: effc75be-60da-43cc-bfb3-5fb905e1404d
 ms.date: 12/05/2018
 ms.keywords: GetThreadGroupAffinity, GetThreadGroupAffinity function, base.getthreadgroupaffinity, processtopologyapi/GetThreadGroupAffinity, winbase/GetThreadGroupAffinity

@@ -1,9 +1,10 @@
 ---
 UID: NF:processenv.ExpandEnvironmentStringsA
 title: ExpandEnvironmentStringsA function (processenv.h)
-description: Expands environment-variable strings and replaces them with the values defined for the current user.helpviewer_keywords: ["ExpandEnvironmentStrings","ExpandEnvironmentStrings function","ExpandEnvironmentStringsA","ExpandEnvironmentStringsW","_win32_expandenvironmentstrings","base.expandenvironmentstrings","processenv/ExpandEnvironmentStrings","processenv/ExpandEnvironmentStringsA","processenv/ExpandEnvironmentStringsW"]
+description: Expands environment-variable strings and replaces them with the values defined for the current user.
+helpviewer_keywords: ["ExpandEnvironmentStrings","ExpandEnvironmentStrings function","ExpandEnvironmentStringsA","ExpandEnvironmentStringsW","_win32_expandenvironmentstrings","base.expandenvironmentstrings","processenv/ExpandEnvironmentStrings","processenv/ExpandEnvironmentStringsA","processenv/ExpandEnvironmentStringsW"]
 old-location: base\expandenvironmentstrings.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: b563e8ed-311d-4971-94f3-9c9fde4a2f30
 ms.date: 12/05/2018
 ms.keywords: ExpandEnvironmentStrings, ExpandEnvironmentStrings function, ExpandEnvironmentStringsA, ExpandEnvironmentStringsW, _win32_expandenvironmentstrings, base.expandenvironmentstrings, processenv/ExpandEnvironmentStrings, processenv/ExpandEnvironmentStringsA, processenv/ExpandEnvironmentStringsW
@@ -119,6 +120,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processenv.h header defines ExpandEnvironmentStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

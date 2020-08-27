@@ -1,9 +1,10 @@
 ---
 UID: NN:wbemcli.IWbemQualifierSet
 title: IWbemQualifierSet (wbemcli.h)
-description: Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).helpviewer_keywords: ["IWbemQualifierSet","IWbemQualifierSet interface [Windows Management Instrumentation]","IWbemQualifierSet interface [Windows Management Instrumentation]","described","_hmm_iwbemqualifierset","wbemcli/IWbemQualifierSet","wmi.iwbemqualifierset"]
+description: Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).
+helpviewer_keywords: ["IWbemQualifierSet","IWbemQualifierSet interface [Windows Management Instrumentation]","IWbemQualifierSet interface [Windows Management Instrumentation]","described","_hmm_iwbemqualifierset","wbemcli/IWbemQualifierSet","wmi.iwbemqualifierset"]
 old-location: wmi\iwbemqualifierset.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8b36bd32-4931-4641-a019-cbaa3547edd0
 ms.date: 12/05/2018
 ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], IWbemQualifierSet interface [Windows Management Instrumentation],described, _hmm_iwbemqualifierset, wbemcli/IWbemQualifierSet, wmi.iwbemqualifierset

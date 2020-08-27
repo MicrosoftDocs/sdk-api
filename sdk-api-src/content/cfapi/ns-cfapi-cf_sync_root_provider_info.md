@@ -1,9 +1,10 @@
 ---
 UID: NS:cfapi.CF_SYNC_ROOT_PROVIDER_INFO
 title: CF_SYNC_ROOT_PROVIDER_INFO (cfapi.h)
-description: Sync root provider information.helpviewer_keywords: ["CF_SYNC_ROOT_PROVIDER_INFO","CF_SYNC_ROOT_PROVIDER_INFO structure","cfapi/CF_SYNC_ROOT_PROVIDER_INFO","cloudApi.cf_sync_root_provider_info"]
+description: Sync root provider information.
+helpviewer_keywords: ["CF_SYNC_ROOT_PROVIDER_INFO","CF_SYNC_ROOT_PROVIDER_INFO structure","cfapi/CF_SYNC_ROOT_PROVIDER_INFO","cloudApi.cf_sync_root_provider_info"]
 old-location: cloudapi\cf_sync_root_provider_info.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 9EBC64B5-7FB3-41AA-BCB2-29B3E444B463
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_PROVIDER_INFO, CF_SYNC_ROOT_PROVIDER_INFO structure, cfapi/CF_SYNC_ROOT_PROVIDER_INFO, cloudApi.cf_sync_root_provider_info
@@ -62,24 +63,14 @@ Sync root provider information.
 Status of the sync root provider.
 
 
-### -field ProviderName
-
- 
 
 
-### -field ProviderVersion
-
- 
-
-
-
-
-#### - ProviderName[CF_MAX_PROVIDER_NAME_LENGTH + 1]
+### -field ProviderName [CF_MAX_PROVIDER_NAME_LENGTH + 1]
 
 Name of the sync root provider.
 
 
-#### - ProviderVersion[CF_MAX_PROVIDER_VERSION_LENGTH + 1]
+### -field ProviderVersion [CF_MAX_PROVIDER_VERSION_LENGTH + 1]
 
 Version of the sync root provider.
 

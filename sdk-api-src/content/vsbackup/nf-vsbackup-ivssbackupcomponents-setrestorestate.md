@@ -1,9 +1,10 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRestoreState
 title: IVssBackupComponents::SetRestoreState (vsbackup.h)
-description: The SetRestoreState method defines an overall configuration for a restore operation.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetRestoreState method","IVssBackupComponents.SetRestoreState","IVssBackupComponents::SetRestoreState","SetRestoreState","SetRestoreState method [VSS]","SetRestoreState method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setrestorestate","base.ivssbackupcomponents_setrestorestate","vsbackup/IVssBackupComponents::SetRestoreState"]
+description: The SetRestoreState method defines an overall configuration for a restore operation.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetRestoreState method","IVssBackupComponents.SetRestoreState","IVssBackupComponents::SetRestoreState","SetRestoreState","SetRestoreState method [VSS]","SetRestoreState method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setrestorestate","base.ivssbackupcomponents_setrestorestate","vsbackup/IVssBackupComponents::SetRestoreState"]
 old-location: base\ivssbackupcomponents_setrestorestate.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreState method, IVssBackupComponents.SetRestoreState, IVssBackupComponents::SetRestoreState, SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState

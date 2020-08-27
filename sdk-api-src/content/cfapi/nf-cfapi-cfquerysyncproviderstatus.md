@@ -1,9 +1,10 @@
 ---
 UID: NF:cfapi.CfQuerySyncProviderStatus
 title: CfQuerySyncProviderStatus function (cfapi.h)
-description: Queries a sync provider to get the status of the provider.helpviewer_keywords: ["CfQuerySyncProviderStatus","CfQuerySyncProviderStatus function","cfapi/CfQuerySyncProviderStatus","cloudApi.cfquerysyncproviderstatus"]
+description: Queries a sync provider to get the status of the provider.
+helpviewer_keywords: ["CfQuerySyncProviderStatus","CfQuerySyncProviderStatus function","cfapi/CfQuerySyncProviderStatus","cloudApi.cfquerysyncproviderstatus"]
 old-location: cloudapi\cfquerysyncproviderstatus.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 02E6197B-D84A-4E3F-A74C-F5DACAA60AF9
 ms.date: 12/05/2018
 ms.keywords: CfQuerySyncProviderStatus, CfQuerySyncProviderStatus function, cfapi/CfQuerySyncProviderStatus, cloudApi.cfquerysyncproviderstatus

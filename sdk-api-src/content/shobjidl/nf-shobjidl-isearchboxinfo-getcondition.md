@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetCondition
 title: ISearchBoxInfo::GetCondition (shobjidl.h)
-description: Retrieves the contents of the search box as an ICondition object.helpviewer_keywords: ["GetCondition","GetCondition method [Windows Shell]","GetCondition method [Windows Shell]","ISearchBoxInfo interface","ISearchBoxInfo interface [Windows Shell]","GetCondition method","ISearchBoxInfo.GetCondition","ISearchBoxInfo::GetCondition","_shell_ISearchBoxInfo_GetCondition","shell.ISearchBoxInfo_GetCondition","shobjidl/ISearchBoxInfo::GetCondition"]
+description: Retrieves the contents of the search box as an ICondition object.
+helpviewer_keywords: ["GetCondition","GetCondition method [Windows Shell]","GetCondition method [Windows Shell]","ISearchBoxInfo interface","ISearchBoxInfo interface [Windows Shell]","GetCondition method","ISearchBoxInfo.GetCondition","ISearchBoxInfo::GetCondition","_shell_ISearchBoxInfo_GetCondition","shell.ISearchBoxInfo_GetCondition","shobjidl/ISearchBoxInfo::GetCondition"]
 old-location: shell\ISearchBoxInfo_GetCondition.htm
 tech.root: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef

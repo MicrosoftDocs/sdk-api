@@ -1,9 +1,10 @@
 ---
 UID: NF:ncrypt.NCryptEncrypt
 title: NCryptEncrypt function (ncrypt.h)
-description: Encrypts a block of data.helpviewer_keywords: ["NCRYPT_NO_PADDING_FLAG","NCRYPT_PAD_OAEP_FLAG","NCRYPT_PAD_PKCS1_FLAG","NCRYPT_SILENT_FLAG","NCryptEncrypt","NCryptEncrypt function [Security]","ncrypt/NCryptEncrypt","security.ncryptencrypt_func"]
+description: Encrypts a block of data.
+helpviewer_keywords: ["NCRYPT_NO_PADDING_FLAG","NCRYPT_PAD_OAEP_FLAG","NCRYPT_PAD_PKCS1_FLAG","NCRYPT_SILENT_FLAG","NCryptEncrypt","NCryptEncrypt function [Security]","ncrypt/NCryptEncrypt","security.ncryptencrypt_func"]
 old-location: security\ncryptencrypt_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 837fc720-2167-4ead-86ea-2c3d438f2530
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptEncrypt, NCryptEncrypt function [Security], ncrypt/NCryptEncrypt, security.ncryptencrypt_func

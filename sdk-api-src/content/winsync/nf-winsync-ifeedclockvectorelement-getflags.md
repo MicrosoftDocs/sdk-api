@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IFeedClockVectorElement.GetFlags
 title: IFeedClockVectorElement::GetFlags (winsync.h)
-description: Gets flags that specify additional information about the clock vector element.helpviewer_keywords: ["GetFlags","GetFlags method [Windows Sync]","GetFlags method [Windows Sync]","IFeedClockVectorElement interface","IFeedClockVectorElement interface [Windows Sync]","GetFlags method","IFeedClockVectorElement.GetFlags","IFeedClockVectorElement::GetFlags","winsync.ifeedclockvectorelement_getflags","winsync/IFeedClockVectorElement::GetFlags"]
+description: Gets flags that specify additional information about the clock vector element.
+helpviewer_keywords: ["GetFlags","GetFlags method [Windows Sync]","GetFlags method [Windows Sync]","IFeedClockVectorElement interface","IFeedClockVectorElement interface [Windows Sync]","GetFlags method","IFeedClockVectorElement.GetFlags","IFeedClockVectorElement::GetFlags","winsync.ifeedclockvectorelement_getflags","winsync/IFeedClockVectorElement::GetFlags"]
 old-location: winsync\ifeedclockvectorelement_getflags.htm
 tech.root: winsync
 ms.assetid: 9c618ca9-de6b-4e3e-a0cc-cac3886199d5

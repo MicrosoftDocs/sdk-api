@@ -5,6 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Subtraction operator for the [**SizeF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef) class.
+tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

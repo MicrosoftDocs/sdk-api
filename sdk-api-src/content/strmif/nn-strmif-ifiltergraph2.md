@@ -1,9 +1,10 @@
 ---
 UID: NN:strmif.IFilterGraph2
 title: IFilterGraph2 (strmif.h)
-description: The IFilterGraph2 interface extends the IFilterGraph and IGraphBuilder interfaces, which contain methods for building filter graphs.The Filter Graph Manager implements this interface.helpviewer_keywords: ["IFilterGraph2","IFilterGraph2 interface [DirectShow]","IFilterGraph2 interface [DirectShow]","described","IFilterGraph2Interface","dshow.ifiltergraph2","strmif/IFilterGraph2"]
+description: The IFilterGraph2 interface extends the IFilterGraph and IGraphBuilder interfaces, which contain methods for building filter graphs.The Filter Graph Manager implements this interface.
+helpviewer_keywords: ["IFilterGraph2","IFilterGraph2 interface [DirectShow]","IFilterGraph2 interface [DirectShow]","described","IFilterGraph2Interface","dshow.ifiltergraph2","strmif/IFilterGraph2"]
 old-location: dshow\ifiltergraph2.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1a1ef4fe-a054-4ba7-99c7-1f209472c5a6
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], IFilterGraph2 interface [DirectShow],described, IFilterGraph2Interface, dshow.ifiltergraph2, strmif/IFilterGraph2

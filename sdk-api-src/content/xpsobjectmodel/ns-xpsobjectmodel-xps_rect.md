@@ -1,9 +1,10 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0019
 title: XPS_RECT (xpsobjectmodel.h)
-description: Describes the width, height, and location of a rectangle.helpviewer_keywords: ["XPS_RECT","XPS_RECT structure [XPS Documents and Packaging]","xps.xps_rect","xpsobjectmodel/XPS_RECT"]
+description: Describes the width, height, and location of a rectangle.
+helpviewer_keywords: ["XPS_RECT","XPS_RECT structure [XPS Documents and Packaging]","xps.xps_rect","xpsobjectmodel/XPS_RECT"]
 old-location: xps\xps_rect.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e78a9ecb-b2e7-4295-a178-4a9936b0f27e
 ms.date: 12/05/2018
 ms.keywords: XPS_RECT, XPS_RECT structure [XPS Documents and Packaging], xps.xps_rect, xpsobjectmodel/XPS_RECT

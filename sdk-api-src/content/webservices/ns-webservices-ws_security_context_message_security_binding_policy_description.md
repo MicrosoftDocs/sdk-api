@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION (webservices.h)
-description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.helpviewer_keywords: ["WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION","wsw.ws_security_context_message_security_binding_policy_description"]
+description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
+helpviewer_keywords: ["WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION","wsw.ws_security_context_message_security_binding_policy_description"]
 old-location: wsw\ws_security_context_message_security_binding_policy_description.htm
 tech.root: wsw
 ms.assetid: 6727d9d5-9c8c-41f9-90f2-e82ecf309d98

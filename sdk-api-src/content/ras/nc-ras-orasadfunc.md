@@ -1,7 +1,8 @@
 ---
 UID: NC:ras.ORASADFUNC
 title: ORASADFUNC (ras.h)
-description: The ORASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.helpviewer_keywords: ["ORASADFunc","ORASADFunc callback","ORASADFunc callback function [RAS]","_ras_orasadfunc","ras/ORASADFunc","rras.orasadfunc"]
+description: The ORASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
+helpviewer_keywords: ["ORASADFunc","ORASADFunc callback","ORASADFunc callback function [RAS]","_ras_orasadfunc","ras/ORASADFunc","rras.orasadfunc"]
 old-location: rras\orasadfunc.htm
 tech.root: RRAS
 ms.assetid: d3ad49e3-6807-419d-8d05-f703f5327020

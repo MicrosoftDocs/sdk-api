@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithItem.Initialize
 title: IInitializeWithItem::Initialize (shobjidl_core.h)
-description: Initializes a handler with an IShellItem.helpviewer_keywords: ["IInitializeWithItem interface [Windows Shell]","Initialize method","IInitializeWithItem.Initialize","IInitializeWithItem::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithItem interface","STGM_READ","STGM_READWRITE","shell.IInitializeWithItem_Initialize","shell_IInitializeWithItem_Initialize","shobjidl_core/IInitializeWithItem::Initialize"]
+description: Initializes a handler with an IShellItem.
+helpviewer_keywords: ["IInitializeWithItem interface [Windows Shell]","Initialize method","IInitializeWithItem.Initialize","IInitializeWithItem::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithItem interface","STGM_READ","STGM_READWRITE","shell.IInitializeWithItem_Initialize","shell_IInitializeWithItem_Initialize","shobjidl_core/IInitializeWithItem::Initialize"]
 old-location: shell\IInitializeWithItem_Initialize.htm
 tech.root: shell
 ms.assetid: 61abf5c8-2847-4788-9d99-65f3b1c821d6

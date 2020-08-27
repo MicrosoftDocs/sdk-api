@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_DialableAddrs
 title: ITDirectoryObject::get_DialableAddrs (rend.h)
-description: The get_DialableAddrs method gets all dialable addresses of a given type from the directory. This method performs the same function as EnumerateDialableAddrs but is used by scripting languages such as Visual Basic.helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_DialableAddrs method","ITDirectoryObject.get_DialableAddrs","ITDirectoryObject::get_DialableAddrs","_tapi3_itdirectoryobject_get_dialableaddrs","get_DialableAddrs","get_DialableAddrs method [TAPI 2.2]","get_DialableAddrs method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_DialableAddrs","tapi3.itdirectoryobject_get_dialableaddrs"]
+description: The get_DialableAddrs method gets all dialable addresses of a given type from the directory. This method performs the same function as EnumerateDialableAddrs but is used by scripting languages such as Visual Basic.
+helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_DialableAddrs method","ITDirectoryObject.get_DialableAddrs","ITDirectoryObject::get_DialableAddrs","_tapi3_itdirectoryobject_get_dialableaddrs","get_DialableAddrs","get_DialableAddrs method [TAPI 2.2]","get_DialableAddrs method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_DialableAddrs","tapi3.itdirectoryobject_get_dialableaddrs"]
 old-location: tapi3\itdirectoryobject_get_dialableaddrs.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b72e9c49-4d5a-432a-b21b-ec444912ea61
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, ITDirectoryObject.get_DialableAddrs, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs

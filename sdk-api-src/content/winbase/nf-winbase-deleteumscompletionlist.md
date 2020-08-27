@@ -1,9 +1,10 @@
 ---
 UID: NF:winbase.DeleteUmsCompletionList
 title: DeleteUmsCompletionList function (winbase.h)
-description: Deletes the specified user-mode scheduling (UMS) completion list. The list must be empty.helpviewer_keywords: ["DeleteUmsCompletionList","DeleteUmsCompletionList function","base.deleteumscompletionlist","winbase/DeleteUmsCompletionList"]
+description: Deletes the specified user-mode scheduling (UMS) completion list. The list must be empty.
+helpviewer_keywords: ["DeleteUmsCompletionList","DeleteUmsCompletionList function","base.deleteumscompletionlist","winbase/DeleteUmsCompletionList"]
 old-location: base\deleteumscompletionlist.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 98124359-ddd1-468c-9f99-74dd3f631fa1
 ms.date: 12/05/2018
 ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.deleteumscompletionlist, winbase/DeleteUmsCompletionList

@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3if.ITDigitGenerationEvent.get_TickCount
 title: ITDigitGenerationEvent::get_TickCount (tapi3if.h)
-description: The get_TickCount method gets the &#0034;tick count&#0034; (number of milliseconds since Windows started) at which the digit generation completed.helpviewer_keywords: ["ITDigitGenerationEvent interface [TAPI 2.2]","get_TickCount method","ITDigitGenerationEvent.get_TickCount","ITDigitGenerationEvent::get_TickCount","_tapi3_itdigitgenerationevent_get_tickcount","get_TickCount","get_TickCount method [TAPI 2.2]","get_TickCount method [TAPI 2.2]","ITDigitGenerationEvent interface","tapi3.itdigitgenerationevent_get_tickcount","tapi3if/ITDigitGenerationEvent::get_TickCount"]
+description: The get_TickCount method gets the &quot;tick count&quot; (number of milliseconds since Windows started) at which the digit generation completed.
+helpviewer_keywords: ["ITDigitGenerationEvent interface [TAPI 2.2]","get_TickCount method","ITDigitGenerationEvent.get_TickCount","ITDigitGenerationEvent::get_TickCount","_tapi3_itdigitgenerationevent_get_tickcount","get_TickCount","get_TickCount method [TAPI 2.2]","get_TickCount method [TAPI 2.2]","ITDigitGenerationEvent interface","tapi3.itdigitgenerationevent_get_tickcount","tapi3if/ITDigitGenerationEvent::get_TickCount"]
 old-location: tapi3\itdigitgenerationevent_get_tickcount.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: daae0ae5-0eaf-4ca7-b08a-1c46b9ebfcab
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_TickCount method, ITDigitGenerationEvent.get_TickCount, ITDigitGenerationEvent::get_TickCount, _tapi3_itdigitgenerationevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_tickcount, tapi3if/ITDigitGenerationEvent::get_TickCount

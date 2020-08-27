@@ -1,7 +1,8 @@
 ---
 UID: NS:shellapi._SHFILEINFOW
 title: SHFILEINFOW (shellapi.h)
-description: Contains information about a file object.helpviewer_keywords: ["SHFILEINFO","SHFILEINFO structure [Windows Shell]","SHFILEINFOW","_win32_SHFILEINFO","shell.SHFILEINFO","shellapi/SHFILEINFO"]
+description: Contains information about a file object.
+helpviewer_keywords: ["SHFILEINFO","SHFILEINFO structure [Windows Shell]","SHFILEINFOW","_win32_SHFILEINFO","shell.SHFILEINFO","shellapi/SHFILEINFO"]
 old-location: shell\SHFILEINFO.htm
 tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
@@ -100,4 +101,8 @@ A string that describes the type of file.
 This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> function.
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines SHFILEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

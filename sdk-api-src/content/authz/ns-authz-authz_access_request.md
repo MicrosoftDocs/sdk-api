@@ -1,9 +1,10 @@
 ---
 UID: NS:authz._AUTHZ_ACCESS_REQUEST
 title: AUTHZ_ACCESS_REQUEST (authz.h)
-description: Defines an access check request.helpviewer_keywords: ["*PAUTHZ_ACCESS_REQUEST","AUTHZ_ACCESS_REQUEST","AUTHZ_ACCESS_REQUEST structure [Security]","PAUTHZ_ACCESS_REQUEST","PAUTHZ_ACCESS_REQUEST structure pointer [Security]","_win32_authz_access_request","authz/AUTHZ_ACCESS_REQUEST","authz/PAUTHZ_ACCESS_REQUEST","security.authz_access_request"]
+description: Defines an access check request.
+helpviewer_keywords: ["*PAUTHZ_ACCESS_REQUEST","AUTHZ_ACCESS_REQUEST","AUTHZ_ACCESS_REQUEST structure [Security]","PAUTHZ_ACCESS_REQUEST","PAUTHZ_ACCESS_REQUEST structure pointer [Security]","_win32_authz_access_request","authz/AUTHZ_ACCESS_REQUEST","authz/PAUTHZ_ACCESS_REQUEST","security.authz_access_request"]
 old-location: security\authz_access_request.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3748075c-b31a-4669-b8a6-1a540449d8fa
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST structure [Security], PAUTHZ_ACCESS_REQUEST, PAUTHZ_ACCESS_REQUEST structure pointer [Security], _win32_authz_access_request, authz/AUTHZ_ACCESS_REQUEST, authz/PAUTHZ_ACCESS_REQUEST, security.authz_access_request'

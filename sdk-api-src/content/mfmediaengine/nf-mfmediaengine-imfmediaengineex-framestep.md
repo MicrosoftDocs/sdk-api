@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.FrameStep
 title: IMFMediaEngineEx::FrameStep (mfmediaengine.h)
-description: Steps forward or backward one frame.helpviewer_keywords: ["FrameStep","FrameStep method [Media Foundation]","FrameStep method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","FrameStep method","IMFMediaEngineEx.FrameStep","IMFMediaEngineEx::FrameStep","mf.imfmediaengineex_framestep","mfmediaengine/IMFMediaEngineEx::FrameStep"]
+description: Steps forward or backward one frame.
+helpviewer_keywords: ["FrameStep","FrameStep method [Media Foundation]","FrameStep method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","FrameStep method","IMFMediaEngineEx.FrameStep","IMFMediaEngineEx::FrameStep","mf.imfmediaengineex_framestep","mfmediaengine/IMFMediaEngineEx::FrameStep"]
 old-location: mf\imfmediaengineex_framestep.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 090B5B6F-E4D1-43D7-AD09-BA3008B48104
 ms.date: 12/05/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],FrameStep method, IMFMediaEngineEx.FrameStep, IMFMediaEngineEx::FrameStep, mf.imfmediaengineex_framestep, mfmediaengine/IMFMediaEngineEx::FrameStep

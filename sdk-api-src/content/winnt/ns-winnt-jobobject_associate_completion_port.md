@@ -1,9 +1,10 @@
 ---
 UID: NS:winnt._JOBOBJECT_ASSOCIATE_COMPLETION_PORT
 title: JOBOBJECT_ASSOCIATE_COMPLETION_PORT (winnt.h)
-description: Contains information used to associate a completion port with a job.helpviewer_keywords: ["*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT","JOBOBJECT_ASSOCIATE_COMPLETION_PORT","JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure","PJOBOBJECT_ASSOCIATE_COMPLETION_PORT","PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer","_JOBOBJECT_ASSOCIATE_COMPLETION_PORT","_win32_jobobject_associate_completion_port_str","base.jobobject_associate_completion_port_str","winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT","winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT"]
+description: Contains information used to associate a completion port with a job.
+helpviewer_keywords: ["*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT","JOBOBJECT_ASSOCIATE_COMPLETION_PORT","JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure","PJOBOBJECT_ASSOCIATE_COMPLETION_PORT","PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer","_JOBOBJECT_ASSOCIATE_COMPLETION_PORT","_win32_jobobject_associate_completion_port_str","base.jobobject_associate_completion_port_str","winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT","winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT"]
 old-location: base\jobobject_associate_completion_port_str.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 18120d81-5480-4e0d-8422-0366a6811319
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer, _JOBOBJECT_ASSOCIATE_COMPLETION_PORT, _win32_jobobject_associate_completion_port_str, base.jobobject_associate_completion_port_str, winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT, winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT'

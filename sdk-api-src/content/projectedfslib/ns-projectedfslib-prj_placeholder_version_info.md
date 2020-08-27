@@ -1,7 +1,8 @@
 ---
 UID: NS:projectedfslib.PRJ_PLACEHOLDER_VERSION_INFO
 title: PRJ_PLACEHOLDER_VERSION_INFO (projectedfslib.h)
-description: Information that uniquely identifies the contents of a placeholder file.helpviewer_keywords: ["PRJ_PLACEHOLDER_VERSION_INFO","PRJ_PLACEHOLDER_VERSION_INFO structure","ProjFS.prj_placeholder_version_info","projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO"]
+description: Information that uniquely identifies the contents of a placeholder file.
+helpviewer_keywords: ["PRJ_PLACEHOLDER_VERSION_INFO","PRJ_PLACEHOLDER_VERSION_INFO structure","ProjFS.prj_placeholder_version_info","projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO"]
 old-location: projfs\prj_placeholder_version_info.htm
 tech.root: ProjFS
 ms.assetid: 4F2156AC-087B-4FF6-8566-25D9DC2A8C06

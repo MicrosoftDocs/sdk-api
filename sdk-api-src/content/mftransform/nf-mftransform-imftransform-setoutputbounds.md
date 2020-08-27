@@ -1,9 +1,10 @@
 ---
 UID: NF:mftransform.IMFTransform.SetOutputBounds
 title: IMFTransform::SetOutputBounds (mftransform.h)
-description: Sets the range of time stamps the client needs for output.helpviewer_keywords: ["045f2f16-3f32-4cc4-9052-424f32274f34","IMFTransform interface [Media Foundation]","SetOutputBounds method","IMFTransform.SetOutputBounds","IMFTransform::SetOutputBounds","SetOutputBounds","SetOutputBounds method [Media Foundation]","SetOutputBounds method [Media Foundation]","IMFTransform interface","mf.imftransform_setoutputbounds","mftransform/IMFTransform::SetOutputBounds"]
+description: Sets the range of time stamps the client needs for output.
+helpviewer_keywords: ["045f2f16-3f32-4cc4-9052-424f32274f34","IMFTransform interface [Media Foundation]","SetOutputBounds method","IMFTransform.SetOutputBounds","IMFTransform::SetOutputBounds","SetOutputBounds","SetOutputBounds method [Media Foundation]","SetOutputBounds method [Media Foundation]","IMFTransform interface","mf.imftransform_setoutputbounds","mftransform/IMFTransform::SetOutputBounds"]
 old-location: mf\imftransform_setoutputbounds.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 045f2f16-3f32-4cc4-9052-424f32274f34
 ms.date: 12/05/2018
 ms.keywords: 045f2f16-3f32-4cc4-9052-424f32274f34, IMFTransform interface [Media Foundation],SetOutputBounds method, IMFTransform.SetOutputBounds, IMFTransform::SetOutputBounds, SetOutputBounds, SetOutputBounds method [Media Foundation], SetOutputBounds method [Media Foundation],IMFTransform interface, mf.imftransform_setoutputbounds, mftransform/IMFTransform::SetOutputBounds

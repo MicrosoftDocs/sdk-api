@@ -1,9 +1,10 @@
 ---
 UID: NS:winbase.tagHW_PROFILE_INFOW
 title: HW_PROFILE_INFOW (winbase.h)
-description: Contains information about a hardware profile.helpviewer_keywords: ["*LPHW_PROFILE_INFOW","DOCKINFO_DOCKED","DOCKINFO_UNDOCKED","DOCKINFO_USER_DOCKED","DOCKINFO_USER_SUPPLIED","DOCKINFO_USER_UNDOCKED","HW_PROFILE_INFO","HW_PROFILE_INFO structure","HW_PROFILE_INFOA","HW_PROFILE_INFOW","LPHW_PROFILE_INFO","LPHW_PROFILE_INFO structure pointer","_win32_hw_profile_info_str","base.hw_profile_info_str","tagHW_PROFILE_INFOA","tagHW_PROFILE_INFOW","winbase/HW_PROFILE_INFO","winbase/HW_PROFILE_INFOA","winbase/HW_PROFILE_INFOW","winbase/LPHW_PROFILE_INFO"]
+description: Contains information about a hardware profile.
+helpviewer_keywords: ["*LPHW_PROFILE_INFOW","DOCKINFO_DOCKED","DOCKINFO_UNDOCKED","DOCKINFO_USER_DOCKED","DOCKINFO_USER_SUPPLIED","DOCKINFO_USER_UNDOCKED","HW_PROFILE_INFO","HW_PROFILE_INFO structure","HW_PROFILE_INFOA","HW_PROFILE_INFOW","LPHW_PROFILE_INFO","LPHW_PROFILE_INFO structure pointer","_win32_hw_profile_info_str","base.hw_profile_info_str","tagHW_PROFILE_INFOA","tagHW_PROFILE_INFOW","winbase/HW_PROFILE_INFO","winbase/HW_PROFILE_INFOA","winbase/HW_PROFILE_INFOW","winbase/LPHW_PROFILE_INFO"]
 old-location: base\hw_profile_info_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c
 ms.date: 12/05/2018
 ms.keywords: '*LPHW_PROFILE_INFOW, DOCKINFO_DOCKED, DOCKINFO_UNDOCKED, DOCKINFO_USER_DOCKED, DOCKINFO_USER_SUPPLIED, DOCKINFO_USER_UNDOCKED, HW_PROFILE_INFO, HW_PROFILE_INFO structure, HW_PROFILE_INFOA, HW_PROFILE_INFOW, LPHW_PROFILE_INFO, LPHW_PROFILE_INFO structure pointer, _win32_hw_profile_info_str, base.hw_profile_info_str, tagHW_PROFILE_INFOA, tagHW_PROFILE_INFOW, winbase/HW_PROFILE_INFO, winbase/HW_PROFILE_INFOA, winbase/HW_PROFILE_INFOW, winbase/LPHW_PROFILE_INFO'
@@ -163,4 +164,9 @@ The display name for the current hardware profile.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winbase.h header defines HW_PROFILE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

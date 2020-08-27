@@ -2,7 +2,7 @@
 UID: NS:directml.DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC
 description: Describes a DirectML math operator that determines, elementwise, whether the input is NaN.
-tech.root: direct3d12
+tech.root: directml
 ms.date: 01/30/2020
 targetos: Windows
 req.construct-type: structure

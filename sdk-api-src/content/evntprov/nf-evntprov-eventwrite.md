@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventWrite
 title: EventWrite function (evntprov.h)
-description: Use this function to write an event.helpviewer_keywords: ["EventWrite","EventWrite function [ETW]","base.eventwrite_func","etw.eventwrite_func","evntprov/EventWrite"]
+description: Use this function to write an event.
+helpviewer_keywords: ["EventWrite","EventWrite function [ETW]","base.eventwrite_func","etw.eventwrite_func","evntprov/EventWrite"]
 old-location: etw\eventwrite_func.htm
 tech.root: ETW
 ms.assetid: 93070eb7-c167-4419-abff-e861877dad07
@@ -157,6 +158,17 @@ Occurs when filled buffers are trying to flush to disk, but disk IOs are not hap
 
 </td>
 </tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOACCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+      <i>UserData</i> points to an invalid memory location or the memory is not correctly aligned.
+</td>
+</tr>
+
 <tr>
 <td width="40%">
 <dl>

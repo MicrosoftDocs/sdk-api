@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_SPLIT_OPERATOR_DESC
 title: DML_SPLIT_OPERATOR_DESC
-description: Describes a DirectML data reorganization operator that splits the input tensor into multiple output tensors, along the specified axis.helpviewer_keywords: ["DML_SPLIT_OPERATOR_DESC","DML_SPLIT_OPERATOR_DESC structure","direct3d12.dml_split_operator_desc","directml/DML_SPLIT_OPERATOR_DESC"]
+description: Describes a DirectML data reorganization operator that splits the input tensor into multiple output tensors, along the specified axis.
+helpviewer_keywords: ["DML_SPLIT_OPERATOR_DESC","DML_SPLIT_OPERATOR_DESC structure","direct3d12.dml_split_operator_desc","directml/DML_SPLIT_OPERATOR_DESC"]
 old-location: direct3d12\dml_split_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 42FEF441-2B7E-44D3-9889-75869AED4667
 ms.date: 12/5/2018
 ms.keywords: DML_SPLIT_OPERATOR_DESC, DML_SPLIT_OPERATOR_DESC structure, direct3d12.dml_split_operator_desc, directml/DML_SPLIT_OPERATOR_DESC

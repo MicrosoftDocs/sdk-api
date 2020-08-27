@@ -1,9 +1,10 @@
 ---
 UID: NF:powrprof.PowerWriteValueUnitsSpecifier
 title: PowerWriteValueUnitsSpecifier function (powrprof.h)
-description: Writes the string used to describe the units of a power setting that supports a range of values.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteValueUnitsSpecifier","PowerWriteValueUnitsSpecifier function","base.powerwritevalueunitsspecifier","powrprof/PowerWriteValueUnitsSpecifier"]
+description: Writes the string used to describe the units of a power setting that supports a range of values.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteValueUnitsSpecifier","PowerWriteValueUnitsSpecifier function","base.powerwritevalueunitsspecifier","powrprof/PowerWriteValueUnitsSpecifier"]
 old-location: base\powerwritevalueunitsspecifier.htm
-tech.root: power
+tech.root: base
 ms.assetid: d9a81077-23e8-4bae-8e70-ffaaaf1ecda3
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueUnitsSpecifier, PowerWriteValueUnitsSpecifier function, base.powerwritevalueunitsspecifier, powrprof/PowerWriteValueUnitsSpecifier

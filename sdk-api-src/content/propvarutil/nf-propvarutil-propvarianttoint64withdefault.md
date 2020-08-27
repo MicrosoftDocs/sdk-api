@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64WithDefault
 title: PropVariantToInt64WithDefault function (propvarutil.h)
-description: Extracts the Int64 property value of a PROPVARIANT structure. If no value exists, then specified default value is returned.helpviewer_keywords: ["PropVariantToInt64WithDefault","PropVariantToInt64WithDefault function [Windows Properties]","properties.PropVariantToInt64WithDefault","propvarutil/PropVariantToInt64WithDefault","shell.PropVariantToInt64WithDefault","shell_PropVariantToInt64WithDefault"]
+description: Extracts the Int64 property value of a PROPVARIANT structure. If no value exists, then specified default value is returned.
+helpviewer_keywords: ["PropVariantToInt64WithDefault","PropVariantToInt64WithDefault function [Windows Properties]","properties.PropVariantToInt64WithDefault","propvarutil/PropVariantToInt64WithDefault","shell.PropVariantToInt64WithDefault","shell_PropVariantToInt64WithDefault"]
 old-location: properties\PropVariantToInt64WithDefault.htm
 tech.root: properties
 ms.assetid: 6a051235-3e32-40d3-a17e-efc571592dae

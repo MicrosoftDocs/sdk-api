@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Clone
 title: Matrix::Clone (gdiplusmatrix.h)
-description: The Matrix::Clone method creates a new Matrix object that is a copy of this Matrix object.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","Matrix class","Matrix class [GDI+]","Clone method","Matrix.Clone","Matrix::Clone","_gdiplus_CLASS_Matrix_Clone_","gdiplus._gdiplus_CLASS_Matrix_Clone_"]
+description: The Matrix::Clone method creates a new Matrix object that is a copy of this Matrix object.
+helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","Matrix class","Matrix class [GDI+]","Clone method","Matrix.Clone","Matrix::Clone","_gdiplus_CLASS_Matrix_Clone_","gdiplus._gdiplus_CLASS_Matrix_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\clone_31.htm

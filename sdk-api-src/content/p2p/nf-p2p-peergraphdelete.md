@@ -1,9 +1,10 @@
 ---
 UID: NF:p2p.PeerGraphDelete
 title: PeerGraphDelete function (p2p.h)
-description: The PeerGraphDelete function deletes the data associated with a specified peer graph.helpviewer_keywords: ["PeerGraphDelete","PeerGraphDelete function [Peer Networking]","p2p.peergraphdelete","p2p/PeerGraphDelete"]
+description: The PeerGraphDelete function deletes the data associated with a specified peer graph.
+helpviewer_keywords: ["PeerGraphDelete","PeerGraphDelete function [Peer Networking]","p2p.peergraphdelete","p2p/PeerGraphDelete"]
 old-location: p2p\peergraphdelete.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 7962e425-ca74-4695-a394-5495e74bd460
 ms.date: 12/05/2018
 ms.keywords: PeerGraphDelete, PeerGraphDelete function [Peer Networking], p2p.peergraphdelete, p2p/PeerGraphDelete

@@ -1,9 +1,10 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.AutomaticEnable
 title: IMFContentEnabler::AutomaticEnable (mfidl.h)
-description: Performs a content enabling action without any user interaction.helpviewer_keywords: ["7be4c32f-d116-4a08-857f-1a59b5ccfb12","AutomaticEnable","AutomaticEnable method [Media Foundation]","AutomaticEnable method [Media Foundation]","IMFContentEnabler interface","IMFContentEnabler interface [Media Foundation]","AutomaticEnable method","IMFContentEnabler.AutomaticEnable","IMFContentEnabler::AutomaticEnable","mf.imfcontentenabler_automaticenable","mfidl/IMFContentEnabler::AutomaticEnable"]
+description: Performs a content enabling action without any user interaction.
+helpviewer_keywords: ["7be4c32f-d116-4a08-857f-1a59b5ccfb12","AutomaticEnable","AutomaticEnable method [Media Foundation]","AutomaticEnable method [Media Foundation]","IMFContentEnabler interface","IMFContentEnabler interface [Media Foundation]","AutomaticEnable method","IMFContentEnabler.AutomaticEnable","IMFContentEnabler::AutomaticEnable","mf.imfcontentenabler_automaticenable","mfidl/IMFContentEnabler::AutomaticEnable"]
 old-location: mf\imfcontentenabler_automaticenable.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7be4c32f-d116-4a08-857f-1a59b5ccfb12
 ms.date: 12/05/2018
 ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEnable method [Media Foundation], AutomaticEnable method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],AutomaticEnable method, IMFContentEnabler.AutomaticEnable, IMFContentEnabler::AutomaticEnable, mf.imfcontentenabler_automaticenable, mfidl/IMFContentEnabler::AutomaticEnable

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPLibrary
 title: IWMPLibrary (wmp.h)
-description: The IWMPLibrary interface represents a library.helpviewer_keywords: ["IWMPLibrary","IWMPLibrary interface [Windows Media Player]","IWMPLibrary interface [Windows Media Player]","described","IWMPLibraryInterface","wmp.iwmplibrary","wmp/IWMPLibrary"]
+description: The IWMPLibrary interface represents a library.
+helpviewer_keywords: ["IWMPLibrary","IWMPLibrary interface [Windows Media Player]","IWMPLibrary interface [Windows Media Player]","described","IWMPLibraryInterface","wmp.iwmplibrary","wmp/IWMPLibrary"]
 old-location: wmp\iwmplibrary.htm
 tech.root: WMP
 ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c

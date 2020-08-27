@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi.lineGetConfRelatedCalls
 title: lineGetConfRelatedCalls function (tapi.h)
-description: The lineGetConfRelatedCalls function returns a list of call handles that are part of the same conference call as the specified call.helpviewer_keywords: ["_tapi2_linegetconfrelatedcalls","lineGetConfRelatedCalls","lineGetConfRelatedCalls function [TAPI 2.2]","tapi/lineGetConfRelatedCalls","tapi2.linegetconfrelatedcalls"]
+description: The lineGetConfRelatedCalls function returns a list of call handles that are part of the same conference call as the specified call.
+helpviewer_keywords: ["_tapi2_linegetconfrelatedcalls","lineGetConfRelatedCalls","lineGetConfRelatedCalls function [TAPI 2.2]","tapi/lineGetConfRelatedCalls","tapi2.linegetconfrelatedcalls"]
 old-location: tapi2\linegetconfrelatedcalls.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 048bc4bc-511a-4666-a2ff-4fff5132ed2e
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetconfrelatedcalls, lineGetConfRelatedCalls, lineGetConfRelatedCalls function [TAPI 2.2], tapi/lineGetConfRelatedCalls, tapi2.linegetconfrelatedcalls

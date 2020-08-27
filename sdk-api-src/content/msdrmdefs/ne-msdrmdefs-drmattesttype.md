@@ -1,9 +1,10 @@
 ---
 UID: NE:msdrmdefs._DRMATTESTTYPE
 title: DRMATTESTTYPE (msdrmdefs.h)
-description: The DRMATTESTTYPE enumeration specifies what kind of signature to create for a data blob.helpviewer_keywords: ["DRMATTESTTYPE","DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0]","DRMATTESTTYPE_FULLENVIRONMENT","DRMATTESTTYPE_HASHONLY","msdrmdefs/DRMATTESTTYPE","msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT","msdrmdefs/DRMATTESTTYPE_HASHONLY","rm.drmattesttype"]
+description: The DRMATTESTTYPE enumeration specifies what kind of signature to create for a data blob.
+helpviewer_keywords: ["DRMATTESTTYPE","DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0]","DRMATTESTTYPE_FULLENVIRONMENT","DRMATTESTTYPE_HASHONLY","msdrmdefs/DRMATTESTTYPE","msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT","msdrmdefs/DRMATTESTTYPE_HASHONLY","rm.drmattesttype"]
 old-location: rm\drmattesttype.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: adbf8718-e707-4ab9-a961-f8b4b4e1fe6a
 ms.date: 12/05/2018
 ms.keywords: DRMATTESTTYPE, DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMATTESTTYPE_FULLENVIRONMENT, DRMATTESTTYPE_HASHONLY, msdrmdefs/DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT, msdrmdefs/DRMATTESTTYPE_HASHONLY, rm.drmattesttype

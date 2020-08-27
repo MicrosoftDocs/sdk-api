@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMFLOAT3PK
 title: XMFLOAT3PK (directxpackedvector.h)
-description: Describes a 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK structure [DirectX Math Support APIs]","directxpackedvector/XMFLOAT3PK","dxmath.xmfloat3pk"]
+description: Describes a 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
+helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK structure [DirectX Math Support APIs]","directxpackedvector/XMFLOAT3PK","dxmath.xmfloat3pk"]
 old-location: dxmath\xmfloat3pk.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3PK
@@ -62,36 +63,6 @@ For a list of additional functionality, such as constructors and operators, avai
 
 
 
-### -field xm
-
- 
-
-
-### -field xe
-
- 
-
-
-### -field ym
-
- 
-
-
-### -field ye
-
- 
-
-
-### -field zm
-
- 
-
-
-### -field ze
-
- 
-
-
 ### -field v
 
 Unsigned 32-bit integer representing the 3D vector.
@@ -115,37 +86,37 @@ TBD
 
 
 
-#### - xe : 5
+### -field xe : 5
 
 The 5-bit biased exponent for the x component.
 			
 
 
-#### - xm : 6
+### -field xm : 6
 
 The 6-bit mantissa for the x component.
 			
 
 
-#### - ye : 5
+### -field ye : 5
 
 The 5-bit biased exponent for the y component.
 			
 
 
-#### - ym : 6
+### -field ym : 6
 
 The 6-bit mantissa for the y component.
 			
 
 
-#### - ze : 5
+### -field ze : 5
 
 The 5-bit biased exponent for the z component.
 			
 
 
-#### - zm : 5
+### -field zm : 5
 
 The 5-bit mantissa for the z component.
 			

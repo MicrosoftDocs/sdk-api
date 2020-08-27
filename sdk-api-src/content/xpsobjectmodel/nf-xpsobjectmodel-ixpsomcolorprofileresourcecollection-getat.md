@@ -1,9 +1,10 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetAt
 title: IXpsOMColorProfileResourceCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMColorProfileResource interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMColorProfileResourceCollection.GetAt","IXpsOMColorProfileResourceCollection::GetAt","xps.ixpsomcolorprofileresourcecollection_getat","xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt"]
+description: Gets an IXpsOMColorProfileResource interface pointer from a specified location in the collection.
+helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMColorProfileResourceCollection.GetAt","IXpsOMColorProfileResourceCollection::GetAt","xps.ixpsomcolorprofileresourcecollection_getat","xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt"]
 old-location: xps\ixpsomcolorprofileresourcecollection_getat.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: ecb8b3e7-182f-446a-bc12-28762da1f930
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMColorProfileResourceCollection.GetAt, IXpsOMColorProfileResourceCollection::GetAt, xps.ixpsomcolorprofileresourcecollection_getat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt

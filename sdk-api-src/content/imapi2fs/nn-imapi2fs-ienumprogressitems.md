@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IEnumProgressItems
 title: IEnumProgressItems (imapi2fs.h)
-description: Use this interface to enumerate a collection of progress items.helpviewer_keywords: ["IEnumProgressItems","IEnumProgressItems interface [IMAPI]","IEnumProgressItems interface [IMAPI]","described","imapi.ienumprogressitems","imapi2fs/IEnumProgressItems"]
+description: Use this interface to enumerate a collection of progress items.
+helpviewer_keywords: ["IEnumProgressItems","IEnumProgressItems interface [IMAPI]","IEnumProgressItems interface [IMAPI]","described","imapi.ienumprogressitems","imapi2fs/IEnumProgressItems"]
 old-location: imapi\ienumprogressitems.htm
 tech.root: imapi
 ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1

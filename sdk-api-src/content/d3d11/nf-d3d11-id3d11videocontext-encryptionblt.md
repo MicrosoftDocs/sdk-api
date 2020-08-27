@@ -1,9 +1,10 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.EncryptionBlt
 title: ID3D11VideoContext::EncryptionBlt (d3d11.h)
-description: Reads encrypted data from a protected surface.helpviewer_keywords: ["EncryptionBlt","EncryptionBlt method [Media Foundation]","EncryptionBlt method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","EncryptionBlt method","ID3D11VideoContext.EncryptionBlt","ID3D11VideoContext::EncryptionBlt","d3d11/ID3D11VideoContext::EncryptionBlt","mf.id3d11videocontext_encryptionblt"]
+description: Reads encrypted data from a protected surface.
+helpviewer_keywords: ["EncryptionBlt","EncryptionBlt method [Media Foundation]","EncryptionBlt method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","EncryptionBlt method","ID3D11VideoContext.EncryptionBlt","ID3D11VideoContext::EncryptionBlt","d3d11/ID3D11VideoContext::EncryptionBlt","mf.id3d11videocontext_encryptionblt"]
 old-location: mf\id3d11videocontext_encryptionblt.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2BBD0BC2-53D9-435E-835C-20A992118329
 ms.date: 12/05/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],EncryptionBlt method, ID3D11VideoContext.EncryptionBlt, ID3D11VideoContext::EncryptionBlt, d3d11/ID3D11VideoContext::EncryptionBlt, mf.id3d11videocontext_encryptionblt

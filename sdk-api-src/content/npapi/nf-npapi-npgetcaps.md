@@ -1,9 +1,10 @@
 ---
 UID: NF:npapi.NPGetCaps
 title: NPGetCaps function (npapi.h)
-description: Returns information about which services are supported on the network.helpviewer_keywords: ["NPGetCaps","NPGetCaps function [Security]","WNNC_ADMIN","WNNC_CONNECTION","WNNC_DIALOG","WNNC_ENUMERATION","WNNC_NET_TYPE","WNNC_SPEC_VERSION","WNNC_START","WNNC_USER","_mnp_npgetcaps","npapi/NPGetCaps","security.npgetcaps"]
+description: Returns information about which services are supported on the network.
+helpviewer_keywords: ["NPGetCaps","NPGetCaps function [Security]","WNNC_ADMIN","WNNC_CONNECTION","WNNC_DIALOG","WNNC_ENUMERATION","WNNC_NET_TYPE","WNNC_SPEC_VERSION","WNNC_START","WNNC_USER","_mnp_npgetcaps","npapi/NPGetCaps","security.npgetcaps"]
 old-location: security\npgetcaps.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 8d399bae-4084-4f06-b7f5-036a54d8d90e
 ms.date: 12/05/2018
 ms.keywords: NPGetCaps, NPGetCaps function [Security], WNNC_ADMIN, WNNC_CONNECTION, WNNC_DIALOG, WNNC_ENUMERATION, WNNC_NET_TYPE, WNNC_SPEC_VERSION, WNNC_START, WNNC_USER, _mnp_npgetcaps, npapi/NPGetCaps, security.npgetcaps

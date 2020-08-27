@@ -1,9 +1,10 @@
 ---
 UID: NE:certsrv.__unnamed_enum_0
 title: ENUM_CATYPES (certsrv.h)
-description: Specifies a certification authority (CA) type.helpviewer_keywords: ["ENUM_CATYPES","ENUM_CATYPES enumeration [Security]","ENUM_ENTERPRISE_ROOTCA","ENUM_ENTERPRISE_SUBCA","ENUM_STANDALONE_ROOTCA","ENUM_STANDALONE_SUBCA","ENUM_UNKNOWN_CA","certsrv/ENUM_CATYPES","certsrv/ENUM_ENTERPRISE_ROOTCA","certsrv/ENUM_ENTERPRISE_SUBCA","certsrv/ENUM_STANDALONE_ROOTCA","certsrv/ENUM_STANDALONE_SUBCA","certsrv/ENUM_UNKNOWN_CA","security.enum_catypes"]
+description: Specifies a certification authority (CA) type.
+helpviewer_keywords: ["ENUM_CATYPES","ENUM_CATYPES enumeration [Security]","ENUM_ENTERPRISE_ROOTCA","ENUM_ENTERPRISE_SUBCA","ENUM_STANDALONE_ROOTCA","ENUM_STANDALONE_SUBCA","ENUM_UNKNOWN_CA","certsrv/ENUM_CATYPES","certsrv/ENUM_ENTERPRISE_ROOTCA","certsrv/ENUM_ENTERPRISE_SUBCA","certsrv/ENUM_STANDALONE_ROOTCA","certsrv/ENUM_STANDALONE_SUBCA","certsrv/ENUM_UNKNOWN_CA","security.enum_catypes"]
 old-location: security\enum_catypes.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 32b20317-c0ef-4896-a8c6-309e34f87c30
 ms.date: 12/05/2018
 ms.keywords: ENUM_CATYPES, ENUM_CATYPES enumeration [Security], ENUM_ENTERPRISE_ROOTCA, ENUM_ENTERPRISE_SUBCA, ENUM_STANDALONE_ROOTCA, ENUM_STANDALONE_SUBCA, ENUM_UNKNOWN_CA, certsrv/ENUM_CATYPES, certsrv/ENUM_ENTERPRISE_ROOTCA, certsrv/ENUM_ENTERPRISE_SUBCA, certsrv/ENUM_STANDALONE_ROOTCA, certsrv/ENUM_STANDALONE_SUBCA, certsrv/ENUM_UNKNOWN_CA, security.enum_catypes

@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemRenamed
 title: IOfflineFilesEvents::ItemRenamed (cscobj.h)
-description: Reports that the path for an item in the Offline Files cache has been renamed.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemRenamed method","IOfflineFilesEvents.ItemRenamed","IOfflineFilesEvents::ItemRenamed","ItemRenamed","ItemRenamed method [Offline Files]","ItemRenamed method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemRenamed","of.iofflinefilesevents_itemrenamed"]
+description: Reports that the path for an item in the Offline Files cache has been renamed.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemRenamed method","IOfflineFilesEvents.ItemRenamed","IOfflineFilesEvents::ItemRenamed","ItemRenamed","ItemRenamed method [Offline Files]","ItemRenamed method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemRenamed","of.iofflinefilesevents_itemrenamed"]
 old-location: of\iofflinefilesevents_itemrenamed.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: f1a678dd-9a02-41da-90d4-930c0d366a36
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemRenamed method, IOfflineFilesEvents.ItemRenamed, IOfflineFilesEvents::ItemRenamed, ItemRenamed, ItemRenamed method [Offline Files], ItemRenamed method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemRenamed, of.iofflinefilesevents_itemrenamed

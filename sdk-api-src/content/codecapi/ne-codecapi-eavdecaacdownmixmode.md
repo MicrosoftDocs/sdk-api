@@ -1,9 +1,10 @@
 ---
 UID: NE:codecapi.eAVDecAACDownmixMode
 title: eAVDecAACDownmixMode (codecapi.h)
-description: Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations.helpviewer_keywords: ["codecapi/eAVDecAACDownmixMode","codecapi/eAVDecAACUseARIBDownmix","codecapi/eAVDecAACUseISODownmix","dshow.eavdecaacdownmixmode","eAVDecAACDownmixMode","eAVDecAACDownmixMode enumeration [DirectShow]","eAVDecAACUseARIBDownmix","eAVDecAACUseISODownmix"]
+description: Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations.
+helpviewer_keywords: ["codecapi/eAVDecAACDownmixMode","codecapi/eAVDecAACUseARIBDownmix","codecapi/eAVDecAACUseISODownmix","dshow.eavdecaacdownmixmode","eAVDecAACDownmixMode","eAVDecAACDownmixMode enumeration [DirectShow]","eAVDecAACUseARIBDownmix","eAVDecAACUseISODownmix"]
 old-location: dshow\eavdecaacdownmixmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d0a62f4a-6b0a-4a77-8d5e-cb40dc1364c7
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecAACDownmixMode, codecapi/eAVDecAACUseARIBDownmix, codecapi/eAVDecAACUseISODownmix, dshow.eavdecaacdownmixmode, eAVDecAACDownmixMode, eAVDecAACDownmixMode enumeration [DirectShow], eAVDecAACUseARIBDownmix, eAVDecAACUseISODownmix

@@ -1,9 +1,10 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemPinned
 title: IOfflineFilesEvents::ItemPinned (cscobj.h)
-description: Reports that an item in the Offline Files cache is now pinned and guaranteed to be available offline should the remote copy become unavailable.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemPinned method","IOfflineFilesEvents.ItemPinned","IOfflineFilesEvents::ItemPinned","ItemPinned","ItemPinned method [Offline Files]","ItemPinned method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemPinned","of.iofflinefilesevents_itempinned"]
+description: Reports that an item in the Offline Files cache is now pinned and guaranteed to be available offline should the remote copy become unavailable.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemPinned method","IOfflineFilesEvents.ItemPinned","IOfflineFilesEvents::ItemPinned","ItemPinned","ItemPinned method [Offline Files]","ItemPinned method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemPinned","of.iofflinefilesevents_itempinned"]
 old-location: of\iofflinefilesevents_itempinned.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: cf298e4e-97c8-4f6f-b6f5-0bd0d9435599
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemPinned method, IOfflineFilesEvents.ItemPinned, IOfflineFilesEvents::ItemPinned, ItemPinned, ItemPinned method [Offline Files], ItemPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemPinned, of.iofflinefilesevents_itempinned

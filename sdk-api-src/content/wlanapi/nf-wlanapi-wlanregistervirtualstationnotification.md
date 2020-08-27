@@ -1,9 +1,10 @@
 ---
 UID: NF:wlanapi.WlanRegisterVirtualStationNotification
 title: WlanRegisterVirtualStationNotification function (wlanapi.h)
-description: Is used to register and unregister notifications on a virtual station.helpviewer_keywords: ["WlanRegisterVirtualStationNotification","WlanRegisterVirtualStationNotification function [NativeWIFI]","nwifi.wlanregistervirtualstationnotification","wlanapi/WlanRegisterVirtualStationNotification"]
+description: Is used to register and unregister notifications on a virtual station.
+helpviewer_keywords: ["WlanRegisterVirtualStationNotification","WlanRegisterVirtualStationNotification function [NativeWIFI]","nwifi.wlanregistervirtualstationnotification","wlanapi/WlanRegisterVirtualStationNotification"]
 old-location: nwifi\wlanregistervirtualstationnotification.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: b86ac160-ee81-43aa-86bb-cf5d3eeb2234
 ms.date: 12/05/2018
 ms.keywords: WlanRegisterVirtualStationNotification, WlanRegisterVirtualStationNotification function [NativeWIFI], nwifi.wlanregistervirtualstationnotification, wlanapi/WlanRegisterVirtualStationNotification

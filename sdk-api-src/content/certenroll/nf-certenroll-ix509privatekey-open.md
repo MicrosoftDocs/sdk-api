@@ -1,9 +1,10 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Open
 title: IX509PrivateKey::Open (certenroll.h)
-description: Opens an existing private key.helpviewer_keywords: ["IX509PrivateKey interface [Security]","Open method","IX509PrivateKey.Open","IX509PrivateKey::Open","Open","Open method [Security]","Open method [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::Open","security.ix509privatekey_open_method"]
+description: Opens an existing private key.
+helpviewer_keywords: ["IX509PrivateKey interface [Security]","Open method","IX509PrivateKey.Open","IX509PrivateKey::Open","Open","Open method [Security]","Open method [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::Open","security.ix509privatekey_open_method"]
 old-location: security\ix509privatekey_open_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 965e3bf8-22b9-4015-8fb2-102c5f7b1cb5
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Open method, IX509PrivateKey.Open, IX509PrivateKey::Open, Open, Open method [Security], Open method [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Open, security.ix509privatekey_open_method

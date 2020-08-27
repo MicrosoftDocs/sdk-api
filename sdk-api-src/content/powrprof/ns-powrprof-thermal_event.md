@@ -1,9 +1,10 @@
 ---
 UID: NS:powrprof._THERMAL_EVENT
 title: THERMAL_EVENT (powrprof.h)
-description: Contains a thermal event.helpviewer_keywords: ["*PTHERMAL_EVENT","PTHERMAL_EVENT","PTHERMAL_EVENT structure pointer","THERMAL_EVENT","THERMAL_EVENT structure","base.thermal_event","powrprof/PTHERMAL_EVENT","powrprof/THERMAL_EVENT"]
+description: Contains a thermal event.
+helpviewer_keywords: ["*PTHERMAL_EVENT","PTHERMAL_EVENT","PTHERMAL_EVENT structure pointer","THERMAL_EVENT","THERMAL_EVENT structure","base.thermal_event","powrprof/PTHERMAL_EVENT","powrprof/THERMAL_EVENT"]
 old-location: base\thermal_event.htm
-tech.root: power
+tech.root: base
 ms.assetid: 80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3
 ms.date: 12/05/2018
 ms.keywords: '*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT'

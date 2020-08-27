@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromHICON
 title: Bitmap::FromHICON (gdiplusheaders.h)
-description: The Bitmap::FromHICON method creates a Bitmap object based on a handle to an icon.helpviewer_keywords: ["Bitmap class [GDI+]","FromHICON method","Bitmap.FromHICON","Bitmap::FromHICON","FromHICON","FromHICON method [GDI+]","FromHICON method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromHICON_hicon_","gdiplus._gdiplus_CLASS_Bitmap_FromHICON_hicon_"]
+description: The Bitmap::FromHICON method creates a Bitmap object based on a handle to an icon.
+helpviewer_keywords: ["Bitmap class [GDI+]","FromHICON method","Bitmap.FromHICON","Bitmap::FromHICON","FromHICON","FromHICON method [GDI+]","FromHICON method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromHICON_hicon_","gdiplus._gdiplus_CLASS_Bitmap_FromHICON_hicon_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromHICON_hicon_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromhicon.htm

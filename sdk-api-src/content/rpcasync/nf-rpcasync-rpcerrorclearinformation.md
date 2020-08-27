@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcErrorClearInformation
 title: RpcErrorClearInformation function (rpcasync.h)
-description: The RpcErrorClearInformation function clears all extended error information on the current thread.helpviewer_keywords: ["RpcErrorClearInformation","RpcErrorClearInformation function [RPC]","_rpc_rpcerrorclearinformation","rpc.rpcerrorclearinformation","rpcasync/RpcErrorClearInformation"]
+description: The RpcErrorClearInformation function clears all extended error information on the current thread.
+helpviewer_keywords: ["RpcErrorClearInformation","RpcErrorClearInformation function [RPC]","_rpc_rpcerrorclearinformation","rpc.rpcerrorclearinformation","rpcasync/RpcErrorClearInformation"]
 old-location: rpc\rpcerrorclearinformation.htm
 tech.root: Rpc
 ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f

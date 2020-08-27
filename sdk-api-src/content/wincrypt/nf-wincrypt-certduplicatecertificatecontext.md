@@ -1,9 +1,10 @@
 ---
 UID: NF:wincrypt.CertDuplicateCertificateContext
 title: CertDuplicateCertificateContext function (wincrypt.h)
-description: Duplicates a certificate context by incrementing its reference count.helpviewer_keywords: ["CertDuplicateCertificateContext","CertDuplicateCertificateContext function [Security]","_crypto2_certduplicatecertificatecontext","security.certduplicatecertificatecontext","wincrypt/CertDuplicateCertificateContext"]
+description: Duplicates a certificate context by incrementing its reference count.
+helpviewer_keywords: ["CertDuplicateCertificateContext","CertDuplicateCertificateContext function [Security]","_crypto2_certduplicatecertificatecontext","security.certduplicatecertificatecontext","wincrypt/CertDuplicateCertificateContext"]
 old-location: security\certduplicatecertificatecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 589edd25-c8d0-4f93-83b2-9df2ed2e2812
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateCertificateContext, CertDuplicateCertificateContext function [Security], _crypto2_certduplicatecertificatecontext, security.certduplicatecertificatecontext, wincrypt/CertDuplicateCertificateContext

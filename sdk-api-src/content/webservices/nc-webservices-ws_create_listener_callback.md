@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_CREATE_LISTENER_CALLBACK
 title: WS_CREATE_LISTENER_CALLBACK (webservices.h)
-description: Handles the WsCreateListener call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_CREATE_LISTENER_CALLBACK","WS_CREATE_LISTENER_CALLBACK callback","WS_CREATE_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_LISTENER_CALLBACK","wsw.ws_create_listener_callback"]
+description: Handles the WsCreateListener call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_CREATE_LISTENER_CALLBACK","WS_CREATE_LISTENER_CALLBACK callback","WS_CREATE_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_LISTENER_CALLBACK","wsw.ws_create_listener_callback"]
 old-location: wsw\ws_create_listener_callback.htm
 tech.root: wsw
 ms.assetid: 2d8e476d-dc68-44b4-b53b-be440a32efda
@@ -101,7 +102,7 @@ Specifies where additional error information should be stored if the function fa
                 
 
 
-#### - listenerInstance
+### -param listenerInstance
 
 A pointer to an allocated structure that represents
                     the listener instance.  This pointer

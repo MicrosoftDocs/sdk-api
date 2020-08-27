@@ -1,9 +1,10 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetBackgroundColor
 title: IAMLine21Decoder::GetBackgroundColor (il21dec.h)
-description: The GetBackgroundColor method retrieves the background color used by the Line 21 Decoder filter for overlay. The default background color is magenta.helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [DirectShow]","GetBackgroundColor method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetBackgroundColor method","IAMLine21Decoder.GetBackgroundColor","IAMLine21Decoder::GetBackgroundColor","IAMLine21DecoderGetBackgroundColor","dshow.iamline21decoder_getbackgroundcolor","il21dec/IAMLine21Decoder::GetBackgroundColor"]
+description: The GetBackgroundColor method retrieves the background color used by the Line 21 Decoder filter for overlay. The default background color is magenta.
+helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [DirectShow]","GetBackgroundColor method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetBackgroundColor method","IAMLine21Decoder.GetBackgroundColor","IAMLine21Decoder::GetBackgroundColor","IAMLine21DecoderGetBackgroundColor","dshow.iamline21decoder_getbackgroundcolor","il21dec/IAMLine21Decoder::GetBackgroundColor"]
 old-location: dshow\iamline21decoder_getbackgroundcolor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ba75dc5b-207e-4425-a8fe-8da16fc89921
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetBackgroundColor method, IAMLine21Decoder.GetBackgroundColor, IAMLine21Decoder::GetBackgroundColor, IAMLine21DecoderGetBackgroundColor, dshow.iamline21decoder_getbackgroundcolor, il21dec/IAMLine21Decoder::GetBackgroundColor

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsipv6ok.inet_ntoa
 title: inet_ntoa macro (wsipv6ok.h)
-description: The inet_ntoa function converts an (Ipv4) Internet network address into an ASCII string in Internet standard dotted-decimal format.helpviewer_keywords: ["_win32_inet_ntoa_2","inet_ntoa","inet_ntoa function [Winsock]","winsock.inet_ntoa_2","wsipv6ok/inet_ntoa"]
+description: The inet_ntoa function converts an (Ipv4) Internet network address into an ASCII string in Internet standard dotted-decimal format.
+helpviewer_keywords: ["_win32_inet_ntoa_2","inet_ntoa","inet_ntoa function [Winsock]","winsock.inet_ntoa_2","wsipv6ok/inet_ntoa"]
 old-location: winsock\inet_ntoa_2.htm
 tech.root: WinSock
 ms.assetid: 01cd32e7-a01d-40e8-afb5-69223d643a0e
@@ -58,7 +59,7 @@ The
 
 
 
-#### - a [in]
+### -param a [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure that represents an Internet host address.

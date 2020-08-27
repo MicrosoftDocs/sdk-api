@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MonitorFromRect
 title: MonitorFromRect function (winuser.h)
-description: The MonitorFromRect function retrieves a handle to the display monitor that has the largest area of intersection with a specified rectangle.helpviewer_keywords: ["MONITOR_DEFAULTTONEAREST","MONITOR_DEFAULTTONULL","MONITOR_DEFAULTTOPRIMARY","MonitorFromRect","MonitorFromRect function [Windows GDI]","_win32_MonitorFromRect","gdi.monitorfromrect","winuser/MonitorFromRect"]
+description: The MonitorFromRect function retrieves a handle to the display monitor that has the largest area of intersection with a specified rectangle.
+helpviewer_keywords: ["MONITOR_DEFAULTTONEAREST","MONITOR_DEFAULTTONULL","MONITOR_DEFAULTTOPRIMARY","MonitorFromRect","MonitorFromRect function [Windows GDI]","_win32_MonitorFromRect","gdi.monitorfromrect","winuser/MonitorFromRect"]
 old-location: gdi\monitorfromrect.htm
 tech.root: gdi
 ms.assetid: 81c3fffb-bbc9-4adb-bb6b-edd59f7a77b4

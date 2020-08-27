@@ -1,9 +1,10 @@
 ---
 UID: NF:fileapi.GetLongPathNameA
 title: GetLongPathNameA function (fileapi.h)
-description: Converts the specified path to its long form.helpviewer_keywords: ["GetLongPathName","GetLongPathName function [Files]","GetLongPathNameA","GetLongPathNameW","_win32_getlongpathname","base.getlongpathname","fileapi/GetLongPathName","fileapi/GetLongPathNameA","fileapi/GetLongPathNameW","fs.getlongpathname","winbase/GetLongPathName","winbase/GetLongPathNameA","winbase/GetLongPathNameW"]
+description: Converts the specified path to its long form.
+helpviewer_keywords: ["GetLongPathName","GetLongPathName function [Files]","GetLongPathNameA","GetLongPathNameW","_win32_getlongpathname","base.getlongpathname","fileapi/GetLongPathName","fileapi/GetLongPathNameA","fileapi/GetLongPathNameW","fs.getlongpathname","winbase/GetLongPathName","winbase/GetLongPathNameA","winbase/GetLongPathNameW"]
 old-location: fs\getlongpathname.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
 ms.date: 12/05/2018
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
@@ -215,6 +216,10 @@ For an example that uses <b>GetLongPathName</b>, see the
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetLongPathName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

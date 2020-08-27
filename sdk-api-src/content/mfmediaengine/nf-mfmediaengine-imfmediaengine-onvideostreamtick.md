@@ -1,9 +1,10 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.OnVideoStreamTick
 title: IMFMediaEngine::OnVideoStreamTick (mfmediaengine.h)
-description: Queries the Media Engine to find out whether a new video frame is ready.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","OnVideoStreamTick method","IMFMediaEngine.OnVideoStreamTick","IMFMediaEngine::OnVideoStreamTick","OnVideoStreamTick","OnVideoStreamTick method [Media Foundation]","OnVideoStreamTick method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_onvideostreamtick","mfmediaengine/IMFMediaEngine::OnVideoStreamTick"]
+description: Queries the Media Engine to find out whether a new video frame is ready.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","OnVideoStreamTick method","IMFMediaEngine.OnVideoStreamTick","IMFMediaEngine::OnVideoStreamTick","OnVideoStreamTick","OnVideoStreamTick method [Media Foundation]","OnVideoStreamTick method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_onvideostreamtick","mfmediaengine/IMFMediaEngine::OnVideoStreamTick"]
 old-location: mf\imfmediaengine_onvideostreamtick.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EC06D3D6-F103-4932-96C1-B55A59CD5E34
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],OnVideoStreamTick method, IMFMediaEngine.OnVideoStreamTick, IMFMediaEngine::OnVideoStreamTick, OnVideoStreamTick, OnVideoStreamTick method [Media Foundation], OnVideoStreamTick method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_onvideostreamtick, mfmediaengine/IMFMediaEngine::OnVideoStreamTick

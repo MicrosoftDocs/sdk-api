@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_LIST_TEXT
 title: WS_XML_LIST_TEXT (webservices.h)
-description: Represents a list of text values separated by a single whitespace character.helpviewer_keywords: ["WS_XML_LIST_TEXT","WS_XML_LIST_TEXT structure [Web Services for Windows]","webservices/WS_XML_LIST_TEXT","wsw.ws_xml_list_text"]
+description: Represents a list of text values separated by a single whitespace character.
+helpviewer_keywords: ["WS_XML_LIST_TEXT","WS_XML_LIST_TEXT structure [Web Services for Windows]","webservices/WS_XML_LIST_TEXT","wsw.ws_xml_list_text"]
 old-location: wsw\ws_xml_list_text.htm
 tech.root: wsw
 ms.assetid: a9428114-6f39-46cb-b77f-9da096ed7f11

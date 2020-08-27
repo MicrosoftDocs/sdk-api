@@ -1,9 +1,10 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DATA_PROVIDER
 title: CRYPT_XML_DATA_PROVIDER (cryptxml.h)
-description: Specifies the interface to the XML data provider.helpviewer_keywords: ["*PCRYPT_XML_DATA_PROVIDER","CRYPT_XML_DATA_PROVIDER","CRYPT_XML_DATA_PROVIDER structure [Security]","PCRYPT_XML_DATA_PROVIDER","PCRYPT_XML_DATA_PROVIDER structure pointer [Security]","cryptxml/CRYPT_XML_DATA_PROVIDER","cryptxml/PCRYPT_XML_DATA_PROVIDER","security.crypt_xml_data_provider"]
+description: Specifies the interface to the XML data provider.
+helpviewer_keywords: ["*PCRYPT_XML_DATA_PROVIDER","CRYPT_XML_DATA_PROVIDER","CRYPT_XML_DATA_PROVIDER structure [Security]","PCRYPT_XML_DATA_PROVIDER","PCRYPT_XML_DATA_PROVIDER structure pointer [Security]","cryptxml/CRYPT_XML_DATA_PROVIDER","cryptxml/PCRYPT_XML_DATA_PROVIDER","security.crypt_xml_data_provider"]
 old-location: security\crypt_xml_data_provider.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 98f32310-a4fa-414c-8a3e-877839eacd1b
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_DATA_PROVIDER, CRYPT_XML_DATA_PROVIDER, CRYPT_XML_DATA_PROVIDER structure [Security], PCRYPT_XML_DATA_PROVIDER, PCRYPT_XML_DATA_PROVIDER structure pointer [Security], cryptxml/CRYPT_XML_DATA_PROVIDER, cryptxml/PCRYPT_XML_DATA_PROVIDER, security.crypt_xml_data_provider'

@@ -1,9 +1,10 @@
 ---
 UID: NN:azroles.IAzScope2
 title: IAzScope2 (azroles.h)
-description: Extends the IAzScope interface to manage IAzRoleAssignment and IAzRoleDefinition objects.helpviewer_keywords: ["IAzScope2","IAzScope2 interface [Security]","IAzScope2 interface [Security]","described","azroles/IAzScope2","security.iazscope2"]
+description: Extends the IAzScope interface to manage IAzRoleAssignment and IAzRoleDefinition objects.
+helpviewer_keywords: ["IAzScope2","IAzScope2 interface [Security]","IAzScope2 interface [Security]","described","azroles/IAzScope2","security.iazscope2"]
 old-location: security\iazscope2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 536c563e-7a6b-480d-9e83-1d7cc90a795d
 ms.date: 12/05/2018
 ms.keywords: IAzScope2, IAzScope2 interface [Security], IAzScope2 interface [Security],described, azroles/IAzScope2, security.iazscope2

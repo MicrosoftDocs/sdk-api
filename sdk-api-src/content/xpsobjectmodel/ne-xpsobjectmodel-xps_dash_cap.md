@@ -1,9 +1,10 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
 title: XPS_DASH_CAP (xpsobjectmodel.h)
-description: Specifies the style of a dash cap on a dashed stroke.helpviewer_keywords: ["XPS_DASH_CAP","XPS_DASH_CAP enumeration [XPS Documents and Packaging]","XPS_DASH_CAP_FLAT","XPS_DASH_CAP_ROUND","XPS_DASH_CAP_SQUARE","XPS_DASH_CAP_TRIANGLE","xps.xps_dash_cap","xpsobjectmodel/XPS_DASH_CAP","xpsobjectmodel/XPS_DASH_CAP_FLAT","xpsobjectmodel/XPS_DASH_CAP_ROUND","xpsobjectmodel/XPS_DASH_CAP_SQUARE","xpsobjectmodel/XPS_DASH_CAP_TRIANGLE"]
+description: Specifies the style of a dash cap on a dashed stroke.
+helpviewer_keywords: ["XPS_DASH_CAP","XPS_DASH_CAP enumeration [XPS Documents and Packaging]","XPS_DASH_CAP_FLAT","XPS_DASH_CAP_ROUND","XPS_DASH_CAP_SQUARE","XPS_DASH_CAP_TRIANGLE","xps.xps_dash_cap","xpsobjectmodel/XPS_DASH_CAP","xpsobjectmodel/XPS_DASH_CAP_FLAT","xpsobjectmodel/XPS_DASH_CAP_ROUND","xpsobjectmodel/XPS_DASH_CAP_SQUARE","xpsobjectmodel/XPS_DASH_CAP_TRIANGLE"]
 old-location: xps\xps_dash_cap.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8c4d7314-71ad-4700-bc3e-f611e72c05df
 ms.date: 12/05/2018
 ms.keywords: XPS_DASH_CAP, XPS_DASH_CAP enumeration [XPS Documents and Packaging], XPS_DASH_CAP_FLAT, XPS_DASH_CAP_ROUND, XPS_DASH_CAP_SQUARE, XPS_DASH_CAP_TRIANGLE, xps.xps_dash_cap, xpsobjectmodel/XPS_DASH_CAP, xpsobjectmodel/XPS_DASH_CAP_FLAT, xpsobjectmodel/XPS_DASH_CAP_ROUND, xpsobjectmodel/XPS_DASH_CAP_SQUARE, xpsobjectmodel/XPS_DASH_CAP_TRIANGLE

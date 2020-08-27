@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device5.EnumerateMetaCommands
 title: ID3D12Device5::EnumerateMetaCommands (d3d12.h)
-description: Queries reflection metadata about available meta commands.helpviewer_keywords: ["EnumerateMetaCommands","EnumerateMetaCommands method","EnumerateMetaCommands method","ID3D12Device5 interface","ID3D12Device5 interface","EnumerateMetaCommands method","ID3D12Device5.EnumerateMetaCommands","ID3D12Device5::EnumerateMetaCommands","d3d12/ID3D12Device5::EnumerateMetaCommands","direct3d12.id3d12device5_enumeratemetacommands"]
+description: Queries reflection metadata about available meta commands.
+helpviewer_keywords: ["EnumerateMetaCommands","EnumerateMetaCommands method","EnumerateMetaCommands method","ID3D12Device5 interface","ID3D12Device5 interface","EnumerateMetaCommands method","ID3D12Device5.EnumerateMetaCommands","ID3D12Device5::EnumerateMetaCommands","d3d12/ID3D12Device5::EnumerateMetaCommands","direct3d12.id3d12device5_enumeratemetacommands"]
 old-location: direct3d12\id3d12device5_enumeratemetacommands.htm
 tech.root: direct3d12
 ms.assetid: 71A16704-487F-49AA-B229-61CCD15B3037
@@ -43,52 +44,31 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D12Device5::EnumerateMetaCommands
-
-
 ## -description
-
 
 Queries reflection metadata about available meta commands.
 
-
 ## -parameters
 
+### -param pNumMetaCommands
+
+Type: [in, out] <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+
+A pointer to a <a href="/windows/desktop/WinProg/windows-data-types">UINT</a> containing the number of meta commands to query for. This field determines the size of the <i>pDescs</i> array, unless <i>pDescs</i> is <b>nullptr</b>.
 
 
+### -param pDescs
 
-### -param pNumMetaCommands [in, out]
+Type: [out, optional] **[D3D12_META_COMMAND_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_meta_command_desc)\***
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a> containing the number of meta commands to query for. This field determines the size of the <i>pDescs</i> array, unless <i>pDescs</i> is <b>nullptr</b>.
-
-
-### -param pDescs [out, optional]
-
-Type: <b>D3D12_META_COMMAND_DESC*</b>
-
-An optional pointer to an array of  <a href="https://msdn.microsoft.com/0783068A-21D0-4316-9F50-8566535747C8">D3D12_META_COMMAND_DESC</a> containing the descriptions of the available meta commands. Pass <b>nullptr</b> to have the number of available meta commands returned in <i>pNumMetaCommands</i>.
-
+An optional pointer to an array of [D3D12_META_COMMAND_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_meta_command_desc) containing the descriptions of the available meta commands. Pass `nullptr` to have the number of available meta commands returned in <i>pNumMetaCommands</i>.
 
 ## -returns
 
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRESULT](/windows/win32/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
- 
-
- 
-

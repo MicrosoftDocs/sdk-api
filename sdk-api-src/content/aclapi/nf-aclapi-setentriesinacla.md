@@ -1,9 +1,10 @@
 ---
 UID: NF:aclapi.SetEntriesInAclA
 title: SetEntriesInAclA function (aclapi.h)
-description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure.helpviewer_keywords: ["SetEntriesInAcl","SetEntriesInAcl function [Security]","SetEntriesInAclA","SetEntriesInAclW","_win32_setentriesinacl","aclapi/SetEntriesInAcl","aclapi/SetEntriesInAclA","aclapi/SetEntriesInAclW","security.setentriesinacl"]
+description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure.
+helpviewer_keywords: ["SetEntriesInAcl","SetEntriesInAcl function [Security]","SetEntriesInAclA","SetEntriesInAclW","_win32_setentriesinacl","aclapi/SetEntriesInAcl","aclapi/SetEntriesInAclA","aclapi/SetEntriesInAclW","security.setentriesinacl"]
 old-location: security\setentriesinacl.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.date: 12/05/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
@@ -141,6 +142,10 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The aclapi.h header defines SetEntriesInAcl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

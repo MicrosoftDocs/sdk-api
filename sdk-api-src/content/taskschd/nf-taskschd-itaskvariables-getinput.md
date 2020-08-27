@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetInput
 title: ITaskVariables::GetInput (taskschd.h)
-description: Gets the input variables for a task.helpviewer_keywords: ["GetInput","GetInput method [Task Scheduler]","GetInput method [Task Scheduler]","ITaskVariables interface","ITaskVariables interface [Task Scheduler]","GetInput method","ITaskVariables.GetInput","ITaskVariables::GetInput","taskschd.itaskvariables_getinput","taskschd/ITaskVariables::GetInput"]
+description: Gets the input variables for a task.
+helpviewer_keywords: ["GetInput","GetInput method [Task Scheduler]","GetInput method [Task Scheduler]","ITaskVariables interface","ITaskVariables interface [Task Scheduler]","GetInput method","ITaskVariables.GetInput","ITaskVariables::GetInput","taskschd.itaskvariables_getinput","taskschd/ITaskVariables::GetInput"]
 old-location: taskschd\itaskvariables_getinput.htm
 tech.root: taskschd
 ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc

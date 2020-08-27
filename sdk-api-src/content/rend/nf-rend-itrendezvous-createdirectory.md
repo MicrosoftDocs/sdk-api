@@ -1,9 +1,10 @@
 ---
 UID: NF:rend.ITRendezvous.CreateDirectory
 title: ITRendezvous::CreateDirectory (rend.h)
-description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.helpviewer_keywords: ["CreateDirectory","CreateDirectory method [TAPI 2.2]","CreateDirectory method [TAPI 2.2]","ITRendezvous interface","ITRendezvous interface [TAPI 2.2]","CreateDirectory method","ITRendezvous.CreateDirectory","ITRendezvous::CreateDirectory","_tapi3_itrendezvous_createdirectory","rend/ITRendezvous::CreateDirectory","tapi3.itrendezvous_createdirectory"]
+description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
+helpviewer_keywords: ["CreateDirectory","CreateDirectory method [TAPI 2.2]","CreateDirectory method [TAPI 2.2]","ITRendezvous interface","ITRendezvous interface [TAPI 2.2]","CreateDirectory method","ITRendezvous.CreateDirectory","ITRendezvous::CreateDirectory","_tapi3_itrendezvous_createdirectory","rend/ITRendezvous::CreateDirectory","tapi3.itrendezvous_createdirectory"]
 old-location: tapi3\itrendezvous_createdirectory.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
 ms.date: 12/05/2018
 ms.keywords: CreateDirectory, CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectory method, ITRendezvous.CreateDirectory, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory

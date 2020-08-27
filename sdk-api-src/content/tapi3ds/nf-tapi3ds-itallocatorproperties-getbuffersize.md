@@ -1,9 +1,10 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.GetBufferSize
 title: ITAllocatorProperties::GetBufferSize (tapi3ds.h)
-description: The GetBufferSize method gets the size of the allocator buffer.helpviewer_keywords: ["GetBufferSize","GetBufferSize method [TAPI 2.2]","GetBufferSize method [TAPI 2.2]","ITAllocatorProperties interface","ITAllocatorProperties interface [TAPI 2.2]","GetBufferSize method","ITAllocatorProperties.GetBufferSize","ITAllocatorProperties::GetBufferSize","_tapi3_itallocatorproperties_getbuffersize","tapi3.itallocatorproperties_getbuffersize","tapi3ds/ITAllocatorProperties::GetBufferSize"]
+description: The GetBufferSize method gets the size of the allocator buffer.
+helpviewer_keywords: ["GetBufferSize","GetBufferSize method [TAPI 2.2]","GetBufferSize method [TAPI 2.2]","ITAllocatorProperties interface","ITAllocatorProperties interface [TAPI 2.2]","GetBufferSize method","ITAllocatorProperties.GetBufferSize","ITAllocatorProperties::GetBufferSize","_tapi3_itallocatorproperties_getbuffersize","tapi3.itallocatorproperties_getbuffersize","tapi3ds/ITAllocatorProperties::GetBufferSize"]
 old-location: tapi3\itallocatorproperties_getbuffersize.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c1571bbb-345b-4b62-acb2-67afda1c9c9b
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [TAPI 2.2], GetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetBufferSize method, ITAllocatorProperties.GetBufferSize, ITAllocatorProperties::GetBufferSize, _tapi3_itallocatorproperties_getbuffersize, tapi3.itallocatorproperties_getbuffersize, tapi3ds/ITAllocatorProperties::GetBufferSize

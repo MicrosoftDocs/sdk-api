@@ -4,7 +4,7 @@ title: GetDiskFreeSpaceExA function (fileapi.h)
 description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread.
 helpviewer_keywords: ["GetDiskFreeSpaceEx","GetDiskFreeSpaceEx function [Files]","GetDiskFreeSpaceExA","GetDiskFreeSpaceExW","_win32_getdiskfreespaceex","base.getdiskfreespaceex","fileapi/GetDiskFreeSpaceEx","fileapi/GetDiskFreeSpaceExA","fileapi/GetDiskFreeSpaceExW","fs.getdiskfreespaceex","winbase/GetDiskFreeSpaceEx","winbase/GetDiskFreeSpaceExA","winbase/GetDiskFreeSpaceExW"]
 old-location: fs\getdiskfreespaceex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.date: 12/05/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
@@ -144,6 +144,10 @@ Symbolic link behavior—If the path points to a symbolic link, the operation is
 
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetDiskFreeSpaceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

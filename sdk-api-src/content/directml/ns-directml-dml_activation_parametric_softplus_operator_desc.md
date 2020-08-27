@@ -1,9 +1,10 @@
 ---
 UID: NS:directml.DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC
 title: DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC
-description: Describes a DirectML operator that performs a parametric softplus activation function on every element in the input, f(x) = alpha * loge(1 + expe(beta * x)).helpviewer_keywords: ["DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC","DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC structure","direct3d12.dml_activation_parametric_softplus_operator_desc","directml/DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a parametric softplus activation function on every element in the input, f(x) = alpha * loge(1 + expe(beta * x)).
+helpviewer_keywords: ["DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC","DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC structure","direct3d12.dml_activation_parametric_softplus_operator_desc","directml/DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_parametric_softplus_operator_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: A7D73251-2EE0-4DCF-9BC0-12346DDBD2A9
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC, DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC structure, direct3d12.dml_activation_parametric_softplus_operator_desc, directml/DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC

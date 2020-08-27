@@ -1,9 +1,10 @@
 ---
 UID: NF:strmif.IPin.NewSegment
 title: IPin::NewSegment (strmif.h)
-description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment, with a common start time, stop time, and rate.helpviewer_keywords: ["IPin interface [DirectShow]","NewSegment method","IPin.NewSegment","IPin::NewSegment","IPinNewSegment","NewSegment","NewSegment method [DirectShow]","NewSegment method [DirectShow]","IPin interface","dshow.ipin_newsegment","strmif/IPin::NewSegment"]
+description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment, with a common start time, stop time, and rate.
+helpviewer_keywords: ["IPin interface [DirectShow]","NewSegment method","IPin.NewSegment","IPin::NewSegment","IPinNewSegment","NewSegment","NewSegment method [DirectShow]","NewSegment method [DirectShow]","IPin interface","dshow.ipin_newsegment","strmif/IPin::NewSegment"]
 old-location: dshow\ipin_newsegment.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 70c4bda0-3efa-4f85-b71e-174c4c80830c
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],NewSegment method, IPin.NewSegment, IPin::NewSegment, IPinNewSegment, NewSegment, NewSegment method [DirectShow], NewSegment method [DirectShow],IPin interface, dshow.ipin_newsegment, strmif/IPin::NewSegment

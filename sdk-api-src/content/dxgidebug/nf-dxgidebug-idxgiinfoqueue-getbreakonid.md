@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnID
 title: IDXGIInfoQueue::GetBreakOnID (dxgidebug.h)
-description: Determines whether the break on a message identifier is turned on or off.helpviewer_keywords: ["GetBreakOnID","GetBreakOnID method [DXGI]","GetBreakOnID method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetBreakOnID method","IDXGIInfoQueue.GetBreakOnID","IDXGIInfoQueue::GetBreakOnID","direct3ddxgi.idxgiinfoqueue_getbreakonid","dxgidebug/IDXGIInfoQueue::GetBreakOnID"]
+description: Determines whether the break on a message identifier is turned on or off.
+helpviewer_keywords: ["GetBreakOnID","GetBreakOnID method [DXGI]","GetBreakOnID method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetBreakOnID method","IDXGIInfoQueue.GetBreakOnID","IDXGIInfoQueue::GetBreakOnID","direct3ddxgi.idxgiinfoqueue_getbreakonid","dxgidebug/IDXGIInfoQueue::GetBreakOnID"]
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonid.htm
 tech.root: direct3ddxgi
 ms.assetid: A7DF79E0-137D-4CBD-AD03-B9BC4532D60F

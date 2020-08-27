@@ -1,9 +1,10 @@
 ---
 UID: NS:wincrypt._CERT_REQUEST_INFO
 title: CERT_REQUEST_INFO (wincrypt.h)
-description: The CERT_REQUEST_INFO structure contains information for a certificate request. The subject, subject public key, and attribute BLOBs are encoded.helpviewer_keywords: ["*PCERT_REQUEST_INFO","CERT_REQUEST_INFO","CERT_REQUEST_INFO structure [Security]","CERT_V1","PCERT_REQUEST_INFO","PCERT_REQUEST_INFO structure pointer [Security]","_crypto2_cert_request_info","security.cert_request_info","wincrypt/CERT_REQUEST_INFO","wincrypt/PCERT_REQUEST_INFO"]
+description: The CERT_REQUEST_INFO structure contains information for a certificate request. The subject, subject public key, and attribute BLOBs are encoded.
+helpviewer_keywords: ["*PCERT_REQUEST_INFO","CERT_REQUEST_INFO","CERT_REQUEST_INFO structure [Security]","CERT_V1","PCERT_REQUEST_INFO","PCERT_REQUEST_INFO structure pointer [Security]","_crypto2_cert_request_info","security.cert_request_info","wincrypt/CERT_REQUEST_INFO","wincrypt/PCERT_REQUEST_INFO"]
 old-location: security\cert_request_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6edeed33-16e1-4295-90e9-769929ab916a
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_REQUEST_INFO, CERT_REQUEST_INFO, CERT_REQUEST_INFO structure [Security], CERT_V1, PCERT_REQUEST_INFO, PCERT_REQUEST_INFO structure pointer [Security], _crypto2_cert_request_info, security.cert_request_info, wincrypt/CERT_REQUEST_INFO, wincrypt/PCERT_REQUEST_INFO'

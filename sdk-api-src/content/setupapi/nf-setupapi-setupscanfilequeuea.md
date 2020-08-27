@@ -1,9 +1,10 @@
 ---
 UID: NF:setupapi.SetupScanFileQueueA
 title: SetupScanFileQueueA function (setupapi.h)
-description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.helpviewer_keywords: ["SPQ_SCAN_FILE_PRESENCE","SPQ_SCAN_FILE_VALIDITY","SPQ_SCAN_INFORM_USER","SPQ_SCAN_PRUNE_COPY_QUEUE","SPQ_SCAN_PRUNE_DELREN","SPQ_SCAN_USE_CALLBACK","SPQ_SCAN_USE_CALLBACKEX","SPQ_SCAN_USE_CALLBACK_SIGNERINFO","SetupScanFileQueue","SetupScanFileQueue function [Setup API]","SetupScanFileQueueA","SetupScanFileQueueW","_setupapi_setupscanfilequeue","setup.setupscanfilequeue","setupapi/SetupScanFileQueue","setupapi/SetupScanFileQueueA","setupapi/SetupScanFileQueueW"]
+description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
+helpviewer_keywords: ["SPQ_SCAN_FILE_PRESENCE","SPQ_SCAN_FILE_VALIDITY","SPQ_SCAN_INFORM_USER","SPQ_SCAN_PRUNE_COPY_QUEUE","SPQ_SCAN_PRUNE_DELREN","SPQ_SCAN_USE_CALLBACK","SPQ_SCAN_USE_CALLBACKEX","SPQ_SCAN_USE_CALLBACK_SIGNERINFO","SetupScanFileQueue","SetupScanFileQueue function [Setup API]","SetupScanFileQueueA","SetupScanFileQueueW","_setupapi_setupscanfilequeue","setup.setupscanfilequeue","setupapi/SetupScanFileQueue","setupapi/SetupScanFileQueueA","setupapi/SetupScanFileQueueW"]
 old-location: setup\setupscanfilequeue.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 4d59bb19-bb4a-4a24-814b-322e46e40fab
 ms.date: 12/05/2018
 ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USER, SPQ_SCAN_PRUNE_COPY_QUEUE, SPQ_SCAN_PRUNE_DELREN, SPQ_SCAN_USE_CALLBACK, SPQ_SCAN_USE_CALLBACKEX, SPQ_SCAN_USE_CALLBACK_SIGNERINFO, SetupScanFileQueue, SetupScanFileQueue function [Setup API], SetupScanFileQueueA, SetupScanFileQueueW, _setupapi_setupscanfilequeue, setup.setupscanfilequeue, setupapi/SetupScanFileQueue, setupapi/SetupScanFileQueueA, setupapi/SetupScanFileQueueW
@@ -277,4 +278,9 @@ The function returns zero if an error occurred or the callback function returned
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupScanFileQueue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

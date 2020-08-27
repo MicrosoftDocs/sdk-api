@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetProtocol
 title: IBackgroundCopyError::GetProtocol (bits.h)
-description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.helpviewer_keywords: ["GetProtocol","GetProtocol method [BITS]","GetProtocol method [BITS]","IBackgroundCopyError interface","IBackgroundCopyError interface [BITS]","GetProtocol method","IBackgroundCopyError.GetProtocol","IBackgroundCopyError::GetProtocol","_drz_ibackgroundcopyerror_getprotocol","bits.ibackgroundcopyerror_getprotocol","bits/IBackgroundCopyError::GetProtocol"]
+description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
+helpviewer_keywords: ["GetProtocol","GetProtocol method [BITS]","GetProtocol method [BITS]","IBackgroundCopyError interface","IBackgroundCopyError interface [BITS]","GetProtocol method","IBackgroundCopyError.GetProtocol","IBackgroundCopyError::GetProtocol","_drz_ibackgroundcopyerror_getprotocol","bits.ibackgroundcopyerror_getprotocol","bits/IBackgroundCopyError::GetProtocol"]
 old-location: bits\ibackgroundcopyerror_getprotocol.htm
 tech.root: Bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb

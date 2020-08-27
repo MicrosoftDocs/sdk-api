@@ -4,7 +4,7 @@ title: PeerCollabGetEventData function (p2p.h)
 description: Obtains the data associated with a peer collaboration event raised on the peer.
 helpviewer_keywords: ["PeerCollabGetEventData","PeerCollabGetEventData function [Peer Networking]","p2p.peercollabgeteventdata","p2p/PeerCollabGetEventData"]
 old-location: p2p\peercollabgeteventdata.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: ee410a47-91a6-48ed-8c05-128a141a5c98
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetEventData, PeerCollabGetEventData function [Peer Networking], p2p.peercollabgeteventdata, p2p/PeerCollabGetEventData

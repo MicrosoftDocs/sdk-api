@@ -1,9 +1,10 @@
 ---
 UID: NF:msi.MsiProcessAdvertiseScriptA
 title: MsiProcessAdvertiseScriptA function (msi.h)
-description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.helpviewer_keywords: ["MsiProcessAdvertiseScript","MsiProcessAdvertiseScript function","MsiProcessAdvertiseScriptA","MsiProcessAdvertiseScriptW","_msi_msiprocessadvertisescript","msi/MsiProcessAdvertiseScript","msi/MsiProcessAdvertiseScriptA","msi/MsiProcessAdvertiseScriptW","setup.msiprocessadvertisescript"]
+description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
+helpviewer_keywords: ["MsiProcessAdvertiseScript","MsiProcessAdvertiseScript function","MsiProcessAdvertiseScriptA","MsiProcessAdvertiseScriptW","_msi_msiprocessadvertisescript","msi/MsiProcessAdvertiseScript","msi/MsiProcessAdvertiseScriptA","msi/MsiProcessAdvertiseScriptW","setup.msiprocessadvertisescript"]
 old-location: setup\msiprocessadvertisescript.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
 ms.date: 12/05/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript
@@ -170,4 +171,8 @@ This function is not available for this platform.
 The process calling this function must be running under the LocalSystem account. To advertise an application for per-user installation to a targeted user, the thread that calls this function must impersonate the targeted user. If the thread calling this function is not impersonating a targeted user, the application is advertised to all users for installation with elevated privileges.
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiProcessAdvertiseScript as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

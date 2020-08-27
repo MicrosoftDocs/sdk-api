@@ -1,9 +1,10 @@
 ---
 UID: NN:wsdbase.IWSDHttpMessageParameters
 title: IWSDHttpMessageParameters (wsdbase.h)
-description: Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.helpviewer_keywords: ["IWSDHttpMessageParameters","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","described","ncd.iwsdhttpmessageparameters","wsdbase/IWSDHttpMessageParameters"]
+description: Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.
+helpviewer_keywords: ["IWSDHttpMessageParameters","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","described","ncd.iwsdhttpmessageparameters","wsdbase/IWSDHttpMessageParameters"]
 old-location: ncd\iwsdhttpmessageparameters.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters

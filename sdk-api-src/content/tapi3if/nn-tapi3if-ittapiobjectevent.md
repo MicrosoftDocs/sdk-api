@@ -1,9 +1,10 @@
 ---
 UID: NN:tapi3if.ITTAPIObjectEvent
 title: ITTAPIObjectEvent (tapi3if.h)
-description: The ITTAPIObjectEvent interface contains methods that retrieve the description of TAPI object events.helpviewer_keywords: ["ITTAPIObjectEvent","ITTAPIObjectEvent interface [TAPI 2.2]","ITTAPIObjectEvent interface [TAPI 2.2]","described","_tapi3_ittapiobjectevent","tapi3.ittapiobjectevent","tapi3if/ITTAPIObjectEvent"]
+description: The ITTAPIObjectEvent interface contains methods that retrieve the description of TAPI object events.
+helpviewer_keywords: ["ITTAPIObjectEvent","ITTAPIObjectEvent interface [TAPI 2.2]","ITTAPIObjectEvent interface [TAPI 2.2]","described","_tapi3_ittapiobjectevent","tapi3.ittapiobjectevent","tapi3if/ITTAPIObjectEvent"]
 old-location: tapi3\ittapiobjectevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 73be7109-0d3a-4ac5-adb7-e1577d8640b5
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent, ITTAPIObjectEvent interface [TAPI 2.2], ITTAPIObjectEvent interface [TAPI 2.2],described, _tapi3_ittapiobjectevent, tapi3.ittapiobjectevent, tapi3if/ITTAPIObjectEvent

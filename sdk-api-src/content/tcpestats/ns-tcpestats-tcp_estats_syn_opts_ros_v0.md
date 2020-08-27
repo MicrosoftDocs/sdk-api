@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SYN_OPTS_ROS_v0
 title: TCP_ESTATS_SYN_OPTS_ROS_v0 (tcpestats.h)
-description: Contains read-only static information for extended TCP statistics on SYN exchange for a TCP connection.helpviewer_keywords: ["*PTCP_ESTATS_SYN_OPTS_ROS_v0","PTCP_ESTATS_SYN_OPTS_ROS_v0","PTCP_ESTATS_SYN_OPTS_ROS_v0 structure pointer [IP Helper]","TCP_ESTATS_SYN_OPTS_ROS_v0","TCP_ESTATS_SYN_OPTS_ROS_v0 structure [IP Helper]","iphlp.tcp_estats_syn_opts_ros_v0","tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0","tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0"]
+description: Contains read-only static information for extended TCP statistics on SYN exchange for a TCP connection.
+helpviewer_keywords: ["*PTCP_ESTATS_SYN_OPTS_ROS_v0","PTCP_ESTATS_SYN_OPTS_ROS_v0","PTCP_ESTATS_SYN_OPTS_ROS_v0 structure pointer [IP Helper]","TCP_ESTATS_SYN_OPTS_ROS_v0","TCP_ESTATS_SYN_OPTS_ROS_v0 structure [IP Helper]","iphlp.tcp_estats_syn_opts_ros_v0","tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0","tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0"]
 old-location: iphlp\tcp_estats_syn_opts_ros_v0.htm
 tech.root: IpHlp
 ms.assetid: e183b23c-ce87-4818-b6d6-2305a3aa345d

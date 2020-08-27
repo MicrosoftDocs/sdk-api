@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataProvider.Query
 title: ITraceDataProvider::Query (pla.h)
-description: Retrieves details about a registered provider.helpviewer_keywords: ["ITraceDataProvider interface [PLA]","Query method","ITraceDataProvider.Query","ITraceDataProvider::Query","Query","Query method [PLA]","Query method [PLA]","ITraceDataProvider interface","base.itracedataprovider_query","pla.itracedataprovider_query","pla/ITraceDataProvider::Query"]
+description: Retrieves details about a registered provider.
+helpviewer_keywords: ["ITraceDataProvider interface [PLA]","Query method","ITraceDataProvider.Query","ITraceDataProvider::Query","Query","Query method [PLA]","Query method [PLA]","ITraceDataProvider interface","base.itracedataprovider_query","pla.itracedataprovider_query","pla/ITraceDataProvider::Query"]
 old-location: pla\itracedataprovider_query.htm
 tech.root: PLA
 ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc

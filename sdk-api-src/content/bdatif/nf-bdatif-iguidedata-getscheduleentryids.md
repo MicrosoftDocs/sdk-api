@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IGuideData.GetScheduleEntryIDs
 title: IGuideData::GetScheduleEntryIDs (bdatif.h)
-description: The GetScheduleEntryIDs method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.helpviewer_keywords: ["GetScheduleEntryIDs","GetScheduleEntryIDs method [Microsoft TV Technologies]","GetScheduleEntryIDs method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetScheduleEntryIDs method","IGuideData.GetScheduleEntryIDs","IGuideData::GetScheduleEntryIDs","IGuideDataGetScheduleEntryIDs","bdatif/IGuideData::GetScheduleEntryIDs","mstv.iguidedata_getscheduleentryids"]
+description: The GetScheduleEntryIDs method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
+helpviewer_keywords: ["GetScheduleEntryIDs","GetScheduleEntryIDs method [Microsoft TV Technologies]","GetScheduleEntryIDs method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetScheduleEntryIDs method","IGuideData.GetScheduleEntryIDs","IGuideData::GetScheduleEntryIDs","IGuideDataGetScheduleEntryIDs","bdatif/IGuideData::GetScheduleEntryIDs","mstv.iguidedata_getscheduleentryids"]
 old-location: mstv\iguidedata_getscheduleentryids.htm
 tech.root: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933

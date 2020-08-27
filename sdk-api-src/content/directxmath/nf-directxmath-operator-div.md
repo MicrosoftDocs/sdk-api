@@ -1,7 +1,9 @@
 ---
 UID: NF:directxmath.operator-div
 title: operator/
-description: Divides one instance of XMVECTOR by a second instance, returning the result in a third instance.helpviewer_keywords: ["operator/"]
+description: Divides one instance of XMVECTOR by a second instance, returning the result in a third instance.
+tech.root: dxmath
+helpviewer_keywords: ["operator/"]
 ms.assetid: cafe86b4-d127-4d51-a1c9-97bddf0f4648
 ms.date: 05/13/2019
 ms.keywords: operator/

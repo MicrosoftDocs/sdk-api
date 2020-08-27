@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMenuItemCount
 title: GetMenuItemCount function (winuser.h)
-description: Determines the number of items in the specified menu.helpviewer_keywords: ["GetMenuItemCount","GetMenuItemCount function [Menus and Other Resources]","_win32_GetMenuItemCount","_win32_getmenuitemcount_cpp","menurc.getmenuitemcount","winui._win32_getmenuitemcount","winuser/GetMenuItemCount"]
+description: Determines the number of items in the specified menu.
+helpviewer_keywords: ["GetMenuItemCount","GetMenuItemCount function [Menus and Other Resources]","_win32_GetMenuItemCount","_win32_getmenuitemcount_cpp","menurc.getmenuitemcount","winui._win32_getmenuitemcount","winuser/GetMenuItemCount"]
 old-location: menurc\getmenuitemcount.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemcount.htm

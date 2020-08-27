@@ -1,9 +1,10 @@
 ---
 UID: NF:prntvpt.PTGetPrintDeviceCapabilities
 title: PTGetPrintDeviceCapabilities function (prntvpt.h)
-description: Retrieves the device printer's capabilities formatted in compliance with the XML Print Schema.helpviewer_keywords: ["PTGetPrintDeviceCapabilities","PTGetPrintDeviceCapabilities function [XPS Documents and Packaging]","prntvpt/PTGetPrintDeviceCapabilities","xps.ptgetprintdevicecapabilities"]
+description: Retrieves the device printer's capabilities formatted in compliance with the XML Print Schema.
+helpviewer_keywords: ["PTGetPrintDeviceCapabilities","PTGetPrintDeviceCapabilities function [XPS Documents and Packaging]","prntvpt/PTGetPrintDeviceCapabilities","xps.ptgetprintdevicecapabilities"]
 old-location: xps\ptgetprintdevicecapabilities.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: DB9D63B1-2703-47F7-8F31-30FA0110E1E9
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities

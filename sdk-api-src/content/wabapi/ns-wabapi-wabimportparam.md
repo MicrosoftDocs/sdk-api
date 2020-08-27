@@ -1,7 +1,8 @@
 ---
 UID: NS:wabapi._WABIMPORTPARAM
 title: WABIMPORTPARAM (wabapi.h)
-description: Do not use. Structure passed to Import that gives information about importing .wab files.helpviewer_keywords: ["*LPWABIMPORTPARAM","LPWABIMPORTPARAM","LPWABIMPORTPARAM structure pointer [Windows Address Book]","MAPI_DIALOG","WABIMPORTPARAM","WABIMPORTPARAM structure [Windows Address Book]","_wab_WABIMPORTPARAM","wab._wab_WABIMPORTPARAM","wabapi/LPWABIMPORTPARAM","wabapi/WABIMPORTPARAM"]
+description: Do not use. Structure passed to Import that gives information about importing .wab files.
+helpviewer_keywords: ["*LPWABIMPORTPARAM","LPWABIMPORTPARAM","LPWABIMPORTPARAM structure pointer [Windows Address Book]","MAPI_DIALOG","WABIMPORTPARAM","WABIMPORTPARAM structure [Windows Address Book]","_wab_WABIMPORTPARAM","wab._wab_WABIMPORTPARAM","wabapi/LPWABIMPORTPARAM","wabapi/WABIMPORTPARAM"]
 old-location: wab\_wab_WABIMPORTPARAM.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabimportparam.htm
@@ -97,7 +98,7 @@ Type: <b>LPSTR</b>
 Value of type <b>LPSTR</b> that specifies the filename to import, or <b>NULL</b> to cause a FileOpen dialog box to open.
 
 
-#### - hwnd
+### -field hwnd
 
 Type: <b>HWND</b>
 

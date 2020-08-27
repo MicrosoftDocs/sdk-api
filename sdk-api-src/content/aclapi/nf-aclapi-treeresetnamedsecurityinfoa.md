@@ -4,7 +4,7 @@ title: TreeResetNamedSecurityInfoA function (aclapi.h)
 description: Resets specified security information in the security descriptor of a specified tree of objects.
 helpviewer_keywords: ["TreeResetNamedSecurityInfo","TreeResetNamedSecurityInfo function [Security]","TreeResetNamedSecurityInfoA","TreeResetNamedSecurityInfoW","aclapi/TreeResetNamedSecurityInfo","aclapi/TreeResetNamedSecurityInfoA","aclapi/TreeResetNamedSecurityInfoW","security.treeresetnamedsecurityinfo"]
 old-location: security\treeresetnamedsecurityinfo.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: adae7d07-a452-409e-b1a1-e9f86f873e39
 ms.date: 12/05/2018
 ms.keywords: TreeResetNamedSecurityInfo, TreeResetNamedSecurityInfo function [Security], TreeResetNamedSecurityInfoA, TreeResetNamedSecurityInfoW, aclapi/TreeResetNamedSecurityInfo, aclapi/TreeResetNamedSecurityInfoA, aclapi/TreeResetNamedSecurityInfoW, security.treeresetnamedsecurityinfo
@@ -165,4 +165,8 @@ This function is similar to the <a href="https://docs.microsoft.com/windows/desk
 <li>If the <i>KeepExplicit</i> parameter of <b>TreeResetNamedSecurityInfo</b> is set to <b>FALSE</b>, then the function is equivalent to  <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> with the  <i>dwAction</i>parameter set to  TREE_SEC_INFO_RESET.</li>
 </ul>
 
+
+
+> [!NOTE]
+> The aclapi.h header defines TreeResetNamedSecurityInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

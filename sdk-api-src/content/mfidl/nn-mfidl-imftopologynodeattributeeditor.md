@@ -1,9 +1,10 @@
 ---
 UID: NN:mfidl.IMFTopologyNodeAttributeEditor
 title: IMFTopologyNodeAttributeEditor (mfidl.h)
-description: Updates the attributes of one or more nodes in the Media Session's current topology.helpviewer_keywords: ["9ab384b9-0ce9-428c-a683-b09dbd4e07d9","IMFTopologyNodeAttributeEditor","IMFTopologyNodeAttributeEditor interface [Media Foundation]","IMFTopologyNodeAttributeEditor interface [Media Foundation]","described","mf.imftopologynodeattributeeditor","mfidl/IMFTopologyNodeAttributeEditor"]
+description: Updates the attributes of one or more nodes in the Media Session's current topology.
+helpviewer_keywords: ["9ab384b9-0ce9-428c-a683-b09dbd4e07d9","IMFTopologyNodeAttributeEditor","IMFTopologyNodeAttributeEditor interface [Media Foundation]","IMFTopologyNodeAttributeEditor interface [Media Foundation]","described","mf.imftopologynodeattributeeditor","mfidl/IMFTopologyNodeAttributeEditor"]
 old-location: mf\imftopologynodeattributeeditor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9
 ms.date: 12/05/2018
 ms.keywords: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9, IMFTopologyNodeAttributeEditor, IMFTopologyNodeAttributeEditor interface [Media Foundation], IMFTopologyNodeAttributeEditor interface [Media Foundation],described, mf.imftopologynodeattributeeditor, mfidl/IMFTopologyNodeAttributeEditor

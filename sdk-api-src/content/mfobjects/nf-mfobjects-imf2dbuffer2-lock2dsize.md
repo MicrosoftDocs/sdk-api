@@ -1,9 +1,10 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Lock2DSize
 title: IMF2DBuffer2::Lock2DSize (mfobjects.h)
-description: Gives the caller access to the memory in the buffer.helpviewer_keywords: ["IMF2DBuffer2 interface [Media Foundation]","Lock2DSize method","IMF2DBuffer2.Lock2DSize","IMF2DBuffer2::Lock2DSize","Lock2DSize","Lock2DSize method [Media Foundation]","Lock2DSize method [Media Foundation]","IMF2DBuffer2 interface","mf.imf2dbuffer2_lock2dsize","mfobjects/IMF2DBuffer2::Lock2DSize"]
+description: Gives the caller access to the memory in the buffer.
+helpviewer_keywords: ["IMF2DBuffer2 interface [Media Foundation]","Lock2DSize method","IMF2DBuffer2.Lock2DSize","IMF2DBuffer2::Lock2DSize","Lock2DSize","Lock2DSize method [Media Foundation]","Lock2DSize method [Media Foundation]","IMF2DBuffer2 interface","mf.imf2dbuffer2_lock2dsize","mfobjects/IMF2DBuffer2::Lock2DSize"]
 old-location: mf\imf2dbuffer2_lock2dsize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 84885FEF-7F6D-4BE3-BF63-F9EC0C7E2D88
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DBuffer2.Lock2DSize, IMF2DBuffer2::Lock2DSize, Lock2DSize, Lock2DSize method [Media Foundation], Lock2DSize method [Media Foundation],IMF2DBuffer2 interface, mf.imf2dbuffer2_lock2dsize, mfobjects/IMF2DBuffer2::Lock2DSize
@@ -160,7 +161,7 @@ The <i>lockFlags</i> parameter specifies whether the buffer is locked for read-o
 <ul>
 <li>If the buffer is already locked for read-only access, it cannot be locked for write access.</li>
 <li>If the buffer is already locked for write-only access, it cannot be locked for read access.</li>
-<li>If the buffer is already locked for read/write acess, it can be locked for read or write acess.</li>
+<li>If the buffer is already locked for read/write access, it can be locked for read or write access.</li>
 </ul>
 When possible, use a read-only or write-only lock, and avoid locking the buffer for read/write access. If the buffer represents a DirectX Graphics Infrastructure (DXGI) surface, a read/write lock can cause an extra copy between CPU memory and GPU memory.
 
@@ -174,6 +175,3 @@ When possible, use a read-only or write-only lock, and avoid locking the buffer 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>
  
-
- 
-
