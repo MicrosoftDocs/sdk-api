@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary1.LoadPipeline
 title: ID3D12PipelineLibrary1::LoadPipeline (d3d12.h)
-description: Retrieves the requested PSO from the library. The pipeline stream description is matched against the library database and remembered in order to prevent duplication of PSO contents.helpviewer_keywords: ["ID3D12PipelineLibrary1 interface","LoadPipeline method","ID3D12PipelineLibrary1.LoadPipeline","ID3D12PipelineLibrary1::LoadPipeline","LoadPipeline","LoadPipeline method","LoadPipeline method","ID3D12PipelineLibrary1 interface","d3d12/ID3D12PipelineLibrary1::LoadPipeline","direct3d12.id3d12pipelinelibrary1_loadpipeline"]
+description: Retrieves the requested PSO from the library. The pipeline stream description is matched against the library database and remembered in order to prevent duplication of PSO contents.
+helpviewer_keywords: ["ID3D12PipelineLibrary1 interface","LoadPipeline method","ID3D12PipelineLibrary1.LoadPipeline","ID3D12PipelineLibrary1::LoadPipeline","LoadPipeline","LoadPipeline method","LoadPipeline method","ID3D12PipelineLibrary1 interface","d3d12/ID3D12PipelineLibrary1::LoadPipeline","direct3d12.id3d12pipelinelibrary1_loadpipeline"]
 old-location: direct3d12\id3d12pipelinelibrary1_loadpipeline.htm
 tech.root: direct3d12
 ms.assetid: 842092FF-906D-4595-8C43-07F0349CA1A3
@@ -116,6 +117,7 @@ This function takes the pipeline description as a <a href="https://docs.microsof
 ## -see-also
 
 
+See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behaviour of a streaming pipeline desc.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary1">ID3D12PipelineLibrary1</a>
