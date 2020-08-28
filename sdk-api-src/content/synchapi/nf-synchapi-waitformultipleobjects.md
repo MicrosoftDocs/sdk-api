@@ -138,7 +138,7 @@ If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of 
 
 
 
-If <i>bWaitAll</i> is <b>FALSE</b>, the return value minus <b>WAIT_ABANDONED_0</b> indicates the <i>lpHandles</i> array index of an abandoned mutex object that satisfied the wait. Ownership of the mutex object is granted to the calling thread, and the mutex is set to nonsignaled.
+If <i>bWaitAll</i> is <b>FALSE</b>, the return value minus [WAIT_ABANDONED_0](nf-synchapi-waitforsingleobject.md) indicates the <i>lpHandles</i> array index of an abandoned mutex object that satisfied the wait. Ownership of the mutex object is granted to the calling thread, and the mutex is set to nonsignaled.
 
 If a mutex was protecting persistent state information, you should check it for consistency.
 
@@ -226,6 +226,7 @@ For an example, see
 ## -see-also
 
 
+<a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject">WAIT_ABANDONED_0</a>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
