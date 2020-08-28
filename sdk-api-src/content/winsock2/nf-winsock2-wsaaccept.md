@@ -385,7 +385,7 @@ int main() {
     /*-----------------------------------------  
      *  Set up the sock addr structure that the listening socket
      *  will be bound to. In this case, the structure holds the
-     */ local IP address and the port specified.
+     * local IP address and the port specified. */
     service.sin_family = AF_INET;
     service.sin_port = htons(port);
     hostent* thisHost;
@@ -395,7 +395,7 @@ int main() {
 
     /*-----------------------------------------
      *  Bind the listening socket to the IP address.
-     */ and port number specified by the sockaddr structure.
+     * and port number specified by the sockaddr structure. */
     error = bind(ListenSocket, (SOCKADDR *) &service, sizeof(SOCKADDR));
     if (error == SOCKET_ERROR) {  
         printf("bind() failed with error: %d\n", WSAGetLastError() );
@@ -417,14 +417,14 @@ int main() {
     /*-----------------------------------------
      *  Accept an incoming connnection request on the
      *  listening socket and transfer control to the 
-     */ accepting socket.
+     * accepting socket. */
     AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &saClient, &iClientSize, 
         &ConditionAcceptFunc, NULL);
  
     /*  Now do some work with the AcceptSocket 
      *  At this point, the application could
      *  handle data transfer on the socket, or other socket
-     */ functionality./
+     * functionality.*/
     
     /* Then clean up and quit */
 
