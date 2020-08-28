@@ -68,7 +68,7 @@ The type of raw input. It can be one of the following values:
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes [RAWINPUT](ns-winuser-rawinput.md) plus possible extra input records in the [RAWHID](ns-winuser-rawhid.md) variable length array. 
+The size, in bytes, of the entire input packet of data. This includes [RAWINPUT](ns-winuser-rawinput.md) plus possible extra input reports in the [RAWHID](ns-winuser-rawhid.md) variable length array. 
 
 ### -field hDevice
 
