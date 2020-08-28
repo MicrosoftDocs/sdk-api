@@ -79,7 +79,7 @@ Specifies the attribute. The only supported attribute is state. <b>uChanged</b> 
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>TVIF_STATE</dt>
 </dl>
 </td>

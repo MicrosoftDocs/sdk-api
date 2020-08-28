@@ -124,9 +124,9 @@ Encrypts the credential in a CRED_GENERIC buffer.
 
 A pointer to a null-terminated string that specifies the user name to be converted. For domain users, the string must be in the following format:
 
-<i>DomainName</i><b>\</b><i>UserName</i>
+<i>DomainName</i><b>\\</b><i>UserName</i>
 
-For online identities, if the credential is a plaintext password, the user name format is <i>ProviderName</i><b>\</b><i>UserName</i>. If the credential is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the user name is an encoded string that is the <i>UserName</i> parameter output of a function call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencodeauthidentityasstrings">SspiEncodeAuthIdentityAsStrings</a>.
+For online identities, if the credential is a plaintext password, the user name format is <i>ProviderName</i><b>\\</b><i>UserName</i>. If the credential is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the user name is an encoded string that is the <i>UserName</i> parameter output of a function call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencodeauthidentityasstrings">SspiEncodeAuthIdentityAsStrings</a>.
 
 For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> or certificate credentials, the user name is an encoded string that is the output of a function call to <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with the CertCredential option.
 

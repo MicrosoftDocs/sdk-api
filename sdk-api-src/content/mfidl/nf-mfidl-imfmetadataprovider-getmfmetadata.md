@@ -67,7 +67,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-
 
 ### -param dwStreamIdentifier [in]
 
-If this parameter is zero, the method retrieves metadata that applies to the entire presentation. Otherwise, this <i></i> parameter specifies a stream identifier, and the method retrieves metadata for that stream. To get the stream identifier for a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a>.
+If this parameter is zero, the method retrieves metadata that applies to the entire presentation. Otherwise, this  parameter specifies a stream identifier, and the method retrieves metadata for that stream. To get the stream identifier for a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a>.
           
 
 

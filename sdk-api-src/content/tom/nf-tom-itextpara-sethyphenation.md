@@ -71,7 +71,7 @@ Indicates how hyphenation is controlled. It can be one of the following possible
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomTrue</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Automatic hyphenation is enabled.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomFalse</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ Automatic hyphenation is disabled.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomUndefined</dt>
 </dl>
 </td>

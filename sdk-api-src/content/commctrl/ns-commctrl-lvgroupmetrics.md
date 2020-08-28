@@ -78,7 +78,7 @@ Flags that specify which members contain or are to receive valid data. Can be on
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGMF_BORDERCOLOR</dt>
 </dl>
 </td>
@@ -89,7 +89,7 @@ Not implemented.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGMF_BORDERSIZE</dt>
 </dl>
 </td>
@@ -100,7 +100,7 @@ The <b>Left</b>, <b>Top</b>, <b>Right</b>, and <b>Bottom</b> members are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGMF_NONE</dt>
 </dl>
 </td>
@@ -111,7 +111,7 @@ No members are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGMF_TEXTCOLOR</dt>
 </dl>
 </td>

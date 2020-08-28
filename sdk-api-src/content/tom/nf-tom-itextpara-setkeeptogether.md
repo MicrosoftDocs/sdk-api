@@ -71,7 +71,7 @@ Indicates whether page breaks are allowed within a paragraph in a range. It can 
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomTrue</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Page breaks are not allowed within a paragraph.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomFalse</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ Page breaks are allowed within a paragraph.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomUndefined</dt>
 </dl>
 </td>

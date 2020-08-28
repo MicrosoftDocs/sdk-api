@@ -231,7 +231,7 @@ One or more of the following parameters is <b>NULL</b>.
 
 <i>pcchMIMEType</i>
 
-<b><i></i></b>
+
 
 <i>pcbImageData</i>
 

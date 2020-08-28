@@ -151,7 +151,7 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
 
 
 
-<b></b>
+
 
 
 

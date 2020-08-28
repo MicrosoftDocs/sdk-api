@@ -117,7 +117,7 @@ When MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mm
 
 ### -field szActionURL
 
-Used only if eActionType<b></b> is <b>MMC_ACTION_LINK</b>.
+Used only if eActionType is <b>MMC_ACTION_LINK</b>.
 
 [out] A pointer to a null-terminated string that contains the URL to which the task links. The URL must be fully qualified. The string can also contain a script instead of a URL.
 

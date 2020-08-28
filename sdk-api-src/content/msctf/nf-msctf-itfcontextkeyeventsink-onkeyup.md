@@ -58,7 +58,7 @@ Called when a key up event occurs.
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the wPa<i></i>ram parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the wParam parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 
 ### -param lParam [in]

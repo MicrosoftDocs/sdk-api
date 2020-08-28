@@ -71,7 +71,7 @@ Combination of one or more of the following flags, describing the information to
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIF_ITEMINDEX</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Retrieve the numeric item index. Items are always accessed by index, therefore y
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIF_STATE</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ Use <b>stateMask</b>  to get or set the state of the link.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIF_ITEMID</dt>
 </dl>
 </td>
@@ -104,7 +104,7 @@ Specify the item by the ID value given in <b>szID</b>.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIF_URL</dt>
 </dl>
 </td>
@@ -137,7 +137,7 @@ Combination of one or more of the following flags, describing the state of the i
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIS_ENABLED</dt>
 </dl>
 </td>
@@ -148,7 +148,7 @@ The link can respond to user input. This is the default unless the entire contro
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIS_FOCUSED</dt>
 </dl>
 </td>
@@ -159,7 +159,7 @@ The link has the keyboard focus. Pressing ENTER sends an NM_CLICK notification.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIS_VISITED</dt>
 </dl>
 </td>
@@ -170,7 +170,7 @@ The link has been visited by the user. Changing the URL to one that has not been
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIS_HOTTRACK</dt>
 </dl>
 </td>
@@ -181,7 +181,7 @@ The link has been visited by the user. Changing the URL to one that has not been
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LIS_DEFAULTCOLORS</dt>
 </dl>
 </td>

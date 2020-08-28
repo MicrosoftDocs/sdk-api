@@ -530,7 +530,7 @@ The state. The only valid, supported value for this member is the following:
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>HDIS_FOCUSED</dt>
 </dl>
 </td>

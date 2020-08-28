@@ -88,7 +88,7 @@ The relationship to the item specified in parameter
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>Searches by index.</dt>
 </dl>
 </td>
@@ -96,7 +96,7 @@ The relationship to the item specified in parameter
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_ALL</dt>
 </dl>
 </td>
@@ -109,7 +109,7 @@ Searches for a subsequent item by index, the default value.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>Searches by physical relationship to the index of the item where the search is to begin.</dt>
 </dl>
 </td>
@@ -117,7 +117,7 @@ Searches for a subsequent item by index, the default value.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_ABOVE</dt>
 </dl>
 </td>
@@ -128,7 +128,7 @@ Searches for an item that is above the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_BELOW</dt>
 </dl>
 </td>
@@ -139,7 +139,7 @@ Searches for an item that is below the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_TOLEFT</dt>
 </dl>
 </td>
@@ -150,7 +150,7 @@ Searches for an item to the left of the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_PREVIOUS</dt>
 </dl>
 </td>
@@ -161,7 +161,7 @@ Searches for an item to the left of the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_TORIGHT</dt>
 </dl>
 </td>
@@ -172,7 +172,7 @@ Searches for an item to the right of the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_DIRECTIONMASK</dt>
 </dl>
 </td>
@@ -185,7 +185,7 @@ Searches for an item to the right of the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>The state of the item to find can be specified with one or a combination of the following values:</dt>
 </dl>
 </td>
@@ -193,7 +193,7 @@ Searches for an item to the right of the specified item.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_CUT</dt>
 </dl>
 </td>
@@ -204,7 +204,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_DROPHILITED</dt>
 </dl>
 </td>
@@ -215,7 +215,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_FOCUSED</dt>
 </dl>
 </td>
@@ -226,7 +226,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_SELECTED</dt>
 </dl>
 </td>
@@ -237,7 +237,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_STATEMASK</dt>
 </dl>
 </td>
@@ -250,7 +250,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>Searches by appearance of items or by group.</dt>
 </dl>
 </td>
@@ -258,7 +258,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_VISIBLEORDER</dt>
 </dl>
 </td>
@@ -269,7 +269,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_VISIBLEONLY</dt>
 </dl>
 </td>
@@ -280,7 +280,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVNI_SAMEGROUPONLY</dt>
 </dl>
 </td>
@@ -293,7 +293,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>If an item does not have all of the specified state flags set, the search continues with the next item.</dt>
 </dl>
 </td>

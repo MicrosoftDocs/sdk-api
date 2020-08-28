@@ -69,7 +69,7 @@ A <b>DWORD</b> value that defines how the resource manager is initialized. This 
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0</dt>
 </dl>
 </td>

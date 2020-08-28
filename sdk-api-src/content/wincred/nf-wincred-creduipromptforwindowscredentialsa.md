@@ -232,7 +232,7 @@ The credential dialog box is invoked by the <a href="https://docs.microsoft.com/
 </tr>
 <tr>
 <td width="40%"><a id=""></a><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0x40000</dt>
 </dl>
 </td>
@@ -256,7 +256,7 @@ The credential provider should align the credential BLOB pointed to by the <i>pp
 </tr>
 <tr>
 <td width="40%"><a id=""></a><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0x80000000</dt>
 </dl>
 </td>

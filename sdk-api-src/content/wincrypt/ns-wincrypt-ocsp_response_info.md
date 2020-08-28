@@ -118,7 +118,7 @@ The responder service is operational but temporarily unable to respond.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>4</dt>
 </dl>
 </td>

@@ -101,7 +101,7 @@ The total number of segments sent.
 
 ### -field SegsIn
 
-Type: <b></b>
+Type: 
 
 The total number of segments received.
 

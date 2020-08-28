@@ -74,7 +74,7 @@ The requested access to the composition surface object. It can be one of the fol
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0x0000L</dt>
 </dl>
 </td>

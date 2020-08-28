@@ -94,7 +94,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>HICF_ENTERING</dt>
 </dl>
 </td>
@@ -105,7 +105,7 @@ If this flag is set, there is no previous hot item and <b>idOld</b> does not con
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>HICF_LEAVING</dt>
 </dl>
 </td>

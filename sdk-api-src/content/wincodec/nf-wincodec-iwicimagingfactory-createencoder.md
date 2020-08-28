@@ -71,7 +71,7 @@ The GUID for the desired container format.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatBmp</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ The BMP container format GUID.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatPng</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ The PNG container format GUID.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatIco</dt>
 </dl>
 </td>
@@ -104,7 +104,7 @@ The ICO container format GUID.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatJpeg</dt>
 </dl>
 </td>
@@ -115,7 +115,7 @@ The JPEG container format GUID.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatTiff</dt>
 </dl>
 </td>
@@ -126,7 +126,7 @@ The TIFF container format GUID.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatGif</dt>
 </dl>
 </td>
@@ -137,7 +137,7 @@ The GIF container format GUID.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_ContainerFormatWmp</dt>
 </dl>
 </td>
@@ -163,7 +163,7 @@ The GUID for the preferred encoder vendor.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>NULL</dt>
 </dl>
 </td>
@@ -174,7 +174,7 @@ No preferred codec vendor.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_VendorMicrosoft</dt>
 </dl>
 </td>
@@ -185,7 +185,7 @@ Prefer to use Microsoft encoder.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>GUID_VendorMicrosoftBuiltIn</dt>
 </dl>
 </td>

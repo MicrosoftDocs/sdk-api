@@ -81,7 +81,7 @@ This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
 
-<pre xml:space="preserve"><b></b>
+<pre xml:space="preserve">
    <b>HKEY_CLASSES_ROOT</b>
    <b>HKEY_CURRENT_CONFIG</b>
    <b>HKEY_CURRENT_USER</b>

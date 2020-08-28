@@ -82,7 +82,7 @@ The function returns the following as a SUCCESS HRESULT.
 <tr>
 <td width="40%">
 <dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ The function returns the following as a SUCCESS HRESULT.
 <tr>
 <td width="40%">
 <dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -107,7 +107,7 @@ The two parameters are equal.
 <tr>
 <td width="40%">
 <dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>2</dt>
 </dl>
 </td>
@@ -119,7 +119,7 @@ The two parameters are equal.
 <tr>
 <td width="40%">
 <dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>3</dt>
 </dl>
 </td>

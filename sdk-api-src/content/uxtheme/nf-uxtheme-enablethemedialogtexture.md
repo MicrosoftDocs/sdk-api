@@ -78,7 +78,7 @@ One of the following option flag values:
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_DISABLE</dt>
 </dl>
 </td>
@@ -89,7 +89,7 @@ Disables background texturing.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_ENABLE</dt>
 </dl>
 </td>
@@ -100,7 +100,7 @@ Enables dialog window background texturing. The texturing is defined by a visual
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_USETABTEXTURE</dt>
 </dl>
 </td>
@@ -111,7 +111,7 @@ Uses the Tab control texture for the background texture of a dialog window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_USEAEROWIZARDTABTEXTURE</dt>
 </dl>
 </td>
@@ -122,7 +122,7 @@ Uses the Aero wizard texture for the background texture of a dialog window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_ENABLETAB</dt>
 </dl>
 </td>
@@ -133,7 +133,7 @@ Enables dialog window background texturing. The texture is the Tab control textu
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_ENABLEAEROWIZARDTAB</dt>
 </dl>
 </td>
@@ -144,7 +144,7 @@ ETDT_ENABLE | ETDT_USEAEROWIZARDTABTEXTURE.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>ETDT_VALIDBITS</dt>
 </dl>
 </td>

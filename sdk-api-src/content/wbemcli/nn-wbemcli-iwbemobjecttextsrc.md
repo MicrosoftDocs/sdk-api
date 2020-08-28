@@ -96,7 +96,7 @@ Creates a textual representation of a class or object instance.
 
 
 
-<b></b>
+
 
 
 

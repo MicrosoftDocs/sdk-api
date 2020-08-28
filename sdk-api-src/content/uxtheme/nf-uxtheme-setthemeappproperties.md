@@ -71,7 +71,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>STAP_ALLOW_NONCLIENT</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Specifies that the nonclient areas of application windows will have visual style
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>STAP_ALLOW_CONTROLS</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ Specifies that the common controls used in an application will have visual style
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>STAP_ALLOW_WEBCONTENT</dt>
 </dl>
 </td>

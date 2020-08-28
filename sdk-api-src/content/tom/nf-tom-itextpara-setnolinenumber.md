@@ -71,7 +71,7 @@ Indicates if line numbering is suppressed. It can be one of the following possib
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomTrue</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Line numbering is disabled.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomFalse</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ Line numbering is enabled.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomUndefined</dt>
 </dl>
 </td>

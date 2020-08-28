@@ -60,7 +60,7 @@ Specifies the source rectangle for an input stream when using Microsoft DirectX 
 
 ### -field Enable
 
-<b></b>Specifies whether to blit the entire input surface or just the source rectangle. The default state value is <b>FALSE</b>.
+Specifies whether to blit the entire input surface or just the source rectangle. The default state value is <b>FALSE</b>.
 
 <table>
 <tr>

@@ -105,7 +105,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the name of
 </tr>
 <tr>
 <td>g_wszVBREnabled</td>
-<td>Use to enumerate the supported codec formats that use variable bit rate (VBR) encoding.The value returned in <i>pValue</i> is a <b></b>BOOL.
+<td>Use to enumerate the supported codec formats that use variable bit rate (VBR) encoding.The value returned in <i>pValue</i> is a BOOL.
 
 </td>
 </tr>

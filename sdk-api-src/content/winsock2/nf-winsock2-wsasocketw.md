@@ -398,7 +398,7 @@ If <i>g</i> is not an existing socket group ID, then the following values are po
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0</dt>
 </dl>
 </td>

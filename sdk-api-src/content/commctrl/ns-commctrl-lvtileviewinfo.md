@@ -79,7 +79,7 @@ Mask that determines which members are valid. This member may be one of the foll
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIM_TILESIZE</dt>
 </dl>
 </td>
@@ -90,7 +90,7 @@ Mask that determines which members are valid. This member may be one of the foll
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIM_COLUMNS</dt>
 </dl>
 </td>
@@ -101,7 +101,7 @@ Mask that determines which members are valid. This member may be one of the foll
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIM_LABELMARGIN</dt>
 </dl>
 </td>
@@ -127,7 +127,7 @@ Flags that determines how the tiles are sized in tile view. This member may be o
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIF_AUTOSIZE</dt>
 </dl>
 </td>
@@ -148,7 +148,7 @@ This flag is not supported and should not be used.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIF_FIXEDWIDTH</dt>
 </dl>
 </td>
@@ -159,7 +159,7 @@ Apply a fixed width to the tiles.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIF_FIXEDHEIGHT</dt>
 </dl>
 </td>
@@ -170,7 +170,7 @@ Apply a fixed height to the tiles.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVTVIF_FIXEDSIZE</dt>
 </dl>
 </td>

@@ -71,7 +71,7 @@ Type of reset. It can be one of the following possible values.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomDefault</a></dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Used for paragraph formatting that is defined by the RTF \pard, that is, the par
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a></dt>
 </dl>
 </td>

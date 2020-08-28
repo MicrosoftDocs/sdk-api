@@ -82,7 +82,7 @@ Pointer to the current context. A context must be provided to prevent deadlocks.
 
 ### -param pszNamespace
 
-Pointer to the namespace that contains the instances. If <b>NULL</b>, the default namespace, root<b>\</b>cimv2, is used.
+Pointer to the namespace that contains the instances. If <b>NULL</b>, the default namespace, root<b>\\</b>cimv2, is used.
 
 
 ## -returns

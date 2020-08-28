@@ -337,7 +337,7 @@ The default value is <b>FALSE</b>.
 
 ### -field DVD_EnableTitleLength
 
-<i></i>
+
 
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.

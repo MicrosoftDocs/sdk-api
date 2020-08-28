@@ -72,7 +72,7 @@ The value of the EXIF color space.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -83,7 +83,7 @@ A sRGB color space.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>2</dt>
 </dl>
 </td>

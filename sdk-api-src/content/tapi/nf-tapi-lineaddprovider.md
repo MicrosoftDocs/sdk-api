@@ -63,7 +63,7 @@ The
 
 ### -param lpszProviderFilename
 
-Pointer to a <b></b>
+Pointer to a 
 
 <b>null</b>-terminated string containing the path of the service provider to be added. 
 

@@ -119,7 +119,7 @@ The position is over a tab's text.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 </dl>
 </td>
 <td width="60%">

@@ -72,7 +72,7 @@ A pointer that receives the EXIF color space color context.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -83,7 +83,7 @@ A sRGB color space.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>2</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ An Adobe RGB color space.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>3 through 65534</dt>
 </dl>
 </td>

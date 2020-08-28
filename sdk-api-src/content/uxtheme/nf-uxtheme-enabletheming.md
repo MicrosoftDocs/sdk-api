@@ -73,7 +73,7 @@ Receives one of the following values.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>TRUE</dt>
 </dl>
 </td>
@@ -88,7 +88,7 @@ Enables visual styles. If the user previously had an active visual style, it bec
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>FALSE</dt>
 </dl>
 </td>

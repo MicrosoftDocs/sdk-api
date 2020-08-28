@@ -119,7 +119,7 @@ int main()
 
 ## -see-also
 
-<b></b>
+
 
 [**HSTRING**](/windows/win32/winrt/hstring)
 

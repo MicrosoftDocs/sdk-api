@@ -106,7 +106,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BDR_RAISEDINNER</dt>
 </dl>
 </td>
@@ -117,7 +117,7 @@ Raised inner edge
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BDR_SUNKENINNER</dt>
 </dl>
 </td>
@@ -128,7 +128,7 @@ Sunken inner edge
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BDR_RAISEDOUTER</dt>
 </dl>
 </td>
@@ -139,7 +139,7 @@ Raised outer edge
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BDR_SUNKENOUTER</dt>
 </dl>
 </td>
@@ -150,7 +150,7 @@ Sunken outer edge
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>EDGE_BUMP</dt>
 </dl>
 </td>
@@ -161,7 +161,7 @@ Combination of BDR_RAISEDOUTER and BDR_SUNKENINNER
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>EDGE_ETCHED</dt>
 </dl>
 </td>
@@ -172,7 +172,7 @@ Combination of BDR_SUNKENOUTER and BDR_RAISEDINNER
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>EDGE_RAISED</dt>
 </dl>
 </td>
@@ -183,7 +183,7 @@ Combination of BDR_RAISEDOUTER and BDR_RAISEDINNER
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>EDGE_SUNKEN</dt>
 </dl>
 </td>
@@ -209,7 +209,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_ADJUST</dt>
 </dl>
 </td>
@@ -220,7 +220,7 @@ The rectangle pointed to by the <i>pDestRect</i> parameter is shrunk to exclude 
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_BOTTOM</dt>
 </dl>
 </td>
@@ -231,7 +231,7 @@ Bottom of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_BOTTOMLEFT</dt>
 </dl>
 </td>
@@ -242,7 +242,7 @@ Bottom and left side of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_BOTTOMRIGHT</dt>
 </dl>
 </td>
@@ -253,7 +253,7 @@ Bottom and right side of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_DIAGONAL</dt>
 </dl>
 </td>
@@ -264,7 +264,7 @@ Diagonal border.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_DIAGONAL_ENDBOTTOMLEFT</dt>
 </dl>
 </td>
@@ -275,7 +275,7 @@ Diagonal border. The end point is the lower-left corner of the rectangle; the or
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_DIAGONAL_ENDBOTTOMRIGHT</dt>
 </dl>
 </td>
@@ -286,7 +286,7 @@ Diagonal border. The end point is the lower-right corner of the rectangle; the o
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_DIAGONAL_ENDTOPLEFT</dt>
 </dl>
 </td>
@@ -297,7 +297,7 @@ Diagonal border. The end point is the upper-left corner of the rectangle; the or
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_DIAGONAL_ENDTOPRIGHT</dt>
 </dl>
 </td>
@@ -308,7 +308,7 @@ Diagonal border. The end point is the upper-right corner of the rectangle; the o
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_FLAT</dt>
 </dl>
 </td>
@@ -319,7 +319,7 @@ Flat border.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_LEFT</dt>
 </dl>
 </td>
@@ -330,7 +330,7 @@ Left side of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_MIDDLE</dt>
 </dl>
 </td>
@@ -341,7 +341,7 @@ Interior of the rectangle is to be filled.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_MONO</dt>
 </dl>
 </td>
@@ -352,7 +352,7 @@ One-dimensional border.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_RECT</dt>
 </dl>
 </td>
@@ -363,7 +363,7 @@ Entire border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_RIGHT</dt>
 </dl>
 </td>
@@ -374,7 +374,7 @@ Right side of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_SOFT</dt>
 </dl>
 </td>
@@ -385,7 +385,7 @@ Soft buttons instead of tiles.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_TOP</dt>
 </dl>
 </td>
@@ -396,7 +396,7 @@ Top of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_TOPLEFT</dt>
 </dl>
 </td>
@@ -407,7 +407,7 @@ Top and left side of border rectangle.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>BF_TOPRIGHT</dt>
 </dl>
 </td>

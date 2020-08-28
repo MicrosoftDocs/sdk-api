@@ -63,7 +63,7 @@ The <b>MEVT_EVENTPARM</b> macro retrieves the event parameters or length from th
 
 ### -param x
 
-Code for the MIDI event and the event parameters or length, as specified in the dwEvent member of the MIDIEVENT structure. <i></i>
+Code for the MIDI event and the event parameters or length, as specified in the dwEvent member of the MIDIEVENT structure. 
 
 
 ## -remarks

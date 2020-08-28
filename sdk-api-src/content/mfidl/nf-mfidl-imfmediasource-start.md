@@ -70,7 +70,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-
 
 ### -param pguidTimeFormat [in]
 
-Pointer to a GUID that specifies the time format. The time format defines the units for the <i>pvarStartPosition</i> parameter. If the value <i></i> is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, it is equalivent to <b>GUID_NULL</b>.
+Pointer to a GUID that specifies the time format. The time format defines the units for the <i>pvarStartPosition</i> parameter. If the value  is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, it is equalivent to <b>GUID_NULL</b>.
           
 
 

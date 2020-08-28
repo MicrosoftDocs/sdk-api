@@ -135,7 +135,7 @@ where
 <ul>
 <li><i>Name</i> is the name of the parameter.</li>
 <li><i>Unit</i> is the name of the units; for example, milliseconds.</li>
-<li><i>Enum1</i> through <i></i></li>
+<li><i>Enum1</i> through </li>
 <li><i>EnumN</i> are descriptive names for the parameter's enumerated values. (Applies only to parameters of type MPT_ENUM.)</li>
 </ul>
 The application can display these values within its user interface. They are not guaranteed to follow a consistent naming scheme. If the user's computer is using an international code page, the method might return a localized string corresponding to that code page.

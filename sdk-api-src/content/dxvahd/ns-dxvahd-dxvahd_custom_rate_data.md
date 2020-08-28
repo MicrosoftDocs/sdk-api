@@ -70,7 +70,7 @@ The number of output frames that will be generated for every <i>N</i> input samp
 
 ### -field InputInterlaced
 
-If <b>TRUE</b>, the input stream must be interlaced<b></b>. Otherwise, the input stream must be progressive.
+If <b>TRUE</b>, the input stream must be interlaced. Otherwise, the input stream must be progressive.
 
 
 ### -field InputFramesOrFields

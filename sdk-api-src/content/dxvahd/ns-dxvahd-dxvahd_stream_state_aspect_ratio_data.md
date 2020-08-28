@@ -60,7 +60,7 @@ Specifies the pixel aspect ratio (PAR) for the source and destination rectangles
 
 ### -field Enable
 
-<b>If TRUE</b>, the <b>SourceAspectRatio</b> and <b>DestinationAspectRatio</b> members contain valid values<b></b>. Otherwise, the pixel aspect ratios are unspecified.
+<b>If TRUE</b>, the <b>SourceAspectRatio</b> and <b>DestinationAspectRatio</b> members contain valid values. Otherwise, the pixel aspect ratios are unspecified.
 
 
 ### -field SourceAspectRatio

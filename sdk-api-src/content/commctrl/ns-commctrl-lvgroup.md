@@ -120,7 +120,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_ALIGN</dt>
 </dl>
 </td>
@@ -131,7 +131,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_GROUPID</dt>
 </dl>
 </td>
@@ -142,7 +142,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_SUBTITLE</dt>
 </dl>
 </td>
@@ -154,7 +154,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_TASK</dt>
 </dl>
 </td>
@@ -166,7 +166,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_DESCRIPTIONTOP</dt>
 </dl>
 </td>
@@ -178,7 +178,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_DESCRIPTIONBOTTOM</dt>
 </dl>
 </td>
@@ -190,7 +190,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_TITLEIMAGE</dt>
 </dl>
 </td>
@@ -202,7 +202,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_EXTENDEDIMAGE</dt>
 </dl>
 </td>
@@ -214,7 +214,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_ITEMS</dt>
 </dl>
 </td>
@@ -226,7 +226,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_SUBSET</dt>
 </dl>
 </td>
@@ -238,7 +238,7 @@ No other items are valid.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGF_SUBSETITEMS</dt>
 </dl>
 </td>
@@ -307,7 +307,7 @@ Flag that can have one of the following values:
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_NORMAL</dt>
 </dl>
 </td>
@@ -318,7 +318,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_COLLAPSED</dt>
 </dl>
 </td>
@@ -329,7 +329,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_HIDDEN</dt>
 </dl>
 </td>
@@ -340,7 +340,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_NOHEADER</dt>
 </dl>
 </td>
@@ -352,7 +352,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_COLLAPSIBLE</dt>
 </dl>
 </td>
@@ -364,7 +364,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_FOCUSED</dt>
 </dl>
 </td>
@@ -376,7 +376,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_SELECTED</dt>
 </dl>
 </td>
@@ -388,7 +388,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_SUBSETED</dt>
 </dl>
 </td>
@@ -400,7 +400,7 @@ Groups are expanded, the group name is displayed, and all items in the group are
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGS_SUBSETLINKFOCUSED</dt>
 </dl>
 </td>
@@ -431,7 +431,7 @@ Indicates the alignment of the header or footer text for the group. It can have 
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGA_FOOTER_CENTER</dt>
 </dl>
 </td>
@@ -442,7 +442,7 @@ Footer text is centered horizontally in the window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGA_FOOTER_LEFT</dt>
 </dl>
 </td>
@@ -454,7 +454,7 @@ Footer text is aligned at the left of the window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGA_FOOTER_RIGHT</dt>
 </dl>
 </td>
@@ -466,7 +466,7 @@ Footer text is aligned at the right of the window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGA_HEADER_CENTER</dt>
 </dl>
 </td>
@@ -477,7 +477,7 @@ Footer text is aligned at the right of the window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGA_HEADER_LEFT</dt>
 </dl>
 </td>
@@ -488,7 +488,7 @@ Header text is aligned at the left of the window.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>LVGA_HEADER_RIGHT</dt>
 </dl>
 </td>

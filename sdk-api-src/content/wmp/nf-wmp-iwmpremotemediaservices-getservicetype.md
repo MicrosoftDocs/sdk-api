@@ -63,7 +63,7 @@ The <b>GetServiceType</b> method is called by Windows Media Player to determine 
 
 ### -param pbstrType [out]
 
-Pointer to a <b></b>BSTR containing one or more of the following values.
+Pointer to a BSTR containing one or more of the following values.
 
 <table>
 <tr>

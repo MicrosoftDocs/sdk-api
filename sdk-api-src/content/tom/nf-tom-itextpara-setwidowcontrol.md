@@ -71,7 +71,7 @@ A tomBool value that controls the suppression of widows and orphans. It can be o
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomTrue</dt>
 </dl>
 </td>
@@ -82,7 +82,7 @@ Prevents printing of widows and orphans.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomFalse</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ Allows printing of widows and orphans.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomToggle</dt>
 </dl>
 </td>
@@ -104,7 +104,7 @@ The value is toggled.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>tomUndefined</dt>
 </dl>
 </td>

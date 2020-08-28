@@ -90,7 +90,7 @@ The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> mem
 
 
 
-<b></b>
+
 
 
 

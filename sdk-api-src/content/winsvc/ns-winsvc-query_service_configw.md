@@ -320,7 +320,7 @@ A pointer to an array of null-separated names of services or load ordering group
 
 ### -field lpServiceStartName
 
-If the service type is <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, this member is the name of the account that the service process will be logged on as when it runs. This name can be of the form <i>Domain</i><b>\</b><i>UserName</i>. If the account belongs to the built-in domain, the name can be of the form <b>.\</b><i>UserName</i>. The name can also be "LocalSystem" if the process is running under the LocalSystem account.   
+If the service type is <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, this member is the name of the account that the service process will be logged on as when it runs. This name can be of the form <i>Domain</i><b>\\</b><i>UserName</i>. If the account belongs to the built-in domain, the name can be of the form <b>.\</b><i>UserName</i>. The name can also be "LocalSystem" if the process is running under the LocalSystem account.   
 
 
 

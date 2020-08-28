@@ -95,7 +95,7 @@ Specifies the flags to set on the profile. The flags can be combined.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0</dt>
 </dl>
 </td>

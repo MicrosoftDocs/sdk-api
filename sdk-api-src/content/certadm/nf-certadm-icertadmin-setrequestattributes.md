@@ -83,7 +83,7 @@ Specifies the attribute data. Each attribute is a name-value string pair. The co
 <tr>
 <td><strong>C++</strong></td>
 <td>
-<i>AttributeName1</i><b>:</b><i>AttributeValue1</i><b>\</b><i>nAttributeName2</i><b>:</b><i>AttributeValue2</i>
+<i>AttributeName1</i><b>:</b><i>AttributeValue1</i><b>\\</b><i>nAttributeName2</i><b>:</b><i>AttributeValue2</i>
 
 </td>
 </tr>

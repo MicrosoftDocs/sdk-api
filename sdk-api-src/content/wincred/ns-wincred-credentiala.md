@@ -355,7 +355,7 @@ The user name of the account used to connect to <b>TargetName</b>.
 
 
 
-If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b>\</b><i>UserName</i> or a UPN.
+If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b>\\</b><i>UserName</i> or a UPN.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
 

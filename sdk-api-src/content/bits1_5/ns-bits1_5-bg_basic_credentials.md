@@ -69,13 +69,13 @@ To protect the user name and password information, call the <b>SecureZeroMemory<
 You can specify the user name like this.
 
 <ul>
-<li><i>DomainName</i><b>\</b><i>UserName</i>. Use <i>DomainName</i><b>\</b><i>UserName</i> if the server is in a domain and the <i>DomainName</i> is the domain to which the server belongs or is a trusted domain.
+<li><i>DomainName</i><b>\\</b><i>UserName</i>. Use <i>DomainName</i><b>\\</b><i>UserName</i> if the server is in a domain and the <i>DomainName</i> is the domain to which the server belongs or is a trusted domain.
 
 </li>
-<li><i>ServerName</i><b>\</b><i>UserName</i>. Use <i>ServerName</i><b>\</b><i>UserName</i> if the account is a local account on the server. The <i>ServerName</i> is the name of the computer that is authenticating the credentials.
+<li><i>ServerName</i><b>\\</b><i>UserName</i>. Use <i>ServerName</i><b>\\</b><i>UserName</i> if the account is a local account on the server. The <i>ServerName</i> is the name of the computer that is authenticating the credentials.
 
 </li>
-<li><i>UserName</i>. If you specify only <i>UserName</i>, the user's default domain name is prefixed to the user's name and the rules for the <i>DomainName</i><b>\</b><i>UserName</i> form apply.  Use this option only if the user is a member of a domain.
+<li><i>UserName</i>. If you specify only <i>UserName</i>, the user's default domain name is prefixed to the user's name and the rules for the <i>DomainName</i><b>\\</b><i>UserName</i> form apply.  Use this option only if the user is a member of a domain.
 
 </li>
 <li><b>NULL</b>. To use the user's logon credentials for NTLM or Kerberos authentication, set <b>UserName</b> to <b>NULL</b>. This works only if the user is in a trusted domain. Setting <b>UserName</b> to <b>NULL</b> for services running as a system account passes the computer's credentials for authentication. This option works only if the domain enables Kerberos authentication and you select Negotiate as the authentication scheme.

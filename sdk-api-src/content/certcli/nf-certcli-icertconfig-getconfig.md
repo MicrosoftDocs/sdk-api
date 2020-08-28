@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The <b>GetConfig</b> method retrieves the configuration string for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> server. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
-The configuration string is the server name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> name separated by a backslash (\); for example: <i>ServerName</i><b>\</b><i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
+The configuration string is the server name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> name separated by a backslash (\); for example: <i>ServerName</i><b>\\</b><i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
 
 
 ## -parameters

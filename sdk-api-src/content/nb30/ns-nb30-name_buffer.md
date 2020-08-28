@@ -110,7 +110,7 @@ Specifies the current state of the name table entry. This member can be one of t
 
 
 
-<b></b>
+
 
 
 

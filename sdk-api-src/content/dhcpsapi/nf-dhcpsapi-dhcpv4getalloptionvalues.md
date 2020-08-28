@@ -74,7 +74,7 @@ Indicates whether the option values are for a specific or default vendor.
 </tr>
 <tr>
 <td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
+<dt></dt>
 <dt>0x00000000</dt>
 </dl>
 </td>

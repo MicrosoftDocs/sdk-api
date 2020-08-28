@@ -77,7 +77,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b></b></dt>
+<dt></dt>
 </dl>
 </td>
 <td width="60%">
@@ -88,7 +88,7 @@ The weight was retrieved successfully. If the weight is indeterminate, a font ob
 <tr>
 <td width="40%">
 <dl>
-<dt><b></b></dt>
+<dt></dt>
 </dl>
 </td>
 <td width="60%">

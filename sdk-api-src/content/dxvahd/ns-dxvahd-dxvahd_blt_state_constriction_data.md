@@ -60,7 +60,7 @@ Specifies whether the output is downsampled in a  blit operation, when using Mic
 
 ### -field Enable
 
-If <b>TRUE</b>, downsampling is enabled<b></b>. Otherwise, downsampling is disabled and the <b>Size</b> member is ignored. The default state value is <b>FALSE</b> (downsampling is disabled).
+If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <b>Size</b> member is ignored. The default state value is <b>FALSE</b> (downsampling is disabled).
 
 
 ### -field Size
