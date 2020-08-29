@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mf.lib
+req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
