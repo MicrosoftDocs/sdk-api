@@ -69,19 +69,11 @@ The structure size, in bytes.
 
 Type: <b>int</b>
 
-The type of context for which Help is requested. This member can be one of the following values.
+The type of context for which help is requested. This member can be one of the following values.
 
+- <b>HELPINFO_MENUITEM</b>: Help requested for a menu item.
 
-
-#### HELPINFO_MENUITEM
-
-Help requested for a menu item.
-
-
-
-#### HELPINFO_WINDOW
-
-Help requested for a control or window.
+- <b>HELPINFO_WINDOW</b>: Help requested for a control or window.
 
 
 ### -field iCtrlId
