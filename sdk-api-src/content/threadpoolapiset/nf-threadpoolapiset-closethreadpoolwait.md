@@ -65,14 +65,20 @@ Releases the specified wait object.
 
 ### -param pwa [in, out]
 
-A <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this structure.
+A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this pointer.
 
 
 ## -remarks
 
-
-
 The wait object is freed immediately if there are no outstanding callbacks; otherwise, the timer object is freed asynchronously after the outstanding callbacks complete.
+
+In some cases, callback functions might run after <b>CloseThreadpoolWait</b> has been called. To prevent this behavior: 
+
+* Call the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> function
+or <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex">SetThreadpoolWaitEx</a> function
+with the <i>h</i> parameter set to NULL.
+* Call the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks">WaitForThreadpoolWaitCallbacks</a> function.
+* Call <b>CloseThreadpoolWait</b>.
 
 If there is a cleanup group associated with the wait object, it is not necessary to call this function; calling the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers">CloseThreadpoolCleanupGroupMembers</a> function releases the  work, wait, and timer objects associated with the cleanup group.
 
@@ -82,10 +88,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 #### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
-
-<div class="code"></div>
-
-
 
 ## -see-also
 
@@ -98,7 +100,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a>
 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex">SetThreadpoolWaitEx</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
 

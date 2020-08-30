@@ -65,7 +65,7 @@ Waits for outstanding timer callbacks to complete and optionally cancels pending
 
 ### -param pti [in, out]
 
-A <b>TP_TIMER</b> structure that defines the timer object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns the <b>TP_TIMER</b> structure.
+A pointer to a <b>TP_TIMER</b> structure that defines the timer object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this pointer.
 
 
 ### -param fCancelPendingCallbacks [in]

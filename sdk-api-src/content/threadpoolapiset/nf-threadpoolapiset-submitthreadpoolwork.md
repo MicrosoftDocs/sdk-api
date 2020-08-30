@@ -65,7 +65,7 @@ Posts a work object to the thread pool. A worker thread calls the work object's 
 
 ### -param pwk [in, out]
 
-A <b>TP_WORK</b> structure that defines the work object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a> function returns this structure.
+A pointer to a <b>TP_WORK</b> structure that defines the work object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a> function returns this pointer.
 
 
 ## -remarks
@@ -80,10 +80,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 #### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
-
-<div class="code"></div>
-
-
 
 ## -see-also
 

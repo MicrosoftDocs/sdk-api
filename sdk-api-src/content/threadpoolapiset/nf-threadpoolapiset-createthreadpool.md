@@ -72,7 +72,7 @@ This parameter is reserved and must be NULL.
 
 
 
-If the function succeeds, it returns a <b>TP_POOL</b> structure representing the newly allocated thread pool. Applications do not modify the members of this structure.
+If the function succeeds, it returns a pointer to a <b>TP_POOL</b> structure representing the newly allocated thread pool. Applications do not modify the members of this structure.
 
 If function fails, it returns NULL. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

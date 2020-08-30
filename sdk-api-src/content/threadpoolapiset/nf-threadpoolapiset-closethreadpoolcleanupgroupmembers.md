@@ -65,7 +65,7 @@ Releases the members of the specified cleanup group, waits for all callback func
 
 ### -param ptpcg [in, out]
 
-A <b>TP_CLEANUP_GROUP</b> structure that defines the cleanup group. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup">CreateThreadpoolCleanupGroup</a> function returns this structure.
+A pointer to a <b>TP_CLEANUP_GROUP</b> structure that defines the cleanup group. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup">CreateThreadpoolCleanupGroup</a> function returns this pointer.
 
 
 ### -param fCancelPendingCallbacks [in]

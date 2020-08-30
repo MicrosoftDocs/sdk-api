@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the timer object—, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
+Sets the timer object, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 
 
 ## -parameters
@@ -65,17 +65,16 @@ Sets the timer object—, replacing the previous timer, if any. A worker thread 
 
 ### -param pti [in, out]
 
-A pointer to a <b>TP_TIMER</b> structure that defines the timer object to set. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this structure.
+A pointer to a <b>TP_TIMER</b> structure that defines the timer object to set. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this pointer.
 
 
 ### -param pftDueTime [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the absolute or relative time at which the timer should expire.  If positive or zero, it indicates the absolute time since January 1, 1601 (UTC), measured in 100 nanosecond units. If negative, it indicates the amount of time to wait relative to the current time. For more information about time values, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the absolute or relative time at which the timer should expire.  If this parameter points to a positive value, it indicates the absolute time since January 1, 1601 (UTC), measured in 100 nanosecond units. If this parameter points to a negative value, it indicates the amount of time to wait relative to the current time. If this parameter points to zero, then the timer expires immediately. For more information about time values, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
 
-If this parameter is NULL, the timer object will cease to queue new callbacks (but callbacks already queued will still occur). Note that if this parameter is zero, the timer will expire immediately.
+If this parameter is NULL, the timer object will cease to queue new callbacks (but callbacks already queued will still occur).
 
-
-
+The timer is set if the <i>pftDueTime</i> parameter is non-NULL.
 
 ### -param msPeriod [in]
 
@@ -89,26 +88,18 @@ The maximum amount of time the system can delay before calling the timer callbac
 
 ## -returns
 
+Returns TRUE if the timer was previously set and was canceled.
+Otherwise returns FALSE.
 
-
-If the timer was previously active and was canceled, a value of TRUE is
-    returned. Otherwise a value of FALSE is returned.
-
-    If FALSE is returned, a callback may be in progress or about to commence.
-    If this is the case, a subsequent <b>SetThreadpoolTimerEx</b> operation will be properly
-    synchronized with completion of the timer callback.
-
-
-
+If the timer's previous state was "set", and the function returns FALSE, then a callback is in progress or about to commence.
+See the remarks for further discussion.
 
 
 ## -remarks
 
-
-
 Setting the timer cancels the previous timer, if any.
 
-In some cases, callback functions might run after an application closes the threadpool timer. To prevent this behavior, an application should call <b>SetThreadpoolTimerEx</b> with the <i>pftDueTime</i> parameter set to NULL and the <i>msPeriod</i> and <i>msWindowLength</i> parameters set to 0. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer">CloseThreadpoolTimer</a>.
+In some cases, callback functions might run after an application closes the threadpool timer. To prevent this behavior, an application should follow the steps described in <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer">CloseThreadpoolTimer</a>.
 
 If the due time specified by <i>pftDueTime</i> is relative, the time that the system spends in sleep or hibernation does not count toward the expiration of the timer. The timer is signaled when the cumulative amount of elapsed time the system spends in the waking state equals the timer's relative due time or period. If the  due time specified by <i>pftDueTime</i> is absolute, the time that the system spends in sleep or hibernation does count toward the expiration of the timer. If the timer expires while the system is sleeping, the timer is signaled immediately when the system wakes.
 

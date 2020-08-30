@@ -65,12 +65,12 @@ Retrieves the stack reserve and commit sizes for threads in the specified thread
 
 ### -param ptpp [in]
 
-A <b>TP_POOL</b> structure that specifies the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this structure.
+A pointer to a <b>TP_POOL</b> structure that specifies the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this pointer.
 
 
 ### -param ptpsi [out]
 
-A <b>TP_POOL_STACK_INFORMATION</b> structure that receives the stack reserve and commit size. 
+A pointer to a <b>TP_POOL_STACK_INFORMATION</b> structure that receives the stack reserve and commit size. 
 
 
 ## -returns

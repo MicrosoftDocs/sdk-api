@@ -84,7 +84,7 @@ If this parameter is NULL, the callback executes in the default callback environ
 
 
 
-If the function succeeds, it returns a <b>TP_WAIT</b> structure that defines the wait object. Applications do not modify the members of this structure.
+If the function succeeds, it returns a pointer to a <b>TP_WAIT</b> structure that defines the wait object. Applications do not modify the members of this structure.
 
 If the function fails, it returns NULL. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -95,12 +95,10 @@ If the function fails, it returns NULL. To retrieve extended error information, 
 
 
 
-To set the wait object, call the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> function.
+To set the wait object, call the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> or <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex">SetThreadpoolWaitEx</a> function.
 
-The work item and all functions it calls must be thread-pool safe. Therefore, you cannot call an asynchronous call that requires a persistent thread, such as the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function, from the default callback environment. Instead, set the thread pool maximum equal to the thread pool minimum using the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadmaximum">SetThreadpoolThreadMaximum</a> and <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadminimum">SetThreadpoolThreadMinimum</a> functions, or create your own thread using the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a> function.
-
-<b>Windows 8:  </b><a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> can be called from a work item by setting the REG_NOTIFY_THREAD_AGNOSTIC flag.
+The work item and all functions it calls must not rely on the thread after they have returned. Therefore, you cannot call an asynchronous call that requires a persistent thread, such as the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function without the <b>REG_NOTIFY_THREAD_AGNOSTIC</b> flag, from the default callback environment. Instead, use a thread whose lifetime you control.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
@@ -108,10 +106,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 #### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
-
-<div class="code"></div>
-
-
 
 ## -see-also
 

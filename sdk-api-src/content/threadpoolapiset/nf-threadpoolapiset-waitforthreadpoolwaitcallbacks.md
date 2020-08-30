@@ -65,7 +65,7 @@ Waits for outstanding wait callbacks to complete and optionally cancels pending 
 
 ### -param pwa [in, out]
 
-A <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns the <b>TP_WAIT</b> structure.
+A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this pointer.
 
 
 ### -param fCancelPendingCallbacks [in]

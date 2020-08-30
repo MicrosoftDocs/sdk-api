@@ -65,7 +65,7 @@ Sets the minimum number of threads that the specified thread pool must make avai
 
 ### -param ptpp [in, out]
 
-A <b>TP_POOL</b> structure that defines the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this structure.
+A pointer to a <b>TP_POOL</b> structure that defines the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this pointer.
 
 
 ### -param cthrdMic [in]
@@ -96,10 +96,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 #### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
-
-<div class="code"></div>
-
-
 
 ## -see-also
 

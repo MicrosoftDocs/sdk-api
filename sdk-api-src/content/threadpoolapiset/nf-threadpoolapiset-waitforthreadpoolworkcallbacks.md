@@ -65,7 +65,7 @@ Waits for outstanding work callbacks to complete and optionally cancels pending 
 
 ### -param pwk [in, out]
 
-A <b>TP_WORK</b> structure that defines the work object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a> function returns this structure.
+A pointer to a <b>TP_WORK</b> structure that defines the work object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a> function returns this pointer.
 
 
 ### -param fCancelPendingCallbacks [in]

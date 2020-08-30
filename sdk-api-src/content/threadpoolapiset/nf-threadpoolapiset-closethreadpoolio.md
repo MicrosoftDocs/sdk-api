@@ -65,7 +65,7 @@ Releases the specified I/O completion object.
 
 ### -param pio [in, out]
 
-A <b>TP_IO</b> structure that defines the I/O completion object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a> function returns this structure.
+A pointer to a <b>TP_IO</b> structure that defines the I/O completion object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a> function returns this pointer.
 
 
 ## -remarks
@@ -74,7 +74,7 @@ A <b>TP_IO</b> structure that defines the I/O completion object. The <a href="ht
 
 The I/O completion object is freed immediately if there are no outstanding callbacks; otherwise, the I/O completion object is freed asynchronously after the outstanding callbacks complete. 
 
-You should close the associated file handle and wait for all outstanding overlapped I/O operations to complete before calling this function—you must not cause any more overlapped I/O operations to occur after calling this function.
+You should close the associated file handle and wait for all outstanding overlapped I/O operations to complete before calling this function. You must not cause any more overlapped I/O operations to occur after calling this function.
 
 It may be necessary to cancel threadpool I/O notifications to prevent memory leaks. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio">CancelThreadpoolIo</a>.
 

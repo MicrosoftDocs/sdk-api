@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the timer object—, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
+Sets the timer object, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 
 
 ## -parameters
@@ -65,40 +65,36 @@ Sets the timer object—, replacing the previous timer, if any. A worker thread 
 
 ### -param pti [in, out]
 
-A pointer to a <b>TP_TIMER</b> structure that defines the timer object to set. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this structure.
+A pointer to a <b>TP_TIMER</b> structure that defines the timer object to set. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this pointer.
 
 
 ### -param pftDueTime [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the absolute or relative time at which the timer should expire.  If positive or zero, it indicates the absolute time since January 1, 1601 (UTC), measured in 100 nanosecond units. If negative, it indicates the amount of time to wait relative to the current time. For more information about time values, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
 
-If this parameter is NULL, the timer object will cease to queue new callbacks (but callbacks already queued will still occur). Note that if this parameter is zero, the timer will expire immediately.
+If this parameter is NULL, the timer object will cease to queue new callbacks (but callbacks already queued will still occur).
 
-
-
+The timer is set if the <i>pftDueTime</i> parameter is non-NULL.
 
 ### -param msPeriod [in]
 
 The timer period, in milliseconds. If this parameter is zero, the timer is signaled once. If this parameter is greater than zero, the timer is periodic. A periodic timer automatically reactivates each time the period elapses, until the timer is canceled.
 
-
 ### -param msWindowLength [in, optional]
 
 The maximum amount of time the system can delay before calling the timer callback. If this parameter is set, the system can batch calls to conserve power. 
 
-
 ## -remarks
-
-
 
 Setting the timer cancels the previous timer, if any.
 
-In some cases, callback functions might run after an application closes the threadpool timer. To prevent this behavior, an application should call <b>SetThreadpoolTimer</b> with the <i>pftDueTime</i> parameter set to NULL and the <i>msPeriod</i> and <i>msWindowLength</i> parameters set to 0. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer">CloseThreadpoolTimer</a>.
+In some cases, callback functions might run after an application closes the threadpool timer. To prevent this behavior, an application should follow the steps described in <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer">CloseThreadpoolTimer</a>.
 
 If the due time specified by <i>pftDueTime</i> is relative, the time that the system spends in sleep or hibernation does not count toward the expiration of the timer. The timer is signaled when the cumulative amount of elapsed time the system spends in the waking state equals the timer's relative due time or period. If the  due time specified by <i>pftDueTime</i> is absolute, the time that the system spends in sleep or hibernation does count toward the expiration of the timer. If the timer expires while the system is sleeping, the timer is signaled immediately when the system wakes.
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
+If the due time specified by <i>pftDueTime</i> is zero, then the timer expires immediately.
 
+To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
 #### Examples
 
