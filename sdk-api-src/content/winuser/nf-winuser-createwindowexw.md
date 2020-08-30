@@ -74,7 +74,7 @@ Creates an overlapped, pop-up, or child window with an extended window style; ot
 
 Type: <b>DWORD</b>
 
-The extended window style of the window being created. For a list of possible values,see  <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
+The extended window style of the window being created. For a list of possible values, see  <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
 
 
 ### -param lpClassName [in, optional]
