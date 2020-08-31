@@ -65,7 +65,7 @@ Removes the association between the currently executing callback function and th
 
 ### -param pci [in, out]
 
-A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The structure is passed to the callback function.
+A pointer to a <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The pointer is passed to the callback function.
 
 
 ## -remarks

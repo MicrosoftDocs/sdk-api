@@ -65,16 +65,16 @@ Indicates that the callback may not return quickly.
 
 ### -param pci [in, out]
 
-A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The structure is passed to the callback function.
+A pointer to a <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The pointer is passed to the callback function.
 
 
 ## -returns
 
 
 
-The function returns TRUE if another thread in the thread pool is available for processing callbacks or the thread pool was able to spin up a new thread.  In this case, the current callback function may use the current thread indefinitely.
+The function returns TRUE if another thread in the thread pool is available for processing callbacks or the thread pool was able to create a new thread.  In this case, the current callback function may use the current thread indefinitely.
 
-The function returns FALSE if another thread in the thread pool is not available to process callbacks and the thread pool was not able to spin up a new thread.  The thread pool will attempt to spin up a new thread after a delay, but if the current callback function runs long, the thread pool may lose efficiency.
+The function returns FALSE if another thread in the thread pool is not available to process callbacks and the thread pool was not able to create a new thread.  The thread pool will attempt to create a new thread after a delay, but if the current callback function runs long, the thread pool may lose efficiency.
 
 
 

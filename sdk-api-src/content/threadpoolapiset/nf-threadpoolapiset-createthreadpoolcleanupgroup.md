@@ -69,7 +69,7 @@ Creates a cleanup group that applications can use to track one or more thread po
 
 
 
-If the function succeeds, it returns a <b>TP_CLEANUP_GROUP</b> structure of the newly allocated cleanup group. Applications do not modify the members of this structure.
+If the function succeeds, it returns a pointer to a <b>TP_CLEANUP_GROUP</b> structure of the newly allocated cleanup group. Applications do not modify the members of this structure.
 
 If function fails, it returns NULL. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

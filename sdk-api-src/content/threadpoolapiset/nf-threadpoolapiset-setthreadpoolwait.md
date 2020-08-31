@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the wait object—replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the  handle becomes signaled or after the specified timeout expires.
+Sets the wait object, replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the  handle becomes signaled or after the specified timeout expires.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Sets the wait object—replacing the previous wait object, if any. A worker thre
 
 ### -param pwa [in, out]
 
-A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this structure.
+A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this pointer.
 
 
 ### -param h [in, optional]
@@ -78,6 +78,7 @@ If this parameter is not NULL, it must refer to a valid waitable object.
 
 If this handle is closed while the wait is still pending, the function's behavior is undefined. If the wait is still pending and the handle must be closed, use <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a> to cancel the wait and then close the handle.
 
+The wait is considered set if this parameter is non-NULL.
 
 ### -param pftTimeout [in, optional]
 
@@ -100,10 +101,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 #### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
-
-<div class="code"></div>
-
-
 
 ## -see-also
 

@@ -80,7 +80,7 @@ Optional application-defined data to pass to the callback function.
 
 ### -param pcbe [in, optional]
 
-A <b>TP_CALLBACK_ENVIRON</b> structure that defines the environment in which to execute the callback. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
+A pointer to a <b>TP_CALLBACK_ENVIRON</b> structure that defines the environment in which to execute the callback. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function to initialize the structure before calling this function.
 
 If this parameter is NULL, the callback executes in the default callback environment. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a>.
 
@@ -89,7 +89,7 @@ If this parameter is NULL, the callback executes in the default callback environ
 
 
 
-If the function succeeds, it returns a <b>TP_IO</b> structure that defines the I/O object. Applications do not modify the members of this structure.
+If the function succeeds, it returns a pointer to a <b>TP_IO</b> structure that defines the I/O object. Applications do not modify the members of this structure.
 
 If the function fails, it returns NULL. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

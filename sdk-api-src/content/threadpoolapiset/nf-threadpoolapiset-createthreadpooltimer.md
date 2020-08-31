@@ -84,7 +84,7 @@ If this parameter is NULL, the callback executes in the default callback environ
 
 
 
-If the function succeeds, it returns a <b>TP_TIMER</b> structure that defines the timer object. Applications do not modify the members of this structure.
+If the function succeeds, it returns a pointer to a <b>TP_TIMER</b> structure that defines the timer object. Applications do not modify the members of this structure.
 
 If the function fails, it returns NULL. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

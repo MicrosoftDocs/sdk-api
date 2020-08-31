@@ -65,7 +65,7 @@ Determines whether the specified timer object is currently set.
 
 ### -param pti [in, out]
 
-A <b>TP_TIMER</b> structure that defines the timer object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this structure.
+A pointer to a <b>TP_TIMER</b> structure that defines the timer object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this pointer.
 
 
 ## -returns
@@ -79,12 +79,13 @@ The return value is TRUE if the timer is set; otherwise, the return value is FAL
 
 ## -remarks
 
-
+A timer is considered to be set if the most recent call to
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimer.md">SetThreadpoolTimer</a>
+or
+<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimerex.md">SetThreadpoolTimerEx</a>
+passed a non-null value for <i>pftDueTime</i>.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
-
-
-
 
 ## -see-also
 
