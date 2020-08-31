@@ -202,7 +202,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-devicearrival"
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/DevIO/registering-for-device-notification">Registering for Device Notification</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/DevIO/registering-for-device-notification">Registering for device notification</a>.
 
 <div class="code"></div>
 
