@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagHELPINFO
 title: HELPINFO (winuser.h)
-description: Contains information about an item for which context-sensitive Help has been requested.
+description: Contains information about an item for which context-sensitive help has been requested.
 helpviewer_keywords: ["*LPHELPINFO","HELPINFO","HELPINFO structure [Windows Shell]","HELPINFO_MENUITEM","HELPINFO_WINDOW","LPHELPINFO","LPHELPINFO structure pointer [Windows Shell]","_win32_HELPINFO_str","_win32_helpinfo_str_cpp","shell.HELPINFO_str","tagHELPINFO","winuser/HELPINFO","winuser/LPHELPINFO"]
 old-location: shell\HELPINFO_str.htm
 tech.root: shell
@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about an item for which context-sensitive Help has been requested.
+Contains information about an item for which context-sensitive help has been requested.
 
 
 ## -struct-fields
@@ -69,19 +69,11 @@ The structure size, in bytes.
 
 Type: <b>int</b>
 
-The type of context for which Help is requested. This member can be one of the following values.
+The type of context for which help is requested. This member can be one of the following values.
 
+- <b>HELPINFO_MENUITEM</b>: Help requested for a menu item.
 
-
-#### HELPINFO_MENUITEM
-
-Help requested for a menu item.
-
-
-
-#### HELPINFO_WINDOW
-
-Help requested for a control or window.
+- <b>HELPINFO_WINDOW</b>: Help requested for a control or window.
 
 
 ### -field iCtrlId
@@ -109,5 +101,5 @@ The help context identifier of the window or control.
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates of the mouse cursor. This is useful for providing Help based on the position of the mouse cursor.
+The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates of the mouse cursor. This is useful for providing help based on the position of the mouse cursor.
 
