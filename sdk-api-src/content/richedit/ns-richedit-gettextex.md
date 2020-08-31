@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used in getting text from a rich edit control. This structure used with the <a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM_GETTEXTEX</a> message.
+Contains information used in getting text from a rich edit control. This structure used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-gettextex">EM_GETTEXTEX</a> message.
 
 
 ## -struct-fields
@@ -165,7 +165,7 @@ A flag that indicates whether the default character (<b>lpDefaultChar</b>) was u
 
 
 
-The <a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM_GETTEXTEX</a> message is faster when both <b>lpDefaultChar</b> and <b>lpUsedDefChar</b> are <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/Controls/em-gettextex">EM_GETTEXTEX</a> message is faster when both <b>lpDefaultChar</b> and <b>lpUsedDefChar</b> are <b>NULL</b>.
 
 
 
@@ -175,7 +175,7 @@ The <a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM
 
 
 
-<a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM_GETTEXTEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-gettextex">EM_GETTEXTEX</a>
  
 
  
