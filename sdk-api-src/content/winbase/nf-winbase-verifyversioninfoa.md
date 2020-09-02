@@ -60,6 +60,8 @@ ms.custom: 19H1
 
 Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.This function is subject to manifest-based behavior.  For more information, see the Remarks section.
 
+**Note:** This function has been deprecated for Windows 10. See [targeting your applications for Windows](https://docs.microsoft.com/windows/win32/sysinfo/targeting-your-application-at-windows-8-1) for more information.
+
 
 ## -parameters
 
