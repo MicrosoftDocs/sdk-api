@@ -6,7 +6,7 @@ helpviewer_keywords: ["QueryPerformanceCounter","QueryPerformanceCounter functio
 old-location: base\queryperformancecounter.htm
 tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancecounter.htm
-ms.date: 12/05/2018
+ms.date: 6/25/2020
 ms.keywords: QueryPerformanceCounter, QueryPerformanceCounter function [Windows and Messages], _win32_QueryPerformanceCounter, _win32_queryperformancecounter_cpp, base.queryperformancecounter, profileapi/QueryPerformanceCounter, winmsg.queryperformancecounter, winui._win32_queryperformancecounter
 f1_keywords:
 - profileapi/QueryPerformanceCounter
@@ -108,7 +108,7 @@ For more info about this function and its usage, see <a href="https://docs.micro
 
 
 
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+<a href="https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>
 
 
 
@@ -120,8 +120,5 @@ For more info about this function and its usage, see <a href="https://docs.micro
 
 
 
-<a href="https://msdn.microsoft.com/be335927-a78d-4023-bedb-94aaf3a561ae">Timers</a>
+<a href="https://docs.microsoft.com/windows/win32/winmsg/timers">Timers</a>
  
-
- 
-
