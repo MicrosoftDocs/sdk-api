@@ -216,10 +216,13 @@ The maximum depth to descend through the namespace hierarchy. This depth is zero
 
 ### -param pnswcb [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>*</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>. This parameter can be <b>NULL</b>.
+Type: <b><a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a>*</b>
+
+
+<a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a> callback function used by <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>. This parameter can be <b>NULL</b>. The object can optionally implement the INamespaceWalkCB2 and IActionProgress interfaces. See remarks below.
+
 
 
 
