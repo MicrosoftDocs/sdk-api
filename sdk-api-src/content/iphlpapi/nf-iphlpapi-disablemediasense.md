@@ -170,7 +170,7 @@ This behavior does not normally impact a local client computer if it is using DH
 The following registry setting is related to the <b>DisableMediaSense</b> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense">RestoreMediaSense</a> functions:
 
 
-<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>Tcpip</b>\<b>Parameters</b>\<b>DisableDHCPMediaSense</b>
+<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Tcpip</b>&#92;<b>Parameters</b>&#92;<b>DisableDHCPMediaSense</b>
 
 
 

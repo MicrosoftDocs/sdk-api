@@ -64,7 +64,7 @@ Converts the specified UNC path to an equivalent HTTP path.
 
 A pointer to a <b>null</b>-terminated Unicode string that contains the UNC path. This path must be in the following format:
 
-\\<i>server</i>[@SSL][@<i>port</i>][\<i>path</i>]
+&#92;&#92;<i>server</i>[@SSL][@<i>port</i>][&#92;<i>path</i>]
 
 where<ul>
 <li><i>server</i> is the server name.</li>

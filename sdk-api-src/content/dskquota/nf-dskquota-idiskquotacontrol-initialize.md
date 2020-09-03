@@ -60,7 +60,7 @@ Initializes a new <b>DiskQuotaControl</b> object by opening the NTFS file system
 
 ### -param pszPath [in]
 
-The path to the volume root, such as C:\ or \\<i>yourcomputer</i>.
+The path to the volume root, such as C:\ or &#92;&#92;<i>yourcomputer</i>.
 
 
 ### -param bReadWrite [in]

@@ -482,7 +482,7 @@ If nonzero, the system administrator has removed the <b>Manage</b> command from 
 
 If nonzero, the system administrator has restricted the programs the user can run.  Programs listed under the registry key 
                             
-                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>DisallowRun</b>may not be run from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu.  Programs are listed by their full path (for example, "C:\Windows\system32\cmd.exe"). Applications should prevent users from running programs listed under that key. Applications that use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function to run programs do not need to take any special action because those functions will check the policy.
+                               <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Policies</b>&#92;<b>Explorer</b>&#92;<b>DisallowRun</b>may not be run from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu.  Programs are listed by their full path (for example, "C:\Windows\system32\cmd.exe"). Applications should prevent users from running programs listed under that key. Applications that use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function to run programs do not need to take any special action because those functions will check the policy.
 
 
 ### -field REST_NOWELCOMESCREEN
@@ -493,13 +493,13 @@ If nonzero, the system administrator has disabled the <b>Welcome to Windows</b> 
 ### -field REST_RESTRICTCPL
 
 If nonzero, the system administrator has restricted the control panel applications the user can run.  In order to be run, a control panel application must be listed under the registry key 
-                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>RestrictCpl</b>. The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications not listed under that key.
+                               <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Policies</b>&#92;<b>Explorer</b>&#92;<b>RestrictCpl</b>. The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications not listed under that key.
 
 
 ### -field REST_DISALLOWCPL
 
 If nonzero, the system administrator has restricted the control panel applications the user can run.  In order to be run, a control panel application must not be listed under the registry key 
-                               <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Policies</b>\<b>Explorer</b>\<b>DisallowCpl</b>. The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications listed under that key.
+                               <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Policies</b>&#92;<b>Explorer</b>&#92;<b>DisallowCpl</b>. The control panel application can be listed either under its display name (for example, "Mouse") or under its filename (for example, "main.cpl"). Applications that launch control panel applications should prevent users from running control panel applications listed under that key.
 
 
 ### -field REST_NOSMBALLOONTIP
@@ -525,25 +525,25 @@ If nonzero, the system administrator has specified that unencrypted files and fo
 ### -field REST_NOLOCALMACHINERUN
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b>registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_LOCAL_MACHINE</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Run</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOCURRENTUSERRUN
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Run</b>registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Run</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOLOCALMACHINERUNONCE
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>RunOnce</b>registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_LOCAL_MACHINE</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>RunOnce</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_NOCURRENTUSERRUNONCE
 
 If nonzero, the system administrator has disabled the execution of programs listed in the 
-                   <b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>RunOnce</b>registry key. Applications do not need to perform any special actions.
+                   <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>RunOnce</b>registry key. Applications do not need to perform any special actions.
 
 
 ### -field REST_FORCEACTIVEDESKTOPON

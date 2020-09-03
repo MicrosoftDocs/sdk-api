@@ -250,7 +250,7 @@ If a remote path to a mounted folder or junction point is specified, the path is
 #### Examples
 
 For the following set of examples, U: is mapped to the remote computer 
-     \\<i>YourComputer</i>\C$, and Q is a local drive.
+     &#92;&#92;<i>YourComputer</i>\C$, and Q is a local drive.
      
 
 <table>
@@ -259,12 +259,12 @@ For the following set of examples, U: is mapped to the remote computer
 <th>Function returns</th>
 </tr>
 <tr>
-<td>\\<i>YourComputer</i>\C$\Windows</td>
-<td>\\<i>YourComputer</i>\C$\</td>
+<td>&#92;&#92;<i>YourComputer</i>\C$\Windows</td>
+<td>&#92;&#92;<i>YourComputer</i>\C$\</td>
 </tr>
 <tr>
-<td>\\?\UNC\<i>YourComputer</i>\C$\Windows</td>
-<td>\\?\UNC\<i>YourComputer</i>\C$\</td>
+<td>\\?\UNC&#92;<i>YourComputer</i>\C$\Windows</td>
+<td>\\?\UNC&#92;<i>YourComputer</i>\C$\</td>
 </tr>
 <tr>
 <td>Q:\Windows</td>
@@ -312,9 +312,9 @@ For the following set of examples, the paths contain invalid trailing path eleme
 <td>\\.\I:\</td>
 </tr>
 <tr>
-<td>\\<i>YourComputer</i>\C$\invalid (invalid trailing path 
+<td>&#92;&#92;<i>YourComputer</i>\C$\invalid (invalid trailing path 
         element)</td>
-<td>\\<i>YourComputer</i>\C$\</td>
+<td>&#92;&#92;<i>YourComputer</i>\C$\</td>
 </tr>
 </table>
  

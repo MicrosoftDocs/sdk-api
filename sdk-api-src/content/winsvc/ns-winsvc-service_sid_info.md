@@ -141,7 +141,7 @@ This enables developers to control access to the objects a service uses, instead
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> functions to convert between a service name and a service SID. The account name is of the following form:
 
-NT SERVICE\<i>SvcName</i>
+NT SERVICE&#92;<i>SvcName</i>
 
 Note that NT SERVICE is the domain name.
 

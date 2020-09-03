@@ -98,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
 Each process has a single current directory made up of two parts:
 
 <ul>
-<li>A disk designator that is either a drive letter followed by a colon, or a server name and share name (\\<i>servername</i>\<i>sharename</i>)</li>
+<li>A disk designator that is either a drive letter followed by a colon, or a server name and share name (&#92;&#92;<i>servername</i>&#92;<i>sharename</i>)</li>
 <li>A directory on the disk designator</li>
 </ul>
 Multithreaded applications and shared library code should not use the   

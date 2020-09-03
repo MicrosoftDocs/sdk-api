@@ -66,7 +66,7 @@ Pointer to a string that specifies the Universal Naming Convention (UNC) path of
 
 The string can be in one of two forms. The first form is as follows:
 
-\\<i>ShareName</i>\<i>DfsName</i>\<i>link_path</i>
+&#92;&#92;<i>ShareName</i>&#92;<i>DfsName</i>&#92;<i>link_path</i>
 
 where <i>ShareName</i> is the name of the root target server that hosts the stand-alone 
        DFS namespace; <i>DfsName</i> is the name of the DFS namespace; and 
@@ -74,7 +74,7 @@ where <i>ShareName</i> is the name of the root target server that hosts the stan
 
 The second form is as follows:
 
-\\<i>DomainName</i>\<i>DomDfsname</i>\<i>link_path</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsname</i>&#92;<i>link_path</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS 
        namespace; <i>DomDfsname</i> is the name of the DFS namespace; and 

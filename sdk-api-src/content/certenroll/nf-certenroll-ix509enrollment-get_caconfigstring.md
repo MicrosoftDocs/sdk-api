@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The configuration string contains the Domain Name System (DNS) name and the common name (CN) of the certification authority. The format of the string is "<i>CAComputerDNSName</i>\<i>CACommonName</i>".
+The configuration string contains the Domain Name System (DNS) name and the common name (CN) of the certification authority. The format of the string is "<i>CAComputerDNSName</i>&#92;<i>CACommonName</i>".
 
 
 

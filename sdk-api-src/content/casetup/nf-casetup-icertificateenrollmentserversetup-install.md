@@ -133,13 +133,13 @@ Validates the CES configuration by verifying that an application with the same n
 
 </li>
 <li>
-Creates the %windir%\systemdata\ces\<i>SanitizedCAShortName</i>_ces_<i>AuthenticationType</i> application directory. <div class="alert"><b>Note</b>  This method does not return an error if the name specified already exists as a directory, but if the specified name exists as a file or if some other error occurred, the method returns a failure <b>HRESULT</b> and sets the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property to "Failed to create the directory %1."</div>
+Creates the %windir%\systemdata\ces&#92;<i>SanitizedCAShortName</i>_ces_<i>AuthenticationType</i> application directory. <div class="alert"><b>Note</b>  This method does not return an error if the name specified already exists as a directory, but if the specified name exists as a file or if some other error occurred, the method returns a failure <b>HRESULT</b> and sets the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property to "Failed to create the directory %1."</div>
 <div> </div>
 
 
 </li>
 <li>
-Creates the %windir%\systemdata\ces\<i>SanitizedCAShortName</i>_ces_<i>AuthenticationType</i>\Traces event tracing directory.
+Creates the %windir%\systemdata\ces&#92;<i>SanitizedCAShortName</i>_ces_<i>AuthenticationType</i>\Traces event tracing directory.
 
 </li>
 <li>

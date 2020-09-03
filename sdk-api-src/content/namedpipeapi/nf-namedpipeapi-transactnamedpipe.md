@@ -153,7 +153,7 @@ If the message to be read is longer than the buffer specified by the <i>nOutBuff
 
 
 
-<b>TransactNamedPipe</b> fails if the server did not create the pipe as a message-type pipe or if the pipe handle is not in message-read mode. For example, if a client is running on the same machine as the server and uses the \\.\pipe\<i>pipename</i> format to open the pipe, the pipe is opened in byte mode by the named pipe file system (NPFS). If the client uses the form \\<i>server</i>\pipe\<i>pipename</i>, the redirector opens the pipe in message mode. A byte mode pipe handle can be changed to message-read mode with the 
+<b>TransactNamedPipe</b> fails if the server did not create the pipe as a message-type pipe or if the pipe handle is not in message-read mode. For example, if a client is running on the same machine as the server and uses the \\.\pipe&#92;<i>pipename</i> format to open the pipe, the pipe is opened in byte mode by the named pipe file system (NPFS). If the client uses the form &#92;&#92;<i>server</i>\pipe&#92;<i>pipename</i>, the redirector opens the pipe in message mode. A byte mode pipe handle can be changed to message-read mode with the 
 <a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
 
 The function cannot be completed successfully until data is written into the buffer specified by the <i>lpOutBuffer</i> parameter. The <i>lpOverlapped</i> parameter is available to enable the calling thread to perform other tasks while the operation is executing in the background.

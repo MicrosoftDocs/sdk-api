@@ -92,7 +92,7 @@ The string specified for <i>InfSpec</i> is a full path. No further processing is
 
 #### INFINFO_DEFAULT_SEARCH
 
-Search the default locations for the INF file specified for <i>InfSpec</i>, which is assumed to be a filename only. The default locations are <i>%windir%</i>\<i>inf</i>, followed by <i>%windir%</i>\<i>system32</i>.
+Search the default locations for the INF file specified for <i>InfSpec</i>, which is assumed to be a filename only. The default locations are <i>%windir%</i>&#92;<i>inf</i>, followed by <i>%windir%</i>&#92;<i>system32</i>.
 
 
 

@@ -151,7 +151,7 @@ Directs Winsock to use the system's default thread to process long
 
 
 
-The system default thread can be adjusted using the following registry parameter as a REG_DWORD:<b>HKEY_LOCAL_MACHINE</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>AFD</b>\<b>Parameters</b>\<b>TransmitWorker</b>
+The system default thread can be adjusted using the following registry parameter as a REG_DWORD:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>AFD</b>&#92;<b>Parameters</b>&#92;<b>TransmitWorker</b>
 
 
 

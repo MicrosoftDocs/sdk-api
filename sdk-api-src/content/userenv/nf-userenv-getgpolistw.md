@@ -91,7 +91,7 @@ If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NUL
 
 ### -param lpComputerName [in]
 
-A pointer to the name of the computer used to determine the site location. The format of the name is "\\<i>computer_name</i>". If this parameter is <b>NULL</b>, the local computer name is used.
+A pointer to the name of the computer used to determine the site location. The format of the name is "&#92;&#92;<i>computer_name</i>". If this parameter is <b>NULL</b>, the local computer name is used.
 
 
 ### -param dwFlags [in]

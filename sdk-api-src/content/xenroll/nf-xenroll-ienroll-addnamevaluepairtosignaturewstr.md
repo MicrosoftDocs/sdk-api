@@ -69,7 +69,7 @@ A null-terminated Unicode string that contains the name of the attribute, such a
 
 ### -param Value [in]
 
- A null-terminated Unicode string that contains the value of the attribute, such as "US" or "<i>DomainName</i>\<i>UserID</i>".
+ A null-terminated Unicode string that contains the value of the attribute, such as "US" or "<i>DomainName</i>&#92;<i>UserID</i>".
 
 
 ## -returns

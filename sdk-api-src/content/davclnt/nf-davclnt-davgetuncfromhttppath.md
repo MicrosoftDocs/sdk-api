@@ -73,8 +73,8 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the HTTP path
 <li>https://<i>server</i></li>
 <li>\\https://<i>server</i>/<i>path</i></li>
 <li>\\https://<i>server</i></li>
-<li>\\<i>server</i>\<i>path</i></li>
-<li>\\<i>server</i></li>
+<li>&#92;&#92;<i>server</i>&#92;<i>path</i></li>
+<li>&#92;&#92;<i>server</i></li>
 </ul>
 
 ### -param UncPath [out]

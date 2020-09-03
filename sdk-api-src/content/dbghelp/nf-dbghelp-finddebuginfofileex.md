@@ -116,10 +116,10 @@ If the file name specified does not include a .dbg extension,
 <b>FindDebugInfoFileEx</b> searches for the file in the following sequence:
 
 <ol>
-<li><i>SymbolPath</i>\Symbols\<i>ext</i>\<i>filename</i>.dbg</li>
-<li><i>SymbolPath</i>\<i>ext</i>\<i>filename</i>.dbg</li>
-<li><i>SymbolPath</i>\<i>filename</i>.dbg</li>
-<li><i>FileNamePath</i>\<i>filename</i>.dbg</li>
+<li><i>SymbolPath</i>\Symbols&#92;<i>ext</i>&#92;<i>filename</i>.dbg</li>
+<li><i>SymbolPath</i>&#92;<i>ext</i>&#92;<i>filename</i>.dbg</li>
+<li><i>SymbolPath</i>&#92;<i>filename</i>.dbg</li>
+<li><i>FileNamePath</i>&#92;<i>filename</i>.dbg</li>
 </ol>
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 

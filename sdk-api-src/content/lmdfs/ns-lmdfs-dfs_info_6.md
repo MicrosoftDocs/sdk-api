@@ -73,7 +73,7 @@ Pointer to a null-terminated Unicode string that specifies the Universal Naming 
 
 For a link, the string can be in one of two forms. The first form is as follows:
 
-\\<i>ServerName</i>\<i>DfsName</i>\<i>link_path</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i>&#92;<i>link_path</i>
 
 where <i>ServerName</i> is the name of the root target server that hosts the stand-alone 
        DFS namespace; <i>DfsName</i> is the name of the DFS namespace; and 
@@ -81,7 +81,7 @@ where <i>ServerName</i> is the name of the root target server that hosts the sta
 
 The second form is as follows:
 
-\\<i>DomainName</i>\<i>DomDfsname</i>\<i>link_path</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsname</i>&#92;<i>link_path</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS 
        namespace; <i>DomDfsname</i> is the name of the DFS namespace; and 
@@ -89,11 +89,11 @@ where <i>DomainName</i> is the name of the domain that hosts the domain-based DF
 
 For a root, the string can be in one of two forms:
 
-\\<i>ServerName</i>\<i>DfsName</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i>
 
 or
 
-\\<i>DomainName</i>\<i>DomDfsname</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsname</i>
 
 where the values of the names are the same as those described previously.
 

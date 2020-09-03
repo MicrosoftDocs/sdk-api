@@ -66,7 +66,7 @@ You must run the process "As Administrator" so that the call doesn't fail with E
 ### -param SystemName [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the target system. The name can have the form "<i>ComputerName</i>" or "\\<i>ComputerName</i>". If this parameter is <b>NULL</b>, the function opens the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object on the local system.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the target system. The name can have the form "<i>ComputerName</i>" or "&#92;&#92;<i>ComputerName</i>". If this parameter is <b>NULL</b>, the function opens the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object on the local system.
 
 
 ### -param ObjectAttributes [in]

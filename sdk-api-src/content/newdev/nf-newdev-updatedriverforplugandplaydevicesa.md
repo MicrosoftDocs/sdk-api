@@ -1,17 +1,17 @@
 ---
 UID: NF:newdev.UpdateDriverForPlugAndPlayDevicesA
 title: UpdateDriverForPlugAndPlayDevicesA function (newdev.h)
+author: windows-sdk-content
 description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.
-helpviewer_keywords: ["UpdateDriverForPlugAndPlayDevices","UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation]","UpdateDriverForPlugAndPlayDevicesA","UpdateDriverForPlugAndPlayDevicesW","devinst.updatedriverforplugandplaydevices","di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml","newdev/UpdateDriverForPlugAndPlayDevices"]
 old-location: devinst\updatedriverforplugandplaydevices.htm
 tech.root: devinst
 ms.assetid: dd5022df-5b65-4ed4-ac54-68149df2c851
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation], UpdateDriverForPlugAndPlayDevicesA, UpdateDriverForPlugAndPlayDevicesW, devinst.updatedriverforplugandplaydevices, di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml, newdev/UpdateDriverForPlugAndPlayDevices
+ms.topic: function
 f1_keywords:
 - newdev/UpdateDriverForPlugAndPlayDevices
-dev_langs:
-- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -38,7 +38,8 @@ api_location:
 - Newdev.lib
 - Newdev.dll
 api_name:
-- UpdateDriverForPlugAndPlayDevices - UpdateDriverForPlugAndPlayDevicesA
+- UpdateDriverForPlugAndPlayDevices
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -66,7 +67,7 @@ A handle to the top-level window to use for any UI related to installing devices
 
 ### -param HardwareId [in]
 
-A pointer to a NULL-terminated string that supplies the hardware identifier to match existing devices on the computer. The maximum length of a NULL-terminated hardware identifier is MAX_DEVICE_ID_LEN. For more information about hardware identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
+A pointer to a NULL-terminated string that supplies the hardware identifier to match existing devices on the computer. The maximum length of a NULL-terminated hardware identifier is MAX_DEVICE_ID_LEN. For more information about hardware identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
 
 
 ### -param FullInfPath [in]
@@ -195,7 +196,7 @@ The function found a match for the <i>HardwareId</i> value, but the specified dr
 
 <b>UpdateDriverForPlugAndPlayDevices</b> scans the devices on the system and attempts to install the drivers specified by <i>FullInfPath</i> for any devices that match the specified <i>HardwareId</i> value. 
 
-The default behavior is to only install the specified drivers if they are better match than the currently installed drivers and the specified drivers are also a better match than any drivers in %<i>SystemRoot</i>%\<i>inf</i>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>. 
+The default behavior is to only install the specified drivers if they are better match than the currently installed drivers and the specified drivers are also a better match than any drivers in %<i>SystemRoot</i>%&#92;<i>inf</i>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>. 
 
 <b>UpdateDriverForPlugAndPlayDevices</b> can also be used to determine whether the device with the specified <i>HardwareId</i> value is plugged in. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-device-installation-application">Writing a Device Installation Application</a>.
 
@@ -222,8 +223,4 @@ If the application must call <b>UpdateDriverForPlugAndPlayDevices</b> several ti
 If the function returns ERROR_IN_WOW64 in a 32-bit application, the application is executing on a 64-bit system, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
 
 
-
-
-> [!NOTE]
-> The newdev.h header defines UpdateDriverForPlugAndPlayDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

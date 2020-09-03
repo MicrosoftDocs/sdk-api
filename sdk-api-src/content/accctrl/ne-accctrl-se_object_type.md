@@ -70,24 +70,24 @@ Unknown object type.
 Indicates a file or directory. The name string that identifies a file or directory object can be in one of the following formats:
 
 <ul>
-<li>A relative path, such as <i>FileName.dat</i> or ..\<i>FileName</i></li>
-<li>An absolute path, such as <i>FileName.dat</i>, C:\<i>DirectoryName</i>\<i>FileName.dat</i>, or G:\<i>RemoteDirectoryName</i>\<i>FileName.dat</i>.</li>
-<li>A UNC name, such as \\<i>ComputerName</i>\<i>ShareName</i>\<i>FileName.dat</i>.</li>
+<li>A relative path, such as <i>FileName.dat</i> or ..&#92;<i>FileName</i></li>
+<li>An absolute path, such as <i>FileName.dat</i>, C:&#92;<i>DirectoryName</i>&#92;<i>FileName.dat</i>, or G:&#92;<i>RemoteDirectoryName</i>&#92;<i>FileName.dat</i>.</li>
+<li>A UNC name, such as &#92;&#92;<i>ComputerName</i>&#92;<i>ShareName</i>&#92;<i>FileName.dat</i>.</li>
 </ul>
 
 ### -field SE_SERVICE
 
-Indicates a Windows service. A service object can be a local service, such as <i>ServiceName</i>, or a remote service, such as \\<i>ComputerName</i>\<i>ServiceName</i>.
+Indicates a Windows service. A service object can be a local service, such as <i>ServiceName</i>, or a remote service, such as &#92;&#92;<i>ComputerName</i>&#92;<i>ServiceName</i>.
 
 
 ### -field SE_PRINTER
 
-Indicates a printer. A printer object can be a local printer, such as <i>PrinterName</i>, or a remote printer, such as \\<i>ComputerName</i>\<i>PrinterName</i>.
+Indicates a printer. A printer object can be a local printer, such as <i>PrinterName</i>, or a remote printer, such as &#92;&#92;<i>ComputerName</i>&#92;<i>PrinterName</i>.
 
 
 ### -field SE_REGISTRY_KEY
 
-Indicates a registry key. A registry key object can be in the local registry, such as <b>CLASSES_ROOT</b>\<i>SomePath</i> or in a remote registry, such as \\<i>ComputerName</i>\<b>CLASSES_ROOT</b>\<i>SomePath</i>. 
+Indicates a registry key. A registry key object can be in the local registry, such as <b>CLASSES_ROOT</b>&#92;<i>SomePath</i> or in a remote registry, such as &#92;&#92;<i>ComputerName</i>&#92;<b>CLASSES_ROOT</b>&#92;<i>SomePath</i>. 
 
 
 
@@ -97,7 +97,7 @@ The names of registry keys must use the following literal strings to identify th
 
 ### -field SE_LMSHARE
 
-Indicates a network share. A share object can be local, such as <i>ShareName</i>, or remote, such as \\<i>ComputerName</i>\<i>ShareName</i>.
+Indicates a network share. A share object can be local, such as <i>ShareName</i>, or remote, such as &#92;&#92;<i>ComputerName</i>&#92;<i>ShareName</i>.
 
 
 ### -field SE_KERNEL_OBJECT

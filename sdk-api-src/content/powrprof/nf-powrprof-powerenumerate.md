@@ -214,7 +214,7 @@ Enumerate subgroups under <i>SchemeGuid</i>. The
 </td>
 <td width="60%">
 Enumerate individual power settings under 
-        <i>SchemeGuid</i>\<i>SubgroupOfPowerSettingsGuid</i>. To enumerate power 
+        <i>SchemeGuid</i>&#92;<i>SubgroupOfPowerSettingsGuid</i>. To enumerate power 
         settings directly under the <i>SchemeGuid</i> key, use 
         <b>NO_SUBGROUP_GUID</b> as the <i>SubgroupOfPowerSettingsGuid</i> 
         parameter.

@@ -109,8 +109,8 @@ For an action report, the scope is based on the quota or file screen event that 
 
 Lists duplicate files. All files with the same file name, file size, and last modify time under the scope 
       of the report job are considered duplicates. For example, if the scope of the report is C:\ and 
-      D:\ and file file1.txt exists in C:\<i>folder1</i>\, 
-      C:\<i>folder2</i>\ and D:\<i>folder1</i>\ with 
+      D:\ and file file1.txt exists in C:&#92;<i>folder1</i>\, 
+      C:&#92;<i>folder2</i>\ and D:&#92;<i>folder1</i>\ with 
       the same modify time and file size, then the files are considered duplicates.
 
 

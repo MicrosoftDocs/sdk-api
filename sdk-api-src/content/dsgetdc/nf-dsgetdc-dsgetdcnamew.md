@@ -612,14 +612,14 @@ Whenever <b>DsGetDcName</b> retrieves a domain controller name
       value in the following registry keys
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>Netlogon</b>\<b>Parameters</b>\<b>ForceRediscoveryInterval</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Netlogon</b>&#92;<b>Parameters</b>&#92;<b>ForceRediscoveryInterval</b>
 
 
 
 and
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>Software</b>\<b>Policies</b>\<b>Microsoft</b>\<b>Netlogon</b>\<b>Parameters</b>\<b>ForceRediscoveryInterval</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>Software</b>&#92;<b>Policies</b>&#92;<b>Microsoft</b>&#92;<b>Netlogon</b>&#92;<b>Parameters</b>&#92;<b>ForceRediscoveryInterval</b>
 
 
 
@@ -648,7 +648,7 @@ To turn on <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/even
       <b>DsGetDcName</b>, create the following registry key:
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>DCLocator</b>\<b>Tracing</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>DCLocator</b>&#92;<b>Tracing</b>
 
 
 

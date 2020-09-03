@@ -1,17 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetThreadPriority
 title: SetThreadPriority function (processthreadsapi.h)
+author: windows-sdk-content
 description: Sets the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base priority level.
-helpviewer_keywords: ["SetThreadPriority","SetThreadPriority function","THREAD_MODE_BACKGROUND_BEGIN","THREAD_MODE_BACKGROUND_END","THREAD_PRIORITY_ABOVE_NORMAL","THREAD_PRIORITY_BELOW_NORMAL","THREAD_PRIORITY_HIGHEST","THREAD_PRIORITY_IDLE","THREAD_PRIORITY_LOWEST","THREAD_PRIORITY_NORMAL","THREAD_PRIORITY_TIME_CRITICAL","_win32_setthreadpriority","base.setthreadpriority","processthreadsapi/SetThreadPriority","winbase/SetThreadPriority"]
 old-location: base\setthreadpriority.htm
-tech.root: backup
+tech.root: ProcThread
 ms.assetid: e3992e19-b546-4b0b-aa6a-dd9a7e330bf3
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadPriority, SetThreadPriority function, THREAD_MODE_BACKGROUND_BEGIN, THREAD_MODE_BACKGROUND_END, THREAD_PRIORITY_ABOVE_NORMAL, THREAD_PRIORITY_BELOW_NORMAL, THREAD_PRIORITY_HIGHEST, THREAD_PRIORITY_IDLE, THREAD_PRIORITY_LOWEST, THREAD_PRIORITY_NORMAL, THREAD_PRIORITY_TIME_CRITICAL, _win32_setthreadpriority, base.setthreadpriority, processthreadsapi/SetThreadPriority, winbase/SetThreadPriority
-f1_keywords:
-- processthreadsapi/SetThreadPriority
-dev_langs:
-- c++
+ms.topic: function
+f1_keywords: 
+ - "processthreadsapi/SetThreadPriority"
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -30,21 +30,22 @@ req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
-- SetThreadPriority
+ - SetThreadPriority
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -238,7 +239,7 @@ The <b>THREAD_PRIORITY_*</b> values affect the CPU scheduling priority of the th
 
 When a thread is in background processing mode, it should minimize sharing resources such as critical sections, heaps, and handles with other threads in the process, otherwise priority inversions can occur. If there are threads executing at high priority, a thread in background processing mode may not be scheduled promptly, but it will never be starved.
 
-<b>Windows Server 2008 and Windows Vista:  </b>While the system is starting, the <b>SetThreadPriority</b> function returns a success return value but does not change thread priority  for applications that are started from the system Startup folder or listed in the <b>HKEY_LOCAL_MACHINE</b>\\<b>SOFTWARE</b>\\<b>Microsoft</b>\\<b>Windows</b>\\<b>CurrentVersion</b>\\<b>Run</b> registry key. These applications run at reduced priority for a short time (approximately 60 seconds) to make the system more responsive to user actions during startup. 
+<b>Windows Server 2008 and Windows Vista:  </b>While the system is starting, the <b>SetThreadPriority</b> function returns a success return value but does not change thread priority  for applications that are started from the system Startup folder or listed in the <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Run</b> registry key. These applications run at reduced priority for a short time (approximately 60 seconds) to make the system more responsive to user actions during startup. 
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps.
 

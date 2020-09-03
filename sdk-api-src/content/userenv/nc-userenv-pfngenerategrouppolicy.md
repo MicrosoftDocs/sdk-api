@@ -115,7 +115,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 
 
-The policy extension must register this callback function at the registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>Winlogon</b>\<b>GPExtensions</b>\<b>ClientExtensionGuid</b>
+The policy extension must register this callback function at the registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>Winlogon</b>&#92;<b>GPExtensions</b>&#92;<b>ClientExtensionGuid</b>
 
 
 

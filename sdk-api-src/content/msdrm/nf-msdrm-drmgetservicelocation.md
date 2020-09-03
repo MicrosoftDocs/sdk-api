@@ -187,12 +187,12 @@ For the preceding cases where the function searches the registry, you can force 
 <li>32-bit application on a 32-bit computer</li>
 <li>64-bit application on a 64-bit computer</li>
 </ul>
-<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>MSDRM</b>\<b>ServiceLocation</b>\<b>Activation</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>MSDRM</b>&#92;<b>ServiceLocation</b>&#92;<b>Activation</b>
 
 <ul>
 <li>32-bit application on a 64-bit computer</li>
 </ul>
-<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Wow6432Node</b>\<b>Microsoft</b>\<b>MSDRM</b>\<b>ServiceLocation</b>\<b>Activation</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Wow6432Node</b>&#92;<b>Microsoft</b>&#92;<b>MSDRM</b>&#92;<b>ServiceLocation</b>&#92;<b>Activation</b>
 
 </td>
 <td>
@@ -208,12 +208,12 @@ Beginning with RMS v1.0 SP1, this value can only be used to discover a certifica
 <li>32-bit application on a 32-bit computer</li>
 <li>64-bit application on a 64-bit computer</li>
 </ul>
-<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>MSDRM</b>\<b>ServiceLocation</b>\<b>EnterprisePublishing</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>MSDRM</b>&#92;<b>ServiceLocation</b>&#92;<b>EnterprisePublishing</b>
 
 <ul>
 <li>32-bit application on a 64-bit computer</li>
 </ul>
-<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Wow6432Node</b>\<b>Microsoft</b>\<b>MSDRM</b>\<b>ServiceLocation</b>\<b>EnterprisePublishing</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Wow6432Node</b>&#92;<b>Microsoft</b>&#92;<b>MSDRM</b>&#92;<b>ServiceLocation</b>&#92;<b>EnterprisePublishing</b>
 
 </td>
 <td>Set this registry value to the URL of a service that signs issuance licenses within an enterprise network.</td>
@@ -224,12 +224,12 @@ Beginning with RMS v1.0 SP1, this value can only be used to discover a certifica
 <li>32-bit application on a 32-bit computer</li>
 <li>64-bit application on a 64-bit computer</li>
 </ul>
-<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>MSDRM</b>\<b>ServiceLocation</b>\<b>CloudPublishing</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>MSDRM</b>&#92;<b>ServiceLocation</b>&#92;<b>CloudPublishing</b>
 
 <ul>
 <li>32-bit application on a 64-bit computer</li>
 </ul>
-<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Wow6432Node</b>\<b>Microsoft</b>\<b>MSDRM</b>\<b>ServiceLocation</b>\<b>CloudPublishing</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Wow6432Node</b>&#92;<b>Microsoft</b>&#92;<b>MSDRM</b>&#92;<b>ServiceLocation</b>&#92;<b>CloudPublishing</b>
 
 </td>
 <td>Set this registry value to the URL of a service that signs issuance licenses over the Internet.</td>

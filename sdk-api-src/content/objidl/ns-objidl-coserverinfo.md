@@ -82,7 +82,7 @@ This member is reserved and must be 0.
 
 
 
-The <b>COSERVERINFO</b> structure is used primarily to identify a remote system in object creation functions. Computer resources are named using the naming scheme of the network transport. By default, all UNC ("\\<i>server</i>" or "<i>server</i>") and DNS names ("<i>domain</i>.com", "<i>example</i>.microsoft.com", or "135.5.33.19") names are allowed. 
+The <b>COSERVERINFO</b> structure is used primarily to identify a remote system in object creation functions. Computer resources are named using the naming scheme of the network transport. By default, all UNC ("&#92;&#92;<i>server</i>" or "<i>server</i>") and DNS names ("<i>domain</i>.com", "<i>example</i>.microsoft.com", or "135.5.33.19") names are allowed. 
 
 
 

@@ -90,7 +90,7 @@ If the function fails, the return value is a system error code. For a list of er
 
 
 
-The security descriptor is set for the object specified by the <b>HKLM</b>\<b>Software</b>\<b>Microsoft</b>\<b>Dfs</b>\<b>Standalone</b> key in the registry of the server specified in the <i>MachineName</i> parameter.
+The security descriptor is set for the object specified by the <b>HKLM</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Dfs</b>&#92;<b>Standalone</b> key in the registry of the server specified in the <i>MachineName</i> parameter.
 
 
 

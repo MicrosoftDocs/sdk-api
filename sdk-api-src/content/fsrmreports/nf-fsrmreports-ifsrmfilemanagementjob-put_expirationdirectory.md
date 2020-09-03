@@ -76,7 +76,7 @@ FSRM maintains the file's current directory structure in the expired directory s
      previous location. For example, if FSRM expired the file, 
      "C:\TestExpired\Test1.txt", the expired root directory would contain:
 
-"<i>FsrmServer(FQDN)</i>\<i>JobName</i>_<i>TimeStamp</i>\C$\TestExpired\Test1.txt"
+"<i>FsrmServer(FQDN)</i>&#92;<i>JobName</i>_<i>TimeStamp</i>\C$\TestExpired\Test1.txt"
 
 The expired file's ACLs are maintained with the file.
 

@@ -112,7 +112,7 @@ An important use for this function is to store delta files. For more information
 
 This function returns a pointer to a buffer that may be reused by another function. Therefore, be sure to copy the data returned to another buffer immediately.
 
-The symbol server stores supplemental files with the same extension in a common directory. For example, Sup1.xml would be stored in the following directory: <i>SymPath</i>\supplement\<i>Node</i>\xml.
+The symbol server stores supplemental files with the same extension in a common directory. For example, Sup1.xml would be stored in the following directory: <i>SymPath</i>\supplement&#92;<i>Node</i>\xml.
 
 The administrator of a store can prevent users from writing supplemental files by creating a read-only file in the root of the store named Supplement. Alternatively, the administrator can create the supplement directory and use ACLs to control access.
 

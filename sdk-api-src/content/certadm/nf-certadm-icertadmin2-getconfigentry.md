@@ -104,7 +104,7 @@ The return value is a <b>Variant</b> that represents the retrieved configuration
  The configuration information is stored in the registry under the following path.
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>CertSvc</b>\<b>Configuration</b>\<i>[CASANITIZEDNAME]</i>\<i>[strNodePath]</i>\<i>[strEntryName]</i></p>Where <i>CASANITIZEDNAME</i> is the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized name</a> for the CA. For more information about sanitized names, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>CertSvc</b>&#92;<b>Configuration</b>&#92;<i>[CASANITIZEDNAME]</i>&#92;<i>[strNodePath]</i>&#92;<i>[strEntryName]</i></p>Where <i>CASANITIZEDNAME</i> is the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized name</a> for the CA. For more information about sanitized names, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
 
 

@@ -61,7 +61,7 @@ The <b>VSS_VOLUME_PROP</b> structure contains the
 
 ### -field m_pwszVolumeName
 
-The volume name, in \\?\<i>Volume</i>{<i>GUID</i>}\ format.
+The volume name, in \\?&#92;<i>Volume</i>{<i>GUID</i>}\ format.
 
 
 ### -field m_pwszVolumeDisplayName

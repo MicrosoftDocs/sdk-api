@@ -76,7 +76,7 @@ If this value is not specified, the function retrieves only user policy informat
 
 ### -param pMachineName [in]
 
-A pointer to the name of the remote computer. The format of the name is "\\<i>computer_name</i>". If this parameter is <b>NULL</b>, the local computer name is used.
+A pointer to the name of the remote computer. The format of the name is "&#92;&#92;<i>computer_name</i>". If this parameter is <b>NULL</b>, the local computer name is used.
 
 
 ### -param pSidUser [in]

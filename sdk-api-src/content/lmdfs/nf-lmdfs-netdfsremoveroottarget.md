@@ -66,14 +66,14 @@ Pointer to a string that specifies the Universal Naming Convention (UNC) path of
 
 For a stand-alone DFS namespace, this string should be in the following form:
 
-\\<i>ServerName</i>\<i>DfsName</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i>
 
 where <i>ServerName</i> is the name of the server that hosts the DFS root target and 
        <i>DfsName</i> is the name of the DFS namespace.
 
 For a domain-based DFS namespace, this string should be in the following form:
 
-\\<i>DomainName</i>\<i>DomDfsName</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS 
        namespace and <i>DomDfsName</i> is the name of the DFS namespace.
@@ -87,7 +87,7 @@ Pointer to a null-terminated Unicode string that specifies the UNC path of a DFS
 For a stand-alone DFS namespace, this parameter must be <b>NULL</b>. For a domain-based 
        DFS namespace, the string should be in the following form:
 
-\\<i>ServerName</i>\<i>RootShare</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>RootShare</i>
 
 where <i>ServerName</i> is the name of the server that hosts the DFS root target and 
        <i>RootShare</i> is the name of the folder on the server.
@@ -134,13 +134,13 @@ The following list shows which parameter values you should specify, according to
 <th>Result</th>
 </tr>
 <tr>
-<td>\\<i>DomainName</i>\<i>DomDfsName</i></td>
-<td>\\<i>ServerName</i>\<i>RootShare</i></td>
+<td>&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i></td>
+<td>&#92;&#92;<i>ServerName</i>&#92;<i>RootShare</i></td>
 <td>Delete a Windows 2000 mode or Windows Server 2008 mode domain-based DFS root target. If the 
        target is the last root target for the DFS namespace, the function also deletes the DFS namespace.</td>
 </tr>
 <tr>
-<td>\\<i>ServerName</i>\<i>DfsName</i></td>
+<td>&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i></td>
 <td><b>NULL</b></td>
 <td>Delete a stand-alone DFS namespace.</td>
 </tr>

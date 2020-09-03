@@ -112,7 +112,7 @@ The known folder system that underlies <b>SHGetFolderPath</b> allows users or ad
 
 The default value of the folder, which is the location of the folder if a user or administrator had not redirected it elsewhere, is retrieved by specifying the SHGFP_TYPE_DEFAULT flag. This value can be used to implement a "restore defaults" feature for a known folder.
 
-For example, the default value (SHGFP_TYPE_DEFAULT) for <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Music</a> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYMUSIC</a>) is "C:\Users\<b>user name</b>\Music". If the folder was redirected, the current value (SHGFP_TYPE_CURRENT) might be "D:\Music". If the folder has not been redirected, then SHGFP_TYPE_DEFAULT and SHGFP_TYPE_CURRENT retrieve the same path.
+For example, the default value (SHGFP_TYPE_DEFAULT) for <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Music</a> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYMUSIC</a>) is "C:\Users&#92;<b>user name</b>\Music". If the folder was redirected, the current value (SHGFP_TYPE_CURRENT) might be "D:\Music". If the folder has not been redirected, then SHGFP_TYPE_DEFAULT and SHGFP_TYPE_CURRENT retrieve the same path.
 
 
 

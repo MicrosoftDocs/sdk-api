@@ -70,7 +70,7 @@ The name of the remote computer. The string has the following form:
 
 
 
-\\<i>computername</i>
+&#92;&#92;<i>computername</i>
 
 The caller must have access to the remote computer or the function fails.
 

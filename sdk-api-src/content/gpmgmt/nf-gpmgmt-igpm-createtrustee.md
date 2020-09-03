@@ -61,7 +61,7 @@ Creates and returns a <a href="https://docs.microsoft.com/previous-versions/wind
 
 ### -param bstrTrustee [in]
 
-Required. Trustee name or the security identifier (SID). Names are in a format that is compatible with Security Accounts Manager (SAM), such as <i>Exampledomain</i>\<i>Someone</i>.
+Required. Trustee name or the security identifier (SID). Names are in a format that is compatible with Security Accounts Manager (SAM), such as <i>Exampledomain</i>&#92;<i>Someone</i>.
 
 
 ### -param ppIGPMTrustee [out]

@@ -119,7 +119,7 @@ This registration is done per-user.
 A set of requirements must be met for the registration to be accomplished successfully:
 
 <ul>
-<li>The application must be registered under <b>HKEY_CLASSES_ROOT</b>\<b>Applications</b>.</li>
+<li>The application must be registered under <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b>.</li>
 <li>That registration cannot include the NoOpenWith value. See <a href="https://docs.microsoft.com/windows/desktop/shell/fa-file-types">File Types</a> for more details on NoOpenWith.</li>
 <li>That registration cannot supply data under a <b>SupportedTypes</b> subkey. See <a href="https://docs.microsoft.com/windows/desktop/shell/fa-file-types">File Types</a> for more details on the <b>SupportedTypes</b> subkey.</li>
 <li>
@@ -140,10 +140,10 @@ The application's executable file cannot be listed in the KillList value found h
 <div> </div>
 </li>
 <li>
-The application's <b>HKEY_CLASSES_ROOT</b>\<b>Applications</b> registration must have a set of default verbs defined under a 
+The application's <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b> registration must have a set of default verbs defined under a 
                         
                             
-                            <b>HKEY_CLASSES_ROOT</b>\<b>Applications</b>\<i>ExampleApp.exe</i>\<b>shell</b> subkey.
+                            <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b>&#92;<i>ExampleApp.exe</i>&#92;<b>shell</b> subkey.
                         
 
 If <b>SHAddToRecentDocs</b> is attempting the registration as the result of a drag-and-drop onto the taskbar button, the <b>shell</b> subkey is created if it does not already exist, as long as the existing application registration does not contain a NoOpenWith value and the application's executable is not listed in the KillList value.

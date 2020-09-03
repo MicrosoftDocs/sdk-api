@@ -271,7 +271,7 @@ Similarly, the key specification is determined by using the AttributeId with OID
 
 If the AttributeId is not present, then the CAPI key value is set to AT_KEYEXCHANGE for RSA or DH and the algorithm is determined by the AlgorithmIdentifier in PKCS #8; otherwise, the algorithm is set to AT_SIGNATURE. For the CNG key value, all ncrypt key usage is set.
 
-<div class="alert"><b>Note</b>  If an invalid provider name is present in the PFX packet, or the base or enhanced cryptography provider is not present in this registry key: <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Cryptography</b>\<b>Defaults</b>\<b>Provider</b>, then a provider lookup is performed by the provider type using this registry subkey: <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Cryptography</b>\<b>Defaults</b>\<b>Provider Types</b>.</div>
+<div class="alert"><b>Note</b>  If an invalid provider name is present in the PFX packet, or the base or enhanced cryptography provider is not present in this registry key: <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Cryptography</b>&#92;<b>Defaults</b>&#92;<b>Provider</b>, then a provider lookup is performed by the provider type using this registry subkey: <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Cryptography</b>&#92;<b>Defaults</b>&#92;<b>Provider Types</b>.</div>
 <div> </div>
 
 

@@ -136,9 +136,9 @@ If the COMClassStore Policy enables automatic installation, CLSCTX_NO_CODE_DOWNL
 If either of the following registry values are enabled (meaning set to 1), automatic download of missing classes is enabled:
 
 <ul>
-<li><b>HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\App Management</b>\<b>COMClassStore</b></li>
+<li><b>HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\App Management</b>&#92;<b>COMClassStore</b></li>
 <li><b>HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\App Management
-</b>\<b>COMClassStore</b></li>
+</b>&#92;<b>COMClassStore</b></li>
 </ul>
 
 

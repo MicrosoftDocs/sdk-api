@@ -1,17 +1,17 @@
 ---
 UID: NF:winsvc.CreateServiceW
 title: CreateServiceW function (winsvc.h)
+author: windows-sdk-content
 description: Creates a service object and adds it to the specified service control manager database.
-helpviewer_keywords: ["CreateService","CreateService function","CreateServiceA","CreateServiceW","SERVICE_ADAPTER","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_RECOGNIZER_DRIVER","SERVICE_SYSTEM_START","SERVICE_USER_OWN_PROCESS","SERVICE_USER_SHARE_PROCESS","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_createservice","base.createservice","winsvc/CreateService","winsvc/CreateServiceA","winsvc/CreateServiceW"]
 old-location: base\createservice.htm
-tech.root: security
+tech.root: Services
 ms.assetid: 47288924-3294-4a50-b27d-7df80d5c957c
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateService, CreateService function, CreateServiceA, CreateServiceW, SERVICE_ADAPTER, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_RECOGNIZER_DRIVER, SERVICE_SYSTEM_START, SERVICE_USER_OWN_PROCESS, SERVICE_USER_SHARE_PROCESS, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_createservice, base.createservice, winsvc/CreateService, winsvc/CreateServiceA, winsvc/CreateServiceW
-f1_keywords:
-- winsvc/CreateService
-dev_langs:
-- c++
+ms.topic: function
+f1_keywords: 
+ - "winsvc/CreateService"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
-- CreateService
-- CreateServiceA
-- CreateServiceW
+ - CreateService
+ - CreateServiceA
+ - CreateServiceW
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -74,7 +75,7 @@ A handle to the service control manager database. This handle is returned by the
 
 ### -param lpServiceName [in]
 
-The name of the service to install. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\\) are not valid service name characters.
+The name of the service to install. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\) are not valid service name characters.
 
 
 ### -param lpDisplayName [in, optional]
@@ -395,7 +396,7 @@ You must prefix group names with <b>SC_GROUP_IDENTIFIER</b> so that they can be 
 
 ### -param lpServiceStartName [in, optional]
 
-The name of the account under which the service should run. If the service type is SERVICE_WIN32_OWN_PROCESS, use an account name in the form *DomainName\UserName*. The service process will be logged on as this user. If the account belongs to the built-in domain, you can specify *.\UserName*. 
+The name of the account under which the service should run. If the service type is SERVICE_WIN32_OWN_PROCESS, use an account name in the form <i>DomainName</i>&#92;<i>UserName</i>. The service process will be logged on as this user. If the account belongs to the built-in domain, you can specify .&#92;<i>UserName</i>. 
 
 
 
@@ -414,7 +415,7 @@ A shared process can run as any user.
 
 If the service type is <b>SERVICE_KERNEL_DRIVER</b> or <b>SERVICE_FILE_SYSTEM_DRIVER</b>, the name is the driver object name that the system uses to load the device driver. Specify NULL if the driver is to use a default object name created by the I/O system.
 
-A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE\\*ServiceName*. For more information about managed service accounts and virtual accounts, see the <a href="https://technet.microsoft.com/library/dd548356.aspx">Service Accounts Step-by-Step Guide</a>.
+A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE&#92;<i>ServiceName</i>. For more information about managed service accounts and virtual accounts, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Managed service accounts and virtual accounts are not supported until Windows 7 and Windows Server 2008 R2.
 
@@ -644,10 +645,6 @@ For an example, see
 
 
 
-
-> [!NOTE]
-> The winsvc.h header defines CreateService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-
 ## -see-also
 
 
@@ -697,7 +694,7 @@ For an example, see
 
 
 
-<a href="https://technet.microsoft.com/library/dd548356.aspx">Service Accounts Step-by-Step Guide</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>
 
 
 

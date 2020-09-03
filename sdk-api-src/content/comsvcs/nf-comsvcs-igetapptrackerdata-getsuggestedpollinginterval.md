@@ -86,7 +86,7 @@ The polling interval is by default equal to the tracking event frequency (three 
 
 
 
-<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3</b>\<b>TrackingInfoPollingFrequency</b> = <i>minimum polling interval</i>
+<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3</b>&#92;<b>TrackingInfoPollingFrequency</b> = <i>minimum polling interval</i>
 
 
 

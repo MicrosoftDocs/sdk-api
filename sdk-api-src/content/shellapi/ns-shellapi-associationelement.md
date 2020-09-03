@@ -82,7 +82,7 @@ The <b>hkClass</b> member provides the full registry path of a CLSID.
 
 The <b>hkClass</b> member names a CLSID found as 
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<b>CLSID</b>\<i>pszClass</i>.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>CLSID</b>&#92;<i>pszClass</i>.
                             
 
 
@@ -97,7 +97,7 @@ The <b>hkClass</b> member provides the full registry path of a ProgID.
 
 The <b>hkClass</b> member names a key found as                
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<b>SystemFileAssociations</b>\<i>hkClass</i>.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>SystemFileAssociations</b>&#92;<i>hkClass</i>.
                             
 
 
@@ -106,7 +106,7 @@ The <b>hkClass</b> member names a key found as
 
 The <b>pszClass</b> member names a ProgID found as 
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<i>pszClass</i>.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<i>pszClass</i>.
                             
 
 
@@ -115,7 +115,7 @@ The <b>pszClass</b> member names a ProgID found as
 
 The <b>pszClass</b> member names a key found as
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<b>SystemFileAssociations</b>\<i>pszClass</i>.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>SystemFileAssociations</b>&#92;<i>pszClass</i>.
                             
 
 
@@ -124,7 +124,7 @@ The <b>pszClass</b> member names a key found as
 
 The APPID storing the application information is found at
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<b>Applications</b>\<i>FileName</i> where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b>&#92;<i>FileName</i> where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
 
 
 
@@ -134,7 +134,7 @@ The APPID storing the application information is found at
 
 Use the association information for folders stored under
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<b>Folder</b>. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>Folder</b>. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
 
 
 
@@ -142,7 +142,7 @@ Use the association information for folders stored under
 
 Use the association information stored under the 
                                 
-                                <b>HKEY_CLASSES_ROOT</b>\<b>*</b> subkey. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>*</b> subkey. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
 
 
 

@@ -1,17 +1,17 @@
 ---
 UID: NF:wincred.CredUIPromptForCredentialsW
 title: CredUIPromptForCredentialsW function (wincred.h)
+author: windows-sdk-content
 description: Creates and displays a configurable dialog box that accepts credentials information from a user.
-helpviewer_keywords: ["CREDUI_FLAGS_ALWAYS_SHOW_UI","CREDUI_FLAGS_COMPLETE_USERNAME","CREDUI_FLAGS_DO_NOT_PERSIST","CREDUI_FLAGS_EXCLUDE_CERTIFICATES","CREDUI_FLAGS_EXPECT_CONFIRMATION","CREDUI_FLAGS_GENERIC_CREDENTIALS","CREDUI_FLAGS_INCORRECT_PASSWORD","CREDUI_FLAGS_KEEP_USERNAME","CREDUI_FLAGS_PASSWORD_ONLY_OK","CREDUI_FLAGS_PERSIST","CREDUI_FLAGS_REQUEST_ADMINISTRATOR","CREDUI_FLAGS_REQUIRE_CERTIFICATE","CREDUI_FLAGS_REQUIRE_SMARTCARD","CREDUI_FLAGS_SERVER_CREDENTIAL","CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX","CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS","CREDUI_FLAGS_VALIDATE_USERNAME","CredUIPromptForCredentials","CredUIPromptForCredentials function [Security]","CredUIPromptForCredentialsA","CredUIPromptForCredentialsW","_cred_creduipromptforcredentials","security.creduipromptforcredentials","wincred/CredUIPromptForCredentials","wincred/CredUIPromptForCredentialsA","wincred/CredUIPromptForCredentialsW"]
 old-location: security\creduipromptforcredentials.htm
-tech.root: security
+tech.root: SecAuthN
 ms.assetid: 97a8e750-3e63-4e6f-a875-1e5c49c30dd4
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_COMPLETE_USERNAME, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_KEEP_USERNAME, CREDUI_FLAGS_PASSWORD_ONLY_OK, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CREDUI_FLAGS_VALIDATE_USERNAME, CredUIPromptForCredentials, CredUIPromptForCredentials function [Security], CredUIPromptForCredentialsA, CredUIPromptForCredentialsW, _cred_creduipromptforcredentials, security.creduipromptforcredentials, wincred/CredUIPromptForCredentials, wincred/CredUIPromptForCredentialsA, wincred/CredUIPromptForCredentialsW
+ms.topic: function
 f1_keywords:
 - wincred/CredUIPromptForCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -43,6 +43,7 @@ api_name:
 - CredUIPromptForCredentials
 - CredUIPromptForCredentialsA
 - CredUIPromptForCredentialsW
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -80,7 +81,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/n
 
 ### -param pszTargetName [in]
 
-A pointer to a null-terminated string that contains  the name of the target for the credentials, typically a server name. For Distributed File System (DFS) connections, this string is of the form <i>ServerName</i>\\<i>ShareName</i>. This parameter is used to identify target information when storing and retrieving credentials.
+A pointer to a null-terminated string that contains  the name of the target for the credentials, typically a server name. For Distributed File System (DFS) connections, this string is of the form <i>ServerName</i>&#92;<i>ShareName</i>. This parameter is used to identify target information when storing and retrieving credentials.
 
 
 ### -param pContext [in]
@@ -103,7 +104,7 @@ This function copies the user-supplied name to this buffer, copying a maximum of
 
 If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication function such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or an SSP function.
 
-If no domain or server is specified as part of this parameter, the value of the  <b>pszTargetName</b> parameter is used as the domain to form a <i>DomainName</i>\\<i>UserName</i> pair. On output, this parameter receives a string that contains that <i>DomainName</i>\\<i>UserName</i> pair.
+If no domain or server is specified as part of this parameter, the value of the  <b>pszTargetName</b> parameter is used as the domain to form a <i>DomainName</i>&#92;<i>UserName</i> pair. On output, this parameter receives a string that contains that <i>DomainName</i>&#92;<i>UserName</i> pair.
 
 
 ### -param ulUserNameBufferSize [in]
@@ -472,10 +473,6 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 
-
-
-> [!NOTE]
-> The wincred.h header defines CredUIPromptForCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

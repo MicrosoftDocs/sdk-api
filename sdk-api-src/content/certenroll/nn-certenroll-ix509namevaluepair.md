@@ -56,7 +56,7 @@ The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Al
 <dl>
 <dt><a id="name-value_pairs_and_the_enrollment_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_ENROLLMENT_OBJECT_"></a>name-value pairs and the enrollment object:</dt>
 <dd>
-Before an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>\<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-get_namevaluepairs">NameValuePairs</a> property. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> object to add name-value pairs to the collection.
+Before an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>&#92;<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-get_namevaluepairs">NameValuePairs</a> property. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> object to add name-value pairs to the collection.
 
 </dd>
 </dl>

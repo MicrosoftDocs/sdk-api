@@ -63,7 +63,7 @@ Retrieves a specified user's unread message count for any or all email accounts.
 
 Type: <b>HKEY</b>
 
-A valid HKEY for a given user. This parameter should be <b>NULL</b> if the function is called in a user's environment, in which case <b>HKEY_CURRENT_USER</b> is used. This parameter should be <b>NULL</b> if the function is called from the SYSTEM context, in which case <b>HKEY_USERS</b>\<i>{SID}</i> is used.
+A valid HKEY for a given user. This parameter should be <b>NULL</b> if the function is called in a user's environment, in which case <b>HKEY_CURRENT_USER</b> is used. This parameter should be <b>NULL</b> if the function is called from the SYSTEM context, in which case <b>HKEY_USERS</b>&#92;<i>{SID}</i> is used.
 
 
 ### -param pszMailAddress [in, optional]

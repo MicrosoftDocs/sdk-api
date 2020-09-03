@@ -72,7 +72,7 @@ Pointer to a constant null-terminated character string that contains the name of
 
 <ul>
 <li>A local printer, such as, "<i>printername</i>"</li>
-<li>A network printer, such as "\\<i>machinename</i>\<i>printername</i>"</li>
+<li>A network printer, such as "&#92;&#92;<i>machinename</i>&#92;<i>printername</i>"</li>
 <li><b>NULL</b> to specify the local fax printer</li>
 </ul>
 

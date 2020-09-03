@@ -71,7 +71,7 @@ The registry root key that contains the subkey with the property sheet extension
 
 Type: <b>PCWSTR</b>
 
-A pointer to a null-terminated string specifying the name of the subkey that contains <b>shellex</b>\<b>PropertySheetHandlers</b>.
+A pointer to a null-terminated string specifying the name of the subkey that contains <b>shellex</b>&#92;<b>PropertySheetHandlers</b>.
 
 For example, if  <i>hkey</i> specifies HKEY_LOCAL_MACHINE and <i>pszSubkey</i> specifies "Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display", this function returns property sheet extension handlers using the following subkey:
 

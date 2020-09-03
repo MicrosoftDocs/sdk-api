@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-If you set this property before opening a key, the reader name is concatenated to the name of the key container. The format is \\.\<i>Reader_Name</i>\<i>Container_Name</i>. Prepending the reader name to the key container name enables the name to be disambiguated in subsequent calls to a cryptographic provider. The private key is typically stored in the smart card key container when a smart card is used.
+If you set this property before opening a key, the reader name is concatenated to the name of the key container. The format is \\.&#92;<i>Reader_Name</i>&#92;<i>Container_Name</i>. Prepending the reader name to the key container name enables the name to be disambiguated in subsequent calls to a cryptographic provider. The private key is typically stored in the smart card key container when a smart card is used.
 
 
 

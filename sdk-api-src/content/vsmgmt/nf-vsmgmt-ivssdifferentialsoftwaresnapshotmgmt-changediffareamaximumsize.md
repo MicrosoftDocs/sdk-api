@@ -72,7 +72,7 @@ The name of the volume must be in one of the following formats and must include 
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, 
          D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
 
@@ -88,7 +88,7 @@ The name of the volume must be in one of the following formats and must include 
 <li>The path of a mounted folder</li>
 <li>A drive letter, for example, 
          D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
 

@@ -279,15 +279,15 @@ To create an instance of the MFT, call <a href="https://docs.microsoft.com/windo
 <h3><a id="Hardware_Codecs"></a><a id="hardware_codecs"></a><a id="HARDWARE_CODECS"></a>Hardware Codecs</h3>
 Hardware codecs are excluded from the enumeration results if the following registry keys are set to zero:
 
-Decoders: <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows Media Foundation</b>\<b>HardwareMFT</b>\<b>EnableDecoders</b>
+Decoders: <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows Media Foundation</b>&#92;<b>HardwareMFT</b>&#92;<b>EnableDecoders</b>
 
 
 
-Encoders: <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows Media Foundation</b>\<b>HardwareMFT</b>\<b>EnableEncoders</b>
+Encoders: <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows Media Foundation</b>&#92;<b>HardwareMFT</b>&#92;<b>EnableEncoders</b>
 
 
 
-Video processors: <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows Media Foundation</b>\<b>HardwareMFT</b>\<b>EnableVideoProcessors</b>
+Video processors: <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows Media Foundation</b>&#92;<b>HardwareMFT</b>&#92;<b>EnableVideoProcessors</b>
 
 
 

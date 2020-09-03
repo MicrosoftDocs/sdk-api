@@ -81,13 +81,13 @@ Pointer to a null-terminated Unicode string that contains the name of a DFS name
 
 The first format is:
 
-\<i>ServerName</i>\<i>DfsName</i>
+&#92;<i>ServerName</i>&#92;<i>DfsName</i>
 
 where <i>ServerName</i> is the name of the root target server that hosts the stand-alone DFS namespace and <i>DfsName</i> is the name of the DFS namespace.
 
 The second format is:
 
-\<i>DomainName</i>\<i>DomDfsName</i>
+&#92;<i>DomainName</i>&#92;<i>DomDfsName</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS namespace and <i>DomDfsname</i> is the name of the DFS namespace.
 

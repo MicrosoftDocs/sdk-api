@@ -64,13 +64,13 @@ Pointer to a string that specifies the Universal Naming Convention (UNC) path of
 
 The string can be in one of two forms. The first form is as follows:
 
-\\<i>ServerName</i>\<i>DfsName</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i>
 
 where <i>ServerName</i> is the name of the root target server that hosts the stand-alone DFS namespace and <i>Dfsname</i> is the name of the DFS namespace.
 
 The second form is as follows:
 
-\\<i>DomainName</i>\<i>DomDfsName</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS namespace and <i>DomDfsName</i> is the name of the DFS namespace.
 
@@ -111,7 +111,7 @@ If the function fails, the return value is a system error code. For a list of er
 
 For domain-based DFS namespaces, the security descriptor is retrieved from the "CN=<i>DomDfsName</i>,CN=DFS-Configuration,CN=System,DC=<i>domain</i>" object in Active Directory from the primary domain controller (PDC) of the domain that hosts the DFS namespace, where <i>DomDfsName</i> is the name of the domain-based DFS namespace and &lt;domain&gt; is the distinguished name of the Active Directory domain that hosts the namespace.
 
-For stand-alone roots, the security descriptor is retrieved from the object specified by the <b>HKLM</b>\<b>Software</b>\<b>Microsoft</b>\<b>Dfs</b>\<b>Standalone</b>\<b>&lt;root-name&gt;</b> registry entry.
+For stand-alone roots, the security descriptor is retrieved from the object specified by the <b>HKLM</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Dfs</b>&#92;<b>Standalone</b>&#92;<b>&lt;root-name&gt;</b> registry entry.
 
 
 

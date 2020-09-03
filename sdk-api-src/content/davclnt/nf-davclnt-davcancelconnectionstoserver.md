@@ -64,7 +64,7 @@ Pointer to a null-terminated Unicode string that contains the name of the remote
 
 <ul>
 <li>http://<i>server</i>/<i>path</i></li>
-<li>\\<i>server</i>\<i>path</i></li>
+<li>&#92;&#92;<i>server</i>&#92;<i>path</i></li>
 <li><i>server</i></li>
 </ul>
 where <i>server</i> is the name of a WebDAV server, and <i>path</i> is the path to a remote file or directory on the server.

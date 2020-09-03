@@ -89,7 +89,7 @@ Pre-Logon-Access Provider. Credential providers responding to this usage scenari
 
                 
 
-<b>HKLM</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>Authentication</b>\<b>PLAP Providers</b>
+<b>HKLM</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Authentication</b>&#92;<b>PLAP Providers</b>
 
 
 ## -remarks

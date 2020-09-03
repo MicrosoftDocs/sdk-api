@@ -69,7 +69,7 @@ Null-terminated wide character string containing the name of the volume or the U
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 <li>A UNC path that specifies a remote file share, for example, \\Clusterx\Share1\</li>
 </ul>
 

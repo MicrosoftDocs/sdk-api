@@ -95,7 +95,7 @@ A pointer to a buffer that receives the string.
 
 Strings of the following form receive special handling:
 
-@[<i>path</i>]\<i>dllname</i>,-<i>strID</i>
+@[<i>path</i>]&#92;<i>dllname</i>,-<i>strID</i>
 
 The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. If the <i>pszDirectory</i> parameter is not <b>NULL</b>, the directory is prepended to the path specified in the registry data. Note that <i>dllname</i> can contain environment variables to be expanded. 
 

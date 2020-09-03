@@ -62,14 +62,14 @@ Initialize objects that share an implementation of <a href="https://docs.microso
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a string that contains the command name (the name of the command key as found in the registry). For instance, if the command is registered under <b>...</b>\<b>shell</b>\<b>MyCommand</b>, <i>pszCommandName</i> points to "MyCommand".
+Pointer to a string that contains the command name (the name of the command key as found in the registry). For instance, if the command is registered under <b>...</b>&#92;<b>shell</b>&#92;<b>MyCommand</b>, <i>pszCommandName</i> points to "MyCommand".
 
 
 ### -param ppb [in]
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> instance that can be used to read the properties related to the command in the registry. For example, a command may registry a string property under its <b>...</b>\<b>shell</b>\<b>MyCommand</b> subkey.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> instance that can be used to read the properties related to the command in the registry. For example, a command may registry a string property under its <b>...</b>&#92;<b>shell</b>&#92;<b>MyCommand</b> subkey.
 
 
 ## -returns

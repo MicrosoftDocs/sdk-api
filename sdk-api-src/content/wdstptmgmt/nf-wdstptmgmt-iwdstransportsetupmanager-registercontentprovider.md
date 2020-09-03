@@ -94,7 +94,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 To enable a multicast provider to support unauthenticated connections, the provider developer can add the <b>AllowUnAuth</b> key to the registry and set its <b>DWORD</b> value equal to 1.
 
 
-<b>HKLM</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>WDSServer</b>\<b>Providers</b>\<b>WDSMC</b>\<b>Providers</b>\<b><i>Content Provider Name (i.e. bszName)</i></b>\<b>AllowUnauth</b>
+<b>HKLM</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>WDSServer</b>&#92;<b>Providers</b>&#92;<b>WDSMC</b>&#92;<b>Providers</b>&#92;<b><i>Content Provider Name (i.e. bszName)</i></b>&#92;<b>AllowUnauth</b>
 
 
 

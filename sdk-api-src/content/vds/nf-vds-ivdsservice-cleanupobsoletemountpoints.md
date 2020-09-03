@@ -135,8 +135,8 @@ In addition, if the volume contains any mounted folders,
     <b>CleanupObsoleteMountPoints</b> 
     removes them. For example, if <i>Volume1</i> on <i>Disk1</i> is being 
     removed and <i>Volume1</i> is mounted as 
-    <i>x</i>:\<i>MountVolume1</i> on <i>Disk2</i>, the 
-    \<i>MountVolume1</i> folder on <i>Disk2</i> is also deleted.
+    <i>x</i>:&#92;<i>MountVolume1</i> on <i>Disk2</i>, the 
+    &#92;<i>MountVolume1</i> folder on <i>Disk2</i> is also deleted.
 
 
 
