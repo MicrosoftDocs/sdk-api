@@ -235,7 +235,9 @@ If the <b>TargetName</b> is a domain name that contains a wildcard character seq
 If <b>TargetName</b> is a DNS domain name that contains a wildcard character sequence, the <b>TargetAlias</b> member can be a NetBIOS domain name that uses a wildcard sequence for the same domain.
 
 
+
 If <b>TargetName</b>  specifies a DFS share, for example, <i>DfsRoot</i><b>\\</b><i>DfsShare</i>, then this credential matches the specific DFS share and any servers reached through that DFS share.
+
 
 If <b>TargetName</b> is a single asterisk (*), this credential matches any server name.
 
@@ -355,7 +357,7 @@ The user name of the account used to connect to <b>TargetName</b>.
 
 
 
-If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b>\</b><i>UserName</i> or a UPN.
+If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b></b><i>UserName</i> or a UPN.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
 

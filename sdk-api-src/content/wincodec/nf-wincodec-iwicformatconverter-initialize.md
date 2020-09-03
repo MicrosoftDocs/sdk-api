@@ -105,13 +105,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 
-
-
 If you do not have a predefined palette, you must first create one. Use <a href="https://msdn.microsoft.com/f17d0f16-729e-466c-902f-61398daf2921">InitializeFromBitmap</a> to create the palette object, then pass it in along with your other parameters.
 
 
 <i>dither</i>, <i>pIPalette</i>, <i>alphaThresholdPercent</i>, and <i>paletteTranslate</i> are used to mitigate color loss when converting to a reduced bit-depth format. For conversions that do not need these settings, the following parameters values should be used: <i>dither</i> set to <b>WICBitmapDitherTypeNone</b>, <i>pIPalette</i> set to <b>NULL</b>, <i>alphaThresholdPercent</i> set to <b>0.0f</b>, and <i>paletteTranslate</i> set to <b>WICBitmapPaletteTypeCustom</b>.  
-         
 
 
 The basic algorithm involved when using an ordered dither requires a fixed palette, found in the <a href="https://msdn.microsoft.com/a8192905-2bae-4760-bf2d-64640c46e168">WICBitmapPaletteType</a> enumeration, in a specific order.
@@ -126,7 +123,6 @@ Often, the actual palette provided for the output may have a different ordering 
 
  When converting a bitmap which has an alpha channel, such as a Portable Network Graphics (PNG), to 8bpp, the alpha channel is normally ignored. Any pixels which were transparent in the original bitmap show up as black in the final output because both transparent and black have pixel values of zero in the respective formats.
 
-
 Some 8bpp content can contains an alpha color; for instance, the Graphics Interchange Format (GIF) format allows for a single palette entry to be used as a transparent color.
 For this type of content, <i>alphaThresholdPercent</i>  specifies what percentage of transparency should map to the transparent color. Because the alpha value is directly proportional to the opacity (not transparency) of a pixel, the <i>alphaThresholdPercent</i> indicates what level of opacity is mapped to the fully transparent color. 
 
@@ -135,7 +131,6 @@ For instance, 9.8% implies that any pixel with an alpha value of less than 25 wi
 #### Examples
 
 The following example converts an image frame to a 32bppPBGRA format with no dithering or alpha threshold. Direct2D requires bitmap sources to be in the a 32bppPBGRA format for rendering. For a full sample demonstrating the use of the <a href="https://msdn.microsoft.com/d558aaa7-5962-424c-9e83-363fba09ad50">IWICFormatConverter</a>, see the <a href="https://msdn.microsoft.com/4f989ff6-b513-4354-a1bb-8d9521f693a2">WIC Image Viewer Using Direct2D Sample</a>.
-
 
 ```cpp
 HRESULT hr = S_OK;
