@@ -88,7 +88,7 @@ This value
       current handle.
 
 To obtain the full path to the 
-      image file, prefix the relative path returned in <i>ppWszValue</i> with "\\<i>Server</i>\\RemInst\".
+      image file, prefix the relative path returned in <i>ppWszValue</i> with "&#92;&#92;<i>Server</i>\\RemInst\".
 
 
 

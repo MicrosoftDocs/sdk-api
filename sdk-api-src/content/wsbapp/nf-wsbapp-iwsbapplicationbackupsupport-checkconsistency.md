@@ -87,7 +87,7 @@ The number of shadow copy volumes. The value of this parameter can range from 0 
 
 A pointer to an array of volume <b>GUID</b> paths, one for each of the source 
     volumes. The format of a volume <b>GUID</b> path is 
-  "\\?\<i>Volume</i>{<i>GUID</i>}\".
+  "\\?&#92;<i>Volume</i>{<i>GUID</i>}\".
 
 
 ### -param rgwszSnapshotVolumePath [in, optional]

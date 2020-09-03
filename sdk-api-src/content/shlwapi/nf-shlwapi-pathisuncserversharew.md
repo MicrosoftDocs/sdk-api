@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines if a string is a valid Universal Naming Convention (UNC) share path, \\<i>server</i>\<i>share</i>.
+Determines if a string is a valid Universal Naming Convention (UNC) share path, &#92;&#92;<i>server</i>&#92;<i>share</i>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a null-terminated string of maximum length MAX_PATH that contains t
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if the string is in the form \\<i>server</i>\<i>share</i>, or <b>FALSE</b> otherwise.
+Returns <b>TRUE</b> if the string is in the form &#92;&#92;<i>server</i>&#92;<i>share</i>, or <b>FALSE</b> otherwise.
 
 
 

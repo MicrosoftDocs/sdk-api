@@ -165,7 +165,7 @@ Check whether the target file exists, and, if so, notify the caller who may veto
 </dl>
 </td>
 <td width="60%">
-Do not decompress the file. When this flag is set, the target file is not given the uncompressed form of the source name (if appropriate). For example, copying F:<i>\x86\cmd.ex_</i> to \\<i>install</i>\<i>temp</i> results in a target file of <i>\\install\temp\cmd.ex_</i>. If the SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called <i>\\install\temp\cmd.exe</i>. The file name part of <i>DestinationName</i>, if specified, is stripped and replaced with the file name of the source file. When SP_COPY_NODECOMP is specified, no language or version information can be checked.
+Do not decompress the file. When this flag is set, the target file is not given the uncompressed form of the source name (if appropriate). For example, copying F:<i>\x86\cmd.ex_</i> to &#92;&#92;<i>install</i>&#92;<i>temp</i> results in a target file of <i>\\install\temp\cmd.ex_</i>. If the SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called <i>\\install\temp\cmd.exe</i>. The file name part of <i>DestinationName</i>, if specified, is stripped and replaced with the file name of the source file. When SP_COPY_NODECOMP is specified, no language or version information can be checked.
 
 </td>
 </tr>

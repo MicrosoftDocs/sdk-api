@@ -68,7 +68,9 @@ Releases ownership of the specified mutex object.
 
 A handle to the mutex object. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
-[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) function returns this handle. 
+
+<a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-openmutexw">OpenMutex</a> function returns this handle.
+
 
 
 

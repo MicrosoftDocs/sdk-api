@@ -159,19 +159,19 @@ To write a message to a mailslot, a process uses the
 <th>Usage</th>
 </tr>
 <tr>
-<td>\\.\mailslot\<i>name</i></td>
+<td>\\.\mailslot&#92;<i>name</i></td>
 <td>Retrieves a client handle to a local mailslot.</td>
 </tr>
 <tr>
-<td>\\<i>computername</i>\mailslot\<i>name</i></td>
+<td>&#92;&#92;<i>computername</i>\mailslot&#92;<i>name</i></td>
 <td>Retrieves a client handle to a remote mailslot.</td>
 </tr>
 <tr>
-<td>\\<i>domainname</i>\mailslot\<i>name</i></td>
+<td>&#92;&#92;<i>domainname</i>\mailslot&#92;<i>name</i></td>
 <td>Retrieves a client handle to all mailslots with the specified name in the specified domain.</td>
 </tr>
 <tr>
-<td>\\*\mailslot\<i>name</i></td>
+<td>\\*\mailslot&#92;<i>name</i></td>
 <td>Retrieves a client handle to all mailslots with the specified name in the system's primary domain.</td>
 </tr>
 </table>

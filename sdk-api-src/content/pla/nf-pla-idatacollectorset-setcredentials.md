@@ -60,7 +60,7 @@ Specifies the user account under which the data collector set runs.
 
 ### -param user [in]
 
-A user account under which the data collector set runs. Specify the user name in the form <i>domain</i>\<i>user</i> or <i>user</i>@<i>domain</i>.
+A user account under which the data collector set runs. Specify the user name in the form <i>domain</i>&#92;<i>user</i> or <i>user</i>@<i>domain</i>.
 
 
 ### -param password [in]

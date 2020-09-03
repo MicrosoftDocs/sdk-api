@@ -298,11 +298,11 @@ On Windows Server 2008 R2 and Windows 7, the Microsoft Smart Card Key Storage
 <li>Importing private keys is supported by the smart card.</li>
 <li>The following two registry keys are set to a <b>DWORD</b> of 0x1:<ul>
 <li>
-<b>HKLM</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Cryptography</b>\<b>Defaults</b>\<b>Provider</b>\<b>Microsoft Base Smart Card Crypto Provider</b>\<b>AllowPrivateExchangeKeyImport</b>
+<b>HKLM</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Cryptography</b>&#92;<b>Defaults</b>&#92;<b>Provider</b>&#92;<b>Microsoft Base Smart Card Crypto Provider</b>&#92;<b>AllowPrivateExchangeKeyImport</b>
 
 </li>
 <li>
-<b>HKLM</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Cryptography</b>\<b>Defaults</b>\<b>Provider</b>\<b>Microsoft Base Smart Card Crypto Provider</b>\<b>AllowPrivateSignatureKeyImport</b>
+<b>HKLM</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Cryptography</b>&#92;<b>Defaults</b>&#92;<b>Provider</b>&#92;<b>Microsoft Base Smart Card Crypto Provider</b>&#92;<b>AllowPrivateSignatureKeyImport</b>
 
 </li>
 </ul>

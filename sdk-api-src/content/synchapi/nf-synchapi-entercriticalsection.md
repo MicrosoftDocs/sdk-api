@@ -1,17 +1,17 @@
 ---
 UID: NF:synchapi.EnterCriticalSection
 title: EnterCriticalSection function (synchapi.h)
+author: windows-sdk-content
 description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
-helpviewer_keywords: ["EnterCriticalSection","EnterCriticalSection function","_win32_entercriticalsection","base.entercriticalsection","synchapi/EnterCriticalSection","winbase/EnterCriticalSection"]
 old-location: base\entercriticalsection.htm
-tech.root: backup
+tech.root: Sync
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
-f1_keywords:
-- synchapi/EnterCriticalSection
-dev_langs:
-- c++
+ms.topic: function
+f1_keywords: 
+ - "synchapi/EnterCriticalSection"
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -30,21 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- vertdll.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - vertdll.dll
 api_name:
-- EnterCriticalSection
+ - EnterCriticalSection
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -76,7 +77,8 @@ A pointer to the critical section object.
 
 This function does not return a value.
 
-This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
+This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>&#92;<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
+
 
 
 
@@ -150,3 +152,7 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
+ 
+
+ 
+

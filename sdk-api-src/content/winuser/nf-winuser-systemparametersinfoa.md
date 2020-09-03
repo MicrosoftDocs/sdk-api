@@ -1433,7 +1433,7 @@ Sets the keyboard repeat-speed setting. The <i>uiParam</i> parameter must specif
 </td>
 <td width="60%">
 Sets the hot key set for switching between input languages. The <i>uiParam</i> and <i>pvParam</i> parameters are not used. The value sets the shortcut keys in the keyboard property sheets by reading the registry again. The registry must be set before this flag is used. the path in the registry is 
-                                    <b>HKEY_CURRENT_USER</b>\<b>Keyboard Layout</b>\<b>Toggle</b></p>. Valid values are "1" = ALT+SHIFT, "2" = CTRL+SHIFT, and "3" = none.
+                                    <b>HKEY_CURRENT_USER</b>&#92;<b>Keyboard Layout</b>&#92;<b>Toggle</b></p>. Valid values are "1" = ALT+SHIFT, "2" = CTRL+SHIFT, and "3" = none.
 
 </td>
 </tr>

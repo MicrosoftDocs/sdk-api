@@ -61,7 +61,7 @@ The
 
 ### -param pszComputerName [in]
 
-Specifies the name of the computer. The format of the name is \\<i>ComputerName</i>.
+Specifies the name of the computer. The format of the name is &#92;&#92;<i>ComputerName</i>.
 
 
 ### -param dwFlags [in]

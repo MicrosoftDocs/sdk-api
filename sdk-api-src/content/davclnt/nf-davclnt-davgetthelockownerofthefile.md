@@ -63,8 +63,8 @@ Returns the file lock owner for a file that is locked on a WebDAV server.
 A pointer to a <b>null</b>-terminated Unicode string that contains the name of a locked file on the WebDAV server. This string must be in one of the following formats:
 
 <ul>
-<li>\\<i>server</i>\<i>path</i>\<i>filename</i></li>
-<li><i>drive</i>:\<i>filename</i></li>
+<li>&#92;&#92;<i>server</i>&#92;<i>path</i>&#92;<i>filename</i></li>
+<li><i>drive</i>:&#92;<i>filename</i></li>
 </ul>
 where <i>server</i> is the name of a server, <i>path</i> is the path to a remote file on the server, <i>filename</i> is a valid file name, and <i>drive</i> is the drive letter that a remote share is mapped to on the local computer. (A <i>share</i> is a directory on a server that is made available to users over the network.)
 

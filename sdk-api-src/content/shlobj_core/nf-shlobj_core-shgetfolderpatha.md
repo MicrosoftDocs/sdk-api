@@ -1,17 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathA
 title: SHGetFolderPathA function (shlobj_core.h)
+author: windows-sdk-content
 description: Deprecated.
-helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPath","SHGetFolderPath function [Windows Shell]","SHGetFolderPathA","SHGetFolderPathW","_win32_SHGetFolderPath","_win32_SHGetFolderPath_cpp","shell.SHGetFolderPath","shlobj_core/SHGetFolderPath","shlobj_core/SHGetFolderPathA","shlobj_core/SHGetFolderPathW"]
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
-f1_keywords:
-- shlobj_core/SHGetFolderPath
-dev_langs:
-- c++
+ms.topic: function
+f1_keywords: 
+ - "shlobj_core/SHGetFolderPath"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -30,22 +30,23 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- Shell32.dll
-- API-MS-Win-shell-shellfolders-l1-1-0.dll
-- KernelBase.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
-- Windows.Storage.dll
-- bcrypt.dll
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Windows.Storage.dll
+ - bcrypt.dll
 api_name:
-- SHGetFolderPath
-- SHGetFolderPathA
-- SHGetFolderPathW
+ - SHGetFolderPath
+ - SHGetFolderPathA
+ - SHGetFolderPathW
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -111,7 +112,7 @@ The known folder system that underlies <b>SHGetFolderPath</b> allows users or ad
 
 The default value of the folder, which is the location of the folder if a user or administrator had not redirected it elsewhere, is retrieved by specifying the SHGFP_TYPE_DEFAULT flag. This value can be used to implement a "restore defaults" feature for a known folder.
 
-For example, the default value (SHGFP_TYPE_DEFAULT) for <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Music</a> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYMUSIC</a>) is "C:\\Users\\<b>user name</b>\\Music". If the folder was redirected, the current value (SHGFP_TYPE_CURRENT) might be "D:\\Music". If the folder has not been redirected, then SHGFP_TYPE_DEFAULT and SHGFP_TYPE_CURRENT retrieve the same path.
+For example, the default value (SHGFP_TYPE_DEFAULT) for <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Music</a> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYMUSIC</a>) is "C:\Users&#92;<b>user name</b>\Music". If the folder was redirected, the current value (SHGFP_TYPE_CURRENT) might be "D:\Music". If the folder has not been redirected, then SHGFP_TYPE_DEFAULT and SHGFP_TYPE_CURRENT retrieve the same path.
 
 
 
@@ -130,7 +131,7 @@ Retrieve the folder's default path.
 
 Type: <b>LPTSTR</b>
 
-A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\\Users" is returned rather than "C:\\Users\\".
+A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
 
 
 ## -returns
@@ -230,10 +231,6 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 
 
 
-
-
-> [!NOTE]
-> The shlobj_core.h header defines SHGetFolderPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

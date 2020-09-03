@@ -100,7 +100,7 @@ To set the SAN policy, use the <a href="https://docs.microsoft.com/windows/deskt
 
 This enumeration supersedes the <b>NoAutoMount</b> registry key, which can be found under the following registry path:
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>Mountmgr</b>\<b>NoAutoMount</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Mountmgr</b>&#92;<b>NoAutoMount</b>
 
 The value of this key is a REG_DWORD value that is set to 0x00000000 to enable the Windows automount feature or a nonzero value to disable it. If the automount feature is enabled, Windows automatically mounts the file system for a new basic volume when it is added to the system and then assigns a drive letter to the volume. In system area network configurations, disabling automount prevents Windows from automatically mounting or assigning drive letters to any new basic volumes that are added to the system.
 

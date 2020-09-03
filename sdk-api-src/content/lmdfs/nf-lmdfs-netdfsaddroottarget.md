@@ -64,13 +64,13 @@ Pointer to a string that specifies the Universal Naming Convention (UNC) path of
 
 For a stand-alone DFS namespace, this string should be in the following format:
 
-\\<i>ServerName</i>\<i>DfsName</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i>
 
 where <i>ServerName</i> is the name of the server that will host the new DFS root target and <i>DfsName</i> is the name of the DFS namespace.
 
 For a domain-based DFS namespace, this string should be in the following format:
 
-\\<i>DomainName</i>\<i>DomDfsName</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS namespace and <i>DomDfsName</i> is the name of the new or existing domain-based DFS namespace. For compatibility reasons, <i>DomDfsName</i> should be the same as the name of the shared folder on the server that will host the new DFS root target.
 
@@ -81,7 +81,7 @@ Pointer to a null-terminated Unicode string that specifies the UNC path of a DFS
 
 For a stand-alone DFS namespace, this parameter must be <b>NULL</b>. For a domain-based DFS namespace, the string should be in the following format:
 
-\\<i>ServerName</i>\<i>RootShare</i>
+&#92;&#92;<i>ServerName</i>&#92;<i>RootShare</i>
 
 where <i>ServerName</i> is the name of the server that will host the new DFS root target and <i>RootShare</i> is the name of the shared folder on the server. The share specified by <i>RootShare</i> must already exist on the server that will host the new DFS root target. This function does not create a new share.
 
@@ -145,8 +145,8 @@ The following table shows which parameter values you should specify, according t
 <th>Result</th>
 </tr>
 <tr>
-<td>\\<i>DomainName</i>\<i>DomDfsName</i></td>
-<td>\\<i>ServerName</i>\<i>RootShare</i></td>
+<td>&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i></td>
+<td>&#92;&#92;<i>ServerName</i>&#92;<i>RootShare</i></td>
 <td>
 1
 
@@ -157,8 +157,8 @@ Create a Windows 2000 mode domain-based DFS namespace or add a new root target 
 </td>
 </tr>
 <tr>
-<td>\\<i>DomainName</i>\<i>DomDfsName</i></td>
-<td>\\<i>ServerName</i>\<i>RootShare</i></td>
+<td>&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i></td>
+<td>&#92;&#92;<i>ServerName</i>&#92;<i>RootShare</i></td>
 <td>
 2
 
@@ -169,8 +169,8 @@ Create a  Windows Server 2008 mode domain-based DFS namespace or add a new root
 </td>
 </tr>
 <tr>
-<td>\\<i>DomainName</i>\<i>DomDfsName</i></td>
-<td>\\<i>ServerName</i>\<i>RootShare</i></td>
+<td>&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsName</i></td>
+<td>&#92;&#92;<i>ServerName</i>&#92;<i>RootShare</i></td>
 <td>
 0
 
@@ -181,7 +181,7 @@ Add a new root target to an existing Windows 2000 mode or Windows Server 2008 
 </td>
 </tr>
 <tr>
-<td>\\<i>ServerName</i>\<i>DfsName</i></td>
+<td>&#92;&#92;<i>ServerName</i>&#92;<i>DfsName</i></td>
 <td><b>NULL</b></td>
 <td>
 Must be 1.

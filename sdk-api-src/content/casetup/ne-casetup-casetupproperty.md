@@ -158,7 +158,7 @@ A <b>VT_BSTR</b> value that specifies the name of the parent CA. This value is o
 
 ### -field ENUM_SETUPPROP_REQUESTFILE
 
-A <b>VT_BSTR</b> value that specifies the file path to use to save a subordinate CA request, so that it can be submitted later to the parent CA. The default value is %SystemDrive%\<i>DNSMachineName</i>_<i>CAName</i>.req.
+A <b>VT_BSTR</b> value that specifies the file path to use to save a subordinate CA request, so that it can be submitted later to the parent CA. The default value is %SystemDrive%&#92;&#92;<i>DNSMachineName</i>_<i>CAName</i>.req.
 
 
 ### -field ENUM_SETUPPROP_WEBCAMACHINE

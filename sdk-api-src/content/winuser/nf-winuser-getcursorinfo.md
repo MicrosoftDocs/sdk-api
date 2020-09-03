@@ -6,7 +6,10 @@ helpviewer_keywords: ["GetCursorInfo","GetCursorInfo function [Menus and Other R
 old-location: menurc\getcursorinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursorinfo.htm
-ms.date: 12/05/2018
+
+ms.author: windowssdkdev
+ms.date: 8/23/2019
+
 ms.keywords: GetCursorInfo, GetCursorInfo function [Menus and Other Resources], _win32_GetCursorInfo, _win32_getcursorinfo_cpp, menurc.getcursorinfo, winui._win32_getcursorinfo, winuser/GetCursorInfo
 f1_keywords:
 - winuser/GetCursorInfo
@@ -70,7 +73,7 @@ Retrieves information about the global cursor.
 
 Type: <b>PCURSORINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
 
 
 ## -returns

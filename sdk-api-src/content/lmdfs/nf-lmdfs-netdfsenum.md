@@ -71,11 +71,11 @@ When you specify information level 200
 
 For all other levels, the string can be in one of the following four forms:
 
-<i>ServerName</i>\<i>DfsName</i>
+<i>ServerName</i>&#92;<i>DfsName</i>
 
 or
 
-<i>ServerName</i>\<i>DfsName</i>\<i>link_path</i>
+<i>ServerName</i>&#92;<i>DfsName</i>&#92;<i>link_path</i>
 
 where <i>ServerName</i> is the name of the root target server that hosts the stand-alone 
        DFS namespace; <i>Dfsname</i> is the name of the DFS namespace; and 
@@ -83,11 +83,11 @@ where <i>ServerName</i> is the name of the root target server that hosts the sta
 
 The string can also be of the following forms:
 
-<i>DomainName</i>\<i>DomainName\DomDfsName</i>
+<i>DomainName</i>&#92;<i>DomainName\DomDfsName</i>
 
 or
 
-<i>DomainName</i>\<i>DomDfsName</i>\<i>link_path</i>
+<i>DomainName</i>&#92;<i>DomDfsName</i>&#92;<i>link_path</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS root; 
        <i>DomDfsName</i> is the name of the DFS namespace; and 

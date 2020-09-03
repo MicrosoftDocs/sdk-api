@@ -802,10 +802,10 @@ The following system store locations can be opened remotely:
 System store locations are opened remotely by prefixing the store name in the string passed to <i>pvPara</i> with the computer name. Examples of remote system store names are:
 
 <ul>
-<li><i>ComputerName</i>\<i>CA</i></li>
-<li>\\<i>ComputerName</i>\<i>CA</i></li>
-<li><i>ComputerName</i>\<i>ServiceName</i>\<i>Trust</i></li>
-<li>\\<i>ComputerName</i>\<i>ServiceName</i>\<i>Trust</i></li>
+<li><i>ComputerName</i>&#92;<i>CA</i></li>
+<li>&#92;&#92;<i>ComputerName</i>&#92;<i>CA</i></li>
+<li><i>ComputerName</i>&#92;<i>ServiceName</i>&#92;<i>Trust</i></li>
+<li>&#92;&#92;<i>ComputerName</i>&#92;<i>ServiceName</i>&#92;<i>Trust</i></li>
 </ul>
 
 

@@ -146,7 +146,7 @@ The length of the string pointed to by the <i>lpPathName</i> parameter is more t
 The <b>GetTempFileName</b> function creates a temporary 
     file name of the following form:
 
-<i>&lt;path&gt;</i>\<i>&lt;pre&gt;</i><i>&lt;uuuu&gt;</i>.TMP
+<i>&lt;path&gt;</i>&#92;<i>&lt;pre&gt;</i><i>&lt;uuuu&gt;</i>.TMP
 
 The following table describes the file name syntax.
 

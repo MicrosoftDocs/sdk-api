@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Replaces a specific power scheme for the current user with one from the default user (stored in 
-    <b>HKEY_USERS</b>\<b>.Default</b>)
+    <b>HKEY_USERS</b>&#92;<b>.Default</b>)
 
 
 ## -parameters

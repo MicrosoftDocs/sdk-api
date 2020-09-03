@@ -168,13 +168,13 @@ Include applications installed in the per-machine installation context. When <i>
 
 ### -param lpOutPathBuffer [out, optional]
 
-A string value that receives the path to the component. This parameter can be <b>NULL</b>. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
+A string value that receives the path to the component. This parameter can be <b>NULL</b>. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
 
 
 
 
 <div class="alert"><b>Note</b>  On 64-bit operating systems, a value of 20 is added to the numerical registry roots in this table to distinguish them from registry key paths on 32-bit operating systems.
-For example, a registry key path of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "21:\SOFTWARE\Microsoft\", if the component path is a registry key on a 64-bit operating system.</div>
+For example, a registry key path of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b> is returned as "21:\SOFTWARE\Microsoft\", if the component path is a registry key on a 64-bit operating system.</div>
 <div> </div>
 
 

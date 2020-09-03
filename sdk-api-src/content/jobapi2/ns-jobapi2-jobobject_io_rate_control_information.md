@@ -88,7 +88,7 @@ If this member is <b>NULL</b>, the policy for the I/O rate applies to all of the
 
 The base size of the normalized I/O unit, in bytes.  For example, if the <b>BaseIoSize</b> member is 8,000, every 8,000 bytes counts as one I/O unit. 4,000 bytes is also one I/O unit in this example, while 8,001 bytes is two I/O units.
 
-You  can set the value of this base I/O size by using the <b>StorageBaseIOSize</b> value of the <b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>QoS</b></p> registry key.
+You  can set the value of this base I/O size by using the <b>StorageBaseIOSize</b> value of the <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Control</b>&#92;<b>QoS</b></p> registry key.
 
 The value of the <b>BaseIoSize</b> member is subject to the following constraints:
 

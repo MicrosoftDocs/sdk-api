@@ -182,7 +182,7 @@ A <b>NULL</b>-terminated Unicode string containing the path of the object relati
       length. Not all of the filenames returned can be opened; some are internal to NTFS and always opened 
       exclusively. The string returned includes the full path including filename, stream name, and attribute type name 
       in the form 
-      "<i>full</i>\<i>path</i>\<i>to</i>\<i>file</i>\<i>filename.ext</i>:<i>streamname</i>:<i>typename</i>".
+      "<i>full</i>&#92;<i>path</i>&#92;<i>to</i>&#92;<i>file</i>&#92;<i>filename.ext</i>:<i>streamname</i>:<i>typename</i>".
 
 
 ## -remarks

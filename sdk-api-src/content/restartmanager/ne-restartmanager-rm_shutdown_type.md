@@ -72,11 +72,11 @@ Shuts down applications if and only if all the applications have been registered
 
 
 
-The  time to wait before initiating a forced shutdown of applications is specified by the following registry key. <b>HKCU</b>\<b>Control Panel</b>\<b>Desktop</b>\<b>HungAppTimeout</b>
+The  time to wait before initiating a forced shutdown of applications is specified by the following registry key. <b>HKCU</b>&#92;<b>Control Panel</b>&#92;<b>Desktop</b>&#92;<b>HungAppTimeout</b>
 
 
 
-The time to wait before initiating a forced shutdown of services is specified by the following registry key. <b>HKLM</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>WaitToKillServiceTimeout</b>
+The time to wait before initiating a forced shutdown of services is specified by the following registry key. <b>HKLM</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Control</b>&#92;<b>WaitToKillServiceTimeout</b>
 
 
 

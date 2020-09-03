@@ -99,7 +99,7 @@ Applies to the <b>FsrmReportType_FilesByType</b> report type.
 The report will show only files that belong to specified owners. The format of the owner string can be either 
        the user principal name 
        ("<i>UserName</i>@<i>Domain</i>" or 
-       "<i>Domain</i>\<i>UserName</i>") or a SID in string 
+       "<i>Domain</i>&#92;<i>UserName</i>") or a SID in string 
        format.
 
 Applies to the <b>FsrmReportType_FilesByOwner</b> report type.

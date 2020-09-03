@@ -172,7 +172,7 @@ The function may return any registry error code.
 Namespace providers are installed using the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace">WSCInstallNameSpace</a> function. The order in which namespace providers are initially installed governs the default order in which they are enumerated through 
  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>.  More importantly, this order also governs the order in which namespace providers are considered when a client requests name resolution. The order of namespace providers can be changed using the <b>WSCWriteNameSpaceOrder</b> function. On 64-bit platforms, the <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder32">WSCWriteNameSpaceOrder32</a> function is provided to allow 64-bit processes to change the order of namespace providers in the 32-bit namespace provider catalog. On 64-bit platforms, namespace providers are installed in the 32-bit namespace provider catalog using the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a> function. 
 
-The current namespace provider catalog is stored in the registry under the following registry key: <b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>Current Control Set</b>\<b>Services</b>\<b>Winsock2</b>\<b>Parameters</b>\<b>NameSpace_Catalog5</b>
+The current namespace provider catalog is stored in the registry under the following registry key: <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>Current Control Set</b>&#92;<b>Services</b>&#92;<b>Winsock2</b>&#92;<b>Parameters</b>&#92;<b>NameSpace_Catalog5</b>
 
 
 

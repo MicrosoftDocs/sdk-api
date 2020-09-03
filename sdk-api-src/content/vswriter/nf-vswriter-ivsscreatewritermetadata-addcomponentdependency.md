@@ -183,7 +183,7 @@ A dependency requires that both the target of the dependency and the component t
 
 Because the combination of logical name and component name must be unique across all instances of a writer class, the fact that several writers may have the same class ID is not a problem.
 
-This method can be used to declare remote dependencies. A writer can declare a remote dependency by prepending "\\<i>RemoteComputerName</i>\", where <i>RemoteComputerName</i> is the name of the computer where the remote component resides, to the logical path in the <i>wszOnLogicalPath</i> parameter. The value of <i>RemoteComputerName</i> can be an IP address or a computer name returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a> function.
+This method can be used to declare remote dependencies. A writer can declare a remote dependency by prepending "&#92;&#92;<i>RemoteComputerName</i>\", where <i>RemoteComputerName</i> is the name of the computer where the remote component resides, to the logical path in the <i>wszOnLogicalPath</i> parameter. The value of <i>RemoteComputerName</i> can be an IP address or a computer name returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a> function.
 
 If the remote component resides on a cluster, the writer must report the virtual name for the cluster, and it is the requester's responsibility to map the virtual name to the physical name of a cluster node before a volume shadow copy can be created.
 

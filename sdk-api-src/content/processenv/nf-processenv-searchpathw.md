@@ -131,7 +131,7 @@ If the <i>lpPath</i> parameter is <b>NULL</b>,
      value of the following registry value:
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>Session Manager</b>\<b>SafeProcessSearchMode</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Control</b>&#92;<b>Session Manager</b>&#92;<b>SafeProcessSearchMode</b>
 
 
 

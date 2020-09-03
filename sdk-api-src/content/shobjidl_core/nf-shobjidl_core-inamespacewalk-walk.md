@@ -216,10 +216,14 @@ The maximum depth to descend through the namespace hierarchy. This depth is zero
 
 ### -param pnswcb [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>*</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>. This parameter can be <b>NULL</b>.
+Type: <b><a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a>*</b>
+
+
+<a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a> callback function used by <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>. This parameter can be <b>NULL</b>. The object can optionally implement the INamespaceWalkCB2 and IActionProgress interfaces. See remarks below.
+
+
 
 
 ## -returns
@@ -231,7 +235,9 @@ Type: <b>HRESULT</b>
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+## -remarks
 
+If you do not pass the <b>NSWF_SHOW_PROGRESS</b> flag and the object pointed to by the pnswcb parameter implements <b>IActionProgress</b>, then the <b>INamespaceWalk::Walk</b> method calls the <b>IActionProgress::QueryCancel</b> method periodically to determine whether the operation should be canceled.
 
 ## -see-also
 

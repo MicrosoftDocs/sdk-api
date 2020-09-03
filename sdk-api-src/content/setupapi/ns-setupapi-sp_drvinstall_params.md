@@ -1,17 +1,17 @@
 ---
 UID: NS:setupapi._SP_DRVINSTALL_PARAMS
 title: SP_DRVINSTALL_PARAMS (setupapi.h)
+author: windows-sdk-content
 description: An SP_DRVINSTALL_PARAMS structure contains driver installation parameters associated with a particular driver information element.
-helpviewer_keywords: ["*PSP_DRVINSTALL_PARAMS","PSP_DRVINSTALL_PARAMS","PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation]","SP_DRVINSTALL_PARAMS","SP_DRVINSTALL_PARAMS structure [Device and Driver Installation]","devinst.sp_drvinstall_params","di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml","setupapi/PSP_DRVINSTALL_PARAMS","setupapi/SP_DRVINSTALL_PARAMS"]
 old-location: devinst\sp_drvinstall_params.htm
 tech.root: devinst
 ms.assetid: 300e636c-3f77-4d0b-9868-caaf92d87bfd
+ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: '*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS'
-f1_keywords:
-- setupapi/SP_DRVINSTALL_PARAMS
-dev_langs:
-- c++
+ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
+ms.topic: struct
+f1_keywords: 
+ - "setupapi/SP_DRVINSTALL_PARAMS"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -30,14 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- setupapi.h
+ - setupapi.h
 api_name:
-- SP_DRVINSTALL_PARAMS
+ - SP_DRVINSTALL_PARAMS
+product: Windows
 targetos: Windows
 req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
 req.redist: 
@@ -156,7 +157,7 @@ This <a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node<
 
 This driver came from the Internet or from Windows Update. This flag is read-only to installers. 
 
-If you call <a href="https://msdn2.microsoft.com/library/aa376990.aspx">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%\<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
+If you call <a href="http://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%&#92;<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
 
 
 

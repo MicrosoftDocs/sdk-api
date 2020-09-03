@@ -111,7 +111,7 @@ The
 An application can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a> function to retrieve an integer value from the Win.ini file.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>IniFileMapping</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
 
 

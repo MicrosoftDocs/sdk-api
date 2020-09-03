@@ -159,7 +159,7 @@ The
 
 The default location of the database is%SystemRoot%\System32\NtmsData, but this can be set by defining a registry value:
 
-<b>HKLM</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>NTMS</b>\<b>NtmsData</b>
+<b>HKLM</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Control</b>&#92;<b>NTMS</b>&#92;<b>NtmsData</b>
 
 This function creates a subdirectory called Export and places the consistent files there.
 

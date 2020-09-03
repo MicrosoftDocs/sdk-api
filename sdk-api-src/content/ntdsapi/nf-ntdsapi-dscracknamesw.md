@@ -58,7 +58,7 @@ ms.custom: 19H1
 The <b>DsCrackNames</b> function
   converts an array of directory service object names from one format to another. Name conversion enables client applications to map between the
   multiple names used to identify various directory service objects. For example,
-  user objects can be identified by SAM account names (<i>Domain</i>\<i>UserName</i>), user
+  user objects can be identified by SAM account names (<i>Domain</i>&#92;<i>UserName</i>), user
   principal name (<i>UserName</i>@<i>Domain</i>.com), or distinguished name.
 
 

@@ -181,7 +181,7 @@ The <b>IOCSPPropertyCollection</b> contains attributes for the following:
 All OCSP attribute information is stored in the following registry key:
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>OCSPSvc</b>\<b>Responder</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>OCSPSvc</b>&#92;<b>Responder</b>
 
 
 

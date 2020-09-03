@@ -104,7 +104,7 @@ Each process has a single current directory that consists of two parts:
 
 <ul>
 <li>A disk designator that is either a drive letter followed by a colon, or a server name followed by a share 
-      name (\\<i>servername</i>\<i>sharename</i>)</li>
+      name (&#92;&#92;<i>servername</i>&#92;<i>sharename</i>)</li>
 <li>A directory on the disk designator</li>
 </ul>
 To set the current directory, use the 

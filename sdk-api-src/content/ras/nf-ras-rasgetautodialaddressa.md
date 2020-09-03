@@ -176,7 +176,7 @@ The name of the per-user default Internet connection is stored in the registry b
 			
 
 
-<b>HKEY_CURRENT_USER</b>\<b>Software</b>\<b>Microsoft</b>\<b>Ras Autodial</b>\<b>Default</b>
+<b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Ras Autodial</b>&#92;<b>Default</b>
 
 
 

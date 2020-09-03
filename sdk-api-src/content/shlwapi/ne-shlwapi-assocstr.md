@@ -67,7 +67,7 @@ A command string associated with a Shell verb.
 
 An executable from a Shell verb command string. For example, this string is found as the (Default) value for a subkey such as 
                     
-                        <b>HKEY_CLASSES_ROOT</b>\<i>ApplicationName</i>\<b>shell</b>\<b>Open</b>\<b>command</b>. If the command uses Rundll.exe, set the <b>ASSOCF_REMAPRUNDLL</b> flag in the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a> to retrieve the target executable.
+                        <b>HKEY_CLASSES_ROOT</b>&#92;<i>ApplicationName</i>&#92;<b>shell</b>&#92;<b>Open</b>&#92;<b>command</b>. If the command uses Rundll.exe, set the <b>ASSOCF_REMAPRUNDLL</b> flag in the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a> to retrieve the target executable.
 
 <div class="alert"><b>Caution</b>  <p class="note">Not all app associations have executables. Do not assume that an executable will always be present.
 

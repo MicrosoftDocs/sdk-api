@@ -86,7 +86,7 @@ Returns <b>TRUE</b> if the specified path is a root, or <b>FALSE</b> otherwise.
 
 
 
-Returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "\\<i>server</i>\<i>share</i>". Paths such as "..\path2" or "\\<i>server</i>\" return <b>FALSE</b>.
+Returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "&#92;&#92;<i>server</i>&#92;<i>share</i>". Paths such as "..\path2" or "&#92;&#92;<i>server</i>\" return <b>FALSE</b>.
             
 
 

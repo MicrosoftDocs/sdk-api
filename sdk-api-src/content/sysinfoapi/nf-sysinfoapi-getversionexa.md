@@ -60,7 +60,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetVersionEx</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>]
+<b>GetVersionExA</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>. For Windows 10 apps, please see [Targeting your applications for Windows](https://docs.microsoft.com/windows/win32/sysinfo/targeting-your-application-at-windows-8-1).
+
 
 With the release of Windows 8.1, the behavior of the <b>GetVersionEx</b> API has changed in the value it will return for the operating system version. The value returned by the <b>GetVersionEx</b> function now depends on how the application is manifested. 
 

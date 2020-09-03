@@ -1,17 +1,17 @@
 ---
 UID: NF:winsock.TransmitFile
 title: TransmitFile function (winsock.h)
+author: windows-sdk-content
 description: Transmits file data over a connected socket handle.
-helpviewer_keywords: ["LPFN_TRANSMITFILE","LPFN_TRANSMITFILE function [Winsock]","TF_DISCONNECT","TF_REUSE_SOCKET","TF_USE_DEFAULT_WORKER","TF_USE_KERNEL_APC","TF_USE_SYSTEM_THREAD","TF_WRITE_BEHIND","TransmitFile","TransmitFile function [Winsock]","_win32_transmitfile_2","winsock.transmitfile_2","winsock/LPFN_TRANSMITFILE","winsock/TransmitFile"]
 old-location: winsock\transmitfile_2.htm
 tech.root: WinSock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
+ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
+ms.topic: function
 f1_keywords:
 - winsock/TransmitFile
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -38,6 +38,7 @@ api_location:
 - Mswsock.dll
 api_name:
 - TransmitFile
+product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -159,7 +160,7 @@ function call previously used to establish the connection, such as <a href="http
 Directs the Windows Sockets service provider to use the system's default thread to process long <b>TransmitFile</b> requests. The system default thread can be adjusted using the following registry parameter as a <b>REG_DWORD</b>:
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>AFD</b>\<b>Parameters</b>\<b>TransmitWorker</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>AFD</b>&#92;<b>Parameters</b>&#92;<b>TransmitWorker</b>
 
 
 
@@ -410,7 +411,7 @@ Server versions of Windows optimize the
 <b>TransmitFile</b> on server versions of Windows. On server versions of Windows, it is possible to set a limit on the maximum number of concurrent <b>TransmitFile</b> operations by creating a registry entry and setting a value for the following <b>REG_DWORD</b>:
 
 
-<b>HKEY_LOCAL_MACHINE</b>\\<b>CurrentControlSet</b>\\<b>Services</b>\\<b>AFD</b>\\<b>Parameters</b>\\<b>MaxActiveTransmitFileCount</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>AFD</b>&#92;<b>Parameters</b>&#92;<b>MaxActiveTransmitFileCount</b>
 
 
 

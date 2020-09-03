@@ -82,9 +82,9 @@ The method returns the following return values.
 
 
 
-The screen applies to the directory and all its subdirectories (recursively). For example, a screen on P:\<i>directory</i> that blocks *.mp3 also blocks MP3 files on P:\<i>directory</i>\<i>subdirectory</i>.
+The screen applies to the directory and all its subdirectories (recursively). For example, a screen on P:&#92;<i>directory</i> that blocks *.mp3 also blocks MP3 files on P:&#92;<i>directory</i>&#92;<i>subdirectory</i>.
 
-If you create a file screen on P:\<i>directory</i>\<i>subdirectory</i>, the screen that you created on P:\<i>directory</i> still applies to P:\<i>directory</i>\<i>subdirectory</i>. If you do not want the screen on P:\<i>directory</i> to  apply to P:\<i>directory</i>\<i>subdirectory</i>, you need to create a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreenexception">file screen exception</a>.
+If you create a file screen on P:&#92;<i>directory</i>&#92;<i>subdirectory</i>, the screen that you created on P:&#92;<i>directory</i> still applies to P:&#92;<i>directory</i>&#92;<i>subdirectory</i>. If you do not want the screen on P:&#92;<i>directory</i> to  apply to P:&#92;<i>directory</i>&#92;<i>subdirectory</i>, you need to create a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreenexception">file screen exception</a>.
 
 
 #### Examples

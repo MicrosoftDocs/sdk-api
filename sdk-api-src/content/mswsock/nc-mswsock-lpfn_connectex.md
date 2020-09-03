@@ -445,7 +445,7 @@ The TIME_WAIT behavior is specified in <a href="https://www.ietf.org/rfc/rfc793.
 Windows TCP reverts to a TIME_WAIT state subsequent to the closing of a connection. While in the TIME_WAIT state, a socket pair cannot be reused. The TIME_WAIT period is configurable by modifying the following <b>DWORD</b> registry setting that represents the TIME_WAIT period in seconds. 
 
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>TCPIP</b>\<b>Parameters</b>\<b>TcpTimedWaitDelay</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>TCPIP</b>&#92;<b>Parameters</b>&#92;<b>TcpTimedWaitDelay</b>
 
 
 

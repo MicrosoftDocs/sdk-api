@@ -82,7 +82,7 @@ The method returns the following return values.
 
 
 
-You can use the exception to allow files to be saved in a directory when a file screen would otherwise prevent it. For example, if P:\<i>directory</i> contains a file screen that blocks *.mp3, you could create an exception that allows MP3 files on P:\<i>directory</i>\<i>subdirectory</i>.
+You can use the exception to allow files to be saved in a directory when a file screen would otherwise prevent it. For example, if P:&#92;<i>directory</i> contains a file screen that blocks *.mp3, you could create an exception that allows MP3 files on P:&#92;<i>directory</i>&#92;<i>subdirectory</i>.
 
 
 #### Examples

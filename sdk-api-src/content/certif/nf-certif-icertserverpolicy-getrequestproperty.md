@@ -137,7 +137,7 @@ When arrived.
 </dl>
 </td>
 <td width="60%">
-The name of the requester in the form "<i>DomainName</i>\<i>UserID</i>".
+The name of the requester in the form "<i>DomainName</i>&#92;<i>UserID</i>".
 
 </td>
 </tr>

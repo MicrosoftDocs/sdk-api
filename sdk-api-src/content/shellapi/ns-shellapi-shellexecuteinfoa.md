@@ -397,7 +397,7 @@ The address of a null-terminated string that specifies one of the following:
 <li>A ProgId. For example, "Paint.Picture".</li>
 <li>A URI protocol scheme. For example, "http".</li>
 <li>A file extension. For example, ".txt".</li>
-<li>A registry path under HKEY_CLASSES_ROOT that names a subkey that contains one or more Shell verbs. This key will have a subkey that conforms to the Shell verb registry schema, such as <b>shell</b>\<i>verb name</i></p>.</li>
+<li>A registry path under HKEY_CLASSES_ROOT that names a subkey that contains one or more Shell verbs. This key will have a subkey that conforms to the Shell verb registry schema, such as <b>shell</b>&#92;<i>verb name</i></p>.</li>
 </ul>
 This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSNAME</b>.
                     

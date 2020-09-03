@@ -65,7 +65,7 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfPROGRAMS
 
-0x02 (2). File system directory that contains the user's program groups (which are also file system directories). A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs.
+0x02 (2). File system directory that contains the user's program groups (which are also file system directories). A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs.
 
 
 ### -field ssfCONTROLS
@@ -80,27 +80,27 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfPERSONAL
 
-0x05 (5). File system directory that serves as a common repository for a user's documents. A typical path is C:\Users\<i>username</i>\Documents.
+0x05 (5). File system directory that serves as a common repository for a user's documents. A typical path is C:\Users&#92;<i>username</i>\Documents.
 
 
 ### -field ssfFAVORITES
 
-0x06 (6). File system directory that serves as a common repository for the user's favorite URLs. A typical path is C:\Documents and Settings\<i>username</i>\Favorites.
+0x06 (6). File system directory that serves as a common repository for the user's favorite URLs. A typical path is C:\Documents and Settings&#92;<i>username</i>\Favorites.
 
 
 ### -field ssfSTARTUP
 
-0x07 (7). File system directory that corresponds to the user's Startup program group. The system starts these programs whenever any user first logs into their profile after a reboot. A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp.
+0x07 (7). File system directory that corresponds to the user's Startup program group. The system starts these programs whenever any user first logs into their profile after a reboot. A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp.
 
 
 ### -field ssfRECENT
 
-0x08 (8). File system directory that contains the user's most recently used documents. A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\Recent.
+0x08 (8). File system directory that contains the user's most recently used documents. A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\Recent.
 
 
 ### -field ssfSENDTO
 
-0x09 (9). File system directory that contains <b>Send To</b> menu items. A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\SendTo.
+0x09 (9). File system directory that contains <b>Send To</b> menu items. A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\SendTo.
 
 
 ### -field ssfBITBUCKET
@@ -110,12 +110,12 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfSTARTMENU
 
-0x0b (11). File system directory that contains <b>Start</b> menu items. A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\Start Menu.
+0x0b (11). File system directory that contains <b>Start</b> menu items. A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\Start Menu.
 
 
 ### -field ssfDESKTOPDIRECTORY
 
-0x10 (16). File system directory used to physically store the file objects that are displayed on the desktop. It is not to be confused with the desktop folder itself, which is a virtual folder. A typical path is C:\Documents and Settings\<i>username</i>\Desktop.
+0x10 (16). File system directory used to physically store the file objects that are displayed on the desktop. It is not to be confused with the desktop folder itself, which is a virtual folder. A typical path is C:\Documents and Settings&#92;<i>username</i>\Desktop.
 
 
 ### -field ssfDRIVES
@@ -130,7 +130,7 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfNETHOOD
 
-0x13 (19). A file system folder that contains any link objects in the <b>My Network Places</b> virtual folder. It is not the same as ssfNETWORK, which represents the network namespace root. A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\Network Shortcuts.
+0x13 (19). A file system folder that contains any link objects in the <b>My Network Places</b> virtual folder. It is not the same as ssfNETWORK, which represents the network namespace root. A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\Network Shortcuts.
 
 
 ### -field ssfFONTS
@@ -165,17 +165,17 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfAPPDATA
 
-0x1a (26). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71</a>. File system directory that serves as a common repository for application-specific data. A typical path is C:\Documents and Settings\<i>username</i>\Application Data.
+0x1a (26). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71</a>. File system directory that serves as a common repository for application-specific data. A typical path is C:\Documents and Settings&#92;<i>username</i>\Application Data.
 
 
 ### -field ssfPRINTHOOD
 
-0x1b (27). File system directory that contains any link objects in the Printers virtual folder. A typical path is C:\Users\<i>username</i>\AppData\Roaming\Microsoft\Windows\Printer Shortcuts.
+0x1b (27). File system directory that contains any link objects in the Printers virtual folder. A typical path is C:\Users&#92;<i>username</i>\AppData\Roaming\Microsoft\Windows\Printer Shortcuts.
 
 
 ### -field ssfLOCALAPPDATA
 
-0x1c (28). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. File system directory that serves as a data repository for local (non-roaming) applications. A typical path is C:\Users\<i>username</i>\AppData\Local.
+0x1c (28). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. File system directory that serves as a data repository for local (non-roaming) applications. A typical path is C:\Users&#92;<i>username</i>\AppData\Local.
 
 
 ### -field ssfALTSTARTUP
@@ -195,12 +195,12 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfINTERNETCACHE
 
-0x20 (32). File system directory that serves as a common repository for temporary Internet files. A typical path is C:\Users\<i>username</i>\AppData\Local\Microsoft\Windows\Temporary Internet Files.
+0x20 (32). File system directory that serves as a common repository for temporary Internet files. A typical path is C:\Users&#92;<i>username</i>\AppData\Local\Microsoft\Windows\Temporary Internet Files.
 
 
 ### -field ssfCOOKIES
 
-0x21 (33). File system directory that serves as a common repository for Internet cookies. A typical path is C:\Documents and Settings\<i>username</i>\Application Data\Microsoft\Windows\Cookies.
+0x21 (33). File system directory that serves as a common repository for Internet cookies. A typical path is C:\Documents and Settings&#92;<i>username</i>\Application Data\Microsoft\Windows\Cookies.
 
 
 ### -field ssfHISTORY
@@ -230,7 +230,7 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfMYPICTURES
 
-0x27 (39). My Pictures folder. A typical path is C:\Users\<i>username</i>\Pictures.
+0x27 (39). My Pictures folder. A typical path is C:\Users&#92;<i>username</i>\Pictures.
 
 
 ### -field ssfPROFILE
