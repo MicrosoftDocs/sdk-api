@@ -245,7 +245,7 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfPROGRAMFILESx86
 
-0x30 (48). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 6.0</a>. Program Files folder. A typical path is C:\Program Files, or C:\Program Files (X86) on a 64-bit computer.
+0x2a (42). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 6.0</a>. Program Files folder. A typical path is C:\Program Files, or C:\Program Files (X86) on a 64-bit computer.
 
 
 ## -remarks
