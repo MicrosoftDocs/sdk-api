@@ -86,7 +86,7 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 
-<a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a>
+<a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a>
 
 
 
