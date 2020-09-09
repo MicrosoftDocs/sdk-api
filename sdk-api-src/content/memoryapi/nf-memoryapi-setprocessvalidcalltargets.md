@@ -52,13 +52,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+<div class="alert"><b>Note</b>  Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.</div><div> </div>
 
-Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not. The valid call target information is provided as a list of offsets relative to a virtual memory range
-
-(start and size of the range). The call targets specified should be 16-byte aligned and in ascending
-
-order.
+Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not. The valid call target information is provided as a list of offsets relative to a virtual memory range (start and size of the range). The call targets specified should be 16-byte aligned and in ascending order.
 
 
 ## -parameters
@@ -73,7 +69,7 @@ The handle to the target process.
 
 ### -param VirtualAddress [in]
 
-The start of the virtual memory region whose call targets are being marked valid.
+The start of the virtual memory region whose call targets are being marked valid. The memory region must be allocated using one of the executable <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
 
 
 ### -param RegionSize [in]
@@ -97,5 +93,7 @@ A list of offsets and flags relative to the virtual memory ranges.
 
 <b>TRUE</b> if the operation was successful; otherwise, <b>FALSE</b>. To retrieve error values for this function,  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
+## -remarks
 
 
+This function does not succeed if Control Flow Guard is not enabled for the target process. This can be checked using <a href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a>.
