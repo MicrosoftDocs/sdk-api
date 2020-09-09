@@ -44,40 +44,21 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ICertificateEnrollmentServerSetup::UnInstall
-
-
 ## -description
-
 
 The <b>UnInstall</b> method removes the Certificate Enrollment Web Service (CES).
 
-
 ## -parameters
-
-
-
 
 ### -param pCAConfig
 
-TBD
-
+This parameter is reserved for future use.
 
 ### -param pAuthentication
 
-TBD
-
-
-
-
-#### - pReserved [in]
-
 This parameter is reserved for future use.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -111,14 +92,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can call this method to remove CES. However, because you cannot call the <b>UnInstall</b> method on an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object that has already been initialized, you must create a new <b>ICertificateEnrollmentServerSetup</b> before calling <b>UnInstall</b>.
 
@@ -145,15 +120,6 @@ Attempts to update the security descriptor of the Deleted Objects container in A
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
- 
-
- 
-

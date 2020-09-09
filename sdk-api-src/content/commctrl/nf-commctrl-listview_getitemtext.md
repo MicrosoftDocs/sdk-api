@@ -44,19 +44,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ListView_GetItemText macro
-
-
 ## -description
-
 
 Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndLV
 
@@ -64,13 +56,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the list-view control. 
 
-
 ### -param i
 
 Type: <b>int</b>
 
 The index of the list-view item. 
-
 
 ### -param iSubItem_
 
@@ -79,13 +69,11 @@ Type: <b>int</b>
 The index of the subitem. To retrieve the item text, set 
 					<i>iSubItem</i> to zero. 
 
-
 ### -param pszText_
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the item or subitem text. 
-
 
 ### -param cchTextMax_
 
@@ -94,37 +82,6 @@ Type: <b>int</b>
 The number of characters in the 
 					<i>pszText</i> buffer.
 
-
-#### - cchTextMax
-
-Type: <b>int</b>
-
-The number of characters in the 
-					<i>pszText</i> buffer.
-
-
-#### - iSubItem
-
-Type: <b>int</b>
-
-The index of the subitem. To retrieve the item text, set 
-					<i>iSubItem</i> to zero. 
-
-
-#### - pszText
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
-
-A pointer to a buffer that receives the item or subitem text. 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a>
- 
-
- 
-

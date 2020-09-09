@@ -44,41 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IID_PPV_ARGS macro
-
-
 ## -description
-
 
 Used to retrieve an interface pointer, supplying the IID value of the requested interface automatically based on the type of the interface pointer used. This avoids a common coding error by checking the type of the value passed at compile time.
 
-
 ## -parameters
-
-
-
 
 ### -param ppType
 
-TBD
-
-
-
-
-
-
-#### - pType
-
 An address of an interface pointer whose type <b>T</b> is used to determine the type of object being requested. The macro returns the interface pointer through this parameter.
-
 
 ## -remarks
 
-
-
 A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
-
-                
 
 <ul>
 <li>An [in] parameter, normally of type <b>REFIID</b>, to specify the IID of the interface to retrieve.</li>
@@ -89,17 +67,9 @@ This macro computes the IID based on the type of interface pointer, which preven
 While Windows 7 is the first inclusion of this macro in a public header, it can be used on older systems by defining it manually in your project headers or source code.
 
 The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory property store object using <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
- 
-				
 
-
-```
+```cpp
 IPropertyStore *pPropertyStore;
-                    
-CoCreateInstance(CLSID_PropertyStore, NULL, CLSCTX_INPROC_SERVER, 
-                 IID_PPV_ARGS(&pPropertyStore));
+
+CoCreateInstance(CLSID_PropertyStore, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pPropertyStore));
 ```
-
-
-
-

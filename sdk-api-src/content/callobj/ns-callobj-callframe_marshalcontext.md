@@ -44,66 +44,36 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CALLFRAME_MARSHALCONTEXT structure
-
-
 ## -description
-
 
 Provides information about the context in which marshalling should be carried out.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fIn
 
 <b>TRUE</b> if the in parameter values are to be marshaled and <b>FALSE</b> if the out parameter values are to be marshaled. The in parameter values are marshaled on the client side and the out parameter values are marshaled on the server side.
 
-
 ### -field dwDestContext
 
 Context in which unmarshaling is to be carried out.
-
 
 ### -field pvDestContext
 
 Context in which unmarshaling is to be carried out.
 
-
 ### -field punkReserved
 
- 
-
+This parameter should be <b>NULL</b>.
 
 ### -field guidTransferSyntax
 
 The transfer syntax for which the marshalling should occur.
 
-
-
-#### - mshlmgr
-
-This parameter should be <b>NULL</b>.
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
- 
-
- 
-

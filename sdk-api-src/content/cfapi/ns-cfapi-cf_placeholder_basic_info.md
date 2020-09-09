@@ -44,48 +44,32 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CF_PLACEHOLDER_BASIC_INFO structure
-
-
 ## -description
-
 
 Basic placeholder information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PinState
 
 The pin state of the placeholder. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> for more details.
 
-
 ### -field InSyncState
 
 The in-sync state of the placeholder. see <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> for more details.
-
 
 ### -field FileId
 
 A 64-bit volume wide non-volatile number that uniquely identifies a file or directory.
 
-
 ### -field SyncRootFileId
 
 The file ID of the sync root directory that contains the file whose placeholder information is to be queried.
-
 
 ### -field FileIdentityLength
 
 Length, in bytes, of the FileIdentity.
 
-
-
-
-### -field FileIdentity [1]
+### -field FileIdentity
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
-

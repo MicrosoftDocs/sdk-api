@@ -46,81 +46,56 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ImportPFXToProvider callback function
-
-
 ## -description
-
 
 Imports a PFX certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param hWndParent [in]
 
-Handle toa Parent Window.
-
+Handle to a Parent Window.
 
 ### -param *pbPFX [in]
 
 Pointer to a buffer that contains the PFX file.
 
-
 ### -param cbPFX [in]
 
 Size of pbPFX in bytes.
-
 
 ### -param ImportFlags [in]
 
 One or more <a href="https://msdn.microsoft.com/en-us/library/Mt832769(v=VS.85).aspx">ImportPFXFlag</a> values.
 
-
 ### -param pwszPassword [in, optional]
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the Password for the PFX file.
-
 
 ### -param pwszProviderName [in, optional]
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the name of the crypto provider.
 
-
 ### -param pwszReaderName [in, optional]
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the name of the smart card reader (can be nullptr).
-
 
 ### -param pwszContainerNamePrefix [in, optional]
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the name of the container (can be nullptr).
 
-
 ### -param pwszPin [in, optional]
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the PIN of the smart card (can be nullptr).
-
 
 ### -param pwszFriendlyName [in, optional]
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the friendly name of the certificate (can be nullptr).
 
-
 ### -param *pcCertOut [out, optional]
 
 Pointer to DWORD that receives  the number of certificates successfully imported (can be nullptr).
 
-
-#### - **prgpCertOut [out, optional]
-
-Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
-
-
 ### -param prgpCertOut [out, optional]
 
 Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
-

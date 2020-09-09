@@ -44,99 +44,28 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# BTH_LE_UUID structure
-
-
 ## -description
-
 
 The BTH_LE_UUID structure contains information about a Bluetooth Low Energy (LE) Universally Unique Identifier (UUID).
 
-
 ## -struct-fields
-
-
-
 
 ### -field IsShortUuid
 
 Indicates if the Low Energy (LE) UUID a 16-bit shortened value, or if it is the long 128-bit value.
 
-
 ### -field Value
 
- 
-
+The value of the UUID.
 
 ### -field Value.ShortUuid
 
- 
-
-
-### -field Value.ShortUuid.case
-
- 
-
-
-### -field Value.ShortUuid.case.TRUE
-
- 
-
+The short 16-bit value of the UUID. This member applies only if <b>IsShortUuid</b> is TRUE.
 
 ### -field Value.LongUuid
 
- 
-
-
-### -field Value.LongUuid.case
-
- 
-
-
-### -field Value.LongUuid.case.FALSE
-
- 
-
-
-### -field Value.switch_type
-
- 
-
-
-### -field Value.switch_type.BOOLEAN
-
- 
-
-
-### -field Value.switch_is
-
- 
-
-
-### -field Value.switch_is.(BOOLEAN)IsShortUuid
-
- 
-
-
-
-
-#### - LongUuid
-
 The long 128-bit value of the UUID. This member applies only if <b>IsShortUuid</b> is FALSE.
-
-
-#### - ShortUuid
-
-The short 16-bit value of the UUID. This member applies only if <b>IsShortUuid</b> is TRUE.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
- 
-
- 
-

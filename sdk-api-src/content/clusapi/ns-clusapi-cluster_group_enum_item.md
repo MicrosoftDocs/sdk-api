@@ -45,93 +45,62 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSTER_GROUP_ENUM_ITEM structure
-
-
 ## -description
-
 
 Contains the properties of a cluster group. This structure  is used to enumerate cluster groups in the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
 The version of the 
       <b>CLUSTER_GROUP_ENUM_ITEM</b> structure.
 
-
 ### -field cbId
 
 The size, in bytes, of the <b>lpszId</b> field.
-
 
 ### -field lpszId
 
 The Id of the cluster group.
 
-
 ### -field cbName
 
 The size, in bytes, of the <b>IpszName</b> field.
 
-
 ### -field lpszName
 
- 
-
+The name of the cluster group.
 
 ### -field state
 
 The current state of the cluster group.
 
-
 ### -field cbOwnerNode
 
 The size, in bytes, of the <b>IpszOwnerNode</b> field.
 
-
 ### -field lpszOwnerNode
 
- 
-
+The name of the cluster node hosting the group.
 
 ### -field dwFlags
 
 The group flags.
 
-
 ### -field cbProperties
 
 The size, in bytes, of the <b>pProperties</b> field.
-
 
 ### -field pProperties
 
 A pointer to a list of names of common properties.
 
-
 ### -field cbRoProperties
 
 The size, in bytes, of the <b>pRoProperties</b> field.
 
-
 ### -field pRoProperties
 
 A pointer to a list of names of read-only common properties.
-
-
-#### - IpszName
-
-The name of the cluster group.
-
-
-#### - IpszOwnerNode
-
-The name of the cluster node hosting the group.
-

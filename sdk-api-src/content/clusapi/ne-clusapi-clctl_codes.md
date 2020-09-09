@@ -588,7 +588,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 ### -field CLCTL_STORAGE_GET_CLUSPORT_DISK_COUNT
 
-TBD
+Not supported.
 
 
 ### -field CLCTL_STORAGE_REMAP_DRIVELETTER
@@ -909,18 +909,23 @@ See
 
 ### -field CLCTL_IS_FEATURE_INSTALLED
 
+Not supported.
 
 ### -field CLCTL_IS_S2D_FEATURE_SUPPORTED
 
+Not supported.
 
 ### -field CLCTL_STORAGE_GET_PHYSICAL_DISK_INFO
 
+Not supported.
 
 ### -field CLCTL_STORAGE_GET_CLUSBFLT_PATHS
 
+Not supported.
 
 ### -field CLCTL_STORAGE_GET_CLUSBFLT_PATHINFO
 
+Not supported.
 
 ### -field CLCTL_CLEAR_NODE_CONNECTION_INFO
 
@@ -943,12 +948,15 @@ See <a href="https://msdn.microsoft.com/C08360F8-4930-4BEA-B831-CD380EBCFF7D">CL
 
 ### -field CTCTL_GET_ROUTESTATUS_BASIC
 
+Not supported.
 
 ### -field CTCTL_GET_ROUTESTATUS_EXTENDED
 
+Not supported.
 
 ### -field CTCTL_GET_FAULT_DOMAIN_STATE
 
+Not supported.
 
 ### -field CLCTL_STORAGE_GET_AVAILABLE_DISKS_EX2_INT
 
@@ -1192,27 +1200,35 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 ### -field CLCTL_GROUP_SET_CCF_FROM_MASTER
 
+Not supported.
 
 ### -field CLCTL_GET_INFRASTRUCTURE_SOFS_BUFFER
 
+Not supported.
 
 ### -field CLCTL_SET_INFRASTRUCTURE_SOFS_BUFFER
 
+Not supported.
 
 ### -field CLCTL_NOTIFY_INFRASTRUCTURE_SOFS_CHANGED
 
+Not supported.
 
 ### -field CLCTL_SCALEOUT_COMMAND
 
+Not supported.
 
 ### -field CLCTL_SCALEOUT_CONTROL
 
+Not supported.
 
 ### -field CLCTL_SCALEOUT_GET_CLUSTERS
 
+Not supported.
 
 ### -field CLCTL_RELOAD_AUTOLOGGER_CONFIG
 
+Not supported.
 
 ### -field CLCTL_DELETE
 
@@ -1398,8 +1414,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 #### - CLCTL_GET_ROUTESTATUS_BASIC
 
-See 
-       TBD.
+Not supported.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
@@ -1408,8 +1423,7 @@ See
 
 #### - CLCTL_GET_ROUTESTATUS_EXTENDED
 
-See 
-       TBD.
+Not supported.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 

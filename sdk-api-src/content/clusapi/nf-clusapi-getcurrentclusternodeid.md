@@ -44,75 +44,28 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# GetCurrentClusterNodeId macro
-
-
 ## -description
 
-
-Returns the unique identifier of the current cluster 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>.
-
+Returns the unique identifier of the current cluster <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>.
 
 ## -parameters
 
-
-
-
 ### -param _lpszNodeId_ [out]
 
-This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
-       the terminating <b>NULL</b> character.
-
+This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including the terminating <b>NULL</b> character.
 
 ### -param _lpcchName_ [in, out]
 
-On input, pointer to the count of characters in the buffer pointed to by the 
-       <i>lpszNodeId</i> parameter, including the <b>NULL</b> terminator. On 
-       output, pointer to the count of characters stored in the buffer excluding the <b>NULL</b> 
-       terminator.
-
-
-#### - lpcchName [in, out]
-
-On input, pointer to the count of characters in the buffer pointed to by the 
-       <i>lpszNodeId</i> parameter, including the <b>NULL</b> terminator. On 
-       output, pointer to the count of characters stored in the buffer excluding the <b>NULL</b> 
-       terminator.
-
-
-#### - lpszNodeId [out]
-
-This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
-       the terminating <b>NULL</b> character.
-
+On input, pointer to the count of characters in the buffer pointed to by the <i>lpszNodeId</i> parameter, including the <b>NULL</b> terminator. On output, pointer to the count of characters stored in the buffer excluding the <b>NULL</b> terminator.
 
 ## -remarks
 
-
-
-Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
-     that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
-     buffers, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
-
-
-
+Note that <i>_lpcchName_</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data size conventions</a>.
 
 ## -see-also
 
+<a href="/windows/win32/api/clusapi/nf-clusapi-getclusternodeid">GetClusterNodeId</a>
 
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodeid">GetClusterNodeId</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
- 
-
- 
-
+<a href="/windows/win32/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>

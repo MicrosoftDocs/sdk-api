@@ -45,11 +45,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSCTL_RESOURCE_CODES enumeration
-
-
 ## -description
-
 
 Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
 
@@ -658,73 +654,28 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not supported before Windows Server 2016.
 
-
-
-
 ### -field CLUSCTL_RESOURCE_GET_INFRASTRUCTURE_SOFS_BUFFER
 
+Not supported.
 
 ### -field CLUSCTL_RESOURCE_SET_INFRASTRUCTURE_SOFS_BUFFER
 
+Not supported.
 
 ### -field CLUSCTL_RESOURCE_SCALEOUT_COMMAND
 
+Not supported.
 
 ### -field CLUSCTL_RESOURCE_SCALEOUT_CONTROL
 
+Not supported.
 
 ### -field CLUSCTL_RESOURCE_SCALEOUT_GET_CLUSTERS
 
-
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_ADD
-
-See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-add">CLUSCTL_RESOURCE_FILESERVER_SHARE_ADD</a>.
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_DEL
-
-See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-del">CLUSCTL_RESOURCE_FILESERVER_SHARE_DEL</a>.
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_MODIFY
-
-See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-modify">CLUSCTL_RESOURCE_FILESERVER_SHARE_MODIFY</a>.
-
-
-#### - CLUSCTL_RESOURCE_FILESERVER_SHARE_REPORT
-
-See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-fileserver-share-report">CLUSCTL_RESOURCE_FILESERVER_SHARE_REPORT</a>.
-
-
-#### - CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED
-
-See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-netname-creds-updated">CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED</a>.
-
-
-#### - CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK
-
-See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-cluster-disk">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>.
-
+Not supported.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-control-codes">Resource Control Codes</a>
- 
-
- 
-

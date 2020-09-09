@@ -44,67 +44,44 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSCTL_GROUPSET_CODES enumeration
-
-
 ## -description
 
-
-Enumerates groupset <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a> used by 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupsetcontrol">ClusterGroupSetControl</a> function.
-
+Enumerates groupset <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a> used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupsetcontrol">ClusterGroupSetControl</a> function.
 
 ## -enum-fields
-
-
-
 
 ### -field CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-common-properties">CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES</a>.
 
-
 ### -field CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-ro-common-properties">CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES</a>.
-
 
 ### -field CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-set-common-properties">CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES</a>.
 
-
 ### -field CLUSCTL_GROUPSET_GET_GROUPS
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-groups">CLUSCTL_GROUPSET_GET_GROUPS</a>.
-
 
 ### -field CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-provider-groups">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS</a>.
 
-
 ### -field CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-provider-collections">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS</a>.
-
 
 ### -field CLUSCTL_GROUP_GET_PROVIDER_GROUPS
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-groups">CLUSCTL_GROUP_GET_PROVIDER_GROUPS</a>.
 
-
 ### -field CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS
 
 See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-collections">CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS</a>.
 
-
 ### -field CLUSCTL_GROUPSET_GET_ID
 
-
-
-
-#### - CLUSCTL_GROUP_GET_ID
-
-See CLCTL_GET_ID.
-
+See **CLCTL_GET_ID**.

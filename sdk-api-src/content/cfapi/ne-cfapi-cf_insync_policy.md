@@ -44,97 +44,68 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CF_INSYNC_POLICY enumeration
-
-
 ## -description
-
 
 A policy allowing a sync provider to control when the platform should clear the in-sync state on a placeholder file or directory.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_INSYNC_POLICY_NONE
 
+The default in-sync policy.
 
 ### -field CF_INSYNC_POLICY_TRACK_FILE_CREATION_TIME
 
 Clears in-sync state when a file is created.
 
-
 ### -field CF_INSYNC_POLICY_TRACK_FILE_READONLY_ATTRIBUTE
 
 Clears in-sync state when a file is read-only.
-
 
 ### -field CF_INSYNC_POLICY_TRACK_FILE_HIDDEN_ATTRIBUTE
 
 Clears in-sync state when a file is hidden.
 
-
 ### -field CF_INSYNC_POLICY_TRACK_FILE_SYSTEM_ATTRIBUTE
 
+Clears in-sync state when a file is a system file.
 
 ### -field CF_INSYNC_POLICY_TRACK_DIRECTORY_CREATION_TIME
 
 Clears in-sync state when a directory is created.
 
-
 ### -field CF_INSYNC_POLICY_TRACK_DIRECTORY_READONLY_ATTRIBUTE
 
 Clears in-sync state when a directory is read-only.
-
 
 ### -field CF_INSYNC_POLICY_TRACK_DIRECTORY_HIDDEN_ATTRIBUTE
 
 Clears in-sync state when a directory is hidden.
 
-
 ### -field CF_INSYNC_POLICY_TRACK_DIRECTORY_SYSTEM_ATTRIBUTE
 
 Clears in-sync state when a directory is  a system directory.
-
 
 ### -field CF_INSYNC_POLICY_TRACK_FILE_LAST_WRITE_TIME
 
 Clears in-sync state based on the last write time to a file.
 
-
 ### -field CF_INSYNC_POLICY_TRACK_DIRECTORY_LAST_WRITE_TIME
 
 Clears in-sync state based on the last write time to a directory.
-
 
 ### -field CF_INSYNC_POLICY_TRACK_FILE_ALL
 
 Clears in-sync state for any changes to a file.
 
-
 ### -field CF_INSYNC_POLICY_TRACK_DIRECTORY_ALL
 
 Clears in-sync state for any changes to a directory.
-
 
 ### -field CF_INSYNC_POLICY_TRACK_ALL
 
 Clears in-sync state for any changes to a file or directory.
 
-
 ### -field CF_INSYNC_POLICY_PRESERVE_INSYNC_FOR_SYNC_ENGINE
 
 In-sync policies are exempt from clearing.
-
-
-#### - CF_INSYNC_POLICY_DEFAULT
-
-The default in-sync policy.
-
-
-#### - CF_INSYNC_POLICY_TRACK_SYSTEM_ATTRIBUTE
-
-Clears in-sync state when a file is a system file.
-
