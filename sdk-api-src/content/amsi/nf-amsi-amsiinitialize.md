@@ -44,60 +44,28 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# AmsiInitialize function
-
-
 ## -description
-
 
 Initialize the AMSI API.
 
-
 ## -parameters
-
-
-
 
 ### -param appName [in]
 
 The name, version, or GUID string of the app calling the AMSI API.
 
-
 ### -param amsiContext [out]
 
 A handle of type HAMSICONTEXT that must be passed to all subsequent calls to the AMSI API.
 
-
-#### - coInit [in]
-
-Ignored. This parameter may be removed from a future build of Windows 10.
-
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 When the app is finished with the AMSI API it must call <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>
- 
-
- 
-

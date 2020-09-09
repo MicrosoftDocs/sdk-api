@@ -45,46 +45,18 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IAudioMediaType::GetAudioFormat
-
-
 ## -description
-
 
 The <code>GetAudioFormat</code> method returns the <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure for the audio data format.
 
-
-## -parameters
-
-
-
-
-
 ## -returns
-
-
 
 The <code>GetAudioFormat</code> method returns a pointer to a <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure.
 
-
-
-
 ## -remarks
-
-
 
 The pointer that is returned is valid only while the <b>IAudioMediaType</b> interface is referenced.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-sysaudio_select_graph">WAVEFORMATEX</a>
- 
-
- 
-

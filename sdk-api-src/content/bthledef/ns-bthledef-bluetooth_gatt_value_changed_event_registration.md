@@ -44,40 +44,20 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure
-
-
 ## -description
-
 
 The BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure describes one or more characteristics that have changed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumCharacteristics
 
 The number of characteristics that follow this member in memory.
 
-
-
-
-
-### -field Characteristics [1]
+### -field Characteristics
 
 Array of characteristics to monitor for incoming events.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
- 
-
- 
-
+<a href="/windows/win32/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>

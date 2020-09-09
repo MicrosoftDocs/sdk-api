@@ -45,44 +45,18 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IAudioProcessingObject::Reset
-
-
 ## -description
-
 
 The Reset method resets the APO to its original state. This method does not cause any changes in the connection objects that are attached to the input or the output of the APO.
 
-
-## -parameters
-
-
-
 ## -returns
-
-
 
 The <code>Reset</code> method returns a value of S_OK when the call is completed successfully.
 
-
-
-
 ## -remarks
-
-
 
 This method is not real-time compliant and must not be called from a real-time processing thread. The implementation of this method does not and must not touch paged memory. Additionally, it must not call any blocking system routines.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
- 
-
- 
-
