@@ -44,19 +44,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# BLUETOOTH_AUTHENTICATE_RESPONSE structure
-
-
 ## -description
-
 
 The <b>BLUETOOTH_AUTHENTICATE_RESPONSE</b> structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bthAddressRemote
 
@@ -74,65 +66,26 @@ A <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentic
 
 ### -field pinInfo
 
- 
+One of the following structures must be used according to the authentication method defined in <i>authMethod</i>. For example, if  <b>BLUETOOTH_AUTHENTICATION_METHOD_LEGACY</b> is specified, the BLUETOOTH_PIN_INFO structure must be populated.  
 
+Contains information for pin authentication.
 
 ### -field oobInfo
 
- 
-
+Contains out-of-band data used to authenticate the device.
 
 ### -field numericCompInfo
 
- 
-
+Contains information for numeric comparison authentication.
 
 ### -field passkeyInfo
 
- 
-
+Contains information for passkey authentication.
 
 ### -field negativeResponse
 
 <b>TRUE</b> if the authentication request was rejected; otherwise <b>FALSE</b>.
 
-
-#### - ( unnamed union )
-
- One of the following structures  must be used according to the authentication method defined in <i>authMethod</i>. For example, if  <b>BLUETOOTH_AUTHENTICATION_METHOD_LEGACY</b> is specified, the BLUETOOTH_PIN_INFO structure must be populated.  
-
-
-
-#### pinInfo
-
-Contains information for pin authentication.
-
-
-
-#### oobInfo
-
-Contains out-of-band data used to authenticate the device.
-
-
-
-#### numericCompInfo
-
-Contains information for numeric comparison authentication.
-
-
-
-#### passkeyInfo
-
-Contains information for passkey authentication.
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
- 
-
- 
-

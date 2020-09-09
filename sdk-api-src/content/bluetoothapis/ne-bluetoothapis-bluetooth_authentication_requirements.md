@@ -44,74 +44,45 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration
-
-
 ## -description
-
 
 The <b>BLUETOOTH_AUTHENTICATION_REQUIREMENTS</b> enumeration specifies the 'Man in the Middle' protection required for authentication.
 <div class="alert"><b>Note</b>  This enumeration is supported in Windows Vista SP2 and Windows 7.</div><div> </div>
 
 ## -enum-fields
 
-
-
-
 ### -field BLUETOOTH_MITM_ProtectionNotRequired
 
 Protection against a "Man in the Middle" attack is not required for authentication.
-
 
 ### -field BLUETOOTH_MITM_ProtectionRequired
 
 Protection against a "Man in the Middle" attack is required for authentication.
 
-
 ### -field BLUETOOTH_MITM_ProtectionNotRequiredBonding
 
 Protection against a "Man in the Middle" attack is not required for bonding.
-
 
 ### -field BLUETOOTH_MITM_ProtectionRequiredBonding
 
 Protection against a "Man in the Middle" attack is required for bonding.
 
-
 ### -field BLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding
 
+Protection against a "Man in the Middle" attack is not required for General Bonding.
 
 ### -field BLUETOOTH_MITM_ProtectionRequiredGeneralBonding
 
 Protection against a "Man in the Middle" attack is required for General Bonding.
 
-
 ### -field BLUETOOTH_MITM_ProtectionNotDefined
 
 Protection against "Man in the Middle" attack is not defined.
 
-
-#### - MBLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding
-
-Protection against a "Man in the Middle" attack is not required for General Bonding.
-
-
 ## -remarks
-
-
 
 The header file associated with this API is available at Microsoft Connect via the Windows Vista Feature Pack for Wireless Developers Supplement download. Access to this resource requires registration with the Microsoft Connect website. The header is also included in the comprehensive developer resource packages available via the Windows Driver Kit (WDK), Windows Logo Kit (WLK) and Windows Driver Framework (WDF) Connections at Microsoft Connect. 
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedeviceex">BluetoothAuthenticateDeviceEx</a>
- 
-
- 
-

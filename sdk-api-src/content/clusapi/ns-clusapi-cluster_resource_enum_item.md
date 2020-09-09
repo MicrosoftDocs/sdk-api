@@ -45,108 +45,66 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSTER_RESOURCE_ENUM_ITEM structure
-
-
 ## -description
-
 
 Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
- 
-
+The version of this structure.
 
 ### -field cbId
 
- 
-
+The size, in bytes, of the <b>lpszId</b> field.
 
 ### -field lpszId
 
- 
-
+The ID of the cluster resource.
 
 ### -field cbName
 
 The size, in bytes, of the <b>IpszName</b> field.
 
-
 ### -field lpszName
 
 The name of the cluster resource.
-
 
 ### -field cbOwnerGroupName
 
 The size, in bytes, of the <b>IpszOwnerNode</b> field.
 
-
 ### -field lpszOwnerGroupName
 
 The name of the cluster resource that  hosts the group.
-
 
 ### -field cbOwnerGroupId
 
 The size, in bytes, of the <b>lpszOwnerGroupId</b> field.
 
-
 ### -field lpszOwnerGroupId
 
 The group ID of the cluster group for the resource.
-
 
 ### -field cbProperties
 
 The size, in bytes, of the <b>pProperties</b> field.
 
-
 ### -field pProperties
 
 A pointer to a list of names of common properties.
-
 
 ### -field cbRoProperties
 
 The size, in bytes, of the <b>pRoProperties</b> field.
 
-
 ### -field pRoProperties
 
 A pointer to a list of names of read-only common properties.
 
-
-#### - DWORD
-
-The version of this structure.
-
-The size, in bytes, of the <b>lpszId</b> field.
-
-
-#### - LPWSTR
-
-The ID of the cluster resource.
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
- 
-
- 
-

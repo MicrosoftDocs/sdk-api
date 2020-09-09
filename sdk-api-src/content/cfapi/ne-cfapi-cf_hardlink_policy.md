@@ -44,38 +44,20 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CF_HARDLINK_POLICY enumeration
-
-
 ## -description
-
 
 Specifies whether or not hard links are allowed on placeholder files.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_HARDLINK_POLICY_NONE
 
+Default; No hard links can be created on any placeholder.
 
 ### -field CF_HARDLINK_POLICY_ALLOWED
 
 Hard links can be created on a placeholder under the same sync root or no sync root. 
 
-
-#### - CF_HARDLINK_POLICY_DEFAULT
-
-Default; No hard links can be created on any placeholder.
-
-
 ## -remarks
 
-
-
 If hard links are enabled, applications can create as many hard links as the file system supports so long as the links are under the same sync root or no sync root. Hard links and placeholder operations that are not compatible with this policy will fail with the error: HRESULT(ERROR_CLOUD_FILES_INCOMPATIBLE_HARDLINKS).
-
-
-

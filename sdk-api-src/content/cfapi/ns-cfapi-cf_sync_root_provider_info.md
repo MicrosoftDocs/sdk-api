@@ -44,42 +44,24 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CF_SYNC_ROOT_PROVIDER_INFO structure
-
-
 ## -description
-
 
 Sync root provider information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProviderStatus
 
 Status of the sync root provider.
 
-
-
-
-### -field ProviderName [CF_MAX_PROVIDER_NAME_LENGTH + 1]
+### -field ProviderName
 
 Name of the sync root provider.
 
-
-### -field ProviderVersion [CF_MAX_PROVIDER_VERSION_LENGTH + 1]
+### -field ProviderVersion
 
 Version of the sync root provider.
 
-
 ## -remarks
 
-
-
-<b>CF_MAX_PROVIDER_NAME_LENGTH</b> and <b>CF_MAX_PROVIDER_VERSION_LENGTH</b>  are set to 255.
-
-
-
+<b>CF_MAX_PROVIDER_NAME_LENGTH</b> and <b>CF_MAX_PROVIDER_VERSION_LENGTH</b> are set to 255.

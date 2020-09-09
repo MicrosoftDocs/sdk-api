@@ -44,56 +44,24 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# BTH_LE_GATT_CHARACTERISTIC_VALUE structure
-
-
 ## -description
-
 
 The BTH_LE_GATT_CHARACTERISTIC_VALUE structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic value.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DataSize
 
 The size, in bytes, of the Bluetooth LE GATT characteristic value.
 
-
-### -field Data.size_is
-
- 
-
-
-### -field Data.size_is.DataSize
-
- 
-
-
-
-### -field Data []
+### -field Data
 
 A pointer to the Bluetooth LE GATT characteristic value data.
 
-
 ## -see-also
 
+<a href="/windows/win32/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Notification Callback Function</a>
 
+<a href="/windows/win32/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetcharacteristicvalue">BluetoothGATTGetCharacteristicValue</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Notification Callback Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetcharacteristicvalue">BluetoothGATTGetCharacteristicValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetcharacteristicvalue">BluetoothGATTSetCharacteristicValue</a>
- 
-
- 
-
+<a href="/windows/win32/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetcharacteristicvalue">BluetoothGATTSetCharacteristicValue</a>

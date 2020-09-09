@@ -44,9 +44,6 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# INSTALLSPEC structure
-
-
 ## -description
 
 
@@ -82,52 +79,21 @@ The file name extension, such as .jpg,  of the application to be installed.
 
 ### -field ProgId
 
- 
-
+This parameter is reserved and should not be used.
 
 ### -field COMClass
 
- 
-
+This parameter is reserved and should not be used.
 
 ### -field COMClass.Clsid
 
- 
-
+This parameter is reserved and should not be used.
 
 ### -field COMClass.ClsCtx
 
- 
-
-
-
-
-#### - Reserved1
-
 This parameter is reserved and should not be used.
-
-
-#### - Reserved2
-
-Structure that contains the following members.
-
-
-
-#### Reserved1
-
-This parameter is reserved and should not be used.
-
-
-
-#### Reserved2
-
-This parameter is reserved and should not be used.
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a>
 

@@ -44,42 +44,24 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure
-
-
 ## -description
-
 
 The BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure describes a changed attribute value.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ChangedAttributeHandle
 
 The handle to the attribute.
 
-
 ### -field CharacteristicValueDataSize
 
 The size, in bytes, of <b>CharacteristicValue</b>.
-
 
 ### -field CharacteristicValue
 
 The characteristic value.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
- 
-
- 
-
+<a href="/windows/win32/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>

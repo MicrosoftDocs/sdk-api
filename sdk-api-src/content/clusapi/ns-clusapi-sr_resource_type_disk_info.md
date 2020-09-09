@@ -45,48 +45,22 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# SR_RESOURCE_TYPE_DISK_INFO structure
-
-
 ## -description
-
 
 Describes a set of information that indicates whether a disk is eligible for replication.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reason
 
 Indicates the reason that the disk is eligible or ineligible for replication.
 
-
 ### -field DiskGuid
-
- 
-
-
-
-
-#### - DiskInfo
 
 The cluster resource identifier of the disk.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
-
-
 <a href="/windows/win32/api/clusapi/ns-clusapi-sr_resource_type_eligible_disks_result">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
- 
-
- 
-

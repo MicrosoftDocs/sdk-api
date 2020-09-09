@@ -44,11 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSPROP_DWORD structure
-
-
 ## -description
-
 
 Describes a 
     numeric value identifying the physical drive of a disk. It is used as an entry in a 
@@ -58,53 +54,18 @@ Describes a
      type, and length of the numeric data.</li>
 <li>A <b>DWORD</b> value identifying the physical drive of a disk.</li>
 </ul>For convenience, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> members are listed 
-    explicitly:
-
+    explicitly.
 
 ## -struct-fields
-
-
-
 
 ### -field dw
 
 Numeric value identifying the physical drive of the disk. Valid values begin at zero.
 
-
-### -field CLUSPROP_VALUE
-
- 
-
-
-
-
-#### - Syntax
-
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a value 
-       of <b>CLUSPROP_SYNTAX_DISK_NUMBER</b> (0x00070002).
-
-
-#### - cbLength
-
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure 
-      indicating the count of bytes in the <b>dw</b> member.
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
-

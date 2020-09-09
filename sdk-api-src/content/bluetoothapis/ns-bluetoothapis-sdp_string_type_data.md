@@ -44,74 +44,36 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# SDP_STRING_TYPE_DATA structure
-
-
 ## -description
-
 
 The <b>SDP_STRING_TYPE_DATA</b> structure stores information about SDP string types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field encoding
 
-Specifies how the string is encoded according to ISO 639:1988 (E/F): Code
-    for the representation of the names of languages.
-
+Specifies how the string is encoded according to ISO 639:1988 (E/F): Code for the representation of the names of languages.
 
 ### -field mibeNum
 
 MIBE number from the IANA database.
 
-
 ### -field attributeId
-
- 
-
-
-
-
-### -field attributeID
 
 Identifier of the base attribute in which the string is to be found in the record.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpenumattributes">BluetoothSdpEnumAttributes</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetattributevalue">BluetoothSdpGetAttributeValue</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetcontainerelementdata">BluetoothSdpGetContainerElementData</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetelementdata">BluetoothSdpGetElementData</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetstring">BluetoothSdpGetString</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-sdp_element_data">SDP_ELEMENT_DATA</a>
- 
-
- 
-

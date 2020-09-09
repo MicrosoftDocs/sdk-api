@@ -44,11 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSPROP_SZ structure
-
-
 ## -description
-
 
 Describes multiple 
     <b>NULL</b>-terminated Unicode strings. It is used as an entry in a 
@@ -58,55 +54,18 @@ Describes multiple
      type, and length of the partition information.</li>
 <li>A string array.</li>
 </ul>For convenience, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> members are listed 
-    explicitly:
-
+    explicitly.
 
 ## -struct-fields
 
-
-
-
 ### -field sz
 
-Multiple null-terminated Unicode strings with the last string followed by an additional 
-       <b>NULL</b>-terminating character.
-
-
-### -field CLUSPROP_VALUE
-
- 
-
-
-
-
-#### - Syntax
-
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a value 
-       of <b>CLUSPROP_SYNTAX_LIST_VALUE_MULTI_SZ</b> (0x00010005).
-
-
-#### - cbLength
-
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating 
-       the count of bytes in the <b>sz</b> member. Padding bytes are not included in the 
-       count.
-
+Multiple null-terminated Unicode strings with the last string followed by an additional <b>NULL</b>-terminating character.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
-

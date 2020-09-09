@@ -44,61 +44,30 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IAudioVolumeDuckNotification::OnVolumeDuckNotification
-
-
 ## -description
 
-
-The <b>OnVolumeDuckNotification</b> method sends a notification about a pending system ducking event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/handling-audio-ducking-events-from-communication-devices">Implementation Considerations for Ducking Notifications</a>.
-
+The <b>OnVolumeDuckNotification</b> method sends a notification about a pending system ducking event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/handling-audio-ducking-events-from-communication-devices">Implementation considerations for ducking notifications</a>.
 
 ## -parameters
-
-
-
 
 ### -param sessionID [in]
 
 A string containing the session instance identifier of the communications session that raises the  the auto-ducking event. To get the session instance identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
 
-
 ### -param countCommunicationSessions [in]
 
-The number of active 
-    communications sessions. If there are n sessions, the sessions are numbered from 0 to –1.
-
+The number of active communications sessions. If there are n sessions, the sessions are numbered from 0 to –1.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. 
-
-
-
-
 
 ## -remarks
 
-
-
 After the application registers its implementation  of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification">IAudioSessionManager2::RegisterDuckNotification</a>, the session manager calls <b>OnVolumeDuckNotification</b> when it wants to send a notification about when ducking begins. The application receives the event notifications in the form of callbacks.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
- 
-
- 
-

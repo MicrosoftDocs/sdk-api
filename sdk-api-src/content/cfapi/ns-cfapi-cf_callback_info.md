@@ -44,137 +44,87 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CF_CALLBACK_INFO structure
-
-
 ## -description
-
 
 Contains common callback information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of the structure.
 
-
 ### -field ConnectionKey
 
 An opaque handle created by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> for a sync root managed by the sync provider. 
-
 
 ### -field CallbackContext
 
 points to an opaque blob that the sync provider provides at the sync root connect time. 
 
-
 ### -field VolumeGuidName
 
 GUID name of the volume on which the placeholder file/directory to be serviced resides. It is in the form: “\\?\Volume{GUID}”.
-
 
 ### -field VolumeDosName
 
 DOS drive letter of the volume in the form of “X:” where X is the drive letter.
 
-
 ### -field VolumeSerialNumber
 
 The serial number of the volume.
-
 
 ### -field SyncRootFileId
 
 A 64 bit file system maintained volume-wide unique ID of the sync root under which the placeholder file/directory to be serviced resides.
 
-
 ### -field SyncRootIdentity
 
 Points to the opaque blob provided by the  sync provider at the sync root registration time.
-
 
 ### -field SyncRootIdentityLength
 
 The length, in bytes, of the <b>SyncRootIdentity</b>.
 
-
 ### -field FileId
 
 A 64 bit file system maintained, volume-wide unique ID of the placeholder file/directory to be serviced.
-
 
 ### -field FileSize
 
 The logical size of the placeholder file to be serviced. It is always 0 if the subject of the callback is a directory.
 
-
 ### -field FileIdentity
 
 Points to the opaque blob that the sync provider provides at the placeholder creation/conversion/update time.
-
 
 ### -field FileIdentityLength
 
 The length, in bytes, of <b>FileIdentity</b>.
 
-
 ### -field NormalizedPath
 
 The absolute path of the placeholder file/directory to be serviced on the volume identified by VolumeGuidName/VolumeDosName. It starts from the root directory of the volume. See the Remarks section for more details.
-
 
 ### -field TransferKey
 
 An opaque handle to the placeholder file/directory to be serviced. The sync provider must pass it back to the <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfexecute">CfExecute</a> call in order to perform the desired operation on the file/directory.
 
-
 ### -field PriorityHint
 
 A numeric scale given to the sync provider to describe the relative priority of one fetch compared to another fetch, in order to provide the most responsive experience to the user.  The values range from 0 (lowest possible priority) to 15 (highest possible priority).
-
 
 ### -field CorrelationVector
 
 An optional correlation vector.
 
-
 ### -field ProcessInfo
 
 Points to a structure that contains the information about the user process that triggers this callback.
 
-
 ### -field RequestKey
 
- 
-
-
-
-
-#### - CommandLine
-
-<div class="alert"><b>Note</b>  This member is new for Windows 10, version 1803.</div>
-<div> </div>
-The string that is used to start the process. If the platform failed to retrieve the command line, “UNKNOWN” will be returned. 
-
-
-
-#### - SessionId
-
-<div class="alert"><b>Note</b>  This member is new for Windows 10, version 1803.</div>
-<div> </div>
-The 32bit ID of the session wherein the user process that triggers the callback resides. 
-
-
-
 ## -remarks
-
-
-
 
 A file name is considered normalized if all of the following are true:
 
@@ -190,7 +140,3 @@ A file name is considered normalized if all of the following are true:
 <li>	All mount points are resolved.
 </li>
 </ul>
-
-
-
-

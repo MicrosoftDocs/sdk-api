@@ -44,55 +44,28 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# AsyncStatus enumeration
-
-
 ## -description
-
 
 Represents the status for an asynchronous operation.
 
-
 ## -enum-fields
-
-
-
 
 ### -field Started
 
 The operation is in progress.
 
-
 ### -field Completed
 
 The operation has completed without error.
 
-
 ### -field Canceled
 
+The client has initiated a cancellation of the operation.
 
 ### -field Error
 
 The operation has completed with an error. No results are available.
 
-
-#### - Cancelled
-
-The client has initiated a cancellation of the operation.
-
-
-#### - Created
-
-The operation has not started.
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo">IAsyncInfo</a>
- 
-
- 
-

@@ -45,33 +45,14 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IAudioProcessingObjectConfiguration::UnlockForProcess
-
-
 ## -description
-
 
 The <code>UnlockForProcess</code> method releases the lock that was imposed on the APO by the LockForProcess method.
 
-
-## -parameters
-
-
-
 ## -returns
-
-
 
 The <code>UnlockForProcess</code> method returns a value of S_OK if the call completed successfully. If the APO was already unlocked when the call was made, the method returns a value of APOERR_ALREADY_UNLOCKED.
 
-
-
-
 ## -remarks
 
-
-
 The <code>UnlockForProcess</code> method places the APO in a mode that makes configuration changes possible. These changes include Add, Remove, and Swap of the input and output connections that are attached to the APO.
-
-
-

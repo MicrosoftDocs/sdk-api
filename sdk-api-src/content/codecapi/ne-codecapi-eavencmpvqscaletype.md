@@ -44,54 +44,26 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# eAVEncMPVQScaleType enumeration
-
-
 ## -description
-
-
 
 Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvqscaletype-property">AVEncMPVQScaleType</a> property.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field eAVEncMPVQScaleType_Auto
 
 The encoder selects the quantization scale.
 
-
 ### -field eAVEncMPVQScaleType_Linear
 
 The quantization scale is linear.
 
-
 ### -field eAVEncMPVQScaleType_NonLinear
-
-
-
-
-#### - eAVEncMPVScanPattern_AlternateScan
 
 The quantization scale is non-linear.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-

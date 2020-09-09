@@ -45,19 +45,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSTER_PROPERTY_TYPE enumeration
-
-
 ## -description
-
 
 This enumeration defines the property types that are supported by a cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CLUSPROP_TYPE_UNKNOWN
 
@@ -193,98 +185,6 @@ Describes descriptor data for a storage class resource.
 
 Describes the beginning of the range for users to define their own types. Associate this type with 
       user-defined private properties.
-
-
-#### - CLUSPROP_TYPE_CSV_PARTITION_INFO_EX
-
-Describes partition information for a cluster shared volume (CSV).
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISKID
-
-Describes the identifier of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_HEADER_IDS
-
-Describes the header identifiers of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_PRIV_PROPERTIES
-
-Describes the private properties of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_SP_ID
-
-Describes the storage pool identifier of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_VALUES
-
-Describes the values of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_NODE_BITMASK
-
-Describes a bitmask for a node.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_NODE_INDEX
-
-Describes a node index.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_NODE_NAME
-
-Describes the name of a node.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_POOL_INFO
-
-Describes storage pool information.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_POOL_PRIV_PROPERTIES
-
-Describes the private properties of a storage pool.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_RESOURCE_ID
-
-Describes the identifier of a resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_VOLUME_INFO
-
-Describes volume information.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
 
 ## -see-also
 

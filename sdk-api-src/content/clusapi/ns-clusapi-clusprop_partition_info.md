@@ -44,11 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CLUSPROP_PARTITION_INFO structure
-
-
 ## -description
-
 
 Contains 
     information relevant to 
@@ -62,54 +58,14 @@ Contains
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a> members are listed 
     explicitly.
 
-
-## -struct-fields
-
-
-
-
-### -field CLUSPROP_VALUE
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
-       of <b>CLUSPROP_SYNTAX_PARTITION_INFO</b> (0x00080001) and a <b>cbLength</b> field indicating 
-       the count of bytes in the <b>CLUS_PARTITION_INFO</b> member.
-
-
-### -field CLUS_PARTITION_INFO
-
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a> structure.
-
-
-#### - szFileSystem
-
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a> structure 
-       that describes the name of the file system, such as "FAT" or "NTFS".
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusprop_piflags">CLUSPROP_PIFLAGS</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
-

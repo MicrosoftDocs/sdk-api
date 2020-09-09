@@ -44,69 +44,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PFTASKDIALOGCALLBACK callback function
-
-
 ## -description
-
 
 The <i>TaskDialogCallbackProc</i> function is an application-defined function used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-taskdialogindirect">TaskDialogIndirect</a> function. It receives messages from the task dialog when various events occur.
 
 The <b>PFTASKDIALOGCALLBACK</b> type defines a pointer to this callback function. <i>TaskDialogCallbackProc</i> is a placeholder for the application defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the TaskDialog window. Do not continue sending messages to hwnd after the callback procedure returns from having been called with <a href="https://docs.microsoft.com/windows/desktop/Controls/tdn-destroyed">TDN_DESTROYED</a>.
-				
 
-
-### -param msg
-
-
-### -param wParam [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
-
-Specifies additional notification information.  The contents of this parameter depend on the value of the <i>uNotification</i> parameter.
-
-
-### -param lParam [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
-
-Specifies additional notification information.  The contents of this parameter depend on the value of the <i>uNotification</i> parameter.
-
-
-### -param lpRefData
-
-
-
-
-
-
-
-
-#### - dwRefData [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG_PTR</a></b>
-
-Pointer to application specific data. This is the data pointed to by the <b>lpCallbackData</b> member of structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> used to create the task dialog.
-
-
-#### - uNotification [in]
+### -param msg [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 One of the following notifications.
-				
 
 <table class="clsStd">
 <tr>
@@ -180,25 +136,31 @@ One of the following notifications.
 <td>Indicates that the Task Dialog verification check box has been selected.</td>
 </tr>
 </table>
- 
 
+### -param wParam [in]
+
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+
+Specifies additional notification information.  The contents of this parameter depend on the value of the <i>uNotification</i> parameter.
+
+### -param lParam [in]
+
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+
+Specifies additional notification information.  The contents of this parameter depend on the value of the <i>uNotification</i> parameter.
+
+### -param lpRefData
+
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG_PTR</a></b>
+
+Pointer to application specific data. This is the data pointed to by the <b>lpCallbackData</b> member of structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> used to create the task dialog.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is specific to the notification being processed. When responding to a button click, your implementation should return S_FALSE if the Task Dialog is not to close. Otherwise return S_OK.
 
-
-
-
 ## -remarks
 
-
-
 An application must register this callback function by passing its address in the <b>pfCallback</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that is passed via pointer through <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-taskdialogindirect">TaskDialogIndirect</a>.
-
-
-

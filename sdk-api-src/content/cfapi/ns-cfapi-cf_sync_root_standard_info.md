@@ -44,83 +44,52 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CF_SYNC_ROOT_STANDARD_INFO structure
-
-
 ## -description
-
 
 Standard sync root information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SyncRootFileId
 
 File ID of the sync root.
 
-
 ### -field HydrationPolicy
 
 Hydration policy of the sync root.
-
 
 ### -field PopulationPolicy
 
 Population policy of the sync root.
 
-
 ### -field InSyncPolicy
 
 In-sync policy of the sync root.
-
 
 ### -field HardLinkPolicy
 
 Sync root hard linking policy.
 
-
 ### -field ProviderStatus
 
 Status of the sync root provider.
 
+### -field ProviderName
 
+Name of the sync root.
+
+### -field ProviderVersion
+
+Version of the sync root.
 
 ### -field SyncRootIdentityLength
 
 Length, in bytes, of the <i>SyncRootIdentity</i>.
 
-
 ### -field SyncRootIdentity
-
- 
-
-
-
-
-### -field ProviderName [CF_MAX_PROVIDER_NAME_LENGTH + 1]
-
-Name of the sync root.
-
-
-### -field ProviderVersion [CF_MAX_PROVIDER_VERSION_LENGTH + 1]
-
-Version of the sync root.
-
-
-### -field SyncRootIdentity [1]
 
 The identity of the sync root directory.
 
-
 ## -remarks
 
-
-
 <b>CF_MAX_PROVIDER_NAME_LENGTH</b> and <b>CF_MAX_PROVIDER_VERSION_LENGTH</b>  are set to 255.
-
-
-
