@@ -44,74 +44,37 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LPPAGEPAINTHOOK callback function
-
-
 ## -description
-
 
 Receives messages that allow you to customize drawing of the sample page in the <b>Page Setup</b> dialog box. The <i>PagePaintHook</i> hook procedure is an application-defined or library-defined callback function used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function.
 
 The <b>LPPAGEPAINTHOOK</b> type defines a pointer to this callback function. <i>PagePaintHook</i> is a placeholder for the application-defined or library-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
+A handle to the <b>Page Setup</b> dialog box.
 
 ### -param Arg2
 
+The identifier of the message being received.
 
 ### -param Arg3
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ### -param Arg4
 
-
-
-
-
-
-
-
-#### - hdlg [in]
-
-A handle to the <b>Page Setup</b> dialog box.
-
-
-#### - lParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
-
-#### - uiMsg [in]
-
-The identifier of the message being received.
-
-
-#### - wParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ## -returns
-
-
 
 If the hook procedure returns <b>TRUE</b> for any of the first three messages of a drawing sequence (<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-psd-pagesetupdlg">WM_PSD_PAGESETUPDLG</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-psd-fullpagerect">WM_PSD_FULLPAGERECT</a>, or <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-psd-minmarginrect">WM_PSD_MINMARGINRECT</a>), the dialog box sends no more messages and does not draw in the sample page until the next time the system needs to redraw the sample page. If the hook procedure returns <b>FALSE</b> for all three messages, the dialog box sends the remaining messages of the drawing sequence.
 
 If the hook procedure returns <b>TRUE</b> for any of the remaining messages in a drawing sequence, the dialog box does not draw the corresponding portion of the sample page. If the hook procedure returns <b>FALSE</b> for any of these messages, the dialog box draws that portion of the sample page.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Page Setup</b> dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. The image consists of a rectangle that represents the selected paper or envelope type, with a dotted-line rectangle representing the current margins, and partial (Greek text) characters to show how text looks on the printed page. When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function to create a <b>Page Setup</b> dialog box, you can provide a <i>PagePaintHook</i> hook procedure to customize the appearance of the sample page.
 

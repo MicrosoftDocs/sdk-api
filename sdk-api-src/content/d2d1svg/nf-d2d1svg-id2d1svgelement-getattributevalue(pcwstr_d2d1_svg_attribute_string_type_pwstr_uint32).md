@@ -44,69 +44,42 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID2D1SvgElement::GetAttributeValue
-
-
 ## -description
-
 
 Gets an attribute of this element as a string. 
 
-
 ## -parameters
 
+### -param name
 
-
-
-### -param name [in]
-
-Type: <b>PCWSTR</b>
+Type: [in] <b>PCWSTR</b>
 
 The name of the attribute.
 
+### -param type
 
-### - type
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_string_type">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
+Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_string_type">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
 
 The string type.
 
+### -param value
 
-### -param value [out]
-
-Type: <b>PWSTR</b>
+Type: [out] <b>PWSTR</b>
 
 The value of the attribute.
 
+### -param valueCount
 
-### - valueCount
-
-Type: <b>UINT32</b>
+Type: [out] <b>UINT32</b>
 
 The number of elements in the returned value.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns an HRESULT success or error code. Returns an error if the attribute name is not valid on this
-            element. Returns an error if the attribute cannot be expressed as the specified
-            string type.  Returns an error if the attribute is not specified.
-          
-
-
-
+This method returns an HRESULT success or error code. Returns an error if the attribute name is not valid on this element. Returns an error if the attribute cannot be expressed as the specified string type.  Returns an error if the attribute is not specified.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
- 
-
- 
-

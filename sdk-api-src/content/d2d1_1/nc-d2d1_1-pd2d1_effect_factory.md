@@ -44,50 +44,20 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PD2D1_EFFECT_FACTORY callback function
-
-
 ## -description
-
 
 Describes the implementation of an effect.
 
-
 ## -parameters
 
-
-
-
-### -param **effectImpl
-
-
-
-
-
-
-
-
-#### - effectImplementation [out]
+### -param effectImpl
 
 The effect implementation returned by the factory.
 
-
 ## -returns
-
-
 
 The effect factory is implemented by an effect author.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
- 
-
- 
-

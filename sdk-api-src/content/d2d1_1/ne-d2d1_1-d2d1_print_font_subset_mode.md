@@ -44,58 +44,31 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D2D1_PRINT_FONT_SUBSET_MODE enumeration
-
-
 ## -description
-
 
 Defines when font resources should be subset during printing.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT
 
+Uses a heuristic strategy to decide when to subset fonts. 
+
+> [!NOTE]
+> If the print driver has requested archive-optimized content, then Direct2D will subset fonts once, for the entire document.
 
 ### -field D2D1_PRINT_FONT_SUBSET_MODE_EACHPAGE
 
+Subsets and embeds font resources in each page, then discards that font subset after the page is printed out. 
 
 ### -field D2D1_PRINT_FONT_SUBSET_MODE_NONE
 
+Sends out the original font resources without subsetting along with the page that first uses the font, and re-uses the font resources for later pages without resending them.  
 
 ### -field D2D1_PRINT_FONT_SUBSET_MODE_FORCE_DWORD
 
-
-
-
-#### - D2D1_PRINT_FONT_SUBSET_DEFAULT
-
-Uses a heuristic strategy to decide when to subset fonts. 
-
-<div class="alert"><b>Note</b>  If the print driver has requested archive-optimized content, then Direct2D will subset fonts once, for the entire document.</div>
-<div> </div>
-
-#### - D2D1_PRINT_FONT_SUBSET_EACHPAGE
-
-Subsets and embeds font resources in each page, then discards that font subset after the page is printed out. 
-
-
-#### - D2D1_PRINT_FONT_SUBSET_NONE
-
-Sends out the original font resources without subsetting along with the page that first uses the font, and re-uses the font resources for later pages without resending them.  
-
+A value that's guaranteed to be a DWORD.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_print_control_properties">D2D1_PRINT_CONTROL_PROPERTIES</a>
- 
-
- 
-

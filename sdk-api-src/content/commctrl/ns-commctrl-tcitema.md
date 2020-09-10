@@ -46,20 +46,12 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# TCITEMA structure
-
-
 ## -description
-
 
 Specifies or receives the attributes of a tab item. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getitem">TCM_GETITEM</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitem">TCM_SETITEM</a> messages. This structure supersedes the 
 			<b>TC_ITEM</b> structure. 
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -173,23 +165,6 @@ Index in the tab control's image list, or -1 if there is no image for the tab.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined data associated with the tab control item. If more or less than 4 bytes of application-defined data exist per tab, an application must define a structure and use it instead of the <b>TCITEM</b> structure. The first member of the application-defined structure must be a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitemheadera">TCITEMHEADER</a> structure. 
-
-
-#### - lpReserved1
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.00</a>. Not used. 
-
-
-#### - lpReserved2
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.00</a>. Not used. 
-
 
 ## -remarks
 

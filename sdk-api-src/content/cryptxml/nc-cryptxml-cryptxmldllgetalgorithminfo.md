@@ -44,33 +44,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CryptXmlDllGetAlgorithmInfo callback function
-
-
 ## -description
-
 
 The <b>CryptXmlDllGetAlgorithmInfo</b> function decodes the XML algorithm and returns information about the algorithm.
 
 The <b>CryptXmlDllGetAlgorithmInfo</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
-
 ## -parameters
 
-
-
-
-### -param *pXmlAlgorithm [in]
+### -param pXmlAlgorithm [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
-
-
-#### - **ppAlgInfo [out]
-
-A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
-
-When you have finished using the memory pointed to by the <i>ppAlgInfo</i> parameter, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
 
 ### -param ppAlgInfo [out]
 
@@ -78,14 +62,8 @@ A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop
 
 When you have finished using the memory pointed to by the <i>ppAlgInfo</i> parameter, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

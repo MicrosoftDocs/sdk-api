@@ -44,72 +44,34 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PFNCMFILTERPROC callback function
-
-
 ## -description
 
-
-The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.  <b>PFNCMFILTERPROC</b> is an application-defined callback function that is specified in the <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMFILTERPROC</b> function must be implemented by the developer to suit each application.
-
+The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. <b>PFNCMFILTERPROC</b> is an application-defined callback function that is specified in the <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMFILTERPROC</b> function must be implemented by the developer to suit each application.
 
 ## -parameters
 
-
-
-
 ### -param pCertContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains a certificate to make a filtering determination on.
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains a certificate on which to make a filtering determination.
 
 ### -param LPARAM
 
+*dwDisplayWell*. Reserved for future use.
 
 ### -param DWORD
 
-
-
-
-
-
-
-
-#### - dwDisplayWell [in]
-
- Reserved for future use.
-
-
-#### - dwFlags [in]
-
- Reserved for future use.
-
-
-#### - lCustData [in]
-
-The address of an array of byte values that holds custom data.  <i>lCustData</i> is passed to the <b>PFNCMFILTERPROC</b> function by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.
-
+See **Remarks**.
 
 ## -returns
 
-
-
 Return a nonzero value (<b>TRUE</b>) to display the certificate. Return zero (<b>FALSE</b>) to not display the certificate.
 
+## -remarks
 
-
+The first **DWORD** parameter is *dwFlags*. The second is *lCustData*&mdash;the address of an array of byte values that holds custom data. <i>lCustData</i> is passed to the <b>PFNCMFILTERPROC</b> function by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>
- 
-
- 
-
