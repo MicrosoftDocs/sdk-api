@@ -44,64 +44,40 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CryptXmlDllVerifySignature callback function
-
-
 ## -description
-
 
 The <b>CryptXmlDllVerifySignature</b>  function verifies a signature.
 
 The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
-
 ## -parameters
 
-
-
-
-### -param *pSignatureMethod [in]
+### -param pSignatureMethod [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
-
 
 ### -param hKey [in]
 
 A handle to the public key. 
 
-
-### -param *pbInput [in]
+### -param pbInput [in]
 
 A pointer to a buffer that contains the signed data. The <i>cbInput</i> parameter contains the size of this buffer. 
-
 
 ### -param cbInput [in]
 
 The size, in bytes, of the buffer pointed to by the <i>pbInput</i> parameter.
 
-
-### -param *pbSignature [in]
+### -param pbSignature [in]
 
 A pointer to a buffer that contains the signature value to be verified. The <i>cbSignature</i> parameter contains the size of this buffer. 
-
 
 ### -param cbSignature [in]
 
 The size, in bytes, of the <i>pbSignature</i> buffer.
 
-
-#### - hCryptProv [in]
-
-A handle to the cryptographic provider.
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

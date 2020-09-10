@@ -44,11 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LPOFNHOOKPROC callback function
-
-
 ## -description
-
 
 <p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
@@ -56,68 +52,33 @@ Receives notification messages sent from the dialog box. The function also recei
 
 The <b>LPOFNHOOKPROC</b> type defines a pointer to this callback function. <i>OFNHookProc</i> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
+A handle to the child dialog box of the <b>Open</b> or <b>Save As</b> dialog box. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function to get the handle to the <b>Open</b> or <b>Save As</b> dialog box.
 
 ### -param Arg2
 
+The identifier of the message being received.
 
 ### -param Arg3
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ### -param Arg4
 
-
-
-
-
-
-
-
-#### - hdlg [in]
-
-A handle to the child dialog box of the <b>Open</b> or <b>Save As</b> dialog box. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function to get the handle to the <b>Open</b> or <b>Save As</b> dialog box.
-
-
-#### - lParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter. If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to an <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the dialog box was created.
-
-
-#### - uiMsg [in]
-
-The identifier of the message being received.
-
-
-#### - wParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter. If the <i>Arg2</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>Arg4</i> is a pointer to an <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the dialog box was created.
 
 ## -returns
 
-
-
 If the hook procedure returns zero, the default dialog box procedure processes the message.
-
-                    
 
 If the hook procedure returns a nonzero value, the default dialog box procedure ignores the message.
 
 For the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a> and <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-fileok">CDN_FILEOK</a> notification messages, the hook procedure should return a nonzero value to indicate that it has used the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> function to set a nonzero <b>DWL_MSGRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 If you do not specify the <b>OFN_EXPLORER</b> flag when you create an <b>Open</b> or <b>Save As</b> dialog box, and you want a hook procedure, you must use an old-style <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)">OFNHookProcOldStyle</a> hook procedure. In this case, the dialog box will have the old-style user interface.
 

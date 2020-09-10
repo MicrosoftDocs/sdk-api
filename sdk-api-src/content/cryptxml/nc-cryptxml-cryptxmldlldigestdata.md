@@ -44,53 +44,28 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CryptXmlDllDigestData callback function
-
-
 ## -description
-
 
 The <b>CryptXmlDllDigestData</b> function puts data into the digest.
 
 The <b>CryptXmlDllDigestData</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
-
 ## -parameters
-
-
-
 
 ### -param hDigest
 
 The handle of the hash object used to put data into the digest. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a>  function.
 
-
-### -param *pbData
+### -param pbData
 
 A pointer to a block of data to be processed.
 
-
 ### -param cbData
-
-
-
-
-
-
-
-
-#### - cbDigest
 
 The size, in bytes, of the block of data pointed to by the <i>pbData</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

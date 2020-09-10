@@ -44,26 +44,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID2D1DeviceContext2::CreateImageSourceFromDxgi
-
-
 ## -description
-
 
 Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are converted to RGBA automatically during subsequent drawing.
 
-
 ## -parameters
 
+### -param surfaces
 
-
-
-### -param surfaces [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
+Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
 
 The DXGI surfaces to create the image source from.
-
 
 ### -param surfaceCount
 
@@ -71,13 +62,11 @@ Type: <b>UINT32</b>
 
 The number of surfaces provided; must be between one and three.
 
-
 ### -param colorSpace
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
 
 The color space of the input.
-
 
 ### -param options
 
@@ -85,41 +74,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_
 
 Options controlling color space conversions.
 
+### -param imageSource
 
-### -param imageSource [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>**</b>
+Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>**</b>
 
 Receives the new image source instance.
 
-
-#### - sourceRectangles [in, optional]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b>
-
-The regions of the surfaces to create the image source from.
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
-
-
-
 ## -remarks
 
-
-
-This method creates an image source which can be used to draw the image.
+This method creates an image source, which can be used to draw the image.
 
         This method supports surfaces that use a limited set of DXGI formats and DXGI color space types.  Only the below set of combinations of color space types, surface formats, and surface counts are supported:
-
-        
 
 <table>
 <tr>

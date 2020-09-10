@@ -44,74 +44,37 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LPSETUPHOOKPROC callback function
-
-
 ## -description
-
 
 An application-defined or library-defined callback function used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function. The hook procedure receives messages or notifications intended for the default dialog box procedure of the <b>Print Setup</b> dialog box.
 
 The <b>LPSETUPHOOKPROC</b> type defines a pointer to this callback function. <i>SetupHookProc</i> is a placeholder for the application-defined or library-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
+A handle to the <b>Print Setup</b> dialog box for which the message is intended.
 
 ### -param Arg2
 
+The identifier of the message being received.
 
 ### -param Arg3
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ### -param Arg4
 
-
-
-
-
-
-
-
-#### - hdlg [in]
-
-A handle to the <b>Print Setup</b> dialog box for which the message is intended.
-
-
-#### - lParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
-
-#### - uiMsg [in]
-
-The identifier of the message being received.
-
-
-#### - wParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ## -returns
-
-
 
 If the hook procedure returns zero, the default dialog box procedure processes the message.
 
 If the hook procedure returns a nonzero value, the default dialog box procedure ignores the message.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Print Setup</b> dialog box has been superseded by the <b>Page Setup</b> dialog box, which should be used by new applications. However, for compatibility, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function continues to support display of the <b>Print Setup</b> dialog box. You can provide a <i>SetupHookProc</i> hook procedure for the <b>Print Setup</b> dialog box to process messages or notifications intended for the dialog box procedure.
 

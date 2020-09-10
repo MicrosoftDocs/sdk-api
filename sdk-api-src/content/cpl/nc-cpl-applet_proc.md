@@ -44,25 +44,23 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# APPLET_PROC callback function
-
-
 ## -description
-
 
 Serves as the entry point for a Control Panel application. This is a library-defined callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCpl
 
+Type: <b>HWND</b>
+
+The identifier of the main window of the controlling application. Use the <i>hwndCPl</i> parameter for dialog boxes or other windows that require a handle to a parent window.
 
 ### -param msg
 
+Type: <b>UINT</b>
+
+The message being sent to the Control Panel application.
 
 ### -param lParam1
 
@@ -70,47 +68,20 @@ Type: <b>LPARAM</b>
 
 Additional message-specific information.
 
-
 ### -param lParam2
 
 Type: <b>LPARAM</b>
 
 Additional message-specific information.
 
-
-### -param hwndCPl
-
-Type: <b>HWND</b>
-
-The identifier of the main window of the controlling application. Use the <i>hwndCPl</i> parameter for dialog boxes or other windows that require a handle to a parent window.
-
-
-#### - uMsg
-
-Type: <b>UINT</b>
-
-The message being sent to the Control Panel application.
-
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
 The return value depends on the message. 
-    					
 
 For more information, see the descriptions of the individual <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144185(v=vs.85)">Control Panel messages</a>.
 
-
-
-
 ## -remarks
 
-
-
 Implementers of Control Panel items must also implement this function. No default implementation is available.
-
-
-

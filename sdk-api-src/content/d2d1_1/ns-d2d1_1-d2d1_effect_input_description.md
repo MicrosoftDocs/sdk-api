@@ -44,45 +44,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D2D1_EFFECT_INPUT_DESCRIPTION structure
-
-
 ## -description
-
 
 Describes features of an effect.
 
-
 ## -struct-fields
-
-
-
 
 ### -field effect
 
- 
-
+The effect whose input connection is being specified.
 
 ### -field inputIndex
 
 The input index of the effect that is being considered.
 
-
 ### -field inputRectangle
 
 The amount of data that would be available on the input. This can be used to query this information when the data is not yet available. 
 
-
-### -field Effect
-
-The effect whose input connection is being specified.
-
-
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  The caller should not rely heavily on the input rectangles returned by this structure. They can change due to subtle changes in effect implementations and due to optimization changes in the effect rendering system. </div>
-<div> </div>
-
-
+> [!NOTE]
+> You shouldn't rely heavily on the input rectangles returned by this structure. They can change due to subtle changes in effect implementations, and due to optimization changes in the effect rendering system.

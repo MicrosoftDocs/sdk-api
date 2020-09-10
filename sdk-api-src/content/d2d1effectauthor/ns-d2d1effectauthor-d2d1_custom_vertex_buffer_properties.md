@@ -44,76 +44,42 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES structure
-
-
 ## -description
-
 
 Defines a vertex shader and the input element description to define the input layout. The combination is used to allow a custom vertex effect to create a custom vertex shader and pass it a custom layout.
 
-
 ## -struct-fields
-
-
-
 
 ### -field shaderBufferWithInputSignature
 
- 
-
+A pointer to the buffer.
 
 ### -field shaderBufferSize
 
- 
-
+The size of the buffer.
 
 ### -field inputElements
 
 An array of input assembler stage data types.
 
-
 ### -field elementCount
 
 The number of input elements in the vertex shader.
-
 
 ### -field stride
 
 The vertex stride.
 
-
-#### - vertexShader
-
-The unique ID of the vertex shader.
-
-
 ## -remarks
-
-
 
 The vertex shader will be loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createvertexbuffer">CreateVertexBuffer</a> call that accepts the vertex buffer properties.
 
 This structure does not need to be specified if one of the standard vertex shaders is used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_usage">D2D1_VERTEX_USAGE</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createvertexbuffer">ID2D1EffectContext::CreateVertexBuffer</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a>
- 
-
- 
-

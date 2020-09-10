@@ -44,76 +44,39 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LPPRINTHOOKPROC callback function
-
-
 ## -description
-
 
 Receives messages or notifications intended for the default dialog box procedure of the <b>Print</b> dialog box. This is an application-defined or library-defined callback function that is used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function.
 
 The <b>LPPRINTHOOKPROC</b> type defines a pointer to this callback function. <i>PrintHookProc</i> is a placeholder for the application-defined or library-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
+A handle to the <b>Print</b> dialog box for which the message is intended.
 
 ### -param Arg2
 
+The identifier of the message being received.
 
 ### -param Arg3
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ### -param Arg4
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter. 
 
-
-
-
-
-
-
-#### - hdlg [in]
-
-A handle to the <b>Print</b> dialog box for which the message is intended.
-
-
-#### - lParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter. 
-
-If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure containing the values specified when the dialog box was created.
-
-
-#### - uiMsg [in]
-
-The identifier of the message being received.
-
-
-#### - wParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
+If the <i>Arg2</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>Arg4</i> is a pointer to a <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure containing the values specified when the dialog box was created.
 
 ## -returns
-
-
 
 If the hook procedure returns zero, the default dialog box procedure processes the message.
 
 If the hook procedure returns a nonzero value, the default dialog box procedure ignores the message.
 
-
-
-
 ## -remarks
-
-
 
 When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function to create a <b>Print</b> dialog box, you can provide a <i>PrintHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the  <b>lpfnPrintHook</b> member and specify the <b>PD_ENABLEPRINTHOOK</b> flag in the  <b>Flags</b> member.
 
@@ -125,13 +88,7 @@ Do not call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/
 
 You can subclass the standard controls of a common dialog box. However, the dialog box procedure may also subclass the controls. Because of this, you should subclass controls when your hook procedure processes the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. This ensures that your subclass procedure receives the control-specific messages before the subclass procedure set by the dialog box procedure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 

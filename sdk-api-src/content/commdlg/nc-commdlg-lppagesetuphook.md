@@ -44,76 +44,39 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# LPPAGESETUPHOOK callback function
-
-
 ## -description
-
 
 Receives messages or notifications intended for the default dialog box procedure of the <b>Page Setup</b> dialog box. The <i>PageSetupHook</i> hook procedure is an application-defined or library-defined callback function used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function.
 
 The <b>LPPAGESETUPHOOK</b> type defines a pointer to this callback function. <i>PageSetupHook</i> is a placeholder for the application-defined or library-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
+A handle to the <b>Page Setup</b> dialog box for which the message is intended.
 
 ### -param Arg2
 
+The identifier of the message being received.
 
 ### -param Arg3
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
 
 ### -param Arg4
 
+Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter. 
 
-
-
-
-
-
-
-#### - hdlg [in]
-
-A handle to the <b>Page Setup</b> dialog box for which the message is intended.
-
-
-#### - lParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter. 
-
-If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a> structure containing the values specified when the dialog box was created.
-
-
-#### - uiMsg [in]
-
-The identifier of the message being received.
-
-
-#### - wParam [in]
-
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter.
-
+If the <i>Arg2</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>Arg4</i> is a pointer to a <a href="/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a> structure containing the values specified when the dialog box was created.
 
 ## -returns
-
-
 
 If the hook procedure returns zero, the default dialog box procedure processes the message.
 
 If the hook procedure returns a nonzero value, the default dialog box procedure ignores the message.
 
-
-
-
 ## -remarks
-
-
 
 When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function to create a <b>Page Setup</b> dialog box, you can provide a <i>PageSetupHook</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a> structure that you passed to the dialog creation function. Specify the pointer to the hook procedure in the  <b>lpfnPageSetupHook</b> member and specify the <b>PSD_ENABLEPAGESETUPHOOK</b> flag in the  <b>Flags</b> member.
 
