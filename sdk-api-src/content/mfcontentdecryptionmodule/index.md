@@ -1,16 +1,17 @@
 ---
-UID: NA:mfidl
+UID: NA:mfcontentdecryptionmodule
+title: Mfcontentdecryptionmodule.h header
 ms.assetid: 18649fc4-e301-3952-9662-48f1c9a4e6bb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: mf
 f1_keywords:
- - mfidl
- - mfidl/mfidl
+ - Mfcontentdecryptionmodule
+ - Mfcontentdecryptionmodule/Mfcontentdecryptionmodule
 ---
 
-# Mfidl.h header
+# Mfcontentdecryptionmodule.h header
 
 
 ## -description
