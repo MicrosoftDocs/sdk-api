@@ -47,19 +47,11 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# IMAGEHLP_MODULEW64 structure
-
-
 ## -description
-
 
 Contains module information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
@@ -282,15 +274,11 @@ A value that indicates whether the module contains public symbols.
 
 ### -field MachineType
 
- 
-
+TBD
 
 ### -field Reserved
 
- 
-
-
-
+TBD
 
 ## -remarks
 

@@ -46,9 +46,6 @@ req.redist: DbgHelp.dll 6.2 or later
 ms.custom: 19H1
 ---
 
-# SymGetLineFromInlineContextW function
-
-
 ## -description
 
 

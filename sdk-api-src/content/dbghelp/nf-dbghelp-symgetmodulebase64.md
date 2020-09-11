@@ -45,9 +45,6 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# SymGetModuleBase64 function
-
-
 ## -description
 
 
@@ -65,14 +62,7 @@ A handle to the process that was originally passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-### -param qwAddr
-
-TBD
-
-
-
-
-#### - dwAddr [in]
+### -param qwAddr [in]
 
 The virtual address that is contained in one of the modules loaded by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function.

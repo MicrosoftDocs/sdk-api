@@ -44,54 +44,28 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT structure
-
-
 ## -description
-
 
 Contains the response to a <b>D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION</b> query.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Output
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output">D3D11_AUTHENTICATED_QUERY_OUTPUT</a> structure that contains a Message Authentication Code (MAC) and other data.
 
-
 ### -field DecoderHandle
 
- 
-
+A handle to a decoder device.
 
 ### -field CryptoSessionHandle
 
 A handle to the cryptographic session that is associated with the decoder device.
 
-
 ### -field DeviceHandle
 
 A handle to the Direct3D device that is associated with the decoder device.
 
-
-#### - DecodeHandle
-
-A handle to a decoder device.
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
- 
-
- 
-

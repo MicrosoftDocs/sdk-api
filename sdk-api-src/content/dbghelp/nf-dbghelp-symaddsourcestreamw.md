@@ -46,9 +46,6 @@ req.redist: DbgHelp.dll 6.8 or later
 ms.custom: 19H1
 ---
 
-# SymAddSourceStreamW function
-
-
 ## -description
 
 
@@ -65,31 +62,21 @@ Adds the stream to the specified module for use by the <a href="https://docs.mic
 A handle to a process. This handle must have been previously passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param Base [in]
 
 The base address of the module.
 
-
 ### -param FileSpec
 
-TBD
-
+A null-terminated string that contains the absolute or relative path to a file that contains the source indexing stream. Can be <b>NULL</b> if <i>Buffer</i> is not <b>NULL</b>.
 
 ### -param Buffer [in, optional]
 
 A buffer that contains the source indexing stream. Can be <b>NULL</b> if <i>StreamFile</i> is not <b>NULL</b>.
 
-
 ### -param Size [in]
 
 Size, in bytes, of the <i>Buffer</i> buffer.
-
-
-#### - StreamFile [in, optional]
-
-A null-terminated string that contains the absolute or relative path to a file that contains the source indexing stream. Can be <b>NULL</b> if <i>Buffer</i> is not <b>NULL</b>.
-
 
 ## -returns
 

@@ -45,24 +45,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT)
-
-
 ## -description
-
 
 Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> structure that is initialized with info for a counter.
 
-
 ## -parameters
-
-
-
 
 ### -param counter
 
-TBD
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter">D3D11_COUNTER</a></b>
 
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter">D3D11_COUNTER</a>-typed value that specifies the type of counter.
 
 ### -param miscFlags
 
@@ -70,21 +63,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Reserved.
 
-
-#### - query
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter">D3D11_COUNTER</a></b>
-
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter">D3D11_COUNTER</a>-typed value that specifies the type of counter.
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a>
- 
-
- 
-

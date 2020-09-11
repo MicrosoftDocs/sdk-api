@@ -45,19 +45,11 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# KDHELP64 structure
-
-
 ## -description
-
 
 Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Thread
 
@@ -118,40 +110,27 @@ The stack limit.
 
 ### -field BuildVersion
 
- 
-
+TBD
 
 ### -field RetpolineStubFunctionTableSize
 
- 
-
+TBD
 
 ### -field RetpolineStubFunctionTable
 
- 
-
+TBD
 
 ### -field RetpolineStubOffset
 
- 
-
+TBD
 
 ### -field RetpolineStubSize
 
- 
-
+TBD
 
 ### -field Reserved0
 
- 
-
-
-
-
-#### - Reserved
-
 This member is reserved for use by the operating system.
-
 
 ## -remarks
 

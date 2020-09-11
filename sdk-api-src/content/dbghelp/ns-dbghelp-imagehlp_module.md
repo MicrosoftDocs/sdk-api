@@ -47,19 +47,11 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# IMAGEHLP_MODULE structure
-
-
 ## -description
-
 
 Contains module information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
@@ -209,75 +201,6 @@ The image name. The name may or may not contain a full path.
 ### -field LoadedImageName
 
 The full path and file name of the file from which symbols were loaded.
-
-
-#### - CVData
-
-The contents of the CV record.
-
-
-#### - CVSig
-
-The signature of the CV record in the debug directories.
-
-
-#### - DbgUnmatched
-
-A value that indicates whether the loaded DBG is unmatched.
-
-
-#### - GlobalSymbols
-
-A value that indicates whether symbol information is available.
-
-
-#### - LineNumbers
-
-A value that indicates whether line number information is available.
-
-
-#### - LoadedPdbName
-
-The full path and file name of the .pdb file.
-
-
-#### - PdbAge
-
-The DBI age of PDB.
-
-
-#### - PdbSig
-
-The PDB signature.
-
-
-#### - PdbSig70
-
-The PDB signature (Visual C/C++ 7.0 and later)
-
-
-#### - PdbUnmatched
-
-A value that indicates whether the loaded PDB is unmatched.
-
-
-#### - Publics
-
-A value that indicates whether the module contains public symbols.
-
-<b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
-
-
-#### - SourceIndexed
-
-A value that indicates whether the .pdb supports the source server.
-
-<b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
-
-
-#### - TypeInfo
-
-A value that indicates whether type information is available.
 
 
 ## -remarks

@@ -47,14 +47,9 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# IMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure
-
-
 ## -description
 
-
 Contains information about a deferred symbol load.
-
 
 ## -struct-fields
 
@@ -101,20 +96,8 @@ A handle to a file. This member is used with <b>CBA_DEFERRED_SYMBOL_LOAD_PARTIAL
 
 This member can be one of the following values.
 
-
-
-#### DSLFLAG_MISMATCHED_DBG (0x2)
-
-
-
-#### DSLFLAG_MISMATCHED_PDB (0x1)
-
-
-#### -field Flags.DSLFLAG_MISMATCHED_DBG (0x2)
-
-
-#### -field Flags.DSLFLAG_MISMATCHED_PDB (0x1)
-
+- DSLFLAG_MISMATCHED_DBG (0x2)
+- DSLFLAG_MISMATCHED_PDB (0x1)
 
 ## -remarks
 

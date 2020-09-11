@@ -46,19 +46,11 @@ req.redist: DbgHelp.dll 6.3 or later
 ms.custom: 19H1
 ---
 
-# SymSrvStoreSupplement function
-
-
 ## -description
-
 
 Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -66,9 +58,10 @@ A handle to a process. This handle must have been previously passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-### -param SrvPath
+### -param SrvPath [in, optional]
 
-TBD
+The path to the symbol store.
+
 
 
 ### -param Node [in]
@@ -86,9 +79,6 @@ The name of the file.
 If this parameter is <b>SYMSTOREOPT_COMPRESS</b>, the file is compressed in the symbol store. Currently, there are no other supported values.
 
 
-#### - SymPath [in, optional]
-
-The path to the symbol store.
 
 
 ## -returns

@@ -45,9 +45,6 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# SymGetSymFromAddr64 function
-
-
 ## -description
 
 
@@ -66,9 +63,10 @@ A handle to the process that was originally passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-### -param qwAddr
+### -param qwAddr [in]
 
-TBD
+The address for which a symbol is to be located. The address does not have to be on a symbol boundary. If the address comes after the beginning of a symbol and before the end of the symbol (the beginning of the symbol plus the symbol size), the symbol is found.
+
 
 
 ### -param pdwDisplacement [out, optional]
@@ -81,10 +79,6 @@ The displacement from the beginning of the symbol, or zero.
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure.
 
-
-#### - dwAddr [in]
-
-The address for which a symbol is to be located. The address does not have to be on a symbol boundary. If the address comes after the beginning of a symbol and before the end of the symbol (the beginning of the symbol plus the symbol size), the symbol is found.
 
 
 ## -returns

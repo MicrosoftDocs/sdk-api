@@ -45,19 +45,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(D3D11_FILTER,D3D11_TEXTURE_ADDRESS_MODE,D3D11_TEXTURE_ADDRESS_MODE,D3D11_TEXTURE_ADDRESS_MODE,FLOAT,UINT,D3D11_COMPARISON_FUNC,const FLOAT,
-
-
 ## -description
-
 
 Instantiates a new instance of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a> structure that is initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param filter
 
@@ -108,23 +100,6 @@ TBD
 
 TBD
 
-
-
-
-#### - o [ref]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a></b>
-
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a> structure.
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a>
- 
-
- 
-

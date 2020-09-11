@@ -44,11 +44,7 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# PREAD_PROCESS_MEMORY_ROUTINE64 callback function
-
-
 ## -description
-
 
 An application-defined callback function used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It is called when 
@@ -57,48 +53,31 @@ An application-defined callback function used with the
 The <b>PREAD_PROCESS_MEMORY_ROUTINE64</b> type defines a pointer to this callback function. 
 <b>ReadProcessMemoryProc64</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process for which the stack trace is generated.
 
+### -param qwBaseAddress [in]
 
-### -param qwBaseAddress
-
+The base address of the memory to be read.
 
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the memory to be read.
 
-
 ### -param nSize [in]
 
 The size of the memory to be read, in bytes.
-
 
 ### -param lpNumberOfBytesRead [out]
 
 A pointer to a variable that receives the number of bytes actually read.
 
-
-#### - lpBaseAddress [in]
-
-The base address of the memory to be read.
-
-
 ## -returns
 
-
-
 If the function succeeds, the return value should be <b>TRUE</b>. If the function fails, the return value should be <b>FALSE</b>.
-
-
-
 
 ## -remarks
 

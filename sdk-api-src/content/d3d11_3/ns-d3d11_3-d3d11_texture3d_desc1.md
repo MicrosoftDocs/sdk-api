@@ -44,9 +44,6 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D11_TEXTURE3D_DESC1 structure
-
-
 ## -description
 
 

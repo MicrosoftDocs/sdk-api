@@ -44,19 +44,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3DCAPS9 structure
-
-
 ## -description
-
 
 Represents the capabilities of the hardware exposed through the Direct3D object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceType
 
@@ -64,22 +56,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtyp
 
 Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, which identifies what type of resources are used for processing vertices.
 
-
 ### -field AdapterOrdinal
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Adapter on which this Direct3D device was created. This ordinal is valid only to pass to methods of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface that created this Direct3D device. The <b>IDirect3D9</b> interface can always be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>. 
 
-
 ### -field Caps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-
 The following driver-specific capability.
-
-
 
 <table>
 <tr>
@@ -1971,13 +1958,11 @@ Device driver capabilities for adaptive tessellation. For more information, see 
 
 ### -field MaxNpatchTessellationLevel
 
- 
-
+TBD
 
 ### -field Reserved5
 
- 
-
+TBD
 
 ### -field MasterAdapterOrdinal
 
@@ -2096,21 +2081,6 @@ Maximum number of vertex shader instruction slots supported. The maximum value t
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Maximum number of pixel shader instruction slots supported. The maximum value that can be set on this cap is 32768. Devices that support ps_3_0 are required to support at least 512 instruction slots.
-
-
-#### - Reserved2
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved.
-
-
-#### - Reserved3
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved.
-
 
 ## -remarks
 

@@ -68,9 +68,10 @@ A handle to the process that was originally passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-### -param qwAddr
+### -param qwAddr [in]
 
-TBD
+The virtual address that is contained in one of the modules loaded by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function.
 
 
 ### -param ModuleInfo [out]
@@ -78,13 +79,6 @@ TBD
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_modulew64">IMAGEHLP_MODULEW64</a> structure. The <b>SizeOfStruct</b> member must be set to the size of the 
 <b>IMAGEHLP_MODULEW64</b> structure. An invalid value will result in an error.
-
-
-#### - dwAddr [in]
-
-The virtual address that is contained in one of the modules loaded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function
-
 
 ## -returns
 

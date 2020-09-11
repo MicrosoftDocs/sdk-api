@@ -48,19 +48,11 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# SymGetModuleInfoW function
-
-
 ## -description
-
 
 Retrieves the module information of the specified module.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 

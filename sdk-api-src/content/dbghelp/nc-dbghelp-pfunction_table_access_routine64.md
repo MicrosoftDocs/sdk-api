@@ -44,11 +44,7 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# PFUNCTION_TABLE_ACCESS_ROUTINE64 callback function
-
-
 ## -description
-
 
 An application-defined callback function used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It provides access to the run-time function table for the process.
@@ -62,17 +58,13 @@ The <b>PFUNCTION_TABLE_ACCESS_ROUTINE64</b> type defines a pointer to this callb
 
 
 
-### -param ahProcess
+### -param ahProcess [in]
 
+A handle to the process for which the stack trace is generated.
 
 ### -param AddrBase [in]
 
 The address of the instruction to be located.
-
-
-#### - hProcess [in]
-
-A handle to the process for which the stack trace is generated.
 
 
 ## -returns

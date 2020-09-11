@@ -44,29 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D11_SHADER_RESOURCE_VIEW_DESC1 structure
-
-
 ## -description
-
 
 Describes a shader-resource view.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Format
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
 
-
 ### -field ViewDimension
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _SRV to use in the union below.
-
 
 ### -field Buffer
 

@@ -44,24 +44,15 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D11_TEXTURE2D_DESC1 structure
-
-
 ## -description
-
 
 Describes a 2D texture.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Width
 
 Texture width (in texels). The  range is from 1 to D3D11_REQ_TEXTURE2D_U_OR_V_DIMENSION (16384). For a texture cube-map, the  range is from 1 to D3D11_REQ_TEXTURECUBE_DIMENSION (16384). However, the range is actually constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
-
 
 ### -field Height
 

@@ -44,44 +44,18 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure
-
-
 ## -description
-
 
 This subobject is unsupported in the current release.
 
-
 ## -struct-fields
 
-
-
-
 ### -field SubobjectToAssociate
-
- 
-
 
 ### -field NumExports
 
 Size of the <i>pExports</i> array.  If 0, this is being explicitly defined as a default association.  Another way to define a default association is to omit this subobject association for that subobject completely.
 
-
-
-#### pExports
-
-The array of exports with which the subobject is associated.
-
-
 ### -field pExports
 
- 
-
-
-
-
-#### - pDXILSubobjectName
-
-Name of the subobject defined in a DXIL library to define an association to.
-
+The array of exports with which the subobject is associated.

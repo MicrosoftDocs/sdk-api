@@ -48,9 +48,6 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# SymGetModuleInfo64 function
-
-
 ## -description
 
 
@@ -68,9 +65,10 @@ A handle to the process that was originally passed to the
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
-### -param qwAddr
+### -param qwAddr [in]
 
-TBD
+The virtual address that is contained in one of the modules loaded by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function.
 
 
 ### -param ModuleInfo [out]
@@ -78,12 +76,6 @@ TBD
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_module">IMAGEHLP_MODULE64</a> structure. The <b>SizeOfStruct</b> member must be set to the size of the 
 <b>IMAGEHLP_MODULE64</b> structure. An invalid value will result in an error.
-
-
-#### - dwAddr [in]
-
-The virtual address that is contained in one of the modules loaded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function
 
 
 ## -returns

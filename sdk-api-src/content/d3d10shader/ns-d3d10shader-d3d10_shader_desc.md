@@ -44,19 +44,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D10_SHADER_DESC structure
-
-
 ## -description
-
 
 Describes a shader.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -64,13 +56,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Shader version.
 
-
 ### -field Creator
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the originator of the shader.
-
 
 ### -field Flags
 
@@ -78,13 +68,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Shader compilation/parse flags.
 
-
 ### -field ConstantBuffers
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of shader-constant buffers.
-
 
 ### -field BoundResources
 
@@ -92,13 +80,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The number of resource (textures and buffers) bound to a shader.
 
-
 ### -field InputParameters
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of parameters in the input signature.
-
 
 ### -field OutputParameters
 
@@ -106,13 +92,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The number of parameters in the output signature.
 
-
 ### -field InstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of intermediate-language instructions in the compiled shader.
-
 
 ### -field TempRegisterCount
 
@@ -120,13 +104,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The number of temporary registers in the compiled shader.
 
-
 ### -field TempArrayCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of temporary arrays used.
-
 
 ### -field DefCount
 
@@ -134,13 +116,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of constant defines.
 
-
 ### -field DclCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of declarations (input + output).
-
 
 ### -field TextureNormalInstructions
 
@@ -148,13 +128,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of non-categorized texture instructions.
 
-
 ### -field TextureLoadInstructions
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of texture load instructions
-
 
 ### -field TextureCompInstructions
 
@@ -162,13 +140,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of texture comparison instructions
 
-
 ### -field TextureBiasInstructions
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of texture bias instructions
-
 
 ### -field TextureGradientInstructions
 
@@ -176,13 +152,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of texture gradient instructions.
 
-
 ### -field FloatInstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of floating point arithmetic instructions used.
-
 
 ### -field IntInstructionCount
 
@@ -190,13 +164,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of signed integer arithmetic instructions used.
 
-
 ### -field UintInstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of unsigned integer arithmetic instructions used.
-
 
 ### -field StaticFlowControlCount
 
@@ -204,13 +176,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of static flow control instructions used.
 
-
 ### -field DynamicFlowControlCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of dynamic flow control instructions used.
-
 
 ### -field MacroInstructionCount
 
@@ -218,13 +188,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of macro instructions used.
 
-
 ### -field ArrayInstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of array instructions used.
-
 
 ### -field CutInstructionCount
 
@@ -232,13 +200,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of cut instructions used.
 
-
 ### -field EmitInstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of emit instructions used.
-
 
 ### -field GSOutputTopology
 
@@ -246,13 +212,11 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 
 Geometry shader output topology.
 
-
 ### -field GSMaxOutputVertexCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Geometry shader maximum output vertex count.
-
 
 #### - BitwiseInstructionCount
 
@@ -260,13 +224,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of bitwise operations.
 
-
 #### - ConversionInstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of conversion operations.
-
 
 #### - MovInstructionCount
 
@@ -274,30 +236,16 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of mov instructions.
 
-
 #### - MovcInstructionCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of movc instructions.
 
-
 ## -remarks
-
-
 
 A shader is written in HLSL and compiled into an intermediate language by the HLSL compiler. The shader description returns information about the compiled shader. Get a shader description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getdesc">ID3D10ShaderReflection::GetDesc</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
- 
-
- 
-

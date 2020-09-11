@@ -45,81 +45,44 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirect3DVertexDeclaration9::GetDeclaration
-
-
 ## -description
-
 
 Gets the vertex shader declaration.
 
-
 ## -parameters
 
+### -param pElement
 
-
-
-### -param arg1
-
-TBD
-
-
-### -param pNumElements [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
-
-Number of elements in the array. The application needs to allocate enough room for this. 
-
-
-#### - pElement [in, out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>*</b>
+Type: [in, out] <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>*</b>
 
 Array of vertex elements (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro.
 
+### -param pNumElements
+
+Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+
+Number of elements in the array. The application needs to allocate enough room for this. 
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
-     D3DERR_INVALIDCALL.
-
-
-
+If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
 ## -remarks
-
-
 
 The number of elements, pNumElements, includes the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
 
 Here's an example that will return the vertex declaration array of up to 256 elements:
 
-
-```
- 
+```cpp
 D3DVERTEXELEMENT9 decl[MAXD3DDECLLENGTH];
 UINT numElements;
 HRESULT hr = m_pVertexDeclaration->GetDeclaration( decl, &numElements);
-
 ```
-
 
 Specify <b>NULL</b> for pDeclto get the number of elements in the declaration.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>
- 
-
- 
-

@@ -47,9 +47,6 @@ req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
 ---
 
-# IMAGEHLP_MODULE64 structure
-
-
 ## -description
 
 
@@ -282,19 +279,13 @@ A value that indicates whether the module contains public symbols.
 
 ### -field MachineType
 
- 
-
+TBD
 
 ### -field Reserved
 
- 
-
-
-
+TBD
 
 ## -remarks
-
-
 
 This structure supersedes the <b>IMAGEHLP_MODULE</b> structure. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_MODULE</b> is defined as follows in DbgHelp.h. 
